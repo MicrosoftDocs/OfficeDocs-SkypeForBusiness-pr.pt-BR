@@ -12,16 +12,16 @@ ms:contentKeyID: 49733584
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0f11aab3c58a43ac0746cb1f297bf4f3f85d28c0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 346d4bf6840c8ce5d13b5c7843f438723fa97118
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735820"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048204"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,29 +35,29 @@ ms.locfileid: "41735820"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-17_
+_**Última modificação do tópico:** 2012-10-17_
 
-Embora os agentes de coleta de dados unificados sejam automaticamente instalados e ativados em cada servidor front-end, isso não significa que você começará a coletar dados de monitoramento automaticamente no momento em que você terminar de instalar o Microsoft Lync Server 2013. Em vez disso, você deve fazer duas coisas: você deve associar seus servidores de front-end/pools front-end a um banco de dados de monitoramento e deve habilitar a monitoração de detalhes de chamadas (CDR) e/ou Quality of Experience (QoE) no escopo global e/ou no escopo do site.
+Embora os agentes de coleta de dados unificados sejam instalados e ativados automaticamente em cada servidor de front-end, isso não significa que você começará automaticamente a coletar dados de monitoramento no momento em que concluir a instalação do Microsoft Lync Server 2013. Ao invés disso, você deve fazer duas coisas: associar seus pools de servidores de Front-End/servidores de Front-end com um banco de dados de monitoramento e deve habilitar o registro de detalhes da chamada (CDR) e/ou monitoramento da Qualidade de Experiência (QoE) no escopo global e/ou local.
 
-Para obter instruções passo a passo sobre como associar servidores de front-end ou pools de front-end a um banco de dados de monitoramento, consulte o tópico [associando um repositório de monitoramento a um pool de front-end no Lync Server 2013](lync-server-2013-associating-a-monitoring-store-with-a-front-end-pool.md) no guia de implantação. Depois que essas associações tiverem sido feitas e após a publicação da nova topologia do Lync Server, você ainda não poderá coletar os dados de monitoramento. Isso ocorre porque, por padrão, a coleta de dados CDR e QoE é desativada quando você instala o Lync Server 2013.
+Para obter instruções passo a passo sobre como associar servidores front-end ou pools de front-ends a um banco de dados de monitoramento, consulte o tópico [associando um repositório de monitoramento a um pool de front-ends no Lync Server 2013](lync-server-2013-associating-a-monitoring-store-with-a-front-end-pool.md) no guia de implantação. Após estas associações serem realizadas e após sua nova topologia do Lync Server ter sido publicada, você ainda não poderá coletar dados de monitoramento. Isso ocorre porque, por padrão, a coleta de dados de CDR e QoE é desabilitada quando você instala o Lync Server 2013.
 
-Para começar a coleta de dados, você precisará habilitar o CDR e/ou o monitoramento QoE. (Observe que você não precisa habilitar o monitoramento de CDR e QoE; se preferir, você pode habilitar um tipo de monitoramento enquanto deixa o outro tipo desabilitado.) Para habilitar o monitoramento de CDR no escopo global, execute o seguinte comando no Shell de gerenciamento do Lync Server:
+Para poder começar a coletar dados necessários habilite o CDR e/ou monitoramento QoE. (Observe que você não precisa habilitar o monitoramento de CDR e QoE; se preferir, é possível habilitar um tipo de monitoramento enquanto deixa o outro tipo desabilitado.) Para habilitar o monitoramento de CDR no escopo global, execute o seguinte comando no Shell de gerenciamento do Lync Server:
 
     Set-CsCdrConfiguration -Identity "global" -EnableCDR $True
 
-Você também pode habilitar o monitoramento de CDR no painel de controle do Lync Server 2013. No painel de controle do Lync Server, conclua o seguinte procedimento:
+Como alternativa, você pode habilitar o monitoramento de CDR no painel de controle do Lync Server 2013. No painel de controle do Lync Server, conclua o procedimento a seguir:
 
 1.  Clique em **Monitoramento**.
 
-2.  Na guia **Registro de Detalhes das Chamadas**, clique duas vezes na configuração **Global**.
+2.  Na guia **Registro de Detalhes da Chamada**, clique duas vezes na configuração **Global**.
 
-3.  No painel **Editar configuração do registro de detalhes das chamadas (CDR)**, selecione **Habilitar monitoramento de CDRs** e clique em **Confirmar**.
+3.  No painel **Editar configuração do registro de detalhe da chamada (CDR)**, selecione **Habilitar monitoramento de CDRs** e clique em **Confirmar**.
 
-Para habilitar o monitoramento de QoE no escopo global, execute este comando dentro do Shell de gerenciamento do Lync Server:
+Para habilitar o monitoramento de QoE no escopo global, execute este comando no Shell de gerenciamento do Lync Server:
 
     Set-CsQoEConfiguration -Identity "global" -EnableQoE $True
 
-Se preferir, você também pode habilitar o monitoramento de QoE no painel de controle do Lync Server. No Painel de Controle, execute o seguinte procedimento:
+Se preferir, você também pode habilitar o monitoramento de QoE no painel de controle do Lync Server. No Painel de Controle, conclua o seguinte procedimento:
 
 1.  Clique em **Monitoramento**.
 
@@ -65,7 +65,7 @@ Se preferir, você também pode habilitar o monitoramento de QoE no painel de co
 
 3.  No painel **Editar configuração da Qualidade da Experiência (QoE)**, selecione **Habilitar monitoramento de dados QoE** e clique em **Confirmar**.
 
-Como observado, os exemplos precedentes habilitam o monitoramento no escopo global; isto é, eles habilitam o monitoramento CDR e QoE em toda a sua organização. Como alternativa, é possível criar definições de configurações CDR e QoE separadas no escopo local e habilitar ou desabilitar seletivamente o monitoramento de cada local. Por exemplo, é possível habilitar o monitoramento CDR para seu local Redmond e desabilitar o monitoramento CDR para Dublin. Para obter mais informações sobre como gerenciar suas configurações de monitoramento de configuração, consulte o tópico do guia de implantação [Configurando a gravação de detalhes da chamada e as configurações de qualidade de experiência no Lync Server 2013](lync-server-2013-configuring-call-detail-recording-and-quality-of-experience-settings.md).
+Como observado, os exemplos anteriores habilitam o monitoramento no escopo global; isto é, eles habilitam o monitoramento CDR e QoE através da sua organização. Em alternativa, é possível criar definições de configurações CDR e QoE separadas no escopo local e habilitar ou desabilitar seletivamente o monitoramento de cada local. Por exemplo, é possível habilitar o monitoramento CDR para seu local Redmond, desabilitar o monitoramento CDR para Dublin. Para obter mais informações sobre como gerenciar suas definições de configuração de monitoramento, consulte o tópico Deployment Guide [Configuring Call Detail Recording and Quality of Experience Settings in Lync Server 2013](lync-server-2013-configuring-call-detail-recording-and-quality-of-experience-settings.md).
 
 </div>
 

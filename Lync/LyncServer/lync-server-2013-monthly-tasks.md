@@ -12,16 +12,16 @@ ms:contentKeyID: 63969654
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3d4a7ae6009c7e34c49d0e49bea131b6cc03fd15
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5c2ced4d5d61a51ff3e25422ba9486887b72470a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756765"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42047459"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41756765"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2014-08-18_
+_**Última modificação do tópico:** 2014-08-18_
 
-As tarefas mensais se concentram em garantir a integridade de longo prazo de um sistema.
+As tarefas mensais concentram-se em garantir a integridade de longo prazo de um sistema.
 
 <div>
 
@@ -47,7 +47,7 @@ As seguintes tarefas devem ser realizadas mensalmente:
 
   - [Exibir o status das configurações globais de uma floresta no Lync Server 2013](lync-server-2013-viewing-status-of-global-settings-for-a-forest.md)
 
-  - [Exibir as configurações do servidor de borda no Lync Server 2013](lync-server-2013-view-edge-server-settings.md)
+  - [Exibir configurações do servidor de borda no Lync Server 2013](lync-server-2013-view-edge-server-settings.md)
 
   - [Verificar os certificados do servidor do Lync Server 2013](lync-server-2013-check-lync-server-2013-server-certificates.md)
 
@@ -55,9 +55,9 @@ As seguintes tarefas devem ser realizadas mensalmente:
 
   - [Verificar regras de normalização de voz no Lync Server 2013](lync-server-2013-check-voice-normalization-rules.md)
 
-  - [Teste o número de telefone em uma política de voz no Lync Server 2013](lync-server-2013-test-telephone-number-against-a-voice-policy.md)
+  - [Testar número de telefone em uma política de voz no Lync Server 2013](lync-server-2013-test-telephone-number-against-a-voice-policy.md)
 
-  - [Teste o número de telefone em uma rota de voz no Lync Server 2013](lync-server-2013-test-telephone-number-against-a-voice-route.md)
+  - [Testar número de telefone em uma rota de voz no Lync Server 2013](lync-server-2013-test-telephone-number-against-a-voice-route.md)
 
   - [Testar a configuração de voz no Lync Server 2013](lync-server-2013-test-voice-configuration.md)
 
@@ -65,17 +65,17 @@ As seguintes tarefas devem ser realizadas mensalmente:
 
   - [Testar o acesso do aplicativo Web no Lync Server 2013](lync-server-2013-test-web-app-access.md)
 
-  - [Testar o acesso anônimo ao aplicativo Web no Lync Server 2013](lync-server-2013-test-anonymous-web-app-access.md)
+  - [Testar o acesso ao aplicativo Web anônimo no Lync Server 2013](lync-server-2013-test-anonymous-web-app-access.md)
 
-  - [Testar o acesso do usuário móvel no Lync Server 2013](lync-server-2013-test-mobile-user-access.md)
+  - [Testar o acesso de usuário móvel no Lync Server 2013](lync-server-2013-test-mobile-user-access.md)
 
   - [Testar a capacidade dos usuários móveis de trocar mensagens instantâneas no Lync Server 2013](lync-server-2013-test-mobile-users-ability-to-exchange-instant-messages.md)
 
-  - [Testar notificações por push em Smart Phones no Lync Server 2013](lync-server-2013-test-push-notifications-to-smart-phones.md)
+  - [Testar notificações por push para telefones inteligentes no Lync Server 2013](lync-server-2013-test-push-notifications-to-smart-phones.md)
 
   - [Verificações de segurança no Lync Server 2013](lync-server-2013-security-checks.md)
 
-  - [Revisão da capacidade no Lync Server 2013](lync-server-2013-capacity-review.md)
+  - [Análise de capacidade no Lync Server 2013](lync-server-2013-capacity-review.md)
 
   - [Teste de recuperação de desastre no Lync Server 2013](lync-server-2013-disaster-recovery-test.md)
 

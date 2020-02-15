@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Novos recursos de IPv6'
+title: 'Lync Server 2013: novos recursos do IPv6'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185929
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4228dd3a10924fdddcff2c23e2784740e3192039
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 682dda5cd6da569f15d209a3cc1c8a2cc943d750
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41739401"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048442"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="new-ipv6-features-in-lync-server-2013"></a>Novos recursos de IPv6 no Lync Server 2013
+# <a name="new-ipv6-features-in-lync-server-2013"></a>Novos recursos IPv6 no Lync Server 2013
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41739401"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-08-16_
+_**Última modificação do tópico:** 2012-08-16_
 
-O Lync Server 2013 inclui suporte para endereços IPv6. Devido a um número cada vez maior de dispositivos que exigem endereços IP, o número de endereços IPv4 disponíveis, que são endereços de 32 bits, está acabando. O IPv6 fornece um número muito maior de endereços disponíveis, pois usa endereços de 128 bits. O uso de endereços IPv6 em seu ambiente depende do suporte para IPv6 nos dispositivos que você usa.
+O Lync Server 2013 inclui suporte para endereços IPv6. Devido a um número cada vez maior de dispositivos que exigem endereços IP, o número de endereços IPv4 disponíveis, que são endereços de 32 bits, está em execução. O IPv6 fornece um número muito maior de endereços disponíveis, pois usa endereços de 128 bits. O uso de endereços IPv6 em seu ambiente depende do suporte a IPv6 nos dispositivos que você usa.
 
-Como muitos dispositivos existentes ainda não dão suporte ao IPv6, uma transição completa do IPv4 para o IPv6 provavelmente levará vários anos. Portanto, o Lync Server 2013 inclui suporte a ambientes de rede com apenas endereços IPv4, somente endereços IPv6 e dois endereços de pilha dupla (IPv4 e IPv6).
+Por já existirem muitos dispositivos que ainda não suportam IPv6, uma transição completa de IPv4 para IPv6 provavelmente levará anos. Portanto, o Lync Server 2013 inclui suporte para ambientes de rede com apenas endereços IPv4, endereços IPv6 e endereços de pilha dual (IPv4 e IPv6).
 
 <div>
 

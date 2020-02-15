@@ -12,20 +12,20 @@ ms:contentKeyID: 48185295
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c5c8a52aabb504ce63ef6e340b5a68e9e8c4c0e7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d11e8bff053e483080e4725f2357c3434d9f08f5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735661"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049183"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="enabling-or-disabling-integration-of-lync-server-2013-with-exchange-storage"></a>Habilitando ou desabilitando a integração do Lync Server 2013 com armazenamento do Exchange
+# <a name="enabling-or-disabling-integration-of-lync-server-2013-with-exchange-storage"></a>Habilitar ou desabilitar a integração do Lync Server 2013 com o armazenamento do Exchange
 
 </div>
 
@@ -35,31 +35,31 @@ ms.locfileid: "41735661"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-09_
+_**Última modificação do tópico:** 2012-10-09_
 
-No painel de controle do Lync Server 2013, você usa configurações de arquivamento para habilitar e desabilitar a integração com o armazenamento do Exchange. Isso inclui as seguintes configurações de arquivamento:
+No painel de controle do Lync Server 2013, você usa configurações de arquivamento para habilitar e desabilitar a integração com o armazenamento do Exchange. Isso inclui as seguintes configurações de Arquivamento:
 
-  - Uma configuração global criada por padrão quando você implanta o Lync Server 2013.
+  - Uma configuração global criada por padrão ao implantar o Lync Server 2013.
 
-  - Configurações opcionais de nível de site e de pool que você pode criar e usar para especificar como o arquivamento é implementado para sites ou pools específicos.
+  - Configurações opcionais de nível do site e pool que você pode criar e usar para especificar como o arquivamento é implementado para sites específicos ou pools.
 
-Para obter detalhes sobre como as configurações de arquivamento são implementadas, incluindo quais opções você pode especificar e a hierarquia de configurações de arquivamento, consulte [como o arquivamento funciona no Lync Server 2013](lync-server-2013-how-archiving-works.md) na documentação de planejamento, documentação de implantação ou documentação de operações.
+Para obter detalhes sobre como as configurações de arquivamento são implementadas, incluindo quais opções você pode especificar e a hierarquia das configurações de arquivamento, consulte [How Archiving Works in Lync Server 2013](lync-server-2013-how-archiving-works.md) na documentação de planejamento, documentação de implantação ou operações.
 
 <div>
 
 ## <a name="to-enable-or-disable-integration-with-microsoft-exchange-storage"></a>Para habilitar ou desabilitar a integração com o armazenamento do Microsoft Exchange
 
-1.  Usando uma conta de usuário atribuída à função CsArchivingAdministrator ou CsAdministrator, faça logon em qualquer computador de sua implantação interna.
+1.  A partir da conta do usuário que foi atribuída à função CsArchivingAdministrator ou CsAdministrator, faça o logon em qualquer computador na sua implantação interna.
 
-2.  Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [abrir ferramentas administrativas do Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Na barra de navegação da esquerda, clique em **Monitoramento e Arquivamento**, e depois, clique em **Configuração de Arquivamento**.
+3.  Na barra de navegação esquerda, clique em **Monitoramento e Arquivamento** e clique em **Configuração do Arquivamento**.
 
-4.  Clique no nome da configuração apropriada de pool, site ou global na lista de configurações de arquivamento, clique em **Editar**, **Mostrar detalhes** e faça o seguinte:
+4.  Clique no nome da configuração do pool, local ou global adequada na lista de configurações de arquivamento, clique em **Editar**, em **Exibir detalhes** e faça o seguinte:
     
-      - Para habilitar a integração com o armazenamento do Exchange 2013, marque a caixa de seleção **integração do Microsoft Exchange** .
+      - Para habilitar a integração com o armazenamento 2013 do Exchange, marque a caixa de seleção integração com o **Microsoft Exchange** .
     
-      - Para desabilitar a integração com o armazenamento do Exchange 2013, desmarque a caixa de seleção **integração do Microsoft Exchange** .
+      - Para desabilitar a integração com o armazenamento do Exchange 2013, desmarque a caixa de seleção integração com o **Exchange** .
 
 5.  Clique em **Confirmar**.
 

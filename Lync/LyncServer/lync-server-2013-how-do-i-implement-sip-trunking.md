@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Como implementar tronco SIP?'
+title: 'Lync Server 2013: como implementar o tronco SIP?'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183666
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: de621d7508b69dd3adc3babf487406825f3a93f1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 062eb44fb79d6ecfa33f449e62341003bbed571b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738941"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050443"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="how-do-i-implement-sip-trunking-in-lync-server-2013"></a>Como implementar tronco SIP no Lync Server 2013?
+# <a name="how-do-i-implement-sip-trunking-in-lync-server-2013"></a>Como faço para implementar o tronco SIP no Lync Server 2013?
 
 </div>
 
@@ -35,53 +35,53 @@ ms.locfileid: "41738941"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-03-18_
+_**Última modificação do tópico:** 2013-03-18_
 
-Para implementar o entroncamento SIP, você deve direcionar a conexão por meio de um servidor de mediação, que atua como um proxy para sessões de comunicação entre clientes do Lync Server 2013 e o provedor de serviço e transformações de mídia, quando necessário.
+Para implementar o tronco SIP, você deve rotear a conexão por meio de um servidor de mediação, que atua como um proxy para sessões de comunicação entre clientes do Lync Server 2013 e o provedor de serviço e transcodifica a mídia, quando necessário.
 
-Cada servidor de mediação tem uma interface de rede interna e uma interface de rede externa. A interface interna se conecta aos servidores front-end. A interface externa geralmente é chamada de interface do gateway porque tem sido usada tradicionalmente para conectar o servidor de mediação a um gateway PSTN (rede telefônica pública comutada) ou a um IP-PBX. Para implementar um tronco SIP, conecte a interface externa do servidor de mediação ao componente Edge externo da ITSP.
+Cada servidor de mediação tem uma interface de rede interna e uma interface de rede externa. A interface interna conecta-se aos servidores front-end. Normalmente, a interface externa é chamada de interface de gateway, pois é tradicionalmente usada para conectar o servidor de mediação a um gateway PSTN (rede telefônica pública comutada) ou a um IP-PBX. Para implementar um tronco SIP, conecte a interface externa do servidor de mediação ao componente de borda externa do ITSP.
 
 <div>
 
 
 > [!NOTE]  
-> O componente de borda externa do ITSP pode ser um SBC (Controlador de Borda da Sessão), um roteador ou um gateway.
+> O componente de borda externa do ITSP pode ser um SBC (controlador de borda da sessão), um roteador ou um gateway.
 
 
 
 </div>
 
-Para obter detalhes sobre os servidores de mediação, consulte [componente servidor de mediação no Lync server 2013](lync-server-2013-mediation-server-component.md).
+Para obter detalhes sobre servidores de mediação, consulte [Mediation Server Component in Lync server 2013](lync-server-2013-mediation-server-component.md).
 
 <div>
 
 ## <a name="centralized-vs-distributed-sip-trunking"></a>Tronco SIP centralizado versus distribuído
 
-*Centralizado* O entroncamento SIP roteia todo o tráfego do protocolo VoIP, incluindo o tráfego do site da filial, por meio de seu site central. O modelo de implantação centralizado é simples, econômico e geralmente é a abordagem recomendada para a implementação de troncos SIP com o Lync Server 2013.
+*Centralizado* O tronco SIP roteia todo o tráfego do protocolo VoIP, incluindo o tráfego do site da filial, através do seu site central. O modelo de implantação centralizado é simples, econômico e geralmente é a abordagem recomendada para a implementação de troncos SIP com o Lync Server 2013.
 
-*Distribuído* O entroncamento SIP é um modelo de implantação no qual você implementa um tronco SIP local em um ou mais sites de filiais. O tráfego de VoIP é então encaminhado do site de filial diretamente para um provedor de serviços sem passar pelo site central.
+*Distribuído* O tronco SIP é um modelo de implantação no qual você implementa um tronco SIP local em um ou mais sites de filial. O tráfego VoIP é então roteado do site de filial diretamente para um provedor de serviços sem passar pelo site central.
 
-O tronco SIP distribuído é necessário somente nos seguintes casos:
+O tronco SIP distribuído é exigido somente nos seguintes casos:
 
-  - O site da filial requer conectividade de telefone para o telefone cofuncional (por exemplo, se a WAN ficar inoperante). Esse requisito deve ser analisado para cada site de filiais; algumas das suas filiais podem exigir redundância e failover, enquanto outras não podem.
+  - O site de filial requer conectividade de telefone persistente (por exemplo, se a WAN for desativada). Esse requisito deve ser analisado para cada site de filial; algumas das suas filiais podem exigir redundância e failover, enquanto outras não.
 
-  - A resiliência é necessária entre dois sites centrais. Você precisa ter certeza de que um tronco SIP termina em cada site central. Por exemplo, se você tiver sites centrais de Dublin e Tukwila e ambos usarem apenas um tronco SIP do site, se o tronco ficar inativo, os usuários do outro site não poderão fazer chamadas PSTN.
+  - A resiliência é necessária entre dois sites centrais. Você precisa certificar-se de que um tronco SIP termina em cada site central. Por exemplo, se você tiver sites centrais do Dublin e do Tukwila e ambos usarem somente o tronco SIP de um site, se o tronco ficar inativo, os usuários do outro site não poderão fazer chamadas PSTN.
 
-  - O site de ramificação e o site central estão em países/regiões diferentes. Por motivos legais e de compatibilidade, você precisa de pelo menos um tronco SIP por país/região. Por exemplo, na União Europeia, as comunicações não podem deixar um país/região sem terminarem localmente em um ponto centralizado.
+  - O site de filial e o site central estão em diferentes países/regiões. Por motivos legais e de compatibilidade, você precisa de pelo menos um tronco SIP por país/região. Por exemplo, na União Europeia, as comunicações não podem deixar um país/região sem serem terminarem localmente em um ponto centralizado.
 
-Dependendo da localização geográfica dos sites e da quantidade de tráfego que você prevê na sua empresa, talvez você não queira direcionar todos os usuários por meio do tronco SIP central ou pode optar por direcionar alguns usuários por meio de um tronco SIP em seu site de filiais. Para analisar suas necessidades, responda às seguintes perguntas:
+Dependendo do local geográfico dos sites e da quantidade de tráfego que você previu dentro da sua empresa, talvez você não queira encaminhar todos os usuários por meio do tronco SIP central, ou pode optar por rotear alguns usuários por meio de um tronco SIP em seu site de filial. Para analisar suas necessidades, responda às seguintes perguntas:
 
-  - Qual é o tamanho de cada site (ou seja, quantos usuários estão habilitados para o Enterprise Voice)?
+  - Qual o tamanho de cada site (ou seja, quantos usuários estão habilitados para o Enterprise Voice)?
 
-  - Quais números DID (discagem direta interna) em cada local recebem a maioria das chamadas?
+  - Quais números DID (discagem direta interna) em cada site recebem a maioria das chamadas?
 
-A decisão de implantar um tronco SIP centralizado ou distribuído exige uma análise de custo-benefício. Em alguns casos, pode ser vantajoso optar pelo modelo de implantação distribuído mesmo se ele não for necessário. Em uma implantação completamente centralizada, todo o tráfego do site da filial é roteado através de links WAN. Em vez de pagar pela largura de banda necessária ao link de WAN, convém usar o tronco SIP distribuído. Por exemplo, você pode querer implantar um servidor Standard Edition em um site de filial com Federação para o site central ou pode querer implantar um aparelho de ramificação sobreviventes ou um servidor de ramificação sobreviventes com um pequeno gateway.
+A decisão sobre implantar um tronco SIP centralizado ou distribuído exige uma análise com bom custo benefício. Em alguns casos, pode ser vantajoso optar pelo modelo de implantação distribuído mesmo se não for necessário. Em uma implantação completamente centralizada, todo o tráfego do site da filial é roteado através de links WAN. Em vez de pagar pela largura de banda exigida pelo link de WAN, convém usar o tronco SIP distribuído. Por exemplo, você pode querer implantar um servidor Standard Edition em um site de filial com Federação para o site central ou pode desejar implantar um aparelho de filial persistente ou um servidor de filial persistente com um pequeno gateway.
 
 <div>
 
 
 > [!NOTE]  
-> Para obter detalhes sobre o entroncamento SIP distribuído, consulte <A href="lync-server-2013-branch-site-sip-trunking.md">entroncamento do site de ramificação SIP no Lync Server 2013</A>.
+> Para obter detalhes sobre o tronco SIP distribuído, consulte <A href="lync-server-2013-branch-site-sip-trunking.md">Branch site SIP trunking in Lync Server 2013</A>.
 
 
 
@@ -93,13 +93,13 @@ A decisão de implantar um tronco SIP centralizado ou distribuído exige uma an�
 
 ## <a name="supported-sip-trunking-connection-types"></a>Tipos de conexão de tronco SIP suportadas
 
-O Lync Server oferece suporte aos seguintes tipos de conexão para entroncamento SIP:
+O Lync Server oferece suporte aos seguintes tipos de conexão para tronco SIP:
 
-  - O MPLS é uma rede privada que direciona e transporta dados de um nó de rede para o próximo. A largura de banda em uma rede MPLS é compartilhada com outros assinantes e cada pacote de dados recebe um rótulo para diferenciar os dados de um assinante dos dados de outro assinante. Esse tipo de conexão não exige VPN (rede virtual privada). Uma possível desvantagem é que o tráfego IP excessivo pode interferir na operação de VoIP, a menos que o tráfego VoIP tenha prioridade.
+  - MPLS (Multiprotocol Label Switching) é uma rede privada que direciona e transporta dados de um nó de rede para o próximo. A largura de banda em uma rede MPLS é compartilhada com outros assinantes e cada pacote de dados recebe um rótulo para diferenciar os dados de um assinante dos dados de outro assinante. Esse tipo de conexão não exige VPN. Uma possível desvantagem é que o tráfego IP excessivo pode interferir com a operação VoIP, a menos que o tráfego VoIP tenha prioridade.
 
-  - Uma conexão privada sem outro tráfego, por exemplo, uma conexão de fibra ótica concedida ou uma linha T1, é normalmente o tipo de conexão mais confiável e seguro. Esse tipo de conexão oferece a maior capacidade de realização de chamadas, mas é geralmente o mais caro. Não é necessário VPN. As conexões privadas são adequadas para organizações com alto volume de chamadas ou com requisitos de segurança e disponibilidade rígidos.
+  - Uma conexão privada sem outro tráfego—por exemplo, uma conexão de fibra ótica arrendada ou linha T1—é normalmente o tipo de conexão mais confiável e segura (por exemplo, uma conexão de fibra óptica. Este tipo de conexão oferece a maior capacidade de realização de chamadas, mas é geralmente o mais caro. VPN não é necessário. Conexões privadas são adequadas para organizações com alto volume de chamadas ou com requisitos de segurança e disponibilidade rígidos.
 
-  - A Internet é o tipo de conexão menos caro, mas também o menos confiável. Conexão à Internet é o único tipo de conexão de entroncamento do Lync Server SIP que requer VPN.
+  - A Internet é o tipo de conexão menos caro, mas também o menos confiável. A conexão com a Internet é o único tipo de conexão de tronco SIP do Lync Server que requer VPN.
 
 <div>
 
@@ -109,9 +109,9 @@ O tipo de conexão de tronco SIP mais apropriado para sua empresa depende de sua
 
   - Para uma empresa de médio ou grande porte, uma rede MPLS normalmente fornece o maior valor. Ela pode fornecer a largura de banda necessária por uma taxa mais barata do que uma rede privada especializada.
 
-  - Empresas de grande porte podem exigir uma conexão de fibra ótica, T1, T3 ou superior privada (E1, E3 ou superior na União Europeia).
+  - Empresas de grande porte podem exigir uma conexão de fibra ótica T1, T3 ou superior (E1, E3 ou superior na União Europeia).
 
-  - Para uma pequena empresa ou site de filial com baixo volume de chamadas, o entroncamento SIP pela Internet pode ser a melhor opção. Esse tipo de conexão não é recomendado para locais de médio ou grande porte.
+  - Para uma pequena empresa ou um site de filial com baixo volume de chamadas, o tronco SIP através da Internet pode ser a melhor opção. Esse tipo de conexão não é recomendado para sites de médio ou grande porte.
 
 </div>
 
@@ -141,7 +141,7 @@ Largura de banda de pico do tronco SIP = máximo de chamadas simultâneas x (64 
 
 ## <a name="codec-support"></a>Suporte ao codec
 
-O Lync Server 2013 só oferece suporte aos seguintes codecs:
+O Lync Server 2013 suporta apenas os seguintes codecs:
 
   - G.711 a-law (usado principalmente fora da América do Norte)
 
@@ -153,7 +153,7 @@ O Lync Server 2013 só oferece suporte aos seguintes codecs:
 
 ## <a name="internet-telephony-service-provider"></a>Provedor de Serviço de Telefonia pela Internet
 
-O modo de implementação do lado do provedor de serviços de uma conexão de tronco SIP varia de um ITSP para outro. Para obter informações de implantação, contate seu provedor de serviços. Para obter uma lista de provedores de serviços de entroncamento SIP certificados, consulte [website Microsoft Unified Communication Open Interoperability Program](http://go.microsoft.com/fwlink/?linkid=287029).
+Como você implementa o lado do provedor de serviço de uma conexão de tronco SIP varia de um ITSP para outro. Para obter informações de implantação, entre em contato com o seu provedor de serviços. Para obter uma lista de provedores de serviços de tronco SIP certificados, consulte [o site do programa de interoperabilidade aberta do Microsoft Unified Communications](http://go.microsoft.com/fwlink/?linkid=287029).
 
 Para obter detalhes sobre os provedores de tronco SIP certificado pela Microsoft, entre em contato com seu representante da Microsoft.
 

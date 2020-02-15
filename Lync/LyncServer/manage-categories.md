@@ -12,20 +12,20 @@ ms:contentKeyID: 48183543
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3bac2433702a90624e3ee4fb865bfb70b6d07d16
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 97b161ab9dce464bdab96432ed909ed48b7df19d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757165"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048295"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="manage-categories"></a>Manage categories
+# <a name="manage-categories"></a>Gerenciar categorias
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41757165"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-06_
+_**Última modificação do tópico:** 2012-10-06_
 
 Para criar uma nova categoria de servidor de chat persistente
 
@@ -45,28 +45,28 @@ Para criar uma nova categoria de servidor de chat persistente
 
 
 > [!IMPORTANT]  
-> PersistentChatPoolFqdn é necessário apenas se houver mais de um pool de servidores de chat persistente.
+> PersistentChatPoolFqdn é necessário somente se houver mais de um pool de servidores de chat persistente.
 
 
 
 </div>
 
-Para fazer alterações na categoria de servidor de chat persistente existente
+Para fazer alterações na categoria existente do servidor de chat persistente
 
     Set-CsPersistentChatCategory -Identity testCat -AllowedMembers @{Add="sip:user1@contoso.com", "CN=container,DC=contoso,DC=com"}  -DeniedMembers @{Add="sip:user2@contoso.com"}
     Set-CsPersistentChatCategory -Identity testCat -Creators @{Add="sip:user1@contoso.com"}
 
-Windows PowerShell: AllowedMembers, DeniedMembers e Creator podem ser definidos simultaneamente. Os criadores devem ser o subconjunto de AllowedMembers menos DeniedMembers. Você também pode definir as propriedades de uma categoria ao mesmo tempo que os membros e os criadores.
+Windows PowerShell: Membros permitidos, DeniedMembers e criadores podem ser definidos simultaneamente. Creators deve ser o subconjunto de AllowedMembers menos DeniedMembers. Você também pode configurar as propriedades de uma categoria ao mesmo tempo que os membros e criadores.
 
 <div>
 
-## <a name="create-get-set-or-remove-a-category"></a>Criar, obter, definir ou remover uma categoria
+## <a name="create-get-set-or-remove-a-category"></a>Criar, obter, configurar ou remover uma categoria
 
-Para criar uma nova categoria
+Para criar uma nova Categoria
 
     New-CsPersistentChatCategory -Name <String> [-PersistentChatPoolFqdn <String>] [-Description <String>] [-EnableInvitations<Switch Parameter>] [-EnableFileUpload <Switch Parameter>] [-RemoveChatHistory <Switch Parameter>] [-MaxContentSize <Integer>]
 
-Para obter uma categoria
+Para obter uma Categoria
 
     Get-CsPersistentChatCategory -Identity <String>
 
@@ -74,7 +74,7 @@ ou
 
     Get-CsPersistentChatCategory -PersistentChatPoolFqdn <String>
 
-Para definir uma categoria
+Para configurar uma Categoria
 
     Set-CsPersistentChatCategory -Instance <CategoryObject> [-WhatIf] [-Confirm] [<CommonParameters>]
 
@@ -82,7 +82,7 @@ ou
 
     Set-CsPersistentChatCategory [-Identity] <string> [-Name <string>] [-Description <string>] [-Invitations <bool>] [-FileUpload <bool>] [-ChatHistory <bool>] [-AllowedMembers <PSListModifier[string]>] [-DeniedMembers <PSListModifier[string]>] [-Creators <PSListModifier[string]>] [-WhatIf] [-Confirm]  [<CommonParameters>]
 
-Para remover uma categoria
+Para remover uma Categoria
 
     Remove-CsPersistentChatCategory -Instance <CategoryObject> [-Force <Switch Parameter>] [-Confirm <Switch Parameter>]
 

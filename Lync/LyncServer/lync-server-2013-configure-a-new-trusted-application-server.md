@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: configurar um novo servidor de aplicativos confiável'
+title: 'Lync Server 2013: configurar um novo servidor de aplicativos confiáveis'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185085
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dae7e02d7642fed5fea60235283eaa0d7d7e1e35
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e370c229442d90d6e962f0d73efbf4b94038926a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756355"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048154"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-a-new-trusted-application-server-in-lync-server-2013"></a>Configurar um novo servidor de aplicativos confiável no Lync Server 2013
+# <a name="configure-a-new-trusted-application-server-in-lync-server-2013"></a>Configurar um novo servidor de aplicativos confiáveis no Lync Server 2013
 
 </div>
 
@@ -35,37 +35,37 @@ ms.locfileid: "41756355"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-11-01_
+_**Última modificação do tópico:** 2012-11-01_
 
-Um aplicativo confiável é um aplicativo baseado em SDK do Microsoft UCMA (Microsoft Unified Communications Managed) 3,0 Core SDK que é confiável para o Microsoft Lync Server 2013. Para obter detalhes sobre aplicativos do UCMA, consulte "documentação do SDK do 3,0 Core Communications [http://go.microsoft.com/fwlink/p/?linkId=210320](http://go.microsoft.com/fwlink/p/?linkid=210320)Managed API" em.
+Um aplicativo confiável é um aplicativo baseado no SDK principal do Microsoft Unified Communications Managed API (UCMA) 3,0 Core que é confiável para o Microsoft Lync Server 2013. Para obter detalhes sobre os aplicativos do UCMA, consulte "documentação do SDK básico do Unified [http://go.microsoft.com/fwlink/p/?linkId=210320](http://go.microsoft.com/fwlink/p/?linkid=210320)Communications Managed API 3,0 em.
 
 Para obter informações sobre como configurar o Microsoft Outlook Web Access (OWA) e o Lync Server 2013, consulte "configurar o Outlook Web App e o Lync Server 2010 Integration" na documentação do Microsoft Exchange Server 2013.
 
-Para publicar, habilitar ou desabilitar uma topologia com êxito ao adicionar ou remover uma função de servidor, você deve estar conectado como um usuário que é membro do grupo RTCUniversalServerAdmins e administradores do domínio. Também é possível delegar as permissões e direitos de administrador adequados para adicionar funções de servidor. Para obter detalhes, consulte [delegar permissões de configuração no Lync Server 2013](lync-server-2013-delegate-setup-permissions.md) na documentação de implantação. Para outras alterações de configuração, somente a associação no grupo RTCUniversalServerAdmins é necessária.
+Para publicar, habilitar ou desabilitar uma topologia com êxito ao adicionar um remover uma função do servidor, você deve estar conectado como um usuário membro dos grupos RTCUniversalServerAdmins e de Administradores de Domínio. Também é possível delegar as permissões e direitos de administrador adequadas para adicionar funções do servidor. Para obter detalhes, consulte [delegar permissões de configuração no Lync Server 2013](lync-server-2013-delegate-setup-permissions.md) na documentação de implantação. Para outras alterações na configuração, apenas a associação ao grupo RTCUniversalServerAdmins é necessária.
 
 <div>
 
-## <a name="to-configure-a-trusted-application-server"></a>Para configurar um servidor de aplicativos confiável
+## <a name="to-configure-a-trusted-application-server"></a>Para configurar um servidor de aplicativos confiáveis
 
 1.  Faça logon no computador no qual o Construtor de Topologias está instalado como um membro do grupo Admins. do Domínio ou do grupo RTCUniversalServerAdmins.
 
-2.  Iniciar o construtor de topologias: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Construtor de topologias do Lync Server**.
+2.  Inicie o construtor de topologias: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e em **Construtor de topologias do Lync Server**.
 
-3.  Selecione **baixar topologia da implantação existente**e, em seguida, clique em **OK**.
+3.  Selecione **Baixar topologia da implantação existente** e clique em **OK**.
 
-4.  Na caixa de diálogo **salvar topologia como** , clique no arquivo do construtor de topologias que você deseja usar e, em seguida, clique em **salvar**.
+4.  Na caixa de diálogo **salvar topologia como** , clique no arquivo do construtor de topologia que você deseja usar e clique em **salvar**.
 
-5.  No painel esquerdo, clique com o botão direito do mouse em **servidores de aplicativos confiáveis**e, em seguida, clique em **novo pool de aplicativos confiável**.
+5.  No painel esquerdo, clique com o botão direito do mouse em **servidores de aplicativos confiáveis**e clique em **novo pool de aplicativos confiáveis**.
 
-6.  Digite o **FQDN do pool** do pool de aplicativos confiáveis, selecione se ele será um único servidor ou vários servidores e clique em **Avançar**.
+6.  Insira o **FQDN do Pool** do pool de aplicativos confiável, selecione se será um servidor único ou vários servidores e clique em **Avançar**.
 
-7.  Na página **selecionar o próximo salto** , na lista, selecione o pool de front-end do Lync Server 2013.
+7.  Na página **selecionar o próximo salto** , na lista, selecione o pool de front-ends do Lync Server 2013.
 
 8.  Clique em **Concluir**.
 
-9.  Selecione o nó superior do **Lync Server 2013**e, em seguida, no menu **ações** , clique em **publicar topologia**.
+9.  Selecione o nó superior **Lync Server 2013**e, no menu **ações** , clique em **publicar topologia**.
     
-    O **pool de aplicativos confiável** deve ter sido criado com êxito e associado ao pool de front-end correto.
+    O **pool de aplicativos confiáveis** deve ter sido criado com êxito e associado ao pool de front-ends correto.
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: excluir links de região de rede'
+title: 'Lync Server 2013: excluindo links de região de rede'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 49733712
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 158537f2473beba686daa51c5384a45f01432320
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2b189054d1333e6eb0f9754a9405718607f48ec2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763019"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046384"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,27 +35,27 @@ ms.locfileid: "41763019"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-11-01_
+_**Última modificação do tópico:** 2012-11-01_
 
-Você pode configurar links entre duas regiões de rede como parte do controle de admissão de chamadas (CAC). Regiões dentro de uma rede são vinculadas por meio de conectividade física de rede de longa distância (WAN). Você pode usar o painel de controle do Lync Server para excluir um link existente entre duas regiões de rede. Para obter detalhes sobre como criar ou modificar o link de região de rede, consulte [Configurando links de região de rede no Lync Server 2013](lync-server-2013-configuring-network-region-links.md)
+Você pode configurar links entre duas regiões de rede como parte do controle de admissão de chamadas. Regiões dentro de uma rede são vinculadas por conectividade de WAN física. Você pode usar o painel de controle do Lync Server para excluir um link existente entre duas regiões de rede. Para obter detalhes sobre como criar ou modificar um link de região de rede, confira [Configurando links de região de rede no Lync Server 2013](lync-server-2013-configuring-network-region-links.md)
 
 <div>
 
 ## <a name="to-delete-a-network-region-link"></a>Para excluir um link de região de rede
 
-1.  Usando uma conta de usuário que é membro do grupo RTCUniversalServerAdmins (ou tem direitos de usuário equivalentes), ou está atribuída à função CsAdministrator, faça logon em qualquer computador de sua implantação interna.
+1.  A partir de uma conta de usuário que seja membro do grupo RTCUniversalServerAdmins (ou tenha direitos de usuário equivalentes) ou atribuída à função CsAdministrator, faça logon em qualquer computador em sua implantação interna.
 
-2.  Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [abrir ferramentas administrativas do Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Na barra de navegação à esquerda, clique em **configuração de rede** e, em seguida, clique em **link de região**.
+3.  Na barra de navegação esquerda, clique em **Configuração da rede** e em **Link da região**.
 
-4.  Na página **link de região** , clique no link de região que você deseja excluir.
+4.  Na página **link de região** , clique no link de região que deseja excluir.
     
     <div>
     
 
     > [!NOTE]  
-    > Você pode excluir mais de um link de região de cada vez. Para fazer isso, pressione CTRL e selecione vários links de região enquanto mantém a tecla CTRL pressionada. Ou, para selecionar todos os links de região, clique em <STRONG>selecionar tudo</STRONG> no menu <STRONG>Editar</STRONG> .
+    > Você pode excluir mais de um link de região por vez. Para fazer isso, pressione CTRL e selecione vários links de região mantendo pressionada a tecla CTRL. Ou, para selecionar todos os links de região, clique em <STRONG>selecionar tudo</STRONG> no menu <STRONG>Editar</STRONG> .
 
     
     </div>
@@ -71,7 +71,7 @@ Você pode configurar links entre duas regiões de rede como parte do controle d
 ## <a name="see-also"></a>Confira também
 
 
-[Configurar links de região de rede no Lync Server 2013](lync-server-2013-configuring-network-region-links.md)  
+[Configurando links de região de rede no Lync Server 2013](lync-server-2013-configuring-network-region-links.md)  
   
 
 </div>

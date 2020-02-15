@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c8cf33a5ac4c498e6d6996f6096fbf9599b5ad2e
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 1a62bc73e7dc2496a9fedc94ad7fc38f2ebecd65
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837711"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030765"
 ---
 # <a name="create-your-first-teams-in-microsoft-teams"></a>Criar suas primeiras equipes no Microsoft Teams
 
@@ -36,7 +36,7 @@ A melhor maneira de impulsionar a adoção do teams é usar o produto. Recomenda
 | Implementação do Microsoft Teams | Geral <br/> Conscientização e adoção <br/> Envolvimento empresarial <br/> Programa pioneiro <br/> Comentários e ideias <br/> Segurança e conformidade <br/> Estratégia e planejamento <br/> Integridade do serviço e incidentes <br/> Treinamento <br/> Chat Watercooler |
 | Líderes do trabalho em equipe | Geral <br/> Práticas recomendadas, treinamento e como <br/> Canto da Champion <br/> Feedback e suporte <br/> Clientes potenciais do programa <br/> Hub social |
 
-No Microsoft Teams, a [Galeria de guias](https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/tabs/tabs-overview) oferece acesso a todos os aplicativos do Office 365 e de terceiros que foram ativados pelo administrador. Para obter o valor máximo de seu produto, sugerimos fixar recursos chave como guias em cada um dos canais apropriados. Consulte o exemplo a seguir.
+No Microsoft Teams, a [Galeria de guias](https://docs.microsoft.com/microsoftteams/platform/concepts/tabs/tabs-overview) oferece acesso a todos os aplicativos do Office 365 e de terceiros que foram ativados pelo administrador. Para obter o valor máximo de seu produto, sugerimos fixar recursos chave como guias em cada um dos canais apropriados. Consulte o exemplo a seguir.
 
 ![Captura de tela mostrando as guias padrão e personalizadas](media/teams-adoption-tab-example.png)
 
@@ -50,7 +50,7 @@ Em suas equipes iniciais, sugerimos fixar os seguintes itens para facilitar a re
 | Envolvimento empresarial | Wiki – orientação sobre o compromisso<br/>Formulário – solicitação de consultoria de equipes<br/>Lista – solicitações de compromisso |
 |Pioneiros | Comunidade de comentários afixado <br/> OneNote para perguntas frequentes e temas comuns |
 | Comentários e relatórios | Relatório de uso do Office 365 fixado (somente para administradores do Office 365) |
-| Segurança e conformidade | Portal de confiança da Microsoft <br/> [Documentação de conformidade e segurança](https://docs.microsoft.com/en-us/office365/securitycompliance/index)<br/> [Mapa Rodoviário](https://docs.microsoft.com/office365/securitycompliance/security-roadmap) |
+| Segurança e conformidade | Portal de confiança da Microsoft <br/> [Documentação de conformidade e segurança](https://docs.microsoft.com/office365/securitycompliance/index)<br/> [Mapa Rodoviário](https://docs.microsoft.com/office365/securitycompliance/security-roadmap) |
 | Estratégia e planejamento | Colaboração na estrela do norte do PowerPoint <br/> Plano de projeto de adoção de serviço |
 | Treinamento | Portal de treinamento de aprendizagem personalizado <br/> [Treinamento do teams online](https://aka.ms/TeamsTraining) |
 | **Líderes do trabalho em equipe**|  |

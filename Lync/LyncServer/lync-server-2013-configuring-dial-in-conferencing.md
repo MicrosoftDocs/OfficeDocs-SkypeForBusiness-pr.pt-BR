@@ -12,20 +12,20 @@ ms:contentKeyID: 48184587
 ms.date: 10/03/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d722abaf76ef915b7587039cb7732cb281a06308
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ef825aa799cdcdec66903e002791f30d9b4cac00
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758135"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046414"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-dial-in-conferencing-in-lync-server-2013"></a>Configurando conferência discada no Lync Server 2013
+# <a name="configuring-dial-in-conferencing-in-lync-server-2013"></a>Configurando a conferência discada no Lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41758135"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2014-10-03_
+_**Última modificação do tópico:** 2014-10-03_
 
-Esta seção orienta você na configuração da conferência discada do Lync Server 2013.
+Esta seção orienta você durante a configuração da conferência discada do Lync Server 2013.
 
 <div>
 
@@ -49,29 +49,29 @@ Esta seção orienta você na configuração da conferência discada do Lync Ser
 
   - [Configurar planos de discagem para conferência discada no Lync Server 2013](lync-server-2013-configure-dial-plans-for-dial-in-conferencing.md)
 
-  - [Verifique se os planos de discagem do Lync Server 2013 atribuiram regiões](lync-server-2013-make-sure-dial-plans-have-assigned-regions.md)
+  - [Verifique se os planos de discagem Lync Server 2013 possuem regiões atribuídas](lync-server-2013-make-sure-dial-plans-have-assigned-regions.md)
 
-  - [(Opcional) Verificar configurações de política de PIN no Lync Server 2013](lync-server-2013-optional-verify-pin-policy-settings.md)
+  - [Opcion Verificar as configurações de política de PIN no Lync Server 2013](lync-server-2013-optional-verify-pin-policy-settings.md)
 
-  - [Configurar política de conferência para discagem no Lync Server 2013](lync-server-2013-configure-conferencing-policy-for-dial-in.md)
+  - [Configurar a política de conferência para discagem no Lync Server 2013](lync-server-2013-configure-conferencing-policy-for-dial-in.md)
 
-  - [Configurar número de acesso da conferência discada no Lync Server 2013](lync-server-2013-configure-dial-in-conferencing-access-numbers.md)
+  - [Configurar números de acesso de conferência discada no Lync Server 2013](lync-server-2013-configure-dial-in-conferencing-access-numbers.md)
 
-  - [(Opcional) Verificar configurações de conferência discada no Lync Server 2013](lync-server-2013-optional-verify-dial-in-conferencing-settings.md)
+  - [Opcion Verificar as configurações de conferência discada no Lync Server 2013](lync-server-2013-optional-verify-dial-in-conferencing-settings.md)
 
-  - [(Opcional) Modificar mapeamento principal de comandos DTMF no Lync Server 2013](lync-server-2013-optional-modify-key-mapping-for-dtmf-commands.md)
+  - [Opcion Modificar o mapeamento de teclas para comandos DTMF no Lync Server 2013](lync-server-2013-optional-modify-key-mapping-for-dtmf-commands.md)
 
-  - [(Opcional) Habilitar e desabilitar comunicados de ingresso e saída de conferência no Lync Server 2013](lync-server-2013-optional-enable-and-disable-conference-join-and-leave-announcements.md)
+  - [Opcion Habilitar e desabilitar comunicados de ingresso e saída de conferência no Lync Server 2013](lync-server-2013-optional-enable-and-disable-conference-join-and-leave-announcements.md)
 
-  - [(Opcional) Verificar conferência discada no Lync Server 2013](lync-server-2013-optional-verify-dial-in-conferencing.md)
+  - [Opcion Verificar a conferência discada no Lync Server 2013](lync-server-2013-optional-verify-dial-in-conferencing.md)
 
-  - [Implantar suplemento Online Meeting para Lync 2013](lync-server-2013-deploy-the-online-meeting-add-in-for-lync-2013.md)
+  - [Implantar o suplemento reunião online para Lync 2013](lync-server-2013-deploy-the-online-meeting-add-in-for-lync-2013.md)
 
-  - [Definir configurações de conta do usuário no Lync Server 2013](lync-server-2013-configure-user-account-settings.md)
+  - [Definir configurações de conta de usuário no Lync Server 2013](lync-server-2013-configure-user-account-settings.md)
 
-  - [(Recommended) Create Conference Directories](recommended-create-conference-directories.md)
+  - [Recomenda Criar diretórios de conferência](recommended-create-conference-directories.md)
 
-  - [(Opcional) Dar as boas-vindas aos usuários na conferência discada no Lync Server 2013](lync-server-2013-optional-welcome-users-to-dial-in-conferencing.md)
+  - [Opcion Usuários de boas-vindas para conferência discada no Lync Server 2013](lync-server-2013-optional-welcome-users-to-dial-in-conferencing.md)
 
 </div>
 

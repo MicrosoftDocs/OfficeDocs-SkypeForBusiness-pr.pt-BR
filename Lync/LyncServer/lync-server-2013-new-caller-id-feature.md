@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Novo recurso ID de chamadas'
+title: 'Lync Server 2013: novo recurso de ID de chamadas'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733562
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7e62a74342e7501810edda4d0f46ff36aa80d76f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f168f0779da1ba1d2b3bd6549135234f2cec563e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765792"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050103"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="new-caller-id-feature-in-lync-server-2013"></a>Novo recurso ID de chamadas no Lync Server 2013
+# <a name="new-caller-id-feature-in-lync-server-2013"></a>Novo recurso de ID de chamadas no Lync Server 2013
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41765792"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-05_
+_**Última modificação do tópico:** 2012-10-05_
 
-O Lync Server 2013 fornece ao administrador a flexibilidade para modificar o formato do número de telefone da pessoa que está chamando. Este recurso de apresentação de identificação de chamadas permite que o administrador modifique o número de telefone da pessoa que está chamando em um formato de discagem que seja entendido pelo par de tronco, se necessário. Por exemplo, é possível criar uma regra de conversão para remover o prefixo +44 do início de uma cadeia de caracteres de discagem e substituí-lo por 0144.
+O Lync Server 2013 fornece ao administrador a flexibilidade para modificar o formato do número de telefone do participante da chamada. Esse recurso de apresentação de ID de Chamadas permite ao administrador modificar o número de telefone do chamador para um formato de discagem que é entendido pelo ponto de tronco, se necessário. Por exemplo, você pode criar uma regra de conversão para remover +44 do começo de uma sequência de caracteres de discagem e o substituir por 0144.
 
-Agora, com o Lync Server 2013, o número de telefone do chamador e o número de telefone do destinatário podem ser traduzidos em formatos diferentes, conforme necessário. Essa flexibilidade torna possível para o Lync Server 2013 servir como um tradutor de tronco entre sistemas de telefonia diferentes.
+Agora, com o Lync Server 2013, o número de telefone do chamador e o número de telefone do receptor podem ser convertidos em formatos diferentes, conforme necessário. Essa flexibilidade possibilita que o Lync Server 2013 sirva como um tradutor de tronco entre diferentes sistemas de telefonia.
 
 <div>
 

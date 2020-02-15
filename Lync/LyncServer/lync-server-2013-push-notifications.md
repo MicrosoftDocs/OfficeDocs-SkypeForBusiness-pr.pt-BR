@@ -12,16 +12,16 @@ ms:contentKeyID: 49733581
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0680332d89bb44707d89adf06dc892e5865f576f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5c714741020cd399e59b095bf8780bab4f41e69b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41747011"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045793"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,7 +35,7 @@ ms.locfileid: "41747011"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-19_
+_**Última modificação do tópico:** 2012-10-19_
 
 Você pode gerenciar as notificações por push na seção **clientes** do painel de controle do Lync Server 2013.
 
@@ -45,9 +45,9 @@ Você pode gerenciar as notificações por push na seção **clientes** do paine
 
   - [Habilitar ou desabilitar notificações por push para iPhones no Lync Server 2013](lync-server-2013-enabling-or-disabling-push-notifications-for-iphones.md)
 
-  - [Habilitar ou desabilitar notificações por push para telefones Windows no Lync Server 2013](lync-server-2013-enabling-or-disabling-push-notifications-for-windows-phones.md)
+  - [Habilitar ou desabilitar notificações por push para Windows phones no Lync Server 2013](lync-server-2013-enabling-or-disabling-push-notifications-for-windows-phones.md)
 
-  - [Exibir informações sobre as configurações de notificação por push no Lync Server 2013](lync-server-2013-viewing-information-about-push-notification-settings.md)
+  - [Exibindo informações sobre configurações de notificação por push no Lync Server 2013](lync-server-2013-viewing-information-about-push-notification-settings.md)
 
 </div>
 

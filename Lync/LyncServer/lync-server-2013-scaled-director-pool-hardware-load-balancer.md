@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Pool de diretores em escala - balanceador de carga de hardware'
+title: 'Lync Server 2013: pool de diretores em escala-balanceador de carga de hardware'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185585
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f3fc699a5d0904b3ed308928e5edec612b3af03c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 63d690c224556953086128b8d7fc52f2d72f6b06
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732651"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049653"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="scaled-director-pool---hardware-load-balancer-in-lync-server-2013"></a>Pool de diretores em escala - balanceador de carga de hardware no Lync Server 2013
+# <a name="scaled-director-pool---hardware-load-balancer-in-lync-server-2013"></a>Pool de diretores em escala-balanceador de carga de hardware no Lync Server 2013
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41732651"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-08_
+_**Última modificação do tópico:** 2012-09-08_
 
-Um pool de directors em escala, onde há mais de um director implantado para lidar com capacidade adicional e para fornecer alta disponibilidade, requer balanceamento de carga para distribuir a comunicação do cliente e do servidor para todos os membros do pool. Um diretor hospeda serviços Web muito como um pool de front-end. O balanceamento de carga de hardware é necessário para os serviços Web.
+Um pool de diretores em escala, onde há mais de um diretor implantado para lidar com capacidade adicional e para fornecer alta disponibilidade, requer o balanceamento de carga para distribuir a comunicação de cliente e servidor para todos os membros do pool. Um diretor hospeda serviços Web da mesma forma que um pool de front-ends. O balanceamento de carga de hardware é necessário para os serviços da Web.
 
-Os tópicos a seguir descrevem as considerações de planejamento para a implantação de um pool de directors usando o balanceamento de carga de hardware. Se você pretende usar o balanceamento de carga de hardware e o balanceamento de carga de DNS para o pool diretor, consulte o tópico [pool de directors em escala-balanceamento de carga de DNS e balanceador de carga de hardware no Lync Server 2013](lync-server-2013-scaled-director-pool-dns-load-balancing-and-hardware-load-balancer.md) que descreve os requisitos de planejamento para essa topologia.
+Os tópicos a seguir descrevem as considerações de planejamento para a implantação de um pool de diretores usando o balanceamento de carga de hardware. Se você pretende usar o balanceamento de carga de hardware e o balanceamento de carga DNS para o pool de diretores, consulte o tópico [pool de diretor em escala-balanceamento de carga de DNS e balanceador de carga de hardware no Lync Server 2013](lync-server-2013-scaled-director-pool-dns-load-balancing-and-hardware-load-balancer.md) que descreve os requisitos de planejamento para essa topologia.
 
 ![cfa892b9-5b24-4245-b5bd-c5da21984eeb](images/JJ205316.cfa892b9-5b24-4245-b5bd-c5da21984eeb(OCS.15).jpg "cfa892b9-5b24-4245-b5bd-c5da21984eeb")
 
@@ -47,11 +47,11 @@ Os tópicos a seguir descrevem as considerações de planejamento para a implant
 
 ## <a name="in-this-section"></a>Nesta seção
 
-  - [Resumo de certificado - pool Certificate summary - pool de diretores em escala, balanceador de carga de hardware no Lync Server 2013](lync-server-2013-certificate-summary-scaled-director-pool-hardware-load-balancer.md)
+  - [Resumo de certificado-pool de diretores em escala, balanceador de carga de hardware no Lync Server 2013](lync-server-2013-certificate-summary-scaled-director-pool-hardware-load-balancer.md)
 
-  - [Resumo de porta - Pool de Diretor em escala, balanceador de carga de hardware no Lync Server 2013](lync-server-2013-port-summary-scaled-director-pool-hardware-load-balancer.md)
+  - [Resumo de porta-pool de diretores em escala, balanceador de carga de hardware no Lync Server 2013](lync-server-2013-port-summary-scaled-director-pool-hardware-load-balancer.md)
 
-  - [Resumo de DNS - Pool de diretores em escala, balanceadores de carga do hardware no Lync Server 2013](lync-server-2013-dns-summary-scaled-director-pool-hardware-load-balancer.md)
+  - [Resumo de DNS-pool de diretores em escala, balanceador de carga de hardware no Lync Server 2013](lync-server-2013-dns-summary-scaled-director-pool-hardware-load-balancer.md)
 
 </div>
 

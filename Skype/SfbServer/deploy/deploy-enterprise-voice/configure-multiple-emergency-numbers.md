@@ -15,62 +15,62 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 2e869df0-5fdb-4e70-bd81-cb012556eb1a
 description: Leia este tópico para saber como configurar vários números de emergência no Skype for Business Server.
-ms.openlocfilehash: 9805462d8c9498af3e3cf1cb743e2af9e08ec285
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+ms.openlocfilehash: 81d3dbed919c936eb8a656d123f5c44e445044d7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41768114"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42027792"
 ---
 # <a name="configure-multiple-emergency-numbers-in-skype-for-business"></a>Configurar vários números de emergência no Skype for Business
 
 Leia este tópico para saber como configurar vários números de emergência no Skype for Business Server.
 
-O Skype for Business Server agora oferece suporte a vários números de emergência para um cliente. Vários números de emergência é um novo recurso apresentado na atualização cumulativa de junho de 2016. Antes de configurar seu ambiente para dar suporte a vários números de emergência, certifique-se de ler [plano para vários números de emergência no Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/multiple-emergency-numbers.md).
+O Skype for Business Server agora oferece suporte a vários números de emergência para um cliente. Vários números de emergência são um novo recurso introduzido na atualização cumulativa de junho de 2016. Antes de configurar seu ambiente para dar suporte a vários números de emergência, certifique-se de ler o [plano para vários números de emergência no Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/multiple-emergency-numbers.md).
 
 > [!NOTE]
-> Se você ainda não atualizou a atualização cumulativa de novembro de 2016, consulte [atualizações para o Skype for Business Server 2015](https://support.microsoft.com/en-us/help/3061064/updates-for-skype-for-business-server-2015). Com a atualização cumulativa de novembro de 2016, o número de números de emergência de suporte aumenta de 5 para 100. 
+> Se você ainda não tiver atualizado para a atualização cumulativa de novembro de 2016, consulte [atualizações para o Skype for Business Server 2015](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015). Com a atualização cumulativa de novembro de 2016, o número de números de emergência de suporte aumenta de 5 para 100.
 
 ## <a name="configure-multiple-emergency-numbers"></a>Configurar vários números de emergência
 
-Para configurar vários números de emergência, use o cmdlet New-CsEmergencyNumber e, em seguida, especifique o parâmetro EmergencyNumbers com os cmdlets [New-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps) e [set-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/set-cslocationpolicy?view=skype-ps) . Para obter uma descrição completa de todos os parâmetros de política de localização, como o uso e o local de PSTN necessários, consulte [set-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/set-cslocationpolicy?view=skype-ps).
+Para configurar vários números de emergência, use o cmdlet New-CsEmergencyNumber e, em seguida, especifique o parâmetro EmergencyNumbers com os cmdlets [New-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps) e [set-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/set-cslocationpolicy?view=skype-ps) . Para obter uma descrição completa de todos os parâmetros de política de local, como o uso de PSTN e o local necessário, consulte [set-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/set-cslocationpolicy?view=skype-ps).
 
 O comando a seguir cria um novo número de emergência com a cadeia de caracteres de discagem 911 usando o cmdlet New-CsEmergency:
 
 ```powershell
-> $a = New-CsEmergencyNumber -DialString 911 
+> $a = New-CsEmergencyNumber -DialString 911
 ```
 
-O próximo comando associa o número à política de local especificada, especificando o parâmetro EmergencyNumbers no cmdlet Set-CsLocationPolicy:
+O próximo comando associa o número à política de local especificada especificando o parâmetro EmergencyNumbers no cmdlet Set-CsLocationPolicy:
 
 ```powershell
-> Set-CsLocationPolicy -Identity <id> -EmergencyNumbers @{add=$a} 
+> Set-CsLocationPolicy -Identity <id> -EmergencyNumbers @{add=$a}
 ```
 
-No próximo exemplo, um número de emergência é criado com uma única máscara de discagem, 112:
+No próximo exemplo, um número de emergência é criado com uma máscara de discagem única, 112:
 
 ```powershell
-> $a = New-CsEmergencyNumber -DialString 911 -DialMask 112 
+> $a = New-CsEmergencyNumber -DialString 911 -DialMask 112
 ```
 
 O próximo comando cria um número de emergência com várias máscaras de discagem:
 
 ```powershell
-> $a = New-CsEmergencyNumber -DialString 911 -DialMask 112;999 
+> $a = New-CsEmergencyNumber -DialString 911 -DialMask 112;999
 ```
 
 O próximo exemplo adiciona vários números de emergência com várias máscaras de discagem e associa os números de emergência à política de local especificada:
 
 ```powershell
-> $a = New-CsEmergencyNumber -DialString 911 -DialMask 112;999 
+> $a = New-CsEmergencyNumber -DialString 911 -DialMask 112;999
 > $b = New-CsEmergencyNumber -DialString 500 -DialMask 501;502
-> Set-CsLocationPolicy -Identity <id> -EmergencyNumbers @{add=$a,$b} 
+> Set-CsLocationPolicy -Identity <id> -EmergencyNumbers @{add=$a,$b}
 ```
 
-O próximo exemplo configura vários números de emergência para os prestadores de serviços de saúde que usam 911 e 450:  
+O próximo exemplo configura vários números de emergência para os provedores de assistência médica que usam 911 e 450:
 
 ```powershell
-> $a = New-CsEmergencyNumber -DialString 911 
+> $a = New-CsEmergencyNumber -DialString 911
 > $b = New-CsEmergencyNumber -DialString 450
 > Set-CsLocationPolicy -Identity US-Hospital -EmergencyNumbers @{add=$a,$b}
 ```
@@ -87,8 +87,8 @@ O próximo exemplo configura vários números de emergência para a Índia:
 
 ```powershell
 > $a = New-CsEmergencyNumber -DialString 100 -DialMask 911
-> $b = New-CsEmergencyNumber -DialString 101 
-> $c = New-CsEmergencyNumber -DialString 102 
+> $b = New-CsEmergencyNumber -DialString 101
+> $c = New-CsEmergencyNumber -DialString 102
 > Set-CsLocationPolicy -Identity India -EmergencyNumbers @{add=$a,$b,$c}
 ```
 
@@ -96,7 +96,5 @@ O próximo exemplo remove uma entrada existente com a cadeia de caracteres de di
 
 ```powershell
 > $a = New-CsEmergencyNumber -DialString 911 -DialMask 112;999
-> Set-CsLocationPolicy -Identity <id> -EmergencyNumbers @{remove=$a} 
+> Set-CsLocationPolicy -Identity <id> -EmergencyNumbers @{remove=$a}
 ```
-
-

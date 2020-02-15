@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Tabela Roles'
+title: 'Lync Server 2013: tabela de funções'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185893
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 251b266d18be3b472f4a22a635d134f6fe3dc77e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d3c241f685e9acc24b82acab1c7f50e1e15754b1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732961"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050813"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="roles-table-in-lync-server-2013"></a>Tabela Roles no Lync Server 2013
+# <a name="roles-table-in-lync-server-2013"></a>Tabela de funções no Lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41732961"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-28_
+_**Última modificação do tópico:** 2012-09-28_
 
-A tabela de funções é uma tabela estática que armazena a lista de possíveis funções de conferência, como participante e apresentador.
+A tabela Roles é uma tabela estática que armazena a lista de possíveis funções de conferência, como participante e apresentador.
 
 
 <table>
@@ -57,20 +57,20 @@ A tabela de funções é uma tabela estática que armazena a lista de possíveis
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>RoleID</strong></p></td>
+<td><p><strong>RoleId</strong></p></td>
 <td><p>tinyint</p></td>
-<td><p>Primária</p></td>
+<td><p>Primário</p></td>
 <td></td>
 </tr>
 <tr class="even">
 <td><p><strong>Função</strong></p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p>nvarchar (256)</p></td>
 <td></td>
 <td><p>Valores permitidos:</p>
 <ul>
-<li><p>0-desconhecido</p></li>
-<li><p>1-apresentador</p></li>
-<li><p>2 participantes</p></li>
+<li><p>0 - Desconhecido</p></li>
+<li><p>1 - Apresentador</p></li>
+<li><p>2 - Participante</p></li>
 </ul></td>
 </tr>
 </tbody>

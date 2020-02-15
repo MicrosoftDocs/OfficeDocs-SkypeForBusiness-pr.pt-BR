@@ -12,16 +12,16 @@ ms:contentKeyID: 54973683
 ms.date: 04/06/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e610990182e01c0e9e2d7199bd3a34f70fbe3132
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ba76bbc896c1da2929a584611af0607a51d5afcc
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41750431"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050243"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41750431"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2015-04-06_
+_**Última modificação do tópico:** 2015-04-06_
 
-Veja a seguir uma lista de considerações de implantação ao configurar um ambiente do Microsoft Lync Server 2013 para dar suporte à autenticação de dois fatores.
+Veja a seguir uma lista de considerações de implantação ao configurar um ambiente do Microsoft Lync Server 2013 para suportar a autenticação de dois fatores.
 
 <div>
 
-## <a name="client-support"></a>Suporte de Cliente
+## <a name="client-support"></a>Suporte ao cliente
 
-As atualizações cumulativas do Lync 2013 para o Lync Server 2013: julho de 2013 do cliente de área de trabalho e todos os clientes móveis atualmente dão suporte à autenticação de dois fatores.
+As atualizações cumulativas do Lync 2013 para o Lync Server 2013:2013 julho de atendimento desktop cliente e todos os clientes móveis suportam a autenticação de dois fatores no momento.
 
 </div>
 
@@ -51,7 +51,7 @@ As atualizações cumulativas do Lync 2013 para o Lync Server 2013: julho de 201
 
 ## <a name="topology-requirements"></a>Requisitos de topologia
 
-Os clientes são altamente incentivados a implantar a autenticação de dois fatores usando o Lync Server dedicado 2013 com atualizações cumulativas para o Lync Server 2013:2013 de julho a Edge, director e grupos de usuários. Para habilitar a autenticação passiva para usuários do Lync, outros métodos de autenticação devem ser desabilitados para outras funções e serviços, incluindo o seguinte:
+É altamente recomendável que os clientes implantem a autenticação de dois fatores usando o Lync Server 2013 dedicado com atualizações cumulativas para o Lync Server 2013: julho de 2013, diretor e pools de usuários. Para habilitar a autenticação passiva para usuários do Lync, outros métodos de autenticação devem ser desabilitados para outras funções e serviços, incluindo o seguinte:
 
 
 <table>
@@ -65,7 +65,7 @@ Os clientes são altamente incentivados a implantar a autenticação de dois fat
 <tr class="header">
 <th>Tipo de configuração</th>
 <th>Tipo de serviço</th>
-<th>Função do servidor</th>
+<th>Função de servidor</th>
 <th>Tipo de autenticação a ser desabilitada</th>
 </tr>
 </thead>
@@ -73,32 +73,32 @@ Os clientes são altamente incentivados a implantar a autenticação de dois fat
 <tr class="odd">
 <td><p>Serviço Web</p></td>
 <td><p>WebServer</p></td>
-<td><p>Diretor</p></td>
-<td><p>Kerberos, NTLM e Certificado</p></td>
+<td><p>Be</p></td>
+<td><p>Kerberos, NTLM e certificado</p></td>
 </tr>
 <tr class="even">
 <td><p>Serviço Web</p></td>
 <td><p>WebServer</p></td>
-<td><p>Front-End</p></td>
-<td><p>Kerberos, NTLM e Certificado</p></td>
+<td><p>Front-end</p></td>
+<td><p>Kerberos, NTLM e certificado</p></td>
 </tr>
 <tr class="odd">
-<td><p>Proxy</p></td>
+<td><p>Acionista</p></td>
 <td><p>EdgeServer</p></td>
 <td><p>Borda</p></td>
 <td><p>Kerberos e NTLM</p></td>
 </tr>
 <tr class="even">
-<td><p>Proxy</p></td>
+<td><p>Acionista</p></td>
 <td><p>Registrador</p></td>
-<td><p>Front-End</p></td>
+<td><p>Front-end</p></td>
 <td><p>Kerberos e NTLM</p></td>
 </tr>
 </tbody>
 </table>
 
 
-A menos que esses tipos de autenticação sejam desabilitados no nível de serviço, todas as outras versões do cliente do Lync não poderão entrar com êxito após a habilitação da autenticação de dois fatores na sua implantação.
+A menos que esses tipos de autenticação sejam desabilitados no nível de serviço, todas as outras versões do cliente Lync não poderão entrar com êxito quando a autenticação de dois fatores estiver habilitada em sua implantação.
 
 </div>
 
@@ -106,7 +106,7 @@ A menos que esses tipos de autenticação sejam desabilitados no nível de servi
 
 ## <a name="lync-service-discovery"></a>Descoberta de serviço do Lync
 
-Os registros DNS usados por clientes internos e/ou externos para descobrir serviços do Lync devem ser configurados para resolver para um Lync Server que não está habilitado para autenticação de dois fatores. Com essa configuração, os usuários de pools do Lync que não estão habilitados para autenticação de dois fatores não serão necessários para inserir um PIN para autenticação, enquanto os usuários de pools do Lync habilitados para a autenticação de dois fatores serão solicitados a digitar o PIN para faz.
+Os registros DNS usados por clientes internos e/ou externos para descobrir os serviços do Lync devem ser configurados para resolver para um Lync Server que não está habilitado para a autenticação de dois fatores. Com essa configuração, os usuários dos pools do Lync que não estão habilitados para a autenticação de dois fatores não serão solicitados a inserir um PIN para autenticar, enquanto os usuários dos pools do Lync habilitados para a autenticação de dois fatores serão solicitados a inserir seu PIN para fornecer.
 
 </div>
 
@@ -114,7 +114,7 @@ Os registros DNS usados por clientes internos e/ou externos para descobrir servi
 
 ## <a name="exchange-authentication"></a>Autenticação do Exchange
 
-Os clientes que implantaram a autenticação de dois fatores para o Microsoft Exchange podem descobrir que determinados recursos no cliente do Lync não estão disponíveis. Isso, no momento, é design, pois o cliente do Lync não dá suporte à autenticação de dois fatores para recursos que dependem da integração do Exchange.
+Os clientes que implantaram a autenticação de dois fatores para o Microsoft Exchange podem achar que determinados recursos no cliente do Lync não estão disponíveis. No momento, esse é o design, já que o cliente do Lync não oferece suporte à autenticação de dois fatores para recursos que dependem da integração do Exchange.
 
 </div>
 
@@ -122,17 +122,17 @@ Os clientes que implantaram a autenticação de dois fatores para o Microsoft Ex
 
 ## <a name="lync-contacts"></a>Contatos do Lync
 
-Os usuários do Lync que estiverem configurados para aproveitar o recurso de repositório de contatos unificado verão que seus contatos não estarão mais disponíveis depois de entrar com a autenticação de dois fatores.
+Os usuários do Lync que estão configurados para aproveitar o recurso de repositório unificado de contatos descobrirão que seus contatos não estão mais disponíveis após entrar com a autenticação de dois fatores.
 
-Você deve usar o cmdlet **Invoke-CsUcsRollback** para remover os contatos do usuário existentes do repositório de contatos unificado e armazená-los no Lync Server 2013 antes de habilitar a autenticação de dois fatores.
+Você deve usar o cmdlet **Invoke-CsUcsRollback** para remover os contatos de usuário existentes do repositório unificado de contatos e armazená-los no Lync Server 2013 antes de habilitar a autenticação de dois fatores.
 
 </div>
 
 <div>
 
-## <a name="skill-search"></a>Pesquisa de Habilidades
+## <a name="skill-search"></a>Pesquisa de habilidades
 
-Os clientes que tiverem configurado o recurso de pesquisa de habilidades no ambiente do Lync perceberão que esse recurso não funciona quando o Lync estiver habilitado para autenticação de dois fatores. Isso ocorre devido ao projeto, já que o Microsoft SharePoint não é compatível com a autenticação de dois fatores.
+Os clientes que tiverem configurado o recurso de pesquisa de habilidades em seus ambientes do Lync acharão que esse recurso não funciona quando o Lync estiver habilitado para a autenticação de dois fatores. Isso ocorre por design, já que o Microsoft SharePoint não oferece suporte à autenticação de dois fatores no momento.
 
 </div>
 
@@ -140,13 +140,13 @@ Os clientes que tiverem configurado o recurso de pesquisa de habilidades no ambi
 
 ## <a name="lync-credentials"></a>Credenciais do Lync
 
-Há várias considerações de implantação envolvendo as credenciais do Lync salvas, que podem afetar os usuários configurados para usar a autenticação de dois fatores.
+Há várias considerações de implantação envolvendo as credenciais salvas do Lync que podem afetar os usuários configurados para usar a autenticação de dois fatores.
 
 <div>
 
-## <a name="deleting-saved-credentials"></a>Exclusão de Credenciais Salvas
+## <a name="deleting-saved-credentials"></a>Excluir credenciais salvas
 
-Os usuários de cliente de desktop devem usar a opção **excluir minhas informações de entrada** no cliente do Lync e excluir a pasta de perfil SIP de\\%\\LocalAppData\\%\\Microsoft Office 15,0 Lync antes de tentar se conectar pela primeira vez usando a autenticação de dois fatores.
+Os usuários do cliente da área de trabalho devem usar a opção **excluir minhas informações de entrada** no cliente do Lync e excluir a pasta de perfil\\SIP\\de\\%\\LocalAppData% Microsoft Office 15,0 Lync antes de tentar assinar pela primeira vez usando a autenticação de dois fatores.
 
 </div>
 
@@ -154,17 +154,17 @@ Os usuários de cliente de desktop devem usar a opção **excluir minhas informa
 
 ## <a name="disablentcredentials"></a>DisableNTCredentials
 
-Com o método de autenticação Kerberos ou NTLM, as credenciais do Windows do usuário são usadas automaticamente para fins de autenticação. Em uma implantação típica do Lync Server 2013 na qual Kerberos e/ou NTLM está habilitado para autenticação, os usuários não devem inserir suas credenciais toda vez que entrarem.
+Com o método de autenticação Kerberos ou NTLM, as credenciais do Windows do usuário são usadas automaticamente para autenticação. Em uma implantação típica do Lync Server 2013, onde Kerberos e/ou NTLM está habilitado para autenticação, os usuários não devem inserir suas credenciais toda vez que entrarem.
 
-Se as credenciais dos usuários forem inadvertidamente solicitadas antes de ser necessário informar o PIN, a chave de registro **DisableNTCredentials** pode estar configurada por engano nos computadores clientes, possivelmente através de uma Política de Grupo.
+Se os usuários forem solicitados involuntariamente por credenciais antes de serem solicitadas a inserir o PIN, a chave do registro **DisableNTCredentials** poderá ser configurada acidentalmente nos computadores cliente, possivelmente por meio da política de grupo.
 
-Para impedir o prompt adicional de credenciais, crie a seguinte entrada do registro na estação de trabalho local ou use o modelo administrativo do Lync para aplicar a todos os usuários de um determinado pool usando a política de Grupo:
+Para impedir o prompt adicional para credenciais, crie a seguinte entrada de registro na estação de trabalho local ou use o modelo administrativo do Lync para aplicar a todos os usuários de um determinado pool usando a política de Grupo:
 
 HKEY\_local\_Machine\\software\\\\Policies\\Microsoft\\Office\\15,0 Lync
 
 REG\_DWORD: DisableNTCredentials
 
-Value: 0x0
+Valor: 0x0
 
 </div>
 
@@ -172,15 +172,15 @@ Value: 0x0
 
 ## <a name="savepassword"></a>SavePassword
 
-Quando um usuário entrar no Lync pela primeira vez, o usuário será solicitado a salvar sua senha. Em caso positivo, o certificado de cliente do usuário fica armazenado no armazenamento de certificado pessoal e as credenciais do Windows do usuário ficam armazenadas no Gerenciador de Credenciais do computador local.
+Quando um usuário entra no Lync pela primeira vez, o usuário é solicitado a salvar sua senha. Se for selecionada, esta opção permitirá que o certificado de cliente do usuário seja armazenado no repositório de certificados pessoais e as credenciais do Windows do usuário sejam armazenadas no Gerenciador de credenciais do computador local.
 
-A configuração do registro **SavePassword** deve ser desabilitada quando o Lync estiver configurado para dar suporte à autenticação de dois fatores. Para impedir que os usuários salvem suas senhas, altere a seguinte entrada do registro na estação de trabalho local ou use o modelo administrativo do Lync para aplicar a todos os usuários de um determinado pool usando a política de Grupo:
+A configuração do registro **SavePassword** deve ser desabilitada quando o Lync estiver configurado para oferecer suporte à autenticação de dois fatores. Para impedir que os usuários salvem suas senhas, altere a entrada de registro a seguir na estação de trabalho local ou use o modelo administrativo do Lync para aplicar a todos os usuários de um determinado pool usando a política de Grupo:
 
-HKEY\_software\_\\user\\atual Microsoft\\Office\\15,0\\Lync
+HKEY\_Current\_USER\\software\\Microsoft\\Office\\15,0\\Lync
 
 REG\_DWORD: SavePassword
 
-Value: 0x0
+Valor: 0x0
 
 </div>
 
@@ -188,19 +188,19 @@ Value: 0x0
 
 <div>
 
-## <a name="ad-fs-20-token-replay"></a>AD FS 2.0 Token Replay
+## <a name="ad-fs-20-token-replay"></a>Repetição de token do AD FS 2,0
 
-O AD FS 2.0 oferece um recurso chamado detecção de repetição de token, pelo qual é possível detectar várias solicitações de token que usam o mesmo token a fim de descartá-las. Quanto este recurso está habilitado, a detecção de repetição de token protege a integridade das solicitações de autenticação tanto no perfil passivo do WS-Federation quanto no perfil de SAML WebSSO, certificando-se de que o mesmo token nunca é usado mais de uma vez.
+O AD FS 2,0 fornece um recurso referido como detecção de repetição de token, pelo qual várias solicitações de token que usam o mesmo token podem ser detectadas e descartadas. Quando esse recurso está habilitado, a detecção de repetição de token protege a integridade das solicitações de autenticação no perfil passivo do WS-Federation e no perfil de webs do SAML, garantindo que o mesmo token nunca seja usado mais de uma vez.
 
-Esse recurso deve ser habilitado em situações em que há grandes preocupações com a segurança, como quando se usa quiosques. Para obter mais informações sobre a detecção de repetição de token, consulte práticas recomendadas para o planejamento seguro e a [http://go.microsoft.com/fwlink/p/?LinkId=309215](http://go.microsoft.com/fwlink/p/?linkid=309215)implantação do AD FS 2,0 em.
+Esse recurso deve ser habilitado em situações em que a segurança é uma preocupação muito alta, como ao usar quiosques. Para obter mais informações sobre a detecção de repetição de token, consulte práticas recomendadas para o planejamento e a implantação [http://go.microsoft.com/fwlink/p/?LinkId=309215](http://go.microsoft.com/fwlink/p/?linkid=309215)seguros do AD FS 2,0 em.
 
 </div>
 
 <div>
 
-## <a name="external-user-access"></a>Acesso de usuários externos
+## <a name="external-user-access"></a>Acesso de usuário externo
 
-A configuração de um proxy do AD FS ou do proxy reverso para dar suporte à autenticação de dois fatores do Lync de redes externas não é abordada nestes tópicos.
+A configuração de um proxy do AD FS ou do proxy reverso para dar suporte à autenticação de dois fatores do Lync de redes externas não é abordada nesses tópicos.
 
 </div>
 

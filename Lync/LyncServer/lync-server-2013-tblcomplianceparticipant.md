@@ -12,16 +12,16 @@ ms:contentKeyID: 48184262
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 484948a01c82dc8ca256e3e50e484c94a9b81de4
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a4d5a0024c273dbef8fee16f1fb4b3372692ab4f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731551"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049233"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,7 +35,7 @@ ms.locfileid: "41731551"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-12_
+_**Última modificação do tópico:** 2012-09-12_
 
 tblComplianceParticipant contém os participantes atuais por canal e por servidor.
 
@@ -57,39 +57,39 @@ tblComplianceParticipant contém os participantes atuais por canal e por servido
 <tbody>
 <tr class="odd">
 <td><p>channelUri</p></td>
-<td><p>nvarchar (255), NOT NULL</p></td>
-<td><p>URI (Uniform Resource Identifier) do canal.</p></td>
+<td><p>nvarchar (255), não nulo</p></td>
+<td><p>Identificador de Recurso Uniforme do Canal (URI).</p></td>
 </tr>
 <tr class="even">
-<td><p>ID</p></td>
+<td><p>userId</p></td>
 <td><p>int, não nulo</p></td>
-<td><p>ID da entidade de segurança do participante (correspondente à tabela tblPrincipal. retoid).</p></td>
+<td><p>ID da entidade do participante (correspondente à tabela tblPrincipal.prinID).</p></td>
 </tr>
 <tr class="odd">
 <td><p>joinedAt</p></td>
-<td><p>bigint, e não nulo</p></td>
-<td><p>Carimbo de data/hora do evento de associação.</p></td>
+<td><p>bigint, não nulo</p></td>
+<td><p>Carimbo de data e hora de ingresso no evento.</p></td>
 </tr>
 <tr class="even">
 <td><p>partedAt</p></td>
 <td><p>bigint</p></td>
-<td><p>NULL se o participante ainda estiver associado. O carimbo de data/hora do evento de persaiar de canal, se não for nulo.</p>
-<p>Essas entradas são eventualmente removidas quando todos os tradutores processam o evento.</p></td>
+<td><p>Nulo se o participante ainda estiver ingressado. O carimbo de data e hora de quando o canal deixa o evento se não for nulo.</p>
+<p>Essas entradas são eventualmente removidas quando todos os conversores processam o evento.</p></td>
 </tr>
 <tr class="odd">
 <td><p>userUri</p></td>
-<td><p>nvarchar (255), NOT NULL</p></td>
-<td><p>URI de usuário.</p></td>
+<td><p>nvarchar (255), não nulo</p></td>
+<td><p>URI do Usuário.</p></td>
 </tr>
 <tr class="even">
 <td><p>serverID</p></td>
 <td><p>int</p></td>
-<td><p>Identidade do servidor (como na tabela tblServerIdentity. ServerId).</p></td>
+<td><p>Identidade do servidor (como na tabela tblServerIdentity.serverID).</p></td>
 </tr>
 <tr class="odd">
-<td><p>Identificação</p></td>
+<td><p>Identificação_da_sessão</p></td>
 <td><p>bigint</p></td>
-<td><p>Sessão do servidor. Esse é um número aleatório gerado cada vez que um serviço de chat é iniciado. Ele é usado para diferenciar sessões para fins de identificação de participantes órfãos.</p></td>
+<td><p>Sessão do servidor. Este é um número aleatório gerado sempre que um serviço de chat é iniciado. Ele é usado para diferenciar as sessões a fim de identificar os participantes órfãos.</p></td>
 </tr>
 </tbody>
 </table>

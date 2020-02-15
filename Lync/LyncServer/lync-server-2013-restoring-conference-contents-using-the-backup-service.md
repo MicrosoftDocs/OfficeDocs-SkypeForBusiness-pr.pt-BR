@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Restaurando conteúdos de conferência usando o Serviço de Backup'
+title: 'Lync Server 2013: restaurando o conteúdo da conferência usando o serviço de backup'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733620
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 873ca354ca592eb6bc317b579a0a6f5008e6a172
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d8fb791362718b2bce5e7c13c0cc6aab779d954f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733191"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051073"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="restoring-conference-contents-using-the-backup-service-in-lync-server-2013"></a>Restaurando conteúdos de conferência usando o Serviço de Backup no Lync Server 2013
+# <a name="restoring-conference-contents-using-the-backup-service-in-lync-server-2013"></a>Restaurando o conteúdo da conferência usando o serviço de backup no Lync Server 2013
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41733191"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-11-01_
+_**Última modificação do tópico:** 2012-11-01_
 
-Se as informações de conferência armazenadas no repositório de arquivos de um pool de front-ends ficarem indisponíveis. Você deve restaurar essas informações para que os usuários hospedados no pool mantenham seus dados de conferência. Se o pool de front-ends que perdeu dados de conferências estiver emparelhado com outro pool de front-end, você pode usar o serviço de backup para restaurar os dados.
+Se a informação de conferência armazenada no repositório de arquivo de um pool de Front Ends se tornar indisponível, você deverá restaurar essa informação para que os usuários hospedados no pool recuperem os dados de conferência. Caso o pool de Front End que perdeu os dados de conferência esteja pareado com outro pool de Front End, você pode utilizar o Serviço de Backup para restaurar os dados.
 
-Você também deve realizar essa tarefa se um pool inteiro tiver falhado e tiver que fazer failover de seus usuários para um pool de backup. Quando esses usuários falham novamente em seu pool original, você deve usar esse procedimento para copiar o conteúdo de conferência de volta para o pool original também.
+Você também deve efetuar tal tarefa caso todo um pool falhe e você tenha que executar failover nos usuários para um pool de backup. Quando esses usuários retornarem para o pool original, você deve utilizar este procedimento para copiar o conteúdo de conferência de volta para o pool original.
 
-Suponha que o Pool1 está emparelhado com Pool2, e os dados de conferência no Pool1 são perdidos. Você pode usar o cmdlet a seguir para invocar o serviço de backup para restaurar o conteúdo:
+Presuma que o Pool1 está pareado com Pool2, e os dados de conferência de Pool1 foram perdidos. Você pode usar o cmdlet a seguir para invocar o serviço de backup para restaurar o conteúdo:
 
     Invoke-CsBackupServiceSync -PoolFqdn <Pool2 FQDN> -BackupModule ConfServices.DataConf
 
-A restauração do conteúdo da conferência pode levar algum tempo, dependendo do tamanho. Você pode usar o cmdlet a seguir para verificar o status do processo:
+Restaurar o conteúdo pode levar algum tempo, dependendo do tamanho. Você pode utilizar o seguinte cmdlet para verificar o status do processo:
 
     Get-CsBackupServiceStatus -PoolFqdn <Pool2 FQDN> -BackupModule ConfServices.DataConf
 
-O processo é feito quando esse cmdlet retorna um valor de estado Steady para o módulo de conferência de dados.
+O processo é concluído quando este cmdlet retorna um valor de Estado Estável para o módulo de conferência de dados.
 
 </div>
 

@@ -12,16 +12,16 @@ ms:contentKeyID: 48184697
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8081ba60d826f0f765533abdb6c0f548045a7fa8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: bb74e5a6272f752da7cf31be3379d217447f3397
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765379"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046794"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41765379"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-05_
+_**Última modificação do tópico:** 2012-10-05_
 
-Se você tiver pools de front-end, pools de diretor ou pools de servidores de borda, será necessário implantar o balanceamento de carga para esses pools. O balanceamento de carga distribui o tráfego entre os servidores em um pool.
+Se você tiver pools de front-ends, pools de diretores ou servidores de borda, será necessário implantar o balanceamento de carga para esses pools. O balanceamento de carga distribui o tráfego entre os servidores em um pool.
 
-O Lync Server 2013 dá suporte a dois tipos de soluções de balanceamento de carga para tráfego de cliente para servidor: equilíbrio de carga do sistema de nomes de domínio (DNS) e balanceamento de carga de hardware. O balanceamento de carga de DNS oferece várias vantagens, incluindo administração mais simples, solução de problemas mais eficiente e a capacidade de isolar grande parte do tráfego do Lync Server de qualquer problema potencial de balanceador de carga de hardware.
+O Lync Server 2013 oferece suporte a dois tipos de soluções de balanceamento de carga para tráfego de cliente para servidor: balanceamento de carga DNS (sistema de nomes de domínio) e balanceamento de carga de hardware. O balanceamento de carga DNS oferece várias vantagens, incluindo administração mais simples, solução de problemas mais eficiente e a capacidade de isolar grande parte do tráfego do Lync Server de qualquer problema potencial de balanceador de carga de hardware.
 
 Decida que solução de balanceamento de carga é apropriada para cada pool de sua implantação, considerando as seguintes restrições:
 
@@ -47,13 +47,13 @@ Decida que solução de balanceamento de carga é apropriada para cada pool de s
 
   - Alguns tipos de tráfego exigem um balanceador de carga de hardware. Por exemplo, o tráfego HTTP requer um balanceador de carga de hardware em vez do balanceamento de carga DNS. O balanceamento de carga DNS não funciona com o tráfego web de cliente-servidor.
 
-Para obter mais detalhes sobre como escolher uma solução de balanceador de carga de hardware, consulte [requisitos do balanceador de carga de hardware para o Lync Server 2013](lync-server-2013-hardware-load-balancer-requirements.md).
+Para obter mais detalhes sobre a escolha de uma solução de balanceador de carga de hardware, consulte [requisitos de balanceador de carga de hardware para o Lync Server 2013](lync-server-2013-hardware-load-balancer-requirements.md).
 
-Se optar por usar o balanceamento de carga DNS para um pool, mas ainda for necessário implementar balanceadores de carga de hardware para o tráfego, como o tráfego HTTP, a administração dos balanceadores de carga de hardware é bastante simplificada. Por exemplo, a configuração do balanceador de carga de hardware será mais simples, pois gerenciará somente os tráfegos HTTP e HTTPS, enquanto os demais protocolos serão gerenciados pelo balanceamento de carga DNS. Para obter detalhes, consulte [balanceamento de carga de DNS no Lync Server 2013](lync-server-2013-dns-load-balancing.md).
+Se você optar por usar o balanceamento de carga DNS para um pool mas ainda precisa implementar balanceadores de carga de hardware para o tráfego, como o tráfego HTTP, a administração dos balanceadores de carga de hardware é bastante simplificada. Por exemplo, a configuração do balanceador de carga de hardware será mais simples, pois só gerenciará o tráfego HTTP e HTTPS, enquanto todos os outros protocolos serão gerenciados pelo balanceamento de carga DNS. Para obter detalhes, consulte [balanceamento de carga de DNS no Lync Server 2013](lync-server-2013-dns-load-balancing.md).
 
-Para o tráfego de servidor para servidor, o Lync Server 2013 usa o balanceamento de carga compatível com topologia. Os servidores lêem a topologia publicada no repositório de gerenciamento central para obter os FQDNs dos servidores na topologia e distribuir automaticamente o tráfego entre os servidores. Os administradores não precisam configurar nem gerenciar esse tipo de balanceamento de carga.
+Para o tráfego de servidor para servidor, o Lync Server 2013 usa o balanceamento de carga com reconhecimento de topologia. Os servidores lêem a topologia publicada no repositório de gerenciamento central para obter os FQDNs dos servidores na topologia e distribuir automaticamente o tráfego entre os servidores. Os administradores não precisam configurar ou gerenciar esse tipo de balanceamento de carga.
 
-Se você usar um balanceamento de carga DNS e precisar bloquear o tráfego para um computador específico, não é suficiente apenas remover as entradas do endereço IP do Pool FQDN. Você deve remover a entrada DNS do computador.
+Se você usar o balanceamento de carga DNS e precisar bloquear o tráfego para um computador específico, não é suficiente apenas remover as entradas de endereço IP do FQDN do pool. Você também deve remover a entrada DNS do computador.
 
 </div>
 

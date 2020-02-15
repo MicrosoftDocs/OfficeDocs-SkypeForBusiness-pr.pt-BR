@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Arquitetura e roteamento do Exchange UM hospedado'
+title: 'Lync Server 2013: arquitetura e roteamento do Exchange UM hospedado'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184122
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a0196026552d19f4338c1a2afa265b8a3e67eb77
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3846e6b2a6817bb01b678f6ddb2c8d0ce7231ec1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41739011"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046824"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41739011"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-03-26_
+_**Última modificação do tópico:** 2012-03-26_
 
-Esta seção fornece uma visão geral da arquitetura de integração do Exchange UM local e hospedada, incluindo modos com suporte, espaço SIP compartilhado e considerações de roteamento.
+Esta seção fornece uma visão geral da arquitetura para integração do UM do Exchange hospedado e local, incluindo modos com suporte, espaço SIP compartilhado e considerações sobre roteamento.
 
 <div>
 
 ## <a name="in-this-section"></a>Nesta seção
 
-  - [Arquitetura de integração do UM do Exchange hospedado no Lync Server 2013](lync-server-2013-hosted-exchange-um-integration-architecture.md)
+  - [Arquitetura de integração do UM do Exchange hospedada no Lync Server 2013](lync-server-2013-hosted-exchange-um-integration-architecture.md)
 
   - [Roteamento do Exchange UM hospedado no Lync Server 2013](lync-server-2013-hosted-exchange-um-routing.md)
 

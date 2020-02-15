@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Pool de Diretor em escala'
+title: 'Lync Server 2013: pool de diretores em escala'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184055
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 93c3147f9397db444e816dea433fbe5478c8e87a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8a2ddb19bab0ab47d1afe0014e06aad6189259b4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764979"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049673"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="scaled-director-pool-in-lync-server-2013"></a>Pool de Diretor em escala no Lync Server 2013
+# <a name="scaled-director-pool-in-lync-server-2013"></a>Pool de diretores em escala no Lync Server 2013
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41764979"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-08_
+_**Última modificação do tópico:** 2012-09-08_
 
-O diretor pode ser implantado em uma única configuração de diretor ou como um pool de directors. Esta seção define uma topologia e a configuração de duas topologias de diretor de pool. Se você estiver planejando a implantação de um único diretor, consulte o tópico [single Director no Lync Server 2013](lync-server-2013-single-director.md) para obter considerações de planejamento para essa topologia.
+O diretor pode ser implantado em uma única configuração de diretor ou como um pool de diretores. Esta seção define uma topologia e a configuração de duas topologias de diretor em pool. Se você estiver planejando a implantação de um único diretor, consulte o tópico [single Director no Lync Server 2013](lync-server-2013-single-director.md) para obter considerações de planejamento para essa topologia.
 
 <div>
 
 ## <a name="in-this-section"></a>Nesta seção
 
-  - [Pool de diretores em escala - balanceamento de carga de DNS e balanceador de carga de hardware no Lync Server 2013](lync-server-2013-scaled-director-pool-dns-load-balancing-and-hardware-load-balancer.md)
+  - [Pool de diretores em escala-balanceamento de carga de DNS e balanceador de carga de hardware no Lync Server 2013](lync-server-2013-scaled-director-pool-dns-load-balancing-and-hardware-load-balancer.md)
 
-  - [Pool de diretores em escala - balanceador de carga de hardware no Lync Server 2013](lync-server-2013-scaled-director-pool-hardware-load-balancer.md)
+  - [Pool de diretores em escala-balanceador de carga de hardware no Lync Server 2013](lync-server-2013-scaled-director-pool-hardware-load-balancer.md)
 
 </div>
 

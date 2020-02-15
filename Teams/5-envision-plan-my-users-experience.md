@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d156761d8ebc39822d6ccf2fc28ed6c380c4e117
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 77a325fbe8cacb3b2760f5b3034dee0e16695278
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825179"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42021592"
 ---
 # <a name="plan-my-users-experience"></a>Planejar a experiência de meus usuários
 
@@ -108,7 +108,7 @@ Um exercício de mapeamento entre personas e dispositivos deve ser realizado com
 Depois de selecionar os dispositivos, inclua-os no plano de testes do piloto para a validação final. Faça pesquisas durante o piloto para obter comentários e assim garantir que sua estratégia de dispositivos seja a ideal.
 
 > [!NOTE]
-> No momento, recomendamos usar dispositivos de áudio certificados pelo Programa de Certificação do Skype for Business. Para localizar dispositivos certificados neste programa, consulte dispositivos e dispositivos de áudio e [vídeo USB](https://docs.microsoft.com/SkypeForBusiness/certification/devices-usb-devices)do [Microsoft Teams](https://products.office.com/en-us/microsoft-teams/across-devices/devices) .
+> No momento, recomendamos usar dispositivos de áudio certificados pelo Programa de Certificação do Skype for Business. Para localizar dispositivos certificados neste programa, consulte dispositivos e dispositivos de áudio e [vídeo USB](https://docs.microsoft.com/SkypeForBusiness/certification/devices-usb-devices)do [Microsoft Teams](https://products.office.com/microsoft-teams/across-devices/devices) .
 
 
 

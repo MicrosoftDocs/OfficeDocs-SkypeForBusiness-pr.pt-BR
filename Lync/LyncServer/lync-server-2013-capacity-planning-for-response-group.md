@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Planejamento de capacidade para Grupo de Resposta'
+title: 'Lync Server 2013: planejamento de capacidade para grupo de resposta'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184951
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5efb1b928ce7b4bafbbff20ad31872fe12735fe0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4e5724978347b50db2790e4d5798aace8489acbb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736982"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046254"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="capacity-planning-for-response-group-in-lync-server-2013"></a>Planejamento de capacidade para Grupo de Resposta no Lync Server 2013
+# <a name="capacity-planning-for-response-group-in-lync-server-2013"></a>Planejamento de capacidade para grupo de resposta no Lync Server 2013
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41736982"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-29_
+_**Última modificação do tópico:** 2012-10-29_
 
 <div id="sectionSection0" class="section">
 
-A tabela a seguir descreve o modelo de usuário do grupo de resposta que você pode usar como base para requisitos de planejamento de capacidade.
+A tabela a seguir descreve o modelo de usuário do grupo de resposta que você pode usar como base para os requisitos de planejamento de capacidade.
 
 <div>
 
 
 > [!NOTE]  
-> Os números na tabela a seguir pressupõem que você use arquivos Wave de 16 bits (. wav) de 16 bits para todos os arquivos de áudio do grupo de resposta. Se você usar outros formatos de arquivo, como o áudio do Windows Media (. WMA), os números podem variar.
+> Os números na tabela a seguir assumem que arquivos de 16 kHz, mono, Wave (.wav) de 16 bits sejam usados para todos os arquivos de áudio do grupo de resposta. Se você usa outros formatos de arquivo, como Windows Media Audio (.wma), os números podem variar.
 
 
 
@@ -55,13 +55,13 @@ A tabela a seguir descreve o modelo de usuário do grupo de resposta que você p
 
 
 > [!IMPORTANT]  
-> Lembre-se de que, para o planejamento da capacidade de recuperação de desastres, cada pool de um pool emparelhado deve ser capaz de manipular as cargas de trabalho para todos os grupos de resposta em ambos os pools.
+> Tenha em mente que para planejar a capacidade de recuperação de desastres, cada pool de um pool pareado deve poder lidar com cargas de trabalho de todos os grupos de resposta, em ambos os pools.
 
 
 
 </div>
 
-### <a name="response-group-user-model"></a>Modelo de usuário do grupo de resposta
+### <a name="response-group-user-model"></a>Modelo de Usuário do Grupo de Resposta
 
 <table>
 <colgroup>
@@ -72,33 +72,33 @@ A tabela a seguir descreve o modelo de usuário do grupo de resposta que você p
 <thead>
 <tr class="header">
 <th>Indicador</th>
-<th>Por pool de edição para empresas (com 8 servidores front end)</th>
-<th>Por servidor padrão da edição</th>
+<th>Por pool Enterprise Edition (com 8 servidores front-end)</th>
+<th>Por servidor Standard Edition</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Chamadas recebidas por segundo</p></td>
-<td><p>16</p></td>
-<td><p>2</p></td>
+<td><p>Chamadas de entrada por segundo</p></td>
+<td><p>16 </p></td>
+<td><p>2 </p></td>
 </tr>
 <tr class="even">
-<td><p>Chamadas simultâneas conectadas ao IVR ou MoH</p></td>
+<td><p>Chamadas concorrentes conectadas ao IVR ou MoH</p></td>
 <td><p>480</p></td>
 <td><p>60</p></td>
 </tr>
 <tr class="odd">
-<td><p>Sessões anônimas simultâneas (sem mensagens instantâneas)</p></td>
+<td><p>Sessões anônimas concorrentes (sem IM)</p></td>
 <td><p>224</p></td>
 <td><p>28</p></td>
 </tr>
 <tr class="even">
-<td><p>Sessões anônimas simultâneas (com mensagens instantâneas)</p></td>
+<td><p>Sessões anônimas concorrentes (com IM)</p></td>
 <td><p>64</p></td>
-<td><p>8</p></td>
+<td><p>8 </p></td>
 </tr>
 <tr class="odd">
-<td><p>Agentes ativos (formais e informais)</p></td>
+<td><p>Operadores ativos (formais e informais)</p></td>
 <td><p>1200</p></td>
 <td><p>1200</p></td>
 </tr>
@@ -108,7 +108,7 @@ A tabela a seguir descreve o modelo de usuário do grupo de resposta que você p
 <td><p>400</p></td>
 </tr>
 <tr class="odd">
-<td><p>Número de grupos IVR (usar reconhecimento de fala)</p></td>
+<td><p>Número de grupos IVR (usa reconhecimento de fala)</p></td>
 <td><p>200</p></td>
 <td><p>200</p></td>
 </tr>

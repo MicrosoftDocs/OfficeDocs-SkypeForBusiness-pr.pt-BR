@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Criar ou modificar um site da rede'
+title: 'Lync Server 2013: criar ou modificar um site de rede'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183488
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ed721a48b12a497b25d58e7ebb65ff3a91980904
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ce676c4e86d6bceae81d60897846e3005780eb58
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41722553"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046014"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-a-network-site-in-lync-server-2013"></a>Criar ou modificar um site da rede no Lync Server 2013
+# <a name="create-or-modify-a-network-site-in-lync-server-2013"></a>Criar ou modificar um site de rede no Lync Server 2013
 
 </div>
 
@@ -35,20 +35,20 @@ ms.locfileid: "41722553"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-02-24_
+_**Última modificação do tópico:** 2013-02-24_
 
-O controle de admissão de chamadas (CAC), o E9-1-1 e as implantações de bypass de mídia dependem da configuração dos *sites de rede* que são definidos dentro e sempre associados a uma região de rede. Um site de rede representa uma localização de filial, um conjunto de edifícios ou um campus. Os sites de rede representam coleções de sub-redes com largura de banda semelhante.
+As implantações do controle de admissão de chamadas, do E9-1-1 e do desvio de mídia se baseiam na configuração de *locais de rede*, que são definidos dentro de uma região da rede e sempre associados a ela. Um site de rede representa uma localização de filial, um conjunto de edifícios ou um campus. Locais de rede representam coleções de subredes com largura de banda semelhante.
 
-Use os procedimentos a seguir para criar ou modificar sites de rede. Por exemplo, se você já tiver criado sites de rede para um recurso de voz, não precisará criar novos sites de rede; outros recursos de voz usarão esses mesmos sites. Você pode, porém, precisar modificar uma definição de site da rede existente para aplicar configurações específicas do recurso. Por exemplo, se você criou um site da rede para o E9-1-1, você precisa modificar o site da rede durante a implantação do serviço de controle de admissão de chamadas para aplicar um perfil de política de largura de banda.
+Use os procedimentos a seguir para criar ou modificar sites de rede. Por exemplo, se você já criou sites de rede para um recurso de Voz, você não precisa criar sites de rede novos, outros recursos de Voz usarão esses mesmos sites. Você pode, porém, precisar modificar uma definição de site de rede existente para aplicar configurações específicas do recurso. Por exemplo, se você criou um site de rede para o E9-1-1, você precisa modificar o site de rede durante a implantação do controle de admissão de chamada para aplicar um perfil de política de largura de banda.
 
 <div>
 
 
 > [!NOTE]  
-> Onde elas existem, você pode encontrar exemplos e requisitos específicos para sites de rede à medida que eles pertencem a um recurso de voz avançado na documentação de implantação para cada recurso: 
+> Onde eles existirem, você pode encontrar exemplos e requisitos específicos para sites de rede à medida que eles pertencem a um recurso de Voz avançado na documentação de Implantação para cada recurso: 
 > <UL>
 > <LI>
-> <P><A href="lync-server-2013-configure-network-sites-for-cac.md">Configurar sites de rede para o CAC no Lync Server 2013</A></P></LI></UL>
+> <P><A href="lync-server-2013-configure-network-sites-for-cac.md">Configurar sites de rede para CAC no Lync Server 2013</A></P></LI></UL>
 
 
 
@@ -68,15 +68,15 @@ Para obter detalhes sobre como trabalhar com sites de rede, consulte a documenta
 
 ## <a name="create-a-network-site"></a>Criar um site de rede
 
-Crie uma região de rede que possa ser usada pelo controle de admissão de chamadas, E9-1-1 ou bypass de mídia.
+Criar uma região de rede que pode ser usada pelo controle de admissão de chamada, E9-1-1 ou desvio de mídia.
 
 <div>
 
-## <a name="to-create-a-network-site-by-using-management-shell"></a>Para criar um site de rede usando o Shell de gerenciamento
+## <a name="to-create-a-network-site-by-using-management-shell"></a>Para criar um site de rede usando o Shell de Gerenciamento
 
-1.  Inicie o Shell de gerenciamento do Lync Server: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Shell de gerenciamento do Lync Server**.
+1.  Inicie o Shell de Gerenciamento do Lync Server: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Shell de Gerenciamento do Lync Server**.
 
-2.  Execute o cmdlet do New-CsNetworkSite para criar sites da rede:
+2.  Execute o cmdlet do New-CsNetworkSite para criar sites de rede:
     
         New-CsNetworkSite -NetworkSiteID <string>
     
@@ -84,7 +84,7 @@ Crie uma região de rede que possa ser usada pelo controle de admissão de chama
     
         New-CsNetworkSite -NetworkSiteID Chicago -Description "Corporate headquarters"-NetworkRegionID NorthAmerica
     
-    Neste exemplo, você criou um site da rede chamado “Chicago” que está na região da rede “NorthAmerica”.
+    Neste exemplo, você criou um site de rede chamado “Chicago” que está na região da rede “NorthAmerica”.
     
     <div>
     
@@ -95,33 +95,33 @@ Crie uma região de rede que possa ser usada pelo controle de admissão de chama
     
     </div>
 
-3.  Para concluir a criação de sites da rede para a sua topologia, repita a etapa 2 com as configurações de outros sites.
+3.  Para concluir a criação de sites de rede para a sua topologia, repita a etapa 2 com as configurações de outros sites.
 
 </div>
 
 <div>
 
-## <a name="to-create-a-network-site-by-using-lync-server-control-panel"></a>Para criar um site de rede usando o painel de controle do Lync Server
+## <a name="to-create-a-network-site-by-using-lync-server-control-panel"></a>Para criar um site de rede usando o Painel de Controle do Lync Server
 
-1.  Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [abrir ferramentas administrativas do Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+1.  Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-2.  Na barra de navegação esquerda, clique em **Configuração de rede**.
+2.  Na barra de navegação à esquerda, clique em **Configurações de rede**.
 
 3.  Clique no botão de navegação **Site**.
 
 4.  Clique em **Novo**.
 
-5.  Na página **Novo Site**, clique em **Nome** e depois digite um nome para o site da rede.
+5.  Na página **Novo Site**, clique em **Nome** e depois digite um nome para o site de rede.
 
 6.  Clique em **Região**, e depois clique em uma região na lista.
 
-7.  De modo opcional, clique em **Política de largura de banda**, e depois clique em uma das larguras de banda da lista.
+7.  De modo opcional, clique em **Política de largura de banda** e depois clique em uma das larguras de banda da lista.
     
     <div>
     
 
     > [!NOTE]  
-    > A política de largura de banda é solicitada apenas se você implantar o serviço de controle de admissão de chamadas no site.
+    > A política de largura de banda é solicitada apenas se você implantar o controle de admissão de chamada no site.
 
     
     </div>
@@ -137,11 +137,11 @@ Crie uma região de rede que possa ser usada pelo controle de admissão de chama
     
     </div>
 
-9.  Como opção, clique em **Descrição**, em seguida, digite as informações adicionais para descrever esse site da rede.
+9.  De modo opcional, clique em **Descrição**, e depois digite as informações adicionais para descrever o site de rede.
 
 10. Clique em **Confirmar**.
 
-11. Para concluir a criação de sites da rede para a sua topologia, repita as etapas 4 a 10 com as configurações de outros sites.
+11. Para concluir a criação de sites de rede para a sua topologia, repita as etapas 4 a 10 com as configurações de outros sites.
 
 </div>
 
@@ -151,15 +151,15 @@ Crie uma região de rede que possa ser usada pelo controle de admissão de chama
 
 ## <a name="modify-a-network-site"></a>Modificar um site de rede
 
-Modifique uma região de rede que possa ser usada pelo controle de admissão de chamadas, E9-1-1 ou bypass de mídia.
+Modificar uma região de rede que pode ser usada pelo controle de admissão, E9-1-1 ou desvio de mídia.
 
 <div>
 
 ## <a name="to-modify-a-network-site"></a>Para modificar um site de rede
 
-1.  Inicie o Shell de gerenciamento do Lync Server: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Shell de gerenciamento do Lync Server**.
+1.  Inicie o Shell de Gerenciamento do Lync Server: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Shell de Gerenciamento do Lync Server**.
 
-2.  Execute o cmdlet Set-CsNetworkSite para modificar os sites da rede:
+2.  Execute o cmdlet Set-CsNetworkSite para modificar os sites de rede:
     
         Set-CsNetworkSite -Identity <string>
     
@@ -167,40 +167,40 @@ Modifique uma região de rede que possa ser usada pelo controle de admissão de 
     
         Set-CsNetworkSite -Identity Albuquerque -NetworkRegionID NorthAmerica
     
-    Neste exemplo, o site chamado “Albuquerque” é movido para a região “NorthAmerica”. Para modificar a configuração do site da rede para implantar o serviço de controle de admissão de chamadas, o E9-1-1 ou desvio de mídia, modifique o site da rede executando o cmdlet Set-CsNetworkSite com os parâmetros do BWPolicyProfileID ou LocationPolicy, respectivamente.
+    Neste exemplo, o site chamado “Albuquerque” é movido para a região “NorthAmerica”. Para modificar a configuração do site de rede para implantar o controle de admissão de chamada, o E9-1-1 ou desvio de mídia, modifique o site de rede executando o cmdlet Set-CsNetworkSite ou com os parâmetros do BWPolicyProfileID ou do LocationPolicy, respectivamente.
     
     <div>
     
 
     > [!NOTE]  
-    > Embora o parâmetro do BypassID exista para o desvio de mídia, recomendamos que você não sobreponha IDs de desvio geradas automaticamente. Você não precisa especificar parâmetros adicionais para configurar um site da rede para o desvio de mídia.
+    > Embora o parâmetro do BypassID exista para o desvio de mídia, recomendamos que você não sobreponha IDs de desvio geradas automaticamente. Você não precisa especificar parâmetros adicionais para configurar um site de rede para o desvio de mídia.
 
     
     </div>
 
-3.  Para concluir a modificação dos sites da rede para sua topologia, repita a etapa 2 com as configurações de outros sites.
+3.  Para concluir a modificação dos sites de rede para sua topologia, repita a etapa 2 com as configurações de outros sites.
 
 </div>
 
 <div>
 
-## <a name="to-modify-a-network-site-by-using-lync-server-control-panel"></a>Para modificar um site de rede usando o painel de controle do Lync Server
+## <a name="to-modify-a-network-site-by-using-lync-server-control-panel"></a>Para modificar um site de rede usando um Painel de Controle Lync Server
 
-1.  Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [abrir ferramentas administrativas do Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+1.  Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-2.  Na barra de navegação esquerda, clique em **Configuração de rede**.
+2.  Na barra de navegação à esquerda, clique em **Configurações de rede**.
 
 3.  Clique no botão de navegação **Site**.
 
-4.  Na tabela, clique no site da rede que você quer modificar.
+4.  Na tabela, clique no site de rede que você quer modificar.
 
-5.  Clique em **Editar**e, em seguida, clique em **Mostrar detalhes…**.
+5.  Clique em **Editar**, e depois clique em **Mostra detalhes…**.
 
-6.  Na página **Editar Site**, mude os valores dessas configurações de site da rede conforme apropriado.
+6.  Na página **Editar Site**, mude os valores dessas configurações de site de rede conforme apropriado.
 
 7.  Clique em **Confirmar**.
 
-8.  Para concluir a modificação de sites da rede, repita as etapas de 4 a 7 com configurações de outros sites.
+8.  Para concluir a modificação de sites de rede, repita as etapas de 4 a 7 com configurações de outros sites.
 
 </div>
 

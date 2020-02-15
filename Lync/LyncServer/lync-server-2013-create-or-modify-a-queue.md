@@ -12,16 +12,16 @@ ms:contentKeyID: 48185247
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 77bad1729c67c363dc56eaf8788e57caabd51876
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e1db2211f174c18c160262c1f62c55a178b2cda4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41722415"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045914"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,7 +35,7 @@ ms.locfileid: "41722415"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-02-23_
+_**Última modificação do tópico:** 2013-02-23_
 
 Use um dos seguintes procedimentos para criar ou modificar uma fila.
 
@@ -43,18 +43,18 @@ Use um dos seguintes procedimentos para criar ou modificar uma fila.
 
 ## <a name="to-use-lync-server-control-panel-to-create-or-modify-a-queue"></a>Para usar o painel de controle do Lync Server para criar ou modificar uma fila
 
-1.  Faça logon como um membro do grupo RTCUniversalServerAdmins ou como um membro de uma das funções administrativas predefinidas que oferecem suporte ao Grupo de Resposta.
+1.  Faça logon como membro do grupo RTCUniversalServerAdmins ou como membro de uma das funções administrativas predefinidas que dão suporte ao grupo de resposta.
     
     <div>
     
 
     > [!NOTE]  
-    > Se você for um dos Gerentes do Grupo de Resposta delegados para um fluxo de trabalho gerenciado, é possível criar ou modificar filas de grupo de resposta e atribuí-las aos fluxos de trabalho gerenciados.
+    > Se você for um dos Gerentes de grupo de resposta delegados para um fluxo de trabalho gerenciado, é possível criar ou modificar filas de grupo de resposta e atribuí-las aos fluxos de trabalho gerenciados.
 
     
     </div>
 
-2.  Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [abrir ferramentas administrativas do Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
 3.  Na barra de navegação esquerda, clique em **Grupos de Resposta** e clique em **Fila**.
 
@@ -62,7 +62,7 @@ Use um dos seguintes procedimentos para criar ou modificar uma fila.
     
       - Para criar uma nova fila, clique em **Nova**. Em **Selecionar um serviço**, digite uma parte ou o nome inteiro do serviço do **ApplicationServer** onde deseja adicionar a fila no campo de pesquisa. Na lista resultante de serviços, clique no serviço que você deseja e clique em **OK**.
     
-      - Para modificar uma fila existente, digite uma parte ou o nome inteiro da fila no campo de pesquisa. Na lista resultante de filas, clique na fila que você deseja, em **Editar**e em **Mostrar detalhes**.
+      - Para modificar uma fila existente, digite uma parte ou o nome inteiro da fila no campo de pesquisa. Na lista resultante de filas, clique na fila que você deseja, em **Editar** e em **Mostrar detalhes**.
 
 5.  Em **Nome**, digite um nome identificador para a fila.
 
@@ -85,7 +85,7 @@ Use um dos seguintes procedimentos para criar ou modificar uma fila.
         
         </div>
 
-8.  Para especificar um período máximo de tempo para um chamador aguardar em espera antes que um agente responda à chamada, marque a caixa de seleção  **Habilitar o tempo limite da fila** e, em seguida, faça o seguinte:
+8.  Para especificar um período máximo de tempo para um chamador aguardar em espera antes que um agente responda à chamada, marque a caixa de seleção **Habilitar o tempo limite da fila** e, em seguida, faça o seguinte:
     
     1.  Em **Período de tempo limite (segundos)**, especifique o número máximo de segundos que um chamador aguarda antes de um agente responder à chamada.
     
@@ -95,13 +95,13 @@ Use um dos seguintes procedimentos para criar ou modificar uma fila.
     
       - Para desconectar a chamada após o tempo limite, clique em **Desconectar**.
     
-      - Para encaminhar a chamada para a caixa postal, clique em **encaminhar para caixa postal**e, em seguida, no campo **endereço SIP** , digite um endereço de correio\<de\>@\<voz no formato\> SIP: username DomainName (por exemplo, SIP:Bob@contoso.com).
+      - Para encaminhar a chamada para caixa postal, clique em **encaminhar para caixa postal**e, em seguida, no campo **endereço SIP** , digite um endereço de caixa postal\<no\>@\<formato SIP:\> username DomainName (por exemplo, SIP:Bob@contoso.com).
     
-      - Para encaminhar a chamada para outro número de telefone, clique em **encaminhar para número de telefone**e, em seguida, no campo **endereço SIP** , digite o número\<de\>@\<telefone no formato\> SIP: número DomainName (por exemplo, SIP:+14255550121@contoso.com).
+      - Para encaminhar a chamada para outro número de telefone, clique em **encaminhar para número de telefone**e, no campo **endereço SIP** , digite o número de telefone no\<formato\>@\<SIP: Number\> DomainName (por exemplo, SIP:+14255550121@contoso.com).
     
       - Para encaminhar a chamada para outro usuário, clique em **encaminhar para endereço SIP**e, no campo **endereço SIP** , digite o URI para o usuário no formato SIP:\<username\>@\<DomainName\>.
     
-      - Para encaminhar a chamada para outra fila de espera, clique em **Encaminhar para outra fila**e, em seguida, procure na fila a ser usada.
+      - Para encaminhar a chamada para outra fila de espera, clique em **Encaminhar para outra fila** e, em seguida, procure na fila a ser usada.
 
 9.  Para especificar um número máximo de chamadas que a fila de espera poderá conter, marque a caixa de seleção **Habilitar o estouro da fila** e faça o seguinte:
     
@@ -115,13 +115,13 @@ Use um dos seguintes procedimentos para criar ou modificar uma fila.
     
       - Para desconectar a chamada após o tempo limite, clique em **Desconectar**.
     
-      - Para encaminhar a chamada para a caixa postal, clique em **encaminhar para caixa postal**e, em seguida, no campo **endereço SIP** , digite um endereço de correio\<de\>@\<voz no formato\> SIP: username DomainName (por exemplo, SIP:Bob@contoso.com).
+      - Para encaminhar a chamada para caixa postal, clique em **encaminhar para caixa postal**e, em seguida, no campo **endereço SIP** , digite um endereço de caixa postal\<no\>@\<formato SIP:\> username DomainName (por exemplo, SIP:Bob@contoso.com).
     
-      - Para encaminhar a chamada para outro número de telefone, clique em **encaminhar para número de telefone**e, em seguida, no campo **endereço SIP** , digite o número\<de\>@\<telefone no formato\> SIP: número DomainName (por exemplo, SIP:+14255550121@contoso.com).
+      - Para encaminhar a chamada para outro número de telefone, clique em **encaminhar para número de telefone**e, no campo **endereço SIP** , digite o número de telefone no\<formato\>@\<SIP: Number\> DomainName (por exemplo, SIP:+14255550121@contoso.com).
     
       - Para encaminhar a chamada para outro usuário, clique em **encaminhar para endereço SIP**e, no campo **endereço SIP** , digite o URI para o usuário no formato SIP:\<username\>@\<DomainName\>.
     
-      - Para encaminhar a chamada para outra fila de espera, clique em **Encaminhar para outra fila**e, em seguida, procure na fila a ser usada.
+      - Para encaminhar a chamada para outra fila de espera, clique em **Encaminhar para outra fila** e, em seguida, procure na fila a ser usada.
 
 10. Clique em **Confirmar**.
 
@@ -131,7 +131,7 @@ Use um dos seguintes procedimentos para criar ou modificar uma fila.
 
 ## <a name="to-use-windows-powershell-to-create-or-modify-a-queue"></a>Para usar o Windows PowerShell para criar ou modificar uma fila
 
-1.  Faça logon como um membro do grupo RTCUniversalServerAdmins ou como um membro de uma das funções administrativas predefinidas que oferecem suporte ao Grupo de Resposta.
+1.  Faça logon como membro do grupo RTCUniversalServerAdmins ou como membro de uma das funções administrativas predefinidas que dão suporte ao grupo de resposta.
     
     <div>
     
@@ -142,9 +142,9 @@ Use um dos seguintes procedimentos para criar ou modificar uma fila.
     
     </div>
 
-2.  Inicie o Shell de gerenciamento do Lync Server: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Shell de gerenciamento do Lync Server**.
+2.  Inicie o Shell de Gerenciamento do Lync Server: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Shell de Gerenciamento do Lync Server**.
 
-3.  Crie o prompt para que seja reproduzido quando o limite de tempo da fila for atingido e salve-o em um variável. Na linha de comando, execute:
+3.  Crie o prompt para que seja reproduzido quando o limite de tempo da fila é atingido e salve-o em um variável. Na linha de comando, execute:
     
         $promptTO = New-CsRgsPrompt -TextToSpeechPrompt "<text for TTS prompt>"
     
@@ -156,7 +156,7 @@ Use um dos seguintes procedimentos para criar ou modificar uma fila.
     
 
     > [!NOTE]  
-    > Para usar um arquivo de áudio no prompt, use o cmdlet <STRONG>Import-CsRgsAudioFile</STRONG>. Para obter detalhes, consulte <A href="https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile">importar-CsRgsAudioFile</A>.
+    > Para usar um arquivo de áudio no prompt, use o cmdlet <STRONG>Import-CsRgsAudioFile</STRONG>. Para obter detalhes, consulte <A href="https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile">Import-CsRgsAudioFile</A>.
 
     
     </div>
@@ -169,7 +169,7 @@ Use um dos seguintes procedimentos para criar ou modificar uma fila.
     
 
     > [!NOTE]  
-    > Para obter detalhes sobre as possíveis ações e a respectiva sintaxe, consulte <A href="https://docs.microsoft.com/powershell/module/skype/New-CsRgsCallAction">New-CsRgsCallAction</A>.
+    > Para obter detalhes sobre as ações possíveis e sua sintaxe, consulte <A href="https://docs.microsoft.com/powershell/module/skype/New-CsRgsCallAction">New-CsRgsCallAction</A>.
 
     
     </div>
@@ -190,7 +190,7 @@ Use um dos seguintes procedimentos para criar ou modificar uma fila.
     
 
     > [!NOTE]  
-    > Para usar um arquivo de áudio no prompt, use o cmdlet <STRONG>Import-CsRgsAudioFile</STRONG>. Para obter detalhes, consulte <A href="https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile">importar-CsRgsAudioFile</A>.
+    > Para usar um arquivo de áudio no prompt, use o cmdlet <STRONG>Import-CsRgsAudioFile</STRONG>. Para obter detalhes, consulte <A href="https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile">Import-CsRgsAudioFile</A>.
 
     
     </div>
@@ -203,7 +203,7 @@ Use um dos seguintes procedimentos para criar ou modificar uma fila.
     
 
     > [!NOTE]  
-    > Para obter detalhes sobre as possíveis ações e a respectiva sintaxe, consulte <A href="https://docs.microsoft.com/powershell/module/skype/New-CsRgsCallAction">New-CsRgsCallAction</A>.
+    > Para obter detalhes sobre as ações possíveis e sua sintaxe, consulte <A href="https://docs.microsoft.com/powershell/module/skype/New-CsRgsCallAction">New-CsRgsCallAction</A>.
 
     
     </div>
@@ -212,7 +212,7 @@ Use um dos seguintes procedimentos para criar ou modificar uma fila.
     
         $action = New-CsRgsCallAction -Prompt $promptOV -Action Terminate
 
-7.  Recupere o nome do serviço do Grupo de Resposta e o atribua a uma variável. Na linha de comando, execute:
+7.  Recupere o nome do serviço do serviço de Grupo de resposta e atribua-o a uma variável. Na linha de comando, execute:
     
         $serviceId="service:"+(Get-CSService | ?{$_.Applications -Like "*RGS*"}).ServiceId;
 
@@ -224,7 +224,7 @@ Use um dos seguintes procedimentos para criar ou modificar uma fila.
     
 
     > [!NOTE]  
-    > Para obter detalhes sobre como criar o grupo agente, consulte <A href="https://docs.microsoft.com/powershell/module/skype/New-CsRgsAgentGroup">New-CsRgsAgentGroup</A>
+    > Para obter detalhes sobre como criar o grupo de agentes, consulte <A href="https://docs.microsoft.com/powershell/module/skype/New-CsRgsAgentGroup">New-CsRgsAgentGroup</A>
 
     
     </div>

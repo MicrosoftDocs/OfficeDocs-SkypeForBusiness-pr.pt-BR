@@ -12,16 +12,16 @@ ms:contentKeyID: 48184416
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bff140db52a98e0b442ca65bbbb8b148282c5755
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c977b2f9f9a6248ab7ba5d5391397d4cd4326a18
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755291"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050883"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,7 +35,7 @@ ms.locfileid: "41755291"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-06-06_
+_**Última modificação do tópico:** 2012-06-06_
 
 O Relatório Detalhado de Sessão Ponto a Ponto retorna informações detalhadas sobre uma sessão ponto a ponto. Por exemplo, se você selecionar uma sessão de mensagens instantâneas, o relatório informará o número de mensagens enviadas por cada um dos dois usuários na seção.
 
@@ -51,13 +51,13 @@ O Relatório Detalhado de Sessão Ponto a Ponto pode ser acessado a partir de qu
 
   - Relatório de Controle de Admissão de Chamadas
 
-  - Relatório de lista de falhas
+  - Relatório de Lista de Falhas
 
-No relatório de detalhes da sessão ponto a ponto, você pode acessar o [relatório de diagnóstico no Lync Server 2013](lync-server-2013-diagnostic-report.md) clicando na métrica relatório de diagnóstico (detalhes). Você também pode acessar o Relatório das Principais Falhas clicando em uma destas duas métricas:
+A partir do relatório de detalhes de sessão ponto a ponto, você pode acessar o [relatório de diagnóstico no Lync Server 2013](lync-server-2013-diagnostic-report.md) clicando na métrica relatório de diagnóstico (detalhes). Você também pode acessar o Relatório das Principais Falhas clicando em uma destas duas métricas:
 
   - Resposta
 
-  - ID do Diagnóstico
+  - ID de diagnóstico
 
 </div>
 
@@ -111,22 +111,22 @@ A tabela a seguir lista as informações fornecidas no relatório de Detalhes de
 </tr>
 <tr class="odd">
 <td><p><strong>Hora da resposta</strong></p></td>
-<td><p>Data e hora de recebimento da aceitação do convite.</p></td>
+<td><p>Data e hora em que a aceitação do convite foi recebida.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Usuário "De"</strong></p></td>
+<td><p><strong>Do usuário</strong></p></td>
 <td><p>Endereço SIP do usuário que iniciou a sessão.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Agente do usuário "De"</strong></p></td>
+<td><p><strong>Do agente usuário</strong></p></td>
 <td><p>Software usado pelo ponto de extremidade do usuário que iniciou a sessão.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>É usuário "De" interno</strong></p></td>
+<td><p><strong>É Usuário interno de origem</strong></p></td>
 <td><p>Indica se o usuário que iniciou a sessão estava conectado à rede interna.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>É usuário "De" integrado com telefone de mesa</strong></p></td>
+<td><p><strong>É Usuário de origem integrado ao telefone de mesa</strong></p></td>
 <td><p>Indica se o ponto de extremidade usado pelo usuário que iniciou a sessão está integrado ao seu telefone de mesa.</p></td>
 </tr>
 <tr class="even">
@@ -134,11 +134,11 @@ A tabela a seguir lista as informações fornecidas no relatório de Detalhes de
 <td><p>Prioridade atribuída à sessão. As prioridades válidas são: Desconhecida; Não Urgente; Normal; Urgente; e Emergência.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Código da resposta</strong></p></td>
-<td><p>Código da resposta SIP enviado quando a sessão falhou.</p></td>
+<td><p><strong>Código de resposta</strong></p></td>
+<td><p>Código de resposta SIP enviado quando a sessão falhou.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Front-End</strong></p></td>
+<td><p><strong>Front-End</strong>.</p></td>
 <td><p>Nome do Servidor Front-End usado na conferência.</p></td>
 </tr>
 <tr class="odd">
@@ -150,19 +150,19 @@ A tabela a seguir lista as informações fornecidas no relatório de Detalhes de
 <td><p>Data e hora em que a sessão foi encerrada.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Usuário "Para"</strong></p></td>
-<td><p>Endereço SIP do usuário convidado para a sessão.</p></td>
+<td><p><strong>Para o usuário</strong></p></td>
+<td><p>Endereço SIP do usuário que foi convidado para a sessão.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Agente do usuário "Para"</strong></p></td>
+<td><p><strong>Para o agente do usuário</strong></p></td>
 <td><p>Software usado pelo ponto de extremidade do usuário que foi convidado para a sessão.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>É usuário "Para" interno</strong></p></td>
+<td><p><strong>É Usuário interno de destino</strong></p></td>
 <td><p>Indica se o usuário que foi convidado para a sessão estava conectado à rede interna.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>É usuário "Para" integrado com telefone de mesa</strong></p></td>
+<td><p><strong>É Usuário de destino integrado ao telefone de mesa</strong></p></td>
 <td><p>Indica se o ponto de extremidade usado pelo usuário que foi convidado para a sessão está integrado ao seu telefone de mesa.</p></td>
 </tr>
 <tr class="odd">
@@ -170,7 +170,7 @@ A tabela a seguir lista as informações fornecidas no relatório de Detalhes de
 <td><p>Indica se a sessão é uma tentativa para repetir uma sessão que falhou anteriormente.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>ID do Diagnóstico</strong></p></td>
+<td><p><strong>ID de diagnóstico</strong></p></td>
 <td><p>Identificador exclusivo (no formato de um cabeçalho ms-diagnostics) anexado a uma mensagem SIP que frequentemente oferece informações úteis para resolução de erros. Mantenha o mouse sobre o número de identificação para exibir informações adicionais sobre essa identificação.</p></td>
 </tr>
 </tbody>
@@ -196,7 +196,7 @@ A tabela a seguir lista as informações fornecidas no relatório de Detalhes de
 <thead>
 <tr class="header">
 <th>Nome</th>
-<th>Você pode classificar este item?</th>
+<th>É possível classificar este item?</th>
 <th>Descrição</th>
 </tr>
 </thead>
@@ -207,12 +207,12 @@ A tabela a seguir lista as informações fornecidas no relatório de Detalhes de
 <td><p>Modalidades usadas na sessão. Por exemplo, mensagens instantâneas ou transferência de arquivo.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Mensagens do usuário "De"</strong></p></td>
+<td><p><strong>Mensagens do usuário de origem</strong></p></td>
 <td><p>Não</p></td>
 <td><p>Número de mensagens enviadas pelo usuário que iniciou a sessão.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Mensagens do usuário "Para"</strong></p></td>
+<td><p><strong>Mensagens do usuário de destino</strong></p></td>
 <td><p>Não</p></td>
 <td><p>Número de mensagens enviadas pelo usuário que foi convidado para a sessão.</p></td>
 </tr>
@@ -228,7 +228,7 @@ A tabela a seguir lista as informações fornecidas no relatório de Detalhes de
 
 A tabela a seguir lista as informações fornecidas no relatório de Detalhes de Sessão Ponto a Ponto para cada relatório de diagnóstico.
 
-### <a name="metrics-for-diagnostic-reports"></a>Métricas para Relatórios de Diagnóstico
+### <a name="metrics-for-diagnostic-reports"></a>Métricas para relatórios de diagnóstico
 
 <table>
 <colgroup>
@@ -239,20 +239,20 @@ A tabela a seguir lista as informações fornecidas no relatório de Detalhes de
 <thead>
 <tr class="header">
 <th>Nome</th>
-<th>Você pode classificar este item?</th>
+<th>É possível classificar este item?</th>
 <th>Descrição</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Detalhe</strong></p></td>
+<td><p><strong>Ver os detalhes</strong></p></td>
 <td><p>Não</p></td>
 <td><p>Quando você clica nesse item, o relatório mostra o Relatório de Diagnóstico da sessão.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Hora do relatório</strong></p></td>
 <td><p>Não</p></td>
-<td><p>Data e hora do registro do relatório.</p></td>
+<td><p>Data e hora em que o relatório foi gravado.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Solicitação</strong></p></td>
@@ -260,14 +260,14 @@ A tabela a seguir lista as informações fornecidas no relatório de Detalhes de
 <td><p>Tipo de solicitação SIP. Por exemplo, INVITE ou BYE.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>ID do Diagnóstico</strong></p></td>
+<td><p><strong>ID de diagnóstico</strong></p></td>
 <td><p>Não</p></td>
-<td><p>Identificador exclusivo (na forma de um cabeçalho de diagnóstico-ms) anexado a uma mensagem SIP que fornece informações úteis sobre os erros de solução de problemas.</p></td>
+<td><p>Identificador exclusivo (no formato de um cabeçalho ms-diagnostics) anexado a uma mensagem SIP que frequentemente oferece informações úteis para resolução de erros.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Tipo de conteúdo</strong></p></td>
 <td><p>Não</p></td>
-<td><p>Tipo de conteúdo de mídia usado na conferência. Por exemplo, um tipo de conteúdo comum é Application/sdp. O protocolo SDP é um protocolo padrão de Internet usado para comunicados de sessão, convites de sessão e outras formas de início de sessão multimídia.</p></td>
+<td><p>Tipo de conteúdo de mídia usado na conferência. Por exemplo, um tipo de conteúdo comum é Application/sdp. O protocolo SDP  é um protocolo padrão de Internet usado para comunicados de sessão, convites de sessão e outras formas de início de sessão multimídia.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Relatado por</strong></p></td>

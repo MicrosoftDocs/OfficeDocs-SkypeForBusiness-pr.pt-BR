@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Reduzindo as IMs não solicitadas'
+title: 'Lync Server 2013: reduzindo mensagens instantâneas não solicitadas'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 62625493
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d0f8326d6fa9f85b202e0ea2dcbe3fed63a723aa
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5574930d6474a75ca4a35219df7cd2e3e2431b15
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724441"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050123"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="reducing-unsolicited-im-for-lync-server-2013"></a>Reduzindo as IMs não solicitadas para Lync Server 2013
+# <a name="reducing-unsolicited-im-for-lync-server-2013"></a>Reduzindo mensagens instantâneas não solicitadas para o Lync Server 2013
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41724441"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-12-05_
+_**Última modificação do tópico:** 2013-12-05_
 
-O aplicativo filtro de mensagens instantâneas inteligente ajuda a proteger a implantação do Microsoft Lync Server 2013 contra os vírus mais comuns com o mínimo de degradação para a experiência do usuário. O filtro de IM inteligente fornece o seguinte:
+O aplicativo de filtro de IM inteligente ajuda a proteger sua implantação do Microsoft Lync Server 2013 contra os vírus mais comuns com menor degradação para a experiência do usuário. O  Filtro de IM Inteligente oferece o seguinte:
 
-  - Filtragem de URL aprimorada
+  - Filtragem avançada de URL
 
-  - Filtragem de transferência de arquivo aprimorada
+  - Filtragem avançada de transferência de arquivo
 
-Use o filtro de IM inteligente para configurar filtros para bloquear mensagens instantâneas não solicitadas ou perigosas de pontos de extremidade desconhecidos fora do firewall corporativo. Você pode configurar filtros especificando os critérios a serem usados para determinar o que deve ser bloqueado, como mensagens instantâneas contendo hiperlinks e arquivos com extensões específicas.
+Use o Filtro de IM Inteligente para configurar filtros para bloquear as mensagens instantâneas não solicitadas ou potencialmente prejudiciais de pontos de extremidade desconhecidos externos ao firewall corporativo. Os filtros são configurados especificando os critérios a ser usados para determinar o que deve ser bloqueado, como as mensagens instantâneas contendo hyperlinks e arquivos com extensões específicas.
 
-Antes de implantar o aplicativo inteligente de filtro de mensagem instantânea, você deve entender como as opções de filtragem são aplicadas quando as mensagens são roteadas de um servidor do Lync Server 2013 para outro. A maneira como essas opções de filtragem são consistentes é consistente, independentemente de os servidores estarem localizados em uma única organização ou entre fronteiras organizacionais. Essa consistência se aplica à maneira como o aviso personalizado e o texto de aviso são inseridos em mensagens e enviados entre servidores.
+Antes de implantar o aplicativo inteligente de filtro de mensagens INSTANTÂNEAs, você deve entender como as opções de filtragem são aplicadas quando as mensagens são roteadas de um servidor do Lync Server 2013 para outro. A forma como estas opções de filtragem são aplicadas é consistente, independentemente de se os servidores estão localizados em uma única organização ou entre fronteiras organizacionais. Essa consistência se aplica à forma como o aviso personalizado e os textos de aviso são inseridos em mensagens e enviados através de servidores.
 
-A opção de filtragem recomendada é permitir mensagens de chat com hiperlinks, mas exigir o filtro de mensagem instantânea inteligente para desabilitar o link, inserindo um sublinhado antes dele. Se você escolher essa opção, terá a opção adicional de compor um aviso para os usuários que aparecem no início de cada mensagem instantânea que contém um hiperlink.
+A opção de filtragem recomendada é de permitir as mensagens instantâneas com hiperlinks, mas exigir que o Filtro de IM Inteligente desabilite o vínculo, inserindo um sublinhado antes dele. Se você escolher esta opção, existe a opção adicional de redigir um aviso aos usuários que aparece no início de cada mensagem instantânea que contém um hiperlink.
 
-Uma segunda opção de filtragem é permitir mensagens instantâneas com hiperlinks não modificados. Se você escolher essa opção, terá a opção adicional (recomendado) de compor um aviso para os usuários que são inseridos em cada mensagem.
+Uma segunda opção de filtragem é permitir as mensagens instantâneas com hiperlinks não modificados. Se você escolher esta opção, existe a opção adicional (recomendada) de redigir um aviso aos usuários que é inserido em cada mensagem.
 
-Uma terceira opção é bloquear todas as mensagens instantâneas que contenham hiperlinks. Se você escolher essa opção, o servidor enviará um aviso ao usuário. Você deve escrever este aviso.
+Uma terceira opção é bloquear todas as mensagens instantâneas que contêm hiperlinks. Se você escolher essa opção, o servidor envia um aviso ao usuário. Você deve escrever este aviso.
 
 </div>
 

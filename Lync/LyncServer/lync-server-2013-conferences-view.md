@@ -12,20 +12,20 @@ ms:contentKeyID: 49733803
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 36278c1053c2b5737e0de6caf914c050db93ea4b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 56f292a35f5e4f24ba5226e06a308e780ce5c687
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741601"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049042"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="conferences-view-in-lync-server-2013"></a>Modo de exibição conferências no Lync Server 2013
+# <a name="conferences-view-in-lync-server-2013"></a>Exibição de conferências no Lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41741601"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-01_
+_**Última modificação do tópico:** 2012-10-01_
 
-O modo de exibição conferências armazena informações sobre as conferências. Este modo de exibição foi apresentado no Microsoft Lync Server 2013.
+A Exibição de Conferências armazena informações sobre as conferências. Este modo de exibição foi introduzido no Microsoft Lync Server 2013.
 
 
 <table>
@@ -55,39 +55,39 @@ O modo de exibição conferências armazena informações sobre as conferências
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Id_da_sessãotime</strong></p></td>
+<td><p><strong>Identificação_da_sessãotime</strong></p></td>
 <td><p>datetime</p></td>
-<td><p>Tempo de solicitação de sessão. Usado em conjunto com o SessionIdSeq para identificar exclusivamente uma sessão. Consulte a <a href="lync-server-2013-dialogs-table.md">tabela de diálogos no Lync Server 2013</a> para obter mais informações.</p></td>
+<td><p>Hora da solicitação da sessão. Utilizada em conjunto com o SessionIdSeq para identificar de forma exclusiva uma sessão. Consulte a <a href="lync-server-2013-dialogs-table.md">tabela diálogos no Lync Server 2013</a> para obter mais informações.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SessionIdSeq</strong></p></td>
 <td><p>int</p></td>
-<td><p>Número de identificação para identificar a sessão. Usado em conjunto com a Identificação_da_sessãotime para identificar exclusivamente uma sessão. Consulte a <a href="lync-server-2013-dialogs-table.md">tabela de diálogos no Lync Server 2013</a> para obter mais informações.</p></td>
+<td><p>Número de identificação para identificar a sessão. Utilizado em conjunto com o SessionIdTime para identificar de forma exclusiva uma sessão. Consulte a <a href="lync-server-2013-dialogs-table.md">tabela diálogos no Lync Server 2013</a> para obter mais informações.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>ConferenceUri</strong></p></td>
+<td><p><strong>Conferenceui</strong></p></td>
 <td><p>nvarchar (450)</p></td>
-<td><p>URL para a conferência.</p></td>
+<td><p>URI da conferência.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ConferenceUriType</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Tipo de URL da conferência. Consulte a <a href="lync-server-2013-uritypes-table.md">tabela UriTypes no Lync Server 2013</a> para obter mais informações.</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Tipo da URI de conferência. Consulte a <a href="lync-server-2013-uritypes-table.md">tabela UriTypes no Lync Server 2013</a> para obter mais informações.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ConfInstance</strong></p></td>
 <td><p>identificador</p></td>
-<td><p>Usado para conferências recorrentes. Cada instância de uma conferência recorrente tem o mesmo ConferenceUri, mas um ConfInstance diferente.</p></td>
+<td><p>Usado para conferências recorrentes. Cada instância de uma conferência recorrente possui o mesmo ConferenceUri, mas um ConfInstance diferente.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ConferenceStartTime</strong></p></td>
 <td><p>datetime</p></td>
-<td><p>Hora de início da conferência.</p></td>
+<td><p>Hora inicial da conferência.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ConferenceEndTime</strong></p></td>
 <td><p>datetime</p></td>
-<td><p>Hora de término da conferência.</p></td>
+<td><p>Hora final da conferência.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>OrganizerUri</strong></p></td>
@@ -96,24 +96,24 @@ O modo de exibição conferências armazena informações sobre as conferências
 </tr>
 <tr class="odd">
 <td><p><strong>OrganizerType</strong></p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p>nvarchar (256)</p></td>
 <td><p>Tipo de URI do usuário que organizou a conferência. Consulte a <a href="lync-server-2013-uritypes-table.md">tabela UriTypes no Lync Server 2013</a> para obter mais informações.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>OrganizerTenant</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Locatário do usuário que organizou a conferência. Consulte a <a href="lync-server-2013-tenants-table.md">tabela locatários no Lync Server 2013</a> para obter mais informações.</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Inquilino do usuário que organizou a conferência. Consulte a <a href="lync-server-2013-tenants-table.md">tabela locatários no Lync Server 2013</a> para obter mais informações.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Pool</strong></p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p>nvarchar (256)</p></td>
 <td><p>Nome de domínio totalmente qualificado do pool que hospeda a conferência.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Sinalizador</strong></p></td>
+<td><p><strong>Flag</strong></p></td>
 <td><p>smallint</p></td>
-<td><p>Máscara de bits que contém atributos de conferência. Os valores possíveis são:</p>
-<p>0X01 – transação sintética</p></td>
+<td><p>Máscara de bits que contém os Atributos de Conferência. Os possíveis valores são:</p>
+<p>0X01 – Transação Sintética</p></td>
 </tr>
 </tbody>
 </table>

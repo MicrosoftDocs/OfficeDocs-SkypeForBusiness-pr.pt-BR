@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Fallback do Servidor de Chat Persistente'
+title: 'Lync Server 2013: failback do servidor de chat persistente'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184396
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ca00a71c88b917b9e59f2e9039e7960b51f64157
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f7a0e7bef65773c20c5d97a1b625d2ef39255f64
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756165"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045964"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="failing-back-persistent-chat-server-in-lync-server-2013"></a>Fallback do Servidor de Chat Persistente no Lync Server 2013
+# <a name="failing-back-persistent-chat-server-in-lync-server-2013"></a>Failback do servidor de chat persistente no Lync Server 2013
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41756165"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2014-02-05_
+_**Última modificação do tópico:** 2014-02-05_
 
-Este procedimento descreve as etapas necessárias para recuperar-se de uma falha persistente do servidor de chat e para restabelecer as operações do data center principal.
+Este procedimento descreve as etapas necessárias para se recuperar de uma falha de servidor de chat persistente e para restabelecer as operações do data center principal.
 
-Durante uma falha persistente do servidor de chat, o data center principal sofre uma interrupção completa, e os bancos de dados principal e espelho ficam indisponíveis. O data center primário faz failover para o servidor de backup.
+Durante uma falha de servidor de chat persistente, o data center principal sofre uma interrupção completa e os bancos de dados primário e espelho ficam indisponíveis. O data center primário faz failover para o servidor de backup.
 
-O procedimento a seguir restaura a operação normal após o backup do data center primário e a recompilação dos servidores. O procedimento pressupõe que o principal centro de dados foi recuperada da interrupção total, e que o banco de dados MGC e o banco de dados do mgccomp foram recriados e reinstalados usando o construtor de topologias.
+O procedimento a seguir restaura a operação normal após o backup do data center primário e a recomposição dos servidores. O procedimento pressupõe que o data center principal tenha sido recuperado da interrupção total e que o banco de dados do MGC e o banco de dados do mgccomp tenham sido recriados e reinstalados usando o construtor de topologias.
 
-O procedimento também pressupõe que nenhum novo espelho e servidores de backup foram implantados durante o período de failover e que o único servidor implantado é o servidor de backup e seu servidor de espelhamento, conforme definido em falha em um [servidor de chat persistente no Lync server 2013](lync-server-2013-failing-over-persistent-chat-server.md).
+O procedimento também pressupõe que nenhum novo servidor de espelhamento e backup foi implantado durante o período de failover e que o único servidor implantado é o servidor de backup e seu servidor de espelhamento, conforme definido no [servidor de chat persistente com failover no Lync server 2013](lync-server-2013-failing-over-persistent-chat-server.md).
 
 Estas etapas foram criadas para recuperar a configuração como ela se encontrava antes do desastre que resultou no failover do servidor primário para o servidor de backup.
 
@@ -51,29 +51,29 @@ Estas etapas foram criadas para recuperar a configuração como ela se encontrav
 
 ## <a name="to-fail-back-persistent-chat-server"></a>Para fazer failback do servidor de chat persistente
 
-1.  Desmarque todos os servidores da lista de servidores de chat persistentes usando `Set-CsPersistentChatActiveServer` o cmdlet do Shell de gerenciamento do Lync Server. Isso interrompe a conexão de todos os servidores de chat persistentes ao banco de dados do MGC e do banco de dados do mgccomp durante o failback.
+1.  Limpe todos os servidores da lista de servidores ativos do servidor de chat persistente `Set-CsPersistentChatActiveServer` usando o cmdlet do Shell de gerenciamento do Lync Server. Isso impede que todos os servidores de chat persistente se conectem ao banco de dados do MGC e ao banco de dados do mgccomp durante o failback.
     
     <div>
     
 
     > [!IMPORTANT]  
-    > O agente do SQL Server no servidor back-end persistente do servidor de chat secundário deve estar em execução em uma conta privilegiada. Em termos específicos, a conta deve incluir: 
+    > O SQL Server Agent no servidor back-end do servidor de chat persistente secundário deve estar sendo executado sob uma conta privilegiada. Em termos específicos, a conta deve incluir: 
     > <UL>
     > <LI>
     > <P>Acesso de leitura ao compartilhamento de rede no qual os backups serão colocados.</P>
     > <LI>
-    > <P>Acesso para gravação ao diretório local específico em que os backups serão copiados.</P></LI></UL>
+    > <P>Acesso de gravação ao diretório local específico em que os backups serão copiados.</P></LI></UL>
 
     
     </div>
 
 2.  Desabilite o espelhamento no banco de dados mgc de backup:
     
-    1.  Usando o SQL Server Management Studio, conecte-se à instância MGC de backup.
+    1.  Usando o SQL Server Management Studio, conecte-se à instância de backup MGC.
     
     2.  Clique com o botão direito do mouse no banco de dados mgc, aponte para **Tarefas** e clique em **Espelhar**.
     
-    3.  Clique em **Remover Espelhamento**.
+    3.  Click **Remover Espelhamento**.
     
     4.  Clique em **OK**.
     
@@ -81,7 +81,7 @@ Estas etapas foram criadas para recuperar a configuração como ela se encontrav
 
 3.  Faça backup do banco de dados mgc para que ele possa ser restaurado para o novo banco de dados primário:
     
-    1.  Usando o SQL Server Management Studio, conecte-se à instância MGC de backup.
+    1.  Usando o SQL Server Management Studio, conecte-se à instância de backup MGC.
     
     2.  Clique com o botão direito do mouse no banco de dados mgc, aponte para **Tarefas** e clique em **Fazer Backup**. A caixa de diálogo **Backup de Banco de Dados** será exibida.
     
@@ -91,9 +91,9 @@ Estas etapas foram criadas para recuperar a configuração como ela se encontrav
     
     5.  Aceite o nome de conjunto de backup padrão sugerido em **Nome** ou insira outro nome para o conjunto de backup.
     
-    6.  * \<Opcionais\> * Em **Descrição**, digite uma descrição do conjunto de backup.
+    6.  * \<Opcional\> * Em **Descrição**, insira uma descrição do conjunto de backup.
     
-    7.  Remova o local de backup padrão da lista de destino.
+    7.  Remova o local de backup padrão da lista de destinos.
     
     8.  Adicione um arquivo à lista usando o caminho para o local de compartilhamento estabelecido para o envio de logs. Esse caminho está disponível para o banco de dados primário e para o banco de dados de backup.
     
@@ -107,7 +107,7 @@ Estas etapas foram criadas para recuperar a configuração como ela se encontrav
     
     3.  Selecione **Do dispositivo**.
     
-    4.  Clique no botão Procurar, que abrirá a caixa de diálogo **Especificar Backup**. Em **Mídia de backup**, selecione **Arquivo**. Clique em **Adicionar**, selecione o arquivo de backup criado na etapa 3 e clique em **OK**.
+    4.  Clique no botão "procurar", que abrirá a caixa de diálogo **Especificar Backup**. Em **Mídia de backup**, selecione **Arquivo**. Clique em **Adicionar**, selecione o arquivo de backup criado na etapa 3 e clique em **OK**.
     
     5.  Em **Selecione os conjuntos de backup a serem restaurados**, selecione o backup.
     
@@ -119,7 +119,7 @@ Estas etapas foram criadas para recuperar a configuração como ela se encontrav
     
     9.  Clique em **OK** para iniciar o processo de restauração.
 
-5.  Configurar o envio de log do SQL Server para o banco de dados principal. Siga os procedimentos em [Configurando o servidor de chat persistente para alta disponibilidade e recuperação de desastres no Lync Server 2013](lync-server-2013-configuring-persistent-chat-server-for-high-availability-and-disaster-recovery.md) para estabelecer o envio de log para o banco de dados principal do MGC.
+5.  Configure o envio de logs do SQL Server para o banco de dados primário. Siga os procedimentos em [Configurando o servidor de chat persistente para alta disponibilidade e recuperação de desastre no Lync Server 2013](lync-server-2013-configuring-persistent-chat-server-for-high-availability-and-disaster-recovery.md) para estabelecer o envio de logs para o banco de dados MGC principal.
 
 6.  Defina os servidores ativos do servidor de chat persistente. No Shell de gerenciamento do Lync Server, use o cmdlet **set-CsPersistentChatActiveServer** para definir a lista de servidores ativos.
     
@@ -127,16 +127,16 @@ Estas etapas foram criadas para recuperar a configuração como ela se encontrav
     
 
     > [!IMPORTANT]  
-    > Todos os servidores ativos devem estar localizados no mesmo data center que o novo banco de dados primário ou em um data center que tenha uma conexão de baixa latência/alta largura de banda com o banco de dados.
+    > Todos os servidores ativos devem estar localizados dentro do mesmo centro de dados que o novo banco de dados primário ou em um centro de dados que possui uma conexão de baixa latência/alta largura de banda para o banco de dados.
 
     
     </div>
 
-O estado restaurar o pool em seu estado normal execute o seguinte comando do Windows PowerShell:
+A restauração do pool em seu estado normal execute o seguinte comando do Windows PowerShell:
 
     Set-CsPersistentChatState -Identity "service: lyncpc.dci.discovery.com" -PoolState Normal
 
-Consulte o tópico da ajuda para o cmdlet [set-CsPersistentChatState](https://docs.microsoft.com/powershell/module/skype/Set-CsPersistentChatState) para obter mais informações.
+Consulte o tópico de ajuda para o cmdlet [set-CsPersistentChatState](https://docs.microsoft.com/powershell/module/skype/Set-CsPersistentChatState) para obter mais informações.
 
 </div>
 

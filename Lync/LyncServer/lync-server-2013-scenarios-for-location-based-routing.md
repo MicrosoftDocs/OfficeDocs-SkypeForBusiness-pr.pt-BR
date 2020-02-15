@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Cenários para Roteamento Baseado em Local'
+title: 'Lync Server 2013: cenários para roteamento baseado em local'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51803975
 ms.date: 08/11/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bf44e24df2333a8af114b3508ea8a224028b6b6d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5b8be3355828b0d0b572b8fdd596ef3e5a2ae637
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732614"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049533"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="scenarios-for-location-based-routing-in-lync-server-2013"></a>Cenários para Roteamento Baseado em Local no Lync Server 2013
+# <a name="scenarios-for-location-based-routing-in-lync-server-2013"></a>Cenários para roteamento baseado em local no Lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41732614"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2014-08-11_
+_**Última modificação do tópico:** 2014-08-11_
 
-O Roteamento Baseado na Localização é aplicável às regras gerais a seguir durante o encaminhamento de chamadas nos seguintes cenários.
+O roteamento baseado em local aplica as seguintes regras gerais ao rotear chamadas nos seguintes cenários.
 
 <div>
 
@@ -47,13 +47,13 @@ O Roteamento Baseado na Localização é aplicável às regras gerais a seguir d
 
   - [Chamadas de entrada no Lync Server 2013](lync-server-2013-incoming-calls.md)
 
-  - [Transferência e encaminhamento de chamadas no Lync Server 2013](lync-server-2013-call-transfers-and-call-forwarding.md)
+  - [Transferências de chamadas e encaminhamento de chamadas no Lync Server 2013](lync-server-2013-call-transfers-and-call-forwarding.md)
 
   - [Toque simultâneo no Lync Server 2013](lync-server-2013-simultaneous-ringing.md)
 
   - [Delegação no Lync Server 2013](lync-server-2013-delegation.md)
 
-  - [Chamada em equipe com o Roteamento Baseado na Localização no Lync Server 2013](lync-server-2013-team-calling-with-location-based-routing.md)
+  - [Chamada em equipe com roteamento baseado em local no Lync Server 2013](lync-server-2013-team-calling-with-location-based-routing.md)
 
 </div>
 
@@ -62,7 +62,7 @@ O Roteamento Baseado na Localização é aplicável às regras gerais a seguir d
 ## <a name="see-also"></a>Confira também
 
 
-[Planejamento de Roteamento Baseado em Local no Lync Server 2013](lync-server-2013-planning-for-location-based-routing.md)  
+[Planejamento de roteamento baseado em local no Lync Server 2013](lync-server-2013-planning-for-location-based-routing.md)  
   
 
 </div>

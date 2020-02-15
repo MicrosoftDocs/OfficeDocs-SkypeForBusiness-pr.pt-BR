@@ -12,16 +12,16 @@ ms:contentKeyID: 48183236
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 05ca3b20d78d20f4c442edcb3a5722700c3e14a5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2c706503ac334e6af3077e1f64418962bc825718
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725592"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050513"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,21 +35,21 @@ ms.locfileid: "41725592"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-06-14_
+_**Última modificação do tópico:** 2012-06-14_
 
-O Lync Server 2013 inclui suporte para endereços IP versão 6 (IPv6), além do suporte contínuo a endereços IP versão 4 (IPv4). Os endereços IPv4 são endereços 32 bits que permitem a um computador se comunicar pela Internet. Devido ao número cada vez maior de dispositivos em todo o mundo, os endereços IPv4 disponíveis têm sido executados. Por isso, muitos dispositivos novos estão migrando para o uso de endereços IPv6. Os endereços IPv6 executam a mesma função que os endereços IPv4 (com alguns recursos adicionais), mas em vez de usar somente 32-bits, os endereços IPv6 usam 128 bits. Isso fornece não apenas um novo conjunto de endereços, mas também um número muito maior deles. Um endereço IPv4 típico parece com o seguinte: 192.0.2.235, enquanto um endereço IPv6 parece com o seguinte: 2001:0db8:85a3:0000:0000:8a2e:0370:7334. A alteração na formatação e na funcionalidade para dispositivos que usam endereços IPv6 requer várias considerações de implantação e configuração na instalação do Lync Server 2013.
+O Lync Server 2013 inclui suporte para endereços IP versão 6 (IPv6), juntamente com o suporte contínuo dos endereços IP versão 4 (IPv4). Os endereços IPv4 são endereços 32 bits que permitem a um computador se comunicar pela Internet. Devido ao aumento do número de dispositivos em todo o mundo, os endereços IPv4 disponíveis estão em execução. Por causa disso, muitos dispositivos novos estão migrando para o uso de endereços IPv6. Os endereços IPv6 executam a mesma função que os endereços IPv4 (com alguns recursos adicionais), mas em vez de usar somente 32-bits, os endereços IPv6 usam 128 bits. Isso fornece não apenas um novo conjunto de endereços, mas também um número muito maior deles. Um endereço IPv4 típico parece com o seguinte: 192.0.2.235, enquanto um endereço IPv6 parece com o seguinte: 2001:0db8:85a3:0000:0000:8a2e:0370:7334. A alteração na formatação e funcionalidade para dispositivos que usam endereços IPv6 requer várias considerações de implantação e configuração na sua instalação do Lync Server 2013.
 
 <div>
 
 ## <a name="in-this-section"></a>Nesta seção
 
-  - [Visão geral dos tipos de endereços IP para Lync Server 2013](lync-server-2013-overview-of-ip-address-types.md)
+  - [Visão geral dos tipos de endereço IP para o Lync Server 2013](lync-server-2013-overview-of-ip-address-types.md)
 
   - [Requisitos técnicos para IPv6 no Lync Server 2013](lync-server-2013-technical-requirements-for-ipv6.md)
 
   - [Considerações de migração e de coexistência para IPv6 no Lync Server 2013](lync-server-2013-migration-and-coexistence-considerations-for-ipv6.md)
 
-  - [Configurar tipos de endereços IP no Lync Server 2013](lync-server-2013-configure-ip-address-types.md)
+  - [Configurar tipos de endereço IP no Lync Server 2013](lync-server-2013-configure-ip-address-types.md)
 
 </div>
 

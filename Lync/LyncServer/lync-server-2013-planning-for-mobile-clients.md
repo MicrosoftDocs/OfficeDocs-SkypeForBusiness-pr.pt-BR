@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: planejando para clientes móveis'
+title: 'Lync Server 2013: planejamento para clientes móveis'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185020
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ff36e17e0add5cdf45347921292dadbdd4d635ef
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b99a2ab731efb872ceba608de2017aecb0574ec5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725362"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050073"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41725362"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-04-02_
+_**Última modificação do tópico:** 2013-04-02_
 
-Os clientes móveis do Lync 2013 fornecem presença avançada, mensagens instantâneas, reuniões do Lync e chamadas de voz e vídeo pela Internet ou pela conexão da rede celular. Para obter uma matriz que lista os recursos e as funcionalidades de clientes móveis e os compara ao cliente da área de trabalho, consulte [tabelas de comparação de cliente móvel para o Lync Server 2013](lync-server-2013-mobile-client-comparison-tables.md).
+Os clientes móveis do Lync 2013 oferecem presença avançada, mensagens instantâneas, reuniões do Lync e chamadas de voz e vídeo pela Internet ou pela conexão celular. Para obter uma matriz que lista os recursos e as funcionalidades de clientes móveis e os compara ao cliente de desktop, consulte [Mobile Client Comparison Tables for Lync Server 2013](lync-server-2013-mobile-client-comparison-tables.md).
 
 <div>
 
 
 > [!NOTE]  
-> O Lync Server 2013 também é compatível com clientes móveis do Lync 2010. Para obter mais informações, consulte "planejando clientes móveis" na biblioteca do Lync Server 2010 TechNet em <A href="http://go.microsoft.com/fwlink/p/?linkid=235955">http://go.microsoft.com/fwlink/p/?LinkID=235955</A>.
+> O Lync Server 2013 também oferece suporte a clientes móveis do Lync 2010. Para obter mais informações, consulte "Planning for Mobile clients" no Lync Server 2010 TechNet library <A href="http://go.microsoft.com/fwlink/p/?linkid=235955">http://go.microsoft.com/fwlink/p/?LinkID=235955</A>em.
 
 
 
@@ -53,7 +53,7 @@ Os clientes móveis do Lync 2013 fornecem presença avançada, mensagens instant
 
 ## <a name="in-this-section"></a>Nesta seção
 
-  - [Tabela de comparação de clientes móveis para o Lync Server 2013](lync-server-2013-mobile-client-comparison-tables.md)
+  - [Tabelas de comparação de clientes móveis para o Lync Server 2013](lync-server-2013-mobile-client-comparison-tables.md)
 
   - [Requisitos do Lync para Windows Phone no Lync Server 2013](lync-server-2013-lync-for-windows-phone-requirements.md)
 

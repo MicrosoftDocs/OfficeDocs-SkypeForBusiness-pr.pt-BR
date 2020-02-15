@@ -1,5 +1,5 @@
 ---
-title: Publicando o servidor do Office Web Apps usando um servidor de proxy reverso
+title: Publicar o servidor do Office Web Apps usando um servidor de proxy reverso
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183384
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 43a81fff75adbeadb6cfcead3316dab2c89b4269
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c1d1dae773c96cfa6d16994e5b3c6aec2504b16c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724581"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045984"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="publishing-office-web-apps-server-in-lync-server-2013-using-a-reverse-proxy-server"></a>Publicando o servidor do Office Web Apps no Lync Server 2013 usando um servidor proxy reverso
+# <a name="publishing-office-web-apps-server-in-lync-server-2013-using-a-reverse-proxy-server"></a>Publicar o servidor do Office Web Apps no Lync Server 2013 usando um servidor de proxy reverso
 
 </div>
 
@@ -35,77 +35,77 @@ ms.locfileid: "41724581"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-02-25_
+_**Última modificação do tópico:** 2013-02-25_
 
-Se você quiser que os usuários externos (ou seja, os usuários que estão fazendo logon fora do firewall da sua organização) tenham acesso às apresentações do PowerPoint para servidor Web Apps do Office, será necessário usar o Office Web Apps Server e um servidor proxy reverso, como o Microsoft Forefront Gateway de gerenciamento de ameaças. Isso também significa que você vai precisar criar e configurar uma regra de publicação de site; Essa regra ajudará a garantir que os usuários possam se conectar ao servidor. Se você não precisar fornecer acesso a usuários externos, não será necessário configurar uma regra de publicação de site.
+Se você quiser que os usuários externos (ou seja, usuários que estão fazendo logon de fora do firewall de sua organização) tenha acesso às apresentações do Office Web Apps Server PowerPoint, será necessário usar o Office Web Apps Server e um servidor de proxy reverso como o Microsoft Forefront Threat Management Gateway. Isso também significa que você precisará criar e configurar uma regra de publicação de site; Essa regra ajudará a garantir que os usuários possam se conectar ao servidor. Se não for necessário fornecer acesso aos usuários externos, não será necessário configurar uma regra de publicação de site.
 
-Para configurar uma regra de publicação de site no Forefront Threat Management Gateway, conclua o seguinte procedimento:
+Para configurar uma regra de publicação de site no Forefront Threat Management Gateway complete o seguinte procedimento:
 
-1.  Clique em **Iniciar**, em **todos os programas**, em **Microsoft Forefront TMG**e, em seguida, clique em gerenciamento do **Forefront TMG**.
+1.  Clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Forefront TMG** e em **Gerenciamento do Forefront TMG**.
 
-2.  No Forefront TMG, clique com o botão direito do mouse em **política de firewall**, aponte para **novo**e clique em regra de **publicação de site da Web**.
+2.  No Forefront TMG, clique com o botão direito do mouse em **Política de Firewall**, aponte para **Novo** e clique em **Regra de Publicação de Site**.
 
-3.  No Assistente para nova regra de publicação na Web, na página **Bem-vindo ao novo assistente de regra de publicação na Web** , digite um nome para a nova regra na caixa **nome da regra de publicação na Web** (por exemplo, regra do servidor do **Office Web Apps**) e clique em **Avançar**.
+3.  No Assistente de Nova Regra de Publicação na Web, na página **Bem-vindo ao Assistente de Nova Regra de Publicação na Web**, digite um nome para sua nova regra na caixa **Nome da regra de publicação na Web** (por exemplo, **Regra do Office Web Apps Server**) e clique em **Avançar**.
 
-4.  Na página **especificar ação da regra** , selecione **permitir** e clique em **Avançar**.
+4.  Na página **Especificar Ação de Regra**, selecione **Permitir** e clique em **Avançar**.
 
-5.  Na página **tipo de publicação** , selecione **publicar um único site ou balanceador de carga** e, em seguida, clique em **Avançar**.
+5.  Na página **Tipo de Publicação**, selecione **Publicar um único site ou balanceador de carga** e clique em **Avançar**.
 
-6.  Na página **segurança de conexão do servidor** , selecione **usar SSL para se conectar ao servidor Web ou ao farm de servidores publicados** e clique em **Avançar**.
+6.  Na página **Segurança da Conexão do Servidor**, selecione **Usar SSL para se conectar ao servidor Web ou farm de servidores publicado** e clique em **Avançar**.
 
-7.  Na página **detalhes da publicação interna** , digite o FQDN do servidor do Office Web Apps (por exemplo, **officewebapps01.contoso.com**) na caixa **nome do site interno** e clique em **Avançar**. O nome inserido na caixa **nome do site interno** deve aparecer no campo assunto ou no campo nome alternativo do assunto do certificado que você atribuiu ao servidor do Office Web Apps.
+7.  Na página **Detalhes de Publicação Interna**, digite o FQDN de seu servidor Office Web Apps (por exemplo, **officewebapps01.contoso.com**) na caixa **Nome de site interno** e clique em **Avançar**. O nome digitado na caixa **Nome do site interno** precisa aparecer no campo Assunto ou no campo Nome Alternativo da Entidade do certificado atribuído ao Office Web Apps Server.
 
-8.  Na página **detalhes da publicação interna** , digite ** / ** na caixa **caminho (opcional)** e, em seguida, clique em **Avançar**. A sintaxe\* /irá ajudar a garantir que todas as pastas e subpastas do site sejam publicadas.
+8.  Na página **detalhes de publicação interna** , digite ** / ** na caixa **caminho (opcional)** e clique em **Avançar**. A sintaxe\* /ajudará a garantir que todas as pastas e subpastas do site sejam publicadas.
 
-9.  Na página de **detalhes do nome público** , selecione **este nome de domínio (Digite abaixo)** na lista de **aceitar solicitações para** e digite o totalmente qualificado para o servidor do Office Web Apps na caixa nome público. Esse nome deve ser o nome usado para acessar seu site. Por exemplo, se o seu site for acessado http://officewebapps01.contoso.com usando a URL, você deverá digitar **officewebapps01.contoso.com** na caixa **nome público** .
+9.  Na página **Detalhes do Nome Público**, selecione **Este nome de domínio (digite abaixo)** na lista suspensa **Aceitar solicitações para** e digite o nome de domínio totalmente qualificado de seu Office Web Apps Server na caixa Nome público. Esse nome deve ser o nome usado para acessar seu site. Por exemplo, se o seu site é acessado http://officewebapps01.contoso.com usando a URL, você deve inserir **officewebapps01.contoso.com** na caixa **nome público** .
 
-10. Click **Next**.
+10. Clique em **Avançar**.
 
-11. Na página **selecionar ouvinte da Web** , clique em **novo**.
+11. Na página **Selecionar Ouvinte da Web**, clique em **Novo**.
 
-12. No assistente de definição novo ouvinte da Web, digite um nome para o novo ouvinte da Web (por exemplo, **SSL**) na caixa **nome do ouvinte da Web** e, em seguida, clique em **Avançar**.
+12. No Assistente de Definição de Novo Ouvinte da Web, digite um nome para o novo ouvinte da Web (por exemplo, **SSL**) na caixa **Nome do ouvinte da Web** e clique em **Avançar**.
 
-13. Na página **segurança de conexão do cliente** , selecione **exigir conexões SSL seguras com clientes** e, em seguida, clique em **Avançar**.
+13. Na página **Segurança de Conexão do Cliente**, selecione **Exigir conexões SSL seguras com clientes** e clique em **Avançar**.
 
-14. Na página **endereços IP do ouvinte da Web** , selecione **externo**, selecione **interno**e clique em **Avançar**.
+14. Na página **Endereço IP do Ouvinte da Web**, selecione **Externo**, selecione **Interno** e clique em **Avançar**.
 
-15. Na página **certificados SSL de ouvinte** , selecione **usar um único certificado para este ouvinte da Web** e clique em **Selecionar certificado**.
+15. Na página **Certificados SSL do Ouvinte**, selecione **Usar um único certificado para este Ouvinte da Web** e clique em **Selecionar Certificado**.
 
-16. Na caixa de diálogo **Selecionar certificado** , selecione o certificado a ser usado para este ouvinte da Web e clique em **selecionar**.
+16. Na caixa de diálogo **Selecionar Certificado**, selecione o certificado a ser usado para esse Ouvinte da Web e clique em **Selecionar**.
 
-17. Na página **certificados SSL de ouvinte** , clique em **Avançar**.
+17. Na página **Certificados SSL do Ouvinte**, clique em **Avançar**.
 
-18. Na página **configurações de autenticação** , selecione **sem autenticação** na lista suspensa **selecionar como os clientes fornecerão credenciais para a** lista suspensa do Forefront TMG e clique em **Avançar**.
+18. Na página **Configurações de Autenticação**, selecione **Sem Autenticação** na lista suspensa **Selecionar como os clientes fornecerão credenciais para o Forefront TMG** e clique em **Avançar**.
 
-19. Na página **configurações de logon único** , clique em **Avançar**.
+19. Na página **Configurações de Logon Único**, clique em **Avançar**.
 
-20. Na página **concluindo o assistente de Nova escuta da Web** , examine o resumo das opções de configuração que você fez. Quando estiver pronto, clique em **concluir**.
+20. Na página **Concluindo o Assistente de Novo Ouvinte da Web**, revise o resumo das opções de configuração feitas. Quando estiver pronto, clique em **Concluir**.
 
-21. Na página **selecionar ouvinte da Web** , clique em **Avançar**.
+21. Na página **Selecionar Ouvinte da Web**, clique em **Avançar**.
 
-22. Na página **delegação de autenticação** , selecione **sem delegação, mas o cliente pode autenticar diretamente** da **seleção do método usado pelo Forefront TMG para autenticação na lista suspensa do servidor Web publicado** e, em seguida, clique em **Avançar**.
+22. Na página **Delegação de Autenticação**, selecione **Nenhuma delegação, mas o cliente pode autenticar diretamente** na lista suspensa **Selecionar o método usado pelo Forefront TMG para autenticar para o servidor Web publicado** e clique em **Avançar**.
 
-23. Na página **conjuntos de usuários** , confirme se os conjuntos de usuários apropriados estão listados. Por padrão, esse é o conjunto de **usuários todos os usuários** . Clique em **Adicionar** para adicionar outros conjuntos de usuários que você tenha definido. Quando concluir, clique em **Avançar**.
+23. Na página **Conjuntos de Usuários**, confirme se os conjuntos de usuário apropriados estão listados. Por padrão, esse é o conjunto de usuários **Todos os Usuários**. Clique em **Adicionar** para adicionar outros conjuntos de usuário que você possa ter definido. Após a conclusão, clique em **Avançar**.
 
-24. Na página **concluindo o assistente de nova regra de publicação na Web** , clique em **concluir**.
+24. Na página **Concluindo o Assistente de Nova Regra de Publicação**, clique em **Concluir**.
 
-Observe que clicar em **concluir** não significa que você concluiu o processo; Isto é, isso não aplica e habilita automaticamente a nova regra. Em vez disso, você precisará clicar no botão **aplicar** que será exibido na interface do usuário do Forefront TMG. Quando você clica em **aplicar** a caixa de diálogo **Descrição da alteração de configuração** será exibida. Clique em **aplicar** nessa caixa de diálogo para habilitar a nova regra de publicação.
+Observe que clicar em **Concluir** não significa que você concluiu o processo; ou seja, isso não aplica e habilita automaticamente a nova regra. Em vez disso, será necessário clicar no botão **Aplicar** que aparecerá na interface de usuário do Forefront TMG. Ao clicar em **Aplicar** a caixa de diálogo **Descrição da Alteração de Configuração** aparecerá. Clique em **Aplicar** nessa caixa de diálogo para habilitar a nova regra de publicação.
 
-Após a aplicação da nova regra, você precisará fazer algumas pequenas modificações na regra para garantir que os usuários possam usar os novos recursos de apresentação do PowerPoint. Para fazer isso, siga este procedimento:
+Após a aplicação da nova regra, será necessário fazer algumas pequenas modificações na regra para garantir que os usuários possam usar os novos recursos de apresentação do PowerPoint. Para fazer isso, complete o seguinte procedimento:
 
-1.  No Forefront TMG, clique com o botão direito do mouse no nome da nova regra de publicação e, em seguida, clique em **Propriedades**.
+1.  No Forefront TMG, clique com o botão direito do mouse no nome da nova regra de publicação e clique em **Propriedades**.
 
-2.  Na caixa de diálogo **Propriedades** , na guia **para** , selecione a opção **encaminhar o cabeçalho original do host, em vez do verdadeiro**.
+2.  Na caixa de diálogo **Propriedades**, na guia **Para**, selecione a opção **Encaminhar o cabeçalho de host original em vez do presente**.
 
-3.  Na guia **tráfego** , clique em **filtragem** e, em seguida, clique em **Configurar http**.
+3.  Na guia **Tráfego**, clique em **Filtragem** e clique em **Configurar HTTP**.
 
-4.  Na caixa de diálogo **Configurando a política http para a regra** , desmarque a caixa de seleção **verificar normalização** e clique em **OK**.
+4.  Na caixa de diálogo **Configurando a política HTTP para regra**, desmarque a caixa de seleção **Verificar normalização** e clique em **OK**.
 
-5.  Na caixa de diálogo **Propriedades** , clique em **OK**.
+5.  Na caixa de diálogo **Propriedades**, clique em **OK**.
 
-6.  No Forefront TMG, clique em **aplicar** para habilitar as alterações. Quando a caixa de diálogo **Descrição da alteração de configuração** for exibida, clique em **aplicar**.
+6.  No Forefront TMG, clique em **Aplicar** para habilitar as alterações. quando a caixa de diálogo **Descrição da Alteração de Configuração** aparecer, clique em **Aplicar**.
 
-Depois de concluir a instalação, você pode testar o servidor do Office Web Apps usando os procedimentos no tópico [validando a configuração do servidor do Office Web Apps no Lync Server 2013](lync-server-2013-validating-the-configuration-of-office-web-apps-server.md).
+Após concluir a instalação, você pode testar o servidor do Office Web Apps usando os procedimentos no tópico [validando a configuração do servidor do Office Web Apps no Lync Server 2013](lync-server-2013-validating-the-configuration-of-office-web-apps-server.md).
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: testando o encaminhamento de chamadas telefônicas PSTN'
+title: 'Lync Server 2013: testar roteamento de chamadas telefônicas PSTN'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 63969598
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2dabe54fb2ba4df864d172015efb62ef161c77cb
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 750efc8ced1dbb4c048d10c879f0bfa2dd4a4f32
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745591"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050223"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,7 +35,7 @@ ms.locfileid: "41745591"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2014-11-01_
+_**Última modificação do tópico:** 2014-11-01_
 
 
 <table>
@@ -45,17 +45,17 @@ _**Tópico da última modificação:** 2014-11-01_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Cronograma de verificação</p></td>
-<td><p>Diário</p></td>
+<td><p>Agenda de verificação</p></td>
+<td><p>Diariamente</p></td>
 </tr>
 <tr class="even">
 <td><p>Ferramenta de teste</p></td>
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
-<td><p>Permissões necessárias</p></td>
-<td><p>Quando executado localmente usando o Shell de gerenciamento do Lync Server, os usuários devem ser membros do grupo de segurança RTCUniversalServerAdmins.</p>
-<p>Quando executado usando uma instância remota do Windows PowerShell, os usuários devem receber uma função RBAC que tenha permissão para executar o cmdlet <strong>Test-CsInterTrunkRouting</strong> . Para ver uma lista de todas as funções RBAC que podem usar esse cmdlet, execute o seguinte comando no prompt do Windows PowerShell:</p>
+<td><p>Permissões obrigatórias</p></td>
+<td><p>Ao executar localmente usando o Shell de gerenciamento do Lync Server, os usuários devem ser membros do grupo de segurança RTCUniversalServerAdmins.</p>
+<p>Quando executado usando uma instância remota do Windows PowerShell, os usuários devem receber uma função RBAC que tenha permissão para executar o cmdlet <strong>Test-CsInterTrunkRouting</strong> . Para ver uma lista de todas as funções RBAC que podem usar este cmdlet, execute o seguinte comando no prompt do Windows PowerShell:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsInterTrunkRouting&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,7 +66,7 @@ _**Tópico da última modificação:** 2014-11-01_
 
 ## <a name="description"></a>Descrição
 
-O cmdlet **Test-CsInterTrunkRouting** verifica se as chamadas podem ser roteadas de um SIP para outro. Para fazer isso, o cmdlet recebe um número de telefone e uma configuração de tronco. **Test-CsInterTrunkRouting** reportará os roteiros correspondentes e os usos de PSTN correspondentes para o número especificado. Observe que as chamadas podem ser roteadas entre troncos apenas se os troncos possuem um padrão de número que corresponde ao número de telefone especificado e apenas se os troncos compartilham pelo menos um uso PSTN.
+O cmdlet **Test-CsInterTrunkRouting** verifica se as chamadas podem ser roteadas de um SIP para outro. Para fazer isso, o cmdlet recebe um número de telefone e uma configuração de tronco. **Test-CsInterTrunkRouting** irá reportar as rotas de correspondência e os usos de PSTN correspondentes para o número especificado. Observe que as chamadas só poderão ser roteadas entre troncos se os troncos tiverem um padrão numérico que corresponda ao número de telefone especificado e somente se os troncos compartilharem pelo menos um uso de PSTN.
 
 </div>
 
@@ -74,7 +74,7 @@ O cmdlet **Test-CsInterTrunkRouting** verifica se as chamadas podem ser roteadas
 
 ## <a name="running-the-test"></a>Executar o teste
 
-Os comandos exibidos abaixo retornam as rotas correspondentes e os usos de telefone correspondentes que permitem que os usuários chamem o número de telefone 1-206-555-1219 usando as configurações de tronco de configuração para o site de Redmond.
+Os comandos mostrados abaixo retornam as rotas correspondentes e os usos de telefone correspondentes que permitem que os usuários liguem para o número de telefone 1-206-555-1219 usando as definições de configuração de tronco para o site de Redmond.
 
     $trunk = Get-CsTrunkConfiguration -Identity "site:Redmond"
     
@@ -84,9 +84,9 @@ Os comandos exibidos abaixo retornam as rotas correspondentes e os usos de telef
 
 <div>
 
-## <a name="determining-success-or-failure"></a>Determinação do sucesso ou falha
+## <a name="determining-success-or-failure"></a>Determinando o sucesso ou a falha
 
-Se as chamadas puderem ser roteadas de um SIP para outro, você receberá uma saída semelhante a esta:
+Se as chamadas puderem ser encaminhadas de um SIP para outro, você receberá uma saída semelhante a esta:
 
 FirstMatchingRoute MatchingUsage MatchingRoutes
 
@@ -94,11 +94,11 @@ FirstMatchingRoute MatchingUsage MatchingRoutes
 
 RedmondRoute LocalUsage {RedmondRoute}
 
-Se o teste não for bem-sucedido, você receberá uma saída semelhante a esta:
+Se o teste não tiver êxito, você receberá uma saída semelhante a esta:
 
-Test-CsInterTrunkRouting: não é possível processar a transformação do argumento no parâmetro
+Test-CsInterTrunkRouting: não é possível processar a transformação de argumento no parâmetro
 
-'TrunkConfiguration'. TrunkConfigurationsetting (parâmetro) inválido. Especificar um
+"TrunkConfiguration". TrunkConfigurationsetting inválido (parâmetro). Especificar um
 
 configuração válida (parâmetro) e tente novamente.
 

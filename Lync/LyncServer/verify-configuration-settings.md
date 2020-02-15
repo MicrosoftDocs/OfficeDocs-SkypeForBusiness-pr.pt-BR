@@ -1,5 +1,5 @@
 ---
-title: Verificar as definições da configuração
+title: Verifique as configurações
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184111
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8fcb7f577719ad14a04c89250bfab66e6cc9de3d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 80b84d2c11fee62b0912cc43317ed6716dd33f27
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738551"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048245"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="verify-configuration-settings"></a>Verificar as definições da configuração
+# <a name="verify-configuration-settings"></a>Verifique as configurações
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41738551"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-06_
+_**Última modificação do tópico:** 2012-09-06_
 
-Você pode validar a replicação de informações de configuração para o servidor de borda executando o cmdlet **Get-CsManagementStoreReplicationStatus** do Lync Server 2013 no computador interno no qual o repositório de gerenciamento central está localizado ou em qualquer computador associado a um domínio no qual o Lync Server 2013 componentes principais (OcsCore. msi) estiver instalado.
+Você pode validar a replicação de informações de configuração para o servidor de borda executando o cmdlet do Lync Server 2013 **Get-CsManagementStoreReplicationStatus** no computador interno no qual o repositório de gerenciamento central está localizado, ou em qualquer computador ingressado no domínio no qual o Lync Server 2013 Core Components (OcsCore. msi) está instalado.
 
-Os resultados iniciais podem indicar o status como "falso" em vez de "verdadeiro" para replicação. Em caso afirmativo, execute o cmdlet **Invoke-CsManagementStoreReplication** e aguarde o tempo de conclusão da replicação antes de executar o **Get-CsManagementStoreReplicationStatus** novamente.
+Os resultados iniciais podem indicar o status como "Falso" e não "Verdadeiro" para replicação. Se isso acontecer, execute o cmdlet **Invoke-CsManagementStoreReplication** e dê tempo para a replicação ser concluída antes de executar o **Get-CsManagementStoreReplicationStatus** novamente.
 
 </div>
 

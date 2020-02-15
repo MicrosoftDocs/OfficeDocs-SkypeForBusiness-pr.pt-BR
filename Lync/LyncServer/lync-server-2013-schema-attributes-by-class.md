@@ -12,16 +12,16 @@ ms:contentKeyID: 48184468
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 160a148705ececfcbe105dcbc3fca819d4790a0d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8394a1333cff66b076612ed197fa2a6a7af12ec6
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764939"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049433"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,13 +35,13 @@ ms.locfileid: "41764939"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-08-29_
+_**Última modificação do tópico:** 2012-08-29_
 
-Esta seção lista os atributos de esquema que podem ser contidos em cada classe do Lync Server 2013 e as classes que podem ser contidas em outras classes. Para obter uma lista de todas as classes e suas descrições, consulte [classes e descrições de esquema no Lync Server 2013](lync-server-2013-schema-classes-and-descriptions.md). Para obter uma lista de todos os atributos e suas descrições, consulte [atributos e descrições do esquema no Lync Server 2013](lync-server-2013-schema-attributes-and-descriptions.md).
+Esta seção lista os atributos de esquema que podem estar contidos em cada classe do Lync Server 2013 e as classes que podem estar contidas em outras classes. Para obter uma lista de todas as classes e suas descrições, consulte [classes e descrições de esquema no Lync Server 2013](lync-server-2013-schema-classes-and-descriptions.md). Para obter uma lista de todos os atributos e suas descrições, confira [atributos e descrições de esquema no Lync Server 2013](lync-server-2013-schema-attributes-and-descriptions.md).
 
 <div>
 
-## <a name="attributes-by-class"></a>Atributos por classe
+## <a name="attributes-by-class"></a>Atributos de classe
 
 
 <table>
@@ -57,11 +57,11 @@ Esta seção lista os atributos de esquema que podem ser contidos em cada classe
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Entrando</p></td>
+<td><p>Contato</p></td>
 <td><p>msDS-SourceObjectDN</p>
 <p>msRTCSIP-AcpInfo</p>
 <p>msRTCSIP-ApplicationDestination</p>
-<p>msRTCSIP – ApplicationOptions</p>
+<p>msRTCSIP-ApplicationOptions</p>
 <p>msRTCSIP-ApplicationPrimaryLanguage</p>
 <p>msRTCSIP-ApplicationSecondaryLanguages</p>
 <p>msRTCSIP-ArchivingEnabled</p>
@@ -69,7 +69,7 @@ Esta seção lista os atributos de esquema que podem ser contidos em cada classe
 <p>msRTCSIP-FederationEnabled</p>
 <p>msRTCSIP-Groupingid</p>
 <p>msRTCSIP-InternetAccessEnabled</p>
-<p>Linha de msRTCSIP</p>
+<p>Linha msRTCSIP</p>
 <p>msRTCSIP-LineServer</p>
 <p>msRTCSIP-OptionFlags</p>
 <p>msRTCSIP-OriginatorSid</p>
@@ -82,16 +82,16 @@ Esta seção lista os atributos de esquema que podem ser contidos em cada classe
 <p>msRTCSIP-TargetHomeServer</p>
 <p>msRTCSIP-TargetUserPolicies</p>
 <p>msRTCSIP-Tenantid</p>
-<p>msRTCSIP-UserEnabled</p>
+<p>msRTCSIP-userhabilitado</p>
 <p>msRTCSIP-userextension</p>
 <p>msRTCSIP-UserLocationProfile</p>
-<p>msRTCSIP-políticas do</p>
+<p>msRTCSIP-userpolicies</p>
 <p>msRTCSIP-UserPolicy</p>
 <p>msRTCSIP-UserRoutingGroupId</p>
 <p>ProxyAddresses</p></td>
 </tr>
 <tr class="even">
-<td><p>E-mail-destinatário</p></td>
+<td><p>Mail-Recipient</p></td>
 <td><p>msExchUCVoiceMailSettings</p>
 <p>msExchUserHoldPolicies</p></td>
 </tr>
@@ -101,7 +101,7 @@ Esta seção lista os atributos de esquema que podem ser contidos em cada classe
 </tr>
 <tr class="even">
 <td><p>msRTCSIP-ApplicationServerSettings</p></td>
-<td><p>msRTCSIP-Aplicativolist</p>
+<td><p>msRTCSIP-ApplicationList</p>
 <p>msRTCSIP-ApplicationServerPoolLink</p>
 <p>msRTCSIP-ExtensionData</p>
 <p>msRTCSIP-ServerVersion</p></td>
@@ -119,7 +119,7 @@ Esta seção lista os atributos de esquema que podem ser contidos em cada classe
 <p>msRTCSIP-DefaultCWAInternalURL</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-domínio</p></td>
+<td><p>msRTCSIP-Domain</p></td>
 <td><p>msRTCSIP-padrão</p>
 <p>msRTCSIP-DomainData</p>
 <p>msRTCSIP-DomainName</p></td>
@@ -145,7 +145,7 @@ Esta seção lista os atributos de esquema que podem ser contidos em cada classe
 <td><p>msRTCSIP-EnterpriseServerSettings</p></td>
 <td><p>msRTCSIP-EnterpriseServices</p>
 <p>msRTCSIP-PoolAddress</p>
-<p>msRTCSIP-ServerData</p>
+<p>msRTCSIP-Serverrestauração</p>
 <p>msRTCSIP-ServerVersion</p></td>
 </tr>
 <tr class="even">
@@ -185,19 +185,19 @@ Esta seção lista os atributos de esquema que podem ser contidos em cada classe
 <td><p>msRTCSIP-MCUFactoryPath</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP – mobilidade</p></td>
+<td><p>msRTCSIP-mobilidade</p></td>
 <td><p>msRTCSIP-MobilityFlags</p>
 <p>msRTCSIP-MobilityPolicy</p></td>
 </tr>
 <tr class="odd">
 <td><p>msRTCSIP-MonitoringServer</p></td>
-<td><p>Atributos</p>
+<td><p>dnsHostName</p>
 <p>msRTCSIP-ExtensionData</p>
 <p>msRTCSIP-ServerVersion</p></td>
 </tr>
 <tr class="even">
 <td><p>msRTCSIP-pool</p></td>
-<td><p>msRTCSIP-Aplicativolist</p>
+<td><p>msRTCSIP-ApplicationList</p>
 <p>msRTCSIP-BackEndServer</p>
 <p>msRTCSIP-dnsHostName</p>
 <p>msRTCSIP-PoolData</p>
@@ -213,7 +213,7 @@ Esta seção lista os atributos de esquema que podem ser contidos em cada classe
 <td><p>msRTCSIP-FrontEndServers</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-presença</p></td>
+<td><p>msRTCSIP-Presence</p></td>
 <td><p>msRTCSIP-PresenceFlags</p>
 <p>msRTCSIP-PresencePolicy</p></td>
 </tr>
@@ -269,13 +269,13 @@ Esta seção lista os atributos de esquema que podem ser contidos em cada classe
 <tr class="even">
 <td><p>Usuário</p></td>
 <td><p>msRTCSIP-AcpInfo</p>
-<p>msRTCSIP – ApplicationOptions</p>
+<p>msRTCSIP-ApplicationOptions</p>
 <p>msRTCSIP-ArchivingEnabled</p>
 <p>msRTCSIP-DeploymentLocator</p>
 <p>msRTCSIP-FederationEnabled</p>
 <p>msRTCSIP-Groupingid</p>
 <p>msRTCSIP-InternetAccessEnabled</p>
-<p>Linha de msRTCSIP</p>
+<p>Linha msRTCSIP</p>
 <p>msRTCSIP-LineServer</p>
 <p>msRTCSIP-OptionFlags</p>
 <p>msRTCSIP-OriginatorSid</p>
@@ -286,10 +286,10 @@ Esta seção lista os atributos de esquema que podem ser contidos em cada classe
 <p>msRTCSIP-TargetHomeServer</p>
 <p>msRTCSIP-TargetUserPolicies</p>
 <p>msRTCSIP-Tenantid</p>
-<p>msRTCSIP-UserEnabled</p>
+<p>msRTCSIP-userhabilitado</p>
 <p>msRTCSIP-userextension</p>
 <p>msRTCSIP-UserLocationProfile</p>
-<p>msRTCSIP-políticas do</p>
+<p>msRTCSIP-userpolicies</p>
 <p>msRTCSIP-UserPolicy</p>
 <p>msRTCSIP-UserRoutingGroupId</p>
 <p>ProxyAddresses</p></td>
@@ -311,33 +311,33 @@ Esta seção lista os atributos de esquema que podem ser contidos em cada classe
 <thead>
 <tr class="header">
 <th>Classe</th>
-<th>Pode conter essa classe</th>
+<th>Pode conter esta classe</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>serviceConnectionPoint</p></td>
-<td><p>msRTCSIP-servidor</p>
+<td><p>msRTCSIP-Server</p>
 <p>msRTCSIP-PoolService</p>
 <p>msRTCSIP-MCU</p>
 <p>msRTCSIP-MCUFactoryService</p>
 <p>msRTCSIP-WebComponents</p>
 <p>msRTCSIP-WebComponentsService</p>
 <p>msRTCSIP-ApplicationServerService</p>
-<p>msRTCSIP-serviço</p>
+<p>msRTCSIP-Service</p>
 <p>msRTCSIP-ConnectionPoint</p>
 <p>msRTCSIP-MediationServer</p>
 <p>msRTCSIP-ApplicationServer</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-serviço</p></td>
+<td><p>msRTCSIP-Service</p></td>
 <td><p>msRTCSIP-GlobalContainer</p>
 <p>msRTCSIP-Pools</p>
 <p>msRTCSIP-MCUFactories</p>
 <p>msRTCSIP-TrustedMCUs</p>
 <p>msRTCSIP-TrustedWebComponentsServers</p>
 <p>msRTCSIP-TrustedProxies</p>
-<p>msRTCSIP-Confiáveisservices</p>
+<p>msRTCSIP-Trustservices</p>
 <p>msRTCSIP-ApplicationContacts</p>
 <p>msRTCSIP-LocationContactMappings</p>
 <p>msRTCSIP-ConferenceDirectories</p>
@@ -345,7 +345,7 @@ Esta seção lista os atributos de esquema que podem ser contidos em cada classe
 </tr>
 <tr class="odd">
 <td><p>msRTCSIP-GlobalContainer</p></td>
-<td><p>msRTCSIP-domínio</p>
+<td><p>msRTCSIP-Domain</p>
 <p>msRTCSIP-TrustedServer</p>
 <p>msRTCSIP-EdgeProxy</p>
 <p>msRTCSIP-MonitoringServer</p></td>
@@ -371,7 +371,7 @@ Esta seção lista os atributos de esquema que podem ser contidos em cada classe
 <td><p>msRTCSIP-TrustedProxy</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-Confiáveisservices</p></td>
+<td><p>msRTCSIP-Trustservices</p></td>
 <td><p>msRTCSIP-TrustedService</p></td>
 </tr>
 <tr class="even">

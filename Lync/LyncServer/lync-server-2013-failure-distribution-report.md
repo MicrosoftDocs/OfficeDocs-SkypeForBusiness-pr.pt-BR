@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: relatório de distribuição de falha'
+title: 'Lync Server 2013: relatório de distribuição de falhas'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183849
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5250b03aef3fb77de2cbeefa4688a150c9b4a302
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 291097d645884d4c5146b48a69e5355db71e2193
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765169"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046604"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="failure-distribution-report-in-lync-server-2013"></a>Relatório de distribuição de falha no Lync Server 2013
+# <a name="failure-distribution-report-in-lync-server-2013"></a>Relatório de distribuição de falhas no Lync Server 2013
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41765169"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-21_
+_**Última modificação do tópico:** 2012-10-21_
 
 O Relatório de Distribuição de Falhas classifica sessões com falha nas seguintes categorias:
 
@@ -49,11 +49,11 @@ O Relatório de Distribuição de Falhas classifica sessões com falha nas segui
 
   - Principais componentes
 
-  - Principais usuários "De"
+  - Principais usuários de origem
 
-  - Principais usuários "Para"
+  - Principais usuários de destino
 
-  - Principais agentes do usuário "De"
+  - Principal usuário de origem
 
 É possível usar essas categorias para determinar exatamente onde está ocorrendo um problema e, em alguns casos, porque o problema está ocorrendo. Por exemplo, suponha que você tenha registrado 242 sessões de áudio/vídeo com falha durante um determinado dia. Se você observar o Relatório de Distribuição de Falhas, ele poderá mostrar que 237 das sessões com falha ocorreram no pool de Dublin. Isso fornece um ótimo ponto inicial para rastrear e diagnosticar as causas por trás dessas falhas. Se você clicar no pool de Dublin na categoria **Principais pools**, você verá um Relatório de Distribuição de Falhas exclusivo desse pool. Será possível então começar a analisar por que o pool de Dublin enfrentou tantas dificuldades.
 
@@ -69,7 +69,7 @@ O Relatório de Distribuição de Falhas classifica sessões com falha nas segui
 
   - [Relatório de diagnóstico de atividade ponto a ponto no Lync Server 2013](lync-server-2013-peer-to-peer-activity-diagnostic-report.md)
 
-No relatório de distribuição de falha, você pode clicar em qualquer uma das seguintes métricas para exibir o [relatório de lista de falhas no Lync Server 2013](lync-server-2013-failure-list-report.md):
+No relatório de distribuição de falhas, você pode clicar em qualquer uma das métricas a seguir para exibir o [relatório de lista de falhas no Lync Server 2013](lync-server-2013-failure-list-report.md):
 
   - Principais motivos diagnósticos (sessões)
 
@@ -81,11 +81,11 @@ No relatório de distribuição de falha, você pode clicar em qualquer uma das 
 
   - Principais componentes (sessões)
 
-  - Principais usuários "De" (sessões)
+  - Principais usuários de origem (sessões)
 
-  - Principais usuários "Para" (sessões)
+  - Principais usuários de destino (sessões)
 
-  - Principais agentes do usuários "De" (sessões)
+  - Principais agentes de usuários de origem (sessões)
 
 </div>
 
@@ -111,7 +111,7 @@ O filtro é uma maneira de retornar um conjunto de dados mais refinado e direcio
 
 A tabela a seguir lista os filtros que você pode usar com o Relatório de Falha na Distribuição.
 
-### <a name="failure-distribution-report-filters"></a>Filtros do Relatório de Falha na Distribuição
+### <a name="failure-distribution-report-filters"></a>Filtros do Relatório de Falha na Distribuição.
 
 <table>
 <colgroup>
@@ -127,33 +127,33 @@ A tabela a seguir lista os filtros que você pode usar com o Relatório de Falha
 <tbody>
 <tr class="odd">
 <td><p><strong>De</strong></p></td>
-<td><p>Data/hora de início para o intervalo de tempo. Para ver os dados por horas, insira a data e hora de início conforme segue:</p>
-<p>7/7/2012 1:00 PM</p>
-<p>Se você não inserir a hora de início, o relatório começará automaticamente à meia-noite do dia especificado. Para ver os dados por dia, insira somente a data:</p>
+<td><p>Data/hora inicial para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora inicial como a seguir:</p>
+<p>7/7/2012 13:00 horas</p>
+<p>Se você não inserir uma hora inicial, o relatório começa automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:</p>
 <p>7/7/2012</p>
-<p>Para exibir por semana ou mês, insira uma data dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):</p>
+<p>Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):</p>
 <p>7/3/2012</p>
-<p>As semanas sempre vão de domingo a sábado.</p></td>
+<p>As semanas são sempre de domingo a sábado.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Até</strong></p></td>
-<td><p>Data/hora final de intervalo de tempo. Para ver os dados por horas, insira a data e hora final conforme segue:</p>
-<p>7/7/2012 1:00 PM</p>
-<p>Se você não inserir a hora final, o relatório terminará automaticamente à meia-noite do dia especificado. Para ver os dados por dia, insira somente a data:</p>
+<td><p><strong>To</strong></p></td>
+<td><p>Data/hora final para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora final como a seguir:</p>
+<p>7/7/2012 13:00 horas</p>
+<p>Se você não inserir uma hora final, o relatório termina automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:</p>
 <p>7/7/2012</p>
-<p>Para exibir por semana ou mês, insira uma data dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):</p>
+<p>Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):</p>
 <p>7/3/2012</p>
-<p>As semanas sempre vão de domingo a sábado.</p></td>
+<p>As semanas sempre correm do domingo até sábado.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Pool</strong></p></td>
-<td><p>FQDN (Nome de domínio totalmente qualificado) do Pool de registradores ou Servidor de Borda. Você pode selecionar um pool individual ou clicar em <strong>[Todos]</strong> para ver os dados de todos os pools. Essa lista suspensa é automaticamente preenchida para você com base nos registros no banco de dados.</p></td>
+<td><p>FQDN (Nome de domínio totalmente qualificado) do pool de Registradores ou Servidor de Borda. Você pode selecionar um pool individual ou clicar em <strong>[Tudo]</strong> para ver os dados de todos os pools. Essa lista suspensa é automaticamente preenchida para você com base nos registros no banco de dados.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Tipo de atividade</strong></p></td>
 <td><p>Tipo de atividade para filtrar. Selecione uma das seguintes opções:</p>
 <ul>
-<li><p>[Todos]</p></li>
+<li><p>Todos os</p></li>
 <li><p>Ponto a ponto</p></li>
 <li><p>Conferência</p></li>
 </ul></td>
@@ -162,15 +162,15 @@ A tabela a seguir lista os filtros que você pode usar com o Relatório de Falha
 <td><p><strong>Categoria da sessão</strong></p></td>
 <td><p>Indica se a atividade em questão teve sucesso ou falhou. Selecione uma das seguintes opções:</p>
 <ul>
-<li><p>[Todos]</p></li>
-<li><p>Sucesso</p></li>
+<li><p>Todos os</p></li>
+<li><p>Êxito</p></li>
 <li><p>Falha esperada</p></li>
 <li><p>Falha inesperada</p></li>
 </ul>
-<p>Uma &quot;falha&quot; esperada é uma falha que espera acontecer. Por exemplo, se um usuário tiver definido seu status como Não perturbe, é esperado que qualquer chamada para esse usuário falhe. Uma &quot;falha&quot; inesperada é uma falha que ocorre em que parece ser um sistema de outra forma saudável. Por exemplo, uma chamada não deve ser encerrada se o chamador for colocado em espera. Se isso ocorrer, isso seria sinalizado como uma falha inesperada.</p></td>
+<p>Uma &quot;falha&quot; esperada é uma falha que deve ocorrer. Por exemplo, se um usuário configurou seu status para Não Perturbe, é previsto que qualquer chamada para ele irá falhar. Uma &quot;falha&quot; inesperada é uma falha que ocorre no que parece ser um sistema saudável de outra forma. Por exemplo, uma chamada não deveria ser terminada se o chamador for colocado em espera. Se isso ocorrer, será sinalizado como uma falha inesperada.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>ID do Diagnóstico</strong></p></td>
+<td><p><strong>ID diagnóstico</strong></p></td>
 <td><p>Identificador exclusivo (na forma de um cabeçalho de diagnóstico-ms) anexado a uma mensagem SIP que fornece informações úteis sobre os erros de solução de problemas. Os cabeçalhos diagnósticos são opcionais (é possível ter sessões SIP que não os incluem), e os IDs diagnósticos são relatados somente para as sessões com algum tipo de problema.</p></td>
 </tr>
 </tbody>
@@ -196,13 +196,13 @@ A tabela a seguir lista as informações fornecidas no Relatório de Falha de Di
 <thead>
 <tr class="header">
 <th>Nome</th>
-<th>Você pode classificar este item?</th>
+<th>É possível classificar este item?</th>
 <th>Descrição</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Classificação</strong></p></td>
+<td><p><strong>Rank</strong></p></td>
 <td><p>Não</p></td>
 <td><p>Classificação relativa das sessões com falha, com base no ID diagnóstico, que é um identificador exclusivo (na forma de um cabeçalho de diagnóstico-ms) anexado a uma mensagem SIP que fornece informações úteis sobre os erros de solução de problemas.</p></td>
 </tr>
@@ -239,13 +239,13 @@ A tabela a seguir lista as informações fornecidas no Relatório de Falha de Di
 <thead>
 <tr class="header">
 <th>Nome</th>
-<th>Você pode classificar este item?</th>
+<th>É possível classificar este item?</th>
 <th>Descrição</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Classificação</strong></p></td>
+<td><p><strong>Rank</strong></p></td>
 <td><p>Não</p></td>
 <td><p>Classificação relativa com base na sessão com falha baseada no tipo de sessão (por exemplo, conferência de áudio/vídeo ou sessão de transferência de arquivo ponto a ponto).</p></td>
 </tr>
@@ -282,15 +282,15 @@ A tabela a seguir lista as informações fornecidas no Relatório de Falha de Di
 <thead>
 <tr class="header">
 <th>Nome</th>
-<th>Você pode classificar este item?</th>
+<th>É possível classificar este item?</th>
 <th>Descrição</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Classificação</strong></p></td>
+<td><p><strong>Rank</strong></p></td>
 <td><p>Não</p></td>
-<td><p>Classificação relativa de sessões com falha com base no pool de registradores ou no servidor de borda em que a sessão foi conduzida.</p></td>
+<td><p>Classificação relativa de sessões com falha com base no pool de registradores ou no servidor de borda onde a sessão foi conduzida.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Principais pools</strong></p></td>
@@ -325,13 +325,13 @@ A tabela a seguir lista as informações fornecidas no Relatório de Falha de Di
 <thead>
 <tr class="header">
 <th>Nome</th>
-<th>Você pode classificar este item?</th>
+<th>É possível classificar este item?</th>
 <th>Descrição</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Classificação</strong></p></td>
+<td><p><strong>Rank</strong></p></td>
 <td><p>Não</p></td>
 <td><p>Classificação relativa das sessões com falha por computador.</p></td>
 </tr>
@@ -355,7 +355,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Falha de Di
 
 ## <a name="metrics-for-top-components"></a>Métricas para os principais componentes
 
-A tabela a seguir lista as informações fornecidas no relatório de distribuição de falha com base nos componentes do Microsoft Lync Server 2010 que tiveram mais falhas.
+A tabela a seguir lista as informações fornecidas no relatório de falha de distribuição, com base nos componentes do Microsoft Lync Server 2010 que apresentaram mais falhas.
 
 ### <a name="metrics-for-top-components"></a>Métricas para os principais componentes
 
@@ -368,13 +368,13 @@ A tabela a seguir lista as informações fornecidas no relatório de distribuiç
 <thead>
 <tr class="header">
 <th>Nome</th>
-<th>Você pode classificar este item?</th>
+<th>É possível classificar este item?</th>
 <th>Descrição</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Classificação</strong></p></td>
+<td><p><strong>Rank</strong></p></td>
 <td><p>Não</p></td>
 <td><p>Classificação relativa de sessões com falha com base no componente do Lync Server 2010 (por exemplo, ExumRouting, GroupChat ou MediationServer).</p></td>
 </tr>
@@ -396,7 +396,7 @@ A tabela a seguir lista as informações fornecidas no relatório de distribuiç
 
 <div>
 
-## <a name="metrics-for-top-from-users"></a>Métricas para os principais usuários "Para"
+## <a name="metrics-for-top-from-users"></a>Métricas para os principais usuários "De"
 
 A tabela a seguir lista as informações fornecidas no Relatório de Falha de Distribuição, com base nos usuários que apresentaram mais falhas quando tentaram chamar alguém (conhecidos como usuários "De").
 
@@ -411,18 +411,18 @@ A tabela a seguir lista as informações fornecidas no Relatório de Falha de Di
 <thead>
 <tr class="header">
 <th>Nome</th>
-<th>Você pode classificar este item?</th>
+<th>É possível classificar este item?</th>
 <th>Descrição</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Classificação</strong></p></td>
+<td><p><strong>Rank</strong></p></td>
 <td><p>Não</p></td>
 <td><p>Classificação relativa das sessões com falha, com base no usuário convidado a entrar na sessão.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Principais usuários "De"</strong></p></td>
+<td><p><strong>Principais usuários "Para"</strong></p></td>
 <td><p>Não</p></td>
 <td><p>Endereço SIP do usuário convidado para entrar na sessão.</p></td>
 </tr>
@@ -453,13 +453,13 @@ A tabela a seguir lista as informações fornecidas no Relatório de Falha de Di
 <thead>
 <tr class="header">
 <th>Nome</th>
-<th>Você pode classificar este item?</th>
+<th>É possível classificar este item?</th>
 <th>Descrição</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Classificação</strong></p></td>
+<td><p><strong>Rank</strong></p></td>
 <td><p>Não</p></td>
 <td><p>Classificação relativa das sessões com falha, com base no usuário que iniciou a sessão.</p></td>
 </tr>
@@ -496,13 +496,13 @@ A tabela a seguir lista as informações fornecidas no Relatório de Falha de Di
 <thead>
 <tr class="header">
 <th>Nome</th>
-<th>Você pode classificar este item?</th>
+<th>É possível classificar este item?</th>
 <th>Descrição</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Classificação</strong></p></td>
+<td><p><strong>Rank</strong></p></td>
 <td><p>Não</p></td>
 <td><p>Classificação relativa de sessões com falha, com base no agente do usuário (software) envolvido na sessão. Por exemplo: RTCC/4.0.0.0 Inbound Routing/4.0.0.0.</p></td>
 </tr>

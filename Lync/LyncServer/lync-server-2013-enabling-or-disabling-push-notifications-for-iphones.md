@@ -12,16 +12,16 @@ ms:contentKeyID: 49733719
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a73d0f32da5063f98da662e85ec531de6801a428
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f0b091910fa62c52e7ee0dd98862095995b4abe6
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735641"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049173"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,23 +35,23 @@ ms.locfileid: "41735641"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-02-23_
+_**Última modificação do tópico:** 2013-02-23_
 
-As notificações por push, na forma de selos, ícones ou alertas, podem ser enviadas para um iPhone, mesmo quando o aplicativo móvel está inativo. As notificações por push notificam um usuário de eventos como um convite de mensagem instantânea novo ou perdido e caixa postal. Você pode habilitar ou desabilitar as notificações por push para iPhone usando o painel de controle do Lync Server 2013 ou o Shell de gerenciamento do Lync Server 2013.
+As notificações por push, na forma de selos, ícones ou alertas, podem ser enviadas para um iPhone, mesmo quando o aplicativo móvel está inativo. As notificações de push notificam um usuário de eventos como um convite de IM novo ou perdido e caixa postal. Você pode habilitar ou desabilitar notificações por push para iPhone usando o painel de controle do Lync Server 2013 ou o Shell de gerenciamento do Lync Server 2013.
 
 <div>
 
-## <a name="to-enable-push-notifications-for-iphone-by-using-lync-server-control-panel"></a>Para ativar as notificações por push para iPhone usando o painel de controle do Lync Server
+## <a name="to-enable-push-notifications-for-iphone-by-using-lync-server-control-panel"></a>Para habilitar as notificações por push para iPhone usando o painel de controle do Lync Server
 
-1.  Usando uma conta de usuário atribuída à função CsUserAdministrator ou CsAdministrator, faça logon em qualquer computador de sua implantação interna.
+1.  Por uma conta de usuário atribuída à função CsUserAdministrator role ou CsAdministrator, faça o login em qualquer computador na sua implantação interna.
 
-2.  Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [abrir ferramentas administrativas do Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Na barra de navegação à esquerda, clique em **clientes**e, em seguida, clique no botão de navegação **configuração por push de notificação** .
+3.  Na barra de navegação esquerda, clique em **Clientes** e no botão de navegação **Configuração de notificação de push**.
 
 4.  Na página **configuração de notificação por push** , clique no site que você deseja editar, clique no menu **Editar** e, em seguida, clique em **Mostrar detalhes**.
 
-5.  Clique na caixa de seleção **habilitar notificações por push da Apple** .
+5.  Clique na caixa de seleção **Habilitar as notificações por push da Apple**.
 
 6.  Clique em **Confirmar**.
 
@@ -59,17 +59,17 @@ As notificações por push, na forma de selos, ícones ou alertas, podem ser env
 
 <div>
 
-## <a name="to-disable-push-notifications-for-iphone-by-using-lync-server-control-panel"></a>Para desativar as notificações por push para iPhone usando o painel de controle do Lync Server
+## <a name="to-disable-push-notifications-for-iphone-by-using-lync-server-control-panel"></a>Para desabilitar as notificações por push para iPhone usando o painel de controle do Lync Server
 
-1.  Usando uma conta de usuário atribuída à função CsUserAdministrator ou CsAdministrator, faça logon em qualquer computador de sua implantação interna.
+1.  Por uma conta de usuário atribuída à função CsUserAdministrator role ou CsAdministrator, faça o login em qualquer computador na sua implantação interna.
 
-2.  Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [abrir ferramentas administrativas do Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Na barra de navegação à esquerda, clique em **clientes**e, em seguida, clique no botão de navegação **configuração por push de notificação** .
+3.  Na barra de navegação esquerda, clique em **Clientes** e no botão de navegação **Configuração de notificação de push**.
 
 4.  Na página **configuração de notificação por push** , clique no site que você deseja editar, clique no menu **Editar** e, em seguida, clique em **Mostrar detalhes**.
 
-5.  Desmarque a caixa de seleção **habilitar notificações por push da Apple** .
+5.  Apague a caixa de seleção **Habilitar as notificações por push da Apple**.
 
 6.  Clique em **Confirmar**.
 
@@ -77,13 +77,13 @@ As notificações por push, na forma de selos, ícones ou alertas, podem ser env
 
 <div>
 
-## <a name="enabling-or-disabling-push-notifications-to-iphone-by-using-windows-powershell-cmdlets"></a>Habilitar ou desabilitar notificações por push para iPhone usando cmdlets do Windows PowerShell
+## <a name="enabling-or-disabling-push-notifications-to-iphone-by-using-windows-powershell-cmdlets"></a>Habilitar ou desabilitar notificações por push para o iPhone usando cmdlets do Windows PowerShell
 
-As notificações por push para o iPhone da Apple podem ser habilitadas ou desabilitadas usando o cmdlet **set-CsPushNotificationConfiguration** . Você pode executar esse cmdlet a partir do Shell de gerenciamento do Lync Server 2013 ou de uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Lync Server, consulte o artigo sobre o blog do Windows PowerShell do Lync Server "início rápido: gerenciar o [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Microsoft Lync Server 2010 usando o PowerShell remoto" em.
+As notificações por push para o iPhone da Apple podem ser habilitadas ou desabilitadas usando o cmdlet **set-CsPushNotificationConfiguration** . Você pode executar esse cmdlet do Shell de gerenciamento do Lync Server 2013 ou de uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Lync Server, consulte o artigo de blog do Lync Server Windows PowerShell "início rápido: Managing Microsoft Lync Server [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)2010 using Remote PowerShell" em.
 
 <div>
 
-## <a name="to-enable-push-notifications-for-iphone"></a>Para ativar as notificações por push para iPhone
+## <a name="to-enable-push-notifications-for-iphone"></a>Para habilitar as notificações por push para iPhone
 
   - Para habilitar as notificações por push para iPhone, defina o valor da propriedade EnableApplePushNotificationService como true ($True). Por exemplo:
     
@@ -93,7 +93,7 @@ As notificações por push para o iPhone da Apple podem ser habilitadas ou desab
 
 <div>
 
-## <a name="to-disable-push-notifications-for-iphone"></a>Para desativar as notificações por push para iPhone
+## <a name="to-disable-push-notifications-for-iphone"></a>Para desabilitar as notificações por push para iPhone
 
   - Para desativar as notificações por push para iPhone, defina o valor da propriedade EnableApplePushNotificationService como false ($False). Por exemplo:
     
@@ -101,7 +101,7 @@ As notificações por push para o iPhone da Apple podem ser habilitadas ou desab
 
 </div>
 
-Para obter mais informações, consulte o tópico da ajuda para o cmdlet [set-CsPushNotificationConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsPushNotificationConfiguration) .
+Para obter mais informações, consulte o tópico de ajuda do cmdlet [Set-CsPushNotificationConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsPushNotificationConfiguration).
 
 </div>
 

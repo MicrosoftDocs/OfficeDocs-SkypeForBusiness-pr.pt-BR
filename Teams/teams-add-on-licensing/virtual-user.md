@@ -19,12 +19,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: Saiba mais sobre licenças de usuário virtual gratuitas.
-ms.openlocfilehash: 0b580a396dedfab81ab207fa0b1d6fee5caa705b
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 5b31c9edaf42508e59000257a33b9ddeba4c6fb5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826509"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029352"
 ---
 # <a name="phone-systemvirtual-user-license"></a>Sistema telefônico – licença de usuário virtual 
 
@@ -67,7 +67,7 @@ A Contoso deve considerar a reformulação do atendedor automático e o sistema 
 Se você decidir mudar a licença da sua conta de recurso de uma licença do sistema de telefonia para um sistema telefônico – licença de usuário virtual: 
 
 1. Obter o novo sistema telefônico – licença de usuário virtual. 
-2. Siga as etapas vinculadas no centro de administração do Microsoft 365 para [mover os usuários para uma assinatura diferente](https://docs.microsoft.com/en-us/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#move-users-to-a-different-subscription). 
+2. Siga as etapas vinculadas no centro de administração do Microsoft 365 para [mover os usuários para uma assinatura diferente](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#move-users-to-a-different-subscription). 
 
 > [!WARNING]
 > Sempre remova uma licença completa do sistema de telefonia e atribua o sistema de telefone – licença de usuário virtual na mesma atividade de licença. Se você remover a antiga licença, salvar as alterações da conta, adicionar a nova licença e salvar as configurações da conta novamente, a conta do recurso talvez não funcione mais como esperado. Se isso acontecer, recomendamos que você crie uma nova conta de recurso para o sistema telefônico – licença de usuário virtual e remova a conta de recurso quebrada. 

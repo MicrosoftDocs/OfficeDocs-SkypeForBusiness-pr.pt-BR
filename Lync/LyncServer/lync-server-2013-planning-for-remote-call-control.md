@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: planejando o controle de chamada remota'
+title: 'Lync Server 2013: planejamento para controle de chamada remota'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184371
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b4c07674be037c7d2fe06d6e2811dcd3264cc6db
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7a2faff08d5517809d4cfb11d00711a146accc61
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725221"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050723"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41725221"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-05_
+_**Última modificação do tópico:** 2012-09-05_
 
-No Lync Server 2013, o suporte para cenários de controle de chamada remota permite que os usuários controlem seus telefones PBX (Private Branch Exchange) usando o Lync 2013 em seus computadores desktop. Esta seção descreve os recursos de controle de chamada remota e os requisitos para a implantação do controle de chamada remota.
+No Lync Server 2013, o suporte para cenários de controle de chamada remota permite que os usuários controlem seus telefones de PBX (central privada de comutação telefônica) usando o Lync 2013 em seus computadores desktop. Esta seção descreve os recursos de controle de chamada remota e os requisitos para a implantação do controle de chamada remota.
 
-A integração entre um PBX e o Lync Server 2013 torna possível aos usuários habilitados para controle de chamada remota usar a interface do usuário do Lync 2013 para controlar chamadas em seus telefones PBX das seguintes maneiras:
+A integração entre um PBX e o Lync Server 2013 torna possível que os usuários habilitados para controle de chamada remota usem a interface de usuário do Lync 2013 (UI) para controlar as chamadas em seus telefones PBX das seguintes maneiras:
 
 <div>
 
 
 > [!NOTE]  
-> Por fim, os recursos do PBX que hospedam o telefone PBX de um usuário determinam os recursos de controle de chamada remota que estarão disponíveis para esse usuário.
+> Por fim, os recursos do PBX que hospeda o telefone PBX de um usuário determinam os recursos de controle de chamada remota disponíveis para o usuário.
 
 
 
@@ -53,15 +53,15 @@ A integração entre um PBX e o Lync Server 2013 torna possível aos usuários h
 
   - Fazer uma chamada de saída
 
-  - Atender uma chamada de entrada
+  - Atender uma chamada recebida
 
-  - Atender uma chamada de entrada com uma mensagem instantânea
+  - Atender uma chamada com uma mensagem instantânea
     
     <div>
     
 
     > [!NOTE]  
-    > Ou seja, quando o número de telefone do chamador pode ser associado a um endereço de mensagem instantânea na GAL (lista de endereços global) da sua organização, na lista de contatos do Lync do chamador ou na organização de um parceiro federado.
+    > Ou seja, quando o número de telefone do chamador pode ser associado a um endereço de mensagem instantânea na GAL (lista de endereços global) da sua organização, na lista de contatos do Lync do receptor ou em uma organização de um parceiro federado.
 
     
     </div>
@@ -70,31 +70,31 @@ A integração entre um PBX e o Lync Server 2013 torna possível aos usuários h
 
   - Encaminhar uma chamada de entrada
 
-  - Fazer chamadas em espera
+  - Colocar chamadas em espera
 
   - Alternar entre várias chamadas simultâneas
 
-  - Atender uma segunda chamada enquanto já estiver em uma chamada (ou seja, chamada em espera)
+  - Atender uma segunda chamada enquanto está em uma chamada (isso é, chamada em espera)
 
-  - Discar dígitos de multifrequência (DTMF) de Tom duplo
+  - Discar dígitos DTMF
 
-  - Na janela de conversa, digite anotações no programa de anotações do Microsoft Office OneNote
+  - Na janela Conversa, digite observações no programa de anotações Microsoft Office OneNote
 
-Além disso, quando um usuário está habilitado para controle de chamada remota, o Lync 2013 fornece ao usuário as seguintes informações de chamada:
+Além disso, quando um usuário é habilitado para controle de chamada remota, o Lync 2013 fornece ao usuário as seguintes informações de chamada:
 
-  - Identificação de um chamador por nome quando o número de telefone do chamador existe na lista de contatos de um cliente de colaboração e mensagens do Microsoft Office Outlook habilitado para controle de chamada remota, lista de contatos do Lync ou GAL da sua organização.
+  - Identificação de um chamador por nome quando o número de telefone do chamador existe na lista de contatos de um cliente de mensagens e colaboração do Microsoft Office Outlook habilitado para controle de chamada remota, lista de contatos do Lync ou GAL da sua organização.
 
-  - Chamadas de entrada e saída passadas, que são salvas na pasta Histórico de conversas no Outlook.
+  - Chamadas de entrada e saída antigas, que são salvas na pasta Histórico da Conversa no Outlook.
 
-  - Notificações de chamada perdida, que são enviadas para a pasta caixa de entrada do Outlook do usuário, mas são geradas apenas se o Lync estiver sendo executado quando a chamada de entrada for recebida.
+  - Notificações de chamadas perdidas, que são enviadas para a pasta caixa de entrada do Outlook do usuário, mas são geradas somente se o Lync estiver em execução quando a chamada de entrada for recebida.
 
 <div>
 
-## <a name="remote-call-control-and-enterprise-voice"></a>Controle de chamada remota e Enterprise Voice
+## <a name="remote-call-control-and-enterprise-voice"></a>Controle de Chamada Remota e Enterprise Voice
 
-Embora os recursos de controle de chamada remota sejam separados das funcionalidades do Enterprise Voice e os usuários não podem ser habilitados para ambos, o Enterprise Voice fornece um subconjunto de recursos que também estão disponíveis para os usuários que estão habilitados para controle de chamada remota. Se o Enterprise Voice for implantado, os usuários habilitados para controle de chamada remota poderão usar o Lync para acessar os seguintes recursos da Enterprise Voice:
+Embora os recursos de controle de chamada remota sejam separados dos recursos do Enterprise Voice e os usuários não possam ser habilitados para ambos, o Enterprise Voice oferece um subconjunto de recursos que também estão disponíveis para os usuários que estão habilitados para controle de chamada remota. Se o Enterprise Voice for implantado, os usuários habilitados para controle de chamada remota poderão usar o Lync para acessar os seguintes recursos do Enterprise Voice:
 
-  - Fazer e receber chamadas de áudio para outro cliente do Lync
+  - Fazer e receber chamadas de áudio para outro cliente Lync
 
   - Ingressar na parte de áudio de uma conferência criada por um usuário habilitado para o Enterprise Voice
 
@@ -104,7 +104,7 @@ Embora os recursos de controle de chamada remota sejam separados das funcionalid
 
 ## <a name="in-this-section"></a>Nesta seção
 
-  - [Tarefas de implantação de controle de chamada remota no Lync Server 2013](lync-server-2013-deployment-tasks-for-remote-call-control.md)
+  - [Tarefas de implantação para o controle de chamada remota no Lync Server 2013](lync-server-2013-deployment-tasks-for-remote-call-control.md)
 
 </div>
 

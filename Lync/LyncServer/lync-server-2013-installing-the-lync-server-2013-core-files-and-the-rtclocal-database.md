@@ -1,5 +1,5 @@
 ---
-title: Instalando os arquivos principais do Lync Server 2013 e o banco de dados do RTCLocal
+title: Instalando os arquivos principais do Lync Server 2013 e o banco de dados RTCLocal
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183591
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: da8f0dd1fb83c595ed444a487d0321c571a09315
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c8502e1af9ddb607c25ed04429f6b5bb7fbfe980
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725990"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046804"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="installing-the-lync-server-2013-core-files-and-the-rtclocal-database"></a>Instalando os arquivos principais do Lync Server 2013 e o banco de dados do RTCLocal
+# <a name="installing-the-lync-server-2013-core-files-and-the-rtclocal-database"></a>Instalando os arquivos principais do Lync Server 2013 e o banco de dados RTCLocal
 
 </div>
 
@@ -35,29 +35,29 @@ ms.locfileid: "41725990"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-20_
+_**Última modificação do tópico:** 2012-10-20_
 
-Para instalar os arquivos do Lync Server 2013 Core em um computador, conclua o procedimento a seguir. O banco de dados do RTCLocal é instalado automaticamente quando você instala os arquivos principais. Observe que você não precisa instalar o SQL Server nos nós do Inspetor. Em vez disso, o SQL Server Express é instalado automaticamente para você.
+Para instalar os arquivos principais do Lync Server 2013 em um computador, conclua o procedimento a seguir. O banco de dados RTCLocal é instalado automaticamente ao instalar os principais arquivos. Observe que não é necessário instalar o SQL Server nos nós do Inspetor. Em vez disso, o SQL Server Express é instalado automaticamente para você.
 
-Para instalar os arquivos do Lync Server 2013 Core e o banco de dados do RTCLocal:
+Para instalar os arquivos principais do Lync Server 2013 e o banco de dados do RTCLocal:
 
-1.  No computador do nó do Inspetor, clique em **Iniciar**, **em todos os programas**, em **acessórios**, clique com o botão direito do mouse em **prompt de comando**e clique em **Executar como administrador**.
+1.  No computador do nó do observador, clique em **Iniciar**, em **Todos os programas**, em **Acessórios**, clique com o botão direito no **Prompt de comando** e clique em **Executar como administrador**.
 
-2.  Na janela do console, digite o seguinte comando e pressione ENTER, usando o caminho apropriado para os arquivos de instalação do Lync Server:
+2.  Na janela do console, digite o seguinte comando e pressione ENTER, usando o caminho apropriado para seus arquivos de instalação do Lync Server:
     
         D:\Setup.exe /BootstrapLocalMgmt
 
-Para verificar se os componentes principais do Lync Server foram instalados com êxito, clique em **Iniciar**, clique em **todos os programas**, clique em **Lync Server 2013**e, em seguida, clique em **Shell de gerenciamento do Lync Server**. No Shell de gerenciamento do Lync Server 2013, digite o seguinte comando do Windows PowerShell e pressione ENTER:
+Para verificar se os principais componentes do Lync Server foram instalados com êxito, clique em **Iniciar**, em **todos os programas**, em **Lync Server 2013**e em **Shell de gerenciamento do Lync Server**. No Shell de gerenciamento do Lync Server 2013, digite o seguinte comando do Windows PowerShell e pressione ENTER:
 
     Get-CsWatcherNodeConfiguration
 
-Na primeira vez que você executar esse comando, nenhum dado será retornado porque você ainda não configurou nenhum computador do nó do Inspetor. Desde que o comando seja executado sem retornar um erro, você pode presumir que a instalação do Lync Server foi concluída com êxito.
+A primeira vez que você executar este comando, nenhum dado é retornado porque você não configurou qualquer computador do nó do observador. Contanto que o comando seja executado sem retornar um erro, você pode supor que a instalação do Lync Server foi concluída com êxito.
 
-Se o seu computador do nó do Inspetor estiver localizado dentro da sua rede de perímetro, você pode executar o seguinte comando para verificar a instalação do Lync Server 2013:
+Se seu computador do nó do observador estiver localizado dentro de sua rede de perímetro, você poderá executar o seguinte comando para verificar a instalação do Lync Server 2013:
 
     Get-CsPinPolicy
 
-Você receberá informações semelhantes às seguintes, dependendo do número de políticas de PIN (número de identificação pessoal) configuradas para usar em sua organização:
+Você irá receber informações semelhantes ao seguinte, dependendo do número de políticas de PIN configuradas para uso em sua organização:
 
     Identity             : Global
     Description          :
@@ -67,7 +67,7 @@ Você receberá informações semelhantes às seguintes, dependendo do número d
     PINLifetime          : 0
     MaximumLogonAttempts :
 
-Se você vir informações sobre suas políticas de PIN, isso significa que você instalou os componentes principais com êxito.
+Se você ver informações sobre suas políticas de PIN, significa que você instalou com sucesso os principais componentes.
 
 </div>
 

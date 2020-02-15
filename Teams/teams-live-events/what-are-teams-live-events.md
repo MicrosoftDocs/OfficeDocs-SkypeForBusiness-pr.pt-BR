@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2c3a32b49b6b95a2feea222d880a0e943c7189d0
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 23d0aac3fd5697b8e06c727acb3138a878e38bea
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826999"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008083"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>O que são os eventos ao vivo do Microsoft Teams ?
 
@@ -48,7 +48,7 @@ Eventos dinâmicos no Microsoft Teams proporcionam várias funções (organizado
 Você pode ver na imagem acima que há quatro componentes principais que são usados com eventos dinâmicos no Teams.
 
 > [!NOTE]
-> Para obter uma visão geral de como configurar eventos dinâmicos e a experiência do participante, confira estes [vídeos](https://support.office.com/en-us/article/video-plan-and-schedule-a-live-event-f92363a0-6d98-46d2-bdd9-f2248075e502)curtos.
+> Para obter uma visão geral de como configurar eventos dinâmicos e a experiência do participante, confira estes [vídeos](https://support.office.com/article/video-plan-and-schedule-a-live-event-f92363a0-6d98-46d2-bdd9-f2248075e502)curtos.
 
 ### <a name="scheduling"></a>Plano
 O Microsoft Teams oferece a capacidade dos organizadores de criarem um evento com as permissões apropriadas do participante, designar os membros da equipe do evento, selecionar um método de produção e convidar participantes. Se o evento ao vivo foi criado dentro de um grupo do Yammer, os participantes do evento ao vivo poderão usar a conversa do Yammer para interagir com as pessoas no evento. 

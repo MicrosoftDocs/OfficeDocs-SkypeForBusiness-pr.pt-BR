@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Usuários domésticos em um Home users on a Aparelho de Filial Persistente ou Servidor'
+title: 'Lync Server 2013: usuários domésticos em um servidor ou aparelho de filial persistente'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185926
 ms.date: 12/11/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0c6cca9528e884807f6180d8c99b143eb0041211
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c6efd5991260ffeec3c6279857625eadfe34eca4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41739131"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42047449"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="home-users-on-a-survivable-branch-appliance-or-server-in-lync-server-2013"></a>Usuários domésticos em um Home users on a Aparelho de Filial Persistente ou Servidor no Lync Server 2013
+# <a name="home-users-on-a-survivable-branch-appliance-or-server-in-lync-server-2013"></a>Usuários domésticos em um aparelho de filial persistente ou servidor no Lync Server 2013
 
 </div>
 
@@ -35,29 +35,29 @@ ms.locfileid: "41739131"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2014-12-10_
+_**Última modificação do tópico:** 2014-12-10_
 
-O processo de Hospedagem de usuários em um aparelho de ramificação sobreviventes ou um servidor de ramificação sobreviventes é semelhante ao processo de Hospedagem de usuários em um pool de front-ends. Realize o aplicativo de ramificação sobreviventes ou o procedimento do servidor de ramificação sobreviventes no site central.
+O processo de Hospedagem de usuários em um aparelho de filial persistente ou servidor de filial persistente é semelhante ao processo de Hospedagem de usuários em um pool de front-ends. Execute o processo de aparelho de filial persistente ou servidor de filial persistente no site central.
 
 <div>
 
-## <a name="to-home-users-on-survivable-branch-appliance-or-survivable-branch-server"></a>Para usuários domésticos em um aparelho de ramificação sobreviventes ou em um servidor de ramificação sobreviventes
+## <a name="to-home-users-on-survivable-branch-appliance-or-survivable-branch-server"></a>Para usuários domésticos no Servidor ou Aplicativo de Filial Persistente ou Servidor de Filial Persistente
 
-1.  Antes de mover os usuários para o servidor de ramificação sobreviventes ou o servidor de ramificação sobreviventes, abra o Shell de gerenciamento do Lync Server e, em seguida, faça o seguinte:
+1.  Antes de mover os usuários para o servidor de filial persistente ou servidor de filial persistente, abra o Shell de gerenciamento do Lync Server e faça o seguinte:
     
-      - Execute o cmdlet **Test-CsPstnOutboundCall** para verificar se o servidor de ramificação sobreviventes está em execução e se a conectividade PSTN (rede telefônica pública comutada) está configurada. Se você precisar modificar as propriedades do gateway PSTN, use o cmdlet **set-CsPstnGateway**.
+      - Execute o cmdlet **Test-CsPstnOutboundCall** para verificar se o servidor de filial persistente está em execução e se a conectividade PSTN (rede telefônica pública comutada) está configurada. Se você precisar modificar as propriedades do gateway PSTN, use o cmdlet **Set-CsPstnGateway**.
     
-      - Execute o cmdlet **Get-CsVoicePolicy** para verificar se os usuários que serão hospedados no servidor de ramificação sobreviventes têm a política de roteamento de VoIP apropriada. Se você precisar modificar a política de VoIP, use o cmdlet **set-CsVoicePolicy**.
+      - Execute o cmdlet **Get-CsVoicePolicy** para verificar se os usuários que serão hospedados no servidor de filial persistente têm a política de roteamento VoIP apropriada. Se você precisar modificar a política VoIP, use o cmdlet **Set-CsVoicePolicy**.
     
-      - Execute o cmdlet **Get-CsVoicemailReroutingConfiguration** para verificar se as configurações de redirecionamento da caixa postal estão definidas. Se precisar modificar as configurações de redirecionamento da caixa postal, use o cmdlet **set-CsVoicemailReroutingConfiguration**.
+      - Execute o cmdlet **Get-CsVoicemailReroutingConfiguration** para verificar se as configurações de redirecionamento de caixa postal estão configuradas. Se você precisar modificar o configurações de redirecionamento de caixa postal, use o cmdlet **Set-CsVoicemailReroutingConfiguration**.
 
-2.  No Shell de gerenciamento do Lync Server, execute o cmdlet **move-CsUser** para mover os usuários domésticos.
+2.  No Shell de gerenciamento do Lync Server, execute o cmdlet **move-CsUser** para mover usuários domésticos.
 
 <div>
 
 
 > [!NOTE]  
-> Você também pode usar o painel de controle do Lync Server para verificar pré-requisitos e usuários domésticos.
+> Você também pode usar o painel de controle do Lync Server para verificar os pré-requisitos e usuários domésticos.
 
 
 
@@ -67,7 +67,7 @@ O processo de Hospedagem de usuários em um aparelho de ramificação sobreviven
 
 
 > [!NOTE]  
-> Os usuários que estiverem hospedados em um aparelho de ramificação de Lync do Lync Server não poderão criar novas salas de chat ou exibir o cartão de sala para salas existentes.
+> Os usuários hospedados em um aparelho de filial persistente do Lync Server não podem criar novas salas de chat ou exibir o cartão de sala para salas existentes.
 
 
 

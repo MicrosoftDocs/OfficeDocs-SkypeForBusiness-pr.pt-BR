@@ -12,16 +12,16 @@ ms:contentKeyID: 48185505
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 416da390f277dfc7179a45e0b1dc989b240ab394
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 32185d1f6124109bd957b0af4440ee054e872f54
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757155"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048275"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,7 +35,7 @@ ms.locfileid: "41757155"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-02-21_
+_**Última modificação do tópico:** 2013-02-21_
 
 Para criar uma nova sala de servidor de chat persistente
 
@@ -64,17 +64,17 @@ Para fazer alterações em uma sala de servidor de chat persistente existente
     Set-CsPersistentChatRoom -Identity testCat -Managers @{Add="sip:user2@contoso.com"}
     Set-CsPersistentChatRoom -Identity testCat -Presenters @{Add="sip:user1@contoso.com"}
 
-Windows PowerShell: os membros, gerentes e apresentadores podem ser definidos simultaneamente. Todos devem ser o subconjunto de AllowedMembers menos DeniedMembers da categoria de host. Uma sala que é tipo = normal não pode incluir apresentadores.
+Windows PowerShell: Membros, gerentes e apresentadores podem ser definidos simultaneamente. Todos eles devem ser um subconjunto de AllowedMembers menos DeniedMembers da Categoria de host. Uma sala que é type=normal não pode incluir Apresentadores.
 
 <div>
 
-## <a name="create-get-set-clear-or-remove-a-room"></a>Criar, obter, definir, limpar ou remover uma sala
+## <a name="create-get-set-clear-or-remove-a-room"></a>Criar, Obter, Definir, Limpar ou Remover uma sala
 
 Para criar uma nova sala
 
     New-CsPersistentChatRoom -Name <String> [-PersistentChatPoolFqdn <String>]-Category <String> [-Description <String>] [-Disabled <Switch Parameter>] [-Type <Normal | Auditorium>] [-AddIn <String>] [-Privacy <ChatRoomPrivacy> {Open | Closed | Secret}] [-Invitations <Switch Parameter>]
 
-Para definir uma sala
+Para definir ma sala
 
     Set-CsPersistentChatRoom -Identity <String> [-Name <String>] [-Category <String>] [-Description <String>] [-Disabled <boolean>] [-Type <Normal | Auditorium>] [-AddIn <String>] [-Privacy <ChatRoomPrivacy> {Open | Closed | Secret}] [-Invitations <Enum>] [-Members <PSListModifier<String>>] [-Managers <PSListModifier<String>>] [-Presenters <PSListModifier<String>>] [-Force < Switch Parameter >] [-Confirm <Switch Parameter>][-WhatIf <Switch Parameter>]
 
@@ -86,9 +86,9 @@ ou
 
     Get-CsPersistentChatRoom -filter <String> [-PersistentChatPoolFqdn <String>] [-SearchDescription] [-Member <String>] [-Manager <string>] [-Category <string>] [-Addin <string>] [-Disabled <bool>] [-Privacy <ChatRoomPrivacy> {Open | Closed | Secret}] [-Type <ChatRoomType> {Normal | Auditorium}] [-Invitations <ChatRoomInvitations> {False | Inherit}] [-ChatContentExceedsMB <int>] [-ResultSize <int>]
 
-onde – o filtro oferece suporte apenas para nome e descrição e ajuda você a localizar salas cujo nome/descrição corresponda à cadeia de palavras-chave. O PoolFqdn pesquisa em um determinado pool de servidores de chat persistente.
+onde –filter suporta apenas Nome e Descrição e ajuda a encontrar salas cujo Nome/Descrição corresponde a cadeia de caracteres de palavra chave. O PoolFqdn pesquisa em um determinado pool de servidores de chat persistente.
 
-Para limpar uma sala e limpar as mensagens de uma sala
+Para limpar uma sala e mensagens de uma sala
 
     Clear-CsPersistentChatRoom [-Identity] <string> -EndDate <DateTime> [-WhatIf] [-Confirm]  [<CommonParameters>]
 

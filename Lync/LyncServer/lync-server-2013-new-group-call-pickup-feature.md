@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: novo recurso de recebimento de chamadas em grupo'
+title: 'Lync Server 2013: novo recurso de recebimento de chamada em grupo'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541478
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0e42884d3880fa1a31c96d9a25676b5ceecd8313
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 566ef914236cfde9cb00c28c667189ebb6d1556f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758633"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048462"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="new-group-call-pickup-feature-in-lync-server-2013"></a>Novo recurso de recebimento de chamadas em grupo no Lync Server 2013
+# <a name="new-group-call-pickup-feature-in-lync-server-2013"></a>Novo recurso de recebimento de chamada em grupo no Lync Server 2013
 
 </div>
 
@@ -35,18 +35,18 @@ ms.locfileid: "41758633"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-02-12_
+_**Última modificação do tópico:** 2013-02-12_
 
-Atualizações cumulativas do Lync Server 2013:2013 de fevereiro introduz o recebimento de chamadas em grupo como um novo recurso Enterprise Voice. Com o recebimento de chamadas em grupo, você pode atribuir usuários a grupos para que outros usuários possam atender às chamadas recebidas para os usuários que estão no grupo de seus próprios telefones.
+Atualizações cumulativas do Lync Server 2013: fevereiro de 2013 apresenta o recebimento de chamadas em grupo como um novo recurso do Enterprise Voice. Com o recebimento de chamadas em grupo, você pode atribuir usuários a grupos para que outros usuários possam atender às chamadas de entrada para usuários que estão no grupo de seus próprios telefones.
 
-O recebimento de chamadas em grupo é baseado no aplicativo parque de chamadas. Para o recebimento de chamadas em grupo, assim como com o recurso de chamadas, você configura uma série de números virtuais a serem usados como números de grupo. Um usuário disca o número do grupo para selecionar uma chamada que está tocando para outro usuário que está no grupo.
+O recebimento de chamadas em grupo é baseado no aplicativo de estacionamento de chamada. Para o recebimento de chamadas em grupo, assim como o estacionamento de chamada, você configura um intervalo de números virtuais a serem usados como números de grupo. Um usuário disca o número do grupo para pegar uma chamada que está tocando para outro usuário que esteja no grupo.
 
 <div>
 
 ## <a name="see-also"></a>Confira também
 
 
-[Planejando a coleta de chamadas em grupo no Lync Server 2013](lync-server-2013-planning-for-group-call-pickup.md)  
+[Planejando o recebimento de chamadas em grupo no Lync Server 2013](lync-server-2013-planning-for-group-call-pickup.md)  
   
 
 </div>

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: restaurar dados de monitoramento ou arquivamento'
+title: 'Lync Server 2013: restaurando dados de monitoramento ou arquivamento'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541483
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9621fe3c1905dbd34fd3b4da39b2562c608d6355
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8840869e972f0c178360b0b50644d352b8db85df
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733161"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050413"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="restoring-monitoring-or-archiving-data-in-lync-server-2013"></a>Restaurando o monitoramento ou arquivando dados no Lync Server 2013
+# <a name="restoring-monitoring-or-archiving-data-in-lync-server-2013"></a>Restauração de dados de monitoramento ou arquivamento no Lync Server 2013
 
 </div>
 
@@ -35,37 +35,37 @@ ms.locfileid: "41733161"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-02-18_
+_**Última modificação do tópico:** 2013-02-18_
 
-Não é necessário restaurar os dados de monitoramento e arquivamento para colocar o Lync Server em funcionamento após uma falha. No entanto, se o monitoramento e o arquivamento de dados forem críticos para a sua organização, você desejará restaurar os dados após recriar os bancos de dados.
+A restauração de dados de monitoramento e arquivamento não é necessária para que o Lync Server fique ativo e em execução após uma falha. No entanto, se os dados de monitoramento e arquivamento forem críticos para sua organização, você desejará restaurar os dados após recriar os bancos de dados.
 
-O procedimento a seguir descreve como usar o SQL Server Management Studio para restaurar o arquivamento ou o monitoramento de dados.
+O procedimento a seguir descreve como usar o SQL Server Management Studio para restaurar os dados de arquivamento ou monitoramento.
 
 <div>
 
-## <a name="to-restore-monitoring-or-archiving-data-from-a-backup-file"></a>Para restaurar o monitoramento ou o arquivamento de dados de um arquivo de backup
+## <a name="to-restore-monitoring-or-archiving-data-from-a-backup-file"></a>Para restaurar os dados de monitoramento ou arquivamento de um arquivo de backup
 
-1.  Faça logon no servidor que você está restaurando como membro do grupo Administradores no computador local ou em um grupo com direitos de usuário equivalentes.
+1.  Faça logon no servidor que você está restaurando como um membro do grupo Administradores no computador local ou em um grupo com direitos de usuário equivalentes.
 
 2.  Abra o SQL Server Management Studio: clique em **Iniciar**, em **todos os programas**, em **Microsoft SQL Server 2012** ou **Microsoft SQL Server 2008 R2**e, em seguida, clique em **SQL Server Management Studio**.
 
-3.  Em **conectar-se ao servidor**, conecte-se à instância do SQL Server fornecendo pelo menos o nome do servidor e as informações de autenticação.
+3.  Em **Conectar ao Servidor**, conecte-se à instância de SQL Server fornecendo pelo menos o nome do servidor e as informações de autenticação.
 
-4.  No **Explorador de objetos**, clique com o botão direito do mouse em **bancos**de dados e clique em **restaurar banco de dados**.
+4.  Em **Pesquisador de Objetos**, clique com o botão direito do mouse em **Bancos de dados** e clique em **Restaurar Banco de Dados**.
 
-5.  Em **Selecione uma página**, clique em **geral**e, em seguida, no **banco de dados** , selecione o nome do banco de dados da seguinte maneira:
+5.  Em **Selecionar uma página**, clique em **Geral** e selecione o nome do banco de dados em **Para o banco de dados** da seguinte maneira:
     
       - Para um banco de dados de arquivamento, selecione **LcsLog**.
     
-      - Para um banco de dados do recurso de gravação de detalhes de chamadas (CDR), selecione **LcsCDR**.
+      - Para um banco de dados CDR (gravação de detalhes de chamada), selecione **LcsCDR**.
     
-      - Para um banco de dados de qualidade da experiência (QoE), selecione **QoEMetrics**.
+      - Para um banco de dados QoE (Qualidade da Experiência), selecione **QoEMetrics**.
 
-6.  Clique em **do dispositivo**.
+6.  Clique em **Do dispositivo**.
 
-7.  Em **Selecione os conjuntos de backup a serem restaurados**, clique no arquivo de backup e, em seguida, clique em **restaurar**.
+7.  Em **Selecione os conjuntos de backup a serem restaurados**, clique no arquivo de backup e clique em **Restaurar**.
 
-8.  Em **Selecione uma página**, clique em **Opções**, verifique se o caminho do arquivo de dados e o caminho do log estão na pasta correta e clique em **OK**.
+8.  Em **Selecionar uma página**, clique em **Opções**, verifique se o caminho do arquivo de dados e o caminho de log estão na pasta correta e clique em **OK**.
 
 </div>
 
@@ -73,23 +73,23 @@ O procedimento a seguir descreve como usar o SQL Server Management Studio para r
 
 ## <a name="to-make-sure-that-access-control-lists-acls-are-correct"></a>Para garantir que as listas de controle de acesso (ACLs) estejam corretas
 
-1.  Expanda **bancos**de dados, expanda o arquivo de arquivamento ou monitoramento, expanda **segurança**e, em seguida, expanda **usuários**.
+1.  Expanda **Bancos de dados**, expanda o banco de dados de arquivamento ou monitoramento, expanda **Segurança** e expanda **Usuários**.
 
-2.  Verifique se o grupo de domínio RTCComponentUniversalServices existe como usuário.
+2.  Verifique se o grupo de domínio RTCComponentUniversalServices existe como um usuário.
 
-3.  Se RTCComponentUniversalServices não existir em **usuários**, faça o seguinte:
+3.  Se o RTCComponentUniversalServices não existir nos **usuários**, faça o seguinte:
     
-    1.  Clique com o botão direito do mouse em **usuários**e, em seguida, clique em **novo usuário**.
+    1.  Clique com o botão direito do mouse em **Usuários** e clique em **Novo Usuário**.
     
     2.  Em **nome de logon**, digite o nome do grupo ausente, RTCComponentUniversalServices.
     
-    3.  Em **Associação de função de banco de dados**, selecione a permissão **ServerRole** e clique em **OK**.
+    3.  Em **Associação à função de banco de dados**, selecione a permissão **ServerRole** e clique em **OK**.
     
     <div>
     
 
     > [!NOTE]  
-    > Você não precisa reiniciar o serviço de arquivamento ou monitoramento.
+    > Não é necessário reiniciar o serviço de arquivamento ou monitoramento.
 
     
     </div>

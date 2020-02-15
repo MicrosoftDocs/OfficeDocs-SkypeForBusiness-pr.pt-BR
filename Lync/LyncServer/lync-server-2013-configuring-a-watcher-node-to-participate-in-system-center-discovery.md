@@ -1,5 +1,5 @@
 ---
-title: Configurando um nó de inspetor para participar da descoberta do System Center
+title: Configurando um nó do inspetor para participar da descoberta do System Center
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183500
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9ca3724f9b5bc8200e2ca006d9fa7445d7368ab7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7a90f07b445da792e0bc3b22967e41d8cd8d2fcc
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763485"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049203"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-a-watcher-node-in-lync-server-2013-to-participate-in-system-center-discovery"></a>Configurando um nó de Inspetor no Lync Server 2013 para participar da descoberta do System Center
+# <a name="configuring-a-watcher-node-in-lync-server-2013-to-participate-in-system-center-discovery"></a>Configurando um nó do Inspetor no Lync Server 2013 para participar da descoberta do System Center
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41763485"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-22_
+_**Última modificação do tópico:** 2012-10-22_
 
-Para garantir que o nó do Inspetor participe do processo de descoberta do System Center Operations Manager, você deve concluir o procedimento a seguir em um computador em que o console do System Center Operations Manager foi instalado:
+Para garantir que o nó do Inspetor participa do processo de descoberta do System Center Operations Manager, você deve concluir o procedimento a seguir em um computador onde o console do System Center Operations Manager tenha sido instalado:
 
-1.  Na guia **Administração** , clique em **agente gerenciado**.
+1.  Na guia **Administração**, clique em **Gerenciado por Agente**.
 
-2.  Clique com o botão direito do mouse no nome do computador do nó do Inspetor e, em seguida, clique em **Propriedades**. Na caixa de diálogo **Propriedades** , na guia **segurança** , selecione **permitir que esse agente atue como um proxy e descubra objetos gerenciados em outros computadores**e clique em **OK**.
+2.  Clique com o botão direito no nome do computador do nó do inspetor, e então clique em **Propriedades**. Na caixa de diálogo **Propriedades**, na guia **Segurança**, selecione **Permitir que este agente aja como um proxy e descubra objetos gerenciados em outros computadores**, e então clique em **OK**.
 
-Depois de configurar o nó do inspetor para atuar como um proxy, reinicialize o computador do nó do Inspetor. Depois que o computador for reinicializado, verifique se nenhum evento de erro está sendo gravado no log de eventos do Operations Manager nesse computador. Depois que o computador estiver em execução por 15 minutos ou então, use o console do Operations Manager para verificar se seus computadores do Lync Server estão listados na categoria **Lync** .
+Após configurar o nó de observador para agir como um proxy, reinicie o computador do nó do inspetor. Após a reinicialização do computador, verifique se nenhum evento de erro está sendo registrado no log de eventos do Operations Manager nesse computador. Depois que o computador estiver em execução por 15 minutos, use o console do Operations Manager para verificar se os computadores do Lync Server estão listados na categoria **Lync** .
 
 </div>
 

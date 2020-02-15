@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Selecionar o Servidor de Gerenciamento Central'
+title: 'Lync Server 2013: selecione o servidor de gerenciamento central'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183561
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: aad97b0f2009b8f90fa64abc66791d5954c637a1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f7fa21b154b34dbc576291c34ac5239da6fb2d63
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732471"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048852"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="select-the-central-management-server-in-lync-server-2013"></a>Selecionar o Servidor de Gerenciamento Central no Lync Server 2013
+# <a name="select-the-central-management-server-in-lync-server-2013"></a>Selecionar o servidor de gerenciamento central no Lync Server 2013
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41732471"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-01-02_
+_**Última modificação do tópico:** 2012-01-02_
 
 Antes de poder definir e configurar sua topologia, você deve primeiro definir o local para instalar o servidor de gerenciamento central.
 
@@ -51,13 +51,13 @@ Antes de poder definir e configurar sua topologia, você deve primeiro definir o
 
 <div>
 
-## <a name="to-select-the-central-management-server"></a>Para selecionar o servidor de gerenciamento central
+## <a name="to-select-the-central-management-server"></a>Para selecionar o Servidor de Gerenciamento Central
 
-1.  Iniciar o construtor de topologias: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Construtor de topologias do Lync Server**.
+1.  Inicie o construtor de topologias: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e em **Construtor de topologias do Lync Server**.
 
-2.  Clique com o botão direito do mouse no nó do Lync Server 2013 e, em seguida, clique em **Editar propriedades**.
+2.  Clique com o botão direito do mouse no nó Lync Server 2013 e clique em **Editar propriedades**.
 
-3.  No painel do servidor de gerenciamento central, selecione o servidor front-end para instalar o servidor de gerenciamento central e clique em **OK**.
+3.  No painel do servidor de gerenciamento central, selecione o servidor front-end no qual instalar o servidor de gerenciamento central e clique em **OK**.
 
 </div>
 

@@ -15,12 +15,12 @@ f1.keywords:
 description: Saiba como usar os controles do PowerShell para gerenciar o Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d22eb0b14d25bec57949bb804e8bb8098ee33510
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 5b211493bb5b0bfa3dea1abfc0c9b59eadcb4206
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836951"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035353"
 ---
 # <a name="teams-powershell-overview"></a>Visão Geral do PowerShell do Teams
 
@@ -30,7 +30,7 @@ O Microsoft Teams tem um conjunto rico de ferramentas para administradores de ti
 
 Os controles do PowerShell para gerenciar equipes estão em dois módulos diferentes do PowerShell: 
 - [Módulo do PowerShell do Microsoft Teams](https://www.powershellgallery.com/packages/MicrosoftTeams/) : o módulo do PowerShell do teams contém todos os cmdlets que você precisa para criar e gerenciar equipes.  
-- [Módulo do PowerShell do Skype for Business](https://www.microsoft.com/en-us/download/details.aspx?id=39366): o módulo do PowerShell do Skype for Business contém os cmdlets para gerenciar políticas, configurações e outras ferramentas de equipe. 
+- [Módulo do PowerShell do Skype for Business](https://www.microsoft.com/download/details.aspx?id=39366): o módulo do PowerShell do Skype for Business contém os cmdlets para gerenciar políticas, configurações e outras ferramentas de equipe. 
 
 A documentação de referência dos controles do PowerShell informará qual módulo contém o cmdlet que você está investigando. (Eventualmente, os dois módulos serão combinados.)
 
@@ -79,7 +79,7 @@ Quando lançamos nossa versão geralmente disponível do nosso módulo do PowerS
 
 ## <a name="managing-policies-via-powershell"></a>Gerenciando políticas pelo PowerShell
 
-Os cmdlets de gerenciamento de políticas estão no [módulo cmdlet do Skype for Business](https://www.microsoft.com/en-us/download/details.aspx?id=39366).
+Os cmdlets de gerenciamento de políticas estão no [módulo cmdlet do Skype for Business](https://www.microsoft.com/download/details.aspx?id=39366).
 
 > [!NOTE]
 > Os cmdlets estarão disponíveis na sessão do PowerShell quando você se conectar ao Skype for Business online. Para obter mais informações, consulte [gerenciar o Skype for Business online com o Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell). 
@@ -111,7 +111,7 @@ Parâmetros comuns:
 
 ## <a name="managing-configurations-via-powershell"></a>Gerenciando configurações pelo PowerShell
 
-Os cmdlets para gerenciar sua configuração estão no [módulo cmdlet do Skype for Business](https://www.microsoft.com/en-us/download/details.aspx?id=39366).
+Os cmdlets para gerenciar sua configuração estão no [módulo cmdlet do Skype for Business](https://www.microsoft.com/download/details.aspx?id=39366).
 
 As configurações são buckets de configurações mantidas no serviço que não podem ser especificadas em um nível de usuário. As configurações sempre se aplicam em toda a organização. A configuração global é a única configuração efetiva em sua organização. Cada tipo de configuração vem com dois cmdlets principais:
 

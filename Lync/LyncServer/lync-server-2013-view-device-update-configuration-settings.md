@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Exibir configurações de atualização de dispositivo'
+title: 'Lync Server 2013: Exibir definições de configuração de atualização de dispositivo'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51803970
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 01edeb2d40fae7b82ac35fb5561a1332f67c9e11
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7cf34d5f8241735263547fe64dc0f3e3b124bb10
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731091"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051053"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="view-device-update-configuration-settings-in-lync-server-2013"></a>Exibir configurações de atualização de dispositivo no Lync Server 2013
+# <a name="view-device-update-configuration-settings-in-lync-server-2013"></a>Exibir definições de configuração de atualização de dispositivo no Lync Server 2013
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41731091"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-02-20_
+_**Última modificação do tópico:** 2013-02-20_
 
-Você pode visualizar as configurações do Device Update Service usando o Shell de gerenciamento do Lync Server e o cmdlet **Get-CsDeviceUpdateConfiguration** , que você pode executar a partir do Shell de gerenciamento do lync Server 2013 ou de uma sessão remota do Windows PowerShell
+Você pode exibir as definições de configuração do serviço de atualização de dispositivo usando o Shell de gerenciamento do Lync Server e o cmdlet **Get-CsDeviceUpdateConfiguration** , que pode ser executado a partir do Shell de gerenciamento do lync Server 2013 ou de uma sessão remota do Windows PowerShell
 
 <div>
 
 
 > [!NOTE]  
-> Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Lync Server, consulte o artigo sobre o blog do Windows PowerShell do Lync Server "início rápido: gerenciar o <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>Microsoft Lync Server 2010 usando o PowerShell remoto" em.
+> Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Lync Server, consulte o artigo de blog do Lync Server Windows PowerShell "início rápido: Managing Microsoft Lync Server <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>2010 using Remote PowerShell" em.
 
 
 
@@ -55,11 +55,11 @@ Você pode visualizar as configurações do Device Update Service usando o Shell
 <div>
 
 
-  - Para ver as informações sobre todas as suas rotas de voz, digite o seguinte comando no Shell de gerenciamento do Lync Server e pressione ENTER:
+  - Para exibir informações sobre todas as suas rotas de voz, digite o seguinte comando no Shell de gerenciamento do Lync Server e pressione ENTER:
     
         Get-CsDeviceUpdateConfiguration
     
-    Este comando retorna informações semelhantes para o seguinte:
+    Esse comando retorna informações semelhantes às seguintes:
     
         Identity               : Global
         ValidLogFileTypes      : {Watson, Config, Diaglog, CELog}
@@ -72,7 +72,7 @@ Você pode visualizar as configurações do Device Update Service usando o Shell
 
 </div>
 
-Para obter detalhes sobre esse cmdlet, consulte tópico da ajuda em [Get-CsDeviceUpdateConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsDeviceUpdateConfiguration).
+Para obter detalhes sobre esse cmdlet, consulte o tópico de ajuda em [Get-CsDeviceUpdateConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsDeviceUpdateConfiguration).
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Planejando roteamento de voz de saída'
+title: 'Lync Server 2013: planejando roteamento de voz de saída'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183835
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9d33fbe8d15b78bed9dd651cd7facf35a8249f64
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1fbcb976ed4f3d1464b6b956ef60dc1d00bd6907
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41747661"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050573"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="planning-outbound-voice-routing-in-lync-server-2013"></a>Planejando roteamento de voz de saída no Lync Server 2013
+# <a name="planning-outbound-voice-routing-in-lync-server-2013"></a>Planejamento de roteamento de voz de saída no Lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41747661"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-21_
+_**Última modificação do tópico:** 2012-09-21_
 
-O encaminhamento de chamadas de saída aplica-se a chamadas destinadas a um gateway PSTN (rede telefônica pública comutada), tronco ou PBX (Private Branch Exchange). Quando um usuário faz uma chamada, o servidor normaliza o número de telefone para o formato E. 164, se necessário, e tenta fazer a correspondência com um URI de SIP. Se o servidor não conseguir fazer a correspondência, ele aplicará a lógica de roteamento de chamadas de saída com base na cadeia de caracteres de discagem fornecida. Especifique essa lógica definindo as configurações do servidor descritas na tabela a seguir.
+O roteamento de chamadas de saída é aplicado a chamadas destinadas a um gateway PSTN (Rede Telefônica Pública Comutada), tronco ou PBX (central privada de comutação telefônica). Quando um usuário faz uma chamada, o servidor normaliza o número de telefone para o formato E.164, se necessário, e tenta correspondê-lo a um URI do SIP. Se o servidor não conseguir fazer a correspondência, ele aplicará a lógica de roteamento de chamadas de saída baseada na cadeia de caracteres de discagem especificada. Especifique essa lógica definindo as configurações do servidor descritas na tabela a seguir.
 
 ### <a name="lync-server-outbound-call-routing-settings"></a>Configurações de roteamento de chamadas de saída do Lync Server
 
@@ -55,11 +55,11 @@ O encaminhamento de chamadas de saída aplica-se a chamadas destinadas a um gate
 <tbody>
 <tr class="odd">
 <td><p>Plano de discagem</p></td>
-<td><p>Um plano de discagem é um conjunto nomeado de regras de normalização que converte números de telefone de um local nomeado, usuário individual ou objeto de contato em um único formato padrão (E.164) para fins de roteamento de chamadas e autorização de telefones.</p></td>
+<td><p>Um plano de discagem é um conjunto nomeado de regras de normalização que converte números de telefone de um local nomeado, usuário individual ou objeto de contato em um formato padrão único (E.164) para fins de roteamento de chamadas e autorização.</p></td>
 </tr>
 <tr class="even">
 <td><p>Regra de normalização</p></td>
-<td><p>As regras de normalização definem como os números de telefone expressos em vários formatos são roteados para cada local, usuário ou objeto de contato especificado. A mesma cadeia de caracteres de discagem pode ser interpretada e convertida de maneira diferente, dependendo do local do qual é discada e da pessoa ou do objeto de contato que está fazendo a chamada. Um conjunto de regras de normalização associadas a um local específico constitui um plano de discagem.</p></td>
+<td><p>As regras de normalização definem como os números de telefone expressos em vários formatos são roteados para cada local, usuário ou objeto de contato especificado. A mesma cadeia de caracteres de discagem pode ser interpretada e convertida de maneira diferente, conforme o local do qual é discada e da pessoa ou objeto de contato que está fazendo a chamada. Um conjunto de regras de normalização associadas a um local específico constitui um plano de discagem.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Política de voz</p></td>
@@ -81,7 +81,7 @@ O encaminhamento de chamadas de saída aplica-se a chamadas destinadas a um gate
 
 ## <a name="in-this-section"></a>Nesta seção
 
-Esta seção fornece diretrizes para configurar as seguintes configurações de servidor de roteamento de chamadas de saída:
+Esta seção fornece diretrizes para definir as seguintes configurações do servidor de roteamento de chamadas de saída
 
   - <span></span>  
     [Planos de discagem e regras de normalização no Lync Server 2013](lync-server-2013-dial-plans-and-normalization-rules.md)
@@ -102,7 +102,7 @@ Esta seção fornece diretrizes para configurar as seguintes configurações de 
 ## <a name="see-also"></a>Confira também
 
 
-[Entroncamento SIP no Lync Server 2013](lync-server-2013-sip-trunking.md)  
+[Tronco SIP no Lync Server 2013](lync-server-2013-sip-trunking.md)  
 [Conexões SIP diretas no Lync Server 2013](lync-server-2013-direct-sip-connections.md)  
   
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Implantando clientes do Lync'
+title: 'Lync Server 2013: Implantando clientes Lync'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183925
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3d7f4497fb6842befba3f5facf5de023b94b4a76
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 351fc1b62f0ef72cb3580f3c5d43dc8486799aec
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733591"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050473"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deploying-lync-clients-in-lync-server-2013"></a>Implantando clientes do Lync no Lync Server 2013
+# <a name="deploying-lync-clients-in-lync-server-2013"></a>Implantando clientes Lync no Lync Server 2013
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41733591"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-03_
+_**Última modificação do tópico:** 2012-10-03_
 
-O Lync 2013 introduz uma abordagem diferente para a implantação do cliente. Em uma partida de versões anteriores, o Lync 2013 não tem mais seu próprio instalador. Em vez disso, o Lync está incluído no programa de instalação do Office 2013. Para implantar o Lync 2013 em seus usuários, você pode usar os métodos de instalação e ferramentas de personalização do Office 2013.
+O Lync 2013 introduz uma abordagem diferente para a implantação do cliente. Em uma partida de versões anteriores, o Lync 2013 não tem mais seu próprio instalador. Em vez disso, o Lync está incluído no programa de instalação do Office 2013. Para implantar o Lync 2013 em seus usuários, você pode usar os métodos de instalação e as ferramentas de personalização do Office 2013.
 
-  - **Office 2013 o Windows Installer** é um pacote de instalação baseado no Windows Installer que consiste em vários arquivos MSI. Um pacote de núcleo MSI de linguagem neutra é combinado com um ou mais pacotes de linguagem específica para fazer um produto completo. A instalação reúne os pacotes individuais e efetua a personalização e tarefas de manutenção durante e após a instalação do Office nos computadores dos usuários. Os tópicos desta seção descrevem como usar e personalizar o instalador do Windows do Office 2013 para implantar o Lync 2013.
+  - O **Office 2013 Windows Installer** é um pacote de instalação baseado no Windows Installer que consiste em vários arquivos MSI. Um pacote de núcleo MSI de linguagem neutra é combinado com um ou mais pacotes de linguagem específica para fazer um produto completo. A instalação reúne os pacotes individuais e efetua a personalização e tarefas de manutenção durante e após a instalação do Office nos computadores dos usuários. Os tópicos desta seção descrevem como usar e personalizar o Office 2013 Windows Installer para implantar o Lync 2013.
 
-  - O **Office 2013 clique para executar** é um programa de instalação que transmite os arquivos de instalação do Office para o usuário a partir do portal do Microsoft Office 365. Os administradores podem personalizar a instalação utilizando a Ferramenta de Implantação do Office para Clique para Executar. Como o Office 2013 com Clique para executar é usado principalmente no ambiente do Microsoft Office 365, esse método de instalação não está descrito em detalhes nesta seção. Informações detalhadas sobre como usar e personalizar a instalação do clique para executar estão disponíveis na documentação do Office 2013 Resource Kit. Os administradores também podem baixar os arquivos de código-fonte do Office 2013 e os arquivos de idioma do Office para um local local, o que é útil quando você deseja minimizar a demanda na rede ou impedir que os usuários instalem o software da Internet por causa de requisitos de segurança corporativa.
+  - O **Office 2013 clique para executar** é um programa de instalação que transmite arquivos de instalação do Office para o usuário do portal do Microsoft Office 365. Os administradores podem personalizar a instalação utilizando a Ferramenta de Implantação do Office para Clique para Executar. Como o Office 2013 clique para executar é usado principalmente no ambiente do Microsoft Office 365, este método de instalação não é descrito em detalhes nesta seção. Informações detalhadas sobre como usar e personalizar a instalação clique para executar estão disponíveis na documentação do kit de recursos do Office 2013. Os administradores também podem baixar os arquivos de programa e de código-fonte de idioma do Office 2013 em um local local, o que é útil quando você deseja minimizar a demanda na rede ou impedir que os usuários instalem software da Internet por causa do requisitos de segurança corporativos.
 
-Os tópicos desta seção se concentram em como implantar clientes usando o instalador baseado em MSI do Office 2013. Sua referência principal deve ser a documentação do Office 2013 Resource Kit, que descreve em detalhes como preparar sua infraestrutura, personalizar a instalação e implantar o Office 2013. No entanto, você deve usar a documentação do Office em conjunto com os tópicos desta seção, que apontam as considerações de implantação específicas do Lync 2013.
+Os tópicos desta seção concentram-se em como implantar clientes usando o instalador baseado em MSI do Office 2013. Sua referência principal deve ser a documentação do kit de recursos do Office 2013, que descreve detalhadamente como preparar sua infraestrutura, personalizar a instalação e implantar o Office 2013. No entanto, você deve usar a documentação do Office em conjunto com os tópicos nesta seção, que apontam as considerações de implantação específicas para o Lync 2013.
 
 <div>
 
@@ -51,9 +51,9 @@ Os tópicos desta seção se concentram em como implantar clientes usando o inst
 > [!NOTE]  
 > <UL>
 > <LI>
-> <P>O suplemento de reunião online do Lync 2013, que dá suporte ao gerenciamento de reuniões dentro do cliente de mensagens e colaboração do Outlook, é instalado automaticamente com o Lync 2013.</P>
+> <P>O suplemento de reunião online do Lync 2013, que oferece suporte ao gerenciamento de reuniões a partir do cliente de mensagens e colaboração do Outlook, é instalado automaticamente com o Lync 2013.</P>
 > <LI>
-> <P>O programa de instalação do Office 2013 não desinstala versões anteriores do Lync ou do Office Communicator. O cliente do Lync 2013 é instalado lado a lado com outros clientes do Lync ou do Office Communicator</P></LI></UL>
+> <P>O programa de instalação do Office 2013 não desinstala versões anteriores do Lync ou Office Communicator. O cliente do Lync 2013 é instalado lado a lado com outros clientes do Lync ou do Office Communicator</P></LI></UL>
 
 
 
@@ -67,11 +67,11 @@ Os tópicos desta seção se concentram em como implantar clientes usando o inst
 
   - [Personalizando o comportamento do Lync e a interface do usuário no Lync Server 2013](lync-server-2013-customizing-lync-behavior-and-the-user-interface.md)
 
-  - [Personalizando o suplemento de reunião online no Lync Server 2013](lync-server-2013-customizing-the-online-meeting-add-in.md)
+  - [Personalizando o suplemento reunião online no Lync Server 2013](lync-server-2013-customizing-the-online-meeting-add-in.md)
 
   - [Configurando a página de ingresso na reunião no Lync Server 2013](lync-server-2013-configuring-the-meeting-join-page.md)
 
-  - [Configurando as versões de cliente com suporte no Lync Server 2013](lync-server-2013-configuring-supported-client-versions.md)
+  - [Configurando as versões de cliente suportadas no Lync Server 2013](lync-server-2013-configuring-supported-client-versions.md)
 
   - [Configurando o modo de privacidade de presença avançada no Lync Server 2013](lync-server-2013-configuring-enhanced-presence-privacy-mode.md)
 

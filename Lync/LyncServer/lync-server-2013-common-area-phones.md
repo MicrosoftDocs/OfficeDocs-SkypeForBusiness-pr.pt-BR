@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: telefones de área comuns'
+title: 'Lync Server 2013: telefones de área comum'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51803987
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 71fa61773a4801d2050d67d4e86458eb5d37759c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 736aa12c9de027aa485cfc89a6f5cd820a460833
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742781"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045813"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="common-area-phones-in-lync-server-2013"></a>Telefones de área comuns no Lync Server 2013
+# <a name="common-area-phones-in-lync-server-2013"></a>Telefones de área comum no Lync Server 2013
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41742781"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-02-20_
+_**Última modificação do tópico:** 2013-02-20_
 
-Os telefones de área comuns são telefones IP que não estão associados a um usuário individual. Em vez de estar localizado no escritório de alguém, os telefones de área comuns geralmente estão localizados em prédio "lobbies", lanchonetes, descansos de funcionários, salas de reunião e outros locais onde um grande número de pessoas provavelmente coletará. Ao contrário de outros telefones no Lync Server, que são normalmente mantidos por meio de políticas de voz e planos de discagem que são atribuídos a usuários individuais, os telefones de área comuns não têm usuários individuais atribuídos a eles. Isso significa que elas devem ser gerenciadas de maneira diferente dos outros telefones.
+Telefones de área comum são telefones IP que não estão associados a um usuário individual. Em vez de estar localizado no escritório de alguém, os telefones de área comum geralmente estão localizados na criação de lobbies, lanchonetes, descansos de funcionários, salas de reunião e outros locais onde um grande número de pessoas provavelmente será coletado. Diferentemente de outros telefones no Lync Server, que normalmente são mantidos usando políticas de voz e planos de discagem atribuídos a usuários individuais, os telefones de área comum não têm usuários individuais atribuídos a eles. Isso significa que eles devem ser gerenciados de forma diferente dos outros telefones.
 
-Para gerenciar telefones de área comuns, crie objetos de contato dos serviços de domínio Active Directory para todos os telefones comuns que, como contas de usuário, podem ser atribuídos a políticas e planos de voz. Essa abordagem permite que você mantenha o controle sobre telefones comuns de área, embora esses telefones não estejam associados a um usuário individual.
+Para gerenciar telefones de área comum, você cria objetos de contato dos serviços de domínio do Active Directory para todos os telefones de área comum que, como contas de usuário, podem ser atribuídos a políticas e planos de voz. Essa abordagem permite que você mantenha o controle sobre telefones de área comum, mesmo que esses telefones não estejam associados a um usuário individual.
 
-Use os tópicos desta seção para saber como criar objetos de contato para telefones celulares comuns, modificá-los e excluí-los e configurar e exibir informações de configuração sobre os telefones celulares comuns na sua implantação.
+Use os tópicos desta seção para saber como criar objetos de contato para telefones de área comum, modificá-los e excluí-los e configurar e exibir informações de configuração sobre os telefones de área comum em sua implantação.
 
 <div>
 
 
 > [!NOTE]  
-> Você tem três opções para telefones celulares comuns: o Aastra 6721ip Common de área comum, o telefone IP HP 4110 e o telefone de área comum de IP do CX500 Polycom. O telefone de conferência IP do Polycom CX3000 é outro telefone de área comum da variante. No entanto, ele deve ser usado em salas de conferência. Para obter detalhes sobre telefones de área comuns, consulte a seção de telefones da área comum da <A href="http://technet.microsoft.com/en-us/library/gg398958(v=ocs.14).aspx">escolha de novos dispositivos</A>.
+> Você tem três opções para telefones de área comum: o telefone de área comum do Aastra 6721ip, o telefone IP HP 4110 e o telefone de área comum IP do Polycom CX500. O telefone de conferência IP do Polycom CX3000 é outro telefone de área comum variante. No entanto, ele deve ser usado em salas de conferência. Para obter detalhes sobre telefones de área comum, consulte a seção telefones de área comum de <A href="http://technet.microsoft.com/library/gg398958(v=ocs.14).aspx">escolher novos dispositivos</A>.
 
 
 

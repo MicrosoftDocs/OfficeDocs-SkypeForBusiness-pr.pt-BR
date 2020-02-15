@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: testando chat persistente'
+title: 'Lync Server 2013: testar chat persistente'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 63969651
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 78e756de75dda7d7b0a96d9a49233818a5c86576
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ee9869d5e7a5e3a48451478de334ee656543f6f5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745616"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050263"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,7 +35,7 @@ ms.locfileid: "41745616"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2014-11-03_
+_**Última modificação do tópico:** 2014-11-03_
 
 
 <table>
@@ -45,17 +45,17 @@ _**Tópico da última modificação:** 2014-11-03_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Cronograma de verificação</p></td>
-<td><p>Diário</p></td>
+<td><p>Agenda de verificação</p></td>
+<td><p>Diariamente</p></td>
 </tr>
 <tr class="even">
 <td><p>Ferramenta de teste</p></td>
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
-<td><p>Permissões necessárias</p></td>
-<td><p>Quando executado localmente usando o Shell de gerenciamento do Lync Server, os usuários devem ser membros do grupo de segurança RTCUniversalServerAdmins.</p>
-<p>Quando executado usando uma instância remota do Windows PowerShell, os usuários devem receber uma função RBAC que tenha permissão para executar o cmdlet <strong>Test-CsPersistentChatMessage</strong> . Para ver uma lista de todas as funções RBAC que podem usar esse cmdlet, execute o seguinte comando no prompt do Windows PowerShell:</p>
+<td><p>Permissões obrigatórias</p></td>
+<td><p>Ao executar localmente usando o Shell de gerenciamento do Lync Server, os usuários devem ser membros do grupo de segurança RTCUniversalServerAdmins.</p>
+<p>Quando executado usando uma instância remota do Windows PowerShell, os usuários devem receber uma função RBAC que tenha permissão para executar o cmdlet <strong>Test-CsPersistentChatMessage</strong> . Para ver uma lista de todas as funções RBAC que podem usar este cmdlet, execute o seguinte comando no prompt do Windows PowerShell:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsPersistentChatMessage&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,7 +66,7 @@ _**Tópico da última modificação:** 2014-11-03_
 
 ## <a name="description"></a>Descrição
 
-O cmdlet **Test-CsPersistentChatMessage** verifica se um par de usuários de teste podem trocar mensagens usando o serviço de chat persistente. Para fazer isso, o cmdlet registra os dois usuários no Lync Server 2013, conecta os usuários a uma sala de chat persistente, troca um par de mensagens e, em seguida, sai da sala de chat e desconecta os dois usuários. Observe que as chamadas para esse cmdlet falharão se você não tiver criado nenhuma sala de chat ou se as duas contas de usuário de teste não forem atribuídas a uma política de chat persistente que lhes conceda acesso ao serviço de chat persistente.
+O cmdlet **Test-CsPersistentChatMessage** verifica se um par de usuários de teste podem trocar mensagens usando o serviço de chat persistente. Para fazer isso, o cmdlet registra os dois usuários no Lync Server 2013, conecta os usuários a uma sala de chat persistente, troca um par de mensagens e, em seguida, sai da sala de chat e faz logoff dos dois usuários. Observe que as chamadas para este cmdlet falharão se você não tiver criado nenhuma sala de chat ou se as duas contas de usuário de teste não forem atribuídas a uma política de chat persistente que forneça acesso ao serviço de chat persistente.
 
 </div>
 
@@ -74,9 +74,9 @@ O cmdlet **Test-CsPersistentChatMessage** verifica se um par de usuários de tes
 
 ## <a name="running-the-test"></a>Executar o teste
 
-Os comandos mostrados no exemplo a seguir testam a capacidade de um par de usuários\\(litwareinc pilar\\e litwareinc kenmyer) para fazer logon no Lync Server 2013 e, em seguida, trocar mensagens usando o serviço de chat persistente. Para fazer isso, o primeiro comando do exemplo usa o cmdlet **Get-Credential** para criar um objeto de credencial da interface de linha de comando do Windows PowerShell que contém o nome e a senha do pilar do usuário Alverca. (Como o nome de logon,\\litwareinc pilar, foi incluído como um parâmetro, a caixa de diálogo solicitação de credenciais do Windows PowerShell exige que o administrador insira a senha para a conta pilar Alverca.) O objeto de credenciais resultante é armazenado em uma variável chamada $cred 1. O segundo comando faz a mesma coisa, desta vez retornando um objeto Credential para a conta Ken Myer.
+Os comandos mostrados no exemplo a seguir testam a capacidade de um par de usuários\\(litwareinc pilar\\e litwareinc kenmyer) para fazer logon no Lync Server 2013 e, em seguida, trocar mensagens usando o serviço de chat persistente. Para fazer isso, o primeiro comando no exemplo usa o cmdlet **Get-Credential** para criar um objeto de credencial da interface de linha de comando do Windows PowerShell que contenha o nome e a senha do usuário pilar Ackerman. (Como o nome de logon,\\litwareinc pilar, foi incluído como um parâmetro, a caixa de diálogo de solicitação de credencial do Windows PowerShell só exige que o administrador insira a senha da conta pilar Ackerman.) O objeto de credenciais resultante é armazenado em uma variável chamada $cred 1. O segundo comando fará o mesmo, retornando, desta vez, um objeto de credencial para a conta de Ken Myer.
 
-Com os objetos de credenciais em mãos, o terceiro comando determina se esses dois usuários podem fazer logon no Lync Server 2013 e trocar mensagens usando o chat persistente. Para executar essa tarefa, o cmdlet **Test-CsPersistentChatMessage** é chamado usando os seguintes parâmetros: TargetFqdn (o FQDN do pool de registrador); SenderSipAddress (o endereço SIP para o primeiro usuário de teste); SenderCredential (o objeto do Windows PowerShell que contém as credenciais para esse mesmo usuário); ReceiverSipAddress (o endereço SIP para o outro usuário de teste); e ReceiverCredential (o objeto do Windows PowerShell que contém as credenciais do outro usuário de teste).
+Com os objetos de credencial em mãos, o terceiro comando determina se esses dois usuários podem fazer logon no Lync Server 2013 e trocar mensagens usando o chat persistente. Para realizar essa tarefa, o cmdlet **Test-CsPersistentChatMessage** é chamado usando os seguintes parâmetros: TargetFqdn (o FQDN do pool de registrador); SenderSipAddress (o endereço SIP para o primeiro usuário de teste); SenderCredential (o objeto Windows PowerShell que contém as credenciais desse mesmo usuário); ReceiverSipAddress (o endereço SIP para o outro usuário de teste); e ReceiverCredential (o objeto Windows PowerShell que contém as credenciais para o outro usuário de teste).
 
     $cred1 = Get-Credential "litwareinc\pilar"
     $cred2 = Get-Credential "litwareinc\kenmyer"
@@ -87,9 +87,9 @@ Com os objetos de credenciais em mãos, o terceiro comando determina se esses do
 
 <div>
 
-## <a name="determining-success-or-failure"></a>Determinação do sucesso ou falha
+## <a name="determining-success-or-failure"></a>Determinando o sucesso ou a falha
 
-Se o usuário especificado tiver uma política de local válida, você receberá uma saída semelhante a essa, com a propriedade Result marcada como **Success**:
+Se o usuário especificado tiver uma política de local válida, você receberá uma saída semelhante a esta, com a propriedade Result marcada como **Success**:
 
 FQDN de destino: atl-cs-001.litwareinc.com
 
@@ -99,17 +99,17 @@ Latência: 00:00:00
 
 Mensagem de erro:
 
-Correto
+Diagnóstico
 
-Se os usuários especificados não puderem trocar mensagens usando o serviço de chat persistente, o resultado será mostrado como uma **falha**, e informações adicionais serão gravadas nas propriedades erro e diagnóstico:
+Se os usuários especificados não puderem trocar mensagens usando o serviço de chat persistente, o resultado será mostrado como **falha**e informações adicionais serão registradas nas propriedades de erro e diagnóstico:
 
-Aviso: falha ao ler o número da porta do registrador para o número da porta de dados totalmente qualificado
+Aviso: falha ao ler o número da porta do registrador para o fornecido totalmente qualificado
 
-FQDN (nome de domínio). Usando o número da porta do registrador padrão. Extremamente
+FQDN (nome de domínio). Usando o número da porta do registrador padrão. Exceções
 
-System. InvalidOperationException: nenhum cluster correspondente localizado na topologia.
+System. InvalidOperationException: nenhum cluster correspondente encontrado na topologia.
 
-como
+por
 
 Microsoft. RTC. Management. SyntheticTransactions. SipSyntheticTransaction. TryRetri
 
@@ -121,25 +121,25 @@ Resultado: falha
 
 Latência: 00:00:00
 
-Mensagem de erro: 10060, falha na tentativa de conexão porque a parte conectada
+Mensagem de erro: 10060, uma tentativa de conexão falhou porque a parte conectada
 
 Não respondeu corretamente após um período de tempo ou
 
 a conexão estabelecida falhou porque o host conectado tem
 
-Falha ao responder \[2001:4898: E8: f39e: 5c9a: ad83:81b3:9944\]: 5061
+Falha ao responder \[2001:4898: E8: f39e: 5c9a\]: ad83:81b3:9944:5061
 
 Exceção interna: falha na tentativa de conexão porque o
 
 a parte conectada não respondeu corretamente após um período de
 
-falha na hora ou estabelecida a conexão porque o host conectado
+a hora ou a conexão estabelecida falhou porque o host conectado
 
-Não respondeu
+falhou ao responder
 
-\[2001:4898: E8: f39e: 5c9a: ad83:81b3:9944\]: 5061
+\[2001:4898: E8: f39e: 5c9a\]: ad83:81b3:5061
 
-Correto
+Diagnóstico
 
 </div>
 
@@ -151,7 +151,7 @@ Aqui estão alguns motivos comuns pelos quais **Test-CsPersistentChatMessage** p
 
   - Um valor de parâmetro incorreto foi fornecido. As contas de teste necessárias podem não existir ou terem sido criadas corretamente.
 
-  - Pode ser que houve um problema de rede causando um atraso inesperado que esgotou o teste.
+  - Pode ter havido um problema de rede causando um atraso inesperado que esgotou o tempo de teste.
 
 </div>
 

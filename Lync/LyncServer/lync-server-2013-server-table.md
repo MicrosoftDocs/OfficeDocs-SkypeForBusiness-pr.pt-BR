@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Tabela Server'
+title: 'Lync Server 2013: tabela de servidor'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184890
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c1d0cdb5733e6fc6e21d1dcda1fff6214332de6b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b1a400387d88637fc45bcd3342ebbadb2bec6edf
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732411"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049113"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="server-table-in-lync-server-2013"></a>Tabela Server no Lync Server 2013
+# <a name="server-table-in-lync-server-2013"></a>Tabela de servidor no Lync Server 2013
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41732411"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-02_
+_**Última modificação do tópico:** 2012-10-02_
 
 A tabela do servidor é uma tabela de suporte. Cada registro representa um servidor.
 
@@ -59,21 +59,21 @@ A tabela do servidor é uma tabela de suporte. Cada registro representa um servi
 <tr class="odd">
 <td><p><strong>ServerKey</strong></p></td>
 <td><p>int</p></td>
-<td><p>Primária</p></td>
+<td><p>Primário</p></td>
 <td><p>Número exclusivo que identifica o servidor.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>FQDNOrIP</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>dedo</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>index</p></td>
 <td><p>Cadeia de caracteres de endereço MAC.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ServerType</strong></p></td>
 <td><p>int</p></td>
-<td><p>Exterior</p></td>
+<td><p>Estrangeira</p></td>
 <td><p>1: servidor de mediação</p>
-<p>2: a/V Conferência Server16394: A/V Edge service32769: gateway</p></td>
+<p>2: Server16394 de conferência a/V: service32769 de borda A/V: gateway</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>PoolName</strong></p></td>
@@ -85,7 +85,7 @@ A tabela do servidor é uma tabela de suporte. Cada registro representa um servi
 <td><p><strong>NextUpdateTS</strong></p></td>
 <td><p>datetime</p></td>
 <td></td>
-<td><p>Somente para uso interno.</p></td>
+<td><p>Apenas para uso interno.</p></td>
 </tr>
 </tbody>
 </table>

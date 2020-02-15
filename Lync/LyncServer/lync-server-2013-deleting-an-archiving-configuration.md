@@ -12,16 +12,16 @@ ms:contentKeyID: 48185093
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9e4a0c1acf9f605fc927d7006ff50b1f4470c68d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d01c84e3f640abb536e923624af7fe7b13bb3dfe
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763115"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048862"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,19 +35,19 @@ ms.locfileid: "41763115"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-02-23_
+_**Última modificação do tópico:** 2013-02-23_
 
-Você pode excluir uma configuração de site ou configuração de pool. A configuração global não pode ser removida. Se você excluir a configuração global, ela automaticamente retorna para os valores padrão. Para obter detalhes sobre como as configurações de arquivamento são implementadas, incluindo quais opções você pode especificar e a hierarquia de configurações de arquivamento, consulte [como o arquivamento funciona no Lync Server 2013](lync-server-2013-how-archiving-works.md) na documentação de planejamento, documentação de implantação ou documentação de operações.
+Você pode excluir uma configuração de site ou configuração de pool. A configuração global não pode ser removida. Se você excluir a configuração global, ela será automaticamente redefinida para os valores padrão. Para obter detalhes sobre como as configurações de arquivamento são implementadas, incluindo quais opções você pode especificar e a hierarquia das configurações de arquivamento, consulte [How Archiving Works in Lync Server 2013](lync-server-2013-how-archiving-works.md) na documentação de planejamento, documentação de implantação ou operações.
 
 <div>
 
-## <a name="to-delete-a-site-or-pool-configuration-for-archiving"></a>Para excluir uma configuração de site ou de pool para arquivamento
+## <a name="to-delete-a-site-or-pool-configuration-for-archiving"></a>Para excluir uma configuração de site ou pool para arquivamento
 
-1.  Usando uma conta de usuário atribuída à função CsArchivingAdministrator ou CsAdministrator, faça logon em qualquer computador de sua implantação interna.
+1.  A partir da conta do usuário que foi atribuída à função CsArchivingAdministrator ou CsAdministrator, faça o logon em qualquer computador na sua implantação interna.
 
-2.  Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [abrir ferramentas administrativas do Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Na barra de navegação da esquerda, clique em **Monitoramento e Arquivamento**, e depois, clique em **Configuração de Arquivamento**.
+3.  Na barra de navegação esquerda, clique em **Monitoramento e Arquivamento** e clique em **Configuração do Arquivamento**.
 
 4.  Na lista de configuração de arquivamento, clique na configuração de site ou pool que deseja excluir, clique em **Editar** e em **Excluir**.
 
@@ -57,15 +57,15 @@ Você pode excluir uma configuração de site ou configuração de pool. A confi
 
 <div>
 
-## <a name="removing-archiving-configuration-settings-by-using-windows-powershell-cmdlets"></a>Como remover as configurações de arquivamento usando cmdlets do Windows PowerShell
+## <a name="removing-archiving-configuration-settings-by-using-windows-powershell-cmdlets"></a>Removendo definições de configuração de arquivamento usando cmdlets do Windows PowerShell
 
-As configurações de arquivamento podem ser excluídas usando o Windows PowerShell e o cmdlet **Remove-CsArchivingConfiguration** . Esse cmdlet pode ser executado no Shell de gerenciamento do Lync Server 2013 ou em uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Lync Server, consulte o artigo sobre o blog do Windows PowerShell do Lync Server "início rápido: gerenciar o [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Microsoft Lync Server 2010 usando o PowerShell remoto" em.
+As definições de configuração de arquivamento podem ser excluídas usando o Windows PowerShell e o cmdlet **Remove-CsArchivingConfiguration** . Este cmdlet pode ser executado a partir do Shell de gerenciamento do Lync Server 2013 ou de uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Lync Server, consulte o artigo de blog do Lync Server Windows PowerShell "início rápido: Managing Microsoft Lync Server [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)2010 using Remote PowerShell" em.
 
 <div>
 
-## <a name="to-remove-a-specified-collection-of-archiving-configuration-settings"></a>Para remover uma coleção especificada de definições de configuração de arquivamento
+## <a name="to-remove-a-specified-collection-of-archiving-configuration-settings"></a>Para remover um conjunto especificado de definições de configuração de arquivamento
 
-  - O comando a seguir remove as definições de configuração de arquivamento aplicadas ao site Redmond:
+  - O comando a seguir remove as definições de configuração de arquivamento aplicadas ao site de Redmond:
     
         Remove-CsArchivingConfiguration -Identity "site:Redmond"
 
@@ -75,7 +75,7 @@ As configurações de arquivamento podem ser excluídas usando o Windows PowerSh
 
 ## <a name="to-remove-all-the-archiving-configuration-settings-applied-to-the-site-scope"></a>Para remover todas as definições de configuração de arquivamento aplicadas ao escopo do site
 
-  - Esse comando Remove todas as definições de configuração de arquivamento aplicadas ao escopo do serviço:
+  - Esse comando remove todas as definições de configuração de arquivamento aplicadas ao escopo do site:
     
         Get-CsArchivingConfiguration -Filter "site:*" | Remove-CsArchivingConfiguration
 
@@ -83,15 +83,15 @@ As configurações de arquivamento podem ser excluídas usando o Windows PowerSh
 
 <div>
 
-## <a name="to-remove-archiving-configuration-settings-based-on-a-specified-property-value"></a>Para remover as definições de configuração de arquivamento com base em um valor de propriedade especificada
+## <a name="to-remove-archiving-configuration-settings-based-on-a-specified-property-value"></a>Para remover as definições de configuração de arquivamento com base em um valor de propriedade especificado
 
-  - Esse comando Remove todas as configurações de arquivamento de configuração em que o arquivamento do Exchange foi desabilitado:
+  - Esse comando remove todas as definições de configuração de arquivamento onde o arquivamento do Exchange foi desativado:
     
         Get-CsArchivingConfiguration | Where-Object {$_.EnableExchangeArchiving -eq $False} | Remove-CsArchivingConfiguration
 
 </div>
 
-Para obter mais informações, consulte o tópico da ajuda para o cmdlet [Remove-CsArchivingConfiguration](https://docs.microsoft.com/powershell/module/skype/Remove-CsArchivingConfiguration) .
+Para obter mais informações, consulte o tópico de ajuda para o cmdlet [Remove-CsArchivingConfiguration](https://docs.microsoft.com/powershell/module/skype/Remove-CsArchivingConfiguration) .
 
 </div>
 
@@ -103,7 +103,7 @@ Para obter mais informações, consulte o tópico da ajuda para o cmdlet [Remove
 [Como o arquivamento funciona no Lync Server 2013](lync-server-2013-how-archiving-works.md)  
 
 
-[Gerenciar o arquivamento de comunicações internas e externas no Lync Server 2013](lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md)  
+[Gerenciando o arquivamento de comunicações internas e externas no Lync Server 2013](lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md)  
   
 
 </div>

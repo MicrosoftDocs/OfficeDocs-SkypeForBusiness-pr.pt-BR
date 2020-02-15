@@ -12,16 +12,16 @@ ms:contentKeyID: 48185838
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 337189476cf7c2767b359086014944715afbd623
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 71ad28107f31bf2593952ae8356ac2c9af2b4bc6
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41747261"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050373"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,19 +35,19 @@ ms.locfileid: "41747261"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-19_
+_**Última modificação do tópico:** 2012-10-19_
 
-Para federar-se com um cliente do Lync Online 2010, você já deve ter concluído a implantação e a configuração iniciais do Lync Server 2013 em sua organização. Isso inclui o seguinte:
+Para federar com um cliente do Lync Online 2010, você já deve ter concluído a implantação inicial e a configuração do Lync Server 2013 em sua organização. Isso inclui:
 
-  - Implantar pelo menos um servidor Standard Edition ou um pool de front-end do Enterprise Edition em sua organização. Para obter detalhes sobre a implantação de servidores internos, consulte [implantando o Lync Server 2013](lync-server-2013-deploying-lync-server.md) na documentação de implantação.
+  - Implantar pelo menos um servidor Standard Edition ou um pool de front-ends Enterprise Edition em sua organização. Para obter detalhes sobre a implantação de servidores internos, consulte [Deploying Lync Server 2013](lync-server-2013-deploying-lync-server.md) na documentação de implantação.
 
-  - Habilitando contas de usuário internas do Lync Server 2013. Para obter detalhes, consulte [desabilitar ou habilitar novamente a conta de usuário do Lync Server 2013](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md) na documentação de implantação ou a documentação de operações.
+  - Habilitar contas de usuário interno para o Lync Server 2013. Para obter detalhes, consulte [desabilitar ou reabilitar a conta de usuário do Lync Server 2013](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md) na documentação de implantação ou a documentação de operações.
 
-  - Implantar pelo menos um servidor de borda e os outros componentes necessários para dar suporte ao acesso de usuários externos. Para obter detalhes, consulte [Gerenciamento de Federação e acesso externo ao Lync Server 2013](lync-server-2013-managing-federation-and-external-access-to-lync-server-2013.md) na documentação de implantação.
+  - Implantar pelo menos um servidor de borda e os outros componentes necessários para dar suporte ao acesso de usuário externo. Para obter detalhes, consulte [Managing Federation and external Access to Lync Server 2013](lync-server-2013-managing-federation-and-external-access-to-lync-server-2013.md) na documentação de implantação.
 
-  - Habilitar o suporte à Federação em sua organização e configurar o método apropriado para controlar o acesso por domínios federados. Para obter detalhes, consulte [habilitar ou desabilitar o acesso de usuário remoto no Lync server 2013](lync-server-2013-enable-or-disable-remote-user-access.md) e [gerenciar provedores federados SIP para sua organização no Lync Server 2013](lync-server-2013-manage-sip-federated-providers-for-your-organization.md) na documentação de operações.
+  - Habilitar suporte de federação dentro da sua organização e configurar o método adequado para controlar o acesso de domínios federados. Para obter detalhes, consulte [habilitar ou desabilitar o acesso de usuário remoto no Lync server 2013](lync-server-2013-enable-or-disable-remote-user-access.md) e [gerenciar provedores federados SIP para sua organização no Lync Server 2013](lync-server-2013-manage-sip-federated-providers-for-your-organization.md) na documentação operações.
 
-  - Habilitando o acesso de usuários externos para usuários em sua organização. Para obter detalhes, consulte [atribuir uma política de acesso de usuário externo a um usuário habilitado do Lync no Lync Server 2013](lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user.md) e na documentação de implantação ou documentação de operações.
+  - Habilitar acesso de usuário externo para usuários na sua organização. Para obter detalhes, consulte [atribuir uma política de acesso de usuário externo a um usuário habilitado do Lync no Lync Server 2013](lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user.md) e na documentação de implantação ou na documentação de operações.
 
 </div>
 

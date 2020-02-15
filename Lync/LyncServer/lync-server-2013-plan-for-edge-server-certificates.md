@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Planejar certificados do Servidor de Borda'
+title: 'Lync Server 2013: planejar certificados do servidor de borda'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185798
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: faad6dba610df8033b75b0c87c52fbb065dc5dcb
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b70d9635b253c793170ff11373f6d063f0f46c81
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755171"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050033"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="plan-for-edge-server-certificates-in-lync-server-2013"></a>Planejar certificados do Servidor de Borda no Lync Server 2013
+# <a name="plan-for-edge-server-certificates-in-lync-server-2013"></a>Planejar certificados de servidor de borda no Lync Server 2013
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41755171"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-11-05_
+_**Última modificação do tópico:** 2012-11-05_
 
-A criação de certificados para o Edge é simplificada no Lync Server 2013.
+A criação de certificado para borda é simplificada no Lync Server 2013.
 
-**Fluxograma de certificados do servidor de borda**
+**Fluxograma de certificados do Servidor de Borda**
 
 ![a5fc20db-7ced-4364-b577-6a709a8367cd](images/Gg413010.a5fc20db-7ced-4364-b577-6a709a8367cd(OCS.15).jpg "a5fc20db-7ced-4364-b577-6a709a8367cd")
 
-Crie um único certificado público, verifique se você tem uma chave privada exportável definida para o certificado e atribui-la às seguintes interfaces externas do servidor de borda usando o assistente de certificado:
+Criar um certificado público único, certificar-se de ter uma chave privada de exportação definida para o certificado e atribui-lo às seguintes interfaces externas do Servidor de Borda usando o assistente de certificado:
 
 <div>
 
 
 > [!IMPORTANT]  
-> Não há suporte para certificados curinga no Lync Server, exceto onde usados para resumir as URLs simples por meio do proxy reverso. Você deve definir nomes alternativos de assunto distintos (SANs) para cada nome de domínio SIP, serviço de borda de webconferência, serviço de borda A/V e domínio XMPP oferecidos pela sua implantação.
+> Não há suporte para certificados curinga no Lync Server, exceto onde usados para resumir as URLs simples através do proxy reverso. Você deve definir nomes alternativos de entidades distintos (SANs) para cada nome de domínio SIP, serviço de borda de webconferência, serviço de borda A/V e domínio XMPP oferecidos por sua implantação.
 
 
 
@@ -59,7 +59,7 @@ Crie um único certificado público, verifique se você tem uma chave privada ex
 
 
 > [!NOTE]  
-> Apresentado no Lync Server 2013, a transferência de certificados de autenticação de áudio/vídeo antes do tempo de expiração do certificado atual requer algum planejamento adicional. Em vez de um certificado com várias finalidades para a interface de borda externa, você precisará de dois certificados, um atribuído ao serviço de borda de acesso e serviço de borda de Webconferência e um certificado para o serviço de borda A/V. Para obter mais detalhes, consulte <A href="lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-https://docs.microsoft.com/powershell/module/skype/Set-CsCertificate">preparando certificados do AV e do OAuth no Lync Server 2013 usando o-roll Set-CsCertificate</A>
+> Introduzido no Lync Server 2013, a preparação de certificados de autenticação de áudio/vídeo com antecedência do tempo de expiração do certificado atual requer alguns planejamentos adicionais. Em vez de um certificado com várias finalidades para a interface de borda externa, você precisará de dois certificados, um atribuído ao serviço de borda de acesso e serviço de borda de Webconferência e um certificado para o serviço de borda A/V. Para obter detalhes adicionais, consulte <A href="lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-https://docs.microsoft.com/powershell/module/skype/Set-CsCertificate">preparando o AV e certificados OAuth no Lync Server 2013 using-rolo in Set-CsCertificate</A>
 
 
 
@@ -69,29 +69,29 @@ Crie um único certificado público, verifique se você tem uma chave privada ex
 
 
 > [!IMPORTANT]  
-> No caso de um pool de servidores de borda, exporte o certificado com a chave particular para cada servidor de borda e atribua o certificado a cada serviço de servidor de borda. Faça o mesmo para o certificado interno do servidor de borda, exportando o certificado com a chave privada e atribuindo a cada interface de borda interna.
+> No caso de um pool de servidores de borda, exporte o certificado com a chave privada para cada servidor de borda e atribua o certificado a cada serviço do servidor de borda. Faça o mesmo para o certificado de servidor de borda interno, exportando o certificado com a chave privada e atribuindo a cada interface de borda interna.
 
 
 
 </div>
 
-  - Verifique se você tem uma chave privada exportável atribuída para o certificado
+  - Certificar-se de ter uma chave privada de exportação atribuída ao certificado
 
   - Serviço de borda de acesso (chamado de **borda de acesso SIP externa** no assistente de certificado)
 
-  - Serviço de borda de Webconferência (chamado de **borda de Webconferência externa** no assistente de certificado)
+  - Serviço de borda de Webconferência (referido como **borda de Webconferência externa** no assistente de certificado)
 
-  - Serviço de autenticação a/V (chamado de **borda de a/v externa** no assistente de certificado)
+  - Serviço de Autenticação A/V (referido como **Borda A/V externa** no assistente de certificado)
 
-Crie um único certificado interno com a chave privada exportável, copie e atribua-o a cada uma das interfaces internas do servidor de borda:
+Criar um certificado interno único com chave privada de exportação, copiá-lo e atribui-lo a cada uma das interfaces internas do Servidor de Borda:
 
-  - Servidor de borda (chamado de **borda interna** no assistente de certificado)
+  - Servidor de Borda (referido como **Borda interna** no assistente de certificado)
 
 <div>
 
 
 > [!IMPORTANT]  
-> É possível usar certificados separados e distintos para cada serviço do servidor de borda. Um bom motivo para escolher certificados separados é se você quiser usar o novo recurso de certificado de reversão para o certificado de serviço de borda A/V. No caso desse recurso, é recomendável a dissociação do certificado de serviço de borda a/V do serviço de borda de acesso e do serviço de borda de conferência via Web. Se você optar por solicitar, adquirir e atribuir certificados separados para cada serviço, será necessário solicitar que a chave privada seja exportável para o serviço de borda A/V (novamente, isso está em realidade, o serviço de autenticação A/V) e atribui o mesmo certificado à interface externa de Edge a/V em cada servidor de borda.
+> É possível usar certificados separados e distintos para cada serviço de servidor de borda. Um bom motivo para escolher certificados separados é se você deseja usar o novo recurso de certificado de reversão para o certificado de serviço de borda A/V. No caso desse recurso, é recomendável desacoplar o certificado de serviço de borda a/V do serviço de borda de acesso e do serviço de borda de Webconferência. Se você optar por solicitar, adquirir e atribuir certificados separados para cada serviço, deverá solicitar que a chave privada seja exportável para o serviço de borda A/V (novamente, isso estará na realidade o serviço de autenticação A/V) e atribuir o mesmo certificado à interface externa de borda A/V em cada servidor de borda.
 
 
 
@@ -102,10 +102,10 @@ Crie um único certificado interno com a chave privada exportável, copie e atri
 ## <a name="see-also"></a>Confira também
 
 
-[Preparando certificados do AV e do OAuth no Lync Server 2013 usando-roll no set-CsCertificate](lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-https://docs.microsoft.com/powershell/module/skype/Set-CsCertificate)  
+[Preparando certificados AV e OAuth no Lync Server 2013 usando-o-rolo no set-CsCertificate](lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-https://docs.microsoft.com/powershell/module/skype/Set-CsCertificate)  
 
 
-[Alterações no Lync Server 2013 que afetam o planejamento do Servidor de Borda](lync-server-2013-changes-in-lync-server-that-affect-edge-server-planning.md)  
+[Alterações no Lync Server 2013 que afetam o planejamento do servidor de borda](lync-server-2013-changes-in-lync-server-that-affect-edge-server-planning.md)  
   
 
 </div>

@@ -12,16 +12,16 @@ ms:contentKeyID: 48183801
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4c77c343bff92e25ffc1678bc06e7a0ef05d3f96
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1e7c3db5b37cba514a0c07e11a907628dcc7823f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728761"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42047604"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,66 +35,66 @@ ms.locfileid: "41728761"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-08_
+_**Última modificação do tópico:** 2012-10-08_
 
-Sites de rede são os escritórios ou locais configurados em cada região de um controle de admissão de chamadas (CAC) ou implantação 9-1-1 aprimorada. Você pode usar o painel de controle do Microsoft Lync Server 2013 para configurar sites e associá-los a regiões. Por exemplo, uma região de rede para a América do Norte pode estar associada a sites de redes como Chicago, Redmond e Vancouver. Um site de rede do CAC deve ser criado para cada site dentro de uma organização, mesmo que esse site não tenha limitações de largura de banda. No painel de controle do Lync Server, você pode criar, modificar e excluir sites de rede. Use os procedimentos a seguir para criar ou modificar um site de rede. Para obter detalhes sobre como excluir um site de rede existente, consulte [excluindo um site de rede existente no Lync Server 2013](lync-server-2013-deleting-an-existing-network-site.md).
+Sites da rede são os escritórios ou locais configurados em cada região de um CAC (controle de admissão de chamadas) ou implantação do 9-1-1 Avançado. Você pode usar o painel de controle do Microsoft Lync Server 2013 para configurar sites e associá-los a regiões. Por exemplo, uma região de rede da América do Norte pode ser associada a sites da rede, como Chicago, Redmond e Vancouver. Um site da rede do CAC deve ser criado para cada site da organização, mesmo que esse site não tenha limitações de largura de banda. No painel de controle do Lync Server, você pode criar, modificar e excluir sites de rede. Use os procedimentos a seguir para criar ou modificar um site da rede. Para obter detalhes sobre como excluir um site de rede existente, consulte [excluindo um site de rede existente no Lync Server 2013](lync-server-2013-deleting-an-existing-network-site.md).
 
 <div>
 
-## <a name="to-create-a-network-site"></a>Para criar um site de rede
+## <a name="to-create-a-network-site"></a>Para criar um local de rede
 
-1.  Usando uma conta de usuário que é membro do grupo RTCUniversalServerAdmins (ou tem direitos de usuário equivalentes), ou está atribuída à função CsAdministrator, faça logon em qualquer computador de sua implantação interna.
+1.  A partir de uma conta de usuário que seja membro do grupo RTCUniversalServerAdmins (ou tenha direitos de usuário equivalentes) ou atribuída à função CsAdministrator, faça logon em qualquer computador em sua implantação interna.
 
-2.  Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [abrir ferramentas administrativas do Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Na barra de navegação à esquerda, clique em **configuração de rede** e, em seguida, clique em **site**.
+3.  Na barra de navegação esquerda, clique em **Configuração da Rede** e em **Local**.
 
-4.  Na página do **site** , clique em **novo**.
+4.  Na página **Local**, clique em **Novo**.
 
-5.  Em **novo site**, digite um nome para este site no campo **nome** .
+5.  Em **Novo Local**, digite um nome para este local no campo **Nome**.
     
     <div>
     
 
     > [!NOTE]  
-    > Os nomes dos sites devem ser exclusivos na implantação do Lync Server 2013.
+    > Os nomes de site devem ser exclusivos na implantação do Lync Server 2013.
 
     
     </div>
 
-6.  Na lista suspensa **região** , selecione uma região de rede para associar a este site.
+6.  Na lista suspensa **Região**, selecione uma região da rede para associar a este local.
 
-7.  Adicionais Se você quiser colocar as limitações de largura de banda em chamadas de áudio ou vídeo para este site, selecione o perfil da política de largura de banda com as configurações apropriadas na lista suspensa **política de largura de banda** .
+7.  (Opcional) Se deseja impor limitações de largura de banda em chamadas de áudio ou vídeo para este local, selecione o perfil da política da largura de banda com as configurações apropriadas na lista suspensa **Política da largura de banda**.
     
     <div>
     
 
     > [!NOTE]  
-    > Você pode exibir os detalhes dos perfis da política de largura de banda disponíveis ou criar um novo perfil de política de largura de banda na página <STRONG>perfil da política</STRONG> do grupo <STRONG>configuração de rede</STRONG> . Para obter detalhes, consulte <A href="lync-server-2013-creating-or-modifying-bandwidth-policy-profiles.md">criando ou modificando perfis de política de largura de banda no Lync Server 2013</A>.
+    > Você pode ver os detalhes dos perfis disponíveis da política de largura de banda, ou criar um novo perfil, na página <STRONG>Perfil de Política</STRONG> do grupo <STRONG>Configuração de Rede</STRONG>. Para obter detalhes, consulte <A href="lync-server-2013-creating-or-modifying-bandwidth-policy-profiles.md">criando ou modificando perfis de política de largura de banda no Lync Server 2013</A>.
 
     
     </div>
 
-8.  Adicionais Se você quiser fornecer configurações de localização para este site, selecione uma política de localização na lista suspensa **política de localização** .
+8.  (Opcional) Se deseja fornecer configurações de localização para esse local, selecione uma política de localização na lista suspensa **Política de localização**.
     
     <div>
     
 
     > [!NOTE]  
-    > A política de localização atribui configurações de localização avançada de 9-1-1 (E9-1-1) e de cliente de cliente (-1-1) específicas ao site. Você pode exibir os detalhes das políticas de localização disponíveis ou criar uma nova política de localização, na página <STRONG>política de localização</STRONG> do grupo de <STRONG>configuração de rede</STRONG> . Para obter detalhes, consulte <A href="lync-server-2013-viewing-location-policy-information.md">exibindo informações de política de localização no Lync Server 2013</A>.
+    > A política de localização atribui configurações específicas de 9-1-1 Aprimorado (E9-1-1) e de localização do cliente ao local. Você pode ver os detalhes das políticas de localização disponíveis ou criar uma política nova na página <STRONG>Política de localização</STRONG> do grupo <STRONG>Configuração de Rede</STRONG>. Para obter detalhes, consulte <A href="lync-server-2013-viewing-location-policy-information.md">Viewing Location Policy Information in Lync Server 2013</A>.
 
     
     </div>
 
-9.  Adicionais Digite um valor no campo **Descrição** para fornecer mais informações sobre esse site que não pode ser expresso apenas pelo nome.
+9.  (Opcional) Digite um valor no campo **Descrição** para fornecer mais informações sobre esse local, que não podem ser expressadas apenas pelo nome.
 
-10. Clique em **Confirmar**.
+10. Clique em **Comprometer**.
     
     <div>
     
 
     > [!NOTE]  
-    > Você não usa a tabela de <STRONG>sub-redes associadas</STRONG> quando cria um novo site de rede. Você associa uma sub-rede a um site quando cria ou modifica a sub-rede. Para obter detalhes, consulte <A href="lync-server-2013-create-or-modify-network-subnets.md">criar ou modificar sub-redes de rede no Lync Server 2013</A>.
+    > Você não usa a tabela <STRONG>Sub-redes Associadas</STRONG> ao criar um novo local de rede. Você associa a sub-rede ao local quando criá-la ou modificá-la. Para obter detalhes, consulte <A href="lync-server-2013-create-or-modify-network-subnets.md">create or Modify Network sub-redes in Lync Server 2013</A>.
 
     
     </div>
@@ -103,48 +103,48 @@ Sites de rede são os escritórios ou locais configurados em cada região de um 
 
 <div>
 
-## <a name="to-modify-a-network-site"></a>Para modificar um site de rede
+## <a name="to-modify-a-network-site"></a>Para modificar um local de rede
 
-1.  Usando uma conta de usuário que é membro do grupo RTCUniversalServerAdmins (ou tem direitos de usuário equivalentes), ou está atribuída à função CsAdministrator, faça logon em qualquer computador de sua implantação interna.
+1.  A partir de uma conta de usuário que seja membro do grupo RTCUniversalServerAdmins (ou tenha direitos de usuário equivalentes) ou atribuída à função CsAdministrator, faça logon em qualquer computador em sua implantação interna.
 
-2.  Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [abrir ferramentas administrativas do Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Na barra de navegação à esquerda, clique em **configuração de rede** e, em seguida, clique em **site**.
+3.  Na barra de navegação esquerda, clique em **Configuração da Rede** e em **Local**.
 
-4.  Na página do **site** , clique no site que você deseja modificar.
+4.  Na página **Local**, clique no local que deseja modificar.
 
-5.  No menu **Editar**, clique em **Exibir detalhes**.
+5.  No painel **Ações**, clique em **Mostrar detalhes**.
 
-6.  Na página **Editar site** , você pode modificar a descrição, a região, o perfil da política de largura de banda e a política de localização associada ao site. Para obter detalhes, consulte a seção "para criar um site de rede" anteriormente neste tópico.
+6.  Na página **Editar Local**, você pode modificar a descrição, região, perfil da política da largura de banda e política de localização associados ao novo local. Para obter os detalhes, consulte a seção "Para criar um local de rede" anteriormente neste tópico.
 
-7.  Clique em **Confirmar**.
+7.  Clique em **Comprometer**.
 
-Não é possível modificar a tabela de **sub-redes associadas** nesta página. A lista de sub-redes associadas é fornecida para referência para que você saiba quais são as sub-redes que serão afetadas quando você modificar as configurações do site.
+Você não pode modificar a tabela **Sub-redes Associadas** nesta página. A lista de sub-redes associadas é fornecida para referência, para que você saiba quais sub-redes serão afetadas quando você modificar as configurações do local.
 
 </div>
 
 <div>
 
-## <a name="to-delete-a-network-site"></a>Para excluir um site de rede
+## <a name="to-delete-a-network-site"></a>Para excluir um local de rede
 
-1.  Usando uma conta de usuário que é membro do grupo RTCUniversalServerAdmins (ou tem direitos de usuário equivalentes), ou está atribuída à função CsAdministrator, faça logon em qualquer computador de sua implantação interna.
+1.  A partir de uma conta de usuário que seja membro do grupo RTCUniversalServerAdmins (ou tenha direitos de usuário equivalentes) ou atribuída à função CsAdministrator, faça logon em qualquer computador em sua implantação interna.
 
-2.  Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [abrir ferramentas administrativas do Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Na barra de navegação à esquerda, clique em **configuração de rede** e, em seguida, clique em **site**.
+3.  Na barra de navegação esquerda, clique em **Configuração da Rede** e em **Local**.
 
-4.  Na página do **site** , clique no site que você deseja excluir.
+4.  Na página **Local**, clique no local que deseja excluir.
     
     <div>
     
 
     > [!NOTE]  
-    > Você pode excluir mais de um site de cada vez. Para fazer isso, pressione CTRL e selecione vários sites enquanto mantém a tecla CTRL pressionada. Ou, para selecionar todos os sites, clique em <STRONG>selecionar tudo</STRONG> no menu <STRONG>Editar</STRONG> .
+    > Você pode excluir mais de um local de cada vez. Para fazer isso, pressione CTRL e selecione diversos locais mantendo a tecla pressionada. Ou então, para selecionar todos os locais, clique em <STRONG>Selecionar Tudo</STRONG> no menu <STRONG>Editar</STRONG>.
 
     
     </div>
 
-5.  No menu **Editar** , clique em **excluir**.
+5.  No menu **Editar**, clique em **Excluir**.
 
 6.  Clique em **OK**.
     
@@ -152,7 +152,7 @@ Não é possível modificar a tabela de **sub-redes associadas** nesta página. 
     
 
     > [!WARNING]  
-    > Você não pode remover um site de rede se ele estiver associado a uma sub-rede de rede. Se você tentar remover um site associado a uma sub-rede, receberá uma mensagem de erro. Para ver se um site está associado a qualquer sub-rede, clique no site e, em seguida, clique em <STRONG>Mostrar detalhes</STRONG> no menu <STRONG>Editar</STRONG> .
+    > Você não poderá remover um local de rede se ele estiver associado a uma sub-rede. Se você tentar fazer isso, receberá uma mensagem de erro. Para ver se o local está associado a alguma sub-rede, clique no local e em <STRONG>Mostrar detalhes</STRONG> no menu <STRONG>Editar</STRONG>.
 
     
     </div>

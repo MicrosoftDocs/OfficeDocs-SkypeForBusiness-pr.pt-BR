@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Tabela Phones'
+title: 'Lync Server 2013: tabela de telefones'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183996
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cddf5eac7cc85852f4a7f61f4b746091158257e2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 53c3a67381a101bd9aecc4872d4e08b4fb8daea3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755181"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050833"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="phones-table-in-lync-server-2013"></a>Tabela Phones no Lync Server 2013
+# <a name="phones-table-in-lync-server-2013"></a>Tabela phones no Lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41755181"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-08-20_
+_**Última modificação do tópico:** 2012-08-20_
 
-A tabela de telefones é uma tabela de suporte. Cada registro na tabela armazena informações sobre um número de telefone envolvido em chamadas VoIP que têm registros no banco de dados.
+A tabela telefones é uma tabela de suporte. Cada registro na tabela armazena informações sobre um número de telefone envolvido em chamadas VoIP que têm registros no banco de dados.
 
 
 <table>
@@ -59,8 +59,8 @@ A tabela de telefones é uma tabela de suporte. Cada registro na tabela armazena
 <tr class="odd">
 <td><p><strong>PHONEID</strong></p></td>
 <td><p>int</p></td>
-<td><p>Primária</p></td>
-<td><p>Número exclusivo que identifica este telefone.</p></td>
+<td><p>Primário</p></td>
+<td><p>Número exclusivo que identifica esse telefone.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>PhoneUri</strong></p></td>
@@ -72,8 +72,8 @@ A tabela de telefones é uma tabela de suporte. Cada registro na tabela armazena
 <td><p><strong>NextUpdateTS</strong></p></td>
 <td><p>dateTime</p></td>
 <td></td>
-<td><p>Carimbo de data/hora (apenas para uso interno).</p>
-<p>Este campo foi apresentado no Microsoft Lync Server 2013.</p></td>
+<td><p>Carimbo de data/hora (somente para uso interno).</p>
+<p>Este campo foi introduzido no Microsoft Lync Server 2013.</p></td>
 </tr>
 </tbody>
 </table>

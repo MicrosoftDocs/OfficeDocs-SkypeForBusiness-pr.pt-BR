@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e3f569cfc225c1933b978e9a0a7d9e9bf95be783
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 6d7d0b1cf23b94f33c66218eaacdfdeda5aaab19
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837123"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048592"
 ---
 ![Atualize o diagrama de jornada, enfatizando o estágio de preparação do usuário](media/upgrade-banner-user-readiness.png "Estágios da jornada da atualização, com ênfase no estágio de preparação do usuário")
 
@@ -107,7 +107,7 @@ Para aproveitar ao máximo o Teams, crie uma estratégia de trabalho em equipe q
 | | |
 |---|---|
 | ![Um ícone representando pontos de decisão](media/audio_conferencing_image7.png) <br/>Ponto de decisão|<ul><li>Quais cenários do relatable em equipe de trabalho você empregará para ajudar a acelerar a adoção do usuário do Teams e facilitar a atualização do Skype for Business?</li></ul> |
-| ![Um ícone representando os próximos passos](media/audio_conferencing_image9.png)<br/>Próximas etapas|<ul><li>Use os exemplos a seguir para ajudar a criar seus próprios cenários de trabalho em equipe. Documente-os na [pasta de trabalho de atualização](https://aka.ms/upgradesuccesskit).</li><li>Para ver cenários e exemplos adicionais, acesse a [biblioteca de produtividade](https://www.microsoft.com/en-us/microsoft-365/success/)</li></ul>|
+| ![Um ícone representando os próximos passos](media/audio_conferencing_image9.png)<br/>Próximas etapas|<ul><li>Use os exemplos a seguir para ajudar a criar seus próprios cenários de trabalho em equipe. Documente-os na [pasta de trabalho de atualização](https://aka.ms/upgradesuccesskit).</li><li>Para ver cenários e exemplos adicionais, acesse a [biblioteca de produtividade](https://www.microsoft.com/microsoft-365/success/)</li></ul>|
 
 ### <a name="examples"></a>Exemplos
 

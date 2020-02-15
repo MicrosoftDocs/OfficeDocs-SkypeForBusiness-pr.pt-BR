@@ -12,16 +12,16 @@ ms:contentKeyID: 48183399
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0594ddc0433bdcc227c693c4842c08bf7d05989f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e32132faee3b52140d20a7f01e6a0bad0e88c620
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755425"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049603"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41755425"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2014-05-28_
+_**Última modificação do tópico:** 2014-05-28_
 
-O ambiente híbrido do Lync Server 2013 refere-se a uma implantação na qual há alguns usuários hospedados no Lync Server local 2013 e outros usuários em casa ao Lync Online, mas os usuários compartilham o mesmo domínio, como user@contoso.com.
+O ambiente híbrido do Lync Server 2013 refere-se a uma implantação na qual há alguns usuários hospedados no Lync Server local 2013 e outros usuários hospedados no Lync Online, mas os usuários compartilham o mesmo domínio, como user@contoso.com.
 
 <div>
 
@@ -51,15 +51,15 @@ Este guia descreve as tarefas necessárias para configurar seu ambiente do Lync 
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
-Você precisará ter os seguintes aplicativos e utilitários instalados para concluir as tarefas de configuração de uma implantação para híbrido. Os instaladores desses arquivos estão incluídos na mídia de instalação fornecida para a sua implantação, bem como nos links incluídos na lista a seguir.
+Você precisará ter os seguintes aplicativos e utilitários instalados para concluir as tarefas de configuração de uma implantação para o híbrido. Os instaladores desses arquivos estão incluídos na mídia de instalação fornecida para sua implantação, bem como nos links incluídos na lista a seguir.
 
-  - [Serviços de Federação do Active Directory (AD FS) 2,0](http://go.microsoft.com/fwlink/p/?linkid=257305)
+  - [Serviços de Federação do Active Directory (AD FS) 2.0](http://go.microsoft.com/fwlink/p/?linkid=257305)
 
   - [Ferramenta de sincronização de diretórios da Microsoft 9,1](http://go.microsoft.com/fwlink/p/?linkid=257307)
 
   - [Instalar o Windows PowerShell para logon único com o AD FS](http://go.microsoft.com/fwlink/p/?linkid=398710)
 
-  - O assistente de conexão do Microsoft Online Services (msoidcli-7.0. msi) está incluído na configuração da área de trabalho do Office 365, que pode ser obtida na página de downloads vinculada a partir do portal de administração do 365 do Office.
+  - O assistente de conexão do Microsoft Online Services (msoidcli-7.0. msi) está incluído na configuração da área de trabalho do Office 365, que pode ser obtida da página de downloads vinculada a partir do portal de administração do Office 365.
 
 </div>
 
@@ -67,15 +67,15 @@ Você precisará ter os seguintes aplicativos e utilitários instalados para con
 
 ## <a name="administrator-credentials"></a>Credenciais de administrador
 
-Quando for solicitado a fornecer as credenciais de administrador, use o nome de usuário e a senha da conta de administrador para o seu locatário do Office 365. Você também usará essas credenciais ao configurar o AD FS (serviços de Federação do Active Directory) 2,0, a sincronização de diretórios, o logon único, a Federação e a transferência de usuários para o Lync Online.
+Quando for solicitado a fornecer suas credenciais de administrador, use o nome de usuário e a senha da conta de administrador para o seu locatário do Office 365. Você também usará essas credenciais ao configurar o AD FS (serviços de Federação do Active Directory) 2,0, sincronização de diretórios, logon único, Federação e transferência de usuários para o Lync Online.
 
 </div>
 
 <div>
 
-## <a name="connecting-to-lync-online-powershell"></a>Conectando-se ao Lync Online PowerShell
+## <a name="connecting-to-lync-online-powershell"></a>Conectando-se ao PowerShell do Lync Online
 
-Os administradores agora têm a capacidade de usar o Windows PowerShell para gerenciar o Lync Online e suas contas de usuário do Lync Online. Para fazer isso, primeiro você deve baixar e instalar o módulo do conector do Lync Online a partir do centrohttp://go.microsoft.com/fwlink/?LinkId=294688)de download da Microsoft (. Para obter mais informações sobre como baixar, instalar e usar o módulo conector do Lync Online e obter informações detalhadas sobre como usar o Windows PowerShell para gerenciar o Lync Online, consulte [usando o Windows PowerShell para gerenciar o Lync Online](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
+Agora, os administradores têm a capacidade de usar o Windows PowerShell para gerenciar o Lync Online e suas contas de usuário do Lync Online. Para fazer isso, primeiro você deve baixar e instalar o módulo do conector do Lync Online no centro de downloadhttp://go.microsoft.com/fwlink/?LinkId=294688)da Microsoft (. Para obter mais informações sobre como baixar, instalar e usar o módulo do conector do Lync Online e para obter informações detalhadas sobre como usar o Windows PowerShell para gerenciar o Lync Online, consulte [usando o Windows PowerShell para gerenciar o Lync Online](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
 
 </div>
 

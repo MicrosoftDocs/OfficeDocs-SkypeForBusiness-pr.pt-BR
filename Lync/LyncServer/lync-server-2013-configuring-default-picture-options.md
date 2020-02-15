@@ -12,16 +12,16 @@ ms:contentKeyID: 56280893
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e551d069da9a3afb7a884c28096dd97ab3702539
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 912bf3c2c30474755fbefd7399f110ae898fc104
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758145"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046424"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41758145"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-03-22_
+_**Última modificação do tópico:** 2013-03-22_
 
 Por padrão, as imagens dos usuários são exibidas automaticamente. Se os usuários quiserem ocultar suas imagens, poderão selecionar a opção **ocultar minha imagem** no cliente do Lync. No entanto, essa configuração é ignorada por alguns outros aplicativos do Office.
 
-Se a possibilidade de exibir imagens mesmo quando desativada pelo usuário for uma preocupação, você pode alterar as configurações de exibição de imagem do Lync globalmente ou para um site ou serviço, de modo que as imagens dos usuários não sejam mostradas por padrão. Use o seguinte cmdlet do Shell de gerenciamento do Lync Server para que as imagens do usuário não sejam mostradas, a menos que explicitamente selecione a opção **mostrar minha imagem** no cliente:
+Se a possibilidade de exibir imagens mesmo quando desativada pelo usuário é uma preocupação, você pode alterar as configurações de exibição de imagem do Lync globalmente ou para um site ou serviço para que as imagens dos usuários não sejam mostradas por padrão. Use o seguinte cmdlet do Shell de gerenciamento do Lync Server para que as imagens do usuário não sejam mostradas, a menos que explicitamente selecione a opção **mostrar minha imagem** no cliente:
 
     Set-CsPrivacyConfiguration -DisplayPublishedPhotoDefault $False
 

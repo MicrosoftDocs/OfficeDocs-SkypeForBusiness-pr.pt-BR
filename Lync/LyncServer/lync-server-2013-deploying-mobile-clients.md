@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: implantação de clientes móveis'
+title: 'Lync Server 2013: Implantando clientes móveis'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185854
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8b4b3d0e47172af35464cbd95e56a762f3d590fa
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4cd27963546b45425d6ddd134ce716b475f3dd1b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757625"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050603"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41757625"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-02-19_
+_**Última modificação do tópico:** 2013-02-19_
 
-Os aplicativos do Lync 2013 para clientes móveis fornecem mensagens instantâneas (IM), presença aprimorada e telefonia para os usuários de sua organização que estão se conectando de um smartphone ou um telefone com uma edição profissional do Windows Mobile. Você pode instruir os usuários a instalarem o Lync 2013 direcionando-os para o Marketplace do aplicativo para seu celular.
+Os aplicativos do Lync 2013 para clientes móveis fornecem mensagens instantâneas (IM), presença avançada e telefonia para usuários em sua organização que estão se conectando de um smartphone ou um telefone que executa uma edição profissional do Windows Mobile. Você pode instruir seus usuários a instalar o Lync 2013 direcionando-os para o Marketplace de aplicativos para seu celular.
 
 <div>
 
 
 > [!NOTE]  
-> O Lync Server 2013 também é compatível com o Lync 2010 para clientes móveis. Para obter detalhes, consulte os seguintes artigos na biblioteca do Lync Server 2010 TechNet: 
+> O Lync Server 2013 também suporta Lync 2010 para clientes móveis. Para obter detalhes, consulte os seguintes artigos na Biblioteca TechNet do Lync Server 2010: 
 > <UL>
 > <LI>
 > <P>"Planejando clientes móveis" em <A href="http://go.microsoft.com/fwlink/p/?linkid=235955">http://go.microsoft.com/fwlink/p/?LinkID=235955</A>.</P>
@@ -58,7 +58,7 @@ Os aplicativos do Lync 2013 para clientes móveis fornecem mensagens instantâne
 
 ## <a name="in-this-section"></a>Nesta seção
 
-  - [Implantação do Lync para Windows Phone no Lync Server 2013](lync-server-2013-deploying-lync-for-windows-phone.md)
+  - [Implantando o Lync para Windows Phone no Lync Server 2013](lync-server-2013-deploying-lync-for-windows-phone.md)
 
   - [Implantando o Lync para iPhone e iPad no Lync Server 2013](lync-server-2013-deploying-lync-for-iphone-and-ipad.md)
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Implantando Servidores de Mediação e definindo pares'
+title: 'Lync Server 2013: implantando servidores de mediação e definindo pares'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185077
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b20f5e733dddd34971ca3a5070e99364785e147a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7e9ca9fa29d2646a38a9cbf94d79ba9766b21d62
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757635"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050643"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deploying-mediation-servers-and-defining-peers-in-lync-server-2013"></a>Implantando Servidores de Mediação e definindo pares no Lync Server 2013
+# <a name="deploying-mediation-servers-and-defining-peers-in-lync-server-2013"></a>Implantando servidores de mediação e definindo pares no Lync Server 2013
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41757635"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-21_
+_**Última modificação do tópico:** 2012-09-21_
 
-A carga de trabalho do Enterprise Voice, a conferência discada e os aplicativos avançados do Enterprise Voice (aplicativo do grupo de resposta, o aplicativo de estacionamento de chamadas, o controle de admissão de chamadas (CAC) e assim por diante) estão disponíveis em pools front-ends. Com o Lync Server 2013, a funcionalidade do servidor de mediação é incorporada ao servidor front-end. Um servidor de mediação autônomo separado não é mais necessário. Os pools front-ends podem se comunicar diretamente com gateways compatíveis (um gateway PSTN (rede telefônica pública comutada) ou um IP-PBX, removendo a necessidade de um servidor de mediação funcionar como intermediário.
+A carga de trabalho do Enterprise Voice, conferência discada e aplicativos avançados do Enterprise Voice (aplicativo de grupo de resposta, aplicativo de estacionamento de chamada, controle de admissão de chamadas (CAC) e assim por diante), estão disponíveis em pools de front-ends. Com o Lync Server 2013, a funcionalidade do servidor de mediação está incorporada ao servidor front-end. Um servidor de mediação autônomo separado não é mais necessário. Os pools de front-ends podem se comunicar diretamente com os gateways com suporte (um gateway PSTN (rede telefônica pública comutada) ou um IP-PBX, removendo a necessidade de um servidor de mediação servir como intermediário.
 
 A única exceção é se você configurar um tronco SIP para se conectar a um Controlador de Borda de Sessão de um Provedor de Serviços de Telefonia e Internet. Para conectar sua infraestrutura do Enterprise Voice ao seu provedor de tronco SIP, um servidor de mediação separado deve ser implantado.
 
-A conexão entre o Lync Server (o componente do servidor de mediação em um pool de front-end ou um servidor de mediação autônomo) e um gateway é definido como uma associação lógica chamada de *tronco*. Os tópicos desta seção descrevem como definir um tronco e como implantar um servidor de mediação autônomo, se você se conectar a um tronco SIP.
+A conexão entre o Lync Server (o componente do servidor de mediação em um pool de front-ends ou servidor de mediação autônomo) e um gateway é definido como uma associação lógica chamada de *tronco*. Os tópicos nesta seção descrevem como definir um tronco e como implantar um Servidor de Mediação autônomo, se você se conectar a um tronco SIP.
 
 <div>
 
@@ -49,9 +49,9 @@ A conexão entre o Lync Server (o componente do servidor de mediação em um poo
 
   - [Definir um servidor de mediação no construtor de topologias no Lync Server 2013](lync-server-2013-define-a-mediation-server-in-topology-builder.md)
 
-  - [Definir um gateway no construtor de topologias no Lync Server 2013](lync-server-2013-define-a-gateway-in-topology-builder.md)
+  - [Definir um gateway no construtor de topologia no Lync Server 2013](lync-server-2013-define-a-gateway-in-topology-builder.md)
 
-  - [Instalar os arquivos do servidor de mediação no Lync Server 2013](lync-server-2013-install-the-files-for-mediation-server.md)
+  - [Instalar os arquivos para o servidor de mediação no Lync Server 2013](lync-server-2013-install-the-files-for-mediation-server.md)
 
   - [Definir troncos adicionais no construtor de topologias no Lync Server 2013](lync-server-2013-define-additional-trunks-in-topology-builder.md)
 
@@ -61,7 +61,7 @@ A conexão entre o Lync Server (o componente do servidor de mediação em um poo
 
 ## <a name="related-sections"></a>Seções Relacionadas
 
-[Configurando conferência discada no Lync Server 2013](lync-server-2013-configuring-dial-in-conferencing.md)
+[Configurando a conferência discada no Lync Server 2013](lync-server-2013-configuring-dial-in-conferencing.md)
 
 </div>
 

@@ -12,16 +12,16 @@ ms:contentKeyID: 48185948
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 14f2df8a04c5efbf8c62bc4e17bbdd156913daae
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: df0a5ea6da9fad7f6a7e242bb522c493962fc603
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732831"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050773"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,41 +35,41 @@ ms.locfileid: "41732831"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-02-24_
+_**Última modificação do tópico:** 2013-02-24_
 
-Você pode executar todos os casos de teste em seu pacote de casos de teste de roteamento de voz, ou pode executar um ou mais casos de teste selecionados.
+Você pode executar todos os casos de teste no seu pacote de casos de teste de roteamento de voz ou pode executar um ou mais casos de teste selecionados.
 
 <div>
 
 ## <a name="to-run-all-voice-routing-test-cases"></a>Para executar todos os casos de teste de roteamento de voz
 
-1.  Faça logon no computador como um membro do grupo RTCUniversalServerAdmins ou como um membro da função CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator. Para obter detalhes, consulte [delegar permissões de configuração no Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
+1.  Faça logon no computador como um membro do grupo RTCUniversalServerAdmins ou como membro da função CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator. Para obter detalhes, consulte [delegar permissões de configuração no Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
 
-2.  Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [abrir ferramentas administrativas do Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Na barra de navegação à esquerda, clique em **Roteamento de voz** e, em seguida, clique em **testar roteamento de voz**.
+3.  Na barra de navegação esquerda, clique em **Roteamento de voz** e em **Testar roteamento de voz**.
 
-4.  Na página **testar roteamento de voz** , clique em **ação** e, em seguida, clique em **executar tudo**.
+4.  Na página **Testar roteamento de voz**, clique em **Ação ** e em **Executar todos**.
     
-    O status de aprovação ou falha de cada caso de teste é mostrado na coluna **pass/fail** . Se um caso de teste ainda não foi executado, N/d é mostrado na coluna **pass/fail** .
+    O status de aprovação ou reprovação de cada caso de teste é exibido na coluna **Aprovado/reprovado**. Se um caso de teste ainda não foi executado, N/D é exibido na coluna **Aprovado/reprovado**.
 
-5.  Adicionais Para ver os resultados detalhados de cada caso de teste, clique duas vezes no nome do caso de teste. Os resultados são mostrados na área sombreada no lado direito da página **Editar caso de teste** :
+5.  (Opcional) Para ver os resultados detalhados para cada caso de teste, clique duas vezes no nome do caso de teste. Os resultados são exibidos na área acinzentada no lado direito da página **Editar caso de teste**:
     
-    1.  **Resultado do teste:** Status geral de aprovação ou falha da execução do caso de teste.
+    1.  **Resultado do teste:** Status de aprovação geral ou de falha da execução do caso de teste.
     
-    2.  **Regra de normalização:** A primeira regra de normalização no plano de discagem selecionada para este caso de teste que corresponda ao número discado (o valor no campo **número a ser testado** ).
+    2.  **Regra de normalização:** A primeira regra de normalização no plano de discagem selecionado para este caso de teste que corresponde ao número discado (o valor no campo **número para teste** ).
     
-    3.  **Número normalizado:** O valor do número discado após a regra de normalização o converteu.
+    3.  **Número normalizado:** O valor do número discado após a regra de normalização a converteu.
     
-    4.  **Uso da primeira PSTN:** O primeiro registro de uso de rede telefônica pública comutada (PSTN) na política de voz selecionada para este caso de teste que corresponda ao número discado.
+    4.  **Primeiro uso de PSTN:** O primeiro registro de uso de PSTN (rede telefônica pública comutada) na política de voz selecionada para este caso de teste que corresponde ao número discado.
     
-    5.  **Primeira rota:** A primeira rota de voz no primeiro registro de uso PSTN que corresponde ao número discado.
+    5.  **Primeiro roteamento:** A primeira rota de voz no primeiro registro de uso de PSTN que corresponde ao número discado.
         
         <div>
         
 
         > [!NOTE]  
-        > O <STRONG>registro de uso PSTN esperado</STRONG> e os campos de <STRONG>rota esperada</STRONG> são opcionais na configuração de caso de teste de roteamento de voz. Se o caso de teste não especificar esses valores, o campo correspondente nos resultados do teste estará vazio.
+        > Os campos <STRONG>Registro de uso PSTN esperado</STRONG> e <STRONG>Roteamento esperado</STRONG> são opcionais na configuração do caso de teste de roteamento de voz. Se o caso de teste não especificar estes valores, o campo correspondente nos resultados de teste estarão vazios.
 
         
         </div>
@@ -78,37 +78,37 @@ Você pode executar todos os casos de teste em seu pacote de casos de teste de r
 
 <div>
 
-## <a name="to-run-one-or-more-selected-voice-routing-test-cases"></a>Para executar um ou mais casos de teste de roteamento de voz selecionado
+## <a name="to-run-one-or-more-selected-voice-routing-test-cases"></a>Para executar um ou mais casos de teste de roteamento de voz selecionados
 
-1.  Faça logon no computador como um membro do grupo RTCUniversalServerAdmins ou como um membro da função CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator. Para obter detalhes, consulte [delegar permissões de configuração no Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
+1.  Faça logon no computador como um membro do grupo RTCUniversalServerAdmins ou como membro da função CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator. Para obter detalhes, consulte [delegar permissões de configuração no Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
 
-2.  Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [abrir ferramentas administrativas do Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Na barra de navegação à esquerda, clique em **Roteamento de voz**e, em seguida, clique em **testar roteamento de voz**.
+3.  Na barra de navegação esquerda, clique em **Roteamento de Voz** e em **Testar roteamento de voz**.
 
-4.  Na página **testar roteamento de voz** , clique nos nomes dos casos de teste que você deseja executar.
+4.  Na página **Testar roteamento de voz **, clique nos nomes dos casos de teste que você deseja executar.
 
-5.  No menu **ação** , clique em **executar selecionado**.
+5.  No menu **Ação **, clique em **Executar selecionado**.
     
-    O status de aprovação ou falha de cada caso de teste é mostrado na coluna **pass/fail** . Se um caso de teste ainda não foi executado, N/d é mostrado na coluna **pass/fail** .
+    O status de aprovação ou reprovação de cada caso de teste é exibido na coluna **Aprovado/reprovado**. Se um caso de teste ainda não foi executado, N/D é exibido na coluna **Aprovado/reprovado**.
 
-6.  Adicionais Para ver os resultados detalhados de cada caso de teste, clique duas vezes no nome do caso de teste. Os resultados são mostrados na área sombreada no lado direito da página **Editar caso de teste** :
+6.  (Opcional) Para ver os resultados detalhados para cada caso de teste, clique duas vezes no nome do caso de teste. Os resultados são exibidos na área acinzentada no lado direito da página **Editar caso de teste**:
     
-    1.  **Resultado do teste:** Status geral de aprovação ou falha da execução do caso de teste.
+    1.  **Resultado do teste:** Status de aprovação geral ou de falha da execução do caso de teste.
     
-    2.  **Regra de normalização:** A primeira regra de normalização no plano de discagem selecionada para este caso de teste que corresponda ao número discado (o valor no campo **número a ser testado** ).
+    2.  **Regra de normalização:** A primeira regra de normalização no plano de discagem selecionado para este caso de teste que corresponde ao número discado (o valor no campo **número para teste** ).
     
-    3.  **Número normalizado:** O valor do número discado após a regra de normalização o converteu.
+    3.  **Número normalizado:** O valor do número discado após a regra de normalização a converteu.
     
-    4.  **Uso da primeira PSTN:** O primeiro registro de uso PSTN na política de voz selecionada para este caso de teste que corresponda ao número discado.
+    4.  **Primeiro uso de PSTN:** O primeiro registro de uso de PSTN na política de voz selecionada para este caso de teste que corresponde ao número discado.
     
-    5.  **Primeira rota:** A primeira rota de voz no primeiro registro de uso PSTN que corresponde ao número discado.
+    5.  **Primeiro roteamento:** A primeira rota de voz no primeiro registro de uso de PSTN que corresponde ao número discado.
         
         <div>
         
 
         > [!NOTE]  
-        > O <STRONG>registro de uso PSTN esperado</STRONG> e os campos de <STRONG>rota esperada</STRONG> são opcionais na configuração de caso de teste de roteamento de voz. Se o caso de teste não especificar esses valores, o campo correspondente nos resultados do teste estará vazio.
+        > Os campos <STRONG>Registro de uso PSTN esperado</STRONG> e <STRONG>Roteamento esperado</STRONG> são opcionais na configuração do caso de teste de roteamento de voz. Se o caso de teste não especificar estes valores, o campo correspondente nos resultados de teste estarão vazios.
 
         
         </div>

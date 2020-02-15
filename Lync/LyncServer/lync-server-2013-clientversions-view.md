@@ -12,16 +12,16 @@ ms:contentKeyID: 49733825
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8fd25da49e8a3b6ad7838ff27a4472e711b97421
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1a7e62fbf56d270c6d2d0c65415dc28dd30e4449
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756405"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046664"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41756405"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-01_
+_**Última modificação do tópico:** 2012-10-01_
 
-A exibição ClientVersions armazena informações sobre os vários tipos de cliente e versões que participaram de sessões registradas no banco de dados. Cada registro na exibição representa uma versão do cliente. Este modo de exibição foi apresentado no Microsoft Lync Server 2013.
+A exibição ClientVersions armazena informações sobre os vários tipos de cliente e versões que participaram de sessões gravadas no banco de dados. Cada registro na exibição representa uma versão do cliente. Este modo de exibição foi introduzido no Microsoft Lync Server 2013.
 
 <div>
 
@@ -71,7 +71,7 @@ A exibição ClientVersions armazena informações sobre os vários tipos de cli
 </tr>
 <tr class="even">
 <td><p><strong>Versão</strong></p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p>nvarchar (256)</p></td>
 <td><p>Representa o agente do usuário.</p></td>
 </tr>
 <tr class="odd">
@@ -82,7 +82,7 @@ A exibição ClientVersions armazena informações sobre os vários tipos de cli
 <tr class="even">
 <td><p><strong>ClientCategory</strong></p></td>
 <td><p>nvarchar (64)</p></td>
-<td><p>Categoria à qual o cliente pertence. Por exemplo, o cliente Conferencing_Attendant_1 0 pertence à CAA ClientCategory.</p></td>
+<td><p>Categoria na qual o cliente pertence. Por exemplo, o cliente Conferencing_Attendant_1.pertence ao CAA ClientCategory.</p></td>
 </tr>
 </tbody>
 </table>

@@ -12,16 +12,16 @@ ms:contentKeyID: 48183483
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: facfda5d1d7ce67ea08f71cbfb943792eeced7a1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: edacf70cf4a8b899857864c400fa92f78bb0d94b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729501"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049513"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,31 +35,31 @@ ms.locfileid: "41729501"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-21_
+_**Última modificação do tópico:** 2012-09-21_
 
-Os usuários do site de filiais obtêm a maioria da funcionalidade do Lync Server 2013 do servidor no site central ao qual o site de filial está associado. Cada site de filial está associado a um site central de exatamente. Para fornecer chamadas de e para a rede telefônica pública comutada (PSTN), um site de filial pode conter qualquer um dos seguintes:
+Os usuários do site de filial obtêm a maior parte da funcionalidade do Lync Server 2013 do servidor no site central ao qual o site de filial está associado. Cada filial está associada a exatamente um local central. Para fazer chamadas de/para a PSTN (Rede Telefônica Pública Comutada), uma filial deve incluir qualquer um dos itens a seguir:
 
-  - Um gateway PSTN e, possivelmente, um servidor meditação
+  - Um gateway PSTN e, possivelmente, um Servidor de Mediação
 
   - Um tronco SIP
 
-  - Uma infraestrutura de voz existente com um PBX (Private Branch Exchange)
+  - Uma infraestrutura existente de voz com uma central privada de comutação telefônica (PBX)
 
-  - Um aparelho de ramificação sobreviventes
+  - Um aparelho de filial persistente
 
-  - Um servidor de ramificação sobreviventes
+  - Um servidor de filial persistente
 
-Os sites de filiais com um aparelho de ramificação sobreviventes ou um servidor de filiais sobreviventes são mais resistentes em tempo de falhas de rede de longa distância ou de locais centrais do que os sites de filiais sem uma dessas soluções. Por exemplo, em um site com um aparelho de ramificação sobreviventes ou um servidor de ramificação sobreviventes implantado, os usuários ainda poderão fazer e receber chamadas PSTN se a rede que conecta o site de filial ao site central estiver inativa. Outra maneira de obter resiliência de site de filial é usar um gateway PSTN ou um tronco SIP com uma implantação completa do Lync Server no site da filial.
+Os sites de filial com um aparelho de filial persistente ou servidor de filial persistente são mais resistentes em horários de falhas de rede de longa distância ou de site central do que os sites de filiais sem uma dessas soluções. Por exemplo, em um site com um aparelho de filial persistente ou um servidor de filial persistente implantado, os usuários ainda poderão fazer e receber chamadas PSTN se a rede que conecta o site de filial ao site central estiver desativada. Outra maneira de obter resiliência de site de filial é usar um gateway PSTN ou um tronco SIP com uma implantação do Lync Server em escala total no site de filial.
 
-Para obter detalhes sobre qual implantação de site de filial é ideal para sua organização, incluindo pré-requisitos e outras considerações de planejamento, consulte [planejando a conectividade PSTN no Lync Server 2013](lync-server-2013-planning-for-pstn-connectivity.md) e [planejando a resiliência de voz no site de filial no Lync Server 2013](lync-server-2013-planning-for-branch-site-voice-resiliency.md) na documentação de planejamento.
+Para obter detalhes sobre qual implantação de site de filial é ideal para sua organização, incluindo pré-requisitos e outras considerações de planejamento, consulte [Planning for PSTN Connectivity in Lync server 2013](lync-server-2013-planning-for-pstn-connectivity.md) e [Planning for Branch-site Voice resiliência no Lync Server 2013](lync-server-2013-planning-for-branch-site-voice-resiliency.md) na documentação de planejamento.
 
 <div>
 
 ## <a name="in-this-section"></a>Nesta seção
 
-  - [Fornecendo conectividade de PSTN ao site da filial no Lync Server 2013](lync-server-2013-providing-pstn-connectivity-at-a-branch-site.md)
+  - [Fornecendo conectividade PSTN em um site de filial no Lync Server 2013](lync-server-2013-providing-pstn-connectivity-at-a-branch-site.md)
 
-  - [Implantando Aplicativo ou Servidor de Filial Persistente com Lync Server 2013](lync-server-2013-deploying-a-survivable-branch-appliance-or-server.md)
+  - [Implantando um servidor ou aparelho de filial persistente com o Lync Server 2013](lync-server-2013-deploying-a-survivable-branch-appliance-or-server.md)
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Habilitar usuários para correio de voz hospedado'
+title: 'Lync Server 2013: habilitar usuários para caixa postal hospedada'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185919
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8e0ce9ee4da6ee0a36e5e5f0028371aab8af523f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e7287f31a4dc0e43b0108ce666e9c65f51f75f2d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735992"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046654"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="enable-users-for-hosted-voice-mail-in-lync-server-2013"></a>Habilitar usuários para correio de voz hospedado no Lync Server 2013
+# <a name="enable-users-for-hosted-voice-mail-in-lync-server-2013"></a>Habilitar usuários para caixa postal hospedada no Lync Server 2013
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41735992"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-24_
+_**Última modificação do tópico:** 2012-09-24_
 
-Siga o procedimento para habilitar os usuários do Lync Server 2013 para a caixa postal em um serviço do Exchange Unified Messaging (UM) hospedado.
+Siga o procedimento para habilitar os usuários do Lync Server 2013 para caixa postal em um serviço de UM (Unificação de mensagens) do Exchange hospedado.
 
-Para obter detalhes, consulte [Gerenciamento de usuários hospedados do Exchange no Lync Server 2013](lync-server-2013-hosted-exchange-user-management.md) na documentação de planejamento.
+Para obter detalhes, consulte [Hosted Exchange User Management in Lync Server 2013](lync-server-2013-hosted-exchange-user-management.md) na documentação de planejamento.
 
 Para obter detalhes sobre o cmdlet [set-CsUser](https://docs.microsoft.com/powershell/module/skype/Set-CsUser) , consulte a documentação do Shell de gerenciamento do Lync Server.
 
@@ -47,7 +47,7 @@ Para obter detalhes sobre o cmdlet [set-CsUser](https://docs.microsoft.com/power
 
 
 > [!IMPORTANT]  
-> Para que um usuário do Lync Server 2013 possa ser habilitado para a caixa postal hospedada, uma política de caixa postal hospedada que se aplica à conta de usuário deve ser implantada. Para obter detalhes, consulte <A href="lync-server-2013-hosted-voice-mail-policies.md">políticas de caixa postal hospedadas no Lync Server 2013</A>.
+> Antes que um usuário do Lync Server 2013 possa ser habilitado para caixa postal hospedada, uma política de caixa postal hospedada que se aplica à sua conta de usuário deve ser implantada. Para obter detalhes, consulte <A href="lync-server-2013-hosted-voice-mail-policies.md">Hosted voice mail Policies in Lync Server 2013</A>.
 
 
 
@@ -55,9 +55,9 @@ Para obter detalhes sobre o cmdlet [set-CsUser](https://docs.microsoft.com/power
 
 <div>
 
-## <a name="to-enable-users-for-hosted-voice-mail"></a>Para habilitar usuários para a caixa postal hospedada
+## <a name="to-enable-users-for-hosted-voice-mail"></a>Para habilitar usuários para caixa postal hospedada
 
-1.  Inicie o Shell de gerenciamento do Lync Server: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Shell de gerenciamento do Lync Server**.
+1.  Inicie o Shell de Gerenciamento do Lync Server: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Shell de Gerenciamento do Lync Server**.
 
 2.  Execute o cmdlet Set-CsUser para configurar a conta de usuário para a caixa postal hospedada. Por exemplo, execute:
     
@@ -65,23 +65,23 @@ Para obter detalhes sobre o cmdlet [set-CsUser](https://docs.microsoft.com/power
     
     O exemplo anterior define os seguintes parâmetros:
     
-      - O **HostedVoiceMail** permite que as chamadas de correio de voz de um usuário sejam roteadas para UM Exchange um hospedado. Ele também sinaliza o Microsoft Lync 2013 para iluminar o indicador "Call voice mail".
+      - **HostedVoiceMail ** permite que as chamadas de caixa postal do usuário sejam roteadas para o UM do Exchange hospedado. Ele também sinaliza o Microsoft Lync 2013 para acelerar o indicador "Call de caixa postal".
     
-      - **Identidade** especifica a conta de usuário a ser modificada. O valor IDENTITY pode ser especificado usando qualquer um dos seguintes formatos:
+      - **Identidade** especifica a conta de usuário a ser modificada. O valor de Identidade pode ser especificado usando qualquer um dos seguintes formatos:
         
           - O endereço SIP do usuário
         
-          - O nome de usuário do Active Directory do usuário do Active Directory
+          - O nome UPN do Active Directory do usuário
         
           - O nome de logon\\do domínio do usuário (por exemplo\\, contoso kenmyer)
         
-          - O nome de exibição dos serviços de domínio Active Directory do usuário (por exemplo, Ken Myer). Se estiver usando o nome de exibição como o valor de identidade, você poderá usar o\*caractere curinga asterisco (). Por exemplo, a identidade "\* Smith" retorna todos os usuários que têm um nome de exibição que termina com o valor de cadeia de caracteres "Smith".
+          - O Nome de exibição de serviços de domínio do Active Directory do usuário (por exemplo, Ken Myer). Se estiver usando o nome de exibição como o valor de identidade, você poderá usar o\*caractere curinga asterisco (). Por exemplo, a identidade "\* Smith" retorna todos os usuários que têm um nome de exibição que termina com o valor de cadeia de caracteres "Smith".
         
         <div>
         
 
         > [!NOTE]  
-        > O nome de conta SAM do Active Directory do usuário não pode ser usado como o valor de identidade porque o SAM-Account-Name não é necessariamente exclusivo na floresta.
+        > O Nome de conta SAM do Active Directory do usuário não pode ser usado como o valor de Identidade, pois o Nome de conta SAM não é necessariamente exclusivo na floresta.
 
         
         </div>

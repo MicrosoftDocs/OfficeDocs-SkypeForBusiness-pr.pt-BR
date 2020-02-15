@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9b1367ce5f3814c7ca6a9743e5ec0ccc159312cc
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 81e0b580099f3fb8f40a3109dc5f1c76e910c02b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837781"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046034"
 ---
 # <a name="optimize-feedback-and-reporting-for-your-microsoft-teams-adoption"></a>Otimizar os comentários e relatórios de adoção do Microsoft Teams
 
@@ -55,7 +55,7 @@ Prática recomendada: faça com que os representantes do seu departamento de sup
 Há três tipos de relatório que você deve revisar ao implantar e adotar o Microsoft Teams:
 
 - [Integridade do serviço](https://status.office365.com/) – do Office 365 e do seu departamento de suporte interno de ti.
-- [Atividade do serviço](https://docs.microsoft.com/en-us/office365/admin/activity-reports/activity-reports?redirectSourcePath=%252fen-us%252farticle%252fActivity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263&view=o365-worldwide) – do Office 365 Veja [relatórios no Microsoft Teams](https://docs.microsoft.com/en-us/office365/admin/activity-reports/microsoft-teams-user-activity?redirectSourcePath=%252farticle%252fOffice-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524&view=o365-worldwide). Você também pode usar informações de outros sistemas dentro da sua organização.
+- [Atividade do serviço](https://docs.microsoft.com/office365/admin/activity-reports/activity-reports?redirectSourcePath=%252fen-us%252farticle%252fActivity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263&view=o365-worldwide) – do Office 365 Veja [relatórios no Microsoft Teams](https://docs.microsoft.com/office365/admin/activity-reports/microsoft-teams-user-activity?redirectSourcePath=%252farticle%252fOffice-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524&view=o365-worldwide). Você também pode usar informações de outros sistemas dentro da sua organização.
 - Satisfação do serviço – coletada de fóruns internos da Comunidade e pesquisas sobre experiências específicas
 
 ![Um ícone que representa a próxima](media/teams-adoption-next-icon.png) etapa a seguir: [reconhecimento de unidade e treinamento de implementação](teams-adoption-drive-awareness.md)

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Habilitando conectividade Lync-Skype'
+title: 'Lync Server 2013: Habilitando a conectividade Lync-Skype'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 57793361
 ms.date: 12/16/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0125ff4719cd3dfeb65353df747395e596b45dac
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d2b950b8ff778ee48014dc951d89baafab59510c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735811"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048214"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="enabling-lync-skype-connectivity-in-lync-server-2013"></a>Habilitando conectividade Lync-Skype no Lync Server 2013
+# <a name="enabling-lync-skype-connectivity-in-lync-server-2013"></a>Habilitando a conectividade Lync-Skype no Lync Server 2013
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41735811"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2014-12-16_
+_**Última modificação do tópico:** 2014-12-16_
 
-Depois de enviar a solicitação de provisionamento, você pode se concentrar no ambiente do Lync Server e nas tarefas administrativas necessárias para configurar o Lync-conectividade com o Skype. Nesta seção, presumimos que o administrador do Lync Server implantou o Lync Server e configurou o acesso externo. Para obter informações adicionais sobre como configurar o acesso externo para o Lync Server, consulte [planejar o acesso de usuários externos no Lync server 2013](lync-server-2013-planning-for-external-user-access.md) e [implantar o acesso de usuários externos no Lync Server 2013](lync-server-2013-deploying-external-user-access.md).
+Depois de enviar a solicitação de provisionamento, você pode se concentrar no ambiente do Lync Server e nas tarefas administrativas necessárias para configurar a conectividade Lync-Skype. Nesta seção, presumimos que o administrador do Lync Server implantou o Lync Server e configurou o acesso externo. Para obter informações adicionais sobre como configurar o acesso externo para o Lync Server, consulte [Planning for External User Access in Lync server 2013](lync-server-2013-planning-for-external-user-access.md) e [Deploying external User Access in Lync Server 2013](lync-server-2013-deploying-external-user-access.md).
 
-Para preparar o ambiente do Lync Server para o Lync-conectividade do Skype, o administrador do Lync Server deve completar as três tarefas a seguir:
+Para preparar o ambiente do Lync Server para a conectividade Lync-Skype, o administrador do Lync Server deve concluir as três tarefas a seguir:
 
 <div>
 
-## <a name="1-configure-federation-and-pic"></a>1 \. Configurar a federação e a PIC
+## <a name="1-configure-federation-and-pic"></a>1\. Configurar a Federação e a PIC
 
-A Federação é necessária para permitir que os usuários do Skype se comuniquem com usuários do Lync em sua organização. A PIC (conectividade de mensagens instantâneas) pública é uma classe de Federação e deve ser configurada para permitir que seus usuários do Lync se comuniquem com usuários do Skype. A Federação e a PIC são configuradas usando o painel de controle do Lync Server, mostrado abaixo.
+A Federação é necessária para permitir que os usuários do Skype se comuniquem com usuários do Lync em sua organização. A PIC (conectividade de mensagens instantâneas públicas) é uma classe de Federação e deve ser configurada para permitir que seus usuários do Lync se comuniquem com os usuários do Skype. A Federação e a PIC são configuradas usando o painel de controle do Lync Server, mostrado abaixo.
 
 ![Mostrando PIC](images/Dn440170.451b94e3-0b38-488c-835f-1f25690e8074(OCS.15).jpg "Mostrando PIC")
 
@@ -53,7 +53,7 @@ A Federação é necessária para permitir que os usuários do Skype se comuniqu
 
 
 > [!IMPORTANT]  
-> A federação de PIC não tem mais suporte no Live Communication Server 2005 SP1 e no Office Communications Server 2007. As plataformas com suporte para a Federação PIC incluem o Lync Server 2013, o Lync Server 2010 e o Office Communications Server 2007 R2.
+> A Federação de PIC não é mais suportada pelo Live Communication Server 2005 SP1 ou pelo Office Communications Server 2007. As plataformas suportadas para Federação img incluem Lync Server 2013, Lync Server 2010 e Office Communications Server 2007 R2.
 
 
 
@@ -63,9 +63,9 @@ A Federação é necessária para permitir que os usuários do Skype se comuniqu
 
 <div>
 
-## <a name="2-configure-at-least-one-policy-to-support-federated-user-access"></a>2 \. Configurar pelo menos uma política para dar suporte ao acesso de usuários federados
+## <a name="2-configure-at-least-one-policy-to-support-federated-user-access"></a>2\. Configurar pelo menos uma política para suportar o acesso de usuário federado
 
-Usando o painel de controle do Lync Server, um administrador deve configurar uma ou mais políticas de acesso externo do usuário para controlar se os usuários do Skype podem colaborar com usuários internos do Lync Server.
+Usando o painel de controle do Lync Server, um administrador deve configurar uma ou mais políticas de acesso de usuário externo para controlar se os usuários do Skype podem colaborar com usuários internos do Lync Server.
 
 ![Políticas](images/Dn440170.8fd46ad1-9749-422c-8c47-c16ac9032cdb(OCS.15).jpg "Políticas")
 
@@ -73,7 +73,7 @@ Usando o painel de controle do Lync Server, um administrador deve configurar uma
 
 <div>
 
-## <a name="3-configure-the-skype-pic-provider-setting-for-lync"></a>3 \. Configurar a configuração do provedor de PIC da Skype para o Lync
+## <a name="3-configure-the-skype-pic-provider-setting-for-lync"></a>3\. Definir a configuração do provedor de PIC do Skype para Lync
 
 Usando o Shell de gerenciamento do Lync Server, um administrador deve configurar a política de cliente do Lync para exibir o Skype como um provedor de PIC adicional.
 
@@ -81,21 +81,21 @@ Usando o Shell de gerenciamento do Lync Server, um administrador deve configurar
 
 
 > [!NOTE]  
-> Os usuários dos provedores de serviço de conectividade de mensagens instantâneas (PIC) públicas não podem participar de chats ou videoconferências em sua organização até você também configurar pelo menos uma política (etapa 2, anteriormente neste procedimento) para dar suporte à conectividade de mensagens de chat pública.
+> Os usuários dos provedores de serviços públicos da PIC (conectividade de mensagens instantâneas) não podem participar de mensagens instantâneas ou conferências de áudio ou vídeo em sua organização até que você também configure pelo menos uma política (etapa 2, anteriormente neste procedimento) para dar suporte à conectividade de IM pública.
 
 
 
 </div>
 
-1.  Para configurar a Federação e a PIC, consulte "habilitar ou desabilitar a Federação e conectividade de [http://go.microsoft.com/fwlink/p/?LinkId=306063](http://go.microsoft.com/fwlink/p/?linkid=306063)im pública" em.
+1.  Para configurar a Federação e a PIC, consulte "habilitar ou desabilitar Federação e conectividade de IM [http://go.microsoft.com/fwlink/p/?LinkId=306063](http://go.microsoft.com/fwlink/p/?linkid=306063)pública" em.
 
-2.  Para configurar pelo menos uma política para dar suporte ao acesso de usuário federado, consulte "configurar políticas para controlar o acesso [http://go.microsoft.com/fwlink/p/?LinkId=306064](http://go.microsoft.com/fwlink/p/?linkid=306064)ao usuário público" em.
+2.  Para configurar pelo menos uma política para suportar o acesso de usuário federado, consulte "configurar políticas para controlar o acesso de [http://go.microsoft.com/fwlink/p/?LinkId=306064](http://go.microsoft.com/fwlink/p/?linkid=306064)usuário público" em.
 
-**Para editar um Messenger existente ou um provedor de PIC da Skype e configurá-lo para o Skype**
+**Para editar um provedor existente do Messenger ou do Skype PIC e configurá-lo para o Skype**
 
 1.  Em um servidor front-end do Lync Server, abra o Shell de gerenciamento do Lync Server.
 
-2.  Execute estes dois comandos:
+2.  Execute os dois comandos a seguir:
     
     `Remove-CsPublicProvider -Identity <identity-name>`
     
@@ -103,7 +103,7 @@ Usando o Shell de gerenciamento do Lync Server, um administrador deve configurar
     
 
     > [!NOTE]  
-    > Se você ainda não tiver um provedor PIC em seu ambiente e estiver criando um novo provedor PIC, você não precisará executar o cmdlet <STRONG>Remove-CsPublicProvider</STRONG> .
+    > Se você ainda não tem um provedor de PIC em seu ambiente e está criando um novo provedor de PIC, não é necessário executar o cmdlet <STRONG>Remove-CsPublicProvider</STRONG> .
 
     
     </div>
@@ -114,18 +114,18 @@ Usando o Shell de gerenciamento do Lync Server, um administrador deve configurar
     
 
     > [!NOTE]  
-    > Adicionado ao Lync Server 2013 CU5 &amp; o cliente de área de trabalho Lync no Office 2013 SP1, o NameDecorationRoutingDomain e o NameDecorationExcludedDomainList melhoram a situação em que os usuários do Lync adicionam contatos do Skype necessários para "decorar" domínios não-Microsoft para identificar e roteá-los para o Skype (o formato de: usuário (contoso. com) @msn. com). Essas novas configurações permitem a formatação automática dos endereços que o usuário inserir na caixa de diálogo "Adicionar contato do Skype" com o NameDecorationRoutingDomain (que deve ser configurado como msn.com) se não contiver os domínios de NameDecorationExcludedDomainList (no momento, damos suporte a msn.com, live.com, Hotmail.com, outlook.com).
+    > Adicionado ao Lync Server 2013 CU5 &amp; Lync Desktop Client no Office 2013 SP1, o NameDecorationRoutingDomain e o NameDecorationExcludedDomainList aprimoram a situação em que os usuários do Lync adicionando contatos do Skype necessários para "decorar" domínios que não são da Microsoft para identificar e encaminhá-los ao Skype (o formato de: usuário (contoso. com) @msn. com). Essas novas configurações permitirão a formatação automática do usuário do endereço Enter na caixa de diálogo "Adicionar contato do Skype" com o NameDecorationRoutingDomain (que deve ser definido como msn.com) se ele não contiver os domínios no NameDecorationExcludedDomainList ( no momento, podemos oferecer suporte a msn.com, live.com, Hotmail.com, outlook.com).
 
     
     </div>
 
-3.  Em um cliente Lync, agora você pode selecionar Skype como o provedor de PIC e adicionar um cliente Skype especificando a conta da Microsoft. Além disso, um usuário do Skype que mesclou e fez logon com a conta da Microsoft pode enviar solicitação de contato para os usuários do Lync. Para obter mais informações sobre contas da Microsoft, consulte [o que é uma conta da Microsoft?](https://support.skype.com/en/faq/fa12059/what-is-a-microsoft-account). Para obter informações adicionais sobre como adicionar clientes ao Lync, consulte [usando o Lync-conectividade do Skype no Lync Server 2013 como usuário final](lync-server-2013-using-lync-skype-connectivity-as-an-end-user.md).
+3.  A partir de um cliente Lync, agora você pode selecionar Skype como o provedor de PIC e adicionar um cliente Skype especificando sua conta da Microsoft. Além disso, um usuário do Skype que tenha sido mesclado e conectado com a sua conta da Microsoft pode enviar solicitações de contato aos usuários do Lync. Para obter mais informações sobre contas da Microsoft, consulte [o que é uma conta da Microsoft?](https://support.skype.com/en/faq/fa12059/what-is-a-microsoft-account). Para obter informações adicionais sobre como adicionar clientes ao Lync, consulte [usando a conectividade Lync-Skype no Lync Server 2013 como um usuário final](lync-server-2013-using-lync-skype-connectivity-as-an-end-user.md).
     
     ![Adicionar contato do Skype](images/Dn440170.df0e6ed9-2374-4dfa-a815-87281989487c(OCS.15).jpg "Adicionar contato do Skype")
 
 4.  Para obter informações detalhadas sobre como modificar provedores hospedados, consulte "criar ou editar provedores federados SIP [http://go.microsoft.com/fwlink/p/?LinkId=306065](http://go.microsoft.com/fwlink/p/?linkid=306065)hospedados" em.
 
-Isso conclui as tarefas administrativas que devem ser executadas no servidor. Agora você está pronto para o Lync-conectividade com o Skype.
+Isso conclui as tarefas administrativas que devem ser executadas no servidor. Agora você está pronto para a conectividade Lync-Skype.
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: sub relatório Resumo da conferência'
+title: 'Lync Server 2013: sub-relatório de Resumo de conferências'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183742
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2537cbe959639baee6f0f986b3faea1ebd79b5a8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d2c31c614298112b91874882df1e4945845b74bd
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756985"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046314"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41756985"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-06-06_
+_**Última modificação do tópico:** 2012-06-06_
 
-O Sub-relatório de Resumo de Conferências oferece uma visão geral de sessões de conferências com falha. Estas sessões com falha são detalhadas pelo tipo de sessão: sessões de Foco e sessões MCU.
+O Subrelatório de Resumo da Conferência oferece uma visão geral das sessões de conferência em falha. Estas sessões em falha são detalhadas pelo tipo de sessão: Sessão de foco e sessões MCU.
 
 <div>
 
 ## <a name="filters"></a>Filtros
 
-Os filtros oferecem uma forma de retornar um conjunto de dados mais detalhado ou para exibir os dados retornados de formas diferentes. A tabela a seguir lista os filtros que você pode usar com o Sub-relatório de Resumo de Conferências.
+Os filtros oferecem uma forma de retornar um conjunto de dados mais detalhado ou para exibir os dados retornados de formas diferentes. A tabela a seguir lista os filtros que você pode usar com o Subrelatório de Resumo da Conferência.
 
-### <a name="conference-summary-subreport-filters"></a>Filtros do Sub-relatório de Resumo de Conferências
+### <a name="conference-summary-subreport-filters"></a>Filtros do Subrelatório de Resumo da Conferência
 
 <table>
 <colgroup>
@@ -61,27 +61,27 @@ Os filtros oferecem uma forma de retornar um conjunto de dados mais detalhado ou
 <tbody>
 <tr class="odd">
 <td><p><strong>De</strong></p></td>
-<td><p>Data/hora de início para o intervalo de tempo. Para ver os dados por horas, insira a data e hora de início conforme segue:</p>
-<p>7/7/2012 1:00 PM</p>
-<p>Se você não inserir a hora de início, o relatório começará automaticamente à meia-noite do dia especificado. Para ver os dados por dia, insira somente a data:</p>
+<td><p>Data/hora inicial para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora inicial como a seguir:</p>
+<p>7/7/2012 13:00 horas</p>
+<p>Se você não inserir uma hora inicial, o relatório começa automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:</p>
 <p>7/7/2012</p>
-<p>Para exibir por semana ou mês, insira uma data dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):</p>
+<p>Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):</p>
 <p>7/3/2012</p>
-<p>As semanas sempre vão de domingo a sábado.</p></td>
+<p>As semanas são sempre de domingo a sábado.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Até</strong></p></td>
-<td><p>Data/hora final de intervalo de tempo. Para ver os dados por horas, insira a data e hora final conforme segue:</p>
-<p>7/7/2012 1:00 PM</p>
-<p>Se você não inserir a hora final, o relatório terminará automaticamente à meia-noite do dia especificado. Para ver os dados por dia, insira somente a data:</p>
+<td><p><strong>To</strong></p></td>
+<td><p>Data/hora final para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora final como a seguir:</p>
+<p>7/7/2012 13:00 horas</p>
+<p>Se você não inserir uma hora final, o relatório termina automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:</p>
 <p>7/7/2012</p>
-<p>Para exibir por semana ou mês, insira uma data dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):</p>
+<p>Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):</p>
 <p>7/3/2012</p>
-<p>As semanas sempre vão de domingo a sábado.</p></td>
+<p>As semanas sempre correm do domingo até sábado.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Pool</strong></p></td>
-<td><p>O FQDN (nome de domínio totalmente qualificado) do pool Registrador Avançado ou Servidor de Borda. Você pode selecionar um pool individual ou clicar em <strong>[Todos]</strong> para ver os dados de todos os pools. Essa lista suspensa é preenchida automaticamente com base nos registros no banco de dados.</p></td>
+<td><p>FQDN do pool do Registrador ou Servidor de Borda. É possível selecionar um pool individual ou clicar em <strong>[Todos]</strong> para exibir os dados de todos os pools. Esta lista suspensa é preenchida automaticamente para você com base nos registros do banco de dados.</p></td>
 </tr>
 </tbody>
 </table>
@@ -93,9 +93,9 @@ Os filtros oferecem uma forma de retornar um conjunto de dados mais detalhado ou
 
 ## <a name="metrics"></a>Métricas
 
-A tabela a seguir lista as informações fornecidas no Sub-relatório de Resumo de Conferências.
+A tabela a seguir lista as informações fornecidas no Subrelatório de Resumo de Conferência.
 
-### <a name="conference-summary-subreport-metrics"></a>Métricas do Sub-relatório de Resumo de Conferências
+### <a name="conference-summary-subreport-metrics"></a>Métricas do Subrelatório de Resumo da Conferência
 
 <table>
 <colgroup>
@@ -106,13 +106,13 @@ A tabela a seguir lista as informações fornecidas no Sub-relatório de Resumo 
 <thead>
 <tr class="header">
 <th>Nome</th>
-<th>Você pode classificar este item?</th>
+<th>É possível classificar este item?</th>
 <th>Descrição</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Conferências totais</strong></p></td>
+<td><p><strong>Total de conferências</strong></p></td>
 <td><p>Não</p></td>
 <td><p>Número total de conferências realizadas.</p></td>
 </tr>
@@ -122,17 +122,17 @@ A tabela a seguir lista as informações fornecidas no Sub-relatório de Resumo 
 <td><p>Número total de sessões de conferência. Uma única conferência pode ter várias sessões; por exemplo, uma conferência pode incluir uma sessão Foco e uma sessão MCU.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Taxa geral de falha de sessão</strong></p></td>
+<td><p><strong>Taxa de falha de sessão geral</strong></p></td>
 <td><p>Não</p></td>
 <td><p>Porcentagem de todas as conferências que falharam.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Sessões de Foco</strong></p></td>
+<td><p><strong>Sessões de foco</strong></p></td>
 <td><p>Não</p></td>
 <td><p>Número total de sessões de Foco.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Taxa de falha de Foco</strong></p></td>
+<td><p><strong>Taxa de falha do foco</strong></p></td>
 <td><p>Não</p></td>
 <td><p>Porcentagem das sessões de Foco que falharam.</p></td>
 </tr>
@@ -142,14 +142,14 @@ A tabela a seguir lista as informações fornecidas no Sub-relatório de Resumo 
 <td><p>Número total de sessões MCU.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Taxa de falha de MCU</strong></p></td>
+<td><p><strong>Taxa de falha MCU</strong></p></td>
 <td><p>Não</p></td>
 <td><p>Porcentagem de sessões MCU que falharam.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Sessões MCU por modalidade</strong></p></td>
 <td><p>Não</p></td>
-<td><p>Número total de sessões MCU, agrupado por modalidade (por exemplo, conferência de IM).</p></td>
+<td><p>Número total de sessões MCU, agrupado por modalidade (por exemplo, conferência IM).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Taxa de falha por modalidade</strong></p></td>

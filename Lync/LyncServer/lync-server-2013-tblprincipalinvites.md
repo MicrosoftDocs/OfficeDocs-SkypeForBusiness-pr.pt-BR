@@ -12,16 +12,16 @@ ms:contentKeyID: 48184141
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 75d842772c8c0e02352eacf7f80711aa79c29461
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a4316e86d29013587b2302d18a840a4a1859f9ad
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731521"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42047984"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41731521"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-06-25_
+_**Última modificação do tópico:** 2012-06-25_
 
-tblPrincipalInvites contém convites para todos os usuários provisionados para todos os nós com convite automático ativado.
+O tblPrincipalInvites inclui convites para todos os usuários provisionados de todos os nós com a opção de convite automático ativada.
 
 ### <a name="columns"></a>Colunas
 
@@ -56,30 +56,30 @@ tblPrincipalInvites contém convites para todos os usuários provisionados para 
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>multiimprimir</p></td>
-<td><p>int, não nulo</p></td>
-<td><p>ID da entidade de segurança.</p></td>
+<td><p>prinID</p></td>
+<td><p>int, not null</p></td>
+<td><p>ID principal.</p></td>
 </tr>
 <tr class="even">
 <td><p>invID</p></td>
-<td><p>int, não nulo</p></td>
-<td><p>Número seqüencial exclusivo (por ID da entidade) gerado pela tabela tblLastInviteId.</p></td>
+<td><p>int, not null</p></td>
+<td><p>Número sequencial exclusivo (por ID de entidade) gerado a partir da tabela tblLastInviteId.</p></td>
 </tr>
 <tr class="odd">
-<td><p>NodeId</p></td>
+<td><p>nodeID</p></td>
 <td><p>int, não nulo</p></td>
-<td><p>ID do nó (somente sala de chat).</p></td>
+<td><p>ID de nó (somente sala de chat).</p></td>
 </tr>
 <tr class="even">
-<td><p>criar</p></td>
-<td><p>DateTime, não nulo</p></td>
+<td><p>Created</p></td>
+<td><p>datetime, não nulo</p></td>
 <td><p>Hora da criação.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="keys"></a>As
+### <a name="keys"></a>Chaves
 
 <table>
 <colgroup>
@@ -94,16 +94,16 @@ tblPrincipalInvites contém convites para todos os usuários provisionados para 
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>&lt;, NodeId&gt;</p></td>
+<td><p>&lt;imprimir, NodeId&gt;</p></td>
 <td><p>Chave primária.</p></td>
 </tr>
 <tr class="even">
-<td><p>multiimprimir</p></td>
-<td><p>Chave estrangeira com Lookup na tabela tblPrincipal. retoid.</p></td>
+<td><p>prinID</p></td>
+<td><p>Chave estrangeira com pesquisa na tabela tblPrincipal.prinID.</p></td>
 </tr>
 <tr class="odd">
-<td><p>NodeId</p></td>
-<td><p>Chave estrangeira com Lookup na tabela tblNode. NodeId.</p></td>
+<td><p>nodeID</p></td>
+<td><p>Chave estrangeira com pesquisa na tabela tblNode.nodeID.</p></td>
 </tr>
 </tbody>
 </table>

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Suporte a sistemas operacionais de servidor e de ferramentas'
+title: 'Lync Server 2013: suporte ao sistema operacional de servidor e de ferramentas'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185214
 ms.date: 12/02/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f20648d3512914be3c8a32eb61389618eb17abd4
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6def5ee0d20e50dbcd528b2e218fc1fe55217b32
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732501"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048692"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41732501"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2014-12-01_
+_**Última modificação do tópico:** 2014-12-01_
 
-O Lync Server 2013 está disponível apenas em 64 bits, o que exige hardware de 64 bits e edições de 64 bits do Windows Server. Isso significa que todas as funções de servidor e computadores executando as ferramentas administrativas do Lync Server 2013 executam um sistema operacional da edição de 64 bits.
+O Lync Server 2013 está disponível somente no 64 bits, que requer o hardware de 64 bits e as edições de 64 bits do Windows Server. Isso significa que todas as funções de servidor e computadores executando as ferramentas administrativas do Lync Server 2013 executam um sistema operacional de edição de 64 bits.
 
 <div>
 
@@ -45,23 +45,23 @@ O Lync Server 2013 está disponível apenas em 64 bits, o que exige hardware de 
 
 O Lync Server 2013 oferece suporte às edições de 64 bits dos seguintes sistemas operacionais para todas as funções de servidor no Lync Server 2013:
 
-  - O sistema operacional padrão do Windows Server 2008 R2 com Service Pack 1 (SP1) ou o Service Pack mais recente (recomendado)
+  - O sistema operacional Windows Server 2008 R2 com Service Pack 1 (SP1) Standard (obrigatório) ou o Service Pack mais recente (recomendado)
 
-  - O sistema operacional Windows Server 2008 R2 com SP1 (necessário) ou Service Pack mais recente (recomendado)
+  - O sistema operacional Windows Server 2008 R2 com SP1 Enterprise (obrigatório) ou o Service Pack mais recente (recomendado)
 
-  - O sistema operacional Windows Server 2008 R2 com SP1 (necessário) ou Service Pack mais recente (recomendado)
+  - O sistema operacional Windows Server 2008 R2 com SP1 datacenter (obrigatório) ou o Service Pack mais recente (recomendado)
 
-  - O sistema operacional padrão do Windows Server 2012
+  - O sistema operacional Windows Server 2012 Standard
 
   - O sistema operacional Windows Server 2012 datacenter
 
   - Os sistemas operacionais Windows Server 2012 R2 são compatíveis com as atualizações cumulativas do Lync Server 2013:2013 de outubro.
 
-O Lync Server 2013 não é compatível com o seguinte:
+O Lync Server 2013 não é suportado no seguinte:
 
-  - A opção de instalação do núcleo do servidor do Windows Server 2008 R2 ou do Windows Server 2012
+  - A opção de instalação Server Core do Windows Server 2008 R2 ou Windows Server 2012
 
-  - O sistema operacional Windows Web Server 2008 R2 ou o sistema operacional Windows Web Server 2012
+  - O sistema operacional Windows Web Server 2012 R2 ou o sistema operacional Windows Web Server 2008
 
   - Windows Server 2008 R2 HPC Edition ou Windows Server 2012 HPC Edition
 
@@ -69,11 +69,11 @@ O Lync Server 2013 não é compatível com o seguinte:
 
 <div>
 
-## <a name="additional-operating-systems-for-administrative-tools"></a>Sistemas operacionais adicionais para ferramentas administrativas
+## <a name="additional-operating-systems-for-administrative-tools"></a>Outros sistemas operacionais para ferramentas administrativas
 
-As ferramentas administrativas do Lync Server 2013 são instaladas por padrão em servidores que executam o Lync Server 2013, mas você pode instalar ferramentas administrativas separadamente em outros computadores que executam sistemas operacionais Windows. Isso inclui as seguintes versões de 64 bits dos seguintes sistemas operacionais, além das edições de 64 bits dos sistemas operacionais com suporte para a implantação de funções de servidor (conforme descrito na seção anterior).
+As ferramentas administrativas do Lync Server 2013 são instaladas por padrão nos servidores que executam o Lync Server 2013, mas você pode instalar as ferramentas administrativas separadamente em outros computadores que executam sistemas operacionais Windows. Isso inclui as seguintes versões de 64 bits dos seguintes sistemas operacionais, além das edições de 64 bits dos sistemas operacionais suportados para a implantação de funções de servidor (conforme descrito na seção anterior).
 
-  - O sistema operacional Windows 7 com o sistema operacional SP1 (obrigatório) ou Service Pack mais recente (recomendado)
+  - O sistema operacional Windows 7 com o sistema operacional SP1 (obrigatório) ou o Service Pack mais recente (recomendado)
 
   - O sistema operacional Windows 8 ou o Service Pack mais recente (recomendado)
 
@@ -85,11 +85,11 @@ As ferramentas administrativas do Lync Server 2013 são instaladas por padrão e
 
 ## <a name="operating-systems-for-other-servers-in-your-deployment"></a>Sistemas operacionais para outros servidores na sua implantação
 
-  - Para obter detalhes sobre os requisitos para servidores back-end e outros servidores de banco de dados, consulte [suporte a software de banco de dados no Lync Server 2013](lync-server-2013-database-software-support.md).
+  - Para obter detalhes sobre os requisitos para servidores de back-end e outros servidores de banco de dados, consulte [Database software support in Lync Server 2013](lync-server-2013-database-software-support.md).
 
-  - Para obter detalhes sobre requisitos para servidores proxy inversos (para implantação de Edge), consulte [suporte do IIS no Lync Server 2013](lync-server-2013-iis-support.md).
+  - Para obter detalhes sobre os requisitos para servidores de proxy reverso (para implantação de borda), consulte [IIS support in Lync Server 2013](lync-server-2013-iis-support.md).
 
-  - Para obter detalhes sobre outros requisitos de software, incluindo suporte à infraestrutura e à virtualização, consulte os outros tópicos do [suporte de infraestrutura e software do servidor no Lync Server 2013](lync-server-2013-server-software-and-infrastructure-support.md).
+  - Para obter detalhes sobre outros requisitos de software, incluindo suporte a infraestrutura e virtualização, consulte os outros tópicos no [suporte de infraestrutura e software de servidor no Lync Server 2013](lync-server-2013-server-software-and-infrastructure-support.md).
 
 </div>
 

@@ -12,20 +12,20 @@ ms:contentKeyID: 63969636
 ms.date: 05/06/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0b5a251853efe20cc867f78f4f932e2c43efd22c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 341901ce6d467818e6aac433f7d8ca4dca37adef
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756825"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048044"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="monitoring-lync-server-2013-with-system-center-operations-manager"></a>Monitorar o Lync Server 2013 com o System Center Operations Manager
+# <a name="monitoring-lync-server-2013-with-system-center-operations-manager"></a>Monitoramento do Lync Server 2013 com o System Center Operations Manager
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41756825"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2015-05-06_
+_**Última modificação do tópico:** 2015-05-06_
 
-O pacote de gerenciamento do Lync Server (MP) é a solução de monitoramento preferida para monitorar qualquer implantação do Lync Server.
+O pacote de gerenciamento do Lync Server (MP) é a solução de monitoramento escolhida para o monitoramento de qualquer implantação do Lync Server.
 
-O MP implementa a instrumentação de log de eventos e a instrumentação baseada em contador de desempenho e permite a instrumentação recentemente disponível no Lync Server, como eventos de par (falha/sucesso) para vários indicadores de integridade importantes e também implementa completamente as\* novas transações sintéticas (cmdlets do Windows PowerShell de teste-cs).
+O MP implementa o log de eventos tradicional e a instrumentação baseada em contador de desempenho e habilita a instrumentação recentemente disponível no Lync Server, como eventos de pares (falha/sucesso) para vários indicadores de integridade principais, e também implementa totalmente as novas\* transações sintéticas (cmdlets Test-cs do Windows PowerShell).
 
-Você pode encontrar o pacote de gerenciamento do Lync Server 2013 e a documentação [http://go.microsoft.com/fwlink/p/?LinkId=400468](http://go.microsoft.com/fwlink/p/?linkid=400468)correspondente em. Isso é recomendado se você estiver executando o System Center Operations Manager 2012.
+Você pode encontrar o pacote de gerenciamento do Lync Server 2013 e a documentação [http://go.microsoft.com/fwlink/p/?LinkId=400468](http://go.microsoft.com/fwlink/p/?linkid=400468)relacionada em. Isso é recomendável se você estiver executando o System Center Operations Manager 2012.
 
 </div>
 

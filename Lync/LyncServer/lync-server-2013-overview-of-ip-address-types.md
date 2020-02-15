@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Visão geral dos tipos de endereços IP'
+title: 'Lync Server 2013: visão geral dos tipos de endereço IP'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185759
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9d1172fc7da9600de036312adb05548b51dea6b0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: feb900c6f3d2ac426c184048986a7a751a205874
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755525"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051043"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-ip-address-types-for-lync-server-2013"></a>Visão geral dos tipos de endereços IP para Lync Server 2013
+# <a name="overview-of-ip-address-types-for-lync-server-2013"></a>Visão geral dos tipos de endereço IP para o Lync Server 2013
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41755525"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-01-29_
+_**Última modificação do tópico:** 2013-01-29_
 
-Você tem três opções ao configurar endereços IP no Lync Server 2013. Você pode configurar o Lync Server 2013 para dar suporte somente para IP versão 4 (IPv4), somente para IP versão 6 (IPv6) ou uma combinação de ambos (conhecida como *pilha dupla*). Vários problemas devem ser considerados para cada tipo de configuração:
+Você tem três opções ao configurar endereços IP no Lync Server 2013. Você pode configurar o Lync Server 2013 para oferecer suporte somente a IP versão 4 (IPv4), somente o IP versão 6 (IPv6) ou uma combinação dos dois (conhecido como *pilha Dual*). Há vários problemas que devem ser considerados em cada tipo de configuração:
 
-  - **IPv4 somente**   IPv6 foi criado porque o mundo está ficando sem endereços IPv4. No fim das contas, o IPv6 será completamente suportado em todo o mundo, mas no momento, várias empresas e dispositivos aos quais sua empresa pode precisar se comunicar ainda não oferecem suporte ao IPv6, e poderão não oferecer por algum tempo. Uma configuração somente IPv4 ajudará a garantir que a implementação do Lync Server possa se comunicar com a maioria dos dispositivos existentes.
+  - ****   O IPv6 somente IPv4 foi criado porque o mundo está ficando sem endereços IPv4. Por fim, o IPv6 será totalmente suportado em todo o mundo, mas, neste momento, muitas empresas e dispositivos que sua empresa talvez precisem se comunicar com o não dão suporte a IPv6, e talvez não haja algum tempo. Uma configuração somente IPv4 ajudará a garantir que sua implementação do Lync Server possa se comunicar com a maioria dos dispositivos existentes.
 
-  - **** Por outro lado, uma implementação IPv6 completa, no momento, excluirá a comunicação com muitos dispositivos existentes.   
+  - **Somente IPv6 por**   outro lado, uma implementação IPv6 completa, neste momento, excluirá a comunicação com vários dispositivos existentes.
 
-  - **Pilha dupla dupla empilhada**   é uma rede onde ambos os endereços IPv4 e IPv6 são habilitados. Essa configuração tem suporte no Lync Server 2013 porque, na maioria dos casos, a transição de Full-IPv4 para Full-IPv6 levará vários anos.
+  - ****   Pilha dual de pilha dupla é uma rede onde endereços IPv4 e IPv6 estão habilitados. Essa configuração é suportada no Lync Server 2013 porque, na maioria dos casos, a transição de IPv4 para pleno IPv6 levará vários anos.
 
 As seções a seguir descrevem a compatibilidade entre essas três configurações para vários recursos do Lync Server.
 
@@ -51,7 +51,7 @@ As seções a seguir descrevem a compatibilidade entre essas três configuraçõ
 
 
 > [!NOTE]  
-> Configuração de cliente ou servidor com somente IPv6 é suportada apenas para fins de validação ou utilização em laboratório. A configuração somente IPv6 não é suportada na implantação de produção.
+> A configuração de cliente ou servidor com IPv6 só é suportada para fins de laboratório ou validação. A configuração IPv6 somente não é suportada na implantação de produção.
 
 
 
@@ -69,7 +69,7 @@ As seções a seguir descrevem a compatibilidade entre essas três configuraçõ
 </colgroup>
 <thead>
 <tr class="header">
-<th>Extremidade de rede de cliente</th>
+<th>Rede de ponto de extremidade do cliente</th>
 <th>Rede de servidor</th>
 </tr>
 </thead>
@@ -112,7 +112,7 @@ As seções a seguir descrevem a compatibilidade entre essas três configuraçõ
 
 ## <a name="peer-to-peer-client"></a>Cliente ponto a ponto
 
-As comunicações ponto a ponto incluem áudio, áudio/vídeo, compartilhamento de aplicativos e transferência de arquivos. Após o registro bem sucedido de ambos os clientes, as combinações a seguir são suportadas.
+As comunicações ponto a ponto incluem áudio, áudio/vídeo, compartilhamento de aplicativos e transferência de arquivos. Após os dois clientes terem sido registrados com êxito, as combinações a seguir são suportadas.
 
 
 <table>
@@ -122,8 +122,8 @@ As comunicações ponto a ponto incluem áudio, áudio/vídeo, compartilhamento 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Extremidade de cliente 1</th>
-<th>Extremidade de cliente 2</th>
+<th>Ponto de extremidade de cliente 1</th>
+<th>Ponto de extremidade 2 do cliente</th>
 </tr>
 </thead>
 <tbody>
@@ -155,7 +155,7 @@ As comunicações ponto a ponto incluem áudio, áudio/vídeo, compartilhamento 
 
 <div>
 
-## <a name="conferencing"></a>Conferência
+## <a name="conferencing"></a>Conferências
 
 A conferência inclui áudio/vídeo, compartilhamento de aplicativos e colaboração de dados (quadro de comunicações e compartilhamento de arquivos).
 
@@ -167,7 +167,7 @@ A conferência inclui áudio/vídeo, compartilhamento de aplicativos e colabora�
 </colgroup>
 <thead>
 <tr class="header">
-<th>Extremidade de rede de cliente</th>
+<th>Rede de ponto de extremidade do cliente</th>
 <th>Rede de servidor</th>
 </tr>
 </thead>
@@ -208,9 +208,9 @@ A conferência inclui áudio/vídeo, compartilhamento de aplicativos e colabora�
 
 <div>
 
-## <a name="mediation-serverpstn"></a>Servidor de Mediação/PSTN
+## <a name="mediation-serverpstn"></a>Servidor de mediação/PSTN
 
-O Lync Server 2013 não oferece suporte à bypass de mídia para chamadas PSTN (rede telefônica pública comutada) se o tráfego for por meio de uma interface IPv6. Se o desvio de mídia é necessário, recomendamos que o gateway PSTN seja configurado para IPv4.
+O Lync Server 2013 não é compatível com bypass de mídia para chamadas PSTN (rede telefônica pública comutada) se o tráfego estiver por meio de uma interface IPv6. Se o bypass de mídia for necessário, recomendamos que o gateway PSTN esteja configurado como IPv4.
 
 
 <table>
@@ -221,9 +221,9 @@ O Lync Server 2013 não oferece suporte à bypass de mídia para chamadas PSTN (
 </colgroup>
 <thead>
 <tr class="header">
-<th>Interface principal*</th>
-<th>Interface PSTN (no Servidor de Mediação)</th>
-<th>Configuração do gateway PSTN</th>
+<th>Interface principal *</th>
+<th>Interface PSTN (no servidor de mediação)</th>
+<th>Configuração de gateway PSTN</th>
 </tr>
 </thead>
 <tbody>
@@ -254,7 +254,7 @@ O Lync Server 2013 não oferece suporte à bypass de mídia para chamadas PSTN (
 
 ## <a name="remote-user-peer-to-peer-communications"></a>Comunicações ponto a ponto de usuário remoto
 
-As comunicações ponto a ponto com usuários remotos incluem mensagens instantâneas, áudio/vídeo, compartilhamento de aplicativos e transferência de arquivos.
+Comunicações ponto a ponto com usuários remotos incluem mensagens instantâneas, áudio/vídeo, compartilhamento de aplicativos e transferência de arquivos.
 
 
 <table>
@@ -264,8 +264,8 @@ As comunicações ponto a ponto com usuários remotos incluem mensagens instant�
 </colgroup>
 <thead>
 <tr class="header">
-<th>Rede de usuários remotos</th>
-<th>Servidor de borda (Borda externa)</th>
+<th>Rede de usuário remoto</th>
+<th>Servidor de borda (borda externa)</th>
 </tr>
 </thead>
 <tbody>
@@ -297,11 +297,11 @@ As comunicações ponto a ponto com usuários remotos incluem mensagens instant�
 
 <div>
 
-## <a name="front-end-pool-and-edge-pool-configuration"></a>Configuração do pool de Front-Ends e do pool do Servidor de Borda
+## <a name="front-end-pool-and-edge-pool-configuration"></a>Configuração do pool de front-ends e do pool de borda
 
-A tabela a seguir mostra a matriz de suporte entre o pool do servidor front-end e o pool do servidor de borda interna.
+A tabela a seguir mostra a matriz de suporte entre o pool do servidor front-end e o pool do servidor de borda interno.
 
-### <a name="front-end-pool-and-edge-pool-internal-edge-matrix"></a>Matriz do Pool de Front-Ends e do Pool de Borda (Borda interna)
+### <a name="front-end-pool-and-edge-pool-internal-edge-matrix"></a>Matriz do pool de front-ends e do pool de borda (borda interna)
 
 <table>
 <colgroup>
@@ -314,36 +314,36 @@ A tabela a seguir mostra a matriz de suporte entre o pool do servidor front-end 
 <tr class="odd">
 <td></td>
 <td><p><strong>Pool de borda: IPv4</strong></p></td>
-<td><p><strong>Pool de borda: Pilha dual</strong></p></td>
+<td><p><strong>Pool de borda: pilha dupla</strong></p></td>
 <td><p><strong>Pool de borda: IPv6</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Pool de Front-Ends: IPv4</strong></p></td>
+<td><p><strong>Pool de front-ends: IPv4</strong></p></td>
 <td><p>Sim</p></td>
 <td><p>Sim</p></td>
 <td><p>Não</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Pool de Front-Ends: Pilha dual</strong></p></td>
+<td><p><strong>Pool de front-ends: pilha dual</strong></p></td>
 <td><p>Sim</p></td>
 <td><p>Sim</p></td>
 <td><p>Não</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Pool de Front-Ends: IPv6</strong></p></td>
+<td><p><strong>Pool de front-ends: IPv6</strong></p></td>
 <td><p>Não</p></td>
 <td><p>Não</p></td>
-<td><p>Sim*</p></td>
+<td><p>Sim</p></td>
 </tr>
 </tbody>
 </table>
 
 
-\*Use essa combinação apenas em um ambiente de laboratório.
+\*Use essa combinação somente em um ambiente de laboratório.
 
-A tabela a seguir descreve a matriz de combinações suportadas das interfaces de borda interna e externa.
+A tabela a seguir é uma matriz das combinações suportadas de interfaces de borda internas e externas.
 
-### <a name="edge-pool-internal-edge-and-edge-pool-external-edge-matrix"></a>Matriz do Pool de borda (Borda interna) e do Pool de borda (Borda externa)
+### <a name="edge-pool-internal-edge-and-edge-pool-external-edge-matrix"></a>Matriz do pool de borda (borda interna) e do pool de borda (borda externa)
 
 <table>
 <colgroup>
@@ -355,33 +355,33 @@ A tabela a seguir descreve a matriz de combinações suportadas das interfaces d
 <tbody>
 <tr class="odd">
 <td></td>
-<td><p><strong>Pool de borda (Borda externa): IPv4</strong></p></td>
-<td><p><strong>Pool de borda (Borda externa): Pilha dual</strong></p></td>
-<td><p><strong>Pool de borda (Borda externa): IPv6</strong></p></td>
+<td><p><strong>Pool de borda (borda externa): IPv4</strong></p></td>
+<td><p><strong>Pool de borda (borda externa): pilha dupla</strong></p></td>
+<td><p><strong>Pool de borda (borda externa): IPv6</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Pool de borda (Borda interna): IPv4</strong></p></td>
+<td><p><strong>Pool de borda (borda interna): IPv4</strong></p></td>
 <td><p>Sim</p></td>
 <td><p>Sim</p></td>
 <td><p>Não</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Pool de borda (Borda interna): Pilha dual</strong></p></td>
+<td><p><strong>Pool de borda (borda interna): pilha dupla</strong></p></td>
 <td><p>Não</p></td>
 <td><p>Sim</p></td>
 <td><p>Não</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Pool de borda (Borda interna): IPv6</strong></p></td>
+<td><p><strong>Pool de borda (borda interna): IPv6</strong></p></td>
 <td><p>Não</p></td>
 <td><p>Não</p></td>
-<td><p>Sim*</p></td>
+<td><p>Sim</p></td>
 </tr>
 </tbody>
 </table>
 
 
-\*Use essa combinação apenas em um ambiente de laboratório.
+\*Use essa combinação somente em um ambiente de laboratório.
 
 </div>
 
@@ -389,37 +389,37 @@ A tabela a seguir descreve a matriz de combinações suportadas das interfaces d
 
 ## <a name="advanced-enterprise-voice-support-for-ipv6"></a>Suporte avançado do Enterprise Voice para IPv6
 
-Implantações que incluem controle de admissão de chamadas (CAC), Enhanced 9-1-1 (E9-1-1) ou passagem livre de mídia devem ser configurados como implementações somente IPv4 ou de pilha dual.
+Implantações que incluem controle de admissão de chamadas (CAC), Enhanced 9-1-1 (E9-1-1) ou bypass de mídia devem ser configurados como IPv4 somente ou como uma implementação de pilha dupla.
 
 <div>
 
 
 > [!NOTE]  
-> Em uma implantação de pilha dupla, mesmo que um cliente do Lync se conecte a um servidor do Lync usando o IPv6, o Lync fará um melhor esforço para mapear um endereço IPv4 apropriado para dar suporte a E9-1-1.
+> Em uma implantação de pilha dupla, mesmo que um cliente do Lync se conecte a um Lync Server usando IPv6, o Lync fará um melhor esforço para mapear um endereço IPv4 apropriado para suportar o E9-1-1.
 
 
 
 </div>
 
-Não há suporte para o serviço de informações de localização com endereços IPv6.
+O serviço de informações de local com endereços IPv6 não é suportado.
 
-O Unified Messaging (UM) do Exchange não suporta IPv6. Para o UM do Exchange, certifique-se de que a resolução do DNS não retorna um endereço IPv6. A utilização de IPv6 pode provocar falhas ao enviar chamadas para correios de voz.
+A Unificação de mensagens (UM) do Exchange não oferece suporte a IPv6. Para UM do Exchange, certifique-se de que a resolução de DNS não retorna um endereço IPv6. O uso do IPv6 pode causar falha quando as chamadas são enviadas para caixa postal.
 
 </div>
 
 <div>
 
-## <a name="other-lync-server-2013-feature-support-for-ipv6"></a>Outro suporte do recurso Lync Server 2013 para IPv6
+## <a name="other-lync-server-2013-feature-support-for-ipv6"></a>Outro suporte de recurso do Lync Server 2013 para IPv6
 
-Além dos recursos e componentes mencionados anteriormente, o Lync Server 2013 oferece suporte ao IPv6 para os seguintes recursos:
+Além dos recursos e componentes mencionados anteriormente, o Lync Server 2013 suporta IPv6 para os seguintes recursos:
 
-  - **Chat Persistente**
+  - **Chat persistente**
     
-    Você configura o IPv6 para chats persistentes usando o construtor de topologias. Para obter detalhes sobre como configurar o chat persistente, consulte a documentação implantando o servidor de chat persistente.
+    Você configura o IPv6 para chat persistente usando o construtor de topologias. Para obter detalhes sobre como configurar o chat persistente, consulte a documentação implantando o servidor de chat persistente.
 
-  - **Relatórios de CDR (registro de detalhes de chamada) e QoE (Qualidade de experiência)**
+  - **Relatórios de QoE (qualidade da experiência) e de registro de detalhes das chamadas (CDR)**
     
-    Os relatórios de monitoramento incluem o endereço IP conforme é armazenado no banco de dados do Servidor de Monitoramento, independente de ser do tipo IPv4 ou IPv6.
+    Os relatórios de monitoramento incluem o endereço IP conforme ele é armazenado no banco de dados do Monitoring Server, seja do tipo IPv4 ou IPv6.
 
 </div>
 

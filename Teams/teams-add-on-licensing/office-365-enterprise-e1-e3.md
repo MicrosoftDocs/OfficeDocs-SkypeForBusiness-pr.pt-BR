@@ -20,16 +20,16 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Saiba mais sobre licenças de complemento, recursos e como comprar para os planos Office 365 Enterprise E1 e E3. '
-ms.openlocfilehash: 2e547c23115f43dcc54a7f4bb99190116200f319
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 18a15c59b93fa0f426c780028b0029dd909abb2a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826539"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029362"
 ---
 # <a name="office-365-enterprise-e1-and-e3"></a>Office 365 Enterprise E1 e E3
 
-Se você já comprou o [Office 365 Enterprise E1](https://products.office.com/en-us/business/office-365-enterprise-e1-business-software) ou [E3](https://products.office.com/en-us/business/office-365-enterprise-e3-business-software) , estas são as licenças complementares que você precisa comprar para obter mais recursos do Microsoft Teams.
+Se você já comprou o [Office 365 Enterprise E1](https://products.office.com/business/office-365-enterprise-e1-business-software) ou [E3](https://products.office.com/business/office-365-enterprise-e3-business-software) , estas são as licenças complementares que você precisa comprar para obter mais recursos do Microsoft Teams.
 
 |Para adicionar este recurso|Veja o que você precisa fazer|
 |:------------------|:--------------------------|

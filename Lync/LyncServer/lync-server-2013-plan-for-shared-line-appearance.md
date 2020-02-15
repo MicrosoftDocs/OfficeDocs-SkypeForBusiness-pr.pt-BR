@@ -12,16 +12,16 @@ ms:contentKeyID: 72522136
 ms.date: 03/21/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 755bff84b8902e346135139d1c8c5b26c55605c1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: fdb4f8ad407950f8d3180d030ede03a1e93cf0b3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755161"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050593"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,13 +35,13 @@ ms.locfileid: "41755161"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2016-03-21_
+_**Última modificação do tópico:** 2016-03-21_
 
-Leia este tópico para aprender a planejar a aparência de uma linha compartilhada (SLA) no Lync Server 2013, atualização cumulativa de abril de 2016.
+Leia este tópico para saber como planejar a aparência da linha compartilhada (SLA) no Lync Server 2013, atualização cumulativa de abril de 2016.
 
-A aparência da linha compartilhada é um recurso do Lync Server 2013, atualização cumulativa de abril de 2016 para manipular várias chamadas em um número específico chamado de número compartilhado. O SLA pode configurar qualquer usuário do Lync habilitado para Enterprise Voice como um número compartilhado com várias linhas para responder a várias chamadas. As chamadas não serão realmente recebidas no número compartilhado, em vez disso, elas serão encaminhadas para os usuários que atuam como representantes para o número compartilhado. Qualquer um dos representantes pode atender a chamada enquanto o restante dos representantes recebe uma notificação no telefone sobre quem obteve o convite e que linha ficou ocupada como resultado. Tanto o número de linhas quanto os representantes são configuráveis para um número compartilhado no SLA. Além disso, as opções avançadas, como BusyOption (o que acontece em uma situação quando todas as linhas estão ocupadas) e MissedCallOption (caso em que nenhum dos representantes atende uma chamada), também podem ser configuradas para um número compartilhado.
+A aparência de linha compartilhada é um recurso no Lync Server 2013, atualização cumulativa de abril de 2016 para lidar com várias chamadas em um número específico chamado de número compartilhado. O SLA pode configurar qualquer usuário do Lync habilitado para o Enterprise Voice como um número compartilhado com várias linhas para responder a várias chamadas. As chamadas não são realmente recebidas no número compartilhado, em vez disso são encaminhadas para os usuários que atuam como delegados para o número compartilhado. Qualquer um dos representantes pode pegar a chamada enquanto o restante dos representantes Obtém uma notificação em seu telefone sobre quem selecionou a chamada e qual linha ficou ocupada como resultado. O número de linhas e os representantes são configuráveis para um número compartilhado no SLA. Além disso, as opções avançadas, como BusyOption (o que acontece em uma situação quando todas as linhas estão ocupadas) e MissedCallOption (o caso em que nenhum dos representantes pega uma chamada), também pode ser configurado para um número compartilhado.
 
-O SLA só tem suporte nos seguintes dispositivos telefônicos (não há suporte para clientes do Lync em computadores, telefones celulares ou outros dispositivos):
+Só há suporte para o SLA nos seguintes dispositivos de telefone (não há suporte para clientes do Lync em computadores, telefones celulares ou outros dispositivos):
 
   - Polycom VVX300 com atualização de firmware 5.4.1
 
@@ -51,27 +51,27 @@ O SLA só tem suporte nos seguintes dispositivos telefônicos (não há suporte 
 
   - Polycom VVX600 com atualização de firmware 5.4.1
 
-O SLA é um novo recurso do Lync Server 2013, atualização cumulativa de abril de 2016.
+SLA é um novo recurso no Lync Server 2013, atualização cumulativa de abril de 2016.
 
-Para obter informações sobre a implantação do SLA, consulte [implantar a aparência da linha compartilhada no Lync Server 2013](lync-server-2013-deploy-shared-line-appearance.md).
+Para obter informações sobre como implantar o SLA, consulte [implantar aparência de linha compartilhada no Lync Server 2013](lync-server-2013-deploy-shared-line-appearance.md).
 
 <div>
 
 ## <a name="feature-list"></a>Lista de recursos
 
-Configuração de um grupo de SLA permite o seguinte:
+A configuração de um grupo de SLA permite o seguinte:
 
-  - Todos os representantes do grupo podem atender chamadas de entrada para o mesmo número compartilhado. As chamadas podem ser baseadas em PSTN ou em SIP.
+  - Todos os representantes no grupo podem responder chamadas de entrada para o mesmo número compartilhado. As chamadas podem ser baseadas em PSTN ou em SIP.
 
-  - Os representantes podem reter e atender chamadas.
+  - Os representantes podem manter e pegar chamadas.
 
-  - Os representantes podem transferir chamadas para um número externo do grupo SLA.
+  - Os representantes podem transferir chamadas para um número fora do grupo SLA.
 
-  - Os representantes podem ver quantas chamadas estão atualmente no número compartilhado e ver o estado de cada uma delas.
+  - Os representantes podem ver quantas chamadas estão no número compartilhado no momento e exibir o status de cada uma dessas chamadas.
 
-  - Você pode configurar um número máximo de chamadas simultâneas para o número compartilhado. Você também pode definir como deseja que as chamadas adicionais sejam manipuladas depois que esse máximo for atingido. As chamadas em excesso podem ser rejeitadas com um sinal de ocupado, encaminhadas para um número alternativo ou encaminhadas para o correio de voz.
+  - Você pode configurar um número máximo de chamadas simultâneas para o número compartilhado. Você também pode definir como deseja que as chamadas adicionais sejam tratadas depois que esse máximo for atingido. As chamadas em excesso podem ser rejeitadas com um sinal de ocupado, encaminhadas para um número alternativo ou encaminhadas para a caixa postal.
 
-  - Você pode configurar como você deseja que as chamadas não atendidas (chamadas não atendidas após um determinado período de tempo) sejam tratadas. Se você ativar o correio de voz para a identidade do grupo, as chamadas não atendidas automaticamente irão para o correio de voz. Se você não tiver correio de voz habilitado para a identidade do grupo (número compartilhado), você poderá escolher que as chamadas perdidas sejam rejeitadas com um sinal de ocupado, encaminhadas para um número alternativo ou desconectadas.
+  - Você pode configurar como deseja que as chamadas perdidas (chamadas não selecionadas após um determinado tempo) sejam tratadas. Se você habilitar a caixa postal para a identidade do grupo, as chamadas perdidas vão automaticamente para a caixa postal. Se você não tiver a caixa postal habilitada para a identidade do grupo (número compartilhado), você pode escolher para que as chamadas perdidas sejam rejeitadas com um sinal de ocupado, encaminhadas para um número alternativo ou desconectadas.
 
 </div>
 

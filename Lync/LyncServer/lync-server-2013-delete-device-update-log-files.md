@@ -12,16 +12,16 @@ ms:contentKeyID: 51803949
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c684978445f727dc155fade59654ff6e2866f084
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4f5b8ed6d087bb7b80ba93aead7c3ab530c82000
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734201"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048482"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,37 +35,37 @@ ms.locfileid: "41734201"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-02-23_
+_**Última modificação do tópico:** 2013-02-23_
 
-O serviço Web de atualização de dispositivo mantém uma ampla coleção de arquivos de log. Essa coleção inclui os logs de auditoria conduzidos pelo próprio serviço e pelos arquivos de log carregados de dispositivos cliente. Para impedir que o servidor preencha os logs do serviço Web de atualização de dispositivos, você provavelmente desejará desmarcá-lo de arquivos de log que já têm um determinado número de dias. Defina esse número de dias com base na atividade de atualização e no número de dispositivos cliente em sua organização e usando o painel de controle do Lync Server ou o Shell de gerenciamento do Lync Server.
+O serviço Web de atualização de dispositivo mantém uma ampla coleção de arquivos de log. Essa coleção inclui os logs de auditoria conduzidos pelo próprio serviço e arquivos de log carregados de dispositivos clientes. Para impedir que o servidor seja preenchido com logs do serviço Web de atualização de dispositivos, você provavelmente desejará desmarcá-lo de arquivos de log que já estão por um determinado número de dias. Defina esse número de dias com base na atividade de atualização e no número de dispositivos clientes em sua organização e usando o painel de controle do Lync Server ou o Shell de gerenciamento do Lync Server.
 
 <div>
 
-## <a name="to-clear-the-device-update-log-by-using-lync-server-control-panel"></a>Para limpar o log de atualização do dispositivo usando o painel de controle do Lync Server
+## <a name="to-clear-the-device-update-log-by-using-lync-server-control-panel"></a>Para limpar o log de atualização de dispositivo usando o painel de controle do Lync Server
 
-1.  Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [abrir ferramentas administrativas do Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+1.  Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-2.  Na barra de navegação à esquerda, clique em **clientes**e, em seguida, clique em **configuração do log do dispositivo**.
+2.  Na barra de navegação à esquerda, clique em **clientes**e em **configuração de log de dispositivo**.
 
-3.  Na página **configuração de log do dispositivo** , clique duas vezes na configuração que você deseja alterar.
+3.  Na página **configuração do log do dispositivo** , clique duas vezes na configuração que você deseja alterar.
 
-4.  Na caixa de diálogo **Editar configuração do log** , em **número de dias para manter os arquivos de log (1-365)**, especifique um número de dias.
+4.  Na caixa de diálogo **Editar configuração de log** , em **número de dias para manter arquivos de log (1-365)**, especifique um número de dias.
 
-5.  Clique em **Confirmar**. Todos os arquivos que estiverem no servidor por mais do que o número especificado de dia serão excluídos. Essa configuração será aplicada a essa configuração até que você a altere.
+5.  Clique em **Confirmar**. Todos os arquivos que estão no servidor por mais do que o número de dia especificado são excluídos. Essa configuração será aplicada a essa configuração até que você a altere.
 
 </div>
 
 <div>
 
-## <a name="clearing-the-device-update-log-by-using-the-windows-powershell-cmdlets"></a>Como limpar o log de atualização de dispositivo usando os cmdlets do Windows PowerShell
+## <a name="clearing-the-device-update-log-by-using-the-windows-powershell-cmdlets"></a>Limpando o log de atualização de dispositivo usando os cmdlets do Windows PowerShell
 
-Você pode limpar logs de atualização de dispositivo usando o Windows PowerShell e o cmdlet **Clear-CsDeviceUpdateLog** . Esse cmdlet pode ser executado no Shell de gerenciamento do Lync Server 2013 ou em uma sessão remota do Windows PowerShell.
+Você pode limpar logs de atualização de dispositivo usando o Windows PowerShell e o cmdlet **Clear-CsDeviceUpdateLog** . Este cmdlet pode ser executado a partir do Shell de gerenciamento do Lync Server 2013 ou de uma sessão remota do Windows PowerShell.
 
 <div>
 
 
 > [!NOTE]  
-> Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Lync Server, consulte o artigo sobre o blog do Windows PowerShell do Lync Server "início rápido: gerenciar o <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>Microsoft Lync Server 2010 usando o PowerShell remoto" em.
+> Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Lync Server, consulte o artigo de blog do Lync Server Windows PowerShell "início rápido: Managing Microsoft Lync Server <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>2010 using Remote PowerShell" em.
 
 
 
@@ -73,7 +73,7 @@ Você pode limpar logs de atualização de dispositivo usando o Windows PowerShe
 
 <div>
 
-## <a name="to-clear-device-update-logs-on-one-server"></a>Para limpar logs de atualização de dispositivos em um servidor
+## <a name="to-clear-device-update-logs-on-one-server"></a>Para limpar logs de atualização de dispositivo em um servidor
 
   - O comando a seguir limpa o log de atualização do dispositivo no servidor Web atl-cs-001.litwareinc.com. Todas as entradas de log com mais de 10 dias (o valor especificado pelo parâmetro DaysBack) serão removidas do log.
     
@@ -85,13 +85,13 @@ Você pode limpar logs de atualização de dispositivo usando o Windows PowerShe
 
 ## <a name="to-clear-all-device-update-logs"></a>Para limpar todos os logs de atualização de dispositivo
 
-  - Este comando remove entradas desatualizadas (neste exemplo, entradas com mais de 10 dias) de todos os logs de atualização de dispositivo atualmente em uso em sua organização.
+  - Este comando remove as entradas desatualizadas (neste exemplo, entradas com mais de 10 dias) de todos os logs de atualização de dispositivo atualmente em uso na organização.
     
         Get-CsService -WebServer | Foreach-Object {Clear-CsDeviceUpdateLog -Identity $_.Identity -DaysBack 10}
 
 </div>
 
-Para obter detalhes, consulte o tópico da ajuda para o cmdlet [Clear-CsDeviceUpdateLog](https://docs.microsoft.com/powershell/module/skype/Clear-CsDeviceUpdateLog) .
+Para obter detalhes, consulte o tópico de ajuda para o cmdlet [Clear-CsDeviceUpdateLog](https://docs.microsoft.com/powershell/module/skype/Clear-CsDeviceUpdateLog) .
 
 </div>
 

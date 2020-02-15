@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Escolhendo uma topologia'
+title: 'Lync Server 2013: escolhendo uma topologia'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183634
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0b9f59648d845f37c7cf6d92c471b81a29415753
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c3a77a37cb9f9c4f92f344988082086834ab3489
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729881"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046524"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -33,15 +33,15 @@ ms.locfileid: "41729881"
 
 <div id="mainBody">
 
-_**Tópico da última modificação:** 2013-02-21_
+_**Última modificação do tópico:** 2013-02-21_
 
-Ao escolher uma topologia, você pode usar uma das seguintes opções de topologia com suporte:
+Ao escolher uma topologia, você pode usar uma das seguintes opções de topologia suportadas:
 
 <div>
 
 
 > [!NOTE]
-> A menos que indicado de outra forma, se você tiver experiência com o Microsoft Lync Server 2010, verá aqui que a orientação é totalmente inalterada.
+> A menos que indicado de outra forma, se você tiver experiência com o Microsoft Lync Server 2010, você encontrará aqui uma orientação totalmente inalterada.
 
 
 
@@ -61,15 +61,15 @@ Ao escolher uma topologia, você pode usar uma das seguintes opções de topolog
 
 
 > [!IMPORTANT]
-> As interfaces de Borda interna e externa precisam usar o mesmo tipo de balanceamento de carga. Não é possível usar balanceamento de carga DNS em uma interface de Borda e balanceamento de carga de hardware na outra interface de Borda.
+> A interface de Borda interna e externa devem usar o mesmo tipo de balanceamento de carga. Não é possível usar o balanceamento de carga DNS na interface de Borda e o balanceamento de carga de hardware na outra interface de Borda.
 
 
 
 </div>
 
-A tabela a seguir resume a funcionalidade disponível com as topologias do Microsoft Lync Server 2013 com suporte. Os títulos de coluna indicam a funcionalidade disponível para uma determinada opção de configuração de borda. Usando a opção de borda em escala (carga balanceada) como exemplo, você pode ver que ele dá suporte à alta disponibilidade, pode usar endereços IP privados não roteáveis (com NAT) ou endereços IP roteáveis roteáveis atribuídos às interfaces externas de Edge e reduz o custo porque um o balanceador de carga de hardware não é necessário.
+A tabela a seguir resume a funcionalidade disponível com as topologias do Microsoft Lync Server 2013 com suporte. Os títulos de coluna indicam a funcionalidade disponível para uma determinada opção de configuração de borda. Usando a opção borda em escala (balanceamento de carga DNS) como exemplo, você pode ver que ele oferece suporte à alta disponibilidade, pode usar endereços IP privados não roteáveis (com NAT) ou endereços IP públicos roteáveis atribuídos às interfaces externas de borda e reduz o custo porque um o balanceador de carga de hardware não é necessário.
 
-Cenários de failover de borda com suporte com balanceamento de carga de DNS são sessões ponto a ponto do Lync para Lync, sessões de conferência do Lync, sessões do Lync para PSTN e do Office 365. Cenários de failover de borda que não se beneficiam do balanceamento de carga de DNS são failover para a UM (de uma) (anterior ao Exchange 2010 SP1), a conectividade de mensagens instantâneas públicas (IM) e a Federação com servidores que executam o Office Communications Servidor.
+Cenários de failover de borda suportados com balanceamento de carga DNS são sessões ponto a ponto do Lync para Lync, sessões de conferência do Lync, sessões do Lync para PSTN e o Office 365. Cenários de failover de borda que não se beneficiam do balanceamento de carga DNS são failover para o usuário remoto Exchange Unified Messaging (UM) (antes do Exchange 2010 SP1), conectividade de IM (mensagens instantâneas públicas) e Federação com servidores executando o Office Communications Do.
 
 ### <a name="summary-of-edge-server-topology-options"></a>Resumo das opções de topologia do servidor de borda
 
@@ -85,9 +85,9 @@ Cenários de failover de borda com suporte com balanceamento de carga de DNS sã
 <tr class="header">
 <th>Topologia</th>
 <th>Alta disponibilidade</th>
-<th>Registros DNS adicionais necessários para o servidor de borda externo no pool de bordas</th>
-<th>Failover de borda para sessões do Lync para o Lync</th>
-<th>Failover de borda para sessões de Federação do Lync-to-Lync do EUM/PIC/OCS</th>
+<th>Registros DNS A adicionais necessários para servidor de borda externo no pool de borda</th>
+<th>Failover de borda para sessões do Lync para Lync</th>
+<th>Failover de borda para sessões de Federação do Lync para Lync EUM/PIC/OCS</th>
 </tr>
 </thead>
 <tbody>
@@ -106,21 +106,21 @@ Cenários de failover de borda com suporte com balanceamento de carga de DNS sã
 <td><p>Não</p></td>
 </tr>
 <tr class="odd">
-<td><p>Borda em escala (balanceamento de carga de DNS) usando NAT</p></td>
+<td><p>Borda dimensionada (balanceamento de carga DNS) usando NAT</p></td>
 <td><p>Sim</p></td>
 <td><p>Sim</p></td>
 <td><p>Sim</p></td>
 <td><p>*</p></td>
 </tr>
 <tr class="even">
-<td><p>Borda em escala (carga de DNS balanceada) usando o IP público</p></td>
+<td><p>Borda dimensionada (balanceamento de carga DNS) usando IP público</p></td>
 <td><p>Sim</p></td>
 <td><p>Sim</p></td>
 <td><p>Sim</p></td>
 <td><p>*</p></td>
 </tr>
 <tr class="odd">
-<td><p>Carga balanceada do hardware de borda em escala)</p></td>
+<td><p>Carga balanceada de hardware de borda em escala)</p></td>
 <td><p>Sim</p></td>
 <td><p>Não (um registro DNS A por VIP)</p></td>
 <td><p>Sim</p></td>
@@ -130,30 +130,30 @@ Cenários de failover de borda com suporte com balanceamento de carga de DNS sã
 </table>
 
 
-**\*** O failover para conectividade de mensagens instantâneas públicas (IM) e Federação com servidores que executam o Office Communications Server não está disponível com balanceamento de carga de DNS. O failover de UM (usuário remoto) do Exchange usando o balanceamento de carga de DNS exige o Exchange Server 2010 SP1 ou versão mais recente.
+**\*** O failover para conectividade de IM (mensagens instantâneas) públicas e a Federação com servidores que executam o Office Communications Server não estão disponíveis com o balanceamento de carga DNS. O failover de UM (usuário remoto) do Exchange usando o balanceamento de carga DNS exige o Exchange Server 2010 SP1 ou mais recente.
 
 
 
 > [!NOTE]
-> As topologias de borda única e de borda em escala (carga DNS balanceada) podem usar:
+> As topologias de borda única e borda dimensionada (balanceamento de carga DNS) podem usar:
 > <ul><li><p>Endereços IP públicos roteáveis</p></li>
-> <li><p>Endereço IP privado não roteável se a NAT (conversão de endereços de rede) simétrica for usada</p></li>
+> <li><p>Endereço IP privado não roteável se a NAT (conversão de endereço de rede simétrica) for usada</p></li>
 >
 > <ul><li> Se você usar o endereço IP público ou o endereço IP privado com NAT, ainda usará o mesmo número de endereços IP com base em sua opção de configuração no construtor de topologias. Você pode configurar o servidor de borda para usar um único endereço IP com portas distintas por serviço ou usar endereços IP distintos por serviço, mas usar a mesma porta (por padrão, TCP 443).</li></ul>>
 > Se você decidir usar endereços IP privados não roteáveis com NAT:
-> <ul><li><p>Você deve usar endereços IP particulares roteáveis em todas as três interfaces externas</p></li>
+> <ul><li><p>Você deve usar endereços IP privados roteáveis em todas as três interfaces externas</p></li>
 > <li><p>Você deve configurar o NAT simétrico para tráfego de entrada e saída</p></li></ul>>
 > A topologia de borda em escala (carga de hardware balanceada) deve usar endereços IP públicos.
 
 
 
-O Lync Server 2013 dá suporte à colocação de acesso, Webconferência e A/V de interfaces externas atrás de um roteador ou firewall que executa a NAT (conversão de endereços de rede) para topologias de servidor de borda consolidadas simples e em escala.
+O Lync Server 2013 oferece suporte à colocação de acesso, Webconferência e interfaces externas de borda A/V por trás de um roteador ou firewall que realiza a conversão de endereços de rede (NAT) para topologias de servidor de borda consolidadas simples e em escala.
 
-Usar NAT para todas as interfaces externas Edge requer o uso de balanceamento de carga de DNS. Quando comparado ao uso de balanceadores de carga de hardware, o uso de balanceamento de carga de DNS sem NAT permite reduzir o número de endereços IP públicos por servidor de borda em um pool de bordas conforme descrito na lista a seguir:
+Usar NAT para todas as interfaces externas de Borda exige o uso do balanceamento de carga DNS. Quando comparado ao uso de balanceadores de carga de hardware, o uso do balanceamento de carga DNS sem NAT permite reduzir o número de endereços IP públicos por servidor de borda em um pool de borda, conforme descrito na lista a seguir:
 
-  - O Lync Server 2013 a borda consolidada dimensionada (carga de DNS balanceada) requer três endereços IP públicos para cada servidor de borda em um pool de bordas.
+  - Lync Server 2013 a borda consolidada dimensionada (balanceamento de carga DNS) exige três endereços IP públicos para cada servidor de borda em um pool de borda.
 
-  - A borda consolidada do Lync Server 2013 redimensionada (carga de hardware balanceada) requer três endereços IP públicos para endereços IP virtuais do balanceador de carga (um requisito de tempo que não aumenta à medida que mais servidores de borda são adicionados ao pool) e três endereços IP públicos por Servidor de borda em um pool.
+  - Lync Server 2013 a borda consolidada dimensionada (carga de hardware balanceada) exige três endereços IP públicos para endereços IP virtuais do balanceador de carga (um requisito de tempo que não aumenta à medida que mais servidores de borda são adicionados ao pool) mais três endereços IP públicos por Servidor de borda em um pool.
 
 ### <a name="ip-address-requirements-for-scaled-consolidated-edge-ip-address-per-role"></a>Requisitos de endereço IP para borda consolidada em escala (endereço IP por função)
 
@@ -165,30 +165,30 @@ Usar NAT para todas as interfaces externas Edge requer o uso de balanceamento de
 </colgroup>
 <thead>
 <tr class="header">
-<th>Número de servidores de borda por pool</th>
-<th>Número de endereços IP necessários Lync Server 2013 (DNS Load Balanced)</th>
-<th>Número de endereços IP necessários Lync Server 2013 (hardware com balanceamento de carga)</th>
+<th>Número de Servidores de Borda por pool</th>
+<th>Número de endereços IP necessários Lync Server 2013 (balanceamento de carga DNS)</th>
+<th>Número de endereços IP necessários Lync Server 2013 (carga de hardware balanceada)</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>2</p></td>
-<td><p>6</p></td>
+<td><p>2 </p></td>
+<td><p>6 </p></td>
 <td><p>3 (1 por VIP) + 6</p></td>
 </tr>
 <tr class="even">
-<td><p>3</p></td>
-<td><p>9</p></td>
+<td><p>3 </p></td>
+<td><p>9 </p></td>
 <td><p>3 (1 por VIP) + 9</p></td>
 </tr>
 <tr class="odd">
-<td><p>4</p></td>
-<td><p>12</p></td>
+<td><p>4 </p></td>
+<td><p>12 </p></td>
 <td><p>3 (1 por VIP) + 12</p></td>
 </tr>
 <tr class="even">
-<td><p>5</p></td>
-<td><p>15</p></td>
+<td><p>5 </p></td>
+<td><p>15 </p></td>
 <td><p>3 (1 por VIP) + 15</p></td>
 </tr>
 </tbody>
@@ -205,73 +205,73 @@ Usar NAT para todas as interfaces externas Edge requer o uso de balanceamento de
 </colgroup>
 <thead>
 <tr class="header">
-<th>Número de servidores de borda por pool</th>
-<th>Número de endereços IP necessários Lync Server 2013 (DNS Load Balanced)</th>
-<th>Número de endereços IP necessários Lync Server 2013 (hardware com balanceamento de carga)</th>
+<th>Número de Servidores de Borda por pool</th>
+<th>Número de endereços IP necessários Lync Server 2013 (balanceamento de carga DNS)</th>
+<th>Número de endereços IP necessários Lync Server 2013 (carga de hardware balanceada)</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>2</p></td>
-<td><p>2</p></td>
+<td><p>2 </p></td>
+<td><p>2 </p></td>
 <td><p>1 (1 por VIP) + 2</p></td>
 </tr>
 <tr class="even">
-<td><p>3</p></td>
-<td><p>3</p></td>
+<td><p>3 </p></td>
+<td><p>3 </p></td>
 <td><p>1 (1 por VIP) + 3</p></td>
 </tr>
 <tr class="odd">
-<td><p>4</p></td>
-<td><p>4</p></td>
+<td><p>4 </p></td>
+<td><p>4 </p></td>
 <td><p>1 (1 por VIP) + 4</p></td>
 </tr>
 <tr class="even">
-<td><p>5</p></td>
-<td><p>5</p></td>
+<td><p>5 </p></td>
+<td><p>0,5</p></td>
 <td><p>1 (1 por VIP) + 5</p></td>
 </tr>
 </tbody>
 </table>
 
 
-Os principais pontos de decisão para a seleção de topologia são alta disponibilidade e balanceamento de carga. O requisito para alta disponibilidade pode influenciar a decisão de balanceamento de carga.
+Os principais pontos de decisão para a seleção de topologia são alta disponibilidade e balanceamento de carga. O requisito de alta disponibilidade pode influenciar a decisão de balanceamento de carga.
 
-  - **Alta disponibilidade**   Se precisar de alta disponibilidade, implante pelo menos dois servidores de borda em um pool. Um único pool de bordas dará suporte a até doze servidores de borda. Se for necessário mais capacidade, você poderá implantar vários pools de bordas. Como regra geral, 10% de uma determinada base de usuários precisará de acesso externo.
+  - **Alta disponibilidade**   Se você precisar de alta disponibilidade, implante pelo menos dois servidores de borda em um pool. Um único pool de borda aceitará até doze servidores de borda. Se for necessário mais capacidade, você poderá implantar vários pools de borda. Como regra geral, 10% de uma determinada base de usuários precisarão de acesso externo.
     
     <div>
     
 
     > [!IMPORTANT]
-    > O construtor de topologias permitirá configurar até vinte servidores de borda em um único pool de bordas. O número máximo de servidores de borda testados e com suporte em um pool é de doze e o construtor de topologias que permite que um número maior que doze não seja interpretado como suporte implícito para mais de doze servidores de extremidade em um único pool de bordas.
+    > O construtor de topologias permitirá configurar até vinte servidores de borda em um único pool de borda. O número máximo de servidores de borda testados e suportados em um pool é de doze e o construtor de topologias que permite um número maior que doze não devem ser interpretados como suporte implícito para mais de doze servidores de borda em um único pool de borda.
 
     
     </div>
 
-  - **Balanceamento de carga de hardware**   O balanceamento de carga de hardware tem suporte para os servidores de borda do Lync Server 2013 de balanceamento de carga ao usar endereços IP roteáveis publicamente para as interfaces externas de Edge. Por exemplo, você usaria essa abordagem em situações em que o failover é necessário para qualquer um dos seguintes aplicativos:
+  - **Balanceamento de carga de hardware**   O balanceamento de carga de hardware tem suporte para balanceamento de carga de servidores de borda do Lync Server 2013 ao usar endereços IP roteáveis publicamente para as interfaces externas de borda. Por exemplo, você poderia usar essa abordagem em situações em que o failover é necessário para qualquer um dos seguintes aplicativos:
     
-      - Conectividade de mensagem de chat Pública
+      - Conectividade a redes públicas de mensagens instantâneas
     
       - Federação com empresas que executam o Microsoft Office Communications Server 2007 ou o Microsoft Office Communications Server 2007 R2
     
-      - Acesso externo ao Exchange 2007 Unified Messaging (UM) ou ao Exchange 2010 UM
+      - Acesso externo à UM (Unificação de mensagens) do Exchange 2007 ou a UM do Exchange 2010
         
         <div>
         
 
         > [!IMPORTANT]
-        > O balanceamento de carga de DNS para Exchange 2010 SP1 e versão mais recente tem suporte para o Exchange UM.
+        > O balanceamento de carga DNS para o Exchange 2010 SP1 e mais recente é suportado para UM do Exchange.
 
         
         </div>
     
-    Esses três aplicativos continuarão funcionando, mas não são compatíveis com balanceamento de carga de DNS e só se conectam ao primeiro servidor de borda do pool. Se esse servidor estiver indisponível, a conexão não será bem-sucedida. Por exemplo, se vários servidores de borda forem implantados em um pool para manipular a carga de tráfego federado, apenas um proxy de acesso realmente receberá o tráfego enquanto as outras estiverem ociosas.
+    Esses três aplicativos continuarão a funcionar, mas eles não são compatíveis com o balanceamento de carga DNS e só se conectarão ao primeiro servidor de borda no pool. Se esse servidor não estiver disponível, a conexão falhará. Por exemplo, se vários servidores de borda são implantados em um pool para lidar com a carga de tráfego federado, apenas um proxy de acesso realmente recebe tráfego enquanto os outros estão ociosos.
 
 <div>
 
 
 > [!IMPORTANT]
-> Usar o balanceamento de carga de DNS é recomendado se você estiver fazendo a Federação com empresas que usam o Lync Server 2010 e o Microsoft Office 365. Lembre-se de que há impactos significativos no desempenho se a maioria dos seus parceiros federados estiver usando o Office Communications Server 2007 ou o Office Communications Server 2007 R2.
+> É recomendável usar o balanceamento de carga DNS se você estiver se Federando com empresas que usam o Lync Server 2010 e o Microsoft Office 365. Lembre-se de que há impactos significativos no desempenho se a maioria dos seus parceiros federados estiverem usando o Office Communications Server 2007 ou o Office Communications Server 2007 R2.
 
 
 

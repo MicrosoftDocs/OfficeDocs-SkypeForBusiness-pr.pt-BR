@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Configurar certificados para a interface de borda interna'
+title: 'Lync Server 2013: configurar certificados para a interface de borda interna'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184949
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ea6e462bdc629308493799c857ecb6b2434dc268
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7ff176545b84be3b4477894650c1d379df0a6be1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732261"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046484"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,43 +35,43 @@ ms.locfileid: "41732261"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-11-07_
+_**Última modificação do tópico:** 2013-11-07_
 
 <div>
 
 
 > [!IMPORTANT]  
-> Ao executar o assistente de certificado, certifique-se de que você esteja conectado usando uma conta que seja membro de um grupo que tenha recebido as permissões apropriadas para o tipo de modelo de certificado que você vai usar. Por padrão, uma solicitação de certificado do Lync Server 2013 usará o modelo de certificado de servidor Web. Se você usar uma conta que seja um membro do grupo RTCUniversalServerAdmins para solicitar um certificado usando esse modelo, verifique se o grupo recebeu as permissões de Registro necessárias para usar esse modelo.
+> Ao executar o Assistente de certificado, certifique-se de que esteja conectado usando uma conta membro de um grupo com as permissões apropriadas para o tipo de modelo de certificado que será usado. Por padrão, uma solicitação de certificado do Lync Server 2013 usará o modelo de certificado do servidor Web. Se uma conta membro do grupo RTCUniversalServerAdmins for utilizada para solicitar um certificado usando este modelo, verifique se foram atribuídas as permissões Inscrever a este grupo, necessárias para usar o modelo.
 
 
 
 </div>
 
-É necessário um único certificado na interface interna de cada servidor de borda. Certificados para a interface interna podem ser emitidos por uma CA (autoridade de certificação) corporativa interna ou uma CA pública. Se a sua organização tiver uma CA interna implantada, você poderá economizar na despesa de usar certificados públicos usando a CA interna para emitir o certificado para a interface interna. Você pode usar uma CA interna do Windows Server 2008 ou uma autoridade de certificação do Windows Server 2008 R2 para criar esses certificados.
+Um único certificado é necessário na interface interna de cada Servidor de Borda. Os certificados para a interface interna podem ser emitidos por uma autoridade de certificação empresarial interna ou por uma autoridade de certificação pública. Se a sua organização tiver uma autoridade de certificação interna implantada, poderá diminuir as despesas de uso de certificados públicos utilizando a autoridade de certificação interna para emitir o certificado para a interface interna. Você pode usar uma autoridade de certificação interna do Windows Server 2008 ou uma autoridade de certificação do Windows Server 2008 R2 para criar esses certificados.
 
-Para obter detalhes sobre esse e outros requisitos de certificado, consulte [requisitos de certificado para acesso de usuários externos no Lync Server 2013](lync-server-2013-certificate-requirements-for-external-user-access.md).
+Para obter detalhes sobre esse e outros requisitos de certificado, consulte [Certificate Requirements for External User Access in Lync Server 2013](lync-server-2013-certificate-requirements-for-external-user-access.md).
 
-Para configurar certificados na interface de borda interna em um site, use os procedimentos desta seção para fazer o seguinte:
+Para configurar certificados na interface da borda interna em um site, use os procedimentos nesta seção para:
 
-1.  Baixe a cadeia de certificação da CA para a interface interna para cada servidor de borda.
+1.  Fazer download da cadeia de certificação da AC para a interface interna para cada Servidor de Borda.
 
-2.  Importar a cadeia de certificação da CA para a interface interna, em cada servidor de borda.
+2.  Importar a cadeia de certificação do para a interface interna, em cada Servidor de Borda.
 
-3.  Crie a solicitação de certificado para a interface interna, em um servidor de borda, chamado de primeiro servidor de borda.
+3.  Criar a solicitação de certificado da interface externa em um Servidor de Borda, considerado o primeiro Servidor de Borda.
 
-4.  Importar o certificado para a interface interna no primeiro servidor de borda.
+4.  Importar o certificado da interface interna no primeiro Servidor de Borda.
 
-5.  Importar o certificado nos outros servidores de borda neste site (ou implantado atrás deste balanceador de carga).
+5.  Importar o certificado nos outros Servidores de Borda neste local (ou implantados por trás deste balanceador de carga).
 
-6.  Atribua o certificado para a interface interna de cada servidor de borda.
+6.  Atribuir o certificado à interface interna de cada Servidor de Borda.
 
-Se você tiver mais de um site com servidores de borda (ou seja, uma topologia de borda de vários sites) ou conjuntos separados de servidores de Borda implantados por meio de balanceadores de carga diferentes, você precisará seguir estas etapas para cada site que tenha servidores de borda e para cada conjunto de servidores de borda implantado atrás de um balanceador de carga diferente.
+Se você tem mais de um local com Servidores de Borda (ou seja, uma topologia de borda de múltiplos locais) ou conjuntos separados de Servidores de Borda implantados por trás de diferentes balanceadores de carga, é necessário seguir estas etapas para cada local que possua Servidores de Borda e para cada conjunto de Servidores de Borda implantados por trás de um balanceador de carga diferente.
 
 <div>
 
 
 > [!NOTE]  
-> As etapas para procedimentos nesta seção se baseiam no uso de uma autoridade&nbsp;de certificação do windows Server&nbsp;2008&nbsp;, do Windows Server 2008 R2, da autoridade de certificação do Windows Server 2012 ou da autoridade de certificação do Windows Server 2012 R2 para criar um certificado para cada servidor de borda. Para obter orientação passo a passo para qualquer outra autoridade de certificação, consulte a documentação dessa CA. Por padrão, todos os usuários autenticados têm os direitos de usuário adequados para solicitar certificados.<BR>Os procedimentos desta seção se baseiam na criação de solicitações de certificado no servidor de borda como parte do processo de implantação do servidor de borda. É possível criar solicitações de certificado usando o servidor front-end. Você pode fazer isso para concluir a solicitação de certificado no início do processo de planejamento e implantação antes de iniciar a implantação dos servidores de borda. Para fazer isso, você deve certificar-se de que o certificado que você solicitou está definido com uma chave privada exportável.<BR>Os procedimentos desta seção descrevem o uso de um arquivo. cer e de um arquivo. p7b para o certificado. Se você usar um tipo de arquivo diferente, modifique esses procedimentos conforme apropriado.
+> As etapas para procedimentos nesta seção são baseadas no uso de uma AC do&nbsp;windows Server 2008, da&nbsp;autoridade&nbsp;de certificação do Windows Server 2008 R2, da autoridade de certificação do Windows Server 2012 ou da autoridade de certificação do Windows Server 2012 R2 para criar um certificado para cada servidor de borda. Para uma orientação passo-a-passo para qualquer outra AC, consulte a documentação para aquela AC. Por padrão, todos os usuários autenticados possuem os direitos de usuário apropriados para solicitar certificados.<BR>Os procedimentos nesta seção são baseados na criação de solicitações de certificado no Servidor de Borda como parte do processo de implantação do Servidor de Borda. É possível criar solicitações de certificado usando o Servidor Front End. Faça isso para concluir a solicitação do certificado mais cedo no processo de planejamento e implantação, antes de começar a implantação dos Servidores de Borda. Para isso, você deve garantir que o certificado a ser solicitado é definido como uma chave privada que pode ser exportada.<BR>Os procedimentos nesta seção descrevem a utilização de um arquivo .cer e um arquivo .p7b para o certificado. Se você usa um tipo diferente de arquivo, modifique estes procedimentos de acordo.
 
 
 
@@ -79,11 +79,11 @@ Se você tiver mais de um site com servidores de borda (ou seja, uma topologia d
 
 <div>
 
-## <a name="to-download-the-ca-certification-chain-for-the-internal-interface-using-certsrv-web-site"></a>Para baixar a cadeia de certificação CA para a interface interna usando o site do certsrv
+## <a name="to-download-the-ca-certification-chain-for-the-internal-interface-using-certsrv-web-site"></a>Para fazer download da cadeia de certificação da AC para a interface interna usando o website certsrv
 
-1.  Faça logon em um servidor do Lync Server 2013 na rede interna (ou seja, não no servidor de borda) como membro do grupo **Administradores** .
+1.  Faça logon em um servidor do Lync Server 2013 na rede interna (ou seja, não no servidor de borda) como um membro do grupo **Administradores** .
 
-2.  Execute o seguinte comando em um prompt de comando clicando em **Iniciar**, em **executar**e, em seguida, digitando o seguinte:
+2.  Execute o comando a seguir no prompt de comando, clicando em **Iniciar**, **Executar** e digitando:
     
         https://<name of your Issuing CA Server>/certsrv
     
@@ -95,24 +95,24 @@ Se você tiver mais de um site com servidores de borda (ou seja, uma topologia d
     
 
     > [!NOTE]  
-    > Se estiver usando uma autoridade de certificação empresarial do Windows Server 2008 ou do Windows Server 2008 R2, você deve usar HTTPS, não http.
+    > Se estiver usando uma AC do Windows Server 2008 ou Windows Server 2008 R2 Enterprise, você deve usar https, não http.
 
     
     </div>
 
-3.  Na página web certsrv da AC emissora, em  **Selecione uma tarefa**, clique em **Download de um Certificado de Autoridade de Certificação, Cadeia de Certificados ou Lista de Certificados Revogados**.
+3.  Na página web certsrv da AC emissora, em **Selecione uma tarefa**, clique em **Download de um Certificado de Autoridade de Certificação, Cadeia de Certificados ou Lista de Certificados Revogados**.
 
-4.  Em **baixar um certificado de autoridade de certificação, uma cadeia de certificados ou uma CRL**, clique em **baixar cadeia de certificados da CA**.
+4.  Em **Download de um Certificado de Autoridade de Certificação, Cadeia de Certificados ou Lista de Certificados Revogados**, clique em **Fazer download de cadeia de certificados de autoridade de certificação**.
 
-5.  Na caixa de diálogo **download de arquivo** , clique em **salvar**.
+5.  Na caixa de diálogo **Download de Arquivo**, clique em **Salvar**.
 
-6.  Salve o arquivo. p7b na unidade de disco rígido no servidor e copie-o para uma pasta em cada servidor de borda.
+6.  Salve o arquivo .p7b na unidade de disco rígido e copie-o para uma pasta em cada Servidor de Borda.
     
     <div>
     
 
     > [!NOTE]  
-    > O arquivo. p7b contém todos os certificados que estão no caminho de certificação. Para exibir o caminho de certificação, abra o certificado do servidor e clique no caminho de certificação.
+    > O arquivo .p7b contém todos os certificados existentes no caminho de certificação. Para exibir o caminho de certificação, abra o certificado do servidor e clique no caminho de certificação.
 
     
     </div>
@@ -121,177 +121,177 @@ Se você tiver mais de um site com servidores de borda (ou seja, uma topologia d
 
 <div>
 
-## <a name="to-export-the-ca-certification-chain-for-the-internal-interface-using-mmc"></a>Para exportar a cadeia de certificação da CA para a interface interna usando o MMC
+## <a name="to-export-the-ca-certification-chain-for-the-internal-interface-using-mmc"></a>Para importar a cadeia de certificação da AC para a interface interna usando MMC
 
-1.  Você pode exportar o certificado raiz da autoridade de certificação de qualquer computador ingressado no domínio usando o console de gerenciamento Microsoft (MMC). Clique em **Iniciar**, clique em **executar**e digite **MMC**.
+1.  Você pode exportar o certificado raiz da autoridade de certificação de qualquer computador que ingressou no domínio usando o console de gerenciamento Microsoft (MMC). Clique em **Iniciar**, **Executar** e depois digite **MMC**.
 
-2.  No console MMC, clique em **arquivo**, clique em **Adicionar/remover**.
+2.  No console do MMC, clique em **Arquivo** e em **Adicionar/Remover**.
 
-3.  Na lista de diálogo **Adicionar ou remover snap-ins** , selecione **certificados**e clique em **Adicionar**. Quando solicitado, selecione **conta do computador**. Na caixa de diálogo **Selecionar Computador**, selecione **Computador Local**. Clique em **Concluir**. Clique em **OK**.
+3.  Na lista de diálogos **Adicionar/Remover Snap-ins**, selecione **Certificados**, e depois clique em **Adicionar**. Ao ser solicitado, selecione **Conta do computador**. No diálogo **Selecionar computador**, selecione **Computador local**. Clique em **Finalizar**. Clique em**OK**.
 
-4.  Expanda **Certificates (computador local)**. Expanda **autoridades de certificação raiz confiáveis**, selecione **certificados**.
+4.  Expanda **Certificados (Computador local)**. Expanda **Autoridades de Certificação Raiz Confiáveis.**, selecione **Certificados**.
 
-5.  Clique no certificado raiz emitido por sua AC. Clique com o botão direito do mouse no certificado, selecione **todas as tarefas**, selecione **Exportar**. O **Assistente para exportação de certificados** será aberto.
+5.  Clique no certificado raiz emitido por sua AC. Clique com o botão direito no certificado, selecione **Todas as tarefas**, selecione **Exportar**. O **Assistente de Exportação de Certificado** será aberto.
 
-6.  No **Assistente de Exportação de Certificado**, clique em  **Avançar**.
+6.  No **Assistente de Exportação de Certificado**, clique em **Avançar**.
 
-7.  Na caixa de diálogo **exportar formato de arquivo** , selecione um formato para o qual exportar. Recomendamos o **padrão de sintaxe da mensagem criptográfica \#– Certificados PKCS 7 (. P7B)**. Se você selecionar o **padrão de sintaxe da mensagem criptográfica \#– Certificados PKCS 7 (. P7B)**, marque a caixa de seleção **incluir todos os certificados no caminho de certificação, se possível** , para exportar a cadeia de certificados, incluindo o certificado da CA raiz e qualquer certificado de autoridade de certificação intermediário. Click **Next**.
+7.  Na caixa de diálogo **Formato do arquivo de exportação**, selecione um formato para exportar. Recomendamos o **padrão de sintaxe de mensagens criptografadas – Certificados PKCS \#7 (. P7B)**. Se você selecionar o **padrão de sintaxe de mensagens criptografadas – Certificados PKCS \#7 (. P7B)**, marque a caixa de seleção **incluir todos os certificados no caminho de certificação, se possível** , para exportar a cadeia de certificados, incluindo o certificado de autoridade de certificação raiz e quaisquer certificados de autoridade de certificação intermediários. Clique em **Avançar**.
 
-8.  Na caixa de diálogo **arquivo para exportação** na entrada nome do arquivo, digite um nome de caminho e arquivo (extensão padrão é. p7b) para o certificado exportado. Opcionalmente, clique em **procurar**, localize um diretório para colocar o certificado exportado e forneça um nome para o certificado exportado. Clique em **Salvar**. Click **Next**.
+8.  Na caixa de diálogo **Arquivo para exportar**, na entrada do nome do arquivo, digite um caminho e nome de arquivo (a extensão padrão é .p7b) para o certificado exportado. Opcionalmente, clique em **Procurar**, localize um diretório para colocar o certificado exportado e forneça um nome para o certificado exportado. Clique em  **Salvar**. Clique em **Avançar**.
 
-9.  Examine o resumo de ações e clique em **concluir** para concluir a exportação do certificado. Clique em **OK** para confirmar que a exportação foi bem sucedida.
-
-</div>
-
-<div>
-
-## <a name="to-import-the-ca-certification-chain-for-the-internal-interface"></a>Para importar a cadeia de certificação da CA para a interface interna
-
-1.  Em cada servidor de borda, abra o MMC (console de gerenciamento Microsoft) clicando em **Iniciar**, clicando em **executar**, digitando **MMC** na caixa **abrir** e, em seguida, clicando em **OK**.
-
-2.  No menu **arquivo** , clique em **Adicionar/remover snap-in**e, em seguida, clique em **Adicionar**.
-
-3.  Na caixa **Adicionar Snap-ins Autônomos** , clique em **certificados**e, em seguida, clique em **Adicionar**.
-
-4.  Na caixa de diálogo  **Snap-in de certificados**, clique em  **Conta de computador**e, em seguida, clique em  **Avançar**.
-
-5.  Na caixa de diálogo **Selecionar computador** , verifique se a caixa de seleção **computador local: (o computador em que este console está sendo executado)** está marcada e clique em **concluir**.
-
-6.  Clique em **fechar**e, em seguida, clique em **OK**.
-
-7.  Na árvore de console, expanda **certificados (computador local)**, clique com o botão direito do mouse em **autoridades de certificação raiz confiáveis**, aponte para **todas as tarefas**e, em seguida, clique em **importar**.
-
-8.  No assistente, em **arquivo a ser importado**, especifique o nome do arquivo do certificado (ou seja, o nome que você especificou quando baixou a cadeia de certificação CA para a interface interna no procedimento anterior).
-
-9.  Repita esse procedimento em cada servidor de borda.
+9.  Revise o resumo de ações e clique em **Concluir** para concluir a exportação do certificado. Clique em **OK** para confirmar que a exportação foi bem sucedida.
 
 </div>
 
 <div>
 
-## <a name="to-create-the-certificate-request-for-the-internal-interface"></a>Para criar a solicitação de certificado para a interface interna
+## <a name="to-import-the-ca-certification-chain-for-the-internal-interface"></a>Para importar a cadeia de certificação da AC para a interface interna
 
-1.  Em um dos servidores de borda, inicie o assistente de implantação e, em seguida, ao lado da **etapa 3: solicitar, instalar ou atribuir certificados**, clique em **executar**.
+1.  Em cada Servidor de Borda, abra o Console de Gerenciamento Microsoft clicando em **Iniciar**, clicando em **Executar**, digitando **mmc** na caixa **Abrir** e clicando em **OK**.
+
+2.  No menu **Arquivo**, clique em **Adicionar/Remover Snap-in** e, em seguida, clique em **Adicionar**.
+
+3.  Na caixa **Adicionar Snap-in Autônomo**, clique em **Certificados** e em **Adicionar**.
+
+4.  Na caixa de diálogo **Snap-in de certificados**, clique em **Conta de computador** e em **Avançar**.
+
+5.  Na caixa de diálogo **Selecionar computador**, verifique se a caixa de seleção **Computador local: (o computador que este console está executando)** está marcada e clique em **Concluir**.
+
+6.  Clique em **Fechar** e em **OK**.
+
+7.  Na árvore do console, expanda **Certificados (computador local)**, clique com o botão direito em **Autoridades de Certificação Confiáveis**, aponte para **Todas as tarefas** e clique em **Importar**.
+
+8.  No assistente, em **Arquivo a ser importado**, especifique o nome do arquivo do certificado (ou seja, o nome que você especificou quando fez o download da cadeia de certificado da AC para a interface interna no procedimento anterior).
+
+9.  Repita esse procedimento em cada Servidor de Borda.
+
+</div>
+
+<div>
+
+## <a name="to-create-the-certificate-request-for-the-internal-interface"></a>Para criar a solicitação de certificado da interface interna
+
+1.  Em um dos Servidores de Borda, inicie o Assistente de Implantação e na **Etapa 3: Solicitar, Instalar ou Ceder Certificados**, clique em **Executar**.
     
     <div>
     
 
     > [!NOTE]  
-    > Se você tiver vários servidores de borda em um local em um pool, poderá executar o assistente de certificado em qualquer um dos servidores de borda.<BR>Depois de executar a etapa 3 na primeira vez, o botão muda para <STRONG>executar novamente</STRONG>, e uma marca de seleção verde que indica que a conclusão bem-sucedida da tarefa não é exibida até que todos os certificados exijam a solicitação, instalação e atribuição.
+    > Se houver vários Servidores de Borda em uma localização em um pool, você pode executar o Assistente de Certificado em qualquer um deles.<BR>Depois de executar a Etapa 3 pela primeira vez, o botão é alterado para <STRONG>Executar novamente</STRONG> e uma marca de seleção verde que indica a conclusão bem sucedida da tarefa não é exibida até que todos os certificados tenham sido solicitados, instalados e cedidos.
 
     
     </div>
 
-2.  Na página **Tarefas de Certificado Disponíveis**, clique em  **Criar uma nova solicitação de certificado**.
+2.  Na página **Tarefas de Certificado Disponíveis**, clique em **Criar uma nova solicitação de certificado**.
 
-3.  Na página **solicitação de certificado** , clique em **Avançar**.
+3.  Na página **Solicitação de Certificado**, clique em **Avançar**.
 
-4.  Na página  **Solicitações Atrasadas ou Imediatas**, clique em  **Preparar a solicitação agora, mas enviá-la depois**.
+4.  Na página **Solicitações Atrasadas ou Imediatas**, clique em **Preparar a solicitação agora, mas enviá-la depois**.
 
-5.  Na página **arquivo de solicitação de certificado** , digite o caminho completo e o nome do arquivo para o qual a solicitação deve ser salva (por exemplo, **c\_:\\borda interna do CERT\_. cer**).
+5.  Na página **arquivo de solicitação de certificado** , digite o caminho completo e o nome do arquivo para o qual a solicitação será salva (por exemplo, **c\_:\_\\borda interna de CERT. cer**).
 
-6.  Na página **especificar modelo de certificado alternativo** , para usar um modelo diferente do modelo padrão do webserver, marque a caixa de seleção **usar modelo de certificado alternativo para a autoridade de certificação selecionada** .
+6.  Na página **Especificar Modelo de Certificado Alternativo**, para usar um modelo diferentes do modelo padrão do WebServer, marque a opção **Usar modelo de certificado alternativo para a Autoridade de Certificação selecionada**.
 
-7.  Na página **configurações de nome e segurança** , faça o seguinte:
+7.  Na página **Nome e Configurações de Segurança**, siga estes procedimentos:
     
-      - Em **nome amigável**, digite um nome de exibição para o certificado (por exemplo, borda interna).
+      - Em **Nome amigável**, digite um nome de exibição para o certificado (por exemplo, Borda Interna).
     
-      - Em **comprimento de bit**, especifique o comprimento do bit (geralmente, o padrão de **2048**).
+      - Em **Comprimento de bit**, especifique o comprimento de bit (normalmente o padrão de **2048**).
         
         <div>
         
 
         > [!NOTE]  
-        > Comprimentos de bit mais altos oferecem mais segurança, mas têm um impacto negativo na velocidade.
+        > Comprimentos de bit mais altos oferecem mais segurança, mas causam um impacto negativo sobre a velocidade.
 
         
         </div>
     
-      - Se o certificado precisar ser exportável, marque a caixa de seleção **Marcar chave privada de certificado como exportável** .
+      - Se for necessário que o certificado seja exportável, marque a opção **Marcar chave privada do certificado como exportável**.
 
-8.  Na página **informações da organização** , digite o nome da organização e a unidade organizacional (ou) (por exemplo, uma divisão ou um departamento).
+8.  Na página **Informações da Organização**, digite o nome da organização e da unidade organizacional (UO) (por exemplo, uma divisão ou departamento).
 
-9.  Na página **informações geográficas** , especifique as informações de localização.
+9.  Na página **Informações Geográficas**, especifique as informações de localização.
 
-10. Na página **nome do assunto/nomes alternativos de assunto** , as informações a serem automaticamente preenchidas pelo assistente serão exibidas.
+10. Na página **Nome da Entidade/Nomes Alternativos da Entidade**, as informações que serão preenchidas automaticamente pelo assistente são exibidas.
 
-11. Na página **configurar nomes alternativos de entidades adicionais** , especifique os nomes alternativos de entidades adicionais necessários.
+11. Na página **Configurar Nomes Alternativos da Entidade Adicionais**, especifique quaisquer nomes alternativos de entidade adicionais que sejam necessários.
 
-12. Na página **Resumo da solicitação** , examine as informações do certificado que serão usadas para gerar a solicitação.
+12. Na página **Resumo da Solicitação**, analise as informações do certificado a serem usadas para gerar a solicitação.
 
-13. Depois que os comandos forem concluídos, faça o seguinte:
+13. Depois de concluir os comandos, siga o seguinte procedimento:
     
-      - Para exibir o log para a solicitação de certificado, clique em **Exibir log**.
+      - Para exibir o log da solicitação do certificado, clique em **Exibir Log**.
     
       - Para concluir a solicitação de certificado, clique em **Avançar**.
 
-14. Na página **arquivo de solicitação de certificado** , faça o seguinte:
+14. Na página **Arquivo de Solicitação de Certificado**, execute os seguintes procedimentos:
     
-      - Para exibir o arquivo de solicitação de assinatura de certificado (CSR) gerado, clique em **Exibir**.
+      - Para exibir um arquivo CSR (solicitação de assinatura de certificado) gerado, clique em **Exibir**.
     
       - Para fechar o assistente, clique em **Concluir**.
 
-15. Envie este arquivo para a sua CA (por email ou outro método compatível com sua organização para a sua CA corporativa) e, quando você receber o arquivo de resposta, copie o novo certificado para este computador para que ele esteja disponível para importação.
+15. Envie este arquivo para a sua AC (por e-mail ou por outro método aceito pela sua organização para sua AC corporativa) e, quando receber o arquivo de resposta, copie o novo certificado para este computador, para que esteja disponível para importação.
 
 </div>
 
 <div>
 
-## <a name="to-import-the-certificate-for-the-internal-interface"></a>Para importar o certificado para a interface interna
+## <a name="to-import-the-certificate-for-the-internal-interface"></a>Para importar o certificado da interface interna
 
-1.  Faça logon no servidor de borda em que você criou a solicitação de certificado como membro do grupo Administradores local.
+1.  Faça logon no Servidor de Borda em que você criou a solicitação de certificado como membro do grupo Administradores local.
 
-2.  No assistente de implantação, ao lado da **etapa 3: solicitar, instalar ou atribuir certificados**, clique **novamente em executar**.
+2.  No Assistente de Implantação, em **Etapa 3: Solicitar, Instalar ou Ceder Certificados**, clique em **Executar novamente**.
     
-    Depois de executar a etapa 3 na primeira vez, o botão muda para **executar novamente**, mas uma marca de seleção verde (indicando a conclusão bem-sucedida da tarefa) não é exibida até que todos os certificados exijam que os certificados tenham sido solicitados, instalados e atribuídos.
+    Depois de executar a Etapa 3 pela primeira vez, o botão é alterado para **Executar novamente**, mas uma marca de seleção verde que indica a conclusão bem sucedida da tarefa não é exibida até que todos os certificados tenham sido solicitados, instalados e cedidos.
 
-3.  Na página **tarefas de certificado disponíveis** , clique em **importar um certificado de a. Arquivo P7b,. pfx ou. cer**.
+3.  Na página **Tarefas de Certificado Disponíveis**, clique em **Importar um certificado de um arquivo .P7b, .pfx ou .cer**.
 
-4.  Na página **importar certificado** , digite o caminho completo e o nome do arquivo do certificado que você solicitou e recebeu para a interface interna deste servidor de borda (ou clique em **procurar** para localizar e selecionar o arquivo).
+4.  Na página **Importar Certificado**, digite o caminho completo e nome do arquivo do certificado que você solicitou e recebeu para a interface interna deste Servidor De Borda (ou clique em **Procurar** para localizar e selecionar o arquivo).
 
-5.  Se você estiver importando certificados para outros membros do pool um certificado contendo uma chave privada, marque a caixa de seleção o **arquivo de certificado contém a chave privada da Certifcate** e especifique a senha.
+5.  Se você estiver importando certificados para outros membros do pool, um certificado que contenha uma chave privada, marque a opção **O arquivo do certificado contém a chave privada do certificado** e especifique a senha.
 
 </div>
 
 <div>
 
-## <a name="to-export-the-certificate-with-the-private-key-for-edge-servers-in-a-pool"></a>Para exportar o certificado com a chave privada para servidores de borda em um pool
+## <a name="to-export-the-certificate-with-the-private-key-for-edge-servers-in-a-pool"></a>Para exportar o certificado com a chave privada para os Servidores de Borda em um pool
 
-1.  Faça logon como membro do grupo Administradores para o mesmo servidor de borda no qual você importou o certificado.
+1.  Faça logon como membro do grupo de Administradores para o mesmo Servidor de Borda no qual você importou o certificado.
 
-2.  Clique em **Iniciar**, clique em **executar**e digite **MMC**.
+2.  Clique em **Iniciar**, **Executar** e digite **MMC**.
 
-3.  No console do MMC, clique em **arquivo**, clique em **Adicionar/remover snap-in**.
+3.  No console do MMC, clique em **Arquivo** e em **Adicionar/Remover Snap-in**.
 
-4.  Na página Adicionar ou remover snap-ins, clique em **certificados**e, em seguida, clique em **Adicionar**.
+4.  Na página Adicionar ou Remover Snap-ins, clique em **Certificados** e em **Adicionar**.
 
-5.  Na caixa de diálogo snap-in de certificados, selecione **conta de computador**. Click **Next**. Em Selecionar computador, selecione **computador local: (o computador no qual este console está sendo executado)**. Clique em **Concluir**. Clique em **OK** para concluir a configuração do console MMC.
+5.  Na caixa de diálogo Snap-in de certificados, selecione **Conta de computador**. Clique em **Avançar**. Em Selecionar Computador, selecione **Computador local: (o computador no qual este console está sendo executado)**. Clique em **Concluir**. Clique em **OK** para concluir a configuração do console MMC.
 
-6.  Clique duas vezes em **Certificados (Computador Local)** para expandir os repositórios de certificados. Clique duas vezes em **pessoal**e, em seguida, clique duas vezes em **certificados**.
+6.  Dê um duplo clique em **Certificados (Computador Local)** para expandir o repositório de certificados. Dê um duplo clique em **Pessoal** e em **Certificados**.
     
     <div>
     
 
     > [!IMPORTANT]  
-    > Se não houver certificados no armazenamento pessoal de certificados do computador local, não há uma chave privada associada ao certificado que foi importado. Examine as etapas de solicitação e importação. Se o problema persistir, entre em contato com o administrador ou o provedor da autoridade de certificação.
+    > Se não houver certificados no repositório Certificados Pessoais para o computador local, não existe chave privada associada ao certificado importado. Analise a solicitação e as etapas de importação. Se o problemas persistir, entre em contato com o administrador ou fornecedor da sua autoridade de certificação.
 
     
     </div>
 
-7.  No armazenamento de certificados pessoal do computador local, clique com o botão direito do mouse no certificado que você está exportando. Clique em **todas as tarefas**, clique em **Exportar**.
+7.  No repositório Certificados Pessoais para o computador local, clique com o botão direito no certificado que está exportando. Clique em **Todas as Tarefas** e em **Exportar**.
 
-8.  No Assistente para exportação de certificados, clique em **Avançar**. Selecione **Sim, exportar a chave privada**. Clique em **Avançar**.
+8.  No Assistente de Exportação de Certificado, clique em **Avançar**. Selecione **Sim, exportar a chave privada**. Clique em **Avançar**.
     
     <div>
     
 
     > [!NOTE]  
-    > Se a seleção <STRONG>Sim, exportar a chave privada</STRONG> não estiver disponível, a chave privada associada a esse certificado não foi marcada para exportação. Você precisará solicitar o certificado novamente, certificando-se de que o certificado esteja marcado para permitir a exportação da chave privada antes de continuar com a exportação. Entre em contato com o administrador ou provedor da autoridade de certificação.
+    > Se a opção <STRONG>Sim, exportar a chave privada</STRONG> não estiver disponível, a chave privada associada a este certificado não foi marcada para exportação. Será necessário solicitar o certificado novamente, garantindo que esteja marcado para permitir a exportação da chave privada antes de dar continuidade à exportação. Entre em contato com o administrador ou fornecedor da sua autoridade de certificação.
 
     
     </div>
 
-9.  Na caixa de diálogo Exportar formatos de arquivo, selecione **troca de informações\#pessoais – PKCS 12 (. PFX)** e, em seguida, selecione o seguinte:
+9.  Na caixa de diálogo Exportar formatos de arquivo, selecione **troca de informações\#pessoais – PKCS 12 (. PFX)** e selecione o seguinte:
     
       - Incluir todos os certificados no caminho de certificação, se possível
     
@@ -301,44 +301,44 @@ Se você tiver mais de um site com servidores de borda (ou seja, uma topologia d
         
 
         > [!WARNING]  
-        > Ao exportar o certificado de um servidor de borda, não selecione <STRONG>excluir a chave privada se a exportação for bem-sucedida</STRONG>. Selecionar essa opção exigirá que você importe o certificado e a chave privada para esse servidor de borda.
+        > Ao exportar o certificado de um servidor de Borda, não selecione <STRONG>Excluir a chave privada se a exportação tiver êxito</STRONG>. Selecionar esta opção exigirá a importação do certificado e da chave privada para este Servidor de Borda.
 
         
         </div>
     
     Clique em **Avançar** para continuar.
 
-10. Se você quiser atribuir uma senha para proteger a chave privada, digite uma senha para a chave privada. Digite a senha novamente para confirmá-la. Click **Next**.
+10. Se desejar atribuir uma senha para proteger a chave privada, digite uma senha para a chave privada. Insira novamente a senha para confirmar. Clique em **Avançar**.
 
-11. Digite um caminho e o nome de arquivo para o certificado exportado, usando uma extensão de arquivo .pfx. O caminho deve ser acessível a todos os outros servidores de borda do pool ou disponível para transporte por meio de mídia removível-por exemplo, uma unidade flash USB. Click **Next**.
+11. Digite um caminho e nome de arquivo para o certificado exportado, usando uma extensão de arquivo .pfx. O caminho deve estar acessível a todos os outros servidores de Borda no pool ou disponível para transporte via mídia removível - por exemplo, um pen drive. Clique em **Avançar**.
 
-12. Examine o resumo na caixa de diálogo concluindo o assistente para exportação de certificados. Clique em **Concluir**.
+12. Analise o resumo na caixa de diálogo Concluindo o Assistente para Exportação de Certificados. Clique em **Concluir**.
 
 13. Clique em **OK** na caixa de diálogo da exportação com sucesso.
 
-14. Importe o arquivo de certificado exportado para os outros servidores de borda seguindo as etapas descritas nos procedimentos [configurar certificados para a interface de borda externa dos procedimentos do Lync Server 2013](lync-server-2013-set-up-certificates-for-the-external-edge-interface.md) .
+14. Importe o arquivo de certificado exportado para os outros servidores de borda seguindo as etapas descritas nos procedimentos de [configuração de certificados para a interface de borda externa para o Lync Server 2013](lync-server-2013-set-up-certificates-for-the-external-edge-interface.md) .
 
 </div>
 
 <div>
 
-## <a name="to-assign-the-internal-certificate-on-the-edge-servers"></a>Para atribuir o certificado interno nos servidores de borda
+## <a name="to-assign-the-internal-certificate-on-the-edge-servers"></a>Para atribuir o certificado interno aos Servidores de Borda
 
-1.  Em cada servidor de borda, no assistente de implantação, ao lado da **etapa 3: solicitar, instalar ou atribuir certificados**, clique **novamente em executar**.
+1.  Em cada Servidor de Borda, no Assistente de Implantação, em **Etapa 3: Solicitar, Instalar ou Ceder Certificados**, clique em **Executar novamente**.
 
-2.  Na página **tarefas de certificado disponíveis** , clique em **atribuir um certificado existente**.
+2.  Na página **Tarefas de Certificado Disponíveis**, clique em **Atribuir um certificado existente**.
 
-3.  Na página **Atribuição de Certificado**, selecione  **Interno à Borda** na lista.
+3.  Na página **Atribuição de Certificado**, selecione **Interno à Borda** na lista.
 
-4.  Na página **repositório de certificados** , selecione o certificado que você importou para a borda interna (do procedimento anterior).
+4.  Na página **Repositório de Certificados**, selecione o certificado importado para a borda interna (no procedimento anterior).
 
-5.  Na página **Resumo de atribuição de certificado** , examine suas configurações e clique em **Avançar** para atribuir os certificados.
+5.  Na página **Resumo da Atribuição de Certificado**, analise suas configurações e clique em **Avançar** para atribuir os certificados.
 
-6.  Na página de conclusão do assistente, clique em  **Concluir**.
+6.  Na página de conclusão do assistente, clique em **Concluir**.
 
-7.  Depois de usar esse procedimento para atribuir o certificado de borda interno, abra o snap-in de certificado em cada servidor, expanda **certificados (computador local)**, expanda **pessoal**, clique em **certificados**e verifique no painel de detalhes se o certificado de borda interna está listado.
+7.  Depois de usar este procedimento para atribuir o certificado de borda interna, abra o Snap-in de Certificados em cada servidor, expanda **Certificados (computador local)**, expanda **Pessoal**, clique em **Certificados** e verifique no painel de detalhes se o certificado da borda interna está listado.
 
-8.  Se a sua implantação incluir vários servidores de borda, repita esse procedimento para cada servidor de borda.
+8.  Se sua implantação incluir vários Servidores de Borda, repita este procedimento para cada um deles.
 
 </div>
 

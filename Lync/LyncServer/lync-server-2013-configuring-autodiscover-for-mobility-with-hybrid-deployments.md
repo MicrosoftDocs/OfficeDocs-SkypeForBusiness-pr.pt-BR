@@ -1,5 +1,5 @@
 ---
-title: Configurando Autodiscover para mobilidade com implantações híbridas
+title: Configurando a descoberta automática para mobilidade com implantações híbridas
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48706012
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0dd6c36afb89d1a8b354d072ee39ee3f6a2e7e93
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 027357579ff9ff90d82a78994696a5a2fb656188
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734832"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049753"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-autodiscover-in-lync-server-2013-for-mobility-with-hybrid-deployments"></a>Configurando Autodiscover no Lync Server 2013 para mobilidade com implantações híbridas
+# <a name="configuring-autodiscover-in-lync-server-2013-for-mobility-with-hybrid-deployments"></a>Configurando a descoberta automática no Lync Server 2013 para mobilidade com implantações híbridas
 
 </div>
 
@@ -35,33 +35,33 @@ ms.locfileid: "41734832"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2014-06-18_
+_**Última modificação do tópico:** 2014-06-18_
 
-Implantações híbridas são configurações que usam o serviço de nuvem do Microsoft Lync Online e a implantação local. Nesse tipo de configuração, o serviço de descoberta automática deve ser capaz de localizar onde o usuário está realmente localizado. Isso é dizer, o recurso de descoberta automática ajuda a localizar a conta de usuário e onde o servidor que hospeda a conta do usuário é, independentemente de estar na implantação local ou na implantação do Lync Online.
+As implantações híbridas são configurações que usam o serviço de nuvem do Microsoft Lync Online e a implantação no local. Nesse tipo de configuração, o serviço de descoberta automática deve ser capaz de localizar onde o usuário está realmente localizado. Isso é dizer, a descoberta automática ajuda a localizar a conta de usuário e onde o servidor que hospeda a conta do usuário é, independentemente de se ele estiver na implantação local ou na implantação do Lync Online.
 
 Por exemplo, se a conta de um usuário estiver hospedada em um servidor no Lync Online, a tentativa de localizar o usuário acontecerá da seguinte maneira, em um processo conhecido como *descoberta*:
 
   - O usuário inicia uma tentativa de conexão com a implantação local, **contoso.com**.
 
-  - A tentativa é enviada para lyncdiscover.contoso.com, o nome DNS associado ao serviço de descoberta automática.
+  - A tentativa é enviada a lyncdiscover.contoso.com, o nome de DNS associado ao serviço de descoberta automática.
 
-  - A descoberta automática se refere ao pool de registradores presumidos na implantação do contoso.com local e recebe informações sobre o servidor primário real do usuário hospedado no Lync Online. A descoberta automática envia ao usuário uma referência para o serviço de descoberta automática do **Lync.com** online.
+  - A descoberta automática se refere ao pool de registradores assumido na implantação local do contoso.com e recebe informações sobre o servidor local real do usuário hospedado no Lync Online. A descoberta automática envia ao usuário uma referência do serviço online de descoberta automática do **lync.com**.
 
-  - O usuário inicia uma tentativa de conexão com o serviço de descoberta automática do lync.com Online e consegue localizar a conta do usuário e o servidor primário do usuário.
+  - O usuário inicia uma tentativa de conexão com o serviço online de descoberta automática do lync.com e pode localizar a conta do usuário e o servidor que o está hospedando.
 
-Para permitir que os clientes móveis descubram a implantação em que o servidor primário do usuário está localizado, você deve configurar o serviço de descoberta automática com um novo Uniform Resource Locator (URL). Siga este procedimento para configurar o serviço de descoberta automática.
+Para permitir que os clientes móveis descubram a implantação em que o servidor que hospeda o usuário está localizado, é necessário configurar o serviço de descoberta automática com uma nova URL. Para configurar o serviço de descoberta automática, faça o seguinte:
 
 <div>
 
-## <a name="configuring-autodiscover-for-hybrid-deployments"></a>Configurando a descoberta automática para implantações híbridas
+## <a name="configuring-autodiscover-for-hybrid-deployments"></a>Configurando a descoberta automática em implantações híbridas
 
-1.  Use Get-CsHostingProvider para recuperar o valor da ProxyFQDN de atributo.
+1.  Use Get-CsHostingProvider para recuperar o valor do atributo ProxyFQDN.
 
 2.  No Shell de gerenciamento do Lync Server, digite
     
         Set-CsHostingProvider -Identity [identity] -AutodiscoverUrl https://webdir.online.lync.com/autodiscover/autodiscoverservice.svc/root
     
-    Onde \[a\] identidade é substituída pelo nome de domínio do espaço de endereço SIP compartilhado.
+    Onde \[Identity\] é substituído pelo nome de domínio do espaço de endereçamento SIP compartilhado.
 
 </div>
 
@@ -70,8 +70,8 @@ Para permitir que os clientes móveis descubram a implantação em que o servido
 ## <a name="see-also"></a>Confira também
 
 
-[Get-CsHostingProvider](https://technet.microsoft.com/en-us/library/Gg413078(v=OCS.15))  
-[Set-CsHostingProvider](https://technet.microsoft.com/en-us/library/Gg398532(v=OCS.15))  
+[Get-CsHostingProvider](https://technet.microsoft.com/library/Gg413078(v=OCS.15))  
+[Set-CsHostingProvider](https://technet.microsoft.com/library/Gg398532(v=OCS.15))  
   
 
 </div>

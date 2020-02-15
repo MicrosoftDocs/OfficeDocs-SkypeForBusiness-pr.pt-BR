@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: restaurando dados persistentes de chat'
+title: 'Lync Server 2013: restaurando dados de chat persistente'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 51541516
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5734296a9b3463740b28e6ead33cc64234640432
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 78d43cedaec50adac895b143a3643a6a1a1a8a48
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733101"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050363"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41733101"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-02-18_
+_**Última modificação do tópico:** 2013-02-18_
 
-Conteúdo da sala de chat persistente é armazenado no banco de dados de chat persistente (MGC. MDF). Esses dados são essenciais para os negócios, cujo backup deve ser feito regularmente. Além do conteúdo da sala de chat, as entidades de segurança (como usuários e grupos) e as funções e o acesso que elas precisam fazer para conversar com salas de chat e conteúdo da sala de chat, também são armazenados no banco de dados de chat persistente.
+O conteúdo de sala de chat persistente é armazenado no banco de dados de chat persistente (MGC. MDF). Estes são dados críticos para os negócios que devem ser copiados regularmente. Além do conteúdo da sala de chat, as entidades de segurança (como usuários e grupos) e as funções e o acesso de salas de chat e o conteúdo da sala de chat, também são armazenados no banco de dados de chat persistente.
 
-A maneira como você restaura seus dados de chat persistentes depende do método usado para fazer o backup.
+O modo de restauração dos dados de chat persistente depende do método usado para fazer o backup.
 
-  - Se você usou procedimentos de backup do SQL Server, então deve usar procedimentos de restauração do SQL Server.
+  - Se você usou procedimentos de backup do SQL Server, deverá usar os procedimentos de restauração do SQL Server.
 
-  - Se você usou o cmdlet **Export-CsPersistentChatData** para fazer backup de dados de chat persistente, deve usar o cmdlet **Import-CsPersistentChatData** para restaurar os dados.
+  - Se você usou o cmdlet **Export-CsPersistentChatData** para fazer o backup de dados de chat persistente, deverá usar o cmdlet **Import-CsPersistentChatData** para restaurar os dados.
 
 </div>
 

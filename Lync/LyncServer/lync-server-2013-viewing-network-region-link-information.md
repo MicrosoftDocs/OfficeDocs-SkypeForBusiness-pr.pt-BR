@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: exibir informações do link de região de rede'
+title: 'Lync Server 2013: exibindo informações de link de região de rede'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733701
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 935d1a98bd4f446ec8861ae8382eb724611a945f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7046f4f405bc3ece0170c4d598369828b47aa910
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757275"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046444"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="viewing-network-region-link-information-in-lync-server-2013"></a>Exibir informações de link de região de rede no Lync Server 2013
+# <a name="viewing-network-region-link-information-in-lync-server-2013"></a>Exibindo informações de link de região de rede no Lync Server 2013
 
 </div>
 
@@ -35,50 +35,50 @@ ms.locfileid: "41757275"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-02-23_
+_**Última modificação do tópico:** 2013-02-23_
 
-Você pode exibir links entre duas regiões de rede como parte do controle de admissão de chamadas (CAC). Regiões dentro de uma rede são vinculadas por meio de conectividade física de rede de longa distância (WAN). Você pode usar o painel de controle do Lync Server para exibir um link existente entre duas regiões de rede. Para obter detalhes sobre como criar ou modificar o link de região de rede, consulte [Configurando links de região de rede no Lync Server 2013](lync-server-2013-configuring-network-region-links.md).
+Você pode visualizar os links entre duas regiões de redes como parte do controle de admissão de chamadas (CAC). Regiões dentro de uma rede são vinculadas por conectividade de WAN física. Você pode usar o painel de controle do Lync Server para exibir um link existente entre duas regiões de rede. Para obter detalhes sobre como criar ou modificar um link de região de rede, confira [Configurando links de região de rede no Lync Server 2013](lync-server-2013-configuring-network-region-links.md).
 
 <div>
 
 ## <a name="to-view-a-network-region-link-in-lync-server-control-panel"></a>Para exibir um link de região de rede no painel de controle do Lync Server
 
-1.  Usando uma conta de usuário que é membro do grupo RTCUniversalServerAdmins (ou tem direitos de usuário equivalentes), ou está atribuída à função CsAdministrator, faça logon em qualquer computador de sua implantação interna.
+1.  A partir de uma conta de usuário que seja membro do grupo RTCUniversalServerAdmins (ou tenha direitos de usuário equivalentes) ou atribuída à função CsAdministrator, faça logon em qualquer computador em sua implantação interna.
 
-2.  Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [abrir ferramentas administrativas do Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Na barra de navegação à esquerda, clique em **configuração de rede** e, em seguida, clique em **link de região**.
+3.  Na barra de navegação esquerda, clique em **Configuração da rede** e em **Link da região**.
 
-4.  Na página **link de região** , clique no link de região que você deseja exibir.
+4.  Na página **Link da região**, clique no link da região que você deseja ver.
     
     <div>
     
 
     > [!NOTE]  
-    > Você só pode exibir informações sobre um link de região de cada vez.
+    > Você pode ver informações somente sobre um link da região por vez.
 
     
     </div>
 
-5.  No menu **Editar** , selecione **Mostrar detalhes**.
+5.  No menu**Editar**, selecione **Mostras detalhes**.
 
 </div>
 
 <div>
 
-## <a name="viewing-network-region-link-information-by-using-windows-powershell-cmdlets"></a>Exibir informações de link de região de rede usando cmdlets do Windows PowerShell
+## <a name="viewing-network-region-link-information-by-using-windows-powershell-cmdlets"></a>Exibindo informações de link de região de rede usando cmdlets do Windows PowerShell
 
-Você pode exibir os links de região de rede usando o Windows PowerShell e o cmdlet **Get-CsNetworkRegionLink** . Você pode executar esse cmdlet a partir do Shell de gerenciamento do Lync Server 2013 ou de uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Lync Server, consulte o artigo sobre o blog do Windows PowerShell do Lync Server "início rápido: gerenciar o [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Microsoft Lync Server 2010 usando o PowerShell remoto" em.
+Você pode exibir os links de região de rede usando o Windows PowerShell e o cmdlet **Get-CsNetworkRegionLink** . Você pode executar esse cmdlet do Shell de gerenciamento do Lync Server 2013 ou de uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Lync Server, consulte o artigo de blog do Lync Server Windows PowerShell "início rápido: Managing Microsoft Lync Server [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)2010 using Remote PowerShell" em.
 
 <div>
 
-## <a name="to-view-network-region-link-information"></a>Para ver as informações de link da região de rede
+## <a name="to-view-network-region-link-information"></a>Para ver informações do link de região de rede
 
-  - Para ver as informações sobre todos os seus links de região de rede, digite o seguinte comando no Shell de gerenciamento do Lync Server e pressione ENTER:
+  - Para exibir informações sobre todos os seus links de região de rede, digite o seguinte comando no Shell de gerenciamento do Lync Server e pressione ENTER:
     
         Get-CsNetworkRegionLink
     
-    Este comando retorna informações semelhantes para o seguinte:
+    Esse comando retorna informações semelhantes às seguintes:
     
         Identity            : NorthwestToCalifornia
         BWPolicyProfileID   :
@@ -88,7 +88,7 @@ Você pode exibir os links de região de rede usando o Windows PowerShell e o cm
 
 </div>
 
-Para obter detalhes, consulte [Get-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkRegionLink).
+Para detalhes, consulte [Get-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkRegionLink).
 
 </div>
 
@@ -97,7 +97,7 @@ Para obter detalhes, consulte [Get-CsNetworkRegionLink](https://docs.microsoft.c
 ## <a name="see-also"></a>Confira também
 
 
-[Configurar links de sites de rede no Lync Server 2013](lync-server-2013-configuring-network-site-links.md)  
+[Configurando links de site de rede no Lync Server 2013](lync-server-2013-configuring-network-site-links.md)  
   
 
 </div>

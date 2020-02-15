@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Normalização de controle de chamada remota e de número de telefone'
+title: 'Lync Server 2013: controle de chamada remota e normalização de número de telefone'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183696
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6eff9fb48e9730549d67638c69d8655d8f04d710
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 76d7ffb386f6b565fc00b866072bfab6390bc8d9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724371"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048732"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,23 +35,23 @@ ms.locfileid: "41724371"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-22_
+_**Última modificação do tópico:** 2012-09-22_
 
-Os clientes do Lync baixam as regras de normalização do número de telefone como parte do download do arquivo ABS (serviço de catálogo de endereços). Em cenários de controle de chamada remota, as regras de normalização do número de telefone do serviço de catálogo de endereços são aplicadas às chamadas de controle de chamada remota de entrada e saída. Para chamadas recebidas para um usuário habilitado para controle de chamada remota, o número de telefone do chamador é inicialmente normalizado para o formato E. 164 pelo gateway de SIP/CSTA ou PBX (Agência telefônica privada). Quando o Lync Server 2013 recebe a chamada do gateway, ele executa a pesquisa de número reverso (RNL) no número de telefone do chamador em relação ao número normalizado na lista de contatos do Microsoft Office Outlook ou a GAL (lista de endereços global) do Microsoft Office Outlook que está armazenada em o serviço de catálogo de endereços. Se a pesquisa de número reverso localizar uma correspondência com êxito, o chamador será identificado por nome na notificação de chamada de entrada.
+Os clientes do Lync baixam regras de normalização de número de telefone como parte do download de arquivo do serviço de catálogo de endereços (ABS). Em cenários de controle de chamada remota, as regras de normalização de número de telefone do Serviço de Catálogo de Endereços são aplicadas a chamadas recebidas e realizadas de controle de chamada remota. Para as chamadas recebidas para um usuário com o controle de chamada remota habilitado, primeiro o número de telefone do chamador é normalizado no formato E.164 pelo gateway SIP/CSTA ou PBX (Central Privada de Comutação Telefônica). Quando o Lync Server 2013 recebe a chamada do gateway, ele realiza a pesquisa de número reverso (RNL) no número de telefone do chamador em relação ao número normalizado na lista de contatos do Microsoft Office Outlook do receptor ou na lista de endereços global (GAL) armazenada no o serviço de catálogo de endereços. Se a pesquisa de número reversa encontrar uma correspondência, o chamador será identificado pelo nome na notificação de chamada recebida.
 
-Para chamadas de controle de chamadas remotas de saída, o Lync aplica as regras de normalização de número de telefone do serviço de catálogo de endereços para o número discado antes de rotear a chamada para o gateway SIP/CSTA.
+Para chamadas de controle de chamada remota de saída, o Lync aplica as regras de normalização do número de telefone do serviço de catálogo de endereços ao número discado antes de rotear a chamada para o gateway SIP/CSTA.
 
-Para obter detalhes sobre como criar regras de normalização de número de telefone para o controle de chamada remota, consulte [regras de discagem e planos de normalização no Lync Server 2013](lync-server-2013-dial-plans-and-normalization-rules.md) na documentação de planejamento.
+Para obter detalhes sobre como criar regras de normalização de número de telefone para controle de chamada remota, consulte [Dial Plans and Normalization Rules in Lync Server 2013](lync-server-2013-dial-plans-and-normalization-rules.md) na documentação de planejamento.
 
 <div>
 
-## <a name="migrating-phone-number-normalization-rules"></a>Migrando regras de normalização de número de telefone
+## <a name="migrating-phone-number-normalization-rules"></a>Migrando as regras de normalização do número de telefone
 
-Se você estiver migrando usuários anteriormente habilitados para controle de chamada remota, consulte os tópicos a seguir na documentação de migração:
+Se você estiver migrando os usuários que antes estavam habilitados para controle de chamada remota, consulte os seguintes tópicos na documentação Migração:
 
-  - Para o Lync Server 2010, consulte [migrar catálogo de endereços](migrate-address-book.md) na documentação de migração.
+  - Para o Lync Server 2010, consulte [Migrate Address Book](migrate-address-book.md) na documentação de migração.
 
-  - Para o Communications Server 2007 R2, confira [migrar o catálogo de endereços](migrate-address-book_1.md) na documentação de migração.
+  - Para o Communications Server 2007 R2, consulte [Migrate Address Book](migrate-address-book_1.md) na documentação de migração.
 
 </div>
 

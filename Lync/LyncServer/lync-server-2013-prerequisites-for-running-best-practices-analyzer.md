@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: pré-requisitos para execução do analisador de práticas recomendadas'
+title: 'Lync Server 2013: pré-requisitos para executar o analisador de práticas recomendadas'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183283
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9a720a9bc1245146d816fe3c42bbf8e24020a134
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e0795e29fb52171af32ecbde62a6ecddcfa00931
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41747251"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050323"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="prerequisites-for-running-best-practices-analyzer-in-lync-server-2013"></a>Pré-requisitos para execução do analisador de práticas recomendadas no Lync Server 2013
+# <a name="prerequisites-for-running-best-practices-analyzer-in-lync-server-2013"></a>Pré-requisitos para executar o analisador de práticas recomendadas no Lync Server 2013
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41747251"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-06-25_
+_**Última modificação do tópico:** 2012-06-25_
 
-Você pode usar o analisador de práticas recomendadas para verificar o ambiente do Lync Server 2013 em busca de problemas e criar relatórios e para exibir os resultados de uma verificação atual ou anterior. Antes de executar o analisador de práticas recomendadas para verificar seu ambiente, você precisa verificar se a conta que você planeja usar para executar a verificação tem os direitos e permissões necessários e se todos os pré-requisitos de instalação foram atendidos.
+Você pode usar o analisador de práticas recomendadas para verificar seu ambiente do Lync Server 2013 em busca de problemas e criar relatórios e para exibir os resultados de uma verificação atual ou anterior. Antes de executar o Analisador de Práticas Recomendadas para verificar o seu ambiente, é necessário verificar se a conta que você planeja usar ara executar a verificação possui os direitos e permissões exigidos e se todos os pré-requisitos de instalação são cumpridos.
 
 <div>
 
 ## <a name="in-this-section"></a>Nesta seção
 
-  - [Associações de grupo e requisitos de direitos de usuário para o analisador de práticas recomendadas no Lync Server 2013](lync-server-2013-group-memberships-and-user-rights-requirements-for-best-practices-analyzer.md)
+  - [Associações de grupo e requisitos de direitos do usuário para o analisador de práticas recomendadas no Lync Server 2013](lync-server-2013-group-memberships-and-user-rights-requirements-for-best-practices-analyzer.md)
 
-  - [Requisitos para execução do analisador de práticas recomendadas no Lync Server 2013](lync-server-2013-requirements-for-running-best-practices-analyzer.md)
+  - [Requisitos para executar o analisador de práticas recomendadas no Lync Server 2013](lync-server-2013-requirements-for-running-best-practices-analyzer.md)
 
 </div>
 

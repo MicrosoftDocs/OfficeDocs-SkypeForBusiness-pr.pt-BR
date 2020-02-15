@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Criar ou modificar um número de acesso de conferência discada'
+title: 'Lync Server 2013: criar ou modificar um número de acesso de conferência discada'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183304
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7ecfebba25d45f53633fdd425e5901929fc32d0c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6406fe5c2f1183b39966902ee2fa5273f509bf2d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758075"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048922"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41758075"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-17_
+_**Última modificação do tópico:** 2012-09-17_
 
-Siga estas etapas se quiser criar ou modificar um número de acesso à conferência discada.
+Siga essas etapas se você quer criar ou modificar um número de acesso de discagem à conferência.
 
 <div>
 
 
 > [!IMPORTANT]  
-> Antes de criar um novo número de acesso à discagem, você deve definir uma região de conferência discada no plano de discagem associada ao novo número de acesso discado. Vários planos de discagem podem usar a mesma região.
+> Antes de criar um novo número de acesso de discagem, você deve definir uma região de conferência discada no painel de discagem que está associado com o novo número de acesso de discagem. Vários planos de discagem pode usar a mesma região.
 
 
 
@@ -51,13 +51,13 @@ Siga estas etapas se quiser criar ou modificar um número de acesso à conferên
 
 <div>
 
-## <a name="to-create-or-modify-a-dial-in-access-number"></a>Para criar ou modificar um número de acesso à discagem
+## <a name="to-create-or-modify-a-dial-in-access-number"></a>Para criar ou modifica um número de acesso de discagem
 
-1.  Usando uma conta de usuário atribuída à função CsUserAdministrator ou CsAdministrator, faça logon em qualquer computador de sua implantação interna.
+1.  Por uma conta de usuário atribuída à função CsUserAdministrator role ou CsAdministrator, faça o login em qualquer computador na sua implantação interna.
 
-2.  Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [abrir ferramentas administrativas do Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Na barra de navegação à esquerda, clique em **Conferência** e, então, em  **Número de acesso de discagem**.
+3.  Na barra de navegação da esquerda, clique em **Conferência**, depois clique em **Número de Acesso de Discagem**.
 
 4.  Na página **Número de Acesso de Discagem**, realize uma das ações a seguir:
     
@@ -85,7 +85,7 @@ Siga estas etapas se quiser criar ou modificar um número de acesso à conferên
     
     </div>
 
-6.  Em **Nome para exibição**, digite uma descrição para o número de acesso de discagem. Este é o nome que está associado ao número de acesso discada nos resultados da pesquisa do Lync.
+6.  Em **Nome para exibição**, digite uma descrição para o número de acesso de discagem. Este é o nome que é associado ao número de acesso de discagem nos resultados de pesquisa do Lync.
     
     <div>
     
@@ -109,7 +109,7 @@ Siga estas etapas se quiser criar ou modificar um número de acesso à conferên
 
 8.  Em **URI do SIP**, faça o seguinte:
     
-      - Na caixa de texto, digite um único URI do SIP para o número de acesso de conferência discada. Esse URI SIP é exibido em vários locais, incluindo, entre outros, mensagens de notificação de chamada e versões anteriores de clientes do Communicator.
+      - Na caixa de texto, digite um único URI do SIP para o número de acesso de conferência discada. Esse URI SIP é exibido em vários locais, incluindo, mas não limitado a, mensagens de notificação de chamadas e versões anteriores dos clientes do Communicator.
         
         <div>
         
@@ -120,20 +120,20 @@ Siga estas etapas se quiser criar ou modificar um número de acesso à conferên
         
         </div>
     
-      - Na caixa de listagem suspensa, clique no domínio do aplicativo de assistente de conferência que dá suporte a esse número de acesso à discagem.
+      - Na caixa de listagem suspensa, clique no domínio do aplicativo de atendedor de conferência que dá suporte a esse número de acesso de discagem.
 
-9.  Em  **Pool**, clique no pool que está executado a instância Atendedor de Conferência que dá suporte ao número de acesso de discagem.
+9.  Em **Pool**, clique no pool que está executado a instância Atendedor de Conferência que dá suporte ao número de acesso de discagem.
     
     <div>
     
 
     > [!NOTE]  
-    > Se for preciso alterar o pool depois de criar o número de acesso, deve-se usar o cmdlet do <STRONG>Move-CsApplicationEndpoint</STRONG> ou excluir e recriar o número de acesso.
+    > Se foi preciso alterar o pool depois de criar o número de acesso, deve-se usar o cmdlet do <STRONG>Move-CsApplicationEndpoint</STRONG> cmdlet ou excluir e recriar o número de acesso.
 
     
     </div>
 
-10. Em **Idioma principal**, clique no idioma no qual as solicitações são reproduzidas para esse número de acesso de discagem.
+10. Em **Idioma principal**, clique no idioma no qual as solicitações são reproduzidas nesse número de acesso.
     
     <div>
     
@@ -155,7 +155,7 @@ Siga estas etapas se quiser criar ou modificar um número de acesso à conferên
     
     </div>
 
-12. Para adicionar uma região para o número de acesso de discagem, em **regiões associadas**, clique em **Adicionar**, clique em uma ou mais regiões associadas aos planos de discagem para este número de acesso à discagem e, em seguida, clique em **OK**.
+12. Para adicionar uma região para o número de acesso de discagem, em **regiões associadas**, clique em **Adicionar**, clique em uma ou mais regiões associadas aos planos de discagem para esse número de acesso de discagem e clique em **OK**.
 
 13. Para excluir uma região do número de acesso de discagem, em **Regiões Associadas**, clique na região a ser excluída e clique em **Remover**.
 

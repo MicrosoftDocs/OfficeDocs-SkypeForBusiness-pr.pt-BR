@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Habilitar usuários para repositório unificado de contatos'
+title: 'Lync Server 2013: habilitar usuários para repositório unificado de contatos'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184599
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3df3cbd4d71a1decc3607263f2e98b159dc29b2e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b99fd96b16d19305ea5bb63ea9f84096ef6117c7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735861"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046644"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,23 +35,23 @@ ms.locfileid: "41735861"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-07_
+_**Última modificação do tópico:** 2012-10-07_
 
-Quando você implanta o Lync Server 2013 e publica a topologia, o repositório de contatos unificado é habilitado para todos os usuários por padrão. Você não precisa executar nenhuma ação adicional para habilitar o repositório de contatos unificado após a implantação do Lync Server 2013. Contudo, você pode usar o cmdlet **Set-CsUserServicesPolicy** para definir quais usuários têm o repositório unificado de contatos disponível. Você pode habilitar esse recurso globalmente, por local, por locatário ou por indivíduos ou grupos de indivíduos.
+Quando você implanta o Lync Server 2013 e publica a topologia, o repositório unificado de contatos é habilitado para todos os usuários por padrão. Você não precisa realizar qualquer ação adicional para habilitar o repositório unificado de contatos após implantar o Lync Server 2013. Contudo, você pode usar o **Set-CsUserServicesPolicy** cmdlet para definir quais usuários têm o armazenamento unificado de contatos disponível. Você pode habilitar esse recurso globalmente, por local, por tenant ou por indivíduos ou grupos de indivíduos.
 
 <div>
 
-## <a name="to-enable-users-for-unified-contact-store"></a>Para permitir o repositório unificado de contatos
+## <a name="to-enable-users-for-unified-contact-store"></a>Para permitir o armazenamento unificado de contatos
 
-1.  Inicie o Shell de gerenciamento do Lync Server: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Shell de gerenciamento do Lync Server**.
+1.  Inicie o Shell de Gerenciamento do Lync Server: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Shell de Gerenciamento do Lync Server**.
 
-2.  Execute qualquer uma das seguintes ações:
+2.  Faça um dos seguintes:
     
-      - Para habilitar o repositório de contatos unificado globalmente para todos os usuários do Lync Server, na linha de comando, digite:
+      - Para habilitar o repositório unificado de contatos globalmente para todos os usuários do Lync Server, na linha de comando, digite:
         
             Set-CsUserServicesPolicy -Identity global -UcsAllowed $True
     
-      - Para habilitar o repositório de contatos unificado para os usuários em um site específico, digite o seguinte na linha de comando:
+      - Para permitir o armazenamento unificado de contatos para os usuários em um local específico, digite na linha de comando:
         
             New-CsUserServicesPolicy -Identity site:<site name> -UcsAllowed $True
         
@@ -59,7 +59,7 @@ Quando você implanta o Lync Server 2013 e publica a topologia, o repositório d
         
             New-CsUserServicesPolicy -Identity site:Redmond -UcsAllowed $True
     
-      - Para habilitar o repositório de contatos unificado por locatário, na linha de comando, digite:
+      - Para permitir o armazenamento unificado de contatos por tenant, digite na linha de comando:
         
             Set-CsUserServicesPolicy -Tenant <tenantId> -UcsAllowed $True
         
@@ -67,7 +67,7 @@ Quando você implanta o Lync Server 2013 e publica a topologia, o repositório d
         
             Set-CsUserServicesPolicy -Tenant "38aad667-af54-4397-aaa7-e94c79ec2308" -UcsAllowed $True
     
-      - Para habilitar o repositório de contatos unificado para usuários específicos, na linha de comando, digite:
+      - Para permitir o armazenamento unificado de contatos para usuários específicos, digite na linha de comando:
         
             New-CsUserServicesPolicy -Identity "<policy name>" -UcsAllowed $True
             Grant-CsUserServicesPolicy -Identity "<user display name>" -PolicyName <"policy name">
@@ -90,7 +90,7 @@ Quando você implanta o Lync Server 2013 e publica a topologia, o repositório d
         
 
         > [!NOTE]  
-        > No exemplo anterior, o primeiro comando cria uma nova política por usuário chamada <EM>Usuários do UCS Permitidos</EM>, com o sinalizador AcsAllowed definido como True. O segundo comando atribui a política ao usuário com o nome Ken Myer, o que significa que Ken Myer está habilitado para o repositório unificado de contatos.
+        > No exemplo anterior, o primeiro comando criar uma nova política de acordo com o usuário chamada <EM>Usuários do UCS Permitidos</EM>, com o sinalizador AcsAllowed definido para True. O segundo comando define a política ao usuário com nome de Ken Myer, o que significa que Ken Myer está autorizado a ter armazenamento unificado de contatos.
 
         
         </div>

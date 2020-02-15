@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Configurando autenticação passiva'
+title: 'Lync Server 2013: Configurando a autenticação passiva'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 54973690
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0a2e52f957a8aba7e69e97b0ec2100ffbc5a190c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1a50cb75bdf833468d6974b9ddce1b282c1872d3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756325"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046334"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41756325"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-07-11_
+_**Última modificação do tópico:** 2013-07-11_
 
-A seção a seguir descreve como configurar o Lync Server 2013 com atualizações cumulativas: 2013 de julho para dar suporte à autenticação passiva. Uma vez habilitado, os usuários do Lync habilitados para a autenticação de dois fatores serão necessários para usar um cartão inteligente físico ou virtual e um PIN válido para entrar usando o Lync 2013 com atualizações cumulativas: cliente de julho de 2013.
+A seção a seguir descreve como configurar o Lync Server 2013 com atualizações cumulativas: 2013 de julho para dar suporte à autenticação passiva. Uma vez habilitado, os usuários do Lync habilitados para a autenticação de dois fatores serão solicitados a usar um cartão inteligente físico ou virtual e um PIN válido para entrar usando o Lync 2013 com atualizações cumulativas: cliente de julho de 2013.
 
 <div class="">
 
 
 > [!NOTE]  
-> Recomendamos que os clientes habilitem a autenticação passiva para o Registrador e para os Serviços Web no nível de serviço. Se a autenticação passiva estiver habilitada para o registrador e os serviços Web no nível global, ele provavelmente resultará em falhas de autenticação em toda a organização para os usuários que não estão se conectando ao Lync 2013 com atualizações cumulativas: 2013 de julho de cliente da área de trabalho.
+> É altamente recomendável que os clientes habilitem a autenticação passiva para o registrador e os serviços Web no nível de serviço. Se a autenticação passiva estiver habilitada para o registrador e os serviços Web no nível global, ele provavelmente resultará em falhas de autenticação em toda a organização para usuários que não estão fazendo logon com o Lync 2013 com atualizações cumulativas: cliente da área de trabalho cliente de julho de 2013.
 
 
 
@@ -51,17 +51,17 @@ A seção a seguir descreve como configurar o Lync Server 2013 com atualizaçõe
 
 <div>
 
-## <a name="web-service-configuration"></a>Configuração dos Serviços Web
+## <a name="web-service-configuration"></a>Configuração do serviço Web
 
-As etapas a seguir descrevem como criar uma configuração personalizada de serviços Web para servidores Diretores, pools Enterprise e Standard Edition que serão habilitados para a autenticação passiva.
+As etapas a seguir descrevem como criar uma configuração de serviço Web personalizada para diretores, pools corporativos e servidores Standard Edition que serão habilitados para autenticação passiva.
 
-**Para criar uma configuração personalizada de serviços Web**
+**Para criar uma configuração de serviço da Web personalizada**
 
-1.  Faça logon no Lync Server 2013 com atualizações cumulativas: servidor front-end de julho de 2013 usando uma conta de administrador do Lync.
+1.  Faça logon no Lync Server 2013 com atualizações cumulativas: servidor front end de julho de 2013 usando uma conta de administrador do Lync.
 
 2.  Inicie o Shell de gerenciamento do Lync Server 2013.
 
-3.  Na linha de comando do Shell de gerenciamento do Lync Server, crie uma nova configuração de serviço Web para cada director, pool corporativo e servidor Standard Edition que será habilitado para autenticação passiva executando o seguinte comando:
+3.  Na linha de comando do Shell de gerenciamento do Lync Server, crie uma nova configuração de serviço Web para cada diretor, pool corporativo e servidor Standard Edition que será habilitado para autenticação passiva executando o seguinte comando:
     ```powershell
     New-CsWebServiceConfiguration -Identity "Service:WebServer:LyncPool01.contoso.com" -UseWsFedPassiveAuth $true -WsFedPassiveMetadataUri https://dc.contoso.com/federationmetadata/2007-06/federationmetadata.xml
     ```
@@ -70,7 +70,7 @@ As etapas a seguir descrevem como criar uma configuração personalizada de serv
     
 
     > [!WARNING]  
-    > O valor para o FQDN WsFedPassiveMetadataUri é o Nome de Serviço de Federação do seu servidor AD FS 2.0. O valor do Nome de Serviço de Federação pode ser encontrado no Console de Gerenciamento do AD FS 2.0 clicando com o botão direito do mouse em <STRONG>Serviço</STRONG> a partir do painel de navegação, selecionando em seguida <STRONG>Editar propriedades do serviço de federação</STRONG>.
+    > O valor para o FQDN WsFedPassiveMetadataUri é o nome do serviço de Federação do seu servidor AD FS 2,0. O valor do nome do serviço de Federação pode ser encontrado no console de gerenciamento do AD FS 2,0 clicando com o botão direito do mouse no <STRONG>serviço</STRONG> no painel de navegação e, em seguida, selecionando <STRONG>Editar propriedades do serviço de Federação</STRONG>.
 
     
     </div>
@@ -79,7 +79,7 @@ As etapas a seguir descrevem como criar uma configuração personalizada de serv
      ```powershell
      Get-CsWebServiceConfiguration -identity "Service:WebServer:LyncPool01.contoso.com" | format-list UseWsFedPassiveAuth, WsFedPassiveMetadataUri
      ```
-5.  Para clientes, a Autenticação Passiva é o método de autenticação menos indicado para autenticação de webticket. Para todos os directors, pools corporativos e servidores Standard Edition que serão habilitados para autenticação passiva, todos os outros tipos de autenticação deverão ser desabilitados nos serviços Web do Lync executando o seguinte comando:
+5.  Para clientes, a autenticação passiva é o método de autenticação menos preferencial para a autenticação webticket. Para todos os diretores, pools corporativos e servidores Standard Edition que serão habilitados para autenticação passiva, todos os outros tipos de autenticação deverão ser desabilitados nos serviços Web do Lync executando o seguinte comando:
     ```powershell
     Set-CsWebServiceConfiguration -Identity "Service:WebServer:LyncPool01.contoso.com" -UseCertificateAuth $false -UsePinAuth $false -UseWindowsAuth NONE
      ```
@@ -93,13 +93,13 @@ As etapas a seguir descrevem como criar uma configuração personalizada de serv
 
 ## <a name="proxy-configuration"></a>Configuração de proxy
 
-Quando a autenticação de certificado estiver desabilitada para os serviços Web do Lync, o cliente Lync usará um tipo de autenticação menos preferencial, como Kerberos ou NTLM, para autenticar para o serviço registrador. A autenticação de certificado ainda é necessária para permitir que o cliente Lync recupere um webticket, no entanto, Kerberos e NTLM devem ser desabilitados para o serviço registrador.
+Quando a autenticação de certificado estiver desabilitada para o Lync Web Services, o cliente Lync usará um tipo de autenticação menos preferencial, como Kerberos ou NTLM, para autenticar no serviço registrador. A autenticação de certificado ainda é necessária para permitir que o cliente Lync recupere um webticket, no entanto, Kerberos e NTLM devem ser desabilitados para o serviço registrador.
 
-As etapas a seguir descrevem como criar uma configuração personalizada de proxy para servidores de pools Edge, pools Enterprise e Standard Edition que serão habilitados para a autenticação passiva.
+As etapas a seguir descrevem como criar uma configuração de proxy Personalizada para pools de borda, pools corporativos e servidores Standard Edition que serão habilitados para autenticação passiva.
 
-**Para criar uma configuração personalizada de proxy**
+**Para criar uma configuração de proxy Personalizada**
 
-1.  Na linha de comando do Shell de gerenciamento do Lync Server, crie uma nova configuração de proxy para cada Lync Server 2013 com atualizações cumulativas: o pool de bordas de julho de 2013, o pool corporativo e o servidor Standard Edition que serão habilitados para autenticação passiva executando o seguintes comandos:
+1.  Na linha de comando do Shell de gerenciamento do Lync Server, crie uma nova configuração de proxy para cada Lync Server 2013 com atualizações cumulativas: pool de borda de julho de 2013, pool corporativo e servidor Standard Edition que será habilitado para autenticação passiva executando o seguintes comandos:
     
        ```powershell
         New-CsProxyConfiguration -Identity "Service:EdgeServer:EdgePool01.contoso.com" 
@@ -111,7 +111,7 @@ As etapas a seguir descrevem como criar uma configuração personalizada de prox
         -UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False
        ```
 
-2.  Verifique se todos os outros tipos de autenticação de proxy foram desabilitados com sucesso executando o seguinte comando:
+2.  Verifique se todos os outros tipos de autenticação de proxy foram desabilitados com êxito executando o seguinte comando:
     ```powershell
     Get-CsProxyConfiguration -Identity "Service:Registrar:LyncPool01.contoso.com"
          | format-list UseKerberosForClientToProxyAuth, UseNtlmForClientToProxyAuth, UseCertifcateForClientToProxyAuth

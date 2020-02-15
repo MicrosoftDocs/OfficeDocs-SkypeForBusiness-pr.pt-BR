@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Novos recursos'
+title: Lync Server 2013 novos recursos
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183722
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ed5fa866c178a6e859cfba5eff92e2f6ba13b23a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2cbcb6a3945fbe367f9f4ef706287399631c95c9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743231"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048472"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41743231"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-04_
+_**Última modificação do tópico:** 2012-10-04_
 
-O Lync Server 2013 introduz muitos recursos novos, além de aprimoramentos significativos na funcionalidade existente. Esta seção fornece uma introdução de alto nível a esses novos recursos e aprimoramentos.
+O Lync Server 2013 introduz vários novos recursos, juntamente com aprimoramentos significativos da funcionalidade existente. Esta seção mostra uma introdução de alto nível aos novos recursos e aprimoramentos.
 
-As discussões de novos recursos no Lync Server 2013 são agrupadas entre os tópicos desta seção.
+As discussões sobre novos recursos no Lync Server 2013 são agrupadas entre os tópicos desta seção.
 
 <div>
 
 ## <a name="in-this-section"></a>Nesta seção
 
-  - [Novos recursos de gerenciamento e de administração no Lync Server 2013](lync-server-2013-new-management-and-administration-features.md)
+  - [Novos recursos de gerenciamento e administração no Lync Server 2013](lync-server-2013-new-management-and-administration-features.md)
 
   - [Alterações de topologia no Lync Server 2013](lync-server-2013-topology-changes.md)
 
@@ -53,7 +53,7 @@ As discussões de novos recursos no Lync Server 2013 são agrupadas entre os tó
 
   - [Novos recursos de virtualização no Lync Server 2013](lync-server-2013-new-virtualization-features.md)
 
-  - [Novos recursos de IM e de presença no Lync Server 2013](lync-server-2013-new-im-and-presence-features.md)
+  - [Novos recursos de IM e presença no Lync Server 2013](lync-server-2013-new-im-and-presence-features.md)
 
   - [Novos recursos de conferência no Lync Server 2013](lync-server-2013-new-conferencing-features.md)
 
@@ -63,13 +63,13 @@ As discussões de novos recursos no Lync Server 2013 são agrupadas entre os tó
 
   - [Novos recursos de monitoramento no Lync Server 2013](lync-server-2013-new-monitoring-features.md)
 
-  - [Novos recursos de Arquivamento no Lync Server 2013](lync-server-2013-new-archiving-features.md)
+  - [Novos recursos de arquivamento no Lync Server 2013](lync-server-2013-new-archiving-features.md)
 
-  - [Novos recursos de integração do Servidor Exchange no Lync Server 2013](lync-server-2013-new-exchange-server-integration-features.md)
+  - [Novos recursos de integração do Exchange Server no Lync Server 2013](lync-server-2013-new-exchange-server-integration-features.md)
 
-  - [Novos recursos do Servidor de Chat Persistente no Lync Server 2013](lync-server-2013-new-persistent-chat-server-features.md)
+  - [Novos recursos do servidor de chat persistente no Lync Server 2013](lync-server-2013-new-persistent-chat-server-features.md)
 
-  - [Novos recursos de IPv6 no Lync Server 2013](lync-server-2013-new-ipv6-features.md)
+  - [Novos recursos IPv6 no Lync Server 2013](lync-server-2013-new-ipv6-features.md)
 
   - [Novo recurso de repositório unificado de contatos no Lync Server 2013](lync-server-2013-new-unified-contact-store-feature.md)
 

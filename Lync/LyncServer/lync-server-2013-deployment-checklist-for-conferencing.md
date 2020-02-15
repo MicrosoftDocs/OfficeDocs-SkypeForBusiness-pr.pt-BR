@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Lista de verificação de implantação para conferência'
+title: Lync Server 2013 lista de verificação de implantação para conferência
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185754
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9ea0fec545c2241a05b7f6b65d1a05fad9add349
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 649908e0d2503c886a1ad71937604d0234eb2270
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728181"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049923"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41728181"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-30_
+_**Última modificação do tópico:** 2012-09-30_
 
-Os tópicos a seguir fornecem uma lista de verificação para a implantação e A configuração de webconferência, conferência A/V e conferência discada.
+Os tópicos a seguir fornecem uma lista de verificação para implantação e configuração de webconferência, conferência A/V e conferência discada.
 
 <div>
 
 ## <a name="in-this-section"></a>Nesta seção
 
-  - [Lista de verificação da implantação para Webconferência no Lync Server 2013](lync-server-2013-deployment-checklist-for-web-conferencing.md)
+  - [Lista de verificação de implantação para Webconferência no Lync Server 2013](lync-server-2013-deployment-checklist-for-web-conferencing.md)
 
   - [Lista de verificação de implantação para conferência A/V no Lync Server 2013](lync-server-2013-deployment-checklist-for-a-v-conferencing.md)
 

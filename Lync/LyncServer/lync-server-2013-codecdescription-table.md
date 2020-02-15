@@ -12,16 +12,16 @@ ms:contentKeyID: 48183802
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5a407d8eeb1ad9e318ff2f960f8cb7d62b1e3a9f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4be7b878d3d9b6457fbda7a081db9b6b6cb80314
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757115"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045833"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41757115"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-17_
+_**Última modificação do tópico:** 2012-10-17_
 
-A tabela CodecDescription mapeia identificadores de codec exclusivos para o codec correspondente. Codecs são usados para codificar sinais digitais para transmissão e transmissão e, em seguida, decodificar esses sinais para reprodução. Esta tabela foi introduzida no Microsoft Lync Server 2013
+A tabela CodecDescription associa identificadores exclusivos de codec a seus codecs correspondentes. Os codecs são usados para codificar sinais digitais para transmissão e divulgação e, depois, para decodificar esses sinais para reprodução. Esta tabela foi introduzida no Microsoft Lync Server 2013
 
 
 <table>
@@ -59,14 +59,14 @@ A tabela CodecDescription mapeia identificadores de codec exclusivos para o code
 <tr class="odd">
 <td><p><strong>CodecDescriptionKey</strong></p></td>
 <td><p>smallint</p></td>
-<td><p>Primária</p></td>
+<td><p>Primário</p></td>
 <td><p>Identificador exclusivo atribuído ao codec.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CodecDescription</strong></p></td>
 <td><p>varchar (256)</p></td>
-<td><p>Exclusividade</p></td>
-<td><p>Descrição exclusiva do codec correspondente ao CodecDescriptionKey.</p></td>
+<td><p>Diferente</p></td>
+<td><p>Descrição exclusiva do codec correspondendo à chave de descrição do codec.</p></td>
 </tr>
 </tbody>
 </table>

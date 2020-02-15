@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Planejando Arquivamento'
+title: 'Lync Server 2013: planejamento para arquivamento'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184756
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c6f159cc77cccd5db031caa83b1d9abf90c92790
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a1bd882fa889589a260e2327ff27fb80fe30937c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755131"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046744"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-archiving-in-lync-server-2013"></a>Planejando Arquivamento no Lync Server 2013
+# <a name="planning-for-archiving-in-lync-server-2013"></a>Planejamento para arquivamento no Lync Server 2013
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41755131"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-28_
+_**Última modificação do tópico:** 2012-09-28_
 
-As corporações e outras organizações estão sujeitas à crescente quantidade de regulamentações do setor e governamentais que requerem a retenção de tipos específicos de comunicação. Se a sua organização tiver tais requisitos, você poderá usar o arquivamento no Lync Server 2013 para arquivar mensagens instantâneas (IM) e comunicações de conferência (reunião) enviadas pelo Lync Server para ajudar a dar suporte a alguns dos seus requisitos de conformidade.
+Corporações e outras organizações estão sujeitas a um número cada vez maior de regulamentos setoriais e governamentais que exigem a retenção de tipos específicos de comunicações. Se sua organização tiver esses requisitos, você poderá usar o arquivamento no Lync Server 2013 para arquivar comunicações de IM (mensagens instantâneas) e conferência (reunião) enviadas por meio do Lync Server para ajudar a oferecer suporte a alguns dos seus requisitos de conformidade.
 
 <div>
 
 ## <a name="in-this-section"></a>Nesta seção
 
-  - [Visão geral de Arquivamento no Lync Server 2013](lync-server-2013-overview-of-archiving.md)
+  - [Visão geral do arquivamento no Lync Server 2013](lync-server-2013-overview-of-archiving.md)
 
   - [Como o arquivamento funciona no Lync Server 2013](lync-server-2013-how-archiving-works.md)
 
-  - [Definindo seus requisitos para Arquivamento no Lync Server 2013](lync-server-2013-defining-your-requirements-for-archiving.md)
+  - [Definindo seus requisitos para arquivamento no Lync Server 2013](lync-server-2013-defining-your-requirements-for-archiving.md)
 
-  - [Componentes e topologias para Arquivamento no Lync Server 2013](lync-server-2013-components-and-topologies-for-archiving.md)
+  - [Componentes e topologias para arquivamento no Lync Server 2013](lync-server-2013-components-and-topologies-for-archiving.md)
 
   - [Requisitos técnicos para arquivamento no Lync Server 2013](lync-server-2013-technical-requirements-for-archiving.md)
 
-  - [Lista de verificação da implantação para Arquivamento no Lync Server 2013](lync-server-2013-deployment-checklist-for-archiving.md)
+  - [Lista de verificação de implantação para arquivamento no Lync Server 2013](lync-server-2013-deployment-checklist-for-archiving.md)
 
 </div>
 

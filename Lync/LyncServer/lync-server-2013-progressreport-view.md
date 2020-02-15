@@ -12,16 +12,16 @@ ms:contentKeyID: 49733790
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4fa8d73981490503b26b77b79be6f42aab77703e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 916fb459e71460249b47719ab4a4c07f8d082e4d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41747235"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049613"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41747235"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-01_
+_**Última modificação do tópico:** 2012-10-01_
 
-A exibição ProgressReport armazena informações sobre sessões concluídas. Os relatórios de progresso serão escritos apenas para chamadas e sessões que o Lync Server 2013 determina que podem ser úteis para fins de diagnóstico. Este modo de exibição foi apresentado no Microsoft Lync Server 2013.
+A exibição ProgressReport armazena informações sobre sessões concluídas. Os relatórios de progresso será gravados somente para chamadas e sessões que o Lync Server 2013 determina como úteis para diagnósticos. Este modo de exibição foi introduzido no Microsoft Lync Server 2013.
 
 <div>
 
 
 > [!NOTE]  
-> Os campos ErrorTime, ErrorReportSeq e ProgressReportSeq não se referem necessariamente a erros, mas a mensagens que indicam o status de chamadas ou mensagens.
+> Os campos ErrorTime, ErrorReportSeq e ProgressReportSeq não se referem necessariamente aos erros, mas a mensagens que indicam o status das chamadas ou mensagens.
 
 
 
@@ -67,47 +67,47 @@ A exibição ProgressReport armazena informações sobre sessões concluídas. O
 <tr class="odd">
 <td><p><strong>ErrorTime</strong></p></td>
 <td><p>datetime</p></td>
-<td><p>Ocorreu um erro de hora. Usado em conjunto com ErrorReportSeq para identificar um erro exclusivamente.</p></td>
+<td><p>Hora do erro. Usada com o ErrorReportSeq para identificar um erro.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ErrorReportSeq</strong></p></td>
 <td><p>int</p></td>
-<td><p>Número de identificação para identificar o erro. Usado em conjunto com ErrorTime para identificar um erro com exclusividade.</p></td>
+<td><p>Um número de ID para identificar o erro. Usado com ErrorTime para identificar um erro.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ProgressReportSeq</strong></p></td>
 <td><p>int</p></td>
-<td><p>ID para identificar o relatório de progresso. Usado para distinguir relatórios de progresso do mesmo relatório de erro.</p></td>
+<td><p>ID para identificar o relatórios de progresso. Usado para distinguir relatórios de progresso do mesmo relatório de erro.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>MsDiagId</strong></p></td>
 <td><p>int</p></td>
-<td><p>ID de diagnóstico do relatório de erros.</p></td>
+<td><p>ID de diagnóstico do relatório de erro.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Origem</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Nome do servidor que originou o erro (se o relatório foi enviado a partir de um componente de servidor).</p></td>
+<td><p><strong>Fonte</strong></p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Nome do servidor que originou o erro (se o relatório foi enviado de um componente do servidor).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Aplicativo</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Nome do aplicativo que originou o erro (se o relatório foi enviado a partir de um componente de servidor).</p></td>
+<td><p><strong>Application</strong></p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Nome de um aplicativo que originou o erro (se o relatório foi enviado de um componente do servidor).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Telemetria</strong></p></td>
 <td><p>identificador</p></td>
-<td><p>Identificador exclusivo que correlaciona as informações de tempo de junção para os diferentes componentes envolvidos em uma conferência.</p></td>
+<td><p>Identificador exclusivo correlacionando as informações da hora de ingresso dos diferentes componentes envolvidos em uma conferência.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SessionSetupTime</strong></p></td>
 <td><p>int</p></td>
-<td><p>Tempo (em milissegundos) necessário para um componente específico entrar em uma conferência.</p></td>
+<td><p>Tempo (em milissegundos) necessário para que um componentes específico ingresse em uma conferência.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>MsDiagHeader</strong></p></td>
 <td><p>varchar (max)</p></td>
-<td><p>Informações adicionais sobre o erro.</p></td>
+<td><p>Informações de erro adicionais.</p></td>
 </tr>
 </tbody>
 </table>

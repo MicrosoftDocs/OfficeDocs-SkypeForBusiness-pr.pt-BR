@@ -12,20 +12,20 @@ ms:contentKeyID: 48185364
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 53e63bf6063803364a679a3cc0724ec1cbeae1a2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 85bee37f748f0356458770c742f26e704132ad6e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755595"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049953"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-best-practices-analyzer-in-lync-server-2013"></a>Visão geral do analisador de práticas recomendadas no Lync Server 2013
+# <a name="overview-of-best-practices-analyzer-in-lync-server-2013"></a>Visão geral do Best Practices Analyzer no Lync Server 2013
 
 </div>
 
@@ -35,41 +35,41 @@ ms.locfileid: "41755595"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-19_
+_**Última modificação do tópico:** 2012-09-19_
 
-Você pode usar o Lync Server 2013, o analisador de práticas recomendadas para identificar e resolver problemas com a implantação do Lync Server 2013. O Lync Server 2013, o analisador de práticas recomendadas coleta informações de configuração dos componentes do Lync Server 2013.
+Você pode usar o Lync Server 2013, o analisador de práticas recomendadas para identificar e resolver problemas com a sua implantação do Lync Server 2013. O Lync Server 2013, Best Practices Analyzer coleta informações de configuração dos componentes do Lync Server 2013.
 
-Com o acesso à rede adequado, o analisador de práticas recomendadas pode examinar servidores que executam os serviços de domínio do Active Directory, o Exchange Server Unified Messaging (UM) e o Lync Server 2013. Você pode usar o analisador de práticas recomendadas para fazer o seguinte:
+Com o acesso à rede apropriado, o analisador de práticas recomendadas pode examinar servidores que executam os serviços de domínio do Active Directory, a Unificação de mensagens (UM) do Exchange Server e o Lync Server 2013. É possível usar o Analisador de Prática Recomendada para fazer o seguinte:
 
-  - Fazer verificações proativas, verificando se a configuração está definida de acordo com as práticas recomendadas.
+  - Realize proativamente verificações, analisando se a configuração está definida de acordo com as práticas recomendadas.
 
-  - Detectar automaticamente as atualizações necessárias ao Lync Server 2013.
+  - Detectar automaticamente as atualizações necessárias para o Lync Server 2013.
 
-  - Gere uma lista de problemas, como configurações de configuração otimizadas, opções sem suporte, atualizações ausentes ou práticas que não recomendamos.
+  - Gerar uma lista de problemas, como as definições de configuração inadequadas, opções não suportadas, atualizações ausentes ou práticas não recomendadas.
 
-  - Ajudar você a solucionar problemas e corrigir problemas específicos.
+  - Ajuda para resolver problema e corrigir problemas específicos.
 
-O analisador de práticas recomendadas oferece os seguintes recursos:
+O Analisador de Prática Recomendada oferece os seguintes recursos:
 
-  - Pré-requisitos mínimos de instalação.
+  - Pré-requisitos de instalação mínimos.
 
-  - Documentação online sobre problemas relatados, incluindo dicas de solução de problemas.
+  - Documentação online sobre problemas relatados, incluindo dicas de resolução de problemas.
 
-  - Informações de configuração que você pode salvar para ver mais tarde.
+  - Informação de configuração que você pode salvar para revisão posterior.
 
-  - Análise do sistema de ponta.
+  - Análise do sistema de tecnologia de ponta.
 
-O analisador de práticas recomendadas usa um conjunto de arquivos de configuração XML para determinar as informações a serem coletadas do seu ambiente do Lync Server 2013. Além de verificar os serviços de domínio do Active Directory, ele verifica fontes como o registro do sistema operacional do Windows Server e as configurações na instrumentação de gerenciamento do Windows (WMI).
+O Best Practices Analyzer usa um conjunto de arquivos de configuração XML para determinar as informações a serem coletadas do seu ambiente do Lync Server 2013. Além de verificar os Serviços de Domínio do Active Directory, verifica as fontes como o registro do sistema operacional do Windows Server e as configurações no Windows Management Instrumentation (WMI).
 
-O analisador de práticas recomendadas compara os dados que coleta com um conjunto de regras predefinidas para as configurações e configurações das implantações do Lync Server 2013.
+O Best Practices Analyzer compara os dados que coleta com um conjunto de regras predefinidas para as configurações e configurações das implantações do Lync Server 2013.
 
-Após comparar os dados coletados com as regras predefinidas, a ferramenta relata problemas. Para cada edição que ele relata, o analisador de práticas recomendadas fornece informações sobre o que foi encontrado no ambiente do Lync Server 2013 verificado e a configuração recomendada. O analisador de práticas recomendadas também fornece links para informações mais detalhadas sobre os problemas específicos.
+Após comparar os dados coletados com as regras pré-definidas, a ferramenta relata problemas. Para cada problema que ele relata, o analisador de práticas recomendadas fornece informações sobre o que foi encontrado no ambiente verificado do Lync Server 2013 e a configuração recomendada. O Analisador de Prática Recomendada também oferece links para informações mais detalhadas sobre problemas específicos.
 
 <div>
 
 
 > [!NOTE]  
-> O Lync Server 2013, o analisador de práticas recomendadas coleta informações de configuração somente de componentes do Lync Server 2013. Você pode usar as versões anteriores da ferramenta para verificar os ambientes anteriores. Para obter detalhes, consulte <A href="lync-server-2013-requirements-for-running-best-practices-analyzer.md">requisitos para a execução do analisador de práticas recomendadas no Lync Server 2013</A>.
+> O Lync Server 2013, Best Practices Analyzer coleta informações de configuração somente dos componentes do Lync Server 2013. É possível usar versões anteriores da ferramenta para verificar ambientes anteriores. Para obter detalhes, consulte <A href="lync-server-2013-requirements-for-running-best-practices-analyzer.md">Requirements for running Best Practices Analyzer in Lync Server 2013</A>.
 
 
 

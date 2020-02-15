@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Novo recurso de caixa postal'
+title: 'Lync Server 2013: novo recurso de caixa postal'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 49733715
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 27dbea942488181eb69695f78713c9e126c32aab
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2b7951b0dd9a6841d66c1782322f6c44a4e16d99
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755845"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048412"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,16 +35,16 @@ ms.locfileid: "41755845"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-05_
+_**Última modificação do tópico:** 2012-10-05_
 
-O Lync Server 2013 apresenta o recurso de mensagem de voz, um aperfeiçoamento para o gerenciamento da caixa postal. Este novo recurso pode detectar quando uma chamada foi encaminhada para a caixa postal e impedir que a chamada seja imediatamente roteada para a caixa postal do telefone celular do usuário, sem dar ao usuário a oportunidade de atender a chamada. Esse cenário ocorre quando o usuário habilita o toque simultâneo do seu celular, e o telefone celular dele está desligado, fora da bateria ou fora do alcance. O escape de correio de voz detecta que a chamada foi imediatamente atendida pela caixa postal do celular do usuário e desconecta a chamada para a caixa postal do celular. A chamada continua a tocar nos outros pontos de extremidade do usuário, dando ao usuário a oportunidade de atender a chamada. Se o usuário não atender a chamada, a chamada será roteada para a caixa postal da empresa.
+O Lync Server 2013 apresenta escape de caixa postal, um aprimoramento para gerenciar caixa postal. Esse novo recurso pode detectar quando uma chamada é encaminhada para a caixa posta e impede que as chamadas sejam encaminhadas diretamente para a caixa postal do celular do usuário sem que ele tenha a chance de atender à chamada. Esse cenário acontece quando o usuário habilita o toque simltânio em seu celular e o celular está desligado, sem bateria ou fora da área de cobertura. O Voicemail Escape detecta que a chamada foi atendida pela caixa posta do celular do usuário e a desconecta da caixa posta do celular. A chamada continua tocando nos outros pontos de conta do usuário, o que permite que ele atenda à chamada. Se o usuário não atender, a chamada é encaminhada para a caixa posta corporativa.
 
 <div>
 
 ## <a name="see-also"></a>Confira também
 
 
-[Configurando o recurso de mensagem de voz no Lync Server 2013](lync-server-2013-configuring-voice-mail-escape.md)  
+[Configurando o escape de caixa postal no Lync Server 2013](lync-server-2013-configuring-voice-mail-escape.md)  
 
 
 [Novos recursos do Enterprise Voice no Lync Server 2013](lync-server-2013-new-enterprise-voice-features.md)  

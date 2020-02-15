@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: requisitos de DNS para servidores de chat persistentes'
+title: 'Lync Server 2013: requisitos de DNS para servidores de chat persistente'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185857
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b97d3238c64173cb5f9bfcfc12dce40f987da123
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: bc401fa844c750e57c870ad64ebd919c9b673d0e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737391"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049693"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41737391"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-06-28_
+_**Última modificação do tópico:** 2012-06-28_
 
-Esta seção descreve os registros DNS (sistema de nomes de domínio) necessários para a implantação de servidores de chat persistentes.
+Esta seção descreve os registros de DNS (sistema de nomes de domínio) necessários para a implantação de servidores de chat persistente.
 
 <div>
 
-## <a name="dns-records-for-persistent-chat-servers"></a>Registros DNS para servidores de chat persistentes
+## <a name="dns-records-for-persistent-chat-servers"></a>Registros DNS para servidores de chat persistente
 
-A tabela a seguir especifica requisitos de DNS para a implantação do servidor de chat persistente.
+A tabela a seguir especifica os requisitos de DNS para a implantação do servidor de chat persistente.
 
 ### <a name="dns-requirements-for-a-persistent-chat-server"></a>Requisitos de DNS para um servidor de chat persistente
 
@@ -60,16 +60,16 @@ A tabela a seguir especifica requisitos de DNS para a implantação do servidor 
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Um servidor de chat persistente</p></td>
-<td><p>Um registro A interno que resolve o nome de domínio totalmente qualificado (FQDN) do servidor para seu endereço IP.</p></td>
+<td><p>Um Servidor de Chat Persistente</p></td>
+<td><p>Um registro A interno que resolve o nome de domínio totalmente qualificado (FQDN) do servidor ao seu endereço IP.</p></td>
 </tr>
 <tr class="even">
-<td><p>Pool de chat persistente</p></td>
-<td><p>Um registro interno que resolve o nome de domínio totalmente qualificado (FQDN) dos servidores para seu endereço IP.</p>
+<td><p>Pool de Chat Persistente</p></td>
+<td><p>Um registro A interno que resolve o nome de domínio totalmente qualificado (FQDN) dos servidores aos seus endereços IP.</p>
 <p><strong>Exemplo</strong></p>
 <p>PersistentChatServer01.contoso.com 10.10.10.1</p>
 <p>PersistentChatServer02.contoso.com 10.10.10.2</p>
-<p>Um registro interno que resolve o nome de domínio totalmente qualificado (FQDN) dos servidores para seu endereço IP.</p>
+<p>Um registro A interno que resolve o nome de domínio totalmente qualificado (FQDN) dos servidores aos seus endereços IP.</p>
 <p><strong>Exemplo</strong></p>
 <p>PersistentChatPool.contoso.com 10.10.10.1</p>
 <p>PersistentChatPool.contoso.com 10.10.10.2</p></td>

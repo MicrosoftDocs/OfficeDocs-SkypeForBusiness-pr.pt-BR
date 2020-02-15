@@ -12,20 +12,20 @@ ms:contentKeyID: 63969658
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 21b4f3e0a9beaae9419b11bf7353319b3b3ad2b0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6d797f638121f09eacc9b1472feed0a0b84e2a74
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755785"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049523"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="operations-guide-for-lync-server-2013"></a>Operations Guide for Lync Server 2013
+# <a name="operations-guide-for-lync-server-2013"></a>Guia de operações do Lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41755785"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2014-08-18_
+_**Última modificação do tópico:** 2014-08-18_
 
-Este documento descreve os processos operacionais, as tarefas e as ferramentas necessárias para manter um ambiente de software de comunicações do Microsoft Lync Server 2013. Ele explica como gerenciar o Lync Server 2013 de acordo com o modelo MOF (Microsoft Operations Framework) e ajuda você a criar um ambiente de gerenciamento operacional eficiente, que inclui a implementação de cronogramas, processos e procedimentos para manter uma ambiente de trabalho eficiente.
+Este documento descreve os processos, as tarefas e as ferramentas operacionais necessários para manter um ambiente de software de comunicações do Microsoft Lync Server 2013. Ele explica como gerenciar o Lync Server 2013 de acordo com o modelo do Microsoft Operations Framework (MOF) e o ajuda a projetar um ambiente de gerenciamento operacional eficiente, que inclui a implementação de agendas, processos e procedimentos para manter um ambiente de trabalho eficiente.
 
 <div>
 
@@ -53,17 +53,17 @@ As seções a seguir estão incluídas:
 
   - [Tarefas mensais no Lync Server 2013](lync-server-2013-monthly-tasks.md)
 
-  - [Tarefas o mais necessárias no Lync Server 2013](lync-server-2013-as-needed-tasks.md)
+  - [Tarefas necessárias no Lync Server 2013](lync-server-2013-as-needed-tasks.md)
 
   - [Listas de verificação de operações do Lync Server 2013](lync-server-2013-operations-checklists.md)
 
-  - [Monitorar o Lync Server 2013 com o System Center Operations Manager](lync-server-2013-monitoring-lync-server-with-system-center-operations-manager.md)
+  - [Monitoramento do Lync Server 2013 com o System Center Operations Manager](lync-server-2013-monitoring-lync-server-with-system-center-operations-manager.md)
 
   - [Dependências operacionais no Lync Server 2013](lync-server-2013-operational-dependencies.md)
 
   - [Solução de problemas e principais indicadores de integridade no Lync Server 2013](lync-server-2013-troubleshooting-and-key-health-indicators.md)
 
-Pressupõe-se que a implantação do Microsoft Lync Server 2013 seja concluída. Se esse não for o caso, consulte o conteúdo de planejamento e implantação do Microsoft Lync Server 2013 antes de continuar.
+Presume-se que sua implantação do Microsoft Lync Server 2013 esteja concluída. Se esse não for o caso, consulte o planejamento e implantação de conteúdo do Microsoft Lync Server 2013 antes de continuar.
 
 </div>
 
@@ -75,7 +75,7 @@ Pressupõe-se que a implantação do Microsoft Lync Server 2013 seja concluída.
 [Introdução ao Lync Server 2013](lync-server-2013-getting-started.md)  
 [Planejamento para o Lync Server 2013](lync-server-2013-planning.md)  
 [Implantação do Lync Server 2013](lync-server-2013-deployment.md)  
-[Shell de Gerenciamento do Lync Server 2013](lync-server-2013-lync-server-management-shell.md)  
+[Shell de gerenciamento do Lync Server 2013](lync-server-2013-lync-server-management-shell.md)  
   
 
 </div>

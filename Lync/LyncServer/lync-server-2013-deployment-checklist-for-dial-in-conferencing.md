@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Lista de verificação de implantação para conferência discada'
+title: Lync Server 2013 lista de verificação de implantação para conferência discada
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184987
 ms.date: 10/03/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: edf496dcb24c021246bfbb6e7a5ef7b3a3a5acc1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: dc593e5a40633f98146c4ce94f82b132f15ca6d5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740711"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049913"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,23 +35,23 @@ ms.locfileid: "41740711"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2014-10-03_
+_**Última modificação do tópico:** 2014-10-03_
 
-Os componentes necessários para a conferência discada são implantados quando você implanta a carga de trabalho de conferência. Antes de poder configurar a conferência discada, você precisa implantar o Enterprise Voice ou um servidor de mediação (PSTN) e um gateway de rede telefônica pública comutada (PSTN).
+Os componentes necessários para conferência discada são implantados quando a carga de trabalho de conferência é implantada. Antes de poder configurar a conferência discada, você precisa implantar o Enterprise Voice ou um servidor de mediação e um gateway PSTN (rede telefônica pública comutada).
 
-Todas as etapas na tabela a seguir devem ser realizadas antes que os usuários possam discar da PSTN para ingressar em uma conferência de áudio/vídeo.
+Todas as etapas na tabela a seguir devem ser executadas antes que os usuários possam discar a partir do PSTN para entrar em uma conferência de áudio/vídeo.
 
 <div>
 
 
 > [!NOTE]  
-> Se estiver migrando do Office Communications Server 2007 R2, você deve aplicar as atualizações mais recentes ao seu ambiente do Office Communications Server 2007 R2 antes de implantar a conferência discada.
+> Se você estiver migrando do Office Communications Server 2007 R2, deverá aplicar as atualizações mais recentes para o ambiente do Office Communications Server 2007 R2 antes de implantar a conferência discada.
 
 
 
 </div>
 
-### <a name="dial-in-conferencing-deployment-process"></a>Processo de implantação de conferência discada
+### <a name="dial-in-conferencing-deployment-process"></a>Processo de implantação da conferência discada
 
 <table>
 <colgroup>
@@ -70,15 +70,15 @@ Todas as etapas na tabela a seguir devem ser realizadas antes que os usuários p
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Crie uma topologia que inclua a carga de trabalho de conferência, incluindo um servidor de mediação e um gateway PSTN, e implante o pool de front-end ou o servidor Standard Edition</strong></p></td>
+<td><p><strong>Crie uma topologia que inclua a carga de trabalho de conferência, incluindo um servidor de mediação e um gateway PSTN, e implante o pool de front-ends ou o servidor Standard Edition</strong></p></td>
 <td><ol>
-<li><p>Executar o construtor de topologias para configurar sua topologia. Enquanto a configuração da topologia é executada, selecione a opção de conferência discada.</p></li>
-<li><p>Publique a topologia e implante o pool de front-end ou o servidor Standard Edition.</p></li>
+<li><p>Execute o construtor de topologias para configurar sua topologia. Enquanto a configuração da topologia é executada, selecione a opção de conferência discada.</p></li>
+<li><p>Publique a topologia e implante o pool de front-ends ou o servidor Standard Edition.</p></li>
 <li><p>Se necessário, crie um servidor de mediação autônomo e associe-o a um gateway PSTN.</p>
 <div>
 
 > [!NOTE]  
-> Esta etapa é necessária apenas se você não implantar o Enterprise Voice e não colocar o servidor de mediação com o servidor do Enterprise EditionFront end Server ou Standard Edition. Se você implantar o Enterprise Voice, instale e configure os servidores de mediação e os gateways PSTN como parte da implantação do Enterprise Voice. Se você colocar o servidor de mediação, instale e configure o servidor de mediação como parte do pool de front-end ou da implantação do servidor Standard Edition.
+> Esta etapa é necessária somente se você não implantar o Enterprise Voice e não colocar o servidor de mediação com o servidor final do Enterprise EditionFront ou o servidor Standard Edition. Se você implantar o Enterprise Voice, instale e configure os servidores de mediação e os gateways PSTN como parte da implantação do Enterprise Voice. Se você colocar o servidor de mediação, instale e configure o servidor de mediação como parte da implantação do pool de front-ends ou do servidor Standard Edition.
 
 
 </div></li>
@@ -88,12 +88,12 @@ Todas as etapas na tabela a seguir devem ser realizadas antes que os usuários p
 <p>Administrador</p></td>
 <td><ul>
 <li><p><a href="lync-server-2013-deploying-lync-server.md">Implantando o Lync Server 2013</a></p></li>
-<li><p>Para criar um pool autônomo do servidor de mediação: <a href="lync-server-2013-deploying-mediation-servers-and-defining-peers.md">implantação de servidores de mediação e definição de pares no Lync Server 2013</a></p></li>
+<li><p>Para criar um pool de servidor de mediação autônomo: <a href="lync-server-2013-deploying-mediation-servers-and-defining-peers.md">implantando servidores de mediação e definindo pares no Lync Server 2013</a></p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p><strong>Configure dial plans</strong></p></td>
-<td><p>Um plano de discagem é um conjunto de regras de normalização de número de telefone que traduzem números discados de um local específico para um padrão de formato único (E.164), para fins de autorização do telefone e roteamento de chamadas. O mesmo número de telefone discado a partir de locais diferentes pode, com base nos respectivos planos de discagem, resolver para diferentes números E.164, conforme o que for mais adequado para cada local. Se você implantar o Enterprise Voice, configure planos de discagem como parte dessa implantação, e você precisará certificar-se de que os planos de discagem também acomodem a conferência discada. Se você não implantar o Enterprise Voice, será necessário configurar planos de discagem para conferência discada.</p>
+<td><p><strong>Configure planos de discagem</strong></p></td>
+<td><p>Um plano de discagem é um conjunto de regras de normalização de número de telefone que traduzem números discados de um local específico para um padrão de formato único (E.164), para fins de autorização do telefone e roteamento de chamadas. O mesmo número de telefone discado a partir de locais diferentes pode, com base nos respectivos planos de discagem, resolver para diferentes números E.164, conforme o que for mais adequado para cada local. Se você implantar o Enterprise Voice, configure os planos de discagem como parte dessa implantação e você precisará certificar-se de que os planos de discagem também acomodem a conferência discada. Se você não implantar o Enterprise Voice, precisará configurar planos de discagem para conferência discada.</p>
 <p>Use o painel de controle do Lync Server 2013 ou o Shell de gerenciamento do Lync Server para configurar planos de discagem da seguinte maneira:</p>
 <ol>
 <li><p>Crie um ou mais planos de discagem para rotear números de telefone de acesso de discagem.</p></li>
@@ -106,13 +106,13 @@ Todas as etapas na tabela a seguir devem ser realizadas antes que os usuários p
 <td><p><a href="lync-server-2013-configure-dial-plans-for-dial-in-conferencing.md">Configurar planos de discagem para conferência discada no Lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Verifique se os planos de discagem possuem regiões atribuídas</strong></p></td>
-<td><p>Execute os cmdlets <strong>Get-CsDialPlan</strong> e <strong>Set-CsDialPlan</strong> para verificar se todos os planos de discagem possuem uma região atribuída.</p></td>
+<td><p><strong>Verifique se os planos de discagem são atribuídos às regiões</strong></p></td>
+<td><p>Execute os cmdlets <strong>Get-CsDialPlan</strong> e <strong>set-CsDialPlan</strong> para verificar se todos os planos de discagem têm uma região atribuída.</p></td>
 <td><p>RTCUniversalServerAdmins</p>
 <p>CsVoiceAdministrator</p>
 <p>CsServerAdministrator</p>
 <p>CsAdministrator</p></td>
-<td><p><a href="lync-server-2013-make-sure-dial-plans-have-assigned-regions.md">Verifique se os planos de discagem do Lync Server 2013 atribuiram regiões</a></p></td>
+<td><p><a href="lync-server-2013-make-sure-dial-plans-have-assigned-regions.md">Verifique se os planos de discagem Lync Server 2013 possuem regiões atribuídas</a></p></td>
 </tr>
 <tr class="even">
 <td><p><strong>(Opcional) Verifique ou modifique os requisitos do número de identificação pessoal (PIN) do usuário.</strong></p></td>
@@ -120,7 +120,7 @@ Todas as etapas na tabela a seguir devem ser realizadas antes que os usuários p
 <td><p>RTCUniversalServerAdmins</p>
 <p>CsServerAdministrator</p>
 <p>CsAdministrator</p></td>
-<td><p><a href="lync-server-2013-optional-verify-pin-policy-settings.md">(Opcional) Verificar configurações de política de PIN no Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-optional-verify-pin-policy-settings.md">Opcion Verificar as configurações de política de PIN no Lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Configure a política de conferência para suportar conferências discadas.</strong></p></td>
@@ -133,82 +133,82 @@ Todas as etapas na tabela a seguir devem ser realizadas antes que os usuários p
 <td><p>RTCUniversalServerAdmins</p>
 <p>CsServerAdministrator</p>
 <p>CsAdministrator</p></td>
-<td><p><a href="lync-server-2013-configure-conferencing-policy-for-dial-in.md">Configurar política de conferência para discagem no Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-configure-conferencing-policy-for-dial-in.md">Configurar a política de conferência para discagem no Lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Configure dial-in access numbers</strong></p></td>
-<td><p>Use o painel de controle do Lync Server 2013 ou o Shell de gerenciamento do Lync Server para configurar números de acesso discada que os usuários chamam para discar para uma conferência e especifique as regiões que associam o número de acesso com os planos de discagem apropriados. Os três primeiros números de acesso para a região especificada pelo plano de discagem do organizador são incluídos no convite da conferência. Todos os números de acesso estão disponíveis na página Configurações de conferência discada.</p>
+<td><p><strong>Configure números de acesso de discagem</strong></p></td>
+<td><p>Use o painel de controle do Lync Server 2013 ou o Shell de gerenciamento do Lync Server para configurar números de acesso de discagem que os usuários chamam para discar para uma conferência e especifique as regiões que associam o número de acesso com os planos de discagem apropriados. Os três primeiros números de acesso para a região especificada pelo plano de discagem do organizador são incluídos no convite da conferência. Todos os números de acesso estão disponíveis na página Configurações de conferência discada.</p>
 <div>
 
 > [!NOTE]  
-> Depois de criar números de acesso discado, você pode usar o cmdlet <STRONG>set-CsDialInConferencingAccessNumber</STRONG> para modificar o nome de exibição dos objetos de contato do Active Directory para que os usuários possam identificar mais facilmente o número de acesso correto.
+> Após criar números de acesso de discagem, você pode usar o cmdlet <STRONG>set-CsDialInConferencingAccessNumber</STRONG> para modificar o nome de exibição dos objetos de contato do Active Directory de modo que os usuários possam identificar mais facilmente o número de acesso correto.
 
 
 </div></td>
 <td><p>RTCUniversalServerAdmins</p>
 <p>CsServerAdministrator</p>
 <p>CsAdministrator</p></td>
-<td><p><a href="lync-server-2013-configure-dial-in-conferencing-access-numbers.md">Configurar número de acesso da conferência discada no Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-configure-dial-in-conferencing-access-numbers.md">Configurar números de acesso de conferência discada no Lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>(Opcional) Verifique as configurações da conferência discada</strong></p></td>
-<td><p>Use o cmdlet  <strong>Get-CsDialinConferencingAccessNumber</strong> para pesquisar planos de discagem que tenham uma região de conferência discada que não seja usada por qualquer número de acesso e números de acesso que não possuam região atribuída.</p></td>
+<td><p>Use o cmdlet <strong>Get-CsDialinConferencingAccessNumber</strong> para pesquisar planos de discagem que tenham uma região de conferência discada que não seja usada por qualquer número de acesso e números de acesso que não possuam região atribuída.</p></td>
 <td><p>RTCUniversalServerAdmins</p>
 <p>CsServerAdministrator</p>
 <p>CsAdministrator</p>
 <p>CsViewOnlyAdministrator</p>
 <p>CsHelpDesk</p></td>
-<td><p><a href="lync-server-2013-optional-verify-dial-in-conferencing-settings.md">(Opcional) Verificar configurações de conferência discada no Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-optional-verify-dial-in-conferencing-settings.md">Opcion Verificar as configurações de conferência discada no Lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
 <td><p><strong>(Opcional) Modifique o mapeamento de teclas dos comandos DTMF</strong></p></td>
-<td><p>Use o cmdlet <strong>set-CsDialinConferencingDtmfConfiguration</strong> para modificar as chaves usadas para comandos de multifrequência (DTMF) de Tom duplo, quais participantes podem usar para controlar as configurações de conferência (como ativar e desativar mudo ou bloquear e desbloquear).</p></td>
+<td><p>Use o cmdlet <strong>Set-CsDialinConferencingDtmfConfiguration</strong> para modificar as teclas usadas para comandos DTMF que os participantes podem usar para controlar as configurações da conferência (como silenciar e ativar ou travar e destravar).</p></td>
 <td><p>RTCUniversalServerAdmins</p>
 <p>CsServerAdministrator</p>
 <p>CsAdministrator</p></td>
-<td><p><a href="lync-server-2013-optional-modify-key-mapping-for-dtmf-commands.md">(Opcional) Modificar mapeamento principal de comandos DTMF no Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-optional-modify-key-mapping-for-dtmf-commands.md">Opcion Modificar o mapeamento de teclas para comandos DTMF no Lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>(Opcional) Modifique o comportamento do anúncio de entrada e saída da conferência</strong></p></td>
-<td><p>Use o cmdlet  <strong>Set-CsDialinConferencingConfiguration</strong> para alterar como os anúncios funcionam quando participantes entram e saem das conferências.</p></td>
+<td><p>Use o cmdlet <strong>Set-CsDialinConferencingConfiguration</strong> para alterar como os anúncios funcionam quando participantes entram e saem das conferências.</p></td>
 <td><p>RTCUniversalServerAdmins</p>
 <p>CsServerAdministrator</p>
 <p>CsAdministrator</p></td>
-<td><p><a href="lync-server-2013-optional-enable-and-disable-conference-join-and-leave-announcements.md">(Opcional) Habilitar e desabilitar comunicados de ingresso e saída de conferência no Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-optional-enable-and-disable-conference-join-and-leave-announcements.md">Opcion Habilitar e desabilitar comunicados de ingresso e saída de conferência no Lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
 <td><p><strong>(Opcional) Verifique a conferência discada</strong></p></td>
-<td><p>Use o cmdlet  <strong>Test-CsDialInConferencing</strong> para testar se os números de acesso para o pool especificado estão funcionando corretamente.</p></td>
+<td><p>Use o cmdlet <strong>Test-CsDialInConferencing</strong> para testar se os números de acesso para o pool especificado estão funcionando corretamente.</p></td>
 <td><p>RTCUniversalServerAdmins</p>
 <p>CsServerAdministrator</p>
 <p>CsAdministrator</p></td>
-<td><p><a href="lync-server-2013-optional-verify-dial-in-conferencing.md">(Opcional) Verificar conferência discada no Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-optional-verify-dial-in-conferencing.md">Opcion Verificar a conferência discada no Lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Implantar suplemento Online Meeting para Lync 2013</strong></p></td>
-<td><p>Implante o suplemento de reunião online do Lync 2013 para que os usuários possam agendar conferências que dão suporte à conferência discada. O suplemento de reunião online do Lync 2013 é instalado automaticamente quando você instala o Lync 2013.</p></td>
+<td><p><strong>Implantar o suplemento reunião online para Lync 2013</strong></p></td>
+<td><p>Implante o suplemento reunião online do Lync 2013 para que os usuários possam agendar conferências que suportam conferência discada. O suplemento de reunião online para Lync 2013 é instalado automaticamente quando você instala o Lync 2013.</p></td>
 <td><p>Administradores</p></td>
-<td><p><a href="lync-server-2013-deploy-the-online-meeting-add-in-for-lync-2013.md">Implantar suplemento Online Meeting para Lync 2013</a></p></td>
+<td><p><a href="lync-server-2013-deploy-the-online-meeting-add-in-for-lync-2013.md">Implantar o suplemento reunião online para Lync 2013</a></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Definir configurações de conta do usuário</strong></p></td>
+<td><p><strong>Defina as configurações da conta do usuário</strong></p></td>
 <td><p>Use o painel de controle do Lync Server 2013 ou o Shell de gerenciamento do Lync Server para configurar o <strong>URI da linha</strong> de telefonia como um número de telefone normalizado exclusivo (por exemplo, Tel: + 14255550200).</p></td>
 <td><p>RTCUniversalServerAdmins</p>
 <p>CsAdministrator</p>
 <p>CsUserAdministrator</p></td>
-<td><p><a href="lync-server-2013-configure-user-account-settings.md">Definir configurações de conta do usuário no Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-configure-user-account-settings.md">Definir configurações de conta de usuário no Lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>(Recomendado) Configurar diretórios de conferência</p></td>
+<td><p>Recomenda Configurar diretórios de conferência</p></td>
 <td><p>Use o cmdlet <strong>New-CsConferenceDirectory</strong> para criar um diretório de conferência para cada 999 usuários no pool.</p></td>
 <td><p>RTCUniversalServerAdmins</p></td>
 <td><p><a href="lync-server-2013-dial-in-conferencing-requirements.md">Requisitos de conferência discada no Lync Server 2013</a> <a href="recommended-create-conference-directories.md">(recomendado) criar diretórios de conferência</a></p></td>
 </tr>
 <tr class="even">
 <td><p><strong>(Opcional) Receba os usuários em conferências discadas e defina o PIN inicial</strong></p></td>
-<td><p>Use o script <strong>set-CsPinSendCAWelcomeMail</strong> para definir os Pins iniciais dos usuários e enviar um email de boas-vindas que contenha o PIN inicial e um link para a página Configurações de conferência discada.</p></td>
+<td><p>Use o script <strong>set-CsPinSendCAWelcomeMail</strong> para definir os Pins iniciais dos usuários e enviar um email de boas-vindas que contém o PIN inicial e um link para a página Configurações de conferência discada.</p></td>
 <td><p>RTCUniversalServerAdmins</p></td>
-<td><p><a href="lync-server-2013-optional-welcome-users-to-dial-in-conferencing.md">(Opcional) Dar as boas-vindas aos usuários na conferência discada no Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-optional-welcome-users-to-dial-in-conferencing.md">Opcion Usuários de boas-vindas para conferência discada no Lync Server 2013</a></p></td>
 </tr>
 </tbody>
 </table>

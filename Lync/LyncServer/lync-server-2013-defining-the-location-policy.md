@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: definindo a política de localização'
+title: 'Lync Server 2013: definindo a política de local'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185553
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: feb7550412fa6cdcda3a8fc4dd9b7913912c34e1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9842b5bec4b635566288998d6e8110fcc51463d7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728351"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048194"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="defining-the-location-policy-for-lync-server-2013"></a>Definindo a política de localização do Lync Server 2013
+# <a name="defining-the-location-policy-for-lync-server-2013"></a>Definir a política de local para o Lync Server 2013
 
 </div>
 
@@ -35,61 +35,61 @@ ms.locfileid: "41728351"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-29_
+_**Última modificação do tópico:** 2012-10-29_
 
 Cada política de local contém as seguintes informações:
 
   - **Serviços de emergência habilitados**  
-    Quando esse valor é **Sim**, o cliente está habilitado para E9-1-1. Quando um cliente é registrado, ele tenta adquirir um local do serviço de informações de localização e inclui as informações de localização como parte de uma chamada de emergência.
+    Quando este valor é **Sim**, o cliente é habilitado para E9-1-1. Quando um cliente se registra, ele tenta adquirir um local do serviço de informações de local e incluirá as informações de local como parte de uma chamada de emergência.
 
 <!-- end list -->
 
-  - **Local obrigatório**  
-    Essa configuração é usada somente quando os **serviços de emergência habilitados** são definidos como **Sim**.
+  - **Local necessário**  
+    Essa configuração é usada somente quando os **serviços de emergência habilitados** estão definidos como **Sim**.
     
-    Você pode configurar a configuração de **localização necessária** para definir o comportamento do cliente. Definir o valor como **Não** significa que o usuário não receberá uma solicitação de local. Definir o valor como **Sim** significa que o usuário receberá uma solicitação de local, mas poderá ignorá-la. Definir o valor como **Aviso de isenção de responsabilidade** significa que o usuário receberá uma solicitação de local e um aviso de isenção de responsabilidade caso tente ignorar a solicitação. De qualquer forma, o usuário pode continuar utilizando o cliente.
+    É possível definir a configuração **Local Necessário** para definir o comportamento do cliente. A definição do valor como **Não** significa que o usuário não receberá uma solicitação de local. A definição do valor como **Sim** significa que o usuário receberá uma solicitação por um local, mas poderá ignorar a solicitação. A definição do valor como **Aviso de isenção de responsabilidade** significa que o usuário receberá uma solicitação por um local e mostrará um aviso de isenção de responsabilidade caso ele tente ignorar a solicitação. Em todos os casos, o usuário pode continuar a usar o cliente.
     
     <div>
     
 
     > [!NOTE]  
-    > O texto do aviso de isenção de responsabilidade não aparecerá se um usuário inserir manualmente um local antes de ser habilitado para E9-1-1. As atualizações para o texto do aviso de isenção de responsabilidade não será visualizado pelos usuários que já visualizaram o aviso de isenção de responsabilidade. 
+    > O texto do aviso de isenção de responsabilidade não aparecerá se um usuário inserir manualmente um local antes de ser habilitado para E9-1-1. As atualizações para o texto do aviso de isenção de responsabilidade não será visualizado pelos usuários que já visualizaram o aviso de isenção de responsabilidade.
 
     
     </div>
 
 <!-- end list -->
 
-  - **Aviso de Isenção de Responsabilidade do Serviço de Emergência Avançado**  
-    Esta configuração especifica o aviso de isenção de responsabilidade que o usuário verá caso ignore a solicitação de local. No Lync Server 2013, você pode usar a política de localização para definir avisos de isenção de responsabilidade diferentes para locais diferentes ou conjuntos de usuários diferentes.
+  - **Isenção de Responsabilidade do Serviço de Emergência Avançado**  
+    Esta configuração especifica o aviso de isenção que o usuário ver se ignorar o aviso em um local. No Lync Server 2013, você pode usar a política de local para definir avisos de isenção de responsabilidade diferentes para localidades diferentes ou diferentes conjuntos de usuários.
     
     <div>
     
 
     > [!NOTE]  
-    > Essa configuração de política de localização é diferente do Lync Server 2010, no qual você usou o cmdlet <STRONG>set-CsEnhancedEmergencyServiceDisclaimer</STRONG> para definir um aviso global para a organização inteira. Se já existir uma isenção global, você precisará especificar essa isenção de responsabilidade na política de localização. Ou seja, o Lync Server 2013 usa apenas avisos de isenção especificados na política de localização.
+    > Essa configuração de política de local difere do Lync Server 2010, onde você usou o cmdlet <STRONG>set-CsEnhancedEmergencyServiceDisclaimer</STRONG> para definir um aviso global para toda a organização. Se um aviso de isenção global já existir, você precisa especificar o aviso de isenção na política de local. Ou seja, o Lync Server 2013 usa apenas avisos de isenção de responsabilidade especificados na política de local.
 
     
     </div>
 
 <!-- end list -->
 
-  - **Cadeia de discagem de emergência**  
-    Esta cadeia de caracteres de discagem (menos a "+" à esquerda, mas incluindo qualquer normalização feita pelo plano de discagem do usuário do Lync) significa que uma chamada é uma chamada de emergência. A **Sequência de discagem de emergência** faz com que o cliente inclua na chamada informações sobre o local e sobre retorno de chamada.
+  - **Sequência de discagem de emergência**  
+    Esta  sequência de discagem (menos o “+” inicial, mas incluindo qualquer normalização realizada pelo Plano de discagem do usuário do Lync) que significa que uma chamada é uma chamada de emergência. A **Sequência de discagem de emergência** faz com que o cliente inclua na chamada informações sobre o local e sobre retorno de chamada.
     
     <div>
     
 
     > [!NOTE]  
-    > Se a sua organização não usar um prefixo de acesso de linha externa, você não precisará criar uma regra de normalização de plano de discagem correspondente que adiciona "+" à cadeia de caracteres 911 antes de enviar a chamada para o roteamento de saída em um servidor de pool do Lync; o "+" será automaticamente retomado pelo cliente do Lync como resultado da política de localização. No entanto, se seu site usar um prefixo de acesso externo, será necessário adicionar uma regra de normalização à política de Plano de Discagem aplicável que remove o prefixo de acesso externo e adiciona “+”. Por exemplo, se a sua localização usa um prefixo de acesso externo de 9 e um usuário discar 9&nbsp;911 para fazer uma chamada de emergência, o cliente usará sua política de plano de discagem para normalizar isso para + 911 antes que o número discado seja avaliado por rotas no perfil de localização do chamador.
+    > Se sua organização não usa um prefixo de acesso de linha externa, não será necessário criar uma regra de normalização do Plano de discagem correspondente que acrescenta um “+” à sequência 911 antes de enviar a chamada ao Roteamento de saída em um servidor de pool do Lync; o “+” será automaticamente pré-demarcado pelo cliente do Lync como resultado da política de local. No entanto, se seu site usar um prefixo de acesso externo, é necessário adicionar uma regra de normalização à política de Plano de discagem aplicável que retira o prefixo de acesso externo e adiciona o “+”. Por exemplo, se seu local usar um prefixo de acesso externo 9 e um usuário discar 9&nbsp;911 para fazer uma chamada de emergência, o cliente usará sua política de plano de discagem para normalizar isso para + 911 antes que o número discado seja avaliado pelas rotas no perfil de local do chamador.
 
     
     </div>
 
 <!-- end list -->
 
-  - **Máscaras de cadeias de discagem de emergência**  
-    Uma lista separada por ponto-e-vírgula de cadeias de discagem que é traduzida para a **cadeia de discagem de emergência**especificada Por exemplo, talvez você queira adicionar 112, que é o número do serviço de emergência para a maioria da Europa. Um usuário visitante do Lync da Europa talvez não saiba que 911 é o número de emergência dos EUA, mas pode discar o 112 e obter o mesmo resultado. Assim como na cadeia de caracteres de discagem de emergência, não inclua um "+" antes de cada número e, se você usar códigos de acesso de linha externos, certifique-se de que haja regras de normalização na política de plano de discagem do usuário para retirar o dígito de código de acesso.
+  - **Máscaras da sequência de discagem de emergência**  
+    Uma lista separada por ponto e vírgula de sequências de discagem a serem traduzidas para a **Sequência de discagem de emergência**. Por exemplo, você pode querer adicionar 112, que é o número do serviço de emergência em grande parte da Europa. Talvez um usuário do Lync vindo da Europa não saiba que 911 é o número de emergência nos EUA, mas ele pode discar 112 e obter o mesmo resultado. Assim como ocorre com a Sequência de discagem de emergência, não inclua um “+” antes de cada número e se você usar os códigos de acesso de linha externa, certifique-se de que existam regras de normalização na política de Plano de discagem do usuário para retirar o dígito do código de acesso.
 
 <!-- end list -->
 
@@ -108,22 +108,22 @@ Cada política de local contém as seguintes informações:
 <!-- end list -->
 
   - **URI de notificação**  
-    Especifica um ou mais URIs SIP do pessoal de segurança que receberá uma notificação de IM (Sistema de Mensagens Instantâneas) quando uma chamada de emergência for realizada. Há suporte para grupos de distribuição.
+    Especifica um ou mais URIs SIP do pessoal de segurança que receberá uma notificação de mensagem instantânea (IM) quando uma chamada de emergência for realizada. Os grupos de distribuição são suportados.
 
 <!-- end list -->
 
-  - **URI de Conferência**  
-    Especifica um número DID (discagem direta interna) (normalmente um número do suporte de segurança) que deve ser verificado quando uma chamada de emergência é feita.  
+  - **URI de conferência**  
+    Especifica um número DID (discagem direta interna) (normalmente um número do suporte de segurança) que deve ser verificado quando uma chamada de emergência é feita.
 
 <!-- end list -->
 
-  - **Modo de Conferência**  
-    Especifica se o URI de conferência será inserido na chamada de emergência usando comunicação de uma ou duas vias. 
+  - **Modo de conferência**  
+    Especifica se o URI de conferência será inserido na chamada de emergência usando comunicação de uma ou duas vias.
 
 <!-- end list -->
 
-  - **Intervalo de Atualização de Local**  
-    Especifica a quantidade de tempo (em horas) entre as solicitações do cliente para uma atualização de localização do serviço de informações de localização. O valor pode ser definido para qualquer valor entre 1 e 12. O valor padrão é 4.
+  - **Intervalo de atualização de local**  
+    Especifica a quantidade de tempo (em horas) entre as solicitações de cliente para uma atualização de local do serviço de informações de local. O valor pode ser definido para qualquer valor entre 1 e 12. O valor padrão é 4.
 
 </div>
 

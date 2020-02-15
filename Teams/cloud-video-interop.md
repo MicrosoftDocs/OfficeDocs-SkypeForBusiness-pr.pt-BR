@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e3a8d3d41d974e78a708fdf91ee6aac13beb6b7b
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 2f2c5cb45c82696ec5b365dc8e887cbaa9abce13
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825059"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046494"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>Interoperabilidade de vídeo na nuvem para o Microsoft Teams
 
@@ -83,7 +83,7 @@ O parceiro escolhido para a sua implantação do CVI fornecerá um documento de 
 
 ### <a name="provision"></a>Configura  
 
-Durante a fase de provisionamento, você atribuirá licenças aos usuários adequados de acordo com o guia de configuração do parceiro. Você também precisará passar pelo processo de consentimento do Azure para fornecer ao parceiro acesso ao seu ambiente de equipe. Mais informações sobre o processo de consentimento do Azure podem ser encontradas aqui:https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-permissions-and-consent 
+Durante a fase de provisionamento, você atribuirá licenças aos usuários adequados de acordo com o guia de configuração do parceiro. Você também precisará passar pelo processo de consentimento do Azure para fornecer ao parceiro acesso ao seu ambiente de equipe. Mais informações sobre o processo de consentimento do Azure podem ser encontradas aqui:https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent 
 
 ### <a name="schedule"></a>Prazo
 

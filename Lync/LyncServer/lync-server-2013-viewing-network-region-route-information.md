@@ -12,20 +12,20 @@ ms:contentKeyID: 49733611
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c8299bd598edf18b7ed7f06088e4bfbbcebab354
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d6acf4fbc1766adbe2c2a14a28cfbeef16f199b7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757365"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046174"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="viewing-network-region-route-information-in-lync-server-2013"></a>Exibir informações de rota de região de rede no Lync Server 2013
+# <a name="viewing-network-region-route-information-in-lync-server-2013"></a>Exibindo informações de rota de região de rede no Lync Server 2013
 
 </div>
 
@@ -35,50 +35,50 @@ ms.locfileid: "41757365"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-02-23_
+_**Última modificação do tópico:** 2013-02-23_
 
-Todas as regiões em uma configuração de controle de admissão de chamadas (CAC) devem ter alguma maneira de acessar todas as outras regiões. Enquanto links de região definem as limitações de largura de banda nas conexões entre regiões e também representam os links físicos, uma rota determina qual caminho vinculado a conexão passará de uma região para outra. Use os procedimentos a seguir para exibir as rotas de região de rede existentes no painel de controle do Lync Server 2013 ou no Shell de gerenciamento do Lync Server 2013. Para obter detalhes sobre como criar ou modificar as rotas de região de rede, consulte [criando ou modificando rotas de região de rede no Lync Server 2013](lync-server-2013-creating-or-modifying-network-region-routes.md).
+Cada região de um configuração de CAC (controle de admissão de chamadas) deve ter alguma forma de acessar todas as outras regiões. Enquanto os links da região definem limitações nas conexões entre regiões e representam também os links físicos, uma rota determina o caminho vinculado que a conexão percorrerá de uma região a outra. Use os procedimentos a seguir para exibir as rotas de região de rede existentes no painel de controle do Lync Server 2013 ou no Shell de gerenciamento do Lync Server 2013. Para obter detalhes sobre como criar ou modificar as rotas de região de rede, consulte [criando ou modificando rotas de região de rede no Lync Server 2013](lync-server-2013-creating-or-modifying-network-region-routes.md).
 
 <div>
 
-## <a name="to-view-network-region-route-information-in-lync-server-control-panel"></a>Para exibir as informações de rota de região de rede no painel de controle do Lync Server
+## <a name="to-view-network-region-route-information-in-lync-server-control-panel"></a>Para exibir informações de rota de região de rede no painel de controle do Lync Server
 
-1.  Usando uma conta de usuário que é membro do grupo RTCUniversalServerAdmins (ou tem direitos de usuário equivalentes), ou está atribuída à função CsAdministrator, faça logon em qualquer computador de sua implantação interna.
+1.  A partir de uma conta de usuário que seja membro do grupo RTCUniversalServerAdmins (ou tenha direitos de usuário equivalentes) ou atribuída à função CsAdministrator, faça logon em qualquer computador em sua implantação interna.
 
-2.  Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [abrir ferramentas administrativas do Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Na barra de navegação à esquerda, clique em **configuração de rede** e, em seguida, clique em **rota de região**.
+3.  Na barra de navegação esquerda, clique em **Configuração da Rede** e clique em **Rota de Região**.
 
-4.  Na página **rota de região** , clique na rota de região que você deseja exibir.
+4.  Na página **Rota de Região**, clique na rota de região que deseja exibir.
     
     <div>
     
 
     > [!NOTE]  
-    > Você só pode exibir uma rota de região por vez.
+    > É possível ver apenas uma rota de região por vez.
 
     
     </div>
 
-5.  No menu **Editar**, clique em **Exibir detalhes**.
+5.  No menu **Editar**, clique em **Mostrar detalhes**.
 
 </div>
 
 <div>
 
-## <a name="viewing-network-region-route-information-by-using-windows-powershell-cmdlets"></a>Exibir informações de rota de região de rede usando cmdlets do Windows PowerShell
+## <a name="viewing-network-region-route-information-by-using-windows-powershell-cmdlets"></a>Exibindo informações de rota de região de rede usando cmdlets do Windows PowerShell
 
-As informações de rota de região de rede podem ser visualizadas usando o Windows PowerShell e o cmdlet Get-CsNetworkInterRegionRoute. Esse cmdlet pode ser executado no Shell de gerenciamento do Lync Server 2013 ou em uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Lync Server, consulte o artigo sobre o blog do Windows PowerShell do Lync Server "início rápido: gerenciar o [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Microsoft Lync Server 2010 usando o PowerShell remoto" em.
+As informações de rota de região de rede podem ser visualizadas usando o Windows PowerShell e o cmdlet Get-CsNetworkInterRegionRoute. Este cmdlet pode ser executado a partir do Shell de gerenciamento do Lync Server 2013 ou de uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Lync Server, consulte o artigo de blog do Lync Server Windows PowerShell "início rápido: Managing Microsoft Lync Server [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)2010 using Remote PowerShell" em.
 
 <div>
 
-## <a name="to-view-network-region-route-information"></a>Para exibir as informações de rota de região de rede
+## <a name="to-view-network-region-route-information"></a>Para exibir informações de rota de região de rede
 
-  - Para ver as informações sobre todas as suas rotas de região de rede, digite o seguinte comando no Shell de gerenciamento do Lync Server e pressione ENTER:
+  - Para exibir informações sobre todas as suas rotas de região de rede, digite o seguinte comando no Shell de gerenciamento do Lync Server e pressione ENTER:
     
         Get-CsNetworkInterRegionRoute
     
-    Isso retornará informações parecidas com:
+    Isto retorna informações semelhantes à seguinte:
     
         Identity                  : TransAmericaRoute
         NetworkRegionLinks        : {NorthwestToNortheast}
@@ -88,7 +88,7 @@ As informações de rota de região de rede podem ser visualizadas usando o Wind
 
 </div>
 
-Para obter mais informações, consulte o tópico da ajuda para o cmdlet [Get-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkInterRegionRoute) .
+Para obter mais informações, consulte o tópico de ajuda do cmdlet [Get-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkInterRegionRoute).
 
 </div>
 

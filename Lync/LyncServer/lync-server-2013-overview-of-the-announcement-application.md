@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: visão geral do aplicativo Announcement'
+title: 'Lync Server 2013: visão geral do aplicativo comunicado'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183689
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a4c1b9210fcb0734b305a30d27c77b4e81257909
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 83e711eb408d0819c818157f85fbb0ff81930da7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755455"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046224"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-the-announcement-application-in-lync-server-2013"></a>Visão geral do aplicativo de anúncio no Lync Server 2013
+# <a name="overview-of-the-announcement-application-in-lync-server-2013"></a>Visão geral do aplicativo comunicado no Lync Server 2013
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41755455"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-13_
+_**Última modificação do tópico:** 2012-09-13_
 
-Ao implantar o aplicativo de anúncio, você precisa configurar uma tabela de número não atribuído que determine a ação a ser tomada quando alguém discar um número não atribuído. A tabela número não atribuído contém intervalos de números de telefone que são válidos para a organização e especifica qual aplicativo de anúncio manipula cada intervalo. Quando um chamador disca para um número de telefone válido para a sua organização, mas não está atribuído a ninguém, o Lync Server procura o número na tabela de roteamento de números não atribuídos, identifica o intervalo no qual o número cai e roteia a chamada para o anúncio aplicativo especificado para esse intervalo. O aplicativo de anúncio atende a chamada e reproduz uma mensagem de áudio (se você a configurou para fazer isso) e, em seguida, desconectará a chamada ou a transferirá para um destino predeterminado, por exemplo, para um operador. Você pode usar cmdlets do Shell de gerenciamento do Lync Server para configurar várias mensagens de áudio ou para transferir destinos.
+Ao implantar o aplicativo de comunicado, você precisa configurar uma tabela de número não atribuído que determina a ação a ser tomada quando alguém discar um número não atribuído. A tabela de número não atribuído contém intervalos de números de telefone válidos para a organização e especifica qual aplicativo de anúncio lida com cada intervalo. Quando um chamador disca um número de telefone válido para sua organização, mas não é atribuído a ninguém, o Lync Server pesquisa o número na tabela de roteamento de número não atribuído, identifica o intervalo em que o número se enquadra e encaminha a chamada para o comunicado aplicativo especificado para esse intervalo. O aplicativo de anúncio responde à chamada e reproduz uma mensagem de áudio (se você a configurou para isso) e, em seguida, desconecta a chamada ou a transfere para um destino predeterminado, como para um operador. Você pode usar os cmdlets do Shell de gerenciamento do Lync Server para configurar várias mensagens de áudio ou para transferir destinos.
 
-A forma como você configura a tabela de número não atribuído depende de como você deseja usá-la. Se você possui números específicos que não estão mais em uso e deseja reproduzir mensagens que são personalizadas para cada número, é possível inserir esses números específicos na tabela de número não atribuído. Por exemplo, se você alterou o número do seu atendimento ao cliente, é possível inserir o número do serviço antigo e associá-lo a um anúncio que oferece o novo número. Se você deseja reproduzir uma mensagem geral para qualquer pessoa que ligar para um número não atribuído, como funcionários que deixaram a organização, é possível inserir intervalos para todas as extensões válidas em sua organização. A tabela de número não atribuído é invocada sempre que um chamador liga para um número que não está atribuído atualmente.
+Como você configura a tabela de número não atribuído depende de como você deseja usá-la. Se você possui números específicos que não estão mais em uso e deseja reproduzir mensagens que são personalizadas para cada número, é possível inserir estes números específicos na tabela de número não atribuído. Por exemplo, se você alterou o número do seu atendimento ao cliente, é possível inserir o número do serviço antigo e associá-lo com um anúncio que oferece o novo número. Se você deseja reproduzir uma mensagem geral para qualquer pessoa que ligar para um número não atribuído, como funcionários que deixaram a organização, é possível inserir intervalos para todas as extensões válidas em sua organização. A tabela de número não atribuído é invocada sempre que um ligador chama um número que não está atribuído atualmente.
 
-No Lync Server 2013, o aplicativo de anúncio é instalado automaticamente com o aplicativo de grupo de resposta. Os aplicativos de anúncio e de grupo de resposta são componentes padrão de uma implantação do Enterprise Voice: ao implantar o Enterprise Voice, esses dois aplicativos são implantados automaticamente.
+No Lync Server 2013, o aplicativo de anúncio é instalado automaticamente com o aplicativo grupo de resposta. Os aplicativos de anúncio e de grupo de resposta são componentes padrão de uma implantação do Enterprise Voice: quando você implanta o Enterprise Voice, esses dois aplicativos são implantados automaticamente.
 
 </div>
 

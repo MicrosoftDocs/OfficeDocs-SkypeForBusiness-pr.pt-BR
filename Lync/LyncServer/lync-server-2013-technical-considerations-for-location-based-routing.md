@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Considerações técnicas para Roteamento Baseado em Local'
+title: 'Lync Server 2013: considerações técnicas para roteamento baseado em local'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51803936
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 978590484cbb6bd3c23fac26422c186847662e49
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: fcdebdccd0584d31b27120709212be674e8d3c2a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764041"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049263"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="technical-considerations-for-location-based-routing-in-lync-server-2013"></a>Considerações técnicas para Roteamento Baseado em Local no Lync Server 2013
+# <a name="technical-considerations-for-location-based-routing-in-lync-server-2013"></a>Considerações técnicas para roteamento baseado em local no Lync Server 2013
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41764041"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-03-09_
+_**Última modificação do tópico:** 2013-03-09_
 
-Ao planejar o roteamento baseado em localização, considere o impacto para os cenários a seguir.
+Ao planejar o roteamento baseado em local, considere o impacto nos cenários a seguir.
 
 <div>
 
-## <a name="disaster-recovery"></a>Recuperação de desastres
+## <a name="disaster-recovery"></a>Recuperação de desastre
 
-Durante um failover do pool primário para um pool de backup, bem como ao restaurar operações normais para o pool primário, o roteamento baseado em local permanecerá em vigor a qualquer momento durante um desastre e procedimento de recuperação.
+Durante um failover do pool primário para um pool de backup, bem como durante a restauração de operações normais para o pool primário, o roteamento baseado em local permanecerá em vigor em todos os momentos durante um desastre e procedimento de recuperação.
 
 </div>
 
 <div>
 
-## <a name="survivable-branch-appliance"></a>Aparelho de Filial Persistente
+## <a name="survivable-branch-appliance"></a>Aplicativo de Filial Persistente
 
-Configurar o roteamento baseado em local impacta o planejamento de onde você implanta os gateways associados a seus aparelhos de ramificação sobreviventes. O gateway associado a seu SBA deve estar localizado no mesmo site de rede que o seu aparelho de ramificação sobreviventes; caso contrário, os usuários hospedados em seu aparelho de ramificação sobreviventes não terão permissão para fazer chamadas de saída se o roteamento baseado em localização estiver configurado. Quando a conexão WAN entre seu aparelho de ramificação sobreviventes e o site central está inativa, as restrições de roteamento baseadas em local permanecem impostas.
+Configurar o roteamento baseado em local impacta o planejamento de onde você implanta os gateways associados aos seus aparelhos de filial persistentes. O gateway associado ao seu SBA deve estar localizado no mesmo local de rede que seu aparelho de filial persistente; caso contrário, os usuários hospedados no seu aparelho de filial persistente não terão permissão para fazer chamadas de saída se o roteamento baseado em local estiver configurado. Quando a conexão WAN entre seu aparelho de filial persistente e o site central estiver inativa, as restrições de roteamento baseadas em local permanecerão impostas.
 
 </div>
 
@@ -60,7 +60,7 @@ Configurar o roteamento baseado em local impacta o planejamento de onde você im
 ## <a name="see-also"></a>Confira também
 
 
-[Planejamento de Roteamento Baseado em Local no Lync Server 2013](lync-server-2013-planning-for-location-based-routing.md)  
+[Planejamento de roteamento baseado em local no Lync Server 2013](lync-server-2013-planning-for-location-based-routing.md)  
   
 
 </div>

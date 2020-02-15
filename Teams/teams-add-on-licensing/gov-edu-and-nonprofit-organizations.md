@@ -19,12 +19,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Saiba mais sobre licenças complementares e recursos para planos de organizações GOV, EDU e sem fins lucrativos. '
-ms.openlocfilehash: 9d33cbb7367a1608b0ff7c9fdd05447a98edba8b
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 8544d685fffa1a4ab4f53a83e0651bd898e3c845
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826679"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029382"
 ---
 # <a name="gov-edu-and-non-profit-organizations"></a>Organizações GOV, EDU e sem fins lucrativos
 
@@ -36,4 +36,4 @@ A maioria dos recursos do teams está disponível para organizações de governo
 |Sistema telefônico do Office 365  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |
 |Plano de Chamadas Office 365  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |
    
-Veja esta publicação do blog: [Advanced Office 365 capabilities now available to U.S. Government Community Cloud customers](https://www.microsoft.com/en-us/microsoft-365/blog/2017/01/17/advanced-office-365-capabilities-now-available-to-u-s-government-community-customers/).
+Veja esta publicação do blog: [Advanced Office 365 capabilities now available to U.S. Government Community Cloud customers](https://www.microsoft.com/microsoft-365/blog/2017/01/17/advanced-office-365-capabilities-now-available-to-u-s-government-community-customers/).

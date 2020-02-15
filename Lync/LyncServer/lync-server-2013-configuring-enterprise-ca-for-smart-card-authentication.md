@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Configurando a CA empresarial para autenticação de cartão inteligente'
+title: 'Lync Server 2013: Configurando autoridade de certificação corporativa para autenticação de cartão inteligente'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 54973692
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 44df62031e679c641b4c7dbe6b5c205e1ae899e8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a49fb76019fbb3bc3356fed5de7a67b0e3a10350
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728961"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046374"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-enterprise-ca-for-smart-card-authentication-in-lync-server-2013"></a>Configurando a CA corporativa para autenticação de cartão inteligente no Lync Server 2013
+# <a name="configuring-enterprise-ca-for-smart-card-authentication-in-lync-server-2013"></a>Configurando a AC corporativa para autenticação de cartão inteligente no Lync Server 2013
 
 </div>
 
@@ -35,45 +35,45 @@ ms.locfileid: "41728961"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-07-03_
+_**Última modificação do tópico:** 2013-07-03_
 
-A seção a seguir descreve como configurar uma CA (autoridade de certificação) raiz corporativa para dar suporte à autenticação de cartão inteligente. Para obter informações sobre como instalar uma autoridade de certificação raiz corporativa, consulte instalar uma autoridade de certificação [http://go.microsoft.com/fwlink/p/?LinkID=313364](http://go.microsoft.com/fwlink/p/?linkid=313364)raiz corporativa em.
+A seção a seguir descreve como configurar uma autoridade de certificação raiz corporativa para dar suporte à autenticação de cartão inteligente. Para obter informações sobre como instalar uma autoridade de certificação raiz corporativa, consulte instalar uma autoridade de certificação [http://go.microsoft.com/fwlink/p/?LinkID=313364](http://go.microsoft.com/fwlink/p/?linkid=313364)raiz corporativa em.
 
 <div>
 
 ## <a name="configuring-an-enterprise-root-certificate-authority-to-support-smart-card-authentication"></a>Configurando uma autoridade de certificação raiz corporativa para dar suporte à autenticação de cartão inteligente
 
-As seguintes etapas descrevem como configurar uma CA Raiz Corporativa para dar suporte à Autenticação de Cartão Inteligente:
+As etapas a seguir descrevem como configurar uma autoridade de certificação raiz corporativa para suportar a autenticação de cartão inteligente:
 
-1.  Faça o login no computador da AC corporativa utilizando uma conta de Administrador de Domínio.
+1.  Faça logon no computador de autoridade de certificação corporativa usando uma conta de administrador de domínio.
 
-2.  Inicie o Gerenciador de Sistema e verifique se a função de Registro da Web da Autoridade de Certificação está instalada.
+2.  Inicie o System Manager e verifique se a função de registro da Web da autoridade de certificação está instalada.
 
-3.  No menu **Ferramentas Administrativas**, abra o console de gerenciamento da **Autoridade de Certificação**.
+3.  No menu **Ferramentas administrativas** , abra o console de gerenciamento de **autoridade de certificação** .
 
-4.  No painel de Navegação, expanda **Autoridade de Certificação**.
+4.  No painel de navegação, expanda **autoridade de certificação**.
 
-5.  Clique com o botão direito do mouse em **Modelos de Certificado**, selecione **Novo** e, em seguida, selecione **Modelo de Certificação para Emissão**.
+5.  Clique com o botão direito em **modelos de certificado**, selecione **novo**e, em seguida, selecione **modelo de certificado a ser emitido**.
 
-6.  Selecione **Agente de Registro**, **Usuário do Cartão Inteligente** e **Logon do Cartão Inteligente**.
+6.  Selecione **agente de registro**, **usuário de cartão inteligente**e **logon de cartão inteligente**.
 
 7.  Clique em **OK**.
 
-8.  Clique com o botão direito em **Modelos de Certificado**.
+8.  Clique com o botão direito do mouse em **modelos de certificado**.
 
-9.  Selecione **Gerenciar**.
+9.  Selecione **gerenciar**.
 
-10. Abra as propriedades do modelo do Usuário do Cartão Inteligente.
+10. Abra as propriedades do modelo de usuário de cartão inteligente.
 
-11. Clique na guia **Segurança**.
+11. Clique na guia **segurança** .
 
-12. Altere as permissões da seguinte forma:
+12. Altere as permissões da seguinte maneira:
     
-      - Adicione contas de AD de usuários individuais com permissões para Ler/Registrar (Permitir) ou
+      - Adicionar contas individuais do AD de usuários com permissões de leitura/registro (permitir) ou
     
-      - Adicione um grupo de segurança contendo usuários do cartão inteligente com permissões para Ler/Registrar (Permitir), ou
+      - Adicionar um grupo de segurança contendo usuários de cartões inteligentes com permissões de leitura/registro (permitir) ou
     
-      - Adicione o grupo do Usuário de Domínio com as permissões para Ler/Registrar (Permitir)
+      - Adicionar o grupo usuários do domínio com permissões para ler/registrar (permitir)
 
 </div>
 

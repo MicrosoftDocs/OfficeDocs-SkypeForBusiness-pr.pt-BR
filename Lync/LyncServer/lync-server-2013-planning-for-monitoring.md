@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Planejamento de monitoramento'
+title: 'Lync Server 2013: planejamento para monitoramento'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183671
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c04194f84b008b741bce887a3115c1ca31fc3ec7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 728b65493fd573d4b9cb5a182284ac969bb6436b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725331"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050003"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41725331"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-05_
+_**Última modificação do tópico:** 2012-09-05_
 
-O serviço de monitoramento no Microsoft Lync Server 2013 fornece uma maneira para os administradores coletarem o uso, a tendência e os dados de qualidade de serviço para as sessões de comunicação que ocorrem na organização. O monitoramento no Lync Server 2013 não requer mais uma função de servidor separada; em vez disso, o serviço de monitoramento é integrado a cada servidor front-end. No entanto, por padrão, o monitoramento não está habilitado no Lync Server 2013. Este documento ajudará você a determinar se o monitoramento deve ou não ser habilitado em sua organização.
+O serviço de monitoramento no Microsoft Lync Server 2013 oferece uma maneira de os administradores coletarem uso, tendência e dados de qualidade de serviço para as sessões de comunicação que ocorrem na organização. O monitoramento no Lync Server 2013 não requer mais uma função de servidor separada; em vez disso, o serviço de monitoramento é criado em cada servidor de front-end. No entanto, por padrão, o monitoramento não está habilitado no Lync Server 2013. Este documento ajudará você a determinar se o monitoramento deve ou não ser habilitado em sua organização.
 
 <div>
 
@@ -49,9 +49,9 @@ O serviço de monitoramento no Microsoft Lync Server 2013 fornece uma maneira pa
 
   - [Habilitando o monitoramento no Lync Server 2013](lync-server-2013-enabling-monitoring.md)
 
-  - [Acessando os dados de monitoramento no Lync Server 2013](lync-server-2013-accessing-monitoring-data.md)
+  - [Acessar dados de monitoramento no Lync Server 2013](lync-server-2013-accessing-monitoring-data.md)
 
-  - [Componentes e topologia para monitoramento no Lync Server 2013](lync-server-2013-components-and-topologies-for-monitoring.md)
+  - [Componentes e topologias para monitoramento no Lync Server 2013](lync-server-2013-components-and-topologies-for-monitoring.md)
 
   - [Lista de verificação de implantação para monitoramento no Lync Server 2013](lync-server-2013-deployment-checklist-for-monitoring.md)
 

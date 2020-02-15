@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: popular o local do banco de dados'
+title: 'Lync Server 2013: preencher o banco de dados de localização'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185939
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a93cee85afec1e3943af692d598d0d02ab678d58
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d7b443e257ee45c15974ba96a50b8217113ac942
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41747641"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048335"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41747641"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-17_
+_**Última modificação do tópico:** 2012-09-17_
 
-Para localizar clientes automaticamente em uma rede, primeiro você precisa preencher o banco de dados de localização com um *mapa de conexões* de rede, que mapeia os elementos de rede para endereços residenciais (ou seja, ruas). Você pode usar sub-redes, pontos de acesso sem fio, opções e portas para definir o mapa de conexões.
+Para localizar clientes automaticamente em uma rede, primeiro você precisa preencher o banco de dados de localização com um *mapa de conexões* de rede, que mapeia os elementos de rede para endereços residenciais (ou seja, ruas). Você pode usar subredes, pontos de acesso sem fio, opções e portas para definir o mapa de conexões.
 
 É possível adicionar endereços ao banco de dados local individualmente ou em massa usando um arquivo CSV contendo os formatos de coluna descritos na tabela a seguir.
 
@@ -57,30 +57,30 @@ Se você usa um gateway de número da chamada de emergência (Emergency Location
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Ponto de acesso sem fio</strong></p></td>
+<td><p><strong>Ponto de acesso sem fio </strong></p></td>
 <td><p>&lt;BSSID&gt;,&lt;Descrição&gt;,&lt;local&gt;,&lt;CompanyName&gt;,&lt;HouseNumber&gt;,&lt;HouseNumberSuffix&gt;,&lt;predirectional&gt;,...</p>
-<p>... &lt;Streetname&gt;,&lt;StreetSuffix&gt;,&lt;monodirecional&gt;,&lt;cidade&gt;,&lt;estado&gt;,&lt;CEP&gt;,&lt;país&gt;</p></td>
+<p>... &lt;Streetname&gt;,&lt;StreetSuffix&gt;,&lt;&gt;-direcional&lt;, cidade&gt;,&lt;estado&gt;,&lt;CEP&gt;, país&lt;&gt;</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Sub-rede</strong></p></td>
-<td><p>&lt;Sub-rede&gt;,&lt;Descrição&gt;,&lt;local&gt;,&lt;CompanyName&gt;,&lt;HouseNumber&gt;,&lt;HouseNumberSuffix&gt;,&lt;predirectional&gt;,...</p>
-<p>... &lt;Streetname&gt;,&lt;StreetSuffix&gt;,&lt;monodirecional&gt;,&lt;cidade&gt;,&lt;estado&gt;,&lt;CEP&gt;,&lt;país&gt;</p></td>
+<td><p><strong>-</strong></p></td>
+<td><p>&lt;Sub&gt;-&lt;rede&gt;,&lt;Descrição&gt;,&lt;local&gt;,&lt;CompanyName&gt;,&lt;HouseNumber&gt;,&lt;HouseNumberSuffix, predirectional&gt;,...</p>
+<p>... &lt;Streetname&gt;,&lt;StreetSuffix&gt;,&lt;&gt;-direcional&lt;, cidade&gt;,&lt;estado&gt;,&lt;CEP&gt;, país&lt;&gt;</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Porta</strong></p></td>
+<td><p><strong>Port</strong></p></td>
 <td><p>&lt;ChassisID&gt;,&lt;PortIDSubType&gt;,&lt;portid&gt;,&lt;Description&gt;,&lt;Location&gt;,&lt;CompanyName&gt;,&lt;HouseNumber&gt;,&lt;HouseNumberSuffix&gt;,...</p>
-<p>... &lt;Predirectional&gt;,&lt;streetname&gt;,&lt;StreetSuffix&gt;,&lt;monodirecional&gt;,&lt;cidade&gt;,&lt;estado&gt;,&lt;CEP&gt;,&lt;país&gt;</p></td>
+<p>... &lt;Predirectional&gt;,&lt;streetname&gt;,&lt;StreetSuffix&gt;,&lt;multidirecional&gt;,&lt;cidade&gt;,&lt;estado&gt;,&lt;CEP&gt;,&lt;país&gt;</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Opção</strong></p></td>
+<td><p><strong>Switch</strong></p></td>
 <td><p>&lt;ChassisID&gt;,&lt;Descrição&gt;,&lt;local&gt;,&lt;CompanyName&gt;,&lt;HouseNumber&gt;,&lt;HouseNumberSuffix&gt;,&lt;predirectional&gt;,...</p>
-<p>... &lt;Streetname&gt;,&lt;StreetSuffix&gt;,&lt;monodirecional&gt;,&lt;cidade&gt;,&lt;estado&gt;,&lt;CEP&gt;,&lt;país&gt;</p></td>
+<p>... &lt;Streetname&gt;,&lt;StreetSuffix&gt;,&lt;&gt;-direcional&lt;, cidade&gt;,&lt;estado&gt;,&lt;CEP&gt;, país&lt;&gt;</p></td>
 </tr>
 </tbody>
 </table>
 
 
-Se você não preencher o banco de dados local e o **Local necessário** na Política de Localização está definido para **Sim** ou **Isenção de Responsabilidade**, o cliente solicitará que o usuário insira um local manualmente.
+Se você não preencher o banco de dados local e o **Local necessário **na Política de Localização está definido para **Sim ** ou **Isenção de Responsabilidade**, o cliente solicitará que o usuário insira um local manualmente.
 
 Para obter detalhes sobre como preencher o banco de dados de localização, consulte a documentação do Shell de gerenciamento do Lync Server para os seguintes cmdlets:
 
@@ -112,7 +112,7 @@ Para obter detalhes sobre como preencher o banco de dados de localização, cons
 
 ## <a name="to-add-network-elements-to-the-location-database"></a>Para adicionar elementos de rede no banco de dados de localização
 
-1.  Execute o seguinte cmdlet para adicionar um local de sub-rede ao banco de dados de localização.
+1.  Execute o seguinte cmdlet para adicionar um local de subrede ao banco de dados de localização.
     
         Set-CsLisSubnet -Subnet 157.56.66.0 -Description "Subnet 1" -Location Location1 -CompanyName "Litware" -HouseNumber 1234 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Redmond -State WA -PostalCode 99123 -Country US
     
@@ -120,7 +120,7 @@ Para obter detalhes sobre como preencher o banco de dados de localização, cons
     
         Set-CsLisSubnet -Subnet 157.56.66.0 -Description "Subnet 1" -Location Location1 -CompanyName 425-555-0100; 425-555-0200; 425-555-0300 -HouseNumber 1234 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Redmond -State WA -PostalCode 99123 -Country US
     
-    Alternativamente, é possível executar os cmdlets a seguir e usar um arquivo denominado "subnets.csv" para atualização em massa de locais de sub-rede.
+    Alternativamente, é possível executar os cmdlets a seguir e usar um arquivo denominado "subnets.csv" para atualização em massa de locais de subrede.
     
         $g = Import-Csv subnets.csv
         $g | Set-CsLisSubnet

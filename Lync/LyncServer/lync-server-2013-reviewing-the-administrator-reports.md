@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Revisando os Relatórios do Administrador'
+title: 'Lync Server 2013: revisando os relatórios do administrador'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541450
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ad04e03571f228fd83339dbc1c36be07d32f0962
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ffa9418b0b4ed2d9571a409faaad6948c9bbf01f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733021"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050333"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="reviewing-the-administrator-reports-in-lync-server-2013"></a>Revisando os Relatórios do Administrador no Lync Server 2013
+# <a name="reviewing-the-administrator-reports-in-lync-server-2013"></a>Revisando os relatórios do administrador no Lync Server 2013
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41733021"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-02-21_
+_**Última modificação do tópico:** 2013-02-21_
 
-Os Relatórios de Administrador são informações detalhadas para implantações e operações. Os relatórios são gerados com base nas seleções marcadas em **Criar Locais**. O designer pode adicionar mais valor aos Relatórios de Administrador editando os diagramas de rede e definindo os endereços IP completos e os FQDNs (nome de domínio totalmente qualificado) para servidores, pools e balanceadores de carga.
+Os Relatórios de Administrador são informações detalhadas para implantações e operações. Os relatórios são gerados com base nas seleções marcadas em **sites de design**. O designer pode adicionar mais valor aos Relatórios de Administrador editando os diagramas de rede, definindo os endereços IP completos e os FQDNs (nome de domínio totalmente qualificado) para servidores, pools e balanceadores de carga.
 
 <div>
 
 ## <a name="in-this-section"></a>Nesta seção
 
-  - [Revisando o relatório de resumo no Lync Server 2013](lync-server-2013-reviewing-the-summary-report.md)
+  - [Examinando o relatório de resumo no Lync Server 2013](lync-server-2013-reviewing-the-summary-report.md)
 
   - [Examinando o relatório de certificados no Lync Server 2013](lync-server-2013-reviewing-the-certificates-report.md)
 
-  - [Revisando o relatório do firewall no Lync Server 2013](lync-server-2013-reviewing-the-firewall-report.md)
+  - [Examinando o relatório de firewall no Lync Server 2013](lync-server-2013-reviewing-the-firewall-report.md)
 
-  - [Revisando o relatório DNS no Lync Server 2013](lync-server-2013-reviewing-the-dns-report.md)
+  - [Examinando o relatório de DNS no Lync Server 2013](lync-server-2013-reviewing-the-dns-report.md)
 
 </div>
 

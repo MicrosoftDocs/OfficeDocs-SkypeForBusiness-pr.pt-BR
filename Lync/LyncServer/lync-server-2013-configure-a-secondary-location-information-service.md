@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: configurar um serviço de informações de localização secundário'
+title: 'Lync Server 2013: configurar um serviço de informações de local secundário'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183334
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c2b7ee9383939e8df5466d615f6fda4a2af33c2b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 50d63d8316c9ce18bdf8677686a655046601b326
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741361"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048144"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-a-secondary-location-information-service-in-lync-server-2013"></a>Configurar um serviço de informações de localização secundário no Lync Server 2013
+# <a name="configure-a-secondary-location-information-service-in-lync-server-2013"></a>Configurar um serviço de informações de local secundário no Lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41741361"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-30_
+_**Última modificação do tópico:** 2012-10-30_
 
-O Lync Server 2013 fornece uma interface de serviço Web que você pode usar para apontar o serviço de informações de localização para um banco de dados de local secundário (SLS). A interface do serviço Web que se conecta ao banco de dados SLS deve estar de acordo com o WSDL do serviço de informações de localização. Se o banco de dados de localização e o banco de dados de local secundário estiverem configurados, o serviço informações de localização primeiro consultará o banco de dados de localização e, se nenhuma correspondência for encontrada, envia a solicitação de localização do cliente para o banco de dados SLS. Se o local existir no SLS, o serviço de informações de localização enviará o local de volta ao cliente.
+O Lync Server 2013 fornece uma interface de serviço Web que você pode usar para apontar o serviço de informações de local para um banco de dados de endereço de origem de local secundário (SLS). A interface de serviço Web que se conecta ao banco de dados de SLS deve estar de acordo com o serviço de informações de local WSDL. Se um banco de dados de local e um banco de dados de local secundário estiverem configurados, o serviço de informações de local consulta primeiro o banco de dados de local e, se nenhuma correspondência for encontrada, envia a solicitação de local do cliente para o banco de dados SLS. Se o local existir no SLS, o serviço de informações de local enviará o local de volta para o cliente.
 
 Para obter detalhes, consulte a documentação do Shell de gerenciamento do Lync Server para o seguinte cmdlet:
 
@@ -45,9 +45,9 @@ Para obter detalhes, consulte a documentação do Shell de gerenciamento do Lync
 
 <div>
 
-## <a name="to-configure-secondary-location-database"></a>Para configurar o banco de dados de localização secundário
+## <a name="to-configure-secondary-location-database"></a>Para configurar o banco de dados de localização secundária
 
-1.  Inicie o Shell de gerenciamento do Lync Server: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Shell de gerenciamento do Lync Server**.
+1.  Inicie o Shell de Gerenciamento do Lync Server: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Shell de Gerenciamento do Lync Server**.
 
 2.  Execute o cmdlet a seguir para configurar o URL para a localização do banco de dados de localização secundária.
     

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: detalhes do agendamento de reuniões'
+title: 'Lync Server 2013: detalhes de agendamento para reuniões'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183910
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a4a0f85e93588e725e825fee22a8c2e95b74095b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6537309f8c2a787c94897fa9f529c1abf8fd4791
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764949"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42047934"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="scheduling-details-for-meetings-in-lync-server-2013"></a>Detalhes de agendamento de reuniões no Lync Server 2013
+# <a name="scheduling-details-for-meetings-in-lync-server-2013"></a>Detalhes de agendamento para reuniões no Lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41764949"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-04_
+_**Última modificação do tópico:** 2012-10-04_
 
-Depois de fazer uma verificação para assegurar que nenhuma outra reunião esteja agendada na hora solicitada, a equipe de suporte a grandes reuniões, que lida com a solicitação, agenda a reunião no pool de grandes reuniões. Use o suplemento de reunião online para o Lync que está instalado com o cliente do Lync Server 2013 para executar essa tarefa, usando as credenciais de um usuário habilitado para o Lync Server no pool de reunião longa dedicada.
+Depois de fazer uma verificação para assegurar que nenhuma outra reunião esteja agendada na hora solicitada, a equipe de suporte a grandes reuniões, que lida com a solicitação, agenda a reunião no pool de grandes reuniões. Use o suplemento de reunião online para Lync que é instalado com o cliente do Lync Server 2013 para executar essa tarefa, usando as credenciais de um usuário habilitado para o Lync Server no pool dedicado de grandes reuniões.
 
 Para assegurar a melhor experiência do usuário, é importante agendar a grande reunião com os níveis de acesso corretos e as configurações da reunião que são apropriadas para as necessidades do organizador da reunião. Recomendamos as seguintes configurações de agendamento definidas nas opções de reunião do Lync:
 
@@ -45,20 +45,20 @@ Para assegurar a melhor experiência do usuário, é importante agendar a grande
 
   - Especifique os níveis de acesso à reunião conforme segue:
     
-      - Se pelo menos um convidado for externo à organização, defina o tipo de acesso à reunião para **qualquer pessoa (sem restrições**). Isso habilita você a evitar o gerenciamento de um possível grande lobby quando a reunião estiver em andamento.
+      - Se pelo menos um convidado for de fora da organização, defina o tipo de reunião como **Para qualquer pessoa (sem restrição)**. Isso permite que você evite ter que gerenciar um possível grande saguão quando a reunião estiver em andamento.
     
-      - Se a reunião for somente interna, defina o tipo de acesso à reunião como **Para qualquer pessoa da minha organização**.
+      - Se a reunião for somente interna, defina o tipo de acesso à reunião como **Para qualquer pessoa de minha organização**.
         
         <div>
         
 
         > [!NOTE]  
-        > Evite definir o tipo de acesso à reunião como <STRONG>Pessoas que eu convidar da minha empresa</STRONG>, pois, quando essa configuração é usada, os organizadores devem adicionar todos os endereços de email em uma lista de convidados e você não poderá convidar um grupo de distribuição.<BR>Evite definir o tipo de acesso à reunião como <STRONG>Apenas eu, o organizador da reunião</STRONG>, pois essa configuração exige que todos os participantes da reunião, inclusive os apresentadores, sejam colocados no lobby durante a reunião. A pessoa responsável pela execução da grande reunião deverá monitorar a escalação do lobby e aceitar os novos usuários que estiverem no lobby.
+        > Evite definir o tipo de acesso à reunião como <STRONG>Pessoas que eu convidar da minha empresa</STRONG>, pois quando essa configuração é usada, os organizadores devem adicionar os endereços de email de todos os usuários à lista de convidados e você não pode convidar um grupo de distribuição.<BR>Evite definir o tipo de acesso à reunião como <STRONG>Apenas eu, o organizador da reunião</STRONG>, pois esta configuração exige que todos os participantes da reunião, inclusive apresentadores, sejam colocados no saguão no tempo de execução da reunião. A pessoa responsável pela execução da grande reunião deverá monitorar a escalação do saguão e aceitar os novos usuários que estão no saguão.
 
         
         </div>
 
-  - Permita que usuários que ligam de telefones entrem na reunião automaticamente marcando a configuração **Chamadores entram diretamente**.
+  - Permita que usuários ligando de telefones entrem na reunião automaticamente marcando a configuração **Chamadores entram diretamente**.
 
   - Convide explicitamente os seguintes usuários:
     
@@ -85,7 +85,7 @@ Para assegurar a melhor experiência do usuário, é importante agendar a grande
     
 
     > [!NOTE]  
-    > Ao gerenciar explicitamente os apresentadores, você pode controlar o número de apresentadores, para que você possa limitar apresentadores a um número pequeno o suficiente para que seja possível ter uma reunião grande em vigor. Se a maioria dos participantes da reunião tiver a função de participante, serão reduzidas as chances de alguém acidentalmente assumir o controle da apresentação, excluir a apresentação do PowerPoint, ativar/desativar o áudio dos apresentadores e outras interrupções na reunião.
+    > Ao gerenciar explicitamente os apresentadores, é possível controlar o número de apresentadores para que você possa limitá-los a um número pequeno o suficiente para que seja possível conduzir uma grande reunião eficiente. Se a maioria dos participantes da reunião tiverem a função de participante, isso ajudará a reduzir as chances de alguém acidentalmente assumir o controle da apresentação, excluindo a apresentação do PowerPoint, ativando/desativando o áudio dos apresentadores e outras interrupções na reunião.
 
     
     </div>
@@ -94,7 +94,7 @@ Para assegurar a melhor experiência do usuário, é importante agendar a grande
 
   - Marque a configuração **Bloquear vídeo dos participantes** para assegurar que apenas os apresentadores possam transmitir vídeo para a reunião.
 
-A figura a seguir mostra as configurações recomendadas para o suplemento de reunião online do Lync.
+A figura a seguir mostra as configurações recomendadas para o suplemento de reunião online para Lync.
 
 ![54e4e70d-06b0-45cd-8d94-bab649cd5dc0](images/JJ204823.54e4e70d-06b0-45cd-8d94-bab649cd5dc0(OCS.15).jpg "54e4e70d-06b0-45cd-8d94-bab649cd5dc0")
 

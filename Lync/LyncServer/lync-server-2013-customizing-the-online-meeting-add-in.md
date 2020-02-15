@@ -12,20 +12,20 @@ ms:contentKeyID: 48183424
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f2a9fb05c3f1777722d1a6f7aaa49f1bb00baeff
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 94624d4c301d6715b1435ab26132668a8d7efd93
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728741"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048512"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="customizing-the-online-meeting-add-in-in-lync-server-2013"></a>Personalizando o suplemento de reunião online no Lync Server 2013
+# <a name="customizing-the-online-meeting-add-in-in-lync-server-2013"></a>Personalizando o suplemento reunião online no Lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41728741"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-06-28_
+_**Última modificação do tópico:** 2012-06-28_
 
-O suplemento reunião online do Lync 2013 oferece suporte ao gerenciamento de reuniões de dentro do cliente de mensagens e colaboração do Outlook. Há várias maneiras de personalizar o comportamento do suplemento. Entre elas há novas opções para adicionar logotipos e texto ao corpo de convites para reunião online.
+O suplemento reunião online do Lync 2013 oferece suporte ao gerenciamento de reuniões de dentro do cliente de mensagens e colaboração do Outlook. Existem várias formas de personalizar o comportamento do suplemento. Entre estas, novas opções para adicionar logotipos e texto ao corpo de convites de reuniões online.
 
 <div>
 
@@ -45,7 +45,7 @@ O suplemento reunião online do Lync 2013 oferece suporte ao gerenciamento de re
 
   - [Atualizando a lista de habilitação do Outlook no Lync Server 2013](lync-server-2013-updating-the-outlook-enable-list.md)
 
-  - [Configurando o convite da reunião no Lync Server 2013](lync-server-2013-configuring-the-meeting-invitation.md)
+  - [Configurando o convite de reunião no Lync Server 2013](lync-server-2013-configuring-the-meeting-invitation.md)
 
 </div>
 

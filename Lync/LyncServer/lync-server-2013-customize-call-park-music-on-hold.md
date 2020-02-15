@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: personalizar a chamada de música do parque em espera'
+title: 'Lync Server 2013: personalizar o estacionamento de chamada música em espera'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733621
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 301625a36d23c69d02dfdcde8c4985def53630af
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: feebc353b48b3a6b8f9adb17c08ab9af778bb1ac
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728751"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42047528"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="customize-call-park-music-on-hold-in-lync-server-2013"></a>Personalizar a chamada de música do parque em espera no Lync Server 2013
+# <a name="customize-call-park-music-on-hold-in-lync-server-2013"></a>Personalizar o estacionamento de chamada música em espera no Lync Server 2013
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41728751"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-10_
+_**Última modificação do tópico:** 2012-09-10_
 
 Você pode especificar seu próprio arquivo de música para usar para música em espera, em vez do arquivo de música padrão que acompanha o Lync Server 2013. Para personalizar música em espera, utilize o cmdlet **Set-CsCallParkServiceMusicOnHoldFile**.
 
@@ -43,7 +43,7 @@ Você pode especificar seu próprio arquivo de música para usar para música em
 
 
 > [!NOTE]  
-> Se você personalizar música em espera e quiser a mesma música para vários sites, deve configurar o arquivo de música para cada site que executa o aplicativo de estacionamento de chamadas.
+> Se você personalizar a música em espera e quiser a mesma música para vários sites, deverá configurar o arquivo de música para cada site que executa o aplicativo de estacionamento de chamada.
 
 
 
@@ -53,11 +53,11 @@ Você pode especificar seu próprio arquivo de música para usar para música em
 
 ## <a name="to-customize-the-music-file"></a>Para personalizar o arquivo de música
 
-1.  Faça logon no computador em que o Shell de gerenciamento do Lync Server está instalado como membro do grupo RTCUniversalServerAdmins ou com os direitos de usuário necessários, conforme descrito em [permissões de configuração de representante no Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
+1.  Faça logon no computador onde o Shell de gerenciamento do Lync Server está instalado como um membro do grupo RTCUniversalServerAdmins ou com os direitos de usuário necessários, conforme descrito em [delegar permissões de configuração no Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
 
-2.  Inicie o Shell de gerenciamento do Lync Server: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Shell de gerenciamento do Lync Server**.
+2.  Inicie o Shell de Gerenciamento do Lync Server: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Shell de Gerenciamento do Lync Server**.
 
-3.  Execute:
+3.  Sejam
     
         Set-CsCallParkServiceMusicOnHoldFile -Service <ServiceID where the Call Park application resides> -Content <Byte[]>
     

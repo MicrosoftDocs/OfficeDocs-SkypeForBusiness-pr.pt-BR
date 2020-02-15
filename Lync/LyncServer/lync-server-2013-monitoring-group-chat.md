@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: monitorando o chat em grupo'
+title: 'Lync Server 2013: Monitoring Group Chat'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 63969648
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fa350924503f430ec0494cc5e1eb17f7878084a1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: cb82eedd9d9578aeb4120136c1896267cde35392
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756845"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051133"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="monitoring-group-chat-in-lync-server-2013"></a>Monitorar o chat em grupo no Lync Server 2013
+# <a name="monitoring-group-chat-in-lync-server-2013"></a>Monitorando o chat do grupo no Lync Server 2013
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41756845"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2014-08-04_
+_**Última modificação do tópico:** 2014-08-04_
 
-É altamente recomendável executar o [instalador de atualização cumulativa do servidor](http://support.microsoft.com/kb/968802) mais recente disponível no centro de download da Microsoft para melhorar o desempenho.
+É altamente recomendável executar o [instalador de atualização cumulativa](http://support.microsoft.com/kb/968802) mais recente do servidor disponível no centro de download da Microsoft para melhorar o desempenho.
 
-Pressupondo que você esteja executando a atualização cumulativa mais recente, use a seguinte tabela de teste de stress para métricas a fim de compreender se seus servidores de chat em grupo estão sendo executados na integridade ideal.
+Supondo que você esteja executando a atualização cumulativa mais recente, use a seguinte tabela de teste de estresse para métricas para entender se seus servidores de chat de grupo estão sendo executados na integridade ideal.
 
 ### <a name="test-environment-and-user-model"></a>Ambiente de teste e modelo de usuário
 
@@ -54,36 +54,36 @@ Pressupondo que você esteja executando a atualização cumulativa mais recente,
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Três servidores de chat em grupo em um pool de chat em grupo, cada um com 8 GB de memória e 8 processadores.</p></td>
+<td><p>Três servidores de chat de grupo em um pool de chat de grupo, cada um com 8 GB de memória e 8 processadores.</p></td>
 </tr>
 <tr class="even">
-<td><p>Duas front-ends do Lync Server 2013 na Enterprise Edition.</p></td>
+<td><p>Dois front-ends do Lync Server 2013 na Enterprise Edition.</p></td>
 </tr>
 <tr class="odd">
-<td><p>60.000 usuários simultâneos em três servidores de chat em grupo.</p></td>
+<td><p>60.000 usuários simultâneos em três servidores de chat de grupo.</p></td>
 </tr>
 <tr class="even">
-<td><p>25.000 canais hospedados pelo pool de chat em grupo.</p></td>
+<td><p>25.000 canais hospedados pelo pool de chat de grupo.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Tamanho do canal:</p>
 <ul>
 <li><p>Tamanho do canal pequeno: 30</p></li>
 <li><p>Tamanho médio do canal: 150</p></li>
-<li><p>Tamanho do canal grande: 2500</p></li>
+<li><p>Tamanho de canal grande: 2500</p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>Contagem de canais:</p>
+<td><p>Contagem de canal:</p>
 <ul>
-<li><p>Número pequeno de canais: 24.000</p></li>
-<li><p>Número médio de canais médio 800</p></li>
-<li><p>Número maior de canais 24</p></li>
+<li><p>Números pequenos de canais: 24.000</p></li>
+<li><p>Número de canais médios de 800</p></li>
+<li><p>Número grande de canais 24</p></li>
 <li><p>Total de canais 24.824</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p>Convidar canais:</p>
+<td><p>Canais de convite:</p>
 <ul>
 <li><p>Metade dos canais eram convidados canais</p></li>
 </ul></td>
@@ -92,26 +92,26 @@ Pressupondo que você esteja executando a atualização cumulativa mais recente,
 <td><p>Número de canais que um usuário ingressa:</p>
 <ul>
 <li><p>Pequeno: 12</p></li>
-<li><p>Média: 2</p></li>
+<li><p>Médio: 2</p></li>
 <li><p>Grande: 1</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td><p>Taxa de junção:</p>
 <ul>
-<li><p>10 total/segundo, 3,33/segundo por servidor</p></li>
+<li><p>10 no total/segundo, 3,33/segundo por servidor</p></li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><p>Taxa de logout:</p>
 <ul>
-<li><p>10 total/segundo, 3,33/segundo por servidor</p></li>
+<li><p>10 no total/segundo, 3,33/segundo por servidor</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p>Tarifa de chat:</p>
+<td><p>Taxa de chat:</p>
 <ul>
-<li><p>20 totais/segundo, 6.66/segundo por servidor</p></li>
+<li><p>20 no total/segundo, 6.66/segundo por servidor</p></li>
 </ul></td>
 </tr>
 </tbody>
@@ -122,7 +122,7 @@ Pressupondo que você esteja executando a atualização cumulativa mais recente,
 
 
 > [!IMPORTANT]  
-> Os seguintes números de contador de desempenho provavelmente variam quando são usadas diferentes especificações de hardware ou perfis de usuário.
+> Os seguintes números de contadores de desempenho provavelmente variam quando especificações de hardware ou perfis de usuário diferentes são usados.
 
 
 
@@ -137,7 +137,7 @@ Pressupondo que você esteja executando a atualização cumulativa mais recente,
 </colgroup>
 <thead>
 <tr class="header">
-<th>Contador de desempenho</th>
+<th>Contador de Desempenho</th>
 <th>Limites</th>
 </tr>
 </thead>

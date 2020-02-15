@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Recursos obrigatórios para Servidor de Chat Persistente'
+title: 'Lync Server 2013: recursos necessários para o servidor de chat persistente'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185255
 ms.date: 02/05/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 31683641e50a3e3bc898841b0cf4b0911e046262
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9917e6eca4780ec415d2750a8e36d06946130137
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41723821"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046814"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="required-resources-for-persistent-chat-server-in-lync-server-2013"></a>Recursos obrigatórios para Servidor de Chat Persistente no Lync Server 2013
+# <a name="required-resources-for-persistent-chat-server-in-lync-server-2013"></a>Recursos necessários para o servidor de chat persistente no Lync Server 2013
 
 </div>
 
@@ -35,49 +35,49 @@ ms.locfileid: "41723821"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2016-02-05_
+_**Última modificação do tópico:** 2016-02-05_
 
-A alta disponibilidade e a recuperação de desastres para o servidor de chat persistente exigem recursos adicionais além do que normalmente é necessário para operação completa. Antes de configurar o servidor de chat persistente para alta disponibilidade e recuperação de desastres, certifique-se de ter os seguintes recursos, além do que é necessário para a operação de servidor de chat persistente padrão. Para obter informações de configuração adicionais, consulte [Configurando o servidor de chat persistente no Lync Server 2013](lync-server-2013-configuring-persistent-chat-server.md).
+Alta disponibilidade e recuperação de desastre para servidor de chat persistente requer recursos adicionais além do que normalmente é necessário para operação completa. Antes de configurar o servidor de chat persistente para alta disponibilidade e recuperação de desastre, verifique se você tem os seguintes recursos além do que é necessário para a operação padrão de servidor de chat persistente. Para obter informações adicionais sobre a configuração, consulte [Configuring persistent chat Server in Lync Server 2013](lync-server-2013-configuring-persistent-chat-server.md).
 
-  - Uma instância de banco de dados dedicada localizada no mesmo Data Center físico no qual o front-end de página inicial do serviço de servidor de chat persistente está localizado. Esse banco de dados funcionará como o espelho do SQL Server para o banco de dados de chat persistente principal. Opcionalmente, designe um SQL Server adicional para atuar como a testemunha de espelhamento se desejar um failover automatizado para o banco de dados espelho.
+  - Uma instância de banco de dados dedicada localizada no mesmo Data Center físico no qual o front-end do serviço servidor de chat persistente está localizado. Este banco de dados funcionará como o espelho do SQL Server para o banco de dados de chat persistente principal. Opcionalmente, designe um SQL Server adicional para servir como testemunha de espelhamento, se você quiser um failover automatizado para o banco de dados espelho.
 
-  - Uma instância de banco de dados dedicada localizada no outro data center físico. Este banco de dados funcionará como o banco de dados secundário de envio de logs do SQL Server para o banco de dados no centro de dados principal.
+  - Uma instância de banco de dados dedicada localizada no outro data Center físico. Este banco de dados servirá como banco de dados secundário de envio de logs do SQL Server para o banco de dados no data center primário.
 
-  - Uma instância de banco de dados dedicada para servir como o espelho do SQL Server para o banco de dados secundário. Opcionalmente, designe um SQL Server adicional para o servidor como testemunha de espelhamento. Ambos devem estar localizados no mesmo data center físico que o banco de dados secundário.
+  - Uma instância de banco de dados dedicada para servir como o espelho do SQL Server para o banco de dados secundário. Opcionalmente, designe um servidor SQL adicional para o servidor como testemunha de espelhamento. Ambos devem estar localizado no mesmo data Center físico que o banco de dados secundário.
 
-  - Se a conformidade com o servidor de chat persistente estiver habilitada, serão necessárias outras três instâncias de banco de dados dedicados. Sua distribuição é a mesma que a que foi descrita anteriormente para o banco de dados de chat persistente. Embora seja possível que o banco de dados de conformidade compartilhe a mesma instância do SQL Server que o banco de dados de chat persistente, recomendamos instâncias autônomas para alta disponibilidade e recuperação de desastres.
+  - Se a conformidade do servidor de chat persistente estiver habilitada, serão necessárias mais três instâncias de banco de dados dedicadas. Suas distribuições são as mesmas descritas anteriormente para o banco de dados de chat persistente. Embora seja possível que o banco de dados de conformidade compartilhe a mesma instância do SQL Server que o banco de dados de chat persistente, recomendamos instâncias autônomas para alta disponibilidade e recuperação de desastre.
 
-  - Um compartilhamento de arquivos deve ser criado e designado para os logs de transação de envio de logs do SQL Server. Todos os SQL Servers nos dois data centers que executam bancos de dados de chat persistente devem ter acesso de leitura/gravação a este compartilhamento de arquivos. Esse compartilhamento não está definido como parte de uma função FileStore.
+  - Um compartilhamento de arquivos deve ser criado e designado para os logs de transação de envio de logs do SQL Server. Todos os SQL Servers em ambos os data centers que executam bancos de dados de chat persistente devem ter acesso de leitura/gravação a esse compartilhamento de arquivos. Este compartilhamento não está definido como parte de uma função FileStore.
 
-  - Um compartilhamento de arquivo no servidor de banco de dados secundário para atuar como a pasta de destino dos logs de transação do SQL Server que são copiados do compartilhamento de arquivos do servidor primário.
+  - Um compartilhamento de arquivos no servidor de banco de dados secundário para servir como a pasta de destino dos logs de transação do SQL Server que são copiados do compartilhamento de arquivos do servidor primário.
 
 <div>
 
 
 > [!NOTE]  
-> Os servidores de chat ativos persistentes em um pool de servidores de chat persistente devem residir no mesmo fuso horário do pool de Lync do próximo salto definido na topologia.
+> Os servidores de chat persistente ativos em um pool de servidores de chat persistente devem residir no mesmo fuso horário que o pool de Lync do próximo salto definido na topologia.
 
 
 
 </div>
 
-Os números a seguir fornecem exemplos sobre como o pool de servidores de chat inteiro persistente pode ser configurado nas duas topologias diferentes de pool estendidos:
+Os seguintes números fornecem exemplos sobre como o pool de servidor de chat persistente inteiro pode ser configurado em duas topologias de pool estendidas diferentes:
 
-  - Pool de servidores de chat persistentes ampliados quando os data centers estão localizados geográficos com alta largura de banda/baixa latência.
+  - Pool de servidor de chat persistente ampliado quando os data centers estão geo-localizados com alta largura de banda/baixa latência.
 
-  - Pool de servidores de chat persistentes ampliados quando os centros de dados estiverem localizados na região de baixa largura de banda/alta latência.
+  - Pool de servidor de chat persistente ampliado quando os data centers estão geo-localizados com baixa largura de banda/alta latência.
 
-A figura a seguir mostra uma topologia de pool de servidores de chat persistente com Stretch em que os data centers são localizados geográficos com alta largura de banda/baixa latência.
+A figura a seguir mostra uma topologia de pool de servidor de chat persistente estendido onde os data centers estão localizados geograficamente com alta largura de banda/baixa latência.
 
-**Pool de servidores de chat persistentes ampliados quando os data centers estão localizados geográficos com alta largura de banda/baixa latência.**
+**Pool de servidor de chat persistente ampliado quando os data centers estão geo-localizados com alta largura de banda/baixa latência.**
 
-![Exame de configuração HBW do pool do servidor de chat persistente](images/JJ205211.55d10910-c824-41e6-bed2-08d13a2abd65(OCS.15).jpg "Exame de configuração HBW do pool do servidor de chat persistente")
+![Exame de configuração do pool do servidor de chat persistente HBW](images/JJ205211.55d10910-c824-41e6-bed2-08d13a2abd65(OCS.15).jpg "Exame de configuração do pool do servidor de chat persistente HBW")
 
-A figura a seguir mostra uma topologia de pool de servidores de chat persistente com Stretch em que os data centers são localizados geográficos com largura de banda baixa/alta latência.
+A figura a seguir mostra uma topologia de pool de servidor de chat persistente estendido onde os data centers estão localizados geograficamente com baixa largura de banda/alta latência.
 
-**Pool de servidores de chat persistentes ampliados quando os centros de dados estiverem localizados na região de baixa largura de banda/alta latência.**
+**Pool de servidor de chat persistente ampliado quando os data centers estão geo-localizados com baixa largura de banda/alta latência.**
 
-![Exame de configuração LBW do pool do servidor de chat persistente](images/JJ205211.586b0a3a-3767-4991-944f-ee54389512aa(OCS.15).jpg "Exame de configuração LBW do pool do servidor de chat persistente")
+![Exame de configuração do pool do servidor de chat persistente LBW](images/JJ205211.586b0a3a-3767-4991-944f-ee54389512aa(OCS.15).jpg "Exame de configuração do pool do servidor de chat persistente LBW")
 
 </div>
 

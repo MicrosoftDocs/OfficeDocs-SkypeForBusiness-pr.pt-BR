@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Tabela Users'
+title: 'Lync Server 2013: tabela Users'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185032
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c2be643f8a593af01ee47ad93d3910d44ee86e48
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 67663afbd9e5b61b1b24478e003db91c5be511e3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744321"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046054"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41744321"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-28_
+_**Última modificação do tópico:** 2012-09-28_
 
-A tabela usuários é uma tabela de suporte. Cada registro na tabela armazena informações sobre um usuário envolvido em chamadas ou sessões que têm registros no banco de dados.
+A tabela Users é uma tabela de suporte. Cada registro da tabela armazena informações sobre um usuário envolvido em chamadas ou sessões que têm registros no banco de dados.
 
 
 <table>
@@ -63,28 +63,28 @@ A tabela usuários é uma tabela de suporte. Cada registro na tabela armazena in
 <td><p>Carimbo de data/hora para uso interno.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>ID</strong></p></td>
+<td><p><strong>UserId</strong></p></td>
 <td><p>int</p></td>
-<td><p>Primária</p></td>
-<td><p>Número exclusivo que identifica esse usuário.</p></td>
+<td><p>Primário</p></td>
+<td><p>Número exclusivo identificando este usuário.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>UserUri</strong></p></td>
 <td><p>nvarchar (450)</p></td>
 <td><p> </p></td>
-<td><p>URI de usuário.</p></td>
+<td><p>URI do Usuário.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Tenantid</strong></p></td>
+<td><p><strong>TenantId</strong></p></td>
 <td><p>int</p></td>
-<td><p>Exterior</p></td>
-<td><p>A ID de locatário deste usuário. Consulte a <a href="lync-server-2013-tenants-table.md">tabela locatários no Lync Server 2013</a> para obter mais informações.</p></td>
+<td><p>Estrangeira</p></td>
+<td><p>A ID de locatário do usuário. Consulte a <a href="lync-server-2013-tenants-table.md">tabela locatários no Lync Server 2013</a> para obter mais informações.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>UriTypeId</strong></p></td>
 <td><p>int</p></td>
-<td><p>Exterior</p></td>
-<td><p>O tipo de URI deste usuário. Consulte a <a href="lync-server-2013-uritypes-table.md">tabela UriTypes no Lync Server 2013</a> para obter mais informações.</p></td>
+<td><p>Estrangeira</p></td>
+<td><p>Este tipo de URI do usuário. Consulte a <a href="lync-server-2013-uritypes-table.md">tabela UriTypes no Lync Server 2013</a> para obter mais informações.</p></td>
 </tr>
 </tbody>
 </table>

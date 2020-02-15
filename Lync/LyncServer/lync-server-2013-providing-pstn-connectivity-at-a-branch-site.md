@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Fornecendo conectividade de PSTN ao site da filial'
+title: 'Lync Server 2013: fornecendo conectividade PSTN em um site de filial'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185633
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5dfc039b0b1cd2995d0a658f1c1c78e0941d405d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a9fe25fc10da3ffc27b882b7d41aac0ad97677f1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724771"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049543"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="providing-pstn-connectivity-at-a-branch-site-in-lync-server-2013"></a>Fornecendo conectividade de PSTN ao site da filial no Lync Server 2013
+# <a name="providing-pstn-connectivity-at-a-branch-site-in-lync-server-2013"></a>Fornecendo conectividade PSTN em um site de filial no Lync Server 2013
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41724771"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-05_
+_**Última modificação do tópico:** 2012-10-05_
 
-Recomendamos usar o Microsoft Lync Server 2013, a ferramenta de planejamento para adicionar sites de filiais à sua topologia e para configurar sua infraestrutura de voz em sites de filiais.
+Recomendamos usar a ferramenta de planejamento do Microsoft Lync Server 2013 para adicionar sites de filial à sua topologia e configurar sua infraestrutura de voz em sites de filial.
 
-Se você não estiver usando a ferramenta de planejamento, use os procedimentos nos tópicos desta seção — primeiro, para adicionar os sites de ramificação e, em seguida, para configurar sua infraestrutura de voz definindo o gateway PSTN (rede telefônica comutada de IP/pública) e/ou configurando o tronco SIP (com ou sem bypass de mídia). Conectar um PBX (Private Branch Exchange) ao site da filial é outra opção.
+Se você não estiver usando a ferramenta de planejamento, use os procedimentos nos tópicos desta seção para adicionar os sites de filial e, em seguida, para configurar sua infraestrutura de voz, definindo o gateway PSTN (rede telefônica pública comutada) e/ou configurando o tronco SIP (com ou sem o bypass de mídia). Conectar um PBX ao site de filial é outra opção.
 
 <div>
 
 
 > [!NOTE]  
-> Se você quiser fornecer resiliência em filiais, você deve implantar um aparelho de ramificação sobreviventes, um servidor de ramificação sobreviventes ou um servidor Standard Edition no site da filial. Para obter detalhes, consulte <A href="lync-server-2013-deploying-a-survivable-branch-appliance-or-server.md">implantando um servidor ou um aplicativo de ramificação sobreviventes com o Lync server 2013</A> ou <A href="lync-server-2013-deploying-lync-server.md">implantando o Lync Server 2013</A>, conforme apropriado, na documentação de implantação.
+> Se quiser fornecer resiliência de site de filial, você deve implantar um aparelho de filial persistente, um servidor de filial persistente ou um servidor Standard Edition no site de filial. Para obter detalhes, consulte <A href="lync-server-2013-deploying-a-survivable-branch-appliance-or-server.md">implantando um servidor ou aparelho de filial persistente com o Lync server 2013</A> ou <A href="lync-server-2013-deploying-lync-server.md">implantando o Lync Server 2013</A>, conforme apropriado, na documentação de implantação.
 
 
 
@@ -55,11 +55,11 @@ Se você não estiver usando a ferramenta de planejamento, use os procedimentos 
 
 ## <a name="in-this-section"></a>Nesta seção
 
-  - [Adicionar sites de filial a sua topologia no Lync Server 2013](lync-server-2013-add-branch-sites-to-your-topology.md)
+  - [Adicionar sites de filial à sua topologia no Lync Server 2013](lync-server-2013-add-branch-sites-to-your-topology.md)
 
-  - [Definir um gateway de PSTN para um site de filial no Lync Server 2013](lync-server-2013-define-a-pstn-gateway-for-a-branch-site.md)
+  - [Definir um gateway PSTN para um site de filial no Lync Server 2013](lync-server-2013-define-a-pstn-gateway-for-a-branch-site.md)
 
-  - [Configure a trunk with media bypass in Lync Server 2013](lync-server-2013-configure-a-trunk-with-media-bypass.md)
+  - [Configurar um tronco com bypass de mídia no Lync Server 2013](lync-server-2013-configure-a-trunk-with-media-bypass.md)
 
   - [Configurar um tronco sem bypass de mídia no Lync Server 2013](lync-server-2013-configure-a-trunk-without-media-bypass.md)
 
@@ -71,7 +71,7 @@ Se você não estiver usando a ferramenta de planejamento, use os procedimentos 
 
 
 [Planejamento de bypass de mídia no Lync Server 2013](lync-server-2013-planning-for-media-bypass.md)  
-[Planejando a conectividade PSTN no Lync Server 2013](lync-server-2013-planning-for-pstn-connectivity.md)  
+[Planejamento da conectividade PSTN no Lync Server 2013](lync-server-2013-planning-for-pstn-connectivity.md)  
   
 
 </div>

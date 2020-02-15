@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Tabela Conferences'
+title: 'Lync Server 2013: tabela de conferências'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185340
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0c5464d3161a52a31fddb1322c82181d6e7a97fe
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 218879c8e2c64178fc140d46199529f86ec7dc31
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756395"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049052"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="conferences-table-in-lync-server-2013"></a>Tabela Conferences no Lync Server 2013
+# <a name="conferences-table-in-lync-server-2013"></a>Tabela de conferências no Lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41756395"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-28_
+_**Última modificação do tópico:** 2012-09-28_
 
-Cada registro desta tabela contém detalhes da chamada sobre uma conferência.
+Cada registro desta tabela contém os detalhes da chamada de uma conferência.
 
 
 <table>
@@ -57,28 +57,28 @@ Cada registro desta tabela contém detalhes da chamada sobre uma conferência.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Id_da_sessãotime</strong></p></td>
+<td><p><strong>Identificação_da_sessãotime</strong></p></td>
 <td><p>datetime</p></td>
-<td><p>Primária</p></td>
-<td><p>Hora em que a solicitação de conferência foi capturada pelo agente de CDR. Usado apenas como uma chave primária para identificar uma instância de conferência de forma exclusiva.</p></td>
+<td><p>Primário</p></td>
+<td><p>Hora em que a solicitação de conferência foi capturada pelo agente CDR. Usado apenas como uma chave primária para identificar exclusivamente uma instância de conferência.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SessionIdSeq</strong></p></td>
 <td><p>int</p></td>
-<td><p>Primária</p></td>
-<td><p>Número de identificação para identificar a sessão. Usado em conjunto com a <strong>identificação_da_sessãotime</strong> para identificar exclusivamente uma instância de conferência. *</p></td>
+<td><p>Primário</p></td>
+<td><p>O número de ID para identificar a sessão. Usado em conjunto com a <strong>identificação_da_sessãotime</strong> para identificar exclusivamente uma instância de conferência. *</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ConferenceUriId</strong></p></td>
 <td><p>int</p></td>
-<td><p>Exterior</p></td>
-<td><p>URL da conferência. Consulte a <a href="lync-server-2013-conferenceuris-table.md">tabela ConferenceUris no Lync Server 2013</a> para obter mais informações.</p></td>
+<td><p>Estrangeira</p></td>
+<td><p>URI da conferência. Consulte a <a href="lync-server-2013-conferenceuris-table.md">tabela ConferenceUris no Lync Server 2013</a> para obter mais informações.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ConfInstance</strong></p></td>
 <td><p>identificador</p></td>
 <td><p> </p></td>
-<td><p>Útil para conferências recorrentes; cada instância de uma conferência recorrente tem o mesmo <strong>ConferenceUri</strong>, mas terá um <strong>ConfInstance</strong>diferente.</p></td>
+<td><p>Útil para conferências recorrentes; cada instância de uma conferência recorrente tem o mesmo <strong>conferenceui</strong>, mas terá um <strong>ConfInstance</strong>diferente.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ConferenceStartTime</strong></p></td>
@@ -95,17 +95,17 @@ Cada registro desta tabela contém detalhes da chamada sobre uma conferência.
 <tr class="odd">
 <td><p><strong>Poolid</strong></p></td>
 <td><p>int</p></td>
-<td><p>Exterior</p></td>
-<td><p>Número de identificação para identificar o pool no qual a conferência foi capturada. Consulte a <a href="lync-server-2013-pools-table.md">tabela de grupos no Lync Server 2013</a> para obter mais informações.</p></td>
+<td><p>Estrangeira</p></td>
+<td><p>Número de identificação para identificar o pool no qual a conferência foi capturada. Consulte a <a href="lync-server-2013-pools-table.md">tabela pools no Lync Server 2013</a> para obter mais informações.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>OrganizerId</strong></p></td>
-<td><p>Núm</p></td>
-<td><p>Exterior</p></td>
-<td><p>Número de identificação para identificar o URI do organizador dessa conferência. Consulte a <a href="lync-server-2013-users-table.md">tabela usuários no Lync Server 2013</a> para obter mais informações.</p></td>
+<td><p>Int</p></td>
+<td><p>Estrangeira</p></td>
+<td><p>Número de identificação para identificar o URI do organizador desta conferência. Consulte a <a href="lync-server-2013-users-table.md">tabela Users no Lync Server 2013</a> para obter mais informações.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Sinalizador</strong></p></td>
+<td><p><strong>Flag</strong></p></td>
 <td><p>smallint</p></td>
 <td></td>
 <td><p>Uma máscara de bits que contém atributos de conferência. Os valores possíveis são:</p>
@@ -116,17 +116,17 @@ Cada registro desta tabela contém detalhes da chamada sobre uma conferência.
 </ul></td>
 </tr>
 <tr class="even">
-<td><p><strong>Processe</strong></p></td>
-<td><p>bit</p></td>
+<td><p><strong>Processa</strong></p></td>
+<td><p>bits</p></td>
 <td></td>
 <td><p>Campo interno usado pelo serviço de monitoramento.</p>
-<p>Este campo foi apresentado no Microsoft Lync Server 2013.</p></td>
+<p>Este campo foi introduzido no Microsoft Lync Server 2013.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-\*Para a maioria das sessões, o SessionIdSeq terá o valor de 1. Se duas sessões começarem exatamente ao mesmo tempo, o SessionIdSeq de uma será 1 e, para a outra, será 2 e assim por diante.
+\*Para a maioria das sessões, SessionIdSeq terá o valor 1. Se duas sessões começarem exatamente ao mesmo tempo, o SessionIdSeq de um será 1 e o outro será 2 e assim por diante.
 
 </div>
 

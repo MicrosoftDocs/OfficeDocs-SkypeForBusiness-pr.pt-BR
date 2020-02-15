@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Implantar tipos de endereço IP em um Servidor Front-End Server'
+title: 'Lync Server 2013: implantar tipos de endereço IP em um servidor front-end'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185193
 ms.date: 07/28/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f70ff3098f11cbb3d3b04602dca9c12a4998a367
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 84fae6ceef3bbc9d49bbc3afcb4236c4f8ba8bfb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763323"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049743"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deploy-ip-address-types-on-a-front-end-server-for-lync-server-2013"></a>Implantar tipos de endereço IP em um Servidor Front-End Server para Lync Server 2013
+# <a name="deploy-ip-address-types-on-a-front-end-server-for-lync-server-2013"></a>Implantar tipos de endereço IP em um servidor front-end para o Lync Server 2013
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41763323"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2016-07-28_
+_**Última modificação do tópico:** 2016-07-28_
 
-Usando o construtor de topologias, execute as etapas do procedimento a seguir para implantar tipos de endereços IP em um servidor front-end.
+Usando o construtor de topologias, execute as etapas no procedimento a seguir para implantar tipos de endereço IP em um servidor front-end.
 
 <div>
 
-## <a name="to-deploy-ip-address-types-on-a-front-end-server"></a>Implantar tipos de endereço IP em um Servidor Front-End
+## <a name="to-deploy-ip-address-types-on-a-front-end-server"></a>Implantar tipos de endereço IP em um Servidor front-end
 
-1.  Em **Pools de Front-Ends do Enterprise Edition**, clique com o botão direito em um servidor de um pool e selecione **Editar propriedades**. (Como alternativa, selecione o servidor e clique em **Editar propriedades** no menu **Ação**).
+1.  Em **Pools de front-end do Enterprise Edition**, clique com o botão direito em um servidor de um pool e selecione **Editar propriedades**. (Como alternativa, selecione o servidor e clique em **Editar propriedades** no menu **Ação**).
 
 2.  Na caixa de diálogo **Editar propriedades**, selecione o tipo de endereço IP que você deseja configurar. Para uma configuração de pilha dual, selecione **Habilitar IPv4** e **Habilitar IPv6**, como mostrado na seguinte imagem.
     
     **Editar a caixa de diálogo Propriedades do pool do servidor front-end**
     
-    ![Caixa de diálogo Propriedades de edição do servidor front-end](images/JJ205191.737a9d71-c0bc-4a54-9608-9e028dacc814(OCS.15).png "Caixa de diálogo Propriedades de edição do servidor front-end")
+    ![Caixa de diálogo Editar propriedades do servidor front-end](images/JJ205191.737a9d71-c0bc-4a54-9608-9e028dacc814(OCS.15).png "Caixa de diálogo Editar propriedades do servidor front-end")
     
       - **Usar todos os endereços IP configurados**. Selecione esta opção se você deseja permitir qualquer endereço IP definido no computador que será usado.
         
@@ -66,7 +66,7 @@ Usando o construtor de topologias, execute as etapas do procedimento a seguir pa
     
       - **Endereço IP principal**. Insira um endereço IP que o servidor usará para todas as comunicações exceto a PSTN (Rede telefônica pública comutada). O endereço IP inserido deve corresponder ao formato do tipo de endereço selecionado.
     
-      - **Endereço IP da PSTN**. A instalação de placas de interface de rede (NIC) adicionais para dar suporte à configuração de endereço IP PSTN para o Lync Server 2013 não é suportada nas funções do servidor de mediação posicionado. Para obter mais informações sobre as configurações da NIC com suporte para o Lync Server 2013, consulte [plataformas de hardware do servidor para o Lync server 2013](lync-server-2013-server-hardware-platforms.md).
+      - **Endereço IP da PSTN**. A instalação de placas de interface de rede adicionais (NIC) s para suportar a configuração de endereço IP PSTN para Lync Server 2013 não é suportada em funções de servidor de mediação posicionadas. Para obter mais informações sobre configurações de NIC compatíveis com o Lync Server 2013, consulte [Server Hardware Platforms for Lync server 2013](lync-server-2013-server-hardware-platforms.md).
 
 </div>
 

@@ -12,16 +12,16 @@ ms:contentKeyID: 63969580
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f8c4b827cf2b82eb315ec166bcabb2452e7d8bdc
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e96edf9fe2fefb54e608ee6840cfb2717c92d136
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732381"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048992"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41732381"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2014-08-18_
+_**Última modificação do tópico:** 2014-08-18_
 
-O SLA é um documento que define os serviços que seu cliente espera. A complexidade e o conteúdo deste documento dependem principalmente se os clientes são internos (dentro do seu ambiente) ou externos.
+O SLA é um documento que define os serviços que seu cliente espera de você. A complexidade e o conteúdo deste documento dependem muito do fato de os clientes estarem internos (dentro do seu ambiente) ou externos.
 
 <div>
 
 ## <a name="external-customers"></a>Clientes externos
 
-Se o seu cliente for externo, o SLA poderá fazer parte de um contrato legal com incentivos financeiros e penalidades para o desempenho que está dentro ou fora dos níveis definidos de serviço. A definição desses níveis de serviço deve fazer parte da negociação geral do contrato.
+Se o cliente for externo, o SLA poderá fazer parte de um contrato legal com incentivos financeiros e penalidades de desempenho que se enquadram dentro ou fora dos níveis definidos de serviço. A definição desses níveis de serviço deve fazer parte da negociação de contrato geral.
 
-Como em todos os contratos, é importante que ambas as partes compreendam as expectativas. O SLA define essas expectativas. O conteúdo do documento deve ser alterado com pouca frequência e apenas por meio de negociações com o cliente.
+Assim como ocorre com todos os contratos, é importante que ambas as partes entendam as expectativas. O SLA define essas expectativas. O conteúdo do documento deve ser alterado sem frequência e apenas por causa de negociações com o cliente.
 
 </div>
 
@@ -53,7 +53,7 @@ Como em todos os contratos, é importante que ambas as partes compreendam as exp
 
 ## <a name="internal-customers"></a>Clientes internos
 
-Se o seu cliente for interno, você ainda poderá definir os serviços que são esperados das equipes de operações e dos sistemas de ti. O SLA pode ser criado pela equipe de operações e tem como objetivo um conjunto de metas para a disponibilidade de serviços de ti dentro da sua organização. Ou os níveis de desempenho podem ser definidos pelo gerenciamento e usados como benchmarks ao avaliar o desempenho da equipe.
+Se o seu cliente for interno, talvez você ainda queira definir os serviços que são esperados das equipes de operações e dos sistemas de ti. O SLA pode ser criado pela equipe de operações e destinado como um conjunto de metas para a disponibilidade de serviços de ti dentro da sua organização. Ou, os níveis de desempenho podem ser definidos pelo gerenciamento e usados como benchmarks ao avaliar o desempenho da equipe.
 
 </div>
 
@@ -63,11 +63,11 @@ Se o seu cliente for interno, você ainda poderá definir os serviços que são 
 
 Os SLAs incluem seções que definem critérios de níveis mínimos de disponibilidade, suporte e capacidade.
 
-  - **Disponibilidade**   defina as horas e os sistemas operacionais nos quais os sites e outros serviços do Lync estarão disponíveis. Qualquer manutenção de rotina que afete a disponibilidade do serviço deve ser definida. Defina fatores externos que afetam o serviço, por exemplo, a perda de conectividade com a Internet.
+  - **Disponibilidade**   define as horas e os sistemas operacionais nos quais os sites e outros serviços do Lync estarão disponíveis. Qualquer manutenção de rotina que afete a disponibilidade do serviço deve ser definida. Definir fatores externos que afetam o serviço, por exemplo, a perda da conectividade com a Internet.
 
-  - **Suporte**   defina as horas em que o suporte a um sistema estará disponível. Especifique métodos para os clientes entrarem em contato com a equipe de suporte, como os incidentes são agrupados e o tempo de destino para responder e resolver o incidente. Defina a frequência e o conteúdo do comentário para o cliente.
+  - **O suporte**   define as horas em que o suporte a um sistema estará disponível. Especifique os métodos para os clientes entrarem em contato com a equipe de suporte, como os incidentes são agrupados e o tempo de destino para responder e resolver o incidente. Definir a frequência e o conteúdo de comentários para o cliente.
 
-  - **A capacidade**   define o tamanho máximo habilitado de sites do Lync e as etapas a serem seguidas se o limite for excedido. Defina o tempo máximo permitido para executar tarefas padrão, como o tempo para recuperar um documento de uma biblioteca de documentos. Defina o número máximo de usuários por pool do Lync e concorde com um processo para aumentar a capacidade se mais usuários forem adicionados.
+  - **A capacidade**   define o tamanho máximo habilitado dos sites do Lync e as etapas a serem executadas se o limite for excedido. Defina o tempo máximo permitido para executar tarefas padrão, como o horário para recuperar um documento de uma biblioteca de documentos. Defina o número máximo de usuários por pool do Lync e concorde com um processo para aumentar a capacidade se mais usuários forem adicionados.
 
 </div>
 

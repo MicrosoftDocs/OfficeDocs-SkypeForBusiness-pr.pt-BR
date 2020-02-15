@@ -12,16 +12,16 @@ ms:contentKeyID: 48185828
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 196911f4fdcb7f2713ed25cca114ff9954b0c6e2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c535dc860c5d1a8725d27217e8269c3d6c4902d2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764207"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049243"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41764207"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-12_
+_**Última modificação do tópico:** 2012-09-12_
 
-tblComplianceFanout contém todos os servidores que processaram um evento de conformidade.
+A tabela tblComplianceFanout contém todos os servidores que processaram um evento de conformidade.
 
 ### <a name="columns"></a>Colunas
 
@@ -63,7 +63,7 @@ tblComplianceFanout contém todos os servidores que processaram um evento de con
 <tr class="even">
 <td><p>fanoutServerID</p></td>
 <td><p>int</p></td>
-<td><p>Identidade do servidor (correspondente à tabela tblServerIdentity. ServerId).</p></td>
+<td><p>Identidade do servidor (correspondente à tabela tblServerIdentity.serverID).</p></td>
 </tr>
 </tbody>
 </table>
@@ -85,7 +85,7 @@ tblComplianceFanout contém todos os servidores que processaram um evento de con
 <tbody>
 <tr class="odd">
 <td><p>fanoutEventID</p></td>
-<td><p>Chave estrangeira com Lookup na tabela tblComplianceData. cmplEventID.</p></td>
+<td><p>Chave estrangeira com pesquisa na tabela tblComplianceData.cmplEventID.</p></td>
 </tr>
 </tbody>
 </table>

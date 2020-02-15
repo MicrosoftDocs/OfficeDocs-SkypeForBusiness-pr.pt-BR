@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Configurando um local de backup'
+title: 'Lync Server 2013: configurar um local de backup'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541440
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 723bcbc2aeaae5264645d824a9b10a939b6770ab
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e5b47a866b4ce1a731d282c78e09c1afb3c91af7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764627"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046594"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="setting-up-a-backup-location-for-lync-server-2013"></a>Configurar um local de backup para o Lync Server 2013
+# <a name="setting-up-a-backup-location-for-lync-server-2013"></a>Configurando um local de backup para o Lync Server 2013
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41764627"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-02-17_
+_**Última modificação do tópico:** 2013-02-17_
 
-Antes de fazer o primeiro backup do Lync Server, configure o hardware e o software necessários para armazenar e manter os backups. Você precisa obter acesso à mídia e ao conteúdo, conforme apropriado, e fornecer conectividade de rede entre cada servidor para fazer backup e a mídia de backup. A mídia e o local que você usa devem ser definidos na estratégia de backup e restauração. O local que você usa para fazer backups regulares pode ser local ou remoto, mas ele deve ser seguro e deve estar acessível para backup e restauração. Recomendamos usar um local remoto para se proteger contra um evento catastrófico em seu local principal.
+Antes de fazer o primeiro backup do Lync Server, configure o hardware e o software necessários para armazenar e manter os backups. Você deve obter acesso à mídia e conteúdo, conforme apropriado, e fornecer conectividade de rede entre cada servidor para backup e a mídia de backup. A mídia e o local que você usa devem ser definidos em sua estratégia de backup e restauração. O local usado para backups regulares pode ser local ou remoto, mas deve ser seguro e deve estar acessível para backup e restauração. Recomendamos o uso de um local remoto para proteger contra um evento catastrófico em seu local principal.
 
-Depois de configurar e testar os componentes individuais, verifique a acessibilidade aos backups de cada servidor.
+Após configurar e testar os componentes individuais, verifique a acessibilidade aos backups a partir de cada servidor.
 
 </div>
 

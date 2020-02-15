@@ -12,16 +12,16 @@ ms:contentKeyID: 48184879
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: acb7e01086ac423380a913b75391ec3086ee3736
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e60757721a9244a55e7ce341be6834934108858a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764859"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050693"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41764859"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-01_
+_**Última modificação do tópico:** 2012-10-01_
 
-O relatório de desempenho do servidor fornece uma lista de servidores do Microsoft Lync Server 2013 que tiveram o maior percentual de chamadas ruins. O relatório divide os servidores por tipo, relatando estatísticas separadas para os seguintes tipos:
+O relatório de desempenho do servidor fornece uma lista de servidores do Microsoft Lync Server 2013 que experimentaram a maior porcentagem de chamadas ruins. O relatório divide os servidores por tipo, relatando estatísticas separadas para os seguintes tipos:
 
   - Servidor de Mediação
 
   - Servidor de Conferência A/V
 
-  - Servidor de Borda A/V
+  - Servidor de borda A/V
 
   - Gateway (Servidor de Mediação)
 
@@ -59,7 +59,7 @@ O relatório de desempenho do servidor fornece uma lista de servidores do Micros
 
 ## <a name="accessing-the-server-performance-report"></a>Como avaliar o Relatório de desempenho do servidor
 
-O Relatório de desempenho do servidor é acessado na página inicial dos Relatórios de Monitoramento. Você pode fazer uma busca detalhada no [relatório de lista de chamadas no Lync Server 2013](lync-server-2013-call-list-report.md) clicando em uma das seguintes métricas:
+O Relatório de desempenho do servidor é acessado a partir da página inicial dos Relatórios de Monitoramento. Você pode fazer uma busca detalhada no [relatório de lista de chamadas no Lync Server 2013](lync-server-2013-call-list-report.md) clicando em uma das seguintes métricas:
 
   - Volume da chamada
 
@@ -67,13 +67,13 @@ O Relatório de desempenho do servidor é acessado na página inicial dos Relat�
 
 Além disso, você ver os detalhes do Relatório de Tendência de Qualidade de Mídia do Servidor clicando na seguinte métrica:
 
-  - Tendência
+  - Trend
 
 </div>
 
 <div>
 
-## <a name="making-the-best-use-of-the-server-performance-report"></a>Como aproveitar ao máximo o relatório de desempenho do servidor
+## <a name="making-the-best-use-of-the-server-performance-report"></a>Como usar melhor o Relatório de desempenho do servidor
 
 O Relatório de desempenho do servidor fornece várias maneiras de filtrar dados; por exemplo, você pode filtrar por tipo de rede (chamadas feitas de uma chamada cabeada x chamadas de uma conexão sem fio) e tipo de acesso (chamadas feitas de dentro do firewall x chamadas feitas de fora do firewall). Ao exibir o relatório de desempenho do servidor, é uma boa ideia usar esses filtros. Por exemplo, suponha que você tem um Servidor de Mediação que tenha uma porcentagem de chamadas ruins igual a 3,24%. Se você observar apenas as chamadas sem fio, o mesmo servidor teria uma porcentagem de chamadas ruins próxima de 20%. Isso significa que o servidor tem dificuldades com chamadas sem fio, um problema que é obscurecido parcialmente porque o servidor não tem problemas em lidar com chamadas com fio.
 
@@ -103,29 +103,29 @@ A tabela a seguir lista os filtros que podem ser usados com o Relatório de Dese
 <tbody>
 <tr class="odd">
 <td><p><strong>De</strong></p></td>
-<td><p>Data/hora de início para o intervalo de tempo. Para ver os dados por horas, insira a data e hora de início conforme segue:</p>
-<p>7/7/2012 1:00 PM</p>
-<p>Se você não inserir a hora de início, o relatório começará automaticamente à meia-noite do dia especificado. Para ver os dados por dia, insira somente a data:</p>
+<td><p>Data/hora inicial para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora inicial como a seguir:</p>
+<p>7/7/2012 13:00 horas</p>
+<p>Se você não inserir uma hora inicial, o relatório começa automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:</p>
 <p>7/7/2012</p>
-<p>Para exibir por semana ou mês, insira uma data dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):</p>
+<p>Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):</p>
 <p>7/3/2012</p>
-<p>As semanas sempre vão de domingo a sábado.</p></td>
+<p>As semanas são sempre de domingo a sábado.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Até</strong></p></td>
-<td><p>Data/hora final de intervalo de tempo. Para ver os dados por horas, insira a data e hora final conforme segue:</p>
-<p>7/7/2012 1:00 PM</p>
-<p>Se você não inserir a hora final, o relatório terminará automaticamente à meia-noite do dia especificado. Para ver os dados por dia, insira somente a data:</p>
+<td><p><strong>To</strong></p></td>
+<td><p>Data/hora final para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora final como a seguir:</p>
+<p>7/7/2012 13:00 horas</p>
+<p>Se você não inserir uma hora final, o relatório termina automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:</p>
 <p>7/7/2012</p>
-<p>Para exibir por semana ou mês, insira uma data dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):</p>
+<p>Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):</p>
 <p>7/3/2012</p>
 <p>As semanas sempre vão de domingo a sábado.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Tipo de servidor</strong></p></td>
+<td><p><strong>Tipo de Servidor</strong></p></td>
 <td><p>Indica o tipo de servidor cujo desempenho deve ser reportado. Selecione um dos seguintes:</p>
 <ol>
-<li><p>[Todos]</p></li>
+<li><p>Todos os</p></li>
 <li><p>Servidor de Mediação</p></li>
 <li><p>Servidor de Conferência A/V</p></li>
 <li><p>Servidor de Borda A/V</p></li>
@@ -135,36 +135,36 @@ A tabela a seguir lista os filtros que podem ser usados com o Relatório de Dese
 <td><p><strong>N Primeiros</strong></p></td>
 <td><p>Indica o número de servidores (com base no percentual de chamadas ruins) a serem exibidos em cada categoria. Por exemplo, se você selecionar <strong>5</strong>, os cinco servidores com pior desempenho são exibidos. Selecione uma das seguintes opções:</p>
 <ol>
-<li><p>[Todos]</p></li>
-<li><p>5</p></li>
-<li><p>254</p></li>
+<li><p>Todos os</p></li>
+<li><p>5 </p></li>
+<li><p>10 </p></li>
 </ol></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Tipo de acesso</strong></p></td>
 <td><p>Indica se um cliente estava conectado na rede interna ou na rede externa quando a chamada foi realizada. Selecione um dos seguintes:</p>
 <ol>
-<li><p>[Todos]</p></li>
-<li><p>Interno</p></li>
-<li><p>Externo</p></li>
+<li><p>Todos os</p></li>
+<li><p>Interna</p></li>
+<li><p>Externa</p></li>
 </ol></td>
 </tr>
 <tr class="even">
 <td><p><strong>Tipo de rede</strong></p></td>
 <td><p>Indica o tipo de rede que o cliente estava conectado quando a chamada foi realizada. Selecione um dos seguintes:</p>
 <ol>
-<li><p>[Todos]</p></li>
+<li><p>Todos os</p></li>
 <li><p>Com fio</p></li>
-<li><p>Sem fio</p></li>
+<li><p>Conexão</p></li>
 </ol></td>
 </tr>
 <tr class="odd">
 <td><p><strong>VPN</strong></p></td>
 <td><p>Indica se um cliente externo estava usando uma conexão de rede privada virtual (VPN) quando a chamada foi realizada. Selecione um dos seguintes:</p>
 <ol>
-<li><p>[Todos]</p></li>
+<li><p>Todos os</p></li>
 <li><p>VPN</p></li>
-<li><p>Não-VPN</p></li>
+<li><p>Não VPN</p></li>
 </ol></td>
 </tr>
 </tbody>
@@ -201,36 +201,36 @@ A tabela a seguir lista as informações fornecidas no Relatório de Desempenho 
 <td><p>Nome/endereço IP do servidor.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Volume da chamada</strong></p></td>
+<td><p><strong>Volume de chamadas</strong></p></td>
 <td><p>Não</p></td>
 <td><p>Número total de chamadas realizadas.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Porcentagem de chamada inválida</strong></p></td>
+<td><p><strong>Percentual de chamadas ruins</strong></p></td>
 <td><p>Não</p></td>
 <td><p>Número total de chamadas classificadas como ruins. Uma chamada ruim é qualquer chamada em que no mínimo uma das métricas medidas excedeu o valor permitido (por exemplo, uma chamada com tremulação excessiva).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Viagem de ida e volta (ms)</strong></p></td>
 <td><p>Sim</p></td>
-<td><p>Quantidade média de (em milissegundos) exigida para que um pacote RTP (protocolo de transporte em tempo real) viaje até outra extremidade e retorne. Tempos de viagem de ida e volta de 100 milissegundos ou menos são considerados de qualidade aceitável.</p>
+<td><p>Quantidade média (em milissegundos) necessária para um pacote de protocolo de transporte em tempo real (RTP) viajar para outro ponto de extremidade e voltar. Tempos de resposta de 100 milissegundos ou menos são considerados de qualidade aceitável.</p>
 <p>Altos valores de tempo de resposta podem ser causados por roteamento de chamadas internacionais, configuração incorreta de um roteamento ou um servidor de mídia sobrecarregado. Tempos de resposta altos resultam em dificuldades para conversas de áudio bidirecionais e em tempo real.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Degradação (MOS)</strong></p></td>
 <td><p>Sim</p></td>
-<td><p>Quantidade média da degradação MOS (pontuação média de opinião) enfrentada durante uma chamada. Os valores de degradação variam de um baixo de 0,0 a um alto de 5,0. Um valor de 0,5 ou menos representa degradação aceitável. As pontuações médias de opinião costumava ser calculadas a partir da classificação da qualidade de uma chamada em uma escala de 1 a 5, feita pelos dos usuários. No Lync Server, o Monitoring Server usa um conjunto de algoritmos para prever como os usuários teriam classificado uma chamada.</p>
+<td><p>Quantidade média da degradação MOS enfrentada durante uma chamada. Os valores de degradação variam de um baixo de 0,0 a um alto de 5,0. Um valor de 0,5 ou menos representa degradação aceitável. Historicamente, pontuações de opções médias foram calculadas com usuários classificando a qualidade de uma chamada em uma escala de 1 a 5. No Lync Server, o Monitoring Server usa um conjunto de algoritmos para prever como os usuários teriam classificado uma chamada.</p>
 <p>Os valores de degradação altos podem ser causados por congestão, falta de largura de banda, congestionamento ou interferência sem fio ou um servidor de mídia ou ponto de extremidade sobrecarregado. A alta degradação resulta em perda ou distorção de áudio.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Perda de pacote</strong></p></td>
+<td><p><strong>Perda de pacote </strong></p></td>
 <td><p>Sim</p></td>
 <td><p>Taxa média de perda de pacotes de protocolo de transporte em tempo real (RTP) (a perda de pacotes ocorre quando pacotes RTP, um protocolo usado para transmitir áudio e vídeo pela internet, falha ao tentar alcançar seu destino). Altas taxas de perda geralmente são causadas por congestionamento, insuficiência da largura de banda, congestionamento ou interferência na rede sem fio ou um servidor de mídia sobrecarregado. A perda de pacotes normalmente resulta em distorção ou perda de áudio.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Tremulação (ms)</strong></p></td>
 <td><p>Sim</p></td>
-<td><p>Tremulação média detectada entre chegadas de pacote RTP. (Tremulação é uma medida do &quot;shakiness&quot; de uma chamada.) Os valores de variação alta geralmente são causados por congestionamento ou um servidor de mídia sobrecarregado, resultando em áudio distorcido ou perdido.</p></td>
+<td><p>Tremulação média detectada entre chegadas de pacote RTP. (Tremulação é uma medida do &quot;tremula&quot; de uma chamada.) Os valores de variação alta geralmente são causados por congestionamento ou por um servidor de mídia sobrecarregado e resultam em um áudio distorcido ou perdido.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Taxa de correção oculta</strong></p></td>
@@ -245,7 +245,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Desempenho 
 <tr class="even">
 <td><p><strong>Taxa de correção compactada</strong></p></td>
 <td><p>Sim</p></td>
-<td><p>Taxa média de amostras de áudio compactadas para o número total de amostras. (Áudio compactado é o áudio que foi compactado para ajudar a manter a qualidade da chamada quando um pacote de rede descartado é detectado.) Valores altos podem indicar níveis consideráveis de compactação de amostra causada por tremulação e resultam em um som acelerado ou distorcido.</p></td>
+<td><p>Taxa média de amostras de áudio compactadas para o número total de amostras (áudio compactado é o áudio que foi comprimido para ajudar a manter a qualidade da chamada quando um pacote de rede ignorado foi detectado). Altos valores indicam níveis significativos de compressão de amostras causados por tremulação, o que resulta em áudio acelerado ou distorcido.</p></td>
 </tr>
 </tbody>
 </table>
@@ -262,13 +262,13 @@ A tabela a seguir lista as informações fornecidas no Relatório de Desempenho 
 <thead>
 <tr class="header">
 <th>Nome</th>
-<th>Você pode classificar este item?</th>
+<th>É possível classificar este item?</th>
 <th>Descrição</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Tipo de chamada/Tipo de ponto de extremidade</strong></p></td>
+<td><p><strong>Tipo de Chamada/Tipo de Ponto de Extremidade</strong></p></td>
 <td><p>Não</p></td>
 <td><p>Ao clicar neste item, o relatório mostra informações detalhadas sobre chamadas baseadas no tipo escolhido. Tipos de chamada incluem:</p>
 <ul>
@@ -287,7 +287,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Desempenho 
 <td><p>Número total de chamadas por tipo de chamada.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Porcentagem de chamada inválida</strong></p></td>
+<td><p><strong>Percentual de chamadas ruins</strong></p></td>
 <td><p>Não</p></td>
 <td><p>Número total de chamadas classificadas como ruins. Uma chamada ruim é qualquer chamada em que no mínimo uma das métricas medidas excedeu o valor permitido (por exemplo, uma chamada com tremulação excessiva).</p></td>
 </tr>
@@ -312,7 +312,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Desempenho 
 <td><p>Taxa de bits média (em quilobytes por segundo).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Taxa de bits baixa %</strong></p></td>
+<td><p><strong>% de taxa de bits baixa</strong></p></td>
 <td><p>Não</p></td>
 <td><p>Porcentagem da chamada onde a taxa de bits foi baixa.</p></td>
 </tr>
@@ -361,13 +361,13 @@ A tabela a seguir lista as informações fornecidas no Relatório de Desempenho 
 <thead>
 <tr class="header">
 <th>Nome</th>
-<th>Você pode classificar este item?</th>
+<th>É possível classificar este item?</th>
 <th>Descrição</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Tipo de chamada/Tipo de ponto de extremidade</strong></p></td>
+<td><p><strong>Tipo de Chamada/Tipo de Ponto de Extremidade</strong></p></td>
 <td><p>Não</p></td>
 <td><p>Ao clicar neste item, o relatório mostra informações detalhadas sobre chamadas baseadas no tipo escolhido. Tipos de chamada incluem:</p>
 <ul>
@@ -386,7 +386,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Desempenho 
 <td><p>Número total de chamadas por tipo de chamada.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Porcentagem de chamada inválida</strong></p></td>
+<td><p><strong>Percentual de chamadas ruins</strong></p></td>
 <td><p>Não</p></td>
 <td><p>Número total de chamadas classificadas como ruins. Uma chamada ruim é qualquer chamada em que no mínimo uma das métricas medidas excedeu o valor permitido (por exemplo, uma chamada com tremulação excessiva).</p></td>
 </tr>
@@ -408,7 +408,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Desempenho 
 <tr class="odd">
 <td><p><strong>Tremulação (ms)</strong></p></td>
 <td><p>Não</p></td>
-<td><p>Tremulação média detectada entre chegadas de pacote RTP. (Tremulação é uma medida do &quot;shakiness&quot; de uma chamada.) Os valores de variação alta geralmente são causados por congestionamento ou um servidor de mídia sobrecarregado, resultando em áudio distorcido ou perdido.</p></td>
+<td><p>Tremulação média detectada entre chegadas de pacote RTP. (Tremulação é uma medida do &quot;tremula&quot; de uma chamada.) Os valores de variação alta geralmente são causados por congestionamento ou por um servidor de mídia sobrecarregado e resultam em um áudio distorcido ou perdido.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Unidirecional relativo médio</strong></p></td>

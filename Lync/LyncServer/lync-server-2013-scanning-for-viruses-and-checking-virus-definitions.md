@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: verificando vírus e verificando definições de vírus'
+title: 'Lync Server 2013: verificação de vírus e verificação de definições de vírus'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 63969589
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fb36ec86c5e9d30e6a215a89748a02e5ef355b73
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1825b96cc4ef2c0c71e04b369f1cf116b8070eb4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732641"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049593"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="scanning-for-viruses-and-checking-virus-definitions-in-lync-server-2013"></a>Procurando vírus e verificando definições de vírus no Lync Server 2013
+# <a name="scanning-for-viruses-and-checking-virus-definitions-in-lync-server-2013"></a>Verificação de vírus e verificação de definições de vírus no Lync Server 2013
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41732641"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2014-05-01_
+_**Última modificação do tópico:** 2014-05-01_
 
-É altamente recomendável instalar um produto antivírus de nível de mensagem instantânea. As mensagens instantâneas são uma fonte bem conhecida para a disseminação rápida de vírus e software mal-intencionado em toda a organização. O Microsoft Forefront® Security para Lync Server oferece verificação de vários mecanismos com vírus, software mal-intencionado, proteção de filtro de arquivo e de palavra-chave e integração perfeita com o Office Communications Server.
+É altamente recomendável instalar um produto antivírus de nível de IM. O IM é uma fonte conhecida para espalhar rapidamente os softwares de vírus e mal-intencionados por toda a organização. O Microsoft Forefront® Security para Lync Server oferece verificação de vários mecanismos com vírus, software mal-intencionado, proteção de filtro de arquivo e palavra-chave e integração perfeita com o Office Communications Server.
 
 Além do Forefront Security para Lync Server, também é altamente recomendável instalar uma solução de nível de arquivo e antivírus para proteger o sistema de arquivos do servidor.
 
-Manter os mecanismos do scanner e as definições de vírus atualizados é muito importante. A configuração e o monitoramento da integridade das atualizações garante que as informações de verificação mais recentes sejam usadas para proteger o Office Communications Server e o sistema de arquivos.
+Manter os mecanismos de scanner e as definições de vírus atualizados é muito importante. A configuração e o monitoramento da integridade das atualizações garantem que as informações de verificação mais recentes estejam sendo usadas para proteger o Office Communications Server e o sistema de arquivos.
 
 <div>
 
 
 > [!IMPORTANT]  
-> Ao usar um software antivírus de terceiros em nível de arquivo em um servidor que executa o Lync Server 2013 e o Forefront Security para Lync Server, certifique-se de que as pastas nas quais o Forefront Security para Lync Server e o Lync Server estejam instalados não sejam verificadas, para evitar seus danos. Para obter a lista completa de exclusões, consulte <A class=uri href="http://support.microsoft.com/kb/943620">http://support.microsoft.com/kb/943620</A>.
+> Ao usar um software antivírus de terceiro nível de arquivo em um servidor que executa o Lync Server 2013 e o Forefront Security para Lync Server, certifique-se de que as pastas nas quais o Forefront Security para Lync Server e o Lync Server estão instaladas não sejam verificadas, para evitar sua corrupção. Para obter a lista completa de exclusões, consulte <A class=uri href="http://support.microsoft.com/kb/943620">http://support.microsoft.com/kb/943620</A>.
 
 
 

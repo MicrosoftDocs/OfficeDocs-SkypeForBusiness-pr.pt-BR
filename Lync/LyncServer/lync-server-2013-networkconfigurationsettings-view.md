@@ -12,16 +12,16 @@ ms:contentKeyID: 49733591
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2cd85ae37b317368a1d79ed46fd3752b6a475bd5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 28ca71086b888a522869e2b273299a73df5e9cc8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765862"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050533"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41765862"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-03_
+_**Última modificação do tópico:** 2012-10-03_
 
-A exibição NetworkConfigurationSettings armazena informações sobre a configuração de rede. Este modo de exibição foi apresentado no Microsoft Lync Server 2013.
+A Exibição NetworkConfigurationSettings armazena informações sobre a configuração de Rede. Este modo de exibição foi introduzido no Microsoft Lync Server 2013.
 
 
 <table>
@@ -57,12 +57,12 @@ A exibição NetworkConfigurationSettings armazena informações sobre a configu
 <tr class="odd">
 <td><p>SubnetIP</p></td>
 <td><p>int</p></td>
-<td><p>Endereço IP de sub-rede (somente endereços IPv4 têm suporte).</p></td>
+<td><p>Endereço IP da subrede (apenas endereços IPv4 são suportados).</p></td>
 </tr>
 <tr class="even">
 <td><p>Usersitename</p></td>
 <td><p>nvarchar(128</p></td>
-<td><p>Nome do site do usuário.</p></td>
+<td><p>Nome do local do usuário.</p></td>
 </tr>
 <tr class="odd">
 <td><p>RegionName</p></td>

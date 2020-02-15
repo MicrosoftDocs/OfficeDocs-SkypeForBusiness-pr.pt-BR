@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Implantando Arquivamento'
+title: 'Lync Server 2013: Implantando arquivamento'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185031
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 86b1394df9bb52502e1e0c605bedb05a0579042e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 436870bd932a0cf92168555d298bf81aff1de667
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729579"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42047645"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deploying-archiving-in-lync-server-2013"></a>Implantando Arquivamento no Lync Server 2013
+# <a name="deploying-archiving-in-lync-server-2013"></a>Implantando o arquivamento no Lync Server 2013
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41729579"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-28_
+_**Última modificação do tópico:** 2012-09-28_
 
-O Lync Server 2013 fornece uma solução para o arquivamento de comunicações de mensagens instantâneas (IM) e comunicações de conferência no Lync Server. Você pode implementar o suporte para arquivamento integrando o armazenamento de arquivamento com o armazenamento do Exchange 2013, usando bancos de dados do SQL Server para armazenamento de dados de arquivamento do Lync Server 2013 ou usando o Lync Server 2013 e o armazenamento do Exchange 2013. Você controla como os dados são arquivados usando políticas e configurações de arquivamento. Para obter detalhes, consulte [planejando o arquivamento no Lync server 2013](lync-server-2013-planning-for-archiving.md) na documentação de planejamento e [como o arquivamento funciona no Lync Server 2013](lync-server-2013-how-archiving-works.md) na documentação de planejamento, documentação de implantação ou documentação de operações.
+O Lync Server 2013 oferece uma solução para o arquivamento de comunicações de mensagens instantâneas e de conferência no Lync Server. Você pode implementar o suporte ao arquivamento integrando o armazenamento de arquivamento com o armazenamento do Exchange 2013, usando os bancos de dados do SQL Server para armazenamento de dados de arquivamento do Lync Server 2013 ou usando o armazenamento do Lync Server 2013 e do Exchange 2013. Você controla como os dados são arquivados usando configurações de política e arquivamento. Para obter detalhes, consulte [Planning for Archiving in Lync server 2013](lync-server-2013-planning-for-archiving.md) na documentação de planejamento e [como o arquivamento funciona no Lync Server 2013](lync-server-2013-how-archiving-works.md) na documentação de planejamento, documentação de implantação ou operações.
 
-Você pode usar as informações desta seção para configurar e configurar o arquivamento inicialmente. Após a implantação, você pode alterar as configurações de arquivamento. Para obter detalhes sobre como implementar o suporte para arquivamento do gerenciamento do dia-a-dia ou atender aos novos requisitos em sua organização, consulte [Gerenciando o arquivamento do Lync Server 2013](lync-server-2013-managing-archiving.md) na documentação de operações.
+Você pode usar as informações nesta seção para definir e configurar  inicialmente o Arquivamento. Após a implantação, você pode alterar as configurações de Arquivamento. Para obter detalhes sobre como implementar o suporte de arquivamento para o gerenciamento de dia-a-dia ou para atender aos novos requisitos em sua organização, consulte [Managing Lync Server 2013 Archiving](lync-server-2013-managing-archiving.md) na documentação operações.
 
 <div>
 
@@ -47,13 +47,13 @@ Você pode usar as informações desta seção para configurar e configurar o ar
 
   - [Como o arquivamento funciona no Lync Server 2013](lync-server-2013-how-archiving-works.md)
 
-  - [Lista de verificação da implantação para Arquivamento no Lync Server 2013](lync-server-2013-deployment-checklist-for-archiving.md)
+  - [Lista de verificação de implantação para arquivamento no Lync Server 2013](lync-server-2013-deployment-checklist-for-archiving.md)
 
   - [Configurando sistemas e infraestrutura para arquivamento no Lync Server 2013](lync-server-2013-setting-up-systems-and-infrastructure-for-archiving.md)
 
-  - [Adicionar bancos de dados de arquivamento a uma implantação existente do Lync Server 2013](lync-server-2013-adding-archiving-databases-to-an-existing-lync-server-2013-deployment.md)
+  - [Adicionando bancos de dados de arquivamento a uma implantação existente do Lync Server 2013](lync-server-2013-adding-archiving-databases-to-an-existing-lync-server-2013-deployment.md)
 
-  - [Configurando o suporte para o arquivamento no Lync Server 2013](lync-server-2013-configuring-support-for-archiving.md)
+  - [Configurando o suporte para arquivamento no Lync Server 2013](lync-server-2013-configuring-support-for-archiving.md)
 
 </div>
 
