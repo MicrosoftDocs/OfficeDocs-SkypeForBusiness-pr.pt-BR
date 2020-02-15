@@ -17,12 +17,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ea50a504aa43c9df333a077c7f866a487f544a04
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 0fd871f36c2261dd5ec243dbd8dbdd52a3a8e694
+ms.sourcegitcommit: 93a8bd330c9a8ced81cd3eafb7b7236e9ed2066f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41833451"
+ms.lasthandoff: 02/13/2020
+ms.locfileid: "41962080"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Limites e especificações para o Microsoft Teams
 
@@ -42,12 +42,15 @@ Este artigo descreve alguns dos limites, das especificações e de outros requis
 |Número de equipes que um locatário de Office 365 pode ter    | 500.000&sup2;     |
 |Número de canais por equipe    | 200 (inclui canais excluídos)&sup3;         |
 |Número de canais privados por equipe    |30|
+|Tamanho da postagem de conversa do canal | Aproximadamente 28 KB pela postagem <sup>4</sup> |
 
 &sup1; Qualquer objeto de diretório no Azure Active Directory conta para este limite. Os administradores globais estão isentos desse limite, assim como os aplicativos que chamam o Microsoft Graph usando as [permissões de aplicativo](https://docs.microsoft.com/graph/permissions-reference).
 
 &sup2; Esse limite inclui equipes arquivadas.
 
 &sup3; Os canais excluídos podem ser restaurados de 30 dias. Durante esses 30 dias, um canal excluído continua a ser contado no limite de 200 canais por equipe. Depois de 30 dias, um canal e seu conteúdo excluídos serão permanentemente excluídos e o canal deixará de contar com o limite de 200 canais por equipe.
+
+<sup>4</sup> 28 KB é um limite aproximado porque inclui a própria mensagem (texto, links de imagens, etc.), @-menções, número de conectores e reações.
 
 ## <a name="messaging"></a>Mensagens
 
@@ -61,10 +64,13 @@ O bate-papo do Teams funciona em um back-end do Microsoft Exchange, para que os 
 |---------|---------|
 |Número de pessoas em um bate-papo particular <sup>1</sup>  | 100    |
 |Número de anexos de arquivo<sup>2</sup>  |10     |
+|Tamanho do chat | Aproximadamente 28 KB pela postagem <sup>3</sup> |
 
 <sup>1</sup> Se você tiver mais de 20 pessoais em um bate-papo, os seguintes recursos do bate-papo serão desabilitados: respostas automáticas do Outlook e mensagens de status do Teams; indicador de digitação; chamadas de áudio e vídeo; compartilhamento; confirmação de leitura.
 
 <sup>2</sup> Se o número de anexos exceder esse limite, você verá uma mensagem de erro.
+
+<sup>3</sup> 28 KB é um limite aproximado porque inclui a própria mensagem (texto, links de imagens, etc.), @-menções e reações.
 
 ### <a name="emailing-a-channel"></a>Enviar um email para um canal
 
