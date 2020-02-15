@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Serviço Web de Atualização de Dispositivo'
+title: 'Lync Server 2013: serviço Web de atualização de dispositivo'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51803921
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8c2c9f7068943deabb90e5a87d95f35fecfbc30c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7213513657720cc08057cbf2d54d425b5d2a96f4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762369"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044863"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="device-update-web-service-in-lync-server-2013"></a><span data-ttu-id="8ca11-102">Serviço Web de Atualização de Dispositivo no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8ca11-102">Device Update Web service in Lync Server 2013</span></span>
+# <a name="device-update-web-service-in-lync-server-2013"></a><span data-ttu-id="f0824-102">Serviço Web de atualização de dispositivo no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f0824-102">Device Update Web service in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,34 +35,34 @@ ms.locfileid: "41762369"
 
 <span> </span>
 
-<span data-ttu-id="8ca11-103">_**Tópico da última modificação:** 2013-02-20_</span><span class="sxs-lookup"><span data-stu-id="8ca11-103">_**Topic Last Modified:** 2013-02-20_</span></span>
+<span data-ttu-id="f0824-103">_**Última modificação do tópico:** 2013-02-20_</span><span class="sxs-lookup"><span data-stu-id="f0824-103">_**Topic Last Modified:** 2013-02-20_</span></span>
 
-<span data-ttu-id="8ca11-104">O Lync Server inclui o serviço Web de atualização de dispositivo, que é instalado automaticamente como parte da função de serviços Web.</span><span class="sxs-lookup"><span data-stu-id="8ca11-104">Lync Server includes the Device Update Web service, which is automatically installed as part of the Web Services role.</span></span> <span data-ttu-id="8ca11-105">Esse serviço permite baixar atualizações da Microsoft, testá-las e, em seguida, implantar as atualizações em telefones IP em sua organização.</span><span class="sxs-lookup"><span data-stu-id="8ca11-105">This service lets you download updates from Microsoft, test them, and then deploy the updates to IP phones in your organization.</span></span> <span data-ttu-id="8ca11-106">Você também pode usar o serviço Web de atualização de dispositivo para reverter dispositivos para versões anteriores do software.</span><span class="sxs-lookup"><span data-stu-id="8ca11-106">You can also use Device Update Web service to roll back devices to previous software versions.</span></span>
+<span data-ttu-id="f0824-104">O Lync Server inclui o serviço Web de atualização de dispositivo, que é automaticamente instalado como parte da função de serviços Web.</span><span class="sxs-lookup"><span data-stu-id="f0824-104">Lync Server includes the Device Update Web service, which is automatically installed as part of the Web Services role.</span></span> <span data-ttu-id="f0824-105">Este serviço permite baixar atualizações da Microsoft, testá-las e implantar as atualizações em telefones IP em sua organização.</span><span class="sxs-lookup"><span data-stu-id="f0824-105">This service lets you download updates from Microsoft, test them, and then deploy the updates to IP phones in your organization.</span></span> <span data-ttu-id="f0824-106">Você também pode usar o Serviço Web de Atualização de Dispositivo para reverter os dispositivos às suas versões de software anteriores.</span><span class="sxs-lookup"><span data-stu-id="f0824-106">You can also use Device Update Web service to roll back devices to previous software versions.</span></span>
 
-<span data-ttu-id="8ca11-107">Esta seção fornece detalhes sobre como gerenciar o serviço Web de atualização de dispositivo e atualizações implantadas usando logs de atualização de dispositivo, regras (o Lync Phone Edition usa *regras* para associar atualizações de versão de firmware a dispositivos de hardware) e configurações.</span><span class="sxs-lookup"><span data-stu-id="8ca11-107">This section provides details about how to manage the Device Update Web service and deployed updates by using device update logs, rules (Lync Phone Edition uses *rules* to associate firmware version updates with hardware devices), and configuration settings.</span></span>
+<span data-ttu-id="f0824-107">Esta seção fornece detalhes sobre como gerenciar o serviço Web de atualização de dispositivo e atualizações implantadas usando logs de atualização de dispositivo, regras (o Lync Phone Edition usa *regras* para associar atualizações de versão de firmware com dispositivos de hardware) e definições de configuração.</span><span class="sxs-lookup"><span data-stu-id="f0824-107">This section provides details about how to manage the Device Update Web service and deployed updates by using device update logs, rules (Lync Phone Edition uses *rules* to associate firmware version updates with hardware devices), and configuration settings.</span></span>
 
-<span data-ttu-id="8ca11-108">Para obter detalhes sobre o processo e os recursos do serviço Web de atualização de dispositivo, consulte [atualizando dispositivos](http://technet.microsoft.com/en-us/library/gg412864\(v=ocs.14\).aspx) na biblioteca do TechNet do Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="8ca11-108">For details about the Device Update Web service process and features, see [Updating Devices](http://technet.microsoft.com/en-us/library/gg412864\(v=ocs.14\).aspx) in the Lync Server 2010 TechNet Library.</span></span> <span data-ttu-id="8ca11-109">(Observe que o serviço Web de atualização de dispositivo, como todos os componentes do Lync Phone Edition, funciona da mesma maneira com o Lync Server 2013 como no Lync Server 2010.)</span><span class="sxs-lookup"><span data-stu-id="8ca11-109">(Note that the Device Update Web service, like all Lync Phone Edition components, works the same way with Lync Server 2013 as it does with Lync Server 2010.)</span></span>
+<span data-ttu-id="f0824-108">Para obter detalhes sobre o processo e os recursos do serviço Web de atualização de dispositivo, consulte [atualização de dispositivos](http://technet.microsoft.com/library/gg412864\(v=ocs.14\).aspx) na Biblioteca TechNet do Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="f0824-108">For details about the Device Update Web service process and features, see [Updating Devices](http://technet.microsoft.com/library/gg412864\(v=ocs.14\).aspx) in the Lync Server 2010 TechNet Library.</span></span> <span data-ttu-id="f0824-109">(Observe que o serviço Web de atualização de dispositivo, como todos os componentes do Lync Phone Edition, funciona da mesma maneira com o Lync Server 2013, como no Lync Server 2010.)</span><span class="sxs-lookup"><span data-stu-id="f0824-109">(Note that the Device Update Web service, like all Lync Phone Edition components, works the same way with Lync Server 2013 as it does with Lync Server 2010.)</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="8ca11-110">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="8ca11-110">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="f0824-110">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="f0824-110">In This Section</span></span>
 
-  - [<span data-ttu-id="8ca11-111">Logs e arquivos de atualização de dispositivos no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8ca11-111">Device Update logs and files in Lync Server 2013</span></span>](lync-server-2013-device-update-logs-and-files.md)
+  - [<span data-ttu-id="f0824-111">Logs e arquivos de atualização de dispositivo no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f0824-111">Device Update logs and files in Lync Server 2013</span></span>](lync-server-2013-device-update-logs-and-files.md)
 
-  - [<span data-ttu-id="8ca11-112">Regras de atualização de dispositivo no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8ca11-112">Device Update rules in Lync Server 2013</span></span>](lync-server-2013-device-update-rules.md)
+  - [<span data-ttu-id="f0824-112">Regras de atualização de dispositivo no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f0824-112">Device Update rules in Lync Server 2013</span></span>](lync-server-2013-device-update-rules.md)
 
-  - [<span data-ttu-id="8ca11-113">Opções de configuração de atualização de dispositivo no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8ca11-113">Device Update configuration settings in Lync Server 2013</span></span>](lync-server-2013-device-update-configuration-settings.md)
+  - [<span data-ttu-id="f0824-113">Definições de configuração de atualização de dispositivo no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f0824-113">Device Update configuration settings in Lync Server 2013</span></span>](lync-server-2013-device-update-configuration-settings.md)
 
-  - [<span data-ttu-id="8ca11-114">Exibir atualizações de software para dispositivos no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8ca11-114">View software updates for devices in Lync Server 2013</span></span>](lync-server-2013-view-software-updates-for-devices-in-your-organization.md)
+  - [<span data-ttu-id="f0824-114">Exibir atualizações de software para dispositivos no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f0824-114">View software updates for devices in Lync Server 2013</span></span>](lync-server-2013-view-software-updates-for-devices-in-your-organization.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="8ca11-115">Confira também</span><span class="sxs-lookup"><span data-stu-id="8ca11-115">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="f0824-115">Confira também</span><span class="sxs-lookup"><span data-stu-id="f0824-115">See Also</span></span>
 
 
-<span data-ttu-id="8ca11-116">[Ferramentas e serviços para gerenciar e solucionar problemas de dispositivos](http://technet.microsoft.com/en-us/library/gg425800\(v=ocs.14\).aspx)</span><span class="sxs-lookup"><span data-stu-id="8ca11-116">[Tools and Services for Managing and Troubleshooting Devices](http://technet.microsoft.com/en-us/library/gg425800\(v=ocs.14\).aspx)</span></span>  
+<span data-ttu-id="f0824-116">[Ferramentas e serviços para gerenciar e solucionar problemas de dispositivos](http://technet.microsoft.com/library/gg425800\(v=ocs.14\).aspx)</span><span class="sxs-lookup"><span data-stu-id="f0824-116">[Tools and Services for Managing and Troubleshooting Devices](http://technet.microsoft.com/library/gg425800\(v=ocs.14\).aspx)</span></span>  
   
 
 </div>

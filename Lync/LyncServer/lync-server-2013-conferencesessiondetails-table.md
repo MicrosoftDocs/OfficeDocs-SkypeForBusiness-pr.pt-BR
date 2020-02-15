@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Tabela ConferenceSessionDetails'
+title: 'Lync Server 2013: tabela ConferenceSessionDetails'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184925
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 61da586f3ecaf215b3bb636a80141ba8aaa19f18
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6c88cb167f334bc27148b16deafb0e7759105955
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741591"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42040900"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="conferencesessiondetails-table-in-lync-server-2013"></a><span data-ttu-id="564b8-102">Tabela ConferenceSessionDetails no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="564b8-102">ConferenceSessionDetails table in Lync Server 2013</span></span>
+# <a name="conferencesessiondetails-table-in-lync-server-2013"></a><span data-ttu-id="11c62-102">Tabela ConferenceSessionDetails no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="11c62-102">ConferenceSessionDetails table in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41741591"
 
 <span> </span>
 
-<span data-ttu-id="564b8-103">_**Tópico da última modificação:** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="564b8-103">_**Topic Last Modified:** 2012-09-28_</span></span>
+<span data-ttu-id="11c62-103">_**Última modificação do tópico:** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="11c62-103">_**Topic Last Modified:** 2012-09-28_</span></span>
 
-<span data-ttu-id="564b8-104">Cada registro representa uma sessão de conferência, que pode ser a sessão com foco ou a sessão com um servidor de conferência específico.</span><span class="sxs-lookup"><span data-stu-id="564b8-104">Each record represents one conference session, which could be either the session with Focus or the session with a specific conferencing server.</span></span>
+<span data-ttu-id="11c62-104">Cada registro representa uma sessão de conferência, que poderia ser a sessão com Foco ou a sessão com um servidor de conferência específico.</span><span class="sxs-lookup"><span data-stu-id="11c62-104">Each record represents one conference session, which could be either the session with Focus or the session with a specific conferencing server.</span></span>
 
 
 <table>
@@ -49,206 +49,206 @@ ms.locfileid: "41741591"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="564b8-105">Coluna</span><span class="sxs-lookup"><span data-stu-id="564b8-105">Column</span></span></th>
-<th><span data-ttu-id="564b8-106">Tipo de dados</span><span class="sxs-lookup"><span data-stu-id="564b8-106">Data Type</span></span></th>
-<th><span data-ttu-id="564b8-107">Chave/índice</span><span class="sxs-lookup"><span data-stu-id="564b8-107">Key/Index</span></span></th>
-<th><span data-ttu-id="564b8-108">Detalhes</span><span class="sxs-lookup"><span data-stu-id="564b8-108">Details</span></span></th>
+<th><span data-ttu-id="11c62-105">Coluna</span><span class="sxs-lookup"><span data-stu-id="11c62-105">Column</span></span></th>
+<th><span data-ttu-id="11c62-106">Tipo de dados</span><span class="sxs-lookup"><span data-stu-id="11c62-106">Data Type</span></span></th>
+<th><span data-ttu-id="11c62-107">Chave/índice</span><span class="sxs-lookup"><span data-stu-id="11c62-107">Key/Index</span></span></th>
+<th><span data-ttu-id="11c62-108">Detalhes</span><span class="sxs-lookup"><span data-stu-id="11c62-108">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="564b8-109"><strong>Id_da_sessãotime</strong></span><span class="sxs-lookup"><span data-stu-id="564b8-109"><strong>SessionIdTime</strong></span></span></p></td>
-<td><p><span data-ttu-id="564b8-110">DateTime</span><span class="sxs-lookup"><span data-stu-id="564b8-110">Datetime</span></span></p></td>
-<td><p><span data-ttu-id="564b8-111">Primário, estrangeiro</span><span class="sxs-lookup"><span data-stu-id="564b8-111">Primary, Foreign</span></span></p></td>
-<td><p><span data-ttu-id="564b8-112">Tempo de solicitação de sessão; usado em conjunto com <strong>SessionIdSeq</strong> para identificar uma sessão de conferência com exclusividade.</span><span class="sxs-lookup"><span data-stu-id="564b8-112">Time of session request; used in conjunction with <strong>SessionIdSeq</strong> to uniquely identify a conference session.</span></span> <span data-ttu-id="564b8-113">Consulte a <a href="lync-server-2013-dialogs-table.md">tabela de diálogos no Lync Server 2013</a> para obter mais informações.</span><span class="sxs-lookup"><span data-stu-id="564b8-113">See the <a href="lync-server-2013-dialogs-table.md">Dialogs table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="11c62-109"><strong>Identificação_da_sessãotime</strong></span><span class="sxs-lookup"><span data-stu-id="11c62-109"><strong>SessionIdTime</strong></span></span></p></td>
+<td><p><span data-ttu-id="11c62-110">Datetime</span><span class="sxs-lookup"><span data-stu-id="11c62-110">Datetime</span></span></p></td>
+<td><p><span data-ttu-id="11c62-111">Primário, externo</span><span class="sxs-lookup"><span data-stu-id="11c62-111">Primary, Foreign</span></span></p></td>
+<td><p><span data-ttu-id="11c62-112">Tempo da solicitação da sessão; usado em conjunto com <strong>SessionIdSeq</strong> para identificar de forma única uma sessão de conferência.</span><span class="sxs-lookup"><span data-stu-id="11c62-112">Time of session request; used in conjunction with <strong>SessionIdSeq</strong> to uniquely identify a conference session.</span></span> <span data-ttu-id="11c62-113">Consulte a <a href="lync-server-2013-dialogs-table.md">tabela diálogos no Lync Server 2013</a> para obter mais informações.</span><span class="sxs-lookup"><span data-stu-id="11c62-113">See the <a href="lync-server-2013-dialogs-table.md">Dialogs table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="564b8-114"><strong>SessionIdSeq</strong></span><span class="sxs-lookup"><span data-stu-id="564b8-114"><strong>SessionIdSeq</strong></span></span></p></td>
-<td><p><span data-ttu-id="564b8-115">int</span><span class="sxs-lookup"><span data-stu-id="564b8-115">int</span></span></p></td>
-<td><p><span data-ttu-id="564b8-116">Primário, estrangeiro</span><span class="sxs-lookup"><span data-stu-id="564b8-116">Primary, Foreign</span></span></p></td>
-<td><p><span data-ttu-id="564b8-117">Número de identificação para identificar a sessão.</span><span class="sxs-lookup"><span data-stu-id="564b8-117">ID number to identify the session.</span></span> <span data-ttu-id="564b8-118">Usado em conjunto com a <strong>identificação_da_sessãotime</strong> para identificar exclusivamente uma sessão de conferência.</span><span class="sxs-lookup"><span data-stu-id="564b8-118">Used in conjunction with <strong>SessionIdTime</strong> to uniquely identify a conference session.</span></span> <span data-ttu-id="564b8-119">Consulte a <a href="lync-server-2013-dialogs-table.md">tabela de diálogos no Lync Server 2013</a> para obter mais informações.</span><span class="sxs-lookup"><span data-stu-id="564b8-119">See the <a href="lync-server-2013-dialogs-table.md">Dialogs table in Lync Server 2013</a> for more information.</span></span> *</p></td>
+<td><p><span data-ttu-id="11c62-114"><strong>SessionIdSeq</strong></span><span class="sxs-lookup"><span data-stu-id="11c62-114"><strong>SessionIdSeq</strong></span></span></p></td>
+<td><p><span data-ttu-id="11c62-115">int</span><span class="sxs-lookup"><span data-stu-id="11c62-115">int</span></span></p></td>
+<td><p><span data-ttu-id="11c62-116">Primário, Estrangeiro</span><span class="sxs-lookup"><span data-stu-id="11c62-116">Primary, Foreign</span></span></p></td>
+<td><p><span data-ttu-id="11c62-117">O número de ID para identificar a sessão.</span><span class="sxs-lookup"><span data-stu-id="11c62-117">ID number to identify the session.</span></span> <span data-ttu-id="11c62-118">Usado em conjunto com a <strong>identificação_da_sessãotime</strong> para identificar exclusivamente uma sessão de conferência.</span><span class="sxs-lookup"><span data-stu-id="11c62-118">Used in conjunction with <strong>SessionIdTime</strong> to uniquely identify a conference session.</span></span> <span data-ttu-id="11c62-119">Consulte a <a href="lync-server-2013-dialogs-table.md">tabela diálogos no Lync Server 2013</a> para obter mais informações.</span><span class="sxs-lookup"><span data-stu-id="11c62-119">See the <a href="lync-server-2013-dialogs-table.md">Dialogs table in Lync Server 2013</a> for more information.</span></span> *</p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="564b8-120"><strong>ConferenceUriId</strong></span><span class="sxs-lookup"><span data-stu-id="564b8-120"><strong>ConferenceUriId</strong></span></span></p></td>
-<td><p><span data-ttu-id="564b8-121">int</span><span class="sxs-lookup"><span data-stu-id="564b8-121">int</span></span></p></td>
-<td><p><span data-ttu-id="564b8-122">Exterior</span><span class="sxs-lookup"><span data-stu-id="564b8-122">Foreign</span></span></p></td>
-<td><p><span data-ttu-id="564b8-123">URI da conferência em foco relacionado a esta sessão.</span><span class="sxs-lookup"><span data-stu-id="564b8-123">Focus conference URI related to this session.</span></span> <span data-ttu-id="564b8-124">Consulte a <a href="lync-server-2013-conferenceuris-table.md">tabela ConferenceUris no Lync Server 2013</a> para obter mais informações.</span><span class="sxs-lookup"><span data-stu-id="564b8-124">See the <a href="lync-server-2013-conferenceuris-table.md">ConferenceUris table in Lync Server 2013</a> for more information.</span></span> <span data-ttu-id="564b8-125">Esse URI é um URI de conferência baseado em foco.</span><span class="sxs-lookup"><span data-stu-id="564b8-125">This URI is a Focus-based conference URI.</span></span></p></td>
+<td><p><span data-ttu-id="11c62-120"><strong>ConferenceUriId</strong></span><span class="sxs-lookup"><span data-stu-id="11c62-120"><strong>ConferenceUriId</strong></span></span></p></td>
+<td><p><span data-ttu-id="11c62-121">int</span><span class="sxs-lookup"><span data-stu-id="11c62-121">int</span></span></p></td>
+<td><p><span data-ttu-id="11c62-122">Estrangeira</span><span class="sxs-lookup"><span data-stu-id="11c62-122">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="11c62-123">URI da conferência com foco relacionada a esta sessão.</span><span class="sxs-lookup"><span data-stu-id="11c62-123">Focus conference URI related to this session.</span></span> <span data-ttu-id="11c62-124">Consulte a <a href="lync-server-2013-conferenceuris-table.md">tabela ConferenceUris no Lync Server 2013</a> para obter mais informações.</span><span class="sxs-lookup"><span data-stu-id="11c62-124">See the <a href="lync-server-2013-conferenceuris-table.md">ConferenceUris table in Lync Server 2013</a> for more information.</span></span> <span data-ttu-id="11c62-125">Esta é uma URI de conferência baseada em Foco.</span><span class="sxs-lookup"><span data-stu-id="11c62-125">This URI is a Focus-based conference URI.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="564b8-126"><strong>ConfInstance</strong></span><span class="sxs-lookup"><span data-stu-id="564b8-126"><strong>ConfInstance</strong></span></span></p></td>
-<td><p><span data-ttu-id="564b8-127">Identificador</span><span class="sxs-lookup"><span data-stu-id="564b8-127">uniqueIdentifier</span></span></p></td>
+<td><p><span data-ttu-id="11c62-126"><strong>ConfInstance</strong></span><span class="sxs-lookup"><span data-stu-id="11c62-126"><strong>ConfInstance</strong></span></span></p></td>
+<td><p><span data-ttu-id="11c62-127">Identificador</span><span class="sxs-lookup"><span data-stu-id="11c62-127">uniqueIdentifier</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="564b8-128">Identificador que diferencia as instâncias de conferências recorrentes.</span><span class="sxs-lookup"><span data-stu-id="564b8-128">Identifier that differentiates between instances of recurring conferences.</span></span> <span data-ttu-id="564b8-129">Cada instância de conferência recorrente tem o mesmo ConferenceURI, mas um valor ConfInstance diferente.</span><span class="sxs-lookup"><span data-stu-id="564b8-129">Each recurring conference instance has the same ConferenceURI but a different ConfInstance value.</span></span></p>
-<p><span data-ttu-id="564b8-130">Este campo foi apresentado no Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="564b8-130">This field was introduced in Microsoft Lync Server 2013.</span></span></p></td>
+<td><p><span data-ttu-id="11c62-128">Identificador que diferencia entre instâncias de conferências recorrentes.</span><span class="sxs-lookup"><span data-stu-id="11c62-128">Identifier that differentiates between instances of recurring conferences.</span></span> <span data-ttu-id="11c62-129">Cada instância de conferência recorrente possui o mesmo ConferenceURI, mas um valor ConfInstance diferente.</span><span class="sxs-lookup"><span data-stu-id="11c62-129">Each recurring conference instance has the same ConferenceURI but a different ConfInstance value.</span></span></p>
+<p><span data-ttu-id="11c62-130">Este campo foi introduzido no Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="11c62-130">This field was introduced in Microsoft Lync Server 2013.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="564b8-131"><strong>McuConferenceUriId</strong></span><span class="sxs-lookup"><span data-stu-id="564b8-131"><strong>McuConferenceUriId</strong></span></span></p></td>
-<td><p><span data-ttu-id="564b8-132">int</span><span class="sxs-lookup"><span data-stu-id="564b8-132">int</span></span></p></td>
-<td><p><span data-ttu-id="564b8-133">Exterior</span><span class="sxs-lookup"><span data-stu-id="564b8-133">Foreign</span></span></p></td>
-<td><p><span data-ttu-id="564b8-134">URL de conferência do servidor de conferência relacionada a esta sessão.</span><span class="sxs-lookup"><span data-stu-id="564b8-134">Conferencing server conference URI related to this session.</span></span> <span data-ttu-id="564b8-135">Consulte a <a href="lync-server-2013-conferenceuris-table.md">tabela ConferenceUris no Lync Server 2013</a> para obter mais informações.</span><span class="sxs-lookup"><span data-stu-id="564b8-135">See the <a href="lync-server-2013-conferenceuris-table.md">ConferenceUris table in Lync Server 2013</a> for more information.</span></span> <span data-ttu-id="564b8-136">Esse URI é o URI da conferência baseada no servidor de conferência.</span><span class="sxs-lookup"><span data-stu-id="564b8-136">This URI is the conferencing server-based conference URI.</span></span> <span data-ttu-id="564b8-137">Para sessões de conferência de foco, esta coluna será nula.</span><span class="sxs-lookup"><span data-stu-id="564b8-137">For Focus conference sessions, this column will be null.</span></span></p></td>
+<td><p><span data-ttu-id="11c62-131"><strong>McuConferenceUriId</strong></span><span class="sxs-lookup"><span data-stu-id="11c62-131"><strong>McuConferenceUriId</strong></span></span></p></td>
+<td><p><span data-ttu-id="11c62-132">int</span><span class="sxs-lookup"><span data-stu-id="11c62-132">int</span></span></p></td>
+<td><p><span data-ttu-id="11c62-133">Estrangeira</span><span class="sxs-lookup"><span data-stu-id="11c62-133">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="11c62-134">URI da conferência do servidor de conferências relacionada a esta sessão.</span><span class="sxs-lookup"><span data-stu-id="11c62-134">Conferencing server conference URI related to this session.</span></span> <span data-ttu-id="11c62-135">Consulte a <a href="lync-server-2013-conferenceuris-table.md">tabela ConferenceUris no Lync Server 2013</a> para obter mais informações.</span><span class="sxs-lookup"><span data-stu-id="11c62-135">See the <a href="lync-server-2013-conferenceuris-table.md">ConferenceUris table in Lync Server 2013</a> for more information.</span></span> <span data-ttu-id="11c62-136">Esta é a URI de conferência baseada em servidor.</span><span class="sxs-lookup"><span data-stu-id="11c62-136">This URI is the conferencing server-based conference URI.</span></span> <span data-ttu-id="11c62-137">Para sessões de conferência com foco, esta coluna estará nula.</span><span class="sxs-lookup"><span data-stu-id="11c62-137">For Focus conference sessions, this column will be null.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="564b8-138"><strong>ID</strong></span><span class="sxs-lookup"><span data-stu-id="564b8-138"><strong>UserId</strong></span></span></p></td>
-<td><p><span data-ttu-id="564b8-139">int</span><span class="sxs-lookup"><span data-stu-id="564b8-139">int</span></span></p></td>
-<td><p><span data-ttu-id="564b8-140">Exterior</span><span class="sxs-lookup"><span data-stu-id="564b8-140">Foreign</span></span></p></td>
-<td><p><span data-ttu-id="564b8-141">ID de um usuário na sessão de conferência.</span><span class="sxs-lookup"><span data-stu-id="564b8-141">ID of one user in the conference session.</span></span> <span data-ttu-id="564b8-142">Consulte a <a href="lync-server-2013-users-table.md">tabela usuários no Lync Server 2013</a> para obter mais informações.</span><span class="sxs-lookup"><span data-stu-id="564b8-142">See the <a href="lync-server-2013-users-table.md">Users table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="11c62-138"><strong>UserId</strong></span><span class="sxs-lookup"><span data-stu-id="11c62-138"><strong>UserId</strong></span></span></p></td>
+<td><p><span data-ttu-id="11c62-139">int</span><span class="sxs-lookup"><span data-stu-id="11c62-139">int</span></span></p></td>
+<td><p><span data-ttu-id="11c62-140">Estrangeira</span><span class="sxs-lookup"><span data-stu-id="11c62-140">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="11c62-141">ID de um usuário na sessão de conferência.</span><span class="sxs-lookup"><span data-stu-id="11c62-141">ID of one user in the conference session.</span></span> <span data-ttu-id="11c62-142">Consulte a <a href="lync-server-2013-users-table.md">tabela Users no Lync Server 2013</a> para obter mais informações.</span><span class="sxs-lookup"><span data-stu-id="11c62-142">See the <a href="lync-server-2013-users-table.md">Users table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="564b8-143"><strong>Userendpointid</strong></span><span class="sxs-lookup"><span data-stu-id="564b8-143"><strong>UserEndpointId</strong></span></span></p></td>
-<td><p><span data-ttu-id="564b8-144">identificador</span><span class="sxs-lookup"><span data-stu-id="564b8-144">uniqueidentifier</span></span></p></td>
+<td><p><span data-ttu-id="11c62-143"><strong>Userendpointid</strong></span><span class="sxs-lookup"><span data-stu-id="11c62-143"><strong>UserEndpointId</strong></span></span></p></td>
+<td><p><span data-ttu-id="11c62-144">identificador</span><span class="sxs-lookup"><span data-stu-id="11c62-144">uniqueidentifier</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="564b8-145">Um GUID para identificar a instância do ponto de extremidade.</span><span class="sxs-lookup"><span data-stu-id="564b8-145">A GUID to identify the instance of endpoint.</span></span> <span data-ttu-id="564b8-146">Por exemplo, se um usuário fizer logon em máquinas diferentes com a mesma conta, cada computador terá uma ID de ponto de extremidade diferente.</span><span class="sxs-lookup"><span data-stu-id="564b8-146">For example, if one user logs on to different machines with the same account, then each machine will have a different endpoint ID.</span></span></p></td>
+<td><p><span data-ttu-id="11c62-p107">Um GUID para identificar a instância do ponto de extremidade. Por exemplo, se um usuário faz logon em máquinas diferentes com a mesma conta, cada máquina terá um ID de ponto de extremidade diferente.</span><span class="sxs-lookup"><span data-stu-id="11c62-p107">A GUID to identify the instance of endpoint. For example, if one user logs on to different machines with the same account, then each machine will have a different endpoint ID.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="564b8-147"><strong>OnBehalfOfId</strong></span><span class="sxs-lookup"><span data-stu-id="564b8-147"><strong>OnBehalfOfId</strong></span></span></p></td>
-<td><p><span data-ttu-id="564b8-148">int</span><span class="sxs-lookup"><span data-stu-id="564b8-148">int</span></span></p></td>
-<td><p><span data-ttu-id="564b8-149">Exterior</span><span class="sxs-lookup"><span data-stu-id="564b8-149">Foreign</span></span></p></td>
-<td><p><span data-ttu-id="564b8-150">Indica a ID do usuário de quem o chamador está em nome.</span><span class="sxs-lookup"><span data-stu-id="564b8-150">Indicates the ID of the user of who the caller is on behalf.</span></span> <span data-ttu-id="564b8-151">Consulte a <a href="lync-server-2013-users-table.md">tabela usuários no Lync Server 2013</a> para obter mais informações.</span><span class="sxs-lookup"><span data-stu-id="564b8-151">See the <a href="lync-server-2013-users-table.md">Users table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="11c62-147"><strong>OnBehalfOfId</strong></span><span class="sxs-lookup"><span data-stu-id="11c62-147"><strong>OnBehalfOfId</strong></span></span></p></td>
+<td><p><span data-ttu-id="11c62-148">int</span><span class="sxs-lookup"><span data-stu-id="11c62-148">int</span></span></p></td>
+<td><p><span data-ttu-id="11c62-149">Estrangeira</span><span class="sxs-lookup"><span data-stu-id="11c62-149">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="11c62-150">Indica a ID do usuário que está em nome do chamador.</span><span class="sxs-lookup"><span data-stu-id="11c62-150">Indicates the ID of the user of who the caller is on behalf.</span></span> <span data-ttu-id="11c62-151">Consulte a <a href="lync-server-2013-users-table.md">tabela Users no Lync Server 2013</a> para obter mais informações.</span><span class="sxs-lookup"><span data-stu-id="11c62-151">See the <a href="lync-server-2013-users-table.md">Users table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="564b8-152"><strong>ReferredById</strong></span><span class="sxs-lookup"><span data-stu-id="564b8-152"><strong>ReferredById</strong></span></span></p></td>
-<td><p><span data-ttu-id="564b8-153">int</span><span class="sxs-lookup"><span data-stu-id="564b8-153">int</span></span></p></td>
-<td><p><span data-ttu-id="564b8-154">Exterior</span><span class="sxs-lookup"><span data-stu-id="564b8-154">Foreign</span></span></p></td>
-<td><p><span data-ttu-id="564b8-155">ID do usuário por quem a chamada é referida.</span><span class="sxs-lookup"><span data-stu-id="564b8-155">ID of the user by who the call is referred.</span></span> <span data-ttu-id="564b8-156">Consulte a <a href="lync-server-2013-users-table.md">tabela usuários no Lync Server 2013</a> para obter mais informações.</span><span class="sxs-lookup"><span data-stu-id="564b8-156">See the <a href="lync-server-2013-users-table.md">Users table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="11c62-152"><strong>ReferredById</strong></span><span class="sxs-lookup"><span data-stu-id="11c62-152"><strong>ReferredById</strong></span></span></p></td>
+<td><p><span data-ttu-id="11c62-153">int</span><span class="sxs-lookup"><span data-stu-id="11c62-153">int</span></span></p></td>
+<td><p><span data-ttu-id="11c62-154">Estrangeira</span><span class="sxs-lookup"><span data-stu-id="11c62-154">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="11c62-155">A ID do usuário a quem se refere a chamada.</span><span class="sxs-lookup"><span data-stu-id="11c62-155">ID of the user by who the call is referred.</span></span> <span data-ttu-id="11c62-156">Consulte a <a href="lync-server-2013-users-table.md">tabela Users no Lync Server 2013</a> para obter mais informações.</span><span class="sxs-lookup"><span data-stu-id="11c62-156">See the <a href="lync-server-2013-users-table.md">Users table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="564b8-157"><strong>UserClientVersionId</strong></span><span class="sxs-lookup"><span data-stu-id="564b8-157"><strong>UserClientVersionId</strong></span></span></p></td>
-<td><p><span data-ttu-id="564b8-158">int</span><span class="sxs-lookup"><span data-stu-id="564b8-158">int</span></span></p></td>
-<td><p><span data-ttu-id="564b8-159">Exterior</span><span class="sxs-lookup"><span data-stu-id="564b8-159">Foreign</span></span></p></td>
-<td><p><span data-ttu-id="564b8-160">Versão do cliente usada pelo usuário da conferência.</span><span class="sxs-lookup"><span data-stu-id="564b8-160">Client version used by the conference user.</span></span> <span data-ttu-id="564b8-161">Consulte a <a href="lync-server-2013-clientversions-table.md">tabela ClientVersions no Lync Server 2013</a> para obter mais informações.</span><span class="sxs-lookup"><span data-stu-id="564b8-161">See the <a href="lync-server-2013-clientversions-table.md">ClientVersions table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="11c62-157"><strong>UserClientVersionId</strong></span><span class="sxs-lookup"><span data-stu-id="11c62-157"><strong>UserClientVersionId</strong></span></span></p></td>
+<td><p><span data-ttu-id="11c62-158">int</span><span class="sxs-lookup"><span data-stu-id="11c62-158">int</span></span></p></td>
+<td><p><span data-ttu-id="11c62-159">Estrangeira</span><span class="sxs-lookup"><span data-stu-id="11c62-159">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="11c62-160">Versão do cliente usado pelo usuário da conferência.</span><span class="sxs-lookup"><span data-stu-id="11c62-160">Client version used by the conference user.</span></span> <span data-ttu-id="11c62-161">Consulte a <a href="lync-server-2013-clientversions-table.md">tabela ClientVersions no Lync Server 2013</a> para obter mais informações.</span><span class="sxs-lookup"><span data-stu-id="11c62-161">See the <a href="lync-server-2013-clientversions-table.md">ClientVersions table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="564b8-162"><strong>ConfClientVersionId</strong></span><span class="sxs-lookup"><span data-stu-id="564b8-162"><strong>ConfClientVersionId</strong></span></span></p></td>
-<td><p><span data-ttu-id="564b8-163">int</span><span class="sxs-lookup"><span data-stu-id="564b8-163">int</span></span></p></td>
-<td><p><span data-ttu-id="564b8-164">Exterior</span><span class="sxs-lookup"><span data-stu-id="564b8-164">Foreign</span></span></p></td>
-<td><p><span data-ttu-id="564b8-165">Versão do cliente usada pelo servidor de conferência.</span><span class="sxs-lookup"><span data-stu-id="564b8-165">Client version used by the conference server.</span></span> <span data-ttu-id="564b8-166">Consulte a <a href="lync-server-2013-clientversions-table.md">tabela ClientVersions no Lync Server 2013</a> para obter mais informações.</span><span class="sxs-lookup"><span data-stu-id="564b8-166">See the <a href="lync-server-2013-clientversions-table.md">ClientVersions table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="11c62-162"><strong>ConfClientVersionId</strong></span><span class="sxs-lookup"><span data-stu-id="11c62-162"><strong>ConfClientVersionId</strong></span></span></p></td>
+<td><p><span data-ttu-id="11c62-163">int</span><span class="sxs-lookup"><span data-stu-id="11c62-163">int</span></span></p></td>
+<td><p><span data-ttu-id="11c62-164">Estrangeira</span><span class="sxs-lookup"><span data-stu-id="11c62-164">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="11c62-165">Versão do cliente usado pelo servidor de conferências.</span><span class="sxs-lookup"><span data-stu-id="11c62-165">Client version used by the conference server.</span></span> <span data-ttu-id="11c62-166">Consulte a <a href="lync-server-2013-clientversions-table.md">tabela ClientVersions no Lync Server 2013</a> para obter mais informações.</span><span class="sxs-lookup"><span data-stu-id="11c62-166">See the <a href="lync-server-2013-clientversions-table.md">ClientVersions table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="564b8-167"><strong>ReplaceDialogIdTime</strong></span><span class="sxs-lookup"><span data-stu-id="564b8-167"><strong>ReplaceDialogIdTime</strong></span></span></p></td>
-<td><p><span data-ttu-id="564b8-168">datetime</span><span class="sxs-lookup"><span data-stu-id="564b8-168">datetime</span></span></p></td>
-<td><p><span data-ttu-id="564b8-169">Exterior</span><span class="sxs-lookup"><span data-stu-id="564b8-169">Foreign</span></span></p></td>
-<td><p><span data-ttu-id="564b8-170">Número de identificação para identificar a caixa de diálogo que foi substituída pela sessão atual.</span><span class="sxs-lookup"><span data-stu-id="564b8-170">ID number to identify the dialog which was replaced by current session.</span></span> <span data-ttu-id="564b8-171">Consulte a <a href="lync-server-2013-dialogs-table.md">tabela de diálogos no Lync Server 2013</a> para obter mais informações.</span><span class="sxs-lookup"><span data-stu-id="564b8-171">See the <a href="lync-server-2013-dialogs-table.md">Dialogs table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="11c62-167"><strong>ReplaceDialogIdTime</strong></span><span class="sxs-lookup"><span data-stu-id="11c62-167"><strong>ReplaceDialogIdTime</strong></span></span></p></td>
+<td><p><span data-ttu-id="11c62-168">datetime</span><span class="sxs-lookup"><span data-stu-id="11c62-168">datetime</span></span></p></td>
+<td><p><span data-ttu-id="11c62-169">Estrangeira</span><span class="sxs-lookup"><span data-stu-id="11c62-169">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="11c62-170">O número de identificação para identificar a caixa de diálogo que foi substituída pela sessão atual.</span><span class="sxs-lookup"><span data-stu-id="11c62-170">ID number to identify the dialog which was replaced by current session.</span></span> <span data-ttu-id="11c62-171">Consulte a <a href="lync-server-2013-dialogs-table.md">tabela diálogos no Lync Server 2013</a> para obter mais informações.</span><span class="sxs-lookup"><span data-stu-id="11c62-171">See the <a href="lync-server-2013-dialogs-table.md">Dialogs table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="564b8-172"><strong>ReplaceDialogIdSeq</strong></span><span class="sxs-lookup"><span data-stu-id="564b8-172"><strong>ReplaceDialogIdSeq</strong></span></span></p></td>
-<td><p><span data-ttu-id="564b8-173">int</span><span class="sxs-lookup"><span data-stu-id="564b8-173">int</span></span></p></td>
-<td><p><span data-ttu-id="564b8-174">Exterior</span><span class="sxs-lookup"><span data-stu-id="564b8-174">Foreign</span></span></p></td>
-<td><p><span data-ttu-id="564b8-175">Número de identificação para identificar a sessão.</span><span class="sxs-lookup"><span data-stu-id="564b8-175">ID number to identify the session.</span></span> <span data-ttu-id="564b8-176">Usado em conjunto com <strong>ReplacesDialogIdTime</strong> para identificar exclusivamente uma sessão substituída por esta sessão.</span><span class="sxs-lookup"><span data-stu-id="564b8-176">Used in conjunction with <strong>ReplacesDialogIdTime</strong> to uniquely identify a session that is replaced by this session.</span></span> <span data-ttu-id="564b8-177">Consulte a <a href="lync-server-2013-dialogs-table.md">tabela de diálogos no Lync Server 2013</a> para obter mais informações.</span><span class="sxs-lookup"><span data-stu-id="564b8-177">See the <a href="lync-server-2013-dialogs-table.md">Dialogs table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="11c62-172"><strong>ReplaceDialogIdSeq</strong></span><span class="sxs-lookup"><span data-stu-id="11c62-172"><strong>ReplaceDialogIdSeq</strong></span></span></p></td>
+<td><p><span data-ttu-id="11c62-173">int</span><span class="sxs-lookup"><span data-stu-id="11c62-173">int</span></span></p></td>
+<td><p><span data-ttu-id="11c62-174">Estrangeira</span><span class="sxs-lookup"><span data-stu-id="11c62-174">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="11c62-175">O número de identificação para identificar a sessão.</span><span class="sxs-lookup"><span data-stu-id="11c62-175">ID number to identify the session.</span></span> <span data-ttu-id="11c62-176">Usado em conjunto com <strong>ReplacesDialogIdTime </strong> para identificar exclusivamente uma sessão que é substituída por esta sessão.</span><span class="sxs-lookup"><span data-stu-id="11c62-176">Used in conjunction with <strong>ReplacesDialogIdTime</strong> to uniquely identify a session that is replaced by this session.</span></span> <span data-ttu-id="11c62-177">Consulte a <a href="lync-server-2013-dialogs-table.md">tabela diálogos no Lync Server 2013</a> para obter mais informações.</span><span class="sxs-lookup"><span data-stu-id="11c62-177">See the <a href="lync-server-2013-dialogs-table.md">Dialogs table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="564b8-178"><strong>IsStartedByConfServer</strong></span><span class="sxs-lookup"><span data-stu-id="564b8-178"><strong>IsStartedByConfServer</strong></span></span></p></td>
-<td><p><span data-ttu-id="564b8-179">bit</span><span class="sxs-lookup"><span data-stu-id="564b8-179">bit</span></span></p></td>
+<td><p><span data-ttu-id="11c62-178"><strong>IsStartedByConfServer</strong></span><span class="sxs-lookup"><span data-stu-id="11c62-178"><strong>IsStartedByConfServer</strong></span></span></p></td>
+<td><p><span data-ttu-id="11c62-179">bits</span><span class="sxs-lookup"><span data-stu-id="11c62-179">bit</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="564b8-180">Indica se a sessão foi iniciada pelo servidor de conferência.</span><span class="sxs-lookup"><span data-stu-id="564b8-180">Indicates if the session started by the conferencing Server.</span></span></p></td>
+<td><p><span data-ttu-id="11c62-180">Indica se a sessão é iniciada pelo Servidor de conferências.</span><span class="sxs-lookup"><span data-stu-id="11c62-180">Indicates if the session started by the conferencing Server.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="564b8-181"><strong>IsEndedByConfServer</strong></span><span class="sxs-lookup"><span data-stu-id="564b8-181"><strong>IsEndedByConfServer</strong></span></span></p></td>
-<td><p><span data-ttu-id="564b8-182">bit</span><span class="sxs-lookup"><span data-stu-id="564b8-182">bit</span></span></p></td>
+<td><p><span data-ttu-id="11c62-181"><strong>IsEndedByConfServer</strong></span><span class="sxs-lookup"><span data-stu-id="11c62-181"><strong>IsEndedByConfServer</strong></span></span></p></td>
+<td><p><span data-ttu-id="11c62-182">bits</span><span class="sxs-lookup"><span data-stu-id="11c62-182">bit</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="564b8-183">Indica se a sessão terminou pelo servidor de conferência.</span><span class="sxs-lookup"><span data-stu-id="564b8-183">Indicates if the session ended by the conferencing server.</span></span></p></td>
+<td><p><span data-ttu-id="11c62-183">Indica se a sessão é encerrada pelo Servidor de conferências.</span><span class="sxs-lookup"><span data-stu-id="11c62-183">Indicates if the session ended by the conferencing server.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="564b8-184"><strong>IsUserInternal</strong></span><span class="sxs-lookup"><span data-stu-id="564b8-184"><strong>IsUserInternal</strong></span></span></p></td>
-<td><p><span data-ttu-id="564b8-185">bit</span><span class="sxs-lookup"><span data-stu-id="564b8-185">bit</span></span></p></td>
+<td><p><span data-ttu-id="11c62-184"><strong>IsUserInternal</strong></span><span class="sxs-lookup"><span data-stu-id="11c62-184"><strong>IsUserInternal</strong></span></span></p></td>
+<td><p><span data-ttu-id="11c62-185">bits</span><span class="sxs-lookup"><span data-stu-id="11c62-185">bit</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="564b8-186">Se o usuário está conectado de Internal ou not.</span><span class="sxs-lookup"><span data-stu-id="564b8-186">Whether user is logged on from internal or not.</span></span></p></td>
+<td><p><span data-ttu-id="11c62-186">Se o usuário está conectado de um local interno ou não.</span><span class="sxs-lookup"><span data-stu-id="11c62-186">Whether user is logged on from internal or not.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="564b8-187"><strong>ResponseCode</strong></span><span class="sxs-lookup"><span data-stu-id="564b8-187"><strong>ResponseCode</strong></span></span></p></td>
-<td><p><span data-ttu-id="564b8-188">int</span><span class="sxs-lookup"><span data-stu-id="564b8-188">int</span></span></p></td>
+<td><p><span data-ttu-id="11c62-187"><strong>ResponseCode</strong></span><span class="sxs-lookup"><span data-stu-id="11c62-187"><strong>ResponseCode</strong></span></span></p></td>
+<td><p><span data-ttu-id="11c62-188">int</span><span class="sxs-lookup"><span data-stu-id="11c62-188">int</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="564b8-189">Código de resposta do SIP (Session Initiation Protocol) para o convite da sessão.</span><span class="sxs-lookup"><span data-stu-id="564b8-189">Session Initiation Protocol (SIP) response code to the session invitation.</span></span> <span data-ttu-id="564b8-190">Geralmente, esse campo é preenchido por dados gerados da mensagem de convite inicial na sessão.</span><span class="sxs-lookup"><span data-stu-id="564b8-190">This field is typically populated by data generated from the initial INVITE message in the session.</span></span> <span data-ttu-id="564b8-191">Se não houver nenhuma mensagem de convite, o campo será preenchido com a data e a hora da primeira mensagem SIP relevante (até mais, cancelamento, mensagem ou informações).</span><span class="sxs-lookup"><span data-stu-id="564b8-191">If there is no INVITE message then the field is populated with the date and time of the first relevant SIP message (BYE, CANCEL, MESSAGE, or INFO).</span></span></p></td>
+<td><p><span data-ttu-id="11c62-189">Código de resposta do Protocolo de Iniciação de Sessão (SIP) para o convite da sessão.</span><span class="sxs-lookup"><span data-stu-id="11c62-189">Session Initiation Protocol (SIP) response code to the session invitation.</span></span> <span data-ttu-id="11c62-190">Este campo é geralmente preenchido por dados gerados da mensagem INVITE inicial em uma sessão.</span><span class="sxs-lookup"><span data-stu-id="11c62-190">This field is typically populated by data generated from the initial INVITE message in the session.</span></span> <span data-ttu-id="11c62-191">Caso não haja nenhuma mensagem CONVIDAR, o campo é preenchidos com a data e horário da primeira mensagem de SIP relevante (ATÉ LOGO, CANCELAR, MENSAGEM ou INFO).</span><span class="sxs-lookup"><span data-stu-id="11c62-191">If there is no INVITE message then the field is populated with the date and time of the first relevant SIP message (BYE, CANCEL, MESSAGE, or INFO).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="564b8-192"><strong>Diagnosticid</strong></span><span class="sxs-lookup"><span data-stu-id="564b8-192"><strong>DiagnosticId</strong></span></span></p></td>
-<td><p><span data-ttu-id="564b8-193">int</span><span class="sxs-lookup"><span data-stu-id="564b8-193">int</span></span></p></td>
+<td><p><span data-ttu-id="11c62-192"><strong>Diagnosticid</strong></span><span class="sxs-lookup"><span data-stu-id="11c62-192"><strong>DiagnosticId</strong></span></span></p></td>
+<td><p><span data-ttu-id="11c62-193">int</span><span class="sxs-lookup"><span data-stu-id="11c62-193">int</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="564b8-194">ID de diagnóstico capturada do cabeçalho SIP.</span><span class="sxs-lookup"><span data-stu-id="564b8-194">Diagnostic ID captured from SIP header.</span></span></p></td>
+<td><p><span data-ttu-id="11c62-194">ID de diagnóstico capturado do cabeçalho do SIP.</span><span class="sxs-lookup"><span data-stu-id="11c62-194">Diagnostic ID captured from SIP header.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="564b8-195"><strong>ServerID</strong></span><span class="sxs-lookup"><span data-stu-id="564b8-195"><strong>ServerId</strong></span></span></p></td>
-<td><p><span data-ttu-id="564b8-196">int</span><span class="sxs-lookup"><span data-stu-id="564b8-196">int</span></span></p></td>
-<td><p><span data-ttu-id="564b8-197">Exterior</span><span class="sxs-lookup"><span data-stu-id="564b8-197">Foreign</span></span></p></td>
-<td><p><span data-ttu-id="564b8-198">ID do servidor front-end usado para esta sessão.</span><span class="sxs-lookup"><span data-stu-id="564b8-198">ID of the front-end server used for this session.</span></span> <span data-ttu-id="564b8-199">Consulte a <a href="lync-server-2013-servers-table.md">tabela servidores no Lync Server 2013</a> para obter mais informações.</span><span class="sxs-lookup"><span data-stu-id="564b8-199">See the <a href="lync-server-2013-servers-table.md">Servers table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="11c62-195"><strong>ServerId</strong></span><span class="sxs-lookup"><span data-stu-id="11c62-195"><strong>ServerId</strong></span></span></p></td>
+<td><p><span data-ttu-id="11c62-196">int</span><span class="sxs-lookup"><span data-stu-id="11c62-196">int</span></span></p></td>
+<td><p><span data-ttu-id="11c62-197">Estrangeira</span><span class="sxs-lookup"><span data-stu-id="11c62-197">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="11c62-198">A ID do servidor Front-End usado para esta sessão.</span><span class="sxs-lookup"><span data-stu-id="11c62-198">ID of the front-end server used for this session.</span></span> <span data-ttu-id="11c62-199">Consulte a <a href="lync-server-2013-servers-table.md">tabela de servidores no Lync Server 2013</a> para obter mais informações.</span><span class="sxs-lookup"><span data-stu-id="11c62-199">See the <a href="lync-server-2013-servers-table.md">Servers table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="564b8-200"><strong>Poolid</strong></span><span class="sxs-lookup"><span data-stu-id="564b8-200"><strong>PoolId</strong></span></span></p></td>
-<td><p><span data-ttu-id="564b8-201">int</span><span class="sxs-lookup"><span data-stu-id="564b8-201">int</span></span></p></td>
-<td><p><span data-ttu-id="564b8-202">Exterior</span><span class="sxs-lookup"><span data-stu-id="564b8-202">Foreign</span></span></p></td>
-<td><p><span data-ttu-id="564b8-203">ID do pool no qual a sessão foi capturada.</span><span class="sxs-lookup"><span data-stu-id="564b8-203">ID of the pool in which the session was captured.</span></span> <span data-ttu-id="564b8-204">Consulte a <a href="lync-server-2013-pools-table.md">tabela de grupos no Lync Server 2013</a> para obter mais informações.</span><span class="sxs-lookup"><span data-stu-id="564b8-204">See the <a href="lync-server-2013-pools-table.md">Pools table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="11c62-200"><strong>Poolid</strong></span><span class="sxs-lookup"><span data-stu-id="11c62-200"><strong>PoolId</strong></span></span></p></td>
+<td><p><span data-ttu-id="11c62-201">int</span><span class="sxs-lookup"><span data-stu-id="11c62-201">int</span></span></p></td>
+<td><p><span data-ttu-id="11c62-202">Estrangeira</span><span class="sxs-lookup"><span data-stu-id="11c62-202">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="11c62-203">A ID do pool no qual a sessão foi capturada.</span><span class="sxs-lookup"><span data-stu-id="11c62-203">ID of the pool in which the session was captured.</span></span> <span data-ttu-id="11c62-204">Consulte a <a href="lync-server-2013-pools-table.md">tabela pools no Lync Server 2013</a> para obter mais informações.</span><span class="sxs-lookup"><span data-stu-id="11c62-204">See the <a href="lync-server-2013-pools-table.md">Pools table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="564b8-205"><strong>MediationServerId</strong></span><span class="sxs-lookup"><span data-stu-id="564b8-205"><strong>MediationServerId</strong></span></span></p></td>
-<td><p><span data-ttu-id="564b8-206">int</span><span class="sxs-lookup"><span data-stu-id="564b8-206">int</span></span></p></td>
-<td><p><span data-ttu-id="564b8-207">Exterior</span><span class="sxs-lookup"><span data-stu-id="564b8-207">Foreign</span></span></p></td>
-<td><p><span data-ttu-id="564b8-208">O servidor de mediação que a chamada está usando.</span><span class="sxs-lookup"><span data-stu-id="564b8-208">The Mediation Server the call is using.</span></span> <span data-ttu-id="564b8-209">Consulte a <a href="lync-server-2013-mediationservers-table.md">tabela MediationServers no Lync Server 2013</a> para obter mais informações.</span><span class="sxs-lookup"><span data-stu-id="564b8-209">See the <a href="lync-server-2013-mediationservers-table.md">MediationServers table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="11c62-205"><strong>MediationServerId</strong></span><span class="sxs-lookup"><span data-stu-id="11c62-205"><strong>MediationServerId</strong></span></span></p></td>
+<td><p><span data-ttu-id="11c62-206">int</span><span class="sxs-lookup"><span data-stu-id="11c62-206">int</span></span></p></td>
+<td><p><span data-ttu-id="11c62-207">Estrangeira</span><span class="sxs-lookup"><span data-stu-id="11c62-207">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="11c62-208">O servidor de mediação que a chamada está usando.</span><span class="sxs-lookup"><span data-stu-id="11c62-208">The Mediation Server the call is using.</span></span> <span data-ttu-id="11c62-209">Consulte a <a href="lync-server-2013-mediationservers-table.md">tabela MediationServers no Lync Server 2013</a> para obter mais informações.</span><span class="sxs-lookup"><span data-stu-id="11c62-209">See the <a href="lync-server-2013-mediationservers-table.md">MediationServers table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="564b8-210"><strong>Gatewayid</strong></span><span class="sxs-lookup"><span data-stu-id="564b8-210"><strong>GatewayId</strong></span></span></p></td>
-<td><p><span data-ttu-id="564b8-211">int</span><span class="sxs-lookup"><span data-stu-id="564b8-211">int</span></span></p></td>
-<td><p><span data-ttu-id="564b8-212">Exterior</span><span class="sxs-lookup"><span data-stu-id="564b8-212">Foreign</span></span></p></td>
-<td><p><span data-ttu-id="564b8-213">O gateway que a chamada está usando.</span><span class="sxs-lookup"><span data-stu-id="564b8-213">The gateway the call is using.</span></span> <span data-ttu-id="564b8-214">Consulte a <a href="lync-server-2013-gateways-table.md">tabela gateways no Lync Server 2013</a> para obter mais informações.</span><span class="sxs-lookup"><span data-stu-id="564b8-214">See the <a href="lync-server-2013-gateways-table.md">Gateways table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="11c62-210"><strong>Gatewayid</strong></span><span class="sxs-lookup"><span data-stu-id="11c62-210"><strong>GatewayId</strong></span></span></p></td>
+<td><p><span data-ttu-id="11c62-211">int</span><span class="sxs-lookup"><span data-stu-id="11c62-211">int</span></span></p></td>
+<td><p><span data-ttu-id="11c62-212">Estrangeira</span><span class="sxs-lookup"><span data-stu-id="11c62-212">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="11c62-213">O gateway que a chamada está usando.</span><span class="sxs-lookup"><span data-stu-id="11c62-213">The gateway the call is using.</span></span> <span data-ttu-id="11c62-214">Consulte a <a href="lync-server-2013-gateways-table.md">tabela gateways no Lync Server 2013</a> para obter mais informações.</span><span class="sxs-lookup"><span data-stu-id="11c62-214">See the <a href="lync-server-2013-gateways-table.md">Gateways table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="564b8-215"><strong>EdgeServerId</strong></span><span class="sxs-lookup"><span data-stu-id="564b8-215"><strong>EdgeServerId</strong></span></span></p></td>
-<td><p><span data-ttu-id="564b8-216">int</span><span class="sxs-lookup"><span data-stu-id="564b8-216">int</span></span></p></td>
-<td><p><span data-ttu-id="564b8-217">Exterior</span><span class="sxs-lookup"><span data-stu-id="564b8-217">Foreign</span></span></p></td>
-<td><p><span data-ttu-id="564b8-218">O servidor de borda que a chamada está usando.</span><span class="sxs-lookup"><span data-stu-id="564b8-218">The Edge Server the call is using.</span></span> <span data-ttu-id="564b8-219">Consulte a <a href="lync-server-2013-edgeservers-table.md">tabela EdgeServers no Lync Server 2013</a> para obter mais informações.</span><span class="sxs-lookup"><span data-stu-id="564b8-219">See the <a href="lync-server-2013-edgeservers-table.md">EdgeServers table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="11c62-215"><strong>EdgeServerId</strong></span><span class="sxs-lookup"><span data-stu-id="11c62-215"><strong>EdgeServerId</strong></span></span></p></td>
+<td><p><span data-ttu-id="11c62-216">int</span><span class="sxs-lookup"><span data-stu-id="11c62-216">int</span></span></p></td>
+<td><p><span data-ttu-id="11c62-217">Estrangeira</span><span class="sxs-lookup"><span data-stu-id="11c62-217">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="11c62-218">O Servidor de Borda que a chamada está usando.</span><span class="sxs-lookup"><span data-stu-id="11c62-218">The Edge Server the call is using.</span></span> <span data-ttu-id="11c62-219">Consulte a <a href="lync-server-2013-edgeservers-table.md">tabela EdgeServers no Lync Server 2013</a> para obter mais informações.</span><span class="sxs-lookup"><span data-stu-id="11c62-219">See the <a href="lync-server-2013-edgeservers-table.md">EdgeServers table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="564b8-220"><strong>ContentTypeid</strong></span><span class="sxs-lookup"><span data-stu-id="564b8-220"><strong>ContentTypeId</strong></span></span></p></td>
-<td><p><span data-ttu-id="564b8-221">int</span><span class="sxs-lookup"><span data-stu-id="564b8-221">int</span></span></p></td>
-<td><p><span data-ttu-id="564b8-222">Exterior</span><span class="sxs-lookup"><span data-stu-id="564b8-222">Foreign</span></span></p></td>
-<td><p><span data-ttu-id="564b8-223">Tipo de conteúdo usado na sessão.</span><span class="sxs-lookup"><span data-stu-id="564b8-223">Content type used in the session.</span></span> <span data-ttu-id="564b8-224">Consulte a <a href="lync-server-2013-contenttypes-table.md">tabela ContentTypes no Lync Server 2013</a> para obter mais informações.</span><span class="sxs-lookup"><span data-stu-id="564b8-224">See the <a href="lync-server-2013-contenttypes-table.md">ContentTypes table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="11c62-220"><strong>ContentTypeId</strong></span><span class="sxs-lookup"><span data-stu-id="11c62-220"><strong>ContentTypeId</strong></span></span></p></td>
+<td><p><span data-ttu-id="11c62-221">int</span><span class="sxs-lookup"><span data-stu-id="11c62-221">int</span></span></p></td>
+<td><p><span data-ttu-id="11c62-222">Estrangeira</span><span class="sxs-lookup"><span data-stu-id="11c62-222">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="11c62-223">Tipo de conteúdo usado na sessão.</span><span class="sxs-lookup"><span data-stu-id="11c62-223">Content type used in the session.</span></span> <span data-ttu-id="11c62-224">Consulte a <a href="lync-server-2013-contenttypes-table.md">tabela ContentTypes no Lync Server 2013</a> para obter mais informações.</span><span class="sxs-lookup"><span data-stu-id="11c62-224">See the <a href="lync-server-2013-contenttypes-table.md">ContentTypes table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="564b8-225"><strong>Invitetime</strong></span><span class="sxs-lookup"><span data-stu-id="564b8-225"><strong>InviteTime</strong></span></span></p></td>
-<td><p><span data-ttu-id="564b8-226">datetime</span><span class="sxs-lookup"><span data-stu-id="564b8-226">datetime</span></span></p></td>
+<td><p><span data-ttu-id="11c62-225"><strong>Invitetime</strong></span><span class="sxs-lookup"><span data-stu-id="11c62-225"><strong>InviteTime</strong></span></span></p></td>
+<td><p><span data-ttu-id="11c62-226">datetime</span><span class="sxs-lookup"><span data-stu-id="11c62-226">datetime</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="564b8-227">A hora da primeira solicitação INVITE.</span><span class="sxs-lookup"><span data-stu-id="564b8-227">The time of the first INVITE request.</span></span> <span data-ttu-id="564b8-228">Geralmente, esse campo é preenchido por dados gerados da mensagem de convite inicial na sessão.</span><span class="sxs-lookup"><span data-stu-id="564b8-228">This field is typically populated by data generated from the initial INVITE message in the session.</span></span> <span data-ttu-id="564b8-229">Se não houver nenhuma mensagem de convite, o campo será preenchido com a data e a hora da primeira mensagem SIP relevante (até mais, cancelamento, mensagem ou informações).</span><span class="sxs-lookup"><span data-stu-id="564b8-229">If there is no INVITE message then the field is populated with the date and time of the first relevant SIP message (BYE, CANCEL, MESSAGE, or INFO).</span></span></p></td>
+<td><p><span data-ttu-id="11c62-p121">A hora da primeira solicitação INVITE. Este campo é geralmente preenchido por dados gerados da mensagem INVITE inicial em uma sessão. Se não houver mensagem INVITE, então o campo será preenchido com a data e hora da primeira mensagem SIP relevante (BYE, CANCEL, MESSAGE ou INFO).</span><span class="sxs-lookup"><span data-stu-id="11c62-p121">The time of the first INVITE request. This field is typically populated by data generated from the initial INVITE message in the session. If there is no INVITE message then the field is populated with the date and time of the first relevant SIP message (BYE, CANCEL, MESSAGE, or INFO).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="564b8-230"><strong>ResponseTime</strong></span><span class="sxs-lookup"><span data-stu-id="564b8-230"><strong>ResponseTime</strong></span></span></p></td>
-<td><p><span data-ttu-id="564b8-231">datetime</span><span class="sxs-lookup"><span data-stu-id="564b8-231">datetime</span></span></p></td>
+<td><p><span data-ttu-id="11c62-230"><strong>ResponseTime</strong></span><span class="sxs-lookup"><span data-stu-id="11c62-230"><strong>ResponseTime</strong></span></span></p></td>
+<td><p><span data-ttu-id="11c62-231">datetime</span><span class="sxs-lookup"><span data-stu-id="11c62-231">datetime</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="564b8-232">Hora da primeira resposta SIP.</span><span class="sxs-lookup"><span data-stu-id="564b8-232">Time of the first SIP RESPONSE.</span></span> <span data-ttu-id="564b8-233">Geralmente, esse campo é preenchido por dados gerados da mensagem de convite inicial na sessão.</span><span class="sxs-lookup"><span data-stu-id="564b8-233">This field is typically populated by data generated from the initial INVITE message in the session.</span></span> <span data-ttu-id="564b8-234">Se não houver nenhuma mensagem de convite, o campo será preenchido com a data e a hora da primeira mensagem SIP relevante (até mais, cancelamento, mensagem ou informações).</span><span class="sxs-lookup"><span data-stu-id="564b8-234">If there is no INVITE message then the field is populated with the date and time of the first relevant SIP message (BYE, CANCEL, MESSAGE, or INFO).</span></span></p></td>
+<td><p><span data-ttu-id="11c62-232">A hora da primeira SIP RESPONSE.</span><span class="sxs-lookup"><span data-stu-id="11c62-232">Time of the first SIP RESPONSE.</span></span> <span data-ttu-id="11c62-233">Este campo é geralmente preenchido por dados gerados da mensagem INVITE inicial em uma sessão.</span><span class="sxs-lookup"><span data-stu-id="11c62-233">This field is typically populated by data generated from the initial INVITE message in the session.</span></span> <span data-ttu-id="11c62-234">Se não houver mensagem INVITE, então o campo será preenchido com a data e hora da primeira mensagem SIP relevante (BYE, CANCEL, MESSAGE ou INFO).</span><span class="sxs-lookup"><span data-stu-id="11c62-234">If there is no INVITE message then the field is populated with the date and time of the first relevant SIP message (BYE, CANCEL, MESSAGE, or INFO).</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="564b8-235"><strong>SessionEndTime</strong></span><span class="sxs-lookup"><span data-stu-id="564b8-235"><strong>SessionEndTime</strong></span></span></p></td>
-<td><p><span data-ttu-id="564b8-236">datetime</span><span class="sxs-lookup"><span data-stu-id="564b8-236">datetime</span></span></p></td>
+<td><p><span data-ttu-id="11c62-235"><strong>SessionEndTime</strong></span><span class="sxs-lookup"><span data-stu-id="11c62-235"><strong>SessionEndTime</strong></span></span></p></td>
+<td><p><span data-ttu-id="11c62-236">datetime</span><span class="sxs-lookup"><span data-stu-id="11c62-236">datetime</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="564b8-237">A hora de término da sessão.</span><span class="sxs-lookup"><span data-stu-id="564b8-237">The time when the session is ended.</span></span></p></td>
+<td><p><span data-ttu-id="11c62-237">O horário em que a sessão terminou.</span><span class="sxs-lookup"><span data-stu-id="11c62-237">The time when the session is ended.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="564b8-238"><strong>UriTypeId</strong></span><span class="sxs-lookup"><span data-stu-id="564b8-238"><strong>UriTypeId</strong></span></span></p></td>
-<td><p><span data-ttu-id="564b8-239">tinyint</span><span class="sxs-lookup"><span data-stu-id="564b8-239">tinyint</span></span></p></td>
-<td><p><span data-ttu-id="564b8-240">Exterior</span><span class="sxs-lookup"><span data-stu-id="564b8-240">Foreign</span></span></p></td>
-<td><p><span data-ttu-id="564b8-241">Contém o valor do tipo URI de MCU da <a href="lync-server-2013-uritypes-table.md">tabela UriTypes no Lync Server 2013</a>.</span><span class="sxs-lookup"><span data-stu-id="564b8-241">Contains the MCU URI type value from the <a href="lync-server-2013-uritypes-table.md">UriTypes table in Lync Server 2013</a>.</span></span> <span data-ttu-id="564b8-242">Este campo é usado para melhorar o desempenho das consultas.</span><span class="sxs-lookup"><span data-stu-id="564b8-242">This field is used for improving query performance.</span></span></p>
-<p><span data-ttu-id="564b8-243">Este campo foi apresentado no Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="564b8-243">This field was introduced in Microsoft Lync Server 2013.</span></span></p></td>
+<td><p><span data-ttu-id="11c62-238"><strong>UriTypeId</strong></span><span class="sxs-lookup"><span data-stu-id="11c62-238"><strong>UriTypeId</strong></span></span></p></td>
+<td><p><span data-ttu-id="11c62-239">tinyint</span><span class="sxs-lookup"><span data-stu-id="11c62-239">tinyint</span></span></p></td>
+<td><p><span data-ttu-id="11c62-240">Estrangeira</span><span class="sxs-lookup"><span data-stu-id="11c62-240">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="11c62-241">Contém o valor do tipo URI MCU da <a href="lync-server-2013-uritypes-table.md">tabela UriTypes no Lync Server 2013</a>.</span><span class="sxs-lookup"><span data-stu-id="11c62-241">Contains the MCU URI type value from the <a href="lync-server-2013-uritypes-table.md">UriTypes table in Lync Server 2013</a>.</span></span> <span data-ttu-id="11c62-242">Esse campo é usado para melhorar o desempenho da consulta.</span><span class="sxs-lookup"><span data-stu-id="11c62-242">This field is used for improving query performance.</span></span></p>
+<p><span data-ttu-id="11c62-243">Este campo foi introduzido no Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="11c62-243">This field was introduced in Microsoft Lync Server 2013.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="564b8-244"><strong>Sinalizador</strong></span><span class="sxs-lookup"><span data-stu-id="564b8-244"><strong>UserFlag</strong></span></span></p></td>
-<td><p><span data-ttu-id="564b8-245">smallint</span><span class="sxs-lookup"><span data-stu-id="564b8-245">smallint</span></span></p></td>
+<td><p><span data-ttu-id="11c62-244"><strong>Sinalizador</strong></span><span class="sxs-lookup"><span data-stu-id="11c62-244"><strong>UserFlag</strong></span></span></p></td>
+<td><p><span data-ttu-id="11c62-245">smallint</span><span class="sxs-lookup"><span data-stu-id="11c62-245">smallint</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="564b8-246">Um conjunto de bits que indica os atributos de usuário.</span><span class="sxs-lookup"><span data-stu-id="564b8-246">A bit set that indicates the user attributes.</span></span> <span data-ttu-id="564b8-247">As definições de atributo a seguir estão listadas:</span><span class="sxs-lookup"><span data-stu-id="564b8-247">The following attribute definitions are listed:</span></span></p>
+<td><p><span data-ttu-id="11c62-p124">Um conjunto de bits que indica os atributos do usuário. As definições de atributo a seguir são listadas:</span><span class="sxs-lookup"><span data-stu-id="11c62-p124">A bit set that indicates the user attributes. The following attribute definitions are listed:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="564b8-248">Integrado ao telefone de mesa-1</span><span class="sxs-lookup"><span data-stu-id="564b8-248">Integrated with desktop phone - 1</span></span></p></li>
+<li><p><span data-ttu-id="11c62-248">Integrado com telefone de mesa - 1</span><span class="sxs-lookup"><span data-stu-id="11c62-248">Integrated with desktop phone - 1</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="564b8-249"><strong>CallFlag</strong></span><span class="sxs-lookup"><span data-stu-id="564b8-249"><strong>CallFlag</strong></span></span></p></td>
-<td><p><span data-ttu-id="564b8-250">smallint</span><span class="sxs-lookup"><span data-stu-id="564b8-250">smallint</span></span></p></td>
+<td><p><span data-ttu-id="11c62-249"><strong>CallFlag</strong></span><span class="sxs-lookup"><span data-stu-id="11c62-249"><strong>CallFlag</strong></span></span></p></td>
+<td><p><span data-ttu-id="11c62-250">smallint</span><span class="sxs-lookup"><span data-stu-id="11c62-250">smallint</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="564b8-251">Um conjunto de bits que indica os atributos da chamada.</span><span class="sxs-lookup"><span data-stu-id="564b8-251">A bit set that indicates the call attributes.</span></span> <span data-ttu-id="564b8-252">As definições de atributo a seguir estão listadas:</span><span class="sxs-lookup"><span data-stu-id="564b8-252">The following attribute definitions are listed:</span></span></p>
+<td><p><span data-ttu-id="11c62-p125">Um conjunto de bits que indica os atributos da chamada. As definições de atributo a seguir são listadas:</span><span class="sxs-lookup"><span data-stu-id="11c62-p125">A bit set that indicates the call attributes. The following attribute definitions are listed:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="564b8-253">Sessão 1 repetida</span><span class="sxs-lookup"><span data-stu-id="564b8-253">Retried Session - 1</span></span></p></li>
+<li><p><span data-ttu-id="11c62-253">Sessão Repetida - 1</span><span class="sxs-lookup"><span data-stu-id="11c62-253">Retried Session - 1</span></span></p></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="564b8-254">\*Para a maioria das sessões, o SessionIdSeq terá o valor de 1.</span><span class="sxs-lookup"><span data-stu-id="564b8-254">\* For most sessions, SessionIdSeq will have the value of 1.</span></span> <span data-ttu-id="564b8-255">Se várias sessões começarem exatamente ao mesmo tempo, o SessionIdSeq de uma será 1, por outro será 2, e assim por diante.</span><span class="sxs-lookup"><span data-stu-id="564b8-255">If multiple sessions start at exactly the same time, the SessionIdSeq for one will be 1, for another will be 2, and so on.</span></span>
+<span data-ttu-id="11c62-254">\*Para a maioria das sessões, SessionIdSeq terá o valor 1.</span><span class="sxs-lookup"><span data-stu-id="11c62-254">\* For most sessions, SessionIdSeq will have the value of 1.</span></span> <span data-ttu-id="11c62-255">Se várias sessões iniciam exatamente ao mesmo tempo, o SessionIdSeq para uma delas será 1 e para a outra será 2 e assim por diante.</span><span class="sxs-lookup"><span data-stu-id="11c62-255">If multiple sessions start at exactly the same time, the SessionIdSeq for one will be 1, for another will be 2, and so on.</span></span>
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Acessibilidade'
+title: Lync Server 2013 acessibilidade
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183681
 ms.date: 01/15/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0b3830196baea942bcbdf2109b9a3a761083cd02
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ddaf4d5c8d85adfd7d69955df20ab6018966845b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730473"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037883"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="accessibility-in-lync-server-2013"></a><span data-ttu-id="a0753-102">Acessibilidade no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a0753-102">Accessibility in Lync Server 2013</span></span>
+# <a name="accessibility-in-lync-server-2013"></a><span data-ttu-id="fd7d3-102">Acessibilidade no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="fd7d3-102">Accessibility in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41730473"
 
 <span> </span>
 
-<span data-ttu-id="a0753-103">_**Tópico da última modificação:** 2014-10-09_</span><span class="sxs-lookup"><span data-stu-id="a0753-103">_**Topic Last Modified:** 2014-10-09_</span></span>
+<span data-ttu-id="fd7d3-103">_**Última modificação do tópico:** 2014-10-09_</span><span class="sxs-lookup"><span data-stu-id="fd7d3-103">_**Topic Last Modified:** 2014-10-09_</span></span>
 
-<span data-ttu-id="a0753-104">A Microsoft está comprometida em fazer com que seus produtos e serviços sejam mais fáceis de usar.</span><span class="sxs-lookup"><span data-stu-id="a0753-104">Microsoft is committed to making its products and services easier for everyone to use.</span></span> <span data-ttu-id="a0753-105">As seções a seguir fornecem informações sobre os recursos, produtos e serviços que ajudam a tornar o Lync Server 2013 mais acessível para pessoas com deficiências.</span><span class="sxs-lookup"><span data-stu-id="a0753-105">The following sections provide information about the features, products, and services that help make Lync Server 2013 more accessible for people with disabilities.</span></span>
+<span data-ttu-id="fd7d3-104">A Microsoft está comprometida com a fabricação de produtos e serviços que sejam fáceis para todos usarem.</span><span class="sxs-lookup"><span data-stu-id="fd7d3-104">Microsoft is committed to making its products and services easier for everyone to use.</span></span> <span data-ttu-id="fd7d3-105">As seções a seguir fornecem informações sobre os recursos, produtos e serviços que ajudam a tornar o Lync Server 2013 mais acessível para pessoas com deficiências.</span><span class="sxs-lookup"><span data-stu-id="fd7d3-105">The following sections provide information about the features, products, and services that help make Lync Server 2013 more accessible for people with disabilities.</span></span>
 
 <div>
 
-## <a name="accessibility-features-of-lync-server-2013"></a><span data-ttu-id="a0753-106">Recursos de acessibilidade do Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a0753-106">Accessibility features of Lync Server 2013</span></span>
+## <a name="accessibility-features-of-lync-server-2013"></a><span data-ttu-id="fd7d3-106">Recursos de acessibilidade do Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="fd7d3-106">Accessibility features of Lync Server 2013</span></span>
 
-<span data-ttu-id="a0753-107">Os recursos a seguir do Lync Server 2013 ajudam a torná-lo mais acessível para pessoas com deficiências:</span><span class="sxs-lookup"><span data-stu-id="a0753-107">The following features in Lync Server 2013 help make it more accessible for people with disabilities:</span></span>
+<span data-ttu-id="fd7d3-107">Os seguintes recursos no Lync Server 2013 ajudam a torná-lo mais acessível para pessoas com deficiências:</span><span class="sxs-lookup"><span data-stu-id="fd7d3-107">The following features in Lync Server 2013 help make it more accessible for people with disabilities:</span></span>
 
-  - <span data-ttu-id="a0753-108">Atalhos de teclado</span><span class="sxs-lookup"><span data-stu-id="a0753-108">Keyboard Shortcuts</span></span>
+  - <span data-ttu-id="fd7d3-108">Atalhos do teclado</span><span class="sxs-lookup"><span data-stu-id="fd7d3-108">Keyboard Shortcuts</span></span>
 
-  - <span data-ttu-id="a0753-109">Texto alternativo para números</span><span class="sxs-lookup"><span data-stu-id="a0753-109">Alternate text for figures</span></span>
+  - <span data-ttu-id="fd7d3-109">Texto alternativos para números</span><span class="sxs-lookup"><span data-stu-id="fd7d3-109">Alternate text for figures</span></span>
 
-<span data-ttu-id="a0753-110">Além disso, alguns recursos e ferramentas de acessibilidade do Windows podem beneficiar os usuários do Lync Server com necessidades especiais.</span><span class="sxs-lookup"><span data-stu-id="a0753-110">In addition, some accessibility features and tools of Windows may benefit Lync Server users with disabilities.</span></span> <span data-ttu-id="a0753-111">As alterações de tamanho e cor do Windows PowerShell fornecem opções de acessibilidade ao usar o Shell de gerenciamento do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="a0753-111">Windows PowerShell size and color changes provide accessibility options when using the Lync Server Management Shell.</span></span> <span data-ttu-id="a0753-112">Para obter detalhes sobre as opções de acessibilidade do Windows PowerShell, consulte "acessibilidade no Windows PowerShell 2,0" na [http://go.microsoft.com/fwlink/p/?linkId=98964](http://go.microsoft.com/fwlink/p/?linkid=98964)biblioteca do TechNet em.</span><span class="sxs-lookup"><span data-stu-id="a0753-112">For details about Windows PowerShell accessibility options, see “Accessibility in Windows PowerShell 2.0” in the TechNet Library at [http://go.microsoft.com/fwlink/p/?linkId=98964](http://go.microsoft.com/fwlink/p/?linkid=98964).</span></span>
+<span data-ttu-id="fd7d3-110">Além disso, alguns recursos e ferramentas de acessibilidade do Windows podem beneficiar os usuários do Lync Server com deficiências.</span><span class="sxs-lookup"><span data-stu-id="fd7d3-110">In addition, some accessibility features and tools of Windows may benefit Lync Server users with disabilities.</span></span> <span data-ttu-id="fd7d3-111">As alterações de tamanho e cor do Windows PowerShell fornecem opções de acessibilidade ao usar o Shell de gerenciamento do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="fd7d3-111">Windows PowerShell size and color changes provide accessibility options when using the Lync Server Management Shell.</span></span> <span data-ttu-id="fd7d3-112">Para obter detalhes sobre as opções de acessibilidade do Windows PowerShell, consulte "acessibilidade no Windows PowerShell 2,0", [http://go.microsoft.com/fwlink/p/?linkId=98964](http://go.microsoft.com/fwlink/p/?linkid=98964)na biblioteca do TechNet em.</span><span class="sxs-lookup"><span data-stu-id="fd7d3-112">For details about Windows PowerShell accessibility options, see “Accessibility in Windows PowerShell 2.0” in the TechNet Library at [http://go.microsoft.com/fwlink/p/?linkId=98964](http://go.microsoft.com/fwlink/p/?linkid=98964).</span></span>
 
 </div>
 
@@ -57,11 +57,11 @@ ms.locfileid: "41730473"
 
 <div>
 
-## <a name="keyboard-shortcuts"></a><span data-ttu-id="a0753-113">Atalhos de teclado</span><span class="sxs-lookup"><span data-stu-id="a0753-113">Keyboard shortcuts</span></span>
+## <a name="keyboard-shortcuts"></a><span data-ttu-id="fd7d3-113">Atalhos do teclado</span><span class="sxs-lookup"><span data-stu-id="fd7d3-113">Keyboard shortcuts</span></span>
 
-<span data-ttu-id="a0753-114">Você pode usar atalhos de teclado para interagir com a interface do usuário nas ferramentas administrativas do Lync Server e outros recursos.</span><span class="sxs-lookup"><span data-stu-id="a0753-114">You can use keyboard shortcuts to interact with the user interface in Lync Server administrative tools and other features.</span></span>
+<span data-ttu-id="fd7d3-114">Você pode usar atalhos de teclado para interagir com a interface do usuário em ferramentas administrativas do Lync Server e outros recursos.</span><span class="sxs-lookup"><span data-stu-id="fd7d3-114">You can use keyboard shortcuts to interact with the user interface in Lync Server administrative tools and other features.</span></span>
 
-<span data-ttu-id="a0753-115">Ao usar atalhos de teclado, você pode realizar rapidamente as seguintes tarefas comuns.</span><span class="sxs-lookup"><span data-stu-id="a0753-115">By using keyboard shortcuts, you can quickly accomplish the following common tasks.</span></span>
+<span data-ttu-id="fd7d3-115">Usando os atalhos do teclado, você deve realizar rapidamente as seguintes tarefas comuns.</span><span class="sxs-lookup"><span data-stu-id="fd7d3-115">By using keyboard shortcuts, you can quickly accomplish the following common tasks.</span></span>
 
 
 <table>
@@ -71,62 +71,62 @@ ms.locfileid: "41730473"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="a0753-116">Para fazer isso</span><span class="sxs-lookup"><span data-stu-id="a0753-116">To do this</span></span></th>
-<th><span data-ttu-id="a0753-117">Use este atalho de teclado</span><span class="sxs-lookup"><span data-stu-id="a0753-117">Use this keyboard shortcut</span></span></th>
+<th><span data-ttu-id="fd7d3-116">Para fazer isso</span><span class="sxs-lookup"><span data-stu-id="fd7d3-116">To do this</span></span></th>
+<th><span data-ttu-id="fd7d3-117">Use este atalho do teclado</span><span class="sxs-lookup"><span data-stu-id="fd7d3-117">Use this keyboard shortcut</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="a0753-118">Alternar entre elementos na interface do usuário.</span><span class="sxs-lookup"><span data-stu-id="a0753-118">Switch between elements in the user interface.</span></span></p></td>
-<td><p><span data-ttu-id="a0753-119">Abas</span><span class="sxs-lookup"><span data-stu-id="a0753-119">Tab</span></span></p></td>
+<td><p><span data-ttu-id="fd7d3-118">troque entre elementos na interface do usuário.</span><span class="sxs-lookup"><span data-stu-id="fd7d3-118">Switch between elements in the user interface.</span></span></p></td>
+<td><p><span data-ttu-id="fd7d3-119">Tab</span><span class="sxs-lookup"><span data-stu-id="fd7d3-119">Tab</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="a0753-120">Executar a ação para o elemento selecionado, como <strong>Mostrar tudo</strong>, <strong>Ocultar tudo</strong>ou abrir um hiperlink.</span><span class="sxs-lookup"><span data-stu-id="a0753-120">Perform the action for the selected element, such as <strong>Show All</strong>, <strong>Hide All</strong>, or open a hyperlink.</span></span></p></td>
-<td><p><span data-ttu-id="a0753-121">Dique</span><span class="sxs-lookup"><span data-stu-id="a0753-121">Enter</span></span></p></td>
+<td><p><span data-ttu-id="fd7d3-120">Realiza a ação do elemento selecionado, como <strong>Mostrar tudo</strong>, <strong>Ocultar tudo</strong> ou abrir um hyperlink.</span><span class="sxs-lookup"><span data-stu-id="fd7d3-120">Perform the action for the selected element, such as <strong>Show All</strong>, <strong>Hide All</strong>, or open a hyperlink.</span></span></p></td>
+<td><p><span data-ttu-id="fd7d3-121">Digite</span><span class="sxs-lookup"><span data-stu-id="fd7d3-121">Enter</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="a0753-122">Alterar o elemento selecionado para o próximo elemento na página ou em um menu.</span><span class="sxs-lookup"><span data-stu-id="a0753-122">Change the selected element to the next element on the page or in a menu.</span></span></p></td>
-<td><p><span data-ttu-id="a0753-123">Abas</span><span class="sxs-lookup"><span data-stu-id="a0753-123">Tab</span></span></p></td>
+<td><p><span data-ttu-id="fd7d3-122">Alterar o elemento selecionado próximo ao elemento na página ou em um menu.</span><span class="sxs-lookup"><span data-stu-id="fd7d3-122">Change the selected element to the next element on the page or in a menu.</span></span></p></td>
+<td><p><span data-ttu-id="fd7d3-123">Tab</span><span class="sxs-lookup"><span data-stu-id="fd7d3-123">Tab</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="a0753-124">Altere o elemento selecionado para o elemento anterior na página.</span><span class="sxs-lookup"><span data-stu-id="a0753-124">Change the selected element to the previous element on the page.</span></span></p></td>
-<td><p><span data-ttu-id="a0753-125">Shift + Tab</span><span class="sxs-lookup"><span data-stu-id="a0753-125">Shift+Tab</span></span></p></td>
+<td><p><span data-ttu-id="fd7d3-124">Alterar o elemento selecionado para o elemento anterior na página.</span><span class="sxs-lookup"><span data-stu-id="fd7d3-124">Change the selected element to the previous element on the page.</span></span></p></td>
+<td><p><span data-ttu-id="fd7d3-125">Shift + Tab</span><span class="sxs-lookup"><span data-stu-id="fd7d3-125">Shift+Tab</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="a0753-126">Alterar o elemento selecionado na página ou menu para cima, para baixo, para a esquerda ou para a direita.</span><span class="sxs-lookup"><span data-stu-id="a0753-126">Change the selected element on the page or menu up, down, left, or right.</span></span></p></td>
-<td><p><span data-ttu-id="a0753-127">Teclas de direção</span><span class="sxs-lookup"><span data-stu-id="a0753-127">Arrow Keys</span></span></p></td>
+<td><p><span data-ttu-id="fd7d3-126">Alterar o elemento selecionado na página ou menu para cima, para baixo, esquerda ou direita.</span><span class="sxs-lookup"><span data-stu-id="fd7d3-126">Change the selected element on the page or menu up, down, left, or right.</span></span></p></td>
+<td><p><span data-ttu-id="fd7d3-127">Teclas de seta</span><span class="sxs-lookup"><span data-stu-id="fd7d3-127">Arrow Keys</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="a0753-128">Expandir o nó selecionado na árvore.</span><span class="sxs-lookup"><span data-stu-id="a0753-128">Expand the selected node in tree.</span></span></p></td>
-<td><p><span data-ttu-id="a0753-129">+Chave</span><span class="sxs-lookup"><span data-stu-id="a0753-129">+ Key</span></span></p></td>
+<td><p><span data-ttu-id="fd7d3-128">Expandir o nó selecionado na árvore.</span><span class="sxs-lookup"><span data-stu-id="fd7d3-128">Expand the selected node in tree.</span></span></p></td>
+<td><p><span data-ttu-id="fd7d3-129">+Chaves</span><span class="sxs-lookup"><span data-stu-id="fd7d3-129">+ Key</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="a0753-130">Recolher o nó selecionado na árvore.</span><span class="sxs-lookup"><span data-stu-id="a0753-130">Collapse the selected node in the tree.</span></span></p></td>
-<td><p><span data-ttu-id="a0753-131">-Chave</span><span class="sxs-lookup"><span data-stu-id="a0753-131">- Key</span></span></p></td>
+<td><p><span data-ttu-id="fd7d3-130">Abrir o nó selecionado na árvore.</span><span class="sxs-lookup"><span data-stu-id="fd7d3-130">Collapse the selected node in the tree.</span></span></p></td>
+<td><p><span data-ttu-id="fd7d3-131">-Chaves</span><span class="sxs-lookup"><span data-stu-id="fd7d3-131">- Key</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="a0753-132">Acessar a barra de menus.</span><span class="sxs-lookup"><span data-stu-id="a0753-132">Access the menu bar.</span></span></p></td>
-<td><p><span data-ttu-id="a0753-133">+</span><span class="sxs-lookup"><span data-stu-id="a0753-133">Alt</span></span></p></td>
+<td><p><span data-ttu-id="fd7d3-132">Acessar a barra do menu.</span><span class="sxs-lookup"><span data-stu-id="fd7d3-132">Access the menu bar.</span></span></p></td>
+<td><p><span data-ttu-id="fd7d3-133">Alt</span><span class="sxs-lookup"><span data-stu-id="fd7d3-133">Alt</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="a0753-134">Acessar um comando da barra de menus.</span><span class="sxs-lookup"><span data-stu-id="a0753-134">Access a menu bar command.</span></span></p></td>
-<td><p><span data-ttu-id="a0753-135">Alt + a letra sublinhada no menu de atalho.</span><span class="sxs-lookup"><span data-stu-id="a0753-135">Alt+ the letter underlined in the shortcut menu.</span></span></p></td>
+<td><p><span data-ttu-id="fd7d3-134">Acessar o comando da barra do menu.</span><span class="sxs-lookup"><span data-stu-id="fd7d3-134">Access a menu bar command.</span></span></p></td>
+<td><p><span data-ttu-id="fd7d3-135">Alt+ a letra sublinhada no menu de atalho.</span><span class="sxs-lookup"><span data-stu-id="fd7d3-135">Alt+ the letter underlined in the shortcut menu.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="a0753-136">Selecione a lista suspensa no assistente de certificado.</span><span class="sxs-lookup"><span data-stu-id="a0753-136">Select the drop-down list in the Certificate Wizard.</span></span></p></td>
-<td><p><span data-ttu-id="a0753-137">Abas</span><span class="sxs-lookup"><span data-stu-id="a0753-137">Tab</span></span></p></td>
+<td><p><span data-ttu-id="fd7d3-136">Selecionar a lista suspensa no Assistente de Certificado.</span><span class="sxs-lookup"><span data-stu-id="fd7d3-136">Select the drop-down list in the Certificate Wizard.</span></span></p></td>
+<td><p><span data-ttu-id="fd7d3-137">Tab</span><span class="sxs-lookup"><span data-stu-id="fd7d3-137">Tab</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="a0753-138">Abrir a lista suspensa no assistente de certificado.</span><span class="sxs-lookup"><span data-stu-id="a0753-138">Open the drop-down list in the Certificate Wizard.</span></span></p></td>
-<td><p><span data-ttu-id="a0753-139">CTRL + barra de espaços</span><span class="sxs-lookup"><span data-stu-id="a0753-139">Ctrl+Spacebar</span></span></p></td>
+<td><p><span data-ttu-id="fd7d3-138">Abrir a lista suspensa no Assistente de Certificado.</span><span class="sxs-lookup"><span data-stu-id="fd7d3-138">Open the drop-down list in the Certificate Wizard.</span></span></p></td>
+<td><p><span data-ttu-id="fd7d3-139">CTRL + barra de espaços</span><span class="sxs-lookup"><span data-stu-id="fd7d3-139">Ctrl+Spacebar</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="a0753-140">Selecione um item na lista suspensa no assistente de certificado.</span><span class="sxs-lookup"><span data-stu-id="a0753-140">Highlight an item in the drop-down list in the Certificate Wizard.</span></span></p></td>
-<td><p><span data-ttu-id="a0753-141">E, em seguida, pressione CTRL + teclas de direção para mover-se entre os itens.</span><span class="sxs-lookup"><span data-stu-id="a0753-141">Tab, and then Ctrl+Arrow keys to move between items.</span></span></p></td>
+<td><p><span data-ttu-id="fd7d3-140">Destacar um item na lista suspensa no Assistente de Certificado.</span><span class="sxs-lookup"><span data-stu-id="fd7d3-140">Highlight an item in the drop-down list in the Certificate Wizard.</span></span></p></td>
+<td><p><span data-ttu-id="fd7d3-141">Tab e teclas Ctrl+seta para mover entre itens.</span><span class="sxs-lookup"><span data-stu-id="fd7d3-141">Tab, and then Ctrl+Arrow keys to move between items.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="a0753-142">Marcar ou desmarcar um item na lista suspensa no assistente de certificado.</span><span class="sxs-lookup"><span data-stu-id="a0753-142">Select or clear an item in the drop-down list in the Certificate Wizard.</span></span></p></td>
-<td><p><span data-ttu-id="a0753-143">CTRL + barra de espaços</span><span class="sxs-lookup"><span data-stu-id="a0753-143">Ctrl+Spacebar</span></span></p></td>
+<td><p><span data-ttu-id="fd7d3-142">Selecionar ou marcar um item na lista suspensa do Assistente de Certificado.</span><span class="sxs-lookup"><span data-stu-id="fd7d3-142">Select or clear an item in the drop-down list in the Certificate Wizard.</span></span></p></td>
+<td><p><span data-ttu-id="fd7d3-143">CTRL + barra de espaços</span><span class="sxs-lookup"><span data-stu-id="fd7d3-143">Ctrl+Spacebar</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -138,9 +138,9 @@ ms.locfileid: "41730473"
 
 <div>
 
-## <a name="alternate-text-for-figures"></a><span data-ttu-id="a0753-144">Texto alternativo para números</span><span class="sxs-lookup"><span data-stu-id="a0753-144">Alternate text for figures</span></span>
+## <a name="alternate-text-for-figures"></a><span data-ttu-id="fd7d3-144">Alterar texto para números</span><span class="sxs-lookup"><span data-stu-id="fd7d3-144">Alternate text for figures</span></span>
 
-<span data-ttu-id="a0753-145">Todas as figuras na ajuda do Lync Server 2013, incluindo capturas de tela, diagramas, fluxogramas e outros números, têm um texto alternativo associado.</span><span class="sxs-lookup"><span data-stu-id="a0753-145">Every figure in Lync Server 2013 Help, including screenshots, diagrams, flow charts, and other figures, has associated alternate text.</span></span> <span data-ttu-id="a0753-146">Os usuários que têm dificuldade para exibir os números podem pausar o cursor na figura para ler o texto alternativo.</span><span class="sxs-lookup"><span data-stu-id="a0753-146">Users who have difficulty viewing figures can pause the cursor on the figure to read the alternate text.</span></span> <span data-ttu-id="a0753-147">O texto alternativo descreve o que é mostrado na figura.</span><span class="sxs-lookup"><span data-stu-id="a0753-147">The alternate text describes what is shown in the figure.</span></span>
+<span data-ttu-id="fd7d3-145">Todas as figuras na ajuda do Lync Server 2013, incluindo capturas de tela, diagramas, gráficos de fluxo e outras figuras, têm texto alternativo associado.</span><span class="sxs-lookup"><span data-stu-id="fd7d3-145">Every figure in Lync Server 2013 Help, including screenshots, diagrams, flow charts, and other figures, has associated alternate text.</span></span> <span data-ttu-id="fd7d3-146">Os usuários com dificuldade em exibir imagens podem pausar o cursor na imagem para ler o texto alternativo.</span><span class="sxs-lookup"><span data-stu-id="fd7d3-146">Users who have difficulty viewing figures can pause the cursor on the figure to read the alternate text.</span></span> <span data-ttu-id="fd7d3-147">O texto alternativo descreve o que é mostrado na imagem.</span><span class="sxs-lookup"><span data-stu-id="fd7d3-147">The alternate text describes what is shown in the figure.</span></span>
 
 </div>
 
@@ -148,15 +148,15 @@ ms.locfileid: "41730473"
 
 <div>
 
-## <a name="accessibility-products-and-services-from-microsoft"></a><span data-ttu-id="a0753-148">Produtos e serviços de acessibilidade da Microsoft</span><span class="sxs-lookup"><span data-stu-id="a0753-148">Accessibility products and services from Microsoft</span></span>
+## <a name="accessibility-products-and-services-from-microsoft"></a><span data-ttu-id="fd7d3-148">Produtos de acessibilidade e serviços da Microsoft</span><span class="sxs-lookup"><span data-stu-id="fd7d3-148">Accessibility products and services from Microsoft</span></span>
 
-<span data-ttu-id="a0753-149">As seções a seguir fornecem informações sobre os recursos, produtos e serviços que tornam o Windows mais acessível para pessoas com deficiências.</span><span class="sxs-lookup"><span data-stu-id="a0753-149">The following sections provide information about the features, products, and services that make Windows more accessible for people with disabilities.</span></span>
+<span data-ttu-id="fd7d3-149">As seções a seguir fornecem informações sobre os recursos, produtos e serviços que tornam o Windows mais acessível para pessoas com deficiências.</span><span class="sxs-lookup"><span data-stu-id="fd7d3-149">The following sections provide information about the features, products, and services that make Windows more accessible for people with disabilities.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="a0753-150">As informações contidas nesta seção se aplicam apenas aos usuários que licenciam os produtos da Microsoft nos Estados Unidos.</span><span class="sxs-lookup"><span data-stu-id="a0753-150">The information in this section applies only to users who license Microsoft products in the United States.</span></span> <span data-ttu-id="a0753-151">Se você adquiriu este produto fora dos Estados Unidos, pode usar o cartão de informações da subsidiária que veio com seu pacote de software ou visitar o website Microsoft <A href="http://go.microsoft.com/fwlink/p/?linkid=18139">http://go.microsoft.com/fwlink/p/?linkId=18139</A> Accessibility em para obter uma lista de números de telefone e endereços para serviços de suporte da Microsoft.</span><span class="sxs-lookup"><span data-stu-id="a0753-151">If you obtained this product outside the United States, you can use the subsidiary information card that came with your software package or visit the Microsoft Accessibility website at <A href="http://go.microsoft.com/fwlink/p/?linkid=18139">http://go.microsoft.com/fwlink/p/?linkId=18139</A> for a list of telephone numbers and addresses for Microsoft support services.</span></span> <span data-ttu-id="a0753-152">Você pode entrar em contato com a subsidiária para descobrir se o tipo de produto e serviços descritos nesta seção está disponível na sua região.</span><span class="sxs-lookup"><span data-stu-id="a0753-152">You can contact your subsidiary to find out whether the type of products and services described in this section are available in your area.</span></span> <span data-ttu-id="a0753-153">Você pode saber mais sobre os recursos de acessibilidade incluídos nos produtos da Microsoft no site de acessibilidade do Microsoft Products.</span><span class="sxs-lookup"><span data-stu-id="a0753-153">You can learn more about the accessibility features included in Microsoft products on the Accessibility in Microsoft Products website.</span></span>
+> <span data-ttu-id="fd7d3-150">A informação nesta seção aplica-se apenas aos usuários cuja licença de produtos Microsoft está nos Estados Unidos.</span><span class="sxs-lookup"><span data-stu-id="fd7d3-150">The information in this section applies only to users who license Microsoft products in the United States.</span></span> <span data-ttu-id="fd7d3-151">Se você obteve esse produto fora dos Estados Unidos, poderá usar o cartão de informações da subsidiária que acompanha o pacote de software ou visitar o site de acessibilidade da <A href="http://go.microsoft.com/fwlink/p/?linkid=18139">http://go.microsoft.com/fwlink/p/?linkId=18139</A> Microsoft em para obter uma lista de números de telefone e endereços para serviços de suporte da Microsoft.</span><span class="sxs-lookup"><span data-stu-id="fd7d3-151">If you obtained this product outside the United States, you can use the subsidiary information card that came with your software package or visit the Microsoft Accessibility website at <A href="http://go.microsoft.com/fwlink/p/?linkid=18139">http://go.microsoft.com/fwlink/p/?linkId=18139</A> for a list of telephone numbers and addresses for Microsoft support services.</span></span> <span data-ttu-id="fd7d3-152">É possível entrar em contato com sua subsidiária para descobrir se o tipo de produto e serviço descrito nesta seção está disponível em sua área.</span><span class="sxs-lookup"><span data-stu-id="fd7d3-152">You can contact your subsidiary to find out whether the type of products and services described in this section are available in your area.</span></span> <span data-ttu-id="fd7d3-153">É possível saber mais sobre os recursos de acessibilidade incluídos nos produtos da Microsoft no site de Acessibilidade dos Produtos da Microsoft.</span><span class="sxs-lookup"><span data-stu-id="fd7d3-153">You can learn more about the accessibility features included in Microsoft products on the Accessibility in Microsoft Products website.</span></span>
 
 
 
@@ -164,27 +164,27 @@ ms.locfileid: "41730473"
 
 <div>
 
-## <a name="accessibility-features-of-windows"></a><span data-ttu-id="a0753-154">Recursos de acessibilidade do Windows</span><span class="sxs-lookup"><span data-stu-id="a0753-154">Accessibility features of Windows</span></span>
+## <a name="accessibility-features-of-windows"></a><span data-ttu-id="fd7d3-154">Recursos de acessibilidade do Windows</span><span class="sxs-lookup"><span data-stu-id="fd7d3-154">Accessibility features of Windows</span></span>
 
-<span data-ttu-id="a0753-155">O sistema operacional Windows tem muitos recursos de acessibilidade incorporados que são úteis para pessoas que têm dificuldade para digitar ou usar um mouse, são cegos ou têm deficiência visual, ou são surdos ou com dificuldades auditivas.</span><span class="sxs-lookup"><span data-stu-id="a0753-155">The Windows operating system has many built-in accessibility features that are useful for individuals who have difficulty typing or using a mouse, are blind or have low vision, or who are deaf or hard-of-hearing.</span></span> <span data-ttu-id="a0753-156">Os recursos são instalados durante a instalação.</span><span class="sxs-lookup"><span data-stu-id="a0753-156">The features are installed during Setup.</span></span> <span data-ttu-id="a0753-157">Para obter detalhes sobre esses recursos, consulte a ajuda do Windows ou [http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139)acessibilidade da Microsoft em.</span><span class="sxs-lookup"><span data-stu-id="a0753-157">For details about these features, see Windows Help or Microsoft Accessibility at [http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139).</span></span>
+<span data-ttu-id="fd7d3-155">O sistema operacional Windows tem vários recursos de acessibilidade internos que são úteis para pessoas que têm dificuldade para digitar ou usar um mouse, são cegas ou têm deficiência visual ou que são surdas ou com problemas de audição.</span><span class="sxs-lookup"><span data-stu-id="fd7d3-155">The Windows operating system has many built-in accessibility features that are useful for individuals who have difficulty typing or using a mouse, are blind or have low vision, or who are deaf or hard-of-hearing.</span></span> <span data-ttu-id="fd7d3-156">Os recursos instalados durante a Instalação.</span><span class="sxs-lookup"><span data-stu-id="fd7d3-156">The features are installed during Setup.</span></span> <span data-ttu-id="fd7d3-157">Para obter detalhes sobre esses recursos, consulte a ajuda do Windows ou [http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139)acessibilidade da Microsoft em.</span><span class="sxs-lookup"><span data-stu-id="fd7d3-157">For details about these features, see Windows Help or Microsoft Accessibility at [http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139).</span></span>
 
-  - <span data-ttu-id="a0753-158">**Tutoriais passo a passo gratuitos**   a Microsoft oferece uma série de tutoriais passo a passo que fornecem procedimentos detalhados para ajustar as opções e as configurações de acessibilidade no seu computador.</span><span class="sxs-lookup"><span data-stu-id="a0753-158">**Free step-by-step tutorials**   Microsoft offers a series of step-by-step tutorials that provide detailed procedures for adjusting the accessibility options and settings on your computer.</span></span> <span data-ttu-id="a0753-159">Essas informações são apresentadas em um formato lado a lado para que você possa aprender a usar o mouse, o teclado ou uma combinação de ambos.</span><span class="sxs-lookup"><span data-stu-id="a0753-159">This information is presented in a side-by-side format so that you can learn how to use the mouse, the keyboard, or a combination of both.</span></span>
+  - <span data-ttu-id="fd7d3-158">**TUTORIAIS**   passo a passo gratuitos a Microsoft oferece uma série de tutoriais passo a passo que fornecem procedimentos detalhados para ajustar as opções e configurações de acessibilidade no seu computador.</span><span class="sxs-lookup"><span data-stu-id="fd7d3-158">**Free step-by-step tutorials**   Microsoft offers a series of step-by-step tutorials that provide detailed procedures for adjusting the accessibility options and settings on your computer.</span></span> <span data-ttu-id="fd7d3-159">Esta informação é apresentada em um formato lado a lado para que você possa saber como usar o mouse, o teclado ou uma combinação de ambos.</span><span class="sxs-lookup"><span data-stu-id="fd7d3-159">This information is presented in a side-by-side format so that you can learn how to use the mouse, the keyboard, or a combination of both.</span></span>
     
-    <span data-ttu-id="a0753-160">Para localizar tutoriais passo a passo para produtos da Microsoft, consulte Microsoft Accessibility at [http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139).</span><span class="sxs-lookup"><span data-stu-id="a0753-160">To find step-by-step tutorials for Microsoft products, see Microsoft Accessibility at [http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139).</span></span>
+    <span data-ttu-id="fd7d3-160">Para encontrar tutoriais passo a passo para produtos da Microsoft, consulte acessibilidade da Microsoft em [http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139).</span><span class="sxs-lookup"><span data-stu-id="fd7d3-160">To find step-by-step tutorials for Microsoft products, see Microsoft Accessibility at [http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139).</span></span>
 
-  - <span data-ttu-id="a0753-161">**Produtos de tecnologia assistencial para Windows**   uma ampla variedade de produtos de tecnologia assistencial estão disponíveis para facilitar o uso dos computadores para pessoas com deficiências.</span><span class="sxs-lookup"><span data-stu-id="a0753-161">**Assistive technology products for Windows**   A wide variety of assistive technology products are available to make computers easier to use for people with disabilities.</span></span> <span data-ttu-id="a0753-162">Você pode pesquisar um catálogo de produtos de tecnologia assistencial executados no Windows no site Microsoft Accessibility em [http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139).</span><span class="sxs-lookup"><span data-stu-id="a0753-162">You can search a catalog of assistive technology products that run on Windows on the Microsoft Accessibility website at [http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139).</span></span>
+  - <span data-ttu-id="fd7d3-161">**Produtos de tecnologia assistencial para Windows**   uma ampla variedade de produtos de tecnologia assistencial estão disponíveis para facilitar o uso de computadores para pessoas com deficiências.</span><span class="sxs-lookup"><span data-stu-id="fd7d3-161">**Assistive technology products for Windows**   A wide variety of assistive technology products are available to make computers easier to use for people with disabilities.</span></span> <span data-ttu-id="fd7d3-162">Você pode pesquisar um catálogo de produtos de tecnologia assistencial executados no Windows no site Microsoft Accessibility em [http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139).</span><span class="sxs-lookup"><span data-stu-id="fd7d3-162">You can search a catalog of assistive technology products that run on Windows on the Microsoft Accessibility website at [http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139).</span></span>
     
-    <span data-ttu-id="a0753-163">Se você usa a tecnologia assistencial, entre em contato com o fornecedor de tecnologia assistencial antes de atualizar o software ou hardware para verificar possíveis problemas de compatibilidade.</span><span class="sxs-lookup"><span data-stu-id="a0753-163">If you use assistive technology, be sure to contact your assistive technology vendor before you upgrade your software or hardware to check for possible compatibility issues.</span></span>
+    <span data-ttu-id="fd7d3-163">Se você usar a tecnologia assistida, certifique-se de entrar em contato com seu fornecedor de tecnologia assistida antes de atualizar seu software ou hardware para verificar possíveis problemas de compatibilidade.</span><span class="sxs-lookup"><span data-stu-id="fd7d3-163">If you use assistive technology, be sure to contact your assistive technology vendor before you upgrade your software or hardware to check for possible compatibility issues.</span></span>
 
 </div>
 
 <div>
 
-## <a name="documentation-in-alternative-formats"></a><span data-ttu-id="a0753-164">Documentação em formatos alternativos</span><span class="sxs-lookup"><span data-stu-id="a0753-164">Documentation in alternative formats</span></span>
+## <a name="documentation-in-alternative-formats"></a><span data-ttu-id="fd7d3-164">Documentação em formatos alternativos</span><span class="sxs-lookup"><span data-stu-id="fd7d3-164">Documentation in alternative formats</span></span>
 
-<span data-ttu-id="a0753-165">Se tiver dificuldade para ler ou manusear materiais impressos, você poderá obter a documentação para muitos produtos da Microsoft em formatos mais acessíveis.</span><span class="sxs-lookup"><span data-stu-id="a0753-165">If you have difficulty reading or handling printed materials, you can obtain the documentation for many Microsoft products in more accessible formats.</span></span> <span data-ttu-id="a0753-166">Você pode obter um índice de documentação de produto acessível no website Microsoft Accessibility em [http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139).</span><span class="sxs-lookup"><span data-stu-id="a0753-166">You can obtain an index of accessible product documentation on the Microsoft Accessibility website at [http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139).</span></span>
+<span data-ttu-id="fd7d3-165">Se você tem dificuldades para ler ou manusear materiais impressos, é possível obter a documentação de vários produtos da Microsoft em formatos mais acessíveis.</span><span class="sxs-lookup"><span data-stu-id="fd7d3-165">If you have difficulty reading or handling printed materials, you can obtain the documentation for many Microsoft products in more accessible formats.</span></span> <span data-ttu-id="fd7d3-166">Você pode obter um índice de documentação de produto acessível no site de acessibilidade da [http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139)Microsoft em.</span><span class="sxs-lookup"><span data-stu-id="fd7d3-166">You can obtain an index of accessible product documentation on the Microsoft Accessibility website at [http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139).</span></span>
 
-<span data-ttu-id="a0753-167">Além disso, você pode obter outras publicações da Microsoft da Recording for the Blind & Dyslexic, Inc\&(RFB D).</span><span class="sxs-lookup"><span data-stu-id="a0753-167">In addition, you can obtain additional Microsoft publications from Recording for the Blind & Dyslexic, Inc (RFB\&D).</span></span> <span data-ttu-id="a0753-168">A\&RFB D distribui esses documentos para membros registrados e qualificados do serviço de distribuição.</span><span class="sxs-lookup"><span data-stu-id="a0753-168">RFB\&D distributes these documents to registered, eligible members of their distribution service.</span></span> <span data-ttu-id="a0753-169">Para saber mais sobre a disponibilidade de livros e documentação do produto da Microsoft na Microsoft Press\&, entre em contato com a RFB D.</span><span class="sxs-lookup"><span data-stu-id="a0753-169">For information about the availability of Microsoft product documentation and books from Microsoft Press, contact RFB\&D.</span></span>
+<span data-ttu-id="fd7d3-167">Além disso, você pode obter publicações adicionais da Microsoft da Recording for the Blind & Dyslexic, Inc\&(RFB D).</span><span class="sxs-lookup"><span data-stu-id="fd7d3-167">In addition, you can obtain additional Microsoft publications from Recording for the Blind & Dyslexic, Inc (RFB\&D).</span></span> <span data-ttu-id="fd7d3-168">A\&RFB D distribui esses documentos para membros registrados e qualificados de seus serviços de distribuição.</span><span class="sxs-lookup"><span data-stu-id="fd7d3-168">RFB\&D distributes these documents to registered, eligible members of their distribution service.</span></span> <span data-ttu-id="fd7d3-169">Para obter informações sobre a disponibilidade da documentação do produto Microsoft e dos manuais da Microsoft Press\&, entre em contato com a RFB D.</span><span class="sxs-lookup"><span data-stu-id="fd7d3-169">For information about the availability of Microsoft product documentation and books from Microsoft Press, contact RFB\&D.</span></span>
 
 
 <table>
@@ -193,11 +193,11 @@ ms.locfileid: "41730473"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="a0753-170">Recording for the &amp; Blind Dyslexic, Inc.</span><span class="sxs-lookup"><span data-stu-id="a0753-170">Recording for the Blind &amp; Dyslexic, Inc.</span></span></p>
-<p><span data-ttu-id="a0753-171">20 Roszel Road</span><span class="sxs-lookup"><span data-stu-id="a0753-171">20 Roszel Road</span></span></p>
-<p><span data-ttu-id="a0753-172">Princeton, NJ 08540</span><span class="sxs-lookup"><span data-stu-id="a0753-172">Princeton, NJ 08540</span></span></p>
-<p><span data-ttu-id="a0753-173">Número de telefone nos Estados Unidos: (800) 221-4792</span><span class="sxs-lookup"><span data-stu-id="a0753-173">Telephone number from within the United States: (800) 221-4792</span></span></p>
-<p><span data-ttu-id="a0753-174">Website: Recording for the &amp; Blind dyslexic em<a href="http://www.rfbd.org/" class="uri">http://www.rfbd.org/</a></span><span class="sxs-lookup"><span data-stu-id="a0753-174">Website: Recording for the Blind &amp; Dyslexic at <a href="http://www.rfbd.org/" class="uri">http://www.rfbd.org/</a></span></span></p></td>
+<td><p><span data-ttu-id="fd7d3-170">Recording for the &amp; Blind Dyslexic, Inc.</span><span class="sxs-lookup"><span data-stu-id="fd7d3-170">Recording for the Blind &amp; Dyslexic, Inc.</span></span></p>
+<p><span data-ttu-id="fd7d3-171">20 Roszel Road</span><span class="sxs-lookup"><span data-stu-id="fd7d3-171">20 Roszel Road</span></span></p>
+<p><span data-ttu-id="fd7d3-172">Princeton, NJ 08540</span><span class="sxs-lookup"><span data-stu-id="fd7d3-172">Princeton, NJ 08540</span></span></p>
+<p><span data-ttu-id="fd7d3-173">Número de telefone nos Estados Unidos: (800) 221-4792</span><span class="sxs-lookup"><span data-stu-id="fd7d3-173">Telephone number from within the United States: (800) 221-4792</span></span></p>
+<p><span data-ttu-id="fd7d3-174">Site: Recording for the &amp; Blind dyslexic em<a href="http://www.rfbd.org/" class="uri">http://www.rfbd.org/</a></span><span class="sxs-lookup"><span data-stu-id="fd7d3-174">Website: Recording for the Blind &amp; Dyslexic at <a href="http://www.rfbd.org/" class="uri">http://www.rfbd.org/</a></span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -207,43 +207,43 @@ ms.locfileid: "41730473"
 
 <div>
 
-## <a name="customer-service-for-people-with-disabilities"></a><span data-ttu-id="a0753-175">Atendimento ao cliente para pessoas com deficiências</span><span class="sxs-lookup"><span data-stu-id="a0753-175">Customer service for people with disabilities</span></span>
+## <a name="customer-service-for-people-with-disabilities"></a><span data-ttu-id="fd7d3-175">Atendimento ao cliente para pessoas com deficiências</span><span class="sxs-lookup"><span data-stu-id="fd7d3-175">Customer service for people with disabilities</span></span>
 
-<span data-ttu-id="a0753-176">A Microsoft quer oferecer a melhor experiência possível para todos os nossos clientes, inclusive pessoas com deficiências.</span><span class="sxs-lookup"><span data-stu-id="a0753-176">Microsoft wants to provide the best possible experience for all our customers, including people with disabilities.</span></span> <span data-ttu-id="a0753-177">Se precisar de ajuda, entre em contato com a nossa equipe de suporte de acessibilidade, que é treinada para ajudar as pessoas com deficiências por telefone ou e-mail.</span><span class="sxs-lookup"><span data-stu-id="a0753-177">If you need help, contact our Accessibility Support team, who are trained to help people with disabilities by telephone or email.</span></span>
+<span data-ttu-id="fd7d3-176">A Microsoft deseja fornecer a melhor experiência possível para todos os nossos clientes, incluindo pessoas com deficiências.</span><span class="sxs-lookup"><span data-stu-id="fd7d3-176">Microsoft wants to provide the best possible experience for all our customers, including people with disabilities.</span></span> <span data-ttu-id="fd7d3-177">Se você precisar de ajuda, entre em contato com nossa equipe de suporte de acessibilidade, que são treinados para ajudar as pessoas com deficiências por telefone ou email.</span><span class="sxs-lookup"><span data-stu-id="fd7d3-177">If you need help, contact our Accessibility Support team, who are trained to help people with disabilities by telephone or email.</span></span>
 
-[<span data-ttu-id="a0753-178">Entre em contato com a área de atendimento de deficiência</span><span class="sxs-lookup"><span data-stu-id="a0753-178">Contact the Disability Answer Desk</span></span>](http://support.microsoft.com/gp/contact-microsoft-accessibility)
+[<span data-ttu-id="fd7d3-178">Contatar o atendimento de deficiências</span><span class="sxs-lookup"><span data-stu-id="fd7d3-178">Contact the Disability Answer Desk</span></span>](http://support.microsoft.com/gp/contact-microsoft-accessibility)
 
-<span data-ttu-id="a0753-179">Linha telefônica direta: 1-800-936-5900</span><span class="sxs-lookup"><span data-stu-id="a0753-179">Direct Telephone Line: 1-800-936-5900</span></span>
+<span data-ttu-id="fd7d3-179">Linha telefônica direta: 1-800-936-5900</span><span class="sxs-lookup"><span data-stu-id="fd7d3-179">Direct Telephone Line: 1-800-936-5900</span></span>
 
-<span data-ttu-id="a0753-180">TTY: 1-800-892-5234</span><span class="sxs-lookup"><span data-stu-id="a0753-180">TTY: 1-800-892-5234</span></span>
+<span data-ttu-id="fd7d3-180">TTY: 1-800-892-5234</span><span class="sxs-lookup"><span data-stu-id="fd7d3-180">TTY: 1-800-892-5234</span></span>
 
-<span data-ttu-id="a0753-181">Dias da semana: 5 A.M.</span><span class="sxs-lookup"><span data-stu-id="a0753-181">Weekdays: 5 A.M.</span></span> <span data-ttu-id="a0753-182">-9 P.M.</span><span class="sxs-lookup"><span data-stu-id="a0753-182">- 9 P.M.</span></span> <span data-ttu-id="a0753-183">(Hora do Pacífico)</span><span class="sxs-lookup"><span data-stu-id="a0753-183">(Pacific Time)</span></span>
+<span data-ttu-id="fd7d3-181">Dias da semana: 5 A.M.</span><span class="sxs-lookup"><span data-stu-id="fd7d3-181">Weekdays: 5 A.M.</span></span> <span data-ttu-id="fd7d3-182">-9 P.M.</span><span class="sxs-lookup"><span data-stu-id="fd7d3-182">- 9 P.M.</span></span> <span data-ttu-id="fd7d3-183">(Hora do Pacífico)</span><span class="sxs-lookup"><span data-stu-id="fd7d3-183">(Pacific Time)</span></span>
 
-<span data-ttu-id="a0753-184">Fins de semana: 6 A.M.</span><span class="sxs-lookup"><span data-stu-id="a0753-184">Weekends: 6 A.M.</span></span> <span data-ttu-id="a0753-185">-3 P.M.</span><span class="sxs-lookup"><span data-stu-id="a0753-185">- 3 P.M.</span></span> <span data-ttu-id="a0753-186">(Hora do Pacífico)</span><span class="sxs-lookup"><span data-stu-id="a0753-186">(Pacific Time)</span></span>
-
-</div>
-
-<div>
-
-## <a name="customer-service-for-people-with-hearing-impairments"></a><span data-ttu-id="a0753-187">Serviço de atendimento para pessoas com problemas auditivos</span><span class="sxs-lookup"><span data-stu-id="a0753-187">Customer service for people with hearing impairments</span></span>
-
-<span data-ttu-id="a0753-188">Se você for surdo ou tiver dificuldades auditivas, o acesso completo aos produtos e serviços ao cliente da Microsoft estará disponível por meio de um serviço de telefone de texto (TTY/TDD):</span><span class="sxs-lookup"><span data-stu-id="a0753-188">If you're deaf or hard-of-hearing, complete access to Microsoft product and customer services is available through a text telephone (TTY/TDD) service:</span></span>
-
-  - <span data-ttu-id="a0753-189">Em contato com o atendimento ao cliente da Microsoft Sales Information Center em (800) 892-5234 entre 6:30 A.M.</span><span class="sxs-lookup"><span data-stu-id="a0753-189">For customer service, contact Microsoft Sales Information Center at (800) 892-5234 between 6:30 A.M.</span></span> <span data-ttu-id="a0753-190">e 5:30 P.M.</span><span class="sxs-lookup"><span data-stu-id="a0753-190">and 5:30 P.M.</span></span> <span data-ttu-id="a0753-191">Hora do Pacífico, de segunda a sexta-feira, exceto feriados.</span><span class="sxs-lookup"><span data-stu-id="a0753-191">Pacific Time, Monday through Friday, excluding holidays.</span></span>
-
-  - <span data-ttu-id="a0753-192">Para assistência técnica nos Estados Unidos, entre em contato com serviços de suporte ao produto da Microsoft em (800) 892-5234 entre 6:00 A.M.</span><span class="sxs-lookup"><span data-stu-id="a0753-192">For technical assistance in the United States, contact Microsoft Product Support Services at (800) 892-5234 between 6:00 A.M.</span></span> <span data-ttu-id="a0753-193">e 6:00 P.M.</span><span class="sxs-lookup"><span data-stu-id="a0753-193">and 6:00 P.M.</span></span> <span data-ttu-id="a0753-194">Hora do Pacífico, de segunda a sexta-feira, exceto feriados.</span><span class="sxs-lookup"><span data-stu-id="a0753-194">Pacific Time, Monday through Friday, excluding holidays.</span></span> <span data-ttu-id="a0753-195">No Canadá, disque (905) 568-9641 entre 8:00 A.M.</span><span class="sxs-lookup"><span data-stu-id="a0753-195">In Canada, dial (905) 568-9641 between 8:00 A.M.</span></span> <span data-ttu-id="a0753-196">e 8:00 P.M.</span><span class="sxs-lookup"><span data-stu-id="a0753-196">and 8:00 P.M.</span></span> <span data-ttu-id="a0753-197">Hora do leste, de segunda a sexta-feira, exceto feriados.</span><span class="sxs-lookup"><span data-stu-id="a0753-197">Eastern Time, Monday through Friday, excluding holidays.</span></span>
-
-<span data-ttu-id="a0753-198">Os serviços de suporte da Microsoft estão sujeitos aos preços, termos e condições em vigor no momento em que o serviço for usado.</span><span class="sxs-lookup"><span data-stu-id="a0753-198">Microsoft Support Services are subject to the prices, terms, and conditions in place at the time the service is used.</span></span> <span data-ttu-id="a0753-199">Para obter detalhes, consulte suporte da [http://go.microsoft.com/fwlink/p/?linkId=18142](http://go.microsoft.com/fwlink/p/?linkid=18142)Microsoft em.</span><span class="sxs-lookup"><span data-stu-id="a0753-199">For details, see Microsoft Support at [http://go.microsoft.com/fwlink/p/?linkId=18142](http://go.microsoft.com/fwlink/p/?linkid=18142).</span></span>
-
-</div>
+<span data-ttu-id="fd7d3-184">Fins de semana: 6 A.M.</span><span class="sxs-lookup"><span data-stu-id="fd7d3-184">Weekends: 6 A.M.</span></span> <span data-ttu-id="fd7d3-185">-3 P.M.</span><span class="sxs-lookup"><span data-stu-id="fd7d3-185">- 3 P.M.</span></span> <span data-ttu-id="fd7d3-186">(Hora do Pacífico)</span><span class="sxs-lookup"><span data-stu-id="fd7d3-186">(Pacific Time)</span></span>
 
 </div>
 
 <div>
 
-## <a name="for-more-information"></a><span data-ttu-id="a0753-200">Para obter mais informações</span><span class="sxs-lookup"><span data-stu-id="a0753-200">For more information</span></span>
+## <a name="customer-service-for-people-with-hearing-impairments"></a><span data-ttu-id="fd7d3-187">Serviço de atendimento para pessoas com problemas auditivos</span><span class="sxs-lookup"><span data-stu-id="fd7d3-187">Customer service for people with hearing impairments</span></span>
 
-<span data-ttu-id="a0753-201">Para obter detalhes sobre como a tecnologia acessível para os computadores ajuda a melhorar a vida de pessoas com necessidades especiais, consulte [http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139)Microsoft Accessibility at.</span><span class="sxs-lookup"><span data-stu-id="a0753-201">For details about how accessible technology for computers helps to improve the lives of people with disabilities, see Microsoft Accessibility at [http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139).</span></span>
+<span data-ttu-id="fd7d3-188">Se você é surdo ou tem problema auditivo, conclua o acesso aos serviços do cliente e produtos da Microsoft disponível através do serviço de telefone de texto (TTY/TDD):</span><span class="sxs-lookup"><span data-stu-id="fd7d3-188">If you're deaf or hard-of-hearing, complete access to Microsoft product and customer services is available through a text telephone (TTY/TDD) service:</span></span>
+
+  - <span data-ttu-id="fd7d3-p113">Para atendimento ao cliente, entre em contato com o Centro de Informações e Vendas da Microsoft em (800) 892-5234 das 6:30 horas às 17:30 horas, horário do Pacífico, de Segunda a Sexta, excluindo feriados.</span><span class="sxs-lookup"><span data-stu-id="fd7d3-p113">For customer service, contact Microsoft Sales Information Center at (800) 892-5234 between 6:30 A.M. and 5:30 P.M. Pacific Time, Monday through Friday, excluding holidays.</span></span>
+
+  - <span data-ttu-id="fd7d3-p114">Para assistência técnica nos Estados Unidos, entre em contato com o Serviço de Suporte do Produto da Microsoft em (800) 892-5234 das 6:00 horas às 18:00 horas, horário do Pacífico, de Segunda a Sexta, excluindo feriados. No Canadá, ligue para (905) 568-9641 das 8:00 horas às 20:00 horas, horário do Leste, de Segunda a Sexta, excluindo feriados.</span><span class="sxs-lookup"><span data-stu-id="fd7d3-p114">For technical assistance in the United States, contact Microsoft Product Support Services at (800) 892-5234 between 6:00 A.M. and 6:00 P.M. Pacific Time, Monday through Friday, excluding holidays. In Canada, dial (905) 568-9641 between 8:00 A.M. and 8:00 P.M. Eastern Time, Monday through Friday, excluding holidays.</span></span>
+
+<span data-ttu-id="fd7d3-198">Os Serviços de Suporte da Microsoft estão sujeitos aos preços, termos e condições no momento que o serviço é usado.</span><span class="sxs-lookup"><span data-stu-id="fd7d3-198">Microsoft Support Services are subject to the prices, terms, and conditions in place at the time the service is used.</span></span> <span data-ttu-id="fd7d3-199">Para obter detalhes, consulte suporte da [http://go.microsoft.com/fwlink/p/?linkId=18142](http://go.microsoft.com/fwlink/p/?linkid=18142)Microsoft em.</span><span class="sxs-lookup"><span data-stu-id="fd7d3-199">For details, see Microsoft Support at [http://go.microsoft.com/fwlink/p/?linkId=18142](http://go.microsoft.com/fwlink/p/?linkid=18142).</span></span>
+
+</div>
+
+</div>
+
+<div>
+
+## <a name="for-more-information"></a><span data-ttu-id="fd7d3-200">Para obter mais informações</span><span class="sxs-lookup"><span data-stu-id="fd7d3-200">For more information</span></span>
+
+<span data-ttu-id="fd7d3-201">Para obter detalhes sobre como a tecnologia acessível para computadores ajuda a melhorar a vida de pessoas com deficiências, confira [http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139)acessibilidade da Microsoft em.</span><span class="sxs-lookup"><span data-stu-id="fd7d3-201">For details about how accessible technology for computers helps to improve the lives of people with disabilities, see Microsoft Accessibility at [http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139).</span></span>
 
 </div>
 

@@ -12,20 +12,20 @@ ms:contentKeyID: 49733560
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7aebd16d8bd2efaf8deeb6752deeb199411ab125
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5c6e5fd3c1afe27bc1baa8790527ee239bdba990
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762999"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42039701"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="medialine-view-in-lync-server-2013"></a><span data-ttu-id="6791a-102">Modo de exibição de mídia no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6791a-102">MediaLine view in Lync Server 2013</span></span>
+# <a name="medialine-view-in-lync-server-2013"></a><span data-ttu-id="76ff2-102">Modo de exibição de mídia no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="76ff2-102">MediaLine view in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41762999"
 
 <span> </span>
 
-<span data-ttu-id="6791a-103">_**Tópico da última modificação:** 2012-10-03_</span><span class="sxs-lookup"><span data-stu-id="6791a-103">_**Topic Last Modified:** 2012-10-03_</span></span>
+<span data-ttu-id="76ff2-103">_**Última modificação do tópico:** 2012-10-03_</span><span class="sxs-lookup"><span data-stu-id="76ff2-103">_**Topic Last Modified:** 2012-10-03_</span></span>
 
-<span data-ttu-id="6791a-104">O modo de exibição de mídia armazena informações sobre cada linha de mídia no banco de dados.</span><span class="sxs-lookup"><span data-stu-id="6791a-104">The MediaLine View stores information about each media line in the database.</span></span> <span data-ttu-id="6791a-105">Uma sessão de áudio geralmente contém uma linha de mídia de áudio.</span><span class="sxs-lookup"><span data-stu-id="6791a-105">One audio session typically contains one audio media line.</span></span> <span data-ttu-id="6791a-106">Uma sessão de áudio e vídeo (A/V) geralmente contém uma linha de mídia de áudio e uma linha de mídia de vídeo; no entanto, a sessão pode conter duas linhas de mídia de vídeo se um dispositivo de conferência for usado ou se o modo de exibição de galeria for usado.</span><span class="sxs-lookup"><span data-stu-id="6791a-106">One audio and video (A/V) session typically contains one audio media line and one video media line; however, the session might contain two video media lines if a conferencing device is used or if Gallery View is used.</span></span> <span data-ttu-id="6791a-107">Este modo de exibição foi apresentado no Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="6791a-107">This view was introduced in Microsoft Lync Server 2013.</span></span>
+<span data-ttu-id="76ff2-104">O MediaLine View armazena informações sobre cada linha de mídia no banco de dados.</span><span class="sxs-lookup"><span data-stu-id="76ff2-104">The MediaLine View stores information about each media line in the database.</span></span> <span data-ttu-id="76ff2-105">Uma sessão de áudio normalmente contém uma linha de mídia de áudio.</span><span class="sxs-lookup"><span data-stu-id="76ff2-105">One audio session typically contains one audio media line.</span></span> <span data-ttu-id="76ff2-106">Uma sessão de áudio e vídeo (A/V) normalmente contém uma linha de mídia de áudio e uma linha de mídia de vídeo; no entanto, a sessão pode conter duas linhas de mídia de vídeo se um dispositivo de conferência ou o modo de exibição de galeria for usado.</span><span class="sxs-lookup"><span data-stu-id="76ff2-106">One audio and video (A/V) session typically contains one audio media line and one video media line; however, the session might contain two video media lines if a conferencing device is used or if Gallery View is used.</span></span> <span data-ttu-id="76ff2-107">Este modo de exibição foi introduzido no Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="76ff2-107">This view was introduced in Microsoft Lync Server 2013.</span></span>
 
 
 <table>
@@ -48,251 +48,251 @@ ms.locfileid: "41762999"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="6791a-108">Coluna</span><span class="sxs-lookup"><span data-stu-id="6791a-108">Column</span></span></th>
-<th><span data-ttu-id="6791a-109">Tipo de dados</span><span class="sxs-lookup"><span data-stu-id="6791a-109">Data Type</span></span></th>
-<th><span data-ttu-id="6791a-110">os</span><span class="sxs-lookup"><span data-stu-id="6791a-110">details</span></span></th>
+<th><span data-ttu-id="76ff2-108">Coluna</span><span class="sxs-lookup"><span data-stu-id="76ff2-108">Column</span></span></th>
+<th><span data-ttu-id="76ff2-109">Tipo de dado</span><span class="sxs-lookup"><span data-stu-id="76ff2-109">Data Type</span></span></th>
+<th><span data-ttu-id="76ff2-110">detalhes</span><span class="sxs-lookup"><span data-stu-id="76ff2-110">details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="6791a-111">ConferenceDateTime</span><span class="sxs-lookup"><span data-stu-id="6791a-111">ConferenceDateTime</span></span></p></td>
-<td><p><span data-ttu-id="6791a-112">datetime</span><span class="sxs-lookup"><span data-stu-id="6791a-112">datetime</span></span></p></td>
-<td><p><span data-ttu-id="6791a-113">Referenciado da <a href="lync-server-2013-medialine-table.md">tabela de mídias no Lync Server 2013</a>.</span><span class="sxs-lookup"><span data-stu-id="6791a-113">Referenced from the <a href="lync-server-2013-medialine-table.md">MediaLine table in Lync Server 2013</a>.</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-111">ConferenceDateTime</span><span class="sxs-lookup"><span data-stu-id="76ff2-111">ConferenceDateTime</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-112">datetime</span><span class="sxs-lookup"><span data-stu-id="76ff2-112">datetime</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-113">Referenciado da <a href="lync-server-2013-medialine-table.md">tabela de mídia no Lync Server 2013</a>.</span><span class="sxs-lookup"><span data-stu-id="76ff2-113">Referenced from the <a href="lync-server-2013-medialine-table.md">MediaLine table in Lync Server 2013</a>.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="6791a-114">SessionSeq</span><span class="sxs-lookup"><span data-stu-id="6791a-114">SessionSeq</span></span></p></td>
-<td><p><span data-ttu-id="6791a-115">int</span><span class="sxs-lookup"><span data-stu-id="6791a-115">int</span></span></p></td>
-<td><p><span data-ttu-id="6791a-116">Referenciado da <a href="lync-server-2013-medialine-table.md">tabela de mídias no Lync Server 2013</a>.</span><span class="sxs-lookup"><span data-stu-id="6791a-116">Referenced from the <a href="lync-server-2013-medialine-table.md">MediaLine table in Lync Server 2013</a>.</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-114">SessionSeq</span><span class="sxs-lookup"><span data-stu-id="76ff2-114">SessionSeq</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-115">int</span><span class="sxs-lookup"><span data-stu-id="76ff2-115">int</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-116">Referenciado da <a href="lync-server-2013-medialine-table.md">tabela de mídia no Lync Server 2013</a>.</span><span class="sxs-lookup"><span data-stu-id="76ff2-116">Referenced from the <a href="lync-server-2013-medialine-table.md">MediaLine table in Lync Server 2013</a>.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="6791a-117">MediaLineLabel</span><span class="sxs-lookup"><span data-stu-id="6791a-117">MediaLineLabel</span></span></p></td>
-<td><p><span data-ttu-id="6791a-118">tinyint</span><span class="sxs-lookup"><span data-stu-id="6791a-118">tinyint</span></span></p></td>
-<td><p><span data-ttu-id="6791a-119">Referenciado da <a href="lync-server-2013-medialine-table.md">tabela de mídias no Lync Server 2013</a>.</span><span class="sxs-lookup"><span data-stu-id="6791a-119">Referenced from the <a href="lync-server-2013-medialine-table.md">MediaLine table in Lync Server 2013</a>.</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-117">MediaLineLabel</span><span class="sxs-lookup"><span data-stu-id="76ff2-117">MediaLineLabel</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-118">tinyint</span><span class="sxs-lookup"><span data-stu-id="76ff2-118">tinyint</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-119">Referenciado da <a href="lync-server-2013-medialine-table.md">tabela de mídia no Lync Server 2013</a>.</span><span class="sxs-lookup"><span data-stu-id="76ff2-119">Referenced from the <a href="lync-server-2013-medialine-table.md">MediaLine table in Lync Server 2013</a>.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="6791a-120">CallerIceWarningFlags</span><span class="sxs-lookup"><span data-stu-id="6791a-120">CallerIceWarningFlags</span></span></p></td>
-<td><p><span data-ttu-id="6791a-121">int</span><span class="sxs-lookup"><span data-stu-id="6791a-121">int</span></span></p></td>
-<td><p><span data-ttu-id="6791a-122">Informações sobre o processo de estabelecimento de conectividade interativa (ICE) descrito em sinalizadores de bits para o chamador.</span><span class="sxs-lookup"><span data-stu-id="6791a-122">Information about Interactive Connectivity Establishment (ICE) process described in bits flags for the caller.</span></span> <span data-ttu-id="6791a-123">Para obter detalhes, consulte a especificação de protocolo de servidor de monitoração de experiência de qualidade.</span><span class="sxs-lookup"><span data-stu-id="6791a-123">For details, refer to the Quality of Experience Monitoring Server Protocol Specification.</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-120">CallerIceWarningFlags</span><span class="sxs-lookup"><span data-stu-id="76ff2-120">CallerIceWarningFlags</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-121">int</span><span class="sxs-lookup"><span data-stu-id="76ff2-121">int</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-p102">Informações sobre o processo de ICE (Estabelecimento de Conectividade Interativa) descrito em sinalizadores de bits do autor da chamada. Para obter detalhes, consulte a Especificação de protocolo do servidor de monitoramento de Qualidade da Experiência.</span><span class="sxs-lookup"><span data-stu-id="76ff2-p102">Information about Interactive Connectivity Establishment (ICE) process described in bits flags for the caller. For details, refer to the Quality of Experience Monitoring Server Protocol Specification.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="6791a-124">CalleeIceWarningFlags</span><span class="sxs-lookup"><span data-stu-id="6791a-124">CalleeIceWarningFlags</span></span></p></td>
-<td><p><span data-ttu-id="6791a-125">int</span><span class="sxs-lookup"><span data-stu-id="6791a-125">int</span></span></p></td>
-<td><p><span data-ttu-id="6791a-126">Informações sobre o processo de estabelecimento de conectividade interativa (ICE) descrito em sinalizadores de bits para o chamador.</span><span class="sxs-lookup"><span data-stu-id="6791a-126">Information about Interactive Connectivity Establishment (ICE) process described in bits flags for the callee.</span></span> <span data-ttu-id="6791a-127">Para obter detalhes, consulte a especificação de protocolo de servidor de monitoração de experiência de qualidade.</span><span class="sxs-lookup"><span data-stu-id="6791a-127">For details, refer to the Quality of Experience Monitoring Server Protocol Specification.</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-124">CalleeIceWarningFlags</span><span class="sxs-lookup"><span data-stu-id="76ff2-124">CalleeIceWarningFlags</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-125">int</span><span class="sxs-lookup"><span data-stu-id="76ff2-125">int</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-p103">Informações sobre o processo do ICE (Estabelecimento de Conectividade Interativa) descrito em sinalizadores de bits para o chamador. Para detalhes, consulte a Especificação do Protocolo de Servidor do Monitoramento da Qualidade da Experiência.</span><span class="sxs-lookup"><span data-stu-id="76ff2-p103">Information about Interactive Connectivity Establishment (ICE) process described in bits flags for the callee. For details, refer to the Quality of Experience Monitoring Server Protocol Specification.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="6791a-128">Segurança</span><span class="sxs-lookup"><span data-stu-id="6791a-128">Security</span></span></p></td>
-<td><p><span data-ttu-id="6791a-129">tinyint</span><span class="sxs-lookup"><span data-stu-id="6791a-129">tinyint</span></span></p></td>
-<td><p><span data-ttu-id="6791a-130">Perfil de segurança em uso.</span><span class="sxs-lookup"><span data-stu-id="6791a-130">Security profile in use.</span></span> <span data-ttu-id="6791a-131">0 é nenhum, 1 é SRTP; 2 é v1.</span><span class="sxs-lookup"><span data-stu-id="6791a-131">0 is NONE, 1 is SRTP, 2 is V1.</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-128">Segurança</span><span class="sxs-lookup"><span data-stu-id="76ff2-128">Security</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-129">tinyint</span><span class="sxs-lookup"><span data-stu-id="76ff2-129">tinyint</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-p104">Perfil de segurança em uso. 0 é NONE (nenhum), 1 é SRTP, 2 é V1.</span><span class="sxs-lookup"><span data-stu-id="76ff2-p104">Security profile in use. 0 is NONE, 1 is SRTP, 2 is V1.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="6791a-132">SMTP</span><span class="sxs-lookup"><span data-stu-id="6791a-132">Transport</span></span></p></td>
-<td><p><span data-ttu-id="6791a-133">tinyint</span><span class="sxs-lookup"><span data-stu-id="6791a-133">tinyint</span></span></p></td>
-<td><p><span data-ttu-id="6791a-134">Tipo de transporte.</span><span class="sxs-lookup"><span data-stu-id="6791a-134">Transport type.</span></span> <span data-ttu-id="6791a-135">0 é UDP; 1 é TCP.</span><span class="sxs-lookup"><span data-stu-id="6791a-135">0 is UDP, 1 is TCP.</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-132">Transport</span><span class="sxs-lookup"><span data-stu-id="76ff2-132">Transport</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-133">tinyint</span><span class="sxs-lookup"><span data-stu-id="76ff2-133">tinyint</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-p105">Tipo de transporte. 0 é UDP, 1 é TCP.</span><span class="sxs-lookup"><span data-stu-id="76ff2-p105">Transport type. 0 is UDP, 1 is TCP.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="6791a-136">CallerIPAddr</span><span class="sxs-lookup"><span data-stu-id="6791a-136">CallerIPAddr</span></span></p></td>
-<td><p><span data-ttu-id="6791a-137">var (50)</span><span class="sxs-lookup"><span data-stu-id="6791a-137">var(50)</span></span></p></td>
-<td><p><span data-ttu-id="6791a-138">Endereço IP do chamador.</span><span class="sxs-lookup"><span data-stu-id="6791a-138">IP address of the caller.</span></span> <span data-ttu-id="6791a-139">Pode ser um endereço IPv4 ou IPv6.</span><span class="sxs-lookup"><span data-stu-id="6791a-139">This can be either an IPv4 or IPv6 address.</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-136">CallerIPAddr</span><span class="sxs-lookup"><span data-stu-id="76ff2-136">CallerIPAddr</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-137">var (50)</span><span class="sxs-lookup"><span data-stu-id="76ff2-137">var(50)</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-p106">Endereço IP do chamador. Pode ser um endereço IPv4 ou IPv6.</span><span class="sxs-lookup"><span data-stu-id="76ff2-p106">IP address of the caller. This can be either an IPv4 or IPv6 address.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="6791a-140">CallerPort</span><span class="sxs-lookup"><span data-stu-id="6791a-140">CallerPort</span></span></p></td>
-<td><p><span data-ttu-id="6791a-141">int</span><span class="sxs-lookup"><span data-stu-id="6791a-141">int</span></span></p></td>
-<td><p><span data-ttu-id="6791a-142">Porta usada pelo chamador.</span><span class="sxs-lookup"><span data-stu-id="6791a-142">Port used by the caller.</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-140">CallerPort</span><span class="sxs-lookup"><span data-stu-id="76ff2-140">CallerPort</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-141">int</span><span class="sxs-lookup"><span data-stu-id="76ff2-141">int</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-142">Porta usada pelo chamador.</span><span class="sxs-lookup"><span data-stu-id="76ff2-142">Port used by the caller.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="6791a-143">CallerInside</span><span class="sxs-lookup"><span data-stu-id="6791a-143">CallerInside</span></span></p></td>
-<td><p><span data-ttu-id="6791a-144">bit</span><span class="sxs-lookup"><span data-stu-id="6791a-144">bit</span></span></p></td>
-<td><p><span data-ttu-id="6791a-145">Indica se o chamador está dentro da rede da organização.</span><span class="sxs-lookup"><span data-stu-id="6791a-145">Indicates whether or not the caller is inside the organization network.</span></span> <span data-ttu-id="6791a-146">1 significa que o chamador está dentro da rede da empresa.</span><span class="sxs-lookup"><span data-stu-id="6791a-146">1 means that the caller is inside the enterprise network.</span></span> <span data-ttu-id="6791a-147">0 significa que o chamador está fora da rede.</span><span class="sxs-lookup"><span data-stu-id="6791a-147">0 means that the caller is outside the network.</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-143">CallerInside</span><span class="sxs-lookup"><span data-stu-id="76ff2-143">CallerInside</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-144">bits</span><span class="sxs-lookup"><span data-stu-id="76ff2-144">bit</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-p107">Indica se o chamador está ou não dentro da rede da organização. 1 significa que o chamador está dentro da rede corporativa, 0 significa que está fora.</span><span class="sxs-lookup"><span data-stu-id="76ff2-p107">Indicates whether or not the caller is inside the organization network. 1 means that the caller is inside the enterprise network. 0 means that the caller is outside the network.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="6791a-148">CallerMacAddress</span><span class="sxs-lookup"><span data-stu-id="6791a-148">CallerMacAddress</span></span></p></td>
-<td><p><span data-ttu-id="6791a-149">varchar (256)</span><span class="sxs-lookup"><span data-stu-id="6791a-149">varchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="6791a-150">Endereço MAC da interface de rede usada pelo chamador.</span><span class="sxs-lookup"><span data-stu-id="6791a-150">MAC address of network interface used by caller.</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-148">CallerMacAddress</span><span class="sxs-lookup"><span data-stu-id="76ff2-148">CallerMacAddress</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-149">varchar (256)</span><span class="sxs-lookup"><span data-stu-id="76ff2-149">varchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-150">Endereço MAC da interface de rede usada pelo chamador.</span><span class="sxs-lookup"><span data-stu-id="76ff2-150">MAC address of network interface used by caller.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="6791a-151">CallerRelayIPAddr</span><span class="sxs-lookup"><span data-stu-id="6791a-151">CallerRelayIPAddr</span></span></p></td>
-<td><p><span data-ttu-id="6791a-152">var (50)</span><span class="sxs-lookup"><span data-stu-id="6791a-152">var(50)</span></span></p></td>
-<td><p><span data-ttu-id="6791a-153">Endereço IP do serviço de borda A/V usado pelo chamador.</span><span class="sxs-lookup"><span data-stu-id="6791a-153">IP Address of the A/V Edge service used by the caller.</span></span> <span data-ttu-id="6791a-154">Consulte a <a href="lync-server-2013-ipaddress-table.md">tabela IPAddress no Lync Server 2013</a> para obter mais informações.</span><span class="sxs-lookup"><span data-stu-id="6791a-154">See the <a href="lync-server-2013-ipaddress-table.md">IPAddress table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-151">CallerRelayIPAddr</span><span class="sxs-lookup"><span data-stu-id="76ff2-151">CallerRelayIPAddr</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-152">var (50)</span><span class="sxs-lookup"><span data-stu-id="76ff2-152">var(50)</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-153">Endereço IP do serviço de borda A/V usado pelo chamador.</span><span class="sxs-lookup"><span data-stu-id="76ff2-153">IP Address of the A/V Edge service used by the caller.</span></span> <span data-ttu-id="76ff2-154">Consulte a <a href="lync-server-2013-ipaddress-table.md">tabela IPAddress no Lync Server 2013</a> para obter mais informações.</span><span class="sxs-lookup"><span data-stu-id="76ff2-154">See the <a href="lync-server-2013-ipaddress-table.md">IPAddress table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="6791a-155">CalleeRelayPort</span><span class="sxs-lookup"><span data-stu-id="6791a-155">CalleeRelayPort</span></span></p></td>
-<td><p><span data-ttu-id="6791a-156">int</span><span class="sxs-lookup"><span data-stu-id="6791a-156">int</span></span></p></td>
-<td><p><span data-ttu-id="6791a-157">Porta usada no serviço de borda A/V usado pelo chamador.</span><span class="sxs-lookup"><span data-stu-id="6791a-157">Port used on the A/V Edge service used by the caller.</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-155">CalleeRelayPort</span><span class="sxs-lookup"><span data-stu-id="76ff2-155">CalleeRelayPort</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-156">int</span><span class="sxs-lookup"><span data-stu-id="76ff2-156">int</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-157">Porta usada no serviço de Borda de A/V usado pelo chamador.</span><span class="sxs-lookup"><span data-stu-id="76ff2-157">Port used on the A/V Edge service used by the caller.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="6791a-158">CallerReflexiveIPAddr</span><span class="sxs-lookup"><span data-stu-id="6791a-158">CallerReflexiveIPAddr</span></span></p></td>
-<td><p><span data-ttu-id="6791a-159">var (50)</span><span class="sxs-lookup"><span data-stu-id="6791a-159">var(50)</span></span></p></td>
-<td><p><span data-ttu-id="6791a-160">Endereço IP do chamador reportado pelo serviço de borda A/V.</span><span class="sxs-lookup"><span data-stu-id="6791a-160">Caller’s IP address as reported by the A/V Edge service.</span></span> <span data-ttu-id="6791a-161">Esse endereço pode ser diferente de CallerIPAddr se o cliente estiver localizado atrás de um NAT por exemplo.</span><span class="sxs-lookup"><span data-stu-id="6791a-161">This address may be different that the CallerIPAddr if the client is located behind a NAT for example.</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-158">CallerReflexiveIPAddr</span><span class="sxs-lookup"><span data-stu-id="76ff2-158">CallerReflexiveIPAddr</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-159">var (50)</span><span class="sxs-lookup"><span data-stu-id="76ff2-159">var(50)</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-160">Endereço IP do chamador conforme reportado pelo serviço de Borda de A/V.</span><span class="sxs-lookup"><span data-stu-id="76ff2-160">Caller’s IP address as reported by the A/V Edge service.</span></span> <span data-ttu-id="76ff2-161">Este endereço pode ser diferente do endereço na coluna CallerIPAddr se o cliente estiver localizado atrás de uma NAT, por exemplo.</span><span class="sxs-lookup"><span data-stu-id="76ff2-161">This address may be different that the CallerIPAddr if the client is located behind a NAT for example.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="6791a-162">CallerCaptureDev</span><span class="sxs-lookup"><span data-stu-id="6791a-162">CallerCaptureDev</span></span></p></td>
-<td><p><span data-ttu-id="6791a-163">varchar (256)</span><span class="sxs-lookup"><span data-stu-id="6791a-163">varchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="6791a-164">Nome do dispositivo de captura do chamador.</span><span class="sxs-lookup"><span data-stu-id="6791a-164">Caller’s capture device name.</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-162">CallerCaptureDev</span><span class="sxs-lookup"><span data-stu-id="76ff2-162">CallerCaptureDev</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-163">varchar (256)</span><span class="sxs-lookup"><span data-stu-id="76ff2-163">varchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-164">Nome do dispositivo de captura do chamador.</span><span class="sxs-lookup"><span data-stu-id="76ff2-164">Caller’s capture device name.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="6791a-165">CallerRenderDev</span><span class="sxs-lookup"><span data-stu-id="6791a-165">CallerRenderDev</span></span></p></td>
-<td><p><span data-ttu-id="6791a-166">varchar (256)</span><span class="sxs-lookup"><span data-stu-id="6791a-166">varchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="6791a-167">Nome do dispositivo de renderização do chamador.</span><span class="sxs-lookup"><span data-stu-id="6791a-167">Caller’s render device name.</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-165">CallerRenderDev</span><span class="sxs-lookup"><span data-stu-id="76ff2-165">CallerRenderDev</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-166">varchar (256)</span><span class="sxs-lookup"><span data-stu-id="76ff2-166">varchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-167">Nome do dispositivo de renderização do chamador.</span><span class="sxs-lookup"><span data-stu-id="76ff2-167">Caller’s render device name.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="6791a-168">CallerCaptureDevDriver</span><span class="sxs-lookup"><span data-stu-id="6791a-168">CallerCaptureDevDriver</span></span></p></td>
-<td><p><span data-ttu-id="6791a-169">varchar (256)</span><span class="sxs-lookup"><span data-stu-id="6791a-169">varchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="6791a-170">Nome do driver do dispositivo de captura do chamador.</span><span class="sxs-lookup"><span data-stu-id="6791a-170">Caller’s capture device driver name.</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-168">CallerCaptureDevDriver</span><span class="sxs-lookup"><span data-stu-id="76ff2-168">CallerCaptureDevDriver</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-169">varchar (256)</span><span class="sxs-lookup"><span data-stu-id="76ff2-169">varchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-170">Nome do driver do dispositivo de captura do chamador.</span><span class="sxs-lookup"><span data-stu-id="76ff2-170">Caller’s capture device driver name.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="6791a-171">CallerRenderDevDriver</span><span class="sxs-lookup"><span data-stu-id="6791a-171">CallerRenderDevDriver</span></span></p></td>
-<td><p><span data-ttu-id="6791a-172">varchar (256)</span><span class="sxs-lookup"><span data-stu-id="6791a-172">varchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="6791a-173">O nome do driver de dispositivo de renderização do chamador.</span><span class="sxs-lookup"><span data-stu-id="6791a-173">Caller’s render device driver name.</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-171">CallerRenderDevDriver</span><span class="sxs-lookup"><span data-stu-id="76ff2-171">CallerRenderDevDriver</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-172">varchar (256)</span><span class="sxs-lookup"><span data-stu-id="76ff2-172">varchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-173">Nome da unidade do dispositivo de renderização do chamador.</span><span class="sxs-lookup"><span data-stu-id="76ff2-173">Caller’s render device driver name.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="6791a-174">CallerWifiDriverDeviceDesc</span><span class="sxs-lookup"><span data-stu-id="6791a-174">CallerWifiDriverDeviceDesc</span></span></p></td>
-<td><p><span data-ttu-id="6791a-175">varchar (256</span><span class="sxs-lookup"><span data-stu-id="6791a-175">varchar(256</span></span></p></td>
-<td><p><span data-ttu-id="6791a-176">Descrição do driver WiFi do chamador.</span><span class="sxs-lookup"><span data-stu-id="6791a-176">Caller’s Wifi driver description.</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-174">CallerWifiDriverDeviceDesc</span><span class="sxs-lookup"><span data-stu-id="76ff2-174">CallerWifiDriverDeviceDesc</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-175">varchar (256</span><span class="sxs-lookup"><span data-stu-id="76ff2-175">varchar(256</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-176">Descrição da unidade wifi do chamador.</span><span class="sxs-lookup"><span data-stu-id="76ff2-176">Caller’s Wifi driver description.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="6791a-177">CallerWifiDriverVersion</span><span class="sxs-lookup"><span data-stu-id="6791a-177">CallerWifiDriverVersion</span></span></p></td>
-<td><p><span data-ttu-id="6791a-178">varchar (256)</span><span class="sxs-lookup"><span data-stu-id="6791a-178">varchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="6791a-179">Versão do driver WiFi do chamador.</span><span class="sxs-lookup"><span data-stu-id="6791a-179">Caller’s Wifi driver version.</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-177">CallerWifiDriverVersion</span><span class="sxs-lookup"><span data-stu-id="76ff2-177">CallerWifiDriverVersion</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-178">varchar (256)</span><span class="sxs-lookup"><span data-stu-id="76ff2-178">varchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-179">Versão da unidade wifi do chamador.</span><span class="sxs-lookup"><span data-stu-id="76ff2-179">Caller’s Wifi driver version.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="6791a-180">CalleeNetworkConnectionDetail</span><span class="sxs-lookup"><span data-stu-id="6791a-180">CalleeNetworkConnectionDetail</span></span></p></td>
-<td><p><span data-ttu-id="6791a-181">varchar (256)</span><span class="sxs-lookup"><span data-stu-id="6791a-181">varchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="6791a-182">Detalhes da conexão de rede do chamador.</span><span class="sxs-lookup"><span data-stu-id="6791a-182">Details of caller’s network connection.</span></span> <span data-ttu-id="6791a-183">Consulte a <a href="lync-server-2013-networkconnectiondetail-table.md">tabela NetworkConnectionDetail no Lync Server 2013</a> para obter mais informações.</span><span class="sxs-lookup"><span data-stu-id="6791a-183">See the <a href="lync-server-2013-networkconnectiondetail-table.md">NetworkConnectionDetail table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-180">CalleeNetworkConnectionDetail</span><span class="sxs-lookup"><span data-stu-id="76ff2-180">CalleeNetworkConnectionDetail</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-181">varchar (256)</span><span class="sxs-lookup"><span data-stu-id="76ff2-181">varchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-182">Detalhes da conexão de rede do chamador.</span><span class="sxs-lookup"><span data-stu-id="76ff2-182">Details of caller’s network connection.</span></span> <span data-ttu-id="76ff2-183">Consulte a <a href="lync-server-2013-networkconnectiondetail-table.md">tabela NetworkConnectionDetail no Lync Server 2013</a> para obter mais informações.</span><span class="sxs-lookup"><span data-stu-id="76ff2-183">See the <a href="lync-server-2013-networkconnectiondetail-table.md">NetworkConnectionDetail table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="6791a-184">CallerBssid</span><span class="sxs-lookup"><span data-stu-id="6791a-184">CallerBssid</span></span></p></td>
-<td><p><span data-ttu-id="6791a-185">varchar (256)</span><span class="sxs-lookup"><span data-stu-id="6791a-185">varchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="6791a-186">Identificador do conjunto de serviços básico usado pela conexão WiFi de chamadores.</span><span class="sxs-lookup"><span data-stu-id="6791a-186">Basic Service Set Identifier used by callers WiFi connection.</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-184">CallerBssid</span><span class="sxs-lookup"><span data-stu-id="76ff2-184">CallerBssid</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-185">varchar (256)</span><span class="sxs-lookup"><span data-stu-id="76ff2-185">varchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-186">Identificador SSID usado pela conexão WiFi do chamador.</span><span class="sxs-lookup"><span data-stu-id="76ff2-186">Basic Service Set Identifier used by callers WiFi connection.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="6791a-187">CallerVPN</span><span class="sxs-lookup"><span data-stu-id="6791a-187">CallerVPN</span></span></p></td>
-<td><p><span data-ttu-id="6791a-188">bit</span><span class="sxs-lookup"><span data-stu-id="6791a-188">bit</span></span></p></td>
-<td><p><span data-ttu-id="6791a-189">Indica se o chamador está conectado por meio de uma rede virtual privada.</span><span class="sxs-lookup"><span data-stu-id="6791a-189">Indicates whether the caller connected over a virtual private network.</span></span> <span data-ttu-id="6791a-190">1 é uma rede virtual privada (VPN), 0 não é VPN.</span><span class="sxs-lookup"><span data-stu-id="6791a-190">1 is virtual private network (VPN), 0 is non-VPN.</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-187">CallerVPN</span><span class="sxs-lookup"><span data-stu-id="76ff2-187">CallerVPN</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-188">bits</span><span class="sxs-lookup"><span data-stu-id="76ff2-188">bit</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-p111">Indica se o chamador se conectou por uma rede virtual privada. 1 é rede virtual privada (VPN), 0 é não-VPN.</span><span class="sxs-lookup"><span data-stu-id="76ff2-p111">Indicates whether the caller connected over a virtual private network. 1 is virtual private network (VPN), 0 is non-VPN.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="6791a-191">CalleeIPAddr</span><span class="sxs-lookup"><span data-stu-id="6791a-191">CalleeIPAddr</span></span></p></td>
-<td><p><span data-ttu-id="6791a-192">var (50)</span><span class="sxs-lookup"><span data-stu-id="6791a-192">var(50)</span></span></p></td>
-<td><p><span data-ttu-id="6791a-193">Endereço IP do chamador.</span><span class="sxs-lookup"><span data-stu-id="6791a-193">IP address of the callee.</span></span> <span data-ttu-id="6791a-194">Pode ser um endereço IPv4 ou IPv6.</span><span class="sxs-lookup"><span data-stu-id="6791a-194">This can be either an IPv4 or IPv6 address.</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-191">CalleeIPAddr</span><span class="sxs-lookup"><span data-stu-id="76ff2-191">CalleeIPAddr</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-192">var (50)</span><span class="sxs-lookup"><span data-stu-id="76ff2-192">var(50)</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-193">Endereço IP do receptor da chamada.</span><span class="sxs-lookup"><span data-stu-id="76ff2-193">IP address of the callee.</span></span> <span data-ttu-id="76ff2-194">Pode ser um endereço IPv4 ou IPv6.</span><span class="sxs-lookup"><span data-stu-id="76ff2-194">This can be either an IPv4 or IPv6 address.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="6791a-195">CalleePort</span><span class="sxs-lookup"><span data-stu-id="6791a-195">CalleePort</span></span></p></td>
-<td><p><span data-ttu-id="6791a-196">int</span><span class="sxs-lookup"><span data-stu-id="6791a-196">int</span></span></p></td>
-<td><p><span data-ttu-id="6791a-197">Porta usada pelo chamador.</span><span class="sxs-lookup"><span data-stu-id="6791a-197">Port used by the callee.</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-195">CalleePort</span><span class="sxs-lookup"><span data-stu-id="76ff2-195">CalleePort</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-196">int</span><span class="sxs-lookup"><span data-stu-id="76ff2-196">int</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-197">Porta usada pelo receptor.</span><span class="sxs-lookup"><span data-stu-id="76ff2-197">Port used by the callee.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="6791a-198">CalleeInside</span><span class="sxs-lookup"><span data-stu-id="6791a-198">CalleeInside</span></span></p></td>
-<td><p><span data-ttu-id="6791a-199">bit</span><span class="sxs-lookup"><span data-stu-id="6791a-199">bit</span></span></p></td>
-<td><p><span data-ttu-id="6791a-200">Indica se a chamada está dentro da rede corporativa.</span><span class="sxs-lookup"><span data-stu-id="6791a-200">Indicates whether the callee is inside the enterprise network.</span></span> <span data-ttu-id="6791a-201">1 significa que a chamada está dentro da rede corporativa, 0 significa que o chamador está fora da rede.</span><span class="sxs-lookup"><span data-stu-id="6791a-201">1 means callee is inside the enterprise network, 0 means the callee is outside the network.</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-198">CalleeInside</span><span class="sxs-lookup"><span data-stu-id="76ff2-198">CalleeInside</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-199">bits</span><span class="sxs-lookup"><span data-stu-id="76ff2-199">bit</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-p113">Indica se o receptor da chamada está dentro da rede corporativa. 1 significa que o receptor está dentro da rede corporativa, 0 significa que está fora.</span><span class="sxs-lookup"><span data-stu-id="76ff2-p113">Indicates whether the callee is inside the enterprise network. 1 means callee is inside the enterprise network, 0 means the callee is outside the network.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="6791a-202">CalleeMacAddress</span><span class="sxs-lookup"><span data-stu-id="6791a-202">CalleeMacAddress</span></span></p></td>
-<td><p><span data-ttu-id="6791a-203">varchar (256)</span><span class="sxs-lookup"><span data-stu-id="6791a-203">varchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="6791a-204">Endereço MAC da interface de rede usada pelo chamador.</span><span class="sxs-lookup"><span data-stu-id="6791a-204">MAC address of network interface used by callee.</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-202">CalleeMacAddress</span><span class="sxs-lookup"><span data-stu-id="76ff2-202">CalleeMacAddress</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-203">varchar (256)</span><span class="sxs-lookup"><span data-stu-id="76ff2-203">varchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-204">Endereço MAC da interface de rede usada pelo receptor da chamada.</span><span class="sxs-lookup"><span data-stu-id="76ff2-204">MAC address of network interface used by callee.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="6791a-205">CalleeRelayIPAddr</span><span class="sxs-lookup"><span data-stu-id="6791a-205">CalleeRelayIPAddr</span></span></p></td>
-<td><p><span data-ttu-id="6791a-206">var (50)</span><span class="sxs-lookup"><span data-stu-id="6791a-206">var(50)</span></span></p></td>
-<td><p><span data-ttu-id="6791a-207">Endereço IP do serviço de borda A/V usado pelo chamador.</span><span class="sxs-lookup"><span data-stu-id="6791a-207">IP Address of the A/V Edge service used by the callee.</span></span> <span data-ttu-id="6791a-208">Consulte a <a href="lync-server-2013-ipaddress-table.md">tabela IPAddress no Lync Server 2013</a> para obter mais informações.</span><span class="sxs-lookup"><span data-stu-id="6791a-208">See the <a href="lync-server-2013-ipaddress-table.md">IPAddress table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-205">CalleeRelayIPAddr</span><span class="sxs-lookup"><span data-stu-id="76ff2-205">CalleeRelayIPAddr</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-206">var (50)</span><span class="sxs-lookup"><span data-stu-id="76ff2-206">var(50)</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-207">Endereço IP do serviço de Borda de A/V usado pelo receptor da chamada.</span><span class="sxs-lookup"><span data-stu-id="76ff2-207">IP Address of the A/V Edge service used by the callee.</span></span> <span data-ttu-id="76ff2-208">Consulte a <a href="lync-server-2013-ipaddress-table.md">tabela IPAddress no Lync Server 2013</a> para obter mais informações.</span><span class="sxs-lookup"><span data-stu-id="76ff2-208">See the <a href="lync-server-2013-ipaddress-table.md">IPAddress table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="6791a-209">CalleeRelayPort</span><span class="sxs-lookup"><span data-stu-id="6791a-209">CalleeRelayPort</span></span></p></td>
-<td><p><span data-ttu-id="6791a-210">int</span><span class="sxs-lookup"><span data-stu-id="6791a-210">int</span></span></p></td>
-<td><p><span data-ttu-id="6791a-211">Porta usada no serviço de borda A/V usado pelo chamador.</span><span class="sxs-lookup"><span data-stu-id="6791a-211">Port used on the A/V Edge service used by the callee.</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-209">CalleeRelayPort</span><span class="sxs-lookup"><span data-stu-id="76ff2-209">CalleeRelayPort</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-210">int</span><span class="sxs-lookup"><span data-stu-id="76ff2-210">int</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-211">Porta usada no serviço de Borda de A/V usado pelo receptor da chamada.</span><span class="sxs-lookup"><span data-stu-id="76ff2-211">Port used on the A/V Edge service used by the callee.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="6791a-212">CalleeReflexiveIPAddr</span><span class="sxs-lookup"><span data-stu-id="6791a-212">CalleeReflexiveIPAddr</span></span></p></td>
-<td><p><span data-ttu-id="6791a-213">var (50)</span><span class="sxs-lookup"><span data-stu-id="6791a-213">var(50)</span></span></p></td>
-<td><p><span data-ttu-id="6791a-214">Endereço IP do chamador reportado pelo serviço de borda A/V.</span><span class="sxs-lookup"><span data-stu-id="6791a-214">Callee’s IP address as reported by the A/V Edge service.</span></span> <span data-ttu-id="6791a-215">Esse endereço pode ser diferente de CalleeIPAddr se o cliente estiver localizado atrás de um NAT por exemplo.</span><span class="sxs-lookup"><span data-stu-id="6791a-215">This address may be different that the CalleeIPAddr if the client is located behind a NAT for example.</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-212">CalleeReflexiveIPAddr</span><span class="sxs-lookup"><span data-stu-id="76ff2-212">CalleeReflexiveIPAddr</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-213">var (50)</span><span class="sxs-lookup"><span data-stu-id="76ff2-213">var(50)</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-214">Endereço IP do receptor da chamada conforme reportado pelo serviço de Borda de A/V.</span><span class="sxs-lookup"><span data-stu-id="76ff2-214">Callee’s IP address as reported by the A/V Edge service.</span></span> <span data-ttu-id="76ff2-215">Este endereço pode ser diferente do endereço na coluna CalleeIPAddr se o cliente estiver localizado atrás de uma NAT, por exemplo.</span><span class="sxs-lookup"><span data-stu-id="76ff2-215">This address may be different that the CalleeIPAddr if the client is located behind a NAT for example.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="6791a-216">CalleeCaptureDev</span><span class="sxs-lookup"><span data-stu-id="6791a-216">CalleeCaptureDev</span></span></p></td>
-<td><p><span data-ttu-id="6791a-217">var (50)</span><span class="sxs-lookup"><span data-stu-id="6791a-217">var(50)</span></span></p></td>
-<td><p><span data-ttu-id="6791a-218">Nome do dispositivo de captura do chamador.</span><span class="sxs-lookup"><span data-stu-id="6791a-218">Callee’s capture device name.</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-216">CalleeCaptureDev</span><span class="sxs-lookup"><span data-stu-id="76ff2-216">CalleeCaptureDev</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-217">var (50)</span><span class="sxs-lookup"><span data-stu-id="76ff2-217">var(50)</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-218">Nome do dispositivo de captura do receptor da chamada.</span><span class="sxs-lookup"><span data-stu-id="76ff2-218">Callee’s capture device name.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="6791a-219">CalleeRenderDev</span><span class="sxs-lookup"><span data-stu-id="6791a-219">CalleeRenderDev</span></span></p></td>
-<td><p><span data-ttu-id="6791a-220">varchar (256)</span><span class="sxs-lookup"><span data-stu-id="6791a-220">varchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="6791a-221">Nome do dispositivo de renderização do Calle.</span><span class="sxs-lookup"><span data-stu-id="6791a-221">Callee’s render device name.</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-219">CalleeRenderDev</span><span class="sxs-lookup"><span data-stu-id="76ff2-219">CalleeRenderDev</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-220">varchar (256)</span><span class="sxs-lookup"><span data-stu-id="76ff2-220">varchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-221">Nome do dispositivo de renderização do receptor.</span><span class="sxs-lookup"><span data-stu-id="76ff2-221">Callee’s render device name.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="6791a-222">CalleeCaptureDevDriver</span><span class="sxs-lookup"><span data-stu-id="6791a-222">CalleeCaptureDevDriver</span></span></p></td>
-<td><p><span data-ttu-id="6791a-223">varchar (256)</span><span class="sxs-lookup"><span data-stu-id="6791a-223">varchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="6791a-224">Nome do driver do dispositivo de captura do chamador.</span><span class="sxs-lookup"><span data-stu-id="6791a-224">Callee’s capture device driver name.</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-222">CalleeCaptureDevDriver</span><span class="sxs-lookup"><span data-stu-id="76ff2-222">CalleeCaptureDevDriver</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-223">varchar (256)</span><span class="sxs-lookup"><span data-stu-id="76ff2-223">varchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-224">Nome do driver do dispositivo de captura do receptor.</span><span class="sxs-lookup"><span data-stu-id="76ff2-224">Callee’s capture device driver name.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="6791a-225">CalleeRenderDevDriver</span><span class="sxs-lookup"><span data-stu-id="6791a-225">CalleeRenderDevDriver</span></span></p></td>
-<td><p><span data-ttu-id="6791a-226">varchar (256)</span><span class="sxs-lookup"><span data-stu-id="6791a-226">varchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="6791a-227">Chame o nome do driver do dispositivo de processamento do recurso.</span><span class="sxs-lookup"><span data-stu-id="6791a-227">Callee’s render device driver name.</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-225">CalleeRenderDevDriver</span><span class="sxs-lookup"><span data-stu-id="76ff2-225">CalleeRenderDevDriver</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-226">varchar (256)</span><span class="sxs-lookup"><span data-stu-id="76ff2-226">varchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-227">Nome da unidade do dispositivo de renderização do receptor da chamada.</span><span class="sxs-lookup"><span data-stu-id="76ff2-227">Callee’s render device driver name.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="6791a-228">CalleeWifiDriverDeviceDesc</span><span class="sxs-lookup"><span data-stu-id="6791a-228">CalleeWifiDriverDeviceDesc</span></span></p></td>
-<td><p><span data-ttu-id="6791a-229">varchar (256)</span><span class="sxs-lookup"><span data-stu-id="6791a-229">varchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="6791a-230">Descrição do driver WiFi do Calle.</span><span class="sxs-lookup"><span data-stu-id="6791a-230">Callee’s Wifi driver description.</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-228">CalleeWifiDriverDeviceDesc</span><span class="sxs-lookup"><span data-stu-id="76ff2-228">CalleeWifiDriverDeviceDesc</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-229">varchar (256)</span><span class="sxs-lookup"><span data-stu-id="76ff2-229">varchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-230">Descrição da unidade wifi do receptor da chamada.</span><span class="sxs-lookup"><span data-stu-id="76ff2-230">Callee’s Wifi driver description.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="6791a-231">CalleeWifiDriverVersion</span><span class="sxs-lookup"><span data-stu-id="6791a-231">CalleeWifiDriverVersion</span></span></p></td>
-<td><p><span data-ttu-id="6791a-232">varchar (256</span><span class="sxs-lookup"><span data-stu-id="6791a-232">varchar(256</span></span></p></td>
-<td><p><span data-ttu-id="6791a-233">Versão do driver WiFi do Calle.</span><span class="sxs-lookup"><span data-stu-id="6791a-233">Callee’s Wifi driver version.</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-231">CalleeWifiDriverVersion</span><span class="sxs-lookup"><span data-stu-id="76ff2-231">CalleeWifiDriverVersion</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-232">varchar (256</span><span class="sxs-lookup"><span data-stu-id="76ff2-232">varchar(256</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-233">Versão da unidade wifi do receptor da chamada.</span><span class="sxs-lookup"><span data-stu-id="76ff2-233">Callee’s Wifi driver version.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="6791a-234">CalleeNetworkConnectionDetail</span><span class="sxs-lookup"><span data-stu-id="6791a-234">CalleeNetworkConnectionDetail</span></span></p></td>
-<td><p><span data-ttu-id="6791a-235">varchar (256)</span><span class="sxs-lookup"><span data-stu-id="6791a-235">varchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="6791a-236">Detalhes da conexão de rede do Calle.</span><span class="sxs-lookup"><span data-stu-id="6791a-236">Details of callee’s network connection.</span></span> <span data-ttu-id="6791a-237">Consulte a <a href="lync-server-2013-networkconnectiondetail-table.md">tabela NetworkConnectionDetail no Lync Server 2013</a> para obter mais informações.</span><span class="sxs-lookup"><span data-stu-id="6791a-237">See the <a href="lync-server-2013-networkconnectiondetail-table.md">NetworkConnectionDetail table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-234">CalleeNetworkConnectionDetail</span><span class="sxs-lookup"><span data-stu-id="76ff2-234">CalleeNetworkConnectionDetail</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-235">varchar (256)</span><span class="sxs-lookup"><span data-stu-id="76ff2-235">varchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-236">Detalhes da conexão de rede do receptor da chamada.</span><span class="sxs-lookup"><span data-stu-id="76ff2-236">Details of callee’s network connection.</span></span> <span data-ttu-id="76ff2-237">Consulte a <a href="lync-server-2013-networkconnectiondetail-table.md">tabela NetworkConnectionDetail no Lync Server 2013</a> para obter mais informações.</span><span class="sxs-lookup"><span data-stu-id="76ff2-237">See the <a href="lync-server-2013-networkconnectiondetail-table.md">NetworkConnectionDetail table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="6791a-238">CalleeBssid</span><span class="sxs-lookup"><span data-stu-id="6791a-238">CalleeBssid</span></span></p></td>
-<td><p><span data-ttu-id="6791a-239">varchar (256)</span><span class="sxs-lookup"><span data-stu-id="6791a-239">varchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="6791a-240">Identificador do conjunto de serviços básico usado pela conexão WiFi do chamador.</span><span class="sxs-lookup"><span data-stu-id="6791a-240">Basic Service Set Identifier used by callee’s WiFi connection.</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-238">CalleeBssid</span><span class="sxs-lookup"><span data-stu-id="76ff2-238">CalleeBssid</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-239">varchar (256)</span><span class="sxs-lookup"><span data-stu-id="76ff2-239">varchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-240">Identificador SSID usado pela conexão WiFi do receptor da chamada.</span><span class="sxs-lookup"><span data-stu-id="76ff2-240">Basic Service Set Identifier used by callee’s WiFi connection.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="6791a-241">CalleeVPN</span><span class="sxs-lookup"><span data-stu-id="6791a-241">CalleeVPN</span></span></p></td>
-<td><p><span data-ttu-id="6791a-242">bit</span><span class="sxs-lookup"><span data-stu-id="6791a-242">bit</span></span></p></td>
-<td><p><span data-ttu-id="6791a-243">Indica se o chamador está conectado por meio de uma rede virtual privada.</span><span class="sxs-lookup"><span data-stu-id="6791a-243">Indicates whether the callee connected over a virtual private network.</span></span> <span data-ttu-id="6791a-244">1 é uma rede virtual privada (VPN), 0 não é VPN.</span><span class="sxs-lookup"><span data-stu-id="6791a-244">1 is virtual private network (VPN), 0 is non-VPN.</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-241">CalleeVPN</span><span class="sxs-lookup"><span data-stu-id="76ff2-241">CalleeVPN</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-242">bits</span><span class="sxs-lookup"><span data-stu-id="76ff2-242">bit</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-p117">Indica se o receptor da chamada se conectou por uma rede virtual privada. 1 é rede virtual privada (VPN), 0 é não-VPN.</span><span class="sxs-lookup"><span data-stu-id="76ff2-p117">Indicates whether the callee connected over a virtual private network. 1 is virtual private network (VPN), 0 is non-VPN.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="6791a-245">ConversationalMOS</span><span class="sxs-lookup"><span data-stu-id="6791a-245">ConversationalMOS</span></span></p></td>
-<td><p><span data-ttu-id="6791a-246">decimal (3; 2)</span><span class="sxs-lookup"><span data-stu-id="6791a-246">decimal(3,2)</span></span></p></td>
-<td><p><span data-ttu-id="6791a-247">O MOS de conversa de banda estreita das sessões de áudio (com base nos dois fluxos de áudio).</span><span class="sxs-lookup"><span data-stu-id="6791a-247">Narrowband Conversational MOS of the audio sessions (based on both audio streams).</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-245">ConversationalMOS</span><span class="sxs-lookup"><span data-stu-id="76ff2-245">ConversationalMOS</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-246">decimal (3, 2)</span><span class="sxs-lookup"><span data-stu-id="76ff2-246">decimal(3,2)</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-247">MOS da Conversa de Banda Estreita das sessões de áudio (com base nos dois fluxos de áudio).</span><span class="sxs-lookup"><span data-stu-id="76ff2-247">Narrowband Conversational MOS of the audio sessions (based on both audio streams).</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="6791a-248">AppliedBandwidthLimit</span><span class="sxs-lookup"><span data-stu-id="6791a-248">AppliedBandwidthLimit</span></span></p></td>
-<td><p><span data-ttu-id="6791a-249">int</span><span class="sxs-lookup"><span data-stu-id="6791a-249">int</span></span></p></td>
-<td><p><span data-ttu-id="6791a-250">Esta é a largura de banda real aplicada ao fluxo de envios do lado fornecido com várias configurações de política (ativar, API, SDP, servidor de política etc.).</span><span class="sxs-lookup"><span data-stu-id="6791a-250">This is the actual bandwidth applied to the given send side stream given various policy settings (TURN, API, SDP, Policy Server, etc.).</span></span> <span data-ttu-id="6791a-251">Isso não deve ser confundido com a largura de banda efetiva porque pode haver uma largura de banda mais econômica com base na estimativa de largura de banda.</span><span class="sxs-lookup"><span data-stu-id="6791a-251">This should not to be confused with the effective bandwidth because there can be a lower effective bandwidth based on the bandwidth estimate.</span></span> <span data-ttu-id="6791a-252">Isso é basicamente a largura de banda máxima que o fluxo de envio pode ter limites de bloqueio impostos pela estimativa da largura de banda.</span><span class="sxs-lookup"><span data-stu-id="6791a-252">This is basically the maximum bandwidth the send stream can take barring limits imposed by the bandwidth estimate.</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-248">AppliedBandwidthLimit</span><span class="sxs-lookup"><span data-stu-id="76ff2-248">AppliedBandwidthLimit</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-249">int</span><span class="sxs-lookup"><span data-stu-id="76ff2-249">int</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-p118">Esta é a largura de banda real aplicada a um dado fluxo de envio, considerando várias configurações de política (TURN, API, SDP, Servidor de Políticas, etc.). Não deve ser confundida com a largura de banda real porque pode haver uma largura de banda real menor com base na estimativa da largura de banda. Esta é basicamente a largura de banda máxima que o fluxo de envio pode usar, salvo limites impostos pela estimativa da largura de banda.</span><span class="sxs-lookup"><span data-stu-id="76ff2-p118">This is the actual bandwidth applied to the given send side stream given various policy settings (TURN, API, SDP, Policy Server, etc.). This should not to be confused with the effective bandwidth because there can be a lower effective bandwidth based on the bandwidth estimate. This is basically the maximum bandwidth the send stream can take barring limits imposed by the bandwidth estimate.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="6791a-253">AppliedBandwidthSource</span><span class="sxs-lookup"><span data-stu-id="6791a-253">AppliedBandwidthSource</span></span></p></td>
-<td><p><span data-ttu-id="6791a-254">varchar (256)</span><span class="sxs-lookup"><span data-stu-id="6791a-254">varchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="6791a-255">Fonte do limite de largura de banda imposto.</span><span class="sxs-lookup"><span data-stu-id="6791a-255">Source of the bandwidth cap being imposed.</span></span> <span data-ttu-id="6791a-256">Ele descreve para onde o limite de largura de banda é proveniente (por exemplo, "servidor de políticas", "Ativar servidor" ou "modalidade").</span><span class="sxs-lookup"><span data-stu-id="6791a-256">It describes where the bandwidth limit is coming from (for example, “Policy Server”, “TURN Server”, or “Modality”).</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-253">AppliedBandwidthSource</span><span class="sxs-lookup"><span data-stu-id="76ff2-253">AppliedBandwidthSource</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-254">varchar (256)</span><span class="sxs-lookup"><span data-stu-id="76ff2-254">varchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-p119">Origem da capacidade da largura de banda imposta. Descreve de onde o limite da largura de banda está vindo (por exemplo, “Servidor de Políticas”, “Servidor TURN” ou “Modalidade”).</span><span class="sxs-lookup"><span data-stu-id="76ff2-p119">Source of the bandwidth cap being imposed. It describes where the bandwidth limit is coming from (for example, “Policy Server”, “TURN Server”, or “Modality”).</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="6791a-257">Chamador</span><span class="sxs-lookup"><span data-stu-id="6791a-257">Caller</span></span></p></td>
-<td><p><span data-ttu-id="6791a-258">bit</span><span class="sxs-lookup"><span data-stu-id="6791a-258">bit</span></span></p></td>
-<td><p><span data-ttu-id="6791a-259">Indica se as métricas do autor foram recebidas; 1 é sim, 0 é não.</span><span class="sxs-lookup"><span data-stu-id="6791a-259">Indicates whether metrics from the caller were received; 1 is yes, 0 is no.</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-257">Chamador</span><span class="sxs-lookup"><span data-stu-id="76ff2-257">Caller</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-258">bits</span><span class="sxs-lookup"><span data-stu-id="76ff2-258">bit</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-259">Indica se as métricas do chamador foram recebidas; 1 é sim, 0 é não.</span><span class="sxs-lookup"><span data-stu-id="76ff2-259">Indicates whether metrics from the caller were received; 1 is yes, 0 is no.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="6791a-260">Receptor</span><span class="sxs-lookup"><span data-stu-id="6791a-260">Callee</span></span></p></td>
-<td><p><span data-ttu-id="6791a-261">bit</span><span class="sxs-lookup"><span data-stu-id="6791a-261">bit</span></span></p></td>
-<td><p><span data-ttu-id="6791a-262">Indica se as métricas do receptor da chamada foram recebidas; 1 é sim, 0 é não.</span><span class="sxs-lookup"><span data-stu-id="6791a-262">Indicates whether metrics from the call receiver were received; 1 is yes, 0 is no.</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-260">Receptor</span><span class="sxs-lookup"><span data-stu-id="76ff2-260">Callee</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-261">bits</span><span class="sxs-lookup"><span data-stu-id="76ff2-261">bit</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-262">Indica se as métricas do receptor da chamada foram recebidas; 1 é sim, 0 é não.</span><span class="sxs-lookup"><span data-stu-id="76ff2-262">Indicates whether metrics from the call receiver were received; 1 is yes, 0 is no.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="6791a-263">MidCallReport</span><span class="sxs-lookup"><span data-stu-id="6791a-263">MidCallReport</span></span></p></td>
-<td><p><span data-ttu-id="6791a-264">bit</span><span class="sxs-lookup"><span data-stu-id="6791a-264">bit</span></span></p></td>
-<td><p><span data-ttu-id="6791a-265">Indica se o relatório é para uma parte da chamada ou para a chamada completa.</span><span class="sxs-lookup"><span data-stu-id="6791a-265">Indicates whether the report is for a portion of the call or for the complete call.</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-263">MidCallReport</span><span class="sxs-lookup"><span data-stu-id="76ff2-263">MidCallReport</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-264">bits</span><span class="sxs-lookup"><span data-stu-id="76ff2-264">bit</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-265">Indica se o relatório refere-se a uma parte da chamada ou à chamada completa.</span><span class="sxs-lookup"><span data-stu-id="76ff2-265">Indicates whether the report is for a portion of the call or for the complete call.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="6791a-266">ClassifiedPoorCall</span><span class="sxs-lookup"><span data-stu-id="6791a-266">ClassifiedPoorCall</span></span></p></td>
-<td><p><span data-ttu-id="6791a-267">bit</span><span class="sxs-lookup"><span data-stu-id="6791a-267">bit</span></span></p></td>
-<td><p><span data-ttu-id="6791a-268">Indica se uma chamada foi classificada como uma chamada deficiente (1) ou uma boa chamada (0).</span><span class="sxs-lookup"><span data-stu-id="6791a-268">Indicates whether a call was classified as a poor call (1) or as a good call (0).</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-266">ClassifiedPoorCall</span><span class="sxs-lookup"><span data-stu-id="76ff2-266">ClassifiedPoorCall</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-267">bits</span><span class="sxs-lookup"><span data-stu-id="76ff2-267">bit</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-268">Indica se uma chamada foi classificada como ruim (1) ou boa (0).</span><span class="sxs-lookup"><span data-stu-id="76ff2-268">Indicates whether a call was classified as a poor call (1) or as a good call (0).</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="6791a-269">CallerConnectivityICE</span><span class="sxs-lookup"><span data-stu-id="6791a-269">CallerConnectivityICE</span></span></p></td>
-<td><p><span data-ttu-id="6791a-270">tinyint</span><span class="sxs-lookup"><span data-stu-id="6791a-270">tinyint</span></span></p></td>
-<td><p><span data-ttu-id="6791a-271">Indica se o chamador está conectado à rede usando o protocolo ICE (estabelecimento de conectividade com a Internet).</span><span class="sxs-lookup"><span data-stu-id="6791a-271">Indicates whether the caller connected to the network using the ICE protocol (Internet Connectivity Establishment).</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-269">CallerConnectivityICE</span><span class="sxs-lookup"><span data-stu-id="76ff2-269">CallerConnectivityICE</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-270">tinyint</span><span class="sxs-lookup"><span data-stu-id="76ff2-270">tinyint</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-271">Indica se o chamador se conectou à rede usando o protocolo ICE (Internet Connectivity Establishment).</span><span class="sxs-lookup"><span data-stu-id="76ff2-271">Indicates whether the caller connected to the network using the ICE protocol (Internet Connectivity Establishment).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="6791a-272">CalleeConnectivityICE</span><span class="sxs-lookup"><span data-stu-id="6791a-272">CalleeConnectivityICE</span></span></p></td>
-<td><p><span data-ttu-id="6791a-273">tinyint</span><span class="sxs-lookup"><span data-stu-id="6791a-273">tinyint</span></span></p></td>
-<td><p><span data-ttu-id="6791a-274">Indica se o usuário chamou conexão à rede usando o protocolo ICE (estabelecimento de conectividade com a Internet).</span><span class="sxs-lookup"><span data-stu-id="6791a-274">Indicates whether the user called connected to the network using the ICE protocol (Internet Connectivity Establishment).</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-272">CalleeConnectivityICE</span><span class="sxs-lookup"><span data-stu-id="76ff2-272">CalleeConnectivityICE</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-273">tinyint</span><span class="sxs-lookup"><span data-stu-id="76ff2-273">tinyint</span></span></p></td>
+<td><p><span data-ttu-id="76ff2-274">Indica se o usuário receptor da chamada se conectou à rede usando o protocolo ICE (Internet Connectivity Establishment).</span><span class="sxs-lookup"><span data-stu-id="76ff2-274">Indicates whether the user called connected to the network using the ICE protocol (Internet Connectivity Establishment).</span></span></p></td>
 </tr>
 </tbody>
 </table>

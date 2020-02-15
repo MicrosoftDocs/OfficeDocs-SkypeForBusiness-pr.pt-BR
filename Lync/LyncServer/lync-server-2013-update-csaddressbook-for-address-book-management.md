@@ -12,20 +12,20 @@ ms:contentKeyID: 48183428
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f03fe225b2eae508870220e278d7bfc3373dad22
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ffc956465d4ebc1da95289897a7eb81b0f8f8e68
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744781"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42041938"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="update-csaddressbook-for-address-book-management-in-lync-server-2013"></a><span data-ttu-id="2ca04-102">Update-CsAddressBook para o gerenciamento de catálogo de endereços no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2ca04-102">Update-CsAddressBook for Address Book management in Lync Server 2013</span></span>
+# <a name="update-csaddressbook-for-address-book-management-in-lync-server-2013"></a><span data-ttu-id="b0358-102">Update-CsAddressBook para gerenciamento de catálogo de endereços no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b0358-102">Update-CsAddressBook for Address Book management in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41744781"
 
 <span> </span>
 
-<span data-ttu-id="2ca04-103">_**Tópico da última modificação:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="2ca04-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="b0358-103">_**Última modificação do tópico:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="b0358-103">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="2ca04-104">Quem pode executar este cmdlet: por padrão, os membros dos grupos a seguir estão autorizados a executar o cmdlet Update-CsAddressBook localmente: RTCUniversalUserAdmins, RTCUniversalServerAdmins.</span><span class="sxs-lookup"><span data-stu-id="2ca04-104">Who can run this cmdlet: By default, members of the following groups are authorized to run the Update-CsAddressBook cmdlet locally: RTCUniversalUserAdmins, RTCUniversalServerAdmins.</span></span> <span data-ttu-id="2ca04-105">Para retornar uma lista de todas as funções de controle de acesso baseado em função (RBAC) às quais esse cmdlet foi atribuído (incluindo qualquer função RBAC personalizada que você criou), execute o seguinte comando no prompt do Windows PowerShell:</span><span class="sxs-lookup"><span data-stu-id="2ca04-105">To return a list of all the role-based access control (RBAC) roles this cmdlet has been assigned to (including any custom RBAC roles you have created yourself), run the following command from the Windows PowerShell prompt:</span></span>
+<span data-ttu-id="b0358-104">Quem pode executar esse cmdlet: Por padrão, membros dos seguintes grupos estão autorizados a executar o cmdlet Update-CsAddressBook localmente: RTCUniversalUserAdmins, RTCUniversalServerAdmins.</span><span class="sxs-lookup"><span data-stu-id="b0358-104">Who can run this cmdlet: By default, members of the following groups are authorized to run the Update-CsAddressBook cmdlet locally: RTCUniversalUserAdmins, RTCUniversalServerAdmins.</span></span> <span data-ttu-id="b0358-105">Para retornar uma lista de todas as funções RBAC que este cmdlet foi atribuído (incluindo qualquer função RBAC que você criou sozinho), execute o seguinte comando no prompt do Windows PowerShell:</span><span class="sxs-lookup"><span data-stu-id="b0358-105">To return a list of all the role-based access control (RBAC) roles this cmdlet has been assigned to (including any custom RBAC roles you have created yourself), run the following command from the Windows PowerShell prompt:</span></span>
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Update-CsAddressBook"}
 
-<span data-ttu-id="2ca04-106">O cmdlet Update-CsAddressBook substitui o comando **abserver. exe – syncNow** do Office Communications Server.</span><span class="sxs-lookup"><span data-stu-id="2ca04-106">The Update-CsAddressBook cmdlet replaces the **abserver.exe –syncNow** command from Office Communications Server.</span></span> <span data-ttu-id="2ca04-107">A finalidade do cmdlet é iniciar uma sincronização imediatamente em vez de aguardar o horário agendado.</span><span class="sxs-lookup"><span data-stu-id="2ca04-107">The cmdlet’s purpose is to initiate a synchronization immediately rather than waiting for the scheduled time.</span></span> <span data-ttu-id="2ca04-108">O primeiro exemplo de comando atualiza todos os catálogos de endereços da organização.</span><span class="sxs-lookup"><span data-stu-id="2ca04-108">The first example command updates all Address Books in the organization.</span></span> <span data-ttu-id="2ca04-109">A segunda atualiza somente o catálogo de endereços associado ao servidor definido.</span><span class="sxs-lookup"><span data-stu-id="2ca04-109">The second updates only the Address Book associated with the defined server.</span></span>
+<span data-ttu-id="b0358-106">O cmdlet Update-CsAddressBook substitui o comando **abserver. exe – syncNow** do Office Communications Server.</span><span class="sxs-lookup"><span data-stu-id="b0358-106">The Update-CsAddressBook cmdlet replaces the **abserver.exe –syncNow** command from Office Communications Server.</span></span> <span data-ttu-id="b0358-107">O objetivo do cmdlet é iniciar uma sincronização imediatamente em vez de aguardar o horário agendado.</span><span class="sxs-lookup"><span data-stu-id="b0358-107">The cmdlet’s purpose is to initiate a synchronization immediately rather than waiting for the scheduled time.</span></span> <span data-ttu-id="b0358-108">O primeiro comando de exemplo atualiza todos os catálogos de endereços na organização.</span><span class="sxs-lookup"><span data-stu-id="b0358-108">The first example command updates all Address Books in the organization.</span></span> <span data-ttu-id="b0358-109">A segunda atualiza apenas o catálogo de endereços associado ao servidor definido.</span><span class="sxs-lookup"><span data-stu-id="b0358-109">The second updates only the Address Book associated with the defined server.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="2ca04-110">No Lync Server 2013, o duplicador de usuários do Lync Server atenderá as alterações do Active Directory e atualizará o banco de dados de usuários do Lync Server com base em um intervalo configurado.</span><span class="sxs-lookup"><span data-stu-id="2ca04-110">In Lync Server 2013, Lync Server User Replicator will pick up the changes from Active Directory and update the Lync Server user database based on a configured interval.</span></span> <span data-ttu-id="2ca04-111">O duplicador de usuários do Lync Server também propagará as alterações para o banco de dados do RTCab rapidamente, sem que o administrador tenha que executar Update-CSAddressBook.</span><span class="sxs-lookup"><span data-stu-id="2ca04-111">Lync Server User Replicator will also propagate the changes to the RTCab database quickly without the administrator having to run Update-CSAddressBook.</span></span> <span data-ttu-id="2ca04-112">Os administradores só precisarão executar Update-CSAddressBook se o download do arquivo do catálogo de endereços estiver habilitado.</span><span class="sxs-lookup"><span data-stu-id="2ca04-112">Administrators will only need to run Update -CSAddressBook if the Address Book file download is enabled.</span></span>
+> <span data-ttu-id="b0358-110">No Lync Server 2013, o replicador de usuários do Lync Server selecionará as alterações do Active Directory e atualizará o banco de dados de usuário do Lync Server com base em um intervalo configurado.</span><span class="sxs-lookup"><span data-stu-id="b0358-110">In Lync Server 2013, Lync Server User Replicator will pick up the changes from Active Directory and update the Lync Server user database based on a configured interval.</span></span> <span data-ttu-id="b0358-111">O replicador de usuários do Lync Server também propagará as alterações para o banco de dados do RTCab rapidamente, sem que o administrador tenha que executar Update-CSAddressBook.</span><span class="sxs-lookup"><span data-stu-id="b0358-111">Lync Server User Replicator will also propagate the changes to the RTCab database quickly without the administrator having to run Update-CSAddressBook.</span></span> <span data-ttu-id="b0358-112">Os administradores precisarão executar o Atualizar -CSAddressBook somente se o download de arquivo do Catálogo de Endereços estiver habilitado.</span><span class="sxs-lookup"><span data-stu-id="b0358-112">Administrators will only need to run Update -CSAddressBook if the Address Book file download is enabled.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="2ca04-113">Por exemplo:</span><span class="sxs-lookup"><span data-stu-id="2ca04-113">For example:</span></span>
+<span data-ttu-id="b0358-113">Por exemplo:</span><span class="sxs-lookup"><span data-stu-id="b0358-113">For example:</span></span>
 
    ```PowerShell
     Update-CsAddressBook
@@ -65,10 +65,10 @@ ms.locfileid: "41744781"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="2ca04-114">Confira também</span><span class="sxs-lookup"><span data-stu-id="2ca04-114">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="b0358-114">Consulte também</span><span class="sxs-lookup"><span data-stu-id="b0358-114">See Also</span></span>
 
 
-[<span data-ttu-id="2ca04-115">Update-CsAddressBook</span><span class="sxs-lookup"><span data-stu-id="2ca04-115">Update-CsAddressBook</span></span>](https://docs.microsoft.com/powershell/module/skype/Update-CsAddressBook)  
+[<span data-ttu-id="b0358-115">Update-CsAddressBook</span><span class="sxs-lookup"><span data-stu-id="b0358-115">Update-CsAddressBook</span></span>](https://docs.microsoft.com/powershell/module/skype/Update-CsAddressBook)  
   
 
 </div>

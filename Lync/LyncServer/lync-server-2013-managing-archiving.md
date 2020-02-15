@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Gerenciando Arquivamento'
+title: 'Lync Server 2013: Gerenciando arquivamento'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184003
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b3bb7ecac5204fc42b44e919dbbab8e9b720acc7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 16c9b901575e844954b9dd3454c4ecc7c86e7c3b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738861"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037211"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="managing-lync-server-2013-archiving"></a><span data-ttu-id="cfc78-102">Gerenciando Arquivamento do Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cfc78-102">Managing Lync Server 2013 Archiving</span></span>
+# <a name="managing-lync-server-2013-archiving"></a><span data-ttu-id="bf082-102">Gerenciando o arquivamento do Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="bf082-102">Managing Lync Server 2013 Archiving</span></span>
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41738861"
 
 <span> </span>
 
-<span data-ttu-id="cfc78-103">_**Tópico da última modificação:** 2012-10-10_</span><span class="sxs-lookup"><span data-stu-id="cfc78-103">_**Topic Last Modified:** 2012-10-10_</span></span>
+<span data-ttu-id="bf082-103">_**Última modificação do tópico:** 2012-10-10_</span><span class="sxs-lookup"><span data-stu-id="bf082-103">_**Topic Last Modified:** 2012-10-10_</span></span>
 
-<span data-ttu-id="cfc78-104">Ao implantar o arquivamento para a sua organização, você especifica a configuração inicial durante a implantação.</span><span class="sxs-lookup"><span data-stu-id="cfc78-104">When you deploy Archiving for your organization, you specify the initial configuration during deployment.</span></span> <span data-ttu-id="cfc78-105">No entanto, pode haver ocasiões em que você queira alterar a forma de implementar o suporte ao arquivamento para o gerenciamento cotidiano ou atender aos novos requisitos da sua organização.</span><span class="sxs-lookup"><span data-stu-id="cfc78-105">However, there may be times when you want to change how you implement archiving support for day-to-day management or to meet new requirements in your organization.</span></span> <span data-ttu-id="cfc78-106">Por exemplo, talvez seja necessário configurar o suporte para arquivamento de forma diferente para um site, um pool ou usuários específicos dentro da sua organização.</span><span class="sxs-lookup"><span data-stu-id="cfc78-106">For example, you may need to set up archiving support differently for a specific site, pool, or users within your organization.</span></span> <span data-ttu-id="cfc78-107">Para os usuários hospedados no Lync Server 2013, você faz isso é criar e personalizar políticas e configurações de arquivamento.</span><span class="sxs-lookup"><span data-stu-id="cfc78-107">For users homed on Lync Server 2013, you do this be creating and customizing archiving policies and configurations.</span></span> <span data-ttu-id="cfc78-108">Se você usa a integração do Microsoft Exchange, você também deve configurar as configurações do Exchange 2013.</span><span class="sxs-lookup"><span data-stu-id="cfc78-108">If you use Microsoft Exchange integration, you must also configure Exchange 2013 settings.</span></span> <span data-ttu-id="cfc78-109">Esta seção fornece informações e procedimentos para permitir que você faça alterações em sua implantação de arquivamento.</span><span class="sxs-lookup"><span data-stu-id="cfc78-109">This section provides information and procedures to enable you to make changes to your Archiving deployment.</span></span>
+<span data-ttu-id="bf082-104">Ao implantar o arquivamento para sua organização, você especifica a configuração inicial durante a implantação.</span><span class="sxs-lookup"><span data-stu-id="bf082-104">When you deploy Archiving for your organization, you specify the initial configuration during deployment.</span></span> <span data-ttu-id="bf082-105">No entanto, pode haver momentos em que você deseja alterar a forma como você implementa o suporte de arquivamento para o gerenciamento cotidiano ou para atender aos novos requisitos em sua organização.</span><span class="sxs-lookup"><span data-stu-id="bf082-105">However, there may be times when you want to change how you implement archiving support for day-to-day management or to meet new requirements in your organization.</span></span> <span data-ttu-id="bf082-106">Por exemplo, talvez você precise configurar o suporte de arquivamento de forma diferente para um site, pool ou usuários específicos em sua organização.</span><span class="sxs-lookup"><span data-stu-id="bf082-106">For example, you may need to set up archiving support differently for a specific site, pool, or users within your organization.</span></span> <span data-ttu-id="bf082-107">Para usuários hospedados no Lync Server 2013, é possível criar e personalizar políticas e configurações de arquivamento.</span><span class="sxs-lookup"><span data-stu-id="bf082-107">For users homed on Lync Server 2013, you do this be creating and customizing archiving policies and configurations.</span></span> <span data-ttu-id="bf082-108">Se você usar a integração com o Microsoft Exchange, também deverá definir as configurações do Exchange 2013.</span><span class="sxs-lookup"><span data-stu-id="bf082-108">If you use Microsoft Exchange integration, you must also configure Exchange 2013 settings.</span></span> <span data-ttu-id="bf082-109">Esta seção fornece informações e procedimentos para permitir que você faça alterações na sua implantação de arquivamento.</span><span class="sxs-lookup"><span data-stu-id="bf082-109">This section provides information and procedures to enable you to make changes to your Archiving deployment.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="cfc78-110">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="cfc78-110">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="bf082-110">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="bf082-110">In This Section</span></span>
 
-  - [<span data-ttu-id="cfc78-111">Como o arquivamento funciona no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cfc78-111">How Archiving works in Lync Server 2013</span></span>](lync-server-2013-how-archiving-works.md)
+  - [<span data-ttu-id="bf082-111">Como o arquivamento funciona no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="bf082-111">How Archiving works in Lync Server 2013</span></span>](lync-server-2013-how-archiving-works.md)
 
-  - [<span data-ttu-id="cfc78-112">Gerenciar o arquivamento de comunicações internas e externas no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cfc78-112">Managing the Archiving of internal and external communications in Lync Server 2013</span></span>](lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md)
+  - [<span data-ttu-id="bf082-112">Gerenciando o arquivamento de comunicações internas e externas no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="bf082-112">Managing the Archiving of internal and external communications in Lync Server 2013</span></span>](lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md)
 
-  - [<span data-ttu-id="cfc78-113">Gerenciando opções de configuração de arquivamento no Lync Server 2013 para sua organização, sites e pools</span><span class="sxs-lookup"><span data-stu-id="cfc78-113">Managing Archiving configuration options in Lync Server 2013 for your organization, sites, and pools</span></span>](lync-server-2013-managing-archiving-configuration-options-for-your-organization-sites-and-pools.md)
+  - [<span data-ttu-id="bf082-113">Gerenciando opções de configuração de arquivamento no Lync Server 2013 para sua organização, sites e pools</span><span class="sxs-lookup"><span data-stu-id="bf082-113">Managing Archiving configuration options in Lync Server 2013 for your organization, sites, and pools</span></span>](lync-server-2013-managing-archiving-configuration-options-for-your-organization-sites-and-pools.md)
 
-  - [<span data-ttu-id="cfc78-114">Alterar as opções de banco de dados de arquivamento no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cfc78-114">Changing Archiving database options in Lync Server 2013</span></span>](lync-server-2013-changing-archiving-database-options.md)
+  - [<span data-ttu-id="bf082-114">Alterando opções de banco de dados de arquivamento no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="bf082-114">Changing Archiving database options in Lync Server 2013</span></span>](lync-server-2013-changing-archiving-database-options.md)
 
-  - [<span data-ttu-id="cfc78-115">Exportando dados arquivados do Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cfc78-115">Exporting archived data from Lync Server 2013</span></span>](lync-server-2013-exporting-archived-data.md)
+  - [<span data-ttu-id="bf082-115">Exportar dados arquivados do Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="bf082-115">Exporting archived data from Lync Server 2013</span></span>](lync-server-2013-exporting-archived-data.md)
 
 </div>
 
