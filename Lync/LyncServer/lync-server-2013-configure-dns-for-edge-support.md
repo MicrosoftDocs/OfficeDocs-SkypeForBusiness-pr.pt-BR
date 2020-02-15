@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Configurar DNS para suporte à borda'
+title: 'Lync Server 2013: configurar DNS para suporte de borda'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184894
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c905c8fff7a67b26a7df8d2c741ce0a16fddce6c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e22228ec089f5632f30d4eabc2e8c32d87b5e2d5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757895"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028602"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-dns-for-edge-support-in-lync-server-2013"></a>Configurar DNS para suporte à borda no Lync Server 2013
+# <a name="configure-dns-for-edge-support-in-lync-server-2013"></a>Configurar o DNS para suporte de borda no Lync Server 2013
 
 </div>
 
@@ -35,35 +35,35 @@ ms.locfileid: "41757895"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-02-15_
+_**Última modificação do tópico:** 2013-02-15_
 
-Você deve configurar registros DNS (sistema de nomes de domínio) para interfaces de borda internas e externas, incluindo ambas as interfaces do servidor de borda e proxy reverso. Por padrão, os servidores de borda não fazem parte de um domínio e não terão um nome de domínio totalmente qualificado (nome de domínio totalmente qualificado). O servidor de borda é chamado apenas pelo nome curto (máquina), não por um nome de domínio totalmente qualificado. No entanto, o construtor de topologias usa FQDNs, não nomes curtos. O nome do servidor de borda deve corresponder ao FQDN usado pelo construtor de topologias. Para fazer isso, você define um sufixo DNS que, quando combinado com o nome do computador, resulta no FQDN esperado. Use o procedimento a seguir em "para adicionar o sufixo DNS ao nome do computador e no servidor de borda que não está associado a um domínio" para adicionar o sufixo DNS ao nome do computador.
+Você deve configurar os registros de DNS (Sistema de Nomes de Domínio) para interfaces de borda internas e externas, incluindo ambas as interfaces do Servidor de Borda e do proxy reverso. Como padrão, os Servidores de Borda não são reunidos em um domínio e não têm um nome de domínio totalmente qualificado. O Servidor de Borda é referenciado apenas pelo nome (de máquina) curto, não um nome de domínio totalmente qualificado. No entanto, o construtor de topologias usa FQDNs, não nomes curtos. O nome do servidor de borda deve corresponder ao FQDN usado pelo construtor de topologias. Para isso, você define um sufixo DNS que, ao ser combinado como nome de máquina, resulta no FQDN esperado. Use o seguinte procedimento em "Para adicionar o sufixo DNS do nome do computador em um Servidor de Borda que não está associado a um domínio" para adicionar o sufixo DNS ao nome do computador.
 
 <div>
 
 
 > [!NOTE]  
-> Por padrão, o DNS usa um algoritmo de rodízio para girar a ordem dos dados de registro de recurso retornados nas respostas de consulta onde vários registros de recursos do mesmo tipo existem para um nome de domínio DNS consultado. O balanceamento de carga de DNS do Lync Server 2013 depende do rodízio do DNS como parte do mecanismo de balanceamento de carga de DNS. Verifique se a configuração de rodízio não foi desabilitada. Se você estiver usando um servidor DNS que não está executando um sistema operacional Windows, verifique se a ordem de registro de recursos de rodízio está habilitada.
+> Por padrão, o DNS usa um algoritmo Round Robin para girar a ordem dos dados de registro de recurso retornados nas respostas da consulta, onde há vários registros de recursos do mesmo tipo para um nome de domínio DNS consultado. O balanceamento de carga DNS do Lync Server 2013 depende do rodízio de DNS como parte do mecanismo de balanceamento de carga de DNS. Verifique se a configuração Round-Robin não foi desativada. Se você estiver usando um servidor DNS que não esteja executando um sistema operacional Windows, verifique se a classificação de registro de recurso Round-Robin está habilitada.
 
 
 
 </div>
 
-Use os procedimentos a seguir em "**para criar um registro SRV DNS**" para criar e verificar cada registro SRV DNS. Use o procedimento em "**criar um registro DNS**a" para definir os registros DNS a necessários para o acesso de usuários externos. Para confirmar se os registros estão configurados e funcionando corretamente, consulte "**para verificar um registro DNS**" neste tópico. Para obter detalhes sobre cada registro necessário para dar suporte a acesso externo a usuários, consulte [determinar requisitos de DNS para o Lync Server 2013](lync-server-2013-determine-dns-requirements.md).
+Use os procedimentos a seguir em “**Para criar um registro DNS SRV**” para criar e verificar cada registro DNS SRV. Use o procedimento em “**Para criar um registro A de DNS**” para definir os registros A de DNS necessários para acesso do usuário externo. Para confirmar que os registros estão configurados e funcionando corretamente, consulte “**Para verificar um registro DNS**” neste tópico. Para obter detalhes sobre cada registro necessário para dar suporte ao acesso de usuário externo, consulte [determine DNS Requirements for Lync Server 2013](lync-server-2013-determine-dns-requirements.md).
 
 <div>
 
-## <a name="to-add-the-dns-suffix-to-the-computer-name-on-an-edge-server-that-is-not-joined-to-a-domain"></a>Para adicionar o sufixo DNS ao nome do computador em um servidor de borda que não está associado a um domínio
+## <a name="to-add-the-dns-suffix-to-the-computer-name-on-an-edge-server-that-is-not-joined-to-a-domain"></a>Para adicionar o sufixo DNS do nome do computador em um Servidor de Borda que não está associado a um domínio
 
-1.  No computador, clique em **Iniciar**, clique com o botão direito do mouse em **computador**e, em seguida, clique em **Propriedades**.
+1.  No computador, clique em **Iniciar**, clique com o botão direito do mouse em **cComputador** e clique em **Propriedades**.
 
-2.  Em **nome do computador, domínio e configurações de grupo de trabalho**, clique em **alterar configurações**.
+2.  Em **Nome do computador, domínio e configurações de grupo de trabalho**, clique em **Alterar configurações**.
 
-3.  Na guia **nome do computador** , clique em **alterar**.
+3.  Na guia **Nome do Computador**, clique em **Alterar**.
 
-4.  Em **nome do computador/alterações de domínio**, clique em **mais**.
+4.  Em   **Alterações de Nome/Domínio do Computador**, clique em **Mais**.
 
-5.  Em **sufixo DNS e nome NetBIOS do computador**, no **sufixo DNS primário deste computador**, digite o nome do seu domínio interno (por exemplo, Corp.contoso.com) e clique em **OK** três vezes.
+5.  Em **Sufixo DNS e nome NetBIOS do computador**, no **Sufixo DNS primário deste computador**, digite o nome de seu domínio interno (por exemplo, corp.contoso.com) e clique em **OK** três vezes.
 
 6.  Reinicie o computador.
 
@@ -71,40 +71,40 @@ Use os procedimentos a seguir em "**para criar um registro SRV DNS**" para criar
 
 <div>
 
-## <a name="to-create-a-dns-srv-record"></a>Para criar um registro SRV DNS
+## <a name="to-create-a-dns-srv-record"></a>Para criar um registro SRV de DNS
 
-1.  No servidor DNS apropriado, clique em **Iniciar**, clique em **painel de controle**, clique em **Ferramentas administrativas**e clique em **DNS**.
+1.  No servidor DNS apropriado, clique em **Iniciar**, clique em **Painel de Controle**, clique em **Ferramentas Administrativas** e, em seguida, clique em **DNS**.
     
     <div>
     
 
     > [!IMPORTANT]  
-    > Você precisa configurar o DNS para que haja: 1) entradas DNS externas para pesquisas de DNS externas por usuários remotos e parceiros federados; 2) entradas para pesquisas de DNS para uso pelos servidores de borda dentro da rede de perímetro (também conhecido como DMZ, zona desmilitarizada e sub-rede filtrada), incluindo registros para os servidores internos que executam o Lync Server 2013; e 3) entradas DNS internas para pesquisas pelos clientes internos e servidores que executam o Lync Server 2013.
+    > Você precisa configurar o DNS para que haja: 1) entradas DNS externas para pesquisas de DNS externas por usuários remotos e parceiros federados; 2) entradas de pesquisa de DNS para uso pelos servidores de borda dentro da rede de perímetro (também conhecida como DMZ, zona desmilitarizada e sub-rede filtrada), incluindo registros para os servidores internos que executam o Lync Server 2013; e 3) entradas de DNS internas para pesquisas pelos clientes internos e servidores que executam o Lync Server 2013.
 
     
     </div>
 
-2.  Na árvore de console do seu domínio SIP, expanda **zonas de pesquisa direta**e clique com o botão direito do mouse no domínio onde o Lync Server 2013 está instalado.
+2.  Na árvore do console do seu domínio SIP, expanda **zonas de pesquisa direta**e clique com o botão direito do mouse no domínio onde o Lync Server 2013 está instalado.
 
-3.  Clique em **outros novos registros**.
+3.  Clique em **Outros Registros Novos**.
 
-4.  Em **Selecione um tipo de registro de recurso**, digite **local do serviço (SRV)** e clique em **criar registro**.
+4.  Em **Selecione um tipo de registro de recurso**, digite o **Local do Serviço (SRV)** e, em seguida, clique em **Criar Registro**.
 
-5.  Forneça todas as informações necessárias para o registro SRV DNS.
+5.  Forneça todas as informações exigidas para o registro SRV de DNS.
 
 </div>
 
 <div>
 
-## <a name="to-create-a-dns-a-record"></a>Para criar um registro de DNS A
+## <a name="to-create-a-dns-a-record"></a>Para criar um registro A de DNS
 
-1.  No servidor DNS, clique em **Iniciar**, clique em **painel de controle**, clique em **Ferramentas administrativas**e, em seguida, clique em **DNS**.
+1.  No servidor DNS, clique em **Iniciar**, clique em **Painel de Controle**, clique em **Ferramentas Administrativas** e, em seguida, clique em **DNS**.
 
-2.  Na árvore de console do seu domínio SIP, expanda **zonas de pesquisa direta**e clique com o botão direito do mouse no domínio no qual o Lync Server 2013 está instalado.
+2.  Na árvore do console do seu domínio SIP, expanda **zonas de pesquisa direta**e clique com o botão direito do mouse no domínio no qual o Lync Server 2013 está instalado.
 
-3.  Clique em **novo host (A)**.
+3.  Clique em **Novo Host (A)**.
 
-4.  Forneça todas as informações necessárias para o registro SRV DNS.
+4.  Forneça todas as informações exigidas para o registro SRV de DNS.
 
 </div>
 
@@ -114,13 +114,13 @@ Use os procedimentos a seguir em "**para criar um registro SRV DNS**" para criar
 
 1.  Faça logon em um computador cliente no domínio.
 
-2.  Clique em  **Iniciar ** e em  **Executar **.
+2.  Clique em **Iniciar** e em **Executar**.
 
 3.  No prompt de comando, execute o seguinte comando:
     
         nslookup <FQDN edge interface>
 
-4.  Verifique se você recebe uma resposta que é resolvida para o endereço IP apropriado para o FQDN.
+4.  Verifique se você recebe uma resposta que resolve o endereço IP apropriado para o FQDN.
 
 </div>
 
@@ -129,10 +129,10 @@ Use os procedimentos a seguir em "**para criar um registro SRV DNS**" para criar
 ## <a name="see-also"></a>Confira também
 
 
-[Criar um registro DNS SRV para integração com Exchange UM hospedado](lync-server-2013-create-a-dns-srv-record-for-integration-with-hosted-exchange-um.md)  
+[Criar um registro SRV de DNS para integração com a UM do Exchange hospedado](lync-server-2013-create-a-dns-srv-record-for-integration-with-hosted-exchange-um.md)  
 
 
-[Determinar requisitios de DNS para Lync Server 2013](lync-server-2013-determine-dns-requirements.md)  
+[Determinar requisitos de DNS para o Lync Server 2013](lync-server-2013-determine-dns-requirements.md)  
   
 
 </div>

@@ -12,16 +12,16 @@ ms:contentKeyID: 49733851
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ff3a7189d0f9d5cbbea4a34e558ac67defa2aab5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ab0af46f3f2170de0a169520c9f2097e7abbb058
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757805"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028732"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,7 +35,7 @@ ms.locfileid: "41757805"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-12_
+_**Última modificação do tópico:** 2012-09-12_
 
 Ao configurar comunicados, na verdade você está configurando como deseja manipular as chamadas para números não atribuídos. É possível reproduzir um prompt, que pode ser um arquivo de áudio ou um arquivo TTS (conversão de texto em fala) ou simplesmente transferir a chamada para um destino especificado sem reproduzir um prompt.
 
@@ -45,7 +45,7 @@ Você precisa criar anúncios antes de definir a tabela de números não atribu�
 
 ## <a name="in-this-section"></a>Nesta seção
 
-  - [Criar um anúncio no Lync Server 2013](lync-server-2013-create-an-announcement.md)
+  - [Criar um comunicado no Lync Server 2013](lync-server-2013-create-an-announcement.md)
 
   - [Excluir um comunicado no Lync Server 2013](lync-server-2013-delete-an-announcement.md)
 

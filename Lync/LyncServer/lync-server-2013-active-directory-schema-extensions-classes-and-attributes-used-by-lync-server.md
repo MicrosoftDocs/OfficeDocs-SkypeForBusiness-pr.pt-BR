@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Extensões, classes e atributos do esquema do Active Directory usado pelo Lync Server'
+title: 'Lync Server 2013: extensões, classes e atributos do esquema do Active Directory usados pelo Lync Server'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184188
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2ec6b3eff05ba27b41488aea49bb0347d058b6f0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6868c98fd8ba78514d1e88c52075cbcccc50719b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735191"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008533"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="active-directory-schema-extensions-classes-and-attributes-used-by-lync-server-2013"></a>Extensões, classes e atributos do esquema do Active Directory usado pelo Lync Server 2013
+# <a name="active-directory-schema-extensions-classes-and-attributes-used-by-lync-server-2013"></a>Extensões, classes e atributos do esquema do Active Directory usados pelo Lync Server 2013
 
 </div>
 
@@ -35,27 +35,27 @@ ms.locfileid: "41735191"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-06-19_
+_**Última modificação do tópico:** 2012-06-19_
 
 Esta seção de referência inclui as seguintes informações:
 
   - Extensões de esquema do Active Directory novas ou alteradas para o Lync Server 2013
     
-    O esquema do Active Directory contém definições formais de cada classe de objeto que podem ser criadas em uma floresta do Active Directory. O esquema também contém definições formais de cada atributo que podem existir em um objeto do Active Directory. O catálogo global do Active Directory contém réplicas de todos os objetos da floresta, juntamente com um subconjunto de atributos para cada objeto. Esta seção descreve as classes e os atributos que são novos ou alterados no Lync Server 2013.
+    O esquema do Active Directory contém definições formais de cada classe de objeto que pode ser criadas em uma floresta do Active Directory. O esquema também contém definições formais de cada atributo que podem existir em um objeto do Active Directory. O catálogo global do Active Directory contém réplicas de todos os objetos da floresta, juntamente com um subconjunto dos atributos de cada objeto. Esta seção descreve as classes e os atributos que são novos ou alterados no Lync Server 2013.
 
   - Todas as classes usadas pelo Lync Server, com uma descrição de cada
 
-  - Todos os atributos usados pelo Lync Server, com uma descrição de cada um
+  - Todos os atributos usados pelo Lync Server, com uma descrição de cada
 
   - Uma lista das classes usadas pelo Lync Server, com os atributos que cada uma pode conter
 
-  - Configurações e objetos globais, além dos grupos de administração e serviço universal criados durante a preparação da floresta
+  - Configurações e objetos globais, além de grupos universais de serviço e administração criados durante a preparação da floresta
 
-  - ACEs (entradas de controle de acesso) criadas na raiz do domínio e nos contêineres internos durante a preparação do domínio
+  - ACEs (entradas de controle de acesso) criadas na raiz do domínio e nos contêineres internos durante a preparação do domínio.
 
-  - Alterações feitas em uma UO (unidade organizacional) do Active Directory pelo cmdlet Grant\_CsSetupPermission.
+  - Alterações feitas em uma OU (unidade organizacional) do Active Directory pelo cmdlet Grant\_CsSetupPermission.
 
-  - Alterações feitas em uma UO do Active Directory pelo cmdlet Grant\_CsOUPermission.
+  - Alterações feitas em uma OU do Active Directory pelo cmdlet Grant\_CsOUPermission.
 
 <div>
 
@@ -71,7 +71,7 @@ Esta seção de referência inclui as seguintes informações:
 
   - [Alterações feitas pela preparação da floresta no Lync Server 2013](lync-server-2013-changes-made-by-forest-preparation.md)
 
-  - [Alterações feitas por preparação do domínio no Lync Server 2013](lync-server-2013-changes-made-by-domain-preparation.md)
+  - [Alterações feitas pela preparação do domínio no Lync Server 2013](lync-server-2013-changes-made-by-domain-preparation.md)
 
   - [Alterações feitas pelo Grant-CsSetupPermission no Lync Server 2013](lync-server-2013-changes-made-by-https://docs.microsoft.com/powershell/module/skype/Grant-CsSetupPermission)
 

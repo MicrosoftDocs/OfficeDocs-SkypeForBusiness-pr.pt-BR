@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Definindo seus requisitos para o Servidor de Chat Persistente'
+title: 'Lync Server 2013: definindo seus requisitos para servidor de chat persistente'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184166
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a0e7482ab85b72168e990eaa97b2f79cb3665532
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: cd327ea7840a1f630e9fafbcefcffa21a1d095cd
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41739851"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42031920"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="defining-your-organizations-requirements-for-persistent-chat-server-in-lync-server-2013"></a>Definindo os requisitos de sua organização para o Servidor de Chat Persistente no Lync Server 2013
+# <a name="defining-your-organizations-requirements-for-persistent-chat-server-in-lync-server-2013"></a>Definindo os requisitos de sua organização para o servidor de chat persistente no Lync Server 2013
 
 </div>
 
@@ -35,35 +35,35 @@ ms.locfileid: "41739851"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2014-01-15_
+_**Última modificação do tópico:** 2014-01-15_
 
-Antes de implantar o servidor de chat persistente para a sua organização, é essencial considerar as seguintes perguntas importantes para otimizar a implantação:
+Antes de implantar o servidor de chat persistente para sua organização, é essencial considerar as seguintes perguntas importantes para otimizar sua implantação:
 
-  - Quem (perfil do usuário) deve ser habilitado para o servidor de chat persistente? O servidor de chat persistente está habilitado por uma política que pode ser definida em um nível global, de site, de grupo ou de usuário.
+  - Quem (perfil do usuário) deve ser habilitado para o servidor de chat persistente? O servidor de chat persistente está habilitado por uma política que pode ser definida em um nível global, de site, de pool ou de usuário.
 
-  - Quantos usuários (escala) devem ser habilitados para o servidor de chat persistente? O servidor de chat persistente dá suporte ao 150.000 usuários provisionados (habilitados pela política) e um máximo de 80.000 usuários simultâneos que usam o servidor de chat persistente. Um único Servidor de Chat Persistente pode suportar 20.000 usuários conectados e um único pool de Servidor de Chat Persistente pode ter até 4 servidores ativos para um total de 80.000 usuários conectados simultâneos.
+  - Quantos usuários (escala) devem ser habilitados para o servidor de chat persistente? O servidor de chat persistente oferece suporte a 150.000 usuários provisionados (habilitados por política) e um máximo de 80.000 usuários simultâneos usando o servidor de chat persistente. Um único servidor de chat persistente pode suportar 20.000 usuários conectados e um único pool de servidor de chat persistente pode ter até quatro servidores ativos para um total de 80.000 usuários conectados simultaneamente.
 
   - Você está migrando de uma versão anterior do servidor de chat de grupo ou está implantando o servidor de chat persistente pela primeira vez?
 
-  - Há requisitos de conformidade? O servidor de chat persistente dá suporte à conformidade. O serviço de conformidade é executado no servidor front-end persistente do servidor de chat, ao contrário do requisito para um computador separado em implantações de servidor de chat de grupo anteriores. A conformidade é opcional e, se escolhida, requer um banco de dados de conformidade que deve ser configurado para armazenar dados de conformidade e eventos. Você também pode configurar um adaptador para obter os dados do banco de dados de conformidade e convertê-los em outro formato (como arquivos XML ou arquivos hospedados pelo Exchange).
+  - Há requisitos de conformidade? O servidor de chat persistente oferece suporte à conformidade. O serviço de conformidade é executado no servidor de front-end do servidor de chat persistente, em oposição ao requisito para um computador separado nas implantações anteriores do servidor de chat de grupo. A conformidade é opcional e, se escolhida, requer um banco de dados de conformidade que deve ser configurado para armazenar dados e eventos de conformidade. Você também pode configurar um adaptador para obter os dados do banco de dados de conformidade e convertê-los em outro formato (como arquivos XML ou arquivos mortos hospedados no Exchange).
 
-  - Como você deseja controlar escopos, limites éticos e acesso? Você pode definir **categorias** para segregar esses limites e escolher quem tem permissão para estar em salas criadas em cada uma dessas categorias.
+  - Como você deseja controlar escopos, limites éticos e acesso? É possível definir as **Categorias** para segregar esses limites e escolher quem estará habilitado para estar nas salas que forem criadas para cada uma dessas categorias.
 
-  - Como você deseja controlar quem pode criar salas? Você pode configurar os **criadores**, apropriadamente às suas categorias, que podem criar salas. Os criadores podem atribuir outros membros como **gerentes de sala de chat** para gerenciamento contínuo das salas (adicionando ou removendo membros adicionais), de acordo com o escopo para **AllowedMembers/DeniedMembers** configurado pela categoria.
+  - Como você deseja controlar quem pode criar salas? É possível configurar em **Criadores**, de forma adequada para a suas categorias, quem pode criar salas. Os criadores podem atribuir outros membros como **Gerentes de Sala de Chat** para gerenciamento contínuo das salas (adicionando ou removendo membros adicionais), de acordo com o escopo para **AllowedMembers/DeniedMembers** configurados por categoria.
 
-  - Como você deseja criar salas? O servidor de chat persistente fornece um recurso baseado na Web para a criação e o gerenciamento de salas. Isso pode ser iniciado pelo cliente do Lync 2013. Você pode optar por definir uma solução personalizada (usando o kit de desenvolvimento de software (SDK) do servidor de chat persistente) que implementa suas necessidades comerciais e fluxos de trabalho e configura o servidor de chat persistente para direcionar os usuários para sua solução personalizada.
+  - Como você deseja criar salas? O servidor de chat persistente fornece um recurso baseado na Web para a criação e o gerenciamento de salas. Isso pode ser iniciado no cliente do Lync 2013. Você pode optar por definir uma solução personalizada (usando o Software Development Kit (SDK) do servidor de chat persistente que implementa seus requisitos de negócios e fluxos de trabalho e configura o servidor de chat persistente para direcionar os usuários para sua solução personalizada.
 
-  - Que tipo de suplemento você deseja provisionar? Os **suplementos** aprimoram a experiência da sala aproveitando o painel extensibilidade no cliente do Lync 2013 para fornecer contexto que é relevante para a sala. É possível escolher quais suplementos gerais podem ser mais úteis (por exemplo, o site da sua empresa, documentos de colaboração interna etc.). Os gerentes das salas de chat podem escolher um dos suplementos registrados e associá-lo às salas, se desejado.
+  - Que tipo de suplementos você deseja provisionar? Os **suplementos** aprimoram a experiência na sala aproveitando o painel de extensibilidade no cliente do Lync 2013 para fornecer contexto relevante à sala. É possível escolher quais suplementos gerais podem ser mais úteis (por exemplo, o site da sua empresam documentos de colaboração interna e etc.). Os gerentes das salas de chat podem escolher um dos suplementos registrados e associá-lo às salas, se desejado.
 
-  - Que tipo de requisito de alta disponibilidade e recuperação de desastre você tem? O servidor de chat persistente dá suporte ao espelhamento do SQL Server e ao agrupamento do SQL Server para alta disponibilidade e dá suporte a até 8 servidores (4 ativos e 4 em standby) em um pool ampliado com o envio de log do SQL Server para recuperação de desastres.
+  - Quais tipos de requisitos de alta disponibilidade e recuperação de desastres você tem? O servidor de chat persistente suporta o espelhamento do SQL Server e o cluster do SQL Server para alta disponibilidade e oferece suporte a até 8 servidores (4 ativos e 4 em espera) em um pool estendido com o envio de logs do SQL Server para recuperação de desastres.
 
-  - Há requisitos regulatórios? Se a sua empresa estiver em um país/região onde os dados precisam ser mantidos dentro do país, talvez seja necessário implantar vários pools de servidores de chat persistentes, cada um local para uma geografia específica. Uma sala, categoria ou suplemento não abrange pools — ele pertence a apenas um pool persistente do servidor de chat. Você pode gerenciar o conjunto de categorias, suplementos e salas para cada pool de servidores de chat persistente. Os usuários podem ser configurados para ter acesso a salas em um ou mais pools usando o escopo de associação do escopo ou da sala de AllowedMembers de categorias, dependendo de como projetar suas categorias.
+  - Há requisitos da regulamentação? Se sua empresa estiver em um país/região onde os dados precisam ser mantidos no país, talvez você precise implantar vários pools de servidores de chat persistentes, cada local em uma geografia específica. Uma sala, uma categoria ou um suplemento não abrange pools, ele pertence a apenas um pool de servidor de chat persistente. Você pode gerenciar o conjunto de categorias, suplementos e salas para cada pool do servidor de chat persistente. Os usuários podem ser configurados para ter acesso a salas em um ou mais pools usando o escopo Membros permitidos de categoria ou o escopo de associação da sala, dependendo de como projetar suas categorias.
     
     <div>
     
 
     > [!IMPORTANT]  
-    > Ter vários pools de servidores de chat persistentes não oferece mais escalabilidade (você ainda pode ter apenas 80.000 usuários conectados simultaneamente em todos os seus pools de servidores de chat persistentes). O principal motivo para dar suporte a vários pools de servidores de chat persistentes é dar suporte a questões de regulamentação.
+    > Ter vários pools de servidores de chat persistente não dá mais escala (você ainda pode ter apenas 80.000 usuários conectados simultaneamente em todos os pools de servidores de chat persistentes). O principal motivo para o suporte a vários pools de servidores de chat persistente é dar suporte a questões regulamentares.
 
     
     </div>

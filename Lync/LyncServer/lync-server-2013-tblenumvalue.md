@@ -12,16 +12,16 @@ ms:contentKeyID: 48185040
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2c09c5e911dcd63f50d8b15343075c5b3e05e631
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d182a3689ae38d4117b45d6590bb2ccd08c0a8b7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731471"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42027052"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41731471"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-06-28_
+_**Última modificação do tópico:** 2012-06-28_
 
-tblEnumValue é uma tabela codificada que contém os valores de visibilidade e comportamento dos atributos usados na tabela de nós.
+A tabela tblEnumValue é uma tabela embutida em código que contém os valores de Visibilidade e Comportamento dos atributos usados na tabela Nó.
 
 ### <a name="columns"></a>Colunas
 
@@ -66,15 +66,15 @@ tblEnumValue é uma tabela codificada que contém os valores de visibilidade e c
 <td><p>ID do atributo.</p></td>
 </tr>
 <tr class="odd">
-<td><p>atributovalue</p></td>
-<td><p>nvarchar (256), NOT NULL</p></td>
+<td><p>atributo AttributeValue</p></td>
+<td><p>nvarchar (256), não nulo</p></td>
 <td><p>Nome do valor.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="keys"></a>As
+### <a name="keys"></a>Chaves
 
 <table>
 <colgroup>
@@ -94,7 +94,7 @@ tblEnumValue é uma tabela codificada que contém os valores de visibilidade e c
 </tr>
 <tr class="even">
 <td><p>attributeID</p></td>
-<td><p>Chave estrangeira com pesquisa na tabela tblEnumAttribute. attributeID.</p></td>
+<td><p>Chave estrangeira com pesquisa na tabela tblEnumAttribute.attributeID.</p></td>
 </tr>
 </tbody>
 </table>
@@ -112,34 +112,34 @@ tblEnumValue é uma tabela codificada que contém os valores de visibilidade e c
 <tr class="header">
 <th>valueid</th>
 <th>attributeID</th>
-<th>atributovalue</th>
+<th>atributo AttributeValue</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>2</p></td>
-<td><p>1</p></td>
-<td><p>private</p></td>
+<td><p>2 </p></td>
+<td><p>1 </p></td>
+<td><p>privada</p></td>
 </tr>
 <tr class="even">
-<td><p>3</p></td>
-<td><p>1</p></td>
-<td><p>com</p></td>
+<td><p>3 </p></td>
+<td><p>1 </p></td>
+<td><p>escopo</p></td>
 </tr>
 <tr class="odd">
-<td><p>4</p></td>
-<td><p>2</p></td>
-<td><p>Normalmente</p></td>
+<td><p>4 </p></td>
+<td><p>2 </p></td>
+<td><p>SS</p></td>
 </tr>
 <tr class="even">
-<td><p>5</p></td>
-<td><p>2</p></td>
-<td><p>auditorium</p></td>
+<td><p>5 </p></td>
+<td><p>2 </p></td>
+<td><p>Auditório</p></td>
 </tr>
 <tr class="odd">
-<td><p>6</p></td>
-<td><p>1</p></td>
-<td><p>abriu</p></td>
+<td><p>6 </p></td>
+<td><p>1 </p></td>
+<td><p>Abre</p></td>
 </tr>
 </tbody>
 </table>

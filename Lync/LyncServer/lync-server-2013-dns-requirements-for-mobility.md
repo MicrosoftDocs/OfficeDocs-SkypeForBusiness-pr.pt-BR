@@ -12,16 +12,16 @@ ms:contentKeyID: 48185624
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bc11c79c291f7db7ad9e9e3228644ee27d42e555
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0201a9e8870a1b7d8cc579eb270ca67c929cae5d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737381"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029602"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,23 +35,23 @@ ms.locfileid: "41737381"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-11-13_
+_**Última modificação do tópico:** 2012-11-13_
 
-Ao implantar o recurso de mobilidade do Lync Server 2013, você pode usar as novas URLs disponíveis com o serviço de descoberta automática do Microsoft Lync Server 2013 ou pode usar suas URLs de serviços Web existentes. Se você usar suas URLs existentes, os usuários precisarão inserir manualmente as URLs nas configurações do dispositivo móvel. Essa opção geralmente é usada para solução de problemas. Quando você usa as novas URLs, os clientes móveis podem descobrir automaticamente os recursos do Lync Server 2013. Ao oferecer suporte à descoberta automática, você precisa adicionar novos registros de sistema de nome de domínio (DNS). Esta seção descreve os registros DNS necessários para a descoberta automática.
+Ao implantar o recurso de mobilidade do Lync Server 2013, você pode usar as novas URLs que estão disponíveis com o serviço de descoberta automática do Microsoft Lync Server 2013 ou você pode usar suas URLs de serviços da Web existentes. Se você usar suas URLs existentes, os usuários precisarão inserir manualmente as URLs em suas configurações de dispositivo móvel. Essa opção normalmente é usada para a solução de problemas. Quando você usa as novas URLs, os clientes móveis podem descobrir automaticamente os recursos do Lync Server 2013. Quando você dá suporte à descoberta automática, precisa adicionar novos registros de DNS (sistema de nomes de domínio). Esta seção descreve os registros DNS necessários para a descoberta automática.
 
-Para dar suporte à descoberta automática, você precisa criar os seguintes registros DNS para cada domínio SIP:
+Para oferecer suporte à descoberta automática, você precisa criar os seguintes registros DNS para cada domínio SIP:
 
-  - Um registro DNS interno para dar suporte a usuários móveis que se conectam dentro da rede da sua organização
+  - Um registro DNS interno para suportar usuários móveis que se conectam de dentro da rede da organização
 
-  - Um registro DNS externo ou público para dar suporte a usuários móveis que se conectam à Internet
+  - Um registro DNS externo ou público para suportar usuários móveis que se conectam pela Internet
 
-A URL de descoberta automática interna não deve ser endereçável de fora da rede. A URL de descoberta automática externa não deve ser endereçada dentro da sua rede. No entanto, se você não puder atender a esse requisito para a URL externa, a funcionalidade do cliente móvel não deve ser afetada.
+A URL de descoberta automática interna não deve ser endereçável de fora da rede. A URL de descoberta automática externa não deve ser endereçável de dentro da rede. No entanto, se você não puder atender a esse requisito para a URL externa, o cliente móvel não deve ser afetado.
 
-Os registros DNS podem ser registros CNAME ou registros (host).
+Os registros DNS podem ser registros CNAME ou registros A (host).
 
 **Registros DNS internos**
 
-Você precisa criar um dos seguintes registros de DNS interno:
+Você precisa criar um dos seguintes registros DNS internos:
 
 
 <table>
@@ -63,7 +63,7 @@ Você precisa criar um dos seguintes registros de DNS interno:
 <thead>
 <tr class="header">
 <th>Tipo de registro</th>
-<th>Nome do host ou definição de SRV</th>
+<th>Nome do host ou definição SRV</th>
 <th>Resolve para</th>
 </tr>
 </thead>
@@ -71,12 +71,12 @@ Você precisa criar um dos seguintes registros de DNS interno:
 <tr class="odd">
 <td><p>CNAME</p></td>
 <td><p>lyncdiscoverinternal. &lt;sipdomain&gt;</p></td>
-<td><p>FQDN (nome de domínio totalmente qualificado) dos serviços Web internos para o seu pool de directors, se você tiver um ou para o seu pool de front-end se não tiver um director</p></td>
+<td><p>FQDN (nome de domínio totalmente qualificado) dos serviços Web internos para o seu pool de diretores, se você tiver um, ou para seu pool de front-ends, se não tiver um diretor</p></td>
 </tr>
 <tr class="even">
 <td><p>A (host)</p></td>
 <td><p>lyncdiscoverinternal. &lt;sipdomain&gt;</p></td>
-<td><p>Endereço IP interno dos serviços Web (VIP) se você usar um balanceador de carga) do seu pool de director, se você tiver um ou do seu pool Front-End se não tiver um director</p></td>
+<td><p>Endereço IP de serviços Web interno (endereço IP virtual (VIP) se você usar um balanceador de carga) do seu pool de diretores, se você tiver um, ou do seu pool de front-ends, se não tiver um diretor</p></td>
 </tr>
 </tbody>
 </table>
@@ -84,7 +84,7 @@ Você precisa criar um dos seguintes registros de DNS interno:
 
 **Registros DNS externos**
 
-Você precisa criar um dos seguintes registros de DNS externo:
+É necessário criar um dos seguintes registros DNS externos:
 
 
 <table>
@@ -96,7 +96,7 @@ Você precisa criar um dos seguintes registros de DNS externo:
 <thead>
 <tr class="header">
 <th>Tipo de registro</th>
-<th>Nome do host</th>
+<th>Nome do Host</th>
 <th>Resolve para</th>
 </tr>
 </thead>
@@ -104,7 +104,7 @@ Você precisa criar um dos seguintes registros de DNS externo:
 <tr class="odd">
 <td><p>CNAME</p></td>
 <td><p>lyncdiscover. &lt;sipdomain&gt;</p></td>
-<td><p>FQDN de serviços Web externos para o seu pool de directors, se você tiver um ou para o seu pool de front-end se não tiver um director</p></td>
+<td><p>FQDN de serviços Web externos para seu pool de diretor, se você tiver um, ou para seu pool de front-ends se não tiver um diretor</p></td>
 </tr>
 <tr class="even">
 <td><p>A (host)</p></td>
@@ -113,13 +113,13 @@ Você precisa criar um dos seguintes registros de DNS externo:
 </tr>
 <tr class="odd">
 <td><p>SRV</p></td>
-<td><p>_sipfederationtls._tcp. &lt;sipdomain&gt;</p>
+<td><p>_sipfederationtls. _tcp. &lt;sipdomain&gt;</p>
 <p>Resolve para registro de host (A ou AAAA) do serviço de borda de acesso</p></td>
-<td><p>Para dar suporte ao serviço de notificação por push e ao Apple Push Notification Service, crie um registro SRV para cada domínio SIP que tenha clientes móveis do Microsoft Lync.</p>
+<td><p>Para dar suporte ao serviço de notificação por push e ao Apple Push Notification Service, você cria um registro SRV para cada domínio SIP que tenha clientes móveis do Microsoft Lync.</p>
 <div>
 
 > [!IMPORTANT]  
-> Este requisito aplica-se somente aos clientes móveis do Microsoft Lync em dispositivos móveis baseados em Apple ou Microsoft. Os dispositivos Android e Nokia Symbian não usam notificações por push.
+> Esse requisito aplica-se somente aos clientes móveis do Microsoft Lync em dispositivos móveis baseados em Apple ou Microsoft. Os dispositivos Andriod e Nokia Symbian não usam a notificação por push.
 
 
 </div></td>
@@ -132,7 +132,7 @@ Você precisa criar um dos seguintes registros de DNS externo:
 
 
 > [!NOTE]  
-> Lyncdiscover, também conhecido como descoberta automática, o tráfego passa pelo proxy reverso. O registro SRV aponta para um registro que é resolvido por meio do serviço de borda de acesso.
+> Lyncdiscover, também conhecido como descoberta automática, o tráfego passa pelo proxy reverso. O registro SRV aponta para um registro que resolve através do serviço de borda de acesso.
 
 
 

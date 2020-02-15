@@ -12,16 +12,16 @@ ms:contentKeyID: 48184076
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5ad4c2afc759ccf14e8b639f1d6e00292e4df457
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ee43d09cc04bc32ba5cb0afd9c844f017f5688f8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737631"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028972"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,34 +35,34 @@ ms.locfileid: "41737631"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-06-20_
+_**Última modificação do tópico:** 2012-06-20_
 
-Os aplicativos do servidor referem-se aos programas individuais executados em Microsoft Lync Server 2013. Você pode gerenciar esses aplicativos usando cmdlets dentro do Shell de gerenciamento do Lync Server.
+Os aplicativos de servidor referem-se aos programas individuais executados no Microsoft Lync Server 2013. Você pode gerenciar esses aplicativos usando cmdlets de dentro do Shell de gerenciamento do Lync Server.
 
 <div>
 
-## <a name="application-server-and-services-cmdlets"></a>Cmdlets de serviços e servidor de aplicativos
+## <a name="application-server-and-services-cmdlets"></a>Cmdlets de serviços e Servidor de Aplicativos
 
-Use os cmdlets a seguir para gerenciar os aplicativos do Lync Server 2013.
+Use os cmdlets a seguir para gerenciar aplicativos do Lync Server 2013.
 
-**Serviços e servidor de aplicativos**
+**Servidor de Aplicativos e Serviços**
 
   - <span></span>  
-    [Set-CsApplicationServer](https://technet.microsoft.com/en-us/library/Gg398562(v=OCS.15))
+    [Set-CsApplicationServer](https://technet.microsoft.com/library/Gg398562(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsServerApplication](https://technet.microsoft.com/en-us/library/Gg425948(v=OCS.15))
+    [Get-CsServerApplication](https://technet.microsoft.com/library/Gg425948(v=OCS.15))
 
   - <span></span>  
-    [New-CsServerApplication](https://technet.microsoft.com/en-us/library/Gg398096(v=OCS.15))
+    [New-CsServerApplication](https://technet.microsoft.com/library/Gg398096(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsServerApplication](https://technet.microsoft.com/en-us/library/Gg398366(v=OCS.15))
+    [Remove-CsServerApplication](https://technet.microsoft.com/library/Gg398366(v=OCS.15))
 
   - <span></span>  
-    [Set-CsServerApplication](https://technet.microsoft.com/en-us/library/Gg412850(v=OCS.15))
+    [Set-CsServerApplication](https://technet.microsoft.com/library/Gg412850(v=OCS.15))
 
 </div>
 

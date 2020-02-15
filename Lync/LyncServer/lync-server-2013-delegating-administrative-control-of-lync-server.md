@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Delegando o controle administrativo do Lync Server'
+title: 'Lync Server 2013: delegando o controle administrativo do Lync Server'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183418
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 134d5a4abae1173cc1d74cecb876951cea6d72c1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 028921122b0198e85e7cc95df97355908f517894
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41739811"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42031305"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,21 +35,21 @@ ms.locfileid: "41739811"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-02-22_
+_**Última modificação do tópico:** 2013-02-22_
 
-No Lync Server 2013, as tarefas administrativas são delegadas a usuários usando o novo recurso de controle de acesso baseado em função (RBAC). Quando você instala o Lync Server, várias funções RBAC são criadas para você. Essas funções correspondem a grupos de segurança universais nos Serviços de Domínio Active Directory. Por exemplo, a função RBAC CsHelpDesk corresponde ao grupo CsHelpDesk localizado no contêiner usuários nos serviços de domínio Active Directory. Além disso, cada função RBAC é associada a um conjunto de cmdlets do Windows PowerShell do Lync Server. Esses cmdlets representam as tarefas que podem ser realizadas pelos usuários que receberam a função RBAC fornecida. Por exemplo, a função CsHelpDesk foi atribuída aos cmdlets Lock-CsClientPin e UnlockCsClientPin. Isso significa que os usuários que receberam a função CsHelpDesk podem bloquear e desbloquear números de PIN do usuário. No entanto, a função CsHelpDesk não foi atribuída ao cmdlet New-CsVoicePolicy. Isso significa que os usuários que receberam a função CsHelpDesk não poderão criar novas políticas de voz.
+No Lync Server 2013, as tarefas administrativas são delegadas aos usuários usando o novo recurso de controle de acesso baseado em função (RBAC). Quando você instala o Lync Server, várias funções do RBAC são criadas para você. Essas funções correspondem a grupos de segurança universais nos serviços de domínio do Active Directory. Por exemplo, a função RBAC CsHelpDesk corresponde ao grupo CsHelpDesk encontrado no contêiner usuários nos serviços de domínio do Active Directory. Além disso, cada função RBAC é associada a um conjunto de cmdlets do Windows PowerShell do Lync Server. Esses cmdlets representam as tarefas que podem ser executadas por usuários aos quais a função RBAC determinada foi atribuída. Por exemplo, a função CsHelpDesk recebeu os cmdlets Lock-CsClientPin e UnlockCsClientPin. Isso significa que os usuários que receberam a função CsHelpDesk podem bloquear e desbloquear números de PIN do usuário. No entanto, a função CsHelpDesk não recebeu a atribuição do cmdlet New-CsVoicePolicy. Isso significa que os usuários que receberam a função CsHelpDesk não podem criar novas políticas de voz.
 
 <div>
 
-## <a name="viewing-information-about-rbac-roles"></a>Exibir informações sobre as funções RBAC
+## <a name="viewing-information-about-rbac-roles"></a>Exibindo informações sobre as funções RBAC
 
-Você pode recuperar informações básicas sobre as funções RBAC executando o seguinte comando no Shell de gerenciamento do Lync Server:
+Você pode recuperar informações básicas sobre suas funções RBAC executando o seguinte comando no Shell de gerenciamento do Lync Server:
 
     Get-CsAdminRole
 
-Lembre-se de que a identidade da função RBAC (por exemplo, CsVoiceAdministrator) tem um mapeamento direto para um grupo de segurança localizado no contêiner usuários nos serviços de domínio Active Directory.
+Tenha em mente que a identidade da função RBAC (por exemplo, CsVoiceAdministrator) tem um mapeamento direto para um grupo de segurança encontrado no contêiner usuários nos serviços de domínio do Active Directory.
 
-Para exibir uma lista dos cmdlets que foram atribuídos a uma função, use um comando semelhante a este:
+Para visualizar uma lista de cmdlets que foram designados a uma função, use um comando semelhante a este:
 
     Get-CsAdminRole -Identity "CsHelpDesk" | Select-Object -ExpandProperty Cmdlets
 
@@ -63,21 +63,21 @@ Para atribuir uma função RBAC a um usuário, você deve adicionar esse usuári
 
 **Para atribuir um usuário a um grupo de segurança**
 
-1.  Usando uma conta que tenha permissão para modificar a associação de um grupo do Active Directory, faça logon em um computador onde usuários e computadores do Active Directory tenham sido instalados.
+1.  Usando uma conta que tenha permissão para modificar a associação a um grupo do Active Directory, faça logon em um computador em que os usuários e computadores do Active Directory tenham sido instalados.
 
-2.  Clique em **Iniciar**, em **todos os programas**, em **Ferramentas administrativas**e em **usuários e computadores do Active Directory**.
+2.  Clique em **Iniciar**, clique em **Todos os Programas**, clique em **Ferramentas Administrativas** e, em seguida, clique em **Usuários e Computadores do Active Directory**.
 
-3.  Em usuários e computadores do Active Directory, expanda o nome do seu domínio e clique no contêiner **usuários** .
+3.  Em Usuários e Computadores do Active Directory, expanda o nome do seu domínio e clique no contêiner de **Usuários**.
 
-4.  Clique com o botão direito do mouse no grupo de segurança **CsLocationAdministrator**e, em seguida, clique em **Propriedades**.
+4.  Clique com o botão direito no grupo de segurança **CsLocationAdministrator** e clique em **Propriedades**.
 
-5.  Na caixa de diálogo **Propriedades** , na guia **Membros** , clique em **Adicionar**.
+5.  Na caixa de diálogo **Propriedades**, na guia **Membros**, clique em **Adicionar**.
 
-6.  Na caixa de diálogo **Selecionar usuários, computadores, contatos ou grupos** , digite o nome de usuário ou o nome para exibição do usuário a ser adicionado ao grupo (por exemplo, **Ken Myer**) na caixa **digite os nomes de objeto a serem selecionados** e clique em **OK**.
+6.  Na caixa de diálogo **Selecionar Usuários, Computadores, Contatos ou Grupos**, digite o nome de usuário ou nome de exibição do usuário a ser adicionado ao grupo (por exemplo, **Ken Myer**) na caixa **Inserir os nomes de objeto a selecionar** e clique em **OK**.
 
-7.  Na caixa de diálogo **Propriedades** , clique em **OK**.
+7.  Na caixa de diálogo **Propriedades**, clique em **OK**.
 
-Para verificar se a função RBAC foi atribuída, use o cmdlet [Get-CsAdminRoleAssignment](https://docs.microsoft.com/powershell/module/skype/Get-CsAdminRoleAssignment) , passando o cmdlet do sAMAccountName (nome de logon do Active Directory) do usuário. Por exemplo, execute este comando dentro do Shell de gerenciamento do Lync Server:
+Para verificar se a função RBAC foi atribuída, use o cmdlet [Get-CsAdminRoleAssignment](https://docs.microsoft.com/powershell/module/skype/Get-CsAdminRoleAssignment) , passando o cmdlet para o sAMAccountName (nome de logon do Active Directory) do usuário. Por exemplo, execute este comando no Shell de gerenciamento do Lync Server:
 
     Get-CsAdminRoleAssignment  -Identity "kenmyer"
 

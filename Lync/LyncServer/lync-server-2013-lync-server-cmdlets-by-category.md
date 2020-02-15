@@ -12,16 +12,16 @@ ms:contentKeyID: 48184106
 ms.date: 09/20/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8d5d0dfc2540f5c623bff18f9739968983288e9e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6d5db33e3d41bca0a3d14361b6d7bda254d43d19
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41723321"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030204"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,25 +35,25 @@ ms.locfileid: "41723321"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2017-09-20_
+_**Última modificação do tópico:** 2017-09-20_
 
-O Microsoft Lync Server 2013 vem com quase 550 cmdlets especificamente projetados para permitir que os administradores gerenciem o Lync Server na linha de comando. Acesse os cmdlets do Shell de gerenciamento do Lync Server. Você pode recuperar a ajuda em um cmdlet diretamente da linha de comando digitando um comando semelhante ao seguinte:
+O Microsoft Lync Server 2013 vem com quase 550 cmdlets projetados especificamente para permitir que os administradores gerenciem o Lync Server a partir da linha de comando. Você acessa os cmdlets do Shell de gerenciamento do Lync Server. É possível obter ajuda sobre um cmdlet diretamente na linha de comando, digitando um comando semelhante ao seguinte:
 
     Get-Help New-CsVoicePolicy -Full
 
-O comando anterior recuperará toda a ajuda disponível para o cmdlet **New-CsVoicePolicy** . Substitua a referência por **New-CsVoicePolicy** pelo nome do cmdlet para o qual você deseja recuperar a ajuda.
+O comando anterior recuperará toda a Ajuda disponível para o cmdlet **New-CsVoicePolicy**. Substitua a referência ao **New-CsVoicePolicy** pelo nome do cmdlet para o qual você deseja recuperar a ajuda.
 
-Para recuperar uma lista completa de cmdlets disponíveis para gerenciar o Microsoft Lync Server 2013, digite o seguinte no prompt de comando do Shell de gerenciamento do Lync Server:
+Para recuperar uma lista completa de cmdlets disponíveis para o gerenciamento do Microsoft Lync Server 2013, digite o seguinte no prompt de comando do Shell de gerenciamento do Lync Server:
 
     Get-Command * -Module Lync -CommandType cmdlet
 
-Se você não tiver certeza de quais cmdlets precisa, também fornecemos uma lista categorizada de cmdlets e seus tópicos de ajuda. Você verá que alguns dos cmdlets aparecem em mais de uma categoria, o que era intencional porque se aplica a várias áreas do produto. Veja a seguir uma lista de categorias:
+Se você não tiver certeza de quais cmdlets precisa, também fornecemos uma lista categorizada de cmdlets e seus tópicos da Ajuda. Você perceberá que alguns cmdlets são mostrados em mais de uma categoria, o que foi intencional, pois elas se aplicam a várias áreas do produto. A seguir está uma lista de categorias:
 
 <div>
 
 
 > [!NOTE]
-> A referência do cmdlet do Skype for Business mudou para docs.microsoft.com. Ao clicar nos links abaixo, você será direcionado para a nova página docs.microsoft.com. O conteúdo agora está aberto e disponível para contribuições da comunidade através do GitHub. Tem interesse em contribuir? Confira o LEIAme no repositório aqui:<A href="https://github.com/microsoftdocs/office-docs-powershell">https://github.com/MicrosoftDocs/office-docs-powershell</A>
+> A referência de cmdlet do Skype for Business foi movida para o docs.microsoft.com. Clicando nos links abaixo, você será retirado da nova página do docs.microsoft.com. O conteúdo agora é aberto e está disponível para contribuições da Comunidade por meio do GitHub. Interessado em contribuir? Confira o LEIAme no repositório aqui:<A href="https://github.com/microsoftdocs/office-docs-powershell">https://github.com/MicrosoftDocs/office-docs-powershell</A>
 
 
 
@@ -71,15 +71,15 @@ Se você não tiver certeza de quais cmdlets precisa, também fornecemos uma lis
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><a href="lync-server-2013-user-management-cmdlets.md">Cmdlets de gerenciamento de usuários no Lync Server 2013</a></p></td>
-<td><p><a href="lync-server-2013-voice-application-cmdlets.md">Cmdlets do aplicativo de voz no Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-user-management-cmdlets.md">Cmdlets de gerenciamento de usuário no Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-voice-application-cmdlets.md">Cmdlets de aplicativo de voz no Lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-client-management-cmdlets.md">Cmdlets de gerenciamento de cliente no Lync Server 2013</a></p></td>
 <td><p><a href="lync-server-2013-advanced-enterprise-voice-cmdlets.md">Cmdlets avançados do Enterprise Voice no Lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-im-and-presence-cmdlets.md">Cmdlets de presença e mensagens instantâneas no Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-im-and-presence-cmdlets.md">Cmdlets de IM e presença no Lync Server 2013</a></p></td>
 <td><p><a href="lync-server-2013-pstn-connectivity-cmdlets.md">Cmdlets de conectividade PSTN no Lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
@@ -100,11 +100,11 @@ Se você não tiver certeza de quais cmdlets precisa, também fornecemos uma lis
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-application-management-cmdlets.md">Cmdlets de gerenciamento de aplicativos no Lync Server 2013</a></p></td>
-<td><p><a href="lync-server-2013-persistent-chat-server-cmdlets.md">Cmdlets persistentes do servidor de chat no Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-persistent-chat-server-cmdlets.md">Cmdlets do servidor de chat persistente no Lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-federation-and-external-access-cmdlets.md">Cmdlets de Federação e acesso externo no Lync Server 2013</a></p></td>
-<td><p><a href="lync-server-2013-centralized-logging-cmdlets.md">Cmdlets de log centralizado no Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-centralized-logging-cmdlets.md">Cmdlets de registro centralizado no Lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-enterprise-voice-cmdlets.md">Cmdlets do Enterprise Voice no Lync Server 2013</a></p></td>

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Componentes e topologias para CAC'
+title: 'Lync Server 2013: componentes e topologias para CAC'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184685
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5f9d705acb282c68372a2f3087ff010bab8f9a01
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 08b5ad344df748c56173ce36dd9335a3c0719066
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742681"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008777"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41742681"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-20_
+_**Última modificação do tópico:** 2012-10-20_
 
-Os tópicos desta seção oferecem informações sobre considerações especiais para implantar o serviço de controle de admissão de chamadas (CAC) em vários tipos de topologias de rede.
+Os tópicos desta seção fornecem informações sobre considerações especiais para implantar o CAC (controle de admissão de chamadas) com vários tipos de topologias de rede.
 
 <div>
 
@@ -47,7 +47,7 @@ Os tópicos desta seção oferecem informações sobre considerações especiais
 
   - [Controle de admissão de chamada em um tronco SIP no Lync Server 2013](lync-server-2013-call-admission-control-on-a-sip-trunk.md)
 
-  - [Controle de admissão de chamada no Lync Server 2013 com um gateway de PSTN de terceiros ou PBX](lync-server-2013-call-admission-control-with-a-third-party-pstn-gateway-or-pbx.md)
+  - [Controle de admissão de chamadas no Lync Server 2013 com um gateway PSTN ou PBX de terceiros](lync-server-2013-call-admission-control-with-a-third-party-pstn-gateway-or-pbx.md)
 
 </div>
 

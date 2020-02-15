@@ -12,16 +12,16 @@ ms:contentKeyID: 51803956
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8da9568ae4cd613dcba0760fb4a8b20295fbb68d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a9d9f5473f94f093d92cce1b4664f54d6f32430d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41739801"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028512"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,24 +35,24 @@ ms.locfileid: "41739801"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-03-09_
+_**Última modificação do tópico:** 2013-03-09_
 
-Os recursos de delegação do Lync são afetados pelo roteamento baseado em local da seguinte maneira:
+Os recursos de delegação no Lync são afetados pelo roteamento baseado em local da seguinte maneira:
 
-  - Quando um representante habilitado para roteamento baseado em localização colocar uma chamada em nome de um gerente, a política de voz do representante será usada para autorizar a chamada e a política de roteamento de voz do site do representante será usada para direcionar a chamada
+  - Quando um representante habilitado para roteamento baseado em local coloca uma chamada em nome de um gerente, a política de voz do representante é usada para autorizar a chamada e a política de roteamento de voz do site do representante será usada para encaminhar a chamada
 
-  - Para as chamadas de entrada PSTN para um gerente, as mesmas regras aplicáveis ao encaminhamento de chamadas ou ao toque simultâneo serão aplicadas conforme descrito nos tópicos Transferências e encaminhamento de chamadas e Toque Simultâneo.
+  - Para chamadas PSTN de entrada para um gerente, as mesmas regras aplicáveis ao encaminhamento de chamadas ou ao toque simultâneo serão aplicadas conforme descrito nos tópicos de transferências de chamada e de encaminhamento e toque simultâneo.
 
-  - Quando um delegado configura um ponto de extremidade do PSTN como um destino de toque simultâneo, para uma chamada de entrada para o gerente, a política de roteamento de voz do local associado ao tronco de entrada será utilizada para rotear a chamada para o ponto de extremidade do PSTN do delegado.
+  - Quando um representante define um ponto de extremidade PSTN como um alvo de anel simultâneo, para uma chamada de entrada para o gerente, a política de roteamento de voz do site que está associado ao tronco de entrada será usada para rotear a chamada para o ponto de extremidade PSTN do representante.
 
-  - Para delegação, recomenda-se que o gerente e seus delegados associados estejam, em geral, localizados no mesmo local de rede.
+  - Para delegação, é recomendável que o gerente e seus representantes associados estejam geralmente localizados no mesmo local de rede.
 
 <div>
 
 ## <a name="see-also"></a>Confira também
 
 
-[Cenários para Roteamento Baseado em Local no Lync Server 2013](lync-server-2013-scenarios-for-location-based-routing.md)  
+[Cenários para roteamento baseado em local no Lync Server 2013](lync-server-2013-scenarios-for-location-based-routing.md)  
   
 
 </div>

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: criar um comunicado'
+title: 'Lync Server 2013: criar um anúncio'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185005
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cfae1817cb47c769885ca42a7ca3ff6f57f7b669
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c50db03b8c6d428322129f1a46a0ffe50b19ed25
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726361"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008713"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="create-an-announcement-in-lync-server-2013"></a>Criar um anúncio no Lync Server 2013
+# <a name="create-an-announcement-in-lync-server-2013"></a>Criar um comunicado no Lync Server 2013
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41726361"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-11-01_
+_**Última modificação do tópico:** 2012-11-01_
 
 Para criar um novo comunicado, é necessário executar as seguintes etapas:
 
@@ -56,7 +56,7 @@ Para criar um novo comunicado, é necessário executar as seguintes etapas:
 
 4.  Atribua o novo comunicado a um intervalo numérico na tabela de números não atribuídos.
 
-Este tópico descreve como importar e criar comunicados. Para obter detalhes sobre como atribuir anúncios na tabela número não atribuído, consulte [Configurar a tabela número não atribuído no Lync Server 2013](lync-server-2013-configure-the-unassigned-number-table.md).
+Este tópico descreve como importar e criar comunicados. Para obter detalhes sobre como atribuir comunicados na tabela de números não atribuídos, consulte [Configurar a tabela de números não atribuídos no Lync Server 2013](lync-server-2013-configure-the-unassigned-number-table.md).
 
 <div>
 
@@ -64,15 +64,15 @@ Este tópico descreve como importar e criar comunicados. Para obter detalhes sob
 
 1.  Para prompts de áudio, crie o arquivo de áudio.
 
-2.  Faça logon no computador em que o Shell de gerenciamento do Lync Server está instalado como membro do grupo RTCUniversalServerAdmins ou com os direitos de usuário necessários, conforme descrito em [permissões de configuração de representante no Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
+2.  Faça logon no computador onde o Shell de gerenciamento do Lync Server está instalado como um membro do grupo RTCUniversalServerAdmins ou com os direitos de usuário necessários, conforme descrito em [delegar permissões de configuração no Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
 
-3.  Inicie o Shell de gerenciamento do Lync Server: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Shell de gerenciamento do Lync Server**.
+3.  Inicie o Shell de Gerenciamento do Lync Server: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Shell de Gerenciamento do Lync Server**.
 
 4.  Para prompts de áudio, execute:
     
         Import-CsAnnouncementFile -Parent <service of the Application Server running the Announcement application> -FileName <name for file in File Store> -Content Byte [<contents of file in byte array>]
 
-5.  Execute:
+5.  Sejam
     
         New-CsAnnouncement -Parent <service of Application Server running the Announcement application, in the form: service:ApplicationServer:<fqdn>> -Name <unique name to be used as destination in unassigned number table> [-AudioFilePrompt <FileName specified in Import-CsAnnouncementFile>] [-TextToSpeechPrompt <text string to be converted to speech>] [-Language <Language for playing the TTS prompt (required for PromptTts)>] [-TargetUri sip:SIPAddress for transferring caller after announcement]
     
@@ -88,7 +88,7 @@ Este tópico descreve como importar e criar comunicados. Para obter detalhes sob
     
         New-CsAnnouncement -Parent service:ApplicationServer:pool0.contoso.com -Name "Help Desk Announcement" -TextToSpeechPrompt "The Help Desk number has changed. Please dial 5550100." -Language "en-US"
     
-    Para obter mais detalhes sobre esses cmdlets e ver uma lista dos códigos de idioma a serem usados no parâmetro **TextToSpeechPrompt** , consulte [New-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/New-CsAnnouncement).
+    Para obter mais detalhes sobre esses cmdlets e para ver uma lista dos códigos de idioma a serem usados no parâmetro **TextToSpeechPrompt** , consulte [New-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/New-CsAnnouncement).
 
 </div>
 
@@ -99,7 +99,7 @@ Este tópico descreve como importar e criar comunicados. Para obter detalhes sob
 
 [Import-CsAnnouncementFile](https://docs.microsoft.com/powershell/module/skype/Import-CsAnnouncementFile)  
 [New-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/New-CsAnnouncement)  
-[Configurar a tabela de número não atribuído no Lync Server 2013](lync-server-2013-configure-the-unassigned-number-table.md)  
+[Configurar a tabela de números não atribuídos no Lync Server 2013](lync-server-2013-configure-the-unassigned-number-table.md)  
   
 
 </div>

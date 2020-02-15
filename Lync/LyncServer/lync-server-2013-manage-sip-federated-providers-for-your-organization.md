@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Gerenciar fornecedores SIP federados para sua organização'
+title: 'Lync Server 2013: gerenciar provedores federados SIP para sua organização'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48679566
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 18d6fc2b4b5487e3900fc6f7a6a6fe7d63fbe3df
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9778e8b071cff254db289b91200279b5badf8a8c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733271"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028422"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="manage-sip-federated-providers-for-your-organization-in-lync-server-2013"></a>Gerenciar fornecedores SIP federados para sua organização no Lync Server 2013
+# <a name="manage-sip-federated-providers-for-your-organization-in-lync-server-2013"></a>Gerenciar provedores federados SIP para sua organização no Lync Server 2013
 
 </div>
 
@@ -35,27 +35,27 @@ ms.locfileid: "41733271"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-19_
+_**Última modificação do tópico:** 2012-10-19_
 
-Esta documentação é preliminar e está sujeita a alterações. Os tópicos em branco são incluídos como espaços reservados.
+Esta é uma documentação preliminar e está sujeita a alterações. Tópicos em branco são incluídos como espaços reservados.
 
-Para configurar o suporte para os usuários de provedores federados SIP, você precisa fazer o seguinte:
+Para configurar o suporte de usuários de provedores SIP federados, você precisará fazer o seguinte:
 
-  - Configurar uma ou mais políticas de acesso de usuários externos para dar suporte à comunicação com contatos do provedor federado SIP
+  - Configurar uma ou mais políticas de acesso do usuário externo se comunicando com contatos do provedor federado SIP
 
-  - Especificar a quais provedores hospedados você deseja dar suporte
+  - Especifique quais provedores hospedados você deseja suportar.
 
-  - Especificar a quais provedores públicos de IM você deseja dar suporte
+  - Especifique quais provedores públicos de IM você deseja suportar
 
-Para executar essas tarefas, use os procedimentos desta seção.
+Para executar essas tarefas, use os procedimentos nesta seção.
 
 <div>
 
 ## <a name="in-this-section"></a>Nesta seção
 
-  - [Criar ou editar fornecedores SIP públicos federados no Lync Server 2013](lync-server-2013-create-or-edit-public-sip-federated-providers.md)
+  - [Criar ou editar provedores federados SIP públicos no Lync Server 2013](lync-server-2013-create-or-edit-public-sip-federated-providers.md)
 
-  - [Criar ou editar provedores hospedados federados SIP no Lync Server 2013](lync-server-2013-create-or-edit-hosted-sip-federated-providers.md)
+  - [Criar ou editar provedores federados SIP hospedados Lync Server 2013](lync-server-2013-create-or-edit-hosted-sip-federated-providers.md)
 
 </div>
 

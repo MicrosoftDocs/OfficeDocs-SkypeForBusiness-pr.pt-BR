@@ -12,16 +12,16 @@ ms:contentKeyID: 48183523
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 73ac5a7cf26c97b31daf5785a90fac102c50e480
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8d7078c36763fb5c582f62c5b4ff7ddedf9cd100
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764187"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42027332"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41764187"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-12_
+_**Última modificação do tópico:** 2012-09-12_
 
-tblEnumAttribute é uma tabela codificada que contém os atributos de visibilidade e comportamento usados na tabela de nós.
+tblEnumAttribute é uma tabela embutida em código que inclui os atributos de Visibilidade e Comportamento usados na tabela Node.
 
 ### <a name="columns"></a>Colunas
 
@@ -62,7 +62,7 @@ tblEnumAttribute é uma tabela codificada que contém os atributos de visibilida
 </tr>
 <tr class="even">
 <td><p>attributeName</p></td>
-<td><p>nvarchar (256), NOT NULL</p></td>
+<td><p>nvarchar (256), não nulo</p></td>
 <td><p>Nome do atributo.</p></td>
 </tr>
 </tbody>
@@ -91,7 +91,7 @@ tblEnumAttribute é uma tabela codificada que contém os atributos de visibilida
 </table>
 
 
-### <a name="table-values"></a>Valores da tabela
+### <a name="table-values"></a>Valores de Tablea
 
 <table>
 <colgroup>
@@ -106,12 +106,12 @@ tblEnumAttribute é uma tabela codificada que contém os atributos de visibilida
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>1</p></td>
-<td><p>Visibilidade.</p></td>
+<td><p>1 </p></td>
+<td><p>Capacidade.</p></td>
 </tr>
 <tr class="even">
-<td><p>2</p></td>
-<td><p>Funcionamento.</p></td>
+<td><p>2 </p></td>
+<td><p>Comportamental.</p></td>
 </tr>
 </tbody>
 </table>

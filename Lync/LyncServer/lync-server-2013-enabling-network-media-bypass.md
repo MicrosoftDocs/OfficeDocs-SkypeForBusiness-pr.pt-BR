@@ -12,16 +12,16 @@ ms:contentKeyID: 48184846
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4e0b5e7b060d056a785e80fdf29ded718d120bc1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ca09c54b324f07361a7333fc577a2b3b9e35aaef
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735791"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030484"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,41 +35,41 @@ ms.locfileid: "41735791"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-11-01_
+_**Última modificação do tópico:** 2012-11-01_
 
-As configurações de bypass de mídia se aplicam globalmente em uma implantação do Microsoft Lync Server 2013. O bypass de mídia permite que as chamadas ignorem o servidor de mediação. Para obter detalhes sobre quando usar o bypass de mídia, consulte [planejando a bypass de mídia no Lync Server 2013](lync-server-2013-planning-for-media-bypass.md) na seção planejamento.
+As configurações de bypass de mídia são aplicadas globalmente em uma implantação do Microsoft Lync Server 2013. O desvio de mídia permite que chamadas ignorem o Servidor de Mediação. Para obter detalhes sobre quando usar o bypass de mídia, consulte [Planning for Media bypass in Lync Server 2013](lync-server-2013-planning-for-media-bypass.md) na seção Planning.
 
 Você pode habilitar e configurar o bypass de mídia no painel de controle do Lync Server.
 
 <div>
 
-## <a name="to-enable-and-configure-media-bypass"></a>Para habilitar e configurar o bypass de mídia
+## <a name="to-enable-and-configure-media-bypass"></a>Para habilitar e configurar o desvio de mídia
 
-1.  Usando uma conta de usuário que é membro do grupo RTCUniversalServerAdmins (ou tem direitos de usuário equivalentes), ou está atribuída à função CsAdministrator, faça logon em qualquer computador de sua implantação interna.
+1.  A partir de uma conta de usuário que seja membro do grupo RTCUniversalServerAdmins (ou tenha direitos de usuário equivalentes) ou atribuída à função CsAdministrator, faça logon em qualquer computador em sua implantação interna.
 
-2.  Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [abrir ferramentas administrativas do Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Na barra de navegação à esquerda, clique em **configuração de rede** e, em seguida, clique em **global**.
+3.  Na barra de navegação à esquerda, clique em **Configuração da Rede** e clique em **Global**.
 
-4.  Na página **global** , clique em configuração **global** . Sempre existe apenas uma configuração, e ela é sempre chamada de global.
+4.  Na página **Global**, clique na configuração **Global**. Sempre existe somente uma configuração, sempre chamada Global.
 
-5.  No menu **Editar** , clique em **Exibir detalhes**.
+5.  No menu **Editar**, clique em **Exibir detalhes**.
 
-6.  Na página **Editar configuração global** , clique na caixa de seleção **habilitar bypass de mídia** .
+6.  Na página **Editar Configuração Global**, clique na opção **Habilitar desvio de mídia**.
 
 7.  Selecione uma das seguintes opções:
     
-      - **Sempre ignorar**   Selecione esta opção para tentar ignorar a mídia em todas as chamadas. Essa opção não estará disponível se o controle de admissão de chamadas (CAC) estiver habilitado. Se o CAC não estiver habilitado, selecione esta opção nas seguintes situações:
+      - **Sempre ignorar**   Selecione essa opção para tentar o bypass de mídia em todas as chamadas. Esta opção estará indisponível se o controle de admissão de chamadas (CAC) estiver habilitado. Se o CAC não estiver habilitado, selecione esta opção nas seguintes situações:
         
-          - Não há necessidade de controle de largura de banda.
+          - Não existe a necessidade de controle de largura de banda.
         
-          - Não é preciso ter uma configuração refinada para determinar quando bypass deve acontecer.
+          - Não existe a necessidade de uma configuração refinada para determinar quando o desvio deve acontecer.
         
-          - Há conectividade total entre gateways e clientes.
+          - Existe conectividade total entre gateways e clientes.
     
-      - **Usar a configuração**   de sites e regiões se o CAC estiver habilitado, essa opção será selecionada por padrão e não poderá ser alterada. Quando essa opção estiver selecionada, os sites de configuração de rede e regiões serão usados para determinar quando o bypass de mídia é possível. Se você selecionar essa opção, poderá optar por habilitar o bypass para sites que não estão mapeados. Marque a caixa de seleção **Permitir bypass para sites não mapeados** somente se você tiver um ou mais sites grandes associados à mesma região que não têm restrições de largura de banda (por exemplo, um site central grande) e também tem alguns sites de filiais associados à mesma região que têm restrições de largura de banda. Quando você habilita o bypass para sites não mapeados, a configuração é simplificada porque você especifica somente as sub-redes associadas a sites de ramificação, em vez de precisar especificar todas as sub-redes associadas a todos os sites. Recomendamos que você não marque a caixa de seleção **Permitir bypass para sites não mapeados** se o CAC estiver habilitado.
+      - **Usar a configuração**   de sites e regiões se o CAC estiver habilitado, essa opção será selecionada por padrão e não poderá ser alterada. Quando esta opção está selecionada, a configuração de rede de sites e regiões será usada para determinar quando o desvio de mídia será possível. Se esta opção for selecionada, você pode optar por habilitar o desvio para sites que não estão mapeados. Clique na opção **Habilitar desvio para sites não mapeados** somente se você tiver um ou mais sites grandes associados à mesma região, que não possuem restrições de largura de banda (por exemplo, um site central grande) e se tiver também alguns sites de filial associados à mesma região que executa as restrições de largura de banda. Ao habilitar o desvio para sites não mapeados, a configuração é eficiente porque somente as sub-redes associadas aos sites de filial são especificadas, em vez da necessidade de especificas todas as sub-redes associadas as todos os sites. É recomendável não selecionar a opção **Habilitar desvio para sites não mapeados** se o CAC estiver habilitado.
 
-8.  Clique em **confirmar** para salvar as alterações.
+8.  Clique em **Confirmar** para salvar suas alterações.
 
 </div>
 
@@ -78,7 +78,7 @@ Você pode habilitar e configurar o bypass de mídia no painel de controle do Ly
 ## <a name="see-also"></a>Confira também
 
 
-[Desativando o bypass de mídia de rede no Lync Server 2013](lync-server-2013-disabling-network-media-bypass.md)  
+[Desabilitando o bypass de mídia de rede no Lync Server 2013](lync-server-2013-disabling-network-media-bypass.md)  
 
 
 [Opções de bypass de mídia global no Lync Server 2013](lync-server-2013-global-media-bypass-options.md)  

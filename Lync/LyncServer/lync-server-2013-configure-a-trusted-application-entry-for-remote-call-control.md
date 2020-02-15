@@ -12,16 +12,16 @@ ms:contentKeyID: 48183829
 ms.date: 11/03/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bfaec78b0c7d64308b5899a6e7dc5fa95c1f53fb
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 43921fcdeb5ca6e5c74e2c7a82b36bf830cbaa15
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757865"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028782"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,7 +35,7 @@ ms.locfileid: "41757865"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2015-11-02_
+_**Última modificação do tópico:** 2015-11-02_
 
 O gateway SIP/CSTA deve ser configurado como um aplicativo confiável para que o Lync Server aplique uma rota estática para chamadas de roteamento para o gateway.
 
@@ -43,7 +43,7 @@ O gateway SIP/CSTA deve ser configurado como um aplicativo confiável para que o
 
 
 > [!IMPORTANT]
-> Se você estiver migrando usuários de uma versão anterior da implantação do Lync Server, certifique-se de que removeu todas as entradas de aplicativo confiáveis existentes (anteriormente conhecidas como entradas de host autorizadas) que você criou para o gateway SIP/CSTA antes de seguir os procedimentos deste tópico. Para obter detalhes, consulte <A href="lync-server-2013-remove-a-legacy-authorized-host-optional.md">remover um host autorizado herdado no Lync Server 2013 (opcional)</A>.<BR>Se você planeja implantar um novo controle de chamada remota usando uma conexão TCP (Transmission Control Protocol), você precisará verificar se o <STRONG>uso do serviço de limite para endereços IP selecionados</STRONG> deve ser definido em pools e aplicativos confiáveis existentes, se você quiser usar a mesma porta TCP para o novo aplicativo confiável.
+> Se você estiver migrando usuários de uma versão anterior da implantação do Lync Server, remova todas as entradas de aplicativos confiáveis existentes (anteriormente conhecidas como entradas de host autorizadas) que você criou para o gateway SIP/CSTA antes de seguir os procedimentos deste tópico. Para obter detalhes, consulte <A href="lync-server-2013-remove-a-legacy-authorized-host-optional.md">remover um host autorizado herdado no Lync Server 2013 (opcional)</A>.<BR>Se você planeja implantar o novo controle de chamada remota usando uma conexão TCP (Transmission Control Protocol), será necessário verificar se o <STRONG>uso do serviço de limite para endereços IP selecionados</STRONG> deve ser definido em pools e aplicativos confiáveis existentes, se você quiser usar a mesma porta TCP para o novo aplicativo confiável.
 
 
 
@@ -53,13 +53,13 @@ O gateway SIP/CSTA deve ser configurado como um aplicativo confiável para que o
 
 ## <a name="to-configure-a-trusted-application-entry-for-the-sipcsta-gateway"></a>Para configurar uma entrada de aplicativo confiável para o gateway SIP/CSTA
 
-1.  Faça logon no computador em que o Shell de gerenciamento do Lync Server está instalado como membro do grupo RTCUniversalServerAdmins ou uma função de controle de acesso baseado em função (RBAC) à qual você atribuiu o cmdlet **New-CsTrustedApplicationPool** .
+1.  Faça logon no computador onde o Shell de gerenciamento do Lync Server está instalado como um membro do grupo RTCUniversalServerAdmins ou de uma função RBAC (controle de acesso baseado em função) para a qual você atribuiu o cmdlet **New-CsTrustedApplicationPool** .
 
-2.  Inicie o Shell de gerenciamento do Lync Server: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Shell de gerenciamento do Lync Server**.
+2.  Inicie o Shell de Gerenciamento do Lync Server: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Shell de Gerenciamento do Lync Server**.
 
 3.  Para criar uma entrada de aplicativo confiável, siga um destes procedimentos:
     
-      - Para uma conexão de TLS (Transport Layer Security), digite o seguinte no prompt de comando:
+      - Para uma conexão TLS, digite o seguinte no prompt de comando:
         
             New-CsTrustedApplicationPool -Identity <FQDN of the SIP/CSTA gateway> [-Registrar <Service ID or FQDN of the Registrar service>] -Site <Site ID for the site where you want to create the trusted application pool>
         
@@ -67,7 +67,7 @@ O gateway SIP/CSTA deve ser configurado como um aplicativo confiável para que o
         
             New-CsTrustedApplicationPool -Identity rccgateway.contoso.net -Registrar registrar1.contoso.net -Site co1 -TreatAsAuthenticated $true -ThrottleAsServer $true
     
-      - Para uma conexão TCP (Transmission Control Protocol), digite o seguinte no prompt de comando:
+      - Para uma conexão TCP, digite o seguinte no prompt de comando:
         
             New-CsTrustedApplicationPool -Identity <IP address or FQDN of the SIP/CSTA gateway> [-Registrar <Service ID or FQDN of the Registrar service>] -Site <Site ID for the site where you want to create the trusted application pool>
         
@@ -75,7 +75,7 @@ O gateway SIP/CSTA deve ser configurado como um aplicativo confiável para que o
         
             New-CsTrustedApplicationPool -Identity 192.168.0.240 -Registrar registrar1.contoso.net -Site co1 -TreatAsAuthenticated $true -ThrottleAsServer $true
 
-4.  Para adicionar o aplicativo confiável ao pool, siga um destes procedimentos:
+4.  Para adicionar o aplicativo confiável para o pool, siga um destes procedimentos:
     
       - Para uma conexão TLS, digite o seguinte no prompt de comando:
         
@@ -93,7 +93,7 @@ O gateway SIP/CSTA deve ser configurado como um aplicativo confiável para que o
         
             New-CsTrustedApplication -ApplicationID RccGateway-1 -TrustedApplicationPoolFqdn 192.169.0.240 -Port 5065 -EnableTcp
 
-5.  Para implementar as alterações publicadas feitas à topologia, digite o seguinte no prompt de comando:
+5.  Para implementar as alterações publicadas efetuadas na topologia, digite o seguinte no prompt de comando:
     
         Enable-CsTopology
 
@@ -105,7 +105,7 @@ O gateway SIP/CSTA deve ser configurado como um aplicativo confiável para que o
 
 
 [Configurar uma rota estática para controle de chamada remota no Lync Server 2013](lync-server-2013-configure-a-static-route-for-remote-call-control.md)  
-[Definir um endereço SIP de gateway SIP/CSTA no Lync Server 2013](lync-server-2013-define-a-sip-csta-gateway-ip-address.md)  
+[Definir um endereço IP de gateway SIP/CSTA no Lync Server 2013](lync-server-2013-define-a-sip-csta-gateway-ip-address.md)  
   
 
 </div>

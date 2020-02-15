@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Anexos: Servidores e Aplicativos de Filial Persistente'
+title: 'Lync Server 2013: apêndices: servidores e aparelhos de filial persistente'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183896
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f6f825179b2967ef96db3b2f035eefbad1049572
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: bf5f651e93097537659d6df0ea7bb4fa469fabcd
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737781"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029022"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="appendices-survivable-branch-appliances-and-servers-in-lync-server-2013"></a>Anexos: Servidores e Aplicativos de Filial Persistente no Lync Server 2013
+# <a name="appendices-survivable-branch-appliances-and-servers-in-lync-server-2013"></a>Apêndices: servidores e aparelhos de filial persistente no Lync Server 2013
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41737781"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-06-28_
+_**Última modificação do tópico:** 2012-06-28_
 
-A seção fornece informações adicionais sobre aparelhos de ramificação sobreviventes e servidores filiais sobreviventes.
+A seção oferece informações adicionais sobre dispositivos de filial persistente e servidores de filial persistente.
 
 <div>
 
 ## <a name="in-this-section"></a>Nesta seção
 
-  - [Anexo A: Usando cmdlets para implantar uma Aparelho de Filial Persistente no Lync Server 2013](lync-server-2013-appendix-a-using-cmdlets-to-deploy-a-survivable-branch-appliance.md)
+  - [Apêndice A: usando cmdlets para implantar um aparelho de filial persistente no Lync Server 2013](lync-server-2013-appendix-a-using-cmdlets-to-deploy-a-survivable-branch-appliance.md)
 
-  - [Anexo B: Gerenciando um Aplicativo de Filial Persistente no Lync Server 2013](lync-server-2013-appendix-b-managing-a-survivable-branch-appliance.md)
+  - [Apêndice B: gerenciando um aparelho de filial persistente no Lync Server 2013](lync-server-2013-appendix-b-managing-a-survivable-branch-appliance.md)
 
 </div>
 

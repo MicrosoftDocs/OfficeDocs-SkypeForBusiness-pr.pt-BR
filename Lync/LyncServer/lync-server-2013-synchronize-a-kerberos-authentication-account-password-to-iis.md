@@ -12,16 +12,16 @@ ms:contentKeyID: 48183296
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 86e71f87c20064e542aa6a8db1d9b38048c5f736
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 811134697ea04f1dab3637e648ff89455fca07d3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731651"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029742"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,19 +35,19 @@ ms.locfileid: "41731651"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2010-11-08_
+_**Última modificação do tópico:** 2010-11-08_
 
-Para concluir esse procedimento com êxito, você deve estar conectado como um usuário que é membro do grupo RTCUniversalServerAdmins.
+Para concluir com sucesso este procedimento, você deve ter feito logon como usuário membro do grupo RTCUniversalServerAdmins.
 
-Em um site, os servidores de front-end, os servidores de edição padrão e os directors podem usar uma conta de autenticação Kerberos para fins de autenticação de solicitações para o serviço de serviços Web. Esse procedimento localiza cada servidor que executa serviços Web em um site que tenha sido atribuído a uma conta Kerberos e atualiza as configurações de configuração dos serviços de informações da Internet (IIS) para usar a conta Kerberos. Para obter detalhes, consulte [definir uma senha da conta de autenticação Kerberos em um servidor no Lync server 2013](lync-server-2013-set-a-kerberos-authentication-account-password-on-a-server.md).
+Em um site, servidores front-end, servidores Standard Edition e diretores podem usar uma conta de autenticação Kerberos para fins de autenticação de solicitações para o serviço de serviços Web. Este procedimento localiza cada servidor que executa os serviços Web em um site que tenha sido atribuído a uma conta Kerberos e atualiza as definições de configuração do IIS (serviços de informações da Internet) para usar a conta Kerberos. Para obter detalhes, consulte [definir uma senha de conta de autenticação Kerberos em um servidor no Lync server 2013](lync-server-2013-set-a-kerberos-authentication-account-password-on-a-server.md).
 
 <div>
 
-## <a name="to-set-and-configure-a-kerberos-authentication-account-password"></a>Para definir e configurar uma senha da conta de autenticação Kerberos
+## <a name="to-set-and-configure-a-kerberos-authentication-account-password"></a>Para definir e configurar uma senha de autenticação de conta Kerberos
 
-1.  Faça logon em um computador de origem (por exemplo, fe01.contoso.com) como membro do grupo RTCUniversalServerAdmins.
+1.  Conecte-se a um computador de origem (como um fe01.contoso.com) como membro do grupo RTCUniversalServerAdmins.
 
-2.  Inicie o Shell de gerenciamento do Lync Server: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Shell de gerenciamento do Lync Server**.
+2.  Inicie o Shell de Gerenciamento do Lync Server: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Shell de Gerenciamento do Lync Server**.
 
 3.  Na linha de comando do Shell de gerenciamento do Lync Server, execute os dois comandos a seguir:
     
@@ -61,7 +61,7 @@ Em um site, os servidores de front-end, os servidores de edição padrão e os d
     
 
     > [!IMPORTANT]
-    > O nome do computador de origem e do computador de destino deve ser um nome de domínio totalmente qualificado (FQDN) do servidor. Você não pode usar o FQDN do pool, a menos que o nome do pool seja igual ao nome do computador que você está usando como computador de origem ou de destino.
+    > O nome do computador de origem e do computador de desinto deve ser um nome de domínio Totalmente qualificado (FQDN) do servidor. Você não pode usar o FQDN do pool, a não ser que o nome do pool seja o mesmo do nome do computador sendo usado como computador de origem ou de destino.
 
     
     </div>
@@ -70,7 +70,7 @@ Em um site, os servidores de front-end, os servidores de edição padrão e os d
     
 
     > [!IMPORTANT]
-    > Depois de fazer qualquer alteração na autenticação Kerberos, como adicionar uma conta ou remover uma conta, você deve executar <STRONG>Enable-CsTopology</STRONG> no prompt de comando do Shell de gerenciamento do Lync Server.
+    > Após fazer qualquer alteração na autenticação Kerberos, como adicionar uma conta ou remover uma conta, você deve executar o <STRONG>Enable-CsTopology</STRONG> no prompt de comando do Shell de gerenciamento do Lync Server.
 
     
     </div>

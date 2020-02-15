@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Adicionar bancos de dados de arquivamento à topologia 2013 do Lync Server'
+title: 'Lync Server 2013: adicionando bancos de dados de arquivamento à topologia 2013 do Lync Server'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183338
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7476107b064b45dbef74b03ff9d54e02fc9eee52
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e73fe49aaf3a5b90a23bcfd6b99c9a5bb4476513
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738161"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008787"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="adding-archiving-databases-to-the-lync-server-2013-topology"></a>Adicionar bancos de dados de arquivamento à topologia do Lync Server 2013
+# <a name="adding-archiving-databases-to-the-lync-server-2013-topology"></a>Adicionando bancos de dados de arquivamento à topologia do Lync Server 2013
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41738161"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-10_
+_**Última modificação do tópico:** 2012-10-10_
 
-É necessário incorporar o arquivamento à sua topologia antes de configurar sua implantação para suportar o arquivamento. As informações neste tópico explicam como usar o construtor de topologias para adicionar o arquivamento à sua topologia existente.
+É necessário incorporar o arquivamento à sua topologia antes de poder configurar sua implantação para suportar o arquivamento. As informações neste tópico explicam como usar o construtor de topologias para adicionar o arquivamento à sua topologia existente.
 
 <div>
 
 
 > [!NOTE]  
-> Se você quiser usar a integração do Microsoft Exchange para armazenar arquivos e dados de arquivamento em servidores Exchange 2013 para todos os usuários em sua implantação, não especifique a <STRONG>loja do SQL Server</STRONG> do SQL Server ou use as informações de <STRONG>espelhamento da loja do SQL Server</STRONG> .
+> Se você quiser usar a integração do Microsoft Exchange para armazenar arquivos e dados de arquivamento em servidores Exchange 2013 para todos os usuários em sua implantação, não especifique o <STRONG>repositório do SQL Server</STRONG> ou use as informações de <STRONG>espelhamento do repositório do SQL Server</STRONG> .
 
 
 
@@ -51,26 +51,26 @@ _**Tópico da última modificação:** 2012-10-10_
 
 <div>
 
-## <a name="to-add-archiving-database-support-to-your-topology"></a>Para adicionar suporte a banco de dados de arquivamento à sua topologia
+## <a name="to-add-archiving-database-support-to-your-topology"></a>Para adicionar suporte ao banco de dados de Arquivamento à sua topologia
 
-1.  Em um computador que esteja executando o Lync Server 2013 ou no qual as ferramentas administrativas do Lync Server estão instaladas, faça logon usando uma conta que seja membro do grupo usuários local (ou uma conta com direitos de usuário equivalentes).
+1.  Em um computador que está executando o Lync Server 2013, ou em que as ferramentas administrativas do Lync Server estão instaladas, faça logon usando uma conta que seja membro do grupo usuários local (ou uma conta com direitos de usuário equivalentes).
     
     <div>
     
 
     > [!NOTE]  
-    > Você pode definir uma topologia usando uma conta que seja membro do grupo usuários local, mas para publicar uma topologia, que é necessária para adicionar um servidor à topologia, você deve usar uma conta que seja membro do grupo <STRONG>Domain admins</STRONG> e do grupo <STRONG>RTCUniversalServerAdmins</STRONG> e que tenha permissões de controle total (ou seja, ler, gravar e modificar) no compartilhamento de arquivos que você está usando para o repositório de arquivos do Lync Server 2013 (ou seja, o construtor de topologias pode configurar a lista de controle de acesso discricional (DACLs) necessária ou uma conta com direitos equivalentes.
+    > Você pode definir uma topologia usando uma conta que seja membro do grupo usuários local, mas para publicar uma topologia, que é necessária para adicionar um servidor à topologia, você deve usar uma conta que seja membro do grupo de <STRONG>Administradores de domínio</STRONG> e do grupo <STRONG>RTCUniversalServerAdmins</STRONG> e que tenha permissões de controle total (ou seja, ler, gravar e modificar) no compartilhamento de arquivos que você está usando para o repositório de arquivos do Lync Server 2013 (ou seja, para que o construtor de topologias possa configurar a lista de controle de acesso discricional necessária (DACLs) ou uma conta com direitos equivalentes.
 
     
     </div>
 
-2.  Iniciar o construtor de topologias.
+2.  Inicie o Construtor de topologia.
 
-3.  Na árvore de console, navegue até o pool de front-end no qual você deseja implantar o arquivamento e clique no nome do pool de front-ends em que deseja implantar o arquivamento.
+3.  Na árvore do console, navegue até o pool de Front-Ends no qual você deseja implantar o Arquivamento e clique no nome do pool.
 
-4.  No menu **Ação**, clique em **Editar propriedades**.
+4.  No menu **Ação**, clique em **Editar Propriedades**.
 
-5.  Na caixa de diálogo **Editar propriedades**, clique em **Geral**.
+5.  Na caixa de diálogo **Editar Propriedades**, clique em **Geral**.
 
 6.  Role a tela para baixo até **Arquivamento**.
 
@@ -78,35 +78,35 @@ _**Tópico da última modificação:** 2012-10-10_
 
 8.  Em **arquivar repositório do SQL Server,** siga um destes procedimentos:
     
-      - Para usar um armazenamento existente do SQL Server, na caixa de listagem suspensa, clique no nome do armazenamento do SQL Server que deseja usar. Se todos os seus usuários estiverem hospedados no Microsoft Exchange Server 2013 ou superior, você poderá arquivar as comunicações do Lync para todos os usuários no Exchange. Nesse caso, você não precisa configurar o repositório de arquivamento do SQL Server.
+      - Para usar um armazenamento existente do SQL Server, na caixa de listagem suspensa, clique no nome do armazenamento do SQL Server que deseja usar. Se todos os seus usuários estiverem hospedados no Microsoft Exchange Server 2013 ou superior, você poderá arquivar as comunicações do Lync para todos os seus usuários no Exchange. Nesse caso, você não precisa configurar o repositório de arquivamento do SQL Server.
     
-      - Para especificar uma nova loja do SQL Server, clique em **novo**e, em seguida, na caixa de diálogo **definir novo SQL Server Store** , faça o seguinte:
+      - Para especificar um novo repositório do SQL Server, clique em **novo**e, em seguida, na caixa de diálogo **definir novo repositório do SQL Server** , faça o seguinte:
         
           - Em **FQDN do SQL Server**, ESPECIFIQUE o FQDN do servidor no qual você deseja criar o novo repositório do SQL Server.
         
           - Clique em **Instância padrão** para usar a instância padrão ou, para especificar uma instância diferente, clique em **Instância nomeada** e especifique a instância que deseja usar.
         
-          - Se a instância do SQL Server especificada estiver em uma relação de espelhamento, marque a caixa de seleção **esta instância SQL está em relação ao espelhamento** e, em seguida, em **número de porta espelhada**, especifique o número da porta.
+          - Se a instância do SQL Server especificada estiver em uma relação de espelhamento, marque a caixa de seleção **esta instância SQL está em relação de espelhamento** e, em seguida, em **número da porta espelho**, especifique o número da porta.
 
-9.  Se você quiser usar o espelhamento da loja do SQL Server, selecione **habilitar o espelhamento da loja do SQL Server**e, em seguida, faça o seguinte:
+9.  Se você quiser usar o espelhamento do repositório do SQL Server, selecione **habilitar espelhamento do repositório do SQL Server**e faça o seguinte:
     
-      - Para usar uma loja existente do SQL Server para espelhamento, na caixa de listagem suspensa de **espelhamento do repositório do SQL Server** , clique no nome da loja do SQL Server que você deseja usar para espelhamento.
+      - Para usar um repositório existente do SQL Server para espelhamento, na caixa de listagem suspensa **espelhamento do repositório do SQL Server Store** , clique no nome do repositório do SQL Server que você deseja usar para espelhamento.
     
-      - Para especificar uma nova loja do SQL Server para espelhamento, clique em **novo**e, na caixa de diálogo **definir novo repositório do SQL Server** , siga um destes procedimentos:
+      - Para especificar um novo repositório do SQL Server para espelhamento, clique em **novo**e, em seguida, na caixa de diálogo **definir novo repositório do SQL Server** , siga um destes procedimentos:
         
-        1.  No **FQDN do SQL Server**, ESPECIFIQUE o FQDN do SQL Server no qual você deseja criar o novo repositório do SQL Server.
+        1.  Em **FQDN do SQL Server**, ESPECIFIQUE o FQDN do SQL Server no qual você deseja criar o novo repositório do SQL Server.
         
         2.  Clique em **Instância padrão** para usar a instância padrão ou, para especificar uma instância diferente, clique em **Instância nomeada** e especifique a instância que deseja usar.
         
-        3.  Se a instância do SQL Server especificada estiver em uma relação de espelhamento, marque a caixa de seleção **esta instância SQL está em relação ao espelhamento** e, em seguida, em **número de porta espelhada**, especifique o número da porta.
+        3.  Se a instância do SQL Server especificada estiver em uma relação de espelhamento, marque a caixa de seleção **esta instância SQL está em relação de espelhamento** e, em seguida, em **número da porta espelho**, especifique o número da porta.
     
-      - Se você habilitar o espelhamento do SQL Server e quiser incluir uma testemunha de espelhamento do SQL Server (uma terceira instância do SQL Server separada que pode detectar a integridade do servidor do SQL Server e das instâncias de espelhamento principais), marque a caixa de seleção **usar a testemunha de espelhamento do SQL Server para habilitar o failover automático** e siga um destes procedimentos:
+      - Se você habilitar o espelhamento do SQL Server e quiser incluir uma testemunha de espelhamento do SQL Server (uma terceira instância separada do SQL Server que possa detectar a integridade do servidor SQL Server principal e das instâncias de espelho), marque a caixa de seleção **usar testemunha de espelhamento do SQL Server para habilitar failover automático** e siga um destes procedimentos:
         
         1.  Em **FQDN do SQL Server**, ESPECIFIQUE o FQDN do servidor no qual você deseja criar a nova testemunha de espelhamento do SQL Server.
         
         2.  Clique em **Instância padrão** para usar a instância padrão ou, para especificar uma instância diferente, clique em **Instância nomeada** e especifique a instância que deseja usar para a testemunha de espelhamento.
         
-        3.  Se a instância do SQL Server especificada estiver em uma relação de espelhamento, marque a caixa de seleção **esta instância SQL está em relação ao espelhamento** e, em seguida, em **número de porta espelhada**, especifique o número da porta.
+        3.  Se a instância do SQL Server especificada estiver em uma relação de espelhamento, marque a caixa de seleção **esta instância SQL está em relação de espelhamento** e, em seguida, em **número da porta espelho**, especifique o número da porta.
 
 10. Para salvar a configuração, clique em **OK**.
 

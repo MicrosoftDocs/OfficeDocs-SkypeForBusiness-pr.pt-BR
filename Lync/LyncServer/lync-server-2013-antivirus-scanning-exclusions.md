@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Exclusões de verificação de antivírus'
+title: 'Lync Server 2013: exclusões de verificação de antivírus'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 57793042
 ms.date: 11/03/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 90847830d9f2586e0d111846f2867400c52fc940
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f8faeba1d3b661110bcaf633d3c780dc2c2ad2b1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737771"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029032"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="antivirus-scanning-exclusions-for-lync-server-2013"></a>Exclusões de verificação de antivírus para Lync Server 2013
+# <a name="antivirus-scanning-exclusions-for-lync-server-2013"></a>Exclusões de verificação antivírus para o Lync Server 2013
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41737771"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2015-11-02_
+_**Última modificação do tópico:** 2015-11-02_
 
-Para garantir que o scanner antivírus não interfira com a operação do Lync Server 2013, você deve excluir processos e pastas específicos para cada função de servidor ou servidor do Lync Server 2013 na qual você executa um verificador de vírus. Os seguintes processos e diretórios devem ser excluídos:
+Para garantir que o verificador antivírus não interfira na operação do Lync Server 2013, você deve excluir processos e diretórios específicos para cada função de servidor ou servidor do Lync Server 2013 em que você execute um scanner antivírus. Os seguintes processos e diretórios devem ser excluídos:
 
 <div>
 
 
 > [!NOTE]  
-> Os locais de pasta e arquivo listados abaixo são os locais padrão do Lync Server 2013. Para quaisquer locais, para os quais você não usa o padrão, exclua os locais que você especificou para a sua organização em vez dos locais padrão especificados neste tópico.
+> Os locais de pasta e arquivo listados abaixo são os locais padrão para o Lync Server 2013. Para os locais nos quais você não usou o padrão, exclua os locais especificados para a sua organização em vez dos locais padrão especificados neste tópico.
 
 
 
@@ -53,7 +53,7 @@ Para garantir que o scanner antivírus não interfira com a operação do Lync S
 
 
 > [!IMPORTANT]  
-> Observe que alguns programas antivírus podem precisar de caminhos absolutos e não relativos, para a sua lista de exclusão.
+> Observe que alguns programas antivírus podem precisar de caminhos absolutos e não relativos, para a lista de exclusão.
 
 
 
@@ -61,87 +61,87 @@ Para garantir que o scanner antivírus não interfira com a operação do Lync S
 
   - Processos do Lync Server 2013:
     
-      - ABServer.exe
+      - ABServer. exe
     
       - AcpMcuSvc. exe
     
-      - ASMCUSvc.exe
+      - ASMCUSvc. exe
     
-      - AVMCUSvc.exe
+      - AVMCUSvc. exe
     
-      - ChannelService.exe
+      - ChannelService. exe
     
-      - ClsAgent.exe
+      - ClsAgent. exe
     
-      - ComplianceService.exe
+      - ComplianceService. exe
     
-      - DataMCUSvc.exe
+      - DataMCUSvc. exe
     
-      - DataProxy.exe
+      - Dataproxy. exe
     
-      - FileTransferAgent.exe
+      - FileTransferAgent. exe
     
-      - IMMCUSvc.exe
+      - IMMCUSvc. exe
     
-      - LysSvc.exe
+      - LysSvc. exe
     
-      - MasterReplicatorAgent.exe
+      - MasterReplicatorAgent. exe
     
-      - MediaRelaySvc.exe
+      - MediaRelaySvc. exe
     
-      - MediationServerSvc.exe
+      - MediationServerSvc. exe
     
-      - MRASSvc.exe
+      - MRASSvc. exe
     
-      - OcsAppServerHost.exe
+      - OcsAppServerHost. exe
     
-      - ReplicaReplicatorAgent.exe
+      - ReplicaReplicatorAgent. exe
     
-      - ReplicationApp.exe
+      - ReplicationApp. exe
     
-      - RtcHost.exe
+      - RtcHost. exe
     
-      - RTCSrv.exe
+      - RTCSrv. exe
     
-      - XmppProxy.exe
+      - XmppProxy. exe
     
-      - XmppTGW.exe
+      - XmppTGW. exe
 
-  - Processos de Serviço de Host do Windows Fabric:
+  - Processos do serviço de host do Windows Fabric:
     
-      - Fabric.exe
+      - Fabric. exe
     
-      - FabricDCA.exe
+      - FabricDCA. exe
     
-      - FabricHost.exe
+      - FabricHost. exe
 
-  - Processos IIS:
+  - Processos do IIS:
     
       - % SystemRoot%\\system32\\inetsrv\\w3wp. exe
     
       - % SystemRoot%\\SysWOW64\\inetsrv\\w3wp. exe
 
-  - Processos SQL Server Back-End:
+  - Processos de back-end do SQL Server:
     
       - % ProgramFiles\\% Microsoft SQL\\Server MSSQL11. MSSQLSERVER\\MSSQL\\Binn\\sqlservr. exe
     
       - % ProgramFiles\\% Microsoft SQL\\Server MSRS11. MSSQLSERVER\\Reporting\\Services\\\\ReportServer bin ReportingServicesService. exe
     
-      - % ProgramFiles\\% Microsoft SQL\\Server MSAS11. Compartimento\\\\OLAP\\MSSQLSERVER. exe
+      - % ProgramFiles\\% Microsoft SQL\\Server MSAS11. Compartimento\\\\do\\MSSQLSERVER OLAP MSMDSrv. exe
 
-  - Processos SQL Server Front-End:
+  - Processos de front-end do SQL Server:
     
       - % ProgramFiles\\% Microsoft SQL\\Server MSSQL11. LYNCLOCAL\\MSSQL\\Binn\\sqlservr. exe
     
       - % ProgramFiles\\% Microsoft SQL\\Server MSSQL11. RTCLOCAL\\MSSQL\\Binn\\sqlservr. exe
 
-  - Diretórios e arquivos:
+  - Arquivos e diretórios:
     
       - % SystemRoot%\\system32\\LogFiles
     
-      - % SystemRoot%\\SysWOW64\\LogFiles
+      - % de\\\\LogFiles da raiz_do_sistema%
     
-      - % SystemRoot%\\Microsoft.NET\\assembly\\GAC\_MSIL
+      - % de%\\Microsoft.NET\\assembly\\do\_GAC
     
       - % ProgramFiles\\% Microsoft Lync Server 2013
     
@@ -151,11 +151,11 @@ Para garantir que o scanner antivírus não interfira com a operação do Lync S
     
       - % SystemDrive%\\RtcReplicaRoot
     
-      - Repositório de compartilhamento de arquivo(específico no Construtor de Topologias). Os repositórios de arquivos são especificados no Construtor de Topologias.
+      - O repositório de compartilhamento de arquivo (especificado no Construtor de Topologias). Os repositórios de arquivo estão especificados no Construtor de Topologias.
     
-      - Os arquivos de logs e dados do SQL Server, incluindo aqueles para o banco de dados de back-end, armazenamento de usuário, arquivamento, monitoramento, e repositório de application. Os arquivos da base de dados e os logs podem ser especificados no Construtor de Topologias. Para obter detalhes sobre os dados e arquivos de log para cada banco de dados, incluindo nomes padrão, consulte [dados do SQL Server e posicionamento do arquivo de log para o Lync Server 2013](lync-server-2013-sql-server-data-and-log-file-placement.md) na documentação de implantação.
+      - Os dados e arquivos de log do  SQL Server, incluindo para o banco de dados de Back-End, repositório de usuários, repositório de arquivamento, repositório de monitoramento e repositório do aplicativo. Os arquivos de log e banco de dados podem ser especificados no Construtor de Topologias. Para obter detalhes sobre os dados e arquivos de log para cada banco de dados, incluindo nomes padrão, confira [dados do SQL Server e posicionamento de arquivos de log para o Lync Server 2013](lync-server-2013-sql-server-data-and-log-file-placement.md) na documentação de implantação.
     
-      - Dados e arquivos de log do SQL Server, incluindo aqueles para o banco de dados front-end, a loja do Lync e a loja do RtcDatabase. Eles estão normalmente em% Unidade_Local%\\CSData.
+      - Dados do SQL Server e arquivos de log, incluindo aqueles para o banco de dados front-end, o repositório do Lync e o repositório do RtcDatabase. Eles estão normalmente em% Unidade_Local%\\CSData.
 
 </div>
 

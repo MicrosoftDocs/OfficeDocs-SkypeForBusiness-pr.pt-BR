@@ -12,16 +12,16 @@ ms:contentKeyID: 48184412
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6fe3597f873e8f3bcf66eba922624e4c13ab3f3b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f61d1e5ef7edc8414ee16eaa90ee31a69744af18
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726541"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029682"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41726541"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-02-04_
+_**Última modificação do tópico:** 2013-02-04_
 
-Depois de atribuir o certificado OAuthTokenIssuer, você deve configurar os aplicativos de parceiros do Microsoft Lync Server 2013. (O procedimento a ser discutido configura o Microsoft Exchange Server 2013 e o Microsoft SharePoint para atuar como aplicativos de parceiros.) Para configurar um aplicativo de parceiro local, você deve começar copiando o seguinte script do Windows PowerShell e colando o código no bloco de notas (ou em qualquer outro editor de texto):
+Após ter atribuído o certificado OAuthTokenIssuer, você deve configurar seus aplicativos de parceiro do Microsoft Lync Server 2013. (O procedimento a ser discutido configura o Microsoft Exchange Server 2013 e o Microsoft SharePoint para atuar como aplicativos de parceiros.) Para configurar um aplicativo de parceiro local, você deve começar copiando o seguinte script do Windows PowerShell e colando o código no bloco de notas (ou qualquer outro editor de texto):
 
     if ((Get-CsPartnerApplication -ErrorAction SilentlyContinue) -ne $Null)
        {
@@ -85,7 +85,7 @@ Depois de atribuir o certificado OAuthTokenIssuer, você deve configurar os apli
     
     Set-CsOAuthConfiguration -ServiceName 00000004-0000-0ff1-ce00-000000000000
 
-Depois de copiar o código, salve o script usando um. A extensão de arquivo PS1 (por exemplo,\\C\\: scripts ServerToServerAuth. ps1). Observe que, antes de executar esse script, você deve substituir as URLs https://atl-exchange-001.litwareinc.com/autodiscover/metadata/json/1 de metadados http://atl-sharepoint-001.litwareinc.com/jsonmetadata.ashx e as URLs de metadados usadas por seus servidores do Exchange 2013 e do SharePoint, respectivamente. Consulte a documentação do produto do Exchange 2013 e do SharePoint para obter informações sobre como você pode identificar a URL de metadados do respectivo produto.
+Depois de copiar o código, salve o script usando um. A extensão de arquivo PS1 (por exemplo,\\C\\: scripts ServerToServerAuth. ps1). Observe que, antes de executar esse script, você deve substituir as URLs https://atl-exchange-001.litwareinc.com/autodiscover/metadata/json/1 de metadados http://atl-sharepoint-001.litwareinc.com/jsonmetadata.ashx e com as URLs de metadados usadas pelos seus servidores do Exchange 2013 e do SharePoint, respectivamente. Consulte a documentação do produto do Exchange 2013 e do SharePoint para obter informações sobre como você pode identificar a URL de metadados do respectivo produto.
 
 Se você observar a última linha do script, perceberá que o cmdlet Set-CsOAuthConfiguration é chamado com o uso da sintaxe:
 
@@ -95,11 +95,11 @@ Como o parâmetro Realm não foi usado para chamar Set-CsOAuthConfiguration, o r
 
     Set-CsOAuthConfiguration -ServiceName 00000004-0000-0ff1-ce00-000000000000 -Realm "contoso.com"
 
-Depois de fazer essas alterações, você pode executar o script e configurar o Exchange 2013 e o SharePoint como aplicativos de parceiros executando o arquivo de script de dentro do Shell de gerenciamento do Lync Server 2013. Por exemplo:
+Depois de fazer essas alterações, você pode executar o script e configurar o Exchange 2013 e o SharePoint como aplicativos de parceiro executando o arquivo de script de dentro do Shell de gerenciamento do Lync Server 2013. Por exemplo:
 
     C:\Scripts\ServerToServerAuth.ps1
 
-Observe que você pode executar esse script mesmo se não tiver o Exchange 2013 e o SharePoint Server instalados:, nenhum problema ocorrerá se você, digamos, configurar o SharePoint Server como um aplicativo de parceiro, mesmo que você não tenha o SharePoint Server instalado.
+Observe que você pode executar esse script mesmo se não tiver o Exchange 2013 e o SharePoint Server instalados:, nenhum problema ocorrerá se você, diga, configure o SharePoint Server como um aplicativo parceiro, mesmo que você não tenha o SharePoint Server instalado.
 
 Ao executar esse script, você talvez receba uma mensagem de erro semelhante à seguinte:
 
@@ -107,9 +107,9 @@ Ao executar esse script, você talvez receba uma mensagem de erro semelhante à 
 
 Essa mensagem de erro geralmente significa que: 1) uma das URLs especificadas no script não é válida (ou seja, uma das URLs de metadados não é realmente uma URL de metadados); ou 2) não foi possível acessar uma das URLs de metadados. Se isso acontecer, verifique se as URLs estão corretas e acessíveis e execute o script novamente.
 
-Depois de criar o aplicativo parceiro para o Lync Server 2013, você deve configurar o Lync Server para ser um aplicativo de parceiro do Exchange 2013. Você pode configurar aplicativos de parceiros para o Exchange 2013 executando o script Configure-EnterprisePartnerApplication. ps1; Tudo o que você precisa fazer é especificar a URL de metadados do Lync Server e indicar que o Lync Server é o novo aplicativo de parceiro.
+Depois de criar o aplicativo parceiro para o Lync Server 2013, você deve configurar o Lync Server para ser um aplicativo parceiro para o Exchange 2013. Você pode configurar aplicativos parceiros para o Exchange 2013 executando o script configure-enterprisepartnerapplication. ps1; Tudo o que você precisa fazer é especificar a URL de metadados para o Lync Server e indicar que o Lync Server é o novo aplicativo de parceiro.
 
-Para configurar o Lync Server como um aplicativo parceiro para Exchange, abra o Shell de gerenciamento do Exchange e execute um comando semelhante a este
+Para configurar o Lync Server como um aplicativo parceiro para o Exchange, abra o Shell de gerenciamento do Exchange e execute um comando semelhante a este
 
     "c:\Program Files\Microsoft\Exchange Server\V15\Scripts\Configure-EnterprisePartnerApplication.ps1" -AuthMetadataUrl "https://lync.contoso.com/metadata/json/1" -ApplicationType "Lync"
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Configurando o recurso de mensagem de voz'
+title: 'Lync Server 2013: Configurando o escape de caixa postal'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733761
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c32d3bbc39d8f18e30153193c1e722db1ec9d50e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 131b36b87a3d930662cdd863dd4ebc1d0d69163e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734431"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029944"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-voice-mail-escape-in-lync-server-2013"></a>Configurando o recurso de mensagem de voz no Lync Server 2013
+# <a name="configuring-voice-mail-escape-in-lync-server-2013"></a>Configurando o escape de caixa postal no Lync Server 2013
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41734431"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-02-22_
+_**Última modificação do tópico:** 2013-02-22_
 
-Quando um usuário configura ligação simultânea para um celular, um chamador geralmente é roteado para a caixa postal pessoal do usuário, caso o celular esteja desligado, sem bateria ou fora de área. Com o Lync Server 2013, os usuários podem optar por fazer chamadas relacionadas a negócios roteadas para o sistema de caixa postal da empresa. Especificamente, um temporizador pode ser configurado e, se a chamada for atendida pela caixa postal da operadora dentro do intervalo de tempo definido, o Lync Server será desconectado do sistema de caixa postal da operadora (e da caixa postal pessoal do usuário), enquanto o restante do usuário os pontos de extremidade no sistema corporativo continuam a tocar. Desta maneira, o chamador será roteado automaticamente para a caixa postal corporativa do usuário.
+Quando um usuário configura ligação simultânea para um celular, um chamador geralmente é roteado para a caixa postal pessoal do usuário, caso o celular esteja desligado, sem bateria ou fora de área. Com o Lync Server 2013, os usuários podem optar por ter chamadas relacionadas à empresa roteadas para seu sistema de caixa postal corporativo. Especificamente, um timer pode ser configurado e, se a chamada for atendida pela caixa postal da operadora dentro do intervalo de tempo definido, o Lync Server será desconectado do sistema de caixa postal da operadora (e da caixa postal pessoal do usuário), enquanto o restante do usuário os pontos de extremidade no sistema corporativo continuam a tocar. Desta maneira, o chamador será roteado automaticamente para a caixa postal corporativa do usuário.
 
-Essa configuração é realizada usando o cmdlet do Shell de gerenciamento do Lync Server, **set-CsVoicePolicy**, no nível da política de voz, com os parâmetros a seguir.
+Essa configuração é realizada usando o cmdlet do Shell de gerenciamento do Lync Server, **set-CsVoicePolicy**, no nível de política de voz, com os parâmetros a seguir.
 
 <div>
 
-## <a name="to-configure-voice-mail-escape"></a>Para configurar o escape da caixa postal
+## <a name="to-configure-voice-mail-escape"></a>Para configurar o escape de caixa postal
 
-1.  Inicie o Shell de gerenciamento do Lync Server: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Shell de gerenciamento do Lync Server**.
+1.  Inicie o Shell de Gerenciamento do Lync Server: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Shell de Gerenciamento do Lync Server**.
 
 2.  Especifique os parâmetros a seguir para **Set-CsVoicePolicy**:
     
-      - **EnableVoicemailEscapeTimer** - Ativa ou desativa o timer de escape.
+      - **EnableVoicemailEscapeTimer** - Ativa ou desativa o timer de escape
     
       - **PSTNVoicemailEscapeTimer** - Especifica o valor do tempo limite em milissegundos. O valor padrão é 1500 milissegundos e o valor pode ir de 0 a 8000 milissegundos.
 
@@ -67,7 +67,7 @@ Essa configuração é realizada usando o cmdlet do Shell de gerenciamento do Ly
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Consulte também
 
 
 [Configurando políticas de voz e registros de uso de PSTN para autorizar recursos e privilégios de chamada no Lync Server 2013](lync-server-2013-configuring-voice-policies-and-pstn-usage-records-to-authorize-calling-features-and-privileges.md)  

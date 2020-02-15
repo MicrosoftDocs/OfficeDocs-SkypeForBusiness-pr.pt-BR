@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Configurando o Roteamento Baseado em Local'
+title: 'Lync Server 2013: Configurando roteamento baseado em local'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51803946
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a0e82ae8a0dd9961bfeb9d2a513cb77b0affb2c4
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 31e8877c4691decfe0c2e65fd820e97432e095aa
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762809"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030555"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-location-based-routing-in-lync-server-2013"></a>Configurando o Roteamento Baseado em Local no Lync Server 2013
+# <a name="configuring-location-based-routing-in-lync-server-2013"></a>Configurando o roteamento baseado em local no Lync Server 2013
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41762809"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-03-12_
+_**Última modificação do tópico:** 2013-03-12_
 
-Lync Server 2013 CU1, o roteamento baseado em local é um recurso do Enterprise Voice. Roteamento baseado em local é um recurso de gerenciamento de chamadas que controla como as chamadas são roteadas pelo Lync Server 2013 CU1. Ele impõe restrições sobre se as chamadas podem ser roteadas para destinos PBX ou PSTN com base na localização do chamador do Lync. O roteamento baseado em local aplica regras de autorização de chamada a chamadas PSTN com base no local de rede do chamador. O local do chamador é determinado com base no site de rede associado à sub-rede da rede na qual o chamador está conectado. Configurar o roteamento baseado em localização exige a primeira implantação do Enterprise Voice e, em seguida, a configuração de regiões de rede, sites e sub-redes. Isso configura a base para habilitar o roteamento baseado em local.
+Lync Server 2013 CU1, roteamento baseado em local é um recurso do Enterprise Voice. O roteamento baseado em local é um recurso de gerenciamento de chamadas que controla como as chamadas são encaminhadas pelo Lync Server 2013 CU1. Ela impõe restrições sobre se as chamadas podem ser roteadas para destinos PBX ou PSTN com base no local do chamador do Lync. O roteamento baseado em local aplica regras de autorização de chamada às chamadas PSTN com base no local de rede do chamador. O local do chamador é determinado com base no site de rede associado à sub-rede da rede na qual o chamador está conectado. A configuração do roteamento baseado em local exige primeiro implantação do Enterprise Voice e, em seguida, a configuração de regiões de rede, sites e sub-redes. Isso configura a base para habilitar o roteamento baseado em local.
 
-Antes de implantar o roteamento baseado em local, primeiro você deve implantar o Enterprise Voice e configurar regiões de rede, sites e associar sub-redes de rede a seus sites de rede. Uma vez concluído, você pode configurar o roteamento baseado no local. Para ver as etapas sobre como configurar regiões de rede, sites e sub-redes, consulte [implantando recursos avançados do Enterprise Voice no Lync Server 2013](lync-server-2013-deploying-advanced-enterprise-voice-features.md)
+Antes de implantar o roteamento baseado em local, primeiro você deve implantar o Enterprise Voice e configurar regiões de rede, sites e associar sub-redes de rede aos sites de rede. Após a conclusão, é possível configurar o roteamento baseado em local. Para obter etapas sobre como configurar regiões de rede, sites e sub-redes, consulte [Deploying Advanced Enterprise Voice Features in Lync Server 2013](lync-server-2013-deploying-advanced-enterprise-voice-features.md)
 
-Esta seção orienta você na configuração do roteamento baseado em localização usando o exemplo a seguir como ilustração.
+Esta seção orienta você durante a configuração do roteamento baseado em local usando o exemplo a seguir como ilustração.
 
-![Exemplo de roteamento baseado na localização do Enterprise Voice](images/JJ994036.b6ef5afc-36ac-406f-8ec2-a87532b20612(OCS.15).png "Exemplo de roteamento baseado na localização do Enterprise Voice")
+![Exemplo de roteamento baseado no local do Enterprise Voice](images/JJ994036.b6ef5afc-36ac-406f-8ec2-a87532b20612(OCS.15).png "Exemplo de roteamento baseado no local do Enterprise Voice")
 
   
 A tabela a seguir representa os usuários definidos neste exemplo.
@@ -58,39 +58,39 @@ A tabela a seguir representa os usuários definidos neste exemplo.
 <thead>
 <tr class="header">
 <th>Tipo de ponto de extremidade</th>
-<th>Local</th>
+<th>Locais</th>
 <th>Usuários</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>Lync</p></td>
-<td><p>Escritório corporativo da Délhi</p></td>
+<td><p>Escritório corporativo de Déli</p></td>
 <td><p>DEL-LYNC-1, DEL-LYNC-2, DEL-LYNC-3</p></td>
 </tr>
 <tr class="even">
 <td><p>Lync</p></td>
-<td><p>Escritório corporativo Hyderabad</p></td>
+<td><p>Escritório corporativo do Hyderabad</p></td>
 <td><p>HYD-LYNC-1, HYD-LYNC-2, HYD-LYNC-3</p></td>
 </tr>
 <tr class="odd">
 <td><p>Lync</p></td>
-<td><p>Desconhecido (isto é, Hotel)</p></td>
+<td><p>Desconhecido (ou seja, Hotel)</p></td>
 <td><p>UNK-LYNC-1</p></td>
 </tr>
 <tr class="even">
 <td><p>RESPECTIVA</p></td>
-<td><p>Escritório corporativo da Délhi</p></td>
+<td><p>Escritório corporativo de Déli</p></td>
 <td><p>DEL-PBX-1, DEL-PBX-2</p></td>
 </tr>
 <tr class="odd">
 <td><p>RESPECTIVA</p></td>
-<td><p>Escritório corporativo Hyderabad</p></td>
+<td><p>Escritório corporativo do Hyderabad</p></td>
 <td><p>HYD-PBX-1, HYD-PBX-2</p></td>
 </tr>
 <tr class="even">
 <td><p>PSTN</p></td>
-<td><p>Sabe</p></td>
+<td><p>Desconhecido</p></td>
 <td><p>PSTN-1, PSTN-2, PSTN-3</p></td>
 </tr>
 </tbody>
@@ -98,7 +98,7 @@ A tabela a seguir representa os usuários definidos neste exemplo.
 
   
 
-A tabela a seguir representa os sistemas ilustrados neste ambiente de exemplo.
+A tabela a seguir representa os sistemas ilustrados neste exemplo de ambiente.
 
 
 <table>
@@ -110,24 +110,24 @@ A tabela a seguir representa os sistemas ilustrados neste ambiente de exemplo.
 <thead>
 <tr class="header">
 <th>Sistema</th>
-<th>Local</th>
+<th>Locais</th>
 <th>Nome</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Pool CU1 do Lync Server 2013</p></td>
-<td><p>qualquer um</p></td>
+<td><p>Lync Server 2013 CU1 pool</p></td>
+<td><p>qualquer</p></td>
 <td><p>LS-PL1</p></td>
 </tr>
 <tr class="even">
 <td><p>Lync Server 2013 CU1, servidor de mediação</p></td>
-<td><p>qualquer um</p></td>
+<td><p>qualquer</p></td>
 <td><p>MS-PL1</p></td>
 </tr>
 <tr class="odd">
 <td><p>Gateway PSTN 1</p></td>
-<td><p>Delhi</p></td>
+<td><p>Déli</p></td>
 <td><p>DEL-GW</p></td>
 </tr>
 <tr class="even">
@@ -137,13 +137,13 @@ A tabela a seguir representa os sistemas ilustrados neste ambiente de exemplo.
 </tr>
 <tr class="odd">
 <td><p>PBX 1</p></td>
-<td><p>Delhi</p></td>
+<td><p>Déli</p></td>
 <td><p>DEL-PBX</p></td>
 </tr>
 <tr class="even">
 <td><p>PBX 2</p></td>
 <td><p>Hyderabad</p></td>
-<td><p>RED-PBX</p></td>
+<td><p>PBX VERMELHA</p></td>
 </tr>
 </tbody>
 </table>
@@ -166,7 +166,7 @@ A tabela a seguir representa os sistemas ilustrados neste ambiente de exemplo.
 ## <a name="see-also"></a>Confira também
 
 
-[Implantação de recursos avançados do Enterprise Voice no Lync Server 2013](lync-server-2013-deploying-advanced-enterprise-voice-features.md)  
+[Implantando recursos avançados do Enterprise Voice no Lync Server 2013](lync-server-2013-deploying-advanced-enterprise-voice-features.md)  
   
 
 </div>

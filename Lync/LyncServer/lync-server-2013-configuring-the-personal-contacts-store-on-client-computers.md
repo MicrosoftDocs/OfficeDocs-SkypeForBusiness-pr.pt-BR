@@ -12,20 +12,20 @@ ms:contentKeyID: 49733857
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 77e6e48593bb3dc7a11375b13346ad59b2f40c0e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5672619302e169db5e89281323eec4b5d8312c06
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734621"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030004"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-the-personal-contacts-store-on-client-computers-for-lync-server-2013"></a>Configurando o repositório de contatos pessoais em computadores cliente para o Lync Server 2013
+# <a name="configuring-the-personal-contacts-store-on-client-computers-for-lync-server-2013"></a>Configurando o repositório de contatos pessoais em computadores clientes para o Lync Server 2013
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41734621"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2014-02-05_
+_**Última modificação do tópico:** 2014-02-05_
 
-Se você estiver integrando o Microsoft Lync Server 2013 e o Microsoft Exchange Server 2013, recomendamos que você configure o repositório de contatos pessoais em qualquer computador cliente que esteja executando o Microsoft Lync 2010. Em particular, você deve configurar o Lync para usar o Exchange como o repositório de contatos pessoais e, ao mesmo tempo, certificar-se de que os usuários não podem substituir essa decisão. Isso pode ser feito com a criação e configuração de um valor de Registro em cada computador cliente.
+Se você estiver integrando o Microsoft Lync Server 2013 e o Microsoft Exchange Server 2013, recomendamos que você configure o repositório de contatos pessoais em qualquer computador cliente executando o Microsoft Lync 2010. Em particular, você deve configurar o Lync para usar o Exchange como o repositório de contatos pessoais e, ao mesmo tempo, garantir que os usuários não possam substituir essa decisão. Isso pode ser feito criando e configurando um valor de registro em cada computador cliente.
 
 Observe que isso não é necessário em computadores que executam o Lync 2013.
 
 Para configurar esse valor em um único computador, execute os seguinte procedimento:
 
-1.  No computador do cliente, clique em **Iniciar**, e então clique em **Executar**.
+1.  No computador cliente, clique em **Iniciar** e em **executar**.
 
-2.  Na caixa de diálogo **Executar**, digite regedit e depois pressione ENTER.
+2.  Na caixa de diálogo **executar** , digite regedit e pressione Enter.
 
-3.  No editor do registro, expanda **HKEY\_local\_Machine**, expanda **software**, expanda **políticas**, expanda Microsoft e, em seguida, expanda **o** **Communicator**.
+3.  No editor do registro, expanda **\_hKey local\_Machine**, expanda **software**, expanda **Policies**, expanda **Microsoft**e, em seguida, expanda **Communicator**.
 
-4.  Clique com o botão direito do mouse em **Communicator**, aponte para **Novo** e clique no **Valor DWORD (32 bits)**.
+4.  Clique com o botão direito do mouse em **Communicator**, aponte para **novo**e clique em **valor DWORD (32 bits)**.
 
-5.  Depois do novo valor ser criado, digite **PersonalContactStoreOverride** e pressione ENTER para renomear o valor.
+5.  Depois que o novo valor for criado, digite **PersonalContactStoreOverride** e pressione ENTER para renomear o valor.
 
 6.  Verifique se o valor de PersonalContactStoreOverride está definido para 0 e feche o Editor do Registro.
 

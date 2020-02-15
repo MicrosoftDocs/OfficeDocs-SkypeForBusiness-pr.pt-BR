@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Novos recursos de controle de acesso baseado em função'
+title: O Lync Server 2013 tem novos recursos de controle de acesso baseado em função
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183616
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3dbabc4ca6a471924c6ac76346ad7d59442690db
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0923cdeecd1109e7d900ce0e3d2b947b328ee5a9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727791"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030284"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,22 +35,22 @@ ms.locfileid: "41727791"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-20_
+_**Última modificação do tópico:** 2012-09-20_
 
-O Lync Server 2013 aprimora o recurso controle de acesso baseado em função (RBAC) de duas maneiras principais. Agora você pode criar funções personalizadas, cada qual tem privilégios para apenas um conjunto de cmdlets especificado. Essas funções personalizadas também podem ser concedidas ao privilégio para executar scripts de cmdlets.
+O Lync Server 2013 aprimora o recurso RBAC (controle de acesso baseado em função) de duas maneiras principais. Agora você pode criar funções personalizadas, que têm privilégios para apenas um conjunto de cmdlets que você especificar. Essas funções personalizadas também podem receber privilégios para executar scripts de cmdlets.
 
 Além disso, o Lync Server 2013 inclui duas novas funções predefinidas.
 
-  - Os usuários que receberam a função *gerente de grupo de resposta* podem gerenciar filas de grupo de resposta específicas em sua organização, mas não precisam necessariamente ter direitos de gerenciamento para outras filas ou o aplicativo grupo de resposta como um todo.
+  - Os usuários com a função *gerente de grupo de resposta* podem gerenciar filas de grupo de resposta específicas em sua organização, mas não necessariamente têm direitos de gerenciamento para outras filas ou o aplicativo de grupo de resposta como um todo.
 
-  - Os usuários que receberam a função de *Gerenciador de chat persistente* podem gerenciar salas de chat persistentes específicas em sua organização, mas não precisam necessariamente ter direitos de gerenciamento para outras salas ou o recurso de chat persistente como um todo.
+  - Os usuários com a função de *Gerenciador de chat persistente* podem gerenciar salas de chat persistentes específicas em sua organização, mas não necessariamente têm direitos de gerenciamento para outras salas ou o recurso de chat persistente como um todo.
 
 <div>
 
 ## <a name="see-also"></a>Confira também
 
 
-[Planejamento de controle de acesso baseado em função no Lync Server 2013](lync-server-2013-planning-for-role-based-access-control.md)  
+[Planejando o controle de acesso baseado em função no Lync Server 2013](lync-server-2013-planning-for-role-based-access-control.md)  
   
 
 </div>

@@ -12,16 +12,16 @@ ms:contentKeyID: 48183281
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 58f7242ee62bb7f9796b1f8445d49dc5efd32c06
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 06f4968e9897b63c4819be0b403b3d0d2a0c2136
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738431"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029292"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,13 +35,13 @@ ms.locfileid: "41738431"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-04_
+_**Última modificação do tópico:** 2012-10-04_
 
-Os cmdlets de arquivamento e monitoramento permitem que os administradores gerenciem o arquivamento de mensagens instantâneas e sessões de conferência; para registrar informações de detalhes da chamada; e monitorar o Microsoft Lync Server 2013 usando a QoE (Quality of Experience).
+Os cmdlets de arquivamento e monitoramento permitem que os administradores gerenciem a mensagem instantânea e o arquivamento da sessão de conferência; para registrar informações de detalhes da chamada; e monitorar o Microsoft Lync Server 2013 usando o QoE (qualidade da experiência).
 
 
 > [!NOTE]
-> Para obter informações adicionais sobre cmdlets, consulte o blog&nbsp;do Lync Server do <A href="http://go.microsoft.com/fwlink/p/?linkid=263432">http://go.microsoft.com/fwlink/p/?linkId=263432</A>Windows PowerShell em. O conteúdo de cada blog e sua URL estão sujeitos a alterações sem aviso prévio.
+> Para obter informações adicionais sobre cmdlets, consulte o blog&nbsp;do Lync Server Windows <A href="http://go.microsoft.com/fwlink/p/?linkid=263432">http://go.microsoft.com/fwlink/p/?linkId=263432</A>PowerShell em. O conteúdo de cada blog e sua URL estão sujeitos a alterações sem aviso prévio.
 
 
 
@@ -49,143 +49,143 @@ Os cmdlets de arquivamento e monitoramento permitem que os administradores geren
 
 ## <a name="archiving-and-monitoring-cmdlets"></a>Cmdlets de arquivamento e monitoramento
 
-Veja a seguir uma lista de cmdlets relacionados diretamente ao gerenciamento de arquivamento e monitoramento:
+A seguir, encontra-se uma lista de cmdlets relacionados diretamente ao gerenciamento de arquivamento e monitoramento:
 
-**Arquivamento e monitoramento**
-
-  - <span></span>  
-    [Get-CsArchivingConfiguration](https://technet.microsoft.com/en-us/library/Gg399012(v=OCS.15))
+**Arquivamento e Monitoramento**
 
   - <span></span>  
-    [New-CsArchivingConfiguration](https://technet.microsoft.com/en-us/library/Gg398471(v=OCS.15))
+    [Get-CsArchivingConfiguration](https://technet.microsoft.com/library/Gg399012(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsArchivingConfiguration](https://technet.microsoft.com/en-us/library/Gg398951(v=OCS.15))
+    [New-CsArchivingConfiguration](https://technet.microsoft.com/library/Gg398471(v=OCS.15))
 
   - <span></span>  
-    [Set-CsArchivingConfiguration](https://technet.microsoft.com/en-us/library/Gg413030(v=OCS.15))
+    [Remove-CsArchivingConfiguration](https://technet.microsoft.com/library/Gg398951(v=OCS.15))
+
+  - <span></span>  
+    [Set-CsArchivingConfiguration](https://technet.microsoft.com/library/Gg413030(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Export-CsArchivingData](https://technet.microsoft.com/en-us/library/Gg398452(v=OCS.15))
+    [Export-CsArchivingData](https://technet.microsoft.com/library/Gg398452(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Invoke-CsArchivingDatabasePurge](https://technet.microsoft.com/en-us/library/JJ204627(v=OCS.15))
+    [Invoke-CsArchivingDatabasePurge](https://technet.microsoft.com/library/JJ204627(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsArchivingPolicy](https://technet.microsoft.com/en-us/library/Gg425731(v=OCS.15))
+    [Get-CsArchivingPolicy](https://technet.microsoft.com/library/Gg425731(v=OCS.15))
 
   - <span></span>  
-    [Grant CsArchivingPolicy](https://technet.microsoft.com/en-us/library/Gg398475(v=OCS.15))
+    [Grant-CsArchivingPolicy](https://technet.microsoft.com/library/Gg398475(v=OCS.15))
 
   - <span></span>  
-    [New-CsArchivingPolicy](https://technet.microsoft.com/en-us/library/Gg399032(v=OCS.15))
+    [New-CsArchivingPolicy](https://technet.microsoft.com/library/Gg399032(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsArchivingPolicy](https://technet.microsoft.com/en-us/library/Gg425924(v=OCS.15))
+    [Remove-CsArchivingPolicy](https://technet.microsoft.com/library/Gg425924(v=OCS.15))
 
   - <span></span>  
-    [Set-CsArchivingPolicy](https://technet.microsoft.com/en-us/library/Gg398294(v=OCS.15))
+    [Set-CsArchivingPolicy](https://technet.microsoft.com/library/Gg398294(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Set-CsArchivingServer](https://technet.microsoft.com/en-us/library/Gg398923(v=OCS.15))
+    [Set-CsArchivingServer](https://technet.microsoft.com/library/Gg398923(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsCdrConfiguration](https://technet.microsoft.com/en-us/library/Gg398298(v=OCS.15))
+    [Get-CsCdrConfiguration](https://technet.microsoft.com/library/Gg398298(v=OCS.15))
 
   - <span></span>  
-    [New-CsCdrConfiguration](https://technet.microsoft.com/en-us/library/Gg399018(v=OCS.15))
+    [New-CsCdrConfiguration](https://technet.microsoft.com/library/Gg399018(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsCdrConfiguration](https://technet.microsoft.com/en-us/library/Gg398451(v=OCS.15))
+    [Remove-CsCdrConfiguration](https://technet.microsoft.com/library/Gg398451(v=OCS.15))
 
   - <span></span>  
-    [Set-CsCdrConfiguration](https://technet.microsoft.com/en-us/library/Gg398774(v=OCS.15))
+    [Set-CsCdrConfiguration](https://technet.microsoft.com/library/Gg398774(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Set-CsMonitoringServer](https://technet.microsoft.com/en-us/library/Gg425776(v=OCS.15))
+    [Set-CsMonitoringServer](https://technet.microsoft.com/library/Gg425776(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsQoEConfiguration](https://technet.microsoft.com/en-us/library/Gg399004(v=OCS.15))
+    [Get-CsQoEConfiguration](https://technet.microsoft.com/library/Gg399004(v=OCS.15))
 
   - <span></span>  
-    [New-CsQoEConfiguration](https://technet.microsoft.com/en-us/library/Gg398325(v=OCS.15))
+    [New-CsQoEConfiguration](https://technet.microsoft.com/library/Gg398325(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsQoEConfiguration](https://technet.microsoft.com/en-us/library/Gg425879(v=OCS.15))
+    [Remove-CsQoEConfiguration](https://technet.microsoft.com/library/Gg425879(v=OCS.15))
 
   - <span></span>  
-    [Set-CsQoEConfiguration](https://technet.microsoft.com/en-us/library/Gg398245(v=OCS.15))
+    [Set-CsQoEConfiguration](https://technet.microsoft.com/library/Gg398245(v=OCS.15))
 
-[Invoke-CsCdrDatabasePurge](https://technet.microsoft.com/en-us/library/JJ205113(v=OCS.15))
+[Invoke-CsCdrDatabasePurge](https://technet.microsoft.com/library/JJ205113(v=OCS.15))
 
   - <span></span>  
-    [Export-CsArchivingData](https://technet.microsoft.com/en-us/library/Gg398452(v=OCS.15))
+    [Export-CsArchivingData](https://technet.microsoft.com/library/Gg398452(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Invoke-CsQoEDatabasePurge](https://technet.microsoft.com/en-us/library/JJ205247(v=OCS.15))
+    [Invoke-CsQoEDatabasePurge](https://technet.microsoft.com/library/JJ205247(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsReportingConfiguration](https://technet.microsoft.com/en-us/library/JJ205356(v=OCS.15))
+    [Get-CsReportingConfiguration](https://technet.microsoft.com/library/JJ205356(v=OCS.15))
 
   - <span></span>  
-    [New-CsReportingConfiguration](https://technet.microsoft.com/en-us/library/JJ204787(v=OCS.15))
+    [New-CsReportingConfiguration](https://technet.microsoft.com/library/JJ204787(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsReportingConfiguration](https://technet.microsoft.com/en-us/library/JJ204711(v=OCS.15))
+    [Remove-CsReportingConfiguration](https://technet.microsoft.com/library/JJ204711(v=OCS.15))
 
   - <span></span>  
-    [Set-CsReportingConfiguration](https://technet.microsoft.com/en-us/library/JJ205075(v=OCS.15))
+    [Set-CsReportingConfiguration](https://technet.microsoft.com/library/JJ205075(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsTestUserCredential](https://technet.microsoft.com/en-us/library/JJ204759(v=OCS.15))
+    [Get-CsTestUserCredential](https://technet.microsoft.com/library/JJ204759(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsTestUserCredential](https://technet.microsoft.com/en-us/library/JJ204870(v=OCS.15))
+    [Remove-CsTestUserCredential](https://technet.microsoft.com/library/JJ204870(v=OCS.15))
 
   - <span></span>  
-    [Set-CsTestUserCredential](https://technet.microsoft.com/en-us/library/JJ205341(v=OCS.15))
+    [Set-CsTestUserCredential](https://technet.microsoft.com/library/JJ205341(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsWatcherNodeConfiguration](https://technet.microsoft.com/en-us/library/JJ204739(v=OCS.15))
+    [Get-CsWatcherNodeConfiguration](https://technet.microsoft.com/library/JJ204739(v=OCS.15))
 
   - <span></span>  
-    [New-CsWatcherNodeConfiguration](https://technet.microsoft.com/en-us/library/JJ205254(v=OCS.15))
+    [New-CsWatcherNodeConfiguration](https://technet.microsoft.com/library/JJ205254(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsWatcherNodeConfiguration](https://technet.microsoft.com/en-us/library/JJ204926(v=OCS.15))
+    [Remove-CsWatcherNodeConfiguration](https://technet.microsoft.com/library/JJ204926(v=OCS.15))
 
   - <span></span>  
-    [Set-CsWatcherNodeConfiguration](https://technet.microsoft.com/en-us/library/JJ204620(v=OCS.15))
+    [Set-CsWatcherNodeConfiguration](https://technet.microsoft.com/library/JJ204620(v=OCS.15))
 
   - <span></span>  
-    [Test-CsWatcherNodeConfiguration](https://technet.microsoft.com/en-us/library/JJ204652(v=OCS.15))
+    [Test-CsWatcherNodeConfiguration](https://technet.microsoft.com/library/JJ204652(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [New-CsExtendedTest](https://technet.microsoft.com/en-us/library/JJ205275(v=OCS.15))
+    [New-CsExtendedTest](https://technet.microsoft.com/library/JJ205275(v=OCS.15))
 
 </div>
 

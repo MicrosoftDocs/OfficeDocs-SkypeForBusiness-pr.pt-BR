@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Recursos de gerenciamento de chamada para recuperação de desastre'
+title: Lync Server 2013 recursos de gerenciamento de chamada para recuperação de desastre
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 49733871
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c276c8dac153ebd2ba08c55d8444bcc746287ffc
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4126f35850aeae6bd2d0bbd8f678e9f082a13355
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742991"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028962"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41742991"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-21_
+_**Última modificação do tópico:** 2012-09-21_
 
-Os tópicos a seguir contêm informações sobre alta disponibilidade e recursos de recuperação de desastre para os recursos de gerenciamento de chamadas no Lync Server.
+Os tópicos a seguir contêm informações sobre recursos de alta disponibilidade e recuperação de desastres para os recursos de gerenciamento de chamadas no Lync Server.
 
 <div>
 
@@ -45,7 +45,7 @@ Os tópicos a seguir contêm informações sobre alta disponibilidade e recursos
 
   - [Gerenciando grupos de resposta no Lync Server 2013 durante um desastre](lync-server-2013-managing-response-groups-during-a-disaster.md)
 
-  - [Gerenciar Estacionamento de Chamadas durante recuperação de desastre no Lync Server 2013](lync-server-2013-manage-call-park-during-disaster-recovery.md)
+  - [Gerenciar estacionamento de chamadas durante recuperação de desastre no Lync Server 2013](lync-server-2013-manage-call-park-during-disaster-recovery.md)
 
   - [Gerenciar comunicados durante recuperação de desastre no Lync Server 2013](lync-server-2013-manage-announcements-during-disaster-recovery.md)
 
@@ -56,7 +56,7 @@ Os tópicos a seguir contêm informações sobre alta disponibilidade e recursos
 ## <a name="see-also"></a>Confira também
 
 
-[Gerenciando recuperação de desastre, alta disponibilidade e Serviço de Backup do Lync Server 2013](lync-server-2013-managing-lync-server-disaster-recovery-high-availability-and-backup-service.md)  
+[Gerenciando recuperação de desastre, alta disponibilidade e serviço de backup do Lync Server 2013](lync-server-2013-managing-lync-server-disaster-recovery-high-availability-and-backup-service.md)  
   
 
 </div>

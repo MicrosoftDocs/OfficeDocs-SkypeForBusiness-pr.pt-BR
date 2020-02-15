@@ -12,16 +12,16 @@ ms:contentKeyID: 48183513
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a0fc42a3151b5863885fdb3853ea529503e18a6b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: be10514a933cb6a311d115fbbb011398f2758ef9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731541"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42025572"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41731541"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-12_
+_**Última modificação do tópico:** 2012-09-12_
 
-tblLastChatId contém a última ID de chat que foi gerada (e usada na tabela tblChat) para cada usuário.
+tblLastChatId inclui a última ID de chat que foi gerada (e usada na tabela tblChat) para cada usuário.
 
 ### <a name="columns"></a>Colunas
 
@@ -56,20 +56,20 @@ tblLastChatId contém a última ID de chat que foi gerada (e usada na tabela tbl
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>NodeId</p></td>
+<td><p>nodeID</p></td>
 <td><p>int, não nulo</p></td>
-<td><p>ID do nó (somente sala de chat-tipo).</p></td>
+<td><p>ID de nó (apenas para tipo de sala de chat).</p></td>
 </tr>
 <tr class="even">
 <td><p>lastChatID</p></td>
-<td><p>bigint, e não nulo</p></td>
-<td><p>ID do Chat usado pela última vez.</p></td>
+<td><p>bigint, não nulo</p></td>
+<td><p>Último ID de chat usado.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="keys"></a>As
+### <a name="keys"></a>Chaves
 
 <table>
 <colgroup>
@@ -85,11 +85,11 @@ tblLastChatId contém a última ID de chat que foi gerada (e usada na tabela tbl
 <tbody>
 <tr class="odd">
 <td><p>&lt;NodeId, lastChatID&gt;</p></td>
-<td><p>Chave primária (apenas NodeId é suficiente para processamento).</p></td>
+<td><p>Chave primária (apenas o nodeID é suficiente para o processamento).</p></td>
 </tr>
 <tr class="even">
-<td><p>NodeId</p></td>
-<td><p>Chave estrangeira com Lookup na tabela tblNode. NodeId.</p></td>
+<td><p>nodeID</p></td>
+<td><p>Chave estrangeira com pesquisa na tabela tblNode.nodeID.</p></td>
 </tr>
 </tbody>
 </table>

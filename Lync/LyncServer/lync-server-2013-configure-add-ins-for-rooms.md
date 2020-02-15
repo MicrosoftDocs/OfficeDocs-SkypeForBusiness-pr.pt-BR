@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Configurar suplementos para salas'
+title: 'Lync Server 2013: configurar suplementos para salas'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184090
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8389f72394be26057eb12560c054bd5292b528f1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 40a9e7a2c947d18e8359e2199ec8c3e40e00ed98
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757855"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028772"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41757855"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-02-21_
+_**Última modificação do tópico:** 2013-02-21_
 
-No painel de controle do Lync Server 2013, você pode usar a seção de **suplemento** da página de **chat persistente** para associar URLs a salas de chat persistentes. Essas URLs aparecem no cliente do Lync 2013 na sala de chat no painel de extensibilidade de conversa. Um administrador deve adicionar suplementos à lista de suplementos registrados e os gerentes/autores da sala de chat devem associar salas a um dos suplementos registrados antes que os usuários possam ver essa atualização em seu cliente Lync 2013.
+No painel de controle do Lync Server 2013, você pode usar a seção **suplemento** da página **chat persistente** para associar URLs a salas de chat persistente. Essas URLs aparecem no cliente do Lync 2013 na sala de chat no painel de extensibilidade de conversa. Um administrador deve adicionar suplementos à lista de suplementos registrados e os gerentes/salas de sala de bate-papo precisam associar salas a um dos suplementos registrados antes que os usuários possam ver essa atualização em seu cliente Lync 2013.
 
-Os suplementos são usados para estender a experiência na sala. Um suplemento típico pode incluir uma URL apontando para um aplicativo do Silverlight que intercepta quando um marcador de ação é publicado em uma sala de chat e mostra o histórico de ações no painel extensibilidade. Outros exemplos incluem a URL do OneNote 2013 na sala de chat como um suplemento para incluir algum contexto compartilhado, como o "Mais lembrado" ou "Assunto do dia".
+Os suplementos são usados para estender a experiência na sala. Um suplemento típico pode incluir uma URL que aponta para um aplicativo do Silverlight que intercepta quando uma cotação de ações é lançada em uma sala de chat e mostra o histórico de ações no painel extensibilidade. Outros exemplos incluem o URL do OneNote 2013 na sala de chat como um suplemento para incluir algum contexto compartilhado, como o "Mais lembrado" ou "Assunto do dia."
 
 <div>
 
@@ -47,30 +47,30 @@ Os suplementos são usados para estender a experiência na sala. Um suplemento t
 
 1.  A partir de uma conta de usuário com a função CsPersistentChatAdministrator ou CsAdministrator atribuída, faça o logon em qualquer computador na sua implementação interna.
 
-2.  No menu **Iniciar** , selecione o painel de controle do Lync Server ou abra uma janela do navegador e, em seguida, insira a URL de administração. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [abrir ferramentas administrativas do Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  No menu **Iniciar** , selecione o painel de controle do Lync Server ou abra uma janela do navegador e insira a URL do administrador. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
     
     <div>
     
 
     > [!IMPORTANT]  
-    > Você também pode usar cmdlets do Windows PowerShell. Para obter detalhes, consulte <A href="configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md">Configurando o servidor de chat persistente usando cmdlets do Windows PowerShell</A> na documentação de implantação.
+    > Você também pode usar os cmdlets do Windows PowerShell. Para obter detalhes, consulte <A href="configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md">Configurando o servidor de chat persistente usando cmdlets do Windows PowerShell</A> na documentação de implantação.
 
     
     </div>
 
-3.  Na barra de navegação esquerda, clique em **Chat Persistente** e depois em **Suplemento**.
+3.  Na barra de navegação esquerda, clique em **Chat Persistente** e clique em **Suplemento**.
     
     Para várias implantações de pool do servidor de chat persistente, selecione o pool apropriado na lista suspensa.
 
-4.  Na página  **Suplementos**, clique em **Novo**.
+4.  Na página **Suplementos**, clique em **Novo**.
 
-5.  Em **selecionar um serviço**, selecione o serviço correspondente ao pool de servidores de chat persistente em que você precisa criar o suplemento. Suplementos não podem ser movidos de um pool a outro nem compartilhado entre pools diferentes.
+5.  Em **selecionar um serviço**, selecione o serviço correspondente ao pool do servidor de chat persistente onde você precisa criar o suplemento. Os suplementos não podem ser movidos de um pool para outro ou compartilhado entre pools diferentes.
 
 6.  Em **Suplementos novos**, faça o seguinte:
     
       - Em **Nome**, especifique um nome para o novo suplemento.
     
-      - Em **URL**, especifique a URL que deve ser associada ao suplemento. As URLs são limitadas aos protocolos http e https.
+      - Em **URL**, especifique o  URL que deve ser associada ao suplemento. Os URLs são limitados aos protocolos http e https.
 
 7.  Clique em **Confirmar**.
 
@@ -81,10 +81,10 @@ Os suplementos são usados para estender a experiência na sala. Um suplemento t
 ## <a name="see-also"></a>Confira também
 
 
-[Abrir ferramentas administrativas do Lync Server 2013](lync-server-2013-open-lync-server-administrative-tools.md)  
+[Abrir as ferramentas administrativas do Lync Server 2013](lync-server-2013-open-lync-server-administrative-tools.md)  
 
 
-[Configurando Servidor de Chat Persistente usando cmdlets do Windows PowerShell](configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md)  
+[Configurando o servidor de chat persistente usando cmdlets do Windows PowerShell](configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md)  
   
 
 </div>

@@ -12,16 +12,16 @@ ms:contentKeyID: 48184800
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 00f45a7da053dd6dc150ae99e93b780117ba01e1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6e47225ae9effb4adfb4e312769a79d5f8b59f53
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758593"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030464"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,63 +35,63 @@ ms.locfileid: "41758593"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-02-18_
+_**Última modificação do tópico:** 2013-02-18_
 
-O gerenciamento do Enterprise Voice inclui a configuração de itens como políticas de voz e de discagem e Associação de políticas de voz com rotas de voz. Cmdlets relacionados ao gerenciamento de políticas de voz podem ser usados para definir recursos como o toque simultâneo (a capacidade de ter um segundo toque de telefone cada vez que alguém ligar para o telefone comercial), encaminhamento de chamadas e requisito de discagem.
+O gerenciamento do Enterprise Voice inclui a configuração de itens como políticas de voz e planos de discagem, além da associação de políticas de voz a rotas de voz. Os cmdlets relacionados ao gerenciamento de políticas de voz podem ser usados para definir recursos como o toque simultâneo (a capacidade de ter um segundo telefone tocando sempre que alguém ligar para o telefone do seu escritório), encaminhamento de chamada e requisito de discagem.
 
 <div>
 
-## <a name="voice-policy-cmdlets"></a>Cmdlets de política de voz
+## <a name="voice-policy-cmdlets"></a>Cmdlets de Política de Voz
 
-Os cmdlets a seguir podem ser usados para gerenciar as políticas de voz e os planos de discagem do Enterprise Voice.
+Os cmdlets a seguir podem ser usados para gerenciar políticas de voz e planos de discagem para o Enterprise Voice.
 
-**Política de voz 1**
-
-  - <span></span>  
-    [Get-CsDialPlan](https://technet.microsoft.com/en-us/library/Gg413043(v=OCS.15))
+**Política de Voz**
 
   - <span></span>  
-    [Grant-CsDialPlan](https://technet.microsoft.com/en-us/library/Gg398547(v=OCS.15))
+    [Get-CsDialPlan](https://technet.microsoft.com/library/Gg413043(v=OCS.15))
 
   - <span></span>  
-    [New-CsDialPlan](https://technet.microsoft.com/en-us/library/Gg425860(v=OCS.15))
+    [Grant-CsDialPlan](https://technet.microsoft.com/library/Gg398547(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsDialPlan](https://technet.microsoft.com/en-us/library/Gg398791(v=OCS.15))
+    [New-CsDialPlan](https://technet.microsoft.com/library/Gg425860(v=OCS.15))
 
   - <span></span>  
-    [Set-CsDialPlan](https://technet.microsoft.com/en-us/library/Gg398644(v=OCS.15))
+    [Remove-CsDialPlan](https://technet.microsoft.com/library/Gg398791(v=OCS.15))
 
   - <span></span>  
-    [Test-CsDialPlan](https://technet.microsoft.com/en-us/library/Gg399024(v=OCS.15))
+    [Set-CsDialPlan](https://technet.microsoft.com/library/Gg398644(v=OCS.15))
+
+  - <span></span>  
+    [Test-CsDialPlan](https://technet.microsoft.com/library/Gg399024(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsPstnUsage](https://technet.microsoft.com/en-us/library/Gg412734(v=OCS.15))
+    [Get-CsPstnUsage](https://technet.microsoft.com/library/Gg412734(v=OCS.15))
 
   - <span></span>  
-    [Set-CsPstnUsage](https://technet.microsoft.com/en-us/library/Gg399069(v=OCS.15))
+    [Set-CsPstnUsage](https://technet.microsoft.com/library/Gg399069(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsVoicePolicy](https://technet.microsoft.com/en-us/library/Gg398101(v=OCS.15))
+    [Get-CsVoicePolicy](https://technet.microsoft.com/library/Gg398101(v=OCS.15))
 
   - <span></span>  
-    [Grant CsVoicePolicy](https://technet.microsoft.com/en-us/library/Gg398828(v=OCS.15))
+    [Grant-CsVoicePolicy](https://technet.microsoft.com/library/Gg398828(v=OCS.15))
 
   - <span></span>  
-    [New-CsVoicePolicy](https://technet.microsoft.com/en-us/library/Gg425856(v=OCS.15))
+    [New-CsVoicePolicy](https://technet.microsoft.com/library/Gg425856(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsVoicePolicy](https://technet.microsoft.com/en-us/library/Gg398309(v=OCS.15))
+    [Remove-CsVoicePolicy](https://technet.microsoft.com/library/Gg398309(v=OCS.15))
 
   - <span></span>  
-    [Set-CsVoicePolicy](https://technet.microsoft.com/en-us/library/Gg399021(v=OCS.15))
+    [Set-CsVoicePolicy](https://technet.microsoft.com/library/Gg399021(v=OCS.15))
 
   - <span></span>  
-    [Test-CsVoicePolicy](https://technet.microsoft.com/en-us/library/Gg398310(v=OCS.15))
+    [Test-CsVoicePolicy](https://technet.microsoft.com/library/Gg398310(v=OCS.15))
 
 </div>
 

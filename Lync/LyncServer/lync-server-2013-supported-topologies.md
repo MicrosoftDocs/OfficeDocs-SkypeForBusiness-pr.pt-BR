@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Topologias suportadas'
+title: As topologias do Lync Server 2013 suportadas
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183832
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0f200cde348d1fbdc931daa25abef28aec804a1b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d2a74be867305f3e42d1e9e303baedbddd22f485
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764307"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029762"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="supported-topologies-in-lync-server-2013"></a>Topologias suportadas no Lync Server 2013
+# <a name="supported-topologies-in-lync-server-2013"></a>Topologias com suporte no Lync Server 2013
 
 </div>
 
@@ -35,38 +35,38 @@ ms.locfileid: "41764307"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2014-01-14_
+_**Última modificação do tópico:** 2014-01-14_
 
-O Lync Server 2013 dá suporte à implantação de sites locais em uma organização e à integração de implantações locais com implantações do Lync Online, que é conhecida como uma implantação híbrida. Em uma implantação híbrida, alguns usuários são hospedados localmente e alguns usuários são hospedados online.
+O Lync Server 2013 oferece suporte à implantação de sites no local em uma organização e à integração de implantações locais com implantações do Lync Online, que é conhecido como implantação híbrida. Em uma implantação híbrida, alguns usuários são hospedados no local e outros, online.
 
-Para implantações locais, o Lync Server 2013 é compatível com a implantação de um ou mais sites que podem ser dimensionados para atender aos requisitos de alta disponibilidade e local. Você pode estruturar esses sites e seus componentes para atender aos requisitos de acesso e adaptabilidade da sua organização.
+Para implantações locais, o Lync Server 2013 oferece suporte à implantação de um ou mais sites que podem ser dimensionados para atender aos requisitos de alta disponibilidade e local. É possível estruturar esses sites e seus componentes para atender aos requisitos de acesso e resiliência de sua organização.
 
 Uma implantação local do Lync Server 2013 consiste no seguinte:
 
-  - Sua implantação deve incluir pelo menos um site central (também conhecido como um Data Center). Cada site central deve conter pelo menos um pool de front-end do Enterprise Edition ou um servidor Standard Edition. Eles consistem nos seguintes:
+  - A implantação deve conter pelo menos um site central (também conhecido como data center). Cada site central deve conter pelo menos um pool de Front-Ends Enterprise Edition ou servidor Standard Edition. Isso consiste no seguinte:
     
-      - Pool de front-end do Enterprise Edition, que consiste em um ou mais servidores front-end (geralmente, pelo menos dois servidores front-end para escalabilidade) e um servidor back-end separado. Um pool de front-ends pode conter no máximo doze servidores front end. O balanceamento de carga é necessário para vários servidores front-end. Para o tráfego SIP, recomendamos o balanceamento de carga de DNS, mas também há suporte para o balanceamento de carga de hardware. Se você usar o balanceamento de carga de DNS para o tráfego SIP, ainda precisará de um balanceador de carga de hardware para tráfego HTTP. Recomendamos o espelhamento do SQL Server para alta disponibilidade de bancos de dados. O banco de dados back-end requer uma instância separada, mas você pode posicionar o banco de dados de arquivamento, o banco de dados de monitoramento, o banco de dados de chat persistente e o banco de dados de conformidade de chat persistente O Lync Server 2013 oferece suporte ao uso de um cluster compartilhado para os compartilhamentos de arquivos na sua implantação. Para obter detalhes sobre requisitos de armazenamento de banco de dados, consulte [suporte a software de banco de dados no Lync Server 2013](lync-server-2013-database-software-support.md). Para obter detalhes sobre requisitos de armazenamento de arquivos, consulte [suporte ao armazenamento de arquivos no Lync Server 2013](lync-server-2013-file-storage-support.md).
+      - O pool de Front-Ends Enterprise Edition, que consiste em um ou mais servidores de Front-End  (normalmente, pelo menos dois servidores de Front-End para dimensionamento) e um servidor de Back-End separado. Um pool de front-ends pode conter no máximo doze servidores front-end. O balanceamento de carga é exigido para servidores de Front-End. Para o tráfego SIP, é recomendável o balanceamento de carga DNS, mas o balanceamento de carga de hardware também é suportado. Se usar o balanceamento de carga DNS para o tráfego SIP, você ainda precisará de um balanceador de carga de hardware para o tráfego HTTP. Recomendamos o espelhamento do SQL Server para alta disponibilidade de bancos de dados. O banco de dados de back-end exige uma instância separada, mas você pode colocar o banco de dados de arquivamento, de monitoramento, de chat persistente e de conformidade do chat persistente com ele. O Lync Server 2013 suporta o uso de um cluster compartilhado para os compartilhamentos de arquivos em sua implantação. Para obter detalhes sobre os requisitos de armazenamento de banco de dados, consulte [Database software support in Lync Server 2013](lync-server-2013-database-software-support.md). Para obter detalhes sobre os requisitos de armazenamento de arquivos, consulte [File Storage support in Lync Server 2013](lync-server-2013-file-storage-support.md).
         
         <div>
         
 
         > [!IMPORTANT]  
-        > Se você posicionar bancos de dados do Lync Server, é altamente recomendável avaliar todos os fatores que podem afetar a disponibilidade e o desempenho. Para verificar as capacidades de failover, recomendamos o teste de todos os cenários de failover.
+        > Se você colocar os bancos de dados do Lync Server, é altamente recomendável avaliar todos os fatores que podem afetar a disponibilidade e o desempenho. Para verificar os recursos de failover, é recomendável testar todos os cenários de failover.
 
         
         </div>
     
-      - Standard Edition Server, que inclui um banco de dados do SQL Server Express posicionado.
+      - Servidor Standard Edition que inclui um banco de dados do SQL Server Express colocado.
 
-  - Sua implantação também pode ter um ou mais sites de filiais associados a um site central.
+  - A implantação também pode ter uma ou mais filiais associadas a um site central.
 
-Esta seção descreve os sites e os componentes de uma implantação do Lync Server 2013. Para obter detalhes sobre o site, a topologia e o planejamento de componentes do Lync Server 2013, consulte [noções básicas de topologia que você precisa saber antes de planejar o Lync server 2013](lync-server-2013-topology-basics-you-must-know-before-planning.md) e as [topologias de referência no Lync Server 2013](lync-server-2013-reference-topologies.md) na documentação de planejamento. Para obter detalhes sobre a integração de componentes de versões anteriores, consulte [caminhos de migração e cenários de coexistência suportados no Lync Server 2013](lync-server-2013-supported-migration-paths-and-coexistence-scenarios.md).
+Esta seção descreve os sites e os componentes de uma implantação do Lync Server 2013. Para obter detalhes sobre o site, a topologia e o planejamento de componentes do Lync Server 2013, consulte [noções básicas de topologia que você deve saber antes de planejar o Lync server 2013](lync-server-2013-topology-basics-you-must-know-before-planning.md) e [topologias de referência no Lync Server 2013](lync-server-2013-reference-topologies.md) na documentação de planejamento. Para obter detalhes sobre a integração de componentes de versões anteriores, consulte [supported Migration Paths and coexistência Scenarios in Lync Server 2013](lync-server-2013-supported-migration-paths-and-coexistence-scenarios.md).
 
 <div>
 
 
 > [!NOTE]  
-> Pools ampliados não são compatíveis com as funções de servidor front-end, Edge, Mediation e director.
+> Não há suporte para pools estendidos para as funções de servidor front-end, Edge, mediação e diretor.
 
 
 
@@ -74,29 +74,29 @@ Esta seção descreve os sites e os componentes de uma implantação do Lync Ser
 
 <div>
 
-## <a name="central-site-topologies-and-components-on-premises"></a>Topologias e componentes de sites centrais (local)
+## <a name="central-site-topologies-and-components-on-premises"></a>Topologias e componentes do site central (local)
 
-Embora uma topologia de site central deva incluir um pool de front-end ou um servidor Standard Edition, cada site central também pode conter o seguinte:
+Embora uma topologia de site central deva incluir um pool de Front-Ends ou servidor Standard Edition, cada site central também pode conter o seguinte:
 
-  - Vários pools de front-end, que podem estar no mesmo domínio ou domínios diferentes. No entanto, todos os servidores de front-end em um pool de front-end e o servidor back-end desse pool devem estar no mesmo domínio.
+  - Diversos pools de Front-Ends, que podem estar no mesmo domínio ou em domínios diferentes. No entanto, todos os servidores de Front-End de um pool de Front-Ends e o servidor de Back-End desse pool devem estar no mesmo domínio.
 
-  - Vários servidores Standard Edition.
+  - Diversos Servidores Standard Edition.
 
-  - Office Web Apps Server, que é usado com os aplicativos Web do Office no Lync Server 2013 para manipular o compartilhamento e a renderização de apresentações do Microsoft PowerPoint.
+  - O servidor do Office Web Apps, que é usado com o Office Web Applications no Lync Server 2013 para lidar com o compartilhamento e a renderização de apresentações do Microsoft PowerPoint.
 
-  - Servidor de borda ou o pool de bordas na sua rede de perímetro, se você quiser que a implantação seja compatível com parceiros federados, conectividade de mensagem de chat pública, um gateway de protocolo de presença e mensagens extensível (XMPP), acesso de usuário remoto, participação de usuários anônimos em reuniões, ou UM (a) Unificação de mensagens do Exchange. Você não pode colocar nenhuma outra função de servidor com um servidor de borda. Recomendamos o balanceamento de carga de DNS, quando apropriado, mas também há suporte para o balanceamento de carga de hardware. As interfaces de Borda interna e externa precisam usar o mesmo tipo de balanceamento de carga. Não é possível usar balanceamento de carga DNS em uma interface de Borda e balanceamento de carga de hardware na outra interface de Borda. Para obter detalhes sobre requisitos e suporte de balanceamento de carga, consulte [planejando o acesso de usuários externos no Lync server 2013](lync-server-2013-planning-for-external-user-access.md) na documentação de planejamento e [implantando o acesso de usuários externos no Lync Server 2013](lync-server-2013-deploying-external-user-access.md) na documentação de implantação.
+  - Servidor de borda ou o pool de borda em sua rede de perímetro, se você quiser que sua implantação dê suporte a parceiros federados, conectividade de IM pública, um Gateway XMPP (Extensible Messaging and Presence Protocol), acesso de usuário remoto, participação de usuários anônimos em reuniões, ou UM (Unificação de mensagens) do Exchange. Não é possível colocar nenhuma outra função de servidor com o servidor de borda. É recomendável o balanceamento de carga DNS, quando apropriado, mas o balanceamento de carga de hardware também é suportado. As interfaces de borda interna e externa devem usar o mesmo tipo de balanceamento de carga. Não é possível usar o balanceamento de carga DNS na interface de Borda e o balanceamento de carga de hardware na outra interface de Borda. Para obter detalhes sobre os requisitos de balanceamento de carga e suporte, consulte [Planning for External User Access in Lync server 2013](lync-server-2013-planning-for-external-user-access.md) na documentação de planejamento e [implantação de acesso de usuário externo no Lync Server 2013](lync-server-2013-deploying-external-user-access.md) na documentação de implantação.
 
-  - Servidor de mediação ou pool, se você quiser dar suporte à conferência de voz ou discada em um pool de front-ends no site central. Dependendo de como você implantou o suporte do Enterprise Voice, pode colocar o servidor de mediação em um pool de front-end (o padrão) ou implantar um servidor ou pool autônomo de mediação. Você pode usar o DNS, o hardware ou o balanceamento de carga do aplicativo (quando adequado) para distribuir o tráfego de um peer de gateway do pool do servidor de mediação, incluindo um gateway PSTN, IP-PBX ou controle de borda de sessão de tronco SIP (SBC). Para obter detalhes sobre como planejar a topologia do servidor de mediação apropriada, consulte [diretrizes de implantação do servidor de mediação no Lync server 2013](lync-server-2013-deployment-guidelines-for-mediation-server.md) na documentação de planejamento.
+  - Servidor ou pool de mediação, se você quiser dar suporte à conferência de discagem ou voz corporativa em um pool de front-ends no site central. Dependendo de como você implantou o suporte do Enterprise Voice, pode colocar o servidor de mediação em um pool de front-ends (o padrão) ou implantar um servidor ou pool de mediação autônomo. Você pode usar o balanceamento de carga de aplicativo, de hardware ou de DNS (quando apropriado) para distribuir o tráfego de um ponto de gateway de um pool de servidores de mediação, incluindo um gateway PSTN, IP-PBX ou controle de borda de sessão de tronco SIP (SBC). Para obter detalhes sobre como planejar a topologia do servidor de mediação apropriada, consulte [Deployment Guidelines for Mediation Server in Lync server 2013](lync-server-2013-deployment-guidelines-for-mediation-server.md) na documentação de planejamento.
 
-  - Servidor de chat persistente, se você quiser que os usuários possam participar em conversas com vários participantes, com base em tópicos que persistem ao longo do tempo. Para fornecer mais capacidade e maior confiabilidade, a topologia pode incluir vários computadores que executam o servidor de chat persistente. Você não pode colocar o servidor de chat persistente com outras funções de servidor em um pool de empresas. No entanto, você pode colocar o servidor de chat persistente em um servidor Standard Edition. O chat persistente exige um banco de dados e, se você implementar a conformidade persistente de chat, um banco de dados de conformidade de chat persistente, mas os bancos de dados puderem ficar posicionados com o banco de dados de arquivamento, monitorando o banco de dados ou no servidor back-end de uma edição Enterprise Pool de front-ends. Para obter detalhes sobre como planejar a topologia do servidor de chat persistente apropriada, consulte [planejando o servidor de chat persistente no Lync Server 2013](lync-server-2013-planning-for-persistent-chat-server.md) na documentação de planejamento.
+  - Servidor de chat persistente, se você quiser que os usuários sejam capazes de participar de conversas com base em um tópico que persistem ao longo do tempo. Para fornecer mais capacidade e maior confiabilidade, sua topologia pode incluir vários computadores que executam o servidor de chat persistente. Não é possível colocar o servidor de chat persistente com outras funções de servidor em um pool corporativo. No entanto, você pode colocar o servidor de chat persistente em um servidor Standard Edition. O chat persistente exige um banco de dados e, se você implementar a conformidade de chat persistente, um banco de dados de conformidade de chat persistente, porém os bancos de dados poderão ser colocados com o banco de dados de arquivamento, de monitoramento ou no servidor de Back-End de um pool de Front-Ends Enterprise Edition. Para obter detalhes sobre como planejar a topologia do servidor de chat persistente apropriada, consulte [Planning for persistent chat Server in Lync server 2013](lync-server-2013-planning-for-persistent-chat-server.md) na documentação de planejamento.
 
-  - Monitoramento, se você quiser dar suporte a coleta de dados para a qualidade de qualidade de áudio/vídeo (QoE) e registro de detalhes de chamadas (CDR) para conferências do Enterprise Voice e de A/V na sua implantação. Opcionalmente, você pode instalar o Microsoft System Center Operations Manager (antigo Microsoft Operations Manager), que usa monitoramento de dados CDR e QoE para gerar alertas de tempo real, que mostram a integridade da confiabilidade das chamadas e a qualidade das mídias. O monitoramento, quando implantado, é posicionado em servidores front-end ou em um servidor Standard Edition. O monitoramento exige um banco de dados, mas o banco de dados pode ficar posicionado com o banco de dados de arquivamento, banco de dados de chat persistente, banco de dados de conformidade de chat persistente ou no servidor back-end de um pool Front-end da Enterprise Edition.
+  - Monitoramento, se quiser oferecer suporte à coleta de dados sobre sua QoE (experiência de qualidade) de áudio/vídeo e CDR (gravação de detalhes da chamada) para o Enterprise Voice e as conferências de áudio/vídeo de sua implantação. Opcionalmente, você pode instalar o Microsoft System Center Operations Manager (anteriormente Microsoft Operations Manager), que usa o monitoramento de dados de CDR e QoE para gerar alertas quase em tempo real que mostram a integridade da chamada e a qualidade da mídia. O monitoramento, quando implantado, é colocado em servidores Fron-End ou um servidor Standard Edition. O monitoramento exige um banco de dados, mas o banco de dados pode ser colocado com o banco de dados de arquivamento, de chat persistente, do conformidade de chat persistente ou no servidor Back-End de um pool de Front-Ends Enterprise Edition.
 
-  - Arquivamento, se você quiser arquivar comunicações de mensagem instantânea e conteúdo da reunião (por motivos de conformidade) em sua implantação. O arquivamento, quando implantado, é posicionado em servidores front-end ou em um servidor Standard Edition. O armazenamento de arquivamento requer a implantação de um banco de dados de arquivamento ou integração com o armazenamento do Exchange 2013. Se você usar ambos, que é conhecido como *modo misto*, o armazenamento do Exchange 2013 é usado para armazenar dados de arquivo morto para os usuários que são hospedados no Exchange 2013, e o banco de dados de arquivamento é usado para arquivar dados para todos os outros usuários na sua implantação. Se você precisar de um banco de dados de arquivamento, o banco de dados poderá ser posicionado no banco de dados de monitoramento, banco de dados persistente de chat, banco de dados de conformidade de chat persistente ou no servidor back-end de um pool de front-ends. Para obter detalhes sobre como planejar a topologia de arquivamento apropriada, consulte [planejando o arquivamento no Lync Server 2013](lync-server-2013-planning-for-archiving.md) na documentação de planejamento.
+  - Arquivamento, se quiser arquivar comunicações de mensagens instantâneas e conteúdo de reuniões (por motivos de conformidade) em sua implantação. O arquivamento, quando implantado, é colocado em servidores de Front-End ou em um servidor Standard Edition. O armazenamento de arquivamento requer a implantação de um banco de dados de arquivamento ou integração com o armazenamento do Exchange 2013. Se você usar ambos, que é conhecido como *modo misto*, o armazenamento 2013 do Exchange é usado para armazenar dados de arquivamento para usuários hospedados no Exchange 2013, e o banco de dados de arquivamento é usado para arquivar dados de todos os outros usuários em sua implantação. Se precisar de uma banco de dados de arquivamento, ele poderá ser colocado no banco de dados de monitoramento, de chat persistente, de conformidade do chat persistente ou no servidor de Back-End de um pool de Front-Ends. Para obter detalhes sobre como planejar a topologia de arquivamento adequada, consulte [Planning for Archiving in Lync Server 2013](lync-server-2013-planning-for-archiving.md) na documentação de planejamento.
 
-  - O director ou o pool do director, se você quiser facilitar a resiliência e o redirecionamento de solicitações de usuário do Lync Server 2013 para o pool primário do usuário, que pode ser um pool Front-end Enterprise Edition ou um servidor Standard Edition. Recomendamos que você implante um diretor ou um pool de diretor em cada site central compatível com acesso externo a usuários e em cada site central no qual você implanta um ou mais pools front-ends. Cada pool de directors pode conter no máximo dez directors. Um diretor não pode ser posicionado com nenhuma outra função de servidor. Para obter detalhes sobre como planejar a topologia de diretor apropriada, consulte [cenários do diretor do Lync Server 2013](lync-server-2013-scenarios-for-the-director.md) na documentação de planejamento.
+  - Pool de diretor ou diretor, se você quiser facilitar a resiliência e o redirecionamento de solicitações de usuário do Lync Server 2013 para o pool de local do usuário, que pode ser um pool de front-ends Enterprise Edition ou um servidor Standard Edition. É recomendável que seja implantado um diretor ou pool de diretores em cada site central que ofereça suporte ao acesso de usuários externos e em cada site central no qual é feita a implantação de um ou mais pools de Front-Ends. Cada pool de diretores pode conter um máximo de dez diretores. Um diretor não pode ser colocado com nenhuma outra função de servidor. Para obter detalhes sobre como planejar a topologia de diretor apropriada, consulte [cenários para o diretor no Lync Server 2013](lync-server-2013-scenarios-for-the-director.md) na documentação de planejamento.
 
-  - O proxy inverso, que não é um componente do Lync Server 2013, mas é necessário se você deseja dar suporte ao compartilhamento de conteúdo da Web para usuários federados ou dar suporte ao tráfego de mobilidade. Você não pode colocar um servidor proxy reverso com qualquer função de servidor do Lync Server 2013, mas pode implementar o suporte para proxy reverso para uma implantação do Lync Server 2013 Configurando o suporte em um servidor de proxy reverso existente em sua organização que é usado para outros aplicativo. Para obter detalhes sobre servidores proxy invertido, consulte [Configurando servidores proxy inversos para o Lync Server 2013](lync-server-2013-setting-up-reverse-proxy-servers.md) na documentação de implantação.
+  - O proxy reverso, que não é um componente do Lync Server 2013, mas será necessário se você quiser dar suporte ao compartilhamento de conteúdo da Web para usuários federados ou para oferecer suporte ao tráfego de mobilidade. Não é possível colocar um servidor de proxy reverso com nenhuma função de servidor do Lync Server 2013, mas você pode implementar o suporte de proxy reverso para uma implantação do Lync Server 2013, configurando o suporte em um servidor de proxy reverso existente em sua organização usado para outros Emprego. Para obter detalhes sobre servidores de proxy reverso, confira [Configurando servidores de proxy reverso para o Lync Server 2013](lync-server-2013-setting-up-reverse-proxy-servers.md) na documentação de implantação.
 
 <div>
 
@@ -108,27 +108,27 @@ Embora uma topologia de site central deva incluir um pool de front-end ou um ser
 
 </div>
 
-Todos os pools de front-end e servidores Standard Edition que você implanta em um site central compartilham qualquer um dos itens a serem implantados para o site central:
+Todos os pools de front-ends e servidores Standard Edition que você implanta em um site central compartilham qualquer um dos seguintes itens implantados para o site central:
 
-  - Pool de directors ou diretor
+  - Diretor ou pool de diretor
 
   - Servidor ou pool de mediação autônomo
 
-  - Servidor Office Web Apps
+  - Servidor do Office Web Apps
 
-  - Servidor de borda ou o pool de bordas
+  - Servidor de borda ou pool de borda
 
   - Servidor ou pool de chat persistente
 
   - Monitoramento
 
-  - Archiving
+  - Arquivamento
 
 <div>
 
 
 > [!NOTE]  
-> Um servidor Exchange UM pode ser implementado com sua implantação do Lync Server 2013 se você quiser oferecer suporte à integração de mensagens unificadas do Exchange 2013, mas não é um componente do site do Lync Server 2013.
+> Um servidor de UM do Exchange pode ser implementado com sua implantação do Lync Server 2013 se você deseja oferecer suporte à integração da Unificação de mensagens do Exchange 2013, mas não é um componente do site do Lync Server 2013.
 
 
 
@@ -138,11 +138,11 @@ Vários sites centrais também podem compartilhar qualquer um dos seguintes iten
 
   - Servidor ou pool de mediação autônomo
 
-  - Servidor de borda ou o pool de bordas
+  - Servidor de borda ou pool de borda
 
   - Servidor ou pool de chat persistente
 
-  - Archiving
+  - Arquivamento
 
   - Monitoramento
 
@@ -150,23 +150,23 @@ Vários sites centrais também podem compartilhar qualquer um dos seguintes iten
 
 
 > [!NOTE]  
-> Um servidor Exchange UM pode ser implementado com a implantação do Lync Server 2013 e compartilhado por vários sites centrais, mas não é um componente do site do Lync Server 2013.
+> Um servidor de UM do Exchange pode ser implementado com sua implantação do Lync Server 2013 e compartilhado por vários sites centrais, mas não é um componente do site do Lync Server 2013.
 
 
 
 </div>
 
-Para obter detalhes sobre funções e funcionalidades do servidor do Lync Server 2013, consulte [funções de servidor no Lync server 2013](lync-server-2013-server-roles.md) na documentação de planejamento.
+Para obter detalhes sobre funções e funcionalidades de servidor do Lync Server 2013, consulte [Server Roles in Lync server 2013](lync-server-2013-server-roles.md) na documentação de planejamento.
 
-Para obter um resumo do suporte à colocação do servidor do Lync Server 2013, consulte [colocação do servidor com suporte no Lync server 2013](lync-server-2013-supported-server-collocation.md).
+Para obter um resumo do suporte à colocação do servidor do Lync Server 2013, consulte [colocação de servidor suportado no Lync server 2013](lync-server-2013-supported-server-collocation.md).
 
-Além das funções de servidor e da funcionalidade abordada anteriormente nesta seção, o Lync Server 2013 tem componentes e opções adicionais, que podem incluir alguns ou todos os seguintes itens:
+Além das funções e funcionalidades de servidor abordadas anteriormente nesta seção, o Lync Server 2013 tem componentes e opções adicionais, que podem incluir alguns ou todos os seguintes itens:
 
   - Firewalls
 
-  - Gateways PSTN (se a implantação do Enterprise Voice estiver sendo implantada)
+  - Gateways PSTN (se estiver implantando o Enterprise Voice)
 
-  - Servidor Exchange UM
+  - Servidor UM do Exchange
 
   - Balanceamento de carga DNS
 
@@ -182,17 +182,17 @@ Para obter detalhes sobre todos os recursos, componentes e opções do Lync Serv
 
 <div>
 
-## <a name="branch-site-topologies-and-components-on-premises"></a>Topologias e componentes de sites de ramificação (local)
+## <a name="branch-site-topologies-and-components-on-premises"></a>Topologias e componentes do site de filial (local)
 
-Um site de filial está associado a um site central, e cada aplicativo de ramificação sobreviventes em um site de filial está associado a um pool de front-end da edição Enterprise ou um servidor Standard Edition no site central associado. Os sites de filiais dependem do site central para a maioria da funcionalidade, para que os componentes em um site de filial contenham apenas os seguintes itens:
+Um site de filial é associado a um site central, e cada aparelho de filial persistente em um site de filial é associado a um pool de front-ends Enterprise Edition ou um servidor Standard Edition no site central associado. Os sites de filiais dependem do site central para a maioria de suas funcionalidades, de forma que os componentes em um site de filial contenham apenas o seguinte:
 
-  - Um aparelho de ramificação sobreviventes que combina um gateway PSTN (rede telefônica pública comutada) com alguma funcionalidade do Lync Server. Um servidor de mediação pode ser colocado na instância do registrador do aplicativo de ramificação sobreviventes, e você pode implantar um servidor autônomo de mediação ou um pool de servidores de mediação autônomos.
+  - Um aparelho de filial persistente, que combina um gateway PSTN (rede telefônica pública comutada) com algumas funcionalidades do Lync Server. Um servidor de mediação pode ser colocado com a instância do registrador no aparelho de filial persistente, e você pode implantar um servidor de mediação autônomo ou pool de servidores de mediação.
 
-  - Um servidor de ramificação sobreviventes, que é um servidor que executa o Windows Server com software do Lync Server 2013 registrador e Media Server instalado.
+  - Um servidor de filial persistente, que é um servidor que executa o Windows Server e que tem o software de servidor de mediação do Lync Server 2013 instalado.
 
-  - Um gateway PSTN autônomo (não faz parte do Appliance de ramificação sobreviventes) e um servidor de mediação autônomo.
+  - Um gateway PSTN autônomo (não faz parte do aparelho de filial persistente) e um servidor de mediação autônomo.
 
-Os requisitos para servidores de ramificações sobreviventes são os mesmos dos requisitos para qualquer função de servidor do Lync Server 2013.
+Os requisitos para servidores de filial persistentes são os mesmos dos requisitos para qualquer função de servidor do Lync Server 2013.
 
 </div>
 

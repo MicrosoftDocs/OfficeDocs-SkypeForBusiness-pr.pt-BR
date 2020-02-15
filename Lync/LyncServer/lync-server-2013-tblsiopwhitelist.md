@@ -12,16 +12,16 @@ ms:contentKeyID: 48183310
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d85fc3dd6575433b605d6ce9100aacfde56782e5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 86ffecf185ab0c32c45e910d1821a33cbcabaea3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764061"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029172"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41764061"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-06-28_
+_**Última modificação do tópico:** 2012-06-28_
 
-tblSiopWhiteList é a lista de suplementos registrados que podem ser associados a nós.
+A tabela SiopWhiteList é a lista de suplementos registrados que podem ser associados aos nós.
 
 ### <a name="columns"></a>Colunas
 
@@ -62,12 +62,12 @@ tblSiopWhiteList é a lista de suplementos registrados que podem ser associados 
 </tr>
 <tr class="even">
 <td><p>siopName</p></td>
-<td><p>nvarchar (50), NOT NULL</p></td>
-<td><p>Display-nome do suplemento.</p></td>
+<td><p>nvarchar (50), não nulo</p></td>
+<td><p>Nome de exibição do suplemento.</p></td>
 </tr>
 <tr class="odd">
 <td><p>siopUrl</p></td>
-<td><p>nvarchar (255), NOT NULL</p></td>
+<td><p>nvarchar (255), não nulo</p></td>
 <td><p>URL do suplemento.</p></td>
 </tr>
 </tbody>

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Definindo seus requisitos para Servidores Front-End Servers, sistema de mensagens instantâneas e presença'
+title: 'Lync Server 2013: definindo seus requisitos para servidores front-end, mensagens instantâneas e presença'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185319
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: af371d116948d348b49c552dfe53290c1dae1900
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 82cce58ab401149871073f6bc49ed4c53f301cb7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743411"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42032087"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="defining-your-requirements-for-front-end-servers-instant-messaging-and-presence-in-lync-server-2013"></a>Definindo seus requisitos para Servidores Front-End Servers, sistema de mensagens instantâneas e presença no Lync Server 2013
+# <a name="defining-your-requirements-for-front-end-servers-instant-messaging-and-presence-in-lync-server-2013"></a>Definindo seus requisitos para servidores front-end, mensagens instantâneas e presença no Lync Server 2013
 
 </div>
 
@@ -35,27 +35,27 @@ ms.locfileid: "41743411"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-10-07_
+_**Última modificação do tópico:** 2013-10-07_
 
-A principal tarefa de planejar mensagens instantâneas (IM) e presença é garantir que você tenha servidores front-end suficientes para os usuários.
+A principal tarefa de planejamento de mensagens instantâneas (IM) e presença é garantir que você tenha servidores front-end suficientes para os usuários.
 
 <div>
 
-## <a name="enabling-communication-with-external-users"></a>Habilitar a comunicação com usuários externos
+## <a name="enabling-communication-with-external-users"></a>Habilitando a comunicação com usuários externos
 
-Você pode aumentar bastante as vantagens do seu investimento no Lync Server ao permitir que seus usuários se comuniquem com usuários externos. Entre os usuários externos podem estar:
+Você pode aumentar significativamente os benefícios de seu investimento no Lync Server, permitindo que os usuários se comuniquem com usuários externos. Os usuários externos podem incluir:
 
-  - **Usuários remotos**   os próprios usuários da organização, quando estiverem trabalhando fora dos firewalls e estiverem usando laptops ou outros dispositivos do Lync Server.
+  - **Usuários remotos**   os usuários da sua organização, quando estão trabalhando fora de seus firewalls e estão usando seus laptops ou outros dispositivos do Lync Server.
 
-  - **Usuários federados usuários**   de empresas que você trabalha com quem também executa o Lync Server. Para habilitar que seus usuários entrem em contato facilmente com esses usuários, crie relacionamentos federados com essas empresas.
+  - **Usuários federados**usuários de empresas com as quais você trabalha, que também executam o Lync Server.    Para permitir que os usuários contatem facilmente esses usuários, você pode criar relacionamentos federados com essas empresas.
 
-  - **Usuários públicos usuários**   de serviços públicos de mensagens de chat, como serviços de mensagens instantâneas fornecidos pela rede do Windows Live\!dos serviços de Internet, Yahoo e AOL, e usuários de provedores e servidores que usam o XMPP (mensagens extensíveis e o protocolo de presença), como o Google Talk.
+  - **Usuários públicos**   usuários de serviços públicos de IM, como serviços de im fornecidos pela rede do Windows Live de serviços de Internet\!, Yahoo e AOL, e usuários de provedores e servidores que usam o protocolo XMPP (Extensible Messaging and Presence Protocol), como o Google Talk.
     
     <div>
     
 
     > [!NOTE]  
-    > Observe que uma licença separada pode ser necessária para conectividade de IM pública com Windows Live, AOL e Yahoo!
+    > Observe que uma licença separada pode ser necessária para a conectividade de mensagens instantâneas públicas com Windows Live, AOL e Yahoo!.
 
     
     </div>
@@ -66,26 +66,26 @@ Você pode aumentar bastante as vantagens do seu investimento no Lync Server ao 
     > [!IMPORTANT]  
     > <UL>
     > <LI>
-    > <P>A partir de 1º de setembro de 2012, a licença de assinatura de usuário da conectividade de mensagem de chat pública do Microsoft Lync ("PIC USL") não está mais disponível para compra de contratos novos ou de renovação. Os clientes com licenças ativas poderão continuar a federar-se com o Yahoo! Messenger até a data de encerramento do serviço. Uma data de fim da vida útil de junho de 2014 para AOL e Yahoo! foi anunciado. Para obter detalhes, consulte <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">suporte para conectividade de mensagens instantâneas públicas no Lync Server 2013</A>.</P>
+    > <P>A partir de 1º de setembro de 2012, a licença de assinatura de usuário da conectividade de IM pública do Microsoft Lync ("PIC USL") não está mais disponível para compra de contratos novos ou de renovação. Os clientes com licenças ativas poderão continuar a se federar com o Yahoo! Messenger até a data de encerramento do serviço. Uma data de fim de vida de junho de 2014 para AOL e Yahoo! foi anunciado. Para obter detalhes, consulte <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">support for Public Instant Messenger Connectivity in Lync Server 2013</A>.</P>
     > <LI>
-    > <P>O PIC USL é uma licença de assinatura por usuário por mês necessária para o Lync Server ou o Office Communications Server se federar com o Yahoo! Spam. A capacidade da Microsoft de oferecer esse serviço por meio do suporte do Yahoo!, o contrato subjacente para o qual está prestes a ser enrolado.</P>
+    > <P>O PIC USL é uma licença de assinatura por usuário por mês, necessária para o Lync Server ou o Office Communications Server federar-se com o Yahoo! Instantânea. A capacidade da Microsoft de fornecer esse serviço tem sido contingente o suporte da Yahoo!, o contrato subjacente para o qual está se enrolando para baixo.</P>
     > <LI>
-    > <P>Mais do que nunca, o Lync é uma ferramenta poderosa para a conexão entre organizações e pessoas ao redor do mundo. A Federação com o Windows Live Messenger não requer licenças de usuário/dispositivo adicionais além da CAL padrão do Lync. A Federação do Skype será adicionada a essa lista, permitindo que os usuários do Lync atinjam centenas de milhões de pessoas com mensagens instantâneas e voz.</P></LI></UL>
+    > <P>Mais do que nunca, o Lync é uma poderosa ferramenta para a conexão entre organizações e pessoas em todo o mundo. A Federação com o Windows Live Messenger não requer licenças de usuário/dispositivo adicionais além da CAL padrão do Lync. A Federação do Skype será adicionada à lista, permitindo que os usuários do Lync atinjam centenas de milhões de pessoas com IM e voz.</P></LI></UL>
 
     
     </div>
 
-Para habilitar qualquer um desses cenários, você precisa implantar um servidor de borda para ajudar a habilitar comunicações seguras entre a implantação do Lync Server e os usuários externos. Os usuários remotos de sua organização e os usuários em organizações federadas poderão ver a presença uns dos outros e se comunicar usando mensagens instantâneas. Para obter detalhes sobre como habilitar a comunicação com usuários externos, consulte [planejando o acesso de usuários externos no Lync Server 2013](lync-server-2013-planning-for-external-user-access.md) na documentação de planejamento.
+Para habilitar qualquer um ou todos esses cenários, você precisa implantar um servidor de borda para ajudar a habilitar comunicações seguras entre sua implantação do Lync Server e usuários externos. Os usuários e usuários remotos da sua organização em organizações federadas poderão ver a presença de cada um e se comunicar usando mensagens instantâneas. Para obter detalhes sobre como habilitar a comunicação com usuários externos, consulte [Planning for External User Access in Lync Server 2013](lync-server-2013-planning-for-external-user-access.md) na documentação de planejamento.
 
 </div>
 
 <div>
 
-## <a name="archiving-im-content"></a>Arquivar conteúdo de IM
+## <a name="archiving-im-content"></a>Arquivamento de conteúdo de IM
 
-O Lync Server fornece recursos que você pode usar se a sua organização deve seguir as normas de conformidade. É possível usar a função Arquivamento para arquivar o conteúdo de mensagens instantâneas de todos os usuários de sua organização ou apenas de usuários específicos. Para obter detalhes, consulte [planejando o arquivamento no Lync Server 2013](lync-server-2013-planning-for-archiving.md) na documentação de planejamento.
+O Lync Server fornece recursos que você pode usar se sua organização deve seguir as regulamentações de conformidade. Você pode usar o arquivamento para arquivar o conteúdo de mensagens INSTANTÂNEAs para todos os usuários em sua organização ou apenas para determinados usuários que você especificar. Para obter detalhes, consulte [Planning for Archiving in Lync Server 2013](lync-server-2013-planning-for-archiving.md) na documentação de planejamento.
 
-Se você também tiver o Microsoft Exchange Server 2013 implantado, poderá integrar o arquivamento dos dados do Exchange com o arquivamento dos dados do Lync Server e usar uma única ferramenta para pesquisar os dois tipos de dados arquivados. Para obter mais informações, consulte [Configurando o Microsoft Lync server 2013 para usar o Microsoft Exchange server 2013 Archiving](configuring-lync-server-2013-to-use-microsoft-exchange-server-2013-archiving.md).
+Se você também tiver o Microsoft Exchange Server 2013 implantado, você pode integrar o arquivamento de dados do Exchange com o arquivamento de dados do Lync Server e usar uma única ferramenta para pesquisar ambos os tipos de dados arquivados. Para obter mais informações, consulte [Configuring Microsoft Lync Server 2013 to use Microsoft Exchange server 2013 Archiving](configuring-lync-server-2013-to-use-microsoft-exchange-server-2013-archiving.md).
 
 </div>
 

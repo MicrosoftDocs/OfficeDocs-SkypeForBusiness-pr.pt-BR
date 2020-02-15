@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Configurando e monitorando o Serviço de Backup'
+title: 'Lync Server 2013: Configurando e monitorando o serviço de backup'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185365
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9992f0466ceb2e01fa54cb2b2d511eeb96af755a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5f0fc9d65f1879c453c01813e09ad2ca0e8a99c2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726531"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029662"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-and-monitoring-the-backup-service-in-lync-server-2013"></a>Configurando e monitorando o Serviço de Backup no Lync Server 2013
+# <a name="configuring-and-monitoring-the-backup-service-in-lync-server-2013"></a>Configurando e monitorando o serviço de backup no Lync Server 2013
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41726531"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-11-01_
+_**Última modificação do tópico:** 2012-11-01_
 
 Você pode usar os seguintes comandos do Shell de gerenciamento do Lync Server para configurar e monitorar o serviço de backup.
 
@@ -43,7 +43,7 @@ Você pode usar os seguintes comandos do Shell de gerenciamento do Lync Server p
 
 
 > [!NOTE]  
-> O grupo RTCUniversalServerAdmins é o único grupo que tem permissões para executar <STRONG>Get-CsBackupServiceStatus</STRONG> por padrão. Para usar esse cmdlet, faça logon como membro desse grupo. Ou você pode conceder acesso a esse comando para outros grupos (por exemplo, CSAdministrator) usando o cmdlet <STRONG>set-CsBackupServiceConfiguration</STRONG> .
+> O grupo RTCUniversalServerAdmins é o único grupo que possui permissões para executar o <STRONG>Get-CsBackupServiceStatus</STRONG> por padrão. Para usar este cmdlet, faça o login como membro deste grupo. Em alternativa, é possível conceder acesso a este comando para outros grupos (por exemplo, CSAdministrator) usando o cmdlet <STRONG>Set-CsBackupServiceConfiguration</STRONG>.
 
 
 
@@ -51,25 +51,25 @@ Você pode usar os seguintes comandos do Shell de gerenciamento do Lync Server p
 
 <div>
 
-## <a name="to-see-the-backup-service-configuration"></a>Para ver a configuração do serviço de backup
+## <a name="to-see-the-backup-service-configuration"></a>Para ver a configuração do Serviço de Backup
 
 Execute o seguinte cmdlet:
 
     Get-CsBackupServiceConfiguration
 
-O padrão para SyncInterval é de dois minutos.
+O padrão para SyncInterval é dois minutos.
 
 </div>
 
 <div>
 
-## <a name="to-set-the-backup-service-sync-interval"></a>Para definir o intervalo de sincronização do serviço de backup
+## <a name="to-set-the-backup-service-sync-interval"></a>Para definir o intervalo de sincronização do Serviço de Backup
 
 Execute o seguinte cmdlet:
 
     Set-CsBackupServiceConfiguration -SyncInterval interval
 
-Por exemplo, o seguinte define o intervalo como três minutos.
+Por exemplo, o seguinte define o intervalo para três minutos.
 
     Set-CsBackupServiceConfiguration -SyncInterval 00:03:00
 
@@ -77,7 +77,7 @@ Por exemplo, o seguinte define o intervalo como três minutos.
 
 
 > [!IMPORTANT]  
-> Embora você possa usar esse cmdlet para alterar o intervalo de sincronização padrão do serviço de backup, não deve fazê-lo, a menos que seja absolutamente necessário, pois o intervalo de sincronização tem um grande impacto sobre o desempenho do serviço de backup e o RPO (objetivo do ponto de recuperação).
+> Embora seja possível usar este cmdlet para alterar o intervalo de sincronização padrão para o Serviço de Backup, você não deve fazer menos do que o absolutamente necessário, pois o intervalo de sincronização possui um grande impacto no desempenho do Serviço de Backup e o objetivo de ponto de recuperação (RPO).
 
 
 
@@ -87,7 +87,7 @@ Por exemplo, o seguinte define o intervalo como três minutos.
 
 <div>
 
-## <a name="to-get-the-backup-service-status-for-a-particular-pool"></a>Para obter o status do serviço de backup para um determinado pool
+## <a name="to-get-the-backup-service-status-for-a-particular-pool"></a>Para obter o status do Serviço de Backup para um determinado pool
 
 Execute o seguinte cmdlet:
 
@@ -97,7 +97,7 @@ Execute o seguinte cmdlet:
 
 
 > [!NOTE]  
-> O status de sincronização do serviço de backup é definido unidirecionalmente de um pool (P1) para seu pool de backup (P2). O status de sincronização de P1 a P2 pode ser diferente do do P2 para P1. Para P1 a P2, o serviço de backup está em um estado "estacionário" se todas as alterações feitas em P1 são completamente duplicadas para P2 dentro do intervalo de sincronização. Ele está no estado "final" se não houver mais alterações a serem sincronizadas do P1 ao P2. Os dois Estados indicam um instantâneo do serviço de backup no momento em que o cmdlet é executado. Isso não significa que o estado retornado permanecerá como mais tarde. Em particular, o estado "final" continuará a ser suspenso apenas se P1 não gerar nenhuma alteração após a execução do cmdlet. Isso é verdade no caso de falha P1 para P2 após o P1 ser colocado no modo somente leitura como parte da lógica de execução <STRONG>Invoke-CsPoolfailover</STRONG> .
+> O status de sincronização do Serviço de Backup é definido unidirecionalmente de um pool (P1) para seu pool de backup (P2). O status de sincronização de P1 para P2 pode ser diferente do que de P2 para P1. Para P1 para P2, o Serviço de Backup está em estado "pronto" se todas as alterações realizadas em P1 são completamente replicadas para P2 dentro do intervalo de sincronização. Está no estado “final” se não há mais mudanças a serem sincronizadas de P1 para P2. Ambos os estados indicam um instantâneo do Serviço de Backup no momento que o cmdlet é executado. Não implica que o estado retornado permanecerá como é posteriormente. Em particular, o estado “final” continuará a manter apenas se P1 não gerar qualquer mudança após o cmdlet ser executado. Isto é verdadeiro em caso de falha de P1 por P2 após P1 ser inserido no modo somente leitura como parte da lógica de execução do <STRONG>Invoke-CsPoolfailover</STRONG>.
 
 
 
@@ -107,7 +107,7 @@ Execute o seguinte cmdlet:
 
 <div>
 
-## <a name="to-get-information-about-the-backup-relationship-for-a-particular-pool"></a>Para obter informações sobre a relação de backup para um determinado pool
+## <a name="to-get-information-about-the-backup-relationship-for-a-particular-pool"></a>Para obter informações sobre a relação de backup de um determinado pool
 
 Execute o seguinte cmdlet:
 
@@ -117,7 +117,7 @@ Execute o seguinte cmdlet:
 
 <div>
 
-## <a name="to-force-a-backup-service-sync"></a>Para forçar uma sincronização do serviço de backup
+## <a name="to-force-a-backup-service-sync"></a>Para forçar uma sincronização do Serviço de Backup
 
 Execute o seguinte cmdlet:
 

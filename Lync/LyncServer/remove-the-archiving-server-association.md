@@ -1,5 +1,5 @@
 ---
-title: Remover a associação de Servidor de Arquivamento
+title: Remover a associação do servidor de arquivamento
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733837
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 04bf1a5a3c68ab1123431543e08618c4eacb7559
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 85e07dc3ca2da36f2c3a684be106eb4e2d428d00
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727111"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008877"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="remove-the-archiving-server-association"></a>Remover a associação de Servidor de Arquivamento
+# <a name="remove-the-archiving-server-association"></a>Remover a associação do servidor de arquivamento
 
 </div>
 
@@ -35,40 +35,40 @@ ms.locfileid: "41727111"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-04_
+_**Última modificação do tópico:** 2012-10-04_
 
-Para remover um servidor de arquivamento, você precisa alterar ou desmarcar a dependência do pool de front-ends associado, servidor front-end, aparelho para filiais e servidor de ramificação sobreviventes. Edite as propriedades do pool de front-end, servidor front-end, appliances para ramificação sobreviventes e servidor de ramificação sobreviventes para remover a dependência. Depois de limpar a dependência e excluir o servidor no construtor de topologias, você será notificado de que o objeto de repositório de banco de dados associado também será excluído.
+Para remover um servidor de arquivamento, você precisa alterar ou limpar a dependência no pool de front-ends associado, servidor front-end, aparelho de filial persistente e servidor de filial persistente. Edite as propriedades do pool de front-ends, servidor front-end, aparelho de filial persistente e servidor de filial persistente para remover a dependência. Depois de limpar a dependência e excluir o servidor no construtor de topologias, você será notificado de que o objeto repositório de banco de dados associado no construtor de topologias também será excluído.
 
 <div>
 
-## <a name="to-remove-the-archiving-server-association"></a>Para remover a associação do servidor de arquivamento
+## <a name="to-remove-the-archiving-server-association"></a>Para remover a associação de Servidor de Arquivamento
 
 1.  Abra o servidor front-end do Lync Server 2013, abra o construtor de topologias.
 
 2.  Navegue até o nó do Lync Server 2010.
 
-3.  No construtor de topologia, expanda **pools de front-end do Enterprise Edition**, **servidores front-end da edição padrão**ou **sites de filiais**com base em onde o servidor de arquivamento está definido.
+3.  No construtor de topologias, expanda **pools de front-ends Enterprise Edition**, **servidores front-end Standard Edition**ou **sites de filiais**, com base em onde o servidor de arquivamento está definido.
 
-4.  Se você tiver um servidor de ramificação sobreviventes associado, expanda **sites de ramificação**, expanda o nome do site da filial e expanda **aparelhos de ramificação sobreviventes**.
+4.  Se você tiver um servidor de filial persistente associado, expanda **sites de filial**, expanda o nome do site de filial e expanda **aparelhos de filial persistente**.
     
     <div>
     
 
     > [!NOTE]  
-    > <STRONG>Aparelhos de ramificação sobreviventes</STRONG> na interface do usuário se aplicam ao servidor de ramificação sobreviventes e ao aparelho de ramificação sobreviventes.
+    > <STRONG>Aparelhos de filial persistentes</STRONG> na interface do usuário aplicam-se ao servidor de filial persistente e ao aparelho de filial persistente.
 
     
     </div>
 
-5.  Clique com o botão direito do mouse no pool, no servidor ou no dispositivo associado ao servidor de arquivamento e, em seguida, clique em **Editar propriedades**.
+5.  Clique com o botão direito do mouse no pool, servidor ou dispositivo associado ao servidor de arquivamento e clique em **Editar propriedades**.
 
-6.  Em **Editar propriedades**, em **geral**, em **associações**, desmarque a caixa de seleção **associar servidor de arquivamento** e clique em **OK**.
+6.  Em **Editar Propriedades**, em **Geral**, **Associações**, desmarque a caixa de seleção **Associar Servidor de Arquivamento** e clique em **OK**.
 
 7.  Repita a etapa anterior para qualquer outro pool, servidor ou dispositivo associado ao servidor de arquivamento que você deseja remover.
 
-8.  Clique com o botão direito do mouse no servidor de arquivamento e, em seguida, clique em **excluir**.
+8.  Clique com o botão direito do mouse no servidor de arquivamento e clique em **excluir**.
 
-9.  Em **excluir repositórios dependentes**, clique em **OK**.
+9.  Em **Excluir Repositórios Dependentes**, clique em **OK**.
 
 10. Publique a topologia, verifique o status da replicação e execute o assistente de implantação do Lync Server conforme necessário.
 

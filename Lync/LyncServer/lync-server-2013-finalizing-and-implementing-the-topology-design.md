@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Concluindo e implementando o design da topologia'
+title: 'Lync Server 2013: finalizar e implementar o design de topologia'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183403
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 217857cf0699b68ef3a0daf63bfc0b658258c480
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 88ffdc547bf0caed9b10f6555e2c56f03b50f467
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765359"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028462"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="finalizing-and-implementing-the-topology-design-in-lync-server-2013"></a>Concluindo e implementando o design da topologia no Lync Server 2013
+# <a name="finalizing-and-implementing-the-topology-design-in-lync-server-2013"></a>Finalizando e implementando o design de topologia no Lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41765359"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-06-19_
+_**Última modificação do tópico:** 2012-06-19_
 
-Depois de concluir a preparação do seu ambiente, você deve estar pronto para finalizar e implementar o design da topologia. Isso inclui o uso do construtor de topologias para publicar sua topologia, o que é necessário para instalar funções de servidor do Lync Server 2013.
+Após concluir a preparação do seu ambiente, você deverá estar pronto para finalizar e implementar o design da topologia. Isso inclui o uso do construtor de topologias para publicar sua topologia, o que é necessário para instalar as funções de servidor do Lync Server 2013.
 
 <div>
 

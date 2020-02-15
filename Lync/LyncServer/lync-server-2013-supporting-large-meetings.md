@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: oferecendo suporte a reuniões grandes'
+title: 'Lync Server 2013: suporte a reuniões grandes'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184136
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6d2c36d99bc5af62771aabb643df1223db3a291c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 73c9a5d2ad4688f622298378c84b61574048a3b1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764297"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029752"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41764297"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-03_
+_**Última modificação do tópico:** 2012-10-03_
 
-Reuniões grandes não seguem o modelo de teste descrito na seção anterior porque têm as seguintes características:
+Reuniões grandes não seguem o modelo de teste descrito na seção anterior, pois elas possuem as seguintes características:
 
   - O formato da reunião é uma apresentação de um-para-muitos.
 
@@ -47,27 +47,27 @@ Reuniões grandes não seguem o modelo de teste descrito na seção anterior por
 
   - O áudio é exigido e o vídeo também pode ser utilizado.
 
-  - Uma pessoa dedicada, em geral, o organizador da reunião ou um assistente para o organizador configura a reunião de forma bem adiantada.
+  - Uma pessoa dedicada, geralmente, o organizador da reunião ou um assistente do organizador, define a reunião com antecedência.
 
   - Uma equipe dedicada (não os apresentadores) conduz a reunião, incluindo estabelecer uma conexão para uma reunião online, verificar se o áudio, vídeo e compartilhamento de slides estão funcionando, gerenciar lobby e funções dos usuários, ligar e desligar o microfone dos participantes, responder perguntas e gerenciar gravações, conforme apropriado.
 
-Dar suporte a reuniões grandes de até 1000 os usuários exigem a solução dos problemas relacionados ao modelo de hardware compartilhado e ao modelo sem reserva.
+Fornecer suporte a reuniões grandes com até 1.000 usuários requer correção de problemas relacionados ao modelo de hardware compartilhado e ao modelo sem reserva.
 
-Para ter recursos de CPU e memória suficientes para as reuniões com até 1.000 usuários, os Servidores Front-End de hospedagem não devem hospedar nenhuma outra carga de trabalho de mensagens instantâneas (IM) e presença nem do Enterprise Voice. Ele também não deve hospedar nenhuma outra reunião, independentemente do tamanho das outras reuniões. Isso significa que hospedar reuniões de até 1000 usuários requer a configuração de um pool separado do Lync Server que seja dedicado a hospedar reuniões grandes de até 1000 usuários.
+Para ter recursos suficientes de CPU e memória para reuniões de até 1000 usuários, os servidores front-end de hospedagem não devem hospedar nenhuma outra carga de mensagens instantâneas (IM) e presença ou cargas de trabalho do Enterprise Voice. Também não deve hospedar quaisquer outras reuniões, independente do tamanho das outras reuniões. Isso significa que a hospedagem de reuniões de até 1000 usuários exige a configuração de um pool separado do Lync Server dedicado à Hospedagem de grandes reuniões de até 1000 usuários.
 
-Um pool do Lync Server dedicado à Hospedagem de reuniões grandes deve hospedar uma e apenas uma reunião de até 1000 usuários ao mesmo tempo, para que os tempos da reunião precisem ser reservados antecipadamente por meio de um processo de agendamento fora da banda para garantir o suporte dedicado do serv do front-end ers. Para dar suporte a mais de uma reunião grande ao mesmo tempo, recomendamos configurar vários pools de reunião grandes dedicados.
+Um pool do Lync Server dedicado à Hospedagem de grandes reuniões deve hospedar apenas uma reunião de até 1000 usuários ao mesmo tempo, portanto, os tempos de reunião precisam ser reservados antecipadamente por meio de um processo de agendamento fora da banda para garantir o suporte dedicado do serv de front-ends ers. Para suportar mais de uma reunião grande ao mesmo tempo, recomendamos a configuração de vários pool de reuniões grandes dedicados.
 
-Recomendamos que uma pessoa dedicada execute e monitore a parte online de uma reunião grande. Essa pessoa pode ser o organizador, o representante do organizador ou do apresentador, ou um membro da equipe de suporte de reunião grande dedicada, dependendo das preferências da organização.
+Recomendamos que uma pessoa dedicada conduza e monitore uma parte de uma grande reunião online. Essa pessoa deve ser o organizador, delegado do organizador ou apresentador, ou um membro da equipe de suporte à reunião grande dedicada, dependendo das preferências da organização.
 
-Nas seções a seguir, descreveremos como implementar um pool dedicado para reuniões grandes, incluindo práticas recomendadas para usar o Lync Server 2013 para dar suporte a cenários de reunião grandes.
+Nas seções a seguir, descreveremos como implementar um pool dedicado para grandes reuniões, incluindo as práticas recomendadas para usar o Lync Server 2013 para suportar grandes cenários de reunião.
 
 <div>
 
 ## <a name="in-this-section"></a>Nesta seção
 
-  - [Configurando o suporte para reuniões grandes no Lync Server 2013](lync-server-2013-setting-up-support-for-large-meetings.md)
+  - [Configurando o suporte para grandes reuniões no Lync Server 2013](lync-server-2013-setting-up-support-for-large-meetings.md)
 
-  - [Gerenciar reuniões grandes no Lync Server 2013](lync-server-2013-managing-large-meetings.md)
+  - [Gerenciando grandes reuniões no Lync Server 2013](lync-server-2013-managing-large-meetings.md)
 
 </div>
 

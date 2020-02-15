@@ -12,16 +12,16 @@ ms:contentKeyID: 48183769
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f77009f20cfbd3e76f5cfc3786bcd9fa9ba2be9b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 981d45cbfbb184f802c0d75973da56845338d06a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730501"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008583"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41730501"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-06-20_
+_**Última modificação do tópico:** 2012-06-20_
 
-Os cmdlets do Active Directory geralmente são usados pelo programa de instalação e raramente serão chamados diretamente por um administrador. No entanto, os administradores podem usar esses cmdlets para preparar (ou despreparar) um domínio ou floresta para o Microsoft Lync Server 2013 e instalar os arquivos de esquema obrigatórios do Active Directory.
+Os cmdlets do Active Directory são geralmente utilizados pela Instalação e raramente são chamados diretamente por um administrador. No entanto, os administradores podem usar esses cmdlets para preparar (ou despreparar) um domínio ou floresta para o Microsoft Lync Server 2013 e instalar os arquivos de esquema necessários do Active Directory.
 
 <div>
 
@@ -48,32 +48,32 @@ Veja a seguir uma lista de cmdlets relacionados diretamente ao gerenciamento de 
 **Active Directory**
 
   - <span></span>  
-    [Disable-CsAdDomain](https://technet.microsoft.com/en-us/library/Gg398785(v=OCS.15))
+    [Disable-CsAdDomain](https://technet.microsoft.com/library/Gg398785(v=OCS.15))
 
   - <span></span>  
-    [Enable-CsAdDomain](https://technet.microsoft.com/en-us/library/Gg412764(v=OCS.15))
+    [Enable-CsAdDomain](https://technet.microsoft.com/library/Gg412764(v=OCS.15))
 
   - <span></span>  
-    [Get-CsAdDomain](https://technet.microsoft.com/en-us/library/Gg398453(v=OCS.15))
+    [Get-CsAdDomain](https://technet.microsoft.com/library/Gg398453(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Disable-CsAdForest](https://technet.microsoft.com/en-us/library/Gg398122(v=OCS.15))
+    [Disable-CsAdForest](https://technet.microsoft.com/library/Gg398122(v=OCS.15))
 
   - <span></span>  
-    [Enable-CsAdForest](https://technet.microsoft.com/en-us/library/Gg425713(v=OCS.15))
+    [Enable-CsAdForest](https://technet.microsoft.com/library/Gg425713(v=OCS.15))
 
   - <span></span>  
-    [Get-CsAdForest](https://technet.microsoft.com/en-us/library/Gg412995(v=OCS.15))
+    [Get-CsAdForest](https://technet.microsoft.com/library/Gg412995(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsAdServerSchema](https://technet.microsoft.com/en-us/library/Gg413070(v=OCS.15))
+    [Get-CsAdServerSchema](https://technet.microsoft.com/library/Gg413070(v=OCS.15))
 
   - <span></span>  
-    [Install-CsAdServerSchema](https://technet.microsoft.com/en-us/library/Gg398681(v=OCS.15))
+    [Install-CsAdServerSchema](https://technet.microsoft.com/library/Gg398681(v=OCS.15))
 
 </div>
 

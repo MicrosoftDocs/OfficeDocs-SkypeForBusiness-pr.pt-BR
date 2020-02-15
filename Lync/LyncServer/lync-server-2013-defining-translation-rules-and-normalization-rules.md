@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: definindo regras de tradução e regras de normalização'
+title: 'Lync Server 2013: definição de regras de conversão e regras de normalização'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733763
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d91415e467bfdb070d76415e47aaa59d0fab3be9
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1ff8d054096f3c5d6d8293affc4dc9c1b6490e2c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728301"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029652"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="defining-translation-rules-and-normalization-rules-in-lync-server-2013"></a>Definindo regras de tradução e regras de normalização no Lync Server 2013
+# <a name="defining-translation-rules-and-normalization-rules-in-lync-server-2013"></a>Definindo regras de conversão e regras de normalização no Lync Server 2013
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41728301"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-18_
+_**Última modificação do tópico:** 2012-10-18_
 
 Use os tópicos da seção para saber como configurar troncos para o Lync Server 2013.
 
@@ -43,7 +43,7 @@ Use os tópicos da seção para saber como configurar troncos para o Lync Server
 
 ## <a name="in-this-section"></a>Nesta seção
 
-  - [Definindo regras de tradução no Lync Server 2013](lync-server-2013-defining-translation-rules.md)
+  - [Definindo regras de conversão no Lync Server 2013](lync-server-2013-defining-translation-rules.md)
 
   - [Definindo regras de normalização no Lync Server 2013](lync-server-2013-defining-normalization-rules.md)
 

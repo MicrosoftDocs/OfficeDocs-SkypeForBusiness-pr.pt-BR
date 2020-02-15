@@ -12,16 +12,16 @@ ms:contentKeyID: 48184560
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 89e1509a1a84e0a9dd03527eedfb0b9e6da1590e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 26a8236145f86fa86039b4030fe82327d9fc4dfa
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764227"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42031175"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41764227"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-06-25_
+_**Última modificação do tópico:** 2012-06-25_
 
-tblAdminLock contém o bloqueio do administrador necessário para executar alguns comandos de administrador.
+tblAdminLock contém o bloqueio do administrador necessário para a execução de alguns comandos de administrador.
 
 ### <a name="columns"></a>Colunas
 
@@ -57,18 +57,18 @@ tblAdminLock contém o bloqueio do administrador necessário para executar algun
 <tbody>
 <tr class="odd">
 <td><p>lockExpiresTime</p></td>
-<td><p>DateTime, não nulo</p></td>
-<td><p>Bloquear data e hora de expiração. O proprietário pode estender esse valor periodicamente.</p></td>
+<td><p>datetime, não nulo</p></td>
+<td><p>Data de expiração de bloqueio. O proprietário pode estender esse valor periodicamente.</p></td>
 </tr>
 <tr class="even">
 <td><p>lockServerID</p></td>
-<td><p>int, não nulo</p></td>
-<td><p>ID do servidor que é proprietário do bloqueio.</p></td>
+<td><p>int, not null</p></td>
+<td><p>Identificação do servidor que possui o bloqueio.</p></td>
 </tr>
 <tr class="odd">
 <td><p>lockActorID</p></td>
 <td><p>int, não nulo</p></td>
-<td><p>ID da entidade de segurança que é proprietária do bloqueio.</p></td>
+<td><p>Identificação da entidade que possui o bloqueio.</p></td>
 </tr>
 </tbody>
 </table>

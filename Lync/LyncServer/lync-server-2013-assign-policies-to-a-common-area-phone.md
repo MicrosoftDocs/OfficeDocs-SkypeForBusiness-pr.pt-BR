@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: atribuir políticas a um telefone comum de área'
+title: 'Lync Server 2013: atribuir políticas a um telefone de área comum'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 51803993
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e19e2fccabe4759f8cf4cf5eb55ade7e68e2b560
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6dfe908f2bb4ca66714d3eef756a0c53c7334fd7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734041"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030064"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,18 +35,18 @@ ms.locfileid: "41734041"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-02-20_
+_**Última modificação do tópico:** 2013-02-20_
 
-Depois de criar sua política para telefones celulares comuns (para obter detalhes, consulte [criar uma política de voz e configurar registros de uso PSTN no Lync Server 2013](lync-server-2013-create-a-voice-policy-and-configure-pstn-usage-records.md)), você pode atribuir a política a um telefone comum usando o Windows PowerShell e o cmdlet **Grant-cs** apropriado. Esses cmdlets podem ser executados no Shell de gerenciamento do Lync Server 2013 ou em uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Lync Server, consulte o artigo sobre o blog do Windows PowerShell do Lync Server "início rápido: gerenciar o [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Microsoft Lync Server 2010 usando o PowerShell remoto" em.
-
-<div>
-
+Depois de criar sua política para telefones de área comum (para obter detalhes, consulte [criar uma política de voz e configurar registros de uso de PSTN no Lync Server 2013](lync-server-2013-create-a-voice-policy-and-configure-pstn-usage-records.md)), você pode atribuir a política a um telefone de área comum usando o Windows PowerShell e o cmdlet **Grant-cs** apropriado. Esses cmdlets podem ser executados a partir do Shell de gerenciamento do Lync Server 2013 ou de uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Lync Server, consulte o artigo de blog do Lync Server Windows PowerShell "início rápido: Managing Microsoft Lync Server [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)2010 using Remote PowerShell" em.
 
 <div>
 
-## <a name="assigning-a-policy-to-a-single-common-area-phone"></a>Atribuir uma política a um único telefone de área comum
 
-  - O comando a seguir atribui a política de voz por usuário RedmondVoice para o telefone de área comum que tem a identidade prédio 14 lobby.
+<div>
+
+## <a name="assigning-a-policy-to-a-single-common-area-phone"></a>Atribuindo uma política a um único telefone de área comum
+
+  - O comando a seguir atribui a política de voz por usuário RedmondVoice ao telefone de área comum que tem a identidade prédio 14 lobby.
     
         Grant-CsVoicePolicy -Identity "Building 14 Lobby" -PolicyName "RedmondVoicePolicy"
 
@@ -54,15 +54,15 @@ Depois de criar sua política para telefones celulares comuns (para obter detalh
 
 <div>
 
-## <a name="assigning-a-policy-to-multiple-common-area-phones"></a>Atribuir uma política a vários telefones comuns de área
+## <a name="assigning-a-policy-to-multiple-common-area-phones"></a>Atribuindo uma política a vários telefones de área comum
 
-  - Neste exemplo, a política de voz por usuário RedmondVoice é atribuída a todos os telefones de área comuns configurados para uso na organização.
+  - Neste exemplo, a política de voz por usuário RedmondVoice é atribuída a todos os telefones de área comum configurados para uso na organização.
     
         Get-CsCommonAreaPhone | Grant-CsVoicePolicy  -PolicyName "RedmondVoicePolicy"
 
 </div>
 
-Para obter detalhes, consulte os tópicos da ajuda para o [Grant-CsVoicePolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsVoicePolicy).
+Para obter detalhes, consulte os tópicos de ajuda para o [Grant-CsVoicePolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsVoicePolicy).
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Definindo seus requisitos para conferência'
+title: 'Lync Server 2013: definindo seus requisitos para conferência'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184255
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c19269ef06fc2aa7ec19e2ede53f406b345536b3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 982643a33a2855075eac5372fa0140c3a69b39bd
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41739951"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42032446"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="defining-your-requirements-for-conferencing-in-lync-server-2013"></a>Definindo seus requisitos para conferência no Lync Server 2013
+# <a name="defining-your-requirements-for-conferencing-in-lync-server-2013"></a>Definindo seus requisitos de conferência no Lync Server 2013
 
 </div>
 
@@ -35,58 +35,58 @@ ms.locfileid: "41739951"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-30_
+_**Última modificação do tópico:** 2012-09-30_
 
-Ao determinar quais funcionalidades de conferência serão implantadas, você precisa considerar os recursos que deseja disponibilizar para seus usuários, bem como seus recursos de largura de banda de rede. A lista de perguntas a seguir orienta você pelo processo de planejamento de conferência para determinar quais recursos de conferência você deve implantar com base nas necessidades da sua organização.
+Ao determinar quais funcionalidades de conferência serão implantadas, você precisa considerar os recursos que deseja disponibilizar para seus usuários, bem como seus recursos de largura de banda de rede. A lista de perguntas a seguir o guiará durante o processo de planejamento de conferências para determinar quais recursos de conferência você deve implantar de acordo com as necessidades de sua organização.
 
   - **Você deseja habilitar a webconferência, que inclui a colaboração em documentos e o compartilhamento de aplicativos?**
     
-    Em caso afirmativo, você deve habilitar a conferência para seu pool de front-end no Microsoft Lync Server 2013, ferramenta de planejamento ou no construtor de topologias. Ao habilitar a conferência, habilite A conferência via Web e conferência A/V.
+    Em caso afirmativo, você deve habilitar a conferência para seu pool de front-ends no Microsoft Lync Server 2013, na ferramenta de planejamento ou no construtor de topologias. Ao habilitar a conferência, tanto a webconferência como a conferência A/V são habilitadas.
     
-    O compartilhamento de aplicativos requer e usa mais largura de banda que a colaboração em documentos. O Lync Server 2013 fornece um mecanismo de limitação para controlar cada sessão de compartilhamento de aplicativo. Por padrão, isso é definido como 1,5 KB por segundo para cada sessão.
+    O compartilhamento de aplicativo requer e usa mais largura de banda do que a colaboração em documentos. O Lync Server 2013 fornece um mecanismo de limitação para controlar cada sessão de compartilhamento de aplicativo. Por padrão, isso é definido como 1,5 KB por segundo para cada sessão.
     
-    Se você não quiser habilitar o compartilhamento de aplicativos, mas quiser a colaboração de documentos, poderá habilitar a conferência e usar políticas de reunião para desabilitar o compartilhamento de aplicativos. Para obter detalhes sobre como configurar políticas de reunião, consulte [políticas de conferência no Lync Server 2013](lync-server-2013-conferencing-policies.md).
+    Se você não desejar habilitar o compartilhamento de aplicativo, mas desejar a colaboração em documentos, poderá habilitar a conferência e usar políticas de reunião para desabilitar o compartilhamento de aplicativo. Para obter detalhes sobre como configurar políticas de reunião, consulte [políticas de conferência no Lync Server 2013](lync-server-2013-conferencing-policies.md).
     
-    Para habilitar os usuários a compartilharem apresentações do PowerPoint, é preciso configurar o Servidor do Office Web Apps. Para obter detalhes sobre como configurar o servidor do Office Web Apps, consulte [Configurando a integração com o servidor do Office Web Apps e o Lync Server 2013](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md).
+    Para permitir que os usuários compartilhem apresentações do PowerPoint, você precisa configurar o servidor do Office Web Apps. Para obter detalhes sobre como configurar o servidor do Office Web Apps, consulte [Configurando a integração com o servidor do Office Web Apps e o Lync Server 2013](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md).
 
-  - **Você deseja habilitar A conferência A/V?**
+  - **Deseja habilitar a conferência A/V?**
     
-    Em caso afirmativo, você deve habilitar a conferência para seu pool de front-end no Lync Server 2013, ferramenta de planejamento ou no construtor de topologias. Ao habilitar a conferência, habilite A conferência via Web e conferência A/V.
+    Em caso afirmativo, você deve habilitar a conferência para seu pool de front-ends no Lync Server 2013, na ferramenta de planejamento ou no construtor de topologias. Ao habilitar a conferência, tanto a webconferência como a conferência A/V são habilitadas.
     
-    A conferência A/V requer e usa mais largura de banda de rede do que a Webconferência (que inclui colaboração de documentos e compartilhamento de aplicativos). Se você não quiser habilitar uma conferência de A/V, mas quiser habilitar a conferência pela Web, poderá habilitar A conferência e usar políticas de reunião para desabilitar conferências A/V.
+    A conferência A/V exige e usa mais largura de banda que a webconferência (que inclui a colaboração em documentos e o compartilhamento de aplicativo). Se você desejar habilitar a webconferência, mas não a conferência A/V, poderá habilitar a conferência e usar as políticas de reunião para desabilitar a conferência A/V.
     
-    Se quiser habilitar conferências de áudio, mas não videoconferências, você pode habilitar A conferência A/V e usar políticas de reunião para impedir videoconferências. Como alternativa, você pode habilitar a conferência A/V e permitir que somente determinados usuários iniciem ou participem de conferências A/V.
+    Se você desejar habilitar a conferência de áudio, mas não a conferência de vídeo, poderá habilitar a conferência A/V e usar políticas de reunião para impedir as conferências de vídeo. Como alternativa, você pode habilitar a conferência A/V e permitir que somente determinados usuários iniciem ou participem de conferências A/V.
     
     <div>
     
 
     > [!NOTE]  
-    > O Enterprise Voice não é necessário para você usar a conferência A/V. Se você habilitar a conferência A/V, seus usuários poderão adicionar áudio às conferências, caso tenham dispositivos de áudio, mesmo que você use um sistema PBX como solução de telefonia.
+    > O Enterprise Voice não é necessário para usar A conferência A/V. Se você habilitar a conferência A/V, seus usuários poderão adicionar áudio a suas conferências se tiverem dispositivos de áudio, mesmo que você use um sistema PBX como sua solução de telefone.
 
     
     </div>
 
-  - **Deseja permitir que os usuários ingressem na parte de áudio de conferências ao usar um telefone PSTN?**
+  - **Deseja permitir que os usuários ingressem na parte de áudio de conferências quando usam um telefone PSTN?**
     
     Em caso afirmativo, implante e habilite a conferência de discagem. Em seguida, os usuários convidados (dentro e fora da sua organização) poderão ingressar na parte de áudio de conferências usando um telefone PSTN.
 
-  - **Deseja permitir que usuários externos com clientes do Lync Server 2013 ingressem nos tipos de conferências que você ativou?**
+  - **Deseja permitir que usuários externos com clientes do Lync Server 2013 ingressem nos tipos de conferências que você habilitou?**
     
-    Nesse caso, você deve implantar os servidores de borda. Ao permitir a participação externa em reuniões, você maximiza o seu investimento no Lync Server 2013. Por exemplo, os usuários com laptops com o Lync Server 2013 podem participar de conferências de onde quer que estejam, em casa, no aeroporto ou em sites de clientes.
+    Em caso afirmativo, você deve implantar Servidores de Borda. Ao permitir a participação externa em reuniões, você maximiza seu investimento no Lync Server 2013. Por exemplo, os usuários com laptops com o Lync Server 2013 podem participar de conferências de onde quer que estejam, em casa, no aeroporto ou em sites do cliente.
     
-    Além disso, com os servidores de Borda implantados, você pode criar relações federadas com outras organizações, como clientes ou fornecedores, e os usuários dessas organizações podem colaborar com mais facilidade com seus usuários.
+    Além disso, com os Servidores de Borda implantados, você pode criar relacionamentos federados com outras organizações (como seus clientes ou fornecedores) e os usuários de empresas poderão colaborar mais facilmente com os usuários.
     
-    Para obter detalhes sobre a implantação de servidores de borda, consulte [planejando o acesso de usuários externos no Lync server 2013](lync-server-2013-planning-for-external-user-access.md) e [implantando o acesso de usuários externos no Lync Server 2013](lync-server-2013-deploying-external-user-access.md). Para obter detalhes sobre como habilitar o acesso externo para o Office Web Apps Server, consulte [publicando o servidor do Office Web Apps no Lync Server 2013 usando um servidor proxy reverso](lync-server-2013-publishing-office-web-apps-server-using-a-reverse-proxy-server.md).
+    Para obter detalhes sobre a implantação de servidores de borda, consulte [Planning for External User Access in Lync server 2013](lync-server-2013-planning-for-external-user-access.md) e [Deploying external User Access in Lync Server 2013](lync-server-2013-deploying-external-user-access.md). Para obter detalhes sobre como habilitar o acesso externo para o servidor do Office Web Apps, consulte [Publishing Office Web Apps Server in Lync Server 2013 using a Reverse Proxy Server](lync-server-2013-publishing-office-web-apps-server-using-a-reverse-proxy-server.md).
 
   - **Você deseja controlar os clientes que podem ingressar em reuniões do Lync Server 2013?**
     
-    Em caso afirmativo, você deve configurar a página de ingresso na reunião para que apenas as opções do cliente que você deseja oferecer fiquem disponíveis. Sempre que um usuário clica em um link para ingressar em uma reunião agendada, o Lync Server 2013 detecta se um cliente já está instalado no computador. Em seguida, ele iniciará o cliente padrão e abrirá a página de ingresso na reunião, que contém links para clientes alternativos. A página Associação de reunião sempre contém a opção para usar o Microsoft Lync Web App. Além dessa opção, você pode decidir se deseja incluir links para o Atendedor e versões anteriores do Communicator. Para obter detalhes, consulte [Configurando a página ingressar na reunião no Lync Server 2013](lync-server-2013-configuring-the-meeting-join-page.md).
+    Em caso afirmativo, você deve configurar a página de ingresso em reunião para que apenas as opções do cliente que você deseja oferecer fiquem disponíveis. Cada vez que um usuário clica em um link para ingressar em uma reunião agendada, o Lync Server 2013 detecta se um cliente já está instalado no computador. Em seguida, ele iniciará o cliente padrão e abrirá a página de ingresso em reunião, que contém links para clientes alternativos. A página de participação da reunião contém a opção de usar o Microsoft Lync Web App. Além dessa opção, você pode decidir se deseja incluir links para o participante e versões anteriores do Communicator. Para obter detalhes, consulte [Configurando a página de ingresso na reunião no Lync Server 2013](lync-server-2013-configuring-the-meeting-join-page.md).
 
 <div>
 
 ## <a name="in-this-section"></a>Nesta seção
 
-  - [Requisitos da webconferência no Lync Server 2013](lync-server-2013-web-conferencing-requirements.md)
+  - [Requisitos de Webconferência no Lync Server 2013](lync-server-2013-web-conferencing-requirements.md)
 
   - [Requisitos de conferência A/V no Lync Server 2013](lync-server-2013-a-v-conferencing-requirements.md)
 

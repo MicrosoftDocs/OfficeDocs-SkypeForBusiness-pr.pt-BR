@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: atribuir políticas por usuário'
+title: 'Lync Server 2013: atribuindo políticas por usuário'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184971
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6b80446d9117a37b86c386132aa80439cb568a98
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2e9b5780b17ad2ed7a057979f77e504fb1fca0db
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734031"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030034"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="assigning-per-user-policies-in-lync-server-2013"></a>Como atribuir políticas por usuário no Lync Server 2013
+# <a name="assigning-per-user-policies-in-lync-server-2013"></a>Atribuindo políticas por usuário no Lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41734031"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-14_
+_**Última modificação do tópico:** 2012-10-14_
 
-Você pode atribuir determinadas políticas a um usuário ou a um grupo de usuários para especificar configurações específicas que se desviam das configurações definidas em políticas atribuídas a outros usuários, como políticas globais. Essas políticas são chamadas políticas por usuário.
+Você pode atribuir determinadas políticas a um usuário ou grupo de usuários para especificar configurações particulares que se desviam das configurações definidas em políticas atribuídas a outros usuários, como políticas globais. Essas políticas são chamadas de políticas por usuário.
 
 <div>
 
@@ -49,11 +49,11 @@ Você pode atribuir determinadas políticas a um usuário ou a um grupo de usuá
 
   - [Atribuir uma política de PIN por usuário no Lync Server 2013](lync-server-2013-assign-a-per-user-pin-policy.md)
 
-  - [Atribuir uma política de usuário externo a um usuário habilitado do Lync no Lync Server 2013](lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user.md)
+  - [Atribuir uma política de acesso de usuário externo a um usuário habilitado do Lync no Lync Server 2013](lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user.md)
 
   - [Atribuir uma política de arquivamento por usuário no Lync Server 2013](lync-server-2013-assign-a-per-user-archiving-policy.md)
 
-  - [Atribuir uma política de localização por usuário no Lync Server 2013](lync-server-2013-assign-a-per-user-location-policy.md)
+  - [Atribuir uma política de local por usuário no Lync Server 2013](lync-server-2013-assign-a-per-user-location-policy.md)
 
   - [Atribuir uma política de mobilidade por usuário no Lync Server 2013](lync-server-2013-assign-a-per-user-mobility-policy.md)
 

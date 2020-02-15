@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Resumo de certificado - Cargas de DNS e de HLB balanceadas'
+title: 'Lync Server 2013: Resumo de certificado-balanceamento de carga DNS e HLB'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184676
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b8cd6d86844629544b54670eb07c3433d19f99f2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 44b89f1b305b99d86fd1843ac61625083a5fb51b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736651"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42031125"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="certificate-summary---dns-and-hlb-load-balanced-in-lync-server-2013"></a>Resumo de certificado - Cargas de DNS e de HLB balanceadas no Lync Server 2013
+# <a name="certificate-summary---dns-and-hlb-load-balanced-in-lync-server-2013"></a>Resumo de certificado-carga de DNS e HLB balanceada no Lync Server 2013
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41736651"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-22_
+_**Última modificação do tópico:** 2012-10-22_
 
-Os requisitos de certificado para um diretor com balanceamento de carga de DNS e um balanceador de carga de hardware usarão um certificado padrão com um nome de assunto e nomes alternativos de entidades para os serviços que o diretor pode receber. Um certificado é solicitado para cada diretor do pool. É importante lembrar que o balanceador de carga de hardware é o balanceamento de carga somente do tráfego de proxy reverso. Além disso, há um certificado de token OAuth para fins de autenticação do servidor para servidor que está instalado em cada servidor.
+Os requisitos de certificado para um diretor com balanceamento de carga DNS e um balanceador de carga de hardware usarão um certificado padrão que tem um nome de entidade e nomes alternativos de entidade para serviços que o diretor pode receber. Um certificado é solicitado para cada diretor no pool. É importante lembrar que o balanceador de carga de hardware equilibra somente o tráfego do proxy reverso. Ademais, há um certificado OAuth Token para fins de autenticação entre servidores instalado em cada servidor.
 
-### <a name="certificates-for-director"></a>Certificados para o diretor
+### <a name="certificates-for-director"></a>Certificados para Diretor
 
 <table>
 <colgroup>
@@ -52,7 +52,7 @@ Os requisitos de certificado para um diretor com balanceamento de carga de DNS e
 <tr class="header">
 <th>Componente</th>
 <th>Nome da entidade (SN)</th>
-<th>Nomes alternativos de entidades (SAN)</th>
+<th>SAN (nomes alternativos da entidade)</th>
 <th>Comentários</th>
 </tr>
 </thead>
@@ -66,23 +66,23 @@ Os requisitos de certificado para um diretor com balanceamento de carga de DNS e
 <p>meet.contoso.com</p>
 <p>lyncdiscoverinternal.contoso.com</p>
 <p>lyncdiscover.contoso.com</p>
-<p>(Opcionalmente) *. contoso.com</p></td>
-<td><p>Os certificados do diretor podem ser solicitados de uma CA (autoridade de certificação) gerenciada internamente ou de uma CA pública.</p>
-<p>O diretor responde a solicitações do proxy reverso no perímetro ou do servidor de borda. Os clientes internos não usarão o diretor.</p>
-<p>Ou uma entrada curinga para as URLs simples</p></td>
+<p>(Opcional) *.contoso.com</p></td>
+<td><p>Os certificados do diretor podem ser solicitados de uma CA (autoridade de certificação) gerenciada internamente ou de uma AC pública.</p>
+<p>O diretor responde às solicitações do proxy reverso no perímetro ou do servidor de borda. Os clientes internos não usarão o diretor.</p>
+<p>Ou uma entrada curinga para os URLs simples</p></td>
 </tr>
 <tr class="even">
 <td><p>OAuthTokenIssuer</p></td>
 <td><p>dir01.contoso.net</p></td>
-<td><p>Sem entrada</p></td>
+<td><p>Nenhuma entrada</p></td>
 <td><div>
 
 > [!IMPORTANT]  
-> Observe que o tamanho mínimo da chave é 1024, mas você pode receber um aviso de que o tamanho mínimo recomendado da chave é 2048 bits.
+> Observe que o comprimento mínimo de chave é 1024, mas você pode receber um aviso de que o comprimento de chave mínimo recomendado é 2048 bits.
 
 
 </div>
-<p>O certificado OAuthTokenIssuer é um certificado de finalidade única para a finalidade de autenticar servidores em um ambiente em larga escala e pode ser solicitado de uma CA interna ou de uma CA pública. O certificado é necessário.</p></td>
+<p>O certificado OAuthTokenIssuer é um certificado para o fim único de autenticar servidores em um ambiente de grande escala e pode ser solicitado de um CA interno ou público. O certificado é exigido.</p></td>
 </tr>
 </tbody>
 </table>

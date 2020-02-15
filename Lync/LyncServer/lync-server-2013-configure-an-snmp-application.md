@@ -12,16 +12,16 @@ ms:contentKeyID: 48185346
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9e11d79278318c99e1c6a1db3c4609e19553ba4c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3e7dafe07796f6d93e6357a5bff9aa058fe29b85
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757815"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028742"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41757815"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-03_
+_**Última modificação do tópico:** 2012-10-03_
 
-O Lync Server 2013 inclui uma interface de serviço Web padrão que você pode usar para conectar o serviço de informações de localização a aplicativos de protocolo de gerenciamento de rede simples (SNMP) que correspondem a endereços MAC com informações de porta e switch.
+O Lync Server 2013 inclui uma interface de serviço Web padrão que você pode usar para conectar o serviço de informações de local aos aplicativos SNMP que correspondem a endereços MAC com informações de porta e switch.
 
-Se um aplicativo SNMP estiver instalado e o serviço de informações de localização não conseguir encontrar uma correspondência no banco de dados de localização, o serviço de informações de localização consultará automaticamente o aplicativo usando o endereço MAC fornecido pelo cliente. Em seguida, o serviço de informações de localização usa a porta e as informações de troca retornadas pelo aplicativo SNMP para consultar o banco de dados de localização novamente.
+Se um aplicativo SNMP estiver instalado e o serviço de informações de local não conseguir localizar uma correspondência no banco de dados de local, o serviço de informações de local consultará automaticamente o aplicativo usando o endereço MAC fornecido pelo cliente. O serviço de informações de local usa as informações de porta e switch retornadas pelo aplicativo SNMP para consultar o banco de dados de local novamente.
 
 Para obter detalhes, consulte [set-CsWebServiceConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsWebServiceConfiguration).
 
@@ -57,7 +57,7 @@ Para obter detalhes, consulte [set-CsWebServiceConfiguration](https://docs.micro
 
 ## <a name="to-configure-the-snmp-application-url"></a>Para configurar a URL do aplicativo SNMP
 
-1.  Inicie o Shell de gerenciamento do Lync Server: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Shell de gerenciamento do Lync Server**.
+1.  Inicie o Shell de Gerenciamento do Lync Server: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Shell de Gerenciamento do Lync Server**.
 
 2.  Execute o seguinte cmdlet para configurar a URL do aplicativo SNMP.
     

@@ -12,16 +12,16 @@ ms:contentKeyID: 48183297
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6467ae9eb3c4d5159181a2d022c060b0b9f1fec9
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4b344b3e4ffbeb5d429db2d7220be5bbca9fbed6
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758015"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030434"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,23 +35,23 @@ ms.locfileid: "41758015"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-01_
+_**Última modificação do tópico:** 2012-10-01_
 
-A implantação de um servidor Standard Edition em uma implantação existente do Enterprise Edition é semelhante à implantação de funções de servidor adicionais. Um servidor padrão da edição pode ser implantado em outro site, permitindo que os usuários nesse site sejam hospedados no servidor do Standard Edition, em vez do pool de front-end em uma rede de longa distância (WAN). Os procedimentos para instalar o novo site e os servidores nesse site já estão definidos em outras seções da documentação sobre a [implantação do Lync Server 2013](lync-server-2013-deploying-lync-server.md) .
+A implantação de um servidor Standard Edition em uma implantação existente do Enterprise Edition é semelhante à implantação de funções de servidor adicionais. Um servidor Standard Edition pode ser implantado em outro site, permitindo que os usuários desse site sejam hospedados no servidor Standard Edition, e não no pool de front-ends em uma rede de longa distância (WAN). Os procedimentos para instalar o novo site e os servidores desse site já estão definidos em outras seções da documentação [implantando o Lync Server 2013](lync-server-2013-deploying-lync-server.md) .
 
 <div id="sectionSection0" class="section">
 
 **Para definir um novo site**
 
-1.  Iniciar o construtor de topologias: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Construtor de topologias do Lync Server**.
+1.  Inicie o construtor de topologias: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e em **Construtor de topologias do Lync Server**.
 
-2.  Na árvore de console, clique com o botão direito do mouse no **Lync Server 2013**e, em seguida, clique em **novo site central**.
+2.  Na árvore do console, clique com o botão direito do mouse em **Lync Server 2013**e, em seguida, clique em **novo site central**.
 
-3.  Na página **identificar o site** , forneça um nome para o site e, opcionalmente, insira uma descrição.
+3.  Na página **Identificar o site**, nomeie o site e insira uma descrição (opcional).
 
 4.  Siga os procedimentos para definir o restante da topologia do site. Para obter detalhes, consulte [definindo e configurando a topologia no Lync Server 2013](lync-server-2013-defining-and-configuring-the-topology.md).
 
-5.  Publicar a topologia atualizada. Para obter detalhes, consulte [publicar a topologia no Lync Server 2013](lync-server-2013-publish-the-topology.md).
+5.  Publique a topologia atualizada. Para obter detalhes, consulte [publish the Topology in Lync Server 2013](lync-server-2013-publish-the-topology.md).
 
 6.  Configurar e instalar um servidor Standard Edition.
     
@@ -59,7 +59,7 @@ A implantação de um servidor Standard Edition em uma implantação existente d
     
 
     > [!Caution]  
-    > Se você implantou um ambiente com apenas um servidor Standard Edition, você começou a usar o processo de instalação do assistente de implantação do Lync Server usando o link <STRONG>preparar primeiro padrão do servidor</STRONG> para instalar os arquivos de banco de dados iniciais para o novo servidor Standard Edition. <STRONG>Não siga esse</STRONG> processo ao instalar um servidor Standard Edition em uma implantação existente do Lync Server 2013.
+    > Se você tiver implantado um ambiente com apenas um servidor Standard Edition, você terá iniciado o processo de instalação do assistente de implantação do Lync Server usando o link <STRONG>preparar primeiro servidor Standard Edition</STRONG> para instalar os arquivos de banco de dados iniciais no novo servidor Standard Edition. <STRONG>Não</STRONG> siga esse processo ao instalar um servidor Standard Edition em uma implantação existente do Lync Server 2013.
 
     
     </div>

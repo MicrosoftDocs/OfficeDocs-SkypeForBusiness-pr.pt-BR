@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Criar e verificar registros DNS SRV'
+title: 'Lync Server 2013: criar e verificar registros DNS SRV'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184714
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8440d2ae91d535c8c4747c923b1b17dda9bb0f46
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e6f56b2c406a14a6a1781705017d13d8b823472c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726351"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008703"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,31 +35,31 @@ ms.locfileid: "41726351"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-02-21_
+_**Última modificação do tópico:** 2013-02-21_
 
-Para concluir esse procedimento com êxito, você deve estar conectado ao servidor ou domínio minimamente como membro do grupo Domain admins ou um membro do grupo DnsAdmins.
+To successfully complete this procedure, you should be logged on to the server or domain minimally as a member of the Domain Admins group or a member of the DnsAdmins group.
 
-Este tópico descreve como configurar os registros de DNS (sistema de nomes de domínio) que você precisa criar nas implantações do Lync Server 2013 e aqueles necessários para a entrada automática do cliente. Quando você cria um pool de front-end, o programa de instalação cria objetos e configurações do Active Directory para o pool, incluindo o nome de domínio totalmente qualificado (FQDN) do pool. Objetos e configurações semelhantes são criados para um servidor Standard Edition. Para que os clientes possam se conectar ao servidor do pool ou da edição Standard, o FQDN do pool ou do servidor Standard Edition deve ser registrado no DNS. Você deve criar registros SRV DNS no seu DNS interno para cada domínio SIP. Este procedimento pressupõe que o seu DNS interno tem zonas para seus domínios de usuário SIP.
+Este tópico descreve como configurar os registros de DNS (sistema de nomes de domínio) que você precisa criar nas implantações do Lync Server 2013 e aqueles necessários para entrar no cliente automático. Quando você cria um pool de front-ends, a instalação cria objetos e configurações do Active Directory para o pool, incluindo o nome de domínio totalmente qualificado (FQDN) do pool. São criados objetos e configurações semelhantes para um servidor Standard Edition. Para que os clientes possam se conectar ao pool ou ao servidor Standard Edition, o FQDN do pool ou do servidor Standard Edition deve ser registrado no DNS. Você deve criar registros SRV de DNS no DNS interno para cada domínio SIP. Este procedimento supõe que o DNS interno tem zonas para os domínios de usuário do SIP.
 
 <div>
 
-## <a name="to-configure-a-dns-srv-record"></a>Para configurar um registro SRV DNS
+## <a name="to-configure-a-dns-srv-record"></a>Para configurar um registro SRV de DNS
 
-1.  No servidor DNS, clique em **Iniciar**, clique em **Ferramentas administrativas**e, em seguida, clique em **DNS**.
+1.  No servidor DNS, clique em **Iniciar**, clique em **Ferramentas Administrativas** e em **DNS**.
 
-2.  Na árvore de console do seu domínio SIP, expanda **zonas de pesquisa direta**e clique com o botão direito do mouse no domínio SIP no qual o Lync Server 2013 será instalado.
+2.  Na árvore do console do seu domínio SIP, expanda **zonas de pesquisa direta**e clique com o botão direito do mouse no domínio SIP no qual o Lync Server 2013 será instalado.
 
-3.  Clique em **outros novos registros**.
+3.  Clique em **Outros Registros Novos**.
 
-4.  Em **Selecionar um tipo de registro de recurso**, clique em **Local do serviço(SRV)**, e depois clique em **Criar registro**.
+4.  Em **Selecione um tipo de registro de recurso**, clique em **Local do Serviço (SRV)** e, em seguida, clique em **Criar Registro**.
 
-5.  Clique em **serviço**e, em seguida, digite ** \_sipinternaltls**.
+5.  Clique em **serviço**e digite ** \_sipinternaltls**.
 
 6.  Clique em **protocolo**e digite ** \_TCP**.
 
-7.  Clique em **Número da porta** e digite **5061**.
+7.  Clique em **Número da Porta** e digite **5061**.
 
-8.  Clique em **Host que oferece este serviço** e digite o FQDN do pool ou o servidor Standard Edition.
+8.  Clique em **host que oferece este serviço**e digite o FQDN do pool ou servidor Standard Edition.
 
 9.  Clique em **OK** e em **Concluído**.
 
@@ -67,27 +67,27 @@ Este tópico descreve como configurar os registros de DNS (sistema de nomes de d
 
 <div>
 
-## <a name="to-verify-the-creation-of-a-dns-srv-record"></a>Para verificar a criação de um registro SRV DNS
+## <a name="to-verify-the-creation-of-a-dns-srv-record"></a>Para verificar a criação de um registro SRV de DNS
 
 1.  Faça logon em um computador cliente do domínio com uma conta que seja membro do grupo Usuários autenticados ou que tenha permissões equivalentes.
 
-2.  Clique em  **Iniciar ** e em  **Executar **.
+2.  Clique em **Iniciar** e em **Executar**.
 
-3.  Na caixa **abrir** , digite **cmd**e clique em **OK**.
+3.  Na caixa **Abrir**, digite **cmd** e clique em **OK**.
 
-4.  No prompt de comando, digite **nslookup**e pressione Enter.
+4.  No prompt de comando, digite **nslookup** e pressione ENTER.
 
-5.  Digite **set type = SRV**e pressione Enter.
+5.  Digite **set type=srv** e pressione ENTER.
 
-6.  Digite ** \_sipinternaltls.\_ tcp.contoso.com**e, em seguida, pressione Enter. A saída exibida para o registro do Transport Layer Security (TLS) é a seguinte:
+6.  Digite ** \_sipinternaltls.\_ tcp.contoso.com**e pressione Enter. A saída exibida para o registro de TLS (segurança de camada de transporte) é a seguinte:
     
-    Servidor: \<DNS server\>. contoso.com
+    Servidor: \<servidor\>DNS. contoso.com
     
     Endereço: \<endereço IP do servidor DNS\>
     
-    Resposta não autoritativa:
+    Resposta não-autorizada:
     
-    \_sipinternaltls. \_localização do serviço SRV TCP.contoso.com:
+    \_sipinternaltls. \_local do serviço SRV do TCP.contoso.com:
     
     prioridade = 0
     
@@ -95,27 +95,27 @@ Este tópico descreve como configurar os registros de DNS (sistema de nomes de d
     
     porta = 5061
     
-    SVR hostname = poolname.contoso.com (ou Standard Edition Server A um registro)
+    nome da SVR = poolname.contoso.com (ou um registro do servidor Standard Edition A)
     
-    Endereço de Internet poolname.contoso.com \<= endereço IP virtual do balanceador de\> carga \<ou endereço IP de um único servidor Enterprise Edition para pools com apenas um servidor\> Enterprise \<Edition ou endereço IP do servidor Standard Edition\>
+    poolname.contoso.com Internet address = \<endereço IP virtual do balanceador de carga\> ou \<endereço IP de um único servidor Enterprise Edition para pools com apenas um servidor\> Enterprise Edition \<ou endereço IP do servidor Standard Edition\>
 
-7.  Quando tiver terminado, no prompt de comando, digite **Exit**e pressione Enter.
+7.  Quando terminar, no prompt de comando, digite **exit** e pressione ENTER.
 
 </div>
 
 <div>
 
-## <a name="to-verify-that-the-fqdn-of-the-front-end-pool-or-standard-edition-server-can-be-resolved"></a>Para verificar se o FQDN do servidor de front-end ou do servidor Standard Edition pode ser resolvido
+## <a name="to-verify-that-the-fqdn-of-the-front-end-pool-or-standard-edition-server-can-be-resolved"></a>Para verificar se o FQDN do servidor Standard Edition ou pool de Front-Ends pode ser resolvido
 
 1.  Faça logon em um computador cliente no domínio.
 
-2.  Clique em  **Iniciar ** e em  **Executar **.
+2.  Clique em **Iniciar** e em **Executar**.
 
-3.  Na caixa **abrir** , digite **cmd**e clique em **OK**.
+3.  Na caixa **Abrir**, digite **cmd** e clique em **OK**.
 
-4.  No prompt de comando, digite FQDN do **nslookup** \<do pool\> de front- \<end ou FQDN do servidor\>Standard Edition e, em seguida, pressione Enter.
+4.  No prompt de comando, digite FQDN do **nslookup** \<do pool\> de front- \<ends ou FQDN do servidor\>Standard Edition e pressione Enter.
 
-5.  Verifique se você recebe uma resposta que é resolvida para o endereço IP apropriado para o FQDN.
+5.  Verifique se recebeu uma resposta que resolve para o endereço IP apropriado para o FQDN.
 
 </div>
 

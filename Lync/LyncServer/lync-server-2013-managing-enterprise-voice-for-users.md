@@ -12,16 +12,16 @@ ms:contentKeyID: 49733690
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d24e8447cb900349e49e868b0511a232fa22d00a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 887e5cb34917d588f6dfb59ee47e5eda07bc2e83
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729291"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029482"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41729291"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-11_
+_**Última modificação do tópico:** 2012-10-11_
 
-Você pode habilitar o Enterprise Voice para cada usuário. Use os procedimentos desta seção para gerenciar o Enterprise Voice usando o painel de controle do Lync Server 2013 e o Shell de gerenciamento do Lync Server 2013.
+Você pode habilitar o Enterprise Voice por usuário. Use os procedimentos desta seção para gerenciar o Enterprise Voice usando o painel de controle do Lync Server 2013 e o Shell de gerenciamento do Lync Server 2013.
 
 <div>
 
 ## <a name="in-this-section"></a>Nesta seção
 
-  - [Habilitar usuários para Enterprise Voice no Lync Server 2013](lync-server-2013-enable-users-for-enterprise-voice.md)
+  - [Habilitar usuários para o Enterprise Voice no Lync Server 2013](lync-server-2013-enable-users-for-enterprise-voice.md)
 
   - [Desabilitar um usuário para o Enterprise Voice no Lync Server 2013](lync-server-2013-disable-a-user-for-enterprise-voice.md)
 

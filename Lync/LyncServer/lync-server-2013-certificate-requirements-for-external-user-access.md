@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Requisitos de certificado para acesso do usuário externo'
+title: 'Lync Server 2013: requisitos de certificado para acesso de usuário externo'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185503
 ms.date: 03/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a1b6495dbad5350f94873099985922f1adc198f2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7000456629a91742350b9866dc9e1441c18eee57
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736831"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030865"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="certificate-requirements-for-external-user-access-in-lync-server-2013"></a>Requisitos de certificado para acesso do usuário externo no Lync Server 2013
+# <a name="certificate-requirements-for-external-user-access-in-lync-server-2013"></a>Requisitos de certificado para acesso de usuário externo no Lync Server 2013
 
 </div>
 
@@ -35,93 +35,93 @@ ms.locfileid: "41736831"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2016-03-29_
+_**Última modificação do tópico:** 2016-03-29_
 
-O software de comunicação do Microsoft Lync Server 2013 dá suporte ao uso de um único certificado público para interfaces externas Edge de acesso e Web Conferencing, além do serviço de autenticação A/V. A interface interna Edge geralmente usa um certificado particular emitido por uma autoridade de certificação interna (CA), mas também pode usar um certificado público, desde que ele seja de uma autoridade de certificação pública confiável. O proxy inverso em sua implantação usa um certificado público e criptografa a comunicação do proxy reverso para os clientes e o proxy reverso para servidores internos usando HTTP (ou seja, Transport Layer Security via HTTP).
+O software de comunicações do Microsoft Lync Server 2013 suporta o uso de um único certificado público para interfaces externas de borda de acesso e webconferência, além do serviço de autenticação A/V. A interface interna de Borda normalmente usa um certificado privado emitido por uma autoridade de certificação (CA) interna, mas também pode usar um certificado público, contanto que seja de uma CA pública confiável. O proxy reverso em sua implantação usa um certificado público e criptografa a comunicação do proxy reverso para os clientes e do proxy reverso para os servidores internos usando HTTP (ou seja, Segurança da camada de transporte sobre HTTP).
 
-Veja a seguir os requisitos para o certificado público usado para interfaces externas de Edge de acesso e Web proconferência e o serviço de autenticação A/V:
+Veja a seguir os requisitos para o certificado público usado para interfaces externas de Borda de acesso e de webconferência e para o serviço de autenticação A/V:
 
-  - O certificado deve ser emitido por uma autoridade de certificação pública aprovada que seja compatível com o nome alternativo do assunto. Para obter detalhes, consulte o artigo 929395 da base de dados de conhecimento Microsoft, "parceiros de certificado de comunicação unificada [http://go.microsoft.com/fwlink/p/?linkId=202834](http://go.microsoft.com/fwlink/p/?linkid=202834)para Exchange Server e Communications Server" em.
+  - O certificado precisa ser emitido por uma CA pública aprovada que suporta nomes de entidade alternativos. Para obter detalhes, consulte o artigo 929395 da base de dados de conhecimento da Microsoft, "parceiros de certificado de comunicações unificadas para o Exchange Server e o Communications Server" em [http://go.microsoft.com/fwlink/p/?linkId=202834](http://go.microsoft.com/fwlink/p/?linkid=202834).
 
-  - Se o certificado for usado em um pool de bordas, ele deverá ser criado como exportável, com o mesmo certificado usado em cada servidor de borda no pool de borda. O requisito de chave privada de exportável é para os fins do serviço de autenticação A/V, que deve usar a mesma chave privada em todos os servidores de borda do pool.
+  - Se o certificado for usado em um pool de Borda, ele deverá ser criado como exportável, com o mesmo certificado usado em cada Servidor de Borda no pool de Borda. O requisito de chave privada exportável serve para o serviço de Autenticação A/V, que precisa usar a mesma chave privada em todos os Servidores de Borda no pool.
 
-  - Se você quiser maximizar o tempo de atividade para seus serviços de áudio/vídeo, examine os requisitos de certificado para implementar um certificado de serviço de borda a/V separado (ou seja, um certificado de serviço de borda A/V separado das outras finalidades de certificado de borda externa). Para obter detalhes, consulte [alterações no Lync server 2013 que afetam o planejamento do servidor de borda](lync-server-2013-changes-in-lync-server-that-affect-edge-server-planning.md), [planejar certificados do servidor de borda no Lync Server 2013](lync-server-2013-plan-for-edge-server-certificates.md) e [preparar certificados AV e OAuth no Lync Server 2013 using-roll Set-CsCertificate](lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-https://docs.microsoft.com/powershell/module/skype/Set-CsCertificate).
+  - Se você quiser maximizar o tempo de atividade para seus serviços de áudio/vídeo, revise os requisitos de certificado para implementar um certificado de serviço de borda A/V separado (ou seja, um certificado de serviço de borda A/V separado de outros fins de certificado de borda externa). Para obter detalhes, consulte [Changes in Lync server 2013 que afetam o planejamento do servidor de borda](lync-server-2013-changes-in-lync-server-that-affect-edge-server-planning.md), [planejar certificados do servidor de borda no Lync Server 2013](lync-server-2013-plan-for-edge-server-certificates.md) e [preparar certificados AV e OAuth no Lync Server 2013 usando-Reset-CsCertificate](lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-https://docs.microsoft.com/powershell/module/skype/Set-CsCertificate).
 
-  - O nome do requerente do certificado é o nome de domínio totalmente qualificado do serviço de borda de acesso (FQDN) ou VIP do balanceador de carga de hardware (por exemplo, access.contoso.com). ). O nome do requerente não pode ter um caractere curinga, ele deve ser um nome explícito.
+  - O nome da entidade do certificado é o nome de domínio totalmente qualificado (FQDN) do serviço de borda de acesso ou VIP do balanceador de carga de hardware (por exemplo, access.contoso.com). ). O nome da entidade não pode ter um caractere curinga, deve ser um nome explícito.
     
     <div>
     
 
     > [!NOTE]  
-    > Para o Lync Server 2013, isso não é mais necessário, mas ainda é recomendado para compatibilidade com o Office Communications Server.
+    > Para o Lync Server 2013, isso não é mais um requisito, mas ainda é recomendado para compatibilidade com o Office Communications Server.
 
     
     </div>
 
-  - A lista de nomes alternativos de entidades contém os FQDNs dos seguintes:
+  - A lista de nomes de entidade alternativos contém os FQDNs do seguinte:
     
-      - A interface externa do serviço de borda do Access ou VIP do balanceador de carga de hardware (por exemplo, sip.contoso.com).
+      - A interface externa do serviço de borda de acesso ou VIP do balanceador de carga de hardware (por exemplo, sip.contoso.com).
         
         <div>
         
 
         > [!NOTE]  
-        > Embora o nome do requerente do certificado seja igual ao FQDN do conector de acesso, o nome alternativo do assunto também deve conter o FQDN de borda de acesso porque a segurança da camada de transporte (TLS) ignora o nome do assunto e usa as entradas de nome alternativo do assunto para validação.
+        > Embora o nome de entidade do certificado seja igual ao FQDN da Borda de acesso, o nome de entidade alternativo também precisa conter o FQDN da Borda de acesso, pois a TLS ignora o nome de entidade e usa as entradas de nome de entidade alternativo para validação.
 
         
         </div>
     
-      - A interface de borda externa Web de Webconferência ou VIP de balanceador de carga de hardware (por exemplo, webcon.contoso.com).
+      - Da interface externa da Borda de webconferência ou VIP do balanceador de carga de hardware (por exemplo, webcon.contoso.com).
     
-      - Se você estiver usando a configuração automática do cliente ou a Federação, inclua também qualquer FQDN do domínio SIP usado dentro da sua empresa (por exemplo, sip.contoso.com, sip.fabrikam.com).
+      - Se você estiver usando a configuração ou federação automática de cliente, inclua também quaisquer FQDNs de domínio de SIP usados em sua empresa (por exemplo, sip.contoso.com, sip.fabrikam.com).
     
-      - O serviço de borda A/V não usa as entradas de nome de assunto ou de nomes alternativos de assunto.
+      - O serviço de borda A/V não usa as entradas de nome de entidade ou de nomes alternativos de entidade.
     
     <div>
     
 
     > [!NOTE]  
-    > A ordem dos FQDNs na lista nomes alternativos de entidades não importa.
+    > A ordem dos FQDNs na lista de nomes de entidade alternativos não importa.
 
     
     </div>
 
-Se você estiver implantando vários servidores Edge com carga balanceada em um site, o certificado do serviço de autenticação A/V que é instalado em cada servidor de borda deve ser da mesma CA e deve usar a mesma chave privada. Observe que a chave privada do certificado deve ser exportável, independentemente de ser usada em um servidor de borda ou muitos servidores de borda. Ele também deve ser exportável se você solicitar o certificado de qualquer computador que não seja o servidor de borda. Como o serviço de autenticação A/V não usa o nome da entidade ou o nome alternativo do assunto, você pode reutilizar o certificado de borda do Access desde que o nome da entidade e os requisitos de nome alternativo do certificado sejam exportáveis para a borda do Access e a chave privada do certificado.
+Se você estiver implantando múltiplos Servidores de Borda com carga balanceada em um site, o certificado do serviço de autenticação A/V instalado em cada Servidor de Borda deverá ser da mesma CA e deverá usar a mesma chave privada. Observe que a chave privada do certificado precisa ser exportável, independentemente se for usada em um Servidor de Borda ou em muitos Servidores de Borda. Também deve ser exportável se você solicitar o certificado de qualquer computador além do Servidor de Borda. Como o serviço de autenticação A/V não usa o nome de entidade ou o nome alternativo de entidade, é possível reutilizar o certificado de Borda de acesso contanto que os requisitos de nome de entidade e de nome de entidade alternativo sejam atendidos para a Borda de acesso e para a Borda de webconferência e a chave privada do certificado seja exportável.
 
-Os requisitos para o certificado privado (ou público) usado para a interface interna de borda são os seguintes:
+Os requisitos para o certificado privado (ou público) usado na interface interna de Borda são os seguintes:
 
-  - O certificado pode ser emitido por uma autoridade de certificação interna ou uma CA de certificado público aprovada.
+  - O certificado pode ser emitido por uma CA interna ou uma CA de certificado público aprovada.
 
-  - O nome do requerente do certificado geralmente é o FQDN ou o VIP da interface interna do hardware ou o VIP do balanceador de carga de hardware (por exemplo, lsedge.contoso.com). No entanto, você pode usar um certificado curinga na borda interna.
+  - O nome de entidade do certificado é normalmente o FQDN da interface interna da Borda ou o VIP do balanceador de carga de hardware (por exemplo, lsedge.contoso.com). No entanto, é possível usar um certificado curinga na Borda interna.
 
-  - Nenhuma lista de nomes alternativos de entidades é necessária.
+  - Nenhuma lista de nomes de entidade alternativos é necessária.
 
-O proxy reverso em seus serviços de implantação solicita:
+O proxy reverso em seus serviços de implantação solicitam:
 
-  - Acesso do usuário externo ao conteúdo da reunião para reuniões
+  - Acesso de usuário externo para atender ao conteúdo das reuniões
 
-  - Acesso de usuário externo para expandir e exibir membros de grupos de distribuição
+  - Acesso de usuário externo para expandir e exibir membros dos grupos de distribuição
 
-  - Acesso de usuário externo a arquivos que podem ser baixados do serviço de catálogo de endereços
+  - Acesso de usuário externo para arquivos baixáveis do Serviço de Catálogo de Endereços
 
   - Acesso de usuário externo ao cliente do Lync Web App
 
-  - Acesso de usuário externo à página da Web configurações de conferência discada
+  - Acesso de usuário externo à página da web Configurações de Conferência Discada
 
-  - Acesso de usuário externo ao serviço de informações de localização
+  - Acesso de usuário externo ao Serviço de Informações de Local
 
-  - Acesso do dispositivo externo ao serviço de atualização de dispositivo e obter atualizações
+  - Acesso de dispositivo externo ao Serviço de Atualização de Dispositivo e obtenção de atualizações
 
-O proxy reverso publica as URLs dos Web Components do servidor interno. As URLs dos Web Components são definidas no director, servidor front-end ou pool de front-end como **Serviços Web externos** no construtor de topologias.
+O proxy reverso publica as URLs de Componentes da web do servidor interno. As URLs dos componentes Web são definidas no diretor, servidor front-end ou pool de front-ends como **Serviços Web externos** no construtor de topologias.
 
-Há suporte para entradas curinga no campo nome alternativo do assunto do certificado atribuído ao proxy reverso. Para obter detalhes sobre como configurar a solicitação de certificado para o proxy reverso, consulte [solicitar e configurar um certificado para seu proxy http reverso no Lync Server 2013](lync-server-2013-request-and-configure-a-certificate-for-your-reverse-http-proxy.md).
+Entradas curinga são suportadas no campo de nome de entidade alternativo do certificado atribuído ao proxy reverso. Para obter detalhes sobre como configurar a solicitação de certificado para o proxy reverso, consulte [solicitar e configurar um certificado para seu proxy http reverso no Lync Server 2013](lync-server-2013-request-and-configure-a-certificate-for-your-reverse-http-proxy.md).
 
 <div>
 
 ## <a name="see-also"></a>Confira também
 
 
-[Suporte a certificado curinga no Lync Server 2013](lync-server-2013-wildcard-certificate-support.md)  
+[Suporte a certificados curinga no Lync Server 2013](lync-server-2013-wildcard-certificate-support.md)  
   
 
 </div>

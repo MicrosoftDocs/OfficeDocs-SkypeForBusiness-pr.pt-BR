@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Gerenciar políticas de caixa postal hospedada'
+title: 'Lync Server 2013: gerenciar políticas de caixa postal hospedada'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184139
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 434cc1eb721635f4a56be33f48802da3bc6db0e3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d854a70fed08bd364f1df69b272ee46792eab786
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733351"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028442"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,33 +35,33 @@ ms.locfileid: "41733351"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-20_
+_**Última modificação do tópico:** 2012-09-20_
 
-Uma *política de correio de voz hospedada* fornece informações para o aplicativo de roteamento ExUM do Lync Server 2013 sobre onde direcionar chamadas para usuários cujas caixas de correio estão localizadas em um serviço hospedado do Exchange.
+Uma *política de caixa postal hospedada* fornece informações para o aplicativo de roteamento ExUM do Lync Server 2013 sobre onde rotear chamadas para usuários cujas caixas de correio estão localizadas em um serviço do Exchange hospedado.
 
 <div>
 
 
 > [!NOTE]  
-> Geralmente, apenas uma política de caixa postal hospedada é necessária. Em muitos casos, você pode modificar a política global para atender a todas as suas necessidades. Se você criar uma política com escopo de site, ela será atribuída automaticamente a todos os usuários hospedados no site especificado. Se você criar uma política com o escopo por usuário, deverá atribuí-la explicitamente a usuários, grupos e objetos de contato. É possível implantar várias políticas de caixa postal hospedadas, mas nesse caso, as políticas devem ser atribuídas a cada usuário.
+> Normalmente, somente uma política de caixa postal hospedada é necessária. Em muitos casos, você pode modificar a política global para atender todas as suas necessidades. Se você criar uma política com escopo no site, ela será atribuída automaticamente a todos os usuários hospedados no site especificado. Se você criar uma política com escopo por usuário, deverá atribuí-la explicitamente aos usuários, grupos e objetos de contato. É possível implantar várias políticas de caixa postal hospedada mas, nesse caso, as políticas devem ser atribuídas por usuário.
 
 
 
 </div>
 
-Para obter detalhes sobre como planejar políticas de correio de voz hospedadas, consulte [políticas de caixa postal hospedadas no Lync Server 2013](lync-server-2013-hosted-voice-mail-policies.md) na documentação de planejamento.
+Para obter detalhes sobre o planejamento de políticas de caixa postal hospedadas, consulte [Hosted voice mail Policies in Lync Server 2013](lync-server-2013-hosted-voice-mail-policies.md) na documentação de planejamento.
 
 <div>
 
 ## <a name="in-this-section"></a>Nesta seção
 
-  - [Modificar a política de caixa de correio de voz hospedada global no Lync Server 2013](lync-server-2013-modify-the-global-hosted-voice-mail-policy.md)
+  - [Modificar a política de caixa postal hospedada global no Lync Server 2013](lync-server-2013-modify-the-global-hosted-voice-mail-policy.md)
 
   - [Criar uma política de caixa postal hospedada no nível do site no Lync Server 2013](lync-server-2013-create-a-site-level-hosted-voice-mail-policy.md)
 
-  - [Criar uma política de correio de voz hospedada por usuário no Lync Server 2013](lync-server-2013-create-a-per-user-hosted-voice-mail-policy.md)
+  - [Criar uma política de caixa postal hospedada por usuário no Lync Server 2013](lync-server-2013-create-a-per-user-hosted-voice-mail-policy.md)
 
-  - [Atribuir uma política de correio de voz hospedada por usuário no Lync Server 2013](lync-server-2013-assign-a-per-user-hosted-voice-mail-policy.md)
+  - [Atribuir uma política de caixa postal hospedada por usuário no Lync Server 2013](lync-server-2013-assign-a-per-user-hosted-voice-mail-policy.md)
 
 </div>
 

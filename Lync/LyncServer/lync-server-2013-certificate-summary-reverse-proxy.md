@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Resumo de certificado - Proxy reverso'
+title: 'Lync Server 2013: Resumo de certificado-proxy reverso'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185820
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 42e52fa8522de53404fee3f3b5798f159361dbf5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 56da4c10da99a43c3a93f9ae251c2eb6f1536b37
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736611"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030855"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="certificate-summary---reverse-proxy-in-lync-server-2013"></a>Resumo de certificado - Proxy reverso no Lync Server 2013
+# <a name="certificate-summary---reverse-proxy-in-lync-server-2013"></a>Resumo de certificado-proxy reverso no Lync Server 2013
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41736611"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-11-14_
+_**Última modificação do tópico:** 2012-11-14_
 
-Os requisitos de certificado para o proxy reverso são muito mais simples do que os servidores de borda. O fluxograma fornecido apresenta os requisitos necessários. A tabela a seguir apresenta nomes de entidades de certificado típicos e nomes alternativos de assunto em relação aos cenários em que foi revisado nas discussões do servidor de borda. Para obter mais detalhes sobre os cenários do servidor de borda, consulte [cenários para acesso de usuários externos no Lync Server 2013](lync-server-2013-scenarios-for-external-user-access.md).
+Os requisitos de certificado para o proxy reverso são muito mais simples do que os servidores de borda. O fluxograma fornecido apresenta os requisitos necessários. A tabela a seguir apresenta os nomes de entidade de certificado típicos e os nomes alternativos da entidade em relação aos cenários que foram revisados nas discussões do servidor de borda. Para obter mais detalhes sobre os cenários de servidor de borda, consulte [cenários para acesso de usuário externo no Lync Server 2013](lync-server-2013-scenarios-for-external-user-access.md).
 
 **Fluxograma de certificados para proxy reverso**
 
-![Fluxograma de certificados do servidor de borda](images/JJ205381.026045d7-1b4b-4651-b32f-2d43a7161198(OCS.15).jpg "Fluxograma de certificados do servidor de borda")
+![Fluxograma de certificados do Servidor de Borda](images/JJ205381.026045d7-1b4b-4651-b32f-2d43a7161198(OCS.15).jpg "Fluxograma de certificados do Servidor de Borda")
 
-### <a name="reverse-proxy-external-interface"></a>Proxy inverso: interface externa
+### <a name="reverse-proxy-external-interface"></a>Proxy Reverso: Interface Externa
 
 <table>
 <colgroup>
@@ -55,8 +55,8 @@ Os requisitos de certificado para o proxy reverso são muito mais simples do que
 <thead>
 <tr class="header">
 <th>Componente</th>
-<th>Nome do assunto</th>
-<th>Nome alternativo do assunto (SAN)/Order</th>
+<th>Nome da entidade</th>
+<th>Ordem/Nome de entidade alternativo (SAN)</th>
 <th>Comentários</th>
 </tr>
 </thead>
@@ -71,16 +71,16 @@ Os requisitos de certificado para o proxy reverso são muito mais simples do que
 <p>officewebapps01.contoso.com</p>
 <p>lyncdiscover.contoso.com</p>
 <p>(Opcional):*. contoso.com</p></td>
-<td><p>O certificado deve ser emitido por uma CA pública e com o EKU do servidor. Serviços incluem serviço de catálogo de endereços, expansão do grupo de distribuição Office Web Apps para conferência e regras de publicação de dispositivo IP do Lync. O nome alternativo para o assunto inclui:</p>
+<td><p>O certificado deve ser emitido por um CA público e com o EKU do servidor. Os serviços incluem serviço de catálogo de endereços, expansão de grupo de distribuição do Office Web Apps para conferência e regras de publicação de dispositivo IP do Lync. Os nomes de entidade alternativos incluem:</p>
 <ul>
-<li><p>FQDN de serviços Web externos para servidor front-end ou pool de front-end</p></li>
-<li><p>FQDN de serviços Web externos para o diretor ou pool do diretor</p></li>
-<li><p>Conferência discada</p></li>
-<li><p>Regra de publicação de reunião online</p></li>
+<li><p>FQDN de serviços Web externos para o servidor front-end ou o pool de front-ends</p></li>
+<li><p>FQDN de serviços Web externos para diretor ou pool de diretor</p></li>
+<li><p>Conferência Discada</p></li>
+<li><p>Regra de publicação da reunião online</p></li>
 <li><p>Office Web Apps para conferência</p></li>
-<li><p>Lyncdiscover (descoberta automática)</p></li>
+<li><p>Lyncdiscover (Descoberta automática)</p></li>
 </ul>
-<p>O curinga opcional substitui a SAN e a discagem</p></td>
+<p>O curinga opcional substitui o SAN discado e reunião</p></td>
 </tr>
 </tbody>
 </table>

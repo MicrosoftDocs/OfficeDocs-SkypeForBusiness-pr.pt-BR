@@ -12,16 +12,16 @@ ms:contentKeyID: 48184648
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 848f4dc19ddf64c53c2dd30ae6ca4c8036b67c79
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3a3571cd93ae5d69fa4a432035284b9a752287b1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764091"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42033680"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41764091"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-12_
+_**Última modificação do tópico:** 2012-09-12_
 
-tblPrincipalMeta contém as entidades de segurança que devem ser atualizadas a partir dos serviços de domínio Active Directory.
+tblPrincipalMeta contém as entidades de segurança que precisam ser atualizadas dos serviços de domínio do Active Directory.
 
 ### <a name="columns"></a>Colunas
 
@@ -56,45 +56,45 @@ tblPrincipalMeta contém as entidades de segurança que devem ser atualizadas a 
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>multiimprimir</p></td>
+<td><p>prinID</p></td>
 <td><p>int, não nulo</p></td>
-<td><p>ID da entidade de segurança.</p></td>
+<td><p>ID principal.</p></td>
 </tr>
 <tr class="even">
 <td><p>prinAffiliationsDirty</p></td>
-<td><p>bit, e não nulo</p></td>
-<td><p>Verdadeiro se as afiliações principais precisarem ser atualizadas.</p></td>
+<td><p>bit, não vazio</p></td>
+<td><p>Verdadeiro se as afiliações da entidade precisam ser atualizadas.</p></td>
 </tr>
 <tr class="odd">
 <td><p>prinAttributesDirty</p></td>
-<td><p>bit, e não nulo</p></td>
-<td><p>Verdadeiro se os atributos principais precisarem ser atualizados.</p></td>
+<td><p>bit, não nulo</p></td>
+<td><p>Verdadeiro se os atributos da entidade precisam ser atualizados.</p></td>
 </tr>
 <tr class="even">
 <td><p>prinDeleted</p></td>
-<td><p>bit, e não nulo</p></td>
-<td><p>Verdadeiro se o capital foi excluído.</p></td>
+<td><p>bit, não nulo</p></td>
+<td><p>Verdadeiro se a entidade foi excluída.</p></td>
 </tr>
 <tr class="odd">
 <td><p>tryCount</p></td>
 <td><p>int</p></td>
-<td><p>Número de tentativas de atualizar a entidade de segurança do AD DS que aconteceram até agora.</p></td>
+<td><p>Número de tentativas para atualizar a entidade do AD DS que ocorreram até o momento.</p></td>
 </tr>
 <tr class="even">
 <td><p>lastTry</p></td>
 <td><p>datetime</p></td>
-<td><p>Carimbo de data/hora da tentativa mais recente de atualizar a entidade de segurança. Pode ser NULL se ainda não houver uma tentativa de atualização.</p></td>
+<td><p>Carimbo de data/hora da tentativa mais recente para atualizar a entidade. Pode ser nulo se ainda não houve tentativa de atualização.</p></td>
 </tr>
 <tr class="odd">
 <td><p>nextTry</p></td>
 <td><p>datetime</p></td>
-<td><p>Carimbo de data/hora para a próxima atualização agendada. Pode ser NULL se não houver mais nenhuma atualização agendada.</p></td>
+<td><p>Carimbo de data/hora para a próxima atualização agendada. Pode ser nulo se nenhuma atualização foi agendada.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="keys"></a>As
+### <a name="keys"></a>Chaves
 
 <table>
 <colgroup>
@@ -109,12 +109,12 @@ tblPrincipalMeta contém as entidades de segurança que devem ser atualizadas a 
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>multiimprimir</p></td>
+<td><p>prinID</p></td>
 <td><p>Chave primária.</p></td>
 </tr>
 <tr class="even">
-<td><p>multiimprimir</p></td>
-<td><p>Chave estrangeira com Lookup na tabela tblPrincipal. retoid.</p></td>
+<td><p>prinID</p></td>
+<td><p>Chave estrangeira com pesquisa na tabela tblPrincipal.prinID.</p></td>
 </tr>
 </tbody>
 </table>

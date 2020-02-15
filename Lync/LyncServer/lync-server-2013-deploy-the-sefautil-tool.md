@@ -12,20 +12,20 @@ ms:contentKeyID: 51541534
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dcd995a99514fa54a221e17f1ea556565cbebdcb
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b3ff23a228710ecc934e2984f27c63351ccf6d32
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729611"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030945"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deploy-the-sefautil-tool-in-lync-server-2013"></a>Deploy the SEFAUtil tool in Lync Server 2013
+# <a name="deploy-the-sefautil-tool-in-lync-server-2013"></a>Implantar a ferramenta SEFAUtil no Lync Server 2013
 
 </div>
 
@@ -35,27 +35,27 @@ ms.locfileid: "41729611"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-01-30_
+_**Última modificação do tópico:** 2013-01-30_
 
-Para implantar e gerenciar o recebimento de chamadas em grupo, você precisa usar a ferramenta kit de recursos do SEFAUtil. A ferramenta faz parte das ferramentas do Lync Server 2013 Resource Kit. Antes de poder instalar o SEFAUtil, você deve ter um pool de aplicativos confiável na sua topologia, especificar SEFAUtil como um aplicativo confiável e habilitar a topologia.
+Para implantar e gerenciar o recebimento de chamadas em grupo, você precisa usar a ferramenta SEFAUtil Resource Kit. A ferramenta faz parte das ferramentas do Lync Server 2013 Resource Kit. Antes de instalar o SEFAUtil, você deve ter um pool de aplicativos confiáveis em sua topologia, especificar SEFAUtil como um aplicativo confiável e habilitar a topologia.
 
 <div>
 
 
 > [!IMPORTANT]  
-> O Microsoft UCMA (Unified Communications Managed API) 3.0 Core SDK deve estar instalado em qualquer computador no qual você planeja executar a ferramenta SEFAUtil.
+> Microsoft Unified Communications Managed API (UCMA) 3,0 Core SDK deve ser instalado em qualquer computador no qual você planeja executar a ferramenta SEFAUtil.
 
 
 
 </div>
 
-Você pode executar o SEFAUtil em qualquer pool de front-ends na sua implantação.
+Você pode executar o SEFAUtil em qualquer pool de front-ends em sua implantação.
 
 <div>
 
 
 > [!NOTE]  
-> Para obter mais detalhes sobre como executar o SEFAUtil, consulte o artigo do blog do TechNet "como fazer SEFAutil executar?" em <A href="http://go.microsoft.com/fwlink/?linkid=278940">http://go.microsoft.com/fwlink/?LinkId=278940</A>.
+> Para obter mais detalhes sobre a execução do SEFAUtil, consulte o artigo do blog da TechNet, "How to Get SEFAutil Running?" em <A href="http://go.microsoft.com/fwlink/?linkid=278940">http://go.microsoft.com/fwlink/?LinkId=278940</A>.
 
 
 
@@ -63,13 +63,13 @@ Você pode executar o SEFAUtil em qualquer pool de front-ends na sua implantaç�
 
 <div>
 
-## <a name="to-deploy-sefautil"></a>Para implantar a SEFAUtil
+## <a name="to-deploy-sefautil"></a>Para implantar o SEFAUtil
 
-1.  Faça logon no computador em que o Shell de gerenciamento do Lync Server está instalado como membro do grupo RTCUniversalServerAdmins ou com os direitos de usuário necessários, conforme descrito em [permissões de configuração de representante no Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
+1.  Faça logon no computador onde o Shell de gerenciamento do Lync Server está instalado como um membro do grupo RTCUniversalServerAdmins ou com os direitos de usuário necessários, conforme descrito em [delegar permissões de configuração no Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
 
-2.  Inicie o Shell de gerenciamento do Lync Server: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Shell de gerenciamento do Lync Server**.
+2.  Inicie o Shell de Gerenciamento do Lync Server: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Shell de Gerenciamento do Lync Server**.
 
-3.  A ferramenta SEFAUtil só pode ser executada em um computador que integra um pool de aplicativos confiáveis. Se necessário, defina um pool de aplicativos confiável para o pool de front-ends em que você planeja executar o SEFAUtil. Na linha de comando, execute:
+3.  A ferramenta SEFAUtil pode ser executada apenas em um computador que faça parte de um pool de aplicativos confiáveis. Se necessário, defina um pool de aplicativos confiáveis para o pool de front-ends onde você planeja executar o SEFAUtil. Na linha de comando, execute:
     
         New-CsTrustedApplicationPool -id <Pool FQDN> -Registrar <Pool Registrar FQDN> -site Site:<Pool Site>
 
@@ -81,35 +81,35 @@ Você pode executar o SEFAUtil em qualquer pool de front-ends na sua implantaç�
     
 
     > [!NOTE]  
-    > Se necessário, você pode usar uma porta diferente.
+    > Você pode usar uma porta diferente, se necessário.
 
     
     </div>
 
-5.  Habilite a topologia com suas alterações. Na linha de comando, digite:
+5.  Habilite a topologia com suas alterações. Na linha de comando, execute:
     
         Enable-CsTopology
 
-6.  Instale as ferramentas do Lync Server 2013 Resource Kit em um servidor front-end que está no pool de aplicativos confiáveis que você criou na etapa 3.
+6.  Instale as ferramentas do kit de recursos do Lync Server 2013 em um servidor front-end que esteja no pool de aplicativos confiáveis que você criou na etapa 3.
 
-7.  Verifique se a ferramenta SEFAUtil está sendo executada corretamente conforme segue:
+7.  Verifique se a ferramenta SEFAUtil está funcionando corretamente, da seguinte maneira:
     
-    1.  Execute a ferramenta no prompt de comando do Windows com privilégios de administrador para exibir as configurações de encaminhamento de chamada de um usuário de sua implantação.
+    1.  Execute a ferramenta a partir do prompt de comando do Windows com privilégios de administrador para exibir as configurações de encaminhamento de chamadas de um usuário em sua implantação.
         
         <div>
         
 
         > [!NOTE]  
-        > A ferramenta está localizada em \Arquivos de Programas\microsoft Lync Server 2013 \ reskit.
+        > A ferramenta está localizada em \Program Files\Microsoft Lync Server 2013 \ reskit.
 
         
         </div>
     
-    2.  Exiba as configurações de encaminhamento de chamada de um usuário, Na linha de comando, execute:
+    2.  Exibir as configurações de encaminhamento de chamadas de um usuário. Na linha de comando, execute:
         
             SEFAUtil.exe <user SIP address> /server:<Lync Server/Pool FQDN>
         
-        As configurações de encaminhamento de chamada do usuário serão exibidas.
+        As configurações de encaminhamento de chamadas para o usuário serão exibidas.
 
 </div>
 

@@ -12,16 +12,16 @@ ms:contentKeyID: 49733732
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 96d1d9ed6fc0ad75e316a41ef7939f36ecaba354
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 44bf77ff67167b6d3e66ff70b9db5b00dad09b96
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741481"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029192"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,13 +35,13 @@ ms.locfileid: "41741481"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-18_
+_**Última modificação do tópico:** 2012-09-18_
 
-A política de conferência define os recursos e as funcionalidades que os usuários disponibilizam durante uma conferência (também conhecida como reunião). As definições de política de conferência englobam uma grande variedade de opções de agendamento e participação, desde se uma reunião pode incluir vídeo e áudio IP até o número máximo de pessoas que podem participar da reunião. Os administradores podem usar a política de conferência para gerenciar a segurança, a largura de banda e os aspectos legais das reuniões.
+A política de conferência define os recursos e capacidades disponíveis aos usuários durante uma conferência (também conhecida como reunião). As definições de política de conferência englobam uma grande variedade de opções de agendamento e participação, desde se uma reunião pode incluir vídeo e áudio IP até o número máximo de pessoas que podem participar da reunião. Os administradores podem usar as políticas de conferência para gerenciar os aspectos legais, de segurança e de banda larga de reuniões.
 
-Você pode definir a política de conferência em três níveis: escopo global, escopo de site e escopo de usuário. As configurações se aplicam a um usuário específico desde o menor escopo até o maior. Se você atribuir uma política de usuário a um usuário, essas configurações terão precedência. Caso você não atribua uma política de usuário, aplicam-se as definições de site. Caso políticas de usuários ou de site não sejam aplicáveis, a política global fornece as definições padrão.
+Você pode definir a política de conferência em três níveis: escopo global, escopo de site e escopo de usuário. As configurações se aplicam a um usuário específico desde o menor escopo até o maior. Caso você atribua uma política de usuário a um usuário, estas configurações tem precedência. Caso você não atribua uma política de usuário, aplicam-se as definições de site. Caso políticas de usuários ou de site não sejam aplicáveis, a política global fornece as definições padrão.
 
-Há uma política global por padrão, portanto você não pode criar uma nova política global. Você também não pode excluir a política global existente, mas pode alterar a política global existente para personalizar suas configurações padrão.
+Há uma política global por padrão, portanto você não pode criar uma nova política global. Você também não pode deletar a política global existente, mas pode alterar a política global existente para personalizar suas configurações padrão.
 
 <div>
 
@@ -53,7 +53,7 @@ Há uma política global por padrão, portanto você não pode criar uma nova po
 
   - [Excluir uma política de conferência existente no Lync Server 2013](lync-server-2013-delete-an-existing-conferencing-policy.md)
 
-  - [Referência de configurações de política de conferência para o Lync Server 2013](lync-server-2013-conferencing-policy-settings-reference.md)
+  - [Referência de configurações de política de conferência para Lync Server 2013](lync-server-2013-conferencing-policy-settings-reference.md)
 
 </div>
 

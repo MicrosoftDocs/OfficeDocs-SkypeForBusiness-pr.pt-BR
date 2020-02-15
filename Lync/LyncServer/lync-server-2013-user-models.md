@@ -12,16 +12,16 @@ ms:contentKeyID: 49733811
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f8f45b3ea11911ea7a3dce36b0b6a9d64ac1e690
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: cec912d84859baf77363764851d7abd1592b2760
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744581"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029432"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41744581"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-10-07_
+_**Última modificação do tópico:** 2013-10-07_
 
-Os modelos de usuário descritos aqui fornecem a base das medidas e das recomendações de planejamento de capacidade descritas no [planejamento da capacidade do Lync Server 2013 usando os modelos de usuário](lync-server-2013-capacity-planning-using-the-user-models.md).
+Os modelos de usuário descritos aqui fornecem a base para as medições de planejamento de capacidade e recomendações descritas no [planejamento de capacidade do Lync Server 2013 usando os modelos de usuário](lync-server-2013-capacity-planning-using-the-user-models.md).
 
 <div>
 
@@ -65,15 +65,15 @@ A tabela a seguir descreve o modelo de usuário para registro, contatos, mensage
 </tr>
 <tr class="even">
 <td><p>Porcentagem de usuários do Active Directory</p></td>
-<td><p>Presumimos que 70% de todos os usuários do Active Directory na organização estão habilitados para o Lync Server. 80% desses usuários habilitados estão conectados ao Lync Server por dia (80% de simultaneidade). Os usuários simultâneos são a base para os números no restante desta seção.</p></td>
+<td><p>Supomos que 70% de todos os usuários do Active Directory na organização estão habilitados para o Lync Server. 80% dos usuários habilitados estão conectados ao Lync Server por dia (80% de simultaneidade). Os usuários simultâneos são a base para os números no restante desta seção.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Alterações do Active Directory</p></td>
-<td><p>Presumimos que 0,5% do total de usuários são criados e habilitados para o Lync no Active Directory a cada semana, e que 0,5% do total de usuários são desativados do Active Directory e do Lync a cada semana. 5% dos usuários têm pelo menos um atributo do Active Directory alterado a cada semana.</p></td>
+<td><p>Mudanças do Active Directory</p></td>
+<td><p>Presumimos que 0,5% do total de usuários são criados e habilitados para o Lync no Active Directory por semana, e que 0,5% do total de usuários estão desabilitados do Active Directory e do Lync por semana. 5% dos usuários possuem pelo menos um atributo do Active Directory alterado cada semana.</p></td>
 </tr>
 <tr class="even">
 <td><p>Grupos de distribuição do Active Directory</p></td>
-<td><p>Presumimos que o número de grupos de distribuição do Active Directory na organização é igual a três vezes o número de todos os usuários no Active Directory. Os grupos de distribuição têm os seguintes tamanhos:</p>
+<td><p>Supomos que o número de grupos de distribuição do Active Directory na organização seja igual a três vezes o número de todos os usuários no Active Directory. Os grupos de distribuição têm os seguintes tamanhos:</p>
 <ul>
 <li><p>64% têm de 2 a 30 usuários</p></li>
 <li><p>13% têm de 31 a 50 usuários</p></li>
@@ -83,19 +83,19 @@ A tabela a seguir descreve o modelo de usuário para registro, contatos, mensage
 </tr>
 <tr class="odd">
 <td><p>Usuários de VoIP (Voz sobre IP)</p></td>
-<td><p>60% dos usuários do Lync Server são habilitados para comunicação unificada (ou seja, os números de telefone deles são pertencentes ao Lync Server).</p></td>
+<td><p>60% dos usuários do Lync Server estão habilitados para comunicações unificadas (UC) (ou seja, seus números de telefone são proprietários do Lync Server).</p></td>
 </tr>
 <tr class="even">
 <td><p>Distribuição dos cliente registrados</p></td>
 <td><p>65% dos clientes executam o software Lync 2013, incluindo o Lync e o Lync Phone Edition.</p>
-<p>30% dos clientes que executam o software cliente a partir de uma versão anterior do Lync.</p>
-<p>5% de clientes usando o Lync Web App.</p>
-<p>Se a mobilidade está habilitada, assumimos que 40% dos usuários utilizam simultaneamente mobilidade e outras opções de cliente registrado citadas anteriormente. Nesse caso, a taxa do o ponto de presença múltiplo de cliente (MPOP) é de 1:1.9. Se a mobilidade está desabilitada, a taxa MPOP é de 1:1.5.</p></td>
+<p>30% dos clientes que executam software cliente de uma versão anterior do Lync.</p>
+<p>5% dos clientes usando o Lync Web App.</p>
+<p>Se a mobilidade estiver habilitada, presumimos que 40% dos usuários estejam usando a mobilidade simultaneamente com as outras opções de cliente registradas anteriormente citadas. Nesse caso, a taxa de MPOP (ponto de presença) de vários clientes é 1:1.9. Se a mobilidade está desabilitada, a taxa MPOP é de 1:1.5.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Distribuição dos usuários remotos</p></td>
 <td><p>70% os usuários se conectam internamente.</p>
-<p>30% dos usuários se conectando por meio de um servidor de borda e um diretor.</p></td>
+<p>30% dos usuários se conectam por meio de um Servidor de Borda e um Diretor.</p></td>
 </tr>
 <tr class="even">
 <td><p>Distribuição dos contatos</p></td>
@@ -103,18 +103,18 @@ A tabela a seguir descreve o modelo de usuário para registro, contatos, mensage
 <p>Média de 80 contatos para usuários com conectividade pública na nuvem. Desses usuários:</p>
 <ul>
 <li><p>50% dos contatos estão dentro da organização. 10% desses usuários são usuários remotos, se conectando de fora do firewall.</p></li>
-<li><p>40% dos contatos são usuários da nuvem pública (como usuários do AOL, Yahoo!, MSN ou Google Talk).</p></li>
+<li><p>40% dos contatos são usuários públicos na nuvem (como usuários do AOL, Yahoo!, MSN ou Google Talk).</p></li>
 <li><p>10% dos contatos são de parceiros federados.</p>
 <div>
 
 > [!IMPORTANT]  
 > <UL>
 > <LI>
-> <P>A partir de 1º de setembro de 2012, a licença de assinatura de usuário da conectividade de mensagem de chat pública do Microsoft Lync ("PIC USL") não está mais disponível para compra de contratos novos ou de renovação. Os clientes com licenças ativas poderão continuar a federar-se com o Yahoo! Messenger até a data de encerramento do serviço. Uma data de fim da vida útil de junho de 2014 para AOL e Yahoo! foi anunciado. Para obter detalhes, consulte <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">suporte para conectividade de mensagens instantâneas públicas no Lync Server 2013</A>.</P>
+> <P>A partir de 1º de setembro de 2012, a licença de assinatura de usuário da conectividade de IM pública do Microsoft Lync ("PIC USL") não está mais disponível para compra de contratos novos ou de renovação. Os clientes com licenças ativas poderão continuar a se federar com o Yahoo! Messenger até a data de encerramento do serviço. Uma data de fim de vida de junho de 2014 para AOL e Yahoo! foi anunciado. Para obter detalhes, consulte <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">support for Public Instant Messenger Connectivity in Lync Server 2013</A>.</P>
 > <LI>
-> <P>O PIC USL é uma licença de assinatura por usuário por mês necessária para o Lync Server ou o Office Communications Server se federar com o Yahoo! Spam. A capacidade da Microsoft de oferecer esse serviço por meio do suporte do Yahoo!, o contrato subjacente para o qual está prestes a ser enrolado.</P>
+> <P>O PIC USL é uma licença de assinatura por usuário por mês, necessária para o Lync Server ou o Office Communications Server federar-se com o Yahoo! Instantânea. A capacidade da Microsoft de fornecer esse serviço tem sido contingente o suporte da Yahoo!, o contrato subjacente para o qual está se enrolando para baixo.</P>
 > <LI>
-> <P>Mais do que nunca, o Lync é uma ferramenta poderosa para a conexão entre organizações e pessoas ao redor do mundo. A Federação com o Windows Live Messenger não requer licenças de usuário/dispositivo adicionais além da CAL padrão do Lync. A Federação do Skype será adicionada a essa lista, permitindo que os usuários do Lync atinjam centenas de milhões de pessoas com mensagens instantâneas e voz.</P></LI></UL>
+> <P>Mais do que nunca, o Lync é uma poderosa ferramenta para a conexão entre organizações e pessoas em todo o mundo. A Federação com o Windows Live Messenger não requer licenças de usuário/dispositivo adicionais além da CAL padrão do Lync. A Federação do Skype será adicionada à lista, permitindo que os usuários do Lync atinjam centenas de milhões de pessoas com IM e voz.</P></LI></UL>
 
 
 </div></li>
@@ -125,7 +125,7 @@ A tabela a seguir descreve o modelo de usuário para registro, contatos, mensage
 <li><p>20% dos contatos são de parceiros federados.</p>
 <p>Cada usuário possui 1 grupo de distribuição em sua lista de contatos. Para testar o desempenho, assumimos que os grupos de distribuição são sempre expandidos.</p></li>
 </ul>
-<p>25% dos contatos de um usuário usam o XMPP.</p></td>
+<p>25% dos contatos do usuário utilizam XMPP.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Tempo de sessão</p></td>
@@ -153,7 +153,7 @@ A tabela a seguir descreve o modelo de usuário para registro, contatos, mensage
 <td><p>Sessões de IM ponto a ponto</p></td>
 <td><p>Cada usuário tem em média seis sessões de IM ponto a ponto por dia.</p>
 <p>10 mensagens instantâneas por sessão.</p>
-<p>Cada mensagem é correspondida por duas mensagens SIP INFO e duas mensagens SIP 200 OK (para os indicadores de status, como&lt;"&gt; nome está digitando")</p></td>
+<p>Cada mensagem é correspondida com duas mensagens de INFO SIP e 2 mensagens de SIP 200 (para os indicadores de status como&lt;"&gt; nome está digitando")</p></td>
 </tr>
 <tr class="even">
 <td><p>Sondagem de presença</p></td>
@@ -170,7 +170,7 @@ A tabela a seguir descreve o modelo de usuário para registro, contatos, mensage
 <td><p>Quando um usuário adiciona outro como contato, o primeiro usuário está se <em>inscrevendo</em> em cinco categorias de informação sobre o segundo usuário. As atualizações dessas categorias de informação são automaticamente enviadas ao primeiro usuário.</p>
 <p>Para cada cliente, uma única solicitação de inscrição em lote é enviada para obter o estado de presença em uma média de 40 contatos, com 40 diálogos adicionais para obter presença de contatos federados.</p>
 <p>A presença de membros de um grupo de distribuição expandido é encontrada através de inscrições de presença persistente, não pool, e é modelada como 1 expansão por usuário para cada 2 horas.</p>
-<p><em>Descrições curtas</em> ocorrem quando um usuário faz o logon, há uma inscrição de lote para todos os contatos do usuário e o usuário faz o logoff logo. Assumimos 6 inscrições curtas por usuário, por hora, onde cada inscrição dura 10 minutos.</p></td>
+<p><em>Descrições curtas</em> ocorrem quando um usuário faz o login, há uma inscrição de lote para todos os contatos do usuário e o usuário faz o logoff logo. Assumimos 6 inscrições curtas por usuário, por hora, onde cada inscrição dura 10 minutos.</p></td>
 </tr>
 <tr class="even">
 <td><p>Publicação de Presença</p></td>
@@ -234,22 +234,22 @@ A tabela a seguir descreve o modelo de conferência.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Reuniões agendadas &quot;em reuniões&quot; já cumpridas</p></td>
+<td><p>Reuniões agendadas &quot;versus reuniões&quot; de reunião agora</p></td>
 <td><p>60% agendadas, 40% não agendadas.</p>
-<p>Das reuniões agendadas, presumimos que os 80% são conferências atribuídas, que são ocorrências de conferências recorrentes; 10% são reuniões abertas uma única vez; 8% são reuniões anônimas únicas e 2% são reuniões com um único tempo fechado.</p></td>
+<p>Das reuniões programadas, assumimos que 80% são conferências atribuídas, que são ocorrências de conferências recorrentes; 10% são reuniões abertas uma vez; 8% são reuniões anônimas únicas, e 2% são reuniões fechadas uma vez.</p></td>
 </tr>
 <tr class="even">
 <td><p>Distribuição de cliente de conferência</p></td>
 <td><p>Para reuniões agendadas:</p>
 <ul>
-<li><p>65% de usuários de conferência usam o Lync 2013.</p></li>
+<li><p>65% dos usuários de conferência usam o Lync 2013.</p></li>
 <li><p>5% dos usuários de conferência usam o Microsoft Lync Web App.</p></li>
-<li><p>30% dos usuários de conferência usam clientes anteriores, incluindo o Microsoft Lync 2010, o Office Communicator 2007 R2, o Office Communicator 2007 e o Microsoft Office Communicator Web Access (versão 2007).</p></li>
+<li><p>30% dos usuários de conferência utilizam clientes anteriores, incluindo o Microsoft Lync 2010, o Office Communicator 2007 R2, o Office Communicator 2007 e o Microsoft Office Communicator Web Access (versão 2007).</p></li>
 </ul>
 <p>Para reuniões não agendadas:</p>
 <ul>
-<li><p>70% de usuários de conferência usam o Lync 2013.</p></li>
-<li><p>30% dos usuários de conferência usam clientes anteriores, incluindo o Microsoft Lync 2010, o Office Communicator 2007 R2, o Office Communicator 2007 e o Microsoft Office Communicator Web Access (versão 2007).</p></li>
+<li><p>70% dos usuários de conferência usam o Lync 2013.</p></li>
+<li><p>30% dos usuários de conferência utilizam clientes anteriores, incluindo o Microsoft Lync 2010, o Office Communicator 2007 R2, o Office Communicator 2007 e o Microsoft Office Communicator Web Access (versão 2007).</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
@@ -297,7 +297,7 @@ A tabela a seguir descreve o modelo de conferência.
 </table>
 
 
-Em pools de front-end regulares, o Lync Server 2013 tem um tamanho máximo de reunião compatível com 250 usuários. Cada pool pode hospedar uma reunião de 250 usuários por vez. Enquanto esta grande reunião está ocorrendo, o pool também pode hospedar outras conferências menores. Além disso, é possível suportar reuniões de até 1000 usuários configurando um pool exclusivo para hospedar estas reuniões. Para obter detalhes, consulte [suporte para reuniões grandes no Lync Server 2013](lync-server-2013-support-for-large-meetings.md).
+Em pools de front-ends regulares, o Lync Server 2013 tem um tamanho de reunião máximo com suporte de 250 usuários. Cada pool pode hospedar uma reunião de 250 usuários por vez. Enquanto esta grande reunião está ocorrendo, o pool também pode hospedar outras conferências menores. Além disso, é possível suportar reuniões de até 1000 usuários configurando um pool exclusivo para hospedar estas reuniões. Para obter detalhes, consulte [suporte para grandes reuniões no Lync Server 2013](lync-server-2013-support-for-large-meetings.md).
 
 Conferências foram simuladas como a seguir:
 
@@ -396,7 +396,7 @@ A tabela a seguir descreve o modelo de usuário para outras sessões ponto a pon
 <td><p>Cada usuário participa de 5 sessões de compartilhamento de aplicativo ponto a ponto por mês, uma média de 0,25 sessões por dia.</p></td>
 </tr>
 <tr class="even">
-<td><p>Transferência de arquivos</p></td>
+<td><p>Transferência de arquivo</p></td>
 <td><p>Cada usuário participa de uma sessão de transferência de arquivo ponto a ponto por mês (como parte de uma sessão de IM), para uma média de 0,05 sessões por dia. O tamanho de arquivo médio da sessão transferido é de 1 MB.</p></td>
 </tr>
 </tbody>
@@ -449,11 +449,11 @@ A carga de pico de conferência supõe que 75% de todas as conferências para um
 
 <div>
 
-## <a name="enterprise-voice-to-pstn-calls"></a>Chamadas Enterprise Voice para PSTN
+## <a name="enterprise-voice-to-pstn-calls"></a>Chamadas do Enterprise Voice para PSTN
 
 As seguintes pressuposições se aplicam às chamadas do Enterprise Voice:
 
-  - 50% dos usuários estão habilitados para o Enterprise Voice e 60% desses usuários estão habilitados para chamadas PSTN.
+  - 50% dos usuários estão habilitados para o Enterprise Voice e 60% desses usuários estão habilitados para chamada PSTN.
 
   - Cada um destes usuários habilitados para chamada PSTN faz 4 chamadas PSTN durante a hora ocupada. Cada duração de chamada é de 3 minutos.
 
@@ -463,7 +463,7 @@ As seguintes pressuposições se aplicam às chamadas do Enterprise Voice:
 
 <div>
 
-## <a name="mobility"></a>Mobilidade
+## <a name="mobility"></a>Movimentação
 
 40% dos usuários registrados são assumidos como habilitados para Mobilidade. Para cada usuário que possui habilidade habilitado, assumimos que a atividade do cliente móvel é aditivo àquelas de outras instâncias MPOP deste usuário, com exceção das interações de conferência, para as quais o cliente de mobilidade é apenas outro tipo de cliente que pode ser usado para participar de conferências.
 

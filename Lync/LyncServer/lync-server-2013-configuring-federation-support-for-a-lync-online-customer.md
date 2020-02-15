@@ -12,16 +12,16 @@ ms:contentKeyID: 48185669
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 76582be324977d5466d234a37e4352806dd6d92f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 81af0b98fdcc39396ca3f0afc27f4b57d42b7582
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728991"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030615"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,21 +35,21 @@ ms.locfileid: "41728991"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-11-01_
+_**Última modificação do tópico:** 2012-11-01_
 
-Você pode fornecer serviços de comunicação para os usuários de sua organização de qualquer uma das seguintes maneiras:
+Você pode fornecer serviços de comunicação para usuários em sua organização de qualquer uma das seguintes maneiras:
 
   - Implantar o Lync Server 2013 em sua organização (conhecido como *serviços locais*) e configurar as contas de usuário do Lync 2013 em sua organização.
 
-  - Configurar uma conta de cliente do Microsoft Lync Online 2010 com um provedor de hospedagem e configurar contas de usuário com o provedor de hospedagem (conhecido como *serviços online*).
+  - Configurar uma conta de cliente 2010 do Microsoft Lync Online com um provedor de hospedagem e configurar contas de usuário com o provedor de hospedagem (conhecido como *serviços online*).
 
-Se você implantar o Lync 2013 em sua organização, poderá federar-se com os domínios de um ou mais clientes do Microsoft Lync Online 2010. Para habilitar a Federação entre os usuários da implantação do Lync 2013 local e dos usuários de um cliente do Lync Online 2010, você deve configurar o suporte para o domínio e usuários do cliente do Lync Online.
+Se você implantar o Lync 2013 em sua organização, poderá federar-se com os domínios de um ou mais clientes do Microsoft Lync Online 2010. Para habilitar a Federação entre usuários de sua implantação local do Lync 2013 e usuários de um cliente do Lync Online 2010, você deve configurar o suporte para o domínio e usuários do cliente do Lync Online.
 
 <div>
 
 
 > [!NOTE]  
-> Esta documentação descreve apenas os procedimentos para configurar sua organização para dar suporte à Federação com um cliente do Lync Online 2010. Esta documentação não descreve os procedimentos para configurar o cliente do Lync Online 2010 para dar suporte à Federação. Para obter detalhes sobre os serviços do Lync Online, consulte <A href="http://go.microsoft.com/fwlink/p/?linkid=218941">http://go.microsoft.com/fwlink/p/?linkId=218941</A>Lync Online em.
+> Esta documentação descreve apenas os procedimentos para configurar sua organização para dar suporte à Federação com um cliente do Lync Online 2010. Esta documentação não descreve os procedimentos para configurar o cliente do Lync Online 2010 para dar suporte à Federação. Para obter detalhes sobre o Lync Online Services, consulte Lync <A href="http://go.microsoft.com/fwlink/p/?linkid=218941">http://go.microsoft.com/fwlink/p/?linkId=218941</A>online em.
 
 
 

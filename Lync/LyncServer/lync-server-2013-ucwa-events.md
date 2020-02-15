@@ -12,16 +12,16 @@ ms:contentKeyID: 51541461
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b5063aca74fe3454569a2b2309be584a4ca11d13
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4d42dbd967f90b6e2a905b92558c88fe52ef62d7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744851"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029162"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,13 +35,13 @@ ms.locfileid: "41744851"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-02-15_
+_**Última modificação do tópico:** 2013-02-15_
 
     The information in this topic pertains to Cumulative Updates for Lync Server 2013: February 2013.
 
-O Lync Server 2013 usa a API da Web de comunicação unificada (UCWA) para várias finalidades, desde o acesso ao Microsoft Exchange para pesquisas de contato até a atualização de presença para clientes móveis.
+O Lync Server 2013 usa a UCWA (Unified Communications Web API) para várias finalidades, desde o acesso ao Microsoft Exchange para pesquisas de contato até a atualização de presença para clientes móveis.
 
-A UCWA gravará registros de comportamento operacional como tipos de evento Informacional, Aviso e Erro. A tabela a seguir descreve tais eventos que podem ser gravados com componentes da UCWA.
+O UCWA gravará registros de comportamento operacional como tipos de eventos informativos, avisos e erros. A tabela a seguir descreve os eventos que podem ser gravados pelos componentes do UCWA.
 
 
 <table>
@@ -53,8 +53,8 @@ A UCWA gravará registros de comportamento operacional como tipos de evento Info
 </colgroup>
 <thead>
 <tr class="header">
-<th>ID do evento</th>
-<th>Tipo de evento</th>
+<th>ID de evento</th>
+<th>Tipo de Evento</th>
 <th>Resumo</th>
 <th>Causa e resolução</th>
 </tr>
@@ -62,185 +62,185 @@ A UCWA gravará registros de comportamento operacional como tipos de evento Info
 <tbody>
 <tr class="odd">
 <td><p>20001</p></td>
-<td><p>Informativo</p></td>
+<td><p>Informativa</p></td>
 <td><p>UCWA inicializado</p></td>
-<td><p>N/D</p>
-<p>N/D</p></td>
+<td><p>Não disponível</p>
+<p>Não disponível</p></td>
 </tr>
 <tr class="even">
 <td><p>20002</p></td>
-<td><p>Erro</p></td>
-<td><p>A UCWA encontrou uma exceção inesperada durante a inicialização</p></td>
+<td><p>Error</p></td>
+<td><p>UCWA encontrou uma exceção inesperada durante a inicialização</p></td>
 <td><p>Ocorreu um erro inesperado durante a inicialização</p>
-<p>Examine os detalhes da exceção na entrada de log do evento associado para determinar a possível causa</p></td>
+<p>Examine os detalhes da exceção na entrada do log de eventos associada para determinar a possível causa</p></td>
 </tr>
 <tr class="odd">
 <td><p>20003</p></td>
-<td><p>Erro</p></td>
-<td><p>A UCWA encontrou uma exceção não manipulada</p></td>
+<td><p>Error</p></td>
+<td><p>UCWA encontrou uma exceção não manipulada</p></td>
 <td><p>Ocorreu uma exceção não manipulada</p>
-<p>Reinicie o servidor. Se o problema persistir, entre em contato com o suporte do produto</p></td>
+<p>Reiniciar o servidor. Se o problema persistir, contate o suporte ao produto</p></td>
 </tr>
 <tr class="even">
 <td><p>20004</p></td>
-<td><p>Erro</p></td>
+<td><p>Error</p></td>
 <td><p>Não é possível acessar o Exchange para foto HD</p></td>
 <td><p>A conexão com o Exchange não está disponível</p>
-<p>Certifique-se de que a conexão com o Exchange está disponível</p></td>
+<p>Certifique-se de que a conexão com o Exchange esteja disponível</p></td>
 </tr>
 <tr class="odd">
 <td><p>20005</p></td>
-<td><p>Informativo</p></td>
-<td><p>Recuperação de uma falha ao acessar o Exchange para foto HD</p></td>
+<td><p>Informativa</p></td>
+<td><p>Recuperação de falha ao acessar o Exchange para foto HD</p></td>
 <td><p>Não disponível</p></td>
 </tr>
 <tr class="even">
 <td><p>20006</p></td>
-<td><p>Erro</p></td>
+<td><p>Error</p></td>
 <td><p>Não é possível acessar o Exchange para pesquisa de contato</p></td>
 <td><p>A conexão com o Exchange não está disponível</p>
-<p>Certifique-se de que a conexão com o Exchange está disponível</p></td>
+<p>Certifique-se de que a conexão com o Exchange esteja disponível</p></td>
 </tr>
 <tr class="odd">
 <td><p>20007</p></td>
-<td><p>Informativo</p></td>
-<td><p>Recuperação de uma falha em pesquisar contato no Exchange</p></td>
+<td><p>Informativa</p></td>
+<td><p>Recuperado da falha ao pesquisar o contato no Exchange</p></td>
 <td><p>Não disponível</p></td>
 </tr>
 <tr class="even">
 <td><p>20008</p></td>
 <td><p>Aviso</p></td>
-<td><p>Tente assinar mais de uma assinatura de presença permitida por aplicativo</p></td>
-<td><p>Tente assinar mais de uma assinatura de presença permitida por aplicativo</p>
-<p>Verifique se os clientes possuem assinaturas desnecessárias</p></td>
+<td><p>Tentativa de inscrever mais do que as assinaturas de presença permitidas por aplicativo</p></td>
+<td><p>Tentativa de inscrever mais do que as assinaturas de presença permitidas por aplicativo</p>
+<p>Verifique se há assinaturas desnecessárias nos clientes</p></td>
 </tr>
 <tr class="odd">
 <td><p>20009</p></td>
 <td><p>Aviso</p></td>
-<td><p>Tente assinar mais de uma assinatura de presença permitida por lote</p></td>
-<td><p>Tente assinar mais de uma assinatura de presença permitida por lote</p>
-<p>Verifique se os clientes possuem assinaturas desnecessárias</p></td>
+<td><p>Tentativa de inscrever mais do que as assinaturas de presença permitidas por lote</p></td>
+<td><p>Tentativa de inscrever mais do que as assinaturas de presença permitidas por lote</p>
+<p>Verifique se há assinaturas desnecessárias nos clientes</p></td>
 </tr>
 <tr class="even">
 <td><p>20010</p></td>
-<td><p>Erro</p></td>
-<td><p>Não é possível recuperar os dados inband</p></td>
-<td><p>Não é possível recuperar os dados inband</p>
-<p>Se o problema persistir entre em contato com o suporte do produto</p></td>
+<td><p>Error</p></td>
+<td><p>Não é possível recuperar dados de inband</p></td>
+<td><p>Não é possível recuperar dados de inband</p>
+<p>Se o problema persistir, contate o suporte ao produto</p></td>
 </tr>
 <tr class="odd">
 <td><p>20011</p></td>
-<td><p>Erro</p></td>
+<td><p>Error</p></td>
 <td><p>Não é possível assinar a presença</p></td>
 <td><p>Não é possível assinar a presença</p>
-<p>Se o problema persistir entre em contato com o suporte do produto</p></td>
+<p>Se o problema persistir, contate o suporte ao produto</p></td>
 </tr>
 <tr class="even">
 <td><p>20012</p></td>
-<td><p>Erro</p></td>
+<td><p>Error</p></td>
 <td><p>Falha ao registrar o ponto de extremidade</p></td>
 <td><p>Falha ao registrar o ponto de extremidade</p>
-<p>Se o problema persistir entre em contato com o suporte do produto</p></td>
+<p>Se o problema persistir, contate o suporte ao produto</p></td>
 </tr>
 <tr class="odd">
 <td><p>20013</p></td>
-<td><p>Erro</p></td>
-<td><p>A MCU de IM não está disponível</p></td>
-<td><p>A MCU de IM não está disponível</p>
-<p>Consulte se a MCU de IM está sendo executada</p></td>
+<td><p>Error</p></td>
+<td><p>IM MCU não está disponível</p></td>
+<td><p>IM MCU não está disponível</p>
+<p>Veja se o IM MCU está em execução</p></td>
 </tr>
 <tr class="even">
 <td><p>20014</p></td>
-<td><p>Informativo</p></td>
-<td><p>Recuperação de uma falha ao conectar ao MCU de IM</p></td>
+<td><p>Informativa</p></td>
+<td><p>Recuperação de falha na conexão com a MCU de IM</p></td>
 <td><p>Não disponível</p></td>
 </tr>
 <tr class="odd">
 <td><p>20015</p></td>
-<td><p>Erro</p></td>
-<td><p>A MCU de AV não está disponível</p></td>
-<td><p>A MCU de AV não está disponível</p>
-<p>Consulte se a MCU de AV está sendo executada</p></td>
+<td><p>Error</p></td>
+<td><p>AV MCU não está disponível</p></td>
+<td><p>AV MCU não está disponível</p>
+<p>Veja se o AV MCU está em execução</p></td>
 </tr>
 <tr class="even">
 <td><p>20016</p></td>
-<td><p>Informativo</p></td>
-<td><p>Recuperação de uma falha ao conectar ao MCU de AV</p></td>
+<td><p>Informativa</p></td>
+<td><p>Recuperação de falha na conexão com o AV MCU</p></td>
 <td><p>Não disponível</p></td>
 </tr>
 <tr class="odd">
 <td><p>20017</p></td>
-<td><p>Erro</p></td>
-<td><p>A MCU de AS não está disponível</p></td>
-<td><p>A MCU de AS não está disponível</p>
-<p>Consulte se a MCU de AS está sendo executada</p></td>
+<td><p>Error</p></td>
+<td><p>À medida que a MCU não está disponível</p></td>
+<td><p>À medida que a MCU não está disponível</p>
+<p>Confira se a MCU está sendo executada</p></td>
 </tr>
 <tr class="even">
 <td><p>20018</p></td>
-<td><p>Informativo</p></td>
-<td><p>Recuperação de uma falha ao conectar ao MCU de AS</p></td>
-<td><p>N/D</p></td>
+<td><p>Informativa</p></td>
+<td><p>Recuperação de falha na conexão com a MCU</p></td>
+<td><p>Não disponível</p></td>
 </tr>
 <tr class="odd">
 <td><p>20019</p></td>
-<td><p>Erro</p></td>
-<td><p>A MCU de Dados não está disponível</p></td>
-<td><p>A MCU de Dados não está disponível</p>
-<p>Consulte se a MCU de Dados está sendo executada</p></td>
+<td><p>Error</p></td>
+<td><p>Data MCU não está disponível</p></td>
+<td><p>Data MCU não está disponível</p>
+<p>Ver se os dados MCU estão sendo executados</p></td>
 </tr>
 <tr class="even">
 <td><p>20020</p></td>
-<td><p>Informativo</p></td>
-<td><p>Recuperação de uma falha ao conectar ao MCU de dados</p></td>
+<td><p>Informativa</p></td>
+<td><p>Recuperação de falha na conexão com o data MCU</p></td>
 <td><p>Não disponível</p></td>
 </tr>
 <tr class="odd">
 <td><p>20021</p></td>
-<td><p>Erro</p></td>
-<td><p>Não é possível participar da MCU de IM</p></td>
-<td><p>Não é possível participar da MCU de IM</p>
-<p>Consulte se a MCU de IM está sendo executada</p></td>
+<td><p>Error</p></td>
+<td><p>Não é possível ingressar no IM MCU</p></td>
+<td><p>Não é possível ingressar no IM MCU</p>
+<p>Veja se o IM MCU está em execução</p></td>
 </tr>
 <tr class="even">
 <td><p>20022</p></td>
-<td><p>Erro</p></td>
-<td><p>Não é possível participar da MCU de AV</p></td>
-<td><p>Não é possível participar da MCU de AV</p>
-<p>Consulte se a MCU de AV está sendo executada</p></td>
+<td><p>Error</p></td>
+<td><p>Não é possível ingressar no AV MCU</p></td>
+<td><p>Não é possível ingressar no AV MCU</p>
+<p>Veja se o AV MCU está em execução</p></td>
 </tr>
 <tr class="odd">
 <td><p>20023</p></td>
-<td><p>Erro</p></td>
-<td><p>Não é possível participar da MCU de AS</p></td>
-<td><p>Não é possível participar da MCU de AS</p>
-<p>Consulte se a MCU de AS está sendo executada</p></td>
+<td><p>Error</p></td>
+<td><p>Não é possível entrar como MCU</p></td>
+<td><p>Não é possível entrar como MCU</p>
+<p>Confira se a MCU está sendo executada</p></td>
 </tr>
 <tr class="even">
 <td><p>20024</p></td>
-<td><p>Erro</p></td>
-<td><p>Não é possível participar da MCU de Dados</p></td>
-<td><p>Não é possível participar da MCU de Dados</p>
-<p>Consulte se a MCU de Dados está sendo executada</p></td>
+<td><p>Error</p></td>
+<td><p>Não é possível participar dos dados MCU</p></td>
+<td><p>Não é possível participar dos dados MCU</p>
+<p>Ver se os dados MCU estão sendo executados</p></td>
 </tr>
 <tr class="odd">
 <td><p>20025</p></td>
-<td><p>Erro</p></td>
-<td><p>Não é possível acessar o diretório ativo para foto</p></td>
-<td><p>A conexão com o diretório ativo não está disponível</p>
-<p>Certifique-se de que a conexão com o diretório ativo está disponível</p></td>
+<td><p>Error</p></td>
+<td><p>Não é possível acessar o Active Directory para a foto</p></td>
+<td><p>A conexão com o Active Directory não está disponível</p>
+<p>Certifique-se de que a conexão com o Active Directory está disponível</p></td>
 </tr>
 <tr class="even">
 <td><p>20026</p></td>
-<td><p>Informativo</p></td>
-<td><p>Recuperação de falha ao acessar o diretório ativo para foto</p></td>
-<td><p>N/D</p></td>
+<td><p>Informativa</p></td>
+<td><p>Recuperação de falha ao acessar o Active Directory para foto</p></td>
+<td><p>Não disponível</p></td>
 </tr>
 <tr class="odd">
 <td><p>20027</p></td>
 <td><p>Aviso</p></td>
 <td><p>Não é possível desserializar</p></td>
 <td><p>Não é possível desserializar</p>
-<p>Se o problema persistir entre em contato com o suporte do produto</p></td>
+<p>Se o problema persistir, contate o suporte ao produto</p></td>
 </tr>
 </tbody>
 </table>

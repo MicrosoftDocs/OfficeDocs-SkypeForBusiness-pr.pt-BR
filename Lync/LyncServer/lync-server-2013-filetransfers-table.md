@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Tabela FileTransfers'
+title: 'Lync Server 2013: tabela de transferência de filetransfers'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184118
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: de8a3e69c670c273bcdd91ac5895c0b1f0b15d80
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9aedca2ae840947aef4ccc6ec7bff4ba825090a0
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743352"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028482"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="filetransfers-table-in-lync-server-2013"></a>Tabela FileTransfers no Lync Server 2013
+# <a name="filetransfers-table-in-lync-server-2013"></a>Tabela filetransfers no Lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41743352"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-28_
+_**Última modificação do tópico:** 2012-09-28_
 
-Cada registro representa uma sessão de transferência de arquivo.
+Cada registro representa uma sessão de transferência de arquivos.
 
 
 <table>
@@ -57,20 +57,20 @@ Cada registro representa uma sessão de transferência de arquivo.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Id_da_sessãotime</strong></p></td>
+<td><p><strong>Identificação_da_sessãotime</strong></p></td>
 <td><p>datetime</p></td>
-<td><p>Primário, estrangeiro</p></td>
-<td><p>Tempo de solicitação de sessão. Usado em conjunto com o <strong>SessionIdSeq</strong> para identificar exclusivamente uma sessão. Consulte a <a href="lync-server-2013-dialogs-table.md">tabela de diálogos no Lync Server 2013</a> para obter mais informações.</p></td>
+<td><p>Primária, Estrangeira</p></td>
+<td><p>Tempo da solicitação de sessão. Usado em conjunto com <strong>SessionIdSeq</strong> para identificar exclusivamente uma sessão. Consulte a <a href="lync-server-2013-dialogs-table.md">tabela diálogos no Lync Server 2013</a> para obter mais informações.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SessionIdSeq</strong></p></td>
 <td><p>int</p></td>
-<td><p>Primário, estrangeiro</p></td>
-<td><p>Número de identificação para identificar a sessão. Usado em conjunto com a <strong>identificação_da_sessãotime</strong> para identificar exclusivamente uma sessão. Consulte a <a href="lync-server-2013-dialogs-table.md">tabela de diálogos no Lync Server 2013</a> para obter mais informações.</p></td>
+<td><p>Primário, Estrangeiro</p></td>
+<td><p>O número de ID para identificar a sessão. Usado em conjunto com <strong>SessionIdTime</strong> para identificar exclusivamente uma sessão. Consulte a <a href="lync-server-2013-dialogs-table.md">tabela diálogos no Lync Server 2013</a> para obter mais informações.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Nome do arquivo</strong></p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p>nvarchar (256)</p></td>
 <td></td>
 <td><p>Nome do arquivo.</p></td>
 </tr>
@@ -78,31 +78,31 @@ Cada registro representa uma sessão de transferência de arquivo.
 <td><p><strong>Fileidentity</strong></p></td>
 <td><p>identificador</p></td>
 <td></td>
-<td><p>Identificador exclusivo para distinguir entre as transferências de arquivo que envolvem o mesmo nome de arquivo.</p></td>
+<td><p>Identificador exclusivo para distinguir entre as transferências de arquivo envolvendo o mesmo nome do arquivo.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Cookie</strong></p></td>
 <td><p>nvarchar(128</p></td>
-<td><p>Primária</p></td>
-<td><p>Usado para identificar todas as mensagens de acompanhamento como associadas a esta.</p></td>
+<td><p>Primário</p></td>
+<td><p>Usado para identificar cada mensagem de acompanhamento como sendo associado a este.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Aceite</strong></p></td>
-<td><p>bit</p></td>
+<td><p><strong>Accept</strong></p></td>
+<td><p>bits</p></td>
 <td></td>
-<td><p>Pode ser TRUE ou NULL. Se verdadeiro, rejeitar e cancelar será nulo.</p></td>
+<td><p>Pode ser TRUE ou NULL. Se for TRUE, Rejeitar e Cancelar serão NULL.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Rejeitar</strong></p></td>
-<td><p>bit</p></td>
+<td><p><strong>Reject</strong></p></td>
+<td><p>bits</p></td>
 <td></td>
-<td><p>Pode ser TRUE ou NULL. Se verdadeiro, aceitar e cancelar será nulo.</p></td>
+<td><p>Pode ser TRUE ou NULL. Se for TRUE, Aceitar e Cancelar serão NULL.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Cancelar</strong></p></td>
-<td><p>bit</p></td>
+<td><p><strong>Cancel</strong></p></td>
+<td><p>bits</p></td>
 <td></td>
-<td><p>Pode ser TRUE ou NULL. Se verdadeiro, aceitar e rejeitar será nulo.</p></td>
+<td><p>Pode ser TRUE ou NULL. Se for TRUE, Aceitar e Rejeitar serão NULL.</p></td>
 </tr>
 </tbody>
 </table>

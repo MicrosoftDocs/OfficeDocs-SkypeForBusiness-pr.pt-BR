@@ -12,16 +12,16 @@ ms:contentKeyID: 49733688
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a78071697750a95bb8832585ea036dc90aa984da
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 511f6e9c3b0b4e3caf614fdd00d71fc0ac84e524
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736371"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030955"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41736371"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-02-23_
+_**Última modificação do tópico:** 2013-02-23_
 
-Siga estas etapas para excluir uma política de conferência em nível de usuário ou em nível de site.
+Siga estas etapas para excluir uma política de conferência no nível do usuário ou no nível do local.
 
 <div>
 
 
 > [!NOTE]  
-> Não é possível excluir a política de conferência global.
+> Você não pode excluir a política global de conferência.
 
 
 
@@ -51,23 +51,23 @@ Siga estas etapas para excluir uma política de conferência em nível de usuár
 
 <div>
 
-## <a name="to-delete-a-site-or-user-conferencing-policy"></a>Para excluir uma política de conferência de um site ou de um usuário
+## <a name="to-delete-a-site-or-user-conferencing-policy"></a>Para excluir uma política de conferência de site ou usuário
 
-1.  Usando uma conta de usuário atribuída à função CsUserAdministrator ou CsAdministrator, faça logon em qualquer computador de sua implantação interna.
+1.  Por uma conta de usuário atribuída à função CsUserAdministrator role ou CsAdministrator, faça o login em qualquer computador na sua implantação interna.
 
-2.  Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [abrir ferramentas administrativas do Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Na barra de navegação à esquerda, clique em **conferência** e, em seguida, clique em **política de conferência**.
+3.  Na barra de navegação esquerda, clique em **Conferência** e em **Política de Conferência**.
 
-4.  Na lista de políticas de conferência, clique na política de site ou usuário que deseja excluir, clique em **Editar** e em **Excluir**.
+4.  Na lista de políticas de conferência, clique na política de site ou de usuário que deseja excluir, clique em **Editar**e em **excluir**.
 
 </div>
 
 <div>
 
-## <a name="removing-conferencing-policies-by-using-windows-powershell-cmdlets"></a>Como remover políticas de conferência usando cmdlets do Windows PowerShell
+## <a name="removing-conferencing-policies-by-using-windows-powershell-cmdlets"></a>Removendo políticas de conferência usando cmdlets do Windows PowerShell
 
-Você pode excluir políticas de conferência usando o Shell de gerenciamento do Lync Server e o cmdlet **Remove-CsConferencingPolicy** . Você pode executar esse cmdlet a partir do Shell de gerenciamento do Lync Server 2013 ou de uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Lync Server, consulte o artigo sobre o blog do Windows PowerShell do Lync Server "início rápido: gerenciar o [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Microsoft Lync Server 2010 usando o PowerShell remoto" em.
+Você pode excluir políticas de conferência usando o Shell de gerenciamento do Lync Server e o cmdlet **Remove-CsConferencingPolicy** . Você pode executar esse cmdlet do Shell de gerenciamento do Lync Server 2013 ou de uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Lync Server, consulte o artigo de blog do Lync Server Windows PowerShell "início rápido: Managing Microsoft Lync Server [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)2010 using Remote PowerShell" em.
 
 <div>
 
@@ -93,7 +93,7 @@ Você pode excluir políticas de conferência usando o Shell de gerenciamento do
 
 ## <a name="to-remove-all-of-the-conferencing-polices-that-allow-recording-by-external-users"></a>Para remover todas as políticas de conferência que permitem a gravação por usuários externos
 
-  - O comando a seguir exclui todas as políticas de conferência que permitem que os usuários externos gravem a conferência:
+  - O comando a seguir exclui todas as políticas de conferência que permitem que os usuários externos registrem a conferência:
     
         Get-CsConferencingPolicy | Where-Object {$_.AllowExternalUsersToRecordMeetings -eq $True} | Remove-CsConferencingPolicy
 

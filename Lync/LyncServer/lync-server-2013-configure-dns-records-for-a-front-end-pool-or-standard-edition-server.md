@@ -1,5 +1,5 @@
 ---
-title: Configurar registros DNS para um pool de Front-Ends ou servidor Standard Edition
+title: Configurar registros DNS para um pool de front-ends ou servidor Standard Edition
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183244
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 89acbccd226c15d9c8359fc01d010655fc46a989
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 633282e30cae401f2bed39522864f076d0ce85ea
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755965"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028572"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-dns-records-in-lync-server-2013-for-a-front-end-pool-or-standard-edition-server"></a>Configurar registros DNS no Lync Server 2013 para um pool de Front-Ends ou servidor Standard Edition
+# <a name="configure-dns-records-in-lync-server-2013-for-a-front-end-pool-or-standard-edition-server"></a>Configurar registros DNS no Lync Server 2013 para um pool de front-ends ou servidor Standard Edition
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41755965"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-01_
+_**Última modificação do tópico:** 2012-10-01_
 
-O Lync Server 2013 usa o sistema de nomes de domínio (DNS) para registrar e manter registros de nome de domínio apropriado para a resolução de endereço IP. Você precisa configurar os registros DNS necessários para a sua implantação antes de operar o servidor Standard Edition ou o pool de front-end. Os links a seguir fornecerão diretrizes sobre quais registros precisam ser criados para permitir a operação adequada do Lync Server 2013.
+O Lync Server 2013 usa o DNS (sistema de nomes de domínio) para registrar e manter registros de nome de domínio adequado para resolução de endereço IP. Você precisa configurar registros DNS necessários para sua implantação antes de operar o servidor Standard Edition ou o pool de front-ends. Os links a seguir fornecerão orientações sobre quais registros precisam ser criados para permitir a operação adequada do Lync Server 2013.
 
 <div>
 
@@ -45,7 +45,7 @@ O Lync Server 2013 usa o sistema de nomes de domínio (DNS) para registrar e man
 
   - [Configurar DNS para balanceamento de carga no Lync Server 2013](lync-server-2013-configure-dns-for-load-balancing.md)
 
-  - [Configurar registros de Host DNS para Lync Server 2013](lync-server-2013-configure-dns-host-records.md)
+  - [Configurar registros de host DNS para o Lync Server 2013](lync-server-2013-configure-dns-host-records.md)
 
   - [Criar e verificar registros DNS SRV no Lync Server 2013](lync-server-2013-create-and-verify-dns-srv-records.md)
 

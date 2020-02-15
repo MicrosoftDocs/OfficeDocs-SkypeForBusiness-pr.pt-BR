@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Gerenciando dispositivos, telefones e aplicativos do cliente'
+title: 'Lync Server 2013: Gerenciando dispositivos, telefones e aplicativos cliente'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184611
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e80416897370711ce3bbadf3285cf25fad51f67d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 826dc7971eb2069573cb2b51095162b8f29f1ab9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729301"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029502"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="managing-devices-phones-and-client-applications-in-lync-server-2013"></a>Gerenciando dispositivos, telefones e aplicativos do cliente no Lync Server 2013
+# <a name="managing-devices-phones-and-client-applications-in-lync-server-2013"></a>Gerenciando dispositivos, telefones e aplicativos cliente no Lync Server 2013
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41729301"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-02-19_
+_**Última modificação do tópico:** 2013-02-19_
 
 Os tópicos desta seção fornecem procedimentos passo a passo para tarefas que você pode executar usando o grupo **clientes** no painel de controle do Lync Server 2013.
 
@@ -43,17 +43,17 @@ Os tópicos desta seção fornecem procedimentos passo a passo para tarefas que 
 
 ## <a name="in-this-section"></a>Nesta seção
 
-  - [Telefones de área comuns no Lync Server 2013](lync-server-2013-common-area-phones.md)
+  - [Telefones de área comum no Lync Server 2013](lync-server-2013-common-area-phones.md)
 
   - [Dispositivos de conferência no Lync Server 2013](lync-server-2013-conferencing-devices.md)
 
   - [Telefones celulares (notificação por push/política) no Lync Server 2013](lync-server-2013-mobile-phones-policy-push-notification.md)
 
-  - [Testar dispositivos no Lync Server 2013](lync-server-2013-test-devices.md)
+  - [Dispositivos de teste no Lync Server 2013](lync-server-2013-test-devices.md)
 
-  - [Opções de configuração do Lync Phone Edition no Lync Server 2013](lync-server-2013-lync-phone-edition-configuration-settings.md)
+  - [Definições de configuração do Lync Phone Edition no Lync Server 2013](lync-server-2013-lync-phone-edition-configuration-settings.md)
 
-  - [Serviço Web de Atualização de Dispositivo no Lync Server 2013](lync-server-2013-device-update-web-service.md)
+  - [Serviço Web de atualização de dispositivo no Lync Server 2013](lync-server-2013-device-update-web-service.md)
 
   - [Especificando os aplicativos cliente que podem ser usados para fazer logon no Lync Server 2013](lync-server-2013-specifying-the-client-applications-that-can-be-used-to-log-on-to-lync-server-2013.md)
 

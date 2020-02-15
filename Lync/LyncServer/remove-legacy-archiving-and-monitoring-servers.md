@@ -1,5 +1,5 @@
 ---
-title: Remover servidores de Arquivamento e de Monitoramento herdados
+title: Remover servidores de arquivamento e monitoramento herdados
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185278
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1df5ed76a0e0518120c9772b515b36c5f23bfd89
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 144d2d1861b9e1dc75aaf740eca1a35e2d384a7b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727131"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008907"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="remove-legacy-archiving-and-monitoring-servers"></a>Remover servidores de Arquivamento e de Monitoramento herdados
+# <a name="remove-legacy-archiving-and-monitoring-servers"></a>Remover servidores de arquivamento e monitoramento herdados
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41727131"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-19_
+_**Última modificação do tópico:** 2012-10-19_
 
-Se sua implantação herdada continha um servidor de arquivamento ou um servidor de monitoramento, após a migração para o Lync Server 2013, esses servidores podem ser removidos do ambiente herdado, desde que todos os usuários tenham sido removidos de todos os pools herdados restantes. Você pode remover o servidor de arquivamento ou o servidor de monitoramento em qualquer sequência. O requisito chave é que todos os usuários foram removidos de todos os pools herdados restantes.
+Se sua implantação herdada contiver um servidor de arquivamento ou um servidor de monitoramento, após a migração para o Lync Server 2013, esses servidores poderão ser removidos do ambiente herdado, desde que todos os usuários tenham sido removidos de qualquer pool herdado remanescente. É possível remover o Servidor de Arquivamento ou o Monitoring Server em qualquer sequência. O requisito principal é que todos os usuários sejam removidos de quaisquer pools herdados restantes.
 
-Você pode mover os usuários do Lync Server 2010 para o Lync Server 2013 seguindo os procedimentos descritos na [fase 4: mover os usuários de teste para o pool piloto](phase-4-move-test-users-to-the-pilot-pool.md).
+Você pode mover os usuários do Lync Server 2010 para o Lync Server 2013 seguindo os procedimentos descritos na [fase 4: mover usuários de teste para o pool piloto](phase-4-move-test-users-to-the-pilot-pool.md).
 
-Depois de confirmar que todos os usuários foram removidos de todos os grupos restantes, siga o procedimento em "como desinstalar o Microsoft Lync Server 2010 e remover funções de servidor", cujo download pode ser [http://go.microsoft.com/fwlink/p/?linkId=246227](http://go.microsoft.com/fwlink/p/?linkid=246227)feito em.
+Após confirmar que todos os usuários foram removidos de todos os pools restantes, siga o procedimento em "Desinstalando o Microsoft Lync Server 2010 e removendo funções de servidor", que podem [http://go.microsoft.com/fwlink/p/?linkId=246227](http://go.microsoft.com/fwlink/p/?linkid=246227)ser baixados em.
 
 </div>
 

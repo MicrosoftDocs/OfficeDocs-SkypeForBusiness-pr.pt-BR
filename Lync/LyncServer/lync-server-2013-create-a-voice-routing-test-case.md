@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Criar um caso de teste de roteamento de voz'
+title: 'Lync Server 2013: criar um caso de teste de roteamento de voz'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183979
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c706064cbe7319d3cb485b0bb1ecf6d34902edde
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 436eab846d33546f8676ab631d258bc556af6a48
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726341"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008723"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,37 +35,37 @@ ms.locfileid: "41726341"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2014-02-07_
+_**Última modificação do tópico:** 2014-02-07_
 
 <div>
 
 ## <a name="to-create-a-test-case"></a>Para criar um caso de teste
 
-1.  Faça logon no computador como um membro do grupo RTCUniversalServerAdmins ou como um membro da função CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator. Para obter detalhes, consulte [delegar permissões de configuração no Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
+1.  Faça logon no computador como um membro do grupo RTCUniversalServerAdmins ou como membro da função CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator. Para obter detalhes, consulte [delegar permissões de configuração no Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
 
-2.  Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [abrir ferramentas administrativas do Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Na barra de navegação à esquerda, clique em **Roteamento de voz** e, em seguida, clique em **testar roteamento de voz**.
+3.  Na barra de navegação esquerda, clique em **Roteamento de Voz** e em **Testar Roteamento de Voz**.
 
-4.  Na página **testar roteamento de voz** , clique em **novo** para criar um novo caso de teste.
+4.  Na página **Testar Roteamento de Voz**, clique em **Novo** para criar um novo caso de teste.
 
-5.  Em **nome**, digite um nome exclusivo para o caso de teste.
+5.  Em **Nome**, digite um nome exclusivo para o caso de teste.
     
-    O nome deve ser exclusivo entre todos os casos de teste de roteamento de voz na sua implantação do Enterprise Voice. Pode ter até 32 caracteres de comprimento e pode conter qualquer caractere alfanumérico, além da barra invertida (\\), ponto final (.) ou sublinhado (\_).
+    O nome deve ser exclusivo entre todos os casos de teste de roteamento de voz em sua implantação do Enterprise Voice. Pode ter até 32 caracteres de comprimento e pode conter qualquer caractere alfanumérico, além da barra invertida (\\), ponto (.) ou sublinhado (\_).
 
-6.  Em **número para testar**, digite o número discado que você deseja usar para testar a configuração de roteamento que você especificar para este caso de teste. Com base no plano de discagem, na rota e na política de voz, esse número será normalizado e exibido como saída.
+6.  Em **Número discado para fazer um teste**, digite o número discado que deseja usar para testar a configuração de roteamento que você especificar para esse caso de teste. Com base no plano de discagem, na rota e na política de voz, esse número será normalizado e exibido como saída.
 
-7.  Na lista **plano de discagem** , selecione o plano de discagem a ser usado ao executar o teste. Padrão é o plano de discagem global.
+7.  Na lista **Plano de Discagem**, selecione o plano de discagem a ser usado ao executar o teste. O padrão é o plano de discagem Global.
 
-8.  Na lista **política de voz** , selecione a política de voz a ser usada ao executar o teste. Padrão é a política de voz global.
+8.  Na lista **Política de Voz**, selecione a política de voz a ser usada ao executar o teste. O padrão é a política de voz Global.
 
-9.  Na **tradução esperada**, digite o número de telefone no formato que você espera que ele seja exibido após a tradução. Esse é o valor do número de telefone que você está testando depois que ele foi traduzido pela primeira regra de normalização que corresponde ao plano de discagem selecionado. Quando você executar o caso de teste, se o número que você está testando não resultar no valor na **conversão esperada**, o teste falhará.
+9.  Em **Conversão esperada**, digite o número de telefone no formato que você espera ver após a conversão. Esse é o valor do número de telefone que você está testando depois que ele foi convertido pela primeira regra de normalização correspondente no plano de discagem selecionado. Quando você executa o caso de teste, se o número que está testando não resultar no valor em **Conversão esperada**, o teste falhará.
 
-10. Adicionais Na lista de **uso de PSTN esperado** , você pode selecionar o registro de uso da rede de telefonia pública comutada (PSTN) que você espera usar quando executar o caso de teste, com base no plano de discagem e na política de voz especificados. Se um registro de uso PSTN diferente for usado, o teste falhará.
+10. (Opcional) Na lista **Uso de PSTN esperado**, você pode selecionar o registro de uso da Rede Telefônica Pública Comutada (PSTN) que espera que seja usado ao executar o caso de teste, com base na política de voz e no plano de discagem especificado. Se um registro de uso diferente do PSTN for usado, o teste falhará.
 
-11. Adicionais Na lista de **rotas esperadas** , você pode selecionar a rota de voz que espera usar quando executar o caso de teste, com base no plano de discagem e na política de voz especificados. Se for usada uma rota de voz diferente, o teste falhará.
+11. (Opcional) Na lista **Rota esperada**, você pode selecionar a rota de voz que espera que seja usada ao executar o caso de teste, com base na política de voz e no plano de discagem especificado. Se um registro de uso diferente do PSTN for usado, o teste falhará.
 
-12. Adicionais Clique em **executar** para executar o caso de teste. Os resultados são mostrados no painel direito da página.
+12. (Opcional) Clique em **Executar**  para executar o caso de teste. Os resultados são mostrados no painel à direita da página.
 
 13. Clique em **OK**.
 
@@ -75,12 +75,12 @@ _**Tópico da última modificação:** 2014-02-07_
     
 
     > [!NOTE]  
-    > Sempre que criar um caso de teste de roteamento de voz, você deve executar o comando <STRONG>Commit All</STRONG> para publicar a alteração de configuração. Para obter detalhes, consulte <A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">publicar alterações pendentes na configuração de roteamento de voz no Lync Server 2013</A> na documentação de operações.
+    > Sempre que criar um caso de teste de roteamento de voz, você deve executar o comando <STRONG>Confirmar tudo</STRONG> para publicar a alteração na configuração. Para obter detalhes, consulte <A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Publish Pending Changes to The Voice Routing Configuration in Lync Server 2013</A> na documentação operações.
 
     
     </div>
     
-    Se o plano de discagem que está sendo empregado no teste normalizar números de telefone que comecem com um sinal de adição (por exemplo, + 12065551219), esse plano pode causar falha no teste de roteamento de voz. (O plano de discagem e a rota de voz funcionarão; na verdade, o teste-CsDialPlan será bem-sucedido. No entanto, o teste de roteamento de voz pode falhar.) Isso é algo a ter em mente ao testar rotas de voz.
+    Se o plano de discagem que está sendo empregado no teste normalizar números de telefone que começam com um sinal de adição (por exemplo, + 12065551219), esse plano pode causar uma falha no teste de roteamento de voz. (O plano de discagem e a rota de voz funcionará; na verdade, o Test-CsDialPlan será bem-sucedido. No entanto, o teste de roteamento de voz pode falhar. É algo que você deve ter em mente ao testar as rotas de voz.
 
 </div>
 
@@ -94,7 +94,7 @@ _**Tópico da última modificação:** 2014-02-07_
 
 
 [Configurando planos de discagem no Lync Server 2013](lync-server-2013-configuring-dial-plans.md)  
-[Configurar políticas de voz, registros de uso de PSTN e rotas de voz no Lync Server 2013](lync-server-2013-configuring-voice-policies-pstn-usage-records-and-voice-routes.md)  
+[Configurando políticas de voz, registros de uso de PSTN e rotas de voz no Lync Server 2013](lync-server-2013-configuring-voice-policies-pstn-usage-records-and-voice-routes.md)  
   
 
 </div>

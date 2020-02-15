@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Componentes e topologias para conferências'
+title: Componentes e topologias do Lync Server 2013 para conferência
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185707
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: db44e7c8430865fcf8138c9b51f6e700ff85dd7b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6d14c12ad1e28dc2a40fed5b19b5928a5bedc069
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742631"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008753"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,29 +35,29 @@ ms.locfileid: "41742631"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-02-04_
+_**Última modificação do tópico:** 2013-02-04_
 
-Quando você seleciona conferência no construtor de topologias, a conferência é implantada como parte do servidor front-end ou do servidor Standard Edition. A conferência discada e o compartilhamento do PowerPoint exigem componentes e configurações adicionais. As seções a seguir descrevem os componentes e topologias com suporte para conferência Web, conferência A/V e conferência discada.
+Quando você seleciona conferências no construtor de topologias, a conferência é implantada como parte do servidor front-end ou do servidor Standard Edition. A conferência discada e o compartilhamento de PowerPoint requer componentes e configurações adicionais. As seções a seguir descrevem os componentes e topologias suportados para webconferência, conferência A/V e conferência discada.
 
 <div>
 
-## <a name="supported-components"></a>Componentes com suporte
+## <a name="supported-components"></a>Componentes suportados
 
-Os únicos componentes da webconferência e da Conferência A/V exigem os servidores front-end da sua organização ou servidores Standard Edition. Para obter uma lista dos requisitos de hardware e software para os servidores de front-end e os servidores de edição padrão, consulte suporte a [hardware com suporte para o Lync server 2013](lync-server-2013-supported-hardware.md) e [para o software do servidor e a infraestrutura do Lync Server 2013](lync-server-2013-server-software-and-infrastructure-support.md).
+Os únicos componentes de conferência da Web e conferência A/V exigem os servidores front-end da sua organização ou servidores Standard Edition. Para obter uma lista de requisitos de hardware e software para servidores front-end e servidores Standard Edition, consulte [hardware suportado para o Lync server 2013](lync-server-2013-supported-hardware.md) e [suporte a infraestrutura e software de servidor no Lync Server 2013](lync-server-2013-server-software-and-infrastructure-support.md).
 
-O Lync Server 2013 usa o Office Web Apps e o Office Web Apps Server para lidar com o compartilhamento e a renderização de apresentações do PowerPoint. Para obter detalhes sobre como instalar e configurar o Office Web Apps Server, consulte [Configurando a integração com o Office Web Apps Server e o Lync Server 2013](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md).
+O Lync Server 2013 usa o Office Web Apps e o servidor do Office Web Apps para lidar com o compartilhamento e a renderização de apresentações do PowerPoint. Para obter detalhes sobre como instalar e configurar o servidor do Office Web Apps, consulte [Configurando a integração com o servidor do Office Web Apps e o Lync Server 2013](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md).
 
-Além dos requisitos de conferência via Web e conferência A/V, a conferência discada usa os seguintes componentes do Lync Server 2013:
+Além dos requisitos de conferência da Web e conferência A/V, a conferência discada usa os seguintes componentes do Lync Server 2013:
 
-  - ****   Serviço de aplicativo de serviço de aplicativo fornece uma plataforma para implantação, hospedagem e gerenciamento de aplicativos de comunicação unificada (UC). A conferência discada usa dois aplicativos de comunicação unificada que exigem serviço de aplicativo: anúncio de conferência e atendedor de conferências. O serviço de aplicativo é instalado e ativado por padrão em todos os servidores front-end em um pool Front-end e em cada servidor Standard Edition quando você implanta uma carga de trabalho de conferência e seleciona a opção conferência discada.
+  - ****   Serviço de aplicativo de serviço de aplicativo fornece uma plataforma para implantar, hospedar e gerenciar aplicativos de comunicação unificada (UC). A conferência discada usa dois aplicativos de comunicação unificada que exigem o serviço de aplicativo: o atendedor de conferência e o comunicado de conferência. O Serviço de aplicativo é instalado e ativado por padrão em cada Servidor Front-End em um pool de Front-Ends e em cada Servidor Standard Edition ao implantar uma carga de trabalho de Conferência e selecionar a opção de conferência de discagem.
 
-  - **Assistente de conferência**   o aplicativo atendente do aplicativo de conferência é um aplicativo de comunicação unificado que aceita chamadas PSTN (rede telefônica pública comutada), reproduz solicitações e une as chamadas a uma conferência a/V. O aplicativo assistente de conferência é instalado e ativado por padrão quando você implanta uma carga de trabalho de conferência e seleciona a opção conferência discada.
+  - **Assistente de conferência**   o aplicativo atendedor de conferência do aplicativo é um aplicativo de comunicações unificado que aceita chamadas PSTN (rede telefônica pública comutada), reproduz prompts e une as chamadas a uma conferência a/V. O aplicativo atendedor de conferência é instalado e ativado por padrão ao implantar uma carga de trabalho de conferência e selecionar a opção de conferência discada.
 
-  - **Aviso de conferência**   o aplicativo de anúncio de conferência do aplicativo é um aplicativo de comunicação unificado que reproduz toques e avisa para participantes PSTN em determinadas ações, como quando os participantes ingressam ou saem de uma conferência, os participantes estão com mudo ou desativada, alguém entra no lobby da conferência ou quando a conferência está bloqueada ou desbloqueada. O aplicativo de anúncio de conferência também oferece suporte a comandos DTMF (Multifrequency) de dois tons do teclado do telefone. O aplicativo de anúncio de conferência é automaticamente instalado e ativado por padrão quando você implanta uma carga de trabalho de conferência e seleciona a opção conferência discada.
+  - **Comunicado de conferência**   o aplicativo comunicado de conferência de aplicativo é um aplicativo de comunicações unificado que reproduz tons e avisa para os participantes de PSTN em determinadas ações, como quando os participantes ingressam ou saem de uma conferência, os participantes são desativados ou desativados, alguém entra no lobby de conferência ou está bloqueado ou desbloqueado. O aplicativo de anúncio de conferência também suporta comandos DTMF (multifrequência de tom dual) do teclado numérico do telefone. O aplicativo de anúncio de conferência é automaticamente instalado e ativado por padrão ao implantar uma carga de trabalho de conferência e selecionar a opção de conferência discada.
 
-  - **Página Configurações de conferência discada**   a página Configurações de conferência discada exibe os números de discagem de conferência com os idiomas disponíveis, as informações de conferência atribuídas (ou seja, para reuniões que não precisam ser agendadas) e controles DTMF em conferência e suporte o gerenciamento do PIN (número de identificação pessoal) e informações de conferência atribuídas. A página de Configurações da Conferência Discada é automaticamente instalada como parte dos serviços da Web.
+  - **Página de configurações de conferência discada**   a página de configurações de conferência discada exibe números de discagem de conferência com seus idiomas disponíveis, informações de conferência atribuídas (ou seja, para reuniões que não precisam ser agendadas) e controles de DTMF em conferência, e suporta o gerenciamento de PIN (número de identificação pessoal) e informações de conferência atribuídas. A página de configurações de conferência discada é instalada automaticamente como parte dos serviços Web.
 
-  - **A conferência discada do Lync Server 2013, do servidor de mediação e do gateway**   PSTN requer um servidor de mediação para traduzir a sinalização (e mídia, em algumas configurações) entre o Lync Server 2013 e o gateway PSTN, e um gateway PSTN para traduzir a sinalização e a mídia entre o servidor de mediação e o gateway PSTN. Para conferência discada, você deve implantar pelo menos um servidor de mediação e pelo menos um dos seguintes:
+  - **Lync Server 2013, servidor de mediação e**   conferência de discagem de gateway PSTN requer um servidor de mediação para converter sinalização (e mídia, em algumas configurações) entre o Lync Server 2013 e o gateway PSTN e um gateway PSTN para converter sinalização e mídia entre o servidor de mediação e o gateway PSTN. Para a Conferência de Discagem, você deve implantar pelo menos um Servidor de Mediação e pelo menos um dos seguintes:
     
       - Gateway PSTN
     
@@ -69,18 +69,18 @@ Além dos requisitos de conferência via Web e conferência A/V, a conferência 
     
 
     > [!NOTE]  
-    > Se você também estiver implantando o Enterprise Voice, o servidor de mediação e os gateways PSTN fazem parte da implantação do Enterprise Voice. Se não estiver implantando o Enterprise Voice, você precisará implantar pelo menos um servidor de mediação e pelo menos um gateway PSTN, PBX IP ou SBC para conferência discada.
+    > Se você também estiver implantando o Enterprise Voice, o servidor de mediação e os gateways PSTN serão parte da implantação do Enterprise Voice. Se você não estiver implantando o Enterprise Voice, será necessário implantar pelo menos um Servidor de Mediação e um gateway PSTN, IP-PBX ou SBC para a conferência de discagem.
 
     
     </div>
 
-  - ****   O armazenamento de arquivos do armazenamento de arquivos é usado para arquivos de áudio de nome gravados. O Repositório de Arquivos é um componente padrão de todas as implantações do Enterprise Edition ou Standard Edition.
+  - ****   O repositório de arquivos do repositório de arquivos é usado para arquivos de áudio de nome gravados. O repositório de arquivos é um componente padrão em cada implantação Enterprise Edition ou Standard Edition.
 
-  - ****   Repositório de usuários da loja de usuários é usado para armazenar Pins do usuário do Lync Server 2013. Os PINs são marcados por hash. O armazenamento de Usuários é um componente padrão em todas as implantações de Enterprise Edition ou Standard Edition.
+  - **Repositório do usuário o**   armazenamento do usuário é usado para armazenar Pins do usuário do Lync Server 2013. Os PINs estão em hash. O repositório de usuário é um componente padrão em cada implantação Enterprise Edition ou Standard Edition.
 
   - **Painel de controle do Lync Server**   algumas configurações de discagem podem ser configuradas usando o painel de controle do Lync Server.
 
-  - **Shell de gerenciamento do Lync Server**   todas as configurações de discagem podem ser configuradas usando cmdlets do shell do Shell de gerenciamento do Lync Server. Os cmdlets do Shell de gerenciamento do Lync Server estão disponíveis para implantar, configurar, executar, monitorar e solucionar problemas do aplicativo atendedor de conferências e do aplicativo de anúncio de conferências. Para obter detalhes sobre cmdlets específicos, consulte documentação do Shell de gerenciamento do Lync Server.
+  - **Shell de gerenciamento do Lync Server**   todas as configurações de discagem podem ser configuradas usando os cmdlets do Shell de gerenciamento do Lync Server. Os cmdlets do Shell de gerenciamento do Lync Server estão disponíveis para implantação, configuração, execução, monitoramento e solução de problemas de aplicativo e anúncio de conferência do atendedor de conferência. Para obter detalhes sobre cmdlets específicos, consulte Lync Server Management Shell Documentation.
 
 </div>
 
@@ -88,13 +88,13 @@ Além dos requisitos de conferência via Web e conferência A/V, a conferência 
 
 ## <a name="supported-topologies"></a>Topologias suportadas
 
-No Lync Server 2013, o servidor que executa serviços de conferência é sempre posicionado com os servidores front-end ou servidores Standard Edition. Durante a implantação inicial, o construtor de topologias oferece a opção de incluir conferências na sua topologia. Você também pode usar o Construtor de Topologias para adicionar conferências a uma implantação existente. Para obter detalhes, consulte [definindo e configurando a topologia no Lync Server 2013](lync-server-2013-defining-and-configuring-the-topology.md).
+No Lync Server 2013, o servidor que executa o serviços de conferência é sempre colocado com os servidores front-end ou servidores Standard Edition. Durante a implantação inicial, o construtor de topologias oferece a opção de incluir a conferência em sua topologia. Você também pode usar o construtor de topologias para adicionar conferências a uma implantação existente. Para obter detalhes, consulte [definindo e configurando a topologia no Lync Server 2013](lync-server-2013-defining-and-configuring-the-topology.md).
 
 <div>
 
-## <a name="dial-in-conferencing-toplogies"></a>Toplogies de conferência discada
+## <a name="dial-in-conferencing-toplogies"></a>Topologias de conferência discada
 
-Você pode implantar a conferência discada nas seguintes topologias e configurações:
+É possível implantar a conferência discada nas seguintes topologias e configurações:
 
   - Lync Server 2013 Standard Edition
 
@@ -102,13 +102,13 @@ Você pode implantar a conferência discada nas seguintes topologias e configura
 
   - Com ou sem Enterprise Voice
 
-Você pode implantar o serviço de aplicativo, o aplicativo do atendente de conferência e o aplicativo de anúncio de conferência em um site central, mas não em um site de filial.
+Você pode implantar o serviço de aplicativo, o aplicativo de atendedor de conferência e o aplicativo de anúncio de conferência em um site central, mas não em um site de filial.
 
 <div>
 
 
 > [!NOTE]  
-> Se você implantar a conferência discada, será necessário implantá-la em cada pool onde implantar a conferência do Lync Server 2013. Não é necessário atribuir números de acesso em cada pool, mas é necessário implantar o recurso de conferência discada em cada pool. Esse requisito dá suporte ao recurso de nome registrado quando um usuário chama um número de acesso de um pool para ingressar em uma conferência do Lync Server 2013 em um pool diferente.
+> Se você implantar a conferência discada, deverá implantá-la em todos os pools onde você implantar a conferência do Lync Server 2013. Não é necessário atribuir números de acesso em cada pool, mas é necessário implantar o recurso de conferência discada em cada pool. Esse requisito suporta o recurso de nome registrado quando um usuário chama um número de acesso de um pool para ingressar em uma conferência do Lync Server 2013 em um pool diferente.
 
 
 
@@ -118,29 +118,29 @@ Você pode implantar o serviço de aplicativo, o aplicativo do atendente de conf
 
 <div>
 
-## <a name="supported-topologies-for-lync-server-2013-and-office-web-apps"></a>Topologias com suporte para o Lync Server 2013 e Office Web Apps
+## <a name="supported-topologies-for-lync-server-2013-and-office-web-apps"></a>Topologias suportadas para Lync Server 2013 e Office Web Apps
 
-O Lync Server 2013 fornece as seguintes maneiras de configurar o servidor do Office Web Apps. Dependendo de seus requisitos, você pode:
+O Lync Server 2013 oferece as seguintes maneiras de configurar o servidor do Office Web Apps. Dependendo das suas necessidades, você pode:
 
-  - **Instale o Lync Server 2013 e o Office Web Apps Server no local por trás do firewall da sua organização e na mesma zona de rede.** Com essa topologia, o acesso externo ao servidor do Office Web Apps será fornecido por meio do servidor de proxy reverso. O Lync Server 2013 e o Office Web Apps Server (ou um Office Web Apps Server farm) são instalados no local e atrás do firewall da sua organização. Idealmente, você deve instalar o Office Web Apps Server na mesma zona de rede do Lync Server.
+  - **Instale o Lync Server 2013 e o servidor do Office Web Apps no local por meio do firewall da sua organização e na mesma zona de rede.** Com essa topologia, o acesso externo ao servidor do Office Web Apps será fornecido pelo servidor de proxy reverso. O Lync Server 2013 e o servidor do Office Web Apps (ou um farm do servidor do Office Web Apps) estão instalados no local e por trás do firewall da sua organização. O ideal é que você instale o servidor do Office Web Apps na mesma zona de rede do Lync Server.
     
-    Os clientes externos do Lync podem se conectar ao Lync Server 2013 e ao Office Web Apps Server usando um servidor proxy reverso, que é um servidor que recebe solicitações da Internet e as encaminha para a rede interna. (Os clientes internos não precisam usar o servidor proxy reverso porque podem se conectar ao servidor do Office Web Apps diretamente.) Essa topologia funciona melhor se você quiser usar um farm de servidores dedicado do Office Web Apps que é usado apenas pelo Lync Server 2013.
+    Os clientes externos do Lync podem se conectar ao Lync Server 2013 e ao servidor do Office Web Apps usando um servidor proxy reverso, que é um servidor que toma solicitações da Internet e as encaminha para a rede interna. (Os clientes internos não precisam usar o servidor proxy reverso, pois podem se conectar diretamente ao servidor do Office Web Apps.) Essa topologia funciona melhor se você quiser usar um farm dedicado do servidor do Office Web Apps que é usado apenas pelo Lync Server 2013.
 
-  - **Usando um servidor Office Web Apps implantado externamente**
+  - **Usando um servidor do Office Web Apps implantado externamente**
     
-    Nessa topologia, o Lync Server 2013 é implantado local e usa um servidor Office Web Apps que é implantado fora da zona de rede do Lync Server. Isso pode acontecer quando o Office Web Apps Server é compartilhado entre vários aplicativos na empresa e é implantado em uma rede que requer o Lync Server para usar a interface externa do servidor do Office Web Apps e vice-versa.
+    Nesta topologia, o Lync Server 2013 é implantado localmente e usa um servidor do Office Web Apps implantado fora da zona de rede do Lync Server. Isso pode acontecer quando o servidor do Office Web Apps é compartilhado entre vários aplicativos na empresa e é implantado em uma rede que requer o Lync Server para usar a interface externa do servidor do Office Web Apps e vice-versa.
     
-    Você não precisa instalar um servidor proxy reverso; em vez disso, todas as solicitações do servidor do Office Web Apps para o Lync Server 2013 são roteadas pelo servidor de borda. Os seus clientes internos e externos do Lync se conectam ao servidor do Office Web Apps usando a URL externa.
+    Não é necessário instalar um servidor de proxy reverso; em vez disso, todas as solicitações do servidor do Office Web Apps para o Lync Server 2013 são roteadas através do servidor de borda. Os seus clientes internos e externos do Lync se conectam ao servidor do Office Web Apps usando a URL externa.
     
-    Se o Office Web Apps Server for implantado fora do seu firewall interno, selecione a opção o **servidor do Office Web Apps será implantado em uma rede externa (ou seja, perímetro/Internet)** no construtor de topologias. Para obter mais detalhes, consulte [Configurando a integração com o Office Web Apps Server e o Lync Server 2013](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md).
+    Se o servidor do Office Web Apps for implantado fora do seu firewall interno, selecione a opção o **servidor do Office Web Apps é implantado em uma rede externa (ou seja, perímetro/Internet)** no construtor de topologias. Para obter mais detalhes, consulte [Configurando a integração com o servidor do Office Web Apps e o Lync Server 2013](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md).
 
-Independentemente da topologia selecionada, é fundamental que as portas do firewall certas estejam abertas. Você deve certificar-se de que nomes DNS, endereços IP e portas não sejam bloqueados por firewalls no servidor do Office Web Apps, o balanceador de carga ou o Lync Server.
+Independente da topologia selecionada, é fundamental que as portas de firewall certas estejam abertas. Você deve verificar se os nomes DNS, endereços IP e portas não são bloqueados por firewalls no servidor do Office Web Apps, no balanceador de carga ou no Lync Server.
 
 <div>
 
 
 > [!NOTE]  
-> Outra opção para fornecer acesso externo ao servidor do Office Web Apps é implantar o servidor na rede de perímetro. Se você optar por fazer isso, lembre-se de que a instalação do servidor do Office Web Apps exige que o computador do servidor seja membro do seu domínio do Active Directory. A menos que sua política de rede permita que os computadores na rede de perímetro sejam membros do domínio do Active Directory, é recomendável que você não instale o servidor do Office Web Apps na rede de perímetro. Em vez disso, você deve instalar o Office Web Apps Server na rede interna e oferecer acesso externo ao usuário por meio do servidor proxy reverso.
+> Outra opção para fornecer acesso externo ao servidor do Office Web Apps é implantar o servidor na rede de perímetro. Se você optar por fazer isso, tenha em mente que a instalação do servidor do Office Web Apps exige que o computador servidor seja membro do seu domínio do Active Directory. A menos que a política de rede permita que os computadores na rede de perímetro sejam membros do domínio do Active Directory, é recomendável que você não instale o servidor do Office Web Apps na rede de perímetro. Em vez disso, você deve instalar o servidor do Office Web Apps na rede interna e fornecer acesso de usuário externo através do servidor de proxy reverso.
 
 
 

@@ -12,16 +12,16 @@ ms:contentKeyID: 48185937
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 61824b09d1c36aec876ef81762205c81c7f1300d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2eadff371314088e99752ca2bab4c74bcae174c1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764197"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42027592"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41764197"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-06-28_
+_**Última modificação do tópico:** 2012-06-28_
 
-tblComplianceState contém informações de estado de conformidade em todo o pool.
+tblComplianceState contém informações sobre o estado de conformidade de todo o pool.
 
 ### <a name="columns"></a>Colunas
 
@@ -57,18 +57,18 @@ tblComplianceState contém informações de estado de conformidade em todo o poo
 <tbody>
 <tr class="odd">
 <td><p>lastProcessedEntryID</p></td>
-<td><p>bigint, e não nulo</p></td>
-<td><p>ID do evento de conformidade processado mais recente.</p></td>
+<td><p>bigint, não nulo</p></td>
+<td><p>ID do último evento de conformidade processado.</p></td>
 </tr>
 <tr class="even">
 <td><p>activeServerID</p></td>
 <td><p>int, não nulo</p></td>
-<td><p>ID do servidor de conformidade que mantém o bloqueio exclusivo no banco de dados ou-1 se nenhum.</p></td>
+<td><p>ID do servidor de conformidade que possui o bloqueio exclusivo no banco de dados, ou -1 se nenhum.</p></td>
 </tr>
 <tr class="odd">
 <td><p>lockExpirationTime</p></td>
 <td><p>datetime2, não nulo</p></td>
-<td><p>Bloquear o tempo de expiração (se activeServerID não for-1).</p></td>
+<td><p>Hora de expiração do bloqueio (se activeServerID não for igual a -1).</p></td>
 </tr>
 </tbody>
 </table>

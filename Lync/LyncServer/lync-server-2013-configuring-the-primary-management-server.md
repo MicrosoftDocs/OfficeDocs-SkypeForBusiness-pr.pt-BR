@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Configurando o servidor de gerenciamento primário'
+title: 'Lync Server 2013: Configurando o servidor de gerenciamento principal'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183986
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7d6cb7d0f27413449873cb8a0d8498aec230fdfd
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6640e13209700d50aac04c43728175a4fcb4e6b4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734611"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029994"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41734611"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2014-03-19_
+_**Última modificação do tópico:** 2014-03-19_
 
-Para aproveitar ao máximo os novos recursos de monitoramento de integridade incluídos no Microsoft Lync Server 2013 os administradores do Microsoft Lync Server devem primeiro designar um computador para atuar como seu principal servidor de gerenciamento; nesse computador, você deve instalar o System Center Operations Manager 2007 R2 ou o System Center Operations Manager 2012. Além disso, você deve instalar uma versão com suporte do SQL Server para funcionar como o banco de dados back-end do Operations Manager. Se você estiver usando o System Center Operations Manager 2012, poderá usar qualquer uma das seguintes versões do SQL Server como banco de dados back-end:
+Para aproveitar ao máximo os novos recursos de monitoramento de integridade incluídos no Microsoft Lync Server 2013 os administradores devem primeiro designar um computador para atuar como servidor de gerenciamento principal; nesse computador, você deve instalar o System Center Operations Manager 2007 R2 ou o System Center Operations Manager 2012. Além disso, você deve instalar uma versão com suporte do SQL Server para funcionar como o banco de dados back-end do Operations Manager. Se você estiver usando o System Center Operations Manager 2012, poderá usar qualquer uma das seguintes versões do SQL Server como banco de dados back-end:
 
   - SQL Server 2008 R2 Service Pack 1
 
   - SQL Server 2008 R2 Service Pack 2
 
-Se você estiver usando o System Center Operations Manager 2007 R2, é recomendável instalar o SQL Server 2005 Service Pack 4 ou o SQL Server 2008 Service Pack 3. Você também pode usar o SQL Server 2008 R2 como o banco de dados back-end para o System Center Operations Manager 2007 R2. Consulte o apêndice 1 desta documentação para obter mais informações sobre como configurar o SQL Server 2008 R2 para trabalhar com o System Center Operations Manager 2007 R2.
+Se você estiver usando o System Center Operations Manager 2007 R2, é recomendável instalar o SQL Server 2005 Service Pack 4 ou o SQL Server 2008 Service Pack 3. Você também pode usar o SQL Server 2008 R2 como banco de dados de backend para o System Center Operations Manager 2007 R2. Consulte o apêndice 1 desta documentação para saber mais sobre como configurar o SQL Server 2008 R2 para trabalhar com o System Center Operations Manager 2007 R2.
 
-Ao instalar o System Center Operations Manager 2012 ou o System Center Operations Manager 2007 R2, você precisa instalar todos os componentes do produto, incluindo:
+Ao instalar o System Center Operations Manager 2012 ou o System Center Operations Manager 2007 R2, você precisa instalar todos os componentes desse produto, incluindo:
 
   - Banco de dados operacional
 
@@ -53,19 +53,19 @@ Ao instalar o System Center Operations Manager 2012 ou o System Center Operation
 
   - Console
 
-  - Cmdlets do Windows PowerShell
+  - \s-1 \plain Windows PowerShellcmdlets
 
   - Console da Web
 
-  - Relatório
+  - Reporting
 
   - Data warehouse
 
-Esses componentes e sua instalação não serão discutidos detalhadamente neste documento. Para obter detalhes sobre o System Center Operations Manager 2007 R2, consulte a documentação do Operations Manager 2007 R2 em <http://go.microsoft.com/fwlink/p/?linkid=257526> e a documentação do <http://go.microsoft.com/fwlink/p/?linkid=257527>System Center Operations Manager 2012 em. Você deve seguir essas instruções se você for usar o SQL Server 2005 ou o SQL Server 2008 Service Pack 1 como seu banco de dados back-end.
+Esses componentes e respectivas instalações não serão debatidas em detalhes neste documento. Para obter detalhes sobre o System Center Operations Manager 2007 R2, consulte a documentação do Operations Manager 2007 R2 em <http://go.microsoft.com/fwlink/p/?linkid=257526> e a documentação do <http://go.microsoft.com/fwlink/p/?linkid=257527>System Center Operations Manager 2012 em. Siga estas instruções se você for usar o SQL Server 2005 ou o SQL Server 2008 Service Pack 1 como banco de dados back-end.
 
-Se você estiver usando o System Center Operations Manager 2012, poderá usar o SQL Server 2012 como banco de dados back-end. Para obter detalhes sobre o SQL Server 2012, consulte manuais online para SQL Server [http://go.microsoft.com/fwlink/p/?LinkId=257528](http://go.microsoft.com/fwlink/p/?linkid=257528)2012 at.
+Se você estiver usando o System Center Operations Manager 2012, poderá usar o SQL Server 2012 como banco de dados de back-end. Para obter detalhes sobre o SQL Server 2012, consulte manuais online para o SQL [http://go.microsoft.com/fwlink/p/?LinkId=257528](http://go.microsoft.com/fwlink/p/?linkid=257528)Server 2012 em.
 
-Lembre-se de que você só pode ter um único servidor de gerenciamento principal por implantação do Lync Server. Além disso, embora você possa usar o System Center Operations Manager 2012 ou o System Center Operations Manager 2007 R2, não é possível executar os dois aplicativos simultaneamente — você deve escolher um ou o outro. Por exemplo, se você estiver executando o System Center Operations Manager 2012, todos os agentes do System Center também deverão estar executando o System Center Operations Manager 2012. Você não pode ter alguns agentes que executam o System Center Operations Manager 2012 e outros agentes que executam o System Center Operations Manager 2007 R2.
+Tenha em mente que você só pode ter um único servidor de gerenciamento principal por implantação do Lync Server. Além disso, embora você possa usar o System Center Operations Manager 2012 ou o System Center Operations Manager 2007 R2, não é possível executar os dois aplicativos simultaneamente, você deve escolher um ou outro. Por exemplo, se você estiver executando o System Center Operations Manager 2012, todos os agentes do System Center também devem estar executando o System Center Operations Manager 2012. Você não pode ter alguns agentes executando o System Center Operations Manager 2012 e outros agentes executando o System Center Operations Manager 2007 R2.
 
 </div>
 

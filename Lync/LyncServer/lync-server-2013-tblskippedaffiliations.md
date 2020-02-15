@@ -12,16 +12,16 @@ ms:contentKeyID: 48183373
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 510f9559091395665019dad699f346f26e81b1ab
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c61c2744c6a2cdf8b857161d3476885992c4d74e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731191"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42024712"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41731191"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-12_
+_**Última modificação do tópico:** 2012-09-12_
 
-tblSkippedAffiliations contém as afiliações que não puderam ser lidas (geralmente devido a erros de acesso aos serviços de domínio Active Directory).
+tblSkippedAffiliations contém as afiliações que não puderam ser lidas (geralmente devido aos erros de acesso dos serviços de domínio do Active Directory).
 
 ### <a name="columns"></a>Colunas
 
@@ -56,26 +56,26 @@ tblSkippedAffiliations contém as afiliações que não puderam ser lidas (geral
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>multiimprimir</p></td>
-<td><p>int, não nulo</p></td>
-<td><p>ID da entidade de segurança.</p></td>
+<td><p>prinID</p></td>
+<td><p>int, not null</p></td>
+<td><p>ID principal.</p></td>
 </tr>
 <tr class="even">
 <td><p>affDescription</p></td>
-<td><p>nvarchar (256), NOT NULL</p></td>
-<td><p>Uma cadeia de caracteres que identifica a afiliação.</p>
+<td><p>nvarchar (256), não nulo</p></td>
+<td><p>Uma cadeia identificando a afiliação.</p>
 <p>O formato é: GUID: {0} URI: {1} &gt; ID:{2}</p></td>
 </tr>
 <tr class="odd">
 <td><p>updatedBy</p></td>
 <td><p>int, não nulo</p></td>
-<td><p>ID da entidade de segurança que atualizou esta linha. É sempre 1 (usuário do sistema) porque a sincronização do Active Directory é a única fonte dessas entradas.</p></td>
+<td><p>ID da principal que atualizou essa linha. É sempre 1 (usuário do sistema) porque a Sincronização do Active Directory é a única origem dessas entradas.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="keys"></a>As
+### <a name="keys"></a>Chaves
 
 <table>
 <colgroup>
@@ -90,12 +90,12 @@ tblSkippedAffiliations contém as afiliações que não puderam ser lidas (geral
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>&lt;affDescription&gt;</p></td>
+<td><p>&lt;imprimir, affDescription&gt;</p></td>
 <td><p>Chave primária.</p></td>
 </tr>
 <tr class="even">
-<td><p>multiimprimir</p></td>
-<td><p>Chave estrangeira com Lookup na tabela tblPrincipal. retoid.</p></td>
+<td><p>prinID</p></td>
+<td><p>Chave estrangeira com pesquisa na tabela tblPrincipal.prinID.</p></td>
 </tr>
 </tbody>
 </table>

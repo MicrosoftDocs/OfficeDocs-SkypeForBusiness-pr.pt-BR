@@ -12,16 +12,16 @@ ms:contentKeyID: 48185332
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 29eaea1e45c5d3b745debbc2f97370a76e6d16db
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 460c56a9e51ab64491402eed22d40d60ad7d89c1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730701"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030525"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,25 +35,25 @@ ms.locfileid: "41730701"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-02-17_
+_**Última modificação do tópico:** 2013-02-17_
 
 <div>
 
 
 > [!IMPORTANT]  
-> Este tópico se aplica apenas ao serviço de mobilidade do Lync Server 2013 (MCX) e não se aplica à API da Web de comunicação unificada (UCWA), conforme entregue nas atualizações cumulativas do Lync Server 2013:2013 de fevereiro.
+> Este tópico se aplica apenas ao Lync Server 2013 Mobility Service (MCX) e não se aplica à API Web de comunicações unificadas (UCWA), conforme fornecido nas atualizações cumulativas do Lync Server 2013:2013 de fevereiro.
 
 
 
 </div>
 
-Quando você instala o serviço de mobilidade (MCX) em serviços de informações da Internet (IIS) 7,5, o instalador do serviço de mobilidade configura algumas configurações de desempenho no servidor front-end. Recomendamos usar IIS 7.5 para mobilidade. As configurações afetam o número máximo de solicitações concomitantes de usuários e o número máximo de threads permitidos para o Mobility Service.
+Ao instalar o serviço de mobilidade (MCX) nos serviços de informações da Internet (IIS) 7,5, o instalador do serviço de mobilidade configura algumas configurações de desempenho no servidor front-end. Recomendamos o uso do IIS 7.5 para mobilidade. As configurações afetam o número máximo de solicitações de usuário simultâneas e o número máximo de segmentos permitidos para o Serviço de Mobilidade.
 
 Aqui estão as configurações de desempenho:
 
 <div>
 
-## <a name="settings-for-mcx-on-iis-75"></a>Configurações para Mcx no IIS 7.5
+## <a name="settings-for-mcx-on-iis-75"></a>Configurações para MCX no IIS 7,5
 
 1.  **maxConcurrentThreadsPerCPU** está definido como zero (0).
 

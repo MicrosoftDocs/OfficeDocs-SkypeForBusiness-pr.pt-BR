@@ -12,16 +12,16 @@ ms:contentKeyID: 49733874
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 612b944d35e3e8158622a4d18105074f5888daca
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: dfdb2e252ec50ca73471f22a59d8f9d1f65f4908
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735841"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030835"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41735841"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-11-01_
+_**Última modificação do tópico:** 2012-11-01_
 
-Use os procedimentos desta seção para habilitar ou desabilitar o bypass de mídia usando o painel de controle do Lync Server. Para obter detalhes sobre quando usar o bypass de mídia, consulte [planejando a bypass de mídia no Lync Server 2013](lync-server-2013-planning-for-media-bypass.md).
+Use os procedimentos desta seção para habilitar ou desabilitar o bypass de mídia usando o painel de controle do Lync Server. Para obter detalhes sobre quando usar o bypass de mídia, consulte [Planning for Media bypass in Lync Server 2013](lync-server-2013-planning-for-media-bypass.md).
 
 <div>
 
@@ -45,7 +45,7 @@ Use os procedimentos desta seção para habilitar ou desabilitar o bypass de mí
 
   - [Habilitando o bypass de mídia de rede no Lync Server 2013](lync-server-2013-enabling-network-media-bypass.md)
 
-  - [Desativando o bypass de mídia de rede no Lync Server 2013](lync-server-2013-disabling-network-media-bypass.md)
+  - [Desabilitando o bypass de mídia de rede no Lync Server 2013](lync-server-2013-disabling-network-media-bypass.md)
 
 </div>
 
