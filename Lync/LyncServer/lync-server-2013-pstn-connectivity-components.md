@@ -12,20 +12,20 @@ ms:contentKeyID: 48184408
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 63b5534b817477ea42dbefd5244c974fc70881f9
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b307e88bbf85b43a6997d46c5a822684e0421752
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724761"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043443"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="pstn-connectivity-components-in-lync-server-2013"></a><span data-ttu-id="78d1b-102">Componentes de conectividade PSTN no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="78d1b-102">PSTN connectivity components in Lync Server 2013</span></span>
+# <a name="pstn-connectivity-components-in-lync-server-2013"></a><span data-ttu-id="b25bf-102">Componentes de conectividade PSTN no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b25bf-102">PSTN connectivity components in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,61 +35,61 @@ ms.locfileid: "41724761"
 
 <span> </span>
 
-<span data-ttu-id="78d1b-103">_**Tópico da última modificação:** 2012-10-04_</span><span class="sxs-lookup"><span data-stu-id="78d1b-103">_**Topic Last Modified:** 2012-10-04_</span></span>
+<span data-ttu-id="b25bf-103">_**Última modificação do tópico:** 2012-10-04_</span><span class="sxs-lookup"><span data-stu-id="b25bf-103">_**Topic Last Modified:** 2012-10-04_</span></span>
 
-<span data-ttu-id="78d1b-104">Uma solução de VoIP em nível empresarial deve fornecer chamadas de e para a PSTN (rede telefônica pública comutada), sem redução de QoS (Qualidade de Serviço).</span><span class="sxs-lookup"><span data-stu-id="78d1b-104">An enterprise-grade VoIP solution must provide for calls to and from the public switched telephone network (PSTN) without any decline in Quality of Service (QoS).</span></span> <span data-ttu-id="78d1b-105">Além disso, os usuários não devem perceber a tecnologia subjacente ao fazer e receber chamadas.</span><span class="sxs-lookup"><span data-stu-id="78d1b-105">In addition, users should not be aware of the underlying technology when they place and receive calls.</span></span> <span data-ttu-id="78d1b-106">Da perspectiva do usuário, uma chamada entre a infraestrutura Enterprise Voice e a PSTN deve parecer apenas com outra sessão SIP.</span><span class="sxs-lookup"><span data-stu-id="78d1b-106">From the user's perspective, a call between the Enterprise Voice infrastructure and the PSTN should seem like just another SIP session.</span></span>
+<span data-ttu-id="b25bf-p101">Uma solução de VoIP em nível empresarial deve fornecer chamadas de e para a PSTN (rede telefônica pública comutada), sem redução de QoS (Qualidade de Serviço). Além disso, os usuários não devem perceber a tecnologia subjacente ao fazer e receber chamadas. Da perspectiva do usuário, uma chamada entre a infraestrutura do Enterprise Voice e a PSTN deve ser igual a qualquer outra sessão SIP.</span><span class="sxs-lookup"><span data-stu-id="b25bf-p101">An enterprise-grade VoIP solution must provide for calls to and from the public switched telephone network (PSTN) without any decline in Quality of Service (QoS). In addition, users should not be aware of the underlying technology when they place and receive calls. From the user's perspective, a call between the Enterprise Voice infrastructure and the PSTN should seem like just another SIP session.</span></span>
 
-<span data-ttu-id="78d1b-107">Para conexões PSTN, você pode implantar um tronco SIP ou um gateway PSTN (com um PBX, também conhecido como um link do SIP Direto, ou sem um PBX).</span><span class="sxs-lookup"><span data-stu-id="78d1b-107">For PSTN connections, you can either deploy a SIP trunk or a PSTN gateway (with a PBX, also known as a Direct SIP link, or without a PBX).</span></span>
+<span data-ttu-id="b25bf-107">Para conexões PSTN, você pode implantar um tronco SIP ou um gateway PSTN (com um PBX, também conhecido como um link SIP direto, ou sem um PBX).</span><span class="sxs-lookup"><span data-stu-id="b25bf-107">For PSTN connections, you can either deploy a SIP trunk or a PSTN gateway (with a PBX, also known as a Direct SIP link, or without a PBX).</span></span>
 
 <div>
 
-## <a name="sip-trunking"></a><span data-ttu-id="78d1b-108">Tronco SIP</span><span class="sxs-lookup"><span data-stu-id="78d1b-108">SIP Trunking</span></span>
+## <a name="sip-trunking"></a><span data-ttu-id="b25bf-108">Tronco SIP</span><span class="sxs-lookup"><span data-stu-id="b25bf-108">SIP Trunking</span></span>
 
-<span data-ttu-id="78d1b-109">Como uma alternativa para o uso de gateways PSTN, você pode conectar sua solução Enterprise Voice à PSTN usando o entroncamento SIP.</span><span class="sxs-lookup"><span data-stu-id="78d1b-109">As an alternative to using PSTN gateways, you can connect your Enterprise Voice solution to the PSTN by using SIP trunking.</span></span> <span data-ttu-id="78d1b-110">O tronco SIP permite os seguintes cenários:</span><span class="sxs-lookup"><span data-stu-id="78d1b-110">SIP trunking enables the following scenarios:</span></span>
+<span data-ttu-id="b25bf-p102">Como alternativa ao uso de gateways PSTN, você pode conectar sua solução Enterprise Voice à PSTN usando o tronco SIP. O tronco SIP permite os seguintes cenários:</span><span class="sxs-lookup"><span data-stu-id="b25bf-p102">As an alternative to using PSTN gateways, you can connect your Enterprise Voice solution to the PSTN by using SIP trunking. SIP trunking enables the following scenarios:</span></span>
 
-  - <span data-ttu-id="78d1b-111">Um usuário corporativo dentro ou fora do firewall corporativo pode fazer uma chamada local ou interurbana especificada por um número em conformidade com E.164 que é encerrado no PSTN como um serviço do provedor de serviços correspondente.</span><span class="sxs-lookup"><span data-stu-id="78d1b-111">An enterprise user inside or outside the corporate firewall can make a local or long-distance call specified by an E.164-compliant number that is terminated on the PSTN as a service of the corresponding service provider.</span></span>
+  - <span data-ttu-id="b25bf-111">Um usuário corporativo dentro ou fora do firewall corporativo pode fazer uma chamada local ou interurbana especificada por um número em conformidade com E.164 que é encerrado no PSTN como um serviço do provedor de serviços correspondente.</span><span class="sxs-lookup"><span data-stu-id="b25bf-111">An enterprise user inside or outside the corporate firewall can make a local or long-distance call specified by an E.164-compliant number that is terminated on the PSTN as a service of the corresponding service provider.</span></span>
 
-  - <span data-ttu-id="78d1b-112">Qualquer assinante do PSTN pode entrar em contato com um usuário corporativo dentro ou fora do firewall corporativo ao discar um número DID (Discagem Direta Interna) associado àquele usuário.</span><span class="sxs-lookup"><span data-stu-id="78d1b-112">Any PSTN subscriber can contact an enterprise user inside or outside the corporate firewall by dialing a Direct Inward Dialing (DID) number associated with that enterprise user.</span></span>
+  - <span data-ttu-id="b25bf-112">Qualquer assinante do PSTN pode entrar em contato com um usuário corporativo dentro ou fora do firewall corporativo ao discar um número DID (Discagem Direta Interna) associado àquele usuário.</span><span class="sxs-lookup"><span data-stu-id="b25bf-112">Any PSTN subscriber can contact an enterprise user inside or outside the corporate firewall by dialing a Direct Inward Dialing (DID) number associated with that enterprise user.</span></span>
 
-<span data-ttu-id="78d1b-113">O uso dessa solução de implantação requer um provedor de serviços de tronco SIP.</span><span class="sxs-lookup"><span data-stu-id="78d1b-113">The use of this deployment solution requires a SIP trunking service provider.</span></span>
+<span data-ttu-id="b25bf-113">O uso dessa solução de implantação requer um provedor de serviços de tronco SIP.</span><span class="sxs-lookup"><span data-stu-id="b25bf-113">The use of this deployment solution requires a SIP trunking service provider.</span></span>
 
 </div>
 
 <div>
 
-## <a name="pstn-gateways"></a><span data-ttu-id="78d1b-114">Gateways PSTN</span><span class="sxs-lookup"><span data-stu-id="78d1b-114">PSTN gateways</span></span>
+## <a name="pstn-gateways"></a><span data-ttu-id="b25bf-114">Gateways PSTN</span><span class="sxs-lookup"><span data-stu-id="b25bf-114">PSTN gateways</span></span>
 
-<span data-ttu-id="78d1b-115">Os gateways PSTN são dispositivos de terceiros que traduzem sinais e mídias entre a infraestrutura do Enterprise Voice e uma PSTN ou PBX.</span><span class="sxs-lookup"><span data-stu-id="78d1b-115">PSTN gateways are third-party devices that translate signaling and media between the Enterprise Voice infrastructure and a PSTN or a PBX.</span></span> <span data-ttu-id="78d1b-116">Os gateways PSTN funcionam com o servidor de mediação para apresentar uma PSTN ou uma chamada PBX para um cliente Enterprise Voice.</span><span class="sxs-lookup"><span data-stu-id="78d1b-116">PSTN gateways work with the Mediation Server to present a PSTN or PBX call to an Enterprise Voice client.</span></span> <span data-ttu-id="78d1b-117">O servidor de mediação também apresenta chamadas de clientes do Enterprise Voice para o gateway PSTN para roteamento para a PSTN ou PBX.</span><span class="sxs-lookup"><span data-stu-id="78d1b-117">The Mediation Server also presents calls from Enterprise Voice clients to the PSTN gateway for routing to the PSTN or PBX.</span></span> <span data-ttu-id="78d1b-118">Para obter uma lista dos parceiros que trabalham com a Microsoft para fornecer dispositivos que funcionam com o Lync Server, consulte o website Microsoft Unified Communications Partners em [http://go.microsoft.com/fwlink/p/?linkId=202836](http://go.microsoft.com/fwlink/p/?linkid=202836).</span><span class="sxs-lookup"><span data-stu-id="78d1b-118">For a list of partners who work with Microsoft to provide devices that work with Lync Server, see the Microsoft Unified Communications Partners website at [http://go.microsoft.com/fwlink/p/?linkId=202836](http://go.microsoft.com/fwlink/p/?linkid=202836).</span></span>
+<span data-ttu-id="b25bf-115">Os gateways PSTN são dispositivos de terceiros que convertem a sinalização e a mídia entre a infraestrutura do Enterprise Voice e uma PSTN ou um PBX.</span><span class="sxs-lookup"><span data-stu-id="b25bf-115">PSTN gateways are third-party devices that translate signaling and media between the Enterprise Voice infrastructure and a PSTN or a PBX.</span></span> <span data-ttu-id="b25bf-116">Os gateways PSTN funcionam com o Servidor de Mediação para apresentar uma chamada PSTN ou PBX para um cliente do Enterprise Voice.</span><span class="sxs-lookup"><span data-stu-id="b25bf-116">PSTN gateways work with the Mediation Server to present a PSTN or PBX call to an Enterprise Voice client.</span></span> <span data-ttu-id="b25bf-117">O Servidor de Mediação também apresenta as chamadas dos clientes do Enterprise Voice ao gateway PSTN para roteamento para a PSTN ou o PBX.</span><span class="sxs-lookup"><span data-stu-id="b25bf-117">The Mediation Server also presents calls from Enterprise Voice clients to the PSTN gateway for routing to the PSTN or PBX.</span></span> <span data-ttu-id="b25bf-118">Para obter uma lista de parceiros que trabalham com a Microsoft para fornecer dispositivos que funcionam com o Lync Server, consulte o site do Microsoft [http://go.microsoft.com/fwlink/p/?linkId=202836](http://go.microsoft.com/fwlink/p/?linkid=202836)Unified Communications Partners em.</span><span class="sxs-lookup"><span data-stu-id="b25bf-118">For a list of partners who work with Microsoft to provide devices that work with Lync Server, see the Microsoft Unified Communications Partners website at [http://go.microsoft.com/fwlink/p/?linkId=202836](http://go.microsoft.com/fwlink/p/?linkid=202836).</span></span>
 
 </div>
 
 <div>
 
-## <a name="private-branch-exchanges"></a><span data-ttu-id="78d1b-119">Centrais privadas de comutação telefônica</span><span class="sxs-lookup"><span data-stu-id="78d1b-119">Private Branch Exchanges</span></span>
+## <a name="private-branch-exchanges"></a><span data-ttu-id="b25bf-119">Centrais privadas de comutação telefônica</span><span class="sxs-lookup"><span data-stu-id="b25bf-119">Private Branch Exchanges</span></span>
 
-<span data-ttu-id="78d1b-120">Se você tiver uma infraestrutura de voz existente que usa um PBX (Private Branch Exchange), você pode usar seu PBX com o Lync Server Enterprise Voice.</span><span class="sxs-lookup"><span data-stu-id="78d1b-120">If you have an existing voice infrastructure that uses a private branch exchange (PBX), you can use your PBX with Lync Server Enterprise Voice.</span></span>
+<span data-ttu-id="b25bf-120">Se você tiver uma infraestrutura de voz existente que usa um PBX (Private Branch Exchange), você pode usar seu PBX com o Lync Server Enterprise Voice.</span><span class="sxs-lookup"><span data-stu-id="b25bf-120">If you have an existing voice infrastructure that uses a private branch exchange (PBX), you can use your PBX with Lync Server Enterprise Voice.</span></span>
 
-<span data-ttu-id="78d1b-121">Os cenários de integração de Enterprise Voice-PBX compatíveis são os seguintes:</span><span class="sxs-lookup"><span data-stu-id="78d1b-121">The supported Enterprise Voice-PBX integration scenarios are as follows:</span></span>
+<span data-ttu-id="b25bf-121">Os cenários de integração de PBX com o Enterprise Voice aceitos são:</span><span class="sxs-lookup"><span data-stu-id="b25bf-121">The supported Enterprise Voice-PBX integration scenarios are as follows:</span></span>
 
-  - <span data-ttu-id="78d1b-122">PBX IP que dá suporte ao bypass de mídia, com um servidor de mediação.</span><span class="sxs-lookup"><span data-stu-id="78d1b-122">IP-PBX that supports media bypass, with a Mediation Server.</span></span>
+  - <span data-ttu-id="b25bf-122">IP-PBX que oferece suporte ao desvio de mídia, com um Servidor de Mediação.</span><span class="sxs-lookup"><span data-stu-id="b25bf-122">IP-PBX that supports media bypass, with a Mediation Server.</span></span>
 
-  - <span data-ttu-id="78d1b-123">IP-PBX que requer um gateway PSTN autônomo.</span><span class="sxs-lookup"><span data-stu-id="78d1b-123">IP-PBX that requires a stand-alone PSTN gateway.</span></span>
+  - <span data-ttu-id="b25bf-123">IP-PBX que requer um gateway PSTN autônomo.</span><span class="sxs-lookup"><span data-stu-id="b25bf-123">IP-PBX that requires a stand-alone PSTN gateway.</span></span>
 
-  - <span data-ttu-id="78d1b-124">Conexão PBX TDM, com um gateway PSTN autônomo.</span><span class="sxs-lookup"><span data-stu-id="78d1b-124">Time division multiplexing (TDM) PBX, with a stand-alone PSTN gateway.</span></span>
+  - <span data-ttu-id="b25bf-124">Conexão PBX TDM, com um gateway PSTN autônomo.</span><span class="sxs-lookup"><span data-stu-id="b25bf-124">Time division multiplexing (TDM) PBX, with a stand-alone PSTN gateway.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="78d1b-125">O bypass de mídia não irá interoperar com cada gateway PSTN, IP-PBX e SBC.</span><span class="sxs-lookup"><span data-stu-id="78d1b-125">Media bypass will not interoperate with every PSTN gateway, IP-PBX, and SBC.</span></span> <span data-ttu-id="78d1b-126">A Microsoft testou um conjunto de gateways PSTN e SBCs com os parceiros certificados e realizou alguns testes com IP-PBXs da Cisco.</span><span class="sxs-lookup"><span data-stu-id="78d1b-126">Microsoft has tested a set of PSTN gateways and SBCs with certified partners and has done some testing with Cisco IP-PBXs.</span></span> <span data-ttu-id="78d1b-127">O bypass de mídia só tem suporte com produtos e versões listados no programa de interoperabilidade aberta da comunicação <A href="http://go.microsoft.com/fwlink/p/?linkid=214406">http://go.microsoft.com/fwlink/p/?linkId=214406</A>unificada – Lync Server em.</span><span class="sxs-lookup"><span data-stu-id="78d1b-127">Media bypass is supported only with products and versions listed on Unified Communications Open Interoperability Program – Lync Server at <A href="http://go.microsoft.com/fwlink/p/?linkid=214406">http://go.microsoft.com/fwlink/p/?linkId=214406</A>.</span></span>
+> <span data-ttu-id="b25bf-125">O desvio de mídia não irá interoperar com cada gateway PSTN, IP-PBX e SBC.</span><span class="sxs-lookup"><span data-stu-id="b25bf-125">Media bypass will not interoperate with every PSTN gateway, IP-PBX, and SBC.</span></span> <span data-ttu-id="b25bf-126">A Microsoft testou um conjunto de gateways PSTN e SBCs com parceiros certificados e realizou alguns testes com IP-PBXs da Cisco.</span><span class="sxs-lookup"><span data-stu-id="b25bf-126">Microsoft has tested a set of PSTN gateways and SBCs with certified partners and has done some testing with Cisco IP-PBXs.</span></span> <span data-ttu-id="b25bf-127">O bypass de mídia é suportado apenas com produtos e versões listados no programa de interoperabilidade aberta de comunicações <A href="http://go.microsoft.com/fwlink/p/?linkid=214406">http://go.microsoft.com/fwlink/p/?linkId=214406</A>unificativas – Lync Server em.</span><span class="sxs-lookup"><span data-stu-id="b25bf-127">Media bypass is supported only with products and versions listed on Unified Communications Open Interoperability Program – Lync Server at <A href="http://go.microsoft.com/fwlink/p/?linkid=214406">http://go.microsoft.com/fwlink/p/?linkId=214406</A>.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="78d1b-128">Para obter detalhes sobre os parceiros que oferecem as soluções Enterprise Voice, consulte o website Microsoft Unified Communications Partners em [http://go.microsoft.com/fwlink/p/?linkId=202836](http://go.microsoft.com/fwlink/p/?linkid=202836).</span><span class="sxs-lookup"><span data-stu-id="78d1b-128">For details about partners who offer Enterprise Voice solutions, see the Microsoft Unified Communications Partners website at [http://go.microsoft.com/fwlink/p/?linkId=202836](http://go.microsoft.com/fwlink/p/?linkid=202836).</span></span>
+<span data-ttu-id="b25bf-128">Para obter detalhes sobre parceiros que oferecem soluções do Enterprise Voice, consulte o site do Microsoft Unified Communications Partners em [http://go.microsoft.com/fwlink/p/?linkId=202836](http://go.microsoft.com/fwlink/p/?linkid=202836).</span><span class="sxs-lookup"><span data-stu-id="b25bf-128">For details about partners who offer Enterprise Voice solutions, see the Microsoft Unified Communications Partners website at [http://go.microsoft.com/fwlink/p/?linkId=202836](http://go.microsoft.com/fwlink/p/?linkid=202836).</span></span>
 
-<span data-ttu-id="78d1b-129">Para obter detalhes sobre os parceiros que oferecem soluções de hardware de Voice Enterprise, incluindo gateways PSTN, consulte o website [http://go.microsoft.com/fwlink/p/?linkId=202836](http://go.microsoft.com/fwlink/p/?linkid=202836)Microsoft Unified Communications Partners.</span><span class="sxs-lookup"><span data-stu-id="78d1b-129">For details about partners who offer Enterprise Voice hardware solutions, including PSTN gateways, see the Microsoft Unified Communications Partners website [http://go.microsoft.com/fwlink/p/?linkId=202836](http://go.microsoft.com/fwlink/p/?linkid=202836).</span></span>
+<span data-ttu-id="b25bf-129">Para obter detalhes sobre parceiros que oferecem soluções de hardware do Enterprise Voice, incluindo gateways PSTN, consulte o site [http://go.microsoft.com/fwlink/p/?linkId=202836](http://go.microsoft.com/fwlink/p/?linkid=202836)de parceiros de comunicações unificadas da Microsoft.</span><span class="sxs-lookup"><span data-stu-id="b25bf-129">For details about partners who offer Enterprise Voice hardware solutions, including PSTN gateways, see the Microsoft Unified Communications Partners website [http://go.microsoft.com/fwlink/p/?linkId=202836](http://go.microsoft.com/fwlink/p/?linkid=202836).</span></span>
 
 </div>
 
