@@ -1,5 +1,5 @@
 ---
-title: Usar o analisador de práticas recomendadas para identificar possíveis problemas na sua implantação
+title: Usando o analisador de práticas recomendadas para identificar possíveis problemas em sua implantação
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183344
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e60945f9a7ee8f8b6fe52857fd73a399725de5be
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 12cf3fcc76c1fba3b8162a4928f672558818e735
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744211"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42041768"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="using-best-practices-analyzer-to-identify-potential-issues-in-your-lync-server-2013-deployment"></a>Usar o analisador de práticas recomendadas para identificar possíveis problemas na implantação do Lync Server 2013
+# <a name="using-best-practices-analyzer-to-identify-potential-issues-in-your-lync-server-2013-deployment"></a>Usando o analisador de práticas recomendadas para identificar possíveis problemas em sua implantação do Lync Server 2013
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41744211"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-21_
+_**Última modificação do tópico:** 2012-09-21_
 
-Para usar o analisador de práticas recomendadas para verificar o ambiente do Lync Server 2013, o sistema deve atender a pré-requisitos específicos antes de iniciar a verificação. Depois de verificar se o seu sistema atende aos pré-requisitos, você pode concluir o processo de digitalização usando o analisador de práticas recomendadas.
+Para usar o analisador de práticas recomendadas para verificar seu ambiente do Lync Server 2013, o sistema deve atender a pré-requisitos específicos antes de iniciar a verificação. Após assegurar-se que seu sistema cumpre os pré-requisitos, você pode concluir o processo de verificação usando o Analisador de Práticas Recomendadas.
 
 <div>
 
 ## <a name="in-this-section"></a>Nesta seção
 
-  - [Pré-requisitos para execução do analisador de práticas recomendadas no Lync Server 2013](lync-server-2013-prerequisites-for-running-best-practices-analyzer.md)
+  - [Pré-requisitos para executar o analisador de práticas recomendadas no Lync Server 2013](lync-server-2013-prerequisites-for-running-best-practices-analyzer.md)
 
   - [Verificando se há atualizações para o analisador de práticas recomendadas no Lync Server 2013](lync-server-2013-checking-for-updates-to-best-practices-analyzer.md)
 
-  - [Usar o analisador de práticas recomendadas para verificar a implantação do Lync Server 2013 em busca de possíveis problemas](lync-server-2013-using-best-practices-analyzer-to-scan-your-deployment-for-potential-issues.md)
+  - [Usando o analisador de práticas recomendadas para verificar a implantação do Lync Server 2013 em busca de possíveis problemas](lync-server-2013-using-best-practices-analyzer-to-scan-your-deployment-for-potential-issues.md)
 
 </div>
 

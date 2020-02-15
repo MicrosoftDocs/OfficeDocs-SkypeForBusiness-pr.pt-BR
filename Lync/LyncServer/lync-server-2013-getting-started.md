@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Introdução'
+title: 'Lync Server 2013: introdução'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184710
 ms.date: 04/03/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bf52f501a11f8a7268914a856d8d044c68abb341
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9c38799334dc2cb8f4858082f06212750bcc5dfb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742421"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037903"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41742421"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2015-04-03_
+_**Última modificação do tópico:** 2015-04-03_
 
-O Lync Server 2013 oferece muitos recursos para melhorar a colaboração e a comunicação em sua organização. Muitos desses recursos são novos em comparação com o que estava disponível nas versões anteriores. Os tópicos desta seção fornecem uma breve visão geral dos novos recursos.
+O Lync Server 2013 oferece vários recursos para melhorar a colaboração e a comunicação em sua organização. Muitos desses recursos são novos em comparação aos recursos disponíveis em versões anteriores. Os tópicos desta seção oferecem uma rápida visão geral dos novos recursos.
 
 <div>
 
@@ -47,11 +47,11 @@ O Lync Server 2013 oferece muitos recursos para melhorar a colaboração e a com
 
   - [Novos recursos no Lync Server 2013](lync-server-2013-new-features.md)
 
-  - [Novos recursos do cliente no Lync Server 2013](lync-server-2013-new-client-features.md)
+  - [Novos recursos de cliente no Lync Server 2013](lync-server-2013-new-client-features.md)
 
-  - [Configure the client experience with Skype for Business](configure-the-skype-for-business-client-in-lync-server-2013.md)
+  - [Configurar a experiência do cliente com o Skype for Business](configure-the-skype-for-business-client-in-lync-server-2013.md)
 
-  - [Notas de versão para Lync Server 2013](lync-server-2013-release-notes.md)
+  - [Notas de versão do Lync Server 2013](lync-server-2013-release-notes.md)
 
 </div>
 

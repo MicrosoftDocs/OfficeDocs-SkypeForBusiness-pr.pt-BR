@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Exibir detalhes da URL simples'
+title: 'Lync Server 2013: Exibir detalhes de URL simples'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184399
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1f77c860d58ecc391298b88f4e1855ddd80199d8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 71f507f35d8fe616617a2782840cfcf41719ed45
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757425"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038023"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="view-simple-url-details-in-lync-server-2013"></a>Exibir detalhes da URL simples no Lync Server 2013
+# <a name="view-simple-url-details-in-lync-server-2013"></a>Exibir detalhes de URL simples no Lync Server 2013
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41757425"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-11_
+_**Última modificação do tópico:** 2012-10-11_
 
-Você pode usar o painel de controle do Lync Server 2013 para exibir detalhes de URL simples para o seu ambiente do Lync Server 2013. URLs simples tornam mais fácil para os usuários ingressarem em reuniões, e elas facilitam para os administradores acessarem ferramentas administrativas. Para obter detalhes, consulte [planejando URLs simples no Lync Server 2013](lync-server-2013-planning-for-simple-urls.md).
+Você pode usar o painel de controle do Lync Server 2013 para exibir detalhes de URL simples para seu ambiente do Lync Server 2013. URLs simples permitem que os usuários ingressem em reuniões e que os administradores acessem as ferramentas administrativas mais facilmente. Para obter detalhes, consulte [Planning for Simple URLs in Lync Server 2013](lync-server-2013-planning-for-simple-urls.md).
 
 <div>
 
-## <a name="to-view-simple-url-details"></a>Para exibir detalhes da URL simples
+## <a name="to-view-simple-url-details"></a>Para exibir os detalhes de URL simples
 
-1.  Usando uma conta de usuário atribuída à função do CsServerAdministrator, CsAdministrator, CsHelpDesk, ou CsViewOnlyAdministrator, faça logon em qualquer computador de sua implantação interna. Para obter detalhes sobre as funções administrativas predefinidas disponíveis no Lync Server 2013, consulte [planejando o controle de acesso baseado em função no Lync server 2013](lync-server-2013-planning-for-role-based-access-control.md).
+1.  A partir de uma conta de usuário atribuída à função CsServerAdministrator, CsAdministrator, CsHelpDesk ou CsViewOnlyAdministrator, faça logon em qualquer computador em sua implantação interna. Para obter detalhes sobre as funções administrativas predefinidas disponíveis no Lync Server 2013, consulte [Planning for Role-Based Access Control in Lync server 2013](lync-server-2013-planning-for-role-based-access-control.md).
 
-2.  Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [abrir ferramentas administrativas do Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Na barra de navegação à esquerda, clique em **topologia** e, em seguida, clique em **URL simples**.
+3.  Na barra de navegação esquerda, clique em **Topologia** e em **URL Simples**.
 
-4.  Na página **URL simples** , clique em um título de coluna para classificar a lista, se necessário.
+4.  Na página **URL Simples**, clique em um cabeçalho de coluna para classificar a lista, se necessário.
 
-5.  Selecione o nome do qual você deseja ver detalhes da URL simples e, em seguida, clique em **Propriedades**.
+5.  Selecione o nome para o qual você deseja ver detalhes de URL simples e clique em **Propriedades**.
 
-6.  Quando terminar de exibir os detalhes, clique em **fechar**.
+6.  Quando terminar de exibir os detalhes, clique em **Fechar **.
 
 </div>
 

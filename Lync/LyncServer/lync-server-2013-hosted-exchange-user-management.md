@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Gerenciamento de usuário no Exchange hospedado'
+title: 'Lync Server 2013: gerenciamento de usuário do Exchange hospedado'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185887
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 23289399e4eee4a654b41f2978191a6329739b4e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 16b2716bee52902f55160e770df36801d18f1b78
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738981"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043243"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="hosted-exchange-user-management-in-lync-server-2013"></a>Gerenciamento de usuário no Exchange hospedado no Lync Server 2013
+# <a name="hosted-exchange-user-management-in-lync-server-2013"></a>Gerenciamento de usuários do Exchange hospedado no Lync Server 2013
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41738981"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-18_
+_**Última modificação do tópico:** 2012-10-18_
 
-Para fornecer serviços de correio de voz para os usuários do Lync Server 2013 cujas caixas de correio estão localizadas em um serviço do Exchange hospedado, você deve habilitar as contas de usuário da caixa postal hospedada.
+Para fornecer serviços de caixa postal para os usuários do Lync Server 2013 cujas caixas de correio estão localizadas em um serviço do Exchange hospedado, você deve habilitar suas contas de usuário para caixa postal hospedada.
 
 <div>
 
 
 > [!NOTE]  
-> Para que um usuário do Lync Server 2013 possa ser habilitado para a caixa postal hospedada, uma política de caixa postal hospedada que se aplica à conta de usuário correspondente deve ser implantada. A política pode ser global, site ou por usuário no escopo, desde que se aplique ao usuário que você deseja habilitar. Para obter detalhes, consulte <A href="lync-server-2013-hosted-voice-mail-policies.md">políticas de caixa postal hospedadas no Lync Server 2013</A>.
+> Antes que um usuário do Lync Server 2013 possa ser habilitado para caixa postal hospedada, uma política de caixa postal hospedada que se aplica à conta de usuário correspondente deve ser implantada. A política pode ser global, site ou por usuário no escopo, contanto que se aplique ao usuário que você deseja habilitar. Para obter detalhes, consulte <A href="lync-server-2013-hosted-voice-mail-policies.md">Hosted voice mail Policies in Lync Server 2013</A>.
 
 
 
@@ -53,13 +53,13 @@ Para fornecer serviços de correio de voz para os usuários do Lync Server 2013 
 
 ## <a name="the-msexchucvoicemailsettings-attribute"></a>O atributo msExchUCVoiceMailSettings
 
-O Lync Server 2013 introduz um novo atributo de usuário chamado **msExchUCVoiceMailSettings**, que é criado como parte da preparação do esquema do Lync Server 2013 do Lync Server. Este atributo de múltiplos valores contém as configurações de caixa postal que são compartilhadas pelo Lync Server 2013 e o serviço hospedado do Exchange.
+O Lync Server 2013 introduz um novo atributo de usuário chamado **msExchUCVoiceMailSettings**, que é criado como parte da preparação do esquema do Active Directory 2013 do Lync Server. Este atributo com vários valores contém as configurações de caixa postal que são compartilhadas pelo Lync Server 2013 e o serviço do Exchange hospedado.
 
-O serviço hospedado do Exchange pode, em alguns casos, definir o valor do atributo msExchUCVoiceMailSettings no processo de habilitar o UM Exchange ou durante o processo de transferência de caixas de correio para um servidor do Exchange hospedado. Se esse atributo não for definido pelo Exchange, o administrador do Lync Server 2013 deve defini-lo executando o cmdlet Set-CsUser, conforme descrito anteriormente neste tópico.
+O serviço do Exchange hospedado pode, em alguns casos, definir o valor do atributo msExchUCVoiceMailSettings no processo de habilitar a UM do Exchange, ou durante o processo de transferência de caixas de correio para um servidor Exchange hospedado. Se esse atributo não for definido pelo Exchange, o administrador do Lync Server 2013 deverá defini-lo executando o cmdlet Set-CsUser, conforme descrito anteriormente neste tópico.
 
 Os pares de chave/valor do atributo e seus autores são mostrados na tabela a seguir.
 
-### <a name="the-msexchucvoicemailsettings-attribute-keyvalue-pairs"></a>Os pares de chave/valor de atributo msExchUCVoiceMailSettings
+### <a name="the-msexchucvoicemailsettings-attribute-keyvalue-pairs"></a>Os pares de chave/valor do atributo msExchUCVoiceMailSettings
 
 <table>
 <colgroup>
@@ -78,22 +78,22 @@ Os pares de chave/valor do atributo e seus autores são mostrados na tabela a se
 <tr class="odd">
 <td><p>ExchangeHostedVoiceMail = 1</p></td>
 <td><p>Exchange</p></td>
-<td><p>O usuário foi habilitado para o acesso hospedado do UM pelo Exchange Server. O aplicativo de roteamento de UM do Exchange verificará a política de caixa postal hospedada do usuário para obter detalhes de roteamento.</p></td>
+<td><p>O usuário foi habilitado para o acesso de UM hospedado pelo Exchange Server. O aplicativo de roteamento de UM do Exchange verificará a política de caixa postal hospedada do usuário para obter detalhes de roteamento.</p></td>
 </tr>
 <tr class="even">
 <td><p>ExchangeHostedVoiceMail = 0</p></td>
 <td><p>Exchange</p></td>
-<td><p>O usuário foi desativado para o acesso hospedado do UM pelo Exchange Server.</p></td>
+<td><p>O usuário foi desabilitado para acesso de UM hospedado pelo Exchange Server.</p></td>
 </tr>
 <tr class="odd">
 <td><p>CsHostedVoiceMail = 1</p></td>
-<td><p>Servidor Lync</p></td>
-<td><p>O usuário foi habilitado para o acesso hospedado da UM pelo Lync Server 2013. O aplicativo de roteamento ExUM do Lync Server 2013 verificará a política de caixa postal hospedada do usuário para obter detalhes de roteamento.</p></td>
+<td><p>Lync Server</p></td>
+<td><p>O usuário foi habilitado para o acesso de UM hospedado pelo Lync Server 2013. O aplicativo de roteamento ExUM do Lync Server 2013 fará a verificação da política de caixa postal hospedada do usuário para obter detalhes de roteamento.</p></td>
 </tr>
 <tr class="even">
 <td><p>CsHostedVoiceMail = 0</p></td>
-<td><p>Servidor Lync</p></td>
-<td><p>O usuário foi desabilitado para o acesso hospedado da UM pelo Lync Server 2013.</p></td>
+<td><p>Lync Server</p></td>
+<td><p>O usuário foi desabilitado para acesso de UM hospedado pelo Lync Server 2013.</p></td>
 </tr>
 </tbody>
 </table>
@@ -103,7 +103,7 @@ Os pares de chave/valor do atributo e seus autores são mostrados na tabela a se
 
 
 > [!NOTE]  
-> Se o atributo já tiver valores diferentes de um dos pares chave/valor do Lync Server 2013 (CSHostedVoiceMail = 0 ou CSHostedVoiceMail = 1), um aviso indicará que o atributo pode ser gerenciado por um aplicativo diferente. Por exemplo, um aviso será exibido se o par chave/valor ExchangeHostedVoiceMail = 0 ou ExchangeHostedVoiceMail = 1 já estiver presente. Nesse caso, você pode alterar o valor editando-o no Active Directory ou executar o seguinte cmdlet para definir o valor como NULL:<BR>Set-CsUser – usuário da identidade – HostedVoicemail $null
+> Se o atributo já tiver valores diferentes de um dos pares chave/valor do Lync Server 2013 (CSHostedVoiceMail = 0 ou CSHostedVoiceMail = 1), um aviso indicará que o atributo pode ser gerenciado por um aplicativo diferente. Por exemplo, um aviso será exibido se o par chave/valor ExchangeHostedVoiceMail = 0 ou ExchangeHostedVoiceMail = 1 já estiver presente. Nesse caso, você pode alterar o valor editando-o como o Active Directory ou executar o cmdlet a seguir para definir o valor como nulo:<BR>Set-CsUser – Identity User – HostedVoicemail $null
 
 
 
@@ -113,21 +113,21 @@ Os pares de chave/valor do atributo e seus autores são mostrados na tabela a se
 
 <div>
 
-## <a name="enabling-users-for-hosted-voice-mail"></a>Como habilitar usuários para a caixa postal hospedada
+## <a name="enabling-users-for-hosted-voice-mail"></a>Habilitando usuários para caixa postal hospedada
 
-Para permitir que as chamadas de correio de voz de um usuário sejam roteadas para o Exchange UM hospedado, você deve executar o cmdlet Set-CsUser para definir o valor do parâmetro *HostedVoiceMail* . Esse parâmetro também sinaliza o Lync Server 2013 para iluminar o indicador "Call voice mail".
+Para habilitar as chamadas de caixa postal de um usuário para serem encaminhadas para o UM do Exchange hospedado, você deve executar o cmdlet Set-CsUser para definir o valor do parâmetro *HostedVoiceMail* . Esse parâmetro também informa ao Lync Server 2013 para acender o indicador "Call de caixa postal".
 
-  - O exemplo a seguir habilita a conta de usuário pilar Alverca para a caixa postal hospedada:
+  - O exemplo a seguir habilita a conta de usuário de pilar Ackerman para caixa postal hospedada:
     
         Set-CsUser -Identity "Pilar Ackerman" -HostedVoiceMail $True
     
-    O cmdlet verifica se uma política de caixa postal hospedada (global, em nível de site ou por usuário) se aplica a este usuário. Se nenhuma política for aplicada, o cmdlet falhará.
+    O cmdlet verifica se uma política de caixa postal hospedada (global, no nível do site ou por usuário) se aplica a esse usuário. Se nenhuma política for aplicada, o cmdlet falhará.
 
-  - O exemplo a seguir desabilita a conta de usuário pilar Alverca para a caixa postal hospedada:
+  - O exemplo a seguir desabilita a conta de usuário de pilar Ackerman para caixa postal hospedada:
     
         Set-CsUser -Identity "Pilar Ackerman" -HostedVoiceMail $False
     
-    O cmdlet verifica se nenhuma política de caixa postal hospedada (global, em nível de site ou por usuário) se aplica a este usuário. Se uma política for aplicada, o cmdlet falhará.
+    O cmdlet verifica se nenhuma política de caixa postal hospedada (global, no nível do site ou por usuário) se aplica a esse usuário. Se uma política for aplicada, o cmdlet falhará.
 
 Para obter detalhes sobre como usar o cmdlet Set-CsUser, consulte a documentação do Shell de gerenciamento do Lync Server.
 

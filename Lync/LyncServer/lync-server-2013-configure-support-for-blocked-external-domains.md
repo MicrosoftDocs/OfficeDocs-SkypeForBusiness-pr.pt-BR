@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Configurar suporte para domínios externos bloqueados'
+title: 'Lync Server 2013: configurar suporte para domínios externos bloqueados'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 49733638
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3fe73985687e7a1d6fcd2bbf615127c0757a5307
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2f34f620fe6f98053e40c5999bcde29d88b6371a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763545"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043283"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41763545"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-08_
+_**Última modificação do tópico:** 2012-09-08_
 
-Se você tiver configurado o suporte para parceiros federados, poderá gerenciar quais domínios serão bloqueados a partir da Federação em sua organização. A lista de domínios bloqueados atuará como uma lista de blocos (lista de entradas explícitas que não são permitidas) e será aplicada à descoberta de domínio federado, se você tiver essa opção habilitada. Para obter detalhes, consulte [habilitar ou desabilitar a descoberta de parceiros de Federação no Lync Server 2013](lync-server-2013-enable-or-disable-discovery-of-federation-partners.md).
+Se você tiver configurado o suporte para parceiros federados, poderá gerenciar quais domínios serão impedidos de Federação na sua organização. A lista de domínios bloqueados atuará como uma lista de bloqueios (lista de entradas explícitas que não devem ser permitidas) e será aplicada em descoberta de domínio federado, se você tiver essa opção habilitada. Para obter detalhes, consulte [habilitar ou desabilitar a descoberta de parceiros de Federação no Lync Server 2013](lync-server-2013-enable-or-disable-discovery-of-federation-partners.md).
 
 Bloquear um ou mais domínios externos para se conectar à sua organização. Para fazer isso, adicione o domínio à lista de domínios bloqueados.
 
@@ -45,36 +45,36 @@ Bloquear um ou mais domínios externos para se conectar à sua organização. Pa
 
 ## <a name="to-add-an-external-domain-to-the-list-of-blocked-domains"></a>Para adicionar um domínio externo à lista de domínios bloqueados
 
-1.  Usando uma conta de usuário que é membro do grupo RTCUniversalServerAdmins (ou tem direitos de usuário equivalentes), ou está atribuída à função CsAdministrator, faça logon em qualquer computador de sua implantação interna.
+1.  A partir de uma conta de usuário que seja membro do grupo RTCUniversalServerAdmins (ou tenha direitos de usuário equivalentes) ou atribuída à função CsAdministrator, faça logon em qualquer computador em sua implantação interna.
 
-2.  Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [abrir ferramentas administrativas do Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Na barra de navegação à esquerda, clique em **acesso de usuário externo**.
+3.  Na barra de navegação esquerda, clique em **Acesso de Usuário Externo**.
 
-4.  Clique em **domínios federados**, clique em **novo**e, em seguida, clique em **domínio bloqueado**.
+4.  Clique em **domínios federados**, clique em **novo**e em **domínio bloqueado**.
 
-5.  Em **novos domínios federados**, faça o seguinte:
+5.  Em **Novos Domínios Federados**, faça o seguinte:
     
-      - Em **nome do domínio (ou FQDN)**, digite o nome do domínio do parceiro federado que você deseja bloquear.
+      - Em **nome de domínio (ou FQDN)**, digite o nome do domínio de parceiro federado que você deseja bloquear.
         
         <div>
         
 
         > [!NOTE]  
-        > O nome não pode exceder 256 caracteres de comprimento.<BR>A pesquisa no nome de domínio do parceiro federado executa uma correspondência de sufixo. Por exemplo, se você digitar <STRONG>contoso.com</STRONG>, a pesquisa também retornará o domínio <STRONG>it.contoso.com</STRONG>.<BR>Um domínio de parceiro federado não pode ser bloqueado e permitido simultaneamente. O Lync Server 2013 evita que isso aconteça para que você não precise sincronizar suas listas.
+        > O nome não pode exceder 256 caracteres.<BR>A pesquisa no nome de domínio do parceiro federado realiza uma correspondência de sufixo. Por exemplo, se você digitar <STRONG>contoso.com</STRONG>, a pesquisa também retornará o domínio <STRONG>it.contoso.com</STRONG>.<BR>Um domínio de parceiro federado não pode ser simultaneamente bloqueado e permitido. O Lync Server 2013 impede que isso aconteça para que você não precise sincronizar suas listas.
 
         
         </div>
     
-      - Adicionais Em **Comentário**, digite as informações que você deseja compartilhar com outros administradores de sistema sobre essa configuração.
+      - Opcion Em **Comentário**, digite as informações que você deseja compartilhar com outros administradores de sistema sobre essa configuração.
 
 6.  Clique em **Confirmar**.
 
-7.  Repita as etapas 4 a 6 para cada parceiro federado que você deseja bloquear.
+7.  Repita as etapas de 4 a 6 para cada parceiro federado que você deseja bloquear.
 
-Para habilitar o acesso de usuário federado, você também deve habilitar o suporte para o acesso de usuários federados em sua organização. Para obter detalhes, consulte [habilitar ou desabilitar o acesso de usuário remoto no Lync Server 2013](lync-server-2013-enable-or-disable-remote-user-access.md).
+Para habilitar o acesso de usuário federado, habilite também o suporte para acesso de usuário federado em sua organização. Para obter detalhes, consulte [habilitar ou desabilitar o acesso de usuário remoto no Lync Server 2013](lync-server-2013-enable-or-disable-remote-user-access.md).
 
-Além disso, você deve configurar e aplicar a política aos usuários que você deseja que possam colaborar com os usuários federados. Para obter detalhes, consulte [Configurar políticas para controlar o acesso de usuários federados no Lync Server 2013](lync-server-2013-configure-policies-to-control-federated-user-access.md).
+Além disso, você deve configurar e aplicar a política a usuários que possam colaborar com usuários federados. Para obter detalhes, consulte [Configure Policies to Control Federated User Access in Lync Server 2013](lync-server-2013-configure-policies-to-control-federated-user-access.md).
 
 </div>
 

@@ -12,20 +12,20 @@ ms:contentKeyID: 48183853
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 656c1aa545a1f10e49c5ff60b51c20386854d146
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8d41d0d3fe8960f286cfe9bed1f27ae08d43c9fe
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763575"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037943"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="get-csservice-for-address-book-management-in-lync-server-2013"></a>Get-CsService para o gerenciamento de catálogo de endereços no Lync Server 2013
+# <a name="get-csservice-for-address-book-management-in-lync-server-2013"></a>Get-CsService para gerenciamento de catálogo de endereços no Lync Server 2013
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41763575"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-11-01_
+_**Última modificação do tópico:** 2012-11-01_
 
-Quem pode executar este cmdlet: por padrão, os membros dos grupos a seguir estão autorizados a executar o cmdlet Get-CsService localmente: RTCUniversalUserAdmins, RTCUniversalServerAdmins. Para retornar uma lista de todas as funções de controle de acesso baseado em função (RBAC) às quais esse cmdlet foi atribuído (incluindo qualquer função RBAC personalizada que você criou), execute o seguinte comando no prompt do Windows PowerShell:
+Quem pode executar este cmdlet: por padrão, os membros dos grupos a seguir estão autorizados a executar o cmdlet Get-CsService localmente: RTCUniversalUserAdmins, RTCUniversalServerAdmins. Para retornar uma lista de todas as funções RBAC (controle de acesso baseado em função) que receberam a atribuição desse cmdlet (incluindo qualquer função RBAC personalizada criada por você), execute o seguinte comando no prompt do Windows PowerShell:
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Get-CsService"}
 
-Get-CsService é importante para recuperar e exibir a configuração atual dos serviços Web definidos pela sua infraestrutura. Ao definir o FQDN (nome de domínio totalmente qualificado) e o parâmetro WebServer (FQDN) do pool, o cmdlet retorna os serviços baseados na Web oferecidos pelo seu servidor, incluindo os URIs manipulador de catálogo de endereços e expansão de lista de distribuição.
+Get-CsService é útil para recuperar e exibir a configuração atual de seus serviços Web definidos pela infraestrutura. Ao definir o FQDN (nome de domínio totalmente qualificado) do pool e o parâmetro WebServer, o cmdlet retorna os serviços baseados na Web oferecidos pelo servidor, incluindo o manipulador de catálogo de endereços e URIs de expansão de lista de distribuição.
 
 Por exemplo:
 
     Get-CsService -PoolFqdn "fe01.contoso.net" -WebServer
 
-Este cmdlet retorna o seguinte:
+Esse cmdlet retorna o seguinte:
 
-Identidade: webserver:pool01. contoso. net
+Identity: webserver:pool01. contoso. net
 
 Filestore: filestore:dc01. contoso. net
 
