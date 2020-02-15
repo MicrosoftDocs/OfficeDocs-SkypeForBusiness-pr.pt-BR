@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: monitorando o desempenho de armazenamento do Lync Server back-end'
+title: 'Lync Server 2013: monitorando o desempenho de armazenamento do Lync Server do back-end'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 63969619
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7c4d3741564cd0228213400d7ee1fbb7271c4ddd
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 760e66403fd1da2b5a45cf0db065dc201e1fd02a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756855"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051153"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="monitoring-back-end-lync-server-2013-storage-performance"></a>Monitorando o back-end do Lync Server 2013 Storage performance
+# <a name="monitoring-back-end-lync-server-2013-storage-performance"></a>Monitorando o desempenho de armazenamento do Lync Server 2013 de back-end
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41756855"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2014-05-02_
+_**Última modificação do tópico:** 2014-05-02_
 
-Os bancos de dados back-end do Lync Server 2013 são uma parte muito importante da implantação do Lync Server 2013. Recomendamos que você monitore constantemente os bancos de dados e os respectivos registros de transações para ajudar a garantir que o back-end do Lync Server 2013 seja executado de forma ideal.
+Os bancos de dados de back-end do Lync Server 2013 são uma parte muito importante da implantação do Lync Server 2013. Recomendamos monitorar constantemente os bancos de dados e os respectivos logs de transações para ajudar a garantir que o back-end do Lync Server 2013 seja executado de forma ideal.
 
-A tabela a seguir identifica contadores de desempenho que devem ser monitorados para obter informações sobre o desempenho do armazenamento. Os valores da linha de base desses contadores devem ser determinados primeiro (quando o sistema está em sua carga normal, esperada) para entender as alterações de desempenho quando o sistema é testado.
+A tabela a seguir identifica contadores de desempenho que devem ser monitorados para obter informações sobre o desempenho de armazenamento. Os valores de linha de base desses contadores devem ser determinados primeiro (quando o sistema está em sua carga normal e esperada) para entender as alterações de desempenho quando o sistema é testado.
 
 ### <a name="performance-counters-to-be-monitored"></a>Contadores de desempenho a serem monitorados
 
@@ -50,13 +50,13 @@ A tabela a seguir identifica contadores de desempenho que devem ser monitorados 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Contador de desempenho</th>
+<th>Contador de Desempenho</th>
 <th>Limites da linha de base</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Transações/s (RTC)</p></td>
+<td><p>Transações/seg (RTC)</p></td>
 <td></td>
 </tr>
 <tr class="even">
@@ -80,11 +80,11 @@ A tabela a seguir identifica contadores de desempenho que devem ser monitorados 
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>Transferências de disco/s (leitura + gravação)-BD RTC</p></td>
+<td><p>Transferências de disco/seg (leitura + gravação)-BD RTC</p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p>Transferências de disco/s-log de RTC</p></td>
+<td><p>Transferências de disco/s-log RTC</p></td>
 <td></td>
 </tr>
 <tr class="odd">
@@ -92,7 +92,7 @@ A tabela a seguir identifica contadores de desempenho que devem ser monitorados 
 <td></td>
 </tr>
 <tr class="even">
-<td><p>Transferências de disco/log SEC-RTCDyn</p></td>
+<td><p>Transferências de disco/log s-RTCDyn</p></td>
 <td></td>
 </tr>
 </tbody>

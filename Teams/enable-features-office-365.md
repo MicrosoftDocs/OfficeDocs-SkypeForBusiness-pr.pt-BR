@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5eb6fa4a4b8aabcc84f70d6ce33c89fe0d84df98
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 87c78839c0c6998464ed362dc8a3c2e4798a2321
+ms.sourcegitcommit: 561b9bab7d6f5a621436bc85ea28ea14657e7868
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834951"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035233"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>Gerencie as configurações do Microsoft Teams para sua organização 
 
@@ -60,6 +60,10 @@ Nas **Configurações do Teams**, você pode configurar recursos para equipes, i
 #### <a name="notifications-and-feeds"></a>Notificações e feeds
 
 Aqui você pode controlar se os feeds sugeridos são exibidos no feed de atividades dos usuários do Teams. Para saber mais sobre o feed de atividades, confira [Explorar o feed de Atividades do Teams](https://support.office.com/article/explore-the-activity-feed-in-teams-91c635a1-644a-4c60-9c98-233db3e13a56).
+
+#### <a name="tagging"></a>Marcação
+
+As marcações permitem que os usuários se comuniquem com um subconjunto de pessoas em uma equipe. As marcações podem ser adicionadas a um ou mais membros da equipe. Depois que uma marcação é adicionada, ela pode ser usada em @menções por qualquer pessoa da equipe em uma postagem do canal para se comunicar apenas com as pessoas a quem essa marcação foi atribuída. Use essas configurações para controlar quem pode adicionar marcações e como elas são usadas na organização. Para saber mais, confira [Gerenciar marcações no Teams](manage-tags.md).
 
 #### <a name="email-integration"></a>Integração de email
 
@@ -109,7 +113,7 @@ O modo de coexistência escolhido determina o roteamento de chats e chamadas rec
 
 #### <a name="app-preferences"></a>Preferências de aplicativo
 
-Aqui você pode escolher o aplicativo que os usuários usarão para ingressar em reuniões do Skype for Business (Skype for Business ou o [aplicativo Reuniões do Skype](https://support.office.com/pt-BR/article/What-is-Skype-Meetings-App-Skype-for-Business-Web-App-1FF3D412-718A-4982-8FF2-A4992608CDB5)). Essa configuração não depende da configuração do modo de coexistência.
+Aqui você pode escolher o aplicativo que os usuários usarão para ingressar em reuniões do Skype for Business (Skype for Business ou o [aplicativo Reuniões do Skype](https://support.office.com/article/What-is-Skype-Meetings-App-Skype-for-Business-Web-App-1FF3D412-718A-4982-8FF2-A4992608CDB5)). Essa configuração não depende da configuração do modo de coexistência.
 
 
 #### <a name="network-planner"></a>Planejador de Rede
@@ -121,7 +125,7 @@ Você também pode selecionar a opção "Baixar o aplicativo Teams em segundo pl
 
 ## <a name="how-can-i-tell-which-features-are-available"></a>Como saber quais recursos estão disponíveis?
 
-Confira o [Roteiro do Microsoft 365](https://www.microsoft.com/en-us/microsoft-365/roadmap?rtc=1&filters=Microsoft%20Teams) para obter informações sobre novos recursos do Teams. Para obter mais informações sobre os recursos novos e futuros, confira a página [Novidades](https://support.office.com/en-us/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de?ui=en-US&rs=en-US&ad=US) do Teams e o [blog do Microsoft Teams da Tech Community Microsoft](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/What-s-new-in-Teams-Microsoft-Ignite-Edition/ba-p/252531). 
+Confira o [Roteiro do Microsoft 365](https://www.microsoft.com/microsoft-365/roadmap?rtc=1&filters=Microsoft%20Teams) para obter informações sobre novos recursos do Teams. Para obter mais informações sobre os recursos novos e futuros, confira a página [Novidades](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de?ui=en-US&rs=en-US&ad=US) do Teams e o [blog do Microsoft Teams da Tech Community Microsoft](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/What-s-new-in-Teams-Microsoft-Ignite-Edition/ba-p/252531). 
 
 ## <a name="more-information"></a>Mais informações
 

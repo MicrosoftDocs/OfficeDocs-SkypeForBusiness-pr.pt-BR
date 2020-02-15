@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: restaurando as configurações do grupo de resposta'
+title: 'Lync Server 2013: restaurar as configurações do grupo de resposta'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541473
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 64bc766cf970e95ad03be65c490882dd3471955b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1557640fa021faf7313af834eb06f94f1c7432a2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733051"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051475"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="restoring-response-group-settings-in-lync-server-2013"></a>Restaurando as configurações do grupo de resposta no Lync Server 2013
+# <a name="restoring-response-group-settings-in-lync-server-2013"></a>Restaurar as configurações do grupo de resposta no Lync Server 2013
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41733051"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-02-18_
+_**Última modificação do tópico:** 2013-02-18_
 
-Se você implantou o aplicativo de grupo de resposta e precisa restaurar um servidor back-end ou um servidor Standard Edition, também é necessário restaurar as configurações de grupo de resposta.
+Se você implantou o aplicativo grupo de resposta e precisa restaurar um servidor back-end ou um servidor Standard Edition, você também precisa restaurar as definições de configuração do grupo de resposta.
 
 <div>
 
-## <a name="to-restore-response-group-configuration-settings"></a>Para restaurar as configurações de grupo de resposta
+## <a name="to-restore-response-group-configuration-settings"></a>Para restaurar as definições de configuração do Grupo de Resposta
 
 1.  Na linha de comando, digite:
     

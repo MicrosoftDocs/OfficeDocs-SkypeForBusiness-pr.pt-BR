@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Experiência do grupo de resposta durante falha no pool'
+title: Lync Server 2013 experiência do grupo de resposta durante falha do pool
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184116
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ad00afac363642106019269e86111f61eaca504e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0e7867af15eb5e8824562eb03244280cfbc84f7d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41723601"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051685"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="response-group-experience-in-lync-server-2013-during-pool-failure"></a>Experiência do grupo de resposta no Lync Server 2013 durante falha no pool
+# <a name="response-group-experience-in-lync-server-2013-during-pool-failure"></a>Experiência do grupo de resposta no Lync Server 2013 durante falha do pool
 
 </div>
 
@@ -35,33 +35,33 @@ ms.locfileid: "41723601"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-30_
+_**Última modificação do tópico:** 2012-10-30_
 
-Esta seção descreve detalhadamente como a atividade do grupo de resposta é afetada nos seguintes estágios:
+Essa seção descreve em detalhes como a atividade do grupo de resposta é afetada nos seguintes estágios:
 
-  - Ocorre uma paralisação no pool primário, mas o failover ainda não foi iniciado.
+  - Uma interrupção ocorre no pool primário, mas o failover ainda não foi iniciado.
 
-  - O serviço falha no pool de backup.
+  - O serviço realizou um failover ao pool de backup.
 
-  - O serviço de volta ao pool primário.
+  - O serviço realizou um failback ao pool primário.
 
 <div>
 
-## <a name="user-experience-when-outage-occurs"></a>Experiência do usuário quando ocorre uma falha
+## <a name="user-experience-when-outage-occurs"></a>Experiência do usuário quando ocorre interrupção
 
-Quando ocorre uma falha de pool ou site, mas o administrador ainda não iniciou o failover, a atividade do grupo de resposta é manipulada conforme descrito na tabela a seguir.
+Quando ocorre uma interrupção de um pool ou site, mas o administrador ainda não iniciou o failover, a atividade do grupo de resposta é manipulada como descrito na seguinte tabela.
 
 <div>
 
 
 > [!NOTE]  
-> Durante a recuperação de desastres, as chamadas se comportam de forma diferente dependendo se os grupos de resposta do pool primário foram importados para o pool de backup durante a recuperação Na tabela a seguir, as referências a grupos de resposta importados significam que os grupos de resposta de pool primário foram importados para o pool de backup durante o modo de recuperação de desastre.
+> Durante a recuperação de desastre, as chamadas se comportam de forma diferente se os grupos de resposta do pool primário forem importados ao pool de backup durante a recuperação. Na tabela seguinte, as referências aos grupos de resposta importados significam que os grupos de resposta do pool primário foram importados ao pool de backup durante o modo de recuperação de desastre.
 
 
 
 </div>
 
-### <a name="outage-occurs"></a>Ocorre uma falha
+### <a name="outage-occurs"></a>Ocorre a interrupção
 
 <table>
 <colgroup>
@@ -70,16 +70,16 @@ Quando ocorre uma falha de pool ou site, mas o administrador ainda não iniciou 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Tipo de ação do usuário ou chamada</th>
+<th>Tipo de chamada ou ação do usuário</th>
 <th>Durante a interrupção</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Chamadas conectadas a um agente</p></td>
+<td><p>Chamadas conectadas ao agente</p></td>
 <td><ul>
-<li><p>As chamadas normais permanecem conectadas.</p></li>
-<li><p>As chamadas anônimas são desconectadas.</p></li>
+<li><p>Chamadas normais permanecem conectadas.</p></li>
+<li><p>Chamadas anônimas são desconectadas.</p></li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -90,27 +90,27 @@ Quando ocorre uma falha de pool ou site, mas o administrador ainda não iniciou 
 <td><p>Novas chamadas</p></td>
 <td><ul>
 <li><p>As chamadas são desconectadas.</p></li>
-<li><p>Se os grupos de resposta foram importados, as chamadas conectam-se ao pool de backup, mas os agentes hospedados no pool primário são inacessíveis.</p></li>
+<li><p>Se um grupo de resposta for importado, as chamadas serão conectadas ao pool de backup, mas os agentes hospedados no pool primário serão inacessíveis.</p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>Chamadas de agente em nome do grupo de resposta</p></td>
-<td><p>O recurso está desativado durante este estágio.</p></td>
+<td><p>Os agente fazem chamadas em nome do grupo de resposta</p></td>
+<td><p>O recurso é desabilitado durante esse estágio.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Informações de entrada e agente do agente</p></td>
+<td><p>Entrada do agente e informações do agente</p></td>
 <td><ul>
-<li><p>Grupos de agente pertencentes ao pool primário podem ser visualizados no console do agente, mas os agentes não podem entrar.</p></li>
-<li><p>Grupos de agente pertencentes ao pool de backup podem ser visualizados no console do agente e os agentes podem entrar.</p></li>
-<li><p>Os grupos de agente importados não são exibidos no console do agente.</p></li>
+<li><p>Os grupos de agente pertencentes ao pool primário podem ser exibidos no console do agente, mas os agentes não podem entrar.</p></li>
+<li><p>Os grupos de agentes pertencentes ao pool de backup podem ser exibido no console do agente e os agentes podem entrar.</p></li>
+<li><p>Os grupos de agentes importados não são exibidos no console do agente.</p></li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><p>Configuração do grupo de resposta</p></td>
 <td><ul>
 <li><p>Os grupos de resposta pertencentes ao pool primário podem ser exibidos, dependendo da disponibilidade do banco de dados back-end do pool primário, mas não podem ser modificados.</p></li>
-<li><p>Os grupos de resposta pertencentes ao pool de backup podem ser exibidos e modificados.</p></li>
-<li><p>Os grupos de resposta importados não podem ser exibidos com o painel de controle do Lync Server ou com a ferramenta de configuração de grupo de resposta, mas podem ser configurados usando cmdlets do Shell de gerenciamento do Lync Server</p></li>
+<li><p>Os grupos de respostas pertencentes ao pool de backup podem ser exibidos e modificados.</p></li>
+<li><p>Grupos de resposta importados não podem ser exibidos com o painel de controle do Lync Server ou com a ferramenta de configuração do grupo de resposta, mas podem ser configurados usando cmdlets do Shell de gerenciamento do Lync Server.</p></li>
 </ul></td>
 </tr>
 </tbody>
@@ -123,13 +123,13 @@ Quando ocorre uma falha de pool ou site, mas o administrador ainda não iniciou 
 
 ## <a name="user-experience-during-failover"></a>Experiência do usuário durante o failover
 
-Quando um administrador invoca o failover para um pool de backup, a atividade do grupo de resposta é manipulada durante e após o failover conforme descrito na tabela a seguir. A primeira coluna descreve o tipo de atividade que pode estar ocorrendo. A coluna do meio descreve como cada atividade é manipulada durante o tempo curto necessário para failover para o pool de backup. A última coluna descreve como a atividade é manipulada pela duração, após o término do processo de failover e o pool de backup se posicionar para o pool primário.
+Quando um administrador chama um failover para um pool de backup, a atividade do grupo de resposta é manipulada durante e depois do failover, conforme descrito na tabela seguinte. A primeira coluna descreve o tipo de atividade que pode estar ocorrendo. A coluna do meio descreve como cada atividade é manipulada durante o breve período necessário para enviar o failover ao pool de backup. A última coluna descreve como a atividade é manipulada durante todo o período, após o processo de failover ser concluído e o pool de backup estar disponível para o pool primário.
 
 <div>
 
 
 > [!NOTE]  
-> Durante a recuperação de desastres, as chamadas se comportam de forma diferente dependendo se os grupos de resposta do pool primário foram importados para o pool de backup durante a recuperação Na tabela a seguir, as referências a grupos de resposta importados significam que os grupos de resposta de pool primário foram importados para o pool de backup durante o modo de recuperação de desastre.
+> Durante a recuperação de desastre, as chamadas se comportam de maneiras diferentes se os grupos de respostas do pool primário forem importados ao pool de backup durante a recuperação. Na seguinte tabela, as referências aos grupos de resposta importados significam que os grupos de respostas do pool primário foram importados ao pool de backup durante o modo de recuperação de desastre.
 
 
 
@@ -145,7 +145,7 @@ Quando um administrador invoca o failover para um pool de backup, a atividade do
 </colgroup>
 <thead>
 <tr class="header">
-<th>Tipo de ação do usuário ou chamada</th>
+<th>Tipo de chamada ou ação do usuário</th>
 <th>Durante o failover</th>
 <th>Após a conclusão do failover</th>
 </tr>
@@ -154,65 +154,65 @@ Quando um administrador invoca o failover para um pool de backup, a atividade do
 <tr class="odd">
 <td><p>Chamadas conectadas a um agente</p></td>
 <td><ul>
-<li><p>As chamadas normais permanecem conectadas.</p></li>
-<li><p>As chamadas anônimas são desconectadas.</p></li>
+<li><p>Chamadas normais permanecem conectadas.</p></li>
+<li><p>Chamadas anônimas são desconectadas.</p></li>
 </ul></td>
 <td><ul>
-<li><p>As chamadas normais permanecem conectadas.</p></li>
-<li><p>Para grupos de resposta importados, chamadas anônimas que atingiram o pool de backup permanecerão conectadas.</p></li>
+<li><p>Chamadas normais permanecem conectadas.</p></li>
+<li><p>Para grupos de respostas importados, as chamadas anônimas que alcançaram o pool de backup permanecem conectadas.</p></li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><p>Chamadas em andamento ainda não conectadas a um agente</p></td>
 <td><p>As chamadas são desconectadas.</p></td>
 <td><ul>
-<li><p>Se os grupos de resposta não foram importados, nenhuma chamada está nesse status.</p></li>
-<li><p>Para os grupos de resposta importados, as chamadas que atingiram o pool de backup permanecerão conectadas.</p></li>
+<li><p>Se os grupos de respostas não forem importados, não haverá chamadas nesse status.</p></li>
+<li><p>Para grupos de chamadas importados, as chamadas que alcançaram o pool de backup permanecem conectadas.</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td><p>Novas chamadas</p></td>
 <td><ul>
 <li><p>As chamadas são desconectadas.</p></li>
-<li><p>Para grupos de resposta importados, chamadas conectam-se ao pool de backup, mas os agentes hospedados no pool primário não são acessíveis.</p></li>
+<li><p>Para grupos de respostas importados, as chamadas se conectam ao pool de backup, mas os agentes hospedados no pool primário são inalcançáveis.</p></li>
 </ul></td>
 <td><ul>
-<li><p>Se os grupos de resposta não foram importados, as chamadas serão desconectadas.</p></li>
-<li><p>Para grupos de resposta importados, chamadas conectam-se ao pool de backup.</p></li>
+<li><p>Se os grupos de resposta não forem importados, as chamadas serão desconectadas.</p></li>
+<li><p>Para grupos de respostas importados, as chamadas são conectadas ao pool de backup.</p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>Chamadas de agente em nome do grupo de resposta</p></td>
-<td><p>O recurso está desativado durante este estágio</p></td>
+<td><p>O agente chama em nome do grupo de resposta</p></td>
+<td><p>O recurso é desabilitado durante esse estágio</p></td>
 <td><ul>
-<li><p>Se os grupos de resposta não foram importados, as chamadas falharão.</p></li>
-<li><p>Para os grupos de resposta importados, as chamadas são bem-sucedidas.</p></li>
+<li><p>Se os grupos de resposta não forem importados, as chamadas falham.</p></li>
+<li><p>Para grupos de resposta importados, as chamadas são bem-sucedidas.</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p>Informações de entrada e agente do agente</p></td>
+<td><p>Entrada do agente e informação do agente</p></td>
 <td><ul>
-<li><p>Grupos de agente pertencentes ao pool primário podem ser visualizados no console do agente, mas os agentes não podem entrar.</p></li>
-<li><p>Grupos de agente pertencentes ao pool de backup podem ser visualizados no console do agente e os agentes podem entrar.</p></li>
-<li><p>Grupos de agente importados são exibidos no console do agente e os agentes podem entrar.</p></li>
+<li><p>Os grupos de agente pertencentes ao pool primário podem ser exibidos no console do agente, mas os agentes não podem entrar.</p></li>
+<li><p>Os grupos de agentes pertencentes ao pool de backup podem ser exibido no console do agente e os agentes podem entrar.</p></li>
+<li><p>Os grupos de agentes importados são exibidos no console do agente e os agentes podem entrar.</p></li>
 </ul></td>
 <td><ul>
-<li><p>Grupos de agente pertencentes ao pool primário podem ser visualizados no console do agente, mas os agentes não podem entrar.</p></li>
-<li><p>Grupos de agente pertencentes ao pool de backup podem ser visualizados no console do agente e os agentes podem entrar.</p></li>
-<li><p>Grupos de agente importados são exibidos no console do agente e os agentes podem entrar.</p></li>
+<li><p>Os grupos de agentes pertencentes ao pool primário podem ser exibidos no console do agente, mas os agentes não podem entrar.</p></li>
+<li><p>Os grupos de agentes pertencentes ao pool de backup podem ser exibido no console do agente e os agentes podem entrar.</p></li>
+<li><p>Os grupos de agentes importados são exibidos no console do agente e os agentes podem entrar.</p></li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><p>Configuração do grupo de resposta</p></td>
 <td><ul>
 <li><p>Os grupos de resposta pertencentes ao pool primário podem ser exibidos, dependendo da disponibilidade do banco de dados back-end do pool primário, mas não podem ser modificados.</p></li>
-<li><p>Os grupos de resposta pertencentes ao pool de backup podem ser exibidos e modificados.</p></li>
-<li><p>Os grupos de resposta importados não podem ser exibidos com o painel de controle do Lync Server ou com a ferramenta de configuração de grupo de resposta, mas podem ser configurados usando cmdlets do Shell de gerenciamento do Lync Server</p></li>
+<li><p>Os grupos de respostas pertencentes ao pool de backup podem ser exibidos e modificados.</p></li>
+<li><p>Grupos de resposta importados não podem ser exibidos com o painel de controle do Lync Server ou com a ferramenta de configuração do grupo de resposta, mas podem ser configurados usando cmdlets do Shell de gerenciamento do Lync Server.</p></li>
 </ul></td>
 <td><ul>
-<li><p>Os grupos de resposta pertencentes ao pool primário podem ser exibidos, dependendo da disponibilidade do banco de dados back-end, mas não podem ser modificados.</p></li>
+<li><p>Os grupos de resposta pertencentes ao pool primário podem ser exibidos, dependendo da disponibilidade do banco de dados back end, mas não podem ser modificados.</p></li>
 <li><p>Os grupos de resposta pertencentes ao pool de backup podem ser exibidos e modificados.</p></li>
-<li><p>Os grupos de resposta importados não podem ser exibidos com o painel de controle do Lync Server ou com a ferramenta de configuração de grupo de resposta, mas podem ser configurados usando cmdlets do Shell de gerenciamento do Lync Server</p></li>
+<li><p>Grupos de resposta importados não podem ser exibidos com o painel de controle do Lync Server ou com a ferramenta de configuração do grupo de resposta, mas podem ser configurados usando cmdlets do Shell de gerenciamento do Lync Server.</p></li>
 </ul></td>
 </tr>
 </tbody>
@@ -225,19 +225,19 @@ Quando um administrador invoca o failover para um pool de backup, a atividade do
 
 ## <a name="user-experience-during-failback"></a>Experiência do usuário durante o failback
 
-Quando um administrador invoca o failback para o pool primário, a atividade do grupo de resposta é manipulada durante e após o failback, conforme descrito na tabela a seguir.
+Quando um administrador chama o failback para o pool primário, a atividade do grupo de resposta é manipulada durante e após o failback, conforme descritos na tabela seguinte.
 
 <div>
 
 
 > [!NOTE]  
-> Durante a recuperação de desastres, as chamadas se comportam de forma diferente dependendo se os grupos de resposta do pool primário foram importados para o pool de backup durante a recuperação Na tabela a seguir, as referências a grupos de resposta importados significam que os grupos de resposta de pool primário foram importados para o pool de backup durante o modo de recuperação de desastre.
+> Durante a recuperação de desastre, as chamadas se comportam de forma diferente dependendo se os grupos de resposta do pool primário foram importados ao pool de backup durante a recuperação. Na tabela seguinte, as referências dos grupos de respostas importados significam que os grupos de respostas do pool primário foram importados ao pool de backup durante o modo de recuperação de desastre.
 
 
 
 </div>
 
-### <a name="call-handling-in-failback"></a>Tratamento de chamadas em failback
+### <a name="call-handling-in-failback"></a>Administração de chamada no Failback
 
 <table>
 <colgroup>
@@ -247,7 +247,7 @@ Quando um administrador invoca o failback para o pool primário, a atividade do 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Tipo de ação do usuário ou chamada</th>
+<th>Tipo de chamada ou ação do usuário</th>
 <th>Durante o failback</th>
 <th>Após a conclusão do failback</th>
 </tr>
@@ -256,61 +256,61 @@ Quando um administrador invoca o failback para o pool primário, a atividade do 
 <tr class="odd">
 <td><p>Chamadas conectadas a um agente</p></td>
 <td><ul>
-<li><p>As chamadas normais permanecem conectadas.</p></li>
-<li><p>Se os grupos de resposta não foram importados, não há chamadas anônimas nesse status.</p></li>
+<li><p>Chamadas normais permanecem conectadas.</p></li>
+<li><p>Se os grupos de respostas não forem importados, nenhuma chamada anônima estará nesse status.</p></li>
 <li><p>Para grupos de resposta importados, as chamadas anônimas permanecem conectadas.</p></li>
 </ul></td>
 <td><ul>
-<li><p>As chamadas normais permanecem conectadas.</p></li>
-<li><p>Se os grupos de resposta não foram importados, não há chamadas anônimas nesse status.</p></li>
+<li><p>Chamadas normais permanecem conectadas.</p></li>
+<li><p>Se os grupos de respostas não forem importados, nenhuma chamada anônima estará nesse status.</p></li>
 <li><p>Para grupos de resposta importados, as chamadas anônimas permanecem conectadas.</p></li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><p>Chamadas em andamento ainda não conectadas a um agente</p></td>
 <td><ul>
-<li><p>Se os grupos de resposta não foram importados, nenhuma chamada está nesse status.</p></li>
-<li><p>Para os grupos de resposta importados, as chamadas serão desconectadas.</p></li>
+<li><p>Se os grupos de respostas não forem importados, nenhuma chamada estará nesse status.</p></li>
+<li><p>Para grupos de respostas importados, as chamadas serão desconectadas.</p></li>
 </ul></td>
 <td><ul>
-<li><p>Se os grupos de resposta não foram importados, nenhuma chamada está nesse status.</p></li>
-<li><p>Para os grupos de resposta importados, as chamadas serão desconectadas.</p></li>
+<li><p>Se os grupos de respostas não forem importados, nenhuma chamada estará nesse status.</p></li>
+<li><p>Para grupos de respostas importados, as chamadas serão desconectadas.</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td><p>Novas chamadas</p></td>
-<td><p>Chamadas conectadas ao pool primário, mas os agentes hospedados no pool primário não são acessíveis.</p></td>
+<td><p>Chamadas conectadas ao pool primário, mas os agentes hospedados no pool primário são inacessíveis.</p></td>
 <td><p>Chamadas conectadas ao pool primário.</p></td>
 </tr>
 <tr class="even">
-<td><p>Chamadas de agente em nome do grupo de resposta</p></td>
-<td><p>O recurso está desativado durante este estágio.</p></td>
-<td><p>Chamadas com êxito.</p></td>
+<td><p>Chamadas de agentes em nome do grupo de resposta</p></td>
+<td><p>Recurso desabilitado durante esse estágio.</p></td>
+<td><p>Chamadas bem-sucedidas.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Informações de entrada e agente do agente</p></td>
+<td><p>Entrada do agente e informações do agente</p></td>
 <td><ul>
-<li><p>Grupos de agente pertencentes ao pool primário podem ser visualizados no console do agente, mas os agentes não podem entrar.</p></li>
-<li><p>Grupos de agente pertencentes ao pool de backup podem ser visualizados no console do agente e os agentes podem entrar.</p></li>
-<li><p>Grupos de agente importados são exibidos no console do agente e os agentes podem entrar.</p></li>
+<li><p>Os grupos de agente pertencentes ao pool primário podem ser exibidos no console do agente, mas os agentes não podem entrar.</p></li>
+<li><p>Os grupos de agentes pertencentes ao pool de backup podem ser exibido no console do agente e os agentes podem entrar.</p></li>
+<li><p>Os grupos de agentes importados são exibidos no console do agente e os agentes podem entrar.</p></li>
 </ul></td>
 <td><ul>
-<li><p>Grupos de agente pertencentes ao pool primário podem ser visualizados no console do agente e os agentes podem entrar.</p></li>
-<li><p>Grupos de agente pertencentes ao pool de backup podem ser visualizados no console do agente e os agentes podem entrar.</p></li>
-<li><p>Os grupos de agente importados não são exibidos no console do agente.</p></li>
+<li><p>Os grupos de agente pertencentes ao pool primário podem ser exibidos no console do agente e os agentes podem entrar.</p></li>
+<li><p>Os grupos de agentes pertencentes ao pool de backup podem ser exibidos no console do agente e os agentes podem entrar.</p></li>
+<li><p>Os grupos de agentes importados não são exibidos no console do agente.</p></li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><p>Configuração do grupo de resposta</p></td>
 <td><ul>
 <li><p>Os grupos de resposta pertencentes ao pool primário podem ser exibidos, dependendo da disponibilidade do banco de dados back-end do pool primário, mas não podem ser modificados.</p></li>
-<li><p>Os grupos de resposta pertencentes ao pool de backup podem ser exibidos e modificados.</p></li>
-<li><p>Os grupos de resposta importados não podem ser exibidos com o painel de controle do Lync Server ou com a ferramenta de configuração de grupo de resposta, mas podem ser configurados usando cmdlets do Shell de gerenciamento do Lync Server</p></li>
+<li><p>Os grupos de respostas pertencentes ao pool de backup podem ser exibidos e modificados.</p></li>
+<li><p>Grupos de resposta importados não podem ser exibidos com o painel de controle do Lync Server ou com a ferramenta de configuração do grupo de resposta, mas podem ser configurados usando cmdlets do Shell de gerenciamento do Lync Server.</p></li>
 </ul></td>
 <td><ul>
-<li><p>Os grupos de resposta pertencentes ao pool primário podem ser exibidos e modificados.</p></li>
-<li><p>Os grupos de resposta pertencentes ao pool de backup podem ser exibidos e modificados.</p></li>
-<li><p>Os grupos de resposta importados não podem ser exibidos com o painel de controle do Lync Server ou com a ferramenta de configuração de grupo de resposta, mas podem ser configurados usando cmdlets do Shell de gerenciamento do Lync Server</p></li>
+<li><p>Os grupos de respostas pertencentes ao pool primário podem ser exibidos e modificados.</p></li>
+<li><p>Os grupos de respostas pertencentes ao pool de backup podem ser exibidos e modificados.</p></li>
+<li><p>Grupos de resposta importados não podem ser exibidos com o painel de controle do Lync Server ou com a ferramenta de configuração do grupo de resposta, mas podem ser configurados usando cmdlets do Shell de gerenciamento do Lync Server.</p></li>
 </ul></td>
 </tr>
 </tbody>
