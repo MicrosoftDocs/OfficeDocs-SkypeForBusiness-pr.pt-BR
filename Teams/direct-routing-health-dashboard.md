@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Saiba como usar o painel de integridade para monitorar a conexão entre o controlador de borda de sessão e o roteamento direto.
-ms.openlocfilehash: a1644eb94cc18bf149a5e866aae0faf4b41d1d67
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: a89377c798295267b1e75f3ffa6efc19b8c4c37d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836071"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051797"
 ---
 # <a name="health-dashboard-for-direct-routing"></a>Painel de integridade para roteamento direto
 
@@ -102,7 +102,7 @@ O modo de exibição detalhado mostra os seguintes parâmetros adicionais:
 
 - **Chamada simultânea**-mostra quantas chamadas simultâneas o SBC tratouu. Essas informações são úteis para prever o número de canais simultâneos que você precisa e veja a tendência. Você pode deslizar os dados por número de dias e direção de chamada (entrada/saída/todos os fluxos).
 
-- **Parâmetros de rede** – todos os parâmetros de rede são medidos da interface de roteamento direto para o controlador de borda de sessão. Para obter informações sobre os valores recomendados, consulte [preparar a rede da sua organização para o Microsoft Teams](https://docs.microsoft.com/en-us/microsoftteams/prepare-network)e verificar os valores recomendados de borda do cliente para o Microsoft Edge.
+- **Parâmetros de rede** – todos os parâmetros de rede são medidos da interface de roteamento direto para o controlador de borda de sessão. Para obter informações sobre os valores recomendados, consulte [preparar a rede da sua organização para o Microsoft Teams](https://docs.microsoft.com/microsoftteams/prepare-network)e verificar os valores recomendados de borda do cliente para o Microsoft Edge.
 
    - Tremulação – é a medida de milissegundos da variação no tempo de atraso de propagação de rede calculado entre dois pontos de extremidade usando RTCP (o protocolo de controle RTP).
 

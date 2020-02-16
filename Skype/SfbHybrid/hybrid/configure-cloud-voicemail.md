@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Instruções para implementar a caixa postal baseada em nuvem para usuários hospedados no Skype for Business Server.
-ms.openlocfilehash: f99286d4a3495d0214c46d28b105ad9076d238b2
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.openlocfilehash: 8fab0cf237137d87a8b7e49be65232dc0595de6d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888530"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42041240"
 ---
 # <a name="configure-cloud-voicemail-service-for-on-premises-users"></a>Configurar o serviço de caixa postal na nuvem para usuários locais
 
@@ -86,7 +86,7 @@ Set-CsHostedVoicemailPolicy -Identity Global -Description "Global Cloud Voicemai
 
     O nome da organização também é o nome de domínio padrão no Office 365.
 
-- O **locatário** é usado para identificar seu locatário no Office 365. Para obter mais informações, consulte [Find Your Office 365 locatário ID](https://support.office.com/en-us/article/find-your-office-365-tenant-id-6891b561-a52d-4ade-9f39-b492285e2c9b).
+- O **locatário** é usado para identificar seu locatário no Office 365. Para obter mais informações, consulte [Find Your Office 365 locatário ID](https://support.office.com/article/find-your-office-365-tenant-id-6891b561-a52d-4ade-9f39-b492285e2c9b).
 
 Para garantir que uma política de caixa postal hospedada seja criada com êxito, execute o seguinte comando:
 

@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Este artigo descreve os benefícios, as considerações de planejamento e os requisitos para implementar o serviço de caixa postal do Microsoft Cloud. Para obter informações sobre como configurar a caixa postal em nuvem, consulte Configuring Cloud postal.
-ms.openlocfilehash: 11b6704a532a3e522792c2234d199e891799c2ac
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 82d9473e35b5c10fd2c50b783a89df64aed62cbe
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765692"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006016"
 ---
 # <a name="plan-cloud-voicemail-service-for-on-premises-users"></a>Planejar o serviço de caixa postal na nuvem para usuários locais
 
@@ -46,7 +46,7 @@ Com a caixa postal na nuvem, suas tarefas administrativas são muito simplificad
 - Não é necessário configurar a função UM do Exchange.
 - As tarefas de configuração para correio de voz em nuvem são mais simples.
 - As atualizações da funcionalidade de caixa postal são entregues diretamente na nuvem, de forma que os usuários sempre tenham acesso aos recursos e atualizações mais recentes com menos dependência em atualizações cumulativas (CUs).
-- Você tem o mesmo conjunto de controles para as caixas de correio do Exchange local e online. Para obter mais informações sobre esses controles, consulte [Configurar caixa postal do sistema de telefonia](https://support.office.com/en-us/article/Set-up-Phone-System-voicemail-Admin-help-9c590873-b014-4df3-9e27-1bb97322a79d?ui=en-US&rs=en-US&ad=US).
+- Você tem o mesmo conjunto de controles para as caixas de correio do Exchange local e online. Para obter mais informações sobre esses controles, consulte [Configurar caixa postal do sistema de telefonia](https://support.office.com/article/Set-up-Phone-System-voicemail-Admin-help-9c590873-b014-4df3-9e27-1bb97322a79d?ui=en-US&rs=en-US&ad=US).
 
 O diagrama a seguir mostra a caixa postal na nuvem em uma implantação híbrida:
 

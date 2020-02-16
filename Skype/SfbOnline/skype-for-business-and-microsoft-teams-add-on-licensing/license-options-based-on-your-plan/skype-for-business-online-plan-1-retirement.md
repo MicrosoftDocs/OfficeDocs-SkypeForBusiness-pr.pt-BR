@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Licensing
 description: O Skype for Business online plano 1 foi desativado. No entanto, se você tiver uma assinatura atual do Skype for Business online plano 1, essa alteração não afetará você imediatamente. Quando estiver pronto para mudar para um novo plano (agora ou durante a renovação), você terá três opções.
-ms.openlocfilehash: d0d553946ddbde84ede48b715332e66aea75dac4
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 1b6642ccea185136c21e6064a8af9f271491c1f4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692656"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029082"
 ---
 # <a name="skype-for-business-online-plan-1-retirement"></a>Aposentadoria do Skype for Business Online Plan 1 
 
@@ -38,7 +38,7 @@ Você pode manter a mesma funcionalidade que tinha com o Skype for Business onli
 
 ## <a name="switching-to-office-365-f1"></a>Mudando para o Office 365 F1
 
-Essa opção é ideal se você quiser aproveitar as vantagens da funcionalidade adicional que o Office 365 F1 tem a oferecer. Para saber mais e obter informações sobre preços, consulte [Office 365 F1](https://products.office.com/en-us/business/office-365-f1).
+Essa opção é ideal se você quiser aproveitar as vantagens da funcionalidade adicional que o Office 365 F1 tem a oferecer. Para saber mais e obter informações sobre preços, consulte [Office 365 F1](https://products.office.com/business/office-365-f1).
 
 
 ### <a name="how-to-switch"></a>Como alternar 

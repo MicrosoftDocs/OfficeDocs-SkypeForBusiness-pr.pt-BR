@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Licensing
 description: 'Learn what Communication Credits (PSTN Consumption) billing, how to find rates, and what services you get. '
-ms.openlocfilehash: b8462c7ad3c4f2820f1276be47fa4140ad79755a
-ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
+ms.openlocfilehash: c071ebf297714e81cdb8a508ebf313d0054fe633
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41852118"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051565"
 ---
 # <a name="what-are-communications-credits"></a>O que são Créditos de Comunicação?
 
@@ -52,7 +52,7 @@ Os créditos de comunicações são uma maneira conveniente de pagar pela Confer
   
 ## <a name="what-are-the-communications-credits-rates"></a>Quais são as tarifas dos créditos de comunicação?
 
-Se você estiver se perguntando qual o custo das chamadas para os planos de chamadas, consulte taxas de créditos de comunicações para planos de [chamada](https://products.office.com/en-us/microsoft-teams/online-meeting-solutions#Rates) (role para baixo até "ver as tarifas para onde deseja ligar").
+Se você estiver se perguntando qual o custo das chamadas para os planos de chamadas, consulte taxas de créditos de comunicações para planos de [chamada](https://products.office.com/microsoft-teams/online-meeting-solutions#Rates) (role para baixo até "ver as tarifas para onde deseja ligar").
   
 ## <a name="what-is-it"></a>O que é isso?
 

@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - PowerShell
 description: Solucionar problemas de criação de uma sessão remota do PowerShell para se conectar ao Skype for Business Online, incluindo o módulo de importação, o Shell simultâneo, o Live ID e os erros de permissão.
-ms.openlocfilehash: 873139f279114910bb802bc023ade35c0f84f7d1
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: f3de8d67079aaf4afeffdc63588f6806413383fc
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706266"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010684"
 ---
 # <a name="diagnose-connection-problems-with-the-skype-for-business-online-connector"></a>Diagnosticar problemas de conexão com o Conector do Skype for Business Online
 
@@ -69,7 +69,7 @@ O módulo do conector Skype for Business online pode ser executado somente no Wi
   
   - **Erro**: *Import-Module: a versão do PowerShell carregado é ' 2,0 '. O\\módulo: Arquivos de programas\\arquivos\\comuns do Microsoft Lync Server\\2013\\LyncOnlineConnector\\LyncOnlineConnector. psd1 ' requer uma versão mínima do PowerShell de ' 3,0 ' para ser executado. Verifique a instalação do PowerShell e tente novamente.*
 
-- **Resolução**: a única maneira de corrigir esse problema é instalar o Windows PowerShell 3,0, que está disponível no centro de download da Microsoft [https://www.microsoft.com/en-us/download/details.aspx?id=34595](https://www.microsoft.com/en-us/download/details.aspx?id=34595)em.
+- **Resolução**: a única maneira de corrigir esse problema é instalar o Windows PowerShell 3,0, que está disponível no centro de download da Microsoft [https://www.microsoft.com/download/details.aspx?id=34595](https://www.microsoft.com/download/details.aspx?id=34595)em.
   
 ## <a name="failed-to-connect-to-live-id-server"></a>Falha ao se conectar ao servidor de ID dinâmica
 <a name="BKMKFailedConnect"> </a>
@@ -98,7 +98,7 @@ Um dos pré-requisitos para usar o PowerShell para gerenciar o Skype for Busines
 
 - **Erro**: *Get-CsWebTicket: não é possível carregar o módulo Live ID. Certifique-se de que a versão correta do assistente de conexão do Live ID esteja instalada.*
 
-- **Resolução**: o assistente de conexão do Microsoft Online Services está disponível no Microsoft Download Center no [Assistente de conexão do Microsoft Online Services para profissionais de ti RTW](https://www.microsoft.com/en-us/download/details.aspx?id=28177)
+- **Resolução**: o assistente de conexão do Microsoft Online Services está disponível no Microsoft Download Center no [Assistente de conexão do Microsoft Online Services para profissionais de ti RTW](https://www.microsoft.com/download/details.aspx?id=28177)
 
 ## <a name="logon-failed-for-the-user"></a>O logon falhou para o usuário
 <a name="BKMKLogonFailed"> </a>

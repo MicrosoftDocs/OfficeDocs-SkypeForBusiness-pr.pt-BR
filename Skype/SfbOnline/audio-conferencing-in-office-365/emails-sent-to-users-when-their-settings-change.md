@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Saiba quais informações são enviadas automaticamente para os usuários por e-mail quando as configurações de conferência discada forem alteradas no Skype for Business online. '
-ms.openlocfilehash: 167b083c1cc212a6d301b0cfb2012ef9d639727d
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 12904c6485a422c7df314767b58ac485c38816ea
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41707226"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41986546"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-skype-for-business-online"></a>Emails enviados para usuários quando as configurações forem alteradas no Skype for Business Online
 
@@ -76,7 +76,7 @@ Por padrão, há quatro tipos de email que serão enviados aos usuários que est
     
     Isso acontece quando a licença de **conferência de áudio** é removida de um usuário ou ao alterar o provedor de serviços de audioconferência de um usuário da Microsoft para um provedor de serviços de audioconferência de terceiros ou quando o provedor é definido como **nenhum**. Este e-mail contém as instruções e informações para o usuário usar a ferramenta de atualização de reunião do Skype for Business online para remover informações específicas da conferência de áudio, como o número de telefone ou a ID de conferência padrão.
     
-    Veja [Atribuir ou remover licenças de assinatura no Office 365](https://support.office.com/en-us/article/997596b5-4173-4627-b915-36abac6786dc).
+    Veja [Atribuir ou remover licenças de assinatura no Office 365](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).
     
     Aqui está um exemplo desse email:
     

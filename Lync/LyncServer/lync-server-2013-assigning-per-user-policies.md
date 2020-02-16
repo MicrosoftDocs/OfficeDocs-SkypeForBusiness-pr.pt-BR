@@ -67,7 +67,7 @@ Você pode atribuir determinadas políticas a um usuário ou grupo de usuários 
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Gerenciando usuários no Lync Server 2013](lync-server-2013-managing-users-in-lync-server.md)  

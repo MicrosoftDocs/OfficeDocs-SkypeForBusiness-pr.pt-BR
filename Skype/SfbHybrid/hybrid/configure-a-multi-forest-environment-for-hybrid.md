@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: As seções a seguir fornecem orientação sobre como configurar um ambiente com várias florestas em um modelo de floresta de recursos/usuários para fornecer a funcionalidade do Skype for Business em um cenário híbrido.
-ms.openlocfilehash: f018699040fc202cbe827a2b8b05bd1f4371e190
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 33945b245009a221d709e13d587f435aa4c054d8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726941"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41983036"
 ---
 # <a name="deploy-a-resource-forest-topology"></a>Implantar uma topologia de floresta de recursos
  
@@ -48,7 +48,7 @@ Os usuários do Skype for Business hospedados no local podem ter o Exchange hosp
   
 ## <a name="configure-forest-trusts"></a>Configurar relações de confiança de floresta
 
-Em uma topologia de floresta de recursos, as florestas de recursos que hospedam o Skype for Business Server devem confiar em cada floresta de conta que contenha contas de usuários que irão acessá-la. Se você tiver várias florestas de usuários, para habilitar a autenticação entre florestas, é importante que o roteamento de sufixo de nome esteja habilitado para cada uma dessas relações de confiança de floresta. Para obter instruções, consulte [Gerenciando relações de confiança de floresta](https://technet.microsoft.com/en-us/library/cc772440.aspx). Se você tem o Exchange Server implantado em outra floresta e fornece funcionalidade para usuários do Skype for Business, a floresta que hospeda o Exchange deve confiar na floresta que hospeda o Skype for Business Server. Por exemplo, se o Exchange foi implantado na floresta da conta, isso significaria efetivamente uma relação de confiança bidirecional entre a conta e as florestas do Skype for Business são necessárias nessa configuração.
+Em uma topologia de floresta de recursos, as florestas de recursos que hospedam o Skype for Business Server devem confiar em cada floresta de conta que contenha contas de usuários que irão acessá-la. Se você tiver várias florestas de usuários, para habilitar a autenticação entre florestas, é importante que o roteamento de sufixo de nome esteja habilitado para cada uma dessas relações de confiança de floresta. Para obter instruções, consulte [Gerenciando relações de confiança de floresta](https://technet.microsoft.com/library/cc772440.aspx). Se você tem o Exchange Server implantado em outra floresta e fornece funcionalidade para usuários do Skype for Business, a floresta que hospeda o Exchange deve confiar na floresta que hospeda o Skype for Business Server. Por exemplo, se o Exchange foi implantado na floresta da conta, isso significaria efetivamente uma relação de confiança bidirecional entre a conta e as florestas do Skype for Business são necessárias nessa configuração.
   
 ## <a name="synchronize-accounts-into-the-forest-hosting-skype-for-business"></a>Sincronizar contas com a floresta que hospeda o Skype for Business
 
@@ -140,6 +140,6 @@ Siga as práticas recomendadas para configurar o Skype for Business híbrido. Pa
   
 ## <a name="configure-hybrid-connectivity-for-exchange-server"></a>Configurar a conectividade híbrida para o Exchange Server
 
-Se necessário, siga as práticas recomendadas para configurar o Exchange híbrido. Para obter mais informações, consulte [implantações híbridas do Exchange Server](https://docs.microsoft.com/en-us/exchange/exchange-hybrid). 
+Se necessário, siga as práticas recomendadas para configurar o Exchange híbrido. Para obter mais informações, consulte [implantações híbridas do Exchange Server](https://docs.microsoft.com/exchange/exchange-hybrid). 
   
 

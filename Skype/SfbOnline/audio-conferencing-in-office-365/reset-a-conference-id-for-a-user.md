@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Saiba quais são as etapas para redefinir a ID de conferência da reunião de um usuário no Skype for Business Online e obter links para as ferramentas de migração e atualização de reunião. '
-ms.openlocfilehash: c87db0972fb8144d7a8a807de81905f5be23191c
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 9a1c2766da021d30feb14954d6e69b6978b64bc9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41707146"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41986486"
 ---
 # <a name="reset-a-conference-id-for-a-user-in-skype-for-business-online"></a>Redefinir uma ID de conferência para um usuário no Skype for Business Online
 
@@ -66,7 +66,7 @@ Uma ID de conferência dinâmica está incluída na parte inferior dos convites 
     
   - [Skype for Business Online, ferramenta de migração de reuniões (64 bits)](https://go.microsoft.com/fwlink/?LinkID=626047)
     
-  - [Skype for Business Online, ferramenta de migração de reuniões (32 bits)](https://www.microsoft.com/en-us/download/details.aspx?id=54079)
+  - [Skype for Business Online, ferramenta de migração de reuniões (32 bits)](https://www.microsoft.com/download/details.aspx?id=54079)
     
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Quer saber como gerenciar com o Windows PowerShell?
 

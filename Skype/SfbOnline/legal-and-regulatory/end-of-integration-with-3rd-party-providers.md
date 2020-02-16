@@ -20,12 +20,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: Em 31 de julho de 2021, o programa de finalização da vida útil será concluído para a integração do Skype for Business com provedores de serviços de audioconferência de terceiros (ACP de terceiros).
-ms.openlocfilehash: b9bd1640d615babab29a073aeeee2b1beb92fc02
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 7ea6068d8715bd0df9e80041d70b8baf37abaf1b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706686"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41985026"
 ---
 # <a name="end-of-life-program-for-the-integration-of-skype-for-business-with-third-party-audio-conferencing-providers"></a>Programa de fim de vida útil para a integração do Skype for Business com provedores de serviços de audioconferência de terceiros 
 
@@ -47,7 +47,7 @@ Como parte do anúncio do início do programa de finalização da vida útil, as
 
 Para se preparar para esta mudança, incentivamos as organizações afetadas a notificar os usuários habilitados desta atualização planejada antes de 31 de julho de 2021. 
 
-Após 31 de julho de 2021, os usuários podem continuar a usar o Skype for Business sem nenhuma interrupção nas reuniões online; no entanto, as organizações precisarão habilitar seus usuários para conferências de áudio fornecidas pela Microsoft se exigirem videoconferências discadas com o Skype for Business ou o Microsoft Teams. Para saber mais sobre a conferência de áudio da Microsoft, confira [áudio audioconferência](https://products.office.com/en-us/skype-for-business/audio-conferencing). 
+Após 31 de julho de 2021, os usuários podem continuar a usar o Skype for Business sem nenhuma interrupção nas reuniões online; no entanto, as organizações precisarão habilitar seus usuários para conferências de áudio fornecidas pela Microsoft se exigirem videoconferências discadas com o Skype for Business ou o Microsoft Teams. Para saber mais sobre a conferência de áudio da Microsoft, confira [áudio audioconferência](https://products.office.com/skype-for-business/audio-conferencing). 
 
 Dependendo do estado final desejado de uma organização, há três caminhos que podem ser seguidos:
 

@@ -20,18 +20,18 @@ ms.custom:
 - Setup
 - LIL_Placement
 description: 'Veja como permitir que as pessoas que estão usando o Skype for Business entrem em contato com os usuários do Skype for Business que estão foram da organização e os adicionem na sua lista de contatos.  '
-ms.openlocfilehash: d6251e8e86527172e6818d11b1e07da892b4b0ef
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: ffefa664845f5dbe06b064e0a197a28d8df2c3da
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692876"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010804"
 ---
 # <a name="let-skype-for-business-users-add-skype-contacts"></a>Permitir que os usuários do Skype for Business adicionem contatos do Skype
 
 Com o Skype for Business, os usuários podem pesquisar todos os usuários do Skype (o aplicativo gratuito!) e enviar mensagens instantâneas para eles. Este artigo explica o que você precisa fazer para adicionar contatos do Skype. 
   
-Para fazer isso, você precisa ter [permissões de administrador](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d?ui=en-US&rs=en-US&ad=US) no Office 365.
+Para fazer isso, você precisa ter [permissões de administrador](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d?ui=en-US&rs=en-US&ad=US) no Office 365.
 
 ![Um ícone mostrando o logotipo do Skype for Business](../images/sfb-logo-30x30.png) **Usando o centro de administração do Skype for Business**
   
@@ -55,11 +55,11 @@ Para fazer isso, você precisa ter [permissões de administrador](https://suppor
     
 6.  Se você estiver usando o Windows Firewall, o Skype for Business abrirá as portas necessárias automaticamente.
     
-    Se a sua organização usa outra solução para restringir a conexão de computadores da rede à Internet, garanta que os computadores cliente possam acessar todos os [endereços IP e URLs](https://support.office.com/en-us/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2) para permitir a conectividade do Skype e a Pesquisa de Diretório do Skype. Talvez seja necessário adicioná-los à lista de permissão de saída na configuração do firewall ou da infraestrutura de proxy.
+    Se a sua organização usa outra solução para restringir a conexão de computadores da rede à Internet, garanta que os computadores cliente possam acessar todos os [endereços IP e URLs](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2) para permitir a conectividade do Skype e a Pesquisa de Diretório do Skype. Talvez seja necessário adicioná-los à lista de permissão de saída na configuração do firewall ou da infraestrutura de proxy.
     
 7. **AGUARDE 24 HORAS PARA FAZER O TESTE**. Em qualquer momento que você alterar as configurações das comunicações externas, poderá levar até 24 horas para as alterações serem efetivadas em todos os data centers.
     
-8. Mostre aos usuários como pesquisar e adicionar contatos do Skype à sua lista de contatos do Skype for Business. Oriente-os a usar a opção [Procurar por pessoas no Skype for Business](https://support.office.com/en-us/article/b12500ef-e37f-4d22-aade-c11277e53f19).
+8. Mostre aos usuários como pesquisar e adicionar contatos do Skype à sua lista de contatos do Skype for Business. Oriente-os a usar a opção [Procurar por pessoas no Skype for Business](https://support.office.com/article/b12500ef-e37f-4d22-aade-c11277e53f19).
     
 ## <a name="test-and-troubleshoot"></a>Testar e solucionar problemas
 
@@ -73,7 +73,7 @@ Para testar sua configuração, você precisa de um contato no Skype que não se
   
 3. No Skype for Business, pesquise seu contato no Skype e envie uma solicitação para chat. 
     
-    Se receber uma mensagem de que o envio não foi possível devido à política da empresa, verifique novamente as [configurações do firewall](https://support.office.com/en-us/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2). 
+    Se receber uma mensagem de que o envio não foi possível devido à política da empresa, verifique novamente as [configurações do firewall](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2). 
     
 4. Outra maneira de testar se o problema é o firewall é usar o wifi de um lugar que não tenha firewall, como uma cafeteria, e usar o Skype for Business para enviar uma solicitação ao contato do Skype para chat. 
     

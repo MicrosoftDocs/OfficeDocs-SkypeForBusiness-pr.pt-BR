@@ -68,7 +68,7 @@ Para obter detalhes, consulte os tópicos de ajuda para o [Grant-CsVoicePolicy](
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Get-CsCommonAreaPhone](https://docs.microsoft.com/powershell/module/skype/Get-CsCommonAreaPhone)  

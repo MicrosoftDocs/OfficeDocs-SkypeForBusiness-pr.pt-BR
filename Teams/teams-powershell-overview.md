@@ -15,12 +15,12 @@ f1.keywords:
 description: Saiba como usar os controles do PowerShell para gerenciar o Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5b211493bb5b0bfa3dea1abfc0c9b59eadcb4206
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c5eaf04a0244e35e7d9f7deb7d8afb135b3acb2c
+ms.sourcegitcommit: c8d16d5e61d66d7b5e7391a800978b920612ea4d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 02/15/2020
-ms.locfileid: "42035353"
+ms.locfileid: "42052518"
 ---
 # <a name="teams-powershell-overview"></a>Visão Geral do PowerShell do Teams
 
@@ -79,7 +79,7 @@ Quando lançamos nossa versão geralmente disponível do nosso módulo do PowerS
 
 ## <a name="managing-policies-via-powershell"></a>Gerenciando políticas pelo PowerShell
 
-Os cmdlets de gerenciamento de políticas estão no [módulo cmdlet do Skype for Business](https://www.microsoft.com/download/details.aspx?id=39366).
+Use os cmdlets do [módulo cmdlet do Skype for Business](https://www.microsoft.com/download/details.aspx?id=39366) para gerenciar políticas para usuários individuais.
 
 > [!NOTE]
 > Os cmdlets estarão disponíveis na sessão do PowerShell quando você se conectar ao Skype for Business online. Para obter mais informações, consulte [gerenciar o Skype for Business online com o Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell). 

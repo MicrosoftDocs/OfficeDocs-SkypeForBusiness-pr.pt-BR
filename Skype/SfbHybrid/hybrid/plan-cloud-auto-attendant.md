@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Visão geral do uso de um atendedor automático na nuvem com o Skype for Business Server 2019
-ms.openlocfilehash: d34e298db9cdd8f1bbd0378e37c6d9aae2b02726
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f7a3799df083d1404a2d635ee38403cc2653b9ea
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724221"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037813"
 ---
 # <a name="plan-cloud-auto-attendants"></a>Planejar atendedores automáticos de nuvem
 
@@ -98,7 +98,7 @@ O tutorial intitulado [Small Business exemplo-configurar um atendedor automátic
 Quando você tem uma estrutura sólida que atende às suas necessidades e um script que orienta os clientes com eficiência, prossiga para [Configurar contas de recursos](configure-onprem-ra.md).
 
 > [!CAUTION]
-> Conforme mencionado no [KB4480742](https://support.microsoft.com/en-us/help/4480742/call-failures-and-500-server-internal-error-after-migration-to-2019), a transferência de atendedores automáticos do um do Exchange criados no servidor 2015 para servidores que executam o servidor 2019 não é recomendável. Por enquanto, você teria que mantê-los em um pool 2015 do Skype for Business Server em execução no modo de coexistência.
+> Conforme mencionado no [KB4480742](https://support.microsoft.com/help/4480742/call-failures-and-500-server-internal-error-after-migration-to-2019), a transferência de atendedores automáticos do um do Exchange criados no servidor 2015 para servidores que executam o servidor 2019 não é recomendável. Por enquanto, você teria que mantê-los em um pool 2015 do Skype for Business Server em execução no modo de coexistência.
 
 ## <a name="see-also"></a>Confira também
 

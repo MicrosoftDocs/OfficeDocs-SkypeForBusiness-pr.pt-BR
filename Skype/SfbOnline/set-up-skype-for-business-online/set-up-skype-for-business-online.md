@@ -24,12 +24,12 @@ ms.custom:
 - O365M_SkypeforBusinessON
 - O365P_SkypeforBusinessON
 description: 'Aprenda a configurar seu domínio, usuários, mensagens instantâneas e presença para sua organização para instalar o Skype for Business. Veja também como configurar uma audioconferência, o Sistema de Telefonia e os Planos de Chamada e a transmissão do Reunião do Skype. '
-ms.openlocfilehash: dda75716014c81b2c1fcf333bfd7e9e05ea606e0
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+ms.openlocfilehash: 7ac027549f45c55f62c6fc83d7ebc03d0afef5d2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769594"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010784"
 ---
 # <a name="set-up-skype-for-business-online"></a>Configurar o Skype for Business Online
 
@@ -41,7 +41,7 @@ Parece que você precisa de ajuda para configurar o Skype com sua assinatura do 
 
 ## <a name="1-plan-for-skype-for-business"></a>1. Planejar o Skype for Business
 
-Se você tem o **[Office 365 Business Premium](https://products.office.com/en-us/business/office-365-business-premium)** ou o **Business Essentials**, pode usar o Skype for Business para fazer chamadas online para outras pessoas da sua empresa que estão na sua assinatura. Por exemplo, se sua empresa tiver 10 pessoas, você poderá [começar a usar o Skype for Business para mensagens instantâneas e reuniões online](https://support.office.com/article/cc05afa6-1894-4a82-9dd9-6222061f50fd) entre si, além de [reuniões com o Skype for Business](https://support.office.com/article/2eed8424-581a-4497-b505-c08c152e5851) usando o Skype for Business depois de executar as etapas de 2 a 6 abaixo. E você também pode [configurar uma reunião do Skype for Business no Outlook](https://support.office.com/article/b8305620-d16e-4667-989d-4a977aad6556#bkmk_OWA) para reuniões online!
+Se você tem o **[Office 365 Business Premium](https://products.office.com/business/office-365-business-premium)** ou o **Business Essentials**, pode usar o Skype for Business para fazer chamadas online para outras pessoas da sua empresa que estão na sua assinatura. Por exemplo, se sua empresa tiver 10 pessoas, você poderá [começar a usar o Skype for Business para mensagens instantâneas e reuniões online](https://support.office.com/article/cc05afa6-1894-4a82-9dd9-6222061f50fd) entre si, além de [reuniões com o Skype for Business](https://support.office.com/article/2eed8424-581a-4497-b505-c08c152e5851) usando o Skype for Business depois de executar as etapas de 2 a 6 abaixo. E você também pode [configurar uma reunião do Skype for Business no Outlook](https://support.office.com/article/b8305620-d16e-4667-989d-4a977aad6556#bkmk_OWA) para reuniões online!
 
 Se você quer usar o Skype for Business para fazer e receber **chamadas** de pessoas *externas*  à sua empresa:
 

@@ -21,16 +21,16 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Saiba mais sobre licenças complementares, recursos e como comprá-los para planos do Office 365 Enterprise. '
-ms.openlocfilehash: 1913d16b4a6595db27b4d32a10023866a5f76bb0
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 5181136bc95d2f74840af36ed6b4a29484485ed4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706096"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010574"
 ---
 # <a name="office-365-enterprise-e5"></a>Office 365 Enterprise E5
 
-O plano [Office 365 Enterprise E5](https://products.office.com/en-us/business/office-365-enterprise-e5-business-software) inclui a maioria dos recursos do Skype for Business. Há apenas algumas opções adicionais.
+O plano [Office 365 Enterprise E5](https://products.office.com/business/office-365-enterprise-e5-business-software) inclui a maioria dos recursos do Skype for Business. Há apenas algumas opções adicionais.
   
 |||
 |:-----|:-----|

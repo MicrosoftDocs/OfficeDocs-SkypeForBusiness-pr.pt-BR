@@ -21,16 +21,16 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Este apêndice inclui etapas detalhadas para atualizar o AAD Connect para incluir mais de uma floresta como parte da consolidação de nuvem para o Teams e o Skype for Business.
-ms.openlocfilehash: 3d3d72c14957f0ed8932d95fcd2dbe9ec9c1e37e
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: a61a45c8a492afd761f8cc6b1020b591851645b8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41696056"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049093"
 ---
 # <a name="update-aad-connect-to-include-more-than-one-forest"></a>Atualizar o AAD Connect para incluir mais de uma floresta
 
-O Azure AD Connect oferece suporte à [sincronização de várias florestas](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect-topologies). No entanto, ele suporta apenas uma instância da sincronização do Azure AD Connect para o AAD. Portanto, nos casos em que o Azure AD já está instalado em uma floresta, a instância existente do AAD Connect deve ser atualizada para sincronizar a partir da floresta adicional.
+O Azure AD Connect oferece suporte à [sincronização de várias florestas](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-topologies). No entanto, ele suporta apenas uma instância da sincronização do Azure AD Connect para o AAD. Portanto, nos casos em que o Azure AD já está instalado em uma floresta, a instância existente do AAD Connect deve ser atualizada para sincronizar a partir da floresta adicional.
 
  - Se todas as identidades forem representadas apenas uma vez em ambas as florestas (ou seja, se você não tiver feito nenhum contato habilitado para email), poderá simplesmente executar novamente o assistente de conexão do AAD, escolher "Personalizar opções de sincronização" e, em seguida, na página **conectar seus diretórios** , digite o nome da floresta adicional e das credenciais.<br><br>
  ![A página conectar seus diretórios](../media/cloud-consolidation-connect-your-directories.png)

@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 'Learn to set up Skype for Business Online external communications for your users can communicate with external Skype contacts. '
-ms.openlocfilehash: 65def1712c916ff670457a99dd114dcc405683be
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: ec10b29c87d4dcab00bb2e680c0ed594aa9de2d9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706276"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010734"
 ---
 # <a name="video-skype-for-business-online-external-communications"></a>Vídeo: comunicações externas do Skype for Business Online
 
@@ -38,7 +38,7 @@ Configure as comunicações externas do Skype for Business Online para que seus 
 ***
   
 ## <a name="related-topics"></a>Tópicos relacionados
-[Configurar comunicações externas do Skype for Business online](https://support.microsoft.com/en-us/help/10041/set-up-lync-online-external-communications) (guia passo a passo)
+[Configurar comunicações externas do Skype for Business online](https://support.microsoft.com/help/10041/set-up-lync-online-external-communications) (guia passo a passo)
 
 [Permitir que os usuários entrem em contato com usuários externos do Skype for Business](allow-users-to-contact-external-skype-for-business-users.md)
 

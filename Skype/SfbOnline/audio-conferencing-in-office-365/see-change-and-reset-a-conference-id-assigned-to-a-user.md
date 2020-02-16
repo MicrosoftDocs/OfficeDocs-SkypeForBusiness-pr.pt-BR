@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Saiba como atribuir uma ID de conferência a um usuário no Skype for Business Online e o que os parâmetros de IDs de conferência devem estar. '
-ms.openlocfilehash: 10acf425db0230dd90f8c125b0d871e07dd69728
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.openlocfilehash: 8bec76e25df092beb18725467c3041de3c1d7745
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888060"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010984"
 ---
 # <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-skype-for-business-online"></a>Visualizar e redefinir uma ID de conferência atribuída a um usuário no Skype for Business Online
 
@@ -97,7 +97,7 @@ Usando o Windows PowerShell Para fazer isso, execute:
 ## <a name="what-else-should-you-know"></a>O que mais você deve saber?
 
    > [!IMPORTANT]
-   >  Após a criação de uma nova ID de conferência ou uma redefinição, a antiga ID de conferência não pode ser usada pelos chamadores. Você deve notificar aos usuários para reagendarem suas reuniões existentes para garantir que o novo ID de conferência seja incluído nos convites. Os usuários podem usar a ferramenta de migração de reunião do Skype for Business para atualizar suas reuniões existentes. Para ver como baixar, instalar e executar a ferramenta, consulte: [ferramenta de atualização de reunião do Skype for Business e do Lync](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4), [Skype for Business Online, ferramenta de migração de reunião (64 bits)](https://go.microsoft.com/fwlink/?LinkID=626047)e [Skype for Business Online, ferramenta de migração de reunião (32 bits)](https://www.microsoft.com/en-us/download/details.aspx?id=54079).
+   >  Após a criação de uma nova ID de conferência ou uma redefinição, a antiga ID de conferência não pode ser usada pelos chamadores. Você deve notificar aos usuários para reagendarem suas reuniões existentes para garantir que o novo ID de conferência seja incluído nos convites. Os usuários podem usar a ferramenta de migração de reunião do Skype for Business para atualizar suas reuniões existentes. Para ver como baixar, instalar e executar a ferramenta, consulte: [ferramenta de atualização de reunião do Skype for Business e do Lync](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4), [Skype for Business Online, ferramenta de migração de reunião (64 bits)](https://go.microsoft.com/fwlink/?LinkID=626047)e [Skype for Business Online, ferramenta de migração de reunião (32 bits)](https://www.microsoft.com/download/details.aspx?id=54079).
 
 - Consulte [Set-CsOnlineDialInConferencingUser](https://go.microsoft.com/fwlink/?LinkId=617688 ) para saber mais sobre o cmdlet.
 

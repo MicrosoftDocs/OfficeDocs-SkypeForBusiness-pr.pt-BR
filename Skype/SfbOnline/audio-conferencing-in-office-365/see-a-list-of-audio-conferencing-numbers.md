@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Saiba como Pesquisar os números de conferência discada no Skype for Business online. '
-ms.openlocfilehash: 6cfbc79ff4e282c1b7f8f3f6b19483aa9347f646
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 6c9c9633f99edf42c3016b90f3b52c6c4c54b0d6
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41680508"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42011014"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-skype-for-business-online"></a>Ver uma lista de números de audioconferência no Skype for Business Online
 
@@ -35,7 +35,7 @@ ms.locfileid: "41680508"
 
 Ao configurar a conferência de áudio para usuários do Skype for Business, você pode visualizar os números de telefone que estão disponíveis para conferências de áudio. Esta lista terá todos os números de telefone de conferência de áudio disponíveis para a sua organização.
   
- **Quer saber os preços?** Confira [preços para conferências de áudio](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements).
+ **Quer saber os preços?** Confira [preços para conferências de áudio](https://products.office.com/skype-for-business/audio-conferencing#Requirements).
   
 > [!IMPORTANT]
 > **Não há um recurso que contenha uma listagem de todos os números de discagem para videoconferências.** Se você estiver procurando ver se há números**de telefone de** > discagem disponíveis em sua área ou país/região, acesse o >  **centro de administração do Skype for Business**, clique em **Adicionar**e, em**seguida, clique**em **novos números de serviço**. Use as listas para **país/região**, **estado/região**e **cidade** para filtrar sua pesquisa. Além disso, se você estiver procurando números de serviço de chamada gratuita, selecione **gratuito** na lista de **Estados/regiões** .
