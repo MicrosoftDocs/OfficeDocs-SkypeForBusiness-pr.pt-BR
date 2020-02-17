@@ -93,7 +93,7 @@ Os tópicos desta seção explicam como usar ferramentas de gerenciamento para c
 
 <div>
 
-## <a name="see-also"></a>Confira Também
+## <a name="see-also"></a>Confira também
 
 
 [Implantação do Lync Server 2013](lync-server-2013-deployment.md)  

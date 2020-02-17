@@ -47,7 +47,7 @@ As seções a seguir descrevem as alterações nos recursos de gerenciamento de 
 
 <div>
 
-## <a name="see-also"></a>Confira Também
+## <a name="see-also"></a>Confira também
 
 
 [Novos recursos do Enterprise Voice no Lync Server 2013](lync-server-2013-new-enterprise-voice-features.md)  

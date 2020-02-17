@@ -49,7 +49,7 @@ Revise cuidadosamente e certifique-se de entender, o uso e a finalidade de cada 
 
 <div>
 
-## <a name="see-also"></a>Confira Também
+## <a name="see-also"></a>Confira também
 
 
 [Revisando os relatórios do administrador no Lync Server 2013](lync-server-2013-reviewing-the-administrator-reports.md)  
