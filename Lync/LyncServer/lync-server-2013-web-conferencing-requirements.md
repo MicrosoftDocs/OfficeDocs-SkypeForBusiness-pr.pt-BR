@@ -119,7 +119,7 @@ Para usar esses novos recursos, os administradores devem instalar o Office Web A
 
 <div>
 
-## <a name="see-also"></a>Confira Também
+## <a name="see-also"></a>Confira também
 
 
 [Visão geral da webconferência no Lync Server 2013](lync-server-2013-web-conferencing-overview.md)  

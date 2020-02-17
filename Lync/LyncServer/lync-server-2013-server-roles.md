@@ -185,7 +185,7 @@ Para obter detalhes, consulte [Planning for persistent chat Server in Lync Serve
 
 <div>
 
-## <a name="see-also"></a>Confira Também
+## <a name="see-also"></a>Confira também
 
 
 [Componente do servidor de mediação no Lync Server 2013](lync-server-2013-mediation-server-component.md)  

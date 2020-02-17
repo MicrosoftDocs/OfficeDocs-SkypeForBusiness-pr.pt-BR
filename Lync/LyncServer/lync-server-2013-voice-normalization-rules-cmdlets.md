@@ -71,7 +71,7 @@ Os cmdlets a seguir podem ser usados para gerenciar regras de normalização de 
 
 <div>
 
-## <a name="see-also"></a>Confira Também
+## <a name="see-also"></a>Confira também
 
 
 [Cmdlets do Enterprise Voice no Lync Server 2013](lync-server-2013-enterprise-voice-cmdlets.md)  

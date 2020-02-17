@@ -135,7 +135,7 @@ A seguir, é apresentada de cmdlets que estão diretamente relacionados ao geren
 
 <div>
 
-## <a name="see-also"></a>Confira Também
+## <a name="see-also"></a>Confira também
 
 
 [Blog do PowerShell do Lync Server](http://go.microsoft.com/fwlink/p/?linkid=203150)  
