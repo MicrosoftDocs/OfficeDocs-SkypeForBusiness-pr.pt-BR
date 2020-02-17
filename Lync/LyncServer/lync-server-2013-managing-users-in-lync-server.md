@@ -25,7 +25,7 @@ ms.locfileid: "42045513"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="managing-users-in-lync-server-2013"></a><span data-ttu-id="5dfb5-102">Gerenciando usuários no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5dfb5-102">Managing users in Lync Server 2013</span></span>
+# <a name="managing-users-in-lync-server-2013"></a><span data-ttu-id="b8d22-102">Gerenciando usuários no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b8d22-102">Managing users in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,24 +35,24 @@ ms.locfileid: "42045513"
 
 <span> </span>
 
-<span data-ttu-id="5dfb5-103">_**Última modificação do tópico:** 2012-10-17_</span><span class="sxs-lookup"><span data-stu-id="5dfb5-103">_**Topic Last Modified:** 2012-10-17_</span></span>
+<span data-ttu-id="b8d22-103">_**Última modificação do tópico:** 2012-10-17_</span><span class="sxs-lookup"><span data-stu-id="b8d22-103">_**Topic Last Modified:** 2012-10-17_</span></span>
 
-<span data-ttu-id="5dfb5-104">Você pode usar o painel de controle do Lync Server 2013 e o Shell de gerenciamento do Lync Server 2013 para gerenciar contas de usuário no Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="5dfb5-104">You can use the Lync Server 2013 Control Panel and Lync Server 2013 Management Shell to manage user accounts in Lync Server 2013.</span></span> <span data-ttu-id="5dfb5-105">Os procedimentos nesta seção orientam você sobre como visualizar informações de conta e configurar definições para contas de usuário.</span><span class="sxs-lookup"><span data-stu-id="5dfb5-105">The procedures in this section guide you through how to view account information and configure setting for user accounts.</span></span>
+<span data-ttu-id="b8d22-104">Você pode usar o painel de controle do Lync Server 2013 e o Shell de gerenciamento do Lync Server 2013 para gerenciar contas de usuário no Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="b8d22-104">You can use the Lync Server 2013 Control Panel and Lync Server 2013 Management Shell to manage user accounts in Lync Server 2013.</span></span> <span data-ttu-id="b8d22-105">Os procedimentos nesta seção orientam você sobre como visualizar informações de conta e configurar definições para contas de usuário.</span><span class="sxs-lookup"><span data-stu-id="b8d22-105">The procedures in this section guide you through how to view account information and configure setting for user accounts.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="5dfb5-106">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="5dfb5-106">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="b8d22-106">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="b8d22-106">In This Section</span></span>
 
-  - [<span data-ttu-id="5dfb5-107">Contas de usuário habilitadas para o Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5dfb5-107">User accounts enabled for Lync Server 2013</span></span>](lync-server-2013-user-accounts-enabled-for-lync-server.md)
+  - [<span data-ttu-id="b8d22-107">Contas de usuário habilitadas para o Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b8d22-107">User accounts enabled for Lync Server 2013</span></span>](lync-server-2013-user-accounts-enabled-for-lync-server.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="5dfb5-108">Confira também</span><span class="sxs-lookup"><span data-stu-id="5dfb5-108">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="b8d22-108">Confira Também</span><span class="sxs-lookup"><span data-stu-id="b8d22-108">See Also</span></span>
 
 
-[<span data-ttu-id="5dfb5-109">Operações no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5dfb5-109">Operations in Lync Server 2013</span></span>](lync-server-2013-operations.md)  
+[<span data-ttu-id="b8d22-109">Operações no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b8d22-109">Operations in Lync Server 2013</span></span>](lync-server-2013-operations.md)  
   
 
 </div>

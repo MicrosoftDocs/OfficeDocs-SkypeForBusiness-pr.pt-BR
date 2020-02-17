@@ -25,7 +25,7 @@ ms.locfileid: "42048932"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="security-checks-in-lync-server-2013"></a><span data-ttu-id="c806d-102">Verificações de segurança no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c806d-102">Security checks in Lync Server 2013</span></span>
+# <a name="security-checks-in-lync-server-2013"></a><span data-ttu-id="9dbdb-102">Verificações de segurança no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9dbdb-102">Security checks in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,16 +35,16 @@ ms.locfileid: "42048932"
 
 <span> </span>
 
-<span data-ttu-id="c806d-103">_**Última modificação do tópico:** 2014-08-18_</span><span class="sxs-lookup"><span data-stu-id="c806d-103">_**Topic Last Modified:** 2014-08-18_</span></span>
+<span data-ttu-id="9dbdb-103">_**Última modificação do tópico:** 2014-08-18_</span><span class="sxs-lookup"><span data-stu-id="9dbdb-103">_**Topic Last Modified:** 2014-08-18_</span></span>
 
-<span data-ttu-id="c806d-104">Execute auditorias regulares de segurança, como regras de firewall, direitos de usuário, associação de grupo, direitos de representante e assim por diante.</span><span class="sxs-lookup"><span data-stu-id="c806d-104">Perform regular audits of security, such as firewall rules, user rights, group membership, delegate rights, and so on.</span></span>
+<span data-ttu-id="9dbdb-104">Execute auditorias regulares de segurança, como regras de firewall, direitos de usuário, associação de grupo, direitos de representante e assim por diante.</span><span class="sxs-lookup"><span data-stu-id="9dbdb-104">Perform regular audits of security, such as firewall rules, user rights, group membership, delegate rights, and so on.</span></span>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="c806d-105">Confira também</span><span class="sxs-lookup"><span data-stu-id="c806d-105">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="9dbdb-105">Confira Também</span><span class="sxs-lookup"><span data-stu-id="9dbdb-105">See Also</span></span>
 
 
-[<span data-ttu-id="c806d-106">Planejamento de segurança no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c806d-106">Planning for security in Lync Server 2013</span></span>](lync-server-2013-planning-for-security.md)  
+[<span data-ttu-id="9dbdb-106">Planejamento de segurança no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9dbdb-106">Planning for security in Lync Server 2013</span></span>](lync-server-2013-planning-for-security.md)  
   
 
 </div>

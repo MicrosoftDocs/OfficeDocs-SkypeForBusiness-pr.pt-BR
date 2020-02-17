@@ -25,7 +25,7 @@ ms.locfileid: "42048345"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-announcements-for-unassigned-numbers-in-lync-server-2013"></a><span data-ttu-id="4c4dd-102">Configurando comunicados para números não atribuídos no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4c4dd-102">Configuring announcements for unassigned numbers in Lync Server 2013</span></span>
+# <a name="configuring-announcements-for-unassigned-numbers-in-lync-server-2013"></a><span data-ttu-id="0cbab-102">Configurando comunicados para números não atribuídos no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0cbab-102">Configuring announcements for unassigned numbers in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,36 +35,36 @@ ms.locfileid: "42048345"
 
 <span> </span>
 
-<span data-ttu-id="4c4dd-103">_**Última modificação do tópico:** 2012-09-11_</span><span class="sxs-lookup"><span data-stu-id="4c4dd-103">_**Topic Last Modified:** 2012-09-11_</span></span>
+<span data-ttu-id="0cbab-103">_**Última modificação do tópico:** 2012-09-11_</span><span class="sxs-lookup"><span data-stu-id="0cbab-103">_**Topic Last Modified:** 2012-09-11_</span></span>
 
-<span data-ttu-id="4c4dd-104">O aplicativo de anúncio é um recurso do Enterprise Voice que permite configurar o que acontece com as chamadas para extensões não atribuídas (extensões que são válidas para sua organização, mas não estão atribuídas a uma pessoa ou a um telefone).</span><span class="sxs-lookup"><span data-stu-id="4c4dd-104">The Announcement application is an Enterprise Voice feature that enables you to configure what happens to calls to unassigned extensions (extensions that are valid for your organization, but are not assigned to a person or a phone).</span></span> <span data-ttu-id="4c4dd-105">Por exemplo, você pode configurar chamadas a números não atribuídos para que reproduzam uma mensagem ou sejam transferidas para um destino diferente, ou ambos.</span><span class="sxs-lookup"><span data-stu-id="4c4dd-105">For example, you can configure calls to unassigned numbers to play a message, or to be transferred to a different destination, or both.</span></span>
+<span data-ttu-id="0cbab-104">O aplicativo de anúncio é um recurso do Enterprise Voice que permite configurar o que acontece com as chamadas para extensões não atribuídas (extensões que são válidas para sua organização, mas não estão atribuídas a uma pessoa ou a um telefone).</span><span class="sxs-lookup"><span data-stu-id="0cbab-104">The Announcement application is an Enterprise Voice feature that enables you to configure what happens to calls to unassigned extensions (extensions that are valid for your organization, but are not assigned to a person or a phone).</span></span> <span data-ttu-id="0cbab-105">Por exemplo, você pode configurar chamadas a números não atribuídos para que reproduzam uma mensagem ou sejam transferidas para um destino diferente, ou ambos.</span><span class="sxs-lookup"><span data-stu-id="0cbab-105">For example, you can configure calls to unassigned numbers to play a message, or to be transferred to a different destination, or both.</span></span>
 
-<span data-ttu-id="4c4dd-106">O aplicativo de anúncio é instalado como um recurso do aplicativo grupo de resposta no servidor front-end ou servidor Standard Edition quando você implanta o Enterprise Voice.</span><span class="sxs-lookup"><span data-stu-id="4c4dd-106">The Announcement application is installed as a feature of Response Group application on the Front End Server or Standard Edition server when you deploy Enterprise Voice.</span></span> <span data-ttu-id="4c4dd-107">Você precisa configurar Comunicados carregando arquivos de áudio ou configurando o mecanismo TTS (conversão de texto em fala) e a tabela de números não atribuídos.</span><span class="sxs-lookup"><span data-stu-id="4c4dd-107">You need to configure Announcements by uploading your audio files or by configuring text-to-speech (TTS) and configuring the unassigned number table.</span></span>
+<span data-ttu-id="0cbab-106">O aplicativo de anúncio é instalado como um recurso do aplicativo grupo de resposta no servidor front-end ou servidor Standard Edition quando você implanta o Enterprise Voice.</span><span class="sxs-lookup"><span data-stu-id="0cbab-106">The Announcement application is installed as a feature of Response Group application on the Front End Server or Standard Edition server when you deploy Enterprise Voice.</span></span> <span data-ttu-id="0cbab-107">Você precisa configurar Comunicados carregando arquivos de áudio ou configurando o mecanismo TTS (conversão de texto em fala) e a tabela de números não atribuídos.</span><span class="sxs-lookup"><span data-stu-id="0cbab-107">You need to configure Announcements by uploading your audio files or by configuring text-to-speech (TTS) and configuring the unassigned number table.</span></span>
 
-<span data-ttu-id="4c4dd-108">Esta seção orienta você durante a configuração de comunicados do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="4c4dd-108">This section guides you through the configuration of Lync Server Announcements.</span></span> <span data-ttu-id="4c4dd-109">Ele pressupõe que você já tenha lido as seções de planejamento relacionadas aos comunicados e implantado um servidor Enterprise Edition ou um servidor Standard Edition com o Enterprise Voice.</span><span class="sxs-lookup"><span data-stu-id="4c4dd-109">It assumes that you have already read the planning sections related to Announcements and deployed an Enterprise Edition server or a Standard Edition server with Enterprise Voice.</span></span>
+<span data-ttu-id="0cbab-108">Esta seção orienta você durante a configuração de comunicados do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="0cbab-108">This section guides you through the configuration of Lync Server Announcements.</span></span> <span data-ttu-id="0cbab-109">Ele pressupõe que você já tenha lido as seções de planejamento relacionadas aos comunicados e implantado um servidor Enterprise Edition ou um servidor Standard Edition com o Enterprise Voice.</span><span class="sxs-lookup"><span data-stu-id="0cbab-109">It assumes that you have already read the planning sections related to Announcements and deployed an Enterprise Edition server or a Standard Edition server with Enterprise Voice.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="4c4dd-110">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="4c4dd-110">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="0cbab-110">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="0cbab-110">In This Section</span></span>
 
-  - [<span data-ttu-id="4c4dd-111">Pré-requisitos e funções de configuração de comunicado no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4c4dd-111">Announcement configuration prerequisites and roles in Lync Server 2013</span></span>](lync-server-2013-announcement-configuration-prerequisites-and-roles.md)
+  - [<span data-ttu-id="0cbab-111">Pré-requisitos e funções de configuração de comunicado no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0cbab-111">Announcement configuration prerequisites and roles in Lync Server 2013</span></span>](lync-server-2013-announcement-configuration-prerequisites-and-roles.md)
 
-  - [<span data-ttu-id="4c4dd-112">Processo de implantação para o aplicativo de anúncio no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4c4dd-112">Deployment process for the Announcement application in Lync Server 2013</span></span>](lync-server-2013-deployment-process-for-the-announcement-application.md)
+  - [<span data-ttu-id="0cbab-112">Processo de implantação para o aplicativo de anúncio no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0cbab-112">Deployment process for the Announcement application in Lync Server 2013</span></span>](lync-server-2013-deployment-process-for-the-announcement-application.md)
 
-  - [<span data-ttu-id="4c4dd-113">Criar um comunicado no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4c4dd-113">Create an announcement in Lync Server 2013</span></span>](lync-server-2013-create-an-announcement.md)
+  - [<span data-ttu-id="0cbab-113">Criar um comunicado no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0cbab-113">Create an announcement in Lync Server 2013</span></span>](lync-server-2013-create-an-announcement.md)
 
-  - [<span data-ttu-id="4c4dd-114">Configurar a tabela de números não atribuídos no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4c4dd-114">Configure the unassigned number table in Lync Server 2013</span></span>](lync-server-2013-configure-the-unassigned-number-table.md)
+  - [<span data-ttu-id="0cbab-114">Configurar a tabela de números não atribuídos no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0cbab-114">Configure the unassigned number table in Lync Server 2013</span></span>](lync-server-2013-configure-the-unassigned-number-table.md)
 
-  - [<span data-ttu-id="4c4dd-115">Opcion Verificar a implantação do comunicado no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4c4dd-115">(Optional) Verify Announcement deployment in Lync Server 2013</span></span>](lync-server-2013-optional-verify-announcement-deployment.md)
+  - [<span data-ttu-id="0cbab-115">Opcion Verificar a implantação do comunicado no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0cbab-115">(Optional) Verify Announcement deployment in Lync Server 2013</span></span>](lync-server-2013-optional-verify-announcement-deployment.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="4c4dd-116">Confira também</span><span class="sxs-lookup"><span data-stu-id="4c4dd-116">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="0cbab-116">Confira Também</span><span class="sxs-lookup"><span data-stu-id="0cbab-116">See Also</span></span>
 
 
-[<span data-ttu-id="4c4dd-117">Planejamento de recursos de gerenciamento de chamadas no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4c4dd-117">Planning for call management features in Lync Server 2013</span></span>](lync-server-2013-planning-for-call-management-features.md)  
+[<span data-ttu-id="0cbab-117">Planejamento de recursos de gerenciamento de chamadas no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0cbab-117">Planning for call management features in Lync Server 2013</span></span>](lync-server-2013-planning-for-call-management-features.md)  
   
 
 </div>

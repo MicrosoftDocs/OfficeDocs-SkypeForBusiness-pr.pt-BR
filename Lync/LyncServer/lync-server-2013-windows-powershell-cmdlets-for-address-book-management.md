@@ -25,7 +25,7 @@ ms.locfileid: "42041180"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="windows-powershell-cmdlets-for-address-book-services-in-lync-server-2013"></a><span data-ttu-id="9bdfa-102">Cmdlets do Windows PowerShell para serviços de catálogo de endereços no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9bdfa-102">Windows PowerShell cmdlets for Address Book Services in Lync Server 2013</span></span>
+# <a name="windows-powershell-cmdlets-for-address-book-services-in-lync-server-2013"></a><span data-ttu-id="38ba3-102">Cmdlets do Windows PowerShell para serviços de catálogo de endereços no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="38ba3-102">Windows PowerShell cmdlets for Address Book Services in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,55 +35,55 @@ ms.locfileid: "42041180"
 
 <span> </span>
 
-<span data-ttu-id="9bdfa-103">_**Última modificação do tópico:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="9bdfa-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="38ba3-103">_**Última modificação do tópico:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="38ba3-103">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="9bdfa-104">O Lync Server fornece vários cmdlets de interface de linha de comando do Windows PowerShell para gerenciar e configurar o serviço de catálogo de endereços.</span><span class="sxs-lookup"><span data-stu-id="9bdfa-104">Lync Server provides a number of Windows PowerShell command-line interface cmdlets to manage and configure the Address Book service.</span></span> <span data-ttu-id="9bdfa-105">Alguns desses cmdlets são substituições para os comandos ABServer. exe usados nas versões anteriores do Office Communications Server.</span><span class="sxs-lookup"><span data-stu-id="9bdfa-105">Some of these cmdlets are replacements for the ABServer.exe commands used in previous versions of Office Communications Server.</span></span> <span data-ttu-id="9bdfa-106">Nos tópicos a seguir são apresentados os cmdlets usados para definir, criar e recuperar informações sobre o serviço de Catálogo de Endereços, sua configuração e informações sobre os serviços Web que o serviço de Catálogo de Endereços usa quando os clientes recuperam arquivos e configurações do Catálogo de Endereços.</span><span class="sxs-lookup"><span data-stu-id="9bdfa-106">In the following topics are the cmdlets that are used to set, create, and retrieve information about the Address Book service, its configuration and information about the Web services that the Address Book service uses when clients retrieve Address Book service files and settings.</span></span>
+<span data-ttu-id="38ba3-104">O Lync Server fornece vários cmdlets de interface de linha de comando do Windows PowerShell para gerenciar e configurar o serviço de catálogo de endereços.</span><span class="sxs-lookup"><span data-stu-id="38ba3-104">Lync Server provides a number of Windows PowerShell command-line interface cmdlets to manage and configure the Address Book service.</span></span> <span data-ttu-id="38ba3-105">Alguns desses cmdlets são substituições para os comandos ABServer. exe usados nas versões anteriores do Office Communications Server.</span><span class="sxs-lookup"><span data-stu-id="38ba3-105">Some of these cmdlets are replacements for the ABServer.exe commands used in previous versions of Office Communications Server.</span></span> <span data-ttu-id="38ba3-106">Nos tópicos a seguir são apresentados os cmdlets usados para definir, criar e recuperar informações sobre o serviço de Catálogo de Endereços, sua configuração e informações sobre os serviços Web que o serviço de Catálogo de Endereços usa quando os clientes recuperam arquivos e configurações do Catálogo de Endereços.</span><span class="sxs-lookup"><span data-stu-id="38ba3-106">In the following topics are the cmdlets that are used to set, create, and retrieve information about the Address Book service, its configuration and information about the Web services that the Address Book service uses when clients retrieve Address Book service files and settings.</span></span>
 
-<span data-ttu-id="9bdfa-107">Todos esses cmdlets são emitidos por meio do Shell de gerenciamento do Lync Server encontrado nas ferramentas do Lync Server em um servidor ou estação de trabalho onde as ferramentas de administração foram instaladas.</span><span class="sxs-lookup"><span data-stu-id="9bdfa-107">All of these cmdlets are issued through the Lync Server Management Shell found in the Lync Server tools on a server or workstation where the administration tools have been installed.</span></span>
+<span data-ttu-id="38ba3-107">Todos esses cmdlets são emitidos por meio do Shell de gerenciamento do Lync Server encontrado nas ferramentas do Lync Server em um servidor ou estação de trabalho onde as ferramentas de administração foram instaladas.</span><span class="sxs-lookup"><span data-stu-id="38ba3-107">All of these cmdlets are issued through the Lync Server Management Shell found in the Lync Server tools on a server or workstation where the administration tools have been installed.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="9bdfa-108">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="9bdfa-108">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="38ba3-108">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="38ba3-108">In This Section</span></span>
 
-  - [<span data-ttu-id="9bdfa-109">New-CsAddressBookConfiguration para gerenciamento de catálogo de endereços no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9bdfa-109">New-CsAddressBookConfiguration for Address Book management in Lync Server 2013</span></span>](lync-server-2013-New-CsAddressBookConfiguration-for-address-book-management.md)
+  - [<span data-ttu-id="38ba3-109">New-CsAddressBookConfiguration para gerenciamento de catálogo de endereços no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="38ba3-109">New-CsAddressBookConfiguration for Address Book management in Lync Server 2013</span></span>](lync-server-2013-New-CsAddressBookConfiguration-for-address-book-management.md)
 
-  - [<span data-ttu-id="9bdfa-110">Set-CsAddressBookConfiguration para gerenciamento de catálogo de endereços no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9bdfa-110">Set-CsAddressBookConfiguration for Address Book management in Lync Server 2013</span></span>](lync-server-2013-set-csaddressbookconfiguration-for-address-book-management.md)
+  - [<span data-ttu-id="38ba3-110">Set-CsAddressBookConfiguration para gerenciamento de catálogo de endereços no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="38ba3-110">Set-CsAddressBookConfiguration for Address Book management in Lync Server 2013</span></span>](lync-server-2013-set-csaddressbookconfiguration-for-address-book-management.md)
 
-  - [<span data-ttu-id="9bdfa-111">Get-CsAddressBookConfiguration para gerenciamento de catálogo de endereços no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9bdfa-111">Get-CsAddressBookConfiguration for Address Book management in Lync Server 2013</span></span>](lync-server-2013-get-csaddressbookconfiguration-for-address-book-management.md)
+  - [<span data-ttu-id="38ba3-111">Get-CsAddressBookConfiguration para gerenciamento de catálogo de endereços no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="38ba3-111">Get-CsAddressBookConfiguration for Address Book management in Lync Server 2013</span></span>](lync-server-2013-get-csaddressbookconfiguration-for-address-book-management.md)
 
-  - [<span data-ttu-id="9bdfa-112">Remove-CsAddressBookConfiguration para gerenciamento de catálogo de endereços no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9bdfa-112">Remove-CsAddressBookConfiguration for Address Book management in Lync Server 2013</span></span>](lync-server-2013-remove-csaddressbookconfiguration-for-address-book-management.md)
+  - [<span data-ttu-id="38ba3-112">Remove-CsAddressBookConfiguration para gerenciamento de catálogo de endereços no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="38ba3-112">Remove-CsAddressBookConfiguration for Address Book management in Lync Server 2013</span></span>](lync-server-2013-remove-csaddressbookconfiguration-for-address-book-management.md)
 
-  - [<span data-ttu-id="9bdfa-113">Test-CsAddressBookService para gerenciamento de catálogo de endereços no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9bdfa-113">Test-CsAddressBookService for Address Book management in Lync Server 2013</span></span>](lync-server-2013-test-csaddressbookservice-for-address-book-management.md)
+  - [<span data-ttu-id="38ba3-113">Test-CsAddressBookService para gerenciamento de catálogo de endereços no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="38ba3-113">Test-CsAddressBookService for Address Book management in Lync Server 2013</span></span>](lync-server-2013-test-csaddressbookservice-for-address-book-management.md)
 
-  - [<span data-ttu-id="9bdfa-114">Test-CsAddressBookWebQuery para gerenciamento de catálogo de endereços no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9bdfa-114">Test-CsAddressBookWebQuery for Address Book management in Lync Server 2013</span></span>](lync-server-2013-test-csaddressbookwebquery-for-address-book-management.md)
+  - [<span data-ttu-id="38ba3-114">Test-CsAddressBookWebQuery para gerenciamento de catálogo de endereços no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="38ba3-114">Test-CsAddressBookWebQuery for Address Book management in Lync Server 2013</span></span>](lync-server-2013-test-csaddressbookwebquery-for-address-book-management.md)
 
-  - [<span data-ttu-id="9bdfa-115">Update-CsAddressBook para gerenciamento de catálogo de endereços no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9bdfa-115">Update-CsAddressBook for Address Book management in Lync Server 2013</span></span>](lync-server-2013-update-csaddressbook-for-address-book-management.md)
+  - [<span data-ttu-id="38ba3-115">Update-CsAddressBook para gerenciamento de catálogo de endereços no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="38ba3-115">Update-CsAddressBook for Address Book management in Lync Server 2013</span></span>](lync-server-2013-update-csaddressbook-for-address-book-management.md)
 
-  - [<span data-ttu-id="9bdfa-116">New-CsClientPolicy para gerenciamento de catálogo de endereços no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9bdfa-116">New-CsClientPolicy for Address Book management in Lync Server 2013</span></span>](lync-server-2013-new-csclientpolicy-for-address-book-management.md)
+  - [<span data-ttu-id="38ba3-116">New-CsClientPolicy para gerenciamento de catálogo de endereços no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="38ba3-116">New-CsClientPolicy for Address Book management in Lync Server 2013</span></span>](lync-server-2013-new-csclientpolicy-for-address-book-management.md)
 
-  - [<span data-ttu-id="9bdfa-117">Set-CsClientPolicy para gerenciamento de catálogo de endereços no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9bdfa-117">Set-CsClientPolicy for Address Book management in Lync Server 2013</span></span>](lync-server-2013-set-csclientpolicy-for-address-book-management.md)
+  - [<span data-ttu-id="38ba3-117">Set-CsClientPolicy para gerenciamento de catálogo de endereços no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="38ba3-117">Set-CsClientPolicy for Address Book management in Lync Server 2013</span></span>](lync-server-2013-set-csclientpolicy-for-address-book-management.md)
 
-  - [<span data-ttu-id="9bdfa-118">Get-CsService para gerenciamento de catálogo de endereços no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9bdfa-118">Get-CsService for Address Book management in Lync Server 2013</span></span>](lync-server-2013-get-csservice-for-address-book-management.md)
+  - [<span data-ttu-id="38ba3-118">Get-CsService para gerenciamento de catálogo de endereços no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="38ba3-118">Get-CsService for Address Book management in Lync Server 2013</span></span>](lync-server-2013-get-csservice-for-address-book-management.md)
 
-  - [<span data-ttu-id="9bdfa-119">New-CsWebServiceConfiguration para gerenciamento de catálogo de endereços no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9bdfa-119">New-CsWebServiceConfiguration for Address Book management in Lync Server 2013</span></span>](lync-server-2013-New-CsWebServiceConfiguration-for-address-book-management.md)
+  - [<span data-ttu-id="38ba3-119">New-CsWebServiceConfiguration para gerenciamento de catálogo de endereços no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="38ba3-119">New-CsWebServiceConfiguration for Address Book management in Lync Server 2013</span></span>](lync-server-2013-New-CsWebServiceConfiguration-for-address-book-management.md)
 
-  - [<span data-ttu-id="9bdfa-120">Get-CsWebServiceConfiguration para gerenciamento de catálogo de endereços no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9bdfa-120">Get-CsWebServiceConfiguration for Address Book management in Lync Server 2013</span></span>](lync-server-2013-get-cswebserviceconfiguration-for-address-book-management.md)
+  - [<span data-ttu-id="38ba3-120">Get-CsWebServiceConfiguration para gerenciamento de catálogo de endereços no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="38ba3-120">Get-CsWebServiceConfiguration for Address Book management in Lync Server 2013</span></span>](lync-server-2013-get-cswebserviceconfiguration-for-address-book-management.md)
 
-  - [<span data-ttu-id="9bdfa-121">Set-CsWebServiceConfiguration para gerenciamento de catálogo de endereços no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9bdfa-121">Set-CsWebServiceConfiguration for Address Book management in Lync Server 2013</span></span>](lync-server-2013-set-cswebserviceconfiguration-for-address-book-management.md)
+  - [<span data-ttu-id="38ba3-121">Set-CsWebServiceConfiguration para gerenciamento de catálogo de endereços no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="38ba3-121">Set-CsWebServiceConfiguration for Address Book management in Lync Server 2013</span></span>](lync-server-2013-set-cswebserviceconfiguration-for-address-book-management.md)
 
-  - [<span data-ttu-id="9bdfa-122">Remove-CsWebServiceConfiguration para gerenciamento de catálogo de endereços no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9bdfa-122">Remove-CsWebServiceConfiguration for Address Book management in Lync Server 2013</span></span>](lync-server-2013-remove-cswebserviceconfiguration-for-address-book-management.md)
+  - [<span data-ttu-id="38ba3-122">Remove-CsWebServiceConfiguration para gerenciamento de catálogo de endereços no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="38ba3-122">Remove-CsWebServiceConfiguration for Address Book management in Lync Server 2013</span></span>](lync-server-2013-remove-cswebserviceconfiguration-for-address-book-management.md)
 
 </div>
 
 <div>
 
-## <a name="related-sections"></a><span data-ttu-id="9bdfa-123">Seções Relacionadas</span><span class="sxs-lookup"><span data-stu-id="9bdfa-123">Related Sections</span></span>
+## <a name="related-sections"></a><span data-ttu-id="38ba3-123">Seções Relacionadas</span><span class="sxs-lookup"><span data-stu-id="38ba3-123">Related Sections</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="9bdfa-124">Confira também</span><span class="sxs-lookup"><span data-stu-id="9bdfa-124">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="38ba3-124">Confira Também</span><span class="sxs-lookup"><span data-stu-id="38ba3-124">See Also</span></span>
 
 
 [http://go.microsoft.com/fwlink/p/?linkId=205826](http://go.microsoft.com/fwlink/p/?linkid=205826)  

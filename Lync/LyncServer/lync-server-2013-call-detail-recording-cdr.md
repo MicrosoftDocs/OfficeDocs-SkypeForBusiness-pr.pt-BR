@@ -25,7 +25,7 @@ ms.locfileid: "42045373"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="call-detail-recording-cdr-in-lync-server-2013"></a><span data-ttu-id="23221-102">Registro de detalhes da chamada (CDR) no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="23221-102">Call detail recording (CDR) in Lync Server 2013</span></span>
+# <a name="call-detail-recording-cdr-in-lync-server-2013"></a><span data-ttu-id="df644-102">Registro de detalhes da chamada (CDR) no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="df644-102">Call detail recording (CDR) in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,32 +35,32 @@ ms.locfileid: "42045373"
 
 <span> </span>
 
-<span data-ttu-id="23221-103">_**Última modificação do tópico:** 2012-10-22_</span><span class="sxs-lookup"><span data-stu-id="23221-103">_**Topic Last Modified:** 2012-10-22_</span></span>
+<span data-ttu-id="df644-103">_**Última modificação do tópico:** 2012-10-22_</span><span class="sxs-lookup"><span data-stu-id="df644-103">_**Topic Last Modified:** 2012-10-22_</span></span>
 
-<span data-ttu-id="23221-104">O CDR (registro de detalhes das chamadas) registra informações de uso e diagnóstico sobre atividades ponto a ponto, incluindo serviço de mensagens instantâneas, chamadas VoIP, compartilhamento de aplicativos, transferência de arquivos e reuniões.</span><span class="sxs-lookup"><span data-stu-id="23221-104">Call detail recording (CDR) records usage and diagnostic information about peer-to-peer activities, including instance messaging, Voice over Internet Protocol (VoIP) calls, application sharing, file transfer, and meetings.</span></span> <span data-ttu-id="23221-105">Os dados de uso podem ser utilizados para calcular o retorno sobre o investimento, enquanto os dados de diagnóstico podem ser usados para solucionar problemas de atividades ponto a ponto e reuniões.</span><span class="sxs-lookup"><span data-stu-id="23221-105">The usage data can be used to calculate return on investment (ROI) and the diagnostic data can be used to troubleshoot peer-to-peer activities and meetings.</span></span> <span data-ttu-id="23221-106">Ao instalar o Lync Server 2013, você também instalará um conjunto predefinido de definições de configuração global para CDR.</span><span class="sxs-lookup"><span data-stu-id="23221-106">When you install Lync Server 2013, you will also install a predefined collection of global configuration settings for CDR.</span></span> <span data-ttu-id="23221-107">Use os tópicos desta seção para configurar o CDR.</span><span class="sxs-lookup"><span data-stu-id="23221-107">Use the topics in this section to configure CDR.</span></span>
+<span data-ttu-id="df644-104">O CDR (registro de detalhes das chamadas) registra informações de uso e diagnóstico sobre atividades ponto a ponto, incluindo serviço de mensagens instantâneas, chamadas VoIP, compartilhamento de aplicativos, transferência de arquivos e reuniões.</span><span class="sxs-lookup"><span data-stu-id="df644-104">Call detail recording (CDR) records usage and diagnostic information about peer-to-peer activities, including instance messaging, Voice over Internet Protocol (VoIP) calls, application sharing, file transfer, and meetings.</span></span> <span data-ttu-id="df644-105">Os dados de uso podem ser utilizados para calcular o retorno sobre o investimento, enquanto os dados de diagnóstico podem ser usados para solucionar problemas de atividades ponto a ponto e reuniões.</span><span class="sxs-lookup"><span data-stu-id="df644-105">The usage data can be used to calculate return on investment (ROI) and the diagnostic data can be used to troubleshoot peer-to-peer activities and meetings.</span></span> <span data-ttu-id="df644-106">Ao instalar o Lync Server 2013, você também instalará um conjunto predefinido de definições de configuração global para CDR.</span><span class="sxs-lookup"><span data-stu-id="df644-106">When you install Lync Server 2013, you will also install a predefined collection of global configuration settings for CDR.</span></span> <span data-ttu-id="df644-107">Use os tópicos desta seção para configurar o CDR.</span><span class="sxs-lookup"><span data-stu-id="df644-107">Use the topics in this section to configure CDR.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="23221-108">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="23221-108">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="df644-108">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="df644-108">In This Section</span></span>
 
-  - [<span data-ttu-id="23221-109">Exibir informações de configuração de CDR no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="23221-109">View CDR configuration information in Lync Server 2013</span></span>](lync-server-2013-view-cdr-configuration-information.md)
+  - [<span data-ttu-id="df644-109">Exibir informações de configuração de CDR no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="df644-109">View CDR configuration information in Lync Server 2013</span></span>](lync-server-2013-view-cdr-configuration-information.md)
 
-  - [<span data-ttu-id="23221-110">Habilitar a gravação de detalhes da chamada no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="23221-110">Enable call detail recording in Lync Server 2013</span></span>](lync-server-2013-enable-call-detail-recording.md)
+  - [<span data-ttu-id="df644-110">Habilitar a gravação de detalhes da chamada no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="df644-110">Enable call detail recording in Lync Server 2013</span></span>](lync-server-2013-enable-call-detail-recording.md)
 
-  - [<span data-ttu-id="23221-111">Criar ou modificar um conjunto de definições de configuração de CDR no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="23221-111">Create or modify a collection of CDR configuration settings in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-collection-of-cdr-configuration-settings.md)
+  - [<span data-ttu-id="df644-111">Criar ou modificar um conjunto de definições de configuração de CDR no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="df644-111">Create or modify a collection of CDR configuration settings in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-collection-of-cdr-configuration-settings.md)
 
-  - [<span data-ttu-id="23221-112">Excluir um conjunto existente de definições de configuração de CDR no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="23221-112">Delete an existing collection of CDR configuration settings in Lync Server 2013</span></span>](lync-server-2013-delete-an-existing-collection-of-cdr-configuration-settings.md)
+  - [<span data-ttu-id="df644-112">Excluir um conjunto existente de definições de configuração de CDR no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="df644-112">Delete an existing collection of CDR configuration settings in Lync Server 2013</span></span>](lync-server-2013-delete-an-existing-collection-of-cdr-configuration-settings.md)
 
-  - [<span data-ttu-id="23221-113">Limpar manualmente o registro de detalhes das chamadas e os bancos de dados de qualidade da experiência no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="23221-113">Manually purging the call detail recording and Quality of Experience databases in Lync Server 2013</span></span>](lync-server-2013-manually-purging-the-call-detail-recording-and-quality-of-experience-databases.md)
+  - [<span data-ttu-id="df644-113">Limpar manualmente o registro de detalhes das chamadas e os bancos de dados de qualidade da experiência no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="df644-113">Manually purging the call detail recording and Quality of Experience databases in Lync Server 2013</span></span>](lync-server-2013-manually-purging-the-call-detail-recording-and-quality-of-experience-databases.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="23221-114">Confira também</span><span class="sxs-lookup"><span data-stu-id="23221-114">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="df644-114">Confira Também</span><span class="sxs-lookup"><span data-stu-id="df644-114">See Also</span></span>
 
 
-[<span data-ttu-id="23221-115">Configurando a gravação de detalhes da chamada e as configurações de qualidade da experiência no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="23221-115">Configuring call detail recording and Quality of Experience settings in Lync Server 2013</span></span>](lync-server-2013-configuring-call-detail-recording-and-quality-of-experience-settings.md)  
+[<span data-ttu-id="df644-115">Configurando a gravação de detalhes da chamada e as configurações de qualidade da experiência no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="df644-115">Configuring call detail recording and Quality of Experience settings in Lync Server 2013</span></span>](lync-server-2013-configuring-call-detail-recording-and-quality-of-experience-settings.md)  
   
 
 </div>
