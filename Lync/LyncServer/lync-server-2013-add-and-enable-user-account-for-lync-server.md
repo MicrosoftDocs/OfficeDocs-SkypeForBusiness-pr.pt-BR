@@ -25,7 +25,7 @@ ms.locfileid: "42037833"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="add-and-enable-user-account-for-lync-server-2013"></a><span data-ttu-id="bfbce-102">Adicionar e habilitar a conta de usuário para o Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="bfbce-102">Add and enable user account for Lync Server 2013</span></span>
+# <a name="add-and-enable-user-account-for-lync-server-2013"></a><span data-ttu-id="552a0-102">Adicionar e habilitar a conta de usuário para o Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="552a0-102">Add and enable user account for Lync Server 2013</span></span>
 
 </div>
 
@@ -35,42 +35,42 @@ ms.locfileid: "42037833"
 
 <span> </span>
 
-<span data-ttu-id="bfbce-103">_**Última modificação do tópico:** 2012-11-02_</span><span class="sxs-lookup"><span data-stu-id="bfbce-103">_**Topic Last Modified:** 2012-11-02_</span></span>
+<span data-ttu-id="552a0-103">_**Última modificação do tópico:** 2012-11-02_</span><span class="sxs-lookup"><span data-stu-id="552a0-103">_**Topic Last Modified:** 2012-11-02_</span></span>
 
-<span data-ttu-id="bfbce-104">Depois de habilitar uma conta de usuário em usuários e computadores do Active Directory, você pode usar o painel de controle do Lync Server para criar e habilitar novas contas de usuário do Lync Server 2013 adicionando um usuário do Active Directory ao Lync Server.</span><span class="sxs-lookup"><span data-stu-id="bfbce-104">After enabling a user account in Active Directory Users and Computers, you can use Lync Server Control Panel to create and enable new Lync Server 2013 user accounts by adding an Active Directory user to Lync Server.</span></span>
+<span data-ttu-id="552a0-104">Depois de habilitar uma conta de usuário em usuários e computadores do Active Directory, você pode usar o painel de controle do Lync Server para criar e habilitar novas contas de usuário do Lync Server 2013 adicionando um usuário do Active Directory ao Lync Server.</span><span class="sxs-lookup"><span data-stu-id="552a0-104">After enabling a user account in Active Directory Users and Computers, you can use Lync Server Control Panel to create and enable new Lync Server 2013 user accounts by adding an Active Directory user to Lync Server.</span></span>
 
 <div>
 
-## <a name="to-add-and-enable-a-new-lync-server-user"></a><span data-ttu-id="bfbce-105">Para adicionar e habilitar um novo usuário do Lync Server</span><span class="sxs-lookup"><span data-stu-id="bfbce-105">To add and enable a new Lync Server user</span></span>
+## <a name="to-add-and-enable-a-new-lync-server-user"></a><span data-ttu-id="552a0-105">Para adicionar e habilitar um novo usuário do Lync Server</span><span class="sxs-lookup"><span data-stu-id="552a0-105">To add and enable a new Lync Server user</span></span>
 
-1.  <span data-ttu-id="bfbce-106">Por uma conta de usuário atribuída à função CsUserAdministrator role ou CsAdministrator, faça o login em qualquer computador na sua implantação interna.</span><span class="sxs-lookup"><span data-stu-id="bfbce-106">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1.  <span data-ttu-id="552a0-106">Por uma conta de usuário atribuída à função CsUserAdministrator role ou CsAdministrator, faça o login em qualquer computador na sua implantação interna.</span><span class="sxs-lookup"><span data-stu-id="552a0-106">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-2.  <span data-ttu-id="bfbce-107">Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="bfbce-107">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="bfbce-108">Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="bfbce-108">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="552a0-107">Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="552a0-107">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="552a0-108">Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="552a0-108">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="bfbce-109">Na barra de navegação da esquerda, clique em **Usuários**.</span><span class="sxs-lookup"><span data-stu-id="bfbce-109">In the left navigation bar, click **Users**.</span></span>
+3.  <span data-ttu-id="552a0-109">Na barra de navegação da esquerda, clique em **Usuários**.</span><span class="sxs-lookup"><span data-stu-id="552a0-109">In the left navigation bar, click **Users**.</span></span>
 
-4.  <span data-ttu-id="bfbce-110">Clique em **Habilitar usuários**.</span><span class="sxs-lookup"><span data-stu-id="bfbce-110">Click **Enable users**.</span></span>
+4.  <span data-ttu-id="552a0-110">Clique em **Habilitar usuários**.</span><span class="sxs-lookup"><span data-stu-id="552a0-110">Click **Enable users**.</span></span>
 
-5.  <span data-ttu-id="bfbce-111">No diálogo **Novo Usuário do Lync Server**, clique em **Adicionar**.</span><span class="sxs-lookup"><span data-stu-id="bfbce-111">On the **New Lync Server User** dialog, click **Add**.</span></span>
+5.  <span data-ttu-id="552a0-111">No diálogo **Novo Usuário do Lync Server**, clique em **Adicionar**.</span><span class="sxs-lookup"><span data-stu-id="552a0-111">On the **New Lync Server User** dialog, click **Add**.</span></span>
 
-6.  <span data-ttu-id="bfbce-112">Na caixa \*\*Pesquisar usuários \*\*, digite todo ou o primeiro nome, nome de exibição, nome, sobrenome, nome da conta SAM, endereço de email, UPN ou número de telefone da conta de usuário do Active Directory que você deseja e clique em **Localizar**.</span><span class="sxs-lookup"><span data-stu-id="bfbce-112">In the **Search users** box, type all or the first portion of the name, display name, first name, last name, Security Accounts Manager (SAM) account name, email address, User Principal Name (UPN), or phone number of the Active Directory user account that you want, and then click **Find**.</span></span>
+6.  <span data-ttu-id="552a0-112">Na caixa \*\*Pesquisar usuários \*\*, digite todo ou o primeiro nome, nome de exibição, nome, sobrenome, nome da conta SAM, endereço de email, UPN ou número de telefone da conta de usuário do Active Directory que você deseja e clique em **Localizar**.</span><span class="sxs-lookup"><span data-stu-id="552a0-112">In the **Search users** box, type all or the first portion of the name, display name, first name, last name, Security Accounts Manager (SAM) account name, email address, User Principal Name (UPN), or phone number of the Active Directory user account that you want, and then click **Find**.</span></span>
 
-7.  <span data-ttu-id="bfbce-113">Na tabela, selecione a conta que você deseja adicionar ao Lync Server e clique em **OK**.</span><span class="sxs-lookup"><span data-stu-id="bfbce-113">In the table, select the account you want to add to Lync Server, and then click **OK**.</span></span>
+7.  <span data-ttu-id="552a0-113">Na tabela, selecione a conta que você deseja adicionar ao Lync Server e clique em **OK**.</span><span class="sxs-lookup"><span data-stu-id="552a0-113">In the table, select the account you want to add to Lync Server, and then click **OK**.</span></span>
 
-8.  <span data-ttu-id="bfbce-114">Atribua o usuário a um pool, especifique qualquer detalhe adicional, atribua as políticas ao usuário desejado e clique em **Habilitar**.</span><span class="sxs-lookup"><span data-stu-id="bfbce-114">Assign the user to a pool, specify any additional details, and assign the policies to the user you want, and then click **Enable**.</span></span>
+8.  <span data-ttu-id="552a0-114">Atribua o usuário a um pool, especifique qualquer detalhe adicional, atribua as políticas ao usuário desejado e clique em **Habilitar**.</span><span class="sxs-lookup"><span data-stu-id="552a0-114">Assign the user to a pool, specify any additional details, and assign the policies to the user you want, and then click **Enable**.</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="bfbce-115">Confira também</span><span class="sxs-lookup"><span data-stu-id="bfbce-115">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="552a0-115">Confira Também</span><span class="sxs-lookup"><span data-stu-id="552a0-115">See Also</span></span>
 
 
-[<span data-ttu-id="bfbce-116">Desabilitar ou reabilitar a conta de usuário do Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="bfbce-116">Disable or re-enable user account for Lync Server 2013</span></span>](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md)  
-[<span data-ttu-id="bfbce-117">Remover uma conta de usuário do Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="bfbce-117">Remove a user account from Lync Server 2013</span></span>](lync-server-2013-remove-a-user-account-from-lync-server.md)  
+[<span data-ttu-id="552a0-116">Desabilitar ou reabilitar a conta de usuário do Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="552a0-116">Disable or re-enable user account for Lync Server 2013</span></span>](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md)  
+[<span data-ttu-id="552a0-117">Remover uma conta de usuário do Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="552a0-117">Remove a user account from Lync Server 2013</span></span>](lync-server-2013-remove-a-user-account-from-lync-server.md)  
 
 
-[<span data-ttu-id="bfbce-118">Habilitando e desabilitando usuários para o Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="bfbce-118">Enabling and disabling users for Lync Server 2013</span></span>](lync-server-2013-enabling-and-disabling-users-for-lync-server.md)  
+[<span data-ttu-id="552a0-118">Habilitando e desabilitando usuários para o Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="552a0-118">Enabling and disabling users for Lync Server 2013</span></span>](lync-server-2013-enabling-and-disabling-users-for-lync-server.md)  
   
 
 </div>

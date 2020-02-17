@@ -25,7 +25,7 @@ ms.locfileid: "42046404"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-dial-plans-in-lync-server-2013"></a><span data-ttu-id="fb34f-102">Configurando planos de discagem no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="fb34f-102">Configuring dial plans in Lync Server 2013</span></span>
+# <a name="configuring-dial-plans-in-lync-server-2013"></a><span data-ttu-id="2bc9b-102">Configurando planos de discagem no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2bc9b-102">Configuring dial plans in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "42046404"
 
 <span> </span>
 
-<span data-ttu-id="fb34f-103">_**Última modificação do tópico:** 2013-02-22_</span><span class="sxs-lookup"><span data-stu-id="fb34f-103">_**Topic Last Modified:** 2013-02-22_</span></span>
+<span data-ttu-id="2bc9b-103">_**Última modificação do tópico:** 2013-02-22_</span><span class="sxs-lookup"><span data-stu-id="2bc9b-103">_**Topic Last Modified:** 2013-02-22_</span></span>
 
-<span data-ttu-id="fb34f-104">Um plano de discagem do Lync Server 2013 é um conjunto nomeado de regras de normalização que converte números de telefone de um local nomeado, usuário individual ou objeto de contato para fins de autorização de telefone e roteamento de chamadas.</span><span class="sxs-lookup"><span data-stu-id="fb34f-104">A Lync Server 2013 dial plan is a named set of normalization rules that translate phone numbers for a named location, individual user, or contact object for purposes of phone authorization and call routing.</span></span>
+<span data-ttu-id="2bc9b-104">Um plano de discagem do Lync Server 2013 é um conjunto nomeado de regras de normalização que converte números de telefone de um local nomeado, usuário individual ou objeto de contato para fins de autorização de telefone e roteamento de chamadas.</span><span class="sxs-lookup"><span data-stu-id="2bc9b-104">A Lync Server 2013 dial plan is a named set of normalization rules that translate phone numbers for a named location, individual user, or contact object for purposes of phone authorization and call routing.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="fb34f-105">Para obter detalhes, consulte <A href="lync-server-2013-dial-plans-and-normalization-rules.md">Dial Plans and Normalization Rules in Lync Server 2013</A> na documentação de planejamento.</span><span class="sxs-lookup"><span data-stu-id="fb34f-105">For details, see <A href="lync-server-2013-dial-plans-and-normalization-rules.md">Dial plans and normalization rules in Lync Server 2013</A> in the Planning documentation.</span></span>
+> <span data-ttu-id="2bc9b-105">Para obter detalhes, consulte <A href="lync-server-2013-dial-plans-and-normalization-rules.md">Dial Plans and Normalization Rules in Lync Server 2013</A> na documentação de planejamento.</span><span class="sxs-lookup"><span data-stu-id="2bc9b-105">For details, see <A href="lync-server-2013-dial-plans-and-normalization-rules.md">Dial plans and normalization rules in Lync Server 2013</A> in the Planning documentation.</span></span>
 
 
 
@@ -51,22 +51,22 @@ ms.locfileid: "42046404"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="fb34f-106">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="fb34f-106">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="2bc9b-106">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="2bc9b-106">In This Section</span></span>
 
-  - [<span data-ttu-id="fb34f-107">Exibir informações do plano de discagem no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="fb34f-107">View dial plan information in Lync Server 2013</span></span>](lync-server-2013-view-dial-plan-information.md)
+  - [<span data-ttu-id="2bc9b-107">Exibir informações do plano de discagem no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2bc9b-107">View dial plan information in Lync Server 2013</span></span>](lync-server-2013-view-dial-plan-information.md)
 
-  - [<span data-ttu-id="fb34f-108">Criar um plano de discagem no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="fb34f-108">Create a dial plan in Lync Server 2013</span></span>](lync-server-2013-create-a-dial-plan.md)
+  - [<span data-ttu-id="2bc9b-108">Criar um plano de discagem no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2bc9b-108">Create a dial plan in Lync Server 2013</span></span>](lync-server-2013-create-a-dial-plan.md)
 
-  - [<span data-ttu-id="fb34f-109">Modificar um plano de discagem no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="fb34f-109">Modify a dial plan in Lync Server 2013</span></span>](lync-server-2013-modify-a-dial-plan.md)
+  - [<span data-ttu-id="2bc9b-109">Modificar um plano de discagem no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2bc9b-109">Modify a dial plan in Lync Server 2013</span></span>](lync-server-2013-modify-a-dial-plan.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="fb34f-110">Confira também</span><span class="sxs-lookup"><span data-stu-id="fb34f-110">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="2bc9b-110">Confira Também</span><span class="sxs-lookup"><span data-stu-id="2bc9b-110">See Also</span></span>
 
 
-[<span data-ttu-id="fb34f-111">Planos de discagem e regras de normalização no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="fb34f-111">Dial plans and normalization rules in Lync Server 2013</span></span>](lync-server-2013-dial-plans-and-normalization-rules.md)  
+[<span data-ttu-id="2bc9b-111">Planos de discagem e regras de normalização no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2bc9b-111">Dial plans and normalization rules in Lync Server 2013</span></span>](lync-server-2013-dial-plans-and-normalization-rules.md)  
   
 
 </div>

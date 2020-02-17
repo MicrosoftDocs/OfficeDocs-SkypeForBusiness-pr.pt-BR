@@ -25,7 +25,7 @@ ms.locfileid: "42049563"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="outgoing-calls-in-lync-server-2013"></a><span data-ttu-id="b8d20-102">Chamadas de saída no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b8d20-102">Outgoing calls in Lync Server 2013</span></span>
+# <a name="outgoing-calls-in-lync-server-2013"></a><span data-ttu-id="0ba89-102">Chamadas de saída no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0ba89-102">Outgoing calls in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "42049563"
 
 <span> </span>
 
-<span data-ttu-id="b8d20-103">_**Última modificação do tópico:** 2013-03-09_</span><span class="sxs-lookup"><span data-stu-id="b8d20-103">_**Topic Last Modified:** 2013-03-09_</span></span>
+<span data-ttu-id="0ba89-103">_**Última modificação do tópico:** 2013-03-09_</span><span class="sxs-lookup"><span data-stu-id="0ba89-103">_**Topic Last Modified:** 2013-03-09_</span></span>
 
-<span data-ttu-id="b8d20-104">O roteamento de chamadas de saída de usuários habilitados para roteamento baseado em local é afetado pelo local de rede do ponto de extremidade do usuário.</span><span class="sxs-lookup"><span data-stu-id="b8d20-104">The routing of outbound calls of users enabled for Location-Based Routing is affected by the network location of the user’s endpoint.</span></span> <span data-ttu-id="b8d20-105">A tabela a seguir ilustra como o roteamento baseado em local afeta o roteamento de chamadas de saída, dependendo do local do ponto de extremidade do chamador.</span><span class="sxs-lookup"><span data-stu-id="b8d20-105">The following table illustrates how Location-Based Routing affects the routing of outbound calls depending on the location of the caller’s endpoint.</span></span>
+<span data-ttu-id="0ba89-104">O roteamento de chamadas de saída de usuários habilitados para roteamento baseado em local é afetado pelo local de rede do ponto de extremidade do usuário.</span><span class="sxs-lookup"><span data-stu-id="0ba89-104">The routing of outbound calls of users enabled for Location-Based Routing is affected by the network location of the user’s endpoint.</span></span> <span data-ttu-id="0ba89-105">A tabela a seguir ilustra como o roteamento baseado em local afeta o roteamento de chamadas de saída, dependendo do local do ponto de extremidade do chamador.</span><span class="sxs-lookup"><span data-stu-id="0ba89-105">The following table illustrates how Location-Based Routing affects the routing of outbound calls depending on the location of the caller’s endpoint.</span></span>
 
-### <a name="caller-placing-an-outbound-call-to-the-pstn"></a><span data-ttu-id="b8d20-106">Chamador colocando uma chamada de saída para o PSTN</span><span class="sxs-lookup"><span data-stu-id="b8d20-106">Caller placing an outbound call to the PSTN</span></span>
+### <a name="caller-placing-an-outbound-call-to-the-pstn"></a><span data-ttu-id="0ba89-106">Chamador colocando uma chamada de saída para o PSTN</span><span class="sxs-lookup"><span data-stu-id="0ba89-106">Caller placing an outbound call to the PSTN</span></span>
 
 <table>
 <colgroup>
@@ -50,20 +50,20 @@ ms.locfileid: "42049563"
 <thead>
 <tr class="header">
 <th></th>
-<th><span data-ttu-id="b8d20-107">Ponto de extremidade do usuário localizado em um site de rede habilitado para roteamento baseado em local</span><span class="sxs-lookup"><span data-stu-id="b8d20-107">User endpoint located in a network site enabled for Location-Based Routing</span></span></th>
-<th><span data-ttu-id="b8d20-108">Ponto de extremidade do usuário localizado em um local de rede desconhecido ou não habilitado para roteamento baseado em local</span><span class="sxs-lookup"><span data-stu-id="b8d20-108">User endpoint located in unknown network site or not enabled for Location-Based Routing</span></span></th>
+<th><span data-ttu-id="0ba89-107">Ponto de extremidade do usuário localizado em um site de rede habilitado para roteamento baseado em local</span><span class="sxs-lookup"><span data-stu-id="0ba89-107">User endpoint located in a network site enabled for Location-Based Routing</span></span></th>
+<th><span data-ttu-id="0ba89-108">Ponto de extremidade do usuário localizado em um local de rede desconhecido ou não habilitado para roteamento baseado em local</span><span class="sxs-lookup"><span data-stu-id="0ba89-108">User endpoint located in unknown network site or not enabled for Location-Based Routing</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="b8d20-109">Autorização de chamadas de saída</span><span class="sxs-lookup"><span data-stu-id="b8d20-109">Authorization of outbound calls</span></span></p></td>
-<td><p><span data-ttu-id="b8d20-110">A chamada é autorizada com base na política de voz do usuário</span><span class="sxs-lookup"><span data-stu-id="b8d20-110">Call is authorized based on user’s voice policy</span></span></p></td>
-<td><p><span data-ttu-id="b8d20-111">A chamada é autorizada com base na política de voz do usuário</span><span class="sxs-lookup"><span data-stu-id="b8d20-111">Call is authorized based on user’s voice policy</span></span></p></td>
+<td><p><span data-ttu-id="0ba89-109">Autorização de chamadas de saída</span><span class="sxs-lookup"><span data-stu-id="0ba89-109">Authorization of outbound calls</span></span></p></td>
+<td><p><span data-ttu-id="0ba89-110">A chamada é autorizada com base na política de voz do usuário</span><span class="sxs-lookup"><span data-stu-id="0ba89-110">Call is authorized based on user’s voice policy</span></span></p></td>
+<td><p><span data-ttu-id="0ba89-111">A chamada é autorizada com base na política de voz do usuário</span><span class="sxs-lookup"><span data-stu-id="0ba89-111">Call is authorized based on user’s voice policy</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="b8d20-112">Roteamento de chamada de saída</span><span class="sxs-lookup"><span data-stu-id="b8d20-112">Routing of outbound call</span></span></p></td>
-<td><p><span data-ttu-id="b8d20-113">A chamada é roteada de acordo com a política de roteamento de voz do site da rede</span><span class="sxs-lookup"><span data-stu-id="b8d20-113">Call is routed according to the network site’s voice routing policy</span></span></p></td>
-<td><p><span data-ttu-id="b8d20-114">A chamada é roteada de acordo com a política de voz do usuário e apenas por troncos não habilitados para roteamento baseado em local (se disponível)</span><span class="sxs-lookup"><span data-stu-id="b8d20-114">Call is routed according to user’s voice policy and only through trunks not enabled for Location-Based Routing (if available)</span></span></p></td>
+<td><p><span data-ttu-id="0ba89-112">Roteamento de chamada de saída</span><span class="sxs-lookup"><span data-stu-id="0ba89-112">Routing of outbound call</span></span></p></td>
+<td><p><span data-ttu-id="0ba89-113">A chamada é roteada de acordo com a política de roteamento de voz do site da rede</span><span class="sxs-lookup"><span data-stu-id="0ba89-113">Call is routed according to the network site’s voice routing policy</span></span></p></td>
+<td><p><span data-ttu-id="0ba89-114">A chamada é roteada de acordo com a política de voz do usuário e apenas por troncos não habilitados para roteamento baseado em local (se disponível)</span><span class="sxs-lookup"><span data-stu-id="0ba89-114">Call is routed according to user’s voice policy and only through trunks not enabled for Location-Based Routing (if available)</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -71,10 +71,10 @@ ms.locfileid: "42049563"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="b8d20-115">Confira também</span><span class="sxs-lookup"><span data-stu-id="b8d20-115">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="0ba89-115">Confira Também</span><span class="sxs-lookup"><span data-stu-id="0ba89-115">See Also</span></span>
 
 
-[<span data-ttu-id="b8d20-116">Cenários para roteamento baseado em local no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b8d20-116">Scenarios for Location-Based Routing in Lync Server 2013</span></span>](lync-server-2013-scenarios-for-location-based-routing.md)  
+[<span data-ttu-id="0ba89-116">Cenários para roteamento baseado em local no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0ba89-116">Scenarios for Location-Based Routing in Lync Server 2013</span></span>](lync-server-2013-scenarios-for-location-based-routing.md)  
   
 
 </div>

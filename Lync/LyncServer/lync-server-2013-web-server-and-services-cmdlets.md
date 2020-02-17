@@ -25,7 +25,7 @@ ms.locfileid: "42041260"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="web-server-and-services-cmdlets-in-lync-server-2013"></a><span data-ttu-id="a198b-102">Cmdlets de serviços e servidor Web no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a198b-102">Web server and services cmdlets in Lync Server 2013</span></span>
+# <a name="web-server-and-services-cmdlets-in-lync-server-2013"></a><span data-ttu-id="52a43-102">Cmdlets de serviços e servidor Web no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="52a43-102">Web server and services cmdlets in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,110 +35,110 @@ ms.locfileid: "42041260"
 
 <span> </span>
 
-<span data-ttu-id="a198b-103">_**Última modificação do tópico:** 2013-02-18_</span><span class="sxs-lookup"><span data-stu-id="a198b-103">_**Topic Last Modified:** 2013-02-18_</span></span>
+<span data-ttu-id="52a43-103">_**Última modificação do tópico:** 2013-02-18_</span><span class="sxs-lookup"><span data-stu-id="52a43-103">_**Topic Last Modified:** 2013-02-18_</span></span>
 
-<span data-ttu-id="a198b-104">Muitos dos componentes do Microsoft Lync Server 2013 são baseados na Web: esses componentes usam serviços Web ou páginas da Web para realizar suas tarefas.</span><span class="sxs-lookup"><span data-stu-id="a198b-104">Many Microsoft Lync Server 2013 components are web-based: these components either use Web Services or webpages to carry out their tasks.</span></span> <span data-ttu-id="a198b-105">Os cmdlets de servidor Web e serviços Web permitem que você faça coisas como definir configurações de servidor Web e gerenciar URLs simples.</span><span class="sxs-lookup"><span data-stu-id="a198b-105">The Web Server and Web services cmdlets enable you to do such things as configure Web Server settings and to manage simple URLs.</span></span> <span data-ttu-id="a198b-106">As URLs simples facilitam a participação dos usuários em reuniões e conferências, além de facilitar o logon dos administradores no painel de controle do Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="a198b-106">Simple URLs make it easier for users to join meetings and conferences, and make it easier for Administrators to log on to the Lync Server 2013 Control Panel.</span></span>
+<span data-ttu-id="52a43-104">Muitos dos componentes do Microsoft Lync Server 2013 são baseados na Web: esses componentes usam serviços Web ou páginas da Web para realizar suas tarefas.</span><span class="sxs-lookup"><span data-stu-id="52a43-104">Many Microsoft Lync Server 2013 components are web-based: these components either use Web Services or webpages to carry out their tasks.</span></span> <span data-ttu-id="52a43-105">Os cmdlets de servidor Web e serviços Web permitem que você faça coisas como definir configurações de servidor Web e gerenciar URLs simples.</span><span class="sxs-lookup"><span data-stu-id="52a43-105">The Web Server and Web services cmdlets enable you to do such things as configure Web Server settings and to manage simple URLs.</span></span> <span data-ttu-id="52a43-106">As URLs simples facilitam a participação dos usuários em reuniões e conferências, além de facilitar o logon dos administradores no painel de controle do Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="52a43-106">Simple URLs make it easier for users to join meetings and conferences, and make it easier for Administrators to log on to the Lync Server 2013 Control Panel.</span></span>
 
 <div>
 
-## <a name="web-server-and-web-services-cmdlets"></a><span data-ttu-id="a198b-107">Cmdlets de Servidores e Serviços da Web</span><span class="sxs-lookup"><span data-stu-id="a198b-107">Web Server and Web Services Cmdlets</span></span>
+## <a name="web-server-and-web-services-cmdlets"></a><span data-ttu-id="52a43-107">Cmdlets de Servidores e Serviços da Web</span><span class="sxs-lookup"><span data-stu-id="52a43-107">Web Server and Web Services Cmdlets</span></span>
 
-<span data-ttu-id="a198b-108">A seguir, é apresentada de cmdlets que estão diretamente relacionados ao gerenciamento de Servidores e Serviços da Web:</span><span class="sxs-lookup"><span data-stu-id="a198b-108">The following is a list of cmdlets that relate directly to managing Web Servers and Web Services:</span></span>
+<span data-ttu-id="52a43-108">A seguir, é apresentada de cmdlets que estão diretamente relacionados ao gerenciamento de Servidores e Serviços da Web:</span><span class="sxs-lookup"><span data-stu-id="52a43-108">The following is a list of cmdlets that relate directly to managing Web Servers and Web Services:</span></span>
 
-<span data-ttu-id="a198b-109">**Servidores e Serviços da Web**</span><span class="sxs-lookup"><span data-stu-id="a198b-109">**Web Servers and Services**</span></span>
+<span data-ttu-id="52a43-109">**Servidores e Serviços da Web**</span><span class="sxs-lookup"><span data-stu-id="52a43-109">**Web Servers and Services**</span></span>
 
   - <span></span>  
-    <span data-ttu-id="a198b-110">[New-CsSimpleUrl](https://technet.microsoft.com/library/Gg398180(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a198b-110">[New-CsSimpleUrl](https://technet.microsoft.com/library/Gg398180(v=OCS.15))</span></span>
+    <span data-ttu-id="52a43-110">[New-CsSimpleUrl](https://technet.microsoft.com/library/Gg398180(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="52a43-110">[New-CsSimpleUrl](https://technet.microsoft.com/library/Gg398180(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="a198b-111">[Get-CsSimpleUrlConfiguration](https://technet.microsoft.com/library/Gg398392(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a198b-111">[Get-CsSimpleUrlConfiguration](https://technet.microsoft.com/library/Gg398392(v=OCS.15))</span></span>
+    <span data-ttu-id="52a43-111">[Get-CsSimpleUrlConfiguration](https://technet.microsoft.com/library/Gg398392(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="52a43-111">[Get-CsSimpleUrlConfiguration](https://technet.microsoft.com/library/Gg398392(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="a198b-112">[New-CsSimpleUrlConfiguration](https://technet.microsoft.com/library/Gg425813(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a198b-112">[New-CsSimpleUrlConfiguration](https://technet.microsoft.com/library/Gg425813(v=OCS.15))</span></span>
+    <span data-ttu-id="52a43-112">[New-CsSimpleUrlConfiguration](https://technet.microsoft.com/library/Gg425813(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="52a43-112">[New-CsSimpleUrlConfiguration](https://technet.microsoft.com/library/Gg425813(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="a198b-113">[Remove-CsSimpleUrlConfiguration](https://technet.microsoft.com/library/Gg398515(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a198b-113">[Remove-CsSimpleUrlConfiguration](https://technet.microsoft.com/library/Gg398515(v=OCS.15))</span></span>
+    <span data-ttu-id="52a43-113">[Remove-CsSimpleUrlConfiguration](https://technet.microsoft.com/library/Gg398515(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="52a43-113">[Remove-CsSimpleUrlConfiguration](https://technet.microsoft.com/library/Gg398515(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="a198b-114">[Set-CsSimpleUrlConfiguration](https://technet.microsoft.com/library/Gg412991(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a198b-114">[Set-CsSimpleUrlConfiguration](https://technet.microsoft.com/library/Gg412991(v=OCS.15))</span></span>
+    <span data-ttu-id="52a43-114">[Set-CsSimpleUrlConfiguration](https://technet.microsoft.com/library/Gg412991(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="52a43-114">[Set-CsSimpleUrlConfiguration](https://technet.microsoft.com/library/Gg412991(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="a198b-115">[New-CsSimpleUrlEntry](https://technet.microsoft.com/library/Gg425902(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a198b-115">[New-CsSimpleUrlEntry](https://technet.microsoft.com/library/Gg425902(v=OCS.15))</span></span>
+    <span data-ttu-id="52a43-115">[New-CsSimpleUrlEntry](https://technet.microsoft.com/library/Gg425902(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="52a43-115">[New-CsSimpleUrlEntry](https://technet.microsoft.com/library/Gg425902(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="a198b-116">[New-CsWebOrigin](https://technet.microsoft.com/library/JJ950236(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a198b-116">[New-CsWebOrigin](https://technet.microsoft.com/library/JJ950236(v=OCS.15))</span></span>
+    <span data-ttu-id="52a43-116">[New-CsWebOrigin](https://technet.microsoft.com/library/JJ950236(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="52a43-116">[New-CsWebOrigin](https://technet.microsoft.com/library/JJ950236(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="a198b-117">[Set-CsWebServer](https://technet.microsoft.com/library/Gg398759(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a198b-117">[Set-CsWebServer](https://technet.microsoft.com/library/Gg398759(v=OCS.15))</span></span>
+    <span data-ttu-id="52a43-117">[Set-CsWebServer](https://technet.microsoft.com/library/Gg398759(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="52a43-117">[Set-CsWebServer](https://technet.microsoft.com/library/Gg398759(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="a198b-118">[Get-CsWebServiceConfiguration](https://technet.microsoft.com/library/Gg425751(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a198b-118">[Get-CsWebServiceConfiguration](https://technet.microsoft.com/library/Gg425751(v=OCS.15))</span></span>
+    <span data-ttu-id="52a43-118">[Get-CsWebServiceConfiguration](https://technet.microsoft.com/library/Gg425751(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="52a43-118">[Get-CsWebServiceConfiguration](https://technet.microsoft.com/library/Gg425751(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="a198b-119">[New-CsWebServiceConfiguration](https://technet.microsoft.com/library/Gg398440(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a198b-119">[New-CsWebServiceConfiguration](https://technet.microsoft.com/library/Gg398440(v=OCS.15))</span></span>
+    <span data-ttu-id="52a43-119">[New-CsWebServiceConfiguration](https://technet.microsoft.com/library/Gg398440(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="52a43-119">[New-CsWebServiceConfiguration](https://technet.microsoft.com/library/Gg398440(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="a198b-120">[Remove-CsWebServiceConfiguration](https://technet.microsoft.com/library/Gg398266(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a198b-120">[Remove-CsWebServiceConfiguration](https://technet.microsoft.com/library/Gg398266(v=OCS.15))</span></span>
+    <span data-ttu-id="52a43-120">[Remove-CsWebServiceConfiguration](https://technet.microsoft.com/library/Gg398266(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="52a43-120">[Remove-CsWebServiceConfiguration](https://technet.microsoft.com/library/Gg398266(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="a198b-121">[Set-CsWebServiceConfiguration](https://technet.microsoft.com/library/Gg398396(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a198b-121">[Set-CsWebServiceConfiguration](https://technet.microsoft.com/library/Gg398396(v=OCS.15))</span></span>
+    <span data-ttu-id="52a43-121">[Set-CsWebServiceConfiguration](https://technet.microsoft.com/library/Gg398396(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="52a43-121">[Set-CsWebServiceConfiguration](https://technet.microsoft.com/library/Gg398396(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="a198b-122">[New-CsWebTrustedCACertificate](https://technet.microsoft.com/library/Gg412746(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a198b-122">[New-CsWebTrustedCACertificate](https://technet.microsoft.com/library/Gg412746(v=OCS.15))</span></span>
+    <span data-ttu-id="52a43-122">[New-CsWebTrustedCACertificate](https://technet.microsoft.com/library/Gg412746(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="52a43-122">[New-CsWebTrustedCACertificate](https://technet.microsoft.com/library/Gg412746(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="a198b-123">[New-CsKerberosAccount](https://technet.microsoft.com/library/Gg398485(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a198b-123">[New-CsKerberosAccount](https://technet.microsoft.com/library/Gg398485(v=OCS.15))</span></span>
+    <span data-ttu-id="52a43-123">[New-CsKerberosAccount](https://technet.microsoft.com/library/Gg398485(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="52a43-123">[New-CsKerberosAccount](https://technet.microsoft.com/library/Gg398485(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="a198b-124">[Get-CsKerberosAccountAssignment](https://technet.microsoft.com/library/Gg398526(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a198b-124">[Get-CsKerberosAccountAssignment](https://technet.microsoft.com/library/Gg398526(v=OCS.15))</span></span>
+    <span data-ttu-id="52a43-124">[Get-CsKerberosAccountAssignment](https://technet.microsoft.com/library/Gg398526(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="52a43-124">[Get-CsKerberosAccountAssignment](https://technet.microsoft.com/library/Gg398526(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="a198b-125">[New-CsKerberosAccountAssignment](https://technet.microsoft.com/library/Gg398074(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a198b-125">[New-CsKerberosAccountAssignment](https://technet.microsoft.com/library/Gg398074(v=OCS.15))</span></span>
+    <span data-ttu-id="52a43-125">[New-CsKerberosAccountAssignment](https://technet.microsoft.com/library/Gg398074(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="52a43-125">[New-CsKerberosAccountAssignment](https://technet.microsoft.com/library/Gg398074(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="a198b-126">[Remove-CsKerberosAccountAssignment](https://technet.microsoft.com/library/Gg413052(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a198b-126">[Remove-CsKerberosAccountAssignment](https://technet.microsoft.com/library/Gg413052(v=OCS.15))</span></span>
+    <span data-ttu-id="52a43-126">[Remove-CsKerberosAccountAssignment](https://technet.microsoft.com/library/Gg413052(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="52a43-126">[Remove-CsKerberosAccountAssignment](https://technet.microsoft.com/library/Gg413052(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="a198b-127">[Set-CsKerberosAccountAssignment](https://technet.microsoft.com/library/Gg398232(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a198b-127">[Set-CsKerberosAccountAssignment](https://technet.microsoft.com/library/Gg398232(v=OCS.15))</span></span>
+    <span data-ttu-id="52a43-127">[Set-CsKerberosAccountAssignment](https://technet.microsoft.com/library/Gg398232(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="52a43-127">[Set-CsKerberosAccountAssignment](https://technet.microsoft.com/library/Gg398232(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="a198b-128">[Test-CsKerberosAccountAssignment](https://technet.microsoft.com/library/Gg425938(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a198b-128">[Test-CsKerberosAccountAssignment](https://technet.microsoft.com/library/Gg425938(v=OCS.15))</span></span>
+    <span data-ttu-id="52a43-128">[Test-CsKerberosAccountAssignment](https://technet.microsoft.com/library/Gg425938(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="52a43-128">[Test-CsKerberosAccountAssignment](https://technet.microsoft.com/library/Gg425938(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="a198b-129">[Set-CsKerberosAccountPassword](https://technet.microsoft.com/library/Gg398659(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a198b-129">[Set-CsKerberosAccountPassword](https://technet.microsoft.com/library/Gg398659(v=OCS.15))</span></span>
+    <span data-ttu-id="52a43-129">[Set-CsKerberosAccountPassword](https://technet.microsoft.com/library/Gg398659(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="52a43-129">[Set-CsKerberosAccountPassword](https://technet.microsoft.com/library/Gg398659(v=OCS.15))</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="a198b-130">[Test-CsWebApp](https://technet.microsoft.com/library/Hh689989(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a198b-130">[Test-CsWebApp](https://technet.microsoft.com/library/Hh689989(v=OCS.15))</span></span>
+  - <span data-ttu-id="52a43-130">[Test-CsWebApp](https://technet.microsoft.com/library/Hh689989(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="52a43-130">[Test-CsWebApp](https://technet.microsoft.com/library/Hh689989(v=OCS.15))</span></span>
 
-  - <span data-ttu-id="a198b-131">[Test-CsWebAppAnonymous](https://technet.microsoft.com/library/Hh690041(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a198b-131">[Test-CsWebAppAnonymous](https://technet.microsoft.com/library/Hh690041(v=OCS.15))</span></span>
+  - <span data-ttu-id="52a43-131">[Test-CsWebAppAnonymous](https://technet.microsoft.com/library/Hh690041(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="52a43-131">[Test-CsWebAppAnonymous](https://technet.microsoft.com/library/Hh690041(v=OCS.15))</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="a198b-132">Confira também</span><span class="sxs-lookup"><span data-stu-id="a198b-132">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="52a43-132">Confira Também</span><span class="sxs-lookup"><span data-stu-id="52a43-132">See Also</span></span>
 
 
-[<span data-ttu-id="a198b-133">Blog do PowerShell do Lync Server</span><span class="sxs-lookup"><span data-stu-id="a198b-133">Lync Server PowerShell Blog</span></span>](http://go.microsoft.com/fwlink/p/?linkid=203150)  
+[<span data-ttu-id="52a43-133">Blog do PowerShell do Lync Server</span><span class="sxs-lookup"><span data-stu-id="52a43-133">Lync Server PowerShell Blog</span></span>](http://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>

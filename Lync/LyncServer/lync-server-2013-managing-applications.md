@@ -25,7 +25,7 @@ ms.locfileid: "42037221"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="managing-applications-in-lync-server-2013"></a><span data-ttu-id="1b561-102">Gerenciando aplicativos no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1b561-102">Managing applications in Lync Server 2013</span></span>
+# <a name="managing-applications-in-lync-server-2013"></a><span data-ttu-id="e535e-102">Gerenciando aplicativos no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e535e-102">Managing applications in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,26 +35,26 @@ ms.locfileid: "42037221"
 
 <span> </span>
 
-<span data-ttu-id="1b561-103">_**Última modificação do tópico:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="1b561-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="e535e-103">_**Última modificação do tópico:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="e535e-103">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="1b561-104">Use os procedimentos desta seção para gerenciar aplicativos para o Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="1b561-104">Use the procedures in this section to manage applications for Lync Server 2013.</span></span>
+<span data-ttu-id="e535e-104">Use os procedimentos desta seção para gerenciar aplicativos para o Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="e535e-104">Use the procedures in this section to manage applications for Lync Server 2013.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="1b561-105">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="1b561-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="e535e-105">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="e535e-105">In This Section</span></span>
 
-  - [<span data-ttu-id="1b561-106">Configurar um novo servidor de aplicativos confiáveis no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1b561-106">Configure a new trusted application server in Lync Server 2013</span></span>](lync-server-2013-configure-a-new-trusted-application-server.md)
+  - [<span data-ttu-id="e535e-106">Configurar um novo servidor de aplicativos confiáveis no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e535e-106">Configure a new trusted application server in Lync Server 2013</span></span>](lync-server-2013-configure-a-new-trusted-application-server.md)
 
-  - [<span data-ttu-id="1b561-107">Aplicativos confiáveis (aplicativo/computador/ponto de extremidade/pool) no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1b561-107">Trusted applications (application/computer/endpoint/pool) in Lync Server 2013</span></span>](lync-server-2013-trusted-applications-application-computer-endpoint-pool.md)
+  - [<span data-ttu-id="e535e-107">Aplicativos confiáveis (aplicativo/computador/ponto de extremidade/pool) no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e535e-107">Trusted applications (application/computer/endpoint/pool) in Lync Server 2013</span></span>](lync-server-2013-trusted-applications-application-computer-endpoint-pool.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="1b561-108">Confira também</span><span class="sxs-lookup"><span data-stu-id="1b561-108">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="e535e-108">Confira Também</span><span class="sxs-lookup"><span data-stu-id="e535e-108">See Also</span></span>
 
 
-[<span data-ttu-id="1b561-109">Gerenciando serviços e funções de servidor do Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1b561-109">Managing Lync Server 2013 services and server roles</span></span>](lync-server-2013-managing-lync-server-services-and-server-roles.md)  
+[<span data-ttu-id="e535e-109">Gerenciando serviços e funções de servidor do Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e535e-109">Managing Lync Server 2013 services and server roles</span></span>](lync-server-2013-managing-lync-server-services-and-server-roles.md)  
   
 
 </div>

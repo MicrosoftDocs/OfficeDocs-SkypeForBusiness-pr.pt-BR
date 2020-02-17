@@ -25,7 +25,7 @@ ms.locfileid: "42050103"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="new-caller-id-feature-in-lync-server-2013"></a><span data-ttu-id="b45d7-102">Novo recurso de ID de chamadas no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b45d7-102">New caller ID feature in Lync Server 2013</span></span>
+# <a name="new-caller-id-feature-in-lync-server-2013"></a><span data-ttu-id="843f4-102">Novo recurso de ID de chamadas no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="843f4-102">New caller ID feature in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,18 +35,18 @@ ms.locfileid: "42050103"
 
 <span> </span>
 
-<span data-ttu-id="b45d7-103">_**Última modificação do tópico:** 2012-10-05_</span><span class="sxs-lookup"><span data-stu-id="b45d7-103">_**Topic Last Modified:** 2012-10-05_</span></span>
+<span data-ttu-id="843f4-103">_**Última modificação do tópico:** 2012-10-05_</span><span class="sxs-lookup"><span data-stu-id="843f4-103">_**Topic Last Modified:** 2012-10-05_</span></span>
 
-<span data-ttu-id="b45d7-104">O Lync Server 2013 fornece ao administrador a flexibilidade para modificar o formato do número de telefone do participante da chamada.</span><span class="sxs-lookup"><span data-stu-id="b45d7-104">Lync Server 2013 provides the administrator the flexibility to modify the format of the calling party’s phone number.</span></span> <span data-ttu-id="b45d7-105">Esse recurso de apresentação de ID de Chamadas permite ao administrador modificar o número de telefone do chamador para um formato de discagem que é entendido pelo ponto de tronco, se necessário.</span><span class="sxs-lookup"><span data-stu-id="b45d7-105">This Caller ID presentation feature enables the administrator to modify the calling party’s phone number to a dialing format that is understood by the trunk peer, if necessary.</span></span> <span data-ttu-id="b45d7-106">Por exemplo, você pode criar uma regra de conversão para remover +44 do começo de uma sequência de caracteres de discagem e o substituir por 0144.</span><span class="sxs-lookup"><span data-stu-id="b45d7-106">For example, you can write a translation rule to remove +44 from the beginning of a dial string and replace it with 0144.</span></span>
+<span data-ttu-id="843f4-104">O Lync Server 2013 fornece ao administrador a flexibilidade para modificar o formato do número de telefone do participante da chamada.</span><span class="sxs-lookup"><span data-stu-id="843f4-104">Lync Server 2013 provides the administrator the flexibility to modify the format of the calling party’s phone number.</span></span> <span data-ttu-id="843f4-105">Esse recurso de apresentação de ID de Chamadas permite ao administrador modificar o número de telefone do chamador para um formato de discagem que é entendido pelo ponto de tronco, se necessário.</span><span class="sxs-lookup"><span data-stu-id="843f4-105">This Caller ID presentation feature enables the administrator to modify the calling party’s phone number to a dialing format that is understood by the trunk peer, if necessary.</span></span> <span data-ttu-id="843f4-106">Por exemplo, você pode criar uma regra de conversão para remover +44 do começo de uma sequência de caracteres de discagem e o substituir por 0144.</span><span class="sxs-lookup"><span data-stu-id="843f4-106">For example, you can write a translation rule to remove +44 from the beginning of a dial string and replace it with 0144.</span></span>
 
-<span data-ttu-id="b45d7-107">Agora, com o Lync Server 2013, o número de telefone do chamador e o número de telefone do receptor podem ser convertidos em formatos diferentes, conforme necessário.</span><span class="sxs-lookup"><span data-stu-id="b45d7-107">Now, with Lync Server 2013, both the caller’s phone number and the callee’s phone number can be translated into different formats, as needed.</span></span> <span data-ttu-id="b45d7-108">Essa flexibilidade possibilita que o Lync Server 2013 sirva como um tradutor de tronco entre diferentes sistemas de telefonia.</span><span class="sxs-lookup"><span data-stu-id="b45d7-108">This flexibility makes it possible for Lync Server 2013 to serve as a trunk translator between different telephony systems.</span></span>
+<span data-ttu-id="843f4-107">Agora, com o Lync Server 2013, o número de telefone do chamador e o número de telefone do receptor podem ser convertidos em formatos diferentes, conforme necessário.</span><span class="sxs-lookup"><span data-stu-id="843f4-107">Now, with Lync Server 2013, both the caller’s phone number and the callee’s phone number can be translated into different formats, as needed.</span></span> <span data-ttu-id="843f4-108">Essa flexibilidade possibilita que o Lync Server 2013 sirva como um tradutor de tronco entre diferentes sistemas de telefonia.</span><span class="sxs-lookup"><span data-stu-id="843f4-108">This flexibility makes it possible for Lync Server 2013 to serve as a trunk translator between different telephony systems.</span></span>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="b45d7-109">Confira também</span><span class="sxs-lookup"><span data-stu-id="b45d7-109">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="843f4-109">Confira Também</span><span class="sxs-lookup"><span data-stu-id="843f4-109">See Also</span></span>
 
 
-[<span data-ttu-id="b45d7-110">Novos recursos do Enterprise Voice no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b45d7-110">New Enterprise Voice features in Lync Server 2013</span></span>](lync-server-2013-new-enterprise-voice-features.md)  
+[<span data-ttu-id="843f4-110">Novos recursos do Enterprise Voice no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="843f4-110">New Enterprise Voice features in Lync Server 2013</span></span>](lync-server-2013-new-enterprise-voice-features.md)  
   
 
 </div>
