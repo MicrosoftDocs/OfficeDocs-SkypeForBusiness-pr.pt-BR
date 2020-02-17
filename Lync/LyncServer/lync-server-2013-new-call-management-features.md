@@ -25,7 +25,7 @@ ms.locfileid: "42051455"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="new-call-management-features-in-lync-server-2013"></a><span data-ttu-id="0892b-102">Novos recursos de gerenciamento de chamadas no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0892b-102">New call management features in Lync Server 2013</span></span>
+# <a name="new-call-management-features-in-lync-server-2013"></a><span data-ttu-id="f6d21-102">Novos recursos de gerenciamento de chamadas no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f6d21-102">New call management features in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,22 +35,22 @@ ms.locfileid: "42051455"
 
 <span> </span>
 
-<span data-ttu-id="0892b-103">_**Última modificação do tópico:** 2012-12-18_</span><span class="sxs-lookup"><span data-stu-id="0892b-103">_**Topic Last Modified:** 2012-12-18_</span></span>
+<span data-ttu-id="f6d21-103">_**Última modificação do tópico:** 2012-12-18_</span><span class="sxs-lookup"><span data-stu-id="f6d21-103">_**Topic Last Modified:** 2012-12-18_</span></span>
 
-<span data-ttu-id="0892b-104">As seções a seguir descrevem as alterações nos recursos de gerenciamento de chamadas no Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="0892b-104">The following sections describe the changes in call management features in Lync Server 2013.</span></span>
+<span data-ttu-id="f6d21-104">As seções a seguir descrevem as alterações nos recursos de gerenciamento de chamadas no Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="f6d21-104">The following sections describe the changes in call management features in Lync Server 2013.</span></span>
 
-  - [<span data-ttu-id="0892b-105">Novos recursos do aplicativo de grupo de resposta no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0892b-105">New Response Group application features in Lync Server 2013</span></span>](lync-server-2013-new-response-group-application-features.md)
+  - [<span data-ttu-id="f6d21-105">Novos recursos do aplicativo de grupo de resposta no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f6d21-105">New Response Group application features in Lync Server 2013</span></span>](lync-server-2013-new-response-group-application-features.md)
 
-  - [<span data-ttu-id="0892b-106">Novos recursos do aplicativo de estacionamento de chamadas no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0892b-106">New Call Park application features in Lync Server 2013</span></span>](lync-server-2013-new-call-park-application-features.md)
+  - [<span data-ttu-id="f6d21-106">Novos recursos do aplicativo de estacionamento de chamadas no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f6d21-106">New Call Park application features in Lync Server 2013</span></span>](lync-server-2013-new-call-park-application-features.md)
 
-  - [<span data-ttu-id="0892b-107">Novo recurso de recebimento de chamada em grupo no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0892b-107">New Group Call Pickup feature in Lync Server 2013</span></span>](lync-server-2013-new-group-call-pickup-feature.md)
+  - [<span data-ttu-id="f6d21-107">Novo recurso de recebimento de chamada em grupo no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f6d21-107">New Group Call Pickup feature in Lync Server 2013</span></span>](lync-server-2013-new-group-call-pickup-feature.md)
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="0892b-108">Confira Também</span><span class="sxs-lookup"><span data-stu-id="0892b-108">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="f6d21-108">Confira também</span><span class="sxs-lookup"><span data-stu-id="f6d21-108">See Also</span></span>
 
 
-[<span data-ttu-id="0892b-109">Novos recursos do Enterprise Voice no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0892b-109">New Enterprise Voice features in Lync Server 2013</span></span>](lync-server-2013-new-enterprise-voice-features.md)  
+[<span data-ttu-id="f6d21-109">Novos recursos do Enterprise Voice no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f6d21-109">New Enterprise Voice features in Lync Server 2013</span></span>](lync-server-2013-new-enterprise-voice-features.md)  
   
 
 </div>
