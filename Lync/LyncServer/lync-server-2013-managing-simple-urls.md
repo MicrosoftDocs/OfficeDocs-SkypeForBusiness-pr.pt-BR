@@ -49,7 +49,7 @@ Use os procedimentos desta seção para gerenciar URLs simples da página **topo
 
 <div>
 
-## <a name="see-also"></a>Confira Também
+## <a name="see-also"></a>Confira também
 
 
 [Planejamento de URLs simples no Lync Server 2013](lync-server-2013-planning-for-simple-urls.md)  

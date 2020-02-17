@@ -61,7 +61,7 @@ Use os procedimentos desta seção para gerenciar a política de local do Lync S
 
 <div>
 
-## <a name="see-also"></a>Confira Também
+## <a name="see-also"></a>Confira também
 
 
 [Definir a política de local para o Lync Server 2013](lync-server-2013-defining-the-location-policy.md)  

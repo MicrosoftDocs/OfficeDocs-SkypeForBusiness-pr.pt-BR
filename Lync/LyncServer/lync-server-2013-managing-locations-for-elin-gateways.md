@@ -103,17 +103,17 @@ Depois de decidir como você deseja dividir o espaço de construção em locais,
 <tbody>
 <tr class="odd">
 <td><p>1º andar</p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>425-555-0100</p></td>
 </tr>
 <tr class="even">
 <td><p>2º andar</p></td>
-<td><p>2 </p></td>
+<td><p>duas</p></td>
 <td><p>425-555-0111</p></td>
 </tr>
 <tr class="odd">
 <td><p>3º andar</p></td>
-<td><p>3 </p></td>
+<td><p>3D</p></td>
 <td><p>425-555-0123</p></td>
 </tr>
 </tbody>

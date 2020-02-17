@@ -91,7 +91,7 @@ Observe que o OAuth é uma parte principal do produto e não pode ser desabilita
 
 <div>
 
-## <a name="see-also"></a>Confira Também
+## <a name="see-also"></a>Confira também
 
 
 [Atribuindo um certificado de autenticação de servidor para servidor ao Microsoft Lync Server 2013](lync-server-2013-assigning-a-server-to-server-authentication-certificate-to-lync-server-2013.md)  
