@@ -65,7 +65,7 @@ Use os cmdlets a seguir para configurar o bypass de mídia.
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Planejamento de bypass de mídia no Lync Server 2013](lync-server-2013-planning-for-media-bypass.md)  

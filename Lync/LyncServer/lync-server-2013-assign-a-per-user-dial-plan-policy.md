@@ -72,7 +72,7 @@ Você pode atribuir planos de discagem por usuário com o Windows PowerShell e o
 
 Para obter mais informações, consulte o tópico de ajuda para o cmdlet [Grant-CsDialPlan](https://technet.microsoft.com/library/gg398547\(v=ocs.15\)) .
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Configurando planos de discagem no Lync Server 2013](lync-server-2013-configuring-dial-plans.md)  

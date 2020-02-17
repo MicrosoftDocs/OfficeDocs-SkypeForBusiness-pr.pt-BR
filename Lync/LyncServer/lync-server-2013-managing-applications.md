@@ -51,7 +51,7 @@ Use os procedimentos desta seção para gerenciar aplicativos para o Lync Server
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Gerenciando serviços e funções de servidor do Lync Server 2013](lync-server-2013-managing-lync-server-services-and-server-roles.md)  

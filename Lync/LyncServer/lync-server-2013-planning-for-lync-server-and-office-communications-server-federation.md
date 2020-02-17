@@ -134,7 +134,7 @@ Os requisitos de certificado normalmente são atendidos pelo planejamento de cer
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Configurar políticas para controlar o acesso de usuário federado no Lync Server 2013](lync-server-2013-configure-policies-to-control-federated-user-access.md)  

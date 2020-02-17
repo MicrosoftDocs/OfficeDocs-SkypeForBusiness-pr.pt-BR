@@ -53,7 +53,7 @@ Você pode gerenciar as notificações por push na seção **clientes** do paine
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Configurando notificações por push no Lync Server 2013](lync-server-2013-configuring-for-push-notifications.md)  

@@ -67,7 +67,7 @@ Para permitir que os clientes descubram a implantação onde o servidor local do
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Get-CsHostingProvider](https://docs.microsoft.com/powershell/module/skype/Get-CsHostingProvider)  

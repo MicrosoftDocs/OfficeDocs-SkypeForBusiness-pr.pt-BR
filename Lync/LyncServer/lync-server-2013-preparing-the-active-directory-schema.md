@@ -85,7 +85,7 @@ Para o Windows Server 2003, o ADSI Edit está incluído nas Ferramentas de Supor
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Preparando a floresta para o Lync Server 2013](lync-server-2013-preparing-the-forest.md)  

@@ -117,7 +117,7 @@ Você pode executar todos os casos de teste no seu pacote de casos de teste de r
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Testar roteamento de voz no Lync Server 2013](lync-server-2013-test-voice-routing.md)  

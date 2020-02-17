@@ -89,7 +89,7 @@ Se você tiver adicionado mais de um computador ao pool do servidor de mediaçã
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Requisitos de certificado para servidores internos no Lync Server 2013](lync-server-2013-certificate-requirements-for-internal-servers.md)  

@@ -287,7 +287,7 @@ A seguir é apresentada uma lista dos cmdlets que lidam com os aplicativos de vo
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Cmdlets do Enterprise Voice no Lync Server 2013](lync-server-2013-enterprise-voice-cmdlets.md)  

@@ -67,7 +67,7 @@ Para permitir que os clientes móveis descubram a implantação em que o servido
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Get-CsHostingProvider](https://technet.microsoft.com/library/Gg413078(v=OCS.15))  

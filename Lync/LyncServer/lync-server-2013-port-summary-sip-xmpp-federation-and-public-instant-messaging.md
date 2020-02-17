@@ -198,7 +198,7 @@ As portas e os protocolos definidos para o proxy XMPP (Extensible Messaging and 
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Cenários para acesso de usuário externo no Lync Server 2013](lync-server-2013-scenarios-for-external-user-access.md)  

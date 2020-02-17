@@ -217,7 +217,7 @@ O registro em log para o servidor de chat persistente e o System Center Operatio
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Planejando o servidor de chat persistente no Lync Server 2013](lync-server-2013-planning-for-persistent-chat-server.md)  

@@ -53,7 +53,7 @@ Este tópico descreve como instalar as ferramentas administrativas que você pre
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Ferramentas administrativas do Lync Server 2013](lync-server-2013-lync-server-administrative-tools.md)  

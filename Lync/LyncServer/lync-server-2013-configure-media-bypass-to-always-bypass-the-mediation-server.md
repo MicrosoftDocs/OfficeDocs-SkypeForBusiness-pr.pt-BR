@@ -71,7 +71,7 @@ Se você não tem uma boa conectividade entre os pontos de extremidade do Lync S
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Configurar bypass de mídia no Lync Server 2013](lync-server-2013-configure-media-bypass.md)  

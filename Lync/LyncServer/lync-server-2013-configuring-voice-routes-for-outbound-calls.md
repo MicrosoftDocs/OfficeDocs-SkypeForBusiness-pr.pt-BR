@@ -100,7 +100,7 @@ Uma rota de voz do Lync Server 2013 associa números de telefone de destino com 
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Gerenciando o roteamento de voz no Lync Server 2013](lync-server-2013-managing-voice-routing.md)  

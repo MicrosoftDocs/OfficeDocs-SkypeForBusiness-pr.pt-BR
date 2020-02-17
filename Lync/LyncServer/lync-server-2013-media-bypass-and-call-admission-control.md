@@ -57,7 +57,7 @@ O desvio de mídia e o controle de admissão de chamadas trabalham juntos para g
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Visão geral do bypass de mídia no Lync Server 2013](lync-server-2013-overview-of-media-bypass.md)  

@@ -158,7 +158,7 @@ Os cmdlets do **CsDeviceUpdate** são usados para gerenciar o serviço Web de at
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Blog do PowerShell do Lync Server](http://go.microsoft.com/fwlink/p/?linkid=203150)  

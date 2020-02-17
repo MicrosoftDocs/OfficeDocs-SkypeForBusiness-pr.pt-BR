@@ -99,7 +99,7 @@ Para obter mais informações sobre o pacote de gerenciamento do Lync Server 201
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Visualizador de eventos do Windows](http://go.microsoft.com/fwlink/p/?linkid=314067)  

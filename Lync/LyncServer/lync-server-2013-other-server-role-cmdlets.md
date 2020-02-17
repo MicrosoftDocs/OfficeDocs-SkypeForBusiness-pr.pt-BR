@@ -59,7 +59,7 @@ A seguir, uma lista de cmdlets que se relacionam diretamente ao gerenciamento de
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Blog do PowerShell do Lync Server](http://go.microsoft.com/fwlink/p/?linkid=203150)  

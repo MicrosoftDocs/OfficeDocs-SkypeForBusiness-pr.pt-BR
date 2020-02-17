@@ -43,7 +43,7 @@ O repositório unificado de contatos é habilitado por padrão. Você pode habil
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Planejando e implantando o repositório unificado de contatos no Lync Server 2013](lync-server-2013-planning-and-deploying-unified-contact-store.md)  

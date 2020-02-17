@@ -77,7 +77,7 @@ O processo de Hospedagem de usuários em um aparelho de filial persistente ou se
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Test-CsPstnOutboundCall](https://docs.microsoft.com/powershell/module/skype/Test-CsPstnOutboundCall)  

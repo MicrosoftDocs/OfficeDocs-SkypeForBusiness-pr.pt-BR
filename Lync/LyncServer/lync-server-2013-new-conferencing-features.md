@@ -96,7 +96,7 @@ O Lync Server 2013 introduz vários novos recursos que aprimoram a conferência,
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Planejamento de conferência no Lync Server 2013](lync-server-2013-planning-for-conferencing.md)  

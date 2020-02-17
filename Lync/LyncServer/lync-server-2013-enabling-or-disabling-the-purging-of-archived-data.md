@@ -125,7 +125,7 @@ Para obter mais informações, incluindo opções adicionais para a limpeza de d
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Como o arquivamento funciona no Lync Server 2013](lync-server-2013-how-archiving-works.md)  

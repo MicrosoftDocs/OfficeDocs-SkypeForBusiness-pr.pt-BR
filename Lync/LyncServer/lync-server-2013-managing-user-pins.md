@@ -53,7 +53,7 @@ Use os procedimentos a seguir para gerenciar os PINs de conferência discada dos
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Atribuir uma política de PIN por usuário no Lync Server 2013](lync-server-2013-assign-a-per-user-pin-policy.md)  

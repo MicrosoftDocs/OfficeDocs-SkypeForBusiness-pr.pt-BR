@@ -211,7 +211,7 @@ Os seguintes recursos de voz não funcionam quando um site central primário est
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Planejamento de resiliência de voz no site de filial no Lync Server 2013](lync-server-2013-planning-for-branch-site-voice-resiliency.md)  

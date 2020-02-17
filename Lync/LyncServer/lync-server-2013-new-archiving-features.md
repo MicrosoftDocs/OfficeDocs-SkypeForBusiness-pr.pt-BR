@@ -65,7 +65,7 @@ Os seguintes tipos de conteúdo não são arquivados:
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Planejamento para arquivamento no Lync Server 2013](lync-server-2013-planning-for-archiving.md)  

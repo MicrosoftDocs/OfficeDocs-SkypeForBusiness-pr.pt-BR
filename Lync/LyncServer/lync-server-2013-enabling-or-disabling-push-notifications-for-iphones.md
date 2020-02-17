@@ -107,7 +107,7 @@ Para obter mais informações, consulte o tópico de ajuda do cmdlet [Set-CsPush
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Configurando notificações por push no Lync Server 2013](lync-server-2013-configuring-for-push-notifications.md)  

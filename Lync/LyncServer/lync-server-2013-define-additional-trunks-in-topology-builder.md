@@ -129,7 +129,7 @@ Um tronco é uma conexão lógica entre um servidor de mediação e um gateway i
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Modificar um tronco no construtor de topologia no Lync Server 2013](lync-server-2013-modify-a-trunk-in-topology-builder.md)  

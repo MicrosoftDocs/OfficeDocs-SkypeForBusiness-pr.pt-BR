@@ -116,7 +116,7 @@ As políticas de conferência por usuário podem ser atribuídas usando o Window
 
 Para obter mais informações, consulte o tópico de ajuda para o cmdlet [Grant-CsConferencingPolicy](https://technet.microsoft.com/library/gg425937\(v=ocs.15\)) .
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Criar ou modificar uma política de conferência no Lync Server 2013](lync-server-2013-create-or-modify-a-conferencing-policy.md)  

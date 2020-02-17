@@ -333,7 +333,7 @@ Além disso, o recurso de integração XMPP do Lync Server 2013 permite que os u
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Interoperabilidade do cliente no Lync 2013](lync-server-2013-client-interoperability-in-lync-2013.md)  

@@ -161,7 +161,7 @@ Você não pode modificar a tabela **Sub-redes Associadas** nesta página. A lis
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Excluindo um site de rede existente no Lync Server 2013](lync-server-2013-deleting-an-existing-network-site.md)  

@@ -59,7 +59,7 @@ Você pode usar o painel de controle do Lync Server 2013 para exibir detalhes de
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Gerenciando a topologia do Lync Server 2013](lync-server-2013-managing-the-lync-server-topology.md)  

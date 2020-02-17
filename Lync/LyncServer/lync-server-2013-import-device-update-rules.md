@@ -78,7 +78,7 @@ Para obter detalhes, consulte o tópico de ajuda para o cmdlet [Import-CsDeviceU
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Exibir informações sobre as regras de atualização de dispositivos no Lync Server 2013](lync-server-2013-view-information-about-device-update-rules.md)  

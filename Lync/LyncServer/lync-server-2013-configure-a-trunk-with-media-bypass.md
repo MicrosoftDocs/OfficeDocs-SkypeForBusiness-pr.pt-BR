@@ -276,7 +276,7 @@ Depois de configurar o tronco, continue Configurando o bypass de mídia escolhen
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Configurar um tronco sem bypass de mídia no Lync Server 2013](lync-server-2013-configure-a-trunk-without-media-bypass.md)  

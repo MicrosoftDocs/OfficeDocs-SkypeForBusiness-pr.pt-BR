@@ -43,7 +43,7 @@ O bypass de mídia e o CAC (controle de admissão de chamadas) são mutuamente e
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Controle de admissão de chamadas e servidor de mediação no Lync Server 2013](lync-server-2013-call-admission-control-and-mediation-server.md)  

@@ -93,7 +93,7 @@ Para obter mais informações, consulte o tópico de ajuda para o cmdlet [Disabl
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Desabilitar ou reabilitar a conta de usuário do Lync Server 2013](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md)  

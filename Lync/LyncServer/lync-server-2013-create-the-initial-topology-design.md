@@ -122,7 +122,7 @@ Após concluir a instalação da ferramenta de planejamento do Lync Server 2013,
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Editando o design no Lync Server 2013](lync-server-2013-editing-the-design.md)  

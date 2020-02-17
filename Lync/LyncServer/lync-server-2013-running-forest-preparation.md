@@ -112,7 +112,7 @@ Depois de preparar a floresta, você deverá verificar se as configurações glo
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Usando cmdlets para reverter a preparação da floresta para o Lync Server 2013](lync-server-2013-using-cmdlets-to-reverse-forest-preparation.md)  

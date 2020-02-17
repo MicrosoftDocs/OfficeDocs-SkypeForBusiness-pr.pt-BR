@@ -95,7 +95,7 @@ Execute este procedimento no site central, que contém pelo menos um pool de fro
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Opções de implantação de gateway PSTN no Lync Server 2013](lync-server-2013-pstn-gateway-deployment-options.md)  

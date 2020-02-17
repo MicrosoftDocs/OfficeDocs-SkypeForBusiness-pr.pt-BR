@@ -245,7 +245,7 @@ Use um dos seguintes procedimentos para criar ou modificar uma fila.
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [New-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/New-CsRgsQueue)  

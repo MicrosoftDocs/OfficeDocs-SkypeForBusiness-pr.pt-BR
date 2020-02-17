@@ -94,7 +94,7 @@ Para detalhes, consulte [Get-CsNetworkRegionLink](https://docs.microsoft.com/pow
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Configurando links de site de rede no Lync Server 2013](lync-server-2013-configuring-network-site-links.md)  

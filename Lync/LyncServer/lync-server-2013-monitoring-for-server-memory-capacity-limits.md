@@ -79,7 +79,7 @@ Se a quantidade de memória disponível no servidor front-end for inferior a 1.5
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Monitorando a mobilidade para desempenho no Lync Server 2013](lync-server-2013-monitoring-mobility-for-performance.md)  

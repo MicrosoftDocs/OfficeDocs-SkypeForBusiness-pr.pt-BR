@@ -45,7 +45,7 @@ Para usar os recursos de conferência, o Lync Server 2013 requer que determinada
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Visão geral da Conferência A/V no Lync Server 2013](lync-server-2013-a-v-conferencing-overview.md)  

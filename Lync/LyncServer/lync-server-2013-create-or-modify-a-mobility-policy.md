@@ -133,7 +133,7 @@ Para detalhes, consulte o tópico de ajuda para os cmdlets [New-CsMobilityPolicy
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Configurando a política de mobilidade no Lync Server 2013](lync-server-2013-configuring-mobility-policy.md)  

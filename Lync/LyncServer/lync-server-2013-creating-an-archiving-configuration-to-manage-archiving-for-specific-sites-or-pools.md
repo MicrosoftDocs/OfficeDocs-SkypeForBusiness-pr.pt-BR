@@ -137,7 +137,7 @@ Para obter mais informações, consulte o tópico de ajuda para o cmdlet [New-Cs
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Como o arquivamento funciona no Lync Server 2013](lync-server-2013-how-archiving-works.md)  

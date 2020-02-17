@@ -94,7 +94,7 @@ Para mais informações, consulte o tópico de ajuda para o cmdlet [Get-CsNetwor
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Criar ou modificar sub-redes de rede no Lync Server 2013](lync-server-2013-create-or-modify-network-subnets.md)  

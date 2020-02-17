@@ -65,7 +65,7 @@ Se o Lync Server se conectar ao gateway SIP/CSTA implantado para controle de cha
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Configurar uma rota estática para controle de chamada remota no Lync Server 2013](lync-server-2013-configure-a-static-route-for-remote-call-control.md)  

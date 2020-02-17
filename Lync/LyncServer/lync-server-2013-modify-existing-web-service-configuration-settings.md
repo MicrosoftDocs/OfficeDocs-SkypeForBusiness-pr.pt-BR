@@ -69,7 +69,7 @@ Execute estas etapas para modificar uma política de Serviço Web existente.
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Configurando a autenticação no painel de controle do Lync Server 2013](lync-server-2013-configuring-authentication-in-the-lync-server-control-panel.md)  

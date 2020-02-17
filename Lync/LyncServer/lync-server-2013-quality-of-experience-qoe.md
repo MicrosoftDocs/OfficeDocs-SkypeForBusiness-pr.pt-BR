@@ -57,7 +57,7 @@ A QoE (Qualidade da Experiência) registra dados numéricos que indicam a qualid
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Configurando a gravação de detalhes da chamada e as configurações de qualidade da experiência no Lync Server 2013](lync-server-2013-configuring-call-detail-recording-and-quality-of-experience-settings.md)  

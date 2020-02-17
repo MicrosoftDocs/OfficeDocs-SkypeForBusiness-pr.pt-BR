@@ -173,7 +173,7 @@ PrincipalType contém os tipos principais para categorizar o que está na tabela
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [tblPrincipal no Lync Server 2013](lync-server-2013-tblprincipal.md)  

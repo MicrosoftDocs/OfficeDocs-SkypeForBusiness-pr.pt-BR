@@ -63,7 +63,7 @@ Os seguintes recursos do aplicativo de grupo de resposta são novos no Lync Serv
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Planejamento de grupos de resposta no Lync Server 2013](lync-server-2013-planning-for-response-groups.md)  

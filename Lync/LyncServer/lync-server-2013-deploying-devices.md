@@ -41,7 +41,7 @@ O Lync Server 2013 inclui o Lync Phone Edition, software que é executado em dis
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Planejamento de dispositivos](http://go.microsoft.com/fwlink/p/?linkid=285881)  

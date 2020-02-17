@@ -125,7 +125,7 @@ Após a conclusão da preparação do esquema, verifique manualmente se a parti�
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Verificando a replicação do esquema do Active Directory no Lync Server 2013](lync-server-2013-verifying-schema-replication.md)  

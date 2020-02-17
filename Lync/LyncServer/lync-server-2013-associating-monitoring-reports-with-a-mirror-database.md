@@ -81,7 +81,7 @@ Para obter relatórios de monitoramento para failover automático para o banco d
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Instalando Relatórios de Monitoramento do Lync Server 2013](lync-server-2013-installing-lync-server-2013-monitoring-reports.md)  

@@ -53,7 +53,7 @@ Quando **Usar Informações do Local e Região**, o ID do desvio é associado à
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Visão geral do bypass de mídia no Lync Server 2013](lync-server-2013-overview-of-media-bypass.md)  

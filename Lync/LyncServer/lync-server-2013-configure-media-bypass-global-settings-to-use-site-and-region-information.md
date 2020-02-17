@@ -111,7 +111,7 @@ Em seguida, adicione sub-redes ao site de rede, conforme descrito em [associar s
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Associar sub-redes a sites de rede para bypass de mídia no Lync Server 2013](lync-server-2013-associate-subnets-with-network-sites-for-media-bypass.md)  

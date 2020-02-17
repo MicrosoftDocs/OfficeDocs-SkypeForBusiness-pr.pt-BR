@@ -89,7 +89,7 @@ Para finalizar o processo, pressione CTRL + C.
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Criar usuários e contatos](create-users-and-contacts.md)  

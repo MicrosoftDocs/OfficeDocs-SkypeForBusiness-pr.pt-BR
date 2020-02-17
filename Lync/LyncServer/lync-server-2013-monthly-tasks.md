@@ -83,7 +83,7 @@ As seguintes tarefas devem ser realizadas mensalmente:
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Lista de verificação de tarefas mensais](lync-server-2013-operations-checklists.md)  

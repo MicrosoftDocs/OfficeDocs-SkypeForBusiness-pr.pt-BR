@@ -365,7 +365,7 @@ No Windows Server 2012 e no Windows Server 2012 R2, você pode usar o Windows Po
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Requisitos de IIS para pools front-end e servidores Standard Edition no Lync Server 2013](lync-server-2013-iis-requirements-for-front-end-pools-and-standard-edition-servers.md)  

@@ -175,7 +175,7 @@ Neste exemplo, a tabela a seguir e os comandos do Windows PowerShell ilustram a 
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Configurando o roteamento baseado em local no Lync Server 2013](lync-server-2013-configuring-location-based-routing.md)  

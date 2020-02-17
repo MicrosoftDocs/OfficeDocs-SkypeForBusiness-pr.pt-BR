@@ -89,7 +89,7 @@ Para obter detalhes, consulte [Get-CsPstnUsage](https://docs.microsoft.com/power
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Criar uma política de voz e configurar registros de uso de PSTN no Lync Server 2013](lync-server-2013-create-a-voice-policy-and-configure-pstn-usage-records.md)  

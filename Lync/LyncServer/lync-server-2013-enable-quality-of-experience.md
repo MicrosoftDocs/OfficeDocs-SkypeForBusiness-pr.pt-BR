@@ -107,7 +107,7 @@ Para obter detalhes, consulte [set-CsQoEConfiguration](https://docs.microsoft.co
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Planejamento de monitoramento no Lync Server 2013](lync-server-2013-planning-for-monitoring.md)  

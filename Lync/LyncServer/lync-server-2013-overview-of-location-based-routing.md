@@ -51,7 +51,7 @@ Os cenários a seguir ilustram os principais tipos de restrições que o roteame
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Planejamento de roteamento baseado em local no Lync Server 2013](lync-server-2013-planning-for-location-based-routing.md)  

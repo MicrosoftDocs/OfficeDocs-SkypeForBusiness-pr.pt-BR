@@ -70,7 +70,7 @@ Uma política única, chamada de Global, existe por padrão e não pode ser excl
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Criando ou modificando uma política de local no Lync Server 2013](lync-server-2013-creating-or-modifying-a-location-policy.md)  

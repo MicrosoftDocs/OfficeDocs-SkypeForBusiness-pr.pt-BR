@@ -93,7 +93,7 @@ Exportar seu design para o Microsoft Visio cria um diagrama para ser usado com s
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Instalando a ferramenta de planejamento no Lync Server 2013](lync-server-2013-installing-the-planning-tool.md)  

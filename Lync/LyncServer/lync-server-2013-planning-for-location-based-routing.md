@@ -65,7 +65,7 @@ O roteamento baseado em local permite restringir o roteamento de chamadas entre 
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Planejamento para o Enterprise Voice no Lync Server 2013](lync-server-2013-planning-for-enterprise-voice.md)  

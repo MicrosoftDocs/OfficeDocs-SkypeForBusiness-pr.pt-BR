@@ -127,7 +127,7 @@ Para associar sub-redes a sites de rede, você pode usar a seção **configuraç
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Planejando o controle de admissão de chamadas no Lync Server 2013](lync-server-2013-planning-for-call-admission-control.md)  

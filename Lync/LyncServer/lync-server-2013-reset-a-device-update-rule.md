@@ -134,7 +134,7 @@ Para obter detalhes, consulte o tópico de ajuda para o cmdlet [Reset-CsDeviceUp
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Aprovar uma regra de atualização de dispositivo no Lync Server 2013](lync-server-2013-approve-a-device-update-rule.md)  

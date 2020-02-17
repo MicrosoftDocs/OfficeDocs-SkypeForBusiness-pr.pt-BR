@@ -86,7 +86,7 @@ Use um dos seguintes procedimentos para excluir um intervalo de órbita de estac
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Criar ou modificar um intervalo de órbita de estacionamento de chamada no Lync Server 2013](lync-server-2013-create-or-modify-a-call-park-orbit-range.md)  

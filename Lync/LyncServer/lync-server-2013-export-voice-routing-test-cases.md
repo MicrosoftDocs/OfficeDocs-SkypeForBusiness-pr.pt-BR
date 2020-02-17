@@ -59,7 +59,7 @@ Os casos de teste, que podem ser criados usando o painel de controle do Lync Ser
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Importar casos de teste de roteamento de voz no Lync Server 2013](lync-server-2013-import-voice-routing-test-cases.md)  

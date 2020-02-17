@@ -63,7 +63,7 @@ Um plano de discagem do Lync Server 2013 é um conjunto nomeado de regras de nor
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Planos de discagem e regras de normalização no Lync Server 2013](lync-server-2013-dial-plans-and-normalization-rules.md)  

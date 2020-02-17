@@ -103,7 +103,7 @@ Cada região de um configuração de CAC (controle de admissão de chamadas) dev
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Excluindo rotas de região de rede existentes no Lync Server 2013](lync-server-2013-deleting-existing-network-region-routes.md)  

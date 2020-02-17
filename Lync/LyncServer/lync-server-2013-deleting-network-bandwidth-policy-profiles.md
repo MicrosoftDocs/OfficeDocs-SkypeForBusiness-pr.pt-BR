@@ -75,7 +75,7 @@ Como parte de um controle de admissão de chamadas (CAC), uma diretiva de largur
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Criando ou modificando perfis de política de largura de banda no Lync Server 2013](lync-server-2013-creating-or-modifying-bandwidth-policy-profiles.md)  

@@ -59,7 +59,7 @@ Os tópicos desta seção fornecem procedimentos passo a passo para tarefas que 
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Gerenciando reuniões e conferências no Lync Server 2013](lync-server-2013-managing-meetings-and-conferences.md)  

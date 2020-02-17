@@ -70,7 +70,7 @@ Se você tiver feito alterações não confirmadas nas configurações de qualqu
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Exportar um arquivo de configuração de rota de voz no Lync Server 2013](lync-server-2013-export-a-voice-route-configuration-file.md)  

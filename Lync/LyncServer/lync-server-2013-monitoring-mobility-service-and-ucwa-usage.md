@@ -89,7 +89,7 @@ Além de contadores de uso de CPU e memória, você pode usar os contadores de d
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Monitoramento de limites de capacidade de memória do servidor no Lync Server 2013](lync-server-2013-monitoring-for-server-memory-capacity-limits.md)  

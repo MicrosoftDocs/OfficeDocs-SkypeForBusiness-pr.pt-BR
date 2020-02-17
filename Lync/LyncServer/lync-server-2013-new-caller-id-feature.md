@@ -43,7 +43,7 @@ Agora, com o Lync Server 2013, o número de telefone do chamador e o número de 
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Novos recursos do Enterprise Voice no Lync Server 2013](lync-server-2013-new-enterprise-voice-features.md)  

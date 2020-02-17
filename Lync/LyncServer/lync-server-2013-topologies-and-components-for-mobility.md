@@ -144,7 +144,7 @@ Uma implantação do Lync Server 2013 sem as atualizações cumulativas do Lync 
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Planejamento para acesso de usuário externo no Lync Server 2013](lync-server-2013-planning-for-external-user-access.md)  

@@ -107,7 +107,7 @@ A tabela a seguir fornece uma visão geral das etapas necessárias para implanta
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Visão geral da conferência no Lync Server 2013](lync-server-2013-overview-of-conferencing.md)  

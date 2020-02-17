@@ -55,7 +55,7 @@ Os tópicos desta seção fornecem procedimentos passo a passo para tarefas de m
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Operações no Lync Server 2013](lync-server-2013-operations.md)  

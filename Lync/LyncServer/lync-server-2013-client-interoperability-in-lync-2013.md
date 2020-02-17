@@ -525,7 +525,7 @@ Os clientes do Lync 2013 podem ingressar em reuniões hospedadas no Lync 2010 e 
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Requisitos de aplicativo do Lync Windows Store para Lync Server 2013](lync-server-2013-lync-windows-store-app-requirements.md)  

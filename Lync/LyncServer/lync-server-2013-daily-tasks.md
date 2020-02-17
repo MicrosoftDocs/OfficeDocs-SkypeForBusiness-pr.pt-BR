@@ -55,7 +55,7 @@ Para ajudar a organizar o desempenho de tarefas diárias, use a [lista de verifi
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Lista de verificação de tarefas diárias](lync-server-2013-operations-checklists.md)  

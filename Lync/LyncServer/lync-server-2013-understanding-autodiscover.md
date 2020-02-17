@@ -189,7 +189,7 @@ O `Self` token se refere a informações específicas para o cliente (tipo de re
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Requisitos do sistema para componentes de acesso de usuário externo para o Lync Server 2013](lync-server-2013-system-requirements-for-external-user-access-components.md)  

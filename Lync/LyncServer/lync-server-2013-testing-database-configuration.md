@@ -208,7 +208,7 @@ Aqui estão alguns motivos comuns pelos quais **Test-CsDatabase** pode falhar:
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Get-CsDatabaseMirrorState](https://docs.microsoft.com/powershell/module/skype/Get-CsDatabaseMirrorState)  

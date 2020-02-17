@@ -55,7 +55,7 @@ Você pode configurar os requisitos de QoS (qualidade de serviço) de voz para d
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Gerenciando a infraestrutura de rede do Lync Server 2013](lync-server-2013-managing-the-lync-server-2013-network-infrastructure.md)  

@@ -72,7 +72,7 @@ Caso faça alterações em sua configuração de rede, você pode executar a ver
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Visão geral do controle de admissão de chamadas no Lync Server 2013](lync-server-2013-overview-of-call-admission-control.md)  

@@ -142,7 +142,7 @@ No Lync Server 2013, você pode substituir a quantidade de tempo padrão entre a
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Excluindo uma política de local no Lync Server 2013](lync-server-2013-deleting-a-location-policy.md)  

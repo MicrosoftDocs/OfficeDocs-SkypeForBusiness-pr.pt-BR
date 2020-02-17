@@ -212,7 +212,7 @@ Os procedimentos nesta seção descrevem como criar ou modificar as regras de pu
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Configurando servidores de proxy reverso para o Lync Server 2013](lync-server-2013-setting-up-reverse-proxy-servers.md)  

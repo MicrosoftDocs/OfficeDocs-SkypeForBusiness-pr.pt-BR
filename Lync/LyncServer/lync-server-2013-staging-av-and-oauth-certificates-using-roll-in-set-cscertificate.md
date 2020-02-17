@@ -164,7 +164,7 @@ Quando a hora efetiva é atingida (7/21/2012 1:00:00 AM), todos os novos tokens 
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Planejar certificados de servidor de borda no Lync Server 2013](lync-server-2013-plan-for-edge-server-certificates.md)  
