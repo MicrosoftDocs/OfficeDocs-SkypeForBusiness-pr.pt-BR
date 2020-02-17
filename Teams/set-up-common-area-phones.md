@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Saiba como configurar telefones celulares comuns para "lobbies", áreas de recepção e salas de conferência '
-ms.openlocfilehash: dff06d43e196b999d06c9fa78e7d66ad7a162998
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 5997137420a9cac0517f67a81c7dedc7b779b715
+ms.sourcegitcommit: f3d4f4aabe31c5516507dfacbbd61cf0ae362d46
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41838031"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42089724"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>Configurar a licença de Telefone de Área Comum para o Microsoft Teams
 > [!NOTE]
@@ -50,7 +50,10 @@ Primeiro, você precisa comprar uma licença de telefone (CAP) de área comum e 
 4. Expanda **assinaturas complementares** e clique para comprar um plano de chamadas. Escolha o **plano de chamadas domésticas** ou de **chamadas domésticas e internacionais**.
 
 > [!NOTE]
-> Você não precisa de uma licença do Sistema de Telefonia. Ela está incluída na licença do Telefone da Área Comum.
+> Se você estiver usando o roteamento direto do sistema de telefonia da Microsoft, você não precisa de uma licença de plano de chamada.
+
+> [!NOTE]
+> Você não precisa adicionar uma licença do sistema de telefone. Ela está incluída na licença do Telefone da Área Comum.
 
 Para obter mais informações sobre licenças, consulte [Licenciamento de Complementos do Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
@@ -89,6 +92,9 @@ A licença de telefonia do Common Area é compatível com:
 6. Atribua as licenças ao usuário. Na mesma página, clique para expandir as **Licenças de produto**. Habilite o telefone de área comum e escolha um **plano de chamadas domésticas** ou um **plano de chamadas doméstico e internacional**. 
 
     ![Captura de tela mostrando atribuição de licença](media/set-up-common-area-phone-image2.png)
+
+> [!NOTE]
+> Se você estiver usando o roteamento direto do sistema de telefonia da Microsoft, você não precisará atribuir uma licença de plano de chamada.
 
 Para obter mais informações, consulte [Adicionar um usuário](https://docs.microsoft.com/office365/admin/add-users/add-users?redirectSourcePath=%252farticle%252f1970f7d6-03b5-442f-b385-5880b9c256ec&view=o365-worldwide).
 
