@@ -25,7 +25,7 @@ ms.locfileid: "42041250"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="using-cmdlets-to-reverse-domain-preparation-for-lync-server-2013"></a><span data-ttu-id="98788-102">Usando cmdlets para reverter a preparação do domínio para o Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="98788-102">Using cmdlets to reverse domain preparation for Lync Server 2013</span></span>
+# <a name="using-cmdlets-to-reverse-domain-preparation-for-lync-server-2013"></a><span data-ttu-id="b435b-102">Usando cmdlets para reverter a preparação do domínio para o Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b435b-102">Using cmdlets to reverse domain preparation for Lync Server 2013</span></span>
 
 </div>
 
@@ -35,34 +35,34 @@ ms.locfileid: "42041250"
 
 <span> </span>
 
-<span data-ttu-id="98788-103">_**Última modificação do tópico:** 2012-10-29_</span><span class="sxs-lookup"><span data-stu-id="98788-103">_**Topic Last Modified:** 2012-10-29_</span></span>
+<span data-ttu-id="b435b-103">_**Última modificação do tópico:** 2012-10-29_</span><span class="sxs-lookup"><span data-stu-id="b435b-103">_**Topic Last Modified:** 2012-10-29_</span></span>
 
-<span data-ttu-id="98788-104">Use o cmdlet **Disable-CsAdDomain** para reverter a etapa de preparação do domínio.</span><span class="sxs-lookup"><span data-stu-id="98788-104">Use the **Disable-CsAdDomain** cmdlet to reverse the domain preparation step.</span></span>
+<span data-ttu-id="b435b-104">Use o cmdlet **Disable-CsAdDomain** para reverter a etapa de preparação do domínio.</span><span class="sxs-lookup"><span data-stu-id="b435b-104">Use the **Disable-CsAdDomain** cmdlet to reverse the domain preparation step.</span></span>
 
 <div>
 
-## <a name="to-use-cmdlets-to-reverse-domain-preparation"></a><span data-ttu-id="98788-105">Para usar cmdlets para reverter a preparação de domínio</span><span class="sxs-lookup"><span data-stu-id="98788-105">To use cmdlets to reverse domain preparation</span></span>
+## <a name="to-use-cmdlets-to-reverse-domain-preparation"></a><span data-ttu-id="b435b-105">Para usar cmdlets para reverter a preparação de domínio</span><span class="sxs-lookup"><span data-stu-id="b435b-105">To use cmdlets to reverse domain preparation</span></span>
 
-1.  <span data-ttu-id="98788-106">Faça logon em qualquer servidor no domínio como um membro do grupo de Administradores de Domínio.</span><span class="sxs-lookup"><span data-stu-id="98788-106">Log on to any server in the domain as a member of the Domain Admins group.</span></span>
+1.  <span data-ttu-id="b435b-106">Faça logon em qualquer servidor no domínio como um membro do grupo de Administradores de Domínio.</span><span class="sxs-lookup"><span data-stu-id="b435b-106">Log on to any server in the domain as a member of the Domain Admins group.</span></span>
 
-2.  <span data-ttu-id="98788-107">Inicie o Shell de Gerenciamento do Lync Server: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Shell de Gerenciamento do Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="98788-107">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+2.  <span data-ttu-id="b435b-107">Inicie o Shell de Gerenciamento do Lync Server: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Shell de Gerenciamento do Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="b435b-107">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-3.  <span data-ttu-id="98788-108">Sejam</span><span class="sxs-lookup"><span data-stu-id="98788-108">Run:</span></span>
+3.  <span data-ttu-id="b435b-108">Sejam</span><span class="sxs-lookup"><span data-stu-id="b435b-108">Run:</span></span>
     
         Disable-CsAdDomain [-Domain <Fqdn>] [-DomainController <Fqdn>] [-Force <SwitchParameter>] 
         [-GlobalCatalog <Fqdn>] [-GlobalSettingsDomainController <Fqdn>] 
     
-    <span data-ttu-id="98788-109">Por exemplo:</span><span class="sxs-lookup"><span data-stu-id="98788-109">For example:</span></span>
+    <span data-ttu-id="b435b-109">Por exemplo:</span><span class="sxs-lookup"><span data-stu-id="b435b-109">For example:</span></span>
     
         Disable-CsAdDomain -Domain domain1.contoso.net -GlobalSettingsDomainController dc01.domain1.contoso.net -Force
     
-    <span data-ttu-id="98788-110">Se o parâmetro Force estiver presente, a preparação do domínio será revertida, mesmo que um ou mais servidores front-end ou servidores de conferência A/V no domínio estejam ativados.</span><span class="sxs-lookup"><span data-stu-id="98788-110">If the Force parameter is present, domain preparation is rolled back, even if one or more Front End Servers or A/V Conferencing Servers in the domain are activated.</span></span> <span data-ttu-id="98788-111">Se o parâmetro Force não estiver presente, a reversão de preparação do domínio será encerrada se qualquer servidor front-end ou servidores de conferência A/V no domínio estiver ativado.</span><span class="sxs-lookup"><span data-stu-id="98788-111">If the Force parameter is not present, domain preparation rollback is terminated if any Front End Servers or A/V Conferencing Servers in the domain are activated.</span></span>
+    <span data-ttu-id="b435b-110">Se o parâmetro Force estiver presente, a preparação do domínio será revertida, mesmo que um ou mais servidores front-end ou servidores de conferência A/V no domínio estejam ativados.</span><span class="sxs-lookup"><span data-stu-id="b435b-110">If the Force parameter is present, domain preparation is rolled back, even if one or more Front End Servers or A/V Conferencing Servers in the domain are activated.</span></span> <span data-ttu-id="b435b-111">Se o parâmetro Force não estiver presente, a reversão de preparação do domínio será encerrada se qualquer servidor front-end ou servidores de conferência A/V no domínio estiver ativado.</span><span class="sxs-lookup"><span data-stu-id="b435b-111">If the Force parameter is not present, domain preparation rollback is terminated if any Front End Servers or A/V Conferencing Servers in the domain are activated.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="98788-112">O parâmetro GlobalSettingsDomainController permite indicar onde as configurações globais estão armazenadas.</span><span class="sxs-lookup"><span data-stu-id="98788-112">The parameter GlobalSettingsDomainController allows you to indicate where global settings are stored.</span></span> <span data-ttu-id="98788-113">Se estiverem armazenadas no contêiner Sistema (o que é típico, quando as importações de atualização não tiveram a configuração global migrada para o contêiner Configuração), você define um controlador de domínio na raiz da sua floresta do Active Directory.</span><span class="sxs-lookup"><span data-stu-id="98788-113">If your settings are stored in the System container (which is typical with upgrade deployments that have not had the global setting migrated to the Configuration container), you define a domain controller in the root of your Active Directory forest.</span></span> <span data-ttu-id="98788-114">Se as configurações globais estiverem no contêiner Configuração (o que é típico nas novas implantações ou nas atualizadas, onde as configurações foram migradas para o contêiner Configuração), você define qualquer controlador de domínio na floresta.</span><span class="sxs-lookup"><span data-stu-id="98788-114">If the global settings are in the Configuration container (which is typical with new deployments or upgrade deployments where the settings have been migrated to the Configuration container), you define any domain controller in the forest.</span></span> <span data-ttu-id="98788-115">Se você não especificar esse parâmetro, o cmdlet assumirá que as configurações são armazenadas no contêiner de configuração e se refere a qualquer controlador de domínio&nbsp;no AD DS.</span><span class="sxs-lookup"><span data-stu-id="98788-115">If you do not specify this parameter, the cmdlet assumes that the settings are stored in the Configuration container and refers to any domain controller in AD&nbsp;DS.</span></span>
+    > <span data-ttu-id="b435b-112">O parâmetro GlobalSettingsDomainController permite indicar onde as configurações globais estão armazenadas.</span><span class="sxs-lookup"><span data-stu-id="b435b-112">The parameter GlobalSettingsDomainController allows you to indicate where global settings are stored.</span></span> <span data-ttu-id="b435b-113">Se estiverem armazenadas no contêiner Sistema (o que é típico, quando as importações de atualização não tiveram a configuração global migrada para o contêiner Configuração), você define um controlador de domínio na raiz da sua floresta do Active Directory.</span><span class="sxs-lookup"><span data-stu-id="b435b-113">If your settings are stored in the System container (which is typical with upgrade deployments that have not had the global setting migrated to the Configuration container), you define a domain controller in the root of your Active Directory forest.</span></span> <span data-ttu-id="b435b-114">Se as configurações globais estiverem no contêiner Configuração (o que é típico nas novas implantações ou nas atualizadas, onde as configurações foram migradas para o contêiner Configuração), você define qualquer controlador de domínio na floresta.</span><span class="sxs-lookup"><span data-stu-id="b435b-114">If the global settings are in the Configuration container (which is typical with new deployments or upgrade deployments where the settings have been migrated to the Configuration container), you define any domain controller in the forest.</span></span> <span data-ttu-id="b435b-115">Se você não especificar esse parâmetro, o cmdlet assumirá que as configurações são armazenadas no contêiner de configuração e se refere a qualquer controlador de domínio&nbsp;no AD DS.</span><span class="sxs-lookup"><span data-stu-id="b435b-115">If you do not specify this parameter, the cmdlet assumes that the settings are stored in the Configuration container and refers to any domain controller in AD&nbsp;DS.</span></span>
 
     
     </div>
@@ -71,13 +71,13 @@ ms.locfileid: "42041250"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="98788-116">Confira Também</span><span class="sxs-lookup"><span data-stu-id="98788-116">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="b435b-116">Confira também</span><span class="sxs-lookup"><span data-stu-id="b435b-116">See Also</span></span>
 
 
-[<span data-ttu-id="98788-117">Executando a preparação do domínio para o Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="98788-117">Running domain preparation for Lync Server 2013</span></span>](lync-server-2013-running-domain-preparation.md)  
+[<span data-ttu-id="b435b-117">Executando a preparação do domínio para o Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b435b-117">Running domain preparation for Lync Server 2013</span></span>](lync-server-2013-running-domain-preparation.md)  
 
 
-[<span data-ttu-id="98788-118">Preparando domínios para o Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="98788-118">Preparing domains for Lync Server 2013</span></span>](lync-server-2013-preparing-domains.md)  
+[<span data-ttu-id="b435b-118">Preparando domínios para o Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b435b-118">Preparing domains for Lync Server 2013</span></span>](lync-server-2013-preparing-domains.md)  
   
 
 </div>
