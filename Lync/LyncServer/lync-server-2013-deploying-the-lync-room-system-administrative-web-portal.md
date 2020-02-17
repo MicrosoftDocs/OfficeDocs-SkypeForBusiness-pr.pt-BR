@@ -67,7 +67,7 @@ Depois que o portal da Web administrativo do LRS é implantado no servidor, os a
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Implantando a conferência no Lync Server 2013](lync-server-2013-deploying-conferencing.md)  

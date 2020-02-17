@@ -200,7 +200,7 @@ No entanto, sempre que você alterar um nome de URL simples, deverá executar o 
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Requisitos de DNS para URLs simples no Lync Server 2013](lync-server-2013-dns-requirements-for-simple-urls.md)  

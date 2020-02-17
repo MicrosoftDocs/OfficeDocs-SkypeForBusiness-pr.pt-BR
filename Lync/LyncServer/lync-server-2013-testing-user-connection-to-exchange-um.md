@@ -153,7 +153,7 @@ Aqui estão alguns motivos comuns pelos quais **Test-CsExUMConnectivity** pode f
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Test-CsExUMVoiceMail](https://docs.microsoft.com/powershell/module/skype/Test-CsExUMVoiceMail)  

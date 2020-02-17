@@ -79,7 +79,7 @@ Você pode configurar políticas de local no painel de controle de **rede** do L
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Criando ou modificando uma política de local no Lync Server 2013](lync-server-2013-creating-or-modifying-a-location-policy.md)  

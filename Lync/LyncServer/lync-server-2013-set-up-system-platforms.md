@@ -63,7 +63,7 @@ Você também pode implantar o servidor de chat persistente com o Lync Server 20
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Suporte e requisitos adicionais do servidor no Lync Server 2013](lync-server-2013-additional-server-support-and-requirements.md)  

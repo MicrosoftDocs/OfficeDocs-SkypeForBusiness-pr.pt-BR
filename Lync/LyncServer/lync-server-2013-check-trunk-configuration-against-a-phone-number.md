@@ -142,7 +142,7 @@ Nesse ponto, verifique o valor da propriedade Pattern (que é uma cadeia de cara
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Test-CsTrunkConfiguration](https://docs.microsoft.com/powershell/module/skype/Test-CsTrunkConfiguration)  

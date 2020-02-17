@@ -340,7 +340,7 @@ Se possuir um pool do Servidor de Mediação autônomo, os servidores presentes 
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Suporte a certificados curinga no Lync Server 2013](lync-server-2013-wildcard-certificate-support.md)  

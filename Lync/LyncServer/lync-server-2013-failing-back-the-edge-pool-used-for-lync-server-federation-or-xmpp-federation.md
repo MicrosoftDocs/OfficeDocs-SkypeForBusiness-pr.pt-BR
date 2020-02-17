@@ -85,7 +85,7 @@ Após um pool de Borda em falha usado para hospedar a federação entre o retorn
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Failover do pool de borda usado para Federação do Lync Server no Lync Server 2013](lync-server-2013-failing-over-the-edge-pool-used-for-lync-server-federation.md)  

@@ -69,7 +69,7 @@ Os tópicos a seguir apresentam e detalham a ferramenta de planejamento.
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Implantando o Lync Server 2013](lync-server-2013-deploying-lync-server.md)  

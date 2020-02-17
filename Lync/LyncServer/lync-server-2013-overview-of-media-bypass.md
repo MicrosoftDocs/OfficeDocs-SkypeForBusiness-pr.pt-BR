@@ -74,7 +74,7 @@ Somente os clientes e dispositivos do Lync 2010 ou superior dão suporte à inte
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Modos de bypass de mídia no Lync Server 2013](lync-server-2013-media-bypass-modes.md)  

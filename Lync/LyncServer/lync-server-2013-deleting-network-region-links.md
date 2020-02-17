@@ -68,7 +68,7 @@ Você pode configurar links entre duas regiões de rede como parte do controle d
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Configurando links de região de rede no Lync Server 2013](lync-server-2013-configuring-network-region-links.md)  

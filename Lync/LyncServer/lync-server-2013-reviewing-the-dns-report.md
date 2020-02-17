@@ -45,7 +45,7 @@ Você deve ter sua equipe de gerenciamento de DNS para verificar completamente o
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Revisando os relatórios do administrador no Lync Server 2013](lync-server-2013-reviewing-the-administrator-reports.md)  

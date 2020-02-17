@@ -239,7 +239,7 @@ A guia **Resumo** indica quais usuários usar para cada um dos cenários. É pos
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Criar usuários e contatos](create-users-and-contacts.md)  

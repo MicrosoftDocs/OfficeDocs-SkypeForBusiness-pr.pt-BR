@@ -67,7 +67,7 @@ Para obter detalhes sobre como as configurações de arquivamento são implement
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Como o arquivamento funciona no Lync Server 2013](lync-server-2013-how-archiving-works.md)  

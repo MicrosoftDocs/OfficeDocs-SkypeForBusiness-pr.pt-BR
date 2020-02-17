@@ -67,7 +67,7 @@ Um diretor é um servidor que executa o software de comunicações do Microsoft 
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Topologias com suporte no Lync Server 2013](lync-server-2013-supported-topologies.md)  

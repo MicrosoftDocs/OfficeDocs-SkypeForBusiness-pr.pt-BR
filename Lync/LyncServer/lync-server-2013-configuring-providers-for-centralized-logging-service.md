@@ -208,7 +208,7 @@ Quando você remove um cenário usando o cmdlet **Remove-CsClsScenario**, ele é
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Get-CsClsScenario](https://docs.microsoft.com/powershell/module/skype/Get-CsClsScenario)  

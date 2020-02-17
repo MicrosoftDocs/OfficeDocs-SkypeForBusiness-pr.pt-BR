@@ -41,7 +41,7 @@ Execute auditorias regulares de segurança, como regras de firewall, direitos de
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Planejamento de segurança no Lync Server 2013](lync-server-2013-planning-for-security.md)  

@@ -99,7 +99,7 @@ Esta seção fornece diretrizes para definir as seguintes configurações do ser
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Tronco SIP no Lync Server 2013](lync-server-2013-sip-trunking.md)  

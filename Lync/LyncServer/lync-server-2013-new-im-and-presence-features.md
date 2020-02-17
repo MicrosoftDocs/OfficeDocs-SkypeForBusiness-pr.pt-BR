@@ -45,7 +45,7 @@ O Microsoft Lync Server 2013 adiciona os novos recursos de IM (mensagens instant
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Habilitar usuários para repositório unificado de contatos no Lync Server 2013](lync-server-2013-enable-users-for-unified-contact-store.md)  

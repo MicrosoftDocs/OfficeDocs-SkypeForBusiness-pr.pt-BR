@@ -162,7 +162,7 @@ Dialin.fabrikam.com
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Get-CsCertificate](https://docs.microsoft.com/powershell/module/skype/Get-CsCertificate)  

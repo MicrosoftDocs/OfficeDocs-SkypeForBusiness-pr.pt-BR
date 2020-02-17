@@ -160,7 +160,7 @@ Para configurar IM e presença, use os seguintes cmdlets:
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Cmdlets de gerenciamento de cliente no Lync Server 2013](lync-server-2013-client-management-cmdlets.md)  

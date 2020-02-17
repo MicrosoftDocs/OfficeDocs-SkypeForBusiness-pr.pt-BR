@@ -147,7 +147,7 @@ Para obter detalhes sobre como atribuir um plano de discagem do usuário ou sobr
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Desabilitar um usuário para o Enterprise Voice no Lync Server 2013](lync-server-2013-disable-a-user-for-enterprise-voice.md)  

@@ -75,7 +75,7 @@ Os aparelhos de ramificação persistentes do Microsoft Lync Server 2013 (SBA) n
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Definir um servidor ou aparelho de filial persistente no Lync Server 2013](lync-server-2013-define-a-survivable-branch-appliance-or-server.md)  

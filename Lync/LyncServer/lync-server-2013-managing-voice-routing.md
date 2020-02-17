@@ -55,7 +55,7 @@ Os tópicos desta seção fornecem procedimentos passo a passo para tarefas que 
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Planejamento para o Enterprise Voice no Lync Server 2013](lync-server-2013-planning-for-enterprise-voice.md)  

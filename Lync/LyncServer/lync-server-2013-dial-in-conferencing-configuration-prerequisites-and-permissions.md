@@ -129,7 +129,7 @@ A configuração de uma conferência discada exige qualquer uma das funções ad
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Implantando o Enterprise Voice no Lync Server 2013](lync-server-2013-deploying-enterprise-voice.md)  

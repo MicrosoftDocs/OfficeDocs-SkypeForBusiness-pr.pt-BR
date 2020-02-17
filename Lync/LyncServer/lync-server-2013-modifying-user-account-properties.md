@@ -51,7 +51,7 @@ Você pode usar os procedimentos neste seção para modificar as propriedades de
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Contas de usuário habilitadas para o Lync Server 2013](lync-server-2013-user-accounts-enabled-for-lync-server.md)  

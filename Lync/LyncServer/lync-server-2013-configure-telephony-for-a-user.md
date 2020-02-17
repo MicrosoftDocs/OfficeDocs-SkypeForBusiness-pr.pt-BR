@@ -81,7 +81,7 @@ Para obter detalhes sobre como configurar telefonia para uma organização, cons
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Modificando Propriedades da conta de usuário no Lync Server 2013](lync-server-2013-modifying-user-account-properties.md)  

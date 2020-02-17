@@ -119,7 +119,7 @@ O Lync Server 2013 oferece suporte aos seguintes clientes de versões anteriores
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Interoperabilidade do cliente no Lync 2013](lync-server-2013-client-interoperability-in-lync-2013.md)  

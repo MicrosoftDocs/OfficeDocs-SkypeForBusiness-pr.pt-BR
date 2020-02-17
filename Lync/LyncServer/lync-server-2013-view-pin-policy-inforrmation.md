@@ -87,7 +87,7 @@ Para obter mais informações, consulte o tópico de ajuda para o cmdlet [Get-Cs
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Modificar definições de configuração do serviço Web existente no Lync Server 2013](lync-server-2013-modify-existing-web-service-configuration-settings.md)  

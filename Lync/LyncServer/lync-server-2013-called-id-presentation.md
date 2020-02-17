@@ -77,7 +77,7 @@ Você pode usar um dos seguintes métodos para compilar ou modificar uma regra d
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Apresentação da ID de chamadas no Lync Server 2013](lync-server-2013-caller-id-presentation.md)  

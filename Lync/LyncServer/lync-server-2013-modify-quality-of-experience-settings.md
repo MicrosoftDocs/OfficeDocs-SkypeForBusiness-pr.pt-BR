@@ -104,7 +104,7 @@ Para obter mais informações, consulte o tópico de ajuda para o cmdlet [set-Cs
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Implantando o monitoramento no Lync Server 2013](lync-server-2013-deploying-monitoring.md)  

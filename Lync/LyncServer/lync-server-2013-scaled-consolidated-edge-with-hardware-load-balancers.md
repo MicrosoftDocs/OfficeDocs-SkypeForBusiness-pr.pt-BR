@@ -101,7 +101,7 @@ Para obter detalhes, consulte a seção "requisitos do balanceador de carga de h
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Arquitetura de endereçamento de IP versão 6](http://tools.ietf.org/html/rfc4291)  

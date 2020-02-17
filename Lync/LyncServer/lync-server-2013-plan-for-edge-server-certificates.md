@@ -99,7 +99,7 @@ Criar um certificado interno único com chave privada de exportação, copiá-lo
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Preparando certificados AV e OAuth no Lync Server 2013 usando-o-rolo no set-CsCertificate](lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-https://docs.microsoft.com/powershell/module/skype/Set-CsCertificate)  

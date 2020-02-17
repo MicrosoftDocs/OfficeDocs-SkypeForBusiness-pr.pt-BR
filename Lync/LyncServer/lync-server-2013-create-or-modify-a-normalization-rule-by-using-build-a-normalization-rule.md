@@ -107,7 +107,7 @@ Complete as etapas a seguir se quiser criar ou modificar uma regra de normaliza�
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Criar ou modificar uma regra de normalização manualmente no Lync Server 2013](lync-server-2013-create-or-modify-a-normalization-rule-manually.md)  

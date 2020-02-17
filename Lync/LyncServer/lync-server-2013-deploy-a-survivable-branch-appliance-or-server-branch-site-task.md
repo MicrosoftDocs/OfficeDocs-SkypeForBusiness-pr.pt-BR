@@ -78,7 +78,7 @@ Execute um dos dois procedimentos descritos neste tópico no site de filial, dep
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Apêndice A: usando cmdlets para implantar um aparelho de filial persistente no Lync Server 2013](lync-server-2013-appendix-a-using-cmdlets-to-deploy-a-survivable-branch-appliance.md)  

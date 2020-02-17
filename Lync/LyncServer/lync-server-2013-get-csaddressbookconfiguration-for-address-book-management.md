@@ -55,7 +55,7 @@ Retorna todas as configurações em todos os sites e aplica RunTimeOfDay de 23h 
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Get-CsAddressBookConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsAddressBookConfiguration)  

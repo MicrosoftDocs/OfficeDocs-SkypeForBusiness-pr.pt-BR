@@ -101,7 +101,7 @@ Revise os tópicos a seguir referentes às operações do sistema antes de pross
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Microsoft Operations Framework 4,0](http://go.microsoft.com/fwlink/p/?linkid=40939)  

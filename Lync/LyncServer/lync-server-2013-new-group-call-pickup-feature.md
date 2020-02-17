@@ -43,7 +43,7 @@ O recebimento de chamadas em grupo é baseado no aplicativo de estacionamento de
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Planejando o recebimento de chamadas em grupo no Lync Server 2013](lync-server-2013-planning-for-group-call-pickup.md)  

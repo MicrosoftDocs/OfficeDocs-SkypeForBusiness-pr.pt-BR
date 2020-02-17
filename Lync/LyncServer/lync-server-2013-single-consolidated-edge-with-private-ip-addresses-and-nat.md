@@ -104,7 +104,7 @@ Tecnologias de conversação do endereço de rede (NAT) para IPv6 existem que pe
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Arquitetura de endereçamento de IP versão 6](http://tools.ietf.org/html/rfc4291)  

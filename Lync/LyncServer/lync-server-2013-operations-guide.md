@@ -69,7 +69,7 @@ Presume-se que sua implantação do Microsoft Lync Server 2013 esteja concluída
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Introdução ao Lync Server 2013](lync-server-2013-getting-started.md)  

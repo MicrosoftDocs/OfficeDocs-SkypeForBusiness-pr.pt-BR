@@ -43,7 +43,7 @@ Por já existirem muitos dispositivos que ainda não suportam IPv6, uma transiç
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Planejando e Configurando o IPv6 no Lync Server 2013](lync-server-2013-planning-for-and-configuring-ipv6.md)  

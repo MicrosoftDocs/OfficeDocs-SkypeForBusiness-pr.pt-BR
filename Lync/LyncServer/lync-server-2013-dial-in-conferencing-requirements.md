@@ -115,7 +115,7 @@ A criação de vários diretórios de conferência garantirá que as IDs de conf
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Componente do servidor de mediação no Lync Server 2013](lync-server-2013-mediation-server-component.md)  

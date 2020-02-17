@@ -47,7 +47,7 @@ O Lync Server 2013 apresenta os seguintes novos recursos de vídeo:
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Planejamento e implantação de vídeo no Lync Server 2013](lync-server-2013-planning-and-deploying-video.md)  

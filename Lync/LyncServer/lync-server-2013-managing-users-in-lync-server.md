@@ -49,7 +49,7 @@ Você pode usar o painel de controle do Lync Server 2013 e o Shell de gerenciame
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Operações no Lync Server 2013](lync-server-2013-operations.md)  

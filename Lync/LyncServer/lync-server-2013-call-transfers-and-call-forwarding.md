@@ -106,7 +106,7 @@ Por exemplo: um usuário do Lync em uma chamada com outro usuário do Lync que e
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Cenários para roteamento baseado em local no Lync Server 2013](lync-server-2013-scenarios-for-location-based-routing.md)  

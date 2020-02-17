@@ -59,7 +59,7 @@ Para obter detalhes sobre o processo e os recursos do serviço Web de atualizaç
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Ferramentas e serviços para gerenciar e solucionar problemas de dispositivos](http://technet.microsoft.com/library/gg425800\(v=ocs.14\).aspx)  

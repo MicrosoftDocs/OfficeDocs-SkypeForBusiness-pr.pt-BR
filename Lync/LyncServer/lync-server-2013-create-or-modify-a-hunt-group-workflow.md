@@ -423,7 +423,7 @@ Use um dos seguintes procedimentos para criar ou modificar um fluxo de trabalho 
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Opcion Definir os conjuntos de feriados do grupo de resposta no Lync Server 2013](lync-server-2013-optional-define-response-group-holiday-sets.md)  

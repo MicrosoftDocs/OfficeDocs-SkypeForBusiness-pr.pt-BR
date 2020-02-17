@@ -41,7 +41,7 @@ O Lync Server 2013 apresenta escape de caixa postal, um aprimoramento para geren
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Configurando o escape de caixa postal no Lync Server 2013](lync-server-2013-configuring-voice-mail-escape.md)  

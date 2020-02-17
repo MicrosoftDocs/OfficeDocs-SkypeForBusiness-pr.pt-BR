@@ -121,7 +121,7 @@ Se você usar uma URL simples para acessar o painel de controle do Lync Server, 
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Ferramentas administrativas do Lync Server 2013](lync-server-2013-lync-server-administrative-tools.md)  

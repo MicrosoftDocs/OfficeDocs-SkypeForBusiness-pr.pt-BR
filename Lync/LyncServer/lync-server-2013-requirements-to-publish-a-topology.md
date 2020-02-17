@@ -58,7 +58,7 @@ Este tópico descreve os requisitos de infraestrutura e software específicos à
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Publicar a topologia no Lync Server 2013](lync-server-2013-publish-the-topology.md)  

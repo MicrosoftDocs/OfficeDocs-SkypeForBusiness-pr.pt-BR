@@ -182,7 +182,7 @@ Use os cmdlets a seguir para gerenciar o CAC do Shell de gerenciamento do Lync S
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Visão geral do controle de admissão de chamadas no Lync Server 2013](lync-server-2013-overview-of-call-admission-control.md)  

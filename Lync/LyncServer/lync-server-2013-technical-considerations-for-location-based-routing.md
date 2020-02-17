@@ -57,7 +57,7 @@ Configurar o roteamento baseado em local impacta o planejamento de onde você im
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Planejamento de roteamento baseado em local no Lync Server 2013](lync-server-2013-planning-for-location-based-routing.md)  

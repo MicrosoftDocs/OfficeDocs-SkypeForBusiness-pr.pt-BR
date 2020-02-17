@@ -55,7 +55,7 @@ Se um pool de borda cair, mas o pool de front-ends do mesmo local ainda estiver 
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Recuperação de desastre do servidor de borda no Lync Server 2013](lync-server-2013-edge-server-disaster-recovery.md)  

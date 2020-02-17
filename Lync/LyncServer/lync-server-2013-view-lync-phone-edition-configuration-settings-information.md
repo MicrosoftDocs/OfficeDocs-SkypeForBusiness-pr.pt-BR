@@ -87,7 +87,7 @@ Para obter detalhes, consulte [Get-CsUCPhoneConfiguration](https://docs.microsof
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Criar ou modificar um conjunto de definições de configuração do Lync Phone Edition no Lync Server 2013](lync-server-2013-create-or-modify-a-collection-of-lync-phone-edition-configuration-settings.md)  
