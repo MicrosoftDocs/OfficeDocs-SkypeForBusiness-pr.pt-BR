@@ -43,7 +43,7 @@ Servidor de chat persistente inclui uma experiência de interface de usuário ad
 
 <div>
 
-## <a name="see-also"></a>Confira Também
+## <a name="see-also"></a>Confira também
 
 
 [Visão geral do servidor de chat persistente no Lync Server 2013](lync-server-2013-overview-of-persistent-chat-server.md)  

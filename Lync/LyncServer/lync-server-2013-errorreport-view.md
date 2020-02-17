@@ -148,7 +148,7 @@ A exibição ErrorReport armazena informações sobre erros relatados. Cada regi
 <td><p>Nome do servidor que originou o erro (se o relatório foi enviado de um componente do servidor).</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Application</strong></p></td>
+<td><p><strong>Aplicativo</strong></p></td>
 <td><p>nvarchar (256)</p></td>
 <td><p>Nome de um aplicativo que originou o erro (se o relatório foi enviado de um componente do servidor).</p></td>
 </tr>

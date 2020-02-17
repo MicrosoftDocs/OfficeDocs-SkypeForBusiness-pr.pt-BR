@@ -71,7 +71,7 @@ Use o cmdlet **Disable-CsAdDomain** para reverter a etapa de preparação do dom
 
 <div>
 
-## <a name="see-also"></a>Confira Também
+## <a name="see-also"></a>Confira também
 
 
 [Executando a preparação do domínio para o Lync Server 2013](lync-server-2013-running-domain-preparation.md)  

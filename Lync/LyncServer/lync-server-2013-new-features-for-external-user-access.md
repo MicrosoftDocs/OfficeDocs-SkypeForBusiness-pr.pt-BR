@@ -76,7 +76,7 @@ O Lync Server 2013 introduz novos recursos que estendem os recursos e os método
 
 <div>
 
-## <a name="see-also"></a>Confira Também
+## <a name="see-also"></a>Confira também
 
 
 [Planejando e Configurando o IPv6 no Lync Server 2013](lync-server-2013-planning-for-and-configuring-ipv6.md)  

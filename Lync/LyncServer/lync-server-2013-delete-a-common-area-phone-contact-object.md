@@ -80,7 +80,7 @@ Para obter detalhes, consulte o tópico de ajuda para o cmdlet [Remove-CsCommonA
 
 <div>
 
-## <a name="see-also"></a>Confira Também
+## <a name="see-also"></a>Confira também
 
 
 [Get-CsCommonAreaPhone](https://docs.microsoft.com/powershell/module/skype/Get-CsCommonAreaPhone)  

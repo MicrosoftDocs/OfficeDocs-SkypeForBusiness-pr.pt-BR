@@ -128,7 +128,7 @@ Para obter detalhes, consulte a documentação do Shell de gerenciamento do Lync
 
 <div>
 
-## <a name="see-also"></a>Confira Também
+## <a name="see-also"></a>Confira também
 
 
 [Exporte sua topologia do Lync Server 2013 e copie-a para a mídia externa para instalação de borda](lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md)  

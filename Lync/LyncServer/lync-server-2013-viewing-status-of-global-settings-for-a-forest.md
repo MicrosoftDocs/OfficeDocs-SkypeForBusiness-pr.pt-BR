@@ -489,7 +489,7 @@ Se EntryExitAnnouncementsEnabledByDefault estiver definido como false, isso sign
 
 <div>
 
-## <a name="see-also"></a>Confira Também
+## <a name="see-also"></a>Confira também
 
 
 [Get-CsSipDomain](https://docs.microsoft.com/powershell/module/skype/Get-CsSipDomain)  

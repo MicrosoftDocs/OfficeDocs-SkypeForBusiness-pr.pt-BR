@@ -83,7 +83,7 @@ Todos esses cmdlets são emitidos por meio do Shell de gerenciamento do Lync Ser
 
 <div>
 
-## <a name="see-also"></a>Confira Também
+## <a name="see-also"></a>Confira também
 
 
 [http://go.microsoft.com/fwlink/p/?linkId=205826](http://go.microsoft.com/fwlink/p/?linkid=205826)  

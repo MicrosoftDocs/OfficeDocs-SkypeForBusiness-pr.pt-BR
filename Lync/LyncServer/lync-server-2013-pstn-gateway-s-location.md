@@ -53,7 +53,7 @@ Os troncos podem ser habilitados para roteamento baseado em local de duas maneir
 
 <div>
 
-## <a name="see-also"></a>Confira Também
+## <a name="see-also"></a>Confira também
 
 
 [Orientação para roteamento baseado em local no Lync Server 2013](lync-server-2013-guidance-for-location-based-routing.md)  

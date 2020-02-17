@@ -188,7 +188,7 @@ Use os cmdlets a seguir para configurar o E9-1-1.
 
 <div>
 
-## <a name="see-also"></a>Confira Também
+## <a name="see-also"></a>Confira também
 
 
 [Blog do PowerShell do Lync Server](http://go.microsoft.com/fwlink/p/?linkid=203150)  

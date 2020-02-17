@@ -70,7 +70,7 @@ Na maioria das implantações do Microsoft Lync Server 2013 onde o controle de a
 
 <div>
 
-## <a name="see-also"></a>Confira Também
+## <a name="see-also"></a>Confira também
 
 
 [Criar ou modificar sub-redes de rede no Lync Server 2013](lync-server-2013-create-or-modify-network-subnets.md)  

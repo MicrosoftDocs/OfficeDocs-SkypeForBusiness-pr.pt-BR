@@ -103,7 +103,7 @@ Você pode gerenciar o acesso de usuários anônimos usando o Windows PowerShell
 
 <div>
 
-## <a name="see-also"></a>Confira Também
+## <a name="see-also"></a>Confira também
 
 
 [Referência de configurações de política de conferência para Lync Server 2013](lync-server-2013-conferencing-policy-settings-reference.md)  

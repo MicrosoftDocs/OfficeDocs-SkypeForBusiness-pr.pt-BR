@@ -112,7 +112,7 @@ Depois de definir sua topologia no construtor de topologias, você deve publicar
 
 <div>
 
-## <a name="see-also"></a>Confira Também
+## <a name="see-also"></a>Confira também
 
 
 [Configurando servidores front-end e pools de front-ends para o Lync Server 2013](lync-server-2013-setting-up-front-end-servers-and-front-end-pools.md)  

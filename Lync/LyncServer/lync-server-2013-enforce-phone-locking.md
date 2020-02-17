@@ -105,7 +105,7 @@ Para obter mais informações, consulte o tópico de ajuda para o cmdlet [set-Cs
 
 <div>
 
-## <a name="see-also"></a>Confira Também
+## <a name="see-also"></a>Confira também
 
 
 [Gerenciando a autenticação do Lync Server 2013](lync-server-2013-managing-lync-server-authentication.md)  

@@ -264,7 +264,7 @@ A documentação da ferramenta está disponível na [documentação das ferramen
 
 <div>
 
-## <a name="see-also"></a>Confira Também
+## <a name="see-also"></a>Confira também
 
 
 [Lista de verificação de tarefas semanais](lync-server-2013-operations-checklists.md)  
