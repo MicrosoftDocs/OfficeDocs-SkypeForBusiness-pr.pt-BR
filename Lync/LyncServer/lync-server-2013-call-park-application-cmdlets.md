@@ -25,7 +25,7 @@ ms.locfileid: "42044453"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="call-park-application-cmdlets-in-lync-server-2013"></a><span data-ttu-id="4664c-102">Cmdlets do aplicativo de estacionamento de chamada no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4664c-102">Call Park application cmdlets in Lync Server 2013</span></span>
+# <a name="call-park-application-cmdlets-in-lync-server-2013"></a><span data-ttu-id="bca88-102">Cmdlets do aplicativo de estacionamento de chamada no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="bca88-102">Call Park application cmdlets in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,57 +35,57 @@ ms.locfileid: "42044453"
 
 <span> </span>
 
-<span data-ttu-id="4664c-103">_**Última modificação do tópico:** 2012-03-21_</span><span class="sxs-lookup"><span data-stu-id="4664c-103">_**Topic Last Modified:** 2012-03-21_</span></span>
+<span data-ttu-id="bca88-103">_**Última modificação do tópico:** 2012-03-21_</span><span class="sxs-lookup"><span data-stu-id="bca88-103">_**Topic Last Modified:** 2012-03-21_</span></span>
 
-<span data-ttu-id="4664c-104">O aplicativo de estacionamento de chamada permite que o usuário faça uma chamada em espera e, em seguida, recupere essa chamada de outro telefone.</span><span class="sxs-lookup"><span data-stu-id="4664c-104">Call Park application allows a user to place a call on hold, then retrieve that call from a different phone.</span></span> <span data-ttu-id="4664c-105">Use esses cmdlets para definir as configurações para órbitas de estacionamento de chamada e o aplicativo de estacionamento de chamada.</span><span class="sxs-lookup"><span data-stu-id="4664c-105">Use these cmdlets to configure settings for call park orbits and the Call Park application.</span></span>
+<span data-ttu-id="bca88-104">O aplicativo de estacionamento de chamada permite que o usuário faça uma chamada em espera e, em seguida, recupere essa chamada de outro telefone.</span><span class="sxs-lookup"><span data-stu-id="bca88-104">Call Park application allows a user to place a call on hold, then retrieve that call from a different phone.</span></span> <span data-ttu-id="bca88-105">Use esses cmdlets para definir as configurações para órbitas de estacionamento de chamada e o aplicativo de estacionamento de chamada.</span><span class="sxs-lookup"><span data-stu-id="bca88-105">Use these cmdlets to configure settings for call park orbits and the Call Park application.</span></span>
 
 <div>
 
-## <a name="call-park-application-cmdlets"></a><span data-ttu-id="4664c-106">Cmdlets do aplicativo Estacionamento de Chamada</span><span class="sxs-lookup"><span data-stu-id="4664c-106">Call Park Application Cmdlets</span></span>
+## <a name="call-park-application-cmdlets"></a><span data-ttu-id="bca88-106">Cmdlets do aplicativo Estacionamento de Chamada</span><span class="sxs-lookup"><span data-stu-id="bca88-106">Call Park Application Cmdlets</span></span>
 
-<span data-ttu-id="4664c-107">Os cmdlets a seguir podem ser usados para gerenciar o aplicativo de estacionamento de chamadas.</span><span class="sxs-lookup"><span data-stu-id="4664c-107">The following cmdlets can be used to manage Call Park application.</span></span>
+<span data-ttu-id="bca88-107">Os cmdlets a seguir podem ser usados para gerenciar o aplicativo de estacionamento de chamadas.</span><span class="sxs-lookup"><span data-stu-id="bca88-107">The following cmdlets can be used to manage Call Park application.</span></span>
 
-<span data-ttu-id="4664c-108">**Aplicativo de Estacionamento de Chamada**</span><span class="sxs-lookup"><span data-stu-id="4664c-108">**Call Park Application**</span></span>
-
-  - <span></span>  
-    <span data-ttu-id="4664c-109">[Get-CsCallParkOrbit](https://technet.microsoft.com/library/Gg398554(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="4664c-109">[Get-CsCallParkOrbit](https://technet.microsoft.com/library/Gg398554(v=OCS.15))</span></span>
+<span data-ttu-id="bca88-108">**Aplicativo de Estacionamento de Chamada**</span><span class="sxs-lookup"><span data-stu-id="bca88-108">**Call Park Application**</span></span>
 
   - <span></span>  
-    <span data-ttu-id="4664c-110">[New-CsCallParkOrbit](https://technet.microsoft.com/library/Gg398936(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="4664c-110">[New-CsCallParkOrbit](https://technet.microsoft.com/library/Gg398936(v=OCS.15))</span></span>
+    <span data-ttu-id="bca88-109">[Get-CsCallParkOrbit](https://technet.microsoft.com/library/Gg398554(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="bca88-109">[Get-CsCallParkOrbit](https://technet.microsoft.com/library/Gg398554(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="4664c-111">[Remove-CsCallParkOrbit](https://technet.microsoft.com/library/Gg412901(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="4664c-111">[Remove-CsCallParkOrbit](https://technet.microsoft.com/library/Gg412901(v=OCS.15))</span></span>
+    <span data-ttu-id="bca88-110">[New-CsCallParkOrbit](https://technet.microsoft.com/library/Gg398936(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="bca88-110">[New-CsCallParkOrbit](https://technet.microsoft.com/library/Gg398936(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="4664c-112">[Set-CsCallParkOrbit](https://technet.microsoft.com/library/Gg398796(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="4664c-112">[Set-CsCallParkOrbit](https://technet.microsoft.com/library/Gg398796(v=OCS.15))</span></span>
+    <span data-ttu-id="bca88-111">[Remove-CsCallParkOrbit](https://technet.microsoft.com/library/Gg412901(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="bca88-111">[Remove-CsCallParkOrbit](https://technet.microsoft.com/library/Gg412901(v=OCS.15))</span></span>
+
+  - <span></span>  
+    <span data-ttu-id="bca88-112">[Set-CsCallParkOrbit](https://technet.microsoft.com/library/Gg398796(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="bca88-112">[Set-CsCallParkOrbit](https://technet.microsoft.com/library/Gg398796(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="4664c-113">[Set-CsCallParkServiceMusicOnHoldFile](https://technet.microsoft.com/library/Gg412836(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="4664c-113">[Set-CsCallParkServiceMusicOnHoldFile](https://technet.microsoft.com/library/Gg412836(v=OCS.15))</span></span>
+    <span data-ttu-id="bca88-113">[Set-CsCallParkServiceMusicOnHoldFile](https://technet.microsoft.com/library/Gg412836(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="bca88-113">[Set-CsCallParkServiceMusicOnHoldFile](https://technet.microsoft.com/library/Gg412836(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="4664c-114">[Get-CsCpsConfiguration](https://technet.microsoft.com/library/Gg398948(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="4664c-114">[Get-CsCpsConfiguration](https://technet.microsoft.com/library/Gg398948(v=OCS.15))</span></span>
+    <span data-ttu-id="bca88-114">[Get-CsCpsConfiguration](https://technet.microsoft.com/library/Gg398948(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="bca88-114">[Get-CsCpsConfiguration](https://technet.microsoft.com/library/Gg398948(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="4664c-115">[New-CsCpsConfiguration](https://technet.microsoft.com/library/Gg412919(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="4664c-115">[New-CsCpsConfiguration](https://technet.microsoft.com/library/Gg412919(v=OCS.15))</span></span>
+    <span data-ttu-id="bca88-115">[New-CsCpsConfiguration](https://technet.microsoft.com/library/Gg412919(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="bca88-115">[New-CsCpsConfiguration](https://technet.microsoft.com/library/Gg412919(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="4664c-116">[Remove-CsCpsConfiguration](https://technet.microsoft.com/library/Gg398358(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="4664c-116">[Remove-CsCpsConfiguration](https://technet.microsoft.com/library/Gg398358(v=OCS.15))</span></span>
+    <span data-ttu-id="bca88-116">[Remove-CsCpsConfiguration](https://technet.microsoft.com/library/Gg398358(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="bca88-116">[Remove-CsCpsConfiguration](https://technet.microsoft.com/library/Gg398358(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="4664c-117">[Set-CsCpsConfiguration](https://technet.microsoft.com/library/Gg412721(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="4664c-117">[Set-CsCpsConfiguration](https://technet.microsoft.com/library/Gg412721(v=OCS.15))</span></span>
+    <span data-ttu-id="bca88-117">[Set-CsCpsConfiguration](https://technet.microsoft.com/library/Gg412721(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="bca88-117">[Set-CsCpsConfiguration](https://technet.microsoft.com/library/Gg412721(v=OCS.15))</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="4664c-118">Confira também</span><span class="sxs-lookup"><span data-stu-id="4664c-118">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="bca88-118">Confira Também</span><span class="sxs-lookup"><span data-stu-id="bca88-118">See Also</span></span>
 
 
-[<span data-ttu-id="4664c-119">Blog do PowerShell do Lync Server</span><span class="sxs-lookup"><span data-stu-id="4664c-119">Lync Server PowerShell Blog</span></span>](http://go.microsoft.com/fwlink/p/?linkid=203150)  
+[<span data-ttu-id="bca88-119">Blog do PowerShell do Lync Server</span><span class="sxs-lookup"><span data-stu-id="bca88-119">Lync Server PowerShell Blog</span></span>](http://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>
