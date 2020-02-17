@@ -130,7 +130,7 @@ Em seguida, para adicionar o par à topologia, siga os procedimentos em [publica
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Modificar um tronco no construtor de topologia no Lync Server 2013](lync-server-2013-modify-a-trunk-in-topology-builder.md)  

@@ -201,7 +201,7 @@ Para **manter** no jogo, informe em voz alta o plano de gerenciamento de serviç
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Guia de rede do Lync Server](http://go.microsoft.com/fwlink/p/?linkid=390677)  

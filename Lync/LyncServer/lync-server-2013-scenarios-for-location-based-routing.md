@@ -59,7 +59,7 @@ O roteamento baseado em local aplica as seguintes regras gerais ao rotear chamad
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Planejamento de roteamento baseado em local no Lync Server 2013](lync-server-2013-planning-for-location-based-routing.md)  

@@ -61,7 +61,7 @@ Para habilitar o roteamento baseado em local para conferência, confira [roteame
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Planejamento de roteamento baseado em local no Lync Server 2013](lync-server-2013-planning-for-location-based-routing.md)  

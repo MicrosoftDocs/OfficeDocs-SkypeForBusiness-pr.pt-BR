@@ -82,7 +82,7 @@ Os cmdlets a seguir podem ser usados para gerenciar o aplicativo de estacionamen
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Blog do PowerShell do Lync Server](http://go.microsoft.com/fwlink/p/?linkid=203150)  

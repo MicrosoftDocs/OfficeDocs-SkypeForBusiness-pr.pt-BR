@@ -157,7 +157,7 @@ Aqui estão alguns motivos comuns pelos quais **Test-CsPersistentChatMessage** p
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Grant-CsPersistentChatPolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsPersistentChatPolicy)  

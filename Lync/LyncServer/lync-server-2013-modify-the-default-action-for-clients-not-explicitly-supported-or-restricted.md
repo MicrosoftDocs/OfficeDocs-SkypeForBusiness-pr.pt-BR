@@ -107,7 +107,7 @@ Para obter detalhes, consulte o tópico de ajuda para o cmdlet [set-CsClientVers
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Confira Também
 
 
 [Gerenciando dispositivos, telefones e aplicativos cliente no Lync Server 2013](lync-server-2013-managing-devices-phones-and-client-applications.md)  
