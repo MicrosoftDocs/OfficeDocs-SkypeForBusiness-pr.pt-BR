@@ -25,7 +25,7 @@ ms.locfileid: "42041531"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="voice-normalization-rules-cmdlets-in-lync-server-2013"></a><span data-ttu-id="b6435-102">Cmdlets de regras de normalização de voz no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b6435-102">Voice normalization rules cmdlets in Lync Server 2013</span></span>
+# <a name="voice-normalization-rules-cmdlets-in-lync-server-2013"></a><span data-ttu-id="fc6f3-102">Cmdlets de regras de normalização de voz no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="fc6f3-102">Voice normalization rules cmdlets in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,49 +35,49 @@ ms.locfileid: "42041531"
 
 <span> </span>
 
-<span data-ttu-id="b6435-103">_**Última modificação do tópico:** 2012-06-20_</span><span class="sxs-lookup"><span data-stu-id="b6435-103">_**Topic Last Modified:** 2012-06-20_</span></span>
+<span data-ttu-id="fc6f3-103">_**Última modificação do tópico:** 2012-06-20_</span><span class="sxs-lookup"><span data-stu-id="fc6f3-103">_**Topic Last Modified:** 2012-06-20_</span></span>
 
-<span data-ttu-id="b6435-104">As regras de normalização de voz são usadas para converter um requisito de discagem de telefone (por exemplo, discar 9 para acessar uma linha externa) para o formato de número de telefone E. 164 usado pelo Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="b6435-104">Voice normalization rules are used to convert a telephone dialing requirement (for example, dialing 9 to access an outside line) to the E.164 phone number format used by Microsoft Lync Server 2013.</span></span>
+<span data-ttu-id="fc6f3-104">As regras de normalização de voz são usadas para converter um requisito de discagem de telefone (por exemplo, discar 9 para acessar uma linha externa) para o formato de número de telefone E. 164 usado pelo Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="fc6f3-104">Voice normalization rules are used to convert a telephone dialing requirement (for example, dialing 9 to access an outside line) to the E.164 phone number format used by Microsoft Lync Server 2013.</span></span>
 
 <div>
 
-## <a name="voice-normalization-rules-cmdlets"></a><span data-ttu-id="b6435-105">Cmdlets de regras de normalização de voz</span><span class="sxs-lookup"><span data-stu-id="b6435-105">Voice Normalization Rules Cmdlets</span></span>
+## <a name="voice-normalization-rules-cmdlets"></a><span data-ttu-id="fc6f3-105">Cmdlets de regras de normalização de voz</span><span class="sxs-lookup"><span data-stu-id="fc6f3-105">Voice Normalization Rules Cmdlets</span></span>
 
-<span data-ttu-id="b6435-106">Os cmdlets a seguir podem ser usados para gerenciar regras de normalização de voz.</span><span class="sxs-lookup"><span data-stu-id="b6435-106">The following cmdlets can be used to manage voice normalization rules.</span></span>
+<span data-ttu-id="fc6f3-106">Os cmdlets a seguir podem ser usados para gerenciar regras de normalização de voz.</span><span class="sxs-lookup"><span data-stu-id="fc6f3-106">The following cmdlets can be used to manage voice normalization rules.</span></span>
 
-<span data-ttu-id="b6435-107">**Regras de Normalização de Voz**</span><span class="sxs-lookup"><span data-stu-id="b6435-107">**Voice Normalization Rules**</span></span>
-
-  - <span></span>  
-    <span data-ttu-id="b6435-108">[Get-CsVoiceNormalizationRule](https://technet.microsoft.com/library/Gg398393(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b6435-108">[Get-CsVoiceNormalizationRule](https://technet.microsoft.com/library/Gg398393(v=OCS.15))</span></span>
+<span data-ttu-id="fc6f3-107">**Regras de Normalização de Voz**</span><span class="sxs-lookup"><span data-stu-id="fc6f3-107">**Voice Normalization Rules**</span></span>
 
   - <span></span>  
-    <span data-ttu-id="b6435-109">[New-CsVoiceNormalizationRule](https://technet.microsoft.com/library/Gg398240(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b6435-109">[New-CsVoiceNormalizationRule](https://technet.microsoft.com/library/Gg398240(v=OCS.15))</span></span>
+    <span data-ttu-id="fc6f3-108">[Get-CsVoiceNormalizationRule](https://technet.microsoft.com/library/Gg398393(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="fc6f3-108">[Get-CsVoiceNormalizationRule](https://technet.microsoft.com/library/Gg398393(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="b6435-110">[Remove-CsVoiceNormalizationRule](https://technet.microsoft.com/library/Gg398501(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b6435-110">[Remove-CsVoiceNormalizationRule](https://technet.microsoft.com/library/Gg398501(v=OCS.15))</span></span>
+    <span data-ttu-id="fc6f3-109">[New-CsVoiceNormalizationRule](https://technet.microsoft.com/library/Gg398240(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="fc6f3-109">[New-CsVoiceNormalizationRule](https://technet.microsoft.com/library/Gg398240(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="b6435-111">[Set-CsVoiceNormalizationRule](https://technet.microsoft.com/library/Gg398491(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b6435-111">[Set-CsVoiceNormalizationRule](https://technet.microsoft.com/library/Gg398491(v=OCS.15))</span></span>
+    <span data-ttu-id="fc6f3-110">[Remove-CsVoiceNormalizationRule](https://technet.microsoft.com/library/Gg398501(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="fc6f3-110">[Remove-CsVoiceNormalizationRule](https://technet.microsoft.com/library/Gg398501(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="b6435-112">[Test-CsVoiceNormalizationRule](https://technet.microsoft.com/library/Gg399003(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b6435-112">[Test-CsVoiceNormalizationRule](https://technet.microsoft.com/library/Gg399003(v=OCS.15))</span></span>
+    <span data-ttu-id="fc6f3-111">[Set-CsVoiceNormalizationRule](https://technet.microsoft.com/library/Gg398491(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="fc6f3-111">[Set-CsVoiceNormalizationRule](https://technet.microsoft.com/library/Gg398491(v=OCS.15))</span></span>
+
+  - <span></span>  
+    <span data-ttu-id="fc6f3-112">[Test-CsVoiceNormalizationRule](https://technet.microsoft.com/library/Gg399003(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="fc6f3-112">[Test-CsVoiceNormalizationRule](https://technet.microsoft.com/library/Gg399003(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="b6435-113">[New-CsVoiceRegex](https://technet.microsoft.com/library/Gg412751(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b6435-113">[New-CsVoiceRegex](https://technet.microsoft.com/library/Gg412751(v=OCS.15))</span></span>
+    <span data-ttu-id="fc6f3-113">[New-CsVoiceRegex](https://technet.microsoft.com/library/Gg412751(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="fc6f3-113">[New-CsVoiceRegex](https://technet.microsoft.com/library/Gg412751(v=OCS.15))</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="b6435-114">Confira Também</span><span class="sxs-lookup"><span data-stu-id="b6435-114">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="fc6f3-114">Confira também</span><span class="sxs-lookup"><span data-stu-id="fc6f3-114">See Also</span></span>
 
 
-[<span data-ttu-id="b6435-115">Cmdlets do Enterprise Voice no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b6435-115">Enterprise Voice cmdlets in Lync Server 2013</span></span>](lync-server-2013-enterprise-voice-cmdlets.md)  
+[<span data-ttu-id="fc6f3-115">Cmdlets do Enterprise Voice no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="fc6f3-115">Enterprise Voice cmdlets in Lync Server 2013</span></span>](lync-server-2013-enterprise-voice-cmdlets.md)  
 
 
-[<span data-ttu-id="b6435-116">Blog do PowerShell do Lync Server</span><span class="sxs-lookup"><span data-stu-id="b6435-116">Lync Server PowerShell Blog</span></span>](http://go.microsoft.com/fwlink/p/?linkid=203150)  
+[<span data-ttu-id="fc6f3-116">Blog do PowerShell do Lync Server</span><span class="sxs-lookup"><span data-stu-id="fc6f3-116">Lync Server PowerShell Blog</span></span>](http://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>
