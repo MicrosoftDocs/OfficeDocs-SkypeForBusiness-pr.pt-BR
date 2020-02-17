@@ -25,7 +25,7 @@ ms.locfileid: "42043093"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="managing-location-policy-in-lync-server-2013"></a><span data-ttu-id="7a264-102">Gerenciando a política de local no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7a264-102">Managing location policy in Lync Server 2013</span></span>
+# <a name="managing-location-policy-in-lync-server-2013"></a><span data-ttu-id="51646-102">Gerenciando a política de local no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="51646-102">Managing location policy in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,36 +35,36 @@ ms.locfileid: "42043093"
 
 <span> </span>
 
-<span data-ttu-id="7a264-103">_**Última modificação do tópico:** 2012-10-15_</span><span class="sxs-lookup"><span data-stu-id="7a264-103">_**Topic Last Modified:** 2012-10-15_</span></span>
+<span data-ttu-id="51646-103">_**Última modificação do tópico:** 2012-10-15_</span><span class="sxs-lookup"><span data-stu-id="51646-103">_**Topic Last Modified:** 2012-10-15_</span></span>
 
-<span data-ttu-id="7a264-104">Use os procedimentos desta seção para gerenciar a política de local do Lync Server 2013 do grupo de **configuração de rede** no painel de controle do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="7a264-104">Use the procedures in this section to manage the Lync Server 2013 location policy from the **Network Configuration** group in Lync Server Control Panel.</span></span>
+<span data-ttu-id="51646-104">Use os procedimentos desta seção para gerenciar a política de local do Lync Server 2013 do grupo de **configuração de rede** no painel de controle do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="51646-104">Use the procedures in this section to manage the Lync Server 2013 location policy from the **Network Configuration** group in Lync Server Control Panel.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="7a264-105">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="7a264-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="51646-105">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="51646-105">In This Section</span></span>
 
-  - [<span data-ttu-id="7a264-106">Exibindo informações de política de local no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7a264-106">Viewing location policy information in Lync Server 2013</span></span>](lync-server-2013-viewing-location-policy-information.md)
+  - [<span data-ttu-id="51646-106">Exibindo informações de política de local no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="51646-106">Viewing location policy information in Lync Server 2013</span></span>](lync-server-2013-viewing-location-policy-information.md)
 
-  - [<span data-ttu-id="7a264-107">Criando ou modificando uma política de local no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7a264-107">Creating or modifying a location policy in Lync Server 2013</span></span>](lync-server-2013-creating-or-modifying-a-location-policy.md)
+  - [<span data-ttu-id="51646-107">Criando ou modificando uma política de local no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="51646-107">Creating or modifying a location policy in Lync Server 2013</span></span>](lync-server-2013-creating-or-modifying-a-location-policy.md)
 
-  - [<span data-ttu-id="7a264-108">Excluindo uma política de local no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7a264-108">Deleting a location policy in Lync Server 2013</span></span>](lync-server-2013-deleting-a-location-policy.md)
+  - [<span data-ttu-id="51646-108">Excluindo uma política de local no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="51646-108">Deleting a location policy in Lync Server 2013</span></span>](lync-server-2013-deleting-a-location-policy.md)
 
 </div>
 
 <div>
 
-## <a name="related-sections"></a><span data-ttu-id="7a264-109">Seções Relacionadas</span><span class="sxs-lookup"><span data-stu-id="7a264-109">Related Sections</span></span>
+## <a name="related-sections"></a><span data-ttu-id="51646-109">Seções Relacionadas</span><span class="sxs-lookup"><span data-stu-id="51646-109">Related Sections</span></span>
 
-[<span data-ttu-id="7a264-110">Planejamento de serviços de emergência (E9-1-1) no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7a264-110">Planning for emergency services (E9-1-1) in Lync Server 2013</span></span>](lync-server-2013-planning-for-emergency-services-e9-1-1.md)
+[<span data-ttu-id="51646-110">Planejamento de serviços de emergência (E9-1-1) no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="51646-110">Planning for emergency services (E9-1-1) in Lync Server 2013</span></span>](lync-server-2013-planning-for-emergency-services-e9-1-1.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="7a264-111">Confira Também</span><span class="sxs-lookup"><span data-stu-id="7a264-111">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="51646-111">Confira também</span><span class="sxs-lookup"><span data-stu-id="51646-111">See Also</span></span>
 
 
-[<span data-ttu-id="7a264-112">Definir a política de local para o Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7a264-112">Defining the location policy for Lync Server 2013</span></span>](lync-server-2013-defining-the-location-policy.md)  
+[<span data-ttu-id="51646-112">Definir a política de local para o Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="51646-112">Defining the location policy for Lync Server 2013</span></span>](lync-server-2013-defining-the-location-policy.md)  
   
 
 </div>
