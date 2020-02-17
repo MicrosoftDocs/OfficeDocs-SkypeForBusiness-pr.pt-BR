@@ -75,7 +75,7 @@ As configurações de feriados definem os dias nos quais um grupo de respostas e
 
 <div>
 
-## <a name="see-also"></a>Confira Também
+## <a name="see-also"></a>Confira também
 
 
 [Criar ou modificar um fluxo de trabalho de grupo de busca no Lync Server 2013](lync-server-2013-create-or-modify-a-hunt-group-workflow.md)  
