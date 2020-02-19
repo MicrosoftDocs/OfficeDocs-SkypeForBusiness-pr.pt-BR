@@ -12,18 +12,18 @@ ms:contentKeyID: 48185822
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0dbc7e4001299ef2d722896518291cc2afff001b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: b644b5b703e1515a4417b7fa318b4e9ed6080b94
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42044333"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42138722"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="using-cmdlets-to-reverse-forest-preparation-for-lync-server-2013"></a>Usando cmdlets para reverter a preparação da floresta para o Lync Server 2013
 
@@ -73,7 +73,7 @@ Use o cmdlet **Disable-CsAdForest** para reverter a etapa de preparação da flo
 
 <div>
 
-## <a name="see-also"></a>Confira Também
+## <a name="see-also"></a>Confira também
 
 
 [Executando a preparação da floresta para o Lync Server 2013](lync-server-2013-running-forest-preparation.md)  

@@ -12,18 +12,18 @@ ms:contentKeyID: 63969595
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 631ec1c7c383bf6200e44378b37db7273bbf125d
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: cf3ba3dc27bf3849ad6c3434f4baf1fa28c07780
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42008193"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42139994"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="performing-and-monitoring-backups-in-lync-server-2013"></a>Executando e monitorando backups no Lync Server 2013
 
@@ -49,7 +49,7 @@ Quem pode executar este cmdlet: Por padrão, membros dos seguintes grupos estão
 
 `Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Export-CsConfiguration"}`
 
-Todos os bancos de dados back-end do SQL 2012 devem ser copiados de acordo com as [práticas recomendadas do SQL](http://go.microsoft.com/fwlink/p/?linkid=290716).
+Todos os bancos de dados back-end do SQL 2012 devem ser copiados de acordo com as [práticas recomendadas do SQL](https://go.microsoft.com/fwlink/p/?linkid=290716).
 
 Testes regulares do plano de recuperação de desastres para sua infraestrutura do Lync Server 2013 devem ser executados em um ambiente de laboratório que imita o ambiente de produção o mais próximo possível. Consulte as tarefas mensais para obter mais informações sobre testes de recuperação de desastres.
 
@@ -62,7 +62,7 @@ Observe que a frequência de backup pode ser ajustada, com base nos seus objetiv
 
 [Import-CsConfiguration](https://docs.microsoft.com/powershell/module/skype/Import-CsConfiguration)  
 [Export-CsConfiguration](https://docs.microsoft.com/powershell/module/skype/Export-CsConfiguration)  
-[Práticas recomendadas do SQL](http://go.microsoft.com/fwlink/p/?linkid=290716)  
+[Práticas recomendadas do SQL](https://go.microsoft.com/fwlink/p/?linkid=290716)  
   
 
 </div>

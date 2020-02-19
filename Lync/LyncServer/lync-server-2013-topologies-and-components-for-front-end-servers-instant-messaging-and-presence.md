@@ -12,18 +12,18 @@ ms:contentKeyID: 48185763
 ms.date: 10/24/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7e8e53116879e194bca7d0ea4066bc5f10de38f7
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: e2865d1a4169491751643e7b16601a5ed3efcded
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029442"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42141157"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="topologies-and-components-for-front-end-servers-instant-messaging-and-presence-in-lync-server-2013"></a>Topologias e componentes para servidores front-end, mensagens instantâneas e presença no Lync Server 2013
 
@@ -91,28 +91,28 @@ Na primeira vez que você iniciar um novo pool de front-ends, é essencial que 8
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>2 </p></td>
-<td><p>1 </p></td>
+<td><p>duas</p></td>
+<td><p>1</p></td>
 </tr>
 <tr class="even">
-<td><p>3 </p></td>
-<td><p>3 </p></td>
+<td><p>3D</p></td>
+<td><p>3D</p></td>
 </tr>
 <tr class="odd">
-<td><p>4 </p></td>
-<td><p>3 </p></td>
+<td><p>quatro</p></td>
+<td><p>3D</p></td>
 </tr>
 <tr class="even">
-<td><p>5 </p></td>
-<td><p>4 </p></td>
+<td><p>0,5</p></td>
+<td><p>quatro</p></td>
 </tr>
 <tr class="odd">
 <td><p>6 </p></td>
-<td><p>5 </p></td>
+<td><p>0,5</p></td>
 </tr>
 <tr class="even">
 <td><p>7 </p></td>
-<td><p>5 </p></td>
+<td><p>0,5</p></td>
 </tr>
 <tr class="odd">
 <td><p>8 </p></td>
@@ -127,11 +127,11 @@ Na primeira vez que você iniciar um novo pool de front-ends, é essencial que 8
 <td><p>8 </p></td>
 </tr>
 <tr class="even">
-<td><p>11</p></td>
+<td><p>11 </p></td>
 <td><p>9 </p></td>
 </tr>
 <tr class="odd">
-<td><p>12 </p></td>
+<td><p>12</p></td>
 <td><p>10 </p></td>
 </tr>
 </tbody>
@@ -144,7 +144,7 @@ Cada vez subsequente que o pool é iniciado, 85% dos servidores devem ser inicia
 
 
 > [!NOTE]  
-> Como o Lync Server usa o banco de dados SQL principal como testemunha, se você desligar o banco de dados primário e alternar para a cópia espelho e desligar servidores front-end suficientes para que não sejam executados de acordo com a tabela anterior, todo o pool será desativado. Para obter mais informações, consulte <A href="http://go.microsoft.com/fwlink/?linkid=393672">testemunha de espelhamento de banco de dados</A>.
+> Como o Lync Server usa o banco de dados SQL principal como testemunha, se você desligar o banco de dados primário e alternar para a cópia espelho e desligar servidores front-end suficientes para que não sejam executados de acordo com a tabela anterior, todo o pool será desativado. Para obter mais informações, consulte <A href="https://go.microsoft.com/fwlink/?linkid=393672">testemunha de espelhamento de banco de dados</A>.
 
 
 
@@ -172,8 +172,8 @@ Para que um pool de front-ends funcione, ele não pode ficar em perda de quorum 
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>2 </p></td>
-<td><p>1 </p></td>
+<td><p>duas</p></td>
+<td><p>1</p></td>
 </tr>
 <tr class="even">
 <td><p>3-4</p></td>

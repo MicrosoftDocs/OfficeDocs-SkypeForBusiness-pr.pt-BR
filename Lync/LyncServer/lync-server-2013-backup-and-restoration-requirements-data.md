@@ -12,18 +12,18 @@ ms:contentKeyID: 51541526
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4688c143a16ffd7113a03172274436f7c1371694
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 5ca6823c1f3e8265f7b06ea0d175b58d42ef4a08
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029222"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42135738"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="backup-and-restoration-requirements-in-lync-server-2013-data"></a>Requisitos de backup e restauração no Lync Server 2013: data
 
@@ -213,7 +213,7 @@ Para ajudar a garantir a capacidade de restaurar os serviços do Lync Server em 
     
       - Conta de autenticação Kerberos (um objeto de computador opcional) e grupos de segurança do Lync Server.
     
-    Para obter detalhes sobre como fazer backup e restaurar o AD DS no Windows Server 2008, consulte "guia passo a passo de backup e recuperação do AD DS [http://go.microsoft.com/fwlink/p/?linkId=209105](http://go.microsoft.com/fwlink/p/?linkid=209105)" em.
+    Para obter detalhes sobre como fazer backup e restaurar o AD DS no Windows Server 2008, consulte "guia passo a passo de backup e recuperação do AD DS [https://go.microsoft.com/fwlink/p/?linkId=209105](https://go.microsoft.com/fwlink/p/?linkid=209105)" em.
 
   - **A autoridade de certificação e os certificados**   usam a política da sua organização para fazer o backup da autoridade de certificação (CA) e dos certificados. Se você usar chaves privadas exportáveis, será possível fazer backup do certificado e da chave privada e exportá-los se usar os procedimentos neste documento para restaurar o Lync Server. Se você usar uma autoridade de certificação interna, poderá reinscrever se precisar restaurar o Lync Server. É importante que você mantenha a chave privada em um local seguro, onde estará disponível se um computador falhar.
 
@@ -221,11 +221,11 @@ Para ajudar a garantir a capacidade de restaurar os serviços do Lync Server em 
 
   - **Configuração de gateway de rede telefônica pública comutada (PSTN)**   se você usar aparelhos de filial persistente ou Enterprise Voice, precisará fazer o backup da configuração de gateway PSTN. Consulte seu fornecedor para obter detalhes sobre o backup e a restauração de configurações de gateway PSTN.
 
-  - **Versões coexistentes do Lync Server ou do Office Communications Server**   se sua implantação do Lync Server 2013 coexistir com o Lync Server 2010 ou uma versão anterior do Office Communications Server, você não pode usar os procedimentos neste documento para fazer o backup ou a restauração da versão anterior. Em vez disso, você deve usar os procedimentos de backup e restauração documentados especificamente para sua versão anterior. Para obter detalhes sobre como fazer backup e restaurar o Lync Server 2010 [http://go.microsoft.com/fwlink/p/?linkId=265417](http://go.microsoft.com/fwlink/p/?linkid=265417) , consulte. Para obter detalhes sobre como fazer backup e restaurar o Microsoft Office Communications Server 2007 [http://go.microsoft.com/fwlink/p/?linkId=168162](http://go.microsoft.com/fwlink/p/?linkid=168162)R2, consulte.
+  - **Versões coexistentes do Lync Server ou do Office Communications Server**   se sua implantação do Lync Server 2013 coexistir com o Lync Server 2010 ou uma versão anterior do Office Communications Server, você não pode usar os procedimentos neste documento para fazer o backup ou a restauração da versão anterior. Em vez disso, você deve usar os procedimentos de backup e restauração documentados especificamente para sua versão anterior. Para obter detalhes sobre como fazer backup e restaurar o Lync Server 2010 [https://go.microsoft.com/fwlink/p/?linkId=265417](https://go.microsoft.com/fwlink/p/?linkid=265417) , consulte. Para obter detalhes sobre como fazer backup e restaurar o Microsoft Office Communications Server 2007 [https://go.microsoft.com/fwlink/p/?linkId=168162](https://go.microsoft.com/fwlink/p/?linkid=168162)R2, consulte.
 
   - **Informações de infraestrutura**   você precisa fazer o backup de informações sobre sua infraestrutura, como a configuração de seu firewall, configuração de balanceamento de carga, configuração de serviços de informações da Internet (IIS), registros DNS (sistema de nomes de domínio) e endereços IP e configuração de protocolo de configuração dinâmica de hosts (DHCP). Para obter detalhes sobre como fazer backup desses componentes, verifique com seus respectivos fornecedores.
 
-  - **Microsoft Exchange e Exchange Unified Messaging (um)**   fazer backup e restaurar o Microsoft Exchange e o um do Exchange conforme descrito na documentação do Microsoft Exchange. Para obter detalhes sobre como fazer backup e restaurar o Exchange Server 2013 [http://go.microsoft.com/fwlink/?LinkId=285384](http://go.microsoft.com/fwlink/?linkid=285384), consulte. Para obter detalhes sobre como fazer backup e restaurar o Exchange Server 2010 [http://go.microsoft.com/fwlink/p/?linkId=209179](http://go.microsoft.com/fwlink/p/?linkid=209179), consulte.
+  - **Microsoft Exchange e Exchange Unified Messaging (um)**   fazer backup e restaurar o Microsoft Exchange e o um do Exchange conforme descrito na documentação do Microsoft Exchange. Para obter detalhes sobre como fazer backup e restaurar o Exchange Server 2013 [https://go.microsoft.com/fwlink/?LinkId=285384](https://go.microsoft.com/fwlink/?linkid=285384), consulte. Para obter detalhes sobre como fazer backup e restaurar o Exchange Server 2010 [https://go.microsoft.com/fwlink/p/?linkId=209179](https://go.microsoft.com/fwlink/p/?linkid=209179), consulte.
     
     Observe que o Lync Server 2013 introduz a capacidade de ter listas de contatos de usuário, fotos de usuário de alta definição e dados de arquivamento armazenados no Exchange 2013. Consulte a lista a seguir para ver como fazer backup desses tipos de dados:
     

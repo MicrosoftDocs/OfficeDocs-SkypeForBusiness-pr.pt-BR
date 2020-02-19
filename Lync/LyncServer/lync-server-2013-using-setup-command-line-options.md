@@ -12,18 +12,18 @@ ms:contentKeyID: 48184957
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: aacaa402b325fbefe13d70dea4f3e74af1d896cb
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: db24139be4c80b66cc03ff20d2155a00681111dc
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42007540"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42138652"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="using-setup-command-line-options-in-lync-server-2013"></a>Usando opções de linha de comando da instalação no Lync Server 2013
 
@@ -83,7 +83,7 @@ A linha de comando Setup. exe do Office reconhece as opções de linha de comand
 </table>
 
 
-Para obter detalhes sobre como usar as opções de linha de comando <http://go.microsoft.com/fwlink/p/?linkid=267515>da instalação, consulte.
+Para obter detalhes sobre como usar as opções de linha de comando <https://go.microsoft.com/fwlink/p/?linkid=267515>da instalação, consulte.
 
 </div>
 

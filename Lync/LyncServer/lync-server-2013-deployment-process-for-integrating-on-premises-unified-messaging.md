@@ -12,18 +12,18 @@ ms:contentKeyID: 48183664
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cbef561e7b2c4edd3e38f028bdbdcdfbe246d036
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: d6d60b120db57ad73c33e682fa8150e99f5606e3
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42051545"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42137160"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="deployment-process-for-integrating-on-premises-unified-messaging-and-lync-server-2013"></a>Processo de implantação para integração de Unificação de mensagens local e Lync Server 2013
 
@@ -97,13 +97,13 @@ Se você deseja integrar a UM (Unificação de mensagens) do Exchange com o Lync
 <td><p>Consulte a documentação apropriada para sua versão do Exchange Server:</p>
 <dl>
 <dt><span></span></dt>
-<dd><p>Documentação de implantação do Exchange Server <a href="http://go.microsoft.com/fwlink/p/?linkid=268694">http://go.microsoft.com/fwlink/p/?LinkId=268694</a>2007 em.</p>
+<dd><p>Documentação de implantação do Exchange Server <a href="https://go.microsoft.com/fwlink/p/?linkid=268694">https://go.microsoft.com/fwlink/p/?LinkId=268694</a>2007 em.</p>
 </dd>
 <dt><span></span></dt>
-<dd><p>Documentação de implantação do Exchange Server 2010 ou Service Pack <a href="http://go.microsoft.com/fwlink/p/?linkid=268695">http://go.microsoft.com/fwlink/p/?LinkId=268695</a>mais recente em.</p>
+<dd><p>Documentação de implantação do Exchange Server 2010 ou Service Pack <a href="https://go.microsoft.com/fwlink/p/?linkid=268695">https://go.microsoft.com/fwlink/p/?LinkId=268695</a>mais recente em.</p>
 </dd>
 <dt><span></span></dt>
-<dd><p>Microsoft Exchange Server 2013 planejamento e implantação em <a href="http://go.microsoft.com/fwlink/p/?linkid=266569">http://go.microsoft.com/fwlink/p/?LinkId=266569</a>.</p>
+<dd><p>Microsoft Exchange Server 2013 planejamento e implantação em <a href="https://go.microsoft.com/fwlink/p/?linkid=266569">https://go.microsoft.com/fwlink/p/?LinkId=266569</a>.</p>
 </dd>
 </dl></td>
 </tr>
@@ -117,9 +117,9 @@ Se você deseja integrar a UM (Unificação de mensagens) do Exchange com o Lync
 <td><p>Crie e configure um novo plano de discagem SIP do UM do Exchange.</p></td>
 <td><p>No servidor UM do Exchange, crie um plano de discagem SIP com base nos requisitos de implantação específicos da sua organização.</p></td>
 <td><p>Administrador da organização do Exchange</p></td>
-<td><p>Para o Exchange 2007 SP1 ou Service Pack mais recente &quot;, consulte como criar um plano&quot; de DISCAgem de URI <a href="http://go.microsoft.com/fwlink/p/?linkid=268632">http://go.microsoft.com/fwlink/p/?linkId=268632</a>SIP de Unificação de mensagens em.</p>
-<p>Para o Exchange 2010 ou Service Pack mais recente &quot;, consulte criar um plano&quot; de <a href="http://go.microsoft.com/fwlink/p/?linkid=268674">http://go.microsoft.com/fwlink/p/?linkId=268674</a>discagem de um em.</p>
-<p>Para o Exchange 2013, consulte Unificação de mensagens em <a href="http://go.microsoft.com/fwlink/p/?linkid=266579">http://go.microsoft.com/fwlink/p/?LinkId=266579</a>.</p></td>
+<td><p>Para o Exchange 2007 SP1 ou Service Pack mais recente &quot;, consulte como criar um plano&quot; de DISCAgem de URI <a href="https://go.microsoft.com/fwlink/p/?linkid=268632">https://go.microsoft.com/fwlink/p/?linkId=268632</a>SIP de Unificação de mensagens em.</p>
+<p>Para o Exchange 2010 ou Service Pack mais recente &quot;, consulte criar um plano&quot; de <a href="https://go.microsoft.com/fwlink/p/?linkid=268674">https://go.microsoft.com/fwlink/p/?linkId=268674</a>discagem de um em.</p>
+<p>Para o Exchange 2013, consulte Unificação de mensagens em <a href="https://go.microsoft.com/fwlink/p/?linkid=266579">https://go.microsoft.com/fwlink/p/?LinkId=266579</a>.</p></td>
 </tr>
 <tr class="even">
 <td><p>Definir configurações de segurança para o plano de discagem SIP do UM do Exchange.</p></td>
@@ -127,28 +127,28 @@ Se você deseja integrar a UM (Unificação de mensagens) do Exchange com o Lync
 <td><p>Administrador da organização do Exchange</p></td>
 <td><p><a href="lync-server-2013-configure-unified-messaging-on-microsoft-exchange.md">Configurar a Unificação de mensagens no Microsoft Exchange para o Lync Server 2013</a></p>
 <p>Para o Exchange 2007 SP1 ou Service Pack mais recente, consulte também:</p>
-<p>&quot;Como configurar a segurança em um plano&quot; de discagem de <a href="http://go.microsoft.com/fwlink/p/?linkid=268696">http://go.microsoft.com/fwlink/p/?LinkId=268696</a>Unificação de mensagens em.</p>
+<p>&quot;Como configurar a segurança em um plano&quot; de discagem de <a href="https://go.microsoft.com/fwlink/p/?linkid=268696">https://go.microsoft.com/fwlink/p/?LinkId=268696</a>Unificação de mensagens em.</p>
 <p>Para o Exchange 2010 ou Service Pack mais recente, consulte também:</p>
-<p>&quot;Configurar a segurança VoIP em um plano&quot; <a href="http://go.microsoft.com/fwlink/p/?linkid=268697">http://go.microsoft.com/fwlink/p/?LinkId=268697</a>de discagem de um.</p>
-<p>Para o Exchange 2013, consulte Unificação de mensagens em <a href="http://go.microsoft.com/fwlink/p/?linkid=266579">http://go.microsoft.com/fwlink/p/?LinkId=266579</a>.</p></td>
+<p>&quot;Configurar a segurança VoIP em um plano&quot; <a href="https://go.microsoft.com/fwlink/p/?linkid=268697">https://go.microsoft.com/fwlink/p/?LinkId=268697</a>de discagem de um.</p>
+<p>Para o Exchange 2013, consulte Unificação de mensagens em <a href="https://go.microsoft.com/fwlink/p/?linkid=266579">https://go.microsoft.com/fwlink/p/?LinkId=266579</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Adicione servidores de Unificação de mensagens ao plano de discagem SIP UM do Exchange.</p></td>
 <td><p>Para habilitar um servidor de Unificação de mensagens recém-instalado para responder e processar chamadas de entrada, você deve adicionar o servidor de Unificação de mensagens a um plano de discagem de UM. Nesse caso, adicione o servidor ao plano de discagem SIP UM do Exchange.</p></td>
 <td><p>Administradores</p>
 <p>Administradores do Exchange Server</p></td>
-<td><p>Para o Exchange 2007 SP1 ou Service Pack mais recente &quot;, consulte Como adicionar um servidor de Unificação&quot; de <a href="http://go.microsoft.com/fwlink/p/?linkid=268681">http://go.microsoft.com/fwlink/p/?linkId=268681</a>mensagens a um plano de discagem em.</p>
-<p>Para o Exchange 2010 ou Service Pack mais recente &quot;, consulte Exibir ou configurar as propriedades de um&quot; servidor <a href="http://go.microsoft.com/fwlink/p/?linkid=268682">http://go.microsoft.com/fwlink/p/?linkId=268682</a>de um em.</p>
-<p>Para o Exchange 2013, consulte Unificação de mensagens em <a href="http://go.microsoft.com/fwlink/p/?linkid=266579">http://go.microsoft.com/fwlink/p/?LinkId=266579</a>.</p></td>
+<td><p>Para o Exchange 2007 SP1 ou Service Pack mais recente &quot;, consulte Como adicionar um servidor de Unificação&quot; de <a href="https://go.microsoft.com/fwlink/p/?linkid=268681">https://go.microsoft.com/fwlink/p/?linkId=268681</a>mensagens a um plano de discagem em.</p>
+<p>Para o Exchange 2010 ou Service Pack mais recente &quot;, consulte Exibir ou configurar as propriedades de um&quot; servidor <a href="https://go.microsoft.com/fwlink/p/?linkid=268682">https://go.microsoft.com/fwlink/p/?linkId=268682</a>de um em.</p>
+<p>Para o Exchange 2013, consulte Unificação de mensagens em <a href="https://go.microsoft.com/fwlink/p/?linkid=266579">https://go.microsoft.com/fwlink/p/?LinkId=266579</a>.</p></td>
 </tr>
 <tr class="even">
 <td><p>Configurar caixas de correio com endereços SIP.</p></td>
 <td><p>Atribua endereços SIP às caixas de correio de usuários do Enterprise Voice que usarão os recursos de UM do Exchange.</p></td>
 <td><p>Administrador do Lync Server 2013</p>
 <p>Administrador de destinatários do Exchange</p></td>
-<td><p>Para o Exchange 2007 SP1 ou Service Pack mais recente &quot;, consulte Como adicionar, remover ou modificar um endereço SIP para um usuário&quot; habilitado para um em <a href="http://go.microsoft.com/fwlink/p/?linkid=268698">http://go.microsoft.com/fwlink/p/?LinkId=268698</a>.</p>
-<p>Para o Exchange 2010 ou Service Pack mais recente &quot;, consulte modificar um endereço SIP para um usuário&quot; habilitado para <a href="http://go.microsoft.com/fwlink/p/?linkid=268699">http://go.microsoft.com/fwlink/p/?LinkId=268699</a>um em.</p>
-<p>Para o Exchange 2013, consulte Unificação de mensagens em <a href="http://go.microsoft.com/fwlink/p/?linkid=266579">http://go.microsoft.com/fwlink/p/?LinkId=266579</a>.</p></td>
+<td><p>Para o Exchange 2007 SP1 ou Service Pack mais recente &quot;, consulte Como adicionar, remover ou modificar um endereço SIP para um usuário&quot; habilitado para um em <a href="https://go.microsoft.com/fwlink/p/?linkid=268698">https://go.microsoft.com/fwlink/p/?LinkId=268698</a>.</p>
+<p>Para o Exchange 2010 ou Service Pack mais recente &quot;, consulte modificar um endereço SIP para um usuário&quot; habilitado para <a href="https://go.microsoft.com/fwlink/p/?linkid=268699">https://go.microsoft.com/fwlink/p/?LinkId=268699</a>um em.</p>
+<p>Para o Exchange 2013, consulte Unificação de mensagens em <a href="https://go.microsoft.com/fwlink/p/?linkid=266579">https://go.microsoft.com/fwlink/p/?LinkId=266579</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Execute o script exchucutil. ps1.</p></td>
@@ -231,9 +231,9 @@ Se você deseja integrar a UM (Unificação de mensagens) do Exchange com o Lync
 <td><p>Habilitar usuários do Enterprise Voice para o UM do Exchange.</p></td>
 <td><p>No servidor UM do Exchange, certifique-se de que uma política de caixa de correio de Unificação de mensagens tenha sido criada e que cada usuário tenha uma atribuição de número de ramal exclusivo e habilite o usuário para a Unificação de mensagens.</p></td>
 <td><p>Administrador de destinatários do Exchange</p></td>
-<td><p>Para o Exchange 2007 SP1 ou Service Pack mais recente &quot;, consulte Como habilitar um usuário para Unificação de mensagens&quot; em. <a href="http://go.microsoft.com/fwlink/p/?linkid=268700">http://go.microsoft.com/fwlink/p/?LinkId=268700</a></p>
-<p>Para o Exchange 2010 ou Service Pack mais recente &quot;, consulte Habilitar um usuário para&quot; Unificação de mensagens em <a href="http://go.microsoft.com/fwlink/p/?linkid=268701">http://go.microsoft.com/fwlink/p/?LinkId=268701</a>.</p>
-<p>Para o Exchange 2013, consulte Unificação de mensagens em <a href="http://go.microsoft.com/fwlink/p/?linkid=266579">http://go.microsoft.com/fwlink/p/?LinkId=266579</a>.</p></td>
+<td><p>Para o Exchange 2007 SP1 ou Service Pack mais recente &quot;, consulte Como habilitar um usuário para Unificação de mensagens&quot; em. <a href="https://go.microsoft.com/fwlink/p/?linkid=268700">https://go.microsoft.com/fwlink/p/?LinkId=268700</a></p>
+<p>Para o Exchange 2010 ou Service Pack mais recente &quot;, consulte Habilitar um usuário para&quot; Unificação de mensagens em <a href="https://go.microsoft.com/fwlink/p/?linkid=268701">https://go.microsoft.com/fwlink/p/?LinkId=268701</a>.</p>
+<p>Para o Exchange 2013, consulte Unificação de mensagens em <a href="https://go.microsoft.com/fwlink/p/?linkid=266579">https://go.microsoft.com/fwlink/p/?LinkId=266579</a>.</p></td>
 </tr>
 </tbody>
 </table>

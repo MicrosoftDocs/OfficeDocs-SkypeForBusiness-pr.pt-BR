@@ -12,18 +12,18 @@ ms:contentKeyID: 62835297
 ms.date: 08/27/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 91f0b3396bed8944f8ac0bd3f7f06178153e28db
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 097262cc3a4ba4b56cd023bc5174d881426deff2
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42006377"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42137912"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="how-user-photos-are-displayed-in-lync"></a>Como as fotos do usuário são exibidas no Lync
 
@@ -93,11 +93,11 @@ As considerações para o uso de imagens de serviços de domínio do Active Dire
 
 O usuário não pode alterar a imagem usada em seu perfil de serviços de domínio do Active Directory diretamente através do cliente Lync 2010. Eles podem usar uma das seguintes opções para fazer isso, se disponíveis:
 
-  - **Os usuários do SharePoint Server**   podem carregar uma foto em "My site" em um SharePoint Server e, em seguida, [Configurar a sincronização de perfil no SharePoint](http://go.microsoft.com/fwlink/p/?linkid=507466) para sincronizar a foto com o atributo **ThumbNailPhoto** nos serviços de domínio do Active Directory.
+  - **Os usuários do SharePoint Server**   podem carregar uma foto em "My site" em um SharePoint Server e, em seguida, [Configurar a sincronização de perfil no SharePoint](https://go.microsoft.com/fwlink/p/?linkid=507466) para sincronizar a foto com o atributo **ThumbNailPhoto** nos serviços de domínio do Active Directory.
 
   - **Foto armazenada em URL**   publicamente acessível os usuários podem configurar sua foto de usuário especificando uma URL publicamente acessível para a imagem que eles desejam usar. A imagem deve estar publicamente acessível sem uma senha. A imagem armazenada no endereço da Web especificado é transferida para outros usuários por meio da categoria cartão de visita nas informações de presença. Quando o cliente do Lync precisa exibir uma foto do usuário, ele recupera a imagem do endereço da Web especificado.
 
-  - **Os cmdlets do Exchange 2010 para administradores do Windows PowerShell**   podem executar o cmdlet [Import-RecipientDataProperty](http://go.microsoft.com/fwlink/p/?linkid=507468) no Shell de gerenciamento do Exchange 2010 no para gerenciar o atributo **ThumbNailPhoto** . Quando as imagens são importadas com os cmdlets do Exchange 2010, o tamanho do arquivo é limitado a 10 KB.
+  - **Os cmdlets do Exchange 2010 para administradores do Windows PowerShell**   podem executar o cmdlet [Import-RecipientDataProperty](https://go.microsoft.com/fwlink/p/?linkid=507468) no Shell de gerenciamento do Exchange 2010 no para gerenciar o atributo **ThumbNailPhoto** . Quando as imagens são importadas com os cmdlets do Exchange 2010, o tamanho do arquivo é limitado a 10 KB.
 
   - **Ferramentas de terceiros**   os usuários podem carregar apenas suas próprias fotos para o atributo **ThumbNailPhoto** .
 
@@ -113,7 +113,7 @@ Quando você escolhe a opção **mostrar uma imagem de um endereço da Web** , o
 
 As considerações para usar imagens de um endereço da Web incluem o seguinte:
 
-  - Os limites de tamanho de arquivo são determinados pelo atributo **MaxPhotoSizeKB** na política de cliente, definido com o cmdlet [New-CsClientPolicy](http://go.microsoft.com/fwlink/p/?linkid=507463) . O limite de tamanho padrão é 30 KB. O valor máximo é 100 KB. Não há restrição na resolução da imagem, mas se você tentar usar um arquivo de imagem que excede o limite de tamanho, ele não será baixado para os clientes do Lync. Você pode definir o valor como 0 para desabilitar a utilização de todas as fotos do usuário no Lync.
+  - Os limites de tamanho de arquivo são determinados pelo atributo **MaxPhotoSizeKB** na política de cliente, definido com o cmdlet [New-CsClientPolicy](https://go.microsoft.com/fwlink/p/?linkid=507463) . O limite de tamanho padrão é 30 KB. O valor máximo é 100 KB. Não há restrição na resolução da imagem, mas se você tentar usar um arquivo de imagem que excede o limite de tamanho, ele não será baixado para os clientes do Lync. Você pode definir o valor como 0 para desabilitar a utilização de todas as fotos do usuário no Lync.
 
   - As fotos de usuários de um endereço da Web podem ser vistas por contatos externos federados.
 
@@ -123,7 +123,7 @@ As considerações para usar imagens de um endereço da Web incluem o seguinte:
 
 ## <a name="managing-users-photo-with-client-policy-cmdlets"></a>Gerenciando fotos do usuário com cmdlets de política de cliente
 
-No Lync Server 2010, as configurações de política do cliente são configuradas com os cmdlets CsClientPolicy. As configurações de política configuradas são enviadas aos clientes por meio do provisionamento em banda. Os dois parâmetros dos cmdlets CsClientPolicy que determinam a experiência de foto do usuário são **DisplayPhoto** e **MaxPhotoSizeKB**. O parâmetro de provisionamento em banda correspondente para **DisplayPhoto** e **MaxPhotoSizeKB** é chamado de **fotousage**. Os valores para o parâmetro **fotousage** são enviados aos clientes por meio do **endpointConfiguration** **Provision**. Confira [visão geral das políticas e configurações do cliente](http://go.microsoft.com/fwlink/?linkid=507470) para obter mais informações.
+No Lync Server 2010, as configurações de política do cliente são configuradas com os cmdlets CsClientPolicy. As configurações de política configuradas são enviadas aos clientes por meio do provisionamento em banda. Os dois parâmetros dos cmdlets CsClientPolicy que determinam a experiência de foto do usuário são **DisplayPhoto** e **MaxPhotoSizeKB**. O parâmetro de provisionamento em banda correspondente para **DisplayPhoto** e **MaxPhotoSizeKB** é chamado de **fotousage**. Os valores para o parâmetro **fotousage** são enviados aos clientes por meio do **endpointConfiguration** **Provision**. Confira [visão geral das políticas e configurações do cliente](https://go.microsoft.com/fwlink/?linkid=507470) para obter mais informações.
 
 O valor do parâmetro **DisplayPhoto** determina a origem da imagem de foto do usuário. Os valores com suporte estão incluídos na tabela a seguir.
 
@@ -144,7 +144,7 @@ O valor do parâmetro **DisplayPhoto** determina a origem da imagem de foto do u
 <tbody>
 <tr class="odd">
 <td><p>NoPhoto</p></td>
-<td><p>none</p></td>
+<td><p>nenhuma</p></td>
 <td><p><strong>Não exibe minha imagem</strong></p></td>
 </tr>
 <tr class="even">
@@ -175,7 +175,7 @@ As fotos do usuário incluídas no status de presença também têm um valor de 
 
 
 > [!NOTE]  
-> Como as fotos não são armazenadas no banco de dados GalContacts. DB, baixar fotos do usuário não depende da configuração <STRONG>AddressBookAvailability</STRONG> na política do cliente (<A href="http://go.microsoft.com/fwlink/p/?linkid=507508">set-CsClientPolicy</A>).
+> Como as fotos não são armazenadas no banco de dados GalContacts. DB, baixar fotos do usuário não depende da configuração <STRONG>AddressBookAvailability</STRONG> na política do cliente (<A href="https://go.microsoft.com/fwlink/p/?linkid=507508">set-CsClientPolicy</A>).
 
 
 
@@ -248,7 +248,7 @@ Quando você escolhe a opção **mostrar minha imagem** , sua foto do usuário �
 
 ## <a name="show-a-picture-from-a-website"></a>Mostrar uma imagem de um site
 
-A opção **Mostrar imagem de um site** fica disponível no Lync 2013 depois que uma política de cliente é configurada para habilitá-la. A versão do cliente deve ser mais recente do que o 15.0.4535.1002, que é instalado com as [atualizações cumulativas do Lync: novembro de 2013](http://go.microsoft.com/fwlink/p/?linkid=509908). Talvez os usuários precisem fazer logout e voltar novamente para ver as alterações no cliente.
+A opção **Mostrar imagem de um site** fica disponível no Lync 2013 depois que uma política de cliente é configurada para habilitá-la. A versão do cliente deve ser mais recente do que o 15.0.4535.1002, que é instalado com as [atualizações cumulativas do Lync: novembro de 2013](https://go.microsoft.com/fwlink/p/?linkid=509908). Talvez os usuários precisem fazer logout e voltar novamente para ver as alterações no cliente.
 
 Você pode definir a política de cliente para permitir que **mostre a imagem de uma configuração de site** executando a política [set-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsClientPolicy) no Shell de gerenciamento do Lync Server. Os cmdlets de exemplo a seguir demonstram como definir a política globalmente para todos os usuários em sua implantação:
 

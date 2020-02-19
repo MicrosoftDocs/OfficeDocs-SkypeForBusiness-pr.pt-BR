@@ -12,18 +12,18 @@ ms:contentKeyID: 48184521
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f2885b3610c1edce441c6abbd93a2515fa6cb904
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 4bf3e665e0031596bc2db2273882aef379a96f2e
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42028662"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42140454"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configure-certificates-on-the-server-running-microsoft-exchange-server-unified-messaging"></a>Configurar certificados no servidor que executa a Unificação de mensagens do Microsoft Exchange Server
 
@@ -130,7 +130,7 @@ O servidor do Exchange deve ser configurado com um certificado de servidor para 
 
 ## <a name="to-configure-exchange-server-2013-um-with-lync-server"></a>Para configurar a UM do Exchange Server 2013 com o Lync Server
 
-1.  Para obter detalhes, consulte "integrar o Exchange 2013 UM com Lync Server" na documentação do Exchange [http://go.microsoft.com/fwlink/p/?LinkId=265372](http://go.microsoft.com/fwlink/p/?linkid=265372)Server em.
+1.  Para obter detalhes, consulte "integrar o Exchange 2013 UM com Lync Server" na documentação do Exchange [https://go.microsoft.com/fwlink/p/?LinkId=265372](https://go.microsoft.com/fwlink/p/?linkid=265372)Server em.
 
 </div>
 
@@ -177,13 +177,13 @@ O servidor do Exchange deve ser configurado com um certificado de servidor para 
 
 ## <a name="to-create-a-certificate-on-exchange-server-2010"></a>Para criar um certificado no Exchange Server 2010
 
-1.  Faça logon no servidor que está executando o UM do Exchange com os direitos de usuário apropriados. Para obter detalhes, consulte "permissões de acesso do [http://go.microsoft.com/fwlink/p/?linkId=195499](http://go.microsoft.com/fwlink/p/?linkid=195499)cliente" em.
+1.  Faça logon no servidor que está executando o UM do Exchange com os direitos de usuário apropriados. Para obter detalhes, consulte "permissões de acesso do [https://go.microsoft.com/fwlink/p/?linkId=195499](https://go.microsoft.com/fwlink/p/?linkid=195499)cliente" em.
 
 2.  Consulte os seguintes procedimentos para criar o certificado:
     
-    1.  "Criar um novo certificado do Exchange" em[http://go.microsoft.com/fwlink/p/?linkId=195494](http://go.microsoft.com/fwlink/p/?linkid=195494)
+    1.  "Criar um novo certificado do Exchange" em[https://go.microsoft.com/fwlink/p/?linkId=195494](https://go.microsoft.com/fwlink/p/?linkid=195494)
     
-    2.  "Importar um certificado do Exchange" em[http://go.microsoft.com/fwlink/p/?linkId=195496](http://go.microsoft.com/fwlink/p/?linkid=195496)
+    2.  "Importar um certificado do Exchange" em[https://go.microsoft.com/fwlink/p/?linkId=195496](https://go.microsoft.com/fwlink/p/?linkid=195496)
     
     <div>
     
@@ -236,9 +236,9 @@ O servidor do Exchange deve ser configurado com um certificado de servidor para 
 
 ## <a name="to-assign-the-certificate-on-exchange-server-2010"></a>Para atribuir o certificado no Exchange Server 2010
 
-1.  Faça logon no servidor que está executando o UM do Exchange com os direitos de usuário apropriados. Para obter detalhes, consulte "permissões de acesso do [http://go.microsoft.com/fwlink/p/?linkId=195499](http://go.microsoft.com/fwlink/p/?linkid=195499)cliente" em.
+1.  Faça logon no servidor que está executando o UM do Exchange com os direitos de usuário apropriados. Para obter detalhes, consulte "permissões de acesso do [https://go.microsoft.com/fwlink/p/?linkId=195499](https://go.microsoft.com/fwlink/p/?linkid=195499)cliente" em.
 
-2.  Para obter o procedimento para atribuir o certificado, consulte "atribuir serviços a um certificado" [http://go.microsoft.com/fwlink/p/?linkId=195497](http://go.microsoft.com/fwlink/p/?linkid=195497)em.
+2.  Para obter o procedimento para atribuir o certificado, consulte "atribuir serviços a um certificado" [https://go.microsoft.com/fwlink/p/?linkId=195497](https://go.microsoft.com/fwlink/p/?linkid=195497)em.
 
 </div>
 

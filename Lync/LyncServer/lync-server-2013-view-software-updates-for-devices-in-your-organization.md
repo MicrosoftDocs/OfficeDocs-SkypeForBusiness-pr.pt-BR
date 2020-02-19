@@ -12,18 +12,18 @@ ms:contentKeyID: 48185418
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b1b1b4da0847dcc8242b6b514069d62a718c653f
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 7926c9c10ba30ed4683b1e05d6e22c4b817f502c
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42035143"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42136649"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="view-software-updates-for-devices-in-lync-server-2013"></a>Exibir atualizações de software para dispositivos no Lync Server 2013
 
@@ -37,7 +37,7 @@ ms.locfileid: "42035143"
 
 _**Última modificação do tópico:** 2012-11-01_
 
-Com o Lync Server 2013, você usa o serviço Web de atualização de dispositivo para exibir e gerenciar atualizações de software para os dispositivos de sua organização. Essas atualizações estão disponíveis em arquivos. cab (Cabinet) no site de suporte da Microsoft [http://go.microsoft.com/fwlink/p/?linkId=204091](http://go.microsoft.com/fwlink/p/?linkid=204091)em. Depois de baixar o arquivo. cab, execute o cmdlet **Import-CSDeviceUpdate** para importar as regras de atualização de dispositivo do arquivo. cab. Para obter detalhes sobre o cmdlet **Import-CSDeviceUpdate** , consulte [Import-CSDeviceUpdate](https://docs.microsoft.com/powershell/module/skype/Import-CsDeviceUpdate) na documentação do Shell de gerenciamento do Lync Server.
+Com o Lync Server 2013, você usa o serviço Web de atualização de dispositivo para exibir e gerenciar atualizações de software para os dispositivos de sua organização. Essas atualizações estão disponíveis em arquivos. cab (Cabinet) no site de suporte da Microsoft [https://go.microsoft.com/fwlink/p/?linkId=204091](https://go.microsoft.com/fwlink/p/?linkid=204091)em. Depois de baixar o arquivo. cab, execute o cmdlet **Import-CSDeviceUpdate** para importar as regras de atualização de dispositivo do arquivo. cab. Para obter detalhes sobre o cmdlet **Import-CSDeviceUpdate** , consulte [Import-CSDeviceUpdate](https://docs.microsoft.com/powershell/module/skype/Import-CsDeviceUpdate) na documentação do Shell de gerenciamento do Lync Server.
 
 <div>
 
@@ -55,7 +55,7 @@ Com o Lync Server 2013, você usa o serviço Web de atualização de dispositivo
 
 1.  Por uma conta de usuário atribuída à função CsUserAdministrator role ou CsAdministrator, faça o login em qualquer computador na sua implantação interna.
 
-2.  No site de suporte da Microsoft [http://go.microsoft.com/fwlink/p/?linkId=204091](http://go.microsoft.com/fwlink/p/?linkid=204091)em, baixe o arquivo. cab para um local em um computador do Lync Server 2013 (por exemplo,\\C\\: atualiza UCUpdates. cab).
+2.  No site de suporte da Microsoft [https://go.microsoft.com/fwlink/p/?linkId=204091](https://go.microsoft.com/fwlink/p/?linkid=204091)em, baixe o arquivo. cab para um local em um computador do Lync Server 2013 (por exemplo,\\C\\: atualiza UCUpdates. cab).
 
 3.  Importe as regras de atualização de dispositivo do arquivo\\C\\: updates. cab do UCUpdates executando um dos seguintes cmdlets:
     

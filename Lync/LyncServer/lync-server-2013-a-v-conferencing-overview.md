@@ -12,18 +12,18 @@ ms:contentKeyID: 49733747
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dd73e1356e42aca8dc4159143287371dd66f0688
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 4d77d39cfa1483db9251d038f876f8e91428ae23
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42037963"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42135668"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="overview-of-av-conferencing-in-lync-server-2013"></a>Visão geral da Conferência A/V no Lync Server 2013
 
@@ -43,7 +43,7 @@ Para planejar a conferência A/V, você precisa saber a largura de banda de rede
 
 Antes de habilitar os usuários para conferência A/V, verifique se a rede pode lidar com a carga resultante. Sem largura de banda de rede suficiente, a experiência do usuário pode ser seriamente degradada. Você pode usar o CAC (controle de admissão de chamadas) para gerenciar a largura de banda da rede usada por conferência A/V. Isso é importante para redes restritas, como links limitados de largura de banda entre os sites central e de filial. Para obter detalhes, consulte [Overview of Call Admission Control in Lync Server 2013](lync-server-2013-overview-of-call-admission-control.md). Para obter detalhes sobre os requisitos de largura de banda de mídia, consulte [requisitos de largura de banda de rede para tráfego de mídia no Lync Server 2013](lync-server-2013-network-bandwidth-requirements-for-media-traffic.md).
 
-Se você implantar uma conferência de áudio na sua rede, os usuários precisarão de dispositivos de áudio, como fones de ouvido, para participar em uma conferência de áudio. Se você implantar conferência de vídeo, será necessário implantar dispositivos de vídeo, como webcams, para os usuários. Recomendamos que você use dispositivos UC (comunicações unificadas) certificados pela Microsoft para todos os tipos de dispositivos, para garantir uma experiência ideal para o usuário. Para obter detalhes sobre dispositivos certificados para UC, consulte "telefones e dispositivos para Lync" [http://go.microsoft.com/fwlink/p/?LinkId=263861](http://go.microsoft.com/fwlink/p/?linkid=263861)em. Para dispositivos de áudio e vídeo, a implantação de vídeo e treinamento do usuário são etapas importantes a serem consideradas e planejadas.
+Se você implantar uma conferência de áudio na sua rede, os usuários precisarão de dispositivos de áudio, como fones de ouvido, para participar em uma conferência de áudio. Se você implantar conferência de vídeo, será necessário implantar dispositivos de vídeo, como webcams, para os usuários. Recomendamos que você use dispositivos UC (comunicações unificadas) certificados pela Microsoft para todos os tipos de dispositivos, para garantir uma experiência ideal para o usuário. Para obter detalhes sobre dispositivos certificados para UC, consulte "telefones e dispositivos para Lync" [https://go.microsoft.com/fwlink/p/?LinkId=263861](https://go.microsoft.com/fwlink/p/?linkid=263861)em. Para dispositivos de áudio e vídeo, a implantação de vídeo e treinamento do usuário são etapas importantes a serem consideradas e planejadas.
 
 As seções a seguir descrevem os recursos para conferência de áudio e vídeo, incluindo informações sobre gerenciamento de largura de banda e seleção de clientes apropriados.
 

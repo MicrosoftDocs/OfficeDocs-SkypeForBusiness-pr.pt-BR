@@ -12,18 +12,18 @@ ms:contentKeyID: 57793362
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 690eb5631b57a88d207816a01c887c1f94c0eeb2
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 718dda9966b79ca75f64df115dc9a6ba30d15619
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42044043"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42136989"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="frequently-asked-questions-provisioning-lync-server-2013-for-skype-connectivity"></a>Perguntas frequentes: provisionamento do Lync Server 2013 para conectividade do Skype
 
@@ -138,7 +138,7 @@ Essa ordem é importante.Você deve configurar a conectividade local antes de ha
 
 **P: Como adiciono um contato do Windows Live Messenger com uma ID que contém um domínio diferente daqueles suportados pelo Windows Live?**
 
-**A:** Se você estiver adicionando um usuário do Windows Live Messenger com uma conta ou ID com um domínio que não seja do Windows Live, insira o endereço no seguinte \<formato:\>nome\<de usuário\>(nome de domínio) @msn \<. com\> , onde nome de domínio é o nome do domínio no endereço de email do usuário. Por exemplo, se você quisesse adicionar ted@contoso.com, usaria o seguinte formato: Ted (contoso. com) @msn. com. Para obter uma lista de domínios administrados pelo Windows Live, consulte a seção domínios com suporte em "problemas conhecidos que ocorrem com mensagens instantâneas públicas após a instalação do Live Communications Server Service Pack http://support.microsoft.com/?kbid=8975671" em.
+**A:** Se você estiver adicionando um usuário do Windows Live Messenger com uma conta ou ID com um domínio que não seja do Windows Live, insira o endereço no seguinte \<formato:\>nome\<de usuário\>(nome de domínio) @msn \<. com\> , onde nome de domínio é o nome do domínio no endereço de email do usuário. Por exemplo, se você quisesse adicionar ted@contoso.com, usaria o seguinte formato: Ted (contoso. com) @msn. com. Para obter uma lista de domínios administrados pelo Windows Live, consulte a seção domínios com suporte em "problemas conhecidos que ocorrem com mensagens instantâneas públicas após a instalação do Live Communications Server Service Pack https://support.microsoft.com/?kbid=8975671" em.
 
 **P: quanto tempo o processo de provisionamento leva?**
 

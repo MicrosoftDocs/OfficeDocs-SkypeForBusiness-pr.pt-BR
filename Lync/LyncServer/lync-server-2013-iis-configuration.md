@@ -12,18 +12,18 @@ ms:contentKeyID: 48185169
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 65d9d4f61fabdca7a3f9cb4808efe952ec7ce3b2
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 6d284fa2082c886a583baf116893f792535a096b
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42037873"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42136188"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="iis-configuration-in-lync-server-2013"></a>Configuração do IIS no Lync Server 2013
 
@@ -45,7 +45,7 @@ Antes de configurar e instalar o servidor front-end para o Lync Server 2013, Sta
 
 
 > [!IMPORTANT]  
-> Se sua organização exigir que você localize o IIS e todos os serviços Web em uma unidade diferente da unidade do sistema, você poderá alterar o caminho do local de instalação dos arquivos do Lync Server 2013 na caixa de diálogo de instalação ao instalar inicialmente o Lync Server 2013 Ferramentas administrativas. Instale as ferramentas Administrativas antes de instalar o IIS. Se você instalar os arquivos de instalação nesse caminho, incluindo o OCSCore. msi, o restante dos arquivos do Lync Server 2013 também será implantado nessa unidade. Para o dtails, confira <A href="lync-server-2013-install-lync-server-administrative-tools.md">instalar as ferramentas administrativas do Lync Server 2013</A>. Para obter detalhes sobre como realocar o INETPUB implantado pelo Windows Server Manager ao instalar <A href="http://go.microsoft.com/fwlink/p/?linkid=216888">http://go.microsoft.com/fwlink/p/?linkId=216888</A>o IIS, consulte.
+> Se sua organização exigir que você localize o IIS e todos os serviços Web em uma unidade diferente da unidade do sistema, você poderá alterar o caminho do local de instalação dos arquivos do Lync Server 2013 na caixa de diálogo de instalação ao instalar inicialmente o Lync Server 2013 Ferramentas administrativas. Instale as ferramentas Administrativas antes de instalar o IIS. Se você instalar os arquivos de instalação nesse caminho, incluindo o OCSCore. msi, o restante dos arquivos do Lync Server 2013 também será implantado nessa unidade. Para o dtails, confira <A href="lync-server-2013-install-lync-server-administrative-tools.md">instalar as ferramentas administrativas do Lync Server 2013</A>. Para obter detalhes sobre como realocar o INETPUB implantado pelo Windows Server Manager ao instalar <A href="https://go.microsoft.com/fwlink/p/?linkid=216888">https://go.microsoft.com/fwlink/p/?linkId=216888</A>o IIS, consulte.
 
 
 
@@ -155,7 +155,7 @@ No sistema operacional Windows Server 2008 R2 SP1 x64, você pode usar o Windows
 
 
 > [!NOTE]  
-> A autenticação anônima está instalada por padrão com a função de servidor do IIS. É possível gerenciar a autenticação anônima após a instalação do IIS. Para obter detalhes, consulte "habilitar autenticação anônima (IIS 7)" <A href="http://go.microsoft.com/fwlink/p/?linkid=203935">http://go.microsoft.com/fwlink/p/?linkId=203935</A>em.
+> A autenticação anônima está instalada por padrão com a função de servidor do IIS. É possível gerenciar a autenticação anônima após a instalação do IIS. Para obter detalhes, consulte "habilitar autenticação anônima (IIS 7)" <A href="https://go.microsoft.com/fwlink/p/?linkid=203935">https://go.microsoft.com/fwlink/p/?linkId=203935</A>em.
 
 
 
@@ -167,7 +167,7 @@ A tabela a seguir indica os serviços de função do IIS 8,0 e IIS 8,5 necessár
 
 
 > [!NOTE]  
-> Para o Windows Server 2012 e o Windows Server 2012 R2, o cmdlet Add-WindowsFeature foi substituído pelo cmdlet Install-WindowsFeature. Para obter detalhes, consulte <A href="http://go.microsoft.com/fwlink/p/?linkid=392274">install-WindowsFeature</A>.
+> Para o Windows Server 2012 e o Windows Server 2012 R2, o cmdlet Add-WindowsFeature foi substituído pelo cmdlet Install-WindowsFeature. Para obter detalhes, consulte <A href="https://go.microsoft.com/fwlink/p/?linkid=392274">install-WindowsFeature</A>.
 
 
 
@@ -365,7 +365,7 @@ No Windows Server 2012 e no Windows Server 2012 R2, você pode usar o Windows Po
 
 <div>
 
-## <a name="see-also"></a>Confira Também
+## <a name="see-also"></a>Confira também
 
 
 [Requisitos de IIS para pools front-end e servidores Standard Edition no Lync Server 2013](lync-server-2013-iis-requirements-for-front-end-pools-and-standard-edition-servers.md)  

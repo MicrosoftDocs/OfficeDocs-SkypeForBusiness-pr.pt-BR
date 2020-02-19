@@ -12,18 +12,18 @@ ms:contentKeyID: 49733790
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 916fb459e71460249b47719ab4a4c07f8d082e4d
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: f2b96e0c8bba14e58e6d800b5c5634a5a655ef35
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42049613"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42139052"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="progressreport-view-in-lync-server-2013"></a>Exibição ProgressReport no Lync Server 2013
 
@@ -90,7 +90,7 @@ A exibição ProgressReport armazena informações sobre sessões concluídas. O
 <td><p>Nome do servidor que originou o erro (se o relatório foi enviado de um componente do servidor).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Application</strong></p></td>
+<td><p><strong>Aplicativo</strong></p></td>
 <td><p>nvarchar (256)</p></td>
 <td><p>Nome de um aplicativo que originou o erro (se o relatório foi enviado de um componente do servidor).</p></td>
 </tr>

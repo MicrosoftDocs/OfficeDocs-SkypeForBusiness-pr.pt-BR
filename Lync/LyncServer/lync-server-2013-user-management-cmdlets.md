@@ -12,18 +12,18 @@ ms:contentKeyID: 48184702
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4a672eea92c820970b3cc4cc1c112c15fcffd641
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: a92c1c89319b1f081867ab8452b216541975bf2e
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42033790"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42140824"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="user-management-cmdlets-in-lync-server-2013"></a>Cmdlets de gerenciamento de usuário no Lync Server 2013
 
@@ -126,7 +126,7 @@ A maioria das tarefas de gerenciamento que se aplicam a usuários e contas de us
 ## <a name="see-also"></a>Confira também
 
 
-[Blog do PowerShell do Lync Server](http://go.microsoft.com/fwlink/p/?linkid=203150)  
+[Blog do PowerShell do Lync Server](https://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>

@@ -12,18 +12,18 @@ ms:contentKeyID: 49733564
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 509bc25e6466e4e6f90271645b2a3a8ff271bd84
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 64d6bca76586f6a4b9636a92f2026658b77a9382
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42050953"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42136709"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="view-lync-phone-edition-configuration-settings-information-in-lync-server-2013"></a>Exibir as informações de configuração do Lync Phone Edition no Lync Server 2013
 
@@ -57,7 +57,7 @@ Você pode exibir informações de configuração sobre dispositivos que executa
 
 ## <a name="viewing-lync-phone-edition-configuration-information-by-using-windows-powershell-cmdlets"></a>Exibindo informações de configuração do Lync Phone Edition usando cmdlets do Windows PowerShell
 
-Você pode exibir as definições de configuração do Lync Phone Edition usando o Shell de gerenciamento do Lync Server e o cmdlet **Get-CsUCPhoneConfiguration** . Você pode executar esse cmdlet do Shell de gerenciamento do Lync Server 2013 ou de uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Lync Server, consulte o artigo de blog do Lync Server Windows PowerShell "início rápido: Managing Microsoft Lync Server [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)2010 using Remote PowerShell" em.
+Você pode exibir as definições de configuração do Lync Phone Edition usando o Shell de gerenciamento do Lync Server e o cmdlet **Get-CsUCPhoneConfiguration** . Você pode executar esse cmdlet do Shell de gerenciamento do Lync Server 2013 ou de uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Lync Server, consulte o artigo de blog do Lync Server Windows PowerShell "início rápido: Managing Microsoft Lync Server [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)2010 using Remote PowerShell" em.
 
 <div>
 
@@ -87,7 +87,7 @@ Para obter detalhes, consulte [Get-CsUCPhoneConfiguration](https://docs.microsof
 
 <div>
 
-## <a name="see-also"></a>Confira Também
+## <a name="see-also"></a>Confira também
 
 
 [Criar ou modificar um conjunto de definições de configuração do Lync Phone Edition no Lync Server 2013](lync-server-2013-create-or-modify-a-collection-of-lync-phone-edition-configuration-settings.md)  
