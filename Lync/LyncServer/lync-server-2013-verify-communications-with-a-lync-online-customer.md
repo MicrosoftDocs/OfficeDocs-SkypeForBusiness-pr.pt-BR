@@ -12,18 +12,18 @@ ms:contentKeyID: 48185378
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1dffbb5d8a0e49e19c0fa5487a4af05b7e7f0155
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 59fcf8398fa012543303f959f4888074f5192470
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42007360"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42113354"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="verify-communications-with-a-lync-online-customer-in-lync-server-2013"></a>Verificar comunicações com um cliente do Lync Online no Lync Server 2013
 
@@ -45,7 +45,7 @@ Para permitir que os usuários do Lync em sua organização se comuniquem com os
 
   - Configurar suas contas de usuário para suportar a federação. Para obter detalhes, consulte [Configurar o acesso do usuário para federação com um cliente do Lync Online no Lync Server 2013](lync-server-2013-configure-user-access-for-federation-with-a-lync-online-customer.md).
 
-Depois que você concluir todas essas etapas e o administrador do cliente do Lync Online 2010 concluir todas as configurações de seus serviços online para dar suporte à Federação com sua organização, verifique as comunicações com o teste de comunicações entre um usuário em sua organização e um usuário do cliente do Lync Online. Se a comunicação não tiver êxito, use a ferramenta de registro em log do servidor de borda para capturar arquivos de log e rastreamento a fim de solucionar o problema. Para obter detalhes sobre como usar a ferramenta de registro em log, confira [abrir as ferramentas administrativas do Lync Server 2013](lync-server-2013-open-lync-server-administrative-tools.md) na documentação operações. Para obter detalhes sobre a ferramenta de registro em log, consulte a documentação da ferramenta de registro em log [http://go.microsoft.com/fwlink/p/?linkId=199265](http://go.microsoft.com/fwlink/p/?linkid=199265)do Lync Server 2010 na biblioteca do TechNet em.
+Depois que você concluir todas essas etapas e o administrador do cliente do Lync Online 2010 concluir todas as configurações de seus serviços online para dar suporte à Federação com sua organização, verifique as comunicações com o teste de comunicações entre um usuário em sua organização e um usuário do cliente do Lync Online. Se a comunicação não tiver êxito, use a ferramenta de registro em log do servidor de borda para capturar arquivos de log e rastreamento a fim de solucionar o problema. Para obter detalhes sobre como usar a ferramenta de registro em log, confira [abrir as ferramentas administrativas do Lync Server 2013](lync-server-2013-open-lync-server-administrative-tools.md) na documentação operações. Para obter detalhes sobre a ferramenta de registro em log, consulte a documentação da ferramenta de registro em log [https://go.microsoft.com/fwlink/p/?linkId=199265](https://go.microsoft.com/fwlink/p/?linkid=199265)do Lync Server 2010 na biblioteca do TechNet em.
 
 </div>
 

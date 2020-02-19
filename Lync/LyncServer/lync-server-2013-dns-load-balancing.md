@@ -12,18 +12,18 @@ ms:contentKeyID: 48184625
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 46d1efb960e6f60118364193dffdbedcefea94a3
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 0d08c56e8b88f13a965f7ab24c8f497e01f10400
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42034813"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42135097"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="dns-load-balancing-in-lync-server-2013"></a>Balanceamento de carga de DNS no Lync Server 2013
 
@@ -41,7 +41,7 @@ O Lync Server habilita o balanceamento de carga de DNS, uma solução de softwar
 
 Se você implantar o balanceamento de carga DNS, a sobrecarga de administração da sua organização para balanceadores de carga de hardware será minimizada. Além disso, a solução complexa de problemas relacionados à configuração incorreta de balanceadores de carga de tráfego SIP será eliminada. Você também pode impedir as conexões de servidor para que seja possível assumir servidores offline. O balanceamento de carga DNS também garante que os problemas de balanceador de carga de hardware não afetem elementos do tráfego SIP, como o roteamento básico de chamada.
 
-Se você usar o balanceamento de carga DNS, também poderá adquirir os balanceadores de carga de hardware de custo mais baixo do que se usasse os balanceadores de carga de hardware para todos os tipos de tráfego. Você deve usar balanceadores de carga que passaram no teste de qualificação de interoperabilidade com o Lync Server. Para obter detalhes sobre o teste de interoperabilidade do balanceador de carga, consulte "parceiros do balanceador de carga do Lync Server 2010" em [http://go.microsoft.com/fwlink/p/?linkId=202452](http://go.microsoft.com/fwlink/p/?linkid=202452).
+Se você usar o balanceamento de carga DNS, também poderá adquirir os balanceadores de carga de hardware de custo mais baixo do que se usasse os balanceadores de carga de hardware para todos os tipos de tráfego. Você deve usar balanceadores de carga que passaram no teste de qualificação de interoperabilidade com o Lync Server. Para obter detalhes sobre o teste de interoperabilidade do balanceador de carga, consulte "parceiros do balanceador de carga do Lync Server 2010" em [https://go.microsoft.com/fwlink/p/?linkId=202452](https://go.microsoft.com/fwlink/p/?linkid=202452).
 
 O balanceamento de carga DNS é suportado para pools de Front-Ends,  pools de Servidor de Borda, pools do Diretor e pools autônomos do Servidor de Mediação.
 

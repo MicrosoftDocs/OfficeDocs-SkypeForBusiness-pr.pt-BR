@@ -12,18 +12,18 @@ ms:contentKeyID: 49733733
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ab2b7026ca49f8e12a5f8b67aa0780996feaebe1
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 664091baee67d0ddf953d8a114370fdb875eef29
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42036481"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42135538"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="capacity-planning-for-lync-server-2013-using-the-user-models"></a>Planejamento de capacidade para Lync Server 2013 usando modelos de usuário
 
@@ -220,7 +220,7 @@ A tabela a seguir mostra a largura de banda média para IM e presença, dado o m
 
 
 > [!NOTE]  
-> Para melhorar o desempenho de mídia da funcionalidade do servidor de mediação e de conferência a/V alocada em seus servidores front-end, você deve habilitar o RSS (escala de recebimento) nos adaptadores de rede em seus servidores front-end. O RSS permite que pacotes recebidos sejam manipulados em paralelo por vários processadores no servidor. Para obter detalhes, consulte "aprimoramentos de redimensionamento no lado do recebimento no <A href="http://go.microsoft.com/fwlink/p/?linkid=268731">http://go.microsoft.com/fwlink/p/?linkId=268731</A>Windows Server 2008" em. Para obter detalhes sobre como habilitar o RSS, consulte a documentação do seu adaptador de rede.
+> Para melhorar o desempenho de mídia da funcionalidade do servidor de mediação e de conferência a/V alocada em seus servidores front-end, você deve habilitar o RSS (escala de recebimento) nos adaptadores de rede em seus servidores front-end. O RSS permite que pacotes recebidos sejam manipulados em paralelo por vários processadores no servidor. Para obter detalhes, consulte "aprimoramentos de redimensionamento no lado do recebimento no <A href="https://go.microsoft.com/fwlink/p/?linkid=268731">https://go.microsoft.com/fwlink/p/?linkId=268731</A>Windows Server 2008" em. Para obter detalhes sobre como habilitar o RSS, consulte a documentação do seu adaptador de rede.
 
 
 
@@ -266,7 +266,7 @@ Ao contar o número de usuários para os Servidores de Borda, inclua os usuário
 
 
 > [!NOTE]  
-> Para aprimorar o desempenho do serviço de Borda de Conferência A/V em seus Servidores de Borda, você deve habilitar o receive-side scaling (RSS) nos adaptadores de rede em seus Servidores de Borda. O RSS permite que pacotes recebidos sejam manipulados em paralelo por vários processadores no servidor. Para obter detalhes, consulte "aprimoramentos de redimensionamento no lado do recebimento no <A href="http://go.microsoft.com/fwlink/p/?linkid=268731">http://go.microsoft.com/fwlink/p/?linkId=268731</A>Windows Server 2008" em. Para obter detalhes sobre como habilitar o RSS, consulte a documentação do seu adaptador de rede.
+> Para aprimorar o desempenho do serviço de Borda de Conferência A/V em seus Servidores de Borda, você deve habilitar o receive-side scaling (RSS) nos adaptadores de rede em seus Servidores de Borda. O RSS permite que pacotes recebidos sejam manipulados em paralelo por vários processadores no servidor. Para obter detalhes, consulte "aprimoramentos de redimensionamento no lado do recebimento no <A href="https://go.microsoft.com/fwlink/p/?linkid=268731">https://go.microsoft.com/fwlink/p/?linkId=268731</A>Windows Server 2008" em. Para obter detalhes sobre como habilitar o RSS, consulte a documentação do seu adaptador de rede.
 
 
 
@@ -396,7 +396,7 @@ Todas as tabelas a seguir consideram o uso resumido em [modelos de usuário no L
 
 
 > [!NOTE]  
-> Para melhorar o desempenho do servidor de mediação, você deve habilitar o RSS (escala de recebimento) nos adaptadores de rede em seus servidores de mediação. O RSS permite que pacotes recebidos sejam manipulados em paralelo por vários processadores no servidor. Para obter detalhes, consulte "aprimoramentos de redimensionamento no lado do recebimento no <A href="http://go.microsoft.com/fwlink/p/?linkid=268731">http://go.microsoft.com/fwlink/p/?linkId=268731</A>Windows Server 2008" em. Para obter detalhes sobre como habilitar o RSS, consulte a documentação do seu adaptador de rede.
+> Para melhorar o desempenho do servidor de mediação, você deve habilitar o RSS (escala de recebimento) nos adaptadores de rede em seus servidores de mediação. O RSS permite que pacotes recebidos sejam manipulados em paralelo por vários processadores no servidor. Para obter detalhes, consulte "aprimoramentos de redimensionamento no lado do recebimento no <A href="https://go.microsoft.com/fwlink/p/?linkid=268731">https://go.microsoft.com/fwlink/p/?linkId=268731</A>Windows Server 2008" em. Para obter detalhes sobre como habilitar o RSS, consulte a documentação do seu adaptador de rede.
 
 
 
@@ -495,18 +495,18 @@ A Microsoft utilizou o hardware na tabela a seguir para o servidor de banco de d
 </tr>
 <tr class="odd">
 <td><p>Arquivo de log do banco de dados CDR</p></td>
-<td><p>1 </p></td>
-<td><p>2 </p></td>
+<td><p>1</p></td>
+<td><p>duas</p></td>
 </tr>
 <tr class="even">
 <td><p>Arquivo de log do banco de dados QoE</p></td>
-<td><p>1 </p></td>
-<td><p>2 </p></td>
+<td><p>1</p></td>
+<td><p>duas</p></td>
 </tr>
 <tr class="odd">
 <td><p>Arquivo de log do banco de dados de arquivamento</p></td>
-<td><p>1 </p></td>
-<td><p>2 </p></td>
+<td><p>1</p></td>
+<td><p>duas</p></td>
 </tr>
 </tbody>
 </table>

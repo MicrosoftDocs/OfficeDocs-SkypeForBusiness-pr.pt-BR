@@ -12,18 +12,18 @@ ms:contentKeyID: 48185136
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7aada74d1cc96d0dfd7396231ccd96e6ed0d13a6
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: b200fb122f436e7afa5587e56a9e62edd0d3fa5e
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42008553"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42135568"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="active-directory-domain-services-support-in-lync-server-2013"></a>Suporte aos serviços de domínio do Active Directory no Lync Server 2013
 
@@ -103,7 +103,7 @@ O Lync Server 2013 oferece suporte a implantações de serviços de domínio do 
 
 ## <a name="domain-names"></a>Nomes de domínio
 
-O Lync Server não dá suporte a domínios com rótulo único. Por exemplo, uma floresta com um domínio raiz chamado **contoso.local** é suportado, mas um domínio raiz chamado **local** não é suportado. Para obter detalhes, consulte o artigo 300684 da base de dados de conhecimento da Microsoft, "informações sobre como configurar o Windows para domínios [http://go.microsoft.com/fwlink/p/?linkId=143752](http://go.microsoft.com/fwlink/p/?linkid=143752)com nomes DNS de rótulo único" em.
+O Lync Server não dá suporte a domínios com rótulo único. Por exemplo, uma floresta com um domínio raiz chamado **contoso.local** é suportado, mas um domínio raiz chamado **local** não é suportado. Para obter detalhes, consulte o artigo 300684 da base de dados de conhecimento da Microsoft, "informações sobre como configurar o Windows para domínios [https://go.microsoft.com/fwlink/p/?linkId=143752](https://go.microsoft.com/fwlink/p/?linkid=143752)com nomes DNS de rótulo único" em.
 
 <div>
 

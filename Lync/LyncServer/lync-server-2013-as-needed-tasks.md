@@ -12,18 +12,18 @@ ms:contentKeyID: 63969643
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 67a0355d32e5e704d6609335c82f8cfe1fe7aa86
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 03a819fad54bbd19be842f7ae28f655186135b50
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029282"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42134477"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="as-needed-tasks-in-lync-server-2013"></a>Tarefas necessárias no Lync Server 2013
 
@@ -103,7 +103,7 @@ Execute as seguintes tarefas, conforme necessário. Eles também são freqüente
     
       - Excluir usuários do Lync Server
 
-  - **Analisando arquivos**   de log do Lync Server 2013 uma ferramenta muito útil, geralmente usada para solução de problemas, é a ferramenta de registro em log do Lync Server 2013 descrita em detalhes sobre como [usar a ferramenta de registro em log do Lync Server 2013](http://technet.microsoft.com/library/gg558599.aspx).
+  - **Analisando arquivos**   de log do Lync Server 2013 uma ferramenta muito útil, geralmente usada para solução de problemas, é a ferramenta de registro em log do Lync Server 2013 descrita em detalhes sobre como [usar a ferramenta de registro em log do Lync Server 2013](https://technet.microsoft.com/library/gg558599.aspx).
 
 Como a ferramenta de registro em log gera arquivos de log (em uma base por servidor), esses arquivos de log podem ser visualizados e analisados usando a ferramenta Snooper, se as ferramentas do Microsoft Office Server 12 Resource Kit estiverem instaladas no computador. Caso contrário, os logs também podem ser analisados usando um editor de texto, que é muito menos transparente e mais complexo do que o uso do utilitário Snooper.
 

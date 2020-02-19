@@ -12,18 +12,18 @@ ms:contentKeyID: 49733675
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bf5eb1c82b6cabff3657890c83f4e8240a30e23f
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c10c1ef0b48157c69789ed26221d9f6367f5d5e0
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42045373"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42134277"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="call-detail-recording-cdr-in-lync-server-2013"></a>Registro de detalhes da chamada (CDR) no Lync Server 2013
 
@@ -57,7 +57,7 @@ O CDR (registro de detalhes das chamadas) registra informações de uso e diagn�
 
 <div>
 
-## <a name="see-also"></a>Confira Também
+## <a name="see-also"></a>Confira também
 
 
 [Configurando a gravação de detalhes da chamada e as configurações de qualidade da experiência no Lync Server 2013](lync-server-2013-configuring-call-detail-recording-and-quality-of-experience-settings.md)  

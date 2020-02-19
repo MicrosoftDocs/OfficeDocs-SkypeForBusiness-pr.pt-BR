@@ -12,18 +12,18 @@ ms:contentKeyID: 48185621
 ms.date: 06/28/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 35ab12cc2e00bf81bc17552253eb56417dde2c6e
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: ce694fe34451d6465f1fff31119ecf40c13e82d7
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42041000"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42118624"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="installing-windows-powershell-30-for-lync-server-2013"></a>Instalando o Windows PowerShell 3,0 para Lync Server 2013
 
@@ -45,7 +45,7 @@ Agora, para sistemas que executam o Windows Server 2012 ou o Windows Server 2012
 
 
 > [!IMPORTANT]  
-> Mas para sistemas executando o Windows Server 2008 R2 SP1, você precisará instalar o PowerShell 3,0 como pré-requisito antes de instalar o Lync Server 2013 ou as coisas não funcionarão. Para instalar o PowerShell 3,0, consulte <A href="http://go.microsoft.com/fwlink/p/?linkid=329800">Windows Management Framework 3,0</A>. Este é um link direto para a página de download do PowerShell 3,0, juntamente com informações relacionadas à instalação bem-sucedida.
+> Mas para sistemas executando o Windows Server 2008 R2 SP1, você precisará instalar o PowerShell 3,0 como pré-requisito antes de instalar o Lync Server 2013 ou as coisas não funcionarão. Para instalar o PowerShell 3,0, consulte <A href="https://go.microsoft.com/fwlink/p/?linkid=329800">Windows Management Framework 3,0</A>. Este é um link direto para a página de download do PowerShell 3,0, juntamente com informações relacionadas à instalação bem-sucedida.
 
 
 

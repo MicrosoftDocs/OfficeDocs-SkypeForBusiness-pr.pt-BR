@@ -12,18 +12,18 @@ ms:contentKeyID: 49733559
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 914fee9d2ddf0a7e6d6867879a197b55380d35c9
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: b75663f1e5bc51136ac0a2254944541716ad6f74
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42041270"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42134137"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="web-conferencing-requirements-in-lync-server-2013"></a>Requisitos de Webconferência no Lync Server 2013
 
@@ -113,7 +113,7 @@ Você deve atualizar o arquivo Web. config para cada servidor de front-end.
 
 ## <a name="office-web-apps-server"></a>Servidor do Office Web Apps
 
-Para usar esses novos recursos, os administradores devem instalar o Office Web Apps Server e devem configurar o Lync Server 2013 para se comunicar com o servidor do Office Web Apps. Esta documentação fornece informações sobre como configurar o Lync Server 2013 para funcionar com o servidor do Office Web Apps. O que esta documentação não fornece é informações sobre como instalar o Office Web Apps Server. Para obter detalhes sobre a instalação, consulte o site de implantação do <http://go.microsoft.com/fwlink/p/?linkid=257525>Microsoft Office Web Apps em. Esse guia inclui informações completas de pré-requisito para o servidor do Office Web Apps. Observe que o servidor do Office Web Apps deve ser instalado em um computador autônomo que não esteja executando o Lync Server, o SQL Server ou qualquer outro aplicativo de servidor. (Você não deve ter nenhuma versão do Office instalada nesse computador.) Qualquer computador usado para executar o servidor do Office Web Apps também deve ter um conjunto específico de software instalado (incluindo o .NET Framework 4,5 e o Windows PowerShell 3,0). Esses requisitos, juntamente com as informações sobre a configuração de certificados e os serviços de informações da Internet (IIS), são discutidos em detalhes no site <http://go.microsoft.com/fwlink/p/?linkid=257525>de implantação do Microsoft Office Web Apps em.
+Para usar esses novos recursos, os administradores devem instalar o Office Web Apps Server e devem configurar o Lync Server 2013 para se comunicar com o servidor do Office Web Apps. Esta documentação fornece informações sobre como configurar o Lync Server 2013 para funcionar com o servidor do Office Web Apps. O que esta documentação não fornece é informações sobre como instalar o Office Web Apps Server. Para obter detalhes sobre a instalação, consulte o site de implantação do <https://go.microsoft.com/fwlink/p/?linkid=257525>Microsoft Office Web Apps em. Esse guia inclui informações completas de pré-requisito para o servidor do Office Web Apps. Observe que o servidor do Office Web Apps deve ser instalado em um computador autônomo que não esteja executando o Lync Server, o SQL Server ou qualquer outro aplicativo de servidor. (Você não deve ter nenhuma versão do Office instalada nesse computador.) Qualquer computador usado para executar o servidor do Office Web Apps também deve ter um conjunto específico de software instalado (incluindo o .NET Framework 4,5 e o Windows PowerShell 3,0). Esses requisitos, juntamente com as informações sobre a configuração de certificados e os serviços de informações da Internet (IIS), são discutidos em detalhes no site <https://go.microsoft.com/fwlink/p/?linkid=257525>de implantação do Microsoft Office Web Apps em.
 
 </div>
 

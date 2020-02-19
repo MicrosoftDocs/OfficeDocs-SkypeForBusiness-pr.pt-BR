@@ -12,18 +12,18 @@ ms:contentKeyID: 48184265
 ms.date: 08/27/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 55095e968e898445e42ceebed73f95ee9fb128d9
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 4ee280cabe9df1ad720f1007f1dc787db9f32aab
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42043843"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42134087"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="client-and-device-software-and-infrastructure-support-in-lync-server-2013"></a>Suporte a infraestrutura e software de cliente e dispositivo no Lync Server 2013
 
@@ -59,9 +59,9 @@ O suporte de software para clientes e dispositivos de uma implantação do Lync 
 > O Lync Phone Edition funciona da mesma maneira que o Lync Server 2013, como no Lync Server 2010. Para obter detalhes sobre o suporte de software para dispositivos, consulte os seguintes tópicos na Biblioteca TechNet do Lync Server 2010: 
 > <UL>
 > <LI>
-> <P>Componentes necessários do Lync Server 2010 para dispositivos em<A class=uri href="http://go.microsoft.com/fwlink/p/?linkid=256488">http://go.microsoft.com/fwlink/p/?linkid=256488</A></P>
+> <P>Componentes necessários do Lync Server 2010 para dispositivos em<A class=uri href="https://go.microsoft.com/fwlink/p/?linkid=256488">https://go.microsoft.com/fwlink/p/?linkid=256488</A></P>
 > <LI>
-> <P>Suporte a infraestrutura e sistema de dispositivos em<A class=uri href="http://go.microsoft.com/fwlink/p/?linkid=256489">http://go.microsoft.com/fwlink/p/?linkid=256489</A></P></LI></UL>
+> <P>Suporte a infraestrutura e sistema de dispositivos em<A class=uri href="https://go.microsoft.com/fwlink/p/?linkid=256489">https://go.microsoft.com/fwlink/p/?linkid=256489</A></P></LI></UL>
 
 
 

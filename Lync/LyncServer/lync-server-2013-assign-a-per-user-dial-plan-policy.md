@@ -12,12 +12,12 @@ ms:contentKeyID: 49733760
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9ea17e772bd98501b0d50674a2b82a9abb0e0b38
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 8bd4d46e2cd41c972258a84a1e8fb34549dc8b4e
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42043703"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42134437"
 ---
 # <a name="assign-a-per-user-dial-plan-policy-in-lync-server-2013"></a>Atribuir uma política de plano de discagem por usuário no Lync Server 2013
 
@@ -50,7 +50,7 @@ Para obter detalhes sobre como configurar planos de discagem, consulte o tópico
 
 ## <a name="assign-a-per-user-dial-plan-by-using-windows-powershell-cmdlets"></a>Atribuir um plano de discagem por usuário usando cmdlets do Windows PowerShell
 
-Você pode atribuir planos de discagem por usuário com o Windows PowerShell e o cmdlet **Grant-CsdialPlan** . Você pode executar esse cmdlet do Shell de gerenciamento do Lync Server 2013 ou de uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Lync Server, consulte o artigo de blog do Lync Server Windows PowerShell "início rápido: Managing Microsoft Lync Server [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)2010 using Remote PowerShell" em.
+Você pode atribuir planos de discagem por usuário com o Windows PowerShell e o cmdlet **Grant-CsdialPlan** . Você pode executar esse cmdlet do Shell de gerenciamento do Lync Server 2013 ou de uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Lync Server, consulte o artigo de blog do Lync Server Windows PowerShell "início rápido: Managing Microsoft Lync Server [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)2010 using Remote PowerShell" em.
 
 ## <a name="to-assign-a-per-user-dial-plan-to-a-single-user"></a>Para atribuir um plano de discagem por usuário a um único usuário
 
@@ -72,7 +72,7 @@ Você pode atribuir planos de discagem por usuário com o Windows PowerShell e o
 
 Para obter mais informações, consulte o tópico de ajuda para o cmdlet [Grant-CsDialPlan](https://technet.microsoft.com/library/gg398547\(v=ocs.15\)) .
 
-## <a name="see-also"></a>Confira Também
+## <a name="see-also"></a>Confira também
 
 
 [Configurando planos de discagem no Lync Server 2013](lync-server-2013-configuring-dial-plans.md)  

@@ -12,18 +12,18 @@ ms:contentKeyID: 48183801
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1e7c3db5b37cba514a0c07e11a907628dcc7823f
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 67d4fedf5931a85772e42a87fb80c382a364ae96
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42047604"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42135488"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="creating-or-modifying-network-sites-in-lync-server-2013"></a>Criando ou modificando sites de rede no Lync Server 2013
 
@@ -161,7 +161,7 @@ Você não pode modificar a tabela **Sub-redes Associadas** nesta página. A lis
 
 <div>
 
-## <a name="see-also"></a>Confira Também
+## <a name="see-also"></a>Confira também
 
 
 [Excluindo um site de rede existente no Lync Server 2013](lync-server-2013-deleting-an-existing-network-site.md)  

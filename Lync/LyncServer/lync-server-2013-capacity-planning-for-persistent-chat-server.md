@@ -12,18 +12,18 @@ ms:contentKeyID: 48184580
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f20d297e1d127d167aa8acc059f5b6f89cc96d13
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: d0cd27f961d3b4857cf13d5786897bd29a657851
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42036501"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42135558"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="capacity-planning-for-persistent-chat-server-in-lync-server-2013"></a>Planejamento de capacidade para servidor de chat persistente no Lync Server 2013
 
@@ -41,7 +41,7 @@ O servidor de chat persistente pode executar chat em tempo real de vários usuá
 
 O planejamento de capacidade é uma parte importante da preparação para implantar o servidor de chat persistente. Este tópico fornece detalhes sobre topologias de servidor de chat persistente compatíveis e tabelas de planejamento de capacidade que você pode usar para determinar a melhor configuração para sua implantação. Também descreve como gerenciar melhor as implantações de servidor de chat persistente que exigem mais capacidade em horários de pico.
 
-Para baixar o servidor de chat persistente, consulte "Microsoft Lync Server 13 persistent chat Server [http://go.microsoft.com/fwlink/p/?linkId=209539](http://go.microsoft.com/fwlink/p/?linkid=209539)" em.
+Para baixar o servidor de chat persistente, consulte "Microsoft Lync Server 13 persistent chat Server [https://go.microsoft.com/fwlink/p/?linkId=209539](https://go.microsoft.com/fwlink/p/?linkid=209539)" em.
 
 Para obter detalhes sobre como instalar o servidor de chat persistente, consulte [instalando o servidor de chat persistente no Lync Server 2013](lync-server-2013-installing-persistent-chat-server.md) e [Configurando o servidor de chat persistente no Lync Server 2013](lync-server-2013-configuring-persistent-chat-server.md) na documentação de implantação.
 
@@ -212,21 +212,21 @@ A tabela de exemplo a seguir pode ajudá-lo a planejar o gerenciamento do acesso
 <td><p>Salas abertas (sem Associação explícita)</p></td>
 <td><p>960</p></td>
 <td><p>32</p></td>
-<td><p>5 </p></td>
+<td><p>0,5</p></td>
 <td><p>997</p></td>
 </tr>
 <tr class="even">
 <td><p>Salas não abertas (salas regulares com associação explícita)</p></td>
 <td><p>31.040</p></td>
 <td><p>1, 35</p></td>
-<td><p>5 </p></td>
+<td><p>0,5</p></td>
 <td><p>32.080</p></td>
 </tr>
 <tr class="odd">
 <td><p>Salas do auditório (entrada de apresentadores adicionais)</p></td>
 <td><p>,0</p></td>
 <td><p>32</p></td>
-<td><p>5 </p></td>
+<td><p>0,5</p></td>
 <td></td>
 </tr>
 <tr class="even">
@@ -259,8 +259,8 @@ A tabela de exemplo a seguir pode ajudá-lo a planejar o gerenciamento do acesso
 </tr>
 <tr class="even">
 <td><p>Grupos de usuários na lista de associação de cada sala de chat para salas não abertas</p></td>
-<td><p>3 </p></td>
-<td><p>5 </p></td>
+<td><p>3D</p></td>
+<td><p>0,5</p></td>
 <td><p>10 </p></td>
 <td></td>
 </tr>
@@ -515,7 +515,7 @@ Os dados de exemplo na tabela a seguir pressupõem que, na página de **configur
 <tr class="odd">
 <td><p>Taxa de chat por usuário por dia</p></td>
 <td><p>15 </p></td>
-<td><p>5 </p></td>
+<td><p>0,5</p></td>
 <td><p>0,1</p></td>
 <td><p>508</p></td>
 </tr>
@@ -559,7 +559,7 @@ A tabela a seguir descreve o modelo de usuário para o servidor de chat persiste
 </tr>
 <tr class="even">
 <td><p>Número de instâncias do serviço do servidor de chat persistente</p></td>
-<td><p>4 </p></td>
+<td><p>quatro</p></td>
 </tr>
 <tr class="odd">
 <td><p>Tamanho de salas de chat pequenas</p></td>
@@ -595,15 +595,15 @@ A tabela a seguir descreve o modelo de usuário para o servidor de chat persiste
 </tr>
 <tr class="odd">
 <td><p>Número de salas de chat pequenas por usuário</p></td>
-<td><p>12 </p></td>
+<td><p>12</p></td>
 </tr>
 <tr class="even">
 <td><p>Número de salas de chat médias por usuário</p></td>
-<td><p>2 </p></td>
+<td><p>duas</p></td>
 </tr>
 <tr class="odd">
 <td><p>Número de salas de chat grandes por usuário</p></td>
-<td><p>2 </p></td>
+<td><p>duas</p></td>
 </tr>
 <tr class="even">
 <td><p>Número de salas Unidas por usuário</p></td>

@@ -12,18 +12,18 @@ ms:contentKeyID: 51803962
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 46b16ad2faac58a5999b803c75d02e01da0da2dd
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: de2d258b5820c95b346c76fb5ee7e47e9749c617
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42044293"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42134837"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="call-transfers-and-call-forwarding-in-lync-server-2013"></a>Transferências de chamadas e encaminhamento de chamadas no Lync Server 2013
 
@@ -106,7 +106,7 @@ Por exemplo: um usuário do Lync em uma chamada com outro usuário do Lync que e
 
 <div>
 
-## <a name="see-also"></a>Confira Também
+## <a name="see-also"></a>Confira também
 
 
 [Cenários para roteamento baseado em local no Lync Server 2013](lync-server-2013-scenarios-for-location-based-routing.md)  

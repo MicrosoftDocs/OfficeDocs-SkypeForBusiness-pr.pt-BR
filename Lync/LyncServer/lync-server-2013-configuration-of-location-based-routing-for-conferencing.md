@@ -12,18 +12,18 @@ ms:contentKeyID: 56335088
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a959addbcd98e04d336ba380676399dbff2f586b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 237799a84d0230bf55737779921dd66b23c27130
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42040780"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42133986"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuration-of-location-based-routing-for-conferencing-in-lync-server-2013"></a>Configuração do roteamento baseado em local para conferência no Lync Server 2013
 
@@ -63,11 +63,11 @@ Por exemplo, se o aplicativo "UdcAgent" tiver um valor de prioridade "2", o apli
 
 Depois de encontrar o valor de prioridade correto para o aplicativo de conferência de roteamento baseado em local, digite o cmdlet a seguir para cada pool de front-end ou servidor Standard Edition que hospeda os usuários habilitados para roteamento baseado em local:
 
-New-CsServerApplication-Identity Service: registrar:\<pool FQDN\>/LBRouting-priority \<Application Priority\> Enabled $true-Critical $true-URIhttp://www.microsoft.com/LCS/LBRouting
+New-CsServerApplication-Identity Service: registrar:\<pool FQDN\>/LBRouting-priority \<Application Priority\> Enabled $true-Critical $true-URIhttps://www.microsoft.com/LCS/LBRouting
 
 Por exemplo:
 
-New-CsServerApplication-Identity Service:Registrar:LS2013CU2LBRPool. contoso. com/LBRouting-Priority 3 Enabled $true-Critical $true-URIhttp://www.microsoft.com/LCS/LBRouting
+New-CsServerApplication-Identity Service:Registrar:LS2013CU2LBRPool. contoso. com/LBRouting-Priority 3 Enabled $true-Critical $true-URIhttps://www.microsoft.com/LCS/LBRouting
 
 Após usar esse cmdlet, reinicie todos os servidores front-end no pool ou os servidores Standard Edition onde o aplicativo de conferência de roteamento baseado na localização tenha sido habilitado.
 

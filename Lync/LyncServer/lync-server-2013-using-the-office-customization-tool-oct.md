@@ -12,18 +12,18 @@ ms:contentKeyID: 48183654
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b2203c4169075b7b906156bf3436e61011f873a4
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 04cf51d16c27a75d65b1936f2f95e1e5865ad63e
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42007470"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42116754"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="using-the-office-customization-tool-oct-in-lync-server-2013"></a>Usando a ferramenta de personalização do Office (OCT) no Lync Server 2013
 
@@ -53,7 +53,7 @@ Os administradores usam a OCT para criar um arquivo de personalização de insta
 
   - **Outlook** Usado para personalizar o perfil padrão do Outlook do usuário, especificar as configurações do Exchange, adicionar contas, remover contas e exportar configurações e\\especificar grupos de recebimento de envio.
 
-Para obter informações sobre a OCT, <http://go.microsoft.com/fwlink/p/?linkid=267516>consulte.
+Para obter informações sobre a OCT, <https://go.microsoft.com/fwlink/p/?linkid=267516>consulte.
 
 </div>
 
