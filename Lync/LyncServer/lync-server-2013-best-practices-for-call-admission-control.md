@@ -12,20 +12,20 @@ ms:contentKeyID: 48184913
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c00dbaa2f47d34f06424c9013a5b691caab56499
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: b4acd09b9a78fbe1d7c2316628dba5c454a6c72f
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42041120"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42140614"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="best-practices-for-call-admission-control-in-lync-server-2013"></a><span data-ttu-id="8ad58-102">Práticas recomendadas para controle de admissão de chamadas no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8ad58-102">Best practices for call admission control in Lync Server 2013</span></span>
+# <a name="best-practices-for-call-admission-control-in-lync-server-2013"></a><span data-ttu-id="33fe5-102">Práticas recomendadas para controle de admissão de chamadas no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="33fe5-102">Best practices for call admission control in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,32 +35,32 @@ ms.locfileid: "42041120"
 
 <span> </span>
 
-<span data-ttu-id="8ad58-103">_**Última modificação do tópico:** 2012-09-22_</span><span class="sxs-lookup"><span data-stu-id="8ad58-103">_**Topic Last Modified:** 2012-09-22_</span></span>
+<span data-ttu-id="33fe5-103">_**Última modificação do tópico:** 2012-09-22_</span><span class="sxs-lookup"><span data-stu-id="33fe5-103">_**Topic Last Modified:** 2012-09-22_</span></span>
 
-<span data-ttu-id="8ad58-104">Para aprimorar o desempenho e facilitar a implantação, aplique as práticas recomendadas a seguir quando implantar o controle de admissão de chamadas:</span><span class="sxs-lookup"><span data-stu-id="8ad58-104">To enhance performance and facilitate deployment, apply the following best practices when you deploy call admission control:</span></span>
+<span data-ttu-id="33fe5-104">Para aprimorar o desempenho e facilitar a implantação, aplique as práticas recomendadas a seguir quando implantar o controle de admissão de chamadas:</span><span class="sxs-lookup"><span data-stu-id="33fe5-104">To enhance performance and facilitate deployment, apply the following best practices when you deploy call admission control:</span></span>
 
-  - <span data-ttu-id="8ad58-105">Garanta que as WANs estejam adequadamente provisionadas para o tráfego de mídia atual e antecipado.</span><span class="sxs-lookup"><span data-stu-id="8ad58-105">Ensure that WANs are adequately provisioned for current and anticipated media traffic.</span></span>
+  - <span data-ttu-id="33fe5-105">Garanta que as WANs estejam adequadamente provisionadas para o tráfego de mídia atual e antecipado.</span><span class="sxs-lookup"><span data-stu-id="33fe5-105">Ensure that WANs are adequately provisioned for current and anticipated media traffic.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="8ad58-p101">É recomendável que você leve em consideração um buffer para seus limites de largura de banda. Existem cenários como condições de corrida que afetam a largura de banda total usada e podem resultar em situações em que o limite da largura de banda é excedido. Por exemplo, se duas chamadas tentarem iniciar enquanto o tráfego de mídia está alcançando um limite da largura de banda, uma delas pode ser recusada porque a outra conseguiu iniciar primeiro.</span><span class="sxs-lookup"><span data-stu-id="8ad58-p101">We recommend that you factor in a buffer to your bandwidth limits. There are scenarios such as race conditions that affect the total bandwidth used and can result in situations where the bandwidth limit is exceeded. For example, if two calls try to start while media traffic is approaching a bandwidth limit, one of them may be denied because the other managed to start first.</span></span>
+    > <span data-ttu-id="33fe5-p101">É recomendável que você leve em consideração um buffer para seus limites de largura de banda. Existem cenários como condições de corrida que afetam a largura de banda total usada e podem resultar em situações em que o limite da largura de banda é excedido. Por exemplo, se duas chamadas tentarem iniciar enquanto o tráfego de mídia está alcançando um limite da largura de banda, uma delas pode ser recusada porque a outra conseguiu iniciar primeiro.</span><span class="sxs-lookup"><span data-stu-id="33fe5-p101">We recommend that you factor in a buffer to your bandwidth limits. There are scenarios such as race conditions that affect the total bandwidth used and can result in situations where the bandwidth limit is exceeded. For example, if two calls try to start while media traffic is approaching a bandwidth limit, one of them may be denied because the other managed to start first.</span></span>
 
     
     </div>
 
-  - <span data-ttu-id="8ad58-109">Monitore o uso da rede e registros de detalhes de chamadas para que possa escolher configurações de CAC ótimas e atualizá-las conforme o uso da rede muda.</span><span class="sxs-lookup"><span data-stu-id="8ad58-109">Monitor network usage and call detail records so that you can choose optimal CAC settings and update CAC settings as network usage changes.</span></span>
+  - <span data-ttu-id="33fe5-109">Monitore o uso da rede e registros de detalhes de chamadas para que possa escolher configurações de CAC ótimas e atualizá-las conforme o uso da rede muda.</span><span class="sxs-lookup"><span data-stu-id="33fe5-109">Monitor network usage and call detail records so that you can choose optimal CAC settings and update CAC settings as network usage changes.</span></span>
 
-  - <span data-ttu-id="8ad58-110">Use políticas de largura de banda de CAC para complementar as configurações de QoS.</span><span class="sxs-lookup"><span data-stu-id="8ad58-110">Use CAC bandwidth policies to complement QoS settings.</span></span>
+  - <span data-ttu-id="33fe5-110">Use políticas de largura de banda de CAC para complementar as configurações de QoS.</span><span class="sxs-lookup"><span data-stu-id="33fe5-110">Use CAC bandwidth policies to complement QoS settings.</span></span>
 
-  - <span data-ttu-id="8ad58-111">Se você desejar rerotear chamadas bloqueadas para o PSTN, verifique a funcionalidade e a capacidade do PSTN.</span><span class="sxs-lookup"><span data-stu-id="8ad58-111">If you want to re-route blocked calls onto the PSTN, verify PSTN functionality and capacity.</span></span> <span data-ttu-id="8ad58-112">Para obter detalhes, consulte [Planning Outbound Voice Routing in Lync Server 2013](lync-server-2013-planning-outbound-voice-routing.md).</span><span class="sxs-lookup"><span data-stu-id="8ad58-112">For details, see [Planning outbound voice routing in Lync Server 2013](lync-server-2013-planning-outbound-voice-routing.md).</span></span>
+  - <span data-ttu-id="33fe5-111">Se você desejar rerotear chamadas bloqueadas para o PSTN, verifique a funcionalidade e a capacidade do PSTN.</span><span class="sxs-lookup"><span data-stu-id="33fe5-111">If you want to re-route blocked calls onto the PSTN, verify PSTN functionality and capacity.</span></span> <span data-ttu-id="33fe5-112">Para obter detalhes, consulte [Planning Outbound Voice Routing in Lync Server 2013](lync-server-2013-planning-outbound-voice-routing.md).</span><span class="sxs-lookup"><span data-stu-id="33fe5-112">For details, see [Planning outbound voice routing in Lync Server 2013](lync-server-2013-planning-outbound-voice-routing.md).</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="8ad58-113">A capacidade refere-se ao número de portas que precisam ser abertas para oferecer suporte a um possível reroteamento do PSTN.</span><span class="sxs-lookup"><span data-stu-id="8ad58-113">Capacity refers to the number of ports you need to open to support potential PSTN re-routing.</span></span>
+    > <span data-ttu-id="33fe5-113">A capacidade refere-se ao número de portas que precisam ser abertas para oferecer suporte a um possível reroteamento do PSTN.</span><span class="sxs-lookup"><span data-stu-id="33fe5-113">Capacity refers to the number of ports you need to open to support potential PSTN re-routing.</span></span>
 
     
     </div>

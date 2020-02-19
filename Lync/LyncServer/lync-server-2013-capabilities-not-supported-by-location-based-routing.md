@@ -12,20 +12,20 @@ ms:contentKeyID: 51803982
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 99e28778a8bd299d5ead25220f19b27927a63d44
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: ff96f72ff7d71c005f97142ed9844b7c9509e022
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42044193"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42137240"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="capabilities-not-supported-by-location-based-routing-in-lync-server-2013"></a><span data-ttu-id="814d8-102">Recursos não suportados pelo roteamento baseado em local no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="814d8-102">Capabilities not supported by Location-Based Routing in Lync Server 2013</span></span>
+# <a name="capabilities-not-supported-by-location-based-routing-in-lync-server-2013"></a><span data-ttu-id="608bb-102">Recursos não suportados pelo roteamento baseado em local no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="608bb-102">Capabilities not supported by Location-Based Routing in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,36 +35,36 @@ ms.locfileid: "42044193"
 
 <span> </span>
 
-<span data-ttu-id="814d8-103">_**Última modificação do tópico:** 2014-03-12_</span><span class="sxs-lookup"><span data-stu-id="814d8-103">_**Topic Last Modified:** 2014-03-12_</span></span>
+<span data-ttu-id="608bb-103">_**Última modificação do tópico:** 2014-03-12_</span><span class="sxs-lookup"><span data-stu-id="608bb-103">_**Topic Last Modified:** 2014-03-12_</span></span>
 
-<span data-ttu-id="814d8-104">O roteamento baseado em local não se aplica aos seguintes tipos de interações.</span><span class="sxs-lookup"><span data-stu-id="814d8-104">Location-Based Routing does not apply to the following types of interactions.</span></span> <span data-ttu-id="814d8-105">O roteamento baseado em local não é imposto quando os pontos de extremidade do Lync interagem com pontos de extremidade PSTN usando esses recursos.</span><span class="sxs-lookup"><span data-stu-id="814d8-105">Location-Based Routing is not enforced when Lync endpoints interact with PSTN endpoints using these capabilities.</span></span>
+<span data-ttu-id="608bb-104">O roteamento baseado em local não se aplica aos seguintes tipos de interações.</span><span class="sxs-lookup"><span data-stu-id="608bb-104">Location-Based Routing does not apply to the following types of interactions.</span></span> <span data-ttu-id="608bb-105">O roteamento baseado em local não é imposto quando os pontos de extremidade do Lync interagem com pontos de extremidade PSTN usando esses recursos.</span><span class="sxs-lookup"><span data-stu-id="608bb-105">Location-Based Routing is not enforced when Lync endpoints interact with PSTN endpoints using these capabilities.</span></span>
 
-  - <span data-ttu-id="814d8-106">Discagem PSTN para conferências</span><span class="sxs-lookup"><span data-stu-id="814d8-106">PSTN dial-in to conferences</span></span>
+  - <span data-ttu-id="608bb-106">Discagem PSTN para conferências</span><span class="sxs-lookup"><span data-stu-id="608bb-106">PSTN dial-in to conferences</span></span>
 
-  - <span data-ttu-id="814d8-107">Chamadas PSTN de entrada e saída por meio de grupo de resposta</span><span class="sxs-lookup"><span data-stu-id="814d8-107">Incoming and outgoing PSTN calls through Response Group</span></span>
+  - <span data-ttu-id="608bb-107">Chamadas PSTN de entrada e saída por meio de grupo de resposta</span><span class="sxs-lookup"><span data-stu-id="608bb-107">Incoming and outgoing PSTN calls through Response Group</span></span>
 
-  - <span data-ttu-id="814d8-108">Estacionamento de chamada ou recuperação de chamadas PSTN por meio de estacionamento de chamada</span><span class="sxs-lookup"><span data-stu-id="814d8-108">Call park or retrieval of PSTN calls through Call Park</span></span>
+  - <span data-ttu-id="608bb-108">Estacionamento de chamada ou recuperação de chamadas PSTN por meio de estacionamento de chamada</span><span class="sxs-lookup"><span data-stu-id="608bb-108">Call park or retrieval of PSTN calls through Call Park</span></span>
 
-  - <span data-ttu-id="814d8-109">Chamadas PSTN de entrada para o serviço de anúncio</span><span class="sxs-lookup"><span data-stu-id="814d8-109">Incoming PSTN calls to Announcement Service</span></span>
+  - <span data-ttu-id="608bb-109">Chamadas PSTN de entrada para o serviço de anúncio</span><span class="sxs-lookup"><span data-stu-id="608bb-109">Incoming PSTN calls to Announcement Service</span></span>
 
-  - <span data-ttu-id="814d8-110">Chamadas PSTN de entrada recuperadas por recebimento de chamadas em grupo</span><span class="sxs-lookup"><span data-stu-id="814d8-110">Incoming PSTN calls retrieved via Group Call Pickup</span></span>
+  - <span data-ttu-id="608bb-110">Chamadas PSTN de entrada recuperadas por recebimento de chamadas em grupo</span><span class="sxs-lookup"><span data-stu-id="608bb-110">Incoming PSTN calls retrieved via Group Call Pickup</span></span>
 
-<span data-ttu-id="814d8-111">Para impor regras de roteamento com base em local aos tipos de interações da lista a seguir, você deve habilitar o roteamento baseado em local para conferência:</span><span class="sxs-lookup"><span data-stu-id="814d8-111">To enforce Location-Based Routing rules to the types of interactions in the following list, you must enable Location-Based Routing for Conferencing:</span></span>
+<span data-ttu-id="608bb-111">Para impor regras de roteamento com base em local aos tipos de interações da lista a seguir, você deve habilitar o roteamento baseado em local para conferência:</span><span class="sxs-lookup"><span data-stu-id="608bb-111">To enforce Location-Based Routing rules to the types of interactions in the following list, you must enable Location-Based Routing for Conferencing:</span></span>
 
-  - <span data-ttu-id="814d8-112">Discagem PSTN de conferências</span><span class="sxs-lookup"><span data-stu-id="814d8-112">PSTN dial-out from conferences</span></span>
+  - <span data-ttu-id="608bb-112">Discagem PSTN de conferências</span><span class="sxs-lookup"><span data-stu-id="608bb-112">PSTN dial-out from conferences</span></span>
 
-  - <span data-ttu-id="814d8-113">Escalonamentos de conversas de áudio ponto a ponto para conferências envolvendo pontos de extremidade PSTN</span><span class="sxs-lookup"><span data-stu-id="814d8-113">Escalations from peer-to-peer audio conversations to conferencing involving PSTN endpoints</span></span>
+  - <span data-ttu-id="608bb-113">Escalonamentos de conversas de áudio ponto a ponto para conferências envolvendo pontos de extremidade PSTN</span><span class="sxs-lookup"><span data-stu-id="608bb-113">Escalations from peer-to-peer audio conversations to conferencing involving PSTN endpoints</span></span>
 
-  - <span data-ttu-id="814d8-114">Transferências consultivas envolvendo pontos de extremidade PSTN</span><span class="sxs-lookup"><span data-stu-id="814d8-114">Consultative transfers involving PSTN endpoints</span></span>
+  - <span data-ttu-id="608bb-114">Transferências consultivas envolvendo pontos de extremidade PSTN</span><span class="sxs-lookup"><span data-stu-id="608bb-114">Consultative transfers involving PSTN endpoints</span></span>
 
-<span data-ttu-id="814d8-115">Para habilitar o roteamento baseado em local para conferência, confira [roteamento baseado em local para conferência no Lync Server 2013](lync-server-2013-location-based-routing-for-conferencing.md).</span><span class="sxs-lookup"><span data-stu-id="814d8-115">To enable Location-Based Routing for Conferencing, see [Location-Based Routing for conferencing in Lync Server 2013](lync-server-2013-location-based-routing-for-conferencing.md).</span></span>
+<span data-ttu-id="608bb-115">Para habilitar o roteamento baseado em local para conferência, confira [roteamento baseado em local para conferência no Lync Server 2013](lync-server-2013-location-based-routing-for-conferencing.md).</span><span class="sxs-lookup"><span data-stu-id="608bb-115">To enable Location-Based Routing for Conferencing, see [Location-Based Routing for conferencing in Lync Server 2013](lync-server-2013-location-based-routing-for-conferencing.md).</span></span>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="814d8-116">Confira Também</span><span class="sxs-lookup"><span data-stu-id="814d8-116">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="608bb-116">Confira também</span><span class="sxs-lookup"><span data-stu-id="608bb-116">See Also</span></span>
 
 
-[<span data-ttu-id="814d8-117">Planejamento de roteamento baseado em local no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="814d8-117">Planning for Location-Based Routing in Lync Server 2013</span></span>](lync-server-2013-planning-for-location-based-routing.md)  
+[<span data-ttu-id="608bb-117">Planejamento de roteamento baseado em local no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="608bb-117">Planning for Location-Based Routing in Lync Server 2013</span></span>](lync-server-2013-planning-for-location-based-routing.md)  
   
 
 </div>

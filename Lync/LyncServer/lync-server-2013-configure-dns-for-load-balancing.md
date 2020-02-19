@@ -12,20 +12,20 @@ ms:contentKeyID: 48183540
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 797a788649edab99852cfec9f83423075b14f742
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 257bd8d1d4874bb2483c16c2216c4b76b178a881
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42028592"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42140384"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-dns-for-load-balancing-in-lync-server-2013"></a><span data-ttu-id="6ae77-102">Configurar DNS para balanceamento de carga no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6ae77-102">Configure DNS for load balancing in Lync Server 2013</span></span>
+# <a name="configure-dns-for-load-balancing-in-lync-server-2013"></a><span data-ttu-id="86092-102">Configurar DNS para balanceamento de carga no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="86092-102">Configure DNS for load balancing in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,87 +35,87 @@ ms.locfileid: "42028592"
 
 <span> </span>
 
-<span data-ttu-id="6ae77-103">_**Última modificação do tópico:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="6ae77-103">_**Topic Last Modified:** 2012-10-01_</span></span>
+<span data-ttu-id="86092-103">_**Última modificação do tópico:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="86092-103">_**Topic Last Modified:** 2012-10-01_</span></span>
 
-<span data-ttu-id="6ae77-104">To successfully complete this procedure, you should be logged on to the server or domain minimally as a member of the Domain Admins group or a member of the DnsAdmins group.</span><span class="sxs-lookup"><span data-stu-id="6ae77-104">To successfully complete this procedure, you should be logged on to the server or domain minimally as a member of the Domain Admins group or a member of the DnsAdmins group.</span></span>
+<span data-ttu-id="86092-104">To successfully complete this procedure, you should be logged on to the server or domain minimally as a member of the Domain Admins group or a member of the DnsAdmins group.</span><span class="sxs-lookup"><span data-stu-id="86092-104">To successfully complete this procedure, you should be logged on to the server or domain minimally as a member of the Domain Admins group or a member of the DnsAdmins group.</span></span>
 
-<span data-ttu-id="6ae77-105">O balanceamento de carga do DNS (sistema de nomes de domínio) balanceia o tráfego de rede exclusivo do Lync Server 2013, como tráfego SIP e tráfego de mídia.</span><span class="sxs-lookup"><span data-stu-id="6ae77-105">Domain Name System (DNS) Load Balancing balances the network traffic that is unique to Lync Server 2013, such as SIP traffic and media traffic.</span></span> <span data-ttu-id="6ae77-106">O balanceamento de carga DNS é suportado para pools de Front-Ends, pools de Borda, pools de Diretores e pools de Mediação autônomos.</span><span class="sxs-lookup"><span data-stu-id="6ae77-106">DNS load balancing is supported for Front End pools, Edge pools, Director pools, and stand-alone Mediation pools.</span></span> <span data-ttu-id="6ae77-107">Um pool configurado para usar o balanceamento de carga DNS deve ter dois nomes de domínio totalmente qualificados (FQDNs) definidos: o FQDN do pool regular que é usado pelo balanceamento de carga DNS (por exemplo, pool1.contoso.com) e que resolve para o IPs físico dos servidores no pool e outro FQDN para os serviços Web do pool (por exemplo, web1.contoso.net), que resolve para o endereço IP virtual do pool.</span><span class="sxs-lookup"><span data-stu-id="6ae77-107">A pool that is configured to use DNS load balancing must have two fully qualified domain names (FQDNs) defined: the regular pool FQDN that is used by DNS load balancing (for example, pool1.contoso.com) and that resolves to the physical IPs of the servers in the pool, and another FQDN for the pool’s Web Services (for example, web1.contoso.net), which resolves to the virtual IP address of the pool.</span></span> <span data-ttu-id="6ae77-108">Para obter detalhes sobre o balanceamento de carga DNS, consulte [DNS Load Balancing in Lync Server 2013](lync-server-2013-dns-load-balancing.md) na documentação de planejamento.</span><span class="sxs-lookup"><span data-stu-id="6ae77-108">For details about DNS Load Balancing, see [DNS load balancing in Lync Server 2013](lync-server-2013-dns-load-balancing.md) in the Planning documentation.</span></span>
+<span data-ttu-id="86092-105">O balanceamento de carga do DNS (sistema de nomes de domínio) balanceia o tráfego de rede exclusivo do Lync Server 2013, como tráfego SIP e tráfego de mídia.</span><span class="sxs-lookup"><span data-stu-id="86092-105">Domain Name System (DNS) Load Balancing balances the network traffic that is unique to Lync Server 2013, such as SIP traffic and media traffic.</span></span> <span data-ttu-id="86092-106">O balanceamento de carga DNS é suportado para pools de Front-Ends, pools de Borda, pools de Diretores e pools de Mediação autônomos.</span><span class="sxs-lookup"><span data-stu-id="86092-106">DNS load balancing is supported for Front End pools, Edge pools, Director pools, and stand-alone Mediation pools.</span></span> <span data-ttu-id="86092-107">Um pool configurado para usar o balanceamento de carga DNS deve ter dois nomes de domínio totalmente qualificados (FQDNs) definidos: o FQDN do pool regular que é usado pelo balanceamento de carga DNS (por exemplo, pool1.contoso.com) e que resolve para o IPs físico dos servidores no pool e outro FQDN para os serviços Web do pool (por exemplo, web1.contoso.net), que resolve para o endereço IP virtual do pool.</span><span class="sxs-lookup"><span data-stu-id="86092-107">A pool that is configured to use DNS load balancing must have two fully qualified domain names (FQDNs) defined: the regular pool FQDN that is used by DNS load balancing (for example, pool1.contoso.com) and that resolves to the physical IPs of the servers in the pool, and another FQDN for the pool’s Web Services (for example, web1.contoso.net), which resolves to the virtual IP address of the pool.</span></span> <span data-ttu-id="86092-108">Para obter detalhes sobre o balanceamento de carga DNS, consulte [DNS Load Balancing in Lync Server 2013](lync-server-2013-dns-load-balancing.md) na documentação de planejamento.</span><span class="sxs-lookup"><span data-stu-id="86092-108">For details about DNS Load Balancing, see [DNS load balancing in Lync Server 2013](lync-server-2013-dns-load-balancing.md) in the Planning documentation.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="6ae77-109">O balanceamento de carga de hardware ainda é exigido para tráfego HTTPS de cliente para servidor.</span><span class="sxs-lookup"><span data-stu-id="6ae77-109">Hardware load balancing is still required for client to server HTTPS traffic.</span></span>
+> <span data-ttu-id="86092-109">O balanceamento de carga de hardware ainda é exigido para tráfego HTTPS de cliente para servidor.</span><span class="sxs-lookup"><span data-stu-id="86092-109">Hardware load balancing is still required for client to server HTTPS traffic.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="6ae77-110">Antes que possa usar o balanceamento de carga DNS, você deve fazer o seguuinte:</span><span class="sxs-lookup"><span data-stu-id="6ae77-110">Before you can use DNS load balancing, you must do the following:</span></span>
+<span data-ttu-id="86092-110">Antes que possa usar o balanceamento de carga DNS, você deve fazer o seguuinte:</span><span class="sxs-lookup"><span data-stu-id="86092-110">Before you can use DNS load balancing, you must do the following:</span></span>
 
-1.  <span data-ttu-id="6ae77-111">Substitua o FQDN do pool de serviços Web interno.</span><span class="sxs-lookup"><span data-stu-id="6ae77-111">Override the internal Web Services pool FQDN.</span></span>
+1.  <span data-ttu-id="86092-111">Substitua o FQDN do pool de serviços Web interno.</span><span class="sxs-lookup"><span data-stu-id="86092-111">Override the internal Web Services pool FQDN.</span></span>
     
     <div>
     
 
     > [!WARNING]  
-    > <span data-ttu-id="6ae77-112">Se decidir substituir os serviços Web internos por um FQDN autodefinido, cada FQDN deverá ser exclusivo de qualquer outro pool de front-ends, diretor ou um pool de diretores.</span><span class="sxs-lookup"><span data-stu-id="6ae77-112">If decide to override the Internal web services with a self-defined FQDN, each FQDN must be unique from any other Front End pool, Director or a Director pool.</span></span>
+    > <span data-ttu-id="86092-112">Se decidir substituir os serviços Web internos por um FQDN autodefinido, cada FQDN deverá ser exclusivo de qualquer outro pool de front-ends, diretor ou um pool de diretores.</span><span class="sxs-lookup"><span data-stu-id="86092-112">If decide to override the Internal web services with a self-defined FQDN, each FQDN must be unique from any other Front End pool, Director or a Director pool.</span></span>
 
     
     </div>
 
-2.  <span data-ttu-id="6ae77-113">Create DNS A host records to resolve the pool FQDN to the IP addresses of all the servers in the pool.</span><span class="sxs-lookup"><span data-stu-id="6ae77-113">Create DNS A host records to resolve the pool FQDN to the IP addresses of all the servers in the pool.</span></span>
+2.  <span data-ttu-id="86092-113">Create DNS A host records to resolve the pool FQDN to the IP addresses of all the servers in the pool.</span><span class="sxs-lookup"><span data-stu-id="86092-113">Create DNS A host records to resolve the pool FQDN to the IP addresses of all the servers in the pool.</span></span>
 
-3.  <span data-ttu-id="6ae77-114">Enable IP Address randomization or, for Windows Server DNS, enable round robin.</span><span class="sxs-lookup"><span data-stu-id="6ae77-114">Enable IP Address randomization or, for Windows Server DNS, enable round robin.</span></span>
+3.  <span data-ttu-id="86092-114">Enable IP Address randomization or, for Windows Server DNS, enable round robin.</span><span class="sxs-lookup"><span data-stu-id="86092-114">Enable IP Address randomization or, for Windows Server DNS, enable round robin.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="6ae77-115">Round robin deve ser habilitado por padrão.</span><span class="sxs-lookup"><span data-stu-id="6ae77-115">Round robin should be enabled by default.</span></span>
+    > <span data-ttu-id="86092-115">Round robin deve ser habilitado por padrão.</span><span class="sxs-lookup"><span data-stu-id="86092-115">Round robin should be enabled by default.</span></span>
 
     
     </div>
 
 <div>
 
-## <a name="to-override-internal-web-services-fqdn"></a><span data-ttu-id="6ae77-116">To override internal Web services FQDN</span><span class="sxs-lookup"><span data-stu-id="6ae77-116">To override internal Web services FQDN</span></span>
+## <a name="to-override-internal-web-services-fqdn"></a><span data-ttu-id="86092-116">To override internal Web services FQDN</span><span class="sxs-lookup"><span data-stu-id="86092-116">To override internal Web services FQDN</span></span>
 
-1.  <span data-ttu-id="6ae77-117">Inicie o construtor de topologias: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e em **Construtor de topologias do Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="6ae77-117">Start Topology Builder: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Topology Builder**.</span></span>
+1.  <span data-ttu-id="86092-117">Inicie o construtor de topologias: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e em **Construtor de topologias do Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="86092-117">Start Topology Builder: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Topology Builder**.</span></span>
 
-2.  <span data-ttu-id="6ae77-118">From the console tree, expand the Enterprise Edition Front End pools node.</span><span class="sxs-lookup"><span data-stu-id="6ae77-118">From the console tree, expand the Enterprise Edition Front End pools node.</span></span>
+2.  <span data-ttu-id="86092-118">From the console tree, expand the Enterprise Edition Front End pools node.</span><span class="sxs-lookup"><span data-stu-id="86092-118">From the console tree, expand the Enterprise Edition Front End pools node.</span></span>
 
-3.  <span data-ttu-id="6ae77-119">Right-click the pool, click **Edit Properties**, and then click **Web Services**.</span><span class="sxs-lookup"><span data-stu-id="6ae77-119">Right-click the pool, click **Edit Properties**, and then click **Web Services**.</span></span>
+3.  <span data-ttu-id="86092-119">Right-click the pool, click **Edit Properties**, and then click **Web Services**.</span><span class="sxs-lookup"><span data-stu-id="86092-119">Right-click the pool, click **Edit Properties**, and then click **Web Services**.</span></span>
 
-4.  <span data-ttu-id="6ae77-120">Below **Internal web services**, select the **Override FQDN** check box.</span><span class="sxs-lookup"><span data-stu-id="6ae77-120">Below **Internal web services**, select the **Override FQDN** check box.</span></span>
+4.  <span data-ttu-id="86092-120">Below **Internal web services**, select the **Override FQDN** check box.</span><span class="sxs-lookup"><span data-stu-id="86092-120">Below **Internal web services**, select the **Override FQDN** check box.</span></span>
 
-5.  <span data-ttu-id="6ae77-121">Type the pool FQDN that resolves to the physical IP addresses of the servers in the pool.</span><span class="sxs-lookup"><span data-stu-id="6ae77-121">Type the pool FQDN that resolves to the physical IP addresses of the servers in the pool.</span></span>
+5.  <span data-ttu-id="86092-121">Type the pool FQDN that resolves to the physical IP addresses of the servers in the pool.</span><span class="sxs-lookup"><span data-stu-id="86092-121">Type the pool FQDN that resolves to the physical IP addresses of the servers in the pool.</span></span>
 
-6.  <span data-ttu-id="6ae77-122">Below **External web services**, type the external pool FQDN that resolves to the virtual IP addresses of the pool, and then click **OK**.</span><span class="sxs-lookup"><span data-stu-id="6ae77-122">Below **External web services**, type the external pool FQDN that resolves to the virtual IP addresses of the pool, and then click **OK**.</span></span>
+6.  <span data-ttu-id="86092-122">Below **External web services**, type the external pool FQDN that resolves to the virtual IP addresses of the pool, and then click **OK**.</span><span class="sxs-lookup"><span data-stu-id="86092-122">Below **External web services**, type the external pool FQDN that resolves to the virtual IP addresses of the pool, and then click **OK**.</span></span>
 
-7.  <span data-ttu-id="6ae77-123">Na árvore de console, clique em **Lync Server 2013**e, em seguida, no painel **ações** , clique em **publicar topologia**.</span><span class="sxs-lookup"><span data-stu-id="6ae77-123">From the console tree, click **Lync Server 2013**, and then in the **Actions** pane, click **Publish Topology**.</span></span>
+7.  <span data-ttu-id="86092-123">Na árvore de console, clique em **Lync Server 2013**e, em seguida, no painel **ações** , clique em **publicar topologia**.</span><span class="sxs-lookup"><span data-stu-id="86092-123">From the console tree, click **Lync Server 2013**, and then in the **Actions** pane, click **Publish Topology**.</span></span>
 
 </div>
 
 <div>
 
-## <a name="to-create-dns-host-a-records-for-all-internal-pool-servers"></a><span data-ttu-id="6ae77-124">To create DNS Host (A) Records for all internal pool servers</span><span class="sxs-lookup"><span data-stu-id="6ae77-124">To create DNS Host (A) Records for all internal pool servers</span></span>
+## <a name="to-create-dns-host-a-records-for-all-internal-pool-servers"></a><span data-ttu-id="86092-124">To create DNS Host (A) Records for all internal pool servers</span><span class="sxs-lookup"><span data-stu-id="86092-124">To create DNS Host (A) Records for all internal pool servers</span></span>
 
-1.  <span data-ttu-id="6ae77-125">Click **Start**, click **All Programs**, click **Administrative Tools**, and then click **DNS**.</span><span class="sxs-lookup"><span data-stu-id="6ae77-125">Click **Start**, click **All Programs**, click **Administrative Tools**, and then click **DNS**.</span></span>
+1.  <span data-ttu-id="86092-125">Click **Start**, click **All Programs**, click **Administrative Tools**, and then click **DNS**.</span><span class="sxs-lookup"><span data-stu-id="86092-125">Click **Start**, click **All Programs**, click **Administrative Tools**, and then click **DNS**.</span></span>
 
-2.  <span data-ttu-id="6ae77-126">In **DNS Manager**, click the DNS Server that manages your records to expand it.</span><span class="sxs-lookup"><span data-stu-id="6ae77-126">In **DNS Manager**, click the DNS Server that manages your records to expand it.</span></span>
+2.  <span data-ttu-id="86092-126">In **DNS Manager**, click the DNS Server that manages your records to expand it.</span><span class="sxs-lookup"><span data-stu-id="86092-126">In **DNS Manager**, click the DNS Server that manages your records to expand it.</span></span>
 
-3.  <span data-ttu-id="6ae77-127">Click **Forward Lookup Zones** to expand it.</span><span class="sxs-lookup"><span data-stu-id="6ae77-127">Click **Forward Lookup Zones** to expand it.</span></span>
+3.  <span data-ttu-id="86092-127">Click **Forward Lookup Zones** to expand it.</span><span class="sxs-lookup"><span data-stu-id="86092-127">Click **Forward Lookup Zones** to expand it.</span></span>
 
-4.  <span data-ttu-id="6ae77-128">Right-click the DNS domain that you need to add records to, and then click **New Host (A or AAAA)**.</span><span class="sxs-lookup"><span data-stu-id="6ae77-128">Right-click the DNS domain that you need to add records to, and then click **New Host (A or AAAA)**.</span></span>
+4.  <span data-ttu-id="86092-128">Right-click the DNS domain that you need to add records to, and then click **New Host (A or AAAA)**.</span><span class="sxs-lookup"><span data-stu-id="86092-128">Right-click the DNS domain that you need to add records to, and then click **New Host (A or AAAA)**.</span></span>
 
-5.  <span data-ttu-id="6ae77-129">Na caixa **nome** , digite o nome do registro do host (o nome do domínio será anexado automaticamente).</span><span class="sxs-lookup"><span data-stu-id="6ae77-129">In the **Name** box, type the name of the host record (the domain name will be automatically appended).</span></span>
+5.  <span data-ttu-id="86092-129">Na caixa **nome** , digite o nome do registro do host (o nome do domínio será anexado automaticamente).</span><span class="sxs-lookup"><span data-stu-id="86092-129">In the **Name** box, type the name of the host record (the domain name will be automatically appended).</span></span>
 
-6.  <span data-ttu-id="6ae77-130">In the IP Address box, type the IP address of the individual Front End Server and then select **Create associated pointer (PTR) record** or **Allow any authenticated user to update DNS records with the same owner name**, if applicable.</span><span class="sxs-lookup"><span data-stu-id="6ae77-130">In the IP Address box, type the IP address of the individual Front End Server and then select **Create associated pointer (PTR) record** or **Allow any authenticated user to update DNS records with the same owner name**, if applicable.</span></span>
+6.  <span data-ttu-id="86092-130">In the IP Address box, type the IP address of the individual Front End Server and then select **Create associated pointer (PTR) record** or **Allow any authenticated user to update DNS records with the same owner name**, if applicable.</span><span class="sxs-lookup"><span data-stu-id="86092-130">In the IP Address box, type the IP address of the individual Front End Server and then select **Create associated pointer (PTR) record** or **Allow any authenticated user to update DNS records with the same owner name**, if applicable.</span></span>
 
-7.  <span data-ttu-id="6ae77-131">Continue creating records for all member Front End Servers that will participate in DNS Load Balancing.</span><span class="sxs-lookup"><span data-stu-id="6ae77-131">Continue creating records for all member Front End Servers that will participate in DNS Load Balancing.</span></span>
+7.  <span data-ttu-id="86092-131">Continue creating records for all member Front End Servers that will participate in DNS Load Balancing.</span><span class="sxs-lookup"><span data-stu-id="86092-131">Continue creating records for all member Front End Servers that will participate in DNS Load Balancing.</span></span>
     
-    <span data-ttu-id="6ae77-132">For example, if you had a pool named pool1.contoso.com and three Front End Servers, you would create the following DNS entries:</span><span class="sxs-lookup"><span data-stu-id="6ae77-132">For example, if you had a pool named pool1.contoso.com and three Front End Servers, you would create the following DNS entries:</span></span>
+    <span data-ttu-id="86092-132">For example, if you had a pool named pool1.contoso.com and three Front End Servers, you would create the following DNS entries:</span><span class="sxs-lookup"><span data-stu-id="86092-132">For example, if you had a pool named pool1.contoso.com and three Front End Servers, you would create the following DNS entries:</span></span>
     
     
     <table>
@@ -126,51 +126,51 @@ ms.locfileid: "42028592"
     </colgroup>
     <thead>
     <tr class="header">
-    <th><span data-ttu-id="6ae77-133">FQDN</span><span class="sxs-lookup"><span data-stu-id="6ae77-133">FQDN</span></span></th>
-    <th><span data-ttu-id="6ae77-134">Tipo</span><span class="sxs-lookup"><span data-stu-id="6ae77-134">Type</span></span></th>
-    <th><span data-ttu-id="6ae77-135">Dados</span><span class="sxs-lookup"><span data-stu-id="6ae77-135">Data</span></span></th>
+    <th><span data-ttu-id="86092-133">FQDN</span><span class="sxs-lookup"><span data-stu-id="86092-133">FQDN</span></span></th>
+    <th><span data-ttu-id="86092-134">Tipo</span><span class="sxs-lookup"><span data-stu-id="86092-134">Type</span></span></th>
+    <th><span data-ttu-id="86092-135">Dados</span><span class="sxs-lookup"><span data-stu-id="86092-135">Data</span></span></th>
     </tr>
     </thead>
     <tbody>
     <tr class="odd">
-    <td><p><span data-ttu-id="6ae77-136">Pool1.contoso.com</span><span class="sxs-lookup"><span data-stu-id="6ae77-136">Pool1.contoso.com</span></span></p></td>
-    <td><p><span data-ttu-id="6ae77-137">Host (A)</span><span class="sxs-lookup"><span data-stu-id="6ae77-137">Host (A)</span></span></p></td>
-    <td><p><span data-ttu-id="6ae77-138">192.168.1.1</span><span class="sxs-lookup"><span data-stu-id="6ae77-138">192.168.1.1</span></span></p></td>
+    <td><p><span data-ttu-id="86092-136">Pool1.contoso.com</span><span class="sxs-lookup"><span data-stu-id="86092-136">Pool1.contoso.com</span></span></p></td>
+    <td><p><span data-ttu-id="86092-137">Host (A)</span><span class="sxs-lookup"><span data-stu-id="86092-137">Host (A)</span></span></p></td>
+    <td><p><span data-ttu-id="86092-138">192.168.1.1</span><span class="sxs-lookup"><span data-stu-id="86092-138">192.168.1.1</span></span></p></td>
     </tr>
     <tr class="even">
-    <td><p><span data-ttu-id="6ae77-139">Pool1.contoso.com</span><span class="sxs-lookup"><span data-stu-id="6ae77-139">Pool1.contoso.com</span></span></p></td>
-    <td><p><span data-ttu-id="6ae77-140">Host (A)</span><span class="sxs-lookup"><span data-stu-id="6ae77-140">Host (A)</span></span></p></td>
-    <td><p><span data-ttu-id="6ae77-141">192.168.1.2</span><span class="sxs-lookup"><span data-stu-id="6ae77-141">192.168.1.2</span></span></p></td>
+    <td><p><span data-ttu-id="86092-139">Pool1.contoso.com</span><span class="sxs-lookup"><span data-stu-id="86092-139">Pool1.contoso.com</span></span></p></td>
+    <td><p><span data-ttu-id="86092-140">Host (A)</span><span class="sxs-lookup"><span data-stu-id="86092-140">Host (A)</span></span></p></td>
+    <td><p><span data-ttu-id="86092-141">192.168.1.2</span><span class="sxs-lookup"><span data-stu-id="86092-141">192.168.1.2</span></span></p></td>
     </tr>
     <tr class="odd">
-    <td><p><span data-ttu-id="6ae77-142">Pool1.contoso.com</span><span class="sxs-lookup"><span data-stu-id="6ae77-142">Pool1.contoso.com</span></span></p></td>
-    <td><p><span data-ttu-id="6ae77-143">Host (A)</span><span class="sxs-lookup"><span data-stu-id="6ae77-143">Host (A)</span></span></p></td>
-    <td><p><span data-ttu-id="6ae77-144">192.168.1.3</span><span class="sxs-lookup"><span data-stu-id="6ae77-144">192.168.1.3</span></span></p></td>
+    <td><p><span data-ttu-id="86092-142">Pool1.contoso.com</span><span class="sxs-lookup"><span data-stu-id="86092-142">Pool1.contoso.com</span></span></p></td>
+    <td><p><span data-ttu-id="86092-143">Host (A)</span><span class="sxs-lookup"><span data-stu-id="86092-143">Host (A)</span></span></p></td>
+    <td><p><span data-ttu-id="86092-144">192.168.1.3</span><span class="sxs-lookup"><span data-stu-id="86092-144">192.168.1.3</span></span></p></td>
     </tr>
     </tbody>
     </table>
     
-    <span data-ttu-id="6ae77-145">Para obter detalhes sobre como criar registros de host DNS (A), consulte [Configure DNS host Records for Lync Server 2013](lync-server-2013-configure-dns-host-records.md).</span><span class="sxs-lookup"><span data-stu-id="6ae77-145">For details about creating DNS Host (A) records, see [Configure DNS Host records for Lync Server 2013](lync-server-2013-configure-dns-host-records.md).</span></span>
+    <span data-ttu-id="86092-145">Para obter detalhes sobre como criar registros de host DNS (A), consulte [Configure DNS host Records for Lync Server 2013](lync-server-2013-configure-dns-host-records.md).</span><span class="sxs-lookup"><span data-stu-id="86092-145">For details about creating DNS Host (A) records, see [Configure DNS Host records for Lync Server 2013](lync-server-2013-configure-dns-host-records.md).</span></span>
 
 </div>
 
 <div>
 
-## <a name="to-enable-round-robin-for-windows-server"></a><span data-ttu-id="6ae77-146">To enable round robin for Windows Server</span><span class="sxs-lookup"><span data-stu-id="6ae77-146">To enable round robin for Windows Server</span></span>
+## <a name="to-enable-round-robin-for-windows-server"></a><span data-ttu-id="86092-146">To enable round robin for Windows Server</span><span class="sxs-lookup"><span data-stu-id="86092-146">To enable round robin for Windows Server</span></span>
 
-1.  <span data-ttu-id="6ae77-147">Click **Start**, click **All Programs**, click **Administrative Tools**, and then click **DNS**.</span><span class="sxs-lookup"><span data-stu-id="6ae77-147">Click **Start**, click **All Programs**, click **Administrative Tools**, and then click **DNS**.</span></span>
+1.  <span data-ttu-id="86092-147">Click **Start**, click **All Programs**, click **Administrative Tools**, and then click **DNS**.</span><span class="sxs-lookup"><span data-stu-id="86092-147">Click **Start**, click **All Programs**, click **Administrative Tools**, and then click **DNS**.</span></span>
 
-2.  <span data-ttu-id="6ae77-148">Expand **DNS**, right-click the DNS server you want to configure, and then click **Properties**.</span><span class="sxs-lookup"><span data-stu-id="6ae77-148">Expand **DNS**, right-click the DNS server you want to configure, and then click **Properties**.</span></span>
+2.  <span data-ttu-id="86092-148">Expand **DNS**, right-click the DNS server you want to configure, and then click **Properties**.</span><span class="sxs-lookup"><span data-stu-id="86092-148">Expand **DNS**, right-click the DNS server you want to configure, and then click **Properties**.</span></span>
 
-3.  <span data-ttu-id="6ae77-149">Click the **Advanced** tab, select **Enable round robin** and **Enable netmask ordering**, and then click **OK**.</span><span class="sxs-lookup"><span data-stu-id="6ae77-149">Click the **Advanced** tab, select **Enable round robin** and **Enable netmask ordering**, and then click **OK**.</span></span>
+3.  <span data-ttu-id="86092-149">Click the **Advanced** tab, select **Enable round robin** and **Enable netmask ordering**, and then click **OK**.</span><span class="sxs-lookup"><span data-stu-id="86092-149">Click the **Advanced** tab, select **Enable round robin** and **Enable netmask ordering**, and then click **OK**.</span></span>
     
-    <span data-ttu-id="6ae77-150">![Caixa de diálogo Round Robin DNS](images/Gg398251.e7bf6125-8d78-4460-8401-0a8e7e21d305(OCS.15).jpg "Caixa de diálogo Round Robin DNS")</span><span class="sxs-lookup"><span data-stu-id="6ae77-150">![DNS Round Robin dialog box](images/Gg398251.e7bf6125-8d78-4460-8401-0a8e7e21d305(OCS.15).jpg "DNS Round Robin dialog box")</span></span>
+    <span data-ttu-id="86092-150">![Caixa de diálogo Round Robin DNS](images/Gg398251.e7bf6125-8d78-4460-8401-0a8e7e21d305(OCS.15).jpg "Caixa de diálogo Round Robin DNS")</span><span class="sxs-lookup"><span data-stu-id="86092-150">![DNS Round Robin dialog box](images/Gg398251.e7bf6125-8d78-4460-8401-0a8e7e21d305(OCS.15).jpg "DNS Round Robin dialog box")</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="6ae77-151">Este recurso deve ser habilitado por padrão.</span><span class="sxs-lookup"><span data-stu-id="6ae77-151">This feature should be enabled by default.</span></span>
+> <span data-ttu-id="86092-151">Este recurso deve ser habilitado por padrão.</span><span class="sxs-lookup"><span data-stu-id="86092-151">This feature should be enabled by default.</span></span>
 
 
 
@@ -180,10 +180,10 @@ ms.locfileid: "42028592"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="6ae77-152">Confira também</span><span class="sxs-lookup"><span data-stu-id="6ae77-152">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="86092-152">Confira também</span><span class="sxs-lookup"><span data-stu-id="86092-152">See Also</span></span>
 
 
-[<span data-ttu-id="6ae77-153">Balanceamento de carga de DNS no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6ae77-153">DNS load balancing in Lync Server 2013</span></span>](lync-server-2013-dns-load-balancing.md)  
+[<span data-ttu-id="86092-153">Balanceamento de carga de DNS no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="86092-153">DNS load balancing in Lync Server 2013</span></span>](lync-server-2013-dns-load-balancing.md)  
   
 
 </div>

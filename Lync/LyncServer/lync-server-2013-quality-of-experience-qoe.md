@@ -12,20 +12,20 @@ ms:contentKeyID: 49733548
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 688086f559c5b5f21891ce87f9ea1f5256280a34
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 54e269b9e2a6361e1319bbeeef57e09d80e0eaae
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42045733"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42138882"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="quality-of-experience-qoe-in-lync-server-2013"></a><span data-ttu-id="c7fb1-102">Qualidade da experiência (QoE) no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c7fb1-102">Quality of Experience (QoE) in Lync Server 2013</span></span>
+# <a name="quality-of-experience-qoe-in-lync-server-2013"></a><span data-ttu-id="3f9b0-102">Qualidade da experiência (QoE) no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3f9b0-102">Quality of Experience (QoE) in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,32 +35,32 @@ ms.locfileid: "42045733"
 
 <span> </span>
 
-<span data-ttu-id="c7fb1-103">_**Última modificação do tópico:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="c7fb1-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="3f9b0-103">_**Última modificação do tópico:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="3f9b0-103">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="c7fb1-104">A QoE (Qualidade da Experiência) registra dados numéricos que indicam a qualidade da mídia e informações sobre participantes, nomes de dispositivo, drivers, endereços IP e tipos de ponto de extremidade envolvidos em chamadas e sessões.</span><span class="sxs-lookup"><span data-stu-id="c7fb1-104">Quality of Experience (QoE) records numeric data that indicates the media quality and information about participants, device names, drivers, IP addresses, and endpoint types involved in calls and sessions.</span></span> <span data-ttu-id="c7fb1-105">Ao instalar o Lync Server 2013, você também instalará um conjunto predefinido de definições de configuração global para o QoE.</span><span class="sxs-lookup"><span data-stu-id="c7fb1-105">When you install Lync Server 2013, you will also install a predefined collection of global configuration settings for QoE.</span></span> <span data-ttu-id="c7fb1-106">Use os tópicos desta seção para configurar a QoE.</span><span class="sxs-lookup"><span data-stu-id="c7fb1-106">Use the topics in this section to configure QoE settings.</span></span>
+<span data-ttu-id="3f9b0-104">A QoE (Qualidade da Experiência) registra dados numéricos que indicam a qualidade da mídia e informações sobre participantes, nomes de dispositivo, drivers, endereços IP e tipos de ponto de extremidade envolvidos em chamadas e sessões.</span><span class="sxs-lookup"><span data-stu-id="3f9b0-104">Quality of Experience (QoE) records numeric data that indicates the media quality and information about participants, device names, drivers, IP addresses, and endpoint types involved in calls and sessions.</span></span> <span data-ttu-id="3f9b0-105">Ao instalar o Lync Server 2013, você também instalará um conjunto predefinido de definições de configuração global para o QoE.</span><span class="sxs-lookup"><span data-stu-id="3f9b0-105">When you install Lync Server 2013, you will also install a predefined collection of global configuration settings for QoE.</span></span> <span data-ttu-id="3f9b0-106">Use os tópicos desta seção para configurar a QoE.</span><span class="sxs-lookup"><span data-stu-id="3f9b0-106">Use the topics in this section to configure QoE settings.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="c7fb1-107">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="c7fb1-107">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="3f9b0-107">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="3f9b0-107">In This Section</span></span>
 
-  - [<span data-ttu-id="c7fb1-108">Criar definições de configuração de qualidade de experiência no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c7fb1-108">Create Quality of Experience configuration settings in Lync Server 2013</span></span>](lync-server-2013-create-quality-of-experience-configuration-settings.md)
+  - [<span data-ttu-id="3f9b0-108">Criar definições de configuração de qualidade de experiência no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3f9b0-108">Create Quality of Experience configuration settings in Lync Server 2013</span></span>](lync-server-2013-create-quality-of-experience-configuration-settings.md)
 
-  - [<span data-ttu-id="c7fb1-109">Habilitar a qualidade da experiência no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c7fb1-109">Enable Quality of Experience in Lync Server 2013</span></span>](lync-server-2013-enable-quality-of-experience.md)
+  - [<span data-ttu-id="3f9b0-109">Habilitar a qualidade da experiência no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3f9b0-109">Enable Quality of Experience in Lync Server 2013</span></span>](lync-server-2013-enable-quality-of-experience.md)
 
-  - [<span data-ttu-id="c7fb1-110">Modificar as configurações de qualidade da experiência no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c7fb1-110">Modify Quality of Experience settings in Lync Server 2013</span></span>](lync-server-2013-modify-quality-of-experience-settings.md)
+  - [<span data-ttu-id="3f9b0-110">Modificar as configurações de qualidade da experiência no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3f9b0-110">Modify Quality of Experience settings in Lync Server 2013</span></span>](lync-server-2013-modify-quality-of-experience-settings.md)
 
-  - [<span data-ttu-id="c7fb1-111">Excluir definições de configuração de qualidade de experiência no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c7fb1-111">Delete Quality of Experience configuration settings in Lync Server 2013</span></span>](lync-server-2013-delete-quality-of-experience-configuration-settings.md)
+  - [<span data-ttu-id="3f9b0-111">Excluir definições de configuração de qualidade de experiência no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3f9b0-111">Delete Quality of Experience configuration settings in Lync Server 2013</span></span>](lync-server-2013-delete-quality-of-experience-configuration-settings.md)
 
-  - [<span data-ttu-id="c7fb1-112">Limpar manualmente o registro de detalhes das chamadas e os bancos de dados de qualidade da experiência no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c7fb1-112">Manually purging the call detail recording and Quality of Experience databases in Lync Server 2013</span></span>](lync-server-2013-manually-purging-the-call-detail-recording-and-quality-of-experience-databases.md)
+  - [<span data-ttu-id="3f9b0-112">Limpar manualmente o registro de detalhes das chamadas e os bancos de dados de qualidade da experiência no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3f9b0-112">Manually purging the call detail recording and Quality of Experience databases in Lync Server 2013</span></span>](lync-server-2013-manually-purging-the-call-detail-recording-and-quality-of-experience-databases.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="c7fb1-113">Confira Também</span><span class="sxs-lookup"><span data-stu-id="c7fb1-113">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="3f9b0-113">Confira também</span><span class="sxs-lookup"><span data-stu-id="3f9b0-113">See Also</span></span>
 
 
-[<span data-ttu-id="c7fb1-114">Configurando a gravação de detalhes da chamada e as configurações de qualidade da experiência no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c7fb1-114">Configuring call detail recording and Quality of Experience settings in Lync Server 2013</span></span>](lync-server-2013-configuring-call-detail-recording-and-quality-of-experience-settings.md)  
+[<span data-ttu-id="3f9b0-114">Configurando a gravação de detalhes da chamada e as configurações de qualidade da experiência no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3f9b0-114">Configuring call detail recording and Quality of Experience settings in Lync Server 2013</span></span>](lync-server-2013-configuring-call-detail-recording-and-quality-of-experience-settings.md)  
   
 
 </div>

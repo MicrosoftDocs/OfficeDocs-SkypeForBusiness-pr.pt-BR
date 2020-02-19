@@ -12,20 +12,20 @@ ms:contentKeyID: 48185754
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 649908e0d2503c886a1ad71937604d0234eb2270
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 2164dad8121f71c0b74e8ac9619f8517ffecd104
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42049923"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42135908"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deployment-checklist-for-conferencing-in-lync-server-2013"></a><span data-ttu-id="f1cc2-102">Lista de verificação de implantação para conferência no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f1cc2-102">Deployment checklist for conferencing in Lync Server 2013</span></span>
+# <a name="deployment-checklist-for-conferencing-in-lync-server-2013"></a><span data-ttu-id="28963-102">Lista de verificação de implantação para conferência no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="28963-102">Deployment checklist for conferencing in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "42049923"
 
 <span> </span>
 
-<span data-ttu-id="f1cc2-103">_**Última modificação do tópico:** 2012-09-30_</span><span class="sxs-lookup"><span data-stu-id="f1cc2-103">_**Topic Last Modified:** 2012-09-30_</span></span>
+<span data-ttu-id="28963-103">_**Última modificação do tópico:** 2012-09-30_</span><span class="sxs-lookup"><span data-stu-id="28963-103">_**Topic Last Modified:** 2012-09-30_</span></span>
 
-<span data-ttu-id="f1cc2-104">Os tópicos a seguir fornecem uma lista de verificação para implantação e configuração de webconferência, conferência A/V e conferência discada.</span><span class="sxs-lookup"><span data-stu-id="f1cc2-104">The following topics provide a checklist for deploying and configuring web conferencing, A/V conferencing, and dial-in conferencing.</span></span>
+<span data-ttu-id="28963-104">Os tópicos a seguir fornecem uma lista de verificação para implantação e configuração de webconferência, conferência A/V e conferência discada.</span><span class="sxs-lookup"><span data-stu-id="28963-104">The following topics provide a checklist for deploying and configuring web conferencing, A/V conferencing, and dial-in conferencing.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="f1cc2-105">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="f1cc2-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="28963-105">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="28963-105">In This Section</span></span>
 
-  - [<span data-ttu-id="f1cc2-106">Lista de verificação de implantação para Webconferência no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f1cc2-106">Deployment checklist for web conferencing in Lync Server 2013</span></span>](lync-server-2013-deployment-checklist-for-web-conferencing.md)
+  - [<span data-ttu-id="28963-106">Lista de verificação de implantação para Webconferência no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="28963-106">Deployment checklist for web conferencing in Lync Server 2013</span></span>](lync-server-2013-deployment-checklist-for-web-conferencing.md)
 
-  - [<span data-ttu-id="f1cc2-107">Lista de verificação de implantação para conferência A/V no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f1cc2-107">Deployment checklist for A/V conferencing in Lync Server 2013</span></span>](lync-server-2013-deployment-checklist-for-a-v-conferencing.md)
+  - [<span data-ttu-id="28963-107">Lista de verificação de implantação para conferência A/V no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="28963-107">Deployment checklist for A/V conferencing in Lync Server 2013</span></span>](lync-server-2013-deployment-checklist-for-a-v-conferencing.md)
 
-  - [<span data-ttu-id="f1cc2-108">Lista de verificação de implantação para conferência discada no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f1cc2-108">Deployment checklist for dial-in conferencing in Lync Server 2013</span></span>](lync-server-2013-deployment-checklist-for-dial-in-conferencing.md)
+  - [<span data-ttu-id="28963-108">Lista de verificação de implantação para conferência discada no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="28963-108">Deployment checklist for dial-in conferencing in Lync Server 2013</span></span>](lync-server-2013-deployment-checklist-for-dial-in-conferencing.md)
 
 </div>
 
