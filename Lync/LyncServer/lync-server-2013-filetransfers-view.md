@@ -12,20 +12,20 @@ ms:contentKeyID: 49733848
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 95cc6790766d68ee478cf1b80326c974f7c15f1f
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 8b1704c3496d8c5971af7830462d17fc48042e57
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42028472"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42134567"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="filetransfers-view-in-lync-server-2013"></a><span data-ttu-id="9f830-102">Modo de transferência de filetransfers no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9f830-102">FileTransfers view in Lync Server 2013</span></span>
+# <a name="filetransfers-view-in-lync-server-2013"></a><span data-ttu-id="45170-102">Modo de transferência de filetransfers no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="45170-102">FileTransfers view in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "42028472"
 
 <span> </span>
 
-<span data-ttu-id="9f830-103">_**Última modificação do tópico:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="9f830-103">_**Topic Last Modified:** 2012-10-01_</span></span>
+<span data-ttu-id="45170-103">_**Última modificação do tópico:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="45170-103">_**Topic Last Modified:** 2012-10-01_</span></span>
 
-<span data-ttu-id="9f830-104">O modo de exibição FileTransfer armazena informações sobre sessões de transferência de arquivos ponto a ponto.</span><span class="sxs-lookup"><span data-stu-id="9f830-104">The FileTransfer view stores information about peer-to-peer file transfer sessions.</span></span> <span data-ttu-id="9f830-105">Este modo de exibição foi introduzido no Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="9f830-105">This view was introduced in Microsoft Lync Server 2013.</span></span>
+<span data-ttu-id="45170-104">O modo de exibição FileTransfer armazena informações sobre sessões de transferência de arquivos ponto a ponto.</span><span class="sxs-lookup"><span data-stu-id="45170-104">The FileTransfer view stores information about peer-to-peer file transfer sessions.</span></span> <span data-ttu-id="45170-105">Este modo de exibição foi introduzido no Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="45170-105">This view was introduced in Microsoft Lync Server 2013.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="9f830-106">O modo de exibição filetransfers contém todas as colunas no <A href="lync-server-2013-sessiondetails-view.md">modo de exibição SessionDetails no Lync Server 2013</A> , além das colunas listadas abaixo.</span><span class="sxs-lookup"><span data-stu-id="9f830-106">The FileTransfers view contains all of the columns in the <A href="lync-server-2013-sessiondetails-view.md">SessionDetails view in Lync Server 2013</A> in addition the columns listed below.</span></span>
+> <span data-ttu-id="45170-106">O modo de exibição filetransfers contém todas as colunas no <A href="lync-server-2013-sessiondetails-view.md">modo de exibição SessionDetails no Lync Server 2013</A> , além das colunas listadas abaixo.</span><span class="sxs-lookup"><span data-stu-id="45170-106">The FileTransfers view contains all of the columns in the <A href="lync-server-2013-sessiondetails-view.md">SessionDetails view in Lync Server 2013</A> in addition the columns listed below.</span></span>
 
 
 
@@ -58,41 +58,41 @@ ms.locfileid: "42028472"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="9f830-107">Coluna</span><span class="sxs-lookup"><span data-stu-id="9f830-107">Column</span></span></th>
-<th><span data-ttu-id="9f830-108">Tipo de dados</span><span class="sxs-lookup"><span data-stu-id="9f830-108">Data Type</span></span></th>
-<th><span data-ttu-id="9f830-109">Detalhes</span><span class="sxs-lookup"><span data-stu-id="9f830-109">Details</span></span></th>
+<th><span data-ttu-id="45170-107">Coluna</span><span class="sxs-lookup"><span data-stu-id="45170-107">Column</span></span></th>
+<th><span data-ttu-id="45170-108">Tipo de dados</span><span class="sxs-lookup"><span data-stu-id="45170-108">Data Type</span></span></th>
+<th><span data-ttu-id="45170-109">Detalhes</span><span class="sxs-lookup"><span data-stu-id="45170-109">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="9f830-110"><strong>FileName</strong></span><span class="sxs-lookup"><span data-stu-id="9f830-110"><strong>FileName</strong></span></span></p></td>
-<td><p><span data-ttu-id="9f830-111">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="9f830-111">nvarchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="9f830-112">Nome do arquivo transferido.</span><span class="sxs-lookup"><span data-stu-id="9f830-112">Name of the file transferred.</span></span></p></td>
+<td><p><span data-ttu-id="45170-110"><strong>FileName</strong></span><span class="sxs-lookup"><span data-stu-id="45170-110"><strong>FileName</strong></span></span></p></td>
+<td><p><span data-ttu-id="45170-111">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="45170-111">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="45170-112">Nome do arquivo transferido.</span><span class="sxs-lookup"><span data-stu-id="45170-112">Name of the file transferred.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="9f830-113"><strong>Cookie</strong></span><span class="sxs-lookup"><span data-stu-id="9f830-113"><strong>Cookie</strong></span></span></p></td>
-<td><p><span data-ttu-id="9f830-114">nvarchar(128</span><span class="sxs-lookup"><span data-stu-id="9f830-114">nvarchar(128)</span></span></p></td>
-<td><p><span data-ttu-id="9f830-115">Usado para identificar cada mensagem de acompanhamento como sendo associado a este.</span><span class="sxs-lookup"><span data-stu-id="9f830-115">Used to identify every follow-up message as being associated with this one.</span></span></p></td>
+<td><p><span data-ttu-id="45170-113"><strong>Cookie</strong></span><span class="sxs-lookup"><span data-stu-id="45170-113"><strong>Cookie</strong></span></span></p></td>
+<td><p><span data-ttu-id="45170-114">nvarchar(128</span><span class="sxs-lookup"><span data-stu-id="45170-114">nvarchar(128)</span></span></p></td>
+<td><p><span data-ttu-id="45170-115">Usado para identificar cada mensagem de acompanhamento como sendo associado a este.</span><span class="sxs-lookup"><span data-stu-id="45170-115">Used to identify every follow-up message as being associated with this one.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="9f830-116"><strong>Fileidentity</strong></span><span class="sxs-lookup"><span data-stu-id="9f830-116"><strong>FileIdentity</strong></span></span></p></td>
-<td><p><span data-ttu-id="9f830-117">identificador</span><span class="sxs-lookup"><span data-stu-id="9f830-117">uniqueidentifier</span></span></p></td>
-<td><p><span data-ttu-id="9f830-118">Identificador exclusivo para distinguir entre as transferências de arquivo envolvendo o mesmo nome do arquivo.</span><span class="sxs-lookup"><span data-stu-id="9f830-118">Unique identifier to distinguish between file transfers involving the same file name.</span></span></p></td>
+<td><p><span data-ttu-id="45170-116"><strong>Fileidentity</strong></span><span class="sxs-lookup"><span data-stu-id="45170-116"><strong>FileIdentity</strong></span></span></p></td>
+<td><p><span data-ttu-id="45170-117">identificador</span><span class="sxs-lookup"><span data-stu-id="45170-117">uniqueidentifier</span></span></p></td>
+<td><p><span data-ttu-id="45170-118">Identificador exclusivo para distinguir entre as transferências de arquivo envolvendo o mesmo nome do arquivo.</span><span class="sxs-lookup"><span data-stu-id="45170-118">Unique identifier to distinguish between file transfers involving the same file name.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="9f830-119"><strong>Accept</strong></span><span class="sxs-lookup"><span data-stu-id="9f830-119"><strong>Accept</strong></span></span></p></td>
-<td><p><span data-ttu-id="9f830-120">bits</span><span class="sxs-lookup"><span data-stu-id="9f830-120">bit</span></span></p></td>
-<td><p><span data-ttu-id="9f830-p102">Pode ser TRUE ou NULL. Se for TRUE, Rejeitar e Cancelar serão NULL.</span><span class="sxs-lookup"><span data-stu-id="9f830-p102">Can be TRUE or NULL. If TRUE, then Reject and Cancel will be NULL.</span></span></p></td>
+<td><p><span data-ttu-id="45170-119"><strong>Accept</strong></span><span class="sxs-lookup"><span data-stu-id="45170-119"><strong>Accept</strong></span></span></p></td>
+<td><p><span data-ttu-id="45170-120">bits</span><span class="sxs-lookup"><span data-stu-id="45170-120">bit</span></span></p></td>
+<td><p><span data-ttu-id="45170-p102">Pode ser TRUE ou NULL. Se for TRUE, Rejeitar e Cancelar serão NULL.</span><span class="sxs-lookup"><span data-stu-id="45170-p102">Can be TRUE or NULL. If TRUE, then Reject and Cancel will be NULL.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="9f830-123"><strong>Reject</strong></span><span class="sxs-lookup"><span data-stu-id="9f830-123"><strong>Reject</strong></span></span></p></td>
-<td><p><span data-ttu-id="9f830-124">bits</span><span class="sxs-lookup"><span data-stu-id="9f830-124">bit</span></span></p></td>
-<td><p><span data-ttu-id="9f830-p103">Pode ser TRUE ou NULL. Se for TRUE, Aceitar e Cancelar serão NULL.</span><span class="sxs-lookup"><span data-stu-id="9f830-p103">Can be TRUE or NULL. If TRUE, then Accept and Cancel will be NULL.</span></span></p></td>
+<td><p><span data-ttu-id="45170-123"><strong>Reject</strong></span><span class="sxs-lookup"><span data-stu-id="45170-123"><strong>Reject</strong></span></span></p></td>
+<td><p><span data-ttu-id="45170-124">bits</span><span class="sxs-lookup"><span data-stu-id="45170-124">bit</span></span></p></td>
+<td><p><span data-ttu-id="45170-p103">Pode ser TRUE ou NULL. Se for TRUE, Aceitar e Cancelar serão NULL.</span><span class="sxs-lookup"><span data-stu-id="45170-p103">Can be TRUE or NULL. If TRUE, then Accept and Cancel will be NULL.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="9f830-127"><strong>Cancel</strong></span><span class="sxs-lookup"><span data-stu-id="9f830-127"><strong>Cancel</strong></span></span></p></td>
-<td><p><span data-ttu-id="9f830-128">bits</span><span class="sxs-lookup"><span data-stu-id="9f830-128">bit</span></span></p></td>
-<td><p><span data-ttu-id="9f830-p104">Pode ser TRUE ou NULL. Se for TRUE, Aceitar e Rejeitar serão NULL.</span><span class="sxs-lookup"><span data-stu-id="9f830-p104">Can be TRUE or NULL. If TRUE, then Accept and Reject will be NULL.</span></span></p></td>
+<td><p><span data-ttu-id="45170-127"><strong>Cancel</strong></span><span class="sxs-lookup"><span data-stu-id="45170-127"><strong>Cancel</strong></span></span></p></td>
+<td><p><span data-ttu-id="45170-128">bits</span><span class="sxs-lookup"><span data-stu-id="45170-128">bit</span></span></p></td>
+<td><p><span data-ttu-id="45170-p104">Pode ser TRUE ou NULL. Se for TRUE, Aceitar e Rejeitar serão NULL.</span><span class="sxs-lookup"><span data-stu-id="45170-p104">Can be TRUE or NULL. If TRUE, then Accept and Reject will be NULL.</span></span></p></td>
 </tr>
 </tbody>
 </table>

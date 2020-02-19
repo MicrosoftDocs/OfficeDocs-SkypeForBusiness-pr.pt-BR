@@ -12,20 +12,20 @@ ms:contentKeyID: 48184821
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: aeb6d01708bef791e5d91d98893dd4051a93e6dc
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 1ba23b8f081dc6e56995b8c93db43772f731ef6c
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42008623"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42120064"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="voice-routing-cmdlets-in-lync-server-2013"></a><span data-ttu-id="48bfc-102">Cmdlets de roteamento de voz no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="48bfc-102">Voice routing cmdlets in Lync Server 2013</span></span>
+# <a name="voice-routing-cmdlets-in-lync-server-2013"></a><span data-ttu-id="9ac79-102">Cmdlets de roteamento de voz no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9ac79-102">Voice routing cmdlets in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,79 +35,79 @@ ms.locfileid: "42008623"
 
 <span> </span>
 
-<span data-ttu-id="48bfc-103">_**Última modificação do tópico:** 2012-06-26_</span><span class="sxs-lookup"><span data-stu-id="48bfc-103">_**Topic Last Modified:** 2012-06-26_</span></span>
+<span data-ttu-id="9ac79-103">_**Última modificação do tópico:** 2012-06-26_</span><span class="sxs-lookup"><span data-stu-id="9ac79-103">_**Topic Last Modified:** 2012-06-26_</span></span>
 
-<span data-ttu-id="48bfc-104">As rotas de voz contêm instruções que dizem ao Microsoft Lync Server 2013 como rotear chamadas de usuários do Enterprise Voice para números de telefone na PSTN (rede telefônica pública comutada) ou um PBX (Private Branch Exchange).</span><span class="sxs-lookup"><span data-stu-id="48bfc-104">Voice routes contain instructions that tell Microsoft Lync Server 2013 how to route calls from Enterprise Voice users to phone numbers on the public switched telephone network (PSTN) or a private branch exchange (PBX).</span></span>
+<span data-ttu-id="9ac79-104">As rotas de voz contêm instruções que dizem ao Microsoft Lync Server 2013 como rotear chamadas de usuários do Enterprise Voice para números de telefone na PSTN (rede telefônica pública comutada) ou um PBX (Private Branch Exchange).</span><span class="sxs-lookup"><span data-stu-id="9ac79-104">Voice routes contain instructions that tell Microsoft Lync Server 2013 how to route calls from Enterprise Voice users to phone numbers on the public switched telephone network (PSTN) or a private branch exchange (PBX).</span></span>
 
 <div>
 
-## <a name="voice-routing-cmdlets"></a><span data-ttu-id="48bfc-105">Voice Routing Cmdlets</span><span class="sxs-lookup"><span data-stu-id="48bfc-105">Voice Routing Cmdlets</span></span>
+## <a name="voice-routing-cmdlets"></a><span data-ttu-id="9ac79-105">Voice Routing Cmdlets</span><span class="sxs-lookup"><span data-stu-id="9ac79-105">Voice Routing Cmdlets</span></span>
 
-<span data-ttu-id="48bfc-106">Use os cmdlets a seguir para configurar rotas de voz.</span><span class="sxs-lookup"><span data-stu-id="48bfc-106">Use the following cmdlets to configure voice routes.</span></span>
+<span data-ttu-id="9ac79-106">Use os cmdlets a seguir para configurar rotas de voz.</span><span class="sxs-lookup"><span data-stu-id="9ac79-106">Use the following cmdlets to configure voice routes.</span></span>
 
-<span data-ttu-id="48bfc-107">**Roteamento de Voz**</span><span class="sxs-lookup"><span data-stu-id="48bfc-107">**Voice Routing**</span></span>
-
-  - <span></span>  
-    <span data-ttu-id="48bfc-108">[Get-CsRoutingConfiguration](https://technet.microsoft.com/library/Gg425851(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="48bfc-108">[Get-CsRoutingConfiguration](https://technet.microsoft.com/library/Gg425851(v=OCS.15))</span></span>
+<span data-ttu-id="9ac79-107">**Roteamento de Voz**</span><span class="sxs-lookup"><span data-stu-id="9ac79-107">**Voice Routing**</span></span>
 
   - <span></span>  
-    <span data-ttu-id="48bfc-109">[New-CsRoutingConfiguration](https://technet.microsoft.com/library/Gg399056(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="48bfc-109">[New-CsRoutingConfiguration](https://technet.microsoft.com/library/Gg399056(v=OCS.15))</span></span>
+    <span data-ttu-id="9ac79-108">[Get-CsRoutingConfiguration](https://technet.microsoft.com/library/Gg425851(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="9ac79-108">[Get-CsRoutingConfiguration](https://technet.microsoft.com/library/Gg425851(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="48bfc-110">[Remove-CsRoutingConfiguration](https://technet.microsoft.com/library/Gg398643(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="48bfc-110">[Remove-CsRoutingConfiguration](https://technet.microsoft.com/library/Gg398643(v=OCS.15))</span></span>
+    <span data-ttu-id="9ac79-109">[New-CsRoutingConfiguration](https://technet.microsoft.com/library/Gg399056(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="9ac79-109">[New-CsRoutingConfiguration](https://technet.microsoft.com/library/Gg399056(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="48bfc-111">[Set-CsRoutingConfiguration](https://technet.microsoft.com/library/Gg412811(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="48bfc-111">[Set-CsRoutingConfiguration](https://technet.microsoft.com/library/Gg412811(v=OCS.15))</span></span>
+    <span data-ttu-id="9ac79-110">[Remove-CsRoutingConfiguration](https://technet.microsoft.com/library/Gg398643(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="9ac79-110">[Remove-CsRoutingConfiguration](https://technet.microsoft.com/library/Gg398643(v=OCS.15))</span></span>
+
+  - <span></span>  
+    <span data-ttu-id="9ac79-111">[Set-CsRoutingConfiguration](https://technet.microsoft.com/library/Gg412811(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="9ac79-111">[Set-CsRoutingConfiguration](https://technet.microsoft.com/library/Gg412811(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="48bfc-112">[Get-CsVoiceRoute](https://technet.microsoft.com/library/Gg425926(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="48bfc-112">[Get-CsVoiceRoute](https://technet.microsoft.com/library/Gg425926(v=OCS.15))</span></span>
+    <span data-ttu-id="9ac79-112">[Get-CsVoiceRoute](https://technet.microsoft.com/library/Gg425926(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="9ac79-112">[Get-CsVoiceRoute](https://technet.microsoft.com/library/Gg425926(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="48bfc-113">[New-CsVoiceRoute](https://technet.microsoft.com/library/Gg398197(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="48bfc-113">[New-CsVoiceRoute](https://technet.microsoft.com/library/Gg398197(v=OCS.15))</span></span>
+    <span data-ttu-id="9ac79-113">[New-CsVoiceRoute](https://technet.microsoft.com/library/Gg398197(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="9ac79-113">[New-CsVoiceRoute](https://technet.microsoft.com/library/Gg398197(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="48bfc-114">[Remove-CsVoiceRoute](https://technet.microsoft.com/library/Gg398468(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="48bfc-114">[Remove-CsVoiceRoute](https://technet.microsoft.com/library/Gg398468(v=OCS.15))</span></span>
+    <span data-ttu-id="9ac79-114">[Remove-CsVoiceRoute](https://technet.microsoft.com/library/Gg398468(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="9ac79-114">[Remove-CsVoiceRoute](https://technet.microsoft.com/library/Gg398468(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="48bfc-115">[Set-CsVoiceRoute](https://technet.microsoft.com/library/Gg412893(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="48bfc-115">[Set-CsVoiceRoute](https://technet.microsoft.com/library/Gg412893(v=OCS.15))</span></span>
+    <span data-ttu-id="9ac79-115">[Set-CsVoiceRoute](https://technet.microsoft.com/library/Gg412893(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="9ac79-115">[Set-CsVoiceRoute](https://technet.microsoft.com/library/Gg412893(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="48bfc-116">[Test-CsVoiceRoute](https://technet.microsoft.com/library/Gg425873(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="48bfc-116">[Test-CsVoiceRoute](https://technet.microsoft.com/library/Gg425873(v=OCS.15))</span></span>
+    <span data-ttu-id="9ac79-116">[Test-CsVoiceRoute](https://technet.microsoft.com/library/Gg425873(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="9ac79-116">[Test-CsVoiceRoute](https://technet.microsoft.com/library/Gg425873(v=OCS.15))</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="48bfc-117">[Get-CsVoiceRoutingPolicy](https://technet.microsoft.com/library/JJ204940(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="48bfc-117">[Get-CsVoiceRoutingPolicy](https://technet.microsoft.com/library/JJ204940(v=OCS.15))</span></span>
+  - <span data-ttu-id="9ac79-117">[Get-CsVoiceRoutingPolicy](https://technet.microsoft.com/library/JJ204940(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="9ac79-117">[Get-CsVoiceRoutingPolicy](https://technet.microsoft.com/library/JJ204940(v=OCS.15))</span></span>
 
-  - <span data-ttu-id="48bfc-118">[Grant-CsVoiceRoutingPolicy](https://technet.microsoft.com/library/JJ205141(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="48bfc-118">[Grant-CsVoiceRoutingPolicy](https://technet.microsoft.com/library/JJ205141(v=OCS.15))</span></span>
+  - <span data-ttu-id="9ac79-118">[Grant-CsVoiceRoutingPolicy](https://technet.microsoft.com/library/JJ205141(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="9ac79-118">[Grant-CsVoiceRoutingPolicy](https://technet.microsoft.com/library/JJ205141(v=OCS.15))</span></span>
 
-  - <span data-ttu-id="48bfc-119">[New-CsVoiceRoutingPolicy](https://technet.microsoft.com/library/JJ205135(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="48bfc-119">[New-CsVoiceRoutingPolicy](https://technet.microsoft.com/library/JJ205135(v=OCS.15))</span></span>
+  - <span data-ttu-id="9ac79-119">[New-CsVoiceRoutingPolicy](https://technet.microsoft.com/library/JJ205135(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="9ac79-119">[New-CsVoiceRoutingPolicy](https://technet.microsoft.com/library/JJ205135(v=OCS.15))</span></span>
 
-  - <span data-ttu-id="48bfc-120">[Remove-CsVoiceRoutingPolicy](https://technet.microsoft.com/library/JJ204799(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="48bfc-120">[Remove-CsVoiceRoutingPolicy](https://technet.microsoft.com/library/JJ204799(v=OCS.15))</span></span>
+  - <span data-ttu-id="9ac79-120">[Remove-CsVoiceRoutingPolicy](https://technet.microsoft.com/library/JJ204799(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="9ac79-120">[Remove-CsVoiceRoutingPolicy](https://technet.microsoft.com/library/JJ204799(v=OCS.15))</span></span>
 
-  - <span data-ttu-id="48bfc-121">[Set-CsVoiceRoutingPolicy](https://technet.microsoft.com/library/JJ205313(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="48bfc-121">[Set-CsVoiceRoutingPolicy](https://technet.microsoft.com/library/JJ205313(v=OCS.15))</span></span>
+  - <span data-ttu-id="9ac79-121">[Set-CsVoiceRoutingPolicy](https://technet.microsoft.com/library/JJ205313(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="9ac79-121">[Set-CsVoiceRoutingPolicy](https://technet.microsoft.com/library/JJ205313(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="48bfc-122">[Get-CsPstnUsage](https://technet.microsoft.com/library/Gg412734(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="48bfc-122">[Get-CsPstnUsage](https://technet.microsoft.com/library/Gg412734(v=OCS.15))</span></span>
+    <span data-ttu-id="9ac79-122">[Get-CsPstnUsage](https://technet.microsoft.com/library/Gg412734(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="9ac79-122">[Get-CsPstnUsage](https://technet.microsoft.com/library/Gg412734(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="48bfc-123">[Set-CsPstnUsage](https://technet.microsoft.com/library/Gg399069(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="48bfc-123">[Set-CsPstnUsage](https://technet.microsoft.com/library/Gg399069(v=OCS.15))</span></span>
+    <span data-ttu-id="9ac79-123">[Set-CsPstnUsage](https://technet.microsoft.com/library/Gg399069(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="9ac79-123">[Set-CsPstnUsage](https://technet.microsoft.com/library/Gg399069(v=OCS.15))</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="48bfc-124">Confira também</span><span class="sxs-lookup"><span data-stu-id="48bfc-124">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="9ac79-124">Confira também</span><span class="sxs-lookup"><span data-stu-id="9ac79-124">See Also</span></span>
 
 
-[<span data-ttu-id="48bfc-125">Cmdlets do Enterprise Voice no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="48bfc-125">Enterprise Voice cmdlets in Lync Server 2013</span></span>](lync-server-2013-enterprise-voice-cmdlets.md)  
-[<span data-ttu-id="48bfc-126">Cmdlets de conectividade PSTN no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="48bfc-126">PSTN connectivity cmdlets in Lync Server 2013</span></span>](lync-server-2013-pstn-connectivity-cmdlets.md)  
+[<span data-ttu-id="9ac79-125">Cmdlets do Enterprise Voice no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9ac79-125">Enterprise Voice cmdlets in Lync Server 2013</span></span>](lync-server-2013-enterprise-voice-cmdlets.md)  
+[<span data-ttu-id="9ac79-126">Cmdlets de conectividade PSTN no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9ac79-126">PSTN connectivity cmdlets in Lync Server 2013</span></span>](lync-server-2013-pstn-connectivity-cmdlets.md)  
 
 
-[<span data-ttu-id="48bfc-127">Blog do PowerShell do Lync Server</span><span class="sxs-lookup"><span data-stu-id="48bfc-127">Lync Server PowerShell Blog</span></span>](http://go.microsoft.com/fwlink/p/?linkid=203150)  
+[<span data-ttu-id="9ac79-127">Blog do PowerShell do Lync Server</span><span class="sxs-lookup"><span data-stu-id="9ac79-127">Lync Server PowerShell Blog</span></span>](https://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>

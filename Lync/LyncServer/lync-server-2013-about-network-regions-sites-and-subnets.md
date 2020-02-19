@@ -12,20 +12,20 @@ ms:contentKeyID: 48184335
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d2f6de7a39b3029f1edc1252b90ec264d774632f
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 142b8a13f8cf0600709fc1c43285e58ff182d19e
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42037923"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42135648"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="about-network-regions-sites-and-subnets-in-lync-server-2013"></a><span data-ttu-id="1f755-102">Sobre regiões de rede, sites e sub-redes no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1f755-102">About network regions, sites, and subnets in Lync Server 2013</span></span>
+# <a name="about-network-regions-sites-and-subnets-in-lync-server-2013"></a><span data-ttu-id="54662-102">Sobre regiões de rede, sites e sub-redes no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="54662-102">About network regions, sites, and subnets in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,37 +35,37 @@ ms.locfileid: "42037923"
 
 <span> </span>
 
-<span data-ttu-id="1f755-103">_**Última modificação do tópico:** 2013-02-24_</span><span class="sxs-lookup"><span data-stu-id="1f755-103">_**Topic Last Modified:** 2013-02-24_</span></span>
+<span data-ttu-id="54662-103">_**Última modificação do tópico:** 2013-02-24_</span><span class="sxs-lookup"><span data-stu-id="54662-103">_**Topic Last Modified:** 2013-02-24_</span></span>
 
-<span data-ttu-id="1f755-104">Os recursos avançados do Enterprise Voice descritos nesta seção compartilham determinados requisitos de configuração para regiões de rede, sites de rede e sub-redes.</span><span class="sxs-lookup"><span data-stu-id="1f755-104">The advanced Enterprise Voice features described in this section share certain configuration requirements for network regions, network sites, and subnets.</span></span> <span data-ttu-id="1f755-105">Por exemplo, todos os três recursos avançados exigem que cada sub-rede em sua topologia seja associada a um *site de rede*específico e cada local de rede deve estar associado a uma *região de rede*.</span><span class="sxs-lookup"><span data-stu-id="1f755-105">For example, all three advanced features require that each subnet in your topology be associated with a specific *network site*, and each network site must be associated with a *network region*.</span></span>
+<span data-ttu-id="54662-104">Os recursos avançados do Enterprise Voice descritos nesta seção compartilham determinados requisitos de configuração para regiões de rede, sites de rede e sub-redes.</span><span class="sxs-lookup"><span data-stu-id="54662-104">The advanced Enterprise Voice features described in this section share certain configuration requirements for network regions, network sites, and subnets.</span></span> <span data-ttu-id="54662-105">Por exemplo, todos os três recursos avançados exigem que cada sub-rede em sua topologia seja associada a um *site de rede*específico e cada local de rede deve estar associado a uma *região de rede*.</span><span class="sxs-lookup"><span data-stu-id="54662-105">For example, all three advanced features require that each subnet in your topology be associated with a specific *network site*, and each network site must be associated with a *network region*.</span></span>
 
 <div>
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="1f755-106">Antes de iniciar a configuração de rede para controle de admissão de chamada, E9-1-1 ou desvio de mídia, verifique se você analisou informações adicionais sobre as configurações de rede nas configurações de rede do tópico <A href="lync-server-2013-network-settings-for-the-advanced-enterprise-voice-features.md">recursos avançados do Enterprise Voice no Lync Server 2013</A> na documentação de planejamento.</span><span class="sxs-lookup"><span data-stu-id="1f755-106">Before you begin network configuration for call admission control, E9-1-1, or media bypass, make sure that you reviewed additional information about network settings in the <A href="lync-server-2013-network-settings-for-the-advanced-enterprise-voice-features.md">Network settings for the advanced Enterprise Voice features in Lync Server 2013</A> topic in the Planning documentation.</span></span> <span data-ttu-id="1f755-107">Para obter detalhes sobre a configuração de rede primariamente sobre o controle de admissão de chamadas, confira a <A href="lync-server-2013-defining-your-requirements-for-call-admission-control.md">definição de seus requisitos para controle de admissão de chamadas no Lync Server 2013</A> na documentação de planejamento.</span><span class="sxs-lookup"><span data-stu-id="1f755-107">For details about network configuration primarily about call admission control, also see <A href="lync-server-2013-defining-your-requirements-for-call-admission-control.md">Defining your requirements for call admission control in Lync Server 2013</A> in the Planning documentation.</span></span>
+> <span data-ttu-id="54662-106">Antes de iniciar a configuração de rede para controle de admissão de chamada, E9-1-1 ou desvio de mídia, verifique se você analisou informações adicionais sobre as configurações de rede nas configurações de rede do tópico <A href="lync-server-2013-network-settings-for-the-advanced-enterprise-voice-features.md">recursos avançados do Enterprise Voice no Lync Server 2013</A> na documentação de planejamento.</span><span class="sxs-lookup"><span data-stu-id="54662-106">Before you begin network configuration for call admission control, E9-1-1, or media bypass, make sure that you reviewed additional information about network settings in the <A href="lync-server-2013-network-settings-for-the-advanced-enterprise-voice-features.md">Network settings for the advanced Enterprise Voice features in Lync Server 2013</A> topic in the Planning documentation.</span></span> <span data-ttu-id="54662-107">Para obter detalhes sobre a configuração de rede primariamente sobre o controle de admissão de chamadas, confira a <A href="lync-server-2013-defining-your-requirements-for-call-admission-control.md">definição de seus requisitos para controle de admissão de chamadas no Lync Server 2013</A> na documentação de planejamento.</span><span class="sxs-lookup"><span data-stu-id="54662-107">For details about network configuration primarily about call admission control, also see <A href="lync-server-2013-defining-your-requirements-for-call-admission-control.md">Defining your requirements for call admission control in Lync Server 2013</A> in the Planning documentation.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="1f755-108">O controle de admissão de chamada e o E9-1-1 têm requisitos adicionais de configuração para sites de rede:</span><span class="sxs-lookup"><span data-stu-id="1f755-108">Call admission control and E9-1-1 have additional configuration requirements for network sites:</span></span>
+<span data-ttu-id="54662-108">O controle de admissão de chamada e o E9-1-1 têm requisitos adicionais de configuração para sites de rede:</span><span class="sxs-lookup"><span data-stu-id="54662-108">Call admission control and E9-1-1 have additional configuration requirements for network sites:</span></span>
 
-  - <span data-ttu-id="1f755-109">O controle de admissão de chamadas exige que um *perfil de política de largura de banda* seja especificado para cada site restrito por limitações de largura de banda de WAN.</span><span class="sxs-lookup"><span data-stu-id="1f755-109">Call admission control requires that a *bandwidth policy profile* be specified for each site that is constrained by WAN bandwidth limitations.</span></span> <span data-ttu-id="1f755-110">Se você planeja implantar o controle de admissão de chamadas, você deve [criar perfis de política de largura de banda no Lync Server 2013](lync-server-2013-create-bandwidth-policy-profiles.md) antes de configurar seus sites de rede.</span><span class="sxs-lookup"><span data-stu-id="1f755-110">If you plan to deploy call admission control, you must [Create bandwidth policy profiles in Lync Server 2013](lync-server-2013-create-bandwidth-policy-profiles.md) before you configure your network sites.</span></span>
+  - <span data-ttu-id="54662-109">O controle de admissão de chamadas exige que um *perfil de política de largura de banda* seja especificado para cada site restrito por limitações de largura de banda de WAN.</span><span class="sxs-lookup"><span data-stu-id="54662-109">Call admission control requires that a *bandwidth policy profile* be specified for each site that is constrained by WAN bandwidth limitations.</span></span> <span data-ttu-id="54662-110">Se você planeja implantar o controle de admissão de chamadas, você deve [criar perfis de política de largura de banda no Lync Server 2013](lync-server-2013-create-bandwidth-policy-profiles.md) antes de configurar seus sites de rede.</span><span class="sxs-lookup"><span data-stu-id="54662-110">If you plan to deploy call admission control, you must [Create bandwidth policy profiles in Lync Server 2013](lync-server-2013-create-bandwidth-policy-profiles.md) before you configure your network sites.</span></span>
 
-  - <span data-ttu-id="1f755-111">E9-1-1 requer que uma *política de local* seja especificada para cada site.</span><span class="sxs-lookup"><span data-stu-id="1f755-111">E9-1-1 requires that a *location policy* be specified for each site.</span></span> <span data-ttu-id="1f755-112">Se você planeja implantar o E9-1-1, você deve [criar políticas de local no Lync Server 2013](lync-server-2013-create-location-policies.md) antes de configurar seus sites de rede.</span><span class="sxs-lookup"><span data-stu-id="1f755-112">If you plan to deploy E9-1-1, you must [Create location policies in Lync Server 2013](lync-server-2013-create-location-policies.md) before you configure your network sites.</span></span>
+  - <span data-ttu-id="54662-111">E9-1-1 requer que uma *política de local* seja especificada para cada site.</span><span class="sxs-lookup"><span data-stu-id="54662-111">E9-1-1 requires that a *location policy* be specified for each site.</span></span> <span data-ttu-id="54662-112">Se você planeja implantar o E9-1-1, você deve [criar políticas de local no Lync Server 2013](lync-server-2013-create-location-policies.md) antes de configurar seus sites de rede.</span><span class="sxs-lookup"><span data-stu-id="54662-112">If you plan to deploy E9-1-1, you must [Create location policies in Lync Server 2013](lync-server-2013-create-location-policies.md) before you configure your network sites.</span></span>
 
 <div>
 
-## <a name="create-or-modify-network-regions-network-sites-and-subnets"></a><span data-ttu-id="1f755-113">Criar ou modificar regiões de rede, sites de rede e sub-redes</span><span class="sxs-lookup"><span data-stu-id="1f755-113">Create or Modify Network Regions, Network Sites, and Subnets</span></span>
+## <a name="create-or-modify-network-regions-network-sites-and-subnets"></a><span data-ttu-id="54662-113">Criar ou modificar regiões de rede, sites de rede e sub-redes</span><span class="sxs-lookup"><span data-stu-id="54662-113">Create or Modify Network Regions, Network Sites, and Subnets</span></span>
 
-<span data-ttu-id="1f755-114">Os tópicos a seguir fornecem etapas para criar ou modificar regiões de rede e sites de rede e para associar sub-redes a sites de rede.</span><span class="sxs-lookup"><span data-stu-id="1f755-114">The following topics provide steps to create or modify network regions and network sites, and to associate subnets with network sites.</span></span> <span data-ttu-id="1f755-115">Esses tópicos não são específicos de qualquer recurso avançado do Enterprise Voice específico.</span><span class="sxs-lookup"><span data-stu-id="1f755-115">These topics are not specific to any particular advanced Enterprise Voice feature.</span></span>
+<span data-ttu-id="54662-114">Os tópicos a seguir fornecem etapas para criar ou modificar regiões de rede e sites de rede e para associar sub-redes a sites de rede.</span><span class="sxs-lookup"><span data-stu-id="54662-114">The following topics provide steps to create or modify network regions and network sites, and to associate subnets with network sites.</span></span> <span data-ttu-id="54662-115">Esses tópicos não são específicos de qualquer recurso avançado do Enterprise Voice específico.</span><span class="sxs-lookup"><span data-stu-id="54662-115">These topics are not specific to any particular advanced Enterprise Voice feature.</span></span>
 
-  - [<span data-ttu-id="1f755-116">Criar ou modificar uma região de rede no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1f755-116">Create or modify a network region in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-network-region.md)
+  - [<span data-ttu-id="54662-116">Criar ou modificar uma região de rede no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="54662-116">Create or modify a network region in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-network-region.md)
 
-  - [<span data-ttu-id="1f755-117">Criar ou modificar um site de rede no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1f755-117">Create or modify a network site in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-network-site.md)
+  - [<span data-ttu-id="54662-117">Criar ou modificar um site de rede no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="54662-117">Create or modify a network site in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-network-site.md)
 
-  - [<span data-ttu-id="1f755-118">Associar uma sub-rede a um site de rede no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1f755-118">Associate a subnet with a network site in Lync Server 2013</span></span>](lync-server-2013-associate-a-subnet-with-a-network-site.md)
+  - [<span data-ttu-id="54662-118">Associar uma sub-rede a um site de rede no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="54662-118">Associate a subnet with a network site in Lync Server 2013</span></span>](lync-server-2013-associate-a-subnet-with-a-network-site.md)
 
 </div>
 
