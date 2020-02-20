@@ -12,18 +12,18 @@ ms:contentKeyID: 48679558
 ms.date: 09/03/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4410444d1565e61fa80ef8b8db29aad63b4401de
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 609729c65240a17b70f7ef7115bd4901f37c687a
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42032487"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42151933"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="create-or-edit-xmpp-partner-configuration-in-lync-server-2013"></a>Criar ou editar configuração do parceiro XMPP no Lync Server 2013
 
@@ -75,7 +75,7 @@ O Microsoft Lync Server 2013 integra um proxy XMPP (Extensible Messaging and Pre
     
     Consulte o documento do XSF XEP-0178 para obter mais detalhes sobre os requisitos de XMPP. Para obter detalhes, consulte “XEP-0178: Best Practices for Use of SASL EXTERNAL with Certificates”. <http://xmpp.org/extensions/xep-0178.html>
     
-    Consulte o documento de IETF "Extensible Messaging and Presence Protocol (XMPP): Core", seção 5,0, negociação <http://tools.ietf.org/html/rfc6120>de STARTTLS.
+    Consulte o documento de IETF "Extensible Messaging and Presence Protocol (XMPP): Core", seção 5,0, negociação <https://tools.ietf.org/html/rfc6120>de STARTTLS.
     
       - **Negociação TLS**. Define as regras de negociação TLS. Um serviço XMPP pode exigir TLS, pode tornar o TLS opcional, ou definir que o TLS não é suportado. Escolher Opcional deixa os requisitos para o serviço XMPP para uma decisão de obrigatória para negociação. Para exibir todas as configurações e detalhes possíveis para a negociação SASL, TLS e Dialback – incluindo configurações de erro não válidas e conhecidas-consulte [configurações de negociação para parceiros federados do XMPP no Lync Server 2013](lync-server-2013-negotiation-settings-for-xmpp-federated-partners.md).
         

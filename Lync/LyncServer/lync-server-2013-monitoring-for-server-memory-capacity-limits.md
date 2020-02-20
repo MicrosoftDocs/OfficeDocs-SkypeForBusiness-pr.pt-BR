@@ -12,18 +12,18 @@ ms:contentKeyID: 48183506
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 45600ed9c822851c89b13cb776bbc58464decde0
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 46580950c30326bb9852abc5ecb2a165398b3587
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42048094"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42149340"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="monitoring-for-server-memory-capacity-limits-in-lync-server-2013"></a>Monitoramento de limites de capacidade de memória do servidor no Lync Server 2013
 
@@ -79,7 +79,7 @@ Se a quantidade de memória disponível no servidor front-end for inferior a 1.5
 
 <div>
 
-## <a name="see-also"></a>Confira Também
+## <a name="see-also"></a>Confira também
 
 
 [Monitorando a mobilidade para desempenho no Lync Server 2013](lync-server-2013-monitoring-mobility-for-performance.md)  

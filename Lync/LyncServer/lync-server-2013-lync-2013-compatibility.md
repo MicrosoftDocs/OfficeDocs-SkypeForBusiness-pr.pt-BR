@@ -12,18 +12,18 @@ ms:contentKeyID: 51541502
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6909e23849726c132ad508d9cca934014f3c36f3
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: af2c342e894fc15fe81ba4651ca66b5293d11c9a
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42048532"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42151291"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="lync-2013-compatibility"></a>Compatibilidade do Lync 2013
 
@@ -333,7 +333,7 @@ Além disso, o recurso de integração XMPP do Lync Server 2013 permite que os u
 
 <div>
 
-## <a name="see-also"></a>Confira Também
+## <a name="see-also"></a>Confira também
 
 
 [Interoperabilidade do cliente no Lync 2013](lync-server-2013-client-interoperability-in-lync-2013.md)  

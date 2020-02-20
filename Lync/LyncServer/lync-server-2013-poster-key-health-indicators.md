@@ -12,18 +12,18 @@ ms:contentKeyID: 61084873
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b6b67c4843cc0c1039bee48aa6b7c4620b77ce08
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 2710e85eced76241f4946ef2746e544d07be941f
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42006989"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42152589"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="key-health-indicators-in-lync-server-2013"></a>Principais indicadores de integridade no Lync Server 2013
 
@@ -37,7 +37,7 @@ ms.locfileid: "42006989"
 
 _**Última modificação do tópico:** 2014-02-10_
 
-Este artigo é um complemento aos [principais indicadores de integridade: a Fundação para manter](http://go.microsoft.com/fwlink/?linkid=391838) o pôster saudável dos servidores do Lync, que você pode baixar do centro de download.
+Este artigo é um complemento aos [principais indicadores de integridade: a Fundação para manter](https://go.microsoft.com/fwlink/?linkid=391838) o pôster saudável dos servidores do Lync, que você pode baixar do centro de download.
 
 ![Cartaz descrevendo a solução de problemas usando dados do KHI](images/Dn594589.b6fe82bd-d70f-4c1f-a812-b615ac5fa7d7(OCS.15).jpg "Cartaz descrevendo a solução de problemas usando dados do KHI")
 
@@ -75,7 +75,7 @@ Os KHIs são usados além das soluções de monitoramento padrão do Lync (por e
 
 Colete os contadores de desempenho do KHI e preencha a planilha KHI que acompanha o guia de rede para produzir um scorecard que o ajudará a determinar a integridade do servidor de uma implantação do Lync. Depois de preenchida, ele orienta você a reparar o ambiente e dá mais percepção a outros participantes. Avaliar o KHIs mensalmente e incorporá-los em todos os processos operacionais em andamento da implantação.
 
-Baixe o [Guia de rede do Lync Server](http://go.microsoft.com/fwlink/p/?linkid=390677) para ver a lista completa de KHIs e para obter as planilhas relacionadas.
+Baixe o [Guia de rede do Lync Server](https://go.microsoft.com/fwlink/p/?linkid=390677) para ver a lista completa de KHIs e para obter as planilhas relacionadas.
 
 </div>
 
@@ -333,9 +333,9 @@ Os seguintes destinos KHI recomendados são específicos para servidores de bord
 ## <a name="see-also"></a>Confira também
 
 
-[Guia de rede do Lync Server](http://go.microsoft.com/fwlink/p/?linkid=390677)  
-[Principais indicadores de integridade: a base para manter os servidores de Lync saudáveis](http://go.microsoft.com/fwlink/?linkid=391838)  
-[Metodologia de qualidade de chamada do Lync](http://go.microsoft.com/fwlink/?linkid=391841)  
+[Guia de rede do Lync Server](https://go.microsoft.com/fwlink/p/?linkid=390677)  
+[Principais indicadores de integridade: a base para manter os servidores de Lync saudáveis](https://go.microsoft.com/fwlink/?linkid=391838)  
+[Metodologia de qualidade de chamada do Lync](https://go.microsoft.com/fwlink/?linkid=391841)  
   
 
 </div>

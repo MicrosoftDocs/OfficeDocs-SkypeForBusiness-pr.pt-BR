@@ -12,18 +12,18 @@ ms:contentKeyID: 49733613
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b7ad6ee6e40edb76d4ef5d7d53524f89e44a2aee
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: eeee8715996d5242cf61964b397af23886b5a31f
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42043513"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42150990"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="changing-the-edge-pool-associated-with-a-front-end-pool-in-lync-server-2013"></a>Alterar o pool de borda associado a um pool de front-ends no Lync Server 2013
 
@@ -55,7 +55,7 @@ Se um pool de borda cair, mas o pool de front-ends do mesmo local ainda estiver 
 
 <div>
 
-## <a name="see-also"></a>Confira Também
+## <a name="see-also"></a>Confira também
 
 
 [Recuperação de desastre do servidor de borda no Lync Server 2013](lync-server-2013-edge-server-disaster-recovery.md)  

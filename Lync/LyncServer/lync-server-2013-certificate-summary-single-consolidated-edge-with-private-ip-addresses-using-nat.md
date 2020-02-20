@@ -12,18 +12,18 @@ ms:contentKeyID: 48184433
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2f6a169d02842df75c06a6f32b4bb9509a7e6b74
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 70d232c24e0dbcf0370cc3cf3dbc2829bc5d4949
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030825"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42151121"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="certificate-summary---single-consolidated-edge-with-private-ip-addresses-using-nat-in-lync-server-2013"></a>Resumo de certificado-borda consolidada única com endereços IP privados usando NAT no Lync Server 2013
 
@@ -39,7 +39,7 @@ _**Última modificação do tópico:** 2012-10-22_
 
 O Microsoft Lync Server 2013 usa certificados para autenticar mutuamente outros servidores e para criptografar dados de servidor para servidor e servidor para cliente. Os certificados exigem correspondência de nomes de registros DNS (sistema de nomes de domínio) associados a servidores e SN (nome da entidade) e SAN (nome alternativo da entidade) no certificado. Para mapear servidores, registros DNS e entradas de certificados com sucesso, você deve planejar com cuidado os nomes de domínio totalmente qualificados registrados no DNS e as entradas de SN e SAN no certificado.
 
-O certificado atribuído às interfaces externas do servidor de borda é solicitado de uma autoridade de certificação (CA) pública. As CAs públicas que demonstraram o sucesso no fornecimento de certificados para os fins de comunicações unificadas estão listadas [http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=929395](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=929395)no seguinte artigo:. Ao solicitar o certificado, você pode usar a solicitação de certificado gerada pelo assistente de implantação do Lync Server ou criar a solicitação manualmente usando os cmdlets do Shell de gerenciamento do Lync Server ou por um processo fornecido por uma autoridade de certificação pública. Para obter detalhes sobre os cmdlets do Shell de gerenciamento do Lync Server para gerenciamento de certificados, consulte [cmdlets e certificados de autenticação no Lync server 2013](https://docs.microsoft.com/powershell/module/skype/) ao atribuir o certificado, o certificado é atribuído à interface de serviço de borda de acesso, interface de serviço de borda de Webconferência e serviço de autenticação de áudio/vídeo. O serviço de autenticação de áudio/vídeo não deve ser confundido com o serviço de borda A/V que não usa um certificado para criptografar os fluxos de áudio e vídeo. A interface de servidor de borda interna pode usar um certificado de uma autoridade de certificação interna (para sua organização) ou um certificado de uma autoridade de certificação pública. O certificado da interface interna usa somente o SN e não necessita ou usa entradas de SAN.
+O certificado atribuído às interfaces externas do servidor de borda é solicitado de uma autoridade de certificação (CA) pública. As CAs públicas que demonstraram o sucesso no fornecimento de certificados para os fins de comunicações unificadas estão listadas [https://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=929395](https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=929395)no seguinte artigo:. Ao solicitar o certificado, você pode usar a solicitação de certificado gerada pelo assistente de implantação do Lync Server ou criar a solicitação manualmente usando os cmdlets do Shell de gerenciamento do Lync Server ou por um processo fornecido por uma autoridade de certificação pública. Para obter detalhes sobre os cmdlets do Shell de gerenciamento do Lync Server para gerenciamento de certificados, consulte [cmdlets e certificados de autenticação no Lync server 2013](https://docs.microsoft.com/powershell/module/skype/) ao atribuir o certificado, o certificado é atribuído à interface de serviço de borda de acesso, interface de serviço de borda de Webconferência e serviço de autenticação de áudio/vídeo. O serviço de autenticação de áudio/vídeo não deve ser confundido com o serviço de borda A/V que não usa um certificado para criptografar os fluxos de áudio e vídeo. A interface de servidor de borda interna pode usar um certificado de uma autoridade de certificação interna (para sua organização) ou um certificado de uma autoridade de certificação pública. O certificado da interface interna usa somente o SN e não necessita ou usa entradas de SAN.
 
 <div>
 

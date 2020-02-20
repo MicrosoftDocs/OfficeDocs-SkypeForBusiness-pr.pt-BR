@@ -12,18 +12,18 @@ ms:contentKeyID: 48184586
 ms.date: 10/29/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a06cbb4322a1e25b24e94140ceeaa4d89a9cd826
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 30f4eaf2bcac00260cd14dd8b1e58f41e53ddd3d
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42046364"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42151301"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="deploy-a-survivable-branch-appliance-or-server-with-lync-server-2013---branch-site-task"></a>Implantar um servidor ou aparelho de filial persistente com o Lync Server 2013-tarefa do site de filial
 
@@ -78,7 +78,7 @@ Execute um dos dois procedimentos descritos neste tópico no site de filial, dep
 
 <div>
 
-## <a name="see-also"></a>Confira Também
+## <a name="see-also"></a>Confira também
 
 
 [Apêndice A: usando cmdlets para implantar um aparelho de filial persistente no Lync Server 2013](lync-server-2013-appendix-a-using-cmdlets-to-deploy-a-survivable-branch-appliance.md)  

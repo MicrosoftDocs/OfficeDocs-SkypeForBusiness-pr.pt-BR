@@ -12,18 +12,18 @@ ms:contentKeyID: 56472032
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 984e7d7e287e9177fff5798c9cb20ab476591f46
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 0cb7db93813bdc7ed06398ce73d00f51ce5a60fe
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42035193"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42147644"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configure-sql-server-clustering-for-lync-server-2013"></a>Configurar o cluster do SQL Server para o Lync Server 2013
 
@@ -39,7 +39,7 @@ _**Última modificação do tópico:** 2014-01-10_
 
 O Microsoft Lync Server 2013 suporta clustering para o SQL Server 2012 e o SQL Server 2008 R2. Para obter detalhes sobre o que é suportado, confira [suporte a software de banco de dados no Lync Server 2013](lync-server-2013-database-software-support.md).
 
-Você deve configurar e configurar o cluster do SQL Server antes de instalar e implantar o servidor front-end Enterprise Edition e o banco de dados back-end. Para obter as práticas recomendadas e as instruções de instalação do clustering de failover <http://technet.microsoft.com/library/hh231721.aspx>no SQL Server 2012, consulte. Para clustering de failover no SQL Server 2008, <http://technet.microsoft.com/library/ms189134(v=sql.105).aspx>consulte.
+Você deve configurar e configurar o cluster do SQL Server antes de instalar e implantar o servidor front-end Enterprise Edition e o banco de dados back-end. Para obter as práticas recomendadas e as instruções de instalação do clustering de failover <https://technet.microsoft.com/library/hh231721.aspx>no SQL Server 2012, consulte. Para clustering de failover no SQL Server 2008, <https://technet.microsoft.com/library/ms189134(v=sql.105).aspx>consulte.
 
 Ao instalar o SQL Server, você deve instalar o SQL Server Management Studio para gerenciar os locais para o banco de daods e os locais para o arquivo de log. O SQL Server Management Studio é instalado como um componente opcional ao instalar o SQL Server.
 

@@ -12,18 +12,18 @@ ms:contentKeyID: 48184692
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b4bbacbbb6f1a420e989f4bed02ba2fc0db6f85f
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 03d3d51c8323ab448951255ac9f7cf8d284896ba
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42036621"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42147524"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="direct-sip-deployment-options-in-lync-server-2013"></a>Opções de implantação de SIP direto no Lync Server 2013
 
@@ -71,7 +71,7 @@ A figura a seguir mostra a topologia genérica para a implantação do Enterpris
 
 
 > [!NOTE]  
-> Se você estiver conectando sua implantação do Lync Server a um parceiro SIP direto certificado, um gateway PSTN (rede telefônica pública comutada) entre o servidor de mediação e o PBX não é necessário. Para obter uma lista de parceiros de SIP diretos certificados, consulte o site do programa de interoperabilidade aberta do Microsoft Unified Communications em <A href="http://go.microsoft.com/fwlink/p/?linkid=203309">http://go.microsoft.com/fwlink/p/?linkId=203309</A>.
+> Se você estiver conectando sua implantação do Lync Server a um parceiro SIP direto certificado, um gateway PSTN (rede telefônica pública comutada) entre o servidor de mediação e o PBX não é necessário. Para obter uma lista de parceiros de SIP diretos certificados, consulte o site do programa de interoperabilidade aberta do Microsoft Unified Communications em <A href="https://go.microsoft.com/fwlink/p/?linkid=203309">https://go.microsoft.com/fwlink/p/?linkId=203309</A>.
 
 
 

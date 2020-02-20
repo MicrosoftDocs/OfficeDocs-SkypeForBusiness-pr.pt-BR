@@ -12,18 +12,18 @@ ms:contentKeyID: 54973692
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a49fb76019fbb3bc3356fed5de7a67b0e3a10350
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 315d98e26b471e2d9dd84dcb70cd7302e924e9b3
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42046374"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42151553"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuring-enterprise-ca-for-smart-card-authentication-in-lync-server-2013"></a>Configurando a AC corporativa para autenticação de cartão inteligente no Lync Server 2013
 
@@ -37,7 +37,7 @@ ms.locfileid: "42046374"
 
 _**Última modificação do tópico:** 2013-07-03_
 
-A seção a seguir descreve como configurar uma autoridade de certificação raiz corporativa para dar suporte à autenticação de cartão inteligente. Para obter informações sobre como instalar uma autoridade de certificação raiz corporativa, consulte instalar uma autoridade de certificação [http://go.microsoft.com/fwlink/p/?LinkID=313364](http://go.microsoft.com/fwlink/p/?linkid=313364)raiz corporativa em.
+A seção a seguir descreve como configurar uma autoridade de certificação raiz corporativa para dar suporte à autenticação de cartão inteligente. Para obter informações sobre como instalar uma autoridade de certificação raiz corporativa, consulte instalar uma autoridade de certificação [https://go.microsoft.com/fwlink/p/?LinkID=313364](https://go.microsoft.com/fwlink/p/?linkid=313364)raiz corporativa em.
 
 <div>
 

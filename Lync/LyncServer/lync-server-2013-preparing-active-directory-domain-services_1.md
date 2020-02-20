@@ -12,18 +12,18 @@ ms:contentKeyID: 48184583
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 03436a59fa9fbab99608e4fa3b979e4802115ed1
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 6b6e0e44367af86ea42099241ef3d9bbfa750133
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42042953"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42152559"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="preparing-active-directory-domain-services-in-lync-server-2013"></a>Preparando os serviços de domínio do Active Directory no Lync Server 2013
 
@@ -78,7 +78,7 @@ Os seguintes componentes são necessários para executar tarefas de preparação
     
 
     > [!NOTE]  
-    > Para o Windows Server 2012 e o Windows Server 2012 R2, você instala e ativa o .NET Framework 4,5 usando o Gerenciador do servidor. Para obter detalhes, consulte "Microsoft .NET Framework 4,5" em <A href="lync-server-2013-additional-software-requirements.md">Additional Software Requirements for Lync Server 2013</A>. Para o Windows&nbsp;Server&nbsp;2008 R2, baixe e instale o <A href="http://www.microsoft.com/download/details.aspx?id=30653">.NET Framework 4,5</A> no site da Microsoft.
+    > Para o Windows Server 2012 e o Windows Server 2012 R2, você instala e ativa o .NET Framework 4,5 usando o Gerenciador do servidor. Para obter detalhes, consulte "Microsoft .NET Framework 4,5" em <A href="lync-server-2013-additional-software-requirements.md">Additional Software Requirements for Lync Server 2013</A>. Para o Windows&nbsp;Server&nbsp;2008 R2, baixe e instale o <A href="https://www.microsoft.com/download/details.aspx?id=30653">.NET Framework 4,5</A> no site da Microsoft.
 
     
     </div>
@@ -271,7 +271,7 @@ Para usar o Ldifde.exe na importação dos arquivos de quatro esquemas em um con
 
     ldifde -i -v -k -s <SchemaMasterFQDN> -f <Schema filename> -c DC=X <rootDomainNamingContext> -j logFilePath -b <administrator account> <domain> <password>
 
-Para obter detalhes sobre como usar o Ldifde, consulte o artigo 237677 da base de dados de conhecimento da Microsoft, "usando o LDIFDE para importar [http://go.microsoft.com/fwlink/p/?linkId=132204](http://go.microsoft.com/fwlink/p/?linkid=132204)e exportar objetos de diretório para o Active Directory" em.
+Para obter detalhes sobre como usar o Ldifde, consulte o artigo 237677 da base de dados de conhecimento da Microsoft, "usando o LDIFDE para importar [https://go.microsoft.com/fwlink/p/?linkId=132204](https://go.microsoft.com/fwlink/p/?linkid=132204)e exportar objetos de diretório para o Active Directory" em.
 
 </div>
 

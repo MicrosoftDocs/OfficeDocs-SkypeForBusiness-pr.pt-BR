@@ -12,18 +12,18 @@ ms:contentKeyID: 48185669
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 81af0b98fdcc39396ca3f0afc27f4b57d42b7582
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: f25a2ba7735c8ccf135d2030e7853940ef545ac2
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030615"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42151461"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuring-federation-support-for-a-lync-online-customer-in-lync-server-2013"></a>Configurando o suporte de Federação para um cliente do Lync Online no Lync Server 2013
 
@@ -49,7 +49,7 @@ Se você implantar o Lync 2013 em sua organização, poderá federar-se com os d
 
 
 > [!NOTE]  
-> Esta documentação descreve apenas os procedimentos para configurar sua organização para dar suporte à Federação com um cliente do Lync Online 2010. Esta documentação não descreve os procedimentos para configurar o cliente do Lync Online 2010 para dar suporte à Federação. Para obter detalhes sobre o Lync Online Services, consulte Lync <A href="http://go.microsoft.com/fwlink/p/?linkid=218941">http://go.microsoft.com/fwlink/p/?linkId=218941</A>online em.
+> Esta documentação descreve apenas os procedimentos para configurar sua organização para dar suporte à Federação com um cliente do Lync Online 2010. Esta documentação não descreve os procedimentos para configurar o cliente do Lync Online 2010 para dar suporte à Federação. Para obter detalhes sobre o Lync Online Services, consulte Lync <A href="https://go.microsoft.com/fwlink/p/?linkid=218941">https://go.microsoft.com/fwlink/p/?linkId=218941</A>online em.
 
 
 

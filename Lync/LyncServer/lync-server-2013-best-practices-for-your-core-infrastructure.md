@@ -12,18 +12,18 @@ ms:contentKeyID: 61071242
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cd53ac85ec544af58c1f94f7397a030f6b10fdb2
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 876a4de1357786e2d5089fdc632002107a6c7cc2
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029202"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42150730"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="best-practices-for-your-core-infrastructure-in-lync-server-2013"></a>Práticas recomendadas para sua infraestrutura principal no Lync Server 2013
 
@@ -41,7 +41,7 @@ Provavelmente, você já executou etapas para designar a tolerância a falha em 
 
 Para ajudar a proteger os servidores em sua implantação do Lync Server 2013 de danos acidentais ou intencionais que podem resultar em tempo de inatividade, tome as seguintes precauções:
 
-  - Mantenha em dia as atualizações de segurança nos servidores. Inscreva-se no serviço Microsoft Security Notification Service para receber uma notificação imediata do lançamento de boletins de segurança referentes a qualquer produto da Microsoft. Para se inscrever, acesse o site Microsoft Technical Security [http://go.microsoft.com/fwlink/p/?LinkId=145202](http://go.microsoft.com/fwlink/p/?linkid=145202)Notifications em.
+  - Mantenha em dia as atualizações de segurança nos servidores. Inscreva-se no serviço Microsoft Security Notification Service para receber uma notificação imediata do lançamento de boletins de segurança referentes a qualquer produto da Microsoft. Para se inscrever, acesse o site Microsoft Technical Security [https://go.microsoft.com/fwlink/p/?LinkId=145202](https://go.microsoft.com/fwlink/p/?linkid=145202)Notifications em.
 
   - Certifique-se de que os direitos de acesso estão configurados corretamente.
 

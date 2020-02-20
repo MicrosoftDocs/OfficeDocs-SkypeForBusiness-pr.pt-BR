@@ -12,18 +12,18 @@ ms:contentKeyID: 48185548
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d2ffa9b16a2c582af2de990eab52b55c175121bc
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c8be19c6ca5aad78bc82487d8208fb163f62fbcb
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42042548"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42150302"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="managing-locations-for-sip-trunk-service-providers-in-lync-server-2013"></a>Gerenciando locais para provedores de serviço de tronco SIP no Lync Server 2013
 
@@ -73,7 +73,7 @@ As seguintes perguntas podem ajudar a determinar como você preencherá o banco 
   - **Você tem um banco de dados de terceiros que já contém um mapeamento de locais?**  
     Usando a opção de serviço de informações de local secundário do Lync Server para se conectar a um banco de dados de terceiros, é possível agrupar e gerenciar locais usando uma plataforma offline. Um benefício dessa abordagem é que além de associar locais aos identificadores de rede, é possível associar locais a um usuário. Isso significa que o serviço de informações de local pode retornar vários endereços, originários do serviço de informações de local secundário, para um cliente do Lync Server. Em seguida, o usuário pode escolher o local mais apropriado.
     
-    Para integrar com o serviço de informações de local, o banco de dados de terceiros deve seguir o esquema de solicitação/resposta de local do Lync Server. Para obter detalhes, consulte\["MS-\]E911WS: Web Service for E911 support Protocol Specification" <http://go.microsoft.com/fwlink/p/?linkid=213819>em. Para obter detalhes sobre a implantação de um serviço de informações de local secundário, consulte [configurar um serviço de informações de local secundário no Lync Server 2013](lync-server-2013-configure-a-secondary-location-information-service.md) na documentação de implantação.
+    Para integrar com o serviço de informações de local, o banco de dados de terceiros deve seguir o esquema de solicitação/resposta de local do Lync Server. Para obter detalhes, consulte\["MS-\]E911WS: Web Service for E911 support Protocol Specification" <https://go.microsoft.com/fwlink/p/?linkid=213819>em. Para obter detalhes sobre a implantação de um serviço de informações de local secundário, consulte [configurar um serviço de informações de local secundário no Lync Server 2013](lync-server-2013-configure-a-secondary-location-information-service.md) na documentação de implantação.
 
 Para obter detalhes sobre como preencher o banco de dados de local, consulte [Configure the Location Database in Lync Server 2013](lync-server-2013-configure-the-location-database.md) na documentação de implantação.
 

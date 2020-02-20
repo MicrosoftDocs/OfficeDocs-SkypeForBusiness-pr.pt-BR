@@ -12,18 +12,18 @@ ms:contentKeyID: 51541530
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ed95696dc0acad9030615f8a031672f8abf3a136
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c6e679b909fbc6b539e173e98f033a771929893c
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42046754"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42151683"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="create-the-initial-topology-design-for-lync-server-2013"></a>Criar o design de topologia inicial para o Lync Server 2013
 
@@ -122,7 +122,7 @@ Após concluir a instalação da ferramenta de planejamento do Lync Server 2013,
 
 <div>
 
-## <a name="see-also"></a>Confira Também
+## <a name="see-also"></a>Confira também
 
 
 [Editando o design no Lync Server 2013](lync-server-2013-editing-the-design.md)  

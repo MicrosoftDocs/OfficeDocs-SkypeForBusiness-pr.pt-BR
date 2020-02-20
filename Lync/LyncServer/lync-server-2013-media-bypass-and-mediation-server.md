@@ -12,18 +12,18 @@ ms:contentKeyID: 48184774
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 426499da4659548d90ed2160c23a905565edddd6
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: a33ed2c9b3494e9c67e8ac4a658b6aee75ff7649
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42045203"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42149851"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="media-bypass-and-mediation-server-in-lync-server-2013"></a>Bypass de mídia e servidor de mediação no Lync Server 2013
 
@@ -43,7 +43,7 @@ O bypass de mídia e o CAC (controle de admissão de chamadas) são mutuamente e
 
 <div>
 
-## <a name="see-also"></a>Confira Também
+## <a name="see-also"></a>Confira também
 
 
 [Controle de admissão de chamadas e servidor de mediação no Lync Server 2013](lync-server-2013-call-admission-control-and-mediation-server.md)  
