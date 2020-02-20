@@ -12,18 +12,18 @@ ms:contentKeyID: 48183364
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 93d2c35fcc9ebf037eb33e6553cef28b9e1041ec
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 386ad7787eeb3d748e537edc6f1d0fb890fef63b
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42044643"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42147234"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="infrastructure-and-deployment-cmdlets-in-lync-server-2013"></a>Cmdlets de infraestrutura e implantação no Lync Server 2013
 
@@ -231,10 +231,10 @@ Os administradores raramente precisarão ligar diretamente para várias infraest
 
 <div>
 
-## <a name="see-also"></a>Confira Também
+## <a name="see-also"></a>Confira também
 
 
-[Blog do PowerShell do Lync Server](http://go.microsoft.com/fwlink/p/?linkid=203150)  
+[Blog do PowerShell do Lync Server](https://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>
