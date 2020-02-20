@@ -12,18 +12,18 @@ ms:contentKeyID: 49733856
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7f3a37e11caf0dfc3200c1778feed15240eb30aa
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 250edc56367b0ecb44548c50048acb199f060577
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42050973"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42144457"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="running-lync-server-2013-on-virtual-servers"></a>Executando o Lync Server 2013 em servidores virtuais
 
@@ -37,7 +37,7 @@ ms.locfileid: "42050973"
 
 _**Última modificação do tópico:** 2014-03-13_
 
-O Lync Server 2013 oferece suporte a topologias de virtualização que dão suporte a todas as cargas de trabalho do Lync Server, incluindo mensagens instantâneas (IM) e presença, conferência, Enterprise Voice, monitoramento, arquivamento e chat persistente. Observe que o desempenho do Lync Server em topologias virtuais pode variar muito, dependendo das cargas de trabalho que estão sendo usadas, do número de usuários e do hardware do host. Para obter orientações detalhadas sobre como executar o Lync Server 2013 em servidores virtuais, consulte o White paper sobre [planejamento de uma implantação do Lync server 2013 em servidores virtuais](http://www.microsoft.com/download/details.aspx?id=41936).
+O Lync Server 2013 oferece suporte a topologias de virtualização que dão suporte a todas as cargas de trabalho do Lync Server, incluindo mensagens instantâneas (IM) e presença, conferência, Enterprise Voice, monitoramento, arquivamento e chat persistente. Observe que o desempenho do Lync Server em topologias virtuais pode variar muito, dependendo das cargas de trabalho que estão sendo usadas, do número de usuários e do hardware do host. Para obter orientações detalhadas sobre como executar o Lync Server 2013 em servidores virtuais, consulte o White paper sobre [planejamento de uma implantação do Lync server 2013 em servidores virtuais](https://www.microsoft.com/download/details.aspx?id=41936).
 
 O Lync Server 2013 é suportado na plataforma Hyper-V e em qualquer plataforma de virtualização que seja compatível com o programa de validação de virtualização do Windows Server. Para obter informações sobre esse programa, <http://www.windowsservercatalog.com/svvp.aspx>consulte.
 

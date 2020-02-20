@@ -12,18 +12,18 @@ ms:contentKeyID: 48183923
 ms.date: 06/26/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bc548446120ae4088d90acb45c258f3f736063d0
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: f3b397e242a6188f9054810a2ce08521a9940717
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42006727"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42141847"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="technical-requirements-for-conferencing-in-lync-server-2013"></a>Requisitos técnicos para conferência no Lync Server 2013
 
@@ -194,9 +194,9 @@ A página de configurações de conferência discada suporta as combinações de
 
 ## <a name="audio-file-requirements-for-dial-in-conferencing"></a>Requisitos de arquivo de áudio para conferência discada
 
-O Lync Server 2013 não é compatível com a personalização de prompts de voz e música para conferência discada. No entanto, se você tiver uma forte necessidade de negócios que exija a alteração dos arquivos de áudio padrão, consulte o artigo 961177 da base de dados de conhecimento da Microsoft, [como personalizar prompts de voz ou arquivos de música para conferência de áudio de discagem no Microsoft Office Communications Server 2007 R2](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=961177).
+O Lync Server 2013 não é compatível com a personalização de prompts de voz e música para conferência discada. No entanto, se você tiver uma forte necessidade de negócios que exija a alteração dos arquivos de áudio padrão, consulte o artigo 961177 da base de dados de conhecimento da Microsoft, [como personalizar prompts de voz ou arquivos de música para conferência de áudio de discagem no Microsoft Office Communications Server 2007 R2](https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=961177).
 
-Você também pode usar o utilitário de gerenciamento de [voz personalizado do atendedor de conferência do Microsoft Lync Server](http://go.microsoft.com/fwlink/p/?linkid=396880) , que permite aos administradores substituir os prompts de voz padrão usados quando um chamador de telefone ingressar em uma reunião do Lync com prompts personalizados para fornecer uma experiência de entrada de reunião diferente. Os prompts de voz personalizados podem ser instalados em um servidor que esteja executando o Lync Server 2010 ou o Lync Server 2013, Enterprise ou Standard Edition.
+Você também pode usar o utilitário de gerenciamento de [voz personalizado do atendedor de conferência do Microsoft Lync Server](https://go.microsoft.com/fwlink/p/?linkid=396880) , que permite aos administradores substituir os prompts de voz padrão usados quando um chamador de telefone ingressar em uma reunião do Lync com prompts personalizados para fornecer uma experiência de entrada de reunião diferente. Os prompts de voz personalizados podem ser instalados em um servidor que esteja executando o Lync Server 2010 ou o Lync Server 2013, Enterprise ou Standard Edition.
 
 O aplicativo atendedor de conferência e anúncio de conferência têm os seguintes requisitos para arquivos de música em espera, nomes gravados e prompts de áudio:
 

@@ -12,18 +12,18 @@ ms:contentKeyID: 48185714
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2fd2bd6d66b8b4f040e654f2412f86027071f9ac
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 3b370242bab888047b6f234f0b574311fe626773
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42039041"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42142687"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="sip-trunking-support-in-lync-server-2013"></a>Suporte de tronco SIP no Lync Server 2013
 
@@ -39,7 +39,7 @@ _**Última modificação do tópico:** 2012-10-03_
 
 Se você planeja usar o Enterprise Voice com tronco SIP, você deve implantar um servidor de mediação e certificar-se de que outros componentes e infraestrutura atendem aos requisitos de suporte apropriados ao seu modelo de implantação. Para obter detalhes sobre como determinar se deve implementar o tronco SIP, consulte [Overview of SIP trunking in Lync Server 2013](lync-server-2013-overview-of-sip-trunking.md) na documentação de planejamento.
 
-Você pode usar o programa de interoperabilidade aberta do Microsoft Unified Communications para infraestrutura de telefonia corporativa para localizar gateways PSTN (rede telefônica pública comutada), IP-PBXs e serviços de tronco SIP, incluindo telefonia IP qualificada provedores de serviços. Para obter detalhes, consulte o site do programa de interoperabilidade aberta [http://go.microsoft.com/fwlink/p/?LinkId=203309](http://go.microsoft.com/fwlink/p/?linkid=203309)do Microsoft Unified Communications em.
+Você pode usar o programa de interoperabilidade aberta do Microsoft Unified Communications para infraestrutura de telefonia corporativa para localizar gateways PSTN (rede telefônica pública comutada), IP-PBXs e serviços de tronco SIP, incluindo telefonia IP qualificada provedores de serviços. Para obter detalhes, consulte o site do programa de interoperabilidade aberta [https://go.microsoft.com/fwlink/p/?LinkId=203309](https://go.microsoft.com/fwlink/p/?linkid=203309)do Microsoft Unified Communications em.
 
 <div>
 

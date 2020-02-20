@@ -12,18 +12,18 @@ ms:contentKeyID: 49733697
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dccf60dba1b729b1ffa808694fffcacc14e460ba
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c1c60768311f4fbf832f3dbe2ac4a0c2e8e55298
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42035283"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42145390"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="integrating-microsoft-lync-server-2013-and-microsoft-exchange-server-2013"></a>Integrar Microsoft Lync Server 2013 e Microsoft Exchange Server 2013
 
@@ -51,7 +51,7 @@ Isso é especialmente verdadeiro com o lançamento do Microsoft Lync Server 2013
 
 Tenha em mente que esses novos recursos exigem o uso do Lync Server 2013 e do Exchange 2013. Além disso, os usuários que desejam aproveitar totalmente esses novos recursos devem ter contas no Lync Server 2013 e no Exchange 2013, e devem usar as versões mais recentes do software cliente (por exemplo, Lync 2013). Por exemplo, o repositório unificado de contatos não está disponível para usuários que foram hospedados no Lync Server 2010; da mesma forma, fotos de alta resolução não podem ser exibidas no Lync 2010.
 
-Esta documentação fornece informações sobre a integração do Lync Server 2013 e do Exchange 2013. inclusive informações passo a passo sobre como habilitar novos recursos, como a integração do arquivamento e do repositório de contatos unificado. Esta documentação não aborda a instalação e configuração iniciais desses dois produtos. Para obter detalhes sobre a implantação do Lync Server 2013, consulte o Lync Server 2013 [http://go.microsoft.com/fwlink/p/?LinkId=246127](http://go.microsoft.com/fwlink/p/?linkid=246127)Tech Center em. Para obter detalhes sobre a implantação do Exchange 2013, consulte o Exchange 2013 [http://go.microsoft.com/fwlink/p/?LinkId=268528](http://go.microsoft.com/fwlink/p/?linkid=268528)Tech Center em.
+Esta documentação fornece informações sobre a integração do Lync Server 2013 e do Exchange 2013. inclusive informações passo a passo sobre como habilitar novos recursos, como a integração do arquivamento e do repositório de contatos unificado. Esta documentação não aborda a instalação e configuração iniciais desses dois produtos. Para obter detalhes sobre a implantação do Lync Server 2013, consulte o Lync Server 2013 [https://go.microsoft.com/fwlink/p/?LinkId=246127](https://go.microsoft.com/fwlink/p/?linkid=246127)Tech Center em. Para obter detalhes sobre a implantação do Exchange 2013, consulte o Exchange 2013 [https://go.microsoft.com/fwlink/p/?LinkId=268528](https://go.microsoft.com/fwlink/p/?linkid=268528)Tech Center em.
 
 <div>
 

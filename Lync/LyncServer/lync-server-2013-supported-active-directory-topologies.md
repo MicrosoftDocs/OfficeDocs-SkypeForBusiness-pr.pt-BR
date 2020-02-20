@@ -12,18 +12,18 @@ ms:contentKeyID: 48183391
 ms.date: 10/02/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 199191b8e87ba7f46956ff92fcda7239ff27dc5c
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c6eb9a3db2f9b3a14726fb7ffbec05b96b15ec81
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029842"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42142437"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="supported-active-directory-topologies-in-lync-server-2013"></a>Topologias do Active Directory com suporte no Lync Server 2013
 
@@ -159,7 +159,7 @@ O diagrama a seguir ilustra uma topologia de floresta de recursos.
 
 Nesta topologia, uma ou mais florestas estão localizadas no local e são dedicadas à Hospedagem de contas de usuário do Active Directory. A floresta de recursos está localizada fora do local e é mantida por um provedor de Hospedagem de terceiros. A floresta de recursos contém apenas a implantação do Lync Server e uma replicação sincronizada das contas de usuário da (s) floresta (s) contas de usuário local. Ele não contém contas de usuário habilitadas para logon. O Exchange é implantado na (s) floresta (s) de contas de usuário local integrada junto com o Exchange Online (híbrido) ou os serviços de email para as contas de usuário locais são fornecidos exclusivamente pelo Exchange Online.
 
-A floresta de recursos atua como um ambiente de serviços compartilhados para a (s) floresta (s) do Active Directory local onde os objetos de usuário residem. As florestas de contas de usuário têm uma relação de confiança de nível de floresta unidirecional com a floresta de recursos. Ao implantar o Lync Server nesse tipo de topologia, você cria um objeto de usuário desabilitado na floresta de recursos para cada conta de usuário nas florestas de usuários. Um produto de sincronização do diretório, como o MIIS, o Microsoft Forefront Identity Manager (FIM) 2010 ou o Microsoft Identity Lifecycle Manager (ILM) 2007 Feature Pack 1 (FP1), gerencia o ciclo de vida das contas de usuário. Quando uma nova conta de usuário é criada em uma das florestas do usuário ou quando uma conta de usuário é excluída de uma floresta, o produto de sincronização do diretório sincroniza a representação do usuário correspondente na floresta de recurso. Para obter mais informações sobre como configurar uma implantação de várias florestas, consulte [Deploying Lync in a multi-Forest Architecture (Lync Hosted Lync with Exchange Hybrid)](http://go.microsoft.com/fwlink/p/?linkid=513216).
+A floresta de recursos atua como um ambiente de serviços compartilhados para a (s) floresta (s) do Active Directory local onde os objetos de usuário residem. As florestas de contas de usuário têm uma relação de confiança de nível de floresta unidirecional com a floresta de recursos. Ao implantar o Lync Server nesse tipo de topologia, você cria um objeto de usuário desabilitado na floresta de recursos para cada conta de usuário nas florestas de usuários. Um produto de sincronização do diretório, como o MIIS, o Microsoft Forefront Identity Manager (FIM) 2010 ou o Microsoft Identity Lifecycle Manager (ILM) 2007 Feature Pack 1 (FP1), gerencia o ciclo de vida das contas de usuário. Quando uma nova conta de usuário é criada em uma das florestas do usuário ou quando uma conta de usuário é excluída de uma floresta, o produto de sincronização do diretório sincroniza a representação do usuário correspondente na floresta de recurso. Para obter mais informações sobre como configurar uma implantação de várias florestas, consulte [Deploying Lync in a multi-Forest Architecture (Lync Hosted Lync with Exchange Hybrid)](https://go.microsoft.com/fwlink/p/?linkid=513216).
 
 </div>
 

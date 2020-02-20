@@ -12,18 +12,18 @@ ms:contentKeyID: 48184085
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 830d9d48e68142cf32f14d428fb48e3ab20afaca
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 9c380cb67e1e156bef616f81ce0c42f699b472d8
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42047276"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42144938"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="request-and-configure-a-certificate-for-your-reverse-http-proxy-in-lync-server-2013"></a>Solicitar e configurar um certificado para seu proxy HTTP reverso no Lync Server 2013
 
@@ -156,7 +156,7 @@ Para gerar uma solicitação de assinatura de certificado no computador onde o c
 
 **Criar uma solicitação de assinatura de certificado**
 
-1.  Abra o console de gerenciamento Microsoft (MMC) e adicione o snap-in certificados e selecione **computadores**e, em seguida, expanda **pessoal**. Para obter detalhes sobre como criar um console de certificados no MMC (console de gerenciamento Microsoft), [http://go.microsoft.com/fwlink/?LinkId=282616](http://go.microsoft.com/fwlink/?linkid=282616)consulte.
+1.  Abra o console de gerenciamento Microsoft (MMC) e adicione o snap-in certificados e selecione **computadores**e, em seguida, expanda **pessoal**. Para obter detalhes sobre como criar um console de certificados no MMC (console de gerenciamento Microsoft), [https://go.microsoft.com/fwlink/?LinkId=282616](https://go.microsoft.com/fwlink/?linkid=282616)consulte.
 
 2.  Clique com o botão direito do mouse em **certificados**, clique em **todas as tarefas**, em **operações avançadas**, em **criar solicitação personalizada**.
 
@@ -217,7 +217,7 @@ Para gerar uma solicitação de assinatura de certificado no computador onde o c
     
 
     > [!IMPORTANT]
-    > A Microsoft identificou autoridades de certificação públicas que atendem aos requisitos para fins de comunicação unificada. Uma lista é mantida no seguinte artigo da base de dados de conhecimento. <A href="http://go.microsoft.com/fwlink/?linkid=282625">http://go.microsoft.com/fwlink/?LinkId=282625</A>
+    > A Microsoft identificou autoridades de certificação públicas que atendem aos requisitos para fins de comunicação unificada. Uma lista é mantida no seguinte artigo da base de dados de conhecimento. <A href="https://go.microsoft.com/fwlink/?linkid=282625">https://go.microsoft.com/fwlink/?LinkId=282625</A>
 
     
     </div>

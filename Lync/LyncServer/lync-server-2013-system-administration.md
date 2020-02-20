@@ -12,18 +12,18 @@ ms:contentKeyID: 63969577
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 61285a73ba7fd3689842f15967286c4393b8e927
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 5e910da744bf88b485fc693c02544ad8a7093ead
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030785"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42142277"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="system-administration-in-lync-server-2013"></a>Administração do sistema no Lync Server 2013
 
@@ -75,7 +75,7 @@ O diagrama a seguir mostra o processo de solução de problemas do sistema e as 
 
 As ferramentas de suporte técnico permitem que a equipe grave, classifique e Priorize novos problemas. As ferramentas fornecerão os processos de fluxo de trabalho para gerenciar a solicitação de serviço de problema através de investigação e diagnóstico, geralmente por mais de uma equipe de suporte. Ferramentas, que freqüentemente fornecem relatórios sobre tempos de resolução e tendências históricas, podem também incluir um banco de dados base de conhecimento, que pode ser usado para pesquisar por problemas passados.
 
-A base de dados de conhecimento da Microsoft é um registro útil de problemas de suporte encontrados pela Microsoft. Para obter mais informações, consulte o site de suporte<http://go.microsoft.com/fwlink/?linkid=14898>da Microsoft ().
+A base de dados de conhecimento da Microsoft é um registro útil de problemas de suporte encontrados pela Microsoft. Para obter mais informações, consulte o site de suporte<https://go.microsoft.com/fwlink/?linkid=14898>da Microsoft ().
 
 Geralmente, o software de terceiros requer personalização para atender às necessidades da organização, como a organização do Teams, os requisitos de relatórios e as medidas necessárias para o SLA.
 

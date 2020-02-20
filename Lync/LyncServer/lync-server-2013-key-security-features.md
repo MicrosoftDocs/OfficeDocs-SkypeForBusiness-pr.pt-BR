@@ -12,18 +12,18 @@ ms:contentKeyID: 56107266
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4a2662225ac8aa00383b38deec3825a6f26b9dd9
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: a03a5c312123d714eebe8d49674a19ce712e37bc
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42034983"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42145239"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="key-security-features-in-lync-server-2013"></a>Principais recursos de segurança no Lync Server 2013
 
@@ -127,7 +127,7 @@ O Assistente de Implantação pode preencher automaticamente os SNs (nomes de en
 
 ## <a name="trustworthy-computing-security-development-lifecycle-sdl"></a>SDL (ciclo de vida de desenvolvimento de segurança) de computação confiável
 
-O Lync Server 2013 foi projetado e desenvolvido em conformidade com o SDL (Security Development Lifecycle) de computação confiável da Microsoft, descrito <http://go.microsoft.com/fwlink/?linkid=68761>em.
+O Lync Server 2013 foi projetado e desenvolvido em conformidade com o SDL (Security Development Lifecycle) de computação confiável da Microsoft, descrito <https://go.microsoft.com/fwlink/?linkid=68761>em.
 
   - **Digno de confiança pelo design**   da primeira etapa na criação de um sistema de comunicação unificada mais seguro era criar modelos de ameaças e testar cada recurso conforme ele foi criado. Além disso, a Microsoft realiza testes fora do comportamento projetado para encontrar vulnerabilidades de segurança resultantes de um comportamento de produto inesperado. Diversos aprimoramentos relacionados à segurança foram integrados ao processo e práticas de codificação. As ferramentas de tempo de compilação detectam estouros de buffer e outras possíveis ameaças de segurança antes que o código seja verificado no produto final. É claro que é impossível estar preparado para todas as ameaças de segurança desconhecidas. Nenhum sistema pode garantir a segurança completa. No entanto, como o desenvolvimento de produtos adotou princípios de design seguros desde o início, o Lync Server 2013 incorpora tecnologias de segurança padrão do setor como parte fundamental de sua arquitetura.
 

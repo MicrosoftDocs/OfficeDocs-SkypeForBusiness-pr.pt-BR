@@ -12,18 +12,18 @@ ms:contentKeyID: 48184287
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 31d8e408425ccc2810072373212f48c764974dc0
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 0aadbc9603fb62a2dacf78129aef3bf448da2f05
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42044533"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42143401"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="set-up-certificates-for-the-external-edge-interface-for-lync-server-2013"></a>Configurar certificados para a interface de borda externa para o Lync Server 2013
 
@@ -51,7 +51,7 @@ Cada Servidor de Borda requer um certificado público na interface entre a rede 
 
 Para obter detalhes sobre esse e outros requisitos de certificado, consulte [Certificate Requirements for External User Access in Lync Server 2013](lync-server-2013-certificate-requirements-for-external-user-access.md).
 
-Para obter uma lista de CAs (autoridades de certificação) públicas que fornecem certificados compatíveis com requisitos específicos para certificados de comunicações unificadas e que têm a parceria com a Microsoft para garantir que eles funcionem com o assistente de certificado do Lync Server 2013, consulte o artigo 929395 da base de dados de conhecimento da Microsoft, [http://go.microsoft.com/fwlink/p/?linkId=202834](http://go.microsoft.com/fwlink/p/?linkid=202834)"em.
+Para obter uma lista de CAs (autoridades de certificação) públicas que fornecem certificados compatíveis com requisitos específicos para certificados de comunicações unificadas e que têm a parceria com a Microsoft para garantir que eles funcionem com o assistente de certificado do Lync Server 2013, consulte o artigo 929395 da base de dados de conhecimento da Microsoft, [https://go.microsoft.com/fwlink/p/?linkId=202834](https://go.microsoft.com/fwlink/p/?linkid=202834)"em.
 
 <div>
 

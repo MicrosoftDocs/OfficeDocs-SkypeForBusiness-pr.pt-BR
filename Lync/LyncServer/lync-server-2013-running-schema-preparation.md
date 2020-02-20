@@ -12,18 +12,18 @@ ms:contentKeyID: 48184911
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c58f50cb5c4668525450c4aa95b4a00513d5fc17
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: b8336bdb881570c40900600c1eda3c3c17ffb614
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42050963"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42144447"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="running-active-directory-schema-preparation-in-lync-server-2013"></a>Executando a preparação do esquema do Active Directory no Lync Server 2013
 
@@ -43,7 +43,7 @@ Você pode usar os cmdlets de instalação ou do Shell de gerenciamento do Lync 
 
 
 > [!NOTE]  
-> O cmdlet de preparação do esquema (<STRONG>Install-CsAdServerSchema</STRONG>) deve acessar o mestre de esquema, que exige que o serviço registro remoto esteja em execução e que a chave do registro remoto esteja habilitada. Se o serviço registro remoto não puder ser habilitado no mestre de esquema, você pode executar o cmdlet localmente no mestre de esquema. Para obter detalhes sobre o acesso remoto do registro, consulte o artigo 314837 da base de dados de conhecimento da Microsoft, "como gerenciar <A href="http://go.microsoft.com/fwlink/p/?linkid=125769">http://go.microsoft.com/fwlink/p/?linkId=125769</A>o acesso remoto ao registro" em.
+> O cmdlet de preparação do esquema (<STRONG>Install-CsAdServerSchema</STRONG>) deve acessar o mestre de esquema, que exige que o serviço registro remoto esteja em execução e que a chave do registro remoto esteja habilitada. Se o serviço registro remoto não puder ser habilitado no mestre de esquema, você pode executar o cmdlet localmente no mestre de esquema. Para obter detalhes sobre o acesso remoto do registro, consulte o artigo 314837 da base de dados de conhecimento da Microsoft, "como gerenciar <A href="https://go.microsoft.com/fwlink/p/?linkid=125769">https://go.microsoft.com/fwlink/p/?linkId=125769</A>o acesso remoto ao registro" em.
 
 
 
@@ -125,7 +125,7 @@ Após a conclusão da preparação do esquema, verifique manualmente se a parti�
 
 <div>
 
-## <a name="see-also"></a>Confira Também
+## <a name="see-also"></a>Confira também
 
 
 [Verificando a replicação do esquema do Active Directory no Lync Server 2013](lync-server-2013-verifying-schema-replication.md)  
