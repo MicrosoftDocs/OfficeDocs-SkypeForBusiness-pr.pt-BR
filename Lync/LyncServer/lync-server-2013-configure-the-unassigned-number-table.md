@@ -12,20 +12,20 @@ ms:contentKeyID: 48185908
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ceb3aa60273439c94a5d936efe826e77dcc683be
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: ef82a5976769543f83dc4656cf09eb64b94d7571
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42043193"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42145630"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-the-unassigned-number-table-in-lync-server-2013"></a><span data-ttu-id="6c816-102">Configurar a tabela de números não atribuídos no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6c816-102">Configure the unassigned number table in Lync Server 2013</span></span>
+# <a name="configure-the-unassigned-number-table-in-lync-server-2013"></a><span data-ttu-id="b78f1-102">Configurar a tabela de números não atribuídos no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b78f1-102">Configure the unassigned number table in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "42043193"
 
 <span> </span>
 
-<span data-ttu-id="6c816-103">_**Última modificação do tópico:** 2012-10-30_</span><span class="sxs-lookup"><span data-stu-id="6c816-103">_**Topic Last Modified:** 2012-10-30_</span></span>
+<span data-ttu-id="b78f1-103">_**Última modificação do tópico:** 2012-10-30_</span><span class="sxs-lookup"><span data-stu-id="b78f1-103">_**Topic Last Modified:** 2012-10-30_</span></span>
 
-<span data-ttu-id="6c816-104">No Lync Server 2013, você pode especificar o que acontece às chamadas de entrada para números de telefone que são válidos para a sua organização, mas não estão atribuídos a um usuário ou telefone.</span><span class="sxs-lookup"><span data-stu-id="6c816-104">In Lync Server 2013, you can specify what happens to incoming calls to phone numbers that are valid for your organization, but are not assigned to a user or phone.</span></span> <span data-ttu-id="6c816-105">Os chamadores podem ouvir uma mensagem e/ou ser encaminhados para outro destino.</span><span class="sxs-lookup"><span data-stu-id="6c816-105">Callers can hear a message, or can be routed to another destination, or both.</span></span>
+<span data-ttu-id="b78f1-104">No Lync Server 2013, você pode especificar o que acontece às chamadas de entrada para números de telefone que são válidos para a sua organização, mas não estão atribuídos a um usuário ou telefone.</span><span class="sxs-lookup"><span data-stu-id="b78f1-104">In Lync Server 2013, you can specify what happens to incoming calls to phone numbers that are valid for your organization, but are not assigned to a user or phone.</span></span> <span data-ttu-id="b78f1-105">Os chamadores podem ouvir uma mensagem e/ou ser encaminhados para outro destino.</span><span class="sxs-lookup"><span data-stu-id="b78f1-105">Callers can hear a message, or can be routed to another destination, or both.</span></span>
 
-<span data-ttu-id="6c816-p102">O modo como você configura a tabela de números não atribuída depende de como você deseja usá-la. É possível configurar a tabela com todas as extensões válidas para sua organização, com apenas extensões não atribuídas ou com uma combinação de ambos os tipos de números. A tabela de números não atribuída pode incluir números atribuídos e não atribuídos, mas é chamada somente quando um chamador disca um número que não está atribuído no momento. Se você incluir todas as extensões válidas na tabela de números não atribuída, você poderá especificar a ação que ocorre sempre que alguém deixa sua organização, sem a necessidade de reconfigurar a tabela. Se você incluir extensões não atribuídas na tabela, poderá personalizar a ação que ocorre para números específicos. Por exemplo, se você alterar a extensão para seu atendimento ao cliente, poderá incluir o número antigo de atendimento ao cliente na tabela, e atribui-lo a um anúncio que fornece o novo número.</span><span class="sxs-lookup"><span data-stu-id="6c816-p102">How you configure the unassigned number table depends on how you want to use it. You can configure the table with all the valid extensions for your organization, with only unassigned extensions, or with a combination of both types of numbers. The unassigned number table can include both assigned and unassigned numbers, but it is invoked only when a caller dials a number that is not currently assigned. If you include all the valid extensions in the unassigned number table, you can specify the action that occurs whenever someone leaves your organization, without needing to reconfigure the table. If you include unassigned extensions in the table, you can modify the action that occurs for specific numbers. For example, if you change the extension for your customer service desk, you can include the old customer service number in the table and then assign it to an announcement that provides the new number.</span></span>
+<span data-ttu-id="b78f1-p102">O modo como você configura a tabela de números não atribuída depende de como você deseja usá-la. É possível configurar a tabela com todas as extensões válidas para sua organização, com apenas extensões não atribuídas ou com uma combinação de ambos os tipos de números. A tabela de números não atribuída pode incluir números atribuídos e não atribuídos, mas é chamada somente quando um chamador disca um número que não está atribuído no momento. Se você incluir todas as extensões válidas na tabela de números não atribuída, você poderá especificar a ação que ocorre sempre que alguém deixa sua organização, sem a necessidade de reconfigurar a tabela. Se você incluir extensões não atribuídas na tabela, poderá personalizar a ação que ocorre para números específicos. Por exemplo, se você alterar a extensão para seu atendimento ao cliente, poderá incluir o número antigo de atendimento ao cliente na tabela, e atribui-lo a um anúncio que fornece o novo número.</span><span class="sxs-lookup"><span data-stu-id="b78f1-p102">How you configure the unassigned number table depends on how you want to use it. You can configure the table with all the valid extensions for your organization, with only unassigned extensions, or with a combination of both types of numbers. The unassigned number table can include both assigned and unassigned numbers, but it is invoked only when a caller dials a number that is not currently assigned. If you include all the valid extensions in the unassigned number table, you can specify the action that occurs whenever someone leaves your organization, without needing to reconfigure the table. If you include unassigned extensions in the table, you can modify the action that occurs for specific numbers. For example, if you change the extension for your customer service desk, you can include the old customer service number in the table and then assign it to an announcement that provides the new number.</span></span>
 
 <div>
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="6c816-112">Antes de configurar a tabela de números não atribuídos, seu sistema já deve ter comunicados definidos ou um atendedor automático de UM (Unificação de mensagens) do Exchange configurado.</span><span class="sxs-lookup"><span data-stu-id="6c816-112">Before you configure the unassigned number table, your system must already either have Announcements defined or an Exchange Unified Messaging (UM) Auto Attendant set up.</span></span>
+> <span data-ttu-id="b78f1-112">Antes de configurar a tabela de números não atribuídos, seu sistema já deve ter comunicados definidos ou um atendedor automático de UM (Unificação de mensagens) do Exchange configurado.</span><span class="sxs-lookup"><span data-stu-id="b78f1-112">Before you configure the unassigned number table, your system must already either have Announcements defined or an Exchange Unified Messaging (UM) Auto Attendant set up.</span></span>
 
 
 
@@ -55,7 +55,7 @@ ms.locfileid: "42043193"
 
 
 > [!TIP]  
-> <span data-ttu-id="6c816-113">Quando alguém chama um número não atribuído, o Lync Server pesquisa a tabela de números não atribuídos de cima para baixo e usa o primeiro intervalo correspondente.</span><span class="sxs-lookup"><span data-stu-id="6c816-113">When someone calls an unassigned number, Lync Server searches the unassigned number table from top to bottom and uses the first matching range.</span></span> <span data-ttu-id="6c816-114">Portanto, uma ação que você deseja executar como última alternativa deve ser especificada para o último intervalo na tabela.</span><span class="sxs-lookup"><span data-stu-id="6c816-114">Therefore, an action that you want to be performed as a last resort should be specified for the last range in the table.</span></span>
+> <span data-ttu-id="b78f1-113">Quando alguém chama um número não atribuído, o Lync Server pesquisa a tabela de números não atribuídos de cima para baixo e usa o primeiro intervalo correspondente.</span><span class="sxs-lookup"><span data-stu-id="b78f1-113">When someone calls an unassigned number, Lync Server searches the unassigned number table from top to bottom and uses the first matching range.</span></span> <span data-ttu-id="b78f1-114">Portanto, uma ação que você deseja executar como última alternativa deve ser especificada para o último intervalo na tabela.</span><span class="sxs-lookup"><span data-stu-id="b78f1-114">Therefore, an action that you want to be performed as a last resort should be specified for the last range in the table.</span></span>
 
 
 
@@ -63,9 +63,9 @@ ms.locfileid: "42043193"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="6c816-115">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="6c816-115">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="b78f1-115">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="b78f1-115">In This Section</span></span>
 
-<span data-ttu-id="6c816-116">[Criar ou modificar um intervalo de números não atribuídos no Lync Server 2013](lync-server-2013-create-or-modify-an-unassigned-number-range.md) [criar um anúncio no Lync Server 2013](lync-server-2013-create-an-announcement.md)</span><span class="sxs-lookup"><span data-stu-id="6c816-116">[Create or modify an unassigned number range in Lync Server 2013](lync-server-2013-create-or-modify-an-unassigned-number-range.md) [Create an announcement in Lync Server 2013](lync-server-2013-create-an-announcement.md)</span></span>
+<span data-ttu-id="b78f1-116">[Criar ou modificar um intervalo de números não atribuídos no Lync Server 2013](lync-server-2013-create-or-modify-an-unassigned-number-range.md) [criar um anúncio no Lync Server 2013](lync-server-2013-create-an-announcement.md)</span><span class="sxs-lookup"><span data-stu-id="b78f1-116">[Create or modify an unassigned number range in Lync Server 2013](lync-server-2013-create-or-modify-an-unassigned-number-range.md) [Create an announcement in Lync Server 2013](lync-server-2013-create-an-announcement.md)</span></span>
 
 </div>
 

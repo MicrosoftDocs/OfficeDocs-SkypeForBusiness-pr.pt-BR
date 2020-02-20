@@ -12,20 +12,20 @@ ms:contentKeyID: 48183793
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1782dbc22b94ed492878c545df70fa1bdaaeeeb3
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: fe9a7462edb8df2741a8c783cff17e62bfe848eb
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42038443"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42145997"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="address-book-server-cmdlets-in-lync-server-2013"></a><span data-ttu-id="38d89-102">Cmdlets do servidor de catálogo de endereços no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="38d89-102">Address Book Server cmdlets in Lync Server 2013</span></span>
+# <a name="address-book-server-cmdlets-in-lync-server-2013"></a><span data-ttu-id="a4b89-102">Cmdlets do servidor de catálogo de endereços no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a4b89-102">Address Book Server cmdlets in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,58 +35,58 @@ ms.locfileid: "42038443"
 
 <span> </span>
 
-<span data-ttu-id="38d89-103">_**Última modificação do tópico:** 2012-06-26_</span><span class="sxs-lookup"><span data-stu-id="38d89-103">_**Topic Last Modified:** 2012-06-26_</span></span>
+<span data-ttu-id="a4b89-103">_**Última modificação do tópico:** 2012-06-26_</span><span class="sxs-lookup"><span data-stu-id="a4b89-103">_**Topic Last Modified:** 2012-06-26_</span></span>
 
-<span data-ttu-id="38d89-104">Os servidores de catálogo de endereços são intermediários entre os serviços de domínio do Active Directory e o Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="38d89-104">Address Book servers are intermediaries between Active Directory Domain Services and Microsoft Lync Server 2013.</span></span> <span data-ttu-id="38d89-105">O servidor de catálogo de endereços garante que as informações do usuário armazenadas no Lync Server 2013 estão sincronizadas com as informações do usuário armazenadas no Active Directory.</span><span class="sxs-lookup"><span data-stu-id="38d89-105">The Address Book server ensures that the user information stored in Lync Server 2013 is in synch with the user information stored in Active Directory.</span></span> <span data-ttu-id="38d89-106">Isso é feito pela sincronização periódica dos arquivos do Catálogo de Endereços com as informações armazenadas no banco de dados do Usuário.</span><span class="sxs-lookup"><span data-stu-id="38d89-106">This is done by periodically synching Address Book files with information stored in the User database.</span></span> <span data-ttu-id="38d89-107">Por sua vez, o Lync Server inclui vários cmdlets para gerenciar servidores de catálogo de endereços.</span><span class="sxs-lookup"><span data-stu-id="38d89-107">In turn, Lync Server includes a number of cmdlets for managing Address Book servers.</span></span>
+<span data-ttu-id="a4b89-104">Os servidores de catálogo de endereços são intermediários entre os serviços de domínio do Active Directory e o Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="a4b89-104">Address Book servers are intermediaries between Active Directory Domain Services and Microsoft Lync Server 2013.</span></span> <span data-ttu-id="a4b89-105">O servidor de catálogo de endereços garante que as informações do usuário armazenadas no Lync Server 2013 estão sincronizadas com as informações do usuário armazenadas no Active Directory.</span><span class="sxs-lookup"><span data-stu-id="a4b89-105">The Address Book server ensures that the user information stored in Lync Server 2013 is in synch with the user information stored in Active Directory.</span></span> <span data-ttu-id="a4b89-106">Isso é feito pela sincronização periódica dos arquivos do Catálogo de Endereços com as informações armazenadas no banco de dados do Usuário.</span><span class="sxs-lookup"><span data-stu-id="a4b89-106">This is done by periodically synching Address Book files with information stored in the User database.</span></span> <span data-ttu-id="a4b89-107">Por sua vez, o Lync Server inclui vários cmdlets para gerenciar servidores de catálogo de endereços.</span><span class="sxs-lookup"><span data-stu-id="a4b89-107">In turn, Lync Server includes a number of cmdlets for managing Address Book servers.</span></span>
 
 <div>
 
-## <a name="address-book-server-cmdlets"></a><span data-ttu-id="38d89-108">Address Book Server Cmdlets</span><span class="sxs-lookup"><span data-stu-id="38d89-108">Address Book Server Cmdlets</span></span>
+## <a name="address-book-server-cmdlets"></a><span data-ttu-id="a4b89-108">Address Book Server Cmdlets</span><span class="sxs-lookup"><span data-stu-id="a4b89-108">Address Book Server Cmdlets</span></span>
 
-<span data-ttu-id="38d89-109">Não é possível definir as configurações do servidor do catálogo de endereços no painel de controle do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="38d89-109">You cannot configure the Address Book Server settings in Lync Server Control Panel.</span></span> <span data-ttu-id="38d89-110">O Windows PowerShell é a principal ferramenta para gerenciar essas configurações.</span><span class="sxs-lookup"><span data-stu-id="38d89-110">Windows PowerShell is the primary tool for managing these settings.</span></span> <span data-ttu-id="38d89-111">Veja a seguir uma lista de cmdlets que se relacionam diretamente com o gerenciamento do Servidor de Catálogo de Endereços:</span><span class="sxs-lookup"><span data-stu-id="38d89-111">The following is a list of cmdlets that relate directly to managing the Address Book Server:</span></span>
+<span data-ttu-id="a4b89-109">Não é possível definir as configurações do servidor do catálogo de endereços no painel de controle do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="a4b89-109">You cannot configure the Address Book Server settings in Lync Server Control Panel.</span></span> <span data-ttu-id="a4b89-110">O Windows PowerShell é a principal ferramenta para gerenciar essas configurações.</span><span class="sxs-lookup"><span data-stu-id="a4b89-110">Windows PowerShell is the primary tool for managing these settings.</span></span> <span data-ttu-id="a4b89-111">Veja a seguir uma lista de cmdlets que se relacionam diretamente com o gerenciamento do Servidor de Catálogo de Endereços:</span><span class="sxs-lookup"><span data-stu-id="a4b89-111">The following is a list of cmdlets that relate directly to managing the Address Book Server:</span></span>
 
-<span data-ttu-id="38d89-112">**Servidor do Catálogo de Endereços**</span><span class="sxs-lookup"><span data-stu-id="38d89-112">**Address Book Server**</span></span>
-
-  - <span></span>  
-    <span data-ttu-id="38d89-113">[Get-CsAddressBookConfiguration](https://technet.microsoft.com/library/Gg398132(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="38d89-113">[Get-CsAddressBookConfiguration](https://technet.microsoft.com/library/Gg398132(v=OCS.15))</span></span>
+<span data-ttu-id="a4b89-112">**Servidor do Catálogo de Endereços**</span><span class="sxs-lookup"><span data-stu-id="a4b89-112">**Address Book Server**</span></span>
 
   - <span></span>  
-    <span data-ttu-id="38d89-114">[New-CsAddressBookConfiguration](https://technet.microsoft.com/library/Gg398395(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="38d89-114">[New-CsAddressBookConfiguration](https://technet.microsoft.com/library/Gg398395(v=OCS.15))</span></span>
+    <span data-ttu-id="a4b89-113">[Get-CsAddressBookConfiguration](https://technet.microsoft.com/library/Gg398132(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a4b89-113">[Get-CsAddressBookConfiguration](https://technet.microsoft.com/library/Gg398132(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="38d89-115">[Remove-CsAddressBookConfiguration](https://technet.microsoft.com/library/Gg398934(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="38d89-115">[Remove-CsAddressBookConfiguration](https://technet.microsoft.com/library/Gg398934(v=OCS.15))</span></span>
+    <span data-ttu-id="a4b89-114">[New-CsAddressBookConfiguration](https://technet.microsoft.com/library/Gg398395(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a4b89-114">[New-CsAddressBookConfiguration](https://technet.microsoft.com/library/Gg398395(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="38d89-116">[Set-CsAddressBookConfiguration](https://technet.microsoft.com/library/Gg412784(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="38d89-116">[Set-CsAddressBookConfiguration](https://technet.microsoft.com/library/Gg412784(v=OCS.15))</span></span>
+    <span data-ttu-id="a4b89-115">[Remove-CsAddressBookConfiguration](https://technet.microsoft.com/library/Gg398934(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a4b89-115">[Remove-CsAddressBookConfiguration](https://technet.microsoft.com/library/Gg398934(v=OCS.15))</span></span>
+
+  - <span></span>  
+    <span data-ttu-id="a4b89-116">[Set-CsAddressBookConfiguration](https://technet.microsoft.com/library/Gg412784(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a4b89-116">[Set-CsAddressBookConfiguration](https://technet.microsoft.com/library/Gg412784(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="38d89-117">[Update-CsAddressBook](https://technet.microsoft.com/library/Gg398194(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="38d89-117">[Update-CsAddressBook](https://technet.microsoft.com/library/Gg398194(v=OCS.15))</span></span>
+    <span data-ttu-id="a4b89-117">[Update-CsAddressBook](https://technet.microsoft.com/library/Gg398194(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a4b89-117">[Update-CsAddressBook](https://technet.microsoft.com/library/Gg398194(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="38d89-118">[Debug-CsAddressBookReplication](https://technet.microsoft.com/library/JJ205232(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="38d89-118">[Debug-CsAddressBookReplication](https://technet.microsoft.com/library/JJ205232(v=OCS.15))</span></span>
+    <span data-ttu-id="a4b89-118">[Debug-CsAddressBookReplication](https://technet.microsoft.com/library/JJ205232(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a4b89-118">[Debug-CsAddressBookReplication](https://technet.microsoft.com/library/JJ205232(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="38d89-119">[Test-CsAddressBookService](https://technet.microsoft.com/library/Gg398661(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="38d89-119">[Test-CsAddressBookService](https://technet.microsoft.com/library/Gg398661(v=OCS.15))</span></span>
+    <span data-ttu-id="a4b89-119">[Test-CsAddressBookService](https://technet.microsoft.com/library/Gg398661(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a4b89-119">[Test-CsAddressBookService](https://technet.microsoft.com/library/Gg398661(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="38d89-120">[Test-CsAddressBookWebQuery](https://technet.microsoft.com/library/Gg398773(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="38d89-120">[Test-CsAddressBookWebQuery](https://technet.microsoft.com/library/Gg398773(v=OCS.15))</span></span>
+    <span data-ttu-id="a4b89-120">[Test-CsAddressBookWebQuery](https://technet.microsoft.com/library/Gg398773(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a4b89-120">[Test-CsAddressBookWebQuery](https://technet.microsoft.com/library/Gg398773(v=OCS.15))</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="38d89-121">Confira Também</span><span class="sxs-lookup"><span data-stu-id="38d89-121">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="a4b89-121">Confira também</span><span class="sxs-lookup"><span data-stu-id="a4b89-121">See Also</span></span>
 
 
-[<span data-ttu-id="38d89-122">Blog do PowerShell do Lync Server</span><span class="sxs-lookup"><span data-stu-id="38d89-122">Lync Server PowerShell Blog</span></span>](http://go.microsoft.com/fwlink/p/?linkid=203150)  
+[<span data-ttu-id="a4b89-122">Blog do PowerShell do Lync Server</span><span class="sxs-lookup"><span data-stu-id="a4b89-122">Lync Server PowerShell Blog</span></span>](https://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>

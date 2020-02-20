@@ -12,20 +12,20 @@ ms:contentKeyID: 48183307
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f7916fa550831cb86a5b8c77273b87f55365a1a1
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 7850615a454541ee65dba310266b19b721ab185a
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42046024"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42145950"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="checking-for-updates-to-best-practices-analyzer-in-lync-server-2013"></a><span data-ttu-id="bdd6e-102">Verificando se há atualizações para o analisador de práticas recomendadas no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="bdd6e-102">Checking for updates to Best Practices Analyzer in Lync Server 2013</span></span>
+# <a name="checking-for-updates-to-best-practices-analyzer-in-lync-server-2013"></a><span data-ttu-id="12511-102">Verificando se há atualizações para o analisador de práticas recomendadas no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="12511-102">Checking for updates to Best Practices Analyzer in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,29 +35,29 @@ ms.locfileid: "42046024"
 
 <span> </span>
 
-<span data-ttu-id="bdd6e-103">_**Última modificação do tópico:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="bdd6e-103">_**Topic Last Modified:** 2012-10-02_</span></span>
+<span data-ttu-id="12511-103">_**Última modificação do tópico:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="12511-103">_**Topic Last Modified:** 2012-10-02_</span></span>
 
-<span data-ttu-id="bdd6e-p101">Ao iniciar o Analisador de Práticas Recomendadas, a ferramenta fornece uma opção de pesquisa das atualizações mais recentes para a ferramenta. Se houver uma atualização disponível, você poderá baixá-la. Se você escolher não baixar as atualizações, ou se o Analisador de Práticas Recomendadas não puder acessar a Internet, você poderá continuar a usar a versão instalada no computador.</span><span class="sxs-lookup"><span data-stu-id="bdd6e-p101">When you start Best Practices Analyzer, the tool provides you with an option to search for the latest updates to the tool. If an update is available, you can download the update. If you choose not to download updates, or if Best Practices Analyzer cannot access the Internet, you can continue to use the version that is already on the computer.</span></span>
+<span data-ttu-id="12511-p101">Ao iniciar o Analisador de Práticas Recomendadas, a ferramenta fornece uma opção de pesquisa das atualizações mais recentes para a ferramenta. Se houver uma atualização disponível, você poderá baixá-la. Se você escolher não baixar as atualizações, ou se o Analisador de Práticas Recomendadas não puder acessar a Internet, você poderá continuar a usar a versão instalada no computador.</span><span class="sxs-lookup"><span data-stu-id="12511-p101">When you start Best Practices Analyzer, the tool provides you with an option to search for the latest updates to the tool. If an update is available, you can download the update. If you choose not to download updates, or if Best Practices Analyzer cannot access the Internet, you can continue to use the version that is already on the computer.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="bdd6e-107">Se você precisar de autenticação proxy para acessar a Internet, o Analisador de Práticas Recomendadas não poderá acessar novas atualizações para download.</span><span class="sxs-lookup"><span data-stu-id="bdd6e-107">If you need proxy authentication to access the Internet, Best Practices Analyzer cannot access new updates for you to download.</span></span> <span data-ttu-id="bdd6e-108">No entanto, você pode baixar manualmente a versão mais recente do RtcBPA. msi no centro de <A href="http://go.microsoft.com/fwlink/p/?linkid=266539">http://go.microsoft.com/fwlink/p/?linkId=266539</A>download da Microsoft em.</span><span class="sxs-lookup"><span data-stu-id="bdd6e-108">However, you can manually download the latest version of RtcBPA.msi from the Microsoft Download Center at <A href="http://go.microsoft.com/fwlink/p/?linkid=266539">http://go.microsoft.com/fwlink/p/?linkId=266539</A>.</span></span> <span data-ttu-id="bdd6e-109">Após o download do arquivo, você pode copiá-lo no computador no qual deseja atualizar o Analisador de Práticas Recomendadas e usar o arquivo .msi para instalar a nova versão da ferramenta nesse computador.</span><span class="sxs-lookup"><span data-stu-id="bdd6e-109">After downloading the file, you can copy it to the computer on which you want to update Best Practices Analyzer and use the .msi file to install the new version of the tool on that computer.</span></span>
+> <span data-ttu-id="12511-107">Se você precisar de autenticação proxy para acessar a Internet, o Analisador de Práticas Recomendadas não poderá acessar novas atualizações para download.</span><span class="sxs-lookup"><span data-stu-id="12511-107">If you need proxy authentication to access the Internet, Best Practices Analyzer cannot access new updates for you to download.</span></span> <span data-ttu-id="12511-108">No entanto, você pode baixar manualmente a versão mais recente do RtcBPA. msi no centro de <A href="https://go.microsoft.com/fwlink/p/?linkid=266539">https://go.microsoft.com/fwlink/p/?linkId=266539</A>download da Microsoft em.</span><span class="sxs-lookup"><span data-stu-id="12511-108">However, you can manually download the latest version of RtcBPA.msi from the Microsoft Download Center at <A href="https://go.microsoft.com/fwlink/p/?linkid=266539">https://go.microsoft.com/fwlink/p/?linkId=266539</A>.</span></span> <span data-ttu-id="12511-109">Após o download do arquivo, você pode copiá-lo no computador no qual deseja atualizar o Analisador de Práticas Recomendadas e usar o arquivo .msi para instalar a nova versão da ferramenta nesse computador.</span><span class="sxs-lookup"><span data-stu-id="12511-109">After downloading the file, you can copy it to the computer on which you want to update Best Practices Analyzer and use the .msi file to install the new version of the tool on that computer.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="bdd6e-p103">Para atualizar as regras do Analisador de Práticas Recomendadas, é necessário executar a ferramenta como Administrador no computador local. Se você não estiver conectado usando uma conta membro do grupo Administradores e forem detectadas atualizações, feche o Analisador de Práticas Recomendadas e use o procedimento a seguir para iniciar o programa.</span><span class="sxs-lookup"><span data-stu-id="bdd6e-p103">To update Best Practices Analyzer rules, you must run the tool as an Administrator on the local computer. If you are not logged on using an account that is a member of the Administrators group and updates are detected, close Best Practices Analyzer, and then use the following procedure to start the program.</span></span>
+<span data-ttu-id="12511-p103">Para atualizar as regras do Analisador de Práticas Recomendadas, é necessário executar a ferramenta como Administrador no computador local. Se você não estiver conectado usando uma conta membro do grupo Administradores e forem detectadas atualizações, feche o Analisador de Práticas Recomendadas e use o procedimento a seguir para iniciar o programa.</span><span class="sxs-lookup"><span data-stu-id="12511-p103">To update Best Practices Analyzer rules, you must run the tool as an Administrator on the local computer. If you are not logged on using an account that is a member of the Administrators group and updates are detected, close Best Practices Analyzer, and then use the following procedure to start the program.</span></span>
 
 <div>
 
-## <a name="to-open-best-practices-analyzer-as-administrator-to-check-for-updates"></a><span data-ttu-id="bdd6e-112">Para abrir o Analisador de Práticas Recomendadas como Administrador para verificar a existência de atualizações</span><span class="sxs-lookup"><span data-stu-id="bdd6e-112">To open Best Practices Analyzer as Administrator to check for updates</span></span>
+## <a name="to-open-best-practices-analyzer-as-administrator-to-check-for-updates"></a><span data-ttu-id="12511-112">Para abrir o Analisador de Práticas Recomendadas como Administrador para verificar a existência de atualizações</span><span class="sxs-lookup"><span data-stu-id="12511-112">To open Best Practices Analyzer as Administrator to check for updates</span></span>
 
-1.  <span data-ttu-id="bdd6e-113">Em um computador no qual o Best Practices Analyzer está instalado, clique em **Iniciar**, aponte para **Microsoft Lync Server 2013**, clique com o botão direito em **analisador de práticas recomendadas**e clique em **Executar como administrador**.</span><span class="sxs-lookup"><span data-stu-id="bdd6e-113">On a computer on which Best Practices Analyzer is installed, click **Start**, point to **Microsoft Lync Server 2013**, right-click **Best Practices Analyzer**, and then click **Run as administrator**.</span></span>
+1.  <span data-ttu-id="12511-113">Em um computador no qual o Best Practices Analyzer está instalado, clique em **Iniciar**, aponte para **Microsoft Lync Server 2013**, clique com o botão direito em **analisador de práticas recomendadas**e clique em **Executar como administrador**.</span><span class="sxs-lookup"><span data-stu-id="12511-113">On a computer on which Best Practices Analyzer is installed, click **Start**, point to **Microsoft Lync Server 2013**, right-click **Best Practices Analyzer**, and then click **Run as administrator**.</span></span>
 
-2.  <span data-ttu-id="bdd6e-114">Especifique credenciais de uma conta membro do grupo Administradores.</span><span class="sxs-lookup"><span data-stu-id="bdd6e-114">Specify credentials of an account that is a member of the Administrators group.</span></span>
+2.  <span data-ttu-id="12511-114">Especifique credenciais de uma conta membro do grupo Administradores.</span><span class="sxs-lookup"><span data-stu-id="12511-114">Specify credentials of an account that is a member of the Administrators group.</span></span>
 
 </div>
 

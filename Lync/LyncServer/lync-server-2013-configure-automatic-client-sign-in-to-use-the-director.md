@@ -12,20 +12,20 @@ ms:contentKeyID: 48184703
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 634bfad77e61846528b6013b82921dfdc366f372
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: ad7a81a662e4d69ac8ee88cfdbce2f5448d195ec
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42043473"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42146524"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-automatic-client-sign-in-to-use-the-director-in-lync-server-2013"></a><span data-ttu-id="ae950-102">Configurar a entrada automática de cliente para usar o diretor no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ae950-102">Configure Automatic Client Sign-In to use the Director in Lync Server 2013</span></span>
+# <a name="configure-automatic-client-sign-in-to-use-the-director-in-lync-server-2013"></a><span data-ttu-id="fa1e0-102">Configurar a entrada automática de cliente para usar o diretor no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="fa1e0-102">Configure Automatic Client Sign-In to use the Director in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "42043473"
 
 <span> </span>
 
-<span data-ttu-id="ae950-103">_**Última modificação do tópico:** 2012-09-08_</span><span class="sxs-lookup"><span data-stu-id="ae950-103">_**Topic Last Modified:** 2012-09-08_</span></span>
+<span data-ttu-id="fa1e0-103">_**Última modificação do tópico:** 2012-09-08_</span><span class="sxs-lookup"><span data-stu-id="fa1e0-103">_**Topic Last Modified:** 2012-09-08_</span></span>
 
-<span data-ttu-id="ae950-104">Ao implantar um Lync Server 2013, diretor ou um pool de diretores, recomendamos que você use o logon automático do cliente como uma prática recomendada.</span><span class="sxs-lookup"><span data-stu-id="ae950-104">When you deploy a Lync Server 2013, Director or a pool of Directors, we recommend that you use Automatic Client Sign-In as a best practice.</span></span> <span data-ttu-id="ae950-105">Para obter detalhes sobre como configurar servidores DNS para entrada automática de cliente, consulte [DNS Requirements for Automatic Client Sign-in in Lync Server 2013](lync-server-2013-dns-requirements-for-automatic-client-sign-in.md) na documentação de planejamento.</span><span class="sxs-lookup"><span data-stu-id="ae950-105">For details about how to configure DNS servers for automatic client sign-in, see [DNS requirements for automatic client sign-in in Lync Server 2013](lync-server-2013-dns-requirements-for-automatic-client-sign-in.md) in the Planning documentation.</span></span>
+<span data-ttu-id="fa1e0-104">Ao implantar um Lync Server 2013, diretor ou um pool de diretores, recomendamos que você use o logon automático do cliente como uma prática recomendada.</span><span class="sxs-lookup"><span data-stu-id="fa1e0-104">When you deploy a Lync Server 2013, Director or a pool of Directors, we recommend that you use Automatic Client Sign-In as a best practice.</span></span> <span data-ttu-id="fa1e0-105">Para obter detalhes sobre como configurar servidores DNS para entrada automática de cliente, consulte [DNS Requirements for Automatic Client Sign-in in Lync Server 2013](lync-server-2013-dns-requirements-for-automatic-client-sign-in.md) na documentação de planejamento.</span><span class="sxs-lookup"><span data-stu-id="fa1e0-105">For details about how to configure DNS servers for automatic client sign-in, see [DNS requirements for automatic client sign-in in Lync Server 2013](lync-server-2013-dns-requirements-for-automatic-client-sign-in.md) in the Planning documentation.</span></span>
 
-<span data-ttu-id="ae950-106">Se você já implantou a Entrada Automática do Cliente, consulte as seções a seguir para configurá-la em seu(s) Diretor(es).</span><span class="sxs-lookup"><span data-stu-id="ae950-106">If you have already deployed Automatic Client Sign-In, see the following sections to configure it on your Director(s).</span></span>
+<span data-ttu-id="fa1e0-106">Se você já implantou a Entrada Automática do Cliente, consulte as seções a seguir para configurá-la em seu(s) Diretor(es).</span><span class="sxs-lookup"><span data-stu-id="fa1e0-106">If you have already deployed Automatic Client Sign-In, see the following sections to configure it on your Director(s).</span></span>
 
 <div>
 
-## <a name="single-director-instance"></a><span data-ttu-id="ae950-107">Instância de um único Diretor</span><span class="sxs-lookup"><span data-stu-id="ae950-107">Single Director Instance</span></span>
+## <a name="single-director-instance"></a><span data-ttu-id="fa1e0-107">Instância de um único Diretor</span><span class="sxs-lookup"><span data-stu-id="fa1e0-107">Single Director Instance</span></span>
 
-<span data-ttu-id="ae950-108">Se você já tiver a entrada automática de cliente implantada e estiver apontando para um servidor front-end ou um pool de front-ends, será necessário alterar o registro SRV DNS para apontar para o diretor.</span><span class="sxs-lookup"><span data-stu-id="ae950-108">If you already have Automatic Client Sign-In deployed and it is pointing to a Front End Server or a Front End pool, you need to change the DNS SRV record to point to the Director.</span></span>
+<span data-ttu-id="fa1e0-108">Se você já tiver a entrada automática de cliente implantada e estiver apontando para um servidor front-end ou um pool de front-ends, será necessário alterar o registro SRV DNS para apontar para o diretor.</span><span class="sxs-lookup"><span data-stu-id="fa1e0-108">If you already have Automatic Client Sign-In deployed and it is pointing to a Front End Server or a Front End pool, you need to change the DNS SRV record to point to the Director.</span></span>
 
 </div>
 
 <div>
 
-## <a name="director-pool"></a><span data-ttu-id="ae950-109">Pool de Diretor</span><span class="sxs-lookup"><span data-stu-id="ae950-109">Director Pool</span></span>
+## <a name="director-pool"></a><span data-ttu-id="fa1e0-109">Pool de Diretor</span><span class="sxs-lookup"><span data-stu-id="fa1e0-109">Director Pool</span></span>
 
-<span data-ttu-id="ae950-110">Se você já tiver a entrada automática de cliente implantada e estiver apontando para um servidor front-end ou um pool de front-ends, será necessário alterar o registro SRV DNS para apontar para o pool de diretores.</span><span class="sxs-lookup"><span data-stu-id="ae950-110">If you already have Automatic Client Sign-In deployed and it is pointing to a Front End Server or a Front End pool, you need to change the DNS SRV record to point to the Director pool.</span></span>
+<span data-ttu-id="fa1e0-110">Se você já tiver a entrada automática de cliente implantada e estiver apontando para um servidor front-end ou um pool de front-ends, será necessário alterar o registro SRV DNS para apontar para o pool de diretores.</span><span class="sxs-lookup"><span data-stu-id="fa1e0-110">If you already have Automatic Client Sign-In deployed and it is pointing to a Front End Server or a Front End pool, you need to change the DNS SRV record to point to the Director pool.</span></span>
 
 </div>
 

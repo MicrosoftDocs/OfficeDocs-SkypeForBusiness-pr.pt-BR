@@ -12,20 +12,20 @@ ms:contentKeyID: 48184771
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 31e99e05013d823d5a3a1c1ce1eef6ccc47cfb59
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 2be3760d16053e07010f4be1df39adbbd39130a6
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42035063"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42146094"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="ipaddress-table-in-lync-server-2013"></a><span data-ttu-id="28528-102">Tabela IPAddress no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="28528-102">IPAddress table in Lync Server 2013</span></span>
+# <a name="ipaddress-table-in-lync-server-2013"></a><span data-ttu-id="98b9e-102">Tabela IPAddress no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="98b9e-102">IPAddress table in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "42035063"
 
 <span> </span>
 
-<span data-ttu-id="28528-103">_**Última modificação do tópico:** 2012-10-17_</span><span class="sxs-lookup"><span data-stu-id="28528-103">_**Topic Last Modified:** 2012-10-17_</span></span>
+<span data-ttu-id="98b9e-103">_**Última modificação do tópico:** 2012-10-17_</span><span class="sxs-lookup"><span data-stu-id="98b9e-103">_**Topic Last Modified:** 2012-10-17_</span></span>
 
-<span data-ttu-id="28528-104">A tabela IPAddress mapeia endereços IP para os identificadores de endereço IP únicos usados em outros locais no banco de dados de qualidade da experiência.</span><span class="sxs-lookup"><span data-stu-id="28528-104">The IPAddress table maps IP addresses to the unique IP address identifiers used elsewhere in the Quality of Experience database.</span></span> <span data-ttu-id="28528-105">Esta tabela foi introduzida no Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="28528-105">This table was introduced in Microsoft Lync Server 2013.</span></span>
+<span data-ttu-id="98b9e-104">A tabela IPAddress mapeia endereços IP para os identificadores de endereço IP únicos usados em outros locais no banco de dados de qualidade da experiência.</span><span class="sxs-lookup"><span data-stu-id="98b9e-104">The IPAddress table maps IP addresses to the unique IP address identifiers used elsewhere in the Quality of Experience database.</span></span> <span data-ttu-id="98b9e-105">Esta tabela foi introduzida no Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="98b9e-105">This table was introduced in Microsoft Lync Server 2013.</span></span>
 
 
 <table>
@@ -49,24 +49,24 @@ ms.locfileid: "42035063"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="28528-106"><strong>Coluna</strong></span><span class="sxs-lookup"><span data-stu-id="28528-106"><strong>Column</strong></span></span></th>
-<th><span data-ttu-id="28528-107"><strong>Tipo de dados</strong></span><span class="sxs-lookup"><span data-stu-id="28528-107"><strong>Data Type</strong></span></span></th>
-<th><span data-ttu-id="28528-108"><strong>Chave/índice</strong></span><span class="sxs-lookup"><span data-stu-id="28528-108"><strong>Key/Index</strong></span></span></th>
-<th><span data-ttu-id="28528-109"><strong>Detalhes</strong></span><span class="sxs-lookup"><span data-stu-id="28528-109"><strong>Details</strong></span></span></th>
+<th><span data-ttu-id="98b9e-106"><strong>Coluna</strong></span><span class="sxs-lookup"><span data-stu-id="98b9e-106"><strong>Column</strong></span></span></th>
+<th><span data-ttu-id="98b9e-107"><strong>Tipo de dados</strong></span><span class="sxs-lookup"><span data-stu-id="98b9e-107"><strong>Data Type</strong></span></span></th>
+<th><span data-ttu-id="98b9e-108"><strong>Chave/índice</strong></span><span class="sxs-lookup"><span data-stu-id="98b9e-108"><strong>Key/Index</strong></span></span></th>
+<th><span data-ttu-id="98b9e-109"><strong>Detalhes</strong></span><span class="sxs-lookup"><span data-stu-id="98b9e-109"><strong>Details</strong></span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="28528-110"><strong>IPAddressKey</strong></span><span class="sxs-lookup"><span data-stu-id="28528-110"><strong>IPAddressKey</strong></span></span></p></td>
-<td><p><span data-ttu-id="28528-111">int</span><span class="sxs-lookup"><span data-stu-id="28528-111">int</span></span></p></td>
-<td><p><span data-ttu-id="28528-112">Primário</span><span class="sxs-lookup"><span data-stu-id="28528-112">Primary</span></span></p></td>
-<td><p><span data-ttu-id="28528-113">Identificador exclusivo do endereço IP especificado.</span><span class="sxs-lookup"><span data-stu-id="28528-113">Unique identifier for the specified IP address.</span></span></p></td>
+<td><p><span data-ttu-id="98b9e-110"><strong>IPAddressKey</strong></span><span class="sxs-lookup"><span data-stu-id="98b9e-110"><strong>IPAddressKey</strong></span></span></p></td>
+<td><p><span data-ttu-id="98b9e-111">int</span><span class="sxs-lookup"><span data-stu-id="98b9e-111">int</span></span></p></td>
+<td><p><span data-ttu-id="98b9e-112">Primário</span><span class="sxs-lookup"><span data-stu-id="98b9e-112">Primary</span></span></p></td>
+<td><p><span data-ttu-id="98b9e-113">Identificador exclusivo do endereço IP especificado.</span><span class="sxs-lookup"><span data-stu-id="98b9e-113">Unique identifier for the specified IP address.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="28528-114"><strong>IPAddress</strong></span><span class="sxs-lookup"><span data-stu-id="28528-114"><strong>IPAddress</strong></span></span></p></td>
-<td><p><span data-ttu-id="28528-115">varchar (50)</span><span class="sxs-lookup"><span data-stu-id="28528-115">varchar(50)</span></span></p></td>
-<td><p><span data-ttu-id="28528-116">Diferente</span><span class="sxs-lookup"><span data-stu-id="28528-116">Unique</span></span></p></td>
-<td><p><span data-ttu-id="28528-117">Endereço IP exclusivo (por exemplo, 189.168.1.1) que mapeia para o IpAddressKey.</span><span class="sxs-lookup"><span data-stu-id="28528-117">Unique IP address (for example, 189.168.1.1) that maps to the IpAddressKey.</span></span> <span data-ttu-id="28528-118">Pode ser um endereço IPv4 ou IPv6.</span><span class="sxs-lookup"><span data-stu-id="28528-118">This may be either an IPv4 or an IPv6 address.</span></span></p></td>
+<td><p><span data-ttu-id="98b9e-114"><strong>IPAddress</strong></span><span class="sxs-lookup"><span data-stu-id="98b9e-114"><strong>IPAddress</strong></span></span></p></td>
+<td><p><span data-ttu-id="98b9e-115">varchar (50)</span><span class="sxs-lookup"><span data-stu-id="98b9e-115">varchar(50)</span></span></p></td>
+<td><p><span data-ttu-id="98b9e-116">Diferente</span><span class="sxs-lookup"><span data-stu-id="98b9e-116">Unique</span></span></p></td>
+<td><p><span data-ttu-id="98b9e-117">Endereço IP exclusivo (por exemplo, 189.168.1.1) que mapeia para o IpAddressKey.</span><span class="sxs-lookup"><span data-stu-id="98b9e-117">Unique IP address (for example, 189.168.1.1) that maps to the IpAddressKey.</span></span> <span data-ttu-id="98b9e-118">Pode ser um endereço IPv4 ou IPv6.</span><span class="sxs-lookup"><span data-stu-id="98b9e-118">This may be either an IPv4 or an IPv6 address.</span></span></p></td>
 </tr>
 </tbody>
 </table>
