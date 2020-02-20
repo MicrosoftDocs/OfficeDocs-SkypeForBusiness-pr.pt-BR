@@ -1,8 +1,8 @@
 ---
-title: O que há de novo no Skype for Business Server 2019 | Funções
+title: O que há de novo no Skype for Business Server 2019 | Recursos
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: LanaChin
 manager: serdars
 audience: ITPro
 ms.topic: overview
@@ -12,45 +12,45 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 'Resumo: esses recursos são novos no Skype for Business Server 2019.'
-ms.openlocfilehash: 6db5ea6589a56f696f233854372fc95d6064fed7
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 86a8ce580a8aafcfb487a4b0cf839cd001dace8f
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41799411"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42129394"
 ---
 # <a name="whats-in-skype-for-business-server-2019"></a>O que há no Skype for Business Server 2019
 
-**Resumo:** Leia este tópico para saber mais sobre os novos recursos do Skype for Business Server 2019.  
+**Resumo:** Leia este tópico para saber mais sobre os novos recursos no Skype for Business Server 2019.  
 
 Os novos recursos do Skype for Business Server 2019 incluem o seguinte:
   
-- Caixa Postal na Nuvem  
-- Conector de dados de chamada
+- Caixa postal em nuvem  
+- Call data Connector
 - Migração lado a lado
 
-## <a name="unified-messaging-services-cloud-voicemail"></a>Serviços de mensagens unificadas: correio de voz na nuvem
+## <a name="unified-messaging-services-cloud-voicemail"></a>Serviços de Unificação de mensagens: caixa postal em nuvem
 
-O Exchange UM permanecerá disponível no Skype for Business Server 2019 quando você integrar o Skype for Business 2019 com o Exchange 2013 ou o Exchange 2016. Devido a alterações no suporte ao Exchange 2019, a integração de UM Exchange está sendo realçada em favor do recurso de correio de voz e do atendedor automático na nuvem.  
+A UM do Exchange permanece disponível no Skype for Business Server 2019 quando você integra o Skype for Business 2019 com o Exchange 2013 ou o Exchange 2016. Devido às alterações no suporte no Exchange 2019, a integração de UM do Exchange está sendo realçada em favor dos recursos de caixa postal da nuvem e atendedor automático na nuvem.  
 
-O correio de voz em nuvem permite que todos os seus usuários do Skype for Business 2019&#x2014;se estão hospedados em&#x2014;locais ou online para ter acesso ao mesmo serviço de correio de voz na nuvem da Microsoft. O correio de voz na nuvem oferece os seguintes benefícios para seus usuários locais e online:
+A caixa postal em nuvem permite que todos os seus usuários do Skype for Business 2019&#x2014;se estão hospedados em&#x2014;locais ou online para ter acesso ao mesmo serviço de caixa postal na nuvem da Microsoft. A caixa postal em nuvem oferece os seguintes benefícios para os usuários locais e online:
 
-- Acesso à caixa postal na caixa de correio do Exchange usando o Skype for Business Online, o Teams ou clientes do Outlook
-- Capacidade de usar o Portal baseado na Web para gerenciar as opções de correio de voz
+- Acesso à caixa postal em sua caixa de correio do Exchange usando o Skype for Business Online, o Teams ou clientes do Outlook
+- Capacidade de usar o Portal baseado na Web para gerenciar suas opções de caixa postal
 
-Consulte [planejar o serviço de correio de voz na nuvem](../sfbhybrid/hybrid/plan-cloud-voicemail.md) e [planejar a migração do Skype for Business Server e do Exchange Server](../sfbhybrid/hybrid/plan-um-migration.md) para obter mais informações.
+Consulte [planejar o serviço de caixa postal Cloud](../sfbhybrid/hybrid/plan-cloud-voicemail.md) e [planejar o Skype for Business Server e a migração do Exchange Server](../sfbhybrid/hybrid/plan-um-migration.md) para obter mais informações.
   
-## <a name="call-monitoring-call-data-connector"></a>Monitoramento de chamadas: ligar para conector de dados
+## <a name="call-monitoring-call-data-connector"></a>Monitoramento de chamadas: Call data Connector
 
-O conector de dados de chamadas simplifica bastante o monitoramento de chamadas em um ambiente híbrido porque você não precisa mais usar conjuntos de ferramentas locais e online para monitorar todos os seus usuários a qualidade das chamadas.  Não importa se os usuários estão hospedados no local ou online, você pode optar por exibir a qualidade da chamada para toda a sua organização online.
+O Call data Connector simplifica bastante o monitoramento de chamadas em um ambiente híbrido, porque você não precisa mais usar conjuntos diferentes de ferramentas locais e online para monitorar toda a qualidade de chamada de seus usuários.  Se seus usuários estão hospedados no local ou online, você pode optar por exibir a qualidade da chamada para toda a organização online.
 
-Com o conector de dados de chamada, você pode executar as seguintes tarefas usando um único conjunto de ferramentas:
+Com o Call data Connector, você pode executar as seguintes tarefas usando um único conjunto de ferramentas:
 
-- Monitore sua experiência de usuário no Microsoft Teams, no Skype for Business Online e no Skype for Business Server.
-- Exibir e solucionar problemas em toda a rede
-- Atribua funções de helpdesk e de administrador para a análise de chamadas, para que você possa permitir que os profissionais da assistência técnica vejam e solucionem os problemas de suas áreas de responsabilidade.
+- Monitore a experiência do usuário no Microsoft Teams, no Skype for Business Online e no Skype for Business Server.
+- Exibir e solucionar problemas em toda a sua rede
+- Atribuir funções de assistência técnica e de administrador para a análise de chamadas, para que você possa permitir que os profissionais de assistência técnica vejam e solucionem problemas de suas áreas de responsabilidade.
 
-Para obter mais informações, consulte [planejar o conector de dados de chamadas](../sfbhybrid/hybrid/plan-call-data-connector.md) .
+Consulte [Plan Call data Connector](../sfbhybrid/hybrid/plan-call-data-connector.md) para obter mais informações.
 
 ### <a name="see-also"></a>Confira também
 

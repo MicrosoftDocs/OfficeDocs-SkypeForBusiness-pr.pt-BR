@@ -1,7 +1,7 @@
 ---
 title: Planejar um atendedor automático na nuvem
-ms.author: jambirk
-author: jambirk
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: wasseemh
 audience: ITPro
@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Visão geral do uso de um atendedor automático na nuvem com o Skype for Business Server 2019
-ms.openlocfilehash: f7a3799df083d1404a2d635ee38403cc2653b9ea
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 2cb4c54e4c70e9187e44c5de3cb70fac85be30a6
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42037813"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42150472"
 ---
 # <a name="plan-cloud-auto-attendants"></a>Planejar atendedores automáticos de nuvem
 
@@ -40,7 +40,7 @@ Uma chamada de entrada para um atendedor automático na nuvem pode ter um dos v�
 
 Confira também:
 
-- [Configurar um atendedor automático na nuvem](/microsoftteams/create-a-phone-system-auto-attendant)
+- [Configurar um atendedor automático do Cloud](/microsoftteams/create-a-phone-system-auto-attendant)
 - [Responder e rotear automaticamente chamadas de entrada](https://docs.microsoft.com/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/automatically-answer-and-route-calls)
 
 ## <a name="requirements"></a>Requirements
@@ -110,7 +110,7 @@ Quando você tem uma estrutura sólida que atende às suas necessidades e um scr
 
 [O que são atendedores automáticos de nuvem?](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants)
 
-[Configurar um atendedor automático na nuvem](/microsoftteams/create-a-phone-system-auto-attendant)
+[Configurar um atendedor automático do Cloud](/microsoftteams/create-a-phone-system-auto-attendant)
 
 UM do Exchange: [atender automaticamente e rotear chamadas de entrada](https://docs.microsoft.com/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/automatically-answer-and-route-calls)
 

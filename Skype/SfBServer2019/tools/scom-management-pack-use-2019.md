@@ -1,8 +1,8 @@
 ---
 title: Gerenciar o Skype for Business Server 2019 usando o pacote de gerenciamento do SCOM
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: LanaChin
 manager: serdars
 ms.date: 10/26/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 'Resumo: saiba como configurar sua infraestrutura do Skype for Business Server 2019 para trabalhar com o System Center Operations Manager.'
-ms.openlocfilehash: ac8b9a99794ee12be5d6ac31b0361f46730a8e21
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 54c9f3dadb73df45ddc21cfc40ff83711032a4c2
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42006036"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42150538"
 ---
 # <a name="manage-skype-for-business-server-2019-using-scom-management-pack"></a>Gerenciar o Skype for Business Server 2019 usando o pacote de gerenciamento do SCOM
  
@@ -126,11 +126,11 @@ Os pacotes de gerenciamento do Skype for Business Server 2019 oferecem maior cob
 
 ||||
 |:-----|:-----|:-----|
-|1   <br/> |Registro (logon do usuário)  <br/> |Disponível Lync Server 2010 e posterior  <br/> |
-|2   <br/> |Serviço de catálogo de endereços (download de arquivo)  <br/> |Disponível Lync Server 2010 e posterior  <br/> |
-|3   <br/> |Consulta à web do Catálogo de endereços  <br/> |Disponível Lync Server 2010 e posterior  <br/> |
-|4   <br/> |Presença  <br/> |Disponível Lync Server 2010 e posterior  <br/> |
-|5   <br/> |Armazenamento de Contato Unificado  <br/> |Disponível Lync Server 2013 e posterior  <br/> |
+|1  <br/> |Registro (logon do usuário)  <br/> |Disponível Lync Server 2010 e posterior  <br/> |
+|duas  <br/> |Serviço de catálogo de endereços (download de arquivo)  <br/> |Disponível Lync Server 2010 e posterior  <br/> |
+|3D  <br/> |Consulta à web do Catálogo de endereços  <br/> |Disponível Lync Server 2010 e posterior  <br/> |
+|quatro  <br/> |Presença  <br/> |Disponível Lync Server 2010 e posterior  <br/> |
+|0,5  <br/> |Armazenamento de Contato Unificado  <br/> |Disponível Lync Server 2013 e posterior  <br/> |
    
 **Transações sintéticas suportadas para serviços ponto a ponto**
 
@@ -149,9 +149,9 @@ Os pacotes de gerenciamento do Skype for Business Server 2019 oferecem maior cob
 |:-----|:-----|:-----|
 |9   <br/> |Conferência de vídeo de áudio  <br/> |Disponível no Lync Server 2010 e posterior  <br/> |
 |10   <br/> |Conferência de dados  <br/> |Disponível no Lync Server 2013 e posterior  <br/> |
-|11  <br/> |Conferência de mensagens instantâneas  <br/> |Disponível no Lync Server 2010 e posterior  <br/> |
-|12   <br/> | Chat persistente <br/> |Disponível no Lync Server 2013 e posterior  <br/> |
-|Treze  <br/> |Iniciador de ingresso (reuniões agendadas)  <br/> |Disponível no Lync Server 2013 e posterior  <br/> |
+|11   <br/> |Conferência de mensagens instantâneas  <br/> |Disponível no Lync Server 2010 e posterior  <br/> |
+|12  <br/> | Chat persistente <br/> |Disponível no Lync Server 2013 e posterior  <br/> |
+|13   <br/> |Iniciador de ingresso (reuniões agendadas)  <br/> |Disponível no Lync Server 2013 e posterior  <br/> |
 |14   <br/> |Conferência discada  <br/> |Disponível no Skype for Business Server 2015 e posterior <br/> |
 |15   <br/> |Conferência de compartilhamento de aplicativo  <br/> |Disponível no Skype for Business Server 2015 e posterior <br/> |
 |16   <br/> |Conferência UCWA (Associação de reunião da Web)  <br/> |Disponível no Skype for Business Server 2015 e posterior <br/> |

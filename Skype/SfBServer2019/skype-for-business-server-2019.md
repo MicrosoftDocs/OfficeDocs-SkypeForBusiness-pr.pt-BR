@@ -1,8 +1,8 @@
 ---
 title: Skype for Business Server 2019
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: LanaChin
 manager: serdars
 layout: LandingPage
 ms.date: 2/11/2019
@@ -14,12 +14,12 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: ''
 description: 'Resumo: explore estes links para saber como implementar o Skype for Business Server 2019.'
-ms.openlocfilehash: cd436fb851d5b94db1762dc0c8e6e0e1cf99a1c0
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: a8d5d0b5b600a6e585a3ca6d7d24e566cbff24dc
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41812529"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42129434"
 ---
 # <a name="skype-for-business-server-2019"></a>Skype for Business Server 2019
 
@@ -35,7 +35,7 @@ ms.locfileid: "41812529"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Plano</h3>
+                        <h3>Planejar</h3>
                     </div>
                 </div>
             </div>

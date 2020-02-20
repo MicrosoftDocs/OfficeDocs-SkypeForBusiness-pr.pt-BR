@@ -1,7 +1,7 @@
 ---
 title: Configurar uma conta de recurso no Skype for Business Server 2019
-ms.author: jambirk
-author: jambirk
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: wasseemh
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Configurar uma conta de recurso para o Skype for Business Server 2019.
-ms.openlocfilehash: e16f75063cfbe794ff0257cb9cccdf44065a5448
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9acd9df1d9c5372915ea51ff1b3b94e1f89c3311
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726771"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42113254"
 ---
 # <a name="configure-resource-accounts"></a>Configurar contas de recurso
 
@@ -112,8 +112,8 @@ A conta do recurso precisará de um número de telefone atribuído se ele for at
 
 7. Crie o atendedor automático do sistema de telefonia ou a fila de chamadas. Confira um dos procedimentos a seguir:
 
-   - [Configurar um atendedor automático na nuvem](/MicrosoftTeams/create-a-phone-system-auto-attendant)
-   - [Criar uma fila de chamada em nuvem](/MicrosoftTeams/create-a-phone-system-call-queue)  
+   - [Configurar um atendedor automático do Cloud](/MicrosoftTeams/create-a-phone-system-auto-attendant)
+   - [Criar uma fila de chamada do Cloud](/MicrosoftTeams/create-a-phone-system-call-queue)  
 
 8. Associe a conta de recurso ao atendedor automático ou à fila de chamadas do sistema de telefonia que você escolheu anteriormente.
 
@@ -144,8 +144,8 @@ Faça logon no servidor front-end do Skype for Business e execute os seguintes c
     Consulte [Start-ADSyncSyncCycle](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-feature-scheduler) para obter mais detalhes sobre este comando.
 
 3. Crie o atendedor automático do sistema de telefonia ou a fila de chamadas. Confira um dos procedimentos a seguir:
-   - [Configurar um atendedor automático na nuvem](/MicrosoftTeams/create-a-phone-system-auto-attendant)
-   - [Criar uma fila de chamada em nuvem](/MicrosoftTeams/create-a-phone-system-call-queue)  
+   - [Configurar um atendedor automático do Cloud](/MicrosoftTeams/create-a-phone-system-auto-attendant)
+   - [Criar uma fila de chamada do Cloud](/MicrosoftTeams/create-a-phone-system-call-queue)  
 4. Associe a conta de recurso e o atendedor automático ou a fila de chamadas do sistema de telefonia que você escolheu anteriormente.
 
 Um exemplo de uma implementação de pequena empresa está disponível no [exemplo de pequena empresa-configurar um atendedor automático e um](/microsoftteams/tutorial-org-aa) [exemplo de pequena empresa-configurar uma fila de chamadas](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq).
@@ -193,11 +193,11 @@ A migração do Exchange UM para o sistema de telefonia exigirá a recriação d
 
 ## <a name="see-also"></a>Confira também
 
-[Criar uma fila de chamada em nuvem](/MicrosoftTeams/create-a-phone-system-call-queue)
+[Criar uma fila de chamada do Cloud](/MicrosoftTeams/create-a-phone-system-call-queue)
 
 [O que são atendedores automáticos de nuvem?](/MicrosoftTeams/what-are-phone-system-auto-attendants)
 
-[Configurar um atendedor automático na nuvem](/MicrosoftTeams/create-a-phone-system-auto-attendant)  
+[Configurar um atendedor automático do Cloud](/MicrosoftTeams/create-a-phone-system-auto-attendant)  
 
 [Planejar atendedores automáticos de nuvem](plan-cloud-auto-attendant.md)
 

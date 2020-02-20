@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: As regras de normalização do Skype for Business Server usam expressões regulares do .NET Framework para converter números de telefone discados em formato E. 164; em outras palavras, as regras de normalização levam o número de telefone discado por um usuário e convertem esse número no formato usado internamente pelo Skype for Business Server. Cada plano de discagem deve ter uma ou mais regras de normalização atribuídas.
-ms.openlocfilehash: 42ec43a08d1c155f61869bdfebf07e94ac040e56
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 2fd7f59bcebcfe676a03ce5a6a897336551ddbad
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42028842"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42151211"
 ---
 # <a name="defining-normalization-rules-in-skype-for-business-server"></a>Definindo regras de normalização no Skype for Business Server
 
@@ -24,7 +24,7 @@ As regras de normalização do Skype for Business Server usam expressões regula
 
 Para obter detalhes sobre as regras de normalização, consulte [Dial Plans and Normalization Rules](https://technet.microsoft.com/library/gg413082(v=ocs.15).aspx).
 
-Para obter detalhes sobre como escrever expressões regulares, consulte [expressões regulares do .NET Framework](http://go.microsoft.com/fwlink/p/?linkId=140927).
+Para obter detalhes sobre como escrever expressões regulares, consulte [expressões regulares do .NET Framework](https://go.microsoft.com/fwlink/p/?linkId=140927).
 
 É possível usar um dos seguintes métodos para definir ou editar uma regra de normalização:
 - [Use a ferramenta **criar uma regra de normalização** ](#create-or-modify-a-normalization-rule-by-using-build-a-normalization-rule) para especificar valores para os dígitos iniciais, comprimento, dígitos a serem removidos e dígitos a serem adicionados e permitir que o painel de controle do Skype for Business Server gere o padrão correspondente e a regra de conversão para você.

@@ -12,18 +12,18 @@ ms:contentKeyID: 63969650
 ms.date: 08/20/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 87d3f87b37b8c0fe29c4dee76467a9e07931551a
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: da6e0eb7c4377941992dfba9dd11312a12ee29a5
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42041210"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42149110"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="weekly-tasks-in-lync-server-2013"></a>Tarefas semanais no Lync Server 2013
 
@@ -81,7 +81,7 @@ Como o sistema de controle de incidentes da sua organização é uma opção ind
 
 ## <a name="check-iis-logs-and-performance"></a>Verificar os logs e o desempenho do IIS
 
-Executar uma revisão semanal dos logs e desempenho dos serviços de informações da Internet (IIS). Para obter mais informações sobre como monitorar os logs e o desempenho do IIS, consulte [Windows Server 2003 serviços de informações da Internet (IIS) visão geral do log de eventos](http://go.microsoft.com/fwlink/?linkid=36077). A revisão deve incluir o seguinte:
+Executar uma revisão semanal dos logs e desempenho dos serviços de informações da Internet (IIS). Para obter mais informações sobre como monitorar os logs e o desempenho do IIS, consulte [Windows Server 2003 serviços de informações da Internet (IIS) visão geral do log de eventos](https://go.microsoft.com/fwlink/?linkid=36077). A revisão deve incluir o seguinte:
 
   - Contadores de cache de serviço Web para monitorar o cache de serviço da Web.
 
@@ -258,7 +258,7 @@ O analisador de utilização de largura de banda pode gerar gráficos de capacid
 
   - Filtrado por região de rede
 
-A documentação da ferramenta está disponível na [documentação das ferramentas do Lync Server 2013 Resource Kit](http://go.microsoft.com/fwlink/?linkid=623245).
+A documentação da ferramenta está disponível na [documentação das ferramentas do Lync Server 2013 Resource Kit](https://go.microsoft.com/fwlink/?linkid=623245).
 
 </div>
 

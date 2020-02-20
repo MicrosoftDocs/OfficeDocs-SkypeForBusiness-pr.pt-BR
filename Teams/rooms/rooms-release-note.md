@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 description: Este artigo discute melhorias cumulativas nas salas do Microsoft Teams.
-ms.openlocfilehash: ace96ae0cc8094c1daa7d74f76790e6316ee9411
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: fc83efc2b3b72be532d29b2698370c655a1da9ac
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825799"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42155083"
 ---
 # <a name="release-notes"></a>Notas de versão
 
@@ -248,7 +248,7 @@ Apresentado nesta atualização:
 
 Apresentado nesta atualização:
 
-- Suporte para hardware de encaixe da [série POLYCOM MSR](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.mdl)
+- Suporte para hardware de encaixe da [série POLYCOM MSR](https://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.mdl)
 - Suporte para o [Logitech brio](https://www.logitech.com/product/brio)
 - Resolve um problema em que os modos de exibição (console e frontal da sala) falham ao entrar no modo de suspensão quando não há atividade na sala
 
@@ -258,7 +258,7 @@ Apresentado nesta atualização:
 
 - É executado em um Tablet da Surface pro (2017) 
 - Compatível com a atualização do Windows 10 Enterprise Creator (idioma inglês, Build 1703)
-- Suporte para hardware de encaixe [CRESTRON Sr](http://www.crestron.com/products/line/sr-for-skype-for-business-room-system)
+- Suporte para hardware de encaixe [CRESTRON Sr](https://www.crestron.com/products/line/sr-for-skype-for-business-room-system)
 - Suporte OEM para controles de ambiente (Crestron)
 
 A versão de 64 bits do Windows 10 Enterprise aniversário Edition (Inglês, versão 1607) não é mais compatível com as salas do Microsoft Teams Release 3.0.12.0 (atualização 3).
