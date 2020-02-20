@@ -12,20 +12,20 @@ ms:contentKeyID: 48183258
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 84def7e711a18762f4473bbda5946a14eff3b1e8
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: d6b42f172932687e1e654afba64a3b32fa222b83
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42034923"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42153823"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="legal-information-for-lync-server-2013"></a><span data-ttu-id="b2f2e-102">Informações legais do Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b2f2e-102">Legal information for Lync Server 2013</span></span>
+# <a name="legal-information-for-lync-server-2013"></a><span data-ttu-id="10a12-102">Informações legais do Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="10a12-102">Legal information for Lync Server 2013</span></span>
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "42034923"
 
 <span> </span>
 
-<span data-ttu-id="b2f2e-103">_**Última modificação do tópico:** 2011-02-22_</span><span class="sxs-lookup"><span data-stu-id="b2f2e-103">_**Topic Last Modified:** 2011-02-22_</span></span>
+<span data-ttu-id="10a12-103">_**Última modificação do tópico:** 2011-02-22_</span><span class="sxs-lookup"><span data-stu-id="10a12-103">_**Topic Last Modified:** 2011-02-22_</span></span>
 
-<span data-ttu-id="b2f2e-104">Este documento é fornecido "no estado em que se encontra".</span><span class="sxs-lookup"><span data-stu-id="b2f2e-104">This document is provided “as-is”.</span></span> <span data-ttu-id="b2f2e-105">As informações e as exibições expressas neste documento, incluindo URLs e outras referências a sites da Internet, podem ser alteradas sem aviso prévio.</span><span class="sxs-lookup"><span data-stu-id="b2f2e-105">Information and views expressed in this document, including URL and other Internet Web site references, may change without notice.</span></span>
+<span data-ttu-id="10a12-104">Este documento é fornecido "no estado em que se encontra".</span><span class="sxs-lookup"><span data-stu-id="10a12-104">This document is provided “as-is”.</span></span> <span data-ttu-id="10a12-105">As informações e as exibições expressas neste documento, incluindo URLs e outras referências a sites da Internet, podem ser alteradas sem aviso prévio.</span><span class="sxs-lookup"><span data-stu-id="10a12-105">Information and views expressed in this document, including URL and other Internet Web site references, may change without notice.</span></span>
 
-<span data-ttu-id="b2f2e-106">Alguns exemplos aqui mostrados são fornecidos somente com propósito ilustrativo e fictício.</span><span class="sxs-lookup"><span data-stu-id="b2f2e-106">Some examples depicted herein are provided for illustration only and are fictitious.</span></span> <span data-ttu-id="b2f2e-107">Nenhuma associação ou conexão real tem a finalidade ou deve ser deduzida.</span><span class="sxs-lookup"><span data-stu-id="b2f2e-107">No real association or connection is intended or should be inferred.</span></span>
+<span data-ttu-id="10a12-106">Alguns exemplos aqui mostrados são fornecidos somente com propósito ilustrativo e fictício.</span><span class="sxs-lookup"><span data-stu-id="10a12-106">Some examples depicted herein are provided for illustration only and are fictitious.</span></span> <span data-ttu-id="10a12-107">Nenhuma associação ou conexão real tem a finalidade ou deve ser deduzida.</span><span class="sxs-lookup"><span data-stu-id="10a12-107">No real association or connection is intended or should be inferred.</span></span>
 
-<span data-ttu-id="b2f2e-p103">Este documento não fornece a você quaisquer direitos legais a qualquer propriedade intelectual sobre qualquer produto da Microsoft. Você pode copiar e usar o presente documento internamente, para fins de referência.</span><span class="sxs-lookup"><span data-stu-id="b2f2e-p103">This document does not provide you with any legal rights to any intellectual property in any Microsoft product. You may copy and use this document for your internal, reference purposes.</span></span>
+<span data-ttu-id="10a12-p103">Este documento não fornece a você quaisquer direitos legais a qualquer propriedade intelectual sobre qualquer produto da Microsoft. Você pode copiar e usar o presente documento internamente, para fins de referência.</span><span class="sxs-lookup"><span data-stu-id="10a12-p103">This document does not provide you with any legal rights to any intellectual property in any Microsoft product. You may copy and use this document for your internal, reference purposes.</span></span>
 
-<span data-ttu-id="b2f2e-110">Copyright © 2013 Microsoft Corporation.</span><span class="sxs-lookup"><span data-stu-id="b2f2e-110">Copyright © 2013 Microsoft Corporation.</span></span> <span data-ttu-id="b2f2e-111">Todos os direitos reservados.</span><span class="sxs-lookup"><span data-stu-id="b2f2e-111">All rights reserved.</span></span>
+<span data-ttu-id="10a12-110">Copyright © 2013 Microsoft Corporation.</span><span class="sxs-lookup"><span data-stu-id="10a12-110">Copyright © 2013 Microsoft Corporation.</span></span> <span data-ttu-id="10a12-111">Todos os direitos reservados.</span><span class="sxs-lookup"><span data-stu-id="10a12-111">All rights reserved.</span></span>
 
 </div>
 

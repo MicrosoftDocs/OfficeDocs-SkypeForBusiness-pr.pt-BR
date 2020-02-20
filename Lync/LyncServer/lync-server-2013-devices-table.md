@@ -12,20 +12,20 @@ ms:contentKeyID: 48184169
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9c6e1fb5afda3a657bbeff864f5bba06349f4fb4
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 1270557e5d02fd1764957d75441ecc33ad11588c
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42044843"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42153913"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="devices-table-in-lync-server-2013"></a><span data-ttu-id="0623e-102">Tabela de dispositivos no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0623e-102">Devices table in Lync Server 2013</span></span>
+# <a name="devices-table-in-lync-server-2013"></a><span data-ttu-id="e525e-102">Tabela de dispositivos no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e525e-102">Devices table in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "42044843"
 
 <span> </span>
 
-<span data-ttu-id="0623e-103">_**Última modificação do tópico:** 2012-05-25_</span><span class="sxs-lookup"><span data-stu-id="0623e-103">_**Topic Last Modified:** 2012-05-25_</span></span>
+<span data-ttu-id="e525e-103">_**Última modificação do tópico:** 2012-05-25_</span><span class="sxs-lookup"><span data-stu-id="e525e-103">_**Topic Last Modified:** 2012-05-25_</span></span>
 
-<span data-ttu-id="0623e-104">A tabela de dispositivos é uma tabela de suporte.</span><span class="sxs-lookup"><span data-stu-id="0623e-104">The Devices table is a supporting table.</span></span> <span data-ttu-id="0623e-105">Cada registro armazena informações sobre um dispositivo (telefone de mesa).</span><span class="sxs-lookup"><span data-stu-id="0623e-105">Each record stores information about one device (desk phone).</span></span>
+<span data-ttu-id="e525e-104">A tabela de dispositivos é uma tabela de suporte.</span><span class="sxs-lookup"><span data-stu-id="e525e-104">The Devices table is a supporting table.</span></span> <span data-ttu-id="e525e-105">Cada registro armazena informações sobre um dispositivo (telefone de mesa).</span><span class="sxs-lookup"><span data-stu-id="e525e-105">Each record stores information about one device (desk phone).</span></span>
 
 
 <table>
@@ -49,36 +49,36 @@ ms.locfileid: "42044843"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="0623e-106">Coluna</span><span class="sxs-lookup"><span data-stu-id="0623e-106">Column</span></span></th>
-<th><span data-ttu-id="0623e-107">Tipo de dados</span><span class="sxs-lookup"><span data-stu-id="0623e-107">Data Type</span></span></th>
-<th><span data-ttu-id="0623e-108">Chave/índice</span><span class="sxs-lookup"><span data-stu-id="0623e-108">Key/Index</span></span></th>
-<th><span data-ttu-id="0623e-109">Detalhes</span><span class="sxs-lookup"><span data-stu-id="0623e-109">Details</span></span></th>
+<th><span data-ttu-id="e525e-106">Coluna</span><span class="sxs-lookup"><span data-stu-id="e525e-106">Column</span></span></th>
+<th><span data-ttu-id="e525e-107">Tipo de dados</span><span class="sxs-lookup"><span data-stu-id="e525e-107">Data Type</span></span></th>
+<th><span data-ttu-id="e525e-108">Chave/índice</span><span class="sxs-lookup"><span data-stu-id="e525e-108">Key/Index</span></span></th>
+<th><span data-ttu-id="e525e-109">Detalhes</span><span class="sxs-lookup"><span data-stu-id="e525e-109">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="0623e-110"><strong>DeviceId</strong></span><span class="sxs-lookup"><span data-stu-id="0623e-110"><strong>DeviceId</strong></span></span></p></td>
-<td><p><span data-ttu-id="0623e-111">int</span><span class="sxs-lookup"><span data-stu-id="0623e-111">int</span></span></p></td>
-<td><p><span data-ttu-id="0623e-112">Primário</span><span class="sxs-lookup"><span data-stu-id="0623e-112">Primary</span></span></p></td>
-<td><p><span data-ttu-id="0623e-113">Número exclusivo que identifica esta versão de hardware.</span><span class="sxs-lookup"><span data-stu-id="0623e-113">Unique number identifying this hardware version.</span></span></p></td>
+<td><p><span data-ttu-id="e525e-110"><strong>DeviceId</strong></span><span class="sxs-lookup"><span data-stu-id="e525e-110"><strong>DeviceId</strong></span></span></p></td>
+<td><p><span data-ttu-id="e525e-111">int</span><span class="sxs-lookup"><span data-stu-id="e525e-111">int</span></span></p></td>
+<td><p><span data-ttu-id="e525e-112">Primário</span><span class="sxs-lookup"><span data-stu-id="e525e-112">Primary</span></span></p></td>
+<td><p><span data-ttu-id="e525e-113">Número exclusivo que identifica esta versão de hardware.</span><span class="sxs-lookup"><span data-stu-id="e525e-113">Unique number identifying this hardware version.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="0623e-114"><strong>ManufacturerID</strong></span><span class="sxs-lookup"><span data-stu-id="0623e-114"><strong>ManufacturerId</strong></span></span></p></td>
-<td><p><span data-ttu-id="0623e-115">int</span><span class="sxs-lookup"><span data-stu-id="0623e-115">int</span></span></p></td>
-<td><p><span data-ttu-id="0623e-116">Estrangeira</span><span class="sxs-lookup"><span data-stu-id="0623e-116">Foreign</span></span></p></td>
-<td><p><span data-ttu-id="0623e-117">Fabricante deste dispositivo.</span><span class="sxs-lookup"><span data-stu-id="0623e-117">Manufacturer of this device.</span></span> <span data-ttu-id="0623e-118">Consulte a <a href="lync-server-2013-manufacturers-table.md">tabela fabricantes no Lync Server 2013</a> para obter mais informações.</span><span class="sxs-lookup"><span data-stu-id="0623e-118">See the <a href="lync-server-2013-manufacturers-table.md">Manufacturers table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="e525e-114"><strong>ManufacturerID</strong></span><span class="sxs-lookup"><span data-stu-id="e525e-114"><strong>ManufacturerId</strong></span></span></p></td>
+<td><p><span data-ttu-id="e525e-115">int</span><span class="sxs-lookup"><span data-stu-id="e525e-115">int</span></span></p></td>
+<td><p><span data-ttu-id="e525e-116">Estrangeira</span><span class="sxs-lookup"><span data-stu-id="e525e-116">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="e525e-117">Fabricante deste dispositivo.</span><span class="sxs-lookup"><span data-stu-id="e525e-117">Manufacturer of this device.</span></span> <span data-ttu-id="e525e-118">Consulte a <a href="lync-server-2013-manufacturers-table.md">tabela fabricantes no Lync Server 2013</a> para obter mais informações.</span><span class="sxs-lookup"><span data-stu-id="e525e-118">See the <a href="lync-server-2013-manufacturers-table.md">Manufacturers table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="0623e-119"><strong>HardwareVersionId</strong></span><span class="sxs-lookup"><span data-stu-id="0623e-119"><strong>HardwareVersionId</strong></span></span></p></td>
-<td><p><span data-ttu-id="0623e-120">int</span><span class="sxs-lookup"><span data-stu-id="0623e-120">int</span></span></p></td>
-<td><p><span data-ttu-id="0623e-121">Estrangeira</span><span class="sxs-lookup"><span data-stu-id="0623e-121">Foreign</span></span></p></td>
-<td><p><span data-ttu-id="0623e-122">Versão de hardware desse dispositivo.</span><span class="sxs-lookup"><span data-stu-id="0623e-122">Hardware version of this device.</span></span> <span data-ttu-id="0623e-123">Consulte a <a href="lync-server-2013-hardwareversions-table.md">tabela HardwareVersions no Lync Server 2013</a> para obter mais informações.</span><span class="sxs-lookup"><span data-stu-id="0623e-123">See the <a href="lync-server-2013-hardwareversions-table.md">HardwareVersions table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="e525e-119"><strong>HardwareVersionId</strong></span><span class="sxs-lookup"><span data-stu-id="e525e-119"><strong>HardwareVersionId</strong></span></span></p></td>
+<td><p><span data-ttu-id="e525e-120">int</span><span class="sxs-lookup"><span data-stu-id="e525e-120">int</span></span></p></td>
+<td><p><span data-ttu-id="e525e-121">Estrangeira</span><span class="sxs-lookup"><span data-stu-id="e525e-121">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="e525e-122">Versão de hardware desse dispositivo.</span><span class="sxs-lookup"><span data-stu-id="e525e-122">Hardware version of this device.</span></span> <span data-ttu-id="e525e-123">Consulte a <a href="lync-server-2013-hardwareversions-table.md">tabela HardwareVersions no Lync Server 2013</a> para obter mais informações.</span><span class="sxs-lookup"><span data-stu-id="e525e-123">See the <a href="lync-server-2013-hardwareversions-table.md">HardwareVersions table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="0623e-124"><strong>MacAddress</strong></span><span class="sxs-lookup"><span data-stu-id="0623e-124"><strong>MacAddress</strong></span></span></p></td>
-<td><p><span data-ttu-id="0623e-125">bigint</span><span class="sxs-lookup"><span data-stu-id="0623e-125">bigint</span></span></p></td>
+<td><p><span data-ttu-id="e525e-124"><strong>MacAddress</strong></span><span class="sxs-lookup"><span data-stu-id="e525e-124"><strong>MacAddress</strong></span></span></p></td>
+<td><p><span data-ttu-id="e525e-125">bigint</span><span class="sxs-lookup"><span data-stu-id="e525e-125">bigint</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="0623e-126">Endereço MAC</span><span class="sxs-lookup"><span data-stu-id="0623e-126">MAC Address</span></span></p></td>
+<td><p><span data-ttu-id="e525e-126">Endereço MAC</span><span class="sxs-lookup"><span data-stu-id="e525e-126">MAC Address</span></span></p></td>
 </tr>
 </tbody>
 </table>

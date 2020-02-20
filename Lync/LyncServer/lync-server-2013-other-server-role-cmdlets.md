@@ -12,20 +12,20 @@ ms:contentKeyID: 48184801
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 43a4c63851e45ea1763650d8e908427672bd7fbf
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: ce3d7c78509273cbc740af9f30fa4cea8883e813
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42047335"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42153321"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="other-server-role-cmdlets-in-lync-server-2013"></a><span data-ttu-id="221ea-102">Outros cmdlets de função de servidor no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="221ea-102">Other server role cmdlets in Lync Server 2013</span></span>
+# <a name="other-server-role-cmdlets-in-lync-server-2013"></a><span data-ttu-id="a7685-102">Outros cmdlets de função de servidor no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a7685-102">Other server role cmdlets in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,34 +35,34 @@ ms.locfileid: "42047335"
 
 <span> </span>
 
-<span data-ttu-id="221ea-103">_**Última modificação do tópico:** 2012-03-21_</span><span class="sxs-lookup"><span data-stu-id="221ea-103">_**Topic Last Modified:** 2012-03-21_</span></span>
+<span data-ttu-id="a7685-103">_**Última modificação do tópico:** 2012-03-21_</span><span class="sxs-lookup"><span data-stu-id="a7685-103">_**Topic Last Modified:** 2012-03-21_</span></span>
 
-<span data-ttu-id="221ea-104">Esses cmdlets oferecem maneiras de gerenciar funções de servidor únicas (como o Servidor de Conferência) que não se ajustam a categorias de funções de servidor, como Servidores de Borda ou Servidores de Catálogo de Endereços.</span><span class="sxs-lookup"><span data-stu-id="221ea-104">These cmdlets provide ways to manage "one-off" server roles (such as the Conference Server) that do not fit into server role categories such as Edge Servers or Address Book Servers.</span></span>
+<span data-ttu-id="a7685-104">Esses cmdlets oferecem maneiras de gerenciar funções de servidor únicas (como o Servidor de Conferência) que não se ajustam a categorias de funções de servidor, como Servidores de Borda ou Servidores de Catálogo de Endereços.</span><span class="sxs-lookup"><span data-stu-id="a7685-104">These cmdlets provide ways to manage "one-off" server roles (such as the Conference Server) that do not fit into server role categories such as Edge Servers or Address Book Servers.</span></span>
 
 <div>
 
-## <a name="other-server-role-and-cmdlets"></a><span data-ttu-id="221ea-105">Outras Funções de Servidor e Cmdlets</span><span class="sxs-lookup"><span data-stu-id="221ea-105">Other Server Role and Cmdlets</span></span>
+## <a name="other-server-role-and-cmdlets"></a><span data-ttu-id="a7685-105">Outras Funções de Servidor e Cmdlets</span><span class="sxs-lookup"><span data-stu-id="a7685-105">Other Server Role and Cmdlets</span></span>
 
-<span data-ttu-id="221ea-106">A seguir, uma lista de cmdlets que se relacionam diretamente ao gerenciamento de outras funções de servidor e serviços:</span><span class="sxs-lookup"><span data-stu-id="221ea-106">The following is a list of cmdlets that relate directly to managing other server roles and services:</span></span>
+<span data-ttu-id="a7685-106">A seguir, uma lista de cmdlets que se relacionam diretamente ao gerenciamento de outras funções de servidor e serviços:</span><span class="sxs-lookup"><span data-stu-id="a7685-106">The following is a list of cmdlets that relate directly to managing other server roles and services:</span></span>
 
-<span data-ttu-id="221ea-107">**Outras Funções de Servidor**</span><span class="sxs-lookup"><span data-stu-id="221ea-107">**Other Server Roles**</span></span>
+<span data-ttu-id="a7685-107">**Outras Funções de Servidor**</span><span class="sxs-lookup"><span data-stu-id="a7685-107">**Other Server Roles**</span></span>
 
   - <span></span>  
-    <span data-ttu-id="221ea-108">[Set-CsConferenceServer](https://technet.microsoft.com/library/Gg398738(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="221ea-108">[Set-CsConferenceServer](https://technet.microsoft.com/library/Gg398738(v=OCS.15))</span></span>
+    <span data-ttu-id="a7685-108">[Set-CsConferenceServer](https://technet.microsoft.com/library/Gg398738(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a7685-108">[Set-CsConferenceServer](https://technet.microsoft.com/library/Gg398738(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="221ea-109">[Set-CsUserServer](https://technet.microsoft.com/library/Gg413026(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="221ea-109">[Set-CsUserServer](https://technet.microsoft.com/library/Gg413026(v=OCS.15))</span></span>
+    <span data-ttu-id="a7685-109">[Set-CsUserServer](https://technet.microsoft.com/library/Gg413026(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a7685-109">[Set-CsUserServer](https://technet.microsoft.com/library/Gg413026(v=OCS.15))</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="221ea-110">Confira Também</span><span class="sxs-lookup"><span data-stu-id="221ea-110">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="a7685-110">Confira também</span><span class="sxs-lookup"><span data-stu-id="a7685-110">See Also</span></span>
 
 
-[<span data-ttu-id="221ea-111">Blog do PowerShell do Lync Server</span><span class="sxs-lookup"><span data-stu-id="221ea-111">Lync Server PowerShell Blog</span></span>](http://go.microsoft.com/fwlink/p/?linkid=203150)  
+[<span data-ttu-id="a7685-111">Blog do PowerShell do Lync Server</span><span class="sxs-lookup"><span data-stu-id="a7685-111">Lync Server PowerShell Blog</span></span>](https://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>

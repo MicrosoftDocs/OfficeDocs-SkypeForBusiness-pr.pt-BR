@@ -12,20 +12,20 @@ ms:contentKeyID: 51541493
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5cdf1e75f950ebf155bfd21c68b860f48af8e978
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 007e4419a5763f86818d8d7320464ab41c8f8c08
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42045533"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42153341"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="optional-verify-the-group-call-pickup-deployment-in-lync-server-2013"></a><span data-ttu-id="1787b-102">Opcion Verificar a implantação do recebimento de chamadas em grupo no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1787b-102">(Optional) Verify the Group Call Pickup deployment in Lync Server 2013</span></span>
+# <a name="optional-verify-the-group-call-pickup-deployment-in-lync-server-2013"></a><span data-ttu-id="c749f-102">Opcion Verificar a implantação do recebimento de chamadas em grupo no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c749f-102">(Optional) Verify the Group Call Pickup deployment in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "42045533"
 
 <span> </span>
 
-<span data-ttu-id="1787b-103">_**Última modificação do tópico:** 2013-01-30_</span><span class="sxs-lookup"><span data-stu-id="1787b-103">_**Topic Last Modified:** 2013-01-30_</span></span>
+<span data-ttu-id="c749f-103">_**Última modificação do tópico:** 2013-01-30_</span><span class="sxs-lookup"><span data-stu-id="c749f-103">_**Topic Last Modified:** 2013-01-30_</span></span>
 
-<span data-ttu-id="1787b-104">Depois de habilitar o recebimento de chamadas em grupo para usuários, verifique se a configuração funciona conforme o esperado.</span><span class="sxs-lookup"><span data-stu-id="1787b-104">After you enable Group Call Pickup for users, verify that the configuration works as expected.</span></span> <span data-ttu-id="1787b-105">No mínimo, verifique o seguinte:</span><span class="sxs-lookup"><span data-stu-id="1787b-105">At a minimum, verify the following:</span></span>
+<span data-ttu-id="c749f-104">Depois de habilitar o recebimento de chamadas em grupo para usuários, verifique se a configuração funciona conforme o esperado.</span><span class="sxs-lookup"><span data-stu-id="c749f-104">After you enable Group Call Pickup for users, verify that the configuration works as expected.</span></span> <span data-ttu-id="c749f-105">No mínimo, verifique o seguinte:</span><span class="sxs-lookup"><span data-stu-id="c749f-105">At a minimum, verify the following:</span></span>
 
-  - <span data-ttu-id="1787b-106">Ligue para um usuário que esteja habilitado para recebimento de chamadas em grupo e peça a outro usuário para recuperar a chamada.</span><span class="sxs-lookup"><span data-stu-id="1787b-106">Call a user who is enabled for Group Call Pickup and have another user retrieve the call.</span></span> <span data-ttu-id="1787b-107">O outro usuário pode estar no mesmo grupo, em um grupo diferente ou não ter o recebimento de chamadas em grupo habilitado.</span><span class="sxs-lookup"><span data-stu-id="1787b-107">The other user can be in the same group, in a different group, or not have Group Call Pickup enabled.</span></span>
+  - <span data-ttu-id="c749f-106">Ligue para um usuário que esteja habilitado para recebimento de chamadas em grupo e peça a outro usuário para recuperar a chamada.</span><span class="sxs-lookup"><span data-stu-id="c749f-106">Call a user who is enabled for Group Call Pickup and have another user retrieve the call.</span></span> <span data-ttu-id="c749f-107">O outro usuário pode estar no mesmo grupo, em um grupo diferente ou não ter o recebimento de chamadas em grupo habilitado.</span><span class="sxs-lookup"><span data-stu-id="c749f-107">The other user can be in the same group, in a different group, or not have Group Call Pickup enabled.</span></span>
 
-  - <span data-ttu-id="1787b-108">Ligue para um usuário que esteja habilitado para recebimento de chamadas em grupo e não responda à chamada.</span><span class="sxs-lookup"><span data-stu-id="1787b-108">Call a user who is enabled for Group Call Pickup and do not answer the call.</span></span>
+  - <span data-ttu-id="c749f-108">Ligue para um usuário que esteja habilitado para recebimento de chamadas em grupo e não responda à chamada.</span><span class="sxs-lookup"><span data-stu-id="c749f-108">Call a user who is enabled for Group Call Pickup and do not answer the call.</span></span>
 
 </div>
 

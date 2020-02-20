@@ -12,20 +12,20 @@ ms:contentKeyID: 48183941
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 133d0bccb919e537998878306b3bbf85d77bd0cb
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 3c5fbe9298a3a4157dfc62a31d7a429079ac1853
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42037641"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42153371"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="optional-verify-dial-in-conferencing-in-lync-server-2013"></a><span data-ttu-id="c554a-102">Opcion Verificar a conferência discada no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c554a-102">(Optional) Verify dial-in conferencing in Lync Server 2013</span></span>
+# <a name="optional-verify-dial-in-conferencing-in-lync-server-2013"></a><span data-ttu-id="fb015-102">Opcion Verificar a conferência discada no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="fb015-102">(Optional) Verify dial-in conferencing in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,32 +35,32 @@ ms.locfileid: "42037641"
 
 <span> </span>
 
-<span data-ttu-id="c554a-103">_**Última modificação do tópico:** 2011-01-21_</span><span class="sxs-lookup"><span data-stu-id="c554a-103">_**Topic Last Modified:** 2011-01-21_</span></span>
+<span data-ttu-id="fb015-103">_**Última modificação do tópico:** 2011-01-21_</span><span class="sxs-lookup"><span data-stu-id="fb015-103">_**Topic Last Modified:** 2011-01-21_</span></span>
 
-<span data-ttu-id="c554a-104">Para verificar se a página da Web de Configurações de Conferência Discada e os números de acesso discado funcionam corretamente, faça o seguinte:</span><span class="sxs-lookup"><span data-stu-id="c554a-104">To verify that the Dial-in Conferencing Settings webpage and the dial-in access numbers work correctly, you need to do the following:</span></span>
+<span data-ttu-id="fb015-104">Para verificar se a página da Web de Configurações de Conferência Discada e os números de acesso discado funcionam corretamente, faça o seguinte:</span><span class="sxs-lookup"><span data-stu-id="fb015-104">To verify that the Dial-in Conferencing Settings webpage and the dial-in access numbers work correctly, you need to do the following:</span></span>
 
-  - <span data-ttu-id="c554a-105">Entre na URL simples para testar a página da Web Configurações de Conferência Discada.</span><span class="sxs-lookup"><span data-stu-id="c554a-105">Test the Dial-in Conferencing Settings webpage by signing in to the simple URL.</span></span>
+  - <span data-ttu-id="fb015-105">Entre na URL simples para testar a página da Web Configurações de Conferência Discada.</span><span class="sxs-lookup"><span data-stu-id="fb015-105">Test the Dial-in Conferencing Settings webpage by signing in to the simple URL.</span></span>
 
-  - <span data-ttu-id="c554a-p101">Teste se os números de acesso funcionam corretamente para um pool específico executando o script posteriormente neste tópico. Esse script simula chamadas para números de acesso. Você precisa do endereço SIP e das credenciais de um cliente de UC (comunicações unificadas) que esteja hospedado no pool específico para usar esse script.</span><span class="sxs-lookup"><span data-stu-id="c554a-p101">Test that access numbers work correctly for a specific pool by running the script later in this topic. This script simulates calls to access numbers. You need the SIP address and credentials of one unified communications (UC) client that is hosted on the specific pool to use this script.</span></span>
+  - <span data-ttu-id="fb015-p101">Teste se os números de acesso funcionam corretamente para um pool específico executando o script posteriormente neste tópico. Esse script simula chamadas para números de acesso. Você precisa do endereço SIP e das credenciais de um cliente de UC (comunicações unificadas) que esteja hospedado no pool específico para usar esse script.</span><span class="sxs-lookup"><span data-stu-id="fb015-p101">Test that access numbers work correctly for a specific pool by running the script later in this topic. This script simulates calls to access numbers. You need the SIP address and credentials of one unified communications (UC) client that is hosted on the specific pool to use this script.</span></span>
 
-<span data-ttu-id="c554a-109">Esta etapa é opcional.</span><span class="sxs-lookup"><span data-stu-id="c554a-109">This step is optional.</span></span>
+<span data-ttu-id="fb015-109">Esta etapa é opcional.</span><span class="sxs-lookup"><span data-stu-id="fb015-109">This step is optional.</span></span>
 
 <div>
 
-## <a name="to-test-access-numbers-for-a-specific-pool"></a><span data-ttu-id="c554a-110">Para testar os números de acesso de um pool específico</span><span class="sxs-lookup"><span data-stu-id="c554a-110">To test access numbers for a specific pool</span></span>
+## <a name="to-test-access-numbers-for-a-specific-pool"></a><span data-ttu-id="fb015-110">Para testar os números de acesso de um pool específico</span><span class="sxs-lookup"><span data-stu-id="fb015-110">To test access numbers for a specific pool</span></span>
 
-1.  <span data-ttu-id="c554a-111">Efetue logon no computador como membro do grupo RTCUniversalServerAdmins ou como membro da função **Cs-ServerAdministrator** ou **CsAdministrator**.</span><span class="sxs-lookup"><span data-stu-id="c554a-111">Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the **Cs-ServerAdministrator** or **CsAdministrator** role.</span></span>
+1.  <span data-ttu-id="fb015-111">Efetue logon no computador como membro do grupo RTCUniversalServerAdmins ou como membro da função **Cs-ServerAdministrator** ou **CsAdministrator**.</span><span class="sxs-lookup"><span data-stu-id="fb015-111">Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the **Cs-ServerAdministrator** or **CsAdministrator** role.</span></span>
 
-2.  <span data-ttu-id="c554a-112">Inicie o Shell de Gerenciamento do Lync Server: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Shell de Gerenciamento do Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="c554a-112">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+2.  <span data-ttu-id="fb015-112">Inicie o Shell de Gerenciamento do Lync Server: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Shell de Gerenciamento do Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="fb015-112">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-3.  <span data-ttu-id="c554a-113">Execute o seguinte no prompt de comando:</span><span class="sxs-lookup"><span data-stu-id="c554a-113">Run the following at the command prompt:</span></span>
+3.  <span data-ttu-id="fb015-113">Execute o seguinte no prompt de comando:</span><span class="sxs-lookup"><span data-stu-id="fb015-113">Run the following at the command prompt:</span></span>
     
         $credentials = Get-Credential
            User name:  testuser1@contoso.com
            Password:   ********
         Test-CsDialInConferencing -UserSipAddress sip:testuser1@contoso.com -UserCredential $credentials -TargetFqdn <serverName>.<domainName>.com -Verbose
     
-    <span data-ttu-id="c554a-p102">O relatório resultante mostra êxito ou falha, juntamente com informações de diagnóstico específicas. O sinalizador –Verbose fornece informações mais detalhadas sobre quantos números de acesso foram encontrados e detalhes sobre eles.</span><span class="sxs-lookup"><span data-stu-id="c554a-p102">The resulting report shows either Success or Failure, along with specific diagnostic information. The –Verbose flag provides more detailed information about how many access numbers were found and details about them.</span></span>
+    <span data-ttu-id="fb015-p102">O relatório resultante mostra êxito ou falha, juntamente com informações de diagnóstico específicas. O sinalizador –Verbose fornece informações mais detalhadas sobre quantos números de acesso foram encontrados e detalhes sobre eles.</span><span class="sxs-lookup"><span data-stu-id="fb015-p102">The resulting report shows either Success or Failure, along with specific diagnostic information. The –Verbose flag provides more detailed information about how many access numbers were found and details about them.</span></span>
 
 </div>
 
