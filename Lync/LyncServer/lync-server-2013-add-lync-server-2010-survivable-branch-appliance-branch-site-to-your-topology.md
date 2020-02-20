@@ -12,20 +12,20 @@ ms:contentKeyID: 49733592
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bd7b4acc877ba174be0b0d6b03368bb06200574b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 228e10ebcde7abbe634de4ed00c991e956188a9e
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42033780"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42145099"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="add-lync-server-2010-survivable-branch-appliance-branch-site-to-your-topology"></a><span data-ttu-id="263a1-102">Adicionar site de filial de dispositivo de filial persistente do Lync Server 2010 à sua topologia</span><span class="sxs-lookup"><span data-stu-id="263a1-102">Add Lync Server 2010 Survivable Branch Appliance branch site to your topology</span></span>
+# <a name="add-lync-server-2010-survivable-branch-appliance-branch-site-to-your-topology"></a><span data-ttu-id="616ec-102">Adicionar site de filial de dispositivo de filial persistente do Lync Server 2010 à sua topologia</span><span class="sxs-lookup"><span data-stu-id="616ec-102">Add Lync Server 2010 Survivable Branch Appliance branch site to your topology</span></span>
 
 </div>
 
@@ -35,22 +35,22 @@ ms.locfileid: "42033780"
 
 <span> </span>
 
-<span data-ttu-id="263a1-103">_**Última modificação do tópico:** 2012-10-07_</span><span class="sxs-lookup"><span data-stu-id="263a1-103">_**Topic Last Modified:** 2012-10-07_</span></span>
+<span data-ttu-id="616ec-103">_**Última modificação do tópico:** 2012-10-07_</span><span class="sxs-lookup"><span data-stu-id="616ec-103">_**Topic Last Modified:** 2012-10-07_</span></span>
 
-<span data-ttu-id="263a1-104">Aplicativos de ramificação persistentes do Microsoft Lync Server 2010 (SBA) podem ser associados a um pool de front-ends do Microsoft Lync Server 2013 como um registrador de backup.</span><span class="sxs-lookup"><span data-stu-id="263a1-104">Microsoft Lync Server 2010 Survivable Branch Appliances (SBA) can be associated to a Microsoft Lync Server 2013 Front End pool as a backup Registrar.</span></span> <span data-ttu-id="263a1-105">Consulte a seção migração, [conectar um aparelho de filial persistente](connect-a-survivable-branch-appliance.md), para obter procedimentos detalhados sobre como conectar o Microsoft lync Server 2010 SBA a um pool de front-ends do Microsoft lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="263a1-105">Refer to the Migration section, [Connect a Survivable Branch Appliance](connect-a-survivable-branch-appliance.md), for detailed procedures on how to connect your Microsoft Lync Server 2010 SBA to a Microsoft Lync Server 2013 Front End pool.</span></span>
+<span data-ttu-id="616ec-104">Aplicativos de ramificação persistentes do Microsoft Lync Server 2010 (SBA) podem ser associados a um pool de front-ends do Microsoft Lync Server 2013 como um registrador de backup.</span><span class="sxs-lookup"><span data-stu-id="616ec-104">Microsoft Lync Server 2010 Survivable Branch Appliances (SBA) can be associated to a Microsoft Lync Server 2013 Front End pool as a backup Registrar.</span></span> <span data-ttu-id="616ec-105">Consulte a seção migração, [conectar um aparelho de filial persistente](connect-a-survivable-branch-appliance.md), para obter procedimentos detalhados sobre como conectar o Microsoft lync Server 2010 SBA a um pool de front-ends do Microsoft lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="616ec-105">Refer to the Migration section, [Connect a Survivable Branch Appliance](connect-a-survivable-branch-appliance.md), for detailed procedures on how to connect your Microsoft Lync Server 2010 SBA to a Microsoft Lync Server 2013 Front End pool.</span></span>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="263a1-106">Confira também</span><span class="sxs-lookup"><span data-stu-id="263a1-106">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="616ec-106">Confira também</span><span class="sxs-lookup"><span data-stu-id="616ec-106">See Also</span></span>
 
 
-[<span data-ttu-id="263a1-107">Definir um servidor ou aparelho de filial persistente no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="263a1-107">Define a Survivable Branch Appliance or Server in Lync Server 2013</span></span>](lync-server-2013-define-a-survivable-branch-appliance-or-server.md)  
-[<span data-ttu-id="263a1-108">Definir um gateway PSTN para um site de filial no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="263a1-108">Define a PSTN gateway for a branch site in Lync Server 2013</span></span>](lync-server-2013-define-a-pstn-gateway-for-a-branch-site.md)  
-[<span data-ttu-id="263a1-109">Configurar um tronco com bypass de mídia no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="263a1-109">Configure a trunk with media bypass in Lync Server 2013</span></span>](lync-server-2013-configure-a-trunk-with-media-bypass.md)  
-[<span data-ttu-id="263a1-110">Configurar um tronco sem bypass de mídia no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="263a1-110">Configure a trunk without media bypass in Lync Server 2013</span></span>](lync-server-2013-configure-a-trunk-without-media-bypass.md)  
+[<span data-ttu-id="616ec-107">Definir um servidor ou aparelho de filial persistente no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="616ec-107">Define a Survivable Branch Appliance or Server in Lync Server 2013</span></span>](lync-server-2013-define-a-survivable-branch-appliance-or-server.md)  
+[<span data-ttu-id="616ec-108">Definir um gateway PSTN para um site de filial no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="616ec-108">Define a PSTN gateway for a branch site in Lync Server 2013</span></span>](lync-server-2013-define-a-pstn-gateway-for-a-branch-site.md)  
+[<span data-ttu-id="616ec-109">Configurar um tronco com bypass de mídia no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="616ec-109">Configure a trunk with media bypass in Lync Server 2013</span></span>](lync-server-2013-configure-a-trunk-with-media-bypass.md)  
+[<span data-ttu-id="616ec-110">Configurar um tronco sem bypass de mídia no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="616ec-110">Configure a trunk without media bypass in Lync Server 2013</span></span>](lync-server-2013-configure-a-trunk-without-media-bypass.md)  
 
 
-[<span data-ttu-id="263a1-111">Conectar um aparelho de filial persistente</span><span class="sxs-lookup"><span data-stu-id="263a1-111">Connect a Survivable Branch Appliance</span></span>](connect-a-survivable-branch-appliance.md)  
+[<span data-ttu-id="616ec-111">Conectar um aparelho de filial persistente</span><span class="sxs-lookup"><span data-stu-id="616ec-111">Connect a Survivable Branch Appliance</span></span>](connect-a-survivable-branch-appliance.md)  
   
 
 </div>

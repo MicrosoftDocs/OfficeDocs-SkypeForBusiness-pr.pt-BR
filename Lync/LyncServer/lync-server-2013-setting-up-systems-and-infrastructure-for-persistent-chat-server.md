@@ -12,20 +12,20 @@ ms:contentKeyID: 48185501
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ac7a2b66e021b8d4da41d749368065d6be2d1b52
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 39151ef26eb1c6f36a0faed8d21c83c452e5a7f3
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42040109"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42142817"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="setting-up-systems-and-infrastructure-for-persistent-chat-server-in-lync-server-2013"></a><span data-ttu-id="07e1d-102">Configurando sistemas e infraestrutura para o servidor de chat persistente no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="07e1d-102">Setting up systems and infrastructure for Persistent Chat Server in Lync Server 2013</span></span>
+# <a name="setting-up-systems-and-infrastructure-for-persistent-chat-server-in-lync-server-2013"></a><span data-ttu-id="f6bf2-102">Configurando sistemas e infraestrutura para o servidor de chat persistente no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f6bf2-102">Setting up systems and infrastructure for Persistent Chat Server in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "42040109"
 
 <span> </span>
 
-<span data-ttu-id="07e1d-103">_**Última modificação do tópico:** 2012-03-23_</span><span class="sxs-lookup"><span data-stu-id="07e1d-103">_**Topic Last Modified:** 2012-03-23_</span></span>
+<span data-ttu-id="f6bf2-103">_**Última modificação do tópico:** 2012-03-23_</span><span class="sxs-lookup"><span data-stu-id="f6bf2-103">_**Topic Last Modified:** 2012-03-23_</span></span>
 
-<span data-ttu-id="07e1d-104">Antes de implantar o Lync Server 2013, servidor de chat persistente, você precisa implantar o hardware e o software apropriados para todos os componentes do servidor de chat persistente.</span><span class="sxs-lookup"><span data-stu-id="07e1d-104">Before deploying Lync Server 2013, Persistent Chat Server, you need to deploy the appropriate hardware and software for all Persistent Chat Server components.</span></span>
+<span data-ttu-id="f6bf2-104">Antes de implantar o Lync Server 2013, servidor de chat persistente, você precisa implantar o hardware e o software apropriados para todos os componentes do servidor de chat persistente.</span><span class="sxs-lookup"><span data-stu-id="f6bf2-104">Before deploying Lync Server 2013, Persistent Chat Server, you need to deploy the appropriate hardware and software for all Persistent Chat Server components.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="07e1d-105">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="07e1d-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="f6bf2-105">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="f6bf2-105">In This Section</span></span>
 
-  - [<span data-ttu-id="07e1d-106">Configurar plataformas de sistema no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="07e1d-106">Set up system platforms in Lync Server 2013</span></span>](lync-server-2013-set-up-system-platforms.md)
+  - [<span data-ttu-id="f6bf2-106">Configurar plataformas de sistema no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f6bf2-106">Set up system platforms in Lync Server 2013</span></span>](lync-server-2013-set-up-system-platforms.md)
 
-  - [<span data-ttu-id="07e1d-107">Instalar o software de pré-requisito do Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="07e1d-107">Install Lync Server 2013 prerequisite software</span></span>](lync-server-2013-install-lync-server-2013-prerequisite-software.md)
+  - [<span data-ttu-id="f6bf2-107">Instalar o software de pré-requisito do Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f6bf2-107">Install Lync Server 2013 prerequisite software</span></span>](lync-server-2013-install-lync-server-2013-prerequisite-software.md)
 
 </div>
 

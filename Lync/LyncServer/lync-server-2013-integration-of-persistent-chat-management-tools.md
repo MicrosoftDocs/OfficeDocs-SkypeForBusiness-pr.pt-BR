@@ -12,20 +12,20 @@ ms:contentKeyID: 49733651
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 29d283b7c935cb41f14b2a7048eedd369d378f44
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 322ad747b4ed94fb00f8d4fda47c99e7abda2e86
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42040970"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42145370"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="integration-of-persistent-chat-management-tools-in-lync-server-2013"></a><span data-ttu-id="284e8-102">Integração de ferramentas de gerenciamento de chat persistente no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="284e8-102">Integration of Persistent Chat management tools in Lync Server 2013</span></span>
+# <a name="integration-of-persistent-chat-management-tools-in-lync-server-2013"></a><span data-ttu-id="a6c1a-102">Integração de ferramentas de gerenciamento de chat persistente no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a6c1a-102">Integration of Persistent Chat management tools in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "42040970"
 
 <span> </span>
 
-<span data-ttu-id="284e8-103">_**Última modificação do tópico:** 2012-08-16_</span><span class="sxs-lookup"><span data-stu-id="284e8-103">_**Topic Last Modified:** 2012-08-16_</span></span>
+<span data-ttu-id="a6c1a-103">_**Última modificação do tópico:** 2012-08-16_</span><span class="sxs-lookup"><span data-stu-id="a6c1a-103">_**Topic Last Modified:** 2012-08-16_</span></span>
 
-<span data-ttu-id="284e8-104">O Lync Server 2013 simplifica a administração do servidor de chat persistente ao integrar suas ferramentas de administração com as ferramentas usadas para o restante do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="284e8-104">Lync Server 2013 simplifies the administration of Persistent Chat Server by integrating its administration tools with the tools used for the rest of Lync Server.</span></span>
+<span data-ttu-id="a6c1a-104">O Lync Server 2013 simplifica a administração do servidor de chat persistente ao integrar suas ferramentas de administração com as ferramentas usadas para o restante do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="a6c1a-104">Lync Server 2013 simplifies the administration of Persistent Chat Server by integrating its administration tools with the tools used for the rest of Lync Server.</span></span>
 
-<span data-ttu-id="284e8-105">Servidor de chat persistente inclui uma experiência de interface de usuário administrativa integrada com o painel de controle do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="284e8-105">Persistent Chat Server includes an administrative user interface experience integrated with the Lync Server Control Panel.</span></span> <span data-ttu-id="284e8-106">Além disso, o servidor de chat persistente inclui uma coleção de cmdlets do Windows PowerShell para administrar e gerenciar categorias de servidor de chat persistente, salas (incluindo exclusão de salas e limpeza de conteúdo obsoleto) e suplementos.</span><span class="sxs-lookup"><span data-stu-id="284e8-106">Also, Persistent Chat Server includes a collection of Windows PowerShell cmdlets to administer and manage Persistent Chat Server categories, rooms (including deleting rooms and purging obsolete content), and add-ins.</span></span>
+<span data-ttu-id="a6c1a-105">Servidor de chat persistente inclui uma experiência de interface de usuário administrativa integrada com o painel de controle do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="a6c1a-105">Persistent Chat Server includes an administrative user interface experience integrated with the Lync Server Control Panel.</span></span> <span data-ttu-id="a6c1a-106">Além disso, o servidor de chat persistente inclui uma coleção de cmdlets do Windows PowerShell para administrar e gerenciar categorias de servidor de chat persistente, salas (incluindo exclusão de salas e limpeza de conteúdo obsoleto) e suplementos.</span><span class="sxs-lookup"><span data-stu-id="a6c1a-106">Also, Persistent Chat Server includes a collection of Windows PowerShell cmdlets to administer and manage Persistent Chat Server categories, rooms (including deleting rooms and purging obsolete content), and add-ins.</span></span>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="284e8-107">Confira também</span><span class="sxs-lookup"><span data-stu-id="284e8-107">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="a6c1a-107">Confira também</span><span class="sxs-lookup"><span data-stu-id="a6c1a-107">See Also</span></span>
 
 
-[<span data-ttu-id="284e8-108">Visão geral do servidor de chat persistente no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="284e8-108">Overview of Persistent Chat Server in Lync Server 2013</span></span>](lync-server-2013-overview-of-persistent-chat-server.md)  
+[<span data-ttu-id="a6c1a-108">Visão geral do servidor de chat persistente no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a6c1a-108">Overview of Persistent Chat Server in Lync Server 2013</span></span>](lync-server-2013-overview-of-persistent-chat-server.md)  
 
 
-[<span data-ttu-id="284e8-109">Gerenciar Lync Server 2013, Servidor de Chat Persistente</span><span class="sxs-lookup"><span data-stu-id="284e8-109">Managing Lync Server 2013, Persistent Chat Server</span></span>](managing-lync-server-2013-persistent-chat-server.md)  
+[<span data-ttu-id="a6c1a-109">Gerenciar Lync Server 2013, Servidor de Chat Persistente</span><span class="sxs-lookup"><span data-stu-id="a6c1a-109">Managing Lync Server 2013, Persistent Chat Server</span></span>](managing-lync-server-2013-persistent-chat-server.md)  
   
 
 </div>

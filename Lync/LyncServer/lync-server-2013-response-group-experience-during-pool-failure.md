@@ -12,20 +12,20 @@ ms:contentKeyID: 48184116
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0e7867af15eb5e8824562eb03244280cfbc84f7d
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: d3977d05c0916cc23f628c0af26be1cbc8a79990
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42051685"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42144788"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="response-group-experience-in-lync-server-2013-during-pool-failure"></a><span data-ttu-id="0308a-102">Experiência do grupo de resposta no Lync Server 2013 durante falha do pool</span><span class="sxs-lookup"><span data-stu-id="0308a-102">Response group experience in Lync Server 2013 during pool failure</span></span>
+# <a name="response-group-experience-in-lync-server-2013-during-pool-failure"></a><span data-ttu-id="6ecb5-102">Experiência do grupo de resposta no Lync Server 2013 durante falha do pool</span><span class="sxs-lookup"><span data-stu-id="6ecb5-102">Response group experience in Lync Server 2013 during pool failure</span></span>
 
 </div>
 
@@ -35,33 +35,33 @@ ms.locfileid: "42051685"
 
 <span> </span>
 
-<span data-ttu-id="0308a-103">_**Última modificação do tópico:** 2012-10-30_</span><span class="sxs-lookup"><span data-stu-id="0308a-103">_**Topic Last Modified:** 2012-10-30_</span></span>
+<span data-ttu-id="6ecb5-103">_**Última modificação do tópico:** 2012-10-30_</span><span class="sxs-lookup"><span data-stu-id="6ecb5-103">_**Topic Last Modified:** 2012-10-30_</span></span>
 
-<span data-ttu-id="0308a-104">Essa seção descreve em detalhes como a atividade do grupo de resposta é afetada nos seguintes estágios:</span><span class="sxs-lookup"><span data-stu-id="0308a-104">This section describes in detail how response group activity is affected in the following stages:</span></span>
+<span data-ttu-id="6ecb5-104">Essa seção descreve em detalhes como a atividade do grupo de resposta é afetada nos seguintes estágios:</span><span class="sxs-lookup"><span data-stu-id="6ecb5-104">This section describes in detail how response group activity is affected in the following stages:</span></span>
 
-  - <span data-ttu-id="0308a-105">Uma interrupção ocorre no pool primário, mas o failover ainda não foi iniciado.</span><span class="sxs-lookup"><span data-stu-id="0308a-105">An outage occurs in the primary pool, but failover is not yet initiated.</span></span>
+  - <span data-ttu-id="6ecb5-105">Uma interrupção ocorre no pool primário, mas o failover ainda não foi iniciado.</span><span class="sxs-lookup"><span data-stu-id="6ecb5-105">An outage occurs in the primary pool, but failover is not yet initiated.</span></span>
 
-  - <span data-ttu-id="0308a-106">O serviço realizou um failover ao pool de backup.</span><span class="sxs-lookup"><span data-stu-id="0308a-106">Service is failed over to the backup pool.</span></span>
+  - <span data-ttu-id="6ecb5-106">O serviço realizou um failover ao pool de backup.</span><span class="sxs-lookup"><span data-stu-id="6ecb5-106">Service is failed over to the backup pool.</span></span>
 
-  - <span data-ttu-id="0308a-107">O serviço realizou um failback ao pool primário.</span><span class="sxs-lookup"><span data-stu-id="0308a-107">Service is failed back to the primary pool.</span></span>
+  - <span data-ttu-id="6ecb5-107">O serviço realizou um failback ao pool primário.</span><span class="sxs-lookup"><span data-stu-id="6ecb5-107">Service is failed back to the primary pool.</span></span>
 
 <div>
 
-## <a name="user-experience-when-outage-occurs"></a><span data-ttu-id="0308a-108">Experiência do usuário quando ocorre interrupção</span><span class="sxs-lookup"><span data-stu-id="0308a-108">User Experience When Outage Occurs</span></span>
+## <a name="user-experience-when-outage-occurs"></a><span data-ttu-id="6ecb5-108">Experiência do usuário quando ocorre interrupção</span><span class="sxs-lookup"><span data-stu-id="6ecb5-108">User Experience When Outage Occurs</span></span>
 
-<span data-ttu-id="0308a-109">Quando ocorre uma interrupção de um pool ou site, mas o administrador ainda não iniciou o failover, a atividade do grupo de resposta é manipulada como descrito na seguinte tabela.</span><span class="sxs-lookup"><span data-stu-id="0308a-109">When a pool or site outage occurs, but the administrator has not yet initiated failover, response group activity is handled as described in the following table.</span></span>
+<span data-ttu-id="6ecb5-109">Quando ocorre uma interrupção de um pool ou site, mas o administrador ainda não iniciou o failover, a atividade do grupo de resposta é manipulada como descrito na seguinte tabela.</span><span class="sxs-lookup"><span data-stu-id="6ecb5-109">When a pool or site outage occurs, but the administrator has not yet initiated failover, response group activity is handled as described in the following table.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="0308a-p101">Durante a recuperação de desastre, as chamadas se comportam de forma diferente se os grupos de resposta do pool primário forem importados ao pool de backup durante a recuperação. Na tabela seguinte, as referências aos grupos de resposta importados significam que os grupos de resposta do pool primário foram importados ao pool de backup durante o modo de recuperação de desastre.</span><span class="sxs-lookup"><span data-stu-id="0308a-p101">During disaster recovery, calls behave differently depending on whether the primary pool response groups were imported to the backup pool during recovery. In the following table, references to imported response groups mean that primary pool response groups were imported to the backup pool during disaster recovery mode.</span></span>
+> <span data-ttu-id="6ecb5-p101">Durante a recuperação de desastre, as chamadas se comportam de forma diferente se os grupos de resposta do pool primário forem importados ao pool de backup durante a recuperação. Na tabela seguinte, as referências aos grupos de resposta importados significam que os grupos de resposta do pool primário foram importados ao pool de backup durante o modo de recuperação de desastre.</span><span class="sxs-lookup"><span data-stu-id="6ecb5-p101">During disaster recovery, calls behave differently depending on whether the primary pool response groups were imported to the backup pool during recovery. In the following table, references to imported response groups mean that primary pool response groups were imported to the backup pool during disaster recovery mode.</span></span>
 
 
 
 </div>
 
-### <a name="outage-occurs"></a><span data-ttu-id="0308a-112">Ocorre a interrupção</span><span class="sxs-lookup"><span data-stu-id="0308a-112">Outage Occurs</span></span>
+### <a name="outage-occurs"></a><span data-ttu-id="6ecb5-112">Ocorre a interrupção</span><span class="sxs-lookup"><span data-stu-id="6ecb5-112">Outage Occurs</span></span>
 
 <table>
 <colgroup>
@@ -70,47 +70,47 @@ ms.locfileid: "42051685"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="0308a-113">Tipo de chamada ou ação do usuário</span><span class="sxs-lookup"><span data-stu-id="0308a-113">Type of call or user action</span></span></th>
-<th><span data-ttu-id="0308a-114">Durante a interrupção</span><span class="sxs-lookup"><span data-stu-id="0308a-114">During outage</span></span></th>
+<th><span data-ttu-id="6ecb5-113">Tipo de chamada ou ação do usuário</span><span class="sxs-lookup"><span data-stu-id="6ecb5-113">Type of call or user action</span></span></th>
+<th><span data-ttu-id="6ecb5-114">Durante a interrupção</span><span class="sxs-lookup"><span data-stu-id="6ecb5-114">During outage</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="0308a-115">Chamadas conectadas ao agente</span><span class="sxs-lookup"><span data-stu-id="0308a-115">Calls connected to an agent</span></span></p></td>
+<td><p><span data-ttu-id="6ecb5-115">Chamadas conectadas ao agente</span><span class="sxs-lookup"><span data-stu-id="6ecb5-115">Calls connected to an agent</span></span></p></td>
 <td><ul>
-<li><p><span data-ttu-id="0308a-116">Chamadas normais permanecem conectadas.</span><span class="sxs-lookup"><span data-stu-id="0308a-116">Regular calls remain connected.</span></span></p></li>
-<li><p><span data-ttu-id="0308a-117">Chamadas anônimas são desconectadas.</span><span class="sxs-lookup"><span data-stu-id="0308a-117">Anonymous calls are disconnected.</span></span></p></li>
+<li><p><span data-ttu-id="6ecb5-116">Chamadas normais permanecem conectadas.</span><span class="sxs-lookup"><span data-stu-id="6ecb5-116">Regular calls remain connected.</span></span></p></li>
+<li><p><span data-ttu-id="6ecb5-117">Chamadas anônimas são desconectadas.</span><span class="sxs-lookup"><span data-stu-id="6ecb5-117">Anonymous calls are disconnected.</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="0308a-118">Chamadas em andamento ainda não conectadas a um agente</span><span class="sxs-lookup"><span data-stu-id="0308a-118">In progress calls not yet connected to an agent</span></span></p></td>
-<td><p><span data-ttu-id="0308a-119">As chamadas são desconectadas.</span><span class="sxs-lookup"><span data-stu-id="0308a-119">Calls are disconnected.</span></span></p></td>
+<td><p><span data-ttu-id="6ecb5-118">Chamadas em andamento ainda não conectadas a um agente</span><span class="sxs-lookup"><span data-stu-id="6ecb5-118">In progress calls not yet connected to an agent</span></span></p></td>
+<td><p><span data-ttu-id="6ecb5-119">As chamadas são desconectadas.</span><span class="sxs-lookup"><span data-stu-id="6ecb5-119">Calls are disconnected.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="0308a-120">Novas chamadas</span><span class="sxs-lookup"><span data-stu-id="0308a-120">New calls</span></span></p></td>
+<td><p><span data-ttu-id="6ecb5-120">Novas chamadas</span><span class="sxs-lookup"><span data-stu-id="6ecb5-120">New calls</span></span></p></td>
 <td><ul>
-<li><p><span data-ttu-id="0308a-121">As chamadas são desconectadas.</span><span class="sxs-lookup"><span data-stu-id="0308a-121">Calls are disconnected.</span></span></p></li>
-<li><p><span data-ttu-id="0308a-122">Se um grupo de resposta for importado, as chamadas serão conectadas ao pool de backup, mas os agentes hospedados no pool primário serão inacessíveis.</span><span class="sxs-lookup"><span data-stu-id="0308a-122">If response groups were imported, calls connect to backup pool, but agents homed in primary pool are unreachable.</span></span></p></li>
+<li><p><span data-ttu-id="6ecb5-121">As chamadas são desconectadas.</span><span class="sxs-lookup"><span data-stu-id="6ecb5-121">Calls are disconnected.</span></span></p></li>
+<li><p><span data-ttu-id="6ecb5-122">Se um grupo de resposta for importado, as chamadas serão conectadas ao pool de backup, mas os agentes hospedados no pool primário serão inacessíveis.</span><span class="sxs-lookup"><span data-stu-id="6ecb5-122">If response groups were imported, calls connect to backup pool, but agents homed in primary pool are unreachable.</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="0308a-123">Os agente fazem chamadas em nome do grupo de resposta</span><span class="sxs-lookup"><span data-stu-id="0308a-123">Agent calls on behalf of response group</span></span></p></td>
-<td><p><span data-ttu-id="0308a-124">O recurso é desabilitado durante esse estágio.</span><span class="sxs-lookup"><span data-stu-id="0308a-124">Feature is disabled during this stage.</span></span></p></td>
+<td><p><span data-ttu-id="6ecb5-123">Os agente fazem chamadas em nome do grupo de resposta</span><span class="sxs-lookup"><span data-stu-id="6ecb5-123">Agent calls on behalf of response group</span></span></p></td>
+<td><p><span data-ttu-id="6ecb5-124">O recurso é desabilitado durante esse estágio.</span><span class="sxs-lookup"><span data-stu-id="6ecb5-124">Feature is disabled during this stage.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="0308a-125">Entrada do agente e informações do agente</span><span class="sxs-lookup"><span data-stu-id="0308a-125">Agent sign-in and agent information</span></span></p></td>
+<td><p><span data-ttu-id="6ecb5-125">Entrada do agente e informações do agente</span><span class="sxs-lookup"><span data-stu-id="6ecb5-125">Agent sign-in and agent information</span></span></p></td>
 <td><ul>
-<li><p><span data-ttu-id="0308a-126">Os grupos de agente pertencentes ao pool primário podem ser exibidos no console do agente, mas os agentes não podem entrar.</span><span class="sxs-lookup"><span data-stu-id="0308a-126">Agent groups owned by the primary pool can be viewed on agent console but agents cannot sign in.</span></span></p></li>
-<li><p><span data-ttu-id="0308a-127">Os grupos de agentes pertencentes ao pool de backup podem ser exibido no console do agente e os agentes podem entrar.</span><span class="sxs-lookup"><span data-stu-id="0308a-127">Agent groups owned by the backup pool can be viewed on agent console and agents can sign in.</span></span></p></li>
-<li><p><span data-ttu-id="0308a-128">Os grupos de agentes importados não são exibidos no console do agente.</span><span class="sxs-lookup"><span data-stu-id="0308a-128">Imported agent groups are not displayed on agent console.</span></span></p></li>
+<li><p><span data-ttu-id="6ecb5-126">Os grupos de agente pertencentes ao pool primário podem ser exibidos no console do agente, mas os agentes não podem entrar.</span><span class="sxs-lookup"><span data-stu-id="6ecb5-126">Agent groups owned by the primary pool can be viewed on agent console but agents cannot sign in.</span></span></p></li>
+<li><p><span data-ttu-id="6ecb5-127">Os grupos de agentes pertencentes ao pool de backup podem ser exibido no console do agente e os agentes podem entrar.</span><span class="sxs-lookup"><span data-stu-id="6ecb5-127">Agent groups owned by the backup pool can be viewed on agent console and agents can sign in.</span></span></p></li>
+<li><p><span data-ttu-id="6ecb5-128">Os grupos de agentes importados não são exibidos no console do agente.</span><span class="sxs-lookup"><span data-stu-id="6ecb5-128">Imported agent groups are not displayed on agent console.</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="0308a-129">Configuração do grupo de resposta</span><span class="sxs-lookup"><span data-stu-id="0308a-129">Response group configuration</span></span></p></td>
+<td><p><span data-ttu-id="6ecb5-129">Configuração do grupo de resposta</span><span class="sxs-lookup"><span data-stu-id="6ecb5-129">Response group configuration</span></span></p></td>
 <td><ul>
-<li><p><span data-ttu-id="0308a-130">Os grupos de resposta pertencentes ao pool primário podem ser exibidos, dependendo da disponibilidade do banco de dados back-end do pool primário, mas não podem ser modificados.</span><span class="sxs-lookup"><span data-stu-id="0308a-130">Response groups owned by the primary pool can be viewed, depending on the availability of the primary pool’s back-end database, but cannot be modified.</span></span></p></li>
-<li><p><span data-ttu-id="0308a-131">Os grupos de respostas pertencentes ao pool de backup podem ser exibidos e modificados.</span><span class="sxs-lookup"><span data-stu-id="0308a-131">Response groups owned by the backup pool can be viewed and modified.</span></span></p></li>
-<li><p><span data-ttu-id="0308a-132">Grupos de resposta importados não podem ser exibidos com o painel de controle do Lync Server ou com a ferramenta de configuração do grupo de resposta, mas podem ser configurados usando cmdlets do Shell de gerenciamento do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="0308a-132">Imported response groups cannot be viewed with Lync Server Control Panel or the Response Group Configuration Tool, but can be configured by using Lync Server Management Shell cmdlets.</span></span></p></li>
+<li><p><span data-ttu-id="6ecb5-130">Os grupos de resposta pertencentes ao pool primário podem ser exibidos, dependendo da disponibilidade do banco de dados back-end do pool primário, mas não podem ser modificados.</span><span class="sxs-lookup"><span data-stu-id="6ecb5-130">Response groups owned by the primary pool can be viewed, depending on the availability of the primary pool’s back-end database, but cannot be modified.</span></span></p></li>
+<li><p><span data-ttu-id="6ecb5-131">Os grupos de respostas pertencentes ao pool de backup podem ser exibidos e modificados.</span><span class="sxs-lookup"><span data-stu-id="6ecb5-131">Response groups owned by the backup pool can be viewed and modified.</span></span></p></li>
+<li><p><span data-ttu-id="6ecb5-132">Grupos de resposta importados não podem ser exibidos com o painel de controle do Lync Server ou com a ferramenta de configuração do grupo de resposta, mas podem ser configurados usando cmdlets do Shell de gerenciamento do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="6ecb5-132">Imported response groups cannot be viewed with Lync Server Control Panel or the Response Group Configuration Tool, but can be configured by using Lync Server Management Shell cmdlets.</span></span></p></li>
 </ul></td>
 </tr>
 </tbody>
@@ -121,21 +121,21 @@ ms.locfileid: "42051685"
 
 <div>
 
-## <a name="user-experience-during-failover"></a><span data-ttu-id="0308a-133">Experiência do usuário durante o failover</span><span class="sxs-lookup"><span data-stu-id="0308a-133">User Experience During Failover</span></span>
+## <a name="user-experience-during-failover"></a><span data-ttu-id="6ecb5-133">Experiência do usuário durante o failover</span><span class="sxs-lookup"><span data-stu-id="6ecb5-133">User Experience During Failover</span></span>
 
-<span data-ttu-id="0308a-p102">Quando um administrador chama um failover para um pool de backup, a atividade do grupo de resposta é manipulada durante e depois do failover, conforme descrito na tabela seguinte. A primeira coluna descreve o tipo de atividade que pode estar ocorrendo. A coluna do meio descreve como cada atividade é manipulada durante o breve período necessário para enviar o failover ao pool de backup. A última coluna descreve como a atividade é manipulada durante todo o período, após o processo de failover ser concluído e o pool de backup estar disponível para o pool primário.</span><span class="sxs-lookup"><span data-stu-id="0308a-p102">When an administrator invokes failover to a backup pool, response group activity is handled during and after the failover as described in the following table. The first column describes the type of activity that might be taking place. The middle column describes how each activity is handled during the brief time that it takes to fail over to the backup pool. The last column describes how the activity is handled for the duration, after the failover process is complete and the backup pool is standing in for the primary pool.</span></span>
+<span data-ttu-id="6ecb5-p102">Quando um administrador chama um failover para um pool de backup, a atividade do grupo de resposta é manipulada durante e depois do failover, conforme descrito na tabela seguinte. A primeira coluna descreve o tipo de atividade que pode estar ocorrendo. A coluna do meio descreve como cada atividade é manipulada durante o breve período necessário para enviar o failover ao pool de backup. A última coluna descreve como a atividade é manipulada durante todo o período, após o processo de failover ser concluído e o pool de backup estar disponível para o pool primário.</span><span class="sxs-lookup"><span data-stu-id="6ecb5-p102">When an administrator invokes failover to a backup pool, response group activity is handled during and after the failover as described in the following table. The first column describes the type of activity that might be taking place. The middle column describes how each activity is handled during the brief time that it takes to fail over to the backup pool. The last column describes how the activity is handled for the duration, after the failover process is complete and the backup pool is standing in for the primary pool.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="0308a-p103">Durante a recuperação de desastre, as chamadas se comportam de maneiras diferentes se os grupos de respostas do pool primário forem importados ao pool de backup durante a recuperação. Na seguinte tabela, as referências aos grupos de resposta importados significam que os grupos de respostas do pool primário foram importados ao pool de backup durante o modo de recuperação de desastre.</span><span class="sxs-lookup"><span data-stu-id="0308a-p103">During disaster recovery, calls behave differently depending on whether the primary pool response groups were imported to the backup pool during recovery. In the following table, references to imported response groups mean that primary pool response groups were imported to the backup pool during disaster recovery mode.</span></span>
+> <span data-ttu-id="6ecb5-p103">Durante a recuperação de desastre, as chamadas se comportam de maneiras diferentes se os grupos de respostas do pool primário forem importados ao pool de backup durante a recuperação. Na seguinte tabela, as referências aos grupos de resposta importados significam que os grupos de respostas do pool primário foram importados ao pool de backup durante o modo de recuperação de desastre.</span><span class="sxs-lookup"><span data-stu-id="6ecb5-p103">During disaster recovery, calls behave differently depending on whether the primary pool response groups were imported to the backup pool during recovery. In the following table, references to imported response groups mean that primary pool response groups were imported to the backup pool during disaster recovery mode.</span></span>
 
 
 
 </div>
 
-### <a name="failover-is-initiated"></a><span data-ttu-id="0308a-140">O failover é iniciado</span><span class="sxs-lookup"><span data-stu-id="0308a-140">Failover Is Initiated</span></span>
+### <a name="failover-is-initiated"></a><span data-ttu-id="6ecb5-140">O failover é iniciado</span><span class="sxs-lookup"><span data-stu-id="6ecb5-140">Failover Is Initiated</span></span>
 
 <table>
 <colgroup>
@@ -145,74 +145,74 @@ ms.locfileid: "42051685"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="0308a-141">Tipo de chamada ou ação do usuário</span><span class="sxs-lookup"><span data-stu-id="0308a-141">Type of call or user action</span></span></th>
-<th><span data-ttu-id="0308a-142">Durante o failover</span><span class="sxs-lookup"><span data-stu-id="0308a-142">During Failover</span></span></th>
-<th><span data-ttu-id="0308a-143">Após a conclusão do failover</span><span class="sxs-lookup"><span data-stu-id="0308a-143">After Failover Completes</span></span></th>
+<th><span data-ttu-id="6ecb5-141">Tipo de chamada ou ação do usuário</span><span class="sxs-lookup"><span data-stu-id="6ecb5-141">Type of call or user action</span></span></th>
+<th><span data-ttu-id="6ecb5-142">Durante o failover</span><span class="sxs-lookup"><span data-stu-id="6ecb5-142">During Failover</span></span></th>
+<th><span data-ttu-id="6ecb5-143">Após a conclusão do failover</span><span class="sxs-lookup"><span data-stu-id="6ecb5-143">After Failover Completes</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="0308a-144">Chamadas conectadas a um agente</span><span class="sxs-lookup"><span data-stu-id="0308a-144">Calls connected to an agent</span></span></p></td>
+<td><p><span data-ttu-id="6ecb5-144">Chamadas conectadas a um agente</span><span class="sxs-lookup"><span data-stu-id="6ecb5-144">Calls connected to an agent</span></span></p></td>
 <td><ul>
-<li><p><span data-ttu-id="0308a-145">Chamadas normais permanecem conectadas.</span><span class="sxs-lookup"><span data-stu-id="0308a-145">Regular calls remain connected.</span></span></p></li>
-<li><p><span data-ttu-id="0308a-146">Chamadas anônimas são desconectadas.</span><span class="sxs-lookup"><span data-stu-id="0308a-146">Anonymous calls are disconnected.</span></span></p></li>
+<li><p><span data-ttu-id="6ecb5-145">Chamadas normais permanecem conectadas.</span><span class="sxs-lookup"><span data-stu-id="6ecb5-145">Regular calls remain connected.</span></span></p></li>
+<li><p><span data-ttu-id="6ecb5-146">Chamadas anônimas são desconectadas.</span><span class="sxs-lookup"><span data-stu-id="6ecb5-146">Anonymous calls are disconnected.</span></span></p></li>
 </ul></td>
 <td><ul>
-<li><p><span data-ttu-id="0308a-147">Chamadas normais permanecem conectadas.</span><span class="sxs-lookup"><span data-stu-id="0308a-147">Regular calls remain connected.</span></span></p></li>
-<li><p><span data-ttu-id="0308a-148">Para grupos de respostas importados, as chamadas anônimas que alcançaram o pool de backup permanecem conectadas.</span><span class="sxs-lookup"><span data-stu-id="0308a-148">For imported response groups, anonymous calls that have reached the backup pool remain connected.</span></span></p></li>
+<li><p><span data-ttu-id="6ecb5-147">Chamadas normais permanecem conectadas.</span><span class="sxs-lookup"><span data-stu-id="6ecb5-147">Regular calls remain connected.</span></span></p></li>
+<li><p><span data-ttu-id="6ecb5-148">Para grupos de respostas importados, as chamadas anônimas que alcançaram o pool de backup permanecem conectadas.</span><span class="sxs-lookup"><span data-stu-id="6ecb5-148">For imported response groups, anonymous calls that have reached the backup pool remain connected.</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="0308a-149">Chamadas em andamento ainda não conectadas a um agente</span><span class="sxs-lookup"><span data-stu-id="0308a-149">In progress calls not yet connected to an agent</span></span></p></td>
-<td><p><span data-ttu-id="0308a-150">As chamadas são desconectadas.</span><span class="sxs-lookup"><span data-stu-id="0308a-150">Calls are disconnected.</span></span></p></td>
+<td><p><span data-ttu-id="6ecb5-149">Chamadas em andamento ainda não conectadas a um agente</span><span class="sxs-lookup"><span data-stu-id="6ecb5-149">In progress calls not yet connected to an agent</span></span></p></td>
+<td><p><span data-ttu-id="6ecb5-150">As chamadas são desconectadas.</span><span class="sxs-lookup"><span data-stu-id="6ecb5-150">Calls are disconnected.</span></span></p></td>
 <td><ul>
-<li><p><span data-ttu-id="0308a-151">Se os grupos de respostas não forem importados, não haverá chamadas nesse status.</span><span class="sxs-lookup"><span data-stu-id="0308a-151">If response groups were not imported, no calls are in this status.</span></span></p></li>
-<li><p><span data-ttu-id="0308a-152">Para grupos de chamadas importados, as chamadas que alcançaram o pool de backup permanecem conectadas.</span><span class="sxs-lookup"><span data-stu-id="0308a-152">For imported response groups, calls that have reached the backup pool remain connected.</span></span></p></li>
+<li><p><span data-ttu-id="6ecb5-151">Se os grupos de respostas não forem importados, não haverá chamadas nesse status.</span><span class="sxs-lookup"><span data-stu-id="6ecb5-151">If response groups were not imported, no calls are in this status.</span></span></p></li>
+<li><p><span data-ttu-id="6ecb5-152">Para grupos de chamadas importados, as chamadas que alcançaram o pool de backup permanecem conectadas.</span><span class="sxs-lookup"><span data-stu-id="6ecb5-152">For imported response groups, calls that have reached the backup pool remain connected.</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="0308a-153">Novas chamadas</span><span class="sxs-lookup"><span data-stu-id="0308a-153">New calls</span></span></p></td>
+<td><p><span data-ttu-id="6ecb5-153">Novas chamadas</span><span class="sxs-lookup"><span data-stu-id="6ecb5-153">New calls</span></span></p></td>
 <td><ul>
-<li><p><span data-ttu-id="0308a-154">As chamadas são desconectadas.</span><span class="sxs-lookup"><span data-stu-id="0308a-154">Calls are disconnected.</span></span></p></li>
-<li><p><span data-ttu-id="0308a-155">Para grupos de respostas importados, as chamadas se conectam ao pool de backup, mas os agentes hospedados no pool primário são inalcançáveis.</span><span class="sxs-lookup"><span data-stu-id="0308a-155">For imported response groups, calls connect to the backup pool, but agents homed in the primary pool are unreachable.</span></span></p></li>
+<li><p><span data-ttu-id="6ecb5-154">As chamadas são desconectadas.</span><span class="sxs-lookup"><span data-stu-id="6ecb5-154">Calls are disconnected.</span></span></p></li>
+<li><p><span data-ttu-id="6ecb5-155">Para grupos de respostas importados, as chamadas se conectam ao pool de backup, mas os agentes hospedados no pool primário são inalcançáveis.</span><span class="sxs-lookup"><span data-stu-id="6ecb5-155">For imported response groups, calls connect to the backup pool, but agents homed in the primary pool are unreachable.</span></span></p></li>
 </ul></td>
 <td><ul>
-<li><p><span data-ttu-id="0308a-156">Se os grupos de resposta não forem importados, as chamadas serão desconectadas.</span><span class="sxs-lookup"><span data-stu-id="0308a-156">If response groups were not imported, calls are disconnected.</span></span></p></li>
-<li><p><span data-ttu-id="0308a-157">Para grupos de respostas importados, as chamadas são conectadas ao pool de backup.</span><span class="sxs-lookup"><span data-stu-id="0308a-157">For imported response groups, calls connect to the backup pool.</span></span></p></li>
+<li><p><span data-ttu-id="6ecb5-156">Se os grupos de resposta não forem importados, as chamadas serão desconectadas.</span><span class="sxs-lookup"><span data-stu-id="6ecb5-156">If response groups were not imported, calls are disconnected.</span></span></p></li>
+<li><p><span data-ttu-id="6ecb5-157">Para grupos de respostas importados, as chamadas são conectadas ao pool de backup.</span><span class="sxs-lookup"><span data-stu-id="6ecb5-157">For imported response groups, calls connect to the backup pool.</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="0308a-158">O agente chama em nome do grupo de resposta</span><span class="sxs-lookup"><span data-stu-id="0308a-158">Agent calls on behalf of response group</span></span></p></td>
-<td><p><span data-ttu-id="0308a-159">O recurso é desabilitado durante esse estágio</span><span class="sxs-lookup"><span data-stu-id="0308a-159">Feature is disabled during this stage</span></span></p></td>
+<td><p><span data-ttu-id="6ecb5-158">O agente chama em nome do grupo de resposta</span><span class="sxs-lookup"><span data-stu-id="6ecb5-158">Agent calls on behalf of response group</span></span></p></td>
+<td><p><span data-ttu-id="6ecb5-159">O recurso é desabilitado durante esse estágio</span><span class="sxs-lookup"><span data-stu-id="6ecb5-159">Feature is disabled during this stage</span></span></p></td>
 <td><ul>
-<li><p><span data-ttu-id="0308a-160">Se os grupos de resposta não forem importados, as chamadas falham.</span><span class="sxs-lookup"><span data-stu-id="0308a-160">If response groups were not imported, calls fail.</span></span></p></li>
-<li><p><span data-ttu-id="0308a-161">Para grupos de resposta importados, as chamadas são bem-sucedidas.</span><span class="sxs-lookup"><span data-stu-id="0308a-161">For imported response groups, calls succeed.</span></span></p></li>
+<li><p><span data-ttu-id="6ecb5-160">Se os grupos de resposta não forem importados, as chamadas falham.</span><span class="sxs-lookup"><span data-stu-id="6ecb5-160">If response groups were not imported, calls fail.</span></span></p></li>
+<li><p><span data-ttu-id="6ecb5-161">Para grupos de resposta importados, as chamadas são bem-sucedidas.</span><span class="sxs-lookup"><span data-stu-id="6ecb5-161">For imported response groups, calls succeed.</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="0308a-162">Entrada do agente e informação do agente</span><span class="sxs-lookup"><span data-stu-id="0308a-162">Agent sign-in and agent information</span></span></p></td>
+<td><p><span data-ttu-id="6ecb5-162">Entrada do agente e informação do agente</span><span class="sxs-lookup"><span data-stu-id="6ecb5-162">Agent sign-in and agent information</span></span></p></td>
 <td><ul>
-<li><p><span data-ttu-id="0308a-163">Os grupos de agente pertencentes ao pool primário podem ser exibidos no console do agente, mas os agentes não podem entrar.</span><span class="sxs-lookup"><span data-stu-id="0308a-163">Agent groups owned by the primary pool can be viewed on agent console but agents cannot sign in.</span></span></p></li>
-<li><p><span data-ttu-id="0308a-164">Os grupos de agentes pertencentes ao pool de backup podem ser exibido no console do agente e os agentes podem entrar.</span><span class="sxs-lookup"><span data-stu-id="0308a-164">Agent groups owned by the backup pool can be viewed on agent console and agents can sign in.</span></span></p></li>
-<li><p><span data-ttu-id="0308a-165">Os grupos de agentes importados são exibidos no console do agente e os agentes podem entrar.</span><span class="sxs-lookup"><span data-stu-id="0308a-165">Imported agent groups are displayed on agent console and agents can sign in.</span></span></p></li>
+<li><p><span data-ttu-id="6ecb5-163">Os grupos de agente pertencentes ao pool primário podem ser exibidos no console do agente, mas os agentes não podem entrar.</span><span class="sxs-lookup"><span data-stu-id="6ecb5-163">Agent groups owned by the primary pool can be viewed on agent console but agents cannot sign in.</span></span></p></li>
+<li><p><span data-ttu-id="6ecb5-164">Os grupos de agentes pertencentes ao pool de backup podem ser exibido no console do agente e os agentes podem entrar.</span><span class="sxs-lookup"><span data-stu-id="6ecb5-164">Agent groups owned by the backup pool can be viewed on agent console and agents can sign in.</span></span></p></li>
+<li><p><span data-ttu-id="6ecb5-165">Os grupos de agentes importados são exibidos no console do agente e os agentes podem entrar.</span><span class="sxs-lookup"><span data-stu-id="6ecb5-165">Imported agent groups are displayed on agent console and agents can sign in.</span></span></p></li>
 </ul></td>
 <td><ul>
-<li><p><span data-ttu-id="0308a-166">Os grupos de agentes pertencentes ao pool primário podem ser exibidos no console do agente, mas os agentes não podem entrar.</span><span class="sxs-lookup"><span data-stu-id="0308a-166">Agent groups owned by the primary pool can be viewed on agent console but agents cannot sign in.</span></span></p></li>
-<li><p><span data-ttu-id="0308a-167">Os grupos de agentes pertencentes ao pool de backup podem ser exibido no console do agente e os agentes podem entrar.</span><span class="sxs-lookup"><span data-stu-id="0308a-167">Agent groups owned by the backup pool can be viewed on agent console and agents can sign in.</span></span></p></li>
-<li><p><span data-ttu-id="0308a-168">Os grupos de agentes importados são exibidos no console do agente e os agentes podem entrar.</span><span class="sxs-lookup"><span data-stu-id="0308a-168">Imported agent groups are displayed on agent console and agents can sign in.</span></span></p></li>
+<li><p><span data-ttu-id="6ecb5-166">Os grupos de agentes pertencentes ao pool primário podem ser exibidos no console do agente, mas os agentes não podem entrar.</span><span class="sxs-lookup"><span data-stu-id="6ecb5-166">Agent groups owned by the primary pool can be viewed on agent console but agents cannot sign in.</span></span></p></li>
+<li><p><span data-ttu-id="6ecb5-167">Os grupos de agentes pertencentes ao pool de backup podem ser exibido no console do agente e os agentes podem entrar.</span><span class="sxs-lookup"><span data-stu-id="6ecb5-167">Agent groups owned by the backup pool can be viewed on agent console and agents can sign in.</span></span></p></li>
+<li><p><span data-ttu-id="6ecb5-168">Os grupos de agentes importados são exibidos no console do agente e os agentes podem entrar.</span><span class="sxs-lookup"><span data-stu-id="6ecb5-168">Imported agent groups are displayed on agent console and agents can sign in.</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="0308a-169">Configuração do grupo de resposta</span><span class="sxs-lookup"><span data-stu-id="0308a-169">Response group configuration</span></span></p></td>
+<td><p><span data-ttu-id="6ecb5-169">Configuração do grupo de resposta</span><span class="sxs-lookup"><span data-stu-id="6ecb5-169">Response group configuration</span></span></p></td>
 <td><ul>
-<li><p><span data-ttu-id="0308a-170">Os grupos de resposta pertencentes ao pool primário podem ser exibidos, dependendo da disponibilidade do banco de dados back-end do pool primário, mas não podem ser modificados.</span><span class="sxs-lookup"><span data-stu-id="0308a-170">Response groups owned by the primary pool can be viewed, depending on the availability of the primary pool’s back-end database, but cannot be modified.</span></span></p></li>
-<li><p><span data-ttu-id="0308a-171">Os grupos de respostas pertencentes ao pool de backup podem ser exibidos e modificados.</span><span class="sxs-lookup"><span data-stu-id="0308a-171">Response groups owned by the backup pool can be viewed and modified.</span></span></p></li>
-<li><p><span data-ttu-id="0308a-172">Grupos de resposta importados não podem ser exibidos com o painel de controle do Lync Server ou com a ferramenta de configuração do grupo de resposta, mas podem ser configurados usando cmdlets do Shell de gerenciamento do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="0308a-172">Imported response groups cannot be viewed with Lync Server Control Panel or the Response Group Configuration Tool, but can be configured by using Lync Server Management Shell cmdlets.</span></span></p></li>
+<li><p><span data-ttu-id="6ecb5-170">Os grupos de resposta pertencentes ao pool primário podem ser exibidos, dependendo da disponibilidade do banco de dados back-end do pool primário, mas não podem ser modificados.</span><span class="sxs-lookup"><span data-stu-id="6ecb5-170">Response groups owned by the primary pool can be viewed, depending on the availability of the primary pool’s back-end database, but cannot be modified.</span></span></p></li>
+<li><p><span data-ttu-id="6ecb5-171">Os grupos de respostas pertencentes ao pool de backup podem ser exibidos e modificados.</span><span class="sxs-lookup"><span data-stu-id="6ecb5-171">Response groups owned by the backup pool can be viewed and modified.</span></span></p></li>
+<li><p><span data-ttu-id="6ecb5-172">Grupos de resposta importados não podem ser exibidos com o painel de controle do Lync Server ou com a ferramenta de configuração do grupo de resposta, mas podem ser configurados usando cmdlets do Shell de gerenciamento do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="6ecb5-172">Imported response groups cannot be viewed with Lync Server Control Panel or the Response Group Configuration Tool, but can be configured by using Lync Server Management Shell cmdlets.</span></span></p></li>
 </ul></td>
 <td><ul>
-<li><p><span data-ttu-id="0308a-173">Os grupos de resposta pertencentes ao pool primário podem ser exibidos, dependendo da disponibilidade do banco de dados back end, mas não podem ser modificados.</span><span class="sxs-lookup"><span data-stu-id="0308a-173">Response groups owned by the primary pool can be viewed, depending on the availability of the back end database, but cannot be modified.</span></span></p></li>
-<li><p><span data-ttu-id="0308a-174">Os grupos de resposta pertencentes ao pool de backup podem ser exibidos e modificados.</span><span class="sxs-lookup"><span data-stu-id="0308a-174">Response groups owned by the backup pool can be viewed and modified.</span></span></p></li>
-<li><p><span data-ttu-id="0308a-175">Grupos de resposta importados não podem ser exibidos com o painel de controle do Lync Server ou com a ferramenta de configuração do grupo de resposta, mas podem ser configurados usando cmdlets do Shell de gerenciamento do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="0308a-175">Imported response groups cannot be viewed with Lync Server Control Panel or the Response Group Configuration Tool, but can be configured by using Lync Server Management Shell cmdlets.</span></span></p></li>
+<li><p><span data-ttu-id="6ecb5-173">Os grupos de resposta pertencentes ao pool primário podem ser exibidos, dependendo da disponibilidade do banco de dados back end, mas não podem ser modificados.</span><span class="sxs-lookup"><span data-stu-id="6ecb5-173">Response groups owned by the primary pool can be viewed, depending on the availability of the back end database, but cannot be modified.</span></span></p></li>
+<li><p><span data-ttu-id="6ecb5-174">Os grupos de resposta pertencentes ao pool de backup podem ser exibidos e modificados.</span><span class="sxs-lookup"><span data-stu-id="6ecb5-174">Response groups owned by the backup pool can be viewed and modified.</span></span></p></li>
+<li><p><span data-ttu-id="6ecb5-175">Grupos de resposta importados não podem ser exibidos com o painel de controle do Lync Server ou com a ferramenta de configuração do grupo de resposta, mas podem ser configurados usando cmdlets do Shell de gerenciamento do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="6ecb5-175">Imported response groups cannot be viewed with Lync Server Control Panel or the Response Group Configuration Tool, but can be configured by using Lync Server Management Shell cmdlets.</span></span></p></li>
 </ul></td>
 </tr>
 </tbody>
@@ -223,21 +223,21 @@ ms.locfileid: "42051685"
 
 <div>
 
-## <a name="user-experience-during-failback"></a><span data-ttu-id="0308a-176">Experiência do usuário durante o failback</span><span class="sxs-lookup"><span data-stu-id="0308a-176">User Experience During Failback</span></span>
+## <a name="user-experience-during-failback"></a><span data-ttu-id="6ecb5-176">Experiência do usuário durante o failback</span><span class="sxs-lookup"><span data-stu-id="6ecb5-176">User Experience During Failback</span></span>
 
-<span data-ttu-id="0308a-177">Quando um administrador chama o failback para o pool primário, a atividade do grupo de resposta é manipulada durante e após o failback, conforme descritos na tabela seguinte.</span><span class="sxs-lookup"><span data-stu-id="0308a-177">When an administrator invokes failback to the primary pool, response group activity is handled during and after the failback as described in the following table.</span></span>
+<span data-ttu-id="6ecb5-177">Quando um administrador chama o failback para o pool primário, a atividade do grupo de resposta é manipulada durante e após o failback, conforme descritos na tabela seguinte.</span><span class="sxs-lookup"><span data-stu-id="6ecb5-177">When an administrator invokes failback to the primary pool, response group activity is handled during and after the failback as described in the following table.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="0308a-p104">Durante a recuperação de desastre, as chamadas se comportam de forma diferente dependendo se os grupos de resposta do pool primário foram importados ao pool de backup durante a recuperação. Na tabela seguinte, as referências dos grupos de respostas importados significam que os grupos de respostas do pool primário foram importados ao pool de backup durante o modo de recuperação de desastre.</span><span class="sxs-lookup"><span data-stu-id="0308a-p104">During disaster recovery, calls behave differently depending on whether the primary pool response groups were imported to the backup pool during recovery. In the following table, references to imported response groups mean that primary pool response groups were imported to the backup pool during disaster recovery mode.</span></span>
+> <span data-ttu-id="6ecb5-p104">Durante a recuperação de desastre, as chamadas se comportam de forma diferente dependendo se os grupos de resposta do pool primário foram importados ao pool de backup durante a recuperação. Na tabela seguinte, as referências dos grupos de respostas importados significam que os grupos de respostas do pool primário foram importados ao pool de backup durante o modo de recuperação de desastre.</span><span class="sxs-lookup"><span data-stu-id="6ecb5-p104">During disaster recovery, calls behave differently depending on whether the primary pool response groups were imported to the backup pool during recovery. In the following table, references to imported response groups mean that primary pool response groups were imported to the backup pool during disaster recovery mode.</span></span>
 
 
 
 </div>
 
-### <a name="call-handling-in-failback"></a><span data-ttu-id="0308a-180">Administração de chamada no Failback</span><span class="sxs-lookup"><span data-stu-id="0308a-180">Call Handling in Failback</span></span>
+### <a name="call-handling-in-failback"></a><span data-ttu-id="6ecb5-180">Administração de chamada no Failback</span><span class="sxs-lookup"><span data-stu-id="6ecb5-180">Call Handling in Failback</span></span>
 
 <table>
 <colgroup>
@@ -247,70 +247,70 @@ ms.locfileid: "42051685"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="0308a-181">Tipo de chamada ou ação do usuário</span><span class="sxs-lookup"><span data-stu-id="0308a-181">Type of call or user action</span></span></th>
-<th><span data-ttu-id="0308a-182">Durante o failback</span><span class="sxs-lookup"><span data-stu-id="0308a-182">During Failback</span></span></th>
-<th><span data-ttu-id="0308a-183">Após a conclusão do failback</span><span class="sxs-lookup"><span data-stu-id="0308a-183">After Failback Completes</span></span></th>
+<th><span data-ttu-id="6ecb5-181">Tipo de chamada ou ação do usuário</span><span class="sxs-lookup"><span data-stu-id="6ecb5-181">Type of call or user action</span></span></th>
+<th><span data-ttu-id="6ecb5-182">Durante o failback</span><span class="sxs-lookup"><span data-stu-id="6ecb5-182">During Failback</span></span></th>
+<th><span data-ttu-id="6ecb5-183">Após a conclusão do failback</span><span class="sxs-lookup"><span data-stu-id="6ecb5-183">After Failback Completes</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="0308a-184">Chamadas conectadas a um agente</span><span class="sxs-lookup"><span data-stu-id="0308a-184">Calls connected to an agent</span></span></p></td>
+<td><p><span data-ttu-id="6ecb5-184">Chamadas conectadas a um agente</span><span class="sxs-lookup"><span data-stu-id="6ecb5-184">Calls connected to an agent</span></span></p></td>
 <td><ul>
-<li><p><span data-ttu-id="0308a-185">Chamadas normais permanecem conectadas.</span><span class="sxs-lookup"><span data-stu-id="0308a-185">Regular calls remain connected.</span></span></p></li>
-<li><p><span data-ttu-id="0308a-186">Se os grupos de respostas não forem importados, nenhuma chamada anônima estará nesse status.</span><span class="sxs-lookup"><span data-stu-id="0308a-186">If response groups were not imported, no anonymous calls are in this status.</span></span></p></li>
-<li><p><span data-ttu-id="0308a-187">Para grupos de resposta importados, as chamadas anônimas permanecem conectadas.</span><span class="sxs-lookup"><span data-stu-id="0308a-187">For imported response groups, anonymous calls remain connected.</span></span></p></li>
+<li><p><span data-ttu-id="6ecb5-185">Chamadas normais permanecem conectadas.</span><span class="sxs-lookup"><span data-stu-id="6ecb5-185">Regular calls remain connected.</span></span></p></li>
+<li><p><span data-ttu-id="6ecb5-186">Se os grupos de respostas não forem importados, nenhuma chamada anônima estará nesse status.</span><span class="sxs-lookup"><span data-stu-id="6ecb5-186">If response groups were not imported, no anonymous calls are in this status.</span></span></p></li>
+<li><p><span data-ttu-id="6ecb5-187">Para grupos de resposta importados, as chamadas anônimas permanecem conectadas.</span><span class="sxs-lookup"><span data-stu-id="6ecb5-187">For imported response groups, anonymous calls remain connected.</span></span></p></li>
 </ul></td>
 <td><ul>
-<li><p><span data-ttu-id="0308a-188">Chamadas normais permanecem conectadas.</span><span class="sxs-lookup"><span data-stu-id="0308a-188">Regular calls remain connected.</span></span></p></li>
-<li><p><span data-ttu-id="0308a-189">Se os grupos de respostas não forem importados, nenhuma chamada anônima estará nesse status.</span><span class="sxs-lookup"><span data-stu-id="0308a-189">If response groups were not imported, no anonymous calls are in this status.</span></span></p></li>
-<li><p><span data-ttu-id="0308a-190">Para grupos de resposta importados, as chamadas anônimas permanecem conectadas.</span><span class="sxs-lookup"><span data-stu-id="0308a-190">For imported response groups, anonymous calls remain connected.</span></span></p></li>
+<li><p><span data-ttu-id="6ecb5-188">Chamadas normais permanecem conectadas.</span><span class="sxs-lookup"><span data-stu-id="6ecb5-188">Regular calls remain connected.</span></span></p></li>
+<li><p><span data-ttu-id="6ecb5-189">Se os grupos de respostas não forem importados, nenhuma chamada anônima estará nesse status.</span><span class="sxs-lookup"><span data-stu-id="6ecb5-189">If response groups were not imported, no anonymous calls are in this status.</span></span></p></li>
+<li><p><span data-ttu-id="6ecb5-190">Para grupos de resposta importados, as chamadas anônimas permanecem conectadas.</span><span class="sxs-lookup"><span data-stu-id="6ecb5-190">For imported response groups, anonymous calls remain connected.</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="0308a-191">Chamadas em andamento ainda não conectadas a um agente</span><span class="sxs-lookup"><span data-stu-id="0308a-191">In progress calls not yet connected to an agent</span></span></p></td>
+<td><p><span data-ttu-id="6ecb5-191">Chamadas em andamento ainda não conectadas a um agente</span><span class="sxs-lookup"><span data-stu-id="6ecb5-191">In progress calls not yet connected to an agent</span></span></p></td>
 <td><ul>
-<li><p><span data-ttu-id="0308a-192">Se os grupos de respostas não forem importados, nenhuma chamada estará nesse status.</span><span class="sxs-lookup"><span data-stu-id="0308a-192">If response groups were not imported, no calls are in this status.</span></span></p></li>
-<li><p><span data-ttu-id="0308a-193">Para grupos de respostas importados, as chamadas serão desconectadas.</span><span class="sxs-lookup"><span data-stu-id="0308a-193">For imported response groups, calls will be disconnected.</span></span></p></li>
+<li><p><span data-ttu-id="6ecb5-192">Se os grupos de respostas não forem importados, nenhuma chamada estará nesse status.</span><span class="sxs-lookup"><span data-stu-id="6ecb5-192">If response groups were not imported, no calls are in this status.</span></span></p></li>
+<li><p><span data-ttu-id="6ecb5-193">Para grupos de respostas importados, as chamadas serão desconectadas.</span><span class="sxs-lookup"><span data-stu-id="6ecb5-193">For imported response groups, calls will be disconnected.</span></span></p></li>
 </ul></td>
 <td><ul>
-<li><p><span data-ttu-id="0308a-194">Se os grupos de respostas não forem importados, nenhuma chamada estará nesse status.</span><span class="sxs-lookup"><span data-stu-id="0308a-194">If response groups were not imported, no calls are in this status.</span></span></p></li>
-<li><p><span data-ttu-id="0308a-195">Para grupos de respostas importados, as chamadas serão desconectadas.</span><span class="sxs-lookup"><span data-stu-id="0308a-195">For imported response groups, calls will be disconnected.</span></span></p></li>
+<li><p><span data-ttu-id="6ecb5-194">Se os grupos de respostas não forem importados, nenhuma chamada estará nesse status.</span><span class="sxs-lookup"><span data-stu-id="6ecb5-194">If response groups were not imported, no calls are in this status.</span></span></p></li>
+<li><p><span data-ttu-id="6ecb5-195">Para grupos de respostas importados, as chamadas serão desconectadas.</span><span class="sxs-lookup"><span data-stu-id="6ecb5-195">For imported response groups, calls will be disconnected.</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="0308a-196">Novas chamadas</span><span class="sxs-lookup"><span data-stu-id="0308a-196">New calls</span></span></p></td>
-<td><p><span data-ttu-id="0308a-197">Chamadas conectadas ao pool primário, mas os agentes hospedados no pool primário são inacessíveis.</span><span class="sxs-lookup"><span data-stu-id="0308a-197">Calls connect to the primary pool, but agents homed in the primary pool are unreachable.</span></span></p></td>
-<td><p><span data-ttu-id="0308a-198">Chamadas conectadas ao pool primário.</span><span class="sxs-lookup"><span data-stu-id="0308a-198">Calls connect to the primary pool.</span></span></p></td>
+<td><p><span data-ttu-id="6ecb5-196">Novas chamadas</span><span class="sxs-lookup"><span data-stu-id="6ecb5-196">New calls</span></span></p></td>
+<td><p><span data-ttu-id="6ecb5-197">Chamadas conectadas ao pool primário, mas os agentes hospedados no pool primário são inacessíveis.</span><span class="sxs-lookup"><span data-stu-id="6ecb5-197">Calls connect to the primary pool, but agents homed in the primary pool are unreachable.</span></span></p></td>
+<td><p><span data-ttu-id="6ecb5-198">Chamadas conectadas ao pool primário.</span><span class="sxs-lookup"><span data-stu-id="6ecb5-198">Calls connect to the primary pool.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="0308a-199">Chamadas de agentes em nome do grupo de resposta</span><span class="sxs-lookup"><span data-stu-id="0308a-199">Agent calls on behalf of response group</span></span></p></td>
-<td><p><span data-ttu-id="0308a-200">Recurso desabilitado durante esse estágio.</span><span class="sxs-lookup"><span data-stu-id="0308a-200">Feature is disabled during this stage.</span></span></p></td>
-<td><p><span data-ttu-id="0308a-201">Chamadas bem-sucedidas.</span><span class="sxs-lookup"><span data-stu-id="0308a-201">Calls succeed.</span></span></p></td>
+<td><p><span data-ttu-id="6ecb5-199">Chamadas de agentes em nome do grupo de resposta</span><span class="sxs-lookup"><span data-stu-id="6ecb5-199">Agent calls on behalf of response group</span></span></p></td>
+<td><p><span data-ttu-id="6ecb5-200">Recurso desabilitado durante esse estágio.</span><span class="sxs-lookup"><span data-stu-id="6ecb5-200">Feature is disabled during this stage.</span></span></p></td>
+<td><p><span data-ttu-id="6ecb5-201">Chamadas bem-sucedidas.</span><span class="sxs-lookup"><span data-stu-id="6ecb5-201">Calls succeed.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="0308a-202">Entrada do agente e informações do agente</span><span class="sxs-lookup"><span data-stu-id="0308a-202">Agent sign-in and agent information</span></span></p></td>
+<td><p><span data-ttu-id="6ecb5-202">Entrada do agente e informações do agente</span><span class="sxs-lookup"><span data-stu-id="6ecb5-202">Agent sign-in and agent information</span></span></p></td>
 <td><ul>
-<li><p><span data-ttu-id="0308a-203">Os grupos de agente pertencentes ao pool primário podem ser exibidos no console do agente, mas os agentes não podem entrar.</span><span class="sxs-lookup"><span data-stu-id="0308a-203">Agent groups owned by the primary pool can be viewed on agent console but agents cannot sign in.</span></span></p></li>
-<li><p><span data-ttu-id="0308a-204">Os grupos de agentes pertencentes ao pool de backup podem ser exibido no console do agente e os agentes podem entrar.</span><span class="sxs-lookup"><span data-stu-id="0308a-204">Agent groups owned by the backup pool can be viewed on agent console and agents can sign in.</span></span></p></li>
-<li><p><span data-ttu-id="0308a-205">Os grupos de agentes importados são exibidos no console do agente e os agentes podem entrar.</span><span class="sxs-lookup"><span data-stu-id="0308a-205">Imported agent groups are displayed on agent console and agents can sign in.</span></span></p></li>
+<li><p><span data-ttu-id="6ecb5-203">Os grupos de agente pertencentes ao pool primário podem ser exibidos no console do agente, mas os agentes não podem entrar.</span><span class="sxs-lookup"><span data-stu-id="6ecb5-203">Agent groups owned by the primary pool can be viewed on agent console but agents cannot sign in.</span></span></p></li>
+<li><p><span data-ttu-id="6ecb5-204">Os grupos de agentes pertencentes ao pool de backup podem ser exibido no console do agente e os agentes podem entrar.</span><span class="sxs-lookup"><span data-stu-id="6ecb5-204">Agent groups owned by the backup pool can be viewed on agent console and agents can sign in.</span></span></p></li>
+<li><p><span data-ttu-id="6ecb5-205">Os grupos de agentes importados são exibidos no console do agente e os agentes podem entrar.</span><span class="sxs-lookup"><span data-stu-id="6ecb5-205">Imported agent groups are displayed on agent console and agents can sign in.</span></span></p></li>
 </ul></td>
 <td><ul>
-<li><p><span data-ttu-id="0308a-206">Os grupos de agente pertencentes ao pool primário podem ser exibidos no console do agente e os agentes podem entrar.</span><span class="sxs-lookup"><span data-stu-id="0308a-206">Agent groups owned by the primary pool can be viewed on agent console and agents can sign in.</span></span></p></li>
-<li><p><span data-ttu-id="0308a-207">Os grupos de agentes pertencentes ao pool de backup podem ser exibidos no console do agente e os agentes podem entrar.</span><span class="sxs-lookup"><span data-stu-id="0308a-207">Agent groups owned by the backup pool can be viewed on agent console and agents can sign in.</span></span></p></li>
-<li><p><span data-ttu-id="0308a-208">Os grupos de agentes importados não são exibidos no console do agente.</span><span class="sxs-lookup"><span data-stu-id="0308a-208">Imported agent groups are not displayed on agent console.</span></span></p></li>
+<li><p><span data-ttu-id="6ecb5-206">Os grupos de agente pertencentes ao pool primário podem ser exibidos no console do agente e os agentes podem entrar.</span><span class="sxs-lookup"><span data-stu-id="6ecb5-206">Agent groups owned by the primary pool can be viewed on agent console and agents can sign in.</span></span></p></li>
+<li><p><span data-ttu-id="6ecb5-207">Os grupos de agentes pertencentes ao pool de backup podem ser exibidos no console do agente e os agentes podem entrar.</span><span class="sxs-lookup"><span data-stu-id="6ecb5-207">Agent groups owned by the backup pool can be viewed on agent console and agents can sign in.</span></span></p></li>
+<li><p><span data-ttu-id="6ecb5-208">Os grupos de agentes importados não são exibidos no console do agente.</span><span class="sxs-lookup"><span data-stu-id="6ecb5-208">Imported agent groups are not displayed on agent console.</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="0308a-209">Configuração do grupo de resposta</span><span class="sxs-lookup"><span data-stu-id="0308a-209">Response group configuration</span></span></p></td>
+<td><p><span data-ttu-id="6ecb5-209">Configuração do grupo de resposta</span><span class="sxs-lookup"><span data-stu-id="6ecb5-209">Response group configuration</span></span></p></td>
 <td><ul>
-<li><p><span data-ttu-id="0308a-210">Os grupos de resposta pertencentes ao pool primário podem ser exibidos, dependendo da disponibilidade do banco de dados back-end do pool primário, mas não podem ser modificados.</span><span class="sxs-lookup"><span data-stu-id="0308a-210">Response groups owned by the primary pool can be viewed, depending on the availability of the primary pool’s back-end database, but cannot be modified.</span></span></p></li>
-<li><p><span data-ttu-id="0308a-211">Os grupos de respostas pertencentes ao pool de backup podem ser exibidos e modificados.</span><span class="sxs-lookup"><span data-stu-id="0308a-211">Response groups owned by the backup pool can be viewed and modified.</span></span></p></li>
-<li><p><span data-ttu-id="0308a-212">Grupos de resposta importados não podem ser exibidos com o painel de controle do Lync Server ou com a ferramenta de configuração do grupo de resposta, mas podem ser configurados usando cmdlets do Shell de gerenciamento do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="0308a-212">Imported response groups cannot be viewed with Lync Server Control Panel or the Response Group Configuration Tool, but can be configured by using Lync Server Management Shell cmdlets.</span></span></p></li>
+<li><p><span data-ttu-id="6ecb5-210">Os grupos de resposta pertencentes ao pool primário podem ser exibidos, dependendo da disponibilidade do banco de dados back-end do pool primário, mas não podem ser modificados.</span><span class="sxs-lookup"><span data-stu-id="6ecb5-210">Response groups owned by the primary pool can be viewed, depending on the availability of the primary pool’s back-end database, but cannot be modified.</span></span></p></li>
+<li><p><span data-ttu-id="6ecb5-211">Os grupos de respostas pertencentes ao pool de backup podem ser exibidos e modificados.</span><span class="sxs-lookup"><span data-stu-id="6ecb5-211">Response groups owned by the backup pool can be viewed and modified.</span></span></p></li>
+<li><p><span data-ttu-id="6ecb5-212">Grupos de resposta importados não podem ser exibidos com o painel de controle do Lync Server ou com a ferramenta de configuração do grupo de resposta, mas podem ser configurados usando cmdlets do Shell de gerenciamento do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="6ecb5-212">Imported response groups cannot be viewed with Lync Server Control Panel or the Response Group Configuration Tool, but can be configured by using Lync Server Management Shell cmdlets.</span></span></p></li>
 </ul></td>
 <td><ul>
-<li><p><span data-ttu-id="0308a-213">Os grupos de respostas pertencentes ao pool primário podem ser exibidos e modificados.</span><span class="sxs-lookup"><span data-stu-id="0308a-213">Response groups owned by the primary pool can be viewed and modified.</span></span></p></li>
-<li><p><span data-ttu-id="0308a-214">Os grupos de respostas pertencentes ao pool de backup podem ser exibidos e modificados.</span><span class="sxs-lookup"><span data-stu-id="0308a-214">Response groups owned by the backup pool can be viewed and modified.</span></span></p></li>
-<li><p><span data-ttu-id="0308a-215">Grupos de resposta importados não podem ser exibidos com o painel de controle do Lync Server ou com a ferramenta de configuração do grupo de resposta, mas podem ser configurados usando cmdlets do Shell de gerenciamento do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="0308a-215">Imported response groups cannot be viewed with Lync Server Control Panel or the Response Group Configuration Tool, but can be configured by using Lync Server Management Shell cmdlets.</span></span></p></li>
+<li><p><span data-ttu-id="6ecb5-213">Os grupos de respostas pertencentes ao pool primário podem ser exibidos e modificados.</span><span class="sxs-lookup"><span data-stu-id="6ecb5-213">Response groups owned by the primary pool can be viewed and modified.</span></span></p></li>
+<li><p><span data-ttu-id="6ecb5-214">Os grupos de respostas pertencentes ao pool de backup podem ser exibidos e modificados.</span><span class="sxs-lookup"><span data-stu-id="6ecb5-214">Response groups owned by the backup pool can be viewed and modified.</span></span></p></li>
+<li><p><span data-ttu-id="6ecb5-215">Grupos de resposta importados não podem ser exibidos com o painel de controle do Lync Server ou com a ferramenta de configuração do grupo de resposta, mas podem ser configurados usando cmdlets do Shell de gerenciamento do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="6ecb5-215">Imported response groups cannot be viewed with Lync Server Control Panel or the Response Group Configuration Tool, but can be configured by using Lync Server Management Shell cmdlets.</span></span></p></li>
 </ul></td>
 </tr>
 </tbody>

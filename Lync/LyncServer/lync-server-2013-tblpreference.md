@@ -12,20 +12,20 @@ ms:contentKeyID: 48185913
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3976cb18336477c00a901116a125149b8c67ddeb
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: a9d91a11f6813bfc7ef86eaf5efded41c7af0c63
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42042328"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42142047"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="tblpreference-in-lync-server-2013"></a><span data-ttu-id="0b0a3-102">tblPreference no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0b0a3-102">tblPreference in Lync Server 2013</span></span>
+# <a name="tblpreference-in-lync-server-2013"></a><span data-ttu-id="97630-102">tblPreference no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="97630-102">tblPreference in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "42042328"
 
 <span> </span>
 
-<span data-ttu-id="0b0a3-103">_**Última modificação do tópico:** 2012-09-24_</span><span class="sxs-lookup"><span data-stu-id="0b0a3-103">_**Topic Last Modified:** 2012-09-24_</span></span>
+<span data-ttu-id="97630-103">_**Última modificação do tópico:** 2012-09-24_</span><span class="sxs-lookup"><span data-stu-id="97630-103">_**Topic Last Modified:** 2012-09-24_</span></span>
 
-<span data-ttu-id="0b0a3-104">tblPreference contém as preferências de cliente do usuário.</span><span class="sxs-lookup"><span data-stu-id="0b0a3-104">tblPreference contains the users’ client preferences.</span></span> <span data-ttu-id="0b0a3-105">Isso geralmente é usado por clientes anteriores ao Lync 2013.</span><span class="sxs-lookup"><span data-stu-id="0b0a3-105">This is generally used by clients previous to Lync 2013.</span></span>
+<span data-ttu-id="97630-104">tblPreference contém as preferências de cliente do usuário.</span><span class="sxs-lookup"><span data-stu-id="97630-104">tblPreference contains the users’ client preferences.</span></span> <span data-ttu-id="97630-105">Isso geralmente é usado por clientes anteriores ao Lync 2013.</span><span class="sxs-lookup"><span data-stu-id="97630-105">This is generally used by clients previous to Lync 2013.</span></span>
 
-### <a name="columns"></a><span data-ttu-id="0b0a3-106">Colunas</span><span class="sxs-lookup"><span data-stu-id="0b0a3-106">Columns</span></span>
+### <a name="columns"></a><span data-ttu-id="97630-106">Colunas</span><span class="sxs-lookup"><span data-stu-id="97630-106">Columns</span></span>
 
 <table>
 <colgroup>
@@ -49,37 +49,37 @@ ms.locfileid: "42042328"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="0b0a3-107">Coluna</span><span class="sxs-lookup"><span data-stu-id="0b0a3-107">Column</span></span></th>
-<th><span data-ttu-id="0b0a3-108">Tipo</span><span class="sxs-lookup"><span data-stu-id="0b0a3-108">Type</span></span></th>
-<th><span data-ttu-id="0b0a3-109">Descrição</span><span class="sxs-lookup"><span data-stu-id="0b0a3-109">Description</span></span></th>
+<th><span data-ttu-id="97630-107">Coluna</span><span class="sxs-lookup"><span data-stu-id="97630-107">Column</span></span></th>
+<th><span data-ttu-id="97630-108">Tipo</span><span class="sxs-lookup"><span data-stu-id="97630-108">Type</span></span></th>
+<th><span data-ttu-id="97630-109">Descrição</span><span class="sxs-lookup"><span data-stu-id="97630-109">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="0b0a3-110">prefLabel</span><span class="sxs-lookup"><span data-stu-id="0b0a3-110">prefLabel</span></span></p></td>
-<td><p><span data-ttu-id="0b0a3-111">nvarchar (255), não nulo</span><span class="sxs-lookup"><span data-stu-id="0b0a3-111">nvarchar (255), not null</span></span></p></td>
-<td><p><span data-ttu-id="0b0a3-112">Rótulo com um formato como: &lt;User SIP URI&gt;| username. &lt;definição&gt;de preferência.</span><span class="sxs-lookup"><span data-stu-id="0b0a3-112">Label with a format such as: &lt;user sip uri&gt;|username.&lt;preference set&gt;.</span></span></p></td>
+<td><p><span data-ttu-id="97630-110">prefLabel</span><span class="sxs-lookup"><span data-stu-id="97630-110">prefLabel</span></span></p></td>
+<td><p><span data-ttu-id="97630-111">nvarchar (255), não nulo</span><span class="sxs-lookup"><span data-stu-id="97630-111">nvarchar (255), not null</span></span></p></td>
+<td><p><span data-ttu-id="97630-112">Rótulo com um formato como: &lt;User SIP URI&gt;| username. &lt;definição&gt;de preferência.</span><span class="sxs-lookup"><span data-stu-id="97630-112">Label with a format such as: &lt;user sip uri&gt;|username.&lt;preference set&gt;.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="0b0a3-113">prefSeqID</span><span class="sxs-lookup"><span data-stu-id="0b0a3-113">prefSeqID</span></span></p></td>
-<td><p><span data-ttu-id="0b0a3-114">int, not null</span><span class="sxs-lookup"><span data-stu-id="0b0a3-114">int, not null</span></span></p></td>
-<td><p><span data-ttu-id="0b0a3-115">Um número sequencial (por rótulo) para fins de controle de versão.</span><span class="sxs-lookup"><span data-stu-id="0b0a3-115">A sequential number (per label) for versioning purposes.</span></span></p></td>
+<td><p><span data-ttu-id="97630-113">prefSeqID</span><span class="sxs-lookup"><span data-stu-id="97630-113">prefSeqID</span></span></p></td>
+<td><p><span data-ttu-id="97630-114">int, not null</span><span class="sxs-lookup"><span data-stu-id="97630-114">int, not null</span></span></p></td>
+<td><p><span data-ttu-id="97630-115">Um número sequencial (por rótulo) para fins de controle de versão.</span><span class="sxs-lookup"><span data-stu-id="97630-115">A sequential number (per label) for versioning purposes.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="0b0a3-116">prefContent</span><span class="sxs-lookup"><span data-stu-id="0b0a3-116">prefContent</span></span></p></td>
-<td><p><span data-ttu-id="0b0a3-117">nvarchar (máx.)</span><span class="sxs-lookup"><span data-stu-id="0b0a3-117">nvarchar (max)</span></span></p></td>
-<td><p><span data-ttu-id="0b0a3-118">Conteúdo codificado.</span><span class="sxs-lookup"><span data-stu-id="0b0a3-118">Encoded content.</span></span></p></td>
+<td><p><span data-ttu-id="97630-116">prefContent</span><span class="sxs-lookup"><span data-stu-id="97630-116">prefContent</span></span></p></td>
+<td><p><span data-ttu-id="97630-117">nvarchar (máx.)</span><span class="sxs-lookup"><span data-stu-id="97630-117">nvarchar (max)</span></span></p></td>
+<td><p><span data-ttu-id="97630-118">Conteúdo codificado.</span><span class="sxs-lookup"><span data-stu-id="97630-118">Encoded content.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="0b0a3-119">lastModifiedBy</span><span class="sxs-lookup"><span data-stu-id="0b0a3-119">lastModifiedBy</span></span></p></td>
-<td><p><span data-ttu-id="0b0a3-120">int, not null</span><span class="sxs-lookup"><span data-stu-id="0b0a3-120">int, not null</span></span></p></td>
-<td><p><span data-ttu-id="0b0a3-121">ID da entidade de segurança que atualizou a preferência.</span><span class="sxs-lookup"><span data-stu-id="0b0a3-121">ID of the principal that updated the preference.</span></span></p></td>
+<td><p><span data-ttu-id="97630-119">lastModifiedBy</span><span class="sxs-lookup"><span data-stu-id="97630-119">lastModifiedBy</span></span></p></td>
+<td><p><span data-ttu-id="97630-120">int, not null</span><span class="sxs-lookup"><span data-stu-id="97630-120">int, not null</span></span></p></td>
+<td><p><span data-ttu-id="97630-121">ID da entidade de segurança que atualizou a preferência.</span><span class="sxs-lookup"><span data-stu-id="97630-121">ID of the principal that updated the preference.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="key"></a><span data-ttu-id="0b0a3-122">Chave</span><span class="sxs-lookup"><span data-stu-id="0b0a3-122">Key</span></span>
+### <a name="key"></a><span data-ttu-id="97630-122">Chave</span><span class="sxs-lookup"><span data-stu-id="97630-122">Key</span></span>
 
 <table>
 <colgroup>
@@ -88,14 +88,14 @@ ms.locfileid: "42042328"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="0b0a3-123">Coluna</span><span class="sxs-lookup"><span data-stu-id="0b0a3-123">Column</span></span></th>
-<th><span data-ttu-id="0b0a3-124">Descrição</span><span class="sxs-lookup"><span data-stu-id="0b0a3-124">Description</span></span></th>
+<th><span data-ttu-id="97630-123">Coluna</span><span class="sxs-lookup"><span data-stu-id="97630-123">Column</span></span></th>
+<th><span data-ttu-id="97630-124">Descrição</span><span class="sxs-lookup"><span data-stu-id="97630-124">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="0b0a3-125">&lt;prefLabel, prefSeqID&gt;</span><span class="sxs-lookup"><span data-stu-id="0b0a3-125">&lt;prefLabel, prefSeqID&gt;</span></span></p></td>
-<td><p><span data-ttu-id="0b0a3-126">Chave primária.</span><span class="sxs-lookup"><span data-stu-id="0b0a3-126">Primary key.</span></span></p></td>
+<td><p><span data-ttu-id="97630-125">&lt;prefLabel, prefSeqID&gt;</span><span class="sxs-lookup"><span data-stu-id="97630-125">&lt;prefLabel, prefSeqID&gt;</span></span></p></td>
+<td><p><span data-ttu-id="97630-126">Chave primária.</span><span class="sxs-lookup"><span data-stu-id="97630-126">Primary key.</span></span></p></td>
 </tr>
 </tbody>
 </table>

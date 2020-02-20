@@ -12,20 +12,20 @@ ms:contentKeyID: 48185101
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e611e98c6e76f23bd840422522fee4b28cddf8ff
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 9362e908fc86c3d01bc1ff379a1523700381eadf
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42027672"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42142287"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="syndicatorstenantmap-table-in-lync-server-2013"></a><span data-ttu-id="bf355-102">Tabela SyndicatorsTenantMap no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="bf355-102">SyndicatorsTenantMap table in Lync Server 2013</span></span>
+# <a name="syndicatorstenantmap-table-in-lync-server-2013"></a><span data-ttu-id="779e1-102">Tabela SyndicatorsTenantMap no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="779e1-102">SyndicatorsTenantMap table in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "42027672"
 
 <span> </span>
 
-<span data-ttu-id="bf355-103">_**Última modificação do tópico:** 2012-08-20_</span><span class="sxs-lookup"><span data-stu-id="bf355-103">_**Topic Last Modified:** 2012-08-20_</span></span>
+<span data-ttu-id="779e1-103">_**Última modificação do tópico:** 2012-08-20_</span><span class="sxs-lookup"><span data-stu-id="779e1-103">_**Topic Last Modified:** 2012-08-20_</span></span>
 
-<span data-ttu-id="bf355-104">A tabela SyndicatorsTenantMap é somente para uso interno.</span><span class="sxs-lookup"><span data-stu-id="bf355-104">The SyndicatorsTenantMap table is for internal use only.</span></span> <span data-ttu-id="bf355-105">Esta tabela foi introduzida no Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="bf355-105">This table was introduced in Microsoft Lync Server 2013.</span></span>
+<span data-ttu-id="779e1-104">A tabela SyndicatorsTenantMap é somente para uso interno.</span><span class="sxs-lookup"><span data-stu-id="779e1-104">The SyndicatorsTenantMap table is for internal use only.</span></span> <span data-ttu-id="779e1-105">Esta tabela foi introduzida no Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="779e1-105">This table was introduced in Microsoft Lync Server 2013.</span></span>
 
 </div>
 

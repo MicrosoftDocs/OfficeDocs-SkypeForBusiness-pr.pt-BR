@@ -12,20 +12,20 @@ ms:contentKeyID: 48184055
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8a2ddb19bab0ab47d1afe0014e06aad6189259b4
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: d9fa391df4f1c35327394e69eca8e9ec047328f8
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42049673"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42144219"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="scaled-director-pool-in-lync-server-2013"></a><span data-ttu-id="101ed-102">Pool de diretores em escala no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="101ed-102">Scaled Director pool in Lync Server 2013</span></span>
+# <a name="scaled-director-pool-in-lync-server-2013"></a><span data-ttu-id="1f6e7-102">Pool de diretores em escala no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1f6e7-102">Scaled Director pool in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "42049673"
 
 <span> </span>
 
-<span data-ttu-id="101ed-103">_**Última modificação do tópico:** 2012-09-08_</span><span class="sxs-lookup"><span data-stu-id="101ed-103">_**Topic Last Modified:** 2012-09-08_</span></span>
+<span data-ttu-id="1f6e7-103">_**Última modificação do tópico:** 2012-09-08_</span><span class="sxs-lookup"><span data-stu-id="1f6e7-103">_**Topic Last Modified:** 2012-09-08_</span></span>
 
-<span data-ttu-id="101ed-104">O diretor pode ser implantado em uma única configuração de diretor ou como um pool de diretores.</span><span class="sxs-lookup"><span data-stu-id="101ed-104">The Director can be deployed in either a single Director configuration, or as a Director pool.</span></span> <span data-ttu-id="101ed-105">Esta seção define uma topologia e a configuração de duas topologias de diretor em pool.</span><span class="sxs-lookup"><span data-stu-id="101ed-105">This section defines a topology and configuration for two pooled Director topologies.</span></span> <span data-ttu-id="101ed-106">Se você estiver planejando a implantação de um único diretor, consulte o tópico [single Director no Lync Server 2013](lync-server-2013-single-director.md) para obter considerações de planejamento para essa topologia.</span><span class="sxs-lookup"><span data-stu-id="101ed-106">If you are planning on deploying a single Director, see the topic [Single Director in Lync Server 2013](lync-server-2013-single-director.md) for planning considerations for that topology.</span></span>
+<span data-ttu-id="1f6e7-104">O diretor pode ser implantado em uma única configuração de diretor ou como um pool de diretores.</span><span class="sxs-lookup"><span data-stu-id="1f6e7-104">The Director can be deployed in either a single Director configuration, or as a Director pool.</span></span> <span data-ttu-id="1f6e7-105">Esta seção define uma topologia e a configuração de duas topologias de diretor em pool.</span><span class="sxs-lookup"><span data-stu-id="1f6e7-105">This section defines a topology and configuration for two pooled Director topologies.</span></span> <span data-ttu-id="1f6e7-106">Se você estiver planejando a implantação de um único diretor, consulte o tópico [single Director no Lync Server 2013](lync-server-2013-single-director.md) para obter considerações de planejamento para essa topologia.</span><span class="sxs-lookup"><span data-stu-id="1f6e7-106">If you are planning on deploying a single Director, see the topic [Single Director in Lync Server 2013](lync-server-2013-single-director.md) for planning considerations for that topology.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="101ed-107">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="101ed-107">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="1f6e7-107">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="1f6e7-107">In This Section</span></span>
 
-  - [<span data-ttu-id="101ed-108">Pool de diretores em escala-balanceamento de carga de DNS e balanceador de carga de hardware no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="101ed-108">Scaled Director pool - DNS load balancing and hardware load balancer in Lync Server 2013</span></span>](lync-server-2013-scaled-director-pool-dns-load-balancing-and-hardware-load-balancer.md)
+  - [<span data-ttu-id="1f6e7-108">Pool de diretores em escala-balanceamento de carga de DNS e balanceador de carga de hardware no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1f6e7-108">Scaled Director pool - DNS load balancing and hardware load balancer in Lync Server 2013</span></span>](lync-server-2013-scaled-director-pool-dns-load-balancing-and-hardware-load-balancer.md)
 
-  - [<span data-ttu-id="101ed-109">Pool de diretores em escala-balanceador de carga de hardware no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="101ed-109">Scaled Director pool - hardware load balancer in Lync Server 2013</span></span>](lync-server-2013-scaled-director-pool-hardware-load-balancer.md)
+  - [<span data-ttu-id="1f6e7-109">Pool de diretores em escala-balanceador de carga de hardware no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1f6e7-109">Scaled Director pool - hardware load balancer in Lync Server 2013</span></span>](lync-server-2013-scaled-director-pool-hardware-load-balancer.md)
 
 </div>
 

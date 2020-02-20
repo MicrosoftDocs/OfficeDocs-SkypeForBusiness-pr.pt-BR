@@ -12,20 +12,20 @@ ms:contentKeyID: 48183267
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9551cf5824d5f13f6167f2aaeb301ab619f6209b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: a47e8d3bfcac06aed0ce76616208d0ead018ccbf
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42051263"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42143877"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="sessioncorrelation-table-in-lync-server-2013"></a><span data-ttu-id="147a6-102">Tabela SessionCorrelation no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="147a6-102">SessionCorrelation table in Lync Server 2013</span></span>
+# <a name="sessioncorrelation-table-in-lync-server-2013"></a><span data-ttu-id="1c1b3-102">Tabela SessionCorrelation no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1c1b3-102">SessionCorrelation table in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "42051263"
 
 <span> </span>
 
-<span data-ttu-id="147a6-103">_**Última modificação do tópico:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="147a6-103">_**Topic Last Modified:** 2012-10-02_</span></span>
+<span data-ttu-id="1c1b3-103">_**Última modificação do tópico:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="1c1b3-103">_**Topic Last Modified:** 2012-10-02_</span></span>
 
-<span data-ttu-id="147a6-104">A tabela SessionCorrelation é uma tabela de suporte.</span><span class="sxs-lookup"><span data-stu-id="147a6-104">The SessionCorrelation table is a supporting table.</span></span> <span data-ttu-id="147a6-105">Cada registro representa um CorrelationId que é usado para correlacionar várias sessões.</span><span class="sxs-lookup"><span data-stu-id="147a6-105">Each record represents one CorrelationID which is used to correlate multiple sessions.</span></span>
+<span data-ttu-id="1c1b3-104">A tabela SessionCorrelation é uma tabela de suporte.</span><span class="sxs-lookup"><span data-stu-id="1c1b3-104">The SessionCorrelation table is a supporting table.</span></span> <span data-ttu-id="1c1b3-105">Cada registro representa um CorrelationId que é usado para correlacionar várias sessões.</span><span class="sxs-lookup"><span data-stu-id="1c1b3-105">Each record represents one CorrelationID which is used to correlate multiple sessions.</span></span>
 
 
 <table>
@@ -49,36 +49,36 @@ ms.locfileid: "42051263"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="147a6-106"><strong>Coluna</strong></span><span class="sxs-lookup"><span data-stu-id="147a6-106"><strong>Column</strong></span></span></th>
-<th><span data-ttu-id="147a6-107"><strong>Tipo de dados</strong></span><span class="sxs-lookup"><span data-stu-id="147a6-107"><strong>Data Type</strong></span></span></th>
-<th><span data-ttu-id="147a6-108"><strong>Chave/índice</strong></span><span class="sxs-lookup"><span data-stu-id="147a6-108"><strong>Key/Index</strong></span></span></th>
-<th><span data-ttu-id="147a6-109"><strong>Detalhes</strong></span><span class="sxs-lookup"><span data-stu-id="147a6-109"><strong>Details</strong></span></span></th>
+<th><span data-ttu-id="1c1b3-106"><strong>Coluna</strong></span><span class="sxs-lookup"><span data-stu-id="1c1b3-106"><strong>Column</strong></span></span></th>
+<th><span data-ttu-id="1c1b3-107"><strong>Tipo de dados</strong></span><span class="sxs-lookup"><span data-stu-id="1c1b3-107"><strong>Data Type</strong></span></span></th>
+<th><span data-ttu-id="1c1b3-108"><strong>Chave/índice</strong></span><span class="sxs-lookup"><span data-stu-id="1c1b3-108"><strong>Key/Index</strong></span></span></th>
+<th><span data-ttu-id="1c1b3-109"><strong>Detalhes</strong></span><span class="sxs-lookup"><span data-stu-id="1c1b3-109"><strong>Details</strong></span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="147a6-110"><strong>Soma de verificação</strong></span><span class="sxs-lookup"><span data-stu-id="147a6-110"><strong>Checksum</strong></span></span></p></td>
-<td><p><span data-ttu-id="147a6-111">int</span><span class="sxs-lookup"><span data-stu-id="147a6-111">int</span></span></p></td>
+<td><p><span data-ttu-id="1c1b3-110"><strong>Soma de verificação</strong></span><span class="sxs-lookup"><span data-stu-id="1c1b3-110"><strong>Checksum</strong></span></span></p></td>
+<td><p><span data-ttu-id="1c1b3-111">int</span><span class="sxs-lookup"><span data-stu-id="1c1b3-111">int</span></span></p></td>
 <td></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="147a6-112"><strong>CorrelationKey</strong></span><span class="sxs-lookup"><span data-stu-id="147a6-112"><strong>CorrelationKey</strong></span></span></p></td>
-<td><p><span data-ttu-id="147a6-113">int</span><span class="sxs-lookup"><span data-stu-id="147a6-113">int</span></span></p></td>
-<td><p><span data-ttu-id="147a6-114">Primário</span><span class="sxs-lookup"><span data-stu-id="147a6-114">Primary</span></span></p></td>
-<td><p><span data-ttu-id="147a6-115">Número exclusivo que identifica este servidor de conferência A/V.</span><span class="sxs-lookup"><span data-stu-id="147a6-115">Unique number identifying this A/V Conferencing Server.</span></span></p></td>
+<td><p><span data-ttu-id="1c1b3-112"><strong>CorrelationKey</strong></span><span class="sxs-lookup"><span data-stu-id="1c1b3-112"><strong>CorrelationKey</strong></span></span></p></td>
+<td><p><span data-ttu-id="1c1b3-113">int</span><span class="sxs-lookup"><span data-stu-id="1c1b3-113">int</span></span></p></td>
+<td><p><span data-ttu-id="1c1b3-114">Primário</span><span class="sxs-lookup"><span data-stu-id="1c1b3-114">Primary</span></span></p></td>
+<td><p><span data-ttu-id="1c1b3-115">Número exclusivo que identifica este servidor de conferência A/V.</span><span class="sxs-lookup"><span data-stu-id="1c1b3-115">Unique number identifying this A/V Conferencing Server.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="147a6-116"><strong>CorrelationID</strong></span><span class="sxs-lookup"><span data-stu-id="147a6-116"><strong>CorrelationID</strong></span></span></p></td>
-<td><p><span data-ttu-id="147a6-117">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="147a6-117">nvarchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="147a6-118">Diferente</span><span class="sxs-lookup"><span data-stu-id="147a6-118">Unique</span></span></p></td>
-<td><p><span data-ttu-id="147a6-119">As sessões correlacionadas terão a mesma ID de correlação.</span><span class="sxs-lookup"><span data-stu-id="147a6-119">Sessions that are correlated will have the same correlation ID.</span></span></p></td>
+<td><p><span data-ttu-id="1c1b3-116"><strong>CorrelationID</strong></span><span class="sxs-lookup"><span data-stu-id="1c1b3-116"><strong>CorrelationID</strong></span></span></p></td>
+<td><p><span data-ttu-id="1c1b3-117">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="1c1b3-117">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="1c1b3-118">Diferente</span><span class="sxs-lookup"><span data-stu-id="1c1b3-118">Unique</span></span></p></td>
+<td><p><span data-ttu-id="1c1b3-119">As sessões correlacionadas terão a mesma ID de correlação.</span><span class="sxs-lookup"><span data-stu-id="1c1b3-119">Sessions that are correlated will have the same correlation ID.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="147a6-120"><strong>NextUpdateTS</strong></span><span class="sxs-lookup"><span data-stu-id="147a6-120"><strong>NextUpdateTS</strong></span></span></p></td>
-<td><p><span data-ttu-id="147a6-121">datetime</span><span class="sxs-lookup"><span data-stu-id="147a6-121">datetime</span></span></p></td>
+<td><p><span data-ttu-id="1c1b3-120"><strong>NextUpdateTS</strong></span><span class="sxs-lookup"><span data-stu-id="1c1b3-120"><strong>NextUpdateTS</strong></span></span></p></td>
+<td><p><span data-ttu-id="1c1b3-121">datetime</span><span class="sxs-lookup"><span data-stu-id="1c1b3-121">datetime</span></span></p></td>
 <td><p> </p></td>
-<td><p><span data-ttu-id="147a6-122">Apenas para uso interno.</span><span class="sxs-lookup"><span data-stu-id="147a6-122">For internal use only.</span></span></p></td>
+<td><p><span data-ttu-id="1c1b3-122">Apenas para uso interno.</span><span class="sxs-lookup"><span data-stu-id="1c1b3-122">For internal use only.</span></span></p></td>
 </tr>
 </tbody>
 </table>

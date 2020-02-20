@@ -12,20 +12,20 @@ ms:contentKeyID: 48183351
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 94d4ab3755739742f96cb2b0f4377d4059d63bfd
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: dc8536008f2b9bf4b66b1d4a1f9e9577835adb03
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42038763"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42142527"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="start-services-on-the-director-in-lync-server-2013"></a><span data-ttu-id="c5fe8-102">Iniciar os serviços no diretor no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c5fe8-102">Start services on the Director in Lync Server 2013</span></span>
+# <a name="start-services-on-the-director-in-lync-server-2013"></a><span data-ttu-id="0beee-102">Iniciar os serviços no diretor no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0beee-102">Start services on the Director in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "42038763"
 
 <span> </span>
 
-<span data-ttu-id="c5fe8-103">_**Última modificação do tópico:** 2012-09-08_</span><span class="sxs-lookup"><span data-stu-id="c5fe8-103">_**Topic Last Modified:** 2012-09-08_</span></span>
+<span data-ttu-id="0beee-103">_**Última modificação do tópico:** 2012-09-08_</span><span class="sxs-lookup"><span data-stu-id="0beee-103">_**Topic Last Modified:** 2012-09-08_</span></span>
 
-<span data-ttu-id="c5fe8-104">Após instalar o repositório de configuração local, instalar os componentes do Lync Server e configurar certificados em um diretor, você deve iniciar os serviços do Lync Server no servidor.</span><span class="sxs-lookup"><span data-stu-id="c5fe8-104">After you install the Local Configuration Store, install the Lync Server Components, and configure certificates on a Director, you must start the Lync Server services on the server.</span></span> <span data-ttu-id="c5fe8-105">É possível executar o seguinte procedimento para iniciar serviços em cada Diretor da sua implantação.</span><span class="sxs-lookup"><span data-stu-id="c5fe8-105">You can use the following procedure to start services on each Director in your deployment.</span></span>
+<span data-ttu-id="0beee-104">Após instalar o repositório de configuração local, instalar os componentes do Lync Server e configurar certificados em um diretor, você deve iniciar os serviços do Lync Server no servidor.</span><span class="sxs-lookup"><span data-stu-id="0beee-104">After you install the Local Configuration Store, install the Lync Server Components, and configure certificates on a Director, you must start the Lync Server services on the server.</span></span> <span data-ttu-id="0beee-105">É possível executar o seguinte procedimento para iniciar serviços em cada Diretor da sua implantação.</span><span class="sxs-lookup"><span data-stu-id="0beee-105">You can use the following procedure to start services on each Director in your deployment.</span></span>
 
 <div>
 
-## <a name="to-start-services-on-a-director"></a><span data-ttu-id="c5fe8-106">Para iniciar os serviços em um Diretor</span><span class="sxs-lookup"><span data-stu-id="c5fe8-106">To start services on a Director</span></span>
+## <a name="to-start-services-on-a-director"></a><span data-ttu-id="0beee-106">Para iniciar os serviços em um Diretor</span><span class="sxs-lookup"><span data-stu-id="0beee-106">To start services on a Director</span></span>
 
-1.  <span data-ttu-id="c5fe8-107">No assistente de implantação do Lync Server, na página **Lync server 2013** , clique no botão **executar** ao lado da **etapa 4: Iniciar serviços**.</span><span class="sxs-lookup"><span data-stu-id="c5fe8-107">In the Lync Server Deployment Wizard, on the **Lync Server 2013** page, click the **Run** button next to **Step 4: Start Services**.</span></span>
+1.  <span data-ttu-id="0beee-107">No assistente de implantação do Lync Server, na página **Lync server 2013** , clique no botão **executar** ao lado da **etapa 4: Iniciar serviços**.</span><span class="sxs-lookup"><span data-stu-id="0beee-107">In the Lync Server Deployment Wizard, on the **Lync Server 2013** page, click the **Run** button next to **Step 4: Start Services**.</span></span>
 
-2.  <span data-ttu-id="c5fe8-108">Na página **Iniciar serviços** , clique em **Avançar** para iniciar os serviços do Lync Server no servidor.</span><span class="sxs-lookup"><span data-stu-id="c5fe8-108">On the **Start Services** page, click **Next** to start the Lync Server services on the server.</span></span>
+2.  <span data-ttu-id="0beee-108">Na página **Iniciar serviços** , clique em **Avançar** para iniciar os serviços do Lync Server no servidor.</span><span class="sxs-lookup"><span data-stu-id="0beee-108">On the **Start Services** page, click **Next** to start the Lync Server services on the server.</span></span>
 
-3.  <span data-ttu-id="c5fe8-109">Na página **Comandos de execução**, depois de todos os serviços terem sido iniciados de maneira bem-sucedida, clique em **Concluir**.</span><span class="sxs-lookup"><span data-stu-id="c5fe8-109">On the **Executing Commands** page, after all services have started successfully, click **Finish**.</span></span>
+3.  <span data-ttu-id="0beee-109">Na página **Comandos de execução**, depois de todos os serviços terem sido iniciados de maneira bem-sucedida, clique em **Concluir**.</span><span class="sxs-lookup"><span data-stu-id="0beee-109">On the **Executing Commands** page, after all services have started successfully, click **Finish**.</span></span>
 
-4.  <span data-ttu-id="c5fe8-110">Abaixo de **Etapa 4: Iniciar os serviços**, clique em **Status do serviço (Opcional)**.</span><span class="sxs-lookup"><span data-stu-id="c5fe8-110">Below **Step 4: Start Services**, click **Services Status (Optional)**.</span></span>
+4.  <span data-ttu-id="0beee-110">Abaixo de **Etapa 4: Iniciar os serviços**, clique em **Status do serviço (Opcional)**.</span><span class="sxs-lookup"><span data-stu-id="0beee-110">Below **Step 4: Start Services**, click **Services Status (Optional)**.</span></span>
 
-5.  <span data-ttu-id="c5fe8-111">No console de gerenciamento Microsoft de **Serviços** (MMC) no servidor, verifique se todos os serviços do Lync Server 2013 estão em execução.</span><span class="sxs-lookup"><span data-stu-id="c5fe8-111">In the **Services** Microsoft Management Console (MMC) on the server, verify that all of the Lync Server 2013 services are running.</span></span>
+5.  <span data-ttu-id="0beee-111">No console de gerenciamento Microsoft de **Serviços** (MMC) no servidor, verifique se todos os serviços do Lync Server 2013 estão em execução.</span><span class="sxs-lookup"><span data-stu-id="0beee-111">In the **Services** Microsoft Management Console (MMC) on the server, verify that all of the Lync Server 2013 services are running.</span></span>
 
 </div>
 
