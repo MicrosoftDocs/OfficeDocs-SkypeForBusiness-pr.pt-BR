@@ -12,20 +12,20 @@ ms:contentKeyID: 54973686
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 50238b10bf5667b51d4b3998ee995283ebdb4fc3
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: b891f20b07f1d60be3d392ef6576e03e89ef1158
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42045453"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42152991"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="two-factor-authentication-in-lync-server-2013"></a><span data-ttu-id="0b83c-102">Autenticação de dois fatores no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0b83c-102">Two-factor authentication in Lync Server 2013</span></span>
+# <a name="two-factor-authentication-in-lync-server-2013"></a><span data-ttu-id="49ea4-102">Autenticação de dois fatores no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="49ea4-102">Two-factor authentication in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "42045453"
 
 <span> </span>
 
-<span data-ttu-id="0b83c-103">_**Última modificação do tópico:** 2013-07-11_</span><span class="sxs-lookup"><span data-stu-id="0b83c-103">_**Topic Last Modified:** 2013-07-11_</span></span>
+<span data-ttu-id="49ea4-103">_**Última modificação do tópico:** 2013-07-11_</span><span class="sxs-lookup"><span data-stu-id="49ea4-103">_**Topic Last Modified:** 2013-07-11_</span></span>
 
-<span data-ttu-id="0b83c-104">A autenticação de dois fatores oferece segurança aprimorada exigindo que os usuários satisfaçam dois critérios de autenticação: uma combinação de nome de usuário/senha e um token ou certificado.</span><span class="sxs-lookup"><span data-stu-id="0b83c-104">Two-factor authentication provides improved security by requiring users to meet two authentication criteria: a user name/password combination and a token or certificate.</span></span> <span data-ttu-id="0b83c-105">Isso também é conhecido como "algo que você tem, algo que você sabe".</span><span class="sxs-lookup"><span data-stu-id="0b83c-105">This is also known as “something you have, something you know.”</span></span> <span data-ttu-id="0b83c-106">Um exemplo típico de autenticação de dois fatores com um certificado é o uso de cartões inteligentes.</span><span class="sxs-lookup"><span data-stu-id="0b83c-106">A typical example of two-factor authentication with a certificate is the use of smart cards.</span></span> <span data-ttu-id="0b83c-107">Um cartão inteligente contém um certificado associado à conta de usuário e pode ser validado contra informações de usuário e certificado armazenadas em um servidor.</span><span class="sxs-lookup"><span data-stu-id="0b83c-107">A smart card contains a certificate associated with the user account, and can be validated against user and certificate information stored on a server.</span></span> <span data-ttu-id="0b83c-108">Comparando as informações do usuário (nome de usuário e senha) para o certificado fornecido, o servidor valida as credenciais e autentica o usuário.</span><span class="sxs-lookup"><span data-stu-id="0b83c-108">By comparing the user information (user name and password) to the certificate provided, the server validates the credentials and authenticates the user.</span></span>
+<span data-ttu-id="49ea4-104">A autenticação de dois fatores oferece segurança aprimorada exigindo que os usuários satisfaçam dois critérios de autenticação: uma combinação de nome de usuário/senha e um token ou certificado.</span><span class="sxs-lookup"><span data-stu-id="49ea4-104">Two-factor authentication provides improved security by requiring users to meet two authentication criteria: a user name/password combination and a token or certificate.</span></span> <span data-ttu-id="49ea4-105">Isso também é conhecido como "algo que você tem, algo que você sabe".</span><span class="sxs-lookup"><span data-stu-id="49ea4-105">This is also known as “something you have, something you know.”</span></span> <span data-ttu-id="49ea4-106">Um exemplo típico de autenticação de dois fatores com um certificado é o uso de cartões inteligentes.</span><span class="sxs-lookup"><span data-stu-id="49ea4-106">A typical example of two-factor authentication with a certificate is the use of smart cards.</span></span> <span data-ttu-id="49ea4-107">Um cartão inteligente contém um certificado associado à conta de usuário e pode ser validado contra informações de usuário e certificado armazenadas em um servidor.</span><span class="sxs-lookup"><span data-stu-id="49ea4-107">A smart card contains a certificate associated with the user account, and can be validated against user and certificate information stored on a server.</span></span> <span data-ttu-id="49ea4-108">Comparando as informações do usuário (nome de usuário e senha) para o certificado fornecido, o servidor valida as credenciais e autentica o usuário.</span><span class="sxs-lookup"><span data-stu-id="49ea4-108">By comparing the user information (user name and password) to the certificate provided, the server validates the credentials and authenticates the user.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="0b83c-109">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="0b83c-109">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="49ea4-109">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="49ea4-109">In This Section</span></span>
 
-[<span data-ttu-id="0b83c-110">Planejando a autenticação de dois fatores no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0b83c-110">Planning for two-factor authentication in Lync Server 2013</span></span>](lync-server-2013-planning-for-two-factor-authentication.md)
+[<span data-ttu-id="49ea4-110">Planejando a autenticação de dois fatores no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="49ea4-110">Planning for two-factor authentication in Lync Server 2013</span></span>](lync-server-2013-planning-for-two-factor-authentication.md)
 
-[<span data-ttu-id="0b83c-111">Configurando a autenticação de dois fatores no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0b83c-111">Configuring two-factor authentication in Lync Server 2013</span></span>](lync-server-2013-configuring-two-factor-authentication.md)
+[<span data-ttu-id="49ea4-111">Configurando a autenticação de dois fatores no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="49ea4-111">Configuring two-factor authentication in Lync Server 2013</span></span>](lync-server-2013-configuring-two-factor-authentication.md)
 
-[<span data-ttu-id="0b83c-112">Usando a autenticação de dois fatores com o Lync Client e o Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0b83c-112">Using two-factor authentication with Lync client and Lync Server 2013</span></span>](lync-server-2013-using-two-factor-authentication-with-lync-client.md)
+[<span data-ttu-id="49ea4-112">Usando a autenticação de dois fatores com o Lync Client e o Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="49ea4-112">Using two-factor authentication with Lync client and Lync Server 2013</span></span>](lync-server-2013-using-two-factor-authentication-with-lync-client.md)
 
 </div>
 

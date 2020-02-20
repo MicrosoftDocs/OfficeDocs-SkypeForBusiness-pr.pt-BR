@@ -12,20 +12,20 @@ ms:contentKeyID: 48183669
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e2107d649caa40b0813ca00b514a0d1fefbcf6d6
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 1d18964a67af7f3858ebdf9c58ed9c8b980544b5
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030645"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42148700"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="migration"></a><span data-ttu-id="a6902-102">Migração</span><span class="sxs-lookup"><span data-stu-id="a6902-102">Migration</span></span>
+# <a name="migration"></a><span data-ttu-id="24361-102">Migração</span><span class="sxs-lookup"><span data-stu-id="24361-102">Migration</span></span>
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "42030645"
 
 <span> </span>
 
-<span data-ttu-id="a6902-103">_**Última modificação do tópico:** 2012-09-18_</span><span class="sxs-lookup"><span data-stu-id="a6902-103">_**Topic Last Modified:** 2012-09-18_</span></span>
+<span data-ttu-id="24361-103">_**Última modificação do tópico:** 2012-09-18_</span><span class="sxs-lookup"><span data-stu-id="24361-103">_**Topic Last Modified:** 2012-09-18_</span></span>
 
-<span data-ttu-id="a6902-104">Esta seção explica como migrar do Microsoft Office Communications Server 2007 R2 ou do Microsoft Lync Server 2010 para o Microsoft Lync Server 2013, do Microsoft Lync Server 2010, do Group Chat para o Microsoft Lync Server 2013, servidor de chat persistente e de Chat de grupo do Microsoft Office Communications Server 2007 R2 para servidor de chat persistente.</span><span class="sxs-lookup"><span data-stu-id="a6902-104">This section explains how to migrate from Microsoft Office Communications Server 2007 R2 or Microsoft Lync Server 2010 to Microsoft Lync Server 2013, from Microsoft Lync Server 2010, Group Chat to Microsoft Lync Server 2013, Persistent Chat Server, and from Microsoft Office Communications Server 2007 R2 Group Chat to Persistent Chat Server.</span></span>
+<span data-ttu-id="24361-104">Esta seção explica como migrar do Microsoft Office Communications Server 2007 R2 ou do Microsoft Lync Server 2010 para o Microsoft Lync Server 2013, do Microsoft Lync Server 2010, do Group Chat para o Microsoft Lync Server 2013, servidor de chat persistente e de Chat de grupo do Microsoft Office Communications Server 2007 R2 para servidor de chat persistente.</span><span class="sxs-lookup"><span data-stu-id="24361-104">This section explains how to migrate from Microsoft Office Communications Server 2007 R2 or Microsoft Lync Server 2010 to Microsoft Lync Server 2013, from Microsoft Lync Server 2010, Group Chat to Microsoft Lync Server 2013, Persistent Chat Server, and from Microsoft Office Communications Server 2007 R2 Group Chat to Persistent Chat Server.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="a6902-105">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="a6902-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="24361-105">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="24361-105">In This Section</span></span>
 
-  - [<span data-ttu-id="a6902-106">Migração do Lync Server 2010 para o Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a6902-106">Migration from Lync Server 2010 to Lync Server 2013</span></span>](migration-from-lync-server-2010-to-lync-server-2013.md)
+  - [<span data-ttu-id="24361-106">Migração do Lync Server 2010 para o Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="24361-106">Migration from Lync Server 2010 to Lync Server 2013</span></span>](migration-from-lync-server-2010-to-lync-server-2013.md)
 
-  - [<span data-ttu-id="a6902-107">Migração do Office Communications Server 2007 R2 para o Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a6902-107">Migration from Office Communications Server 2007 R2 to Lync Server 2013</span></span>](migration-from-office-communications-server-2007-r2-to-lync-server-2013.md)
+  - [<span data-ttu-id="24361-107">Migração do Office Communications Server 2007 R2 para o Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="24361-107">Migration from Office Communications Server 2007 R2 to Lync Server 2013</span></span>](migration-from-office-communications-server-2007-r2-to-lync-server-2013.md)
 
-  - [<span data-ttu-id="a6902-108">Migração do Lync Server 2010, Chat em Grupo ou Office Communications Server 2007 R2 Group Chat para Lync Server 2013, Servidor de Chat Persistente</span><span class="sxs-lookup"><span data-stu-id="a6902-108">Migration from Lync Server 2010, Group Chat or Office Communications Server 2007 R2 Group Chat to Lync Server 2013, Persistent Chat Server</span></span>](migration-from-lync-server-2010-group-chat-or-office-communications-server-2007-r2-group-chat-to-lync-server-2013-persistent-chat-server.md)
+  - [<span data-ttu-id="24361-108">Migração do Lync Server 2010, Chat em Grupo ou Office Communications Server 2007 R2 Group Chat para Lync Server 2013, Servidor de Chat Persistente</span><span class="sxs-lookup"><span data-stu-id="24361-108">Migration from Lync Server 2010, Group Chat or Office Communications Server 2007 R2 Group Chat to Lync Server 2013, Persistent Chat Server</span></span>](migration-from-lync-server-2010-group-chat-or-office-communications-server-2007-r2-group-chat-to-lync-server-2013-persistent-chat-server.md)
 
 </div>
 

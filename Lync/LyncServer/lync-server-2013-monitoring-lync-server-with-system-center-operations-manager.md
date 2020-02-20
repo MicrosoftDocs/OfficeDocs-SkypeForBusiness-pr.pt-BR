@@ -12,20 +12,20 @@ ms:contentKeyID: 63969636
 ms.date: 05/06/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 341901ce6d467818e6aac433f7d8ca4dca37adef
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: df1a61e410da88ea4ff915ec87a7be30d3328c9b
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42048044"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42149300"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="monitoring-lync-server-2013-with-system-center-operations-manager"></a><span data-ttu-id="51b02-102">Monitoramento do Lync Server 2013 com o System Center Operations Manager</span><span class="sxs-lookup"><span data-stu-id="51b02-102">Monitoring Lync Server 2013 with System Center Operations Manager</span></span>
+# <a name="monitoring-lync-server-2013-with-system-center-operations-manager"></a><span data-ttu-id="0aea4-102">Monitoramento do Lync Server 2013 com o System Center Operations Manager</span><span class="sxs-lookup"><span data-stu-id="0aea4-102">Monitoring Lync Server 2013 with System Center Operations Manager</span></span>
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "42048044"
 
 <span> </span>
 
-<span data-ttu-id="51b02-103">_**Última modificação do tópico:** 2015-05-06_</span><span class="sxs-lookup"><span data-stu-id="51b02-103">_**Topic Last Modified:** 2015-05-06_</span></span>
+<span data-ttu-id="0aea4-103">_**Última modificação do tópico:** 2015-05-06_</span><span class="sxs-lookup"><span data-stu-id="0aea4-103">_**Topic Last Modified:** 2015-05-06_</span></span>
 
-<span data-ttu-id="51b02-104">O pacote de gerenciamento do Lync Server (MP) é a solução de monitoramento escolhida para o monitoramento de qualquer implantação do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="51b02-104">The Lync Server Management Pack (MP) is your monitoring solution of choice for monitoring any Lync Server deployment.</span></span>
+<span data-ttu-id="0aea4-104">O pacote de gerenciamento do Lync Server (MP) é a solução de monitoramento escolhida para o monitoramento de qualquer implantação do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="0aea4-104">The Lync Server Management Pack (MP) is your monitoring solution of choice for monitoring any Lync Server deployment.</span></span>
 
-<span data-ttu-id="51b02-105">O MP implementa o log de eventos tradicional e a instrumentação baseada em contador de desempenho e habilita a instrumentação recentemente disponível no Lync Server, como eventos de pares (falha/sucesso) para vários indicadores de integridade principais, e também implementa totalmente as novas\* transações sintéticas (cmdlets Test-cs do Windows PowerShell).</span><span class="sxs-lookup"><span data-stu-id="51b02-105">The MP implements traditional Event Log and Performance counter-based instrumentation and enables newly available instrumentation in Lync Server, such as pair events (failure/success) for several Key Health Indicators, and also fully implements the new Synthetic Transactions (Test-Cs\* Windows PowerShell cmdlets).</span></span>
+<span data-ttu-id="0aea4-105">O MP implementa o log de eventos tradicional e a instrumentação baseada em contador de desempenho e habilita a instrumentação recentemente disponível no Lync Server, como eventos de pares (falha/sucesso) para vários indicadores de integridade principais, e também implementa totalmente as novas\* transações sintéticas (cmdlets Test-cs do Windows PowerShell).</span><span class="sxs-lookup"><span data-stu-id="0aea4-105">The MP implements traditional Event Log and Performance counter-based instrumentation and enables newly available instrumentation in Lync Server, such as pair events (failure/success) for several Key Health Indicators, and also fully implements the new Synthetic Transactions (Test-Cs\* Windows PowerShell cmdlets).</span></span>
 
-<span data-ttu-id="51b02-106">Você pode encontrar o pacote de gerenciamento do Lync Server 2013 e a documentação [http://go.microsoft.com/fwlink/p/?LinkId=400468](http://go.microsoft.com/fwlink/p/?linkid=400468)relacionada em.</span><span class="sxs-lookup"><span data-stu-id="51b02-106">You can find the Lync Server 2013 Management Pack and its related documentation at [http://go.microsoft.com/fwlink/p/?LinkId=400468](http://go.microsoft.com/fwlink/p/?linkid=400468).</span></span> <span data-ttu-id="51b02-107">Isso é recomendável se você estiver executando o System Center Operations Manager 2012.</span><span class="sxs-lookup"><span data-stu-id="51b02-107">This is recommended if you are running System Center Operations Manager 2012.</span></span>
+<span data-ttu-id="0aea4-106">Você pode encontrar o pacote de gerenciamento do Lync Server 2013 e a documentação [https://go.microsoft.com/fwlink/p/?LinkId=400468](https://go.microsoft.com/fwlink/p/?linkid=400468)relacionada em.</span><span class="sxs-lookup"><span data-stu-id="0aea4-106">You can find the Lync Server 2013 Management Pack and its related documentation at [https://go.microsoft.com/fwlink/p/?LinkId=400468](https://go.microsoft.com/fwlink/p/?linkid=400468).</span></span> <span data-ttu-id="0aea4-107">Isso é recomendável se você estiver executando o System Center Operations Manager 2012.</span><span class="sxs-lookup"><span data-stu-id="0aea4-107">This is recommended if you are running System Center Operations Manager 2012.</span></span>
 
 </div>
 
