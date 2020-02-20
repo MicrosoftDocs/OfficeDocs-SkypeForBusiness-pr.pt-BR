@@ -12,18 +12,18 @@ ms:contentKeyID: 48184969
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b80ab9db6b565530db211db8aa47e2e00cbd9cf2
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 4dcdf30ac0fc35f470e74991b2127cd81b05c5c5
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42044713"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42153863"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="dial-in-conferencing-requirements-in-lync-server-2013"></a>Requisitos de conferência discada no Lync Server 2013
 
@@ -115,7 +115,7 @@ A criação de vários diretórios de conferência garantirá que as IDs de conf
 
 <div>
 
-## <a name="see-also"></a>Confira Também
+## <a name="see-also"></a>Confira também
 
 
 [Componente do servidor de mediação no Lync Server 2013](lync-server-2013-mediation-server-component.md)  

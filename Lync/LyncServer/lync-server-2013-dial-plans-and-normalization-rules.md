@@ -12,18 +12,18 @@ ms:contentKeyID: 48185960
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4adcd2cd6bebfb0797427d15819399c9b2b9f86d
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 3e9f42d2467a77e35eb9f5a158967357534e86da
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42036751"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42153853"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="dial-plans-and-normalization-rules-in-lync-server-2013"></a>Planos de discagem e regras de normalização no Lync Server 2013
 
@@ -175,7 +175,7 @@ Estes são alguns dos campos numéricos que as regras de normalização talvez p
 
 As regras de normalização usam expressões regulares do .NET Framework para especificar padrões de correspondência numérica que o servidor usa para converter sequências de discagem para o formato E.164 para fins de pesquisa de número inverso. Você cria regras de normalização no painel de controle do Lync Server inserindo as expressões manualmente ou digitando os dígitos iniciais e o comprimento das cadeias de caracteres de discagem a serem atendidas e permitindo que o painel de controle do Lync Server gere o correspondente expressão regular para você. De qualquer forma, ao terminar, você pode inserir um número de teste para verificar se a regra de normalização funciona como esperado.
 
-Para obter detalhes sobre o uso de expressões regulares do .NET Framework, consulte "expressões regulares [http://go.microsoft.com/fwlink/p/?linkId=140927](http://go.microsoft.com/fwlink/p/?linkid=140927)do .NET Framework" em.
+Para obter detalhes sobre o uso de expressões regulares do .NET Framework, consulte "expressões regulares [https://go.microsoft.com/fwlink/p/?linkId=140927](https://go.microsoft.com/fwlink/p/?linkid=140927)do .NET Framework" em.
 
 </div>
 

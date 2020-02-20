@@ -12,18 +12,18 @@ ms:contentKeyID: 48184451
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0202b41c5da45513ccd4e08aa2ed054c3d20acbe
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 582de419e2c92ce5d158cb979147db5a94715322
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42043723"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42153963"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="deploying-sql-mirroring-for-back-end-server-high-availability-in-lync-server-2013"></a>Implantando o espelhamento SQL para alta disponibilidade do servidor back-end no Lync Server 2013
 
@@ -37,7 +37,7 @@ ms.locfileid: "42043723"
 
 _**Última modificação do tópico:** 2014-01-08_
 
-Para que seja possível implantar o espelhamento SQL, os servidores devem executar no mínimo o SQL Server 2008 R2. Essa versão deve ser executada em todos os servidores envolvidos: principal, espelho e testemunha. Para obter detalhes, [http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=2083921](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=2083921)consulte.
+Para que seja possível implantar o espelhamento SQL, os servidores devem executar no mínimo o SQL Server 2008 R2. Essa versão deve ser executada em todos os servidores envolvidos: principal, espelho e testemunha. Para obter detalhes, [https://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=2083921](https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=2083921)consulte.
 
 Em geral, a configuração do espelhamento SQL entre os dois servidores back-end com uma testemunha requer:
 
@@ -47,19 +47,19 @@ Em geral, a configuração do espelhamento SQL entre os dois servidores back-end
 
   - Que o principal e o espelho tenham a mesma edição do SQL Server. A testemunha pode ter uma edição diferente.
 
-Para práticas recomendadas de SQL em termos de quais versões SQL são compatíveis com uma função testemunha, consulte "testemunha de espelhamento de banco de dados [http://go.microsoft.com/fwlink/p/?LinkId=247345](http://go.microsoft.com/fwlink/p/?linkid=247345)" na biblioteca MSDN em.
+Para práticas recomendadas de SQL em termos de quais versões SQL são compatíveis com uma função testemunha, consulte "testemunha de espelhamento de banco de dados [https://go.microsoft.com/fwlink/p/?LinkId=247345](https://go.microsoft.com/fwlink/p/?linkid=247345)" na biblioteca MSDN em.
 
 Você usa o construtor de topologias para implantar o espelhamento do SQL. Você seleciona uma opção no construtor de topologias para espelhar os bancos de dados e o construtor de topologias configura o espelhamento (incluindo a configuração de uma testemunha, se você quiser) ao publicar a topologia. Observe que a testemunha é configurada ou removida ao mesmo tempo que o espelho. Não há um comando separado para implantar ou remover somente a testemunha.
 
-Para configurar o espelhamento do servidor, primeiro você deve configurar as permissões do banco de dados SQL corretamente. Para obter detalhes, consulte "configurar contas de logon para espelhamento de banco de dados ou grupos de disponibilidade AlwaysOn ( [http://go.microsoft.com/fwlink/p/?LinkId=268454](http://go.microsoft.com/fwlink/p/?linkid=268454)SQL Server)" em.
+Para configurar o espelhamento do servidor, primeiro você deve configurar as permissões do banco de dados SQL corretamente. Para obter detalhes, consulte "configurar contas de logon para espelhamento de banco de dados ou grupos de disponibilidade AlwaysOn ( [https://go.microsoft.com/fwlink/p/?LinkId=268454](https://go.microsoft.com/fwlink/p/?linkid=268454)SQL Server)" em.
 
 Com o espelhamento SQL, o modo de recuperação de banco de dados fica sempre definido como **Completo**, o que significa que você deve monitorar de perto o tamanho dos logs de transações, fazendo backup regular deles para evitar o esgotamento do espaço em disco dos servidores back-end. A frequência dos backups dos logs de transações depende da taxa de expansão dos logs, que, por sua vez, depende das transações do banco de dados provenientes de atividades de usuários no pool front-end. Recomendamos que você determine a expansão dos logs de transação esperada para a carga de trabalho de implantação do Lync, de modo que seja possível realizar um planejamento adequado. Os artigos a seguir fornecem mais informações sobre o gerenciamento de logs e backups do SQL:
 
-  - Modelos de recuperação de banco de dados: "modelos de recuperação (SQL Server)" em[http://go.microsoft.com/fwlink/p/?LinkId=268446](http://go.microsoft.com/fwlink/p/?linkid=268446)
+  - Modelos de recuperação de banco de dados: "modelos de recuperação (SQL Server)" em[https://go.microsoft.com/fwlink/p/?LinkId=268446](https://go.microsoft.com/fwlink/p/?linkid=268446)
 
-  - Visão geral do backup: "visão geral do backup (SQL Server)" em[http://go.microsoft.com/fwlink/p/?LinkId=268449](http://go.microsoft.com/fwlink/p/?linkid=268449)
+  - Visão geral do backup: "visão geral do backup (SQL Server)" em[https://go.microsoft.com/fwlink/p/?LinkId=268449](https://go.microsoft.com/fwlink/p/?linkid=268449)
 
-  - Log de transações de backup: "fazer backup de um log de transações (SQL Server)" em[http://go.microsoft.com/fwlink/p/?LinkId=268452](http://go.microsoft.com/fwlink/p/?linkid=268452)
+  - Log de transações de backup: "fazer backup de um log de transações (SQL Server)" em[https://go.microsoft.com/fwlink/p/?LinkId=268452](https://go.microsoft.com/fwlink/p/?linkid=268452)
 
 Com o espelhamento SQL, você pode configurar a topologia do espelhamento no momento da criação dos pools ou após isso.
 
@@ -151,9 +151,9 @@ Lembre-se disto ao configurar o espelhamento SQL:
 
   - Todas as portas já alocadas a outros aplicativos no mesmo servidor (inclusive de outras instâncias do SQL) não serão usadas com as instâncias do SQL instaladas atualmente. Isso significa que, se você tiver mais de uma instância do SQL instalada no mesmo servidor, elas não poderão usar a mesma porta para espalhamento. Para obter detalhes, consulte os seguintes artigos:
     
-      - "Especificar um endereço de rede do servidor (espelhamento de banco de dados)" na biblioteca MSDN em[http://go.microsoft.com/fwlink/p/?LinkId=247346](http://go.microsoft.com/fwlink/p/?linkid=247346)
+      - "Especificar um endereço de rede do servidor (espelhamento de banco de dados)" na biblioteca MSDN em[https://go.microsoft.com/fwlink/p/?LinkId=247346](https://go.microsoft.com/fwlink/p/?linkid=247346)
     
-      - "O ponto de extremidade de espelhamento de banco de dados (SQL Server)" em[http://go.microsoft.com/fwlink/p/?LinkId=247347](http://go.microsoft.com/fwlink/p/?linkid=247347)
+      - "O ponto de extremidade de espelhamento de banco de dados (SQL Server)" em[https://go.microsoft.com/fwlink/p/?LinkId=247347](https://go.microsoft.com/fwlink/p/?linkid=247347)
 
 </div>
 
@@ -321,7 +321,7 @@ Use este procedimento se você precisar remover a testemunha de uma configuraç�
     
     No entanto, não siga essa etapa e não digite `Uninstall-CsMirrorDatabase` , pois isso desinstalará toda a configuração de espelhamento.
 
-4.  Para remover apenas a testemunha da configuração do SQL Server, siga as instruções em "remover a testemunha de uma sessão de espelhamento de banco de dados (SQL [http://go.microsoft.com/fwlink/p/?LinkId=268456](http://go.microsoft.com/fwlink/p/?linkid=268456)Server)" em.
+4.  Para remover apenas a testemunha da configuração do SQL Server, siga as instruções em "remover a testemunha de uma sessão de espelhamento de banco de dados (SQL [https://go.microsoft.com/fwlink/p/?LinkId=268456](https://go.microsoft.com/fwlink/p/?linkid=268456)Server)" em.
 
 </div>
 
