@@ -12,18 +12,18 @@ ms:contentKeyID: 48183430
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 65908f1b142c72f584c48493023803e5dfd56208
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 043015fb30ca21a697a9758a5fbb4d916b006046
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030995"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42146444"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configure-lync-server-2013-to-work-with-unified-messaging-on-microsoft-exchange-server"></a>Configurar o Lync Server 2013 para trabalhar com a Unificação de mensagens no Microsoft Exchange Server
 
@@ -57,8 +57,8 @@ Quando você executa o Utilitário de Integração do UM do Exchange, ele realiz
 > Antes de executar o utilitário de integração do UM do Exchange, certifique-se de ter feito o seguinte:
 > <ul>
 > <li><p>Crie um ou mais planos de discagem de UM do Exchange, conforme descrito na documentação do produto Exchange.</p>
-> <p>Para o Microsoft Exchange Server 2010, &quot;consulte criar um plano&quot; de discagem de um em. <a href="http://go.microsoft.com/fwlink/p/?linkid=186177">http://go.microsoft.com/fwlink/p/?linkId=186177</a></p>
-> <p>Para o Microsoft Exchange Server 2007 Service Pack 1 (SP1), &quot;consulte como criar um plano&quot; de discagem URI SIP de <a href="http://go.microsoft.com/fwlink/p/?linkid=185771">http://go.microsoft.com/fwlink/p/?linkId=185771</a>Unificação de mensagens em.</p></li>
+> <p>Para o Microsoft Exchange Server 2010, &quot;consulte criar um plano&quot; de discagem de um em. <a href="https://go.microsoft.com/fwlink/p/?linkid=186177">https://go.microsoft.com/fwlink/p/?linkId=186177</a></p>
+> <p>Para o Microsoft Exchange Server 2007 Service Pack 1 (SP1), &quot;consulte como criar um plano&quot; de discagem URI SIP de <a href="https://go.microsoft.com/fwlink/p/?linkid=185771">https://go.microsoft.com/fwlink/p/?linkId=185771</a>Unificação de mensagens em.</p></li>
 > <li><p>Crie um ou mais planos de discagem do Lync Server correspondentes, conforme descrito em <a href="lync-server-2013-create-a-dial-plan.md">Create a dial Plan in Lync server 2013</a>.</p></li>
 > <ul><li>Se você estiver usando uma versão do Exchange anterior ao Microsoft Exchange Server 2010 SP1, deverá digitar o nome de domínio totalmente qualificado (FQDN) do plano de discagem SIP da Unificação de mensagens (UM) correspondente do Exchange no campo <STRONG>nome simples</STRONG> do plano de discagem do Lync Server 2013. Se você estiver usando o Microsoft Exchange Server 2010 SP1 ou o Service Pack mais recente, o nome do plano de discagem correspondente não será necessário.</li></ul>
 > <li>Crie um atendedor automático e certifique-se que o número de acesso do assinante e o número do atendedor automático estejam no formato E.164.</li></ul>

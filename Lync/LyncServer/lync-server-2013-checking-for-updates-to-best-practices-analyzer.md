@@ -12,18 +12,18 @@ ms:contentKeyID: 48183307
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f7916fa550831cb86a5b8c77273b87f55365a1a1
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 7850615a454541ee65dba310266b19b721ab185a
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42046024"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42145950"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="checking-for-updates-to-best-practices-analyzer-in-lync-server-2013"></a>Verificando se há atualizações para o analisador de práticas recomendadas no Lync Server 2013
 
@@ -43,7 +43,7 @@ Ao iniciar o Analisador de Práticas Recomendadas, a ferramenta fornece uma opç
 
 
 > [!NOTE]  
-> Se você precisar de autenticação proxy para acessar a Internet, o Analisador de Práticas Recomendadas não poderá acessar novas atualizações para download. No entanto, você pode baixar manualmente a versão mais recente do RtcBPA. msi no centro de <A href="http://go.microsoft.com/fwlink/p/?linkid=266539">http://go.microsoft.com/fwlink/p/?linkId=266539</A>download da Microsoft em. Após o download do arquivo, você pode copiá-lo no computador no qual deseja atualizar o Analisador de Práticas Recomendadas e usar o arquivo .msi para instalar a nova versão da ferramenta nesse computador.
+> Se você precisar de autenticação proxy para acessar a Internet, o Analisador de Práticas Recomendadas não poderá acessar novas atualizações para download. No entanto, você pode baixar manualmente a versão mais recente do RtcBPA. msi no centro de <A href="https://go.microsoft.com/fwlink/p/?linkid=266539">https://go.microsoft.com/fwlink/p/?linkId=266539</A>download da Microsoft em. Após o download do arquivo, você pode copiá-lo no computador no qual deseja atualizar o Analisador de Práticas Recomendadas e usar o arquivo .msi para instalar a nova versão da ferramenta nesse computador.
 
 
 

@@ -12,18 +12,18 @@ ms:contentKeyID: 48184649
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4ea7a68d77acd7bbaf3de43fce38c0e85c02dad4
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 45dbc2c71cf34515f8f6176e4f579e6683ad319e
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42037271"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42146254"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="administering-the-address-book-service-in-lync-server-2013"></a>Administrar o serviço de catálogo de endereços no Lync Server 2013
 
@@ -43,7 +43,7 @@ Como parte da implantação do Lync Server, Enterprise Edition ou do servidor St
 
 
 > [!NOTE]  
-> Para obter informações sobre como usar o <STRONG>ADSI Edit</STRONG> para editar atributos de objeto dos serviços de domínio do Active Directory, consulte <A href="http://go.microsoft.com/fwlink/?linkid=330427">ADSI Edit</A>. Para obter informações sobre uma ferramenta no kit de recursos especificamente para o serviço de catálogo de endereços, consulte <A href="http://go.microsoft.com/fwlink/?linkid=330429">Microsoft Lync Server 2013 Resource Kit Tools</A>.
+> Para obter informações sobre como usar o <STRONG>ADSI Edit</STRONG> para editar atributos de objeto dos serviços de domínio do Active Directory, consulte <A href="https://go.microsoft.com/fwlink/?linkid=330427">ADSI Edit</A>. Para obter informações sobre uma ferramenta no kit de recursos especificamente para o serviço de catálogo de endereços, consulte <A href="https://go.microsoft.com/fwlink/?linkid=330429">Microsoft Lync Server 2013 Resource Kit Tools</A>.
 
 
 
@@ -85,27 +85,27 @@ A ativação do servidor de catálogo de endereços preenche a tabela AbAttribut
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>givenName</p></td>
 <td><p>0x01400000</p></td>
 </tr>
 <tr class="even">
-<td><p>2 </p></td>
+<td><p>duas</p></td>
 <td><p>SN</p></td>
 <td><p>0x02400000</p></td>
 </tr>
 <tr class="odd">
-<td><p>3 </p></td>
+<td><p>3D</p></td>
 <td><p>displayName</p></td>
 <td><p>0x03420000</p></td>
 </tr>
 <tr class="even">
-<td><p>4 </p></td>
+<td><p>quatro</p></td>
 <td><p>Título</p></td>
 <td><p>0x04000000</p></td>
 </tr>
 <tr class="odd">
-<td><p>5 </p></td>
+<td><p>0,5</p></td>
 <td><p>mailNickname</p></td>
 <td><p>0x05400000</p></td>
 </tr>
@@ -135,17 +135,17 @@ A ativação do servidor de catálogo de endereços preenche a tabela AbAttribut
 <td><p>0x0A302800</p></td>
 </tr>
 <tr class="odd">
-<td><p>11</p></td>
+<td><p>11 </p></td>
 <td><p>Mobile</p></td>
 <td><p>0x0B622800</p></td>
 </tr>
 <tr class="even">
-<td><p>12 </p></td>
+<td><p>12</p></td>
 <td><p>otherTelephone</p></td>
 <td><p>0x0C302000</p></td>
 </tr>
 <tr class="odd">
-<td><p>Treze</p></td>
+<td><p>13 </p></td>
 <td><p>ipPhone</p></td>
 <td><p>0x0D302000</p></td>
 </tr>
@@ -298,7 +298,7 @@ Você pode usar alguns bits de sinalizadores para definir um filtro a ser usado 
 
 
 > [!WARNING]  
-> Para obter mais informações sobre como filtrar o catálogo de endereços, consulte <A href="https://technet.microsoft.com/library/gg415643(v=ocs.15)">cmdlets do servidor do catálogo de endereços no Lync Server 2013</A>e <A href="http://go.microsoft.com/fwlink/?linkid=330430">Filtrar catálogo de endereços do Lync 2013</A>
+> Para obter mais informações sobre como filtrar o catálogo de endereços, consulte <A href="https://technet.microsoft.com/library/gg415643(v=ocs.15)">cmdlets do servidor do catálogo de endereços no Lync Server 2013</A>e <A href="https://go.microsoft.com/fwlink/?linkid=330430">Filtrar catálogo de endereços do Lync 2013</A>
 
 
 

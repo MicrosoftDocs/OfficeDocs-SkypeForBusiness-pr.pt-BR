@@ -12,18 +12,18 @@ ms:contentKeyID: 51803968
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 42da4f35c78e182ac988b1185bf797e3cb88ddd5
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: cc3350d2d67318741ad3b3e515f93fce66002ff7
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42050053"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42146904"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="enable-or-disable-hot-desking-in-lync-server-2013"></a>Habilitar ou desabilitar o hot desk no Lync Server 2013
 
@@ -39,7 +39,7 @@ _**Última modificação do tópico:** 2013-02-20_
 
 Você pode configurar telefones de área comum como *telefones de mesa*. Com telefones de uma só mesa, os usuários podem fazer logon em sua própria conta de usuário e, depois de estarem conectados, usar os recursos do Lync Server e suas próprias configurações de perfil de usuário. O hot desk é gerenciado com o uso de políticas de cliente: para habilitar ou desabilitar o hot desk, você precisa modificar as políticas de cliente usadas por seus telefones de área comum. Para obter detalhes sobre como determinar as políticas de conferência que foram atribuídas a seus telefones de área comum, consulte [Exibir informações de telefone de área comum no Lync Server 2013](lync-server-2013-view-common-area-phone-information.md).
 
-Você usa o parâmetro EnableHotdesking do cmdlet **New-CSClientPolicy** ou o cmdlet **set-CSClientPolicy** para habilitar ou desabilitar o hot desk em um telefone, da seguinte maneira. Execute estes cmdlets do Shell de gerenciamento do Lync Server 2013 ou de uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Lync Server, consulte o artigo de blog do Lync Server Windows PowerShell "início rápido: Managing Microsoft Lync Server [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)2010 using Remote PowerShell" em.
+Você usa o parâmetro EnableHotdesking do cmdlet **New-CSClientPolicy** ou o cmdlet **set-CSClientPolicy** para habilitar ou desabilitar o hot desk em um telefone, da seguinte maneira. Execute estes cmdlets do Shell de gerenciamento do Lync Server 2013 ou de uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Lync Server, consulte o artigo de blog do Lync Server Windows PowerShell "início rápido: Managing Microsoft Lync Server [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)2010 using Remote PowerShell" em.
 
 <div>
 

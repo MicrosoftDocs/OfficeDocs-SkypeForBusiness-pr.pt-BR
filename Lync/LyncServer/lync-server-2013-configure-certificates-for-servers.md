@@ -12,18 +12,18 @@ ms:contentKeyID: 48185531
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3e2fd3ce8c229fad2f990d5f295e4c4454ef153e
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 562ec9c39d179eb1044c273a0eed0a2ccfa072a7
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42028682"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42146474"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configure-certificates-for-servers-in-lync-server-2013"></a>Configurar certificados para servidores no Lync Server 2013
 
@@ -53,7 +53,7 @@ Para concluir com êxito este procedimento, você deve estar conectado como usu�
 
 
 > [!WARNING]  
-> A seleção do qual o resumo de hash e o algoritmo de assinatura dependem dos clientes e dos servidores que usarão o certificado e outros computadores e dispositivos que os clientes e servidores irão se comunicar com quem também deve saber como usar os algoritmos usados no Certifica. Para obter informações sobre quais tamanhos de resumo são suportados no sistema operacional e em alguns aplicativos cliente,<A href="http://go.microsoft.com/fwlink/?linkid=287002">http://go.microsoft.com/fwlink/?LinkId=287002</A>consulte.
+> A seleção do qual o resumo de hash e o algoritmo de assinatura dependem dos clientes e dos servidores que usarão o certificado e outros computadores e dispositivos que os clientes e servidores irão se comunicar com quem também deve saber como usar os algoritmos usados no Certifica. Para obter informações sobre quais tamanhos de resumo são suportados no sistema operacional e em alguns aplicativos cliente,<A href="https://go.microsoft.com/fwlink/?linkid=287002">https://go.microsoft.com/fwlink/?LinkId=287002</A>consulte.
 
 
 

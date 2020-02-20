@@ -12,18 +12,18 @@ ms:contentKeyID: 48183343
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5e3993c2259d42bfa632394cb3c9acaf70f26cdc
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 12a6e5d94cef7c9f25bb1c4091a981603f66da82
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42035293"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42145930"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configure-policies-to-control-public-user-access-in-lync-server-2013"></a>Configurar políticas para controlar o acesso de usuários públicos no Lync Server 2013
 
@@ -37,7 +37,7 @@ ms.locfileid: "42035293"
 
 _**Última modificação do tópico:** 2013-10-07_
 
-A conectividade de mensagens instantâneas (IM) pública permite que os usuários em sua organização usem mensagens instantâneas para se comunicar com usuários de serviços de IM fornecidos por provedores de serviço de IM públicos,\!incluindo a rede do Windows Live de serviços de Internet, Yahoo e AOL. Você configura uma ou mais políticas de acesso de usuário externo para controlar se os usuários públicos podem colaborar com usuários internos do Lync Server. A conectividade de mensagens instantâneas públicas é um recurso adicionado que depende da configuração de sua implantação e dos usuários. Também depende do provisionamento do serviço no provedor de IM público. Para obter informações sobre como provisionar sua implantação para usar os provedores públicos, consulte o guia "Public IM Connectivity Provisioning Guide for Microsoft Lync Server, Office Communications Server e Live Communications Server":[http://go.microsoft.com/fwlink/?LinkId=269821](http://go.microsoft.com/fwlink/?linkid=269821)
+A conectividade de mensagens instantâneas (IM) pública permite que os usuários em sua organização usem mensagens instantâneas para se comunicar com usuários de serviços de IM fornecidos por provedores de serviço de IM públicos,\!incluindo a rede do Windows Live de serviços de Internet, Yahoo e AOL. Você configura uma ou mais políticas de acesso de usuário externo para controlar se os usuários públicos podem colaborar com usuários internos do Lync Server. A conectividade de mensagens instantâneas públicas é um recurso adicionado que depende da configuração de sua implantação e dos usuários. Também depende do provisionamento do serviço no provedor de IM público. Para obter informações sobre como provisionar sua implantação para usar os provedores públicos, consulte o guia "Public IM Connectivity Provisioning Guide for Microsoft Lync Server, Office Communications Server e Live Communications Server":[https://go.microsoft.com/fwlink/?LinkId=269821](https://go.microsoft.com/fwlink/?linkid=269821)
 
 <div>
 
@@ -55,7 +55,7 @@ A conectividade de mensagens instantâneas (IM) pública permite que os usuário
 
 </div>
 
-Para acessar o site de provisionamento da conectividade de IM pública do Microsoft Lync Server, use o seguinte link:[http://go.microsoft.com/fwlink/p/?linkId=212638](http://go.microsoft.com/fwlink/p/?linkid=212638)
+Para acessar o site de provisionamento da conectividade de IM pública do Microsoft Lync Server, use o seguinte link:[https://go.microsoft.com/fwlink/p/?linkId=212638](https://go.microsoft.com/fwlink/p/?linkid=212638)
 
 Para controlar o acesso do usuário público, é possível configurar políticas no nível global, site e de usuário. Para obter detalhes sobre os tipos de políticas que você pode configurar, consulte [Configurando o suporte para acesso de usuário externo no Lync Server 2013](lync-server-2013-configuring-support-for-external-user-access.md) na documentação de implantação ou na documentação de planejamento. As configurações de política do Lync Server aplicadas em um nível de política podem substituir as configurações que são aplicadas em outro nível de política. A precedência de política do Lync Server é: a política de usuário (maior influência) substitui uma política de site e, em seguida, uma política de site substitui uma política global (menos influência). Isso significa que quanto mais próxima a configuração de diretiva for o objeto que a política está afetando, maior será a influência sobre o objeto.
 

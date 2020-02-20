@@ -12,18 +12,18 @@ ms:contentKeyID: 49733682
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6a39bcd23516970edf1c4694a8eff1ecb682eda1
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: aa94715cd3360e032f2d791c0e02cc791c437185
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42041020"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42146924"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuring-scenarios-for-the-centralized-logging-service-in-lync-server-2013"></a>Configurando cenários para o serviço de registro em log centralizado no Lync Server 2013
 
@@ -37,7 +37,7 @@ ms.locfileid: "42041020"
 
 _**Última modificação do tópico:** 2014-02-05_
 
-Os cenários definem o escopo (ou seja, global, site, pool ou computador) e quais provedores usar no serviço de registro em log centralizado. Usando cenários, você habilita e desabilita o rastreamento nos provedores (por exemplo, S4, SIPStack, mensagens instantâneas e presença). Ao configurar um cenário, você pode agrupar todos os provedores de determinado conjunto lógico que tratam um problema específico. Se você achar que um cenário precisa ser modificado para atender às suas necessidades de solução de problemas e log, as ferramentas de depuração do Lync Server 2013 fornecem um módulo do Windows PowerShell chamado *ClsController. psm1* que contém uma função chamada *Edit-CsClsScenario*. A finalidade desse módulo é editar as propriedades do cenário nomeado. Neste tópico, serão fornecidos exemplos de como esse módulo funciona. As ferramentas de depuração do Lync Server 2013 são baixadas do seguinte link:[http://go.microsoft.com/fwlink/?LinkId=285257](http://go.microsoft.com/fwlink/?linkid=285257)
+Os cenários definem o escopo (ou seja, global, site, pool ou computador) e quais provedores usar no serviço de registro em log centralizado. Usando cenários, você habilita e desabilita o rastreamento nos provedores (por exemplo, S4, SIPStack, mensagens instantâneas e presença). Ao configurar um cenário, você pode agrupar todos os provedores de determinado conjunto lógico que tratam um problema específico. Se você achar que um cenário precisa ser modificado para atender às suas necessidades de solução de problemas e log, as ferramentas de depuração do Lync Server 2013 fornecem um módulo do Windows PowerShell chamado *ClsController. psm1* que contém uma função chamada *Edit-CsClsScenario*. A finalidade desse módulo é editar as propriedades do cenário nomeado. Neste tópico, serão fornecidos exemplos de como esse módulo funciona. As ferramentas de depuração do Lync Server 2013 são baixadas do seguinte link:[https://go.microsoft.com/fwlink/?LinkId=285257](https://go.microsoft.com/fwlink/?linkid=285257)
 
 <div>
 
@@ -114,7 +114,7 @@ Como apresentado na [visão geral do serviço de registro em log centralizado no
     
 
     > [!NOTE]  
-    > Como é conhecido no Windows PowerShell, a Convenção para criar uma tabela de hash de valores usando <CODE>@{&lt;variable&gt;=&lt;value1&gt;, &lt;value2&gt;, &lt;value&gt;...}</CODE> é conhecida como <EM>splatting</EM>. Para obter detalhes sobre o splatting no Windows PowerShell <A href="http://go.microsoft.com/fwlink/p/?linkid=267760">http://go.microsoft.com/fwlink/p/?LinkId=267760</A>, consulte.
+    > Como é conhecido no Windows PowerShell, a Convenção para criar uma tabela de hash de valores usando <CODE>@{&lt;variable&gt;=&lt;value1&gt;, &lt;value2&gt;, &lt;value&gt;...}</CODE> é conhecida como <EM>splatting</EM>. Para obter detalhes sobre o splatting no Windows PowerShell <A href="https://go.microsoft.com/fwlink/p/?linkid=267760">https://go.microsoft.com/fwlink/p/?LinkId=267760</A>, consulte.
 
     
     </div>

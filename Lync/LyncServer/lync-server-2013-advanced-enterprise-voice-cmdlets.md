@@ -12,18 +12,18 @@ ms:contentKeyID: 48183637
 ms.date: 04/12/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f54ed09fbb2a96231d635f5c1abcd8475cf35118
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: ec794a0aceb4e0eade260a99337f1eb62e41470f
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41998396"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42146664"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="advanced-enterprise-voice-cmdlets-in-lync-server-2013"></a>Cmdlets avançados do Enterprise Voice no Lync Server 2013
 
@@ -376,7 +376,7 @@ As listas a seguir contém cmdlets que permitem que você gerencie os recursos a
 [Cmdlets do Enterprise Voice no Lync Server 2013](lync-server-2013-enterprise-voice-cmdlets.md)  
 
 
-[Blog do PowerShell do Lync Server](http://go.microsoft.com/fwlink/p/?linkid=203150)  
+[Blog do PowerShell do Lync Server](https://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>
