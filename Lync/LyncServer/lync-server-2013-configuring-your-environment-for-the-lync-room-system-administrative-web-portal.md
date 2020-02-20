@@ -12,18 +12,18 @@ ms:contentKeyID: 56737623
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5c42b5541fb28646e4c01d9d070b67f6fe103234
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 739e440765feb07d70b7f5a8d1490a85a938701d
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42034993"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42154063"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuring-your-lync-server-2013-environment-for-the-lync-room-system-administrative-web-portal"></a>Configurando seu ambiente do Lync Server 2013 para o portal da Web administrativo do sistema de salas do Lync
 
@@ -51,7 +51,7 @@ Para usar o portal da Web administrativo do sistema de salas do Lync (LRS), ser�
 
 1.  Instale as atualizações cumulativas do Lync Server 2013:2013 de julho na topologia do Lync Server.
     
-    Para obter a atualização ou ver o que está incluído nele, consulte [atualizações para o Lync Server 2013](http://go.microsoft.com/fwlink/p/?linkid=323959).
+    Para obter a atualização ou ver o que está incluído nele, consulte [atualizações para o Lync Server 2013](https://go.microsoft.com/fwlink/p/?linkid=323959).
 
 2.  Criar um usuário do Active Directory habilitado para SIP.
     
@@ -83,7 +83,7 @@ Para usar o portal da Web administrativo do sistema de salas do Lync (LRS), ser�
     
      
 
-7.  Instale o ASP.NET MVC 4 para o Visual Studio 2010 SP1 e o Visual Web Developer 2010 SP1, disponível no centro [http://go.microsoft.com/fwlink/p/?LinkId=323967](http://go.microsoft.com/fwlink/p/?linkid=323967)de download da Microsoft em.
+7.  Instale o ASP.NET MVC 4 para o Visual Studio 2010 SP1 e o Visual Web Developer 2010 SP1, disponível no centro [https://go.microsoft.com/fwlink/p/?LinkId=323967](https://go.microsoft.com/fwlink/p/?linkid=323967)de download da Microsoft em.
 
 </div>
 

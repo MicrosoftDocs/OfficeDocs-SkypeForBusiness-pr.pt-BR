@@ -12,18 +12,18 @@ ms:contentKeyID: 48183289
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2cbb859a3cd9f49791eb7b959a59c00c38db6336
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 25535ee2a2b6a1dfc0cc88202b84fb7e083428c1
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41995966"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42154163"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuring-unified-messaging-on-microsoft-exchange-server-to-work-with-lync-server-2013"></a>Configurando a Unificação de mensagens no Microsoft Exchange Server para funcionar com o Lync Server 2013
 
@@ -82,7 +82,7 @@ Para configurar a Unificação de mensagens (UM) do Exchange para trabalhar com 
 
 Antes de começar, a documentação desta seção pressupõe que você implantou as seguintes funções do Exchange 2013: acesso para cliente e caixa de correio. No Microsoft Exchange Server 2013, o UM do Exchange é executado como um serviço nesses servidores.
 
-Para obter detalhes sobre a implantação do Exchange 2013, consulte a biblioteca do Exchange 2013 TechNet em[http://go.microsoft.com/fwlink/p/?LinkId=266637](http://go.microsoft.com/fwlink/p/?linkid=266637)
+Para obter detalhes sobre a implantação do Exchange 2013, consulte a biblioteca do Exchange 2013 TechNet em[https://go.microsoft.com/fwlink/p/?LinkId=266637](https://go.microsoft.com/fwlink/p/?linkid=266637)
 
 Também observe o seguinte:
 
