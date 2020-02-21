@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Leia este tópico para saber como planejar o bypass de mídia com o roteamento direto do sistema telefônico.
-ms.openlocfilehash: 98f09d00960615c09dca8dcd78275a418d650f3e
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 7c7d82d1ac13ec1612403ba5fd20471e72173122
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41835971"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42214478"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planejar o bypass de mídia com Roteamento Direto
 
@@ -317,28 +317,28 @@ O intervalo de portas dos processadores de mídia (aplicáveis a todos os ambien
 UDP/SRTP | Processador de mídia | SBC | 49 152 – 53 247    | Definido no SBC |
 | UDP/SRTP | SBC | Processador de mídia | Definido no SBC | 49 152 – 53 247     |
 
-## <a name="considerations-if-you-have-skype-for-business-phones-in-your-network"></a>Considerações se você tiver telefones do Skype for Business na sua rede  
+## <a name="configure-separate-trunks-for-media-bypass-and-non-media-bypass"></a>Configurar troncos separados para ignorar a mídia e ignorar não relacionadas à mídia  
 
-Se você tiver qualquer ponto de extremidade do Skype for Business na sua rede que está usando o roteamento direto--por exemplo, um usuário do teams pode ter um telefone 3PIP baseado no cliente Skype for Business –-o bypass de mídia no tronco que atende a esses usuários deve ser desativado.
-
-Você pode criar um tronco separado para esses usuários e atribuir a ele uma política de roteamento de voz online.
+Se você estiver migrando para o bypass de mídia do bypass não relacionado à mídia e quiser confirmar a funcionalidade antes de migrar todo o uso para o bypass de mídia, você pode criar um tronco separado e uma política de roteamento de voz online separada para direcionar o tronco bypass de mídia e atribuir a um determinado Eles. 
 
 Etapas de configuração de alto nível:
 
-- Dividir os usuários por tipo – dependendo se o usuário tem ou não um telefone 3PIP.
+- Identifique os usuários para testar o bypass de mídia.
 
 - Crie dois troncos separados com FQDNs diferentes: um habilitado para bypass de mídia; o outro não. 
 
   Ambos os troncos apontam para o mesmo SBC. As portas para sinalização SIP TLS devem ser diferentes. As portas para mídia devem ser iguais.
 
-- Atribua o tronco correto dependendo do tipo de usuário na política de roteamento de voz online.
+- Crie uma nova política de roteamento de voz online e atribua o tronco bypass de mídia às rotas correspondentes associadas ao uso de PSTN para esta política.
+
+- Atribua a nova política de roteamento de voz online aos usuários que você identificou para testar o bypass de mídia.
 
 O exemplo a seguir ilustra essa lógica.
 
 | Conjunto de usuários | Número de usuários | FQDN de tronco atribuído no OVRP | Bypass de mídia habilitado |
 | :------------ |:----------------- |:--------------|:--------------|
-Usuários com clientes do Teams e telefones 3PIP | cedido | sbc1.contoso.com:5061 | falsas | 
-Usuários com apenas pontos de extremidade de equipes (incluindo novos telefones certificados para equipes) | 980 | sbc2.contoso.com:5060 | verdadeiro
+Usuários com tronco bypass sem mídia | 980 | sbc1.contoso.com:5060 | verdadeiro
+Usuários com tronco de bypass de mídia | cedido | sbc2.contoso.com:5061 | falsas | 
 
 Os dois troncos podem apontar para o mesmo SBC com o mesmo endereço IP público. As portas de sinalização TLS no SBC devem ser diferentes, conforme mostrado no diagrama a seguir. Observação Você precisará verificar se o seu certificado dá suporte a ambos troncos. Na SAN, você precisa ter dois nomes (**sbc1.contoso.com** e **sbc2.contoso.com**) ou ter um certificado curinga.
 
@@ -354,9 +354,9 @@ Para obter informações sobre como configurar dois troncos no mesmo SBC, consul
 
 ## <a name="client-endpoints-supported-with-media-bypass"></a>Pontos de extremidade do cliente com suporte com bypass de mídia
 
-O bypass de mídia é compatível com todos os pontos de extremidade do teams.
+O bypass de mídia é compatível com todos os clientes de desktop de equipe e dispositivos telefônicos de equipe. 
 
-Observação para clientes Web (aplicativo Web Teams no Microsoft Edge, Google Chrome ou Mozilla Firefox), veremos a chamada para non-bypass, mesmo que ele tenha começado como uma chamada de bypass. Isso acontece automaticamente e não requer nenhuma ação do administrador. 
+Para todos os outros pontos de extremidade que não são compatíveis com o bypass de mídia, veremos a chamada para non-bypass, mesmo que ele tenha começado como uma chamada de bypass. Isso acontece automaticamente e não requer nenhuma ação do administrador. Isso inclui os telefones do Skype for Business 3PIP e os clientes Web do teams que dão suporte a chamadas de roteamento direto (novo Microsoft Edge baseado no Chromium, Google Chrome, Mozilla Firefox). 
  
 ## <a name="see-also"></a>Confira também
 
