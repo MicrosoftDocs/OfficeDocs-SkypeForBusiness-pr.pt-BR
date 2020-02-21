@@ -12,20 +12,20 @@ ms:contentKeyID: 51541478
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0ac0855972a58e8f146f71dc430718425babec7a
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 5cdab88634cb0687efbe5012d841b19f4bba6b31
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42122894"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42192344"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="new-group-call-pickup-feature-in-lync-server-2013"></a><span data-ttu-id="92f27-102">Novo recurso de recebimento de chamada em grupo no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="92f27-102">New Group Call Pickup feature in Lync Server 2013</span></span>
+# <a name="new-group-call-pickup-feature-in-lync-server-2013"></a><span data-ttu-id="acc4c-102">Novo recurso de recebimento de chamada em grupo no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="acc4c-102">New Group Call Pickup feature in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,18 +35,18 @@ ms.locfileid: "42122894"
 
 <span> </span>
 
-<span data-ttu-id="92f27-103">_**Última modificação do tópico:** 2013-02-12_</span><span class="sxs-lookup"><span data-stu-id="92f27-103">_**Topic Last Modified:** 2013-02-12_</span></span>
+<span data-ttu-id="acc4c-103">_**Última modificação do tópico:** 2013-02-12_</span><span class="sxs-lookup"><span data-stu-id="acc4c-103">_**Topic Last Modified:** 2013-02-12_</span></span>
 
-<span data-ttu-id="92f27-104">Atualizações cumulativas do Lync Server 2013: fevereiro de 2013 apresenta o recebimento de chamadas em grupo como um novo recurso do Enterprise Voice.</span><span class="sxs-lookup"><span data-stu-id="92f27-104">Cumulative Updates for Lync Server 2013: February 2013 introduces Group Call Pickup as a new Enterprise Voice feature.</span></span> <span data-ttu-id="92f27-105">Com o recebimento de chamadas em grupo, você pode atribuir usuários a grupos para que outros usuários possam atender às chamadas de entrada para usuários que estão no grupo de seus próprios telefones.</span><span class="sxs-lookup"><span data-stu-id="92f27-105">With Group Call Pickup, you can assign users to groups so that other users can answer incoming calls to users who are in the group from their own phones.</span></span>
+<span data-ttu-id="acc4c-104">Atualizações cumulativas do Lync Server 2013: fevereiro de 2013 apresenta o recebimento de chamadas em grupo como um novo recurso do Enterprise Voice.</span><span class="sxs-lookup"><span data-stu-id="acc4c-104">Cumulative Updates for Lync Server 2013: February 2013 introduces Group Call Pickup as a new Enterprise Voice feature.</span></span> <span data-ttu-id="acc4c-105">Com o recebimento de chamadas em grupo, você pode atribuir usuários a grupos para que outros usuários possam atender às chamadas de entrada para usuários que estão no grupo de seus próprios telefones.</span><span class="sxs-lookup"><span data-stu-id="acc4c-105">With Group Call Pickup, you can assign users to groups so that other users can answer incoming calls to users who are in the group from their own phones.</span></span>
 
-<span data-ttu-id="92f27-106">O recebimento de chamadas em grupo é baseado no aplicativo de estacionamento de chamada.</span><span class="sxs-lookup"><span data-stu-id="92f27-106">Group Call Pickup is based on the Call Park application.</span></span> <span data-ttu-id="92f27-107">Para o recebimento de chamadas em grupo, assim como o estacionamento de chamada, você configura um intervalo de números virtuais a serem usados como números de grupo.</span><span class="sxs-lookup"><span data-stu-id="92f27-107">For Group Call Pickup, as with Call Park, you set up a range of virtual numbers to be used as group numbers.</span></span> <span data-ttu-id="92f27-108">Um usuário disca o número do grupo para pegar uma chamada que está tocando para outro usuário que esteja no grupo.</span><span class="sxs-lookup"><span data-stu-id="92f27-108">A user dials the group number to pick up a call that is ringing for another user who is in the group.</span></span>
+<span data-ttu-id="acc4c-106">O recebimento de chamadas em grupo é baseado no aplicativo de estacionamento de chamada.</span><span class="sxs-lookup"><span data-stu-id="acc4c-106">Group Call Pickup is based on the Call Park application.</span></span> <span data-ttu-id="acc4c-107">Para o recebimento de chamadas em grupo, assim como o estacionamento de chamada, você configura um intervalo de números virtuais a serem usados como números de grupo.</span><span class="sxs-lookup"><span data-stu-id="acc4c-107">For Group Call Pickup, as with Call Park, you set up a range of virtual numbers to be used as group numbers.</span></span> <span data-ttu-id="acc4c-108">Um usuário disca o número do grupo para pegar uma chamada que está tocando para outro usuário que esteja no grupo.</span><span class="sxs-lookup"><span data-stu-id="acc4c-108">A user dials the group number to pick up a call that is ringing for another user who is in the group.</span></span>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="92f27-109">Confira também</span><span class="sxs-lookup"><span data-stu-id="92f27-109">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="acc4c-109">Confira também</span><span class="sxs-lookup"><span data-stu-id="acc4c-109">See Also</span></span>
 
 
-[<span data-ttu-id="92f27-110">Planejando o recebimento de chamadas em grupo no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="92f27-110">Planning for Group Call Pickup in Lync Server 2013</span></span>](lync-server-2013-planning-for-group-call-pickup.md)  
+[<span data-ttu-id="acc4c-110">Planejando o recebimento de chamadas em grupo no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="acc4c-110">Planning for Group Call Pickup in Lync Server 2013</span></span>](lync-server-2013-planning-for-group-call-pickup.md)  
   
 
 </div>

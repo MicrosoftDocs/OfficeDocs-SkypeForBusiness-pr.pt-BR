@@ -12,20 +12,20 @@ ms:contentKeyID: 63969663
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: eb72b44cf53a33b3c0d7a79f6adda8870fe37254
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: ada48a9510be6d6deecedf063156abadbd59162f
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42135348"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42191076"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="central-management-store-replication-status-in-lync-server-2013"></a><span data-ttu-id="9a4ab-102">Status de replicação do repositório de gerenciamento central no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9a4ab-102">Central management store replication status in Lync Server 2013</span></span>
+# <a name="central-management-store-replication-status-in-lync-server-2013"></a><span data-ttu-id="0ef15-102">Status de replicação do repositório de gerenciamento central no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0ef15-102">Central management store replication status in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,26 +35,26 @@ ms.locfileid: "42135348"
 
 <span> </span>
 
-<span data-ttu-id="9a4ab-103">_**Última modificação do tópico:** 2015-01-26_</span><span class="sxs-lookup"><span data-stu-id="9a4ab-103">_**Topic Last Modified:** 2015-01-26_</span></span>
+<span data-ttu-id="0ef15-103">_**Última modificação do tópico:** 2015-01-26_</span><span class="sxs-lookup"><span data-stu-id="0ef15-103">_**Topic Last Modified:** 2015-01-26_</span></span>
 
-<span data-ttu-id="9a4ab-104">Quando um administrador faz uma alteração de algum tipo no Lync Server (por exemplo, quando um administrador cria uma nova política de voz ou altera as definições de configuração do servidor do catálogo de endereços), essa alteração é registrada no repositório de gerenciamento central.</span><span class="sxs-lookup"><span data-stu-id="9a4ab-104">When an administrator makes a change of some kind to Lync Server (for example, when an administrator creates a new voice policy or changes the Address Book Server configuration settings) that change is recorded in the Central Management store.</span></span> <span data-ttu-id="9a4ab-105">Por sua vez, a alteração deve ser replicada para todos os computadores que estão executando serviços do Lync Server ou funções de servidor.</span><span class="sxs-lookup"><span data-stu-id="9a4ab-105">In turn, the change must then be replicated to all the computers that are running Lync Server services or server roles.</span></span>
+<span data-ttu-id="0ef15-104">Quando um administrador faz uma alteração de algum tipo no Lync Server (por exemplo, quando um administrador cria uma nova política de voz ou altera as definições de configuração do servidor do catálogo de endereços), essa alteração é registrada no repositório de gerenciamento central.</span><span class="sxs-lookup"><span data-stu-id="0ef15-104">When an administrator makes a change of some kind to Lync Server (for example, when an administrator creates a new voice policy or changes the Address Book Server configuration settings) that change is recorded in the Central Management store.</span></span> <span data-ttu-id="0ef15-105">Por sua vez, a alteração deve ser replicada para todos os computadores que estão executando serviços do Lync Server ou funções de servidor.</span><span class="sxs-lookup"><span data-stu-id="0ef15-105">In turn, the change must then be replicated to all the computers that are running Lync Server services or server roles.</span></span>
 
-<span data-ttu-id="9a4ab-106">Para replicar dados, o mestre replicador (em execução no servidor de gerenciamento central) cria um instantâneo dos dados de configuração alterados.</span><span class="sxs-lookup"><span data-stu-id="9a4ab-106">To replicate data, the Master Replicator (running on the Central Management Server) creates a snapshot of the changed configuration data.</span></span> <span data-ttu-id="9a4ab-107">Uma cópia desse instantâneo é enviada para cada computador que está executando os serviços do Lync Server ou funções de servidor.</span><span class="sxs-lookup"><span data-stu-id="9a4ab-107">A copy of this snapshot is then sent to each computer that is running Lync Server services or server roles.</span></span> <span data-ttu-id="9a4ab-108">Nesses computadores, um agente de Replicação recebe o instantâneo e carrega os dados alterados.</span><span class="sxs-lookup"><span data-stu-id="9a4ab-108">On those computers, a replication agent receives the snapshot and uploads the changed data.</span></span> <span data-ttu-id="9a4ab-109">O agente então envia o mestre replicador uma mensagem relatando o status de replicação mais recente.</span><span class="sxs-lookup"><span data-stu-id="9a4ab-109">The agent then sends the Master Replicator a message reporting the latest replication status.</span></span>
+<span data-ttu-id="0ef15-106">Para replicar dados, o mestre replicador (em execução no servidor de gerenciamento central) cria um instantâneo dos dados de configuração alterados.</span><span class="sxs-lookup"><span data-stu-id="0ef15-106">To replicate data, the Master Replicator (running on the Central Management Server) creates a snapshot of the changed configuration data.</span></span> <span data-ttu-id="0ef15-107">Uma cópia desse instantâneo é enviada para cada computador que está executando os serviços do Lync Server ou funções de servidor.</span><span class="sxs-lookup"><span data-stu-id="0ef15-107">A copy of this snapshot is then sent to each computer that is running Lync Server services or server roles.</span></span> <span data-ttu-id="0ef15-108">Nesses computadores, um agente de Replicação recebe o instantâneo e carrega os dados alterados.</span><span class="sxs-lookup"><span data-stu-id="0ef15-108">On those computers, a replication agent receives the snapshot and uploads the changed data.</span></span> <span data-ttu-id="0ef15-109">O agente então envia o mestre replicador uma mensagem relatando o status de replicação mais recente.</span><span class="sxs-lookup"><span data-stu-id="0ef15-109">The agent then sends the Master Replicator a message reporting the latest replication status.</span></span>
 
-<span data-ttu-id="9a4ab-110">O cmdlet Get-CsManagementStoreReplicationStatus permite que você verifique o status de replicação de qualquer (ou todos) dos computadores do Lync Server em sua organização.</span><span class="sxs-lookup"><span data-stu-id="9a4ab-110">The Get-CsManagementStoreReplicationStatus cmdlet enables you to verify the replication status for any (or all) of the Lync Server computers in your organization.</span></span>
+<span data-ttu-id="0ef15-110">O cmdlet Get-CsManagementStoreReplicationStatus permite que você verifique o status de replicação de qualquer (ou todos) dos computadores do Lync Server em sua organização.</span><span class="sxs-lookup"><span data-stu-id="0ef15-110">The Get-CsManagementStoreReplicationStatus cmdlet enables you to verify the replication status for any (or all) of the Lync Server computers in your organization.</span></span>
 
-<span data-ttu-id="9a4ab-111">Quem pode executar este cmdlet?</span><span class="sxs-lookup"><span data-stu-id="9a4ab-111">Who can run this cmdlet?</span></span> <span data-ttu-id="9a4ab-112">Por padrão, os membros dos seguintes grupos são autorizados a executar o cmdlet Get-CsManagementStoreReplicationStatus localmente: RTCUniversalUserAdmins, RTCUniversalServerAdmins.</span><span class="sxs-lookup"><span data-stu-id="9a4ab-112">By default, members of the following groups are authorized to run the Get-CsManagementStoreReplicationStatus cmdlet locally: RTCUniversalUserAdmins, RTCUniversalServerAdmins.</span></span>
+<span data-ttu-id="0ef15-111">Quem pode executar este cmdlet?</span><span class="sxs-lookup"><span data-stu-id="0ef15-111">Who can run this cmdlet?</span></span> <span data-ttu-id="0ef15-112">Por padrão, os membros dos seguintes grupos são autorizados a executar o cmdlet Get-CsManagementStoreReplicationStatus localmente: RTCUniversalUserAdmins, RTCUniversalServerAdmins.</span><span class="sxs-lookup"><span data-stu-id="0ef15-112">By default, members of the following groups are authorized to run the Get-CsManagementStoreReplicationStatus cmdlet locally: RTCUniversalUserAdmins, RTCUniversalServerAdmins.</span></span>
 
-<span data-ttu-id="9a4ab-113">Para retornar uma lista de todas as funções RBAC às quais este cmdlet foi atribuído (incluindo qualquer função RBAC personalizada que você criou sozinho), execute o seguinte comando no prompt do Windows PowerShell:</span><span class="sxs-lookup"><span data-stu-id="9a4ab-113">To return a list of all RBAC roles this cmdlet was assigned to (including any custom RBAC roles that you have created yourself), run the following command from the Windows PowerShell prompt:</span></span>
+<span data-ttu-id="0ef15-113">Para retornar uma lista de todas as funções RBAC às quais este cmdlet foi atribuído (incluindo qualquer função RBAC personalizada que você criou sozinho), execute o seguinte comando no prompt do Windows PowerShell:</span><span class="sxs-lookup"><span data-stu-id="0ef15-113">To return a list of all RBAC roles this cmdlet was assigned to (including any custom RBAC roles that you have created yourself), run the following command from the Windows PowerShell prompt:</span></span>
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Get-CsManagementStoreReplicationStatus"}
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="9a4ab-114">Confira também</span><span class="sxs-lookup"><span data-stu-id="9a4ab-114">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="0ef15-114">Confira também</span><span class="sxs-lookup"><span data-stu-id="0ef15-114">See Also</span></span>
 
 
-[<span data-ttu-id="9a4ab-115">Get-CsManagementStoreReplicationStatus</span><span class="sxs-lookup"><span data-stu-id="9a4ab-115">Get-CsManagementStoreReplicationStatus</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsManagementStoreReplicationStatus)  
+[<span data-ttu-id="0ef15-115">Get-CsManagementStoreReplicationStatus</span><span class="sxs-lookup"><span data-stu-id="0ef15-115">Get-CsManagementStoreReplicationStatus</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsManagementStoreReplicationStatus)  
   
 
 </div>

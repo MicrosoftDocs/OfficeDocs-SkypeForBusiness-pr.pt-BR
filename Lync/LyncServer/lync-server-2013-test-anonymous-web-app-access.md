@@ -12,20 +12,20 @@ ms:contentKeyID: 63969630
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9df6a040e71b0dfe82a52cf519357d058b78a1d7
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 98878c2e0d0e50c385448dceec5df5643e92aa53
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42141707"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42194674"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="test-anonymous-web-app-access-in-lync-server-2013"></a><span data-ttu-id="3680f-102">Testar o acesso ao aplicativo Web anônimo no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3680f-102">Test anonymous Web App access in Lync Server 2013</span></span>
+# <a name="test-anonymous-web-app-access-in-lync-server-2013"></a><span data-ttu-id="16b82-102">Testar o acesso ao aplicativo Web anônimo no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="16b82-102">Test anonymous Web App access in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "42141707"
 
 <span> </span>
 
-<span data-ttu-id="3680f-103">_**Última modificação do tópico:** 2014-06-07_</span><span class="sxs-lookup"><span data-stu-id="3680f-103">_**Topic Last Modified:** 2014-06-07_</span></span>
+<span data-ttu-id="16b82-103">_**Última modificação do tópico:** 2014-06-07_</span><span class="sxs-lookup"><span data-stu-id="16b82-103">_**Topic Last Modified:** 2014-06-07_</span></span>
 
 
 <table>
@@ -45,17 +45,17 @@ ms.locfileid: "42141707"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="3680f-104">Agenda de verificação</span><span class="sxs-lookup"><span data-stu-id="3680f-104">Verification schedule</span></span></p></td>
-<td><p><span data-ttu-id="3680f-105">Mensal</span><span class="sxs-lookup"><span data-stu-id="3680f-105">Monthly</span></span></p></td>
+<td><p><span data-ttu-id="16b82-104">Agenda de verificação</span><span class="sxs-lookup"><span data-stu-id="16b82-104">Verification schedule</span></span></p></td>
+<td><p><span data-ttu-id="16b82-105">Mensal</span><span class="sxs-lookup"><span data-stu-id="16b82-105">Monthly</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="3680f-106">Ferramenta de teste</span><span class="sxs-lookup"><span data-stu-id="3680f-106">Testing tool</span></span></p></td>
-<td><p><span data-ttu-id="3680f-107">Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="3680f-107">Windows PowerShell</span></span></p></td>
+<td><p><span data-ttu-id="16b82-106">Ferramenta de teste</span><span class="sxs-lookup"><span data-stu-id="16b82-106">Testing tool</span></span></p></td>
+<td><p><span data-ttu-id="16b82-107">Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="16b82-107">Windows PowerShell</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="3680f-108">Permissões obrigatórias</span><span class="sxs-lookup"><span data-stu-id="3680f-108">Permissions required</span></span></p></td>
-<td><p><span data-ttu-id="3680f-109">Ao executar localmente usando o Shell de gerenciamento do Lync Server, os usuários devem ser membros do grupo de segurança RTCUniversalServerAdmins.</span><span class="sxs-lookup"><span data-stu-id="3680f-109">When run locally using the Lync Server Management Shell, users must be members of the RTCUniversalServerAdmins security group.</span></span></p>
-<p><span data-ttu-id="3680f-110">Quando executado usando uma instância remota do Windows PowerShell, os usuários devem receber uma função RBAC que tenha permissão para executar o cmdlet Test-CsWebAppAnonymous.</span><span class="sxs-lookup"><span data-stu-id="3680f-110">When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsWebAppAnonymous cmdlet.</span></span> <span data-ttu-id="3680f-111">Para ver uma lista de todas as funções RBAC que podem usar este cmdlet, execute o seguinte comando no prompt do Windows PowerShell:</span><span class="sxs-lookup"><span data-stu-id="3680f-111">To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</span></span></p>
+<td><p><span data-ttu-id="16b82-108">Permissões obrigatórias</span><span class="sxs-lookup"><span data-stu-id="16b82-108">Permissions required</span></span></p></td>
+<td><p><span data-ttu-id="16b82-109">Ao executar localmente usando o Shell de gerenciamento do Lync Server, os usuários devem ser membros do grupo de segurança RTCUniversalServerAdmins.</span><span class="sxs-lookup"><span data-stu-id="16b82-109">When run locally using the Lync Server Management Shell, users must be members of the RTCUniversalServerAdmins security group.</span></span></p>
+<p><span data-ttu-id="16b82-110">Quando executado usando uma instância remota do Windows PowerShell, os usuários devem receber uma função RBAC que tenha permissão para executar o cmdlet Test-CsWebAppAnonymous.</span><span class="sxs-lookup"><span data-stu-id="16b82-110">When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsWebAppAnonymous cmdlet.</span></span> <span data-ttu-id="16b82-111">Para ver uma lista de todas as funções RBAC que podem usar este cmdlet, execute o seguinte comando no prompt do Windows PowerShell:</span><span class="sxs-lookup"><span data-stu-id="16b82-111">To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</span></span></p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsWebAppAnonymous&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -64,83 +64,83 @@ ms.locfileid: "42141707"
 
 <div>
 
-## <a name="description"></a><span data-ttu-id="3680f-112">Descrição</span><span class="sxs-lookup"><span data-stu-id="3680f-112">Description</span></span>
+## <a name="description"></a><span data-ttu-id="16b82-112">Descrição</span><span class="sxs-lookup"><span data-stu-id="16b82-112">Description</span></span>
 
-<span data-ttu-id="3680f-113">O cmdlet Test-CsWebAppAnonymous verifica se um usuário anônimo pode participar de conferências do Lync Server usando o Lync Web App.</span><span class="sxs-lookup"><span data-stu-id="3680f-113">The Test-CsWebAppAnonymous cmdlet verifies that an anonymous user can join Lync Server conferences by using the Lync Web App.</span></span> <span data-ttu-id="3680f-114">Ao executar o cmdlet, Test-CsWebAppAnonymous contata o serviço de tíquete da Web para obter uma permissão da Web para o usuário anônimo.</span><span class="sxs-lookup"><span data-stu-id="3680f-114">When you run the cmdlet, Test-CsWebAppAnonymous contacts the Web Ticket service to obtain a web ticket for the anonymous user.</span></span> <span data-ttu-id="3680f-115">Se o cmdlet for bem-sucedido para obter esse tíquete, o Test-CsWebAppAnonymous entrará em contato com o Lync Server e tentará estabelecer conferências separadas para mensagens instantâneas, compartilhamento de aplicativos e colaboração de dados.</span><span class="sxs-lookup"><span data-stu-id="3680f-115">If the cmdlet succeeds in obtaining this ticket, Test-CsWebAppAnonymous will then contact Lync Server and attempt to establish separate conferences for instant messaging, application sharing, and data collaboration.</span></span>
+<span data-ttu-id="16b82-113">O cmdlet Test-CsWebAppAnonymous verifica se um usuário anônimo pode participar de conferências do Lync Server usando o Lync Web App.</span><span class="sxs-lookup"><span data-stu-id="16b82-113">The Test-CsWebAppAnonymous cmdlet verifies that an anonymous user can join Lync Server conferences by using the Lync Web App.</span></span> <span data-ttu-id="16b82-114">Ao executar o cmdlet, Test-CsWebAppAnonymous contata o serviço de tíquete da Web para obter uma permissão da Web para o usuário anônimo.</span><span class="sxs-lookup"><span data-stu-id="16b82-114">When you run the cmdlet, Test-CsWebAppAnonymous contacts the Web Ticket service to obtain a web ticket for the anonymous user.</span></span> <span data-ttu-id="16b82-115">Se o cmdlet for bem-sucedido para obter esse tíquete, o Test-CsWebAppAnonymous entrará em contato com o Lync Server e tentará estabelecer conferências separadas para mensagens instantâneas, compartilhamento de aplicativos e colaboração de dados.</span><span class="sxs-lookup"><span data-stu-id="16b82-115">If the cmdlet succeeds in obtaining this ticket, Test-CsWebAppAnonymous will then contact Lync Server and attempt to establish separate conferences for instant messaging, application sharing, and data collaboration.</span></span>
 
-<span data-ttu-id="3680f-116">Observe que Test-CsWebAppAnonymous verifica apenas as APIs e conexões usadas para criar essas conferências.</span><span class="sxs-lookup"><span data-stu-id="3680f-116">Note that Test-CsWebAppAnonymous only verifies the APIs and connections used to create these conferences.</span></span> <span data-ttu-id="3680f-117">Na verdade, o cmdlet não cria e conduz qualquer conferência.</span><span class="sxs-lookup"><span data-stu-id="3680f-117">The cmdlet does not actually create and conduct any conferences.</span></span>
+<span data-ttu-id="16b82-116">Observe que Test-CsWebAppAnonymous verifica apenas as APIs e conexões usadas para criar essas conferências.</span><span class="sxs-lookup"><span data-stu-id="16b82-116">Note that Test-CsWebAppAnonymous only verifies the APIs and connections used to create these conferences.</span></span> <span data-ttu-id="16b82-117">Na verdade, o cmdlet não cria e conduz qualquer conferência.</span><span class="sxs-lookup"><span data-stu-id="16b82-117">The cmdlet does not actually create and conduct any conferences.</span></span>
 
 </div>
 
 <div>
 
-## <a name="running-the-test"></a><span data-ttu-id="3680f-118">Executar o teste</span><span class="sxs-lookup"><span data-stu-id="3680f-118">Running the test</span></span>
+## <a name="running-the-test"></a><span data-ttu-id="16b82-118">Executar o teste</span><span class="sxs-lookup"><span data-stu-id="16b82-118">Running the test</span></span>
 
-<span data-ttu-id="3680f-119">O cmdlet Test-CsWebAppAnonymous pode ser executado usando um par de contas de teste pré-configuradas ou as contas de dois usuários que estão habilitados para o Lync Server.</span><span class="sxs-lookup"><span data-stu-id="3680f-119">The Test-CsWebAppAnonymous cmdlet can be run using either a pair of preconfigured test accounts or the accounts of any two users who are enabled for Lync Server.</span></span> <span data-ttu-id="3680f-120">Para executar esta verificação usando contas de teste, basta especificar o nome de domínio totalmente qualificado do pool do Lync Server que está sendo testado.</span><span class="sxs-lookup"><span data-stu-id="3680f-120">To run this check using test accounts, you just have to specify the fully qualified domain name of the Lync Server pool being tested.</span></span> <span data-ttu-id="3680f-121">Por exemplo:</span><span class="sxs-lookup"><span data-stu-id="3680f-121">For example:</span></span>
+<span data-ttu-id="16b82-119">O cmdlet Test-CsWebAppAnonymous pode ser executado usando um par de contas de teste pré-configuradas ou as contas de dois usuários que estão habilitados para o Lync Server.</span><span class="sxs-lookup"><span data-stu-id="16b82-119">The Test-CsWebAppAnonymous cmdlet can be run using either a pair of preconfigured test accounts or the accounts of any two users who are enabled for Lync Server.</span></span> <span data-ttu-id="16b82-120">Para executar esta verificação usando contas de teste, basta especificar o nome de domínio totalmente qualificado do pool do Lync Server que está sendo testado.</span><span class="sxs-lookup"><span data-stu-id="16b82-120">To run this check using test accounts, you just have to specify the fully qualified domain name of the Lync Server pool being tested.</span></span> <span data-ttu-id="16b82-121">Por exemplo:</span><span class="sxs-lookup"><span data-stu-id="16b82-121">For example:</span></span>
 
     Test-CsWebAppAnonymous -TargetFqdn atl-cs-001.litwareinc.com
 
-<span data-ttu-id="3680f-122">Para executar essa verificação usando contas de usuário reais, você deve criar dois objetos de credenciais do Shell de gerenciamento do Lync Server (objetos que contêm o nome da conta e a senha) para cada conta.</span><span class="sxs-lookup"><span data-stu-id="3680f-122">To run this check using actual user accounts, you must create two Lync Server Management Shell credentials objects (objects that contain the account name and password) for each account.</span></span> <span data-ttu-id="3680f-123">Em seguida, você deve incluir esses objetos de credenciais e os endereços SIP das duas contas ao chamar Test-CsWebAppAnonymous:</span><span class="sxs-lookup"><span data-stu-id="3680f-123">You must then include those credentials objects and the SIP addresses of the two accounts when you call Test-CsWebAppAnonymous:</span></span>
+<span data-ttu-id="16b82-122">Para executar essa verificação usando contas de usuário reais, você deve criar dois objetos de credenciais do Shell de gerenciamento do Lync Server (objetos que contêm o nome da conta e a senha) para cada conta.</span><span class="sxs-lookup"><span data-stu-id="16b82-122">To run this check using actual user accounts, you must create two Lync Server Management Shell credentials objects (objects that contain the account name and password) for each account.</span></span> <span data-ttu-id="16b82-123">Em seguida, você deve incluir esses objetos de credenciais e os endereços SIP das duas contas ao chamar Test-CsWebAppAnonymous:</span><span class="sxs-lookup"><span data-stu-id="16b82-123">You must then include those credentials objects and the SIP addresses of the two accounts when you call Test-CsWebAppAnonymous:</span></span>
 
     $cred1 = Get-Credential "litwareinc\kenmyer"
     
     Test-CsWebApp -TargetFqdn atl-cs-001.litwareinc.com -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $cred1
 
-<span data-ttu-id="3680f-124">Para obter mais informações, consulte o tópico de ajuda para o cmdlet Test-CsWebAppAnonymous.</span><span class="sxs-lookup"><span data-stu-id="3680f-124">For more information, see the help topic for the Test-CsWebAppAnonymous cmdlet.</span></span> <span data-ttu-id="3680f-125">Observe que Test-CsWebAppAnonymous foi preterido para uso no Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="3680f-125">Note that Test-CsWebAppAnonymous is deprecated for use on Lync Server 2013.</span></span>
+<span data-ttu-id="16b82-124">Para obter mais informações, consulte o tópico de ajuda para o cmdlet Test-CsWebAppAnonymous.</span><span class="sxs-lookup"><span data-stu-id="16b82-124">For more information, see the help topic for the Test-CsWebAppAnonymous cmdlet.</span></span> <span data-ttu-id="16b82-125">Observe que Test-CsWebAppAnonymous foi preterido para uso no Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="16b82-125">Note that Test-CsWebAppAnonymous is deprecated for use on Lync Server 2013.</span></span>
 
 </div>
 
 <div>
 
-## <a name="determining-success-or-failure"></a><span data-ttu-id="3680f-126">Determinando o sucesso ou a falha</span><span class="sxs-lookup"><span data-stu-id="3680f-126">Determining success or failure</span></span>
+## <a name="determining-success-or-failure"></a><span data-ttu-id="16b82-126">Determinando o sucesso ou a falha</span><span class="sxs-lookup"><span data-stu-id="16b82-126">Determining success or failure</span></span>
 
-<span data-ttu-id="3680f-127">Se Test-CsWebAppAnonymous puder participar do usuário anônimo em suas conferências, o cmdlet retornará o resultado de teste bem-sucedido:</span><span class="sxs-lookup"><span data-stu-id="3680f-127">If Test-CsWebAppAnonymous can join the anonymous user to his or her conferences, the cmdlet will return the test result Success:</span></span>
+<span data-ttu-id="16b82-127">Se Test-CsWebAppAnonymous puder participar do usuário anônimo em suas conferências, o cmdlet retornará o resultado de teste bem-sucedido:</span><span class="sxs-lookup"><span data-stu-id="16b82-127">If Test-CsWebAppAnonymous can join the anonymous user to his or her conferences, the cmdlet will return the test result Success:</span></span>
 
-<span data-ttu-id="3680f-128">FQDN de destino:</span><span class="sxs-lookup"><span data-stu-id="3680f-128">Target Fqdn :</span></span>
+<span data-ttu-id="16b82-128">FQDN de destino:</span><span class="sxs-lookup"><span data-stu-id="16b82-128">Target Fqdn :</span></span>
 
-<span data-ttu-id="3680f-129">Resultado: êxito</span><span class="sxs-lookup"><span data-stu-id="3680f-129">Result : Success</span></span>
+<span data-ttu-id="16b82-129">Resultado: êxito</span><span class="sxs-lookup"><span data-stu-id="16b82-129">Result : Success</span></span>
 
-<span data-ttu-id="3680f-130">Latência: 00:00:00</span><span class="sxs-lookup"><span data-stu-id="3680f-130">Latency : 00:00:00</span></span>
+<span data-ttu-id="16b82-130">Latência: 00:00:00</span><span class="sxs-lookup"><span data-stu-id="16b82-130">Latency : 00:00:00</span></span>
 
-<span data-ttu-id="3680f-131">Mensagem de erro:</span><span class="sxs-lookup"><span data-stu-id="3680f-131">Error Message :</span></span>
+<span data-ttu-id="16b82-131">Mensagem de erro:</span><span class="sxs-lookup"><span data-stu-id="16b82-131">Error Message :</span></span>
 
-<span data-ttu-id="3680f-132">Diagnóstico</span><span class="sxs-lookup"><span data-stu-id="3680f-132">Diagnosis :</span></span>
+<span data-ttu-id="16b82-132">Diagnóstico</span><span class="sxs-lookup"><span data-stu-id="16b82-132">Diagnosis :</span></span>
 
-<span data-ttu-id="3680f-133">Se o usuário anônimo não puder participar das conferências necessárias, o resultado do teste será marcado como falha.</span><span class="sxs-lookup"><span data-stu-id="3680f-133">If the anonymous user can't join the necessary conferences then the test result will be marked as Failure.</span></span> <span data-ttu-id="3680f-134">Normalmente, Test-CsWebAppAnonymous também reportará uma mensagem de erro detalhada e o diagnóstico:</span><span class="sxs-lookup"><span data-stu-id="3680f-134">Typically Test-CsWebAppAnonymous will also report back a detailed error message and diagnosis:</span></span>
+<span data-ttu-id="16b82-133">Se o usuário anônimo não puder participar das conferências necessárias, o resultado do teste será marcado como falha.</span><span class="sxs-lookup"><span data-stu-id="16b82-133">If the anonymous user can't join the necessary conferences then the test result will be marked as Failure.</span></span> <span data-ttu-id="16b82-134">Normalmente, Test-CsWebAppAnonymous também reportará uma mensagem de erro detalhada e o diagnóstico:</span><span class="sxs-lookup"><span data-stu-id="16b82-134">Typically Test-CsWebAppAnonymous will also report back a detailed error message and diagnosis:</span></span>
 
-<span data-ttu-id="3680f-135">FQDN de destino: atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="3680f-135">Target Fqdn : atl-cs-001.litwareinc.com</span></span>
+<span data-ttu-id="16b82-135">FQDN de destino: atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="16b82-135">Target Fqdn : atl-cs-001.litwareinc.com</span></span>
 
-<span data-ttu-id="3680f-136">Resultado: falha</span><span class="sxs-lookup"><span data-stu-id="3680f-136">Result : Failure</span></span>
+<span data-ttu-id="16b82-136">Resultado: falha</span><span class="sxs-lookup"><span data-stu-id="16b82-136">Result : Failure</span></span>
 
-<span data-ttu-id="3680f-137">Latência: 00:00:05.9746266</span><span class="sxs-lookup"><span data-stu-id="3680f-137">Latency : 00:00:05.9746266</span></span>
+<span data-ttu-id="16b82-137">Latência: 00:00:05.9746266</span><span class="sxs-lookup"><span data-stu-id="16b82-137">Latency : 00:00:05.9746266</span></span>
 
-<span data-ttu-id="3680f-138">Mensagem de erro: nenhuma resposta recebida para o serviço de tíquete da Web</span><span class="sxs-lookup"><span data-stu-id="3680f-138">Error Message : No response received for Web-Ticket service</span></span>
+<span data-ttu-id="16b82-138">Mensagem de erro: nenhuma resposta recebida para o serviço de tíquete da Web</span><span class="sxs-lookup"><span data-stu-id="16b82-138">Error Message : No response received for Web-Ticket service</span></span>
 
-<span data-ttu-id="3680f-139">Diagnóstico: a solicitação HTTP não é autorizada com o cliente</span><span class="sxs-lookup"><span data-stu-id="3680f-139">Diagnosis : The HTTP request is unauthorized with client</span></span>
+<span data-ttu-id="16b82-139">Diagnóstico: a solicitação HTTP não é autorizada com o cliente</span><span class="sxs-lookup"><span data-stu-id="16b82-139">Diagnosis : The HTTP request is unauthorized with client</span></span>
 
-<span data-ttu-id="3680f-140">esquema de autenticação ' NTLM '.</span><span class="sxs-lookup"><span data-stu-id="3680f-140">authentication scheme 'Ntlm'.</span></span> <span data-ttu-id="3680f-141">A autenticação</span><span class="sxs-lookup"><span data-stu-id="3680f-141">The authentication</span></span>
+<span data-ttu-id="16b82-140">esquema de autenticação ' NTLM '.</span><span class="sxs-lookup"><span data-stu-id="16b82-140">authentication scheme 'Ntlm'.</span></span> <span data-ttu-id="16b82-141">A autenticação</span><span class="sxs-lookup"><span data-stu-id="16b82-141">The authentication</span></span>
 
-<span data-ttu-id="3680f-142">o cabeçalho recebido do servidor era ' Negotiate, NTLM '.</span><span class="sxs-lookup"><span data-stu-id="3680f-142">header received from the server was 'Negotiate,NTLM'.</span></span>
+<span data-ttu-id="16b82-142">o cabeçalho recebido do servidor era ' Negotiate, NTLM '.</span><span class="sxs-lookup"><span data-stu-id="16b82-142">header received from the server was 'Negotiate,NTLM'.</span></span>
 
 </div>
 
 <div>
 
-## <a name="reasons-why-the-test-might-have-failed"></a><span data-ttu-id="3680f-143">Motivos pelos quais o teste pode ter falhado</span><span class="sxs-lookup"><span data-stu-id="3680f-143">Reasons why the test might have failed</span></span>
+## <a name="reasons-why-the-test-might-have-failed"></a><span data-ttu-id="16b82-143">Motivos pelos quais o teste pode ter falhado</span><span class="sxs-lookup"><span data-stu-id="16b82-143">Reasons why the test might have failed</span></span>
 
-<span data-ttu-id="3680f-144">Falhas de Test-CsWebAppAnonymous geralmente giram em torno de erros de autenticação do usuário: você deve executar o teste usando uma conta de usuário válida mesmo que o cmdlet esteja verificando a capacidade de um usuário anônimo se conectar ao Lync Server.</span><span class="sxs-lookup"><span data-stu-id="3680f-144">Test-CsWebAppAnonymous failures usually revolve around user authentication errors: you must run the test using a valid user account even though the cmdlet is checking the ability of an anonymous user to connect to Lync Server.</span></span> <span data-ttu-id="3680f-145">Se Test-CsWebAppAnonymous falhar, você deve verificar se o usuário especificado tem uma conta de usuário do Lync Server válida.</span><span class="sxs-lookup"><span data-stu-id="3680f-145">If Test-CsWebAppAnonymous fails, you should verify that the specified user has valid a Lync Server user account.</span></span> <span data-ttu-id="3680f-146">Você pode recuperar informações da conta do Lync Server usando um comando semelhante a este:</span><span class="sxs-lookup"><span data-stu-id="3680f-146">You can retrieve Lync Server account information by using a command similar to this:</span></span>
+<span data-ttu-id="16b82-144">Falhas de Test-CsWebAppAnonymous geralmente giram em torno de erros de autenticação do usuário: você deve executar o teste usando uma conta de usuário válida mesmo que o cmdlet esteja verificando a capacidade de um usuário anônimo se conectar ao Lync Server.</span><span class="sxs-lookup"><span data-stu-id="16b82-144">Test-CsWebAppAnonymous failures usually revolve around user authentication errors: you must run the test using a valid user account even though the cmdlet is checking the ability of an anonymous user to connect to Lync Server.</span></span> <span data-ttu-id="16b82-145">Se Test-CsWebAppAnonymous falhar, você deve verificar se o usuário especificado tem uma conta de usuário do Lync Server válida.</span><span class="sxs-lookup"><span data-stu-id="16b82-145">If Test-CsWebAppAnonymous fails, you should verify that the specified user has valid a Lync Server user account.</span></span> <span data-ttu-id="16b82-146">Você pode recuperar informações da conta do Lync Server usando um comando semelhante a este:</span><span class="sxs-lookup"><span data-stu-id="16b82-146">You can retrieve Lync Server account information by using a command similar to this:</span></span>
 
     Get-CsUser -Identity "sip:kenmyer@litwareinc.com" | Select-Object Enabled
 
-<span data-ttu-id="3680f-147">Se a propriedade Enabled não for igual a true ou se o comando falhar, isso significa que o usuário não tem uma conta válida do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="3680f-147">If the Enabled property is not equal to True or if the command fails, that means that the user does not have a valid Lync Server account.</span></span>
+<span data-ttu-id="16b82-147">Se a propriedade Enabled não for igual a true ou se o comando falhar, isso significa que o usuário não tem uma conta válida do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="16b82-147">If the Enabled property is not equal to True or if the command fails, that means that the user does not have a valid Lync Server account.</span></span>
 
-<span data-ttu-id="3680f-148">Você também deve verificar se a senha que você forneceu ao executar o cmdlet é uma senha válida.</span><span class="sxs-lookup"><span data-stu-id="3680f-148">You should also verify that the password that you supplied when you run the cmdlet is a valid password.</span></span>
+<span data-ttu-id="16b82-148">Você também deve verificar se a senha que você forneceu ao executar o cmdlet é uma senha válida.</span><span class="sxs-lookup"><span data-stu-id="16b82-148">You should also verify that the password that you supplied when you run the cmdlet is a valid password.</span></span>
 
-<span data-ttu-id="3680f-149">Problemas de configuração com o servidor do Office Web Apps também podem causar a falha de Test-CsWebAppAnonymous; Isso geralmente será o caso se você receber o seguinte diagnóstico:</span><span class="sxs-lookup"><span data-stu-id="3680f-149">Configuration problems with Office Web Apps Server can also cause Test-CsWebAppAnonymous to fail; that will often be the case if you receive the following diagnosis:</span></span>
+<span data-ttu-id="16b82-149">Problemas de configuração com o servidor do Office Web Apps também podem causar a falha de Test-CsWebAppAnonymous; Isso geralmente será o caso se você receber o seguinte diagnóstico:</span><span class="sxs-lookup"><span data-stu-id="16b82-149">Configuration problems with Office Web Apps Server can also cause Test-CsWebAppAnonymous to fail; that will often be the case if you receive the following diagnosis:</span></span>
 
-<span data-ttu-id="3680f-150">A solicitação HTTP não é autorizada com o esquema de autenticação de cliente ' NTLM '.</span><span class="sxs-lookup"><span data-stu-id="3680f-150">The HTTP request is unauthorized with client authentication scheme 'Ntlm'.</span></span> <span data-ttu-id="3680f-151">O cabeçalho de autenticação recebido do servidor era ' Negotiate, NTLM '.</span><span class="sxs-lookup"><span data-stu-id="3680f-151">The authentication header received from the server was 'Negotiate,NTLM'.</span></span>
+<span data-ttu-id="16b82-150">A solicitação HTTP não é autorizada com o esquema de autenticação de cliente ' NTLM '.</span><span class="sxs-lookup"><span data-stu-id="16b82-150">The HTTP request is unauthorized with client authentication scheme 'Ntlm'.</span></span> <span data-ttu-id="16b82-151">O cabeçalho de autenticação recebido do servidor era ' Negotiate, NTLM '.</span><span class="sxs-lookup"><span data-stu-id="16b82-151">The authentication header received from the server was 'Negotiate,NTLM'.</span></span>
 
-<span data-ttu-id="3680f-152">Para obter mais informações sobre como diagnosticar e resolver problemas do servidor do Office Web Apps, consulte o blog post [Office Web Apps server 2013-as máquinas são sempre relatadas como não íntegras](http://www.wictorwilen.se/office-web-apps-server-2013---machines-are-always-reported-as-unhealthy).</span><span class="sxs-lookup"><span data-stu-id="3680f-152">For more information on diagnosing and resolving Office Web Apps Server problems see the blog post [Office Web Apps Server 2013 - machines are always reported as Unhealthy](http://www.wictorwilen.se/office-web-apps-server-2013---machines-are-always-reported-as-unhealthy).</span></span>
+<span data-ttu-id="16b82-152">Para obter mais informações sobre como diagnosticar e resolver problemas do servidor do Office Web Apps, consulte o blog post [Office Web Apps server 2013-as máquinas são sempre relatadas como não íntegras](http://www.wictorwilen.se/office-web-apps-server-2013---machines-are-always-reported-as-unhealthy).</span><span class="sxs-lookup"><span data-stu-id="16b82-152">For more information on diagnosing and resolving Office Web Apps Server problems see the blog post [Office Web Apps Server 2013 - machines are always reported as Unhealthy](http://www.wictorwilen.se/office-web-apps-server-2013---machines-are-always-reported-as-unhealthy).</span></span>
 
 </div>
 
