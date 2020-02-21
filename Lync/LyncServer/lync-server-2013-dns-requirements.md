@@ -12,20 +12,20 @@ ms:contentKeyID: 48183690
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8bc648dafb25a3bd198c3c2a941ac8da01e7beaf
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 06986f7d36547c88f6c09151696c7b435a26c810
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42135087"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42199904"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dns-requirements-for-lync-server-2013"></a><span data-ttu-id="24fb7-102">Requisitos de DNS para Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="24fb7-102">DNS requirements for Lync Server 2013</span></span>
+# <a name="dns-requirements-for-lync-server-2013"></a><span data-ttu-id="9f8bd-102">Requisitos de DNS para Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9f8bd-102">DNS requirements for Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "42135087"
 
 <span> </span>
 
-<span data-ttu-id="24fb7-103">_**Última modificação do tópico:** 2012-06-29_</span><span class="sxs-lookup"><span data-stu-id="24fb7-103">_**Topic Last Modified:** 2012-06-29_</span></span>
+<span data-ttu-id="9f8bd-103">_**Última modificação do tópico:** 2012-06-29_</span><span class="sxs-lookup"><span data-stu-id="9f8bd-103">_**Topic Last Modified:** 2012-06-29_</span></span>
 
-<span data-ttu-id="24fb7-104">Os seguintes tópicos descrevem os requisitos DNS para um pool de Front-end e Standard Edition Server.</span><span class="sxs-lookup"><span data-stu-id="24fb7-104">The following topics describe the DNS requirements for a Front End pool and Standard Edition Server.</span></span>
+<span data-ttu-id="9f8bd-104">Os seguintes tópicos descrevem os requisitos DNS para um pool de Front-end e Standard Edition Server.</span><span class="sxs-lookup"><span data-stu-id="9f8bd-104">The following topics describe the DNS requirements for a Front End pool and Standard Edition Server.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="24fb7-105">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="24fb7-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="9f8bd-105">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="9f8bd-105">In This Section</span></span>
 
-  - [<span data-ttu-id="24fb7-106">Requisitos de DNS para pool de front-ends no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="24fb7-106">DNS requirements for Front End pool in Lync Server 2013</span></span>](lync-server-2013-dns-requirements-for-front-end-pool.md)
+  - [<span data-ttu-id="9f8bd-106">Requisitos de DNS para pool de front-ends no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9f8bd-106">DNS requirements for Front End pool in Lync Server 2013</span></span>](lync-server-2013-dns-requirements-for-front-end-pool.md)
 
-  - [<span data-ttu-id="24fb7-107">Requisitos de DNS para um servidor Standard Edition no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="24fb7-107">DNS requirements for a Standard Edition server in Lync Server 2013</span></span>](lync-server-2013-dns-requirements-for-a-standard-edition-server.md)
+  - [<span data-ttu-id="9f8bd-107">Requisitos de DNS para um servidor Standard Edition no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9f8bd-107">DNS requirements for a Standard Edition server in Lync Server 2013</span></span>](lync-server-2013-dns-requirements-for-a-standard-edition-server.md)
 
 </div>
 

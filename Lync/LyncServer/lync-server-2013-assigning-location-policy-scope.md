@@ -12,20 +12,20 @@ ms:contentKeyID: 48185734
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 844f940c3e817dd5002a5caa6e0ec6fa17b93733
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: b436c52b89ce9e396d93669c09cdadeef10260e3
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42149240"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42203287"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="assigning-location-policy-scope-in-lync-server-2013"></a><span data-ttu-id="9d856-102">Atribuindo escopo de política de local no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9d856-102">Assigning location policy scope in Lync Server 2013</span></span>
+# <a name="assigning-location-policy-scope-in-lync-server-2013"></a><span data-ttu-id="4f109-102">Atribuindo escopo de política de local no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4f109-102">Assigning location policy scope in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "42149240"
 
 <span> </span>
 
-<span data-ttu-id="9d856-103">_**Última modificação do tópico:** 2012-06-06_</span><span class="sxs-lookup"><span data-stu-id="9d856-103">_**Topic Last Modified:** 2012-06-06_</span></span>
+<span data-ttu-id="4f109-103">_**Última modificação do tópico:** 2012-06-06_</span><span class="sxs-lookup"><span data-stu-id="4f109-103">_**Topic Last Modified:** 2012-06-06_</span></span>
 
-<span data-ttu-id="9d856-104">Como em outras políticas do Lync Server, as políticas de local podem ser atribuídas em vários níveis de escopo: global, site e usuário.</span><span class="sxs-lookup"><span data-stu-id="9d856-104">As with other Lync Server policies, location policies can be assigned at multiple scope levels: global, site, and user.</span></span> <span data-ttu-id="9d856-105">No entanto, o escopo das políticas de local no nível do usuário se comporta um pouco diferente de outras políticas do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="9d856-105">However, the scope of user-level location policies behaves a bit differently than with other Lync Server policies.</span></span> <span data-ttu-id="9d856-106">Não apenas as políticas de local por usuário podem ser aplicadas a objetos de ponto de extremidade (como usuários e objetos de contato de telefone de área comum), elas também podem ser aplicadas aos sites de rede do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="9d856-106">Not only can per-user location policies be applied to endpoint objects (such as Users and Common Area Phone contact objects), they can also be applied to Lync Server network sites.</span></span> <span data-ttu-id="9d856-107">Os sites de rede são agrupamentos de sub-redes de clientes associados a uma localidade geográfica (mas podem não ser necessariamente todas as sub-redes em todo o site central ou site de filial).</span><span class="sxs-lookup"><span data-stu-id="9d856-107">Network sites are groupings of client subnets associated with a geographical location (but may not necessarily be all subnets in an entire central site or branch site).</span></span> <span data-ttu-id="9d856-108">Quaisquer clientes conectados às sub-redes em um site de rede automaticamente selecionam a política de local designada para o site de rede.</span><span class="sxs-lookup"><span data-stu-id="9d856-108">Any clients connected to the subnets in a network site automatically pick up the location policy assigned to that network site.</span></span> <span data-ttu-id="9d856-109">Nos casos em que uma política de local de nível de usuário é atribuída a um usuário e a um local de rede, a política de local baseada no site de rede substitui qualquer configuração de política por usuário.</span><span class="sxs-lookup"><span data-stu-id="9d856-109">In cases where a user-level location policy is assigned both to a user and to a network site, the network site-based location policy overrides any per-user policy setting.</span></span>
+<span data-ttu-id="4f109-104">Como em outras políticas do Lync Server, as políticas de local podem ser atribuídas em vários níveis de escopo: global, site e usuário.</span><span class="sxs-lookup"><span data-stu-id="4f109-104">As with other Lync Server policies, location policies can be assigned at multiple scope levels: global, site, and user.</span></span> <span data-ttu-id="4f109-105">No entanto, o escopo das políticas de local no nível do usuário se comporta um pouco diferente de outras políticas do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="4f109-105">However, the scope of user-level location policies behaves a bit differently than with other Lync Server policies.</span></span> <span data-ttu-id="4f109-106">Não apenas as políticas de local por usuário podem ser aplicadas a objetos de ponto de extremidade (como usuários e objetos de contato de telefone de área comum), elas também podem ser aplicadas aos sites de rede do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="4f109-106">Not only can per-user location policies be applied to endpoint objects (such as Users and Common Area Phone contact objects), they can also be applied to Lync Server network sites.</span></span> <span data-ttu-id="4f109-107">Os sites de rede são agrupamentos de sub-redes de clientes associados a uma localidade geográfica (mas podem não ser necessariamente todas as sub-redes em todo o site central ou site de filial).</span><span class="sxs-lookup"><span data-stu-id="4f109-107">Network sites are groupings of client subnets associated with a geographical location (but may not necessarily be all subnets in an entire central site or branch site).</span></span> <span data-ttu-id="4f109-108">Quaisquer clientes conectados às sub-redes em um site de rede automaticamente selecionam a política de local designada para o site de rede.</span><span class="sxs-lookup"><span data-stu-id="4f109-108">Any clients connected to the subnets in a network site automatically pick up the location policy assigned to that network site.</span></span> <span data-ttu-id="4f109-109">Nos casos em que uma política de local de nível de usuário é atribuída a um usuário e a um local de rede, a política de local baseada no site de rede substitui qualquer configuração de política por usuário.</span><span class="sxs-lookup"><span data-stu-id="4f109-109">In cases where a user-level location policy is assigned both to a user and to a network site, the network site-based location policy overrides any per-user policy setting.</span></span>
 
-<span data-ttu-id="9d856-110">Cada site de rede possui uma política de local atribuída a ele e cada política terá diferentes valores para Usos do PSTN, URIs de Notificação e URIs da Conferência atribuídos a ela.</span><span class="sxs-lookup"><span data-stu-id="9d856-110">Each network site has a location policy assigned to it, and each policy will have different PSTN Usages, Notification URIs, and Conference URIs values assigned to it.</span></span>
+<span data-ttu-id="4f109-110">Cada site de rede possui uma política de local atribuída a ele e cada política terá diferentes valores para Usos do PSTN, URIs de Notificação e URIs da Conferência atribuídos a ela.</span><span class="sxs-lookup"><span data-stu-id="4f109-110">Each network site has a location policy assigned to it, and each policy will have different PSTN Usages, Notification URIs, and Conference URIs values assigned to it.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="9d856-111">O motivo para esse comportamento de escopo de política especial é que, quando um usuário hospedado em um pool em um site do Office visita outro site e precisa fazer uma chamada de emergência, as configurações de roteamento de chamadas E9-1-1 apropriadas para esse site de rede serão aplicadas, não importa qual pool ou site o u ser atribuído a.</span><span class="sxs-lookup"><span data-stu-id="9d856-111">The reason for this special policy scoping behavior is so that when a user homed on a pool at one office site visits another site and has to make an emergency call, the E9-1-1 call routing settings appropriate to that network site will apply no matter what pool or site the user is assigned to.</span></span>
+> <span data-ttu-id="4f109-111">O motivo para esse comportamento de escopo de política especial é que, quando um usuário hospedado em um pool em um site do Office visita outro site e precisa fazer uma chamada de emergência, as configurações de roteamento de chamadas E9-1-1 apropriadas para esse site de rede serão aplicadas, não importa qual pool ou site o u ser atribuído a.</span><span class="sxs-lookup"><span data-stu-id="4f109-111">The reason for this special policy scoping behavior is so that when a user homed on a pool at one office site visits another site and has to make an emergency call, the E9-1-1 call routing settings appropriate to that network site will apply no matter what pool or site the user is assigned to.</span></span>
 
 
 

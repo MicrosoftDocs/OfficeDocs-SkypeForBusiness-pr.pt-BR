@@ -12,20 +12,20 @@ ms:contentKeyID: 48185584
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a872cee8bcbe3c6faa857d6d3f62a50edca393b6
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 09c4102008eca37d79d2862a3ede8b1498899511
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42146564"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42205147"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-an-existing-central-management-server-in-lync-server-2013"></a><span data-ttu-id="3ead6-102">Configurar um servidor de gerenciamento central existente no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3ead6-102">Configure an existing Central Management Server in Lync Server 2013</span></span>
+# <a name="configure-an-existing-central-management-server-in-lync-server-2013"></a><span data-ttu-id="bfe0c-102">Configurar um servidor de gerenciamento central existente no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="bfe0c-102">Configure an existing Central Management Server in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "42146564"
 
 <span> </span>
 
-<span data-ttu-id="3ead6-103">_**Última modificação do tópico:** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="3ead6-103">_**Topic Last Modified:** 2013-02-21_</span></span>
+<span data-ttu-id="bfe0c-103">_**Última modificação do tópico:** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="bfe0c-103">_**Topic Last Modified:** 2013-02-21_</span></span>
 
-<span data-ttu-id="3ead6-104">Se você reutilizar um servidor de gerenciamento central de uma implantação existente do Lync Server 2013, deverá executar o procedimento descrito abaixo para garantir que o painel de controle do Lync Server e o Windows PowerShell funcionem corretamente.</span><span class="sxs-lookup"><span data-stu-id="3ead6-104">If you reuse a Central Management Server from an existing Lync Server 2013 deployment, you must run the procedure described below to make sure that Lync Server Control Panel and Windows PowerShell function correctly.</span></span>
+<span data-ttu-id="bfe0c-104">Se você reutilizar um servidor de gerenciamento central de uma implantação existente do Lync Server 2013, deverá executar o procedimento descrito abaixo para garantir que o painel de controle do Lync Server e o Windows PowerShell funcionem corretamente.</span><span class="sxs-lookup"><span data-stu-id="bfe0c-104">If you reuse a Central Management Server from an existing Lync Server 2013 deployment, you must run the procedure described below to make sure that Lync Server Control Panel and Windows PowerShell function correctly.</span></span>
 
 <div>
 
-## <a name="to-configure-an-existing-central-management-server"></a><span data-ttu-id="3ead6-105">Para configurar um servidor de gerenciamento central existente</span><span class="sxs-lookup"><span data-stu-id="3ead6-105">To configure an existing Central Management Server</span></span>
+## <a name="to-configure-an-existing-central-management-server"></a><span data-ttu-id="bfe0c-105">Para configurar um servidor de gerenciamento central existente</span><span class="sxs-lookup"><span data-stu-id="bfe0c-105">To configure an existing Central Management Server</span></span>
 
-1.  <span data-ttu-id="3ead6-106">Inicie o Shell de Gerenciamento do Lync Server: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Shell de Gerenciamento do Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="3ead6-106">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+1.  <span data-ttu-id="bfe0c-106">Inicie o Shell de Gerenciamento do Lync Server: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Shell de Gerenciamento do Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="bfe0c-106">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-2.  <span data-ttu-id="3ead6-107">Use o cmdlet **Update-CsAdminRole** para atualizar as funções RBAC (controle de acesso baseado em função) armazenadas no servidor de gerenciamento central.</span><span class="sxs-lookup"><span data-stu-id="3ead6-107">Use the **Update-CsAdminRole** cmdlet to update the role-based access control (RBAC) roles stored in the Central Management Server.</span></span>
+2.  <span data-ttu-id="bfe0c-107">Use o cmdlet **Update-CsAdminRole** para atualizar as funções RBAC (controle de acesso baseado em função) armazenadas no servidor de gerenciamento central.</span><span class="sxs-lookup"><span data-stu-id="bfe0c-107">Use the **Update-CsAdminRole** cmdlet to update the role-based access control (RBAC) roles stored in the Central Management Server.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="3ead6-108">Nenhum resultado é esperado a não ser que haja um erro.</span><span class="sxs-lookup"><span data-stu-id="3ead6-108">No output is expected unless there is an error.</span></span>
+    > <span data-ttu-id="bfe0c-108">Nenhum resultado é esperado a não ser que haja um erro.</span><span class="sxs-lookup"><span data-stu-id="bfe0c-108">No output is expected unless there is an error.</span></span>
 
     
     </div>
