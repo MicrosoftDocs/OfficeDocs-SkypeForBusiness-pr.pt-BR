@@ -12,20 +12,20 @@ ms:contentKeyID: 48184249
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 89f1721967ec693556fecd12d31f45b9b3d108d4
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: dbf4798c154b240a6048840a819c35d39f5ffc9d
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42113274"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42211767"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="verify-connectivity-for-external-users-in-lync-server-2013"></a><span data-ttu-id="d67ce-102">Verificar a conectividade para usuários externos no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d67ce-102">Verify connectivity for external users in Lync Server 2013</span></span>
+# <a name="verify-connectivity-for-external-users-in-lync-server-2013"></a><span data-ttu-id="0c4aa-102">Verificar a conectividade para usuários externos no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0c4aa-102">Verify connectivity for external users in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,37 +35,37 @@ ms.locfileid: "42113274"
 
 <span> </span>
 
-<span data-ttu-id="d67ce-103">_**Última modificação do tópico:** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="d67ce-103">_**Topic Last Modified:** 2012-10-19_</span></span>
+<span data-ttu-id="0c4aa-103">_**Última modificação do tópico:** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="0c4aa-103">_**Topic Last Modified:** 2012-10-19_</span></span>
 
-<span data-ttu-id="d67ce-104">Para validar a conectividade de usuários externos, é necessário garantir a conectividade dos usuários com o servidor e a porta do Serviço de Borda de Acesso.</span><span class="sxs-lookup"><span data-stu-id="d67ce-104">Validating connectivity for external users requires ensuring connectivity from users to the server and port for the Access Edge service.</span></span>
+<span data-ttu-id="0c4aa-104">Para validar a conectividade de usuários externos, é necessário garantir a conectividade dos usuários com o servidor e a porta do Serviço de Borda de Acesso.</span><span class="sxs-lookup"><span data-stu-id="0c4aa-104">Validating connectivity for external users requires ensuring connectivity from users to the server and port for the Access Edge service.</span></span>
 
-<span data-ttu-id="d67ce-105">Um recurso valioso para confirmar sua configuração e a capacidade de se conectar, enviar e receber as mensagens corretas para os cenários que o acesso de usuário externo requer é o site do analisador de conectividade remota (<http://www.testocsconnectivity.com>).</span><span class="sxs-lookup"><span data-stu-id="d67ce-105">A valuable resource for confirming your configuration and the ability to connect, send and receive the correct messages for the scenarios that external user access requires is the Remote Connectivity Analyzer site (<http://www.testocsconnectivity.com>).</span></span> <span data-ttu-id="d67ce-106">O site é gerenciado e mantido pelo suporte da Microsoft.</span><span class="sxs-lookup"><span data-stu-id="d67ce-106">The site is managed and maintained by Microsoft Support.</span></span> <span data-ttu-id="d67ce-107">Para acessar o Analisador de Conectividade Remota, abra o site da Web em um navegador e siga as instruções para selecionar o cenário.</span><span class="sxs-lookup"><span data-stu-id="d67ce-107">To reach the Remote Connectivity Analyzer, open the Web site in a browser and follow the instructions to select the scenario.</span></span>
+<span data-ttu-id="0c4aa-105">Um recurso valioso para confirmar sua configuração e a capacidade de se conectar, enviar e receber as mensagens corretas para os cenários que o acesso de usuário externo requer é o site do analisador de conectividade remota (<http://www.testocsconnectivity.com>).</span><span class="sxs-lookup"><span data-stu-id="0c4aa-105">A valuable resource for confirming your configuration and the ability to connect, send and receive the correct messages for the scenarios that external user access requires is the Remote Connectivity Analyzer site (<http://www.testocsconnectivity.com>).</span></span> <span data-ttu-id="0c4aa-106">O site é gerenciado e mantido pelo suporte da Microsoft.</span><span class="sxs-lookup"><span data-stu-id="0c4aa-106">The site is managed and maintained by Microsoft Support.</span></span> <span data-ttu-id="0c4aa-107">Para acessar o Analisador de Conectividade Remota, abra o site da Web em um navegador e siga as instruções para selecionar o cenário.</span><span class="sxs-lookup"><span data-stu-id="0c4aa-107">To reach the Remote Connectivity Analyzer, open the Web site in a browser and follow the instructions to select the scenario.</span></span>
 
 <div>
 
-## <a name="test-connectivity-of-external-users-and-external-access"></a><span data-ttu-id="d67ce-108">Teste a conectividade de usuários externos e do acesso externo</span><span class="sxs-lookup"><span data-stu-id="d67ce-108">Test Connectivity of External Users and External access</span></span>
+## <a name="test-connectivity-of-external-users-and-external-access"></a><span data-ttu-id="0c4aa-108">Teste a conectividade de usuários externos e do acesso externo</span><span class="sxs-lookup"><span data-stu-id="0c4aa-108">Test Connectivity of External Users and External access</span></span>
 
-<span data-ttu-id="d67ce-109">Os testes de acesso de usuários externos devem incluir todos os tipos de usuário externo aceitos pela sua organização, incluindo um ou todos os seguintes:</span><span class="sxs-lookup"><span data-stu-id="d67ce-109">Tests for external user access should include each type of external user that your organization supports, including any or all of the following:</span></span>
+<span data-ttu-id="0c4aa-109">Os testes de acesso de usuários externos devem incluir todos os tipos de usuário externo aceitos pela sua organização, incluindo um ou todos os seguintes:</span><span class="sxs-lookup"><span data-stu-id="0c4aa-109">Tests for external user access should include each type of external user that your organization supports, including any or all of the following:</span></span>
 
-  - <span data-ttu-id="d67ce-110">Os usuários de pelo menos um domínio federado e o teste de IM, presença, A/V e compartilhamento de área de trabalho.</span><span class="sxs-lookup"><span data-stu-id="d67ce-110">Users from at least one federated domain, and test IM, presence, A/V and desktop sharing.</span></span>
+  - <span data-ttu-id="0c4aa-110">Os usuários de pelo menos um domínio federado e o teste de IM, presença, A/V e compartilhamento de área de trabalho.</span><span class="sxs-lookup"><span data-stu-id="0c4aa-110">Users from at least one federated domain, and test IM, presence, A/V and desktop sharing.</span></span>
 
-  - <span data-ttu-id="d67ce-111">Os usuários de cada provedor de serviços públicos de IM que tem suporte em sua empresa (e para o qual o provisionamento foi concluído).</span><span class="sxs-lookup"><span data-stu-id="d67ce-111">Users of each public IM service provider that your organization supports (and for which provisioning has been completed).</span></span>
+  - <span data-ttu-id="0c4aa-111">Os usuários de cada provedor de serviços públicos de IM que tem suporte em sua empresa (e para o qual o provisionamento foi concluído).</span><span class="sxs-lookup"><span data-stu-id="0c4aa-111">Users of each public IM service provider that your organization supports (and for which provisioning has been completed).</span></span>
 
-  - <span data-ttu-id="d67ce-112">Usuários anônimos.</span><span class="sxs-lookup"><span data-stu-id="d67ce-112">Anonymous users.</span></span>
+  - <span data-ttu-id="0c4aa-112">Usuários anônimos.</span><span class="sxs-lookup"><span data-stu-id="0c4aa-112">Anonymous users.</span></span>
 
-  - <span data-ttu-id="d67ce-113">Usuários em sua organização que fizeram logon no Lync remotamente, mas sem usar VPN.</span><span class="sxs-lookup"><span data-stu-id="d67ce-113">Users within your organization who are logged into Lync remotely, but not using VPN.</span></span>
+  - <span data-ttu-id="0c4aa-113">Usuários em sua organização que fizeram logon no Lync remotamente, mas sem usar VPN.</span><span class="sxs-lookup"><span data-stu-id="0c4aa-113">Users within your organization who are logged into Lync remotely, but not using VPN.</span></span>
 
-<span data-ttu-id="d67ce-114">Esses testes determinam se o Servidor de Borda:</span><span class="sxs-lookup"><span data-stu-id="d67ce-114">These tests determine whether your Edge Server is:</span></span>
+<span data-ttu-id="0c4aa-114">Esses testes determinam se o Servidor de Borda:</span><span class="sxs-lookup"><span data-stu-id="0c4aa-114">These tests determine whether your Edge Server is:</span></span>
 
-  - <span data-ttu-id="d67ce-115">Escuta as portas necessárias usando um cliente telnet de fora da rede.</span><span class="sxs-lookup"><span data-stu-id="d67ce-115">Listening on the necessary ports by using a telnet client from outside your network.</span></span>
+  - <span data-ttu-id="0c4aa-115">Escuta as portas necessárias usando um cliente telnet de fora da rede.</span><span class="sxs-lookup"><span data-stu-id="0c4aa-115">Listening on the necessary ports by using a telnet client from outside your network.</span></span>
     
-      - <span data-ttu-id="d67ce-116">Exemplo: telnet sip.contoso.com 443</span><span class="sxs-lookup"><span data-stu-id="d67ce-116">Example: telnet sip.contoso.com 443</span></span>
+      - <span data-ttu-id="0c4aa-116">Exemplo: telnet sip.contoso.com 443</span><span class="sxs-lookup"><span data-stu-id="0c4aa-116">Example: telnet sip.contoso.com 443</span></span>
     
-      - <span data-ttu-id="d67ce-117">Executa o teste anterior nas portas que você está usando no Servidor de Borda ou no pool do Servidor de Borda dependendo da sua implantação.</span><span class="sxs-lookup"><span data-stu-id="d67ce-117">Perform the preceding test on ports you are using on the Edge Server or Edge Server pool depending on your deployment.</span></span>
+      - <span data-ttu-id="0c4aa-117">Executa o teste anterior nas portas que você está usando no Servidor de Borda ou no pool do Servidor de Borda dependendo da sua implantação.</span><span class="sxs-lookup"><span data-stu-id="0c4aa-117">Perform the preceding test on ports you are using on the Edge Server or Edge Server pool depending on your deployment.</span></span>
 
-  - <span data-ttu-id="d67ce-118">Executa a resolução DNS externa precisa.</span><span class="sxs-lookup"><span data-stu-id="d67ce-118">Performing accurate external DNS resolution.</span></span>
+  - <span data-ttu-id="0c4aa-118">Executa a resolução DNS externa precisa.</span><span class="sxs-lookup"><span data-stu-id="0c4aa-118">Performing accurate external DNS resolution.</span></span>
     
-      - <span data-ttu-id="d67ce-p102">De fora da sua rede, execute ping em cada FQDN externo da Borda ou do pool de Borda. Mesmo se o ping falhar, você verá os endereços IP, que poderá comparar com aqueles que você atribuiu.</span><span class="sxs-lookup"><span data-stu-id="d67ce-p102">From outside your network ping each of the external FQDN’s of your Edge or Edge pool. Even if the ping fails you will see the IP addresses, which you can compare to the ones you have assigned.</span></span>
+      - <span data-ttu-id="0c4aa-p102">De fora da sua rede, execute ping em cada FQDN externo da Borda ou do pool de Borda. Mesmo se o ping falhar, você verá os endereços IP, que poderá comparar com aqueles que você atribuiu.</span><span class="sxs-lookup"><span data-stu-id="0c4aa-p102">From outside your network ping each of the external FQDN’s of your Edge or Edge pool. Even if the ping fails you will see the IP addresses, which you can compare to the ones you have assigned.</span></span>
 
 </div>
 

@@ -12,20 +12,20 @@ ms:contentKeyID: 51803992
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5b3fbf748569e12e0801f727ecfc0ad6372f4af2
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: eb9b9a928925bfc3ff933e2d94d39db8b652e6ff
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42136809"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42211527"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="view-common-area-phone-information-in-lync-server-2013"></a><span data-ttu-id="167dc-102">Exibir informações de telefone de área comum no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="167dc-102">View common area phone information in Lync Server 2013</span></span>
+# <a name="view-common-area-phone-information-in-lync-server-2013"></a><span data-ttu-id="a8843-102">Exibir informações de telefone de área comum no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a8843-102">View common area phone information in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,24 +35,24 @@ ms.locfileid: "42136809"
 
 <span> </span>
 
-<span data-ttu-id="167dc-103">_**Última modificação do tópico:** 2013-02-20_</span><span class="sxs-lookup"><span data-stu-id="167dc-103">_**Topic Last Modified:** 2013-02-20_</span></span>
+<span data-ttu-id="a8843-103">_**Última modificação do tópico:** 2013-02-20_</span><span class="sxs-lookup"><span data-stu-id="a8843-103">_**Topic Last Modified:** 2013-02-20_</span></span>
 
-<span data-ttu-id="167dc-104">Você pode exibir informações sobre os telefones de área comum configurados para uso em sua organização usando o cmdlet **Get-CsCommonAreaPhone** .</span><span class="sxs-lookup"><span data-stu-id="167dc-104">You can view information about the common area phones configured for use in your organization by using the **Get-CsCommonAreaPhone** cmdlet.</span></span> <span data-ttu-id="167dc-105">Usado sem qualquer parâmetro, este cmdlet retorna informações sobre todos os telefones de área comum.</span><span class="sxs-lookup"><span data-stu-id="167dc-105">Used without any parameters, this cmdlet returns information about all your common area phones.</span></span> <span data-ttu-id="167dc-106">Parâmetros opcionais fornecem maneiras diferentes de filtrar informações.</span><span class="sxs-lookup"><span data-stu-id="167dc-106">Optional parameters provide different ways for you to filter information.</span></span> <span data-ttu-id="167dc-107">Por exemplo, você pode retornar todos os telefones de área comum que possuem objetos de contato em uma UO (unidade organizacional) especificada ou todos os objetos de contatos localizados em um edifício especificado.</span><span class="sxs-lookup"><span data-stu-id="167dc-107">For example, you can return all the common area phones that have contact objects in a specified organizational unit (OU) or all the contacts objects located in a specified building.</span></span> <span data-ttu-id="167dc-108">Para obter detalhes sobre os parâmetros **Get-CsCommonAreaPhone** , consulte [Get-CsCommonAreaPhone](https://docs.microsoft.com/powershell/module/skype/Get-CsCommonAreaPhone).</span><span class="sxs-lookup"><span data-stu-id="167dc-108">For details about **Get-CsCommonAreaPhone** parameters, see [Get-CsCommonAreaPhone](https://docs.microsoft.com/powershell/module/skype/Get-CsCommonAreaPhone).</span></span>
+<span data-ttu-id="a8843-104">Você pode exibir informações sobre os telefones de área comum configurados para uso em sua organização usando o cmdlet **Get-CsCommonAreaPhone** .</span><span class="sxs-lookup"><span data-stu-id="a8843-104">You can view information about the common area phones configured for use in your organization by using the **Get-CsCommonAreaPhone** cmdlet.</span></span> <span data-ttu-id="a8843-105">Usado sem qualquer parâmetro, este cmdlet retorna informações sobre todos os telefones de área comum.</span><span class="sxs-lookup"><span data-stu-id="a8843-105">Used without any parameters, this cmdlet returns information about all your common area phones.</span></span> <span data-ttu-id="a8843-106">Parâmetros opcionais fornecem maneiras diferentes de filtrar informações.</span><span class="sxs-lookup"><span data-stu-id="a8843-106">Optional parameters provide different ways for you to filter information.</span></span> <span data-ttu-id="a8843-107">Por exemplo, você pode retornar todos os telefones de área comum que possuem objetos de contato em uma UO (unidade organizacional) especificada ou todos os objetos de contatos localizados em um edifício especificado.</span><span class="sxs-lookup"><span data-stu-id="a8843-107">For example, you can return all the common area phones that have contact objects in a specified organizational unit (OU) or all the contacts objects located in a specified building.</span></span> <span data-ttu-id="a8843-108">Para obter detalhes sobre os parâmetros **Get-CsCommonAreaPhone** , consulte [Get-CsCommonAreaPhone](https://docs.microsoft.com/powershell/module/skype/Get-CsCommonAreaPhone).</span><span class="sxs-lookup"><span data-stu-id="a8843-108">For details about **Get-CsCommonAreaPhone** parameters, see [Get-CsCommonAreaPhone](https://docs.microsoft.com/powershell/module/skype/Get-CsCommonAreaPhone).</span></span>
 
-<span data-ttu-id="167dc-109">Execute **Get-CsCommonAreaPhone** do Shell de gerenciamento do Lync Server 2013 ou de uma sessão remota do Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="167dc-109">Run **Get-CsCommonAreaPhone** either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span>
-
-<div>
-
+<span data-ttu-id="a8843-109">Execute **Get-CsCommonAreaPhone** do Shell de gerenciamento do Lync Server 2013 ou de uma sessão remota do Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="a8843-109">Run **Get-CsCommonAreaPhone** either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span>
 
 <div>
 
-## <a name="viewing-information-about-all-your-common-area-phones"></a><span data-ttu-id="167dc-110">Exibindo informações sobre todos os telefones de área comum</span><span class="sxs-lookup"><span data-stu-id="167dc-110">Viewing Information about All Your Common Area Phones</span></span>
 
-  - <span data-ttu-id="167dc-111">Para exibir informações sobre todos os telefones de área comum, digite o seguinte comando no Shell de gerenciamento do Lync Server e pressione ENTER:</span><span class="sxs-lookup"><span data-stu-id="167dc-111">To view information about all your common area phones, type the following command in the Lync Server Management Shell, and then press Enter:</span></span>
+<div>
+
+## <a name="viewing-information-about-all-your-common-area-phones"></a><span data-ttu-id="a8843-110">Exibindo informações sobre todos os telefones de área comum</span><span class="sxs-lookup"><span data-stu-id="a8843-110">Viewing Information about All Your Common Area Phones</span></span>
+
+  - <span data-ttu-id="a8843-111">Para exibir informações sobre todos os telefones de área comum, digite o seguinte comando no Shell de gerenciamento do Lync Server e pressione ENTER:</span><span class="sxs-lookup"><span data-stu-id="a8843-111">To view information about all your common area phones, type the following command in the Lync Server Management Shell, and then press Enter:</span></span>
     
         Get-CsCommonAreaPhone
     
-    <span data-ttu-id="167dc-112">Você receberá informações semelhantes a estas:</span><span class="sxs-lookup"><span data-stu-id="167dc-112">You’ll get information similar to this:</span></span>
+    <span data-ttu-id="a8843-112">Você receberá informações semelhantes a estas:</span><span class="sxs-lookup"><span data-stu-id="a8843-112">You’ll get information similar to this:</span></span>
     
         Identity           : CN=Building 14 Lobby,OU=Redmond,
                              DC=litwareinc,DC=com
@@ -74,7 +74,7 @@ ms.locfileid: "42136809"
 
 </div>
 
-<span data-ttu-id="167dc-113">Para obter detalhes, consulte o tópico de ajuda para o cmdlet [Get-CsCommonAreaPhone](https://docs.microsoft.com/powershell/module/skype/Get-CsCommonAreaPhone) .</span><span class="sxs-lookup"><span data-stu-id="167dc-113">For details, see the Help topic for the [Get-CsCommonAreaPhone](https://docs.microsoft.com/powershell/module/skype/Get-CsCommonAreaPhone) cmdlet.</span></span>
+<span data-ttu-id="a8843-113">Para obter detalhes, consulte o tópico de ajuda para o cmdlet [Get-CsCommonAreaPhone](https://docs.microsoft.com/powershell/module/skype/Get-CsCommonAreaPhone) .</span><span class="sxs-lookup"><span data-stu-id="a8843-113">For details, see the Help topic for the [Get-CsCommonAreaPhone](https://docs.microsoft.com/powershell/module/skype/Get-CsCommonAreaPhone) cmdlet.</span></span>
 
 </div>
 
