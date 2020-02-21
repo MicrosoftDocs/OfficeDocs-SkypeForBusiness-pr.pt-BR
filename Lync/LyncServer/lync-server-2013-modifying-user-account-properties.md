@@ -12,20 +12,20 @@ ms:contentKeyID: 49733546
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d10f7ff042c36b35cb3b1c7f9785636d6352068d
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 8e9b88ed1b933ca0c01e566d228fe552ff3c4549
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42149380"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42184764"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="modifying-user-account-properties-in-lync-server-2013"></a><span data-ttu-id="f7a6f-102">Modificando Propriedades da conta de usuário no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f7a6f-102">Modifying user account properties in Lync Server 2013</span></span>
+# <a name="modifying-user-account-properties-in-lync-server-2013"></a><span data-ttu-id="64945-102">Modificando Propriedades da conta de usuário no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="64945-102">Modifying user account properties in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,27 +35,27 @@ ms.locfileid: "42149380"
 
 <span> </span>
 
-<span data-ttu-id="f7a6f-103">_**Última modificação do tópico:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="f7a6f-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="64945-103">_**Última modificação do tópico:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="64945-103">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="f7a6f-104">Você pode usar os procedimentos neste seção para modificar as propriedades de conta de usuários individuais.</span><span class="sxs-lookup"><span data-stu-id="f7a6f-104">You can use the procedures in this section to modify individual user account properties.</span></span>
+<span data-ttu-id="64945-104">Você pode usar os procedimentos neste seção para modificar as propriedades de conta de usuários individuais.</span><span class="sxs-lookup"><span data-stu-id="64945-104">You can use the procedures in this section to modify individual user account properties.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="f7a6f-105">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="f7a6f-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="64945-105">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="64945-105">In This Section</span></span>
 
-  - [<span data-ttu-id="f7a6f-106">Configurar telefonia para um usuário no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f7a6f-106">Configure telephony for a user in Lync Server 2013</span></span>](lync-server-2013-configure-telephony-for-a-user.md)
+  - [<span data-ttu-id="64945-106">Configurar telefonia para um usuário no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="64945-106">Configure telephony for a user in Lync Server 2013</span></span>](lync-server-2013-configure-telephony-for-a-user.md)
 
-  - [<span data-ttu-id="f7a6f-107">Mover usuários para outro pool no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f7a6f-107">Move users to another pool in Lync Server 2013</span></span>](lync-server-2013-move-users-to-another-pool.md)
+  - [<span data-ttu-id="64945-107">Mover usuários para outro pool no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="64945-107">Move users to another pool in Lync Server 2013</span></span>](lync-server-2013-move-users-to-another-pool.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="f7a6f-108">Confira também</span><span class="sxs-lookup"><span data-stu-id="f7a6f-108">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="64945-108">Confira também</span><span class="sxs-lookup"><span data-stu-id="64945-108">See Also</span></span>
 
 
-[<span data-ttu-id="f7a6f-109">Contas de usuário habilitadas para o Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f7a6f-109">User accounts enabled for Lync Server 2013</span></span>](lync-server-2013-user-accounts-enabled-for-lync-server.md)  
-[<span data-ttu-id="f7a6f-110">Atribuindo políticas por usuário no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f7a6f-110">Assigning per-user policies in Lync Server 2013</span></span>](lync-server-2013-assigning-per-user-policies.md)  
+[<span data-ttu-id="64945-109">Contas de usuário habilitadas para o Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="64945-109">User accounts enabled for Lync Server 2013</span></span>](lync-server-2013-user-accounts-enabled-for-lync-server.md)  
+[<span data-ttu-id="64945-110">Atribuindo políticas por usuário no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="64945-110">Assigning per-user policies in Lync Server 2013</span></span>](lync-server-2013-assigning-per-user-policies.md)  
   
 
 </div>

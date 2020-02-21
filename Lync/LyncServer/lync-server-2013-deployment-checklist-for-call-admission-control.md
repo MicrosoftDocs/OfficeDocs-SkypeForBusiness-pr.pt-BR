@@ -12,20 +12,20 @@ ms:contentKeyID: 48184621
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 22eb8185c88340269856b2244c130a05d1fd0325
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 96715d7f11cfa064681982be270f1030dc28a628
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42135928"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42188134"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deployment-checklist-for-call-admission-control-in-lync-server-2013"></a><span data-ttu-id="fa505-102">Lista de verificação de implantação para controle de admissão de chamada no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="fa505-102">Deployment checklist for call admission control in Lync Server 2013</span></span>
+# <a name="deployment-checklist-for-call-admission-control-in-lync-server-2013"></a><span data-ttu-id="081c7-102">Lista de verificação de implantação para controle de admissão de chamada no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="081c7-102">Deployment checklist for call admission control in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,29 +35,29 @@ ms.locfileid: "42135928"
 
 <span> </span>
 
-<span data-ttu-id="fa505-103">_**Última modificação do tópico:** 2012-10-08_</span><span class="sxs-lookup"><span data-stu-id="fa505-103">_**Topic Last Modified:** 2012-10-08_</span></span>
+<span data-ttu-id="081c7-103">_**Última modificação do tópico:** 2012-10-08_</span><span class="sxs-lookup"><span data-stu-id="081c7-103">_**Topic Last Modified:** 2012-10-08_</span></span>
 
-<span data-ttu-id="fa505-104">Para planejar efetivamente o controle de admissão de chamadas (CAC), você deve levar em consideração o seguinte:</span><span class="sxs-lookup"><span data-stu-id="fa505-104">To plan effectively for call admission control (CAC), you need to consider the following:</span></span>
+<span data-ttu-id="081c7-104">Para planejar efetivamente o controle de admissão de chamadas (CAC), você deve levar em consideração o seguinte:</span><span class="sxs-lookup"><span data-stu-id="081c7-104">To plan effectively for call admission control (CAC), you need to consider the following:</span></span>
 
-  - <span data-ttu-id="fa505-105">Pré-requisitos para implantação do CAC.</span><span class="sxs-lookup"><span data-stu-id="fa505-105">Prerequisites for deploying CAC.</span></span>
+  - <span data-ttu-id="081c7-105">Pré-requisitos para implantação do CAC.</span><span class="sxs-lookup"><span data-stu-id="081c7-105">Prerequisites for deploying CAC.</span></span>
 
-  - <span data-ttu-id="fa505-106">Informações necessárias para decisões de CAC e de configuração que você deve tomar antes de começar a implantação</span><span class="sxs-lookup"><span data-stu-id="fa505-106">Information required for CAC and configuration decisions that you must make in advance of deployment.</span></span>
+  - <span data-ttu-id="081c7-106">Informações necessárias para decisões de CAC e de configuração que você deve tomar antes de começar a implantação</span><span class="sxs-lookup"><span data-stu-id="081c7-106">Information required for CAC and configuration decisions that you must make in advance of deployment.</span></span>
 
 <div>
 
-## <a name="deployment-prerequisites-for-call-admission-control"></a><span data-ttu-id="fa505-107">Pré-requisitos de implantação do controle de admissão de chamada</span><span class="sxs-lookup"><span data-stu-id="fa505-107">Deployment Prerequisites for Call Admission Control</span></span>
+## <a name="deployment-prerequisites-for-call-admission-control"></a><span data-ttu-id="081c7-107">Pré-requisitos de implantação do controle de admissão de chamada</span><span class="sxs-lookup"><span data-stu-id="081c7-107">Deployment Prerequisites for Call Admission Control</span></span>
 
-<span data-ttu-id="fa505-108">Antes de implantar o controle de admissão de chamadas, você já deve ter implantado seus servidores internos do Lync Server 2013, incluindo um pool de front-ends ou um servidor Standard Edition.</span><span class="sxs-lookup"><span data-stu-id="fa505-108">Before you deploy call admission control, you must already have deployed your Lync Server 2013 internal servers, including either a Front End pool or a Standard Edition server.</span></span>
+<span data-ttu-id="081c7-108">Antes de implantar o controle de admissão de chamadas, você já deve ter implantado seus servidores internos do Lync Server 2013, incluindo um pool de front-ends ou um servidor Standard Edition.</span><span class="sxs-lookup"><span data-stu-id="081c7-108">Before you deploy call admission control, you must already have deployed your Lync Server 2013 internal servers, including either a Front End pool or a Standard Edition server.</span></span>
 
 </div>
 
 <div>
 
-## <a name="information-requirements-for-call-admission-control"></a><span data-ttu-id="fa505-109">Requisitos de informações para o controle de admissão de chamada</span><span class="sxs-lookup"><span data-stu-id="fa505-109">Information Requirements for Call Admission Control</span></span>
+## <a name="information-requirements-for-call-admission-control"></a><span data-ttu-id="081c7-109">Requisitos de informações para o controle de admissão de chamada</span><span class="sxs-lookup"><span data-stu-id="081c7-109">Information Requirements for Call Admission Control</span></span>
 
-<span data-ttu-id="fa505-110">A tabela a seguir resume as informações exigidas para implantar o controle de admissão de chamada.</span><span class="sxs-lookup"><span data-stu-id="fa505-110">The following table summarizes the required information for deploying call admission control.</span></span>
+<span data-ttu-id="081c7-110">A tabela a seguir resume as informações exigidas para implantar o controle de admissão de chamada.</span><span class="sxs-lookup"><span data-stu-id="081c7-110">The following table summarizes the required information for deploying call admission control.</span></span>
 
-### <a name="information-requirements-for-call-admission-control-deployment"></a><span data-ttu-id="fa505-111">Requisitos de informações para a implantação do controle de admissão de chamada</span><span class="sxs-lookup"><span data-stu-id="fa505-111">Information Requirements for Call Admission Control Deployment</span></span>
+### <a name="information-requirements-for-call-admission-control-deployment"></a><span data-ttu-id="081c7-111">Requisitos de informações para a implantação do controle de admissão de chamada</span><span class="sxs-lookup"><span data-stu-id="081c7-111">Information Requirements for Call Admission Control Deployment</span></span>
 
 <table>
 <colgroup>
@@ -67,70 +67,70 @@ ms.locfileid: "42135928"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="fa505-112">Informações</span><span class="sxs-lookup"><span data-stu-id="fa505-112">Information</span></span></th>
-<th><span data-ttu-id="fa505-113">Resumo das informações necessárias</span><span class="sxs-lookup"><span data-stu-id="fa505-113">Summary of Information Required</span></span></th>
-<th><span data-ttu-id="fa505-114">Documentação</span><span class="sxs-lookup"><span data-stu-id="fa505-114">Documentation</span></span></th>
+<th><span data-ttu-id="081c7-112">Informações</span><span class="sxs-lookup"><span data-stu-id="081c7-112">Information</span></span></th>
+<th><span data-ttu-id="081c7-113">Resumo das informações necessárias</span><span class="sxs-lookup"><span data-stu-id="081c7-113">Summary of Information Required</span></span></th>
+<th><span data-ttu-id="081c7-114">Documentação</span><span class="sxs-lookup"><span data-stu-id="081c7-114">Documentation</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="fa505-115">Recursos do Lync Server exigidos pela sua organização</span><span class="sxs-lookup"><span data-stu-id="fa505-115">Lync Server capabilities required by your organization</span></span></p></td>
+<td><p><span data-ttu-id="081c7-115">Recursos do Lync Server exigidos pela sua organização</span><span class="sxs-lookup"><span data-stu-id="081c7-115">Lync Server capabilities required by your organization</span></span></p></td>
 <td><ul>
-<li><p><span data-ttu-id="fa505-116">Recursos a ser suportados pela organização</span><span class="sxs-lookup"><span data-stu-id="fa505-116">Capabilities to be supported by your organization</span></span></p></li>
-<li><p><span data-ttu-id="fa505-117">Recursos a ser ativados para os usuários individuais</span><span class="sxs-lookup"><span data-stu-id="fa505-117">Capabilities to be enabled for individual users</span></span></p></li>
+<li><p><span data-ttu-id="081c7-116">Recursos a ser suportados pela organização</span><span class="sxs-lookup"><span data-stu-id="081c7-116">Capabilities to be supported by your organization</span></span></p></li>
+<li><p><span data-ttu-id="081c7-117">Recursos a ser ativados para os usuários individuais</span><span class="sxs-lookup"><span data-stu-id="081c7-117">Capabilities to be enabled for individual users</span></span></p></li>
 </ul></td>
-<td><p><span data-ttu-id="fa505-118"><a href="lync-server-2013-defining-your-requirements-for-call-admission-control.md">Definindo seus requisitos de controle de admissão de chamadas no Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="fa505-118"><a href="lync-server-2013-defining-your-requirements-for-call-admission-control.md">Defining your requirements for call admission control in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="081c7-118"><a href="lync-server-2013-defining-your-requirements-for-call-admission-control.md">Definindo seus requisitos de controle de admissão de chamadas no Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="081c7-118"><a href="lync-server-2013-defining-your-requirements-for-call-admission-control.md">Defining your requirements for call admission control in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="fa505-119">Topologias e componentes a serem implantados</span><span class="sxs-lookup"><span data-stu-id="fa505-119">Topologies and components to be deployed</span></span></p></td>
+<td><p><span data-ttu-id="081c7-119">Topologias e componentes a serem implantados</span><span class="sxs-lookup"><span data-stu-id="081c7-119">Topologies and components to be deployed</span></span></p></td>
 <td><ul>
-<li><p><span data-ttu-id="fa505-120">Os componentes relacionados ao CAC são instalados automaticamente como parte do Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="fa505-120">CAC related components are automatically installed as part of Lync Server 2013</span></span></p></li>
+<li><p><span data-ttu-id="081c7-120">Os componentes relacionados ao CAC são instalados automaticamente como parte do Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="081c7-120">CAC related components are automatically installed as part of Lync Server 2013</span></span></p></li>
 </ul></td>
-<td><p><span data-ttu-id="fa505-121"><a href="lync-server-2013-defining-your-requirements-for-call-admission-control.md">Definindo seus requisitos de controle de admissão de chamadas no Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="fa505-121"><a href="lync-server-2013-defining-your-requirements-for-call-admission-control.md">Defining your requirements for call admission control in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="081c7-121"><a href="lync-server-2013-defining-your-requirements-for-call-admission-control.md">Definindo seus requisitos de controle de admissão de chamadas no Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="081c7-121"><a href="lync-server-2013-defining-your-requirements-for-call-admission-control.md">Defining your requirements for call admission control in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="fa505-122">Requisitos do sistema</span><span class="sxs-lookup"><span data-stu-id="fa505-122">System requirements</span></span></p></td>
+<td><p><span data-ttu-id="081c7-122">Requisitos do sistema</span><span class="sxs-lookup"><span data-stu-id="081c7-122">System requirements</span></span></p></td>
 <td><ul>
-<li><p><span data-ttu-id="fa505-123">Requisitos de hardware</span><span class="sxs-lookup"><span data-stu-id="fa505-123">Hardware requirements</span></span></p></li>
-<li><p><span data-ttu-id="fa505-124">Requisitos de software</span><span class="sxs-lookup"><span data-stu-id="fa505-124">Software requirements</span></span></p></li>
-<li><p><span data-ttu-id="fa505-125">Requisitos de colocação</span><span class="sxs-lookup"><span data-stu-id="fa505-125">Collocation requirements</span></span></p></li>
+<li><p><span data-ttu-id="081c7-123">Requisitos de hardware</span><span class="sxs-lookup"><span data-stu-id="081c7-123">Hardware requirements</span></span></p></li>
+<li><p><span data-ttu-id="081c7-124">Requisitos de software</span><span class="sxs-lookup"><span data-stu-id="081c7-124">Software requirements</span></span></p></li>
+<li><p><span data-ttu-id="081c7-125">Requisitos de colocação</span><span class="sxs-lookup"><span data-stu-id="081c7-125">Collocation requirements</span></span></p></li>
 </ul></td>
-<td><p><span data-ttu-id="fa505-126"><a href="lync-server-2013-determining-your-system-requirements.md">Determinando os requisitos do sistema para o Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="fa505-126"><a href="lync-server-2013-determining-your-system-requirements.md">Determining your system requirements for Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="081c7-126"><a href="lync-server-2013-determining-your-system-requirements.md">Determinando os requisitos do sistema para o Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="081c7-126"><a href="lync-server-2013-determining-your-system-requirements.md">Determining your system requirements for Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="fa505-127">Requisitos de infra-estrutura</span><span class="sxs-lookup"><span data-stu-id="fa505-127">Infrastructure requirements</span></span></p></td>
+<td><p><span data-ttu-id="081c7-127">Requisitos de infra-estrutura</span><span class="sxs-lookup"><span data-stu-id="081c7-127">Infrastructure requirements</span></span></p></td>
 <td><ul>
-<li><p><span data-ttu-id="fa505-128">Nenhum requisito de infraestrutura específica é necessário para CAC</span><span class="sxs-lookup"><span data-stu-id="fa505-128">No specific infrastructure requirements are necessary for CAC</span></span></p></li>
+<li><p><span data-ttu-id="081c7-128">Nenhum requisito de infraestrutura específica é necessário para CAC</span><span class="sxs-lookup"><span data-stu-id="081c7-128">No specific infrastructure requirements are necessary for CAC</span></span></p></li>
 </ul></td>
-<td><p><span data-ttu-id="fa505-129"><a href="lync-server-2013-infrastructure-requirements-for-call-admission-control.md">Requisitos de infraestrutura para controle de admissão de chamadas no Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="fa505-129"><a href="lync-server-2013-infrastructure-requirements-for-call-admission-control.md">Infrastructure requirements for call admission control in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="081c7-129"><a href="lync-server-2013-infrastructure-requirements-for-call-admission-control.md">Requisitos de infraestrutura para controle de admissão de chamadas no Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="081c7-129"><a href="lync-server-2013-infrastructure-requirements-for-call-admission-control.md">Infrastructure requirements for call admission control in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="fa505-130">Requisitos de interface de rede</span><span class="sxs-lookup"><span data-stu-id="fa505-130">Network interface requirements</span></span></p></td>
+<td><p><span data-ttu-id="081c7-130">Requisitos de interface de rede</span><span class="sxs-lookup"><span data-stu-id="081c7-130">Network interface requirements</span></span></p></td>
 <td><ul>
-<li><p><span data-ttu-id="fa505-131">Informações sobre as interfaces interna e externa</span><span class="sxs-lookup"><span data-stu-id="fa505-131">Internal and external interface information</span></span></p></li>
-<li><p><span data-ttu-id="fa505-132">Informações de roteamento (incluindo informações sobre o blog do <a href="https://go.microsoft.com/fwlink/p/?linkid=203149">https://go.microsoft.com/fwlink/p/?LinkId=203149</a>nexthop em, canal de resposta do cliente da equipe do Microsoft Lync Server)</span><span class="sxs-lookup"><span data-stu-id="fa505-132">Routing information (including information on the NextHop blog at <a href="https://go.microsoft.com/fwlink/p/?linkid=203149">https://go.microsoft.com/fwlink/p/?LinkId=203149</a>, Microsoft Lync Server team’s customer response channel)</span></span></p></li>
+<li><p><span data-ttu-id="081c7-131">Informações sobre as interfaces interna e externa</span><span class="sxs-lookup"><span data-stu-id="081c7-131">Internal and external interface information</span></span></p></li>
+<li><p><span data-ttu-id="081c7-132">Informações de roteamento (incluindo informações sobre o blog do <a href="https://go.microsoft.com/fwlink/p/?linkid=203149">https://go.microsoft.com/fwlink/p/?LinkId=203149</a>nexthop em, canal de resposta do cliente da equipe do Microsoft Lync Server)</span><span class="sxs-lookup"><span data-stu-id="081c7-132">Routing information (including information on the NextHop blog at <a href="https://go.microsoft.com/fwlink/p/?linkid=203149">https://go.microsoft.com/fwlink/p/?LinkId=203149</a>, Microsoft Lync Server team’s customer response channel)</span></span></p></li>
 </ul></td>
-<td><p><span data-ttu-id="fa505-133"><a href="lync-server-2013-deploying-external-user-access.md">Implantando o acesso de usuário externo no Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="fa505-133"><a href="lync-server-2013-deploying-external-user-access.md">Deploying external user access in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="081c7-133"><a href="lync-server-2013-deploying-external-user-access.md">Implantando o acesso de usuário externo no Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="081c7-133"><a href="lync-server-2013-deploying-external-user-access.md">Deploying external user access in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="fa505-134">Estratégia de implantação</span><span class="sxs-lookup"><span data-stu-id="fa505-134">Deployment strategy</span></span></p></td>
+<td><p><span data-ttu-id="081c7-134">Estratégia de implantação</span><span class="sxs-lookup"><span data-stu-id="081c7-134">Deployment strategy</span></span></p></td>
 <td><ul>
-<li><p><span data-ttu-id="fa505-135">Sequência de implantação</span><span class="sxs-lookup"><span data-stu-id="fa505-135">Deployment sequence</span></span></p></li>
-<li><p><span data-ttu-id="fa505-136">Grupo de trabalho ou domínio</span><span class="sxs-lookup"><span data-stu-id="fa505-136">Workgroup or domain</span></span></p></li>
-<li><p><span data-ttu-id="fa505-137">Segurança</span><span class="sxs-lookup"><span data-stu-id="fa505-137">Security</span></span></p></li>
-<li><p><span data-ttu-id="fa505-138">Monitoramento e auditoria</span><span class="sxs-lookup"><span data-stu-id="fa505-138">Monitoring and auditing</span></span></p></li>
-<li><p><span data-ttu-id="fa505-139">Considerações de hardware</span><span class="sxs-lookup"><span data-stu-id="fa505-139">Hardware considerations</span></span></p></li>
+<li><p><span data-ttu-id="081c7-135">Sequência de implantação</span><span class="sxs-lookup"><span data-stu-id="081c7-135">Deployment sequence</span></span></p></li>
+<li><p><span data-ttu-id="081c7-136">Grupo de trabalho ou domínio</span><span class="sxs-lookup"><span data-stu-id="081c7-136">Workgroup or domain</span></span></p></li>
+<li><p><span data-ttu-id="081c7-137">Segurança</span><span class="sxs-lookup"><span data-stu-id="081c7-137">Security</span></span></p></li>
+<li><p><span data-ttu-id="081c7-138">Monitoramento e auditoria</span><span class="sxs-lookup"><span data-stu-id="081c7-138">Monitoring and auditing</span></span></p></li>
+<li><p><span data-ttu-id="081c7-139">Considerações de hardware</span><span class="sxs-lookup"><span data-stu-id="081c7-139">Hardware considerations</span></span></p></li>
 </ul></td>
-<td><p><span data-ttu-id="fa505-140"><a href="lync-server-2013-best-practices-for-call-admission-control.md">Práticas recomendadas para controle de admissão de chamadas no Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="fa505-140"><a href="lync-server-2013-best-practices-for-call-admission-control.md">Best practices for call admission control in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="081c7-140"><a href="lync-server-2013-best-practices-for-call-admission-control.md">Práticas recomendadas para controle de admissão de chamadas no Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="081c7-140"><a href="lync-server-2013-best-practices-for-call-admission-control.md">Best practices for call admission control in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="fa505-141">Processo de implantação</span><span class="sxs-lookup"><span data-stu-id="fa505-141">Deployment process</span></span></p></td>
+<td><p><span data-ttu-id="081c7-141">Processo de implantação</span><span class="sxs-lookup"><span data-stu-id="081c7-141">Deployment process</span></span></p></td>
 <td><ul>
-<li><p><span data-ttu-id="fa505-142">Pré-requisitos</span><span class="sxs-lookup"><span data-stu-id="fa505-142">Prerequisites</span></span></p></li>
-<li><p><span data-ttu-id="fa505-143">Requisitos de informações</span><span class="sxs-lookup"><span data-stu-id="fa505-143">Information requirements</span></span></p></li>
-<li><p><span data-ttu-id="fa505-144">Processo e procedimentos</span><span class="sxs-lookup"><span data-stu-id="fa505-144">Process and procedures</span></span></p></li>
+<li><p><span data-ttu-id="081c7-142">Pré-requisitos</span><span class="sxs-lookup"><span data-stu-id="081c7-142">Prerequisites</span></span></p></li>
+<li><p><span data-ttu-id="081c7-143">Requisitos de informações</span><span class="sxs-lookup"><span data-stu-id="081c7-143">Information requirements</span></span></p></li>
+<li><p><span data-ttu-id="081c7-144">Processo e procedimentos</span><span class="sxs-lookup"><span data-stu-id="081c7-144">Process and procedures</span></span></p></li>
 </ul></td>
-<td><p><span data-ttu-id="fa505-145"><a href="lync-server-2013-configure-call-admission-control.md">Configurar o controle de admissão de chamadas no Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="fa505-145"><a href="lync-server-2013-configure-call-admission-control.md">Configure call admission control in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="081c7-145"><a href="lync-server-2013-configure-call-admission-control.md">Configurar o controle de admissão de chamadas no Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="081c7-145"><a href="lync-server-2013-configure-call-admission-control.md">Configure call admission control in Lync Server 2013</a></span></span></p></td>
 </tr>
 </tbody>
 </table>

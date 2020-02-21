@@ -12,20 +12,20 @@ ms:contentKeyID: 49733598
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: de760c2305ea4682ab53f3d0fabfcf3d06cf7e78
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: e8903edb911168bfe80a6eed8b0e7e78842e43a0
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42154823"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42186594"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="list-of-cdr-views-in-lync-server-2013"></a><span data-ttu-id="3428b-102">Lista de exibições de CDR no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3428b-102">List of CDR views in Lync Server 2013</span></span>
+# <a name="list-of-cdr-views-in-lync-server-2013"></a><span data-ttu-id="be3ff-102">Lista de exibições de CDR no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="be3ff-102">List of CDR views in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "42154823"
 
 <span> </span>
 
-<span data-ttu-id="3428b-103">_**Última modificação do tópico:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="3428b-103">_**Topic Last Modified:** 2012-10-01_</span></span>
+<span data-ttu-id="be3ff-103">_**Última modificação do tópico:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="be3ff-103">_**Topic Last Modified:** 2012-10-01_</span></span>
 
-<span data-ttu-id="3428b-104">As exibições oferecem uma forma fácil de acessar informações sobre os cenários mais comuns usados para retornar dados do banco de dados CDR.</span><span class="sxs-lookup"><span data-stu-id="3428b-104">Views provide an easy way to access information about the most common scenarios used for returning data from the CDR database.</span></span> <span data-ttu-id="3428b-105">É recomendável que você use modos de exibição para criar relatórios personalizados, em vez de usar as tabelas de banco de dados CDR reais; Isso ocorre porque as exibições do banco de dados são mais prováveis de manter a compatibilidade com versões anteriores do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="3428b-105">It is recommended that you use views for building custom reports instead of using the actual CDR database tables ; that’s because the database views are more likely to maintain backwards compatibility with future releases of Lync Server.</span></span>
+<span data-ttu-id="be3ff-104">As exibições oferecem uma forma fácil de acessar informações sobre os cenários mais comuns usados para retornar dados do banco de dados CDR.</span><span class="sxs-lookup"><span data-stu-id="be3ff-104">Views provide an easy way to access information about the most common scenarios used for returning data from the CDR database.</span></span> <span data-ttu-id="be3ff-105">É recomendável que você use modos de exibição para criar relatórios personalizados, em vez de usar as tabelas de banco de dados CDR reais; Isso ocorre porque as exibições do banco de dados são mais prováveis de manter a compatibilidade com versões anteriores do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="be3ff-105">It is recommended that you use views for building custom reports instead of using the actual CDR database tables ; that’s because the database views are more likely to maintain backwards compatibility with future releases of Lync Server.</span></span>
 
 
 <table>
@@ -47,74 +47,74 @@ ms.locfileid: "42154823"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="3428b-106">Nome de exibição</span><span class="sxs-lookup"><span data-stu-id="3428b-106">View Name</span></span></th>
-<th><span data-ttu-id="3428b-107">Descrição</span><span class="sxs-lookup"><span data-stu-id="3428b-107">Description</span></span></th>
+<th><span data-ttu-id="be3ff-106">Nome de exibição</span><span class="sxs-lookup"><span data-stu-id="be3ff-106">View Name</span></span></th>
+<th><span data-ttu-id="be3ff-107">Descrição</span><span class="sxs-lookup"><span data-stu-id="be3ff-107">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="3428b-108"><a href="lync-server-2013-clientversions-view.md">Exibição ClientVersions no Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="3428b-108"><a href="lync-server-2013-clientversions-view.md">ClientVersions view in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="3428b-109">Retorna informações sobre o software/dispositivos clientes usados em uma sessão de comunicação.</span><span class="sxs-lookup"><span data-stu-id="3428b-109">Returns information about the client software/devices used in a communication session.</span></span></p></td>
+<td><p><span data-ttu-id="be3ff-108"><a href="lync-server-2013-clientversions-view.md">Exibição ClientVersions no Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="be3ff-108"><a href="lync-server-2013-clientversions-view.md">ClientVersions view in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="be3ff-109">Retorna informações sobre o software/dispositivos clientes usados em uma sessão de comunicação.</span><span class="sxs-lookup"><span data-stu-id="be3ff-109">Returns information about the client software/devices used in a communication session.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="3428b-110"><a href="lync-server-2013-conferencemessagecount-view.md">Exibição ConferenceMessageCount no Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="3428b-110"><a href="lync-server-2013-conferencemessagecount-view.md">ConferenceMessageCount view in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="3428b-111">Retorna informações sobre o número de mensagens enviadas pelos usuários em uma conferência.</span><span class="sxs-lookup"><span data-stu-id="3428b-111">Returns information about the number of messages sent by users in a conference.</span></span></p></td>
+<td><p><span data-ttu-id="be3ff-110"><a href="lync-server-2013-conferencemessagecount-view.md">Exibição ConferenceMessageCount no Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="be3ff-110"><a href="lync-server-2013-conferencemessagecount-view.md">ConferenceMessageCount view in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="be3ff-111">Retorna informações sobre o número de mensagens enviadas pelos usuários em uma conferência.</span><span class="sxs-lookup"><span data-stu-id="be3ff-111">Returns information about the number of messages sent by users in a conference.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="3428b-112"><a href="lync-server-2013-conferences-view.md">Exibição de conferências no Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="3428b-112"><a href="lync-server-2013-conferences-view.md">Conferences view in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="3428b-113">Retorna informações de conferência, incluindo hora inicial, final e organizador da conferência.</span><span class="sxs-lookup"><span data-stu-id="3428b-113">Returns conference information, including start time, end time, and conference organizer.</span></span></p></td>
+<td><p><span data-ttu-id="be3ff-112"><a href="lync-server-2013-conferences-view.md">Exibição de conferências no Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="be3ff-112"><a href="lync-server-2013-conferences-view.md">Conferences view in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="be3ff-113">Retorna informações de conferência, incluindo hora inicial, final e organizador da conferência.</span><span class="sxs-lookup"><span data-stu-id="be3ff-113">Returns conference information, including start time, end time, and conference organizer.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="3428b-114"><a href="lync-server-2013-conferencesessiondetails-view.md">Exibição ConferenceSessionDetails no Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="3428b-114"><a href="lync-server-2013-conferencesessiondetails-view.md">ConferenceSessionDetails view in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="3428b-115">Retorna detalhes da sessão para todas as sessões de conferência, incluindo hora inicial e final, IDs do usuário, códigos de resposta e IDs de diagnóstico.</span><span class="sxs-lookup"><span data-stu-id="3428b-115">Returns session details for all conferencing sessions, including start and end time, user IDs, response codes, and diagnostic IDs.</span></span></p></td>
+<td><p><span data-ttu-id="be3ff-114"><a href="lync-server-2013-conferencesessiondetails-view.md">Exibição ConferenceSessionDetails no Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="be3ff-114"><a href="lync-server-2013-conferencesessiondetails-view.md">ConferenceSessionDetails view in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="be3ff-115">Retorna detalhes da sessão para todas as sessões de conferência, incluindo hora inicial e final, IDs do usuário, códigos de resposta e IDs de diagnóstico.</span><span class="sxs-lookup"><span data-stu-id="be3ff-115">Returns session details for all conferencing sessions, including start and end time, user IDs, response codes, and diagnostic IDs.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="3428b-116"><a href="lync-server-2013-conferenceuris-view.md">Exibição ConferenceUris no Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="3428b-116"><a href="lync-server-2013-conferenceuris-view.md">ConferenceUris view in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="3428b-117">Retorna informações sobre as URIs de conferência usadas em uma conferência</span><span class="sxs-lookup"><span data-stu-id="3428b-117">Returns information about conference URIs used in a conference</span></span></p></td>
+<td><p><span data-ttu-id="be3ff-116"><a href="lync-server-2013-conferenceuris-view.md">Exibição ConferenceUris no Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="be3ff-116"><a href="lync-server-2013-conferenceuris-view.md">ConferenceUris view in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="be3ff-117">Retorna informações sobre as URIs de conferência usadas em uma conferência</span><span class="sxs-lookup"><span data-stu-id="be3ff-117">Returns information about conference URIs used in a conference</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="3428b-118"><a href="lync-server-2013-errorreport-view.md">Exibição ErrorReport no Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="3428b-118"><a href="lync-server-2013-errorreport-view.md">ErrorReport view in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="3428b-119">Retorna informações sobre erros ocorridos durante uma sessão.</span><span class="sxs-lookup"><span data-stu-id="3428b-119">Returns information about errors that occurred during a session.</span></span></p></td>
+<td><p><span data-ttu-id="be3ff-118"><a href="lync-server-2013-errorreport-view.md">Exibição ErrorReport no Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="be3ff-118"><a href="lync-server-2013-errorreport-view.md">ErrorReport view in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="be3ff-119">Retorna informações sobre erros ocorridos durante uma sessão.</span><span class="sxs-lookup"><span data-stu-id="be3ff-119">Returns information about errors that occurred during a session.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="3428b-120"><a href="lync-server-2013-filetransfers-view.md">Modo de transferência de filetransfers no Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="3428b-120"><a href="lync-server-2013-filetransfers-view.md">FileTransfers view in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="3428b-121">Retorna informações sobre sessões de transferência de arquivos, incluindo o nome do arquivo e se a transferência foi aceitada, rejeitada ou cancelada.</span><span class="sxs-lookup"><span data-stu-id="3428b-121">Returns information about file transfer sessions, including the file name and whether the transfer was accepted, rejected, or cancelled.</span></span></p></td>
+<td><p><span data-ttu-id="be3ff-120"><a href="lync-server-2013-filetransfers-view.md">Modo de transferência de filetransfers no Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="be3ff-120"><a href="lync-server-2013-filetransfers-view.md">FileTransfers view in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="be3ff-121">Retorna informações sobre sessões de transferência de arquivos, incluindo o nome do arquivo e se a transferência foi aceitada, rejeitada ou cancelada.</span><span class="sxs-lookup"><span data-stu-id="be3ff-121">Returns information about file transfer sessions, including the file name and whether the transfer was accepted, rejected, or cancelled.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="3428b-122"><a href="lync-server-2013-focusjoinsandleaves-view.md">Exibição FocusJoinsAndLeaves no Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="3428b-122"><a href="lync-server-2013-focusjoinsandleaves-view.md">FocusJoinsAndLeaves view in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="3428b-123">Retorna informações sobre as atividades de participação e saída da conferência.</span><span class="sxs-lookup"><span data-stu-id="3428b-123">Returns information about conference join and leave activities.</span></span></p></td>
+<td><p><span data-ttu-id="be3ff-122"><a href="lync-server-2013-focusjoinsandleaves-view.md">Exibição FocusJoinsAndLeaves no Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="be3ff-122"><a href="lync-server-2013-focusjoinsandleaves-view.md">FocusJoinsAndLeaves view in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="be3ff-123">Retorna informações sobre as atividades de participação e saída da conferência.</span><span class="sxs-lookup"><span data-stu-id="be3ff-123">Returns information about conference join and leave activities.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="3428b-124"><a href="lync-server-2013-mcujoinsandleaves-view.md">Exibição McuJoinsAndLeaves no Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="3428b-124"><a href="lync-server-2013-mcujoinsandleaves-view.md">McuJoinsAndLeaves view in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="3428b-125">Retorna informação combinada sobre as atividades de participação e saída da conferência (cada participação da conferência é emparelhada com a saída correspondente).</span><span class="sxs-lookup"><span data-stu-id="3428b-125">Returns combined information about conference join and leave activities (each conference join is paired with the corresponding conference leave).</span></span></p></td>
+<td><p><span data-ttu-id="be3ff-124"><a href="lync-server-2013-mcujoinsandleaves-view.md">Exibição McuJoinsAndLeaves no Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="be3ff-124"><a href="lync-server-2013-mcujoinsandleaves-view.md">McuJoinsAndLeaves view in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="be3ff-125">Retorna informação combinada sobre as atividades de participação e saída da conferência (cada participação da conferência é emparelhada com a saída correspondente).</span><span class="sxs-lookup"><span data-stu-id="be3ff-125">Returns combined information about conference join and leave activities (each conference join is paired with the corresponding conference leave).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="3428b-126"><a href="lync-server-2013-mcus-view.md">Exibição MCUs no Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="3428b-126"><a href="lync-server-2013-mcus-view.md">Mcus view in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="3428b-127">Retorna informações sobre os servidores de Conferência.</span><span class="sxs-lookup"><span data-stu-id="3428b-127">Returns information about Conferencing servers.</span></span></p></td>
+<td><p><span data-ttu-id="be3ff-126"><a href="lync-server-2013-mcus-view.md">Exibição MCUs no Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="be3ff-126"><a href="lync-server-2013-mcus-view.md">Mcus view in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="be3ff-127">Retorna informações sobre os servidores de Conferência.</span><span class="sxs-lookup"><span data-stu-id="be3ff-127">Returns information about Conferencing servers.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="3428b-128"><a href="lync-server-2013-media-view.md">Exibição de mídia no Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="3428b-128"><a href="lync-server-2013-media-view.md">Media view in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="3428b-129">Retorna informações sobre os tipos de mídia usados nas sessões de comunicação ponto a ponto.</span><span class="sxs-lookup"><span data-stu-id="3428b-129">Returns information about the types of media used in peer-to-peer communication sessions.</span></span></p></td>
+<td><p><span data-ttu-id="be3ff-128"><a href="lync-server-2013-media-view.md">Exibição de mídia no Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="be3ff-128"><a href="lync-server-2013-media-view.md">Media view in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="be3ff-129">Retorna informações sobre os tipos de mídia usados nas sessões de comunicação ponto a ponto.</span><span class="sxs-lookup"><span data-stu-id="be3ff-129">Returns information about the types of media used in peer-to-peer communication sessions.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="3428b-130"><a href="lync-server-2013-progressreport-view.md">Exibição ProgressReport no Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="3428b-130"><a href="lync-server-2013-progressreport-view.md">ProgressReport view in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="3428b-131">Retorna informações sobre as sessões concluídas.</span><span class="sxs-lookup"><span data-stu-id="3428b-131">Returns information about completed sessions.</span></span></p></td>
+<td><p><span data-ttu-id="be3ff-130"><a href="lync-server-2013-progressreport-view.md">Exibição ProgressReport no Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="be3ff-130"><a href="lync-server-2013-progressreport-view.md">ProgressReport view in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="be3ff-131">Retorna informações sobre as sessões concluídas.</span><span class="sxs-lookup"><span data-stu-id="be3ff-131">Returns information about completed sessions.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="3428b-132"><a href="lync-server-2013-registration-view.md">Exibição de registro no Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="3428b-132"><a href="lync-server-2013-registration-view.md">Registration view in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="3428b-133">Retorna informações sobre registros com o Lync Server.</span><span class="sxs-lookup"><span data-stu-id="3428b-133">Returns information about registrations with Lync Server.</span></span></p></td>
+<td><p><span data-ttu-id="be3ff-132"><a href="lync-server-2013-registration-view.md">Exibição de registro no Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="be3ff-132"><a href="lync-server-2013-registration-view.md">Registration view in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="be3ff-133">Retorna informações sobre registros com o Lync Server.</span><span class="sxs-lookup"><span data-stu-id="be3ff-133">Returns information about registrations with Lync Server.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="3428b-134"><a href="lync-server-2013-sessiondetails-view.md">Exibição SessionDetails no Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="3428b-134"><a href="lync-server-2013-sessiondetails-view.md">SessionDetails view in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="3428b-135">Retorna informações sobre as sessões ponto a ponto, incluindo chamadas de telefone VoIP-VoIP, sessões de IM de terceiros ou outras sessões de comunicação ponto a ponto.</span><span class="sxs-lookup"><span data-stu-id="3428b-135">Returns information about peer-to-peer sessions, including VoIP-VoIP phone calls, two-party IM sessions, or other peer-to-peer communication sessions.</span></span></p></td>
+<td><p><span data-ttu-id="be3ff-134"><a href="lync-server-2013-sessiondetails-view.md">Exibição SessionDetails no Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="be3ff-134"><a href="lync-server-2013-sessiondetails-view.md">SessionDetails view in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="be3ff-135">Retorna informações sobre as sessões ponto a ponto, incluindo chamadas de telefone VoIP-VoIP, sessões de IM de terceiros ou outras sessões de comunicação ponto a ponto.</span><span class="sxs-lookup"><span data-stu-id="be3ff-135">Returns information about peer-to-peer sessions, including VoIP-VoIP phone calls, two-party IM sessions, or other peer-to-peer communication sessions.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="3428b-136"><a href="lync-server-2013-user-view.md">Exibição de usuário no Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="3428b-136"><a href="lync-server-2013-user-view.md">User view in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="3428b-137">Retorna informações sobre os usuários que participaram das sessões de comunicação.</span><span class="sxs-lookup"><span data-stu-id="3428b-137">Returns information about the users who have participated in communication sessions.</span></span></p></td>
+<td><p><span data-ttu-id="be3ff-136"><a href="lync-server-2013-user-view.md">Exibição de usuário no Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="be3ff-136"><a href="lync-server-2013-user-view.md">User view in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="be3ff-137">Retorna informações sobre os usuários que participaram das sessões de comunicação.</span><span class="sxs-lookup"><span data-stu-id="be3ff-137">Returns information about the users who have participated in communication sessions.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="3428b-138"><a href="lync-server-2013-voipdetails-view.md">Exibição VoIPDetails no Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="3428b-138"><a href="lync-server-2013-voipdetails-view.md">VoIPDetails view in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="3428b-139">Retorna informações para sessões ponto a ponto envolvendo pelo menos um usuário VoIP (Voz por IP).</span><span class="sxs-lookup"><span data-stu-id="3428b-139">Returns information for peer-to-peer sessions involving at least one VoIP (Voice over IO) user.</span></span></p></td>
+<td><p><span data-ttu-id="be3ff-138"><a href="lync-server-2013-voipdetails-view.md">Exibição VoIPDetails no Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="be3ff-138"><a href="lync-server-2013-voipdetails-view.md">VoIPDetails view in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="be3ff-139">Retorna informações para sessões ponto a ponto envolvendo pelo menos um usuário VoIP (Voz por IP).</span><span class="sxs-lookup"><span data-stu-id="be3ff-139">Returns information for peer-to-peer sessions involving at least one VoIP (Voice over IO) user.</span></span></p></td>
 </tr>
 </tbody>
 </table>

@@ -12,20 +12,20 @@ ms:contentKeyID: 48183522
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f24565056aac396afd78fb944ae97feec37c905f
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: ef5d0e51486ed6dca7c9ac17a991b0154c2f1135
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42154603"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42187964"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="delete-a-dial-in-conferencing-access-number-in-lync-server-2013"></a><span data-ttu-id="8bd53-102">Excluir um número de acesso de conferência discada no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8bd53-102">Delete a dial-in conferencing access number in Lync Server 2013</span></span>
+# <a name="delete-a-dial-in-conferencing-access-number-in-lync-server-2013"></a><span data-ttu-id="da725-102">Excluir um número de acesso de conferência discada no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="da725-102">Delete a dial-in conferencing access number in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,37 +35,37 @@ ms.locfileid: "42154603"
 
 <span> </span>
 
-<span data-ttu-id="8bd53-103">_**Última modificação do tópico:** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="8bd53-103">_**Topic Last Modified:** 2013-02-23_</span></span>
+<span data-ttu-id="da725-103">_**Última modificação do tópico:** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="da725-103">_**Topic Last Modified:** 2013-02-23_</span></span>
 
-<span data-ttu-id="8bd53-104">Siga estas etapas para excluir um número de acesso de conferência discada.</span><span class="sxs-lookup"><span data-stu-id="8bd53-104">Follow these steps to delete a dial-in conferencing access number.</span></span>
+<span data-ttu-id="da725-104">Siga estas etapas para excluir um número de acesso de conferência discada.</span><span class="sxs-lookup"><span data-stu-id="da725-104">Follow these steps to delete a dial-in conferencing access number.</span></span>
 
 <div>
 
-## <a name="to-delete-a-dial-in-conferencing-access-number"></a><span data-ttu-id="8bd53-105">Exclusão de um número de acesso de conferências discadas</span><span class="sxs-lookup"><span data-stu-id="8bd53-105">To delete a dial-in conferencing access number</span></span>
+## <a name="to-delete-a-dial-in-conferencing-access-number"></a><span data-ttu-id="da725-105">Exclusão de um número de acesso de conferências discadas</span><span class="sxs-lookup"><span data-stu-id="da725-105">To delete a dial-in conferencing access number</span></span>
 
-1.  <span data-ttu-id="8bd53-106">A partir de uma conta de usuário que seja membro do grupo RTCUniversalServerAdmins (ou tenha direitos de usuário equivalentes) ou atribuída à função CsServerAdministrator ou CsAdministrator, faça logon em qualquer computador que esteja na rede na qual você implantou o Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="8bd53-106">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Lync Server 2013.</span></span>
+1.  <span data-ttu-id="da725-106">A partir de uma conta de usuário que seja membro do grupo RTCUniversalServerAdmins (ou tenha direitos de usuário equivalentes) ou atribuída à função CsServerAdministrator ou CsAdministrator, faça logon em qualquer computador que esteja na rede na qual você implantou o Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="da725-106">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Lync Server 2013.</span></span>
 
-2.  <span data-ttu-id="8bd53-107">Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="8bd53-107">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="8bd53-108">Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="8bd53-108">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="da725-107">Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="da725-107">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="da725-108">Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="da725-108">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="8bd53-109">Na barra de navegação à esquerda, clique em **Conferências**, e então em **Número de acesso discado**.</span><span class="sxs-lookup"><span data-stu-id="8bd53-109">In the left navigation bar, click **Conferencing**, and then click **Dial-in Access Number**.</span></span>
+3.  <span data-ttu-id="da725-109">Na barra de navegação à esquerda, clique em **Conferências**, e então em **Número de acesso discado**.</span><span class="sxs-lookup"><span data-stu-id="da725-109">In the left navigation bar, click **Conferencing**, and then click **Dial-in Access Number**.</span></span>
 
-4.  <span data-ttu-id="8bd53-110">Na página, clique no número de discagem que deseja excluir da lista, clique em **Editar** e clique em **Excluir**.</span><span class="sxs-lookup"><span data-stu-id="8bd53-110">On the page, click the dial-in number you want to delete in the list, click **Edit**, and then click **Delete**.</span></span>
+4.  <span data-ttu-id="da725-110">Na página, clique no número de discagem que deseja excluir da lista, clique em **Editar** e clique em **Excluir**.</span><span class="sxs-lookup"><span data-stu-id="da725-110">On the page, click the dial-in number you want to delete in the list, click **Edit**, and then click **Delete**.</span></span>
 
-5.  <span data-ttu-id="8bd53-111">Clique em **OK**.</span><span class="sxs-lookup"><span data-stu-id="8bd53-111">Click **OK**.</span></span>
+5.  <span data-ttu-id="da725-111">Clique em **OK**.</span><span class="sxs-lookup"><span data-stu-id="da725-111">Click **OK**.</span></span>
 
 </div>
 
 <div>
 
-## <a name="removing-dial-in-conferencing-access-numbers-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="8bd53-112">Removendo números de acesso de conferência discada usando cmdlets do Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="8bd53-112">Removing Dial-in Conferencing Access Numbers by Using Windows PowerShell Cmdlets</span></span>
+## <a name="removing-dial-in-conferencing-access-numbers-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="da725-112">Removendo números de acesso de conferência discada usando cmdlets do Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="da725-112">Removing Dial-in Conferencing Access Numbers by Using Windows PowerShell Cmdlets</span></span>
 
-<span data-ttu-id="8bd53-113">Os números de acesso de conferência discada podem ser excluídos usando o Windows PowerShell e o cmdlet **Remove-CsDialInConferencingAccessNumber** .</span><span class="sxs-lookup"><span data-stu-id="8bd53-113">Dial-in conferencing access numbers can be deleted by using Windows PowerShell and the **Remove-CsDialInConferencingAccessNumber** cmdlet.</span></span> <span data-ttu-id="8bd53-114">Este cmdlet pode ser executado a partir do Shell de gerenciamento do Lync Server 2013 ou de uma sessão remota do Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="8bd53-114">This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="8bd53-115">Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Lync Server, consulte o artigo de blog do Lync Server Windows PowerShell "início rápido: Managing Microsoft Lync Server [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)2010 using Remote PowerShell" em.</span><span class="sxs-lookup"><span data-stu-id="8bd53-115">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
+<span data-ttu-id="da725-113">Os números de acesso de conferência discada podem ser excluídos usando o Windows PowerShell e o cmdlet **Remove-CsDialInConferencingAccessNumber** .</span><span class="sxs-lookup"><span data-stu-id="da725-113">Dial-in conferencing access numbers can be deleted by using Windows PowerShell and the **Remove-CsDialInConferencingAccessNumber** cmdlet.</span></span> <span data-ttu-id="da725-114">Este cmdlet pode ser executado a partir do Shell de gerenciamento do Lync Server 2013 ou de uma sessão remota do Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="da725-114">This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="da725-115">Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Lync Server, consulte o artigo de blog do Lync Server Windows PowerShell "início rápido: Managing Microsoft Lync Server [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)2010 using Remote PowerShell" em.</span><span class="sxs-lookup"><span data-stu-id="da725-115">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
 
 <div>
 
-## <a name="to-remove-a-specific-dial-in-conferencing-access-number"></a><span data-ttu-id="8bd53-116">Para remover um número de acesso de conferência discada específico</span><span class="sxs-lookup"><span data-stu-id="8bd53-116">To remove a specific dial-in conferencing access number</span></span>
+## <a name="to-remove-a-specific-dial-in-conferencing-access-number"></a><span data-ttu-id="da725-116">Para remover um número de acesso de conferência discada específico</span><span class="sxs-lookup"><span data-stu-id="da725-116">To remove a specific dial-in conferencing access number</span></span>
 
-  - <span data-ttu-id="8bd53-117">Este comando exclui o número de acesso de conferência discada com o SIP de Identidade:RedmondDialInAccess@litwareinc.com:</span><span class="sxs-lookup"><span data-stu-id="8bd53-117">This command deletes the dial-in conferencing access number with Identity sip:RedmondDialInAccess@litwareinc.com:</span></span>
+  - <span data-ttu-id="da725-117">Este comando exclui o número de acesso de conferência discada com o SIP de Identidade:RedmondDialInAccess@litwareinc.com:</span><span class="sxs-lookup"><span data-stu-id="da725-117">This command deletes the dial-in conferencing access number with Identity sip:RedmondDialInAccess@litwareinc.com:</span></span>
     
         Remove-CsDialInConferencingAccessNumber -Identity "sip:RedmondDialInAccess@litwareinc.com"
 
@@ -73,9 +73,9 @@ ms.locfileid: "42154603"
 
 <div>
 
-## <a name="to-remove-all-the-dial-in-conferencing-access-numbers-assigned-to-a-specific-region"></a><span data-ttu-id="8bd53-118">Para remover todos os números de acesso de conferência discada atribuídos a uma região específica</span><span class="sxs-lookup"><span data-stu-id="8bd53-118">To remove all the dial-in conferencing access numbers assigned to a specific region</span></span>
+## <a name="to-remove-all-the-dial-in-conferencing-access-numbers-assigned-to-a-specific-region"></a><span data-ttu-id="da725-118">Para remover todos os números de acesso de conferência discada atribuídos a uma região específica</span><span class="sxs-lookup"><span data-stu-id="da725-118">To remove all the dial-in conferencing access numbers assigned to a specific region</span></span>
 
-  - <span data-ttu-id="8bd53-119">Este comando exclui todos os números de acesso de conferência discada associados com a região Noroeste:</span><span class="sxs-lookup"><span data-stu-id="8bd53-119">This command deletes all the dial-in conferencing access numbers associated with the Northwest region:</span></span>
+  - <span data-ttu-id="da725-119">Este comando exclui todos os números de acesso de conferência discada associados com a região Noroeste:</span><span class="sxs-lookup"><span data-stu-id="da725-119">This command deletes all the dial-in conferencing access numbers associated with the Northwest region:</span></span>
     
         Get-CsDialInConferencingAccessNumber -Region "Northwest" | Remove-CsDialInConferencingAccessNumber
 
@@ -83,15 +83,15 @@ ms.locfileid: "42154603"
 
 <div>
 
-## <a name="to-remove-dial-in-conferencing-access-numbers-based-on-primary-language"></a><span data-ttu-id="8bd53-120">Para remover os números de acesso de conferência discada com base no idioma principal</span><span class="sxs-lookup"><span data-stu-id="8bd53-120">To remove dial-in conferencing access numbers based on primary language</span></span>
+## <a name="to-remove-dial-in-conferencing-access-numbers-based-on-primary-language"></a><span data-ttu-id="da725-120">Para remover os números de acesso de conferência discada com base no idioma principal</span><span class="sxs-lookup"><span data-stu-id="da725-120">To remove dial-in conferencing access numbers based on primary language</span></span>
 
-  - <span data-ttu-id="8bd53-121">Este comando exclui todos os números de acesso de conferência discada em que italiano é o idioma principal:</span><span class="sxs-lookup"><span data-stu-id="8bd53-121">This command deletes all the dial-in conferencing access numbers where Italian is the primary language:</span></span>
+  - <span data-ttu-id="da725-121">Este comando exclui todos os números de acesso de conferência discada em que italiano é o idioma principal:</span><span class="sxs-lookup"><span data-stu-id="da725-121">This command deletes all the dial-in conferencing access numbers where Italian is the primary language:</span></span>
     
         Get-CsDialInConferencingAccessNumber | Where-Object {$_.PrimaryLanguage -eq "it-IT"} | Remove-CsDialInConferencingAccessNumber
 
 </div>
 
-<span data-ttu-id="8bd53-122">Para obter mais informações, consulte o tópico de ajuda para o cmdlet [Remove-CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/Remove-CsDialInConferencingAccessNumber) .</span><span class="sxs-lookup"><span data-stu-id="8bd53-122">For more information, see the help topic for the [Remove-CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/Remove-CsDialInConferencingAccessNumber) cmdlet.</span></span>
+<span data-ttu-id="da725-122">Para obter mais informações, consulte o tópico de ajuda para o cmdlet [Remove-CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/Remove-CsDialInConferencingAccessNumber) .</span><span class="sxs-lookup"><span data-stu-id="da725-122">For more information, see the help topic for the [Remove-CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/Remove-CsDialInConferencingAccessNumber) cmdlet.</span></span>
 
 </div>
 
