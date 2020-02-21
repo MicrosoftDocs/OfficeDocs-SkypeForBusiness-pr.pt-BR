@@ -12,20 +12,20 @@ ms:contentKeyID: 48183353
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 676335110ae5313958bc779b41cfe15065112930
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 55da4422ec0151ddc6638ea21b4a5e1c551541ee
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42153713"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42179628"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="features-of-integrated-unified-messaging-and-lync-server-2013"></a><span data-ttu-id="bc262-102">Recursos de Unificação de mensagens integrada e Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="bc262-102">Features of integrated Unified Messaging and Lync Server 2013</span></span>
+# <a name="features-of-integrated-unified-messaging-and-lync-server-2013"></a><span data-ttu-id="3025e-102">Recursos de Unificação de mensagens integrada e Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3025e-102">Features of integrated Unified Messaging and Lync Server 2013</span></span>
 
 </div>
 
@@ -35,47 +35,47 @@ ms.locfileid: "42153713"
 
 <span> </span>
 
-<span data-ttu-id="bc262-103">_**Última modificação do tópico:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="bc262-103">_**Topic Last Modified:** 2012-10-01_</span></span>
+<span data-ttu-id="3025e-103">_**Última modificação do tópico:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="3025e-103">_**Topic Last Modified:** 2012-10-01_</span></span>
 
-<span data-ttu-id="bc262-104">Lync Server 2013, o Enterprise Voice usa a infraestrutura de UM (Unificação de mensagens) do Exchange para fornecer atendimento de chamadas, notificação de chamada, acesso de voz (incluindo caixa postal) e serviços de atendedor automático.</span><span class="sxs-lookup"><span data-stu-id="bc262-104">Lync Server 2013, Enterprise Voice uses the Exchange Unified Messaging (UM) infrastructure to provide call answering, call notification, voice access (including voice mail), and auto-attendant services.</span></span>
+<span data-ttu-id="3025e-104">Lync Server 2013, o Enterprise Voice usa a infraestrutura de UM (Unificação de mensagens) do Exchange para fornecer atendimento de chamadas, notificação de chamada, acesso de voz (incluindo caixa postal) e serviços de atendedor automático.</span><span class="sxs-lookup"><span data-stu-id="3025e-104">Lync Server 2013, Enterprise Voice uses the Exchange Unified Messaging (UM) infrastructure to provide call answering, call notification, voice access (including voice mail), and auto-attendant services.</span></span>
 
 <div>
 
-## <a name="call-answering"></a><span data-ttu-id="bc262-105">Atendimento de chamadas</span><span class="sxs-lookup"><span data-stu-id="bc262-105">Call Answering</span></span>
+## <a name="call-answering"></a><span data-ttu-id="3025e-105">Atendimento de chamadas</span><span class="sxs-lookup"><span data-stu-id="3025e-105">Call Answering</span></span>
 
-<span data-ttu-id="bc262-106">Atendimento de chamadas é o recebimento de mensagens de voz em nome dos usuários cujas chamadas não são atendidas ou estão ocupados.</span><span class="sxs-lookup"><span data-stu-id="bc262-106">Call answering is the receiving of voice messages on behalf of users whose calls are not answered or are busy.</span></span> <span data-ttu-id="bc262-107">Ele inclui a execução de uma saudação pessoal, a gravação de uma mensagem e o envio da mensagem para serem enfileiradas para entrega à caixa de correio do usuário, que é armazenada no servidor de caixa de correio do Exchange.</span><span class="sxs-lookup"><span data-stu-id="bc262-107">It includes playing a personal greeting, recording a message, and submitting the message to be queued for delivery to the user's mailbox, which is stored on the Exchange mailbox server.</span></span>
+<span data-ttu-id="3025e-106">Atendimento de chamadas é o recebimento de mensagens de voz em nome dos usuários cujas chamadas não são atendidas ou estão ocupados.</span><span class="sxs-lookup"><span data-stu-id="3025e-106">Call answering is the receiving of voice messages on behalf of users whose calls are not answered or are busy.</span></span> <span data-ttu-id="3025e-107">Ele inclui a execução de uma saudação pessoal, a gravação de uma mensagem e o envio da mensagem para serem enfileiradas para entrega à caixa de correio do usuário, que é armazenada no servidor de caixa de correio do Exchange.</span><span class="sxs-lookup"><span data-stu-id="3025e-107">It includes playing a personal greeting, recording a message, and submitting the message to be queued for delivery to the user's mailbox, which is stored on the Exchange mailbox server.</span></span>
 
-<span data-ttu-id="bc262-p102">Se o chamador deixar uma mensagem, está é roteada até a Caixa de entrada do usuário. Se o chamador optar por não deixar uma mensagem, uma notificação de chamada perdida será armazenada na caixa de correio do usuário. Os usuários podem, então, acessar sua Caixa de entrada usando o cliente de mensagem e de colaboração do Microsoft Outlook, o Outlook Web Access, a tecnologia Exchange ActiveSync ou o Outlook Voice Access. O assunto e a prioridade das chamadas podem ser exibidos de uma maneira muito semelhante àquela do e-mail.</span><span class="sxs-lookup"><span data-stu-id="bc262-p102">If a caller leaves a message, the message is routed to the user's Inbox. If a caller chooses not to leave a message, a missed call notification is stored in the user's mailbox. Users can then access their Inbox by using the Microsoft Outlook messaging and collaboration client, Outlook Web Access, the Exchange ActiveSync technology, or Outlook Voice Access. The subject and priority of calls can be displayed in a way similar to that of email.</span></span>
+<span data-ttu-id="3025e-p102">Se o chamador deixar uma mensagem, está é roteada até a Caixa de entrada do usuário. Se o chamador optar por não deixar uma mensagem, uma notificação de chamada perdida será armazenada na caixa de correio do usuário. Os usuários podem, então, acessar sua Caixa de entrada usando o cliente de mensagem e de colaboração do Microsoft Outlook, o Outlook Web Access, a tecnologia Exchange ActiveSync ou o Outlook Voice Access. O assunto e a prioridade das chamadas podem ser exibidos de uma maneira muito semelhante àquela do e-mail.</span><span class="sxs-lookup"><span data-stu-id="3025e-p102">If a caller leaves a message, the message is routed to the user's Inbox. If a caller chooses not to leave a message, a missed call notification is stored in the user's mailbox. Users can then access their Inbox by using the Microsoft Outlook messaging and collaboration client, Outlook Web Access, the Exchange ActiveSync technology, or Outlook Voice Access. The subject and priority of calls can be displayed in a way similar to that of email.</span></span>
 
 </div>
 
 <div>
 
-## <a name="outlook-voice-access"></a><span data-ttu-id="bc262-112">Outlook Voice Access</span><span class="sxs-lookup"><span data-stu-id="bc262-112">Outlook Voice Access</span></span>
+## <a name="outlook-voice-access"></a><span data-ttu-id="3025e-112">Outlook Voice Access</span><span class="sxs-lookup"><span data-stu-id="3025e-112">Outlook Voice Access</span></span>
 
-<span data-ttu-id="bc262-113">O Outlook Voice Access habilita o acesso de um usuário do Enterprise Voice não apenas ao correio de voz, mas também à caixa de entrada do Exchange, incluindo e-mail, calendário e contatos de uma interface de telefonia.</span><span class="sxs-lookup"><span data-stu-id="bc262-113">Outlook Voice Access enables an Enterprise Voice user to access not just voice mail, but also the Exchange inbox, including email, calendar, and contacts from a telephony interface.</span></span> <span data-ttu-id="bc262-114">O número de acesso do assinante é atribuído por um administrador de UM do Exchange.</span><span class="sxs-lookup"><span data-stu-id="bc262-114">The subscriber access number is assigned by an Exchange UM administrator.</span></span>
-
-</div>
-
-<div>
-
-## <a name="auto-attendant"></a><span data-ttu-id="bc262-115">Atendedor Automático</span><span class="sxs-lookup"><span data-stu-id="bc262-115">Auto Attendant</span></span>
-
-<span data-ttu-id="bc262-116">O atendedor automático é um recurso do UM do Exchange que pode ser usado para configurar um número de telefone que os usuários externos podem discar para acessar os representantes da empresa.</span><span class="sxs-lookup"><span data-stu-id="bc262-116">Auto attendant is an Exchange UM feature that can be used to configure a phone number that outside users can dial to reach company representatives.</span></span> <span data-ttu-id="bc262-117">Especificamente, ele fornece uma série de avisos de voz que auxiliam um chamador externo a navegar por um sistema de menus.</span><span class="sxs-lookup"><span data-stu-id="bc262-117">In particular, it provides a series of voice prompts that assist an external caller in navigating a menu system.</span></span> <span data-ttu-id="bc262-118">A lista de opções disponíveis é configurada no servidor UM do Exchange pelo administrador de UM do Exchange.</span><span class="sxs-lookup"><span data-stu-id="bc262-118">The list of available options is configured on the Exchange UM server by the Exchange UM administrator.</span></span>
+<span data-ttu-id="3025e-113">O Outlook Voice Access habilita o acesso de um usuário do Enterprise Voice não apenas ao correio de voz, mas também à caixa de entrada do Exchange, incluindo e-mail, calendário e contatos de uma interface de telefonia.</span><span class="sxs-lookup"><span data-stu-id="3025e-113">Outlook Voice Access enables an Enterprise Voice user to access not just voice mail, but also the Exchange inbox, including email, calendar, and contacts from a telephony interface.</span></span> <span data-ttu-id="3025e-114">O número de acesso do assinante é atribuído por um administrador de UM do Exchange.</span><span class="sxs-lookup"><span data-stu-id="3025e-114">The subscriber access number is assigned by an Exchange UM administrator.</span></span>
 
 </div>
 
 <div>
 
-## <a name="fax-services"></a><span data-ttu-id="bc262-119">Serviços de fax</span><span class="sxs-lookup"><span data-stu-id="bc262-119">Fax Services</span></span>
+## <a name="auto-attendant"></a><span data-ttu-id="3025e-115">Atendedor Automático</span><span class="sxs-lookup"><span data-stu-id="3025e-115">Auto Attendant</span></span>
 
-<span data-ttu-id="bc262-120">O UM do Exchange inclui recursos de fax, que permitem que os usuários recebam faxes de entrada em suas caixas de correio do Exchange.</span><span class="sxs-lookup"><span data-stu-id="bc262-120">Exchange UM includes fax features, which enable users to receive incoming faxes in their Exchange mailboxes.</span></span> <span data-ttu-id="bc262-121">Para obter detalhes, consulte "Unificação de mensagens" na documentação do [https://go.microsoft.com/fwlink/p/?linkId=135652](https://go.microsoft.com/fwlink/p/?linkid=135652)Microsoft Exchange Server em.</span><span class="sxs-lookup"><span data-stu-id="bc262-121">For details, see "Unified Messaging" in the Microsoft Exchange Server documentation at [https://go.microsoft.com/fwlink/p/?linkId=135652](https://go.microsoft.com/fwlink/p/?linkid=135652).</span></span>
+<span data-ttu-id="3025e-116">O atendedor automático é um recurso do UM do Exchange que pode ser usado para configurar um número de telefone que os usuários externos podem discar para acessar os representantes da empresa.</span><span class="sxs-lookup"><span data-stu-id="3025e-116">Auto attendant is an Exchange UM feature that can be used to configure a phone number that outside users can dial to reach company representatives.</span></span> <span data-ttu-id="3025e-117">Especificamente, ele fornece uma série de avisos de voz que auxiliam um chamador externo a navegar por um sistema de menus.</span><span class="sxs-lookup"><span data-stu-id="3025e-117">In particular, it provides a series of voice prompts that assist an external caller in navigating a menu system.</span></span> <span data-ttu-id="3025e-118">A lista de opções disponíveis é configurada no servidor UM do Exchange pelo administrador de UM do Exchange.</span><span class="sxs-lookup"><span data-stu-id="3025e-118">The list of available options is configured on the Exchange UM server by the Exchange UM administrator.</span></span>
+
+</div>
+
+<div>
+
+## <a name="fax-services"></a><span data-ttu-id="3025e-119">Serviços de fax</span><span class="sxs-lookup"><span data-stu-id="3025e-119">Fax Services</span></span>
+
+<span data-ttu-id="3025e-120">O UM do Exchange inclui recursos de fax, que permitem que os usuários recebam faxes de entrada em suas caixas de correio do Exchange.</span><span class="sxs-lookup"><span data-stu-id="3025e-120">Exchange UM includes fax features, which enable users to receive incoming faxes in their Exchange mailboxes.</span></span> <span data-ttu-id="3025e-121">Para obter detalhes, consulte "Unificação de mensagens" na documentação do [https://go.microsoft.com/fwlink/p/?linkId=135652](https://go.microsoft.com/fwlink/p/?linkid=135652)Microsoft Exchange Server em.</span><span class="sxs-lookup"><span data-stu-id="3025e-121">For details, see "Unified Messaging" in the Microsoft Exchange Server documentation at [https://go.microsoft.com/fwlink/p/?linkId=135652](https://go.microsoft.com/fwlink/p/?linkid=135652).</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="bc262-122">Os serviços de fax fornecidos pelo servidor UM do Exchange não estão disponíveis em implantações do Lync Server integradas ao Microsoft Exchange Server 2010, Exchange 2010 com o Service Pack mais recente ou Exchange 2013.</span><span class="sxs-lookup"><span data-stu-id="bc262-122">Fax services provided by the Exchange UM server are not available in Lync Server deployments that are integrated with Microsoft Exchange Server 2010, Exchange 2010 with the latest service pack, or Exchange 2013.</span></span>
+> <span data-ttu-id="3025e-122">Os serviços de fax fornecidos pelo servidor UM do Exchange não estão disponíveis em implantações do Lync Server integradas ao Microsoft Exchange Server 2010, Exchange 2010 com o Service Pack mais recente ou Exchange 2013.</span><span class="sxs-lookup"><span data-stu-id="3025e-122">Fax services provided by the Exchange UM server are not available in Lync Server deployments that are integrated with Microsoft Exchange Server 2010, Exchange 2010 with the latest service pack, or Exchange 2013.</span></span>
 
 
 

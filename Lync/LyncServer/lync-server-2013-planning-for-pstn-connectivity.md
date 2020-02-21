@@ -12,20 +12,20 @@ ms:contentKeyID: 48183684
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 65474919bdd189f35431700f834402c5815d959c
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 18bb8818ab0ea44574736202f2f0a3a41e73b22e
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42152729"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42184124"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-pstn-connectivity-in-lync-server-2013"></a><span data-ttu-id="b8e15-102">Planejamento da conectividade PSTN no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b8e15-102">Planning for PSTN connectivity in Lync Server 2013</span></span>
+# <a name="planning-for-pstn-connectivity-in-lync-server-2013"></a><span data-ttu-id="baf2a-102">Planejamento da conectividade PSTN no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="baf2a-102">Planning for PSTN connectivity in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,33 +35,33 @@ ms.locfileid: "42152729"
 
 <span> </span>
 
-<span data-ttu-id="b8e15-103">_**Última modificação do tópico:** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="b8e15-103">_**Topic Last Modified:** 2012-09-21_</span></span>
+<span data-ttu-id="baf2a-103">_**Última modificação do tópico:** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="baf2a-103">_**Topic Last Modified:** 2012-09-21_</span></span>
 
-<span data-ttu-id="b8e15-104">Uma solução de VoIP em nível empresarial deve fornecer chamadas de e para a PSTN (rede telefônica pública comutada), sem redução de QoS (Qualidade de Serviço).</span><span class="sxs-lookup"><span data-stu-id="b8e15-104">An enterprise-grade VoIP solution must provide for calls to and from the public switched telephone network (PSTN) without any decline in Quality of Service (QoS).</span></span> <span data-ttu-id="b8e15-105">Os usuários que colocam e recebem chamadas não devem estar cientes da tecnologia subjacente: da perspectiva do usuário, uma chamada entre a infraestrutura do Enterprise Voice e a PSTN deve parecer com apenas outra chamada telefônica.</span><span class="sxs-lookup"><span data-stu-id="b8e15-105">Users who place and receive calls should not be aware of the underlying technology: from the user's perspective, a call between the Enterprise Voice infrastructure and the PSTN should seem like just another phone call.</span></span>
+<span data-ttu-id="baf2a-104">Uma solução de VoIP em nível empresarial deve fornecer chamadas de e para a PSTN (rede telefônica pública comutada), sem redução de QoS (Qualidade de Serviço).</span><span class="sxs-lookup"><span data-stu-id="baf2a-104">An enterprise-grade VoIP solution must provide for calls to and from the public switched telephone network (PSTN) without any decline in Quality of Service (QoS).</span></span> <span data-ttu-id="baf2a-105">Os usuários que colocam e recebem chamadas não devem estar cientes da tecnologia subjacente: da perspectiva do usuário, uma chamada entre a infraestrutura do Enterprise Voice e a PSTN deve parecer com apenas outra chamada telefônica.</span><span class="sxs-lookup"><span data-stu-id="baf2a-105">Users who place and receive calls should not be aware of the underlying technology: from the user's perspective, a call between the Enterprise Voice infrastructure and the PSTN should seem like just another phone call.</span></span>
 
-<span data-ttu-id="b8e15-106">O Lync Server 2013 fornece conectividade PSTN confiável e escalonável usando as seguintes opções:</span><span class="sxs-lookup"><span data-stu-id="b8e15-106">Lync Server 2013 provides reliable, scalable PSTN connectivity by using the following options:</span></span>
+<span data-ttu-id="baf2a-106">O Lync Server 2013 fornece conectividade PSTN confiável e escalonável usando as seguintes opções:</span><span class="sxs-lookup"><span data-stu-id="baf2a-106">Lync Server 2013 provides reliable, scalable PSTN connectivity by using the following options:</span></span>
 
-  - <span data-ttu-id="b8e15-107">**Troncos SIP** para um provedor de serviço de telefonia da Internet (ITSP)</span><span class="sxs-lookup"><span data-stu-id="b8e15-107">**SIP trunks** to an Internet telephony service provider (ITSP)</span></span>
+  - <span data-ttu-id="baf2a-107">**Troncos SIP** para um provedor de serviço de telefonia da Internet (ITSP)</span><span class="sxs-lookup"><span data-stu-id="baf2a-107">**SIP trunks** to an Internet telephony service provider (ITSP)</span></span>
 
-  - <span data-ttu-id="b8e15-108">**Conexões SIP diretas** com um gateway PSTN</span><span class="sxs-lookup"><span data-stu-id="b8e15-108">**Direct SIP connections** to a PSTN gateway</span></span>
+  - <span data-ttu-id="baf2a-108">**Conexões SIP diretas** com um gateway PSTN</span><span class="sxs-lookup"><span data-stu-id="baf2a-108">**Direct SIP connections** to a PSTN gateway</span></span>
 
-  - <span data-ttu-id="b8e15-109">**Conexões SIP diretas** com um PBX</span><span class="sxs-lookup"><span data-stu-id="b8e15-109">**Direct SIP connections** to a PBX</span></span>
+  - <span data-ttu-id="baf2a-109">**Conexões SIP diretas** com um PBX</span><span class="sxs-lookup"><span data-stu-id="baf2a-109">**Direct SIP connections** to a PBX</span></span>
 
-<span data-ttu-id="b8e15-110">Dependendo de seu tamanho, cobertura geográfica e infraestrutura de voz existente, uma determinada empresa pode usar uma, duas ou até mesmo três opções em vários locais.</span><span class="sxs-lookup"><span data-stu-id="b8e15-110">Depending on its size, geographic coverage, and existing voice infrastructure, an enterprise may use one, two, or even all three of these options at various locations.</span></span>
+<span data-ttu-id="baf2a-110">Dependendo de seu tamanho, cobertura geográfica e infraestrutura de voz existente, uma determinada empresa pode usar uma, duas ou até mesmo três opções em vários locais.</span><span class="sxs-lookup"><span data-stu-id="baf2a-110">Depending on its size, geographic coverage, and existing voice infrastructure, an enterprise may use one, two, or even all three of these options at various locations.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="b8e15-111">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="b8e15-111">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="baf2a-111">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="baf2a-111">In This Section</span></span>
 
-  - [<span data-ttu-id="b8e15-112">Tronco SIP no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b8e15-112">SIP trunking in Lync Server 2013</span></span>](lync-server-2013-sip-trunking.md)
+  - [<span data-ttu-id="baf2a-112">Tronco SIP no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="baf2a-112">SIP trunking in Lync Server 2013</span></span>](lync-server-2013-sip-trunking.md)
 
-  - [<span data-ttu-id="b8e15-113">Conexões SIP diretas no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b8e15-113">Direct SIP connections in Lync Server 2013</span></span>](lync-server-2013-direct-sip-connections.md)
+  - [<span data-ttu-id="baf2a-113">Conexões SIP diretas no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="baf2a-113">Direct SIP connections in Lync Server 2013</span></span>](lync-server-2013-direct-sip-connections.md)
 
-  - [<span data-ttu-id="b8e15-114">Tronco M:N no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b8e15-114">M:N trunk in Lync Server 2013</span></span>](lync-server-2013-m-n-trunk.md)
+  - [<span data-ttu-id="baf2a-114">Tronco M:N no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="baf2a-114">M:N trunk in Lync Server 2013</span></span>](lync-server-2013-m-n-trunk.md)
 
-  - [<span data-ttu-id="b8e15-115">Regras de conversão no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b8e15-115">Translation rules in Lync Server 2013</span></span>](lync-server-2013-translation-rules.md)
+  - [<span data-ttu-id="baf2a-115">Regras de conversão no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="baf2a-115">Translation rules in Lync Server 2013</span></span>](lync-server-2013-translation-rules.md)
 
-  - [<span data-ttu-id="b8e15-116">Planejamento de roteamento de voz de saída no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b8e15-116">Planning outbound voice routing in Lync Server 2013</span></span>](lync-server-2013-planning-outbound-voice-routing.md)
+  - [<span data-ttu-id="baf2a-116">Planejamento de roteamento de voz de saída no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="baf2a-116">Planning outbound voice routing in Lync Server 2013</span></span>](lync-server-2013-planning-outbound-voice-routing.md)
 
 </div>
 

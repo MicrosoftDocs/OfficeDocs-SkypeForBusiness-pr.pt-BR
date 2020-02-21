@@ -12,20 +12,20 @@ ms:contentKeyID: 49105660
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7135624695d1e4be6337f723bc69c47ff6fc706d
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: e8fd24bab9596f12060c87937d98cc2a57d0c887
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42152599"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42183704"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="port-summary---sip-xmpp-federation-and-public-instant-messaging-in-lync-server-2013"></a><span data-ttu-id="d7660-102">Resumo de porta-SIP, Federação XMPP e mensagens instantâneas públicas no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d7660-102">Port summary - SIP, XMPP federation, and public instant messaging in Lync Server 2013</span></span>
+# <a name="port-summary---sip-xmpp-federation-and-public-instant-messaging-in-lync-server-2013"></a><span data-ttu-id="2e6c0-102">Resumo de porta-SIP, Federação XMPP e mensagens instantâneas públicas no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2e6c0-102">Port summary - SIP, XMPP federation, and public instant messaging in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,29 +35,29 @@ ms.locfileid: "42152599"
 
 <span> </span>
 
-<span data-ttu-id="d7660-103">_**Última modificação do tópico:** 2013-03-15_</span><span class="sxs-lookup"><span data-stu-id="d7660-103">_**Topic Last Modified:** 2013-03-15_</span></span>
+<span data-ttu-id="2e6c0-103">_**Última modificação do tópico:** 2013-03-15_</span><span class="sxs-lookup"><span data-stu-id="2e6c0-103">_**Topic Last Modified:** 2013-03-15_</span></span>
 
-<span data-ttu-id="d7660-104">Requisitos de porta, protocolo e firewall para federação com o Microsoft Lync Server 2013, Lync Server 2010 e Office Communications Server são semelhantes aos do servidor de borda implantado.</span><span class="sxs-lookup"><span data-stu-id="d7660-104">Port, protocol and firewall requirements for federation with Microsoft Lync Server 2013, Lync Server 2010 and Office Communications Server are similar to those for the deployed Edge Server.</span></span> <span data-ttu-id="d7660-105">Os clientes iniciam a comunicação com o serviço de borda de acesso por TLS/SIP/TCP 443.</span><span class="sxs-lookup"><span data-stu-id="d7660-105">Clients initiate communication with the Access Edge service over TLS/SIP/TCP 443.</span></span> <span data-ttu-id="d7660-106">Parceiros federados no entanto, iniciarão comunicações com o serviço de borda de acesso sobre MTLS/SIP/TCP 5061.</span><span class="sxs-lookup"><span data-stu-id="d7660-106">Federated partners however, will initiate communications to the Access Edge service over MTLS/SIP/TCP 5061.</span></span>
+<span data-ttu-id="2e6c0-104">Requisitos de porta, protocolo e firewall para federação com o Microsoft Lync Server 2013, Lync Server 2010 e Office Communications Server são semelhantes aos do servidor de borda implantado.</span><span class="sxs-lookup"><span data-stu-id="2e6c0-104">Port, protocol and firewall requirements for federation with Microsoft Lync Server 2013, Lync Server 2010 and Office Communications Server are similar to those for the deployed Edge Server.</span></span> <span data-ttu-id="2e6c0-105">Os clientes iniciam a comunicação com o serviço de borda de acesso por TLS/SIP/TCP 443.</span><span class="sxs-lookup"><span data-stu-id="2e6c0-105">Clients initiate communication with the Access Edge service over TLS/SIP/TCP 443.</span></span> <span data-ttu-id="2e6c0-106">Parceiros federados no entanto, iniciarão comunicações com o serviço de borda de acesso sobre MTLS/SIP/TCP 5061.</span><span class="sxs-lookup"><span data-stu-id="2e6c0-106">Federated partners however, will initiate communications to the Access Edge service over MTLS/SIP/TCP 5061.</span></span>
 
-<span data-ttu-id="d7660-107">Para configurar seu firewall para portas e protocolos necessários para dar suporte à conectividade de mensagens instantâneas públicas, primeiro Observe que SIP/MTLS/TCP 5061 é bidirecional para considerar a capacidade de os contatos no provedor de IM público entrarem em contato com os clientes do Lync ou para o Lync entrarem em contato com contatos públicos de IM.</span><span class="sxs-lookup"><span data-stu-id="d7660-107">To configure your firewall for ports and protocols necessary to support public instant messaging connectivity, first note that SIP/MTLS/TCP 5061 is bidirectional to account for the ability of contacts in the public IM provider to contact Lync clients, or for Lync to contact public IM contacts.</span></span>
+<span data-ttu-id="2e6c0-107">Para configurar seu firewall para portas e protocolos necessários para dar suporte à conectividade de mensagens instantâneas públicas, primeiro Observe que SIP/MTLS/TCP 5061 é bidirecional para considerar a capacidade de os contatos no provedor de IM público entrarem em contato com os clientes do Lync ou para o Lync entrarem em contato com contatos públicos de IM.</span><span class="sxs-lookup"><span data-stu-id="2e6c0-107">To configure your firewall for ports and protocols necessary to support public instant messaging connectivity, first note that SIP/MTLS/TCP 5061 is bidirectional to account for the ability of contacts in the public IM provider to contact Lync clients, or for Lync to contact public IM contacts.</span></span>
 
-<span data-ttu-id="d7660-108">O Windows Live Messenger pode participar de comunicações de áudio/vídeo com clientes Lync.</span><span class="sxs-lookup"><span data-stu-id="d7660-108">Windows Live Messenger can participate in audio/video communications with Lync clients.</span></span> <span data-ttu-id="d7660-109">Isso conta para a porta de firewall muito parecida e a configuração de protocolo que você normalmente teria no firewall para dar suporte aos clientes do Lync como usuários externos.</span><span class="sxs-lookup"><span data-stu-id="d7660-109">This accounts for the very similar firewall port and protocol configuration that you would typically have on the firewall to support Lync clients as external users.</span></span>
+<span data-ttu-id="2e6c0-108">O Windows Live Messenger pode participar de comunicações de áudio/vídeo com clientes Lync.</span><span class="sxs-lookup"><span data-stu-id="2e6c0-108">Windows Live Messenger can participate in audio/video communications with Lync clients.</span></span> <span data-ttu-id="2e6c0-109">Isso conta para a porta de firewall muito parecida e a configuração de protocolo que você normalmente teria no firewall para dar suporte aos clientes do Lync como usuários externos.</span><span class="sxs-lookup"><span data-stu-id="2e6c0-109">This accounts for the very similar firewall port and protocol configuration that you would typically have on the firewall to support Lync clients as external users.</span></span>
 
 <div>
 
 
 > [!IMPORTANT]
-> <span data-ttu-id="d7660-110">Mais do que nunca, o Lync é uma poderosa ferramenta para a conexão entre organizações e pessoas em todo o mundo.</span><span class="sxs-lookup"><span data-stu-id="d7660-110">More than ever, Lync is a powerful tool for connecting across organizations and with individuals around the world.</span></span> <span data-ttu-id="d7660-111">A Federação com o Windows Live Messenger não requer nenhuma licença adicional de usuário/dispositivo além da licença de acesso para cliente (CAL) do Lync Standard.</span><span class="sxs-lookup"><span data-stu-id="d7660-111">Federation with Windows Live Messenger requires no additional user/device licenses beyond the Lync Standard Client Access License (CAL).</span></span> <span data-ttu-id="d7660-112">A Federação do Skype será adicionada à lista, permitindo que os usuários do Lync atinjam centenas de milhões de pessoas com IM e voz.</span><span class="sxs-lookup"><span data-stu-id="d7660-112">Skype federation will be added to this list, enabling Lync users to reach hundreds of millions of people with IM and voice.</span></span><BR><span data-ttu-id="d7660-113">A Federação com contatos do cliente do Messenger será oficialmente termina em 15 de março de 2013, exceto para a China continental.</span><span class="sxs-lookup"><span data-stu-id="d7660-113">Federation with Messenger client contacts will officially end on March 15, 2013, except for mainland China.</span></span> <span data-ttu-id="d7660-114">O Skype se tornará o cliente de Federação para usuários federados que usavam o Messenger anteriormente.</span><span class="sxs-lookup"><span data-stu-id="d7660-114">Skype will become the federation client for federated users who previously used Messenger.</span></span>
+> <span data-ttu-id="2e6c0-110">Mais do que nunca, o Lync é uma poderosa ferramenta para a conexão entre organizações e pessoas em todo o mundo.</span><span class="sxs-lookup"><span data-stu-id="2e6c0-110">More than ever, Lync is a powerful tool for connecting across organizations and with individuals around the world.</span></span> <span data-ttu-id="2e6c0-111">A Federação com o Windows Live Messenger não requer nenhuma licença adicional de usuário/dispositivo além da licença de acesso para cliente (CAL) do Lync Standard.</span><span class="sxs-lookup"><span data-stu-id="2e6c0-111">Federation with Windows Live Messenger requires no additional user/device licenses beyond the Lync Standard Client Access License (CAL).</span></span> <span data-ttu-id="2e6c0-112">A Federação do Skype será adicionada à lista, permitindo que os usuários do Lync atinjam centenas de milhões de pessoas com IM e voz.</span><span class="sxs-lookup"><span data-stu-id="2e6c0-112">Skype federation will be added to this list, enabling Lync users to reach hundreds of millions of people with IM and voice.</span></span><BR><span data-ttu-id="2e6c0-113">A Federação com contatos do cliente do Messenger será oficialmente termina em 15 de março de 2013, exceto para a China continental.</span><span class="sxs-lookup"><span data-stu-id="2e6c0-113">Federation with Messenger client contacts will officially end on March 15, 2013, except for mainland China.</span></span> <span data-ttu-id="2e6c0-114">O Skype se tornará o cliente de Federação para usuários federados que usavam o Messenger anteriormente.</span><span class="sxs-lookup"><span data-stu-id="2e6c0-114">Skype will become the federation client for federated users who previously used Messenger.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="d7660-115">As portas e os protocolos definidos para o proxy XMPP (Extensible Messaging and Presence Protocol) implantado no servidor de borda permitem que as comunicações do parceiro federado do XMPP ao servidor de borda, além de permitir a comunicação do servidor de borda com o XMPP parceiro federado.</span><span class="sxs-lookup"><span data-stu-id="d7660-115">The ports and protocols defined for the extensible messaging and presence protocol (XMPP) proxy deployed on the Edge Server allow communications from the XMPP federated partner to the Edge Server, and also allows communication from your Edge Server to the XMPP federated partner.</span></span> <span data-ttu-id="d7660-116">Uma regra também é definida no firewall de face interna do servidor front-end ou do pool de front-ends para o servidor de borda ou o pool de borda.</span><span class="sxs-lookup"><span data-stu-id="d7660-116">A rule is also defined on the internal-facing firewall from the Front End Server or Front End pool to the Edge Server or Edge pool.</span></span>
+<span data-ttu-id="2e6c0-115">As portas e os protocolos definidos para o proxy XMPP (Extensible Messaging and Presence Protocol) implantado no servidor de borda permitem que as comunicações do parceiro federado do XMPP ao servidor de borda, além de permitir a comunicação do servidor de borda com o XMPP parceiro federado.</span><span class="sxs-lookup"><span data-stu-id="2e6c0-115">The ports and protocols defined for the extensible messaging and presence protocol (XMPP) proxy deployed on the Edge Server allow communications from the XMPP federated partner to the Edge Server, and also allows communication from your Edge Server to the XMPP federated partner.</span></span> <span data-ttu-id="2e6c0-116">Uma regra também é definida no firewall de face interna do servidor front-end ou do pool de front-ends para o servidor de borda ou o pool de borda.</span><span class="sxs-lookup"><span data-stu-id="2e6c0-116">A rule is also defined on the internal-facing firewall from the Front End Server or Front End pool to the Edge Server or Edge pool.</span></span>
 
 <div>
 
-## <a name="firewall-summary---sip-federation"></a><span data-ttu-id="d7660-117">Resumo do firewall-Federação SIP</span><span class="sxs-lookup"><span data-stu-id="d7660-117">Firewall Summary - SIP Federation</span></span>
+## <a name="firewall-summary---sip-federation"></a><span data-ttu-id="2e6c0-117">Resumo do firewall-Federação SIP</span><span class="sxs-lookup"><span data-stu-id="2e6c0-117">Firewall Summary - SIP Federation</span></span>
 
 
 <table>
@@ -69,18 +69,18 @@ ms.locfileid: "42152599"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="d7660-118">Função/Protocolo/TCP ou UDP/Porta</span><span class="sxs-lookup"><span data-stu-id="d7660-118">Role/Protocol/TCP or UDP/Port</span></span></th>
-<th><span data-ttu-id="d7660-119">Endereço IP de origem</span><span class="sxs-lookup"><span data-stu-id="d7660-119">Source IP address</span></span></th>
-<th><span data-ttu-id="d7660-120">Endereço IP de destino</span><span class="sxs-lookup"><span data-stu-id="d7660-120">Destination IP address</span></span></th>
-<th><span data-ttu-id="d7660-121">Observações</span><span class="sxs-lookup"><span data-stu-id="d7660-121">Notes</span></span></th>
+<th><span data-ttu-id="2e6c0-118">Função/Protocolo/TCP ou UDP/Porta</span><span class="sxs-lookup"><span data-stu-id="2e6c0-118">Role/Protocol/TCP or UDP/Port</span></span></th>
+<th><span data-ttu-id="2e6c0-119">Endereço IP de origem</span><span class="sxs-lookup"><span data-stu-id="2e6c0-119">Source IP address</span></span></th>
+<th><span data-ttu-id="2e6c0-120">Endereço IP de destino</span><span class="sxs-lookup"><span data-stu-id="2e6c0-120">Destination IP address</span></span></th>
+<th><span data-ttu-id="2e6c0-121">Observações</span><span class="sxs-lookup"><span data-stu-id="2e6c0-121">Notes</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="d7660-122">/TCP/5061 de acesso/SIP (MTLS)</span><span class="sxs-lookup"><span data-stu-id="d7660-122">Access/SIP(MTLS)/TCP/5061</span></span></p></td>
-<td><p><span data-ttu-id="d7660-123">Endereço IP público do serviço da Borda de Acesso</span><span class="sxs-lookup"><span data-stu-id="d7660-123">Access Edge service public IP address</span></span></p></td>
-<td><p><span data-ttu-id="d7660-124">Qualquer tamanho</span><span class="sxs-lookup"><span data-stu-id="d7660-124">Any</span></span></p></td>
-<td><p><span data-ttu-id="d7660-125">Para conectividade a redes públicas e federadas de IM usando SIP</span><span class="sxs-lookup"><span data-stu-id="d7660-125">For federated and public IM connectivity using SIP</span></span></p></td>
+<td><p><span data-ttu-id="2e6c0-122">/TCP/5061 de acesso/SIP (MTLS)</span><span class="sxs-lookup"><span data-stu-id="2e6c0-122">Access/SIP(MTLS)/TCP/5061</span></span></p></td>
+<td><p><span data-ttu-id="2e6c0-123">Endereço IP público do serviço da Borda de Acesso</span><span class="sxs-lookup"><span data-stu-id="2e6c0-123">Access Edge service public IP address</span></span></p></td>
+<td><p><span data-ttu-id="2e6c0-124">Qualquer tamanho</span><span class="sxs-lookup"><span data-stu-id="2e6c0-124">Any</span></span></p></td>
+<td><p><span data-ttu-id="2e6c0-125">Para conectividade a redes públicas e federadas de IM usando SIP</span><span class="sxs-lookup"><span data-stu-id="2e6c0-125">For federated and public IM connectivity using SIP</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -90,7 +90,7 @@ ms.locfileid: "42152599"
 
 <div>
 
-## <a name="firewall-summary--public-instant-messaging-connectivity"></a><span data-ttu-id="d7660-126">Resumo do firewall – Conectividade pública de mensagens instantâneas</span><span class="sxs-lookup"><span data-stu-id="d7660-126">Firewall Summary – Public Instant Messaging Connectivity</span></span>
+## <a name="firewall-summary--public-instant-messaging-connectivity"></a><span data-ttu-id="2e6c0-126">Resumo do firewall – Conectividade pública de mensagens instantâneas</span><span class="sxs-lookup"><span data-stu-id="2e6c0-126">Firewall Summary – Public Instant Messaging Connectivity</span></span>
 
 
 <table>
@@ -102,48 +102,48 @@ ms.locfileid: "42152599"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="d7660-127">Função/Protocolo/TCP ou UDP/Porta</span><span class="sxs-lookup"><span data-stu-id="d7660-127">Role/Protocol/TCP or UDP/Port</span></span></th>
-<th><span data-ttu-id="d7660-128">Endereço IP de origem</span><span class="sxs-lookup"><span data-stu-id="d7660-128">Source IP address</span></span></th>
-<th><span data-ttu-id="d7660-129">Endereço IP de destino</span><span class="sxs-lookup"><span data-stu-id="d7660-129">Destination IP address</span></span></th>
-<th><span data-ttu-id="d7660-130">Observações</span><span class="sxs-lookup"><span data-stu-id="d7660-130">Notes</span></span></th>
+<th><span data-ttu-id="2e6c0-127">Função/Protocolo/TCP ou UDP/Porta</span><span class="sxs-lookup"><span data-stu-id="2e6c0-127">Role/Protocol/TCP or UDP/Port</span></span></th>
+<th><span data-ttu-id="2e6c0-128">Endereço IP de origem</span><span class="sxs-lookup"><span data-stu-id="2e6c0-128">Source IP address</span></span></th>
+<th><span data-ttu-id="2e6c0-129">Endereço IP de destino</span><span class="sxs-lookup"><span data-stu-id="2e6c0-129">Destination IP address</span></span></th>
+<th><span data-ttu-id="2e6c0-130">Observações</span><span class="sxs-lookup"><span data-stu-id="2e6c0-130">Notes</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="d7660-131">/TCP/5061 de acesso/SIP (MTLS)</span><span class="sxs-lookup"><span data-stu-id="d7660-131">Access/SIP(MTLS)/TCP/5061</span></span></p></td>
-<td><p><span data-ttu-id="d7660-132">Parceiros de conectividade pública de IM</span><span class="sxs-lookup"><span data-stu-id="d7660-132">Public IM connectivity partners</span></span></p></td>
-<td><p><span data-ttu-id="d7660-133">Interface de acesso do servidor de borda</span><span class="sxs-lookup"><span data-stu-id="d7660-133">Edge Server Access interface</span></span></p></td>
-<td><p><span data-ttu-id="d7660-134">Para conectividade federada e pública de IM que usam SIP.</span><span class="sxs-lookup"><span data-stu-id="d7660-134">For federated and public IM connectivity that use SIP.</span></span></p></td>
+<td><p><span data-ttu-id="2e6c0-131">/TCP/5061 de acesso/SIP (MTLS)</span><span class="sxs-lookup"><span data-stu-id="2e6c0-131">Access/SIP(MTLS)/TCP/5061</span></span></p></td>
+<td><p><span data-ttu-id="2e6c0-132">Parceiros de conectividade pública de IM</span><span class="sxs-lookup"><span data-stu-id="2e6c0-132">Public IM connectivity partners</span></span></p></td>
+<td><p><span data-ttu-id="2e6c0-133">Interface de acesso do servidor de borda</span><span class="sxs-lookup"><span data-stu-id="2e6c0-133">Edge Server Access interface</span></span></p></td>
+<td><p><span data-ttu-id="2e6c0-134">Para conectividade federada e pública de IM que usam SIP.</span><span class="sxs-lookup"><span data-stu-id="2e6c0-134">For federated and public IM connectivity that use SIP.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d7660-135">/TCP/5061 de acesso/SIP (MTLS)</span><span class="sxs-lookup"><span data-stu-id="d7660-135">Access/SIP(MTLS)/TCP/5061</span></span></p></td>
-<td><p><span data-ttu-id="d7660-136">Interface de acesso do servidor de borda</span><span class="sxs-lookup"><span data-stu-id="d7660-136">Edge Server Access interface</span></span></p></td>
-<td><p><span data-ttu-id="d7660-137">Parceiros de conectividade pública de IM</span><span class="sxs-lookup"><span data-stu-id="d7660-137">Public IM connectivity partners</span></span></p></td>
-<td><p><span data-ttu-id="d7660-138">Para conectividade federada e pública de IM que usam SIP.</span><span class="sxs-lookup"><span data-stu-id="d7660-138">For federated and public IM connectivity that use SIP.</span></span></p></td>
+<td><p><span data-ttu-id="2e6c0-135">/TCP/5061 de acesso/SIP (MTLS)</span><span class="sxs-lookup"><span data-stu-id="2e6c0-135">Access/SIP(MTLS)/TCP/5061</span></span></p></td>
+<td><p><span data-ttu-id="2e6c0-136">Interface de acesso do servidor de borda</span><span class="sxs-lookup"><span data-stu-id="2e6c0-136">Edge Server Access interface</span></span></p></td>
+<td><p><span data-ttu-id="2e6c0-137">Parceiros de conectividade pública de IM</span><span class="sxs-lookup"><span data-stu-id="2e6c0-137">Public IM connectivity partners</span></span></p></td>
+<td><p><span data-ttu-id="2e6c0-138">Para conectividade federada e pública de IM que usam SIP.</span><span class="sxs-lookup"><span data-stu-id="2e6c0-138">For federated and public IM connectivity that use SIP.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="d7660-139">/TCP/443 de acesso/SIP (TLS)</span><span class="sxs-lookup"><span data-stu-id="d7660-139">Access/SIP(TLS)/TCP/443</span></span></p></td>
-<td><p><span data-ttu-id="d7660-140">Clientes</span><span class="sxs-lookup"><span data-stu-id="d7660-140">Clients</span></span></p></td>
-<td><p><span data-ttu-id="d7660-141">Interface de acesso do servidor de borda</span><span class="sxs-lookup"><span data-stu-id="d7660-141">Edge Server Access interface</span></span></p></td>
-<td><p><span data-ttu-id="d7660-142">Tráfego SIP de cliente para servidor para acesso de usuário externo.</span><span class="sxs-lookup"><span data-stu-id="d7660-142">Client-to-server SIP traffic for external user access.</span></span></p></td>
+<td><p><span data-ttu-id="2e6c0-139">/TCP/443 de acesso/SIP (TLS)</span><span class="sxs-lookup"><span data-stu-id="2e6c0-139">Access/SIP(TLS)/TCP/443</span></span></p></td>
+<td><p><span data-ttu-id="2e6c0-140">Clientes</span><span class="sxs-lookup"><span data-stu-id="2e6c0-140">Clients</span></span></p></td>
+<td><p><span data-ttu-id="2e6c0-141">Interface de acesso do servidor de borda</span><span class="sxs-lookup"><span data-stu-id="2e6c0-141">Edge Server Access interface</span></span></p></td>
+<td><p><span data-ttu-id="2e6c0-142">Tráfego SIP de cliente para servidor para acesso de usuário externo.</span><span class="sxs-lookup"><span data-stu-id="2e6c0-142">Client-to-server SIP traffic for external user access.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d7660-143">A/V/RTP/TCP/50000-59.999</span><span class="sxs-lookup"><span data-stu-id="d7660-143">A/V/RTP/TCP/50,000-59,999</span></span></p></td>
-<td><p><span data-ttu-id="d7660-144">Interface de acesso do servidor de borda</span><span class="sxs-lookup"><span data-stu-id="d7660-144">Edge Server Access interface</span></span></p></td>
-<td><p><span data-ttu-id="d7660-145">Clientes Live Messenger</span><span class="sxs-lookup"><span data-stu-id="d7660-145">Live Messenger clients</span></span></p></td>
-<td><p><span data-ttu-id="d7660-146">Usado para sessões A/V com o Windows Live Messenger se a conectividade pública de IM estiver configurada.</span><span class="sxs-lookup"><span data-stu-id="d7660-146">Used for A/V sessions with Windows Live Messenger if public IM connectivity is configured.</span></span></p></td>
+<td><p><span data-ttu-id="2e6c0-143">A/V/RTP/TCP/50000-59.999</span><span class="sxs-lookup"><span data-stu-id="2e6c0-143">A/V/RTP/TCP/50,000-59,999</span></span></p></td>
+<td><p><span data-ttu-id="2e6c0-144">Interface de acesso do servidor de borda</span><span class="sxs-lookup"><span data-stu-id="2e6c0-144">Edge Server Access interface</span></span></p></td>
+<td><p><span data-ttu-id="2e6c0-145">Clientes Live Messenger</span><span class="sxs-lookup"><span data-stu-id="2e6c0-145">Live Messenger clients</span></span></p></td>
+<td><p><span data-ttu-id="2e6c0-146">Usado para sessões A/V com o Windows Live Messenger se a conectividade pública de IM estiver configurada.</span><span class="sxs-lookup"><span data-stu-id="2e6c0-146">Used for A/V sessions with Windows Live Messenger if public IM connectivity is configured.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="d7660-147">A/V/STUN, MSTURN/UDP/3478</span><span class="sxs-lookup"><span data-stu-id="d7660-147">A/V/STUN,MSTURN/UDP/3478</span></span></p></td>
-<td><p><span data-ttu-id="d7660-148">Interface de acesso do servidor de borda</span><span class="sxs-lookup"><span data-stu-id="d7660-148">Edge Server Access interface</span></span></p></td>
-<td><p><span data-ttu-id="d7660-149">Clientes Live Messenger</span><span class="sxs-lookup"><span data-stu-id="d7660-149">Live Messenger clients</span></span></p></td>
-<td><p><span data-ttu-id="d7660-150">Necessário para conectividade pública de IM com o Windows Live Messenger.</span><span class="sxs-lookup"><span data-stu-id="d7660-150">Required for public IM connectivity with Windows Live Messenger.</span></span></p></td>
+<td><p><span data-ttu-id="2e6c0-147">A/V/STUN, MSTURN/UDP/3478</span><span class="sxs-lookup"><span data-stu-id="2e6c0-147">A/V/STUN,MSTURN/UDP/3478</span></span></p></td>
+<td><p><span data-ttu-id="2e6c0-148">Interface de acesso do servidor de borda</span><span class="sxs-lookup"><span data-stu-id="2e6c0-148">Edge Server Access interface</span></span></p></td>
+<td><p><span data-ttu-id="2e6c0-149">Clientes Live Messenger</span><span class="sxs-lookup"><span data-stu-id="2e6c0-149">Live Messenger clients</span></span></p></td>
+<td><p><span data-ttu-id="2e6c0-150">Necessário para conectividade pública de IM com o Windows Live Messenger.</span><span class="sxs-lookup"><span data-stu-id="2e6c0-150">Required for public IM connectivity with Windows Live Messenger.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d7660-151">A/V/STUN, MSTURN/UDP/3478</span><span class="sxs-lookup"><span data-stu-id="d7660-151">A/V/STUN,MSTURN/UDP/3478</span></span></p></td>
-<td><p><span data-ttu-id="d7660-152">Clientes Live Messenger</span><span class="sxs-lookup"><span data-stu-id="d7660-152">Live Messenger clients</span></span></p></td>
-<td><p><span data-ttu-id="d7660-153">Interface de acesso do servidor de borda</span><span class="sxs-lookup"><span data-stu-id="d7660-153">Edge Server Access interface</span></span></p></td>
-<td><p><span data-ttu-id="d7660-154">Necessário para conectividade pública de IM com o Windows Live Messenger.</span><span class="sxs-lookup"><span data-stu-id="d7660-154">Required for public IM connectivity with Windows Live Messenger.</span></span></p></td>
+<td><p><span data-ttu-id="2e6c0-151">A/V/STUN, MSTURN/UDP/3478</span><span class="sxs-lookup"><span data-stu-id="2e6c0-151">A/V/STUN,MSTURN/UDP/3478</span></span></p></td>
+<td><p><span data-ttu-id="2e6c0-152">Clientes Live Messenger</span><span class="sxs-lookup"><span data-stu-id="2e6c0-152">Live Messenger clients</span></span></p></td>
+<td><p><span data-ttu-id="2e6c0-153">Interface de acesso do servidor de borda</span><span class="sxs-lookup"><span data-stu-id="2e6c0-153">Edge Server Access interface</span></span></p></td>
+<td><p><span data-ttu-id="2e6c0-154">Necessário para conectividade pública de IM com o Windows Live Messenger.</span><span class="sxs-lookup"><span data-stu-id="2e6c0-154">Required for public IM connectivity with Windows Live Messenger.</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -153,7 +153,7 @@ ms.locfileid: "42152599"
 
 <div>
 
-## <a name="firewall-summary---extensible-messaging-and-presence-protocol-xmpp"></a><span data-ttu-id="d7660-155">Resumo do firewall-protocolo de presença e mensagens extensíveis (XMPP)</span><span class="sxs-lookup"><span data-stu-id="d7660-155">Firewall Summary - Extensible Messaging and Presence Protocol (XMPP)</span></span>
+## <a name="firewall-summary---extensible-messaging-and-presence-protocol-xmpp"></a><span data-ttu-id="2e6c0-155">Resumo do firewall-protocolo de presença e mensagens extensíveis (XMPP)</span><span class="sxs-lookup"><span data-stu-id="2e6c0-155">Firewall Summary - Extensible Messaging and Presence Protocol (XMPP)</span></span>
 
 
 <table>
@@ -165,30 +165,30 @@ ms.locfileid: "42152599"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="d7660-156">Protocolo/TCP ou UDP/Porta</span><span class="sxs-lookup"><span data-stu-id="d7660-156">Protocol/TCP or UDP/Port</span></span></th>
-<th><span data-ttu-id="d7660-157">Origem (endereço IP)</span><span class="sxs-lookup"><span data-stu-id="d7660-157">Source (IP address)</span></span></th>
-<th><span data-ttu-id="d7660-158">Destino (endereço IP)</span><span class="sxs-lookup"><span data-stu-id="d7660-158">Destination (IP address)</span></span></th>
-<th><span data-ttu-id="d7660-159">Comentários</span><span class="sxs-lookup"><span data-stu-id="d7660-159">Comments</span></span></th>
+<th><span data-ttu-id="2e6c0-156">Protocolo/TCP ou UDP/Porta</span><span class="sxs-lookup"><span data-stu-id="2e6c0-156">Protocol/TCP or UDP/Port</span></span></th>
+<th><span data-ttu-id="2e6c0-157">Origem (endereço IP)</span><span class="sxs-lookup"><span data-stu-id="2e6c0-157">Source (IP address)</span></span></th>
+<th><span data-ttu-id="2e6c0-158">Destino (endereço IP)</span><span class="sxs-lookup"><span data-stu-id="2e6c0-158">Destination (IP address)</span></span></th>
+<th><span data-ttu-id="2e6c0-159">Comentários</span><span class="sxs-lookup"><span data-stu-id="2e6c0-159">Comments</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="d7660-160">XMPP/TCP/5269</span><span class="sxs-lookup"><span data-stu-id="d7660-160">XMPP/TCP/5269</span></span></p></td>
-<td><p><span data-ttu-id="d7660-161">Qualquer tamanho</span><span class="sxs-lookup"><span data-stu-id="d7660-161">Any</span></span></p></td>
-<td><p><span data-ttu-id="d7660-162">Endereço IP da interface de serviço de borda de acesso</span><span class="sxs-lookup"><span data-stu-id="d7660-162">Access Edge service interface IP address</span></span></p></td>
-<td><p><span data-ttu-id="d7660-163">Porta padrão de comunicação entre servidores para XMPP.</span><span class="sxs-lookup"><span data-stu-id="d7660-163">Standard server-to-server communication port for XMPP.</span></span> <span data-ttu-id="d7660-164">Permite a comunicação com o servidor de borda XMPP proxy de parceiros federados do XMPP</span><span class="sxs-lookup"><span data-stu-id="d7660-164">Allows communication to the Edge Server XMPP proxy from federated XMPP partners</span></span></p></td>
+<td><p><span data-ttu-id="2e6c0-160">XMPP/TCP/5269</span><span class="sxs-lookup"><span data-stu-id="2e6c0-160">XMPP/TCP/5269</span></span></p></td>
+<td><p><span data-ttu-id="2e6c0-161">Qualquer tamanho</span><span class="sxs-lookup"><span data-stu-id="2e6c0-161">Any</span></span></p></td>
+<td><p><span data-ttu-id="2e6c0-162">Endereço IP da interface de serviço de borda de acesso</span><span class="sxs-lookup"><span data-stu-id="2e6c0-162">Access Edge service interface IP address</span></span></p></td>
+<td><p><span data-ttu-id="2e6c0-163">Porta padrão de comunicação entre servidores para XMPP.</span><span class="sxs-lookup"><span data-stu-id="2e6c0-163">Standard server-to-server communication port for XMPP.</span></span> <span data-ttu-id="2e6c0-164">Permite a comunicação com o servidor de borda XMPP proxy de parceiros federados do XMPP</span><span class="sxs-lookup"><span data-stu-id="2e6c0-164">Allows communication to the Edge Server XMPP proxy from federated XMPP partners</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d7660-165">XMPP/TCP/5269</span><span class="sxs-lookup"><span data-stu-id="d7660-165">XMPP/TCP/5269</span></span></p></td>
-<td><p><span data-ttu-id="d7660-166">Endereço IP da interface de serviço de borda de acesso</span><span class="sxs-lookup"><span data-stu-id="d7660-166">Access Edge service interface IP address</span></span></p></td>
-<td><p><span data-ttu-id="d7660-167">Qualquer tamanho</span><span class="sxs-lookup"><span data-stu-id="d7660-167">Any</span></span></p></td>
-<td><p><span data-ttu-id="d7660-168">Porta padrão de comunicação entre servidores para XMPP.</span><span class="sxs-lookup"><span data-stu-id="d7660-168">Standard server-to-server communication port for XMPP.</span></span> <span data-ttu-id="d7660-169">Permite a comunicação do proxy do servidor de borda XMPP com parceiros federados XMPP</span><span class="sxs-lookup"><span data-stu-id="d7660-169">Allows communication from the Edge Server XMPP proxy to federated XMPP partners</span></span></p></td>
+<td><p><span data-ttu-id="2e6c0-165">XMPP/TCP/5269</span><span class="sxs-lookup"><span data-stu-id="2e6c0-165">XMPP/TCP/5269</span></span></p></td>
+<td><p><span data-ttu-id="2e6c0-166">Endereço IP da interface de serviço de borda de acesso</span><span class="sxs-lookup"><span data-stu-id="2e6c0-166">Access Edge service interface IP address</span></span></p></td>
+<td><p><span data-ttu-id="2e6c0-167">Qualquer tamanho</span><span class="sxs-lookup"><span data-stu-id="2e6c0-167">Any</span></span></p></td>
+<td><p><span data-ttu-id="2e6c0-168">Porta padrão de comunicação entre servidores para XMPP.</span><span class="sxs-lookup"><span data-stu-id="2e6c0-168">Standard server-to-server communication port for XMPP.</span></span> <span data-ttu-id="2e6c0-169">Permite a comunicação do proxy do servidor de borda XMPP com parceiros federados XMPP</span><span class="sxs-lookup"><span data-stu-id="2e6c0-169">Allows communication from the Edge Server XMPP proxy to federated XMPP partners</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="d7660-170">XMPP/MTLS/23456</span><span class="sxs-lookup"><span data-stu-id="d7660-170">XMPP/MTLS/23456</span></span></p></td>
-<td><p><span data-ttu-id="d7660-171">Qualquer tamanho</span><span class="sxs-lookup"><span data-stu-id="d7660-171">Any</span></span></p></td>
-<td><p><span data-ttu-id="d7660-172">IP da interface de servidor de borda interna</span><span class="sxs-lookup"><span data-stu-id="d7660-172">Internal Edge Server Interface IP</span></span></p></td>
-<td><p><span data-ttu-id="d7660-173">Tráfego XMPP interno do Gateway XMPP no servidor front-end ou no pool de front-ends para o servidor de borda</span><span class="sxs-lookup"><span data-stu-id="d7660-173">Internal XMPP traffic from the XMPP Gateway on the Front End Server or Front End pool to the Edge Server</span></span></p></td>
+<td><p><span data-ttu-id="2e6c0-170">XMPP/MTLS/23456</span><span class="sxs-lookup"><span data-stu-id="2e6c0-170">XMPP/MTLS/23456</span></span></p></td>
+<td><p><span data-ttu-id="2e6c0-171">Qualquer tamanho</span><span class="sxs-lookup"><span data-stu-id="2e6c0-171">Any</span></span></p></td>
+<td><p><span data-ttu-id="2e6c0-172">IP da interface de servidor de borda interna</span><span class="sxs-lookup"><span data-stu-id="2e6c0-172">Internal Edge Server Interface IP</span></span></p></td>
+<td><p><span data-ttu-id="2e6c0-173">Tráfego XMPP interno do Gateway XMPP no servidor front-end ou no pool de front-ends para o servidor de borda</span><span class="sxs-lookup"><span data-stu-id="2e6c0-173">Internal XMPP traffic from the XMPP Gateway on the Front End Server or Front End pool to the Edge Server</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -198,14 +198,14 @@ ms.locfileid: "42152599"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="d7660-174">Confira também</span><span class="sxs-lookup"><span data-stu-id="d7660-174">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="2e6c0-174">Confira também</span><span class="sxs-lookup"><span data-stu-id="2e6c0-174">See Also</span></span>
 
 
-[<span data-ttu-id="d7660-175">Cenários para acesso de usuário externo no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d7660-175">Scenarios for external user access in Lync Server 2013</span></span>](lync-server-2013-scenarios-for-external-user-access.md)  
-[<span data-ttu-id="d7660-176">Determinar firewall A/V externo e requisitos de porta para o Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d7660-176">Determine external A/V firewall and port requirements for Lync Server 2013</span></span>](lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md)  
+[<span data-ttu-id="2e6c0-175">Cenários para acesso de usuário externo no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2e6c0-175">Scenarios for external user access in Lync Server 2013</span></span>](lync-server-2013-scenarios-for-external-user-access.md)  
+[<span data-ttu-id="2e6c0-176">Determinar firewall A/V externo e requisitos de porta para o Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2e6c0-176">Determine external A/V firewall and port requirements for Lync Server 2013</span></span>](lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md)  
 
 
-[<span data-ttu-id="d7660-177">Gerenciar parceiros federados do XMPP no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d7660-177">Manage XMPP federated partners in Lync Server 2013</span></span>](lync-server-2013-manage-xmpp-federated-partners-for-your-organization.md)  
+[<span data-ttu-id="2e6c0-177">Gerenciar parceiros federados do XMPP no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2e6c0-177">Manage XMPP federated partners in Lync Server 2013</span></span>](lync-server-2013-manage-xmpp-federated-partners-for-your-organization.md)  
   
 
 </div>

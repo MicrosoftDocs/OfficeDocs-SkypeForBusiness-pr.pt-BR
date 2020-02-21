@@ -12,20 +12,20 @@ ms:contentKeyID: 51541490
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3b397f389de461a04974fe063437caaabd9d4137
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: fd5875dc7e0dd999a1d94e6e7722eeba07c3a37e
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42152385"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42183604"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="preparing-to-restore-lync-server-2013"></a><span data-ttu-id="dda94-102">Preparando para restaurar o Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="dda94-102">Preparing to restore Lync Server 2013</span></span>
+# <a name="preparing-to-restore-lync-server-2013"></a><span data-ttu-id="7e175-102">Preparando para restaurar o Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7e175-102">Preparing to restore Lync Server 2013</span></span>
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "42152385"
 
 <span> </span>
 
-<span data-ttu-id="dda94-103">_**Última modificação do tópico:** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="dda94-103">_**Topic Last Modified:** 2013-02-21_</span></span>
+<span data-ttu-id="7e175-103">_**Última modificação do tópico:** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="7e175-103">_**Topic Last Modified:** 2013-02-21_</span></span>
 
-<span data-ttu-id="dda94-104">Antes de começar a restauração de servidores e bancos de dados após uma falha, você precisa determinar o seguinte:</span><span class="sxs-lookup"><span data-stu-id="dda94-104">Before you begin restoring servers and databases after a failure, you need to determine the following:</span></span>
+<span data-ttu-id="7e175-104">Antes de começar a restauração de servidores e bancos de dados após uma falha, você precisa determinar o seguinte:</span><span class="sxs-lookup"><span data-stu-id="7e175-104">Before you begin restoring servers and databases after a failure, you need to determine the following:</span></span>
 
-  - <span data-ttu-id="dda94-105">O que precisa ser restaurado.</span><span class="sxs-lookup"><span data-stu-id="dda94-105">What needs to be restored.</span></span>
+  - <span data-ttu-id="7e175-105">O que precisa ser restaurado.</span><span class="sxs-lookup"><span data-stu-id="7e175-105">What needs to be restored.</span></span>
 
-  - <span data-ttu-id="dda94-106">O hardware, o software, os dados e as ferramentas de que você precisa para a restauração.</span><span class="sxs-lookup"><span data-stu-id="dda94-106">The hardware, software, data, and tools you need for restoration.</span></span>
+  - <span data-ttu-id="7e175-106">O hardware, o software, os dados e as ferramentas de que você precisa para a restauração.</span><span class="sxs-lookup"><span data-stu-id="7e175-106">The hardware, software, data, and tools you need for restoration.</span></span>
 
 <div>
 
-## <a name="determining-what-to-restore"></a><span data-ttu-id="dda94-107">Determinando o quê restaurar</span><span class="sxs-lookup"><span data-stu-id="dda94-107">Determining What to Restore</span></span>
+## <a name="determining-what-to-restore"></a><span data-ttu-id="7e175-107">Determinando o quê restaurar</span><span class="sxs-lookup"><span data-stu-id="7e175-107">Determining What to Restore</span></span>
 
-<span data-ttu-id="dda94-108">Este tópico descreve como restaurar as interrupções do Lync Server que ocorrem no nível do servidor, pool ou repositório de gerenciamento central.</span><span class="sxs-lookup"><span data-stu-id="dda94-108">This topic describes how to restore Lync Server outages that occur at the server, pool, or Central Management store level.</span></span> <span data-ttu-id="dda94-109">Se o repositório de gerenciamento central falhar, sua implantação do Lync Server continuará a funcionar, mas não será possível fazer alterações na configuração.</span><span class="sxs-lookup"><span data-stu-id="dda94-109">If the Central Management store fails, your Lync Server deployment continues to function, but you cannot make any configuration changes.</span></span> <span data-ttu-id="dda94-110">Se um servidor Standard Edition ou de Back-End falhar, o pool de usuário para de funcionar.</span><span class="sxs-lookup"><span data-stu-id="dda94-110">If a Back End Server or Standard Edition server fails, the user pool stops functioning.</span></span> <span data-ttu-id="dda94-111">Se qualquer outro servidor falhar, a magnitude da falha depende da função de servidor que o servidor está executando e de se o servidor hospeda um ou mais bancos de dados.</span><span class="sxs-lookup"><span data-stu-id="dda94-111">If any other server fails, the magnitude of the failure depends on the server role the server is running and whether the server hosts one or more databases.</span></span>
+<span data-ttu-id="7e175-108">Este tópico descreve como restaurar as interrupções do Lync Server que ocorrem no nível do servidor, pool ou repositório de gerenciamento central.</span><span class="sxs-lookup"><span data-stu-id="7e175-108">This topic describes how to restore Lync Server outages that occur at the server, pool, or Central Management store level.</span></span> <span data-ttu-id="7e175-109">Se o repositório de gerenciamento central falhar, sua implantação do Lync Server continuará a funcionar, mas não será possível fazer alterações na configuração.</span><span class="sxs-lookup"><span data-stu-id="7e175-109">If the Central Management store fails, your Lync Server deployment continues to function, but you cannot make any configuration changes.</span></span> <span data-ttu-id="7e175-110">Se um servidor Standard Edition ou de Back-End falhar, o pool de usuário para de funcionar.</span><span class="sxs-lookup"><span data-stu-id="7e175-110">If a Back End Server or Standard Edition server fails, the user pool stops functioning.</span></span> <span data-ttu-id="7e175-111">Se qualquer outro servidor falhar, a magnitude da falha depende da função de servidor que o servidor está executando e de se o servidor hospeda um ou mais bancos de dados.</span><span class="sxs-lookup"><span data-stu-id="7e175-111">If any other server fails, the magnitude of the failure depends on the server role the server is running and whether the server hosts one or more databases.</span></span>
 
-### <a name="what-to-restore"></a><span data-ttu-id="dda94-112">O que restaurar</span><span class="sxs-lookup"><span data-stu-id="dda94-112">What to Restore</span></span>
+### <a name="what-to-restore"></a><span data-ttu-id="7e175-112">O que restaurar</span><span class="sxs-lookup"><span data-stu-id="7e175-112">What to Restore</span></span>
 
 <table>
 <colgroup>
@@ -58,50 +58,50 @@ ms.locfileid: "42152385"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="dda94-113">Se isto falhou</span><span class="sxs-lookup"><span data-stu-id="dda94-113">If this failed</span></span></th>
-<th><span data-ttu-id="dda94-114">Consulte esta seção:</span><span class="sxs-lookup"><span data-stu-id="dda94-114">See this section:</span></span></th>
+<th><span data-ttu-id="7e175-113">Se isto falhou</span><span class="sxs-lookup"><span data-stu-id="7e175-113">If this failed</span></span></th>
+<th><span data-ttu-id="7e175-114">Consulte esta seção:</span><span class="sxs-lookup"><span data-stu-id="7e175-114">See this section:</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="dda94-115">Servidor Standard Edition</span><span class="sxs-lookup"><span data-stu-id="dda94-115">Standard Edition server</span></span></p></td>
-<td><p><span data-ttu-id="dda94-116"><a href="lync-server-2013-restoring-a-standard-edition-server.md">Restaurando um servidor Standard Edition no Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="dda94-116"><a href="lync-server-2013-restoring-a-standard-edition-server.md">Restoring a Standard Edition server in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="7e175-115">Servidor Standard Edition</span><span class="sxs-lookup"><span data-stu-id="7e175-115">Standard Edition server</span></span></p></td>
+<td><p><span data-ttu-id="7e175-116"><a href="lync-server-2013-restoring-a-standard-edition-server.md">Restaurando um servidor Standard Edition no Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="7e175-116"><a href="lync-server-2013-restoring-a-standard-edition-server.md">Restoring a Standard Edition server in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="dda94-117">Repositório de Gerenciamento Central</span><span class="sxs-lookup"><span data-stu-id="dda94-117">Central Management store</span></span></p></td>
-<td><p><span data-ttu-id="dda94-118"><a href="lync-server-2013-restoring-the-server-hosting-the-central-management-store.md">Restaurando o servidor que hospeda o repositório de gerenciamento central no Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="dda94-118"><a href="lync-server-2013-restoring-the-server-hosting-the-central-management-store.md">Restoring the server hosting the Central Management store in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="7e175-117">Repositório de Gerenciamento Central</span><span class="sxs-lookup"><span data-stu-id="7e175-117">Central Management store</span></span></p></td>
+<td><p><span data-ttu-id="7e175-118"><a href="lync-server-2013-restoring-the-server-hosting-the-central-management-store.md">Restaurando o servidor que hospeda o repositório de gerenciamento central no Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="7e175-118"><a href="lync-server-2013-restoring-the-server-hosting-the-central-management-store.md">Restoring the server hosting the Central Management store in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="dda94-119">Back-end do Enterprise Edition</span><span class="sxs-lookup"><span data-stu-id="dda94-119">Enterprise Edition Back End</span></span></p></td>
-<td><p><span data-ttu-id="dda94-120"><a href="lync-server-2013-restoring-an-enterprise-edition-back-end-server.md">Restaurando um servidor back-end Enterprise Edition no Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="dda94-120"><a href="lync-server-2013-restoring-an-enterprise-edition-back-end-server.md">Restoring an Enterprise Edition Back End Server in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="7e175-119">Back-end do Enterprise Edition</span><span class="sxs-lookup"><span data-stu-id="7e175-119">Enterprise Edition Back End</span></span></p></td>
+<td><p><span data-ttu-id="7e175-120"><a href="lync-server-2013-restoring-an-enterprise-edition-back-end-server.md">Restaurando um servidor back-end Enterprise Edition no Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="7e175-120"><a href="lync-server-2013-restoring-an-enterprise-edition-back-end-server.md">Restoring an Enterprise Edition Back End Server in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="dda94-121">Servidor primário de back-end do Enterprise Edition espelhado</span><span class="sxs-lookup"><span data-stu-id="dda94-121">Enterprise Edition Mirrored Back End Primary Server</span></span></p></td>
-<td><p><span data-ttu-id="dda94-122"><a href="lync-server-2013-restoring-a-mirrored-enterprise-edition-back-end-server-primary.md">Restaurando um servidor back-end Enterprise Edition espelhado no Lync Server 2013-principal</a></span><span class="sxs-lookup"><span data-stu-id="dda94-122"><a href="lync-server-2013-restoring-a-mirrored-enterprise-edition-back-end-server-primary.md">Restoring a mirrored Enterprise Edition Back End Server in Lync Server 2013 - primary</a></span></span></p></td>
+<td><p><span data-ttu-id="7e175-121">Servidor primário de back-end do Enterprise Edition espelhado</span><span class="sxs-lookup"><span data-stu-id="7e175-121">Enterprise Edition Mirrored Back End Primary Server</span></span></p></td>
+<td><p><span data-ttu-id="7e175-122"><a href="lync-server-2013-restoring-a-mirrored-enterprise-edition-back-end-server-primary.md">Restaurando um servidor back-end Enterprise Edition espelhado no Lync Server 2013-principal</a></span><span class="sxs-lookup"><span data-stu-id="7e175-122"><a href="lync-server-2013-restoring-a-mirrored-enterprise-edition-back-end-server-primary.md">Restoring a mirrored Enterprise Edition Back End Server in Lync Server 2013 - primary</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="dda94-123">Servidor secundário de back-end do Enterprise Edition espelhado</span><span class="sxs-lookup"><span data-stu-id="dda94-123">Enterprise Edition Mirrored Back End Secondary Server</span></span></p></td>
-<td><p><span data-ttu-id="dda94-124"><a href="lync-server-2013-restoring-a-mirrored-enterprise-edition-back-end-server-mirror.md">Restaurando um servidor back-end Enterprise Edition espelhado no Lync Server 2013-espelho</a></span><span class="sxs-lookup"><span data-stu-id="dda94-124"><a href="lync-server-2013-restoring-a-mirrored-enterprise-edition-back-end-server-mirror.md">Restoring a mirrored Enterprise Edition Back End Server in Lync Server 2013 - mirror</a></span></span></p></td>
+<td><p><span data-ttu-id="7e175-123">Servidor secundário de back-end do Enterprise Edition espelhado</span><span class="sxs-lookup"><span data-stu-id="7e175-123">Enterprise Edition Mirrored Back End Secondary Server</span></span></p></td>
+<td><p><span data-ttu-id="7e175-124"><a href="lync-server-2013-restoring-a-mirrored-enterprise-edition-back-end-server-mirror.md">Restaurando um servidor back-end Enterprise Edition espelhado no Lync Server 2013-espelho</a></span><span class="sxs-lookup"><span data-stu-id="7e175-124"><a href="lync-server-2013-restoring-a-mirrored-enterprise-edition-back-end-server-mirror.md">Restoring a mirrored Enterprise Edition Back End Server in Lync Server 2013 - mirror</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="dda94-125">Qualquer servidor Enterprise Edition executando uma função de servidor, como um servidor front-end, servidor de borda, diretor, servidor de mediação, ou servidor de chat persistente.</span><span class="sxs-lookup"><span data-stu-id="dda94-125">Any Enterprise Edition server running a server role, such as a Front End Server, Edge Server, Director, Mediation Server,.or Persistent Chat Server.</span></span></p></td>
-<td><p><span data-ttu-id="dda94-126"><a href="lync-server-2013-restoring-an-enterprise-edition-member-server.md">Restaurando um servidor membro Enterprise Edition no Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="dda94-126"><a href="lync-server-2013-restoring-an-enterprise-edition-member-server.md">Restoring an Enterprise Edition member server in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="7e175-125">Qualquer servidor Enterprise Edition executando uma função de servidor, como um servidor front-end, servidor de borda, diretor, servidor de mediação, ou servidor de chat persistente.</span><span class="sxs-lookup"><span data-stu-id="7e175-125">Any Enterprise Edition server running a server role, such as a Front End Server, Edge Server, Director, Mediation Server,.or Persistent Chat Server.</span></span></p></td>
+<td><p><span data-ttu-id="7e175-126"><a href="lync-server-2013-restoring-an-enterprise-edition-member-server.md">Restaurando um servidor membro Enterprise Edition no Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="7e175-126"><a href="lync-server-2013-restoring-an-enterprise-edition-member-server.md">Restoring an Enterprise Edition member server in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="dda94-127">Um pool completo do Lync Server</span><span class="sxs-lookup"><span data-stu-id="dda94-127">An entire Lync Server pool</span></span></p></td>
-<td><p><span data-ttu-id="dda94-128"><a href="lync-server-2013-restoring-a-lync-server-pool.md">Restaurando um pool do Lync Server no Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="dda94-128"><a href="lync-server-2013-restoring-a-lync-server-pool.md">Restoring a Lync Server pool in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="7e175-127">Um pool completo do Lync Server</span><span class="sxs-lookup"><span data-stu-id="7e175-127">An entire Lync Server pool</span></span></p></td>
+<td><p><span data-ttu-id="7e175-128"><a href="lync-server-2013-restoring-a-lync-server-pool.md">Restaurando um pool do Lync Server no Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="7e175-128"><a href="lync-server-2013-restoring-a-lync-server-pool.md">Restoring a Lync Server pool in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="dda94-129">Repositório de arquivos Enterprise Edition</span><span class="sxs-lookup"><span data-stu-id="dda94-129">Enterprise Edition File Store</span></span></p></td>
-<td><p><span data-ttu-id="dda94-130"><a href="lync-server-2013-restoring-a-file-store.md">Restaurando um repositório de arquivos no Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="dda94-130"><a href="lync-server-2013-restoring-a-file-store.md">Restoring a file store in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="7e175-129">Repositório de arquivos Enterprise Edition</span><span class="sxs-lookup"><span data-stu-id="7e175-129">Enterprise Edition File Store</span></span></p></td>
+<td><p><span data-ttu-id="7e175-130"><a href="lync-server-2013-restoring-a-file-store.md">Restaurando um repositório de arquivos no Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="7e175-130"><a href="lync-server-2013-restoring-a-file-store.md">Restoring a file store in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="dda94-131">Um banco de dados de monitoramento autônomo ou banco de dados de arquivamento</span><span class="sxs-lookup"><span data-stu-id="dda94-131">A standalone Monitoring database or Archiving database</span></span></p></td>
-<td><p><span data-ttu-id="dda94-132"><a href="lync-server-2013-restoring-monitoring-or-archiving-data.md">Restauração de dados de monitoramento ou arquivamento no Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="dda94-132"><a href="lync-server-2013-restoring-monitoring-or-archiving-data.md">Restoring monitoring or archiving data in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="7e175-131">Um banco de dados de monitoramento autônomo ou banco de dados de arquivamento</span><span class="sxs-lookup"><span data-stu-id="7e175-131">A standalone Monitoring database or Archiving database</span></span></p></td>
+<td><p><span data-ttu-id="7e175-132"><a href="lync-server-2013-restoring-monitoring-or-archiving-data.md">Restauração de dados de monitoramento ou arquivamento no Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="7e175-132"><a href="lync-server-2013-restoring-monitoring-or-archiving-data.md">Restoring monitoring or archiving data in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="dda94-133">Um banco de dados persistente de chat autônomo</span><span class="sxs-lookup"><span data-stu-id="dda94-133">A stand-alone Persistent Chat database</span></span></p></td>
-<td><p><span data-ttu-id="dda94-134"><a href="lync-server-2013-restoring-persistent-chat-data.md">Restaurando dados de chat persistente no Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="dda94-134"><a href="lync-server-2013-restoring-persistent-chat-data.md">Restoring Persistent Chat data in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="7e175-133">Um banco de dados persistente de chat autônomo</span><span class="sxs-lookup"><span data-stu-id="7e175-133">A stand-alone Persistent Chat database</span></span></p></td>
+<td><p><span data-ttu-id="7e175-134"><a href="lync-server-2013-restoring-persistent-chat-data.md">Restaurando dados de chat persistente no Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="7e175-134"><a href="lync-server-2013-restoring-persistent-chat-data.md">Restoring Persistent Chat data in Lync Server 2013</a></span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -111,88 +111,88 @@ ms.locfileid: "42152385"
 
 <div>
 
-## <a name="gathering-hardware-software-and-tools"></a><span data-ttu-id="dda94-135">Coletando hardware, software e ferramentas</span><span class="sxs-lookup"><span data-stu-id="dda94-135">Gathering Hardware, Software, and Tools</span></span>
+## <a name="gathering-hardware-software-and-tools"></a><span data-ttu-id="7e175-135">Coletando hardware, software e ferramentas</span><span class="sxs-lookup"><span data-stu-id="7e175-135">Gathering Hardware, Software, and Tools</span></span>
 
-<span data-ttu-id="dda94-136">Quando você restaurar um servidor, será necessário iniciar com um computador novo ou limpo.</span><span class="sxs-lookup"><span data-stu-id="dda94-136">When you restore a server, you need to start with a new or clean computer.</span></span> <span data-ttu-id="dda94-137">Além disso, você deve ter os seguintes hardwares e softwares disponíveis:</span><span class="sxs-lookup"><span data-stu-id="dda94-137">Additionally, you must have the following hardware and software available:</span></span>
+<span data-ttu-id="7e175-136">Quando você restaurar um servidor, será necessário iniciar com um computador novo ou limpo.</span><span class="sxs-lookup"><span data-stu-id="7e175-136">When you restore a server, you need to start with a new or clean computer.</span></span> <span data-ttu-id="7e175-137">Além disso, você deve ter os seguintes hardwares e softwares disponíveis:</span><span class="sxs-lookup"><span data-stu-id="7e175-137">Additionally, you must have the following hardware and software available:</span></span>
 
-  - <span data-ttu-id="dda94-138">Um servidor novo ou limpo com o mesmoFQDN (nome de domínio totalmente qualificado) do servidor que falhou.</span><span class="sxs-lookup"><span data-stu-id="dda94-138">A clean or new server with the same fully qualified domain name (FQDN) as the server that failed.</span></span>
+  - <span data-ttu-id="7e175-138">Um servidor novo ou limpo com o mesmoFQDN (nome de domínio totalmente qualificado) do servidor que falhou.</span><span class="sxs-lookup"><span data-stu-id="7e175-138">A clean or new server with the same fully qualified domain name (FQDN) as the server that failed.</span></span>
     
     <div>
     
 
     > [!IMPORTANT]  
-    > <span data-ttu-id="dda94-139">Ao instalar o sistema operacional, certifique-se de não excluir a conta de computador nos serviços de domínio do Active Directory e se as permissões de grupo da conta são mantidas.</span><span class="sxs-lookup"><span data-stu-id="dda94-139">When you install the operating system, make sure that you do not delete the computer account in Active Directory Domain Services, and verify that the group permissions for the account are retained.</span></span>
+    > <span data-ttu-id="7e175-139">Ao instalar o sistema operacional, certifique-se de não excluir a conta de computador nos serviços de domínio do Active Directory e se as permissões de grupo da conta são mantidas.</span><span class="sxs-lookup"><span data-stu-id="7e175-139">When you install the operating system, make sure that you do not delete the computer account in Active Directory Domain Services, and verify that the group permissions for the account are retained.</span></span>
 
     
     </div>
 
-  - <span data-ttu-id="dda94-140">Software de instalação para o sistema operacional.</span><span class="sxs-lookup"><span data-stu-id="dda94-140">Installation software for the operating system.</span></span> <span data-ttu-id="dda94-141">Para instalar o sistema operacional, use as configurações de implantação do servidor e procedimentos estabelecidos pela organização.</span><span class="sxs-lookup"><span data-stu-id="dda94-141">To install the operating system, use the server deployment procedures and configurations established by your organization.</span></span> <span data-ttu-id="dda94-142">Você deve ter esses procedimentos e requisitos de configuração disponíveis ao restaurar o serviço.</span><span class="sxs-lookup"><span data-stu-id="dda94-142">You should have these procedures and configuration requirements available when you restore service.</span></span>
+  - <span data-ttu-id="7e175-140">Software de instalação para o sistema operacional.</span><span class="sxs-lookup"><span data-stu-id="7e175-140">Installation software for the operating system.</span></span> <span data-ttu-id="7e175-141">Para instalar o sistema operacional, use as configurações de implantação do servidor e procedimentos estabelecidos pela organização.</span><span class="sxs-lookup"><span data-stu-id="7e175-141">To install the operating system, use the server deployment procedures and configurations established by your organization.</span></span> <span data-ttu-id="7e175-142">Você deve ter esses procedimentos e requisitos de configuração disponíveis ao restaurar o serviço.</span><span class="sxs-lookup"><span data-stu-id="7e175-142">You should have these procedures and configuration requirements available when you restore service.</span></span>
 
-  - <span data-ttu-id="dda94-143">Software de instalação do SQL Server 2012 ou SQL Server 2008 R2.</span><span class="sxs-lookup"><span data-stu-id="dda94-143">Installation software for SQL Server 2012 or SQL Server 2008 R2.</span></span> <span data-ttu-id="dda94-144">Para instalar um servidor de banco de dados, use a versão adequada do SQL Server e os procedimentos de implantação do servidor de banco de dados e configurações estabelecidos pela sua organização.</span><span class="sxs-lookup"><span data-stu-id="dda94-144">To install a database server, use the appropriate version of SQL Server and the database server deployment procedures and configurations established by your organization.</span></span> <span data-ttu-id="dda94-145">Você deve ter esses procedimentos e requisitos de configuração disponíveis ao restaurar o serviço.</span><span class="sxs-lookup"><span data-stu-id="dda94-145">You should have these procedures and configuration requirements available when you restore service.</span></span>
+  - <span data-ttu-id="7e175-143">Software de instalação do SQL Server 2012 ou SQL Server 2008 R2.</span><span class="sxs-lookup"><span data-stu-id="7e175-143">Installation software for SQL Server 2012 or SQL Server 2008 R2.</span></span> <span data-ttu-id="7e175-144">Para instalar um servidor de banco de dados, use a versão adequada do SQL Server e os procedimentos de implantação do servidor de banco de dados e configurações estabelecidos pela sua organização.</span><span class="sxs-lookup"><span data-stu-id="7e175-144">To install a database server, use the appropriate version of SQL Server and the database server deployment procedures and configurations established by your organization.</span></span> <span data-ttu-id="7e175-145">Você deve ter esses procedimentos e requisitos de configuração disponíveis ao restaurar o serviço.</span><span class="sxs-lookup"><span data-stu-id="7e175-145">You should have these procedures and configuration requirements available when you restore service.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="dda94-146">O assistente de implantação do Lync Server instala automaticamente o SQL Server 2012 Express em cada servidor Standard Edition e em qualquer outro servidor do Lync Server quando um repositório de configuração local é instalado, a menos que você tenha pré-instalado o SQL Server 2012 ou o SQL Server 2008 R2 no o servidor.</span><span class="sxs-lookup"><span data-stu-id="dda94-146">The Lync Server Deployment Wizard automatically installs SQL Server 2012 Express on each Standard Edition server and on any other Lync Server server when a local configuration store is installed, unless you have preinstalled SQL Server 2012 or SQL Server 2008 R2 on the server.</span></span>
+    > <span data-ttu-id="7e175-146">O assistente de implantação do Lync Server instala automaticamente o SQL Server 2012 Express em cada servidor Standard Edition e em qualquer outro servidor do Lync Server quando um repositório de configuração local é instalado, a menos que você tenha pré-instalado o SQL Server 2012 ou o SQL Server 2008 R2 no o servidor.</span><span class="sxs-lookup"><span data-stu-id="7e175-146">The Lync Server Deployment Wizard automatically installs SQL Server 2012 Express on each Standard Edition server and on any other Lync Server server when a local configuration store is installed, unless you have preinstalled SQL Server 2012 or SQL Server 2008 R2 on the server.</span></span>
 
     
     </div>
 
-  - <span data-ttu-id="dda94-147">Software para fazer imagens de sistema.</span><span class="sxs-lookup"><span data-stu-id="dda94-147">Software for taking system images.</span></span>
+  - <span data-ttu-id="7e175-147">Software para fazer imagens de sistema.</span><span class="sxs-lookup"><span data-stu-id="7e175-147">Software for taking system images.</span></span>
     
     <div>
     
 
     > [!TIP]  
-    > <span data-ttu-id="dda94-148">Recomendamos que você faça uma cópia de imagem do sistema depois de instalar o sistema operacional e o SQL Server e antes de iniciar a restauração, para que você possa usá-la como um ponto de reversão caso algo dê errado durante a restauração.</span><span class="sxs-lookup"><span data-stu-id="dda94-148">We recommend that you take an image copy of the system after you install the operating system and SQL Server, and before you start restoration, so that you can use this image as a rollback point in case something goes wrong during restoration.</span></span>
+    > <span data-ttu-id="7e175-148">Recomendamos que você faça uma cópia de imagem do sistema depois de instalar o sistema operacional e o SQL Server e antes de iniciar a restauração, para que você possa usá-la como um ponto de reversão caso algo dê errado durante a restauração.</span><span class="sxs-lookup"><span data-stu-id="7e175-148">We recommend that you take an image copy of the system after you install the operating system and SQL Server, and before you start restoration, so that you can use this image as a rollback point in case something goes wrong during restoration.</span></span>
 
     
     </div>
 
-  - <span data-ttu-id="dda94-149">Software de instalação do Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="dda94-149">Lync Server 2013 installation software.</span></span> <span data-ttu-id="dda94-150">O assistente de implantação do Lync Server está localizado na pasta de instalação do Lync Server \\ou\\na\\mídia no arquivo de instalação amd64. exe.</span><span class="sxs-lookup"><span data-stu-id="dda94-150">The Lync Server Deployment Wizard is located in the Lync Server installation folder or media at \\setup\\amd64\\Setup.exe.</span></span>
+  - <span data-ttu-id="7e175-149">Software de instalação do Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="7e175-149">Lync Server 2013 installation software.</span></span> <span data-ttu-id="7e175-150">O assistente de implantação do Lync Server está localizado na pasta de instalação do Lync Server \\ou\\na\\mídia no arquivo de instalação amd64. exe.</span><span class="sxs-lookup"><span data-stu-id="7e175-150">The Lync Server Deployment Wizard is located in the Lync Server installation folder or media at \\setup\\amd64\\Setup.exe.</span></span>
 
-<span data-ttu-id="dda94-151">Durante a restauração, você pode usar as seguintes ferramentas:</span><span class="sxs-lookup"><span data-stu-id="dda94-151">During restoration, you use the following tools:</span></span>
+<span data-ttu-id="7e175-151">Durante a restauração, você pode usar as seguintes ferramentas:</span><span class="sxs-lookup"><span data-stu-id="7e175-151">During restoration, you use the following tools:</span></span>
 
-  - <span data-ttu-id="dda94-152">Cmdlets do Shell de gerenciamento do Lync Server</span><span class="sxs-lookup"><span data-stu-id="dda94-152">Lync Server Management Shell cmdlets</span></span>
+  - <span data-ttu-id="7e175-152">Cmdlets do Shell de gerenciamento do Lync Server</span><span class="sxs-lookup"><span data-stu-id="7e175-152">Lync Server Management Shell cmdlets</span></span>
 
-  - <span data-ttu-id="dda94-153">Import-CsUserData</span><span class="sxs-lookup"><span data-stu-id="dda94-153">Import-CsUserData</span></span>
+  - <span data-ttu-id="7e175-153">Import-CsUserData</span><span class="sxs-lookup"><span data-stu-id="7e175-153">Import-CsUserData</span></span>
 
-  - <span data-ttu-id="dda94-154">Ferramentas para restaurar as pastas do Windows</span><span class="sxs-lookup"><span data-stu-id="dda94-154">Tools for restoring Windows folders</span></span>
+  - <span data-ttu-id="7e175-154">Ferramentas para restaurar as pastas do Windows</span><span class="sxs-lookup"><span data-stu-id="7e175-154">Tools for restoring Windows folders</span></span>
 
-  - <span data-ttu-id="dda94-155">Construtor de Topologias</span><span class="sxs-lookup"><span data-stu-id="dda94-155">Topology Builder</span></span>
+  - <span data-ttu-id="7e175-155">Construtor de Topologias</span><span class="sxs-lookup"><span data-stu-id="7e175-155">Topology Builder</span></span>
 
-  - <span data-ttu-id="dda94-156">Utilitários de banco de dados de SQL Server, como o SQL Server Management Studio</span><span class="sxs-lookup"><span data-stu-id="dda94-156">SQL Server database utilities, such as SQL Server Management Studio</span></span>
+  - <span data-ttu-id="7e175-156">Utilitários de banco de dados de SQL Server, como o SQL Server Management Studio</span><span class="sxs-lookup"><span data-stu-id="7e175-156">SQL Server database utilities, such as SQL Server Management Studio</span></span>
 
 </div>
 
 <div>
 
-## <a name="preparing-to-restore-a-server"></a><span data-ttu-id="dda94-157">Preparação para restaurar um servidor</span><span class="sxs-lookup"><span data-stu-id="dda94-157">Preparing to Restore a Server</span></span>
+## <a name="preparing-to-restore-a-server"></a><span data-ttu-id="7e175-157">Preparação para restaurar um servidor</span><span class="sxs-lookup"><span data-stu-id="7e175-157">Preparing to Restore a Server</span></span>
 
-<span data-ttu-id="dda94-158">Antes de restaurar o servidor, você deve executar as seguintes etapas:</span><span class="sxs-lookup"><span data-stu-id="dda94-158">Before you restore the server, you must perform the following steps:</span></span>
+<span data-ttu-id="7e175-158">Antes de restaurar o servidor, você deve executar as seguintes etapas:</span><span class="sxs-lookup"><span data-stu-id="7e175-158">Before you restore the server, you must perform the following steps:</span></span>
 
-1.  <span data-ttu-id="dda94-159">Instale o sistema operacional.</span><span class="sxs-lookup"><span data-stu-id="dda94-159">Install the operating system.</span></span>
+1.  <span data-ttu-id="7e175-159">Instale o sistema operacional.</span><span class="sxs-lookup"><span data-stu-id="7e175-159">Install the operating system.</span></span>
 
-2.  <span data-ttu-id="dda94-160">Se o servidor for um servidor back-end, instale o SQL Server 2012 ou o SQL Server 2008 R2.</span><span class="sxs-lookup"><span data-stu-id="dda94-160">If the server is a Back End Server, install SQL Server 2012 or SQL Server 2008 R2.</span></span>
+2.  <span data-ttu-id="7e175-160">Se o servidor for um servidor back-end, instale o SQL Server 2012 ou o SQL Server 2008 R2.</span><span class="sxs-lookup"><span data-stu-id="7e175-160">If the server is a Back End Server, install SQL Server 2012 or SQL Server 2008 R2.</span></span>
 
-3.  <span data-ttu-id="dda94-161">Restaure ou registre novamente os certificados.</span><span class="sxs-lookup"><span data-stu-id="dda94-161">Restore or reenroll your certificates.</span></span> <span data-ttu-id="dda94-162">Para obter detalhes sobre certificados, consulte "requisitos adicionais de backup" em [requisitos de backup e restauração no Lync Server 2013: data](lync-server-2013-backup-and-restoration-requirements-data.md).</span><span class="sxs-lookup"><span data-stu-id="dda94-162">For details about certificates, see "Additional Backup Requirements" in [Backup and restoration requirements in Lync Server 2013: data](lync-server-2013-backup-and-restoration-requirements-data.md).</span></span>
+3.  <span data-ttu-id="7e175-161">Restaure ou registre novamente os certificados.</span><span class="sxs-lookup"><span data-stu-id="7e175-161">Restore or reenroll your certificates.</span></span> <span data-ttu-id="7e175-162">Para obter detalhes sobre certificados, consulte "requisitos adicionais de backup" em [requisitos de backup e restauração no Lync Server 2013: data](lync-server-2013-backup-and-restoration-requirements-data.md).</span><span class="sxs-lookup"><span data-stu-id="7e175-162">For details about certificates, see "Additional Backup Requirements" in [Backup and restoration requirements in Lync Server 2013: data](lync-server-2013-backup-and-restoration-requirements-data.md).</span></span>
 
-4.  <span data-ttu-id="dda94-163">Tire uma imagem do sistema antes de iniciar a restauração para usar como um ponto de reversão, caso algo dê errado durante a restauração.</span><span class="sxs-lookup"><span data-stu-id="dda94-163">Take an image of the system before starting restoration to use as a rollback point, in case something goes wrong during restoration.</span></span>
+4.  <span data-ttu-id="7e175-163">Tire uma imagem do sistema antes de iniciar a restauração para usar como um ponto de reversão, caso algo dê errado durante a restauração.</span><span class="sxs-lookup"><span data-stu-id="7e175-163">Take an image of the system before starting restoration to use as a rollback point, in case something goes wrong during restoration.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="dda94-164">O assistente de implantação do Lync Server e os cmdlets descritos nos procedimentos deste tópico e tópicos relacionados, define todas as listas de controle de acesso (ACLs) necessárias.</span><span class="sxs-lookup"><span data-stu-id="dda94-164">The Lync Server Deployment Wizard and cmdlets described in the procedures in this topic, and related topics, set all required access control lists (ACLs).</span></span>
+> <span data-ttu-id="7e175-164">O assistente de implantação do Lync Server e os cmdlets descritos nos procedimentos deste tópico e tópicos relacionados, define todas as listas de controle de acesso (ACLs) necessárias.</span><span class="sxs-lookup"><span data-stu-id="7e175-164">The Lync Server Deployment Wizard and cmdlets described in the procedures in this topic, and related topics, set all required access control lists (ACLs).</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="dda94-165">Verifique se o hardware e o software necessários para os componentes que você planeja restaurar estão disponíveis antes de iniciar a restauração.</span><span class="sxs-lookup"><span data-stu-id="dda94-165">Verify that the hardware and the software that you need for the components that you plan to restore are available before you start restoration.</span></span> <span data-ttu-id="dda94-166">Depois de instalar o sistema operacional e o SQL Server, a maioria das etapas nos procedimentos de restauração a seguir pode ser executada remotamente.</span><span class="sxs-lookup"><span data-stu-id="dda94-166">After you install the operating system and SQL Server, most of the steps in the following restoration procedures can be run remotely.</span></span> <span data-ttu-id="dda94-167">As exceções estão indicadas nos procedimentos.</span><span class="sxs-lookup"><span data-stu-id="dda94-167">The exceptions are noted in the procedures.</span></span>
+<span data-ttu-id="7e175-165">Verifique se o hardware e o software necessários para os componentes que você planeja restaurar estão disponíveis antes de iniciar a restauração.</span><span class="sxs-lookup"><span data-stu-id="7e175-165">Verify that the hardware and the software that you need for the components that you plan to restore are available before you start restoration.</span></span> <span data-ttu-id="7e175-166">Depois de instalar o sistema operacional e o SQL Server, a maioria das etapas nos procedimentos de restauração a seguir pode ser executada remotamente.</span><span class="sxs-lookup"><span data-stu-id="7e175-166">After you install the operating system and SQL Server, most of the steps in the following restoration procedures can be run remotely.</span></span> <span data-ttu-id="7e175-167">As exceções estão indicadas nos procedimentos.</span><span class="sxs-lookup"><span data-stu-id="7e175-167">The exceptions are noted in the procedures.</span></span>
 
-<span data-ttu-id="dda94-168">Você também deve ter o plano de backup e restauração da sua organização e as informações do seu último backup, como as informações nas planilhas deste documento (para obter detalhes, consulte [planilhas de backup e restauração para o Lync Server 2013](lync-server-2013-backup-and-restoration-worksheets.md)), disponível antes de iniciar a restauração.</span><span class="sxs-lookup"><span data-stu-id="dda94-168">You should also have your organization's backup and restoration plan and the information from your last backup, such as the information in the worksheets in this document (for details, see [Backup and restoration worksheets for Lync Server 2013](lync-server-2013-backup-and-restoration-worksheets.md)), available before you begin restoration.</span></span>
+<span data-ttu-id="7e175-168">Você também deve ter o plano de backup e restauração da sua organização e as informações do seu último backup, como as informações nas planilhas deste documento (para obter detalhes, consulte [planilhas de backup e restauração para o Lync Server 2013](lync-server-2013-backup-and-restoration-worksheets.md)), disponível antes de iniciar a restauração.</span><span class="sxs-lookup"><span data-stu-id="7e175-168">You should also have your organization's backup and restoration plan and the information from your last backup, such as the information in the worksheets in this document (for details, see [Backup and restoration worksheets for Lync Server 2013](lync-server-2013-backup-and-restoration-worksheets.md)), available before you begin restoration.</span></span>
 
 </div>
 
