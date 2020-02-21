@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: b1c341f1-86fa-479d-ba4d-28df5a4c1622
 description: Este tópico descreve as ferramentas no kit de recursos do Skype for Business Server 2015, incluindo a finalidade de cada ferramenta e exemplos de uso. O kit de recursos do Skype for Business Server 2015 ajuda a tornar as tarefas rotineiras mais fáceis para os administradores de ti que implantam e gerenciam o Skype for Business Server 2015. Por exemplo, a ferramenta Web conf data pode ser usada para controlar facilmente os dados que são carregados pelos usuários durante uma reunião online. A ferramenta SEFAUtil pode ser usada para configurar o encaminhamento de chamadas de representante e a resposta para usuários. Incentivamos os administradores de ti a usar essas ferramentas para gerenciar o Skype for Business Server 2015 com mais eficiência.
-ms.openlocfilehash: ab43d8e951308fab5a4aefc25d9dad2804ea5d0e
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 7269d7c82736be8e533a0782548a94d14aafcfb5
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42005986"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42160765"
 ---
 # <a name="skype-for-business-server-2015-resource-kit-tools-documentation"></a>Documentação das ferramentas do kit de recursos do Skype for Business Server 2015
 
@@ -1113,7 +1113,7 @@ Call Forward No Answer to: voicemail
 Este exemplo define o destino de chamada de encaminhamento/sem resposta e o atraso de anel. Aqui, a opção/Server não é fornecida; O SEFAUtil tenta descobrir a descoberta automática do Skype for Business Server 2015.
 
 ```console
-SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /enablefwdnoanswer /callanswerwaittime:30 /setfwddestination:+1425555 0126@contoso.com;user=phone
+SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /enablefwdnoanswer /callanswerwaittime:30 /setfwddestination:+14255550126@contoso.com;user=phone
 ```
 
  **Output**
@@ -1150,7 +1150,7 @@ Forward immediate to: sip:anders@contoso.com
 Este exemplo desabilita imediatamente o encaminhamento de chamadas.
 
 ```console
-SEFAUtil.exe /server:SfBserver.contoso.com katarina@contoso.com  /disablefwdimmediate
+SEFAUtil.exe /server:SfBserver.contoso.com katarina@contoso.com /disablefwdimmediate
 ```
 
  **Output**
@@ -1381,7 +1381,7 @@ SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /enablegroup
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
-Group Pickup Orbit: sip:199;phone-context=user-default@ contoso.com;user=phone
+Group Pickup Orbit: sip:199;phone-context=user-default@contoso.com;user=phone
 ```
 
 #### <a name="disable-group-call-pickup"></a>Desabilitar o recebimento de chamadas em grupo

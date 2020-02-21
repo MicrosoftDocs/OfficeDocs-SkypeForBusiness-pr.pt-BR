@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba como levar seus aplicativos personalizados do teams do desenvolvimento para a implantação.
-ms.openlocfilehash: 3369371de34cd1346e81be8ea57bb3f5675864c5
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 070b0ecbf0ccc9af798e1d3a3c689ce4d4ff4da2
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837501"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42161792"
 ---
 # <a name="manage-your-line-of-business-apps-in-microsoft-teams"></a>Gerenciar seus aplicativos de linha de negócios no Microsoft Teams
 
@@ -49,11 +49,11 @@ Para dar aos desenvolvedores o acesso necessário para o teste, permita que todo
 
 Para permitir que os usuários carreguem aplicativos personalizados, siga estas etapas:
 
-1. Ative a configuração **permitir interação com aplicativos personalizados** de toda a organização. Para fazer isso:
-    1. Na navegação à esquerda do <a href="https://admin.teams.microsoft.com/" target="_blank">centro de administração do Microsoft Teams</a>, vá para**políticas de permissão**de **aplicativos** > do Teams e clique em **configurações de toda a organização**.
+1. Ative a configuração **permitir interação com aplicativos personalizados** do aplicativo de toda a organização. Para fazer isso:
+    1. Na navegação à esquerda do <a href="https://admin.teams.microsoft.com/" target="_blank">centro de administração do Microsoft Teams</a>, vá até **Team apps** > **gerenciar aplicativos**e clique em **configurações de aplicativo de toda a organização**.
     2. Em **aplicativos personalizados**, ative **permitir interação com aplicativos personalizados**e, em seguida, clique em **salvar**.
 
-    ![Captura de tela da configuração de "permitir interação com aplicativos personalizados" para toda a organização](media/manage-your-lob-apps-org-wide-custom-apps.png)
+    ![Captura de tela da configuração "permitir interação com aplicativos personalizados" do aplicativo em toda a organização](media/manage-your-lob-apps-org-wide-custom-apps.png)
 
 2. Ative a configuração **carregar aplicativos personalizados** na política de configuração do aplicativo global. Para fazer isso:
     1. Na navegação à esquerda do <a href="https://admin.teams.microsoft.com/" target="_blank">centro de administração do Microsoft Teams</a>, vá para**políticas de configuração**de aplicativos > do **Teams**e clique na política **global (padrão para toda a organização)** .
@@ -81,12 +81,12 @@ A Microsoft usa <a href="https://docs.microsoft.com/microsoftteams/platform/publ
 Para validar que o aplicativo está funcionando corretamente no seu locatário de produção, você precisa permitir que os usuários de si mesmo e/ou confiáveis em sua organização carreguem aplicativos personalizados.  Assim como na <a href="https://docs.microsoft.com/microsoftteams/manage-your-lob-apps#allow-custom-apps-in-the-test-tenant" target="_blank">etapa</a>anterior, você usa políticas de configuração do aplicativo para fazer isso.
 
 > [!NOTE]
-> Se você não se sentir à vontade para fazer o upload do aplicativo em seu locatário de produção para validação, mesmo para usuários confiáveis ou para usuários confiáveis, pode ignorar esta etapa e seguir as etapas 3 e 4 para carregar o aplicativo não validado para a loja de aplicativos do locatário. Em seguida, restrinja o acesso a esse aplicativo apenas para você e os usuários confiáveis. Esses usuários podem, então, obter o aplicativo a partir da loja de aplicativos do locatário para executar a validação. Depois que o aplicativo for validado, use as mesmas políticas de permissão para abrir o Access e faça o lançamento do aplicativo para uso em produção.
+> Se você não se sentir à vontade para fazer o upload do aplicativo em seu locatário de produção para validação, mesmo para usuários confiáveis ou para usuários confiáveis, pode ignorar esta etapa e seguir as etapas 3 e 4 para carregar o aplicativo não validado na sua loja de aplicativos locatário. Em seguida, restrinja o acesso a esse aplicativo apenas para você e os usuários confiáveis. Esses usuários podem obter o aplicativo a partir da App Store do locatário para executar a validação. Depois que o aplicativo for validado, use as mesmas políticas de permissão para abrir o Access e faça o lançamento do aplicativo para uso em produção.
 
 Para permitir que usuários confiáveis carreguem aplicativos personalizados, siga estas etapas:
 
-1. Ative a configuração **permitir interação com aplicativos personalizados** de toda a organização. Para fazer isso:
-    1. Na navegação à esquerda do <a href="https://admin.teams.microsoft.com/" target="_blank">centro de administração do Microsoft Teams</a>, vá para**políticas de permissão**de **aplicativos** > do Teams e clique em **configurações de toda a organização**.
+1. Ative a configuração **permitir interação com aplicativos personalizados** do aplicativo de toda a organização. Para fazer isso:
+    1. Na navegação à esquerda do <a href="https://admin.teams.microsoft.com/" target="_blank">centro de administração do Microsoft Teams</a>, vá até **Team apps** > **gerenciar aplicativos**e clique em **configurações de aplicativo de toda a organização**.
     2. Em **aplicativos personalizados**, ative **permitir interação com aplicativos personalizados**e, em seguida, clique em **salvar**.
 2. Desative a configuração **carregar aplicativos personalizados** na política de configuração do aplicativo global. Para fazer isso:
     1. Na navegação à esquerda do <a href="https://admin.teams.microsoft.com/" target="_blank">centro de administração do Microsoft Teams</a>, vá para**políticas de configuração**de aplicativos > do **Teams**e clique na política **global (padrão para toda a organização)** .
@@ -99,11 +99,17 @@ Para permitir que usuários confiáveis carreguem aplicativos personalizados, si
 
     Esses usuários agora podem carregar o manifesto do aplicativo para validar que o aplicativo está funcionando corretamente no locatário de produção.
 
-## <a name="step-3-upload-to-the-tenant-apps-catalog"></a>Etapa 3: carregar para o catálogo de aplicativos do locatário
+## <a name="step-3-upload-to-the-tenant-app-catalog"></a>Etapa 3: carregar para o catálogo de aplicativos do locatário
 
-Para disponibilizar o aplicativo para os usuários no repositório de aplicativos do locatário, carregue o aplicativo. Você pode fazer isso usando o cliente da área de trabalho do teams. Siga as etapas <a href="https://docs.microsoft.com/microsoftteams/tenant-apps-catalog-teams#go-to-the-tenant-apps-catalog" target="_blank">aqui</a>.
+Para disponibilizar o aplicativo para os usuários na App Store do locatário, carregue o aplicativo. Você pode fazer isso <a href="https://docs.microsoft.com/microsoftteams/tenant-apps-catalog-teams#go-to-the-tenant-apps-catalog" target="_blank">usando o cliente da área de trabalho do teams</a> ou na página [gerenciar aplicativos](manage-apps.md) do centro de administração do Microsoft Teams.
+
+Aqui está uma captura de tela da opção carregar no cliente da área de trabalho do teams.
 
 ![Captura de tela da página aplicativos](media/manage-your-lob-apps-store.png)
+
+Aqui está uma captura de tela da opção carregar na página **gerenciar aplicativos** no centro de administração do Microsoft Teams.
+
+![Captura de tela da página Gerenciar aplicativos no centro de administração](media/manage-your-lob-apps-upload-new-app.png)
 
 ## <a name="step-4-configure-and-assign-permissions"></a>Etapa 4: configurar e atribuir permissões
 
@@ -125,6 +131,6 @@ Por padrão, para os usuários encontrarem esse aplicativo, eles precisarão ir 
 
 Para atualizar um aplicativo, os desenvolvedores devem continuar a seguir a [etapa 1](#step-1-develop-and-test) e a [etapa 2](#step-2-validate-in-production).
 
-Você pode atualizar o aplicativo por meio do catálogo de aplicativos do locatário. Para fazer isso, no cliente da área de trabalho do Teams, vá para **aplicativos** > ** &lt;criados&gt;para o nome do locatário**, clique em **...** no canto superior direito do aplicativo e, em seguida, clique em **Atualizar**. Isso substitui o aplicativo existente no catálogo de aplicativos do locatário, e todas as políticas de permissão e políticas de configuração permanecem impostas para o aplicativo atualizado. 
+Você pode atualizar o aplicativo por meio do catálogo de aplicativos do locatário. Para fazer isso, no cliente da área de trabalho do Teams, vá para **aplicativos** > ** &lt;criados&gt;para o nome do locatário**, clique em **...** no canto superior direito do aplicativo e, em seguida, clique em **Atualizar**. Isso substitui o aplicativo existente no catálogo do aplicativo locatário, e todas as políticas de permissão e políticas de configuração permanecem impostas para o aplicativo atualizado. 
 
 ![Captura de tela da atualização de um aplicativo na página aplicativos](media/manage-your-lob-apps-update-app.png)

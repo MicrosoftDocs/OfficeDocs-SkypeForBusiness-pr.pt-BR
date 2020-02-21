@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 537f2a51076d93808089526d7b5be10faf5954b6
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: e3c44867b14a4b3bf83a45cf1dbbb37151c648a8
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837451"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42161586"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-high-deployments"></a>Plano para implantações altas do Microsoft 365 governo-GCC
 
@@ -79,6 +79,7 @@ Para acomodar os requisitos de nossos clientes de nuvem governamental, há algum
 | Polybase | Login | Disponível |
 | | Presença | Disponível |
 | | Presença unificada (Skype for Business e equipes unificadas) | Disponível |
+| | Cliente Linux | Na backlog do governo |
 | Atividades | Alimentação | Disponível |
 |  | Minha atividade | Disponível |
 | Chat | Conversa | Disponível |

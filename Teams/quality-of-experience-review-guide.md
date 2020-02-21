@@ -5,7 +5,7 @@ ms.author: lolaj
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.reviewer: siunies
+ms.reviewer: siunies, gageames
 audience: admin
 description: Guia para analisar o desempenho de mídia em tempo real do Microsoft Teams usando o painel de qualidade de chamada (CQD).
 localization_priority: Normal
@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6e11c7d479aeac6eef39fb38588a61c0c7be25a6
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+ms.openlocfilehash: 025bd70c79cdc0547f86514521fd1e565265d4f8
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41863392"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42160775"
 ---
 # <a name="quality-of-experience-review-guide"></a>Guia de revisão da experiência de qualidade
 
@@ -1314,3 +1314,4 @@ Para obter mais informações, consulte [Este artigo sobre qualidade de mídia e
 -   [Relatórios do Skype for Business Online](/SkypeForBusiness/skype-for-business-online-reporting/skype-for-business-online-reporting)
 
 -   [Relatórios do Microsoft Teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/New-usage-reports-for-Microsoft-Teams/ba-p/132614)
+ 

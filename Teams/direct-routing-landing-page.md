@@ -16,12 +16,12 @@ f1.keywords:
 description: Página de aterrissagem para roteamento direto
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d146c2188f57dbee3887dd2fd595c1b06a86c30e
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: d643c137145649c0843296300a909c520ba653a6
+ms.sourcegitcommit: 0289062510f0791906dab2791c5db8acb1cf849a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836061"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42157899"
 ---
 # <a name="phone-system-direct-routing"></a>Roteamento Direto do Sistema de Telefonia
 
@@ -51,7 +51,7 @@ Estas são as principais decisões a serem consideradas para o roteamento direto
 
 |Pergunte-se|Ação |
 | :------------|:-------|
-|Para quais usuários o roteamento direto será habilitado? | Para obter mais informações, consulte [habilitar usuários para o serviço de roteamento direto](direct-routing-configure.md#enable-users-for-direct-routing-service). |
+|Para quais usuários o roteamento direto será habilitado? | Para obter mais informações, consulte [habilitar usuários para o serviço de roteamento direto](direct-routing-configure.md). |
 Tenho as licenças necessárias para o roteamento direto? | Para obter mais informações, consulte [Licenciamento e outros requisitos](direct-routing-plan.md#licensing-and-other-requirements).
 |||
 
@@ -71,8 +71,8 @@ Você precisará configurar o sistema de telefonia para direcionar as chamadas p
 
 |Pergunte-se|Ação |
 |:------------|:-------|
-| Quais políticas de roteamento de voz, uso de PSTN e rotas de voz preciso criar? | Para obter informações de roteamento de voz, consulte [Configurar roteamento de voz](direct-routing-configure.md#configure-voice-routing).
-| Quais usuários serão atribuídos à política de roteamento de voz que eu defino? | Consulte os exemplos em [Configurar roteamento de voz](direct-routing-configure.md#configure-voice-routing). |
+| Quais políticas de roteamento de voz, uso de PSTN e rotas de voz preciso criar? | Para obter informações de roteamento de voz, consulte [Configurar roteamento de voz](direct-routing-configure.md).
+| Quais usuários serão atribuídos à política de roteamento de voz que eu defino? | Consulte os exemplos em [Configurar roteamento de voz](direct-routing-configure.md). |
 |||
 
 ### <a name="ensure-incoming-calls-land-in-the-teams-client-using-teamsupgradepolicy"></a>Garanta chamadas de entrada no cliente das equipes usando o TeamsUpgradePolicy

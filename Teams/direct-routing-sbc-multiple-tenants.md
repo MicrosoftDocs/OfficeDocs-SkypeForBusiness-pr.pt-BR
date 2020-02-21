@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Saiba como configurar um SBC (controlador de borda de sessão) para atender a vários locatários.
-ms.openlocfilehash: 7bd313c1b0c6d8078ee3ce80b2a08697dc6040e7
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: e0027df53edcec54cbeaef560182ffddc451ecbd
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837271"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42160725"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurar um controlador de borda da sessão para vários locatários
 
@@ -37,7 +37,7 @@ Uma operadora:
 - Gerencia a qualidade da chamada de ponta a ponta.
 - Cobranças separadamente para serviços PSTN.
 
-A Microsoft não gerencia operadoras. A Microsoft oferece um PBX (Microsoft Phone System) e um cliente do Teams, certifica telefones e certifica SBCs que podem ser usados com o sistema telefônico da Microsoft. Antes de escolher uma operadora, certifique-se de que sua escolha tem um SBC certificado e pode gerenciar a qualidade de voz de ponta a ponta.
+A Microsoft não gerencia operadoras. A Microsoft oferece um PBX (Microsoft Phone System) e um cliente do teams. A Microsoft também certifica telefones e certifica o SBCs que pode ser usado com o sistema telefônico da Microsoft. Antes de escolher uma operadora, certifique-se de que sua escolha tem um SBC certificado e pode gerenciar a qualidade de voz de ponta a ponta.
 
 Veja a seguir as etapas de implementação técnica para configurar o cenário.
 
@@ -215,7 +215,6 @@ No entanto, isso não provou ideal por dois motivos:
 
 -  **Processamento de sobrecarga**. Coletando e monitorando dados de integridade do tronco-opções SIP coletadas de vários troncos lógicos que são, na verdade, o mesmo SBC e o mesmo tronco físico, reduzem o processamento dos dados de roteamento.
  
-
 Com base nesses comentários, a Microsoft está trazendo uma nova lógica para provisionar os troncos para os locatários do cliente.
 
 Duas novas entidades foram introduzidas:
@@ -245,4 +244,22 @@ Incentivamos a migração para a nova solução o mais rápido possível, pois v
  
 
 Consulte as instruções do [fornecedor do SBC](#deploy-and-configure-the-sbc) sobre como configurar o envio do nome FQDN dos subdomínios no cabeçalho do contato.
+
+## <a name="considerations-for-setting-up-muti-tenant-failover"></a>Considerações para a configuração do failover do muti-locatário 
+
+Para configurar o failover para um ambiente de vários locatários, você precisará fazer o seguinte:
+
+- Para cada locatário, adicione os FQDNs para dois SBCs diferentes.  Por exemplo:
+
+   customer1.sbc1.contoso.com <br>
+   customer2.sbc2.contoso.com <br>
+
+- Nas políticas de roteamento de voz online dos usuários, especifique o SBCs.  Se um SBC falhar, a política de roteamento roteará chamadas para o segundo SBC.
+
+
+## <a name="see-also"></a>Confira também
+
+[Planejar o Roteamento Direto](direct-routing-plan.md)
+
+[Configurar o Roteamento Direto](direct-routing-configure.md)
 

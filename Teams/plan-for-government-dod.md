@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: be952d838135a03a873d7193118febf5639bd415
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 12d9350437867b04a181e62e8b23bb6ed78d8fbc
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836851"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42161732"
 ---
 # <a name="plan-for-microsoft-365-government---dod-deployments"></a>Plano para implantações do governo Microsoft 365-DoD
 
@@ -42,7 +42,7 @@ O ambiente Microsoft 365 governo-DoD fornece conformidade com os requisitos gove
 
 Você pode encontrar mais informações sobre o governo Microsoft 365 – ofertas do governo dos EUA para clientes do governo dos EUA em [planos do governo do Office 365](https://products.office.com/government/compare-office-365-government-plans), incluindo [requisitos de qualificação](https://products.office.com/government/compare-office-365-government-plans#EligibilityRequirements).
 
-A [Descrição do serviço governo dos EUA do Office 365](https://docs.microsoft.com/en-us/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) descreve as vantagens da plataforma, que são centralizadas em requisitos de conformidade de reunião nos Estados Unidos.
+A [Descrição do serviço governo dos EUA do Office 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) descreve as vantagens da plataforma, que são centralizadas em requisitos de conformidade de reunião nos Estados Unidos.
 
 
 > [!Tip]
@@ -79,6 +79,7 @@ Para acomodar os requisitos de nossos clientes de nuvem governamental, há algum
 | Polybase | Login | Disponível |
 | | Presença | Disponível |
 | | Presença unificada (Skype for Business e equipes unificadas) | Na backlog do governo |
+| | Cliente Linux | Na backlog do governo |
 | Atividades | Alimentação | Disponível |
 |  | Minha atividade | Disponível |
 | Chat | Conversa | Disponível |

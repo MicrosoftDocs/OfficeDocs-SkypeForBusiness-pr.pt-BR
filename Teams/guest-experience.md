@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 20fd9372c34fd189868aa32882115bee3f6c6f8f
-ms.sourcegitcommit: 346b58b5d5ea0d2ec68891275628dfde32c074fe
+ms.openlocfilehash: ed0ea94910e9b3b5499a1f23a6c1c081590957c7
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41977523"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42160565"
 ---
 <a name="what-the-guest-experience-is-like"></a>Como é a experiência do convidado
 =================================
@@ -41,22 +41,23 @@ A tabela a seguir compara a funcionalidade do teams disponível para os membros 
 
 |**Recurso no Teams**|**Usuário do Teams na organização**|**Convidado usuário**|
 |:-----|:-----|:-----|
-|Criar um canal  <br/>  *Os proprietário de equipes controlam essa configuração.*  <br/> |![Um ícone que representa uma marca de seleção ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![Um ícone que representa uma marca de seleção ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
-|Participar de um bate-papo privado  <br/> |![Um ícone que representa uma marca de seleção ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![Um ícone que representa uma marca de seleção ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
-|Participar de uma conversa de canal  <br/> |![Um ícone que representa uma marca de seleção ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![Um ícone que representa uma marca de seleção ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
-|Publicar, excluir e editar mensagens  <br/> |![Um ícone que representa uma marca de seleção ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![Um ícone que representa uma marca de seleção ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
-|Compartilhar um arquivo de canal  <br/> |![Um ícone que representa uma marca de seleção ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![Um ícone que representa uma marca de seleção ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
-|Compartilhar um arquivo de bate-papo  <br/> |![Um ícone que representa uma marca de seleção ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|Adicionar aplicativos (guias, bots ou conectores)  <br/> |![Um ícone que representa uma marca de seleção ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|Criar reuniões ou agendas do Access  <br/> |![Um ícone que representa uma marca de seleção ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|Acessar o armazenamento do OneDrive for Business  <br/> |![Um ícone que representa uma marca de seleção ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|Criar políticas de acesso de convidados de equipes/canais de todos os locatários  <br/> |![Um ícone que representa uma marca de seleção ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|Convidar um usuário de fora do domínio do locatário do Office 365 <br/>  *Os proprietário de equipes controlam essa configuração.*  <br/> <br/> |![Um ícone que representa uma marca de seleção ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|Criar uma equipe  <br/> |![Um ícone que representa uma marca de seleção ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|Descobrir e entrar em uma equipe pública  <br/> |![Um ícone que representa uma marca de seleção ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|Visualizar o organograma  <br/> |![Um ícone que representa uma marca de seleção ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|Usar a tradução embutida  <br/> |![Um ícone que representa uma marca de seleção ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|Tornar-se proprietário da equipe  <br/> |![Um ícone que representa uma marca de seleção ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|Criar um canal  <br/>  *Os proprietário de equipes controlam essa configuração.*  <br/> |&#x2713;|&#x2713;|
+|Participar de um bate-papo privado  <br/> |&#x2713;|&#x2713;|
+|Participar de uma conversa de canal  <br/> |&#x2713;|&#x2713;|
+|Publicar, excluir e editar mensagens  <br/> |&#x2713;|&#x2713;|
+|Compartilhar um arquivo de canal  <br/> |&#x2713;|&#x2713;|
+|Compartilhar um arquivo de bate-papo  <br/> |&#x2713;||
+|Adicionar aplicativos (guias, bots ou conectores)  <br/> |&#x2713;||
+|Criar reuniões ou agendas do Access  <br/> |&#x2713;||
+|Acessar o armazenamento do OneDrive for Business  <br/> |&#x2713;||
+|Criar políticas de acesso de convidados de equipes/canais de todos os locatários  <br/> |&#x2713;||
+|Convidar um usuário de fora do domínio do locatário do Office 365 <br/>  *Os proprietário de equipes controlam essa configuração.*  <br/> <br/> |&#x2713;||
+|Criar uma equipe  <br/> |&#x2713;||
+|Descobrir e entrar em uma equipe pública  <br/> |&#x2713;||
+|Visualizar o organograma  <br/> |&#x2713;||
+|Usar a tradução embutida  <br/> |&#x2713;||
+|Tornar-se proprietário da equipe  <br/> |&#x2713;||
+
    
 A tabela a seguir mostra os recursos de chamada e reunião disponíveis para convidados, em comparação com outros tipos de usuários.
 

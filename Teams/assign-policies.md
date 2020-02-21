@@ -16,17 +16,17 @@ localization_priority: Normal
 search.appverid: MET150
 description: Aprenda as diferentes maneiras de atribuir políticas a seus usuários no Microsoft Teams.
 f1keywords: ''
-ms.openlocfilehash: a4d50f6182441e97f5d7290610e254bd82e91e96
-ms.sourcegitcommit: c8d16d5e61d66d7b5e7391a800978b920612ea4d
+ms.openlocfilehash: cb1c5fd43379388327de5e517409f01f7f52ed1b
+ms.sourcegitcommit: d7be89019dd5a3b88b0840bddf1b88fea8598ea7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42052529"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42170757"
 ---
 # <a name="assign-policies-to-your-users-in-microsoft-teams"></a>Atribuir políticas a seus usuários no Microsoft Teams
 
 > [!NOTE]
-> **Dois dos recursos do Microsoft Teams discutidos neste artigo, [atribuição de política em lotes](#assign-a-policy-to-a-batch-of-users) e [atribuição de política de grupo](#assign-a-policy-to-a-group)estão atualmente em visualização.**
+> **Dois dos recursos do Microsoft Teams discutidos neste artigo, [atribuição de política em lotes](#assign-a-policy-to-a-batch-of-users) e [atribuição de política a grupos](#assign-a-policy-to-a-group), estão atualmente em visualização.**
 
 Como administrador, você usa políticas para controlar os recursos do teams que estão disponíveis para os usuários da sua organização. Por exemplo, há políticas de chamada, políticas de reunião e políticas de mensagens, para citar apenas alguns.
 
@@ -213,18 +213,18 @@ Para saber mais, consulte [Get-CsBatchPolicyAssignmentOperation](https://docs.mi
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-A atribuição de política de grupo permite atribuir uma política a um grupo de usuários, como um grupo de segurança ou unidade organizacional. A atribuição de política é propagada para os membros do grupo de acordo com as regras de precedência. Conforme os membros são adicionados ou removidos de um grupo, suas atribuições de política herdadas são atualizadas de acordo.
+A atribuição de política a grupos permite atribuir uma política a um grupo de usuários, como um grupo de segurança ou unidade organizacional. A atribuição de política é propagada para os membros do grupo de acordo com as regras de precedência. Conforme os membros são adicionados ou removidos de um grupo, suas atribuições de política herdadas são atualizadas de acordo.
 
 Use o ```New-CsGroupPolicyAssignment``` cmdlet para atribuir uma política a um grupo. Você pode especificar um grupo usando a identificação do objeto, o endereço SIP ou o endereço de email.
 
 Quando você atribui a política, ela é imediatamente atribuída ao grupo. No entanto, observe que a propagação da atribuição da política para os membros do grupo é realizada como uma operação em segundo plano e pode demorar algum tempo, dependendo do tamanho do grupo. O mesmo é verdadeiro quando uma política é desatribuída de um grupo ou quando os membros são adicionados ou removidos de um grupo.
 
 > [!NOTE]
-> No momento, a atribuição de política de grupo não está disponível para todos os tipos de política de equipe. Consulte [New-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/new-csgrouppolicyassignment) para obter a lista de tipos de política com suporte.
+> No momento, a atribuição de política a grupos não está disponível para todos os tipos de política de equipe. Consulte [New-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/new-csgrouppolicyassignment) para obter a lista de tipos de política com suporte.
 
-### <a name="what-you-need-to-know-about-group-policy-assignment"></a>O que você precisa saber sobre a atribuição de política de grupo
+### <a name="what-you-need-to-know-about-policy-assignment-to-groups"></a>O que você precisa saber sobre atribuição de política a grupos
 
-Antes de começar, é importante entender as regras de precedência e a classificação da atribuição da política de grupo.
+Antes de começar, é importante entender as regras de precedência e a classificação de atribuição de grupo.
 
 #### <a name="precedence-rules"></a>Regras de precedência
 
@@ -240,7 +240,7 @@ A política efetiva de um usuário é atualizada de acordo com essas regras quan
  
 Ao atribuir uma política a um grupo, você especifica uma classificação para a atribuição de grupo. Isso é usado para determinar qual política um usuário deve herdar como política efetiva se o usuário for membro de dois ou mais grupos e cada grupo tiver atribuído uma política do mesmo tipo.
 
-A classificação da atribuição de grupo é relativa a outras atribuições de política de grupo do mesmo tipo. Por exemplo, se você estiver atribuindo uma política de chamada a dois grupos, defina a classificação de uma tarefa como 1 e a outra como 2, com 1 sendo a classificação mais alta. A classificação de atribuição de grupo indica qual associação de grupo é mais importante ou mais relevante do que outras associações de grupo em relação à herança.
+A classificação da atribuição de grupo é relativa a outras tarefas de grupo do mesmo tipo. Por exemplo, se você estiver atribuindo uma política de chamada a dois grupos, defina a classificação de uma tarefa como 1 e a outra como 2, com 1 sendo a classificação mais alta. A classificação de atribuição de grupo indica qual associação de grupo é mais importante ou mais relevante do que outras associações de grupo em relação à herança.
  
 Digamos, por exemplo, que você tem dois grupos, armazenar funcionários e gerentes da loja. Os dois grupos recebem uma política de chamada de equipes, armazenando a política de chamadas de gerentes de loja e a política de chamadas de gerentes de loja Para um gerente de loja que está em ambos os grupos, sua função como gerente é mais relevante do que a função de um funcionário, portanto, a política de chamada atribuída ao grupo de gerentes da loja deve ter uma classificação mais alta.
 

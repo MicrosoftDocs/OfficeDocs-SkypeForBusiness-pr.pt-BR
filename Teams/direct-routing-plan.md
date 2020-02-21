@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Leia este tópico para saber como o roteamento direto do sistema de telefone da Microsoft permite que você conecte um controlador de borda de sessão (SBC) compatível com o cliente ao Microsoft Phone System.
-ms.openlocfilehash: d279792315aec17df10f5c1335306147c7080287
-ms.sourcegitcommit: eab284e2add7af1b3f3c5f1f77c0a3bbf77857a7
+ms.openlocfilehash: 347a8a7dd64831281c1c9e2f94f2bea24fb18555
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "41953772"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42160705"
 ---
 # <a name="plan-direct-routing"></a>Planejar o Roteamento Direto
 
@@ -311,7 +311,7 @@ Aplica-se aos dois casos de bypass de mídia e não bypass.
 A interface de roteamento direto no trecho entre o controlador de borda de sessão e o processador de mídia de nuvem (sem bypass de mídia) ou entre o cliente de equipes e o SBC (se a mídia ignorada habilitado) pode usar os seguintes codecs:
 
 - Bypass sem mídia (processador SBC para mídia em nuvem): SILK, G. 711, G. 722, G. 729
-- Bypass de mídia (SBC para o cliente do Teams): SILK, G. 711, G. 722, G. 729, OPUS
+- Bypass de mídia (SBC para o cliente do Teams): SILK, G. 711, G. 722, G. 729
 
 Você pode forçar o uso do codec específico no controlador de borda de sessão, excluindo codecs indesejáveis da oferta.
 

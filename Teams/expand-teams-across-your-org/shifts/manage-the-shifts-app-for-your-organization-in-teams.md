@@ -1,6 +1,6 @@
 ---
 title: Gerencie o aplicativo Turnos para sua organização no Microsoft Teams
-author: kenwith
+author: LanaChin
 ms.author: v-lanac
 ms.reviewer: lisawu
 manager: serdars
@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7514ef06248eb4685558c3a327a8de1cea12bb62
-ms.sourcegitcommit: ac922addbc1422b5c41273a2e03196efb2ed7770
+ms.openlocfilehash: 134ff131307034381b97643a2bf9a3dd7fc87a7d
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41831163"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42161854"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Gerencie o aplicativo Turnos para sua organização no Microsoft Teams
 
@@ -30,6 +30,7 @@ ms.locfileid: "41831163"
 > A partir de 31 de dezembro de 2019, o Microsoft StaffHub será desativado. Estamos criando recursos de StaffHub no Microsoft Teams. Hoje, o Teams inclui o aplicativo turnos para gerenciamento de agendamento e recursos adicionais se acumularão ao longo do tempo. O StaffHub deixará de funcionar para todos os usuários em 31 de dezembro de 2019. Qualquer pessoa que tentar abrir o StaffHub será exibida uma mensagem direcionando-o para o download do teams. Para saber mais, confira [Microsoft StaffHub para ser desativado](microsoft-staffhub-to-be-retired.md).  
 
 ## <a name="overview-of-shifts"></a>Visão geral de turnos
+
 O aplicativo turnos no Microsoft Teams mantém os trabalhadores de primeiro lugar conectados e em sincronização. Ele foi criado para o seu celular primeiro para gerenciamento e comunicação de tempo rápido e eficiente para equipes. Os turnos permitem que os funcionários de primeira mão e seus gerentes usem seus dispositivos móveis para gerenciar os cronogramas e manter contato. 
 
 - Gerentes criam, atualizam e gerenciam os cronogramas de turnos do teams. Eles podem enviar mensagens para uma pessoa ("há um derramamento na base") ou toda a equipe ("a GM regional é chegando em 20 minutos"). Eles também podem enviar documentos de política, boletins de notícias e vídeos. 
@@ -49,19 +50,17 @@ Os dados de turnos atualmente estão armazenados no Azure em data centers na Am�
 
 ### <a name="enable-or-disable-shifts-in-your-organization"></a>Habilitar ou desabilitar turnos em sua organização
 
-Os turnos são habilitados por padrão para todos os usuários do teams na sua organização. Você pode desativar ou ativar o aplicativo em toda a organização usando as configurações de toda a organização nas políticas de permissão do aplicativo no centro de administração do Microsoft Teams.
+Os turnos são habilitados por padrão para todos os usuários do teams na sua organização. Você pode desativar ou ativar o aplicativo no nível da organização na página [gerenciar aplicativos](../../manage-apps.md) no centro de administração do Microsoft Teams.
 
-1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para > **políticas de permissão** de **aplicativos do teams**.
-2. Clique em **configurações de toda a organização**.
-3. No painel **configurações de toda a organização** , em **aplicativos bloqueados**, siga um destes procedimentos:
+1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá até **Team apps** > **gerenciar aplicativos** .
+2. Na lista de aplicativos, siga um destes procedimentos:
 
-    - Para desativar os turnos da sua organização, procure o aplicativo turnos e clique em **Adicionar** para adicioná-lo à lista de aplicativos bloqueados.
-    - Para ativar turnos para sua organização, remova o aplicativo turnos da lista de aplicativos bloqueados.
-4. Clique em **Salvar**. 
+    - Para desativar os turnos da sua organização, procure o aplicativo turnos, selecione-o e clique em **Bloquear**.
+    - Para ativar turnos para sua organização, procure o aplicativo turnos, selecione-o e clique em **permitir**.
 
 ### <a name="enable-or-disable-shifts-for-specific-users-in-your-organization"></a>Habilitar ou desabilitar turnos para usuários específicos em sua organização
 
-Para permitir ou bloquear usuários específicos em sua organização usando turnos, certifique-se de que o recurso turnos esteja ativado para sua organização em configurações de toda a organização e, em seguida, crie uma política de permissão de aplicativo personalizada e atribua-a a esses usuários. Para saber mais, consulte [gerenciar políticas de permissão do aplicativo no Microsoft Teams](../../teams-app-permission-policies.md).
+Para permitir ou bloquear usuários específicos em sua organização usando turnos, certifique-se de que os turnos estejam ativados para sua organização na página [gerenciar aplicativos](../../manage-apps.md) e crie uma política de permissão de aplicativo personalizada e atribua-a a esses usuários. Para saber mais, consulte [gerenciar políticas de permissão do aplicativo no Microsoft Teams](../../teams-app-permission-policies.md).
 
 ### <a name="use-the-firstlineworker-app-setup-policy-to-pin-shifts-to-teams"></a>Usar a política de configuração do aplicativo FirstlineWorker para fixar mudanças em equipes
 

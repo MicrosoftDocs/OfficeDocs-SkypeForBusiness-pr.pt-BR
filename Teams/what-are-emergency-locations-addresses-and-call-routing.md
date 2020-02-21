@@ -23,12 +23,12 @@ ms.custom:
 - Calling Plans
 - Direct Routing
 description: Saiba mais sobre chamadas de emergência, incluindo informações sobre endereços de emergência, roteamento de chamadas de emergência e chamadas de emergência dinâmicas.
-ms.openlocfilehash: 010a1d3afd6ea1fa490b506b82c46c31bf3a4fa2
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 85a09880c1eec83851208197c008c8aaafac88f6
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836671"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42161684"
 ---
 # <a name="manage-emergency-calling"></a>Gerenciar chamadas de emergência
 
@@ -157,9 +157,9 @@ Os clientes do teams para usuários de roteamento direto podem adquirir um ender
 
 ### <a name="emergency-call-routing"></a>Encaminhamento de chamadas de emergência
 
-O TeamsEmergencyCallRoutingPolicy faz referência a um uso de PSTN online, que deve ter a configuração de roteamento direto apropriada para direcionar adequadamente as chamadas de emergência para o (s) gateways PSTN apropriados (s). Em particular, você deve garantir que há um OnlineVoiceRoute para a cadeia de caracteres de discagem de emergência. Para obter mais informações, consulte [Configurar o roteamento direto](direct-routing-configure.md#configure-voice-routing). 
+O TeamsEmergencyCallRoutingPolicy faz referência a um uso de PSTN online, que deve ter a configuração de roteamento direto apropriada para direcionar adequadamente as chamadas de emergência para o (s) gateways PSTN apropriados (s). Em particular, você deve garantir que há um OnlineVoiceRoute para a cadeia de caracteres de discagem de emergência. Para obter mais informações, consulte [Configurar o roteamento direto](direct-routing-configure.md). 
 
-(Observação: no Skype for Business Server, o número de emergência era prefixado com "+", que exigia que uma rota de voz fosse definida para corresponder "+ 911" por exemplo. Os clientes do Teams não precedem o "+" com números de emergência.)
+(Observação: os clientes do Team precedem o sinal "+" na frente dos números de emergência de uma maneira semelhante à qual o cliente Skype for Business faz; ou seja, + 911. Esse comportamento será modificado nos próximos meses para que as chamadas de emergência do Teams não estejam mais enviando um "+" antes do número; ou seja, 911.)
 
 A capacidade de rotear dinamicamente as chamadas de emergência para usuários de roteamento direto varia de acordo com a rede de chamadas de emergência dentro de um determinado país. Há duas soluções disponíveis:
 

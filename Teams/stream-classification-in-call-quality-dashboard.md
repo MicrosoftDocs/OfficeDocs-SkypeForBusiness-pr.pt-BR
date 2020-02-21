@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Optimization
 description: Saiba como a qualidade do fluxo é classificada no Painel de Qualidade de Chamadas para o Microsoft Teams e o Skype for Business Online.
-ms.openlocfilehash: bb1c96f92ae683f02d5972f8fa11afe15e3c5a92
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 2c70126c86a6e9f0a8bc48c8fffa90142fe5928f
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837901"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42160735"
 ---
 # <a name="stream-classification-in-call-quality-dashboard"></a>Classificação de fluxo no Painel de Qualidade de Chamadas
 
@@ -48,8 +48,17 @@ Se uma ou mais das seguintes condições forem atendidas, um fluxo de áudio ser
 |Índice médio de amostras ocultas|> 0,07|Razão média do número de quadros de áudio com amostras ocultas geradas pelo reparo de perda de pacotes para o número total de quadros de áudio.|
 ||||
 
-### <a name="video-classifier"></a>Classificador de Vídeo
+### <a name="video-classifier-due-to-freeze"></a>Classificador de vídeo devido ao congelamento
 
+O fluxo de vídeo é marcado como _bom_ ou _ruim_ com base no valor de uma pontuação do classificador gerada para estimar que o usuário final tenha detectado vídeo congelado. Esse classificador só está disponível para o produto Microsoft Teams.
+
+|Etapa Nº|Indicador|Cenário|Condição |Classificação se a condição for verdadeira |Classificação se a condição for falsa |Classificação se a métrica não estiver disponível |Explicação |
+|:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |
+|1|Vídeo ruim devido ao classificador de congelamento |O par de servidores é cliente: servidor|>0,246|_Satisfatório_|_Corretamente_|_Não classificados_|Uma pontuação entre 0 e 1 que é gerada com base em uma combinação de experiência do usuário, congelar estatísticas de duração e experiência em chamadas gerais |
+|2|Vídeo ruim devido ao classificador de congelamento |O par de servidores é cliente: cliente|>0,524|_Satisfatório_|_Corretamente_|_Não classificados_|Uma pontuação entre 0 e 1 que é gerada com base em uma combinação de experiência do usuário, congelar estatísticas de duração e experiência em chamadas gerais |
+|  |  |  |  |  |  |  |
+
+### <a name="video-classifier"></a>Classificador de Vídeo
 Um fluxo de vídeo é marcado como _bom_ ou _ruim_ com base no valor da primeira métrica disponível na seguinte ordem:
 
 |Etapa Nº|Indicador|Condição |Classificação se a condição for verdadeira |Classificação se a condição for falsa |Classificação se a métrica não estiver disponível |Explicação |
@@ -112,3 +121,4 @@ Se a conectividade do ICE for bem-sucedida para um fluxo não _classificado_ , �
 [Dimensões e medidas disponíveis no Painel de Qualidade de Chamadas](dimensions-and-measures-available-in-call-quality-dashboard.md)
 
 [Usar a Análise de Chamada para solucionar problemas de baixa qualidade da chamada](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+ 
