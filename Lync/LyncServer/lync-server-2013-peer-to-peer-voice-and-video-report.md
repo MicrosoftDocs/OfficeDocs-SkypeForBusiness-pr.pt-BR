@@ -12,20 +12,20 @@ ms:contentKeyID: 48185535
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 880104d0809b0135c74c72a80eefb7d4bb0ed709
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: dcb58becb1b495c16338ef9590ede8fb4005bc2d
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42140004"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42215657"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="peer-to-peer-voice-and-video-report-in-lync-server-2013"></a><span data-ttu-id="45dc4-102">Relatório de vídeo e voz ponto a ponto no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="45dc4-102">Peer-to-Peer Voice and Video Report in Lync Server 2013</span></span>
+# <a name="peer-to-peer-voice-and-video-report-in-lync-server-2013"></a><span data-ttu-id="a16a2-102">Relatório de vídeo e voz ponto a ponto no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a16a2-102">Peer-to-Peer Voice and Video Report in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,49 +35,49 @@ ms.locfileid: "42140004"
 
 <span> </span>
 
-<span data-ttu-id="45dc4-103">_**Última modificação do tópico:** 2012-10-21_</span><span class="sxs-lookup"><span data-stu-id="45dc4-103">_**Topic Last Modified:** 2012-10-21_</span></span>
+<span data-ttu-id="a16a2-103">_**Última modificação do tópico:** 2012-10-21_</span><span class="sxs-lookup"><span data-stu-id="a16a2-103">_**Topic Last Modified:** 2012-10-21_</span></span>
 
-<span data-ttu-id="45dc4-104">O relatório de vídeo e voz ponto a ponto fornece uma visão detalhada da distribuição de chamadas de voz e vídeo em um período de tempo especificado (por exemplo, chamadas por hora ou chamadas por dia).</span><span class="sxs-lookup"><span data-stu-id="45dc4-104">The Peer-to-Peer Voice and Video Report provides a detailed look at the distribution of voice and video calls over a specified period of time (for example, calls per hour or calls per day).</span></span> <span data-ttu-id="45dc4-105">O relatório também oferece a opção de exibir todas as chamadas de voz e vídeo feitas ou de exibir apenas as chamadas com êxito ou com falha.</span><span class="sxs-lookup"><span data-stu-id="45dc4-105">The report also gives you the option of viewing all the voice and video calls that were made, or of viewing only the successful or failed calls.</span></span> <span data-ttu-id="45dc4-106">Os relatórios mostram as informações de chamadas divididas nos seguintes agrupamentos:</span><span class="sxs-lookup"><span data-stu-id="45dc4-106">The reports shows call information broken down into the following groupings:</span></span>
+<span data-ttu-id="a16a2-104">O relatório de vídeo e voz ponto a ponto fornece uma visão detalhada da distribuição de chamadas de voz e vídeo em um período de tempo especificado (por exemplo, chamadas por hora ou chamadas por dia).</span><span class="sxs-lookup"><span data-stu-id="a16a2-104">The Peer-to-Peer Voice and Video Report provides a detailed look at the distribution of voice and video calls over a specified period of time (for example, calls per hour or calls per day).</span></span> <span data-ttu-id="a16a2-105">O relatório também oferece a opção de exibir todas as chamadas de voz e vídeo feitas ou de exibir apenas as chamadas com êxito ou com falha.</span><span class="sxs-lookup"><span data-stu-id="a16a2-105">The report also gives you the option of viewing all the voice and video calls that were made, or of viewing only the successful or failed calls.</span></span> <span data-ttu-id="a16a2-106">Os relatórios mostram as informações de chamadas divididas nos seguintes agrupamentos:</span><span class="sxs-lookup"><span data-stu-id="a16a2-106">The reports shows call information broken down into the following groupings:</span></span>
 
-  - <span data-ttu-id="45dc4-107">Chamadas por pool</span><span class="sxs-lookup"><span data-stu-id="45dc4-107">Calls per pool</span></span>
+  - <span data-ttu-id="a16a2-107">Chamadas por pool</span><span class="sxs-lookup"><span data-stu-id="a16a2-107">Calls per pool</span></span>
 
-  - <span data-ttu-id="45dc4-108">Chamadas por tipo de chamada (por exemplo, uma chamada Lync para Lync vs. uma chamada Lync para uma pessoa na rede PSTN)</span><span class="sxs-lookup"><span data-stu-id="45dc4-108">Calls per call type (for example, a Lync to Lync call vs. a Lync call to a person on the PSTN network)</span></span>
+  - <span data-ttu-id="a16a2-108">Chamadas por tipo de chamada (por exemplo, uma chamada Lync para Lync vs. uma chamada Lync para uma pessoa na rede PSTN)</span><span class="sxs-lookup"><span data-stu-id="a16a2-108">Calls per call type (for example, a Lync to Lync call vs. a Lync call to a person on the PSTN network)</span></span>
 
-  - <span data-ttu-id="45dc4-109">Chamadas por tipo de acesso (usuários conectados à rede interna vs. usuários conectados à rede externa)</span><span class="sxs-lookup"><span data-stu-id="45dc4-109">Calls per access type (users logged on to the internal network vs. users logged on to the external network)</span></span>
+  - <span data-ttu-id="a16a2-109">Chamadas por tipo de acesso (usuários conectados à rede interna vs. usuários conectados à rede externa)</span><span class="sxs-lookup"><span data-stu-id="a16a2-109">Calls per access type (users logged on to the internal network vs. users logged on to the external network)</span></span>
 
-  - <span data-ttu-id="45dc4-110">Chamadas por servidor de mediação</span><span class="sxs-lookup"><span data-stu-id="45dc4-110">Calls per Mediation Server</span></span>
+  - <span data-ttu-id="a16a2-110">Chamadas por servidor de mediação</span><span class="sxs-lookup"><span data-stu-id="a16a2-110">Calls per Mediation Server</span></span>
 
 <div>
 
-## <a name="to-access-the-peer-to-peer-voice-and-video-report"></a><span data-ttu-id="45dc4-111">Para acessar o relatório de vídeo e voz ponto a ponto</span><span class="sxs-lookup"><span data-stu-id="45dc4-111">To access the peer-to-peer voice and video report</span></span>
+## <a name="to-access-the-peer-to-peer-voice-and-video-report"></a><span data-ttu-id="a16a2-111">Para acessar o relatório de vídeo e voz ponto a ponto</span><span class="sxs-lookup"><span data-stu-id="a16a2-111">To access the peer-to-peer voice and video report</span></span>
 
-<span data-ttu-id="45dc4-112">Você pode acessar o relatório de vídeo e voz ponto a ponto apenas abrindo o relatório de Resumo de atividades ponto a ponto e clicando em qualquer uma das seguintes métricas:</span><span class="sxs-lookup"><span data-stu-id="45dc4-112">You can access the Peer-to-Peer Voice and Video Report only by opening the Peer-to-Peer Activity Summary Report and then clicking any of the following metrics:</span></span>
+<span data-ttu-id="a16a2-112">Você pode acessar o relatório de vídeo e voz ponto a ponto apenas abrindo o relatório de Resumo de atividades ponto a ponto e clicando em qualquer uma das seguintes métricas:</span><span class="sxs-lookup"><span data-stu-id="a16a2-112">You can access the Peer-to-Peer Voice and Video Report only by opening the Peer-to-Peer Activity Summary Report and then clicking any of the following metrics:</span></span>
 
-  - <span data-ttu-id="45dc4-113">Total de sessões de áudio ponto a ponto</span><span class="sxs-lookup"><span data-stu-id="45dc4-113">Total peer-to-peer audio sessions</span></span>
+  - <span data-ttu-id="a16a2-113">Total de sessões de áudio ponto a ponto</span><span class="sxs-lookup"><span data-stu-id="a16a2-113">Total peer-to-peer audio sessions</span></span>
 
-  - <span data-ttu-id="45dc4-114">Total de minutos de áudio ponto a ponto</span><span class="sxs-lookup"><span data-stu-id="45dc4-114">Total peer-to-peer audio minutes</span></span>
+  - <span data-ttu-id="a16a2-114">Total de minutos de áudio ponto a ponto</span><span class="sxs-lookup"><span data-stu-id="a16a2-114">Total peer-to-peer audio minutes</span></span>
 
-  - <span data-ttu-id="45dc4-115">Total de sessões de vídeo ponto a ponto</span><span class="sxs-lookup"><span data-stu-id="45dc4-115">Total peer-to-peer video sessions</span></span>
+  - <span data-ttu-id="a16a2-115">Total de sessões de vídeo ponto a ponto</span><span class="sxs-lookup"><span data-stu-id="a16a2-115">Total peer-to-peer video sessions</span></span>
 
-  - <span data-ttu-id="45dc4-116">Total de minutos de vídeo ponto a ponto</span><span class="sxs-lookup"><span data-stu-id="45dc4-116">Total peer-to-peer video minutes</span></span>
+  - <span data-ttu-id="a16a2-116">Total de minutos de vídeo ponto a ponto</span><span class="sxs-lookup"><span data-stu-id="a16a2-116">Total peer-to-peer video minutes</span></span>
 
 </div>
 
 <div>
 
-## <a name="to-make-the-best-use-of-the-peer-to-peer-voice-and-video-report"></a><span data-ttu-id="45dc4-117">Para usar melhor o relatório de vídeo e voz ponto a ponto</span><span class="sxs-lookup"><span data-stu-id="45dc4-117">To make the best use of the peer-to-peer voice and video report</span></span>
+## <a name="to-make-the-best-use-of-the-peer-to-peer-voice-and-video-report"></a><span data-ttu-id="a16a2-117">Para usar melhor o relatório de vídeo e voz ponto a ponto</span><span class="sxs-lookup"><span data-stu-id="a16a2-117">To make the best use of the peer-to-peer voice and video report</span></span>
 
-<span data-ttu-id="45dc4-118">Há várias maneiras de filtrar o relatório de vídeo e voz ponto a ponto.</span><span class="sxs-lookup"><span data-stu-id="45dc4-118">There are a number of ways you can filter the Peer-to-Peer Voice and Video Report.</span></span> <span data-ttu-id="45dc4-119">No entanto, essas opções de filtragem são ocultas da exibição por padrão.</span><span class="sxs-lookup"><span data-stu-id="45dc4-119">However, those filtering options are hidden from view by default.</span></span> <span data-ttu-id="45dc4-120">Para exibir as opções de filtragem disponíveis, clique no botão **Mostrar/ocultar parâmetros** no canto superior direito da janela relatório.</span><span class="sxs-lookup"><span data-stu-id="45dc4-120">To view the filtering options available to you, click **Show/Hide Parameters** button in the upper-right corner of the Report window.</span></span>
+<span data-ttu-id="a16a2-118">Há várias maneiras de filtrar o relatório de vídeo e voz ponto a ponto.</span><span class="sxs-lookup"><span data-stu-id="a16a2-118">There are a number of ways you can filter the Peer-to-Peer Voice and Video Report.</span></span> <span data-ttu-id="a16a2-119">No entanto, essas opções de filtragem são ocultas da exibição por padrão.</span><span class="sxs-lookup"><span data-stu-id="a16a2-119">However, those filtering options are hidden from view by default.</span></span> <span data-ttu-id="a16a2-120">Para exibir as opções de filtragem disponíveis, clique no botão **Mostrar/ocultar parâmetros** no canto superior direito da janela relatório.</span><span class="sxs-lookup"><span data-stu-id="a16a2-120">To view the filtering options available to you, click **Show/Hide Parameters** button in the upper-right corner of the Report window.</span></span>
 
 </div>
 
 <div>
 
-## <a name="filters"></a><span data-ttu-id="45dc4-121">Filtros</span><span class="sxs-lookup"><span data-stu-id="45dc4-121">Filters</span></span>
+## <a name="filters"></a><span data-ttu-id="a16a2-121">Filtros</span><span class="sxs-lookup"><span data-stu-id="a16a2-121">Filters</span></span>
 
-<span data-ttu-id="45dc4-122">Os filtros fornecem uma maneira de retornar um conjunto de dados mais direcionado ou exibir os dados de maneiras diferentes.</span><span class="sxs-lookup"><span data-stu-id="45dc4-122">Filters provide a way for you to return a more finely targeted set of data or to view the data in different ways.</span></span> <span data-ttu-id="45dc4-123">A tabela a seguir lista os filtros que você pode usar com o relatório de vídeo e voz ponto a ponto.</span><span class="sxs-lookup"><span data-stu-id="45dc4-123">The following table lists the filters that you can use with the Peer-to-Peer Voice and Video Report.</span></span>
+<span data-ttu-id="a16a2-122">Os filtros fornecem uma maneira de retornar um conjunto de dados mais direcionado ou exibir os dados de maneiras diferentes.</span><span class="sxs-lookup"><span data-stu-id="a16a2-122">Filters provide a way for you to return a more finely targeted set of data or to view the data in different ways.</span></span> <span data-ttu-id="a16a2-123">A tabela a seguir lista os filtros que você pode usar com o relatório de vídeo e voz ponto a ponto.</span><span class="sxs-lookup"><span data-stu-id="a16a2-123">The following table lists the filters that you can use with the Peer-to-Peer Voice and Video Report.</span></span>
 
-### <a name="peer-to-peer-voice-and-video-report-filters"></a><span data-ttu-id="45dc4-124">Filtros de relatório de vídeo e voz ponto a ponto</span><span class="sxs-lookup"><span data-stu-id="45dc4-124">Peer-to-peer voice and video report filters</span></span>
+### <a name="peer-to-peer-voice-and-video-report-filters"></a><span data-ttu-id="a16a2-124">Filtros de relatório de vídeo e voz ponto a ponto</span><span class="sxs-lookup"><span data-stu-id="a16a2-124">Peer-to-peer voice and video report filters</span></span>
 
 <table>
 <colgroup>
@@ -86,66 +86,66 @@ ms.locfileid: "42140004"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="45dc4-125">Nome</span><span class="sxs-lookup"><span data-stu-id="45dc4-125">Name</span></span></th>
-<th><span data-ttu-id="45dc4-126">Descrição</span><span class="sxs-lookup"><span data-stu-id="45dc4-126">Description</span></span></th>
+<th><span data-ttu-id="a16a2-125">Nome</span><span class="sxs-lookup"><span data-stu-id="a16a2-125">Name</span></span></th>
+<th><span data-ttu-id="a16a2-126">Descrição</span><span class="sxs-lookup"><span data-stu-id="a16a2-126">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="45dc4-127"><strong>De</strong></span><span class="sxs-lookup"><span data-stu-id="45dc4-127"><strong>From</strong></span></span></p></td>
-<td><p><span data-ttu-id="45dc4-p104">Data e hora de início para o intervalo de tempo. Para ver os dados por hora, digite a data e hora de início no seguinte formato:</span><span class="sxs-lookup"><span data-stu-id="45dc4-p104">Start date and time for the time range. To view data by hours, enter both the start date and time as follows:</span></span></p>
-<p><span data-ttu-id="45dc4-130">7/7/2012 13:00 horas</span><span class="sxs-lookup"><span data-stu-id="45dc4-130">7/7/2012 1:00 PM</span></span></p>
-<p><span data-ttu-id="45dc4-p105">Se você não inserir uma hora inicial, o relatório começa automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:</span><span class="sxs-lookup"><span data-stu-id="45dc4-p105">If you do not enter a start time, the report automatically begins at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
-<p><span data-ttu-id="45dc4-133">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="45dc4-133">7/7/2012</span></span></p>
-<p><span data-ttu-id="45dc4-134">Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):</span><span class="sxs-lookup"><span data-stu-id="45dc4-134">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
-<p><span data-ttu-id="45dc4-135">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="45dc4-135">7/3/2012</span></span></p>
-<p><span data-ttu-id="45dc4-136">As semanas sempre são de Domingo a Sábado.</span><span class="sxs-lookup"><span data-stu-id="45dc4-136">Weeks always run from Sunday through Saturday.</span></span></p></td>
+<td><p><span data-ttu-id="a16a2-127"><strong>De</strong></span><span class="sxs-lookup"><span data-stu-id="a16a2-127"><strong>From</strong></span></span></p></td>
+<td><p><span data-ttu-id="a16a2-p104">Data e hora de início para o intervalo de tempo. Para ver os dados por hora, digite a data e hora de início no seguinte formato:</span><span class="sxs-lookup"><span data-stu-id="a16a2-p104">Start date and time for the time range. To view data by hours, enter both the start date and time as follows:</span></span></p>
+<p><span data-ttu-id="a16a2-130">7/7/2012 13:00 horas</span><span class="sxs-lookup"><span data-stu-id="a16a2-130">7/7/2012 1:00 PM</span></span></p>
+<p><span data-ttu-id="a16a2-p105">Se você não inserir uma hora inicial, o relatório começa automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:</span><span class="sxs-lookup"><span data-stu-id="a16a2-p105">If you do not enter a start time, the report automatically begins at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
+<p><span data-ttu-id="a16a2-133">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="a16a2-133">7/7/2012</span></span></p>
+<p><span data-ttu-id="a16a2-134">Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):</span><span class="sxs-lookup"><span data-stu-id="a16a2-134">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
+<p><span data-ttu-id="a16a2-135">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="a16a2-135">7/3/2012</span></span></p>
+<p><span data-ttu-id="a16a2-136">As semanas sempre são de Domingo a Sábado.</span><span class="sxs-lookup"><span data-stu-id="a16a2-136">Weeks always run from Sunday through Saturday.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="45dc4-137"><strong>To</strong></span><span class="sxs-lookup"><span data-stu-id="45dc4-137"><strong>To</strong></span></span></p></td>
-<td><p><span data-ttu-id="45dc4-p106">Data/hora final para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora final como a seguir:</span><span class="sxs-lookup"><span data-stu-id="45dc4-p106">End date/time for the time range. To view data by hours, enter both the end date and time as follows:</span></span></p>
-<p><span data-ttu-id="45dc4-140">7/7/2012 13:00 horas</span><span class="sxs-lookup"><span data-stu-id="45dc4-140">7/7/2012 1:00 PM</span></span></p>
-<p><span data-ttu-id="45dc4-p107">Se você não inserir uma hora final, o relatório termina automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:</span><span class="sxs-lookup"><span data-stu-id="45dc4-p107">If you do not enter an end time, the report automatically ends at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
-<p><span data-ttu-id="45dc4-143">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="45dc4-143">7/7/2012</span></span></p>
-<p><span data-ttu-id="45dc4-144">Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):</span><span class="sxs-lookup"><span data-stu-id="45dc4-144">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
-<p><span data-ttu-id="45dc4-145">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="45dc4-145">7/3/2012</span></span></p>
-<p><span data-ttu-id="45dc4-146">As semanas são sempre de domingo a sábado.</span><span class="sxs-lookup"><span data-stu-id="45dc4-146">Weeks always run from Sunday through Saturday.</span></span></p></td>
+<td><p><span data-ttu-id="a16a2-137"><strong>To</strong></span><span class="sxs-lookup"><span data-stu-id="a16a2-137"><strong>To</strong></span></span></p></td>
+<td><p><span data-ttu-id="a16a2-p106">Data/hora final para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora final como a seguir:</span><span class="sxs-lookup"><span data-stu-id="a16a2-p106">End date/time for the time range. To view data by hours, enter both the end date and time as follows:</span></span></p>
+<p><span data-ttu-id="a16a2-140">7/7/2012 13:00 horas</span><span class="sxs-lookup"><span data-stu-id="a16a2-140">7/7/2012 1:00 PM</span></span></p>
+<p><span data-ttu-id="a16a2-p107">Se você não inserir uma hora final, o relatório termina automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:</span><span class="sxs-lookup"><span data-stu-id="a16a2-p107">If you do not enter an end time, the report automatically ends at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
+<p><span data-ttu-id="a16a2-143">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="a16a2-143">7/7/2012</span></span></p>
+<p><span data-ttu-id="a16a2-144">Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):</span><span class="sxs-lookup"><span data-stu-id="a16a2-144">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
+<p><span data-ttu-id="a16a2-145">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="a16a2-145">7/3/2012</span></span></p>
+<p><span data-ttu-id="a16a2-146">As semanas são sempre de domingo a sábado.</span><span class="sxs-lookup"><span data-stu-id="a16a2-146">Weeks always run from Sunday through Saturday.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="45dc4-147"><strong>Intervalo</strong></span><span class="sxs-lookup"><span data-stu-id="45dc4-147"><strong>Interval</strong></span></span></p></td>
-<td><p><span data-ttu-id="45dc4-p108">Intervalo de tempo. Selecione uma das seguintes opções:</span><span class="sxs-lookup"><span data-stu-id="45dc4-p108">Time interval. Select one of the following:</span></span></p>
+<td><p><span data-ttu-id="a16a2-147"><strong>Intervalo</strong></span><span class="sxs-lookup"><span data-stu-id="a16a2-147"><strong>Interval</strong></span></span></p></td>
+<td><p><span data-ttu-id="a16a2-p108">Intervalo de tempo. Selecione uma das seguintes opções:</span><span class="sxs-lookup"><span data-stu-id="a16a2-p108">Time interval. Select one of the following:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="45dc4-150">Por hora (é possível exibir no máximo 25 horas)</span><span class="sxs-lookup"><span data-stu-id="45dc4-150">Hourly (a maximum of 25 hours can be displayed)</span></span></p></li>
-<li><p><span data-ttu-id="45dc4-151">Diariamente (é possível exibir no máximo 31 dias)</span><span class="sxs-lookup"><span data-stu-id="45dc4-151">Daily (a maximum of 31 days can be displayed)</span></span></p></li>
-<li><p><span data-ttu-id="45dc4-152">Semanalmente (é possível exibir no máximo 12 semanas)</span><span class="sxs-lookup"><span data-stu-id="45dc4-152">Weekly (a maximum of 12 weeks can be displayed)</span></span></p></li>
-<li><p><span data-ttu-id="45dc4-153">Mensalmente (é possível exibir no máximo 12 meses)</span><span class="sxs-lookup"><span data-stu-id="45dc4-153">Monthly (a maximum of 12 months can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="a16a2-150">Por hora (é possível exibir no máximo 25 horas)</span><span class="sxs-lookup"><span data-stu-id="a16a2-150">Hourly (a maximum of 25 hours can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="a16a2-151">Diariamente (é possível exibir no máximo 31 dias)</span><span class="sxs-lookup"><span data-stu-id="a16a2-151">Daily (a maximum of 31 days can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="a16a2-152">Semanalmente (é possível exibir no máximo 12 semanas)</span><span class="sxs-lookup"><span data-stu-id="a16a2-152">Weekly (a maximum of 12 weeks can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="a16a2-153">Mensalmente (é possível exibir no máximo 12 meses)</span><span class="sxs-lookup"><span data-stu-id="a16a2-153">Monthly (a maximum of 12 months can be displayed)</span></span></p></li>
 </ul>
-<p><span data-ttu-id="45dc4-p109">Se as datas de início e término excederem o número máximo de valores permitidos para o intervalo selecionado, somente o número máximo de valores (a partir da data de início) será exibido. Por exemplo, se você selecionar o intervalo Diariamente com data de início em 7/7/12 e data de término de 28/2/12, os dados serão exibidos do dia 7/8/12, às 12:00, até o dia 7/9/12, às 12:00 (ou seja, um total de 31 dias de dados).</span><span class="sxs-lookup"><span data-stu-id="45dc4-p109">If the start and end dates exceed the maximum number of values allowed for the selected interval, only the maximum number of values (starting from the start date) is displayed. For example, if you select the Daily interval with a start date of 7/7/2012 and an end date of 2/28/2012, data is displayed for the days 8/7/2012 12:00 AM to 9/7/2012 12:00 AM (that is, a total of 31 days' worth of data).</span></span></p></td>
+<p><span data-ttu-id="a16a2-p109">Se as datas de início e término excederem o número máximo de valores permitidos para o intervalo selecionado, somente o número máximo de valores (a partir da data de início) será exibido. Por exemplo, se você selecionar o intervalo Diariamente com data de início em 7/7/12 e data de término de 28/2/12, os dados serão exibidos do dia 7/8/12, às 12:00, até o dia 7/9/12, às 12:00 (ou seja, um total de 31 dias de dados).</span><span class="sxs-lookup"><span data-stu-id="a16a2-p109">If the start and end dates exceed the maximum number of values allowed for the selected interval, only the maximum number of values (starting from the start date) is displayed. For example, if you select the Daily interval with a start date of 7/7/2012 and an end date of 2/28/2012, data is displayed for the days 8/7/2012 12:00 AM to 9/7/2012 12:00 AM (that is, a total of 31 days' worth of data).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="45dc4-156"><strong>Tipo de mídia</strong></span><span class="sxs-lookup"><span data-stu-id="45dc4-156"><strong>Media type</strong></span></span></p></td>
-<td><p><span data-ttu-id="45dc4-157">Indica o tipo de mídia usado na sessão.</span><span class="sxs-lookup"><span data-stu-id="45dc4-157">Indicates the type of media used in the session.</span></span> <span data-ttu-id="45dc4-158">Selecione uma destas opções:</span><span class="sxs-lookup"><span data-stu-id="45dc4-158">Select one of the following:</span></span></p>
+<td><p><span data-ttu-id="a16a2-156"><strong>Tipo de mídia</strong></span><span class="sxs-lookup"><span data-stu-id="a16a2-156"><strong>Media type</strong></span></span></p></td>
+<td><p><span data-ttu-id="a16a2-157">Indica o tipo de mídia usado na sessão.</span><span class="sxs-lookup"><span data-stu-id="a16a2-157">Indicates the type of media used in the session.</span></span> <span data-ttu-id="a16a2-158">Selecione uma destas opções:</span><span class="sxs-lookup"><span data-stu-id="a16a2-158">Select one of the following:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="45dc4-159">Ambos</span><span class="sxs-lookup"><span data-stu-id="45dc4-159">Both</span></span></p></li>
-<li><p><span data-ttu-id="45dc4-160">Áudio</span><span class="sxs-lookup"><span data-stu-id="45dc4-160">Audio</span></span></p></li>
-<li><p><span data-ttu-id="45dc4-161">Vídeo</span><span class="sxs-lookup"><span data-stu-id="45dc4-161">Video</span></span></p></li>
+<li><p><span data-ttu-id="a16a2-159">Ambos</span><span class="sxs-lookup"><span data-stu-id="a16a2-159">Both</span></span></p></li>
+<li><p><span data-ttu-id="a16a2-160">Áudio</span><span class="sxs-lookup"><span data-stu-id="a16a2-160">Audio</span></span></p></li>
+<li><p><span data-ttu-id="a16a2-161">Vídeo</span><span class="sxs-lookup"><span data-stu-id="a16a2-161">Video</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="45dc4-162"><strong>Disposição da chamada</strong></span><span class="sxs-lookup"><span data-stu-id="45dc4-162"><strong>Call disposition</strong></span></span></p></td>
-<td><p><span data-ttu-id="45dc4-163">Indica o êxito ou a falha da sessão.</span><span class="sxs-lookup"><span data-stu-id="45dc4-163">Indicates the success or failure of the session.</span></span> <span data-ttu-id="45dc4-164">Selecione uma das seguintes opções:</span><span class="sxs-lookup"><span data-stu-id="45dc4-164">Select one of the following:</span></span></p>
+<td><p><span data-ttu-id="a16a2-162"><strong>Disposição da chamada</strong></span><span class="sxs-lookup"><span data-stu-id="a16a2-162"><strong>Call disposition</strong></span></span></p></td>
+<td><p><span data-ttu-id="a16a2-163">Indica o êxito ou a falha da sessão.</span><span class="sxs-lookup"><span data-stu-id="a16a2-163">Indicates the success or failure of the session.</span></span> <span data-ttu-id="a16a2-164">Selecione uma das seguintes opções:</span><span class="sxs-lookup"><span data-stu-id="a16a2-164">Select one of the following:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="45dc4-165">Todos os</span><span class="sxs-lookup"><span data-stu-id="45dc4-165">[All]</span></span></p></li>
-<li><p><span data-ttu-id="45dc4-166">Chamadas de êxito</span><span class="sxs-lookup"><span data-stu-id="45dc4-166">Success Calls</span></span></p></li>
-<li><p><span data-ttu-id="45dc4-167">Chamadas com falha</span><span class="sxs-lookup"><span data-stu-id="45dc4-167">Failed Calls</span></span></p></li>
+<li><p><span data-ttu-id="a16a2-165">Todos os</span><span class="sxs-lookup"><span data-stu-id="a16a2-165">[All]</span></span></p></li>
+<li><p><span data-ttu-id="a16a2-166">Chamadas de êxito</span><span class="sxs-lookup"><span data-stu-id="a16a2-166">Success Calls</span></span></p></li>
+<li><p><span data-ttu-id="a16a2-167">Chamadas com falha</span><span class="sxs-lookup"><span data-stu-id="a16a2-167">Failed Calls</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="45dc4-168"><strong>Relatório por</strong></span><span class="sxs-lookup"><span data-stu-id="45dc4-168"><strong>Report by</strong></span></span></p></td>
-<td><p><span data-ttu-id="45dc4-p112">Indica os valores a serem usados no relatório. Selecione um dos seguintes valores:</span><span class="sxs-lookup"><span data-stu-id="45dc4-p112">Indicates the values to be used in the report. Select one of the following:</span></span></p>
+<td><p><span data-ttu-id="a16a2-168"><strong>Relatório por</strong></span><span class="sxs-lookup"><span data-stu-id="a16a2-168"><strong>Report by</strong></span></span></p></td>
+<td><p><span data-ttu-id="a16a2-p112">Indica os valores a serem usados no relatório. Selecione um dos seguintes valores:</span><span class="sxs-lookup"><span data-stu-id="a16a2-p112">Indicates the values to be used in the report. Select one of the following:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="45dc4-171">Contagem de sessão</span><span class="sxs-lookup"><span data-stu-id="45dc4-171">Session count</span></span></p></li>
-<li><p><span data-ttu-id="45dc4-172">Minutos de chamada</span><span class="sxs-lookup"><span data-stu-id="45dc4-172">Call minutes</span></span></p></li>
+<li><p><span data-ttu-id="a16a2-171">Contagem de sessão</span><span class="sxs-lookup"><span data-stu-id="a16a2-171">Session count</span></span></p></li>
+<li><p><span data-ttu-id="a16a2-172">Minutos de chamada</span><span class="sxs-lookup"><span data-stu-id="a16a2-172">Call minutes</span></span></p></li>
 </ul></td>
 </tr>
 </tbody>
@@ -156,11 +156,11 @@ ms.locfileid: "42140004"
 
 <div>
 
-## <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-pool"></a><span data-ttu-id="45dc4-173">Métricas para atividade de vídeo e voz ponto a ponto por pool</span><span class="sxs-lookup"><span data-stu-id="45dc4-173">Metrics for peer-to-peer voice and video activity by Pool</span></span>
+## <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-pool"></a><span data-ttu-id="a16a2-173">Métricas para atividade de vídeo e voz ponto a ponto por pool</span><span class="sxs-lookup"><span data-stu-id="a16a2-173">Metrics for peer-to-peer voice and video activity by Pool</span></span>
 
-<span data-ttu-id="45dc4-174">A tabela a seguir lista as informações fornecidas no relatório de vídeo e voz ponto a ponto para cada pool.</span><span class="sxs-lookup"><span data-stu-id="45dc4-174">The following table lists the information provided in the Peer-to-Peer Voice and Video Report for each pool.</span></span>
+<span data-ttu-id="a16a2-174">A tabela a seguir lista as informações fornecidas no relatório de vídeo e voz ponto a ponto para cada pool.</span><span class="sxs-lookup"><span data-stu-id="a16a2-174">The following table lists the information provided in the Peer-to-Peer Voice and Video Report for each pool.</span></span>
 
-### <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-pool"></a><span data-ttu-id="45dc4-175">Métricas para atividade de vídeo e voz ponto a ponto por pool</span><span class="sxs-lookup"><span data-stu-id="45dc4-175">Metrics for peer-to-peer voice and video activity by pool</span></span>
+### <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-pool"></a><span data-ttu-id="a16a2-175">Métricas para atividade de vídeo e voz ponto a ponto por pool</span><span class="sxs-lookup"><span data-stu-id="a16a2-175">Metrics for peer-to-peer voice and video activity by pool</span></span>
 
 <table>
 <colgroup>
@@ -170,26 +170,26 @@ ms.locfileid: "42140004"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="45dc4-176">Nome</span><span class="sxs-lookup"><span data-stu-id="45dc4-176">Name</span></span></th>
-<th><span data-ttu-id="45dc4-177">É possível classificar este item?</span><span class="sxs-lookup"><span data-stu-id="45dc4-177">Can you sort on this item?</span></span></th>
-<th><span data-ttu-id="45dc4-178">Descrição</span><span class="sxs-lookup"><span data-stu-id="45dc4-178">Description</span></span></th>
+<th><span data-ttu-id="a16a2-176">Nome</span><span class="sxs-lookup"><span data-stu-id="a16a2-176">Name</span></span></th>
+<th><span data-ttu-id="a16a2-177">É possível classificar este item?</span><span class="sxs-lookup"><span data-stu-id="a16a2-177">Can you sort on this item?</span></span></th>
+<th><span data-ttu-id="a16a2-178">Descrição</span><span class="sxs-lookup"><span data-stu-id="a16a2-178">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="45dc4-179"><strong>Pool</strong></span><span class="sxs-lookup"><span data-stu-id="45dc4-179"><strong>Pool</strong></span></span></p></td>
-<td><p><span data-ttu-id="45dc4-180">Não</span><span class="sxs-lookup"><span data-stu-id="45dc4-180">No</span></span></p></td>
-<td><p><span data-ttu-id="45dc4-181">Nome do pool de registradores ou servidor de borda usado para a chamada.</span><span class="sxs-lookup"><span data-stu-id="45dc4-181">Name of the Registrar pool or Edge Server used for the call.</span></span></p></td>
+<td><p><span data-ttu-id="a16a2-179"><strong>Pool</strong></span><span class="sxs-lookup"><span data-stu-id="a16a2-179"><strong>Pool</strong></span></span></p></td>
+<td><p><span data-ttu-id="a16a2-180">Não</span><span class="sxs-lookup"><span data-stu-id="a16a2-180">No</span></span></p></td>
+<td><p><span data-ttu-id="a16a2-181">Nome do pool de registradores ou servidor de borda usado para a chamada.</span><span class="sxs-lookup"><span data-stu-id="a16a2-181">Name of the Registrar pool or Edge Server used for the call.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="45dc4-182"><strong>Data/Hora</strong></span><span class="sxs-lookup"><span data-stu-id="45dc4-182"><strong>Date/Time</strong></span></span></p></td>
-<td><p><span data-ttu-id="45dc4-183">Não</span><span class="sxs-lookup"><span data-stu-id="45dc4-183">No</span></span></p></td>
-<td><p><span data-ttu-id="45dc4-184">O período de data e hora em que a chamada ocorreu.</span><span class="sxs-lookup"><span data-stu-id="45dc4-184">Date and time period in which the call took place.</span></span></p></td>
+<td><p><span data-ttu-id="a16a2-182"><strong>Data/Hora</strong></span><span class="sxs-lookup"><span data-stu-id="a16a2-182"><strong>Date/Time</strong></span></span></p></td>
+<td><p><span data-ttu-id="a16a2-183">Não</span><span class="sxs-lookup"><span data-stu-id="a16a2-183">No</span></span></p></td>
+<td><p><span data-ttu-id="a16a2-184">O período de data e hora em que a chamada ocorreu.</span><span class="sxs-lookup"><span data-stu-id="a16a2-184">Date and time period in which the call took place.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="45dc4-185"><strong>Total</strong></span><span class="sxs-lookup"><span data-stu-id="45dc4-185"><strong>Total</strong></span></span></p></td>
-<td><p><span data-ttu-id="45dc4-186">Não</span><span class="sxs-lookup"><span data-stu-id="45dc4-186">No</span></span></p></td>
-<td><p><span data-ttu-id="45dc4-187">Número total de sessões ou de contagem total de mensagens.</span><span class="sxs-lookup"><span data-stu-id="45dc4-187">Total number of sessions or total message count.</span></span></p></td>
+<td><p><span data-ttu-id="a16a2-185"><strong>Total</strong></span><span class="sxs-lookup"><span data-stu-id="a16a2-185"><strong>Total</strong></span></span></p></td>
+<td><p><span data-ttu-id="a16a2-186">Não</span><span class="sxs-lookup"><span data-stu-id="a16a2-186">No</span></span></p></td>
+<td><p><span data-ttu-id="a16a2-187">Número total de sessões ou de contagem total de mensagens.</span><span class="sxs-lookup"><span data-stu-id="a16a2-187">Total number of sessions or total message count.</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -199,11 +199,11 @@ ms.locfileid: "42140004"
 
 <div>
 
-## <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-call-type"></a><span data-ttu-id="45dc4-188">Métricas para atividade de vídeo e voz ponto a ponto por tipo de chamada</span><span class="sxs-lookup"><span data-stu-id="45dc4-188">Metrics for peer-to-peer voice and video activity by call type</span></span>
+## <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-call-type"></a><span data-ttu-id="a16a2-188">Métricas para atividade de vídeo e voz ponto a ponto por tipo de chamada</span><span class="sxs-lookup"><span data-stu-id="a16a2-188">Metrics for peer-to-peer voice and video activity by call type</span></span>
 
-<span data-ttu-id="45dc4-189">A tabela a seguir lista as informações fornecidas no relatório de vídeo e voz ponto a ponto para cada tipo de chamada realizada.</span><span class="sxs-lookup"><span data-stu-id="45dc4-189">The following table lists the information provided in the Peer-to-Peer Voice and Video Report for each type of call that was made.</span></span>
+<span data-ttu-id="a16a2-189">A tabela a seguir lista as informações fornecidas no relatório de vídeo e voz ponto a ponto para cada tipo de chamada realizada.</span><span class="sxs-lookup"><span data-stu-id="a16a2-189">The following table lists the information provided in the Peer-to-Peer Voice and Video Report for each type of call that was made.</span></span>
 
-### <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-call-type"></a><span data-ttu-id="45dc4-190">Métricas para atividade de vídeo e voz ponto a ponto por tipo de chamada</span><span class="sxs-lookup"><span data-stu-id="45dc4-190">Metrics for peer-to-peer voice and video activity by call type</span></span>
+### <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-call-type"></a><span data-ttu-id="a16a2-190">Métricas para atividade de vídeo e voz ponto a ponto por tipo de chamada</span><span class="sxs-lookup"><span data-stu-id="a16a2-190">Metrics for peer-to-peer voice and video activity by call type</span></span>
 
 <table>
 <colgroup>
@@ -213,32 +213,32 @@ ms.locfileid: "42140004"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="45dc4-191">Nome</span><span class="sxs-lookup"><span data-stu-id="45dc4-191">Name</span></span></th>
-<th><span data-ttu-id="45dc4-192">É possível classificar este item?</span><span class="sxs-lookup"><span data-stu-id="45dc4-192">Can you sort on this item?</span></span></th>
-<th><span data-ttu-id="45dc4-193">Descrição</span><span class="sxs-lookup"><span data-stu-id="45dc4-193">Description</span></span></th>
+<th><span data-ttu-id="a16a2-191">Nome</span><span class="sxs-lookup"><span data-stu-id="a16a2-191">Name</span></span></th>
+<th><span data-ttu-id="a16a2-192">É possível classificar este item?</span><span class="sxs-lookup"><span data-stu-id="a16a2-192">Can you sort on this item?</span></span></th>
+<th><span data-ttu-id="a16a2-193">Descrição</span><span class="sxs-lookup"><span data-stu-id="a16a2-193">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="45dc4-194"><strong>Tipo de chamada</strong></span><span class="sxs-lookup"><span data-stu-id="45dc4-194"><strong>Call type</strong></span></span></p></td>
-<td><p><span data-ttu-id="45dc4-195">Não</span><span class="sxs-lookup"><span data-stu-id="45dc4-195">No</span></span></p></td>
-<td><p><span data-ttu-id="45dc4-196">Indica o tipo de chamada realizada.</span><span class="sxs-lookup"><span data-stu-id="45dc4-196">Indicates the type of call that was made.</span></span> <span data-ttu-id="45dc4-197">Os valores são um dos seguintes:</span><span class="sxs-lookup"><span data-stu-id="45dc4-197">Values are one of the following:</span></span></p>
+<td><p><span data-ttu-id="a16a2-194"><strong>Tipo de chamada</strong></span><span class="sxs-lookup"><span data-stu-id="a16a2-194"><strong>Call type</strong></span></span></p></td>
+<td><p><span data-ttu-id="a16a2-195">Não</span><span class="sxs-lookup"><span data-stu-id="a16a2-195">No</span></span></p></td>
+<td><p><span data-ttu-id="a16a2-196">Indica o tipo de chamada realizada.</span><span class="sxs-lookup"><span data-stu-id="a16a2-196">Indicates the type of call that was made.</span></span> <span data-ttu-id="a16a2-197">Os valores são um dos seguintes:</span><span class="sxs-lookup"><span data-stu-id="a16a2-197">Values are one of the following:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="45dc4-198">UC para UC</span><span class="sxs-lookup"><span data-stu-id="45dc4-198">UC-to-UC</span></span></p></li>
-<li><p><span data-ttu-id="45dc4-199">UC para PSTN</span><span class="sxs-lookup"><span data-stu-id="45dc4-199">UC-to-PSTN</span></span></p></li>
-<li><p><span data-ttu-id="45dc4-200">PSTN para UC</span><span class="sxs-lookup"><span data-stu-id="45dc4-200">PSTN-to-UC</span></span></p></li>
-<li><p><span data-ttu-id="45dc4-201">PSTN para PSTN</span><span class="sxs-lookup"><span data-stu-id="45dc4-201">PSTN-to-PSTN</span></span></p></li>
+<li><p><span data-ttu-id="a16a2-198">UC para UC</span><span class="sxs-lookup"><span data-stu-id="a16a2-198">UC-to-UC</span></span></p></li>
+<li><p><span data-ttu-id="a16a2-199">UC para PSTN</span><span class="sxs-lookup"><span data-stu-id="a16a2-199">UC-to-PSTN</span></span></p></li>
+<li><p><span data-ttu-id="a16a2-200">PSTN para UC</span><span class="sxs-lookup"><span data-stu-id="a16a2-200">PSTN-to-UC</span></span></p></li>
+<li><p><span data-ttu-id="a16a2-201">PSTN para PSTN</span><span class="sxs-lookup"><span data-stu-id="a16a2-201">PSTN-to-PSTN</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="45dc4-202"><strong>Data/Hora</strong></span><span class="sxs-lookup"><span data-stu-id="45dc4-202"><strong>Date/Time</strong></span></span></p></td>
-<td><p><span data-ttu-id="45dc4-203">Não</span><span class="sxs-lookup"><span data-stu-id="45dc4-203">No</span></span></p></td>
-<td><p><span data-ttu-id="45dc4-204">O período de data e hora em que a chamada ocorreu.</span><span class="sxs-lookup"><span data-stu-id="45dc4-204">Date and time period in which the call took place.</span></span></p></td>
+<td><p><span data-ttu-id="a16a2-202"><strong>Data/Hora</strong></span><span class="sxs-lookup"><span data-stu-id="a16a2-202"><strong>Date/Time</strong></span></span></p></td>
+<td><p><span data-ttu-id="a16a2-203">Não</span><span class="sxs-lookup"><span data-stu-id="a16a2-203">No</span></span></p></td>
+<td><p><span data-ttu-id="a16a2-204">O período de data e hora em que a chamada ocorreu.</span><span class="sxs-lookup"><span data-stu-id="a16a2-204">Date and time period in which the call took place.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="45dc4-205"><strong>Total</strong></span><span class="sxs-lookup"><span data-stu-id="45dc4-205"><strong>Total</strong></span></span></p></td>
-<td><p><span data-ttu-id="45dc4-206">Não</span><span class="sxs-lookup"><span data-stu-id="45dc4-206">No</span></span></p></td>
-<td><p><span data-ttu-id="45dc4-207">Número total de sessões ou de contagem total de mensagens.</span><span class="sxs-lookup"><span data-stu-id="45dc4-207">Total number of sessions or total message count.</span></span></p></td>
+<td><p><span data-ttu-id="a16a2-205"><strong>Total</strong></span><span class="sxs-lookup"><span data-stu-id="a16a2-205"><strong>Total</strong></span></span></p></td>
+<td><p><span data-ttu-id="a16a2-206">Não</span><span class="sxs-lookup"><span data-stu-id="a16a2-206">No</span></span></p></td>
+<td><p><span data-ttu-id="a16a2-207">Número total de sessões ou de contagem total de mensagens.</span><span class="sxs-lookup"><span data-stu-id="a16a2-207">Total number of sessions or total message count.</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -248,11 +248,11 @@ ms.locfileid: "42140004"
 
 <div>
 
-## <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-access-type"></a><span data-ttu-id="45dc4-208">Métricas para atividade de vídeo e voz ponto a ponto por tipo de acesso</span><span class="sxs-lookup"><span data-stu-id="45dc4-208">Metrics for peer-to-peer voice and video activity by access type</span></span>
+## <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-access-type"></a><span data-ttu-id="a16a2-208">Métricas para atividade de vídeo e voz ponto a ponto por tipo de acesso</span><span class="sxs-lookup"><span data-stu-id="a16a2-208">Metrics for peer-to-peer voice and video activity by access type</span></span>
 
-<span data-ttu-id="45dc4-209">A tabela a seguir lista as informações fornecidas no relatório de vídeo e voz ponto a ponto para cada tipo de acesso à rede.</span><span class="sxs-lookup"><span data-stu-id="45dc4-209">The following table lists the information provided in the Peer-to-Peer Voice and Video Report for each network access type.</span></span>
+<span data-ttu-id="a16a2-209">A tabela a seguir lista as informações fornecidas no relatório de vídeo e voz ponto a ponto para cada tipo de acesso à rede.</span><span class="sxs-lookup"><span data-stu-id="a16a2-209">The following table lists the information provided in the Peer-to-Peer Voice and Video Report for each network access type.</span></span>
 
-### <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-access-type"></a><span data-ttu-id="45dc4-210">Métricas para atividade de vídeo e voz ponto a ponto por tipo de acesso</span><span class="sxs-lookup"><span data-stu-id="45dc4-210">Metrics for peer-to-peer voice and video activity by access type</span></span>
+### <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-access-type"></a><span data-ttu-id="a16a2-210">Métricas para atividade de vídeo e voz ponto a ponto por tipo de acesso</span><span class="sxs-lookup"><span data-stu-id="a16a2-210">Metrics for peer-to-peer voice and video activity by access type</span></span>
 
 <table>
 <colgroup>
@@ -262,31 +262,31 @@ ms.locfileid: "42140004"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="45dc4-211">Nome</span><span class="sxs-lookup"><span data-stu-id="45dc4-211">Name</span></span></th>
-<th><span data-ttu-id="45dc4-212">É possível classificar este item?</span><span class="sxs-lookup"><span data-stu-id="45dc4-212">Can you sort on this item?</span></span></th>
-<th><span data-ttu-id="45dc4-213">Descrição</span><span class="sxs-lookup"><span data-stu-id="45dc4-213">Description</span></span></th>
+<th><span data-ttu-id="a16a2-211">Nome</span><span class="sxs-lookup"><span data-stu-id="a16a2-211">Name</span></span></th>
+<th><span data-ttu-id="a16a2-212">É possível classificar este item?</span><span class="sxs-lookup"><span data-stu-id="a16a2-212">Can you sort on this item?</span></span></th>
+<th><span data-ttu-id="a16a2-213">Descrição</span><span class="sxs-lookup"><span data-stu-id="a16a2-213">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="45dc4-214"><strong>Tipo de atividade</strong></span><span class="sxs-lookup"><span data-stu-id="45dc4-214"><strong>Activity type</strong></span></span></p></td>
-<td><p><span data-ttu-id="45dc4-215">Não</span><span class="sxs-lookup"><span data-stu-id="45dc4-215">No</span></span></p></td>
-<td><p><span data-ttu-id="45dc4-216">Indica se os clientes fizeram logon na rede interna ou na rede externa quando a chamada foi feita.</span><span class="sxs-lookup"><span data-stu-id="45dc4-216">Indicates whether the clients were logged on to the internal network or the external network when the call was placed.</span></span> <span data-ttu-id="45dc4-217">Normalmente, os valores são um dos seguintes:</span><span class="sxs-lookup"><span data-stu-id="45dc4-217">Values are typically one of the following:</span></span></p>
+<td><p><span data-ttu-id="a16a2-214"><strong>Tipo de atividade</strong></span><span class="sxs-lookup"><span data-stu-id="a16a2-214"><strong>Activity type</strong></span></span></p></td>
+<td><p><span data-ttu-id="a16a2-215">Não</span><span class="sxs-lookup"><span data-stu-id="a16a2-215">No</span></span></p></td>
+<td><p><span data-ttu-id="a16a2-216">Indica se os clientes fizeram logon na rede interna ou na rede externa quando a chamada foi feita.</span><span class="sxs-lookup"><span data-stu-id="a16a2-216">Indicates whether the clients were logged on to the internal network or the external network when the call was placed.</span></span> <span data-ttu-id="a16a2-217">Normalmente, os valores são um dos seguintes:</span><span class="sxs-lookup"><span data-stu-id="a16a2-217">Values are typically one of the following:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="45dc4-218">Interna</span><span class="sxs-lookup"><span data-stu-id="45dc4-218">Internal</span></span></p></li>
-<li><p><span data-ttu-id="45dc4-219">Externa</span><span class="sxs-lookup"><span data-stu-id="45dc4-219">External</span></span></p></li>
-<li><p><span data-ttu-id="45dc4-220">Mistos</span><span class="sxs-lookup"><span data-stu-id="45dc4-220">Mixed</span></span></p></li>
+<li><p><span data-ttu-id="a16a2-218">Interna</span><span class="sxs-lookup"><span data-stu-id="a16a2-218">Internal</span></span></p></li>
+<li><p><span data-ttu-id="a16a2-219">Externa</span><span class="sxs-lookup"><span data-stu-id="a16a2-219">External</span></span></p></li>
+<li><p><span data-ttu-id="a16a2-220">Mistos</span><span class="sxs-lookup"><span data-stu-id="a16a2-220">Mixed</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="45dc4-221"><strong>Data/Hora</strong></span><span class="sxs-lookup"><span data-stu-id="45dc4-221"><strong>Date/Time</strong></span></span></p></td>
-<td><p><span data-ttu-id="45dc4-222">Não</span><span class="sxs-lookup"><span data-stu-id="45dc4-222">No</span></span></p></td>
-<td><p><span data-ttu-id="45dc4-223">O período de data e hora em que a chamada ocorreu.</span><span class="sxs-lookup"><span data-stu-id="45dc4-223">Date and time period in which the call took place.</span></span></p></td>
+<td><p><span data-ttu-id="a16a2-221"><strong>Data/Hora</strong></span><span class="sxs-lookup"><span data-stu-id="a16a2-221"><strong>Date/Time</strong></span></span></p></td>
+<td><p><span data-ttu-id="a16a2-222">Não</span><span class="sxs-lookup"><span data-stu-id="a16a2-222">No</span></span></p></td>
+<td><p><span data-ttu-id="a16a2-223">O período de data e hora em que a chamada ocorreu.</span><span class="sxs-lookup"><span data-stu-id="a16a2-223">Date and time period in which the call took place.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="45dc4-224"><strong>Total</strong></span><span class="sxs-lookup"><span data-stu-id="45dc4-224"><strong>Total</strong></span></span></p></td>
-<td><p><span data-ttu-id="45dc4-225">Não</span><span class="sxs-lookup"><span data-stu-id="45dc4-225">No</span></span></p></td>
-<td><p><span data-ttu-id="45dc4-226">Número total de sessões ou de contagem total de mensagens.</span><span class="sxs-lookup"><span data-stu-id="45dc4-226">Total number of sessions or total message count.</span></span></p></td>
+<td><p><span data-ttu-id="a16a2-224"><strong>Total</strong></span><span class="sxs-lookup"><span data-stu-id="a16a2-224"><strong>Total</strong></span></span></p></td>
+<td><p><span data-ttu-id="a16a2-225">Não</span><span class="sxs-lookup"><span data-stu-id="a16a2-225">No</span></span></p></td>
+<td><p><span data-ttu-id="a16a2-226">Número total de sessões ou de contagem total de mensagens.</span><span class="sxs-lookup"><span data-stu-id="a16a2-226">Total number of sessions or total message count.</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -296,11 +296,11 @@ ms.locfileid: "42140004"
 
 <div>
 
-## <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-mediation-server"></a><span data-ttu-id="45dc4-227">Métricas para atividade de vídeo e voz ponto a ponto por servidor de mediação</span><span class="sxs-lookup"><span data-stu-id="45dc4-227">Metrics for peer-to-peer voice and video activity by mediation server</span></span>
+## <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-mediation-server"></a><span data-ttu-id="a16a2-227">Métricas para atividade de vídeo e voz ponto a ponto por servidor de mediação</span><span class="sxs-lookup"><span data-stu-id="a16a2-227">Metrics for peer-to-peer voice and video activity by mediation server</span></span>
 
-<span data-ttu-id="45dc4-228">A tabela a seguir lista as informações fornecidas no relatório de vídeo e voz ponto a ponto para cada servidor de mediação.</span><span class="sxs-lookup"><span data-stu-id="45dc4-228">The following table lists the information provided in the Peer-to-Peer Voice and Video Report for each Mediation Server.</span></span>
+<span data-ttu-id="a16a2-228">A tabela a seguir lista as informações fornecidas no relatório de vídeo e voz ponto a ponto para cada servidor de mediação.</span><span class="sxs-lookup"><span data-stu-id="a16a2-228">The following table lists the information provided in the Peer-to-Peer Voice and Video Report for each Mediation Server.</span></span>
 
-### <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-mediation-server"></a><span data-ttu-id="45dc4-229">Métricas para atividade de vídeo e voz ponto a ponto por servidor de mediação</span><span class="sxs-lookup"><span data-stu-id="45dc4-229">Metrics for peer-to-peer voice and video activity by mediation server</span></span>
+### <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-mediation-server"></a><span data-ttu-id="a16a2-229">Métricas para atividade de vídeo e voz ponto a ponto por servidor de mediação</span><span class="sxs-lookup"><span data-stu-id="a16a2-229">Metrics for peer-to-peer voice and video activity by mediation server</span></span>
 
 <table>
 <colgroup>
@@ -310,26 +310,26 @@ ms.locfileid: "42140004"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="45dc4-230">Nome</span><span class="sxs-lookup"><span data-stu-id="45dc4-230">Name</span></span></th>
-<th><span data-ttu-id="45dc4-231">É possível classificar este item?</span><span class="sxs-lookup"><span data-stu-id="45dc4-231">Can you sort on this item?</span></span></th>
-<th><span data-ttu-id="45dc4-232">Descrição</span><span class="sxs-lookup"><span data-stu-id="45dc4-232">Description</span></span></th>
+<th><span data-ttu-id="a16a2-230">Nome</span><span class="sxs-lookup"><span data-stu-id="a16a2-230">Name</span></span></th>
+<th><span data-ttu-id="a16a2-231">É possível classificar este item?</span><span class="sxs-lookup"><span data-stu-id="a16a2-231">Can you sort on this item?</span></span></th>
+<th><span data-ttu-id="a16a2-232">Descrição</span><span class="sxs-lookup"><span data-stu-id="a16a2-232">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="45dc4-233"><strong>Servidor de Mediação</strong></span><span class="sxs-lookup"><span data-stu-id="45dc4-233"><strong>Mediation Server</strong></span></span></p></td>
-<td><p><span data-ttu-id="45dc4-234">Não</span><span class="sxs-lookup"><span data-stu-id="45dc4-234">No</span></span></p></td>
-<td><p><span data-ttu-id="45dc4-235">Nome do servidor de mediação.</span><span class="sxs-lookup"><span data-stu-id="45dc4-235">Name of the Mediation Server.</span></span></p></td>
+<td><p><span data-ttu-id="a16a2-233"><strong>Servidor de Mediação</strong></span><span class="sxs-lookup"><span data-stu-id="a16a2-233"><strong>Mediation Server</strong></span></span></p></td>
+<td><p><span data-ttu-id="a16a2-234">Não</span><span class="sxs-lookup"><span data-stu-id="a16a2-234">No</span></span></p></td>
+<td><p><span data-ttu-id="a16a2-235">Nome do servidor de mediação.</span><span class="sxs-lookup"><span data-stu-id="a16a2-235">Name of the Mediation Server.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="45dc4-236"><strong>Data/Hora</strong></span><span class="sxs-lookup"><span data-stu-id="45dc4-236"><strong>Date/Time</strong></span></span></p></td>
-<td><p><span data-ttu-id="45dc4-237">Não</span><span class="sxs-lookup"><span data-stu-id="45dc4-237">No</span></span></p></td>
-<td><p><span data-ttu-id="45dc4-238">O período de data e hora em que a chamada ocorreu.</span><span class="sxs-lookup"><span data-stu-id="45dc4-238">Date and time period in which the call took place.</span></span></p></td>
+<td><p><span data-ttu-id="a16a2-236"><strong>Data/Hora</strong></span><span class="sxs-lookup"><span data-stu-id="a16a2-236"><strong>Date/Time</strong></span></span></p></td>
+<td><p><span data-ttu-id="a16a2-237">Não</span><span class="sxs-lookup"><span data-stu-id="a16a2-237">No</span></span></p></td>
+<td><p><span data-ttu-id="a16a2-238">O período de data e hora em que a chamada ocorreu.</span><span class="sxs-lookup"><span data-stu-id="a16a2-238">Date and time period in which the call took place.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="45dc4-239"><strong>Total</strong></span><span class="sxs-lookup"><span data-stu-id="45dc4-239"><strong>Total</strong></span></span></p></td>
-<td><p><span data-ttu-id="45dc4-240">Não</span><span class="sxs-lookup"><span data-stu-id="45dc4-240">No</span></span></p></td>
-<td><p><span data-ttu-id="45dc4-241">Número total de sessões ou de contagem total de mensagens.</span><span class="sxs-lookup"><span data-stu-id="45dc4-241">Total number of sessions or total message count.</span></span></p></td>
+<td><p><span data-ttu-id="a16a2-239"><strong>Total</strong></span><span class="sxs-lookup"><span data-stu-id="a16a2-239"><strong>Total</strong></span></span></p></td>
+<td><p><span data-ttu-id="a16a2-240">Não</span><span class="sxs-lookup"><span data-stu-id="a16a2-240">No</span></span></p></td>
+<td><p><span data-ttu-id="a16a2-241">Número total de sessões ou de contagem total de mensagens.</span><span class="sxs-lookup"><span data-stu-id="a16a2-241">Total number of sessions or total message count.</span></span></p></td>
 </tr>
 </tbody>
 </table>

@@ -12,20 +12,20 @@ ms:contentKeyID: 48183601
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9400869aca07894c7c0c7890609063dcf0d60606
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: e71a1f02fda14c2bcbb54aaec5e12307421090e4
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42153131"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42215927"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-sip-trunking-in-lync-server-2013"></a><span data-ttu-id="51a4d-102">Visão geral do tronco SIP no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="51a4d-102">Overview of SIP trunking in Lync Server 2013</span></span>
+# <a name="overview-of-sip-trunking-in-lync-server-2013"></a><span data-ttu-id="812bd-102">Visão geral do tronco SIP no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="812bd-102">Overview of SIP trunking in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,39 +35,39 @@ ms.locfileid: "42153131"
 
 <span> </span>
 
-<span data-ttu-id="51a4d-103">_**Última modificação do tópico:** 2012-10-05_</span><span class="sxs-lookup"><span data-stu-id="51a4d-103">_**Topic Last Modified:** 2012-10-05_</span></span>
+<span data-ttu-id="812bd-103">_**Última modificação do tópico:** 2012-10-05_</span><span class="sxs-lookup"><span data-stu-id="812bd-103">_**Topic Last Modified:** 2012-10-05_</span></span>
 
-<span data-ttu-id="51a4d-p101">A implantação de troncos SIP pode ser um grande passo para a simplificação das telecomunicações da sua organização e a preparação para os últimos aperfeiçoamentos nas comunicações em tempo real. Umas das principais vantagens de troncos SIP é que você pode consolidar as conexões da sua organização com a PSTN em um local central, ao contrário do seu anterior, o tronco TDM, que normalmente exige um tronco separado de cada local.</span><span class="sxs-lookup"><span data-stu-id="51a4d-p101">Deploying SIP trunking can be a big step toward simplifying your organization’s telecommunications and preparing for up-to-date enhancements to real-time communications. One of the primary advantages of SIP trunking is that you can consolidate your organization’s connections to the public switched telephone network (PSTN) at a central site, as opposed to its predecessor, time division multiplexing (TDM) trunking, which typically requires a separate trunk from each branch site.</span></span>
+<span data-ttu-id="812bd-p101">A implantação de troncos SIP pode ser um grande passo para a simplificação das telecomunicações da sua organização e a preparação para os últimos aperfeiçoamentos nas comunicações em tempo real. Umas das principais vantagens de troncos SIP é que você pode consolidar as conexões da sua organização com a PSTN em um local central, ao contrário do seu anterior, o tronco TDM, que normalmente exige um tronco separado de cada local.</span><span class="sxs-lookup"><span data-stu-id="812bd-p101">Deploying SIP trunking can be a big step toward simplifying your organization’s telecommunications and preparing for up-to-date enhancements to real-time communications. One of the primary advantages of SIP trunking is that you can consolidate your organization’s connections to the public switched telephone network (PSTN) at a central site, as opposed to its predecessor, time division multiplexing (TDM) trunking, which typically requires a separate trunk from each branch site.</span></span>
 
 <div>
 
-## <a name="sip-trunking-in-lync-server"></a><span data-ttu-id="51a4d-106">Tronco SIP no Lync Server</span><span class="sxs-lookup"><span data-stu-id="51a4d-106">SIP Trunking in Lync Server</span></span>
+## <a name="sip-trunking-in-lync-server"></a><span data-ttu-id="812bd-106">Tronco SIP no Lync Server</span><span class="sxs-lookup"><span data-stu-id="812bd-106">SIP Trunking in Lync Server</span></span>
 
-<span data-ttu-id="51a4d-107">Os recursos de tronco SIP do Lync Server 2013 habilitam o seguinte:</span><span class="sxs-lookup"><span data-stu-id="51a4d-107">The Lync Server 2013 SIP trunking capabilities enable the following:</span></span>
+<span data-ttu-id="812bd-107">Os recursos de tronco SIP do Lync Server 2013 habilitam o seguinte:</span><span class="sxs-lookup"><span data-stu-id="812bd-107">The Lync Server 2013 SIP trunking capabilities enable the following:</span></span>
 
-  - <span data-ttu-id="51a4d-108">Um usuário corporativo, dentro ou fora do firewall corporativo, pode fazer uma chamada local ou de longa distância especificada por um número compatível com o E.164 que seja terminado no PSTN como um serviço do provedor correspondente.</span><span class="sxs-lookup"><span data-stu-id="51a4d-108">An enterprise user, whether inside or outside the corporate firewall, can make a local call or a long-distance call that is specified by an E.164-compliant number that is terminated on the PSTN as a service of the corresponding service provider.</span></span>
+  - <span data-ttu-id="812bd-108">Um usuário corporativo, dentro ou fora do firewall corporativo, pode fazer uma chamada local ou de longa distância especificada por um número compatível com o E.164 que seja terminado no PSTN como um serviço do provedor correspondente.</span><span class="sxs-lookup"><span data-stu-id="812bd-108">An enterprise user, whether inside or outside the corporate firewall, can make a local call or a long-distance call that is specified by an E.164-compliant number that is terminated on the PSTN as a service of the corresponding service provider.</span></span>
 
-  - <span data-ttu-id="51a4d-109">Qualquer assinante do PSTN pode entrar em contato com um usuário corporativo dentro ou fora do firewall corporativo ao discar um número DID (Discagem Direta Interna) associado àquele usuário da empresa.</span><span class="sxs-lookup"><span data-stu-id="51a4d-109">Any PSTN subscriber can contact an enterprise user inside or outside the corporate firewall by dialing a Direct Inward Dialing (DID) number that is associated with that enterprise user.</span></span>
+  - <span data-ttu-id="812bd-109">Qualquer assinante do PSTN pode entrar em contato com um usuário corporativo dentro ou fora do firewall corporativo ao discar um número DID (Discagem Direta Interna) associado àquele usuário da empresa.</span><span class="sxs-lookup"><span data-stu-id="812bd-109">Any PSTN subscriber can contact an enterprise user inside or outside the corporate firewall by dialing a Direct Inward Dialing (DID) number that is associated with that enterprise user.</span></span>
 
 </div>
 
 <div>
 
-## <a name="cost-savings"></a><span data-ttu-id="51a4d-110">Redução de custo</span><span class="sxs-lookup"><span data-stu-id="51a4d-110">Cost Savings</span></span>
+## <a name="cost-savings"></a><span data-ttu-id="812bd-110">Redução de custo</span><span class="sxs-lookup"><span data-stu-id="812bd-110">Cost Savings</span></span>
 
-<span data-ttu-id="51a4d-111">As reduções de custo associadas ao tronco SIP podem ser substanciais:</span><span class="sxs-lookup"><span data-stu-id="51a4d-111">The cost savings associated with SIP trunking can be substantial:</span></span>
+<span data-ttu-id="812bd-111">As reduções de custo associadas ao tronco SIP podem ser substanciais:</span><span class="sxs-lookup"><span data-stu-id="812bd-111">The cost savings associated with SIP trunking can be substantial:</span></span>
 
-  - <span data-ttu-id="51a4d-112">Geralmente, as chamadas de longa distância custam menos através de um tronco SIP.</span><span class="sxs-lookup"><span data-stu-id="51a4d-112">Long distance calls typically cost much less through a SIP trunk.</span></span>
+  - <span data-ttu-id="812bd-112">Geralmente, as chamadas de longa distância custam menos através de um tronco SIP.</span><span class="sxs-lookup"><span data-stu-id="812bd-112">Long distance calls typically cost much less through a SIP trunk.</span></span>
 
-  - <span data-ttu-id="51a4d-113">Você pode cortar os custos de gerenciamento e reduzir a complexidade da implementação.</span><span class="sxs-lookup"><span data-stu-id="51a4d-113">You can cut manageability costs and reduce the complexity of deployment.</span></span>
+  - <span data-ttu-id="812bd-113">Você pode cortar os custos de gerenciamento e reduzir a complexidade da implementação.</span><span class="sxs-lookup"><span data-stu-id="812bd-113">You can cut manageability costs and reduce the complexity of deployment.</span></span>
 
-  - <span data-ttu-id="51a4d-p102">A interface de tarifa básica (BRI) e a interface de tarifa primária (PRI) podem ser eliminadas se você conectar um tronco SIP diretamente ao ITSP, por um custo significativamente inferior. Nos troncos TDM, os provedores de serviço cobram as chamadas por minuto. O custo do tronco SIP pode ser baseado no uso da largura de banda, e você pode comprar incrementos menores e mais econômicos. (O custo real depende do modelo de serviço do que você escolhe).</span><span class="sxs-lookup"><span data-stu-id="51a4d-p102">Basic rate interface (BRI) and primary rate interface (PRI) fees can be eliminated if you connect a SIP trunk directly to your ITSP at significantly lower cost. In TDM trunking, service providers charge for calls by the minute. The cost of SIP trunking may be based on bandwidth usage, which you can buy in smaller, more economical increments. (The actual cost depends on the service model of the ITSP you choose.)</span></span>
+  - <span data-ttu-id="812bd-p102">A interface de tarifa básica (BRI) e a interface de tarifa primária (PRI) podem ser eliminadas se você conectar um tronco SIP diretamente ao ITSP, por um custo significativamente inferior. Nos troncos TDM, os provedores de serviço cobram as chamadas por minuto. O custo do tronco SIP pode ser baseado no uso da largura de banda, e você pode comprar incrementos menores e mais econômicos. (O custo real depende do modelo de serviço do que você escolhe).</span><span class="sxs-lookup"><span data-stu-id="812bd-p102">Basic rate interface (BRI) and primary rate interface (PRI) fees can be eliminated if you connect a SIP trunk directly to your ITSP at significantly lower cost. In TDM trunking, service providers charge for calls by the minute. The cost of SIP trunking may be based on bandwidth usage, which you can buy in smaller, more economical increments. (The actual cost depends on the service model of the ITSP you choose.)</span></span>
 
 <div>
 
-## <a name="sip-trunking-vs-hosting-a-pstn-gateway-or-ip-pbx"></a><span data-ttu-id="51a4d-118">Tronco SIP versus hospedagem de um gateway PSTN ou IP-PBX</span><span class="sxs-lookup"><span data-stu-id="51a4d-118">SIP Trunking vs. Hosting a PSTN Gateway or IP-PBX</span></span>
+## <a name="sip-trunking-vs-hosting-a-pstn-gateway-or-ip-pbx"></a><span data-ttu-id="812bd-118">Tronco SIP versus hospedagem de um gateway PSTN ou IP-PBX</span><span class="sxs-lookup"><span data-stu-id="812bd-118">SIP Trunking vs. Hosting a PSTN Gateway or IP-PBX</span></span>
 
-<span data-ttu-id="51a4d-p103">Uma vez que os troncos SIP se conectam diretamente ao provedor de serviço, você pode eliminar os seus gateways PSTN e seu custo de gerenciamento e complexidade. O uso de um tronco SIP pode levar a cortes substanciais no custo, através da manutenção e administração reduzida.</span><span class="sxs-lookup"><span data-stu-id="51a4d-p103">Because SIP trunks connect directly to your service provider, you can eliminate your PSTN gateways and their management cost and complexity. Using a SIP trunk can lead to substantial cost savings through reduced maintenance and administration.</span></span>
+<span data-ttu-id="812bd-p103">Uma vez que os troncos SIP se conectam diretamente ao provedor de serviço, você pode eliminar os seus gateways PSTN e seu custo de gerenciamento e complexidade. O uso de um tronco SIP pode levar a cortes substanciais no custo, através da manutenção e administração reduzida.</span><span class="sxs-lookup"><span data-stu-id="812bd-p103">Because SIP trunks connect directly to your service provider, you can eliminate your PSTN gateways and their management cost and complexity. Using a SIP trunk can lead to substantial cost savings through reduced maintenance and administration.</span></span>
 
 </div>
 
@@ -75,19 +75,19 @@ ms.locfileid: "42153131"
 
 <div>
 
-## <a name="expanded-voip-services"></a><span data-ttu-id="51a4d-121">Serviços de VoIP expandidos</span><span class="sxs-lookup"><span data-stu-id="51a4d-121">Expanded VoIP Services</span></span>
+## <a name="expanded-voip-services"></a><span data-ttu-id="812bd-121">Serviços de VoIP expandidos</span><span class="sxs-lookup"><span data-stu-id="812bd-121">Expanded VoIP Services</span></span>
 
-<span data-ttu-id="51a4d-122">Os recursos de voz são frequentemente o principal motivo para implantar o tronco SIP, mas o suporte de voz é apenas a primeira etapa.</span><span class="sxs-lookup"><span data-stu-id="51a4d-122">Voice features are often the primary motivation for deploying SIP trunking, but voice support is just the first step.</span></span> <span data-ttu-id="51a4d-123">Com o tronco SIP, você pode estender os recursos de VoIP e habilitar o Lync Server 2013 para fornecer um conjunto de serviços mais avançado.</span><span class="sxs-lookup"><span data-stu-id="51a4d-123">With SIP trunking, you can extend VoIP capabilities and enable Lync Server 2013 to deliver a richer set of services.</span></span> <span data-ttu-id="51a4d-124">Por exemplo:</span><span class="sxs-lookup"><span data-stu-id="51a4d-124">For example:</span></span>
+<span data-ttu-id="812bd-122">Os recursos de voz são frequentemente o principal motivo para implantar o tronco SIP, mas o suporte de voz é apenas a primeira etapa.</span><span class="sxs-lookup"><span data-stu-id="812bd-122">Voice features are often the primary motivation for deploying SIP trunking, but voice support is just the first step.</span></span> <span data-ttu-id="812bd-123">Com o tronco SIP, você pode estender os recursos de VoIP e habilitar o Lync Server 2013 para fornecer um conjunto de serviços mais avançado.</span><span class="sxs-lookup"><span data-stu-id="812bd-123">With SIP trunking, you can extend VoIP capabilities and enable Lync Server 2013 to deliver a richer set of services.</span></span> <span data-ttu-id="812bd-124">Por exemplo:</span><span class="sxs-lookup"><span data-stu-id="812bd-124">For example:</span></span>
 
-  - <span data-ttu-id="51a4d-125">A detecção de presença avançada para dispositivos que não estão executando o Lync Server 2013 pode fornecer uma melhor integração com telefones celulares, permitindo que você veja quando um usuário está em uma chamada de telefone celular.</span><span class="sxs-lookup"><span data-stu-id="51a4d-125">Enhanced presence detection for devices that are not running Lync Server 2013 can provide better integration with mobile phones, enabling you to see when a user is on a mobile phone call.</span></span>
+  - <span data-ttu-id="812bd-125">A detecção de presença avançada para dispositivos que não estão executando o Lync Server 2013 pode fornecer uma melhor integração com telefones celulares, permitindo que você veja quando um usuário está em uma chamada de telefone celular.</span><span class="sxs-lookup"><span data-stu-id="812bd-125">Enhanced presence detection for devices that are not running Lync Server 2013 can provide better integration with mobile phones, enabling you to see when a user is on a mobile phone call.</span></span>
 
-  - <span data-ttu-id="51a4d-126">As chamadas de emergência E9-1-1 permitem que as autoridades que atendem ao 911 determinem a localização do chamador a partir do número do telefone.</span><span class="sxs-lookup"><span data-stu-id="51a4d-126">E9-1-1 emergency calling enables the authorities who answer 911 calls to determine the caller’s location from his or her telephone number.</span></span>
+  - <span data-ttu-id="812bd-126">As chamadas de emergência E9-1-1 permitem que as autoridades que atendem ao 911 determinem a localização do chamador a partir do número do telefone.</span><span class="sxs-lookup"><span data-stu-id="812bd-126">E9-1-1 emergency calling enables the authorities who answer 911 calls to determine the caller’s location from his or her telephone number.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="51a4d-127">Consulte o ITSP para obter uma lista de serviços que eles suportam e podem habilitar para sua organização.</span><span class="sxs-lookup"><span data-stu-id="51a4d-127">Contact your ITSP for a list of services that they support and can enable for your organization.</span></span>
+> <span data-ttu-id="812bd-127">Consulte o ITSP para obter uma lista de serviços que eles suportam e podem habilitar para sua organização.</span><span class="sxs-lookup"><span data-stu-id="812bd-127">Contact your ITSP for a list of services that they support and can enable for your organization.</span></span>
 
 
 
