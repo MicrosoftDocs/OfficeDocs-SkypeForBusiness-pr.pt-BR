@@ -12,16 +12,16 @@ ms:contentKeyID: 61084874
 ms.date: 06/24/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e35627633839f294cebced6df47a90919e7fc5ef
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: caff54dd2919bacfda02fceff138650f90bae650
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42139152"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42208777"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
@@ -103,7 +103,7 @@ Depois de escolher uma estrada para começar, defina um destino para cada área 
 
 ## <a name="pcd"></a>PCD
 
-A ferramenta de diagnóstico de chamadas (PCD) ajudará você a identificar e diagnosticar problemas em sua rede de perímetro (o banco de dados de QoE não coletará informações na sua rede de borda ou de perímetro) e também solucionará problemas de conexões na última milha. A ferramenta está disponível como um aplicativo moderno do Windows 8 ou um aplicativo da área de http://apps.microsoft.com/windows/en-us/app/lync-2013-precall-diagnostics/9607fe33-2b51-403d-9615-c23f248e7c88trabalho do Windows em.
+A ferramenta de diagnóstico de chamadas (PCD) ajudará você a identificar e diagnosticar problemas em sua rede de perímetro (o banco de dados de QoE não coletará informações na sua rede de borda ou de perímetro) e também solucionará problemas de conexões na última milha. A ferramenta está disponível como um aplicativo moderno do Windows 8 ou um aplicativo da área de https://apps.microsoft.com/windows/en-us/app/lync-2013-precall-diagnostics/9607fe33-2b51-403d-9615-c23f248e7c88trabalho do Windows em.
 
 </div>
 
