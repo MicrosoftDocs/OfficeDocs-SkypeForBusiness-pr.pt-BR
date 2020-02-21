@@ -12,20 +12,20 @@ ms:contentKeyID: 50873761
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: abf4356478b5b1518de2a616e4eaf49f71443294
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 4f9a70f46ecc74901b708bbed763a923dd2a6257
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42138582"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42206407"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="client-version-rules-in-lync-server-2013"></a><span data-ttu-id="f2309-102">Regras de versão do cliente no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f2309-102">Client version rules in Lync Server 2013</span></span>
+# <a name="client-version-rules-in-lync-server-2013"></a><span data-ttu-id="561ed-102">Regras de versão do cliente no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="561ed-102">Client version rules in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "42138582"
 
 <span> </span>
 
-<span data-ttu-id="f2309-103">_**Última modificação do tópico:** 2012-12-11_</span><span class="sxs-lookup"><span data-stu-id="f2309-103">_**Topic Last Modified:** 2012-12-11_</span></span>
+<span data-ttu-id="561ed-103">_**Última modificação do tópico:** 2012-12-11_</span><span class="sxs-lookup"><span data-stu-id="561ed-103">_**Topic Last Modified:** 2012-12-11_</span></span>
 
-<span data-ttu-id="f2309-104">Uma política de versão do cliente é composta por um conjunto de regras de política de versão do cliente.</span><span class="sxs-lookup"><span data-stu-id="f2309-104">A client version policy is made up of a set of client version policy rules.</span></span> <span data-ttu-id="f2309-105">Essas regras definem as ações que devem ser executadas quando os usuários tentam fazer logon com clientes específicos e versões do cliente.</span><span class="sxs-lookup"><span data-stu-id="f2309-105">These rules define the actions that should be taken when users attempt to log on with specific clients and client versions.</span></span> <span data-ttu-id="f2309-106">Use os procedimentos a seguir para configurar as regras de política de versão do cliente para o Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f2309-106">Use the following procedures to configure client version policy rules for Lync Server 2013</span></span>
+<span data-ttu-id="561ed-104">Uma política de versão do cliente é composta por um conjunto de regras de política de versão do cliente.</span><span class="sxs-lookup"><span data-stu-id="561ed-104">A client version policy is made up of a set of client version policy rules.</span></span> <span data-ttu-id="561ed-105">Essas regras definem as ações que devem ser executadas quando os usuários tentam fazer logon com clientes específicos e versões do cliente.</span><span class="sxs-lookup"><span data-stu-id="561ed-105">These rules define the actions that should be taken when users attempt to log on with specific clients and client versions.</span></span> <span data-ttu-id="561ed-106">Use os procedimentos a seguir para configurar as regras de política de versão do cliente para o Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="561ed-106">Use the following procedures to configure client version policy rules for Lync Server 2013</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="f2309-107">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="f2309-107">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="561ed-107">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="561ed-107">In This Section</span></span>
 
-  - [<span data-ttu-id="f2309-108">Exibir regras de política de versão do cliente no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f2309-108">View client version policy rules in Lync Server 2013</span></span>](lync-server-2013-view-client-version-policy-rules.md)
+  - [<span data-ttu-id="561ed-108">Exibir regras de política de versão do cliente no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="561ed-108">View client version policy rules in Lync Server 2013</span></span>](lync-server-2013-view-client-version-policy-rules.md)
 
-  - [<span data-ttu-id="f2309-109">Criar ou modificar uma nova regra de política de versão do cliente no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f2309-109">Create or modify a new client version policy rule in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-new-client-version-policy-rule.md)
+  - [<span data-ttu-id="561ed-109">Criar ou modificar uma nova regra de política de versão do cliente no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="561ed-109">Create or modify a new client version policy rule in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-new-client-version-policy-rule.md)
 
-  - [<span data-ttu-id="f2309-110">Excluir uma regra de política de versão de cliente existente no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f2309-110">Delete an existing client version policy rule in Lync Server 2013</span></span>](lync-server-2013-delete-an-existing-client-version-policy-rule.md)
+  - [<span data-ttu-id="561ed-110">Excluir uma regra de política de versão de cliente existente no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="561ed-110">Delete an existing client version policy rule in Lync Server 2013</span></span>](lync-server-2013-delete-an-existing-client-version-policy-rule.md)
 
 </div>
 

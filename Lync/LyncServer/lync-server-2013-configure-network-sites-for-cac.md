@@ -12,20 +12,20 @@ ms:contentKeyID: 48185144
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5a44d3e25aecb33b6f3969213c682cfa90b7d5a1
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: d2c956eb4f50a0a5e7ce1bafe955b5cea092cd2c
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42147654"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42205267"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-network-sites-for-cac-in-lync-server-2013"></a><span data-ttu-id="5eb7a-102">Configurar sites de rede para CAC no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5eb7a-102">Configure network sites for CAC in Lync Server 2013</span></span>
+# <a name="configure-network-sites-for-cac-in-lync-server-2013"></a><span data-ttu-id="dc87b-102">Configurar sites de rede para CAC no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="dc87b-102">Configure network sites for CAC in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,29 +35,29 @@ ms.locfileid: "42147654"
 
 <span> </span>
 
-<span data-ttu-id="5eb7a-103">_**Última modificação do tópico:** 2012-09-05_</span><span class="sxs-lookup"><span data-stu-id="5eb7a-103">_**Topic Last Modified:** 2012-09-05_</span></span>
+<span data-ttu-id="dc87b-103">_**Última modificação do tópico:** 2012-09-05_</span><span class="sxs-lookup"><span data-stu-id="dc87b-103">_**Topic Last Modified:** 2012-09-05_</span></span>
 
 <div class=" ">
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="5eb7a-104">Se você já tiver criado sites de rede para o E9-1-1 ou bypass de mídia, poderá modificar os sites de rede existentes para aplicar um perfil de política de largura de banda usando o cmdlet <STRONG>set-CsNetworkSite</STRONG> .</span><span class="sxs-lookup"><span data-stu-id="5eb7a-104">If you have already created network sites for E9-1-1 or media bypass, you can modify the existing network sites to apply a bandwidth policy profile by using the <STRONG>Set-CsNetworkSite</STRONG> cmdlet.</span></span> <span data-ttu-id="5eb7a-105">Para obter um exemplo de como modificar um site de rede, confira <A href="lync-server-2013-create-or-modify-a-network-site.md">criar ou modificar um site de rede no Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="5eb7a-105">For an example of how to modify a network site, see <A href="lync-server-2013-create-or-modify-a-network-site.md">Create or modify a network site in Lync Server 2013</A>.</span></span>
+> <span data-ttu-id="dc87b-104">Se você já tiver criado sites de rede para o E9-1-1 ou bypass de mídia, poderá modificar os sites de rede existentes para aplicar um perfil de política de largura de banda usando o cmdlet <STRONG>set-CsNetworkSite</STRONG> .</span><span class="sxs-lookup"><span data-stu-id="dc87b-104">If you have already created network sites for E9-1-1 or media bypass, you can modify the existing network sites to apply a bandwidth policy profile by using the <STRONG>Set-CsNetworkSite</STRONG> cmdlet.</span></span> <span data-ttu-id="dc87b-105">Para obter um exemplo de como modificar um site de rede, confira <A href="lync-server-2013-create-or-modify-a-network-site.md">criar ou modificar um site de rede no Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="dc87b-105">For an example of how to modify a network site, see <A href="lync-server-2013-create-or-modify-a-network-site.md">Create or modify a network site in Lync Server 2013</A>.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="5eb7a-106">Os *sites de rede* são os escritórios ou locais dentro de cada região de rede do CAC (controle de admissão de chamadas), E9-1-1 e implantações de bypass de mídia.</span><span class="sxs-lookup"><span data-stu-id="5eb7a-106">*Network sites* are the offices or locations within each network region of call admission control (CAC), E9-1-1, and media bypass deployments.</span></span> <span data-ttu-id="5eb7a-107">Use os procedimentos a seguir para criar sites de rede que se alinhem a sites de rede no exemplo de topologia de rede para CAC.</span><span class="sxs-lookup"><span data-stu-id="5eb7a-107">Use the following procedures to create network sites that align to network sites in the example network topology for CAC.</span></span> <span data-ttu-id="5eb7a-108">Estes procedimentos mostram como criar e configurar sites de rede que são restritos pela largura de banda WAN e, portanto, exigem políticas de largura de banda que limitam o fluxo de tráfego de áudio ou vídeo em tempo real.</span><span class="sxs-lookup"><span data-stu-id="5eb7a-108">These procedures show how to create and configure network sites that are constrained by WAN bandwidth and therefore require bandwidth policies that limit real-time audio or video traffic flow.</span></span>
+<span data-ttu-id="dc87b-106">Os *sites de rede* são os escritórios ou locais dentro de cada região de rede do CAC (controle de admissão de chamadas), E9-1-1 e implantações de bypass de mídia.</span><span class="sxs-lookup"><span data-stu-id="dc87b-106">*Network sites* are the offices or locations within each network region of call admission control (CAC), E9-1-1, and media bypass deployments.</span></span> <span data-ttu-id="dc87b-107">Use os procedimentos a seguir para criar sites de rede que se alinhem a sites de rede no exemplo de topologia de rede para CAC.</span><span class="sxs-lookup"><span data-stu-id="dc87b-107">Use the following procedures to create network sites that align to network sites in the example network topology for CAC.</span></span> <span data-ttu-id="dc87b-108">Estes procedimentos mostram como criar e configurar sites de rede que são restritos pela largura de banda WAN e, portanto, exigem políticas de largura de banda que limitam o fluxo de tráfego de áudio ou vídeo em tempo real.</span><span class="sxs-lookup"><span data-stu-id="dc87b-108">These procedures show how to create and configure network sites that are constrained by WAN bandwidth and therefore require bandwidth policies that limit real-time audio or video traffic flow.</span></span>
 
-<span data-ttu-id="5eb7a-109">No exemplo de implantação do CAC, a região da América do Norte tem seis sites.</span><span class="sxs-lookup"><span data-stu-id="5eb7a-109">In the example CAC deployment, the North America region has six sites.</span></span> <span data-ttu-id="5eb7a-110">Três desses sites são restritos pela largura de banda de WAN: Reno, Portland e Albuquerque.</span><span class="sxs-lookup"><span data-stu-id="5eb7a-110">Three of these sites are constrained by WAN bandwidth: Reno, Portland, and Albuquerque.</span></span> <span data-ttu-id="5eb7a-111">Os outros três sites, que *não* são restritos pela largura de banda de WAN: Nova York, Chicago e Detroit.</span><span class="sxs-lookup"><span data-stu-id="5eb7a-111">The other three sites, which are *not* constrained by WAN bandwidth: New York, Chicago, and Detroit.</span></span> <span data-ttu-id="5eb7a-112">Para obter um exemplo de como criar ou modificar outros sites de rede, confira [criar ou modificar um site de rede no Lync Server 2013](lync-server-2013-create-or-modify-a-network-site.md).</span><span class="sxs-lookup"><span data-stu-id="5eb7a-112">For an example of how to create or modify those other network sites, see [Create or modify a network site in Lync Server 2013](lync-server-2013-create-or-modify-a-network-site.md).</span></span>
+<span data-ttu-id="dc87b-109">No exemplo de implantação do CAC, a região da América do Norte tem seis sites.</span><span class="sxs-lookup"><span data-stu-id="dc87b-109">In the example CAC deployment, the North America region has six sites.</span></span> <span data-ttu-id="dc87b-110">Três desses sites são restritos pela largura de banda de WAN: Reno, Portland e Albuquerque.</span><span class="sxs-lookup"><span data-stu-id="dc87b-110">Three of these sites are constrained by WAN bandwidth: Reno, Portland, and Albuquerque.</span></span> <span data-ttu-id="dc87b-111">Os outros três sites, que *não* são restritos pela largura de banda de WAN: Nova York, Chicago e Detroit.</span><span class="sxs-lookup"><span data-stu-id="dc87b-111">The other three sites, which are *not* constrained by WAN bandwidth: New York, Chicago, and Detroit.</span></span> <span data-ttu-id="dc87b-112">Para obter um exemplo de como criar ou modificar outros sites de rede, confira [criar ou modificar um site de rede no Lync Server 2013](lync-server-2013-create-or-modify-a-network-site.md).</span><span class="sxs-lookup"><span data-stu-id="dc87b-112">For an example of how to create or modify those other network sites, see [Create or modify a network site in Lync Server 2013](lync-server-2013-create-or-modify-a-network-site.md).</span></span>
 
-<span data-ttu-id="5eb7a-113">Para exibir a topologia de rede de exemplo, confira o [exemplo: reunindo seus requisitos para controle de admissão de chamadas no Lync Server 2013](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md) na documentação de planejamento.</span><span class="sxs-lookup"><span data-stu-id="5eb7a-113">To view the example network topology, see [Example: Gathering your requirements for call admission control in Lync Server 2013](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md) in the Planning documentation.</span></span>
+<span data-ttu-id="dc87b-113">Para exibir a topologia de rede de exemplo, confira o [exemplo: reunindo seus requisitos para controle de admissão de chamadas no Lync Server 2013](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md) na documentação de planejamento.</span><span class="sxs-lookup"><span data-stu-id="dc87b-113">To view the example network topology, see [Example: Gathering your requirements for call admission control in Lync Server 2013](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md) in the Planning documentation.</span></span>
 
 <div class=" ">
 
 
 > [!NOTE]  
-> <span data-ttu-id="5eb7a-114">No procedimento a seguir, o Shell de gerenciamento do Lync Server é usado para criar um site de rede.</span><span class="sxs-lookup"><span data-stu-id="5eb7a-114">In the following procedure, Lync Server Management Shell is used to create a network site.</span></span> <span data-ttu-id="5eb7a-115">Para obter detalhes sobre como usar o painel de controle do Lync Server para criar um site de rede, consulte <A href="lync-server-2013-create-or-modify-a-network-site.md">create or Modify a Network site in Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="5eb7a-115">For details about using Lync Server Control Panel to create a network site, see <A href="lync-server-2013-create-or-modify-a-network-site.md">Create or modify a network site in Lync Server 2013</A>.</span></span>
+> <span data-ttu-id="dc87b-114">No procedimento a seguir, o Shell de gerenciamento do Lync Server é usado para criar um site de rede.</span><span class="sxs-lookup"><span data-stu-id="dc87b-114">In the following procedure, Lync Server Management Shell is used to create a network site.</span></span> <span data-ttu-id="dc87b-115">Para obter detalhes sobre como usar o painel de controle do Lync Server para criar um site de rede, consulte <A href="lync-server-2013-create-or-modify-a-network-site.md">create or Modify a Network site in Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="dc87b-115">For details about using Lync Server Control Panel to create a network site, see <A href="lync-server-2013-create-or-modify-a-network-site.md">Create or modify a network site in Lync Server 2013</A>.</span></span>
 
 
 
@@ -65,11 +65,11 @@ ms.locfileid: "42147654"
 
 <div>
 
-## <a name="to-create-network-sites-for-call-admission-control"></a><span data-ttu-id="5eb7a-116">Para criar sites de rede para controle de admissão de chamadas</span><span class="sxs-lookup"><span data-stu-id="5eb7a-116">To create network sites for call admission control</span></span>
+## <a name="to-create-network-sites-for-call-admission-control"></a><span data-ttu-id="dc87b-116">Para criar sites de rede para controle de admissão de chamadas</span><span class="sxs-lookup"><span data-stu-id="dc87b-116">To create network sites for call admission control</span></span>
 
-1.  <span data-ttu-id="5eb7a-117">Inicie o Shell de Gerenciamento do Lync Server: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Shell de Gerenciamento do Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="5eb7a-117">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+1.  <span data-ttu-id="dc87b-117">Inicie o Shell de Gerenciamento do Lync Server: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Shell de Gerenciamento do Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="dc87b-117">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-2.  <span data-ttu-id="5eb7a-118">Execute o cmdlet **New-CsNetworkSite** para criar sites de rede e aplicar um perfil de política de largura de banda apropriado a cada site.</span><span class="sxs-lookup"><span data-stu-id="5eb7a-118">Run the **New-CsNetworkSite** cmdlet to create network sites and apply an appropriate bandwidth policy profile to each site.</span></span> <span data-ttu-id="5eb7a-119">Por exemplo, execute:</span><span class="sxs-lookup"><span data-stu-id="5eb7a-119">For example, run:</span></span>
+2.  <span data-ttu-id="dc87b-118">Execute o cmdlet **New-CsNetworkSite** para criar sites de rede e aplicar um perfil de política de largura de banda apropriado a cada site.</span><span class="sxs-lookup"><span data-stu-id="dc87b-118">Run the **New-CsNetworkSite** cmdlet to create network sites and apply an appropriate bandwidth policy profile to each site.</span></span> <span data-ttu-id="dc87b-119">Por exemplo, execute:</span><span class="sxs-lookup"><span data-stu-id="dc87b-119">For example, run:</span></span>
     
        ```powershell
         New-CsNetworkSite -NetworkSiteID Reno -Description "NA:Branch office for sales force" -NetworkRegionID NorthAmerica -BWPolicyProfileID 10MB_Link
@@ -83,7 +83,7 @@ ms.locfileid: "42147654"
         New-CsNetworkSite -NetworkSiteID Albuquerque -Description "NA:Branch office for SouthWest sales" -NetworkRegionID EMEA -BWPolicyProfileID 10MB_Link
        ```
 
-3.  <span data-ttu-id="5eb7a-120">Para concluir a criação de sites de rede para toda a topologia de exemplo, repita a etapa 2 para os sites de rede com restrição de largura de banda nas regiões da EMEA e da África.</span><span class="sxs-lookup"><span data-stu-id="5eb7a-120">To finish creating network sites for the entire example topology, repeat step 2 for the bandwidth-constrained network sites in the EMEA and APAC regions.</span></span>
+3.  <span data-ttu-id="dc87b-120">Para concluir a criação de sites de rede para toda a topologia de exemplo, repita a etapa 2 para os sites de rede com restrição de largura de banda nas regiões da EMEA e da África.</span><span class="sxs-lookup"><span data-stu-id="dc87b-120">To finish creating network sites for the entire example topology, repeat step 2 for the bandwidth-constrained network sites in the EMEA and APAC regions.</span></span>
 
 </div>
 

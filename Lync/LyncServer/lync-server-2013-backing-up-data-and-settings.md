@@ -12,20 +12,20 @@ ms:contentKeyID: 51541458
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 014312515fe28950b95c083bd2946030a48278df
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 38b0abd6f48de37fe08bac700bee7267ae11fb50
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42146644"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42205837"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="backing-up-data-and-settings-in-lync-server-2013"></a><span data-ttu-id="36e2f-102">Fazendo backup de dados e configurações no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="36e2f-102">Backing up data and settings in Lync Server 2013</span></span>
+# <a name="backing-up-data-and-settings-in-lync-server-2013"></a><span data-ttu-id="2b735-102">Fazendo backup de dados e configurações no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2b735-102">Backing up data and settings in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "42146644"
 
 <span> </span>
 
-<span data-ttu-id="36e2f-103">_**Última modificação do tópico:** 2013-02-17_</span><span class="sxs-lookup"><span data-stu-id="36e2f-103">_**Topic Last Modified:** 2013-02-17_</span></span>
+<span data-ttu-id="2b735-103">_**Última modificação do tópico:** 2013-02-17_</span><span class="sxs-lookup"><span data-stu-id="2b735-103">_**Topic Last Modified:** 2013-02-17_</span></span>
 
-<span data-ttu-id="36e2f-104">Os procedimentos de backup descritos nos seguintes tópicos se aplicam a todos os servidores Enterprise Edition e servidores Standard Edition, independentemente do local.</span><span class="sxs-lookup"><span data-stu-id="36e2f-104">The backup procedures described in the following topics apply to all Enterprise Edition servers and Standard Edition servers, regardless of their location.</span></span>
+<span data-ttu-id="2b735-104">Os procedimentos de backup descritos nos seguintes tópicos se aplicam a todos os servidores Enterprise Edition e servidores Standard Edition, independentemente do local.</span><span class="sxs-lookup"><span data-stu-id="2b735-104">The backup procedures described in the following topics apply to all Enterprise Edition servers and Standard Edition servers, regardless of their location.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="36e2f-105">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="36e2f-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="2b735-105">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="2b735-105">In This Section</span></span>
 
-  - [<span data-ttu-id="36e2f-106">Fazendo backup de dados principais e configurações no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="36e2f-106">Backing up core data and settings in Lync Server 2013</span></span>](lync-server-2013-backing-up-core-data-and-settings.md)
+  - [<span data-ttu-id="2b735-106">Fazendo backup de dados principais e configurações no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2b735-106">Backing up core data and settings in Lync Server 2013</span></span>](lync-server-2013-backing-up-core-data-and-settings.md)
 
-  - [<span data-ttu-id="36e2f-107">Backup de bancos de dados de arquivamento e monitoramento no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="36e2f-107">Backing up Archiving and Monitoring databases in Lync Server 2013</span></span>](lync-server-2013-backing-up-archiving-and-monitoring-databases.md)
+  - [<span data-ttu-id="2b735-107">Backup de bancos de dados de arquivamento e monitoramento no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2b735-107">Backing up Archiving and Monitoring databases in Lync Server 2013</span></span>](lync-server-2013-backing-up-archiving-and-monitoring-databases.md)
 
-  - [<span data-ttu-id="36e2f-108">Fazendo backup de bancos de dados de chat persistente no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="36e2f-108">Backing up Persistent Chat databases in Lync Server 2013</span></span>](lync-server-2013-backing-up-persistent-chat-databases.md)
+  - [<span data-ttu-id="2b735-108">Fazendo backup de bancos de dados de chat persistente no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2b735-108">Backing up Persistent Chat databases in Lync Server 2013</span></span>](lync-server-2013-backing-up-persistent-chat-databases.md)
 
-  - [<span data-ttu-id="36e2f-109">Fazendo backup de repositórios de arquivos no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="36e2f-109">Backing up file stores in Lync Server 2013</span></span>](lync-server-2013-backing-up-file-stores.md)
+  - [<span data-ttu-id="2b735-109">Fazendo backup de repositórios de arquivos no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2b735-109">Backing up file stores in Lync Server 2013</span></span>](lync-server-2013-backing-up-file-stores.md)
 
 </div>
 
