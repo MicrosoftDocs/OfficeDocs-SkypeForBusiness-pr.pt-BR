@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6ccea644ba1f1221d412d73e6488e8610ca02857
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: a2b051efa327a014bc719753e7aecae81f78e0f4
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834491"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42160378"
 ---
 # <a name="faq--upgrading-from-skype-for-business-to-microsoft-teams"></a>Perguntas frequentes ‒ atualização do Skype for Business para o Microsoft Teams
 
@@ -82,7 +82,7 @@ Com o objetivo de oferecer suporte a clientes de menor porte que talvez não ten
 
 ### <a name="how-does-the-skype-for-business-online-retirement-announcement-affect-organizations-with-hybrid-configurations-skype-for-business-online-and-skype-for-business-server"></a>Como o anúncio da desativação do Skype for Business Online afeta as organizações com configurações híbridas (Skype for Business Online e Skype for Business Server)?
 
-Os clientes híbridos com configurações locais e online serão solicitados a migrar os usuários do Skype for Business Online para o Microsoft Teams até a data de desativação de 31 de julho de 2021. Os caminhos de atualização para configurações híbridas criados com base nos princípios de coexistência e interoperabilidade permanecerão após a desativação do Skype for Business Online. 
+Os clientes híbridos com configurações locais e online serão solicitados a migrar os usuários do Skype for Business Online para o Microsoft Teams até a data de desativação de 31 de julho de 2021. Os caminhos de atualização para configurações híbridas criados com base nos princípios de coexistência e interoperabilidade permanecerão após a desativação do Skype for Business Online. Para obter mais informações confira [Coexistência com o Skype for Business](coexistence-chat-calls-presence.md) e [Entender a coexistência e a interoperabilidade do Microsoft Teams e do Skype for Business](teams-and-skypeforbusiness-coexistence-and-interoperability.md).
 
 Os clientes com assinaturas qualificadas são incentivados a participar com o [FastTrack](https://fasttrack.microsoft.com/) para obter assistência na integração do Teams.
 
