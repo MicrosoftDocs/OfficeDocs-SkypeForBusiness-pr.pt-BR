@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba como levar seus aplicativos personalizados do teams do desenvolvimento para a implantação.
-ms.openlocfilehash: 070b0ecbf0ccc9af798e1d3a3c689ce4d4ff4da2
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.openlocfilehash: f8c5a7dcc12bc9b3823285138d15a0ccdf11c52a
+ms.sourcegitcommit: 7093388425b34c80e444a50d062290187b80047d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42161792"
+ms.lasthandoff: 02/22/2020
+ms.locfileid: "42229931"
 ---
 # <a name="manage-your-line-of-business-apps-in-microsoft-teams"></a>Gerenciar seus aplicativos de linha de negócios no Microsoft Teams
 
@@ -101,13 +101,7 @@ Para permitir que usuários confiáveis carreguem aplicativos personalizados, si
 
 ## <a name="step-3-upload-to-the-tenant-app-catalog"></a>Etapa 3: carregar para o catálogo de aplicativos do locatário
 
-Para disponibilizar o aplicativo para os usuários na App Store do locatário, carregue o aplicativo. Você pode fazer isso <a href="https://docs.microsoft.com/microsoftteams/tenant-apps-catalog-teams#go-to-the-tenant-apps-catalog" target="_blank">usando o cliente da área de trabalho do teams</a> ou na página [gerenciar aplicativos](manage-apps.md) do centro de administração do Microsoft Teams.
-
-Aqui está uma captura de tela da opção carregar no cliente da área de trabalho do teams.
-
-![Captura de tela da página aplicativos](media/manage-your-lob-apps-store.png)
-
-Aqui está uma captura de tela da opção carregar na página **gerenciar aplicativos** no centro de administração do Microsoft Teams.
+Para disponibilizar o aplicativo para os usuários na App Store do locatário, carregue o aplicativo. Você pode fazer isso na página [gerenciar aplicativos](manage-apps.md) do centro de administração do Microsoft Teams.
 
 ![Captura de tela da página Gerenciar aplicativos no centro de administração](media/manage-your-lob-apps-upload-new-app.png)
 
@@ -131,6 +125,8 @@ Por padrão, para os usuários encontrarem esse aplicativo, eles precisarão ir 
 
 Para atualizar um aplicativo, os desenvolvedores devem continuar a seguir a [etapa 1](#step-1-develop-and-test) e a [etapa 2](#step-2-validate-in-production).
 
-Você pode atualizar o aplicativo por meio do catálogo de aplicativos do locatário. Para fazer isso, no cliente da área de trabalho do Teams, vá para **aplicativos** > ** &lt;criados&gt;para o nome do locatário**, clique em **...** no canto superior direito do aplicativo e, em seguida, clique em **Atualizar**. Isso substitui o aplicativo existente no catálogo do aplicativo locatário, e todas as políticas de permissão e políticas de configuração permanecem impostas para o aplicativo atualizado. 
+Você pode atualizar o aplicativo por meio do catálogo de aplicativos do locatário. Para fazer isso, no centro de administração do Microsoft Teams, vá até **Team apps** > **gerenciar aplicativos**. Na lista de aplicativos, clique no nome do aplicativo e, em seguida, clique em **Atualizar**. Isso substitui o aplicativo existente no catálogo do aplicativo locatário, e todas as políticas de permissão do aplicativo e políticas de configuração do aplicativo permanecem impostas para o aplicativo atualizado.
 
-![Captura de tela da atualização de um aplicativo na página aplicativos](media/manage-your-lob-apps-update-app.png)
+## <a name="related-apps"></a>Aplicativos relacionados
+
+- [Gerenciar seus aplicativos no centro de administração do Microsoft Teams](manage-apps.md)
