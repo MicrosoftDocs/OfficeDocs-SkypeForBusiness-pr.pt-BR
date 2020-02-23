@@ -17,12 +17,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 535c34bd19a2f019d1b9dc07718cf20d5da2f98e
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 9c2ef9f509f64e044567d9286704458b4dc91596
+ms.sourcegitcommit: 7093388425b34c80e444a50d062290187b80047d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826949"
+ms.lasthandoff: 02/22/2020
+ms.locfileid: "42229896"
 ---
 # <a name="apps-bots--connectors-in-microsoft-teams"></a>Aplicativos, bots e conectores no Microsoft Teams
 
@@ -57,7 +57,7 @@ Os aplicativos são aceitos pelos usuários e gerenciados pelo administrador ou 
 
 | Pergunte-se | Ação |
 |--------------|--------|
-|<br>A quais aplicativos quero permitir o acesso? A quais aplicativos não quero permitir o acesso?  | <ul><li>Confira [Permissões e considerações dos aplicativos Microsoft Teams](app-permissions.md) para ver uma lista de tarefas que deverão ser consideradas ao permitir acesso a um aplicativo, bot, guia ou conector.</li><li>Confira [Publicar aplicativos no catálogo de aplicativos do locatário do Teams](tenant-apps-catalog-teams.md) para obter informações sobre como disponibilizar um aplicativo para os usuários de sua organização.</li></ul>|
+|<br>A quais aplicativos quero permitir o acesso? A quais aplicativos não quero permitir o acesso?  | <ul><li>Confira [Permissões e considerações dos aplicativos Microsoft Teams](app-permissions.md) para ver uma lista de tarefas que deverão ser consideradas ao permitir acesso a um aplicativo, bot, guia ou conector.</li><li>Consulte [Gerenciar seus aplicativos no centro administrativo do Microsoft Teams](manage-apps.md) para obter informações sobre como disponibilizar um aplicativo aos usuários em sua organização.</li></ul>|
 |||
 
 ### <a name="bots-for-private-chats-and-channels"></a>Bots para chats privados e canais
