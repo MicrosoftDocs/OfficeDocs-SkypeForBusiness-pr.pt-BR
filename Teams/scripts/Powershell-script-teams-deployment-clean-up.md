@@ -15,15 +15,14 @@ description: Use este script do PowerShell para limpar o Microsoft Teams nas má
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-ms.openlocfilehash: c02b918d0fe3d686266fd385a5378e47d98e2508
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.openlocfilehash: 64dbe1f49ada03d800fd73ba0da8d39e4f5cad30
+ms.sourcegitcommit: 73518a589db1a9883fc97827f0ddb9132995fbfa
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888250"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42236731"
 ---
-<a name="powershell-script-sample---microsoft-teams-deployment-clean-up"></a>Exemplo de script do PowerShell - Limpeza de implantação do Microsoft Teams
--------------------------------------------------------------------------
+# <a name="powershell-script-sample---microsoft-teams-deployment-clean-up"></a>Exemplo de script do PowerShell - Limpeza de implantação do Microsoft Teams
 
 Esse script do PowerShell pode ser aproveitado para a limpeza do Microsoft Teams de máquinas ou usuários de destino. Ele deve ser executado para todos os usuários em uma máquina de destino. 
 

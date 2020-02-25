@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Leia este tópico para saber como planejar o bypass de mídia com o roteamento direto do sistema telefônico.
-ms.openlocfilehash: 7c7d82d1ac13ec1612403ba5fd20471e72173122
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c40840e2169a67172f006a0f0910c715feb40253
+ms.sourcegitcommit: bb88ac0c9489bb47957e5ef1074b5df3126b6fdb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214478"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "42265636"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planejar o bypass de mídia com Roteamento Direto
 
@@ -137,7 +137,7 @@ Em caminho de mídia para chamadas não ignoradas para usuários finais | Ativa 
 Em caminho de mídia para chamadas ignoradas para usuários finais | Não | Se o cliente não puder alcançar o SBC no endereço IP público | 
 Em caminho de mídia para aplicativos de voz | Ativa | Não | 
 Pode fazer transcodificação (B2BUA)\* | Sim | Não, somente retransmite o áudio entre os pontos de extremidade | 
-Número de instâncias mundiais e locais | 8 no total: 2 em leste dos EUA e oeste; 2 em Amsterdã e Dublin; 2 em Hong Kong e Cingapura; 2 no Japão (sendo adicionado ao Q1CY2019)  | Muitos
+Número de instâncias mundiais e locais | 8 no total: 2 em leste dos EUA e oeste; 2 em Amsterdã e Dublin; 2 em Hong Kong e Cingapura; 2 no Japão  | Muitos
 
 O intervalo IP é 52.112.0.0/14 (endereços IP de 52.112.0.1 a 52.115.255.254). 
 

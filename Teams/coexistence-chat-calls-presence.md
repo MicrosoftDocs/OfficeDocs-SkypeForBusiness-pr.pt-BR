@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Este documento descreve o comportamento do chat, o roteamento de chamadas e a presença entre os usuários do Teams e o Skype for Business, tanto no locatário quanto em federado, com base nos modos de TeamsUpgrade atribuídos. Ele inclui otimizações de roteamento, comportamento de presença, bem como a alteração do modo de TeamsUpgrade padrão do *herdado* para as *ilhas* e o afastamento iminente do *herdado*.
-ms.openlocfilehash: 1a4a9f4c08da3e89324eb44551c0002931cee714
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 442b4b68b9739d9d17d02e298b53c5d9ecec3c8f
+ms.sourcegitcommit: 73518a589db1a9883fc97827f0ddb9132995fbfa
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42050113"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42236821"
 ---
 # <a name="coexistence-with-skype-for-business"></a>Coexistência com o Skype for Business
 
@@ -58,9 +58,9 @@ Os parâmetros que determinam o método de roteamento de thread são:
 > [!NOTE]
 > Atualmente, todas as federações que envolvem o Teams aproveitam o pipeline de Federação do Skype for Business, bem como as equipes – interoperabilidade do Skype for Business. Estamos planejando equipes nativas – Federação de equipes. O documento atual será atualizado após a publicação da Federação nativa.
 
-# <a name="chat-and-call-routing"></a>Chat e encaminhamento de chamadas
+## <a name="chat-and-call-routing"></a>Chat e encaminhamento de chamadas
 
-## <a name="in-tenant-routing-for-new-chats-or-calls"></a>Roteamento no locatário para novos chats ou chamadas 
+### <a name="in-tenant-routing-for-new-chats-or-calls"></a>Roteamento no locatário para novos chats ou chamadas 
 
 As tabelas abaixo encaminham a circulação de chat e chamadas no locatário e são válidas para novas chamadas ou chats que não são iniciados a partir de um thread pré-existente. Ele descreve qual cliente receberá uma nova chamada ou chat, se for originado por um usuário à esquerda, a um usuário do destinatário no locatário à direita.
 
@@ -102,7 +102,7 @@ Nas tabelas a seguir:
 |TeamsOnly  | Teams | Online |  &boxv; |Teams   |
 |  |  |  | | |
 
-## <a name="federated-routing-for-new-chats-or-calls"></a>Roteamento federado para novos chats ou chamadas
+### <a name="federated-routing-for-new-chats-or-calls"></a>Roteamento federado para novos chats ou chamadas
   
 As tabelas abaixo encaminham a circulação de chamadas federadas e chats e são válidas para novas chamadas ou chats. Elas descrevem qual cliente receberá uma nova chamada ou chat, se for originado por um usuário à esquerda, a um usuário de destino federado à direita.
 
@@ -157,14 +157,14 @@ Se o thread persistente pré-existente no Microsoft Teams era um thread nativo (
 
 Os threads do Skype for Business não persistem além do tempo limite de sessão SIP de 10 min. Chats e chamadas de um thread existente no Skype for Business antes da expiração da sessão SIP serão roteadas da mesma maneira que o thread. Chamadas e chats de um thread existente no Skype for Business além do tempo limite da sessão SIP serão roteadas para o Skype for Business da parte remota, independentemente do cliente do qual o thread original veio no lado da outra pessoa.
 
-## <a name="availability"></a>Disponibilidade
+### <a name="availability"></a>Disponibilidade
 
 Os comportamentos de locatário e federado descritos acima estão disponíveis com as seguintes limitações:
 
 - Os participantes externos cujos locatários residem em uma implantação diferente do GoLocal ou geografia não verão chats de mensagem instantânea enquanto estiverem em uma reunião "federada"
 - Não há suporte para Agrupamento e interoperabilidade entre nuvens multilocatário do O365 e do soberana
 
-# <a name="presence"></a>Presença
+## <a name="presence"></a>Presença
 
 Quando alguns usuários estiverem usando o cliente do Microsoft Teams e outros ainda estiverem usando o cliente do Skype for Business, você pode ter vários usuários que estão usando os dois clientes. Você ainda quer que os Estados de presença sejam compartilhados com todos os usuários sem considerar o cliente que um usuário individual tem. Quando isso é compartilhado em toda a organização, os usuários podem determinar melhor se é apropriado iniciar um chat ou fazer uma chamada.
 
@@ -180,7 +180,7 @@ Para saber qual comportamento esperar, você precisará compreender que a presen
     * No Skype for Business, qualquer outro usuário verá a presença do Skype for Business do usuário das ilhas (dentro do locatário e federado); Isso é alinhado com as tabelas de roteamento acima
 
 
-## <a name="in-tenant-presence"></a>Presença no locatário
+### <a name="in-tenant-presence"></a>Presença no locatário
 
 As mensagens enviadas para usuários do TeamsOnly sempre vão para o Microsoft Teams. As mensagens enviadas para\* usuários do SfB sempre vão parar no Skype for Business, se a conversa for possível, conforme descrito acima. As mensagens enviadas para as ilhas usuários sempre vão para o cliente do qual elas se originaram.
 
@@ -194,7 +194,7 @@ A tabela descreve a presença do fornecedor que será vista por um observador, d
 |Teams |&boxv; |Teams |Skype for Business |Teams |
 | | | | |
 
-## <a name="federated-presence"></a>Presença federada
+### <a name="federated-presence"></a>Presença federada
 
 A presença federada se baseia na acessibilidade federada mostrada na tabela 2.
 
@@ -208,7 +208,7 @@ A tabela a seguir descreve a presença do fornecedor que será vista por um obse
 |Teams | &boxv;|Skype for Business |Skype for Business |Teams|
 | | | | ||
 
-## <a name="presence-in-pre-existing-threads"></a>Presença em threads preexistentes
+### <a name="presence-in-pre-existing-threads"></a>Presença em threads preexistentes
 
 Para alinhar a presença e a acessibilidade em threads pré-existentes, a presença do destino exposta nesse thread precisa ser alinhada com o roteamento do thread, pressupondo que o roteamento seja possível.
 

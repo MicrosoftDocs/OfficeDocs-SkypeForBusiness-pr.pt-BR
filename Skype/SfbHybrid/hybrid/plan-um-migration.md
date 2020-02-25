@@ -11,16 +11,16 @@ ms.topic: article
 localization_priority: Normal
 ms.prod: skype-for-business-itpro
 description: Este tópico aborda o que você precisa considerar ao decidir migrar suas implantações existentes do Skype for Business Server ou do Exchange Server para a versão mais recente ou para o Skype for Business online ou o Exchange Online.
-ms.openlocfilehash: 072720499ac91942d5f1fdbdbe05fffe2de4db05
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ce2e0712c75e5aa052c7eff7667f09ff34c3908a
+ms.sourcegitcommit: bb88ac0c9489bb47957e5ef1074b5df3126b6fdb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755995"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "42265606"
 ---
 # <a name="plan-for-skype-for-business-server-and-exchange-server-migration"></a>Planejar a migração do Skype for Business Server e do Exchange Server
 
-Este tópico aborda o que você precisa considerar ao decidir migrar suas implantações existentes do Skype for Business Server ou do Exchange Server para a versão mais recente ou para o Skype for Business online ou o Exchange Online. O que você pode migrar e, quando, depende muito do que você já configurou em sua organização. Alguns recursos, como o atendedor automático da organização, não estão disponíveis na disponibilidade geral (GA), mas serão disponibilizados posteriormente em 2018.
+Este tópico aborda o que você precisa considerar ao decidir migrar suas implantações existentes do Skype for Business Server ou do Exchange Server para a versão mais recente ou para o Skype for Business online ou o Exchange Online. O que você pode migrar e, quando, depende muito do que você já configurou em sua organização.
 
 ## <a name="feature-changes-in-exchange-2019-and-skype-for-business-server-2019"></a>Alterações de recursos no Exchange 2019 e no Skype for Business Server 2019
 
@@ -45,12 +45,12 @@ A caixa postal na nuvem não fornece funcionalidade de mensagens de voz para tro
 
 Com o Skype for Business Server 2019, estamos migrando da UM do Exchange Online para a caixa postal na nuvem. Quando um usuário for movido para um servidor do Skype for Business 2019, ele começará automaticamente a usar a caixa postal na nuvem quando configurado para caixa postal hospedada. Se você estiver usando a UM do Exchange Online, não será necessário fazer nada além de mover um usuário para o Skype for Business Server 2019 para começar a usar a caixa postal na nuvem. No entanto, há algumas alterações à funcionalidade que você precisa ter em mente:
 
-- O atendedor automático organizacional (o substituto do atendedor automático da UM do Exchange Online) não está disponível no GA, mas estará disponível posteriormente no 2018.
+- O atendedor automático organizacional é a substituição do atendedor automático na UM do Exchange Online.
 - As configurações de caixa postal do usuário no Outlook na Web não se aplicam à caixa postal na nuvem.
 
 ## <a name="on-premises-um-migration-scenarios"></a>Cenários de migração de UM no local
 
-Oferecemos suporte para os seguintes cenários que permitirão a migração de usuários para o Exchange 2019 e para a caixa postal na nuvem. Mais tarde, no 2018 suportaremos cenários adicionais que permitirão a migração de versões adicionais do Exchange e do Skype for Business Server. Também forneceremos recursos adicionais, como atendedor automático da organização.
+Oferecemos suporte para os seguintes cenários que permitirão a migração de usuários para o Exchange 2019 e para a caixa postal na nuvem.
 
 - Exchange 2013/Exchange 2016 e Skype for Business Server 2015 para o Exchange 2019 e Skype for Business Server 2019
 - Skype for Business Server 2015 para o Skype for Business Server 2019 com o Exchange 2013/Exchange 2016
@@ -68,7 +68,7 @@ A ordem na qual você move os usuários para o Exchange 2019 e o Skype for Busin
 | Caixa de correio localizada em:            | Usuário localizado no Skype for Business Server 2015 | Usuário localizado no Skype for Business Server 2019  |
 |--------------------------------|-----------------------------------------|------------------------------------------|
 | Exchange 2013/Exchange 2016    | UM do Exchange                             | UM do Exchange                              |
-| Exchange 2019                  | Sem suporte                           | Caixa postal em nuvem                          |
+| Exchange 2019                  | Sem suporte                           | Caixa Postal na Nuvem                          |
 
 Antes de iniciar a migração para o Skype for Business Server 2019 e o Exchange 2019, lembre-se do seguinte:
 

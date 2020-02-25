@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7f49626f6526fe05aed81f39574a094347e0a3ae
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 68bd92067bffc2ed88e8a9d44e228ce442021b29
+ms.sourcegitcommit: 73518a589db1a9883fc97827f0ddb9132995fbfa
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834521"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42236671"
 ---
 <a name="environmental-discovery-for-a-microsoft-teams-rollout"></a>Descoberta ambiental para uma implementação do Microsoft Teams
 ===================================================
@@ -31,8 +31,7 @@ A descoberta é uma das principais etapas que você faz ao planejar sua jornada 
 
 Você executa uma descoberta detalhada do seu ambiente para compreender melhor seu estado atual e para revelar qualquer dificuldade ou, ainda mais, os bloqueadores para a execução de sua distribuição de suas equipes.
 
-<a name="discovery-questionnaire"></a>Questionário de descoberta
-=======================
+## <a name="discovery-questionnaire"></a>Questionário de descoberta
 
 O questionário de exemplo a seguir orienta você por um conjunto de perguntas para confirmar se a sua organização está pronta para a distribuição bem-sucedida da conferência de áudio e do sistema telefônico com recursos de planos de chamada no Teams.
 

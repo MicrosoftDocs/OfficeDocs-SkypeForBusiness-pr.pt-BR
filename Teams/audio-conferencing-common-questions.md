@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Veja a seguir algumas das principais perguntas que obtemos de nossos clientes que desejam usar a conferência de áudio.
-ms.openlocfilehash: bc8ec039cff2be47f0912f2e52bbdb56ce694a4e
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: e542d728ae95ddb35532fbb8cabfa61e3b93caa3
+ms.sourcegitcommit: 73518a589db1a9883fc97827f0ddb9132995fbfa
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826299"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42236841"
 ---
 # <a name="audio-conferencing-common-questions"></a>Perguntas comuns sobre a Audioconferência
 
@@ -81,7 +81,7 @@ O período de tempo máximo depende de quem está na reunião e do tipo de auten
 |:-----|:-----|
 |Há usuários que entraram usando o aplicativo Skype for Business ou Microsoft Teams ou discaram para a reunião.  <br/> |A reunião é encerrada se não houver nenhuma alteração na lista de participantes após 24 horas.  <br/> |
 |Todos os usuários estão discadas para a reunião, mas alguém usou um PIN para entrar na reunião.  <br/> |A reunião termina após 24 horas.  <br/> |
-|Todos os usuários são discados para a reunião, mas não havia ninguém que tenha usado um PIN para entrar na reunião.  <br/> |A reunião é encerrada após 4 horas.  <br/> |
+|Todos os usuários são discados para a reunião, mas não havia ninguém que tenha usado um PIN para entrar na reunião.  <br/> | Se usuários anônimos puderem iniciar reuniões, a reunião terminará após quatro horas. Se usuários anônimos não puderem iniciar reuniões e todos os participantes autenticados saíram da reunião, a reunião terminará 90 minutos após o último participante autenticado à esquerda. <br/> |
    
 ## <a name="how-many-total-phone-participants-can-i-have-in-meetings"></a>Quantos participantes do telefone total posso ter em reuniões?
 

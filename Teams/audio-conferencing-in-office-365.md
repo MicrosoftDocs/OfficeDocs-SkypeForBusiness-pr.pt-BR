@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - ms.teamsadmincenter.audioconferencing.overview
-ms.openlocfilehash: 1a9863f1566b06c46b2788bb484d8a4672b6cdbf
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 9a92715af20e2e27a4b5051bfeab461a61efdacf
+ms.sourcegitcommit: 73518a589db1a9883fc97827f0ddb9132995fbfa
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826289"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42236811"
 ---
 # <a name="audio-conferencing-in-office-365"></a>Audioconferência no Office 365
 A videoconferência no Office 365 permite que os usuários liguem para reuniões a partir de seus telefones. A videoconferência de áudio permite até 250 participantes telefônicos.
@@ -47,7 +47,7 @@ Basta configurar uma Audioconferência para as pessoas que planejam agendar ou l
 Depois que os participantes ingressarem na reunião, também poderão discar e convidar outros chamadores para uma reunião do Skype for Business ou do Microsoft Teams. Consulte [discagem de uma reunião do teams para que outras pessoas possam participar dela](dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md) ou [discar de uma reunião do Skype for Business para que outras pessoas possam participar dela](/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it).
 
 ## <a name="what-does-it-cost"></a>Qual é o custo?
-Para informações de preços, consulte [Preços de Audioconferência](https://products.office.com/skype-for-business/audio-conferencing#Requirements).
+Para informações de preços, consulte [Preços de Audioconferência](https://products.office.com/microsoft-teams/online-meeting-solutions#customerstoryregion2).
 
 ## <a name="where-is-it-available"></a>Onde ele está disponível?
 Com o áudio videoconferência, os usuários podem usar números de telefone de chamada tarifada e gratuita para discar para reuniões. Os números de chamada tarifada (serviço) são atribuídos automaticamente como números de conferência de áudio compartilhada às organizações quando eles são habilitados para videoconferências. Números de chamada tarifada e gratuita podem ser atribuídos à sua organização de outras cidades.

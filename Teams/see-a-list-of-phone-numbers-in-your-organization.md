@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Saiba como usar o centro de administração do Microsoft Teams para ver uma lista de todos os números de telefone de sua organização e todos os números atribuídos a usuários ou desatribuídos.
-ms.openlocfilehash: 7b2ae1d2cf008b3f824f3d3837b7023766571ec1
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 029f5f15e4d414ed2f6bc4e06d39b3456b32ee62
+ms.sourcegitcommit: 73518a589db1a9883fc97827f0ddb9132995fbfa
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41838151"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42236851"
 ---
 # <a name="see-a-list-of-phone-numbers-in-your-organization"></a>Ver uma lista de números de telefone em sua organização
 
@@ -114,5 +114,7 @@ Ao configurar usuários em sua organização para fazer e receber chamadas, prim
 [Termos e condições das Chamadas de Emergência](/microsoftteams/emergency-calling-terms-and-conditions)
 
 [Rótulo de isenção de isenção de emergência](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+
+[Get-CsOnlineTelephoneNumber](https://docs.microsoft.com/powershell/module/skype/get-csonlinetelephonenumber)
   
  
