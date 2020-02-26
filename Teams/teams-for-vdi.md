@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7abe63551eee449afd507a786cd2efbf70e89afa
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.openlocfilehash: 479f272f45c4ac7c8f84f0aa26fe923ea16ff3d7
+ms.sourcegitcommit: df552697ae9c8c01c40f816bbe98b251db147199
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888640"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "42278004"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams para Infraestrutura de Área de Trabalho Virtualizada
 
@@ -161,7 +161,7 @@ Para saber mais sobre o Teams e o Office 365 ProPlus, consulte [como excluir equ
 
     Há duas maneiras de desinstalar o Microsoft Teams:  
   
-    - Script do PowerShell (recomendado): você pode usar esse [script do PowerShell](scripts/powershell-script-teams-deployment-clean-up.md) para limpar equipes de máquinas ou usuários de destino. Ele deve ser executado para cada usuário em um computador de destino. 
+    - Script do PowerShell (recomendado)
     
     - Linha de comando: essa abordagem remove equipes, ainda que a reinstalação do teams seja renovada. Execute o seguinte comando:
   

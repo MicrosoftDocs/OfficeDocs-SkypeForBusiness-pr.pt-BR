@@ -17,12 +17,12 @@ hideEdit: true
 f1.keywords:
 - NOCSH
 description: A Microsoft faz parceria com fornecedores selecionados de SBC (controlador de borda da sessão) para garantir que seus SBCs sejam compatíveis com o Roteamento Direto.
-ms.openlocfilehash: bc2d1fb1a0c7bcf550117c176e6f5d4f1b3068f3
-ms.sourcegitcommit: 7093388425b34c80e444a50d062290187b80047d
+ms.openlocfilehash: 75f8286355a900b8827ef7e685b9310f26434b4c
+ms.sourcegitcommit: 26e61e94f0ba5d06a56c43541ee4970f479819d8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/22/2020
-ms.locfileid: "42229879"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "42280299"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Lista de controladores de borda da sessão certificados para Roteamento Direto
 
@@ -61,15 +61,15 @@ A tabela a seguir lista os dispositivos certificados para Roteamento Direto.
 |                                                                                                                     |      SBC 1000       |     &#10004;     |   &#10004;    |      8.0.3 (Build 537)     |  <ul> <li> Inentrada ERS </li> <li>Inentrada EGW </li> </ul>   |         |    
 |                                                                                                                     |      SBC 2000       |     &#10004;     |   &#10004;   |     8.0.3 (Build 537)     |  <ul> <li> Inentrada ERS </li> <li>Inentrada EGW </li> </ul>   |           |    
 |                                                                                                                     |    SBC SWe Lite     |     &#10004;     |  &#10004;    |      8.0.3 (Build 216)    |  <ul> <li> Inentrada ERS </li> <li>Inentrada EGW </li> </ul>    |           |   
-| | Série Edgemarc |  &#10004; | | 15.6.1 | 
-|                     [Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    Think 365 SBC    |     &#10004;     |        Pendente   |       V1.4       |     |    |    
+| | Série EdgeMarc |  &#10004; | | 15.6.1 | 
+|                     [Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    Think 365 SBC    |     &#10004;     |        Pendente   |       1,4       |     |    |    
 |                     [Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)                      |    AP 1100      |    &#10004;     |    &#10004;    |   8.3.0.0.1 |   <ul> <li> Inentrada ERS </li> <li>Inentrada EGW </li> </ul>   |    |    
 |                                                                                                                    |    AP 3900           |    &#10004;     |    &#10004;   |   8.3.0.0.1  |  <ul> <li> Inentrada ERS </li> <li>Inentrada EGW </li> </ul>  |    |    
 |                                                                                                                    |      AP 4600         |    &#10004;   |    &#10004;     |     8.3.0.0.1  |   <ul> <li> Inentrada ERS </li> <li>Inentrada EGW </li> </ul>  |    |    
 |                                                                                                                    |      AP 6300         |    &#10004;   |    &#10004;     |     8.3.0.0.1  |  <ul> <li> Inentrada ERS </li> <li>Inentrada EGW </li> </ul>   |    |    
 |                                                                                                                   |      AP 6350           |    &#10004;   |    &#10004;    |     8.3.0.0.1  |   <ul> <li> Inentrada ERS </li> <li>Inentrada EGW </li> </ul>  |    |                                            
 |                                                                                                                    |      VME           |    &#10004;    |    &#10004;    |     8.3.0.0.1   |   <ul> <li> Inentrada ERS </li> <li>Inentrada EGW </li> </ul>   |    |    
-|                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      v3.16.2      |     |    |    
+|                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      3.16.2      |     |    |    
 
 A tabela a seguir lista os dispositivos que são verificados quanto à interoperabilidade entre os dispositivos de roteamento direto e analógico.
 
