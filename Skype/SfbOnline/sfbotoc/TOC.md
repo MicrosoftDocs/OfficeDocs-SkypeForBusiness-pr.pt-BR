@@ -129,6 +129,7 @@
 ###[Mais informações sobre a Identificação da Linha de Chamada e o Nome do Chamador](/microsoftteams/more-about-calling-line-ID-and-calling-party-name?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Definir a identificação de chamada de um usuário](/microsoftteams/set-the-caller-id-for-a-user?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Configurar Planos de Chamadas](/microsoftteams/set-up-calling-plans?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
+### [Bloquear chamadas de entrada](../what-is-phone-system-in-office-365/block-inbound-calls.md)
 ### [Limites e restrições de números de chamada gratuita](/microsoftteams/toll-free-dialing-limitations-and-restrictions?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 #### [Argentina](/microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-argentina?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 #### [Austrália](/microsoftteams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-australia?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
