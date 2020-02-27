@@ -20,12 +20,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: f1aba8c461ca2cbdd827fe071d5e0486ac24b5f4
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 31d39b1c65afad3bdbb000ff779b590d9f82ac38
+ms.sourcegitcommit: 152eb7daacd0a36f42aa441633c12c7037a0969a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41833121"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "42288629"
 ---
 <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>Gerenciar equipes durante a transição para o novo centro de administração do Microsoft Teams
 ======================================================
@@ -104,12 +104,12 @@ A tabela a seguir mostra onde você pode gerenciar recursos durante a migração
 |Configurações de acesso externo     |    X    |      |       |
 |Gerenciamento de usuários    |         |         |    X     |    
 |Audioconferência     |    X     |    X     |         |
-|Planos de chamada     |         |    X     |         |
-|Sistema Telefônico    |         |     X    |         |
-|Gerenciamento de número de telefone     |         |   X      |         |
+|Planos de chamada     |    X    |    X     |         |
+|Sistema Telefônico    |    X    |     X    |         |
+|Gerenciamento de número de telefone     |    X    |   X      |         |
 |Licenciamento para recursos de voz na nuvem     |         |         |    X     |
-|Atendedores automáticos     |         |    X     |         |
-|Filas de chamadas     |         |    X     |         |
+|Atendedores automáticos     |    X    |          |         |
+|Filas de chamadas     |    X    |          |         |
 
 ## <a name="manage-settings-after-the-migration"></a>Gerenciar as configurações após a migração
 

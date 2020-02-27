@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Saiba mais sobre os recursos, a disponibilidade e a forma de planejar e configurar o sistema telefônico da Microsoft para sua empresa. '
-ms.openlocfilehash: b1ba96143c62b829ef9461c1429a83a8b3cfe51e
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 27ec4803a33f524d1c260c27c1af3c71210b33d2
+ms.sourcegitcommit: 152eb7daacd0a36f42aa441633c12c7037a0969a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42045163"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "42288699"
 ---
 # <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Veja aqui o que você obtém com o Sistema de Telefonia no Office 365
 
@@ -45,11 +45,11 @@ O sistema de telefonia fornece os recursos a seguir. A menos que indicado de out
 |**Sistema telefônico no recurso Office 365** <br/> |**Descrição** <br/> |
 |[Atendedores automáticos da nuvem](what-are-phone-system-auto-attendants.md) <br/> |Permite criar um sistema de menus que permite que chamadores externos e externos localizem e façam ou transfiram chamadas para usuários ou departamentos da empresa em sua organização.  <br/> |
 |[Filas de chamadas na nuvem](create-a-phone-system-call-queue.md) <br/> |Permite configurar como as filas de chamadas são gerenciadas para sua organização: por exemplo, configurar saudações e músicas em espera, procure o próximo agente de chamada disponível para lidar com a chamada e assim por diante.  <br/> |
-|Música de espera | Reproduz a música padrão definida pelo serviço quando uma chamada externa da PSTN (rede telefônica pública comutada) é colocada em espera. Esse recurso funciona para chamadas PSTN-to-Team de um para um, além de chamadas feitas para uma fila de chamadas. Esse recurso fornece a paridade de notificação em espera com outras plataformas. No primeiro lançamento, esse recurso não é configurável pelo administrador. Também não há suporte para a música em uma transferência consultiva de uma chamada PSTN.|
+|Música de espera | Reproduz a música padrão definida pelo serviço quando uma chamada externa da PSTN (rede telefônica pública comutada) é colocada em espera. Esse recurso funciona para chamadas PSTN-to-Team de um para um, além de chamadas feitas para uma fila de chamadas. Esse recurso fornece a paridade de notificação em espera com outras plataformas. Esse recurso é configurável pelo administrador, mas [atualmente apenas pelo PowerShell](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps). Também não há suporte para a música em uma transferência consultiva de uma chamada PSTN.|
 |Responder/iniciar chamadas (por nome e número)  <br/> |Permite que os usuários respondam a chamadas de entrada com um toque e façam chamadas de saída, discando o número de telefone completo ou clicando em um nome no cliente.  <br/> |
 |[Opções de encaminhamento de chamadas e toque simultâneo](https://support.office.com/article/call-forwarding-call-groups-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e) <br/> |Permite que os usuários configurem regras de encaminhamento para que as chamadas possam entrar em qualquer lugar, ou as chamadas podem ser encaminhadas para colegas ou para correio de voz.  <br/> |
 |[Atendimento de chamada em grupo e encaminhar para grupo](call-sharing-and-group-call-pickup.md) <br/> | Permite que os usuários compartilhem chamadas com colegas para que os colegas possam atender chamadas que ocorrem enquanto o usuário está indisponível. Menos interrupções nos destinatários do que outras formas de compartilhamento de chamadas (como encaminhamento de chamadas ou toque simultâneo) porque os usuários podem configurar como querem ser notificados sobre uma chamada compartilhada recebida. |
-|[Transferir uma chamada e transferência de consulta](https://support.office.com/article/Transfer-a-call-in-Teams-b7f40f14-e083-46b9-b739-68038c8f73a0) <br/> |Permite que os usuários Transfira chamadas para outra pessoa. Ou, se precisar sair do escritório, mas quiser continuar a conversa, eles podem transferir as chamadas de seu PC ou telefone IP para o telefone celular.  <br/> |
+|[Transferir uma chamada e transferência consultiva](https://support.office.com/article/Transfer-a-call-in-Teams-b7f40f14-e083-46b9-b739-68038c8f73a0) <br/> |Permite que os usuários Transfira chamadas para outra pessoa. Ou, se precisar sair do escritório, mas quiser continuar a conversa, eles podem transferir as chamadas de seu PC ou telefone IP para o telefone celular.  <br/> |
 |[Transferir para a chamada intermediária do correio de voz](https://support.office.com/article/Transfer-a-call-in-Teams-b7f40f14-e083-46b9-b739-68038c8f73a0) <br/> | Permite que os usuários transfiram para o correio de voz durante uma chamada. |
 |[Recuperação e estacionamento de chamadas](call-park-and-retrieve.md)  <br/> | Permite que os usuários façam uma chamada em espera no serviço do teams na nuvem. Quando uma chamada está estacionada, o serviço gera um código exclusivo para recuperação de chamadas. O usuário que estacionau a chamada ou outra pessoa pode usar esse código e um aplicativo ou dispositivo com suporte para recuperar a chamada. <br/> |
 |Ligar para o número de telefone da pesquisa  <br/> | Permite que os usuários façam uma chamada a partir da caixa de pesquisa usando o comando/Call e especificando um nome ou um número. <br/> |

@@ -1,14 +1,13 @@
 ---
 title: Recursos do Microsoft Teams para administradores de Educação
-author: ChuckEdmonson
-ms.author: chucked
+author: LanaChin
+ms.author: v-lanac
 manager: serdars
-ms.date: 07/26/2018
-ms.reviewer: ''
+ms.reviewer: olbesede
 ms.topic: reference
 ms.service: msteams
 audience: admin
-description: Lista de recursos do teams úteis para administradores de ti em educação.
+description: Lista os recursos do teams que são úteis para o Microsoft Teams para administradores de educação.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -17,51 +16,52 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dc9413690f98afeab9bb96baefd3d73e8b56d3f8
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 8e2f0a0d585b7bf21175ebf8dd0ab31e16133e11
+ms.sourcegitcommit: 29034bda30a8460eb18600785f785528d0944041
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41838241"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "42285843"
 ---
 <a name="microsoft-teams-resources-for-education-admins"></a>Recursos do Microsoft Teams para administradores de Educação
 ==============================================
 
 ## <a name="adoption-content"></a>Conteúdo de adoção
 
-Crie panfletos, cartazes e mensagens de email personalizadas com as informações e o logotipo da sua escola. Ou use pôsteres, panfletos e outros folhetos prontos para a sua organização ao usar o Microsoft Teams.
+Prepare a sua escola com o Microsoft Teams com emails, cartazes, folhetos e mais recursos que você está livre para usar agora. Você também pode entrar em contato com os alunos online e em um campus com o novo kit de ferramentas digital preenchido com faixas, GIFs e vídeos. Comece a usar hoje mesmo!
 
-|Modelos de email personalizáveis |         |
-|---------|---------|
-|**Conheça as noções básicas de equipes**<br>[Baixar o arquivo. zip](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/getting-started.zip?raw=true)<br> ![Captura de tela de Aprenda o modelo de email noções básicas do teams.](media/outlook-template-teams-basics.png)   |**Personalizar seu ambiente de aprendizagem**<br>[Baixar o arquivo. zip](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/customize-learning.zip?raw=true)<br>![Captura de tela do modelo personalizar seu ambiente de aprendizagem.](media/outlook-template-teams-learn.png)       |
-|**Veja como simplificar o fluxo de trabalho no Microsoft Teams**<br>[Baixar o arquivo. zip](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/workflows.zip?raw=true)<br>![Captura de tela de Veja como simplificar seu modelo de fluxo de trabalho.](media/outlook-template-teams-workflow.png)     |**Saiba como conversar como um profissional**<br>[Baixar o arquivo. zip](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/chat.zip?raw=true)<br>![Captura de tela de saiba como conversar como um modelo pro.](media/outlook-template-teams-chat.png)        |
-|**Leve o Teams em qualquer lugar**<br>[Baixar o arquivo. zip](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/get-teams.zip?raw=true)<br>![Captura de tela de tirar o Microsoft Teams no modelo go.](media/outlook-template-teams-connect.png)    |          |
+Leia os [termos e condições](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/license_agreement_teams_for_education.pdf?raw=true) antes de usar estes materiais.
 
-|Panfletos e panfletos personalizáveis e prontos para impressão  |        |
-|---------|---------|
-|**Apresentando o Microsoft Teams para educação-valores**<br>[Baixe o arquivo. docx personalizável](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-customizable-poster-intro-values.docx?raw=true)<br>[Baixar o arquivo Ready-to-Print. pdf](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-posters-values.pdf?raw=true)<br>![Captura de tela do pôster de valores.](media/poster-intro-values.png)    |**Apresentando o Microsoft Teams para educação-recursos**<br>[Baixe o arquivo. docx personalizável](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/team-edu-customizable-poster-intro-features.docx?raw=true)<br>[Baixar o arquivo Ready-to-Print. pdf](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-poster-features.pdf?raw=true)<br>![Captura de tela do pôster recursos.](media/poster-intro-features.png)          |
-|**Capacitar com o Microsoft Teams-valores**<br>[Baixe o arquivo. docx personalizável](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-customizable-poster-empower-values.docx?raw=true)<br>[Baixar o arquivo Ready-to-Print. pdf](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-posters-values.pdf?raw=true)<br>![Captura de tela do pôster de capacitação de valores.](media/poster-empower-values.png)   |**Capacitar com o Microsoft Teams-recursos**<br>[Baixe o arquivo. docx personalizável](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-customizable-poster-empower-features.docx?raw=true)<br>[Baixar o arquivo Ready-to-Print. pdf](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-poster-features.pdf?raw=true)<br>![Captura de tela do pôster de capacitação de recursos.](media/poster-empower-features.png)          |
-|**O valor do Microsoft Teams para educação**<br>[Baixe o arquivo. docx personalizável](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-customizable-flyer-values.docx?raw=true)<br>[Baixar o arquivo Ready-to-Print. pdf](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-flyer-values.pdf?raw=true)<br>![Captura de tela do valor do panfleto do Microsoft Teams for Education.](media/flyer-values.png)    |**Os recursos do Microsoft Teams for Education**<br>[Baixe o arquivo. docx personalizável](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-customizable-flyer-values.docx?raw=true)<br>[Baixar o arquivo Ready-to-Print. pdf](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-flyer-features.pdf?raw=true)<br>![Captura de tela dos recursos do Microsoft Teams for Education panfleto.](media/flyer-features.png)        |
+### <a name="physical-assets"></a>Ativos físicos
 
-|Pacotes prontos para serem impressos  |        |
+| |  |
 |---------|---------|
-|**Comece a usar o Microsoft Teams para educação-dicas e truques**<br>[Baixar o arquivo Ready-to-Print. pdf](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-packet-get-started.pdf?raw=true)<br>![Captura de tela do pacote introdução ao Microsoft Teams for Education.](media/package-teams-edu-get-started.png)    |
+|Cartazes-pronto para [personalização](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters-customizable.zip?raw=true) e [impressão](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters-print-ready.zip?raw=true)<br>![Captura de tela de um cartaz](media/edu-adoption-posters.png)     |[Folhetos](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/handouts.zip?raw=true)<br>![Captura de tela de um folheto](media/edu-adoption-handouts.png)|
+|[Panfletos](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/flyers.zip?raw=true)<br>![Captura de tela de um panfleto](media/edu-adoption-flyers.png)   |[Anúncios de livros](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/book-adverts.zip?raw=true)<br>![Captura de tela de um anúncio de livro](media/edu-adoption-book-adverts.png)         |
+
+### <a name="digital-assets"></a>Ativos digitais
+
+Verifique a [orientação digital do kit de ferramentas](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/digital-toolkit-guidance.zip?raw=true) para maximizar o lançamento do seu Teams! 
+
+|  |  |
+|---------|---------|
+|[Modelos de email](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/email-templates.zip?raw=true)<br> ![Tomada](media/edu-adoption-email-templates.png)    |[GIFs](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/gifs.zip?raw=true) <br> ![Captura de tela de um GIF](media/edu-adoption-gifs.png)      |
+|[Faixas da Web](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/web-banners.zip?raw=true)<br>![Captura de tela de uma faixa da Web](media/edu-adoption-web-banners.png)    |[Vídeos](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/videos.zip?raw=true)<br>![Tomada](media/edu-adoption-videos.png)          |
+|[Anúncios de tela digital](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/digital-screen-adverts.zip?raw=true)<br>![Captura de tela de um anúncio de tela digital](media/edu-adoption-digital-screen-adverts.png)   |      |
 
 ## <a name="call-to-action"></a>Chamada à ação
 
-- Confira nossa prática [Demonstração interativa do Microsoft Teams](https://teamsdemo.office.com/) (duração de 5 minutos)
-- Ativar o Microsoft Teams no [centro de administração do microsoft 365](https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns) (entrar como um administrador do Office 365)
+- Acesse a [página Teams for Education](https://www.microsoft.com/en-us/education/products/teams/default.aspx) para treinamentos, vídeos e demonstrações interativas
+- Ativar o Microsoft Teams no [centro de administração do Microsoft 365](https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns) (entrar como um administrador do Office 365)
 - Baixe os clientes do Microsoft Teams: [Baixar o Microsoft Teams em todos os dispositivos](https://teams.microsoft.com/downloads)
 - Saiba mais sobre o Office 365 for Education na [Central de ajuda do Educação](https://support.office.com/education)
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-- [Roteiro do Microsoft Teams](https://aka.ms/teamsroadmap)
+- [Mapa do teams](https://aka.ms/teamsroadmap)
 - Esteja sempre em dia com nosso [Blog da comunidade de tecnologia](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog)
-- Blog "The Productive Cloud" de Matt Soseman sobre o [Suporte do Microsoft Teams ao PowerShell](https://blogs.technet.microsoft.com/skypehybridguy/2017/11/07/microsoft-teams-powershell-support/)
+- [Visão Geral do PowerShell do Teams](teams-powershell-overview.md)
 - [Enviar uma sugestão](https://aka.ms/eduuservoice)
 - [Entrar em contato com o suporte](https://aka.ms/o365portal)
 - [Perguntar à comunidade do Microsoft Teams](https://aka.ms/msteamscommunity)
 - [Encontrar mais recursos para a área de educação](https://education.microsoft.com/)
-
-

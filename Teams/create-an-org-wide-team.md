@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 854294f1ddb8e677037c151e3f7b3cada6e31c16
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 99acc2e1756c0915f404f6bf6b1bfab1e30fcaf6
+ms.sourcegitcommit: 152eb7daacd0a36f42aa441633c12c7037a0969a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826749"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "42288729"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>Criar uma equipe englobando toda a organização no Microsoft Teams
 
@@ -44,9 +44,10 @@ Esses tipos de contas não serão adicionados à sua equipe de toda a organizaç
 Como o diretório de sua organização é atualizado para incluir novos usuários ativos ou se os usuários não funcionarem mais em sua empresa e a conta estiver desativada, as alterações serão sincronizadas automaticamente e os usuários serão adicionados ou removidos da equipe. Os membros da equipe não podem sair de uma equipe de toda a organização. Como proprietário da equipe, você pode adicionar ou remover usuários manualmente, se necessário.
 
 > [!NOTE]
-> - Se você não vir a opção de **toda a organização** ao criar uma equipe e se for um administrador global, o recurso ainda poderá ser implantado, você atingiu o limite de cinco Teams de toda a organização ou sua organização pode ter mais que o limite de tamanho atual de membros do 5.000. Estamos tentando aumentar esse limite no futuro.
+> - Se você não vir a opção de **toda a organização** ao criar uma equipe e se for um administrador global, o recurso ainda poderá ser implantado, você atingiu o limite de cinco Teams de toda a organização ou sua organização pode ter mais que o limite de tamanho atual de membros do 5.000. Estamos tentando aumentar esse limite no futuro. As equipes de toda a organização ainda não estão disponíveis para o Teams for Education.
 > - As salas que não fazem parte de uma lista de salas, equipamento e contas de recursos podem ser adicionadas ou sincronizadas com a equipe de toda a organização. Os proprietários da equipe podem remover facilmente essas contas da equipe.
 > - Todas as ações do sistema para adicionar ou remover membros são publicadas no canal geral. O canal também será marcado como tendo novas atividades no cliente do teams.
+> - Criaremos automaticamente uma equipe de toda a organização para a sua organização se a sua organização for nova no Teams e não tiver mais de 5.000 usuários. O nome da equipe refletirá o nome do locatário e terá um canal geral. Os administradores globais podem editar essa equipe como qualquer outra equipe. 
 
 ## <a name="best-practices"></a>Práticas recomendadas
 

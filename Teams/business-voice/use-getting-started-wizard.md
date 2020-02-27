@@ -17,12 +17,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8362c95103594e8289aa110ec681fd6dba269bce
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: ba381659572fa8cfda6ac605a2910ef19220dcbd
+ms.sourcegitcommit: 29034bda30a8460eb18600785f785528d0944041
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824749"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "42285813"
 ---
 # <a name="use-the-getting-started-wizard-to-set-up-business-voice"></a>Usar o assistente do Guia de Introdução para configurar o Business Voice
 
@@ -46,11 +46,8 @@ Se você não quiser personalizar nada imediatamente, pronto! Você pode começa
 
 <table>
     <tr>
-        <td>Se você quiser alterar o endereço de emergência, clique em <b>Editar</b> e, em seguida, insira um novo endereço. O endereço que você fornece é validado para garantir que seja legítimo e corretamente formatado para serviços de resposta a emergências. Esse endereço será atribuído a todos os usuários aos quais você atribuir um número na próxima etapa. Se você tiver funcionários em mais de um local, confira <a href="./customize-business-voice.md">Personalização do design do Business Voice</a> para adicionar e atribuir mais endereços de emergência após preparar o assistente do Guia de Introdução.</td>
-
-        
+        <td>Se você quiser alterar o endereço de emergência, clique em <b>Editar</b> e, em seguida, insira um novo endereço. O endereço que você fornece é validado para garantir que seja legítimo e corretamente formatado para serviços de resposta a emergências. Esse endereço será atribuído a todos os usuários aos quais você atribuir um número na próxima etapa. Se você tiver funcionários em mais de um local, confira <a href="./customize-business-voice.md">Personalização do design do Business Voice</a> para adicionar e atribuir mais endereços de emergência após preparar o assistente do Guia de Introdução.</td> 
         <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-choose-number.png" width="400"></td></tr>
-            
 </table>
 
 Para saber mais, confira [O que são locais de emergência, endereços e roteamento de chamadas](../what-are-emergency-locations-addresses-and-call-routing.md)?
