@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.securityandcompliance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 27c46949391ec37178985ab3ed4a08aebc7e5747
-ms.sourcegitcommit: 29034bda30a8460eb18600785f785528d0944041
+ms.openlocfilehash: 45e4c49824df9a098af5251d13234eae48db5619
+ms.sourcegitcommit: 152eb7daacd0a36f42aa441633c12c7037a0969a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "42285733"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "42288619"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Segurança e conformidade no Microsoft Teams
 
@@ -112,7 +112,7 @@ Os clientes podem aproveitar a descoberta eletrônica in-loco ou [descoberta ele
 Durante litígio, talvez você precise que todos os dados associados a um usuário (responsáveis) ou a uma equipe sejam preservados como imutáveis, para que possam ser usados como evidências para o caso. Isso pode ser feito colocando um usuário (caixa de correio do usuário) ou uma equipe em retenção legal. Para um controle legal da equipe, a caixa de correio da equipe pode ser colocada nas seguintes isenções:
 
 - Bloqueio in-loco (um subconjunto da caixa de correio ou conjunto de sites por meio de consultas direcionadas ou conteúdo filtrado é colocado em espera) ou
-- Retenção de litígio (a caixa de correio ou o conjunto de sites inteiro é colocado em espera)
+- Retenção de litígio (a caixa de correio ou o conjunto de sites inteiro é colocado em espera).
 
 Em ambos os casos, quando a retenção é definida, isso garante que, mesmo se os usuários finais excluirem ou editarem mensagens de canal na caixa de correio de grupo, cópias imutáveis desse conteúdo serão mantidas e estarão disponíveis por meio de pesquisa de descoberta eletrônica. Controles legais geralmente são aplicados dentro do contexto de um caso de descoberta eletrônica.
 
@@ -148,14 +148,14 @@ A figura a seguir indica o fluxo de inclusão de reuniões e dados de chamadas d
 
 Quando se trata de recursos de proteção de informações, as assinaturas do Office 365 e as licenças autônomas associadas determinarão o conjunto de recursos disponíveis.
 
-Para obter informações sobre como determinar o licenciamento precisa implementar recursos de segurança e conformidade, consulte: [Licenciamento para o Office 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center)
+Para obter informações sobre como determinar o licenciamento precisa implementar recursos de segurança e conformidade, consulte: [Licenciamento para o Office 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center).
 
 > [!NOTE]
 > A pesquisa de conteúdo e a descoberta eletrônica não precisam ser habilitadas no centro de conformidade do & de segurança para funcionar.
 
 ## <a name="location-of-data-in-teams"></a>Localização dos dados no Microsoft Teams
 
-Os dados no Microsoft Teams residem na região geográfica associada ao seu locatário do Office 365. Para ver em quais regiões há suporte no momento, examine a [localização dos dados no Microsoft Teams](location-of-data-in-teams.md)
+Os dados no Microsoft Teams residem na região geográfica associada ao seu locatário do Office 365. Para ver em quais regiões há suporte no momento, examine a [localização dos dados no Microsoft Teams](location-of-data-in-teams.md).
 
 Se você precisar ver qual região abriga os dados para o seu locatário, vá para o**perfil da organização**de**configurações** > do [Centro](https://portal.office.com/adminportal/home) > de administração do Microsoft 365. Role para baixo até **Local dos dados**.
 
