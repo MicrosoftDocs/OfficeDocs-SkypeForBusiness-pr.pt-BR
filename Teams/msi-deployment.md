@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bc57222f56235c71c676f952cb0dd5aa149dc4e3
-ms.sourcegitcommit: df552697ae9c8c01c40f816bbe98b251db147199
+ms.openlocfilehash: c048e321241f4403fbb69f71e56b3fc179346951
+ms.sourcegitcommit: c16451519e05b47bbb77e09dacd13ff212617e91
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/25/2020
-ms.locfileid: "42277974"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "42327823"
 ---
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>Instalar o Microsoft Teams usando o Gerenciador de configuração do Microsoft Endpoint
 
@@ -55,9 +55,9 @@ O Teams também pode ser incluído em uma implantação do Office 365 ProPlus. P
 
 ### <a name="pc-installation"></a>Instalação no PC
 
-O Teams MSI colocará um instalador em Arquivos de Programas. Sempre que um usuário fizer logon em um novo perfil de usuário do Windows, o instalador será iniciado, e uma cópia do aplicativo Teams será instalada na pasta appdata desse usuário. Se o usuário já tiver o aplicativo Teams instalado na pasta appdata, o instalador do MSI ignorará o processo para esse usuário.
+O Teams MSI colocará um instalador em Arquivos de Programas. Sempre que um usuário entrar em um novo perfil de usuário do Windows, o instalador será iniciado e uma cópia do aplicativo Teams será instalada na `AppData` pasta desse usuário. Se um usuário já tiver o aplicativo Teams instalado na `AppData` pasta, o instalador do MSI ignorará o processo desse usuário.
 
-Não use o MSI para implantar atualizações, pois o cliente atualizará automaticamente quando detectar que há uma nova versão disponível no serviço. Para reimplantar o instalador mais recente, use o processo de reimplantação do MSI descrito abaixo.Se você implantar uma versão mais antiga do pacote MSI, o cliente atualizará automaticamente (exceto em ambientes da VDI) para o usuário quando possível. Se uma versão muito antiga for implantada, o MSI acionará uma atualização do aplicativo antes que o usuário possa usar o Teams.
+Não use o MSI para implantar atualizações, pois o cliente atualizará automaticamente quando detectar que há uma nova versão disponível no serviço. Para reimplantar o instalador mais recente, use o processo de reimplantação do MSI descrito abaixo. Se você implantar uma versão mais antiga do pacote MSI, o cliente atualizará automaticamente (exceto em ambientes da VDI) para o usuário quando possível. Se uma versão muito antiga for implantada, o MSI acionará uma atualização do aplicativo antes que o usuário possa usar o Teams.
 
 > [!Important]
 > Não recomendamos mudar os locais de instalação padrão, pois isso pode interromper o fluxo de atualização. Uma versão muito antiga pode impedir que os usuários acessem o serviço.
@@ -65,7 +65,7 @@ Não use o MSI para implantar atualizações, pois o cliente atualizará automat
 #### <a name="target-computer-requirements"></a>Requisitos do computador de destino
 
 - .NET framework 4.5 ou posterior
-- Windows 7 ou posterior
+- Windows 8,1 ou posterior
 - Windows Server 2012 R2 ou posterior
 - 3 GB de espaço em disco para cada perfil de usuário (recomendado)
 
@@ -78,7 +78,7 @@ Para obter uma orientação completa sobre como implantar o aplicativo da área 
 Se um usuário desinstalar o Teams do seu perfil de usuário, o instalador do MSI rastreará que o usuário desinstalou o aplicativo Teams e não instalará mais o Teams para esse perfil de usuário. Para reimplantar o Teams para esse usuário em um determinado computador em que foi desinstalado, faça o seguinte:
 
 1. Desinstale o aplicativo Teams instalado para todos os perfis de usuário.
-2. Após a desinstalação, exclua o diretório recursivamente em %localappdata%\Microsoft\Teams\.
+2. Após a desinstalação, exclua o diretório `%localappdata%\Microsoft\Teams\`recursivamente em.
 3. Reimplante o pacote MSI no computador específico.
 
 ## <a name="prevent-teams-from-starting-automatically-after-installation"></a>Impedir que o Microsoft Teams inicie automaticamente após a instalação

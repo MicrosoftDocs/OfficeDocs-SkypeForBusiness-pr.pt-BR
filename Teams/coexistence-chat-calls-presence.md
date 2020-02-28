@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Este documento descreve o comportamento do chat, o roteamento de chamadas e a presença entre os usuários do Teams e o Skype for Business, tanto no locatário quanto em federado, com base nos modos de TeamsUpgrade atribuídos. Ele inclui otimizações de roteamento, comportamento de presença, bem como a alteração do modo de TeamsUpgrade padrão do *herdado* para as *ilhas* e o afastamento iminente do *herdado*.
-ms.openlocfilehash: 442b4b68b9739d9d17d02e298b53c5d9ecec3c8f
-ms.sourcegitcommit: 73518a589db1a9883fc97827f0ddb9132995fbfa
+ms.openlocfilehash: 64889ae11b4ce8665fb4a6bdbb98ff95aaf777fc
+ms.sourcegitcommit: c16451519e05b47bbb77e09dacd13ff212617e91
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42236821"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "42328013"
 ---
 # <a name="coexistence-with-skype-for-business"></a>Coexistência com o Skype for Business
 
@@ -56,7 +56,7 @@ Os parâmetros que determinam o método de roteamento de thread são:
     - O Teams para comunicação de equipes sempre é possível no locatário.
 
 > [!NOTE]
-> Atualmente, todas as federações que envolvem o Teams aproveitam o pipeline de Federação do Skype for Business, bem como as equipes – interoperabilidade do Skype for Business. Estamos planejando equipes nativas – Federação de equipes. O documento atual será atualizado após a publicação da Federação nativa.
+> Se o receptor e o remetente estiverem no modo de atualização do TeamsOnly, a conversa será uma experiência de chat nativa que inclui todos os recursos avançados de mensagens e chamadas. Para saber mais, leia [experiência de chat nativo para usuários externos (federados) no Teams](native-chat-for-external-users.md). Se algum dos participantes da conversa não estiver no modo de atualização do TeamsOnly, a conversa permanecerá interoperabilidade com mensagens somente texto.
 
 ## <a name="chat-and-call-routing"></a>Chat e encaminhamento de chamadas
 
