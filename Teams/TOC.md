@@ -263,10 +263,10 @@
 
 ### Configurar o Roteamento Direto
 #### [Visão geral](direct-routing-configure.md)
-#### [Conectar o SBC ao Roteamento Direto](direct-routing-connect-the-sbc.md)
-#### [Habilitar usuários para o Roteamento Direto, voz e caixa postal](direct-routing-enable-users.md)
-#### [Configurar o roteamento de voz](direct-routing-voice-routing.md)
-#### [Converter números de telefone](direct-routing-translate-numbers.md)
+#### [Etapa 1: Conecte seu SBC](direct-routing-connect-the-sbc.md)
+#### [Etapa 2: Habilitar usuários](direct-routing-enable-users.md)
+#### [Etapa 3: Configurar o roteamento de voz](direct-routing-voice-routing.md)
+#### [Etapa 4: Traduzir números de telefone](direct-routing-translate-numbers.md)
 #### [Configurar um SBC para vários locatários](direct-routing-sbc-multiple-tenants.md)
 #### [Como usar dispositivos analógicos com Roteamento Direto](direct-routing-analog-devices.md)
 
@@ -638,11 +638,11 @@
 <!-- ============================================================ -->
 
 # Segurança e conformidade
+## [Visão geral](security-compliance-overview.md)
 ## Segurança
 ### [Modelos de identidade e autenticação](identify-models-authentication.md)
 ### [Entrar no Teams usando a autenticação moderna](sign-in-teams.md)
 ## Conformidade
-### [Visão geral](security-compliance-overview.md)
 ### [Barreiras de informações](information-barriers-in-teams.md)
 ### [Políticas de retenção](retention-policies.md)
 ### [Prevenção contra Perda de Dados](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)

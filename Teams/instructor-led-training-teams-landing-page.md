@@ -15,12 +15,12 @@ f1.keywords:
 ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.instructorled
 ms.collection:
 - M365-collaboration
-ms.openlocfilehash: fcf6ee6bbf0f9d485a84007a01cd9ce0dfee9500
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 958ca112e52cefa31e122c02b47c76a68537d284
+ms.sourcegitcommit: 152eb7daacd0a36f42aa441633c12c7037a0969a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836601"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "42288719"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -174,7 +174,7 @@ A Microsoft está feliz por hospedar uma série de sessões de treinamento onlin
         </a>
     </li>
     <li>
-        <a href="https://microsoftteams.eventbuilder.com/FLW3"target="_blank">
+        <a href="https://microsoftteams.eventbuilder.com/FLWValueWebinar"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -184,9 +184,9 @@ A Microsoft está feliz por hospedar uma série de sessões de treinamento onlin
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Trabalhadores de Contato Direto com o Teams</h3>
-                        <p>Saiba mais sobre os novos recursos para trabalhadores de contato direto no Teams.</p>
-                        <p><i>Público-alvo: Usuários finais</i></p>
+                        <h3>Capacite seus funcionários de primeira linha com o Teams</h3>
+                        <p>Saiba como o Teams permite uma transformação digital que traz um potencial ilimitado para toda a sua força de trabalho.</p>
+                        <p><i>Público: tomadores de decisão de negócios, tomadores de decisão de TI</i></p>
                     </div>
                 </div>
             </div>
