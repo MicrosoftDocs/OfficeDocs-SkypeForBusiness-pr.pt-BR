@@ -15,12 +15,12 @@ f1.keywords:
 description: Saiba como colocar um usuário ou uma equipe do Microsoft Teams em retenção legal usando o Centro de Segurança e Conformidade, e saiba o que necessita de uma retenção legal com base nas exigências de dados.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6c46de971a63a212c0773f5048aeded697d05e0c
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+ms.openlocfilehash: e3727ac3f6b9ded4c3dbb34a1977f9b99cbaf15e
+ms.sourcegitcommit: 6cfaadec5782ca7316db36472bd0be20217da693
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41863022"
+ms.lasthandoff: 02/29/2020
+ms.locfileid: "42341629"
 ---
 <a name="place-a-microsoft-teams-user-or-team-on-legal-hold"></a>Colocar um usuário ou uma equipe do Microsoft Teams em retenção legal
 ==================================================

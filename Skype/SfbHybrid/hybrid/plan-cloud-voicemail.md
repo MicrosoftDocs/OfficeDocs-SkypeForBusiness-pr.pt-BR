@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Este artigo descreve os benefícios, as considerações de planejamento e os requisitos para implementar o serviço de caixa postal do Microsoft Cloud. Para obter informações sobre como configurar a caixa postal em nuvem, consulte Configuring Cloud postal.
-ms.openlocfilehash: 82d9473e35b5c10fd2c50b783a89df64aed62cbe
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 07448ab8232115e19c01261dc487c04b5a2dd4f9
+ms.sourcegitcommit: 6cfaadec5782ca7316db36472bd0be20217da693
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42006016"
+ms.lasthandoff: 02/29/2020
+ms.locfileid: "42341767"
 ---
 # <a name="plan-cloud-voicemail-service-for-on-premises-users"></a>Planejar o serviço de caixa postal na nuvem para usuários locais
 
@@ -88,18 +88,13 @@ Se você estiver planejando implantar o Skype for Business Server 2019 e/ou o Ex
 - O Exchange Server 2019 não fornece mais funcionalidade do UM do Exchange
 - O Skype for Business Server 2019 não está mais integrado ao Exchange Online UM
 
-A interoperabilidade de versão e as topologias com suporte para a caixa postal em nuvem estão listadas na tabela a seguir, que compara as versões do Skype for Business Server que o usuário pode estar hospedado com a versão possível fornecendo a caixa de correio do Exchange. A caixa postal em nuvem só funciona com o Skype for Business Server e o Exchange Server 2019 ou o Exchange Online.
+A interoperabilidade de versão e as topologias com suporte para a caixa postal em nuvem estão listadas na tabela a seguir, que compara as versões do Skype for Business Server que o usuário pode estar hospedado com a versão possível fornecendo a caixa de correio do Exchange. Você precisa usar a caixa postal na nuvem se quiser usar o Skype for Business 2019 com o Exchange Online ou o Exchange Server 2019.
 
 | | Exchange Server 2013 | Exchange Server 2016 | Exchange Server 2019 | Exchange Online   |
 |:---    |:--- |:--- |:--- |:---  |
-| Skype for Business Server 2019 | UM do Exchange Server | UM do Exchange Server | Caixa postal em nuvem | Caixa postal em nuvem |
-| Skype for Business Server 2015 | UM do Exchange Server | UM do Exchange Server | Caixa postal de nuvem<sup>1</sup> | Caixa postal em nuvem <br> UM do Exchange Online<sup>2</sup> |
-| Lync Server 2013 <br>  | UM do Exchange Server | UM do Exchange Server | Não suportado | Caixa postal em nuvem <br> UM do Exchange Online<sup>2</sup> |
-
-<sup>1</sup> ainda não vê essa opção? Ele está sendo implantado e talvez ainda não esteja disponível em sua organização. Confira a etapa 6, considere a possibilidade de participar, no [suporte à migração online da Unificação de mensagens do Exchange](/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support
-) para aceitar a conectividade planejada para a caixa postal na nuvem.
-
-<sup>2</sup> até ser preterido. Confira [suporte à migração online da Unificação de mensagens do Exchange](../../sfbserver2019/plan/exchange-unified-messaging-online-migration-support.md) para obter mais informações. 
+| Skype for Business Server 2019 | UM do Exchange Server | UM do Exchange Server | Caixa Postal na Nuvem | Caixa Postal na Nuvem |
+| Skype for Business Server 2015 | UM do Exchange Server | UM do Exchange Server | Caixa Postal na Nuvem | Caixa Postal na Nuvem |
+| Lync Server 2013 <br>  | UM do Exchange Server | UM do Exchange Server | Não suportado | Caixa Postal na Nuvem |
 
 A Microsoft recomenda os seguintes caminhos de migração:
 

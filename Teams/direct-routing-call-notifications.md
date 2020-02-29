@@ -18,12 +18,12 @@ description: Notificação de chamada de roteamento direto
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 3d53245d241435e869dbdbeb15dcb1c81e18ff96
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 0320ebc6abfc0e3f3d720fbab03abc698b26849c
+ms.sourcegitcommit: 6cfaadec5782ca7316db36472bd0be20217da693
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837591"
+ms.lasthandoff: 02/29/2020
+ms.locfileid: "42341800"
 ---
 # <a name="manage-call-notifications"></a>Gerenciar notificações de chamadas
 
@@ -45,7 +45,7 @@ Você pode impedir a notificação de "chamada perdida" Configurando o SBC para 
 
 MOTIVO: SIP; causa = 200; texto "chamada concluída em outro lugar" 
 
-Observe que a chamada não será registrada nos registros de detalhes da chamada do sistema de telefonia da Microsoft como uma chamada bem-sucedida. A chamada será registrada como uma "tentativa" com o código SIP final "487", subcódigo final da Microsoft "540200" e a frase de código SIP final "chamada concluída".   (Para exibir os registros de detalhes da chamada, vá para o portal de administração do Teams, análises e relatórios, relatórios de uso e selecione uso de PSTN.)
+Observe que a chamada não será registrada nos registros de detalhes da chamada do sistema de telefonia da Microsoft como uma chamada bem-sucedida. A chamada será registrada como uma "tentativa" com o código SIP final "487", subcódigo final da Microsoft "540200" e a frase de código SIP final "chamada concluída".  (Para exibir os registros de detalhes da chamada, vá para o portal de administração do Teams, análises e relatórios, relatórios de uso e selecione uso de PSTN.)
 
 
 O diagrama a seguir ilustra a escada SIP para a bifurcação 1, explica o fluxo de chamadas e o motivo esperado na mensagem de cancelamento. 

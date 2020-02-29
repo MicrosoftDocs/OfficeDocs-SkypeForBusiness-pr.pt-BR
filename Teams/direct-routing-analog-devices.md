@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Leia este artigo para saber como usar dispositivos analógicos com o roteamento direto do sistema de telefonia da Microsoft.
-ms.openlocfilehash: c1720a7f702babbf677ab8f1de75014c629e6d76
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 525e898bd0eafe88d6893249465734d7c33a10b2
+ms.sourcegitcommit: 6cfaadec5782ca7316db36472bd0be20217da693
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192164"
+ms.lasthandoff: 02/29/2020
+ms.locfileid: "42341797"
 ---
 # <a name="how-to-use-analog-devices-with-phone-system-direct-routing"></a>Como usar dispositivos analógicos com o roteamento direto do sistema telefônico
 
@@ -45,7 +45,7 @@ Este exemplo percorre as seguintes etapas:
 4. Atribuir a rota de voz ao uso de PSTN
 5. Habilitar o usuário online
 6. Atribuir a política de rota de voz ao usuário
-7. Atribuir uma política de rota de voz a um dispositivo analógico
+7. Criar uma rota de voz para um dispositivo analógico
 
 Para obter informações sobre como conectar um ATA a um SBC e configurar o SBC, consulte o guia de configuração do fabricante do SBC:
 - [Documentação de configuração do AudioCodes](https://www.audiocodes.com/media/14278/connecting-audiocodes-sbc-with-analog-device-to-microsoft-teams-direct-routing-enterprise-model-configuration-note.pdf)
@@ -104,7 +104,7 @@ Esse comando atribui a política de roteamento de voz online por usuário Analog
 PS C:\> Grant-CsOnlineVoiceRoutingPolicy -Identity "exampleuser@contoso.com" -PolicyName "AnalogInteropPolicy" 
 ```
 
-## <a name="step-7--assign-a-voice-route-to-an-analog-device"></a>Etapa 7: atribuir uma rota de voz a um dispositivo analógico
+## <a name="step-7--create-a-voice-route-for-an-analog-device"></a>Etapa 7: criar uma rota de voz para um dispositivo analógico
 
 Esse comando cria uma rota de voz online com identidade "analógica-Interop" para o intervalo de números + 1425 4XX XX XX aplicáveis a uma lista de gateways online sbc.contoso.com e o associa ao uso de "interoperabilidade online de uso PSTN.  Esse comando deve ser executado para cada dispositivo analógico com o padrão de número de telefone apropriado. Como alternativa, um padrão de número adequado para dispositivos analógicos pode ser usado ao configurar a rota de voz online durante uma das etapas anteriores.
 

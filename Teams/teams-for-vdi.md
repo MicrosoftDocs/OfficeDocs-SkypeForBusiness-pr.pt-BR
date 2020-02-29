@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 479f272f45c4ac7c8f84f0aa26fe923ea16ff3d7
-ms.sourcegitcommit: df552697ae9c8c01c40f816bbe98b251db147199
+ms.openlocfilehash: c5bc574fc760929d416ce3f62c921bc522c2997c
+ms.sourcegitcommit: 35de08b532eb7cf58c3221210c2b3b52f8aa047e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/25/2020
-ms.locfileid: "42278004"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "42339456"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams para Infraestrutura de Área de Trabalho Virtualizada
 
@@ -351,7 +351,8 @@ Para saber mais sobre como usar o PowerShell para gerenciar as políticas de reu
     - Não há suporte para compartilhamento de aplicativos.
 - Conceda controle e assuma o controle:  
     - Sem suporte durante uma sessão de compartilhamento de tela ou compartilhamento de aplicativos.
-    - Com suporte durante uma sessão de compartilhamento do PowerPoint.  
+    - Com suporte durante uma sessão de compartilhamento do PowerPoint.
+- Quando o compartilhamento de tela está em uma configuração de vários monitores, somente o monitor principal é compartilhado.
 - Não há suporte para o dimensionamento de DPI alta em CWA.
 
 Para os problemas conhecidos do teams que não estão relacionados ao VDI, consulte [problemas conhecidos do teams](Known-issues.md).

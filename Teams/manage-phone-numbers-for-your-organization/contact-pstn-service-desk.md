@@ -23,21 +23,30 @@ ms.custom:
 - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
 description: Ao receber números de telefone ou portabilidade (transferência) de números para a sua organização, talvez seja necessário obter ajuda e suporte na mesa de serviço PSTN.
-ms.openlocfilehash: 819baa319fb0cd8d53e163560c6de888ecd177c9
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 6d400e51270b411054802240216d9e957a68f054
+ms.sourcegitcommit: 6cfaadec5782ca7316db36472bd0be20217da693
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825703"
+ms.lasthandoff: 02/29/2020
+ms.locfileid: "42341783"
 ---
-# <a name="pstn-service-desk-help"></a>Ajuda da central de serviços PSTN
+# <a name="pstn-service-desk-contact"></a>Contato da mesa de serviço PSTN
 
-Se precisar de ajuda para receber ou transferir números para nós, mas precisa de ajuda, informe-nos como podemos ajudá-lo em um e-mail e enviá-lo para nós. Na sua solicitação de ajuda de email, inclua o maior número possível de detalhes e inclua detalhes como a ID da sua organização, domínios e de quais tipos de números você precisa de ajuda, quantos números você deseja, autorizando a pessoa sobre a conta e outros detalhes importantes sobre o seu problema.
+Se precisar de ajuda com a compra de números de telefone da Microsoft ou com a portabilidade de números de telefone existentes para a Microsoft, envie uma solicitação de email com as seguintes informações:
 
-Em seguida, envie sua solicitação para um dos seguintes endereços de e-mail:
+  - Sua ID de organização (ID de locatário) ou domínios ativos.
+  - Para quais tipos de números você precisa de ajuda (usuário/assinante, serviço/tarifação ou chamada gratuita).
+  - Quantos números você precisa (se for para aquisição de número).
+  - Autorizar a pessoa na conta e outros detalhes importantes com base na sua solicitação.
 
-- Para obter ajuda com números de telefone dentro dos EUA, [envie sua solicitação](mailto:ptn@microsoft.com).
-- Para obter ajuda com números de telefone fora dos EUA, [envie sua solicitação](mailto:ptneu@microsoft.com).
+Depois que você tiver todas as informações, envie-nos sua solicitação para um dos seguintes endereços de e-mail aplicáveis à sua solicitação:
+- **Portabilidade de número**
+    - Portando números de telefone nos **Estados Unidos ou no Canadá**, [envie-nos um email em PTN@microsoft.com](mailto:ptn@microsoft.com).
+    - Portando números de telefone para **fora dos Estados Unidos ou do Canadá**, [envie-nos um email em ptneu@microsoft.com](mailto:ptneu@microsoft.com).
+    
+- **Aquisição de número**
+    - Aquisição de novos números de telefone para qualquer um dos seguintes países: Bélgica, França, Alemanha, Grã- **Bretanha, Irlanda, Holanda, Espanha, Suécia, Suíça**, [nos envie um email para ptneu@microsoft.com](mailto:ptneu@microsoft.com)
+    - Ao adquirir novos números de telefone para o **resto do mundo** , [envie-nos um email em gcstnmsd@microsoft.com](mailto:gcstnmsd@microsoft.com).
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
