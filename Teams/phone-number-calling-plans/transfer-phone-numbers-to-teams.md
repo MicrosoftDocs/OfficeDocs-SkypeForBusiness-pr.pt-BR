@@ -17,12 +17,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: ''
-ms.openlocfilehash: 0f846029002529d221b079140cf7de8ae618f26c
-ms.sourcegitcommit: f3d4f4aabe31c5516507dfacbbd61cf0ae362d46
+ms.openlocfilehash: b87684b6fbb73115540e20c72636200e61ca0e88
+ms.sourcegitcommit: c4f13aa4947df606d38694a7e544b08be7ce20d1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42089734"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42370410"
 ---
 # <a name="transfer-phone-numbers-to-microsoft-teams"></a>Transferir números de telefone para o Microsoft Teams
 
@@ -87,7 +87,7 @@ Antes de começar, recomendamos que você revise as informações em [um pedido 
 
 ## <a name="what-happens-next"></a>O que acontece agora?
 
-Quando recebermos seu pedido de portabilidade, você receberá um e-mail que confirma sua solicitação. Sua solicitação será verificada e atualizada diariamente, e você será notificado sobre o andamento e o status do email. Se a sua solicitação for recusada, você será solicitado a abrir um tíquete de suporte.
+Quando recebermos seu pedido de portabilidade, você receberá um e-mail que confirma sua solicitação. Sua solicitação será verificada e atualizada diariamente, e você será notificado sobre o andamento e o status do email. Se a sua solicitação de porta for recusada pela transportadora perdida, entre em contato com o [serviço de suporte PSTN](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).
 
 Para exibir o status do seu pedido de portabilidade, no painel de navegação esquerdo do centro de administração do Microsoft Teams, vá para >**pedidos de porta**de **voz** > e clique em **histórico de pedidos**. Cada status de pedido de portabilidade é listado na coluna **status** . Para saber mais, confira [qual é o status de seus pedidos de portabilidade?](port-order-status.md)
 
