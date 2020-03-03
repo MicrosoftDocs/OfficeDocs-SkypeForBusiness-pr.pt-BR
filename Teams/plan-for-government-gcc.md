@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3f03c4cdd13ea63dfee6470843fea5e2dafeab7c
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 51afc464b5f6d0fa698250d1255315535e383bf8
+ms.sourcegitcommit: ed0ecb3b1250a23d3b91a5a33256aee1c3119db1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837441"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "42374318"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>Plano para implantações do governo Microsoft 365-GCC
 
@@ -128,7 +128,7 @@ Para acomodar os requisitos de nossos clientes de nuvem governamental, há algum
 | | Skype Consumer-suporte para chamadas de equipe | Disponível |
 | Arquivos | Alteração | Disponível |
 | | Microsoft Teams | Disponível |
-| Armazenadas | App Store | Na backlog do governo |
+| Armazenadas | App Store | Disponível |
 | Pesquisa | Mensagens | Disponível |
 | | Pessoas | Disponível |
 | | Arquivos | Disponível |
@@ -140,7 +140,6 @@ Para acomodar os requisitos de nossos clientes de nuvem governamental, há algum
 | | eDiscovery | Disponível |
 
 > [!Note]
-
 > Depois que outras cargas de trabalho estiverem totalmente disponíveis na nuvem GCC, elas serão disponibilizadas no Teams quando todo o trabalho adicional de integração for concluído.
 
 
