@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba como gerenciar o ciclo de vida de canais privados em sua organização.
-ms.openlocfilehash: 527e6421160eefa72b2a9c21e8e8f25303534320
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 7cd7701a66c03dfc71d89f007eae4addaed0c89a
+ms.sourcegitcommit: f23c428043bb0b37c9a8600e64691bc2a1f2e874
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837321"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "42403740"
 ---
 # <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>Gerenciar o ciclo de vida de canais privados no Microsoft Teams
 
@@ -184,39 +184,16 @@ Como administrador, você pode usar os comandos do PowerShell ou de APIs de grá
 
 ### <a name="using-powershell"></a>Usando o PowerShell
 
-1. Instale e conecte-se ao [módulo do Microsoft Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams) com sua conta de administrador.
-2. Execute o seguinte, em &lt;que&gt; group_id é a ID do grupo da equipe &lt;e&gt; channel_id é a ID do canal.
-
-    **Solicitação**
+1. Execute o seguinte, onde &lt;group_id&gt; é a ID do grupo da equipe e &lt;channel_name&gt; é o nome do canal.
 
     ```PowerShell
-    Get-TeamChannelUser -GroupId <group_id> -MembershipType Private -DisplayName "<channel_name>" 
-    ```
-    
-    **Resposta**
-
-    ```PowerShell
-    HTTP/1.1 200 OK Content-type: application/json
-    Content-length:
-    {
-      "value": [
-      {
-          "description": "description-value",
-          "displayName": "display-name-value",
-          "id": "channel_id",
-          "membershipType": "membership-type-value",
-          "isFavoriteByDefault": false,
-          "webUrl": "webUrl-value",
-          "email": "email-value"
-          }
-        ]
-    }
+    Get-TeamChannelUser -GroupId <group_id> –MembershipType Private -DisplayName "<channel_name>" 
     ```
 
-3. Promover um membro a um proprietário.
+2. Promover um membro a um proprietário.
 
     ```PowerShell
-    Add-TeamChannelUser -GroupId <group_id> -MembershipType Private -DisplayName "<channel_name>" -User <UPN> -Role Owner
+    Add-TeamChannelUser -GroupId <group_id> –MembershipType Private -DisplayName "<channel_name>" -User <UPN> -Role Owner
     ```
 
 ### <a name="using-graph-api"></a>Usando a API do Graph

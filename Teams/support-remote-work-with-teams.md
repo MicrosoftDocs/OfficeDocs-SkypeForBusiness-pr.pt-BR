@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Use este guia para ajudar os funcionários remotos da sua organização a serem produtivos usando o Microsoft Teams, especialmente quando estiverem trabalhando em casa (WFH) em resposta à epidemia de COVID-19 (coronavírus).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4fbdb875896ca07402d699f1ca2a28770cb46ee2
-ms.sourcegitcommit: ae65fb089d98665c4b26e0345bb96241fb893f0b
+ms.openlocfilehash: 80af76906697ef2510fe75d8764e8908cdbbd976
+ms.sourcegitcommit: ed0ecb3b1250a23d3b91a5a33256aee1c3119db1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/29/2020
-ms.locfileid: "42342898"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "42374308"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>Ofereça suporte a trabalhadores remotos usando o Microsoft Teams
 
@@ -29,7 +29,7 @@ Use as práticas recomendadas neste artigo para oferecer suporte aos usuários q
 
 1.  Certifique-se de que o [Teams esteja ativado para todos](assign-teams-licenses.md)
     
-      - Veja [Teams Exploratory](teams-exploratory.md) ou [Teams gratuito](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c) para disponibilizar o Teams para todos em sua empresa.
+      - Confira [Avaliação do Teams E1](e1-trial-license.md), [Teams Exploratory](teams-exploratory.md) ou [Teams gratuito](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c) para disponibilizar o Teams para todos em sua empresa.
 
       - Os funcionários remotos dependem muito das reuniões e das conferências de áudio. Se você ainda não distribuiu essas cargas de trabalho, confira [Reuniões e conferências no Teams](deploy-meetings-microsoft-teams-landing-page.md).
 
