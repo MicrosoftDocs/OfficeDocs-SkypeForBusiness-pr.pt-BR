@@ -21,12 +21,12 @@ ms.custom:
 ms.collection:
 - M365-collaboration
 description: Saiba como gerenciar as configurações de reuniões do Team que os usuários agendam em sua organização.
-ms.openlocfilehash: bed367c9c40bb7124235abf204bbfa0395859685
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 920069ed5f5687111d51411afce9499a2d5db5d2
+ms.sourcegitcommit: ab6099547846f048f1c4cc584a8c5cb8c386d22e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836461"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "42413288"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Gerenciar configurações de reunião no Microsoft Teams
 
@@ -71,7 +71,9 @@ Você pode personalizar convites de reunião do teams para atender às necessida
     - **URL legal** Se a sua organização tiver um site legal para o qual você deseja que as pessoas vá para qualquer preocupação legal, insira a URL aqui.
     - **URL da ajuda** Se a sua organização tiver um site de suporte para o qual você deseja que as pessoas possam acessar, insira a URL aqui.
     - **Rodapé** Insira o texto que você deseja incluir como um rodapé.
-3. Aguarde uma hora ou para que as alterações sejam propagadas. Em seguida, agende uma reunião do teams para ver a aparência do convite da reunião.  
+3. Clique em **Visualizar convite** para ver uma visualização do convite da reunião.
+4. Quando terminar, clique em **salvar**.
+5. Aguarde uma hora ou para que as alterações sejam propagadas. Em seguida, agende uma reunião do teams para ver a aparência do convite da reunião.  
 
 ## <a name="set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings"></a>Defina como você deseja manipular o tráfego de mídia em tempo real para reuniões de equipes
 
@@ -90,13 +92,13 @@ Se você estiver usando a [QoS (](qos-in-teams.md) qualidade de serviço) para p
     ![Captura de tela das configurações de rede para reuniões no centro de administração](media/meeting-settings-network.png "Captura de tela das configurações de rede para reuniões do teams no centro de administração do Microsoft Teams")
 
     - Para permitir que as marcações DSCP sejam usadas para a QoS, ative **Inserir marcadores de qualidade de serviço (QoS) para tráfego de mídia em tempo real**. Você só tem a opção de usar marcadores ou não; Você não pode definir marcadores personalizados para cada tipo de tráfego. Consulte [selecionar um método de implementação de QoS](QoS-in-Teams.md#select-a-qos-implementation-method) para saber mais sobre marcadores DSCP.
-    > [!NOTE] 
-    > Ativar a **inserção de marcadores de qualidade de serviço (QoS) para tráfego de mídia em tempo real** também habilitará a comunicação com a transmissão de transporte com portas UDP 3479 (áudio), 3480 (vídeo) e 3481 (compartilhamento).
+        > [!NOTE] 
+        > Ativar a **inserção de marcadores de qualidade de serviço (QoS) para tráfego de mídia em tempo real** também habilitará a comunicação com a transmissão de transporte com portas UDP 3479 (áudio), 3480 (vídeo) e 3481 (compartilhamento).
     - Para especificar intervalos de porta, ao lado de **selecionar um intervalo de portas para cada tipo de tráfego de mídia em tempo real**, selecione **especificar intervalos de porta**e insira as portas inicial e final para o áudio, o vídeo e o compartilhamento de tela. Selecionar essa opção é necessária para implementar QoS.
-    > [!IMPORTANT]
-    > Se você selecionar **usar automaticamente as portas disponíveis**, as portas disponíveis entre 1024 e 65535 serão usadas. Use essa opção somente quando não estiver implementando a QoS.
-    >
-    > A seleção de um intervalo de porta muito estreito levará a chamadas e a uma baixa qualidade da chamada. As recomendações a seguir devem ser um mínimo simples.
+        > [!IMPORTANT]
+        > Se você selecionar **usar automaticamente as portas disponíveis**, as portas disponíveis entre 1024 e 65535 serão usadas. Use essa opção somente quando não estiver implementando a QoS.
+        >
+        > A seleção de um intervalo de porta muito estreito levará a chamadas e a uma baixa qualidade da chamada. As recomendações a seguir devem ser um mínimo simples.
 
 Se você não tiver certeza de quais intervalos de porta usar no seu ambiente, as configurações a seguir são um bom ponto de partida. Para saber mais, leia [implementar qualidade de serviço (QoS) no Microsoft Teams](QoS-in-Teams.md). Estas são as marcações DSCP necessárias e os intervalos de porta de mídia sugeridos correspondentes usados pelo Teams e pela rota expressa.
 
