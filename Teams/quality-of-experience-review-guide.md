@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 025bd70c79cdc0547f86514521fd1e565265d4f8
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.openlocfilehash: 13c3267378d4e8fbc5b3d3631606cf0824ea7a44
+ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42160775"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42417846"
 ---
 # <a name="quality-of-experience-review-guide"></a>Guia de revisão da experiência de qualidade
 
@@ -379,7 +379,7 @@ Para filtrar todos os relatórios detalhados, na barra do navegador, acrescente 
 
 **Exemplo**
 
-```https://cqd.lync.com/cqd/#/1234567/2018-5/filter/[AllStreams].[Is Teams]|[FALSE]```
+```https://cqd.teams.microsoft.com/cqd/#/1234567/2018-5/filter/[AllStreams].[Is Teams]|[FALSE]```
 
 Para obter mais informações sobre filtros de URL, consulte [Filtrar relatórios](#filtering-reports) mais adiante nesta seção.
 
@@ -472,7 +472,7 @@ Para obter treinamento e recursos mais aprofundados, consulte o [Apêndice](#oth
 
 Você pode acessar o CQD de uma destas três maneiras:
 
--   Vá para <https://cqd.lync.com>.
+-   Vá para <https://cqd.teams.microsoft.com>.
 
 -   Vá para **centro de administração do Microsoft Teams** e selecione o link para CQD, conforme mostrado na ilustração a seguir.
 
@@ -482,7 +482,7 @@ _Figura 7 – acessando o CQD por meio do centro de administração do Microsoft
 
 -   Vá para as > **ferramentas**herdadas do **centro de administração do Skype for Business**e selecione o link para CQD, conforme mostrado na ilustração a seguir.
 
-![Captura de tela de CQD selecionada no painel principal.](media/qerguide-image-legacyui.png "Ferramentas está selecionada no painel de navegação à esquerda e o link para CQD está selecionado no painel principal.")
+![Captura de tela do CQD selecionado no painel principal.](media/qerguide-image-legacyui.png "Ferramentas está selecionada no painel de navegação à esquerda e o link para CQD está selecionado no painel principal.")
 
 _Figura 8-acessando o CQD por meio do centro de administração do Skype for Business_
 
@@ -543,7 +543,7 @@ Para implementar um filtro de URL, na barra de endereços do navegador, adicione
 
 Exemplo  
 
-```https://cqd.lync.com/cqd/#/1234567/2018-08/filter/[AllStreams].[Second Tenant Id]|[TENANTID]```
+```https://cqd.teams.microsoft.com/cqd/#/1234567/2018-08/filter/[AllStreams].[Second Tenant Id]|[TENANTID]```
 
 Para filtrar os relatórios do teams ou do Skype for Business, acrescente o seguinte ao final da URL:
 
@@ -553,11 +553,11 @@ Para filtrar os relatórios do teams ou do Skype for Business, acrescente o segu
 
 Exemplo
 
-```https://cqd.lync.com/cqd/#/1234567/2018-08/filter/[AllStreams].[Is Teams]|[TRUE]```
+```https://cqd.teams.microsoft.com/cqd/#/1234567/2018-08/filter/[AllStreams].[Is Teams]|[TRUE]```
 
 
 > [!NOTE]
-> Os exemplos de URL acima são apenas para representação visual. Use o link CQD padrão de <https://cqd.lync.com>.
+> Os exemplos de URL acima são apenas para representação visual. Use o link CQD padrão de <https://cqd.teams.microsoft.com>.
 
 
 #### <a name="query-filters"></a>Filtros de consulta
@@ -591,7 +591,7 @@ Este guia inclui [dois modelos de CQD organizadas](https://aka.ms/qertemplates).
 
 **Para importar os modelos (. CQDX) no CQD online**
 
-1. Vá para <https://cqd.lync.com>.
+1. Vá para <https://cqd.teams.microsoft.com>.
 
 2. Autentique usando suas credenciais administrativas do Office 365.
 
@@ -711,7 +711,7 @@ Os dados de qualidade da experiência (QoE) que os clientes enviam para o Office
 
 O painel relatórios de resumo CQD inclui uma página de **carregamento de dados de locatários** , acessada selecionando a marca link de **carregamento de dados do locatário** no canto superior direito (procure o ícone de engrenagem). Esta página é usada para os administradores carregarem suas próprias informações, como o mapeamento de endereços IP e informações geográficas, o mapeamento de cada ponto de acesso sem fio e seu endereço MAC e assim por diante.
 
-1. Acesse CQD online navegando até <https://cqd.lync.com>.
+1. Acesse CQD online navegando até <https://cqd.teams.microsoft.com>.
 
 2. Selecione o ícone de engrenagem no canto superior direito e escolha **carregar dados do locatário** na página **relatórios de resumo** .
 
@@ -1130,7 +1130,7 @@ Esse relatório identifica construções e sub-redes específicas que contribuem
 > [!NOTE]
 > Certifique-se de ajustar o filtro de ano do mês para o mês atual. Selecione **Editar**e ajuste **ano do mês** para salvar o novo mês padrão.
 
-![Captura de sreen de um relatório de uso do proxy HTTP por meio da construção e da sub-rede](media/qerguide-image-httpproxyusage.png)
+![Captura de tela do relatório de uso de proxy HTTP por meio da construção e sub-rede](media/qerguide-image-httpproxyusage.png)
 
 _Figura 29 – uso do proxy HTTP por meio da construção e da sub-rede_
 

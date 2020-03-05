@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: Este artigo discute como implantar o gerenciamento de dispositivos de salas do Microsoft Teams de maneira integrada e de ponta a ponta usando o Azure monitor.
-ms.openlocfilehash: 54268676eadab25599d4f8b6e415ff373717943f
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 70c2311143a4daabbc0838168e19969f950a2df1
+ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826259"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42417536"
 ---
 # <a name="deploy-no-loc-textmicrosoft-teams-rooms-management-with-no-loc-textazure-monitor"></a>Implantar :::no-loc text="Microsoft Teams Rooms"::: gerenciamento com:::no-loc text="Azure Monitor":::
 
@@ -30,7 +30,7 @@ Você pode configurar :::no-loc text="Log Analytics"::: dentro :::no-loc text="A
 
 Ao seguir este guia, você pode usar um painel como o exemplo a seguir para obter relatórios detalhados sobre o status de disponibilidade de dispositivos, integridade :::no-loc text="Microsoft Teams Rooms"::: de aplicativo e hardware e distribuição de versão do sistema operacional e do aplicativo.
 
-! [Captura de tela do :::no-loc text="Log Analytics"::: modo de :::no-loc text="Microsoft Teams Rooms":::exibição de amostra para] (.. /media/Deploy-Azure-Monitor-1.png "exemplo :::no-loc text="Log Analytics"::: de exibição :::no-loc text="Microsoft Teams Rooms":::para")
+![Captura de tela da exibição de análise de log de amostra para salas do Microsoft Teams](../media/Deploy-Azure-Monitor-1.png "Exemplo de exibição de análise de log para salas do Microsoft Teams")
 
 Em um nível superior, é necessário executar as seguintes tarefas:
 
@@ -373,7 +373,7 @@ Configure uma regra de alerta que verifique :::no-loc text="Microsoft Teams Room
 5.  Defina as configurações de lógica de alerta:<br>
     **Com base em:** Número de resultados<br>
     **Condição:** Maior em seguida<br>
-    **Treshold:** 0<br>
+    **Limite:** 0<br>
 
 6. Defina as configurações de avaliação e selecione **concluído**: <br>
     **Período (em minutos):** 60<br>
@@ -383,7 +383,7 @@ Configure uma regra de alerta que verifique :::no-loc text="Microsoft Teams Room
     1.  Selecione **criar novo**
     2.  Forneça nomes adequados para os campos *nome do grupo de ação* e *nome curto* .
     3.  Especifique um *nome de ação* exclusivo e selecione **email/SMS/Push/voz**e, em seguida, selecione **Editar detalhes**.
-    4.  Marque a caixa de seleção email e forneça o endereço de email da pessoa ou do grupo que receberá os alertas.
+    4.  Marque a caixa de seleção **email** e forneça o endereço de email da pessoa ou do grupo que receberá os alertas.
     5.  Você também pode fornecer seu número de telefone para ser notificado com SMS, uma chamada de voz ou ambos.
     6. Selecione **OK**.
 
