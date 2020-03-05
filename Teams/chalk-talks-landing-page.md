@@ -16,12 +16,12 @@ f1.keywords:
 ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.instructorled
 ms.collection:
 - M365-collaboration
-ms.openlocfilehash: ab643059e57b5ec621100662c4585e43e1a91607
-ms.sourcegitcommit: 0286eec17b7eea486b857a69fb6c6166ef0799d2
+ms.openlocfilehash: adead862907c29c066df8b2541c260045f19db95
+ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "42409796"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42417596"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -82,7 +82,7 @@ Projetado para profissionais de ti e tomadores de decisões, a palestra em pales
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Criar um aplicativo do teams em 60 minutos</h3>
+                        <h3>Implantar um aplicativo do teams em 60 minutos</h3>
                         <p><font color="red"><i>Em breve!</i></font> Estenda o Microsoft Teams usando modelos de aplicativos para criar ferramentas que você usa todos os dias diretamente no Teams para que o trabalho seja feito dentro de uma única experiência.</p>
                     </div>
                 </div>
