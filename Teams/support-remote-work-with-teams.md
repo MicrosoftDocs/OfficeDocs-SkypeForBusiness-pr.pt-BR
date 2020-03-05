@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Use este guia para ajudar os funcionários remotos da sua organização a serem produtivos usando o Microsoft Teams, especialmente quando estiverem trabalhando em casa (WFH) em resposta à epidemia de COVID-19 (coronavírus).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 80af76906697ef2510fe75d8764e8908cdbbd976
-ms.sourcegitcommit: ed0ecb3b1250a23d3b91a5a33256aee1c3119db1
+ms.openlocfilehash: a50ffe4e5b4b3fa360f8f4ef21273dfe6081a2cc
+ms.sourcegitcommit: ab6099547846f048f1c4cc584a8c5cb8c386d22e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "42374308"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "42413266"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>Ofereça suporte a trabalhadores remotos usando o Microsoft Teams
 
@@ -51,18 +51,20 @@ Use as práticas recomendadas neste artigo para oferecer suporte aos usuários q
 
       - [Trabalhando remotamente com o Teams e o Office 365](https://support.microsoft.com/help/4549995/working-remotely-with-teams-and-office-365)
 
-3.  Incentive todos a [Instalar](get-clients.md#mobile-clients) e usar o aplicativo móvel: [iOS](https://go.microsoft.com/fwlink/?LinkId=835758) [Android](https://go.microsoft.com/fwlink/p/?linkid=2102168)
+3.  Incentive todos a [instalar](get-clients.md#mobile-clients) e usar o aplicativo móvel: [iOS](https://go.microsoft.com/fwlink/?LinkId=835758) [Android](https://go.microsoft.com/fwlink/p/?linkid=2102168)
 
     > [!NOTE]
-    > Se você estiver na China, vá para [obter Teams para Android na China](get-teams-android-in-china.md)
+    > Se você estiver na China, vá para [Obter Teams para Android na China](get-teams-android-in-china.md).
 
 4.  Equipe sua [assistência técnica](troubleshoot-installation.md) para lidar com consultas de usuários.
+
+7. Se você não estiver familiarizado com a função de administrador de equipe, confira [Treinamento de administração para Equipes](itadmin-readiness.md).
 
 
 ## <a name="communications"></a>Comunicações
 
 Use o Teams para se manter em contato com seus funcionários:
-- Modelos de aplicativo[Equipes de toda a organização](create-an-org-wide-team.md) e [Communicator da empresa](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates#company-communicator).
+- Modelos de aplicativo para[Equipes de toda a organização](create-an-org-wide-team.md) e [Comunicador da empresa](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates#company-communicator).
     
 - Envie informações sobre as políticas de trabalho em casa e de saúde e segurança da sua organização.
     
@@ -88,8 +90,8 @@ A Microsoft está ciente de que alguns usuários na região da China estão enfr
 
 Recomendamos o seguinte se você estiver enfrentando problemas de videoconferência:
 
-- Peça para o organizador ou para o organizador da reunião ligar para o seu telefone PSTN ou celular
-- Participe da chamada ou da reunião a partir dos clientes móveis ou da área de trabalho, usando o VoIP
+- Peça para o chamador ou para o organizador da reunião ligar para o seu telefone PSTN ou celular.
+- Participe da chamada ou da reunião a partir dos clientes móveis ou da área de trabalho, usando o VoIP.
 
 Se você precisar registrar um tíquete de suporte, inclua o seguinte:
     
