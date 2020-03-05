@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: A Microsoft está desativando o serviço de Unificação de mensagens do Exchange Online (ExchUMO) em 28 de fevereiro de 2020. Este artigo resume o que os clientes afetados devem saber e fazer para planejar sua continuidade de negócios.
-ms.openlocfilehash: f6adb1636d6a40e41b006c3981dc4d21ba503289
-ms.sourcegitcommit: ed0ecb3b1250a23d3b91a5a33256aee1c3119db1
+ms.openlocfilehash: c39485de1acceef0dc340f039a1586b3e6014522
+ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "42374298"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42417616"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Suporte à migração online de Unificação de mensagens do Exchange
 
@@ -235,6 +235,8 @@ Novos usuários do Skype for Business serão automaticamente provisionados para 
 Para saber mais sobre atendedores automáticos, consulte [configurar um atendedor automático na nuvem](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant).
 
 #### <a name="known-issues"></a>Problemas conhecidos
+
+**Desabilitar o acesso ao Assinante após a migração para evitar a inconsistência de saudação** O acesso ao assinante pode continuar a funcionar para o locatário até que o serviço seja completamente desativado, mesmo depois que todos os seus usuários tenham sido migrados para a caixa postal na nuvem. Para evitar a confusão do usuário e a experiência inconsistente, desabilite o acesso ao Assinante, pois as saudações alteradas após a migração de não terão efeito. Para fazer isso, remova o contato do EXUM para cada linha de acesso do assinante usando Get-CsExUmContact |? {$_. IsSubscriberAccess-EQ $true} | Remove-CsExUmContact 
 
 **Transferência de chamadas de atendedor automático para PSTN** Recomendamos que os clientes configurem temporariamente uma solução alternativa para atender aos requisitos de transferência de uma chamada de atendedor automático para um número externo de PSTN ou para uma instância de RGS. 
  

@@ -15,12 +15,12 @@ ms.collection:
 description: Saiba mais sobre os relatórios do teams que estão disponíveis no centro de administração do Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fc5c3c3c5588abe0c3ee748bdcd8a5ba3a2bf302
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 080ddb1455a204b7dc96ddcac8d414a1d1b77228
+ms.sourcegitcommit: 095bed15ffe64c34e6c39770b5734d966d5d8a0f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827219"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42507959"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Análise e relatórios do Microsoft Teams
 
@@ -28,7 +28,7 @@ Uma nova experiência de análise e relatórios do Microsoft Teams está dispon�
 
 ## <a name="how-to-access-the-reports"></a>Como acessar os relatórios
 
-Para acessar os relatórios, você deve ser um administrador global no Office 365, administrador do teams Service ou administrador do Skype for Business.  Vá para o centro de administração do Microsoft Teams, no painel de navegação à esquerda, selecione **relatórios de análise &** e, em seguida, em **relatório**, escolha o relatório que você deseja executar.
+Para acessar os relatórios, você deve ser um administrador global no Office 365, administrador de serviços do Teams, administrador de comunicações do teams ou administrador do Skype for Business.  Vá para o centro de administração do Microsoft Teams, no painel de navegação à esquerda, selecione **relatórios de análise &** e, em seguida, em **relatório**, escolha o relatório que você deseja executar.
 
 > [!NOTE]
 > Os relatórios no centro de administração do Microsoft Teams são separados dos relatórios de atividades do teams que fazem parte dos relatórios do Office 365 no centro de administração do Microsoft 365. Para obter mais informações sobre os relatórios de atividades no centro de administração do Microsoft 365, consulte [relatórios de atividade do Microsoft Teams no centro de administração do microsoft 365](../teams-activity-reports.md)
@@ -43,7 +43,7 @@ Estamos melhorando continuamente a experiência de relatório do Teams e adicion
 |---------|---------|
 |[Relatório de uso do Teams](teams-usage-report.md)  |  Usuários ativos<br/>Usuários ativos em equipes e canais<br/>Canais ativos<br/>Mensagens<br/>Configuração de privacidade do teams<br/>Convidados em uma equipe   |
 |[Relatório de atividades do usuário do Teams](user-activity-report.md)  |  1:1 chamadas de um usuário participou<br/>Mensagens que um usuário postou em um chat de equipe<br/>Mensagens que um usuário publicou em um chat privado<br/>Data da última atividade de um usuário     |
-|[Relatório de uso de dispositivos do Teams](device-usage-report.md)   |  Usuários do Windows:<br/>Usuários do Mac<br/>usuários do iOS<br/>Usuários de telefones Android     |
+|[Relatório de uso de dispositivos do Teams](device-usage-report.md)   |  Usuários do Windows<br/>Usuários do Mac<br/>usuários do iOS<br/>Usuários de telefones Android     |
 |[Relatório de uso de evento ao vivo do Teams](teams-live-event-usage-report.md)   |  Total de exibições<br>Hora de início<br>Status do evento<br>Organizador<br>Apresentações<br>Produtor<br>Configuração de gravação<br>Tipo de produção    |
 |[Relatório de usuários bloqueados PSTN de equipe](pstn-blocked-users-report.md)   |  Nome para exibição<br>Número de telefone<br>Motivo<br>Tipo de ação<br>Data e hora da ação   |
 |[Relatório de pools de minutos da PSTN em equipes](pstn-minute-pools-report.md) |  País ou região<br>Recurso (licença) <br>Total de minutos<br>Minutos usados<br>Minutos disponíveis|
