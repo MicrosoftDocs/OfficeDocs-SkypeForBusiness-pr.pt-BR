@@ -19,12 +19,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 55e4ec98d6e54dba88a417d9631605859962c9c1
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 78531cfad01051e4a9d7493384a18f4c0a4e1dc4
+ms.sourcegitcommit: 494e5956619084ff8f0a4f42efb5081c4530488a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42033018"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "42550999"
 ---
 # <a name="tools-for-driving-adoption"></a>Ferramentas para conduzir a adoção 
 
@@ -155,4 +155,4 @@ O programa campeões do Office 365 é um programa gratuito que ajuda as pessoas 
 Confira a [adoção do teams quadro a quadro](https://aka.ms/teamstoolkit), um guia online que ajudará você a implantar equipes em sua empresa. Ele inclui muitas ferramentas, modelos e outros recursos disponíveis para download, além de outros recursos para ajudá-lo na jornada de adoção do seu Teams.
 
 ### <a name="teams-customer-success-kit"></a>Kit de sucesso do cliente do teams
-O [Kit de sucesso do cliente do teams](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip) fornece ferramentas para ajudá-lo a implantar equipes em sua organização. Inclui modelos de email para anúncios, cartazes, contagem regressiva e dicas & truques. Ele também inclui guias de introdução para líderes da equipe e administradores de ti.
+O [Kit de sucesso do cliente do teams](https://aka.ms/TeamsCustomerSuccess) fornece ferramentas para ajudá-lo a implantar equipes em sua organização. Inclui modelos de email para anúncios, cartazes, contagem regressiva e dicas & truques. Ele também inclui guias de introdução para líderes da equipe e administradores de ti.
