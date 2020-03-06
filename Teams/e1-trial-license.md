@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0709f28125bc43ebc372f3bd2cddd33476526237
-ms.sourcegitcommit: bc2e0f6f2ed3802ecc67275594db221c61824458
+ms.openlocfilehash: a3f5d73920da0f9b18b1810768b0468c4106a6f3
+ms.sourcegitcommit: 095bed15ffe64c34e6c39770b5734d966d5d8a0f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "42398159"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42507949"
 ---
 <a name="manage-the-office-365-e1-trial"></a>Gerenciar a avaliação do Office 365 E1
 ==============================
@@ -47,7 +47,9 @@ Depois de usar seu código promocional de avaliação E1, você não poderá us�
 
 ## <a name="who-isnt-eligible"></a>Quem não está qualificado
 
-- Esta oferta não está disponível para clientes GCC, GCC High, DoD ou EDU. Estamos trabalhando em uma versão para GCC da avaliação E1 - ela estará disponível em breve. 
+- Esta oferta não está disponível para clientes GCC, GCC High, DoD ou EDU. 
+
+- Para o GCC, confira a [Avaliação do Office 365 G1](g1-trial-license.md). 
 
 - Os clientes EDU devem usar a licença gratuita do Office 365 A1.
 
