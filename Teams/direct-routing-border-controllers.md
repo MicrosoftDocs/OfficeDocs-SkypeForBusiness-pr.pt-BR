@@ -17,12 +17,12 @@ hideEdit: true
 f1.keywords:
 - NOCSH
 description: A Microsoft faz parceria com fornecedores selecionados de SBC (controlador de borda da sessão) para garantir que seus SBCs sejam compatíveis com o Roteamento Direto.
-ms.openlocfilehash: 4a39ed6bde0879bb47d1f586d0ffefba06e59ca8
-ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
+ms.openlocfilehash: e694f82ff7d9ed36cf217d5ebe40fc2be91b442c
+ms.sourcegitcommit: 87022aa009eae868e1fd945dc299367e16733a3c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 03/05/2020
-ms.locfileid: "42417856"
+ms.locfileid: "42544967"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Lista de controladores de borda da sessão certificados para Roteamento Direto
 
@@ -61,7 +61,7 @@ A tabela a seguir lista os dispositivos certificados para Roteamento Direto.
 |                                                                                                                     |      SBC 1000       |     &#10004;     |   &#10004;    |      8.0.3 (Build 537)     |  <ul> <li> [Roteamento de localização dinâmica da largura de banda](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li> Inentrada ERS </li> <li>Inentrada EGW </li> <li> Mobilidade de horizonte vermelho-céu </li> </ul>   |    Sim     |    
 |                                                                                                                     |      SBC 2000       |     &#10004;     |   &#10004;   |     8.0.3 (Build 537)     |  <ul> <li>[Roteamento de localização dinâmica da largura de banda](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li> Inentrada ERS </li> <li>Inentrada EGW </li> <li> Mobilidade de horizonte vermelho-céu </li> </ul>   |     Sim      |    
 |                                                                                                                     |    SBC SWe Lite     |     &#10004;     |  &#10004;    |      8.0.3 (Build 216)    |  <ul> <li> [Roteamento de localização dinâmica da largura de banda](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li> Inentrada ERS </li> <li>Inentrada EGW </li> <li> Mobilidade de horizonte vermelho-céu </li> </ul>    |     Sim      |   
-| | Série Edgemarc |  &#10004; | | 15.6.1 | 
+| | Série EdgeMarc |  &#10004; | | 15.6.1 | 
 |                     [Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    Think 365 SBC    |     &#10004;     |        Pendente   |       V1.4       |     |    |    
 |                     [Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)                      |    AP 1100      |    &#10004;     |    &#10004;    |   8.3.0.0.1 |   <ul> <li> [Roteamento de localização dinâmica da largura de banda](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li>  <li> Inentrada ERS </li> <li>Inentrada EGW </li> </ul>   |    |    
 |                                                                                                                    |    AP 3900           |    &#10004;     |    &#10004;   |   8.3.0.0.1  |  <ul> <li> [Roteamento de localização dinâmica da largura de banda](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li>  <li> Inentrada ERS </li> <li>Inentrada EGW </li> </ul>  |    |    
@@ -77,5 +77,8 @@ A tabela a seguir lista os dispositivos que são verificados quanto à interoper
 |                                                       Fornecedor                                                        |       Produto       | Verificação
 |---------------------------------------------------------------------------------------------------------------------|---------------------|------------------|
 | [Audiocodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   [ATA-1](https://www.audiocodes.com/media/2373/mp-1xx-and-mp-124-datasheet.pdf)   |     &#10004;     |
+| [Faixa](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions) |   [SBC 1000. Versão do software: 8.1.1 (Build 527)](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Analog+Devices)   |     &#10004;     |
+| [Faixa](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions) |   [SBC 2000. Versão do software: 8.1.1 (Build 527)](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Analog+Devices)   |     &#10004;     |
+
 
 Para dar a seus comentários sobre o produto sobre equipes, como ideias para novos recursos, confira nota do [UserVoice](https://microsoftteams.uservoice.com) a certificação concedida a uma versão principal. Isso significa que o firmware com qualquer número no firmware SBC após a versão principal tem suporte.
