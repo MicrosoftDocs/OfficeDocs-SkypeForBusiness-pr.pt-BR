@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7453743407696a0ba8c41cb401caf4f22ba7b78f
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 6ffbf676a86320fe3003d26dc94161d9e9e58c4d
+ms.sourcegitcommit: 494e5956619084ff8f0a4f42efb5081c4530488a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825299"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "42550908"
 ---
 ![Atualize o diagrama de jornada, enfatizando o estágio operacional de excelência](media/upgrade-banner-op-excellence.png "Estágios da jornada da atualização, com ênfase no estágio Operational de excelência")
 
@@ -47,7 +47,7 @@ Para obter os resultados máximos de benefícios e negócios com o Teams, os usu
 
 - Listando especialistas em pontos para ajudar a evangelizar e incentivar os usuários do colega.
 - Confira o [Guia de adoção do Office 365](https://go.microsoft.com/fwlink/?linkid=859045) para obter dicas sobre o aumento do envolvimento e a adoção da adoção.
-- Aproveitando o [Kit de sucesso do cliente do teams](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip) para melhorar a conscientização e compartilhar as práticas recomendadas.
+- Aproveitando o [Kit de sucesso do cliente do teams](https://aka.ms/TeamsCustomerSuccess) para melhorar a conscientização e compartilhar as práticas recomendadas.
 - Implementação de uma [adoção formal e estratégia de gerenciamento de alterações](http://www.successwithteams.com/) para ajudar a sustentar o crescimento da adoção.
 
 ## <a name="prepare-for-new-functionality"></a>Preparar-se para novas funcionalidades

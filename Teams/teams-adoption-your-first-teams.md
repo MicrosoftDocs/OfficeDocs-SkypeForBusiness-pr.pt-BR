@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1a62bc73e7dc2496a9fedc94ad7fc38f2ebecd65
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 69cfb557f04644c1bb54d78ae24a8110d42ee8a0
+ms.sourcegitcommit: 494e5956619084ff8f0a4f42efb5081c4530488a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030765"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "42551028"
 ---
 # <a name="create-your-first-teams-in-microsoft-teams"></a>Criar suas primeiras equipes no Microsoft Teams
 
@@ -46,7 +46,7 @@ Em suas equipes iniciais, sugerimos fixar os seguintes itens para facilitar a re
 |----------------- | ---------- |
 | **Implantação do Microsoft Teams** ||
 | Geral | Guia da Web: [documentação do teams](https://aka.ms/SuccessWithTeams) |
-| Conscientização e adoção | [Hub de adoção de equipes](https://aka.ms/DriveTeamsAdoption)<br/>[Kit de sucesso do cliente Microsoft Teams](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip)|
+| Conscientização e adoção | [Hub de adoção de equipes](https://aka.ms/DriveTeamsAdoption)<br/>[Kit de sucesso do cliente Microsoft Teams](https://aka.ms/TeamsCustomerSuccess)|
 | Envolvimento empresarial | Wiki – orientação sobre o compromisso<br/>Formulário – solicitação de consultoria de equipes<br/>Lista – solicitações de compromisso |
 |Pioneiros | Comunidade de comentários afixado <br/> OneNote para perguntas frequentes e temas comuns |
 | Comentários e relatórios | Relatório de uso do Office 365 fixado (somente para administradores do Office 365) |
