@@ -20,12 +20,12 @@ ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
 ROBOTS: NOINDEX
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bc72976fd7aa2ff03d305b5edaeff0d18c1f2a61
-ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
+ms.openlocfilehash: 182b7178cf24b786e81afd9181c9275541857486
+ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42417866"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42558601"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -50,9 +50,9 @@ ms.locfileid: "42417866"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Comece a usar o Teams em 30</h3>
+                        <h3>Comece a usar o Teams em 30 (Comece aqui!)</h3>
                         <P>Inicie seus times em 30 viagens no pé direito. Compreenda o programa, quem deve participar e quais recursos você pode usar para garantir o seu sucesso.</P>
-                        <p>*Público: patrocinadores da empresa, administradores de ti, adoção e alterar proprietários*</p>
+                        <p><i>Público: patrocinadores da empresa, administradores de ti, adoção e alterar proprietários</i></p>
                     </div>
                 </div>
             </div>
@@ -71,7 +71,7 @@ ms.locfileid: "42417866"
                     </div>
                     <div class="cardText">
                         <h3>Preparar seus usuários finais</h3>
-                    <p>Descubra estratégias e recursos para preparar seus usuários, criar um contingente de campeões e garantir a aceitação do usuário como componente principal da sua distribuição de equipes.</p><p>*Audiência: adoção e alterações de proprietários*</p>
+                    <p>Descubra estratégias e recursos para preparar seus usuários, criar um contingente de campeões e garantir a aceitação do usuário como componente principal da sua distribuição de equipes.</p><p><i>Audiência: adoção e alterações de proprietários</i></p>
                     </div>
                 </div>
             </div>
@@ -90,7 +90,7 @@ ms.locfileid: "42417866"
                     </div>
                     <div class="cardText">
                     <h3>Preparar seu ambiente-parte I</h3>
-                    <p>Defina a base para a distribuição de suas equipes. Identificar pré-requisitos de equipes, redes e práticas recomendadas de segurança, políticas de coexistência, análises e relatórios e recomendações de distribuição de clientes.</p><p>*Audiência: Administradores de TI*</p>
+                    <p>Defina a base para a distribuição de suas equipes. Identificar pré-requisitos de equipes, redes e práticas recomendadas de segurança, políticas de coexistência, análises e relatórios e recomendações de distribuição de clientes.</p><p><i>Audiência: Administradores de TI</i></p>
 </div>
                 </div>
             </div>
@@ -108,7 +108,7 @@ ms.locfileid: "42417866"
                     </div>
                     <div class="cardText">
                         <h3>Preparar seu ambiente-parte II</h3>
-                    <p>Agora que você tem a base em vigor, entenda as práticas recomendadas para implementar a conformidade, retenção, governança e videoconferências para o Microsoft Teams.</p><p>*Audiência: Administradores de TI*</p>
+                    <p>Agora que você tem a base em vigor, entenda as práticas recomendadas para implementar a conformidade, retenção, governança e videoconferências para o Microsoft Teams.</p><p><i>Audiência: Administradores de TI</i></p>
                     </div>
                 </div>
             </div>
@@ -128,7 +128,7 @@ ms.locfileid: "42417866"
                     <div class="cardText">
                     <h3>Otimizar e expandir</h3>
                     <p>Crie um plano que inclua otimização do desempenho do serviço, expansão de recursos da equipe e integração de novos usuários.</p>
-                    <p>*Público: patrocinadores da empresa, administradores de ti, adoção e alterar proprietários*</p>
+                    <p><i>Público: patrocinadores da empresa, administradores de ti, adoção e alterar proprietários</i></p>
                     </div>
                 </div>
             </div>
@@ -146,8 +146,10 @@ ms.locfileid: "42417866"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Palestras em giz de equipe</h3>
-                    <p>Facilitada por especialistas no assunto, esses workshops interativos online fornecem uma oportunidade única para aprender as práticas recomendadas e orientação prática em relação a alguns dos cenários mais populares e atraentes do Microsoft Teams.</p><p>*Audiência: Administradores de TI*</p>
+                    <h3>Palestras em giz de equipe</h3>
+                    <p>Facilitada por especialistas no assunto, esses workshops interativos online fornecem uma oportunidade única para aprender as práticas recomendadas e orientação prática em relação a alguns dos cenários mais populares e atraentes do Microsoft Teams.</p>
+                    <p><strong>Pré-requisito</strong>: equipes em 30 workshops. Giz fala com base no que você aprenderá nos workshops que encontrar nesta página.</p>
+                    <p><i>Audiência: Administradores de TI</i></p>
                     </div>
                 </div>
             </div>
