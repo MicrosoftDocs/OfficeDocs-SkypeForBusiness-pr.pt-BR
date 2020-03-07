@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9e0259a47f72caa441d0f7d4b13ccf00345b1a3d
-ms.sourcegitcommit: 494e5956619084ff8f0a4f42efb5081c4530488a
+ms.openlocfilehash: 2fc4439b6e40aa29f538be461e75f672bcd82e41
+ms.sourcegitcommit: 98fcfc03c55917d0aca48b7bd97988f81e8930c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/06/2020
-ms.locfileid: "42550998"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42559331"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>Introdução ao Microsoft Teams para aprendizado remoto
 
@@ -30,9 +30,11 @@ ms.locfileid: "42550998"
 >
 > - Uma coleção de artigos escritos para professores incluindo orientação para os primeiros passos [**mais importantes no ensino utilizando o Teams**](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114).
 > - Um curso online de 1 hora no Microsoft Educator Center mostra como os professores usam o Teams em suas carreiras. [**Transforme o aprendizado com o Microsoft Teams**](https://education.microsoft.com/course/9c9f5c11/overview).
-> - Um curso online de 1 hora no Microsoft Educator Center conduz os professores ao ensino nas equipes de classe. [**Criar um ambiente de aprendizado colaborativo com equipes de classe**](https://education.microsoft.com/course/b1e15cfc/overview).
+> - Um curso online de 1 hora no Microsoft Educator Center conduz os professores ao ensino nas equipes de classe. [**Criando um ambiente de aprendizado colaborativo com as Equipes de Classe**](https://education.microsoft.com/course/b1e15cfc/overview).
+> - Se você é professor, aluno, pai ou responsável legal, confira mais diretrizes sobre [**ensino e aprendizagem remotos com o Office 365**](https://aka.ms/RemoteLearningHelp).
+> - Os pais e os responsáveis legais também podem acessar a [Página de Suporte aos Pais](https://support.office.com/article/remote-learning-with-office-365-guidance-for-parents-and-guardians-89d514f9-bf5e-4374-a731-a75d38ddd588?ui=en-US&rs=en-US&ad=US) para obter ajuda com a aprendizagem remota.
 
-Não perca o blog de 4 de março de 2020, [como as escolas podem aumentar rapidamente os programas de aprendizado remoto com o Microsoft Teams](https://aka.ms/teamseduremoteblog).
+Não perca o blog de 4 de março de 2020, [Como as escolas podem aumentar rapidamente os programas de aprendizado remoto com o Microsoft Teams](https://aka.ms/teamseduremoteblog).
 
 O aprendizado online pode ser tão pessoal, envolvente e socialmente conectado quanto a aprendizagem em sala de aula. Os alunos e professores podem ficar em contato e ajudar uns aos outros usando as conversas e sentir como se estivessem se encontrando pessoalmente usando os eventos ao vivo. Os professores podem acompanhar o andamento do aluno no trabalho diário usando Atribuições. Ninguém precisa se sentir deslocado. Muitos alunos que aprendem online dizem que são mais ouvidos e sentem-se mais conectados a seus professores e colegas do que se sentiam na sala de aula. E, assim como em uma sala de aula, os professores podem usar os aplicativos e as funções do Teams para oferecer suporte melhor.
 
@@ -153,7 +155,11 @@ Os profissionais de TI e a equipe de suporte podem se familiarizar rapidamente c
 Os recursos de suporte adicionais incluem:
 
 - [Solucionar problemas de instalação e atualização do Microsoft Teams](troubleshoot-installation.md)
+- [Registrar um tíquete de suporte (pode ser usado por educadores e funcionários)](https://aka.ms/edusupport)
+- [Centro de Suporte e Ajuda para educadores usando o Teams](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114)
+- [Centro de Ajuda ao Estudante](https://support.office.com/article/student-help-center-395ab230-55bf-44c6-b265-e832d729b694)
 - [Teams para Infraestrutura de Área de Trabalho Virtualizada](https://docs.microsoft.com/microsoftteams/teams-for-vdi)
+- [Como otimizar rapidamente o tráfego do Office 365 para funcionários remotos](https://techcommunity.microsoft.com/t5/office-365-blog/how-to-quickly-optimize-office-365-traffic-for-remote-staff-amp/ba-p/1214571)
 - [Monitorar e gerenciar a qualidade da chamada](monitor-call-quality-qos.md)
 - [Verificar a integridade do serviço para o Teams](service-health.md)
 - [Recursos de suporte para o Teams](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)
