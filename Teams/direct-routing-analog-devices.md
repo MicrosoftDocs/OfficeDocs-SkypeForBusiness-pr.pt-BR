@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Leia este artigo para saber como usar dispositivos analógicos com o roteamento direto do sistema de telefonia da Microsoft.
-ms.openlocfilehash: 525e898bd0eafe88d6893249465734d7c33a10b2
-ms.sourcegitcommit: 6cfaadec5782ca7316db36472bd0be20217da693
+ms.openlocfilehash: 45128b8806644e4399687787bcce251ccb807d85
+ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/29/2020
-ms.locfileid: "42341797"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42558511"
 ---
 # <a name="how-to-use-analog-devices-with-phone-system-direct-routing"></a>Como usar dispositivos analógicos com o roteamento direto do sistema telefônico
 
@@ -39,16 +39,17 @@ Para configurar o uso de dispositivos analógicos com roteamento direto, você d
 
 Este exemplo percorre as seguintes etapas:
 
-1. Conectar o SBC ao roteamento direto
-2. Criar o uso de PSTN
-3. Criar uma rota de voz e associá-la ao uso de PSTN
-4. Atribuir a rota de voz ao uso de PSTN
-5. Habilitar o usuário online
-6. Atribuir a política de rota de voz ao usuário
-7. Criar uma rota de voz para um dispositivo analógico
+1. Conecte o SBC ao roteamento direto.
+2. Criar o uso de PSTN.
+3. Crie uma rota de voz e associe-a ao uso de PSTN.
+4. Atribua a rota de voz ao uso de PSTN.
+5. Habilite o usuário online.
+6. Atribua a política de rota de voz ao usuário.
+7. Crie uma rota de voz para um dispositivo analógico.
 
 Para obter informações sobre como conectar um ATA a um SBC e configurar o SBC, consulte o guia de configuração do fabricante do SBC:
 - [Documentação de configuração do AudioCodes](https://www.audiocodes.com/media/14278/connecting-audiocodes-sbc-with-analog-device-to-microsoft-teams-direct-routing-enterprise-model-configuration-note.pdf)
+- [Documentação de configuração da faixa de opções](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Analog+Devices)
 
 ## <a name="step-1--connect-the-sbc-to-direct-routing"></a>Etapa 1.  Conectar o SBC ao roteamento direto
 

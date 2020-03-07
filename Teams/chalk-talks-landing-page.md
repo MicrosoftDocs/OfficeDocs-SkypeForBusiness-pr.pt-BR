@@ -16,17 +16,19 @@ f1.keywords:
 ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.instructorled
 ms.collection:
 - M365-collaboration
-ms.openlocfilehash: adead862907c29c066df8b2541c260045f19db95
-ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
+ms.openlocfilehash: 7d41218e75b24432e1f67ae1dc8344f8a76b8a50
+ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42417596"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42558651"
 ---
 <div id="main" class="v2">
     <div class="container">
         <h1>Giz palestras do Microsoft Teams</h1>
-Projetado para profissionais de ti e tomadores de decisões, a palestra em palestras oferece uma oportunidade única para aprender práticas recomendadas e orientação prática sobre alguns dos cenários mais populares e atraentes do teams. Facilitada por especialistas no assunto, esses workshops interativos online vão rearmar você com o insights para aprimorar a implementação de suas equipes e fornecer valor adicional para os usuários finais.<br><br><i>Clique em qualquer título do workshop abaixo para ver as datas e horários disponíveis e inscreva-se hoje!</i>
+Projetado para profissionais de ti e tomadores de decisões, a palestra em palestras oferece uma oportunidade única para aprender práticas recomendadas e orientação prática sobre alguns dos cenários mais populares e atraentes do teams. Facilitada por especialistas no assunto, esses workshops interativos online vão rearmar você com o insights para aprimorar a implementação de suas equipes e fornecer valor adicional para os usuários finais.<br><br>
+           <strong>Pré-requisito</strong>: Participe do <a href="https://aka.ms/Teamsin30"target="_blank">Teams em 30</a> workshops primeiro.<br><br>
+           <i>Clique em qualquer título do workshop abaixo para ver as datas e horários disponíveis e inscreva-se hoje!</i>
         <ul class="pivots">
             <li>
                 <a href="#home" data-linktype="self-bookmark"></a> 
@@ -116,7 +118,7 @@ Projetado para profissionais de ti e tomadores de decisões, a palestra em pales
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Descubra o que há de novo no Microsoft Teams?</h3>
+                        <h3>Descubra o que há de novo no Teams</h3>
                         <p><font color="red"><i>Em breve!</i></font>  Você está esperando um recurso para liberar o Microsoft Teams? Venha a interagir com especialistas do Microsoft Teams enquanto orienta você pelas últimas e mais recentes versões do recurso no último mês, além das práticas recomendadas para implementá-las.</p>
                     </div>
                 </div>
