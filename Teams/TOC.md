@@ -71,6 +71,7 @@
 ### Acesso externo (federação)
 #### [Gerenciar acesso externo](manage-external-access.md)
 #### [Chat nativo do Teams para usuários externos](native-chat-for-external-users.md)
+#### [As equipes e a interoperabilidade do Skype](teams-skype-interop.md)
 
 
 ### Acesso de convidados
@@ -625,6 +626,7 @@
 ## [Teams para a Educação](expand-teams-across-your-org/teams-for-education-landing-page.md)
 ### [Início rápido - Administradores do Teams for Education](teams-quick-start-edu.yml)
 ### [Começar a usar o aprendizado remoto](remote-learning-edu.md)
+### [Licenciamento do Teams para Educação](teams-edu-licensing.md)
 ### [Tarefas do Teams for Education](expand-teams-across-your-org/assignments-in-teams.md)
 ### [Recursos do Teams para administradores de Educação](resources-teams-edu.md)
 ### [Pacotes de política do Microsoft Teams para administradores EDU](policy-packages-edu.md)
@@ -635,6 +637,7 @@
 ### [Introdução aos modelos de varejo do Teams](get-started-with-retail-teams-templates.md)
 
 ## [Teams para a Administração Pública](expand-teams-across-your-org/teams-for-government-landing-page.md)
+### [Gerenciar a oferta de Avaliação do Office 365 G1](g1-trial-license.md)
 ### [Plano para o Microsoft 365 Government - GCC](plan-for-government-gcc.md)
 ### [Plano para o Microsoft 365 Government - GCC Alto](plan-for-government-gcc-high.md)
 ### [Plano para o Microsoft 365 Government - DoD](plan-for-government-dod.md)
@@ -674,6 +677,7 @@
 ## [Solucionar problemas de instalação e atualização](troubleshoot-installation.md)
 ## [Solucionar problemas de conectividade do cliente Teams](connectivity-issues.md)
 ## [Usar arquivos de registro para solucionar problemas no Teams](log-files.md)
+## [Perguntas frequentes: Suporte para sua força de trabalho remota](FAQ-support-remote-workforce.md)
 ## [Verificar a integridade do serviço para o Teams](service-health.md)
 ## [Problemas conhecidos do Teams](Known-issues.md)
 ## [Recursos de suporte para o Teams](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -726,6 +730,7 @@
 ##### [Office 365 Enterprise E5 sem audioconferência](teams-add-on-licensing/office-365-enterprise-e5-without-audio-conferencing.md)
 ##### [GOV, EDU e instituições sem fins lucrativos](teams-add-on-licensing/gov-edu-and-nonprofit-organizations.md)
 ### [Gerenciar a oferta de avaliação do Office 365 E1](e1-trial-license.md)
+### [Gerenciar a oferta de Avaliação do Office 365 G1](g1-trial-license.md)
 ### [Gerenciar a oferta da avaliação comercial do Teams](iw-trial-teams.md)
 ### [Gerenciar a experiência do Teams Exploratory](teams-exploratory.md)
 ### [Atualizar o Teams gratuitamente para a versão de assinatura do Office 365](upgrade-freemium.md)
