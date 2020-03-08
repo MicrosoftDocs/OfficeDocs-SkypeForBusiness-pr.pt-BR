@@ -672,6 +672,11 @@
 ### [Configurar Análise de Chamada](set-up-call-analytics.md)
 ### [Usar a Análise de Chamada para solucionar problemas de baixa qualidade da chamada](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 ### [Ativando e usando o Painel de Qualidade de Chamadas](turning-on-and-using-call-quality-dashboard.md)
+### Usar o Power BI para analisar dados do CQD
+#### [Usar o Power BI para analisar dados do CQD](CQD-Power-BI-query-templates.md)
+#### [Instalar o Conector do Power BI para usar modelos de consulta do CQD](CQD-Power-BI-connector.md)
+#### [Obter dados do CQD sobre a utilização do Teams](CQD-teams-utilization-report.md)
+#### [Usando o relatório CQD PSTN](CQD-PSTN-report.md)
 ### [Dimensões e medidas disponíveis no Painel de Qualidade de Chamadas](dimensions-and-measures-available-in-call-quality-dashboard.md)
 ### [Classificação de fluxo no painel de qualidade da chamada](stream-classification-in-call-quality-dashboard.md)
 ## [Solucionar problemas de instalação e atualização](troubleshoot-installation.md)
