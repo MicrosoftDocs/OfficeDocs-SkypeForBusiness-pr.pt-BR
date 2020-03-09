@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Use este guia para oferecer suporte à sua força de trabalho remota quando estiverem trabalhando em casa (WFH) em resposta à epidemia de COVID-19 (coronavírus).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f47c03432b6e90cfd6be888affee7f4342945227
-ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
+ms.openlocfilehash: b7cdbe0922116015f33d7f10219eb51b07abaf76
+ms.sourcegitcommit: 98fcfc03c55917d0aca48b7bd97988f81e8930c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 03/07/2020
-ms.locfileid: "42558621"
+ms.locfileid: "42559316"
 ---
 # <a name="faq-support-your-remote-workforce"></a>Perguntas frequentes: Suporte para sua força de trabalho remota
 
@@ -90,6 +90,14 @@ Para locatários para educação (EDU), a Microsoft oferece a[Sincronização de
 ### <a name="where-do-i-find-help-getting-teams-running-for-my-company-so-my-users-can-work-from-home-during-this-crisis"></a>Onde posso encontrar ajuda para o Teams executado na minha empresa, para que meus usuários possam trabalhar de casa durante a crise? 
 
 Leia [Suporte a funcionários remotos usando o Teams](support-remote-work-with-teams.md). Ele aborda a maioria das tarefas e perguntas comuns sobre como começar a usar o Teams para funcionários remotos.
+
+### <a name="i-just-got-started-with-microsoft-365-so-i-can-use-teams-to-support-my-remote-workers-or-students-ive-signed-up-for-the-service-but-when-a-user-tries-to-use-teams-they-get-this-error-youre-missing-out-ask-your-admin-to-enable-microsoft-teams-what-should-i-do"></a>Acabei de iniciar o Microsoft 365 para poder usar o Teams para oferecer suporte a meus funcionários ou alunos remotos. Já me inscrevi no serviço, mas quando um usuário tenta usar o Teams, ele recebe o seguinte erro: "Você está perdendo! Peça ao seu administrador para habilitar o Microsoft Teams.” O que devo fazer?
+
+Depois de ativar uma das ofertas gratuitas do Teams, você ainda precisará ativá-la para seus usuários. Leia [Gerenciar o acesso do usuário ao Teams](user-access.md) e [Adicionar usuários individuais ou em massa ao Office 365](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users).
+
+Se você está licenciando ou habilitando um usuário pela primeira vez, mas possui o Microsoft 365 há algum tempo, pode ser necessário [Ativar o Teams](Office-365-set-up.md) para sua organização. Marque [Já tenho o Microsoft 365, mas não o uso. Você está fornecendo licenças de avaliação?](#i-have-microsoft-365-already-but-i-dont-use-teams-are-you-providing-trial-licenses) deste artigo.
+
+
 
 ### <a name="can-i-use-calling-plans-with-the-office-365-e1-trial-that-microsoft-is-offering-can-i-assign-a-telephone-number-to-my-users-how-much-am-i-going-to-pay"></a>Posso usar Planos de Chamadas com a versão de avaliação do Office 365 E1 que a Microsoft oferece? Posso atribuir um número de telefone aos meus usuários? Quanto precisarei pagar?
 
