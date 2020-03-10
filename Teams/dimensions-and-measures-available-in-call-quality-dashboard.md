@@ -20,12 +20,12 @@ f1.keywords:
 - CSH
 ms.custom: Reporting
 description: Obtenha informações detalhadas sobre as dimensões e medidas usadas pelo painel de qualidade de chamada do Microsoft Teams e do Skype for Business online.
-ms.openlocfilehash: 1bc3fc7e62b234d0679531d48a656c71c54db113
-ms.sourcegitcommit: 86502c9ad03c5dd5ed18f0e3276a81d1260c76d2
+ms.openlocfilehash: b23b87ee7cf0f28fca59a3dee13113dcf28a141a
+ms.sourcegitcommit: 33bec766519397f898518a999d358657a413924c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 03/10/2020
-ms.locfileid: "42574414"
+ms.locfileid: "42583069"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard"></a>Dimensões e medidas disponíveis no painel de qualidade da chamada
 
@@ -439,10 +439,8 @@ As informações de dimensões são baseadas em parte em dados carregados no por
 |Localização de MP PSTN|Cadeia de caracteres|O local do processador de mídia mostrará o caminho de mídia no modo não bypass.<br/>**Exemplo:** CONOSCOQUEREMOS||
 |Primeira região do país PSTN|Cadeia de caracteres|Se FirstIsCaller for verdadeiro, a primeira região do país PSTN será o país do chamador. Se for falso, a segunda região do país PSTN será o país do chamador.<br/>**Exemplo:** Junte||
 |Tremulação|Milissegundos|A variação no tempo de chegada dos pacotes RTP. Para obter mais informações, consulte [classificação de fluxo no painel de qualidade da chamada](stream-classification-in-call-quality-dashboard.md) .<br/>**Exemplo:** 5,982||
-|Taxa de perda de pacotes|Porcentual|A porcentagem de fluxos entre o servidor de mediação e o SBC ou o gateway, se disponíveis.
-Para obter mais informações, consulte [classificação de fluxo no painel de qualidade da chamada](stream-classification-in-call-quality-dashboard.md) .<br/>**Exemplo:** 1,2%||
-|Latência (tempo de ida e volta)|Milissegundos|O tempo médio de ida e volta da propagação de rede por fluxo calculado.
-Para obter mais informações, consulte [classificação de fluxo no painel de qualidade da chamada](stream-classification-in-call-quality-dashboard.md) .<br/>**Exemplo:** 3,49||
+|Taxa de perda de pacotes|Porcentual|A porcentagem de fluxos entre o servidor de mediação e o SBC ou o gateway, se disponíveis. Para obter mais informações, consulte [classificação de fluxo no painel de qualidade da chamada](stream-classification-in-call-quality-dashboard.md) .<br/>**Exemplo:** 1,2%||
+|Latência (tempo de ida e volta)|Milissegundos|O tempo médio de ida e volta da propagação de rede por fluxo calculado. Para obter mais informações, consulte [classificação de fluxo no painel de qualidade da chamada](stream-classification-in-call-quality-dashboard.md) .<br/>**Exemplo:** 3,49||
 ||||
 
 ### <a name="notes-on-dimension-data-typeunits"></a>Observações sobre tipo/unidades de dados de dimensão

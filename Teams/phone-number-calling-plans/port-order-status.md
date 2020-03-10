@@ -17,12 +17,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 'Learn how to get the status of your port orders, and what the different actions you can take on them. '
-ms.openlocfilehash: 67a69ff2a86a57e16d157fa1a0b4b36ca3c2e036
-ms.sourcegitcommit: c4f13aa4947df606d38694a7e544b08be7ce20d1
+ms.openlocfilehash: cfbbbea1d82cfa2f1905584740e8053e83f19ee6
+ms.sourcegitcommit: 33bec766519397f898518a999d358657a413924c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42370400"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42583088"
 ---
 # <a name="whats-the-status-of-your-port-orders"></a>Qual é o status dos seus pedidos de portabilidade?
 
@@ -34,9 +34,9 @@ A tabela a seguir lista os status do pedido de portabilidade, bem como as açõe
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |**Processadores** <br/> |Sim  <br/> |Não  <br/> |Sim  <br/> |Não  <br/> |O administrador criou o pedido e ele foi recebido pela Microsoft.  <br/> |
 |**Contatando a operadora** <br/> |Sim  <br/> |Não  <br/> |Sim  <br/> |Não  <br/> |O pedido foi recebido e aprovado pela Microsoft, e estamos trabalhando com a transportadora perdida para que ela seja aprovada.  <br/> |
-|**Transferência aprovada** <br/> |Sim  <br/> |Compromisso do pedido de confirmação (FOC)  <br/> |Sim  <br/> |Não  <br/> |O pedido foi aceito pela transportadora perdedor, e a data FOC foi definida.  <br/> |
+|**Transferência aprovada** <br/> |Sim  <br/> |Não  <br/> |Sim  <br/> |Não  <br/> |O pedido foi aceito pela transportadora perdedor, e a data do compromisso do pedido de confirmação (FOC) foi definida.  <br/> |
 |**Transferência pendente** <br/> |Sim  <br/> |Não  <br/> |Não  <br/> |Não  <br/> |A transferência tem menos de 24 horas de distância, portanto, a ordem não pode mais ser editada ou cancelada.  <br/> |
-|**Error** <br/> |Não  <br/> |Sim  <br/> |Sim  <br/> |Sim (no momento, não será possível excluir a ordem das portas se houver um erro. A ordem das portas precisa ser recriada ou você precisa entrar em contato com o [serviço de suporte PSTN](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).  <br/> |A transportabilidade rejeitou o pedido.  <br/> |
+|**Error** <br/> |Não  <br/> |Sim  <br/> |Sim  <br/> |Sim (no momento, não será possível excluir a ordem das portas se houver um erro. A ordem das portas precisa ser recriada ou você precisa entrar em contato com a [ajuda da PSTN Desk do serviço](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).  <br/> |A transportabilidade rejeitou o pedido.  <br/> |
 |**Feito** <br/> |Sim  <br/> |Não  <br/> |Não  <br/> |Não  <br/> |Os números foram transferidos com êxito.  <br/> |
 |**Cela** <br/> |Não  <br/> |Sim  <br/> |Não  <br/> |Não  <br/> |O administrador cancelou o pedido.  <br/> |
 

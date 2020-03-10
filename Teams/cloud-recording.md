@@ -16,12 +16,12 @@ f1.keywords:
 description: Orientações práticas para a implantação dos recursos de Cloud Voice no Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5041b35822a04dc98aa6c07d3731ad8c6791af98
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 678e17ed92c0f269e134ac6c23dce29169c0d36d
+ms.sourcegitcommit: 33bec766519397f898518a999d358657a413924c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030715"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42582998"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Gravação de reuniões na nuvem do Microsoft Teams
 
@@ -151,6 +151,10 @@ O tamanho de uma gravação de 1 hora é de 400 MB. Certifique-se de compreender
 ## <a name="manage-meeting-recordings"></a>Gerenciar gravações de reunião
 
 As gravações de reunião são consideradas conteúdo de Propriedade do locatário. Se o proprietário da gravação sair da empresa, o administrador poderá abrir a URL de vídeo de gravação no Microsoft Stream no modo de administração. O administrador pode excluir a gravação, atualizar todos os metadados de gravação ou alterar permissões para o vídeo de gravação. Saiba mais sobre os [recursos de administrador no Stream](https://docs.microsoft.com/stream/manage-content-permissions).
+
+> [!NOTE]
+> Consulte [gerenciar dados do usuário no Microsoft Stream](https://docs.microsoft.com/stream/managing-user-data) e [permissões e privacidade no Microsoft Stream](https://docs.microsoft.com/stream/portal-permissions) para obter informações adicionais sobre como gerenciar gravações e acesso do usuário.
+
 
 ## <a name="compliance-and-ediscovery-for-meeting-recordings"></a>Conformidade e descoberta eletrônica para gravações de reunião
 

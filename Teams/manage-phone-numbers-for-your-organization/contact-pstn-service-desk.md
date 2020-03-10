@@ -23,16 +23,16 @@ ms.custom:
 - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
 description: Ao receber números de telefone ou portabilidade (transferência) de números para a sua organização, talvez seja necessário obter ajuda e suporte na mesa de serviço PSTN.
-ms.openlocfilehash: 6d400e51270b411054802240216d9e957a68f054
-ms.sourcegitcommit: 6cfaadec5782ca7316db36472bd0be20217da693
+ms.openlocfilehash: 3fe6353deb52911a4e0f0249f500a2a562e29ac1
+ms.sourcegitcommit: 33bec766519397f898518a999d358657a413924c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/29/2020
-ms.locfileid: "42341783"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42583068"
 ---
 # <a name="pstn-service-desk-contact"></a>Contato da mesa de serviço PSTN
 
-Se precisar de ajuda com a compra de números de telefone da Microsoft ou com a portabilidade de números de telefone existentes para a Microsoft, envie uma solicitação de email com as seguintes informações:
+Se precisar de ajuda para receber ou transferir números para nós, mas precisa de ajuda, informe-nos como podemos ajudá-lo em um e-mail e enviá-lo para nós. Na sua solicitação de ajuda de email, inclua o maior número possível de detalhes e inclua detalhes como a ID da sua organização (ID do locatário), domínios, de quais tipos de números você precisa de ajuda, quantos números você deseja, a pessoa que autoriza a conta e outros detalhes importantes sobre o seu problema.
 
   - Sua ID de organização (ID de locatário) ou domínios ativos.
   - Para quais tipos de números você precisa de ajuda (usuário/assinante, serviço/tarifação ou chamada gratuita).
