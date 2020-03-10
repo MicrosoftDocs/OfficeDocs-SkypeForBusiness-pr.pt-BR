@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Use este guia para ajudar os funcionários remotos da sua organização a serem produtivos usando o Microsoft Teams, especialmente quando estiverem trabalhando em casa (WFH) em resposta à epidemia de COVID-19 (coronavírus).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 011522533a5a1a0641afb3da4421a8ae8e6c6715
-ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
+ms.openlocfilehash: cdd4338a157869d6e0453910a29514d6dc7ed0c9
+ms.sourcegitcommit: 769241842058cfb4618460fad2dde1494a3609a1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42558631"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42574078"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>Ofereça suporte a trabalhadores remotos usando o Microsoft Teams
 
@@ -65,6 +65,8 @@ Compartilhe esses ativos e vídeos com seus usuários finais para ajudá-los a c
 
 2. Além da [avaliação do Office 365 E1](e1-trial-license.md) e do [Teams gratuito](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c), o [Teams Exploratory](teams-exploratory.md) também pode ser uma opção se você precisar de licenças gratuitas do Teams.
 
+1. Se você trabalha com educação e deseja configurar professores, alunos e administradores no Teams, use o Office 365 A1. Esta versão gratuita do Office 365 está disponível para todas as instituições de ensino. Inscreva-se em [Obtenha o Office 365 gratuitamente para toda a sua escola](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans).
+
 1. Certifique-se de que seus funcionários tenham acesso a Internet e largura de banda adequados para o Teams. Use a orientação em [Preparo da rede da sua organização para o Teams](prepare-network.md) para saber como fazer isso.
 
    - A largura de banda limitada pode afetar a qualidade do áudio nas reuniões do Teams. Para garantir a melhor experiência de reunião com condições de pouca largura de banda, estimule os usuários a limitar o vídeo e a usar a PSTN para chamadas e áudio de reunião. 
@@ -89,6 +91,8 @@ Compartilhe esses ativos e vídeos com seus usuários finais para ajudá-los a c
     
 3. Leia nossos novos conteúdos sobre como trabalhar remotamente e compartilhe-os com seus usuários:
         
+      - *Novo em 9 de março de 2020*: [Trabalhe remotamente com o Microsoft Teams](https://products.office.com/microsoft-teams/work-remotely)
+
       - Blog do Teams (28 de fevereiro de 2020): [4 dicas para trabalhar em casa com o Microsoft Teams](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/4-tips-for-working-from-home-with-microsoft-teams-by-lola/ba-p/1202083)
 
       - [Colaborar com o Office 365](https://support.office.com/article/Collaborate-with-Office-365-ac05a41e-0b49-4420-9ebc-190ee4e744f4)
@@ -109,14 +113,14 @@ Compartilhe esses ativos e vídeos com seus usuários finais para ajudá-los a c
     
    - Envie informações sobre as políticas de trabalho em casa e de saúde e segurança da sua organização.
     
-   - Use [Eventos ao vivo](teams-live-events/what-are-teams-live-events.md) para realizar reuniões e divulgação em toda a empresa. Torne qualquer reunião com mais de 250 participantes um evento ao vivo. 
+   - Use [Eventos ao vivo](teams-live-events/what-are-teams-live-events.md) para realizar reuniões e divulgação em toda a empresa. Torne qualquer reunião com mais de 250 participantes um evento ao vivo. Ative as legendas ao vivo para [reuniões](https://support.office.com/article/Use-live-captions-in-a-Teams-meeting-4be2d304-f675-4b57-8347-cbd000a21260) e [eventos ao vivo](https://support.office.com/article/Use-live-captions-in-a-live-event-1d6778d4-6c65-4189-ab13-e2d77beb9e2a). Além disso, ative as legendas em eventos ao vivo. Esses recursos aumentam a inclusão, a produtividade e a compreensão. 
 
 4.  Equipe sua [assistência técnica](troubleshoot-installation.md) para lidar com consultas de usuários.
 
 7. Se você não estiver familiarizado com a função de administrador do Teams, confira [Treinamento de administração para o Teams](itadmin-readiness.md).
 
 
-1. Certifique-se de que seus usuários tenham os dispositivos de que precisam para serem vistos e ouvidos. Confira [Dispositivos certificados do Teams](https://aka.ms/TeamsDevices) para espaços pessoais e compartilhados.
+1. Certifique-se de que os usuários tenham os dispositivos necessários para serem vistos e ouvidos com clareza. Confira [Dispositivos certificados do Teams](https://aka.ms/TeamsDevices) para espaços pessoais e compartilhados.
 
 
 ### <a name="known-issue---china-dialing-into-skype-for-business-or-teams-conference-ids"></a>Problema conhecido – China: ligando para IDs de conferência do Skype for Business ou do Teams
