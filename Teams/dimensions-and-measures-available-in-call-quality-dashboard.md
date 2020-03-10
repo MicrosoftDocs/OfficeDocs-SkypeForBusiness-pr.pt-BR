@@ -20,12 +20,12 @@ f1.keywords:
 - CSH
 ms.custom: Reporting
 description: Obtenha informações detalhadas sobre as dimensões e medidas usadas pelo painel de qualidade de chamada do Microsoft Teams e do Skype for Business online.
-ms.openlocfilehash: 99013a4919dac1312564ab3f4d935fb2628d5da5
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.openlocfilehash: 1bc3fc7e62b234d0679531d48a656c71c54db113
+ms.sourcegitcommit: 86502c9ad03c5dd5ed18f0e3276a81d1260c76d2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42161742"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42574414"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard"></a>Dimensões e medidas disponíveis no painel de qualidade da chamada
 
@@ -426,6 +426,23 @@ As informações de dimensões são baseadas em parte em dados carregados no por
 | Par de nomes de construção  | Par enumerado  | Par do nome do edifício para o primeiro e o segundo pontos de extremidade.  | &bull;Não foi possível determinar o nome do edifício de um ponto de extremidade. Isso pode ser porque o ponto de extremidade está localizado fora da rede corporativa ou está acessando a rede de um site sem um mapeamento de sub-rede. <br/> **Valor de exemplo:** Prédio principal: prédio do site da filial |
 | Dentro do par Corp  | Par enumerado <br/>**Valores possíveis:** <br/> Dentro: dentro <br/> Dentro: fora <br/> Externo: fora | Par mostrando se os pontos de extremidade estavam localizados dentro ou fora da rede corporativa com base no mapeamento de sub-rede.   |   |
 | Par de cenários  | Par enumerado  | Par mostrando se os pontos de extremidade estavam localizados dentro ou fora da rede corporativa com base no mapeamento de sub-rede e no detalhe da conexão de rede. <br/> **Observação:** Os pares são separados por '--'. <br/> **Valor de exemplo:** Cliente – dentro do cliente – dentro de WiFi  | &bull;O tipo de conectividade de rede era desconhecido para um ou dois pontos de extremidade.  |
+|**PSTN**|||
+|Motivo de término de chamada PSTN (código de resposta SIP)|Núm|Um código de resposta de inteiro de três dígitos mostra o status final da chamada. <br/> Para obter mais informações sobre a explicação do SIP, confira a [lista de códigos de resposta SIP](https://www.wikipedia.org/wiki/List_of_SIP_response_codes). <br/>**Exemplo:** 404||
+|FQDN do tronco PSTN|Cadeia de caracteres|FQDN é o nome de domínio totalmente qualificado (FQDN) do controlador de borda de sessão (SBC).<br/>**Exemplo:** sbcgw.contoso.com||
+|Nome da transportabilidade PSTN|Cadeia de caracteres|A empresa que é autorizada por órgãos reguladores a operar um sistema de telecomunicações.<br/>**Exemplo:** Colt|O roteamento direto não tem uma operadora. Somente um plano de chamada tem uma operadora.|
+|Tipo de chamada PSTN|Cadeia de caracteres|Esta cadeia de caracteres combina o tipo de serviço e o tipo de chamada.<br/><br/>Tipo de serviço:<br/>plano de chamadas de > do usuário<br/>BYOT-> encaminhamento direto<br/>conf-> conferência de áudio<br/>aplicativo de voz ucap-><br/>Emergency-> número de emergência<br/><br/>Tipo de chamada:<br/>Chamada de entrada ><br/>Chamada de saída ><br/>Out_transfer chamada de saída > é transferida para terceira pessoa<br/>Out_forward chamada de saída > é encaminhada para a terceira pessoa<br/>Out_conf-> fazer chamadas com participantes de PSTN ad-hoc<br/><br/>**Exemplo:** ByotIn||
+|Tipo de conectividade PSTN|Cadeia de caracteres|O tipo de conectividade PSTN inclui roteamento direto, plano de chamadas ou videoconferência. No momento, somente o roteamento direto está disponível no painel de qualidade de chamada (CQD).<br/>**Exemplo:** Roteamento direto||
+|Frase de código SIP final PSTN|Cadeia de caracteres|A frase de motivo correspondente ao código de resposta SIP e ao código de resposta da Microsoft.<br/>**Exemplo:** Call||
+|Submotivo de término da chamada PSTN|Núm|Um código de resposta enviado pelo componente da Microsoft que indica ações específicas ocorridas.<br/>**Exemplo:** 540000||
+|Tipo de evento PSTN|Cadeia de caracteres|Um tipo de evento que fornece telemetria.<br/>**Exemplo:** Lado||
+|Tempo das informações do evento PSTN|Data|O tempo no formato UTC quando uma chamada de saída inicia da rede Microsoft ou uma chamada de entrada chega à rede da Microsoft.<br/>**Exemplo:** 2020-02-06 20:57:53.1750000||
+|Localização de MP PSTN|Cadeia de caracteres|O local do processador de mídia mostrará o caminho de mídia no modo não bypass.<br/>**Exemplo:** CONOSCOQUEREMOS||
+|Primeira região do país PSTN|Cadeia de caracteres|Se FirstIsCaller for verdadeiro, a primeira região do país PSTN será o país do chamador. Se for falso, a segunda região do país PSTN será o país do chamador.<br/>**Exemplo:** Junte||
+|Tremulação|Milissegundos|A variação no tempo de chegada dos pacotes RTP. Para obter mais informações, consulte [classificação de fluxo no painel de qualidade da chamada](stream-classification-in-call-quality-dashboard.md) .<br/>**Exemplo:** 5,982||
+|Taxa de perda de pacotes|Porcentual|A porcentagem de fluxos entre o servidor de mediação e o SBC ou o gateway, se disponíveis.
+Para obter mais informações, consulte [classificação de fluxo no painel de qualidade da chamada](stream-classification-in-call-quality-dashboard.md) .<br/>**Exemplo:** 1,2%||
+|Latência (tempo de ida e volta)|Milissegundos|O tempo médio de ida e volta da propagação de rede por fluxo calculado.
+Para obter mais informações, consulte [classificação de fluxo no painel de qualidade da chamada](stream-classification-in-call-quality-dashboard.md) .<br/>**Exemplo:** 3,49||
 ||||
 
 ### <a name="notes-on-dimension-data-typeunits"></a>Observações sobre tipo/unidades de dados de dimensão
@@ -580,7 +597,7 @@ Muitos valores de medida também podem ser usados como filtros. A tabela a segui
 | Nível de sinal de RxAGC de segundo médio|Intervalo (decibéis) |Nível médio de sinal recebido no controle de ganho automático para o segundo fluxo de áudio de entrada.| |
 | Nível médio de ruído da primeira RxAGC|Intervalo (decibéis) |Nível médio de ruído recebido no controle de ganho automático para o primeiro fluxo de áudio de entrada.||
 | Nível de ruído de RxAGC de segundo médio|Intervalo (decibéis) |Nível médio de ruído recebido no controle de ganho automático para o segundo fluxo de áudio de entrada.| |
-| Média do primeiro nível de sinal de auto-retorno de renderização de renderização|Intervalo (decibéis) | Nível médio do primeiro sinal de auto-retorno do alto-falante (após a aplicação de qualquer efeito de descarregamento de dispositivos).|   Nível médio de sinal de auto-retorno do alto-falante (após a aplicação de qualquer efeito de descarregamento de dispositivos).|
+| Média do primeiro nível de sinal de auto-retorno de renderização de renderização|Intervalo (decibéis) | Nível médio do primeiro sinal de auto-retorno do alto-falante (após a aplicação de qualquer efeito de descarregamento de dispositivos).|
 | Nível de sinal de auto-retorno de renderização de segundo médio|Intervalo (decibéis) | Nível médio do segundo sinal de auto-retorno de alto-falante (após a aplicação de qualquer efeito de descarregamento de dispositivos).|
 |Média do primeiro nível de sinal de envio de áudio |Decibeis |Média do nível de energia do áudio enviado para áudio classificado como fala mono ou canal esquerdo de fala estéreo enviado pelos primeiros pontos de extremidade. |
 |Nível de sinal de envio de áudio Méd Second |Decibeis |Média do nível de energia do áudio enviado para áudio classificado como fala mono ou canal esquerdo de fala estéreo enviado pelos segundos pontos de extremidade. |
@@ -617,7 +634,7 @@ Muitos valores de medida também podem ser usados como filtros. A tabela a segui
 |Média de viagens de ida e volta |Milissegundos |Média do tempo médio de ida e volta da propagação de rede calculado conforme especificado em RFC3550 em milissegundos para fluxos. |
 |Média de ida e volta máx. |Milissegundos |Média do tempo máximo de ida e volta da propagação de rede calculada conforme especificado em RFC3550 em milissegundos para fluxos. |
  Utilização Méd. de pacotes|Número de pacotes|Número médio de pacotes de protocolo de transporte em tempo real enviados por segundo na sessão.|
-|Média de tremulação de rede |Milissegundos | Média de tremulação de rede calculada com mais de 20 segundos janelas durante a sessão. |
+|Média de tremulação de rede |Milissegundos |   Média de tremulação de rede calculada com mais de 20 segundos janelas durante a sessão. |
 | Média de tremulação de rede máx|Milissegundos |Média de tremulação máxima de rede em milissegundos calculada em mais de 20 segundos durante a sessão.  ||
 | Média de tremulação de rede mín|Milissegundos|Média de valores mínimos de variação de rede em milissegundos calculados em mais de 20 segundos durante a sessão para fluxos.| |
 | Tamanho máximo do buffer de tremulação máx.|Milissegundos|Tamanho máximo do buffer de variação durante a sessão.| |
@@ -651,6 +668,25 @@ Muitos valores de medida também podem ser usados como filtros. A tabela a segui
 | Taxa de evento de falhas do dispositivo médio segundo|Porcentual|Fração média da chamada que o segundo ponto de extremidade detectou falhas ou falhas na mídia reproduzida ou capturada que causou má qualidade da mídia que está sendo enviada ou recebida.|
 | Contagem de eventos do primeiro problema do dispositivo|Número de fluxos onde o primeiro ponto de extremidade detectou falhas ou falhas significativas na mídia reproduzida ou capturada que causou má qualidade da mídia que está sendo enviada ou recebida.||
 | Contagem de eventos de problemas do segundo dispositivo|Número de fluxo em que o segundo ponto de extremidade detectou falhas ou falhas significativas na mídia reproduzida ou capturada que causou má qualidade da mídia que está sendo enviada ou recebida.||
+| Contagem de tentativas de total PSTN | Número de chamadas | Total de chamadas tentadas, incluindo chamadas com êxito e falhas nas chamadas no intervalo de tempo selecionado.|
+|Contagem total conectada PSTN | Número de chamadas | Total de chamadas conectadas com êxito no intervalo de tempo selecionado.|
+|Contagem de tentativas de entrada PSTN | Número de chamadas | Total de chamadas com tentativas de entrada, incluindo chamadas com êxito e chamadas com falha no intervalo de tempo selecionado.|
+|Contagem de entrada conectada PSTN | Número de chamadas | Total de chamadas de entrada conectadas com êxito no intervalo de tempo selecionado.|
+|Contagem de tentativas de saída PSTN | Número de chamadas | Total de chamadas tentadas de saída, incluindo chamadas com êxito e falhas nas chamadas no intervalo de tempo selecionado.|
+|Contagem de conexão de saída PSTN | Número de chamadas | Total de chamadas de saída conectadas com êxito no intervalo de tempo selecionado.|
+|Total de minutos da PSTN | Minutos | Total de minutos | Uso total de minutos no intervalo de tempo selecionado.|
+|Total de minutos de entrada PSTN | Minutos | Uso total de minutos de entrada no intervalo de tempo selecionado.|
+|Total de minutos de saída PSTN | Minutos | Uso total de minutos de saída no intervalo de tempo selecionado.|
+|Contagem de usuários ativos PSTN | Número de usuários | O número de usuários que fizeram pelo menos uma chamada conectada durante esse dia.|
+|Duração média da chamada PSTN | Minutos | A duração média de todas as chamadas conectadas no intervalo de tempo selecionado. Normalmente, uma chamada PSTN do 1:1 é de quatro a cinco minutos. No entanto, essa média pode ser diferente para cada empresa.|
+|Contagem total de chamadas simultâneas de entrada simultâneas PSTN | Número de chamadas | Número máximo de chamadas de entrada ativas simultâneas em um minuto.|
+|Número total de chamadas de saída simultâneas da PSTN | Número de chamadas | Número máximo de chamadas de saída ativas simultâneas em um minuto.|
+|Latência P50 | Milissegundos | 50% das solicitações devem ser mais rápidas do que a latência determinada.|
+|Tremulação do P50 | Milissegundos | 50% das solicitações devem ser mais rápidas do que a tremulação fornecida.|
+|Taxa de perda de pacotes P50 | Porcentual | 50% das solicitações devem ter menos que a taxa de perda de pacotes fornecida.|
+|Atraso de discagem de saída PSTN| Milissegundos | O atraso que ocorre em chamadas feitas a partir do momento em que um número foi discado até que o chamador ou a parte chamada espere.|
+|Atraso de discagem de entrada PSTN | Milissegundos | O tempo ou o atraso que ocorre em chamadas de entrada feitas a partir do momento em que um número foi discado até que o chamador ou a parte chamada espere.|
+|Porcentagem NER de PSTN | Porcentual | O NER mede a capacidade de uma rede para entregar chamadas, medindo o número de chamadas enviadas versus o número de chamadas entregues a um destinatário.<br/>NER = (chamadas atendidas + usuário ocupado + toque em nenhuma resposta + capturas de recusa de terminal)/total de chamadas de tentativa x 100|
 ||||
 
 ## <a name="filters"></a>Filtros

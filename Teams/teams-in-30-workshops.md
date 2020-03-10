@@ -20,12 +20,12 @@ ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
 ROBOTS: NOINDEX
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 182b7178cf24b786e81afd9181c9275541857486
-ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
+ms.openlocfilehash: 094f3db845109538df4652c3f1e990465c670918
+ms.sourcegitcommit: 86502c9ad03c5dd5ed18f0e3276a81d1260c76d2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42558601"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42574424"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -147,8 +147,8 @@ ms.locfileid: "42558601"
                     </div>
                     <div class="cardText">
                     <h3>Palestras em giz de equipe</h3>
-                    <p>Facilitada por especialistas no assunto, esses workshops interativos online fornecem uma oportunidade única para aprender as práticas recomendadas e orientação prática em relação a alguns dos cenários mais populares e atraentes do Microsoft Teams.</p>
-                    <p><strong>Pré-requisito</strong>: equipes em 30 workshops. Giz fala com base no que você aprenderá nos workshops que encontrar nesta página.</p>
+                    <p>Facilitada por especialistas no assunto, esses workshops interativos online fornecem uma oportunidade única para aprender as práticas recomendadas e orientação prática em relação a alguns dos cenários mais populares e atraentes do Microsoft Teams. Giz palestras pressupondo que você concluiu uma distribuição básica do teams.</p>
+                    <p><strong>Pré-requisito</strong>: Teams em 30 workshops de atendimento ao Workshop ou já habilitados para equipes em toda a sua organização.</p>
                     <p><i>Audiência: Administradores de TI</i></p>
                     </div>
                 </div>

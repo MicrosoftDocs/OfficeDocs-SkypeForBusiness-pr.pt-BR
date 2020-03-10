@@ -16,18 +16,17 @@ f1.keywords:
 ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.instructorled
 ms.collection:
 - M365-collaboration
-ms.openlocfilehash: 4a66451a760e6d9e07c374e4ea900af4b0d78b36
-ms.sourcegitcommit: 98fcfc03c55917d0aca48b7bd97988f81e8930c1
+ms.openlocfilehash: cde69bd588c7262e5ed6f0274b091fee29b27030
+ms.sourcegitcommit: 769241842058cfb4618460fad2dde1494a3609a1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42559317"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42573998"
 ---
 <div id="main" class="v2">
     <div class="container">
         <h1>Giz palestras do Microsoft Teams</h1>
 Projetado para profissionais de ti e tomadores de decisões, a palestra em palestras oferece uma oportunidade única para aprender práticas recomendadas e orientação prática sobre alguns dos cenários mais populares e atraentes do teams. Facilitada por especialistas no assunto, esses workshops interativos online vão rearmar você com o insights para aprimorar a implementação de suas equipes e fornecer valor adicional para os usuários finais.<br><br>
-           <strong>Pré-requisito</strong>: Participe do <a href="https://aka.ms/Teamsin30"target="_blank">Teams em 30</a> workshops primeiro.<br><br>
            <i>Clique em qualquer título do workshop abaixo para ver as datas e horários disponíveis e inscreva-se hoje!</i>
         <ul class="pivots">
             <li>
