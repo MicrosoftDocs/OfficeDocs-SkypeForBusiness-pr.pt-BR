@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: A nova área de relatórios do centro de administração do Skype for Business mostra a atividade de chamadas e conferência de áudio em sua organização. Ele permite que você faça uma busca detalhada nos relatórios para dar a você uma visão mais granular sobre as atividades de cada usuário. Por exemplo, você pode usar o relatório de detalhes do uso de PSTN do Skype for Business para ver o número de minutos gastos em chamadas de entrada/saída e o custo dessas chamadas. Você pode exibir os detalhes de uso de PSTN da videoconferência, incluindo o custo da chamada para que você possa entender seu uso e fazer chamadas para os detalhes de cobrança para determinar o uso dentro da sua organização.
-ms.openlocfilehash: b76bd2f752b03e59143162261b37f311f1b38b64
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: a489277eceaab533fc03ac7017dcc217b4071bc6
+ms.sourcegitcommit: 33bec766519397f898518a999d358657a413924c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706046"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42582878"
 ---
 # <a name="pstn-usage-report"></a>Relatório de uso da PSTN
 
@@ -71,8 +71,8 @@ Esta é a aparência do relatório.
      *    **user_out_forwarding** (o usuário encaminhou a chamada para um número PSTN)
 
      **Tipos de chamada de audioconferência**
-     *    **conf_in** (uma chamada de entrada para a ponte de audioconferência) 
-     *    **conf_out** (uma chamada de saída da ponte de videoconferência geralmente para adicionar um número PSTN à conferência)
+     *    **conf_in** (uma chamada de entrada para a ponte de audioconferência). Para registros desse tipo de chamada, o usuário especificado na coluna **ID do usuário** corresponde ao organizador da reunião.
+     *    **conf_out** (uma chamada de saída da ponte de audioconferência, geralmente para adicionar um número PSTN à conferência). Para registros desse tipo de chamada, o usuário especificado na coluna **ID do usuário** corresponde ao organizador da reunião.
 
      **Aplicativos de comunicação unificada (UCAP)** 
      *    **ucap_in** (uma chamada PSTN de entrada para o aplicativo de comunicação unificada, como atendedor automático ou fila de chamadas) 
@@ -94,12 +94,13 @@ Esta é a aparência do relatório.
      *    **MCOPSTN6** -plano de chamadas domésticas (240 min-plano de chamadas) Nota: disponibilidade limitada
      *    **MCOMEETADD** -audioconferência
      *    **MCOMEETACPEA** -conferência de áudio de pagamento por minuto
+     
 > [!NOTE]
 > Se você quiser executar um relatório para incluir somente chamadas pagas por minuto que não estão incluídas na sua assinatura de chamadas ou conferência, filtre o relatório com a funcionalidade "MCOPSTNPP". Isso fornecerá uma discriminação de todas as chamadas pagas por minuto.  Para conferências de áudio de pagamento por minuto, filtre por "MCOMEETACPEA" em vez de "MCOPSTNPP".  
-***
+
 > [!NOTE]
 > Você também pode ver "nenhum dado" em alguns campos. "Nenhum dado" significa que o campo não é aplicável ao tipo ou funcionalidade de chamada. 
-***
+
 > [!NOTE]
 > Se você tiver um plano de chamadas Telstra, não verá os registros de detalhes da chamada no relatório de uso de PSTN. Entre em contato com a Telstra para atender às suas necessidades de relatório. 
 ***

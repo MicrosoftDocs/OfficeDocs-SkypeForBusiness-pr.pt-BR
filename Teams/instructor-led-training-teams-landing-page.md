@@ -15,17 +15,17 @@ f1.keywords:
 ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.instructorled
 ms.collection:
 - M365-collaboration
-ms.openlocfilehash: 958ca112e52cefa31e122c02b47c76a68537d284
-ms.sourcegitcommit: 152eb7daacd0a36f42aa441633c12c7037a0969a
+ms.openlocfilehash: 9fe712b484c20f5a7a8a1b1df5c4720788ac877a
+ms.sourcegitcommit: 33bec766519397f898518a999d358657a413924c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "42288719"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42583058"
 ---
 <div id="main" class="v2">
     <div class="container">
         <h1>Treinamento do Microsoft Teams com instrutor</h1>
-A Microsoft está feliz por hospedar uma série de sessões de treinamento online, gratuitas e ao vivo desenvolvidas para você começar a trabalhar com o Teams.Seja você um tomador de decisão de negócios, administrador, profissional de TI ou usuário final, você encontrará a aula ideal. Não sabe por onde começar? Faça nossa <a href="https://aka.ms/TeamsKnowledgeCheck">Verificação de conhecimento do Teams</a>. Participe para ver o Teams em ação, tire suas dúvidas e interaja com os nossos instrutores ao vivo. Para visualizar nossas aulas de treinamento em seu próprio tempo, acesse nosso treinamento <a href="https://aka.ms/TeamsOnDemand">sob demanda de treinamento do usuário final</a>.<br><br>Clique em uma sessão abaixo para se inscrever.
+A Microsoft está feliz por hospedar uma série de sessões de treinamento online, gratuitas e ao vivo desenvolvidas para você começar a trabalhar com o Teams.Seja você um profissional de decisões de negócios, administrador, profissional de TI ou usuário final, você vai encontrar a aula ideal. Não sabe por onde começar? Faça nossa <a href="https://aka.ms/TeamsKnowledgeCheck">Verificação de conhecimento do Teams</a>. Participe para ver o Teams em ação, tire suas dúvidas e interaja com os nossos instrutores ao vivo. Para visualizar nossas aulas de treinamento em seu próprio tempo, acesse nosso treinamento <a href="https://aka.ms/TeamsOnDemand">sob demanda de treinamento do usuário final</a>.<br><br>Clique em uma sessão abaixo para se inscrever.
         <ul class="pivots">
             <li>
                 <a href="#home" data-linktype="self-bookmark"></a>
@@ -192,7 +192,28 @@ A Microsoft está feliz por hospedar uma série de sessões de treinamento onlin
             </div>
         </div>
         </a>
-    </li>        </ul>
+    </li>
+    <li>
+        <a href="https://aka.ms/TeamsAtHome"target="_blank">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/office/media/icons/headset.svg" alt="Headset" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Domine o trabalho em casa com o Teams</h3>
+                        <p><strong><font color="#4B53BC">NOVO!</font></strong> Conheça as práticas recomendadas para permanecer conectado à sua equipe e manter a produtividade.</p>
+                        <p><i>Público-alvo: os usuários finais, a equipe e os gerentes de departamento</i></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>  
+        </ul>
         </li>
     </ul>
     </div>

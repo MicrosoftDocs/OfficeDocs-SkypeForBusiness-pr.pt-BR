@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4812c444-2546-48d7-9ca7-b71fce508ed8
 description: 'Resumo: Configure seus requisitos de não-servidor para o Skype for Business Server 2015. Há várias coisas que você deve configurar antes de realizar sua implantação, incluindo Active Directory, DNS, certs e fileshares.'
-ms.openlocfilehash: 0d1f2ff87189cd7fd88f37429fb2ebf6805f6810
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 164f4b8037c972907eb6d1375f77b3cc350959e5
+ms.sourcegitcommit: 543f650ad4aff73bccfe7a60b66fb944b4e3c119
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42012576"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42572799"
 ---
 # <a name="environmental-requirements-for-skype-for-business-server-2015"></a>Requisitos ambientais para o Skype for Business Server 2015
  
@@ -85,7 +85,7 @@ Agora, o nível funcional do domínio de qualquer domínio para o qual você imp
     
 - Windows Server 2003
     
-Você pode ter controladores de domínio somente leitura nesses ambientes? Certamente, contanto que haja um controlador de domínio gravável disponível.
+Você pode ter controladores de domínio somente leitura nesses ambientes? Certamente, contanto que haja controladores de domínio graváveis disponíveis no mesmo site que o Skype for Business Server.
   
 Agora, é importante saber que o Skype for Business Server 2015 não oferece suporte a domínios com rótulo único. O que são? Se você tiver um domínio raiz chamado contoso. local, isso vai ser bom. Se você tiver um domínio raiz apenas chamado local, isso não funcionará e, como resultado, não será suportado. Um pouco mais sobre isso foi escrito neste [artigo da base de conhecimento](https://support.microsoft.com/kb/300684/en-us).
   
@@ -374,4 +374,3 @@ O Skype for Business Server 2015 pode usar o mesmo compartilhamento de arquivo p
 > [!CAUTION] 
 > Você deve saber que usar o NAS (armazenamento conectado à rede) como um compartilhamento de arquivos não é suportado, portanto, use uma das opções listadas acima. 
   
-
