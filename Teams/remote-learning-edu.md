@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ae9315c172bc88cb96d5071e4bddf7f2e82a0d9f
-ms.sourcegitcommit: a597b1572f1eca095144288446a2c038e5daa5f7
+ms.openlocfilehash: e7d0f4a38194f80329c34cab73d61a99d4d4d03b
+ms.sourcegitcommit: 90066455ea2f982cdeabd9bff7944718bc7895c4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42586698"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "42592541"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>Introdução ao Microsoft Teams para aprendizado remoto
 
@@ -32,7 +32,7 @@ ms.locfileid: "42586698"
 > - Um curso online de 1 hora no Microsoft Educator Center mostra como os professores usam o Teams em suas carreiras. [**Transforme o aprendizado com o Microsoft Teams**](https://education.microsoft.com/course/9c9f5c11/overview).
 > - Um curso online de 1 hora no Microsoft Educator Center conduz os professores ao ensino nas equipes de classe. [**Criando um ambiente de aprendizado colaborativo com as Equipes de Classe**](https://education.microsoft.com/course/b1e15cfc/overview).
 > - Se você é professor, aluno, pai ou responsável legal, confira mais diretrizes sobre [**ensino e aprendizagem remotos com o Office 365**](https://aka.ms/RemoteLearningHelp).
-> - Os pais e os responsáveis legais também podem acessar a [Página de Suporte aos Pais](https://support.office.com/article/remote-learning-with-office-365-guidance-for-parents-and-guardians-89d514f9-bf5e-4374-a731-a75d38ddd588) para obter ajuda com a aprendizagem remota.
+> - Os pais e os responsáveis legais também podem acessar a [**página de suporte aos pais**](https://support.office.com/article/remote-learning-with-office-365-guidance-for-parents-and-guardians-89d514f9-bf5e-4374-a731-a75d38ddd588) para obter ajuda com a aprendizagem remota.
 
 Não perca o blog de 4 de março de 2020, [Como as escolas podem aumentar rapidamente os programas de aprendizado remoto com o Microsoft Teams](https://aka.ms/teamseduremoteblog).
 
@@ -104,7 +104,7 @@ Este é um conjunto de configurações de política comum não padrão que podem
 
 - Criar canais privados definido como "desligado"
 
-**Os professores e funcionários do ensino básico** devem receber políticas que concedam os principais recurso que podem ser restritos aos alunos. Crie novas políticas que permitem o agendamento de reuniões e o chat privado (as configurações padrão para uma nova política). [Atribua essas políticas aos seus funcionários e professores por meio da associação de grupo de segurança](batch-policy-assignment-edu).
+**Os professores e funcionários do ensino básico** devem receber políticas que concedam os principais recurso que podem ser restritos aos alunos. Crie novas políticas que permitem o agendamento de reuniões e o chat privado (as configurações padrão para uma nova política). [Atribua essas políticas em massa à sua equipe e educadores por meio da atribuição de política de lote](batch-policy-assignment-edu.md).
 
 ## <a name="start-using-teams"></a>Começar a usar o Teams
 
