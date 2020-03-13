@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f9c8f0fe24cfb94be368fb2afa6446f311f2f790
-ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
+ms.openlocfilehash: 4e009ccfb70e307e4a67f8331deabce51e229c0f
+ms.sourcegitcommit: 511238a3550ad0ff8d4bbd4600a252651ab6a654
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42417876"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42615363"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams para Infraestrutura de Área de Trabalho Virtualizada
 
@@ -132,8 +132,8 @@ Para saber mais sobre o Teams e o Office 365 ProPlus, consulte [como excluir equ
 
 1. Baixe o pacote MSI do teams que corresponde ao seu sistema operacional VDI VM usando um dos seguintes links:
 
-    - [Versão de 32 bits](https://statics.teams.cdn.office.net/production-windows/1.2.00.32462/Teams_windows.msi)
-    - [Versão de 64 bits](https://statics.teams.cdn.office.net/production-windows-x64/1.2.00.32462/Teams_windows_x64.msi)
+    - [Versão de 32 bits](https://statics.teams.cdn.office.net/production-windows/1.3.00.4461/Teams_windows.msi)
+    - [Versão de 64 bits](https://statics.teams.cdn.office.net/production-windows-x64/1.3.00.4461/Teams_windows_x64.msi)
 
     A versão mínima do aplicativo de área de trabalho Teams necessário é a versão 1.2.00.31357. (A suspensão PSTN não é suportada em versões anteriores).
 
@@ -254,8 +254,8 @@ Para atribuir uma política a vários usuários de uma vez, consulte [Editar con
 Ou, você também pode fazer o seguinte:
 
 1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para a política que você deseja atribuir. Por exemplo:
-    - Vá para **** > **políticas de chamadas**de voz e clique em **DisallowCalling**.
-    - Vá para **** > **políticas de reunião**de reuniões e clique em **AllOff**.
+    - Vá para **Voice** > **políticas de chamadas**de voz e clique em **DisallowCalling**.
+    - Vá para **Meetings** > **políticas de reunião**de reuniões e clique em **AllOff**.
 3. Escolha **Gerenciar usuários**.
 4. No painel **gerenciar usuários** , procure pelo usuário por nome para exibição ou por nome de usuário, selecione o nome e clique em **Adicionar**. Repita esta etapa para cada usuário que você deseja adicionar.
 5. Quando tiver terminado de adicionar usuários, clique em **salvar**.
@@ -265,7 +265,7 @@ Ou, você também pode fazer o seguinte:
 O exemplo a seguir mostra como usar o [Grant-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallingpolicy) para atribuir a política de chamada DisallowCalling a um usuário.
 
 ```PowerShell
-Grant-CsTeamsCallingPolicy -PolicyName DisallowCalling -Identity “user email id”
+Grant-CsTeamsCallingPolicy -PolicyName DisallowCalling -Identity "user email id"
 ```
 
 Para saber mais sobre como usar o PowerShell para gerenciar as políticas de chamadas, consulte [set-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy).
@@ -273,7 +273,7 @@ Para saber mais sobre como usar o PowerShell para gerenciar as políticas de cha
 O exemplo a seguir mostra como usar o [Grant-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmeetingpolicy) para atribuir a política de reunião do AllOff a um usuário.
 
 ```PowerShell
-Grant-CsTeamsMeetingPolicy -PolicyName AllOff -Identity “user email id”
+Grant-CsTeamsMeetingPolicy -PolicyName AllOff -Identity "user email id"
 ```
 
 Para saber mais sobre como usar o PowerShell para gerenciar as políticas de reunião, consulte [set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy).
@@ -306,8 +306,8 @@ Para atribuir uma política a vários usuários de uma vez, consulte [Editar con
 Ou, você também pode fazer o seguinte:
 
 1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para a política que você deseja atribuir. Por exemplo:
-    - Vá para **** > **políticas de chamadas**de voz e clique em **AllowCalling**.
-    - Vá para **** > **políticas de reunião**de reuniões e clique em **permitir**.
+    - Vá para **Voice** > **políticas de chamadas**de voz e clique em **AllowCalling**.
+    - Vá para **Meetings** > **políticas de reunião**de reuniões e clique em **permitir**.
 3. Escolha **Gerenciar usuários**.
 4. No painel **gerenciar usuários** , procure pelo usuário por nome para exibição ou por nome de usuário, selecione o nome e clique em **Adicionar**. Repita esta etapa para cada usuário que você deseja adicionar.
 5. Quando tiver terminado de adicionar usuários, clique em **salvar**.
@@ -317,7 +317,7 @@ Ou, você também pode fazer o seguinte:
 O exemplo a seguir mostra como usar o [Grant-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallingpolicy) para atribuir a política de chamada AllowCalling a um usuário.
 
 ```PowerShell
-Grant-CsTeamsCallingPolicy -PolicyName AllowCalling -Identity “user email id”
+Grant-CsTeamsCallingPolicy -PolicyName AllowCalling -Identity "user email id"
 ```
 
 Para saber mais sobre como usar o PowerShell para gerenciar as políticas de chamadas, consulte [set-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy).
@@ -325,7 +325,7 @@ Para saber mais sobre como usar o PowerShell para gerenciar as políticas de cha
 O exemplo a seguir mostra como usar o [Grant-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmeetingpolicy) para atribuir a política de reunião de permissão a um usuário.
 
 ```PowerShell
-Grant-CsTeamsMeetingPolicy -PolicyName AllOn -Identity “user email id”
+Grant-CsTeamsMeetingPolicy -PolicyName AllOn -Identity "user email id"
 ```
 
 Para saber mais sobre como usar o PowerShell para gerenciar as políticas de reunião, consulte [set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy).
