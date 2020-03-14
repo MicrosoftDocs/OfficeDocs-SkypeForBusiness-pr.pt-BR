@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para a Índia.
-ms.openlocfilehash: 459579824f7f1c25b98e33029699c6e8635c46da
-ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
+ms.openlocfilehash: 7fbd64ee3f00fdad0898c8dd6ea67bce224f8548
+ms.sourcegitcommit: 79572b3cb270c77ba7d78a06af02547ed9b7a7ea
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41853266"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42632756"
 ---
 # <a name="availability-in-india"></a>Disponibilidade na Índia
 
@@ -42,7 +42,7 @@ Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Te
 
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
-|A Audioconferência está disponível para compra?  <br/> |Não  <br/> |
+|A Audioconferência está disponível para compra?  <br/> |A Microsoft não vende conferências de áudio na Índia. O TATA Communications oferece um serviço de discagem e discagem externa compatível com reuniões do Microsoft Teams. Para obter mais informações, acesse o [website Tata Communications](https://www.tatacommunications.com/for-you/tata-communications-connections-for-microsoft-teams/).   <br/> |
 |Os números de telefone são atribuídos automaticamente para a Audioconferência?  <br/> |Sim, para:<br/><ul><li> Madras<li> Mumbai</ul>Para obter números de telefone dedicados, consulte [Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](/microsoftteams/getting-service-phone-numbers).  <br/> |
 |Funcionalidade de discagem usando o recurso Telefonar para Mim  <br/> |Disponível  <br/> |
    

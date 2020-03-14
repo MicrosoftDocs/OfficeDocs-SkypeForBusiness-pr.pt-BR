@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dd27dfd6fccba5c7e9db52d58f7a6253849bea54
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+ms.openlocfilehash: 42f0ec656036849aa87d9d4e7e092f4b5d3a505f
+ms.sourcegitcommit: 4306083e7b1dc2e7a0d02b682790450934dada50
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41862901"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "42639458"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Preparo da rede da sua organização para o Microsoft Teams 
 
@@ -111,7 +111,7 @@ Para uma discussão aprofundada da otimização da rede, incluindo orientações
 <ul>
 <li><p>As VPNs normalmente não são projetadas ou configuradas para dar suporte à mídia em tempo real.</p></li> 
 <li><p>Algumas VPNs também podem não oferecer suporte ao UDP (que é necessário para o Teams).</p></li> 
-<li><p>As VPNs também introduzem uma camada extra de criptografia sobre o tráfego de mídia que já está criptografado.</p></li> 
+<li><p>As VPNs também introduzem uma camada adicional de criptografia na parte superior do tráfego de mídia que já está criptografado.</p></li> 
 <li><p>A conectividade com o Microsoft Teams pode não ser eficiente devido ao tráfego de cabelo de cabelo por meio de um dispositivo VPN.</p></li></td>
 </tr>
 <tr class="odd">
@@ -125,7 +125,7 @@ Para uma discussão aprofundada da otimização da rede, incluindo orientações
 <li><p>Implemente a QoS ou a multimídia WiFi (WMM) para garantir que o tráfego de mídia esteja recebendo a prioridade apropriadamente nas redes WiFi.</p></li>
 <li><p>Planeje e otimize as faixas WiFi e o posicionamento do ponto de acesso. O intervalo de 2,4 GHz pode proporcionar uma experiência adequada dependendo do posicionamento do ponto de acesso, mas os pontos de acesso costumam ser afetados por outros dispositivos do consumidor que operam nesse intervalo. O intervalo de 5 GHz é mais adequado para mídia em tempo real devido ao seu alcance denso, mas requer mais pontos de acesso para obter cobertura suficiente. Os pontos de extremidade também precisam dar suporte àquele intervalo e ser configurados para utilizar essas bandas corretamente.</p></li>
 <li><p>Se você estiver usando redes WiFi de banda dupla, considere a implementação do direcionamento de banda. <em>Direcionamento de banda</em> é uma técnica implementada por fornecedores WiFi para influenciar clientes de banda dupla para usar o intervalo de 5 GHz.</p></li>
-<li><p>Quando pontos de acesso do mesmo canal estiverem muito próximos uns dos outros, eles poderão causar sobreposição de sinal e concorrência não intencional, resultando em uma experiência ruim para o usuário. Certifique-se de que os pontos de acesso próximos um do outro estejam em canais que não se sobreponham.</p></li>
+<li><p>Quando pontos de acesso do mesmo canal estiverem muito próximos uns dos outros, eles poderão causar sobreposição de sinal e concorrência não intencional, resultando em uma experiência ruim para o usuário. Certifique-se de que os pontos de acesso próximos uns dos outros estejam em canais que não se sobreponham.</p></li>
 </ul>
 <p>Cada fornecedor de redes sem fio tem suas próprias recomendações de implantação da solução sem fio. Consulte o fornecedor do WiFi para obter orientação específica.</p></td>
 </tr>
