@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Use o Power BI para analisar dados do CQD para o Microsoft Teams.
-ms.openlocfilehash: 155bde0373880befc770d745ca246b76d4c63eec
-ms.sourcegitcommit: 543f650ad4aff73bccfe7a60b66fb944b4e3c119
+ms.openlocfilehash: c69d2ba79044d4d15e21881e5d2a9a2ce4f64feb
+ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42572889"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "42796004"
 ---
 # <a name="use-power-bi-to-analyze-cqd-data-for-microsoft-teams"></a>Usar o Power BI para analisar dados do CQD para o Microsoft Teams
 
@@ -40,6 +40,9 @@ Antes de poder usar esses arquivos PBIX, você precisará [instalar o conector d
 |Relatório de resumo CQD. pbix     |Melhores visualizações, apresentação aprimorada, maior densidade de informações e datas de rolagem. Esses relatórios facilitam a identificação de exceções. Analise a qualidade da chamada por local com um mapa interativo fácil de usar. 9 novos relatórios:</p>-Qualidade geral<br>-Confiabilidade geral<br>-RMC (classifique minha chamada em geral)<br>-Qualidade de conferência<br>-Qualidade P2P<br>-Confiabilidade da conferência<br>-Confiabilidade P2P<br>-Conferência RMC<br>-RMC P2P         |
 |<strong>(Novo!)</strong> Relatório de utilização do teams CQD. pbix     | Mostra como os usuários em sua organização estão usando o Teams e o quanto. Para saber mais, leia [use o relatório do Power bi do CQD para exibir a utilização do Microsoft Teams](CQD-teams-utilization-report.md).        |
 |CQD comentários do usuário (classifique minha chamada) Report. pbix     | Mostra os dados de Tarifa de minha chamada de forma que você possa usar facilmente para ajudar a fazer chamadas para a sua organização. Referência cruzada com as literalmente para identificar oportunidades de educação do usuário final.        |
+
+> [!TIP]
+> Depois de configurar seus relatórios do Power BI para dados do CQD, adicione-os como uma guia a um canal. Depois de selecionar **+** em um canal, selecione **Power bi** e localize seu relatório. Lembre-se: somente as pessoas com uma licença do Power BI e credenciais de administrador do CQD podem acessar esses relatórios.
 
 
 ## <a name="related-topics"></a>Tópicos relacionados

@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 806a96db63ca0bbb44eb92ed6e84f8451069e725
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 7ec2d9ede5fdd31070228995cefaa16a60ad6224
+ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42035455"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "42795994"
 ---
 # <a name="teams-only-mode-considerations"></a>Considerações sobre o modo Teams Only (Apenas Teams)
 
@@ -49,8 +49,6 @@ Embora milhares de clientes tenham sido atualizados com êxito para o Microsoft 
 
 **Considerações de todos os locatários**: estamos nos empenhando para habilitar o Microsoft Teams nos seguintes ambientes; no entanto, por enquanto, os administradores não devem atualizar os usuários em sua organização se o locatário do Skype for Business estiver hospedado em um dos seguintes ambientes:
 
- - Nuvem da Comunidade governamental alta
- - Nuvem da Comunidade governamental DoD
  - Office 365 operado pela 21Vianet
  - Office 365 Alemanha
  - O locatário do Skype for Business é hospedado na Coréia do Sul **e** a organização requer que os dados do Team sejam armazenados na Coreia do Sul. Atualmente, as organizações com dados do Skype for Business armazenados na Coréia do Sul que atualizam para o Microsoft Teams terão seus dados de equipe armazenados na região do datacenter da Ásia, e não na região do centro de dados da Coreia do Sul.
