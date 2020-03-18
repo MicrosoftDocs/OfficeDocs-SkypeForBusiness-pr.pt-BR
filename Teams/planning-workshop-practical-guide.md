@@ -3,11 +3,10 @@ title: Ferramentas e workshops — Planejamento, implantação e adoção do Mic
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 07/17/2018
 ms.topic: article
 ms.service: msteams
 audience: admin
-ms.reviewer: lolaj, rowille
+ms.reviewer: karuanag
 description: Ferramentas de planejamento, workshops e kits de introdução para ajudar as empresas a começar a usar o Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
@@ -15,12 +14,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 356ff815fe05a91f203778c0f6af255182ace35c
-ms.sourcegitcommit: 494e5956619084ff8f0a4f42efb5081c4530488a
+ms.openlocfilehash: 1ac7c61675c04d6d184a3b7fe14b4088f43bd2ef
+ms.sourcegitcommit: 54cbcf917d9663e6aa9760d7399b36c00d66478c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/06/2020
-ms.locfileid: "42550898"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "42840105"
 ---
 # <a name="tools-and-workshops-plan-deliver-and-adopt-microsoft-teams"></a>Ferramentas e workshops: Planejamento, implantação e adoção do Microsoft Teams
 
@@ -31,20 +30,25 @@ Baixe estas ferramentas para usar durante o planejamento, implantação e adoç�
 
     Este kit contém uma ampla variedade de apresentações, modelos de email, dicas & truques e cartazes que você pode usar para implantar e orientar a adoção de equipes em sua organização. Ele inclui dois guias de início rápido para administradores e líderes de equipe e exemplos de casos de uso para cada departamento. Use estes recursos para aproveitar ao máximo as equipes para várias funções em sua organização, incluindo marketing, vendas, finanças, recursos humanos, ti, engenharia e gerenciamento de projetos.
 
+- [Como implantar o Teams](How-to-roll-out-teams.md)
 
-- [Guia de início rápido para administradores](https://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx)
+    Siga o caminho recomendado para implementar o Microsoft Teams.
 
-    Este documento o orienta, nas cinco fases de implementação, como habilitar o Microsoft Teams com êxito. Ele inclui um questionário de planejamento técnico que captura informações sobre o ambiente atual do Office 365 da sua organização. O líder do workshop pode usar essas informações para personalizar a apresentação do workshop. O questionário também coleta suas decisões e os próximos passos depois do workshop.
+- [Obter treinamento técnico em equipes](https://aka.ms/TeamsAcademy)
 
-- [Workshop: Planejamento, implantação e operação do Microsoft Teams](https://download.microsoft.com/download/A/A/D/AAD74246-790D-4E61-8DA0-865742CB42DB/MicrosoftTeams-Planning-Workshop-Dec2017.pptx)
-
-    Use esta apresentação do PowerPoint para liderar um workshop com sua organização para planejar a distribuição da equipe. O workshop apresenta o Teams e orienta sua equipe por meio de pontos de decisão e próximas etapas.
+    Use estes recursos de treinamento técnico para se ensinar, ensinar outros ou executar workshops.
 
 - [Clientes do governo do Office 365](plan-for-government-gcc.md)
 
-   Sua jornada ao Microsoft Teams é muito parecida com a experiência de nossos clientes empresariais. À medida que o Microsoft Teams se torna disponível para seus locatários, incentivamos você a começar a usar nosso [plano para o artigo de implantações do Microsoft 365 governo-gcc e o](plan-for-government-gcc.md) [Guia de início rápido para administradores](https://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx). Nossa visão geral [de segurança e conformidade](security-compliance-overview.md) ajudará você a se sentir confiante sobre as equipes do seu ambiente.
+   Sua jornada ao Microsoft Teams é muito parecida com a experiência de nossos clientes empresariais. À medida que as equipes se tornam disponíveis para seus locatários, recomendamos que você comece a usar nosso [plano para o artigo de implantações do Microsoft 365 governo-gcc e o](plan-for-government-gcc.md) [Guia de início rápido para administradores](https://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx). Nossa visão geral [de segurança e conformidade](security-compliance-overview.md) ajudará você a se sentir confiante sobre as equipes do seu ambiente.
 
-### <a name="see-also"></a>Consulte também
+- [Teams for Education-início rápido para administradores](https://docs.microsoft.com/MicrosoftTeams/teams-quick-start-edu)
+
+    Use este tutorial para orientá-lo em uma distribuição de equipes para sua organização educacional.
+
+### <a name="see-also"></a>Confira também
+
+[Treinamento do teams](training-microsoft-teams-landing-page.md)
 
 [Prontidão do administrador de TI para o Teams](ITAdmin-readiness.md)
 
@@ -54,6 +58,6 @@ Baixe estas ferramentas para usar durante o planejamento, implantação e adoç�
 
 [Migrar usuários de um ambiente local para o Teams](https://docs.microsoft.com/skypeforbusiness/hybrid/move-users-from-on-premises-to-teams)
 
-[Gerenciar as configurações do Microsoft Teams para sua organização](enable-features-office-365.md)
+[Gerenciar as configurações do Teams da sua organização](enable-features-office-365.md)
 
 
