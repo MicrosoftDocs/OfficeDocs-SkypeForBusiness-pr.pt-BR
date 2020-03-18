@@ -18,23 +18,23 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 82b9418f2e87550667cbc163f8f37a0989ec2b30
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+ms.openlocfilehash: afbcc5721d55983e19970e6c2fbc60e5a7467cba
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41863432"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706791"
 ---
+# <a name="prepare-your-environment-for-upgrading-to-teams"></a>Preparar seu ambiente para a atualização para o Microsoft Teams
+
 ![Atualize o diagrama de jornada, enfatizando o estágio de preparação técnica](media/upgrade-banner-tech-readiness.png "Estágios da jornada da atualização, com ênfase no estágio de preparação técnica")
 
-Este artigo faz parte do estágio de Preparação Técnica da sua jornada de atualização, uma atividade que você realiza em paralelo com o estágio de Preparação do Usuário. Antes de prosseguir, confirme se você concluiu essas atividades dos estágios anteriores:
+Este artigo faz parte do estágio de Preparação Técnica da sua jornada de atualização, uma atividade que você realiza em paralelo com o estágio de Preparação do Usuário. Antes de prosseguir, confirme que você concluiu essas atividades dos estágios anteriores:
 
 - [Alistou as partes envolvidas no seu projeto](upgrade-enlist-stakeholders.md)
 - [Definiu o escopo do seu projeto](https://aka.ms/SkypetoTeams-Scope)
 - [Compreendeu a coexistência e interoperabilidade do Skype for Business e do Teams](https://aka.ms/SkypeToTeams-Coexist)
 - [Escolheu sua jornada de atualização](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-
-# <a name="prepare-your-environment-for-upgrading-to-teams"></a>Preparar seu ambiente para a atualização para o Microsoft Teams
 
 Para gerar uma atualização bem-sucedida do Microsoft Teams em sua organização, é importante validar o seu ambiente atual do Skype for Business e a prontidão da rede. Preparar seu ambiente atual ajudará a garantir uma experiência de usuário de alta qualidade agora, além de melhorar a qualidade da experiência do usuário no Microsoft Teams. Levar tempo para planejar etapas individuais pode ajudar a acelerar a implantação e garantir que você não tenha ignorado nenhum item de ação importante.
 

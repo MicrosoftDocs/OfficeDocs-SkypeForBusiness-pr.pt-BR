@@ -18,16 +18,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ec60beb606224a5b202a03187027b8e3e002dfd1
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 52721d40e36dc017d9ba76473367d1c9c5e5b4e7
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41833891"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706451"
 ---
+# <a name="conduct-a-user-pilot"></a>Realizar um piloto de usuário
+
 ![Atualizar o diagrama de jornada, realçando implantação e implementação](media/upgrade-banner-deployment.png "Estágios da jornada da atualização, com ênfase no estágio de implantação e implementação")
 
-Este artigo faz parte do estágio de implantação e implementação da sua jornada de atualização e compartilha ideias para executar um piloto efetivo. Antes de prosseguir, confirme se você concluiu as seguintes atividades:
+Este artigo faz parte do estágio de implantação e implementação da sua jornada de atualização e compartilha ideias para executar um piloto efetivo. Antes de prosseguir, confirme que você concluiu as seguintes atividades:
 
 - [Alistou as partes envolvidas no seu projeto](upgrade-enlist-stakeholders.md)
 - [Definiu o escopo do seu projeto](https://aka.ms/SkypetoTeams-Scope)
@@ -35,8 +37,6 @@ Este artigo faz parte do estágio de implantação e implementação da sua jorn
 - [Escolheu sua jornada de atualização](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 - [Seu ambiente foi preparado](https://aka.ms/SkypeToTeams-TechnicalReadiness)
 - [Preparou sua organização](https://aka.ms/SkypeToTeams-UserReadiness)
-
-# <a name="conduct-a-user-pilot"></a>Realizar um piloto de usuário
 
 Ao implantar novas tecnologias, sua organização pode obter um valor empresarial, como economia de custos, conformidade com a segurança, satisfação do funcionário e eficiência operacional, mas também pode afetar a produtividade do usuário e a infraestrutura organizacional ( sua rede). Antes de habilitar a nova tecnologia em toda a sua organização, realize um piloto formal do usuário. Da mesma forma que pintaria um pequeno patch de cor em uma parede antes de pintar a sala inteira, você testaria uma implementação ampla em uma escala menor, conduzindo um piloto para validar a prontidão técnica e do usuário, identificar e atenuar problemas e ajudar a garantir uma sucesso implementação em toda a organização.
 

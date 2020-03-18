@@ -18,23 +18,23 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6d7d0b1cf23b94f33c66218eaacdfdeda5aaab19
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 888e56561e4e6f4a521a0e1730fe3c9ea6adff82
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42048592"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706931"
 ---
+# <a name="assess-organizational-change-readiness"></a>Avaliar preparação da mudança organizacional
+
 ![Atualize o diagrama de jornada, enfatizando o estágio de preparação do usuário](media/upgrade-banner-user-readiness.png "Estágios da jornada da atualização, com ênfase no estágio de preparação do usuário")
 
-Este artigo faz parte do estágio de preparação do usuário da jornada da atualização, uma atividade que você conclui em paralelo com o estágio de preparação técnica. Antes de prosseguir, confirme se você concluiu essas atividades dos estágios anteriores:
+Este artigo faz parte do estágio de preparação do usuário da jornada da atualização, uma atividade que você conclui em paralelo com o estágio de preparação técnica. Antes de prosseguir, confirme que você concluiu essas atividades dos estágios anteriores:
 
 - [Alistou as partes envolvidas no seu projeto](upgrade-enlist-stakeholders.md)
 - [Definiu o escopo do seu projeto](https://aka.ms/SkypetoTeams-Scope)
 - [Compreendeu a coexistência e interoperabilidade do Skype for Business e do Teams](https://aka.ms/SkypeToTeams-Coexist)
 - [Escolheu sua jornada de atualização](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-
-# <a name="assess-organizational-change-readiness"></a>Avaliar preparação da mudança organizacional
 
 Depois de proteger a sua equipe de projeto e definir sua visão, o escopo e os objetivos, a próxima etapa da sua jornada de atualização é garantir que sua organização e os usuários estejam prontos para o Teams, uma atividade que você conclui em paralelo com a garantia de sua prontidão técnica. Para obter valor do Teams, os usuários devem realmente usá-lo. Simplesmente habilitar o Microsoft Teams não garante que você atinja sua meta. Os usuários têm casos de uso diferentes e estilos de aprendizagem variados e se adaptam a novas tecnologias em diferentes velocidades. A boa notícia é que o gerenciamento de alterações não é tão complicado, mas tem um esforço focado. As discussões orientadas abaixo foram projetadas para ajudar você a entender sua base de usuários, de modo que você possa preparar o nível certo de educação para facilitar e acelerar a adoção do usuário. Há duas maneiras de ver a sua base de usuários:
 
@@ -62,7 +62,7 @@ Use os seguintes iniciadores de conversa para conduzir uma avaliação de pronti
 <!--
 | **Type of user** | **%** |
 |------------|---|
-| *Early adopters* request the solution before it’s available. | |
+| *Early adopters* request the solution before it's available. | |
 | *Informed users* accept the solution as soon as its value is demonstrated. | |
 | *Laggards* reject the solution, even when pushed into change. | |
 -->
@@ -80,8 +80,8 @@ Use os seguintes iniciadores de conversa para conduzir uma avaliação de pronti
 | **Type of learner** | **%** |
 |---------------|---|
 | *Self-motivated* learners seek out resources, learn by doing. | |
-| *Team-players* enjoy group and interactive training; they’ll go along with coworkers. | |
-| *Hand-holding* seekers expect “white glove” or one-on-one assistance. | |
+| *Team-players* enjoy group and interactive training; they'll go along with coworkers. | |
+| *Hand-holding* seekers expect "white glove" or one-on-one assistance. | |
 -->
 
 | Auto-motivado | Jogadores de equipe | Mão-segurando buscadores |

@@ -18,18 +18,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 02772dddf435e8c3dc2bc0fe243e453e387cd244
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 2c5a437353d00fca8a59bd7de2b753967adc1134
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837201"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42707001"
 ---
+# <a name="get-the-most-out-of-teams-after-upgrading"></a>Aproveitar ao máximo o Microsoft Teams após a atualização
+
 ![Atualize o diagrama de jornada, enfatizando o estágio operacional de excelência](media/upgrade-banner-op-excellence.png "Estágios da jornada da atualização, com ênfase no estágio Operational de excelência")
 
 Este artigo faz parte do estágio operacional de excelência da sua jornada de atualização, que começa assim que você concluiu a atualização do Skype for Business para o Teams.
-
-# <a name="get-the-most-out-of-teams-after-upgrading"></a>Aproveitar ao máximo o Microsoft Teams após a atualização
 
 Este artigo oferece uma visão geral dos requisitos para aproveitar ao máximo as equipes operacionais após a atualização. Ao monitorar continuamente as funcionalidades de serviços da equipe, você pode ter certeza de que está fornecendo o valor máximo para a sua organização.
 

@@ -18,20 +18,20 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 13da1a583d5aa0abaad4e981e5fc68d3aa913ce9
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 4084bc58d98aa05af14511869fc44c6db85343b8
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837241"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42707011"
 ---
+# <a name="define-your-project-scope"></a>Definir o escopo de seu projeto
+
 ![Atualizar o diagrama de jornada, realçando o estágio de definição do projeto](media/upgrade-banner-project-definition.png "Etapas da jornada de atualização, com ênfase no estágio de Definição do Projeto")
 
-Este artigo faz parte do estágio de definição do projeto da sua jornada de atualização, uma atividade que você concluiu após criar um patrocínio aliança e equipe de projeto dos participantes que você identificou é essencial para o sucesso do seu projeto. Antes de prosseguir, confirme se você concluiu as seguintes atividades:
+Este artigo faz parte do estágio de definição do projeto da sua jornada de atualização, uma atividade que você concluiu após criar um patrocínio aliança e equipe de projeto dos participantes que você identificou é essencial para o sucesso do seu projeto. Antes de prosseguir, confirme que você concluiu as seguintes atividades:
 
 - [Participantes do projeto listados](upgrade-enlist-stakeholders.md)
-
-# <a name="define-your-project-scope"></a>Definir o escopo de seu projeto
 
 Levar tempo para definir a visão, o escopo, as metas e a governança do projeto ajudará a garantir que todos os participantes do projeto estejam alinhados e trabalhando em direção aos mesmos resultados finais. Isso é especialmente crítico, uma vez que a equipe de preparação técnica e a equipe de preparação do usuário estarão trabalhando de forma independente para reunir suas respectivas peças. Depois de concluir esta seção, consulte-a em todo o seu projeto para garantir que você está sob controle para alcançar o estado final desejado. Use as metas que você identifica abaixo para avaliar seus resultados e para reduzir conforme necessário.
 

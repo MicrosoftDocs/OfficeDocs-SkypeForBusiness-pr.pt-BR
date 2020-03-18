@@ -18,18 +18,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 69f36da55daf95da66fa87b90487dde447953f53
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: e870c6e6561bac991e7b9498ef76162ec1fa2eb9
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837171"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706971"
 ---
+# <a name="quality-of-experience-review-guide"></a>Guia de revisão da experiência de qualidade
+
 ![Diagrama realçando a excelência operacional estágio da viagem de atualização](media/upgrade-banner-op-excellence.png "Estágios da jornada da atualização, com ênfase no estágio Operational de excelência")
 
 Este artigo faz parte do estágio operacional de excelência da sua jornada de atualização, que começa assim que você concluiu a atualização do Skype for Business para o Teams.
-
-# <a name="quality-of-experience-review-guide"></a>Guia de revisão da experiência de qualidade
 
 O [Guia de revisão da qualidade da experiência](https://aka.ms/qerguide) inclui um conjunto de atividades que avaliam e fornecem orientação de correção em áreas importantes que têm o maior impacto na melhoria da experiência do usuário, conforme ilustrado a seguir.
 

@@ -18,16 +18,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a3226dd3887a4d289b810bb866d96dba704dd448
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 29cd3a6b420ab33cfc6f18b839d544572cfc9753
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837111"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706911"
 ---
-![Diagrama da jornada de atualização do teams](media/upgrade-banner-main.png "Verifique se o seu projeto está configurado para o sucesso com a equipe de projeto certa. Defina o escopo, as metas e o cronograma do projeto. Confirme a prontidão técnica e do usuário. Executar o plano de distribuição. Mantenha a momentum para maximizar os resultados.")
-
 # <a name="plan-for-your-upgrade"></a>Planejar a atualização
+
+![Diagrama da jornada de atualização do teams](media/upgrade-banner-main.png "Verifique se o seu projeto está configurado para o sucesso com a equipe de projeto certa. Defina o escopo, as metas e o cronograma do projeto. Confirme a prontidão técnica e do usuário. Executar o plano de distribuição. Mantenha a momentum para maximizar os resultados.")
 
 Um ambiente técnico saudável, adoção contínua do usuário e realização de suas metas de negócios começam com planejamento adequado. Um plano sólido oferece uma estrutura para o seu projeto de atualização e garante que todos os stakeholders estejam trabalhando em direção às mesmas metas. Ao levar tempo para definir corretamente o sucesso, você pode medir os resultados enquanto avança pela sua implantação e verificar se está obtendo os resultados desejados. O planejamento da sua jornada inclui:
 
@@ -36,6 +36,6 @@ Um ambiente técnico saudável, adoção contínua do usuário e realização de
 - [Noções básicas sobre a coexistência e interoperabilidade do Skype for Business e do teams](https://aka.ms/SkypeToTeams-Coexist).
 
 > [!TIP]
-> Junte-se a nós nos workshops interativos e ao vivo, onde compartilharemos o guia, as práticas recomendadas e os recursos projetados para dar início ao planejamento e à implementação de atualizações.
+> Junte-se aos workshops interativos e ativos nos quais compartilharemos orientação, práticas recomendadas e recursos projetados para iniciar o planejamento e a implementação da atualização.
 >
 > Para começar, participe primeiro da sessão de [Planejamento da atualização](https://aka.ms/SkypeToTeamsPlanning).

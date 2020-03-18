@@ -16,12 +16,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Saiba como usar a atribuição de política em lote para atribuir políticas a grandes conjuntos de usuários em sua instituição educacional em grande parte para fins escolares remotos (teleescolares, tele-School).
 f1keywords: ''
-ms.openlocfilehash: 79c36aa0e2a7a2d310756d052b8962daeaa38634
-ms.sourcegitcommit: a34a827dfdad05b281e2e5ec5a80fc4e67fc89e2
+ms.openlocfilehash: 8dd771b27c1950cdce1590783bcfb3b4159c1c29
+ms.sourcegitcommit: 891ba3670ccd16bf72adee5a5f82978dc144b9c1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "42604298"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42691181"
 ---
 # <a name="assign-policies-to-large-sets-of-users-in-your-school"></a>Atribuir políticas a grandes conjuntos de usuários na sua escola
 
@@ -112,6 +112,9 @@ $faculty = Get-AzureADUser -All $true | Where-Object (($_.assignedLicenses).SkuI
 ## <a name="assign-a-policy-in-bulk"></a>Atribuir uma política em massa
 
 Agora, atribuímos as políticas adequadas aos usuários em massa. O número máximo de usuários para os quais você pode atribuir ou atualizar políticas é de 20.000 de cada vez. Por exemplo, se você tiver mais de 20.000 funcionários e professores, será necessário enviar vários lotes.
+
+> [!IMPORTANT]
+> No momento, recomendamos que você atribua políticas em lotes de 5.000 usuários por vez. Durante esses horários de maior demanda, você pode enfrentar atrasos em tempos de processamento. Para minimizar o impacto dessas melhorias de processamento, sugerimos que você envie tamanhos de lote menores de até 5.000 usuários e envie cada lote somente após a conclusão da conclusão do anterior. Enviar lotes para fora do seu horário de trabalho normal também pode ajudar.
 
 Execute o seguinte para atribuir a política de reunião chamada EducatorMeetingPolicy à sua equipe e educadores.
 

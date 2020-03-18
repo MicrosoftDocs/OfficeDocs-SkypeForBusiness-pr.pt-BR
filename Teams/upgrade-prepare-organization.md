@@ -18,23 +18,23 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ea2fc7a56b3bc87a7d25c2afa86ff0b9f974995c
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 088db496d6e04cb25a26a55f2748b25a11a8a76b
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836243"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706781"
 ---
+# <a name="prepare-your-organization"></a>Preparar sua organização
+
 ![Estágios da jornada da atualização, com ênfase no estágio de preparação do usuário](media/upgrade-banner-user-readiness.png "Estágios da jornada da atualização, com ênfase no estágio de preparação do usuário")
 
-Este artigo faz parte do estágio de preparação do usuário da jornada da atualização, uma atividade que você conclui em paralelo com o estágio de preparação técnica. Antes de prosseguir, confirme se você concluiu essas atividades dos estágios anteriores:
+Este artigo faz parte do estágio de preparação do usuário da jornada da atualização, uma atividade que você conclui em paralelo com o estágio de preparação técnica. Antes de prosseguir, confirme que você concluiu essas atividades dos estágios anteriores:
 
 - [Alistou as partes envolvidas no seu projeto](upgrade-enlist-stakeholders.md)
 - [Definiu o escopo do seu projeto](https://aka.ms/SkypetoTeams-Scope)
 - [Compreendeu a coexistência e interoperabilidade do Skype for Business e do Teams](https://aka.ms/SkypeToTeams-Coexist)
 - [Escolheu sua jornada de atualização](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-
-# <a name="prepare-your-organization"></a>Preparar sua organização
 
 Para obter o valor máximo do Teams, os usuários devem realmente usá-lo, mas fazer com que os usuários alterem a maneira como o trabalho nem sempre é fácil. Dedicar um tempo para entender seus usuários e projetar o plano de preparação certo pode ajudar a facilitar a alteração e acelerar a adoção de equipes. Essas atividades devem ser concluídas em paralelo com a preparação para preparação técnica:
 

@@ -21,7 +21,7 @@ ms.custom:
 description: Saiba mais sobre as políticas de mensagens e como elas podem ser usadas para controlar as mensagens de chat no Teams.
 ms.openlocfilehash: ceb77747da051c5b7e4fb764d6b6679335d8f366
 ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 02/06/2020
 ms.locfileid: "41836441"
@@ -93,15 +93,15 @@ Use as configurações a seguir para alterar a política de mensagens globais ou
 - **Permitir que os usuários traduzam mensagens** Ative essa configuração para permitir que os usuários traduzam automaticamente as mensagens do Teams para o idioma especificado pelas configurações de idioma pessoal do Office 365.
 - **Permitir leitura avançada na exibição de mensagens** Ative essa configuração para permitir que os usuários exibam mensagens na Leitura Avançada da Microsoft. A Leitura Avançada é uma ferramenta de aprendizagem que fornece uma experiência de leitura em tela inteira para aumentar a legibilidade do texto.
 - **Os usuários podem enviar <a name="urgent-message">notificações</a> de prioridade** Se o recurso for ativado, os usuários podem enviar uma mensagem que usa notificações de prioridade. As notificações de prioridade notificam os usuários a cada dois minutos por um período de 20 minutos ou até que as mensagens sejam captadas e lidas pelo destinatário maximizando a probabilidade de que a mensagem seja captada e atendida em tempo hábil.   [!INCLUDE [pri-message-offer](includes/pri-message-offer.md)]
-- **Criação de mensagens de áudio** – importante: as mensagens de áudio não são capturadas em relatórios de descoberta eletrônica. 
-    - **Permitido em chats e canais** Isso significa que os usuários podem deixar mensagens de áudio em chats e canais.
-    - **Permitido somente em chats** Isso significa que os usuários podem deixar mensagens de áudio em chats, mas não em canais.
-    - **Desativado** Isso significa que os usuários não podem criar mensagens de áudio em chats ou canais.  
+- **Criação de mensagem de áudio** – Importante: as mensagens de áudio não são capturadas no relatório de descoberta eletrônica. 
+    - **Permitido em chats e canais** Isso significa que os usuários podem deixar mensagens de áudio nos chats e nos canais.
+    - **Permitido em apenas chats** Isso significa que os usuários podem deixar mensagens de áudio nos chats, mas nos canais.
+    - **Desabilitado** Isso significa que os usuários não podem criar mensagens de áudio em chats ou canais.  
 - **Em dispositivos móveis, exibir canais favoritos acima dos chats recentes** Habilite essa configuração para mover canais favoritos para a parte superior da tela de um dispositivo móvel de modo que o usuário não precise rolar para encontrá-los. 
 - **Permitir que um usuário remova usuários de um chat em grupo** Habilite essa configuração para permitir que um usuário remova outros usuários de um chat em grupo. Esse recurso permite que você continue um chat com um grupo menor de pessoas sem perder o histórico do chat.
 
 > [!NOTE]
-> Algumas dessas configurações, como o uso de Giphys, também podem ser configuradas no nível da equipe por proprietários da equipe e no nível de canal privado por proprietários de canal privado.
+> Algumas dessas configurações, como o Giphys, também podem ser configuradas no nível da equipe pelos proprietários da equipe e no nível do canal privado pelos proprietários do canal privado.
 
 ### <a name="related-topics"></a>Tópicos relacionados
 [Políticas de reunião no Teams](meeting-policies-in-teams.md)

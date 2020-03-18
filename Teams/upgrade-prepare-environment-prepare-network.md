@@ -18,16 +18,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ec47733accfe9973887cd9f3f7019ac368e8e970
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: d58613bc3455d5467e9e6c6589f73d498c6e1e3b
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837211"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706901"
 ---
+# <a name="prepare-your-network-for-upgrading-to-teams"></a>Preparar sua rede para atualizar para o Teams
+
 ![Atualize o diagrama de jornada, enfatizando o estágio de preparação técnica](media/upgrade-banner-tech-readiness.png "Estágios da jornada da atualização, com ênfase no estágio de preparação técnica")
 
-Este artigo faz parte do estágio de Preparação Técnica da sua jornada de atualização, uma atividade que você realiza em paralelo com o estágio de Preparação do Usuário. Antes de prosseguir, confirme se você concluiu essas atividades dos estágios anteriores:
+Este artigo faz parte do estágio de Preparação Técnica da sua jornada de atualização, uma atividade que você realiza em paralelo com o estágio de Preparação do Usuário. Antes de prosseguir, confirme que você concluiu essas atividades dos estágios anteriores:
 
 - [Alistou as partes envolvidas no seu projeto](upgrade-enlist-stakeholders.md)
 - [Definiu o escopo do seu projeto](https://aka.ms/SkypetoTeams-Scope)
@@ -37,15 +39,13 @@ Este artigo faz parte do estágio de Preparação Técnica da sua jornada de atu
 > [!Tip]
 > Assista à sessão a seguir para saber como o Teams aproveita sua rede e como planejar melhor a conectividade de rede: [Planejamento de rede do Teams](https://aka.ms/teams-networking)
 
-# <a name="prepare-your-network-for-upgrading-to-teams"></a>Preparar sua rede para atualizar para o Teams
-
 Se você estiver implantando áudio, vídeo ou reuniões, poderá realizar algumas etapas adicionais para otimizar sua rede para essa funcionalidade. O Teams usa tecnologia de áudio e vídeo (codecs) que pode se adaptar à maioria das condições de rede e, portanto, tem um melhor desempenho nelas. Para garantir um desempenho ideal e consistente, você deve preparar sua rede para o Teams.
 
 ![Diagrama descrevendo os três componentes de qualidade](media/evaluate-my-environment-image1.png "Diagrama descrevendo os três componentes de qualidade e como o gerenciamento de serviços se sobrepõe a todos os três componentes. Com foco na rede.")
 
 ## <a name="why-should-you-prepare-your-network"></a>Por que você precisa preparar sua rede?
 
-Antes de analisarmos as etapas a serem seguidas, é importante entender o que pode afetar o desempenho do Teams e, assim, a felicidade e a satisfação dos usuários. As três principais áreas de risco podem afetar como os usuários percebem a qualidade de rede:
+Antes de examinarmos as etapas a serem seguidas, é importante entender o que pode afetar o desempenho do Teams e, conseqüentemente, do usuário e da satisfação do usuário. As três principais áreas de risco podem afetar como os usuários percebem a qualidade de rede:
 
 - Largura de banda insuficiente disponível
 
@@ -67,9 +67,9 @@ O Microsoft Teams oferece a melhor experiência de compartilhamento de áudio, v
 
 Muitas redes foram projetadas para usar uma topologia hub-spoke. Nessa topologia, normalmente o tráfego da Internet percorre a WAN até um data center central antes de exteriorizar-se (sair) na Internet. Muitas vezes, isso é feito para centralizar os dispositivos de segurança de rede a fim de reduzir o custo total.
 
-O tráfego de retorno pela WAN aumenta a latência e tem um impacto negativo sobre a qualidade e a experiência do usuário. Como o Microsoft Teams é executado na ampla rede global da Microsoft, frequentemente há um local de emparelhamento de rede perto do usuário. O usuário provavelmente terá melhor desempenho ao sair de um ponto de Internet local próximo de sua localização e entrar em nossa rede com otimização de voz assim que possível. Para algumas cargas de trabalho, solicitações DNS são usadas para enviar o tráfego para o servidor front-end mais próximo. Nesses casos, é importante que, ao usar um ponto de saída local, ele esteja emparelhado com a resolução de DNS local.
+O tráfego de retorno pela WAN aumenta a latência e tem um impacto negativo sobre a qualidade e a experiência do usuário. Como o Microsoft Teams é executado na grande rede global da Microsoft, geralmente há um local de emparelhamento de rede próximo ao usuário. O usuário provavelmente terá melhor desempenho ao sair de um ponto de Internet local próximo de sua localização e entrar em nossa rede com otimização de voz assim que possível. Para algumas cargas de trabalho, solicitações DNS são usadas para enviar o tráfego para o servidor front-end mais próximo. Nesses casos, é importante que, ao usar um ponto de egresso local, esteja combinado com resolução DNS local.
 
-A otimização do caminho de rede para a rede global da Microsoft melhorará o desempenho e, em última instância, oferecerá a melhor experiência para os usuários. Para obter mais detalhes, consulte a postagem no blog [Como obter a melhor conectividade e desempenho no Office 365](https://techcommunity.microsoft.com/t5/Office-365-Blog/Getting-the-best-connectivity-and-performance-in-Office-365/ba-p/124694).
+A otimização do caminho de rede para a rede global da Microsoft melhorará o desempenho e, em última instância, fornecerá a melhor experiência para os usuários. Para obter mais detalhes, consulte a postagem no blog [Como obter a melhor conectividade e desempenho no Office 365](https://techcommunity.microsoft.com/t5/Office-365-Blog/Getting-the-best-connectivity-and-performance-in-Office-365/ba-p/124694).
 
 Para ter uma experiência ideal com mídia em tempo real no Microsoft Teams, é necessário atender aos requisitos de rede do Office 365. Para obter mais informações, consulte [Qualidade de mídia e desempenho de conectividade de rede para o Skype for Business Online](/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance).
 
@@ -84,22 +84,22 @@ Os dois segmentos de rede a serem definidos (Cliente para o Microsoft Edge e Edg
 |**Tremulação entre chegadas de pacote** |< 30 ms durante qualquer intervalo de 15 s |< 15 ms durante qualquer intervalo de 15 s |
 |**Reordenação de pacotes** |< 0,05% de pacotes com problemas |< 0,01% de pacotes com problemas |
 
-Para testar os dois segmentos de rede, use a [Ferramenta de avaliação de rede](https://go.microsoft.com/fwlink/?linkid=855799). Essa ferramenta pode ser implantada diretamente no computador cliente e em um computador conectado ao Customer Network Edge. Essa ferramenta contém uma documentação limitada, mas uma documentação mais profunda do uso da ferramenta pode ser encontrada aqui: [Avaliação da prontidão da rede](https://go.microsoft.com/fwlink/?linkid=855800). Ao executar essa Avaliação da prontidão da rede, você pode validar a prontidão da sua rede para executar aplicativos de mídia em tempo real, como o Microsoft Teams.
+Para testar os dois segmentos de rede, use a [Ferramenta de avaliação de rede](https://go.microsoft.com/fwlink/?linkid=855799). Essa ferramenta pode ser implantada diretamente no computador cliente e em um computador conectado ao Customer Network Edge. Essa ferramenta contém uma documentação limitada, mas uma documentação mais profunda do uso da ferramenta pode ser encontrada aqui: [Avaliação da prontidão da rede](https://go.microsoft.com/fwlink/?linkid=855800). Ao executar esta avaliação de preparação de rede, você pode validar a preparação da sua rede para executar aplicativos de mídia em tempo real, como o Microsoft Teams.
 
 > [!NOTE]
 > Essa é a mesma Avaliação da prontidão da rede recomendada para clientes que estão buscando implantar o Skype for Business.
 
 ### <a name="vpn"></a>VPN
 
-As VPNs fornecem um serviço valioso para muitas organizações. Infelizmente, não costumam ser projetados ou configurados para ter suporte à mídia em tempo real. Algumas VPNs também podem não dar suporte ao UDP. As VPNs também introduzem uma camada extra de criptografia sobre o tráfego de mídia que já está criptografado. Além disso, a conectividade com o serviço do Teams pode não ser eficiente devido ao tráfego excessivo por meio de um dispositivo VPN. Além disso, eles não são necessariamente projetados com a perspectiva de capacidade para acomodar as cargas previstas de que o Teams precisará.
+As VPNs fornecem um serviço valioso para muitas organizações. Infelizmente, normalmente não são projetados ou configurados para dar suporte a mídia em tempo real. Algumas VPNs também podem não dar suporte ao UDP. As VPNs também introduzem uma camada adicional de criptografia na parte superior do tráfego de mídia que já está criptografado. Além disso, a conectividade com o serviço do Teams pode não ser eficiente devido ao tráfego excessivo por meio de um dispositivo VPN. Além disso, eles não são necessariamente projetados a partir de uma perspectiva de capacidade para acomodar as cargas previstas que as equipes precisarão.
 
-A recomendação é fornecer um caminho alternativo que contorne a VPN para o tráfego do Microsoft Teams. Geralmente, isso é conhecido como *VPN de túnel dividido*. Túnel dividido significa que o tráfego do Office 365 não atravessará a VPN, mas irá diretamente ao Office 365. Essa alteração tem um impacto positivo sobre a qualidade, mas também apresenta um benefício secundário de reduzir a carga dos dispositivos de VPN e da rede da organização.
+A recomendação é fornecer um caminho alternativo que contorne a VPN para o tráfego do Microsoft Teams. Geralmente, isso é conhecido como *VPN de túnel dividido*. Tunelamento dividido significa que o tráfego do Office 365 não atravessa a VPN, mas vai diretamente para o Office 365. Essa alteração terá um impacto positivo na qualidade, mas também fornecerá o benefício secundário de reduzir a carga dos dispositivos VPN e da rede da organização.
 
 Para implementar um túnel dividido, consulte o fornecedor da VPN para obter os detalhes de configuração.
 
 ### <a name="wi-fi"></a>Wi-Fi
 
-Como a VPN, as redes Wi-Fi não são necessariamente projetadas ou configuradas para oferecer suporte à mídia em tempo real. Planejar ou otimizar uma rede Wi-Fi para oferecer suporte ao Teams é uma consideração importante para uma implantação de alta qualidade.
+Como as redes VPN, Wi-Fi não são necessariamente projetadas ou configuradas para dar suporte à mídia em tempo real. Planejar ou otimizar uma rede Wi-Fi para oferecer suporte ao Teams é uma consideração importante para uma implantação de alta qualidade.
 
 Existem vários fatores que entram em cena para otimizar uma rede Wi-Fi:
 
@@ -109,7 +109,7 @@ Existem vários fatores que entram em cena para otimizar uma rede Wi-Fi:
 
 - Se redes Wi-Fi de banda dupla forem implantadas, considere implementar a direção de banda. A _direção de banda_ é uma técnica implementada por fornecedores de Wi-Fi para influenciar os clientes de banda dupla a usar o intervalo de 5 GHz.
 
-- Quando pontos de acesso do mesmo canal estão muito próximos, eles podem causar sobreposição de sinal e competir involuntariamente, resultando em uma experiência deficiente para o usuário. Certifique-se de que os pontos de acesso próximos um do outro estejam em canais que não se sobreponham.
+- Quando pontos de acesso do mesmo canal estão muito próximos, eles podem causar sobreposição de sinal e competir involuntariamente, resultando em uma experiência deficiente para o usuário. Certifique-se de que os pontos de acesso próximos uns dos outros estejam em canais que não se sobreponham.
 
 Cada fornecedor de redes sem fio tem suas próprias recomendações de implantação da solução sem fio. Recomendamos que você consulte as orientações específicas do fornecedor.
 
@@ -121,9 +121,9 @@ O Microsoft Teams se conecta ao Microsoft Online Services e, para isso, precisa 
 
 Abrir essas portas é fundamental para uma implantação confiável do Teams. Bloquear essas portas não é suportado e afeta a qualidade da mídia.
 
-Se a sua organização exigir que você especifique o intervalo de endereços IP e os domínios para os quais essas portas devem ser abertas, você poderá restringir os intervalos de IP e os domínios de destino para essas portas. Para obter uma lista de portas, protocolos e intervalos de IP exatos, consulte [URLs e intervalos de endereço IP do Office 365](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). Se você optar por restringir os intervalos de endereço IP e os domínios de destino, você precisará manter atualizada a lista de portas e intervalos, pois eles podem ser alterados. Você pode se inscrever [neste feed RSS](https://go.microsoft.com/fwlink/p/?linkid=236301) para ser atualizado quando ocorrerem mudanças. Também é uma boa prática testar se todas as portas estão abertas executando a [Ferramenta de avaliação de rede do Skype for Business](https://www.microsoft.com/download/details.aspx?id=53885) regularmente. Você pode saber mais sobre a funcionalidade dessa ferramenta na próxima seção.
+Se a sua organização exigir que você especifique o intervalo de endereços IP e os domínios para os quais essas portas devem ser abertas, você poderá restringir os intervalos de IP e os domínios de destino para essas portas. Para obter uma lista de portas, protocolos e intervalos de IP exatos, consulte [URLs e intervalos de endereço IP do Office 365](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). Se você optar por restringir os intervalos de endereço IP e os domínios de destino, você precisará manter atualizada a lista de portas e intervalos, pois eles podem ser alterados. Você pode se inscrever [neste feed RSS](https://go.microsoft.com/fwlink/p/?linkid=236301) para ser atualizado quando ocorrerem mudanças. Também é uma prática recomendada testar se todas as portas são abertas executando a ferramenta de [avaliação de rede do Skype for Business](https://www.microsoft.com/download/details.aspx?id=53885) regularmente. Você pode saber mais sobre a funcionalidade dessa ferramenta na próxima seção.
 
-No caso de um servidor proxy ser implantado, recomendamos que você desvie o servidor proxy para todos os serviços do Teams. Embora o uso de um proxy possa funcionar, é muito provável que a qualidade seja reduzida devido ao fato de a mídia ser forçada a usar TCP em vez de UDP. Para obter mais informações sobre servidores proxy e desvios, consulte [URLs e intervalos de endereço IP do Office 365](https://docs.microsoft.com/MicrosoftTeams/office-365-urls-ip-address-ranges).
+No caso de um servidor proxy ser implantado, recomendamos que você desvie o servidor proxy para todos os serviços do Teams. Embora o uso de um proxy possa funcionar, é muito provável que a qualidade seja reduzida porque a mídia está sendo forçada a usar TCP em vez de UDP. Para obter mais informações sobre servidores proxy e desvios, consulte [URLs e intervalos de endereço IP do Office 365](https://docs.microsoft.com/MicrosoftTeams/office-365-urls-ip-address-ranges).
 
 <!--ENDOFSECTION-->
 
@@ -135,7 +135,7 @@ Certifique-se de que todos os computadores cliente que executam o cliente Teams 
 
 ### <a name="nat-pool-size"></a>Tamanho do pool de NAT
 
-Quando vários usuários e dispositivos acessam o Office 365 usando Conversão de Endereços de Rede (NAT) ou Conversão de Endereços de Porta (PAT), você precisa assegurar que os dispositivos ocultos em cada um dos endereços IP publicamente roteáveis não excedam o número suportado.
+Quando vários usuários e dispositivos acessam o Office 365 usando a conversão de endereços de rede (NAT) ou a conversão de endereços de porta (PAT), você precisa garantir que os dispositivos ocultos atrás de cada endereço IP roteável publicamente não ultrapassem o número compatível.
 
 Para reduzir esse risco, garanta que os endereços IP públicos adequados sejam atribuídos aos pools de NAT para prevenir o esgotamento de portas. O esgotamento de portas fará com que dispositivos e usuários finais internos enfrentem problemas ao se conectar aos serviços do Office 365. Para saber mais, veja [Suporte a NAT com o Office 365](https://docs.microsoft.com/office365/enterprise/nat-support-with-office-365).
 
@@ -145,7 +145,7 @@ Se o seu ambiente tiver um sistema de detecção de intrusões e/ou sistema de p
 
 ## <a name="test-the-network"></a>Testar a rede
 
-Depois de concluir o planejamento e a preparação da rede, inclusive a atualização da largura de banda e a abertura de portas no firewall, será necessário testar o desempenho da rede. Os resultados do teste darão uma ideia mais clara da otimização ou da remediação necessária da rede para o sucesso da implementação do Teams.
+Depois de concluir o planejamento e a preparação da rede, incluindo a atualização da largura de banda e a abertura de portas no firewall, você deve testar o desempenho da sua rede. Os resultados do teste darão uma ideia mais clara da otimização ou da remediação necessária da rede para o sucesso da implementação do Teams.
 
 É possível baixar a [Ferramenta de avaliação de rede do Skype for Business](https://www.microsoft.com/download/details.aspx?id=53885) para testar se sua rede está ou não pronta para o Teams. A ferramenta oferece dupla funcionalidade: ela pode testar se todas as portas corretas foram abertas e pode testar falhas de rede.
 
@@ -155,7 +155,7 @@ Depois de baixar e instalar a ferramenta, você poderá encontrá-la em C:\Arqui
 
 Abra uma janela de prompt de comando e vá até o diretório da Ferramenta de avaliação de rede acessando **cd C:\Arquivos de Programas (x86)\Ferramenta de avaliação de rede do Microsoft Skype for Business**. No prompt de comando, inicie o teste de portas abertas inserindo **networkassessmenttool.exe /connectivitycheck**
 
-Depois de executar as verificações, a ferramenta exibirá a mensagem “Verificações concluídas com sucesso” ou relatará as portas que estavam bloqueadas. Isso também gera um arquivo chamado Connectivity_results.txt, que contém o resultado da ferramenta e fica armazenado em %userprofile%\\appdata\\local\\ferramenta de avaliação de rede do microsoft skype for business\\ diretório.
+Depois de executar as verificações, a ferramenta exibirá a mensagem "verificações concluídas com sucesso" ou relatório sobre as portas bloqueadas. Isso também gera um arquivo chamado Connectivity_results.txt, que contém o resultado da ferramenta e fica armazenado em %userprofile%\\appdata\\local\\ferramenta de avaliação de rede do microsoft skype for business\\ diretório.
 
 Recomendamos a execução das verificações de conectividade regularmente para verificar se as portas foram abertas e estão funcionando corretamente.
 
@@ -177,7 +177,7 @@ Os valores máximos dessas falhas estão descritos em [Qualidade de mídia e des
 
 É necessário testar os dois segmentos usando a Ferramenta de avaliação de rede. Para testar o segmento, navegue até o diretório e insira **networkassessmenttool.exe** no prompt de comando. Os resultados são gravados em um arquivo chamado Results.tsv, e você pode compará-los aos [requisitos](/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance) de cada segmento.
 
-Observe que ambos os segmentos devem atender aos requisitos de uma implantação de alta qualidade. Recomendamos que você execute a ferramenta várias vezes durante uma hora completa para ter uma boa indicação do desempenho de sua rede.
+Observe que ambos os segmentos devem atender aos requisitos de uma implantação de alta qualidade. Recomendamos que você execute a ferramenta várias vezes por uma hora diretamente para obter uma boa indicação do desempenho da sua rede.
 
 <!--ENDOFSECTION-->
 
@@ -191,7 +191,7 @@ Se os resultados do planejamento de largura de banda, testes de porta ou testes 
 
 - Para falhas de rede, sempre execute uma análise da causa raiz.
 
-A qualidade de serviço (QoS) pode ser usada para combater as falhas ao priorizar e separar o tráfego. Algumas organizações optam por implantar a QoS para superar problemas de largura de banda ou restringir a quantidade de fluxo de tráfego. Isso não melhora a qualidade e causa novos problemas. Uma análise de causa raiz sempre deve ser realizada quando as falhas de rede excederem os requisitos. A QoS pode ser uma solução. Para obter mais informações, consulte [Qualidade de Serviço no Microsoft Teams](qos-in-teams.md).
+A qualidade de serviço (QoS) pode ser usada para combater as falhas ao priorizar e separar o tráfego. Algumas organizações optam por implantar a QoS para superar problemas de largura de banda ou restringir a quantidade de fluxo de tráfego. Isso não melhora a qualidade e acarretará novos problemas. Uma análise de causa raiz sempre deve ser realizada quando as falhas de rede excederem os requisitos. A QoS pode ser uma solução. Para obter mais informações, consulte [Qualidade de Serviço no Microsoft Teams](qos-in-teams.md).
 
 >[!NOTE]
 >Muitas redes evoluem ao longo do tempo devido a atualizações, expansões ou outros requisitos empresariais. Verifique se você tem processos operacionais em vigor para manter essas áreas como parte do planejamento do gerenciamento do serviço.

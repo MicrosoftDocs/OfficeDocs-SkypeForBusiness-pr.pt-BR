@@ -18,18 +18,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2e3ef345df2696cd0d450f8b16d93508d0eed545
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+ms.openlocfilehash: 6d9bcc5e00b9892bf8405eddb2ac24291a485d19
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41863512"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706961"
 ---
+# <a name="operate-your-service"></a>Operar seu serviço
+
 ![Atualize o diagrama de jornada, enfatizando o estágio operacional de excelência](media/upgrade-banner-op-excellence.png "Estágios da jornada da atualização, com ênfase no estágio Operational de excelência")
 
 Este artigo faz parte do estágio operacional de excelência da sua jornada de atualização, que começa assim que você concluiu a atualização do Skype for Business para o Teams.
-
-# <a name="operate-your-service"></a>Operar seu serviço
 
 Este artigo apresenta uma visão geral dos requisitos para equipes com êxito para a sua organização após a atualização. Ao operar corretamente seus serviços do Microsoft Teams, você pode ter certeza de que está fornecendo uma experiência de alta qualidade e confiabilidade para sua organização.
 

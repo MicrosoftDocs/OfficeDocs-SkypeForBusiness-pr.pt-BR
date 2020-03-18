@@ -18,23 +18,23 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c11b7fa80940ad45d4462510e8fa46531f10f1e9
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 6c3813b5d79f1362ff30ff15fa6fd2aff38b25a9
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836121"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706891"
 ---
+# <a name="prepare-your-it-staff-for-microsoft-teams"></a>Preparar sua equipe de ti para o Microsoft Teams
+
 ![Atualize o diagrama de jornada, enfatizando o estágio de preparação técnica](media/upgrade-banner-tech-readiness.png "Estágios da jornada da atualização, com ênfase no estágio de preparação técnica")
 
-Este artigo faz parte do estágio de Preparação Técnica da sua jornada de atualização, uma atividade que você realiza em paralelo com o estágio de Preparação do Usuário. Antes de prosseguir, confirme se você concluiu essas atividades dos estágios anteriores:
+Este artigo faz parte do estágio de Preparação Técnica da sua jornada de atualização, uma atividade que você realiza em paralelo com o estágio de Preparação do Usuário. Antes de prosseguir, confirme que você concluiu essas atividades dos estágios anteriores:
 
 - [Alistou as partes envolvidas no seu projeto](upgrade-enlist-stakeholders.md)
 - [Definiu o escopo do seu projeto](https://aka.ms/SkypetoTeams-Scope)
 - [Compreendeu a coexistência e interoperabilidade do Skype for Business e do Teams](https://aka.ms/SkypeToTeams-Coexist)
 - [Escolheu sua jornada de atualização](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-
-# <a name="prepare-your-it-staff-for-microsoft-teams"></a>Preparar sua equipe de ti para o Microsoft Teams
 
 Seus administradores de locatários do Office 365, líderes técnicos e support Desk podem ser levados em conta com uma experiência de usuário de alta qualidade. Isso inclui garantir que sua rede esteja pronta para dar suporte a equipes, configurar equipes para seus usuários e poder solucionar problemas que possam surgir e solucionar problemas que possam surgir.
 

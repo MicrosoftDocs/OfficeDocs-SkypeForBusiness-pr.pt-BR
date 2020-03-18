@@ -18,18 +18,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6ffbf676a86320fe3003d26dc94161d9e9e58c4d
-ms.sourcegitcommit: 494e5956619084ff8f0a4f42efb5081c4530488a
+ms.openlocfilehash: 41976649dec2509a9adfd472e7c382389250a4b4
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/06/2020
-ms.locfileid: "42550908"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706441"
 ---
+# <a name="how-to-use-microsoft-teams-effectively"></a>Como usar o Microsoft Teams de forma eficaz
+
 ![Atualize o diagrama de jornada, enfatizando o estágio operacional de excelência](media/upgrade-banner-op-excellence.png "Estágios da jornada da atualização, com ênfase no estágio Operational de excelência")
 
 Este artigo faz parte do estágio operacional de excelência da sua jornada de atualização, que começa assim que você concluiu a atualização do Skype for Business para o Teams.
-
-# <a name="how-to-use-microsoft-teams-effectively"></a>Como usar o Microsoft Teams de forma eficaz
 
 A tecnologia é inovar a um ritmo sem precedentes. Manter-se atualizado e habilitar um ambiente de trabalho moderno tornou-se um padrão em como as organizações operam. À medida que o Microsoft Teams, o Microsoft 365 e a visão de comunicação inteligente da Microsoft continuam a ser desdobrados, ter um plano operacional em vigor ajudará a garantir que sua organização seja configurada para o sucesso a longo prazo. Um plano operacional ideal inclui o monitoramento do ambiente para a integridade e a qualidade, continuando a impulso do usuário para otimizar a adoção e planejando a nova funcionalidade que continuará a ficar online ao longo do tempo.
 

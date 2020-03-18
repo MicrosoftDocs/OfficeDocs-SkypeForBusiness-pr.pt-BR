@@ -18,19 +18,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b271dbfbb99508c26feb86cb7803b8eacdf73910
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 5244bd063caae9b0fab1411f4644e3adbd337431
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837191"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706991"
 ---
+# <a name="enlist-your-project-stakeholders"></a>Listar os participantes em seu projeto
+
 ![Ilustração mostrando o estado dos participantes da jornada da atualização](media/upgrade-banner-stakeholders.png "Estágios da jornada da atualização, com ênfase na coleta de sua equipe de participantes do projeto")
 
 Este artigo faz parte do estágio de stakeholders do projeto da sua jornada de atualização, a primeira e mais essencial atividade que você concluiu para o sucesso do seu projeto.
-
-
-# <a name="enlist-your-project-stakeholders"></a>Listar os participantes em seu projeto
 
 Da implementação dos resultados do projeto à condução da responsabilidade, seus stakeholders mantêm a chave para o sucesso do seu projeto. Há dois grupos de stakeholders que você vai querer atribuir: (1) um _patrocínio de aliança_ que inclui patrocinadores executivos e de projeto que têm interesse e influência sobre o sucesso do projeto e (2) a _equipe do projeto_, que consiste nas pessoas responsáveis por garantir a prontidão técnica e do usuário, que realizará as diversas tarefas no plano do projeto. O thread comum entre esses dois grupos é o _gerente de projeto_, que trabalha para garantir que as tarefas do projeto sejam concluídas no agendamento e relata o status do projeto de volta para o aliança.
 

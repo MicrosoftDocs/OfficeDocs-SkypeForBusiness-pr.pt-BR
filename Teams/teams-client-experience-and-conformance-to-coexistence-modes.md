@@ -18,17 +18,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 94126a5d49c9573751279c645024dcb9d164bd90
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+ms.openlocfilehash: 7e2687f00a2d0ccb02e742d5077e472aa1dc37ed
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41863292"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706611"
 ---
-<a name="about-upgrade-basic"></a>
-
 # <a name="teams-client-experience-and-conformance-to-coexistence-modes"></a>Experiência e conformidade do cliente do Teams a modos de coexistência
 
+<a name="about-upgrade-basic"></a>
 
 A finalidade dos modos de coexistência do Skype for Business (SfBOnly, SfBWithTeamsCollab, SfBWithTeamsCollabAndMeetings) é fornecer uma experiência simples e previsível para os usuários finais como as organizações migrando do Skype for Business para o Teams.  Para uma organização se movendo para o Microsoft Teams, o modo **somente Teams** é o destino final de cada usuário, mas nem todos os usuários precisam ter **somente equipes** atribuídas (ou qualquer outro modo) ao mesmo tempo.  Antes de os usuários alcançarem o modo TeamsOnly, as organizações podem usar qualquer um dos modos de coexistência do Skype for Business para garantir a comunicação previsível entre os usuários que são **somente equipes** e os que ainda não estão. 
 

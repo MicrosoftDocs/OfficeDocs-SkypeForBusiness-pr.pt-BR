@@ -18,21 +18,21 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: adadf5bbc4ad8ea177e194c699eff7bd08384b87
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: ef1c9d8fd9d30101fdd40dba5946dfefb324742c
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837411"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706651"
 ---
+# <a name="understand-microsoft-teams-and-skype-for-business-coexistence-and-interoperability"></a>Entender o Microsoft Teams e a coexistência e interoperabilidade do Skype for Business
+
 ![Diagrama da jornada de atualização, enfatizando o estágio de Definição do Projeto](media/upgrade-banner-project-definition.png "Etapas da jornada de atualização, com ênfase no estágio de Definição do Projeto")
 
-Este artigo faz parte do estágio de definição do projeto da sua jornada de atualização, uma atividade que você preenche após criar um patrocínio de aliança e equipe de projeto e definir o escopo, metas e visão do seu projeto. Antes de prosseguir, confirme se você concluiu as seguintes atividades:
+Este artigo faz parte do estágio de definição do projeto da sua jornada de atualização, uma atividade que você preenche após criar um patrocínio de aliança e equipe de projeto e definir o escopo, metas e visão do seu projeto. Antes de prosseguir, confirme que você concluiu as seguintes atividades:
 
 - [Alistou as partes envolvidas no seu projeto](upgrade-enlist-stakeholders.md)
 - [Definiu o escopo do seu projeto](https://aka.ms/SkypetoTeams-Scope)
-
-# <a name="understand-microsoft-teams-and-skype-for-business-coexistence-and-interoperability"></a>Entender o Microsoft Teams e a coexistência e interoperabilidade do Skype for Business
 
 Se sua organização usa o Skype for Business hoje e você está começando a usar o Microsoft Teams com o Skype for Business — ou está começando a fazer o upgrade para o Microsoft Teams, é importante entender como os dois aplicativos coexistem, quando e como eles interoperam e como gerenciar migração dos usuários em relação à sua eventual atualização do Skype for Business para o Teams.
 

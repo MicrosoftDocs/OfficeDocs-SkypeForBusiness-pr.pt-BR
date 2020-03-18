@@ -18,23 +18,23 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad51dd4b269652ec1899b2af6ace6a9b7b9f713a
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: d52c9d670c81e0fcbdcf31012ec08a008b082459
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836791"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706681"
 ---
+# <a name="prepare-a-user-readiness-plan"></a>Preparar um plano de preparação para usuários
+
 ![Estágios da viagem de atualização, realçando o estágio de preparação do usuário](media/upgrade-banner-user-readiness.png "Estágios da jornada da atualização, com ênfase no estágio de preparação do usuário")
 
-Este artigo faz parte do estágio de preparação do usuário da jornada da atualização, uma atividade que você conclui em paralelo com o estágio de preparação técnica. Antes de prosseguir, confirme se você concluiu essas atividades dos estágios anteriores:
+Este artigo faz parte do estágio de preparação do usuário da jornada da atualização, uma atividade que você conclui em paralelo com o estágio de preparação técnica. Antes de prosseguir, confirme que você concluiu essas atividades dos estágios anteriores:
 
 - [Alistou as partes envolvidas no seu projeto](upgrade-enlist-stakeholders.md)
 - [Definiu o escopo do seu projeto](https://aka.ms/SkypetoTeams-Scope)
 - [Compreendeu a coexistência e interoperabilidade do Skype for Business e do Teams](https://aka.ms/SkypeToTeams-Coexist)
 - [Escolheu sua jornada de atualização](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-
-# <a name="prepare-a-user-readiness-plan"></a>Preparar um plano de preparação para usuários
 
 Um plano de preparação do usuário ideal incorpora como você se comunicará, treinará e apoiará seus usuários enquanto você faz o piloto, a integração e a atualização para o Microsoft Teams. Como você descobriu em avaliar a preparação das [alterações organizacionais](https://aka.ms/OrgReadiness), a prontidão não é única para se ajustar a um tamanho. Para garantir a melhor adequação para a nova tecnologia, use uma combinação de mensagens amplas (incorporando as mensagens de visão/valor e casos de uso universal) e mensagens, treinamento e suporte adaptados para as pessoas e cohorts que você definiu e também para seu Laggards, conforme apropriado. Este plano personalizado ajudará a facilitar a adoção pelo usuário, permitindo que os usuários se relacionem mais rapidamente com o Microsoft Teams e, ao mesmo tempo, demonstram que você compreende suas necessidades.
 

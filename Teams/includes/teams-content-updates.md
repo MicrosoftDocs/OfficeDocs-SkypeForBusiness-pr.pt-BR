@@ -50,6 +50,36 @@
 | 3/6/2020 | [Ativar e usar o painel de qualidade da chamada](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard) | modificado |
 
 
+## <a name="week-of-march-09-2020"></a>Semana de 09 de março de 2020
+
+
+| Publicado em |Título do tópico | Alteração |
+|------|------------|--------|
+| 3/10/2020 | [Gravação de reuniões na nuvem do Microsoft Teams](/MicrosoftTeams/cloud-recording) | modificado |
+| 3/10/2020 | [Práticas de coleta de dados](/MicrosoftTeams/data-collection-practices) | modificado |
+| 3/10/2020 | [Dimensões e medidas disponíveis no painel de qualidade da chamada](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | modificado |
+| 3/10/2020 | [Entre em contato com o serviço de suporte PSTN](/MicrosoftTeams/manage-phone-numbers-for-your-organization/contact-pstn-service-desk) | modificado |
+| 3/10/2020 | [Qual é o status dos seus pedidos de portabilidade?](/MicrosoftTeams/phone-number-calling-plans/port-order-status) | modificado |
+| 3/10/2020 | [Definir os números de telefone incluídos em convites no Microsoft Teams](/MicrosoftTeams/set-the-phone-numbers-included-on-invites-in-teams) | modificado |
+| 3/10/2020 | [Treinamento com instrutor e vídeos para usuários do Microsoft Teams](/MicrosoftTeams/instructor-led-training-teams-landing-page) | modificado |
+| 3/10/2020 | [Recursos do Microsoft Teams para administradores de Educação](/MicrosoftTeams/remote-learning-edu) | modificado |
+| 3/10/2020 | [Gerenciar seus dispositivos no Microsoft Teams](/MicrosoftTeams/device-management) | modificado |
+| 3/11/2020 | [Gerenciar políticas de permissões de aplicativo no Microsoft Teams](/MicrosoftTeams/teams-app-permission-policies) | modificado |
+| 3/11/2020 | [Gerenciar políticas de configuração de aplicativo no Microsoft Teams](/MicrosoftTeams/teams-app-setup-policies) | modificado |
+| 3/11/2020 | [Gerencie políticas e configurações de aplicativo personalizado no Microsoft Teams](/MicrosoftTeams/teams-custom-app-policies-and-settings) | modificado |
+| 3/11/2020 | [Atribuir políticas a seus usuários no Microsoft Teams](/MicrosoftTeams/assign-policies) | modificado |
+| 3/11/2020 | [Atribuir políticas a grandes conjuntos de usuários na sua escola](/MicrosoftTeams/batch-policy-assignment-edu) | modificado |
+| 3/12/2020 | [Teams para Infraestrutura de Área de Trabalho Virtualizada](/MicrosoftTeams/teams-for-vdi) | modificado |
+| 3/12/2020 | [Perguntas frequentes – Suporte para sua força de trabalho remota](/MicrosoftTeams/faq-support-remote-workforce) | modificado |
+| 3/13/2020 | [Disponibilidade na Índia](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-india) | modificado |
+| 3/13/2020 | [Recursos do Microsoft Teams para administradores de Educação](/MicrosoftTeams/remote-learning-edu) | modificado |
+| 3/13/2020 | [Gerenciar o ciclo de vida de canais privados no Microsoft Teams](/MicrosoftTeams/private-channels-life-cycle-management) | modificado |
+| 3/13/2020 | [Relatório de uso PSTN do Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/pstn-usage-report) | modificado |
+| 3/13/2020 | [Treinamento com instrutor e vídeos para usuários do Microsoft Teams](/MicrosoftTeams/instructor-led-training-teams-landing-page) | modificado |
+| 3/13/2020 | [Preparar a rede da organização para o Microsoft Teams](/MicrosoftTeams/prepare-network) | modificado |
+| 3/13/2020 | [Ofereça suporte a trabalhadores remotos usando o Microsoft Teams](/MicrosoftTeams/support-remote-work-with-teams) | modificado |
+
+
 ## <a name="week-of-february-17-2020"></a>Semana de 17 de fevereiro de 2020
 
 
