@@ -3,11 +3,10 @@ title: Ferramentas e workshops — Planejamento, implantação e adoção do Mic
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 07/17/2018
 ms.topic: article
 ms.service: msteams
 audience: admin
-ms.reviewer: lolaj, rowille
+ms.reviewer: karuanag
 description: Ferramentas de planejamento, workshops e kits de introdução para ajudar as empresas a começar a usar o Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
@@ -15,45 +14,50 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 356ff815fe05a91f203778c0f6af255182ace35c
-ms.sourcegitcommit: 494e5956619084ff8f0a4f42efb5081c4530488a
+ms.openlocfilehash: 1ac7c61675c04d6d184a3b7fe14b4088f43bd2ef
+ms.sourcegitcommit: 54cbcf917d9663e6aa9760d7399b36c00d66478c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/06/2020
-ms.locfileid: "42550898"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "42840105"
 ---
-# <a name="tools-and-workshops-plan-deliver-and-adopt-microsoft-teams"></a><span data-ttu-id="df5e1-103">Ferramentas e workshops: Planejamento, implantação e adoção do Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="df5e1-103">Tools and workshops: Plan, deliver, and adopt Microsoft Teams</span></span>
+# <a name="tools-and-workshops-plan-deliver-and-adopt-microsoft-teams"></a><span data-ttu-id="fe3b9-103">Ferramentas e workshops: Planejamento, implantação e adoção do Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="fe3b9-103">Tools and workshops: Plan, deliver, and adopt Microsoft Teams</span></span>
 
-<span data-ttu-id="df5e1-104">Baixe estas ferramentas para usar durante o planejamento, implantação e adoção do Microsoft Teams em sua empresa.</span><span class="sxs-lookup"><span data-stu-id="df5e1-104">Download these tools to walk you through planning, delivering, and adopting Teams in your organization.</span></span>
-
-
-- [<span data-ttu-id="df5e1-105">Kit de sucesso do cliente Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="df5e1-105">Microsoft Teams Customer Success Kit</span></span>](https://aka.ms/TeamsCustomerSuccess)
-
-    <span data-ttu-id="df5e1-106">Este kit contém uma ampla variedade de apresentações, modelos de email, dicas & truques e cartazes que você pode usar para implantar e orientar a adoção de equipes em sua organização.</span><span class="sxs-lookup"><span data-stu-id="df5e1-106">This kit contains a wide range of presentations, email templates, tips & tricks, and posters that you can use to roll out and drive the adoption of Teams in your organization.</span></span> <span data-ttu-id="df5e1-107">Ele inclui dois guias de início rápido para administradores e líderes de equipe e exemplos de casos de uso para cada departamento.</span><span class="sxs-lookup"><span data-stu-id="df5e1-107">It includes two quick-start guides for administrators and team leaders, and use case examples for every department.</span></span> <span data-ttu-id="df5e1-108">Use estes recursos para aproveitar ao máximo as equipes para várias funções em sua organização, incluindo marketing, vendas, finanças, recursos humanos, ti, engenharia e gerenciamento de projetos.</span><span class="sxs-lookup"><span data-stu-id="df5e1-108">Use these resources to make the most of Teams for various functions in your organization, including Marketing, Sales, Finance, Human Resources, IT, Engineering, and Project Management.</span></span>
+<span data-ttu-id="fe3b9-104">Baixe estas ferramentas para usar durante o planejamento, implantação e adoção do Microsoft Teams em sua empresa.</span><span class="sxs-lookup"><span data-stu-id="fe3b9-104">Download these tools to walk you through planning, delivering, and adopting Teams in your organization.</span></span>
 
 
-- [<span data-ttu-id="df5e1-109">Guia de início rápido para administradores</span><span class="sxs-lookup"><span data-stu-id="df5e1-109">Admin quick start guide</span></span>](https://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx)
+- [<span data-ttu-id="fe3b9-105">Kit de sucesso do cliente Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="fe3b9-105">Microsoft Teams Customer Success Kit</span></span>](https://aka.ms/TeamsCustomerSuccess)
 
-    <span data-ttu-id="df5e1-110">Este documento o orienta, nas cinco fases de implementação, como habilitar o Microsoft Teams com êxito.</span><span class="sxs-lookup"><span data-stu-id="df5e1-110">This document walks you through the five implementation phases for successfully enabling Teams.</span></span> <span data-ttu-id="df5e1-111">Ele inclui um questionário de planejamento técnico que captura informações sobre o ambiente atual do Office 365 da sua organização.</span><span class="sxs-lookup"><span data-stu-id="df5e1-111">It includes a technical planning questionnaire that captures information about your organization’s current Office 365 environment.</span></span> <span data-ttu-id="df5e1-112">O líder do workshop pode usar essas informações para personalizar a apresentação do workshop.</span><span class="sxs-lookup"><span data-stu-id="df5e1-112">The workshop leader can use this information to customize the workshop presentation.</span></span> <span data-ttu-id="df5e1-113">O questionário também coleta suas decisões e os próximos passos depois do workshop.</span><span class="sxs-lookup"><span data-stu-id="df5e1-113">The questionnaire also captures your decisions and next steps from the workshop.</span></span>
+    <span data-ttu-id="fe3b9-106">Este kit contém uma ampla variedade de apresentações, modelos de email, dicas & truques e cartazes que você pode usar para implantar e orientar a adoção de equipes em sua organização.</span><span class="sxs-lookup"><span data-stu-id="fe3b9-106">This kit contains a wide range of presentations, email templates, tips & tricks, and posters that you can use to roll out and drive the adoption of Teams in your organization.</span></span> <span data-ttu-id="fe3b9-107">Ele inclui dois guias de início rápido para administradores e líderes de equipe e exemplos de casos de uso para cada departamento.</span><span class="sxs-lookup"><span data-stu-id="fe3b9-107">It includes two quick-start guides for administrators and team leaders, and use case examples for every department.</span></span> <span data-ttu-id="fe3b9-108">Use estes recursos para aproveitar ao máximo as equipes para várias funções em sua organização, incluindo marketing, vendas, finanças, recursos humanos, ti, engenharia e gerenciamento de projetos.</span><span class="sxs-lookup"><span data-stu-id="fe3b9-108">Use these resources to make the most of Teams for various functions in your organization, including Marketing, Sales, Finance, Human Resources, IT, Engineering, and Project Management.</span></span>
 
-- [<span data-ttu-id="df5e1-114">Workshop: Planejamento, implantação e operação do Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="df5e1-114">Workshop: Plan, deliver, & operate Teams</span></span>](https://download.microsoft.com/download/A/A/D/AAD74246-790D-4E61-8DA0-865742CB42DB/MicrosoftTeams-Planning-Workshop-Dec2017.pptx)
+- [<span data-ttu-id="fe3b9-109">Como implantar o Teams</span><span class="sxs-lookup"><span data-stu-id="fe3b9-109">How to roll out Teams</span></span>](How-to-roll-out-teams.md)
 
-    <span data-ttu-id="df5e1-115">Use esta apresentação do PowerPoint para liderar um workshop com sua organização para planejar a distribuição da equipe.</span><span class="sxs-lookup"><span data-stu-id="df5e1-115">Use this PowerPoint presentation to lead a workshop with your organization to plan your Teams rollout.</span></span> <span data-ttu-id="df5e1-116">O workshop apresenta o Teams e orienta sua equipe por meio de pontos de decisão e próximas etapas.</span><span class="sxs-lookup"><span data-stu-id="df5e1-116">The workshop introduces Teams, and guides your team through decision points and next steps.</span></span>
+    <span data-ttu-id="fe3b9-110">Siga o caminho recomendado para implementar o Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="fe3b9-110">Follow our recommended path to rolling out Teams.</span></span>
 
-- [<span data-ttu-id="df5e1-117">Clientes do governo do Office 365</span><span class="sxs-lookup"><span data-stu-id="df5e1-117">Office 365 Government Customers</span></span>](plan-for-government-gcc.md)
+- [<span data-ttu-id="fe3b9-111">Obter treinamento técnico em equipes</span><span class="sxs-lookup"><span data-stu-id="fe3b9-111">Get Teams technical training</span></span>](https://aka.ms/TeamsAcademy)
 
-   <span data-ttu-id="df5e1-118">Sua jornada ao Microsoft Teams é muito parecida com a experiência de nossos clientes empresariais.</span><span class="sxs-lookup"><span data-stu-id="df5e1-118">Your journey to Teams is much like our enterprise customers’ experience.</span></span> <span data-ttu-id="df5e1-119">À medida que o Microsoft Teams se torna disponível para seus locatários, incentivamos você a começar a usar nosso [plano para o artigo de implantações do Microsoft 365 governo-gcc e o](plan-for-government-gcc.md) [Guia de início rápido para administradores](https://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx).</span><span class="sxs-lookup"><span data-stu-id="df5e1-119">As Microsoft Teams becomes generally available to your tenants, we encourage you to start with our [Plan for Microsoft 365 Government - GCC deployments](plan-for-government-gcc.md) article and [Admin quick start guide](https://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx).</span></span> <span data-ttu-id="df5e1-120">Nossa visão geral [de segurança e conformidade](security-compliance-overview.md) ajudará você a se sentir confiante sobre as equipes do seu ambiente.</span><span class="sxs-lookup"><span data-stu-id="df5e1-120">Our [security and compliance](security-compliance-overview.md) overview will help you feel confident about Teams in your environment.</span></span>
+    <span data-ttu-id="fe3b9-112">Use estes recursos de treinamento técnico para se ensinar, ensinar outros ou executar workshops.</span><span class="sxs-lookup"><span data-stu-id="fe3b9-112">Use these technical training resources to educate yourself, teach others, or run workshops.</span></span>
 
-### <a name="see-also"></a><span data-ttu-id="df5e1-121">Consulte também</span><span class="sxs-lookup"><span data-stu-id="df5e1-121">See also</span></span>
+- [<span data-ttu-id="fe3b9-113">Clientes do governo do Office 365</span><span class="sxs-lookup"><span data-stu-id="fe3b9-113">Office 365 Government Customers</span></span>](plan-for-government-gcc.md)
 
-[<span data-ttu-id="df5e1-122">Prontidão do administrador de TI para o Teams</span><span class="sxs-lookup"><span data-stu-id="df5e1-122">IT admin readiness for Teams</span></span>](ITAdmin-readiness.md)
+   <span data-ttu-id="fe3b9-114">Sua jornada ao Microsoft Teams é muito parecida com a experiência de nossos clientes empresariais.</span><span class="sxs-lookup"><span data-stu-id="fe3b9-114">Your journey to Teams is much like our enterprise customers' experience.</span></span> <span data-ttu-id="fe3b9-115">À medida que as equipes se tornam disponíveis para seus locatários, recomendamos que você comece a usar nosso [plano para o artigo de implantações do Microsoft 365 governo-gcc e o](plan-for-government-gcc.md) [Guia de início rápido para administradores](https://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx).</span><span class="sxs-lookup"><span data-stu-id="fe3b9-115">As Teams becomes generally available to your tenants, we encourage you to start with our [Plan for Microsoft 365 Government - GCC deployments](plan-for-government-gcc.md) article and [Admin quick start guide](https://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx).</span></span> <span data-ttu-id="fe3b9-116">Nossa visão geral [de segurança e conformidade](security-compliance-overview.md) ajudará você a se sentir confiante sobre as equipes do seu ambiente.</span><span class="sxs-lookup"><span data-stu-id="fe3b9-116">Our [security and compliance](security-compliance-overview.md) overview will help you feel confident about Teams in your environment.</span></span>
 
-[<span data-ttu-id="df5e1-123">Ferramentas de adoção</span><span class="sxs-lookup"><span data-stu-id="df5e1-123">Tools for adoption</span></span>](adopt-tools-and-downloads.md)
+- [<span data-ttu-id="fe3b9-117">Teams for Education-início rápido para administradores</span><span class="sxs-lookup"><span data-stu-id="fe3b9-117">Teams for Education - Quick start for admins</span></span>](https://docs.microsoft.com/MicrosoftTeams/teams-quick-start-edu)
 
-[<span data-ttu-id="df5e1-124">Workshop de planejamento de atualização do Skype for Business para Teams</span><span class="sxs-lookup"><span data-stu-id="df5e1-124">Skype for Business to Teams Upgrade Planning Workshop</span></span>](https://www.microsoft.com/microsoft-365/partners/intelligentcommunications/skype-for-business-teams)
+    <span data-ttu-id="fe3b9-118">Use este tutorial para orientá-lo em uma distribuição de equipes para sua organização educacional.</span><span class="sxs-lookup"><span data-stu-id="fe3b9-118">Use this tutorial to walk you through a Teams rollout for your education organization.</span></span>
 
-[<span data-ttu-id="df5e1-125">Migrar usuários de um ambiente local para o Teams</span><span class="sxs-lookup"><span data-stu-id="df5e1-125">Move users from on-premises to Teams</span></span>](https://docs.microsoft.com/skypeforbusiness/hybrid/move-users-from-on-premises-to-teams)
+### <a name="see-also"></a><span data-ttu-id="fe3b9-119">Confira também</span><span class="sxs-lookup"><span data-stu-id="fe3b9-119">See also</span></span>
 
-[<span data-ttu-id="df5e1-126">Gerenciar as configurações do Microsoft Teams para sua organização</span><span class="sxs-lookup"><span data-stu-id="df5e1-126">Manage Microsoft Teams settings for your organization</span></span>](enable-features-office-365.md)
+[<span data-ttu-id="fe3b9-120">Treinamento do teams</span><span class="sxs-lookup"><span data-stu-id="fe3b9-120">Teams training</span></span>](training-microsoft-teams-landing-page.md)
+
+[<span data-ttu-id="fe3b9-121">Prontidão do administrador de TI para o Teams</span><span class="sxs-lookup"><span data-stu-id="fe3b9-121">IT admin readiness for Teams</span></span>](ITAdmin-readiness.md)
+
+[<span data-ttu-id="fe3b9-122">Ferramentas de adoção</span><span class="sxs-lookup"><span data-stu-id="fe3b9-122">Tools for adoption</span></span>](adopt-tools-and-downloads.md)
+
+[<span data-ttu-id="fe3b9-123">Workshop de planejamento de atualização do Skype for Business para Teams</span><span class="sxs-lookup"><span data-stu-id="fe3b9-123">Skype for Business to Teams Upgrade Planning Workshop</span></span>](https://www.microsoft.com/microsoft-365/partners/intelligentcommunications/skype-for-business-teams)
+
+[<span data-ttu-id="fe3b9-124">Migrar usuários de um ambiente local para o Teams</span><span class="sxs-lookup"><span data-stu-id="fe3b9-124">Move users from on-premises to Teams</span></span>](https://docs.microsoft.com/skypeforbusiness/hybrid/move-users-from-on-premises-to-teams)
+
+[<span data-ttu-id="fe3b9-125">Gerenciar as configurações do Teams da sua organização</span><span class="sxs-lookup"><span data-stu-id="fe3b9-125">Manage Teams settings for your organization</span></span>](enable-features-office-365.md)
 
 
