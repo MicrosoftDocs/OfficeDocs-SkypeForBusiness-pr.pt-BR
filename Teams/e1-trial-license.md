@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a3f5d73920da0f9b18b1810768b0468c4106a6f3
-ms.sourcegitcommit: 095bed15ffe64c34e6c39770b5734d966d5d8a0f
+ms.openlocfilehash: a99be01a1a9c59a06e4c92973187c1818d1b1a99
+ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42507949"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "42795954"
 ---
 <a name="manage-the-office-365-e1-trial"></a>Gerenciar a avaliação do Office 365 E1
 ==============================
@@ -41,7 +41,7 @@ Clique no código promocional no e-mail que o representante da sua conta enviar�
 
 ## <a name="whos-eligible"></a>Quem está qualificado?
 
-Esta oferta é destinada a clientes gerenciados por um representante de conta da Microsoft. É destinada a organizações que não tenham ativado nenhuma outra avaliação do Office 365 E1 no passado. 
+Esta oferta destina-se a qualquer cliente gerenciado por um representante de contas da Microsoft. É para organizações, incluindo entidades sem fins lucrativos, que não ativaram nenhuma outra avaliação do Office 365 E1 no passado. 
 
 Depois de usar seu código promocional de avaliação E1, você não poderá usá-lo novamente nem ativar outro código de avaliação E1. Nesses casos, os funcionários podem ativar uma [licença do Teams Exploratory](teams-exploratory.md).
 
@@ -92,3 +92,4 @@ Para saber mais, confira [Licenças do Office 365 do Microsoft Teams](Office-365
 
 [Gerenciar a experiência do Teams Exploratory](teams-exploratory.md)
 
+[Office 365 para instituições sem fins lucrativos](https://www.microsoft.com/microsoft-365/nonprofit/office-365-nonprofit)

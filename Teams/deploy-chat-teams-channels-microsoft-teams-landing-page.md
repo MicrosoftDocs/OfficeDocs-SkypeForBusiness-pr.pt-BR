@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.quickstartteamsadmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 87de516afbd94a0d1784edd52efbcc5b10e262dd
-ms.sourcegitcommit: 29034bda30a8460eb18600785f785528d0944041
+ms.openlocfilehash: f8259b8a06a4601ff7feebca53c06f268bdc08c5
+ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "42285823"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "42796014"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Chat, equipes, canais e aplicativos no Microsoft Teams
 
@@ -42,14 +42,7 @@ Para começar, assista ao nosso breve vídeo sobre chat, equipes e canais do Tea
 
 ## <a name="chat-deployment-prerequisites"></a>Pré-requisitos de implantação do chat
 
-Antes de implementar o Teams em sua organização, reserve algum tempo para confirmar se seu ambiente está preparado para receber o Teams. Examine as informações a seguir e faça as alterações necessárias em seu ambiente.
-
-- Para ter acesso à experiência completa do Teams, sua organização deverá ter implantado o [Exchange Online e o SharePoint Online](#exchange-and-sharepoint-interoperability) e você deverá ter um domínio verificado para o Office 365 (por exemplo, contoso.com).
-
-- Para dimensionar o chat, equipes e canais em toda a organização, verifique se todos os locais têm acesso à Internet para que eles possam se conectar ao Office 365. Verifique ao menos se as seguintes portas comuns estão abertas à Internet em todos os locais:
-
-    - Portas **TCP** 80 e 443 abertas de tráfego de saída dos clientes que usarão o Teams.
-    - Portas **UDP** 3478 até 3481 abertas de tráfego de saída dos clientes que usarão o Teams
+Antes de implementar o Teams em sua organização, reserve algum tempo para confirmar se seu ambiente está preparado para receber o Teams. Revise [preparar a rede da sua organização para o Teams](prepare-network.md) e fazer as alterações necessárias no seu ambiente.
 
 |Pergunte-se|Ação |
 |------------|-------|
