@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Leia este tópico para saber como o roteamento direto do sistema de telefone da Microsoft permite que você conecte um controlador de borda de sessão (SBC) compatível com o cliente ao Microsoft Phone System.
-ms.openlocfilehash: 347a8a7dd64831281c1c9e2f94f2bea24fb18555
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.openlocfilehash: 0e15f8e76bc9512a28311764c39e34b45131b9d3
+ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42160705"
+ms.lasthandoff: 03/19/2020
+ms.locfileid: "42858576"
 ---
 # <a name="plan-direct-routing"></a>Planejar o Roteamento Direto
 
@@ -303,6 +303,25 @@ O intervalo de portas dos processadores de mídia é mostrado na tabela a seguir
   > [!NOTE]
   > A Microsoft recomenda pelo menos duas portas por chamada simultânea no SBC.
 
+
+## <a name="media-traffic-media-processors-geography"></a>Tráfego de mídia: Geografia processadores de mídia
+
+O tráfego de mídia flui via componentes chamados processadores de mídia. Os processadores de mídia são colocados nos mesmos datacenters como proxies SIP. Além disso, há processadores de mídia adicionais para otimizar o fluxo de mídia. Por exemplo, não temos um componente de proxy SIP agora na Austrália (fluxos SIP via Cingapura ou Hong Kong), mas temos o processador de mídia localmente na Austrália. A necessidade dos processadores de mídia localmente é ditada pela latência que temos pelo envio de tráfego de longa distância, por exemplo, da Austrália para Cingapura ou Hong Kong. Embora a latência no exemplo de tráfego que flui da Austrália para Hong Kong ou Cingapura seja aceitável para preservar uma boa qualidade de chamada para tráfego SIP, para tráfego de mídia em tempo real, ele não é.
+
+Localização dos processadores de mídia:
+
+Locais onde componentes do processador de mídia SIP e proxy são implantados:
+- EUA (dois nos datacenters do oeste e do leste dos EUA)
+- Europa (centros de datacenters Amsterdã e Dublin)
+- Data centers da Ásia (Cingapura e Hong Kong)
+
+Locais onde apenas processadores de mídia são implantados (fluxos SIP por meio do datacenter mais próximo listado acima):
+- Japão (data centers da JP Oriental e oeste)
+- Austrália (centros de data de AU East e oeste)
+
+
+
+
 ## <a name="media-traffic-codecs"></a>Tráfego de mídia: codecs
 
 ### <a name="leg-between-sbc-and-cloud-media-processor-or-microsoft-teams-client"></a>Trecho entre o processador de SBC e de mídia em nuvem ou o cliente do Microsoft Teams.
@@ -333,6 +352,3 @@ Para obter mais informações sobre o SBCs compatível, consulte [lista de contr
 ## <a name="see-also"></a>Confira também
 
 [Configurar o Roteamento Direto](direct-routing-configure.md)
-
-
-

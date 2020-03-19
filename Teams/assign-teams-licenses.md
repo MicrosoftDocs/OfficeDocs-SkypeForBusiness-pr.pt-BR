@@ -9,6 +9,7 @@ ms.topic: article
 ms.service: msteams
 ms.collection:
 - M365-collaboration
+- Teams_ITAdmin_RemoteWorkers
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -16,12 +17,12 @@ ms.reviewer: mikedav
 description: Saiba como atribuir licenças para recursos como conferência de áudio, sistema telefônico e planos de chamada.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9d75201b7be82337898d4e9fe4feafb4de1155a9
-ms.sourcegitcommit: 73518a589db1a9883fc97827f0ddb9132995fbfa
+ms.openlocfilehash: b962a29f163a094f5b7c74f7504a5d78e310561a
+ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42236831"
+ms.lasthandoff: 03/19/2020
+ms.locfileid: "42858547"
 ---
 # <a name="assign-microsoft-teams-licenses"></a>Atribuir licenças do Microsoft Teams
 
@@ -164,10 +165,10 @@ foreach ($user in $users)
 | Nome do produto | Nome de parte da SKU |
 |--------------|---------------|
 | Conferência de áudio (assinatura) | MCOMEETADV | 
-| Áudio conferência paga por minuto (pré-pago)</br>*Observação: exige que os créditos de comunicações sejam configurados e habilitados*. | MCOMEETACPEA |
+| Áudio conferência paga por minuto (pré-pago)</br>*Observação: exige que os créditos de comunicações sejam configurados e habilitados*. |    MCOMEETACPEA |
 | Enterprise E1 | STANDARDPACK | 
 | Enterprise E3 | ENTERPRISEPACK |
-| Enterprise E5 (sem Audioconferência) |  ENTERPRISEPREMIUM_NOPSTNCONF |
+| Enterprise E5 (sem Audioconferência) |     ENTERPRISEPREMIUM_NOPSTNCONF |
 | Enterprise E5 (com conferência de áudio) | ENTERPRISEPREMIUM |
 
 ##  <a name="communications-credits"></a>Créditos de Comunicação

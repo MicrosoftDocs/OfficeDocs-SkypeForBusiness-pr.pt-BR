@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 287f64f5-0f8a-455a-8979-7b34bf0217bb
 description: 'Resumo: Saiba mais sobre o processo de implantação do painel de qualidade de chamada. O painel de qualidade de chamada é uma ferramenta para o Skype for Business Server.'
-ms.openlocfilehash: d42d735ab5a60ec02ad2e1f4f696908996457c0b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 5879c4a99eec8471763e0fccc3a4886be660dbb6
+ms.sourcegitcommit: 54cbcf917d9663e6aa9760d7399b36c00d66478c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42042258"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "42840155"
 ---
 # <a name="deploy-call-quality-dashboard-for-skype-for-business-server"></a>Implantar o painel de qualidade de chamada para o Skype for Business Server
  
@@ -386,22 +386,23 @@ Os parâmetros BuildingKey, Buildingname, BuildingShortName, OwnershipTypeId, Bu
 A importação de edifícios oferece a capacidade de criar insights específicos (chamadas ruins por prédio em WiFi/Wired, etc.). 
   
 > [!NOTE]
-> Esta etapa é opcional, mas recomendada. 
+> Esta etapa é opcional, mas recomendada.
   
-Importe sub-redes e mapeie-as para os edifícios importados na última etapa. Se você optou por não preencher o NetworkName, certifique-se de que cada entrada desta tabela use um NetworkNameID de 0.
+Importe sub-redes e mapeie-as para os edifícios importados na última etapa. Se você optou por não preencher o NetworkName, certifique-se de que cada entrada desta tabela use um NetworkNameID de 0. Para obter mais informações sobre sintaxe e parâmetros SQL para o painel de qualidade da chamada, consulte [use Call Quality Dashboard for Skype for Business Server](https://docs.microsoft.com/skypeforbusiness/management-tools/call-quality-dashboard/use).
   
  **Exemplo de sintaxe SQL**
   
 ```SQL
 INSERT INTO [dbo].[CqdNetwork] 
 ([Network]
+,[NetworkRange]
 ,[NetworkNameID]
 ,[BuildingKey]
 ,[UpdatedDate]
 )
 
 VALUES
- ('172.16.254.0',0,1,'2015-11-11')
+ ('172.16.254.0',32,0,1,'2015-11-11')
 ```
 
 A rede e os parâmetros UpdatedDate são necessários, os outros parâmetros são opcionais.
