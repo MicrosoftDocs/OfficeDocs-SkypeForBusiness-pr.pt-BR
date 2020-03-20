@@ -20,7 +20,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: e1cdd071dfe19c50650d6f18605a5aeed5b39300
 ms.sourcegitcommit: c16451519e05b47bbb77e09dacd13ff212617e91
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 02/28/2020
 ms.locfileid: "42327843"
@@ -37,13 +37,13 @@ O suplemento de reunião do Teams é instalado automaticamente para usuários qu
 ![Captura de tela do suplemento de reunião do Teams na faixa de opções do Outlook](media/Teams-add-in-for-Outlook.png)
 
 > [!NOTE]
-> - Permissões de usuário para executar o arquivo regsvr32. exe é um requisito mínimo para o suplemento de reunião do teams ser instalado no computador.
+> - Ter permissões do usuário para executar o arquivo Regsvr32.exe é um requisito mínimo para que o suplemento Reunião do Teams seja instalado no computador.
 > - Se o suplemento de Reunião do Teams não for exibido, instrua os usuários a fechar o Outlook e o Teams e reiniciar o cliente Teams primeiro, depois entrar no Teams e então reiniciar o cliente Outlook, exatamente nessa ordem.
-> - Se você estiver usando uma instalação do Office Outlook da Microsoft Store, não há suporte para o suplemento de reunião do teams. Os usuários que precisam desse suplemento são aconselhados a instalar a versão Click-to-Run do Office, conforme descrito no artigo [Office no Windows 10 no modo S](https://support.office.com/article/faq-office-on-windows-10-in-s-mode-717193b5-ff9f-4388-84c0-277ddf07fe3f).
+> - Se você estiver usando uma instalação do Outlook do Office da Microsoft Store, não haverá suporte para o suplemento Reunião do Teams. Os usuários que precisam desse suplemento são aconselhados a instalar a versão Click-to-Run do Office, conforme descrito no artigo [Office no Windows 10 no modo S](https://support.office.com/article/faq-office-on-windows-10-in-s-mode-717193b5-ff9f-4388-84c0-277ddf07fe3f).
 
 ## <a name="teams-meeting-add-in-in-outlook-for-mac"></a>Suplemento de reunião do Teams no Outlook para Mac
 
-O botão reunião do teams no Outlook para Mac será exibido na faixa de opções do Outlook para Mac se o Outlook estiver executando o Build Build 16.24.414.0 e posterior e estiver ativado com uma assinatura de cliente do Office 365.
+O botão Reunião do Teams no Outlook para Mac aparecerá na faixa de opções do Outlook para Mac se o Outlook estiver executando o build de produção 16.24.414.0 e posterior, e estiver ativado com uma assinatura de cliente do Office 365.
 
 As coordenadas da reunião (os números de discagem e de ingresso no Teams) serão adicionadas ao convite da reunião depois que o usuário clicar em **Enviar**.  
 
