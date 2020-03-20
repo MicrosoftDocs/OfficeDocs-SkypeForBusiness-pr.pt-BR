@@ -18,7 +18,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: a12be097d0609f3631b6761f31350603b283faa2
 ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 02/06/2020
 ms.locfileid: "41825349"
@@ -26,7 +26,7 @@ ms.locfileid: "41825349"
 <a name="troubleshoot-connectivity-issues-with-the-microsoft-teams-client"></a>Solucionar problemas de conectividade do cliente Microsoft Teams
 ==============================================================
 
-A maioria dos problemas descobertos com o cliente Microsoft Teams pode ser remetida para o firewall ou para a conectividade do proxy. Verificar se as URLs, os endereços IP e as portas necessárias estão abertas no seu firewall ou no seu proxy minimizará uma resolução de problemas desnecessária. Para obter informações específicas sobre URLs e IPs necessários para o Microsoft Teams, consulte o artigo de suporte a [URLs e endereços IP do Office 365](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2) . Os cenários a seguir exigem que portas e URLs específicas sejam abertas no firewall.
+A maioria dos problemas descobertos com o cliente Microsoft Teams pode ser remetida para o firewall ou para a conectividade do proxy. Verificar se as URLs, os endereços IP e as portas necessárias estão abertas no seu firewall ou no seu proxy minimizará uma resolução de problemas desnecessária. Para obter informações específicas das URLs e dos Ips exigidos pelo Microsoft Teams, confira o artigo de suporte [URLs e Endereços IP do Office 365 ](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2). Os cenários a seguir exigem que portas e URLs específicas sejam abertas no firewall.
 
 -   Autenticação
 
@@ -36,7 +36,7 @@ A maioria dos problemas descobertos com o cliente Microsoft Teams pode ser remet
 
 -   Mídia
 
--   Serviços compartilhados
+-   Serviços Compartilhados
 
 -   Integração de terceiros
 

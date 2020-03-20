@@ -23,65 +23,65 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Este tópico contém todos os países/regiões nos quais os usuários podem fazer chamadas de saída se tiverem um plano de chamada.
+description: Este tópico informa todos os países/regiões em que os usuários podem fazer chamadas de saída, caso tenham um Plano de Chamada.
 ms.openlocfilehash: d882078c32b5820dc060778dca4c3f30b4b2a044
 ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 02/03/2020
 ms.locfileid: "41682508"
 ---
 # <a name="users-can-make-outbound-calls-to-these-countries-and-regions"></a>Os usuários podem fazer chamadas de saída para esses países e regiões
 
-### <a name="see-what-countriesregions-users-can-make-outbound-calls-to-if-the-user-has-the-domestic-and-international-calling-plan-license"></a>Veja a quais países/regiões os usuários podem fazer chamadas de saída se o usuário tiver a licença do plano de chamadas domésticas e internacionais
+### <a name="see-what-countriesregions-users-can-make-outbound-calls-to-if-the-user-has-the-domestic-and-international-calling-plan-license"></a>Confira de quais países/regiões os usuários podem fazer chamadas de saída se o usuário tiver a licença do Plano de Chamadas Nacional e Internacional
 
-|**A-D**| **E-H**|**I-L**|**M-O**|**P-S**|**T-Z**|
+|**A - D**| **E - H**|**I - L**|**M - O**|**P - S**|**T - Z**|
 ---|---|---|---|---|---|
-|Afeganistão|Equador |Islândia |Macau |Paquistão  |Taiwan   |
-|Albânia|Egito |Índia |Macedônia do Norte |Palau |Tadjiquistão   |
-|Argélia|El Salvador |Indonésia |Malaui |Autoridade Palestina |Tanzânia, República americana da  |
+|Afeganistão|Equador |Islândia |Macau |Paquistão |Taiwan   |
+|Albânia|Egito |Índia |Macedônia |Palau |Tadjiquistão   |
+|Argélia|El Salvador |Indonésia |Malaui |Autoridade Palestina |Tanzânia, República Unida da  |
 |Samoa Americana|Guiné Equatorial |Irã |Malásia |Panamá | Tailândia   |
 |Andorra |Eritreia |Iraque |Mali |Paraguai |Togo   |
 |Angola |Estônia |Irlanda |Malta |Peru | Trinidad e Tobago  |
-|Anguilla |Etiópia |Israel |Ilhas Marshall | Filipinas | Turquia |
-|Antígua e Barbuda | Ilhas Faroés |Itália |Martinica |Polônia |Turcomenistão |
-|Argentina|Ilhas |Jamaica |Ilhas |Portugal |Ilhas Turks e Caicos   |
-|Armênia |Finlândia |Japão |Mayotte | Porto Rico |Xelim  |
+|Anguila |Etiópia |Israel |Ilhas Marshall | Filipinas | Turquia |
+|Antígua e Barbuda | Ilhas Faroe |Itália |Martinica |Polônia |Turcomenistão |
+|Argentina|Fiji |Jamaica |Maurício |Portugal |Turcos e Caicos   |
+|Armênia |Finlândia |Japão |Mayotte | Porto Rico |Uganda  |
 |Aruba |França |Jordânia |México |Catar | Ucrânia   |
-|Austrália |Guiana francesa |Cazaquistão |Micronésia |Reuniões |Emirados Árabes Unidos (U. A. E)  |
-|Áustria |Polinésia francesa |Quênia |Moldova, República da |Romênia |Reino Unido (U.K.) |
-|Azerbaijão |Geórgia |Coréia, República da |Mônaco | Federação Russa |Estados Unidos  |
+|Austrália |Guiana Francesa |Cazaquistão |Micronésia |Reunião |Emirados Árabes Unidos (EAU)  |
+|Áustria |Polinésia Francesa |Quênia |Moldova |Romênia |Reino Unido (RU) |
+|Azerbaijão |Geórgia |Coreia, República da |Mônaco | Federação Russa |Estados Unidos (EUA)  |
 |Bahamas |Alemanha |Kuwait |Mongólia |Ruanda | Uruguai |
-|Bahrein |Gana |Quirguistão |Montenegro | São Cristóvão e Nevis |Uzbequistão  |
-|Bangladesh |Gialtar |Laosiana |Montserrat | Santa Lúcia |Estado da cidade do Vaticano  |
+|Bahrein |Gana |Quirguistão |Montenegro | São Cristóvão e Névis |Uzbequistão  |
+|Bangladesh |Gialtar |Laos |Montserrat | Santa Lúcia |Cidade do Vaticano  |
 |Barbados |Grécia |Letônia |Marrocos |São Vicente e Granadinas |Venezuela   |
 |Belarus |Groenlândia |Líbano |Moçambique | San Marino |Vietnã  |
-|Bélgica |Granada |Lesoto |Sinal | Saudi Arabia (المملكة العربية السعودية) | Ilhas Virgens (britânicas) |
+|Bélgica |Granada |Lesoto |Mianmar | Arábia Saudita | Ilhas Virgens (Britânicas) |
 |Belize |Guadalupe |Líbia |Namíbia |Senegal | Ilhas Virgens (EUA)  |
-|Benin |Guam |Liechtenstein |Nepal | Sérvia | Ilhas Wallis e Futuna  |
-|Bermudas |Guatemala |Lituânia |Países Baixos |Cingapura |Iêmen |
-|Butão |Guiné |Luxemburgo |Antilhas Holandesas |Eslováquia |Zâmbia  |
+|Benin |Guam |Liechtenstein |Nepal | Sérvia | Wallis e Futuna  |
+|Bermudas |Guatemala |Lituânia |Países Baixos |Singapura |Iêmen |
+|Butão |Guiné |Luxemburgo |Bonaire, Curaçao, Saba, Santo Eustáquio e São Martinho |Eslováquia |Zâmbia  |
 |Bolívia |Guiana| |Nova Caledônia |Eslovênia |Zimbábue |
-|Bosnia and Herzegovina (Bosna i Hercegovina) |Haiti ||Nova Zelândia |África do Sul | 
+|Bósnia e Herzegovina |Haiti ||Nova Zelândia |África do Sul | 
 |Botsuana |Honduras ||Nicarágua |Sudão do Sul |
-|Brasil |Hong-Kong ||Níger |Espanha | 
-|Bunei Darussalam |Hungria ||Nigéria |Sri Lanka | 
+|Brasil |Hong Kong ||Níger |Espanha | 
+|Brunei Darussalam |Hungria ||Nigéria |Sri Lanka | 
 |Bulgária |||Ilhas Marianas do Norte |São Pedro e Miquelon |
-|Burkina Faso |||Noruega |Sudão |
+|Burquina Faso |||Noruega |Sudão |
 |Camboja |||Omã |Suriname | 
 |Camarões ||||Suazilândia |
 |Canadá ||||Suécia | 
-|Cabo verde ||||Suíça |
-|Ilhas Cayman ||||República Árabe da Síria |
+|Cabo Verde ||||Suíça |
+|Ilhas Cayman ||||Síria |
 |República Centro-Africana |
 |Chile |
 |China |
 |Colômbia |
-|Ilhas Comores |
-|República Democrática do Congo |
-|Congo, República Popular das pessoas |
+|Comores |
+|Congo, República Democrática do |
+|Congo, República Popular do |
 |Costa Rica |
-|Costa d' Ivoire |
+|Costa do Marfim |
 |Croácia |
 |Chipre |
 |República Tcheca |
