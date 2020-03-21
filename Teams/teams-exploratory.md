@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4f44555f520e3789df4927e34e6579b834f75c39
-ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
+ms.openlocfilehash: 0ad27eec186bec2fce915da0fc53f515f58ce8e9
+ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2020
-ms.locfileid: "42858616"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42892311"
 ---
 <a name="manage-the-microsoft-teams-exploratory-license"></a>Gerenciar a licença do Microsoft Teams Exploratory
 =======================================================
@@ -156,7 +156,7 @@ A partir de fevereiro de 2020, os usuários qualificados podem começar a usar a
 
 ## <a name="how-long-does-the-teams-exploratory-experience-last"></a>Quanto tempo dura a experiência do Teams Exploratory?
 
-A experiência Microsoft Teams Exploratory ficará disponível sem custo adicional até seu próximo aniversário empresarial ou renovação em ou após janeiro de 2021. Nesse momento, os usuários finais em uma licença do Microsoft Exploratory precisarão passar para uma licença paga que inclua o Teams. Quaisquer licenças de experiência do Microsoft Exploratory iniciadas depois disso permanecerão disponíveis sem custo adicional até o próximo aniversário ou ciclo de renovação. 
+A experiência Microsoft Teams Exploratory ficará disponível sem custo adicional até seu próximo aniversário empresarial ou renovação em ou após janeiro de 2021. Nesse momento, os usuários finais em uma licença do Microsoft Exploratory precisarão passar para uma licença paga que inclua o Teams. Quaisquer licenças da experiência do Microsoft Exploratory iniciadas depois disso permanecerão disponíveis sem custos adicionais, até o seu próximo ciclo de aniversário ou renovação. 
 
 ### <a name="what-happens-if-an-end-user-initiates-the-microsoft-teams-exploratory-experience-just-before-my-anniversary-or-renewal-date"></a>O que acontece se um usuário final iniciar a experiência do Microsoft Teams Exploratory imediatamente antes da data de renovação ou aniversário?
 

@@ -14,119 +14,119 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 search.appverid: MET150
-description: Saiba mais sobre os fatores a serem considerados antes de configurar eventos dinâmicos no Microsoft Teams.
+description: Saiba mais sobre os fatores a serem considerados antes de configurar eventos ao vivo no Microsoft Teams.
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 6f0c141751a9b67a47640ba5210c3cb7aeeadbb2
 ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 03/07/2020
 ms.locfileid: "42558561"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planejar eventos ao vivo no Microsoft Teams
 
-Quando você está planejando que os eventos do teams Live contenham reuniões grandes em sua organização, há vários fatores que você precisa considerar antes de começar a configurá-los. 
+Quando você planeja eventos ao vivo do Teams para realizar grandes reuniões em sua organização, há vários fatores que você precisa considerar antes de começar a configurá-los. 
 
-## <a name="who-can-create-and-schedule-live-events"></a>Quem pode criar e agendar eventos dinâmicos? 
-Os pré-requisitos a seguir são necessários para que o usuário agende um evento ao vivo do teams.
+## <a name="who-can-create-and-schedule-live-events"></a>Quem pode criar e agendar eventos ao vivo? 
+Os pré-requisitos a seguir são necessários para o usuário agendar um evento ao vivo do Teams.
 
-Aqui estão as licenças que devem ser atribuídas:  
-- Uma licença do Office 365 Enterprise E1, E3 ou E5 ou uma licença do Office 365 a3 ou a5
+Estas são as licenças que devem ser atribuídas:  
+- Uma licença do Office 365 Enterprise E1, E3 ou E5 ou uma licença do Office 365 A3 ou A5
 - Uma licença do Microsoft Teams
 - Uma licença do Microsoft Stream
 
 > [!IMPORTANT]
 > O usuário que cria e agenda um evento ao vivo deve ter uma caixa de correio do Exchange Online.
 
-É importante saber que uma licença do Office 365 é necessária para participar de um evento ao vivo como um usuário autenticado, mas esse requisito depende do método de produção usado:
+É importante saber que uma licença do Office 365 é necessária para participar de um evento ao vivo como um usuário autenticado, mas esse requisito depende do método de produção utilizado:
 
-- **Para eventos produzidos no Teams**  Deve ser atribuída uma licença do teams ao usuário.
-- **Para eventos produzidos com um aplicativo ou dispositivo externo** Deve ser atribuída uma licença de fluxo para o usuário.
+- **Para os eventos produzidos no Teams**  O usuário deve receber uma licença do Teams.
+- **Para os eventos produzidos com um aplicativo ou dispositivo externo** O usuário deve receber uma licença do Stream.
 
 > [!NOTE]
-> Os eventos ao vivo do teams agora estão disponíveis para organizações da comunidade de nuvens (GCC) do governo dos EUA.
+> Os eventos ao vivo do Teams agora estão disponíveis para organizações da GCC (Comunidade Governamental na Nuvem) dos Estados Unidos.
 
-Para obter mais informações sobre licenciamento, consulte [Licenciamento de Complementos do Microsoft Teams](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+Para obter mais informações sobre licenciamento, confira [Licenciamento de complemento do Microsoft Teams](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
-O usuário deve ter:
-- Agendamento de reunião particular no Microsoft Teams habilitado (*o parâmetro TeamsMeetingPolicy-AllowPrivateMeetingScheduling = verdadeiro*).
-- Compartilhamento de vídeo habilitado em reuniões do Microsoft Teams (*o parâmetro TeamsMeetingPolicy-AllowIPVideo = true*).
-- Compartilhamento de tela habilitado em reuniões do Teams (*o parâmetro TeamsMeetingPolicy-ScreenSharingMode = EntireScreen*).
-- Agendamento de eventos dinâmicos habilitados no Microsoft Teams (*o parâmetro TeamsMeetingBroadcastPolicy-AllowBroadcastScheduling = true*).
-- Permissões para criar eventos ao vivo em fluxo (para aplicativo externo ou produção de dispositivo).
+O usuário deverá ter:
+- Agendamento de reunião particular no Teams habilitado (*O parâmetro TeamsMeetingPolicy -AllowPrivateMeetingScheduling = Verdadeiro*).
+- Compartilhamento de vídeo habilitado em reuniões do Teams (*O parâmetro TeamsMeetingPolicy -AllowIPVideo = Verdadeiro*).
+- Compartilhamento de tela habilitado em reuniões do Teams (*O parâmetro TeamsMeetingPolicy -ScreenSharingMode = EntireScreen*).
+- Agendamento de eventos ao vivo do Teams habilitado (*O parâmetro TeamsMeetingBroadcastPolicy -AllowBroadcastScheduling = Verdadeiro*).
+- Permissões para criar eventos ao vivo no Stream (para produção de dispositivos ou aplicativos externos).
 
 > [!IMPORTANT]
-> Usuários anônimos não autenticados não podem ser convidados como produtores ou apresentadores nos eventos ao vivo do teams. 
+> Os usuários anônimos não autenticados não podem ser convidados como produtores ou apresentadores em eventos ao vivo do Teams. 
  
-## <a name="who-can-watch-live-events"></a>Quem pode assistir a eventos dinâmicos?
+## <a name="who-can-watch-live-events"></a>Quem pode assistir a eventos ao vivo?
 
-|**Visibilidade do participante**       |**Produção de equipes**  |**Produção de dispositivo ou aplicativo externo**  |
+|**Visibilidade do participante**       |**Produção do Teams**  |**Produção de dispositivos ou aplicativos externos**  |
 |------------------------------|-----------------|----------------------|
 |Público (usuários anônimos)      |  Sim            |  Não                  |
-|Usuários convidados                   |  Sem<sup>1</sup> |  Não                  |
-|Todos na empresa federada |  Sem<sup>2</sup> |  Não                  |
+|Usuários convidados                   |  Não<sup>1</sup> |  Não                  |
+|Todos na empresa federada |  Não<sup>2</sup> |  Não                  |
 |Todos na empresa           |  Sim            |  Sim                 |
-|Grupos/pessoas específicos      |  Sim            |  Sim                 |
+|Grupos / Pessoas específicos(as)      |  Sim            |  Sim                 |
 
-<sup>1</sup> pode assistir a eventos ao vivo se o evento ao vivo estiver configurado usando a opção de **toda a organização** .<br>
-<sup>2</sup> só pode assistir a eventos dinâmicos como usuários anônimos.
+<sup>1</sup> Podem assistir a eventos ao vivo se o evento ao vivo estiver configurado usando a opção **Toda a organização**.<br>
+<sup>2</sup> Podem somente assistir a eventos ao vivo como usuários anônimos.
 
  
-## <a name="teams-live-events-and-skype-meeting-broadcast"></a>Eventos ao vivo do Teams e transmissão de reunião do Skype
+## <a name="teams-live-events-and-skype-meeting-broadcast"></a>Eventos ao vivo do Teams e Transmissão de Reunião do Skype
 
-A tabela a seguir destaca os principais recursos e recursos oferecidos em eventos dinâmicos e como eles diferem da transmissão de reunião do Skype. 
+A tabela a seguir destaca os principais recursos oferecidos em eventos ao vivo e como eles diferem da Transmissão de Reunião do Skype. 
 
-|**Potencial**   |**Transmissão de Reunião do Skype** |**Eventos produzidos no Teams** |**Eventos produzidos em um aplicativo externo ou dispositivo** |
+|**Funcionalidade**   |**Transmissão de Reunião do Skype** |**Eventos produzidos no Teams** |**Eventos produzidos em dispositivos ou aplicativos externos** |
 |---------|---------|---------|---------|
 |Tamanho máximo da audiência |10.000 participantes |10.000 participantes<sup>1</sup> |10.000 participantes<sup>1</sup> |
 |Duração máxima do evento ao vivo |4 horas |4 horas |4 horas |
-|Número máximo de eventos simultâneos ao vivo por locatário do Office 365 |15  | 15  | 15  |
-|Criação de eventos ao vivo |   Portal de transmissão de reunião do Skype |Teams, Yammer via Teams | Teams, Yammer via Teams, Stream |
-|Envolvimento do público-Yammer |&#x2714; |&#x2714; (experiência integrada) |&#x2714; (experiência integrada) |
-|Envolvimento do público-um p moderado & A |&#x2714;  |&#x2714; |&#x2714; |
-|Cliente do produtor no Windows |&#x2714; (Skype for Business) |&#x2714; (Teams) |&#x2714; (fluxo, equipes via Stream embed) |
-|Cliente do produtor no Mac |X  | &#x2714; (Teams) |&#x2714; (fluxo, equipes via Stream embed) |
-|Contagem de participantes na interface do usuário do Producer |X  |&#x2714; (Teams) |&#x2714; (fluxo, equipes via Stream embed) |
-|Permite vários apresentadores |&#x2714; (Skype for Business) |&#x2714; (Teams) |Não disponível  |
+|Número máximo de eventos ao vivo simultâneos por locatário do Office 365 |15  | 15  | 15  |
+|Criação de evento ao vivo |   Portal de Transmissão de Reunião do Skype |Teams, Yammer via Teams | Teams, Yammer via Teams, Stream |
+|Envolvimento do público – Yammer  |&#x2714; |&#x2714; (experiência integrada) |&#x2714; (experiência integrada) |
+|Envolvimento do público – Perguntas e Respostas Moderadas  |&#x2714;  |&#x2714; |&#x2714; |
+|Cliente do Producer no Windows |&#x2714; (Skype for Business) |&#x2714; (Teams) |&#x2714; (Stream, Teams via Inserir Stream) |
+|Cliente do Producer no Mac |X  | &#x2714; (Teams) |&#x2714; (Stream, Teams via Inserir Stream) |
+|Contagem de participantes na IU do Producer |X  |&#x2714; (Teams) |&#x2714; (Stream, Teams via Inserir Stream) |
+|Permitir vários apresentadores |&#x2714; (Skype for Business) |&#x2714; (Teams) |Não disponível  |
 |Convidar um apresentador durante a reunião |&#x2714; (Skype for Business) |X |Não disponível |
-|Junção do apresentador na Web e no celular |&#x2714; (Skype for Business)  |X |Não disponível |
-|Apresentadores/participantes de convidados & agrupados |&#x2714; (Skype for Business)  | (disponível em breve) |Não disponível |
+|Ingresso do apresentador na Web e móvel |&#x2714; (Skype for Business)  |X |Não disponível |
+|Apresentadores/participantes convidados e federados |&#x2714; (Skype for Business)  | (em breve) |Não disponível |
 |Apresentador – acesso PSTN |X |&#x2714; (Teams) |Não disponível |
 |Apresentar uma tela |X |&#x2714; (Teams) |Não disponível |
-|Apresentar um PowerPoint (compartilhamento do PPT) |&#x2714; |X (minimizado via compartilhamento de tela) |Não disponível |
-|Gravação de reunião baseada na nuvem |&#x2714; |&#x2714; |&#x2714; |
-|Publicação automática de gravação em fluxo |X |X |&#x2714; |
-|Legendas e legendas ao vivo |&#x2714; |&#x2714; |X |
-|Legendas em gravações de eventos dinâmicos |&#x2714; |&#x2714; |&#x2714; |
-|Controles de DVR de participantes (pausa, retrocesso) |&#x2714; |&#x2714; |&#x2714; |
-|Suporte a eCDN de parceiros |&#x2714; (Hive, Kollective, rampa) |&#x2714; (Hive, Kollective, rampa) |&#x2714; (Hive, Kollective, rampa) |
-|Relatório de presença pós-transmissão para produtores |&#x2714; |&#x2714; |X |
-|Análise de opiniões de audiência – votação ao vivo & sondagens |&#x2714; (Microsoft Pulse) |X |X |
+|Apresentar um PowerPoint (compartilhamento de PPT) |&#x2714; |X (mitigado via compartilhamento de tela) |Não disponível |
+|Gravação de reuniões baseadas na nuvem |&#x2714; |&#x2714; |&#x2714; |
+|Publicar automaticamente a gravação no Stream |X |X |&#x2714; |
+|Legendas em tempo real |&#x2714; |&#x2714; |X |
+|Legendas em gravações de eventos ao vivo |&#x2714; |&#x2714; |&#x2714; |
+|Controles de DVR dos participantes (pausar, retroceder) |&#x2714; |&#x2714; |&#x2714; |
+|Suporte a eCDN de parceiro |&#x2714; (Hive, Kollective, Ramp) |&#x2714; (Hive, Kollective, Ramp) |&#x2714; (Hive, Kollective, Ramp) |
+|Relatório de participação posterior à transmissão para Produtores |&#x2714; |&#x2714; |X |
+|Análise de opiniões do público – Votação ao vivo e sondagens  |&#x2714; (Microsoft Pulse) |X |X |
 
-<sup>1</sup> os limites definidos podem ser alterados.
+<sup>1</sup> Os limites que são definidos podem ser alterados.
 
 ## <a name="regional-availability"></a>Disponibilidade regional
-Você pode usar os eventos ao vivo do teams em várias regiões do mundo todo. As informações a seguir mostram a disponibilidade para participantes e membros da equipe do evento. 
+Você pode usar os eventos ao vivo do Teams em várias regiões do mundo inteiro. As informações a seguir mostram a disponibilidade dos membros e participantes da equipe de eventos. 
 
 > [!IMPORTANT]
-> A região do evento é selecionada automaticamente, dependendo do organizador e da organização do Office 365.
+> A região do evento é selecionada automaticamente dependendo do organizador e da organização do Office 365.
 
-**Disponível nessas regiões**
+**Disponível nestas regiões**
 - Américas
 - Europa/África
 - Pacífico Asiático
-- Vá para o Canadá, Índia, Austrália, Japão, Reino Unido
+- Fique no Local Canadá, Índia, Austrália, Japão, Reino Unido
 
 **Exclusões e considerações**
-- **Ir para locais:** O Teams go locais, fora dos itens listados acima, não têm suporte no momento.
-- **China:** Os membros da equipe de eventos e os participantes não poderão usar os eventos dinâmicos do Teams, pois a CDN do Azure não está acessível na China. Uma solução alternativa é usar uma conexão VPN da empresa, que obtém o cliente conectado à CDN por meio da rede corporativa do cliente.
+- **Fique nos Locais:** o Teams Fique nos Locais, tirando os que estão listados acima, não têm suporte no momento.
+- **China:** membros da equipe de eventos e participantes não poderão usar os eventos ao vivo do Teams porque a CDN do Azure não é acessível na China. Uma solução alternativa é usar uma conexão VPN da empresa, que recebe o cliente conectado à CDN pela rede corporativa do cliente.
 
 ## <a name="next-steps"></a>Próximas etapas
-Vá para [configurar os eventos ao vivo do teams](set-up-for-teams-live-events.md).
+Acesse [Configurar eventos ao vivo do Teams](set-up-for-teams-live-events.md).
 
 ### <a name="related-topics"></a>Tópicos relacionados
 - [O que são os eventos ao vivo do Teams?](what-are-teams-live-events.md)
 - [Configurar eventos ao vivo do Teams](set-up-for-teams-live-events.md)
-- [Definir configurações de eventos ao vivo no Teams](configure-teams-live-events.md)
+- [Definir configurações de eventos ao vivo do Teams](configure-teams-live-events.md)
 
