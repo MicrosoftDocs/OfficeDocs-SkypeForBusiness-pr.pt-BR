@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 31c6b04531b21996f897b3d668fdb6515f1e953f
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: ec16f919bad5ed696741664836aa3d7127837c5a
+ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836811"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42892361"
 ---
 # <a name="get-started-with-teams-templates-in-retail"></a>Introdução aos modelos do Teams no varejo 
 
@@ -43,7 +43,7 @@ O modelo da loja é ideal para criar uma equipe para representar um local indivi
 
 | Tipo de modelo base | baseTemplateId | Propriedades que vêm com este modelo base |
 | ------------------ | -------------- | ----------------------------------------------------- |
-| Varejo <br>Armazenadas | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailStore')`| Canais <ul><li>Entrega de turnos\*</li><li>Aprendizagem\*</li></ul>\*Canais de favoritos automáticos<br><br>Propriedades da equipe <ul><li>Visibilidade da equipe definida como Public</li></ul> <br>Permissões de membro <ul><li>Não é possível criar/atualizar/excluir canais </li><li>Não é possível adicionar/remover aplicativos </li><li>Não é possível criar/atualizar/remover guias</li><li>Não é possível criar/atualizar/remover conectores</li><ul>|
+| Varejo <br>Repositório | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailStore')`| Canais <ul><li>Entrega de turnos\*</li><li>Aprendizagem\*</li></ul>\*Canais de favoritos automáticos<br><br>Propriedades da equipe <ul><li>Visibilidade da equipe definida como Public</li></ul> <br>Permissões de membro <ul><li>Não é possível criar/atualizar/excluir canais </li><li>Não é possível adicionar/remover aplicativos </li><li>Não é possível criar/atualizar/remover guias</li><li>Não é possível criar/atualizar/remover conectores</li><ul>|
 ||||
 
 Maneiras recomendadas de personalizar o modelo de loja para sua organização:
@@ -58,9 +58,32 @@ O modelo de colaboração do gerente é outro um dos modelos de equipe projetado
 
 | Tipo de modelo base | baseTemplateId | Propriedades que vêm com este modelo base |
 | ------------------ | -------------- | ----------------------------------------------------- |
-| Varejo <br>Armazenadas | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailManagerCollaboration')`| Canais <ul><li>Operações\*</li><li>Aprendizagem\*</li></ul>\*Canais de favoritos automáticos<br><br>Propriedades da equipe <ul><li>Visibilidade da equipe definida como particular</li></ul> <br>Permissões de membro <ul><li>Pode criar/atualizar/excluir canais </li><li>Pode adicionar/remover aplicativos </li><li>Pode criar/atualizar/remover guias</li><li>Pode criar/atualizar/remover conectores</li><ul>|
+| Varejo <br>Repositório | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailManagerCollaboration')`| Canais <ul><li>Operações\*</li><li>Aprendizagem\*</li></ul>\*Canais de favoritos automáticos<br><br>Propriedades da equipe <ul><li>Visibilidade da equipe definida como particular</li></ul> <br>Permissões de membro <ul><li>Pode criar/atualizar/excluir canais </li><li>Pode adicionar/remover aplicativos </li><li>Pode criar/atualizar/remover guias</li><li>Pode criar/atualizar/remover conectores</li><ul>|
 ||||
 
 Maneiras recomendadas de personalizar o modelo de colaboração do gerente para sua organização:
 
 - Se sua organização tiver qualquer site interno (por exemplo, um site do SharePoint) relevante para gerentes, considere fixar as guias em um canal de equipe relevante (consulte a documentação [aqui](get-started-with-teams-templates.md) para obter instruções).
+
+## <a name="how-to-use-first-party-templates"></a>Como usar modelos de primeira empresa
+
+Para usar esses modelos, basta alterar a propriedade ' template@odata. BIND ' no corpo da solicitação de ' Standard ' para a TemplateIDs acima.  Para obter mais informações sobre como implantar modelos de equipe, consulte o artigo Microsoft Graph sobre como [criar uma equipe](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta).
+
+> [!NOTE]
+> Os canais no modelo serão automaticamente criados na guia geral.
+
+### <a name="example-store-template-extension-script"></a>Exemplo: armazenar script de extensão de modelo
+
+``` PowerShell
+{
+  "template@odata.bind": "https://graph.microsoft.com/beta/teamsTemplates('retailStore')",
+  "DisplayName": "Contoso Store",
+  "Description": "Team for all staff in Contoso Store",
+  "Channels": [
+    {
+      "displayName": "Additional store channel",
+      "IsFavoriteByDefault": false
+    }
+  ]
+}
+```

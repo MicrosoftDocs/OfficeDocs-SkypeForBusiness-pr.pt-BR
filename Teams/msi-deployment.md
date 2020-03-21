@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c048e321241f4403fbb69f71e56b3fc179346951
-ms.sourcegitcommit: c16451519e05b47bbb77e09dacd13ff212617e91
-ms.translationtype: HT
+ms.openlocfilehash: a17b9ed78f484f593715a551fd11fa158bd6262a
+ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "42327823"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42892201"
 ---
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>Instalar o Microsoft Teams usando o Microsoft Endpoint Configuration Manager
 
@@ -75,9 +75,9 @@ Para obter instruções completas sobre como implantar o aplicativo de área de 
 
 ## <a name="clean-up-and-redeployment-procedure"></a>Procedimento de limpeza e reimplantação
 
-Se um usuário desinstalar o Teams do seu perfil de usuário, o instalador do MSI rastreará que o usuário desinstalou o aplicativo Teams e não instalará mais o Teams para esse perfil de usuário. Para reimplantar o Teams para esse usuário em um determinado computador em que foi desinstalado, faça o seguinte:
+Se um usuário desinstalar o Teams do seu perfil de usuário, o instalador do MSI acompanhará que o usuário desinstalou o aplicativo Teams e não instalará mais equipes para esse perfil de usuário. Para reimplantar o Teams para esse usuário em um determinado computador em que foi desinstalado, faça o seguinte:
 
-1. Desinstale o aplicativo Teams instalado para todos os perfis de usuário.
+1. Desinstale o aplicativo Teams instalado para cada perfil de usuário.
 2. Após a desinstalação, exclua o diretório recursivamente em `%localappdata%\Microsoft\Teams\`.
 3. Reimplante o pacote MSI no computador específico.
 
@@ -85,7 +85,7 @@ Se um usuário desinstalar o Teams do seu perfil de usuário, o instalador do MS
 
 O comportamento padrão do MSI é instalar o aplicativo do Teams assim que um usuário entrar e iniciá-lo automaticamente. Se você não quiser que o Teams inicie automaticamente para os usuários após a instalação, use a Política de Grupo para definir uma configuração de política ou desabilitar o início automático no instalador MSI.
 
-#### <a name="use-group-policy-recommended"></a>Usar a Política de Grupo (recomendado)
+### <a name="use-group-policy-recommended"></a>Usar a Política de Grupo (recomendado)
 
 Habilite a configuração de Política de Grupo **Impedir que o Microsoft Teams seja iniciado automaticamente após a instalação**. É possível encontrar essa configuração de política em Configuração do Usuário\Políticas\Modelos Administrativos\Microsoft Teams. Esse é o método recomendado porque você pode desativar ou ativar a configuração de política de acordo com as necessidades da sua organização.
 
@@ -103,16 +103,18 @@ Você pode desabilitar o início automático do instalador MSI usando o parâmet
 Para a versão de 32 bits
 
 ```console
-msiexec /i Teams_windows.msi OPTIONS="noAutoStart=true"
+msiexec /i Teams_windows.msi OPTIONS="noAutoStart=true" ALLUSERS=1
 ```
 
 Para a versão de 64 bits
 
 ```console
-msiexec /i Teams_windows_x64.msi OPTIONS="noAutoStart=true"
+msiexec /i Teams_windows_x64.msi OPTIONS="noAutoStart=true" ALLUSERS=1
 ```
 
 Quando um usuário faz logon no Windows, o Teams é instalado com o MSI e um atalho para iniciá-lo é adicionado à área de trabalho do usuário. O Teams não será iniciado até que o usuário inicie-o manualmente. Depois que o usuário iniciar o Teams manualmente, ele iniciará automaticamente sempre que o usuário fizer login.
+
+Observe que esses exemplos também usam o parâmetro **AllUsers = 1** . Quando você define esse parâmetro, o instalador de toda a máquina do teams aparece em programas e recursos no painel de controle e nos aplicativos & recursos nas configurações do Windows para todos os usuários do computador. Em seguida, todos os usuários podem desinstalar o Microsoft Teams, caso tenham credenciais de administrador no computador.
 
 > [!Note]
 > Se executar o MSI manualmente, certifique-se de executá-lo com permissões elevadas. Mesmo que você o execute como administrador, se isso não for feito com permissões elevadas, o instalador não poderá configurar a opção para desabilitar o início automático.

@@ -16,12 +16,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Saiba como usar a atribuição de política em lote para atribuir políticas a grandes conjuntos de usuários em sua instituição educacional em grande parte para fins escolares remotos (teleescolares, tele-School).
 f1keywords: ''
-ms.openlocfilehash: 8dd771b27c1950cdce1590783bcfb3b4159c1c29
-ms.sourcegitcommit: 891ba3670ccd16bf72adee5a5f82978dc144b9c1
+ms.openlocfilehash: 5e3ee25bf4fadea595fc224b2944a12c279f9c59
+ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42691181"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42892271"
 ---
 # <a name="assign-policies-to-large-sets-of-users-in-your-school"></a>Atribuir políticas a grandes conjuntos de usuários na sua escola
 
@@ -82,20 +82,16 @@ Quando for solicitado, entre usando as mesmas credenciais de administrador usada
 Primeiro, execute o seguinte procedimento para identificar seus funcionários e professores por tipo de licença. Isso informa quais SKUs estão em uso em sua organização. Em seguida, você pode identificar os funcionários e professores que têm uma SKU com docente atribuída.
 
 ```powershell
-Get-AzureADSubscribedSku
-```
-
-```powershell
-$skus = Get-AzureADSubscribedSku
+Get-AzureAdSubscribedSku | Select-Object -Property SkuPartNumber,SkuId
 ```
 
 Que retorna:
 
 ```
-ObjectId                                                                  SkuPartNumber      SkuId
---------                                                                  -------------      -----
-ee1a846c-79e9-4bc3-9189-011ca89be890_e97c048c-37a4-45fb-ab50-022fbf07a370 M365EDU_A5_FACULTY e97c048c-37a4-45fb-ab50-922fbf07a370
-ee1a846c-79e9-4bc3-9189-011ca89be890_46c119d4-0379-4a9d-85e4-97c66d3f909e M365EDU_A5_STUDENT 46c119d4-0379-4a9d-85e4-97c66d3f909e
+SkuPartNumber      SkuId
+-------------      -----
+M365EDU_A5_FACULTY e97c048c-37a4-45fb-ab50-922fbf07a370
+M365EDU_A5_STUDENT 46c119d4-0379-4a9d-85e4-97c66d3f909e
 ```
 
 Neste exemplo, a saída mostra que a licença doce SkuId é "e97c048c-37a4-45fb-ab50-922fbf07a370".
@@ -106,7 +102,7 @@ Neste exemplo, a saída mostra que a licença doce SkuId é "e97c048c-37a4-45fb-
 Em seguida, executamos o seguinte para identificar os usuários que têm essa licença e reuni-los juntos.
 
 ```powershell
-$faculty = Get-AzureADUser -All $true | Where-Object (($_.assignedLicenses).SkuId -contains "e97c048c-37a4-45fb-ab50-922fbf07a370")
+$faculty = Get-AzureADUser -All $true | Where-Object {($_.assignedLicenses).SkuId -contains "e97c048c-37a4-45fb-ab50-922fbf07a370"}
 ```
 
 ## <a name="assign-a-policy-in-bulk"></a>Atribuir uma política em massa
@@ -150,7 +146,7 @@ $faculty.count
 Em vez de fornecer toda a lista de IDs de usuário, execute o seguinte para especificar o primeiro 20.000 e, em seguida, o próximo 20.000 e assim por diante.
 
 ```powershell
-Assign-CsPolicy -PolicyType TeamsMeetingPolicy -PolicyName EducatorMeetingPolicy -Identities $faculty[0..19999].ObjectId
+New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMeetingPolicy -PolicyName EducatorMeetingPolicy -Identity $faculty[0..19999].ObjectId
 ```
 
 Você pode alterar o intervalo de IDs de usuário até chegar à lista completa de usuários. Por exemplo, insira ```$faculty[0..19999``` para o primeiro lote, use ```$faculty[20000..39999``` para o segundo lote, insira ```$faculty[40000..59999``` para o terceiro lote e assim por diante.
@@ -163,7 +159,7 @@ Execute o seguinte para ver todas as políticas atribuídas a um usuário espec�
 Get-CsUserPolicyAssignment -Identity hannah@contoso.com
 ```
 
-## <a name="faq"></a>Perguntas Frequentes
+## <a name="faq"></a>Perguntas frequentes
 
 **Quero ter certeza de que todos os usuários que são alunos, funcionários e professores recebem automaticamente licenças atribuídas. Como posso fazer isso?**
 
