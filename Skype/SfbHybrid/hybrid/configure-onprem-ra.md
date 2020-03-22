@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Configurar uma conta de recurso para o Skype for Business Server 2019.
-ms.openlocfilehash: 9acd9df1d9c5372915ea51ff1b3b94e1f89c3311
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 14d2f161be54ac61c866597bdad141cf31138fbd
+ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42113254"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42892301"
 ---
 # <a name="configure-resource-accounts"></a>Configurar contas de recurso
 
@@ -32,7 +32,7 @@ Se você tiver um atendedor automático de UM do Exchange e um sistema de fila d
 
 Se o atendedor automático ou a fila de chamadas do sistema de telefonia precisar de um número de serviço, as várias dependências poderão ser atendidas na seguinte sequência:
 
-1. Obter um número de serviço
+1. Obter um número de serviço.
 2. Obter um sistema de telefonia livre- [licença de usuário virtual](/MicrosoftTeams/teams-add-on-licensing/virtual-user) ou uma licença de sistema de telefonia pago para usar com a conta de recurso.
 3. Criar a conta de recurso. Um atendedor automático ou fila de chamada é necessário para ter uma conta de recurso associada.
 4. Aguarde uma sincronização do Active Directory entre online e local.
@@ -71,7 +71,7 @@ A criação de uma conta de recurso que usa um número de telefone precisaria ex
 3. Crie uma conta de recurso local executando o `New-CsHybridApplicationEndpoint` cmdlet para cada atendedor automático do sistema de telefonia ou fila de chamadas e dê um nome, endereço SIP e assim por diante.
 
     ``` Powershell
-    New-CsHybridApplicationEndpoint -DisplayName appinstance01 -SipAddress sip:appinstance01@contoso.com -OU "ou=Redmond,dc=litwareinc,dc=com"
+    New-CsHybridApplicationEndpoint -ApplicationID <GUID> -DisplayName appinstance01 -SipAddress sip:appinstance01@contoso.com -OU "ou=Redmond,dc=litwareinc,dc=com"
     ```
 
     Consulte [New-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps) para obter mais detalhes sobre este comando.
@@ -103,12 +103,12 @@ A criação de uma conta de recurso que usa um número de telefone precisaria ex
    Set-CsOnlineApplicationInstance -Identity appinstance01@contoso.com -OnpremPhoneNumber +14250000000
    ```
 
-A conta do recurso precisará de um número de telefone atribuído se ele for atribuído a um atendedor automático de nível superior ou a fila de chamadas. Os números de telefone do usuário (assinante) não podem ser atribuídos a uma conta de recurso, somente os números de telefone de chamada tarifada ou gratuita de serviço podem ser usados.
+   A conta do recurso precisará de um número de telefone atribuído se ele for atribuído a um atendedor automático de nível superior ou a fila de chamadas. Os números de telefone do usuário (assinante) não podem ser atribuídos a uma conta de recurso, somente os números de telefone de chamada tarifada ou gratuita de serviço podem ser usados.
 
-  Você pode atribuir um número híbrido de roteamento direto à sua conta de recurso.  Consulte [Plan Direct Routing](/MicrosoftTeams/direct-routing-plan) para obter detalhes.
+     Você pode atribuir um número híbrido de roteamento direto à sua conta de recurso. Para obter detalhes, consulte [Plan Direct Routing](/MicrosoftTeams/direct-routing-plan).
 
-  > [!NOTE]
-  > Os números de serviço de roteamento direto atribuídos às contas de recursos para atendedor automático e filas de chamada têm suporte apenas para usuários e agentes do Microsoft Teams.
+     > [!NOTE]
+     > Os números de serviço de roteamento direto atribuídos às contas de recursos para atendedor automático e filas de chamada têm suporte apenas para usuários e agentes do Microsoft Teams.
 
 7. Crie o atendedor automático do sistema de telefonia ou a fila de chamadas. Confira um dos procedimentos a seguir:
 
@@ -195,7 +195,7 @@ A migração do Exchange UM para o sistema de telefonia exigirá a recriação d
 
 [Criar uma fila de chamada do Cloud](/MicrosoftTeams/create-a-phone-system-call-queue)
 
-[O que são atendedores automáticos de nuvem?](/MicrosoftTeams/what-are-phone-system-auto-attendants)
+[Quais são os atendedores automáticos do Cloud?](/MicrosoftTeams/what-are-phone-system-auto-attendants)
 
 [Configurar um atendedor automático do Cloud](/MicrosoftTeams/create-a-phone-system-auto-attendant)  
 
