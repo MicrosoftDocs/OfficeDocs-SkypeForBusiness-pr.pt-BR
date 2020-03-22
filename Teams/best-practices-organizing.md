@@ -18,7 +18,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 59dcb99e8e8734885f7e62b79102cfad2745612a
 ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 03/18/2020
 ms.locfileid: "42795754"
@@ -34,21 +34,21 @@ Dê uma olhada neste pequeno vídeo para ver alguns exemplos de como estruturar 
 
 > [!VIDEO https://youtu.be/XAowXcmQ-kA]
 
-## <a name="add-teams-gradually"></a>Adicionar equipes gradualmente
+## <a name="add-teams-gradually"></a>Adicione equipes gradualmente
 
-Na primeira vez que você implantar o Microsoft Teams, recomendamos que comece com um pequeno número de equipes e integrantes da equipe. Adicione novas pessoas ou grupos enquanto você estiver. O que há de melhor para o Teams é que, quando você adiciona novas pessoas ou grupos, eles podem rapidamente se familiarizar com o que já foi discutido, pois as conversas e os arquivos estão disponíveis para os usuários, independentemente de quando eles ingressam. Evite a tentação de criar várias equipes diferentes que tenham o mesmo conjunto de membros; em vez disso, crie canais em uma única equipe.
+Ao criar equipes, recomendamos começar com um pequeno número de equipes e membros da equipe. Adicione novas pessoas ou grupos à medida que for avançando. O melhor do Teams é que, quando você adiciona novas pessoas ou grupos, eles podem se familiarizar rapidamente com o que já foi discutido, pois as conversas e os arquivos estão disponíveis aos usuários, independentemente de quando eles ingressarem. Evite a tentação de criar várias equipes diferentes que tenham o mesmo conjunto de membros; em vez disso, crie canais em uma única equipe.
 
-## <a name="create-channels-to-focus-discussions"></a>Criar canais para concentrar discussões
+## <a name="create-channels-to-focus-discussions"></a>Crie canais para concentrar discussões
 
-Depois de criar sua equipe, é recomendável começar a pensar sobre os diferentes projetos e tipos de conversas com as quais você precisa dar suporte. Crie canais iniciais para que as pessoas saibam onde colaborar e localizar conversas existentes. Use nomes de canais descritivos para que seja mais fácil para as pessoas saberem onde ir para cada conversa. Adicione ferramentas (como o OneNote, o Power BI ou o Planner) como guias para um canal para que os membros tenham tudo o que precisa, diretamente no canal. Você também pode adicionar uma página da Web comumente usada como uma guia a um canal. 
+Depois de criar sua equipe, é uma boa ideia começar a pensar nos diferentes projetos e tipos de conversas que você precisa apoiar. Crie canais iniciais para que as pessoas saibam onde contribuir e encontrar conversas existentes. Use nomes descritivos de canais para facilitar que as pessoas saibam para onde ir durante cada conversa. Adicione ferramentas (como OneNote, Power BI ou Planner) como guias a um canal para que os membros tenham tudo o que precisam, diretamente no canal. Você também pode adicionar uma página da Web comumente usada como uma guia a um canal. 
 
-Saiba mais sobre como [trabalhar em equipes](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#ID0EAABAAA=Work_in_teams) com essas dicas rápidas para usuários finais. 
+Saiba mais sobre como [trabalhar em equipes](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#ID0EAABAAA=Work_in_teams) com essas dicas rápidas aos usuários finais. 
 
-Prática recomendada: criar equipes com um conjunto maior de membros e mais canais. Minimize o número de equipes que exigem a participação de uma pessoa. Os canais de uma equipe devem ser considerados como tópicos ou fluxos para ajudar a equipe a organizar seu trabalho para oferecer seus objetivos conjuntos. Não há um número específico de canais que devem ser criados. Cada equipe deve criar canais com base em seu trabalho, prioridades e estilo. 
+Prática recomendada: crie equipes com um conjunto maior de membros e mais canais. Minimize o número de equipes que exigem a participação de uma pessoa. Os canais de uma equipe devem ser considerados tópicos ou fluxos de trabalho para ajudar a equipe a organizar seu trabalho para alcançar seus objetivos comuns. Não há um número específico de canais que devem ser criados. Cada equipe deve criar canais com base em seu trabalho, prioridades e estilo. 
 
-Use canais padrão para conversas às quais todos os membros da equipe possam contribuir. Aproveite os [canais privados no Teams](private-channels.md) quando precisar de um espaço de colaboração focalizado com um grupo seleto de membros.
+Use canais padrão de conversas em que todos da equipe possam contribuir. Aproveite os [Canais privados no Teams](private-channels.md) quando você precisar de um espaço de colaboração focado com um grupo seleto de membros.
 
-Organizações maiores podem querer criar equipes como "modelos" para padronizar as informações que capturam sobre tipos específicos de trabalho. Isso é útil para gerenciamento estratégico do cliente, gerenciamento da sala de aula, cenários de assistência médica, gerenciamento de reivindicação, gerenciamento de incidentes e outros cenários apropriados para um setor específico. Para saber mais, confira [introdução aos](get-started-with-teams-templates.md) modelos de equipe e [modelos de equipe para empresas de pequeno e médio porte](smb-templates.md).
+Talvez organizações maiores possam querer criar equipes como "modelos" para padronizar as informações que capturam tipos específicos de trabalho. Isso é útil à gestão estratégica de clientes, gestão de sala de aula, cenários de assistência médica, gestão de reclamações, gestão de incidentes e outros cenários adequados a um setor específico. Para saber mais, consulte [Introdução aos modelos do Teams](get-started-with-teams-templates.md) e [modelos do Teams para empresas de pequeno e médio porte](smb-templates.md).
 
 ## <a name="use-the-general-channel"></a>Use o canal Geral
 
@@ -59,9 +59,9 @@ Por padrão, o **canal Geral** é criado para você quando você cria a equipe. 
 - Use-o para anúncios ou configure o conector de Notícias do SharePoint para publicar seus relatórios de status modernos neste canal.  
 - Para equipes de propósito novo ou único, pode ser o único canal no início, conforme você decide como o Teams pode apoiar melhor suas metas.
 
-Você não pode remover, renomear ou cancelar a favoritos do canal geral. Os canais aparecem em ordem alfabética (com o canal geral na parte superior). Em equipes com muitos canais, use **ocultar** ou **Mostrar** para exibir os canais que você mais usa.
+Você não pode remover, renomear ou desfazer o canal Geral. Os canais aparecem em ordem alfabética (com o canal Geral na parte superior). Em equipes com muitos canais, use **Ocultar** ou **Exibir** para exibir os canais que você mais usa.
 
-Para saber mais, veja a guia **trabalho na guia canais** na página [equipes e canais](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#ID0EAABAAA=Work_in_channels) .
+Para saber mais, consulte **Trabalhar na guia canais** na página [Equipes e canais](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#ID0EAABAAA=Work_in_channels).
 
 
 
@@ -71,4 +71,4 @@ Os proprietários da equipe podem ativar a moderação de um canal para controla
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Criar uma equipe englobando toda a organização no Teams](create-an-org-wide-team.md)
+[Crie uma equipe englobando toda a organização no Teams](create-an-org-wide-team.md)
