@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Leia este tópico para saber como o roteamento direto do sistema de telefone da Microsoft permite que você conecte um controlador de borda de sessão (SBC) compatível com o cliente ao Microsoft Phone System.
-ms.openlocfilehash: 0e15f8e76bc9512a28311764c39e34b45131b9d3
-ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
+ms.openlocfilehash: 5efed6ed21e6eb4bfa4e2ae89e625595b0307ada
+ms.sourcegitcommit: 545e466f1fa9163bb00cc96c8db70a70b02af697
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2020
-ms.locfileid: "42858576"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "42928434"
 ---
 # <a name="plan-direct-routing"></a>Planejar o Roteamento Direto
 
@@ -257,7 +257,7 @@ Você deve usar as seguintes portas para ambientes do Office 365 em que o roteam
 
 |**Traffic**|**De**|**Até**|**Porta de origem**|**Porta de destino**|
 |:--- |:--- |:--- |:--- |:--- |
-|SIP/TLS|Proxy SIP|SBC|1024 – 65535|Definido no SBC (para o Office 365 GCC High/DoD somente as portas 5061 e 5062 devem ser usadas)|
+|SIP/TLS|Proxy SIP|SBC|1024 – 65535|Definido no SBC (para Office 365 GCC High/DoD somente a porta 5061 deve ser usada)|
 SIP/TLS|SBC|Proxy SIP|Definido no SBC|5061|
 ||||||
 
