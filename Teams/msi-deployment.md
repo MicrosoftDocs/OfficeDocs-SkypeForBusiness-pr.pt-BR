@@ -16,17 +16,17 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a17b9ed78f484f593715a551fd11fa158bd6262a
-ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
+ms.openlocfilehash: 084f6d4587bc279c4387cf44b8ed29d38d51d4a6
+ms.sourcegitcommit: 613665c866f6fd0febfa6e26ad718241cdfbb207
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42892201"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "42937595"
 ---
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>Instalar o Microsoft Teams usando o Microsoft Endpoint Configuration Manager
 
 > [!Tip]
-> Assista à sessão a seguir para conhecer os benefícios do Windows Desktop Client e como planejar e executar sua implantação: [Cliente de Desktop do Microsoft Teams](https://aka.ms/teams-clients)
+> Assista à sessão a seguir para saber mais sobre os benefícios do cliente da área de trabalho do Windows, como planejar e como implantá-lo: [cliente de área de trabalho do Microsoft Teams](https://aka.ms/teams-clients).
 
 Para usar o Microsoft Endpoint Configuration Manager, a Política de Grupo ou qualquer mecanismo de distribuição de terceiros para ampla implantação, a Microsoft oferece arquivos MSI (de 32 bits e 64 bits) que os administradores podem usar para a implantação em massa do Teams para usuários ou computadores selecionados. Os administradores podem usar esses arquivos para implantar o Teams remotamente, de modo que os usuários não precisem baixar manualmente o aplicativo Teams. Quando implantado, o Teams iniciará automaticamente para todos os usuários que fizerem logon naquele computador. (Você pode desabilitar o início automático depois de instalar o aplicativo. [Confira abaixo](#disable-auto-launch-for-the-msi-installer).) É recomendável implantar o pacote no computador para que todos os novos usuários dele também se beneficiem com a implantação.
 
@@ -40,10 +40,13 @@ Estes são os links para os arquivos MSI:
 |Governo Federal – GCC High    | [32 bits](https://gov.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)         | [64 bits](https://gov.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)        |
 |Governo Federal – DoD     | [32 bits](https://dod.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)        | [64 bits](https://dod.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)        |
 
+> [!NOTE]
+> Instale a versão de 64 bits do teams em sistemas operacionais de 64 bits. Se você tentar instalar a versão de 64 bits do teams em um sistema operacional de 32 bits, a instalação não será bem-sucedida e, no momento, você não receberá uma mensagem de erro.
+
 O Teams também pode ser incluído em uma implantação do Office 365 ProPlus. Para obter mais informações, confira [Implantar o Microsoft Teams com Office 365 ProPlus](https://docs.microsoft.com/deployoffice/teams-install).
 
 > [!Note]
-> Para saber mais sobre o Microsoft Endpoint Configuration Manager, confira [O que é o Configuration Manager?](https://docs.microsoft.com/configmgr/core/understand/introduction).
+> Para saber mais sobre o Gerenciador de configuração do Microsoft EndPoint, consulte [o que é o Configuration Manager?](https://docs.microsoft.com/configmgr/core/understand/introduction)
 
 ## <a name="deployment-procedure-recommended"></a>Procedimento de implantação (recomendado)
 
@@ -100,13 +103,13 @@ Para saber mais, confira [Use a Política de Grupo para impedir que o Teams seja
 
 Você pode desabilitar o início automático do instalador MSI usando o parâmetro **OPTIONS="noAutoStart=true"** da seguinte maneira.  
 
-Para a versão de 32 bits
+Para a versão de 32 bits:
 
 ```console
 msiexec /i Teams_windows.msi OPTIONS="noAutoStart=true" ALLUSERS=1
 ```
 
-Para a versão de 64 bits
+Para a versão de 64 bits:
 
 ```console
 msiexec /i Teams_windows_x64.msi OPTIONS="noAutoStart=true" ALLUSERS=1
