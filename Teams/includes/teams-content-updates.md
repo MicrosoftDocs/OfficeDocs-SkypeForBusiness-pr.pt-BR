@@ -80,6 +80,61 @@
 | 3/13/2020 | [Ofereça suporte a trabalhadores remotos usando o Microsoft Teams](/MicrosoftTeams/support-remote-work-with-teams) | modificado |
 
 
+## <a name="week-of-march-16-2020"></a>Semana de 16 de março de 2020
+
+
+| Publicado em |Título do tópico | Alteração |
+|------|------------|--------|
+| 3/17/2020 | [Requisitos de salas do Microsoft Teams](/MicrosoftTeams/rooms/requirements) | modificado |
+| 3/17/2020 | [Telefones e dispositivos para Teams](/MicrosoftTeams/teams-ip-phones) | modificado |
+| 3/17/2020 | [Usar o Power BI para analisar dados do CQD para o Microsoft Teams](/MicrosoftTeams/cqd-power-bi-query-templates) | modificado |
+| 3/17/2020 | [Práticas recomendadas para organizar equipes no Microsoft Teams](/MicrosoftTeams/best-practices-organizing) | modificado |
+| 3/17/2020 | [Chat, equipes, canais e aplicativos no Microsoft Teams](/MicrosoftTeams/deploy-chat-teams-channels-microsoft-teams-landing-page) | modificado |
+| 3/17/2020 | [Gerenciar a avaliação gratuita do Office 365 E1](/MicrosoftTeams/e1-trial-license) | modificado |
+| 3/17/2020 | [Criar suas primeiras equipes e canais no Microsoft Teams](/MicrosoftTeams/get-started-with-teams-create-your-first-teams-and-channels) | modificado |
+| 3/17/2020 | [Introdução aos modelos do Teams](/MicrosoftTeams/get-started-with-teams-templates) | modificado |
+| 3/17/2020 | [Ofereça suporte a trabalhadores remotos usando o Microsoft Teams](/MicrosoftTeams/support-remote-work-with-teams) | modificado |
+| 3/17/2020 | [GOV, EDU e instituições sem fins lucrativos](/MicrosoftTeams/teams-add-on-licensing/gov-edu-and-nonprofit-organizations) | modificado |
+| 3/17/2020 | [Considerações sobre o modo Teams Only (Apenas Teams)](/MicrosoftTeams/teams-only-mode-considerations) | modificado |
+| 3/17/2020 | [Use o Assistente do Teams (versão prévia) para ajudá-lo na implantação do Microsoft Teams](/MicrosoftTeams/use-advisor-teams-roll-out) | modificado |
+| 3/18/2020 | [Gerenciar a avaliação gratuita do Office 365 E1](/MicrosoftTeams/e1-trial-license) | modificado |
+| 3/18/2020 | [Gerenciar pacotes de política no Microsoft Teams](/MicrosoftTeams/manage-policy-packages) | modificado |
+| 3/18/2020 | [Ferramentas e workshops: Planejamento, implantação e adoção do Microsoft Teams](/MicrosoftTeams/planning-workshop-practical-guide) | modificado |
+| 3/18/2020 | [Exibir a utilização do Microsoft Teams no Power BI usando dados do CQD](/MicrosoftTeams/cqd-teams-utilization-report) | modificado |
+| 3/18/2020 | [Perguntas frequentes – Suporte para sua força de trabalho remota](/MicrosoftTeams/faq-support-remote-workforce) | modificado |
+| 3/18/2020 | [Como implementar o Microsoft Teams](/MicrosoftTeams/how-to-roll-out-teams) | modificado |
+| 3/18/2020 | [Treinamento de administrador para o Microsoft Teams](/MicrosoftTeams/itadmin-readiness) | modificado |
+| 3/18/2020 | [Reuniões no Microsoft Teams](/MicrosoftTeams/tutorial-meetings-in-teams) | modificado |
+| 3/18/2020 | [Atribuir licenças do Teams](/MicrosoftTeams/assign-teams-licenses) | modificado |
+| 3/18/2020 | [Conferências e reuniões no Microsoft Teams](/MicrosoftTeams/deploy-meetings-microsoft-teams-landing-page) | modificado |
+| 3/18/2020 | [Lista de controladores de borda da sessão certificados para Roteamento Direto](/MicrosoftTeams/direct-routing-border-controllers) | modificado |
+| 3/18/2020 | [Planejar o Roteamento Direto](/MicrosoftTeams/direct-routing-plan) | modificado |
+| 3/18/2020 | [Treinamento para o usuário final do Microsoft Teams](/MicrosoftTeams/enduser-training) | modificado |
+| 3/18/2020 | [Gerenciar a Avaliação gratuita do Office 365 G1 para o governo dos EUA](/MicrosoftTeams/g1-trial-license) | modificado |
+| 3/18/2020 | [Obtenha o Microsoft Teams para Android na China](/MicrosoftTeams/get-teams-android-in-china) | modificado |
+| 3/18/2020 | [Treinamento com instrutor e vídeos para usuários do Microsoft Teams](/MicrosoftTeams/instructor-led-training-teams-landing-page) | modificado |
+| 3/18/2020 | [Recursos do Microsoft Teams para administradores de Educação](/MicrosoftTeams/remote-learning-edu) | modificado |
+| 3/18/2020 | [Ofereça suporte a trabalhadores remotos usando o Microsoft Teams](/MicrosoftTeams/support-remote-work-with-teams) | modificado |
+| 3/18/2020 | [Gerenciar políticas de configuração de aplicativo no Microsoft Teams](/MicrosoftTeams/teams-app-setup-policies) | modificado |
+| 3/18/2020 | [Recursos do Microsoft Teams para administradores de Educação](/MicrosoftTeams/teams-edu-licensing) | modificado |
+| 3/18/2020 | [Gerenciar a experiência do Microsoft Teams Exploratory](/MicrosoftTeams/teams-exploratory) | modificado |
+| 3/18/2020 | [Teams em 30](/MicrosoftTeams/teams-in-30-workshops) | modificado |
+| 3/18/2020 | [Treinamento do Microsoft Teams](/MicrosoftTeams/training-microsoft-teams-landing-page) | modificado |
+| 3/19/2020 | [Perguntas frequentes – Suporte para sua força de trabalho remota](/MicrosoftTeams/faq-support-remote-workforce) | modificado |
+| 3/19/2020 | [Ofereça suporte a trabalhadores remotos usando o Microsoft Teams](/MicrosoftTeams/support-remote-work-with-teams) | modificado |
+| 3/19/2020 | [Atribuir políticas a grandes conjuntos de usuários na sua escola](/MicrosoftTeams/batch-policy-assignment-edu) | modificado |
+| 3/19/2020 | [Turnos do Teams](/MicrosoftTeams/expand-teams-across-your-org/shifts-for-teams-landing-page) | modificado |
+| 3/20/2020 | [Introdução aos modelos do Teams no varejo](/MicrosoftTeams/get-started-with-retail-teams-templates) | modificado |
+| 3/20/2020 | [Instalar o Microsoft Teams usando MSI por meio do Microsoft Endpoint Configuration Manager](/MicrosoftTeams/msi-deployment) | modificado |
+| 3/20/2020 | [Recursos do Microsoft Teams para administradores de Educação](/MicrosoftTeams/remote-learning-edu) | modificado |
+| 3/20/2020 | [Ofereça suporte a trabalhadores remotos usando o Microsoft Teams](/MicrosoftTeams/support-remote-work-with-teams) | modificado |
+| 3/20/2020 | [Teams para Infraestrutura de Área de Trabalho Virtualizada](/MicrosoftTeams/teams-for-vdi) | modificado |
+| 3/20/2020 | [Use o Assistente do Teams (visualização pública) para ajudar a implantar o Microsoft Teams](/MicrosoftTeams/use-advisor-teams-roll-out) | modificado |
+| 3/20/2020 | [Criar uma fila de chamadas](/MicrosoftTeams/create-a-phone-system-call-queue) | modificado |
+| 3/20/2020 | [Lista de controladores de borda da sessão certificados para Roteamento Direto](/MicrosoftTeams/direct-routing-border-controllers) | modificado |
+| 3/20/2020 | [Gerenciar a experiência do Microsoft Teams Exploratory](/MicrosoftTeams/teams-exploratory) | modificado |
+
+
 ## <a name="week-of-february-17-2020"></a>Semana de 17 de fevereiro de 2020
 
 
@@ -100,7 +155,7 @@
 
 | Publicado em |Título do tópico | Alteração |
 |------|------------|--------|
-| 2/25/2020 | [Instalar o Microsoft Teams usando MSI por meio do Gerenciador de configuração do Microsoft Endpoint](/MicrosoftTeams/msi-deployment) | modificado |
+| 2/25/2020 | [Instalar o Microsoft Teams usando MSI por meio do Microsoft Endpoint Configuration Manager](/MicrosoftTeams/msi-deployment) | modificado |
 | 2/25/2020 | Exemplo de script do PowerShell - Ajuda na limpeza de implantação do Microsoft Teams | removido |
 | 2/25/2020 | [Teams para Infraestrutura de Área de Trabalho Virtualizada](/MicrosoftTeams/teams-for-vdi) | modificado |
 | 2/25/2020 | [Lista de controladores de borda da sessão certificados para Roteamento Direto](/MicrosoftTeams/direct-routing-border-controllers) | modificado |
@@ -121,9 +176,9 @@
 | 2/27/2020 | [Lista de controladores de borda da sessão certificados para Roteamento Direto](/MicrosoftTeams/direct-routing-border-controllers) | modificado |
 | 2/27/2020 | [Tarefas do Teams](/MicrosoftTeams/expand-teams-across-your-org/assignments-in-teams) | modificado |
 | 2/27/2020 | [Obter clientes para o Microsoft Teams](/MicrosoftTeams/get-clients) | modificado |
-| 2/27/2020 | [Baixar o Microsoft Teams para Android na China](/MicrosoftTeams/get-teams-android-in-china) | modificado |
+| 2/27/2020 | [Obtenha o Microsoft Teams para Android na China](/MicrosoftTeams/get-teams-android-in-china) | modificado |
 | 2/27/2020 | [Requisitos de hardware para o Microsoft Teams](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | modificado |
-| 2/27/2020 | [Instalar o Microsoft Teams usando MSI por meio do Gerenciador de configuração do Microsoft Endpoint](/MicrosoftTeams/msi-deployment) | modificado |
+| 2/27/2020 | [Instalar o Microsoft Teams usando MSI por meio do Microsoft Endpoint Configuration Manager](/MicrosoftTeams/msi-deployment) | modificado |
 | 2/27/2020 | [Telefones e dispositivos para Teams](/MicrosoftTeams/teams-ip-phones) | modificado |
 | 2/27/2020 | [Usar funções de administrador do Microsoft Teams para gerenciar equipes](/MicrosoftTeams/using-admin-roles) | modificado |
 | 2/28/2020 | [Entre em contato com o serviço de suporte PSTN](/MicrosoftTeams/manage-phone-numbers-for-your-organization/contact-pstn-service-desk) | modificado |
