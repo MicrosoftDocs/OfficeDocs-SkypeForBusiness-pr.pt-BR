@@ -18,12 +18,12 @@ ms.custom: ms.teamsadmincenter.policypackages.overview
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba como usar e gerenciar pacotes de política no Microsoft Teams.
-ms.openlocfilehash: d7c0ded990225b969579f50ea5f87a32efebe388
-ms.sourcegitcommit: 54cbcf917d9663e6aa9760d7399b36c00d66478c
+ms.openlocfilehash: a2c2ecf22529c4f16b992f349b29ccaf0ad48b0d
+ms.sourcegitcommit: 613665c866f6fd0febfa6e26ad718241cdfbb207
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42857991"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "42942439"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>Gerenciar pacotes de política no Microsoft Teams
 
@@ -45,7 +45,8 @@ Atualmente, o Microsoft Teams inclui os seguintes pacotes de política.
 |Educação (aluno da escola principal)   |Cria um conjunto de políticas e configurações de política que se aplicam a alunos principais.|
 |Educação (aluno escolar secundário)    |Cria um conjunto de políticas e configurações de política que se aplicam a alunos secundários.         |
 |Educação (professor)    |Cria um conjunto de políticas e configurações de política que se aplicam a professores.      |
-|Business Voice |Cria uma política de configuração de aplicativo que inclui os aplicativos para uma experiência de voz empresarial.|
+|Usuário para empresas de pequeno e médio porte (Business Voice) |Cria uma política de configuração de aplicativo que inclui os aplicativos para uma experiência de voz empresarial.|
+|Usuário para empresas de pequeno e médio porte (sem Business Voice) |Este pacote de política foi projetado para criar um conjunto de políticas e aplicar essas configurações a usuários de empresas de pequeno e médio porte sem nenhum recurso de voz comercial.|
 |Diretor de segurança pública   |Cria um conjunto de políticas e configurações de política que se aplicam a órgãos públicos de segurança em sua organização.|
 |Assistência médica (funcionário clínico)  |Cria um conjunto de políticas e configurações de política que dão a funcionários clínicos, como as mensagens de mão registradas, recarga de mão, médicos e funcionários sociais acesso total a chats, chamadas, gerenciamento de turnos e reuniões. |
 |Assistência médica (operador de informações)  |Cria um conjunto de políticas e configurações de política que fornecem aos operadores de informações, como pessoal de ti, pessoal de informática, pessoal de finanças e órgãos de conformidade, acesso total a chats, chamadas e reuniões.|
