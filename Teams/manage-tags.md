@@ -16,19 +16,19 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba como gerenciar como as marcas são usadas em sua organização no Microsoft Teams.
-ms.openlocfilehash: cd2c2e69054923ccf287f35a15fcebb870d6a5d5
-ms.sourcegitcommit: 545e466f1fa9163bb00cc96c8db70a70b02af697
+ms.openlocfilehash: 5fbfa980f1cf6acd8ce32af810bf2527ece3d1fa
+ms.sourcegitcommit: 0549714f17f9994cf832a303ec9bc58a537c3a51
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "42928444"
+ms.lasthandoff: 03/25/2020
+ms.locfileid: "42951546"
 ---
 # <a name="manage-tags-in-microsoft-teams"></a>Gerenciar marcas no Microsoft Teams
 
 As marcas no Microsoft Teams permitem que os usuários se comuniquem com um subconjunto de pessoas de uma equipe. As marcas podem ser adicionadas a um ou vários membros da equipe para que você se conecte facilmente com o subconjunto correto de pessoas. Os proprietários e membros da equipe (se o recurso estiver habilitado para eles) podem adicionar uma ou mais marcas a uma pessoa. As marcas podem ser usadas em @mentions por qualquer pessoa na equipe em uma postagem de canal ou para iniciar uma conversa apenas com as pessoas que receberam essa marca.
 
 > [!NOTE]
-> Marcas ainda não são suportadas em canais privados.
+> Marcas ainda não são suportadas em canais privados. As marcas ainda não estão disponíveis nas organizações da Comunidade do governo dos EUA (GCC), GCC alto ou departamento de defesa (DoD). 
 
 ## <a name="how-tags-work"></a>Como as marcas funcionam
 

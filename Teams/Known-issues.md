@@ -3,7 +3,6 @@ title: Problemas conhecidos do Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 6/25/2019
 ms.topic: troubleshooting
 ms.service: msteams
 ms.collection:
@@ -18,16 +17,42 @@ f1.keywords:
 description: Lista atual dos problemas conhecidos do aplicativo do cliente Microsoft Teams e experiência do administrador.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6a80e9a360b28ed5d00fb02be3d34aab21fb0e2e
-ms.sourcegitcommit: bb88ac0c9489bb47957e5ef1074b5df3126b6fdb
+ms.openlocfilehash: 212f7f2bab023127bcc110133d1b8e574ee0d5de
+ms.sourcegitcommit: 545e466f1fa9163bb00cc96c8db70a70b02af697
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/25/2020
-ms.locfileid: "42265516"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "42928284"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problemas conhecidos do Microsoft Teams
 
 Este artigo lista os problemas conhecidos do Microsoft Teams, por área de recurso.
+
+## <a name="common-issues-and-resolutions"></a>Problemas e soluções comuns
+
+> [!NOTE]
+> Se você precisar de ajuda para implantar o Teams para dar suporte a funcionários remotos (WFH) devido ao COVID-19, examine [Dar suporte a funcionários remotos usando o Teams](support-remote-work-with-teams.md). Além disso, você pode estar qualificado para obter assistência na implantação do programa Microsoft 365 FastTrack: visite o [Centro FastTrack](https://www.microsoft.com/fasttrack) para enviar uma solicitação.
+
+### <a name="for-all-teams-customers"></a>Para todos os clientes do Teams
+
+| |  |
+|---------|---------|
+|**Novo usuário do Teams?**    |Confira [Introdução ao Microsoft Teams](get-started-with-teams-quick-start.md).         |
+|**Habilitar o acesso para convidados do Teams**     |Examine a [lista de verificação de acesso para convidado do Team](guest-access-checklist.md) e verifique se todas as etapas foram concluídas. Consulte os seguintes recursos adicionais:<ul><li>[Entendendo o Acesso para Convidados no Microsoft Teams](guest-access.md)</li>[Como um convidado ingressa em uma equipe](guest-joins.md) <li>[Configuração – Lista de Verificação de Acesso de Convidados do Microsoft Teams](guest-access-checklist.md)</li></ul>|
+|**Reuniões e conferências discadas do Teams**    |Precisa de ajuda para ativar ou configurar audioconferências no Teams? Esse usuário foi criado recentemente? Em caso afirmativo, você precisará esperar de 2 a 24 horas **para que as configurações entrem em vigor**.<br>Para verificar se o usuário tem uma licença para audioconferência e tem um número padrão de chamada tarifada:<br><ol><li>No centro de administração do Microsoft 365, acesse **Usuários ativos** e selecione o usuário.</li><li> Dependendo da versão do centro de administração, escolha **Licenças e aplicativos** ou clique em **Editar** em **Licenças do produto**.</li><li> Confirme se o usuário tem licenças selecionadas para Audioconferência, Microsoft Teams e para o Skype for Business Online (plano 2).</li><li>Em **Centros de administração**, clique em **Mostrar todos** e, em seguida, clique em **Teams**.</li><li>No centro de administração do Microsoft Teams, clique em **Portal herdado**.</li><li>No centro de administração do Skype for Business, clique em **audioconferência** e, em seguida, clique em **usuários**.</li><li>Selecione o usuário e verifique se ele tem um número padrão de chamada tarifada.</li> </ol> Para saber mais, confira [Planos de chamada do Office 365](calling-plans-for-office-365.md) ou ligue para a equipe de cobrança do Microsoft Commerce para obter ajuda sobre perguntas relacionadas a licenciamento. <br><br>Recursos adicionais:<ul><li>[Conferências e reuniões no Microsoft Teams](deploy-meetings-microsoft-teams-landing-page.md)</li><li>[Audioconferência no Office 365](audio-conferencing-in-office-365.md)</li></ul>       |
+|**Licença do Teams Exploratory**     |A experiência do Microsoft Teams Exploratory permite aos usuários de sua organização que têm o Azure Active Directory (AAD) e não estejam licenciados para o Teams iniciem uma experiência exploratório do Teams. Os administradores podem ativar ou desativar esse recurso para os usuários em sua organização. O [Microsoft Commercial Cloud Trial](iw-trial-teams.md) anterior agora foi substituído pela experiência do Teams Exploratory. <br><br>Recursos adicionais:<ul><li>[Como os usuários se inscrevem na experiência do Teams Exploratory](teams-exploratory.md#how-users-sign-up-for-the-teams-exploratory-experience)</li><li>[Gerenciar a experiência do Teams Exploratory](teams-exploratory.md#manage-the-teams-exploratory-experience)</li></ul>|
+|**Canais privados**    |Os canais privados do Microsoft Teams criam espaços reservado para colaboração com suas equipes. O acesso é restrito aos usuários da equipe que forem proprietários ou membros do canal privado. É possível adicionar qualquer pessoa, inclusive convidados, como membro de um canal privado, desde que já sejam membros da equipe.<br><br>Você pode usar o canal privado para limitar a colaboração àqueles que precisam de conhecimento ou se quiser facilitar a comunicação entre um grupo de pessoas atribuídas para um projeto específico, sem ter que criar uma equipe adicional para gerenciar.<br><br>Recursos adicionais:<ul><li>[Como os usuários se inscrevem na experiência do Teams Exploratory](teams-exploratory.md#how-users-sign-up-for-the-teams-exploratory-experience)</li><li>[Gerenciar a experiência do Teams Exploratory](teams-exploratory.md#manage-the-teams-exploratory-experience)</li><ul>        |
+|**Políticas de reunião**|As [políticas de reunião](meeting-policies-in-teams.md) são usadas para controlar os recursos disponibilizados para os participantes de reuniões programadas pelos usuários de sua organização. Depois de criar uma política e fazer suas alterações, você pode atribuir usuários à política.         |
+||**Alterar ou criar uma política de reunião**<br><br>Para alterar ou criar uma política de reunião, acesse o centro de administração do Microsoft Teams > **Reuniões** > **Políticas de reunião**. Selecione uma política na lista ou selecione **Adicionar**. Se você estiver criando uma nova política, adicione um nome e uma descrição. O nome não pode conter caracteres especiais ou ter mais de 64 caracteres. Escolha as configurações e clique em **Salvar**. Por exemplo, digamos que você tenha um grupo de usuários e queira limitar a quantidade de largura de banda que a reunião exigiria. Você criaria uma nova política personalizada chamada "Largura de banda limitada" e desativaria as seguintes configurações:<br><br>Em **Áudio e vídeo**:<ul><li>Desative a opção Permitir gravação na nuvem.</li><li>Desative a opção Permitir vídeo IP.</li></ul>Em **Compartilhamento de conteúdo**:<ul><li>Desative o modo de compartilhamento de tela.</li><li>Desative a opção Permitir quadro de comunicações.</li><li>Desative a opção Permitir anotações compartilhadas.</li></ul>Em seguida, atribua a política aos usuários.         |
+| |**Atribuir uma política de reunião aos usuários**<br><br><ol><li>Na barra de navegação à esquerda do centro de administração do Microsoft Teams, vá para **Usuários** e clique no usuário.</li><li>Selecione o usuário clicando à esquerda do nome de exibição do usuário e clique em **Editar configurações**.</li><li>Em **Política de reunião**, selecione a política que você deseja atribuir e clique em **Aplicar**.</li></ol>Para atribuir uma política a vários usuários de uma só vez, confira [Editar as configurações de usuários do Teams em massa](edit-user-settings-in-bulk.md). Ou você pode fazer o seguinte:<ol><li>Na barra de navegação à esquerda do centro de administração do Microsoft Teams, vá para **Reuniões > Políticas de Reunião**.</li><li>Escolha a política clicando à esquerda do nome da política.</li><li>Selecione **Gerenciar usuários**.</li><li>No painel **Gerenciar usuários**, procure o usuário pelo nome de exibição ou pelo nome de usuário, escolha o nome e clique em **Adicionar**. Repita esta etapa para cada usuário que você deseja adicionar.</li><li>Depois de terminar de adicionar as colunas, clique em **Salvar**.</li>         |
+|**Solucionar um problema de teclado de discagem ausente**     |Siga este procedimento: <ul><li>Certifique-se de que o usuário recebeu uma [licença do Teams](assign-teams-licenses.md).</li><li>Verifique se o usuário possui um [Plano de Chamadas](calling-plan-landing-page.md) atribuído.</li><li>Habilite o usuário para o [Enterprise Voice](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-enterprise-voice-online-and-phone-system-voicemail#to-enable-your-users-for-phone-system-in-office-365-voice-and-voicemail).</li></ul>      |
+|**Solucionar problemas de entrada do Teams**   |Primeiro, verifique se o [serviço do Microsoft Teams está íntegro](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/servicehealth). Em seguida, verifique se há códigos de erro comuns e confira [Por que estou tendo problemas para entrar no Microsoft Teams?](https://support.office.com/article/a02f683b-61a3-4008-9447-ee60c5593b0f)  Você também pode precisar revisar os [Modelos de identidade e a autenticação no Microsoft Teams](identify-models-authentication.md).         |
+
+### <a name="for-education-customers"></a>Para os clientes do Education
+
+|||
+|---------|---------|
+|Seus usuários estão vendo “Você não sabe o que está perdendo!” mensagem.   |Lembre-se de [Habilitar o Microsoft Teams para a sua escola](https://docs.microsoft.com/microsoft-365/education/intune-edu-trial/enable-microsoft-teams). Em locatários EDU, o Teams não está habilitado por padrão; será preciso ativá-lo primeiro. <br><br>Em seguida, confira [Ensino remoto e aprendizagem no Office 365 Education](https://support.office.com/article/remote-teaching-and-learning-in-office-365-education-f651ccae-7b65-478b-8366-51bb884025c4) para saber quais são as orientações mais atualizadas sobre como configurar a sua escola, planejar a lição, atender virtualmente e compartilhar conteúdo com os alunos.<br><br>Por fim, lembre-se de conferir os slides e vídeos de treinamento de administradores de TI do Microsoft Teams e muito mais em [Treinamento de administradores do Teams](itadmin-readiness.md).        |
 
 ## <a name="administration"></a>Administração
 
@@ -268,11 +293,11 @@ Este artigo lista os problemas conhecidos do Microsoft Teams, por área de recur
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
-|Atraso de sincronização de contas de recursos|Não é possível atribuir um número de telefone à conta do recurso ou você receberá a mensagem de erro "a seguinte instância do aplicativo não está presente no BVD."|Permita 24 horas por sincronização. Se já tiver decorrido 24 horas, remova a atribuição do número de telefone, elimine a conta do recurso e crie uma nova com um nome diferente.|18/5/2019|
+|Atraso de sincronização de contas de recursos|Não é possível atribuir um número de telefone à conta de recurso ou você recebe a mensagem de erro “A seguinte instância do aplicativo não está presente no BVD”.|Permita 24 horas por sincronização. Se já tiver decorrido 24 horas, remova a atribuição do número de telefone, elimine a conta do recurso e crie uma nova com um nome diferente.|18/5/2019|
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
-|Não é possível atribuir um número de serviço gratuito do centro de administração do Teams|Ao tentar atribuir um número de serviço gratuito no centro de administração do Teams, você receberá a mensagem de erro "você precisa de uma licença do sistema de telefone".|Ao invés, use cmdlets do PowerShell para atribuir um número de serviço gratuito.|18/5/2019|
+|Não é possível atribuir um número de serviço gratuito do centro de administração do Teams|Ao tentar atribuir um número de serviço gratuito no centro de administração do Teams, você recebe a mensagem de erro “Você precisa de uma licença do sistema telefônico”.|Ao invés, use cmdlets do PowerShell para atribuir um número de serviço gratuito.|18/5/2019|
 
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|

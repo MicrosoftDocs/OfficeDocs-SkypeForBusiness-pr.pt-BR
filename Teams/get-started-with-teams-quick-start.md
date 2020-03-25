@@ -17,14 +17,17 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e07ec04ba567963662d7f83bdba3fe9f788abd9e
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+ms.openlocfilehash: 62db123cbc7a038ee001367209df2efbad202d96
+ms.sourcegitcommit: 545e466f1fa9163bb00cc96c8db70a70b02af697
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41862831"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "42928454"
 ---
 # <a name="get-started-with-microsoft-teams"></a>Introdução ao Microsoft Teams
+
+> [!IMPORTANT]
+> Se você estiver implantando o Microsoft Teams rapidamente em resposta a uma demanda maior de suporte ao **trabalho remoto**, use estas diretrizes de introdução a fim de distribuir o Teams para toda a organização. Estas orientações se aplicam mesmo quando o Teams é sua primeira carga de trabalho do Office 365.
 
 Para começar a usar o Teams rapidamente, recomendamos que você crie duas ou três equipes e canais para um grupo selecionado de usuários pioneiros. Ao implementar o Teams em pequena escala inicialmente, você aprenderá a usar o Teams de forma prática e receberá informações úteis sobre como implantar o Teams em toda a organização. Se sua empresa for pequena, este guia de início rápido é tudo o que você precisa para implementar o Teams em toda a organização.
 
@@ -40,22 +43,32 @@ Veja aqui como implementar o primeiro conjunto de equipes e canais para que seus
 - Etapa 3: [Monitorar o uso e os comentários](get-started-with-teams-monitor-usage-and-feedback.md)
 - Etapa 4: [Obter recursos para planejar a distribuição em toda a organização](get-started-with-teams-resources-for-org-wide-rollout.md)
 
-Se sua organização for de grande porte, realize uma configuração híbrida ou no local do Skype for Business, defina requisitos regulamentares ou de conformidade rigorosos ou, se desejar implementar reuniões ou recursos de voz (como planos de chamadas ou sistema de telefonia), comece pela leitura do arquivo [Como implementar o Teams](how-to-roll-out-teams.md). Recomendamos que você ainda comece pela seção **Introdução** para desenvolver suas habilidades e começar a planejar sua implantação em toda a organização. "Planeje suas equipes com o Teams." Comece por algo mais simples implementando o Teams com chat, equipes, canais e aplicativos e se desenvolva a partir daí. Essas experiências iniciais ajudarão você a divulgar o Teams, gerando entusiasmo em toda a organização para a próxima fase de lançamento. 
+Se sua organização for de grande porte, realize uma configuração híbrida ou no local do Skype for Business, defina requisitos regulamentares ou de conformidade rigorosos ou, se desejar implementar reuniões ou recursos de voz (como planos de chamadas ou sistema de telefonia), comece pela leitura do arquivo [Como implementar o Teams](how-to-roll-out-teams.md). Recomendamos que você ainda comece pela seção **Introdução** para desenvolver suas habilidades e começar a planejar sua implantação em toda a organização. "Planeje suas equipes com o Teams." Comece por algo mais simples, implementando o Teams com chat, equipes, canais e aplicativos, e se desenvolva a partir daí. Essas experiências iniciais ajudarão você a divulgar o Teams, gerando entusiasmo em toda a organização para a próxima fase de lançamento. 
 
-Se você tiver uma pequena empresa, poderá usar essa orientação para começar a implementar o Teams em sua organização. No caso das pequenas empresas, talvez não seja necessário realizar uma implantação em fases do Teams. Não deixe de conferir os modelos disponíveis especificamente para pequenas empresas para tornar a implantação na sua organização mais simples e fácil. Confira[Introdução aos modelos do Teams para pequenas e médias empresas](https://docs.microsoft.com/microsoftteams/smb-templates).
+Se você tiver um pequeno negócio ou se **estiver implantando o Teams rapidamente para dar suporte a uma força de trabalho recentemente remota**, use estas diretrizes de introdução para distribuir o Teams de forma completa em sua organização. Não deixe de conferir os modelos disponíveis especificamente para pequenas empresas para tornar a implantação na sua organização mais simples e fácil. Confira[Introdução aos modelos do Teams para pequenas e médias empresas](https://docs.microsoft.com/microsoftteams/smb-templates).
 
 ## <a name="before-you-get-started"></a>Antes de começar
 
-Antes de começar, você deve planejar a distribuição do Teams analisando o seguinte:
+Com o intuito de se preparar para a implantação do Teams, confira aqui o que você precisa fazer, seja o Teams sua primeira carga de trabalho ("Teams primeiro") ou a próxima carga de trabalho em uma implantação existente do Office 365:
 
-- [Preparo da rede da sua organização para o Teams](prepare-network.md)
-- [Aprenda sobre os benefícios da instalação dos clientes de área de trabalho, clientes da Web e clientes móveis](get-clients.md)
+- [Prepare a rede da sua organização para o Teams](prepare-network.md)
+    - Isso inclui configurar seu domínio do Office 365, o SharePoint Online, o Exchange Online e o OneDrive for Business.
 
-Você também precisa assegurar-se de que possui licenças do Teams para todos. Confira [Comparar os planos do Teams](https://products.office.com/microsoft-teams/free) e [Licenciamento do Office 365 para o Teams](office-365-licensing.md). 
+- Obtenha licenças do Teams para todos. Confira [Planos do Teams](https://products.office.com/microsoft-teams/free) e [Licenciamento do Office 365 para o Teams](office-365-licensing.md). 
 
+- [Aprenda sobre os benefícios da instalação dos clientes de área de trabalho, da Web e móveis](get-clients.md)
+
+- Inicie no Skype for Business ou Lync Server local
+   - [Atualizar do Skype for Business local para o Teams](upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md) 
+   
+   - [Planejar conectividade híbrida entre o Skype for Business Server e o Office 365](https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity)
+   
+   > [!NOTE]
+> Se a sua organização estiver executando o Skype for Business Server (ou Lync Server) local, você deverá [Configurar o Azure AD Connect](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-azure-ad-connect) para sincronizar seu diretório local com o Office 365. 
 
 
 ## <a name="next-steps"></a>Próximas etapas
-Acesse [Criar suas primeiras equipes e canais](get-started-with-teams-create-your-first-teams-and-channels.md).
+
+[Criar suas primeiras equipes e canais](get-started-with-teams-create-your-first-teams-and-channels.md)
 
 Saiba mais com o nosso [Guia interativo de adoção do Teams](https://aka.ms/teamstoolkit).
