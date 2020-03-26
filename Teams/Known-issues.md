@@ -17,12 +17,12 @@ f1.keywords:
 description: Lista atual dos problemas conhecidos do aplicativo do cliente Microsoft Teams e experiência do administrador.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 212f7f2bab023127bcc110133d1b8e574ee0d5de
-ms.sourcegitcommit: 545e466f1fa9163bb00cc96c8db70a70b02af697
+ms.openlocfilehash: 9023c7a7bfe5a629f3f2fdb9589ee3f9ef9efd68
+ms.sourcegitcommit: 0549714f17f9994cf832a303ec9bc58a537c3a51
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "42928284"
+ms.lasthandoff: 03/25/2020
+ms.locfileid: "42951506"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problemas conhecidos do Microsoft Teams
 
@@ -62,11 +62,7 @@ Este artigo lista os problemas conhecidos do Microsoft Teams, por área de recur
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
-|Não é possível adicionar membros a equipes quando UsersPermissionToReadOtherUsersEnabled está definido como falso  <br/> |Quando esse valor é definido como falso no AAD, o cliente não consegue adicionar membros externos/internos no Microsoft Teams, e a seguinte mensagem de erro é exibida: "Não foi possível adicionar o membro. Ocorreu um problema. Tente novamente mais tarde." No entanto, os membros podem ser adicionados diretamente aos grupos do Office 365.    <br/> |Altere essa configuração para verdadeira no AAD.  <br/> |10/04/18  <br/> |
-
-|**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
-|:-----|:-----|:-----|:-----|
-|O gerenciamento de administração dos Conectores de todo o locatário não está mais disponível  <br/> |Ao tentar adicionar um conector na versão de cliente e online, ocorre o erro: Erro inesperado. Tente novamente. Set-OrganizationConfig -ConnectorsEnabled=True   <br/> |Desabilite com as configurações do Microsoft Teams. Veja este artigo de suporte: https://answers.microsoft.com/en-us/msoffice/forum/msoffice_o365admin-mso_teams-mso_o365b/how-to-enable-or-disable-connectors-in-office-365/33d4b2c1-00eb-420a-ad83-01a2b42ad098    <br/> |21/06/17  <br/> |
+|Não é possível adicionar membros a equipes quando UsersPermissionToReadOtherUsersEnabled está definido como falso  <br/> |Quando esse valor é definido como falso no AAD, os usuários não conseguirão adicionar membros externosl/internos ao Microsoft Teams e a seguinte mensagem de erro será exibida: "não foi possível adicionar o membro. Ocorreu um problema. Tente novamente mais tarde." No entanto, membros podem ser adicionados diretamente aos grupos do Office 365.    <br/> |Altere essa configuração para verdadeira no AAD.  <br/> |10/04/18  <br/> |
 
 ## <a name="apps"></a>Aplicativos
 
@@ -77,14 +73,6 @@ Este artigo lista os problemas conhecidos do Microsoft Teams, por área de recur
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
 |O [Acesso Condicional](https://docs.microsoft.com/azure/active-directory/conditional-access/overview) pode não funcionar ao usar a guia "Site" ou "Azure DevOps" no aplicativo da área de trabalho.<br/> |Se um site, como um portal de intranet, tiver políticas de acesso condicional (como restrições de navegador ou de endereço IP ou Conformidade do dispositivo), esse site poderá não ser renderizado como uma guia dentro do Teams no aplicativo da área de trabalho. <br/> |Use o Teams em um navegador em vez de usar o aplicativo da área de trabalho.  <br/> |1/7/18  <br/> |
-
-|**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
-|:-----|:-----|:-----|:-----|
-|As opções do conector estão ausentes para algumas equipes  <br/> |Quando você clica com o botão direito em um canal, a opção Conectores não é exibida para nenhum membro da equipe.  <br/> |O criador da equipe precisa ter uma caixa de correio online; caso contrário, nenhuma opção do conector estará disponível. É esse o comportamento esperado.  <br/> |26/06/2017  <br/> |
-
-|**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
-|:-----|:-----|:-----|:-----|
-|O aplicativo "Tarefas" permanece visível quando desabilitado  <br/> |Quando o aplicativo "Tarefas" está desabilitado no centro de administração, ele permanece visível no cliente Microsoft Teams para usuários com uma licença EDU. Ao selecioná-lo quando desabilitado, será exibido um erro indicando: "Houve algum problema... "  <br/> |Não há solução alternativa.  <br/> |29/12/2017  <br/> |
 
 ## <a name="audio-conferencing"></a>Audioconferência
 
