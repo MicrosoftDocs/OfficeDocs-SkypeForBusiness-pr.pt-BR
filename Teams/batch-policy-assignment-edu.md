@@ -16,12 +16,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Saiba como usar a atribuição de política em lote para atribuir políticas a grandes conjuntos de usuários em sua instituição educacional em grande parte para fins escolares remotos (teleescolares, tele-School).
 f1keywords: ''
-ms.openlocfilehash: 5e3ee25bf4fadea595fc224b2944a12c279f9c59
-ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
+ms.openlocfilehash: 7e297b6a4b99162fb50564d4f552a06f0dc41a10
+ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42892271"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "42978513"
 ---
 # <a name="assign-policies-to-large-sets-of-users-in-your-school"></a>Atribuir políticas a grandes conjuntos de usuários na sua escola
 
@@ -161,7 +161,7 @@ Get-CsUserPolicyAssignment -Identity hannah@contoso.com
 
 ## <a name="faq"></a>Perguntas frequentes
 
-**Quero ter certeza de que todos os usuários que são alunos, funcionários e professores recebem automaticamente licenças atribuídas. Como posso fazer isso?**
+**Quero ter certeza de que todos os usuários que sejam alunos, funcionários e educados recebam automaticamente as políticas atribuídas. Como posso fazer isso?**
 
 A equipe de produto do teams está trabalhando para dar suporte à atribuição de políticas a grupos de segurança. Nesse momento, você poderá criar grupos para seus alunos e professores e, em seguida, as políticas apropriadas a esses grupos. Observe que atribuições explícitas de usuários (como as políticas que você atribuiu usando este tutorial) substituirão as políticas herdadas de um grupo. Quando esse recurso tiver suporte, forneceremos mais instruções sobre como usar a atribuição de política para grupos e atualizar os usuários para garantir que eles recebam as políticas de grupo herdadas.
 

@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cd9ca2fc26c58087992cdee18dee1b1d869a6fa1
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: f411de7f0c373e82b450cd41b828fd591777311b
+ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826099"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "42978453"
 ---
 <a name="assign-team-owners-and-members-in-microsoft-teams"></a>Atribuir proprietários de equipe e membros no Microsoft Teams
 =================================================
@@ -48,9 +48,7 @@ A tabela a seguir mostra a diferença nas permissões entre um proprietário e u
 |        ***Excluir canal privado**         |    Sim     |    Não|
 |          **Adicionar membros**          |  Sim<sup>3</sup>   |     Sem<sup>4</sup>    |
 |          **Solicitação para adicionar membros**          |  Não disponível   |     Sim<sup>5</sup>     |
-|           **Adicionar guias**            |    Sim     |    Sim<sup>2</sup>|
-|        **Adicionar conectores**         |    Sim     |    Sim<sup>2</sup>|
-|           **Adicionar bots**            |    Sim     |    Sim<sup>2</sup>|
+|           **Adicionar aplicativos**            |    Sim     |    Sim<sup>2</sup>|
 
 <sup>1</sup> os proprietários da equipe podem criar equipes, a menos que elas tenham sido limitadas de fazê-lo. [Permissões para criar equipes](#permissions-to-create-teams) abaixo.<br>
 <sup>2</sup> um proprietário pode desativar esses itens no nível da equipe, caso em que os membros não tenham acesso a eles.<br>

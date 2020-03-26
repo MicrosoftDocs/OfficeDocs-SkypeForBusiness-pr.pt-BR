@@ -16,17 +16,17 @@ localization_priority: Normal
 search.appverid: MET150
 description: Aprenda as diferentes maneiras de atribuir políticas a seus usuários no Microsoft Teams.
 f1keywords: ''
-ms.openlocfilehash: 0f0ce566eb395e3bf3722149797908599091bc2a
-ms.sourcegitcommit: 891ba3670ccd16bf72adee5a5f82978dc144b9c1
+ms.openlocfilehash: a3946ab7296603822655ac115ae5826f3f670cea
+ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42691191"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "42978523"
 ---
 # <a name="assign-policies-to-your-users-in-microsoft-teams"></a>Atribuir políticas a seus usuários no Microsoft Teams
 
 > [!NOTE]
-> **Um dos recursos do Microsoft Teams discutidos neste artigo, [atribuição de política a grupos](#assign-a-policy-to-a-group), está atualmente em visualização.**
+> **Um dos recursos do Microsoft Teams discutidos neste artigo, [atribuição de política a grupos](#assign-a-policy-to-a-group), atualmente só está disponível em visualização limitada. Os cmdlets do PowerShell para esse recurso estão no módulo do PowerShell para as equipes de pré-lançamento.**
 
 Como administrador, você usa políticas para controlar os recursos do teams que estão disponíveis para os usuários da sua organização. Por exemplo, há políticas de chamada, políticas de reunião e políticas de mensagens, para citar apenas alguns.
 
@@ -60,7 +60,7 @@ Para saber mais, consulte [regras de precedência](#precedence-rules).
 
 Aqui está uma visão geral de como você pode atribuir políticas a usuários e os cenários recomendados para cada um deles. Clique nos links para saber mais.
 
-|Fazer isso  |Se...  | Usar...
+|Faça isto  |Se...  | Usar...
 |---------|---------|----|
 |[Atribuir uma política a usuários individuais](#assign-a-policy-to-individual-users)    | Você está começando a usar o Microsoft Teams e simplesmente está começando ou só precisa atribuir uma ou algumas políticas a um pequeno número de usuários. |O centro de administração do Microsoft Teams ou cmdlets do PowerShell no módulo do PowerShell do Skype for Business Online
 | [Atribuir um pacote de política](#assign-a-policy-package)   | Você precisa atribuir várias políticas a conjuntos específicos de usuários em sua organização que tenham funções iguais ou semelhantes. Por exemplo, atribua o pacote de política de educação (professor) a professores em sua escola para dar a eles acesso total a chats, chamadas e reuniões e ao pacote de política de educação (aluno secundária) para estudantes secundários limitarem determinados recursos como chamadas privadas.  |O centro de administração do Microsoft Teams ou cmdlets do PowerShell no módulo Teams PowerShell|
@@ -77,8 +77,8 @@ Siga estas etapas para atribuir uma política a um usuário individual ou a um p
 
 Para atribuir uma política a um usuário:
 
-1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para **usuários**e, em seguida, clique no usuário.
-2. Selecione o usuário clicando à esquerda do nome do usuário e, em seguida, clique em **Editar configurações**.
+1. Na barra de navegação à esquerda do centro de administração do Microsoft Teams, vá para **Usuários** e clique no usuário.
+2. Selecione o usuário clicando à esquerda do nome de exibição do usuário e clique em **Editar configurações**.
 3. Selecione a política que você deseja atribuir e clique em **aplicar**.
 
 Para atribuir uma política a até 20 usuários de uma vez, consulte [Editar configurações de usuários do teams em massa](edit-user-settings-in-bulk.md).
@@ -197,7 +197,7 @@ Para saber mais, consulte [Get-CsBatchPolicyAssignmentOperation](https://docs.mi
 
 ## <a name="assign-a-policy-to-a-group"></a>Atribuir uma política a um grupo
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
+**A atribuição de política a grupos só está disponível no momento em visualização limitada. Os cmdlets deste recurso estão no módulo PowerShell de Teams de pré-lançamento.**
 
 A atribuição de política a grupos permite atribuir uma política a um grupo de usuários, como um grupo de segurança ou unidade organizacional. A atribuição de política é propagada para os membros do grupo de acordo com as regras de precedência. Conforme os membros são adicionados ou removidos de um grupo, suas atribuições de política herdadas são atualizadas de acordo.
 

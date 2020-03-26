@@ -17,16 +17,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a1b97e82edd97079c1e4615e5bb7fcf4a1eb2fea
-ms.sourcegitcommit: b6eb22e96be5fb18984f1dd05e4eb8f2cfc032f6
+ms.openlocfilehash: 97f7987d450b5a7b1fc23c39ed1e96ee0f953ae9
+ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 03/26/2020
-ms.locfileid: "42968656"
+ms.locfileid: "42978503"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>Plano para implantações do governo Microsoft 365-GCC
 
-Esta orientação é para os profissionais de ti que estão impulsionando implantações do Office 365 em entidades federais, estaduais, tribal ou outras entidades do governo dos EUA, que manipulam dados sujeitos a normas e requisitos governamentais, onde o uso do Microsoft 365 governo-GCC é adequado para atender a esses requisitos.
+Esta orientação é para os profissionais de ti que estão impulsionando implantações do Office 365 em entidades federais, estaduais, tribal ou outras entidades do governo dos EUA, que manipulam dados sujeitos a normas e requisitos governamentais, onde o uso do Microsoft 365 governo-GCC é adequado para atender a esses requisitos. Novidades de 26 de março de 2020: não perca o nosso [Guia de início rápido para download para gcc](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/Quick-Start-Guide-for-GCC.pdf?raw=true).
 
 > [!IMPORTANT]
 > O Microsoft Teams está experimentando um grande pico em chamadas online e videoconferência/videoconferência devido ao coronavirus (COVID-19) Pandemic.<br/>
@@ -35,7 +35,7 @@ Esta orientação é para os profissionais de ti que estão impulsionando implan
 > 
 >Esses servidores de áudio/vídeo residem nos servidores de limite de capacitação alta do Microsoft Azure FedRAMP nos Estados Unidos e não armazenam qualquer conteúdo do cliente. No entanto, esses servidores estão processando áudio e vídeo para chamadas e conferências e estão operando em nossos funcionários comerciais durante esse período provisório.<br/>
 > 
->Qualificado, o pessoal em tela está monitorando esses servidores para obter acesso potencial a dados dos clientes ao analisar os logs interativos para esses servidores. Os funcionários qualificados atendem aos requisitos de GCC para acessar o conteúdo do cliente. Para obter detalhes sobre requisitos de triagem, consulte a [Descrição de serviço gcc](Office365-ServiceDescriptions\office-365-platform-service-description\office-365-us-government\gcc.md).<br/>
+>Qualificado, o pessoal em tela está monitorando esses servidores para obter acesso potencial a dados dos clientes ao analisar os logs interativos para esses servidores. Os funcionários qualificados atendem aos requisitos de GCC para acessar o conteúdo do cliente. Para obter detalhes sobre requisitos de triagem, consulte a [Descrição de serviço gcc](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc).<br/>
 > 
 >Obrigado pelo seu suporte, pois seguimos as etapas para garantir que nossos serviços permaneçam disponíveis e confiáveis nestes momentos extraordinários.<br/>
 

@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Saiba mais sobre os fatores a serem considerados antes de configurar eventos ao vivo no Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6f0c141751a9b67a47640ba5210c3cb7aeeadbb2
-ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
-ms.translationtype: HT
+ms.openlocfilehash: ecd08f71545bcaf2775b3e502860b9d6a8e234fc
+ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42558561"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "42978413"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planejar eventos ao vivo no Microsoft Teams
 
@@ -64,13 +64,13 @@ O usuário deverá ter:
 |**Visibilidade do participante**       |**Produção do Teams**  |**Produção de dispositivos ou aplicativos externos**  |
 |------------------------------|-----------------|----------------------|
 |Público (usuários anônimos)      |  Sim            |  Não                  |
-|Usuários convidados                   |  Não<sup>1</sup> |  Não                  |
-|Todos na empresa federada |  Não<sup>2</sup> |  Não                  |
+|Usuários convidados                   |  Sim            |  Não                  |
+|Todos na empresa federada |  Sim<sup>1</sup>|  Não                  |
 |Todos na empresa           |  Sim            |  Sim                 |
 |Grupos / Pessoas específicos(as)      |  Sim            |  Sim                 |
 
-<sup>1</sup> Podem assistir a eventos ao vivo se o evento ao vivo estiver configurado usando a opção **Toda a organização**.<br>
-<sup>2</sup> Podem somente assistir a eventos ao vivo como usuários anônimos.
+<sup>1</sup> participantes federados só podem ser convidados por meio de pessoas & grupo <br>
+
 
  
 ## <a name="teams-live-events-and-skype-meeting-broadcast"></a>Eventos ao vivo do Teams e Transmissão de Reunião do Skype

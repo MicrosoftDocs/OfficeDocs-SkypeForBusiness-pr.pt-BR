@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 13c3267378d4e8fbc5b3d3631606cf0824ea7a44
-ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
+ms.openlocfilehash: ced9ab01c5f33ef2b8095079443c447c301ee742
+ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42417846"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "42978593"
 ---
 # <a name="quality-of-experience-review-guide"></a>Guia de revisão da experiência de qualidade
 
@@ -68,13 +68,13 @@ Esta tabela mostra o que cada função pode fazer no CQD:
 
 |  |Exibir relatórios  |Exibir campos EUII  |Criar relatórios  |Carregar dados de construção  |
 |---------|:-------:|:-------:|:-------:|:-------:|
-|Administrador global do Office 365     |Sim         |Sim          |Sim          |Sim         |
-|Administrador de Serviço de Equipes     |Sim         |Sim          |Sim          |Sim         |
-|Administrador de Comunicações de Equipes     |Sim         |Sim          |Sim          |Sim         |
-|Engenheiro de Suporte de Comunicações de Equipes     |Sim         |Sim          |Sim         |Não         |
+|Administrador global do Office 365     |Sim          |Sim          |Sim          |Sim         |
+|Administrador de Serviço de Equipes     |Sim          |Sim          |Sim          |Sim         |
+|Administrador de Comunicações de Equipes     |Sim          |Sim          |Sim          |Sim         |
+|Engenheiro de Suporte de Comunicações de Equipes     |Sim          |Sim          |Sim         |Não         |
 |Especialista em suporte do teams Communications     |Sim         |Não         |Sim         |Não         |
-|Administrador do Skype for Business     |Sim         |Sim          |Sim          |Sim         |
-|Leitor global do Azure AD |Sim         |Sim          |Sim         |Não         |
+|Administrador do Skype for Business     |Sim          |Sim          |Sim          |Sim         |
+|Leitor global do Azure AD |Sim          |Sim          |Sim         |Não         |
 |Leitor de relatórios<sup>1</sup> do Office 365     |Sim         |Não         |Sim         |Não         |
 
 <sup>1</sup> além de ler relatórios do CQD, o leitor de relatórios do Office 365 pode exibir todos os [relatórios de atividades](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263) no centro de administração e todos os relatórios do pacote de conteúdo de [adoção do Microsoft 365](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f).
@@ -652,6 +652,7 @@ _Tabela 5 – criando a estrutura de arquivos_
 | Região             | Cadeia de caracteres    | MSUS                      | Recomendado |
 | InsideCorp         | Bool      | 1                         | Obrigatório    |
 | ExpressRoute       | Bool      | 0                         | Obrigatório    |
+| VPN                | Bool      | 0                         | Opcional    |
 
 \*Embora não seja exigido pela CQD, os modelos são configurados para exibir o prédio e o nome da rede.
 
@@ -701,7 +702,7 @@ Os dados de qualidade da experiência (QoE) que os clientes enviam para o Office
   _Figura 13-VPN usando o nome da construção_
 
 > [!IMPORTANT]
-> Algumas implementações de VPN não relatam precisamente as informações de sub-rede. Se isso ocorrer em seus relatórios, recomendamos que, ao adicionar uma sub-rede VPN ao arquivo de construção, em vez de uma entrada para a sub-rede, adicione entradas separadas para cada endereço na sub-rede VPN como uma rede de 32 bits separada. Cada linha pode ter os mesmos metadados de construção. Por exemplo, em vez de uma linha para 172.16.18.0/24, você tem 253 linhas com uma linha para cada endereço de 172.16.18.1/32 a 172.16.18.254/32, inclusive.
+> Algumas implementações de VPN não relatam precisamente as informações de sub-rede. Isso ocorre porque o cliente VPN é fornecido com uma sub-rede de 32 bits.  Conforme mencionado na seção anterior, o CQD não pode identificar corretamente uma sub-rede de 32 bits.  Para identificar precisamente uma sub-rede VPN no CQD, defina o campo VPN como 1 no arquivo de construção.
 
 
 > [!NOTE]
