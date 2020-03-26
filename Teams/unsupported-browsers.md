@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Saiba como as equipes dão suporte a áudio e vídeo em navegadores sem suporte.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5f2fc7ee97a5172a849c14d9ede6d93ffc08d302
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 1dfd2ba704aa2428555dd126c506e1673a120b72
+ms.sourcegitcommit: 46b15a11755a89526be2a0b20befad61c628cdb4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837251"
+ms.lasthandoff: 03/25/2020
+ms.locfileid: "42955710"
 ---
 # <a name="microsoft-teams-meetings-on-unsupported-browsers"></a>Reuniões do Microsoft Teams em navegadores sem suporte
 
@@ -43,7 +43,8 @@ As pessoas que usam o aplicativo Web Teams em navegadores sem suporte perceberã
 - Se a chamada for interrompida, a reunião não será reconectada automaticamente.
 - Os usuários não podem iniciar reuniões.
 
+Para obter mais informações sobre o suporte do navegador no Microsoft Teams, consulte [limites e especificações para o Teams](/microsoftteams/limits-specifications-teams#browsers).
+
 ## <a name="related-topics"></a>Tópicos relacionados
 
 - [Ingressar em uma reunião do Microsoft Teams em um navegador sem suporte](https://support.office.com/article/daafdd3c-ac7a-4855-871b-9113bad15907)
-- [Especificações e limites do Teams](/microsoftteams/limits-specifications-teams#browsers)

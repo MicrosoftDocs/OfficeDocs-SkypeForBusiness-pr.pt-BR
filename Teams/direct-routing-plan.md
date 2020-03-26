@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Leia este tópico para saber como o roteamento direto do sistema de telefone da Microsoft permite que você conecte um controlador de borda de sessão (SBC) compatível com o cliente ao Microsoft Phone System.
-ms.openlocfilehash: 5efed6ed21e6eb4bfa4e2ae89e625595b0307ada
-ms.sourcegitcommit: 545e466f1fa9163bb00cc96c8db70a70b02af697
+ms.openlocfilehash: be0d901095afa322935944a9b4898e540946bf8a
+ms.sourcegitcommit: 46b15a11755a89526be2a0b20befad61c628cdb4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "42928434"
+ms.lasthandoff: 03/25/2020
+ms.locfileid: "42955720"
 ---
 # <a name="plan-direct-routing"></a>Planejar o Roteamento Direto
 
@@ -175,7 +175,8 @@ O certificado precisa ser gerado por uma das seguintes autoridades de certifica�
 - Vá Daddy
 - GeoTrust
 - Verisign, Inc. 
-- Starfield 
+- SSL.com
+- Starfield
 - Raiz móvel do Symantec Enterprise para Microsoft 
 - SwissSign
 - CA de carimbo de data/hora da Thawte
