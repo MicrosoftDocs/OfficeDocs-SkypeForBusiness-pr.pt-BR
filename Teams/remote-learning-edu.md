@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e7a27d8f3d6da0521b09ab2c1a011eab9aa7235f
-ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
+ms.openlocfilehash: 28fe29133384f082dd7b8e51bcff1705906efc94
+ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42892341"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "42978493"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>Introdução ao Microsoft Teams para aprendizado remoto
 
@@ -79,7 +79,8 @@ Este é um conjunto de configurações de política comum não padrão que podem
 
 #### <a name="messaging-policy"></a>Políticas de mensagens
 
-- Mudar a configuração para "desligado"
+- Excluir as mensagens enviadas definidas como ''Desativado''
+- Editar as mensagens enviadas definidas como ''Desativado''
 - Classificação de conteúdo Giphy definido como "estrito"
 - Traduzir as mensagens definido como "ligado"
 - Enviar mensagens urgentes usando as notificações de prioridade definido como "desligado"
