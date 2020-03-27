@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Saiba como atribuir, alterar ou remover um número de telefone comercial para seus usuários de equipe para que empresas e clientes externos possam fazer chamadas.
-ms.openlocfilehash: 08f662abbad8d7e59d6ed543257d7bb1116e08f1
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: b406a303352afaf29537815e98aed2d660670f12
+ms.sourcegitcommit: 89a7c0427a5abbef838a17ae7eac6934c6176a35
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826989"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "42982104"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>Atribuir, alterar ou remover o número de telefone de um usuário
 
@@ -50,7 +50,7 @@ Para saber como obter planos de chamada no Teams e quanto eles custam, consulte 
 4. Para atribuir ou alterar o local de emergência associado, em **local de emergência**, procure e selecione o local.
 6. Clique em **Salvar**.
     > [!NOTE]
-    > Devido à latência entre o Office 365 e o Teams, pode levar até 24 horas para os usuários serem habilitados. Se após 24 horas, se o número de telefone não estiver atribuído corretamente, [entre em contato com o serviço de suporte PSTN](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md). Estamos aqui para ajudar!
+    > Devido à latência entre o Office 365 e o Teams, pode levar até 24 horas para os usuários serem habilitados. Se após 24 horas, se o número de telefone não estiver atribuído corretamente, [entre em contato com o suporte para produtos empresariais-ajuda para administradores](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products). Estamos aqui para ajudar!
   
 ## <a name="change-a-phone-number-for-a-user"></a>Alterar um número de telefone para um usuário
  

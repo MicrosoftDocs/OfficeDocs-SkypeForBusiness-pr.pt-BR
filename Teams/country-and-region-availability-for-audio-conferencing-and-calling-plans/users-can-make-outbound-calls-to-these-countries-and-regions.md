@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Este tópico informa todos os países/regiões em que os usuários podem fazer chamadas de saída, caso tenham um Plano de Chamada.
-ms.openlocfilehash: d882078c32b5820dc060778dca4c3f30b4b2a044
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
-ms.translationtype: HT
+ms.openlocfilehash: 09e6fae92c7708e13c8b1eb595d76bf313dbba0c
+ms.sourcegitcommit: 89a7c0427a5abbef838a17ae7eac6934c6176a35
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41682508"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "42982124"
 ---
 # <a name="users-can-make-outbound-calls-to-these-countries-and-regions"></a>Os usuários podem fazer chamadas de saída para esses países e regiões
 
@@ -53,7 +53,7 @@ ms.locfileid: "41682508"
 |Azerbaijão |Geórgia |Coreia, República da |Mônaco | Federação Russa |Estados Unidos (EUA)  |
 |Bahamas |Alemanha |Kuwait |Mongólia |Ruanda | Uruguai |
 |Bahrein |Gana |Quirguistão |Montenegro | São Cristóvão e Névis |Uzbequistão  |
-|Bangladesh |Gialtar |Laos |Montserrat | Santa Lúcia |Cidade do Vaticano  |
+|Bangladesh |Gibraltar |Laos |Montserrat | Santa Lúcia |Cidade do Vaticano  |
 |Barbados |Grécia |Letônia |Marrocos |São Vicente e Granadinas |Venezuela   |
 |Belarus |Groenlândia |Líbano |Moçambique | San Marino |Vietnã  |
 |Bélgica |Granada |Lesoto |Mianmar | Arábia Saudita | Ilhas Virgens (Britânicas) |

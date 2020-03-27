@@ -14,12 +14,12 @@ ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection:
 - M365-collaboration
 description: Este artigo resume os requisitos para dar suporte a salas do Microsoft Teams.
-ms.openlocfilehash: e19537005717a803740f268f2d8f766ed2d87303
-ms.sourcegitcommit: 169107e56dbc7f887e709e6304521ce959658990
+ms.openlocfilehash: c20da0aaa42f9e11b8bb0aba3a1f9c0248c24c7b
+ms.sourcegitcommit: 89a7c0427a5abbef838a17ae7eac6934c6176a35
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42728930"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "42982114"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Requisitos de salas do Microsoft Teams
 
@@ -48,7 +48,7 @@ Uma implantação de hardware inclui uma seleção de um sistema de sala do Micr
 
 Todos os dispositivos e pacotes da sala do Microsoft Teams atuais estão disponíveis na [apresentação de produto de sistemas da sala](https://products.office.com/microsoft-teams/across-devices/devices/category?devicetype=20&page=1&filterIds=).
 
-  |Console|631|RAM|Disco|
+  |Console|Processador|RAM|Disco|
   |:-----|:-----|:-----|:-----|
   |[Crestron Flex-M130-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M130-T)|Core i5|8 GB |128 GB |
   |[Crestron Flex-B130-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B130-T)|Core i5|8 GB |128 GB |
@@ -63,6 +63,7 @@ Todos os dispositivos e pacotes da sala do Microsoft Teams atuais estão dispon�
   |[Yealink MVC800](https://www.yealink.com/products_125.html)|Core i5|8 GB|128 GB|
   |[Yealink MVC500](https://www.yealink.com/products_126.html)|Core i5|8 GB |128 GB |
   |[Yealink MVC300](https://www.yealink.com/products_154.html)|Core i5|8 GB |128 GB |
+  |[Yealink MVC900](https://www.yealink.com/product/microsoft-teams-room-system-mvc900)|Core i5|8 GB|128 GB|
   ||||||
 
 > [!NOTE]
@@ -71,7 +72,7 @@ Todos os dispositivos e pacotes da sala do Microsoft Teams atuais estão dispon�
 
 **Tablets da Surface pro suportados para sistemas de encaixe em estilo**
 
-  |Sofrer|631|RAM|Disco|
+  |Sofrer|Processador|RAM|Disco|
   |:-----|:-----|:-----|:-----|
   |Surface pro 6| Core i5 |16 GB ou 8 GB |128 GB ou mais |
   |Surface pro </br>(quinta geração) |Core i5 |8 GB ou 4 GB |128 GB ou mais |

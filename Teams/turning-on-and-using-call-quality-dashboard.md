@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
 description: 'Veja como ativar e usar o painel de qualidade da chamada e obter relatórios resumidos de qualidade das chamadas. '
-ms.openlocfilehash: 9e9c70c88aec9fcdf898d94a17f46f76bd2c608a
-ms.sourcegitcommit: 98fcfc03c55917d0aca48b7bd97988f81e8930c1
+ms.openlocfilehash: 7fafbebaa21a6bbd71ab0e253f226908d6787869
+ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42559878"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "42983334"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Ativar e usar o painel de qualidade de chamada do Microsoft Teams e do Skype for Business Online
 
@@ -94,7 +94,7 @@ O CQD versão 1 fornecido com o Skype for Business Server 2015 tem os seguintes 
 
 ## <a name="cqd-near-real-time-nrt-data"></a>Dados CQD (NRT) ao redor do tempo real
 
-O CQD avançado (v3, lançado em novembro de 2019) usa um feed de dados quase em tempo real. Os registros de chamadas estão disponíveis no portal do CQD em até 30 minutos após o término da chamada. Os registros de chamadas do pipeline do NRT só estão disponíveis por alguns meses antes de serem removidos do conjunto de dados. O CQD v3 combina dados do pipeline v2 atual com dados do NRT do pipeline v3. As consultas nos portais V2 e v3 dos dados do período de arquivamento produzem os mesmos resultados. As consultas de dados V2 e V3 para os dados do NRT e os dados do NRT + períodos PII serão diferentes.
+O CQD avançado (v3, lançado em novembro de 2019) usa um feed de dados quase em tempo real. Os registros de chamadas estão disponíveis no portal do CQD em média em 30 minutos (em comparação com o CQD anterior, que está na média de 24 horas). Os registros de chamadas do pipeline do NRT só estão disponíveis por alguns meses antes de serem removidos do conjunto de dados. O CQD v3 combina dados do pipeline v2 atual com dados do NRT do pipeline v3. As consultas nos portais V2 e v3 dos dados do período de arquivamento produzem os mesmos resultados. As consultas de dados V2 e V3 para os dados do NRT e os dados do NRT + períodos PII serão diferentes.
 
 ### <a name="piieuii-data"></a>Dados PII/EUII
 
@@ -420,7 +420,7 @@ Se você criou relatórios ou carregou arquivos de dados locatários (mapeamento
 
 Se você acha que deseja criar um relatório específico que se concentre em uma dimensão dos dados de uma maneira que os relatórios detalhados fornecidos não o fazem, crie um relatório personalizado.
 
-Na lista suspensa de relatórios na parte superior da tela exibida ao \(fazer logon na tela **** \) relatórios resumidos, selecione **relatórios detalhados** e, em seguida, **novo** d clique em "Editar" no menu Ação de um relatório para ver o editor de consultas. Cada relatório é respaldado por uma consulta no cubo. Um relatório é uma visualização dos dados retornados por sua consulta. O editor de consultas ajuda você a editar essas consultas e as opções de exibição do relatório. Ao abrir o editor de consultas para um novo relatório, você verá algo semelhante a esta captura de tela:
+Na lista suspensa de relatórios na parte superior da tela exibida ao \(fazer logon na tela **Summary Reports** \) relatórios resumidos, selecione **relatórios detalhados** e, em seguida, **novo** d clique em "Editar" no menu Ação de um relatório para ver o editor de consultas. Cada relatório é respaldado por uma consulta no cubo. Um relatório é uma visualização dos dados retornados por sua consulta. O editor de consultas ajuda você a editar essas consultas e as opções de exibição do relatório. Ao abrir o editor de consultas para um novo relatório, você verá algo semelhante a esta captura de tela:
 
 ![Editar novos relatórios](media/e8969625-e6f9-4d67-873f-93e78dd12b35.png)
 
