@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8e2f0a0d585b7bf21175ebf8dd0ab31e16133e11
-ms.sourcegitcommit: 29034bda30a8460eb18600785f785528d0944041
+ms.openlocfilehash: 8cb9e4c4b46e732b2cc96b58b67522a8a9da678c
+ms.sourcegitcommit: a2b2ae17a35f530f797504bb85b44f1a0f561a7d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "42285843"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "42983807"
 ---
 <a name="microsoft-teams-resources-for-education-admins"></a>Recursos do Microsoft Teams para administradores de Educação
 ==============================================
@@ -36,6 +36,7 @@ Leia os [termos e condições](https://github.com/MicrosoftDocs/OfficeDocs-Skype
 
 | |  |
 |---------|---------|
+|[Folheto de dicas e truques](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/get-started-tips-tricks.zip?raw=true)<br> ![Tomada](media/edu-adoption-get-started.png)    |
 |Cartazes-pronto para [personalização](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters-customizable.zip?raw=true) e [impressão](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters-print-ready.zip?raw=true)<br>![Captura de tela de um cartaz](media/edu-adoption-posters.png)     |[Folhetos](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/handouts.zip?raw=true)<br>![Captura de tela de um folheto](media/edu-adoption-handouts.png)|
 |[Panfletos](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/flyers.zip?raw=true)<br>![Captura de tela de um panfleto](media/edu-adoption-flyers.png)   |[Anúncios de livros](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/book-adverts.zip?raw=true)<br>![Captura de tela de um anúncio de livro](media/edu-adoption-book-adverts.png)         |
 

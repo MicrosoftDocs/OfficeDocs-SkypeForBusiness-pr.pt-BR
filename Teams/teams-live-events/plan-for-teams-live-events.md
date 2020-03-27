@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Saiba mais sobre os fatores a serem considerados antes de configurar eventos ao vivo no Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ecd08f71545bcaf2775b3e502860b9d6a8e234fc
-ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
+ms.openlocfilehash: 816cfb3c971621a367dcf81d1ec555e9735bda9d
+ms.sourcegitcommit: a2b2ae17a35f530f797504bb85b44f1a0f561a7d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42978413"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "42983857"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planejar eventos ao vivo no Microsoft Teams
 
@@ -81,6 +81,7 @@ A tabela a seguir destaca os principais recursos oferecidos em eventos ao vivo e
 |---------|---------|---------|---------|
 |Tamanho máximo da audiência |10.000 participantes |10.000 participantes<sup>1</sup> |10.000 participantes<sup>1</sup> |
 |Duração máxima do evento ao vivo |4 horas |4 horas |4 horas |
+|Número máximo de apresentadores e produtores em um evento ao vivo |10 <sup>2</sup> |10 <sup>2</sup> |10 <sup>2</sup> |
 |Número máximo de eventos ao vivo simultâneos por locatário do Office 365 |15  | 15  | 15  |
 |Criação de evento ao vivo |   Portal de Transmissão de Reunião do Skype |Teams, Yammer via Teams | Teams, Yammer via Teams, Stream |
 |Envolvimento do público – Yammer  |&#x2714; |&#x2714; (experiência integrada) |&#x2714; (experiência integrada) |
@@ -104,7 +105,9 @@ A tabela a seguir destaca os principais recursos oferecidos em eventos ao vivo e
 |Relatório de participação posterior à transmissão para Produtores |&#x2714; |&#x2714; |X |
 |Análise de opiniões do público – Votação ao vivo e sondagens  |&#x2714; (Microsoft Pulse) |X |X |
 
-<sup>1</sup> Os limites que são definidos podem ser alterados.
+<sup>1</sup> Os limites que são definidos podem ser alterados.<br/>
+<sup>2</sup> você pode ter até 250 apresentadores e produtores em um evento ao vivo, mas apenas os últimos 10 que o spoke mostrar na lista.
+
 
 ## <a name="regional-availability"></a>Disponibilidade regional
 Você pode usar os eventos ao vivo do Teams em várias regiões do mundo inteiro. As informações a seguir mostram a disponibilidade dos membros e participantes da equipe de eventos. 
