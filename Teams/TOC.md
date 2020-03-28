@@ -640,6 +640,7 @@
 ### [Introdução aos modelos de varejo do Teams](get-started-with-retail-teams-templates.md)
 
 ## [Teams para a Administração Pública](expand-teams-across-your-org/teams-for-government-landing-page.md)
+### [Oferecer suporte aos trabalhadores remotos (WFH)](expand-teams-across-your-org/GOV-support-remote-work-with-teams.md)
 ### [Gerenciar a oferta de Avaliação do Office 365 G1](g1-trial-license.md)
 ### [Plano para o Microsoft 365 Government - GCC](plan-for-government-gcc.md)
 ### [Plano para o Microsoft 365 Government - GCC Alto](plan-for-government-gcc-high.md)
