@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Use este guia para ajudar os funcionários remotos da sua organização a serem produtivos usando o Microsoft Teams, especialmente quando estiverem trabalhando em casa (WFH) em resposta à epidemia de COVID-19 (coronavírus).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8ee5947aee6055a1e69f3d404c7d341c93fd7433
-ms.sourcegitcommit: f96d66d08a9d6993edbb9554738dc8236d901933
+ms.openlocfilehash: f954e9dff86b8c660d416a1aed8031912207ea4f
+ms.sourcegitcommit: ce6b6b57eb9683649f589b747163110bf42ae420
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "43053594"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "43062661"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>Ofereça suporte a trabalhadores remotos usando o Microsoft Teams
 
@@ -111,6 +111,13 @@ Compartilhe esses ativos e vídeos com seus usuários finais para ajudá-los a c
    - Blog de Segurança da Microsoft (26 de março de 2020): [Maneiras alternativas para profissionais de segurança e TI alcançarem controles de segurança modernos nos cenários atuais de trabalho remoto](https://www.microsoft.com/security/blog/2020/03/26/alternative-security-professionals-it-achieve-modern-security-controls-todays-unique-remote-work-scenarios/)
 
    - [Trabalhe remotamente, fique em segurança - orientações para CISOs](https://www.microsoft.com/security/blog/?p=90736)
+
+   - [As 12 principais tarefas para as equipes de segurança dar suporte ao trabalho em casa](https://docs.microsoft.com/microsoft-365/security/top-security-tasks-for-remote-work)
+   
+   - [Otimizar a conectividade do Office 365 para usuários remotos usando a criação de túnel dividido de VPN](https://docs.microsoft.com/pt-BR/Office365/Enterprise/office-365-vpn-split-tunnel)
+
+   - [Segurança e Teams](teams-security-guide.md) entra em todos os detalhes técnicos da segurança do Teams, como parte das práticas recomendadas e procedimentos de segurança de nível empresarial do Microsoft 365.
+
 
     
 3. Leia nossos novos conteúdos sobre como trabalhar remotamente e compartilhe-os com seus usuários:

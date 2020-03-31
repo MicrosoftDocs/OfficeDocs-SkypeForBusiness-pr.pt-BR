@@ -16,16 +16,19 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fe895fee4f3bc0872d277429289b5d04d6c9161d
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 8fc2a66e2414350a56874583af6a00f688450f0e
+ms.sourcegitcommit: 996ae0d36ae1bcb3978c865bb296d8eccf48598e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837991"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "43068513"
 ---
 # <a name="set-up-the-call-me-feature-for-your-users"></a>Configurar o recurso Telefonar para Mim para os usuários
 
 No Microsoft Teams, o recurso **Call me** fornece aos usuários uma maneira de ingressar na parte de áudio de uma reunião por telefone. Isso é útil em cenários em que o uso de um computador para áudio pode não ser possível. Os usuários obtêm a parte de áudio da reunião por meio de seu telefone celular ou linha terrestre e a parte&mdash;de conteúdo da reunião, quando outro participante da reunião compartilha sua&mdash;tela ou reproduz um vídeo por meio de seu computador.
+
+> [!IMPORTANT]
+> Durante a duração da epidemia do COVID-19, recomendamos que os usuários ingressem em reuniões clicando no botão **ingressar na reunião do teams** , em vez de discar usando os números de conferência PSTN ou usando ligar para o **telefone**. Isso ajuda a garantir o áudio de qualidade durante o tempo em que o volume de reunião alta está causando congestionamento na rede PSTN.
 
 ## <a name="the-user-experience"></a>A experiência do usuário
 

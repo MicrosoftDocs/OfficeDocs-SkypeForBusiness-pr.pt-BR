@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Use este guia para oferecer suporte à sua força de trabalho remota quando estiverem trabalhando em casa (WFH) em resposta à epidemia de COVID-19 (coronavírus).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 336286f2dc107cc4f79bd874789866c352c1e522
-ms.sourcegitcommit: f96d66d08a9d6993edbb9554738dc8236d901933
+ms.openlocfilehash: 720a94f86bd8ca0d84d682b15d59461a4b9133fb
+ms.sourcegitcommit: 62969bd1c3a74412aa692709d497b8c6c5992c5c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "43053544"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "43059395"
 ---
 # <a name="faq-support-your-remote-workforce"></a>Perguntas frequentes: Suporte para sua força de trabalho remota
 
@@ -36,7 +36,8 @@ A Microsoft tem expandindo significativamente a capacidade nas principais regiõ
 > [!NOTE]
 > Se você já configurou com o M365 e quer saber mais sobre as ações que a Microsoft está fazendo, vá ao Centro de Mensagens e analise a postagem **MC205458**.
 
-Não perca a nossa postagem de blog de 5 de março de 2020 com um artigo de Jared Spataro, vice-presidente corporativo da Microsoft 365: [Nosso compromisso com os clientes durante o COVID-19](https://www.microsoft.com/pt-BR/microsoft-365/blog/2020/03/05/our-commitment-to-customers-during-covid-19/)
+Não perca a nossa postagem de blog de 5 de março de 2020 com um artigo de Jared Spataro, vice-presidente corporativo da Microsoft 365: [Nosso compromisso com os clientes durante o COVID-19](https://www.microsoft.com/pt-BR/microsoft-365/blog/2020/03/05/our-commitment-to-customers-during-covid-19/).
+
 
 ### <a name="with-the-actions-that-microsoft-is-taking-do-we-anticipate-problems"></a>Com as ações executadas pela Microsoft, os problemas serão previstos?
 
