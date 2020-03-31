@@ -135,60 +135,41 @@
 | 3/20/2020 | [Gerenciar a experiência do Microsoft Teams Exploratory](/MicrosoftTeams/teams-exploratory) | modificado |
 
 
-## <a name="week-of-february-17-2020"></a>Semana de 17 de fevereiro de 2020
+## <a name="week-of-march-30-2020"></a>Semana de 30 de março de 2020
 
 
 | Publicado em |Título do tópico | Alteração |
 |------|------------|--------|
-| 2/21/2020 | [Usar a ferramenta de recuperação das Salas do Microsoft Teams](/MicrosoftTeams/rooms/recovery-tool) | modificado |
-| 2/21/2020 | [Aplicativos, bots e conectores no Microsoft Teams](/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page) | modificado |
-| 2/21/2020 | [Lista de controladores de borda da sessão certificados para Roteamento Direto](/MicrosoftTeams/direct-routing-border-controllers) | modificado |
-| 2/21/2020 | [Gerenciar seus aplicativos no centro de administração do Microsoft Teams](/MicrosoftTeams/manage-apps) | modificado |
-| 2/21/2020 | [Gerenciar seus aplicativos de linha de negócios no Microsoft Teams](/MicrosoftTeams/manage-your-lob-apps) | modificado |
-| 2/21/2020 | [Gerenciar políticas de configuração de aplicativo no Microsoft Teams](/MicrosoftTeams/teams-app-setup-policies) | modificado |
-| 2/21/2020 | Publicar aplicativos no catálogo de aplicativos do Microsoft Teams locatário | removido |
-| 2/21/2020 | [Usar funções de administrador do Microsoft Teams para gerenciar equipes](/MicrosoftTeams/using-admin-roles) | modificado |
-
-
-## <a name="week-of-february-24-2020"></a>Semana de 24 de fevereiro de 2020
-
-
-| Publicado em |Título do tópico | Alteração |
-|------|------------|--------|
-| 2/25/2020 | [Instalar o Microsoft Teams usando MSI por meio do Microsoft Endpoint Configuration Manager](/MicrosoftTeams/msi-deployment) | modificado |
-| 2/25/2020 | Exemplo de script do PowerShell - Ajuda na limpeza de implantação do Microsoft Teams | removido |
-| 2/25/2020 | [Teams para Infraestrutura de Área de Trabalho Virtualizada](/MicrosoftTeams/teams-for-vdi) | modificado |
-| 2/25/2020 | [Lista de controladores de borda da sessão certificados para Roteamento Direto](/MicrosoftTeams/direct-routing-border-controllers) | modificado |
-| 2/25/2020 | [Recursos do Microsoft Teams para administradores de Educação](/MicrosoftTeams/resources-teams-edu) | modificado |
-| 2/26/2020 | [Como o Exchange e o Microsoft Teams interagem](/MicrosoftTeams/exchange-teams-interact) | modificado |
-| 2/26/2020 | [Usar o assistente do Guia de Introdução para configurar o Business Voice](/MicrosoftTeams/business-voice/use-getting-started-wizard) | modificado |
-| 2/26/2020 | [Chat, equipes, canais e aplicativos no Microsoft Teams](/MicrosoftTeams/deploy-chat-teams-channels-microsoft-teams-landing-page) | modificado |
-| 2/26/2020 | [Recursos do Microsoft Teams para administradores de Educação](/MicrosoftTeams/resources-teams-edu) | modificado |
-| 2/26/2020 | [Visão geral de segurança e conformidade no Microsoft Teams](/MicrosoftTeams/security-compliance-overview) | modificado |
-| 2/26/2020 | [Criar uma equipe englobando toda a organização no Microsoft Teams](/MicrosoftTeams/create-an-org-wide-team) | modificado |
-| 2/26/2020 | [Veja aqui o que você obtém com o Sistema de Telefonia no Office 365](/MicrosoftTeams/here-s-what-you-get-with-phone-system) | modificado |
-| 2/26/2020 | [Treinamento com instrutor e vídeos para usuários do Microsoft Teams](/MicrosoftTeams/instructor-led-training-teams-landing-page) | modificado |
-| 2/26/2020 | [Gerenciar equipes durante a transição para o novo centro de administração do Microsoft Teams](/MicrosoftTeams/manage-teams-skypeforbusiness-admin-center) | modificado |
-| 2/26/2020 | [Obter clientes para o Microsoft Teams](/MicrosoftTeams/get-clients) | modificado |
-| 2/27/2020 | [Usar o suplemento de Reunião do Microsoft Teams no Outlook](/MicrosoftTeams/teams-add-in-for-outlook) | modificado |
-| 2/27/2020 | [Coexistência com o Skype for Business](/MicrosoftTeams/coexistence-chat-calls-presence) | modificado |
-| 2/27/2020 | [Gerenciar seus dispositivos no Microsoft Teams](/MicrosoftTeams/device-management) | modificado |
-| 2/27/2020 | [Lista de controladores de borda da sessão certificados para Roteamento Direto](/MicrosoftTeams/direct-routing-border-controllers) | modificado |
-| 2/27/2020 | [Tarefas do Teams](/MicrosoftTeams/expand-teams-across-your-org/assignments-in-teams) | modificado |
-| 2/27/2020 | [Obter clientes para o Microsoft Teams](/MicrosoftTeams/get-clients) | modificado |
-| 2/27/2020 | [Obtenha o Microsoft Teams para Android na China](/MicrosoftTeams/get-teams-android-in-china) | modificado |
-| 2/27/2020 | [Requisitos de hardware para o Microsoft Teams](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | modificado |
-| 2/27/2020 | [Instalar o Microsoft Teams usando MSI por meio do Microsoft Endpoint Configuration Manager](/MicrosoftTeams/msi-deployment) | modificado |
-| 2/27/2020 | [Telefones e dispositivos para Teams](/MicrosoftTeams/teams-ip-phones) | modificado |
-| 2/27/2020 | [Usar funções de administrador do Microsoft Teams para gerenciar equipes](/MicrosoftTeams/using-admin-roles) | modificado |
-| 2/28/2020 | [Entre em contato com o serviço de suporte PSTN](/MicrosoftTeams/manage-phone-numbers-for-your-organization/contact-pstn-service-desk) | modificado |
-| 2/28/2020 | [Ofereça suporte a trabalhadores remotos usando o Microsoft Teams](/MicrosoftTeams/support-remote-work-with-teams) | modificado |
-| 2/28/2020 | [Teams para Infraestrutura de Área de Trabalho Virtualizada](/MicrosoftTeams/teams-for-vdi) | modificado |
-| 2/28/2020 | [Pesquisar o registro de auditoria de eventos no Teams](/MicrosoftTeams/audit-log-events) | modificado |
-| 2/28/2020 | [Roteamento direto – conectando dispositivos analógicos](/MicrosoftTeams/direct-routing-analog-devices) | modificado |
-| 2/28/2020 | [Roteamento Direto do Sistema Telefônico](/MicrosoftTeams/direct-routing-call-notifications) | modificado |
-| 2/28/2020 | [Barreiras de informação no Microsoft Teams](/MicrosoftTeams/information-barriers-in-teams) | modificado |
-| 2/28/2020 | [Colocar um usuário ou uma equipe do Microsoft Teams em retenção legal](/MicrosoftTeams/legal-hold) | modificado |
-| 2/28/2020 | [Visão geral de segurança e conformidade no Microsoft Teams](/MicrosoftTeams/security-compliance-overview) | modificado |
-| 2/28/2020 | [Cartazes de soluções de telefonia e arquitetura de TI do Microsoft Teams](/MicrosoftTeams/teams-architecture-solutions-posters) | modificado |
-| 2/28/2020 | [Usar a pesquisa de diretório no escopo do Microsoft Teams](/MicrosoftTeams/teams-scoped-directory-search) | modificado |
+| 3/24/2020 | [Gerenciar pacotes de política no Microsoft Teams](/MicrosoftTeams/manage-policy-packages) | modificado |
+| 3/24/2020 | [Instalar o Microsoft Teams usando MSI por meio do Microsoft Endpoint Configuration Manager](/MicrosoftTeams/msi-deployment) | modificado |
+| 3/24/2020 | [Treinamento de administrador para o Microsoft Teams](/MicrosoftTeams/itadmin-readiness) | modificado |
+| 3/24/2020 | [Lista de controladores de borda da sessão certificados para Roteamento Direto](/MicrosoftTeams/direct-routing-border-controllers) | modificado |
+| 3/24/2020 | [Crie usuários do Microsoft 365, adicione licenças do Business Voice e atribua números de telefone](/MicrosoftTeams/business-voice/create-users) | modificado |
+| 3/25/2020 | [Problemas conhecidos do Microsoft Teams](/MicrosoftTeams/known-issues) | modificado |
+| 3/25/2020 | [Lista de verificação de acesso de convidados do Microsoft Teams](/MicrosoftTeams/guest-access-checklist) | modificado |
+| 3/25/2020 | [Gerenciar marcas no Microsoft Teams](/MicrosoftTeams/manage-tags) | modificado |
+| 3/25/2020 | [Planejar o Roteamento Direto](/MicrosoftTeams/direct-routing-plan) | modificado |
+| 3/25/2020 | [Reuniões do Microsoft Teams em navegadores sem suporte](/MicrosoftTeams/unsupported-browsers) | modificado |
+| 3/26/2020 | [Plano para o Microsoft 365 Government ‒ implantações de GCC ‒ Microsoft Teams](/MicrosoftTeams/plan-for-government-gcc) | modificado |
+| 3/26/2020 | [Atribuir proprietários de equipe e membros no Microsoft Teams](/MicrosoftTeams/assign-roles-permissions) | modificado |
+| 3/26/2020 | [Atribuir políticas a grandes conjuntos de usuários na sua escola](/MicrosoftTeams/batch-policy-assignment-edu) | modificado |
+| 3/26/2020 | [Gerenciar a avaliação gratuita do Office 365 E1](/MicrosoftTeams/e1-trial-license) | modificado |
+| 3/26/2020 | [Qualidade da experiência do guia de avaliação do Microsoft Teams](/MicrosoftTeams/quality-of-experience-review-guide) | modificado |
+| 3/26/2020 | [Recursos do Microsoft Teams para administradores de Educação](/MicrosoftTeams/remote-learning-edu) | modificado |
+| 3/26/2020 | [Ativar e usar o painel de qualidade da chamada](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard) | modificado |
+| 3/26/2020 | [Exibir a utilização do Microsoft Teams no Power BI usando dados do CQD](/MicrosoftTeams/cqd-teams-utilization-report) | modificado |
+| 3/26/2020 | [Atribuir políticas a seus usuários no Microsoft Teams](/MicrosoftTeams/assign-policies) | modificado |
+| 3/26/2020 | [Entrar no Microsoft Teams usando a autenticação moderna](/MicrosoftTeams/sign-in-teams) | modificado |
+| 3/26/2020 | [Planejar eventos ao vivo no Microsoft Teams](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | modificado |
+| 3/26/2020 | [Atribuir, alterar ou remover o número de telefone de um usuário](/MicrosoftTeams/assign-change-or-remove-a-phone-number-for-a-user) | modificado |
+| 3/26/2020 | [Os usuários podem fazer chamadas de saída para esses países e regiões](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions) | modificado |
+| 3/26/2020 | [Requisitos de salas do Microsoft Teams](/MicrosoftTeams/rooms/requirements) | modificado |
+| 3/26/2020 | [Ofereça suporte a trabalhadores remotos usando o Microsoft Teams](/MicrosoftTeams/support-remote-work-with-teams) | modificado |
+| 3/26/2020 | [Recursos do Microsoft Teams para administradores de Educação](/MicrosoftTeams/resources-teams-edu) | modificado |
+| 3/27/2020 | [Recursos do Microsoft Teams para administradores de Educação](/MicrosoftTeams/resources-teams-edu) | modificado |
+| 3/27/2020 | Vídeos - Audioconferência no Microsoft Teams | removido |
+| 3/27/2020 | [Conduzir uma investigação eDiscovery de conteúdo no Microsoft Teams](/MicrosoftTeams/ediscovery-investigation) | modificado |
+| 3/27/2020 | [Políticas de retenção no Microsoft Teams](/MicrosoftTeams/retention-policies) | modificado |
+| 3/27/2020 | [Atribuir políticas a grandes conjuntos de usuários na sua escola](/MicrosoftTeams/batch-policy-assignment-edu) | modificado |
+| 3/27/2020 | [Recursos do Microsoft Teams para administradores de Educação](/MicrosoftTeams/remote-learning-edu) | modificado |
+| 3/27/2020 | [Como o Microsoft Teams usa a memória](/MicrosoftTeams/teams-memory-usage-perf) | modificado |

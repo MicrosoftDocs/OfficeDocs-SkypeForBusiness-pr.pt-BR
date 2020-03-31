@@ -20,12 +20,12 @@ f1.keywords:
 - CSH
 ms.custom: Reporting
 description: Obtenha informações detalhadas sobre as dimensões e medidas usadas pelo painel de qualidade de chamada do Microsoft Teams e do Skype for Business online.
-ms.openlocfilehash: b23b87ee7cf0f28fca59a3dee13113dcf28a141a
-ms.sourcegitcommit: 33bec766519397f898518a999d358657a413924c
+ms.openlocfilehash: 71f9f2ea8ea01108b0a2f80e8e07cacfeef899ea
+ms.sourcegitcommit: 62969bd1c3a74412aa692709d497b8c6c5992c5c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42583069"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "43059425"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard"></a>Dimensões e medidas disponíveis no painel de qualidade da chamada
 
@@ -501,7 +501,7 @@ Muitos valores de medida também podem ser usados como filtros. A tabela a segui
 
 |Nome da medida |Americanas |Descrição |
 |:--- |:--- |:--- |
-|Contagem total de fluxos |Número de fluxos |Número de fluxos de mídia independentemente do tipo de mídia. |
+|Contagem total de fluxos |Número de fluxos |Numere fluxos de mídia independentemente do tipo de mídia, incluindo fluxos de confiabilidade/diagnósticos que podem não ter um tipo de mídia. |
 | Contagem total de fluxos de CDR disponíveis | Número de fluxos |Número de fluxos de mídia com informações de confiabilidade/diagnóstico disponíveis. Consulte [gravação de detalhes de chamadas (CDR) no Skype for Business Server](https://docs.microsoft.com/skypeforbusiness/manage/health-and-monitoring/call-detail-recording-cdr) |
 |Contagem total de fluxos de mídia com falha |Número de fluxos |Número de fluxos onde o caminho da mídia não pode ser estabelecido ou não terminou normalmente. |
 |Contagem total de fluxos com falha na configuração da chamada |Número de fluxos |Número de fluxos onde o caminho da mídia não pode ser estabelecido entre os pontos de extremidade no início da chamada. |

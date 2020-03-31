@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.messagingpolicies.overview
 description: Saiba mais sobre as políticas de mensagens e como elas podem ser usadas para controlar as mensagens de chat no Teams.
-ms.openlocfilehash: ceb77747da051c5b7e4fb764d6b6679335d8f366
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
-ms.translationtype: HT
+ms.openlocfilehash: 476fd2cf77b7ec57a0279d71b614dc50395b3023
+ms.sourcegitcommit: 62969bd1c3a74412aa692709d497b8c6c5992c5c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836441"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "43059405"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Gerenciar políticas de mensagens no Teams
 
@@ -92,8 +92,10 @@ Use as configurações a seguir para alterar a política de mensagens globais ou
 - **Permitir visualizações de URLs** Use essa configuração para ativar ou desativar a visualização automática de URLs nas mensagens.
 - **Permitir que os usuários traduzam mensagens** Ative essa configuração para permitir que os usuários traduzam automaticamente as mensagens do Teams para o idioma especificado pelas configurações de idioma pessoal do Office 365.
 - **Permitir leitura avançada na exibição de mensagens** Ative essa configuração para permitir que os usuários exibam mensagens na Leitura Avançada da Microsoft. A Leitura Avançada é uma ferramenta de aprendizagem que fornece uma experiência de leitura em tela inteira para aumentar a legibilidade do texto.
-- **Os usuários podem enviar <a name="urgent-message">notificações</a> de prioridade** Se o recurso for ativado, os usuários podem enviar uma mensagem que usa notificações de prioridade. As notificações de prioridade notificam os usuários a cada dois minutos por um período de 20 minutos ou até que as mensagens sejam captadas e lidas pelo destinatário maximizando a probabilidade de que a mensagem seja captada e atendida em tempo hábil.   [!INCLUDE [pri-message-offer](includes/pri-message-offer.md)]
-- **Criação de mensagem de áudio** – Importante: as mensagens de áudio não são capturadas no relatório de descoberta eletrônica. 
+- **Enviar mensagens urgentes usando as notificações de prioridade** Se você ativar isso, os usuários poderão enviar uma mensagem que usa notificações de prioridade. As notificações de prioridade notificam os usuários a cada dois minutos por um período de 20 minutos ou até que as mensagens sejam captadas e lidas pelo destinatário maximizando a probabilidade de que a mensagem seja captada e atendida em tempo hábil.   [!INCLUDE [pri-message-offer](includes/pri-message-offer.md)]
+- **Criação de mensagens de áudio** 
+  > [!Important]
+  > Mensagens de áudio não são capturadas em relatórios de descoberta eletrônica. 
     - **Permitido em chats e canais** Isso significa que os usuários podem deixar mensagens de áudio nos chats e nos canais.
     - **Permitido em apenas chats** Isso significa que os usuários podem deixar mensagens de áudio nos chats, mas nos canais.
     - **Desabilitado** Isso significa que os usuários não podem criar mensagens de áudio em chats ou canais.  

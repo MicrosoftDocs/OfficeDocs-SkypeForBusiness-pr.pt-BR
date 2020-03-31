@@ -14,16 +14,17 @@ f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
+- remotework
 ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0ee261f145f256e82db55aa869623505ff3c3dc3
-ms.sourcegitcommit: e710bb8dbbd084912cbf509896515a674ab5e19f
+ms.openlocfilehash: 91cb2752d1e37f98056f305a287bf9e6c974e4e8
+ms.sourcegitcommit: f96d66d08a9d6993edbb9554738dc8236d901933
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "43034062"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "43053624"
 ---
 # <a name="security-and-microsoft-teams"></a>Segurança e Microsoft Teams
 
@@ -195,13 +196,12 @@ Essas são as duas opções para controlar quem chega nas reuniões do Teams e q
 
 1. Você pode controlar quem entra em suas reuniões nas configurações de **lobby**.</p>
 
-|Quem pode ignorar  |Configuração para ignorar  | Entra diretamente| Chega no lobby|
-|---------|---------|---------|---------|
-|EveryoneInCompany (Todos exceto usuários externos).     |  Sim    |  Usuários no locatário, convidados e de discagem do PSTN      | Usuários federados, usuários anônimos        |
-|EveryoneInCompany (Todos exceto usuários externos).    |  Não     |  Usuários convidados e do locatário       |   Usuários federados, usuários anônimos e de discagem do PSTN      |
-|EveryoneInCompany (Todos exceto usuários externos) e usuários federados     |  Sim    | Usuários no locatário, convidados, federados e de discagem do PSTN        | Usuários anônimos        |
-|EveryoneInCompany (Todos exceto usuários externos) e usuários federados     |  Não     |   Usuários no locatário, convidados e federados      |  Usuários anônimos e de discagem de PSTN      |
-|Todos     |  Sim    | Usuários no locatário, convidados, federados, anônimos e de discagem do PSTN        | Não disponível        |
+|As opções de configuração "Quem pode ignorar o lobby" disponíveis na página Opções de reunião   |Os tipos de usuário ingressam diretamente na reunião  |Tipos de usuário indo para o lobby   |
+|---------|---------|---------|
+|Pessoas da minha organização     |  - No locatário  </br>- Convidado do locatário         |  - Federado</br>  - Anônimo</br>  - Discagem PSTN</br>     |
+|Pessoas da minha organização e organizações confiáveis      |  - No locatário</br> - Convidado do locatário</br> - Federado</br>        |  - Anônimo</br>  - Discagem PSTN</br>      |
+|Todos      |   - No locatário</br>  - Convidado do locatário</br>  - Federado anônimo</br>  - Discagem PSTN</br>       |         |
+
 
 2. A segunda forma é por meio de **reuniões estruturadas** (onde os apresentadores podem fazer isso em relação a tudo o que deve ser feito e os participantes têm uma experiência controlada). Depois de ingressar em uma reunião estruturada, os apresentadores controlam o que os participantes podem fazer na reunião. </p>
 
@@ -289,6 +289,12 @@ Os organizadores da reunião controlam se os participantes podem fazer apresenta
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
+[As 12 principais tarefas para as equipes de segurança dar suporte ao trabalho em casa](https://docs.microsoft.com/microsoft-365/security/top-security-tasks-for-remote-work?view=o365-worldwide)
+
 [Central de Confiabilidade da Microsoft](https://microsoft.com/trustcenter)
 
 [Gerenciar configurações de reunião no Microsoft Teams](https://docs.microsoft.com/microsoftteams/meeting-settings-in-teams)
+
+[Otimizar a conectividade do Office 365 para usuários remotos usando a criação de túnel dividido de VPN](https://review.docs.microsoft.com/en-us/Office365/Enterprise/office-365-vpn-split-tunnel?branch=vpn-split-tunnel)
+
+- [Implementando a criação de túnel dividido de VPN para Office 365](https://review.docs.microsoft.com/en-us/Office365/Enterprise/office-365-vpn-implement-split-tunnel?branch=vpn-split-tunnel)
