@@ -1,7 +1,7 @@
 ---
 title: Plano para o Microsoft 365 Government ‒ elevadas implantações de GCC ‒ Microsoft Teams
 author: lolajacobsen
-ms.author: lolaj
+ms.author: heidip
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e3c44867b14a4b3bf83a45cf1dbbb37151c648a8
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.openlocfilehash: 7be9916a1c51b7e98467d1e8c44a18dd6d227d35
+ms.sourcegitcommit: 4e1647d19501b37860d9fc79370fa4347f76f85f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42161586"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43079413"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-high-deployments"></a>Plano para implantações altas do Microsoft 365 governo-GCC
 
@@ -67,83 +67,14 @@ Recomendamos que você leve tempo para revisar cuidadosamente suas [configuraç�
 
 |    |     |
 |-----------|------------|
-| ![Um ícone que representa um ponto de decisão](media/audio_conferencing_image7.png) <br/>Ponto de decisão|<ul><li>Decida se você precisará modificar qualquer uma das configurações de alta segurança do governo padrão do Microsoft 365, a solução para compreender primeiro o impacto de todas as alterações que você possa fazer.</li></ul> |
+| ![Um ícone representando um ponto de decisão](media/audio_conferencing_image7.png) <br/>Ponto de decisão|<ul><li>Decida se você precisará modificar qualquer uma das configurações de alta segurança do governo padrão do Microsoft 365, a solução para compreender primeiro o impacto de todas as alterações que você possa fazer.</li></ul> |
 
 
 ## <a name="step-4-understand-which-teams-capabilities-are-currently-available-in-microsoft-365-government---gcc-high"></a>Etapa 4. Entender quais recursos do teams estão disponíveis no momento no Microsoft 365 governo-GCC alto
 
 Para acomodar os requisitos de nossos clientes de nuvem governamental, há algumas diferenças entre as equipes do Microsoft 365 governo-GCC alta e as equipes nos planos empresariais. Consulte a tabela a seguir para ver os recursos disponíveis.
 
-|                             | Recurso                     | GCC alto       |
-|-----------------------------|-----------------------------|----------------|
-| Polybase | Login | Disponível |
-| | Presença | Disponível |
-| | Presença unificada (Skype for Business e equipes unificadas) | Disponível |
-| | Cliente Linux | Na backlog do governo |
-| Atividades | Alimentação | Disponível |
-|  | Minha atividade | Disponível |
-| Chat | Conversa | Disponível |
-| | Arquivos | Disponível |
-| | Organograma | Disponível |
-| | Atividades | Disponível |
-| | Interoperabilidade (Teams 1:1-chat do Skype for Business) | Disponível |
-| Teams | Mensagem do canal | Disponível |
-| | Arquivos de canal | Disponível |
-| | Guia do OneNote | Na backlog do governo |
-| | Enviar um canal por email | Não disponível |
-| | Adicionar membro | Disponível |
-| | Acesso de convidados | Na backlog do governo |
-| Reuniões | Agendar reunião | Disponível |
-| | Ingressar na reunião | Disponível |
-| | Reunião de VoIP | Disponível |
-| | Compartilhamento de área de trabalho | Disponível |
-| | Conceder e assumir o controle no compartilhamento | Disponível |
-| | Conectar-se a partir de uma sala de conferência | Disponível |
-| | Junção anônima | Disponível |
-| | Gravação na nuvem | Na backlog do governo |
-| | Anotações da reunião | Disponível |
-| | Transmitir reuniões | Na backlog do governo |
-| | Reuniões federadas em nuvem (GCCH para GCCH) | Disponível |
-| | Suporte a Surface Hub | Na backlog do governo |
-| Chamadas | Contatos | Disponível |
-| | Cliques | Disponível |
-| | Caixa postal | Disponível |
-| | Chamada VoIP | Disponível |
-| | Skype para empresas-chamadas para equipes | Disponível |
-| | Planos de Chamadas | Não disponível |
-| | Conferência de áudio (permitindo que os participantes da reunião ingressem via PSTN) | Disponível |
-| | Encaminhamento direto do sistema telefônico da Microsoft | Disponível |
-| | Lobby para chamadores PSTN | Na backlog do governo |
-| | Fila de chamadas | Na backlog do governo |
-| | Suporte chefe e representante | Na backlog do governo |
-| | Transferência consultiva e segura | Na backlog do governo |
-| | Não incomodar | Na backlog do governo |
-| | Toque distintivo | Na backlog do governo |
-| | 1:1 para o encaminhamento de chamadas em grupo com o Teams, o Skype for Business e os participantes de PSTN | Na backlog do governo |
-| | Encaminhar para o grupo | Na backlog do governo |
-| | Transferir para chamada PSTN | Na backlog do governo |
-| | Chamadas de emergência-planos de chamada | Na backlog do governo |
-| | Suporte para telefones SIP certificados existentes | Na backlog do governo |
-| | HID USB | Disponível |
-| | Descoberta eletrônica para chamadas e reuniões | Disponível |
-| | Atendedor automático da organização | Na backlog do governo |
-| | Skype Consumer-suporte para chamadas de equipe | Não disponível |
-| Arquivos | Alteração | Disponível |
-| | Microsoft Teams | Disponível |
-| Armazenadas | App Store | Não disponível |
-| Pesquisa | Mensagens | Disponível |
-| | Pessoas | Disponível |
-| | Arquivos | Disponível |
-| | Comandos de barra | Disponível |
-| Conformidade | Pesquisa de conteúdo de conformidade | Disponível |
-| | Tention | Disponível |
-| | Pesquisa de log de auditoria | Disponível |
-| | Controle legal | Disponível |
-| | eDiscovery | Disponível |
-
-|    |     |
-|-----------|------------|
-| ![Um ícone que representa um ponto de decisão](media/audio_conferencing_image7.png) <br/>Ponto de decisão|<ul><li>Decida se o conjunto de recursos do teams atende às necessidades da sua organização.</li></ul> |
+[Descrição do serviço do Microsoft Teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)
 
 ## <a name="step-5-plan-for-governance"></a>Etapa 5. Plano de governança
 

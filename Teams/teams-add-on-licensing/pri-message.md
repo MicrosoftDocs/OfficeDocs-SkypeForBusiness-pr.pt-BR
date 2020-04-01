@@ -19,27 +19,24 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: Saiba mais sobre notificações de prioridade em mensagens do Microsoft Teams.
-ms.openlocfilehash: fd3808997400e84febac66e5f8e22c91009c527d
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: c6bd6c1381eee82878ce59cc2133ec72b9b9e21c
+ms.sourcegitcommit: 4e1647d19501b37860d9fc79370fa4347f76f85f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826499"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43079396"
 ---
 # <a name="messaging-policies-licensing"></a>Licenciamento de políticas de mensagens
 
-Até 1 ° de abril de 2020, as notificações prioritárias ilimitadas no Microsoft Teams estão disponíveis para todos os usuários. Esta promoção é prorrogada para 1º de abril de 2020 a partir de sua data de término original de 31 de dezembro de 2019. Depois de 1 ° de abril, os usuários licenciados poderão enviar notificações de prioridade de acordo com os termos da assinatura.
+Estamos ouvindo os clientes em todo o mundo como o Pandemic-19 (coronavirus) criou novos desafios enquanto eles trabalham para lidar com mudanças drásticas nas operações do dia a dia.
 
-Como anunciado em junho de 2019, os usuários podem marcar uma mensagem do teams como urgente quando elas têm acesso ao recurso de notificações de prioridade. As mensagens urgentes são enviadas com as notificações de prioridade que notificam o destinatário a cada 2 (2) minutos por um período de 20 minutos ou até que o destinatário Leia a mensagem. Esse recurso maximiza a probabilidade de uma mensagem ser acionada de forma oportuna.
+A capacidade de conexão direta e rápida com colegas de equipe durante condições de alteração rápida é essencial para manter a continuidade de negócios e, assim, estamos ampliando o acesso promocional aos principais recursos de mensagens do Microsoft Teams.
 
-Os administradores de ti receberão relatórios sobre o uso de notificações de prioridade para dar suporte ao licenciamento de usuário apropriado. Os usuários poderão receber mensagens urgentes ilimitadas com as notificações de prioridade, independentemente da licença. [Saiba mais sobre as notificações de prioridade](https://docs.microsoft.com/MicrosoftTeams/messaging-policies-in-teams).
+Anunciado originalmente em junho de 2019, as [notificações de prioridade](https://support.microsoft.com/article/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462) para o Microsoft Teams concede aos usuários a capacidade de enviar continuamente notificações que se repetem a cada dois minutos por até 20 minutos em todas as mensagens marcadas como *urgentes*. Durante o lançamento, fizemos notificações prioritárias disponíveis como uma promoção para todos os usuários do teams até 1º de abril de 2020. 
 
-|Endereça| |Enviar até 5 mensagens incluídas por usuário por mês| Enviar mensagens ilimitadas incluídas por usuário por mês|
-|---|---|---|---|
-|Enterprise||Office 365 F1/Microsoft 365 F1<br> Office 365 E1 | Office 365 E3/Microsoft 365 E3 <br>Office 365 E5/Microsoft 365 e5
-|Treinamento ||Office 365 a1/Microsoft 365 a1|Office 365 a3/Microsoft 365 a3<br> Office 365 a5/Microsoft 365 a5
-|SMB       ||Office 365 Business Essentials|Office 365 Business Premium/Microsoft 365 Business|
-|||||
+**Para ajudar nossos clientes e comunidade em seus esforços de resposta de crise, estamos estendendo a promoção de notificações de prioridade até o segundo semestre de 2020.** O acesso contínuo às notificações de prioridade estará disponível para facilitar a resposta de crises e os esforços de recuperação. Após o término do período da promoção, os usuários licenciados poderão enviar notificações de prioridade de acordo com os termos da assinatura.
+
+Os administradores receberão relatórios sobre o uso de notificações de prioridade para dar suporte ao licenciamento de usuário apropriado. Os usuários poderão receber mensagens urgentes ilimitadas com as notificações de prioridade, independentemente da licença. [Saiba mais sobre as notificações de prioridade](../messaging-policies-in-teams.md).
 
 <!-- |Government| | |
 ||GCC|Office 365 F1 / Microsoft 365 F1<br> Microsoft 365 G1|Office 365 G3 / Microsoft 365 G3 <br> Microsoft 365 G5|

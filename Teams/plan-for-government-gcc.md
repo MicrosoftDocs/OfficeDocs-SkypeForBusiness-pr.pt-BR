@@ -1,7 +1,7 @@
 ---
 title: Plano para o Microsoft 365 Government ‒ implantações de GCC ‒ Microsoft Teams
 author: lolajacobsen
-ms.author: lolaj
+ms.author: heidip
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -18,16 +18,16 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fb36e9decf7fba80250dce1035187b94198bc86d
-ms.sourcegitcommit: f96d66d08a9d6993edbb9554738dc8236d901933
+ms.openlocfilehash: be3afe64ba45761f61e68c04a812bffe0129cef2
+ms.sourcegitcommit: 4e1647d19501b37860d9fc79370fa4347f76f85f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "43053604"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43079453"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>Plano para implantações do governo Microsoft 365-GCC
 
-Esta orientação é para os profissionais de ti que estão impulsionando implantações do Office 365 em entidades federais, estaduais, tribal ou outras entidades do governo dos EUA, que manipulam dados sujeitos a normas e requisitos governamentais, onde o uso do Microsoft 365 governo-GCC é adequado para atender a esses requisitos. Novidades de 26 de março de 2020: não perca o nosso [Guia de início rápido para download para gcc](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/Quick-Start-Guide-for-GCC.pdf?raw=true).
+Esta orientação destina-se aos profissionais de ti que estão conduzindo implantações do Office 365 em entidades federais, estaduais, tribal ou outras entidades do governo dos EUA, que lidam com os dados sujeitos a normas e requisitos governamentais, onde o uso do Microsoft 365 governo-GCC é adequado para atender a esses requisitos. Novidades de 26 de março de 2020: não perca o nosso [Guia de início rápido para download para gcc](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/Quick-Start-Guide-for-GCC.pdf?raw=true).
 
 > [!IMPORTANT]
 > O Microsoft Teams está experimentando um grande pico em chamadas online e videoconferência/videoconferência devido ao coronavirus (COVID-19) Pandemic.<br/>
@@ -82,75 +82,11 @@ Recomendamos que você leve tempo para revisar cuidadosamente suas [configuraç�
 |-----------|------------|
 | ![Um ícone representando um ponto de decisão](media/audio_conferencing_image7.png) <br/>Ponto de decisão|<ul><li>Decida se você modificará qualquer uma das configurações de segurança do governo padrão da Microsoft 365, resolvendo para compreender primeiro o impacto de todas as alterações que você possa fazer.</li></ul> |
 
-## <a name="step-4-understand-which-capabilities-are-currently-unavailable-or-disabled-by-default"></a>Etapa 4. Compreenda quais recursos estão indisponíveis no momento ou desabilitados por padrão. 
+## <a name="step-4-understand-which-capabilities-are-currently-unavailable-or-disabled-by-default"></a>Etapa 4. Compreenda quais recursos estão indisponíveis no momento ou desabilitados por padrão.
 
 Para acomodar os requisitos de nossos clientes de nuvem governamental, há algumas diferenças entre os planos Microsoft 365 governo-GCC e Enterprise. Consulte a tabela a seguir para ver os recursos disponíveis.
 
-|                             | Recurso                     | GCC            |
-|-----------------------------|-----------------------------|----------------|
-| Polybase | Login | Disponível |
-| | Presença | Disponível |
-| | Presença unificada (Skype for Business e equipes unificadas) | Disponível |
-| Atividades | Alimentação | Disponível |
-|  | Minha atividade | Disponível |
-| Chat | Conversa | Disponível |
-| | Arquivos | Disponível |
-| | Organograma | Disponível |
-| | Atividades | Disponível |
-| | Interoperabilidade (Teams 1:1-chat do Skype for Business) | Disponível |
-| Teams | Mensagem do canal | Disponível |
-| | Arquivos de canal | Disponível |
-| | Guia do OneNote | Na backlog do governo |
-| | Enviar um canal por email | Não disponível |
-| | Adicionar membro | Disponível |
-| | Acesso de convidados | Disponível |
-| Reuniões | Agendar reunião | Disponível |
-| | Ingressar na reunião | Disponível |
-| | Reunião de VoIP | Disponível |
-| | Compartilhamento de área de trabalho | Disponível |
-| | Conceder e assumir o controle no compartilhamento | Disponível |
-| | Conectar-se a partir de uma sala de conferência | Disponível |
-| | Junção anônima | Disponível |
-| | Gravação na nuvem | Disponível |
-| | Anotações da reunião | Disponível |
-| | Eventos ao vivo | Disponível |
-| | Reuniões federadas | Disponível |
-| | Suporte a Surface Hub | Disponível |
-| Chamadas | Contatos | Disponível |
-| | Cliques | Disponível |
-| | Caixa postal | Disponível |
-| | Chamada VoIP | Disponível |
-| | Skype para empresas-chamadas para equipes | Disponível |
-| | Planos de Chamadas | Disponível |
-| | Conferência de áudio (permitindo que os participantes da reunião ingressem via PSTN) | Disponível |
-| | Encaminhamento direto do sistema telefônico da Microsoft | Disponível |
-| | Lobby para chamadores PSTN | Disponível |
-| | Fila de chamadas | Disponível |
-| | Suporte chefe e representante | Disponível |
-| | Transferência consultiva e segura | Disponível |
-| | Não incomodar | Disponível |
-| | Toque distintivo | Disponível |
-| | 1:1 para o encaminhamento de chamadas em grupo com o Teams, o Skype for Business e os participantes de PSTN | Disponível |
-| | Encaminhar para o grupo | Disponível |
-| | Transferir para chamada PSTN | Disponível |
-| | Chamadas de emergência-planos de chamada | Disponível |
-| | Suporte para telefones SIP certificados existentes | Disponível |
-| | HID USB | Disponível |
-| | Descoberta eletrônica para chamadas e reuniões | Disponível |
-| | Atendedor automático da organização | Disponível |
-| | Skype Consumer-suporte para chamadas de equipe | Disponível |
-| Arquivos | Alteração | Disponível |
-| | Microsoft Teams | Disponível |
-| Repositório | App Store | Disponível |
-| Pesquisa | Mensagens | Disponível |
-| | Pessoas | Disponível |
-| | Arquivos | Disponível |
-| | Comandos de barra | Disponível |
-| Conformidade | Pesquisa de conteúdo de conformidade | Disponível |
-| | Tention | Disponível |
-| | Pesquisa de log de auditoria | Disponível |
-| | Controle legal | Disponível |
-| | eDiscovery | Disponível |
+[Descrição do serviço do Microsoft Teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)
 
 > [!Note]
 > Depois que outras cargas de trabalho estiverem totalmente disponíveis na nuvem GCC, elas serão disponibilizadas no Teams quando todo o trabalho adicional de integração for concluído.
