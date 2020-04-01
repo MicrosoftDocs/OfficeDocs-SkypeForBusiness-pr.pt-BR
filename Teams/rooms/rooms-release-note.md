@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 description: Este artigo discute melhorias cumulativas nas salas do Microsoft Teams.
-ms.openlocfilehash: 6ecc038658b8178530833ae4f8964bdfc733be84
-ms.sourcegitcommit: bc2e0f6f2ed3802ecc67275594db221c61824458
+ms.openlocfilehash: 330425650f17fa8782105616371d3c16789d1db8
+ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "42398189"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43096986"
 ---
 # <a name="release-notes"></a>Notas de versão
 
@@ -28,6 +28,7 @@ Este artigo discute melhorias cumulativas nas salas do Microsoft Teams.
 
 |Liberação |Publicado em <br/> Microsoft Store |
 |--- |--- |
+|4.4.25.0 |03/31/2020 |
 |4.3.42.0 |03/02/2020 |
 |4.3.33.0 |1/10/2020 |
 |4.3.23.0 |12/13/2019 |
@@ -60,6 +61,17 @@ Este artigo discute melhorias cumulativas nas salas do Microsoft Teams.
 |RTM (1.0.8) |12/7/2016 |
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Introdução ao recurso salas do Microsoft Teams e resolução de problemas
+### <a name="44250-03312020"></a>4.4.25.0 (03/31/2020)
+
+Apresentado nesta atualização:
+
+- Suporte de autenticação moderna para Exchange e Skype for Business
+- Suporte para chamadas de emergência dinâmicas para equipes (componentes de serviço necessários e lançados usando os anéis do cliente do Teams)
+- Capacidade de desabilitar o conteúdo duplicado da reunião para salas de exibição duplas usando XML
+- Tela inicial do aplicativo
+- Configuração de resposta automática para melhorar a experiência de junção na reunião com base em proximidade 
+- Avisos do Open Source Software (OSS) em configurações do dispositivo
+
 ### <a name="43420-03022020"></a>4.3.42.0 (03/02/2020)
 
 Apresentado nesta atualização:

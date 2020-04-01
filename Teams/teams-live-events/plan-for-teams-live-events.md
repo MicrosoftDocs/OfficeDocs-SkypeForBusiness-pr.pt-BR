@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Saiba mais sobre os fatores a serem considerados antes de configurar eventos ao vivo no Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 816cfb3c971621a367dcf81d1ec555e9735bda9d
-ms.sourcegitcommit: a2b2ae17a35f530f797504bb85b44f1a0f561a7d
+ms.openlocfilehash: fac7ca633985a030fd611578466b52912cd3b445
+ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "42983857"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43096812"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planejar eventos ao vivo no Microsoft Teams
 
@@ -92,7 +92,7 @@ A tabela a seguir destaca os principais recursos oferecidos em eventos ao vivo e
 |Permitir vários apresentadores |&#x2714; (Skype for Business) |&#x2714; (Teams) |Não disponível  |
 |Convidar um apresentador durante a reunião |&#x2714; (Skype for Business) |X |Não disponível |
 |Ingresso do apresentador na Web e móvel |&#x2714; (Skype for Business)  |X |Não disponível |
-|Apresentadores/participantes convidados e federados |&#x2714; (Skype for Business)  | (em breve) |Não disponível |
+|Apresentadores/participantes convidados e federados |&#x2714; (Skype for Business)  | &#x2714; (Teams)  |Não disponível |
 |Apresentador – acesso PSTN |X |&#x2714; (Teams) |Não disponível |
 |Apresentar uma tela |X |&#x2714; (Teams) |Não disponível |
 |Apresentar um PowerPoint (compartilhamento de PPT) |&#x2714; |X (mitigado via compartilhamento de tela) |Não disponível |

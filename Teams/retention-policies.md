@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a9097dfc43ca0f70d37b0051e6b0e10283da26c3
-ms.sourcegitcommit: e710bb8dbbd084912cbf509896515a674ab5e19f
+ms.openlocfilehash: e2c918a8276be2eeab0a125a1661b70b42c6b069
+ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "43033385"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43096996"
 ---
 # <a name="retention-policies-in-microsoft-teams"></a>Políticas de retenção no Microsoft Teams
 
@@ -82,7 +82,7 @@ Aqui estão algumas considerações e limitações que você deve conhecer ao tr
 
 - O Teams não têm suporte para as configurações de retenção avançadas, como a capacidade de aplicar uma política ao conteúdo que contém palavras-chave ou informações confidenciais. No momento, as políticas de retenção do Teams se aplicam a todo o conteúdo de mensagens de chat e/ou de canal.
 
-- O Teams pode levar até três dias para limpar as mensagens expiradas. Uma política de retenção do Teams excluirá mensagens de chat e de canal ao fim do período de retenção. No entanto, pode levar até três dias para limpar essas mensagens e excluí-las permanentemente. Além disso, as mensagens de chat e de canal serão pesquisáveis com as ferramentas de descoberta eletrônica entre o período de retenção e quando as mensagens forem excluídas permanentemente.
+- O Microsoft Teams pode levar até três a sete dias para limpar mensagens expiradas. Uma política de retenção do Teams excluirá mensagens de chat e de canal ao fim do período de retenção. No entanto, pode levar até três a sete dias para limpar essas mensagens e excluí-las permanentemente. Além disso, as mensagens de chat e de canal serão pesquisáveis com as ferramentas de descoberta eletrônica entre o período de retenção e quando as mensagens forem excluídas permanentemente.
 
 ### <a name="multiple-retention-policies-and-the-principles-of-retention"></a>Várias políticas de retenção e princípios de retenção
 
