@@ -15,23 +15,29 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 07efc7b86045de9e76669d4ffbf185aba9d94d1f
-ms.sourcegitcommit: 73518a589db1a9883fc97827f0ddb9132995fbfa
+ms.openlocfilehash: c1dbd4dfa470f8ed02c83e48603dc2647fdc90b3
+ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42236801"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43096976"
 ---
-# <a name="powershell-script-sample---create-and-assign-a-messaging-policy"></a><span data-ttu-id="29a82-103">Exemplo de script do PowerShell, criar e atribuir uma política de mensagens</span><span class="sxs-lookup"><span data-stu-id="29a82-103">PowerShell script sample - Create and assign a messaging policy</span></span>
+# <a name="powershell-script-sample---create-and-assign-a-messaging-policy"></a><span data-ttu-id="ac3d1-103">Exemplo de script do PowerShell, criar e atribuir uma política de mensagens</span><span class="sxs-lookup"><span data-stu-id="ac3d1-103">PowerShell script sample - Create and assign a messaging policy</span></span>
 
-<span data-ttu-id="29a82-104">Use este script do PowerShell para criar uma política de mensagens no Microsoft Teams e atribuí-la a usuários.</span><span class="sxs-lookup"><span data-stu-id="29a82-104">Use this PowerShell script to create a messaging policy in Microsoft Teams and assign it to users.</span></span> 
+<span data-ttu-id="ac3d1-104">Use este script do PowerShell para criar uma política de mensagens no Microsoft Teams e atribuí-la a usuários.</span><span class="sxs-lookup"><span data-stu-id="ac3d1-104">Use this PowerShell script to create a messaging policy in Microsoft Teams and assign it to users.</span></span> 
 
-<span data-ttu-id="29a82-105">Para obter mais informações sobre como usar esse script do PowerShell, consulte [início rápido-equipes de educação](https://docs.microsoft.com/microsoftteams/teams-quick-start-edu).</span><span class="sxs-lookup"><span data-stu-id="29a82-105">For more information about using this PowerShell script, see [Quick start - Teams for Education](https://docs.microsoft.com/microsoftteams/teams-quick-start-edu).</span></span>
+<span data-ttu-id="ac3d1-105">Para obter mais informações sobre como usar esse script do PowerShell, consulte [início rápido-equipes de educação](https://docs.microsoft.com/microsoftteams/teams-quick-start-edu).</span><span class="sxs-lookup"><span data-stu-id="ac3d1-105">For more information about using this PowerShell script, see [Quick start - Teams for Education](https://docs.microsoft.com/microsoftteams/teams-quick-start-edu).</span></span>
 
-<span data-ttu-id="29a82-106">Se você é novato no PowerShell e precisa de ajuda para começar, consulte [Visão geral do Azure PowerShell](https://docs.microsoft.com/powershell/azure/overview?view=azurermps-5.1.1).</span><span class="sxs-lookup"><span data-stu-id="29a82-106">If you're new to PowerShell and need help getting started, see [Overview of Azure PowerShell](https://docs.microsoft.com/powershell/azure/overview?view=azurermps-5.1.1).</span></span>
+<span data-ttu-id="ac3d1-106">Se você é novato no PowerShell e precisa de ajuda para começar, consulte [Visão geral do Azure PowerShell](https://docs.microsoft.com/powershell/azure/overview?view=azurermps-5.1.1).</span><span class="sxs-lookup"><span data-stu-id="ac3d1-106">If you're new to PowerShell and need help getting started, see [Overview of Azure PowerShell](https://docs.microsoft.com/powershell/azure/overview?view=azurermps-5.1.1).</span></span>
 
 
-## <a name="sample-script"></a><span data-ttu-id="29a82-107">Script de exemplo</span><span class="sxs-lookup"><span data-stu-id="29a82-107">Sample script</span></span>
+## <a name="before-you-start"></a><span data-ttu-id="ac3d1-107">Antes de começar</span><span class="sxs-lookup"><span data-stu-id="ac3d1-107">Before you start</span></span>
+<span data-ttu-id="ac3d1-108">Baixe e instale o [módulo do conector do Skype for Business online](https://www.microsoft.com/download/details.aspx?id=39366)e, em seguida, reinicie o computador, se solicitado.</span><span class="sxs-lookup"><span data-stu-id="ac3d1-108">Download and install the [Skype for Business Online Connector module](https://www.microsoft.com/download/details.aspx?id=39366), and then restart your computer if prompted.</span></span>
+
+<span data-ttu-id="ac3d1-109">Veja [gerenciar o Skype for Business online com o Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell) para obter mais informações.</span><span class="sxs-lookup"><span data-stu-id="ac3d1-109">View [Manage Skype for Business Online with Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell) for more.</span></span>
+
+
+## <a name="sample-script"></a><span data-ttu-id="ac3d1-110">Script de exemplo</span><span class="sxs-lookup"><span data-stu-id="ac3d1-110">Sample script</span></span>
 
 ```powershell
 <#
