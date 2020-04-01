@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Use este guia para ajudar os funcionários remotos da sua organização a serem produtivos usando o Microsoft Teams, especialmente quando estiverem trabalhando em casa (WFH) em resposta à epidemia do COVID-19 (Coronavírus).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3ba76e667b7dc5aeb3ae83b2d2a19d5e4da5d653
-ms.sourcegitcommit: a2b2ae17a35f530f797504bb85b44f1a0f561a7d
+ms.openlocfilehash: 35bd251b4b8ef6a13263148c5fbb2245256dad3f
+ms.sourcegitcommit: 4e1647d19501b37860d9fc79370fa4347f76f85f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "42983837"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43079383"
 ---
 # <a name="support-remote-government-workers-using-microsoft-teams"></a>Ofereça suporte aos funcionários públicos remotos que usam o Microsoft Teams
 
@@ -57,7 +57,7 @@ Pronto para implantar o Teams para os seus usuários? Você pode encontrar esses
 
 Compartilhe esses ativos e vídeos com seus usuários finais para ajudá-los a começar rapidamente:
 
-  - Baixe o **[Guia de iniciação rápida do Governo](https:aka.ms/quickstartgov)** para aprender o básico sobre o Teams.
+  - Baixe o **[Guia de iniciação rápida do Governo](https://aka.ms/quickstartgov)** para aprender o básico sobre o Teams.
 
   - Assista aos **[vídeos curtos de início rápido](https://support.office.com/article/video-what-is-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d?wt.mc_id=otc_microsoft_teams)** para obter instruções sobre o Teams e **[Vídeos de reuniões](https://support.office.com/article/join-a-teams-meeting-078e9868-f1aa-4414-8bb9-ee88e9236ee4)** para aprender a usar as reuniões o Teams.
 
