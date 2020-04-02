@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 084f6d4587bc279c4387cf44b8ed29d38d51d4a6
-ms.sourcegitcommit: 613665c866f6fd0febfa6e26ad718241cdfbb207
+ms.openlocfilehash: fe158c1f6a6d8ff7fb830408657ed2deae13c163
+ms.sourcegitcommit: 482050a77a85aeb8dae52f86c9344023487e1b70
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "42937595"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43113144"
 ---
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>Instalar o Microsoft Teams usando o Microsoft Endpoint Configuration Manager
 
@@ -80,9 +80,13 @@ Para obter instruções completas sobre como implantar o aplicativo de área de 
 
 Se um usuário desinstalar o Teams do seu perfil de usuário, o instalador do MSI acompanhará que o usuário desinstalou o aplicativo Teams e não instalará mais equipes para esse perfil de usuário. Para reimplantar o Teams para esse usuário em um determinado computador em que foi desinstalado, faça o seguinte:
 
-1. Desinstale o aplicativo Teams instalado para cada perfil de usuário.
-2. Após a desinstalação, exclua o diretório recursivamente em `%localappdata%\Microsoft\Teams\`.
-3. Reimplante o pacote MSI no computador específico.
+> [!IMPORTANT]
+> As etapas a seguir contêm informações sobre como modificar o registro. Certifique-se de fazer backup do registro antes de modificá-lo e de que você sabe como restaurar o registro se ocorrer um problema. Para obter mais informações sobre como fazer backup, restaurar e modificar o registro, consulte [informações do registro do Windows para usuários avançados](https://support.microsoft.com/help/256986).
+
+1. Desinstale o aplicativo Teams instalado para cada perfil de usuário. Para obter mais informações, consulte [desinstalar o Microsoft Teams](https://support.office.com/article/uninstall-microsoft-teams-3b159754-3c26-4952-abe7-57d27f5f4c81#ID0EAABAAA=Desktop).
+2. Exclua o diretório recursivamente `%localappdata%\Microsoft\Teams\`em.
+3. Exclua `HKEY_CURRENT_USER\Software\Microsoft\Office\Teams\PreventInstallationFromMsi` o valor do registro.
+4. Reimplante o pacote MSI no computador específico.
 
 ## <a name="prevent-teams-from-starting-automatically-after-installation"></a>Impede que o Teams seja iniciado automaticamente após a instalação
 
