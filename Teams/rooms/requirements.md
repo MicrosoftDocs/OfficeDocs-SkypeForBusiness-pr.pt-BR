@@ -14,12 +14,12 @@ ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection:
 - M365-collaboration
 description: Este artigo resume os requisitos para dar suporte a salas do Microsoft Teams.
-ms.openlocfilehash: 9e07ac6f5f7ca477006dac703f7b3b8b2604c60b
-ms.sourcegitcommit: 708270f1fecab6b7b44345d57a8e12bc36d19c8b
+ms.openlocfilehash: 9dba3a9972dee782b3d2df2ce48f7f38c19fcbc1
+ms.sourcegitcommit: f0f2fa999c1ca4a1118377c7938a247f79217609
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 04/02/2020
-ms.locfileid: "43102332"
+ms.locfileid: "43106678"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Requisitos de salas do Microsoft Teams
 
@@ -115,7 +115,7 @@ Esses dispositivos estão disponíveis na [apresentação do produto acessórios
 |[Yamaha YVC-1000](http://www.yamaha.com/products/en/communication/usb_conference_speakerphones/yvc-1000/)   |100c   |
 |[Yealink CP900](https://www.yealink.com/products_150.html) |100.20.0.29 |
 |[Processador Shure Intellimix P300 audioconferência](https://www.shure.com/en-US/products/mixers/p300)+</br></br> [Microfone de matriz de tabela Shure MXA 310](https://www.shure.com/en-US/products/microphones/mxa310) | 4,1 |
-|[Processador de Shure Intellimix P300 de Conferening de áudio](https://www.shure.com/en-US/products/mixers/p300) + </br></br> [Shure MXA 910 com microfone de matriz de teto Intellimix](https://www.shure.com/en-US/products/microphones/mxa910) | 4,1|
+|[Processador Shure Intellimix P300 audioconferência](https://www.shure.com/en-US/products/mixers/p300) + </br></br> [Shure MXA 910 com microfone de matriz de teto Intellimix](https://www.shure.com/en-US/products/microphones/mxa910) | 4,1|
 |[Biamp Tesira de primeiro plano AVB VT4 de áudio fixo](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ &Dagger;</br></br> [Sennheiser TeamConnect teto 2](https://en-us.sennheiser.com/tcc2)+ &Dagger;</br></br> [TESIRA ex-UBT](https://www.biamp.com/products/tesira/tesira-expanders)&Dagger; |  DSP Biamp: 3.12.0.15  </br></br> TCC2: 1.3.3 </br></br> EX-UBT: 3.12.0.15 |
 |[Bose ControlSpace EX-440C DSP + </br>Bose P2600A AmpLink amplificador</br> + Sennheiser TCC2 teto microfone </br> + Bose EdgeMax EM180 teto-teto](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html)|  DSP Bose: 2,290  </br> P2600A: 1,160  </br> TCC2:1.4.2  |  |
 ||||||

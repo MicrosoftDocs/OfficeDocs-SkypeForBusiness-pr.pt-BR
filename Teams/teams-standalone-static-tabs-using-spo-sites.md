@@ -12,12 +12,12 @@ ms.reviewer: vinbel
 search.appverid: MET150
 description: Pegue um site ou uma página existente do SharePoint Online e crie uma guia estática autônoma que pode ser usada como um portal da intranet para a sua organização.
 localization_priority: Normal
-ms.openlocfilehash: 772063a7444e9c31d2740ac48635dc0f2e367435
-ms.sourcegitcommit: aaae9df142ebb844a1fea27d3ae3b95130903d6a
+ms.openlocfilehash: 0215a2e1f79627f55bc14c00a099b25d2859b6f9
+ms.sourcegitcommit: f0f2fa999c1ca4a1118377c7938a247f79217609
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43100350"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43106628"
 ---
 # <a name="create-a-teams-intranet-portal-app-from-a-sharepoint-online-site-or-page"></a>Criar um aplicativo de portal de intranet do teams ' a partir de um site ou página do SharePoint Online
 
@@ -31,8 +31,7 @@ Lembre-se de que o processo mostrado **deve usar** um site *moderno* do SharePoi
 > Certifique-se de que o carregamento lado a lado dos aplicativos da equipe esteja habilitado para seu locatário. Dependendo de onde você estiver no processo de migração do portal de administração do Teams, talvez seja necessário habilitá-lo em Teams > administrador ou em configurações do administrador > > serviços e suplementos > Microsoft Teams > aplicativos > aplicativos externos, na versão anterior do portal! 
 
 ## <a name="use-app-studio-to-create-your-standalone-sharepoint-online-app"></a>Usar o app Studio para criar seu aplicativo autônomo do SharePoint Online
-
-Antes de começar:
+' ' ' Antes de começar:
 1. Você precisará saber a URL de um site de equipe ou de comunicação moderna do SharePoint Online ou uma página.
     - Esses sites sempre terão o */Teams/* ou o */sites/* em seus caminhos.
 
@@ -66,19 +65,12 @@ Comece seguindo as etapas abaixo:
 10. Preencha o **contentURL e a URL do site**. 
 
 - **contentUrl**: {{siteurl}}/_layouts/15/teamslogon.aspx? SPFX = true&dest = {{sitePath}}  
-- **websiteUrl**: {{SiteUrl}} 
+- **web'iteUrl**: {{SiteUrl}} ' ' exemplo **contentURL**:https://contoso.sharepoint.com/sites/ContosoHub/_layouts/15/teamslogon.aspx?SPFX=true&dest=/sites/ContosoHub 
 
-    Exemplo **contentURL**:https://contoso.sharepoint.com/sites/ContosoHub/_layouts/15/teamslogon.aspx?SPFX=true&dest=/sites/ContosoHub 
+11. Navegue até **domínios e Permissi'ns**. Verifique se a seção Domains válidos contém seu nome de domínio do SharePoint Online.
+' ' Exemplo: contoso.sharepoint.com
 
-11. Navegue até **domínios e permissões**. Verifique se a seção Domains válidos contém seu nome de domínio do SharePoint Online.
-
-    Exemplo: contoso.sharepoint.com
-
-12. Adicione as seguintes propriedades de **logon único** do aplicativo Web: 
-     
-     Exemplo: **ID do aplicativo AAD**: **URL do recurso**00000003-0000-0ff1-ce00-000000000000: {{subdomain}}. SharePoint. com
-
-    ![Logon único do aplicativo Web, com ID e URL.](media/personal-app.png)
+12. Adicione as seguintes propriedades de **logon único** do aplicativo Web: ' ' exemplo: ' ' ' ' **ID do aplicativo do AAD**: **URL do recurso**00000003-0000-0ff1-ce00-000000000000: {{subdomain}}. SharePoint. com ![' ' ' logon único do aplicativo Web, com ID e URL.](media/personal-app.png)
 
 13. **Salve** essas propriedades e navegue para **testar e distribuir**. 
 
@@ -96,15 +88,15 @@ Para exibir a nova guia na área de trabalho do Teams, navegue até as reticênc
 Se você quiser disponibilizar o novo aplicativo no menu à esquerda em uma posição mais alta, você deve usar uma configuração de política de aplicativo para isso. Essa configuração pode ser encontrada na seção administrador da equipe > política do aplicativo > adicionar um aplicativo fixo. Quando você atribuir a política a um usuário para teste, a alteração será exibida em 24 horas depois. Com isso em mente, decida onde o aplicativo deve ser exibido da sua conveniência mais antiga para ajudar a evitar atrasos.
 
 Para exibir e testar o novo aplicativo em um dispositivo móvel, abra a gaveta do aplicativo tocando na divisa (**^**) acima da barra de guias próxima à parte inferior da tela. Localize seu aplicativo e navegue para ele em seu dispositivo móvel.
-
+        
 > [!CAUTION]
 > O suporte móvel está atualmente na visualização do desenvolvedor. Para habilitar a visualização de desenvolvedor, navegue até configurações > e, em seguida, habilite o modo de visualização do desenvolvedor.
 
 ## <a name="a-sample-manifestjson-file"></a>Um arquivo manifest. JSON de exemplo
 
-O arquivo JSON que você gerar irá se parecer com o nome abaixo.
+O arquivo JSO que você gerar irá se parecer com o nome abaixo.
 
-```JSON
+```JSON'
 { 
 
     "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json", 
@@ -119,7 +111,7 @@ O arquivo JSON que você gerar irá se parecer com o nome abaixo.
 
     "developer": { 
 
-        "name": "Contoso", 
+        "name": "Contoso", ''
 
         "websiteUrl": "https://www.contoso.com", 
 
@@ -139,13 +131,13 @@ O arquivo JSON que você gerar irá se parecer com o nome abaixo.
 
     "name": { 
 
-        "short": "Contoso Intranet", 
+        "short": "Contoso Intranet", '
 
         "full": "Intranet Portal for Contoso" 
 
-    }, 
-
-    "description": { 
+    },                     
+                        
+    "des    ription": {                 
 
         "short": "Intranet portal for Contoso", 
 
@@ -154,13 +146,13 @@ O arquivo JSON que você gerar irá se parecer com o nome abaixo.
     }, 
 
     "accentColor": "#FFFFFF", 
-
+''
     "staticTabs": [ 
 
         { 
-
-            "entityId": "communicationSiteTab", 
-
+                                       
+                     "       nti        Id":       "com    unicat    onSi    eTab", 
+                                       
             "name": "Contoso Net", 
 
             "contentUrl": "https://contoso.sharepoint.com/sites/ContosoNet/_layouts/15/teamslogon.aspx?SPFX=true&dest=/sites/ContosoNet/", 

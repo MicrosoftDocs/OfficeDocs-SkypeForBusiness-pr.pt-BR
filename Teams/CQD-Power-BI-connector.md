@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Instalar o conector do Power BI para usar modelos de consulta CQD
-ms.openlocfilehash: 393bfaf6348bb5ebc8c46df011387961d95cccfa
-ms.sourcegitcommit: 708270f1fecab6b7b44345d57a8e12bc36d19c8b
+ms.openlocfilehash: 73f19ef893aebbbd2c6ab9b79946097d6a834c36
+ms.sourcegitcommit: f0f2fa999c1ca4a1118377c7938a247f79217609
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 04/02/2020
-ms.locfileid: "43102342"
+ms.locfileid: "43106688"
 ---
 # <a name="install-power-bi-connector-to-use-cqd-query-templates"></a>Instalar o conector do Power BI para usar modelos de consulta CQD
 
@@ -121,7 +121,7 @@ Observe que, embora o conector esteja em visualização, essas limitações prov
 
 ### <a name="im-trying-to-use-the-date-column-as-a-date-slicer-as-soon-as-i-convert-the-data-type-of-this-column-to-date-i-get-this-error"></a>Estou tentando usar a coluna data como uma segmentação de data. Assim que eu converter o tipo de dados desta coluna em Date, obtenho este erro:
 
-  **Não foi possível carregar os dados para este Visual**: erro OLE DB ou ODBC: [Expression. Error] não foi possível dobrar a expressão na fonte de dados. Tente uma expressão mais simples. 
+> **Não foi possível carregar os dados para este Visual**: erro OLE DB ou ODBC: [Expression. Error] não foi possível dobrar a expressão na fonte de dados. Tente uma expressão mais simples. 
 
 Não há suporte para segmentações de dados com o conector do Power BI. Para especificar um intervalo de datas, aplique dois filtros ao relatório, especificando uma data menor que e maior que.
 
