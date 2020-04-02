@@ -14,16 +14,16 @@ ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection:
 - M365-collaboration
 description: Este artigo resume os requisitos para dar suporte a salas do Microsoft Teams.
-ms.openlocfilehash: c20da0aaa42f9e11b8bb0aba3a1f9c0248c24c7b
-ms.sourcegitcommit: 89a7c0427a5abbef838a17ae7eac6934c6176a35
+ms.openlocfilehash: 9e07ac6f5f7ca477006dac703f7b3b8b2604c60b
+ms.sourcegitcommit: 708270f1fecab6b7b44345d57a8e12bc36d19c8b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42982114"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43102332"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Requisitos de salas do Microsoft Teams
 
-As salas do Microsoft Teams são dimensionadas para diferentes tamanhos de sala usando uma ampla variedade de periféricos de áudio e vídeo com base no tamanho e no uso da sala. Ao selecionar o dispositivo e o console corretos, combinados com microfones, alto-falantes, câmeras e exibições apropriados para o espaço, você pode implantar salas do Microsoft Team em espaços de qualquer tamanho de huddles de pequeno porte em espaços de conferência muito grandes e de alta gerência.  O conjunto completo de todos os periféricos certificados de áudio e vídeo disponíveis que podem ser usados para configurar sua sala está disponível na [demonstração do dispositivo](https://products.office.com/microsoft-teams/across-devices).
+As salas do Microsoft Teams são dimensionadas para diferentes tamanhos de sala usando uma ampla variedade de periféricos de áudio e vídeo com base no tamanho e no uso da sala. Ao selecionar o dispositivo e o console corretos, combinados com microfones, alto-falantes, câmeras e exibições apropriados para o espaço, você pode implantar salas do Microsoft Team em espaços de qualquer tamanho, desde pequenos huddles espaços de conferências e grandes empresas.  O conjunto completo de todos os periféricos certificados de áudio e vídeo disponíveis que podem ser usados para configurar sua sala está disponível na [demonstração do dispositivo](https://products.office.com/microsoft-teams/across-devices).
 
 Este artigo resume os requisitos de configuração e implantação de dispositivos para dar suporte a salas do Microsoft Teams.
 
@@ -116,7 +116,8 @@ Esses dispositivos estão disponíveis na [apresentação do produto acessórios
 |[Yealink CP900](https://www.yealink.com/products_150.html) |100.20.0.29 |
 |[Processador Shure Intellimix P300 audioconferência](https://www.shure.com/en-US/products/mixers/p300)+</br></br> [Microfone de matriz de tabela Shure MXA 310](https://www.shure.com/en-US/products/microphones/mxa310) | 4,1 |
 |[Processador de Shure Intellimix P300 de Conferening de áudio](https://www.shure.com/en-US/products/mixers/p300) + </br></br> [Shure MXA 910 com microfone de matriz de teto Intellimix](https://www.shure.com/en-US/products/microphones/mxa910) | 4,1|
-|[Biamp Tesira de primeiro plano AVB VT4 de áudio fixo](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ &Dagger;</br></br> [Sennheiser TeamConnect teto 2](https://en-us.sennheiser.com/tcc2)+ &Dagger;</br></br> [TESIRA ex-UBT](https://www.biamp.com/products/tesira/tesira-expanders)&Dagger; |  DSP Biamp: 3.12.0.15  </br></br> TCC2: 1.3.3 </br></br> EX-UBT: 3.12.0.15 |  |
+|[Biamp Tesira de primeiro plano AVB VT4 de áudio fixo](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ &Dagger;</br></br> [Sennheiser TeamConnect teto 2](https://en-us.sennheiser.com/tcc2)+ &Dagger;</br></br> [TESIRA ex-UBT](https://www.biamp.com/products/tesira/tesira-expanders)&Dagger; |  DSP Biamp: 3.12.0.15  </br></br> TCC2: 1.3.3 </br></br> EX-UBT: 3.12.0.15 |
+|[Bose ControlSpace EX-440C DSP + </br>Bose P2600A AmpLink amplificador</br> + Sennheiser TCC2 teto microfone </br> + Bose EdgeMax EM180 teto-teto](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html)|  DSP Bose: 2,290  </br> P2600A: 1,160  </br> TCC2:1.4.2  |  |
 ||||||
 
 &Dagger;Os clientes podem escolher a interface Dante ou o comutador de rede recomendado pelo Biamp/Sennheiser para este pacote.

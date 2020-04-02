@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Instalar o conector do Power BI para usar modelos de consulta CQD
-ms.openlocfilehash: c9987d05c5b057adf55791ffb2105d9ddb252722
-ms.sourcegitcommit: 98fcfc03c55917d0aca48b7bd97988f81e8930c1
+ms.openlocfilehash: 393bfaf6348bb5ebc8c46df011387961d95cccfa
+ms.sourcegitcommit: 708270f1fecab6b7b44345d57a8e12bc36d19c8b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42559359"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43102342"
 ---
 # <a name="install-power-bi-connector-to-use-cqd-query-templates"></a>Instalar o conector do Power BI para usar modelos de consulta CQD
 
@@ -111,11 +111,21 @@ Apesar de fazer uso do Power BI, nem toda a funcionalidade do Power BI é compat
 
 3.  **Elementos visuais personalizados-** Embora o conector CQD funcione com uma variedade de elementos visuais personalizados, não podemos garantir a compatibilidade com todos os elementos visuais personalizados. Muitos elementos visuais personalizados dependem do uso de colunas calculadas ou de dados importados, nenhum ou que são suportados pelos conectores DirectQuery.
 
-4.  **Fazendo referência a dados armazenados em cache –** Atualmente, o Power BI não oferece suporte a referências a dados armazenados em cache de um conector DirectQuery de maneira alguma. Qualquer tentativa de fazer referência aos resultados de uma consulta resultará em uma nova consulta.
+4.  **Fazendo referência a dados armazenados em cache –** Atualmente, o Power BI não oferece suporte a referências a dados armazenados em cache de um conector DirectQuery de maneira alguma. Qualquer tentativa de fazer referência aos resultados de uma consulta resultará em uma nova consulta. 
 
 5.  **Filtragem de dados relativa –** É compatível com o conector CQD, mas somente com as dimensões *hora de início* e hora de *término* . Embora a dimensão de *Data* possa ser a opção óbvia para a filtragem de data relativa, a *Data* não é armazenada como um objeto de data/hora e, portanto, não oferece suporte a filtragem de data relativa no Power bi.
 
 Observe que, embora o conector esteja em visualização, essas limitações provavelmente não mudarão com a versão final do conector. A maioria desses problemas é uma restrição do design do conector DirectQuery no Power BI ou fundamental para o design do modelo de dados CQD.
+
+## <a name="troubleshooting"></a>Solução de problemas
+
+### <a name="im-trying-to-use-the-date-column-as-a-date-slicer-as-soon-as-i-convert-the-data-type-of-this-column-to-date-i-get-this-error"></a>Estou tentando usar a coluna data como uma segmentação de data. Assim que eu converter o tipo de dados desta coluna em Date, obtenho este erro:
+
+  **Não foi possível carregar os dados para este Visual**: erro OLE DB ou ODBC: [Expression. Error] não foi possível dobrar a expressão na fonte de dados. Tente uma expressão mais simples. 
+
+Não há suporte para segmentações de dados com o conector do Power BI. Para especificar um intervalo de datas, aplique dois filtros ao relatório, especificando uma data menor que e maior que.
+
+Como alternativa, se as datas que você deseja exibir forem recentes, aplique um filtro de data relativo para mostrar somente os dados dos últimos N dias/semanas/meses.
 
 ## <a name="error-codes"></a>Códigos de erro
 

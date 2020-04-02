@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Use este guia para ajudar os funcionários remotos da sua organização a serem produtivos usando o Microsoft Teams, especialmente quando estiverem trabalhando em casa (WFH) em resposta à epidemia de COVID-19 (coronavírus).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f954e9dff86b8c660d416a1aed8031912207ea4f
-ms.sourcegitcommit: ce6b6b57eb9683649f589b747163110bf42ae420
+ms.openlocfilehash: 89a30efe150aa6dcbe8db61f222f67e371512176
+ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "43062661"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43096800"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>Ofereça suporte a trabalhadores remotos usando o Microsoft Teams
 
@@ -44,7 +44,7 @@ Pronto para implantar o Teams para os seus usuários? Obtenha o **[Kit de Sucess
 
 - Use o **Email de Comunicado** para informar aos usuários que o Teams está disponível para eles.
 
-- Envie o **Email Seu Primeiro dia no Teams** para ajudar os usuários a se sentirem produtivos rapidamente.
+- Envie o email **Contagem regressiva - o seu primeiro dia no Teams** para ajudar os usuários a se sentirem produtivos rapidamente.
 
 - Alguns dias depois, envie o **Email de Dicas e Truques** para ajudar os usuários a aproveitarem o Teams ao máximo.
 
@@ -68,9 +68,9 @@ Compartilhe esses ativos e vídeos com seus usuários finais para ajudá-los a c
 1. Leia nossas postagens recentes no blog:
    
    - [Como a Microsoft está permitindo que seus funcionários trabalhem remotamente com o Microsoft Teams](https://www.microsoft.com/itshowcase/blog/how-microsoft-enables-its-employees-to-work-remotely/)
-   - [Ajudar empresas pequenas e de médio porte a trabalhar remotamente com o Teams](https://www.microsoft.com/pt-BR/microsoft-365/blog/2020/03/17/helping-smb-customers-work-remotely-microsoft-teams/)
+   - [Ajudar empresas pequenas e de médio porte a trabalhar remotamente com o Teams](https://www.microsoft.com/microsoft-365/blog/2020/03/17/helping-smb-customers-work-remotely-microsoft-teams/)
 
-   - [As 9 principais maneiras que o TI da Microsoft está possibilitando o trabalho remoto para seus funcionários](https://www.microsoft.com/pt-BR/microsoft-365/blog/2020/03/12/top-9-ways-microsoft-it-enabling-remote-work-employees/)
+   - [As 9 principais maneiras que o TI da Microsoft está possibilitando o trabalho remoto para seus funcionários](https://www.microsoft.com/microsoft-365/blog/2020/03/12/top-9-ways-microsoft-it-enabling-remote-work-employees/)
 
 
 1. Microsoft Teams for Education
@@ -114,7 +114,7 @@ Compartilhe esses ativos e vídeos com seus usuários finais para ajudá-los a c
 
    - [As 12 principais tarefas para as equipes de segurança dar suporte ao trabalho em casa](https://docs.microsoft.com/microsoft-365/security/top-security-tasks-for-remote-work)
    
-   - [Otimizar a conectividade do Office 365 para usuários remotos usando a criação de túnel dividido de VPN](https://docs.microsoft.com/pt-BR/Office365/Enterprise/office-365-vpn-split-tunnel)
+   - [Otimize a conectividade do Office 365 para usuários remotos usando o túnel dividido da VPN](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-split-tunnel)
 
    - [Segurança e Teams](teams-security-guide.md) entra em todos os detalhes técnicos da segurança do Teams, como parte das práticas recomendadas e procedimentos de segurança de nível empresarial do Microsoft 365.
 

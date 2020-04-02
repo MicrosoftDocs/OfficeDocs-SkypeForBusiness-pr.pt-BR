@@ -14,12 +14,12 @@ ms.assetid: df418e25-81fd-474d-be16-5cd1ac8145cc
 ms.collection:
 - M365-collaboration
 description: Este artigo discute o gerenciamento remoto das configurações padrão usadas por um dispositivo de salas do Microsoft Teams, incluindo a aplicação de um tema personalizado.
-ms.openlocfilehash: e33934dcabc420b7e84886f0301c343f5caf333a
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 6a06b94bff350d07e540a80092bf7edbed33ddc8
+ms.sourcegitcommit: 708270f1fecab6b7b44345d57a8e12bc36d19c8b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827389"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43102312"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>Gerenciar as configurações de um console de salas do Microsoft Teams remotamente com um arquivo de configuração XML
 
@@ -47,6 +47,7 @@ Qualquer editor de texto pode ser usado para criar um arquivo de configurações
     <SkypeMeetingsEnabled>false</SkypeMeetingsEnabled>
     <TeamsMeetingsEnabled>true</TeamsMeetingsEnabled>
     <DualScreenMode>true</DualScreenMode>
+    <DuplicateIngestDefault>false</DuplicateIngestDefault>
     <SendLogs>
         <EmailAddressForLogsAndFeedback>RanierConf@contoso.com</EmailAddressForLogsAndFeedback>
         <SendLogsAndFeedback>true</SendLogsAndFeedback>
@@ -91,9 +92,10 @@ Se um valor de variável for do tipo errado, os elementos estiverem fora da orde
 |\<IsTeamsDefaultClient> |&#x2777; Boolean  |Primeiro &#x2776;  |Desabilitado por padrão. |
 |\<BluetoothAdvertisementEnabled> |&#x2777; Boolean  |Primeiro &#x2776;  |Habilitado por padrão. |
 |\<DualScreenMode\>  |&#x2777; Boolean  |Primeiro &#x2776;  |Se verdadeiro, o modo de tela dupla está habilitado. Caso contrário, o dispositivo usa o modo de tela única. |
-|\<SendLogs\> |Contêiner |Primeiro &#x2776;  ||
-|\<EmailAddressForLogsAndFeedback\> |Cadeia de caracteres &#x2778;  || Define um endereço de email opcional para o qual os logs podem ser enviados quando a janela "fornecer comentários" for exibida. |
-|\<SendLogsAndFeedback\> |&#x2777; Boolean  || Se verdadeiro, os logs são enviados para o administrador. Se falso, somente os comentários são enviados para o administrador (e não os logs).  |
+| \<DuplicateIngestDefault\> |&#x2777; Boolean  |Primeiro &#x2776; |Se verdadeiro, o conteúdo é mostrado nas duas telas no modo de tela dupla, quando estiver fora da reunião. | 
+|\<SendLogs\> |Contêiner |Primeiro &#x2776;  |  |
+|\<EmailAddressForLogsAndFeedback\> |Cadeia de caracteres &#x2778;  | | Define um endereço de email opcional para o qual os logs podem ser enviados quando a janela "fornecer comentários" for exibida. |
+|\<SendLogsAndFeedback\> |&#x2777; Boolean  | | Se verdadeiro, os logs são enviados para o administrador. Se falso, somente os comentários são enviados para o administrador (e não os logs).  |
 | \<Dispositivos\>  |Contêiner |Primeiro &#x2776;  | Os nomes dos dispositivos de áudio conectados nos elementos filho têm os mesmos valores listados no aplicativo Gerenciador de Dispositivos. A configuração pode conter um dispositivo que atualmente não existe no sistema, como um dispositivo de A/V que não está conectado ao console. A configuração seria mantida para o dispositivo correspondente.  |
 |\<MicrophoneForCommunication\> |Cadeia de caracteres &#x2778;  ||Define o microfone usado como o dispositivo de gravação em uma conferência. |
 |\<SpeakerForCommunication\> |Cadeia de caracteres &#x2778;  ||Dispositivo que deve ser usado como alto-falante para a conferência. Essa configuração é usada para definir o dispositivo de alto-falantes usado em uma chamada. |
@@ -107,7 +109,7 @@ Se um valor de variável for do tipo errado, os elementos estiverem fora da orde
 |\<CustomThemeColor\> |Contêiner ||Contêiner para os \<valores\>RedComponent \<,\>GreenComponent e \<BlueComponent\> . Esses valores são necessários para um tema personalizado. |
 |\<RedComponent\> |Byte (0-255) ||Representa o componente da cor vermelha. |
 |\<GreenComponent\> |Byte (0-255) ||Representa o componente da cor verde. |
-|\<BlueComponent\> |Byte (0-255) ||Representa o componente da cor azul. |
+|\<BlueComponent\> |Byte (0-255) ||Representa o componente da cor azul. | 
 | | | |
 
 &#x2776; todos os elementos de primeiro nível são opcionais. Se um elemento de primeiro nível for omitido, todos os seus parâmetros filho permanecerão inalterados no dispositivo.

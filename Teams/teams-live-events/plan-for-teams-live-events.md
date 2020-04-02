@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Saiba mais sobre os fatores a serem considerados antes de configurar eventos ao vivo no Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fac7ca633985a030fd611578466b52912cd3b445
-ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
+ms.openlocfilehash: 95baeaf25600853b7d6a2b4e18c548d1998f6789
+ms.sourcegitcommit: 708270f1fecab6b7b44345d57a8e12bc36d19c8b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43096812"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43102362"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planejar eventos ao vivo no Microsoft Teams
 
@@ -87,25 +87,25 @@ A tabela a seguir destaca os principais recursos oferecidos em eventos ao vivo e
 |Envolvimento do público – Yammer  |&#x2714; |&#x2714; (experiência integrada) |&#x2714; (experiência integrada) |
 |Envolvimento do público – Perguntas e Respostas Moderadas  |&#x2714;  |&#x2714; |&#x2714; |
 |Cliente do Producer no Windows |&#x2714; (Skype for Business) |&#x2714; (Teams) |&#x2714; (Stream, Teams via Inserir Stream) |
-|Cliente do Producer no Mac |X  | &#x2714; (Teams) |&#x2714; (Stream, Teams via Inserir Stream) |
-|Contagem de participantes na IU do Producer |X  |&#x2714; (Teams) |&#x2714; (Stream, Teams via Inserir Stream) |
+|Cliente do Producer no Mac |&#x274C;  | &#x2714; (Teams) |&#x2714; (Stream, Teams via Inserir Stream) |
+|Contagem de participantes na IU do Producer |&#x274C;  |&#x2714; (Teams) |&#x2714; (Stream, Teams via Inserir Stream) |
 |Permitir vários apresentadores |&#x2714; (Skype for Business) |&#x2714; (Teams) |Não disponível  |
-|Convidar um apresentador durante a reunião |&#x2714; (Skype for Business) |X |Não disponível |
-|Ingresso do apresentador na Web e móvel |&#x2714; (Skype for Business)  |X |Não disponível |
-|Apresentadores/participantes convidados e federados |&#x2714; (Skype for Business)  | &#x2714; (Teams)  |Não disponível |
-|Apresentador – acesso PSTN |X |&#x2714; (Teams) |Não disponível |
-|Apresentar uma tela |X |&#x2714; (Teams) |Não disponível |
-|Apresentar um PowerPoint (compartilhamento de PPT) |&#x2714; |X (mitigado via compartilhamento de tela) |Não disponível |
+|Convidar um apresentador durante a reunião |&#x2714; (Skype for Business) |&#x274C; |Não disponível |
+|Ingresso do apresentador na Web e móvel |&#x2714; (Skype for Business)  |&#x274C; |Não disponível |
+|Apresentadores/participantes convidados e federados |&#x2714; (Skype for Business)  |  &#x2714; (Teams) |Não disponível |
+|Apresentador – acesso PSTN |&#x274C; |&#x2714; (Teams) |Não disponível |
+|Apresentar uma tela |&#x274C; |&#x2714; (Teams) |Não disponível |
+|Apresentar um PowerPoint (compartilhamento de PPT) |&#x2714; |&#x274C; (atenuado por meio de compartilhamento de tela) |Não disponível |
 |Gravação de reuniões baseadas na nuvem |&#x2714; |&#x2714; |&#x2714; |
-|Publicar automaticamente a gravação no Stream |X |X |&#x2714; |
-|Legendas em tempo real |&#x2714; |&#x2714; |X |
+|Publicar automaticamente a gravação no Stream |&#x274C; |&#x274C; |&#x2714; |
+|Legendas em tempo real |&#x2714; |&#x2714; |&#x274C; |
 |Legendas em gravações de eventos ao vivo |&#x2714; |&#x2714; |&#x2714; |
 |Controles de DVR dos participantes (pausar, retroceder) |&#x2714; |&#x2714; |&#x2714; |
 |Suporte a eCDN de parceiro |&#x2714; (Hive, Kollective, Ramp) |&#x2714; (Hive, Kollective, Ramp) |&#x2714; (Hive, Kollective, Ramp) |
-|Relatório de participação posterior à transmissão para Produtores |&#x2714; |&#x2714; |X |
-|Análise de opiniões do público – Votação ao vivo e sondagens  |&#x2714; (Microsoft Pulse) |X |X |
+|Relatório de participação posterior à transmissão para Produtores |&#x2714; |&#x2714; |&#x274C; |
+|Análise de opiniões do público – Votação ao vivo e sondagens  |&#x2714; (Microsoft Pulse) |&#x274C; |&#x274C; |
 
-<sup>1</sup> Os limites que são definidos podem ser alterados.<br/>
+<sup>1</sup> Os limites que são definidos podem ser alterados. Verifique [os limites e as especificações do teams](../limits-specifications-teams.md).<br/>
 <sup>2</sup> você pode ter até 250 apresentadores e produtores em um evento ao vivo, mas apenas os últimos 10 que o spoke mostrar na lista.
 
 
