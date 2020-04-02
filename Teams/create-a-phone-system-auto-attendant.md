@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Saiba como configurar e testar atendedores automáticos da nuvem para o Microsoft Teams.
-ms.openlocfilehash: b89f2b439cf79cf90915c61771bb5a08ef27db99
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 9f166e8626d799cb95a447b453663b60079b0704
+ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824800"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43102085"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>Configurar um atendedor automático do Cloud
 
@@ -220,7 +220,12 @@ Se você selecionar **Desconectar**, o chamador será desconectado após a sauda
 
 > [!IMPORTANT]
 > Por favor, observe o seguinte:
->- Os usuários que você deseja disponibilizar pela extensão de discagem precisam ter uma extensão especificada como parte do número de telefone ou celular atribuído no centro de [Administração do Microsoft 365](https://docs.microsoft.com/office365/admin/add-users/add-users?view=o365-worldwide#use-the-new-admin-center-to-add-users).  O formato obrigatório para inserir a extensão no campo de número de telefone do usuário é `+<phonenumber>;ext=<extension>` ou `x<extension>`.
+>- Os usuários que você deseja disponibilizar pela extensão de discagem precisam ter uma extensão especificada como parte de um dos seguintes atributos telefônicos definidos no Active Directory ou no [centro de administração do Microsoft 365](https://docs.microsoft.com/office365/admin/add-users/add-users?view=o365-worldwide#use-the-new-admin-center-to-add-users)do Azure Active Directory.
+>    - HomePhone
+>    - Celular/MobilePhone
+>    - TelephoneNumber/intervalo
+>    - OtherTelephone
+>- O formato obrigatório para inserir a extensão no campo de número de telefone do usuário é `+<phonenumber>;ext=<extension>` ou `x<extension>`.
 >- Não há suporte para a atribuição de uma extensão no centro de administração do teams no momento. Você deve usar o comando [set-MsolUser](https://docs.microsoft.com/powershell/module/msonline/set-msoluser?view=azureadps-1.0) do PowerShell ou o centro de administração do Microsoft 365.
 >- Pode levar até 12 horas antes que as alterações nos atributos AAD intervalo e MobilePhone estejam disponíveis.
 >- Não defina uma extensão para o LineUri de um usuário. Não há suporte para isso no momento.
@@ -273,7 +278,7 @@ Inicialmente, o horário comercial é definido para começar em 12:00 e terminar
 
  <!-- The **Apply to all days** option can be used to reset all days of the week to match the settings for that day. This makes setting weekdays and weekends to different hours easier.-->
 
-![Ícone do número 6, um texto explicativo na captura de](media/teamscallout6.png) tela anterior para configurar uma pausa (um almoço, por exemplo), selecione **Adicionar novo horário** para esse dia da semana para criar uma linha de nova tabela e selecionar novos horários de início e de término. Você pode definir várias quebras dentro do horário comercial.
+![Ícone do número 6, um texto explicativo na captura de](media/teamscallout6.png) tela anterior para configurar uma pausa (um almoço, por exemplo), selecione **Adicionar novo horário** para esse dia da semana para criar uma nova linha de tabela e selecionar novos horários de início e de término. Você pode definir várias quebras dentro do horário comercial.
 
 As opções de [fluxo de chamadas](#call-flow) disponíveis após horas são iguais às opções disponíveis durante o horário comercial. Role a tela para baixo na página de entrada de informações para definir as opções de fluxo de chamadas após horas.
 
