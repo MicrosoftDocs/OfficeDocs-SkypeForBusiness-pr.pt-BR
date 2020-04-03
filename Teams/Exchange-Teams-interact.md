@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e147a300f628347b5e38837a3d277a78a4c593c4
-ms.sourcegitcommit: 29034bda30a8460eb18600785f785528d0944041
+ms.openlocfilehash: 68468455da96fc3b2790a832b6732d7211bd7733
+ms.sourcegitcommit: dc6108917392754d950cea47b92f871211bf4212
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "42285743"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43131139"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Como o Exchange e o Microsoft Teams interagem
 
@@ -32,11 +32,11 @@ Para a experiência completa com o Teams, todos os usuários devem estar habilit
 
 As caixas de correio dos usuários do Exchange não podem ficar hospedadas online nem no local. No entanto, alguns recursos exigem uma implantação híbrida em vigor com o seu locatário do Office 365.
 
-Os usuários hospedados no Exchange Online ou no Exchange Dedicated vNext podem usar todos os recursos do Microsoft Teams. Eles podem criar e ingressar em equipes e canais, criar e exibir reuniões, ligar e bater papo, modificar imagens de perfil de usuário e adicionar e configurar conectores, guias e bots.
+Os usuários hospedados no Exchange Online ou no Exchange Dedicated vNext podem usar todos os recursos do Microsoft Teams. Eles podem criar e ingressar em equipes e canais, criar e exibir reuniões, ligar e bater papo, modificar imagens de perfil de usuário (se a política de caixa de correio do Outlook na Web permitir que elas façam isso) e adicionar e configurar conectores, guias e bots.
 
 Os usuários hospedados no Exchange Online dedicado (Herdado) devem ser sincronizados com o Azure Active Directory no Office 365. Eles podem criar e ingressar em equipes e canais, adicionar e configurar guias e bots e usar os recursos de chat e chamadas. No entanto, eles não podem modificar imagens de perfil, gerenciar reuniões, acessar contatos do Outlook ou gerenciar conectores.
 
-Os usuários com caixas de correio hospedadas no local devem ser sincronizados com o Azure Active Directory. Eles podem usar todos os recursos no cenário acima, mas além disso, eles também podem alterar a imagem do perfil do usuário e gerenciar reuniões, fornecer o Exchange Server 2016 (atualização cumulativa 3) ou superior está em execução local.
+Os usuários com caixas de correio hospedadas no local devem ser sincronizados com o Azure Active Directory. Eles podem usar todos os recursos no cenário acima, mas além disso, eles também podem alterar a imagem do perfil do usuário (se a política de caixa de correio do Outlook na Web permitir que eles façam isso) e gerenciar reuniões, fornecer o Exchange Server 2016 (atualização cumulativa 3) ou posterior estiver em execução no local.
 
 A tabela a seguir fornece uma referência rápida útil para a disponibilidade de recursos com base no ambiente do Exchange.
 
@@ -45,10 +45,10 @@ A tabela a seguir fornece uma referência rápida útil para a disponibilidade d
 
 | A caixa de correio do usuário está hospedada em: | eDiscovery| Controle&nbsp;legal | Tention| Gerenciamento de canal e equipe |Criar e exibir reuniões no Microsoft Teams| Modificar fotos de perfil de usuário | Histórico de chamadas | Gerenciar contatos | Acessar contatos do Outlook | Caixa postal |Adicionar e configurar conectores|Adicionar e configurar guias|Adicionar e configurar bots| 
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-|**Exchange Online**|Sim <sup>2</sup>|Sim <sup>2</sup>|Sim|Sim |Sim |Sim |Sim |Sim|Sim <sup>7</sup>|Sim|Sim |Sim |Sim|
-|**Exchange Online Dedicated vNext**|Sim <sup>2</sup>|Sim <sup>2</sup>|Sim|Sim |Sim |Sim |Sim |Sim|Sim <sup>7</sup>|Sim|Sim |Sim |Sim|
-|**Exchange Online Dedicated – Legacy** (Sincronização obrigatória com o Azure AD)|Sim <sup>2</sup>|Sim <sup>2, 3</sup>|Sim <sup>4|Sim|Não|Não|Sim|Sim|Não|Sim <sup>5|Sim <sup>6|Sim|Sim|
-|**Exchange no local** (necessário sincronização para o Azure AD)|Sim <sup>2</sup>| Sim <sup>2, 3</sup> |Sim <sup>4|Sim|Sim (Exchange 2016 CU3 +)|Sim (Exchange 2016 CU3 +)|Sim|Sim|Não|Sim <sup>5|Sim <sup>6|Sim|Sim|
+|**Exchange Online**|Sim <sup>2</sup>|Sim <sup>2</sup>|Sim |Sim |Sim|Sim<sup>8</sup>|Sim |Sim|Sim <sup>7</sup>|Sim |Sim |Sim |Sim|
+|**Exchange Online Dedicated vNext**|Sim <sup>2</sup>|Sim <sup>2</sup>|Sim |Sim |Sim|Sim<sup>8</sup>|Sim |Sim|Sim <sup>7</sup>|Sim |Sim |Sim |Sim|
+|**Exchange Online Dedicated – Legacy** (Sincronização obrigatória com o Azure AD)|Sim <sup>2</sup>|Sim <sup>2, 3</sup>|Sim <sup>4|Sim|Não|Não|Sim|Sim|Não|Sim <sup>5|Sim <sup>6|Sim |Sim|
+|**Exchange no local** (necessário sincronização para o Azure AD)|Sim <sup>2</sup>| Sim <sup>2, 3</sup> |Sim <sup>4|Sim|Sim (Exchange 2016 CU3 +)|Sim<sup>8</sup> (Exchange 2016 Cu3 +)|Sim |Sim|Não|Sim <sup>5|Sim <sup>6|Sim |Sim|
 
 <sup>1</sup> suporte do Exchange 2016 Cu3 e versões mais recentes.  
 
@@ -63,6 +63,8 @@ A tabela a seguir fornece uma referência rápida útil para a disponibilidade d
 <sup>6</sup> se um dos proprietários de uma equipe puder adicionar conectores, todos os outros participantes dessa equipe poderão fazer isso, mesmo se as caixas de correio estiverem hospedadas no local.
 
 <sup>7</sup> somente contatos na pasta de contatos padrão. Não há suporte para o acesso a outras pastas de contatos ou subpastas.
+
+<sup>8</sup> o Teams homenageia a configuração de [política de caixa de correio da Web do Outlook](https://docs.microsoft.com/powershell/module/exchange/client-access/set-owamailboxpolicy) configurada por administradores de locatários para controlar se os usuários podem alterar a imagem do seu perfil. Se a configuração **-SetPhotoEnabled** estiver desativada na política, os usuários não poderão adicionar, alterar ou remover a imagem do perfil dela. Por exemplo, se um usuário carregar uma imagem de perfil que foi aprovada pelo departamento de ti ou RH da sua organização, nenhuma ação será necessária. No entanto, se um usuário carregar uma imagem que não seja apropriada, altere a imagem de acordo com as políticas internas da sua organização.
 
 ## <a name="requirements-to-get-the-most-out-of-microsoft-teams"></a>Requisitos para aproveitar ao máximo o Microsoft Teams
 

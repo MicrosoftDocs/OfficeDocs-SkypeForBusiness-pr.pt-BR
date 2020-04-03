@@ -19,12 +19,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 91cb2752d1e37f98056f305a287bf9e6c974e4e8
-ms.sourcegitcommit: f96d66d08a9d6993edbb9554738dc8236d901933
+ms.openlocfilehash: 2c6ce90a3ee92703b697a9fdb5dcfec3206193b4
+ms.sourcegitcommit: 482050a77a85aeb8dae52f86c9344023487e1b70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "43053624"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43113204"
 ---
 # <a name="security-and-microsoft-teams"></a>Segurança e Microsoft Teams
 
@@ -143,7 +143,7 @@ Esta tabela resume os protocolos usados pelo Teams.
 
 #### <a name="media-encryption"></a>Criptografia de mídia
 
-O tráfego de mídia é criptografado usando SRTP (Secure RTP), um perfil do protocolo RTP que fornece confidencialidade, autenticação e proteção contra ataques de repetição para o tráfego RTP. SRTP usa uma chave da sessão gerada por meio de um gerador de número aleatório seguro e trocada por meio do canal TLS de sinalização.
+O tráfego de mídia é criptografado usando SRTP (Secure RTP), um perfil do protocolo RTP que fornece confidencialidade, autenticação e proteção contra ataques de repetição para o tráfego RTP. SRTP usa uma chave da sessão gerada por meio de um gerador de número aleatório seguro e trocada por meio do canal TLS de sinalização. O tráfego da mídia cliente para cliente é negociado por meio de uma conexão de cliente para o servidor, mas é criptografado usando o SRTP ao ir para cliente direto para o cliente.
 
 O Teams usa um token baseado em credenciais para acesso seguro a retransmissores de mídia por TURN. Media Relays trocam o token por um canal protegido por TLS.
 
@@ -295,6 +295,6 @@ Os organizadores da reunião controlam se os participantes podem fazer apresenta
 
 [Gerenciar configurações de reunião no Microsoft Teams](https://docs.microsoft.com/microsoftteams/meeting-settings-in-teams)
 
-[Otimizar a conectividade do Office 365 para usuários remotos usando a criação de túnel dividido de VPN](https://review.docs.microsoft.com/en-us/Office365/Enterprise/office-365-vpn-split-tunnel?branch=vpn-split-tunnel)
+[Otimize a conectividade do Office 365 para usuários remotos usando o túnel dividido da VPN](https://review.docs.microsoft.com/en-us/Office365/Enterprise/office-365-vpn-split-tunnel?branch=vpn-split-tunnel)
 
-- [Implementando a criação de túnel dividido de VPN para Office 365](https://review.docs.microsoft.com/en-us/Office365/Enterprise/office-365-vpn-implement-split-tunnel?branch=vpn-split-tunnel)
+- [Implementando o tunelamento dividido de VPN para Office 365](https://review.docs.microsoft.com/en-us/Office365/Enterprise/office-365-vpn-implement-split-tunnel?branch=vpn-split-tunnel)

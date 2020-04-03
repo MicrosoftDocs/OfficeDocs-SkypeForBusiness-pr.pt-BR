@@ -17,24 +17,24 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 236b1d570d44395f3499c0a5fec3d3a415953e12
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: d5f2698330ae23f25ffbbe5fae40d8dc6234354d
+ms.sourcegitcommit: dc6108917392754d950cea47b92f871211bf4212
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834681"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43131109"
 ---
 # <a name="how-sharepoint-online-and-onedrive-for-business-interact-with-microsoft-teams"></a>Como o SharePoint Online e o OneDrive for Business interagem com o Microsoft Teams
 
 > [!Tip]
 > Assista à sessão a seguir para saber como as equipes interagem com o Azure Active Directory (AAD), o Office 365 Groups, o Exchange, o SharePoint e o OneDrive for Business: [bases do Microsoft Teams](https://aka.ms/teams-foundations)
 
-Cada equipe do Microsoft Teams tem um site de equipe no SharePoint Online, e cada canal padrão em uma equipe Obtém uma pasta dentro da biblioteca de documentos padrão do site de equipe. Os arquivos compartilhados em uma conversa são adicionados automaticamente à biblioteca de documentos e as permissões e as opções de segurança do arquivo definidas no SharePoint são refletidas automaticamente dentro do Teams.
+Cada equipe do Microsoft Teams tem um site de equipe no SharePoint Online, e cada canal padrão em uma equipe Obtém uma pasta dentro da biblioteca de documentos padrão do site de equipe. Os arquivos compartilhados em uma conversa são adicionados automaticamente à biblioteca de documentos e as permissões e as opções de segurança do arquivo definidas no SharePoint são refletidas automaticamente dentro do Teams. Para ver o impacto da alteração de um endereço de site no SharePoint, leia [alterar um endereço de site](https://docs.microsoft.com/sharepoint/change-site-address).
 
 > [!NOTE]
 > Este artigo se aplica somente a canais padrão. A arquitetura para canais privados é diferente dos canais padrão. Cada canal privado tem seu próprio conjunto de sites do SharePoint separado do site de equipe pai. Para saber mais, confira [canais privados no Microsoft Teams](private-channels.md).
 
-Os arquivos de bate-papo privado ficam armazenados na pasta do OneDrive for Business do remetente e as permissões são concedidas automaticamente a todos os participantes como parte do processo de compartilhamento de arquivos.
+Os arquivos de chat particulares são armazenados na pasta do OneDrive for Business do remetente, e as permissões são automaticamente concedidas a todos os participantes como parte do processo de compartilhamento de arquivos.
 
 Se os usuários não forem designados e habilitados com as licenças do SharePoint Online, eles não terão o armazenamento OneDrive for Business no Office 365. O compartilhamento de arquivos continuará a funcionar em canais padrão, mas os usuários não poderão compartilhar arquivos em chats sem o armazenamento do OneDrive for Business no Office 365.
 
