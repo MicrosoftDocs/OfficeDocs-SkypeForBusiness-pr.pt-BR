@@ -23,19 +23,20 @@ ms.custom:
 - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
 description: Ao receber números de telefone ou portabilidade (transferência) de números para a sua organização, talvez seja necessário obter ajuda e suporte na mesa de serviço PSTN.
-ms.openlocfilehash: 3fe6353deb52911a4e0f0249f500a2a562e29ac1
-ms.sourcegitcommit: 33bec766519397f898518a999d358657a413924c
+ms.openlocfilehash: 58c32b8bf54ff6b1e9df689c6bcde184889b8462
+ms.sourcegitcommit: 8665603fae8408ccbc083dd59cb01936ebe96c58
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42583068"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43116697"
 ---
 # <a name="pstn-service-desk-contact"></a>Contato da mesa de serviço PSTN
 
-Se precisar de ajuda para receber ou transferir números para nós, mas precisa de ajuda, informe-nos como podemos ajudá-lo em um e-mail e enviá-lo para nós. Na sua solicitação de ajuda de email, inclua o maior número possível de detalhes e inclua detalhes como a ID da sua organização (ID do locatário), domínios, de quais tipos de números você precisa de ajuda, quantos números você deseja, a pessoa que autoriza a conta e outros detalhes importantes sobre o seu problema.
+Se precisar de ajuda para receber ou transferir números para nós, mas precisa de ajuda, informe-nos como podemos ajudá-lo em um e-mail e enviá-lo para nós. Na sua solicitação de ajuda de email, inclua o maior número possível de detalhes e inclua detalhes como a ID da sua organização (ID do locatário), domínios e de quais tipos de números você precisa de ajuda, quantos números você deseja, a pessoa que autoriza a conta e outros detalhes importantes sobre o seu problema.
 
   - Sua ID de organização (ID de locatário) ou domínios ativos.
   - Para quais tipos de números você precisa de ajuda (usuário/assinante, serviço/tarifação ou chamada gratuita).
+    - Inclua o (s) código (s) de área/Country/Region do qual você quer números de telefone.
   - Quantos números você precisa (se for para aquisição de número).
   - Autorizar a pessoa na conta e outros detalhes importantes com base na sua solicitação.
 

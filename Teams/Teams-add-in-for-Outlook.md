@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e1cdd071dfe19c50650d6f18605a5aeed5b39300
-ms.sourcegitcommit: c16451519e05b47bbb77e09dacd13ff212617e91
-ms.translationtype: HT
+ms.openlocfilehash: 0320a08a5358716472d382482cb9c825d0709e59
+ms.sourcegitcommit: 1bb3df681177db5ecc6afae3d3f3a46c251e5c23
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "42327843"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43117429"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Usar o suplemento de Reunião do Teams no Outlook
 =======================================
@@ -37,6 +37,7 @@ O suplemento de reunião do Teams é instalado automaticamente para usuários qu
 ![Captura de tela do suplemento de reunião do Teams na faixa de opções do Outlook](media/Teams-add-in-for-Outlook.png)
 
 > [!NOTE]
+> - Há mais considerações se a sua organização executar tanto o Skype for Business Teams quanto o Skype for Business. Em algumas circunstâncias, o suplemento Teams não está disponível no Outlook. Confira [a atualização do Skype for Business para o Teams](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview#meetings) para obter detalhes.
 > - Ter permissões do usuário para executar o arquivo Regsvr32.exe é um requisito mínimo para que o suplemento Reunião do Teams seja instalado no computador.
 > - Se o suplemento de Reunião do Teams não for exibido, instrua os usuários a fechar o Outlook e o Teams e reiniciar o cliente Teams primeiro, depois entrar no Teams e então reiniciar o cliente Outlook, exatamente nessa ordem.
 > - Se você estiver usando uma instalação do Outlook do Office da Microsoft Store, não haverá suporte para o suplemento Reunião do Teams. Os usuários que precisam desse suplemento são aconselhados a instalar a versão Click-to-Run do Office, conforme descrito no artigo [Office no Windows 10 no modo S](https://support.office.com/article/faq-office-on-windows-10-in-s-mode-717193b5-ff9f-4388-84c0-277ddf07fe3f).
@@ -73,7 +74,7 @@ Consulte [Agendar reuniões com o Verificador de Horas](https://support.office.c
 
 ## <a name="authentication-requirements"></a>Requisitos de autenticação
 
-O suplemento de Reunião do Teams requer que os usuários entrem no Teams usando a autenticação moderna. Se os usuários não utilizarem esse método para entrar, poderão usar o cliente Teams, mas não conseguirão agendar reuniões online do Teams usando o suplemento do Outlook. Você pode corrigir isso da seguinte maneira:
+O suplemento de Reunião do Teams requer que os usuários entrem no Teams usando a autenticação moderna. Se os usuários não usarem esse método para se conectar, ainda poderão usar o cliente do Teams, mas não será possível agendar reuniões online do teams usando o suplemento do Outlook. Você pode corrigir isso da seguinte maneira:
 
 - Se a autenticação moderna não estiver configurada para a sua organização, você deverá fazer isso.
 - Se a Autenticação Moderna estiver configurada, mas os usuários tiverem cancelado a mesma na caixa de diálogo, você deve instruir os usuários a entrarem novamente usando a autenticação multifator.
@@ -120,7 +121,7 @@ Se você não conseguir instalar o suplemento Teams Meeting para o Outlook, tent
 - Verifique se todas as atualizações disponíveis para o cliente da área de trabalho do Outlook foram aplicadas.
 - Reinicie o cliente de área de trabalho do Teams.
 - Saia e entre novamente no cliente de área de trabalho do Teams.
-- Reinicie o cliente para área de trabalho do Outlook. (Certifique-se de que o Outlook não esteja sendo executado no modo de administrador.)
+- Reinicie o cliente para área de trabalho do Outlook. (Verifique se o Outlook não está em execução no modo de administração.)
 - Certifique-se de que o nome da conta do usuário que efetuou logon não contenha espaços. (Esse é um problema conhecido e será corrigido em uma atualização futura.)
 - Certifique-se de que o logon único (SSO) esteja ativado.
 
