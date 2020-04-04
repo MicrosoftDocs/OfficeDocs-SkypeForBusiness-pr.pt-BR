@@ -19,14 +19,17 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2c6ce90a3ee92703b697a9fdb5dcfec3206193b4
-ms.sourcegitcommit: 482050a77a85aeb8dae52f86c9344023487e1b70
+ms.openlocfilehash: 5a86a28cd5f7373edbd6d195fea7f857aef1ee29
+ms.sourcegitcommit: dc6108917392754d950cea47b92f871211bf4212
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43113204"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43131209"
 ---
-# <a name="security-and-microsoft-teams"></a>Segurança e Microsoft Teams
+> [!IMPORTANT]
+> O modelo de serviço do Teams está sujeito a alterações para melhorar a experiência do cliente. Por exemplo, o acesso padrão ou os tempos de expiração do token de atualização podem estar sujeitos a modificações para melhorar a resiliência de desempenho e autenticação para as pessoas que usam o Teams. Quaisquer alterações são feitas com a meta de manter o Teams seguro e confiável por padrão.
+
+ # <a name="security-and-microsoft-teams"></a>Segurança e Microsoft Teams
 
 Microsoft Teams, como parte do serviço do Office 365 (M365), segue todas as práticas recomendadas e os procedimentos de segurança, como segurança de nível de serviço, defesa profunda, controles do cliente dentro do serviço, aumento da segurança e melhores práticas operacionais. Para obter todos os detalhes, consulte a [Central de Confiabilidade da Microsoft](https://microsoft.com/trustcenter).
 
@@ -149,7 +152,7 @@ O Teams usa um token baseado em credenciais para acesso seguro a retransmissores
 
 #### <a name="fips"></a>FIPS
 
-O Teams usa algoritmos compatíveis com FIPS (Federal Information Processing Standard) para trocas de chave de criptografia.
+O Teams usa algoritmos compatíveis com FIPS (Federal Information Processing Standard) para trocas de chave de criptografia. Para obter mais informações sobre a implementação do FIPS, confira [Publicação 140-2 do padrão FIPS (Federal Information Processing Standard)](https://docs.microsoft.com/microsoft-365/compliance/offering-fips-140-2?view=o365-worldwide).
 
 ### <a name="user-and-client-authentication"></a>Autenticação do usuário e do cliente
 
@@ -289,12 +292,12 @@ Os organizadores da reunião controlam se os participantes podem fazer apresenta
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[As 12 principais tarefas para as equipes de segurança dar suporte ao trabalho em casa](https://docs.microsoft.com/microsoft-365/security/top-security-tasks-for-remote-work?view=o365-worldwide)
+[As 12 principais tarefas para as equipes de segurança dar suporte ao trabalho em casa](https://docs.microsoft.com/microsoft-365/security/top-security-tasks-for-remote-work)
 
 [Central de Confiabilidade da Microsoft](https://microsoft.com/trustcenter)
 
 [Gerenciar configurações de reunião no Microsoft Teams](https://docs.microsoft.com/microsoftteams/meeting-settings-in-teams)
 
-[Otimize a conectividade do Office 365 para usuários remotos usando o túnel dividido da VPN](https://review.docs.microsoft.com/en-us/Office365/Enterprise/office-365-vpn-split-tunnel?branch=vpn-split-tunnel)
+[Otimizar a conectividade do Office 365 para usuários remotos usando a criação de túnel dividido de VPN](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-split-tunnel)
 
-- [Implementando o tunelamento dividido de VPN para Office 365](https://review.docs.microsoft.com/en-us/Office365/Enterprise/office-365-vpn-implement-split-tunnel?branch=vpn-split-tunnel)
+- [Implementando a criação de túnel dividido de VPN para Office 365](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-implement-split-tunnel)

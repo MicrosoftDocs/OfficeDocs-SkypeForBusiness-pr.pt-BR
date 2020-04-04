@@ -1,5 +1,5 @@
 ---
-title: Gerenciar a oferta de avaliação na nuvem comercial do Microsoft Teams
+title: Gerenciar a oferta de avaliação na nuvem comercial
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
@@ -16,12 +16,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fb4a42ebe8772eebe5e5ebd130a68dd4bba714b3
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: a46720a59b5d3530f64bf4f459df13ad7c5cf5de
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836591"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137151"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Gerenciar a oferta de avaliação na nuvem comercial do Microsoft Teams
 =======================================================
@@ -70,15 +71,15 @@ Os usuários qualificados podem inscrever-se para a oferta de avaliação fazend
 
 Todas as avaliações em sua organização compartilham as mesmas datas de início e fim, que é a data em que o primeiro usuário se inscreveu na versão de avaliação. Por exemplo, se um usuário começa a primeira versão de avaliação em 25 de janeiro de 2019 e usuário B iniciar uma avaliação em 3 de junho de 2019, a avaliação de ambos expirará em 25 de janeiro de 2020.
 
-## <a name="manage-the-trial"></a>Gerenciar a versão de avaliação
+## <a name="manage-the-trial"></a><a name="manage-the-trial"></a>Gerenciar a versão de avaliação
 
 A Versão de Avaliação do Teams deve ser iniciada por usuários finais individuais, e você não pode iniciar a oferta de Avaliação do Teams em nome de funcionários finais.
 
 Os administradores podem desativar a capacidade de os usuários finais reivindicarem aplicativos e serviços de avaliação em sua organização. Atualmente, a avaliação descrita neste artigo é a única avaliação nessa categoria, mas pode se aplicar a outros programas semelhante no futuro. 
 
-### <a name="prevent-users-from-installing-trial-apps-and-services"></a>Impeça que os usuários instalem serviços e aplicativos de avaliação
+### <a name="prevent-users-from-installing-trial-apps-and-services"></a>Impedir que os usuários instalem serviços e aplicativos de avaliação
 
-Você pode desativar a capacidade de um usuário de instalar serviços e aplicativos de avaliação.
+Você pode desativar a capacidade de um usuário instalar serviços e aplicativos de avaliação.
 
 1. No [Centro de administração do Microsoft 365](https://portal.office.com/adminportal/home), vá até **Configurações** > **Configurações**, selecione**Serviços**e, em seguida, selecione **Aplicativos e serviços de propriedade do usuário**.
 
