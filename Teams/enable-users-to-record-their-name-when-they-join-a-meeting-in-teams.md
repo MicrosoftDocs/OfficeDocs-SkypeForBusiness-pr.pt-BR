@@ -1,5 +1,5 @@
 ---
-title: Permitir que usuários gravem o nome ao entrar em uma reunião no Microsoft Teams
+title: Permitir que os usuários registrem o nome de uma reunião
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,48 +20,49 @@ f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
+- seo-marvel-mar2020
 description: Saiba como ativar ou desativar se seus usuários podem ou não gravar o nome ao entrarem em uma reunião no Microsoft Teams.
-ms.openlocfilehash: b7b04ba5959d4ffbbb4664401ccf8e95b46c48b9
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: f6d1f8ea0ef015e4d951fbf3bbe124263a3b9a1f
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836101"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141214"
 ---
-# <a name="enable-users-to-record-their-name-when-they-join-a-meeting-in-microsoft-teams"></a><span data-ttu-id="df5ce-103">Permitir que usuários gravem o nome ao entrar em uma reunião no Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="df5ce-103">Enable users to record their name when they join a meeting in Microsoft Teams</span></span>
+# <a name="enable-users-to-record-their-name-when-they-join-a-meeting-in-microsoft-teams"></a><span data-ttu-id="53846-103">Permitir que usuários gravem o nome ao entrar em uma reunião no Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="53846-103">Enable users to record their name when they join a meeting in Microsoft Teams</span></span>
 
-<span data-ttu-id="df5ce-104">Ao configurar a audioconferência discada no Office 365, você receberá números de telefone e o que chamamos de ponte de conferência de áudio.</span><span class="sxs-lookup"><span data-stu-id="df5ce-104">When you are setting up Audio Conferencing in Office 365, you will receive phone numbers and what is called an audio conferencing bridge.</span></span> <span data-ttu-id="df5ce-105">Uma ponte de conferência pode conter um ou mais números de telefone, que podem ser um número de telefone exclusivo ou compartilhado.</span><span class="sxs-lookup"><span data-stu-id="df5ce-105">A conferencing bridge can contain one or more phone numbers that can be a dedicated or shared phone number.</span></span>
+<span data-ttu-id="53846-104">Ao configurar a audioconferência discada no Office 365, você receberá números de telefone e o que chamamos de ponte de conferência de áudio.</span><span class="sxs-lookup"><span data-stu-id="53846-104">When you are setting up Audio Conferencing in Office 365, you will receive phone numbers and what is called an audio conferencing bridge.</span></span> <span data-ttu-id="53846-105">Uma ponte de conferência pode conter um ou mais números de telefone, que podem ser um número de telefone exclusivo ou compartilhado.</span><span class="sxs-lookup"><span data-stu-id="53846-105">A conferencing bridge can contain one or more phone numbers that can be a dedicated or shared phone number.</span></span>
   
-<span data-ttu-id="df5ce-106">A ponte de conferência atende uma chamada feita por um usuário que discou para a reunião utilizando um telefone.</span><span class="sxs-lookup"><span data-stu-id="df5ce-106">The conferencing bridge answers a call for a user who is dialing in to a meeting using a phone.</span></span> <span data-ttu-id="df5ce-107">A ponte de conferência atende o chamador com solicitações de voz de um atendedor automático e, dependendo das configurações dele, pode reproduzir notificações, pedir para o chamador gravar o nome dele e configurar a segurança do PIN para os organizadores da reunião.</span><span class="sxs-lookup"><span data-stu-id="df5ce-107">The conferencing bridge answers the caller with voice prompts from an auto attendant, and then, depending on their settings, can play notifications, ask callers to record their name, and set up the PIN security for meeting organizers.</span></span> <span data-ttu-id="df5ce-108">Os organizadores de reunião recebem PINs que os permitem iniciar uma reunião.</span><span class="sxs-lookup"><span data-stu-id="df5ce-108">PINs are given to meeting organizers to allow them to start a meeting.</span></span> <span data-ttu-id="df5ce-109">Entretanto, você pode configurar a reunião sem a necessidade de um PIN para começar.</span><span class="sxs-lookup"><span data-stu-id="df5ce-109">However, you can set it up so a PIN isn't required to start a meeting.</span></span>
+<span data-ttu-id="53846-106">A ponte de conferência atende uma chamada feita por um usuário que discou para a reunião utilizando um telefone.</span><span class="sxs-lookup"><span data-stu-id="53846-106">The conferencing bridge answers a call for a user who is dialing in to a meeting using a phone.</span></span> <span data-ttu-id="53846-107">A ponte de conferência atende o chamador com solicitações de voz de um atendedor automático e, dependendo das configurações dele, pode reproduzir notificações, pedir para o chamador gravar o nome dele e configurar a segurança do PIN para os organizadores da reunião.</span><span class="sxs-lookup"><span data-stu-id="53846-107">The conferencing bridge answers the caller with voice prompts from an auto attendant, and then, depending on their settings, can play notifications, ask callers to record their name, and set up the PIN security for meeting organizers.</span></span> <span data-ttu-id="53846-108">Os organizadores de reunião recebem PINs que os permitem iniciar uma reunião.</span><span class="sxs-lookup"><span data-stu-id="53846-108">PINs are given to meeting organizers to allow them to start a meeting.</span></span> <span data-ttu-id="53846-109">Entretanto, você pode configurar a reunião sem a necessidade de um PIN para começar.</span><span class="sxs-lookup"><span data-stu-id="53846-109">However, you can set it up so a PIN isn't required to start a meeting.</span></span>
 
   
-## <a name="set-whether-callers-should-record-their-name"></a><span data-ttu-id="df5ce-110">Definir se os chamadores devem gravar o nome</span><span class="sxs-lookup"><span data-stu-id="df5ce-110">Set whether callers should record their name</span></span>
+## <a name="set-whether-callers-should-record-their-name"></a><span data-ttu-id="53846-110">Definir se os chamadores devem gravar o nome</span><span class="sxs-lookup"><span data-stu-id="53846-110">Set whether callers should record their name</span></span>
 
-<span data-ttu-id="df5ce-111">![Um ícone mostrando o logotipo](media/teams-logo-30x30.png) do Microsoft Teams **usando o centro de administração do Microsoft Teams**</span><span class="sxs-lookup"><span data-stu-id="df5ce-111">![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**</span></span>
+<span data-ttu-id="53846-111">![Um ícone mostrando o logotipo do Microsoft Teams](media/teams-logo-30x30.png) **Usando o centro de administração do Microsoft Teams**</span><span class="sxs-lookup"><span data-stu-id="53846-111">![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**</span></span>
 
-1. <span data-ttu-id="df5ce-112">Na navegação à esquerda, vá para **Reuniões** > **Pontes de conferência**.</span><span class="sxs-lookup"><span data-stu-id="df5ce-112">In the left navigation, go to **Meetings** > **Conference Bridges**.</span></span> 
+1. <span data-ttu-id="53846-112">Na navegação à esquerda, vá para **Reuniões** > **Pontes de conferência**.</span><span class="sxs-lookup"><span data-stu-id="53846-112">In the left navigation, go to **Meetings** > **Conference Bridges**.</span></span> 
 
-2. <span data-ttu-id="df5ce-113">Na parte superior da página **pontes de conferência** , clique em **configurações de ponte**.</span><span class="sxs-lookup"><span data-stu-id="df5ce-113">At the top of the **Conference Bridges** page, click **Bridge settings**.</span></span> 
+2. <span data-ttu-id="53846-113">Na parte superior da página **pontes de conferência** , clique em **configurações de ponte**.</span><span class="sxs-lookup"><span data-stu-id="53846-113">At the top of the **Conference Bridges** page, click **Bridge settings**.</span></span> 
 
-3. <span data-ttu-id="df5ce-114">Habilite ou desabilite as **notificações de entrada e saída da reunião**.</span><span class="sxs-lookup"><span data-stu-id="df5ce-114">Enable or disable **Meeting entry and exit notifications**.</span></span>
+3. <span data-ttu-id="53846-114">Habilite ou desabilite as **notificações de entrada e saída da reunião**.</span><span class="sxs-lookup"><span data-stu-id="53846-114">Enable or disable **Meeting entry and exit notifications**.</span></span>
 
-4. <span data-ttu-id="df5ce-115">Se habilitar notificações, escolha **nomes ou números de telefone** em **tipo de anúncio de entrada/saída**e ative **solicitar aos chamadores gravarem o nome antes de ingressar em uma reunião.**</span><span class="sxs-lookup"><span data-stu-id="df5ce-115">If enabling notifications, choose **Names or phone numbers** under **Entry/exit announcement type**, and then turn on **Ask callers to record their name before joining a meeting.**</span></span>
+4. <span data-ttu-id="53846-115">Se habilitar notificações, escolha **nomes ou números de telefone** em **tipo de anúncio de entrada/saída**e ative **solicitar aos chamadores gravarem o nome antes de ingressar em uma reunião.**</span><span class="sxs-lookup"><span data-stu-id="53846-115">If enabling notifications, choose **Names or phone numbers** under **Entry/exit announcement type**, and then turn on **Ask callers to record their name before joining a meeting.**</span></span>
 
-6. <span data-ttu-id="df5ce-116">Clique em **Salvar**.</span><span class="sxs-lookup"><span data-stu-id="df5ce-116">Click **Save**.</span></span>
+6. <span data-ttu-id="53846-116">Clique em **Salvar**.</span><span class="sxs-lookup"><span data-stu-id="53846-116">Click **Save**.</span></span>
     
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
-## <a name="want-to-know-more-about-windows-powershell"></a><span data-ttu-id="df5ce-117">Deseja saber mais sobre o Windows PowerShell?</span><span class="sxs-lookup"><span data-stu-id="df5ce-117">Want to know more about Windows PowerShell?</span></span>
+## <a name="want-to-know-more-about-windows-powershell"></a><span data-ttu-id="53846-117">Deseja saber mais sobre o Windows PowerShell?</span><span class="sxs-lookup"><span data-stu-id="53846-117">Want to know more about Windows PowerShell?</span></span>
 
-<span data-ttu-id="df5ce-p103">O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com o Windows PowerShell, você pode gerenciar o Office 365 usando um ponto único de administração para simplificar seu trabalho diário quando houver várias tarefas a serem feitas. Para começar a usar o Windows PowerShell, consulte estes tópicos:</span><span class="sxs-lookup"><span data-stu-id="df5ce-p103">Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Office 365 using a single point of administration that can simplify your daily work when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:</span></span>
+<span data-ttu-id="53846-p103">O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com o Windows PowerShell, você pode gerenciar o Office 365 usando um ponto único de administração para simplificar seu trabalho diário quando houver várias tarefas a serem feitas. Para começar a usar o Windows PowerShell, consulte estes tópicos:</span><span class="sxs-lookup"><span data-stu-id="53846-p103">Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Office 365 using a single point of administration that can simplify your daily work when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:</span></span>
     
-  - [<span data-ttu-id="df5ce-121">Por que você precisa usar o PowerShell do Office 365</span><span class="sxs-lookup"><span data-stu-id="df5ce-121">Why you need to use Office 365 PowerShell</span></span>](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [<span data-ttu-id="53846-121">Por que você precisa usar o PowerShell do Office 365</span><span class="sxs-lookup"><span data-stu-id="53846-121">Why you need to use Office 365 PowerShell</span></span>](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-  - [<span data-ttu-id="df5ce-122">Melhores maneiras de gerenciar o Office 365 com o Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="df5ce-122">Best ways to manage Office 365 with Windows PowerShell</span></span>](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [<span data-ttu-id="53846-122">Melhores maneiras de gerenciar o Office 365 com o Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="53846-122">Best ways to manage Office 365 with Windows PowerShell</span></span>](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-<span data-ttu-id="df5ce-123">Para obter mais informações sobre o Windows PowerShell, consulte a [referência do Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) para obter mais informações.</span><span class="sxs-lookup"><span data-stu-id="df5ce-123">For more information about Windows PowerShell, see the [Microsoft Teams PowerShell reference](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) for more information.</span></span>
+<span data-ttu-id="53846-123">Para obter mais informações sobre o Windows PowerShell, consulte a [referência do Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) para obter mais informações.</span><span class="sxs-lookup"><span data-stu-id="53846-123">For more information about Windows PowerShell, see the [Microsoft Teams PowerShell reference](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) for more information.</span></span>
   
-## <a name="related-topics"></a><span data-ttu-id="df5ce-124">Tópicos relacionados</span><span class="sxs-lookup"><span data-stu-id="df5ce-124">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="53846-124">Tópicos relacionados</span><span class="sxs-lookup"><span data-stu-id="53846-124">Related topics</span></span>
 
-[<span data-ttu-id="df5ce-125">Experimentar ou comprar audioconferência no Office 365</span><span class="sxs-lookup"><span data-stu-id="df5ce-125">Try or purchase Audio Conferencing in Office 365</span></span>](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[<span data-ttu-id="53846-125">Experimentar ou comprar audioconferência no Office 365</span><span class="sxs-lookup"><span data-stu-id="53846-125">Try or purchase Audio Conferencing in Office 365</span></span>](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
