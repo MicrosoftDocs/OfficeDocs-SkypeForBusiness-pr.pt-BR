@@ -1,5 +1,5 @@
 ---
-title: Restrições de discagem de chamada gratuita no Sul da China (faixa de 10 800 140 XXXX)
+title: Restrições de discagem de chamada gratuita na China-sul
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -22,13 +22,14 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: Isso vai ajudá-lo a descobrir como discar números de chamada gratuita em cada país/região. Depois de selecionar o país/região, você será direcionado a uma página específica do país que contém detalhes específicos, restrições e limites para a disponibilidade de serviço de chamada gratuita em que o serviço de chamada gratuita está disponível. O formato ou formatos de discagem mostrará os códigos de acesso necessários em cada país/região para discar o número de chamada gratuita.
-ms.openlocfilehash: f9343dbbbb0db35df1e20e22de8d2149bebf351d
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+- seo-marvel-mar2020
+description: Saiba mais sobre números de chamada gratuita no sul da China, incluindo disponibilidade, disponibilidade de linha com fio/de linha fixa e restrições de rede móvel e restrições.
+ms.openlocfilehash: 0ac72f51546d8655e4472d6392206867247a1900
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41707987"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140450"
 ---
 # <a name="toll-free-dialing-restrictions-in-china---south-10-800-140-xxxx-range"></a>Restrições de discagem de chamada gratuita no Sul da China (faixa de 10 800 140 XXXX)
 

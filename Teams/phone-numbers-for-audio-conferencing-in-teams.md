@@ -1,5 +1,5 @@
 ---
-title: Números de telefone para Audioconferência no Microsoft Teams
+title: Números de telefone para audioconferência
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,13 +21,14 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - LIL_Placement
+- seo-marvel-mar2020
 description: Saiba os países e regiões que têm números de conferência discada e como eles são atribuídos automaticamente.
-ms.openlocfilehash: e7a9d67bfb843e65721ebbd18b03b48aca8a24f0
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 921878c7b0dfd8abd313adffb9b87e07e58ad66d
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836871"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137851"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-microsoft-teams"></a>Números de telefone para Audioconferência no Microsoft Teams
 
@@ -60,7 +61,7 @@ Os números de telefone de audioconferência são automaticamente atribuídos pa
 Para ver uma lista dos países/regiões que têm números de telefone automaticamente atribuídos às organizações, consulte [Disponibilidade de Audioconferência e Planos de Chamada por país e região](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
     
 > [!NOTE]
-> O local do país ou região da sua organização pode ser encontrado conectando-se ao **centro de administração do Microsoft 365** e olhando em **perfil da organização**. 
+> Para encontrar a localização do país ou região de sua organização, entre no **Centro de administração do Microsoft 365** e confira **Perfil da Organização**. 
   
 > [!CAUTION]
 > Devido à disponibilidade limitada de números de telefone tarifados na Venezuela, na Indonésia e nos Emirados Árabes Unidos (EAU), as organizações desses países/regiões não possuem um número gratuito para audioconferência atribuído automaticamente a elas. Os números gratuitos desses locais são disponibilizados conforme o estoque disponível. 

@@ -16,13 +16,14 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: anach
-description: Integração do EHR do aplicativo Microsoft Teams pacientes
-ms.openlocfilehash: 27149ad8466eec9bd3c1f73293f82a877dc1a722
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+description: Saiba mais sobre como integrar os registros eletrônicos de assistência médica ao Microsoft Teams usando APIs do FHIR sobre um sistema de informações médicas para se conectar ao Microsoft Teams.
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: bbd239c34c6fd4cd5838b2ba57c7160448f38497
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42147714"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141204"
 ---
 # <a name="integrating-electronic-healthcare-records-into-microsoft-teams"></a>Integração dos Registros Eletrônicos de Saúde no Microsoft Teams
 
@@ -63,7 +64,7 @@ As seções a seguir explicam os requisitos da camada de acesso a dados somente 
 
 ### <a name="authentication"></a>Autenticação  
 
-A autorização em nível de aplicativo sem *suporte para a autorização em nível de usuário* é a maneira mais comum de executar transformações de dados e expor conexões a dados EHR por meio do FHIR, mesmo que o sistema EHR implemente a autorização em nível de usuário. O serviço de interoperabilidade (parceiro) obtém acesso elevado aos dados do EHR e, quando eles expõem os mesmos dados dos recursos FHIR apropriados, não há um contexto de autorização passado para o cliente do serviço de interoperabilidade (o aplicativo pacientes) que está sendo integrado à interoperabilidade Serviço ou plataforma. O aplicativo pacientes não poderá impor a autorização no nível do usuário, mas dá suporte a aplicativos para autenticação de aplicativos entre o aplicativo pacientes e o serviço do parceiro de interoperabilidade.
+A autorização em nível de aplicativo sem *suporte para a autorização em nível de usuário* é a maneira mais comum de executar transformações de dados e expor conexões a dados EHR por meio do FHIR, mesmo que o sistema EHR implemente a autorização em nível de usuário. O serviço de interoperabilidade (parceiro) obtém acesso elevado aos dados do EHR e, quando expõe os mesmos dados dos recursos FHIR apropriados, não há contexto de autorização aprovado para o consumidor do serviço de interoperabilidade (o aplicativo pacientes) com o serviço de interoperabilidade ou a plataforma. O aplicativo pacientes não poderá impor a autorização no nível do usuário, mas dá suporte a aplicativos para autenticação de aplicativos entre o aplicativo pacientes e o serviço do parceiro de interoperabilidade.
 
 O aplicativo para o modelo de autenticação do aplicativo está descrito abaixo:
 
@@ -71,7 +72,7 @@ A autenticação do serviço para o serviço deve ser feita por meio do [fluxo d
 
 1. O serviço de parceiro permite que o aplicativo pacientes crie uma conta com o parceiro, o que habilita o aplicativo pacientes a gerar e possuir client_id e client_secret, gerenciados por meio de um portal de registro de autenticação no servidor de autenticação do parceiro.
 2. O serviço de parceiro pertence ao sistema de autenticação/autorização, que aceita e verifica (autentica) as credenciais de cliente fornecidas e retorna um token de acesso com dica de locatário em escopo, conforme descrito a seguir.
-3. Por motivos de segurança ou em caso de uma violação secreta, o aplicativo pacientes pode regenerar o segredo e invalidar ou excluir o antigo segredo (exemplo do mesmo está disponível no portal do Azure – registro do aplicativo AAD)
+3. Por motivos de segurança ou em caso de uma violação secreta, o aplicativo pacientes pode regenerar o segredo e invalidar ou excluir o antigo segredo (exemplo do mesmo está disponível no portal do Azure – registro do aplicativo AAD).
 4. O ponto de extremidade de metadados que hospeda a instrução de conformidade deve ser não autenticado, deve ser acessível sem token de autenticação.
 5. O serviço de parceiro fornece o ponto de extremidade do token para que o aplicativo pacientes solicite um token de acesso usando um fluxo de credenciais do cliente. A URL do token de acordo com o servidor de autorização deve fazer parte da instrução FHIR conformidade (funcionalidade) buscada pelos metadados no servidor FHIR como neste exemplo:
 
@@ -136,7 +137,7 @@ As chamadas e os campos específicos usados pelo aplicativo pacientes são docum
 
 ## <a name="performance-and-reliability"></a>Desempenho e confiabilidade
 
-Enquanto o aplicativo pacientes está em visualização particular, não há garantias sobre o desempenho de ponta a ponta. Fatores em desempenho incluem as latências relativas de todos os saltos envolvidos no fluxo de trabalho, a partir do EHR no ambiente do sistema de saúde, para o parceiro de interoperabilidade e sua infra-estrutura, incluindo o servidor FHIR e entre o ecossistema do Office 365 e Aplicativo pacientes.
+Enquanto o aplicativo pacientes está em visualização particular, não há garantias sobre o desempenho de ponta a ponta. Fatores em desempenho incluem as latências relativas de todos os saltos envolvidos no fluxo de trabalho, começando pelo EHR no ambiente do sistema de integridade, ao parceiro de interoperabilidade e sua infra-estrutura, incluindo o servidor FHIR e entre o aplicativo Office 365 ecossistema e pacientes.
 
 ![Ilustração do desempenho de parceiros de interoperabilidade](../../media/FHIR.png)
 
@@ -167,5 +168,3 @@ Depois de criar o servidor de FHIR de código-fonte aberto, é muito fácil se c
     ![Captura de tela das configurações do servidor de aplicativos pacientes](../../media/patients-server.png)
 
 5. Comece a usar o aplicativo para pesquisar pacientes do servidor/EHR do FHIR e adicioná-los a uma lista e [nos enviar comentários](mailto:Teamsforhealthcare@service.microsoft.com?subject=Microsoft%20Teams%20Patients%20App%20feedback) se algo não funcionar. Além disso, para estabelecer uma versão totalmente autenticada do fluxo do FHIR do aplicativo pacientes-> do servidor, entre em contato com o Microsoft Teams for Healthcare Product Engineering, por meio da solicitação de email mencionada anteriormente para esclarecer os requisitos, e ajudaremos a habilitar isso para você de acordo com os requisitos de autenticação descritos acima no documento da interface FHIR.  
-
-

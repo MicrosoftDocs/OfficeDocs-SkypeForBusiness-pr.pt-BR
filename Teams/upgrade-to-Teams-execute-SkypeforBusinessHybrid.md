@@ -1,5 +1,5 @@
 ---
-title: Atualizar a implantação híbrida do Skype for Business para o Microsoft Teams | PSTN
+title: Atualizar a implantação híbrida do Skype for Business para o Microsoft Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -12,18 +12,20 @@ localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - CSH
-ms.custom: Teams-upgrade-guidance
+ms.custom:
+- Teams-upgrade-guidance
+- seo-marvel-mar2020
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ca9ebc7a28e07eec9b24c0628ade4941c0fd2fa2
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: fa72c0d6a03ef89d0c04b0a70a0bbc918a508243
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706691"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43136971"
 ---
 # <a name="upgrade-from-a-skype-for-business-hybrid-deployment-to-teams"></a>Atualizar de uma implantação híbrida do Skype for Business para o Teams
 
@@ -39,7 +41,7 @@ Este artigo faz parte do estágio de implantação e implementação da sua jorn
 - [Preparou sua organização](https://aka.ms/SkypeToTeams-UserReadiness)
 - [Conduziu um piloto](https://aka.ms/SkypeToTeams-Pilot)
 
-Siga as orientações neste artigo se você tiver implantado o Skype for Business ou o Microsoft Lync local e o configurou em uma implantação híbrida com o seu locatário do Office 365 e sua organização quiser atualizar para as equipes seletivamente — usando vários modos de coexistência — ou todos. Para a viagem de atualização, você precisa mover seus usuários para o Skype for Business online (se eles ainda não estiverem online) e atribuí-los ao modo de coexistência e à atualização apropriados.
+Siga as orientações neste artigo se você tiver implantado o Skype for Business ou o Microsoft Lync local e o configurou em uma implantação híbrida com o seu locatário do Office 365, e a sua organização quiser atualizar para o Microsoft Teams, usando vários modos de coexistência, ou todos. Para a viagem de atualização, você precisa mover seus usuários para o Skype for Business online (se eles ainda não estiverem online) e atribuí-los ao modo de coexistência e à atualização apropriados.
 
 > [!IMPORTANT]
 > [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]
@@ -57,6 +59,6 @@ Depois de mover os usuários para o Skype for Business Online, você pode atribu
 
 ## <a name="phone-system-and-teams-upgrade"></a>Atualização do sistema de telefonia e do teams
 
-Se você estiver fazendo a transição da sua implantação híbrida do Skype for Business para o sistema telefônico com planos de chamadas e a Microsoft for o seu provedor de rede telefônica pública comutada (PSTN) e presumir que você concluiu a portabilidade do número de telefone, a atualização dos usuários para O Microsoft Teams fará a transição de chamadas PSTN de entrada automaticamente para o Microsoft Teams.
+Se você estiver migrando sua implantação híbrida do Skype for Business para o sistema telefônico com planos de chamadas e a Microsoft for o seu provedor de rede telefônica pública comutada (PSTN) e pressupondo que você concluiu a portabilidade do número de telefone, a atualização de seus usuários para o Teams fará automaticamente a chamada PSTN de entrada para o Microsoft Teams.
 
-Se os planos de chamada não estiverem disponíveis ou se você pretende usar seu provedor de conectividade PSTN existente, é preciso fazer a transição de sua implantação de voz empresarial ou a implantação de voz híbrida que usa a implantação local existente ou a edição do conector de nuvem, para Encaminhamento direto do sistema telefônico da Microsoft. Para atualizar os usuários para o Microsoft Teams, consulte [considerações adicionais sobre o roteamento direto do sistema telefônico](2-envision-make-my-service-decisions-direct-routing.md).
+Se os planos de chamada não estiverem disponíveis ou se você pretende usar seu provedor de conectividade PSTN existente, será necessário fazer a transição da implantação do Enterprise Voice, ou da implantação de voz híbrida que usa a implantação local existente ou a edição do conector de nuvem, para o roteamento direto do sistema de telefone da Microsoft. Para atualizar os usuários para o Microsoft Teams, consulte [considerações adicionais sobre o roteamento direto do sistema telefônico](2-envision-make-my-service-decisions-direct-routing.md).

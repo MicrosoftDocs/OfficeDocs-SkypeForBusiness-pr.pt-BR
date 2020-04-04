@@ -1,6 +1,5 @@
 ---
 title: Implantar o gerenciamento de salas do Microsoft Teams com o Azure monitor
-ms.author: v-lanac
 author: lanachin
 ms.reviewer: Turgayo
 manager: serdars
@@ -12,15 +11,15 @@ f1.keywords:
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
-ms.custom: ''
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: Este artigo discute como implantar o gerenciamento de dispositivos de salas do Microsoft Teams de maneira integrada e de ponta a ponta usando o Azure monitor.
-ms.openlocfilehash: 70c2311143a4daabbc0838168e19969f950a2df1
-ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 3e01ae7a0fddcb63595b7dcc15b719ad1d41db32
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42417536"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137641"
 ---
 # <a name="deploy-no-loc-textmicrosoft-teams-rooms-management-with-no-loc-textazure-monitor"></a>Implantar :::no-loc text="Microsoft Teams Rooms"::: gerenciamento com:::no-loc text="Azure Monitor":::
 
@@ -416,7 +415,7 @@ Quando um alerta é gerado, você receberá um email que lista os dispositivos q
 ! [Exemplo :::no-loc text="Azure Monitor"::: de email de alerta] (.. /media/Deploy-Azure-Monitor-6.png "exemplo :::no-loc text="Azure Monitor"::: de email de alerta")
 
 ## <a name="configure-all-devices-for-no-loc-textazure-monitoring"></a>Configurar todos os dispositivos para:::no-loc text="Azure Monitoring":::
-<a name="configure_all_devices"></a> Depois que os painéis e alertas estiverem configurados, você poderá configurar e :::no-loc text="Microsoft Monitoring"::: configurar o agente :::no-loc text="Microsoft Teams Rooms"::: em todos os dispositivos para concluir a implantação do monitoramento.
+<a name="configure_all_devices"> </a> Depois que os painéis e alertas estiverem configurados, você poderá configurar e :::no-loc text="Microsoft Monitoring"::: configurar o agente :::no-loc text="Microsoft Teams Rooms"::: em todos os dispositivos para concluir a implantação do monitoramento.
 
 Embora você possa instalar e configurar o :::no-loc text="Microsoft Monitoring"::: agente manualmente em cada dispositivo, é altamente recomendável aproveitar ferramentas e métodos de implantação de software existentes.
 

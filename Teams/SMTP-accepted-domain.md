@@ -1,5 +1,5 @@
 ---
-title: Adicionar o domínio SMTP do Microsoft Teams como um domínio de remetente permitido no Exchange Online
+title: Adicionar o domínio SMTP do teams como um domínio de remetente permitido no Exchange Online
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -16,12 +16,12 @@ f1.keywords:
 description: Saiba como adicionar o domínio SMTP do Microsoft Teams como um domínio de remetente permitido no Exchange Online para enviar notificações para os membros da equipe.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a3455c56ab3d51b83d2d5bc27d41824b6fe16ae9
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: dc35a4797cf5b5fde001090e386f9c172c5b9458
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834761"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137261"
 ---
 <a name="add-the-microsoft-teams-smtp-domain-as-an-allowed-sender-domain-in-exchange-online"></a>Adicionar o domínio SMTP do Microsoft Teams como um domínio de remetente permitido no Exchange Online 
 =============================================================================
@@ -30,7 +30,7 @@ Se você cria um Grupo do Office 365 no console de administração ou usando o O
 
 ![Captura de tela de um cabeçalho de mensagem mostrando um usuário adicionado a um grupo.](media/Add_the_Microsoft_Teams_SMTP_domain_as_an_accepted_domain_in_Exchange_Online_image1.jpg)
 
-O Teams usa o Microsoft Exchange Online também para envia notificações aos membros da equipe quando são adicionados. A diferença é o FQDN do domínio da mensagem SMTP é "@email. teams.microsoft.com" para locatários comerciais/comerciais e "@GCC-email.teams.com" para locatários governamentais e pode ser detectada pela filtragem de spam.
+O Microsoft Teams usa o Microsoft Exchange Online, além de enviar notificações para os membros da equipe quando eles forem adicionados. A diferença é o FQDN do domínio da mensagem SMTP é "@email. teams.microsoft.com" para locatários comerciais/comerciais e "@GCC-email.teams.com" para locatários governamentais e pode ser detectada pela filtragem de spam.
 
 ![Captura de tela de um cabeçalho de mensagem mostrando um usuário adicionado a um grupo.](media/Add_the_Microsoft_Teams_SMTP_domain_as_an_accepted_domain_in_Exchange_Online_image2.jpg)
 

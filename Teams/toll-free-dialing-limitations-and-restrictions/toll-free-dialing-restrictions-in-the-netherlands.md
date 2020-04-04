@@ -22,13 +22,14 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: Isso vai ajudá-lo a descobrir como discar números de chamada gratuita em cada país/região. Depois de selecionar o país/região, você será direcionado a uma página específica do país que contém detalhes específicos, restrições e limites para a disponibilidade de serviço de chamada gratuita em que o serviço de chamada gratuita está disponível. O formato ou formatos de discagem mostrará os códigos de acesso necessários em cada país/região para discar o número de chamada gratuita.
-ms.openlocfilehash: 76c16089756657241324fbb0fab8bee9853841ab
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+- seo-marvel-mar2020
+description: Saiba mais sobre números de chamada gratuita nos Países Baixos, incluindo disponibilidade, disponibilidade com fio/linha fixa e disponibilidade da rede móvel e restrições.
+ms.openlocfilehash: 534130f2897ee3f35349404dcc00609e93548f27
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41681708"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139760"
 ---
 # <a name="toll-free-dialing-restrictions-in-the-netherlands"></a>Restrições de discagem de chamada gratuita nos Países Baixos
 

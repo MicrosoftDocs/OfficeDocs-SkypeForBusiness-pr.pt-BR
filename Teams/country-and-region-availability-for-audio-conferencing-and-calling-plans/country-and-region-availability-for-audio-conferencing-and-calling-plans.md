@@ -1,5 +1,5 @@
 ---
-title: Disponibilidade de Audioconferência e Planos de Chamadas por país e região
+title: Disponibilidade de país/região-conferência de áudio, planos de chamada
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -24,13 +24,14 @@ ms.custom:
 - Phone System
 - Calling Plans
 - LIL_Placement
-description: Você pode selecionar um país/região para ver se a conferência de áudio, o sistema de telefonia, os planos de chamada, os créditos de comunicações e os números de telefone gratuitos e de tarifas telefônicas estão disponíveis ou não.
-ms.openlocfilehash: cc1acc2e112477c441b9bfb492dff49183e5dc3d
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
-ms.translationtype: HT
+- seo-marvel-mar2020
+description: Saiba mais sobre a conferência de áudio, o sistema telefônico, os planos de chamadas, os créditos de comunicações e os números de telefone de chamada tarifada e gratuitas disponíveis em um país ou região.
+ms.openlocfilehash: d6c989ea073a3d12f5bd4f04496f57977534e05c
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41682518"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141054"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Disponibilidade de Audioconferência e Planos de Chamadas por país e região
 

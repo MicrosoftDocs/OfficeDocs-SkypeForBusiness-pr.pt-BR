@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams | Atualização, modo de ilhas, política de interoperabilidade, somente
+title: Interoperabilidade entre o Skype for Business e o Microsoft Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -12,18 +12,18 @@ localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - CSH
-ms.custom: Teams-upgrade-guidance
+ms.custom: seo-marvel-mar2020
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ef1c9d8fd9d30101fdd40dba5946dfefb324742c
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: dc2a4495d95d0c6458fef16ea2f3f336dd337db4
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706651"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140672"
 ---
 # <a name="understand-microsoft-teams-and-skype-for-business-coexistence-and-interoperability"></a>Entender o Microsoft Teams e a coexistência e interoperabilidade do Skype for Business
 
@@ -34,7 +34,7 @@ Este artigo faz parte do estágio de definição do projeto da sua jornada de at
 - [Alistou as partes envolvidas no seu projeto](upgrade-enlist-stakeholders.md)
 - [Definiu o escopo do seu projeto](https://aka.ms/SkypetoTeams-Scope)
 
-Se sua organização usa o Skype for Business hoje e você está começando a usar o Microsoft Teams com o Skype for Business — ou está começando a fazer o upgrade para o Microsoft Teams, é importante entender como os dois aplicativos coexistem, quando e como eles interoperam e como gerenciar migração dos usuários em relação à sua eventual atualização do Skype for Business para o Teams.
+Se sua organização usa o Skype for Business hoje e você está começando a usar o Microsoft Teams no Skype for Business — ou está começando a fazer o upgrade para o Microsoft Teams, é importante entender como os dois aplicativos coexistem, quando e como eles interoperam e como gerenciar a migração dos usuários em relação à sua atualização eventual do Skype for Business para o Microsoft Teams.
 
 > [!Tip]
 > Assista à sessão a seguir para saber mais sobre [coexistência e interoperabilidade](https://aka.ms/teams-upgrade-coexistence-interop).
@@ -70,13 +70,13 @@ Para evitar uma experiência confusa ou inesperada do Skype for Business, comuni
 
 Nesse modo de coexistência, os usuários permanecem no Skype for Business, não nas equipes, para recursos de chat, reunião e chamadas, e não usam equipes para equipes e canais. Este modo está disponível hoje; no entanto, na implementação atual, as equipes e os canais não são desativados automaticamente para o usuário. Isso pode ser conseguido com o uso da política de permissão do aplicativo para ocultar equipes e canais.
 
-Esse modo pode ser usado antes de iniciar uma implantação gerenciada do teams para impedir que os usuários comecem a usar o Microsoft Teams antes de ter uma prontidão interna, ou como uma maneira de habilitar a participação autenticada em reuniões de equipe para usuários do Skype for Business, contanto que os usuários estejam licenciado para Teams.
+Esse modo pode ser usado antes de iniciar uma implantação gerenciada do teams para impedir que os usuários comecem a usar o Microsoft Teams antes de ter uma prontidão interna, ou como uma maneira de habilitar a participação autenticada em reuniões de equipe para usuários do Skype for Business, contanto que os usuários sejam licenciados para equipes.
 
 ### <a name="teams-only"></a>Somente equipes
 
 
 > [!IMPORTANT]
-> Se você desinstalar o cliente do Skype for Business depois de mover um usuários para o modo **Somente Microsoft Teams**, a presença deixará de funcionar no Outlook e em outros aplicativos do Office. A presença funciona bem no Microsoft Teams. Solução alternativa: para ver a presença no Outlook (e em outros aplicativos do Office), o Skype for Business deve estar instalado, mesmo se você estiver executando o Microsoft Teams no modo **somente Teams** . A Microsoft está ciente desse problema e trabalhando para corrigi-lo.
+> Se você desinstalar o cliente do Skype for Business depois de mover um usuários para o modo **Somente Microsoft Teams**, a presença deixará de funcionar no Outlook e em outros aplicativos do Office. A presença funciona bem no Microsoft Teams. Solução alternativa: para ver a presença no Outlook (e em outros aplicativos do Office), o Skype for Business deve ser instalado, mesmo que você esteja executando o Teams no modo **Somente Teams**. A Microsoft está ciente desse problema e trabalhando para corrigi-lo.
 
 
 Um usuário **somente para equipes** (também chamado de usuário *atualizado* ) tem acesso a todos os recursos do teams. Eles podem reter o cliente Skype for Business para ingressar em reuniões no Skype for Business que foram organizadas por usuários não atualizados ou parceiros externos. Um usuário atualizado pode continuar a se comunicar com outros usuários da organização que ainda estão usando o Skype for Business usando recursos de interoperabilidade entre o Teams e o Skype for Business (desde que esses usuários do Skype for Business não estejam no modo **ilhas** ). No entanto, um usuário atualizado não pode iniciar um chat, chamada ou reunião do Skype for Business.
@@ -95,7 +95,7 @@ Organizações com um ponto de partida do Skype for Business Server no local ou 
 
 ### <a name="skype-for-business-with-teams-collaboration-and-meetings-also-known-as-meetings-first"></a>Skype para empresas com colaboração e reuniões do Teams, também conhecidas como reuniões primeiro
 
-Use este modo de coexistência para acelerar a disponibilidade de recursos de reunião do teams em sua organização, além de seus recursos de colaboração, permitindo que os usuários aproveitem a experiência de reuniões de equipes superiores-excelente qualidade, recursos inovadores, como transcrição e tradução ou suavidade do plano de fundo, e experiência superior do usuário em todas as plataformas, incluindo dispositivos móveis e navegadores.
+Use este modo de coexistência para acelerar a disponibilidade de recursos de reunião do teams em sua organização, além de seus recursos de colaboração, permitindo que os usuários aproveitem a experiência de reuniões de equipes superiores – recursos incríveis e inovadores, como transcrição e tradução ou desfoque de plano de fundo e experiência de usuário superior em todas as plataformas, incluindo dispositivos móveis e navegadores.
 
 Juntamente com o uso do teams para equipes e canais – conversas com base nesse modo, os usuários usarão o Teams para agendar e conduzir suas reuniões. O chat e as chamadas particulares permanecem no Skype for Business. O Teams e o Skype for Business tiram proveito de uma variedade de recursos "aprimorados juntos", como reconciliação de presença, retenção automática/desbloqueio e suporte a dispositivo HID em ambos os aplicativos. Observe que é possível ocultar equipes e canais, se desejado, usando a política de permissões do aplicativo.
 
@@ -166,7 +166,7 @@ O escalonamento de interoperabilidade consiste em complementar os recursos de in
 
 Quando o escalonamento de interoperabilidade é disparado pelo usuário do Teams, uma reunião do teams é criada. Quando ele é disparado pelo usuário do Skype for Business, é criada uma reunião do Skype for Business. Em ambos os casos, a reunião criada é uma reunião **reunir agora** , que não se reflete no calendário do usuário.
  
-A outra parte recebe o link ingressar na reunião por meio de chat de interoperabilidade e junções clicando nesse link. Se o usuário do Skype for Business tiver uma conta do Teams e for convidado pelo usuário do Teams, ele entrará na reunião autenticada. Caso contrário, eles se juntarão como participantes anônimos. Por outro lado, os usuários do teams quase sempre têm uma conta do Skype for Business e um cliente do Skype for Business que podem usar para ingressar em uma reunião do Skype for Business como participante autenticado, mas também podem participar como um participante anônimo, por exemplo, usando o Skype Aplicativo de reunião.
+A outra parte recebe o link ingressar na reunião por meio de chat de interoperabilidade e junções clicando nesse link. Se o usuário do Skype for Business tiver uma conta do Teams e for convidado pelo usuário do Teams, ele entrará na reunião autenticada. Caso contrário, eles se juntarão como participantes anônimos. Por outro lado, os usuários do teams quase sempre têm uma conta do Skype for Business e um cliente do Skype for Business que podem usar para ingressar em uma reunião do Skype for Business como participante autenticado, mas também podem ingressar como um participante anônimo, por exemplo, usando o aplicativo de reunião do Skype.
 
 Depois que os participantes ingressarem na reunião, poderão conduzir qualquer atividade com suporte em reuniões, como compartilhamento de área de trabalho ou de conteúdo, compartilhamento de arquivos ou transferência, adição de outros participantes e assim por diante.
 

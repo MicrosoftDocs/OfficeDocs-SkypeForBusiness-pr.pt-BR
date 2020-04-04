@@ -1,5 +1,5 @@
 ---
-title: Gerenciar equipes durante a transição para o novo centro de administração do Microsoft Teams
+title: Gerenciar equipes em transição para o novo centro de administração do teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -8,24 +8,25 @@ audience: admin
 ms.service: msteams
 ms.reviewer: ''
 search.appverid: MET150
-description: Saiba como gerenciar as configurações de todos os locatários e usuários para equipes durante a transição da experiência do teams no centro de administração do Microsoft 365 para o novo centro de administração do Microsoft Teams.
+description: Saiba como gerenciar as configurações de todos os locatários e usuários para equipes durante a transição do teams no centro de administração do Microsoft 365 para o novo centro de administração do teams.
 localization_priority: Normal
 f1.keywords:
 - CSH
 ms.custom:
 - NewAdminCenter_Update
 - ms.teamsadmincenter.dashboard.helparticle.manageteamsnewadmincenter
+- seo-marvel-mar2020
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: 31d39b1c65afad3bdbb000ff779b590d9f82ac38
-ms.sourcegitcommit: 152eb7daacd0a36f42aa441633c12c7037a0969a
+ms.openlocfilehash: b08f747c6a26d0401095e5aa004b972e0428b830
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "42288629"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137051"
 ---
 <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>Gerenciar equipes durante a transição para o novo centro de administração do Microsoft Teams
 ======================================================
@@ -105,7 +106,7 @@ A tabela a seguir mostra onde você pode gerenciar recursos durante a migração
 |Gerenciamento de usuários    |         |         |    X     |    
 |Audioconferência     |    X     |    X     |         |
 |Planos de chamada     |    X    |    X     |         |
-|Sistema Telefônico    |    X    |     X    |         |
+|Sistema de Telefonia    |    X    |     X    |         |
 |Gerenciamento de número de telefone     |    X    |   X      |         |
 |Licenciamento para recursos de voz na nuvem     |         |         |    X     |
 |Atendedores automáticos     |    X    |          |         |

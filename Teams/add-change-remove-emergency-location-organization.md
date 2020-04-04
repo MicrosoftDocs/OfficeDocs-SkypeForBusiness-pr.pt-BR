@@ -1,5 +1,5 @@
 ---
-title: Adicionar, alterar ou remover um local de emergência para sua organização
+title: Adicionar, alterar, remover locais de emergência
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -17,12 +17,13 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: 'Saiba como adicionar, alterar ou remover um local de emergência para sua organização no centro de administração do Microsoft Teams. '
-ms.openlocfilehash: 2471f13f67555eeff4e0a1b130c416dbbe97b0c7
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 5ec834592e6978c2e2b63810ea25eb7e837513dd
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41695817"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141264"
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>Adicionar, alterar ou remover um local de emergência para sua organização
 
@@ -40,7 +41,7 @@ Para saber como obter um plano de chamadas e quanto eles custam, consulte [Licen
 4. Selecione o país ou região e, em seguida, digite o endereço.
 
    > [!NOTE]
-   > Na Bélgica, França, Alemanha, Irlanda, Holanda e Espanha, é importante entender que, para ativar com êxito um número de telefone no Office 365, o endereço configurado no local de emergência, que é usado para adquirir o número, deve corresponder ao número de telefone código de área.
+   > Na Bélgica, na França, na Alemanha, na Irlanda, Holanda e na Espanha, é importante entender que, para ativar com êxito um número de telefone no Office 365, o endereço configurado no local de emergência, que é usado para adquirir o número, deve corresponder ao código de área do número de telefone.
 5. Se o endereço não for encontrado e você quiser editar manualmente o endereço, ative o desejo **Editar o formulário de endereço manualmente se não for possível encontrar o endereço selecionado**.
 6. Clique em **Salvar**.
     

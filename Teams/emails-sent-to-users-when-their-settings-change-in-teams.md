@@ -1,5 +1,5 @@
 ---
-title: E-mails enviados para os usuários quando suas configurações são alteradas no Microsoft Teams
+title: Emails enviados para os usuários quando suas configurações são alteradas
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,13 +19,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
+- seo-marvel-mar2020
 description: 'Saiba as informações que são enviadas automaticamente aos usuários por e-mail quando suas configurações de conferência discada são alteradas no Microsoft Teams. '
-ms.openlocfilehash: 28dcf8e166eff4a8852dd1ad77828213dc88fd05
-ms.sourcegitcommit: 73518a589db1a9883fc97827f0ddb9132995fbfa
+ms.openlocfilehash: ada608da12791a586d3adcbfd6477c1f26f7e30d
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42236861"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141254"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-microsoft-teams"></a>E-mails enviados para os usuários quando suas configurações são alteradas no Microsoft Teams
 
@@ -85,7 +86,7 @@ Ao desativar o envio de emails para os usuários, o email não será enviado mes
 
 Por padrão, os emails serão enviados aos seus usuários, mas se você quiser impedir que eles recebam emails para videoconferências, você pode usar o Microsoft Teams ou o Windows PowerShell. 
 
-![Um ícone mostrando o logotipo](media/teams-logo-30x30.png) do Microsoft Teams **usando o centro de administração do Microsoft Teams**
+![Um ícone mostrando o logotipo do Microsoft Teams](media/teams-logo-30x30.png) **Usando o centro de administração do Microsoft Teams**
 
 1. Na navegação à esquerda, vá para **Reuniões** > **Pontes de conferência**. 
 

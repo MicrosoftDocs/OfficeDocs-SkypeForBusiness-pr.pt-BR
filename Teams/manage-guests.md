@@ -13,21 +13,22 @@ ms.reviewer: sbhatta
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Os administradores de TI podem adicionar convidados em nível de locatário, definir e gerenciar políticas e permissões de usuários convidados, determinar quais usuários podem convidar convidados e extrair relatórios sobre a atividade do usuário convidado.
+description: Saiba como criar suas primeiras equipes e canais, pioneiros no início, monitorar o uso e os comentários e obter recursos para planejar a implementação em toda a organização.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ef091eb926301e6dd9d3ac27d7c62486d93075a1
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: fea5ab9eec355d77f19165253fe97ee8aeb725ca
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834771"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139240"
 ---
 <a name="manage-guest-access-in-microsoft-teams"></a>Gerenciar o acesso de convidados no Microsoft Teams
 ======================================
 
 > [!IMPORTANT]
-> Talvez seja necessário aguardar até 24 horas para que as alterações entrem em vigor. 
+> Talvez você precise aguardar até 24 horas para que as configurações entrem em vigor. 
 
 **Guest** é um tipo de usuário no Microsoft Teams que está incluído em todas as assinaturas do Office 365 Business Premium, do Office 365 Enterprise, do Office 365 Business Essentials e do Office 365 Education. Não é necessária nenhuma licença adicional do Office 365. Leia mais sobre o [Licenciamento de acesso de convidado](#guest-access-licensing-limits) abaixo.
 

@@ -21,13 +21,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Licensing
-description: Além da licença de videoconferência padrão por usuário, as organizações que usam o licenciamento por volume da Microsoft também podem escolher uma oferta de pagamento por minuto para habilitar os recursos de audioconferência para suas organizações.
-ms.openlocfilehash: ac73ca3396e5fff9e9146206a8f9e2008d9065f7
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+- seo-marvel-mar2020
+description: Saiba mais sobre a opção pagar por minuto para habilitar os recursos de audioconferência para organizações que usam o licenciamento por volume da Microsoft.
+ms.openlocfilehash: 5943b5d160df1ddd2ebb3da42818b02683e47309
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826279"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139160"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>Audioconferência Pagar por Minuto
 
@@ -59,7 +60,7 @@ Para habilitar o pagamento por minuto da conferência de áudio para os usuário
 
 ## <a name="why-is-it-best-for-you"></a>Por que é melhor para você?
 
-- O pagamento por minuto só será cobrado por minuto para cada chamada de entrada ou de saída feita por cada participante durante uma reunião agendada (as tarifas variam de acordo com chamada tarifada ou chamada gratuita e destino) em vez de usar o aplicativo Skype for Business ou Teams em um celular dispositivo ou computador.
+- O pagamento por minuto só será cobrado por minuto para cada chamada de entrada ou de saída feita por cada participante durante uma reunião agendada (as tarifas variam de acordo com chamada tarifada ou chamada gratuita e destino) em vez de usar o aplicativo Skype for Business ou Teams em um dispositivo móvel ou computador.
 
 - Capacidade de gerenciar custos, pois os administradores podem controlar para restringir os tipos de chamadas discadas (internacionais e nacionais) que podem ser feitas a partir das reuniões de um organizador. Consulte [políticas de restrição de chamadas de saída para conferências de áudio e chamadas PSTN do usuário](/microsoftteams/outbound-calling-restriction-policies)
 
@@ -75,9 +76,9 @@ Para habilitar o pagamento por minuto da conferência de áudio para os usuário
 
  **Quer saber os preços?** Veja [como Ver os preços e comprar licenças complementares](teams-add-on-licensing/microsoft-teams-add-on-licensing.md#bkmk_how) ou uma das seguintes opções:
   
-- [Preço de conferência de áudio](https://products.office.com/skype-for-business/audio-conferencing#Requirements)
+- [Preços de Audioconferência](https://products.office.com/skype-for-business/audio-conferencing#Requirements)
     
-- [Preço do sistema telefônico](https://products.office.com/skype-for-business/phone-system#Requirements)
+- [Preços do sistema telefônico](https://products.office.com/skype-for-business/phone-system#Requirements)
     
 - [Preços de Planos de Chamadas](https://products.office.com/skype-for-business/pstn-calling-plans#requirements)
     

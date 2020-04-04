@@ -20,14 +20,15 @@ f1.keywords:
 - CSH
 ms.custom:
 - Legal
+- seo-marvel-mar2020
 hideEdit: true
 description: Fournir des expériences acessível à Tous est au cœur de la missão de Microsoft, qui consistir em à permettre à Chaque de la et à personne organização de la Chaque Planète d'accomplir. Microsoft offre un Nombre de fonctionnalités d'accessibilité derramar o Skype Entreprise et Microsoft Teams qui s'inscrivent dans filho Engagement Fort en faveur de l'accessibilité et de l'inclusion.
-ms.openlocfilehash: 9d7e7ff471bdd2c88ff1527f224f43e6f7e30b16
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 5e58f0228430d99540bbe45548018059e65be016
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825629"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139170"
 ---
 # <a name="accessibility-solutions-for-skype-for-business-online-and-microsoft-teams-in-france"></a>Soluções de acessibilidade para o Skype for Business Online e o Microsoft Teams na França
 
@@ -41,7 +42,7 @@ Skype Entreprise dans Office 365 offre des fonctionnalités d'accessibilité qui
 
 Microsoft Teams dans Office 365 est outil de professionnelle de colaboração avec des Fonctions de messagerie, de vidéoconférence et d'appel. Microsoft Teams intègre des fonctionnalités d'accessibilité afin de faciliter la Communication des utilisateurs Ayant une Mauvaise Vision, une dextérité réduite ou d'autres handicaps. CES Caractéristiques sont currículos sur le site Web accessibilité de Microsoft Teams [https://support.office.com/fr-fr/article/prise-en-charge-de-l-accessibilit%C3%A9-dans-microsoft-teams-d12ee53f-d15f-445e-be8d-f0ba2c5ee68f?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR](https://support.office.com/fr-fr/article/prise-en-charge-de-l-accessibilit%C3%A9-dans-microsoft-teams-d12ee53f-d15f-445e-be8d-f0ba2c5ee68f?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR):.  
   
-Grupos de páginas consacrées à chacune de CES-Forms décrivent Comment se présentent généralement Skype Entreprise et Microsoft Teams sur appareils qui prennent-cobrar CES pratos-formais, informa às janelas, Mac, iOS et Android.  Descrições de Les agencements de Skype Entreprise et Microsoft Teams peuvent s'avérer particulièrement utils derrama utilisateurs voyants não-malvoyants, Mobilité UO à réduite Construire derramar de une représentation mentale des Caractéristiques de interfaces des utilisateur (IU) de Skype Entreprise et Microsoft Teams afin de Leur permettre d'y naviguer Plus facilement.
+Grupos de páginas consacrées à chacune de CES-Forms décrivent Comment se présentent généralement Skype Entreprise et Microsoft Teams sur appareils qui prennent-cobrar CES pratos-formais, informa às janelas, Mac, iOS et Android.  Descrições de Les des agencements do Skype Entreprise et Microsoft Teams peuvent s'avérer particulièrement utils derrama utilisateurs voyants non-malvoyants, Mobilité UO à réduite Construire derramar de unes e o représentation Caractéristiques utilisateur mentale des IU des interfaces Entreprise (afin) do Skype Leur et Microsoft Teams de permettre d'y naviguer facilement mais.
   
 Personnes de qui utilisent Lecteur d'écran, Il est possível de naviguer dans l'interface utilisateur de l'application Skype Entreprise à l'aide du Clavier, et des Pages d'aide sont proposées expliquer:  
   
@@ -85,5 +86,5 @@ L'objectif da Microsoft est d'offrir la meilleure Expérience possível de clien
   
 ## <a name="dclaration-de-conformit-en-301-549"></a>Déclaration de Conformité *EN 301 549*
 
-Derramar os clientes do ses do facilitador évaluer l'accessibilité, Microsoft propor une documentação qui décrit comentário Skype Entreprise et Microsoft Teams se conforment à la normal Européenne EN 301 549 relative aux exigences d'accessibilité aplicáveis a aux Marchés públicos des produits et Services liés aux TIC (tecnologias de l'Information-comunicação et de la) en Europa. O des copia o des rapports EN 301 549 sont conjuntas en anexos.
+Derramar os clientes do ses do facilitador évaluer l'accessibilité, Microsoft propor une documentação qui décrit comentário Skype Entreprise et Microsoft Teams se conforment à la normal Européenne EN 301 549 relative aux exigences d'accessibilité aplicáveis aux Marchés Publics des produits et Services liés aux TIC (tecnologias de l'Information et de la Communication) en Europa. O des copia o des rapports EN 301 549 sont conjuntas en anexos.
 

@@ -16,13 +16,14 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: anach
-description: Integração do EHR do aplicativo Microsoft Teams pacientes
-ms.openlocfilehash: 10a6b21e583b5fdd3e70857c4cfc5e7e21a7e988
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+description: Saiba mais sobre a especificação de interface DSTU2 no Teams, incluindo configurar ou reconfigurar um servidor FHIR para trabalhar com o aplicativo Microsoft Teams pacientes.
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: f09f43af431b3f0cc6d9f984171206f2549a550a
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42153813"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43136951"
 ---
 # <a name="dstu2-interface-specification"></a>Especificação de interface DSTU2
 
@@ -175,7 +176,7 @@ Consulte o seguinte exemplo desta chamada:
 
     Solicitação: Obtenha o <fhir-Server>/Condition? paciente =<paciente-ID>&_count = 10
     
-    Resposta: {"resourceType": "Bundle", "ID": "<pacote-ID>", "tipo": "searchset", "total": 1, "entry": [{"Resource": {"resourceType": "Condition", "ID": "<Resource-ID>", "Code": "386033004", "display": "neuropathy (Nervehttp://snomed.info/sctdanificado)" "," "," display ":" (dano) "}]}," dateRecorded ":" 2018-09-17 "," severidade ": {" codificação ": [{" syst em ":"http://snomed.info/sct"," código ":" 24484000 "," vídeo ":" severado "}]}},}]}
+    Resposta: {"resourceType": "Bundle", "ID": "<pacote-ID>", "tipo": "searchset", "total": "ID": "<Resource-ID": {"resourceType": "Condition", "ID": "Resource-ID>", "código": {"codificação": [{"sistema": "http://snomed.info/sct", "código": "386033004", "vídeo": "2018-09-17", ","}]}, "dateRecorded": "", "Severity": {"Coding": [{"System": "http://snomed.info/sct", "código": "24484000", "display": "severado}]}},}]}
 
 * * *
 
@@ -204,7 +205,7 @@ O objetivo é poder recuperar o último local conhecido do paciente. Cada encont
 
     Solicitação: Obtenha o <fhir-Server>/Encounter? paciente =<o ID do paciente>&_sort:d ESC = data&_count = 1
     
-    Resposta: {"ResourceType": "lote", "tipo": "searchset", "total": 1, "entry": [{"Resource": {"ResourceType": "encontrar", "ID": "<Resource-ID>", "identificador": [{"usar": "oficial", "valor": "<id>"}], "status": "recebido", "tipo": [{"codificação": [{"exibir": "compromisso"}],}], "paciente": {"referência": "paciente/<paciente-ID>"}, "ponto": {"Iniciar": "09/17/2018 1:00:00 PM", "local": [{              "local": {"display": "Clinic-ENT"},}]}}]}
+    Resposta: {"ResourceType": "Bundle", "tipo": "searchset", "total": 1, "entry": [{"Resource": {"ResourceType": "encontrar", "ID": "<Resource-ID>", "identificador": [{"usar": "oficial", "valor": "<id>"}], "status": "chegado", "tipo": [{"codificação": [{"exibir": "compromisso"}],}], "paciente": {"referência": "paciente/<paciente-ID>"}, "período": {"Iniciar": "09/17/2018 1:00:00 PM"}, "local": [{"Location": {"display": "Clinic-ENT"},}]}}]}
 
 * * *
 
@@ -236,7 +237,7 @@ Consulte o seguinte exemplo desta chamada:
 
     Solicitação: Obtenha o <fhir-Server>/AllergyIntolerance? paciente =<o ID do paciente>
     
-    Resposta: {"resourceType": "Bundle", "ID": "<pacote-ID>", "tipo": "searchset", "total": 1, "entry": [{"Resource": {"resourceType": "AllergyIntolerance", "ID": "<> de ID de recurso", "recordedDate": "2018-09-17T07:00:00.000 Z", "substância": {"texto": "Cashew porcas"}, "status": "confirmado", "reação a um produto injetado"}, {"texto": "Cashew porca allergenic extrair produto que está incluído"}, "manifestati em ": [{" texto ":" anaphylactic reação "}]}]}}]}
+    Resposta: {"resourceType": "Bundle", "ID": "<pacote-ID>", "tipo": "searchset", "total": "ID": "<Resource-ID": {"resourceType": "AllergyIntolerance", "ID": "Resource-ID>", "recordedDate": "2018-09-17T07:00:00.000 Z", "substância": {"texto": "Cashew porcas"}, "status": "confirmado", "reação": [{"substância": {"texto": "Cashew porca allergenic extrair produto injetado"}, "manifestoing": [{"texto": "anaphylactic reação"}]}]}}]}
 
 * * *
 

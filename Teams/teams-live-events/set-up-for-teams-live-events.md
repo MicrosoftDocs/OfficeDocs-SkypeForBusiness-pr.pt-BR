@@ -14,16 +14,16 @@ f1.keywords:
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
-description: Aprenda as etapas para configurar o Live para eventos no Teams, incluindo a preparação da rede, a atribuição de licenças, o uso de políticas para habilitar recursos de eventos dinâmicos e agendamento para usuários e a configuração de um provedor de distribuição de terceiros.
-ms.custom: ms.teamsadmincenter.liveevents.policies
+description: Configurar o Live para eventos no Teams, incluindo configurar sua rede, atribuir licenças, habilitar recursos de eventos dinâmicos, agendamento e soluções de distribuição de vídeo.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f18f35ef6775f04049b79374a4e2940646eff9e8
-ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: ae30fdb824c62027d1a704435e80df2a9abf1f85
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42558571"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140560"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Configurar eventos ao vivo no Microsoft Teams
 
@@ -81,7 +81,7 @@ Você também pode atribuir uma política de eventos ao vivo a um ou mais usuár
 
 ![Um ícone mostrando o logotipo do Microsoft Teams](../media/teams-logo-30x30.png) Usar o centro de administração do Microsoft Teams
 
-1. Vá para **** > **políticas de eventos ao vivo**de reuniões.
+1. Vá para **Meetings** > **políticas de eventos ao vivo**de reuniões.
 2. Escolha a política clicando à esquerda do nome da política.
 3. Escolha **Gerenciar usuários**.
 4. No painel **Gerenciar usuários**, procure o usuário pelo nome de exibição ou pelo nome de usuário, escolha o nome e marque **Adicionar**. Repita esta etapa para cada usuário que você deseja adicionar.
@@ -124,5 +124,4 @@ Vá para [definir configurações de eventos ao vivo no Teams](configure-teams-l
 ### <a name="related-topics"></a>Tópicos relacionados
 - [O que são os eventos ao vivo do Teams?](what-are-teams-live-events.md)
 - [Planejar eventos ao vivo do Teams](plan-for-teams-live-events.md)
-- [Definir configurações de eventos ao vivo no Teams](configure-teams-live-events.md)
-
+- [Definir configurações de eventos ao vivo do Teams](configure-teams-live-events.md)

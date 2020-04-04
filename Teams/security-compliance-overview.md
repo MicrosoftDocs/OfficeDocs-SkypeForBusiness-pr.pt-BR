@@ -1,5 +1,5 @@
 ---
-title: Visão geral de segurança e conformidade no Microsoft Teams
+title: Visão geral da segurança e conformidade
 author: MicrosoftHeidi
 ms.author: heidip
 manager: serdars
@@ -17,14 +17,15 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.securityandcompliance
+- seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fbec8f7d246a4acfe241ef4f4d701cc9e1e6b28c
-ms.sourcegitcommit: 1bb3df681177db5ecc6afae3d3f3a46c251e5c23
+ms.openlocfilehash: e777ef76f6c8f11dfd914b3c4be149c224b63cf5
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43117419"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139090"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Segurança e conformidade no Microsoft Teams
 
@@ -143,6 +144,10 @@ Se quiser informações específicas de outras equipes sobre como configurar a p
 ### <a name="auditing-and-reporting"></a>Auditoria e relatórios
 
 A pesquisa de log de auditoria se conecta diretamente ao centro de conformidade do Office 365 Security & e oferece a capacidade de definir alertas, bem como relatar eventos de auditoria, permitindo a exportação de conjuntos de eventos genéricos ou de carga de trabalho para uso e investigação de administração em uma linha do tempo de auditoria ilimitada. Você pode configurar alertas para todos os dados de log de auditoria no centro de conformidade do Office 365 Security & e filtrar e exportar esses dados para análise adicional. Consulte o artigo [Pesquisar o log de auditoria](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) para saber mais sobre como conduzir um log de auditoria para o O365. Para saber mais sobre como Pesquisar eventos do Microsoft Teams no centro de conformidade do Office 365 Security &, também temos o artigo [ativar a auditoria no artigo do teams](audit-log-events.md) para revisão.
+
+## <a name="privacy"></a>Privacidade
+
+Na Microsoft, a proteção dos seus dados é nossa prioridade mais alta. Para saber mais sobre nossas práticas de privacidade, leia [privacidade na Microsoft](https://www.microsoft.com/trust-center/privacy).
 
 ## <a name="information-protection-architecture"></a>Arquitetura de proteção de informações
 

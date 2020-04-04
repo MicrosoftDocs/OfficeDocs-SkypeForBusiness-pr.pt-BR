@@ -1,5 +1,5 @@
 ---
-title: Definir sucesso em Conferências de Áudio, Sistema de Telefonia com Planos de Chamadas ou Sistema Telefônico de Roteamento Direto - Microsoft Teams
+title: Conferência de áudio, planos de chamada ou roteamento direto
 author: rmw2890
 ms.author: Rowille
 manager: serdars
@@ -9,7 +9,7 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
-description: Meça os resultados da sua conferência de áudio, sistema telefônico com planos de chamadas ou implantação de roteamento direto do sistema telefônico e verifique se você obteve os resultados desejados.
+description: Definição de sucesso para a implantação de audioconferência, sistema telefônico com planos de chamada ou roteamento direto do sistema telefônico para sua organização.
 ms.collection:
 - M365-voice
 - M365-collaboration
@@ -18,12 +18,13 @@ f1.keywords:
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3c3669e904db7dbea805daa5737b0bfb81e931d7
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: dbbcbce46ab713b7a1820d01d476ef5d35dee0d0
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825419"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139570"
 ---
 # <a name="define-my-success"></a>Definir meu sucesso
 
@@ -31,7 +32,7 @@ Este artigo fornece uma visão geral dos requisitos para a definição do sucess
 
 <!--ENDOFSECTION-->
 
-A **videoconferência** fornece às organizações mais pontos de entrada adicionais para qualquer reunião (ad hoc ou agendada), permitindo que os participantes da reunião ingressem via PSTN (rede telefônica pública comutada) por meio do uso de telefones fixos e celulares (PBX) e celulares (PBX) tradicionais. Isso é útil quando o organizador ou os participantes não estão na frente de um computador ou quando as conexões de dados estão indisponíveis ou não são muito confiáveis para dar suporte à comunicação por voz, como em uma área remota com cobertura de dados móvel, ou conectadas a uma rede Wi-Fi pública e gratuita serviço com largura de banda limitada ou quando os participantes da reunião preferem discar para a reunião usando um ponto de extremidade de telefonia acessível para eles.
+A **videoconferência** fornece às organizações mais pontos de entrada adicionais para qualquer reunião (ad hoc ou agendada), permitindo que os participantes da reunião ingressem via PSTN (rede telefônica pública comutada) por meio do uso de telefones fixos e celulares (PBX) e celulares (PBX) tradicionais. Isso é útil quando o organizador ou participantes não estão na frente de um computador, ou quando as conexões de dados estão indisponíveis ou não são muito confiáveis para dar suporte a comunicações por voz, como em uma área remota com cobertura de dados móvel, ou conectadas a um serviço de Wi-Fi público e gratuito com largura de banda limitada, ou quando os participantes da reunião preferem discar para a reunião usando um ponto de extremidade de telefonia acessível.
 
 O **sistema telefônico com planos de chamada ("planos de chamada")** oferece às organizações uma maneira de modernizar seu local de trabalho, permitindo que os usuários façam chamadas telefônicas relacionadas a negócios em seus computadores e dispositivos móveis. A modernização do local de trabalho pode fazer parte de qualquer número de cenários, uma implementação de trabalho baseada em atividades, uma grande mudança do Office, uma atualização para o Office em destaque, a desativação de uma solução PBX herdada, a conclusão de um contrato de provedor de serviço PSTN e assim por diante. Com os planos de chamada, a Microsoft facilita a conectividade com a PSTN.
 
@@ -236,7 +237,7 @@ Um Comitê de direcionamento é um grupo regulador de principais interessados e 
 
 Cada projeto requer uma visão e uma compromisso acordados. Para entregar os resultados desejados do projeto, a visão deve ser claramente definida, e ele precisa ser monitorado e mantido. Isso se torna a responsabilidade do Comitê de direcionamento: para impulsionar decisões, aconselhar, fornecer supervisão estratégica, servir como defensores da organização para as iniciativas do projeto e, quando necessário, remover bloqueadores.
 
-Sua organização deve colocar um pensamento significativo na formação do Comitê de direcionamento. O Comitê deve garantir que o projeto atinja os objetivos de negócios que você definiu para atender às mudanças em toda a organização, se reunir periodicamente para discutir o pulso atual do projeto e ajudar a desproteger quaisquer obstáculos encontrados ao longo do propósito.
+Sua organização deve colocar um pensamento significativo na formação do Comitê de direcionamento. O Comitê deve garantir que o projeto atinja os objetivos de negócios que você definiu para atender às mudanças em toda a organização, se reunir periodicamente para discutir o momento atual do projeto e ajudar a desproteger quaisquer obstáculos encontrados ao longo do caminho.
 
 O Comitê deve definir seu compromisso para incluir alguns objetivos importantes:
 

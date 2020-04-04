@@ -23,17 +23,19 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - Phone System
-- Calling Plansfor Business and Microsoft Teams available for Moldova."
-ms.openlocfilehash: 4d5dff24821b23c690a27109bd1471f1a4817111
-ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
+- Calling Plans for Business and Microsoft Teams available for Moldova."
+- seo-marvel-mar2020
+description: Encontre informações sobre quais serviços do Office 365 para o Skype for Business e o Microsoft Teams estão disponíveis na Moldova.
+ms.openlocfilehash: 04e387d28ba798010ca3049d35b6aeba281e3d76
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41852911"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141124"
 ---
 # <a name="availability-in-moldova"></a>Disponibilidade em Moldova
 
-[Procure outro país ou região](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou saiba mais sobre a disponibilidade da Audioconferência e dos Planos de Chamadas por país e região.
+[Encontre outro país ou região](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) ou saiba mais sobre a disponibilidade de Audioconferência e planos de chamadas por país e região.
 
 Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para a Moldova.
   
@@ -60,9 +62,9 @@ Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Te
 |:-----|:-----|
 |Os Planos de Chamadas estão disponíveis para compra?  <br/> |Não  <br/> |
 |Minutos disponíveis para Planos de Chamadas  <br/> |Não se aplica  <br/> |
-|É possível fazer chamadas de saída?  <br/> |Não se aplica  <br/> |
+|É possível fazer chamadas de saída?  <br/> |Não aplicável  <br/> |
 
-Se os planos de chamada não estiverem disponíveis para compra, considere o uso do [Roteamento direto do sistema telefônico](../direct-routing-landing-page.md). Com o roteamento direto, você pode usar o sistema telefônico com praticamente qualquer operadora de telefonia.
+Se os Planos de Chamada não estiverem disponíveis para compra, considere a possibilidade de usar o [Roteamento Direto do Sistema de Telefonia](../direct-routing-landing-page.md). Com o Roteamento Direto, você pode usar o Sistema de Telefonia praticamente com qualquer portadora de telefonia.
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Números de chamadas gratuitas e tarifadas para serviços
 
@@ -86,7 +88,7 @@ Para configurá-los, consulte [Configurar Créditos de Comunicação para a sua 
 
 [Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
 
-[Disponibilidade da Audioconferência e dos Planos de Chamadas por país e região](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+[Disponibilidade de Audioconferência e Planos de Chamadas por país e região](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
   
  

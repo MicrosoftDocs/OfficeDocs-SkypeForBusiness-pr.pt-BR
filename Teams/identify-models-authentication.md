@@ -1,5 +1,5 @@
 ---
-title: Modelos de identidade e autenticação no Microsoft Teams
+title: Modelos de identidade e autenticação
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -17,12 +17,13 @@ ms.collection:
 description: Saiba sobre os diferentes modelos de identidade no Microsoft Teams, como Nuvem, Sincronizada e Federada. Conheça também a autenticação multifator.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5c09702700cf62505bbe0016d44545a02596f6b8
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: a58dcdae704be7ccdaefe1e2bca3b4978f4a10f9
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42022282"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139290"
 ---
 <a name="identity-models-and-authentication-in-microsoft-teams"></a>Modelos de identidade e autenticação no Microsoft Teams
 ==========================================
@@ -38,7 +39,7 @@ O Microsoft Teams suporta todos os modelos de identidade que estão disponíveis
 <a name="configurations"></a>Configurações
 --------------
 
-Dependendo das decisões da sua organização de qual modelo de identidade implementar e utilizar, os requisitos de implementação podem variar. Consulte a tabela de requisitos abaixo para garantir que sua implantação atenda a esses pré-requisitos. Se você já tiver implantado o Office 365 e já tiver implementado o método de identidade e autenticação, ignore estas etapas.
+Dependendo das decisões da sua organização de qual modelo de identidade implementar e usar, os requisitos de implementação podem variar. Consulte a tabela de requisitos abaixo para garantir que sua implantação atenda a esses pré-requisitos. Se você já tiver implantado o Office 365 e já tiver implementado o método de identidade e autenticação, ignore estas etapas.
 
 
 |Modelo de identidade |Lista de verificação da implantação  |Informações adicionais  |

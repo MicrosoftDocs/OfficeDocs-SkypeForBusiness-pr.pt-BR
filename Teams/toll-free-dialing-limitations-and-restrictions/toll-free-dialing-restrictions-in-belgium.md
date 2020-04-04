@@ -21,13 +21,14 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
+- seo-marvel-mar2020
 description: Isso vai ajudá-lo a descobrir como discar números de chamada gratuita em cada país/região. Depois de selecionar o país/região, você será direcionado a uma página específica do país que contém detalhes específicos, restrições e limites para a disponibilidade de serviço de chamada gratuita em que o serviço de chamada gratuita está disponível. O formato ou formatos de discagem mostrará os códigos de acesso necessários em cada país/região para discar o número de chamada gratuita.
-ms.openlocfilehash: 85b3441c267fa7e188f415af86d962508b149966
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: ed912070199506d0c3db05efe3e76f533265b510
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41708177"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140510"
 ---
 # <a name="toll-free-dialing-restrictions-in-belgium"></a>Restrições de discagem gratuita na Bélgica
 

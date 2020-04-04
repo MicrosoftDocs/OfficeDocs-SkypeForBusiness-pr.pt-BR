@@ -22,13 +22,14 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: Isso vai ajudá-lo a descobrir como discar números de chamada gratuita em cada país/região. Depois de selecionar o país/região, você será direcionado a uma página específica do país que contém detalhes específicos, restrições e limites para a disponibilidade de serviço de chamada gratuita em que o serviço de chamada gratuita está disponível. O formato ou formatos de discagem mostrará os códigos de acesso necessários em cada país/região para discar o número de chamada gratuita.
-ms.openlocfilehash: f163e90d138200d4ed021a5f1267e8ea791c38a4
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+- seo-marvel-mar2020
+description: Saiba mais sobre números de chamada gratuita no Panamá, incluindo a disponibilidade, a disponibilidade de rede com fio/linha fixa e a rede móvel e restrições.
+ms.openlocfilehash: 9b9d590d1e1c03d792b2537f335e7466e56d89ed
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41693486"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140310"
 ---
 # <a name="toll-free-dialing-restrictions-in-panama"></a>Restrições de discagem de chamada gratuita no Panamá
 

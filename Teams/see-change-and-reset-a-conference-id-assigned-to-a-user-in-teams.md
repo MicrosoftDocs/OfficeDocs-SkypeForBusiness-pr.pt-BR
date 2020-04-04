@@ -1,5 +1,5 @@
 ---
-title: Consultar, alterar e redefinir um ID de conferência atribuído a um usuário no Microsoft Teams
+title: Ver, alterar e redefinir a ID de conferência de um usuário
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,13 +19,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
-description: 'Saiba como atribuir um ID de conferência a um usuário no Microsoft Teams e quais devem ser os parâmetros do ID de conferência. '
-ms.openlocfilehash: e6b1a1ace9bdbf607fa4e1ef678687f37034a052
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+- seo-marvel-mar2020
+description: Saiba como atribuir uma ID de conferência a um usuário no Microsoft Teams e o que os parâmetros de IDs de conferência devem estar.
+ms.openlocfilehash: 7c4b9614843f353438630892574c25576913d24b
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41838131"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140934"
 ---
 # <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-microsoft-teams"></a>Visualizar e redefinir um ID de conferência atribuído a um usuário no Microsoft Teams
 
@@ -42,7 +43,7 @@ Um e-mail será enviado ao usuário com a ID da conferência e os números de te
 
 ### <a name="to-view-the-conference-id"></a>Para visualizar o ID de conferência
 
-![Um ícone mostrando o logotipo](media/teams-logo-30x30.png) do Microsoft Teams **usando o centro de administração do Microsoft Teams**
+![Um ícone mostrando o logotipo do Microsoft Teams](media/teams-logo-30x30.png) **Usando o centro de administração do Microsoft Teams**
 
 1. No painel de navegação à esquerda, clique em **Usuários** e selecione o usuário na lista de usuários disponíveis.
 
@@ -62,7 +63,7 @@ Consulte a [referência do Microsoft Teams PowerShell](https://docs.microsoft.co
 
 É possível redefinir o ID de conferência para um usuário se ele esquecer o ID, por exemplo.
   
-![Um ícone mostrando o logotipo](media/teams-logo-30x30.png) do Microsoft Teams **usando o centro de administração do Microsoft Teams**
+![Um ícone mostrando o logotipo do Microsoft Teams](media/teams-logo-30x30.png) **Usando o centro de administração do Microsoft Teams**
 
 1. No painel de navegação à esquerda, clique em **Usuários** e selecione o usuário na lista de usuários disponíveis.
 

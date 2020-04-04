@@ -13,15 +13,16 @@ ms.reviewer: anach
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Saiba mais sobre a pesquisa de conteúdo no Microsoft Teams e como Pesquisar em conversas de canal do Exchange, uploads de arquivos e modificações do SharePoint e alterações do OneNote.
+ms.custom: seo-marvel-mar2020
+description: Saiba como usar a pesquisa de conteúdo no Microsoft Teams para consultar informações do Microsoft Teams do Exchange, do SharePoint Online, do OneDrive for Business e do OneNote.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 222b57021a259795823031d9855304d1ecf27f4f
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: af81b857d6cf60f7de1a1b1e199d08ede089de5f
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825339"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137741"
 ---
 <a name="use-content-search-in-microsoft-teams"></a>Usar a pesquisa de conteúdo no Microsoft Teams
 =====================================
@@ -42,7 +43,7 @@ Você também pode adicionar critérios de consulta à **pesquisa de conteúdo**
 
 ## <a name="content-search-of-private-channels"></a>Pesquisa de conteúdo em canais privados
 
-Os registros de mensagens enviadas em um canal privado são entregues na caixa de correio de todos os membros do canal privado, e não em uma caixa de correio de grupo. Os títulos dos registros são formatados para indicar o canal privado do qual foram enviados.
+Os registros das mensagens enviadas em um canal privado são entregues na caixa de correio de todos os membros do canal privado, e não em uma caixa de correio de grupo. Os títulos dos registros são formatados para indicar de qual canal privado eles foram enviados.
 
 Como cada canal privado tem seu próprio conjunto de sites do SharePoint separado do site de equipe pai, os arquivos em um canal privado são gerenciados independentemente da equipe pai.
 
@@ -69,7 +70,7 @@ Antes de executar essas etapas, instale o [Shell de gerenciamento do SharePoint 
 
     ```PowerShell
     $sites = get-sposite -template "teamchannel#0"
-    $groupID = “e8195240-4a70-4830-9106-80193cf717cb“
+    $groupID = "e8195240-4a70-4830-9106-80193cf717cb"
     foreach ($site in $sites) {$x= Get-SpoSite -Identity $site.url -Detail; if ($x.RelatedGroupId -eq $groupID) {$x.RelatedGroupId;$x.url}}
     ```
 

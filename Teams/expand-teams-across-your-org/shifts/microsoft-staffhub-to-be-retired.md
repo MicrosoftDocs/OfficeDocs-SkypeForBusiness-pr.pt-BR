@@ -8,7 +8,7 @@ audience: admin
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
-description: ''
+description: Encontre respostas para perguntas frequentes sobre o afastamento do Microsoft StaffHub e como fazer a transição para o aplicativo turnos no Microsoft Teams.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -17,12 +17,13 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 346ef795f8432154d74610e4d061d00fc6039f2a
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 53d82dc346226215101c837dcf8a2f10dd6ff2fc
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42008153"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141174"
 ---
 # <a name="microsoft-staffhub-to-be-retired"></a>Microsoft StaffHub a ser desativado
 
@@ -148,7 +149,7 @@ Recomendamos que você examine os escalas de sua equipe existentes no StaffHub e
 
 O cronograma do usuário será movido para turnos, no entanto, o usuário não será um membro da equipe ou um grupo do Office 365.
 
-Para contas inativas que não estão vinculadas a uma conta de usuário do Azure AD, um gerente pode garantir que o usuário seja adicionado como um membro da equipe adicionando um endereço de email válido do Office 365 na página de membros da equipe do StaffHub para que o usuário esteja vinculado à conta do Azure AD correta na organização de infravermelho.
+Para contas inativas que não estão vinculadas a uma conta de usuário do Azure AD, um gerente pode garantir que o usuário seja adicionado como um membro da equipe adicionando um endereço de email válido do Office 365 na página de membros da equipe do StaffHub para que o usuário esteja vinculado à conta do Azure AD correta em sua organização.
 
 Outra opção é para os administradores executarem os cmdlets **Add-StaffHubMember** e **Remove-StaffHubUser** para remover uma conta não provisionada de uma equipe do StaffHub e adicionar o usuário de volta à equipe com seu UPN.
 

@@ -1,5 +1,5 @@
 ---
-title: Enviar um e-mail para um usuário com suas informações de audioconferência no Microsoft Teams
+title: Enviar um usuário para as informações da conferência de áudio de um usuário
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,13 +20,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
+- seo-marvel-mar2020
 description: Envie aos sus usuários um e-mail com as informações da audioconferência no Microsoft Teams.
-ms.openlocfilehash: c2ae5fe3af00cece551db690aa76805edd480373
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 2a045eaf3a2a79b893ff0d13e25d9b34224fd355
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41838121"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140924"
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-microsoft-teams"></a>Enviar um e-mail para um usuário com suas informações de audioconferência no Microsoft Teams
 
@@ -46,7 +47,7 @@ Aqui está um exemplo do e-mail que é enviado:
   
 ## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>Enviar um e-mail com as informações da audioconferência para um usuário
 
-### <a name="an-icon-showing-the-microsoft-teams-logomediateams-logo-30x30png-using-the-microsoft-teams-admin-center"></a>![Um ícone mostrando o logotipo do Microsoft Teams](media/teams-logo-30x30.png) Usar o centro de administração do Microsoft Teams
+### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Um ícone mostrando o logotipo do Microsoft Teams](media/teams-logo-30x30.png) Usar o centro de administração do Microsoft Teams
 
 1. Na navegação à esquerda, clique em **usuários**e selecione o usuário na lista de usuários disponíveis.
 

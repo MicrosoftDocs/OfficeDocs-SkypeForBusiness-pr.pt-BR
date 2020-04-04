@@ -1,5 +1,5 @@
 ---
-title: Gerencie políticas e configurações de aplicativo personalizado no Microsoft Teams
+title: Gerenciar políticas e configurações personalizadas do aplicativo
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -22,12 +22,13 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.allowsideloading
 - ms.teamsadmincenter.appsetuppolicies.tooltip.allowsideloading
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
-ms.openlocfilehash: a3435d0a6be9e9ef6642fe84404cb54d4ebaf8e4
-ms.sourcegitcommit: dde63e1b92c0bc3dbb41d8670778b863c3bc9bec
+- seo-marvel-mar2020
+ms.openlocfilehash: 7c3c7958994c50e1ae0e90ed13437601dabc0688
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "42601418"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140652"
 ---
 # <a name="manage-custom-app-policies-and-settings-in-microsoft-teams"></a>Gerencie políticas e configurações de aplicativo personalizado no Microsoft Teams
 

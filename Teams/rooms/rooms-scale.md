@@ -10,7 +10,9 @@ ms.service: msteams
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-ms.custom: Strat_SB_Admin
+ms.custom:
+- Strat_SB_Admin
+- seo-marvel-mar2020
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 ms.collection:
 - M365-collaboration
@@ -32,12 +34,12 @@ no-loc:
 - Azure Monitor
 - Log Analytics
 - Operations Management Suite
-ms.openlocfilehash: eb1e4337f97f16df6d7ef039bf4ba095ed692995
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 04d5945e042293ad0cb1597307fd4a2b596bee39
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827919"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141014"
 ---
 # <a name="deploy-microsoft-teams-rooms-by-using-microsoft-endpoint-configuration-manager"></a>Implantar salas do Microsoft Teams usando o Gerenciador de configuração do Microsoft Endpoint
 
@@ -88,7 +90,7 @@ Use as instruções a seguir para verificar se os recursos de implantação do s
 
 ### <a name="validate-and-upgrade-configuration-manager"></a>Validar e atualizar o Configuration Manager
 
-1.  No console do Configuration Manager, acesse **** \> **atualizações e serviços**de administração.
+1.  No console do Configuration Manager, acesse **Administration** \> **atualizações e serviços**de administração.
 
 2.  Verifique a compilação instalada e as atualizações aplicáveis que ainda não foram instaladas.
 
@@ -589,11 +591,11 @@ Todos os pacotes devem ser distribuídos para os servidores que foram atribuído
 > 
 > Todos os pacotes devem ser distribuídos para que você possa começar a implantar uma unidade de salas do Microsoft Teams.
 > 
-> Você pode examinar o status da distribuição do pacote no console do Configuration Manager indo **monitorar** \> **** \> **status do conteúdo**do status da distribuição.
+> Você pode examinar o status da distribuição do pacote no console do Configuration Manager indo **monitorar** \> **Distribution Status** \> **status do conteúdo**do status da distribuição.
 
 ## <a name="configuration-manager-task-sequences"></a>Sequências de tarefas do Configuration Manager
 
-Você usa sequências de tarefas com o Configuration Manager para automatizar as etapas para implantar uma imagem do sistema operacional em um computador de destino. Para implantar uma unidade de salas do Microsoft Teams de maneira automatizada, crie uma sequência de tarefas que referencie a imagem de inicialização usada para iniciar o computador de salas de destino do Microsoft Teams, a imagem do sistema operacional Windows 10 Enterprise que você deseja instalar e qualquer outros conteúdos adicionais, como outros aplicativos ou atualizações de software.
+Você usa sequências de tarefas com o Configuration Manager para automatizar as etapas para implantar uma imagem do sistema operacional em um computador de destino. Para implantar uma unidade de salas do Microsoft Teams de maneira automatizada, crie uma sequência de tarefas que referencie a imagem de inicialização usada para iniciar o computador de salas de destino do Microsoft Teams, a imagem do sistema operacional do Windows 10 Enterprise que você deseja instalar e qualquer outro conteúdo adicional, como outros aplicativos ou atualizações de software.
 
 ### <a name="import-the-sample-task-sequence"></a>Importar a sequência de tarefas de exemplo
 
@@ -656,7 +658,7 @@ Você pode baixar e importar facilmente uma sequência de tarefas de exemplo e p
    11. **Copiar os arquivos de configuração do SRS v2**: esta etapa copia os arquivos de configuração e configuração necessários do kit de implantação de salas do Microsoft Teams para o disco rígido local. Nenhuma personalização é necessária para esta etapa.
        -   Verifique se o **pacote do aplicativo SRS v2 – SRS** e **desabilite o redirecionamento do sistema de arquivos do 64-bit** está selecionado.
 
-   12. **Install-SRSv2-os-so-updates**: esta etapa implanta todas as atualizações obrigatórias do sistema operacional necessárias para a implantação de salas do Microsoft Teams. Do the following:
+   12. **Install-SRSv2-os-so-updates**: esta etapa implanta todas as atualizações obrigatórias do sistema operacional necessárias para a implantação de salas do Microsoft Teams. Siga este procedimento:
        -   Marque [configurar um console de salas do Microsoft Teams](console.md) para ver quais atualizações são necessárias.
        -   Verifique se o **pacote de atualizações do SRS v2 – so** inclui todas as atualizações necessárias.
        -   Verifique se o **SRS v2 – pacote de atualizações do so** está selecionado.

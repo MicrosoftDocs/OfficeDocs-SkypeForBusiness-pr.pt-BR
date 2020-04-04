@@ -1,5 +1,5 @@
 ---
-title: Políticas de restrição de chamadas de saída para audioconferência e chamadas PSTN do usuário
+title: Restrições de chamadas de saída-conferências de áudio & chamadas PSTN
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -19,13 +19,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
+- seo-marvel-mar2020
 description: Os administradores podem controlar o tipo de conferência de áudio e as chamadas PSTN do usuário final que podem ser feitas pelos usuários.
-ms.openlocfilehash: 830ab45178c10ab485d50aafd66a4bf5d4db9011
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 253553e884b3f4591a7c5340132337d295cefe09
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836881"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137901"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>Políticas de restrição de chamadas de saída para audioconferência e chamadas PSTN do usuário
 
@@ -46,7 +47,7 @@ Os controles de chamada de saída podem ser aplicados por usuário e fornecer os
 
 ## <a name="restrict-audio-conferencing-outbound-calls"></a>Restringir chamadas de saída de áudio videoconferência 
 
-![Um ícone mostrando o logotipo](media/teams-logo-30x30.png) do Microsoft Teams **usando o centro de administração do Microsoft Teams**
+![Um ícone mostrando o logotipo do Microsoft Teams](media/teams-logo-30x30.png) **Usando o centro de administração do Microsoft Teams**
 
 1. Na navegação à esquerda, clique em **usuários**e selecione o usuário na lista de usuários disponíveis.
 
@@ -60,11 +61,11 @@ Os controles de chamada de saída podem ser aplicados por usuário e fornecer os
 
 ![Um ícone mostrando o logotipo do Skype for Business](media/sfb-logo-30x30.png) **Usando o centro de administração do Skype for Business**
 
-1.  No **centro de administração do Skype for Business**, no painel de navegação esquerdo, vá para**usuários**de **audioconferência** > e, em seguida, selecione o usuário na lista de usuários disponíveis.
+1.    No **centro de administração do Skype for Business**, no painel de navegação esquerdo, vá para**usuários**de **audioconferência** > e, em seguida, selecione o usuário na lista de usuários disponíveis.
 
-2.  No Painel de Ações, clique em **Editar**.
+2.    No Painel de Ações, clique em **Editar**.
 
-3.  Em **restrições a chamadas discadas de reuniões desse usuário**, selecione a opção de restrição discada que você deseja.
+3.    Em **restrições a chamadas discadas de reuniões desse usuário**, selecione a opção de restrição discada que você deseja.
 
     ![Restrições às opções de discagem](media/restrictions-to-dial-outs.png)
 

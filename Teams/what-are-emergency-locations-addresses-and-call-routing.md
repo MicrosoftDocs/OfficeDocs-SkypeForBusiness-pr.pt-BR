@@ -1,5 +1,5 @@
 ---
-title: Planejar chamadas de emergência, endereços de emergência, roteamento de chamadas de emergência, chamadas de emergência dinâmicas
+title: Planejar e gerenciar chamadas de emergência
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -22,13 +22,14 @@ ms.custom:
 - ms.lync.lac.AddressAndLocation
 - Calling Plans
 - Direct Routing
+- seo-marvel-mar2020
 description: Saiba mais sobre chamadas de emergência, incluindo informações sobre endereços de emergência, roteamento de chamadas de emergência e chamadas de emergência dinâmicas.
-ms.openlocfilehash: 85a09880c1eec83851208197c008c8aaafac88f6
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.openlocfilehash: 8afe2d2af8b2aecbe3d73da03137f330aa8304b8
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42161684"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141024"
 ---
 # <a name="manage-emergency-calling"></a>Gerenciar chamadas de emergência
 
@@ -91,7 +92,7 @@ Chamadas de emergência dinâmicas para planos de chamada da Microsoft fornecem 
 
 No momento, somente os usuários do plano de chamada nos Estados Unidos podem aproveitar locais dinâmicos para direcionar as chamadas de emergência da seguinte maneira:
 
-- Se um cliente do teams para um plano de chamadas dos Estados Unidos usuários adquirem dinamicamente um endereço de emergência nos Estados Unidos, esse endereço será usado para roteamento de emergência em vez do endereço cadastrado, e a chamada será automaticamente roteada para o PSAP na área de serviço do endereço.
+- Se um cliente do teams para um plano de chamadas dos Estados Unidos usuários adquirirem dinamicamente um endereço de emergência nos Estados Unidos, esse endereço será usado para roteamento de emergência em vez do endereço cadastrado, e a chamada será automaticamente roteada para o PSAP na área de serviço do endereço.
 
 - Se um cliente do teams para um usuário do plano de chamadas do Brasil não adquirir dinamicamente um endereço de emergência nos Estados Unidos, o endereço de emergência registrado será usado para ajudar a tela e a encaminhar a chamada. No entanto, a chamada será filtrada para determinar se um endereço atualizado é necessário antes de conectar o chamador ao PSAP apropriado.
 
@@ -179,7 +180,7 @@ Para obter mais informações, consulte [controladores de borda de sessão certi
 
 #### <a name="emergency-location-identification-number-elin-applications"></a>Aplicativos número de identificação de localização de emergência (ELIN)
 
-Os controladores de borda de sessão (SBCs) podem incluir aplicativos de número de identificação de localização (ELIN) de emergência. Se um aplicativo ELIN do SBC estiver integrado a uma implantação de roteamento direto, você deve configurar os endereços de emergência e os números de telefone associados no aplicativo ELIN e, em seguida, carregar os registros ELIN para o banco de dados de chamadas de emergência na respectiva PSTN .  Locais de emergência do teams com um identificador ELIN devem coincidir com os no aplicativo ELIN.
+Os controladores de borda de sessão (SBCs) podem incluir aplicativos de número de identificação de localização (ELIN) de emergência. Se um aplicativo de ELIN do SBC estiver integrado a uma implantação de roteamento direto, você deve configurar os endereços de emergência e os números de telefone associados no aplicativo ELIN e, em seguida, carregar os registros ELIN para o banco de dados de chamadas de emergência na respectiva PSTN.  Locais de emergência do teams com um identificador ELIN devem coincidir com os no aplicativo ELIN.
 
 Quando uma chamada de emergência com um local adquirido dinamicamente é roteada para o SBC apropriado, o aplicativo ELIN:
 

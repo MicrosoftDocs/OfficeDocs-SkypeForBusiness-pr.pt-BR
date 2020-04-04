@@ -1,5 +1,5 @@
 ---
-title: Preparo da rede da sua organização para o Microsoft Teams
+title: Preparo da rede da sua organização para o Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: jastark, kojika
 audience: admin
-description: Antes de implantar o Microsoft Teams, avalie e prepare a sua rede para ter certeza de que ela está pronta para o Teams. As informações incluem requisitos de rede, requisitos de largura de banda e orientação de otimização da rede.
+description: Saiba como preparar a rede da sua organização para o Microsoft Teams, incluindo requisitos de rede, otimização de rede e requisitos de largura de banda.
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -16,14 +16,16 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 64bcdee7e1a4ce7f36a9089fd5231cf2a63e9d5b
-ms.sourcegitcommit: f0f2fa999c1ca4a1118377c7938a247f79217609
+ms.custom:
+- seo-marvel-mar2020
+ms.openlocfilehash: bc81781e17b16820eebb134a0ee57f1fb82d403c
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43109470"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43143782"
 ---
-# <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Preparo da rede da sua organização para o Microsoft Teams 
+# <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Preparar a rede da organização para o Microsoft Teams 
 
 ## <a name="network-requirements"></a>Requisitos de rede
 
@@ -157,5 +159,4 @@ Onde a largura de banda *não é* limitada, o Teams otimiza a qualidade da mídi
 [Modelos de identidade e autenticação no Microsoft Teams](identify-models-authentication.md)
 
 [Como implantar o Teams](How-to-roll-out-teams.md)
-
 

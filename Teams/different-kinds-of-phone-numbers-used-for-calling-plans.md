@@ -1,5 +1,5 @@
 ---
-title: Diferentes tipos de números de telefone utilizados para Planos de Chamadas
+title: Tipos de números de telefone usados para planos de chamada
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -20,13 +20,14 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - ms.teamsadmincenter.voice.phonenumbers.searchacquire.tooltip.numbertype
+- seo-marvel-mar2020
 description: Saiba mais sobre os diferentes tipos de número de telefone que o Microsoft Teams usa para planos de chamada.
-ms.openlocfilehash: d31bf767fab2f90ddd57b9bb43cd12b5960d5102
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: e960da72476ec91f8f13afe42d0e4da6c12e746d
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826889"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137341"
 ---
 # <a name="different-kinds-of-phone-numbers-used-for-calling-plans"></a>Diferentes tipos de números de telefone utilizados para Planos de Chamadas
 

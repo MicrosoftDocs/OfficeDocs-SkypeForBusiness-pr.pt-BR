@@ -1,5 +1,5 @@
 ---
-title: Coordenação de implantação do Microsoft Teams cloud voice
+title: Comitê de direcionamento para implantação de voz em nuvem
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -15,12 +15,13 @@ localization_priority: Normal
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4338e2b6b169fa6f8fc46ae116f3d297096543f7
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 397f41a468c987e70d068066dcf16ddf0e64843a
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41862982"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43136781"
 ---
 # <a name="steering-committee"></a>Comitê de direcionamento
 
@@ -30,7 +31,7 @@ Um Comitê de direcionamento é um grupo regulador de principais interessados e 
 
 Cada projeto requer uma visão e uma compromisso acordados. Para fornecer os resultados desejados dos projetos, a visão deve ser claramente definida, que precisa ser monitorado e mantido. Isso se torna a responsabilidade do Comitê de direcionamento: para impulsionar decisões, aconselhar, fornecer supervisão estratégica, servir como defensores da organização para as iniciativas do projeto e, quando necessário, remover bloqueadores.
 
-Sua organização deve colocar um pensamento significativo na formação do Comitê de direcionamento. O Comitê deve garantir que o projeto atinja os objetivos de negócios que você definiu para atender às mudanças em toda a organização, se reunir periodicamente para discutir o momento atual do projeto e ajudar a remover qualquer obstáculos detectado durante o to.
+Sua organização deve colocar um pensamento significativo na formação do Comitê de direcionamento. O Comitê deve garantir que o projeto atinja os objetivos de negócios que você definiu para atender às mudanças em toda a organização, se reunir periodicamente para discutir o momento atual do projeto e ajudar a remover qualquer obstáculos detectado durante a jornada.
 
 O Comitê deve definir seu compromisso para incluir alguns objetivos importantes:
 

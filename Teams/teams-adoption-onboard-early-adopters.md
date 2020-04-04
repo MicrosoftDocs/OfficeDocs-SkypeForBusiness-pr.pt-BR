@@ -1,5 +1,5 @@
 ---
-title: Integração de usuários pioneiros e coleta de comentários do Microsoft Teams
+title: Integração de usuários pioneiros e coleta de comentários
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -13,18 +13,20 @@ search.appverid: MET150
 description: Escolha os pioneiros na fase de experimento da adoção de suas equipes e, em seguida, Reúna comentários sobre o seu projeto.
 f1.keywords:
 - CSH
-ms.custom: Adopt
+ms.custom:
+- Adopt
+- seo-marvel-mar2020
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 65e697ef46f9ec087975b47741597a7e0ff68508
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: f7000c3555a660fc692b7b88b0d94fb3ea42742c
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837801"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140738"
 ---
 # <a name="onboard-early-adopters-and-gather-feedback-for-microsoft-teams"></a>Integração de usuários pioneiros e coleta de comentários do Microsoft Teams
 

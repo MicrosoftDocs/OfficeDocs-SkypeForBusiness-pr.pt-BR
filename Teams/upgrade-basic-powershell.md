@@ -7,23 +7,25 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: dearbeen
-description: Stopgap para a atualização para o Microsoft Teams se o centro de administração ainda não estiver aceso em seu locatário
+description: Stopgap para a atualização do Microsoft Teams se o centro de administração ainda não estiver aceso em seu locatário.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - CSH
-ms.custom: Teams-upgrade-guidance
+ms.custom:
+- Teams-upgrade-guidance
+- seo-marvel-mar2020
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 20864b6b0a4be8cf9a0a88c6f3ce63c18687f2af
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 84ecfb8b9286b749e5b1bf6d34cdf0c8c8fd4113
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837231"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139670"
 ---
 # <a name="upgrading-your-users-from-skype-for-business-online-to-microsoft-teams"></a>Atualizando seus usuários do Skype for Business online para o Microsoft Teams
 

@@ -1,5 +1,5 @@
 ---
-title: Configurar um controlador de borda da sessão para vários locatários
+title: Configurar controlador de borda de sessão – vários locatários
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -16,12 +16,13 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Saiba como configurar um SBC (controlador de borda de sessão) para atender a vários locatários.
-ms.openlocfilehash: e0027df53edcec54cbeaef560182ffddc451ecbd
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 90bad0c87cef92a36dea392d98cfb66824c10113
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42160725"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141084"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurar um controlador de borda da sessão para vários locatários
 
@@ -118,8 +119,8 @@ Para obter mais informações sobre funções de administrador e como atribuir u
 
 ### <a name="add-a-base-domain-to-the-tenant-and-verify-it"></a>Adicionar um domínio base ao locatário e verificá-lo
 
-1.  No centro de administração do Microsoft 365, vá para **Configurar** > **domínios** > **Adicionar domínio**.
-2.  Na caixa **Insira um domínio que você possui** , digite o FQDN do domínio base. No exemplo a seguir, o domínio base é *Customers.adatum.biz*.
+1.    No centro de administração do Microsoft 365, vá para **Configurar** > **domínios** > **Adicionar domínio**.
+2.    Na caixa **Insira um domínio que você possui** , digite o FQDN do domínio base. No exemplo a seguir, o domínio base é *Customers.adatum.biz*.
 
     ![Captura de tela mostrando a página Adicionar um domínio](media/direct-routing-2-sbc-add-domain.png)
 
@@ -128,8 +129,8 @@ Para obter mais informações sobre funções de administrador e como atribuir u
 
     ![Captura de tela mostrando a confirmação de um nome de domínio verificado](media/direct-routing-3-sbc-verify-domain.png)
 
-5.  Clique em **Avançar**e, na página **Atualizar configurações de DNS** , selecione **eu mesmo adiciono os registros DNS** e clique em **Avançar**.
-6.  Na próxima página, desmarque todos os valores (a menos que você queira usar o nome do domínio do Exchange, do SharePoint ou do teams/Skype for Business), clique em **Avançar**e, em seguida, clique em **concluir**. Verifique se o novo domínio está no status de configuração concluída.
+5.    Clique em **Avançar**e, na página **Atualizar configurações de DNS** , selecione **eu mesmo adiciono os registros DNS** e clique em **Avançar**.
+6.    Na próxima página, desmarque todos os valores (a menos que você queira usar o nome do domínio do Exchange, do SharePoint ou do teams/Skype for Business), clique em **Avançar**e, em seguida, clique em **concluir**. Verifique se o novo domínio está no status de configuração concluída.
 
     ![Captura de tela mostrando domínios com status de configuração concluída](media/direct-routing-14-sbc-setup-complete.png)
 
@@ -218,22 +219,22 @@ No entanto, isso não provou ideal por dois motivos:
 Com base nesses comentários, a Microsoft está trazendo uma nova lógica para provisionar os troncos para os locatários do cliente.
 
 Duas novas entidades foram introduzidas:
--   Um tronco de portadora registrado no locatário da operadora usando o comando New-CSOnlinePSTNGateway, por exemplo, New-CSOnlinePSTNGateway-FQDN customers.adatum.biz-SIPSignalingport 5068-ForwardPAI $true.
+-    Um tronco de portadora registrado no locatário da operadora usando o comando New-CSOnlinePSTNGateway, por exemplo, New-CSOnlinePSTNGateway-FQDN customers.adatum.biz-SIPSignalingport 5068-ForwardPAI $true.
 
--   Um tronco derivado, que não exige registro. É simplesmente um nome de host desejado adicionado do tronco da transportadora. Ele deriva todos os parâmetros de configuração do tronco da transportadora. O tronco derivado não precisa ser criado no PowerShell, e a associação com o tronco da transportadora é baseada no nome FQDN (veja os detalhes abaixo).
+-    Um tronco derivado, que não exige registro. É simplesmente um nome de host desejado adicionado do tronco da transportadora. Ele deriva todos os parâmetros de configuração do tronco da transportadora. O tronco derivado não precisa ser criado no PowerShell, e a associação com o tronco da transportadora é baseada no nome FQDN (veja os detalhes abaixo).
 
 **Lógica de provisionamento e exemplo**
 
--   As operadoras só precisam configurar e gerenciar um único tronco (tronco de portadora no domínio de transportadora) usando o comando Set-CSOnlinePSTNGateway. No exemplo acima, é adatum.biz;
--   No locatário do cliente, a transportadora precisa apenas adicionar o FQDN do tronco derivado às políticas de roteamento de voz dos usuários. Não é necessário executar New-CSOnlinePSTNGateway para um tronco.
--    O tronco derivado, como o nome sugere, herda ou deriva todos os parâmetros de configuração do tronco da transportadora. Exemplos
--   Customers.adatum.biz – o tronco de portador que precisa ser criado no locatário da operadora.
--   Sbc1.customers.adatum.biz – o tronco derivado em um locatário do cliente que não precisa ser criado no PowerShell.  Você pode simplesmente adicionar o nome do tronco derivado no locatário do cliente na política de roteamento de voz online sem criá-lo.
+-    As operadoras só precisam configurar e gerenciar um único tronco (tronco de portadora no domínio de transportadora) usando o comando Set-CSOnlinePSTNGateway. No exemplo acima, é adatum.biz;
+-    No locatário do cliente, a transportadora precisa apenas adicionar o FQDN do tronco derivado às políticas de roteamento de voz dos usuários. Não é necessário executar New-CSOnlinePSTNGateway para um tronco.
+-     O tronco derivado, como o nome sugere, herda ou deriva todos os parâmetros de configuração do tronco da transportadora. Exemplos
+-    Customers.adatum.biz – o tronco de portador que precisa ser criado no locatário da operadora.
+-    Sbc1.customers.adatum.biz – o tronco derivado em um locatário do cliente que não precisa ser criado no PowerShell.  Você pode simplesmente adicionar o nome do tronco derivado no locatário do cliente na política de roteamento de voz online sem criá-lo.
 -   A transportadora precisará configurar o registro de DNS resolvendo o endereço IP do SBC do tronco derivado para a Carrier.
 
--   Todas as alterações feitas em um tronco de transportadora (no locatário de transportadora) são automaticamente aplicadas a troncos derivados. Por exemplo, as operadoras podem alterar uma porta SIP no tronco da transportadora e essa alteração se aplica a todos os troncos derivados. A nova lógica para configurar os troncos simplifica o gerenciamento, pois você não precisa ir para cada locatário e alterar o parâmetro em cada tronco.
--   As opções são enviadas apenas ao FQDN do tronco de portadora. O status de integridade do tronco da transportadora é aplicado a todos os troncos derivados e é usado para decisões de roteamento. Saiba mais sobre [as opções de roteamento direto](https://docs.microsoft.com/microsoftteams/direct-routing-monitor-and-troubleshoot).
--   A transportadora pode dissipar o tronco de portador e todos os troncos derivados também serão descarregadas. 
+-    Todas as alterações feitas em um tronco de transportadora (no locatário de transportadora) são automaticamente aplicadas a troncos derivados. Por exemplo, as operadoras podem alterar uma porta SIP no tronco da transportadora e essa alteração se aplica a todos os troncos derivados. A nova lógica para configurar os troncos simplifica o gerenciamento, pois você não precisa ir para cada locatário e alterar o parâmetro em cada tronco.
+-    As opções são enviadas apenas ao FQDN do tronco de portadora. O status de integridade do tronco da transportadora é aplicado a todos os troncos derivados e é usado para decisões de roteamento. Saiba mais sobre [as opções de roteamento direto](https://docs.microsoft.com/microsoftteams/direct-routing-monitor-and-troubleshoot).
+-    A transportadora pode dissipar o tronco de portador e todos os troncos derivados também serão descarregadas. 
  
 
 **Migração do modelo anterior para o tronco da operadora**

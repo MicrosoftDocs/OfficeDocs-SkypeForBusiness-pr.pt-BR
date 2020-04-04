@@ -21,13 +21,14 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - ms.teamsadmincenter.voice.phonenumbers.searchacquire.tooltip.quantity
-description: Ao procurar e obter números de telefone para a sua organização, é possível obter mais números de telefone do que a quantidade de licenças atribuídas. Mas isso depende dos tipos de números de telefone e de licenças que você comprou e atribuiu. Você pode clicar em diferentes tipos de números de telefone usados para planos de chamadas para saber mais sobre os diferentes números de telefone usados no Microsoft Teams.
-ms.openlocfilehash: d620e10c90474857325b15201d3b899d728ed815
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+- seo-marvel-mar2020
+description: Saiba mais sobre quantos números de telefone você pode obter no Microsoft Teams com base no tipo de número e quantas licenças você tem.
+ms.openlocfilehash: b8c6c8a2e1fa2b1b882a4fc2ddbbb5e904e5f6f7
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836283"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141104"
 ---
 # <a name="how-many-phone-numbers-can-you-get"></a>Quantos números de telefone você consegue obter?
 

@@ -1,5 +1,5 @@
 ---
-title: Atender chamadas do atendedor automático e da fila de chamadas diretamente no Teams
+title: Atender chamadas de atendedor automático e fila de chamadas
 ms.reviewer: waseemh
 author: LolaJacobsen
 ms.author: lolaj
@@ -18,12 +18,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8e864e32409730373d98263215b0bcc35d9b404d
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: d630ea41915cb89013e407a6fa0b1cc21cb21abf
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825309"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137431"
 ---
 <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>Atender chamadas do atendedor automático e da fila de chamadas diretamente no Teams
 ===========================================================
@@ -34,7 +35,7 @@ Os usuários do teams podem receber e atender chamadas de atendedores automátic
 
 Os atendedores automáticos na nuvem fornecem uma série de prompts de voz ou um arquivo de áudio que os chamadores ouvem em vez de uma operadora humana quando eles chamam para uma organização. Um atendedor automático permite que os chamadores se movam pelo sistema de menus, façam chamadas ou localizem usuários usando um teclado de telefone (DTMF) ou entradas de voz usando reconhecimento de voz.
 
-As filas de chamadas na nuvem incluem Saudações que são usadas quando alguém liga para um número de telefone para sua organização, a capacidade de colocar automaticamente as chamadas em espera e a capacidade de Pesquisar o próximo agente de chamada disponível para lidar com a chamada enquanto as pessoas que chamam são ouvindo música em espera. Você pode criar uma ou várias filas de chamadas para sua organização.
+As filas de chamadas na nuvem incluem Saudações que são usadas quando alguém liga para um número de telefone para sua organização, a capacidade de colocar automaticamente as chamadas em espera e a capacidade de Pesquisar o próximo agente de chamada disponível para manipular a chamada, enquanto as pessoas que ligam estão ouvindo música em espera. Você pode criar uma ou várias filas de chamadas para sua organização.
 
 ## <a name="handling-an-auto-attendant-or-call-queue-call"></a>Manipulando um atendedor automático ou chamada em fila de chamadas
 
@@ -53,10 +54,10 @@ Quando um atendedor automático ou uma chamada de fila de chamada for respondido
 
 O suporte para o atendedor automático e as chamadas da fila de chamadas está disponível nos seguintes clientes:
 
--   Microsoft Teams Windows Client (versões de 32 e 64 bits)
--   Cliente Mac do Microsoft Teams
--   Aplicativo iPhone do Microsoft Teams
--   Aplicativo Android do Microsoft Teams
+-    Microsoft Teams Windows Client (versões de 32 e 64 bits)
+-    Cliente Mac do Microsoft Teams
+-    Aplicativo iPhone do Microsoft Teams
+-    Aplicativo Android do Microsoft Teams
 
 ## <a name="configure-auto-attendant-and-call-queue-support-for-microsoft-teams"></a>Configurar o atendedor automático e o suporte à fila de chamadas do Microsoft Teams
 
@@ -64,8 +65,8 @@ Para receber chamadas de atendedor automático e fila de chamadas no Microsoft T
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
--   [O que é o sistema telefônico no Office 365](what-is-phone-system-in-office-365.md)
--   [Criar uma fila de chamada do Cloud](create-a-phone-system-call-queue.md)
--   [Quais são os atendedores automáticos do Cloud?](what-are-phone-system-auto-attendants.md)
--   [Configurar um atendedor automático do Cloud](create-a-phone-system-auto-attendant.md)
+-    [O que é o sistema telefônico no Office 365](what-is-phone-system-in-office-365.md)
+-    [Criar uma fila de chamada do Cloud](create-a-phone-system-call-queue.md)
+-    [Quais são os atendedores automáticos do Cloud?](what-are-phone-system-auto-attendants.md)
+-    [Configurar um atendedor automático do Cloud](create-a-phone-system-auto-attendant.md)
 

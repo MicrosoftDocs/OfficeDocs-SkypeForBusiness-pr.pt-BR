@@ -1,5 +1,5 @@
 ---
-title: Lista de verificação de integração para definir as cargas de trabalho do cloud voice no Microsoft Teams
+title: Lista de verificação de integração-configurar cargas de trabalho de voz em nuvem-Microsoft Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -15,12 +15,13 @@ localization_priority: Normal
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8c91c568a09e6327b0f42ed5425eb12594116c69
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 344699cc112e369358059e91f29e4e7088fe8b3a
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41832491"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43138341"
 ---
 # <a name="configure-cloud-voice-workloads-in-microsoft-teams"></a>Configurar cargas de trabalho de voz em nuvem no Microsoft Teams
 
@@ -34,7 +35,7 @@ ms.locfileid: "41832491"
 | 4  | Configurar o número de telefone da sua ponte de conferência padrão | Você pode configurar o número de telefone da ponte de conferência padrão da sua organização, que é atribuído aos usuários que foram habilitados, mas não explicitamente atribuídos a um número de telefone de ponte de conferência. O número padrão deve alinhar-se ao local central da sua organização. | | [Definir os números de telefone incluídos em convites](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites) |
 | 5  | Configurar idiomas para números de telefone da ponte de conferência | Configure os idiomas primário e secundário para os números de telefone de sua ponte de conferência. <br/><br/>Confirme se os números de telefone da ponte de conferência regional estão atribuídos aos idiomas apropriados para dar suporte aos seus usuários. | | [Definir idiomas do atendedor automático para audioconferência](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/set-auto-attendant-languages-for-audio-conferencing) |
 | 6  | Definir as configurações da ponte de conferência | Configure a experiência de participação na reunião, o comprimento do PIN e as configurações de entrada de reunião/saída de reunião. Alinhe essas configurações de ponte de conferência com os objetivos da sua organização. | | [Alterar as configurações de uma ponte de audioconferência](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/change-the-settings-for-an-audio-conferencing-bridge) |
-| 7  | Personalizar convites de reunião | Como administrador, você pode incluir URLs no convite da reunião vinculados a informações legais ou de ajuda. Você também pode atualizar o logotipo e adicionar texto de rodapé ao convite. | | [Personalizar convites de reunião](https://docs.microsoft.com/SkypeForBusiness/set-up-skype-for-business-online/customize-meeting-invitations) |
+| 7  | Personalizar convites para reuniões | Como administrador, você pode incluir URLs no convite da reunião vinculados a informações legais ou de ajuda. Você também pode atualizar o logotipo e adicionar texto de rodapé ao convite. | | [Personalizar convites de reunião](https://docs.microsoft.com/SkypeForBusiness/set-up-skype-for-business-online/customize-meeting-invitations) |
 | 8  | Configure planos de discagem | Um plano de discagem permite que os usuários disquem números de telefone da maneira como eles são usados, como omitir o código de área para chamadas locais, omitindo o código de país para chamadas domésticas ou usando a discagem de curto-dígito para discar para outros usuários durante uma conferência. <br/><br/>O plano de discagem do serviço — o padrão — é baseado no local de uso do Office 365 de um usuário e não pode ser alterado. <br/><br/>Se o plano de discagem de serviço padrão não atender às suas necessidades, você pode configurar planos de discagem de locatário no locatário ou no nível do usuário. | | [Planos de discagem na conferência de áudio do Microsoft Teams](https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans) <br/><br/>[Planos de discagem do plano de chamadas do Office 365](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-dial-plans) |
 | 9  | Atribuir números de conferência e PINs aos usuários | Por padrão, os números de conferência são atribuídos aos usuários de acordo com o número padrão de administradores de equipe selecionados. Os PINs do usuário inicial são gerados aleatoriamente com base na política de PIN.<br/><br/> Os usuários receberão o número de conferência e os PINs em um email. Os usuários podem mudar seus pinos. <br/><br/>Como administrador, você pode habilitar os usuários de discagem para usar um número de conferência diferente do número padrão e local para a sua localização. | | |
 | 254 | Preparar e executar testes de aceitação do usuário | Preparar e executar testes de aceitação do usuário, incluindo cenários de discagem e discagem externa. | | [Testar o plano de áudio videoconferência](https://docs.microsoft.com/MicrosoftTeams/onboarding-test-plan-for-enterprises-audio-conferencing) |

@@ -22,13 +22,14 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: Isso vai ajudá-lo a descobrir como discar números de chamada gratuita em cada país/região. Depois de selecionar o país/região, você será direcionado a uma página específica do país que contém detalhes específicos, restrições e limites para a disponibilidade de serviço de chamada gratuita em que o serviço de chamada gratuita está disponível. O formato ou formatos de discagem mostrará os códigos de acesso necessários em cada país/região para discar o número de chamada gratuita.
-ms.openlocfilehash: bc87d582979b81fc51714b5c278ad978214a9661
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+- seo-marvel-mar2020
+description: Saiba mais sobre números de chamada gratuita na Arábiaa Saudita, incluindo disponibilidade, disponibilidade de linha com fio/de linha fixa e restrições de rede móvel e restrições.
+ms.openlocfilehash: 5625d4f7ef04ba9365a4c0169d168e0a479fff89
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41682288"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139820"
 ---
 # <a name="toll-free-dialing-restrictions-in-saudi-arabia"></a>Restrições de discagem de chamada gratuita na Arábia Saudita
 

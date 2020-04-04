@@ -1,5 +1,5 @@
 ---
-title: Gerenciar políticas de roteamento de chamadas de emergência no Microsoft Teams
+title: Gerenciar políticas de roteamento de chamada
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -16,12 +16,13 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba como usar e gerenciar políticas de roteamento de chamadas de emergência no Microsoft Teams.
-ms.openlocfilehash: af0b7a6a82e0d5ff06c65d726b2f67af22b6f4aa
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: c0e02a44997e07626c39dc576357f8811a9b1bf9
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836501"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141114"
 ---
 # <a name="manage-emergency-call-routing-policies-in-microsoft-teams"></a>Gerenciar políticas de roteamento de chamadas de emergência no Microsoft Teams
 
@@ -75,7 +76,7 @@ Consulte [set-CsTeamsEmergencyCallRoutingPolicy](https://docs.microsoft.com/powe
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Usar o centro de administração do Microsoft Teams
 
-1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para **usuários**e, em seguida, clique no usuário.
+1. Na barra de navegação à esquerda do centro de administração do Microsoft Teams, vá para **Usuários** e clique no usuário.
 2. Clique em **políticas**e, em seguida, ao lado de **políticas atribuídas**, clique em **Editar**.
 3. Em **política de roteamento de chamada de emergência**, selecione a política que você deseja atribuir e clique em **salvar**.
 

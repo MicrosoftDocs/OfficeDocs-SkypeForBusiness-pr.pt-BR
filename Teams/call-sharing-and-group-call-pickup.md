@@ -1,5 +1,5 @@
 ---
-title: Compartilhamento de chamadas e atendimento de chamada em grupo no Microsoft Teams
+title: Atendimento de chamada de grupo e compartilhamento de chamada
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
@@ -21,19 +21,20 @@ ms.custom:
 - ms.teamsadmincenter.users.voice.groupcallpickup.tooltip
 - ms.teamsadmincenter.users.voice.callorderanddelay.tooltip
 - Phone System
+- seo-marvel-mar2020
 description: Compartilhamento de chamadas e retirada de chamadas em grupo permitem que os usuários compartilhem chamadas com colegas para que as chamadas possam ser capturadas quando o usuário não estiver disponível.
-ms.openlocfilehash: c3a47c892940762807a86d6690fa59520f137960
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: aa59166d32de49b9163209a4836c7024d697fa8f
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824549"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141284"
 ---
 # <a name="call-sharing-and-group-call-pickup-in-microsoft-teams"></a>Compartilhamento de chamadas e atendimento de chamada em grupo no Microsoft Teams
 
 Os recursos de compartilhamento de chamadas e retirada de chamadas de grupo do Microsoft Teams permitem que os usuários compartilhem suas chamadas de entrada com colegas para que os colegas possam atender chamadas que ocorrem enquanto o usuário está indisponível.
 
-O recebimento de chamadas em grupo é menos prejudicial aos destinatários do que outras formas de compartilhamento de chamadas (como encaminhamento de chamadas ou toque simultâneo) porque os usuários podem configurar como querem ser notificados sobre uma chamada compartilhada de entrada (via áudio e notificação Visual, somente Visual, ou faixa no aplicativo Teams) e elas podem decidir se devem ser respondidas.
+O recebimento de chamadas em grupo é menos prejudicial aos destinatários do que outras formas de compartilhamento de chamadas (como encaminhamento de chamadas ou toque simultâneo) porque os usuários podem configurar como querem ser notificados sobre uma chamada compartilhada de entrada (via áudio e notificação Visual, somente Visual ou em faixa no aplicativo Teams) e podem decidir se devem atendê-la.
 
 Para compartilhar chamadas com outras pessoas, um usuário cria um grupo de chamada e adiciona os usuários com quem deseja compartilhar suas chamadas. Em seguida, escolha uma configuração de toque ou encaminhamento simultânea. Consulte [encaminhamento de chamadas e toque simultâneo no Teams](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e) para obter detalhes.
 

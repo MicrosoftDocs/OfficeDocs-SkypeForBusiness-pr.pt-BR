@@ -1,5 +1,5 @@
 ---
-title: Plano de Chamadas no Office 365 - Código de tratamento de reclamação no Reino Unido (RU)
+title: Código de tratamento de reclamações para o Reino Unido -Planos de chamada do Office 365
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,14 +20,15 @@ f1.keywords:
 - CSH
 ms.custom:
 - Legal
+- seo-marvel-mar2020
 hideEdit: true
-description: 'Learn how to make a complaint for Skype for business calling services (PSTN Calling in the United Kingdom), what the timelines are for replies, and how to resolve disputes for unresolved complaints. '
-ms.openlocfilehash: 4a035c77756acc811eec184c0749623a2142cf41
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+description: Faça uma reclamação para os serviços de chamadas do Skype for Business (chamadas PSTN no Reino Unido), linhas do tempo para respostas e resolução de litígios para reclamações não resolvidas.
+ms.openlocfilehash: 6bebf983d19461485f7f381c300fc6e5b3611b6b
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825569"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137281"
 ---
 # <a name="calling-plans-in-office-365---complaint-handling-code-for-the-united-kingdom-uk"></a>Plano de Chamadas no Office 365 - Código de tratamento de reclamação no Reino Unido (RU)
 

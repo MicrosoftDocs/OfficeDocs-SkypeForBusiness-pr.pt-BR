@@ -1,5 +1,5 @@
 ---
-title: Experimentar ou comprar a Audioconferência no Office 365 para o Microsoft Teams
+title: Experimentar ou comprar conferências de áudio no Office 365 para Teams
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,17 +21,18 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - ms.lync.lac.CpcGettingStarted
+- seo-marvel-mar2020
 description: 'Veja como experimentar ou adquirir licenças de Audioconferência (Conferência PSTN) para o Office 365 para configurar chamadas de conferência em que as pessoas podem discar. '
-ms.openlocfilehash: 6c2b7583dcf286ba3b761a3445e3eff241896194
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 6f30f59e20ee6fd8516bcfe420e2b936e9749a8e
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837611"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139690"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-office-365-for-microsoft-teams"></a>Experimentar ou comprar a Audioconferência no Office 365 para o Microsoft Teams
 
-Às vezes, as pessoas em sua organização precisarão usar um telefone para ligar para uma reunião. O Microsoft Teams inclui o recurso de videoconferência por apenas essa situação! As pessoas podem fazer chamadas para reuniões do Microsoft Teams usando um telefone, em vez de usar o aplicativo Microsoft Teams em um dispositivo móvel ou computador.
+Às vezes, as pessoas da sua organização precisam usar um telefone para ligar para uma reunião. O Microsoft Teams inclui o recurso de videoconferência por apenas essa situação! As pessoas podem fazer chamadas para reuniões do Microsoft Teams usando um telefone, em vez de usar o aplicativo Microsoft Teams em um dispositivo móvel ou computador.
 
 Você só precisa configurar a conferência de áudio para as pessoas que planejam agendar ou conduzir reuniões. Participantes que fazem chamadas para a reunião não precisam ter licenças atribuídas a eles e nenhum outro tipo de configuração.
 

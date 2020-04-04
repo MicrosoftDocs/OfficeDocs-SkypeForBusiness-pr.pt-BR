@@ -22,13 +22,14 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: Isso vai ajudá-lo a descobrir como discar números de chamada gratuita em cada país/região. Depois de selecionar o país/região, você será direcionado a uma página específica do país que contém detalhes específicos, restrições e limites para a disponibilidade de serviço de chamada gratuita em que o serviço de chamada gratuita está disponível. O formato ou formatos de discagem mostrará os códigos de acesso necessários em cada país/região para discar o número de chamada gratuita.
-ms.openlocfilehash: 3d035506a15dd4f3f7e5628c8f67f86699cf8085
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+- seo-marvel-mar2020
+description: Saiba mais sobre números de chamada gratuita na Turquia, incluindo disponibilidade, disponibilidade de linha com fio/de linha fixa e de conexão móvel e restrições.
+ms.openlocfilehash: 0d69feb1b5a4496fef479260ebaa0f96febac6a3
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41693696"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139720"
 ---
 # <a name="toll-free-dialing-restrictions-in-turkey"></a>Restrições de discagem de chamada gratuita na Turquia
 

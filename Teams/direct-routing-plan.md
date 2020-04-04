@@ -15,13 +15,14 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: Leia este tópico para saber como o roteamento direto do sistema de telefone da Microsoft permite que você conecte um controlador de borda de sessão (SBC) compatível com o cliente ao Microsoft Phone System.
-ms.openlocfilehash: be0d901095afa322935944a9b4898e540946bf8a
-ms.sourcegitcommit: 46b15a11755a89526be2a0b20befad61c628cdb4
+ms.custom: seo-marvel-mar2020
+description: Saiba como o roteamento direto do Microsoft Phone System permite conectar um controlador de borda de sessão (SBC) compatível fornecido pelo cliente a um sistema telefônico da Microsoft.
+ms.openlocfilehash: bc092c2441ff359de1189e1ff000a61c51dcec1f
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2020
-ms.locfileid: "42955720"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140280"
 ---
 # <a name="plan-direct-routing"></a>Planejar o Roteamento Direto
 
@@ -264,7 +265,7 @@ SIP/TLS|SBC|Proxy SIP|Definido no SBC|5061|
 
 ### <a name="failover-mechanism-for-sip-signaling"></a>Mecanismo de failover para sinalização SIP
 
-O SBC faz uma consulta DNS resolver sip.pstnhub.microsoft.com. Com base na localização do SBC e nas métricas de desempenho do datacenter, o datacenter principal é selecionado. Se o principal do datacenter tiver um problema, o SBC tentará o sip2.pstnhub.microsoft.com, que é resolvido para o segundo datacenter atribuído e, no caso raro, os datacenters em duas regiões não estiverem disponíveis, o SBC repetirá o último FQDN ( sip3.pstnhub.microsoft.com), que fornece o IP do Data Center terciário.
+O SBC faz uma consulta DNS resolver sip.pstnhub.microsoft.com. Com base na localização do SBC e nas métricas de desempenho do datacenter, o datacenter principal é selecionado. Se o datacenter principal tiver um problema, o SBC tentará o sip2.pstnhub.microsoft.com, que é resolvido para o segundo datacenter atribuído, e, no caso raro, os datacenters em duas regiões não estiverem disponíveis, o SBC repetirá o último FQDN (sip3.pstnhub.microsoft.com), que fornece o IP do datacenter terciário.
 
 A tabela a seguir resume as relações entre os datacenters primários, secundários e terciários:
 

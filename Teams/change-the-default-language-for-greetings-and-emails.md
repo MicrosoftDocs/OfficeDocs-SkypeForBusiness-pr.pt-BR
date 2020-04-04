@@ -21,13 +21,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: 'Saiba como configurar o Skype for Business para usar outro idioma para a saudação de correio de voz padrão da sua organização. '
-ms.openlocfilehash: 078fd14944d5384d38d870e09575980cc89e8889
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+- seo-marvel-mar2020
+description: Saiba como configurar o Skype for Business para usar outro idioma para a saudação de correio de voz padrão da sua organização.
+ms.openlocfilehash: 829776be347f2453f3b87a150b19e2334e876f40
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825229"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139130"
 ---
 # <a name="change-the-default-language-for-greetings-and-emails"></a>Alterar o idioma padrão de saudações e emails
 

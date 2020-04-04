@@ -1,5 +1,5 @@
 ---
-title: Plano de Chamadas no Office 365 - Código de prática no Reino Unido (RU)
+title: Código de prática para o Reino Unido -Planos de chamada do Office 365
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,14 +20,15 @@ f1.keywords:
 - CSH
 ms.custom:
 - Legal
+- seo-marvel-mar2020
 hideEdit: true
-description: 'Learn the code of practice for Calling Plans (PSTN Calling plans)  for Skype for Business for the United Kingdom, where to get help, and how to submit complaints and resolve disputes. '
-ms.openlocfilehash: a811b3a49310a81d5cc62502fe210367b5ac6905
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+description: Conheça o código de prática dos planos de chamada PSTN para o Skype for Business no Reino Unido, incluindo onde obter ajuda e como enviar reclamações e resolver contestações.
+ms.openlocfilehash: ef69d726ab40a4eb282422ab549961776c985ef1
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824939"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139040"
 ---
 # <a name="calling-plans-in-office-365---code-of-practice-for-the-united-kingdom-uk"></a>Plano de Chamadas no Office 365 - Código de prática no Reino Unido (RU)
 
@@ -65,7 +66,7 @@ O plano de chamadas do Office 365 depende da sua conexão de banda larga. Se a c
 
 O Skype for Business fornece acesso a serviços públicos de chamadas de emergência pelos números 999/112 para clientes na Inglaterra, no País de Gales, na Escócia e na Irlanda do Norte. No entanto, as chamadas de emergência para 999 ou 112 operam de forma diferente com os serviços do plano de chamadas do Office 365 do que em serviços telefônicos tradicionais Os clientes precisam notificar cada usuário dos serviços do plano de chamadas do Office 365 dessas diferenças.
 
-As diferenças incluem o seguinte: (i) o Skype for Business pode não conhecer o local real de um chamador, o que pode fazer com que os serviços de emergência sejam despatcheddos para o local errado; (II) quando um usuário do Skype for Business disca uma chamada de emergência, o usuário pode ser solicitado por uma operadora para fornecer sua localização atual para ajudar a encaminhar corretamente a chamada de emergência e serviços de emergência do despatching; (III) se o dispositivo do usuário não tiver energia, estiver sofrendo uma queda de energia ou, por qualquer motivo, não puder acessar a Internet, o usuário não poderá fazer uma chamada de emergência por meio dos serviços do plano de chamadas do Office 365; e (IV) se os serviços de plano de chamada do Office 365 podem ser usados em qualquer lugar do mundo em que uma conexão à Internet está disponível, os usuários não devem chamar 999 ou 112 fora da Inglaterra, Gales, Escócia ou Irlanda do Norte, pois a chamada provavelmente não será roteada para o serviço de emergência apropriado.
+As diferenças incluem o seguinte: (i) o Skype for Business pode não conhecer o local real de um chamador, o que pode fazer com que os serviços de emergência sejam despatcheddos para o local errado; (II) quando um usuário do Skype for Business disca uma chamada de emergência, o usuário pode ser solicitado por uma operadora para fornecer sua localização atual para ajudar a encaminhar corretamente a chamada de emergência e serviços de emergência do despatching; (III) se o dispositivo do usuário não tiver energia, estiver sofrendo uma queda de energia ou, por qualquer motivo, não puder acessar a Internet, o usuário não poderá fazer uma chamada de emergência por meio dos serviços do plano de chamadas do Office 365; e (IV) se os serviços do plano de chamada do Office 365 podem ser usados em qualquer lugar do mundo em que uma conexão à Internet está disponível, os usuários não devem chamar 999 ou 112 fora da Inglaterra, do Gales, da Escócia ou da Irlanda do Norte, porque a chamada provavelmente não será roteada para o serviço de emergência apropriado.
 
 É importante que todos os clientes registrem a localização dos usuários e mantenham essas informações atualizadas para que possam ser fornecidas aos serviços de emergência. Você pode fazer mudanças nas informações de localização online por meio do portal do administrador do Skype for Business.
 
@@ -150,4 +151,3 @@ As taxas de Serviços Nacionais de Tradução, Números Pessoais e números 0870
 
 ## <a name="related-topics"></a>Tópicos relacionados
 [Disponibilidade da Audioconferência e dos Planos de Chamadas por país e região](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-

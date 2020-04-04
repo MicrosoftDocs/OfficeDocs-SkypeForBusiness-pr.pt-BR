@@ -1,5 +1,5 @@
 ---
-title: Criar uma estratégia de gerenciamento de mudanças para o Microsoft Teams
+title: Criar uma estratégia de gerenciamento de alterações
 ms.reviewer: ''
 author: LolaJacobsen
 ms.author: lolaj
@@ -11,15 +11,16 @@ audience: admin
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Saiba como criar uma estratégia de gerenciamento de mudanças para o Microsoft Teams através da identificação das principais partes envolvidas, resultados comerciais, medições de sucesso e gerenciamento da sua campanha.
+description: Crie uma estratégia de gerenciamento de alterações para o Microsoft Teams identificando os principais participantes, resultados de negócios, medidas de sucesso e gerenciamento de sua campanha.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8e6c07271caecd2c84301930f0b71aa6eda0011a
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 628c839560423e0e2524bed24082156469faeb36
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824968"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137911"
 ---
 <a name="create-a-change-management-strategy-for-microsoft-teams"></a>Criar uma estratégia de gerenciamento de mudanças para o Microsoft Teams
 =======================================================
@@ -63,7 +64,7 @@ A primeira regra de uma adoção bem-sucedida é criar uma equipe dinâmica comp
 |![Ícone de proprietários de serviço.](media/Create_a_change_management_strategy_for_Microsoft_Teams_image2.png)     |Os **proprietários de serviços** são responsáveis por garantir que as pessoas usem o serviço e obtenham valor dele. A definição de proprietários de serviços dentro da organização é importante para garantir que as metas comerciais estabelecidas para o Office 365 sejam cumpridas.         |
 |![Ícone de defensores.](media/Create_a_change_management_strategy_for_Microsoft_Teams_image3.png)     |Obter a aceitação de todos os usuários de uma organização é um desafio. Os **defensores** podem ajudar a aliviar esse desafio e desempenham um papel importante na adoção do Office 365. Eles são experientes, comprometidos em promover seus conhecimentos e estão dispostos a oferecer coaching e assistência aos pares. Eles ajudam a traduzir o Office 365 para a realidade do seu departamento ou da sua equipe.         |
 
-Recomendamos a realização de uma reunião regular dessas partes envolvidas para mantê-las atualizadas sobre o progresso do seu programa. A criação de um “conselho de colaboração” para permitir feedback e discussão pode ser uma ferramenta útil, dependendo da sua cultura corporativa.
+Recomendamos a realização de uma reunião regular dessas partes envolvidas para mantê-las atualizadas sobre o progresso do seu programa. Iniciar um "Conselho de colaboração" para permitir comentários e discussões pode ser uma ferramenta útil, dependendo da cultura corporativa.
 
 
 

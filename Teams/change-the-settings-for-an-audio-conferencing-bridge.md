@@ -22,13 +22,14 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - ms.teamsadmincenter.audioconferencing.bridgesettings
-description: 'Obtenha as etapas necessárias para alterar as configurações de uma ponte de conferência que é usada para solicitar chamadas e obter nomes e Pins para organizadores da reunião quando eles não estiverem usando o Skype for Business ou aplicativos do Microsoft Teams. '
-ms.openlocfilehash: d872bf3d0db2e19089716ab65fc487db601c48ea
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+- seo-marvel-mar2020
+description: Altere as configurações de ponte de áudio audioconferência, incluindo notificações de entrada e de saída, executar nomes ou números de telefone, tons e solicitar aos chamadores gravarem o nome.
+ms.openlocfilehash: aaff3518675e1db56340f9dc1568b994cf2ed6e6
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825109"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139080"
 ---
 # <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>Alterar as configurações de uma ponte de audioconferência
 
@@ -42,7 +43,7 @@ A ponte de conferência atende a uma chamada e solicita o chamador com prompts d
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
-## <a name="an-icon-showing-the-microsoft-teams-logomediateams-logo-30x30png-using-the-microsoft-teams-admin-center"></a>![Um ícone mostrando o logotipo do Microsoft Teams](media/teams-logo-30x30.png) Usar o centro de administração do Microsoft Teams
+## <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Um ícone mostrando o logotipo do Microsoft Teams](media/teams-logo-30x30.png) Usar o centro de administração do Microsoft Teams
 
 1. No painel de navegação esquerdo, vá para **reuniões** > **conferência pontes**. 
 
@@ -67,7 +68,7 @@ A ponte de conferência atende a uma chamada e solicita o chamador com prompts d
 6. Clique em **Salvar**. 
 
 
-## <a name="an-icon-showing-the-skype-for-business-logomediasfb-logo-30x30png--using-the-skype-for-business-admin-center"></a>![Um ícone mostrando o logotipo do Skype for Business](media/sfb-logo-30x30.png)  Usar o Centro de administração do Skype for Business
+## <a name="an-icon-showing-the-skype-for-business-logo--using-the-skype-for-business-admin-center"></a>![Um ícone mostrando o logotipo do Skype for Business](media/sfb-logo-30x30.png)  Usar o Centro de administração do Skype for Business
 
  **Configurar a experiência da reunião quando os chamadores entrarem em uma reunião**
     

@@ -11,7 +11,7 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-description: Saiba como carregar um arquivo de texto que contém uma lista de locais físicos e sub-redes associadas para usar como rótulos de relatório para relatórios de análise de chamada e de painel de qualidade de chamada.
+description: Saiba como adicionar e atualizar rótulos de relatório carregando um arquivo de texto que contém uma lista de locais físicos e sub-redes associadas.
 f1.keywords:
 - CSH
 ms.custom:
@@ -19,14 +19,15 @@ ms.custom:
 - ms.teamsadmincenter.locations.reportinglabels.overview
 - ms.teamsadmincenter.voice.phonenumbers.searchacquire.tooltip.location
 - ms.teamsadmincenter.locations.overview
+- seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ebf362bf6b0cb7213b085a895e59e7c93e98d60f
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: b245566c0920604dac0e10e6a6cfe49937570bc2
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836571"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137110"
 ---
 <a name="add-and-update-reporting-labels"></a>Adicionar e atualizar rótulos de relatórios
 ============================
@@ -51,10 +52,10 @@ Use o exemplo a seguir para ajudar a criar seu arquivo de dados.
 
 |Rede|Nome da rede|Intervalo de rede|Nome do edifício|Tipo de propriedade|Tipo de edifício|Tipo de edifício de escritório|Cidade|Código Postal|País|Estado|Região|Inside Corp|Rota expressa|
 |-|-|-|-|-|-|-|-|-|-|-|-|-|-|
-|10.0.128.0 |SVC-1|32|USCAMTV001|A contoso concedeu&F|Office|RE&F|Exibição de Mountain|94043|Junte|CA|Junte|1|1|
-|10.0.130.0 |SVC-1|32|USCAMTV001|A contoso concedeu&F|Office|RE&F|Exibição de Mountain|94043|Junte|CA|Junte|1|1|
-|10.0.131.0 |SVC-1|32|USCAMTV001|A contoso concedeu&F|Office|RE&F|Exibição de Mountain|94043|Junte|CA|Junte|1|1|
-|10.0.132.0 |SVC-1|32|USCAMTV001|A contoso concedeu&F|Office|RE&F|Exibição de Mountain|94043|Junte|CA|Junte|1|1|
+|10.0.128.0    |SVC-1|32|USCAMTV001|A contoso concedeu&F|Office|RE&F|Exibição de Mountain|94043|Junte|CA|Junte|1|1|
+|10.0.130.0    |SVC-1|32|USCAMTV001|A contoso concedeu&F|Office|RE&F|Exibição de Mountain|94043|Junte|CA|Junte|1|1|
+|10.0.131.0    |SVC-1|32|USCAMTV001|A contoso concedeu&F|Office|RE&F|Exibição de Mountain|94043|Junte|CA|Junte|1|1|
+|10.0.132.0    |SVC-1|32|USCAMTV001|A contoso concedeu&F|Office|RE&F|Exibição de Mountain|94043|Junte|CA|Junte|1|1|
 
 Para obter mais informações sobre como formatar seu arquivo de dados, consulte [formato de arquivo de dados do locatário e estrutura do arquivo de dados de construção](turning-on-and-using-call-quality-dashboard.md#tenant-data-file-format-and-structure).
 

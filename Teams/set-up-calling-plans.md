@@ -21,13 +21,14 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - LIL_Placement
-description: Para o plano de chamadas do Office 365, saiba como comprar e configurar licenças, obter números de telefone, adicionar e atribuir locais de emergência e números de telefone a usuários e informar aos usuários sobre seus novos números de telefone.
-ms.openlocfilehash: 3fd123991544bc4555be7ceb7693089f0d439070
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+- seo-marvel-mar2020
+description: Saiba como configurar planos de chamada, incluindo os planos de exibição disponíveis em sua região, comprar & atribuir licenças, obter números de telefone e adicionar endereços de emergência & locais.
+ms.openlocfilehash: 4c470327b01b799dabc585db479e51e8ef37c41b
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41838041"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140874"
 ---
 # <a name="set-up-calling-plans"></a>Configurar Planos de Chamadas
 
@@ -53,15 +54,15 @@ Há três maneiras de obter novos números de usuário:
     
 - **Fazer a portabilidade de seus números existentes.** Você pode fazer a portabilidade/transferência de números existentes do seu provedor de serviços ou operadora de telefonia atual para o Office 365. Para obter mais informações, consulte [transferir números de telefone para equipes](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) ou [gerenciar números de telefone de sua organização](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md). 
   
-- **Usar um formulário de solicitação para novos números.** Às vezes (dependendo do seu país/região) você não poderá obter seus novos números de telefone usando o centro de administração do teams ou será necessário números de telefone ou códigos de área específicos. Se for o caso, será necessário baixar um formulário e enviá-lo para nós. Para obter mais informações, consulte [Gerenciar os números de telefone de sua organização](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md). 
+- **Usar um formulário de solicitação para novos números.** Às vezes (dependendo do seu país/região) você não poderá obter seus novos números de telefone usando o centro de administração do teams ou será necessário números de telefone ou códigos de área específicos. Nesse caso, você precisará fazer o download de um formulário e enviá-lo de volta para nós. Para obter mais informações, consulte [Gerenciar os números de telefone de sua organização](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md). 
 
 ## <a name="step-4-add-emergency-addresses-and-locations-for-your-organization"></a>Etapa 4: adicionar endereços e locais de emergência para sua organização
-<a name="bkmk_add_addresses"></a> Um endereço de emergência deve estar associado a um número de telefone. Quando essa associação acontece pode variar entre país e regiões. Por exemplo, nos Estados Unidos, você precisa associar um endereço de emergência quando atribui o número de telefone para o usuário. No Reino Unido, você precisa associar um endereço de emergência para o número de telefone quando você está obtendo os números de telefone do Office 365 ou transferindo números de telefone do seu provedor de serviço atual. 
+<a name="bkmk_add_addresses"> </a> Um endereço de emergência deve estar associado a um número de telefone. Quando essa associação acontece pode variar entre país e regiões. Por exemplo, nos Estados Unidos, você precisa associar um endereço de emergência quando atribui o número de telefone para o usuário. No Reino Unido, você precisa associar um endereço de emergência para o número de telefone quando você está obtendo os números de telefone do Office 365 ou transferindo números de telefone do seu provedor de serviço atual. 
 
 Para obter informações sobre chamadas de emergência e gerenciamento de endereços de emergência, consulte [gerenciar chamadas de emergência](what-are-emergency-locations-addresses-and-call-routing.md) e [Adicionar, alterar ou remover um local de emergência para sua organização](add-change-remove-emergency-location-organization.md).
     
 ## <a name="step-5-assign-an-emergency-address-and-a-phone-number-to-a-user"></a>Etapa 5: atribuir um endereço de emergência e um número de telefone a um usuário
-<a name="bkmk_add_addresses"></a> Ao configurar planos de chamada no Office 365, você deve atribuir um número de telefone e um endereço de emergência para cada um dos seus usuários. O endereço de emergência deve ser criado antes de atribuir um número de telefone a um usuário.  Para obter mais informações, consulte [atribuir ou alterar um endereço de emergência](assign-change-emergency-location-user.md).
+<a name="bkmk_add_addresses"> </a> Ao configurar planos de chamada no Office 365, você deve atribuir um número de telefone e um endereço de emergência para cada um dos seus usuários. O endereço de emergência deve ser criado antes de atribuir um número de telefone a um usuário.  Para obter mais informações, consulte [atribuir ou alterar um endereço de emergência](assign-change-emergency-location-user.md).
 
 
 > [!TIP]

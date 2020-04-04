@@ -1,5 +1,5 @@
 ---
-title: Conduzir uma investigação de Descoberta Eletrônica de conteúdo no Microsoft Teams
+title: Conduzir uma investigação de conteúdo de descoberta eletrônica do conteúdo
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -16,12 +16,13 @@ f1.keywords:
 description: Saiba o que fazer quando você precisar executar uma descoberta eletrônica, como quando precisa enviar todas as informações armazenadas eletronicamente para procedimentos legais.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 315ec351450224dc8d5b98dc0d974b64573bc0ab
-ms.sourcegitcommit: e710bb8dbbd084912cbf509896515a674ab5e19f
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 955fbf6ba937ca0fc11270cb58c12a0349d46330
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "43033265"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43136681"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Conduzir uma investigação de Descoberta Eletrônica de conteúdo no Microsoft Teams
 

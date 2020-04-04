@@ -1,5 +1,5 @@
 ---
-title: Aprimorar os grupos existentes do Office 365 com o Microsoft Teams
+title: Aprimorar os grupos existentes do Office 365
 ms.reviewer: ''
 author: LolaJacobsen
 ms.author: lolaj
@@ -17,12 +17,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 99afab167cdc865214f621d9994c3b5d124e98ed
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: ad71a5d65eca924e7d73c157011ff12ce38bc9e4
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41832911"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43136861"
 ---
 <a name="enhance-existing-office-365-groups-with-microsoft-teams"></a>Aprimorar os grupos existentes do Office 365 com o Microsoft Teams
 =======================================================
@@ -44,7 +45,7 @@ Você também pode adicionar grupos de segurança habilitados para e-mail como m
 
 Existem dois tipos de configurações de privacidade nos grupos do Office 365, **público e privado**. Enquanto os dois tipos de grupo podem ser habilitados para o Teams, há uma ligeira diferença quando se trata de autoatendimento.
 
--   Os usuários podem pesquisar grupos públicos e podem entrar por si mesmos, sem a necessidade de aprovação do proprietário da equipe.
+-   Os usuários podem pesquisar por grupos públicos e podem participar sozinhos sem necessidade de aprovação do proprietário da equipe.
 
 -   Os grupos privados não aparecem nas pesquisas e os usuários não podem entrar a menos que o proprietário da equipe os inclua como membros.
 

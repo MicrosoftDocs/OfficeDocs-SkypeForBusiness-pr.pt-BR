@@ -22,13 +22,14 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: Isso vai ajudá-lo a descobrir como discar números de chamada gratuita em cada país/região. Depois de selecionar o país/região, você será direcionado a uma página específica do país que contém detalhes específicos, restrições e limites para a disponibilidade de serviço de chamada gratuita em que o serviço de chamada gratuita está disponível. O formato ou formatos de discagem mostrará os códigos de acesso necessários em cada país/região para discar o número de chamada gratuita.
-ms.openlocfilehash: aac5a16f9f3eca802f53af7950fd93f31a2e85ac
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+- seo-marvel-mar2020
+description: Saiba mais sobre números de chamada gratuita na Polônia, incluindo disponibilidade, disponibilidade de linha fixa e de linha fixa e restrições da rede móvel e restrições.
+ms.openlocfilehash: 7e467fc5b62b94c31a3e3859c94520c1a23982cd
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41693416"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140300"
 ---
 # <a name="toll-free-dialing-restrictions-in-poland"></a>Restrições de discagem de chamada gratuita na Polônia
 

@@ -1,5 +1,5 @@
 ---
-title: Implementar Qualidade de Serviço nos clientes do Microsoft Teams
+title: Implementar a qualidade de serviço em clientes do teams
 author: lolajacobsen
 ms.author: lolaj
 manager: Serdars
@@ -17,12 +17,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6fb3823a77995e401be7e60e86603f9d8c56099f
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 66e6dc43e03f1ec3606116ad001f11104de4a55f
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41863152"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139600"
 ---
 # <a name="set-qos-on-windows-clients"></a>Definir o QoS em clientes do Windows
 
@@ -30,11 +31,11 @@ Você pode usar a QoS baseada em política dentro da política de grupo para def
 
 *Tabela 1. Intervalos de portas iniciais recomendados*
 
-|Tipo de tráfego de mídia| Intervalo de porta de origem do cliente |Protocolo|Valor de DSCP|Classe DSCP|
+|Tipo de tráfego de mídia| Intervalo de portas de origem do cliente  |Protocolo|Valor DSCP|Classe DSCP|
 |:--- |:--- |:--- |:--- |:--- |
-|Áudio| 50000 – 50019|TCP/UDP|46|Expedited Forwarding (EF)|
-|Vídeo| 50,020–50,039|TCP/UDP|34|Assured Forwarding (AF41)|
-|Compartilhamento de tela/aplicativo| 50,040–50,059|TCP/UDP|dezoito|Encaminhamento garantido (AF21)|
+|Áudio| 50.000–50.019|TCP/UDP|46|Expedited Forwarding (EF)|
+|Vídeo| 50.020–50.039|TCP/UDP|34|Assured Forwarding (AF41)|
+|Compartilhamento de tela/aplicativo| 50.040-50.059|TCP/UDP|dezoito|Assured Forwarding (AF21)|
 | | | | | |
 
 Sempre que possível, configure as configurações de QoS baseadas em políticas em um objeto de política de grupo. As etapas a seguir são muito parecidas com a [configuração de intervalos de porta e uma política de qualidade de serviço para seus clientes no Skype for Business Server](https://docs.microsoft.com/SkypeForBusiness/manage/network-management/qos/configuring-port-ranges-for-your-skype-clients#configure-quality-of-service-policies-for-clients-running-on-windows-10), que tem alguns detalhes adicionais que podem não ser necessários.

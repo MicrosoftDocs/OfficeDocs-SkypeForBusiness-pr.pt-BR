@@ -1,5 +1,5 @@
 ---
-title: Guia de Início Rápido - Como configurar Planos de Chamadas no Microsoft Teams
+title: Guia de início rápido-Configurando planos de chamada
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -18,12 +18,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b7f1ded5d843689e828b00c0a466e012b8750582
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: a81cd7d3481c9c2f6e3e5c8874eef97dc0540431
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825359"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137771"
 ---
 <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>Guia de Início Rápido: como configurar Planos de Chamadas no Microsoft Teams
 ==============================================================
@@ -64,7 +65,7 @@ Para garantir que as chamadas VOIP e PSTN de entrada sejam sempre chamadas para 
 
 **INFORMA**
  - Os telefones IP do Skype for Business receberão chamadas, mesmo se o usuário estiver no modo TeamsOnly.  
- - Os usuários que foram provisionados com as licenças do sistema telefônico e planos de chamadas para uso com o Skype for Business online (por exemplo, um valor de OnlineVoiceRoutingPolicy) terão a guia chamadas habilitada no Teams e poderão fazer chamadas PSTN de saída de Equipes sem administradores precisarem tomar qualquer ação administrativa.
+ - Os usuários que foram provisionados com licenças do sistema telefônico e planos de chamadas para uso com o Skype for Business online (por exemplo, um valor de OnlineVoiceRoutingPolicy) terão a guia chamadas habilitada no Teams e poderão fazer chamadas PSTN de saída do teams sem administradores com a necessidade de tomar qualquer ação administrativa.
 
 
 ### <a name="how-to-configure-users-to-receive-all-incoming-voip-and-pstn-calls-in-teams"></a>Como configurar os usuários para receber todas as chamadas VOIP e PSTN de entrada no Microsoft Teams

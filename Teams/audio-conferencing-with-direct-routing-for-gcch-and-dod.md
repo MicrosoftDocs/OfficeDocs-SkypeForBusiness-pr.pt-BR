@@ -1,5 +1,5 @@
 ---
-title: Conferência de áudio com roteamento direto para GCCH e DoD
+title: Conferência de áudio com roteamento direto, GCCH e DoD
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -19,12 +19,13 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Saiba como você pode usar a conferência de áudio com roteamento direto em ambientes GCCH e DoD.
-ms.openlocfilehash: a8a9b5a46f1efd88de38fa65e857d3eebbbd6e3d
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 6b8077e2bf376976c9906a8703ebd59a1d1cc23f
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42047182"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141164"
 ---
 # <a name="audio-conferencing-with-direct-routing-for-gcc-high-and-dod"></a>Conferências de Áudio com Roteamento Direto para GCC Alto e DoD
 
@@ -72,7 +73,7 @@ Você pode usar o cmdlet New-csHybridTelephoneNumber do PowerShell para definir 
 
 Por exemplo:
   ```PowerShell
-  New-csHybridTelephoneNumber -TelephoneNumber “+14250000000”
+  New-csHybridTelephoneNumber -TelephoneNumber "+14250000000"
   ```
 
 #### <a name="assign-the-service-phone-numbers-to-the-audio-conferencing-bridge-of-your-organization"></a>Atribuir os números de telefone do serviço à ponte de videoconferência da sua organização

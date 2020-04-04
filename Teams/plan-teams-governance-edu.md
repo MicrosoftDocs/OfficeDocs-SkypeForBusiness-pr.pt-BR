@@ -1,5 +1,5 @@
 ---
-title: Perguntas frequentes sobre governança do Microsoft Education para profissionais de TI ‒ Microsoft Teams
+title: Perguntas frequentes sobre governança do Microsoft Education para administradores
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -16,12 +16,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 719f9429d49dfef7a21670c67bad96c9e26c993e
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 18476e043268d8b51fdf877b27e23eb926a1885e
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837431"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137781"
 ---
 # <a name="microsoft-education-governance-faq-for-admins"></a>Perguntas frequentes sobre governança do Microsoft Education para administradores
 

@@ -1,5 +1,5 @@
 ---
-title: Gerenciar as configurações de um console de salas do Microsoft Teams remotamente com um arquivo de configuração XML
+title: Saiba como configurar câmeras de conteúdo-Microsoft Teams
 ms.author: kenwith
 author: kenwith
 ms.reviewer: sohailta
@@ -12,13 +12,14 @@ f1.keywords:
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
-description: Este artigo discute o gerenciamento remoto das configurações padrão usadas por um dispositivo de salas do Microsoft Teams, incluindo a aplicação de um tema personalizado.
-ms.openlocfilehash: b470804ac2c5a44a0eb74330ea5158c2e9fe9098
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.custom: seo-marvel-mar2020
+description: Use uma câmera de conteúdo em uma sala do Microsoft Teams, que interage com o software de processamento de imagens para permitir que os apresentadores desenhem em um quadro de comunicações analógico.
+ms.openlocfilehash: 6ddc1a43a9d75e6f142c82c0215124bad97f77dd
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824529"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137621"
 ---
 # <a name="content-cameras"></a>Câmeras de conteúdo
 
@@ -86,7 +87,7 @@ Ou, consulte o Marketplace de dispositivos do Microsoft Teams para kits de câme
 
 Depois que a câmera estiver instalada na sala, configure-a no console de salas do Microsoft Teams da sala:
 
-1. Selecione **** ![o ícone](../media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png)configurações de configurações, faça logon como administrador e selecione **configurações de dispositivo**.
+1. Selecione **Settings** ![o ícone](../media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png)configurações de configurações, faça logon como administrador e selecione **configurações de dispositivo**.
 2. Na seção **padrões da câmera** , selecione a câmera de conteúdo e certifique-se de que a opção **aprimoramentos de conteúdo** esteja selecionada.
 3. Adicionais Se a câmera foi instalada de cabeça para baixo porque a câmera foi montada a partir do teto, marque a opção **girar conteúdo câmera 180 °** .
 4. Selecione **salvar e sair**.

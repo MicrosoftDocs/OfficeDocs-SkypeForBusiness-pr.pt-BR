@@ -16,13 +16,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-description: Este documento descreve o comportamento do chat, o roteamento de chamadas e a presença entre os usuários do Teams e o Skype for Business, tanto no locatário quanto em federado, com base nos modos de TeamsUpgrade atribuídos. Ele inclui otimizações de roteamento, comportamento de presença, bem como a alteração do modo de TeamsUpgrade padrão do *herdado* para as *ilhas* e o afastamento iminente do *herdado*.
-ms.openlocfilehash: 64889ae11b4ce8665fb4a6bdbb98ff95aaf777fc
-ms.sourcegitcommit: c16451519e05b47bbb77e09dacd13ff212617e91
+ms.custom: seo-marvel-mar2020
+description: Comportamento de coexistência entre equipes & Skype for Business, incluindo parâmetros de roteamento, chat & encaminhamento de chamadas, chats & chamadas de threads pré-existentes, & presença.
+ms.openlocfilehash: ff5e94b16cd55374ec0aeb45aaffdda41fbe0498
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "42328013"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137300"
 ---
 # <a name="coexistence-with-skype-for-business"></a>Coexistência com o Skype for Business
 
@@ -174,7 +175,7 @@ Para saber qual comportamento esperar, você precisará compreender que a presen
 
 * Se um usuário estiver no modo TeamsOnly, qualquer outro usuário (seja no Teams ou no Skype for Business) verá que a presença de equipes do usuário do TeamsOnly
 * Se um usuário estiver em qualquer um dos modos\* de SfB (SfbOnly, SfbWithTeamsCollab, SfbWithTeamsCollabAndMeetings), qualquer outro usuário (seja no Teams ou no Skype for Business) verá a\* presença do SfB do Skype for Business do
-* Se um usuário estiver no modo de ilhas (ou herdado), a presença nas equipes e presença no Skype for Business é independente (os valores precisam não corresponder) e outros usuários verão uma ou outra presença do usuário da Ilhas, dependendo se estiverem no mesmo locatário ou em uma federação locatário Ed e qual cliente ele usa
+* Se um usuário estiver no modo de ilhas (ou herdado), a presença nas equipes e presença no Skype for Business é independente (os valores precisam não corresponder) e outros usuários verão uma ou outra presença do usuário da Ilhas, dependendo se estiverem no mesmo locatário ou em um locatário federado e qual cliente ele usa
     * No Teams, qualquer outro usuário no mesmo locatário verá a presença de equipes do usuário das Ilhas; Isso é alinhado com a tabela de roteamento do locatário acima
     * No Teams, qualquer outro usuário em um locatário federado verá a presença do Skype for Business do usuário de ilhas; Isso é alinhado com a tabela de roteamento federado acima
     * No Skype for Business, qualquer outro usuário verá a presença do Skype for Business do usuário das ilhas (dentro do locatário e federado); Isso é alinhado com as tabelas de roteamento acima

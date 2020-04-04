@@ -7,23 +7,25 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
 audience: admin
-description: Use uma estrutura de sucesso comprovada para ajudar a jornada de atualização de sua organização do Skype for Business para Teams
+description: Use uma estrutura comprovada de sucesso para ajudar a viagem de atualização de sua organização do Skype for Business para o Teams.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - CSH
-ms.custom: Teams-upgrade-guidance
+ms.custom:
+- Teams-upgrade-guidance
+- seo-marvel-mar2020
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 42b4efcd2e9b38aebb7f44d3aa09d7be1ca634f3
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+ms.openlocfilehash: ab92190b95c081f1b82d27970972c77bcf726f05
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41863522"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139650"
 ---
 # <a name="about-the-upgrade-framework"></a>Sobre a estrutura de atualização
 
@@ -37,7 +39,7 @@ Procure este elemento gráfico de estrutura em páginas relacionadas para identi
 
 ## <a name="sample-upgrade-timeline"></a>Linha do tempo de atualização de exemplo
 
-A jornada da atualização começa quando você começa a planejar a alteração. Aproveitando a estrutura de sucesso como uma diretriz, veja a seguir uma linha do tempo de exemplo que leva você da fase anterior à atualização em que você planejará e se preparará para a atualização, por meio da atualização e na fase operacional posterior à atualização, projetada para sustentar e ampliar seus resultados. 
+A jornada da atualização começa quando você começa a planejar a alteração. Aproveitando a estrutura de sucesso como uma diretriz, abaixo está uma linha do tempo de exemplo que leva você da fase de pré-atualização em que você planejará e se preparará para a sua atualização, por meio da atualização e na fase operacional posterior à atualização, projetada para sustentar e ampliar seus resultados. 
 
 > [!NOTE]
 > Entendemos que sua jornada às equipes pode envolver o aproveitamento de vários [modos](https://aka.ms/skypetoteams-coexist) e a atualização de grupos de usuários em momentos diferentes, o que permitirá que você controle a experiência de atualização do usuário enquanto mantém a Momentum com o Teams.  
@@ -70,7 +72,7 @@ Para ajudar a demonstrar a forma como a sua viagem de atualização pode ficar d
 | **1** | **Avalie seu ambiente e conclua a integração técnica do teams** | Assegure-se de que seu ambiente esteja pronto para que as equipes ajudem a otimizar a experiência do usuário e facilitar a atualização ao longo do tempo. | [Avalie seu ambiente antes de atualizar para o Microsoft Teams](upgrade-plan-journey-evaluate-environment.md).<br><br> [Preparar seu serviço para a atualização para o Microsoft Teams](upgrade-prepare-environment-prepare-service.md) |
 | **2** | **Otimizar a rede para o Teams, especialmente para cenários de mídia em tempo real** | Se você estiver implantando áudio, vídeo ou reuniões, siga estas etapas adicionais para otimizar sua rede para essa funcionalidade. | [Preparar sua rede para atualizar para o Teams](prepare-network.md) |
 | **3** | **Avaliar a preparação das alterações organizacionais e definir cenários de trabalho em equipe** | Compreenda a base de usuários para preparar o valor certo e o nível de educação para facilitar e acelerar a adoção do usuário. | [Preparação das alterações organizacionais](upgrade-org-change-readiness.md#organizational-change-readiness) |
-| **4** | **Preparar um plano de preparação do usuário para definir como você irá se comunicar, treinar e dar suporte a usuários** | Personalize seu plano de comunicação, treinamento e suporte para garantir a melhor adminhabilidade para a nova tecnologia. | [Preparar um plano de preparação para usuários](upgrade-user-readiness.md)<br><br>[Atualização do kit de sucesso](https://aka.ms/UpgradeSuccessKit) |
+| **4** | **Preparar um plano de preparação do usuário para definir como você irá se comunicar, treinar e dar suporte a usuários** | Personalize seu plano de comunicações, treinamento e suporte para garantir a melhor adminhabilidade para a nova tecnologia. | [Preparar um plano de preparação para usuários](upgrade-user-readiness.md)<br><br>[Atualização do kit de sucesso](https://aka.ms/UpgradeSuccessKit) |
 | **5** | **Anunciar o lançamento pendente do Microsoft Teams** | Comunique-se antecipadamente para ajudar os usuários a se sentirem incluídos, reduzir a confusão e gerar entusiasmo. | [Atualização do kit de sucesso](https://aka.ms/UpgradeSuccessKit) |
 | **6** | **Preparar sua equipe de ti para equipes** | Confirme que sua equipe técnica e de suporte tem tudo o que precisa para se preparar e dar suporte ao seu ambiente técnico para o Teams. | [Preparar sua equipe de ti para o Microsoft Teams](upgrade-prepare-it-pros.md) <br><br> [Atualização do kit de sucesso](https://aka.ms/UpgradeSuccessKit) |
 

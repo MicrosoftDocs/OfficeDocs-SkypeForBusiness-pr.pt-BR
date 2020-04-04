@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 search.appverid: MET150
-description: Saiba como configurar o recurso ligar para mim no Microsoft Teams para que os usuários possam ingressar na parte de áudio por telefone em cenários em que o uso do computador para áudio pode não ser possível.
+description: Saiba como configurar o recurso ligar para mim no Microsoft Teams para que os usuários possam ingressar na parte de áudio por telefone quando o uso do computador para áudio pode não ser possível.
 localization_priority: Normal
 ms.collection:
 - M365-voice
@@ -16,19 +16,20 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8cee6937a1bdc2bef6d2184066cb32a4aa94d8e6
-ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: c2343ce76e404ce2462cdbfc443130058112dcc4
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43096846"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140854"
 ---
 # <a name="set-up-the-call-me-feature-for-your-users"></a>Configurar o recurso Telefonar para Mim para os usuários
 
 No Microsoft Teams, o recurso **Call me** fornece aos usuários uma maneira de ingressar na parte de áudio de uma reunião por telefone. Isso é útil em cenários em que o uso de um computador para áudio pode não ser possível. Os usuários obtêm a parte de áudio da reunião por meio de seu telefone celular ou linha terrestre e a parte&mdash;de conteúdo da reunião, quando outro participante da reunião compartilha sua&mdash;tela ou reproduz um vídeo por meio de seu computador.
 
 > [!IMPORTANT]
-> Durante a duração da epidemia do COVID-19, recomendamos que os usuários ingressem em reuniões clicando no botão **ingressar na reunião do teams** , em vez de discar usando os números de conferência PSTN ou usando ligar para o **telefone**</strong>. Isso é principalmente devido ao congestionamento nas infra-estruturas de telefonia dos países impactadas pela COVID-19. Ao evitar chamadas PSTN, você provavelmente experimentará uma qualidade de áudio melhor. 
+> Durante a duração da epidemia de COVID-19, recomendamos que os usuários ingressem nas reuniões clicando no botão **Participar das reuniões do Teams** em vez de discarem usando os números de conferência PSTN ou usando o **Ligue para mim em**</strong>. Isso é principalmente devido ao congestionamento nas infraestruturas de telefonia dos países afetados por COVID-19. Ao evitar chamadas PSTN, você provavelmente terá uma melhor qualidade de áudio. 
 
 ## <a name="the-user-experience"></a>A experiência do usuário
 

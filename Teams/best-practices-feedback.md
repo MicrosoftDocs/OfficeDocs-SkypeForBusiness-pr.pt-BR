@@ -1,5 +1,5 @@
 ---
-title: Boas práticas de métodos de feedback do usuário no Microsoft Teams
+title: Práticas recomendadas para métodos de comentários do usuário
 ms.reviewer: ''
 author: LolaJacobsen
 ms.author: lolaj
@@ -17,12 +17,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ac158a5d90c1a1cbe5e4dad5d6c5f894054e72ad
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: a0dcb100ec04a03f48400cbaca01c001a250ffbc
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826199"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43136881"
 ---
 <a name="best-practices-for-user-feedback-methods-in-microsoft-teams"></a>Boas práticas de métodos de feedback do usuário no Microsoft Teams
 ===========================================================
@@ -38,4 +39,4 @@ Os métodos de feedback conduzidos pela comunidade exige o envolvimento dos defe
 <a name="showcases"></a>Exemplos
 ---------
 
-Ao continuar essa jornada, você encontrará exemplos no seu próprio ambiente de funcionários, cuja criatividade com o Microsoft Teams o surpreenderão e o encantarão. Recomendamos que você compartilhe esses exemplos ao máximo. Isso incentivará as outras pessoas a serem inovadoras, a ensinar usuários mais atrás na curva de adoção e a recompensar aqueles que dispenderam tempo para pensar em como usar melhor o Microsoft Teams no seu ambiente. Estabelecer uma meta mensurável ou identificar um número específico de exemplos a cada trimestre pode ser útil para manter a sua dinâmica de adoção.
+Ao continuar essa jornada, você encontrará exemplos no seu próprio ambiente de funcionários, cuja criatividade com o Microsoft Teams o surpreenderão e o encantarão. Recomendamos que você compartilhe esses exemplos ao máximo. Isso incentivará outras pessoas a serem inovadoras, educar os usuários que podem estar em uma curva de adoção e recompensarão os que tomaram o tempo de pensar na melhor utilização do Microsoft Teams em seu ambiente. Estabelecer uma meta mensurável ou identificar um número específico de exemplos a cada trimestre pode ser útil para manter a sua dinâmica de adoção.

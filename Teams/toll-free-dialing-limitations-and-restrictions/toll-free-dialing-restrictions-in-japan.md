@@ -22,13 +22,14 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: Isso vai ajudá-lo a descobrir como discar números de chamada gratuita em cada país/região. Depois de selecionar o país/região, você será direcionado a uma página específica do país que contém detalhes específicos, restrições e limites para a disponibilidade de serviço de chamada gratuita em que o serviço de chamada gratuita está disponível. O formato ou formatos de discagem mostrará os códigos de acesso necessários em cada país/região para discar o número de chamada gratuita.
-ms.openlocfilehash: a7fd1e431d7ee429bd94944d1c82487b797b1ba0
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+- seo-marvel-mar2020
+description: Saiba mais sobre números de chamada gratuita no Japão, incluindo a disponibilidade, a disponibilidade de redes cabeadas/de linha fixa e de conexão móvel e restrições.
+ms.openlocfilehash: 6413f93bfe655ed52ccea187b69024e4bed1a556
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41693566"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140350"
 ---
 # <a name="toll-free-dialing-restrictions-in-japan"></a>Restrições de discagem de chamada gratuita no Japão
 

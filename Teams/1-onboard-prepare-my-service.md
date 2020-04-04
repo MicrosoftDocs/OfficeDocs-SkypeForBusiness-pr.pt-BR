@@ -1,5 +1,5 @@
 ---
-title: Preparar para implantar os serviços de voz da nuvem do Microsoft Teams
+title: Preparar-se para implantar o serviço de voz na nuvem
 author: rmw2890
 ms.author: Rowille
 manager: serdars
@@ -18,12 +18,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: efc7193549fac95a29a574f455576dec5ea35c58
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 710a365ef68d3e187013892ef978cd8e12557cc1
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41862821"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137991"
 ---
 # <a name="prepare-my-service"></a>Preparar meu serviço
 
@@ -80,7 +81,7 @@ Como a próxima etapa, use o [Guia do guia de capacitação de site para voz (gu
 
 ## <a name="test-cloud-voice-workloads-in-teams"></a>Testar cargas de trabalho de voz na nuvem no Teams
 
-Depois de definir e documentar seus planos de sucesso e implementação de negócios de voz na nuvem da equipe como parte da fase enVision e fazer a configuração que você deseja no centro de administração, a próxima etapa é validar que a sua organização as expectativas e os requisitos são atendidos por meio do recurso, da funcionalidade e da usabilidade. Você deve executar esta etapa de validação antes de implantar uma implantação piloto ou final em seu ambiente de produção.
+Depois de definir e documentar seus planos de sucesso e implementação técnica do teams Voice Voice, como parte da fase do enVision e de fazer a configuração que você deseja no centro de administração, a próxima etapa é validar que as expectativas e os requisitos da sua organização são atendidos por meio de recursos, funcionalidades e usabilidade. Você deve executar esta etapa de validação antes de implantar uma implantação piloto ou final em seu ambiente de produção.
 
 Você pode aproveitar o plano de sucesso para empresas definido durante a fase do enVision para servir como base para determinar as atividades, expectativas, recursos/casos de teste de funcionalidade e escopo geral a serem avaliados durante a fase de teste.
 

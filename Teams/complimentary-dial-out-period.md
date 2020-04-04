@@ -21,13 +21,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Legal
-description: Os clientes podem usar o plano de chamadas do Office 365 e a conferência de áudio do Office 365, conforme permitido no Skype for Business Online e os serviços PSTN do Microsoft Teams, usar termos e contrato de licenciamento por volume do cliente.
-ms.openlocfilehash: 59a885f53d23f5297d6730e718ac1a95801d6a30
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+- seo-marvel-mar2020
+description: Saiba mais sobre o período de discagem grátis para o plano de chamadas do Office 365 e conferência de áudio do Office 365 no Microsoft Teams.
+ms.openlocfilehash: 46c9aac02c40a973abc8356dc4212b3521852461
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825499"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137291"
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>Período complementar de discagem de audioconferência
 
@@ -43,7 +44,7 @@ Esta alteração não ocorrerá para os países onde a assinatura de audioconfer
 
 ### <a name="complimentary-dial-out-period-details"></a>Detalhes do período de discagem grátis
 
-Para os clientes que preenchem nosso serviço de audioconferência do Office 365, a Microsoft está fornecendo um benefício complementar adicional relacionado à discagem de reuniões organizadas por usuários que atribuiram uma licença de assinatura do Office 365 Audio Conferencing até novembro 2019. Durante esse período de tempo, a Microsoft permite que os participantes da reunião ou participantes autorizados sejam definidos nas configurações da política de reunião para fazer chamadas discada de dentro da reunião para números de telefone não Premium nos países e regiões da 44 "zona A" listados abaixo. Esse benefício se aplica às licenças de assinatura mensal da conferência de áudio e não se estende às licenças de pagamento por minuto de audioconferência.
+Para os clientes que preenchem nosso serviço de audioconferência do Office 365, a Microsoft está fornecendo um benefício complementar adicional relacionado à discagem de reuniões organizadas por usuários com uma licença de assinatura do Office 365 Audio Conferencing até 2019 de novembro. Durante esse período de tempo, a Microsoft permite que os participantes da reunião ou participantes autorizados sejam definidos nas configurações da política de reunião para fazer chamadas discada de dentro da reunião para números de telefone não Premium nos países e regiões da 44 "zona A" listados abaixo. Esse benefício se aplica às licenças de assinatura mensal da conferência de áudio e não se estende às licenças de pagamento por minuto de audioconferência.
 
 Além disso, há um limite de 900 minutos durante o período de discagem complementar da seguinte forma:
 
@@ -54,14 +55,14 @@ Usuários com um local de uso de licença (esse é o local do país de usuário 
  
 - Todos os usuários do 115 compartilham um pool de (115 usuários X 900 min) = 103.500 conferência discada minutos por mês, que pode ser usada para fazer chamadas de saída para qualquer uma das regiões, países e regiões.
 - Todas as chamadas que excedem os minutos de 103.500 por mês são cobradas por minuto usando créditos de comunicações em nossas tarifas publicadas para esse destino. (Observação: o locatário deve configurar créditos de comunicações e atribuir a licença de créditos de comunicações ao organizador da reunião).
-- Todas as chamadas de saída para destinos que não estão na zona uma lista de países são cobradas por minuto usando créditos de comunicações em nossas tarifas publicadas para esse destino (o locatário fornecido configurou créditos de comunicações e atribuiu a licença créditos de comunicação ao organizador da reunião).
+- Todas as chamadas de saída para destinos fora da lista de países uma lista de países são cobradas por minuto usando créditos de comunicações em nossas tarifas publicadas para esse destino (o locatário fornecido configurou créditos de comunicações e atribuiu a licença de créditos de comunicação ao organizador da reunião).
 
 > [!NOTE]
-> Você pode monitorar o uso com o pool de minutos de discagem externa no centro de administração do Skype for Business. No centro de administração do Microsoft Teams & Skype, acesse**** >  >  **portal herdado****pools de minutos PSTN**. Este pool de minutos complementares será rotulado no relatório como "chamadas de saída para a zona de países e regiões".
+> Você pode monitorar o uso com o pool de minutos de discagem externa no centro de administração do Skype for Business. No centro de administração do Microsoft Teams & Skype, acesse**Reports** >  >  **portal herdado****pools de minutos PSTN**. Este pool de minutos complementares será rotulado no relatório como "chamadas de saída para a zona de países e regiões".
 
 As notificações por email serão enviadas para todos os administradores de locatários de um determinado cliente quando a utilização do pool de minutos de discagem de locatário do locatário tiver atingido 80% e 100%.
 
-Para chamadas discadas cobradas por minuto (chamadas que excedem o pool de minutos de discagem de locatário ou chamadas para destinos que não estão na zona uma lista de países e regiões), as chamadas e suas tarifas associadas se baseiam principalmente no destino da chamada e não no país ou a região do organizador ou o participante que está iniciando a chamada de discagem externa. Por exemplo, uma chamada para um número de telefone na França será cobrada com a mesma taxa se ela for iniciada por um participante da reunião nos Estados Unidos ou uma na França.
+Para chamadas discadas cobradas por minuto (chamadas que excedem o pool de minutos de discagem de locatário ou chamadas para destinos que não estão na zona uma lista de países e regiões), as chamadas e suas tarifas associadas se baseiam principalmente no destino da chamada e não no país ou região do organizador ou no participante que inicia a chamada de discagem. Por exemplo, uma chamada para um número de telefone na França será cobrada com a mesma taxa se ela for iniciada por um participante da reunião nos Estados Unidos ou uma na França.
 
 Para obter informações adicionais sobre créditos de comunicação, consulte [créditos de comunicações](what-are-communications-credits.md).
 

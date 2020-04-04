@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 audience: admin
-description: Prepare a rede da sua organização para a Qualidade de Serviço (QoS) no Microsoft Teams
+description: Saiba como preparar a rede da sua organização para a QoS (qualidade de serviço) no Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -16,22 +16,23 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.meetingsettings.qos
 - ms.teamsadmincenter.meetingsettings.network.qosmarkers
+- seo-marvel-mar2020
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 31e8b01f5a48d74d516121c5a59ea79d94c317a3
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 545cbc1d170f6b511de5e8d21a237bc893ee0702
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834731"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43138031"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>Implementar a QoS (qualidade de serviço) no Microsoft Teams
 
 Este artigo ajudará você a preparar a rede da sua organização para a qualidade do serviço (QoS) no Microsoft Teams. Se você estiver oferecendo suporte a um grupo grande de usuários e se estiver enfrentando algum dos problemas mencionados abaixo, provavelmente precisará implementar QoS. Uma pequena empresa com poucos usuários pode não precisar de QoS, mas até lá deve ser útil.
 
-A QoS é uma maneira de permitir o tráfego de rede em tempo real (como fluxos de voz ou de vídeo) que são sensíveis a atrasos de rede para "recortar linha" na frente do tráfego que é menos confidencial (como baixar um novo aplicativo, onde um segundo adicional para baixar não é um negócio importante). A QoS identifica e marca todos os pacotes em fluxos em tempo real (usando objetos de política de grupo do Windows e um recurso de roteamento chamado de listas de controle de acesso baseado em porta, mais sobre os que estão abaixo) e, em seguida, ajuda sua rede a fazer fluxos de voz, vídeo e compartilhamento de tela parte dedicada da largura de banda da rede.
+A QoS é uma maneira de permitir o tráfego de rede em tempo real (como fluxos de voz ou de vídeo) que são sensíveis a atrasos de rede para "recortar linha" na frente do tráfego que é menos confidencial (como baixar um novo aplicativo, onde um segundo adicional para baixar não é um negócio importante). A QoS identifica e marca todos os pacotes em fluxos em tempo real (usando objetos de política de grupo do Windows e um recurso de roteamento chamado de listas de controle de acesso baseado em portas, mais sobre os que estão abaixo) que, em seguida, ajudam sua rede a fornecer voz, vídeo e compartilhamento de tela transmite fluxos de largura de banda de rede.
 
 Sem alguma forma de QoS, você pode ver os seguintes problemas de qualidade em voz e vídeo:
 
@@ -109,11 +110,11 @@ A tabela a seguir mostra as marcações DSCP necessárias e os intervalos de por
 
 _Intervalos de portas iniciais recomendados_
 
-|Tipo de tráfego de mídia| Intervalo de porta de origem do cliente |Protocolo|Valor de DSCP|Classe DSCP|
+|Tipo de tráfego de mídia| Intervalo de portas de origem do cliente  |Protocolo|Valor DSCP|Classe DSCP|
 |:--- |:--- |:--- |:--- |:--- |
-|Áudio| 50000 – 50019|TCP/UDP|46|Expedited Forwarding (EF)|
-|Vídeo| 50,020–50,039|TCP/UDP|34|Assured Forwarding (AF41)|
-|Compartilhamento de tela/aplicativo| 50,040–50,059|TCP/UDP|dezoito|Encaminhamento garantido (AF21)|
+|Áudio| 50.000–50.019|TCP/UDP|46|Expedited Forwarding (EF)|
+|Vídeo| 50.020–50.039|TCP/UDP|34|Assured Forwarding (AF41)|
+|Compartilhamento de tela/aplicativo| 50.040-50.059|TCP/UDP|dezoito|Assured Forwarding (AF21)|
 ||||||
 
 Lembre-se do seguinte ao usar estas configurações:
