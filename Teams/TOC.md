@@ -567,8 +567,10 @@
 
 # Microsoft 365 Business Voice
 ## [O que é o Microsoft 365 Business Voice?](business-voice/whats-business-voice.md)
+## [Disponibilidade de países e regiões](business-voice/country-region-availability.md)
 ## O que saber antes de comprar
 ### [O que comprar para obter o Business Voice](business-voice/what-to-buy.md)
+### [Obtenha ajuda de um revendedor ou parceiro](business-voice/reseller-partner-support.md)
 ### [Verificar sua conexão com a Internet](business-voice/get-ready-internet.md)
 ### [Preparar os usuários](business-voice/prepare-users.md)
 ## [Executar o Assistente de Introdução](business-voice/use-getting-started-wizard.md)
@@ -602,7 +604,6 @@
 # Diretrizes governamentais e de indústrias
 ## [Visão geral](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md)
 ## [Introdução aos modelos do Teams](get-started-with-teams-templates.md)
-## [QuickStart para trabalhadores de linha de frente](firstline-workers-quickstart.yml)
 ## [Turnos do Teams](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
 ### [O Microsoft StaffHub será desativado](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
 ### [Instalar o módulo PowerShell do Microsoft PowerHub](expand-teams-across-your-org/shifts/install-the-staffhub-powershell-module.md)
@@ -636,6 +637,12 @@
 ### [Perguntas frequentes sobre governança do Microsoft Education para administradores](plan-teams-governance-edu.md)
 ### [Instale a integração do Moodle](install-moodle-integration.md)
 ### [Referência de SKU Education](sku-reference-edu.md)
+
+## Teams para trabalhadores de linha de frente
+### [QuickStart para trabalhadores de linha de frente](firstline-workers-quickstart.yml)
+### [Implantação programada de trabalhadores de primeira linha](flw-scripted-deployment.md)
+### [RealWear para Microsoft Teams](flw-realwear.md)
+### [Criar um aplicativo do portal de intranet do Teams a partir de um site ou página do SPO](teams-standalone-static-tabs-using-spo-sites.md)
 
 ## [Teams para o Varejo](expand-teams-across-your-org/teams-for-retail-landing-page.md)
 ### [Introdução aos modelos de varejo do Teams](get-started-with-retail-teams-templates.md)
