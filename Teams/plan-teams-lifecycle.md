@@ -1,5 +1,5 @@
 ---
-title: Planejar o gerenciamento de ciclo de vida no Teams ‒ Microsoft Teams
+title: Planejar o gerenciamento do ciclo de vida
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -16,18 +16,19 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 783ae4f1c293a51b5f9838d4ffa3039731c0c867
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: ce58f292fd732c498880936c01d3e1b1343d2aa6
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837351"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137821"
 ---
 # <a name="plan-for-lifecycle-management-in-teams"></a>Planejar o gerenciamento de ciclo de vida no Teams
 
 O Teams fornece um conjunto avançado de ferramentas para implementar processos de gerenciamento de ciclo de vida de colaboração para sua organização. Este artigo orienta os profissionais de TI por meio das perguntas certas para determinar seus requisitos de gerenciamento de ciclo de vida e as ferramentas a serem usadas para atendê-los. 
 
-É importante planejar o gerenciamento de ciclo de vida, pois isso significa que você cria um plano para realizar o trabalho com eficiência. A maioria dos projetos consiste em início, meio e fim. Isso também se aplica às equipes, mas elas podem ser criadas e usadas de várias maneiras. Por isso, nem sempre é óbvio em qual estágio do ciclo de vida elas estão. Ter um plano para o gerenciamento do ciclo de vida ajudará você a acompanhar os projetos de sua organização enquanto eles percorrem esses estágios.
+É importante planejar o gerenciamento de ciclo de vida, pois isso significa que você está criando um plano para realizar o trabalho com eficiência. A maioria dos projetos consiste em início, meio e fim. Isso também se aplica às equipes, mas elas podem ser criadas e usadas de várias maneiras. Por isso, nem sempre é óbvio em qual estágio do ciclo de vida elas estão. Ter um plano para o gerenciamento do ciclo de vida ajudará você a acompanhar os projetos de sua organização enquanto eles percorrem esses estágios.
 
 > [!Tip]
 > Assista à seguinte sessão para saber mais sobre o ciclo de vida no Microsoft Teams: [Governança, gerenciamento e ciclo de vida no Microsoft Teams](https://aka.ms/teams-governance)
@@ -59,7 +60,7 @@ Os tipos de usuários da equipe determinam o grau de controle que cada membro da
 -   O _criador da equipe_ tem permissões para criar um grupo ou uma equipe no diretório. O administrador pode restringir esse tipo de usuário a um subconjunto de administradores ou usuários. Para obter mais informações, confira [Gerenciar quem pode criar Grupos do Office 365](https://support.office.com/article/Manage-who-can-create-Office-365-Groups-4c46c8cb-17d0-44b5-9776-005fced8e618). 
 -   O _proprietário da equipe_ gerencia a associação e as configurações da equipe. Pode haver até 100 proprietários de equipe por equipe.
 -   Um _membro da equipe_ é um membro de sua organização que participa de uma equipe.
--   Um _convidado da equipe_ é um usuário que é externo à sua organização. Qualquer pessoa com um endereço de email poderá ser convidada se a organização tiver habilitado o [acesso de convidado](guest-access.md).
+-   Um _convidado_ é um usuário que é externo à sua organização. Qualquer pessoa com um endereço de email poderá ser convidada se a organização tiver habilitado o [acesso de convidado](guest-access.md).
 
 > [!Note]
 > Saiba mais sobre os recursos de proprietário de equipe e de membro de equipe no artigo [Atribuir função e permissões no Microsoft Teams](assign-roles-permissions.md).
@@ -114,7 +115,7 @@ Antes de distribuir o Teams a sua organização, implemente as políticas de gov
 
 Para obter mais informações, confira [Planejar a governança no Teams](plan-teams-governance.md).
 
-## <a name="teams-lifecycle-stages"></a>Etapas do ciclo de vida de equipes
+## <a name="teams-lifecycle-stages"></a>Etapas do ciclo de vida das equipes
 
 De modo geral, uma equipe tem um propósito que está alinhado a um projeto ou a uma meta. Mesmo que uma equipe tenha sido formada com base em um interesse em comum, a associação a ela provavelmente mudará com o tempo e a discussão poderá se tornar obsoleta, mas surgir novamente de maneira um pouco diferente em outra equipe.
 
@@ -126,12 +127,12 @@ Para obter mais informações, confira [Gerenciar equipes no Centro de administr
 
 #### <a name="create-the-team"></a>Criar a equipe
 
-A primeira etapa é definir o objetivo da equipe. Ele pode consistir em processos de negócios, na estrutura organizacional de projetos ou apenas na criação de um hub de colaboração aberto e não estruturado. A definição do objetivo da equipe está vinculada à identificação das pessoas certas. Na medida do possível, convém promover a colaboração aberta, visando uma ampla associação. 
+A primeira etapa é definir o objetivo da equipe. Ele pode consistir em processos de negócios, na estrutura organizacional de projetos ou apenas na criação de um hub de colaboração aberto e não estruturado. A definição do objetivo da equipe está vinculada à identificação das pessoas certas. Na medida do possível, é recomendável promover a colaboração aberta, buscando uma associação ampla. 
 
 Os proprietários da equipe convidam membros, definem a imagem e a descrição da equipe e podem definir permissões para membros individuais. 
 
 > [!Tip]
->  O ideal é selecionar pelo menos dois proprietários para a equipe. Assim, ela estará coberta em caso de ausência ou a reatribuição.
+>  O ideal é selecionar pelo menos dois proprietários para a equipe. Assim, ela estará coberta em caso de ausência ou reatribuição.
 
 #### <a name="team-origins"></a>Origens da equipe
 
@@ -158,7 +159,7 @@ Use estes links para obter mais informações sobre como organizar as equipes:
 
 #### <a name="set-up-channels"></a>Configure canais
 
-Qualquer proprietário ou membro de equipe com permissões apropriadas pode criar canais em uma equipe. É importante considerar o objetivo de cada canal. As opções incluem colaboração em referência a projetos, discussões de tópicos ou áreas de interesse comum. Por padrão, todas as equipes incluem um canal Geral. A maioria das equipes precisa de mais do que isso, e os membros criarão canais adicionais. É provável que o conjunto de canais cresça de forma gradual, à medida que novos tópicos ou projetos surgirem. As discussões poderão ultrapassar os limites do canal em que começaram.
+Qualquer proprietário ou membro de equipe com permissões apropriadas pode criar canais em uma equipe. É importante considerar o objetivo de cada canal. As opções incluem colaboração em torno a projetos, discussões de tópicos ou áreas de interesse comum. Por padrão, todas as equipes incluem um canal Geral. A maioria das equipes precisa de mais do que isso, e os membros criarão canais adicionais. É provável que o conjunto de canais cresça organicamente à medida que novos tópicos ou projetos surjam, e as discussões possam superar o canal em que começaram.
 
 Para despertar interesse, o proprietário do canal pode postar uma mensagem de boas-vindas, carregar documentos relevantes na guia **Arquivos** ou adicionar guias ou conectores ao canal. O proprietário também define a descrição do canal e pode "adicionar a Favoritos automaticamente" os canais importantes para que eles sejam listados por padrão para todos os membros da equipe.
 
@@ -169,7 +170,7 @@ Para despertar interesse, o proprietário do canal pode postar uma mensagem de b
 
 ### <a name="stage-2-middle"></a>Estágio 2: meio
 
-À medida que o trabalho em equipe começa, a associação à equipe provavelmente começa a evoluir, juntamente com a hierarquia de canais. A menos que a equipe precise ser estritamente controlada e bloqueada, convém incentivar a exploração, mesmo que isso leve a impasses. À medida que os usuários se sentirem mais à vontade, poderão experimentar menções de \@equipe, marcar canais como favoritos e usar o canal Geral para se familiarizarem com as postagens. Cada equipe é diferente. Deixe que o uso oriente a evolução do design. Monitore o uso e a integridade da equipe por meio dos recursos de relatórios do Teams.
+À medida que o trabalho em equipe começa, a associação à equipe provavelmente começa a evoluir, juntamente com a hierarquia de canais. A menos que a equipe precise ser estritamente controlada e bloqueada, é recomendável incentivar a exploração, mesmo que isso leve a impasses. À medida que os usuários se sentirem mais à vontade, poderão experimentar menções de \@equipe, marcar canais como favoritos e usar o canal Geral para se familiarizarem com as postagens. Cada equipe é diferente. Deixe que o uso oriente a evolução do design. Monitore o uso e a integridade da equipe por meio dos recursos de relatórios do Teams.
 
 A confiança, a tolerância e o espírito de colaboração aumentarão gradativamente, à medida que as comunicações dos grupos-chave forem iniciadas e mantidas no Teams. Os membros da equipe veem a utilidade das conversas em grupo, em comparação com os chats entre duas pessoas. Equipes individuais tendem a desenvolver sua própria personalidade, auxiliadas por recursos divertidos, como Giphys e figurinhas. Ao mesmo tempo, é importante que o comportamento nocivo ou rude seja desencorajado sempre que ocorrer.
 
@@ -194,9 +195,9 @@ Se uma equipe começar a cair na rotina, considere estas opções:
 
 ### <a name="stage-3-end"></a>Etapa 3: fim
 
-Quando o trabalho de uma equipe chega ao fim, é importante reconhecer formalmente que ela terminou. Assim, os membros da equipe são informados do encerramento. Além disso, é impedido o acesso a informações desatualizadas e obsoletas. Você pode usar a própria equipe para realizar tarefas de encerramento, como post-mortem e resumos executivos.
+Quando o trabalho de uma equipe chega ao fim, é importante reconhecer formalmente que terminou. Assim, os membros da equipe são informados do encerramento. Além disso, é impedido o acesso a informações desatualizadas e obsoletas. Você pode usar a própria equipe para realizar tarefas de encerramento, como post-mortem e resumos executivos.
 
-Você pode excluir equipes que sabe que não são necessárias (por exemplo, uma equipe criada exclusivamente para testes ou que contém dados confidenciais). Na verdade, as equipes são excluídas com uma “exclusão reversível” que a TI pode reverter por até 21 dias (30 dias para Grupos do Office 365). A exclusão de equipes não afeta os chats nem o conteúdo retidos de acordo com políticas de conformidade. Os canais também têm uma "exclusão reversível" e podem ser revertidos por até 21 dias após a exclusão.
+Você pode excluir equipes que você sabe que não precisa (por exemplo, uma equipe criada exclusivamente para testes ou uma equipe que contenha dados confidenciais). Na verdade, as equipes são excluídas com uma “exclusão reversível” que a TI pode reverter por até 21 dias (30 dias para Grupos do Office 365). A exclusão de equipes não afeta os chats nem o conteúdo retidos de acordo com as políticas de conformidade. Os canais também têm uma "exclusão reversível" e podem ser revertidos por até 21 dias após a exclusão.
 
 Você também pode usar as políticas de expiração e retenção, além de recursos de arquivamento, para reduzir a exposição de equipes que não estão mais ativas ou cujos proprietários deixaram a organização.
 

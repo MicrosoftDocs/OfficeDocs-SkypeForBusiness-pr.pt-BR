@@ -18,14 +18,14 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4bb1250fd3cc02599fafa37ab6ac694403e33df9
-ms.sourcegitcommit: f0f2fa999c1ca4a1118377c7938a247f79217609
+ms.openlocfilehash: caecd0d97e760470604fa164e6356a59699e57ad
+ms.sourcegitcommit: bc1d2e0478a429f981b53765e6194443b32ae35c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43106815"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43122915"
 ---
-# <a name="how-to-provisions-teams-at-scale-for-firstline-workers"></a>Como provisionar o Teams em escala para os Trabalhadores da Linha de Frente
+# <a name="how-to-provision-teams-at-scale-for-firstline-workers"></a>Como provisionar o Teams em escala para os Trabalhadores da Linha de Frente
 
 Precisa integrar rapidamente um grande número de usuários ao Microsoft Teams e configurar uma experiência simplificada para eles? Você pode rapidamente provisionar identidades e equipes, além de atribuir todas as políticas relevantes para controlar a experiência do usuário final, através das instruções a seguir.
 
