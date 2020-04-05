@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 87918e83aae6f56a3956336603decd41817cdd2a
-ms.sourcegitcommit: aaae9df142ebb844a1fea27d3ae3b95130903d6a
+ms.openlocfilehash: 15e84c6e5d7d205910be982eb0688143cd14abfa
+ms.sourcegitcommit: dc6108917392754d950cea47b92f871211bf4212
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43100078"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43131219"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>Introdução ao Microsoft Teams para aprendizado remoto
 
@@ -58,6 +58,9 @@ O Microsoft Teams utiliza os recursos do Microsoft 365 para autenticar os usuár
 
 O Microsoft Teams está incluído no Office 365 A1, que é gratuito para instituições de ensino. Para obter orientação de TI sobre como implantar o Office 365 e iniciar toda a sua escola no Teams, confira [esta página](https://docs.microsoft.com/microsoft-365/education/intune-edu-trial/set-up-office365-edu-tenant). Para obter suporte, você pode enviar um tíquete [aqui](https://signup.microsoft.com/Signup?OfferId=03ee83a5-5cb4-4545-aca9-33ead43f222a,d764709a-7763-45ef-a2a8-db5b8b6ae704&DL=ENTERPRISEPREMIUM_FACULTY&ali=1) e para treinamentos no Teams, visite a Microsoft Store local para falar com um especialista.
 
+> [!NOTE]
+> Consulte as [Diretrizes atualizadas para a Implantação do M365 EDU durante a COVID-19](https://docs.microsoft.com/microsoft-365/education/deploy/guidance-for-m365-edu-deployment-during-covid19) para obter as informações mais recentes sobre implantações do EDU. 
+
 ## <a name="easily-set-up-teams"></a>Configure o Teams facilmente
 
 Estas são as duas coisas que você precisa fazer para começar a trabalhar com o Teams:
@@ -75,6 +78,9 @@ Os clientes do ensino superior se beneficiam quando você permite que todos, inc
 **A equipe de ensino superior, professores e estudantes** se beneficiam dos recursos incluídos nas políticas padrão (globais). Algumas configurações adicionais de política podem ser habilitadas para adicionar mais funcionalidade ao Microsoft Teams, incluindo o [habilitar recursos de tradução na política de mensagens](messaging-policies-in-teams.md#messaging-policy-settings) e [permitir a transcrição automática da reunião](meeting-policies-in-teams.md#allow-transcription) na política de reunião.
 
 Talvez seja necessário restringir os recursos fornecidos aos **estudantes de ensino básico e fundamental**. As políticas definem os limites do que os alunos podem fazer. Como a população de alunos geralmente é o maior conjunto de usuários e, muitas vezes, eles recebem as configurações mais restritivas, é recomendável que as alterações na política do aluno sejam feitas nas políticas "Globais (padrão da organização)".
+
+> [!IMPORTANT]
+> Para atender às políticas atribuídas a qualquer usuário, recomendamos definir a configuração "Admitir pessoas automaticamente" para "Todos em sua organização". Essa configuração garantirá que usuários não autenticados sejam admitidos do lobby antes que possam participar de reuniões do Teams. Para mais informações, confira [Gerenciar políticas de reunião no Teams](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#automatically-admit-people).
 
 Este é um conjunto de configurações de política comum não padrão que podem ser atribuídas aos estudantes de ensino básico e fundamental a fim de limitar a comunicação sem supervisão entre os alunos:
 
@@ -140,6 +146,12 @@ Você pode saber mais sobre como o Microsoft Teams é usado na educação em: [M
 
 > [!NOTE]
 > Alguns dos principais recursos do Microsoft Teams não são específicos para educação. As dicas e truques para os principais recursos do Teams podem ser encontradas em: [Ajuda e aprendizagem do Microsoft Teams](https://support.office.com/teams).
+
+### <a name="prevent-users-from-changing-their-profile-photo"></a>Impedir que os usuários alterem suas fotos de perfil
+
+O Teams respeita a configuração da [Política de caixa de correio do Outlook na Web](https://docs.microsoft.com/powershell/module/exchange/client-access/set-owamailboxpolicy) configurada pelos administradores de locatários para controlar se os usuários podem alterar a imagem de perfil. Se a configuração **-SetPhotoEnabled** estiver desativada, os usuários não poderão adicionar, alterar ou remover sua imagem de perfil. Para impedir que alunos ou funcionários alterem ou removam suas fotos de perfil, desative essa configuração na política de caixa de correio do Outlook na Web atribuída a eles.
+
+Por exemplo, se um aluno carregar uma foto de perfil aprovada pelo departamento de TI ou RH da escola, nenhuma ação será necessária. No entanto, se um aluno carregar uma foto inadequada, altere-a de acordo com as políticas internas da sua escola.  
 
 ## <a name="adoption-content"></a>Conteúdo de adoção
 
