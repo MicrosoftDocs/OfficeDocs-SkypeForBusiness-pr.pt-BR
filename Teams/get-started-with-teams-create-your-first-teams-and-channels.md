@@ -1,5 +1,5 @@
 ---
-title: Criar as primeiras equipes e canais no Microsoft Teams
+title: Criar suas primeiras equipes e canais
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -16,12 +16,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d84d4afaabdcfd5f8b548eb938d5aa9757d4c038
-ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 79fc1bc2a415ae59cd581f7fdde11be8972311a2
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42796034"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43136791"
 ---
 # <a name="create-your-first-teams-and-channels-in-microsoft-teams"></a>Criar as primeiras equipes e canais no Microsoft Teams
 
@@ -33,7 +34,7 @@ Quando configura e usa o primeiro conjunto de equipes e canais, você consolida 
 
 Para saber mais, confira [Visão geral de equipes e canais no Microsoft Teams](teams-channels-overview.md) e [Práticas recomendadas para organização de equipes no Microsoft Teams](best-practices-organizing.md).
 
- Sugerimos começar com a equipe de "Introdução ao Teams", onde os usuários iniciantes podem testar, fazer perguntas e descobrir os recursos do programa. Essa equipe poderá ser essencial para seu êxito quando você começa a usar o Teams. 
+ Sugerimos começar com a equipe de "Introdução ao Teams", onde os usuários iniciantes podem testar, fazer perguntas e descobrir os recursos do Teams. Essa equipe poderá ser essencial para seu êxito quando você começa a usar o Teams. 
 
 ### <a name="get-to-know-teams-team"></a>Equipe de "Introdução ao Teams"
 A equipe de projetos pode usar a equipe de "Introdução ao Teams" para garantir que os usuários estejam preparados para trabalhar com os clientes do Teams, iniciem algumas conversas e descubram o que o programa pode fazer. Talvez você já tenha um grupo de pessoas na organização que aproveitam o acesso antecipado a novos recursos. Pode ser uma das primeiras equipes integradas e ela pode contribuir fornecendo comentários antecipados.

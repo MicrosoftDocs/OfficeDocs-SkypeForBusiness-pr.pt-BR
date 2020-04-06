@@ -1,5 +1,5 @@
 ---
-title: Perguntas frequentes ‒ atualização do Skype for Business para o Microsoft Teams
+title: Perguntas frequentes sobre a atualização do Skype for Business para o Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -12,18 +12,20 @@ localization_priority: Priority
 search.appverid: MET150
 f1.keywords:
 - CSH
-ms.custom: Teams-upgrade-guidance
+ms.custom:
+- Teams-upgrade-guidance
+- seo-marvel-mar2020
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a2b051efa327a014bc719753e7aecae81f78e0f4
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.openlocfilehash: 44544e440d9f6cdfff08ae66ed7f425abf69fb4d
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42160378"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43136531"
 ---
 # <a name="faq--upgrading-from-skype-for-business-to-microsoft-teams"></a>Perguntas frequentes ‒ atualização do Skype for Business para o Microsoft Teams
 
@@ -68,7 +70,7 @@ Os clientes que atualmente estão implantando o Skype for Business Online podem 
 
 ### <a name="what-support-do-you-offer-customers-who-want-to-move-to-teams-especially-those-who-have-made-significant-investments-in-skype-for-business-online"></a>Que tipo de suporte você oferece aos clientes que desejam migrar para o Microsoft Teams, sobretudo aqueles que fizeram investimentos significativos no Skype for Business Online?
 
-Incentivamos todos os clientes do Skype for Business a começar a implantar o Teams e planejar as atualizações. Ajudaremos os clientes que desejarem migrar os usuários para o Teams com ferramentas e diretrizes para controlar e gerenciar o processo. As diretrizes prescritivas estão em [https://aka.ms/SkypetoTeams](https://aka.ms/SkypetoTeams).  Ajudaremos a facilitar a transição para novos usuários do Teams com uma tela de apresentação especializada e marcações de orientação no produto. O FastTrack, [o treinamento com instrutor](https://aka.ms/TeamsLiveTraining), o suporte ao cliente e parceiros estarão disponíveis para ajudar a orientar os clientes durante a transição. Além disso, a Microsoft está realizando [Workshops de Atualização](https://aka.ms/SkypeToTeamsPlanning) para ajudar no planejamento de atualização.
+Incentivamos todos os clientes do Skype for Business a começar a implantar o Teams e planejar as atualizações. Ajudaremos os clientes que desejarem migrar os usuários para o Teams com ferramentas e diretrizes para controlar e gerenciar o processo. As diretrizes prescritivas estão em [https://aka.ms/SkypetoTeams](https://aka.ms/SkypetoTeams).  Ajudaremos a facilitar a transição para novos usuários do Teams com uma tela de apresentação especializada e marcas de treinamento no produto. O FastTrack, [o treinamento com instrutor](https://aka.ms/TeamsLiveTraining), o suporte ao cliente e parceiros estarão disponíveis para ajudar a orientar os clientes durante a transição. Além disso, a Microsoft está realizando [Workshops de Atualização](https://aka.ms/SkypeToTeamsPlanning) para ajudar no planejamento de atualização.
 
 ### <a name="what-does-this-mean-from-a-licensing-perspective-how-will-customers-pay-for-intelligent-communications-services-in-teams"></a>O que isso significa do ponto de vista de licença? Como os clientes pagarão pelos serviços de comunicações inteligentes no Microsoft Teams?
 
@@ -94,11 +96,11 @@ Sim. O Skype for Business Online será desativado em 31 de julho de 2021 e, em s
 
 ### <a name="how-long-will-it-take-to-upgrade-my-organization-to-teams"></a>Quanto tempo levará a atualização de minha organização para o Microsoft Teams?
 
-A jornada de sua organização do Skype for Business para o Teams pode ser definida por você. Para ajudar no planejamento e na execução, desenvolvemos diretrizes abrangentes de atualização com base em uma estrutura comprovada projetada para ajudá-lo a navegar pelos elementos técnicos e organizacionais de alteração. Inicie a jornada, familiarize-se com a [estrutura de sucesso de atualização](upgrade-framework.md) e os recursos associados que servem como a base para navegar pela sua jornada do Skype for Business para o Teams.
+A jornada de sua organização do Skype for Business para o Teams pode ser definida por você. Para ajudar no planejamento e na execução, desenvolvemos diretrizes abrangentes de atualização com base em uma estrutura comprovada e projetada para ajudá-lo a navegar pelos elementos técnicos e organizacionais de alteração. Inicie a jornada, familiarize-se com a [estrutura de sucesso de atualização](upgrade-framework.md) e os recursos associados que servem como a base para navegar pela sua jornada do Skype for Business para o Teams.
 
 ### <a name="is-there-a-recommended-upgrade-path-for-skype-for-business-online"></a>Há um caminho de atualização recomendado para o Skype for Business Online?
 
-Os clientes são incentivados a planejar a jornada do Skype for Business Online para o Teams, aproveitando a orientação e os recursos de planejamento em [https://aka.ms/SkypetoTeams](https://aka.ms/SkypetoTeams) para identificar e implementar o caminho de atualização que melhor atende às necessidades da sua organização.
+Os clientes são incentivados a planejar a jornada do Skype for Business Online para o Teams, aproveitando a orientação e os recursos de planejamento em [https://aka.ms/SkypetoTeams](https://aka.ms/SkypetoTeams) para identificar e implementar o caminho de atualização que melhor atende às necessidades da organização.
 
 ### <a name="where-can-i-learn-more-about-coexistence-modes-in-the-microsoft-teams-admin-center"></a>Onde posso saber mais sobre os modos de coexistência no centro de administração do Microsoft Teams?
 
@@ -106,13 +108,13 @@ No centro de administração do Microsoft Teams, você verá opções de modos d
 
 ### <a name="what-should-i-do-to-prepare-for-my-upgrade"></a>O que devo fazer para me preparar para a atualização?
 
-A successful upgrade will include validating technical readiness in addition to user acceptance readiness. Even if you determine your organization isn’t quite ready to upgrade to Teams, you can begin the planning process today. Further, you can start realizing the value of Teams by enabling Teams alongside Skype for Business. Get started on your [Skype to Teams journey](https://aka.ms/skypetoteams-home) today.
+Uma atualização bem-sucedida incluirá a validação da prontidão técnica, além da prontidão de aceitação do usuário. Mesmo se você determinar que sua organização não está bem preparada para atualizar para o Teams, você poderá começar o processo de planejamento hoje. Além disso, você pode começar a aproveitar o valor do Teams habilitando-o juntamente com o Skype for Business. Comece a sua [jornada do Skype para o Teams](https://aka.ms/skypetoteams-home) hoje mesmo.
 
-A Microsoft também oferece workshops interativos e ao vivo nos quais compartilharemos o guia, as práticas recomendadas e os recursos projetados para dar início ao planejamento e à implementação de atualizações. [Saiba mais sobre os workshops de planejamento de atualização](https://aka.ms/SkypeToTeamsPlanning).
+A Microsoft também oferece workshops interativos e ao vivo, nos quais compartilhamos guias, práticas recomendadas e recursos projetados para dar início ao planejamento e implementação de atualizações. [Saiba mais sobre os workshops de planejamento de atualização](https://aka.ms/SkypeToTeamsPlanning).
 
 ### <a name="my-organization-is-already-running-teams-alongside-skype-for-business-can-i-just-disable-skype-for-business"></a>Minha organização já está executando o Teams junto com o Skype for Business. Posso simplesmente desabilitar o Skype for Business?
 
-Não. Será necessário mudar os usuários para o modo **Somente Teams** para concluir a atualização para o Teams. Se sua organização estiver pronta para atualizar para o Teams, reserve algum tempo para se comunicar com os usuários para que eles saibam o que está acontecendo e se acostumem ao Teams. Isso garantirá que eles tenham uma experiência de atualização positiva e reduzirá o número de chamadas para a assistência técnica. Para obter exemplos de modelos de comunicação, baixe nosso [Kit de Sucesso da Atualização](https://aka.ms/UpgradeSuccessKit).
+Não. Será necessário mudar os usuários para o modo **Somente Teams** para concluir a atualização para o Teams. Se a sua organização estiver pronta para atualizar para o Teams, reserve algum tempo para se comunicar com os usuários, para que eles saibam o que está acontecendo e se acostumem ao Teams. Isso garantirá que eles tenham uma experiência de atualização positiva e reduzirá o número de chamadas para a assistência técnica. Para obter exemplos de modelos de comunicação, baixe nosso [Kit de Sucesso da Atualização](https://aka.ms/UpgradeSuccessKit).
 
 ### <a name="who-can-i-contact-if-i-have-questions-about-the-upgrade-process"></a>Com quem poderei entrar em contato se tiver dúvidas sobre o processo de atualização?
 
@@ -120,7 +122,7 @@ Em caso de dúvidas sobre a atualização, fale com seus pontos de contato atuai
 
 ### <a name="do-i-upgrade-all-users-on-my-tenant-together-or-can-i-opt-to-upgrade-select-users-at-a-time"></a>Devo atualizar todos os usuários de meu locatário juntos ou posso optar por atualizar usuários selecionados de cada vez?
 
-Você tem a flexibilidade de atualizar os usuários para o Teams, como faz sentido para você, sejam indivíduos, grupos de usuários ou toda a organização. Para entender a abordagem ideal para a sua organização, examine os vários [modos de coexistência e atualização](https://aka.ms/skypetoteams-coexist) que você pode habilitar.
+Você tem a flexibilidade de atualizar os usuários — indivíduos, grupos de usuários ou toda a organização — para o Teams, da forma que fizer sentido para você. Para entender a abordagem ideal para a sua organização, examine os vários [modos de coexistência e atualização](https://aka.ms/skypetoteams-coexist) que você pode habilitar.
 
 ### <a name="what-happens-after-my-users-are-upgraded"></a>O que acontecerá depois que os usuários forem atualizados?
 
@@ -142,7 +144,7 @@ Sim, a notificação de atualização simplesmente alertará os usuários de que
 
 ### <a name="what-are-the-benefits-of-teams-back-end-infrastructure"></a>Quais são os benefícios da infraestrutura de back-end do Teams?
 
-O Teams foi desenvolvido para a nuvem com uma arquitetura de microsserviços altamente escalonável com consumo de largura de banda eficiente, que fornece telemetria mais robusta e habilita a manutenção e as atualizações com o mínimo de interrupções. Como resultado, os usuários levam menos tempo para ingressar em reuniões e obterão uma experiência melhor no navegador, sem precisar baixar plug-ins. Com essa infraestrutura moderna, é mais fácil começar a usar os Serviços Cognitivos da Microsoft, que incluem funcionalidades de transcrição, tradução, reconhecimento de fala e Machine Learning e podem tornar a comunicação e a colaboração mais fáceis e eficientes.
+O Teams foi desenvolvido para a nuvem, tendo uma arquitetura de microsserviços altamente escalonável e com consumo de largura de banda eficiente, que fornece uma telemetria mais robusta e habilita manutenções e atualizações com o mínimo de interrupção. Como resultado, os usuários levam menos tempo para ingressar em reuniões e obterão uma experiência melhor no navegador, sem precisar baixar plug-ins. Com essa infraestrutura moderna, é mais fácil começar a usar os Serviços Cognitivos da Microsoft, que incluem funcionalidades de transcrição, tradução, reconhecimento de fala e Machine Learning e podem tornar a comunicação e a colaboração mais fáceis e eficientes.
 
 ### <a name="how-can-customers-learn-when-skype-for-business-capabilities-will-be-available-in-teams"></a>Como os clientes podem saber quando os recursos do Skype for Business estiverem disponíveis no Microsoft Teams?
 

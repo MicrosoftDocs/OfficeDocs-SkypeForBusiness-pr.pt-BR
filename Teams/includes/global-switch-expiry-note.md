@@ -1,4 +1,4 @@
 > [!NOTE]
 > O controle ao nível do locatário do Teams foi removido (a partir de agosto de 2018). Controlar o acesso ao Teams em sua organização com licenciamento ao nível do usuário. Para saber mais, veja [Gerenciamento do acesso de usuários ao Microsoft Teams](../user-access.md).
 
-A exceção a essa alteração é o Microsoft Teams Educacional (EDU). Você ainda poderá gerenciar o Teams no nível de locatário do Office 365 se tiver uma licença EDU. Para fazer isso, acesse o centro de administração do Microsoft 365 > **Serviços e suplementos** > **Microsoft Teams**.
+A exceção a essa alteração é o Microsoft Teams Educacional (EDU). Você ainda poderá gerenciar o Teams no nível de locatário do Office 365 se tiver uma licença EDU. Para fazer isso, acesse o centro de administração do Microsoft 365 > **Serviços e suplementos** > **Microsoft Teams**. Se você estiver usando o novo centro de administração do Teams, será necessário desabilitar **Experimentar o novo centro de administração** para encontrar **Serviços e suplementos**. IMPORTANTE: Talvez seja necessário aguardar até 24 horas para que as alterações entrem em vigor. 

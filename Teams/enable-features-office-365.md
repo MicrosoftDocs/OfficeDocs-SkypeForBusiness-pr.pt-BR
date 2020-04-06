@@ -1,5 +1,5 @@
 ---
-title: 'Gerencie as configurações do Microsoft Teams para sua organização '
+title: Gerenciar as configurações da sua organização
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -8,23 +8,25 @@ ms.service: msteams
 audience: admin
 ms.reviewer: ritikag
 search.appverid: MET150
-description: Saiba como ativar ou desativar as configurações de toda a organização do Microsoft Teams para sua organização, incluindo os aplicativos, o acesso externo, o acesso de convidado, as configurações do Teams e as preferências da Atualização do Teams.
+description: Saiba como ativar ou desativar as configurações de toda a organização do Microsoft Teams, incluindo aplicativos, acesso externo, acesso de convidado, configurações do Teams e preferências de atualização do Teams.
 localization_priority: Priority
-ms.custom:
-- ms.teamsadmincenter.orgwidesettings.teamssettings.targetingintro
-- ms.teamsadmincenter.teamssettings.overview
 ms.collection:
 - M365-collaboration
 f1.keywords:
 - CSH
+ms.custom:
+- ms.teamsadmincenter.orgwidesettings.teamssettings.targetingintro
+- ms.teamsadmincenter.teamssettings.overview
+- NewAdminCenter_Update
+- seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 87c78839c0c6998464ed362dc8a3c2e4798a2321
-ms.sourcegitcommit: 561b9bab7d6f5a621436bc85ea28ea14657e7868
+ms.openlocfilehash: 5ad6e1679d809cbf4451677fdf67814930d33807
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42035233"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141224"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>Gerencie as configurações do Microsoft Teams para sua organização 
 
@@ -77,7 +79,7 @@ Os usuários podem carregar e compartilhar arquivos de serviços de armazenament
 
 #### <a name="organization"></a>Organização
 
-Aqui você pode ativar a guia **Organização**, que mostra o organograma detalhado da organização do usuário. Para obter mais informações, veja [Usar a guia da organização no Microsoft Teams](https://support.office.com/article/use-the-organization-tab-in-teams-ff02568b-290a-46d6-ae7a-cda22f723894).
+Aqui você pode ativar a guia **Organização**, que mostra o organograma detalhado da organização do usuário. Para saber mais, confira [usar a guia organização no Teams](https://support.office.com/article/use-the-organization-tab-in-teams-ff02568b-290a-46d6-ae7a-cda22f723894).
 
 #### <a name="devices"></a>Dispositivos
 
@@ -120,7 +122,7 @@ Aqui você pode escolher o aplicativo que os usuários usarão para ingressar em
 
 O planejador de rede ajuda a determinar e organizar os requisitos de rede para conectar os usuário do Teams em sua organização.  Saiba como [Usar o Planejador de Rede no Microsoft Teams](https://docs.microsoft.com/microsoftteams/network-planner).
 
-Você também pode selecionar a opção "Baixar o aplicativo Teams em segundo plano para usuários do Skype for Business".  Por padrão, essa configuração é definida como Ativada. Com essa configuração ativada, será realizado o download do aplicativo Teams em segundo plano para usuários que executam o aplicativo Skype for Business em computadores com Windows. Isso acontece se o modo de coexistência para o usuário for Somente Teams ou se uma notificação de atualização pendente estiver ativada no aplicativo Skype for Business.
+Você também pode selecionar a opção "Baixar o aplicativo do Teams em segundo plano para usuários do Skype for Business".  Por padrão, essa configuração é definida como Ativada. Com essa configuração ativada, será realizado o download do aplicativo Teams em segundo plano para usuários que executam o aplicativo Skype for Business em computadores com Windows. Isso acontece se o modo de coexistência para o usuário for Somente Teams ou se uma notificação de atualização pendente estiver ativada no aplicativo Skype for Business.
 
 
 ## <a name="how-can-i-tell-which-features-are-available"></a>Como saber quais recursos estão disponíveis?
