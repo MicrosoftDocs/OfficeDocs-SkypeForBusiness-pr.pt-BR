@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: A Microsoft faz parceria com fornecedores selecionados de SBC (controlador de borda da sessão) para garantir que seus SBCs sejam compatíveis com o Roteamento Direto.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 08d32c53c7116760bac42c61fb9497b8da06b1c6
-ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
+ms.openlocfilehash: ec7dacf18c27eb6aafbb29adc2ce618e9db07e68
+ms.sourcegitcommit: 0fdc60840f45ff5b0a39a8ec4a21138f6cab49c9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43157779"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43160035"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Lista de controladores de borda da sessão certificados para Roteamento Direto
 
@@ -70,7 +70,7 @@ A tabela a seguir lista os dispositivos certificados para Roteamento Direto.
 |                                                                                                                    |      AP 6300         |    &#10004;   |    &#10004;     |     8.3.0.0.1  |  <ul> <li> [Roteamento de localização dinâmica da largura de banda](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>Inentrada ERS </li> <li>Inentrada EGW</li> <li> Mobilidade de horizonte vermelho-céu </li>  </ul>   |  &#10004;  |    
 |                                                                                                                   |      AP 6350           |    &#10004;   |    &#10004;    |     8.3.0.0.1  |   <ul> <li> [Roteamento de localização dinâmica da largura de banda](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>Inentrada ERS </li> <li>Inentrada EGW</li> <li> Mobilidade de horizonte vermelho-céu </li>  </ul>  |  &#10004;  |                                            
 |                                                                                                                    |      VME           |    &#10004;    |    &#10004;    |     8.3.0.0.1   |   <ul> <li> [Roteamento de localização dinâmica da largura de banda](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>Inentrada ERS </li> <li>Inentrada EGW</li> <li> Mobilidade de horizonte vermelho-céu </li>  </ul>  |  &#10004;  |    
-|                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      3.16.2      |     |    |    
+|                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      3,20 compatível (4,0 recomendado)        |     |    |    
 |                     [Metaswitch](https://www.metaswitch.com/products/core-network/perimeta-sbc)                               |     Perimeta SBC        |     &#10004;   |  |      4,7      |     |    |    
 
 A tabela a seguir lista os dispositivos que são verificados quanto à interoperabilidade entre os dispositivos de roteamento direto e analógico.
