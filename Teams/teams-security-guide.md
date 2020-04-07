@@ -19,12 +19,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5a86a28cd5f7373edbd6d195fea7f857aef1ee29
-ms.sourcegitcommit: dc6108917392754d950cea47b92f871211bf4212
+ms.openlocfilehash: 37f01b5de9fc5ffd56d703c73e60c3ed55f50b6d
+ms.sourcegitcommit: c70778ea3a29834f62e6ef96053b5540803acc6a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43131209"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43153284"
 ---
 > [!IMPORTANT]
 > O modelo de serviço do Teams está sujeito a alterações para melhorar a experiência do cliente. Por exemplo, o acesso padrão ou os tempos de expiração do token de atualização podem estar sujeitos a modificações para melhorar a resiliência de desempenho e autenticação para as pessoas que usam o Teams. Quaisquer alterações são feitas com a meta de manter o Teams seguro e confiável por padrão.
@@ -124,7 +124,7 @@ O TLS permite que os usuários, por meio de seu software cliente, autentiquem os
 
 Conexões de servidor para servidor dependem do MTLS (TLS mútuo) para autenticação mútua. Em uma conexão MTLS, o servidor que cria a mensagem e o servidor que a recebe trocam certificados mutuamente a partir de uma AC confiável. Os certificados comprovam a identidade de cada servidor ao outro. No serviço do Teams, este procedimento é seguido.
 
-O TLS e o MTLS ajudam a evitar a espionagem e os ataques man-in-the Middle. Em um ataque man-in-the-middle, o invasor redireciona as comunicações entre duas entidades de rede por meio do computador do invasor, sem o conhecimento dos participantes. O TLS e a especificação do Teams de servidores confiáveis diminuem parcialmente o risco de um ataque man-in-the-middle na camada de aplicação, utilizando uma criptografia de ponta a ponta juntamente com a criptografia de chave pública entre dois pontos de extremidade, e um invasor terá que possuir um certificado válido e confiável com a chave privada correspondente, emitida no nome do serviço com o qual o cliente está se comunicando, para descriptografar a comunicação.
+O TLS e o MTLS ajudam a evitar a espionagem e os ataques man-in-the Middle. Em um ataque man-in-the-middle, o invasor redireciona as comunicações entre duas entidades de rede por meio do computador do invasor, sem o conhecimento dos participantes. As especificações de servidores confiáveis do TLS e do Teams reduzem o risco de um ataque man-in-the middle parcialmente na camada de aplicativos usando criptografia coordenada por meio da criptografia de Chave Pública entre os dois pontos de extremidade. O invasor teria que possuir um certificado válido e confiável com a Chave Privada correspondente e emitido para o nome do serviço ao qual o cliente está solicitando descriptografar a comunicação.
 
 ### <a name="encryption-for-teams"></a>Criptografia para o Teams
 

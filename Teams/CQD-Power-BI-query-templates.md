@@ -16,12 +16,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Use o Power BI para analisar dados do CQD para o Microsoft Teams.
-ms.openlocfilehash: 374f0da0342e5fbd50a7a27b9dde49acf605a23d
-ms.sourcegitcommit: f96d66d08a9d6993edbb9554738dc8236d901933
+ms.openlocfilehash: af540f09fefc27b99e1c084d2571fe51d47a393c
+ms.sourcegitcommit: f3390e27bb63b66d1c4fb4f8afbda6b814fbbb5b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "43053504"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43170492"
 ---
 # <a name="use-power-bi-to-analyze-cqd-data-for-microsoft-teams"></a>Usar o Power BI para analisar dados do CQD para o Microsoft Teams
 
@@ -34,13 +34,13 @@ Antes de poder usar esses arquivos PBIX, você precisará [instalar o conector d
 
 |  |  |
 |---------|---------|
-|Relatório de assistência técnica CQD. pbix     |Ao integrar dados de construção e EUII, esse relatório foi projetado para permitir que você faça uma busca detalhada de um único usuário para localizar a causa raiz de upstreams de baixa qualidade de chamadas para aquele usuário (por exemplo, o usuário está em um prédio com problemas de rede).         |
-|CQD de relatório de localização avançada do local. pbix     | Renovar relatórios de localização SPD do CQD. Inclui 9 relatórios, fornecimento de qualidade de chamada, criação de WiFi, confiabilidade e classificar minhas informações de chamada (RMC) com buscas adicionais por meio do edifício ou pelo usuário.        |
-|Relatório de dispositivo móvel CQD. pbix     | Fornece ideias especificamente ajustadas em relação a usuários de dispositivos móveis, incluindo qualidade da chamada, confiabilidade e classifique minha chamada. Exibir relatórios de rede móvel, rede WiFi e sistema operacional móvel (Android, iOS).        |
-|CQD o relatório de roteamento direto PSTN. pbix     |Fornece ideias específicas para chamadas PSTN que passam pelo roteamento direto. Para saber mais, leia [usando o relatório de roteamento direto PSTN CQD](CQD-PSTN-report.md).         |
-|Relatório de resumo CQD. pbix     |Melhores visualizações, apresentação aprimorada, maior densidade de informações e datas de rolagem. Esses relatórios facilitam a identificação de exceções. Analise a qualidade da chamada por local com um mapa interativo fácil de usar. 9 novos relatórios:</p>-Qualidade geral<br>-Confiabilidade geral<br>-RMC (classifique minha chamada em geral)<br>-Qualidade de conferência<br>-Qualidade P2P<br>-Confiabilidade da conferência<br>-Confiabilidade P2P<br>-Conferência RMC<br>-RMC P2P         |
-|<strong>(Novo!)</strong> Relatório de utilização do teams CQD. pbix     | Mostra como os usuários em sua organização estão usando o Teams e o quanto. Para saber mais, leia [use o relatório do Power bi do CQD para exibir a utilização do Microsoft Teams](CQD-teams-utilization-report.md).        |
-|CQD comentários do usuário (classifique minha chamada) Report. pbix     | Mostra os dados de Tarifa de minha chamada de forma que você possa usar facilmente para ajudar a fazer chamadas para a sua organização. Referência cruzada com as literalmente para identificar oportunidades de educação do usuário final.        |
+|Relatório de assistência técnica CQD. PBit     |Ao integrar dados de construção e EUII, esse relatório foi projetado para permitir que você faça uma busca detalhada de um único usuário para localizar a causa raiz de upstreams de baixa qualidade de chamadas para aquele usuário (por exemplo, o usuário está em um prédio com problemas de rede).         |
+|Relatório avançado de localização CQD. PBit     | Renovar relatórios de localização SPD do CQD. Inclui 9 relatórios, fornecimento de qualidade de chamada, criação de WiFi, confiabilidade e classificar minhas informações de chamada (RMC) com buscas adicionais por meio do edifício ou pelo usuário.  Certifique-se de carregar os dados de construção para maximizar sua experiência com relatórios.        |
+|Relatório de dispositivo móvel CQD. PBit     | Fornece ideias especificamente ajustadas em relação a usuários de dispositivos móveis, incluindo qualidade da chamada, confiabilidade e classifique minha chamada. Exibir relatórios de rede móvel, rede WiFi e sistema operacional móvel (Android, iOS).        |
+|CQD o relatório de roteamento direto PSTN. PBit     |Fornece ideias específicas para chamadas PSTN que passam pelo roteamento direto. Para saber mais, leia [usando o relatório de roteamento direto PSTN CQD](CQD-PSTN-report.md).         |
+|Relatório de resumo CQD. PBit     |Melhores visualizações, apresentação aprimorada, maior densidade de informações e datas de rolagem. Esses relatórios facilitam a identificação de exceções. Analise a qualidade da chamada por local com um mapa interativo fácil de usar. 9 novos relatórios:</p>-Qualidade geral<br>-Confiabilidade geral<br>-RMC (classifique minha chamada em geral)<br>-Qualidade de conferência<br>-Qualidade P2P<br>-Confiabilidade da conferência<br>-Confiabilidade P2P<br>-Conferência RMC<br>-RMC P2P         |
+|<strong>(Novo!)</strong> Relatório de utilização do teams CQD. PBit     | Mostra como os usuários em sua organização estão usando o Teams e o quanto. Certifique-se de carregar os dados de construção para maximizar sua experiência com relatórios. Para saber mais, leia [use o relatório do Power bi do CQD para exibir a utilização do Microsoft Teams](CQD-teams-utilization-report.md).        |
+|Relatório de comentários do usuário do CQD (classificar minha chamada). PBit     | Mostra os dados de Tarifa de minha chamada de forma que você possa usar facilmente para ajudar a fazer chamadas para a sua organização. Referência cruzada com as literalmente para identificar oportunidades de educação do usuário final.        |
 
 > [!TIP]
 > Depois de configurar seus relatórios do Power BI para dados do CQD, adicione-os como uma guia a um canal. Depois de selecionar **+** em um canal, selecione **Power bi** e localize seu relatório. Lembre-se: somente as pessoas com uma licença do Power BI e credenciais de administrador do CQD podem acessar esses relatórios.

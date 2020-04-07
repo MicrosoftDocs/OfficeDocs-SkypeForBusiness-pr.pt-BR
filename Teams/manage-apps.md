@@ -17,12 +17,12 @@ description: Saiba como gerenciar seus aplicativos do teams na página Gerenciar
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 532129792dd35a2b016510094f1b08beade1b32a
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 5e261dfd6f23ec298e354a7732a9a1afa9d6b22e
+ms.sourcegitcommit: f3390e27bb63b66d1c4fb4f8afbda6b814fbbb5b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43136841"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43170549"
 ---
 <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>Gerenciar seus aplicativos no centro de administração do Microsoft Teams
 ======================================================
@@ -68,6 +68,9 @@ A página **gerenciar aplicativos** é onde você permite ou bloqueia aplicativo
 Para permitir ou bloquear um aplicativo, selecione-o e, em seguida, clique em **permitir** ou **Bloquear**. Quando você bloqueia um aplicativo, todas as interações com esse aplicativo são desabilitadas e o aplicativo não aparece no Teams para os usuários de sua organização.
 
 Quando você bloqueia ou permite um aplicativo na página **gerenciar aplicativos** , esse aplicativo é bloqueado ou permitido para todos os usuários em sua organização.  Quando você bloqueia ou permite um aplicativo em uma política de permissão do aplicativo Teams, ele é bloqueado ou permitido para os usuários atribuídos a essa política. Para que um usuário possa instalar e interagir com qualquer aplicativo, você deve permitir o aplicativo no nível da organização na página **gerenciar aplicativos** e na política de permissão do aplicativo atribuída ao usuário.
+
+ > [!NOTE]
+ > Para desinstalar um aplicativo, clique com o botão direito do mouse no aplicativo e, em seguida, clique em **desinstalar** ou use o menu **mais aplicativos** no lado esquerda. 
 
 ## <a name="manage-org-wide-app-settings"></a>Gerenciar configurações de aplicativo de toda a organização
 

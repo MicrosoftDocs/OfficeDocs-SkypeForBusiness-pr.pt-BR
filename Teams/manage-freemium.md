@@ -3,7 +3,6 @@ title: Gerenciar a versão gratuita de Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 04/12/2019
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
@@ -19,21 +18,23 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 046a1e0a728b0b92a90c00ee51b1130708aa3cfb
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 247f2b855e3dfc66c3b5b2ef874962bdb2631736
+ms.sourcegitcommit: f3390e27bb63b66d1c4fb4f8afbda6b814fbbb5b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837531"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43170569"
 ---
 <a name="manage-the-free-version-of-microsoft-teams"></a>Gerenciar a versão gratuita de Microsoft Teams
 ==========================================
 
-Na versão gratuita do Microsoft Teams, a primeira pessoa que se inscreve em sua organização tem uma função de administrador limitada. A pessoa que tem essa função limitada pode adicionar e remover membros da equipe e especificar se qualquer pessoa pode convidar membros adicionais, mas esse usuário não tem recursos administrativos avançados e não tem acesso ao centro de administração do Microsoft Teams. 
+Na versão gratuita do Microsoft Teams, a primeira pessoa que se inscreve em sua organização tem uma função de administrador limitada. A pessoa que tem essa função limitada pode adicionar e remover membros da equipe e especificar se qualquer pessoa pode convidar membros adicionais, mas esse usuário não tem recursos administrativos avançados e não tem acesso ao centro de administração do Microsoft Teams. Para saber mais, leia [convidar pessoas para o Microsoft Teams (gratuito)](https://support.office.com/article/invite-people-to-teams-free-53a9b20c-2ad7-442e-967c-2e9305e96463).
 
 Para obter o conjunto completo de recursos do Teams, incluindo a administração aprimorada, você precisará [atualizar para a versão completa do teams](upgrade-freemium.md) comprando um plano de assinatura do Office 365 para seus usuários. 
 
 Para saber mais sobre as versões do Teams e seus recursos, consulte [comparar planos do teams](https://products.office.com/microsoft-teams/free).
+
+
 
 ## <a name="more-information"></a>Mais informações
 
@@ -41,3 +42,12 @@ Para saber mais sobre as versões do Teams e seus recursos, consulte [comparar p
 - Para obter mais informações sobre como atualizar para a versão completa do Teams, consulte [Atualizar do teams gratuito para o Teams](https://support.office.com/article/29475bbd-a34f-4175-9b33-d44430f8ad39) e [atualizar o Microsoft Teams gratuitamente para a versão de assinatura do Office 365](upgrade-freemium.md).
 - Para começar a usar tarefas de administração adicionais associadas à atualização de usuários, incluindo a adição de licenças de usuário, a alteração de nomes de usuários e a atribuição de senhas temporárias, consulte [para administradores fazendo a atualização do teams gratuitamente para uma assinatura paga](https://support.office.com/article/75a95e7f-001e-42d0-a787-ae8b992d5a52).
 
+## <a name="get-the-right-teams-trial"></a>Obtenha o teste da equipe correto
+
+A Microsoft está experimentando as licenças do Office 365 (que incluem o Teams) disponíveis em resposta à maior necessidade de os funcionários trabalharem de casa (TDC) em resposta à epidemia COVID-19 (coronavirus). 
+
+- [Avaliação do E1](e1-trial-license.md): esta oferta destina-se a qualquer cliente, incluindo não fins lucrativos, gerenciados por um representante de contas da Microsoft.
+
+- Para o governo dos EUA (GCC), confira a [avaliação do Office 365 G1](g1-trial-license.md). 
+
+- Os clientes EDU devem usar a [licença a1 gratuita do Office 365](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans).

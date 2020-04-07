@@ -3,7 +3,6 @@ title: Atualize o Microsoft Teams gratuitamente para a assinatura do Office 365
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 12/20/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ''
@@ -20,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6019491c7e72e91c9f3cfbcaec8a4c60ae297c14
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 92bb76f58983e4605d5a1be147bb898aee1a5832
+ms.sourcegitcommit: f3390e27bb63b66d1c4fb4f8afbda6b814fbbb5b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139640"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43170519"
 ---
 # <a name="upgrade-microsoft-teams-free-to-office-365-subscription-version"></a>Atualizar o Microsoft Teams gratuitamente para a versão de assinatura do Office 365
 ======================================================
@@ -39,7 +38,7 @@ Se a sua organização estiver usando a versão gratuita do Microsoft Teams, voc
 
 O Microsoft Teams gratuito foi projetado para empresas de pequeno e médio porte e tem os seguintes recursos:
 
-- 300 máximo de usuários
+- 500.000 máximo de usuários
 - Pesquisa e mensagens de chat ilimitadas
 - Acesso de convidados
 - Integração com aplicativos e serviços, incluindo as versões online do Word, do Excel, do PowerPoint e do OneNote
