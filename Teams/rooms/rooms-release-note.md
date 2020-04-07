@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 description: Este artigo discute melhorias cumulativas nas salas do Microsoft Teams.
-ms.openlocfilehash: 330425650f17fa8782105616371d3c16789d1db8
-ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
+ms.openlocfilehash: 7a411c8a94379c71226c4c5e593968a8ba65eb53
+ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43096986"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43157755"
 ---
 # <a name="release-notes"></a>Notas de versão
 
@@ -71,6 +71,7 @@ Apresentado nesta atualização:
 - Tela inicial do aplicativo
 - Configuração de resposta automática para melhorar a experiência de junção na reunião com base em proximidade 
 - Avisos do Open Source Software (OSS) em configurações do dispositivo
+- Correção da conectividade do PSOM quando o TLS 1,0 e o TLS 1,1 estiverem desabilitados no Skype for Business Server 2015/2019.
 
 ### <a name="43420-03022020"></a>4.3.42.0 (03/02/2020)
 

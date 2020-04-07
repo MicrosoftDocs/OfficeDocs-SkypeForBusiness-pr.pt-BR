@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Leia este tópico para saber mais sobre o gerenciamento de salas do Microsoft Teams, a próxima geração de sistemas de sala do Skype.
-ms.openlocfilehash: 5368df53e7617f602265071a66f7b871c6b88f66
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 1fecf852c11e7ab89e0cdc7dc6caf615182e7d5f
+ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825859"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43157754"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Manutenção e operações de salas do Microsoft Teams 
  
@@ -31,10 +31,10 @@ Com configurações adicionais, o gerenciamento remoto é possível usando o Mic
 ## <a name="collecting-logs-on-microsoft-teams-rooms"></a>Coletando logs em salas do Microsoft Teams
 <a name="Logs"> </a>
 
-Para coletar logs, você deve invocar o script de coleta de log que acompanha o aplicativo salas do Microsoft Teams. No modo Admin, inicie um prompt de comandos com privilégios elevados e emita o seguinte comando:
+Para coletar logs, você deve invocar o script de coleta de log que acompanha o aplicativo salas do Microsoft Teams. No modo de administração, inicie um prompt do PowerShell elevado e execute o seguinte comando:
   
 ```PowerShell
-powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\ScriptLaunch.ps1 CollectSrsV2Logs.ps1
+c:\rigel\x64\scripts\provisioning\ScriptLaunch.ps1 CollectSrsV2Logs.ps1 -ExecutionPolicy unrestricted
 ```
 
 Os logs serão exibidos como um arquivo ZIP em c:\rigel.
@@ -84,7 +84,7 @@ Esta seção abrange as configurações do sistema das quais as salas do Microso
 A transferência de arquivos usando políticas de grupo é discutida em [configurar um item de arquivo](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx).
 
 > [!NOTE]
-> Quando o dispositivo de salas do Microsoft Teams é compatível com a próxima versão do Windows 10 OS, o dispositivo é atualizado automaticamente para a próxima versão por meio do Windows Update. O dispositivo de salas do Microsoft Teams não deve ser atualizado manualmente para o próximo lançamento do Windows 10 ou por meio da habilitação das políticas de grupo do Windows Update for Business (WUFB) "selecionar o nível de preparação do Windows para as atualizações que você deseja receber" e "selecionar quando versões prévias e As atualizações de recursos são recebidas "através de um GPO. Um dispositivo com essas políticas de grupo habilitada é conhecido por ter problemas com o aplicativo de salas do Microsoft Teams para a atualização do Windows 10.
+> Quando o dispositivo de salas do Microsoft Teams é compatível com a próxima versão do Windows 10 OS, o dispositivo é atualizado automaticamente para a próxima versão por meio do Windows Update. O dispositivo de salas do Microsoft Teams não deve ser atualizado manualmente para a próxima versão do Windows 10 ou por meio da habilitação das políticas de grupo do Windows Update for Business (WUFB) "selecionar o nível de preparação do Windows para as atualizações que você deseja receber" e "selecionar quando as versões prévias e atualizações de recursos são recebidas" através de um GPO. Um dispositivo com essas políticas de grupo habilitada é conhecido por ter problemas com o aplicativo de salas do Microsoft Teams para a atualização do Windows 10.
 
 ## <a name="remote-management-using-powershell"></a>Gerenciamento remoto usando o PowerShell
 <a name="RemotePS"> </a>
