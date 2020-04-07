@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Saiba como criar e gerenciar planos de discagem de chamada PSTN (planos de discagem de chamada PSTN) e como gerenciá-los.
-ms.openlocfilehash: 774b0a78f39b91b634ed0833be3497935cb25c4f
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 6a5f46772ed8eebb309ba8bd9eaeca6fddb35afa
+ms.sourcegitcommit: 0fdc60840f45ff5b0a39a8ec4a21138f6cab49c9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826919"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43160075"
 ---
 # <a name="create-and-manage-dial-plans"></a>Criar e gerenciar planos de discagem
 
@@ -61,11 +61,11 @@ Depois de planejar os planos de discagem para a sua organização e descobrir to
 
 ### <a name="add-users-to-a-dial-plan"></a>Adicionar usuários a um plano de discagem
 
-1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para**plano de discagem**por **voz** > .
-2. Selecione o plano de discagem clicando à esquerda do nome do plano de discagem.
-3. Escolha **Gerenciar usuários**.
-4. No painel **Gerenciar usuários**, procure o usuário pelo nome de exibição ou pelo nome de usuário, escolha o nome e marque **Adicionar**. Repita esta etapa para cada usuário que você deseja adicionar.
-5. Quando tiver terminado de adicionar usuários, selecione **aplicar**.
+1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para **usuários**.
+2. Selecione o usuário clicando no nome para exibição.
+3. Selecione a guia **políticas** .
+4. Clique em **Editar** à direita das políticas atribuídas.
+5. No menu suspenso **plano de discagem** , selecione o plano de discagem que você deseja atribuir ao usuário e clique em **aplicar**.
 
 ## <a name="using-powershell"></a>Usando o PowerShell
   

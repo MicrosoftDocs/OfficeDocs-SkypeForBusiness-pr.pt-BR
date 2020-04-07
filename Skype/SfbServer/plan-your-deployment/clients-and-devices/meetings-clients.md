@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
 description: 'Resumo: os profissionais de ti devem analisar os requisitos de suporte para o aplicativo do Skype for Business Web App e reuniões do Skype durante o planejamento do Skype for Business Server. Este artigo não se destina aos usuários desses aplicativos.'
-ms.openlocfilehash: 77633b53c44e28301b21cc2f37240a4a1e459938
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: f5b402b23cbb49d1605b83b9f54531e26714b1f7
+ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42013444"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43157634"
 ---
 # <a name="plan-for-meetings-clients-web-app-and-meetings-app"></a>Plano para clientes de reuniões (aplicativo Web e aplicativos de reuniões)
  
@@ -65,7 +65,7 @@ Para usar o Skype for Business Web App, um usuário deve ter uma das seguintes c
    
 &#x2776; o plug-in do navegador do Skype for Business Web App requer um plug-in de compartilhamento específico para usar voz, vídeo, compartilhamento e exibição de compartilhamento contínuo de tela e outros recursos baseados no computador. Um participante de reunião recebe a opção de instalar o plug-in de compartilhamento ao ingressar na reunião ou ao iniciar um desses recursos. No Windows 8 e Windows 8,1, o plug-in de compartilhamento pode ser instalado somente se você estiver executando o Internet Explorer 10 ou o Internet Explorer 11 para a área de trabalho. Esses recursos não estão disponíveis em versões que não sejam de área de trabalho do Internet Explorer 10 e 11. Observe que o Firefox e o Safari versão 12,0 e posterior não são mais suportados.
   
-&#x2777; nos sistemas operacionais Windows 7, Windows Server 2008 R2 e Macintosh com suporte, todos os recursos estão disponíveis, incluindo voz, vídeo, visualização de aplicativos, compartilhamento de aplicativos, visualização de área de trabalho e compartilhamento de área de trabalho baseados no computador. Para usar esses recursos, você deve instalar um plug-in quando solicitado. Observe que o Mac OS X versão 10,7 não é mais suportado.
+&#x2777; nos sistemas operacionais Windows 7, Windows Server 2008 R2 e Macintosh com suporte, todos os recursos estão disponíveis, incluindo voz, vídeo, visualização de aplicativos, compartilhamento de aplicativos, visualização de área de trabalho e compartilhamento de área de trabalho baseados no computador. Para usar esses recursos, você deve instalar um plug-in quando solicitado. Observe que o Mac OS X versão 10,7 não é mais suportado.  Observe também que o aplicativo Web não será instalado no OS X 10,15 ou posterior.  Recomendamos usar a versão mais recente do Skype for Business para Mac, que oferece suporte a cenários de junção anônimas em frente.
   
 &#x2778; acessar o aplicativo Web do Chrome no Windows iniciará um pequeno programa que carrega o aplicativo Web em um quadro do Internet Explorer incorporado. Este programa requer que uma das versões suportadas do Internet Explorer esteja instalada para que o aplicativo Web seja carregado corretamente.
   
