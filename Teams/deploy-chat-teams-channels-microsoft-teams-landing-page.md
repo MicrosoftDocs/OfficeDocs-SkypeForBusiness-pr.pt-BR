@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.quickstartteamsadmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f8259b8a06a4601ff7feebca53c06f268bdc08c5
-ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
+ms.openlocfilehash: 0c6cd94f5d7205b438396dcb09ebb047a49b8f2e
+ms.sourcegitcommit: f3390e27bb63b66d1c4fb4f8afbda6b814fbbb5b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42796014"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43170589"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Chat, equipes, canais e aplicativos no Microsoft Teams
 
@@ -98,7 +98,11 @@ O acesso externo (anteriormente conhecido como federação) permite que os usuá
 
 No Teams, o acesso de convidado permite que pessoas que não pertencem à organização acessem canais e equipes. Você pode usar as configurações de acesso de convidado para controlar quais recursos os usuários convidados podem ou não usar. O acesso de convidado está desativado por padrão. Para saber mais, confira [Acesso de convidado do Teams](https://docs.microsoft.com/microsoftteams/guest-access).
 
-|Pergunte-se|Ação |
+> [!NOTE]
+> Para obter mais informações sobre acesso externo e acesso de convidado, confira aqui: [Comunicar-se com usuários de outras organizações no Microsoft Teams](communicate-with-users-from-other-organizations.md)
+
+
+|Pergunte a si mesmo|Ação |
 |------------|-------|
 |Vou ativar o acesso de convidado para minha organização?|Para habilitar o acesso de convidado, confira [Ativar ou desativar o acesso de convidado no Teams](set-up-guests.md).|
 |Se o acesso for habilitado, devo personalizar os recursos disponíveis para pessoas em minha organização?|Para personalizar a disponibilidade dos recursos do acesso de convidado, confira [Autorizar o acesso de convidado no Teams](teams-dependencies.md).|

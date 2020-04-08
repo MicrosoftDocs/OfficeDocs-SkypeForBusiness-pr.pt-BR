@@ -17,12 +17,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3ec86d9f57afca71624263d1cbd6ca212b8093dd
-ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
+ms.openlocfilehash: 65ce8eb17efe434f5da288b89485e813b21190e4
+ms.sourcegitcommit: f3390e27bb63b66d1c4fb4f8afbda6b814fbbb5b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43157907"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43170479"
 ---
 # <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>Início rápido do administrador – reuniões e eventos ao vivo no Microsoft Teams
 
@@ -55,6 +55,8 @@ Se você já preparou a sua rede quando implantou o Microsoft 365 ou o Office 36
 
 - Como administrador, você definirá as [configurações de reunião](meeting-settings-in-teams.md) para todos. Em seguida, você usará [políticas de reunião](meeting-policies-in-teams.md) para controlar quais recursos de reunião estão (e não estão) disponíveis para seus usuários. 
 
+- Para saber mais sobre como gerenciar a gravação da reunião, leia [Gravação de reunião na nuvem do Teams](cloud-recording.md).
+
 - Se os usuários não estiverem familiarizados com as reuniões do Teams, compartilhe o treinamento de [Gerenciamento de reuniões](https://support.office.com/article/join-a-teams-meeting-078e9868-f1aa-4414-8bb9-ee88e9236ee4) com eles. Confira nossa aula online ministrada por instrutor, [Realizar reuniões eficientes com o Teams](https://microsoftteams.eventbuilder.com/MaximizingTeamsMeetings).
 
 - Para saber mais sobre como gerenciar as opções de reunião, leia [Alterar as configurações de participante de uma reunião do Teams](https://support.microsoft.com/office/change-participant-settings-for-a-teams-meeting-53261366-dbd5-45f9-aae9-a70e6354f88e).
@@ -78,3 +80,5 @@ Se você já preparou a sua rede quando implantou o Microsoft 365 ou o Office 36
 [Eventos ao vivo no Teams](teams-live-events/what-are-teams-live-events.md)
 
 [Especificações e limites do Teams](limits-specifications-teams.md)
+
+[Comunidade Técnica da Microsoft: eventos ao vivo no Microsoft 365](https://resources.techcommunity.microsoft.com/live-events/)

@@ -123,6 +123,7 @@
 <!-- ============================================================ -->
 
 # Reuniões e conferências
+## [Início rápido – reuniões e eventos ao vivo](quick-start-meetings-live-events.md)
 ## [Planejar sua implantação](deploy-meetings-microsoft-teams-landing-page.md)
 ## [Tutorial: Reuniões no Teams](Tutorial-Meetings-in-Teams.yml)
 ## [Gerenciar políticas de reunião](meeting-policies-in-teams.md)
@@ -291,6 +292,16 @@
 #### [Planejar o bypass de mídia com Roteamento Direto](direct-routing-plan-media-bypass.md)
 #### [Configurar o bypass de mídia com Roteamento Direto](direct-routing-configure-media-bypass.md)
 
+### Otimização de mídia local do roteamento direto
+#### [Planejar a otimização da mídia local](direct-routing-media-optimization.md)
+#### [Configurar a otimização da mídia local](direct-routing-media-optimization-configure.md)
+
+### Monitorar e solucionar problemas do Roteamento Direto
+#### [Visão geral](direct-routing-monitor-and-troubleshoot.md)
+#### [Painel de Integridade](direct-routing-health-dashboard.md)
+### [Contas de usuário em um ambiente híbrido com conectividade PSTN](direct-routing-user-accounts-in-a-hybrid-environment.md)
+
+### [Migrar para o roteamento direto](direct-routing-migrating.md)
 
 ### Referência técnica do Roteamento direto
 #### [Failover de tronco em chamadas de saída](direct-routing-trunk-failover-on-outbound-call.md)
@@ -649,17 +660,18 @@
 
 # Segurança e conformidade
 ## [Visão geral](security-compliance-overview.md)
+## [Localização dos dados no Teams](location-of-data-in-teams.md)
 ## Segurança
 ### [Guia de segurança](teams-security-guide.md)
 ### [Modelos de identidade e autenticação](identify-models-authentication.md)
 ### [Entrar no Teams usando a autenticação moderna](sign-in-teams.md)
+### [Links seguros no Teams](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links-for-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## Conformidade
 ### [Barreiras de informações](information-barriers-in-teams.md)
 ### [Políticas de retenção](retention-policies.md)
 ### [Prevenção contra Perda de Dados](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### Descoberta eletrônica
 #### [Conduzir uma investigação de descoberta eletrônica do conteúdo](ediscovery-investigation.md)
-#### [Localização dos dados no Teams](location-of-data-in-teams.md)
 #### [Colocar um usuário ou uma equipe do Teams em retenção legal](legal-hold.md)
 ### Pesquisa de Conteúdo
 #### [Usar a Pesquisa de Conteúdo](content-search.md)

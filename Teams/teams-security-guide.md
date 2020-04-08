@@ -19,12 +19,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 37f01b5de9fc5ffd56d703c73e60c3ed55f50b6d
-ms.sourcegitcommit: c70778ea3a29834f62e6ef96053b5540803acc6a
+ms.openlocfilehash: 5289abbafb217b60d6ba55af12454a44d11ce7f5
+ms.sourcegitcommit: f3390e27bb63b66d1c4fb4f8afbda6b814fbbb5b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43153284"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43170480"
 ---
 > [!IMPORTANT]
 > O modelo de serviço do Teams está sujeito a alterações para melhorar a experiência do cliente. Por exemplo, o acesso padrão ou os tempos de expiração do token de atualização podem estar sujeitos a modificações para melhorar a resiliência de desempenho e autenticação para as pessoas que usam o Teams. Quaisquer alterações são feitas com a meta de manter o Teams seguro e confiável por padrão.
@@ -63,7 +63,7 @@ O Teams atenua esses ataques ao executar a proteção de rede DDOS do Azure e ao
 
 A Espionagem pode ocorrer quando um atacante ganha acesso ao caminho dos dados na rede e tem a habilidade para monitorar e ler o tráfego. Isso também é chamado de bisbilhotar ou falsificar. Se o tráfego está no texto plano, o atacante pode lê-lo quando o atacante ganha acesso ao caminho. Um exemplo é um ataque realizado no controle de um router no caminho dos dados.
 
-O Teams usa TLS (MTLS mútuo) para comunicações do servidor no O365 e TLS de clientes do serviço, tornando esse ataque muito difícil ou impossível de ser realizado no período em que uma determinada conversa pode ser atacada. TLS autentica todas as partes e criptografa todo tráfego. Isso não impede a espionagem, mas o atacante não pode ler o tráfego, a não ser que quebre a criptografia. Adicionar seções/linhas OAuth.
+O Teams usa TLS (MTLS mútuo) para comunicações do servidor no O365 e TLS de clientes do serviço, tornando esse ataque muito difícil ou impossível de ser realizado no período em que uma determinada conversa pode ser atacada. TLS autentica todas as partes e criptografa todo tráfego. Isso não impede a espionagem, mas o atacante não pode ler o tráfego, a não ser que quebre a criptografia.
 
 O protocolo TURN é usado para fins de mídia em tempo real. O protocolo TURN não exige que o tráfego seja criptografado e as informações que são enviadas são protegidas pela integridade da mensagem. Mesmo estando abertas apara a espionagem, as informações que são enviadas (o endereço do IP e a porta) podem ser extraídas diretamente olhando os endereços de saída e de destino dos pacotes. O serviço do Teams garante que os dados são válidos verificando a Integridade da Mensagem da mensagem, usando a chave derivada de poucos itens, incluindo uma senha do TURN, que nunca é enviada em um texto não criptografado. O SRTP é usado para o tráfego de mídia e também é criptografado.
 
