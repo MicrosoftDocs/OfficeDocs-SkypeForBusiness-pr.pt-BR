@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
 description: Saiba como configurar o sistema telefônico para filas de chamadas em nuvem com o Microsoft Teams.
-ms.openlocfilehash: fc958aa1713a7cda12a054b3a029bfc1786b0955
-ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
+ms.openlocfilehash: 2027658c5335f19c00ea1c8e44c6d38e1f16a730
+ms.sourcegitcommit: 9a448104a76857e3aa464c53cec577d813f8f414
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42897238"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "43184245"
 ---
 # <a name="create-a-cloud-call-queue"></a>Criar uma fila de chamada do Cloud
 
@@ -49,11 +49,9 @@ Todas as chamadas na fila são enviadas aos agentes por um dos seguintes método
 - Com o roteamento serial, a primeira chamada na fila toca todos os agentes de chamada um por vez.
 - Com o rodízio, o roteamento de chamadas recebidas é balanceado para que cada agente de chamadas obtenha o mesmo número de chamadas da fila.
 
-    > [!NOTE]
-    > Os agentes de chamada que estiverem **offline**, definiram sua presença como **não incomodar** ou recusaram a fila de chamadas não receberão chamadas.
+Você pode definir as opções de gerenciamento de chamadas, como consentimento de agente/recusa, roteamento baseado em presença, tempo de espera de chamada e opções de tempo limite de chamada com qualquer um dos métodos acima.
 
-- Apenas uma notificação de chamada de entrada (para a chamada no início da fila) ao mesmo tempo vai para os agentes de chamada.
-- Depois que um agente aceitar a chamada, a próxima chamada de entrada na fila começará a tocar nos agentes de chamadas.
+Apenas uma notificação de chamada de entrada (para a chamada no início da fila) ao mesmo tempo vai para os agentes de chamada. Depois que um agente aceitar a chamada, a próxima chamada de entrada na fila começará a tocar nos agentes de chamadas.
 
 > [!NOTE]
 > Este artigo se aplica ao Microsoft Teams e ao Skype for Business online.
@@ -164,7 +162,7 @@ músicas de captura de tela anteriores**em espera** , você pode usar a música 
 
 ### <a name="select-the-call-answering-options"></a>Selecionar as opções de atendimento de chamada
 
-![Captura de tela das opções de atendimento de chamadas](media/5d249515-d532-4af2-90da-011404028b89.png) 
+![Captura de tela das opções de atendimento de chamadas](media/teams-cq-call-answering-options.png)
 
 ![O ícone do número 1 faz referência a um texto explicativo na](media/teamscallout1.png)
 captura de tela anterior**agentes e grupos** para adicionar agentes individuais diretamente, sem adicioná-los a um grupo, clique em **Adicionar usuários**. Coloque agentes individuais na ordem em que você deseja que eles recebam a chamada. Você pode adicionar até 20 agentes individuais (para adicionar mais de 20, colocá-los em um grupo).
@@ -177,9 +175,9 @@ Você pode selecionar até 200 agentes de chamada que pertencem a qualquer uma d
 - Grupo de segurança
 - Lista de distribuição
 
-Os agentes de chamada selecionados devem ser: 
+Os agentes de chamada selecionados devem ser um dos seguintes:
 
-- Usuários online com uma licença do sistema telefônico e Enterprise Voice habilitadas 
+- Usuários online com uma licença do sistema telefônico e Enterprise Voice habilitadas
 - Usuários online com um plano de chamada
 - Usuários locais do Skype for Business Server
 
@@ -197,9 +195,17 @@ Os agentes de chamada selecionados devem ser:
 
 - O **Roteamento de atendedor** faz com que a primeira chamada na fila toque em todos os agentes de chamada ao mesmo tempo. O primeiro agente de chamadas para atender a chamada recebe a chamada.
 - **Roteamento serial** as chamadas recebidas entram em contato com todos os agentes de chamada, um por um, do início da lista de agentes de chamadas. Os agentes não podem ser solicitados na lista agente de chamadas. Se um agente ignorar ou não atender a chamada, a chamada tocará no próximo agente e experimentará todos os agentes até que ele seja retirado ou expirado.
-  > [!NOTE]
-  > Com o roteamento serial, para agentes que estiverem **offline** ou que definiram sua presença como **não incomodar**, a chamada será roteada para esses usuários e não poderá conectar o usuário indisponível, o roteamento para o próximo agente na lista de agentes. Isso não acontecerá se o agente **optar** por não receber chamadas da fila de chamadas. Para reduzir o intervalo de tempo que os roteiros de chamadas para o próximo agente na linha, o tempo de alerta do agente pode ser reduzido.
 - O direcionamento de **rodízio** equilibra a circulação de chamadas de entrada para que cada agente de chamadas obtenha o mesmo número de chamadas da fila. Isso pode ser desejável em um ambiente de vendas de entrada para garantir uma oportunidade igual entre todos os agentes de chamadas.
+
+![O ícone do número 3, faz referência a um balão no roteamento](media/teamscallout3.png)
+baseado em presença de**roteamento baseado em presença** de captura de tela anterior, usa o status de disponibilidade dos agentes de chamada para determinar se um agente deve ser incluído na lista de roteamento de chamadas para o método de roteamento selecionado. Os agentes de chamada cujo status de disponibilidade está definido como **disponível** estão incluídos na lista de circulação de chamadas e podem receber chamadas. Os agentes cujo status de disponibilidade é definido como qualquer outro status serão excluídos da lista de roteamento de chamadas e não receberão chamadas até que seu status de disponibilidade mude novamente para **disponível**.
+
+Você pode habilitar o roteamento de chamadas baseado em presença com qualquer um dos métodos de roteamento.
+
+Se um agente optar por não receber chamadas, ele não será incluído na lista de roteamento de chamadas, independentemente do seu status de disponibilidade definido como.
+
+> [!CAUTION]
+> Os agentes que usam o cliente Skype for Business não são incluídos na lista de roteamento de chamadas quando o roteamento baseado em presença está habilitado, independentemente de seu status de disponibilidade. Os agentes que não estão na lista de circulação de chamadas não recebem chamadas. Se você tiver agentes que usam o Skype for Business, não habilite o encaminhamento de chamadas baseado em presença.
 
 ### <a name="select-an-agent-opt-out-option"></a>Selecionar uma opção de cancelamento de agente
 
