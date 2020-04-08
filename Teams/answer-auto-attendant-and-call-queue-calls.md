@@ -19,17 +19,17 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: d630ea41915cb89013e407a6fa0b1cc21cb21abf
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 80400d9e9d7ab1519a15ab299f07896f55342eaf
+ms.sourcegitcommit: a610bfe9c0192432744dfaf8d5ff5c2bb5a16b00
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137431"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "43190863"
 ---
 <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>Atender chamadas do atendedor automático e da fila de chamadas diretamente no Teams
 ===========================================================
 
-Os usuários do teams podem receber e atender chamadas de atendedores automáticos da nuvem e filas de chamadas diretamente do cliente de suas equipes. Para usuários do Teams, o recurso atendedor automático agora está disponível geralmente, e o recurso de fila de chamadas está em visualização. 
+Os usuários do teams podem receber e atender chamadas de atendedores automáticos da nuvem e filas de chamadas diretamente do cliente de suas equipes.
 
 ## <a name="what-are-auto-attendants-and-call-queues"></a>O que são atendedores automáticos e filas de chamadas?
 

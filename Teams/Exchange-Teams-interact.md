@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 68468455da96fc3b2790a832b6732d7211bd7733
-ms.sourcegitcommit: dc6108917392754d950cea47b92f871211bf4212
+ms.openlocfilehash: d97f92b56b4a3e38489b1f99f8ba25497485495f
+ms.sourcegitcommit: a610bfe9c0192432744dfaf8d5ff5c2bb5a16b00
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43131139"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "43191238"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Como o Exchange e o Microsoft Teams interagem
 
@@ -36,7 +36,7 @@ Os usuários hospedados no Exchange Online ou no Exchange Dedicated vNext podem 
 
 Os usuários hospedados no Exchange Online dedicado (Herdado) devem ser sincronizados com o Azure Active Directory no Office 365. Eles podem criar e ingressar em equipes e canais, adicionar e configurar guias e bots e usar os recursos de chat e chamadas. No entanto, eles não podem modificar imagens de perfil, gerenciar reuniões, acessar contatos do Outlook ou gerenciar conectores.
 
-Os usuários com caixas de correio hospedadas no local devem ser sincronizados com o Azure Active Directory. Eles podem usar todos os recursos no cenário acima, mas além disso, eles também podem alterar a imagem do perfil do usuário (se a política de caixa de correio do Outlook na Web permitir que eles façam isso) e gerenciar reuniões, fornecer o Exchange Server 2016 (atualização cumulativa 3) ou posterior estiver em execução no local.
+Os usuários com caixas de correio hospedadas no local devem ser sincronizados com o Azure Active Directory. Eles podem usar todos os recursos no cenário acima, mas além disso, eles também podem alterar a imagem do perfil do usuário (se a política de caixa de correio do Outlook na Web permitir que eles façam isso) e gerenciar reuniões, fornecer o Exchange Server 2016 (atualização cumulativa 3), ou posterior, estiver em execução no OAuth com OAuth configurado (de preferência, pelo assistente de configuração híbrida).
 
 A tabela a seguir fornece uma referência rápida útil para a disponibilidade de recursos com base no ambiente do Exchange.
 
@@ -48,7 +48,7 @@ A tabela a seguir fornece uma referência rápida útil para a disponibilidade d
 |**Exchange Online**|Sim <sup>2</sup>|Sim <sup>2</sup>|Sim |Sim |Sim|Sim<sup>8</sup>|Sim |Sim|Sim <sup>7</sup>|Sim |Sim |Sim |Sim|
 |**Exchange Online Dedicated vNext**|Sim <sup>2</sup>|Sim <sup>2</sup>|Sim |Sim |Sim|Sim<sup>8</sup>|Sim |Sim|Sim <sup>7</sup>|Sim |Sim |Sim |Sim|
 |**Exchange Online Dedicated – Legacy** (Sincronização obrigatória com o Azure AD)|Sim <sup>2</sup>|Sim <sup>2, 3</sup>|Sim <sup>4|Sim|Não|Não|Sim|Sim|Não|Sim <sup>5|Sim <sup>6|Sim |Sim|
-|**Exchange no local** (necessário sincronização para o Azure AD)|Sim <sup>2</sup>| Sim <sup>2, 3</sup> |Sim <sup>4|Sim|Sim (Exchange 2016 CU3 +)|Sim<sup>8</sup> (Exchange 2016 Cu3 +)|Sim |Sim|Não|Sim <sup>5|Sim <sup>6|Sim |Sim|
+|**Exchange no local** (sincronização com o Azure ad & a configuração OAuth necessária)|Sim <sup>2</sup>| Sim <sup>2, 3</sup> |Sim <sup>4|Sim|Sim (Exchange 2016 CU3 +)|Sim<sup>8</sup> (Exchange 2016 Cu3 +)|Sim |Sim|Não|Sim <sup>5|Sim <sup>6|Sim |Sim|
 
 <sup>1</sup> suporte do Exchange 2016 Cu3 e versões mais recentes.  
 
