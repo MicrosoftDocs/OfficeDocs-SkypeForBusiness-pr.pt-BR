@@ -19,12 +19,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5289abbafb217b60d6ba55af12454a44d11ce7f5
-ms.sourcegitcommit: f3390e27bb63b66d1c4fb4f8afbda6b814fbbb5b
+ms.openlocfilehash: d2aded83cf92a98aaaa1b01fdedab695013dac8e
+ms.sourcegitcommit: 1c2cef3deb384216bf0a89628573a277ee6e3e2b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 04/07/2020
-ms.locfileid: "43170480"
+ms.locfileid: "43174963"
 ---
 > [!IMPORTANT]
 > O modelo de serviço do Teams está sujeito a alterações para melhorar a experiência do cliente. Por exemplo, o acesso padrão ou os tempos de expiração do token de atualização podem estar sujeitos a modificações para melhorar a resiliência de desempenho e autenticação para as pessoas que usam o Teams. Quaisquer alterações são feitas com a meta de manter o Teams seguro e confiável por padrão.
@@ -125,6 +125,9 @@ O TLS permite que os usuários, por meio de seu software cliente, autentiquem os
 Conexões de servidor para servidor dependem do MTLS (TLS mútuo) para autenticação mútua. Em uma conexão MTLS, o servidor que cria a mensagem e o servidor que a recebe trocam certificados mutuamente a partir de uma AC confiável. Os certificados comprovam a identidade de cada servidor ao outro. No serviço do Teams, este procedimento é seguido.
 
 O TLS e o MTLS ajudam a evitar a espionagem e os ataques man-in-the Middle. Em um ataque man-in-the-middle, o invasor redireciona as comunicações entre duas entidades de rede por meio do computador do invasor, sem o conhecimento dos participantes. As especificações de servidores confiáveis do TLS e do Teams reduzem o risco de um ataque man-in-the middle parcialmente na camada de aplicativos usando criptografia coordenada por meio da criptografia de Chave Pública entre os dois pontos de extremidade. O invasor teria que possuir um certificado válido e confiável com a Chave Privada correspondente e emitido para o nome do serviço ao qual o cliente está solicitando descriptografar a comunicação.
+
+> [!NOTE]
+> Os dados do Teams são criptografados em trânsito e em repouso. A Microsoft usa tecnologias padrão do setor, como TLS e SRTP, para criptografar todos os dados em trânsito entre os dispositivos dos usuários e os datacenters da Microsoft e entre os datacenters da Microsoft. Isso inclui mensagens, arquivos, reuniões e outros conteúdos. Os dados corporativos também são criptografados em repouso nos datacenters da Microsoft, de forma que as organizações descriptografem o conteúdo, se necessário, para cumprir suas obrigações de segurança e conformidade, como a Descoberta eletrônica.
 
 ### <a name="encryption-for-teams"></a>Criptografia para o Teams
 
