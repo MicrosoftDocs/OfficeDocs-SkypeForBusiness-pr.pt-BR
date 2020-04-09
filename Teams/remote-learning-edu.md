@@ -18,18 +18,19 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 15e84c6e5d7d205910be982eb0688143cd14abfa
-ms.sourcegitcommit: dc6108917392754d950cea47b92f871211bf4212
+ms.openlocfilehash: 0358e23f4f549aba6064a78d95f7ce160bb738b0
+ms.sourcegitcommit: 1c2cef3deb384216bf0a89628573a277ee6e3e2b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43131219"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43174953"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>Introdução ao Microsoft Teams para aprendizado remoto
 
 > [!NOTE]
-> Este artigo é um excelente recurso para a sua escola configurar um aprendizado remoto. Se você é um professor ou líder escolar, esses recursos podem ajudar:
+> Este artigo é um excelente recurso para a sua escola configurar um aprendizado remoto. Se você é um educador, líder de escola ou profissional de TI, esses recursos podem ajudar:
 >
+> - Baixe [**Como começar a usar o Teams**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/Teams-for-Education-ITAdmin-get-started-guide.pptx?raw=true): Um guia para profissionais de TI com práticas úteis para gerenciamento de segurança e alterações.
 > - Uma coleção de artigos escritos para educadores incluindo orientação para os [**primeiros passos mais importantes para o ensino utilizando o Teams**](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114).
 > - Um curso online de 1 hora no Microsoft Educator Center mostra como os educadores usam o Teams em suas carreiras. [**Transforme o aprendizado com o Microsoft Teams**](https://education.microsoft.com/course/9c9f5c11/overview).
 > - Um curso online de 1 hora no Microsoft Educator Center mostra aos educadores o ensino nas Equipes de Classe. [**Criando um ambiente de aprendizado colaborativo com as Equipes de Classe**](https://education.microsoft.com/course/b1e15cfc/overview).
