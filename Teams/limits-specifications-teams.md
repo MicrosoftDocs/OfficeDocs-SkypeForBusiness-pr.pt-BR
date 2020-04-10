@@ -17,12 +17,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0fd871f36c2261dd5ec243dbd8dbdd52a3a8e694
-ms.sourcegitcommit: 93a8bd330c9a8ced81cd3eafb7b7236e9ed2066f
+ms.openlocfilehash: 3d7b2dec3b4077ddfb06035a2d7069b04c789db1
+ms.sourcegitcommit: 1d24b62f41bce4f8d86d6060291af1267f75a2a2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/13/2020
-ms.locfileid: "41962080"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43209443"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Limites e especificações para o Microsoft Teams
 
@@ -121,8 +121,6 @@ Os nomes de canal também não podem começar com um caractere de sublinhado (_)
 |Recorrente sem hora de término     |Hora inicial + 60 dias         |60 dias         |
 |Recorrente com hora de término     |Hora de término da última ocorrência + 60 dias         |60 dias         |
 
-
-
 ## <a name="teams-live-events"></a>Eventos ao vivo do Teams
 
 |Recurso     | Limite máximo |
@@ -156,6 +154,15 @@ Como o Teams é executado em um back-end do SharePoint Online para compartilhame
 Os canais são apoiados por pastas dentro do conjunto de sites do SharePoint Online criado para a equipe, para que as guias de arquivo dentro de Canais compartilhem os limites de armazenamento da equipe a que pertencem.
 
 Para mais informações, confira [Limites do SharePoint Online](https://support.office.com/article/SharePoint-Online-limits-8f34ff47-b749-408b-abc0-b605e1f6d498).
+
+## <a name="tags"></a>Marcas
+
+|Recurso  |Limite máximo  |
+|---------|---------|
+|Número de marcas por equipe    | 100        |
+|Número de marcas padrão sugeridas por equipe    | 25        |
+|Número de membros da equipe atribuídos a uma marca    |100         |
+|Número de marcas atribuídas a um usuário    |25         |
 
 ## <a name="contacts"></a>Contatos
 

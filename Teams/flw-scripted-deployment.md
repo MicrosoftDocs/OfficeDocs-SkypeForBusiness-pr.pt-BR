@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: caecd0d97e760470604fa164e6356a59699e57ad
-ms.sourcegitcommit: bc1d2e0478a429f981b53765e6194443b32ae35c
+ms.openlocfilehash: 2496656437ddcd7035b9913781c5ebc08b26582e
+ms.sourcegitcommit: 9419860f9a1c1dd2c7c444162e1d55d704e19c69
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43122915"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43207060"
 ---
 # <a name="how-to-provision-teams-at-scale-for-firstline-workers"></a>Como provisionar o Teams em escala para os Trabalhadores da Linha de Frente
 
@@ -37,6 +37,9 @@ Nesse passo a passo, você aprenderá como:
 - Criar políticas de envio de mensagens do Teams, políticas de configuração de aplicativos e políticas de permissão de aplicativos apropriados.
 - Aplicar essas políticas a usuários em escala.
 - Atribuir um grande número de usuários a uma equipe designada.
+
+> [!NOTE]
+> Se você revisou estas informações e acha que precisa de ajuda ou tem alguma dúvida, [**clique aqui**](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbRyMDv-1voW9MqL7zkQ11DzBUREZaU1E0WEk5T0NYS0NDSkFMSDROUUdYMC4u) para entrar em contato com o Suporte White Glove.
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
