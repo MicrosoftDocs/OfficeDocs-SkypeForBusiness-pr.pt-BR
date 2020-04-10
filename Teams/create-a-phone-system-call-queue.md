@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
 description: Saiba como configurar o sistema telefônico para filas de chamadas em nuvem com o Microsoft Teams.
-ms.openlocfilehash: 2027658c5335f19c00ea1c8e44c6d38e1f16a730
-ms.sourcegitcommit: 9a448104a76857e3aa464c53cec577d813f8f414
+ms.openlocfilehash: e6ff659790159595c86a2aa442bcb20bcff9659a
+ms.sourcegitcommit: 1d24b62f41bce4f8d86d6060291af1267f75a2a2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "43184245"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43213649"
 ---
 # <a name="create-a-cloud-call-queue"></a>Criar uma fila de chamada do Cloud
 
@@ -204,7 +204,7 @@ Você pode habilitar o roteamento de chamadas baseado em presença com qualquer 
 
 Se um agente optar por não receber chamadas, ele não será incluído na lista de roteamento de chamadas, independentemente do seu status de disponibilidade definido como.
 
-> [!CAUTION]
+> [!IMPORTANT]
 > Os agentes que usam o cliente Skype for Business não são incluídos na lista de roteamento de chamadas quando o roteamento baseado em presença está habilitado, independentemente de seu status de disponibilidade. Os agentes que não estão na lista de circulação de chamadas não recebem chamadas. Se você tiver agentes que usam o Skype for Business, não habilite o encaminhamento de chamadas baseado em presença.
 
 ### <a name="select-an-agent-opt-out-option"></a>Selecionar uma opção de cancelamento de agente

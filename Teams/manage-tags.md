@@ -16,19 +16,19 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba como gerenciar como as marcas são usadas em sua organização no Microsoft Teams.
-ms.openlocfilehash: 5fbfa980f1cf6acd8ce32af810bf2527ece3d1fa
-ms.sourcegitcommit: 0549714f17f9994cf832a303ec9bc58a537c3a51
+ms.openlocfilehash: 6b95dc07954803ea6d15a1ca5bdf6c705ca3e252
+ms.sourcegitcommit: 1d24b62f41bce4f8d86d6060291af1267f75a2a2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2020
-ms.locfileid: "42951546"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43209483"
 ---
 # <a name="manage-tags-in-microsoft-teams"></a>Gerenciar marcas no Microsoft Teams
 
 As marcas no Microsoft Teams permitem que os usuários se comuniquem com um subconjunto de pessoas de uma equipe. As marcas podem ser adicionadas a um ou vários membros da equipe para que você se conecte facilmente com o subconjunto correto de pessoas. Os proprietários e membros da equipe (se o recurso estiver habilitado para eles) podem adicionar uma ou mais marcas a uma pessoa. As marcas podem ser usadas em @mentions por qualquer pessoa na equipe em uma postagem de canal ou para iniciar uma conversa apenas com as pessoas que receberam essa marca.
 
 > [!NOTE]
-> Marcas ainda não são suportadas em canais privados. As marcas ainda não estão disponíveis nas organizações da Comunidade do governo dos EUA (GCC), GCC alto ou departamento de defesa (DoD). 
+> Marcas ainda não são suportadas em canais privados. As marcas ainda não estão disponíveis nas organizações da Comunidade do governo dos EUA (GCC), GCC alto ou departamento de defesa (DoD).
 
 ## <a name="how-tags-work"></a>Como as marcas funcionam
 
@@ -37,7 +37,7 @@ Uma marca pode ser adicionada a uma pessoa em uma equipe específica. Depois que
 - Um gerente de loja quer postar um comunicado para um canal e notificar todos os caixas.
 - Um gerente de produto de grupo quer enviar mensagens para todos os gerentes de produto em um canal.
 - Um administrador hospitalar quer enviar uma mensagem para todos os radiologists de um canal.
-- Um gerente de marketing deseja iniciar um chat em grupo com todos os designers. 
+- Um gerente de marketing deseja iniciar um chat em grupo com todos os designers.
 
 Para saber mais, confira [usando marcas no Teams](https://support.office.com/article/using-tags-in-teams-667bd56f-32b8-4118-9a0b-56807c96d91e).
 
@@ -46,6 +46,8 @@ Para saber mais, confira [usando marcas no Teams](https://support.office.com/art
 Como administrador, você pode controlar quem pode adicionar marcas e como as marcas são usadas em toda a organização no centro de administração do Microsoft Teams.
 
 ![Captura de tela das configurações de marcação no centro de administração do Microsoft Teams](media/manage-tags-admin-settings.png)
+
+Uma equipe pode ter até 100 marcas, até 100 os membros da equipe podem ser atribuídos a uma marca e até 25 marcas podem ser atribuídas a um único usuário. 
 
 ### <a name="set-who-can-add-tags"></a>Definir quem pode adicionar marcas
 
