@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.voice.phonenumbers.porting.overview
 - Calling Plans
 description: Obtenha uma visão geral de quais são os pedidos de portabilidade e como transferir números de telefone do seu provedor de serviços para o Microsoft Teams.
-ms.openlocfilehash: 7d92c76c62405efbffaff378b2045195c175d867
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 0102adfd53dba3ff455ddbdbc3678e625fd978de
+ms.sourcegitcommit: 2d44f1a673316daf0aca3149571b24a63ca72772
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827939"
+ms.lasthandoff: 04/11/2020
+ms.locfileid: "43227535"
 ---
 # <a name="whats-a-port-order"></a>O que é um pedido de portabilidade?
 
@@ -35,7 +35,9 @@ Revise as informações neste artigo para se familiarizar com a portabilidade de
   
 ## <a name="what-countries-or-regions-support-number-porting"></a>Quais países ou regiões dão suporte à portabilidade numérica?
 
-Você pode portar ou transferir números de telefone em todos os países ou regiões aceitos, mas como enviar uma solicitação de pedido de portabilidade depende do país ou da região da qual os números de telefone vêm. Para obter uma lista de países e regiões que dão suporte à portabilidade de números, consulte [gerenciar números de telefone de sua organização](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
+Você pode portar ou transferir números de telefone em todos os países ou regiões aceitos, mas como enviar uma solicitação de pedido de portabilidade depende do país ou da região da qual os números de telefone vêm. Para obter uma lista de países e regiões que dão suporte à portabilidade de números, consulte [gerenciar números de telefone de sua organização](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).  
+
+Atualmente, [o assistente de portabilidade](transfer-phone-numbers-to-teams.md) no centro de administração do Microsoft Teams é compatível com a obtenção de números de telefone para o Reino Unido, Estados Unidos e Canadá. Para obter números de telefone para outros países e regiões, você pode [Enviar manualmente um pedido de portabilidade](manually-submit-port-order.md).
   
 ## <a name="what-numbers-can-be-transferred"></a>Quais números podem ser transferidos?
 

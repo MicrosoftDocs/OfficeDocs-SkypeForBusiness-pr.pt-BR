@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Instalar o conector do Power BI para usar modelos de consulta CQD
-ms.openlocfilehash: 73f19ef893aebbbd2c6ab9b79946097d6a834c36
-ms.sourcegitcommit: f0f2fa999c1ca4a1118377c7938a247f79217609
+ms.openlocfilehash: ad76c2f4378a1f639abf98d115e4700fae7796c5
+ms.sourcegitcommit: 2d44f1a673316daf0aca3149571b24a63ca72772
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43106688"
+ms.lasthandoff: 04/11/2020
+ms.locfileid: "43227545"
 ---
 # <a name="install-power-bi-connector-to-use-cqd-query-templates"></a>Instalar o conector do Power BI para usar modelos de consulta CQD
 
@@ -75,7 +75,8 @@ Depois que a instalação for concluída, você verá os nomes de várias centen
 
     ![Captura de tela: conector do Power BI](media/CQD-power-bi-connector4.png)
 
-**Observação importante:** O painel de qualidade da chamada requer uma medida para que qualquer consulta seja executada. Falha ao adicionar uma medida a uma consulta causará falha na consulta.
+    > [!IMPORTANT] 
+    > O painel de qualidade da chamada requer uma medida para que qualquer consulta seja executada. Falha ao adicionar uma medida a uma consulta causará falha na consulta.
 
 3.  Em seguida, selecione as dimensões que deseja filtrar e arraste-as para o campo *filtros nesse Visual* no painel *filtros* . No momento, o conector do Power BI do CQD dá suporte a *filtragem básica* (selecione valores em uma lista de possíveis valores de dimensão), *filtragem avançada* (especifique manualmente valores e operandos para filtrar, de forma semelhante ao CQD avançado) e *à filtragem de data relativa* (disponível somente para as dimensões de *hora de término* e hora de *início* ). A filtragem de acordo com a *N superior* não é suportada pela CQD.
 
@@ -83,7 +84,8 @@ Depois que a instalação for concluída, você verá os nomes de várias centen
 
 4.  Por fim, selecione a guia *formato* no painel *visualizações* para estilizar e formatar sua consulta.
 
-**Observação:** As consultas CQD exigem pelo menos uma medida para serem executadas. Se a sua consulta não carregar, verifique novamente se você incluiu uma medida na consulta.
+    > [!NOTE]
+    > As consultas CQD exigem pelo menos uma medida para serem executadas. Se a sua consulta não carregar, verifique novamente se você incluiu uma medida na consulta.
 
 ## <a name="creating-a-drillthrough-report"></a>Criando um relatório detalhado
 
@@ -100,6 +102,10 @@ O [detalhamento do Power bi](https://docs.microsoft.com/power-bi/desktop-drillth
     ![Captura de tela: conector do Power BI](media/CQD-power-bi-connector7.png)
 
 Ao contrário do CQD avançado, o Power BI dá suporte ao detalhamento não sequencial. Desde que uma consulta inclua a dimensão necessária, ela pode detalhar qualquer outra página.
+
+### <a name="best-practice"></a>Prática recomendada
+
+As consultas do conector de qualidade da chamada devem ser projetadas com a funcionalidade de detalhamento. Em vez de tentar carregar todos os dados de uma vez e, em seguida, aplicar uma fatia abaixo com os filtros, comece com consultas de baixa e pouca cardinalidade e faça drill down até consultas de alta cardinalidade. Por exemplo, ao tentar diagnosticar quais subredes contribuem da maioria dos problemas de qualidade, é útil primeiro identificar as regiões e os países que contribuem para o problema e, em seguida, fazer uma busca detalhada nas sub-redes dessa região ou do país. Os modelos do conector de qualidade da chamada foram projetados dessa maneira para atuar como exemplo.
 
 ## <a name="limitations"></a>Relacionadas
 
