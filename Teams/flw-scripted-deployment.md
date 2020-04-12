@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2496656437ddcd7035b9913781c5ebc08b26582e
-ms.sourcegitcommit: 9419860f9a1c1dd2c7c444162e1d55d704e19c69
+ms.openlocfilehash: c747d68b53e428678fd07cd690fa7575262d4ae6
+ms.sourcegitcommit: 2d44f1a673316daf0aca3149571b24a63ca72772
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43207060"
+ms.lasthandoff: 04/11/2020
+ms.locfileid: "43227555"
 ---
 # <a name="how-to-provision-teams-at-scale-for-firstline-workers"></a>Como provisionar o Teams em escala para os Trabalhadores da Linha de Frente
 
@@ -43,7 +43,7 @@ Nesse passo a passo, você aprenderá como:
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
-Baixe os ativos a partir [deste local](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/FLWTeamsScale.zip?raw=true).
+Baixe os ativos a partir [deste local](https://aka.ms/flwteamsscale).
 
 > [!IMPORTANT]
 > Os scripts no link acima são fornecidos como estão pela Microsoft, e devem ser modificados para suas necessidades individuais.
@@ -51,81 +51,83 @@ Baixe os ativos a partir [deste local](https://github.com/MicrosoftDocs/OfficeDo
 ## <a name="technical-requirements"></a>Requisitos técnicos
 
 - O locatário deve ter o número adequado de licenças disponíveis que incluam o Microsoft Teams. Caso ainda não tenha essas licenças, siga as instruções aqui para ativar a [avaliação gratuita do Office 365 E1](e1-trial-license.md).
-- Ao executar essas etapas o usuário deve estar na função de administrador global ou administrador de usuários no Azure AD.
+- O usuário que executa estas etapas deve ter as seguintes funções atribuídas: Administrador Global, Administrador de Usuários e Administrador de Serviço do Teams, no Microsoft Azure Active Directory.
 - Os usuários devem ter direitos para instalar e configurar softwares no computador local.
 
 ## <a name="step-by-step-process-overview"></a>Processo passo a passo
 
-1. **Configuração do Ambiente**
-    1. Baixar o arquivo ZIP que contém o exemplo de scripts e documentação do PowerShell
+1. **Configure seu ambiente**
+    1. Download do repositório GitHub contendo os scripts e documentação de exemplo do Windows PowerShell
+    1. Configurar o ambiente local
     1. Credenciais de configuração
-    1. Configurar ambiente local
-    1. Configurar os Módulos do PowerShell e as Variáveis de Ambiente
-    1. Criar Registro de Aplicativo
-1. **Criar e Configurar Equipes**
-    1. Criar Equipes
-    1. Criar Canais para as Equipes
+    1. Configurar Módulos do Windows PowerShell e variáveis ambientais
+1. **Criar e configurar equipes**
+    1. Criar equipes
+    1. Etapas para a criação de equipes
+    1. Criar canais para as equipes
 1. **Criar Políticas do Teams**
-    1. Criar Políticas de Mensagens do Teams
-    1. Criar Políticas de Configuração de Aplicativos do Teams
-    1. Criar Políticas de Permissão de Aplicativos do Teams
-1. **Criar e Configurar Usuários**
+    1. Criar políticas de mensagens do Teams
+    1. Criar políticas de configuração de aplicativos do Teams
+    1. Criar políticas de permissão de aplicativos do Teams
+1. **Usuários e grupos de segurança**
     1. Criar usuários e grupos de segurança
     1. Atribuir licenciamento a usuários por meio de um licenciamento com base em grupo
 1. **Atribuir Usuários e Políticas**
     1. Atribuir usuários ao Teams
-    1. Atribuir políticas a usuários e grupos
+    1. Atribuir políticas do Teams aos usuários
+    1. OPCIONAL: converter tipo de associação do grupo
 1. **Testar e validar**
-    1. Verificar se há erros
     1. Entrar no Teams com um usuário de teste
+    1. Verificar se há erros
+    1. Tratamento de erros
+1. **Leituras adicionais**
 
 ## <a name="set-up-your-environment"></a>Configurar ambiente
 
 As etapas a seguir permitem configurar o ambiente:
 
-### <a name="download-zip-file-containing-sample-powershell-scripts"></a>Baixe o arquivo .zip que contém exemplos de scripts do PowerShell
+### <a name="download-from-the-github-repository-containing-sample-powershell-scripts-and-documentation"></a>Download do repositório GitHub contendo exemplos de scripts e documentação do Windows PowerShell
 
-Antes de prosseguir, será necessário baixar os scripts [deste local](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/FLWTeamsScale.zip?raw=true).
+Antes de prosseguir, será necessário baixar os scripts [deste local](https://aka.ms/flwteamsscale).
 
-### <a name="setup-credentials"></a>Credenciais de Configuração
+### <a name="configure-the-local-environment"></a>Configurar o ambiente local
 
-Neste documento e nos exemplos de scripts, optamos por criar um arquivo de referência contendo as suas credenciais, de forma a facilitar as coisas. Esta técnica elimina a necessidade de autenticar em todos os pontos de extremidade do serviço, mantendo as credenciais em um repositório local. Para executar os scripts subsequentes, é preciso atualizar esse arquivo de referência com as credenciais exclusivas para você e seu ambiente. De dentro de cada script subsequente, as credenciais adequadas são lidas com a função auxiliar chamada de **GetCreds**, e essas credenciais são usadas para se conectar aos vários serviços.
+A configuração das variáveis de ambiente local permite que os scripts mencionados aqui sejam executados usando caminhos relativos. O rootPath é a raiz de onde você clonou este repositório, e o tenantName está no formato **yourTenant.onmicrosoft.com** (https não deve ser incluído).
 
-Não é raro que seja exigido diferentes credenciais para diferentes serviços. Por exemplo, você pode ter credenciais diferentes para MicrosoftTeams, AzureAD e MSonline. Nesse caso, você poderá executar SetCred salvando cada arquivo de credencial com seu próprio nome significativo.
+1. Abra uma sessão do Windows PowerShell e navegue até a pasta scripts dentro do repositório git clonado.
+1. Execute o script .\SetConfig.ps1 -tenantName [nome do seu locatário] -rootPath "caminho completo para a raiz do repositório git".
 
-Exemplos: SetCreds msol-cred.xml SetCreds azuread-cred.xml SetCreds teams-cred.xml
+Por exemplo: .\SetConfig.ps1 -tenantName contoso.onmicrosoft.com -rootPath "C:\data\source\FLWTeamsScale"
+
+### <a name="setup-credentials"></a>Credenciais de configuração
+
+> [!IMPORTANT]
+> A forma como as credenciais são gerenciadas nesses scripts pode não ser adequada para o seu uso; ela pode ser facilmente alterada para atender aos seus requisitos. Sempre siga os padrões e práticas da sua empresa para proteger contas de serviço e identidades gerenciadas.
+
+Os scripts usam credenciais armazenadas como arquivos XML em $ENV:LOCALAPPDATA\keys, ou seja, a pasta AppData\Local. A função auxiliar **Set-Creds** no módulo **BulkAddFunctions.psm1** precisa ser chamada para definir as credenciais usadas para executar esses scripts. Esta técnica elimina a necessidade de autenticação em todos os pontos de extremidade de serviço, mantendo as credenciais em um armazenamento local. De dentro de cada script, as credenciais apropriadas são lidas com a função auxiliar **Get-Creds**, e essas credenciais são usadas para conectar-se aos vários serviços.
+
+Quando você chama **Set-Creds**, é solicitado que você forneça um nome de arquivo XML que será gravado em $ENV:LOCALAPPDATA\keys. Você pode ter diferentes credenciais para diferentes serviços. Por exemplo, você pode ter diferentes credenciais para MicrosoftTeams, AzureAD e MSonline; nesse caso, você pode executar **Set-Creds** mais de uma vez, salvando cada arquivo de credencial com seu próprio nome significativo.
+
+Exemplos: Set-Creds msol-cred.xml Set-Creds azuread-cred.xml Set-Creds teams-cred.xml
+
+Execute o script **SetCreds.ps1** para salvar suas credenciais. Você verá uma solicitação "Executando a Operação" Export-Clixml "..."; digite 'Y' para aprovar.
 
 > [!NOTE]
-> A conta usada para as credenciais não pode exigir MFA.
+> A conta usada para as credenciais não pode exigir MFA (autenticação multifator).
 
 Aqui está um exemplo de como os vários scripts usam as credenciais salvas para autenticar:
 
 ```azurepowershell
 # Connect to MicrosoftTeams
-$teams_cred = GetCreds teams-cred.xml
+$teams_cred = Get-Creds teams-cred.xml
 Connect-MicrosoftTeams -Credential $teams_cred
 ```
 
-Para definir as suas credenciais, complete o seguinte:
+### <a name="configure-powershell-modules-and-environmental-variables"></a>Configurar os módulos do Windows PowerShell e as variáveis de ambiente
 
-1. Localize **SetCreds.ps1** nos ativos de arquivo .zip.
-1. No PowerShell execute o script **SetCreds.ps1** para salvar suas credenciais.
-    1. Você receberá uma mensagem com "Executando a operação "Export-Clixml"..." e você precisará digitar "Y" para aprovar.
+Você precisará instalar e conectar-se a vários módulos do Windows PowerShell, incluindo Microsoft Azure Active Directory, MSAL, MSCloudUtils e MicrosoftTeams.
 
-### <a name="configure-the-local-environment"></a>Configurar o ambiente local
-
-1. Localize **SetConfig.ps1** nos ativos de arquivo .zip.
-1. No PowerShell, execute o seguinte comando, substituindo as entradas com as informações específicas.
-    1. **SetConfig.ps1** -tenantName [seu nome de locatário] -rootPath "[caminho completo para o repositório git]"
-
-Por exemplo: `.\SetConfig.ps1 -tenantName contoso.onmicrosoft.com -rootPath "C:\data\source\FLWTeamsScale"`
-
-### <a name="configure-powershell-modules-and-environmental-variables"></a>Configurar os módulos do PowerShell e as variáveis de ambiente
-
-Antes de começar, é preciso instalar e se conectar a vários módulos do PowerShell, incluindo Azure AD, MSAL, MSCloudUtils e MicrosoftTeams.
-
-1. Localize **ConfigurePowerShellModules.ps1** nos ativos de arquivo .zip.
-1. Edite e substitua as seguintes variáveis de ambiente pelas suas variáveis:
+1. Localize o **ConfigurePowerShellModules.ps1** na pasta de scripts no repositório.
 1. No PowerShell, execute o script **ConfigurePowerShellModules.ps1**.
 
 ## <a name="create-and-set-up-teams"></a>Criar e configurar equipes
@@ -146,8 +148,8 @@ As equipes são um conjunto de pessoas, conteúdos e ferramentas dentro da organ
 
 #### <a name="steps-to-create-teams"></a>Etapas para criar equipes
 
-1. Localize o arquivo **Teams Information.csv** nos ativos.
-1. Atualize as informações no arquivo **Teams Information.csv** com as informações específicas da sua organização. Lembre-se das nossas melhores práticas acima.
+1. Localize o arquivo **TeamsInformation.csv** na pasta de dados no repositório.
+1. Atualize as informações no arquivo **TeamsInformation.csv** com as informações específicas da sua organização. Lembre-se das nossas melhores práticas acima.
 1. Localize o script **CreateTeams.ps1**.
 1. No PowerShell, execute o script **CreateTeams.ps1**.
 
@@ -168,10 +170,10 @@ Os canais são seções dedicadas dentro de uma equipe para manter as conversas 
 
 #### <a name="steps-to-create-channels-for-teams"></a>Etapas para criar canais para as equipes
 
-1. Localize o arquivo **TeamsChannels.csv** nos ativos de arquivo .zip.
+1. Localize o arquivo **TeamsChannels.csv** na pasta de scripts no repositório.
 1. Atualize o arquivo **TeamsChannels.csv** com as informações específicas da sua organização. Lembre-se das nossas melhores práticas acima.
-1. Localize o script **CreateTeamsChannels.ps1** nos ativos de arquivo .zip.
-1. No PowerShell, execute o script **TeamsChannels.ps1**.
+1. Localize o script **CreateTeamsChannels.ps1** na pasta de scripts no repositório.
+1. No Windows PowerShell, execute o script **CreateTeamsChannels.ps1**.
 
 ## <a name="create-teams-policies"></a>Criar políticas do Teams
 
@@ -187,10 +189,10 @@ As políticas de mensagens são usadas para controlar quais recursos de mensagen
 
 #### <a name="steps-to-create-teams-message-policies"></a>Etapas para criar políticas de mensagens do Teams
 
-1. Localize o arquivo **TeamsMessagingPolicies.csv** nos ativos de arquivo .zip.
+1. Localize o arquivo **TeamsMessagingPolicies.csv** na pasta de scripts no repositório.
 1. Atualize o arquivo **TeamsMessagingPolicies.csv** com as informações específicas da sua organização. Informações adicionais sobre algumas das várias opções podem ser encontradas [aqui](https://docs.microsoft.com/microsoftteams/messaging-policies-in-teams#messaging-policy-settings).
-1. Localize o script **CreateTeamsMessagePolicies.ps1** nos ativos.
-1. No PowerShell, execute o script **TeamsMessagePolicies.ps1**.
+1. Localize o script **CreateTeamsMessagePolicies.ps1** na pasta de scripts no repositório.
+1. No Windows PowerShell, execute o script **CreateTeamsMessagePolicies.ps1**.
 
 ### <a name="create-teams-app-setup-policies"></a>Criar políticas de configuração de aplicativos do Teams
 
@@ -254,7 +256,7 @@ As seguintes configurações podem ser personalizadas para atender às suas nece
     1. Teams
     1. Turnos ![Captura de tela da lista de aplicativos do trabalhador na ordem.](media/FLW-Worker-Pinned-Apps.png)
 
-### <a name="create-app-permission-policies"></a>Criar políticas de permissão de aplicativos
+### <a name="create-teams-app-permission-policies"></a>Criar políticas de permissão de aplicativos do Teams
 
 Como administrador, você pode usar as políticas de permissão do aplicativo para controlar quais aplicativos estarão disponíveis para os usuários do Microsoft Teams em sua organização. Você pode permitir ou bloquear todos os aplicativos, ou aplicativos específicos publicados pela Microsoft, por terceiros e pela sua organização. Ao bloquear um aplicativo, os usuários que têm a política não conseguem instalá-lo da loja de aplicativos do Teams. Você deve ser um administrador global ou administrador de serviços do Teams para gerenciar essas políticas.
 
@@ -288,9 +290,9 @@ As seguintes configurações podem ser personalizadas para atender às suas nece
 6. Em aplicativos do locatário, escolha **Permitir todos os aplicativos**.
 7. Clique em **Salvar**.
 
-## <a name="create-and-set-up-users"></a>Criar e configurar usuários
+## <a name="users-and-security-groups"></a>Usuários e grupos de segurança
 
-### <a name="create-user-and-security-groups"></a>Criar usuário e grupos de segurança
+### <a name="create-users-and-security-groups"></a>Criar usuários e grupos de segurança
 
 Para trabalhar com uma grande quantidade de usuários no Teams, primeiro é necessário ter os usuários criados no Azure AD. Há muitas maneiras de provisionar um grande número de usuários, mas vamos destacar o seguinte:
 
@@ -301,17 +303,17 @@ Para trabalhar com uma grande quantidade de usuários no Teams, primeiro é nece
 
 A fim de gerenciar esses usuários em escala com mais eficiência, você precisa criar dois grupos de segurança para os trabalhadores da linha de frente e os gerentes da linha de frente, e provisionar esses usuários diretamente para os grupos de segurança, seguindo essas etapas:
 
-1. Localize o arquivo **SecurityGroups.csv** nos ativos de arquivo .zip.
-1. Atualize o arquivo **SecurityGroups.csv** com as informações específicas da organização.
-    1. Certifique-se de atualizar os campos **MessagePolicy**, **AppPermissionPolicy** e **AppSetupPolicy** para mapear as políticas adequadas que você criou anteriormente.
-    1. Certifique-se de atualizar o campo **LicensePlan** para refletir o licenciamento que você pretende dar a cada um desses usuários. Para mais informações sobre nomes de produtos e identificadores de planos de serviços, confira a documentação [aqui](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-service-plan-reference).
-1. Localize o arquivo **Users.csv** nos ativos de arquivo .zip.
+1. Localize o arquivo **Users.csv** na pasta de scripts no repositório.
 1. Atualize o arquivo **Users.csv** com as informações específicas da organização.
     1. Por padrão, o script fornecido criará um usuário com uma senha temporária que deve ser alterada no primeiro logon. Se você não quiser usar a senha padrão, edite o script **CreateUsers.ps1** para atender às suas necessidades.
     1. Certifique-se de atualizar o campo SecurityGroup para refletir o nome apropriado criado anteriormente.
-1. No PowerShell, execute o script **CreateUsers.ps1** de ativos.
+1. Localize o arquivo **SecurityGroups.csv** na pasta de scripts no repositório.
+1. Atualize o arquivo **SecurityGroups.csv** com as informações específicas do grupo de segurança da sua organização.
+    1. Certifique-se de atualizar os campos **MessagePolicy**, **AppPermissionPolicy** e **AppSetupPolicy** para mapear as políticas adequadas que você criou anteriormente.
+    1. Certifique-se de atualizar o campo **LicensePlan** para refletir o licenciamento que você pretende dar a cada um desses usuários. Para mais informações sobre nomes de produtos e identificadores de planos de serviços, confira a documentação [aqui](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-service-plan-reference).
+1. No Windows PowerShell, execute o script **CreateUsers.ps1** de ativos.
 
-### <a name="assign-licensing-to-users-by-group-based-licensing"></a>Atribuir licenciamento a usuários por licenciamento com base em grupo
+### <a name="assign-licensing-to-users-via-group-based-licensing"></a>Atribuir licenciamento a usuários por meio de um licenciamento com base em grupo
 
 Os serviços de nuvem pagos da Microsoft, como o Office 365, Enterprise Mobility + Security, Dynamics 365 e outros produtos similares, exigem licenças. Estas licenças são atribuídas a cada usuário que necessita ter acesso a esses serviços. Para gerencias as licenças, os administradores usam um dos portais de gerenciamento (Office ou Azure) e cmdlets do PowerShell. O Azure Active Directory (Azure AD) é a infraestrutura subjacente que oferece suporte ao gerenciamento de identidade para todos os serviços de nuvem da Microsoft. O Azure AD armazena informações sobre os estados de atribuição de licenças para os usuários.
 
@@ -319,34 +321,65 @@ A fim de permitir o licenciamento em escala, o Azure AD inclui agora o licenciam
 
 ## <a name="assign-users-and-policies"></a>Atribuir usuários e políticas
 
-### <a name="assigning-users-to-teams"></a>Atribuindo usuários às equipes
+### <a name="assign-users-to-teams"></a>Atribuir usuários a equipes
 
-Agora que você criou os usuários e criou as equipes, é hora de colocar todos os usuários nas equipes apropriadas.
+Agora que você criou os usuários e as equipes, é hora de colocar todos os usuários nas equipes apropriadas.
 
-1. Encontre o arquivo **Users.csv** nos ativos de arquivo .zip e certifique-se de ter um mapeamento exato para as equipes desse arquivo.
-1. No PowerShell, execute o script **AssignUserstoTeams.ps1** dos ativos de arquivo .zip.
+1. Localize o arquivo **Users.csv** na pasta de dados no repositório e certifique-se de que você tenha um mapeamento exato para as equipes neste arquivo.
+1. No Windows PowerShell, execute o script **AssignUserstoTeams.ps1** na pasta de scripts no repositório.
 
 ### <a name="assign-teams-policies-to-users"></a>Atribuir políticas de equipes aos usuários
 
 Agora que você criou os usuários e as políticas para modificar sua experiência nas equipes, é hora de atribuir essas políticas aos usuários corretos.
 
-1. Encontre o arquivo **SecurityGroups.csv** nos ativos de arquivo .zip e certifique-se de ter um mapeamento exato das políticas para os grupos.
-1. No PowerShell, execute o script **AssignPoliciestoUsers.ps1** dos ativos de arquivo .zip.
+1. Localize o arquivo **SecurityGroups.csv** na pasta de dados no repositório e certifique-se de que você tenha um mapeamento preciso das políticas para os grupos.
+1. No Windows PowerShell, execute o script **AssignPoliciestoUsers.ps1** na pasta de scripts no repositório.
+
+### <a name="optional-convert-group-membership-type"></a>OPCIONAL: converter tipo de associação do grupo
+
+> [!NOTE]
+> Esta etapa é para pessoas que tenham o Microsoft Azure Active Directory P1 ou superior.
+
+Quando licenciado para o Microsoft Azure Active Directory P1 ou superior, você tem a opção de usar a Associação Dinâmica de Grupo em vez de usar a associação atribuída. Os scripts que criaram as equipes também criaram grupos do Office do tipo de associação Atribuído, o que significa que seus membros devem ser adicionados explicitamente.
+
+Usando a Associação Dinâmica, regras são escritas para determinar se alguém é membro da equipe ou não.
+
+> [!NOTE]
+> Quando você executar este script, os membros atuais do grupo serão removidos (exceto seus proprietários) e novos membros serão adicionados quando o trabalho de sincronização da associação for executado.
+
+1. Localize o arquivo **migrateGroups.csv** na pasta de dados no repositório.
+1. Atualize o arquivo CSV **migrateGroups.csv** com os grupos que serão migrados, juntamente com a regra para associação dinâmica.
+1. Localize o arquivo **ConvertGroupMembershipType.ps1** na pasta de scripts no repositório.
+1. No Windows PowerShell, execute o script **ConvertGroupMembershipType.ps1**
 
 ## <a name="test-and-validate"></a>Testar e validar
-
-### <a name="check-for-errors"></a>Verificar se há erros
-
-A medida que os scripts anteriores foram executados, erros ou exceções foram gravados em um arquivo .csv localizado na pasta de logs dos ativos de arquivo .zip. Esse arquivo pode ser usado para investigar todos os problemas que possam ter ocorrido.
-
-Um exemplo de exceção poderia ser se você tentasse criar uma equipe que já existisse no seu locatário.
-
-1. Encontre a pasta **Logs** e revise qualquer arquivo .csv que ela possa conter. Se não houver exceções, poderá não encontrar um arquivo de exceção aqui.
 
 ### <a name="login-to-teams-with-a-test-user"></a>Entrar no Teams com um usuário de teste
 
 Agora que você completou todas as etapas, é hora de verificar o trabalho concluído.
 
-1. Escolha um usuário da sua lista anterior e entre no Teams com as credenciais desse usuário.
+1. O usuário criado terá uma senha inicial, que está no arquivo CreateUsers.ps1, e precisará alterá-la na primeira vez que entrar.
 1. Verifique se a aparência do Teams é a esperada. Caso contrário, reveja as seções **Criar políticas do Teams** e **Atribuir políticas do Teams aos usuários**.
 1. Verifique se o usuário está na equipe correta. Caso contrário, reveja as seções **Criar e configurar usuários** e **Atribuir usuários ao Teams**.
+
+> [!NOTE]
+> Se o provisionamento de funcionários de contato direto for gerenciado por meio da sua equipe de Gerenciamento de Acesso, você precisará seguir o processo da equipe para fornecer as credenciais ao funcionário.
+
+### <a name="check-for-errors"></a>Verificar se há erros
+
+Enquanto você executava os scripts anteriores, erros ou exceções foram gravados em um arquivo .csv localizado na pasta de logs na sua cópia do repositório. Esse arquivo pode ser usado para investigar todos os problemas que possam ter ocorrido.
+
+Um exemplo de exceção poderia ser se você tentasse criar uma equipe que já existisse no seu locatário.
+
+1. Encontre a pasta **Logs** e revise qualquer arquivo .csv que ela possa conter. Se não houver exceções, poderá não encontrar um arquivo de exceção aqui.
+
+### <a name="error-handling"></a>Tratamento de erros
+
+O tratamento mínimo de erros foi implementado nesses scripts de exemplo.  Existem blocos try/catch e, se acionados, armazenamos o erro em uma variável no bloco catch. O tratamento de erros adicional deve ser implementado de acordo com suas preferências.
+
+## <a name="further-reading"></a>Leituras adicionais
+
+- [Novo canal de equipe (Windows PowerShell)](https://docs.microsoft.com/powershell/module/teams/new-teamchannel?view=teams-ps)
+- [Nova política de mensagens do Teams (Windows PowerShell)](https://docs.microsoft.com/powershell/module/skype/new-csteamsmessagingpolicy?view=skype-ps)
+- [Atribuir políticas aos usuários no Microsoft Teams](assign-policies.md#install-and-connect-to-the-microsoft-teams-powershell-module)
+- [Atribuir licenças e contas de usuário usando o Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell)
