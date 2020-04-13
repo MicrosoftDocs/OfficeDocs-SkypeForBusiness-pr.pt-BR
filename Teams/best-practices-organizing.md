@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 621bb6328ab4ea59caa18d27fe7196a25ee15157
-ms.sourcegitcommit: 1c2cef3deb384216bf0a89628573a277ee6e3e2b
+ms.openlocfilehash: f8f142e48c005b14fc265d7efe6d4413b3c5f44c
+ms.sourcegitcommit: f9860dbf3c719fec5ffc1874b503b6db252afe10
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43174913"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "43237934"
 ---
 <a name="best-practices-for-organizing-teams-in-microsoft-teams"></a>Práticas recomendadas para organizar equipes no Microsoft Teams
 ======================================================
@@ -31,7 +31,10 @@ Equipes são coleções de pessoas que se reúnem em torno de um objetivo comum.
 
 Antes de criar uma equipe, pense na meta, no projeto ou nos itens de trabalho e em quem em sua organização pode ajudar a fornecê-los de forma colaborativa. Depois de identificá-los, adicione essas pessoas ou grupos a uma equipe para começar a colaborar. Como a subscrição pode mudar com o tempo, é uma boa ideia designar vários proprietários para cada equipe. Para mais informações, confira [Gerenciar equipes](https://support.office.com/article/Teams-and-Channels-df38ae23-8f85-46d3-b071-cb11b9de5499).
 
-A playlist de [vídeo](https://www.youtube.com/playlist?list=PLXPr7gfUMmKwYKFSqoPN-aHQppI7rRQLf) do Microsoft Teams fornece mais informações sobre como criar e gerenciar equipes.
+
+Dê uma olhada neste pequeno vídeo para ver alguns exemplos de como estruturar equipes interorganizacionais ou de propósito único:
+
+> [!VIDEO https://www.youtube.com/embed/WkAVgNKn0hs]
 
 ## <a name="add-teams-gradually"></a>Adicione equipes gradualmente
 

@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 545cbc1d170f6b511de5e8d21a237bc893ee0702
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 5bbb66b99a061648c4c12b7611fc7054a4044c6f
+ms.sourcegitcommit: f9860dbf3c719fec5ffc1874b503b6db252afe10
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43138031"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "43237884"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>Implementar a QoS (qualidade de serviço) no Microsoft Teams
 
@@ -78,7 +78,7 @@ Uma simples analogia é que a QoS cria "pistas carona" virtuais na sua rede de d
 
 ## <a name="select-a-qos-implementation-method"></a>Selecionar um método de implementação de QoS
 
-Você pode implementar o QoS via marcação baseada em portas, usando as listas de controle de acesso (ACLs) nos roteadores da sua rede. A marcação baseada em porta é o método mais confiável porque funciona em ambientes mistos Windows e Mac e é a mais fácil de implementar. Os clientes móveis não fornecem um mecanismo para marcar o tráfego usando valores DSCP, portanto, eles precisarão desse método.  
+Você pode implementar o QoS via marcação baseada em portas, usando as listas de controle de acesso (ACLs) nos roteadores da sua rede. A marcação baseada em porta é o método mais confiável porque funciona em ambientes mistos Windows, Mac e Linux e é o mais fácil de implementar. Os clientes móveis não fornecem um mecanismo para marcar o tráfego usando valores DSCP, portanto, eles precisarão desse método.  
 
 Usando esse método, o roteador da sua rede examina um pacote de entrada e, se o pacote chegou usando uma determinada porta ou intervalo de portas, ele a identifica como um determinado tipo de mídia e coloca-o na fila desse tipo, adicionando uma marca [DSCP](https://tools.ietf.org/html/rfc2474) predeterminada ao cabeçalho do pacote IP para que outros dispositivos possam reconhecer seu tipo de tráfego e dar prioridade à sua fila.
 
