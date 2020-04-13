@@ -18,19 +18,20 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0358e23f4f549aba6064a78d95f7ce160bb738b0
-ms.sourcegitcommit: 1c2cef3deb384216bf0a89628573a277ee6e3e2b
+ms.openlocfilehash: a6b89b9c5645c89be54507cf33657a720e27d4b5
+ms.sourcegitcommit: 2d44f1a673316daf0aca3149571b24a63ca72772
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43174953"
+ms.lasthandoff: 04/11/2020
+ms.locfileid: "43227505"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>Introdução ao Microsoft Teams para aprendizado remoto
 
 > [!NOTE]
 > Este artigo é um excelente recurso para a sua escola configurar um aprendizado remoto. Se você é um educador, líder de escola ou profissional de TI, esses recursos podem ajudar:
 >
-> - Baixe [**Como começar a usar o Teams**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/Teams-for-Education-ITAdmin-get-started-guide.pptx?raw=true): Um guia para profissionais de TI com práticas úteis para gerenciamento de segurança e alterações.
+> - Tenha acesso à toda a sua escola ou universidade rapidamente no Teams com a [**Introdução à um pager**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-for-education-getting-started-1-pager.pdf?raw=true).
+> - Baixe [**Como começar a usar o Teams**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/Teams-for-Education-ITAdmin-get-started-guide.pptx?raw=true): um guia para profissionais de TI com práticas úteis ao gerenciamento de segurança e alterações.
 > - Uma coleção de artigos escritos para educadores incluindo orientação para os [**primeiros passos mais importantes para o ensino utilizando o Teams**](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114).
 > - Um curso online de 1 hora no Microsoft Educator Center mostra como os educadores usam o Teams em suas carreiras. [**Transforme o aprendizado com o Microsoft Teams**](https://education.microsoft.com/course/9c9f5c11/overview).
 > - Um curso online de 1 hora no Microsoft Educator Center mostra aos educadores o ensino nas Equipes de Classe. [**Criando um ambiente de aprendizado colaborativo com as Equipes de Classe**](https://education.microsoft.com/course/b1e15cfc/overview).
@@ -72,6 +73,8 @@ Estudantes e professores aproveitarão ao máximo o Teams ao usá-lo com barreir
 
 Os clientes do ensino superior se beneficiam quando você permite que todos, inclusive estudantes, criem equipes para aulas, pesquisas, projetos e grupos de estudo. As escolas de ensino integral podem impedir a criação no Teams para garantir que todas as comunicações entre alunos ocorram em um fórum que inclua um adulto. Nesse caso, a criação de equipes e grupos do Office 365 pode ser restrita a todos os professores e funcionários.
 
+Para obter instruções sobre como criar no Teams, confira: [criar uma equipe de classe no Microsoft Teams](https://support.office.com/article/create-a-class-team-in-microsoft-teams-preview-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b).
+
 ### <a name="2-configure-user-experiences-using-policies"></a>2. Configurar experiências de usuário usando políticas
 
 [As políticas do Teams](teams-policies.md) oferecem a capacidade de controlar as opções disponíveis para usuários específicos ou grupos de usuários. As políticas podem ser aplicadas para definir quem deve ter permissão para usar o chat privado, chamadas particulares, agendamento de reuniões, tipos de conteúdo que podem ser compartilhados e muito mais.
@@ -101,6 +104,10 @@ Este é um conjunto de configurações de política comum não padrão que podem
 - Permitir o agendamento de reunião do canal definido como "desligado"
 - Permitir o agendamento de reuniões particulares definido como "desativado"
 - Permitir Reunir agora em reuniões particulares definido como "desativado"
+- Opcional: Permitir vídeos IP "ativado"
+
+> [!NOTE]
+> Isso permite que os educadores possam ver os vídeos dos alunos em tempo real.
 
 #### <a name="live-events-policy"></a>Políticas de eventos ao vivo
 
@@ -137,6 +144,8 @@ As [equipes de tipo funcionários](https://support.office.com/article/create-a-s
 
 [As reuniões do Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/tutorial-meetings-in-teams) oferecem suporte para até 250 participantes simultâneos, incluindo a capacidade de ter áudio, vídeo, [compartilhamento de conteúdo](https://support.office.com/article/show-your-screen-during-a-meeting-90c84e5a-b6fe-4ed4-9687-5923d230d3a7), quadros de comunicações e anotações compartilhadas. As reuniões podem ser agendadas dentro do cliente do Microsoft Teams como [reunião em um espaço particular ou em um canal de equipe](https://docs.microsoft.com/MicrosoftTeams/tutorial-meetings-in-teams), para que todos os membros da equipe saibam sobre ela. As reuniões podem ser gravadas e salvas para que os participantes possam revisá-las posteriormente. Essas gravações também podem ser [transcritas para encontrar com facilidade o conteúdo](https://support.office.com/article/Microsoft-Stream-automatically-creates-closed-captions-for-videos-8d6ac353-9ff2-4e2b-bca1-329499455308) que foi discutido. Uma câmera, microfone e alto-falante de laptop ou de telefone celular podem ser usados para as reuniões, e você pode obter a qualidade premium de áudio/vídeo com [dispositivos otimizados para o Microsoft Teams](https://products.office.com/microsoft-teams/across-devices/devices).
 
+No Teams, o organizador de reuniões pode finalizar uma reunião para todos os participantes. Com esse recurso, os educadores podem garantir que os alunos não fiquem em uma reunião sem supervisão após o término da aula.
+
 ### <a name="districtuniversity-events-or-updates"></a>Atualizações ou eventos da escola/universidade
 
 Algumas instruções precisam de públicos maiores e de recursos adicionais de produção. Essas reuniões costumam ter apresentadores, produtores e moderadores de P e R definidos. O Microsoft Teams é compatível com essas sessões usando os [Eventos ao vivo do Teams](teams-live-events/what-are-teams-live-events.md). Os Eventos ao vivo podem ser usados em cenários, como as atualizações em toda a escola ou universidade, discursos da liderança e instruções para grandes classes ou grupos de alunos, ou pela comunidade. Saiba mais sobre como realizar sessões ao vivo em: [planejar e agendar um evento ao vivo](https://support.office.com/article/video-plan-and-schedule-a-live-event-f92363a0-6d98-46d2-bdd9-f2248075e502), [produzir um evento ao vivo](https://support.office.com/article/video-produce-a-live-event-34c89e79-ffd4-4a6a-baf6-77055e0709cb), [participar de um evento ao vivo](https://support.office.com/article/video-attend-a-live-event-d837ad8d-ce34-44d0-9744-9beb50e943ac) e [moderar uma sessão de P e R](https://support.office.com/article/video-moderating-a-q-a-4984e582-8c66-4ea3-aaaf-d93cf62e1b76).
@@ -147,6 +156,8 @@ Você pode saber mais sobre como o Microsoft Teams é usado na educação em: [M
 
 > [!NOTE]
 > Alguns dos principais recursos do Microsoft Teams não são específicos para educação. As dicas e truques para os principais recursos do Teams podem ser encontradas em: [Ajuda e aprendizagem do Microsoft Teams](https://support.office.com/teams).
+
+Se você quiser saber mais sobre como proteger os alunos durante as reuniões, confira [Manter os alunos seguros enquanto estiver usando as reuniões de aprendizado a distância do Teams](https://support.office.com/article/f00fa399-0473-4d31-ab72-644c137e11c8).
 
 ### <a name="prevent-users-from-changing-their-profile-photo"></a>Impedir que os usuários alterem suas fotos de perfil
 
