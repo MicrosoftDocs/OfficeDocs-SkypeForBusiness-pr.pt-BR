@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8d47b242-b93d-4c2e-a658-23b78bca30b1
 description: 'Resumo: Prepare seus servidores do Skype for Business Server 2015 com este tópico. Hardware, so, bancos de dados, software, todos os requisitos e recomendações do sistema estão aqui para ajudar a garantir uma instalação bem-sucedida e uma implantação do farm de servidores.'
-ms.openlocfilehash: 9cc063a44924bd6080525ca7a751bd1a3356666c
-ms.sourcegitcommit: 543f650ad4aff73bccfe7a60b66fb944b4e3c119
+ms.openlocfilehash: 53ce5d464b9faea14ca6970f85b3f937af8238e2
+ms.sourcegitcommit: f9860dbf3c719fec5ffc1874b503b6db252afe10
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42572789"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "43237944"
 ---
 # <a name="server-requirements-for-skype-for-business-server-2015"></a>Requisitos de servidor para o Skype for Business Server 2015
  
@@ -47,7 +47,7 @@ Agora que você está com sua topologia inoperante (e, se não tiver, confira o 
   
 Hardware recomendado para servidores front-end, servidores de back-end, servidores Standard Edition e servidores de chat persistente:
   
-|**Componente de hardware**|**Recomenda**|
+|**Componente de hardware**|**Recomendado**|
 |:-----|:-----|
 |CPU  <br/> |processador dual de 64 bits, Hex-Core, 2,26 gigahertz (GHz) ou superior.  <br/> Processadores Intel Itanium não são suportados para funções do Skype for Business Server 2015.  <br/> |
 |Memória  <br/> |32 gigabytes (GB).  <br/> |
@@ -56,7 +56,7 @@ Hardware recomendado para servidores front-end, servidores de back-end, servidor
    
 Hardware recomendado para servidores de borda, servidores de mediação autônomo, servidores de interoperabilidade de vídeo e diretores:
   
-|**Componente de hardware**|**Recomenda**|
+|**Componente de hardware**|**Recomendado**|
 |:-----|:-----|
 |CPU  <br/> |processador dual de 64 bits, Quad-Core, 2,26 gigahertz (GHz) ou superior.  <br/> Processadores Intel Itanium não são suportados para funções do Skype for Business Server 2015.  <br/> |
 |Memória  <br/> |16 gigabytes.  <br/> |
@@ -74,7 +74,10 @@ Após o hardware, você precisará instalar o sistema operacional (OS). Estes s�
 |Windows Server 2012 R2 Datacenter OS com todas as atualizações necessárias instaladas.  <br/> |Sistema operacional Windows Server 2012 R2 Standard com todas as atualizações necessárias instaladas.  <br/> |
 |Windows Server 2012 datacenter OS com todas as atualizações necessárias instaladas.  <br/> |Sistema operacional Windows Server 2012 Standard com todas as atualizações necessárias instaladas.  <br/> |
    
-Se ele não estiver na lista, não funcionará corretamente, não tente fazer novas instalações do Skype for Business Server 2015. Observe que a atualização in-loco do sistema operacional não é suportada pelo Lync Server 2013.  Você deve implantar um pool separado e migrar os usuários para o novo pool com um sistema operacional diferente.
+Se ele não estiver na lista, não funcionará corretamente, não tente fazer novas instalações do Skype for Business Server 2015.
+
+> [!NOTE]
+> A atualização in-loco do sistema operacional não é suportada pelo Lync Server 2013. Você deve implantar um pool separado e migrar os usuários para o novo pool com um sistema operacional diferente. Todos os servidores em um pool devem ter a mesma versão do sistema operacional.
   
 > [!NOTE]
 > Você pode ter notado que o Windows Server 2008 R2 não está na lista. Isso porque recomendamos o Windows Server 2012 R2 para todos os novos servidores a serem usados para o SFB. Você só deve usar o Windows Server 2008 R2 quando tiver servidores existentes com o Lync Server 2013 já instalado, e você pretende fazer uma atualização in-loco deles. O Windows Server 2008 R2 chegou ao fim do ciclo de vida do suporte principal em 1/13/2015 e chegará ao fim do seu ciclo de vida de suporte no 1/14/2020.
