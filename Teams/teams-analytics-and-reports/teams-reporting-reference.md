@@ -15,12 +15,12 @@ ms.collection:
 description: Saiba mais sobre os relatórios do teams que estão disponíveis no centro de administração do Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 080ddb1455a204b7dc96ddcac8d414a1d1b77228
-ms.sourcegitcommit: 095bed15ffe64c34e6c39770b5734d966d5d8a0f
+ms.openlocfilehash: c1c4c142ff311debd3f96d08e386df68af953c2b
+ms.sourcegitcommit: 379bfaf6b0584c1ac93341af605f93ab932a442b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42507959"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "43240641"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Análise e relatórios do Microsoft Teams
 
@@ -28,7 +28,9 @@ Uma nova experiência de análise e relatórios do Microsoft Teams está dispon�
 
 ## <a name="how-to-access-the-reports"></a>Como acessar os relatórios
 
-Para acessar os relatórios, você deve ser um administrador global no Office 365, administrador de serviços do Teams, administrador de comunicações do teams ou administrador do Skype for Business.  Vá para o centro de administração do Microsoft Teams, no painel de navegação à esquerda, selecione **relatórios de análise &** e, em seguida, em **relatório**, escolha o relatório que você deseja executar.
+Para acessar os relatórios, você deve ser um administrador global no Office 365, administrador de serviços do Teams, administrador de comunicações do teams ou administrador do Skype for Business. Para saber mais sobre as funções de administração do Teams e quais relatórios cada função de administrador pode acessar, consulte [usar funções de administrador do teams para gerenciar o Microsoft Teams](../using-admin-roles.md).
+
+Vá para o centro de administração do Microsoft Teams, no painel de navegação à esquerda, selecione **relatórios de análise &** e, em seguida, em **relatório**, escolha o relatório que você deseja executar.
 
 > [!NOTE]
 > Os relatórios no centro de administração do Microsoft Teams são separados dos relatórios de atividades do teams que fazem parte dos relatórios do Office 365 no centro de administração do Microsoft 365. Para obter mais informações sobre os relatórios de atividades no centro de administração do Microsoft 365, consulte [relatórios de atividade do Microsoft Teams no centro de administração do microsoft 365](../teams-activity-reports.md)

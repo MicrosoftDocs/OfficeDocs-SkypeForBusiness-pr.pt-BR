@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba como gerenciar o ciclo de vida de canais privados em sua organização.
-ms.openlocfilehash: 317cded1be30beac8fefbb579d5f0c24258f2fa1
-ms.sourcegitcommit: a4fd238de09366d6ed33d72c908faff812da11a5
+ms.openlocfilehash: 39830035ba91b2fa50c7d5bbd82e6da6e60d0f00
+ms.sourcegitcommit: 379bfaf6b0584c1ac93341af605f93ab932a442b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42637198"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "43240631"
 ---
 # <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>Gerenciar o ciclo de vida de canais privados no Microsoft Teams
 
@@ -271,7 +271,7 @@ Você pode experimentar esses comandos por meio do [Graph Explorer](https://deve
 
 ### <a name="install-the-latest-teams-powershell-module-from-the-powershell-test-gallery"></a>Instalar o módulo do PowerShell do teams mais recente na Galeria de teste do PowerShell
 
-A versão mais recente disponível publicamente do módulo Teams PowerShell (atualmente [1.0.3](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.3)) não oferece suporte ao gerenciamento de canais privados. Use estas etapas para instalar a versão mais recente do módulo do teams PowerShell com suporte a canal privado (atualmente 1.0.18) na Galeria de teste do PowerShell.
+A versão mais recente disponível publicamente do módulo Teams PowerShell (atualmente [1.0.5](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.5)) não oferece suporte ao gerenciamento de canais privados. Use estas etapas para instalar a versão mais recente do módulo do teams PowerShell com suporte a canal privado (atualmente 1.0.21) na Galeria de teste do PowerShell.
 
 > [!NOTE]
 > Não instale o módulo Teams PowerShell da Galeria de teste do PowerShell lado a lado com uma versão do módulo da Galeria pública do PowerShell. Siga estas etapas para desinstalar primeiro o módulo do teams PowerShell da galeria do PowerShell público e instalar a versão mais recente do módulo da Galeria de teste do PowerShell.
@@ -324,7 +324,7 @@ Se você já tiver instalado o módulo do teams PowerShell da Galeria de teste d
 ## <a name="related-topics"></a>Tópicos relacionados
 
 - [Visão Geral do PowerShell do Teams](teams-powershell-overview.md)
-- [Usar a API do Microsoft Graph para trabalhar com o Microsoft Teams](https://docs.microsoft.com/graph/api/resources/teams-api-overview?view=graph-rest-1.0)
+- [Usar a API do Microsoft Graph para trabalhar com o Teams](https://docs.microsoft.com/graph/api/resources/teams-api-overview?view=graph-rest-1.0)
     - [Canais de lista](https://docs.microsoft.com/graph/api/channel-list)
     - [Criar canal](https://docs.microsoft.com/graph/api/channel-post)
     - [Adicionar membro ao canal](https://docs.microsoft.com/graph/api/conversationmember-add)
