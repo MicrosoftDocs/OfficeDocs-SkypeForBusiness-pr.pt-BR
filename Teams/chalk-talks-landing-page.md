@@ -16,12 +16,12 @@ f1.keywords:
 ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.instructorled
 ms.collection:
 - M365-collaboration
-ms.openlocfilehash: cde69bd588c7262e5ed6f0274b091fee29b27030
-ms.sourcegitcommit: 769241842058cfb4618460fad2dde1494a3609a1
+ms.openlocfilehash: 2fd1b76b1aaed68cd0c9ce61fe6d6a408a2fd296
+ms.sourcegitcommit: 379bfaf6b0584c1ac93341af605f93ab932a442b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42573998"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "43240591"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -93,6 +93,7 @@ Projetado para profissionais de ti e tomadores de decisões, a palestra em pales
         </a>
     </li>
     <li>
+        <a href="https://microsoftteams.eventbuilder.com/ChalkTalksEnableFirstline"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -103,13 +104,14 @@ Projetado para profissionais de ti e tomadores de decisões, a palestra em pales
                     </div>
                     <div class="cardText">
                         <h3>Como habilitar o Microsoft Teams para o envolvimento do trabalho da primeira</h3>
-                        <p><font color="red"><i>Em breve!</i></font> Pronto para começar a habilitar os espaços de trabalho digitais para a sua primeira força de trabalho? Juntos, abordaremos as práticas recomendadas para iniciar um piloto para melhorar a comunicação, o envolvimento do funcionário e a produtividade operacional.</p>
+                        <p>Pronto para começar a habilitar os espaços de trabalho digitais para a sua primeira força de trabalho? Juntos, abordaremos as práticas recomendadas para iniciar um piloto para melhorar a comunicação, o envolvimento do funcionário e a produtividade operacional.</p>
                     </div>
                 </div>
             </div>
         </div>
     </li>
     <li>
+        <a href="https://microsoftteams.eventbuilder.com/ChalkTalksQuality"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -119,8 +121,8 @@ Projetado para profissionais de ti e tomadores de decisões, a palestra em pales
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Descubra o que há de novo no Teams</h3>
-                        <p><font color="red"><i>Em breve!</i></font>  Você está esperando um recurso para liberar o Microsoft Teams? Venha a interagir com especialistas do Microsoft Teams enquanto orienta você pelas últimas e mais recentes versões do recurso no último mês, além das práticas recomendadas para implementá-las.</p>
+                        <h3>Fazer a cobrança das experiências de qualidade do AV</h3>
+                        <p>Está procurando garantir que os usuários tenham experiências ideais com reuniões e recursos de voz no Microsoft Teams? Durante esta sessão, vamos discutir ferramentas, relatórios e práticas recomendadas para ajudá-lo a gerenciar&mdash;a qualidade do serviço de estabelecer uma estratégia pró-ativa para a solução de problemas comuns conforme eles surgem.</p>
                     </div>
                 </div>
             </div>
