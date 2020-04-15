@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2f2c5cb45c82696ec5b365dc8e887cbaa9abce13
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: ddd8a0574899c13e03aae34915b8a342d1984feb
+ms.sourcegitcommit: 56ceda54ca48d2984298d4d1f26017c0147d4431
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42046494"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "43505638"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>Interoperabilidade de vídeo na nuvem para o Microsoft Teams
 
@@ -43,6 +43,12 @@ A interoperabilidade de vídeo em nuvem destina-se a clientes que atendem aos se
 - Deseja manter o valor do investimento em seus dispositivos de sala de reunião e dispositivos de vídeo pessoais atuais durante a migração para uma solução nativa do Microsoft Teams
 
 Embora a interoperabilidade de vídeo em nuvem forneça uma excelente solução intermediária, incentivamos nossos clientes a examinar nossas soluções de reunião de equipes nativas, como sistemas de sala de equipe, por longo prazo. 
+
+### <a name="office-365-us-government-and-third-party-services"></a>Office 365 governo dos EUA e serviços de terceiros
+
+O Office 365 fornece a capacidade de integrar aplicativos de terceiros a sites do SharePoint Online, do Skype for Business, do Teams, aos aplicativos do Office incluídos no Office 365 ProPlus (como o Word, o Excel, o PowerPoint e o Outlook) e o Outlook Web App. Além disso, o Office 365 dá suporte à integração com provedores de serviços terceirizados. Esses aplicativos e serviços de terceiros podem envolver o armazenamento, a transmissão e o processamento dos dados do cliente da sua organização em sistemas de terceiros que estão fora da infraestrutura do Office 365 e, portanto, não são cobertos pelos compromissos do Office 365 de conformidade e proteção de dados. **É recomendável que você revise as declarações de privacidade e conformidade fornecidas por terceiros ao avaliar o uso apropriado desses serviços para sua organização.**
+
+
 
 ### <a name="partners-certified-for-microsoft-teams"></a>Parceiros certificados para o Microsoft Teams
 
@@ -87,7 +93,7 @@ Durante a fase de provisionamento, você atribuirá licenças aos usuários adeq
 
 ### <a name="schedule"></a>Prazo
 
-Depois que um usuário estiver habilitado para interoperabilidade de vídeo em nuvem, qualquer reunião agendada usando o suplemento de reunião do teams para Outlook ou o cliente do teams terá as informações adicionais adequadas adicionadas automaticamente à reunião do teams para que o vídeo em nuvem Os dispositivos compatíveis com interoperabilidade podem ingressar em reuniões.
+Depois que um usuário estiver habilitado para interoperabilidade de vídeo em nuvem, qualquer reunião agendada usando o suplemento de reunião do teams para Outlook ou o cliente do teams terá as informações adicionais adequadas adicionadas automaticamente à reunião do teams para que os dispositivos compatíveis com a interoperabilidade de vídeo em nuvem possam participar dessas reuniões.
 
 ### <a name="join"></a>Ingressar
 

@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Saiba como configurar e testar atendedores automáticos da nuvem para o Microsoft Teams.
-ms.openlocfilehash: eff5b3e7d29715714513e7c627a1611f6733b70f
-ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
+ms.openlocfilehash: 05a70c578812ee5ecdd91214ab253843fe67471c
+ms.sourcegitcommit: 56ceda54ca48d2984298d4d1f26017c0147d4431
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43159268"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "43508624"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>Configurar um atendedor automático do Cloud
 
@@ -225,7 +225,7 @@ Se você selecionar **Desconectar**, o chamador será desconectado após a sauda
 >    - Celular/MobilePhone
 >    - TelephoneNumber/intervalo
 >    - OtherTelephone
->- O formato obrigatório para inserir a extensão no campo de número de telefone do usuário é `+<phonenumber>;ext=<extension>` ou `x<extension>`.
+>- O formato obrigatório para inserir a extensão no campo de número de telefone do usuário `+<phonenumber>;ext=<extension>` é `x<extension>`ou.
 >- Não há suporte para a atribuição de uma extensão no centro de administração do teams no momento. Você deve usar o comando [set-MsolUser](https://docs.microsoft.com/powershell/module/msonline/set-msoluser?view=azureadps-1.0) do PowerShell ou o centro de administração do Microsoft 365.
 >- Pode levar até 12 horas antes que as alterações nos atributos AAD intervalo e MobilePhone estejam disponíveis.
 >- Não defina uma extensão para o LineUri de um usuário. Não há suporte para isso no momento.

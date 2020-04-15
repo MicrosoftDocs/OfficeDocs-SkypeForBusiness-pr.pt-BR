@@ -22,17 +22,17 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.general
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 description: Saiba como gerenciar as configurações de política de reunião no Teams.
-ms.openlocfilehash: 142152aaa0c47adea7f680b33fa4c9c59441e6eb
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: b87453fb24173ba648511f49efc82becb2616d70
+ms.sourcegitcommit: 56ceda54ca48d2984298d4d1f26017c0147d4431
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836471"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "43505628"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Gerenciar políticas de reunião no Teams
 
 ::: zone target="docs"
-As políticas de reunião são usadas para controlar os recursos que estão disponíveis para os participantes da reunião em reuniões agendadas pelos usuários da sua organização. Depois de criar uma política e fazer suas alterações, você pode atribuir usuários à política. Você gerencia políticas de reunião no centro de administração do Microsoft Teams ou usando o [PowerShell](teams-powershell-overview.md).
+As políticas de reunião são usadas para controlar os recursos disponibilizados para os participantes de reuniões programadas pelos usuários de sua organização. Depois de criar uma política e fazer suas alterações, você pode atribuir usuários à política. Você gerencia políticas de reunião no centro de administração do Microsoft Teams ou usando o [PowerShell](teams-powershell-overview.md).
 
 Você pode implementar políticas das seguintes maneiras, que afetam a experiência de reunião para os usuários antes de iniciar uma reunião, durante uma reunião ou após uma reunião.
 
@@ -46,18 +46,18 @@ Por padrão, uma política chamada global (padrão para toda a organização) é
 
 ## <a name="change-or-create-a-meeting-policy"></a>Alterar ou criar uma política de reunião
 
-Para alterar ou criar uma política de reunião, vá para o centro de administração do Microsoft Teams >**políticas de reunião**de **reuniões** > . Selecione uma política na lista ou selecione **Adicionar**. Se você estiver criando uma nova política, adicione um nome e uma descrição. O nome não pode conter caracteres especiais ou ter mais de 64 caracteres. Escolha as configurações e, em seguida, selecione **salvar**.
+Para alterar ou criar uma política de reunião, acesse o centro de administração do Microsoft Teams > **Reuniões** > **Políticas de reunião**. Selecione uma política na lista ou selecione **Adicionar**. Se você estiver criando uma nova política, adicione um nome e uma descrição. O nome não pode conter caracteres especiais ou ter mais de 64 caracteres. Escolha as configurações e, em seguida, selecione **salvar**.
 
-Por exemplo, digamos que você tenha um grupo de usuários e deseja limitar a quantidade de largura de banda que a reunião exigiria. Crie uma nova política personalizada chamada "largura de banda limitada" e desabilite as seguintes configurações:
+Por exemplo, digamos que você tenha um grupo de usuários e queira limitar a quantidade de largura de banda que a reunião exigiria. Você criaria uma nova política personalizada chamada "Largura de banda limitada" e desativaria as seguintes configurações:
 
-Em **áudio & vídeo**:
-- Desative permitir gravação na nuvem.
-- Desative permitir vídeo de IP.
+Em **Áudio e vídeo**:
+- Desative a opção Permitir gravação na nuvem.
+- Desative a opção Permitir vídeo IP.
 
-Em **compartilhamento de conteúdo**:
-- Desabilitar o modo de compartilhamento de tela.
-- Desative o recurso permitir quadro de comunicações.
-- Desativar a opção permitir anotações compartilhadas.
+Em **Compartilhamento de conteúdo**:
+- Desative o modo de compartilhamento de tela.
+- Desative a opção Permitir quadro de comunicações.
+- Desative a opção Permitir anotações compartilhadas.
 
 Em seguida, atribua a política aos usuários.
 
@@ -66,11 +66,11 @@ Em seguida, atribua a política aos usuários.
 
 ## <a name="assign-a-meeting-policy-to-users"></a>Atribuir uma política de reunião aos usuários
 
-1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para **usuários**e, em seguida, clique no usuário.
-2. Selecione o usuário clicando à esquerda do nome do usuário e, em seguida, clique em **Editar configurações**.
-3. Em **política de reunião**, selecione a política que você deseja atribuir e clique em **aplicar**.
+1. Na barra de navegação à esquerda do centro de administração do Microsoft Teams, vá para **Usuários** e clique no usuário.
+2. Selecione o usuário clicando à esquerda do nome de exibição do usuário e clique em **Editar configurações**.
+3. Em **Política de reunião**, selecione a política que você deseja atribuir e clique em **Aplicar**.
 
-Para atribuir uma política a vários usuários de uma vez, consulte [Editar configurações de usuários do teams em massa](edit-user-settings-in-bulk.md).
+Para atribuir uma política a vários usuários de uma só vez, confira [Editar as configurações de usuários do Teams em massa](edit-user-settings-in-bulk.md).
 
 Ou, você também pode fazer o seguinte:
 
@@ -158,7 +158,7 @@ Pessoas de fora da sua organização, como usuários federados e anônimos, não
 
 Vamos dar uma olhada no exemplo a seguir.
 
-|Usuário |Política de reunião  |Permitir gravação na nuvem |
+|Usuário |Políticas de reunião  |Permitir gravação na nuvem |
 |---------|---------|---------|
 |Daniela | Global   | Falso |
 |Amanda | Location1MeetingPolicy | Verdadeiro|
@@ -176,7 +176,7 @@ Trata-se de uma combinação de uma política por organização e por usuário. 
 
 Vamos dar uma olhada no exemplo a seguir.
 
-|Usuário |Política de reunião  |Permitir vídeo IP |
+|Usuário |Políticas de reunião  |Permitir vídeo IP |
 |---------|---------|---------|
 |Daniela   | Global   | Verdadeiro        |
 |Amanda    | Location1MeetingPolicy        | Falso      |
@@ -216,7 +216,7 @@ Trata-se de uma combinação de uma política por organização e por usuário. 
 
 Vamos dar uma olhada no exemplo a seguir.
 
-|Usuário |Política de reunião |Modo de compartilhamento de tela |
+|Usuário |Políticas de reunião |Modo de compartilhamento de tela |
 |---------|---------|---------|
 |Daniela  | Global   | Tela inteira |
 |Amanda   | Location1MeetingPolicy  | Desabilitado |
@@ -239,7 +239,7 @@ Se as configurações estiverem desativadas para o usuário, a opção **concede
 
 Vamos dar uma olhada no exemplo a seguir.
 
-|Usuário |Política de reunião  |Permitir que o participante conceda ou solicite o controle |
+|Usuário |Políticas de reunião  |Permitir que o participante conceda ou solicite o controle |
 |---------|---------|---------|
 |Daniela   | Global   | Verdadeiro       |
 |Babek    | Location1MeetingPolicy        | Falso   |
@@ -270,7 +270,7 @@ Esta é uma política por usuário. Esta configuração controla se o usuário p
 
 Vamos dar uma olhada no exemplo a seguir.
 
-|Usuário |Política de reunião  |Permitir compartilhamento do PowerPoint |
+|Usuário |Políticas de reunião  |Permitir compartilhamento do PowerPoint |
 |---------|---------|---------|
 |Daniela   | Global   | Verdadeiro       |
 |Amanda   | Location1MeetingPolicy        | Falso   |
@@ -283,7 +283,7 @@ Esta é uma política por usuário. Esta configuração controla se um usuário 
 
 Vamos dar uma olhada no exemplo a seguir.
 
-|Usuário |Política de reunião  |Permitir quadro de comunicações|
+|Usuário |Políticas de reunião  |Permitir quadro de comunicações|
 |---------|---------|---------|
 |Daniela   | Global   | Verdadeiro       |
 |Amanda   | Location1MeetingPolicy        | Falso   |
@@ -296,7 +296,7 @@ Esta é uma política por usuário. Esta configuração controla se um usuário 
 
 Vamos dar uma olhada no exemplo a seguir.
 
-|Usuário |Política de reunião  |Permitir anotações compartilhadas |
+|Usuário |Políticas de reunião  |Permitir anotações compartilhadas |
 |---------|---------|---------|
 |Daniela   | Global   | Verdadeiro       |
 |Amanda   | Location1MeetingPolicy | Falso |
@@ -351,7 +351,7 @@ Esta é uma política por organizador. Esta configuração controla se as pessoa
 
 ![Captura de tela mostrando uma reunião com um usuário no lobby](media/meeting-policies-lobby.png)
 
- Os organizadores da reunião podem clicar em **Opções de reunião** no convite da reunião para alterar essa configuração para cada reunião agendada. **(disponível em breve)**
+ Os organizadores da reunião podem clicar em **Opções de reunião** no convite da reunião para alterar essa configuração para cada reunião agendada.
   
 |Valor de configuração  |Comportamento da junção |
 |---------|---------|

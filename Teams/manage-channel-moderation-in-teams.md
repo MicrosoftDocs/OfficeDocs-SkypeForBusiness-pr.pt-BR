@@ -18,12 +18,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Saiba como configurar os canais para moderação no Microsoft Teams, incluindo como adicionar membros da equipe como moderadores do canal.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 6cdf6988afb9afbd91c2bfd19ed516c8e8fdf702
-ms.sourcegitcommit: 379bfaf6b0584c1ac93341af605f93ab932a442b
+ms.openlocfilehash: 77622bd2920ce0453d6ccbdbeb55696fc2925271
+ms.sourcegitcommit: 56ceda54ca48d2984298d4d1f26017c0147d4431
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "43240611"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "43505598"
 ---
 # <a name="set-up-and-manage-channel-moderation-in-microsoft-teams"></a>Configurar e gerenciar a moderação do canal no Microsoft Teams
 
@@ -32,7 +32,7 @@ No Microsoft Teams, os proprietários da equipe podem ativar a moderação de um
 Os proprietários da equipe também podem adicionar membros da equipe como moderadores. Um proprietário de equipe pode não ter o conhecimento do assunto no nível do canal para dar um melhor suporte à moderação do canal. Ao permitir que os membros específicos da equipe sejam moderados para um canal, a responsabilidade de gerenciar conteúdo e contexto dentro de um canal é compartilhada entre os proprietários da equipe e os moderadores do canal. Por exemplo, um proprietário de equipe pode adicionar donos de empresas ou proprietários de conteúdo como moderadores, o que permite que eles controlem o compartilhamento de informações nesse canal.
 
 > [!NOTE]
-> No momento, a moderação do canal está disponível para canais padrão. Não está disponível para canais privados.
+> A moderação do canal está disponível para canais padrão. Ele não está disponível para o canal geral ou canais privados.
 
 ## <a name="what-can-a-channel-moderator-do"></a>O que um moderador de canal pode fazer?
 
@@ -54,7 +54,7 @@ Nesse cenário, o proprietário da equipe adiciona marketing lidera como moderad
 
 ### <a name="use-a-channel-for-class-discussions-in-teams-for-education"></a>Usar um canal para discussões de classe no Teams for Education
 
-No Teams for Education, um professor de ciência deseja usar um canal para envolver os alunos em discussões enfocadas em tópicos específicos da sala de aula.
+No Teams for Education, um professor de ciência quer usar um canal para envolver os alunos em discussões enfocadas em tópicos específicos da sala de aula.
 
 Nesse cenário, o professor permite que seus assistentes de ensino moderam o canal. Os assistentes de ensino podem criar novas postagens para iniciar e conduzir discussões com os alunos.
 

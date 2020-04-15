@@ -17,12 +17,12 @@ f1.keywords:
 description: Lista atual dos problemas conhecidos do aplicativo do cliente Microsoft Teams e experiência do administrador.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d856962cf0fdb21d0dd58313b5ade6a9bab9d364
-ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
+ms.openlocfilehash: 2a8775722daa5cd6fc236933fc0e0fd8bad1213a
+ms.sourcegitcommit: 56ceda54ca48d2984298d4d1f26017c0147d4431
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43096616"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "43505528"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problemas conhecidos do Microsoft Teams
 
@@ -295,14 +295,7 @@ Este artigo lista os problemas conhecidos do Microsoft Teams, por área de recur
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
-|Número de telefone bloqueado|Número de telefone bloqueado: Excluir a conta do recurso antes de remover o número de telefone bloqueará o número de telefone.|Contate o suporte da Microsoft para liberar o número de telefone.|18/05/2019|
-
-## <a name="presence"></a>Presença
-|**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
-|:-----|:-----|:-----|:-----|
-|A presença no Outlook e em outros aplicativos do Office não é exibida depois que um usuário é movido para o modo **Somente Microsoft Teams**. <br/> |Se você desinstalar o cliente do Skype for Business depois de mover um usuários para o modo **Somente Microsoft Teams**, a presença deixará de funcionar no Outlook e em outros aplicativos do Office. A presença funciona bem no Microsoft Teams.  <br/> |Para ver a presença no Outlook (e em outros aplicativos do Office), o Skype for Business deve ser instalado, mesmo que você esteja executando o Microsoft Teams no modo **Somente Microsoft Teams**. A Microsoft está ciente desse problema e trabalhando para corrigi-lo.  <br/> |09/2019  <br/> |
-
-
+|Número de telefone bloqueado|Número de telefone bloqueado: Excluir a conta do recurso antes de remover o número de telefone bloqueará o número de telefone.|Contate o suporte da Microsoft para liberar o número de telefone.|18/5/2019|
 
 ## <a name="provisioning"></a>Provisionamento
 

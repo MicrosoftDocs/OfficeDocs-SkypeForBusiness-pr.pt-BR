@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Saiba mais sobre os fatores a serem considerados antes de configurar eventos ao vivo no Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 95baeaf25600853b7d6a2b4e18c548d1998f6789
-ms.sourcegitcommit: 708270f1fecab6b7b44345d57a8e12bc36d19c8b
+ms.openlocfilehash: 2f70a7a2be51045f616ebb4cedc5baf46dbe101d
+ms.sourcegitcommit: 56ceda54ca48d2984298d4d1f26017c0147d4431
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43102362"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "43505618"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planejar eventos ao vivo no Microsoft Teams
 
@@ -55,6 +55,7 @@ O usuário deverá ter:
 - Compartilhamento de tela habilitado em reuniões do Teams (*O parâmetro TeamsMeetingPolicy -ScreenSharingMode = EntireScreen*).
 - Agendamento de eventos ao vivo do Teams habilitado (*O parâmetro TeamsMeetingBroadcastPolicy -AllowBroadcastScheduling = Verdadeiro*).
 - Permissões para criar eventos ao vivo no Stream (para produção de dispositivos ou aplicativos externos).
+- Modo de coexistência configurado para poder agendar reuniões de equipes (*ilhas, reuniões primeiro ou somente equipes*).
 
 > [!IMPORTANT]
 > Os usuários anônimos não autenticados não podem ser convidados como produtores ou apresentadores em eventos ao vivo do Teams. 
@@ -70,8 +71,6 @@ O usuário deverá ter:
 |Grupos / Pessoas específicos(as)      |  Sim            |  Sim                 |
 
 <sup>1</sup> participantes federados só podem ser convidados por meio de pessoas & grupo <br>
-
-
  
 ## <a name="teams-live-events-and-skype-meeting-broadcast"></a>Eventos ao vivo do Teams e Transmissão de Reunião do Skype
 
@@ -132,4 +131,3 @@ Acesse [Configurar eventos ao vivo do Teams](set-up-for-teams-live-events.md).
 - [O que são os eventos ao vivo do Teams?](what-are-teams-live-events.md)
 - [Configurar eventos ao vivo do Teams](set-up-for-teams-live-events.md)
 - [Definir configurações de eventos ao vivo do Teams](configure-teams-live-events.md)
-
