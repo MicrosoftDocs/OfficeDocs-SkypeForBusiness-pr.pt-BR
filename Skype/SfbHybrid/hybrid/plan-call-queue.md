@@ -1,7 +1,7 @@
 ---
 title: Planejar uma fila de chamada em nuvem
-ms.author: jambirk
-author: jambirk
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: wasseemh
 audience: ITPro
@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Visão geral do uso de um atendedor automático na nuvem com o Skype for Business Server 2019.
-ms.openlocfilehash: 24a0bba82ef38288f5c96cc7c51ce1bfb88c8f05
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d14aeab9857f2a54e6622fb368193a2e270e0f49
+ms.sourcegitcommit: 477aac9e14fced139ee7dd827942ce35b9769b63
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735221"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "43510790"
 ---
 # <a name="plan-cloud-call-queues"></a>Planejar filas de chamada em nuvem
 
@@ -31,7 +31,7 @@ Além disso, as filas de chamadas em nuvem podem fornecer:
 Cada fila de chamada é atribuída a uma **conta de recurso** (consulte [Configure Resource accounts](configure-onprem-ra.md)) no seu sistema Skype for Business Server 2019 que será vinculada diretamente a uma fila de chamada no centro de administração do Microsoft Teams. Consulte [criar uma fila de chamada em nuvem](/MicrosoftTeams/create-a-phone-system-call-queue) para obter mais detalhes sobre quais filas de chamadas são e quais opções e recursos existem para filas de chamadas.
 
 > [!NOTE]
-> Você pode atribuir vários números de telefone a uma fila de chamadas, mas eles devem ser números de serviço da Microsoft ou números híbridos.
+> Você pode atribuir vários números de telefone a uma fila de chamadas, mas eles devem ser números de serviço da Microsoft, números de roteamento direto ou números híbridos.
 
 ## <a name="requirements"></a>Requirements
 
@@ -61,11 +61,11 @@ Quando você tem uma estrutura sólida que atende às suas necessidades e um scr
 
 [Habilitar gravação de prompt personalizado usando a interface do usuário de telefone](https://docs.microsoft.com/exchange/voice-mail-unified-messaging/greetings-announcements-menus-and-prompts/enable-custom-prompt-recording)
 
-[O que são atendedores automáticos de nuvem?](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants)
+[Quais são os atendedores automáticos do Cloud?](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants)
 
-[Configurar um atendedor automático na nuvem](/MicrosoftTeams/create-a-phone-system-auto-attendant)
+[Configurar um atendedor automático do Cloud](/MicrosoftTeams/create-a-phone-system-auto-attendant)
 
-[Planejar a conectividade híbrida entre o Skype for Business Server e o Office 365](plan-hybrid-connectivity.md)
+[Planejar conectividade híbrida entre o Skype for Business Server e o Office 365](plan-hybrid-connectivity.md)
 
 [Configurar a conectividade híbrida entre o Skype for Business Server e o Office 365](configure-hybrid-connectivity.md)
 

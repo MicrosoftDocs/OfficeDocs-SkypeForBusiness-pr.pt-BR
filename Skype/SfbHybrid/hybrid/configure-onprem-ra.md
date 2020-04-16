@@ -13,20 +13,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Configurar uma conta de recurso para o Skype for Business Server 2019.
-ms.openlocfilehash: 14d2f161be54ac61c866597bdad141cf31138fbd
-ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
+ms.openlocfilehash: 1de087abdf08420a6300ae45466e9696aacb1ed1
+ms.sourcegitcommit: 477aac9e14fced139ee7dd827942ce35b9769b63
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42892301"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "43510780"
 ---
 # <a name="configure-resource-accounts"></a>Configurar contas de recurso
 
 As implementações híbridas do Skype for Business Server 2019 usam apenas serviços em nuvem fornecidos pelo sistema de telefonia para Unificação de mensagens e não se integram ao Exchange Online. No Skype for Business Server 2019, agora você pode usar as filas de chamadas de nuvem e atendedores automáticos descritos [aqui, o que você obtém com o sistema de telefonia no Office 365](/MicrosoftTeams/here-s-what-you-get-with-phone-system).
 
-Para usar um atendedor automático do sistema de telefonia ou uma fila de chamadas com o Skype for Business Server 2019, você precisará criar contas de recursos que atuem como pontos de extremidade de aplicativo e podem receber números de telefone e usar o centro de administração do teams online para configurar a fila de chamadas ou atendedor automático. Essa conta de recurso pode ser hospedada online (Confira [gerenciar contas de recursos no Microsoft Teams](/MicrosoftTeams/manage-resource-accounts) para criar contas de recursos hospedadas online) ou localmente, conforme descrito neste artigo. Normalmente, você terá vários nós de atendedor automático ou de enfileiramento de sistema de telefonia, cada um deles mapeado para contas de recursos, que podem estar hospedados online ou no Skype for Business Server 2019.
+Para usar um atendedor automático ou uma fila de chamadas do sistema de telefonia com o Skype for Business Server 2019, você precisará criar contas de recursos que atuem como pontos de extremidade de aplicativo e podem ser atribuídos a números de telefone e, em seguida, use o centro de administração do teams online para configurar a fila de chamadas ou atendedor automático. Essa conta de recurso pode ser hospedada online (Confira [gerenciar contas de recursos no Microsoft Teams](/MicrosoftTeams/manage-resource-accounts) para criar contas de recursos hospedadas online) ou localmente, conforme descrito neste artigo. Normalmente, você terá vários nós de atendedor automático ou de enfileiramento de sistema de telefonia, cada um deles mapeado para contas de recursos, que podem estar hospedados online ou no Skype for Business Server 2019.
 
-Se você tiver um atendedor automático de UM do Exchange e um sistema de fila de chamadas, antes de mudar para o Exchange Server 2019 ou Exchange Online, será necessário registrar manualmente os detalhes conforme descrito abaixo e implementar um sistema completamente novo usando o centro de administração do Microsoft Teams .
+Se você tiver um atendedor automático de UM do Exchange e um sistema de fila de chamadas, antes de mudar para o Exchange Server 2019 ou Exchange Online, será necessário registrar manualmente os detalhes conforme descrito abaixo e implementar um sistema completamente novo usando o centro de administração do Microsoft Teams.
 
 ## <a name="overview"></a>Visão Geral
 
@@ -105,7 +105,7 @@ A criação de uma conta de recurso que usa um número de telefone precisaria ex
 
    A conta do recurso precisará de um número de telefone atribuído se ele for atribuído a um atendedor automático de nível superior ou a fila de chamadas. Os números de telefone do usuário (assinante) não podem ser atribuídos a uma conta de recurso, somente os números de telefone de chamada tarifada ou gratuita de serviço podem ser usados.
 
-     Você pode atribuir um número híbrido de roteamento direto à sua conta de recurso. Para obter detalhes, consulte [Plan Direct Routing](/MicrosoftTeams/direct-routing-plan).
+     Você pode atribuir um roteamento direto ou número híbrido à sua conta de recurso. Para obter detalhes, consulte [Plan Direct Routing](/MicrosoftTeams/direct-routing-plan) and [Plan Cloud auto Attendants](plan-cloud-auto-attendant.md).
 
      > [!NOTE]
      > Os números de serviço de roteamento direto atribuídos às contas de recursos para atendedor automático e filas de chamada têm suporte apenas para usuários e agentes do Microsoft Teams.
