@@ -19,7 +19,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 2f70a7a2be51045f616ebb4cedc5baf46dbe101d
 ms.sourcegitcommit: 56ceda54ca48d2984298d4d1f26017c0147d4431
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 04/14/2020
 ms.locfileid: "43505618"
@@ -55,7 +55,7 @@ O usuário deverá ter:
 - Compartilhamento de tela habilitado em reuniões do Teams (*O parâmetro TeamsMeetingPolicy -ScreenSharingMode = EntireScreen*).
 - Agendamento de eventos ao vivo do Teams habilitado (*O parâmetro TeamsMeetingBroadcastPolicy -AllowBroadcastScheduling = Verdadeiro*).
 - Permissões para criar eventos ao vivo no Stream (para produção de dispositivos ou aplicativos externos).
-- Modo de coexistência configurado para poder agendar reuniões de equipes (*ilhas, reuniões primeiro ou somente equipes*).
+- Modo de coexistência configurado para agendar reuniões do Teams (*Ilhas, primeira reunião ou apenas o Teams*).
 
 > [!IMPORTANT]
 > Os usuários anônimos não autenticados não podem ser convidados como produtores ou apresentadores em eventos ao vivo do Teams. 
@@ -70,7 +70,7 @@ O usuário deverá ter:
 |Todos na empresa           |  Sim            |  Sim                 |
 |Grupos / Pessoas específicos(as)      |  Sim            |  Sim                 |
 
-<sup>1</sup> participantes federados só podem ser convidados por meio de pessoas & grupo <br>
+<sup>1</sup> Participantes federados só podem ser convidados por pessoas e grupos <br>
  
 ## <a name="teams-live-events-and-skype-meeting-broadcast"></a>Eventos ao vivo do Teams e Transmissão de Reunião do Skype
 
@@ -94,7 +94,7 @@ A tabela a seguir destaca os principais recursos oferecidos em eventos ao vivo e
 |Apresentadores/participantes convidados e federados |&#x2714; (Skype for Business)  |  &#x2714; (Teams) |Não disponível |
 |Apresentador – acesso PSTN |&#x274C; |&#x2714; (Teams) |Não disponível |
 |Apresentar uma tela |&#x274C; |&#x2714; (Teams) |Não disponível |
-|Apresentar um PowerPoint (compartilhamento de PPT) |&#x2714; |&#x274C; (atenuado por meio de compartilhamento de tela) |Não disponível |
+|Apresentar um PowerPoint (compartilhamento de PPT) |&#x2714; |&#x274C; (mitigado por compartilhamento de tela) |Não disponível |
 |Gravação de reuniões baseadas na nuvem |&#x2714; |&#x2714; |&#x2714; |
 |Publicar automaticamente a gravação no Stream |&#x274C; |&#x274C; |&#x2714; |
 |Legendas em tempo real |&#x2714; |&#x2714; |&#x274C; |
@@ -104,8 +104,8 @@ A tabela a seguir destaca os principais recursos oferecidos em eventos ao vivo e
 |Relatório de participação posterior à transmissão para Produtores |&#x2714; |&#x2714; |&#x274C; |
 |Análise de opiniões do público – Votação ao vivo e sondagens  |&#x2714; (Microsoft Pulse) |&#x274C; |&#x274C; |
 
-<sup>1</sup> Os limites que são definidos podem ser alterados. Verifique [os limites e as especificações do teams](../limits-specifications-teams.md).<br/>
-<sup>2</sup> você pode ter até 250 apresentadores e produtores em um evento ao vivo, mas apenas os últimos 10 que o spoke mostrar na lista.
+<sup>1</sup> Os limites que são definidos podem ser alterados. Verifique [Limites e especificações do Teams](../limits-specifications-teams.md).<br/>
+<sup>2</sup> Você pode ter até 250 apresentadores e produtores em um evento ao vivo, mas apenas as últimas 10 pessoas que falaram são exibidas na lista.
 
 
 ## <a name="regional-availability"></a>Disponibilidade regional
