@@ -17,12 +17,12 @@ description: Saiba o que fazer quando você precisar executar uma descoberta ele
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 75098323afa8aef9e80223cbc1883e9c12cb53c6
-ms.sourcegitcommit: 477aac9e14fced139ee7dd827942ce35b9769b63
+ms.openlocfilehash: 4b31f2efb613551ab17320900e45cf30d0ee11be
+ms.sourcegitcommit: df4dde0fe6ce9e26cb4b3da4e4b878538d31decc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 04/15/2020
-ms.locfileid: "43510690"
+ms.locfileid: "43521537"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Conduzir uma investigação de Descoberta Eletrônica de conteúdo no Microsoft Teams
 
@@ -43,12 +43,12 @@ Nem todo o conteúdo do teams é eDiscoverable. A tabela a seguir mostra os tipo
 | Carimbo de data/hora mostrando quando uma mensagem foi lida por cada usuário | Não | |
 | Gravações de áudio | Não | |
 | Mensagens de canal privado | Não | |
-| Emojis, GIFs, adesivos | Não | |
+| Emojis, GIFs, adesivos | Sim | |
 | Trechos de código | Não | |
 | Links de chat | Não | |
 | Reações (curtidas, corações e assim por diante) | Não | |
 | Mensagens editadas | Sim | Se o usuário estiver em espera, as versões anteriores das mensagens editadas serão preservadas. |
-| Imagens embutidas | Não | |
+| Imagens embutidas | Sim | |
 | Tabelas | Não | |
 | Assunto | Não | |
 | Cota | Sim | Conteúdo entre aspas é pesquisável. No entanto, os resultados da pesquisa não indicam que o conteúdo foi cotado. |

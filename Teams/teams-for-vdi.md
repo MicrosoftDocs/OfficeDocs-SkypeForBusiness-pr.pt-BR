@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2cfe1c1af9fe85d307999289d318106c8ebc132a
-ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
+ms.openlocfilehash: ee41f32ac2237e5e2c6e2e92fd18ea1c1952f7cd
+ms.sourcegitcommit: df4dde0fe6ce9e26cb4b3da4e4b878538d31decc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42892291"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "43521607"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams para Infraestrutura de Área de Trabalho Virtualizada
 
@@ -135,7 +135,7 @@ Para saber mais sobre o Teams e o Office 365 ProPlus, consulte [como excluir equ
     - [Versão de 32 bits](https://statics.teams.cdn.office.net/production-windows/1.3.00.4461/Teams_windows.msi)
     - [Versão de 64 bits](https://statics.teams.cdn.office.net/production-windows-x64/1.3.00.4461/Teams_windows_x64.msi)
 
-    A versão mínima do aplicativo de área de trabalho Teams necessário é a versão 1.2.00.31357. (A suspensão PSTN não é suportada em versões anteriores).
+    A versão mínima do aplicativo de área de trabalho Teams necessário é a versão 1.3.00.4461. (A suspensão PSTN não é suportada em versões anteriores).
 
 2. Instale o MSI na VM do VDI executando um dos seguintes comandos:
 
@@ -246,21 +246,21 @@ Como fazer [**chamadas para políticas**](teams-calling-policy.md): o Teams incl
 Para atribuir a política de chamada do DisallowCalling e a política de reunião do AllOff aos usuários, siga estas etapas:
 
 1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para **usuários**.
-2. Selecione o usuário clicando à esquerda do nome do usuário e, em seguida, clique em **Editar configurações**.
-3. Do the following:
+2. Selecione o usuário clicando à esquerda do nome de exibição do usuário e clique em **Editar configurações**.
+3. Siga este procedimento:
     1.  Em **política de chamada**, clique em **DisallowCalling**.
     2.  Em **política de reunião**, clique em **AllOff**.
 4. Clique em **Aplicar**.
 
-Para atribuir uma política a vários usuários de uma vez, consulte [Editar configurações de usuários do teams em massa](edit-user-settings-in-bulk.md).
+Para atribuir uma política a vários usuários de uma só vez, confira [Editar as configurações de usuários do Teams em massa](edit-user-settings-in-bulk.md).
 
 Ou, você também pode fazer o seguinte:
 
 1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para a política que você deseja atribuir. Por exemplo:
     - Vá para **Voice** > **políticas de chamadas**de voz e clique em **DisallowCalling**.
     - Vá para **Meetings** > **políticas de reunião**de reuniões e clique em **AllOff**.
-3. Escolha **Gerenciar usuários**.
-4. No painel **gerenciar usuários** , procure pelo usuário por nome para exibição ou por nome de usuário, selecione o nome e clique em **Adicionar**. Repita esta etapa para cada usuário que você deseja adicionar.
+3. Selecione **Gerenciar usuários**.
+4. No painel **Gerenciar usuários**, procure o usuário pelo nome de exibição ou pelo nome de usuário, escolha o nome e clique em **Adicionar**. Repita esta etapa para cada usuário que você deseja adicionar.
 5. Quando tiver terminado de adicionar usuários, clique em **salvar**.
 
 #### <a name="assign-policies-using-powershell"></a>Atribuir políticas usando o PowerShell
@@ -283,7 +283,7 @@ Para saber mais sobre como usar o PowerShell para gerenciar as políticas de reu
 
 ## <a name="migrate-teams-on-vdi-with-chat-and-collaboration-to-citrix-with-calling-and-meetings"></a>Migrar o Microsoft Teams no VDI com chat e colaboração para o Citrix com chamadas e reuniões
 
-Se você tiver uma implementação existente do teams no VDI com chat e colaboração em que você definiu políticas em nível de usuário para desativar a funcionalidade de chamada e reunião e estiver migrando para o Citrix com a otimização do AV, você deve definir políticas para ativar a chamada e funcionalidade de reunião para essas equipes em usuários da VDI.
+Se você tiver uma implementação existente do teams no VDI com o chat e a colaboração em que você definiu políticas em nível de usuário para desativar a funcionalidade de chamada e de reunião e estiver migrando para o Citrix com a otimização do AV, você deve definir políticas para ativar a funcionalidade de chamada e de reunião para essas equipes nos usuários do VDI.
 
 ### <a name="set-policies-to-turn-on-calling-and-meeting-functionality"></a>Definir políticas para ativar a funcionalidade de chamada e de reunião
 
@@ -298,21 +298,21 @@ Como fazer [**chamadas**](teams-calling-policy.md)para políticas: as políticas
 Para atribuir a política de chamada do AllowCalling e a política de reunião do usuário para os usuários, siga estas etapas:
 
 1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para **usuários**.
-2. Selecione o usuário clicando à esquerda do nome do usuário e, em seguida, clique em **Editar configurações**.
-3. Do the following:
+2. Selecione o usuário clicando à esquerda do nome de exibição do usuário e clique em **Editar configurações**.
+3. Siga este procedimento:
     1.  Em **política de chamada**, clique em **AllowCalling**.
     2.  Em **política de reunião**, clique em **permitir**.
 4. Clique em **Aplicar**.
 
-Para atribuir uma política a vários usuários de uma vez, consulte [Editar configurações de usuários do teams em massa](edit-user-settings-in-bulk.md).
+Para atribuir uma política a vários usuários de uma só vez, confira [Editar as configurações de usuários do Teams em massa](edit-user-settings-in-bulk.md).
 
 Ou, você também pode fazer o seguinte:
 
 1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para a política que você deseja atribuir. Por exemplo:
     - Vá para **Voice** > **políticas de chamadas**de voz e clique em **AllowCalling**.
     - Vá para **Meetings** > **políticas de reunião**de reuniões e clique em **permitir**.
-3. Escolha **Gerenciar usuários**.
-4. No painel **gerenciar usuários** , procure pelo usuário por nome para exibição ou por nome de usuário, selecione o nome e clique em **Adicionar**. Repita esta etapa para cada usuário que você deseja adicionar.
+3. Selecione **Gerenciar usuários**.
+4. No painel **Gerenciar usuários**, procure o usuário pelo nome de exibição ou pelo nome de usuário, escolha o nome e clique em **Adicionar**. Repita esta etapa para cada usuário que você deseja adicionar.
 5. Quando tiver terminado de adicionar usuários, clique em **salvar**.
 
 #### <a name="assign-policies-using-powershell"></a>Atribuir políticas usando o PowerShell

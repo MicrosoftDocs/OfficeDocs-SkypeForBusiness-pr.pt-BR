@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Use este guia para ajudar os funcionários remotos da sua organização a serem produtivos usando o Microsoft Teams, especialmente quando estiverem trabalhando em casa (WFH) em resposta à epidemia de COVID-19 (coronavírus).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 96ff59470c8d9726b4c26bf0522e5b1e730b9014
-ms.sourcegitcommit: f3390e27bb63b66d1c4fb4f8afbda6b814fbbb5b
+ms.openlocfilehash: ef26f05e20aadeb46be2a553303bc686aded6215
+ms.sourcegitcommit: 5606f908c6efeb67713f5986b1d8575a896bb5bd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43170509"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "43506842"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>Ofereça suporte a trabalhadores remotos usando o Microsoft Teams
 
@@ -67,6 +67,8 @@ Compartilhe esses ativos e vídeos com seus usuários finais para ajudá-los a c
 
 1. Leia as [Perguntas frequentes: dê suporte à força de trabalho remota](FAQ-support-remote-workforce.md), que atualizamos regularmente.
 
+2. [Use o Assistente do Teams para ajudá-lo na implantação do Microsoft Teams](use-advisor-teams-roll-out.md). O Assistente do Teams (no centro de administração do Teams) o orienta durante a implantação do seu Teams.
+
 1. Leia nossas postagens recentes no blog:
    
    - [Como a Microsoft está permitindo que seus funcionários trabalhem remotamente com o Microsoft Teams](https://www.microsoft.com/itshowcase/blog/how-microsoft-enables-its-employees-to-work-remotely/)
@@ -109,7 +111,7 @@ Compartilhe esses ativos e vídeos com seus usuários finais para ajudá-los a c
    - [Segurança e Teams](teams-security-guide.md) entra em todos os detalhes técnicos da segurança do Teams, como parte das práticas recomendadas e procedimentos de segurança de nível empresarial do Microsoft 365.
 
 
-2.  [Envie links de treinamento](enduser-training.md) para ajudar seus funcionários a aproveitar o Teams ao máximo.
+2.  Compartilhar um link para [treinamento em vídeo do Teams](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7) para ajudar os funcionários a obter o máximo do seu Teams. 
 
 3. Aprofunde os seus conhecimentos: saiba mais sobre a implantação do Teams.
 
