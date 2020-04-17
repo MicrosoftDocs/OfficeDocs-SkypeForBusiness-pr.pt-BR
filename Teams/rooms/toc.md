@@ -16,9 +16,9 @@
 ### [Com o Exchange Online (híbrido)](with-exchange-online.md)
 ### [Com o Exchange Local (híbrido)](with-exchange-on-premises.md)
 ### [Configurar um console](console.md)
-### [Configurar a autenticação](rooms-authentication.md)
-### [Usando o Gerenciador de configuração do Microsoft Endpoint](rooms-scale.md)
-### [Gerenciamento com o Monitor do Azure](azure-monitor-deploy.md)
+### [Configurar autenticação](rooms-authentication.md)
+### [Usando o Gerenciador de Configuração do Microsoft Endpoint](rooms-scale.md)
+### [Gerenciamento com o Azure Monitor](azure-monitor-deploy.md)
 ### [Migrar SRS v1 ou LRS](lrs-migration.md)
 ### [Câmeras de conteúdo](content-camera.md)
 
