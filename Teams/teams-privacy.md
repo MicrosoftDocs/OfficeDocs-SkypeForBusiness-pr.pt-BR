@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: reference
 ms.service: msteams
 audience: admin
-ms.reviewer: ''
+ms.reviewer: stbyer
 description: Diretrizes e informações de privacidade do Microsoft Teams.
 localization_priority: Priority
 search.appverid: MET150
@@ -16,32 +16,39 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 22abb4bc7c5c68d2e628026c96ca5dc40ca87c98
-ms.sourcegitcommit: c40a7ada120180cd39f18b2e37f23223075abbf4
+ms.openlocfilehash: 924aaf1ad9c9d462a454260226b3a5340f0a68e2
+ms.sourcegitcommit: 0fa50d1cf354d79fbaf16b6aaec60e8d3ab852e8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "43535566"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43579567"
 ---
 # <a name="privacy-and-microsoft-teams"></a>Privacidade e o Microsoft Teams
 
 Quando uma organização pretende contar com o Microsoft Teams para comunicação e colaboração, a privacidade é algo que deve ser abordado em todos os níveis. As perguntas abaixo devem abordar as preocupações com privacidade que você pode ter ao planejar a sua implementação do Teams, ou a qualquer momento durante o uso do Teams.
 
-## <a name="what-personal-data-does-teams-collect-and-how-does-teams-use-this-data"></a>Quais dados pessoais o Teams coleta, e como o Teams usam esses dados?
+## <a name="what-personal-data-does-microsoft-teams-collect-and-for-what-purposes-does-microsoft-teams-use-this-data"></a>Quais dados pessoais são coletados pelo Microsoft Teams e para quais finalidades são usados?
 
-Como o Teams é um serviço baseado em nuvem, vários tipos de dados são processados e armazenados pela Microsoft como parte do serviço. Esses dados incluem:
+A Microsoft processa os dados pessoais no Microsoft Teams para fornecer os serviços acordados definidos nos [Termos de Serviços Online](https://go.microsoft.com/fwlink/p/?linkid=2050263) e, em última instância, para os fins determinados pelo controlador de dados que obtém o serviço.Como um serviço baseado em nuvem, o Microsoft Teams processa vários tipos de dados pessoais como parte da entrega do serviço. Esses dados pessoais incluem:
 
-- **Dados dos clientes** Os dados dos clientes incluem conteúdo como seus chats de reuniões e conversas, mensagens de voz, arquivos compartilhados, gravações e transcrições. A Microsoft nunca vai acessar seu conteúdo.
-  - **Dados de perfil** Dados sobre você compartilhados dentro da sua empresa. Alguns exemplos incluem seu endereço de email, imagem de perfil e número de telefone.
-- **Histórico de chamadas, qualidade de chamadas** A Microsoft mantém um histórico detalhado das chamadas feitas por você. Isso permite que você retorne e revise seus próprios registros de chamadas. A Microsoft também fornece detalhes das reuniões e dados de chamadas para os administradores do sistema. Isso permite aos administradores diagnosticar problemas relacionados à qualidade de chamadas e uso de serviços. Além disso, a Microsoft mantém registros de chamadas para fins de fornecimento de serviço, como cobrança e solução de problemas.
-- **Dados de Suporte/Comentários** Dados criados quando você abre um tíquete para solucionar problemas ou envia comentários à Microsoft. A Microsoft se compromete a usar esses dados apenas para resolver seu problema ou melhorar o produto do Teams.
-- **Dados de serviços e diagnóstico** A Microsoft também coleta vários dados de telemetria relacionados ao uso do serviço. Isso permite à Microsoft fornecer o serviço (solucionar problemas, proteger e atualizar o produto, monitorar o desempenho), bem como realizar algumas operações de negócios internas. Alguns exemplos disso são:
+- **Conteúdo** Seus chats de reuniões e conversas, mensagens de voz, arquivos compartilhados, gravações e transcrições.
+- **Dados de perfil** Dados sobre você compartilhados dentro da sua empresa. Alguns exemplos incluem seu endereço de email, imagem de perfil e número de telefone.
+- **Histórico de chamadas** Um histórico detalhado das chamadas telefônicas realizadas, o que permite retornar e revisar seus próprios registros de chamadas.
+- **Dados da qualidade da chamada** Detalhes das reuniões e dados de chamadas estão disponíveis para os administradores do sistema. Isso permite aos administradores diagnosticar problemas relacionados à qualidade ruim de chamadas e uso de serviços.
+- **Dados de suporte/comentários** Informações relacionadas à solução de problemas de tíquetes ou envio de comentários à Microsoft.
+- **Dados de diagnóstico e serviço** Dados de diagnóstico relacionados ao uso do serviço. Isso permite à Microsoft fornecer o serviço (solucionar problemas, monitorar o desempenho, e proteger e atualizar o produto), bem como realizar algumas operações de negócios internas, como:
   - Determinar a receita
   - Desenvolver métricas
   - Determinar o uso do serviço
   - Conduzir o planejamento de produtos e capacidades
 
-O Microsoft Teams só usará os dados fornecidos para fornecer os serviços acordados definidos nos [Termos de Serviço Online](https://go.microsoft.com/fwlink/p/?linkid=2050263).
+À medida que o Microsoft Teams processa dados pessoais em conexão com as operações de negócios legítimas da Microsoft, a Microsoft será um controlador de dados independente para esse uso e será responsável pelo cumprimento de todas as leis e obrigações do controlador aplicáveis.
+
+## <a name="legal-basis-of-processing"></a>Base legal de processamento  
+
+Nossos clientes são controladores dos dados fornecidos à Microsoft, conforme definido nos [Termos de Serviços Online](https://go.microsoft.com/fwlink/p/?linkid=2050263), e determinam as bases legais de processamento.A Microsoft, por sua vez, processa os dados nas instruções dos clientes, como um processador.
+
+À medida que a Microsoft processa os dados pessoais em conexão com suas próprias operações de negócios legítimas, conforme descrito nos [Termos de Serviços Online](https://go.microsoft.com/fwlink/p/?linkid=2050263), a Microsoft será uma controladora independente desse processamento, cuja base legal é o interesse legítimo. As "operações de negócios legítimas da Microsoft" consistem no seguinte, cada uma como incidente na entrega do Microsoft Teams ao cliente: (1) cobrança e gerenciamento de contas; (2) remuneração (por exemplo, cálculo de comissões de funcionários e incentivos a parceiros); (3) relatórios e modelagem internos (por exemplo, previsão, receita, planejamento de capacidade, estratégia de produto); (4) combater fraudes, crimes cibernéticos ou ataques cibernéticos que possam afetar a Microsoft ou os produtos da Microsoft; (5) melhorar a funcionalidade principal de acessibilidade, privacidade ou eficiência energética; e (6) relatórios financeiros e conformidade com obrigações legais.
 
 ## <a name="what-third-parties-have-access-to-personal-data"></a>Que terceiros têm acesso a dados pessoais?
 
@@ -82,6 +89,3 @@ Se o Microsoft Teams processar quaisquer dados pessoais com base no seu consenti
 ## <a name="contact-details-of-microsofts-data-protection-officer"></a>Detalhes de contato do Diretor de Proteção de Dados da Microsoft
 
 Se você tiver uma preocupação, reclamação ou pergunta relacionada à privacidade para fazer ao Diretor de Privacidade da Microsoft e ao Diretor de Proteção de Dados da UE, fale conosco usando [nosso formulário da Web](https://go.microsoft.com/fwlink/?LinkId=321116). Nosso Diretor de Proteção de Dados da UE está localizado em Microsoft Place, South County Business Park, Leopardstown, Dublin 18, Irlanda. Telefone: +353 1 706 3117.Você também pode expressar uma preocupação ou apresentar uma reclamação a uma autoridade de proteção de dados ou a outro funcionário com jurisdição.
-
-> [!IMPORTANT]
-> No que diz respeito a qualquer conflito entre este documento e os [Termos de Serviço Online](https://go.microsoft.com/fwlink/p/?linkid=2050263), os Termos de Serviço Online devem ser considerados autoritativos.
