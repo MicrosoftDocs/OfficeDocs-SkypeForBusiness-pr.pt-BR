@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: Saiba como configurar o Skype for Business para usar outro idioma para a saudação de correio de voz padrão da sua organização.
-ms.openlocfilehash: 829776be347f2453f3b87a150b19e2334e876f40
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 1fb9a97c31e973d6a56da65d301324b1d9d34b90
+ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139130"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43752338"
 ---
 # <a name="change-the-default-language-for-greetings-and-emails"></a>Alterar o idioma padrão de saudações e emails
 
@@ -49,9 +49,9 @@ Se você é [Administrador global do Office 365](https://support.office.com/arti
     
 ## <a name="change-the-system-language-for-everyone-in-your-organization"></a>Alterar o idioma do sistema para todas as pessoas na organização
 
-1. Entre com sua conta de [administrador global do Office 365](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) em[https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home). 
+1. Entre com sua conta de [administrador global do Office 365](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) em [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home). 
     
-2. No centro de administração do Microsoft 365, escolha **configurações** > **perfil da organização**. 
+2. No centro de administração do Microsoft 365, **escolha** > **Settings** > configurações configurações**perfil da organização**. 
     
      ![Captura de tela mostrando a escolha de configurações e o perfil da organização.](media/9d9de520-bb84-409f-9417-96bd8ec86c48.png)
   

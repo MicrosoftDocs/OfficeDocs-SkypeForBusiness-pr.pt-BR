@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.users.activity.audioqualitycolumn
 - Reporting
 description: Use os detalhes da análise de chamadas sobre dispositivos, redes e conectividade para solucionar problemas do usuário com o Microsoft Teams e chamadas e reuniões do Skype for Business.
-ms.openlocfilehash: a9ef3265fa86349ef92c6174c6f561b006af4d1a
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 05af82a942d54e0f97f2be2b176091f19186cbf4
+ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836761"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43749558"
 ---
 # <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>Usar a Análise de Chamada para solucionar problemas de baixa qualidade da chamada
 
@@ -68,7 +68,7 @@ Veja suas equipes e o administrador do Skype for Business se precisar de ajuda c
   
 4. Selecione o usuário na lista.
 
-5. Selecione **histórico de chamadas**e, em seguida, selecione a chamada ou a reunião para a qual você deseja solucionar o problema.
+5. Selecione **histórico de chamadas**e, em seguida, selecione a chamada ou a reunião para a qual você deseja solucionar o problema.  Um máximo de 500 registros será retornado.
     
     ![Captura de tela da página Histórico de chamadas de um usuário.](media/use-call-analytics-to-troubleshoot-image-2.png)
   
