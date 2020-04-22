@@ -16,12 +16,12 @@ metadata:
   - M365-voice
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 1366edcd482e37f12c0218acfe25d378fc86709a
-  ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+  ms.openlocfilehash: 3f5e7c29ee676fa0b9defa907524c60b45a34fe9
+  ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
   ms.translationtype: MT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 11/01/2019
-  ms.locfileid: "37924812"
+  ms.lasthandoff: 04/22/2020
+  ms.locfileid: "43778507"
 items:
 - durationInMinutes: 1
   content: >
@@ -116,7 +116,7 @@ items:
 
     - **Planos de chamada ou roteamento direto para se conectar à PSTN.**
 
-    As opções para conectar o Microsoft Teams à PSTN são um pouco diferentes do que no Skype for Business Online: enquanto os planos de chamada (anteriormente conhecidos como Cloud PBX com conectividade PSTN), existem para ambos, a opção para conectar seu PBX ou tronco SIP existente a Teams é chamada de " Roteamento direto ".
+    As opções para conectar o Microsoft Teams à PSTN são um pouco diferentes do que no Skype for Business Online: enquanto os planos de chamada (anteriormente conhecidos como Cloud PBX com conectividade PSTN), existem para ambos, a opção para conectar seu PBX existente ou tronco SIP a Teams é chamada de "roteamento direto".
 
     A documentação detalhada sobre o roteamento direto pode ser encontrada aqui: [Roteamento direto do sistema de telefonia](https://docs.microsoft.com/microsoftteams/direct-routing-plan)
 
@@ -208,7 +208,7 @@ items:
     ### <a name="requirements"></a>Requisitos
 
 
-    -   Um locatário do Office 365 com as licenças apropriadas para habilitar o Sistema de Telefonia com Planos de Chamadas
+    -   Uma organização do Office 365 com as licenças adequadas para habilitar o sistema telefônico com planos de chamada
 
         -   Recomendamos enfaticamente que você use um locatário de teste dedicado.
 
