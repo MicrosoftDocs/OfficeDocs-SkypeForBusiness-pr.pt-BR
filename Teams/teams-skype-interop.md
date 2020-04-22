@@ -12,12 +12,12 @@ ms.reviewer: vinbel
 search.appverid: MET150
 description: Saiba mais sobre os recursos de interoperabilidade entre usuários do teams na sua organização e usuários do Skype (cliente).
 localization_priority: Normal
-ms.openlocfilehash: 6e157cb04687d0577ad5b4cb5fd8da7d2f55e0b4
-ms.sourcegitcommit: 87022aa009eae868e1fd945dc299367e16733a3c
+ms.openlocfilehash: ca67cd1f96b2a0e8bc9b65e60ccf71fdea53763a
+ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42545017"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43749548"
 ---
 # <a name="teams-and-skype-interoperability"></a>Teams e interoperabilidade do Skype
 
@@ -72,13 +72,13 @@ Como administrador, você usa o centro de administração do Microsoft Teams ou 
 
 Se você atualizou do Skype for Business para o Teams, as configurações de comunicações externas que você configurou no centro de administração do Skype for Business serão migradas para o Microsoft Teams.
 
-### <a name="in-the-microsoft-teams-admin-center"></a>No centro de administração do Microsoft Teams
+### <a name="in-the-microsoft-teams-admin-center"></a>No Centro de administração do Microsoft Teams
 
 No centro de administração do > Microsoft Teams, vá para **configurações de toda a organização****acesso externo**e ative **os usuários podem se comunicar com usuários do Skype**. Para obter orientação passo a passo sobre como definir essa e outras configurações de acesso externo, consulte [gerenciar o acesso externo no Teams](https://docs.microsoft.com/microsoftteams/manage-external-access#allow-or-block-domains).
 
 ### <a name="using-powershell"></a>Usando o PowerShell
 
-Use o cmdlet [set-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/set-csexternalaccesspolicy) juntos com o ```EnablePublicCloudAccess``` parâmetro para controlar se os usuários do teams podem se comunicar com os usuários do Skype. Definir o parâmetro para ```true``` permitir que os usuários do Team se comuniquem com usuários do Skype.
+Use o cmdlet [set-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/set-csexternalaccesspolicy) juntos com o ```EnablePublicCloudAccess``` parâmetro para controlar se os usuários do teams podem se comunicar com os usuários do Skype. Definir o parâmetro para ```true``` permitir que os usuários do Team se comuniquem com usuários do Skype. Observe que o ```EnablePublicCloudAudioVideoAccess``` parâmetro pode ser usado para habilitar/desabilitar chamadas de áudio/vídeo.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

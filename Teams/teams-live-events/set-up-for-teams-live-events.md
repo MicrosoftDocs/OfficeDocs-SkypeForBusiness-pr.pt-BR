@@ -18,43 +18,48 @@ description: Configure os eventos ao vivo no Teams, incluindo a configuração d
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ae30fdb824c62027d1a704435e80df2a9abf1f85
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
-ms.translationtype: HT
+ms.openlocfilehash: 8e3110717cd9279d881415bf1e01d03a1cbee293
+ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140560"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43749798"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Configurar eventos ao vivo no Microsoft Teams
 
 Ao configurar para eventos ao vivo, há várias etapas que você deve seguir.
 
 ## <a name="step-1-set-up-your-network-for-live-events-in-teams"></a>Etapa 1: configurar sua rede para eventos vivos no Teams
+
 Os eventos ao vivo produzidos pelo Teams exigem que você [Prepare a rede da sua organização para o Teams](https://docs.microsoft.com/microsoftteams/prepare-network).  
 
 ## <a name="step-2-get-and-assign-licenses"></a>Etapa 2: Comprar e atribuir licenças
-Verifique se você tem atribuições de licença corretas para [quem pode criar e agendar eventos ao vivo](plan-for-teams-live-events.md#who-can-create-and-schedule-live-events) e [quem pode assistir a eventos ao vivo](plan-for-teams-live-events.md#who-can-watch-live-events).
+
+Verifique se você tem atribuições de licença corretas para [quem pode criar e agendar eventos ao vivo](plan-for-teams-live-events.md#who-can-attend-create-and-schedule-live-events) e [quem pode assistir a eventos ao vivo](plan-for-teams-live-events.md#who-can-watch-live-events).
 
 ## <a name="step-3-set-up-live-events-policies"></a>Etapa 3: configurar políticas de eventos ao vivo
+
 As políticas de eventos ao vivo são usadas para controlar quem em sua organização pode manter os eventos ao vivo e os recursos que estão disponíveis nos eventos criados por eles. Você pode usar a política padrão ou criar uma ou mais políticas personalizadas de eventos dinâmicos. Depois de criar uma política personalizada, você pode atribuí-la a um usuário ou grupo de usuários da organização.
 
 > [!NOTE]
-> Os usuários da sua organização terão a política global, a menos que você crie e atribua uma política personalizada. Por padrão, na política global, o agendamento do evento ao vivo está habilitado para os usuários do Teams, as legendas em tempo real (transcrição) estão desabilitadas, todas as pessoas da organização podem participar de eventos ao vivo e a configuração de gravação está definida como sempre gravar. 
+> Os usuários da sua organização terão a política global, a menos que você crie e atribua uma política personalizada. Por padrão, na política global, o agendamento do evento ao vivo está habilitado para os usuários do Teams, as legendas em tempo real (transcrição) estão desabilitadas, todas as pessoas da organização podem participar de eventos ao vivo e a configuração de gravação está definida como sempre gravar.
 
 ### <a name="create-or-edit-a-live-events-policy"></a>Criar ou editar uma política de eventos ao vivo
+
 <a name="bkcreatepolicy"> </a>
 
 **![Um ícone mostrando o logotipo do Microsoft Teams](../media/teams-logo-30x30.png)Usando o centro de administração do Microsoft Teams**
 
-1. Na barra de navegação à esquerda, vá para **Reuniões** > **Políticas de eventos ao vivo**. 
+1. Na barra de navegação à esquerda, vá para **Reuniões** > **Políticas de eventos ao vivo**.
 2. Siga um destes procedimentos:
-- Se você quiser editar a política padrão existente, escolha **Global (padrão para toda a organização)**. 
-- Se você quiser criar uma nova política personalizada, escolha **Nova política**. 
-- Se você quiser editar uma política personalizada, selecione-a e, em seguida, escolha **Editar**. 
+
+- Se você quiser editar a política padrão existente, escolha **Global (padrão para toda a organização)**.
+- Se você quiser criar uma nova política personalizada, escolha **Nova política**.
+- Se você quiser editar uma política personalizada, selecione-a e, em seguida, escolha **Editar**.
 
     Estas são as configurações que podem ser alteradas de acordo com as necessidades da sua organização.
 
-    ![Captura de tela de configurações de política de eventos ao vivo](../media/teams-live-events-policies.png "Captura de tela de configurações de política de eventos ao vivo no centro de administração do Microsoft Teams") 
+    ![Captura de tela de configurações de política de eventos ao vivo](../media/teams-live-events-policies.png "Captura de tela de configurações de política de eventos ao vivo no centro de administração do Microsoft Teams")
 
 |Configuração  |Descrição  |
 |---------|---------|

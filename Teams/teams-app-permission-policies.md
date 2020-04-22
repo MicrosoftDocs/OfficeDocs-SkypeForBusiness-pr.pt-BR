@@ -22,23 +22,23 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: baf3f025dd9b2340f59aee18d72d3707e4cab8fd
-ms.sourcegitcommit: dde63e1b92c0bc3dbb41d8670778b863c3bc9bec
+ms.openlocfilehash: 3382eff6334c3879c1c30d503101446ceaae4df9
+ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "42601408"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43749808"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>Gerenciar políticas de permissões de aplicativo no Microsoft Teams
 
-Como administrador, você pode usar políticas de permissão do aplicativo para controlar quais aplicativos estão disponíveis para os usuários do Microsoft Teams em sua organização. Você pode permitir ou bloquear todos os aplicativos ou aplicativos específicos publicados pela Microsoft, por terceiros e pela sua organização. Quando você bloqueia um aplicativo, os usuários que têm a política não podem instalá-lo na loja de aplicativos do teams. Você deve ser administrador global ou administrador do teams Service para gerenciar essas políticas.
+Como administrador, você pode usar as políticas de permissão do aplicativo para controlar quais aplicativos estarão disponíveis para os usuários do Microsoft Teams em sua organização. Você pode permitir ou bloquear todos os aplicativos ou aplicativos específicos publicados pela Microsoft, por terceiros e pela sua organização. Ao bloquear um aplicativo, os usuários que têm a política não conseguem instalá-lo da loja de aplicativos do Teams. Você deve ser um administrador global ou administrador de serviços do Teams para gerenciar essas políticas.
 
 Você gerencia políticas de permissão do aplicativo no centro de administração do Microsoft Teams. Você pode usar a política global (padrão para toda a organização) ou criar e atribuir políticas personalizadas a usuários ou usuários individuais em um grupo.  
 
 ![Captura de tela da política de permissão do aplicativo](media/app-permission-policies.png)
 
 > [!NOTE]
-> Os usuários em sua organização receberão automaticamente a política global, a menos que você crie e atribua uma política personalizada. As configurações de aplicativo de toda a organização substituem a política global e quaisquer políticas personalizadas que você criar e atribuir aos usuários.
+> Os usuários da sua organização terão automaticamente a política global, a menos que você crie e atribua uma política personalizada. As configurações de aplicativo de toda a organização substituem a política global e quaisquer políticas personalizadas que você criar e atribuir aos usuários.
 
 Se sua organização já estiver no Teams, as configurações do aplicativo definidas em **configurações de todo o locatário** no centro de administração do Microsoft 365 serão refletidas nas configurações de aplicativo de toda a organização na página [gerenciar aplicativos](manage-apps.md) . Se você não tem experiência com o Microsoft Teams e simplesmente introdução, por padrão, todos os aplicativos são permitidos na política global. Isso inclui aplicativos publicados pela Microsoft, por terceiros e por sua organização.
 
@@ -87,17 +87,17 @@ Você pode usar o centro de administração do Microsoft Teams para atribuir uma
 ### <a name="assign-a-custom-app-permission-policy-to-a-user"></a>Atribuir uma política de permissão de aplicativo personalizada a um usuário
 
 1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para **usuários**.
-2. Selecione o usuário clicando à esquerda do nome do usuário e, em seguida, clique em **Editar configurações**.
+2. Selecione o usuário clicando à esquerda do nome de exibição do usuário e clique em **Editar configurações**.
 3. Em **política de permissão do aplicativo**, selecione a política de permissão do aplicativo que você deseja atribuir e clique em **aplicar**.
 
-Para atribuir uma política a vários usuários de uma vez, consulte [Editar configurações de usuários do teams em massa](edit-user-settings-in-bulk.md).
+Para atribuir uma política a vários usuários de uma só vez, confira [Editar as configurações de usuários do Teams em massa](edit-user-settings-in-bulk.md).
 
 Ou, você também pode fazer o seguinte:
 
 1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para > **políticas de permissão**de **aplicativos do teams**.
 2. Escolha a política clicando à esquerda do nome da política.
-3. Escolha **Gerenciar usuários**.
-4. No painel **gerenciar usuários** , procure pelo usuário por nome para exibição ou por nome de usuário, selecione o nome e clique em **Adicionar**. Repita esta etapa para cada usuário que você deseja adicionar.
+3. Selecione **Gerenciar usuários**.
+4. No painel **Gerenciar usuários**, procure o usuário pelo nome de exibição ou pelo nome de usuário, escolha o nome e clique em **Adicionar**. Repita esta etapa para cada usuário que você deseja adicionar.
 5. Quando tiver terminado de adicionar usuários, clique em **salvar**.
 
 ### <a name="assign-a-custom-app-permission-policy-to-users-in-a-group"></a>Atribuir uma política de permissão de aplicativo personalizada a usuários em um grupo
@@ -145,9 +145,12 @@ Para habilitar um aplicativo de terceiros para um usuário ou um conjunto de usu
 3. Permitir o aplicativo de terceiros no nível da organização. Para fazer isso, no painel de navegação esquerdo, vá para **Team apps** > **gerenciar aplicativos**. Na lista de aplicativos, clique à esquerda do nome do aplicativo para selecionar o aplicativo e, em seguida, selecione **permitir**.
 4. [Crie uma política de permissão de aplicativo personalizada](#create-a-custom-app-permission-policy) para permitir o aplicativo e, em seguida, [atribua a política](#assign-a-custom-app-permission-policy-to-users) aos usuários desejados.
 
-## <a name="faq"></a>Perguntas Frequentes
+## <a name="faq"></a>Perguntas frequentes
 
 ### <a name="working-with-app-permission-policies"></a>Trabalhando com políticas de permissão do aplicativo
+
+#### <a name="what-app-interactions-do-permission-policies-affect"></a>Quais interações de aplicativo as políticas de permissão afetam?
+Políticas de permissão controlam o uso do aplicativo controlando a instalação, descoberta e interação para os usuários finais. Os administradores ainda podem gerenciar aplicativos no centro de administração do Microsoft Teams independentemente das políticas de permissão atribuídas a eles.
 
 #### <a name="can-i-control-line-of-business-lob-apps"></a>Posso controlar os aplicativos de linha de negócios (LOB)?
 Sim, você pode usar políticas de permissão do aplicativo para controlar a distribuição e distribuição de aplicativos personalizados (LOB). Você pode criar uma política personalizada ou editar a política global para permitir ou bloquear aplicativos personalizados com base nas necessidades da sua organização.
@@ -183,7 +186,7 @@ Por exemplo, quando um aplicativo é bloqueado, os usuários não podem fazer ne
 
 O portal herdado permitia o controle de aplicativos no nível da organização, o que significa que, quando um aplicativo é bloqueado, ele fica bloqueado para todos os usuários da organização. Bloquear um aplicativo na página [gerenciar aplicativos](manage-apps.md) funciona exatamente da mesma maneira.
 
-Para políticas de permissão de aplicativo atribuídas a usuários específicos, se um aplicativo com recurso de bot ou conector era permitido e bloqueado, e se o aplicativo for permitido somente para alguns usuários em um contexto compartilhado, membros de um canal ou chat em grupo que não têm permissão para esse aplicativo  pode ver o histórico de mensagens e mensagens que foram lançadas pelo bot ou pelo conector, mas não podem interagir com ele.
+Para políticas de permissão de aplicativo atribuídas a usuários específicos, se um aplicativo com recurso de bot ou conector era permitido e bloqueado, e se o aplicativo for permitido somente para alguns usuários em um contexto compartilhado, os membros de um chat em grupo ou canal que não têm permissão para esse aplicativo poderão ver o histórico de mensagens e as mensagens que foram lançadas pelo bot ou pelo conector , mas não é possível interagir com ele.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

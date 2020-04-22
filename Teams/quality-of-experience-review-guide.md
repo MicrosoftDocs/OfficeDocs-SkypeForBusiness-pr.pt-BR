@@ -18,17 +18,17 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: e109d3a8f43d6f989c96709562efbf759c0e562e
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 91e2763fac952b7188284dcf09e6fc0b7cc4bf16
+ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137691"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43749858"
 ---
 # <a name="quality-of-experience-review-guide"></a>Guia de revisão da experiência de qualidade 
 
 <!-- Note that this link to the Word doc is intentionally NOT the aka.ms/qerquide link -->
-Este guia se refere à fase valor do drive do Microsoft Teams e do Skype for Business online. Você pode [baixar uma versão do Word](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true) deste guia.
+Este guia se refere à fase valor do drive do Microsoft Teams e do Skype for Business online. 
 
 ## <a name="introduction"></a>Introdução
 
@@ -478,15 +478,15 @@ Você pode acessar o CQD de uma destas três maneiras:
 
 -   Vá para **centro de administração do Microsoft Teams** e selecione o link para CQD, conforme mostrado na ilustração a seguir.
 
-![Captura de tela do painel de qualidade da chamada selecionado.](media/qerguide-image-mopo.png "No painel de navegação à esquerda, o link para o painel de qualidade de chamada é selecionado.")
+    ![Captura de tela do painel de qualidade da chamada selecionado.](media/qerguide-image-mopo.png "No painel de navegação à esquerda, o link para o painel de qualidade de chamada é selecionado.")
 
-_Figura 7 – acessando o CQD por meio do centro de administração do Microsoft Teams_
+    _Figura 7 – acessando o CQD por meio do centro de administração do Microsoft Teams_
 
 -   Vá para as > **ferramentas**herdadas do **centro de administração do Skype for Business**e selecione o link para CQD, conforme mostrado na ilustração a seguir.
 
-![Captura de tela do CQD selecionado no painel principal.](media/qerguide-image-legacyui.png "Ferramentas está selecionada no painel de navegação à esquerda e o link para CQD está selecionado no painel principal.")
+    ![Captura de tela do CQD selecionado no painel principal.](media/qerguide-image-legacyui.png "Ferramentas está selecionada no painel de navegação à esquerda e o link para CQD está selecionado no painel principal.")
 
-_Figura 8-acessando o CQD por meio do centro de administração do Skype for Business_
+    _Figura 8-acessando o CQD por meio do centro de administração do Skype for Business_
 
 
 ### <a name="getting-started"></a>Introdução
@@ -634,7 +634,7 @@ O formato do arquivo de dados que você carrega deve atender aos seguintes requi
 
 -   Para cada coluna, se o tipo de dados for String, os dados podem ficar vazios (mas ainda devem ser separados por um delimitador adequado, ou seja, um caractere de tabulação ou uma vírgula). Isso apenas atribui um valor de cadeia de caracteres vazia a um campo.
 
--   Deve haver 14 colunas para cada linha. Cada coluna deve ter o tipo de dados descrito na tabela a seguir, e as colunas devem estar na ordem listada na tabela.
+-   Deve haver 14 colunas para cada linha (ou 15 se você quiser adicionar a coluna VPN opcional). Cada coluna deve ter o tipo de dados descrito na tabela a seguir, e as colunas devem estar na ordem listada na tabela.
 
 _Tabela 5 – criando a estrutura de arquivos_
 

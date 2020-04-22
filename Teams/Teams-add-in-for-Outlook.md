@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 26eb3af88b6e16de0535d25d4b5205a72626b7b2
-ms.sourcegitcommit: df4dde0fe6ce9e26cb4b3da4e4b878538d31decc
+ms.openlocfilehash: ca163d2a705b4aaebc77c03dbf4c92edf9c5d601
+ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "43521527"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43749568"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Usar o suplemento de Reunião do Teams no Outlook
 =======================================
@@ -111,22 +111,51 @@ Quando os usuários que estão no modo Ilha agendam uma reunião no Outlook, ele
 O suplemento de Reunião do Teams ainda está desenvolvendo funcionalidades, então esteja ciente do seguinte:
 
 - O suplemento destina-se a reuniões agendadas com participantes específicos, não a reuniões em um canal. As reuniões do canal devem ser agendadas dentro do Teams.
-- O suplemento não funcionará se houver um proxy de autenticação no caminho de rede do computador do usuário e dos serviços do Teams.
+- O suplemento não funcionará se um proxy de autenticação estiver no caminho de rede do computador do usuário e dos serviços do teams.
 - Os usuários não podem agendar eventos ao vivo no Outlook. Vá para o Teams para agendar eventos ao vivo. Para obter mais informações, consulte [O que são eventos ao vivo do Microsoft Teams?](teams-live-events/what-are-teams-live-events.md).
+
+Saiba mais sobre [reuniões e chamadas no Microsoft Teams](https://support.office.com/article/Meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8).
 
 ## <a name="troubleshooting"></a>Solução de problemas
 
+Use as etapas a seguir para solucionar problemas com o suplemento de reunião do teams.
+
+### <a name="teams-meeting-add-in-in-outlook-for-windows-does-not-show"></a>O suplemento de reunião do Microsoft Teams no Outlook para Windows não é mostrado
+
 Se você não conseguir instalar o suplemento Teams Meeting para o Outlook, tente estas etapas de solução de problemas.
 
-- Verifique se todas as atualizações disponíveis para o cliente da área de trabalho do Outlook foram aplicadas.
-- Reinicie o cliente de área de trabalho do Teams.
-- Saia e entre novamente no cliente de área de trabalho do Teams.
-- Reinicie o cliente para área de trabalho do Outlook. (Verifique se o Outlook não está em execução no modo de administração.)
+- Verifique se o usuário tem uma política de atualização do teams que permite agendar reuniões no Teams. Para obter mais detalhes, confira [a atualização do Skype for Business para o Teams](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview#meetings) .
+- Verifique se o usuário tem uma política de reunião do teams que permite o suplemento do Outlook. Consulte [gerenciar políticas de reunião no Teams](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#allow-the-outlook-add-in) para obter mais detalhes.
+- Verifique se o usuário tem o cliente da área de trabalho do teams instalado. O suplemento de reunião não será instalado quando você usar somente o cliente Web Teams.
+- Certifique-se de que o usuário tenha permissão para executar o regsvr32. exe.
+- Certifique-se de que todas as atualizações disponíveis para o cliente da área de trabalho do Outlook foram aplicadas.
 - Certifique-se de que o nome da conta do usuário que efetuou logon não contenha espaços. (Esse é um problema conhecido e será corrigido em uma atualização futura.)
-- Certifique-se de que o logon único (SSO) esteja ativado.
+- Siga estas etapas:
+  - Reinicie o cliente de área de trabalho do Teams.
+  - Saia e entre novamente no cliente de área de trabalho do Teams.
+  - Reinicie o cliente para área de trabalho do Outlook. (Verifique se o Outlook não está em execução no modo de administração.)
+
+Se você ainda não vir o suplemento, certifique-se de que ele não esteja desabilitado no Outlook.
+
+- No Outlook, escolha **arquivo** e, em seguida, **Opções**.
+- Selecione a **guia suplementos da** caixa de diálogo **Opções do Outlook** .
+- Confirme se o **suplemento de reunião do Microsoft Teams para Microsoft Office** está listado na lista de **suplementos do aplicativo ativo**
+- Se o suplemento de reunião do teams estiver listado na lista de **suplementos de aplicativo desabilitada** , selecione suplementos de **com** em **gerenciar** e, em seguida, selecione **ir...**
+- Defina a caixa de seleção ao lado de **suplemento de reunião do Microsoft Teams para Microsoft Office**.
+- Escolha **OK** em todas as caixas de diálogo e reinicie o Outlook.
+
+Para obter orientação geral sobre como gerenciar suplementos, consulte [Exibir, gerenciar e instalar suplementos em programas do Office](https://support.office.com/article/View-manage-and-install-add-ins-in-Office-programs-16278816-1948-4028-91E5-76DCA5380F8D).
+
+Se o suplemento ainda não for exibido, use as etapas a seguir para verificar as configurações do registro.
+
+> [!NOTE]
+> A edição incorreta do registro pode danificar seriamente seu sistema. Antes de fazer alterações no registro, você deve fazer backup de todos os dados importantes do computador.
+- Inicie o RegEdit. exe
+- Navegue até HKEY_CURRENT_USER \Software\Microsoft\Office\Outlook\Addins
+- Verifique se o TeamsAddin. FastConnect existe.
+- Em TeamsAddin. FastConnect, verifique se existe LoadBehavior e se está definido como 3.
+  - Se LoadBehavior tiver um valor diferente de 3, altere-o para 3 e reinicie o Outlook.
+
+### <a name="delegate-scheduling-does-not-work"></a>O agendamento de representante não funciona
 
 Se o seu administrador configurou o Microsoft Exchange para [controlar o acesso ao Exchange Web Server (EWS)](https://docs.microsoft.com/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange), um representante não poderá agendar uma reunião do Teams em nome do chefe. A solução para esta configuração está em desenvolvimento e será lançada no futuro. 
-
-Para obter orientações gerais sobre como desabilitar suplementos, veja [Exibir, gerenciar e instalar suplemento nos programas do Office](https://support.office.com/article/View-manage-and-install-add-ins-in-Office-programs-16278816-1948-4028-91E5-76DCA5380F8D).
-
-Saiba mais sobre [reuniões e chamadas no Microsoft Teams](https://support.office.com/article/Meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8).

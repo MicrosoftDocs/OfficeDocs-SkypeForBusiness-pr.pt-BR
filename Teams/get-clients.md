@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e423bedc05dbbf303ecfdbf569ff9e1b096bd3d7
-ms.sourcegitcommit: c16451519e05b47bbb77e09dacd13ff212617e91
-ms.translationtype: HT
+ms.openlocfilehash: 8a3425ca19ded72f814e8f81252b7224c2c08a42
+ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "42327833"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43749489"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Obter clientes do Microsoft Teams 
 
@@ -45,6 +45,9 @@ O cliente de área de trabalho do Microsoft Teams é um aplicativo autônomo e t
 Os clientes de área de trabalho fornecem suporte de comunicação em tempo real (áudio, vídeo e compartilhamento de conteúdo) para reuniões de equipe, chamadas em grupo e chamadas individuais privadas.
 
 Os clientes de desktop podem ser baixados e instalados diretamente pelos usuários finais[https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754) se tiverem as permissões locais apropriadas (direitos de administrador não são necessários para instalar o cliente Teams em um PC, mas são necessários em um Mac).
+
+> [!NOTE]
+> Para obter mais detalhes sobre como instalar o Microsoft Teams em um Chromebook, consulte [como instalar e executar o Microsoft Office em um Chromebook](https://support.office.com/article/how-to-install-and-run-microsoft-office-on-a-chromebook-32f14a23-2c1a-4579-b973-d4b1d78561ad).
 
 Os administradores de TI podem escolher seu método preferido para distribuir os arquivos de instalação aos computadores de sua organização. Entre os exemplos estão o Microsoft Endpoint Configuration Manager (Windows) ou Jamf Pro (macOS). Para obter o pacote MSI para distribuições do Windows, consulte [Instalar o Microsoft Teams usando MSI](msi-deployment.md).  
 
@@ -75,6 +78,8 @@ Quando os usuários iniciam uma chamada usando o cliente Microsoft Teams pela pr
 > [!NOTE]
 > A configuração do Firewall do Windows será alterada mesmo quando o aviso for descartado ao selecionar “Cancelar”. Serão criadas duas regras de entrada para teams.exe com a ação Block para protocolos TCP e UDP.
 
+Se você quiser impedir que as equipes solicitem que os usuários criem regras de firewall quando os usuários fizerem sua primeira chamada do Teams, use o [exemplo de regra de firewall de entrada de script do PowerShell](#sample-powershell-script---inbound-firewall-rule) abaixo. 
+
 ### <a name="mac"></a>Mac
 
 Usuários de Mac podem instalar o Teams usando um arquivo de instalação PKG para computadores macOS. É necessário acesso administrativo para instalar o cliente Mac. O cliente macOS é instalado na pasta /Applications.
@@ -103,7 +108,7 @@ Os administradores de TI podem usar a implantação gerenciada do Teams para dis
 ### <a name="linux"></a>Linux
 
 Os usuários poderão instalar pacotes nativos do Linux nos formatos `.deb` e `.rpm`.
-Instalar o pacote de DEB ou de RPM instalará automaticamente o repositório de pacotes
+Instalar o pacote DEB ou RPM instalará automaticamente o repositório de pacotes.
 - DEB `https://packages.microsoft.com/repos/ms-teams stable main`
 - RPM `https://packages.microsoft.com/yumrepos/ms-teams` 
 
@@ -214,7 +219,7 @@ No momento, não estão disponibilizadas opções para administradores de TI def
 
 ![Captura de tela das configurações de notificação.](media/Get_clients_for_Microsoft_Teams_image6.png)
 
-## <a name="sample-powershell-script"></a>Exemplo de script do PowerShell
+## <a name="sample-powershell-script---inbound-firewall-rule"></a>Script do PowerShell de exemplo-regra de firewall de entrada
 
 Este script de exemplo, que precisa ser executado em computadores clientes no contexto de uma conta de administrador elevada, criará uma nova regra de firewall de entrada para cada pasta de usuário encontrada em c:\usuários. Quando o Teams encontrar essa regra, impedirá que o aplicativo do Teams solicite que os usuários criem regras de firewall quando os usuários fizerem a primeira chamada no Teams. 
 
