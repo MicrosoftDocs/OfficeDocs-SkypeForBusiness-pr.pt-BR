@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fa72c0d6a03ef89d0c04b0a70a0bbc918a508243
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: ea18a755ccca9b3608cd1fddbf616a969b89140c
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43136971"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779828"
 ---
 # <a name="upgrade-from-a-skype-for-business-hybrid-deployment-to-teams"></a>Atualizar de uma implantação híbrida do Skype for Business para o Teams
 
@@ -41,7 +41,7 @@ Este artigo faz parte do estágio de implantação e implementação da sua jorn
 - [Preparou sua organização](https://aka.ms/SkypeToTeams-UserReadiness)
 - [Conduziu um piloto](https://aka.ms/SkypeToTeams-Pilot)
 
-Siga as orientações neste artigo se você tiver implantado o Skype for Business ou o Microsoft Lync local e o configurou em uma implantação híbrida com o seu locatário do Office 365, e a sua organização quiser atualizar para o Microsoft Teams, usando vários modos de coexistência, ou todos. Para a viagem de atualização, você precisa mover seus usuários para o Skype for Business online (se eles ainda não estiverem online) e atribuí-los ao modo de coexistência e à atualização apropriados.
+Siga as orientações neste artigo se você tiver implantado o Skype for Business ou o Microsoft Lync local e o configurou em uma implantação híbrida com sua organização do Office 365, e sua organização desejar atualizar para o Microsoft Teams de forma seletiva, usando vários modos de coexistência — ou todos. Para a viagem de atualização, você precisa mover seus usuários para o Skype for Business online (se eles ainda não estiverem online) e atribuí-los ao modo de coexistência e à atualização apropriados.
 
 > [!IMPORTANT]
 > [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]

@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: Fornece aos profissionais de ti links para as informações de atualização mais recentes para versões perpétuas dos clientes do Skype for Business 2016, Skype for Business 2015 e Lync 2013
-ms.openlocfilehash: 4ad81a06fd6360ecc62fdddeb694a1abad07eec3
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 8a6008845c4218c8682a22cbab110551999d19cb
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42009584"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779697"
 ---
 # <a name="latest-updates-for-versions-of-skype-for-business-that-use-windows-installer-msi"></a>Atualizações mais recentes para versões do Skype for Business que usam o Windows Installer (MSI)
 
@@ -25,7 +25,7 @@ Use os links nesta página para obter mais informações e baixar as atualizaç�
 
 > [!NOTE]
 > - As informações neste artigo aplicam-se apenas às versões perpétuas do Skype for Business que usam a tecnologia de instalação do Windows Installer (MSI). Por exemplo, se você instalou uma versão licenciada por volume do Skype for Business, como o Skype for Business incluído no Office Professional Plus 2016.
-> - As informações deste artigo não se aplicam às versões do Office 365 do Skype for Business, como o Skype for Business incluído no Office 365 ProPlus.
+> - As informações deste artigo não se aplicam às versões do Office 365 do Skype for Business, como o Skype for Business incluído nos aplicativos do Microsoft 365 para empresas.
 > - Para obter as atualizações mais recentes do cliente móvel, vá para a loja de aplicativos do seu cliente móvel (iTunes, Google Play ou Microsoft Store) para exibir os detalhes e instalar as atualizações.
 > - Para descobrir qual versão do Skype for Business você está usando, veja [qual versão do Skype for Business eu tenho?](https://support.microsoft.com/help/3195481/how-to-check-the-version-of-skype-for-business-2016)
 > - Para saber mais sobre como instalar as atualizações do Office, confira [Instalar atualizações do Office](https://support.office.com/article/2ab296f3-7f03-43a2-8e50-46de917611c5).

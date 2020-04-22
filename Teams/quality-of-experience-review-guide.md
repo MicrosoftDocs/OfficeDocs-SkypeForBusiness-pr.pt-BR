@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: 91e2763fac952b7188284dcf09e6fc0b7cc4bf16
-ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.openlocfilehash: 44ea666d39427e6be6aa60a3c05af2a10ed1cc5e
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 04/22/2020
-ms.locfileid: "43749858"
+ms.locfileid: "43780580"
 ---
 # <a name="quality-of-experience-review-guide"></a>Guia de revisão da experiência de qualidade 
 
@@ -70,16 +70,16 @@ Esta tabela mostra o que cada função pode fazer no CQD:
 
 |  |Exibir relatórios  |Exibir campos EUII  |Criar relatórios  |Carregar dados de construção  |
 |---------|:-------:|:-------:|:-------:|:-------:|
-|Administrador global do Office 365     |Sim          |Sim          |Sim          |Sim         |
+|Administrador global     |Sim          |Sim          |Sim          |Sim         |
 |Administrador de Serviço de Equipes     |Sim          |Sim          |Sim          |Sim         |
 |Administrador de Comunicações de Equipes     |Sim          |Sim          |Sim          |Sim         |
 |Engenheiro de Suporte de Comunicações de Equipes     |Sim          |Sim          |Sim         |Não         |
 |Especialista em suporte do teams Communications     |Sim         |Não         |Sim         |Não         |
 |Administrador do Skype for Business     |Sim          |Sim          |Sim          |Sim         |
 |Leitor global do Azure AD |Sim          |Sim          |Sim         |Não         |
-|Leitor de relatórios<sup>1</sup> do Office 365     |Sim         |Não         |Sim         |Não         |
+|Leitor de relatórios<sup>1</sup> do Microsoft 365     |Sim         |Não         |Sim         |Não         |
 
-<sup>1</sup> além de ler relatórios do CQD, o leitor de relatórios do Office 365 pode exibir todos os [relatórios de atividades](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263) no centro de administração e todos os relatórios do pacote de conteúdo de [adoção do Microsoft 365](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f).
+<sup>1</sup> além de ler relatórios do CQD, o leitor de relatórios do Microsoft 365 pode exibir todos os [relatórios de atividades](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263) no centro de administração e todos os relatórios do pacote de conteúdo de [adoção do Microsoft 365](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f).
 
 > [!NOTE]
 > Se você não estiver vendo EUII (informações identificáveis pelo usuário final) e tiver uma das funções que tem permissão para ver essas informações, lembre-se de que CQD só mantém EUII por 30 dias. Qualquer item mais antigo que 30 dias é excluído.
@@ -598,7 +598,7 @@ Este guia inclui [dois modelos de CQD organizadas](https://aka.ms/qertemplates).
 2. Autentique usando suas credenciais administrativas do Office 365.
 
    > [!NOTE]
-   > Você deve ter o administrador global do Office 365, o administrador do Skype for Business ou a função de leitores de relatório para acessar o CQD. 
+   > Você deve ter o administrador global, o administrador do Skype for Business ou a função de leitores de relatório para acessar o CQD. 
 
 3. Selecione o menu **relatórios de resumo** na parte superior da página e, em seguida, escolha **relatórios detalhados**.
 
@@ -1189,7 +1189,7 @@ Também é importante considerar e garantir que os drivers de rede, vídeo, USB 
 Os números de versão do Skype for Business podem ser encontrados por meio dos links abaixo:
 
 -   [Informações de lançamento para atualizações do Office ProPlus](https://docs.microsoft.com/officeupdates/release-notes-office365-proplus)
--   [Histórico de atualizações do Office 365 ProPlus](https://docs.microsoft.com/officeupdates/update-history-office365-proplus-by-date)
+-   [Histórico de atualizações para aplicativos do Microsoft 365 para empresas](https://docs.microsoft.com/officeupdates/update-history-office365-proplus-by-date)
 -   [Downloads e atualizações do Skype for Business](/SkypeForBusiness/software-updates)
 
 ### <a name="devices"></a>Dispositivos

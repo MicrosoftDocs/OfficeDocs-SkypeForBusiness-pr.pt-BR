@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.audioconferencing.bridgesettings
 - seo-marvel-mar2020
 description: Altere as configurações de ponte de áudio audioconferência, incluindo notificações de entrada e de saída, executar nomes ou números de telefone, tons e solicitar aos chamadores gravarem o nome.
-ms.openlocfilehash: aaff3518675e1db56340f9dc1568b994cf2ed6e6
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 48028ccb3f2a0664f9fa724ec91e1dfc0177326f
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139080"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780340"
 ---
 # <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>Alterar as configurações de uma ponte de audioconferência
 
@@ -43,7 +43,7 @@ A ponte de conferência atende a uma chamada e solicita o chamador com prompts d
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
-## <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Um ícone mostrando o logotipo do Microsoft Teams](media/teams-logo-30x30.png) Usar o centro de administração do Microsoft Teams
+## <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Um ícone mostrando o logotipo do Microsoft Teams](media/teams-logo-30x30.png) Usando o centro de administração do Microsoft Teams
 
 1. No painel de navegação esquerdo, vá para **reuniões** > **conferência pontes**. 
 
@@ -90,7 +90,7 @@ A ponte de conferência atende a uma chamada e solicita o chamador com prompts d
     
 **Definir o comprimento do PIN para reuniões**
   
-1. Entre no Office 365 com sua conta corporativa ou de estudante.
+1. Entre com sua conta corporativa ou de estudante.
     
 2. Vá para o **Centro** > de administração do Microsoft 365**Skype for Business**.
     
@@ -103,7 +103,7 @@ A ponte de conferência atende a uma chamada e solicita o chamador com prompts d
   
 **Selecione se deseja enviar emails para seus usuários**
   
-1. Entre no Office 365 com sua conta corporativa ou de estudante.
+1. Entre com sua conta corporativa ou de estudante.
     
 2. Vá para o **Centro** > de administração do Microsoft 365**Skype for Business**.
     

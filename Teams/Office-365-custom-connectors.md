@@ -1,5 +1,5 @@
 ---
-title: Usar o Office 365 e conectores personalizados
+title: Usar o Microsoft 365 e conectores personalizados
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -17,21 +17,21 @@ description: Os conectores mantêm a sua equipe atualizada ao entregar conteúdo
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 6726507b0dd6c0ca0067bf19a3f9a2c37f727c53
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 33a407de891f0d988b1fb32988556059c6adc2e0
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43136501"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778587"
 ---
-<a name="use-office-365-and-custom-connectors-in-microsoft-teams"></a>Usar o Office 365 e conectores personalizados no Microsoft Teams
+<a name="use-microsoft-365-and-custom-connectors-in-microsoft-teams"></a>Usar o Microsoft 365 e conectores personalizados no Microsoft Teams
 =======================================================
 
 Os conectores mantêm sua equipe em dia fornecendo conteúdo usado com frequência e atualizações de serviço diretamente em um canal. Com os conectores, os usuários do Microsoft Teams podem receber atualizações de serviços populares, como Twitter, Trello, Wunderlist, GitHub e serviços do DevOps do Azure dentro do fluxo de chat de sua equipe.
 
 Qualquer membro de uma equipe pode conectar sua equipe a serviços de nuvem populares com os conectores, se as permissões da equipe permitirem, e todos os membros da equipe forem notificados sobre as atividades desse serviço. Os conectores continuarão a funcionar mesmo após o membro que, inicialmente, configurar o conector. Qualquer membro da equipe com as permissões para adicionar à instalação pode modificar os conectores por outros membros.
 
-Os conectores do Office 365 podem ser usados com o Microsoft Teams e com os grupos do Office 365, facilitando para todos os membros manter a sincronia e receber informações relevantes rapidamente. O Microsoft Teams e o Exchange usam o mesmo modelo de conector, permitindo que você use os mesmos conectores em ambas as plataformas. No entanto, vale a pena observar que a desabilitação de conectores para o grupo do Office 365 em que uma equipe depende da capacidade de criar conectores para essa equipe também será desativada.
+Os conectores do Microsoft 365 podem ser usados com os grupos do Microsoft Teams e do Microsoft 365, tornando mais fácil para todos os membros ficarem sincronizados e receber informações relevantes rapidamente. O Microsoft Teams e o Exchange usam o mesmo modelo de conector, permitindo que você use os mesmos conectores em ambas as plataformas. No entanto, vale a pena observar que a desabilitação de conectores para o grupo do Office 365 em que uma equipe depende da capacidade de criar conectores para essa equipe também será desativada.
 
 <a name="add-a-connector-to-a-channel"></a>Adicionar um conector a um canal
 ----------------------------

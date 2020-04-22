@@ -12,12 +12,12 @@ ms:contentKeyID: 48184449
 ms.date: 02/21/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a95f2fba2d65f0d25f1fa9b843dd7bb47240aa6c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 44d1f06fcbdbbba7400bf45857dad9ed57971363
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188384"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779717"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -103,7 +103,7 @@ Após a importação do módulo, digite o seguinte comando e pressione ENTER par
 
     Connect-MsolService
 
-Depois de pressionar ENTER, uma caixa de diálogo de credenciais será exibida. Informe seu nome de usuário e senha do Office 365 na caixa de diálogo e clique em OK.
+Depois de pressionar ENTER, uma caixa de diálogo de credenciais será exibida. Insira seu nome de usuário e senha do Microsoft 365 ou do Office 365 na caixa de diálogo e clique em OK.
 
 Assim que estiver conectado ao Office 365, você poderá executar o comando a seguir para retornar informações sobre as entidades de serviço:
 

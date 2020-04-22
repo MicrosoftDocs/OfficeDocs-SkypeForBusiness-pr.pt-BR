@@ -12,12 +12,12 @@ ms:contentKeyID: 48183399
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 480e4a097a3faa8dc70d05ff72027fd6e65e5a76
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b39c94b08da65e546fdf3ad01d42ada636ff371d
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215847"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780750"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -59,7 +59,7 @@ Você precisará ter os seguintes aplicativos e utilitários instalados para con
 
   - [Instalar o Windows PowerShell para logon único com o AD FS](https://go.microsoft.com/fwlink/p/?linkid=398710)
 
-  - O assistente de conexão do Microsoft Online Services (msoidcli-7.0. msi) está incluído na configuração da área de trabalho do Office 365, que pode ser obtida da página de downloads vinculada a partir do portal de administração do Office 365.
+  - O assistente de conexão do Microsoft Online Services (msoidcli-7.0. msi) está incluído na configuração da área de trabalho do Office 365, que pode ser obtida da página de downloads vinculada a partir do centro de administração do Microsoft 365.
 
 </div>
 
@@ -67,7 +67,7 @@ Você precisará ter os seguintes aplicativos e utilitários instalados para con
 
 ## <a name="administrator-credentials"></a>Credenciais de administrador
 
-Quando for solicitado a fornecer suas credenciais de administrador, use o nome de usuário e a senha da conta de administrador para o seu locatário do Office 365. Você também usará essas credenciais ao configurar o AD FS (serviços de Federação do Active Directory) 2,0, sincronização de diretórios, logon único, Federação e transferência de usuários para o Lync Online.
+Quando for solicitado a fornecer suas credenciais de administrador, use o nome de usuário e a senha da conta de administrador da sua organização do Office 365. Você também usará essas credenciais ao configurar o AD FS (serviços de Federação do Active Directory) 2,0, sincronização de diretórios, logon único, Federação e transferência de usuários para o Lync Online.
 
 </div>
 

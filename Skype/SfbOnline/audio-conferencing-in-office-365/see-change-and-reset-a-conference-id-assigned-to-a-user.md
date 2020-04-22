@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Saiba como atribuir uma ID de conferência a um usuário no Skype for Business Online e o que os parâmetros de IDs de conferência devem estar. '
-ms.openlocfilehash: 8bec76e25df092beb18725467c3041de3c1d7745
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: b5ed8bb8ec32277e0bebca43338ae233aa6d38f6
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42010984"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776836"
 ---
 # <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-skype-for-business-online"></a>Visualizar e redefinir uma ID de conferência atribuída a um usuário no Skype for Business Online
 
@@ -50,7 +50,7 @@ An email will be sent to the user with the conference ID and the default audio c
 
 Você pode exibir sua ID de conferência e enviá-la aos usuários.
 
-1. Entre no Office 365 com sua conta corporativa ou de estudante.
+1. Entre com sua conta corporativa ou de estudante.
 
 2. Vá para o centro de administração > **Skype for Business**.
 
@@ -78,7 +78,7 @@ Consulte [Get-CsOnlineDialInConferencingUser](https://go.microsoft.com/fwlink/?L
 
 ![Um ícone mostrando o logotipo do Skype for Business](../images/sfb-logo-30x30.png) **Usando o centro de administração do Skype for Business**
 
-1. Entre no Office 365 com sua conta corporativa ou de estudante.
+1. Entre com sua conta corporativa ou de estudante.
 
 2. Vá para o centro de administração > **Skype for Business**.
 

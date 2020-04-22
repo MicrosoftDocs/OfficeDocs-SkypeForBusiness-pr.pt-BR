@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 18476e043268d8b51fdf877b27e23eb926a1885e
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 79b6e33c6434a1242b7d30322aff77b62f1b42fd
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137781"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780210"
 ---
 # <a name="microsoft-education-governance-faq-for-admins"></a>Perguntas frequentes sobre governança do Microsoft Education para administradores
 
@@ -31,14 +31,14 @@ ms.locfileid: "43137781"
 
 ## <a name="how-do-i-control-team-creation-im-worried-students-are-going-to-create-inappropriate-teams"></a>Como faço para controlar a criação da equipe? Estou preocupado que os alunos criem equipes inadequadas.
 
-Para evitar nomes inadequados ou enganosas, ou apenas para fornecer mais estruturas sobre como as equipes são nomeadas, você pode usar a política de nomenclatura de grupos do Office 365 (atualmente em visualização):
+Para evitar nomes inadequados ou enganosas, ou apenas para fornecer mais estruturas sobre como as equipes são nomeadas, você pode usar a política de nomenclatura de grupos do 365 da Microsoft (atualmente em visualização):
 
 -   **Política de nomenclatura de sufixo de prefixo** Você pode usar prefixos ou sufixos para definir a Convenção de nomenclatura de Teams (grupos), por exemplo, **GRP_US_My Group_Engineering**. Os prefixos e sufixos podem ser cadeias de caracteres fixas ou atributos de usuário (como **[departamento]**) que são adicionados ao nome com base no usuário que está criando a equipe.
 -   **Palavras bloqueadas personalizadas** Você pode carregar um conjunto de palavras que os usuários de uma organização específica são bloqueados usando em nomes de equipes criados por eles. Por exemplo, você pode bloquear os termos **CEO**, **Payroll**e **HR** de uso em nomes de equipe para grupos aos quais não se aplicam.
 -   **Classificação** Você pode criar classificações que os usuários em sua organização podem definir quando criarem um grupo do Office 365. 
 
 > [!IMPORTANT]
-> O uso da política de nomenclatura de grupos do Office 365 exige licenças do Azure Active Directory Premium P1 ou licenças EDU do Azure AD Basic para cada usuário exclusivo que seja membro de um ou mais grupos do Office 365.
+> O uso da política de nomenclatura de grupos do Microsoft 365 exige licenças do Azure Active Directory Premium P1 ou licenças EDU do Azure AD Basic para cada usuário exclusivo que seja membro de um ou mais grupos do Microsoft 365.
 
 Para obter instruções detalhadas, confira [política de nomenclatura de grupos do Office](https://support.office.com/article/office-365-groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552).
 
@@ -55,13 +55,13 @@ Em geral, recomendamos impedir que alguém crie equipes. Se todos podem criar eq
 
 Na nossa experiência, a educação do usuário ajuda a garantir o uso do teams responsáveis. Assim que os usuários compreenderem que a criação de equipes não são anônimas, compreenderá as implicações de criá-las com cuidado e tendem a não usar a ferramenta de forma indiferente.
 
-Se você tem certeza de que deseja controlar quem pode criar equipes, consulte [gerenciar quem pode criar grupos do Office 365](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618).
+Se você tem certeza de que deseja controlar quem pode criar equipes, consulte [gerenciar quem pode criar grupos do Microsoft 365](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618).
 
 ## <a name="how-do-i-automatically-create-a-team-for-each-course-at-the-beginning-of-the-semester-or-quarter"></a>Como criar automaticamente uma equipe para cada curso no início do semestre ou trimestre?
 
 No início de cada semestre ou trimestre, você precisará de uma série de novas equipes. Pode fazer sentido fazer uma abordagem automatizada para criar essas equipes automaticamente, preenchê-las com os usuários certos e definir as permissões corretas:
 
--   O School Data Sync pode criar grupos do Office 365 para o Exchange Online e o SharePoint Online, equipes de classe para Microsoft Teams e blocos de anotações de classe do OneNote, grupos de escolas para o Intune para educação e enlistagem e integração de logon único (SSO) para muitos outros aplicativos de terceiros. Saiba mais em [visão geral da sincronização de dados da escola](https://docs.microsoft.com/schooldatasync/overview-of-school-data-sync).
+-   O School Data Sync pode criar grupos do Microsoft 365 para o Exchange Online e o SharePoint Online, equipes de classe para Microsoft Teams e blocos de anotações de classe do OneNote, grupos de escolas para o Intune para educação e enlistamento e integração de logon único (SSO) para muitos outros aplicativos de terceiros. Saiba mais em [visão geral da sincronização de dados da escola](https://docs.microsoft.com/schooldatasync/overview-of-school-data-sync).
 -   Com o PowerShell, você pode criar equipes e canais e definir as configurações automaticamente. Consulte [Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) para obter mais informações.
 -   Você pode usar a API do Microsoft Graph (atualmente em versão beta) para criar, configurar, clonar e arquivar equipes. Consulte [usar a API do Microsoft Graph para trabalhar com o Microsoft Teams](https://developer.microsoft.com/graph/docs/api-reference/beta/resources/teams_api_overview) para obter mais informações.
 
@@ -78,7 +78,7 @@ Recomendamos que você primeiro pense em como deseja lidar com os dados do teams
 -   **Equipe de arquivamento:** Esta configuração coloca as equipes em modo somente leitura. Elas ainda podem ser navegadas e pesquisadas, mas ninguém pode adicionar novas postagens. [Arquivar ou restaurar uma equipe](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7) descreve como os proprietários da equipe podem arquivar uma equipe; Os proprietários da equipe também podem usar a [API do Graph (beta)](https://developer.microsoft.com/graph/docs/api-reference/beta/resources/teams_api_overview) para arquivar ou restaurar uma equipe.
  
 > [!IMPORTANT]
-> O uso da política de expiração de grupos do Office 365 exige licenças do Azure Active Directory Premium P1 para cada usuário exclusivo que seja membro de um ou mais grupos do Office 365.
+> Usar a política de expiração de grupos do Microsoft 365 exige licenças do Azure Active Directory Premium P1 para cada usuário exclusivo que seja membro de um ou mais grupos do Microsoft 365.
 
 ## <a name="are-there-team-templates-for-my-faculty-members-to-use-when-creating-a-team"></a>Há modelos de equipe para os membros dos professores usarem ao criar uma equipe?
 
@@ -122,10 +122,10 @@ Para obter mais detalhes sobre as políticas do Teams, consulte [gerenciar as co
 Você pode usar o acesso de convidado para convidar usuários de fora do seu locatário, o que pode ser útil para palestras de colaboração ou convidados de pesquisa:
 
 -   Use a lista branca do domínio para permitir ou bloquear convidados com base em seus domínios.
--   Ative e desative o acesso de convidado para grupos e equipes particulares do Office 365, para controlar quais equipes podem (e não podem) convidar convidados.
+-   Ative e desative o acesso de convidado para determinados grupos e equipes do Microsoft 365, para controlar quais equipes podem ou não convidar convidados.
 -   Use o log de auditoria para ver quais alertas foram enviados a convidados convidados.
 
-Para obter mais informações, consulte [acesso de convidado em grupos do Office 365](https://support.office.com/article/Guest-access-in-Office-365-Groups-bfc7a840-868f-4fd6-a390-f347bf51aff6#PickTab=Manage).
+Para obter mais informações, consulte [acesso de convidado em grupos do Microsoft 365](https://support.office.com/article/Guest-access-in-Office-365-Groups-bfc7a840-868f-4fd6-a390-f347bf51aff6#PickTab=Manage).
 
 ## <a name="what-information-can-i-review-about-existing-teams"></a>Que informações eu posso examinar sobre as equipes existentes?
 

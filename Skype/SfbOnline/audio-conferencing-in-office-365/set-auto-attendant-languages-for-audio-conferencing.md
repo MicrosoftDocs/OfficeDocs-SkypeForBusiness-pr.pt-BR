@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Consulte como selecionar idiomas para o atendedor automático para um número de Audioconferência no Skype for Business Online.
-ms.openlocfilehash: 22c3ad1d2386dec07060548cd055a5d289db4364
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 34ed4ccee5239923f68b089ce14551fe43c32320
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41680378"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776796"
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing-in-skype-for-business-online"></a>Definir os idiomas para o atendedor automático de Audioconferência no Skype for Business Online
 
@@ -45,7 +45,7 @@ Choose one primary language and up to four secondary languages. The primary lang
   
 ## <a name="set-the-conferencing-auto-attendant-languages"></a>Definir os idiomas do atendedor automático da conferência
 
-Você deve ser um [administrador global do Office 365](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) ou [administrador do Skype for Business](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) para executar esta etapa.
+Você deve ser um [administrador global](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) ou [administrador do Skype for Business](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) para executar esta etapa.
     
 1. No **centro de administração do Skype for Business**, no painel de navegação esquerdo, vá para o **portal herdado**. Uma vez no portal herdado, selecione **videoconferência**e, em seguida, clique em **ponte da Microsoft**.
     

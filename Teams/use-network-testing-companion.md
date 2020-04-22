@@ -19,12 +19,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: c3d292eecb6173f98a2e95dbbd5a1097f5f785eb
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: a9fffea969ea1448bdf8f2a076dbef6756765e20
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836751"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780020"
 ---
 <a name="use-the-network-testing-companion"></a>Usar o complemento de teste de rede
 =================================
@@ -34,7 +34,7 @@ O [complemento do teste de rede](https://www.powershellgallery.com/packages/Netw
 Você pode usar essa ferramenta na fase de planejamento de uma implantação do Skype for Business ou do Microsoft Teams. Se estiver usando o Teams ou o Skype for Business online no momento, você pode usar essa ferramenta para solucionar problemas de qualidade de voz ou simplesmente para verificar a conexão de rede antes de fazer uma chamada ou depois de ter uma experiência de baixa qualidade.
 
 > [!NOTE]
-> Você não precisa de uma assinatura do Office 365 para baixar e instalar o complemento de teste de rede.
+> Você não precisa de uma assinatura do Microsoft 365 ou do Office 365 para baixar e instalar o complemento de teste de rede.
 
 ## <a name="download-the-tool-and-documentation"></a>Baixar a ferramenta e a documentação
 

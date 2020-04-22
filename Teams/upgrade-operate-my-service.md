@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6d9bcc5e00b9892bf8405eddb2ac24291a485d19
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: b5607e9405a777329efa6ad3bb58e204e03879a9
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706961"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776756"
 ---
 # <a name="operate-your-service"></a>Operar seu serviço
 
@@ -41,7 +41,7 @@ O gerenciamento do serviço é um tema amplo, que abrange as operações do serv
 
 É provável que a noção de gerenciamento do serviço não seja um conceito novo para a maioria das organizações. Você já deve ter implementado processos e tarefas associadas a serviços existentes. Dito isso, você provavelmente pode aumentar seus processos atuais quando planejar o gerenciamento de serviços hoje para dar suporte às equipes no futuro.
 
-O gerenciamento de serviços abrange todas as atividades e os processos envolvidos no gerenciamento do teams de ponta a ponta. Conforme observado anteriormente, alguns componentes de gerenciamento de serviços — a infraestrutura que o serviço do Office 365 em si são, são responsabilidade da Microsoft, enquanto você, o cliente, é responsável pelos seus usuários de gerenciar os diversos aspectos do Teams, a rede e pontos de extremidade que você fornece.
+O gerenciamento de serviços abrange todas as atividades e os processos envolvidos no gerenciamento do teams de ponta a ponta. Conforme observado anteriormente, alguns componentes de gerenciamento de serviços — a infraestrutura que o serviço do Office 365 em si são, são responsabilidade da Microsoft, enquanto você, o cliente, é responsável pelos seus usuários a gerenciar os vários aspectos do Teams, da rede e dos pontos de extremidade que você fornece.
 
 As tarefas e atividades neste guia são agrupadas em oito categorias, conforme mostrado no diagrama a seguir. Cada uma dessas categorias será expandida nas seções a seguir.
 
@@ -114,7 +114,7 @@ As seções a seguir descrevem as ferramentas que você pode aproveitar para mon
 
 | Ferramenta de monitoramento | Benefícios | Quando usar |
 |---|---|---|
-| Portal do Office 365 | Disponível em qualquer dispositivo com um navegador compatível. | Use quando não forem necessárias notificações em tempo real. |
+| Centro de administração do Microsoft 365 | Disponível em qualquer dispositivo com um navegador compatível. | Use quando não forem necessárias notificações em tempo real. |
 | Aplicativo de administração do Office 365 | Fornece notificações por push para o seu dispositivo móvel. | Use quando você precisar ser notificado sobre incidentes de serviço enquanto estiver em trânsito. |
 | Centro de sistema da Microsoft | Integração com o Microsoft System Center. | Use quando precisar de recursos avançados de monitoramento e suporte de notificação. |
 | API de comunicação do serviço do Office 365 | Acesso programático à integridade do serviço do Office 365. | Use quando precisar de integração com uma ferramenta de monitoramento de terceiros ou se quiser criar sua própria solução. |
@@ -122,9 +122,9 @@ As seções a seguir descrevem as ferramentas que você pode aproveitar para mon
 > [!NOTE]
 > Somente pessoas que receberam a função de administrador **global** ou **administrador de serviço** podem exibir a integridade do serviço.
 
-### <a name="monitoring-with-the-office-365-portal"></a>Monitorando com o portal do Office 365
+### <a name="monitoring-with-the-microsoft-365-admin-center"></a>Monitorando com o centro de administração do Microsoft 365
 
-O [portal do Office 365](https://portal.office.com/) fornece um [painel de integridade de serviço](https://portal.office.com/adminportal/home#/servicehealth) no qual você pode exibir a integridade atual do serviço do Teams, além de serviços dependentes.
+O [centro de administração do Microsoft 365](https://portal.office.com/) fornece um [painel de integridade de serviço](https://portal.office.com/adminportal/home#/servicehealth) no qual você pode ver a integridade atual do serviço do Teams, além de serviços dependentes.
 
 ### <a name="monitoring-with-the-mobile-app"></a>Monitorando com o aplicativo móvel
 
@@ -147,7 +147,7 @@ Você pode monitorar a integridade do serviço e as alterações futuras aprovei
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>Tarefas diárias/semanais/mensais/necessárias
 
-| Atividades | Descrição | Cadência | Equipe designada |
+| Atividade | Descrição | Cadência | Equipe designada |
 |---|---|---|---|
 | Monitorar a integridade do serviço | Monitorar proativamente o funcionamento do Microsoft Teams Service (e dos serviços dependentes) usando as ferramentas disponíveis. Os serviços dependentes incluem: Exchange Online, SharePoint Online, OneDrive for Business, Azure Active Directory. | Tempo real | |
 | Notificação de incidente | Notifique os participantes internos de eventos que afetam o serviço Teams. Os participantes internos podem incluir usuários, helpdesks e gerentes de incidentes. | Conforme necessário | |
@@ -220,7 +220,7 @@ Para obter mais informações sobre como planejar o gerenciamento de alteraçõe
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>Tarefas diárias/semanais/mensais/necessárias
 
-| Atividades| Descrição| Cadência| Equipe designada |
+| Atividade| Descrição| Cadência| Equipe designada |
 |---|---|---|---|
 | Monitorar para alterar| Monitore as alterações futuras do serviço Microsoft Teams.| Diário||
 | Planejar a mudança| Avalie e planeje novos recursos e funcionalidades, incluindo planos de comunicação, campanhas de conscientização e treinamento.| Conforme necessário ||
@@ -275,7 +275,7 @@ Em primeiro lugar, identifique se esse é um problema de adoção ou técnico. C
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>Tarefas diárias/semanais/mensais/necessárias
 
-| Atividades | Descrição | Cadência | Equipe designada |
+| Atividade | Descrição | Cadência | Equipe designada |
 |---|---|---|---|
 | Medir o uso (fase de habilitação) | Meça e avalie o uso da equipe, pois os sites continuam a ser integrados durante a fase de capacitação. Solucionar problemas de uso conforme necessário. | Semanal | |
 | Medir o uso | Medir e avaliar o uso da equipe na fase valor da unidade (após a conclusão da implantação). Solucionar problemas de uso conforme necessário. | Newsletter | |
@@ -328,7 +328,7 @@ Para fornecer pesquisas de NPS à sua organização, você pode aproveitar sua f
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>Diário/semanal/mensal/de tarefas necessárias
 
-| Atividades | Descrição | Cadência | Equipe designada |
+| Atividade | Descrição | Cadência | Equipe designada |
 |---|---|---|---|
 | Avaliar o usuário do usuário | Capture e avalie opiniões do usuário usando pesquisas ou entrevistas, ou por meio de um canal de feedback no Teams ou no Yammer. | Conforme necessário | |
 | Atualizar planos de adoção | Altere a mudança de unidade em sua organização com base nos comentários dos usuários; Isso pode incluir alterações em seus planos de comunicação, programas de treinamento ou a maneira como você oferece suporte a seus usuários. | Conforme necessário | |
@@ -353,7 +353,7 @@ Para garantir a integridade da sua rede, várias atividades de operações preci
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>Tarefas diárias/semanais/mensais/necessárias
 
-| Atividades | Descrição | Cadência | Equipe designada |
+| Atividade | Descrição | Cadência | Equipe designada |
 |---|---|---|---|
 | Monitorar IPs e URLs do Office 365 | Monitore as alterações nas [URLs e nos intervalos de endereços IP do Office 365](https://aka.ms/o365ips) usando o [RSS feed](https://go.microsoft.com/fwlink/p/?linkid=236301) fornecido e inicie uma solicitação de alteração para grupos de rede aplicáveis. | Diário | |
 | Atualizar a rede com base em alterações no IPs e URLs do Office 365 | Faça atualizações nos componentes de rede aplicáveis (firewalls, servidores proxy, VPNs, firewalls do lado do cliente e assim por diante) para refletir as alterações nas [URLs e nos intervalos de endereços IP do Office 365](https://aka.ms/o365ips). | Conforme necessário | |
@@ -386,7 +386,7 @@ O [Guia de revisão da qualidade da experiência](https://aka.ms/qerguide) inclu
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>Tarefas diárias/semanais/mensais/necessárias
 
-| Atividades | Descrição | Cadência | Equipe designada |
+| Atividade | Descrição | Cadência | Equipe designada |
 |---|---|---|---|
 | Indicar e treinar a (s) Champion (s) de qualidade | Innomeado e treine um especialista em qualidade. | Conforme necessário | |
 | Executar análises de qualidade de experiência (QERs) | Execute um QER para identificar as tendências de qualidade e confiabilidade, a análise em relação a destinos definidos e a saída para os principais participantes da organização. | Mensalmente (semanal durante implantações) | |
@@ -441,7 +441,7 @@ Mesmo que você tenha seguido a orientação anterior, os usuários da sua organ
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>Tarefas diárias/semanais/mensais/necessárias
 
-| Atividades | Descrição | Cadência | Equipe designada |
+| Atividade | Descrição | Cadência | Equipe designada |
 |---|---|---|---|
 | Requisitos de ponto de extremidade | Certifique-se de que o ponto de extremidade do teams continua a atender a todos os requisitos de software para as equipes listadas em [obter clientes para Microsoft Teams](get-clients.md). | Mensal | |
 | Firewalls de ponto de extremidade | Mantenha as exclusões apropriadas no firewall da empresa com base nas informações nas [URLs e nos intervalos de endereços IP do Office 365](https://aka.ms/o365ips). Seu fornecedor de terceiros terá orientação específica para manter as exclusões. Assine o [RSS feed](https://support.office.com/o365ip/rss) para ser notificado automaticamente sobre as alterações. | Conforme necessário | |
@@ -488,13 +488,13 @@ Para dar suporte a usuários, uma organização pode exigir qualquer número de 
 
 ### <a name="team-creation-optional"></a>Criação da equipe (opcional)
 
-Por padrão, todos os usuários com uma caixa de correio no Exchange Online têm permissões para criar grupos do Office 365 e, portanto, uma equipe no Microsoft Teams. Se quiser ter um controle mais rígido e [restringir a criação de novas equipes](assign-roles-permissions.md#permissions-to-create-teams) (e, portanto, a criação de novos grupos do Office 365), você pode delegar direitos de criação e gerenciamento de grupos a um conjunto de administradores. Se a sua organização quiser buscar essa opção, consulte o processo descrito neste artigo para permitir que os usuários enviem solicitações que são processadas por uma equipe atribuída.
+Por padrão, todos os usuários com uma caixa de correio no Exchange Online têm permissões para criar grupos do Microsoft 365 e, portanto, uma equipe no Microsoft Teams. Se quiser ter um controle mais rígido e [restringir a criação de novas equipes](assign-roles-permissions.md#permissions-to-create-teams) (e, portanto, a criação de novos grupos do Microsoft 365), você pode delegar direitos de criação e gerenciamento de grupos a um conjunto de administradores. Se a sua organização quiser buscar essa opção, consulte o processo descrito neste artigo para permitir que os usuários enviem solicitações que são processadas por uma equipe atribuída.
 
 <!--ENDOFSECTION-->
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>Tarefas diárias/semanais/mensais/necessárias
 
-| Atividades | Descrição | Cadência | Equipe designada |
+| Atividade | Descrição | Cadência | Equipe designada |
 |---|---|---|---|
 | Administração de serviços | Administração de configurações de equipes de todo o locatário. | Conforme necessário | |
 | Administração de usuários | Administração de configurações baseadas no usuário e licenciamento no Microsoft Teams. | Conforme necessário | |

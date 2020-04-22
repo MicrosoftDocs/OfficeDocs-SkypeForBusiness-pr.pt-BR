@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ec634105f87c548ed962bdf9f098298f01f1e93e
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: f340146225d7e386233e727bb8c5d181db7f15fb
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706861"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776716"
 ---
 # <a name="prerequisites-and-environmental-dependencies-for-teams"></a>Pré-requisitos e dependências ambientais para equipes
 
@@ -38,7 +38,7 @@ Este artigo faz parte do estágio de Preparação Técnica da sua jornada de atu
 
 O Teams combina vários serviços do Office 365 e, portanto, depende da implementação e operação corretas desses serviços. Esses serviços incluem, entre outros, o SharePoint Online, o Exchange Online e o OneDrive for Business.
 
-Embora nem todos os serviços sejam necessários, é altamente recomendável que você implemente todos eles. Se você optar por não implementar determinados serviços, ele afetará a funcionalidade que as equipes podem oferecer à sua organização. Por exemplo, embora você não precise implementar o SharePoint Online, o Teams depende do SharePoint Online para determinadas funcionalidades, como compartilhamento de arquivos em conversas em grupo, para que a implementação desse serviço reduza a funcionalidade oferecida por meio da guia clientes.
+Embora nem todos os serviços sejam necessários, é altamente recomendável que você implemente todos eles. Se você optar por não implementar determinados serviços, ele afetará a funcionalidade que as equipes podem oferecer à sua organização. Por exemplo, embora você não precise implementar o SharePoint Online, o Teams depende do SharePoint Online para determinadas funcionalidades, como compartilhamento de arquivos em conversas em grupo, para que a implementação desse serviço reduza a funcionalidade oferecida por meio do cliente.
 
 Consulte os artigos a seguir para saber mais sobre pré-requisitos e como o Microsoft Teams interage com outras tecnologias:
 
@@ -52,7 +52,7 @@ Consulte os artigos a seguir para saber mais sobre pré-requisitos e como o Micr
 
 - Se sua organização não tiver o SharePoint Online, confira [entender como o SharePoint Online e o onedrive for Business interagem com o Microsoft Teams](SharePoint-OneDrive-interact.md).
 
-- Saiba como os [grupos do Office 365 e do Microsoft Teams interagem](Office-365-groups.md).
+- Saiba como os [grupos do microsoft 365 e o Microsoft Teams interagem](Office-365-groups.md).
 
 - Se sua organização for uma instituição educacional e você usar um sistema de informações do aluno, [implante a sincronização de dados da escola](https://docs.microsoft.com/schooldatasync) antes de implantar o Microsoft Teams.
 

@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 'Conferência é uma parte importante do Skype for Business Online: a conferência permite que grupos de usuários reúnam-se online para ver slides e vídeo, compartilhar aplicativos, trocar arquivos ou para comunicarem-se e colaborar.'
-ms.openlocfilehash: aba41b8c1e527157c9ff8d58a2a7a78bfebb0a82
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.openlocfilehash: d7bbcca81888487d54fa1a08eaf09b5462dc391f
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41887890"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776236"
 ---
 # <a name="set-up-conferencing-policies-for-your-organization"></a>Configurar políticas de conferência para sua organização
 
@@ -59,7 +59,7 @@ As configurações de política podem ser definidas no momento em que uma polít
     
     1. No **Menu Iniciar** > **Windows PowerShell**.
         
-    2. Na janela do **Windows PowerShell**, conecte-se à organização do Office 365 executando:
+    2. Na janela do **Windows PowerShell** , conecte-se ao seu Microsoft 365 ou ao Office 365 executando:
         
         > [!NOTE]
         > [!OBSERVAçãO] Execute o comando **Import-Module** apenas quando usar o módulo do Windows PowerShell do Skype for Business Online pela primeira vez.

@@ -15,12 +15,12 @@ f1.keywords:
 description: Como ativar e gerenciar a gravação de reuniões no Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1098b1e316bb6ed747577183fc144bf2db7d0b9d
-ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.openlocfilehash: f358a0099da3f759e50f02b7bb7a5226069fcd28
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 04/22/2020
-ms.locfileid: "43751848"
+ms.locfileid: "43780330"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Gravação de reuniões na nuvem do Microsoft Teams
 
@@ -51,7 +51,7 @@ Esta seção explica como você pode configurar e planejar a gravação de reuni
 
 ### <a name="turn-on-microsoft-stream-for-users-in-the-organization"></a>Ativar o Microsoft Stream para usuários na organização
 
-O Microsoft Stream está disponível como parte das assinaturas do Office 365 qualificadas ou como um serviço autônomo.  Confira [Visão geral de licenciamento Stream](https://docs.microsoft.com/stream/license-overview) para obter mais detalhes.  O Microsoft Stream já está incluído no Microsoft 365 Business, Office 365 Business Premium e Office 365 Business Essentials.
+O Microsoft Stream está disponível como parte das assinaturas qualificadas do Microsoft 365 e do Office 365 ou como um serviço autônomo.  Confira [Visão geral de licenciamento Stream](https://docs.microsoft.com/stream/license-overview) para obter mais detalhes.  O Microsoft Stream agora está incluído no Microsoft 365 Business, no Microsoft 365 Business Standard e no Microsoft 365 Business Basic.
 
 Saiba mais sobre como você pode [atribuir licenças a usuários no Office 365](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) para que os usuários possam acessar o Microsoft Stream. Certifique-se de que o Microsoft Stream não esteja bloqueado para os usuários, conforme definido [neste artigo](https://docs.microsoft.com/stream/disable-user-organization).
 

@@ -23,12 +23,12 @@ ms.custom:
 - Legal
 - seo-marvel-mar2020
 description: Saiba mais sobre o período de discagem grátis para o plano de chamadas do Office 365 e conferência de áudio do Office 365 no Microsoft Teams.
-ms.openlocfilehash: 46c9aac02c40a973abc8356dc4212b3521852461
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 19ffdd1b0a634a2fb3294479b2163af38aefedf6
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137291"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779788"
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>Período complementar de discagem de audioconferência
 
@@ -48,7 +48,7 @@ Para os clientes que preenchem nosso serviço de audioconferência do Office 365
 
 Além disso, há um limite de 900 minutos durante o período de discagem complementar da seguinte forma:
 
-Usuários com um local de uso de licença (esse é o local do país de usuário definido na área de licenciamento do portal de administração do Office 365) em qualquer país pode discar de uma conferência para qualquer uma das regiões do 44 Zone, em países e regiões. Cada usuário recebe 900 minutos por mês em qualquer uma das zonas, um país e regiões que são agrupadas no nível do locatário. Por exemplo, um cliente comprou licenças de assinatura de audioconferência de 115 e tem 10 usuários nos EUA, 100 usuários do Reino Unido e do 5 usuários na Índia, tudo com licenças de assinatura de audioconferência atribuídas a seus usuários.
+Usuários com um local de uso de licenças (esse é o local do país de usuário definido na área de licenciamento do centro de administração do Microsoft 365) em qualquer país pode discar de uma conferência para qualquer um dos países e regiões do 44 Zone. Cada usuário recebe 900 minutos por mês em qualquer uma das zonas, um país e regiões que são agrupadas no nível do locatário. Por exemplo, um cliente comprou licenças de assinatura de audioconferência de 115 e tem 10 usuários nos EUA, 100 usuários do Reino Unido e do 5 usuários na Índia, tudo com licenças de assinatura de audioconferência atribuídas a seus usuários.
 
 > [!NOTE]
 > O tamanho do pool se baseia em licenças atribuídas e não em licenças adquiridas.

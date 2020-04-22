@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: A Microsoft está desativando o serviço de Unificação de mensagens do Exchange Online (ExchUMO) em 28 de fevereiro de 2020. Este artigo resume o que os clientes afetados devem saber e fazer para planejar sua continuidade de negócios.
-ms.openlocfilehash: c39485de1acceef0dc340f039a1586b3e6014522
-ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
+ms.openlocfilehash: ab0040887b41fc62786f21c889f7dd63aae011b4
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42417616"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780770"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Suporte à migração online de Unificação de mensagens do Exchange
 
@@ -82,7 +82,7 @@ A Microsoft identificou várias implantações de clientes que estão consumindo
     Procure um aviso no centro de notificação de administração com mais detalhes e linha do tempo em relação à migração dos seus usuários. As notificações são enviadas pelo menos 30 dias antes do período de migração. 
 
     > [!Note]
-    > Se você recebeu uma notificação com a linha do tempo de migração dos seus usuários e deseja adiar sua migração por um motivo crítico para os negócios, é possível fazer isso contatando o suporte da Microsoft. Observe que você não pode adiar a migração além da data de aposentadoria, 28 de fevereiro de 2020. Para clientes que podem ter mais dúvidas, entre em contato com a equipe de conta ou com o suporte da Microsoft. Os clientes que já usam o Office 365 podem enviar um caso de suporte através do portal de administração do Office 365. 
+    > Se você recebeu uma notificação com a linha do tempo de migração dos seus usuários e deseja adiar sua migração por um motivo crítico para os negócios, é possível fazer isso contatando o suporte da Microsoft. Observe que você não pode adiar a migração além da data de aposentadoria, 28 de fevereiro de 2020. Para clientes que podem ter mais dúvidas, entre em contato com a equipe de conta ou com o suporte da Microsoft. Os clientes que já usam o Office 365 podem enviar um caso de suporte através do centro de administração do Microsoft 365. 
 
 6. **Considere optar por uma migração planejada**
 
@@ -104,9 +104,9 @@ A Microsoft identificou várias implantações de clientes que estão consumindo
 
 ## <a name="auto-attendant-migration-guidelines"></a>Diretrizes de migração do atendedor automático
 
-Os administradores de locatários do Office 365 precisam recriar seus atendedores automáticos online da UM do Exchange no serviço de atendedor automático do Microsoft Cloud e mudar seus números de telefone locais para eles antes de 28 de fevereiro de 2020, que é quando o serviço do Exchange UMO será desativar. Esta é a diretriz recomendada para migrar com êxito e testar novos atendedores automáticos na nuvem. Se você tiver um grande número de atendedores automáticos, poderá usar o [atendedor automático da um do Exchange para os scripts de migração do atendedor](https://github.com/NathanJBennett/ExUMAAMigrationToCloudAA) automático na nuvem para simplificar a migração em massa de atendedores automáticos.
+Os administradores da organização do Office 365 precisam recriar seus atendedores automáticos online da UM do Exchange no serviço de atendedor automático do Microsoft Cloud e mudar seus números de telefone locais para eles antes de 28 de fevereiro de 2020, que é quando o serviço do Exchange UMO será desativado. Esta é a diretriz recomendada para migrar com êxito e testar novos atendedores automáticos na nuvem. Se você tiver um grande número de atendedores automáticos, poderá usar o [atendedor automático da um do Exchange para os scripts de migração do atendedor](https://github.com/NathanJBennett/ExUMAAMigrationToCloudAA) automático na nuvem para simplificar a migração em massa de atendedores automáticos.
 
-### <a name="setup"></a>Configuração
+### <a name="setup"></a>Configurar
 
 É altamente recomendável que você inicie a configuração de seus novos atendedores automáticos antes de evitar problemas de última hora e se familiarizar com a funcionalidade e a experiência do serviço atendedor automático na nuvem. Para atendedores automáticos que exigem um ou mais recursos de lacuna, você pode criar e testar atendedores automáticos quando os recursos de lacuna estão disponíveis para se preparar para a implantação. Para obter mais informações sobre os recursos de espaços, consulte o [Apêndice](#appendix).
 

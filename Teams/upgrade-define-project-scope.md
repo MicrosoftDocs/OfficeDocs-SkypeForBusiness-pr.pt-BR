@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ef2f257934847f74466ff6f91890a667084b88d1
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 8c3e3e9d3253fef62c93751367647399ca91febd
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139660"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780600"
 ---
 # <a name="define-your-project-scope"></a>Definir o escopo de seu projeto
 
@@ -93,7 +93,7 @@ A tabela a seguir mostra exemplos de OKRs e KSIs para as fases iniciais de um pr
 |---|---|---|---|---|
 | **Rede e qualidade** | A porcentagem de chamadas de áudio ruins deve ser mínima | [Painel de qualidade de chamada (CQD)](https://aka.ms/sof-cqd) | \<3% de chamadas ruins com o Teams | Semanalmente, depois mensalmente |
 | **Uso e reconhecimento** | A experiência de chat, reuniões e chamadas é igual ou melhor do que o Skype for Business | Pesquisa | 80% concordar ou concordar de alta | Semanalmente por meio do piloto, pós-implantação |
-| **Uso e adoção** | Os usuários usam a solução ativamente | Relatórios ou CQD do Office 365 | 90% participação em usuários pilotos, melhor do que a solução atual | Semanalmente, depois mensalmente |
+| **Uso e adoção** | Os usuários usam a solução ativamente | Relatórios ou CQD do Microsoft 365 | 90% participação em usuários pilotos, melhor do que a solução atual | Semanalmente, depois mensalmente |
 | **Uso e treinamento** | Eu tinha recursos adequados de treinamento/ajuda para usar o Microsoft Teams com sucesso | Pesquisa pós-piloto | 80% concordar ou concordar de alta | Pós-piloto, pós-distribuição |
 | **Satisfação do usuário** | Eu recomendaria equipes para outras pessoas | Marca de [promoção da rede (NPS)](http://www.npscalculator.com/en) via pesquisa pós-piloto | NPS \> 0 | Pós-piloto, pós-distribuição |
 | **Driver para empresas** | Economia de custos | Contas a pagar | \$X milhões de despesas de custo em soluções de terceiros | Seis meses, um ano e cinco anos após a implantação |

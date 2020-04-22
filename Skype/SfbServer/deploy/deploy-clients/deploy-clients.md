@@ -11,48 +11,48 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 3d10abf2-d484-4fa0-8f10-4a5f9dfba4f5
-description: 'Resumo: visão geral dos métodos de instalação do cliente corporativo para o Skype for Business.'
-ms.openlocfilehash: 0e7859fe207ed80aa7dceef794aa57d15cc0c79b
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: 'Resumo: visão geral dos métodos de instalação de cliente Enterprise para o Skype for Business.'
+ms.openlocfilehash: cdee3db6dc6fcec646ee2e15b6aeebc298d75b67
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41768724"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778277"
 ---
 # <a name="deploy-clients-for-skype-for-business-server"></a>Implantar clientes para o Skype for Business Server
  
-**Resumo:** Visão geral dos métodos de instalação do cliente Enterprise para o Skype for Business.
+**Resumo:** Visão geral dos métodos de instalação de cliente Enterprise para o Skype for Business.
   
-A maneira como você implanta o Skype for Business para seus usuários depende se você comprou o Skype for Business como parte de um plano do Office 365 ou se comprou uma versão licenciada de volume do Skype for Business. 
+O modo como você implanta o Skype for Business para seus usuários depende se você comprou o Skype for Business como parte de um plano do Office 365 ou se comprou uma versão licenciada por volume do Skype for Business. 
   
-- **Office 365** Se você tiver um plano do Office 365 que inclua o Skype for Business, a tecnologia de instalação que é usada é chamada de clique para executar. Com o Office 365, você pode permitir que os usuários instalem o Skype for Business por conta própria no portal do Office 365. Ou você pode implantar o Skype for Business para seus usuários baixando o software para a sua rede local e, em seguida, usando as ferramentas de implantação de software existentes, como o Gerenciador de configuração do Microsoft Endpoint. Para obter informações de instalação sobre o Skype for Business que vem com o Office 365, consulte [implantar o cliente Skype for Business no Office 365](https://support.office.com/article/8c563b81-22c9-4024-9efe-9fe28c7bbc96).
+- **Office 365** Se você tiver um plano do Office 365 que inclui o Skype for Business, a tecnologia de instalação usada é chamada de clique para executar. Com o Office 365, você pode permitir que seus usuários instalem o Skype for Business por conta própria a partir do centro de administração do Microsoft 365. Ou você pode implantar o Skype for Business em seus usuários baixando o software para sua rede local e usando suas ferramentas de implantação de software existentes, como o Microsoft Endpoint Configuration Manager. Para obter informações sobre a instalação do Skype for Business que acompanham o Office 365, consulte [implantar o cliente Skype for Business no office 365](https://support.office.com/article/8c563b81-22c9-4024-9efe-9fe28c7bbc96).
     
-- **Volume licenciado** Se você tiver uma versão licenciada de volume do cliente Skype for Business 2015 ou 2016, a tecnologia de instalação usada pelo Windows Installer (MSI). Um pacote de instalação baseado no Windows Installer consiste em vários arquivos MSI. Um pacote de núcleo MSI de linguagem neutra é combinado com um ou mais pacotes de linguagem específica para fazer um produto completo. A instalação reúne os pacotes individuais e efetua a personalização e tarefas de manutenção durante e após a instalação do Office nos computadores dos usuários. O cliente Skype for Business 2019 usa instaladores com Clique para executar.
+- **Volume licenciado** Se você tiver uma versão licenciada por volume do cliente do Skype for Business 2015 ou 2016, a tecnologia de instalação usada pelo Windows Installer (MSI). Um pacote de instalação baseado no Windows Installer consiste em vários arquivos MSI. Um pacote de núcleo MSI de linguagem neutra é combinado com um ou mais pacotes de linguagem específica para fazer um produto completo. A instalação reúne os pacotes individuais e efetua a personalização e tarefas de manutenção durante e após a instalação do Office nos computadores dos usuários. O cliente 2019 do Skype for Business usa instaladores de clique para executar.
     
-Os tópicos desta seção descrevem como usar e personalizar o Windows Installer para implantar o cliente Skype for Business para seus usuários por meio de seus procedimentos normais.
-  
-> [!NOTE]
-> O suplemento de reunião do Skype para Microsoft Office, que dá suporte ao gerenciamento de reuniões dentro do cliente de mensagens e colaboração do Outlook, é instalado automaticamente com os clientes do Skype for Business. 
+Os tópicos desta seção descrevem como usar e personalizar o Windows Installer para implantar o cliente Skype for Business em seus usuários através de seus procedimentos normais.
   
 > [!NOTE]
-> O programa de instalação do Office 365 não desinstala versões anteriores do Lync. O cliente Skype for Business é instalado lado a lado com outros clientes do Lync. 
+> O suplemento de reunião do Skype para o Microsoft Office, que oferece suporte ao gerenciamento de reuniões a partir do cliente de mensagens e colaboração do Outlook, é instalado automaticamente com clientes do Skype for Business. 
   
-## <a name="installing-windows-clients"></a>Instalar clientes do Windows
+> [!NOTE]
+> O programa de instalação do Office 365 não desinstala versões anteriores do Lync. O cliente Skype for Business instala lado a lado com outros clientes do Lync. 
+  
+## <a name="installing-windows-clients"></a>Instalando clientes do Windows
 
-- [Personalizar a instalação do Windows Client no Skype for Business Server](customize-windows-client-installation.md)
+- [Personalizar a instalação do cliente Windows no Skype for Business Server](customize-windows-client-installation.md)
     
-- [Configure the client experience with Skype for Business](configure-the-client-experience.md)
+- [Configurar a experiência do cliente com o Skype for Business](configure-the-client-experience.md)
     
-- [Configurar lista de contatos Inteligente no Skype for Business Server](configure-smart-contacts-list.md)
+- [Configurar a lista de contatos inteligente no Skype for Business Server](configure-smart-contacts-list.md)
     
-## <a name="installing-device-clients"></a>Instalar clientes de dispositivos
+## <a name="installing-device-clients"></a>Instalando clientes de dispositivos
 
-- [Install and test Skype for Business for Windows Phone](windows-phone.md)
+- [Instalar e testar o Skype for Business para Windows Phone](windows-phone.md)
     
-- [Install and test Skype for Business for iOS](ios.md)
+- [Instalar e testar o Skype for Business para iOS](ios.md)
     
     
-- [Implantar o plug-in VDI do Lync com o Skype for Business Server](deploy-the-lync-vdi-plug-in.md)
+- [Implantar o plug-in de VDI do Lync com o Skype for Business Server](deploy-the-lync-vdi-plug-in.md)
     
 - [Implantar clientes para download da Web no Skype for Business Server](deploy-web-downloadable-clients.md)
     

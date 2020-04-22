@@ -1,5 +1,5 @@
 ---
-title: Implantar Salas do Microsoft Teams com o Office 365
+title: Implantar salas do Microsoft Teams com o Microsoft 365 ou o Office 365
 ms.author: v-lanac
 author: lanachin
 manager: serdars
@@ -14,15 +14,15 @@ ms.collection:
 - M365-collaboration
 ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
-description: Leia este tópico para obter informações sobre como implantar salas do Microsoft Teams com o Office 365.
-ms.openlocfilehash: 39a703b844df1a1ff487187772ff8eb8ea035191
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+description: Leia este tópico para obter informações sobre como implantar salas do Microsoft Teams com o Microsoft 365 ou o Office 365.
+ms.openlocfilehash: 02eb5869d7464a4daeece177c4d1b5a5ef440fa0
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888750"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780540"
 ---
-# <a name="deploy-microsoft-teams-rooms-with-office-365"></a>Implantar Salas do Microsoft Teams com o Office 365
+# <a name="deploy-microsoft-teams-rooms-with-microsoft-365-or-office-365"></a>Implantar salas do Microsoft Teams com o Microsoft 365 ou o Office 365
 
 Leia este tópico para obter informações sobre como implantar salas do Microsoft Teams com o Office 365, em que o Microsoft Teams ou o Skype for Business e o Exchange estão online.
 
@@ -144,7 +144,7 @@ Para obter detalhes sobre os planos do Skype for Business Online, consulte a [De
    Set-AzureADUser -UserPrincipalName <Account> -PhoneNumber "<PhoneNumber>"
    ```  -->
 
-6. A conta do dispositivo precisa ter uma licença válida do Office 365 ou o Exchange e o Microsoft Teams ou o Skype for Business não funcionarão. Se você tem a licença, deve atribuir um local de uso à conta de dispositivo (isso determina quais SKUs de licença estão disponíveis para sua conta). Você pode usar`Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> para recuperar uma lista de SKUs disponíveis para o seu locatário do Office 365 da seguinte maneira:
+6. A conta do dispositivo precisa ter uma licença válida do Office 365 ou o Exchange e o Microsoft Teams ou o Skype for Business não funcionarão. Se você tem a licença, deve atribuir um local de uso à conta de dispositivo (isso determina quais SKUs de licença estão disponíveis para sua conta). Você pode usar`Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> para recuperar uma lista de SKUs disponíveis para sua organização do Office 365 da seguinte maneira:
 
   ``` Powershell
   Get-MsolAccountSku
@@ -257,11 +257,11 @@ Para a validação, você deve ser capaz de usar qualquer cliente Skype for Busi
 
 [Configurar contas para salas do Microsoft Teams](rooms-configure-accounts.md)
 
-[Plano para salas do Microsoft Teams](rooms-plan.md)
+[Planejar as Salas do Microsoft Teams](rooms-plan.md)
 
-[Implantar salas do Microsoft Teams](rooms-deploy.md)
+[Implantar Salas do Microsoft Teams](rooms-deploy.md)
 
-[Configurar um console de salas do Microsoft Teams](console.md)
+[Configurar um console de Salas do Microsoft Teams](console.md)
 
 [Gerenciar Salas do Microsoft Teams](rooms-manage.md)
 

@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e2c918a8276be2eeab0a125a1661b70b42c6b069
-ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
+ms.openlocfilehash: 17ece37fded1d7b0743f3eeb66a300021f568c44
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43096996"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779778"
 ---
 # <a name="retention-policies-in-microsoft-teams"></a>Políticas de retenção no Microsoft Teams
 
@@ -29,7 +29,7 @@ As políticas de retenção ajudam a gerenciar com mais eficiência as informaç
 
 Por padrão, os dados de chat, canal e arquivos do Teams são mantidos indefinidamente. Como administrador, você pode configurar as políticas de retenção do Teams para mensagens de chat e de canal e decidir proativamente se deseja ou não manter os dados, excluí-los, ou manter por um período específico e, em seguida, excluí-los.
 
-Você cria e gerencia políticas de retenção para o Teams e outras cargas de trabalho na [Central de Conformidade & Segurança do Office 365](https://protection.office.com/) ou usando os cmdlets do Centro de Conformidade & Segurança do PowerShell. Você pode aplicar uma política de retenção do Teams para toda a organização ou para usuários e equipes específicas.
+Você cria e gerencia políticas de retenção para equipes e outras cargas de trabalho no [centro de conformidade do Microsoft 365](https://protection.office.com/) ou usando os cmdlets do PowerShell do centro de conformidade do & central de segurança. Você pode aplicar uma política de retenção do Teams para toda a organização ou para usuários e equipes específicas.
 
 > [!NOTE]
 > Ainda não damos suporte à configuração para a retenção de mensagens de canal privado. A retenção de arquivos compartilhados em canais privados tem suporte.
@@ -123,7 +123,7 @@ Para criar uma política de retenção para chats e mensagens de canal do Teams,
         ![Captura de tela das opções de chat e mensagens de canal do Teams na página Escolher locais](media/retention-policies-create.png)
 
       > [!IMPORTANT]
-      > As mensagens do canal e do chat do Teams não são afetadas pelas políticas de retenção aplicadas às caixas de correio de usuário ou do grupo nos locais de grupos do **e-mail do Exchange** ou dos **grupos do Office 365.** Mesmo que as mensagens do canal e do chat do Teams estejam armazenadas no Exchange, elas são afetadas apenas por uma política de retenção aplicada ao local do Teams.
+      > As mensagens de chat e de canal não são afetadas pelas políticas de retenção aplicadas a caixas de correio de usuário ou grupo nos locais **email do Exchange** ou **grupos do Microsoft 365** . Mesmo que as mensagens do canal e do chat do Teams estejam armazenadas no Exchange, elas são afetadas apenas por uma política de retenção aplicada ao local do Teams.
 
 6. Examine suas configurações e, quando estiver pronto, selecione **Criar essa política**.
 
@@ -160,7 +160,7 @@ Para criar e gerenciar as políticas de retenção de equipes usando o [Office 3
 
 A seguir estão alguns problemas conhecidos em políticas de retenção do Teams que estão sendo controlados e investigados.
 
-- Em **Escolher equipes** na linha de localização**Mensagens de canal do Teams**, você pode ver grupos do Office 365 que não são do Teams. Isso será solucionado no futuro.
+- Em **escolher equipes** na linha de localização de **mensagens de canal do teams** , você pode ver os grupos do Microsoft 365 que não são equipes também. Isso será solucionado no futuro.
 
 - Em **Escolher usuários** na linha **Chats do Teams**, você poderá ver convidados e usuários que não são de caixa de correio. As políticas de retenção não devem ser definidas para convidados, e estamos trabalhando para removê-los da lista.
 

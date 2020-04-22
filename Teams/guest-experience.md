@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ed0ea94910e9b3b5499a1f23a6c1c081590957c7
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.openlocfilehash: 60891c2e5283b8e9cdaa9e8d7852768bbb52d8aa
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42160565"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776926"
 ---
 <a name="what-the-guest-experience-is-like"></a>Como é a experiência do convidado
 =================================
@@ -51,7 +51,7 @@ A tabela a seguir compara a funcionalidade do teams disponível para os membros 
 |Criar reuniões ou agendas do Access  <br/> |&#x2713;||
 |Acessar o armazenamento do OneDrive for Business  <br/> |&#x2713;||
 |Criar políticas de acesso de convidados de equipes/canais de todos os locatários  <br/> |&#x2713;||
-|Convidar um usuário de fora do domínio do locatário do Office 365 <br/>  *Os proprietário de equipes controlam essa configuração.*  <br/> <br/> |&#x2713;||
+|Convidar um usuário para fora do domínio da organização do Office 365 <br/>  *Os proprietário de equipes controlam essa configuração.*  <br/> <br/> |&#x2713;||
 |Criar uma equipe  <br/> |&#x2713;||
 |Descobrir e entrar em uma equipe pública  <br/> |&#x2713;||
 |Visualizar o organograma  <br/> |&#x2713;||
@@ -79,11 +79,11 @@ A tabela a seguir mostra os recursos de chamada e reunião disponíveis para con
 | Pode encaminhar suas chamadas imediatamente | Não | Não | Sim |
 | Pode ligar simultaneamente para suas chamadas | Não | Não | Sim |
 | Pode encaminhar as chamadas não atendidas | Não | Não | Sim |
-| Chamadas perdidas podem ser enviadas para o correio de voz | Não | Sem<sup>1</sup> |Sim |
+| Chamadas perdidas podem ser enviadas para o correio de voz | Não | Não<sup>1</sup> |Sim |
 | Ter um número de telefone que possa receber chamadas | Não | Não | Sim |
 | Pode discar números de telefone | Não | Não | Sim |
 | Pode acessar as configurações de chamada | Não | Não | Sim |
-| Pode alterar a saudação da caixa postal | Não | Sem<sup>1</sup> | Sim |
+| Pode alterar a saudação da caixa postal | Não | Não<sup>1</sup> | Sim |
 | Pode alterar toques | Não | Não  | Sim |
 | Suporte a TTY | Não | Não | Sim |
 | Pode ter representantes | Não | Não | Sim |

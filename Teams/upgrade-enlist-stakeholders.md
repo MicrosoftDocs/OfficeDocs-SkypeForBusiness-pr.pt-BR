@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5244bd063caae9b0fab1411f4644e3adbd337431
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: e7e8effb58130a177e193db006ec6e0279f27309
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706991"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780590"
 ---
 # <a name="enlist-your-project-stakeholders"></a>Listar os participantes em seu projeto
 
@@ -61,7 +61,7 @@ Opcionalmente, você pode criar um Comitê de direcionamento. Às vezes, grandes
 | Líder de telefonia | Fornece ideias sobre o design e a implementação de telefonia |
 | Proprietário do serviço/especialista em qualidade | É proprietário da operação do Microsoft Teams, incluindo a qualidade da experiência do usuário |
 | Cliente potencial da área de trabalho e dispositivos | Fornece entrada em clientes, dispositivos e aplicativos da área de trabalho |
-| Administrador de locatários e profissionais de ti | Garante a prontidão da rede e as configurações do portal do Office 365 estão em vigor |
+| Administrador de locatários e profissionais de ti | Garante a preparação da rede e as configurações do centro de administração do Microsoft 365 estão em vigor |
 | Líder de suporte/suporte técnico | Gerencia a prontidão do suporte técnico |
 | Chefe de gerenciamento de alterações | Supervisiona o programa de gerenciamento e adoção de alterações do usuário |
 | Chefe de marketing | Projeta e implementa campanhas de comunicação |

@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 53d82dc346226215101c837dcf8a2f10dd6ff2fc
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 4c37d0c606a52893b69a101c99ef962e46d4deb3
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141174"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780630"
 ---
 # <a name="microsoft-staffhub-to-be-retired"></a>Microsoft StaffHub a ser desativado
 
@@ -97,7 +97,7 @@ Os turnos estão disponíveis nos seguintes idiomas: chinês simplificado, ingl�
 
 #### <a name="where-is-shifts-data-stored"></a>Onde é possível mover os dados armazenados?
 
-Os dados de turnos são armazenados no Azure em data centers na América do Norte e na Europa Ocidental. O conteúdo do SharePoint aproveita os grupos do Office 365 e usa o mesmo armazenamento e suporte.
+Os dados de turnos são armazenados no Azure em data centers na América do Norte e na Europa Ocidental. O conteúdo do SharePoint aproveita os grupos do Microsoft 365 e usa o mesmo armazenamento e suporte.
 
 Para obter mais informações, consulte [localização de dados de turnos](manage-the-shifts-app-for-your-organization-in-teams.md#location-of-shifts-data).
 
@@ -131,9 +131,9 @@ O Microsoft Teams oferece suporte a coexistência com o Skype for Business. Para
 
 Sim, cada gerente e membro da equipe que use o Microsoft Teams e turnos dentro do teams devem ter uma conta do Office 365 (Azure AD) e deve ser atribuído uma licença válida.
  
-#### <a name="in-staffhub-i-could-add-a-special-prefix-to-all-office-365-groups-that-were-created-by-staffhub-teams-can-i-do-the-same-in-teams"></a>No StaffHub, posso adicionar um prefixo especial a todos os grupos do Office 365 que foram criados por StaffHub Teams. Eu posso fazer o mesmo no Teams?
+#### <a name="in-staffhub-i-could-add-a-special-prefix-to-all-microsoft-365-groups-that-were-created-by-staffhub-teams-can-i-do-the-same-in-teams"></a>No StaffHub, posso adicionar um prefixo especial a todos os grupos do Microsoft 365 criados por StaffHub Teams. Eu posso fazer o mesmo no Teams?
 
-Você não terá a mesma funcionalidade quando mudar do StaffHub para o Microsoft Teams. Se precisar aplicar a consistência de nomes a todos os grupos do Office 365, você pode usar a [política de nomenclatura de grupos do office 365](https://docs.microsoft.com/office365/admin/create-groups/groups-naming-policy).
+Você não terá a mesma funcionalidade quando mudar do StaffHub para o Microsoft Teams. Se precisar aplicar a consistência de nomes a todos os seus grupos do Microsoft 365, você pode usar a [política de nomenclatura de grupos do microsoft 365](https://docs.microsoft.com/office365/admin/create-groups/groups-naming-policy).
 
 #### <a name="will-team-names-be-the-same-in-teams"></a>Os nomes de equipes serão iguais no Microsoft Teams?
 
@@ -149,7 +149,7 @@ Recomendamos que você examine os escalas de sua equipe existentes no StaffHub e
 
 O cronograma do usuário será movido para turnos, no entanto, o usuário não será um membro da equipe ou um grupo do Office 365.
 
-Para contas inativas que não estão vinculadas a uma conta de usuário do Azure AD, um gerente pode garantir que o usuário seja adicionado como um membro da equipe adicionando um endereço de email válido do Office 365 na página de membros da equipe do StaffHub para que o usuário esteja vinculado à conta do Azure AD correta em sua organização.
+Para contas inativas que não estão vinculadas a uma conta de usuário do Azure AD, um gerente pode garantir que o usuário seja adicionado como um membro da equipe adicionando um endereço de email válido do Microsoft 365 ou do Office 365 na página de membros da equipe do StaffHub para que o usuário esteja vinculado à conta do Azure AD correta em sua organização.
 
 Outra opção é para os administradores executarem os cmdlets **Add-StaffHubMember** e **Remove-StaffHubUser** para remover uma conta não provisionada de uma equipe do StaffHub e adicionar o usuário de volta à equipe com seu UPN.
 

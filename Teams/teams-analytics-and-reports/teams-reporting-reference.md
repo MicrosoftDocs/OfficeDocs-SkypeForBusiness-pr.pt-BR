@@ -15,12 +15,12 @@ ms.collection:
 description: Saiba mais sobre os relatórios do teams que estão disponíveis no centro de administração do Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c1c4c142ff311debd3f96d08e386df68af953c2b
-ms.sourcegitcommit: 379bfaf6b0584c1ac93341af605f93ab932a442b
+ms.openlocfilehash: 86003876bbbf4927886a8b260fad48f451a2d325
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "43240641"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778236"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Análise e relatórios do Microsoft Teams
 
@@ -33,7 +33,7 @@ Para acessar os relatórios, você deve ser um administrador global no Office 36
 Vá para o centro de administração do Microsoft Teams, no painel de navegação à esquerda, selecione **relatórios de análise &** e, em seguida, em **relatório**, escolha o relatório que você deseja executar.
 
 > [!NOTE]
-> Os relatórios no centro de administração do Microsoft Teams são separados dos relatórios de atividades do teams que fazem parte dos relatórios do Office 365 no centro de administração do Microsoft 365. Para obter mais informações sobre os relatórios de atividades no centro de administração do Microsoft 365, consulte [relatórios de atividade do Microsoft Teams no centro de administração do microsoft 365](../teams-activity-reports.md)
+> Os relatórios no centro de administração do Microsoft Teams são separados dos relatórios de atividades do teams que fazem parte dos relatórios do Microsoft 365 no centro de administração do Microsoft 365. Para obter mais informações sobre os relatórios de atividades no centro de administração do Microsoft 365, consulte [relatórios de atividade do Microsoft Teams no centro de administração do microsoft 365](../teams-activity-reports.md)
 
 ## <a name="teams-reporting-reference"></a>Referência de relatórios do teams
 

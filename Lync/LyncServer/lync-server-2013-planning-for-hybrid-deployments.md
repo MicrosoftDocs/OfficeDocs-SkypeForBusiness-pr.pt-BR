@@ -12,12 +12,12 @@ ms:contentKeyID: 48185910
 ms.date: 05/25/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8f9572df29681d6b2ee754fe51702fcc8f0b0163
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 54888a96d33dc3d9195256483f41719031847744
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184284"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780320"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -45,7 +45,7 @@ Você deve considerar os requisitos a seguir para usuários e sua infraestrutura
 
 Você deve ter o seguinte configurado no seu ambiente para implementar e implantar uma implantação híbrida.
 
-  - Um locatário do Microsoft Office 365 com o Skype for Business online habilitado. Observe que você pode usar apenas um único locatário para uma configuração híbrida com sua implantação local.
+  - Uma organização do Microsoft Office 365 com o Skype for Business online habilitado. Observe que você pode usar apenas um único locatário para uma configuração híbrida com sua implantação local.
 
   - Uma única implantação local (infraestrutura) do Skype for Business Server ou do Lync Server que é implantada em uma topologia com suporte. Consulte requisitos de topologia.
     
@@ -159,7 +159,7 @@ A lista de domínios permitidos inclui domínios que têm um FQDN (nome de domí
 
 Os seguintes requisitos devem ser atendidos para configurar com êxito uma implantação híbrida:
 
-  - A correspondência de domínio deve ser configurada da mesma para sua implantação local e seu locatário do Office 365. Se a descoberta de parceiros estiver habilitada na implantação local, a Federação deverá ser configurada para seu locatário online. Se a descoberta de parceiro não estiver habilitada, a Federação fechada deverá ser configurada para seu locatário online.
+  - A correspondência de domínio deve ser configurada da mesma para sua implantação local e sua organização do Office 365. Se a descoberta de parceiros estiver habilitada na implantação local, a Federação deverá ser configurada para seu locatário online. Se a descoberta de parceiro não estiver habilitada, a Federação fechada deverá ser configurada para seu locatário online.
 
   - A lista de domínios bloqueados na implantação local deve corresponder exatamente à lista de domínios bloqueados para seu locatário online.
 
@@ -293,7 +293,7 @@ Além dos requisitos de porta para a comunicação interna do Lync Server 2013, 
 
 Em uma implantação híbrida do Lync Server 2013, qualquer usuário que você deseja hospedar no Lync Online deve ser criado primeiro na implantação local, para que a conta de usuário seja criada nos serviços de domínio do Active Directory. Você pode então mover o usuário para o Skype for Business Online, que irá mover a lista de contatos do usuário.
 
-Ao sincronizar as contas de usuário entre suas implantações locais e Lync Online do Lync com o AD FS e o DirSync, você precisa sincronizar as contas do AD para todos os usuários do Lync em sua organização entre suas implantações locais e online do Lync, mesmo que os usuários Não são movidos para o Lync Online. Se você não sincronizar todos os usuários, a comunicação entre os usuários locais e online em sua organização poderá não funcionar conforme o esperado.
+Ao sincronizar as contas de usuário entre suas implantações locais e Lync Online do Lync com o AD FS e o DirSync, você precisa sincronizar as contas do AD para todos os usuários do Lync em sua organização entre suas implantações locais e online do Lync, mesmo que os usuários não sejam movidos para o Lync Online. Se você não sincronizar todos os usuários, a comunicação entre os usuários locais e online em sua organização poderá não funcionar conforme o esperado.
 
 <div>
 
@@ -309,7 +309,7 @@ Você também deve considerar os seguintes problemas relacionados ao usuário ao
 
   - **Contatos do usuário**   o limite de contatos para os usuários do Lync Online é de 250. Qualquer contato além desse número será removido da lista de contatos do usuário quando a conta for movida para o Lync Online.
 
-  - ****   As listas de contatos de mensagens instantâneas e de presença, os grupos e as ACLs (listas de controle de acesso) são migrados com a conta de usuário.
+  - **Instant Messaging and Presence**   As listas de contatos de mensagens instantâneas e de presença, os grupos e as ACLs (listas de controle de acesso) são migrados com a conta de usuário.
 
   - **Dados de conferência, conteúdo de reunião e reuniões**   agendadas esse conteúdo não é migrado com a conta de usuário. Os usuários devem reagendar as reuniões depois que suas contas forem migradas para o Lync Online.
 

@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f411de7f0c373e82b450cd41b828fd591777311b
-ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
+ms.openlocfilehash: ba628bf3f58523dc37e2273b437f22af1a0ebc19
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42978453"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778927"
 ---
 <a name="assign-team-owners-and-members-in-microsoft-teams"></a>Atribuir proprietários de equipe e membros no Microsoft Teams
 =================================================
@@ -75,10 +75,10 @@ Para atribuir uma função de usuário, no Teams, selecione o nome da equipe e c
 
 ## <a name="permissions-to-create-teams"></a>Permissões para criar equipes
 
-Por padrão, todos os usuários com uma caixa de correio no Exchange Online têm permissões para criar grupos do Office 365 e, portanto, um time no Microsoft Teams. Você pode ter um controle mais rígido e restringir a criação de novas equipes e, assim, a criação de novos grupos do Office 365 ao delegar direitos de criação e gerenciamento de grupos a um conjunto de usuários. Para obter instruções, consulte [gerenciar quem pode criar grupos do Office 365](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618).
+Por padrão, todos os usuários com uma caixa de correio no Exchange Online têm permissões para criar grupos do Microsoft 365 e, portanto, uma equipe no Microsoft Teams. Você pode ter controle rigoroso e restringir a criação de novas equipes e, assim, a criação de novos grupos do Microsoft 365 delegando direitos de criação e gerenciamento de grupos a um conjunto de usuários. Para obter instruções, consulte [gerenciar quem pode criar grupos do Microsoft 365](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618).
 
 
 ||||
 |---------|---------|---------|
 | ![Um ícone representando um ponto de decisão](media/Assign_roles_and_permissions_in_Microsoft_Teams_image2.png)     |Ponto de decisão         |Todos os usuários do Microsoft Teams terão permissão para criar equipes (recomendado)?         |
-| ![Um ícone que representa as próximas etapas](media/Assign_roles_and_permissions_in_Microsoft_Teams_image3.png)    |Próximos passos         |Modifique as permissões padrão para quem pode criar grupos do Office 365, caso precise limitar as pessoas que podem criar equipes         |
+| ![Um ícone que representa as próximas etapas](media/Assign_roles_and_permissions_in_Microsoft_Teams_image3.png)    |Próximos passos         |Modifique as permissões padrão para quem pode criar grupos do Microsoft 365 se você precisar limitar quem pode criar equipes         |

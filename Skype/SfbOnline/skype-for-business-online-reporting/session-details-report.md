@@ -18,13 +18,13 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Reporting
-description: O novo painel Relatórios do Office 365 mostra a visão geral das atividades em todos os produtos do Office 365 na sua organização. Ele permite analisar detalhes dos relatórios no nível dos produtos individualmente para oferecer uma visão mais granular das atividades dentro de cada produto.
-ms.openlocfilehash: 58f3c42c0a0188d4a2858e6b6b0a5bed93dfc72d
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+description: O novo painel relatórios do Microsoft 365 mostra a visão geral da atividade em todos os produtos do Office 365 em sua organização. Ele permite analisar detalhes dos relatórios em nível de produtos individuais para ter informações mais granulares das atividades dentro de cada produto.
+ms.openlocfilehash: b10e68e46b8865579692594ded33e89558f4fdc2
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692346"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776276"
 ---
 # <a name="session-details-report"></a>Relatório de detalhes da sessão
 
@@ -49,7 +49,7 @@ Esse relatório, juntamente com os outros relatórios do Skype for Business, for
     > Se você não vir esse relatório listado, acesse o >  **centro de administração do Skype for Business****relata** > **detalhes da sessão**. 
   
     > [!IMPORTANT]
-    > [!IMPORTANTE] Dependendo da sua assinatura do Office 365, talvez você não veja todos os produtos e relatórios mostrados aqui. 
+    > Dependendo da assinatura do Microsoft 365 ou do Office 365 que você tem, talvez você não veja todos os produtos e relatórios que são mostrados aqui. 
   
 ## <a name="interpret-the-skype-for-business-session-details-report"></a>Interpretar o relatório de detalhes da sessão do Skype for Business
 

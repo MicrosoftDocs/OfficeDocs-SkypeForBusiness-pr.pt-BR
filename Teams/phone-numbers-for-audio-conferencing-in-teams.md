@@ -23,12 +23,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Saiba os países e regiões que têm números de conferência discada e como eles são atribuídos automaticamente.
-ms.openlocfilehash: 921878c7b0dfd8abd313adffb9b87e07e58ad66d
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 9f130ec72d398e55ff3f4890ae89422915fc47a2
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137851"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779607"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-microsoft-teams"></a>Números de telefone para Audioconferência no Microsoft Teams
 
@@ -50,7 +50,7 @@ Existem dois tipos de números de telefone de audioconferência que podem ser at
   
 - **Números de telefone dedicados** são os que estão disponíveis apenas para usuários em sua organização. Você pode alterar os idiomas usados quando alguém liga para um desses números.
   
-- **Números de telefone compartilhados** são os que podem ser compartilhados com outras organizações do Office 365. Não é possível alterar os idiomas usados quando alguém liga para um desses números.
+- Os **números de telefone compartilhados** são os números de telefone que podem ser compartilhados com outros serviços do Microsoft 365 ou do Office 365s. Você não pode alterar os idiomas que são usados quando alguém liga para um desses números.
   
 Embora o número de audioconferência padrão atribuído a um organizador só seja incluído no convite da reunião, um chamador pode usar qualquer um dos números de telefone atribuídos à ponte de conferência para entrar em uma reunião. A lista de números de telefone que podem ser usados para ingressar em uma reunião está disponível por meio do link **Encontrar um número local** incluído em todos os convites de reunião.
   

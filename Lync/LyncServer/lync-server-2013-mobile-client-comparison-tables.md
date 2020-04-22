@@ -12,12 +12,12 @@ ms:contentKeyID: 51541531
 ms.date: 09/21/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 035d5c95452eebc48f81198fef5cbdf9d95732e0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 82e66cf65d8aa29e476e759bd1f09ccbbf7b61f5
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217487"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780240"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -57,7 +57,7 @@ As tabelas a seguir comparam os recursos e os recursos entre os clientes móveis
 
   - Arquivamento e conformidade
 
-Essas tabelas indicam os recursos disponíveis para os usuários do Lync em uma implantação local do Lync Server 2013. Os mesmos recursos também estão disponíveis para os usuários do Skype for Business Online e do Microsoft Office 365, a menos que indicado de outra forma nas notas de rodapé da tabela.
+Essas tabelas indicam os recursos disponíveis para os usuários do Lync em uma implantação local do Lync Server 2013. Os mesmos recursos também estão disponíveis para os usuários do Skype for Business Online e do Microsoft 365 ou do Office 365, a menos que indicado de outra forma nas notas de rodapé da tabela.
 
 <div>
 
@@ -412,7 +412,7 @@ No iPhone e iPad, o Lync se desconecta automaticamente se o usuário não tiver 
 </table>
 
 
-1 não está disponível para os usuários do Skype for Business Online e/ou Office 365.
+1 não está disponível para os usuários do Skype for Business Online e/ou Microsoft 365 ou do Office 365.
 
 </div>
 
@@ -757,11 +757,11 @@ No iPhone e iPad, o Lync se desconecta automaticamente se o usuário não tiver 
 </table>
 
 
-1 para os usuários do Office 365, este recurso está disponível apenas para reuniões habilitadas para o provedor de audioconferência (dispositivo de áudio).
+1 para os usuários do Microsoft 365 ou do Office 365, este recurso está disponível apenas para reuniões habilitadas para o provedor de conferência de áudio (ACP).
 
-2 indisponível para os usuários do Office 365.
+2 não disponível para usuários do Microsoft 365 ou do Office 365.
 
-3 para o Skype for Business Online e/ou os usuários do Office 365, esse recurso está disponível a partir de provedores de conferência de áudio de terceiros.
+3 para o Skype for Business Online e/ou para o Microsoft 365 ou o usuário do Office 365, esse recurso está disponível a partir de provedores de conferência de áudio de terceiros.
 
 a apresentação do PowerPoint 4A compartilhada pelo Lync Web App não pode ser exibida no Lync Mobile 2013. As anotações feitas nos clientes de área de trabalho do Lync 2013 não são visíveis em dispositivos móveis.
 
@@ -894,11 +894,11 @@ a apresentação do PowerPoint 4A compartilhada pelo Lync Web App não pode ser 
 
 1 Lync Server 2013, Skype for Business Online e Office 365 os usuários podem ligar para outros usuários do Lync e usuários do Skype tocando no ícone. Os usuários do Lync Server 2013 também podem fazer chamadas PSTN tocando no ícone.
 
-2 para usuários locais do Lync Server 2013, em dispositivos Windows Phone, iPhone e iPad, o usuário toca o ícone de chamada no cartão de visita e aceita o retorno de chamada do Lync Server 2013. Para os usuários do Office 365, em dispositivos Windows Phone, iPhone e iPad, quando o usuário toca no botão de chamada, uma caixa de diálogo é aberta solicitando que o usuário confirme se deseja chamar o número.
+2 para usuários locais do Lync Server 2013, em dispositivos Windows Phone, iPhone e iPad, o usuário toca o ícone de chamada no cartão de visita e aceita o retorno de chamada do Lync Server 2013. Para o usuário Microsoft 365 ou Office 365, em dispositivos Windows Phone, iPhone e iPad, quando o usuário toca no botão de chamada, uma caixa de diálogo é aberta solicitando que o usuário confirme se deseja chamar o número.
 
-3 indisponível para os usuários do Skype for Business Online e/ou Office 365.
+3 indisponível para o Skype for Business Online e/ou para o Microsoft 365 ou para o usuário do Office 365.
 
-4 para os usuários do Skype for Business Online e/ou Office 365, esse recurso tem suporte dos parceiros da Microsoft.
+4 para o Skype for Business Online e/ou o Microsoft 365 ou o usuário do Office 365, esse recurso tem suporte dos parceiros da Microsoft.
 
 </div>
 

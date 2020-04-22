@@ -23,12 +23,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Conheça as etapas necessárias para atribuir um novo número de telefone de serviço à sua ponte de conferência para expandir a cobertura para seus usuários.
-ms.openlocfilehash: 571b7a9c14db1601e0a4b94740395ad087808a49
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 233678bd953046eed5e6425e0b1a36c5a39b1061
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139070"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780350"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>Alterar os números de telefone em sua ponte de Audioconferência
 
@@ -69,7 +69,7 @@ Somente um número de chamada de serviço pode ser definido como o número padr�
 
 Os números de telefone padrão de um usuário são aqueles que estão incluídos nos convites de reunião quando eles agendam uma reunião. Para obter mais informações, incluindo como os números de telefone do defaul são atribuídos para novos usuários, consulte [definir os números de telefone incluídos nos convites no Microsoft Teams](set-the-phone-numbers-included-on-invites-in-teams.md) ou [definir os números de telefone incluídos nos convites no Skype for Business online](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites).
   
-1. Entre no Office 365 com sua conta corporativa ou de estudante.
+1. Entre com sua conta corporativa ou de estudante.
 
 2. Vá para o & **centro de administração do 365** > **de administração** > do centro de administração do,**usuários**de**videoconferência** > **do** > **portal** > herdado do Skype e selecione os usuários na lista.
 
@@ -133,7 +133,7 @@ Para obter mais informações sobre o Meeting Migration Service, veja [Configura
   
 ### <a name="step-3---unassign-the-old-phone-number-from-the-audio-conferencing-bridge"></a>Etapa 3-cancelar a atribuição do número de telefone antigo da ponte de audioconferência
 
-1. Entre no Office 365 com sua conta corporativa ou de estudante.
+1. Entre com sua conta corporativa ou de estudante.
 
 2. Vá para o **centro de administração do 365 do centro** > **Admin centers** > de administração do Microsoft &**números de telefone**de**voz** > do**portal** > herdado**do Skype** > .
 
@@ -169,7 +169,7 @@ Se precisar saber mais, confira [Conectar-se a todos os serviços do Office 365 
 
 1. No **Menu Iniciar** > **Windows PowerShell**.
 
-2. Na janela do **Windows PowerShell**, conecte-se à organização do Office 365 executando:
+2. Na janela do **Windows PowerShell** , conecte-se ao seu Microsoft 365 ou ao Office 365 executando:
 
 >
   ```PowerShell

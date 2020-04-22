@@ -18,17 +18,17 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
-description: Você pode configurar como os usuários se conectam ao Skype for Business online usando o aplicativo Skype for Business em dispositivos móveis, como um recurso que permite aos usuários fazer e receber chamadas no celular usando o número de telefone comercial dele em vez do nu do seu celular mero. As políticas de mobilidade também podem ser usadas para exigir conexões Wi-Fi ao fazer ou receber chamadas.
-ms.openlocfilehash: 2d608356e08ae989d0be79bd61f14a4d6ba3b9f0
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+description: Você pode configurar como os usuários se conectam ao Skype for Business online usando o aplicativo Skype for Business em dispositivos móveis, como um recurso que permite aos usuários fazer e receber chamadas no celular usando o número de telefone comercial dele em vez do número de telefone celular deles. As políticas de mobilidade também podem ser usadas para exigir conexões Wi-Fi ao fazer ou receber chamadas.
+ms.openlocfilehash: ac8f94cb7203b3b0ee4698969db0b76cb1e31a49
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41887850"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776256"
 ---
 # <a name="set-up-mobile-policies-for-your-organization"></a>Configurar políticas móveis para sua organização
 
-Você pode configurar como os usuários se conectam ao Skype for Business online usando o aplicativo Skype for Business em dispositivos móveis, como um recurso que permite aos usuários fazer e receber chamadas no celular usando o número de telefone comercial dele em vez do nu do seu celular mero. As políticas de mobilidade também podem ser usadas para exigir conexões Wi-Fi ao fazer ou receber chamadas.
+Você pode configurar como os usuários se conectam ao Skype for Business online usando o aplicativo Skype for Business em dispositivos móveis, como um recurso que permite aos usuários fazer e receber chamadas no celular usando o número de telefone comercial dele em vez do número de telefone celular deles. As políticas de mobilidade também podem ser usadas para exigir conexões Wi-Fi ao fazer ou receber chamadas.
   
 As configurações da política móvel podem ser configuradas no momento em que uma política é criada ou você pode usar o cmdlet **set-CsMobilityPolicy** para modificar as configurações de uma política existente.
   
@@ -55,7 +55,7 @@ As configurações da política móvel podem ser configuradas no momento em que 
     
     1. No **Menu Iniciar** > **Windows PowerShell**.
         
-    2. Na janela do **Windows PowerShell**, conecte-se à organização do Office 365 executando:
+    2. Na janela do **Windows PowerShell** , conecte-se ao seu Microsoft 365 ou ao Office 365 executando:
         
         > [!NOTE]
         > [!OBSERVAçãO] Execute o comando **Import-Module** apenas quando usar o módulo do Windows PowerShell do Skype for Business Online pela primeira vez.

@@ -19,13 +19,13 @@ f1.keywords:
 ms.custom:
 - Reporting
 - O365E_ReportsS4BClients
-description: O novo painel Relatórios do Office 365 mostra a visão geral das atividades em todos os produtos do Office 365 na sua organização. Ele permite analisar detalhes dos relatórios no nível dos produtos individualmente para oferecer uma visão mais granular das atividades dentro de cada produto. Por exemplo, você pode usar o relatório de uso de dispositivos do Skype for Business para ver os dispositivos, incluindo sistemas operacionais baseados em Windows e dispositivos móveis, que têm o aplicativo Skype for Business instalado e estão usando-os para mensagens instantâneas e reuniões. Dê uma olhada nos relatórios de atividades no centro de administração para saber mais.
-ms.openlocfilehash: 52503a90b2474460347effb676247fc3ffed9919
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: O novo painel relatórios do Microsoft 365 mostra a visão geral da atividade em todos os produtos do Office 365 em sua organização. Ele permite analisar detalhes dos relatórios em nível de produtos individuais para ter informações mais granulares das atividades dentro de cada produto. Por exemplo, você pode usar o relatório de uso de dispositivos do Skype for Business para ver os dispositivos, incluindo sistemas operacionais baseados em Windows e dispositivos móveis, que têm o aplicativo Skype for Business instalado e estão usando-os para mensagens instantâneas e reuniões. Dê uma olhada nos relatórios de atividades no centro de administração para saber mais.
+ms.openlocfilehash: 9d12938fdbc495e1d95b8ed26500185f09f2b01b
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769394"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776296"
 ---
 # <a name="device-usage-report"></a>Relatório de uso de dispositivos
 
@@ -46,7 +46,7 @@ Esse relatório, juntamente com os outros relatórios do Skype for Business, for
     
      ![Widget relatório de uso de dispositivos do Skype for Business](../images/13e7a51c-f680-4164-9a18-67de10fceb7f.png)
   
-    [!IMPORTANTE] Dependendo da sua assinatura do Office 365, talvez você não veja todos os produtos e relatórios de atividades mostrados aqui.
+    Dependendo da assinatura do Microsoft 365 ou do Office 365 que você tem, talvez você não veja todos os produtos e relatórios de atividades mostrados aqui.
     
 ## <a name="interpret-the-skype-for-business-device-usage-report"></a>Interpretar o relatório de uso de dispositivos do Skype for Business
 

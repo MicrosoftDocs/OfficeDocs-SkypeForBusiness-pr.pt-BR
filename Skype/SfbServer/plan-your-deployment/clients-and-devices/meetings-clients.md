@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
 description: 'Resumo: os profissionais de ti devem analisar os requisitos de suporte para o aplicativo do Skype for Business Web App e reuniões do Skype durante o planejamento do Skype for Business Server. Este artigo não se destina aos usuários desses aplicativos.'
-ms.openlocfilehash: f5b402b23cbb49d1605b83b9f54531e26714b1f7
-ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
+ms.openlocfilehash: 0e1ce225f99a112f11d55d76eb8039a10d9aac6b
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43157634"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777786"
 ---
 # <a name="plan-for-meetings-clients-web-app-and-meetings-app"></a>Plano para clientes de reuniões (aplicativo Web e aplicativos de reuniões)
  
@@ -56,12 +56,12 @@ Para usar o Skype for Business Web App, um usuário deve ter uma das seguintes c
 
 | Sistema operacional | Borda | Internet Explorer 11 de 32 e 64 bits ou posterior | Internet Explorer 10 de 32 e 64 bits ou posterior | Internet Explorer 9 de 32 e 64 bits ou posterior | Versão de 32 e 64 bits do Safari 6.2.8-11. X | Versão de 32 e 64 bits do Chrome 18. X ou posterior |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|Windows 10  <br/> |Sim  <br/> |Sim  <br/> |Não disponível  <br/> |Não disponível  <br/> |Não disponível  <br/> |Sim &#x2778; <br/> |
-|Windows 8,1 &#x2776; <br/> |N/D  <br/> |Sim  <br/> |Não disponível  <br/> |Não disponível  <br/> |Não disponível <br/> |Sim &#x2778; <br/> |
-|&#x2776; Windows 8 (baseado em Intel) <br/> |Não disponível  <br/> |Não disponível  <br/> |Sim  <br/> |Não disponível <br/> |Não disponível  <br/> |Sim &#x2778; <br/> |
+|Windows 10  <br/> |Sim  <br/> |Sim  <br/> |N/D  <br/> |Não disponível  <br/> |Não disponível  <br/> |Sim &#x2778; <br/> |
+|Windows 8,1 &#x2776; <br/> |N/D  <br/> |Sim  <br/> |N/D  <br/> |Não disponível  <br/> |Não disponível <br/> |Sim &#x2778; <br/> |
+|&#x2776; Windows 8 (baseado em Intel) <br/> |Não disponível  <br/> |Não disponível  <br/> |Sim  <br/> |N/D <br/> |Não disponível  <br/> |Sim &#x2778; <br/> |
 |Windows 7 com SP1 &#x2777; <br/> |N/D  <br/> |Sim  <br/> |Não  <br/> |Não  <br/> |N/D <br/>|Sim &#x2778; <br/> |
 |Windows Server 2008 R2 com SP1 &#x2777; <br/> |N/D  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |N/D <br/>|Sim &#x2778; <br/> |
-|macOS 10,8 e posterior (baseado em Intel) &#x2777; <br/> |Não disponível  <br/> |Não disponível  <br/> |Não disponível  <br/> |Não disponível  <br/> |Sim  <br/> |Sim <br/> |
+|macOS 10,8 e posterior (baseado em Intel) &#x2777; <br/> |N/D  <br/> |N/D  <br/> |N/D  <br/> |Não disponível  <br/> |Sim  <br/> |Sim <br/> |
    
 &#x2776; o plug-in do navegador do Skype for Business Web App requer um plug-in de compartilhamento específico para usar voz, vídeo, compartilhamento e exibição de compartilhamento contínuo de tela e outros recursos baseados no computador. Um participante de reunião recebe a opção de instalar o plug-in de compartilhamento ao ingressar na reunião ou ao iniciar um desses recursos. No Windows 8 e Windows 8,1, o plug-in de compartilhamento pode ser instalado somente se você estiver executando o Internet Explorer 10 ou o Internet Explorer 11 para a área de trabalho. Esses recursos não estão disponíveis em versões que não sejam de área de trabalho do Internet Explorer 10 e 11. Observe que o Firefox e o Safari versão 12,0 e posterior não são mais suportados.
   
@@ -70,7 +70,7 @@ Para usar o Skype for Business Web App, um usuário deve ter uma das seguintes c
 &#x2778; acessar o aplicativo Web do Chrome no Windows iniciará um pequeno programa que carrega o aplicativo Web em um quadro do Internet Explorer incorporado. Este programa requer que uma das versões suportadas do Internet Explorer esteja instalada para que o aplicativo Web seja carregado corretamente.
   
 > [!NOTE]
-> Os usuários do Office 365 podem usar o Internet Explorer 10 ou posterior com o Skype for Business. 
+> Os usuários do Microsoft 365 e do Office 365 podem usar o Internet Explorer 10 ou posterior com o Skype for Business. 
   
 ### <a name="skype-meetings-app"></a>Aplicativo de Reuniões do Skype
 

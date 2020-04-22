@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - SMB
 description: Antes que as pessoas em sua organização possam usar a transmissão de reunião do Skype, você precisa habilitá-la. Para fazer isso, você precisa saber como usar o Windows PowerShell. Se você não conhece o Windows PowerShell, considere contratar um parceiro da Microsoft para fazer esta etapa para você.
-ms.openlocfilehash: 1b06f327fa59ec8e90c9b014db8a252ca7b40579
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 4684f445dc004678bf978069c2430111e7961d0d
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42010604"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778116"
 ---
 # <a name="enable-skype-meeting-broadcast"></a>Habilitar a Transmissão de Reunião do Skype
 
@@ -35,9 +35,9 @@ Antes que as pessoas em sua organização possam usar a transmissão de reunião
 
 ![Um ícone mostrando o logotipo do Skype for Business](../images/sfb-logo-30x30.png) **Usando o centro de administração do Skype for Business**
 
-1. Entre com sua conta de administrador global do Office 365 ou uma conta de administrador do [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home)Skype for Business em.
+1. Entre com sua conta de administrador global ou uma conta de administrador do Skype [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home)for Business em.
     
-2. No centro de administração, vá para **** > **equipes**de centros de administração.
+2. No centro de administração, vá para **Admin centers** > **equipes**de centros de administração.
     
 3. No **centro de administração do teams**, vá para reuniões**online** > do **portal** > herdado**reuniões de transmissão**e selecione **habilitar transmissão de reunião do Skype**.
     
@@ -55,7 +55,7 @@ Antes que as pessoas em sua organização possam usar a transmissão de reunião
     
 6. No **menu iniciar**, escolha **Windows PowerShell**.
     
-7. Na janela do **Windows PowerShell**, conecte-se à sua organização do Office 365 executando:
+7. Na janela do **Windows PowerShell** , conecte-se ao seu Microsoft 365 ou ao Office 365 executando:
     
    ```PowerShell
    $Credential = get-credential

@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1ed959f74be1074ab8ed60b3fe54f06384b7990a
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: b42785d4f8d765e7d9600c2e195e48d7ec60d8ba
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836163"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780650"
 ---
 # <a name="automated-upgrades-from-skype-for-business-online-to-microsoft-teams"></a>Atualizações automatizadas do Skype for Business online para o Microsoft Teams
 
@@ -35,7 +35,7 @@ Uma atualização bem-sucedida do Skype for Business para o Microsoft Teams requ
 
 Os clientes do Skype for Business online qualificados para atualizações automatizadas para o Microsoft Teams receberão uma série de notificações de atualização a partir de 30 dias antes da data de atualização programada. Essas notificações serão entregues como *plano para alterações de alterações* no centro de mensagens de administração, atualização de emails para o administrador global e sinalizadores no aplicativo para usuários finais.
 
-Essas notificações se comunicarão com a data programada da atualização automatizada, serão links para recursos de atualização e treinamento para ajudar a adotar a adoção e o uso do Teams, e darão aos clientes a opção de adiar o upgrade automatizado para 30 dias adicionais em o evento que ele não está pronto para atualizar pela data agendada.
+Essas notificações se comunicarão com a data programada da atualização automatizada, serão links para recursos de atualização e treinamento para ajudar a adotar a adoção e o uso do Teams, e darão aos clientes a opção de adiar a atualização automatizada em 30 dias adicionais, caso não estejam prontos para serem atualizados pela data agendada.
 
 ## <a name="the-automated-upgrade-experience"></a>A experiência de atualização automatizada
 
@@ -56,7 +56,7 @@ Quando a atualização automatizada é concluída, o **modo de coexistência** �
 
 As transições bem-sucedidas do Skype for Business online para o Microsoft Teams exigem planejamento técnico e prontidão do usuário para garantir que sua organização esteja preparada para tirar proveito da funcionalidade e do desempenho expandidos do teams. No entanto, ao planejar a atualização, você pode achar que sua organização ainda não está pronta para fazer a atualização para o Microsoft Teams no momento.
 
-Se você receber uma notificação sobre a atualização automatizada agendada para o Microsoft Teams e quiser adiar para uma data posterior, o administrador global do Office 365 pode entrar no portal de administração do Teams e clicar no botão *adiar* . Isso fará com que a data de atualização automatizada seja reforçada 30 dias. Quando você atualizar o portal de administração do teams depois de adiar, você verá uma notificação que inclui a nova data de atualização automatizada.
+Se você receber uma notificação sobre a atualização automatizada agendada para o Microsoft Teams e quiser adiar para uma data posterior, o administrador global poderá conectar-se ao portal de administração do Microsoft Teams e clicar no botão *adiar* . Isso fará com que a data de atualização automatizada seja reforçada 30 dias. Quando você atualizar o portal de administração do teams depois de adiar, você verá uma notificação que inclui a nova data de atualização automatizada.
 
 ## <a name="requests-to-downgrade-to-skype-for-business"></a>Solicitações para fazer downgrade para o Skype for Business
 

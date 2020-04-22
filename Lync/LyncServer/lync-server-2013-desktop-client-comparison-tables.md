@@ -12,12 +12,12 @@ ms:contentKeyID: 48183798
 ms.date: 01/23/2018
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7596d401687484ec939cf3bad86edf17b16efd8c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 18c9174075ee009b7f67ee8d2757b4af9dd07818
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204257"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780000"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -55,7 +55,7 @@ As tabelas a seguir comparam os recursos e as capacidades dos clientes do Lync 2
 
   - autenticação moderna
 
-Essas tabelas indicam os recursos disponíveis para os usuários do Lync em uma implantação local do Lync Server 2013. Os mesmos recursos também estão disponíveis para o Skype for Business Online e para os usuários do Office 365, a menos que seja indicado o contrário.
+Essas tabelas indicam os recursos disponíveis para os usuários do Lync em uma implantação local do Lync Server 2013. Os mesmos recursos também estão disponíveis para os usuários do Skype for Business Online e do Microsoft 365 ou do Office 365, a menos que seja indicado o contrário.
 
 <div>
 
@@ -336,7 +336,7 @@ Essas tabelas indicam os recursos disponíveis para os usuários do Lync em uma 
 <td><p>●</p></td>
 </tr>
 <tr class="odd">
-<td><p>Expandir grupos de distribuição e grupos do Office 365</p></td>
+<td><p>Expandir grupos de distribuição e grupos do Microsoft 365</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -451,9 +451,9 @@ Essas tabelas indicam os recursos disponíveis para os usuários do Lync em uma 
 </table>
 
 
-1 para os usuários do Skype for Business Online e/ou Office 365, não há suporte para o Lync 2010 Attendant.
+1 para os usuários do Skype for Business Online e/ou Microsoft 365 ou Office 365, o atendedor do Lync 2010 não é suportado.
 
-2 para os usuários do Skype for Business Online e/ou Office 365, este recurso não está disponível.
+2 para o Skype for Business Online e/ou para usuários do Microsoft 365 ou do Office 365, este recurso não está disponível.
 
 </div>
 
@@ -668,11 +668,11 @@ Essas tabelas indicam os recursos disponíveis para os usuários do Lync em uma 
 </table>
 
 
-1 para os usuários do Skype for Business Online e/ou Office 365, não há suporte para o Lync 2010 Attendant.
+1 para os usuários do Skype for Business Online e/ou Microsoft 365 ou Office 365, o atendedor do Lync 2010 não é suportado.
 
 2 o Lync Server 2013 local e o SharePoint 2013 local são necessários para a pesquisa de habilidades.
 
-3 para os usuários do Skype for Business Online e/ou Office 365, o chat persistente não está disponível.
+3 para o Skype for Business Online e/ou o Microsoft 365 ou o Office 365 Users, o chat persistente não está disponível.
 
 </div>
 
@@ -1117,11 +1117,11 @@ Essas tabelas indicam os recursos disponíveis para os usuários do Lync em uma 
 </table>
 
 
-1 para os usuários do Skype for Business Online e/ou Office 365, não há suporte para o Lync 2010 Attendant.
+1 para os usuários do Skype for Business Online e/ou Microsoft 365 ou Office 365, o atendedor do Lync 2010 não é suportado.
 
 2 os participantes não podem controlar áreas de trabalho compartilhadas pelo Skype for Business no Mac, Lync para Mac 2011 ou Communicator para Mac 2011 users. Os usuários do Mac podem controlar áreas de trabalho compartilhadas por usuários do Windows.
 
-3 para os usuários do Skype for Business Online e/ou Office 365, este recurso requer um provedor de serviços de audioconferência.
+3 para os usuários do Skype for Business Online e/ou Microsoft 365 ou do Office 365, este recurso requer um provedor de serviços de audioconferência.
 
 4 o cliente do Lync para Mac 2011 não pode exibir apresentações do PowerPoint do Microsoft Office 2013 quando elas tiverem sido compartilhadas em uma conferência pelo cliente do Lync Web App 2013.
 
@@ -1419,11 +1419,11 @@ Essas tabelas indicam os recursos disponíveis para os usuários do Lync em uma 
 </table>
 
 
-1 para os usuários do Skype for Business Online e/ou Office 365, não há suporte para o Lync 2010 Attendant.
+1 para os usuários do Skype for Business Online e/ou Microsoft 365 ou Office 365, o atendedor do Lync 2010 não é suportado.
 
-2 para os usuários do Skype for Business Online e/ou Office 365, este recurso está disponível apenas para chamadas de PC para PC.
+2 para os usuários do Skype for Business Online e/ou Microsoft 365 ou Office 365, este recurso está disponível apenas para chamadas de PC para PC.
 
-3 para os usuários do Skype for Business Online e/ou Office 365, este recurso não está disponível.
+3 para o Skype for Business Online e/ou para usuários do Microsoft 365 ou do Office 365, este recurso não está disponível.
 
 </div>
 
@@ -1507,9 +1507,9 @@ Essas tabelas indicam os recursos disponíveis para os usuários do Lync em uma 
 </table>
 
 
-1 para os usuários do Skype for Business Online e/ou Office 365, não há suporte para o Lync 2010 Attendant.
+1 para os usuários do Skype for Business Online e/ou Microsoft 365 ou Office 365, o atendedor do Lync 2010 não é suportado.
 
-2 para os usuários do Skype for Business Online e/ou Office 365, este recurso não está disponível.
+2 para o Skype for Business Online e/ou para usuários do Microsoft 365 ou do Office 365, este recurso não está disponível.
 
 </div>
 
@@ -1596,9 +1596,9 @@ Essas tabelas indicam os recursos disponíveis para os usuários do Lync em uma 
 </table>
 
 
-1 para os usuários do Skype for Business Online e/ou Office 365, a gravação não está disponível em determinados planos autônomos do Skype for Business online. A gravação exige direitos totais do cliente Lync 2013. Para obter detalhes, consulte a descrição do serviço do Skype for [https://go.microsoft.com/fwlink/?LinkID=282430](https://go.microsoft.com/fwlink/?linkid=282430)Business online em.
+1 para o Skype for Business Online e/ou o Microsoft 365 ou o Office 365 Users, a gravação não está disponível em determinados planos autônomos do Skype for Business online. A gravação exige direitos totais do cliente Lync 2013. Para obter detalhes, consulte a descrição do serviço do Skype for [https://go.microsoft.com/fwlink/?LinkID=282430](https://go.microsoft.com/fwlink/?linkid=282430)Business online em.
 
-2 para os usuários do Skype for Business Online e/ou Office 365, a gravação de transferências de arquivos, páginas compartilhadas do OneNote e anotações do PowerPoint não está disponível.
+2 para o Skype for Business Online e/ou os usuários do Microsoft 365 ou do Office 365, a gravação de transferências de arquivos, páginas compartilhadas do OneNote e anotações do PowerPoint não está disponível.
 
 </div>
 
@@ -1701,11 +1701,11 @@ Essas tabelas indicam os recursos disponíveis para os usuários do Lync em uma 
 </table>
 
 
-1 para os usuários do Skype for Business Online e/ou Office 365, não há suporte para o Lync 2010 Attendant.
+1 para os usuários do Skype for Business Online e/ou Microsoft 365 ou Office 365, o atendedor do Lync 2010 não é suportado.
 
-2 para o Skype for Business Online e/ou os usuários do Office 365, esse recurso exige o Exchange Online e é controlado pelo atributo de bloqueio in-loco da caixa de correio do Exchange do usuário.
+2 para o Skype for Business Online e/ou o Microsoft 365 ou o Office 365 Users, esse recurso exige o Exchange Online e é controlado pelo atributo de bloqueio in-loco da caixa de correio do Exchange do usuário.
 
-3 para os usuários do Skype for Business Online e/ou Office 365, o arquivamento de transferências de arquivos, páginas compartilhadas do OneNote e anotações do PowerPoint não está disponível.
+3 para o Skype for Business Online e/ou o Microsoft 365 ou o Office 365 usuários, o arquivamento de transferências de arquivos, páginas compartilhadas do OneNote e anotações do PowerPoint não está disponível.
 
 </div>
 

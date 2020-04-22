@@ -12,12 +12,12 @@ ms:contentKeyID: 57793363
 ms.date: 11/26/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 76eb0ed3fbfffc3a30794f1cc8652090235ecc88
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6165310a32bbbc7ea13fc6663dfd4cf5ab791435
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201727"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780070"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +37,7 @@ ms.locfileid: "42201727"
 
 _**Última modificação do tópico:** 2014-11-26_
 
-O Lync Server 2013 oferece suporte à conectividade com o Skype. Essa conectividade permite que seus usuários do Lync 2013 adicionem contatos do Skype usando a conta da Microsoft do usuário do Skype (MSA). Os clientes do Skype também podem adicionar usuários do Lync à sua lista de contatos. Com base nas políticas definidas administrativamente no Lync Server, os usuários do Lync e do Skype poderão se comunicar usando mensagens instantâneas, confira a presença dos outros e iniciar chamadas de áudio e vídeo. A conectividade Lync-Skype também é um recurso do Lync Online e pode ser habilitada para clientes do Lync Online do centro de administração do Lync no portal do Office 365.
+O Lync Server 2013 oferece suporte à conectividade com o Skype. Essa conectividade permite que seus usuários do Lync 2013 adicionem contatos do Skype usando a conta da Microsoft do usuário do Skype (MSA). Os clientes do Skype também podem adicionar usuários do Lync à sua lista de contatos. Com base nas políticas definidas administrativamente no Lync Server, os usuários do Lync e do Skype poderão se comunicar usando mensagens instantâneas, confira a presença dos outros e iniciar chamadas de áudio e vídeo. A conectividade Lync-Skype também é um recurso do Lync Online e pode ser habilitada para os clientes do Lync Online a partir do centro de administração do Lync dentro do centro de administração do Microsoft 365.
 
 <div>
 

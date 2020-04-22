@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 3c93e01624883d9db755479baf6e87c80feba2e1
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 6c57ebda3d23135beb46febf13529b903958df6b
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139590"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780620"
 ---
 # <a name="move-your-microsoft-staffhub-teams-to-shifts-in-microsoft-teams"></a>Mover suas equipes do Microsoft StaffHub para turnos no Microsoft Teams
 
@@ -78,7 +78,7 @@ Antes de mover uma equipe do StaffHub para o Microsoft Teams, certifique-se de q
 
 - O usuário conectado é um administrador global.
 - O Teams está habilitado para todos os usuários no locatário.
-- A criação de grupos do Office 365 está habilitada no locatário.
+- A criação de grupos do Microsoft 365 está habilitada no locatário.
 - O StaffHub TeamID é válido.
 - A equipe do StaffHub tem pelo menos um proprietário de equipe.
 - A equipe do StaffHub contém membros.

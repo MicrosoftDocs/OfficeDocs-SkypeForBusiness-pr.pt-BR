@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2c5a437353d00fca8a59bd7de2b753967adc1134
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: e327ab7be4b09ca91d454ab560f06b293fba19bb
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42707001"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780460"
 ---
 # <a name="get-the-most-out-of-teams-after-upgrading"></a>Aproveitar ao máximo o Microsoft Teams após a atualização
 
@@ -37,7 +37,7 @@ Este artigo oferece uma visão geral dos requisitos para aproveitar ao máximo a
 
 Depois de implantar o Microsoft Teams em sua organização com êxito e operar o serviço com qualidade e confiabilidade, a próxima etapa é avaliar regularmente se você tem oportunidades para aprimorar seus serviços. Isso faz parte do planejamento contínuo do aperfeiçoamento de serviços que é um padrão moderno para gerenciamento de serviços em nuvem.
 
-Uma ótima maneira de garantir que você esteja sempre obtendo o máximo dos seus serviços é monitorar os [roteiros públicos do teams](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams) para os novos aprimoramentos de recursos que podem ser de interesse para a sua organização. Se você tiver acesso ao portal de administração do Office 365, receberá atualizações regulares dos mesmos sobre os recursos novos e dinâmicos por meio do nosso centro de mensagens.
+Uma ótima maneira de garantir que você esteja sempre obtendo o máximo dos seus serviços é monitorar os [roteiros públicos do teams](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams) para os novos aprimoramentos de recursos que podem ser de interesse para a sua organização. Se você tiver acesso ao centro de administração do Microsoft 365, receberá atualizações regulares dos mesmos sobre os recursos novos e dinâmicos por meio do nosso centro de mensagens.
 
 Quando você vir oportunidades para aprimorar seu serviço, Reserve o tempo para fazer isso certo. Reveja a [implantação de chat, equipes, canais e aplicativos no Microsoft Teams](deploy-chat-teams-channels-microsoft-teams-landing-page.md) e aplique as mesmas diretrizes de ponta a ponta. Ao fazer alterações pequenas e incrementais, é improvável que você precise concluir todas as atividades e tarefas de forma completa, mas deve ter certeza de avaliar cada atividade e tarefa ao mesmo tempo para dar a si mesmo a melhor chance com um resultado bem-sucedido.
 

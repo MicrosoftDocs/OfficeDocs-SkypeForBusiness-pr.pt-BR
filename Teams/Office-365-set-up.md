@@ -1,5 +1,5 @@
 ---
-title: Ativar o Microsoft Teams na sua organização do Office 365
+title: Ativar o Microsoft Teams no Microsoft 365 ou no Office 365
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: ritikag
 audience: admin
-description: Aprenda a ativar o Microsoft Teams na sua organização do Office 365.
+description: Saiba como ativar o Microsoft Teams para o Microsoft 365 ou o Office 365.
 localization_priority: Normal
 f1.keywords:
 - CSH
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b3f4225eceea027a87843f5c92047ce98187ce9e
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: d10e93c1ae5f01a2417502f99ee18ab4d12d7b9d
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43136471"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778537"
 ---
 # <a name="turn-on-teams-in-your-organization"></a>Ative o Teams na sua organização
 

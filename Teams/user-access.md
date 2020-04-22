@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 379573e7c671c3a5bca906cc3986bce068921b07
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: f571dd461c6c783703159dfd6e9beb343612dd58
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41833651"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779477"
 ---
 <a name="manage-user-access-to-microsoft-teams"></a>Gerenciamento do acesso de usuários ao Microsoft Teams
 =====================================
@@ -39,7 +39,7 @@ Use políticas de mensagens, gerenciadas a partir do centro de administração d
 
 ## <a name="manage-teams-through-the-microsoft-365-admin-center"></a>Gerenciar equipes por meio do centro de administração do Microsoft 365
 
-As licenças de nível de usuário do Team são gerenciadas diretamente por meio das interfaces de gerenciamento de usuários do centro de administração do Microsoft 365. Um administrador pode atribuir licenças a novos usuários quando novas contas de usuário forem criadas ou a usuários com contas existentes. O administrador precisa ter privilégios do Administrador Global do Office 365 ou Administrador de Gerenciamento de Usuários para administrar as licenças do Microsoft Teams.
+As licenças de nível de usuário do Team são gerenciadas diretamente por meio das interfaces de gerenciamento de usuários do centro de administração do Microsoft 365. Um administrador pode atribuir licenças a novos usuários quando novas contas de usuário forem criadas ou a usuários com contas existentes. O administrador deve ter privilégios de administrador global ou administrador de gerenciamento de usuários para gerenciar as licenças do Microsoft Teams.
 
 Quando o SKU de uma licença, como E3 ou E5, for atribuído a um usuário, a licença do Microsoft Teams é atribuída automaticamente e o usuário fica habilitado para o Microsoft Teams. Os administradores podem ter um controle mais detalhado sobre todos os serviços e licenças do Office 365, e a licença do Microsoft Teams para um usuário específico ou um grupo de usuários pode ser habilitada ou desabilitada.
 
@@ -75,6 +75,6 @@ Para desabilitar o Microsoft Teams para todos os usuários com uma licença ativ
 |![Um ícone representando um ponto de decisão](media/Manage_user_access_to_Microsoft_Teams_image5.png)     |Ponto de decisão         |<ul><li>Qual é o plano da sua organização para o enquadro de equipes em toda a organização?  (Piloto ou Aberto)</li></ul>         |
 |![Um ícone que representa as próximas etapas](media/Manage_user_access_to_Microsoft_Teams_image6.png)     |Próximos passos         |<ul><li>Se estiver integração por meio de um piloto fechado, decida se deseja fazer isso por meio de licenciamento ou comunicação direcionada.</li><li>Dependendo da decisão, siga as etapas para garantir que somente os usuários pilotos que têm permissão para acessar o Microsoft Teams (se necessário).</li><li>Documentar as diretrizes para as quais os usuários que (ou não terão) terão acesso ao Microsoft Teams.</li></ul>         |
 
-## <a name="manage-teams-at-the-office-365-tenant-level"></a>Gerenciar equipes no nível do locatário do Office 365
+## <a name="manage-teams-at-the-office-365-organization-level"></a>Gerenciar equipes no nível da organização do Office 365
 [!INCLUDE [global-switch-expiry-note](includes/global-switch-expiry-note.md)]
 

@@ -1,5 +1,5 @@
 ---
-title: Personalizar convites de reunião
+title: Personalizar convites para reuniões
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -21,18 +21,18 @@ ms.custom:
 - ms.lync.lac.MeetingInvitation
 - ms.teamsadmincenter.meetingsettings.invitationurls
 description: 'Personalize convites de reunião do Skype com logotipos gráficos, ajuda e URLs legais e texto de rodapé. '
-ms.openlocfilehash: b30c31d3e109fa36e49665c19a7aaebad581c7cc
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+ms.openlocfilehash: 41ed423349ff34f27a164b4d9c652571241b1afb
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769634"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776226"
 ---
-# <a name="customize-meeting-invitations"></a>Personalizar convites de reunião
+# <a name="customize-meeting-invitations"></a>Personalizar convites para reuniões
 
 Como administrador, você pode garantir que todos os convites para reunião do Skype for Business incluem algumas informações úteis que os usuários podem precisar, como links para seu site de suporte e isenção de responsabilidade legal, o logotipo da sua empresa e o outro texto que você deseja incluir. 
   
-## <a name="tips-for-creating-a-logo-for-meeting-invitations"></a>Dicas para criar um logotipo para convites de reunião
+## <a name="tips-for-creating-a-logo-for-meeting-invitations"></a>Dicas para criar um logotipo para convites de reuniões
 <a name="__top"> </a>
 
 1. Crie uma imagem que não tenha mais de 188 pixels de largura por 30 pixels de altura (é muito pequena).
@@ -41,14 +41,14 @@ Como administrador, você pode garantir que todos os convites para reunião do S
     
 3. Armazene a imagem em um local central que todos em sua empresa possam acessar, como um compartilhamento de rede, pasta compartilhada do OneDrive for Business, Dropbox, etc.
     
-    Agora você pode adicioná-lo aos convites para reunião. Veja as próximas etapas.
+    Agora você pode adicioná-la aos seus convites para reuniões. Veja os próximos passos.
     
-## <a name="customize-your-meeting-invitations"></a>Personalizar seus convites de reunião
+## <a name="customize-your-meeting-invitations"></a>Personalize seus convites para reuniões
 <a name="__top"> </a>
 
 ![Um ícone mostrando o logotipo do Skype for Business](../images/sfb-logo-30x30.png) **Usando o centro de administração do Skype for Business**
 
-1. Entre no Office 365 com sua conta corporativa ou de estudante.
+1. Entre com sua conta corporativa ou de estudante.
     
 2. No centro de administração, escolha **centros** > **de administração Skype for Business**.
     

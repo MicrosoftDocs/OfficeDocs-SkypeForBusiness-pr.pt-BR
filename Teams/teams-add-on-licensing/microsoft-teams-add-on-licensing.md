@@ -21,12 +21,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Saiba mais sobre as licenças complementares, quais são os recursos que você receberá com cada licença, como comprá-las para o seu produto e como usar sua operadora existente com elas.
-ms.openlocfilehash: 10f8b8d0af5c0c70d68c6fbdba561b15af41f64b
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 93d3ea0637063a2422871ba82e037c8f01e36299
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140814"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780510"
 ---
 # <a name="microsoft-teams-add-on-licensing"></a>Licenciamento de complemento do Microsoft Teams
 
@@ -65,8 +65,8 @@ Precisa falar com alguém sobre todas as opções de complemento? [Entre em cont
 
 As opções de licenciamento de complemento disponíveis dependem do seu plano do Office 365. Consulte os tópicos a seguir para obter informações, recursos e opções específicas para o seu plano.
 
-- [Office 365 Business Premium](office-365-business-premium.md)
-- [Office 365 ProPlus](office-365-premium-pro-plus.md)
+- [Microsoft 365 Business Standard](office-365-business-premium.md)
+- [Aplicativos do Microsoft 365 para empresas](office-365-premium-pro-plus.md)
 - [Office 365 Enterprise E1 ou E3](office-365-enterprise-e1-e3.md)
 - [Office 365 Enterprise E5](office-365-enterprise-e5-with-audio-conferencing.md)
 - [Office 365 Enterprise E5 (sem audioconferência)](office-365-enterprise-e5-without-audio-conferencing.md)

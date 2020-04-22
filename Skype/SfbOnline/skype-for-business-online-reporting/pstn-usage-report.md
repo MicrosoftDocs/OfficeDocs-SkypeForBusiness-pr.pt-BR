@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: A nova área de relatórios do centro de administração do Skype for Business mostra a atividade de chamadas e conferência de áudio em sua organização. Ele permite que você faça uma busca detalhada nos relatórios para dar a você uma visão mais granular sobre as atividades de cada usuário. Por exemplo, você pode usar o relatório de detalhes do uso de PSTN do Skype for Business para ver o número de minutos gastos em chamadas de entrada/saída e o custo dessas chamadas. Você pode exibir os detalhes de uso de PSTN da videoconferência, incluindo o custo da chamada para que você possa entender seu uso e fazer chamadas para os detalhes de cobrança para determinar o uso dentro da sua organização.
-ms.openlocfilehash: 7050334a390188f47f5d201b3fa541d337601400
-ms.sourcegitcommit: a4fd238de09366d6ed33d72c908faff812da11a5
+ms.openlocfilehash: 4161f0f9f0b6e011b67f94afc14b5ac793fc1009
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42637138"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776266"
 ---
 # <a name="pstn-usage-report"></a>Relatório de uso da PSTN
 
@@ -44,7 +44,7 @@ Esse relatório, juntamente com os outros relatórios do Skype for Business, for
 - Vá para o centro de administração > **centros** > de administração o**Centro** > de administração do Skype for Business**relata** > **detalhes de uso de PSTN**.
     
     > [!NOTE]
-    > [!IMPORTANTE] Dependendo da sua assinatura do Office 365, talvez você não veja todos os produtos e relatórios mostrados aqui. 
+    > Dependendo da assinatura do Microsoft 365 ou do Office 365 que você tem, talvez você não veja todos os produtos e relatórios que são mostrados aqui.
   
 ## <a name="interpret-the-skype-for-business-pstn-usage-report"></a>Interpretar o relatório de uso de PSTN do Skype for Business
 
@@ -146,7 +146,7 @@ Arquivo exportado contém campos adicionais que não estão disponíveis no rela
 | 16 | Taxa de conexão | `numeric(16, 2)` | Preço da taxa de conexão |
 | 16 | Chargeback | `numeric(16, 2)` | Valor de dinheiro ou custo da chamada cobrada na sua conta |
 | dezoito | Moeda | `nvarchar(3)` | Tipo de moeda usado para calcular o custo da chamada ([ISO 4217](https://en.wikipedia.org/wiki/ISO_4217)) |
-| pol | Potencial | `nvarchar(32)` | A licença usada para a chamada |
+| pol | Funcionalidade | `nvarchar(32)` | A licença usada para a chamada |
 
     
 ## <a name="want-to-see-other-skype-for-business-reports"></a>Deseja ver outros relatórios do Skype for Business?

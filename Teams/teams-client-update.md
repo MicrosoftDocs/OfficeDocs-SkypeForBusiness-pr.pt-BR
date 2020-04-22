@@ -15,12 +15,12 @@ f1.keywords:
 description: Saiba como o cliente de desktop Teams é atualizado.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8058fa1e79b7d415d03c08500213206579029042
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 0a76fe4e0cfb896d1bd89a02acebc1c00dff8767
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41832611"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776826"
 ---
 # <a name="teams-update-process"></a>Processo de atualização de equipes
 
@@ -36,11 +36,11 @@ Os usuários precisam estar conectados para que as atualizações sejam baixadas
 
 A partir de 31 de julho de 2019, as atualizações do cliente do teams usam uma menor largura de banda de rede durante a atualização. Isso é ativado por padrão e não requer nenhuma ação de administradores ou usuários.
 
-## <a name="what-about-updates-to-office-365-proplus"></a>E quanto às atualizações do Office 365 ProPlus?
+## <a name="what-about-updates-to-microsoft-365-apps-for-enterprise"></a>E quanto às atualizações do Microsoft 365 para aplicativos Enterprise?
 
-O Teams é instalado por padrão com novas instalações do Office 365 ProPlus, conforme descrito em [implantar o Microsoft Teams com o Office 365 ProPlus](https://docs.microsoft.com/DeployOffice/teams-install). 
+O Teams é instalado por padrão com novas instalações dos aplicativos do Microsoft 365 para empresas, conforme descrito em [implantar o Microsoft Teams com o microsoft 365 aplicativos para empresas](https://docs.microsoft.com/DeployOffice/teams-install). 
 
-O Teams segue seu próprio processo de atualização, conforme descrito acima, e não o processo de atualização para os outros aplicativos do Office, como o Word e o Excel. Para saber mais, leia [visão geral dos canais de atualização do Office 365 ProPlus](https://docs.microsoft.com/DeployOffice/overview-of-update-channels-for-office-365-proplus)
+O Teams segue seu próprio processo de atualização, conforme descrito acima, e não o processo de atualização para os outros aplicativos do Office, como o Word e o Excel. Para saber mais, leia [visão geral de canais de atualização para aplicativos do Microsoft 365 para empresas](https://docs.microsoft.com/DeployOffice/overview-of-update-channels-for-office-365-proplus)
 
 ## <a name="what-about-updates-to-teams-on-vdi"></a>E quanto às atualizações para o Microsoft Teams no VDI?
 
@@ -56,7 +56,7 @@ Como um serviço online moderno, o cliente do teams atualiza automaticamente a c
 
 Para começar a auxiliar na identificação quando os clientes de desktop estiverem desatualizados, um alerta no aplicativo será exibido se a versão atual do usuário estiver entre um e três meses de idade e se houver uma nova versão disponível. Esta mensagem no aplicativo incentiva os usuários a atualizarem para a versão mais recente do teams ou, se necessário, para se comunicar com o administrador de ti. Os usuários de clientes da área de trabalho do teams com mais de três meses verão uma página bloqueada que oferece as opções de atualização agora, entre em contato com o administrador de ti ou continue com o Microsoft Teams na Web.
 
-As versões de cliente da área de trabalho com mais de três meses em primeiro instalar e/ou primeira execução de equipes têm um período de cortesia de 28 dias antes de encontrar as informações de manutenção mencionadas acima. Durante esse período, o processo de atualização automática atualizará o cliente do teams. Se não for atualizado, os usuários verão um alerta no aplicativo incentivando a atualização manual para a versão mais recente do teams ou, se necessário, para acessar o administrador de ti para fazer isso. Isso inclui usuários que usam o cliente da área de trabalho do teams como parte do pacote do Office 365 ProPlus.
+As versões de cliente da área de trabalho com mais de três meses em primeiro instalar e/ou primeira execução de equipes têm um período de cortesia de 28 dias antes de encontrar as informações de manutenção mencionadas acima. Durante esse período, o processo de atualização automática atualizará o cliente do teams. Se não for atualizado, os usuários verão um alerta no aplicativo incentivando a atualização manual para a versão mais recente do teams ou, se necessário, para acessar o administrador de ti para fazer isso. Isso inclui os usuários que usam o cliente da área de trabalho do teams como parte do pacote de aplicativos do Microsoft 365 para empresas.
 
 Os clientes de desktop do teams nas nuvens governamentais atualmente têm uma exceção para esse contrato de serviço, até que você perceba ainda mais.
 

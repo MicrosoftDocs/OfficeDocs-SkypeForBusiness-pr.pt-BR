@@ -15,16 +15,16 @@ ms.collection:
 - Teams_ITAdmin_Healthcare
 ms.reviewer: anach
 description: Aplicativo pacientes para administradores do teams
-ms.openlocfilehash: 03aa421a72ab1402e0574a65117fa1eb182f1a47
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: fbbb3361968ae928638fedca09fbd8d4c2ff33b6
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42147704"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780400"
 ---
 # <a name="audit-logs-for-patients-app"></a>Logs de auditoria para o aplicativo de pacientes
 
-Um log de auditoria para atividade de aplicativo pacientes permite que as equipes de resposta a incidentes revisem alterações para os registros médicos de um paciente (EMR) ou informações de assistência médica (PHI) e determine se as alterações ou melhorias na política ou nos procedimentos para acesso Fi em ferramentas de produtividade são necessárias. Os eventos de log de auditoria abordam as ações realizadas por meio da interface de usuário do aplicativo pacientes.
+Um log de auditoria para atividades de aplicativo pacientes permite que as equipes de resposta a incidentes revisem alterações para os registros médicos eletrônicos (EMR) ou informações de assistência médica (PHI) de um paciente e determine se alterações ou melhorias na política ou nos procedimentos para o acesso PHI em ferramentas de produtividade são necessárias. Os eventos de log de auditoria abordam as ações realizadas por meio da interface de usuário do aplicativo pacientes.
 
 ## <a name="meet-hipaa-requirements"></a>Conheça os requisitos da HIPAA
 
@@ -41,7 +41,7 @@ Uma auditoria depende de várias configurações anteriores:
 
 1. O administrador teria que trabalhar com o provedor de serviços FHIR para ter o EMR em um formato usado pelo aplicativo pacientes. Confira [integrando os registros eletrônicos de assistência médica ao Microsoft Teams](patients-app.md).
 2. Um administrador de provedor de assistência médica precisaria habilitar o aplicativo pacientes no centro de administração do teams. Consulte [gerenciar políticas de configuração de aplicativos no Microsoft Teams](../../teams-app-setup-policies.md) e artigos relacionados para obter mais informações.
-3. O administrador teria que habilitar as auditorias de atividades no O365, da mesma forma que habilitam qualquer auditoria de log de atividades no Office 365, conforme descrito em [antes de você começar](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#before-you-begin) e [Ativar ou desativar a pesquisa de log de auditoria do Office 365](https://docs.microsoft.com/office365/securitycompliance/turn-audit-log-search-on-or-off#turn-on-audit-log-search). Se o log de auditoria já estiver ativado, nada de especial será necessário para o aplicativo pacientes. Sempre que um provedor de assistência médica instalar e executar o aplicativo dentro de uma equipe, os logs de auditoria registrarão suas atividades de PHI.
+3. O administrador teria que habilitar as auditorias de atividades no O365, da mesma forma que habilitam qualquer auditoria de log de atividades no Office 365, conforme descrito em [antes de você começar](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#before-you-begin) e [Ativar ou desativar a pesquisa de log de auditoria](https://docs.microsoft.com/office365/securitycompliance/turn-audit-log-search-on-or-off#turn-on-audit-log-search). Se o log de auditoria já estiver ativado, nada de especial será necessário para o aplicativo pacientes. Sempre que um provedor de assistência médica instalar e executar o aplicativo dentro de uma equipe, os logs de auditoria registrarão suas atividades de PHI.
 4. Em seguida, o administrador precisaria anunciar a disponibilidade do aplicativo pacientes, e os funcionários da área de saúde precisariam começar a gerar atividades a serem incluídas em uma auditoria.
 
 <!-- add link out to client doc when available -->
@@ -80,6 +80,6 @@ As atividades registradas para o Microsoft Teams em geral estão descritas em [a
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Pesquisar o log de auditoria do Office 365](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)
+[Pesquisar no log de auditoria](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)
 
 [Integração dos Registros Eletrônicos de Saúde no Microsoft Teams](patients-app.md)

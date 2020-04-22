@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: Leia este tópico para obter informações sobre como implantar salas do Microsoft Teams com o Exchange Online.
-ms.openlocfilehash: d909174712ba27efdc5e4c5427c51c67049b8e92
-ms.sourcegitcommit: 543f650ad4aff73bccfe7a60b66fb944b4e3c119
+ms.openlocfilehash: fbf1057539f15d6de702909a1571c9e11fdf5de3
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42572879"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780550"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-online"></a>Implantar as Salas do Microsoft Teams com o Exchange Online
 
@@ -101,7 +101,7 @@ Se você implantou o AD FS (serviços de Federação do Active Directory), talve
      ``` -->
 
 2. A conta de usuário precisa ter uma licença válida do Office 365 para garantir que o Exchange e o Skype for Business Server funcionem. Se você tiver a licença, será necessário atribuir um local de uso à sua conta de usuário — isso determina quais SKUs de licença estão disponíveis para a sua conta. Você fará a atribuição em uma etapa seguinte.
-3. Em seguida, use`Get-MsolAccountSku` <!--Get-AzureADSubscribedSku--> para recuperar uma lista de SKUs disponíveis para o seu locatário do Office 365.
+3. Em seguida, use`Get-MsolAccountSku` <!--Get-AzureADSubscribedSku--> para recuperar uma lista de SKUs disponíveis para sua organização do Office 365.
 4. Depois de listar os SKUs, você pode adicionar uma licença usando o botão`Set-MsolUserLicense` <!-- Set-AzureADUserLicense--> cmdlet. Nesse caso, $strLicense é o código de SKU que você vê (por exemplo, contoso:STANDARDPACK). 
 
     ```PowerShell
@@ -159,10 +159,10 @@ Para a validação, você deve ser capaz de usar qualquer cliente Skype for Busi
 
 [Configurar contas para salas do Microsoft Teams](rooms-configure-accounts.md)
 
-[Plano para salas do Microsoft Teams](rooms-plan.md)
+[Planejar as Salas do Microsoft Teams](rooms-plan.md)
   
-[Implantar salas do Microsoft Teams](rooms-deploy.md)
+[Implantar Salas do Microsoft Teams](rooms-deploy.md)
   
-[Configurar um console de salas do Microsoft Teams](console.md)
+[Configurar um console de Salas do Microsoft Teams](console.md)
   
 [Gerenciar Salas do Microsoft Teams](rooms-manage.md)

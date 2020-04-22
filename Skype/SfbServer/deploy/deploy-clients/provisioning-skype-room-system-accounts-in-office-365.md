@@ -1,5 +1,5 @@
 ---
-title: Provisionamento de contas do sistema de salas do Skype no Office 365
+title: Provisionamento de contas do sistema de salas do Skype no Microsoft 365 e no Office 365
 ms.author: v-lanac
 author: lanachin
 manager: serdars
@@ -11,25 +11,25 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: c36150bb-461c-4f1c-877b-fac7fb232f7c
-description: Leia este tópico para saber mais sobre o provisionamento de contas do sistema de salas do Skype no Office 365.
-ms.openlocfilehash: 141c833bcbdd744a7577c0762cb8ba55dd3d5c54
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+description: Leia este tópico para saber mais sobre o provisionamento de contas do sistema de salas do Skype no Microsoft 365 ou no Office 365.
+ms.openlocfilehash: e2796d9a81f918c0503382e23aad5ead711240e7
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42037721"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779707"
 ---
-# <a name="provisioning-skype-room-system-accounts-in-office-365"></a>Provisionamento de contas do sistema de salas do Skype no Office 365
+# <a name="provisioning-skype-room-system-accounts-in-microsoft-365-and-office-365"></a>Provisionamento de contas do sistema de salas do Skype no Microsoft 365 e no Office 365
  
 Leia este tópico para saber mais sobre o provisionamento de contas do sistema de salas do Skype no Office 365.
   
-A seção a seguir abrange o provisionamento de contas do sistema de salas do Skype para um locatário do Office 365.
+A seção a seguir abrange o provisionamento de contas do sistema de salas do Skype para uma organização do Office 365.
   
-## <a name="office-365-prerequisites"></a>Pré-requisitos do Office 365
+## <a name="microsoft-365-and-office-365-prerequisites"></a>Pré-requisitos do Microsoft 365 e do Office 365
 
 Seu locatário online deve atender aos seguintes requisitos:
   
-- O plano do Office 365 deve incluir o Skype for Business online plano 2 ou o Office 365 E1, E3 ou e5. <br/>Para obter detalhes sobre os planos do Skype for Business Online, consulte a [Descrição do serviço do Skype for Business online](https://technet.microsoft.com/library/jj822172.aspx).
+- O plano do Microsoft 365 ou do Office 365 deve incluir o Skype for Business online plano 2 ou o Office 365 E1, E3 ou e5. <br/>Para obter detalhes sobre os planos do Skype for Business Online, consulte a [Descrição do serviço do Skype for Business online](https://technet.microsoft.com/library/jj822172.aspx).
     
 - Seu locatário deve ter o recurso de conferência do Skype for Business habilitado.
     
@@ -99,7 +99,7 @@ Após atribuir uma licença para o Skype for Business Online, você poderá entr
   
 ## <a name="skype-for-business-online-provisioning"></a>Provisionamento do Skype for Business Online
 
-Após uma conta de caixa de correio de sala de recursos ter sido criada e habilitada, conforme mostrado anteriormente, e você tiver licenciado a conta do Skype for Business Online, a conta será sincronizada a partir da floresta do Exchange Online para a floresta do Skype for Business online usando o Floresta do Active Directory do Windows Azure. As etapas a seguir são necessárias para provisionar a conta do sistema de salas do Skype no pool do Skype for Business online. Essas etapas são as mesmas para uma conta de caixa de correio de recurso existente ou para uma conta recentemente criada (confrm1 ou confrm2), porque depois de habilitadas no Exchange Online, ambas as contas serão sincronizadas com o Skype for Business online da mesma maneira:
+Após uma conta de caixa de correio de sala de recursos ter sido criada e habilitada, conforme mostrado anteriormente, e você tiver licenciado a conta do Skype for Business Online, a conta será sincronizada a partir da floresta do Exchange Online para a floresta do Skype for Business online usando a floresta do Active Directory do Windows Azure. As etapas a seguir são necessárias para provisionar a conta do sistema de salas do Skype no pool do Skype for Business online. Essas etapas são as mesmas para uma conta de caixa de correio de recurso existente ou para uma conta recentemente criada (confrm1 ou confrm2), porque depois de habilitadas no Exchange Online, ambas as contas serão sincronizadas com o Skype for Business online da mesma maneira:
   
 1. Criar uma sessão remota do PowerShell. Observe que você precisará baixar o módulo do conector do Skype for Business Online e o assistente de conexão do Microsoft Online Services e verificar se o computador está configurado. Para obter mais informações, consulte [Configurar o computador para o Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
     

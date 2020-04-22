@@ -15,12 +15,12 @@ f1.keywords:
 description: Saiba mais sobre barreiras de informação e como elas afetam o Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a666d89e78a9234144eb09173b713d1186410206
-ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
+ms.openlocfilehash: 8cdb736db3234d0c7e24729a7d8e2b06c2d068d0
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43157814"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780810"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Barreiras de informação no Microsoft Teams
 
@@ -60,14 +60,14 @@ O serviço de avaliação da política de barreira de informações determina se
 
 ## <a name="managing-information-barrier-policies"></a>Gerenciar políticas de barreira de informações
 
-As políticas de barreira de informações são gerenciadas no centro de conformidade do & de segurança do Office 365 (SCC) usando cmdlets do PowerShell. Para obter mais informações, consulte [definir políticas para barreiras de informação](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies).
+As políticas de barreira de informações são gerenciadas no centro de conformidade do Microsoft 365 (SCC) usando cmdlets do PowerShell. Para obter mais informações, consulte [definir políticas para barreiras de informação](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies).
 
 > [!IMPORTANT]
 > Antes de configurar ou definir políticas, **você deve habilitar a pesquisa de diretório em escopo no Microsoft Teams**. Aguarde pelo menos 24 horas depois de habilitar a pesquisa de diretório de escopo antes de configurar ou definir políticas para barreiras de informação. [Saiba mais sobre pré-requisitos para barreiras de informação](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies#prerequisites).
 
 ## <a name="information-barriers-administrator-role"></a>Função de administrador de barreiras de informações
 
-A função de gerenciamento de conformidade IB é responsável por gerenciar políticas de barreira de informações. Para obter mais informações sobre essa função, consulte [permissões no centro de conformidade do & de segurança do Office 365](https://docs.microsoft.com/office365/securitycompliance/permissions-in-the-security-and-compliance-center).
+A função de gerenciamento de conformidade IB é responsável por gerenciar políticas de barreira de informações. Para obter mais informações sobre essa função, consulte [permissões no centro de conformidade do Microsoft 365](https://docs.microsoft.com/office365/securitycompliance/permissions-in-the-security-and-compliance-center).
 
 ## <a name="information-barrier-triggers"></a>Gatilhos de barreira de informações
 
@@ -93,7 +93,7 @@ As políticas de barreira de informações são ativadas quando ocorrem os segui
 
 - **Uma tela é compartilhada entre dois ou mais usuários** -a qualquer momento em que uma tela é compartilhada entre dois ou mais usuários, o compartilhamento de tela deve ser avaliado para garantir que ele não viole as políticas de barreira de informações de outros usuários. Se uma política de barreira de informações for violada, o compartilhamento de tela não será permitido.
 - **Um usuário insere uma chamada telefônica (VoIP) no Teams** -sempre que uma chamada de voz é iniciada por um usuário para outro usuário ou grupo de usuários, a chamada é avaliada para garantir que ela não viole as políticas de barreira de informações de outros membros da equipe. Se houver alguma violação, a chamada de voz será bloqueada.
-- **Usuários convidados em equipes** – as políticas de barreira de informações se aplicam também a usuários convidados no Microsoft Teams. Se os usuários convidados precisarem ser detectáveis na lista de endereços global da sua organização, consulte [gerenciar o acesso de convidados nos grupos do Office 365](https://docs.microsoft.com/office365/admin/create-groups/manage-guest-access-in-groups?view=o365-worldwide#can-i-make-guest-objects-visible-in-the-global-address-list). Depois que os usuários convidados são detectáveis, você pode [definir políticas de barreira de informações](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies).
+- **Usuários convidados em equipes** – as políticas de barreira de informações se aplicam também a usuários convidados no Microsoft Teams. Se os usuários convidados precisarem ser detectáveis na lista de endereços global da sua organização, consulte [gerenciar o acesso de convidados nos grupos do Microsoft 365](https://docs.microsoft.com/office365/admin/create-groups/manage-guest-access-in-groups?view=o365-worldwide#can-i-make-guest-objects-visible-in-the-global-address-list). Depois que os usuários convidados são detectáveis, você pode [definir políticas de barreira de informações](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies).
 
 ## <a name="how-policy-changes-impact-existing-chats"></a>Como as alterações de política afetam os chats existentes
 

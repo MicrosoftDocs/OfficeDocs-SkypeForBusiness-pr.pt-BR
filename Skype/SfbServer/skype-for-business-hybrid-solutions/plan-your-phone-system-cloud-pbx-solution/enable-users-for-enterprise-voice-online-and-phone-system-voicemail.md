@@ -19,18 +19,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 28daebcb-c2dc-4338-b2d1-04345ece9c19
 description: Saiba como habilitar o sistema de telefonia nos serviços de voz do Office 365 para seus usuários do Skype for Business.
-ms.openlocfilehash: ae1443fa0f0725b6cbbe722703f24af02139c12d
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 8ed04e3926adfecb2f0022d12c783f6c3e83d763
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42050193"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780720"
 ---
 # <a name="enable-users-for-enterprise-voice-online-and-phone-system-in-office-365-voicemail"></a>Habilitar usuários para o Enterprise Voice online e o sistema de telefonia no Office 365 caixa postal
  
 Saiba como habilitar o sistema de telefonia nos serviços de voz do Office 365 para seus usuários do Skype for Business.
   
-A etapa final na implantação do sistema de telefonia no Office 365 com conectividade PSTN local é habilitar os usuários para o sistema de telefonia no Office 365 e no correio de voz. Para habilitar esses recursos, você deve ser um usuário com a função de administrador global do Office 365 e poder executar o PowerShell remoto. Você precisa seguir as etapas deste tópico para todas as contas de usuário que ainda não têm o Enterprise Voice habilitado para o Skype for Business online.
+A etapa final na implantação do sistema de telefonia no Office 365 com conectividade PSTN local é habilitar os usuários para o sistema de telefonia no Office 365 e no correio de voz. Para habilitar esses recursos, você deve ser um usuário com a função de administrador global e poder executar o PowerShell remoto. Você precisa seguir as etapas deste tópico para todas as contas de usuário que ainda não têm o Enterprise Voice habilitado para o Skype for Business online.
   
 ## <a name="enable-phone-system-in-office-365-voice-services"></a>Habilitar o sistema de telefonia nos serviços de voz do Office 365
 

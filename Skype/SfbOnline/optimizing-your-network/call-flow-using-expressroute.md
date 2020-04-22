@@ -20,22 +20,22 @@ f1.keywords:
 ms.custom:
 - Optimization
 description: Este artigo ajuda a explicar os princípios centrais do fluxo de chamadas do Skype for Business Online e da Rota Expressa, além de fornecer alguns exemplos detalhados de fluxos de chamadas para que você possa entender e planejar corretamente.
-ms.openlocfilehash: 3c728dab868177aab07c6fe618fba3a8c357eaa2
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 8460d845302fbca2ab10e5c43f9feda8af45a321
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706666"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777586"
 ---
 # <a name="call-flow-using-expressroute"></a>Fluxo de chamadas usando Rota Expressa
 
 Este artigo ajuda a explicar os princípios centrais do fluxo de chamadas do Skype for Business Online e da Rota Expressa, além de fornecer alguns exemplos detalhados de fluxos de chamadas para que você possa entender e planejar corretamente.
 
-Se você estiver implantando o Skype for Business online como parte do Office 365, do Skype for Business Server Hybrid ou do Skype for Business Cloud Connector Edition, será necessário entender a comunicação entre o cliente e os servidores do Skype for Business e o fluxo de chamadas para Você pode planejar, implantar, operar e solucionar problemas de seus serviços do Skype for Business online com eficiência.
+Se você estiver implantando o Skype for Business online como parte do Office 365, do Skype for Business Server Hybrid ou do Skype for Business Cloud Connector Edition, será necessário entender a comunicação entre o cliente e os servidores do Skype for Business e o fluxo de chamadas para que você possa planejar, implantar, operar e solucionar problemas de seus serviços do Skype for Business online com eficiência.
 
 ## <a name="call-flow-overview"></a>Visão geral do fluxo de chamadas
 
-Este documento descreve os segmentos de rede que podem transportar dados para esses fluxos de chamadas e ajuda você a entender qual tráfego permanecerá local na sua rede, em comparação com o tráfego que vai viajar pela Internet ou via ExpressRoute. Saber qual tráfego usa a rota expressa ajudará você a avaliar os benefícios que sua empresa receberá usando o ExpressRoute, além de ajudar você a entender a orientação de implantação do ExpressRoute para validar e solucionar problemas de implantação depois de decidir para usar o ExpressRoute.
+Este documento descreve os segmentos de rede que podem transportar dados para esses fluxos de chamadas e ajuda você a entender qual tráfego permanecerá local na sua rede, em comparação com o tráfego que vai viajar pela Internet ou via ExpressRoute. Saber qual tráfego usa o ExpressRoute o ajudará a avaliar os benefícios que a sua empresa receberá usando o ExpressRoute, além de ajudar você a entender a orientação de implantação do ExpressRoute para validar e solucionar problemas de implantação depois de decidir usar o ExpressRoute.
 
 Os fluxos de chamadas descritos aqui podem ser afetados por uma série de fatores que você controla, inclusive as regras de firewall, a configuração NAT, proxies e a configuração do roteador. Este documento presume que as configurações recomendadas já estão aplicadas. Essas configurações recomendadas são descritas em:
 
@@ -47,7 +47,7 @@ Os fluxos de chamadas descritos aqui podem ser afetados por uma série de fatore
 
 - [Rota Expressa do Azure](https://azure.microsoft.com/services/expressroute/)
 
-A configuração e as configurações que não seguiram as etapas de configuração encontradas na documentação acima podem ter fluxos de chamadas diferentes daqueles que documentamos aqui. Além disso, você pode se encontrar com problemas de configuração, como rotas de rede assimétricas e não otimizadas, ou protocolos de transporte não otimizados. O roteamento assimétrico é uma consideração importante sempre que o ExpressRoute estiver envolvido, porque o ExpressRoute apresenta um segundo caminho para o Office 365, que cria a possibilidade de uma rota que usa a Internet em uma direção e outra rota que usa Rota expressa na outra direção. Isso pode fazer com que o tráfego seja bloqueado na direção de retorno se ele atravessar um firewall stateful.
+A configuração e as configurações que não seguiram as etapas de configuração encontradas na documentação acima podem ter fluxos de chamadas diferentes daqueles que documentamos aqui. Além disso, você pode se encontrar com problemas de configuração, como rotas de rede assimétricas e não otimizadas, ou protocolos de transporte não otimizados. O roteamento assimétrico é uma consideração importante sempre que o ExpressRoute estiver envolvido, porque o ExpressRoute apresenta um segundo caminho para o Office 365, que cria a possibilidade de uma rota que usa a Internet em uma direção e outra rota que usa o ExpressRoute na outra direção. Isso pode fazer com que o tráfego seja bloqueado na direção de retorno se ele atravessar um firewall stateful.
 
 ## <a name="network-segments-and-traffic-types"></a>Segmentos de rede e tipos de tráfego
 
@@ -103,7 +103,7 @@ Para saber mais sobre os detalhes no caminho de mídia que é escolhido, consult
 
 ## <a name="skype-for-business-call-flows-with-expressroute"></a>Fluxos de chamadas do Skype for Business com Rota Expressa
 
-Agora que você tem uma compreensão dos quatro segmentos de rede diferentes e alguns princípios gerais de orientação para fluxos de chamadas do Skype for Business, você pode usar essas informações para ajudá-lo a entender qual tráfego do Skype for Business passará por um ExpressRoute segmento de rede.
+Agora que você tem uma compreensão dos quatro segmentos de rede diferentes e alguns princípios gerais de orientação para fluxos de chamadas do Skype for Business, você pode usar essas informações para ajudá-lo a entender qual tráfego do Skype for Business atravessará um segmento de rede do ExpressRoute.
 
 Em geral, o tráfego de rede usará a conexão da Rota Expressa, caso um ponto de extremidade seja sua rede e o outro ponto de extremidade seja o datacenter do Office 365. Isso incluirá o tráfego de sinalização entre o cliente e o servidor, o tráfego de mídia usado durante as chamadas em conferência ou chamadas ponto a ponto que usam o servidor de borda online.
 
@@ -116,7 +116,7 @@ Para ajudá-lo a aplicar os princípios gerais de fluxos de chamadas do Skype fo
 > [!NOTE]
 > Um subconjunto de tráfego usado pelo Skype for Business não está roteável pelo ExpressRoute e sempre terá um caminho da Internet. Consulte as [URLs e os intervalos de endereços IP do Office 365](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2) para determinar as URLs que podem ser afetadas.
 
-### <a name="peer-to-peer-call-for-office-365-users-from-within-customer-network"></a>Chamada ponto a ponto para usuários do Office 365 em uma rede de clientes
+### <a name="peer-to-peer-call-for-microsoft-365-or-office-365-user-from-within-customer-network"></a>Chamada ponto a ponto para o Microsoft 365 ou o Office 365 usuário de dentro da rede do cliente
 <a name="bk_Figure2"> </a>
 
 Para chamadas ponto a ponto, o tráfego de mídia sempre usa a rota mais direta até o seu destino. No entanto, o tráfego de sinalização vai para um datacenter do Office 365 onde o usuário online está localizado. Visto que os dois usuários estão na mesma WAN e nada impede a comunicação direta entre os clientes, a mídia flui diretamente entre eles. O tráfego de sinalização, dos dois usuários, usa a conexão da Rota Expressa que está destinada a cada datacenter da organização. Para mostrar o fluxo de chamadas neste cenário, veja isto.
@@ -128,7 +128,7 @@ Para chamadas ponto a ponto, o tráfego de mídia sempre usa a rota mais direta 
 ### <a name="online-user-on-your-network-joining-a-conference-that-is-hosted-online"></a>Usuário online de sua rede ingressando em uma conferência hospedada online
 <a name="bk_Figure3"> </a>
 
-No exemplo ponto a ponto, o tráfego de mídia sempre usa a rota mais direta para seu destino. No entanto, para uma conferência online, o destino está na nuvem do Office 365. Isso significa que o tráfego de mídia para todos os usuários que ingressam na conferência de dentro da rede atravessará a conexão do ExpressRoute e o tráfego de sinalização se transformará na nuvem do Office 365. O elemento gráfico abaixo mostra que a mídia e a sinalização percorram a conexão do ExpressRoute para um usuário em sua rede e percorra diretamente a Internet para os usuários que estão conectados à Internet de fora da rede, como de uma café loja ou Hotel.
+No exemplo ponto a ponto, o tráfego de mídia sempre usa a rota mais direta para seu destino. No entanto, para uma conferência online, o destino está na nuvem do Office 365. Isso significa que o tráfego de mídia para todos os usuários que ingressam na conferência de dentro da rede atravessará a conexão do ExpressRoute e o tráfego de sinalização se transformará na nuvem do Office 365. O elemento gráfico abaixo mostra que a mídia e a sinalização percorram a conexão do ExpressRoute para um usuário em sua rede e percorra diretamente a Internet para os usuários que estão conectados à Internet de fora da sua rede, como de uma lanchonete ou Hotel.
 
 Lembre-se de que o local de uma conferência é definido pelo organizador da reunião e não pelos participantes. Isso significa que, se a reunião for agendada por um cliente local, o tráfego de mídia não fluirá para a nuvem do Office 365 pelo ExpressRoute, mas, em vez disso, percorreria a Internet para o datacenter local do organizador da reunião.
 
@@ -138,7 +138,7 @@ O destino da mídia de conferências online será um datacenter na nuvem do Offi
 
 - Se um usuário estiver participando de um país/região diferente de onde a organização da empresa está localizada, pelo fato de a empresa ser multinacional ou o usuário estar viajando.
 
-A boa notícia sobre o uso do ExpressRoute nesse cenário é que com o complemento Premium do ExpressRoute, os dados que acompanham o caminho do ExpressRoute passarão automaticamente pelo backbone da Microsoft independentemente da região geográfica do organizador da reunião Datacenter da organização.
+A boa notícia sobre o uso do ExpressRoute nesse cenário é que com o complemento Premium do ExpressRoute, os dados que acompanham o caminho do ExpressRoute passarão automaticamente pelo backbone da Microsoft independentemente da região geográfica do organizador do datacenter da organização da reunião.
 
  **Usuário online com fluxo de chamadas de reunião online**
 
@@ -197,7 +197,7 @@ Os cenários de uso do Skype for Business online envolvem usuários que estão h
 |||||||
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |**Cenário de uso** <br/> |**Pontos de extremidade** <br/> |**Caminho de sinalização** <br/> |**Caminho de mídia** <br/> |**Fluxo de exemplo** <br/> |**Observações** <br/> |
-|Chamada ponto a ponto  <br/> |Dois clientes: ambos em sua rede.  <br/> |Rota Expressa  <br/> |local  <br/> |[Chamada ponto a ponto para usuários do Office 365 em uma rede de clientes](call-flow-using-expressroute.md#bk_Figure2) <br/> ||
+|Chamada ponto a ponto  <br/> |Dois clientes: ambos em sua rede.  <br/> |Rota Expressa  <br/> |local  <br/> |[Chamada ponto a ponto para o Microsoft 365 ou o Office 365 usuário de dentro da rede do cliente](call-flow-using-expressroute.md#bk_Figure2) <br/> ||
 |Chamada ponto a ponto  <br/> |Dois clientes, um na rede (interna) e outro cliente na Internet (externo).  <br/> |Usuário interno: Rota Expressa  <br/> Usuário externo: Internet  <br/> |Usuário interno: Rota Expressa  <br/> Usuário externo: Internet para servidor de borda do Office 365.  <br/> |[Chamada ponto a ponto para usuários do Office 365 em uma rede de clientes](call-flow-using-expressroute.md#bk_Figure2) <br/> |Assume que o firewall bloqueia conexões diretas entre clientes, que exigem um servidor de borda online. O tráfego do usuário interno para o servidor de borda online segue um caminho semelhante ao do servidor de conferência para chamada em conferência.  <br/> |
 |Chamada ponto a ponto para um usuário em uma organização federada  <br/> |Dois clientes: em sua rede (interna) e no usuário online na rede da organização federada (federada).  <br/> |Rota Expressa  <br/> |Rota Expressa  <br/> |[Usuário online de sua rede ingressando em uma conferência hospedada online](call-flow-using-expressroute.md#bk_Figure3) <br/> |Supõe que o firewall bloqueia as conexões diretas entre os clientes, o que exige um servidor de borda online. O tráfego do usuário interno para o servidor de borda online segue um caminho similar ao do servidor de conferência para chamada em conferência.  <br/> |
 |Ingressar em chamada em conferência por usuário na rede do cliente  <br/> |Cliente na sua rede e servidor de conferência na nuvem do Office 365.  <br/> |Rota Expressa  <br/> |Rota Expressa  <br/> |[Usuário online de sua rede ingressando em uma conferência hospedada online](call-flow-using-expressroute.md#bk_Figure3) <br/> ||
@@ -216,7 +216,7 @@ Os fluxos de chamadas híbridas se aplicam quando você tem uma implantação do
 |||||||
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |**Cenário de uso** <br/> |**Pontos de extremidade** <br/> |**Caminho de sinalização** <br/> |**Caminho de mídia** <br/> |**Fluxo de exemplo** <br/> |**Observações** <br/> |
-|Chamada ponto a ponto  <br/> |Dois clientes: na rede do cliente e hospedados localmente  <br/> |Local  <br/> |local  <br/> |[Chamada ponto a ponto para usuários do Office 365 em uma rede de clientes](call-flow-using-expressroute.md#bk_Figure2) <br/> |Como os usuários estão hospedados localmente, a sinalização flui localmente até o datacenter local, em vez fluir para a nuvem do Office 365.  <br/> |
+|Chamada ponto a ponto  <br/> |Dois clientes: na rede do cliente e hospedados localmente  <br/> |Local  <br/> |local  <br/> |[Chamada ponto a ponto para o Microsoft 365 ou o Office 365 usuário de dentro da rede do cliente](call-flow-using-expressroute.md#bk_Figure2) <br/> |Como os usuários estão hospedados localmente, a sinalização flui localmente até o datacenter local, em vez fluir para a nuvem do Office 365.  <br/> |
 |Chamada ponto a ponto  <br/> |Dois clientes: ambos se conectam pela rede do cliente. Um está hospedado online; o outro, localmente.  <br/> |Usuário online: Rota Expressa  <br/> Usuário local: local  <br/> |local  <br/> |[Chamada ponto a ponto para usuários do Office 365 em uma rede de clientes](call-flow-using-expressroute.md#bk_Figure2) <br/> |Somente o usuário hospedado online envia tráfego de sinalização para a nuvem do Office 365.  <br/> |
 |Chamada ponto a ponto para um usuário em uma organização federada  <br/> |Dois clientes: usuário local na rede do cliente (interna) e usuário online na rede da empresa federada (federada).  <br/> |Usuário interno: local  <br/> Usuário federado: Rota Expressa  <br/> |Internet ou Rota Expressa (depende se for usado o servidor de borda online ou local)  <br/> |[Usuário online de sua rede ingressando em uma conferência hospedada online](call-flow-using-expressroute.md#bk_Figure3) e parte do [servidor de borda local com conferências hospedadas no Office 365](call-flow-using-expressroute.md#bk_Figure5) (para tráfego de mídia). <br/> |Assume que um firewall bloqueia conexões diretas entre clientes, exigindo servidor de borda online. A negociação ICE oferecerá os servidores online (pelo usuário online) e de borda local (pelo usuário local) para conectividade.  <br/> |
 |Ingressar em chamada em conferência por usuário na rede do cliente (conferência agendada pelo usuário online)  <br/> |Usuário local na sua rede e servidor de conferência na nuvem do Office 365.  <br/> |Rota Expressa  <br/> |Rota Expressa  <br/> |[Usuário online de sua rede ingressando em uma conferência hospedada online](call-flow-using-expressroute.md#bk_Figure3) <br/> |Os recursos do servidor para a chamada em conferência são definidos pelo organizador da reunião. Nesse caso, ele foi agendado por um usuário online, portanto, os recursos estão na nuvem do Office 365.  <br/> |

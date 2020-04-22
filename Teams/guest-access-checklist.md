@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d5470d9ec2ec2d22d8f3b66bac09ba6c67b9982f
-ms.sourcegitcommit: 0549714f17f9994cf832a303ec9bc58a537c3a51
+ms.openlocfilehash: 22a0c2a8641203e764d6c490a008525cf71e8d5c
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/25/2020
-ms.locfileid: "42951496"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776946"
 ---
 <a name="microsoft-teams-guest-access-checklist"></a>Lista de verificação de acesso de convidados do Microsoft Teams
 =========================================
@@ -49,7 +49,7 @@ Para habilitar o acesso de convidados, acesse o **Centro de administração do M
 4. Clique em **Salvar**.
 
 > [!TIP]
-> Se você estiver usando as configurações padrão nos Grupos do Azure Active Directory, do SharePoint Online e do Office 365, poderá configurar o acesso de convidado. Nesse caso, você pode ignorar o restante das etapas. Se você não tiver certeza ou se estiver usando as configurações personalizadas para Grupos do AAD, do SharePoint Online ou do Office 365, continue com o restante das etapas nesta lista de verificação.
+> Se você estiver usando as configurações padrão nos grupos do Azure Active Directory, do SharePoint Online e do Microsoft 365, pode ser que você tenha concluído a configuração do acesso de convidado. Nesse caso, você pode ignorar o restante das etapas. Se você não tiver certeza ou se estiver usando configurações personalizadas para grupos do AAD, SharePoint Online ou Microsoft 365, continue com o restante das etapas desta lista de verificação.
 
 ## <a name="step-2-configure-azure-ad-business-to-business-settings"></a>Etapa 2: definir as configurações do Azure Active Directory entre empresas
 
@@ -75,17 +75,17 @@ Estas são as configurações do Azure AD que oferecem suporte ao acesso de conv
       
     Para obter mais informações sobre como controlar quem pode convidar pessoas, confira [Delegar convites para colaboração B2B do Active Directory do Azure](https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations).
 
-## <a name="step-3-configure-office-365-groups"></a>Etapa 3: configurar os Grupos do Office 365
+## <a name="step-3-configure-microsoft-365-groups"></a>Etapa 3: configurar os grupos do Microsoft 365
 
-1. No Centro de administração do Microsoft 365, acesse **Configurações** > **Configurações**, clique em **Serviços** e, em seguida, **Grupos do Office 365**.
+1. No centro de administração do Microsoft 365, vá para**configurações**de **configurações** > , clique em **Serviços**e, em seguida, selecione **grupos do Microsoft 365**.
 
-     ![A captura de tela mostra as configurações dos Grupos do Office 365](media/guest-access-checklist-services-settings.png)
+     ![A captura de tela mostra as configurações de grupos do Microsoft 365](media/guest-access-checklist-services-settings.png)
 2. Verifique se a caixa de seleção **Permitir que os membros do grupo fora da organização acessem o conteúdo do grupo** foi selecionada. Se essa configuração não for selecionada, os convidados não poderão acessar nenhum conteúdo do grupo.
 
-    ![A captura de tela mostra as configurações dos Grupos do Office 365](media/guest-access-checklist-office365.png)
+    ![A captura de tela mostra as configurações de grupos do Microsoft 365](media/guest-access-checklist-office365.png)
 3. Verifique se a caixa de seleção **Permitir que os proprietários do grupo adicionem pessoas de fora da organização aos grupos** foi selecionada. Se essa configuração não for selecionada, os proprietários de grupos não poderão adicionar novos convidados. No mínimo, essa configuração deve estar ativada para oferecer suporte ao acesso de convidados.
 
-Para obter instruções detalhadas sobre como definir essas configurações, confira [Gerenciar o acesso de convidados nos Grupos do Office 365](https://support.office.com/article/manage-guest-access-in-office-365-groups-9de497a9-2f5c-43d6-ae18-767f2e6fe6e0?appver=MOE150) e [Controlar o acesso de convidados nos Grupos do Office 365](Teams-dependencies.md#control-guest-access-in-office-365-groups).
+Para obter instruções detalhadas sobre como definir essas configurações, consulte [gerenciar o acesso de convidados nos grupos do Microsoft 365](https://support.office.com/article/manage-guest-access-in-office-365-groups-9de497a9-2f5c-43d6-ae18-767f2e6fe6e0?appver=MOE150) e [controlar o acesso de convidado em grupos do Microsoft 365](Teams-dependencies.md#control-guest-access-in-microsoft-365-groups).
 
 ## <a name="step-4-configure-sharing-in-office-365"></a>Etapa 4: configurar o compartilhamento no Office 365 
 

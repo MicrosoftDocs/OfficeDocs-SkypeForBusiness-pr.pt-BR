@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6c3813b5d79f1362ff30ff15fa6fd2aff38b25a9
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: 47aef5ceee6daee63683655f167016e4d7ae1cf2
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706891"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776726"
 ---
 # <a name="prepare-your-it-staff-for-microsoft-teams"></a>Preparar sua equipe de ti para o Microsoft Teams
 
@@ -36,7 +36,7 @@ Este artigo faz parte do estágio de Preparação Técnica da sua jornada de atu
 - [Compreendeu a coexistência e interoperabilidade do Skype for Business e do Teams](https://aka.ms/SkypeToTeams-Coexist)
 - [Escolheu sua jornada de atualização](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
-Seus administradores de locatários do Office 365, líderes técnicos e support Desk podem ser levados em conta com uma experiência de usuário de alta qualidade. Isso inclui garantir que sua rede esteja pronta para dar suporte a equipes, configurar equipes para seus usuários e poder solucionar problemas que possam surgir e solucionar problemas que possam surgir.
+Seus administradores da organização do Office 365, líderes técnicos e support Desk podem ser levados em consideração para oferecer uma experiência de usuário de alta qualidade. Isso inclui garantir que sua rede esteja pronta para dar suporte a equipes, configurar equipes para seus usuários e poder solucionar problemas que possam surgir e solucionar problemas que possam surgir.
 
 Compartilhe os recursos a seguir com os membros da equipe de ti e confirme se estão prontos para dar suporte aos usuários antes de começar a atualização para o Microsoft Teams:
 

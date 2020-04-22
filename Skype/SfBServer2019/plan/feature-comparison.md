@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: 'Resumo: os administradores do Skype for Business Server 2019 ou do Skype for Business Online podem usar essas tabelas para compreender quais recursos são compatíveis com os clientes.'
-ms.openlocfilehash: f8b50614d663104e1307b233449ccffc0e26adb5
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 3d56744e9c383e018c5954422d4e1b6be4035b32
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42129484"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779427"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2019"></a>Comparação de recursos do cliente de desktop para o Skype for Business Server 2019
 
@@ -72,7 +72,7 @@ Esta tabela abrange os recursos relacionados ao gerenciamento de contatos de men
 | Pesquise na agenda corporativa                                                             | &#x2714;                                      | &#x2714;                  | &#x2714;         |
 | Pesquise os contatos do Microsoft Outlook                                                             | &#x2714;                                      | &#x2714;                  | &#x2714;         |
 | Gerencie os grupos de contatos                                                                         | &#x2714;                                      | &#x2714;                  | &#x2714;         |
-| Expandir grupos de distribuição e grupos do Office 365                                              | &#x2714;                                      | &#x2714;                  | &#x2714;         |
+| Expandir grupos de distribuição e grupos do Microsoft 365                                              | &#x2714;                                      | &#x2714;                  | &#x2714;         |
 | Pesquise os Grupos de Respostas  <br/> (não disponível no Skype for Business online)                | &#x2714;                                      |                           | &#x2714;         |
 | Exiba o grupo de contatos recentes                                                                 | &#x2714;                                      |                           | &#x2714;         |
 | Exiba o grupo de conversas atuais                                                           | &#x2714;                                      | &#x2714;                  | &#x2714;         |

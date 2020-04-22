@@ -16,13 +16,13 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 0df4fd9e-370b-4b9d-a595-f1199fbc9f81
-description: 'Resumo: Saiba mais sobre o novo Skype for Business e as etapas que você pode executar para preparar seu ambiente e seus usuários para a atualização, se você está usando o Skype for Business Online, o Skype for Business Server 2019, o Skype for Business Server 2015, o Lync Server 2013 ou Lync Server 2010.'
-ms.openlocfilehash: c54465b2f2c6cb7fb8d131b52de27c3f64d0bcc2
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+description: 'Resumo: Saiba mais sobre o novo Skype for Business e as etapas que você pode executar para preparar seu ambiente e seus usuários para a atualização, se você está usando o Skype for Business Online, o Skype for Business Server 2019, o Skype for Business Server 2015, o Lync Server 2013 ou o Lync Server 2010.'
+ms.openlocfilehash: c1fecbdb5a4ec0a19e464a57ee128d2d00ad501f
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42028002"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777746"
 ---
 # <a name="plan-the-skype-for-business-2015-client-experience-for-your-users"></a>Planejar a experiência de cliente 2015 do Skype for Business para seus usuários
  
@@ -44,7 +44,7 @@ Em 12 de maio de 2015, haverá outra atualização mensal do Office que inclui o
 ## <a name="what-client-experience-do-you-want-for-your-users"></a>Qual experiência do cliente você deseja para seus usuários?
 <a name="clientexperience"> </a>
 
-Com o novo cliente Skype for Business, você pode controlar qual experiência de cliente seus usuários receberão, Lync ou Skype for Business. A experiência do cliente padrão depende se você está usando o Lync ou o Skype for Business no local ou online. Se você estiver usando o Skype for Business online (Lync Online) hoje com o Office 365 ProPlus, o Office 365 Business Premium ou o Office 2013, a experiência de cliente do Skype for Business atualizada, inspirada pela aparência do Skype, será a experiência de usuário padrão. Se você estiver usando o Lync Server no local hoje, a experiência do cliente do Lync será o padrão.
+Com o novo cliente Skype for Business, você pode controlar qual experiência de cliente seus usuários receberão, Lync ou Skype for Business. A experiência do cliente padrão depende se você está usando o Lync ou o Skype for Business no local ou online. Se você estiver usando o Skype for Business online (Lync Online) hoje com o Microsoft 365 aplicativos para empresas, o Microsoft 365 Business Standard ou o Office 2013, a experiência atualizada de cliente do Skype for Business, inspirada pela aparência do Skype, será a experiência de usuário padrão. Se você estiver usando o Lync Server no local hoje, a experiência do cliente do Lync será o padrão.
   
 Você pode configurar a experiência do cliente que os usuários recebem usando políticas de cliente. Uma política de cliente é um conjunto de definições de configuração que são aplicadas aos usuários quando eles fazem logon no Lync ou no Skype for Business.
   

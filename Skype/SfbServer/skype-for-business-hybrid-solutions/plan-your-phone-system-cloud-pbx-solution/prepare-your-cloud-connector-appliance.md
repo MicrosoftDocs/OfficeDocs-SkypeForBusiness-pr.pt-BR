@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6eacfa99-9759-4c13-aca3-8992c2ff2710
 description: Saiba mais sobre como preparar seu dispositivo do Cloud Connector para implantação e uso com o sistema de telefonia no Office 365 (Cloud PBX).
-ms.openlocfilehash: 6dbbc7eb1639859f889d6674e9f000507912d35a
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 21943dfd8b86bfeabb4cbd28b501b80a3f2b5c45
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41983836"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779237"
 ---
 # <a name="prepare-your-cloud-connector-appliance"></a>Preparar o dispositivo do Cloud Connector
 
@@ -171,7 +171,7 @@ Ao atualizar o arquivo. ini, considere o seguinte:
 
 - **SiteName:** O valor padrão é **site1**. Você deve atualizá-lo antes de implantar o Cloud Connector, porque ao executar o **Register-CcAppliance** para registrar um dispositivo em um site existente ou novo, o cmdlet usará **SiteName** para determinar qual site será registrado.
 
-     Se você deseja registrar o dispositivo em um novo site, o valor de **SiteName** deve ser exclusivo e diferente dos sites existentes. Se você deseja registrar o dispositivo em um site existente, o valor de **SiteName** no arquivo. ini deve corresponder ao nome definido em sua configuração de locatário do Office 365. Se você estiver copiando um arquivo de configuração de um site para outro, certifique-se de atualizar o valor de **SiteName** para cada site adequadamente.
+     Se você deseja registrar o dispositivo em um novo site, o valor de **SiteName** deve ser exclusivo e diferente dos sites existentes. Se você deseja registrar o dispositivo em um site existente, o valor de **SiteName** no arquivo. ini deve corresponder ao nome definido na sua configuração de organização do Office 365. Se você estiver copiando um arquivo de configuração de um site para outro, certifique-se de atualizar o valor de **SiteName** para cada site adequadamente.
 
 - **ServerName:** O nome do servidor não deve conter o nome do domínio e deve ser limitado a 15 caracteres.
 
@@ -305,11 +305,11 @@ A conta CceService é criada durante a implantação do Skype for Business Cloud
 
 3. Defina seu valor como **habilitado**.
 
-## <a name="set-up-your-office-365-tenant"></a>Configurar seu locatário do Office 365
+## <a name="set-up-your-office-365-organization"></a>Configurar sua organização do Office 365
 
-É necessário um locatário do Office 365 com o Skype for Business Online e o sistema de telefonia do Office 365. Verifique se seu locatário está definido e configurado antes de tentar usar o Cloud Connector.
+É necessária uma organização do Office 365 com o Skype for Business Online e o sistema de telefonia do Office 365. Verifique se seu locatário está definido e configurado antes de tentar usar o Cloud Connector.
 
-Algumas etapas de configuração do Office 365 exigem que você use o PowerShell Remote locatário (TRPS) para configurar o locatário do Office 365. **Isso deve ser instalado no servidor host.** Você pode baixar o módulo do Skype for Business online para PowerShell de: [Skype for Business Online, módulo do Windows PowerShell](https://www.microsoft.com/download/details.aspx?id=39366).
+Algumas etapas de configuração do Office 365 exigem que você use o PowerShell Remote locatário (TRPS) para configurar sua organização do Office 365. **Isso deve ser instalado no servidor host.** Você pode baixar o módulo do Skype for Business online para PowerShell de: [Skype for Business Online, módulo do Windows PowerShell](https://www.microsoft.com/download/details.aspx?id=39366).
 
 Crie uma conta de administrador dedicada do Skype for Business para o gerenciamento online do Cloud Connector, por exemplo,, Cceonlinemanagmentadministrator. Essa conta será usada pelo dispositivo para adicionar ou remover um dispositivo, habilitar ou desabilitar a atualização automática do sistema operacional, habilitar ou desabilitar a atualização binária automática. Defina a senha dessa conta como nunca expirar para que você não precise alterá-la para o serviço sempre que ela expirar.
 

@@ -20,12 +20,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Saiba mais sobre licenças de complemento, recursos e como comprar para os planos Office 365 Enterprise E1 e E3. '
-ms.openlocfilehash: 18a15c59b93fa0f426c780028b0029dd909abb2a
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 0cc29a9cc353f9d0068aeb65b10179f4adfdc804
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029362"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780490"
 ---
 # <a name="office-365-enterprise-e1-and-e3"></a>Office 365 Enterprise E1 e E3
 
@@ -43,7 +43,7 @@ Se você já comprou o [Office 365 Enterprise E1](https://products.office.com/bu
 ## <a name="e1-and-e3-customers-how-to-see-prices-and-buy"></a>Clientes dos planos E1 e E3: como ver preços e comprar
 <a name="bkmk_buypremium"> </a>
 
-1. Entre no centro de administração do Microsoft 365.
+1. Acesse o Centro de administração do Microsoft 365.
 
 2. Acesse**assinaturas complementares** de**Serviços** > de compra de **cobrança** > 
 
@@ -67,7 +67,7 @@ O plano E3 faz parte de seu Action Pack. Comprar os complementos doSistema de Te
 
 Em algumas situações, você não verá a opção de comprar Complementos do Microsoft Teams no centro de administração do Microsoft 365:
 
-- **Você comprou o Office 365 Business Premium por meio do GoDaddy**. Nesse caso, você não pode comprar Complementos do Microsoft Teams. Você precisa mudar para o plano E3 e, em seguida, pode comprá-lo. [Contatar o suporte do Office 365 para empresas - Ajuda para Administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
+- **Você comprou o Microsoft 365 Business Standard por meio do GoDaddy**. Nesse caso, você não pode comprar Complementos do Microsoft Teams. Você precisa mudar para o plano E3 e, em seguida, pode comprá-lo. [Entre em contato com o suporte de produtos para empresas – ajuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
 - **You have a monthly commitment instead of an annual commitment**. In some cases, customers who have a monthly commitment can't buy the add-ons (this is different from the payment method, which can be monthly). This is a known issue that we are fixing. [Contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 

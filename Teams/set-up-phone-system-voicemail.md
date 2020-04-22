@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Saiba como configurar o correio de voz na nuvem para seus usuários. '
-ms.openlocfilehash: dc771847db8dca52d22b4c1db1b8ae585b99f8e4
-ms.sourcegitcommit: 2d44f1a673316daf0aca3149571b24a63ca72772
+ms.openlocfilehash: 4f85e8db6f50becb4ae2406e84621c08507e9737
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/11/2020
-ms.locfileid: "43227495"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779727"
 ---
 # <a name="set-up-cloud-voicemail"></a>Configurar a caixa postal na nuvem
 
@@ -71,7 +71,7 @@ As informações a seguir tratam da configuração do correio de voz em nuvem pa
 
 A transcrição do correio de voz é habilitada por padrão e o mascaramento de obscenidades está desativado por padrão para todas as organizações e usuários; no entanto, você pode controlá-los usando os cmdlets [Set-CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798310.aspx) e [Grant-CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798311.aspx).
 
-As mensagens de correio de voz recebidas pelos usuários em sua organização são transcritas na região onde o seu locatário do Office 365 está hospedado. A região em que seu locatário está hospedado pode não ser a mesma região em que o usuário que está recebendo a mensagem de correio de voz está localizado. Para exibir a região em que seu locatário está hospedado, vá para a página de [perfil da organização](https://go.microsoft.com/fwlink/p/?linkid=2067339) e clique em **Exibir detalhes** ao lado de **local de dados**.
+As mensagens de correio de voz recebidas pelos usuários em sua organização são transcritas na região em que a sua organização do Office 365 está hospedada. A região em que seu locatário está hospedado pode não ser a mesma região em que o usuário que está recebendo a mensagem de correio de voz está localizado. Para exibir a região em que seu locatário está hospedado, vá para a página de [perfil da organização](https://go.microsoft.com/fwlink/p/?linkid=2067339) e clique em **Exibir detalhes** ao lado de **local de dados**.
 
 > [!IMPORTANT]
 > Você não pode criar uma nova instância de política para transcrição e o mascaramento de obscenidades de transcrição usando o cmdlet **New-CsOnlineVoiceMailPolicy** e não pode remover uma instância de política existente usando o cmdlet **Remove-CsOnlineVoiceMailPolicy** .

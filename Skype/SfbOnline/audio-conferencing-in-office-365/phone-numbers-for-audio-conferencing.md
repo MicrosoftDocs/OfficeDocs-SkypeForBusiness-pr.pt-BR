@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: Saiba quais países e regiões têm números de teleconferência discada e como eles são atribuídos automaticamente.
-ms.openlocfilehash: 19f2cb6f0c03ecdbc6890c7c1c24daceb508377a
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: fa99e9225f55919b58bf6d9b4648a740b21fcb34
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41986506"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777436"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-skype-for-business-online"></a>Números de telefone para Audioconferência no Skype for Business Online
 
@@ -49,22 +49,22 @@ When a Skype for Business Online user schedules a meeting in Outlook or Outlook 
   
 Outros números de discagem podem ser vistos clicando no link **Localizar um número local** no convite da reunião.
   
-## <a name="dial-in-phone-numbers-set-on-an-audio-conferencing-bridge"></a>Números de telefone de discagem definidos em uma ponte de conferência de áudio
+## <a name="dial-in-phone-numbers-set-on-an-audio-conferencing-bridge"></a>Números de telefone de discagem definidos em uma ponte de audioconferência
 
 There are two types of audio conferencing phone numbers that can be assigned to your conferencing bridge: **Shared** and **Dedicated**. Both types of these numbers can be used by any caller to join audio meetings that are being held in your organization.
   
  **Números de telefone dedicados** são os que estão disponíveis apenas para usuários em sua organização. Você pode alterar os idiomas usados quando alguém liga para um desses números.
   
- **Números de telefone compartilhados** são os que podem ser compartilhados com outras organizações do Office 365. Não é possível alterar os idiomas usados quando alguém liga para um desses números.
+ Os **números de telefone compartilhados** são os números de telefone que podem ser compartilhados com outros serviços do Microsoft 365 ou do Office 365s. Você não pode alterar os idiomas que são usados quando alguém liga para um desses números.
   
 While the default audio conferencing number that is assigned to an organizer is only included in the meeting invite, a caller can use any of the phone numbers that are assigned to your conferencing bridge to join a meeting. The list of phone numbers that can be used to join a meeting is available using the **Find a local number** link that is included on every meeting invite.
   
-## <a name="automatically-assigned-audio-conferencing-phone-numbers"></a>Números de telefone de conferência de áudio atribuídos automaticamente
+## <a name="automatically-assigned-audio-conferencing-phone-numbers"></a>Atribuir automaticamente números telefônicos de audioconferência
 
 Shared audio conferencing phone numbers are automatically assigned to organizations when they're enabled for audio conferencing. When the phone numbers are assigned, a phone number is assigned as the default phone number of the conferencing bridge. The phone number assigned as the default number of the bridge will be one from the country/region of the organization.
   
 > [!NOTE]
-> O local do país ou região da sua organização pode ser encontrado conectando-se ao centro de administração do Microsoft 365 e olhando em **perfil da organização**. 
+> Para encontrar a localização do país ou região de sua organização, entre no Centro de administração do Microsoft 365 e confira **Perfil da Organização**. 
   
 > [!CAUTION]
 > Devido à disponibilidade limitada de números de telefone de chamada na Venezuela, na Indonésia, no Vietnã e nos Emirados Árabes Unidos (EAU), as organizações desses países/regiões não terão um número de telefone de conferência de áudio atribuído automaticamente. Números de chamada gratuita desses locais estão disponíveis dependendo do estoque disponível. 

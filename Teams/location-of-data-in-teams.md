@@ -16,16 +16,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3908100a0270f9e72835e189a220ece6e54a27bd
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 11d95858c39a2d555a4b1a7433b0a7dce0388293
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836531"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780260"
 ---
 # <a name="location-of-data-in-microsoft-teams"></a>Localização de dados no Microsoft Teams
 
-Os dados no Microsoft Teams residem na região geográfica associada ao seu locatário do Office 365. Atualmente, o Teams é compatível com a Austrália, Canadá, França, Alemanha, Índia, Japão, África do Sul, Coréia do Sul, Suíça (que inclui o Liechtenstein), os Emirados Árabes Unidos, Reino Unido, Américas, Ásia-Pacífico e territórios da EMEA. 
+Os dados no Teams residem na região geográfica associada à sua organização do Office 365. Atualmente, o Teams é compatível com a Austrália, Canadá, França, Alemanha, Índia, Japão, África do Sul, Coréia do Sul, Suíça (que inclui o Liechtenstein), os Emirados Árabes Unidos, Reino Unido, Américas, Ásia-Pacífico e territórios da EMEA. 
 
 > [!IMPORTANT]
 > Atualmente, o Teams oferece residências de dados na Austrália, no Canadá, na França, na Índia, no Japão, nos Emirados Árabes Unidos, no Reino Unido, na Coréia do Sul, na África do Sul e na Suíça (que inclui o Liechtenstein) apenas para novos locatários.
@@ -47,7 +47,7 @@ Confira a [sessão de debates do Ignite na arquitetura do Microsoft Teams](https
 
 ### <a name="core-teams-customer-data"></a>Dados principais do cliente das equipes
 
-Se o seu locatário estiver provisionado na Austrália, no Canadá, na União Européia, na França, na Alemanha, na Índia, no Japão, na África do Sul, na Coréia do Sul (que inclui o Liechtenstein), os Emirados Árabes Unidos, o Reino Unido ou os Estados Unidos, a Microsoft armazena os dados do cliente a seguir em repouso somente nesse local:
+Se o seu locatário estiver provisionado na Austrália, no Canadá, na União Européia, na França, na Alemanha, na Índia, no Japão, na África do Sul, na Coréia do Sul (que inclui o Liechtenstein), os Emirados Árabes Unidos, o Reino Unido ou os Estados Unidos, a Microsoft armazena os seguintes dados do cliente em repouso somente nesse local:
 
 - Chats de equipe, conversas de canal e de equipe, imagens, mensagens de correio de voz e contatos
 - Conteúdo do site do SharePoint Online e os arquivos armazenados nesse site

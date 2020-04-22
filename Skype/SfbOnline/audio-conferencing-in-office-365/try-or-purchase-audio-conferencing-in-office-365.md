@@ -1,5 +1,5 @@
 ---
-title: Experimente ou adquira Audio Conferência no Office 365 para Skype for Business Online
+title: Experimentar ou comprar videoconferências no Microsoft 365 ou no Office 365 para o Skype for Business Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,14 +21,14 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Veja como experimentar ou adquirir licenças de Audioconferência (Conferência PSTN) para o Office 365 para configurar chamadas de conferência em que as pessoas podem discar. '
-ms.openlocfilehash: d2ae202cbed7c59876ea04c9d3a5760d6495898d
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: d5afdc88b4d3c891b66ef3d4fce3860a648db488
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42010954"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776766"
 ---
-# <a name="try-or-purchase-audio-conferencing-in-office-365-for-skype-for-business-online"></a>Experimente ou adquira Audio Conferência no Office 365 para Skype for Business Online
+# <a name="try-or-purchase-audio-conferencing-in-microsoft-365-or-office-365-for-skype-for-business-online"></a>Experimentar ou comprar videoconferências no Microsoft 365 ou no Office 365 para o Skype for Business Online
 
 > [!Note]
 > Para obter informações sobre a Audioconferência em Microsoft Teams, confira [Experimente ou adquira Audioconferência no Office 365 para Skype para Microsoft Teams](/MicrosoftTeams/try-or-purchase-audio-conferencing-in-office-365-for-teams).

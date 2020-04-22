@@ -1,5 +1,5 @@
 ---
-title: Licença do Office 365 para o Microsoft Teams
+title: Microsoft 365 e licenciamento do Office 365 para Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -19,24 +19,24 @@ f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d0a6c14c3fba7e5a303200499c4d158edfb56473
-ms.sourcegitcommit: f3390e27bb63b66d1c4fb4f8afbda6b814fbbb5b
+ms.openlocfilehash: 5b3dcb5b7859c491470c274b5700eae32b2ac274
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43170359"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778567"
 ---
-<a name="office-365-licensing-for-microsoft-teams"></a>Licença do Office 365 para o Microsoft Teams
-========================================
+<a name="microsoft-365-and-office-365-licensing-for-microsoft-teams"></a>Microsoft 365 e licenciamento do Office 365 para Microsoft Teams
+==========================================================
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-As assinaturas do Office 365 a seguir permitem que usuários do teams.
+As seguintes assinaturas do Microsoft 365 e do Office 365 permitem que usuários do teams.
 
 |Planos para pequenas empresas  |Planos empresariais  |Planos educacionais  |Planos de desenvolvedor |
 |---------|---------|---------|---------|
-|Office 365 Business Essentials     |Office 365 Enterprise E1  |Office 365 Education |Desenvolvedor do Office 365     |
-|Office 365 Business Premium     |Office 365 Enterprise E3         |Office 365 Education Plus         |      |
+|Microsoft 365 Business Basic     |Office 365 Enterprise E1  |Office 365 Education |Desenvolvedor do Office 365     |
+|Microsoft 365 Business Standard     |Office 365 Enterprise E3         |Office 365 Education Plus         |      |
 |Microsoft 365 para empresas     |Office 365 Enterprise E4 (desativado)         |Office 365 Education E3 (desativado)         |  |
 |     |Office 365 Enterprise E5         |Office 365 Education E5  | 
 |     |Office 365 Enterprise F1 |    |     | 
@@ -52,7 +52,7 @@ Para obter mais informações sobre como obter o Microsoft Teams, confira [como 
 > [!NOTE]
 > Se o Skype for Business Online estiver listado em aplicativos para a licença selecionada, não o remova. Se ele estiver listado e for removido, a configuração do usuário do Teams não será concluída com êxito.
         
-Em termos de funcionalidades essenciais do Teams, não há diferenças entre as assinaturas do Office 365. A disponibilidade de recursos de conformidade depende do nível correto da assinatura. Para saber mais, leia [Visão geral de segurança e conformidade no Microsoft Teams](security-compliance-overview.md). Para obter uma lista detalhada dos recursos disponíveis em cada assinatura, consulte a [Descrição do serviço de plataforma do Office 365](https://technet.microsoft.com/library/office-365-platform-service-description.aspx).
+Em termos de funcionalidades essenciais do Teams, não há diferenças entre as assinaturas. A disponibilidade de recursos de conformidade depende do nível correto da assinatura. Para saber mais, leia [Visão geral de segurança e conformidade no Microsoft Teams](security-compliance-overview.md). Para obter uma lista detalhada dos recursos disponíveis em cada assinatura, consulte a [Descrição do serviço de plataforma do Office 365](https://technet.microsoft.com/library/office-365-platform-service-description.aspx).
 
 **Recursos de voz na nuvem**: para videoconferência, sua organização precisará comprar e atribuir uma licença de audioconferência para cada usuário que configurará as reuniões discadas. Para planos de chamada, cada usuário precisará de um sistema telefônico e um plano de chamada internacional ou doméstico e internacional. Para saber mais, consulte [Licenciamento de Complementos do Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 

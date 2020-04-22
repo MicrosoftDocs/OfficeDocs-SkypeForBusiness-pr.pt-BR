@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: afd990c0a49b1f61bb5be717cc3bf2ad7bc70935
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 7fd782df443504a20a6010f07ac15b9078e570a7
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836183"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780200"
 ---
 # <a name="plan-for-governance-in-teams"></a>Plano de governança no Teams
 
@@ -45,7 +45,7 @@ Sua organização pode exigir que você implemente controles estritos sobre como
 > [!TIP]
 > Use a tabela a seguir para capturar os requisitos da sua organização.
 
-|Potencial |Detalhes |Azure AD Premium <br> licença necessária |Decidiu |
+|Funcionalidade |Detalhes |Azure AD Premium <br> licença necessária |Decidiu |
 |---------|---------|---------|---------|
 |Política de nomenclatura de equipe | Use palavras bloqueadas personalizadas baseadas em sufixo de prefixo. |P1 |A ser determinado |
 |Classificação da equipe |Atribuir classificações ao Teams. |P1 |A ser determinado |
@@ -57,7 +57,7 @@ Sua organização pode exigir que você implemente controles estritos sobre como
 > Para ajudá-lo a planejar com antecedência, [saiba mais sobre como definir essas políticas e quais são as licenças necessárias](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets#template-settings).
 > 
 > [!NOTE]
-> Limitar a criação de grupo e equipe pode reduzir a produtividade dos usuários, pois muitos serviços do Office 365 exigem que os grupos sejam criados para o serviço funcionar. Para obter informações adicionais, navegue até e expanda [por que controlar quem cria grupos do Office 365](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618#why).
+> Limitar a criação de grupo e equipe pode reduzir a produtividade dos usuários, pois muitos serviços do Office 365 exigem que os grupos sejam criados para o serviço funcionar. Para obter informações adicionais, navegue até e expanda [por que controlar quem cria os grupos do Microsoft 365](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618#why).
 
 
 #### <a name="additional-information"></a>Informações adicionais
@@ -66,14 +66,14 @@ Depois de determinar suas necessidades, você poderá implementá-las usando con
 
 - [Cmdlets do Azure Active Directory para definir configurações de grupo](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets).
 
-- [Impor uma política de nomenclatura para grupos do Office 365 no Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-naming-policy).
+- [Impor uma política de nomenclatura para grupos do Microsoft 365 no Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-naming-policy).
 
-- [Política de nomenclatura de grupos do Office 365](https://support.office.com/article/office-365-groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552).
+- [Política de nomenclatura de grupos do Microsoft 365](https://support.office.com/article/office-365-groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552).
 
 
 ## <a name="group-and-team-expiration-retention-and-archiving"></a>Expiração de grupo e de equipe, retenção e arquivamento
 
-Sua organização pode ter requisitos adicionais para a configuração de políticas para expiração, retenção e arquivamento de equipes e dados de equipes (mensagens de canal e arquivos de canal). Você pode configurar políticas de expiração de grupo para gerenciar automaticamente o ciclo de vida das políticas de grupo e retenção para preservar ou excluir as informações conforme necessário, e você pode arquivar equipes (definidas como modo somente leitura) para preservar uma exibição point-in-time de uma equipe Não está mais ativo.
+Sua organização pode ter requisitos adicionais para a configuração de políticas para expiração, retenção e arquivamento de equipes e dados de equipes (mensagens de canal e arquivos de canal). Você pode configurar políticas de expiração de grupo para gerenciar automaticamente o ciclo de vida das políticas de grupo e retenção para preservar ou excluir as informações conforme necessário, e você pode arquivar equipes (definidas como modo somente leitura) para preservar uma exibição point-in-time de uma equipe que não está mais ativa.
 
 |           |            |
 |-----------|------------|
@@ -83,9 +83,9 @@ Sua organização pode ter requisitos adicionais para a configuração de polít
 > [!TIP]
 > Use a tabela a seguir para capturar os requisitos da sua organização.
 
-|Potencial |Detalhes |É necessária uma licença do Azure AD Premium |Decidiu |
+|Funcionalidade |Detalhes |É necessária uma licença do Azure AD Premium |Decidiu |
 |---------|---------|---------|---------|
-|Política de expiração |Gerenciar o ciclo de vida dos grupos do Office 365 definindo uma política de expiração. |P1 |A ser determinado|
+|Política de expiração |Gerencie o ciclo de vida dos grupos do Microsoft 365 definindo uma política de expiração. |P1 |A ser determinado|
 |Política de retenção |Manter ou excluir dados de um período de tempo específico definindo as políticas de retenção para equipes no centro de conformidade do & de segurança. **Observação**: o uso deste recurso requer licenciamento do Office 365 Enterprise E3 ou superior. |Não |A ser determinado |
 |Arquivar e restaurar |Arquive uma equipe quando ela não estiver mais ativa, mas você quiser mantê-la para referência ou reativar no futuro. |Não |A ser determinado |
 
@@ -96,7 +96,7 @@ Sua organização pode ter requisitos adicionais para a configuração de polít
 
 Para obter orientação técnica sobre como implementar essas configurações, consulte:
 
-- [Configurar o vencimento dos grupos do Office 365](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-lifecycle).
+- [Configurar o Microsoft 365 para expirar grupos](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-lifecycle).
 
 - [Configurar as políticas de retenção do teams](retention-policies.md).
 
@@ -105,7 +105,7 @@ Para obter orientação técnica sobre como implementar essas configurações, c
 
 ## <a name="teams-feature-management"></a>Gerenciamento de recursos do teams
 
-Outro aspecto importante do gerenciamento de controle e ciclo de vida para equipes é a capacidade de controlar a quais recursos seus usuários terão acesso. Você pode gerenciar recursos de mensagens, reuniões e chamadas, seja no nível do locatário do Office 365 ou por usuário. 
+Outro aspecto importante do gerenciamento de controle e ciclo de vida para equipes é a capacidade de controlar a quais recursos seus usuários terão acesso. Você pode gerenciar recursos de mensagens, reuniões e chamadas no nível da organização do Office 365 ou por usuário. 
 
 
 |         |         |

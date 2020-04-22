@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d1dfd82cc10f90616dcdd557e9d1d70f36a9ae1f
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 2a8c154a0e3f1366327b37b22531541fde288db2
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837811"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780480"
 ---
 # <a name="governance-quick-start-for-microsoft-teams"></a>Início rápido de governança no Microsoft Teams
 
@@ -36,7 +36,7 @@ As atividades a seguir ocorrerão simultaneamente, e podem envolver toda a sua e
 
 Para saber mais, leia [plano de governança no Teams](plan-teams-governance.md) e [planeje o gerenciamento do ciclo de vida do Microsoft Teams](plan-teams-lifecycle.md).
 
-## <a name="an-icon-representing-a-decision-pointmediateams-adoption-decision-iconpngdecisions"></a>![Um ícone representando um ponto de decisão](media/teams-adoption-decision-icon.png)Relacionadas
+## <a name="an-icon-representing-a-decision-pointdecisions"></a>![Um ícone representando um ponto de decisão](media/teams-adoption-decision-icon.png)Relacionadas
 
 Faça as seguintes decisões (neste ponto, estas decisões se aplicam apenas à fase 2):
 
@@ -62,7 +62,7 @@ A experiência de reunião do teams é de alta qualidade, compatível com vídeo
 
 ### <a name="decision-6--data-security"></a>Decisão 6: segurança de dados
 
-Em preparação para a sua ampla implantação, você pode optar por usar rótulos de segurança para classificar os tipos de equipe em seu ambiente. Para os fins deste experimento, recomendamos que você faça referência ao [plano de governança no Teams](plan-teams-governance.md) e assegure-se de que uma política de retenção básica tenha sido definida nos dados do teams na sua organização do Office 365. Talvez seja necessário coordenar esse trabalho com sua equipe técnica, porque é necessário ter direitos de administrador do Office 365 para concluir esse trabalho.
+Em preparação para a sua ampla implantação, você pode optar por usar rótulos de segurança para classificar os tipos de equipe em seu ambiente. Para os fins deste experimento, recomendamos que você faça referência ao [plano de governança no Teams](plan-teams-governance.md) e assegure-se de que uma política de retenção básica tenha sido definida nos dados do teams no Microsoft 365 ou no Office 365. Talvez seja necessário coordenar esse trabalho com sua equipe técnica, porque é necessário ter direitos de administrador do Office 365 para concluir esse trabalho.
 
 ### <a name="decision-7-length-of-your-experiment"></a>Decisão 7: duração do seu experimento
 

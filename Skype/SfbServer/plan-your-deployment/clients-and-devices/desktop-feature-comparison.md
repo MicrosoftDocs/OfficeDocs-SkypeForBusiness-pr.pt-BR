@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: 'Resumo: os administradores do Skype for Business Server 2015 ou do Skype for Business Online podem usar essas tabelas para compreender quais recursos são compatíveis com os clientes.'
-ms.openlocfilehash: 36583ab342daa68f87cffb8600fa54c1ce74d089
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c07955758f86e31eb947a99ce8ba0e8dc7a44b30
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42013494"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777796"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2015"></a>Comparação de recursos do cliente de desktop para o Skype for Business Server 2015
 
@@ -77,7 +77,7 @@ Esta tabela abrange os recursos relacionados ao gerenciamento de contatos de men
 |Pesquise na agenda corporativa |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |Pesquise os contatos do Microsoft Outlook |&#x2714;|&#x2714;|&#x2714;||&#x2714;|&#x2714;|&#x2714;||&#x2714;|
 |Gerencie os grupos de contatos |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;||&#x2714;|&#x2714;|
-|Expandir grupos de distribuição e grupos do Office 365 |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|||
+|Expandir grupos de distribuição e grupos do Microsoft 365 |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|||
 |Pesquise os Grupos de Respostas  <br/> (não disponível no Skype for Business online) |&#x2714;||&#x2714;||&#x2714;|&#x2714;||||
 |Exiba o grupo de contatos recentes |&#x2714;||&#x2714;||&#x2714;|&#x2714;||||
 |Exiba o grupo de conversas atuais |&#x2714;|&#x2714;|&#x2714;||&#x2714;|&#x2714;|&#x2714;|||

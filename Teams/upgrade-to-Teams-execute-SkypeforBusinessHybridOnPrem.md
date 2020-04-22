@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 24ccbaa0e7f43cdf1ccc816a3839547793c65167
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: ac5045df6462be28d7f13e093695376ea612e6cd
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139620"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780150"
 ---
 # <a name="upgrade-from-skype-for-business-on-premises-to-teams"></a>Atualize o Skype for Business no local para o Microsoft Teams
 
@@ -42,7 +42,7 @@ Este artigo faz parte do estágio de implantação e implementação da sua jorn
 -   [Preparou sua organização](https://aka.ms/SkypeToTeams-UserReadiness)
 -   [Conduziu um piloto](https://aka.ms/SkypeToTeams-Pilot)
 
-Se você implantou o Skype for Business Server ou o Microsoft Lync local e sua organização quer atualizar para o Microsoft Teams, siga as orientações deste artigo. Você precisa configurar a conectividade híbrida com o seu locatário do Office 365 e determinar os requisitos de coexistência se estiver movendo os usuários para o Teams em fases. 
+Se você implantou o Skype for Business Server ou o Microsoft Lync local e sua organização quer atualizar para o Microsoft Teams, siga as orientações deste artigo. Você precisa configurar a conectividade híbrida com sua organização do Office 365 e determinar os requisitos de coexistência se estiver movendo os usuários para o Teams em fases. 
 
 > [!IMPORTANT]
 > O Skype for Business Online será desativado em 31 de julho de 2021, e depois disso não estará mais acessível nem terá suporte. Para maximizar a realização dos benefícios e garantir que sua organização tenha tempo adequado para implementar a atualização, recomendamos que você comece hoje sua jornada para o Microsoft Teams. Lembre-se de que uma atualização bem-sucedida alinha a prontidão técnica e do usuário, portanto, não deixe de aproveitar as diretrizes contidas ao navegar na jornada para o Microsoft Teams.

@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: abe848e21ed245230edc1ebfbfd038af9eec9175
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 16e02d3a1948ece53fbb51189880bb3dbd737b23
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139310"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778737"
 ---
 <a name="environmental-discovery-for-a-microsoft-teams-rollout"></a>Descoberta ambiental para uma implementação do Microsoft Teams
 ===================================================
@@ -36,7 +36,7 @@ Você executa uma descoberta detalhada do seu ambiente para compreender melhor s
 
 O questionário de exemplo a seguir orienta você por um conjunto de perguntas para confirmar se a sua organização está pronta para a distribuição bem-sucedida da conferência de áudio e do sistema telefônico com recursos de planos de chamada no Teams.
 
-Todas as questões relacionadas à sua infraestrutura de colaboração existente e ao locatário do Office 365, à rede, a pontos de extremidade, às operações e à adoção e à preparação são incluídas como parte do questionário de descoberta ambiental.
+Todas as questões relacionadas à sua infraestrutura de colaboração existente e à organização do Office 365, à rede, a pontos de extremidade, às operações e à adoção e à preparação são incluídas como parte do questionário de descoberta ambiental.
 
 O questionário é dividido em várias seções para confirmar a preparação da sua organização para a implantação de suas equipes em várias áreas principais. Trabalhe com sua equipe de projeto para fornecer as informações solicitadas com o máximo de detalhes possível para facilitar suas atividades de planejamento.
 
@@ -67,16 +67,16 @@ Capture informações detalhadas sobre os principais participantes do projeto de
 > | Líder da equipe de vídeo | | | |
 > | Leads unitários comerciais | | | |
 
-<a name="office-365-tenant-details"></a>Detalhes do locatário do Office 365
+<a name="office-365-organization-details"></a>Detalhes da organização do Office 365
 ---
 
-É altamente recomendável que você tenha um locatário ativo do Office 365 enquanto trabalha com este questionário. Se você ainda não ativou ou configurou um locatário do Office 365, consulte [planejar a configuração do Office 365 para empresas](https://support.office.com/article/plan-your-setup-of-office-365-for-business-eb926624-018b-4486-bf11-5fba6ee4d645).
+É altamente recomendável que você tenha uma organização ativa do Office 365 enquanto trabalha com este questionário. Se você ainda não ativou ou configurou uma organização do Office 365, confira [planejar a configuração do Office 365 para empresas](https://support.office.com/article/plan-your-setup-of-office-365-for-business-eb926624-018b-4486-bf11-5fba6ee4d645).
 
-Use a tabela a seguir para capturar informações sobre o locatário do Office 365.
+Use a tabela a seguir para capturar informações sobre a organização do Office 365.
 
 > | Pergunta | Resposta | Comentários |
 > |---|---|---|
-> | Observe o locatário do Office 365 de produção <br>nome e ID na coluna de resposta <br/>Se você tiver mais de um locatário <br>associados à sua organização, <br>Anote todas as IDs. | Nome do locatário: <br/>ID do locatário:| |
+> | Observe a organização do Office 365 em produção <br>nome e ID na coluna de resposta <br/>Se você tiver mais de um locatário <br>associados à sua organização, <br>Anote todas as IDs. | Nome do locatário: <br/>ID do locatário:| |
 > | Em quais regiões os locatários foram implantados?| | |
 > | São estes locatários do Office 365 multilocatário ou <br>Dedicar? | <input type="checkbox">Multilocatário<br/> <input type="checkbox">Dedicar | |
 > | Quais produtos Microsoft Online estão em uso no momento? <br/>Observe o número de usuários habilitados para cada <br>serviço na coluna comentários. | <input type="checkbox">Microsoft Teams <br/> <input type="checkbox">Skype for Business <br>&nbsp; &nbsp; &nbsp;Online <br/> <input type="checkbox">Exchange Online <br/> <input type="checkbox">SharePoint Online <br/> <input type="checkbox">OneDrive for Business <br/> <input type="checkbox">Yammer <br/> <input type="checkbox">Demais| |
@@ -115,7 +115,7 @@ Se aplicável, capture os detalhes de sua implantação de equipes usando a tabe
 > | Pergunta | Resposta | Comentários |
 > |---|---|---|
 > | Que tipos de usuários estão habilitados para o Microsoft Teams? | <input type="checkbox">Todos os usuários da organização <br/> <input type="checkbox">Usuários/grupos de usuários específicos <br>&nbsp;&nbsp; (Especificar na coluna &nbsp;comentários) ||
-> | Quais recursos e modalidades de equipe estão em uso? | <input type="checkbox">Conversas baseadas em canais <br/> <input type="checkbox">Chat privado <br/> <input type="checkbox">Acesso de convidado <br/> <input type="checkbox">Reuniões de canal <br/> <input type="checkbox">Reuniões privadas <br/> <input type="checkbox">Chamadas privadas <br/> <input type="checkbox">Canal ad-hoc Meetup <br/> <input type="checkbox">Vídeos em reuniões <br/> <input type="checkbox">Compartilhamento de tela em reuniões <br/> <input type="checkbox">Conferência de áudio <br/><input type="checkbox">Aplicativos (aplicativos)<br> &nbsp;&nbsp; &nbsp; Guias <input type="checkbox"> de<br>&nbsp;&nbsp; Bots &nbsp; <input type="checkbox"> <br>&nbsp;&nbsp; &nbsp; <input type="checkbox"><br><input type="checkbox">Integração personalizada do armazenamento em nuvem <br>&nbsp;&nbsp; (Caixa, Dropbox, Sharefile, Google &nbsp; Drive) <br/> <input type="checkbox">Integração de email de canal <br/> <input type="checkbox">Outro (especificar na coluna comentários.) | |
+> | Quais recursos e modalidades de equipe estão em uso? | <input type="checkbox">Conversas baseadas em canais <br/> <input type="checkbox">Chat privado <br/> <input type="checkbox">Acesso de convidado <br/> <input type="checkbox">Reuniões de canal <br/> <input type="checkbox">Reuniões privadas <br/> <input type="checkbox">Chamadas privadas <br/> <input type="checkbox">Canal ad-hoc Meetup <br/> <input type="checkbox">Vídeos em reuniões <br/> <input type="checkbox">Compartilhamento de tela em reuniões <br/> <input type="checkbox">Conferência de áudio <br/><input type="checkbox">Aplicativos (aplicativos)<br> &nbsp;&nbsp; &nbsp; Guias <input type="checkbox"> de<br>&nbsp;&nbsp; Bots &nbsp; <input type="checkbox"> <br>&nbsp;&nbsp; &nbsp; <input type="checkbox"><br><input type="checkbox">Integração personalizada do armazenamento em nuvem <br>&nbsp;&nbsp; (Dropbox, Box, Sharefile, Google Drive, &nbsp; Egnyte) <br/> <input type="checkbox">Integração de email de canal <br/> <input type="checkbox">Outro (especificar na coluna comentários.) | |
 > | Quais aplicativos você implantou para o Microsoft Teams? | | |
 > | Você bloqueou especificamente alguma funcionalidade do Microsoft Teams? <br/>Em caso afirmativo, observe os detalhes na coluna comentários. | <input type="checkbox">Sim <br/> <input type="checkbox">Não ||
 > | Quais clientes Microsoft Teams estão em uso? | <input type="checkbox">Pela <br/> <input type="checkbox">Windows <br/> <input type="checkbox">Macintosh <br/> <input type="checkbox">Linux <br/>  <input type="checkbox">SS <br/> <input type="checkbox">Android <br/> <input type="checkbox">Windows Mobile | |

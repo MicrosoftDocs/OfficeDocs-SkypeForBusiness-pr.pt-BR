@@ -1,5 +1,5 @@
 ---
-title: Código de tratamento de reclamações para o Reino Unido -Planos de chamada do Office 365
+title: Código de tratamento de reclamações para o Reino Unido -Planos de chamada da Microsoft 365
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -23,16 +23,16 @@ ms.custom:
 - seo-marvel-mar2020
 hideEdit: true
 description: Faça uma reclamação para os serviços de chamadas do Skype for Business (chamadas PSTN no Reino Unido), linhas do tempo para respostas e resolução de litígios para reclamações não resolvidas.
-ms.openlocfilehash: 6bebf983d19461485f7f381c300fc6e5b3611b6b
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 75ee19a237f669bf52ce354f325275f859180dd0
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137281"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780270"
 ---
-# <a name="calling-plans-in-office-365---complaint-handling-code-for-the-united-kingdom-uk"></a>Plano de Chamadas no Office 365 - Código de tratamento de reclamação no Reino Unido (RU)
+# <a name="calling-plans-in-microsoft-365---complaint-handling-code-for-the-united-kingdom-uk"></a>Planos de chamada no Microsoft 365 – código de tratamento de reclamações para o Reino Unido (Reino Unido)
 
-Esse código aplica-se a clientes de pequenas empresas (organizações com 10 funcionários ou menos) no Reino Unido (Reino Unido) em relação ao serviço de plano de chamadas do Office 365 (o "serviço"), de acordo com as regulamentações de comunicação do Reino Unido. Outros serviços do Skype for Business são regidos por seu contrato de serviço com a Microsoft e outros termos aplicáveis ao uso do serviço específico.
+Esse código se aplica a clientes de pequenas empresas (organizações com 10 funcionários ou menos) no Reino Unido (Reino Unido) em relação ao serviço de plano de chamadas do 365 da Microsoft (o "serviço"), de acordo com as regulamentações de comunicação do Reino Unido. Outros serviços do Skype for Business são regidos por seu contrato de serviço com a Microsoft e outros termos aplicáveis ao uso do serviço específico.
 
 ## <a name="how-to-make-a-complaint"></a>Como fazer uma reclamação
 

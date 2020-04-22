@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: A ajuda de políticas de cliente determina os recursos do Skype for Business Online que são disponibilizados para os usuários; por exemplo, você pode dar a alguns usuários o direito de transferir arquivos enquanto nega este direito a outros usuários.
-ms.openlocfilehash: 4c3434a1649c7bce01557ab97c6c6d9f977c0ab4
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.openlocfilehash: 43b51b800b3107410c64bd2605b5a6a7622fe65a
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41887900"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776286"
 ---
 # <a name="set-up-client-policies-for-your-organization"></a>Configurar políticas de clientes para sua organização
 
@@ -55,7 +55,7 @@ As configurações de política de cliente podem ser configuradas no momento em 
     
     1. No **Menu Iniciar** > **Windows PowerShell**.
         
-    2. Na janela do **Windows PowerShell**, conecte-se à organização do Office 365 executando:
+    2. Na janela do **Windows PowerShell** , conecte-se ao seu Microsoft 365 ou ao Office 365 executando:
     
         > [!NOTE]
         > [!OBSERVAçãO] Execute o comando **Import-Module** apenas quando usar o módulo do Windows PowerShell do Skype for Business Online pela primeira vez.

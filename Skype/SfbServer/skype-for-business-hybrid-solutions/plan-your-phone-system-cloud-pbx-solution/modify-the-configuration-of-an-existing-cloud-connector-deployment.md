@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 90490c65-0e40-4e85-96e1-751f27897e25
 description: Siga as etapas neste tópico para modificar a configuração de uma implantação existente do Skype for Business Cloud Connector Edition 1.4.1 ou posterior.
-ms.openlocfilehash: 4c2c0b8ad5340cd4ae4275f1ac009bf3d9d3ec0b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 77e9940e10cc356afbade5592bf41a0cdba66b0f
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42018002"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779377"
 ---
 # <a name="modify-the-configuration-of-an-existing-cloud-connector-deployment"></a>Modificar a configuração de uma implantação existente do Cloud Connector
  
@@ -109,7 +109,7 @@ Se houver mais de um dispositivo no site, você precisará seguir estas etapas, 
 
 Para modificar a configuração de vários sites em uma implantação, siga as etapas de um único site, atualizando um site de cada vez.
   
-## <a name="modify-the-configuration-of-your-office-365-tenant-to-enable-automatic-updates"></a>Modificar a configuração do seu locatário do Office 365 para habilitar atualizações automáticas
+## <a name="modify-the-configuration-of-your-office-365-organization-to-enable-automatic-updates"></a>Modificar a configuração da sua organização do Office 365 para habilitar atualizações automáticas
 <a name="BKMK_MultipleSites"> </a>
 
 Para habilitar as atualizações automáticas do sistema operacional e as atualizações automáticas do bits, você deve usar a conta de administrador locatário do Skype for Business para gerenciamento online e usar o PowerShell remoto do locatário, da seguinte maneira.
@@ -161,7 +161,7 @@ Se você desabilitou as atualizações automáticas do sistema operacional ou as
 ## <a name="update-the-dedicated-tenant-admin-credentials"></a>Atualizar as credenciais de administrador de locatários dedicados
 <a name="BKMK_MultipleSites"> </a>
 
-Alterações administrativas no locatário do Office 365 para o Cloud Connector são feitas de uma conta com as permissões necessárias. Nas versões do Cloud Connector anteriores a 2,0, essa conta é uma conta de administrador de locatário global dedicado. Nas versões 2,0 e posteriores do Cloud Connector, essa conta pode ser uma conta do Office 365 com direitos de administrador do Skype for Business.
+Alterações administrativas na organização do Office 365 para o Cloud Connector são feitas de uma conta com as permissões necessárias. Nas versões do Cloud Connector anteriores a 2,0, essa conta é uma conta de administrador de locatário global dedicado. Nas versões 2,0 e posteriores do Cloud Connector, essa conta pode ser uma conta do Office 365 com direitos de administrador do Skype for Business.
   
 Se as credenciais de sua conta de administrador forem alteradas no Office 365, você também precisará atualizar as credenciais armazenadas em cache localmente no Cloud Connector executando o seguinte comando de administrador do PowerShell em cada dispositivo do Cloud Connector implantado:
   

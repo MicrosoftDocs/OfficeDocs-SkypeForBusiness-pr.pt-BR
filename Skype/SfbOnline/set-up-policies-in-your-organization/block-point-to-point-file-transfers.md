@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: No Skype for Business Online, você pode controlar as transferências de arquivo ponto a ponto (P2P) como parte das configurações de política de conferência existentes. No entanto, isso permite ou bloqueia transferências de arquivos para usuários se eles estão ou não transferindo arquivos para um usuário que está dentro da mesma organização ou para um usuário federado de outra organização. Seguindo as etapas abaixo, você pode bloquear transferências de arquivos P2P com organizações federadas ou parceiros.
-ms.openlocfilehash: 7983ae72cd3b06a21fd4947883a3043d2506b92e
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.openlocfilehash: d557fcb747ce2a5713bcfb20a56c748dbdb31d79
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41887960"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776426"
 ---
 # <a name="block-point-to-point-file-transfers"></a>Bloquear transferências de arquivos ponto a ponto
 
@@ -69,7 +69,7 @@ Para fazer isso funcionar, o usuário deve estar usando uma versão com suporte 
     
     1. No **Menu Iniciar** > **Windows PowerShell**.
         
-    2. Na janela do **Windows PowerShell**, conecte-se à organização do Office 365 executando:
+    2. Na janela do **Windows PowerShell** , conecte-se ao seu Microsoft 365 ou ao Office 365 executando:
     
         > [!NOTE]
         > [!OBSERVAçãO] Execute o comando **Import-Module** apenas quando usar o módulo do Windows PowerShell do Skype for Business Online pela primeira vez.

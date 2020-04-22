@@ -21,12 +21,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Saiba como comprar licenças de complemento, recursos e como comprar os planos E1, E3 e E4 do Office 365 Enterprise. '
-ms.openlocfilehash: 79a803061acfd4550c75871c08f40b16ee2f8e2b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 8000a71c52c03d82c8d01c92601be01d48db04dd
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42010584"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777956"
 ---
 # <a name="office-365-enterprise-e1-e3-and-e4"></a>Office 365 Enterprise E1, E3 e E4
 
@@ -71,7 +71,7 @@ The E3 plan is part of your Action Pack. To buy the **Phone System** and **Audio
 
 Em algumas situações, você não verá a opção para comprar complementos do Skype for Business no centro de administração do Microsoft 365.
 
-- **Você comprou o Office 365 Business Premium através do GoDaddy**. Nesse caso, você não pode comprar complementos do Skype for Business. É necessário para mudar para o plano E3 (que a GoDaddy não vende) e, em seguida, você já poderá comprar os complementos. [Entre em contato com o suporte para produtos comerciais - Ajuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
+- **Você comprou o Microsoft 365 Business Standard por meio do GoDaddy**. Nesse caso, você não pode comprar Complementos do Skype for Business. Você precisa trocar para o plano E3 (que não vende no GoDaddy) e, em seguida, poderá comprá-los. [Entre em contato com o suporte de produtos para empresas – ajuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
 - **You have a monthly commitment instead of an annual commitment**. In some cases, customers who have a monthly commitment can't buy the add-ons (this is different from the payment method, which can be monthly). This is a known issue that we are fixing. [Contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 

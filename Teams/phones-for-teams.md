@@ -16,12 +16,12 @@ ms.collection:
 - M365-voice
 localization_priority: Normal
 description: Este artigo aborda a lista de telefones certificados para o Microsoft Teams e os recursos com suporte nos telefones certificados para o Microsoft Teams.
-ms.openlocfilehash: b811a92977d10601aa601e1bae811ef73c34dce8
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 94ee5e2dc1b55da190c4b6afa736fab2ced3e1d1
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836861"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780220"
 ---
 # <a name="phones-for-microsoft-teams"></a>Telefones para o Microsoft Teams
 
@@ -38,26 +38,26 @@ Um conjunto de recursos de alto nível com suporte em telefones IP certificados 
 |Recursos |Telefone de mesa (modo pessoal) |Telefone da sala de conferência (modo compartilhado)|
 |---------|---------|---------|
 |**Autenticação** | |  |
-|Entre com as credenciais dos usuários |  Sim | Sim|
-|Entrar usando PC/smartphone  | Sim |Sim|
-|Autenticação moderna | Sim |Sim |
+|Entre com as credenciais dos usuários |  Sim  | Sim|
+|Entrar usando PC/smartphone  | Sim  |Sim|
+|Autenticação moderna | Sim  |Sim |
 |Bloquear/desbloquear telefone | Sim |Não |
 |**Chamadas** |  |  |
-|Chamadas de entrada/saída ponto a ponto | Sim  |Sim |
-|Controles de chamada por meio da interface do usuário (ativar mudo, reter/retomar/retomar, transferir, encerrar chamada)| Sim  |Sim |
-|Chamadas PSTN| Sim  |Sim |
+|Chamadas de entrada/saída ponto a ponto | Sim   |Sim |
+|Controles de chamada por meio da interface do usuário (ativar mudo, reter/retomar/retomar, transferir, encerrar chamada)| Sim   |Sim |
+|Chamadas PSTN| Sim   |Sim |
 |Caixa postal visual | Sim | Não |
-|suporte do 911  | Sim  |Sim |
+|suporte do 911  | Sim   |Sim |
 |**Calendário e presença**|   | |
-|Acesso do calendário e detalhes da reunião|Sim |Sim|
+|Acesso do calendário e detalhes da reunião|Sim  |Sim|
 |Integração de presença |Sim|Sim|
-|Integração de calendário do Exchange |Sim|Sim|
-|Integração da imagem do contato  |Sim|Sim|
-|Acesso a diretório corporativo | Sim|Sim|
+|Integração de calendário do Exchange |Sim |Sim|
+|Integração da imagem do contato  |Sim |Sim|
+|Acesso a diretório corporativo | Sim |Sim|
 |**Reuniões**|   ||
-|Junção com um único clique para reuniões  | Sim  |Sim |
-|Participar de reuniões do Skype for Business | Sim  | Sim|
-|Controles de chamada de reunião (ativar mudo/desativar mudo, reter/retomar, desligar, adicionar/remover participante)|Sim|Sim|
+|Junção com um único clique para reuniões  | Sim   |Sim |
+|Participar de reuniões do Skype for Business | Sim   | Sim|
+|Controles de chamada de reunião (ativar mudo/desativar mudo, reter/retomar, desligar, adicionar/remover participante)|Sim |Sim|
 |Detalhes da reunião|Sim|Não|
 
 Estamos nos empenhando para adicionar recursos continuamente para ajudar nossos usuários a aprimorar a experiência do seu Teams nos telefones. As capturas de tela a seguir ilustram algumas das experiências aceitas hoje.
@@ -141,7 +141,7 @@ A versão mínima do firmware pode ser verificada na página de entrada do teams
 
 ## <a name="required-licenses"></a>Licenças necessárias
 
-As licenças do Microsoft Teams podem ser compradas como parte das [assinaturas do Office 365](Office-365-licensing.md). Para saber mais sobre as licenças necessárias para usar o Microsoft Teams em telefones, consulte [licenças do sistema telefônico](https://products.office.com/microsoft-teams/voice-calling)disponíveis.
+As licenças do Microsoft Teams podem ser compradas como parte das [assinaturas do microsoft 365 e do Office 365](Office-365-licensing.md). Para saber mais sobre as licenças necessárias para usar o Microsoft Teams em telefones, consulte [licenças do sistema telefônico](https://products.office.com/microsoft-teams/voice-calling)disponíveis.
 
 Para obter mais informações sobre como obter o Microsoft Teams, confira [como faço para obter acesso ao Microsoft Teams?](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 

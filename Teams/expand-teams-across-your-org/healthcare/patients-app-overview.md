@@ -17,12 +17,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: anach
 description: Aplicativo pacientes para administradores do teams
-ms.openlocfilehash: 4c4eaced1b7e3c328d589906ac50cfb8ac805ea3
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 405a87be4bd9504c0bdca98c17748f0864ba72ed
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42153783"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780190"
 ---
 # <a name="patients-app-overview"></a>Visão geral do aplicativo de pacientes
 
@@ -30,12 +30,12 @@ O aplicativo pacientes é um aplicativo do Microsoft Teams Store disponível par
 
 O aplicativo tem dois modos:
 
-- O modo conectado do EMR que se conecta ao EMRs por meio do FHIR. O aplicativo modo conectado do EMR permanece em uma visualização privada e clientes interessados ou administradores podem solicitar acesso ao aplicativo, descartando um email da Microsoft no [teamsforhealthcare@service.microsoft.com](mailto:teamsforhealthcare@service.microsoft.com) com informações sobre o locatário do Office 365.
+- O modo conectado do EMR que se conecta ao EMRs por meio do FHIR. O aplicativo modo conectado do EMR permanece em uma visualização privada e clientes interessados ou administradores podem solicitar acesso ao aplicativo, descartando um email da Microsoft no [teamsforhealthcare@service.microsoft.com](mailto:teamsforhealthcare@service.microsoft.com) com informações sobre a organização do Office 365.
 - O modo manual que permite às equipes de cuidado adicionar/trazer as informações do paciente manualmente. O aplicativo está disponível na App Store Teams para que os usuários finais Baixem na visualização privada. O aplicativo pode ser restrito a determinadas seções de usuários usando [políticas de configuração de aplicativo](../../teams-app-setup-policies.md) no Teams. Para obter acesso ao aplicativo, seu locatário precisa fazer parte do programa de adoção de tecnologia (toque). Envie-nos um email para [teamsforhealthcare@service.microsoft.com](mailto:teamsforhealthcare@service.microsoft.com) para iniciar o processo de solicitação de acesso.
 
 ## <a name="usage-example"></a>Exemplo de uso
 
-Durante as sessões de arredondamento em cada mudança de médico, os clínicos reúnem-se na estação Nursing para discutir as atualizações mais recentes sobre o andamento com os pacientes.  Elas destacam as principais métricas críticas (não necessariamente médicas ou que se encontram explícitas nos registros médicos dos pacientes) e garantem que o paciente esteja no caminho deslizante certo para a descarga eletrostática com base em seu diagnóstico. Para arredondar esses pacientes, a enfermeira de cobrança define o aplicativo paciente em uma equipe em que todos os clínicos são adicionados e adiciona pacientes a uma lista de pacientes. Durante os rodadas, as minhas mãos e os outros responsáveis pelos participantes do paciente acessarem o Microsoft Teams e o aplicativo pacientes em seus dispositivos móveis e atualizarão as informações relevantes dos pacientes em seus dispositivos e, em seguida, todos os outros na equipe de atendimento podem ver essas atualizações e anotações e Fique em sincronia. Duas vezes por dia, no início e no final de um turno, eles também têm reuniões de equipe multidisciplinares para passar pela lista de pacientes e usar o aplicativo pacientes para se basear e compartilhar informações sobre cada paciente usando o aplicativo pacientes em uma tela grande de exibição. Muitas vezes, alguns clínicos também podem discar para essas reuniões de equipes remotamente e ainda fazer parte da discussão.
+Durante as sessões de arredondamento em cada mudança de médico, os clínicos reúnem-se na estação Nursing para discutir as atualizações mais recentes sobre o andamento com os pacientes.  Elas destacam as principais métricas críticas (não necessariamente médicas ou que se encontram explícitas nos registros médicos dos pacientes) e garantem que o paciente esteja no caminho deslizante certo para a descarga eletrostática com base em seu diagnóstico. Para arredondar esses pacientes, a enfermeira de cobrança define o aplicativo paciente em uma equipe em que todos os clínicos são adicionados e adiciona pacientes a uma lista de pacientes. Durante os rodadas, as hoje e outros responsáveis pelos participantes do paciente acessam o Microsoft Teams e o aplicativo pacientes em seus dispositivos móveis e atualizam informações relevantes dos pacientes em seus dispositivos e, em seguida, todos os outros na equipe de atendimento podem ver essas atualizações e anotações e manter a sincronização. Duas vezes por dia, no início e no final de um turno, eles também têm reuniões de equipe multidisciplinares para passar pela lista de pacientes e usar o aplicativo pacientes para se basear e compartilhar informações sobre cada paciente usando o aplicativo pacientes em uma tela grande de exibição. Muitas vezes, alguns clínicos também podem discar para essas reuniões de equipes remotamente e ainda fazer parte da discussão.
 
 ## <a name="configure-patients-app"></a>Configurar o aplicativo pacientes
 

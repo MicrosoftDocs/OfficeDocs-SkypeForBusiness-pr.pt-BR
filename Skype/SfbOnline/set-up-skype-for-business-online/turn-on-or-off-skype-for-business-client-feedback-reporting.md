@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: Você pode habilitar seus usuários do Skype for Business para usar a ferramenta interna de comentários de aplicativos do Skype for Business para permitir que os usuários informem problemas e enviem comentários diretamente para a Microsoft sobre sua experiência.
-ms.openlocfilehash: 7d9b94b31e51287f535628c8485d263301ef991b
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 5b696b74d642770c29106706e49e4a8946f4932a
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706286"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777036"
 ---
 # <a name="turn-on-or-off-skype-for-business-client-feedback-reporting"></a>Ativar ou desativar o relatório de comentários do cliente Skype for Business
 
@@ -61,7 +61,7 @@ Se precisar saber mais, confira [Conectar-se a todos os serviços do Office 365 
     
 1. No **Menu Iniciar** > **Windows PowerShell**.
     
-2. Na janela do **Windows PowerShell**, conecte-se à organização do Office 365 executando:
+2. Na janela do **Windows PowerShell** , conecte-se ao seu Microsoft 365 ou ao Office 365 executando:
     
     > [!NOTE]
     > [!OBSERVAçãO] Execute o comando **Import-Module** apenas quando usar o módulo do Windows PowerShell do Skype for Business Online pela primeira vez.

@@ -16,16 +16,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 44b7a87a003b59543c37feb278462e839d83bd1e
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+ms.openlocfilehash: 68a7b26fa9668685fc9082ecdb202b6f589e0f4f
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41863302"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780180"
 ---
 # <a name="overview-of-dynamic-membership-for-teams"></a>Visão geral da associação dinâmica de equipes
 
-O Microsoft Teams dá suporte a equipes associadas a grupos do Office 365 usando *associação dinâmica*. Associação dinâmica permite que a associação de uma equipe seja definida por uma ou mais regras que verificam certos atributos de usuário no Active Directory do Azure (Azure AD). Os usuários são automaticamente adicionados ou removidos às equipes corretas à medida que os atributos do usuário mudam ou fazem o usuário ingressar e deixar o locatário.
+O Microsoft Teams dá suporte a equipes associadas a grupos do Microsoft 365 usando *associação dinâmica*. Associação dinâmica permite que a associação de uma equipe seja definida por uma ou mais regras que verificam certos atributos de usuário no Active Directory do Azure (Azure AD). Os usuários são automaticamente adicionados ou removidos às equipes corretas à medida que os atributos do usuário mudam ou fazem o usuário ingressar e deixar o locatário.
 
 Com associação dinâmica, você pode configurar equipes para determinados cohorts de usuários em sua organização. Os cenários possíveis incluem:
 - Um hospital pode criar equipes distintas para surgeonss, médicos e para transmitir comunicações. Isso é especialmente importante se o hospital depende de funcionários temporários.
@@ -48,7 +48,7 @@ Enquanto estiver conectado como administrador de locatários, siga as instruçõ
 
 ## <a name="create-a-new-team-with-your-o365-group"></a>Criar uma nova equipe com seu grupo do O365
 
-Agora, aguarde o tempo para as alterações de associação entrarem em vigor e crie uma nova equipe, conforme descrito em [aprimorar os grupos existentes do Office 365 com o Microsoft Teams](enhance-office-365-groups.md).
+Agora, aguarde o tempo para as alterações de associação entrarem em vigor e crie uma nova equipe, conforme descrito em [aprimorar os grupos existentes do microsoft 365 com o Microsoft Teams](enhance-office-365-groups.md).
 
 ## <a name="apply-dynamic-membership-to-an-existing-team"></a>Aplicar associação dinâmica a uma equipe existente
 

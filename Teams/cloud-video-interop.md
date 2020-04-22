@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ddd8a0574899c13e03aae34915b8a342d1984feb
-ms.sourcegitcommit: 56ceda54ca48d2984298d4d1f26017c0147d4431
+ms.openlocfilehash: f9addb5dfe25f5d4906c0b4ab1d332a2ea70f72d
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "43505638"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779637"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>Interoperabilidade de vídeo na nuvem para o Microsoft Teams
 
@@ -46,7 +46,7 @@ Embora a interoperabilidade de vídeo em nuvem forneça uma excelente solução 
 
 ### <a name="office-365-us-government-and-third-party-services"></a>Office 365 governo dos EUA e serviços de terceiros
 
-O Office 365 fornece a capacidade de integrar aplicativos de terceiros a sites do SharePoint Online, do Skype for Business, do Teams, aos aplicativos do Office incluídos no Office 365 ProPlus (como o Word, o Excel, o PowerPoint e o Outlook) e o Outlook Web App. Além disso, o Office 365 dá suporte à integração com provedores de serviços terceirizados. Esses aplicativos e serviços de terceiros podem envolver o armazenamento, a transmissão e o processamento dos dados do cliente da sua organização em sistemas de terceiros que estão fora da infraestrutura do Office 365 e, portanto, não são cobertos pelos compromissos do Office 365 de conformidade e proteção de dados. **É recomendável que você revise as declarações de privacidade e conformidade fornecidas por terceiros ao avaliar o uso apropriado desses serviços para sua organização.**
+O Office 365 fornece a capacidade de integrar aplicativos de terceiros a sites do SharePoint Online, Skype for Business, Teams, aplicativos do Office incluídos em aplicativos do Microsoft 365 para empresas (como o Word, o Excel, o PowerPoint e o Outlook) e o Outlook Web App. Além disso, o Office 365 dá suporte à integração com provedores de serviços terceirizados. Esses aplicativos e serviços de terceiros podem envolver o armazenamento, a transmissão e o processamento dos dados do cliente da sua organização em sistemas de terceiros que estão fora da infraestrutura do Office 365 e, portanto, não são cobertos pelos compromissos do Office 365 de conformidade e proteção de dados. **É recomendável que você revise as declarações de privacidade e conformidade fornecidas por terceiros ao avaliar o uso apropriado desses serviços para sua organização.**
 
 
 

@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 41fd33c384bf6f91ae760d539e18ea7ee74a8503
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: f296beffa5d9d97bd34035a80cac8068783cea54
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139580"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780610"
 ---
 # <a name="plan-to-move-your-staffhub-teams-to-shifts-in-microsoft-teams"></a>Planeje mover suas equipes do StaffHub para turnos no Microsoft Teams
 
@@ -40,7 +40,7 @@ Use a linha do tempo como orientação para planejar a mudança do StaffHub para
 |---------|---------|---------|
 |1    |Preparar e identificar participantes         |         |
 |2     |Examine a documentação na transição do StaffHub para o Teams and Teams onboards         |[StaffHub a ser desativado](microsoft-staffhub-to-be-retired.md)<br><br>[Mover suas equipes do StaffHub para turnos no Microsoft Teams](move-staffhub-teams-to-shifts-in-teams.md)<br><br>[Introdução ao Teams](../../get-started-with-teams-quick-start.md)         |
-|3    |Habilitar grupos do Office 365 para sua organização        |[Grupos e equipes do Office 365](../../Office-365-groups.md)      |
+|3    |Habilitar os grupos do Microsoft 365 para a sua organização        |[Grupos e equipes do Microsoft 365](../../Office-365-groups.md)      |
 |4    |Verifique se os pré-requisitos foram atendidos         |[Verificar se os pré-requisitos foram atendidos](move-staffhub-teams-to-shifts-in-teams.md#check-that-prerequisites-are-met)       |
 |5   |Atribuir licenças de equipe a usuários do StaffHub em sua organização|[Atribuir licenças do Teams](move-staffhub-teams-to-shifts-in-teams.md#assign-teams-licenses)<br><br>[Gerenciamento do acesso de usuários ao Teams](../../user-access.md)      |
 |6    |Instalar o módulo PowerShell do StaffHub        |[Instalar o módulo PowerShell do StaffHub](install-the-staffhub-powershell-module.md)        |

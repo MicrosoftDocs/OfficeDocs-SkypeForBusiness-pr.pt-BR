@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 47abe9934c92ce83ab0874a10b2c04ef238b428a
-ms.sourcegitcommit: 0289062510f0791906dab2791c5db8acb1cf849a
+ms.openlocfilehash: 69efb8c74950ffdb4426049558caaf59254b4605
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42157889"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779798"
 ---
 # <a name="upgrade-from-skype-for-business-to-teams-mdash-for-it-administrators"></a>Atualize o Skype for Business para o &mdash; Teams para administradores de ti
 
@@ -201,7 +201,7 @@ Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName EnableNotification
 
 Quando um usuário é migrado para o modo TeamsOnly, por padrão, suas reuniões do Skype for Business existentes que eles organizadas serão convertidas para o Microsoft Teams. Opcionalmente, você pode desativar o comportamento padrão ao atribuir o modo TeamsOnly a um usuário. Ao mover usuários do local, as reuniões devem ser migradas para a nuvem para que funcionem com a conta de usuário online, mas se você não especificar-MoveToTeams, as reuniões serão migradas como reuniões do Skype for Business, em vez de serem convertidas para o Microsoft Teams. 
 
-Ao atribuir o modo TeamsOnly no nível do locatário, a migração da reunião não é disparada para nenhum usuário. Se quiser atribuir o modo TeamsOnly no nível do locatário e migrar reuniões, você pode usar o PowerShell para obter uma lista de usuários no locatário (por exemplo, usar Get-CsOnlineUser com os filtros necessários) e fazer um loop por cada um desses usuários para disparar a reunião migração usando Start-CsExMeetingMigration. Para obter detalhes, consulte [usando o serviço de migração de reunião (MMS)](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms).
+Ao atribuir o modo TeamsOnly no nível do locatário, a migração da reunião não é disparada para nenhum usuário. Se quiser atribuir o modo TeamsOnly no nível do locatário e migrar reuniões, você pode usar o PowerShell para obter uma lista de usuários no locatário (por exemplo, usar Get-CsOnlineUser com os filtros necessários) e fazer um loop por cada um desses usuários para disparar a migração de reunião usando Start-CsExMeetingMigration. Para obter detalhes, consulte [usando o serviço de migração de reunião (MMS)](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms).
 
 
 ### <a name="additional-considerations-for-organizations-with-skype-for-business-server-on-premises"></a>Considerações adicionais sobre organizações com o Skype for Business Server no local
@@ -221,7 +221,7 @@ Ao atribuir o modo TeamsOnly no nível do locatário, a migração da reunião n
 - Se quiser exibir notificações no cliente Skype for Business para usuários locais, você deve usar o TeamsUpgradePolicy no conjunto de ferramentas local. Somente o parâmetro NotifySfbUsers é relevante para usuários locais.  Os usuários locais recebem o modo das instâncias online do TeamsUpgradePolicy. Consulte as anotações em [Grant-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps). 
 
 >[!NOTE]
-> Todos os novos locatários criados após 3 de setembro de 2019 são criados como locatários do TeamsOnly sem a capacidade de downgrade dos administradores. Organizações com o Skype for Business Server no local que nunca tinha uma assinatura do Office 365 antes de 3 de setembro de 2019, o precisará entrar em contato com o suporte da Microsoft para fazer o downgrade do locatário, assim que ele adquirir uma assinatura com o Office 365. 
+> Todos os novos locatários criados após 3 de setembro de 2019 são criados como locatários do TeamsOnly, a menos que a organização já tenha uma implantação local do Skype for Business Server. A Microsoft usa registros de DNS para identificar as organizações do Skype for Business Server locais. Se sua organização tiver o Skype for Business Server local sem entradas DNS públicas, você precisará ligar para o suporte da Microsoft para que seu novo locatário seja rebaixado. 
 
 
 ## <a name="perform-the-upgrade-for-your-organization"></a>Executar a atualização para a sua organização
@@ -286,7 +286,7 @@ Se alguns usuários da sua organização estiverem usando ativamente o Microsoft
 
 1. Encontre os usuários ativos no Teams da seguinte maneira:
 
-   1. No portal de administração do Office 365, na navegação à esquerda, vá para relatórios e use o uso. 
+   1. No centro de administração do Microsoft 365, na navegação à esquerda, vá para relatórios e use o uso. 
    2. Na lista suspensa "selecionar um relatório", escolha Microsoft Teams e, em seguida, atividade do usuário. Isso fornecerá uma tabela exportável de usuários que já estão ativos no Teams. 
    3. Clique em exportar, abrir Excel e filtrar para mostrar somente os usuários que estão ativos no Teams.
 
@@ -335,7 +335,7 @@ Se a funcionalidade de chamada PSTN estiver envolvida, haverá quatro cenários 
 
 - *Um usuário do Skype for Business no local com o Enterprise Voice, que será movido para online e mantendo a conectividade PSTN local*.  Migrar este usuário para o Teams requer mover a conta do Skype for Business no local para a nuvem e coordenar essa movimentação com a migração do usuário para o roteamento direto. 
 
-- *Um usuário do Skype for Business no local com o Enterprise Voice*, que se moverá para online e usando um plano de chamadas da Microsoft.  Migrar este usuário para o Teams requer mover a conta do Skype for Business no local para a nuvem e coordenar essa movimentação com uma a porta do número de telefone do usuário para um plano de chamadas da Microsoft ou B) atribuir um novo número de assinante de regiões disponíveis.
+- *Um usuário do Skype for Business no local com o Enterprise Voice*, que se moverá para online e usando um plano de chamadas da Microsoft.  Migrar este usuário para o Microsoft Teams requer mover a conta do Skype for Business no local para a nuvem e coordenar essa movimentação com uma a porta do número de telefone do usuário para um plano de chamadas da Microsoft ou B) atribuir um novo número de assinante de regiões disponíveis.
 
 Este artigo fornece apenas uma visão geral de alto nível. Para obter mais informações, consulte planos de roteamento e [chamada](calling-plan-landing-page.md)do [sistema de telefonia direto](direct-routing-landing-page.md) . Além disso, observe que o uso do sistema telefônico com Teams só tem suporte quando o usuário está no modo TeamsOnly.  Se o usuário estiver no modo de ilhas, o sistema telefônico só será compatível com o Skype for Business. 
 

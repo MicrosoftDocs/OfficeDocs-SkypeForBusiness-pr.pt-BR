@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: Saiba mais sobre o recurso de identificação de chamadas padrão do Office 365 (um número de telefone atribuído a um usuário), também conhecido como identificação da linha de chamada. Você pode alterar ou bloquear o recurso de identificação de chamadas de um usuário.
-ms.openlocfilehash: c04fdfa7dc395f31eb3277fe0ab2f77aa92605c7
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 3e19b1de929057880573c29ba75aa0ec1091139f
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140904"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780520"
 ---
 # <a name="set-the-caller-id-for-a-user"></a>Definir a identificação de chamadas para um usuário
 O sistema telefônico no Office 365 fornece uma ID de chamada padrão que é o número de telefone atribuído ao usuário. Você pode alterar ou bloquear a ID de chamadas (também chamada de ID da linha de chamada) de um usuário. Você pode saber mais sobre como usar o recurso de identificação de chamadas em sua organização, indo [como a identificação de chamadas pode ser usada em sua organização](how-can-caller-id-be-used-in-your-organization.md).
@@ -79,7 +79,7 @@ Para saber mais sobre essas configurações e como você pode usá-las, clique [
     
 1. No **Menu Iniciar** > **Windows PowerShell**.
     
-2. Na janela do **Windows PowerShell**, conecte-se à organização do Office 365 executando:
+2. Na janela do **Windows PowerShell** , conecte-se ao seu Microsoft 365 ou ao Office 365 executando:
     
    > [!NOTE]
    > [!OBSERVAçãO] Execute o comando **Import-Module** apenas quando usar o módulo do Windows PowerShell do Skype for Business Online pela primeira vez.

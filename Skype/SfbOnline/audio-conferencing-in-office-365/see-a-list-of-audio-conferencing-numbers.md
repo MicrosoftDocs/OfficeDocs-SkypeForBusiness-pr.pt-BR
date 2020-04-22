@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Saiba como Pesquisar os números de conferência discada no Skype for Business online. '
-ms.openlocfilehash: 6c9c9633f99edf42c3016b90f3b52c6c4c54b0d6
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 065de84b3efa5303fbf3321b0087462c23c331fe
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42011014"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779407"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-skype-for-business-online"></a>Ver uma lista de números de audioconferência no Skype for Business Online
 
@@ -38,7 +38,7 @@ Ao configurar a conferência de áudio para usuários do Skype for Business, voc
  **Quer saber os preços?** Confira [preços para conferências de áudio](https://products.office.com/skype-for-business/audio-conferencing#Requirements).
   
 > [!IMPORTANT]
-> **Não há um recurso que contenha uma listagem de todos os números de discagem para videoconferências.** Se você estiver procurando ver se há números**de telefone de** > discagem disponíveis em sua área ou país/região, acesse o >  **centro de administração do Skype for Business**, clique em **Adicionar**e, em**seguida, clique**em **novos números de serviço**. Use as listas para **país/região**, **estado/região**e **cidade** para filtrar sua pesquisa. Além disso, se você estiver procurando números de serviço de chamada gratuita, selecione **gratuito** na lista de **Estados/regiões** .
+> **Não há um recurso que contenha uma lista de todos os números de discagem para Audioconferência.** Se você estiver procurando ver se há números**de telefone de** > discagem disponíveis em sua área ou país/região, acesse o >  **centro de administração do Skype for Business**, clique em **Adicionar**e, em**seguida, clique**em **novos números de serviço**. Use as listas para **** País/região, **Estado/região**e **Cidade** para filtrar sua pesquisa. Além disso, se você estiver procurando números de serviço de chamada gratuita, selecione **gratuito** na lista de **Estados/regiões** .
   
 Se houver somente um número de telefone disponível para sua organização, ele será usado como número padrão para todos os seus usuários. Quando vários números de telefone estiverem disponíveis, você pode selecionar o número de telefone padrão para cada usuário. Este número padrão será incluído nos convites para reunião do Skype for Business.
   
@@ -52,7 +52,7 @@ Você pode ver [definir os números de telefone incluídos nos convites](set-the
 
 ## <a name="to-view-your-audio-conferencing-phone-numbers"></a>Para ver os números de telefone da conferência de áudio
 
-1. Entre no Office 365 com sua conta corporativa ou de estudante.
+1. Entre com sua conta corporativa ou de estudante.
     
 2. Vá para o centro de administração > **Skype for Business**.
     

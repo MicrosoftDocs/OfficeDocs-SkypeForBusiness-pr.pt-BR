@@ -1,5 +1,5 @@
 ---
-title: A experiência no Teams em um locatário do OneDrive do Office 365 e SharePoint Online com Funcionalidades Multigeográficas
+title: Experiência do teams em uma locação do Microsoft 365 ou do Office 365 do OneDrive e do SharePoint Online habilitado para várias regiões
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: snigdhav
 audience: admin
-description: Saiba mais sobre como usar o Microsoft Teams em um Office 365 para o OneDrive e o SharePoint Online habilitados para várias regiões.
+description: Saiba como usar o Microsoft Teams em uma locação do Microsoft 365 ou do Office 365 do OneDrive e do SharePoint Online com várias regiões habilitada para várias regiões.
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -17,21 +17,21 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: de798e3e76b4c826cf5b235b61b3fe88e94ea1c7
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 534155d49cda89291e5d8bdfb8da9b8caf0efb5f
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837691"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780390"
 ---
-<a name="teams-experience-in-an-office-365-onedrive-and-sharepoint-online-multi-geo-enabled-tenancy"></a>A experiência no Teams em um locatário do OneDrive do Office 365 e SharePoint Online com Funcionalidades Multigeográficas
+<a name="teams-experience-in-a-microsoft-365-or-office-365-onedrive-and-sharepoint-online-multi-geo-enabled-tenancy"></a>Experiência do teams em uma locação do Microsoft 365 ou do Office 365 do OneDrive e do SharePoint Online habilitado para várias regiões
 ===========================================
 
-O Microsoft Teams é um software de chat em grupo, o Hub de trabalho em equipe do Office 365. Ele é oferecido pelo serviço grupos do Office 365, juntamente com o SharePoint Online e o OneDrive for Business, para que seus arquivos tenham experiência. Em uma locação de várias regiões do OneDrive for Business/SharePoint Online, na qual o locatário é estendido para muitos locais geográficos, como América do Norte, Europa e Austrália, a experiência de arquivos subjacentes é compatível com várias regiões, portanto, a experiência das equipes com colaboração de arquivos também é compatível com várias regiões. Esta é uma importante funcionalidade de ponta para o uso de arquivos de superfície hospedados em vários GEOS em sua experiência nativa de arquivos.
+O Microsoft Teams é um software de chat em grupo, o Hub de trabalho em equipe do Office 365. Ele é oferecido pelo serviço Microsoft 365 groups juntamente com o SharePoint Online e o OneDrive for Business para a experiência de seus arquivos. Em uma locação de várias regiões do OneDrive for Business/SharePoint Online, na qual o locatário é estendido para muitos locais geográficos, como América do Norte, Europa e Austrália, a experiência de arquivos subjacentes é compatível com várias regiões, portanto, a experiência das equipes com colaboração de arquivos também é compatível com várias regiões. Esta é uma importante funcionalidade de ponta para o uso de arquivos de superfície hospedados em vários GEOS em sua experiência nativa de arquivos.
 
-Por exemplo, em um aluguel da contoso com Europa como uma região satélite satélite e na América do Norte como a Geo central, um usuário de satélite Europeu verá os arquivos do OneDrive na guia arquivos no painel esquerdo, embora os arquivos estejam hospedados no local de dados da Europa e na estatística do país es é o local central do locatário. Além disso, o usuário pode acessar os arquivos usados mais recentemente sob a lâmina de exibição recente. Os arquivos recentes podem incluir arquivos compartilhados com o usuário de usuários em outras GEOS e podem ser mestres em outros locais geográficos nos quais o locatário é estendido. 
+Por exemplo, em um aluguel da contoso com Europa como uma região satélite e uma América do Norte como a Geo central, um usuário de satélite Europeu verá os arquivos do OneDrive na guia arquivos no painel esquerdo, embora os arquivos estejam hospedados no local de dados da Europa e os Estados Unidos seja o local central do locatário. Além disso, o usuário pode acessar os arquivos usados mais recentemente sob a lâmina de exibição recente. Os arquivos recentes podem incluir arquivos compartilhados com o usuário de usuários em outras GEOS e podem ser mestres em outros locais geográficos nos quais o locatário é estendido. 
 
-Um site de grupo específico da equipe também reconhece várias regiões. Ou seja, se um usuário de satélite europeu estiver criando uma equipe, o site de grupos correspondentes será criado no local da Europa e os arquivos associados a esse grupo serão mantidos em repouso nesse local. Quaisquer experiências subsequentes, como carregar um novo arquivo ou editar o arquivo, serão direcionadas para esse local europeu, mantendo a promessa de residência de dados para esses arquivos. Isso é tudo o que se torna possível pelos grupos base do Office 365 com reconhecimento de várias regiões.
+Um site de grupo específico da equipe também reconhece várias regiões. Ou seja, se um usuário de satélite europeu estiver criando uma equipe, o site de grupos correspondentes será criado no local da Europa e os arquivos associados a esse grupo serão mantidos em repouso nesse local. Quaisquer experiências subsequentes, como carregar um novo arquivo ou editar o arquivo, serão direcionadas para esse local europeu, mantendo a promessa de residência de dados para esses arquivos. Isso é tudo o que se torna possível pelos grupos base do Microsoft 365 tornando o reconhecimento de várias regiões.
 
 Como uma locação de várias regiões é um único locatário global, durante a @ menção, os usuários de satélite poderão ver seus colegas em todo o mundo, onde quer que eles estejam. 
 

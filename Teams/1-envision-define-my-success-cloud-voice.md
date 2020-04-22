@@ -19,12 +19,12 @@ localization_priority: Normal
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: dbbcbce46ab713b7a1820d01d476ef5d35dee0d0
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 6cafff163c4794002d8f92b638e73112faa8d1e4
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139570"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780660"
 ---
 # <a name="define-my-success"></a>Definir meu sucesso
 
@@ -204,7 +204,7 @@ Ao definir KSIs, recomendamos que você use critérios "específicos, mensuráve
 > |---------|---------|---------|---------|---------|---------|
 > |Uso/adoção|A qualidade da chamada é igual ou melhor que a solução anterior|Pesquisa|80% dos usuários concordam ou concordam fortemente|Após a habilitação e trimestralmente|Esquipe de Tecnologia da Informação|
 > |Uso/adoção|O Microsoft Teams facilitou o processo de comunicação|Pesquisa|80% dos usuários concordam ou concordam fortemente|Após a habilitação e trimestralmente|Equipe de gerenciamento de mudanças|
-> |Uso/adoção|Os usuários usam a solução ativamente|Relatórios do Office 365, Painel de Qualidade da Chamada|80% dos usuários são usuários ativos diariamente|Diário|Equipe de gerenciamento de mudanças|
+> |Uso/adoção|Os usuários usam a solução ativamente|Relatórios do Microsoft 365, painel de qualidade de chamada|80% dos usuários são usuários ativos diariamente|Diário|Equipe de gerenciamento de mudanças|
 > |Uso/qualidade|A porcentagem de chamadas/conferências de má qualidade deve ser mínima|Painel de Qualidade da Chamada|< 5% de chamadas de má qualidade por mês|Diariamente|Esquipe de Tecnologia da Informação|
 > |Uso/suporte|Eu sei como obter suporte técnico|Pesquisa|90% dos usuários concordam ou concordam fortemente|Após a habilitação e trimestralmente|Equipe de gerenciamento de mudanças|
 > |Uso/suporte|Estou satisfeito com a qualidade do suporte técnico|Pesquisa|80% dos usuários concordam ou concordam fortemente|Após cada incidente|Esquipe de Tecnologia da Informação|

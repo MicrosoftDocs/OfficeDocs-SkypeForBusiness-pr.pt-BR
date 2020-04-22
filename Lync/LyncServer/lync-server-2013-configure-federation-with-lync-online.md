@@ -12,12 +12,12 @@ ms:contentKeyID: 48184946
 ms.date: 08/15/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 957a0f338d0669d0c99570b541d6ddb4753c1145
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 34e96ec4aac4573a05e50eb1b13469731068b6db
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197744"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779557"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -45,7 +45,7 @@ Siga as etapas desta seção para configurar a interoperabilidade entre a sua im
 
 ## <a name="configure-your-on-premises-edge-service-for-federation-with-skype-for-business-online"></a>Configurar seu serviço de borda local para federação com o Skype for Business Online
 
-A Federação permite que os usuários em sua implantação local se comuniquem com os usuários do Office 365 em sua organização. Para configurar a Federação, execute os seguintes cmdlets:
+A Federação permite que os usuários em sua implantação local se comuniquem com os usuários do Microsoft 365 ou do Office 365 em sua organização. Para configurar a Federação, execute os seguintes cmdlets:
 
    ```powershell
     Set-CSAccessEdgeConfiguration -AllowOutsideUsers 1 -AllowFederatedUsers 1 -UseDnsSrvRouting -EnablePartnerDiscovery $True
@@ -63,7 +63,7 @@ A Federação permite que os usuários em sua implantação local se comuniquem 
 
 ## <a name="configure-your-skype-for-business-online-tenant-for-a-shared-sip-address-space"></a>Configurar seu locatário do Skype for Business online para um espaço de endereçamento SIP compartilhado
 
-Um endereço SIP (Session Initiation Protocol) é um identificador exclusivo para cada usuário em uma rede, semelhante a um número de telefone ou endereço de email. Antes de tentar mover os usuários do Lync do local para o Skype for Business Online, você precisará configurar seu locatário do Office 365 para compartilhar o espaço de endereço SIP (protocolo de iniciação de sessão compartilhada) com sua implantação local. Se isso não estiver configurado, você poderá ver a seguinte mensagem de erro:
+Um endereço SIP (Session Initiation Protocol) é um identificador exclusivo para cada usuário em uma rede, semelhante a um número de telefone ou endereço de email. Antes de tentar mover os usuários do Lync do local para o Skype for Business Online, você precisará configurar sua organização do Office 365 para compartilhar o espaço de endereçamento SIP (protocolo de iniciação de sessão compartilhada) com sua implantação local. Se isso não estiver configurado, você poderá ver a seguinte mensagem de erro:
 
 Move-CsUser: falha de HostedMigration: erro = (510), descrição = (o locatário deste usuário não está habilitado para o espaço de endereçamento SIP compartilhado.)
 

@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: Learn how to fix issues for admins and users of Skype for Business in Office 365.
-ms.openlocfilehash: ed520dd5292cf67d67255457f1555ba04c87be1e
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 812df872775e31109df300e3bad1911de975c07e
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706326"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777156"
 ---
 # <a name="troubleshoot-problems-with-skype-for-business-online"></a>Solucionar problemas com o Skype for Business Online
 
@@ -75,7 +75,7 @@ A maior parte dos problemas enfrentados pelos usuários do Skype for Business On
 ## <a name="still-need-help-contact-support"></a>Ainda precisa de ajuda? Fale com o suporte.
 <a name="BK_SupportBridge_1"> </a>
 
-Como administrador do Office 365 para empresas, você tem acesso gratuito aos nossos agentes de suporte mais experientes para obter suporte para pré-vendas, conta e cobrança, bem como para obter ajuda na resolução de problemas técnicos. Você também pode [entrar em contato com o suporte](https://go.microsoft.com/fwlink/p/?LinkID=518322) em nome de usuários do Office 365 de sua organização.
+Como administrador do Office 365 para empresas, você tem acesso gratuito aos nossos agentes de suporte especializados para obter suporte de pré-vendas, conta e cobrança, além de ajudar a resolver problemas técnicos. Você também pode [entrar em contato com o suporte](https://go.microsoft.com/fwlink/p/?LinkID=518322) em nome do Microsoft 365 e do Office 365 para os usuários da sua organização.
 
 - [Obter ajuda de fóruns da comunidade do Office 365](https://go.microsoft.com/fwlink/p/?LinkId=518605)
 

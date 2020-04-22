@@ -13,15 +13,15 @@ f1.keywords:
 - NOCSH
 ms.reviewer: anach
 search.appverid: MET150
-description: Saiba como recuperar dados do Microsoft Teams a partir do log de auditoria do Office 365.
+description: Saiba como recuperar dados do Microsoft Teams do log de auditoria.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3f53d1a0b5e600de9d38233b243dba3486b88bf1
-ms.sourcegitcommit: 6cfaadec5782ca7316db36472bd0be20217da693
+ms.openlocfilehash: 9b1235dcd1a33800185eb005f5e309204790c5b1
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/29/2020
-ms.locfileid: "42341619"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778887"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Pesquisar o log de auditoria de eventos no Microsoft Teams
 
@@ -41,11 +41,11 @@ O log de auditoria pode ajudar na investigação de atividades específicas em t
 > [!NOTE]
 > Os eventos de auditoria de canais privados também são registrados como são para equipes e canais padrão.
 
-Para ver a lista completa de atividades que são auditadas no Office 365, consulte [Pesquisar no log de auditoria no Centro de Conformidade e Segurança do Office 365](https://support.office.com/article/0d4d0f35-390b-4518-800e-0c7ec95e946c).
+Para ver a lista completa de atividades auditadas no Microsoft 365, leia [Pesquisar o log de auditoria no centro de conformidade do microsoft 365](https://support.office.com/article/0d4d0f35-390b-4518-800e-0c7ec95e946c).
 
 ## <a name="turn-on-auditing-in-teams"></a>Ativar a auditoria no Microsoft Teams
 
-Antes de poder ver os dados de auditoria, você deve primeiro ativar a auditoria no centro de [conformidade do & de segurança](https://protection.office.com). Para obter ajuda para ativar a auditoria, consulte [Ativar ou desativar a pesquisa no log de auditoria do Office 365](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014).
+Antes de poder ver os dados de auditoria, você deve primeiro ativar a auditoria no centro de [conformidade do & de segurança](https://protection.office.com). Para obter ajuda para ativar a auditoria, leia [Ativar ou desativar a pesquisa ativar log de auditoria](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014).
 
 > [!IMPORTANT]
 > Os dados de auditoria estão disponíveis apenas a partir do momento em que a auditoria foi ativada.
@@ -65,7 +65,7 @@ Um cenário do qual você pode querer ficar atento, do ponto de vista dos negóc
 
 ![Captura de tela de uma lista de eventos disparados por exclusões em massa](media/TeamsExternalUserAddPolicy.png)
 
-A captura de tela desta política para monitorar o usuário externo permite que você nomeie a política, defina a gravidade de acordo com suas necessidades comerciais, defina-a como (nesse caso) uma única atividade e, em seguida, estabeleça os parâmetros que monitorarão especificamente apenas a adição de usuários não internos e limitar essa atividade ao Microsoft Teams.
+A captura de tela desta política para monitorar o usuário externo permite que você nomeie a política, defina a severidade de acordo com suas necessidades comerciais, defina-a como (neste caso) uma única atividade e, em seguida, estabeleça os parâmetros que monitorarão especificamente apenas a adição de usuários não internos e limitarão essa atividade ao Microsoft Teams.
 
 Em seguida, os resultados dessa política poderão ser visualizados no log de atividades:
 

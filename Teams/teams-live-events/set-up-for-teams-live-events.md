@@ -18,12 +18,12 @@ description: Configure os eventos ao vivo no Teams, incluindo a configuração d
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 8e3110717cd9279d881415bf1e01d03a1cbee293
-ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.openlocfilehash: df54e90f2c895ebf7090fbec2487aae52bd53d66
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 04/22/2020
-ms.locfileid: "43749798"
+ms.locfileid: "43779950"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Configurar eventos ao vivo no Microsoft Teams
 
@@ -97,7 +97,7 @@ Você também pode atribuir uma política de eventos ao vivo a um ou mais usuár
 
 Para os usuários agendarem eventos produzidos com um aplicativo ou dispositivo externo, você também deve fazer o seguinte:
 
-1. Habilitar o Microsoft Stream para usuários na organização. O Stream está disponível como parte das assinaturas do Office 365 qualificadas ou como um serviço autônomo. O Stream não está incluído nos planos Business Essentials ou Business Premium. Confira [Visão geral de licenciamento Stream](https://docs.microsoft.com/stream/license-overview) para obter mais detalhes.
+1. Habilitar o Microsoft Stream para usuários na organização. Stream está disponível como parte das assinaturas qualificadas do Microsoft 365 ou do Office 365 ou como um serviço autônomo. O Stream não está incluído nos planos Business Essentials ou Business Premium. Confira [Visão geral de licenciamento Stream](https://docs.microsoft.com/stream/license-overview) para obter mais detalhes.
 
       Saiba mais sobre como você pode [atribuir licenças a usuários no Office 365](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) para que os usuários possam acessar o Stream. Certifique-se de que o fluxo não está bloqueado para os usuários, conforme definido [neste artigo](https://docs.microsoft.com/stream/disable-user-organization).
 

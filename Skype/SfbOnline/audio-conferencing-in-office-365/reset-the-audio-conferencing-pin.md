@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Saiba o que você deve saber sobre PINs e como redefini-los no Skype for Business online. '
-ms.openlocfilehash: fdd11e3ef9c656b4b2cc6b929a2963e9b5e10824
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: a2f91e1ccae53f08507a63ea56b499a3ad968c73
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41680558"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777696"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-skype-for-business-online"></a>Redefinir o PIN da conferência de áudio no Skype for Business Online
 
@@ -39,7 +39,7 @@ Meetings can be started when an authenticated user joins using the Skype for Bus
   
 ## <a name="reset-a-users-pin"></a>Redefinir o PIN de um usuário
 
-1. Entre no Office 365 com sua conta corporativa ou de estudante.
+1. Entre com sua conta corporativa ou de estudante.
     
 2. Vá para o centro de administração > **Skype for Business**e, no painel de navegação esquerdo, clique em **conferência de áudio**.
     

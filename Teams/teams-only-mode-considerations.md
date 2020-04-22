@@ -21,16 +21,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7ec2d9ede5fdd31070228995cefaa16a60ad6224
-ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
+ms.openlocfilehash: 4c4619758672022ed767c56e296ba41d2dcc33fd
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42795994"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776816"
 ---
 # <a name="teams-only-mode-considerations"></a>Considerações sobre o modo Teams Only (Apenas Teams)
 
-Se você for um administrador do seu locatário do Office 365, agora verá a opção atualizar para o modo somente Teams no centro de administração do Microsoft Teams. Com essa funcionalidade, você pode atualizar usuários individuais ou, como alternativa, o locatário inteiro.  
+Se você for um administrador em sua organização do Office 365, verá agora a opção atualizar para o modo somente Teams no centro de administração do Microsoft Teams. Com essa funcionalidade, você pode atualizar usuários individuais ou, como alternativa, o locatário inteiro.  
 
 A atualização para o modo somente Teams oferece aos usuários todas as vantagens do Microsoft Teams, o Hub de trabalho em equipe no Office 365, por meio de uma única experiência de cliente. Além disso, os usuários no modo apenas Teams receberão todas as chamadas e chats no Teams, independentemente de o remetente estar usando o Skype for Business ou Teams e se beneficiar do suporte a interoperabilidade e Federação.
 

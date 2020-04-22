@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Saiba como configurar um SBC (controlador de borda de sessão) para atender a vários locatários.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 90bad0c87cef92a36dea392d98cfb66824c10113
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 1419a42a6affa00bbeed35d328f91331ad5357ec
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141084"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779567"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurar um controlador de borda da sessão para vários locatários
 
@@ -80,7 +80,7 @@ Subdomínios **devem** coincidir com o nome FQDN do tronco que será configurado
 
 Quando chega uma chamada na interface de roteamento direto do Office 365, a interface usa o cabeçalho do contato para localizar o locatário onde o usuário deve ser pesquisado. O roteamento direto não usa a pesquisa de número de telefone no convite, pois alguns clientes podem ter números não-participantes que podem sobrepor-se a vários locatários. Portanto, o nome FQDN no cabeçalho do contato é necessário para identificar o locatário exato para pesquisar o usuário pelo número de telefone.
 
-*Consulte [obter ajuda com os domínios do Office 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) para obter mais informações sobre como criar nomes de domínio nos locatários do Office 365.*
+*Consulte [obter ajuda com os domínios do Office 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) para obter mais informações sobre como criar nomes de domínio em organizações do Office 365.*
 
 O diagrama a seguir resume os requisitos para o domínio base, subdomínios e cabeçalho de contato.
 
@@ -138,7 +138,7 @@ Para obter mais informações sobre funções de administrador e como atribuir u
 
 Depois de registrar um nome de domínio, você precisa ativá-lo adicionando pelo menos um usuário licenciado E1, E3 ou E5 e atribuindo um endereço SIP à parte FQDN do endereço SIP correspondente ao domínio base criado. 
 
-*Consulte [obter ajuda com os domínios do Office 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) para obter mais informações sobre como adicionar usuários nos locatários do Office 365.*
+*Consulte [obter ajuda com os domínios do Office 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) para obter mais informações sobre como adicionar usuários nas organizações do Office 365.*
 
 Por exemplo: test@customers.adatum.biz
 
@@ -200,7 +200,7 @@ Para obter mais informações sobre funções de administrador e como atribuir u
 
 Depois de registrar um nome de domínio, você precisa ativá-lo adicionando pelo menos um usuário e atribuir um endereço SIP à parte FQDN do endereço SIP correspondente ao subdomínio criado no locatário do cliente.
 
-*Consulte [obter ajuda com os domínios do Office 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) para obter mais informações sobre como adicionar usuários nos locatários do Office 365.*
+*Consulte [obter ajuda com os domínios do Office 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) para obter mais informações sobre como adicionar usuários nas organizações do Office 365.*
 
 Por exemplo: test@sbc1.customers.adatum.biz
 

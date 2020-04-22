@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 'See how to turn preloaded content on or off for Skype for Business meetings using files or attachments on an Outlook meeting invitation. '
-ms.openlocfilehash: 66373c3609584efb34d54ef4ad9331af608b5a81
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: bbcb4451db2203fbd4209ecc206904b12d7097ec
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706296"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777126"
 ---
 # <a name="turn-on-or-off-allowing-content-to-be-preloaded-for-meetings-using-outlook"></a>Ativar ou desativar a permissão para que o conteúdo seja pré-carregado para reuniões usando o Outlook
 
@@ -55,7 +55,7 @@ Se precisar saber mais, confira [Conectar-se a todos os serviços do Office 365 
   
 1. No **Menu Iniciar** > **Windows PowerShell**.
     
-2. Na janela do **Windows PowerShell**, conecte-se à organização do Office 365 executando:
+2. Na janela do **Windows PowerShell** , conecte-se ao seu Microsoft 365 ou ao Office 365 executando:
     
     > [!NOTE]
     > [!OBSERVAçãO] Execute o comando **Import-Module** apenas quando usar o módulo do Windows PowerShell do Skype for Business Online pela primeira vez.

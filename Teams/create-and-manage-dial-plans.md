@@ -20,18 +20,18 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Saiba como criar e gerenciar planos de discagem de chamada PSTN (planos de discagem de chamada PSTN) e como gerenciá-los.
-ms.openlocfilehash: 6a5f46772ed8eebb309ba8bd9eaeca6fddb35afa
-ms.sourcegitcommit: 0fdc60840f45ff5b0a39a8ec4a21138f6cab49c9
+ms.openlocfilehash: 9c72745e6dee12ffbac4d91df47df37c327aab33
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43160075"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778257"
 ---
 # <a name="create-and-manage-dial-plans"></a>Criar e gerenciar planos de discagem
 
 Depois de planejar os planos de discagem para a sua organização e descobrir todas as regras de normalização que precisam ser criadas para o encaminhamento de chamadas, você estará pronto para criar os planos de discagem. Você pode usar o centro de administração do Microsoft Teams ou o Windows PowerShell para criar e gerenciar planos de discagem.  
 
-## <a name="using-the-microsoft-teams-admin-center"></a>Usar o centro de administração do Microsoft Teams
+## <a name="using-the-microsoft-teams-admin-center"></a>Usando o centro de administração do Microsoft Teams
 
 ### <a name="create-a-dial-plan"></a>Criar um plano de discagem
 
@@ -87,7 +87,7 @@ Para saber mais, confira [conectar-se a todos os serviços do Office 365 em uma 
   
 1. Clique em **Iniciar** > o**Windows PowerShell**.
     
-2. Na janela do **Windows PowerShell**, conecte-se à organização do Office 365 executando:
+2. Na janela do **Windows PowerShell** , conecte-se ao seu Microsoft 365 ou ao Office 365 executando:
     
     > [!NOTE]
     > [!OBSERVAçãO] Execute o comando **Import-Module** apenas quando usar o módulo do Windows PowerShell do Skype for Business Online pela primeira vez.

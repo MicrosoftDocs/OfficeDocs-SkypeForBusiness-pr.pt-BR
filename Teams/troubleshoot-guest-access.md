@@ -17,12 +17,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: b8ef4fb03de0172403556334e43359402ccce113
-ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
+ms.openlocfilehash: 52d3922bc68e942ad1cd58e40861fa8820ee6614
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43157734"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778397"
 ---
 <a name="troubleshoot-problems-with-guest-access-in-microsoft-teams"></a>Solucionar problemas com o acesso de convidados no Microsoft Teams
 ======================================================
@@ -39,7 +39,7 @@ ms.locfileid: "43157734"
 
 ## <a name="if-your-guests-are-seeing-license-errors"></a>Se seus convidados estiverem vendo erros de licença
 
-O acesso de convidado no Teams usa o Business to Business (B2B) do Azure Active Directory (Azure AD) e seu modelo de licenciamento. O acesso de convidados está incluído em todas as inscrições do Office 365 Business Premium, Office 365 Enterprise e Office 365 Education. Não é necessária nenhuma licença adicional do Office 365.
+O acesso de convidado no Teams usa o Business to Business (B2B) do Azure Active Directory (Azure AD) e seu modelo de licenciamento. O acesso de convidado está incluído em todas as assinaturas do Microsoft 365 Business Standard, do Office 365 Enterprise e do Office 365 Education. Não é necessária nenhuma licença adicional do Office 365.
 
 > [!NOTE]
 > As equipes devem estar habilitadas no locatário de casa de um convidado para que os convidados possam entrar e usar o Microsoft Teams como convidado em outro locatário (recurso).
@@ -48,7 +48,7 @@ Se você estiver vendo erros de licenciamento, leia a [orientação de licenciam
 
 
 - As licenças de convidado são contadas na organização que envia os convites. Considere isso ao calcular o número de licenças necessárias.
-- As licenças são contadas na sua organização, independentemente de os convidados serem de outro locatário do Office 365 ou estarem usando seus endereços de email pessoais.
+- As licenças são contadas em sua organização se os convidados convidados vierem de outra organização do Office 365 ou estiverem usando seus endereços de email pessoais.
 
 ## <a name="support-for-b2b-user-types"></a>Suporte para tipos de usuário B2B
 Atualmente, o Teams tem suporte apenas para os tipos de usuários Convidados dos tipos Estado 1 e Estado 2, [conforme definido pelo Azure B2B](https://docs.microsoft.com/azure/active-directory/b2b/user-properties).

@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Confira as etapas do Skype for Business online para atribuir uma ID de conferência e uma licença de conferência discada para um usuário e muitas outras configurações de conferência discada. '
-ms.openlocfilehash: 46f55ba256759d86e93e9436e949ee49ff337f7c
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 9567c8234c0ef7a5b65c5894666747eab3cff7a5
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41986516"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777976"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-my-organization-in-skype-for-business-online"></a>Gerenciar as configurações da Audioconferência para minha organização no Skype for Business Online
 
@@ -43,7 +43,7 @@ Pode ser mais fácil para você ver todas as configurações de audioconferênci
 
  **Para atribuir uma licença para um usuário**
 
-1. Entre no Office 365 com sua conta corporativa ou de estudante.
+1. Entre com sua conta corporativa ou de estudante.
 
 2. Na navegação à esquerda do centro de administração, vá para usuários**ativos**do **usuários** > e selecione o usuário ou os usuários na lista de usuários disponíveis.
 
@@ -61,7 +61,7 @@ Pode ser mais fácil para você ver todas as configurações de audioconferênci
 
 ![Um ícone mostrando o logotipo do Skype for Business](../images/sfb-logo-30x30.png) **Usando o centro de administração do Skype for Business**
 
-1. Entre no Office 365 com sua conta corporativa ou de estudante.
+1. Entre com sua conta corporativa ou de estudante.
 
 2. Vá para o centro de administração > **Skype for Business** e, no painel de navegação esquerdo, clique em **videoconferência**.
 
@@ -110,7 +110,7 @@ Veja [os emails enviados automaticamente para os usuários quando as configuraç
 
 ## <a name="reset-the-meeting-conference-id"></a>Redefinir a ID de conferência de reunião
 
-1. Entre no Office 365 com sua conta corporativa ou de estudante.
+1. Entre com sua conta corporativa ou de estudante.
 
 2. Vá para o centro de administração > **Skype for Business**.
 
@@ -128,7 +128,7 @@ Consulte [Redefinir o ID de conferência de um usuário](reset-a-conference-id-f
 Each meeting that a user schedules will get assigned a unique conference ID. Although a conference ID will be automatically created and assigned to a user, there may be times when a user doesn't want to use this one and you want to set it to a certain number, or your users can't remember or have lost their conference ID. You can use the Skype for Business admin center and Windows PowerShell to view, change, and reset their conference ID.
 
 
-1. Entre no Office 365 com sua conta corporativa ou de estudante.
+1. Entre com sua conta corporativa ou de estudante.
 
 2. Vá para o centro de administração > **Skype for Business** e, no painel de navegação esquerdo, clique em **videoconferência**.
 
@@ -142,7 +142,7 @@ Consulte [redefinir o PIN de audioconferência](reset-the-audio-conferencing-pin
 
 ## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>Enviar um email com as informações de conferência de áudio para um usuário
 
-1. Entre no Office 365 com sua conta corporativa ou de estudante.
+1. Entre com sua conta corporativa ou de estudante.
 
 2. Vá para o centro de administração > **Skype for Business** e, no painel de navegação esquerdo, clique em **videoconferência**.
 
@@ -157,7 +157,7 @@ Veja [Enviar um email para um usuário com suas informações de conferência de
 
 ## <a name="setting-the-phone-numbers-included-on-invites"></a>Configurar os números de telefone incluídos nos convites
 
-1. Entre no Office 365 com sua conta corporativa ou de estudante.
+1. Entre com sua conta corporativa ou de estudante.
 
 2. Vá para o centro de administração > **Skype for Business**.
 
@@ -175,7 +175,7 @@ Consulte [definir os números de telefone incluídos nos convites](set-the-phone
 **Definir a experiência da reunião quando os chamadores entrarem em uma reunião**
 
 
-1. Entre no Office 365 com sua conta corporativa ou de estudante.
+1. Entre com sua conta corporativa ou de estudante.
 
 2. Vá para o centro de administração > **Skype for Business**.
 
@@ -195,7 +195,7 @@ Consulte [alterar as configurações de uma ponte de conferência de áudio](/Mi
   
  **Definir o comprimento do PIN para reuniões**
 
-1. Entre no Office 365 com sua conta corporativa ou de estudante.
+1. Entre com sua conta corporativa ou de estudante.
 
 2. Vá para o centro de administração > **Skype for Business**.
 
@@ -209,7 +209,7 @@ Consulte [alterar as configurações de uma ponte de conferência de áudio](/Mi
   
  **Habilitar ou desabilitar o envio de emails para usuários de áudio**
 
-1. Entre no Office 365 com sua conta corporativa ou de estudante.
+1. Entre com sua conta corporativa ou de estudante.
 
 2. Vá para o centro de administração > **Skype for Business** e, no painel de navegação esquerdo, clique em **videoconferência**.
 
@@ -226,7 +226,7 @@ Consulte [alterar as configurações de uma ponte de conferência de áudio](/Mi
 ## <a name="see-and-set-the-primary-default-and-secondary-alternate-languages-on-an-audio-conferencing-bridge"></a>Ver e definir os idiomas principais (padrão) e secundários (alternativos) em uma ponte de audioconferência
 
 
-1. Entre no Office 365 com sua conta corporativa ou de estudante.
+1. Entre com sua conta corporativa ou de estudante.
 
 2. Vá para o centro de administração > **Skype for Business**.
 
@@ -240,7 +240,7 @@ Veja [Definir idiomas do atendedor automático para conferência de áudio](set-
 
 ## <a name="see-audio-conferencing-dial-in-numbers"></a>Consulte números de discagem de conferência de áudio
 
-1. Entre no Office 365 com sua conta corporativa ou de estudante.
+1. Entre com sua conta corporativa ou de estudante.
 
 2. Vá para o centro de administração > **Skype for Business**.
 
@@ -258,7 +258,7 @@ Veja [ver uma lista de números de audioconferência](see-a-list-of-audio-confer
 
 ## <a name="see-a-list-of-users-that-are-enabled"></a>Visualizar uma lista de usuários habilitados
 
-1. Entre no Office 365 com sua conta corporativa ou de estudante.
+1. Entre com sua conta corporativa ou de estudante.
 
 2. Vá para o centro de administração > **Skype for Business**.
 

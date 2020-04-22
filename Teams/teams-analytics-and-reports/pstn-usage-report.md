@@ -16,12 +16,12 @@ MS.collection:
 description: Saiba como usar o relatório de uso de PSTN do teams no centro de administração do Microsoft Teams para obter uma visão geral do uso de chamadas e videoconferências em sua organização.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3372bc77a4850da0690c2076c5858812e3e80452
-ms.sourcegitcommit: a4fd238de09366d6ed33d72c908faff812da11a5
+ms.openlocfilehash: c35699093168f5bb0443277f65da9a8060f27b69
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42637188"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778247"
 ---
 # <a name="microsoft-teams-pstn-usage-report"></a>Relatório de uso PSTN do Microsoft Teams
 
@@ -124,7 +124,7 @@ A primeira linha do CSV contém nomes de coluna. Todas as datas são UTC e no fo
 | 16 | Taxa de conexão | `numeric(16, 2)` | Preço da taxa de conexão |
 | 16 | Chargeback | `numeric(16, 2)` | Valor de dinheiro ou custo da chamada cobrada na sua conta |
 | dezoito | Moeda | `nvarchar(3)` | Tipo de moeda usado para calcular o custo da chamada ([ISO 4217](https://en.wikipedia.org/wiki/ISO_4217)) |
-| pol | Potencial | `nvarchar(32)` | A licença usada para a chamada |
+| pol | Funcionalidade | `nvarchar(32)` | A licença usada para a chamada |
 
 ### <a name="exported-direct-routing-usage-report"></a>Relatório de uso de roteamento direto exportado
 
@@ -134,7 +134,7 @@ Você pode exportar dados de até cinco meses (150 dias) a partir da data atual,
 | :-: | :-: | :-: |:------------------- |
 | 0 | CorrelationId | `uniqueidentifier` | Identificador de chamada exclusivo |
 | 1 | Endereço SIP | `nvarchar(128)` | O endereço do usuário ou do bot que fez ou recebeu a chamada.<br/>Observe que isso é realmente UserPrincipalName (UPN, nome do usuário) no Azure Active Directory, que geralmente é o mesmo que o endereço SIP |
-| 2 | Nome para exibição | `nvarchar(128)` | O nome de um usuário ou um bot de chamada (por exemplo, fila de chamadas ou atendedor automático) conforme definido no portal do Office 365 |
+| 2 | Nome para exibição | `nvarchar(128)` | O nome de um usuário ou um bot de chamada (por exemplo, fila de chamadas ou atendedor automático) conforme definido no centro de administração do Microsoft 365 |
 | 3 | País do usuário | `nvarchar(2)` | Código do país do usuário, [ISO 3166-1 alfa-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
 | 4 | Hora do convite | `datetimeoffset` | Quando o convite inicial envia a saída do usuário do teams ou a chamada de bot para o SBC ou recebido em chamadas de entrada para equipes ou bot pelo componente de proxy SIP do direcionamento direto do SBC |
 | 5 | Hora de início | `datetimeoffset` | Hora em que o proxy SIP recebeu a resposta final (mensagem SIP "200 OK") do SBC em saída (equipes/bot a um usuário PSTN) ou depois que o proxy SIP envia o convite para o próximo salto no backend do teams na chamada de entrada (usuário PSTN para um Teams/bot).<br/>Para chamadas com falha e não atendidas, isso pode ser igual ao tempo de convite ou falha |

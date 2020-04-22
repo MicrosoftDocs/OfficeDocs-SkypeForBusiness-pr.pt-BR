@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Envie um email aos seus usuários com as informações de videoconferência no Skype for Business online.
-ms.openlocfilehash: 78ce937bd9aa3bcdab8c860ce261c419af7cc768
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: b499bfb4734d46a671ff4c236b354630f7e0a284
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41680398"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776806"
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-skype-for-business-online"></a>Enviar um email para um usuário com suas informações de audioconferência no Skype for Business Online
 
@@ -55,7 +55,7 @@ Aqui está um exemplo do e-mail enviado:
 
 3. Em **conferência de áudio**, clique em **enviar informações de conferência por email**.
 
-1. Entre no Office 365 com sua conta corporativa ou de estudante.
+1. Entre com sua conta corporativa ou de estudante.
     
 2. Vá para o centro de administração > **Skype for Business**e, no painel de navegação esquerdo, clique em **conferência de áudio**.
     

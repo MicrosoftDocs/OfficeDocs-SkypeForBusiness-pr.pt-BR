@@ -20,12 +20,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6ce0e580-8c4a-45de-a54f-e39e438335d6
 description: Encontre informações sobre o Skype for Business Cloud Connector Edition, um conjunto de VMs (máquinas virtuais) empacotadas que implementam a conectividade PSTN local com o sistema de telefonia no Office 365 (Cloud PBX).
-ms.openlocfilehash: 9530fa2815dc491e6cda3579a801c3d5430f9b41
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 055149121b5abdb2fa92f72278f94b35f8556dff
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42018142"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779257"
 ---
 # <a name="plan-for-skype-for-business-cloud-connector-edition"></a>Planejar o Skype for Business Cloud Connector Edition
 
@@ -40,11 +40,11 @@ O Cloud Connector Edition 2,1 já está disponível. Se você ainda não tiver a
 > [!NOTE]
 > A Microsoft dá suporte à versão anterior do Cloud Connector Edition por 60 dias após o lançamento de uma nova versão. A Microsoft dará suporte à versão 2.0.1 por 60 dias após o lançamento de 2,1 para permitir a atualização. Não há mais suporte para todas as versões anteriores à versão 2.0.1.
 
-O Cloud Connector Edition é uma oferta híbrida que consiste em um conjunto de máquinas virtuais (VMs) empacotadas que implementam a conectividade PSTN local com o sistema de telefonia no Office 365. Ao implantar uma topologia mínima do Skype for Business Server em um ambiente virtualizado, os usuários em sua organização que estão hospedados na nuvem podem receber serviços PBX da nuvem da Microsoft, mas a conectividade PSTN é fornecida por meio da voz local existente ti.
+O Cloud Connector Edition é uma oferta híbrida que consiste em um conjunto de máquinas virtuais (VMs) empacotadas que implementam a conectividade PSTN local com o sistema de telefonia no Office 365. Ao implantar uma topologia mínima do Skype for Business Server em um ambiente virtualizado, os usuários em sua organização que estão hospedados na nuvem podem receber serviços PBX da nuvem da Microsoft, mas a conectividade PSTN é fornecida por meio da infraestrutura de voz local existente.
 
 ![Diagrama de topologia mostrando o Cloud PBX gateway conectando o Cloud PBX a uma implantação local do Skype for Business.](../../media/bd898e69-6458-4276-aebe-1854f28ed6fa.png)
 
-Como o Cloud Connector permite que você integre o sistema de telefonia nos serviços do Office 365 com seu ambiente de telefonia existente — por exemplo, PBX, dispositivos analógicos e centros de chamadas, você pode implementar uma migração em fases da sua solução de telefonia existente para telefone Sistema no Office 365.
+Como o Cloud Connector permite que você integre o sistema de telefonia nos serviços do Office 365 com seu ambiente de telefonia existente — por exemplo, PBX, dispositivos analógicos e centros de chamadas, você pode implementar uma migração em fases da sua solução de telefonia existente para o sistema de telefonia no Office 365.
 
 Por exemplo, suponha que sua empresa tenha um Call Center sofisticado com funcionalidade específica que o sistema de telefonia do Office 365 não fornece. Você pode optar por deixar os usuários do Call Center com a solução existente, mas mover outros usuários para o sistema de telefonia no Office 365.
 
@@ -52,7 +52,7 @@ O Cloud Connector fornecerá o roteamento entre os usuários hospedados no local
 
 Considere o seguinte ao planejar sua implantação do Cloud Connector Edition:
 
-- Para usar o Cloud Connector para aproveitar as vantagens das soluções de voz em nuvem, você precisará se inscrever para um locatário do Office 365 que inclui o sistema de telefonia no Office 365. Se você ainda não tiver um locatário do Office 365, poderá aprender como se inscrever aqui: [Office 365 para empresas](https://products.office.com/business/office). Observe que você precisará se inscrever para um plano que inclua o Skype for Business online.
+- Para usar o Cloud Connector para aproveitar as vantagens das soluções de voz em nuvem, você precisará se inscrever em uma organização do Office 365 que inclui o sistema de telefonia no Office 365. Se você ainda não tiver uma organização do Office 365, poderá aprender como se inscrever aqui: [Office 365 para empresas](https://products.office.com/business/office). Observe que você precisará se inscrever para um plano que inclua o Skype for Business online.
 
 - Para registrar dispositivos do Cloud Connector com o serviço do Skype for Business Online e para executar vários cmdlets, o Cloud Connector 2,0 e posterior requer uma conta do Office 365 dedicada com os direitos de administrador de locatários do Skype for Business. As versões anteriores a 2,0 do Cloud Connector exigem uma conta dedicada do Office 365 com direitos de administrador global do locatário.
 
@@ -101,7 +101,7 @@ Este tópico contém as seguintes seções:
 ## <a name="cloud-connector-edition-components"></a>Componentes do Cloud Connector Edition
 <a name="BKMK_Components"> </a>
 
-Com o Cloud Connector Edition, você implanta um conjunto de VMs empacotadas que contêm uma topologia mínima do Skype for Business Server, consistindo em um componente de borda, um componente de mediação e uma função de repositório de gerenciamento central (CMS). Você também instalará um controlador de domínio, que é necessário para o funcionamento interno do Cloud Connector. Esses serviços são configurados para o híbrido com o locatário do Office 365 que inclui o Skype for Business Online Services.
+Com o Cloud Connector Edition, você implanta um conjunto de VMs empacotadas que contêm uma topologia mínima do Skype for Business Server, consistindo em um componente de borda, um componente de mediação e uma função de repositório de gerenciamento central (CMS). Você também instalará um controlador de domínio, que é necessário para o funcionamento interno do Cloud Connector. Esses serviços são configurados para o híbrido com sua organização do Office 365 que inclui o Skype for Business Online Services.
 
 ![Componentes do Cloud Connector Edition](../../media/f2d4b8a7-c2f4-4cfc-8137-f187399c1298.png)
 
@@ -262,7 +262,7 @@ Antes de implantar o Cloud Connector Edition, verifique se você tem o seguinte 
 
   - Registro DNS externo para serviço de borda de acesso do componente de borda; por exemplo, AP.\<nome\>de domínio. Você precisa de um registro por site PSTN. Esse registro deve conter endereços IP de todas as bordas desse site.
 
-- Um locatário do Office 365 com todos os registros DNS e SRV necessários criados.
+- Uma organização do Office 365 com todos os registros DNS e SRV necessários criados.
 
     > [!IMPORTANT]
     > Quando você integra seu locatário ao Cloud Connector Edition, não há suporte para o uso do sufixo de domínio padrão,. onmicrosoft.com, como um domínio SIP para sua organização. > não é possível usar SIP. \<Nome\> do domínio como o nome da interface de proxy de acesso à borda do Cloud Connector, pois esse registro DNS é usado pelo Office 365.
@@ -442,7 +442,7 @@ Se forem necessárias regras mais restritivas, consulte as seguintes URLs de lis
 
 O componente de borda precisa resolver os nomes externos dos serviços do Office 365 e os nomes internos de outros componentes do Cloud Connector.
 
-Cada componente de borda é um computador multihomed com interfaces opostas externas e internas. O Cloud Connector implanta servidores DNS no componente do controlador de domínio dentro da rede de perímetro. Você pode apontar o servidor de borda para o servidor DNS no perímetro de todas as resoluções de nome, mas precisa habilitar o servidor DNS do Cloud Connector para resolver nomes externos, configurando uma zona DNS contendo um ou mais registros DNS A para consultas externas que se referem ao nome pesquisa em outros servidores DNS públicos.
+Cada componente de borda é um computador multihomed com interfaces opostas externas e internas. O Cloud Connector implanta servidores DNS no componente do controlador de domínio dentro da rede de perímetro. Você pode apontar o servidor de borda para o servidor DNS no perímetro de todas as resoluções de nome, mas precisa habilitar o servidor DNS do Cloud Connector para resolver nomes externos, configurando uma zona DNS contendo um ou mais registros DNS A para consultas externas que fazem referência a outros servidores DNS públicos.
 
 No arquivo. ini, se você definir o nome FQDN dos gateways do mesmo espaço de domínio que o domínio SIP, a zona autoritativa desse domínio SIP será criada no servidor DNS dentro do perímetro. Se o servidor de borda for apontado para este servidor DNS para resolver nomes, a borda nunca resolverá o _sipfederationtls. \<seudomínio\> registro DNS, que é necessário para o fluxo de chamadas. Nesse caso, a Microsoft recomenda que você forneça um servidor DNS na interface externa de borda para resolver pesquisas de nome de Internet e cada componente de borda deve usar um arquivo HOST para resolver outros nomes de componente do Cloud Connector para endereços IP.
 

@@ -22,18 +22,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6c359f1d078448af33a8871ebcbe0f5cb73c1b15
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: a3d65b6af52764a28548cb9ddf190959f89e8f97
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836153"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778327"
 ---
 # <a name="upgrade-basic"></a>Atualização básica
 
 <a name="about-upgrade-basic"></a>
 
-Projetado para pequenas organizações ou pessoas que usam o Skype for Business online para IM (chat) e apenas reuniões, a lista de verificação de atualização básica é um plano de ação acelerado que inclui as atividades principais, recomendadas e os recursos associados para implementar uma Passe com sucesso do Skype for Business para o Teams.
+Projetado para pequenas organizações ou pessoas que usam o Skype for Business online para IM (chat) e somente reuniões, a lista de verificação de atualização básica é um plano de ação acelerado que inclui as atividades principais, recomendadas e os recursos associados para a implementação de uma mudança bem-sucedida do Skype for Business para o Microsoft Teams.
 
 Essas dez etapas fáceis fornecem tudo o que você precisa para uma atualização bem-sucedida. Elas foram projetadas para serem concluídas em cerca de 30 a 45 dias, mas você deve ajustar as datas de conclusão de tarefas com base no cronograma de atualização da sua organização.
 
@@ -114,7 +114,7 @@ Os usuários que forem amplamente adotados no Skype for Business poderão precis
 Fornecer uma notificação bastante aos seus usuários dará a eles tempo para se familiarizar com o Microsoft Teams sem afetar negativamente a produtividade, resultando em uma experiência de usuário mais positiva. Envie uma comunicação para informar o que está mudando, por que ele está mudando e como elas podem se preparar para ela.
 
 > [!Note]
-> Se necessário, você pode habilitar o Teams para seus usuários por meio do portal de administração do Office 365 no momento.
+> Se necessário, você pode habilitar o Teams para seus usuários por meio do centro de administração do Microsoft 365 no momento.
 
 **Recursos**
 

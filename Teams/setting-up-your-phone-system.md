@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Saiba como configurar o sistema telefônico (Cloud PBX) para sua organização. '
-ms.openlocfilehash: e1ae56200132ab4468b6db8d490c12d11b7a6deb
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.openlocfilehash: 8c534607ca50baae75c3b0b2fdf5bc54359c22e4
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888720"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779808"
 ---
 # <a name="set-up-phone-system-in-your-organization"></a>Configurar o sistema telefônico em sua organização
 
@@ -81,7 +81,7 @@ Além de obter números de telefone para seus usuários do Office 365, você pod
 ### <a name="get-new-service-numbers-using-the-teams-admin-center"></a>Obter novos números de serviço usando o centro de administração do teams
 
 
-1. Entre no Office 365 com sua conta corporativa ou de estudante.
+1. Entre com sua conta corporativa ou de estudante.
 
 2. Vá para o **centro de administração do teams**.
 
@@ -105,12 +105,12 @@ Se você seguiu as etapas acima, então já comprou e atribuiu um Sistema de Tel
 
 ## <a name="step-6-if-you-want-to-set-up-audio-conferencing"></a>Etapa 6: Se você deseja configurar a Audioconferência
 
-Às vezes, as pessoas em sua organização precisarão usar um telefone para ligar para uma reunião. O Microsoft Teams inclui o recurso de audioconferência por apenas essa situação. As pessoas podem fazer chamadas para reuniões do teams usando um telefone, em vez de usar o aplicativo Teams em um dispositivo móvel ou computador.
+Às vezes, as pessoas da sua organização precisam usar um telefone para ligar para uma reunião. O Microsoft Teams inclui o recurso de audioconferência por apenas essa situação. As pessoas podem fazer chamadas para reuniões do teams usando um telefone, em vez de usar o aplicativo Teams em um dispositivo móvel ou computador.
 Para obter informações sobre como configurar a videoconferência, consulte [Configurar a conferência de áudio para o Microsoft Teams](set-up-audio-conferencing-in-teams.md).
 
 ## <a name="step-7-if-you-want-to-set-up-a-cloud-call-queue"></a>Etapa 7: se você quiser configurar uma fila de chamadas em nuvem
 
-As filas de chamadas na nuvem incluem Saudações que são usadas quando alguém liga para um número de telefone para sua organização, a capacidade de colocar automaticamente as chamadas em espera e a capacidade de Pesquisar o próximo agente de chamada disponível para lidar com a chamada enquanto as pessoas que chamam são ouvindo música em espera. Você pode criar uma ou várias filas de chamadas para sua organização.
+As filas de chamadas na nuvem incluem Saudações que são usadas quando alguém liga para um número de telefone para sua organização, a capacidade de colocar automaticamente as chamadas em espera e a capacidade de Pesquisar o próximo agente de chamada disponível para manipular a chamada, enquanto as pessoas que ligam estão ouvindo música em espera. Você pode criar uma ou várias filas de chamadas para sua organização.
 
 Para obter mais informações sobre filas de chamadas, consulte [criar uma fila de chamadas na nuvem](create-a-phone-system-call-queue.md).
 
@@ -127,7 +127,7 @@ Depois de seguir a **Etapa 4 acima** e conseguir seus números de serviço, voc�
 
 - Para conferências de áudio, você pode atribuir um número exclusivo a uma ponte de conferência acessando o **Teams Center Teams Center** > **reuniões** > **Conference Bridges** e siga as instruções.  Para obter mais informações, consulte [alterar os números de chamada tarifada ou gratuita na sua ponte de audioconferência](change-the-phone-numbers-on-your-audio-conferencing-bridge.md).
 
-- Para atendedores automáticos, você pode atribuir um número exclusivo a um atendedor automático acessando > **** > **atendedores automáticos** do **centro de administração do teams**e siga as instruções.  Para obter mais informações, consulte [configurar um atendedor automático na nuvem](create-a-phone-system-auto-attendant.md).
+- Para atendedores automáticos, você pode atribuir um número exclusivo a um atendedor automático acessando > **Voice** > **atendedores automáticos** do **centro de administração do teams**e siga as instruções.  Para obter mais informações, consulte [configurar um atendedor automático na nuvem](create-a-phone-system-auto-attendant.md).
 
 - Para filas de chamadas, você pode atribuir um número exclusivo a uma fila de chamadas acessando**filas de chamadas** de**voz** > do **Centro** > de administração do Teams e siga as instruções. Para obter mais informações, consulte [criar uma fila de chamadas em nuvem](create-a-phone-system-call-queue.md).
 
@@ -147,7 +147,7 @@ Se você não configurar a cobrança de créditos de comunicações e atribuir u
 
 [Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](getting-service-phone-numbers.md)
 
-[Disponibilidade da Audioconferência e dos Planos de Chamadas por país e região](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+[Disponibilidade de Audioconferência e Planos de Chamadas por país e região](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
     
   
  
