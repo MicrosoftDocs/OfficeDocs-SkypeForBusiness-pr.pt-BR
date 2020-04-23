@@ -1,5 +1,5 @@
 ---
-title: Experimentar ou comprar conferências de áudio no Office 365 para Teams
+title: Experimentar ou comprar videoconferências no Microsoft 365 para Teams
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -23,14 +23,14 @@ ms.custom:
 - ms.lync.lac.CpcGettingStarted
 - seo-marvel-mar2020
 description: 'Veja como experimentar ou adquirir licenças de Audioconferência (Conferência PSTN) para o Office 365 para configurar chamadas de conferência em que as pessoas podem discar. '
-ms.openlocfilehash: 6f30f59e20ee6fd8516bcfe420e2b936e9749a8e
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 35d84c84f02c459af32aa764d877f4b8c64d4d63
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139690"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780160"
 ---
-# <a name="try-or-purchase-audio-conferencing-in-office-365-for-microsoft-teams"></a>Experimentar ou comprar a Audioconferência no Office 365 para o Microsoft Teams
+# <a name="try-or-purchase-audio-conferencing-in-microsoft-365-for-microsoft-teams"></a>Experimentar ou comprar videoconferências no Microsoft 365 para Microsoft Teams
 
 Às vezes, as pessoas da sua organização precisam usar um telefone para ligar para uma reunião. O Microsoft Teams inclui o recurso de videoconferência por apenas essa situação! As pessoas podem fazer chamadas para reuniões do Microsoft Teams usando um telefone, em vez de usar o aplicativo Microsoft Teams em um dispositivo móvel ou computador.
 

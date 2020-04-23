@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Saiba como configurar e testar atendedores automáticos da nuvem para o Microsoft Teams.
-ms.openlocfilehash: 05a70c578812ee5ecdd91214ab253843fe67471c
-ms.sourcegitcommit: 56ceda54ca48d2984298d4d1f26017c0147d4431
+ms.openlocfilehash: dee263c08751f21e1fde19965d23595d5da27e39
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "43508624"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43788977"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>Configurar um atendedor automático do Cloud
 
@@ -333,7 +333,7 @@ Nesta página, você pode definir quem está listado no seu diretório e dispon�
 
 Se você selecionar **todos os usuários online**, todos os usuários qualificados serão incluídos na pesquisa de diretório.
 
-**Grupos de usuários personalizados** Essa opção permite pesquisar e selecionar um grupo do Office 365, uma lista de distribuição ou um grupo de segurança já criado em sua organização. Os usuários são adicionados ao diretório se estiverem no grupo, lista de distribuição ou grupo de segurança escolhido do Office 365, e eles forem **usuários online com uma licença do sistema de telefone** ou hospedados no local usando o Skype for Business Server. Você pode adicionar vários grupos do Office 365, listas de distribuição e grupos de segurança ao diretório.
+**Grupos de usuários personalizados** Essa opção permite pesquisar e selecionar um grupo do Office 365, uma lista de distribuição ou um grupo de segurança já criado em sua organização. Os usuários são adicionados ao diretório se estiverem no grupo, lista de distribuição ou grupo de segurança escolhido do Office 365, e eles forem **usuários online com uma licença do sistema de telefone** ou hospedados no local usando o Skype for Business Server. Você pode adicionar vários grupos do Microsoft 365, listas de distribuição e grupos de segurança ao diretório.
 
 <a name="dialscope"> </a>
 
@@ -343,7 +343,7 @@ Nesta página, você pode configurar quais usuários em sua organização serão
 
 Se você selecionar **nenhum**, todos os usuários qualificados serão incluídos na pesquisa de diretório.
 
-**Grupo de usuários personalizado** Você pode pesquisar um grupo do Office 365, uma lista de distribuição ou um grupo de segurança que tenha sido criado em sua organização. Os usuários desse grupo são excluídos da pesquisa de diretório. Você pode adicionar vários grupos do Office 365, listas de distribuição e grupos de segurança.
+**Grupo de usuários personalizado** Você pode pesquisar um grupo do Office 365, uma lista de distribuição ou um grupo de segurança que tenha sido criado em sua organização. Os usuários desse grupo são excluídos da pesquisa de diretório. Você pode adicionar vários grupos do Microsoft 365, listas de distribuição e grupos de segurança.
 
 
 Se você deixar as configurações no padrão quando discar por nome estiver habilitada, todos os usuários qualificados serão incluídos na pesquisa de diretório.

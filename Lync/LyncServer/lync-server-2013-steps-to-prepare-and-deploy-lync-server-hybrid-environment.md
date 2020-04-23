@@ -12,12 +12,12 @@ ms:contentKeyID: 48185060
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 207cb9b8435294abeac12f67506eb356a6ca73c6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: bc029df06f22524fa99c232edf6bbe6aa9759f5a
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208317"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780170"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -64,8 +64,8 @@ A tabela a seguir lista as etapas necessárias para preparar seu ambiente para u
 <tr class="even">
 <td></td>
 <td><p>Adicionar seu domínio e verificar a propriedade</p></td>
-<td><p>Seu domínio, às vezes, também é conhecido como seu <em>domínio personalizado</em>. Você deve adicionar seu domínio ao seu locatário do Office 365 e, em seguida, siga as etapas para validar o domínio com o Office 365. Isso é para confirmar que você é o proprietário do domínio.</p>
-<p>Para adicionar seu domínio ao seu locatário do Office 365, siga as etapas descritas em <a href="https://go.microsoft.com/fwlink/p/?linkid=254983">Adicionar seu domínio ao Office 365</a>.</p>
+<td><p>Seu domínio, às vezes, também é conhecido como seu <em>domínio personalizado</em>. Você deve adicionar seu domínio à sua organização do Office 365 e, em seguida, siga as etapas para validar o domínio com o Office 365. Isso é para confirmar que você é o proprietário do domínio.</p>
+<p>Para adicionar seu domínio à sua organização do Office 365, siga as etapas descritas em <a href="https://go.microsoft.com/fwlink/p/?linkid=254983">Adicionar seu domínio ao Office 365</a>.</p>
 <p>Conclua todas as etapas em cada seção do tópico, incluindo &quot;editar registros DNS para seus serviços do Office 365.&quot;</p></td>
 </tr>
 <tr class="odd">

@@ -173,7 +173,7 @@
 | 4/3/2020 | [Recursos de treinamento de administradores-Microsoft Teams](/MicrosoftTeams/itadmin-readiness) | modificado |
 | 4/3/2020 | [URLs e intervalos de endereços IP do Office 365](/MicrosoftTeams/office-365-urls-ip-address-ranges) | modificado |
 | 4/3/2020 | [Usar o Office 365 e conectores personalizados](/MicrosoftTeams/office-365-custom-connectors) | modificado |
-| 4/3/2020 | [Grupos do Office 365 e o Microsoft Teams](/MicrosoftTeams/office-365-groups) | modificado |
+| 4/3/2020 | [Microsoft 365 Groups e Microsoft 365 ou Office 365softTeams/Office-365-groups) | modificado |
 | 4/3/2020 | [Ativar o Microsoft Teams na sua organização do Office 365](/MicrosoftTeams/office-365-set-up) | modificado |
 | 4/3/2020 | [Implementar a qualidade de serviço em clientes do teams](/MicrosoftTeams/qos-in-teams-clients) | modificado |
 | 4/3/2020 | [Implementar Qualidade de Serviço no Microsoft Teams](/MicrosoftTeams/qos-in-teams) | modificado |
@@ -225,7 +225,7 @@
 | 4/3/2020 | [Gerenciar as configurações da sua organização](/MicrosoftTeams/enable-features-office-365) | modificado |
 | 4/3/2020 | [Opções de email quando as configurações de conferência de áudio mudam](/MicrosoftTeams/enable-or-disable-sending-emails-when-their-settings-change-in-teams) | modificado |
 | 4/3/2020 | [Permitir que os usuários registrem o nome de uma reunião](/MicrosoftTeams/enable-users-to-record-their-name-when-they-join-a-meeting-in-teams) | modificado |
-| 4/3/2020 | [Aprimorar os grupos existentes do Office 365](/MicrosoftTeams/enhance-office-365-groups) | modificado |
+| 4/3/2020 | [Aprimorar os grupos existentes do Microsoft 365](/MicrosoftTeams/enhance-office-365-groups) | modificado |
 | 4/3/2020 | [Comitê de direcionamento para implantação de voz em nuvem](/MicrosoftTeams/envision-steering-committee-complete-guide) | modificado |
 | 4/3/2020 | [Expanda o Microsoft Teams em toda a sua organização](/MicrosoftTeams/expand-teams-across-your-org/expand-teams-across-your-organization-landing-page) | modificado |
 | 4/3/2020 | [Interface do DSTU2 de integração do EHR e aplicativo pacientes](/MicrosoftTeams/expand-teams-across-your-org/healthcare/dstu2-interface) | modificado |
@@ -270,7 +270,7 @@
 | 4/3/2020 | [Restrições de chamadas de saída-conferências de áudio & chamadas PSTN](/MicrosoftTeams/outbound-calling-restriction-policies) | modificado |
 | 4/3/2020 | [Transferir números de telefone para o Microsoft Teams](/MicrosoftTeams/phone-number-calling-plans/transfer-phone-numbers-to-teams) | modificado |
 | 4/3/2020 | [Números de telefone para audioconferência](/MicrosoftTeams/phone-numbers-for-audio-conferencing-in-teams) | modificado |
-| 4/3/2020 | [Planejar os Grupos do Office 365 ao criar equipes](/MicrosoftTeams/plan-office-365-groups) | modificado |
+| 4/3/2020 | [Plano para grupos do Microsoft 365 ao criar equipes](/MicrosoftTeams/plan-office-365-groups) | modificado |
 | 4/3/2020 | [Microsoft 365 governo-implantações de DoD](/MicrosoftTeams/plan-for-government-dod) | modificado |
 | 4/3/2020 | [Implantações altas do Microsoft 365 governo-GCC](/MicrosoftTeams/plan-for-government-gcc-high) | modificado |
 | 4/3/2020 | [Implantações do governo Microsoft 365-GCC](/MicrosoftTeams/plan-for-government-gcc) | modificado |

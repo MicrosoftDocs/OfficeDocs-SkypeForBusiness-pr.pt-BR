@@ -18,21 +18,21 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 339353c1f4d7dc15b3cec69e275d0dd6111896eb
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: b91045dae26d14ca1e902812a705e8fa99bdd164
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825089"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779187"
 ---
 # <a name="enhance-my-service"></a>Aprimorar meu serviço
 
 Este artigo oferece uma visão geral dos requisitos para aproveitar ao máximo os serviços de voz em nuvem para a sua organização. Ao monitorar continuamente as funcionalidades do serviço de voz em nuvem, você pode ter certeza de que está fornecendo o valor máximo para a sua organização.
 
 ## <a name="enhance-my-service-overview"></a>Melhorar a visão geral do serviço
-Depois de implantar com êxito a conferência de áudio ou o sistema telefônico com os serviços de planos de chamadas para sua organização e operar o serviço com qualidade e confiabilidade, a próxima etapa é avaliar regularmente se você tem oportunidades de Aprimore seus serviços. Isso faz parte do planejamento contínuo do aperfeiçoamento de serviços que é um padrão moderno para gerenciamento de serviços em nuvem. 
+Depois de implantar com êxito a conferência de áudio ou o sistema telefônico com os serviços de planos de chamadas para sua organização e operar o serviço com qualidade e confiabilidade, a próxima etapa é avaliar regularmente se você tem oportunidades para aprimorar seus serviços. Isso faz parte do planejamento contínuo do aperfeiçoamento de serviços que é um padrão moderno para gerenciamento de serviços em nuvem. 
 
-Uma ótima maneira de garantir que você esteja sempre obtendo o máximo dos seus serviços é monitorar os [roteiros públicos do teams](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams) para os novos aprimoramentos de recursos que podem ser de interesse para a sua organização. Se você tiver acesso ao portal de administração do Office 365, receberá atualizações regulares dos mesmos sobre os recursos novos e dinâmicos por meio do nosso centro de mensagens. 
+Uma ótima maneira de garantir que você esteja sempre obtendo o máximo dos seus serviços é monitorar os [roteiros públicos do teams](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams) para os novos aprimoramentos de recursos que podem ser de interesse para a sua organização. Se você tiver acesso ao centro de administração do Microsoft 365, receberá atualizações regulares dos mesmos sobre os recursos novos e dinâmicos por meio do nosso centro de mensagens. 
 
 Além disso, como as organizações crescem e mudam, você deve levar tempo para revisitar e atualizar seus casos de uso empresarial em intervalos regulares para garantir que o serviço seja configurado para atender às necessidades atuais da sua organização.  Assegure-se de que você esteja obtendo comentários do mundo real de seus usuários e especialistas internos, estabelecendo canais de feedback em sua organização. Elas podem ser conversas informais, reuniões regulares ou por meio de um canal do teams ou da Comunidade do Yammer. 
 
