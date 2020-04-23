@@ -12,16 +12,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Visão geral do uso das ferramentas de telemetria do Skype for Business online para monitorar uma implementação local em um cenário híbrido.
-ms.openlocfilehash: 910bfe2a1af1f39976d0098aeb1fd23a7ef31490
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ad4d7ddb270bc4e4227eea7d33c37411ea96fa8c
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765229"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779657"
 ---
 # <a name="plan-call-data-connector"></a>Planejar o Call data Connector
 
-## <a name="overview"></a>Visão Geral
+## <a name="overview"></a>Visão geral
 
 Este tópico descreve os benefícios, as considerações de planejamento e os requisitos para implementar o conector de dados de chamadas do Skype for Business Server. Para obter mais informações sobre a configuração do conector de dados de chamadas, consulte [Configure Call data Connector](configure-call-data-connector.md).
 
@@ -62,10 +62,10 @@ Os requisitos a seguir pressupõem que você já tenha o Skype for Business Serv
 
    Para saber mais, confira [planejar conectividade híbrida entre o Skype for Business Server e o office 365](plan-hybrid-connectivity.md) e [Configurar a conectividade híbrida entre o Skype for Business Server e o Office 365](configure-hybrid-connectivity.md).
 
-- Autentique o seu locatário do Office 365 e assegure-se de ter as seguintes funções habilitadas:
+- Autentique na sua organização do Office 365 e assegure-se de ter as seguintes funções habilitadas:
 
   - Administrador do Skype for Business Server
-  - Administrador Global do Office 365
+  - Administrador Global
 
 - Se você ainda não tiver feito isso, ative o painel de qualidade de chamada conforme descrito em [ativando e usando o painel de qualidade de chamada para o Microsoft Teams e o Skype for Business online](/microsoftteams/turning-on-and-using-call-quality-dashboard).
 

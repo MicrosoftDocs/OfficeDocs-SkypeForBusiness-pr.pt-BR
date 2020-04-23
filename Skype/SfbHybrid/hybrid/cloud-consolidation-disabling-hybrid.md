@@ -21,20 +21,20 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Este apêndice inclui etapas detalhadas para desabilitar o híbrido como parte da consolidação em nuvem para o Teams e o Skype for Business.
-ms.openlocfilehash: 8fc9745c75f9b449751164065f974ccd8088218f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 053d632b5a07b7ce7cca8ef7a1ddf45a673bcf59
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726971"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780140"
 ---
 # <a name="disable-hybrid-to-complete-migration-to-the-cloud"></a>Desabilitar a migração híbrida para concluir a nuvem
 
-Após mover todos os usuários do local para a nuvem, você poderá encerrar a implantação do Skype for Business local. Além de remover qualquer hardware, uma etapa crítica é separar logicamente a implantação local do Office 365 desabilitando o híbrido. A desabilitação híbrida consiste em três etapas:
+Depois de mover todos os usuários do local para a nuvem, você poderá desativar a implantação do Skype for Business local. Além de remover qualquer hardware, uma etapa crítica é separar logicamente essa implantação local do Office 365, desativando a configuração híbrida. A desabilitação híbrida consiste em três etapas:
 
-1. Atualizar registros DNS para apontar para o Office 365.
+1. Atualização dos registros DNS para apontar para o Office 365.
 
-2. Desabilitar o domínio de divisão no locatário do Office 365.
+2. Desabilite o domínio dividido na organização do Office 365.
 
 3. Desabilite a capacidade no local para se comunicar com o Office 365.
 
@@ -56,7 +56,7 @@ O DNS externo da organização para a organização local precisa ser atualizado
     |CNAME| cumpra|   3600|   Webdir. online. Lync. <span>com|
     |CNAME| Dialin  |3600|  Webdir. online. Lync. <span>com|
 
-2.  *Desabilitar o espaço de endereçamento SIP compartilhado no locatário do Office 365.*
+2.  *Desabilitar o espaço de endereçamento SIP compartilhado na organização do Office 365.*
 O comando a seguir precisa ser feito de uma janela do PowerShell do Skype for Business online.
 
     ```PowerShell

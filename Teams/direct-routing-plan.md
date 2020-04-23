@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Saiba como o roteamento direto do Microsoft Phone System permite conectar um controlador de borda de sessão (SBC) compatível fornecido pelo cliente a um sistema telefônico da Microsoft.
-ms.openlocfilehash: 0140e4d2cfae95531602daec5a859a85888e9d15
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 7d5a69ff3b0533d17d6582489fad6e156d8df1c7
+ms.sourcegitcommit: 6fbaab29076e16fe18f8faeb7e012a0815c2369d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780690"
+ms.locfileid: "43785934"
 ---
 # <a name="plan-direct-routing"></a>Planejar o Roteamento Direto
 
@@ -299,8 +299,8 @@ O intervalo de portas dos processadores de mídia é mostrado na tabela a seguir
 
 |**Traffic**|**De**|**Até**|**Porta de origem**|**Porta de destino**|
 |:--- |:--- |:--- |:--- |:--- |
-|UDP/SRTP|Processador de mídia|SBC|49152 – 53247|Definido no SBC|
-|UDP/SRTP|SBC|Processador de mídia|Definido no SBC|49152 – 53247|
+|UDP/SRTP|Processador de mídia|SBC|3478-3481 e 49152 – 53247|Definido no SBC|
+|UDP/SRTP|SBC|Processador de mídia|Definido no SBC|3478-3481 e 49152 – 53247|
 
   > [!NOTE]
   > A Microsoft recomenda pelo menos duas portas por chamada simultânea no SBC.

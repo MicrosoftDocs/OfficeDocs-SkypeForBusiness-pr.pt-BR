@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: As seções a seguir fornecem orientação sobre como configurar um ambiente com várias florestas em um modelo de floresta de recursos/usuários para fornecer a funcionalidade do Skype for Business em um cenário híbrido.
-ms.openlocfilehash: 33945b245009a221d709e13d587f435aa4c054d8
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 3a0a5f08c9be4c6ba4c954a4100794d83d46ea53
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41983036"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780120"
 ---
 # <a name="deploy-a-resource-forest-topology"></a>Implantar uma topologia de floresta de recursos
  
@@ -52,7 +52,7 @@ Em uma topologia de floresta de recursos, as florestas de recursos que hospedam 
   
 ## <a name="synchronize-accounts-into-the-forest-hosting-skype-for-business"></a>Sincronizar contas com a floresta que hospeda o Skype for Business
 
-Quando o Skype for Business Server é implantado em uma floresta (uma floresta de recursos), mas fornece funcionalidade aos usuários em uma ou mais florestas (florestas de contas), os usuários nas outras florestas devem ser representados como objetos de usuário desabilitados na floresta onde o Skype for O Business Server é implantado. Um produto de gerenciamento de identidades, como o Microsoft Identity Manager, precisa ser implantado e configurado para provisionar e sincronizar os usuários das florestas de contas na floresta onde o Skype for Business Server está implantado. Os usuários devem ser sincronizados na floresta que hospeda o Skype for Business Server como objetos de usuário desabilitados. Os usuários não podem ser sincronizados como objetos de contato do Active Directory, pois o Azure Active Directory Connect não sincronizará corretamente os contatos com o Azure AD para uso com o Skype.
+Quando o Skype for Business Server é implantado em uma floresta (uma floresta de recursos), mas fornece funcionalidade aos usuários em uma ou mais florestas (florestas de contas), os usuários nas outras florestas devem ser representados como objetos de usuário desabilitados na floresta onde o Skype for Business Server é implantado. Um produto de gerenciamento de identidades, como o Microsoft Identity Manager, precisa ser implantado e configurado para provisionar e sincronizar os usuários das florestas de contas na floresta onde o Skype for Business Server está implantado. Os usuários devem ser sincronizados na floresta que hospeda o Skype for Business Server como objetos de usuário desabilitados. Os usuários não podem ser sincronizados como objetos de contato do Active Directory, pois o Azure Active Directory Connect não sincronizará corretamente os contatos com o Azure AD para uso com o Skype.
   
 Independentemente de qualquer configuração de várias florestas, a floresta que hospeda o Skype for Business Server também pode fornecer funcionalidade para qualquer usuário habilitado que exista na mesma floresta.
   
@@ -73,9 +73,9 @@ Não sincronize os UPNs entre as florestas. Encontramos durante os testes que pr
     
 - Se o UPN exclusivo de cada floresta de usuário foi sincronizado com o objeto desabilitado associado na floresta de recursos, a autenticação do AD FS falhará. A regra de correspondência localizaria o UPN no objeto na floresta de recursos, que foi desabilitado e não pôde ser usado para autenticação. 
     
-## <a name="create-an-office-365-tenant"></a>Criar um locatário do Office 365
+## <a name="create-an-office-365-organization"></a>Criar uma organização do Office 365
 
-Em seguida, você precisará provisionar um locatário do Office 365 para usar com sua implantação. Para obter mais informações, consulte [assinaturas, licenças, contas e locatários para ofertas de nuvem da Microsoft](https://docs.microsoft.com/office365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings). 
+Em seguida, você precisará provisionar uma organização do Office 365 para usar com sua implantação. Para obter mais informações, consulte [assinaturas, licenças, contas e locatários para ofertas de nuvem da Microsoft](https://docs.microsoft.com/office365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings). 
   
 ## <a name="configure-active-directory-federation-services"></a>Configurar serviços de Federação do Active Directory
 

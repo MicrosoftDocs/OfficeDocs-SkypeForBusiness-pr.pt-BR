@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: Saiba como mover usuários do Skype for Business online para o local.
-ms.openlocfilehash: 0b2143a1705aff3f0b74fb0194d3d10e3d55771b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0add74a2480f4caed493e6e448427aa2462db714
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726731"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779667"
 ---
 # <a name="move-users-from-the-cloud-to-on-premises"></a>Mover usuários da nuvem para o local 
 
@@ -49,7 +49,7 @@ Depois de mover um usuário da nuvem de volta para o local:
 
 ### <a name="move-users-with-move-csuser"></a>Mover usuários com o move-CsUser
 
-O move-CsUser está disponível em uma janela do PowerShell do Shell de gerenciamento do Skype for Business local. Você deve ter privilégios suficientes no ambiente local, bem como no locatário do Office 365, conforme descrito em [credenciais administrativas necessárias](move-users-between-on-premises-and-cloud.md#required-administrative-credentials). Você pode usar uma única conta que tenha privilégios em ambos os ambientes ou pode iniciar uma janela local do Shell de gerenciamento do Skype for Business Server com credenciais locais e usar o `-Credential` parâmetro para especificar credenciais para uma conta do Office 365 com a função administrativa necessária do Office 365.
+O move-CsUser está disponível em uma janela do PowerShell do Shell de gerenciamento do Skype for Business local. Você deve ter privilégios suficientes no ambiente local, bem como na organização do Office 365, conforme descrito em [credenciais administrativas necessárias](move-users-between-on-premises-and-cloud.md#required-administrative-credentials). Você pode usar uma única conta que tenha privilégios em ambos os ambientes ou pode iniciar uma janela local do Shell de gerenciamento do Skype for Business Server com credenciais locais e usar o `-Credential` parâmetro para especificar credenciais para uma conta do Office 365 com a função administrativa necessária do Office 365.
 
 Para mover um usuário para o local usando o move-CsUser:
 

@@ -1,5 +1,5 @@
 ---
-title: Mover usuários entre o local e a nuvem
+title: Mover os usuários entre um ambiente local e a nuvem
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -18,21 +18,21 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 'Resumo: em uma implantação local do Skype for Business Server que está habilitada para o híbrido, você pode mover os usuários entre o ambiente local e a nuvem (seja no Microsoft Teams ou no Skype for Business online)..'
-ms.openlocfilehash: 721352e1aa13cce8a9c03aa71c73f11e8c0d2452
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: aea3bed7db6c7821d957aa0e6d56cbafd548edb7
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42008603"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780080"
 ---
-# <a name="move-users-between-on-premises-and-cloud"></a>Mover usuários entre o local e a nuvem
+# <a name="move-users-between-on-premises-and-cloud"></a>Mover os usuários entre um ambiente local e a nuvem
 
-Em uma implantação local do Skype for Business Server que está habilitada para o híbrido, você pode mover os usuários entre o ambiente local e a nuvem (seja no Microsoft Teams ou no Skype for Business online). Se um usuário está localizado no local ou na nuvem é conhecido como a home page do Skype for Business do usuário:
+Em uma implantação local do Skype for Business Server habilitada para híbrido, é possível mover os usuários entre o ambiente local e a nuvem (para o Microsoft Teams ou para o Skype for Business Online). Se um usuário está localizado no local ou na nuvem, é conhecido como a página inicial do Skype for Business do usuário:
 
 - Os usuários hospedados no local interagem com os servidores do Skype for Business local.
-- Os usuários hospedados online podem interagir com o serviço do Skype for Business online.
+- Os usuários que estão hospedados online podem interagir com o serviço do Skype for Business Online.
 
-*Os usuários do teams inerentemente à casa do Skype for Business, estejam usando o Skype for Business ou não.* Se você tiver usuários do Skype for Business no local que também usam o Microsoft Teams (lado a lado), esses usuários estão hospedados no local. Os usuários do Microsoft Teams com o Skype for Business no local não têm a capacidade de interoperar com os usuários do Skype for Business do seu cliente do Microsoft Teams, nem podem se comunicar de equipes com usuários em uma organização federada. Essa funcionalidade só estará disponível depois que o usuário for movido do Skype for Business no local para o online. Ao mover um usuário para o online, você pode permitir que eles usem o Skype for Business online (e, opcionalmente, o Microsoft Teams) ou você possa apenas torná-los a equipes. Se sua organização já estiver usando o Microsoft Teams, é altamente recomendável movê-los para o modo apenas do Microsoft Teams, o que garantirá que o roteamento de todos os bate-papos de entrada e chamadas fique no cliente do Microsoft Teams. Para obter mais detalhes, consulte [Teams coexistência com Skype for Business](/microsoftteams/coexistence-chat-calls-presence) e [migração e orientação de interoperabilidade para organizações que usam o Skype for Business](/microsoftteams/migration-interop-guidance-for-teams-with-skype).
+*Os usuários do teams inerentemente à casa do Skype for Business, estejam usando o Skype for Business ou não.* Se você tiver usuários do Skype for Business no local que também usam o Microsoft Teams (lado a lado), esses usuários estão hospedados no local. Os usuários do Microsoft Teams com o Skype for Business no local não têm a capacidade de interoperar com os usuários do Skype for Business do seu cliente do Microsoft Teams, nem podem se comunicar de equipes com usuários em uma organização federada. Essa funcionalidade só estará disponível depois que o usuário for movido do Skype for Business no local para o online. Ao mover um usuário para o online, você pode permitir que ele use o Skype for Business Online (e, opcionalmente, o Teams) ou pode deixá-los Somente Teams. Se sua organização já estiver usando o Teams, é altamente recomendado que você a mova para o modo Somente Teams, o que garantirá que o roteamento de todas as chamadas e chats cheguem ao seu cliente do Teams. Para obter mais detalhes, consulte [Teams coexistência com Skype for Business](/microsoftteams/coexistence-chat-calls-presence) e [migração e orientação de interoperabilidade para organizações que usam o Skype for Business](/microsoftteams/migration-interop-guidance-for-teams-with-skype).
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
@@ -40,36 +40,36 @@ Pré-requisitos para mover um usuário para a nuvem (seja o Skype for Business s
 
 - A organização deve ter o Azure AD Connect configurado corretamente e sincronizar todos os atributos relevantes para o usuário, conforme descrito em [Configure Azure ad Connect](configure-azure-ad-connect.md).
 - O Skype for Business híbrido deve ser configurado, conforme descrito em [Configure Skype for Business Hybrid](configure-federation-with-skype-for-business-online.md).
-- O usuário deve ter uma licença para o Skype for Business online (plano 2) atribuída e, se estiver usando o Microsoft Teams, também deverá ter uma licença do Microsoft Teams.  Além disso:
-    - Se o usuário estiver habilitado para conferência discada no local, por padrão, o usuário também deverá ter uma licença de conferência de áudio atribuída no Office 365 antes de você executar mover o usuário online. Após a migração para a nuvem, o usuário será provisionado para audioconferência na nuvem. Se, por algum motivo, você quiser mover um usuário para a nuvem, mas não usar a funcionalidade de audioconferência, poderá substituir essa verificação especificando o `BypassAudioConferencingCheck` parâmetro no `Move-CsUser`.
-    - Se o usuário estiver habilitado para o Enterprise Voice no local, por padrão, o usuário deverá ter uma licença de sistema de telefonia atribuída no Office 365 antes de você mover o usuário online. Após a migração para a nuvem, o usuário será provisionado para o sistema de telefonia na nuvem. Se, por algum motivo, você quiser mover um usuário para a nuvem, mas não usar a funcionalidade do sistema de telefonia, poderá substituir essa `BypassEnterpriseVoiceCheck`verificação especificando `Move-CsUser`o parâmetro no.
+- O usuário deve receber uma licença do Skype for Business Online (Plano 2) e se for usar o Teams, será necessário ter uma licença dele também.  Além disso:
+    - Se o usuário estiver habilitado para conferência discada no local, por padrão, o usuário também deverá ter uma licença de conferência de áudio atribuída no Office 365 antes de você executar mover o usuário online. Depois de migrar para a nuvem, o usuário será provisionado para conferências de áudio na nuvem. Se, por algum motivo, você quiser mover um usuário para a nuvem, mas não usar a funcionalidade de audioconferência, poderá substituir essa verificação especificando o `BypassAudioConferencingCheck` parâmetro no `Move-CsUser`.
+    - Se o usuário estiver habilitado para o Enterprise Voice no local, por padrão, o usuário deverá ter uma licença de sistema de telefonia atribuída no Office 365 antes de você mover o usuário online. Depois de migrar para a nuvem, o usuário será provisionado para o sistema de telefonia na nuvem. Se, por algum motivo, você quiser mover um usuário para a nuvem, mas não usar a funcionalidade do sistema de telefonia, poderá substituir essa `BypassEnterpriseVoiceCheck`verificação especificando `Move-CsUser`o parâmetro no.
 
 
-## <a name="moving-users"></a>Movendo usuários
+## <a name="moving-users"></a>Mover usuários
 
 Quando um usuário é movido do local para a nuvem:
 
-- O usuário começa a usar o Skype for Business Online Services na nuvem para qualquer funcionalidade do Skype for Business.
-- Os usuários do teams se tornam habilitados para interoperabilidade com os usuários do Skype for Business e também podem federar-se com outras organizações.
+- O usuário começa a usar os serviços do Skype for Business Online na nuvem para qualquer funcionalidade do Skype for Business.
+- Os usuários do Teams se tornam habilitados para a interoperabilidade com os usuários do Skype for Business e também podem federar-se com outras organizações.
 - Os contatos de no local são movidos para a nuvem (Skype for Business ou o Teams).
-- Reuniões existentes organizadas por eles agendadas no futuro serão migradas para online: se os usuários forem movidos diretamente para o TeamsOnly (veja abaixo), as reuniões serão convertidas em reuniões do Teams, caso contrário, as reuniões permanecerão com o Skype for Business, mas serão migradas para que sejam hospedado online em vez de no local.  A migração de reuniões ocorre de forma assíncrona e começa aproximadamente 90 minutos após mover o usuário.  Para determinar o status da migração da reunião, você pode usar [Get-csMeetingMigrationStatus](../../SfbOnline/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md#managing-mms). Observe que qualquer conteúdo carregado antes da reunião não é movido.
+- Reuniões existentes organizadas por eles agendadas no futuro são migradas para online: se os usuários forem movidos diretamente para o TeamsOnly (veja abaixo), as reuniões serão convertidas em reuniões do Teams, caso contrário, as reuniões permanecerão com o Skype for Business, mas serão migradas para que sejam hospedadas online em vez de locais.  A migração de reuniões ocorre de forma assíncrona e começa aproximadamente 90 minutos depois de mover o usuário.  Para determinar o status da migração de reunião, você pode usar [Get-csMeetingMigrationStatus](../../SfbOnline/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md#managing-mms). Todo o conteúdo carregado antes da reunião não é movido.
 
-Para mover os usuários entre o local e a nuvem (seja o Microsoft Teams ou o Skype for Business online), use o cmdlet Move-CsUser ou o painel de controle de administração do Skype for Business, ambos são ferramentas locais. Essas ferramentas dão suporte a três caminhos de movimentação diferentes:
+Para mover os usuários entre o local e a nuvem (seja o Microsoft Teams ou o Skype for Business online), use o cmdlet Move-CsUser ou o painel de controle de administração do Skype for Business, ambos são ferramentas locais. Essas ferramentas oferecem suporte a três caminhos de mudança:
 
 - [Do Skype for Business Server (local) para o Skype for Business online](move-users-from-on-premises-to-skype-for-business-online.md).
-- [Do Skype for Business Server (local) diretamente para o Microsoft Teams](move-users-from-on-premises-to-teams.md) (que também os move para o Skype for Business online).  A opção de mover diretamente do local para o Microsoft Teams está disponível no Skype for Business Server 2019, bem como na atualização cumulativa 8 para o Skype for Business Server 2015. As organizações que usam versões anteriores do Skype for Business Server podem mover os usuários para o Microsoft Teams apenas movendo-os para o Skype for Business Online e, em seguida, aplicando o modo TeamsOnly a esses usuários quando estiverem online.
+- [Do Skype for Business Server (local) diretamente para o Microsoft Teams](move-users-from-on-premises-to-teams.md) (que também os move para o Skype for Business online).  A opção de mover diretamente do local para o Microsoft Teams está disponível no Skype for Business Server 2019, bem como na atualização cumulativa 8 para o Skype for Business Server 2015. As organizações que usam versões anteriores do Skype for Business Server podem mover os usuários para o Teams Only movendo-os primeiro para o Skype for Business Online e, em seguida, aplicando o modo Teams Only a esses usuários quando estiverem online.
 - [De online (seja apenas para equipes ou não), para o local](move-users-from-the-cloud-to-on-premises.md).
 
 ## <a name="required-administrative-credentials"></a>Credenciais administrativas necessárias
 
-Para mover os usuários entre o local e a nuvem, você deve usar uma conta com privilégios suficientes no ambiente do Skype for Business Server local, bem como no locatário do Office 365. Você pode usar uma conta que tenha todos os privilégios necessários ou usar duas contas, caso em que você acessará as ferramentas locais usando as credenciais locais e, em seguida, nas ferramentas que forneceria credenciais adicionais para um Office 365 conta administrativa.  
+Para mover os usuários entre o local e a nuvem, você deve usar uma conta com privilégios suficientes no ambiente do Skype for Business Server local, bem como na organização do Office 365. Você pode usar uma conta que tenha todos os privilégios necessários ou usar duas contas e, nesse caso, você acessará as ferramentas locais usando credenciais locais e, nessas ferramentas, você fornecerá as credencias adicionais para uma conta administrativa do Office 365.  
 
-- No ambiente local, o usuário que está realizando a movimentação deve ter a função CSServerAdminstrator no Skype for Business Server.
-- No Office 365, o usuário que está realizando a movimentação deve ser um administrador global ou deve ter as funções de administrador do Skype for Business e de usuário.  
+- No ambiente local, o usuário que realizará a mudança deve ter a função CSServerAdminstrator no Skype for Business Server.
+- No Office 365, o usuário que realizará a mudança deve ser um administrador global ou deve ter as funções de administrador do Skype for Business e de administrador de usuários.  
 
     > [!Important]
     > - Se estiver usando o painel de controle de administração do Skype for Business, você será solicitado a fornecer credenciais para uma conta do Office 365 com as funções apropriadas, conforme indicado acima. Você deve fornecer uma conta que termina em. onmicrosoft.com. Se isso não for possível, use o cmdlet Move-CsUser.
-    >- Se estiver usando o move-CsUser no PowerShell, você pode usar uma conta que termina em. onmicrosoft.com ou pode usar qualquer conta local que seja sincronizada com o Azure AD, desde que você também especifique o parâmetro HostedMigrationOverrideUrl no cmdlet . O valor da URL de substituição de migração hospedada é uma variante da seguinte URL:https://adminXX.online.lync.com/HostedMigration/hostedmigrationService.svc<br>Na URL acima, substitua o XX por dois ou três caracteres, determinado como a seguir:
+    >- Se estiver usando o move-CsUser no PowerShell, você pode usar uma conta que termina em. onmicrosoft.com ou pode usar qualquer conta local que seja sincronizada com o Azure AD, desde que você também especifique o parâmetro HostedMigrationOverrideUrl no cmdlet. O valor da URL de substituição de migração hospedada é uma variante da seguinte URL:https://adminXX.online.lync.com/HostedMigration/hostedmigrationService.svc<br>Na URL acima, substitua o XX por dois ou três caracteres, determinado como a seguir:
     >   - Em uma sessão do PowerShell do Skype for Business Online, execute o seguinte cmdlet:<br>`Get-CsTenant|ft identity`
     >    - O valor resultante será no seguinte formato:<br>`OU=<guid>,OU=OCS Tenants,DC=lyncXX001,DC=local`
     >    - O código de dois ou três dígitos é o XX contido na seção, DC = lyncXX001. Se for um código de dois caracteres, ele será um dígito seguido por um número (como 0A). Se for um código de três caracteres, será duas letras seguidas por um dígito (como JP1). Em todos os casos, você verá 001 imediatamente após o código XX.
@@ -88,16 +88,16 @@ Para obter mais detalhes sobre as opções de telefonia em ambientes híbridos, 
 
 ## <a name="other-considerations"></a>Outras considerações
 
-As políticas (por exemplo, para controlar mensagens, reuniões e comportamento de chamadas) em ambientes locais e online são independentes. Convém considerar a configuração de qualquer política no ambiente e atribuí-las ao usuário antes de mover o usuário do local para a nuvem, para que eles tenham a configuração correta assim que forem migrados para o online.
+As políticas (por exemplo, para controlar mensagens, reuniões e comportamento de chamadas) em ambientes online e locais são independentes. Convém considerar a configuração de qualquer política no ambiente e atribuí-las ao usuário antes de mover o usuário do local para a nuvem, para que eles tenham a configuração correta assim que forem migrados para o online.
 
 ## <a name="see-also"></a>Confira também
 
-[Mover usuários do local para o Skype for Business Online](move-users-from-on-premises-to-skype-for-business-online.md)
+[Mover usuários do ambiente local para o Skype for Business Online](move-users-from-on-premises-to-skype-for-business-online.md)
 
-[Mover usuários do local para o Microsoft Teams](move-users-from-on-premises-to-teams.md)
+[Migrar usuários de um ambiente local para o Teams](move-users-from-on-premises-to-teams.md)
 
-[Configurando o serviço de migração de reunião (MMS)](../../SfbOnline/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md)
+[Configurando o Meeting Migration Service (MMS)](../../SfbOnline/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md)
 
-[Planejar roteamento direto](/microsoftteams/direct-routing-plan)
+[Planejar o Roteamento Direto](/microsoftteams/direct-routing-plan)
 
 [Move-CsUser](https://docs.microsoft.com/powershell/module/skype/move-csuser)

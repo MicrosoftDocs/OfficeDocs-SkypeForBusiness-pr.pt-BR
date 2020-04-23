@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 60891c2e5283b8e9cdaa9e8d7852768bbb52d8aa
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 2f118611d55fe9192f32402946d672901b0f66ee
+ms.sourcegitcommit: 6fbaab29076e16fe18f8faeb7e012a0815c2369d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776926"
+ms.locfileid: "43785864"
 ---
 <a name="what-the-guest-experience-is-like"></a>Como é a experiência do convidado
 =================================
@@ -34,6 +34,11 @@ Quando um convidado é convidado a ingressar em uma equipe, ele recebe uma mensa
 Todos os membros da equipe veem uma mensagem no tópico do canal anunciando que o proprietário da equipe adicionou um convidado e informou o nome do convidado. Todos da equipe podem identificar facilmente quem é um convidado. Conforme mostrado na captura de tela a seguir de uma equipe de exemplo, uma faixa indica que "esta equipe tem convidados" e um rótulo **(convidado)** aparece ao lado do nome de cada convidado.
     
 ![Captura de tela mostrando usuários convidados de notificação de cabeçalho](media/guest-experience-image2.png "A captura de tela mostra uma parte do canal de marketing da Northwind Traders, com a notificação na faixa superior informando que a equipe tem convidados e os usuários que os convidados são identificados com a palavra GUEST ao lado do nome.")
+
+Confira estes vídeos sobre a experiência de convidado no Microsoft Teams:
+- [Ingressar em uma equipe como um convidado](https://support.office.com/article/join-a-team-as-a-guest-928d1eef-61e2-49ec-b754-c2fe86b34824)
+- [Ingressar em uma reunião do teams com convidados](https://support.office.com/article/join-a-company-meeting-a120c282-063d-46b8-b973-851197ab75d8)
+
 
 ## <a name="comparison-of-team-member-and-guest-capabilities"></a>Comparação entre os recursos de membro da equipe e de convidado
 
