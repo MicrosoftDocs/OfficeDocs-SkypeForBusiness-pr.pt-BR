@@ -17,12 +17,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3d7b2dec3b4077ddfb06035a2d7069b04c789db1
-ms.sourcegitcommit: 1d24b62f41bce4f8d86d6060291af1267f75a2a2
+ms.openlocfilehash: bdc38c7ad6f7a7eaef0fa0cfb2a9d48745b92bef
+ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43209443"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43749588"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Limites e especificações para o Microsoft Teams
 
@@ -110,6 +110,7 @@ Os nomes de canal também não podem começar com um caractere de sublinhado (_)
 |------------|---------------|
 |Número de pessoas em uma reunião  | 250    |
 |Tamanho máximo do arquivo do PowerPoint | 2GB|
+|As equipes mantêm [gravações de reunião](cloud-recording.md) que não são carregadas no Microsoft Stream, disponíveis para download local | 20 dias |
 
 ### <a name="meeting-expiration"></a>Expiração de reunião
 
