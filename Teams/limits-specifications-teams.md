@@ -17,12 +17,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bdc38c7ad6f7a7eaef0fa0cfb2a9d48745b92bef
-ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.openlocfilehash: a2e1073736ff927c34c56f3236d98e338384942d
+ms.sourcegitcommit: 6fbaab29076e16fe18f8faeb7e012a0815c2369d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 04/22/2020
-ms.locfileid: "43749588"
+ms.locfileid: "43785874"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Limites e especificações para o Microsoft Teams
 
@@ -39,7 +39,7 @@ Este artigo descreve alguns dos limites, das especificações e de outros requis
 |Número de equipes de toda a organização permitidas em um locatário | 5     |
 |Número de membros em uma [equipe de toda a organização](create-an-org-wide-team.md) | 5.000       |
 |Número de equipes que um administrador global pode criar        |  500.000   |
-|Número de equipes que um locatário de Office 365 pode ter    | 500.000&sup2;     |
+|Número de equipes que uma organização no Office 365 pode ter    | 500.000&sup2;     |
 |Número de canais por equipe    | 200 (inclui canais excluídos)&sup3;         |
 |Número de canais privados por equipe    |30|
 |Tamanho da postagem de conversa do canal | Aproximadamente 28 KB pela postagem <sup>4</sup> |
@@ -63,6 +63,7 @@ O bate-papo do Teams funciona em um back-end do Microsoft Exchange, para que os 
 |Recurso  | Limite máximo  |
 |---------|---------|
 |Número de pessoas em um bate-papo particular <sup>1</sup>  | 100    |
+|O número de pessoas em uma chamada de áudio ou vídeo do chat | 20 |
 |Número de anexos de arquivo<sup>2</sup>  |10     |
 |Tamanho do chat | Aproximadamente 28 KB pela postagem <sup>3</sup> |
 
@@ -109,6 +110,7 @@ Os nomes de canal também não podem começar com um caractere de sublinhado (_)
 |Recurso     | Limite máximo |
 |------------|---------------|
 |Número de pessoas em uma reunião  | 250    |
+|O número de pessoas em uma chamada de áudio ou vídeo do chat | 20 |
 |Tamanho máximo do arquivo do PowerPoint | 2GB|
 |As equipes mantêm [gravações de reunião](cloud-recording.md) que não são carregadas no Microsoft Stream, disponíveis para download local | 20 dias |
 
@@ -128,7 +130,7 @@ Os nomes de canal também não podem começar com um caractere de sublinhado (_)
 |------------|---------------|
 |Tamanho da audiência | 10.000 participantes |
 |Duração do evento | 4 horas |
-|Eventos ao vivo simultâneos em um locatário do office 365 | 15 |
+|Eventos ao vivo simultâneos em uma organização no Office 365 | 15 |
 
 Para saber mais sobre eventos ao vivo e uma comparação dos eventos ao vivo do Teams para a Transmissão de Reunião do Skype, vá para [Eventos ao vivo do Teams e Transmissão de Reunião do Skype](teams-live-events/plan-for-teams-live-events.md#teams-live-events-and-skype-meeting-broadcast).
 
@@ -146,7 +148,7 @@ Ao armazenar os arquivos na biblioteca de documentos do SharePoint Online e no O
 
 Como o Teams é executado em um back-end do SharePoint Online para compartilhamento de arquivos, as limitações do SharePoint se aplicam à seção Arquivos em uma Equipe. Estes são os limites de armazenamento aplicáveis ao SharePoint Online.
 
-|Recurso                 |Office 365 Business Essentials  |Office 365 Business Premium   |Office 365 Enterprise E1  |Office 365 Enterprise E3  |Office 365 Enterprise E5  |Office 365 Enterprise F1  |
+|Recurso                 |Microsoft 365 Business Basic  |Microsoft 365 Business Standard   |Office 365 Enterprise E1  |Office 365 Enterprise E3  |Office 365 Enterprise E5  |Office 365 Enterprise F1  |
 |------------------------|---------|---------|---------|---------|---------|---------|
 |Armazenamento                 |1 TB por organização mais 10 GB por licença adquirida  |1 TB por organização mais 10 GB por licença adquirida  |1 TB por organização mais 10 GB por licença adquirida   |1 TB por organização mais 10 GB por licença adquirida |1 TB por organização mais 10 GB por licença adquirida  |1 TB por organização           |
 |Armazenamento de arquivos do Teams |Até 25 TB por conjunto de sites ou grupo |Até 25 TB por conjunto de sites ou grupo |Até 25 TB por conjunto de sites ou grupo |Até 25 TB por conjunto de sites ou grupo |Até 25 TB por conjunto de sites ou grupo |Até 25 TB por conjunto de sites ou grupo |

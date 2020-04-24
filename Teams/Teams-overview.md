@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.allteamsdocuments
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8fe24de92f46b5850edc9fe6631bb02a03be8bcb
-ms.sourcegitcommit: 545e466f1fa9163bb00cc96c8db70a70b02af697
+ms.openlocfilehash: fe9e0b5220466971749bd3a8fd12c0c854e42009
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "42928254"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778467"
 ---
 # <a name="welcome-to-microsoft-teams"></a>Bem-vindo ao Microsoft Teams
 Se você é o administrador do Microsoft Teams em sua organização, está no lugar certo. Se você está pronto para começar a usar o Teams, comece em [Como implementar o Teams](How-to-roll-out-teams.md).
@@ -38,7 +38,7 @@ Se você está procurando a Ajuda do Teams para o usuário final, clique em **Aj
 
 ## <a name="teams-architecture"></a>Arquitetura do Teams
 
-O Teams se baseia nos grupos do Office 365, no Microsoft Graph e na mesma segurança, conformidade e gerenciamento de nível corporativo que o restante do Office 365. O Teams utiliza as identidades armazenadas no Azure Active Directory (Azure AD). O Teams continua trabalhando mesmo quando você está offline ou com condições de rede desejadas.
+O Teams foi elaborado com base nos grupos do Microsoft 365, no Microsoft Graph e na mesma segurança, conformidade e gerenciamento de nível corporativo que o restante do Office 365. O Teams utiliza as identidades armazenadas no Azure Active Directory (Azure AD). O Teams continua trabalhando mesmo quando você está offline ou com condições de rede desejadas.
 
 Para ver onde o Teams se encaixa no contexto do Microsoft 365, confira este cartaz de arquitetura: [O Teams como parte do Microsoft 365](teams-architecture-solutions-posters.md#teams-as-part-of-microsoft-365)
 
@@ -68,7 +68,7 @@ Para saber mais:
 - [Usar as funções de administrador para gerenciar o Teams](using-admin-roles.md)
 - [Gerenciar o Teams no centro de administração do Teams](manage-teams-skypeforbusiness-admin-center.md)
 - [Gerenciar o Teams durante a transição para o novo centro de administração do Teams](manage-teams-in-modern-portal.md)
-- [Ativar os recursos do Microsoft Teams na sua organização do Office 365](enable-features-office-365.md)
+- [Gerenciar os recursos do Teams no Microsoft 365 ou no Office 365](enable-features-office-365.md)
 
 Para ficar por dentro do que será lançado para o Microsoft Teams e todos os outros produtos e serviços do Office 365 em sua organização, confira o [Centro de mensagens](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter) e o [Roteiro do Teams](https://www.microsoft.com/microsoft-365/roadmap?rtc=1%26filters=Microsoft%20Teams%26searchterms=microsoft%2Cteams). Você receberá comunicados sobre recursos novos e atualizados, alterações planejadas e problemas para se manter informado e preparado. 
 

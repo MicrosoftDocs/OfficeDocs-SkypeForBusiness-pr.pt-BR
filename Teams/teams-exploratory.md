@@ -9,7 +9,7 @@ ms.reviewer: baluc
 ms.service: msteams
 search.appverid: MET150
 localization_priority: Priority
-description: Usuários do Office 365 que não possuem licenças para o Microsoft Teams podem iniciar uma licença do Teams Exploratory.
+description: Usuários do Microsoft 365 ou do Office 365 que não possuem licenças para o Microsoft Teams podem começar com uma licença do Teams Exploratory.
 f1.keywords:
 - NOCSH
 ms.collection:
@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4991945d47ecda85964068530118bcf3ef1f616a
-ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.openlocfilehash: 4cc744b8cbe9942712857309f061b998957661b4
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 04/22/2020
-ms.locfileid: "43749788"
+ms.locfileid: "43780380"
 ---
 <a name="manage-the-microsoft-teams-exploratory-license"></a>Gerenciar a licença do Microsoft Teams Exploratory
 =======================================================
@@ -54,7 +54,7 @@ Os planos de serviço que um administrador exibirá como parte da experiência d
 
 ## <a name="whos-eligible"></a>Quem está qualificado?
 
-Desde que o usuário tenha um endereço de e-mail de domínio gerenciado do AAD e atualmente não tenha ou não tenha recebido uma licença do Teams, ele estará qualificado para esta experiência. Por exemplo, se um usuário tiver o Office 365 Business (que não inclui o Teams), eles estará qualificado para a experiência do Teams Exploratory.
+Desde que o usuário tenha um endereço de e-mail de domínio gerenciado do AAD e atualmente não tenha ou não tenha recebido uma licença do Teams, ele estará qualificado para esta experiência. Por exemplo, se um usuário tiver o Microsoft 365 Business (que não inclui o Teams), eles estará qualificado para a experiência do Teams Exploratory.
 
 Habilite os usuários para se inscreverem em aplicativos e versões de avaliação (no centro de administração do Office 365). Para obter mais informações, confira [Gerenciar a experiência do Teams Exploratory](#manage-the-teams-exploratory-experience), mais adiante neste artigo. 
 
