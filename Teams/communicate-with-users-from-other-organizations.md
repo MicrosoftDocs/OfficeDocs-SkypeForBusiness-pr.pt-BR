@@ -17,12 +17,12 @@ description: Aprenda a se comunicar com usuários de outras organizações no Mi
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: f7a18390841c6a62488c060b4279110a61dffb23
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: fb22aeaef31d04a9d359bc43742c85b72bf12c97
+ms.sourcegitcommit: 6fbaab29076e16fe18f8faeb7e012a0815c2369d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824919"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43785924"
 ---
 <a name="communicate-with-users-from-other-organizations-in-microsoft-teams"></a>Comunique-se com usuários de outras organizações no Microsoft Teams
 ======================================================
@@ -73,6 +73,7 @@ Se você estiver pronto para ativar o acesso de convidados em sua organização,
 | É possível bloquear um usuário individual | Não | Sim |
 | Há suporte para @menções | Sim<sup>4</sup> | Sim |
 | Fazer chamadas privadas | Sim | Sim |
+| Exibir o número de telefone dos participantes da reunião discada | Não | Sim |
 | Permitir vídeo IP | Sim | Sim |
 | Modo de compartilhamento de tela | Sim<sup>4</sup> | Sim |
 | Permitir Reunir Agora
