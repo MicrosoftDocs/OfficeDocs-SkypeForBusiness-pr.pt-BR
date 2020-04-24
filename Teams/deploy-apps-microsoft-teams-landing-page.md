@@ -17,12 +17,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9c2ef9f509f64e044567d9286704458b4dc91596
-ms.sourcegitcommit: 7093388425b34c80e444a50d062290187b80047d
+ms.openlocfilehash: d47a14dd84a1ccbe73d07ea3cbd638b5ed6159db
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/22/2020
-ms.locfileid: "42229896"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776616"
 ---
 # <a name="apps-bots--connectors-in-microsoft-teams"></a>Aplicativos, bots e conectores no Microsoft Teams
 
@@ -62,20 +62,20 @@ Os aplicativos são aceitos pelos usuários e gerenciados pelo administrador ou 
 
 ### <a name="bots-for-private-chats-and-channels"></a>Bots para chats privados e canais
 
-Os bots são programas automatizados que respondem a consultas ou fornecem atualizações e notificações sobre detalhes que os usuários consideram interessantes ou sobre os quais desejam se manter informados. Os bots permitem que os usuários interajam com serviços de nuvem, como gerenciamento de tarefas, agendamento e pesquisa através de um chat no Teams. O Teams oferece suporte a bots em chats privados e canais. Os administradores podem controlar se o uso de bots é permitido em um locatário do Office 365.
+Os bots são programas automatizados que respondem a consultas ou fornecem atualizações e notificações sobre detalhes que os usuários consideram interessantes ou sobre os quais desejam se manter informados. Os bots permitem que os usuários interajam com serviços de nuvem, como gerenciamento de tarefas, agendamento e pesquisa através de um chat no Teams. O Teams oferece suporte a bots em chats privados e canais. Os administradores podem controlar se o uso de bots é permitido em uma organização do Office 365.
 
-| Pergunte-se | Ação |
+| Pergunte a si mesmo | Action |
 |--------------|--------|
-|Desejo permitir bots personalizados em meu locatário do Office 365?|Para saber mais sobre a adição de bots, confira [Adicionar bots para canais e chats privados no Microsoft Teams](add-bots.md). Para obter mais informações sobre a ativação ou desativação de bots personalizados, confira [Configurações de administrador para aplicativos no Microsoft Teams](admin-settings.md).|
+|Desejo permitir bots personalizados na minha organização do Office 365?|Para saber mais sobre a adição de bots, confira [Adicionar bots para canais e chats privados no Microsoft Teams](add-bots.md). Para obter mais informações sobre a ativação ou desativação de bots personalizados, confira [Configurações de administrador para aplicativos no Microsoft Teams](admin-settings.md).|
 |||
 
 ### <a name="built-in-and-custom-tabs"></a>Guias internas e personalizadas
 
 Os proprietários e membros da equipe podem incluir guias em um canal, chat privado e chat em grupo para ajudar a integrar seus serviços de nuvem. Adicione guias para ajudar os usuários a acessar e gerenciar os dados que eles mais usam ou que mais precisam. Nos canais, as guias Conversas e Arquivos são criadas por padrão. Em cada chat privado, as guias Conversas, Arquivos, Organização e Atividade são criadas por padrão. Além dessas guias internas, você pode criar e adicionar guias personalizadas. Para saber como ativar ou desativar os aplicativos Teams de sua organização, leia [Configurações de administrador para aplicativos no Teams](admin-settings.md).
 
-| Pergunte-se | Ação |
+| Pergunte-se | Action |
 |--------------|--------|
-|Desejo permitir guias personalizadas em meu locatário do Office 365?|Para obter mais informações, confira [Configurar as guias internas e personalizadas no Teams](built-in-custom-tabs.md).|
+|Desejo permitir guias personalizadas na minha organização do Office 365?|Para obter mais informações, confira [Configurar as guias internas e personalizadas no Teams](built-in-custom-tabs.md).|
 |||
 
 ### <a name="office-365-and-custom-connectors"></a>Office 365 e conectores personalizados

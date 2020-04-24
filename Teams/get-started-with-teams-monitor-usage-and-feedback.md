@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b8cc942b1f249a78622d49f2880eed7282e900c0
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 2604a0dd6aa662d807ae878dc31800736529833c
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837051"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778437"
 ---
 # <a name="monitor-usage-and-feedback-in-microsoft-teams"></a>Monitorar o uso e os comentários no Microsoft Teams
 É importante saber como os usuários estão usando o Teams e como está sendo a experiência deles com o Teams. Os relatórios de uso podem ajudar você a entender melhor os padrões de uso e, com os comentários dos usuários, fornecer informações para orientar a implantação geral e indicar onde priorizar os esforços de treinamento e comunicação.
@@ -54,7 +54,7 @@ Para ver esses relatórios, você deve ser um administrador global do Office 365
 Para saber mais, confira [Análises e relatórios de equipes](teams-analytics-and-reports/teams-reporting-reference.md). 
 
 ### <a name="teams-activity-reports-microsoft-365-admin-center"></a>Relatórios de atividades do Teams (centro de administração do Microsoft 365)
-Você também pode visualizar as atividades do Teams pelos relatórios disponíveis no centro de administração do Office 365. Esses relatórios fazem parte dos relatórios do Office 365 no centro de administração do Office 365 e fornecem informações sobre as atividades do usuário e o uso de dispositivos. 
+Você também pode visualizar as atividades do Teams pelos relatórios disponíveis no centro de administração do Office 365. Estes relatórios fazem parte dos relatórios do Microsoft 365 no Centro de administração do Microsoft 365 e fornecem informações sobre a atividade do usuário e o uso do dispositivo. 
 
 Para ver esses relatórios, acesse o centro de administração do Office 365 e clique em **Relatórios** > **Uso**. Em **Selecionar um relatório**, clique em **Microsoft Teams**. Nele, escolha o relatório que você deseja visualizar.
 
