@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Saiba mais sobre os fatores a serem considerados antes de configurar eventos ao vivo no Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c4a7f60a199a342d69311467bffbc4607854a719
-ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.openlocfilehash: aabd94e8a5c4904f0343e2c8ccb647d632f3fa21
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 04/22/2020
-ms.locfileid: "43752358"
+ms.locfileid: "43779960"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planejar eventos ao vivo no Microsoft Teams
 
@@ -86,7 +86,7 @@ A tabela a seguir destaca os principais recursos oferecidos em eventos ao vivo e
 |Tamanho máximo da audiência |10.000 participantes |10.000 participantes<sup>1</sup> |10.000 participantes<sup>1</sup> |
 |Duração máxima do evento ao vivo |4 horas |4 horas |4 horas |
 |Número máximo de apresentadores e produtores em um evento ao vivo |10 <sup>2</sup> |10 <sup>2</sup> |10 <sup>2</sup> |
-|Número máximo de eventos ao vivo simultâneos por locatário do Office 365 |15  | 15  | 15  |
+|Número máximo de eventos ao vivo simultâneos por organização do Office 365 |15  | 15  | 15  |
 |Criação de evento ao vivo |   Portal de Transmissão de Reunião do Skype |Teams, Yammer via Teams | Teams, Yammer via Teams, Stream |
 |Envolvimento do público – Yammer  |&#x2714; |&#x2714; (experiência integrada) |&#x2714; (experiência integrada) |
 |Envolvimento do público – Perguntas e Respostas Moderadas  |&#x2714;  |&#x2714; |&#x2714; |
@@ -117,7 +117,7 @@ A tabela a seguir destaca os principais recursos oferecidos em eventos ao vivo e
 Você pode usar os eventos ao vivo do Teams em várias regiões do mundo inteiro. As informações a seguir mostram a disponibilidade dos membros e participantes da equipe de eventos.
 
 > [!IMPORTANT]
-> A região do evento é selecionada automaticamente dependendo do organizador e da organização do Office 365.
+> A região do evento é selecionada automaticamente dependendo do organizador e do Microsoft 365 ou do Office 365.
 
 **Disponível nestas regiões**
 
