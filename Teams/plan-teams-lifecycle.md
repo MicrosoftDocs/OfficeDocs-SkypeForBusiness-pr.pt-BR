@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ce58f292fd732c498880936c01d3e1b1343d2aa6
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 29caa32b894c2a407a724f68c11c01cfe567c82e
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137821"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780250"
 ---
 # <a name="plan-for-lifecycle-management-in-teams"></a>Planejar o gerenciamento de ciclo de vida no Teams
 
@@ -40,7 +40,7 @@ Os conceitos e as definições a seguir afetam as decisões que você toma para 
 
 **Microsoft Teams**
 
-Uma _equipe_ é um conjunto de pessoas, conteúdo e ferramentas que possibilitam a colaboração. Uma equipe define quem são seus membros e as permissões e as políticas que se aplicam a eles. As equipes são criadas em Grupos do Office 365. Alterações na associação a um grupo do Office 365 são sincronizadas com a equipe. Assim como outros Grupos do Office 365, as Equipes são provisionadas automaticamente com uma caixa de correio do Exchange, um site do SharePoint, um bloco de anotações do OneNote e outros ativos no Office 365. [Saiba mais sobre os Grupos do Office 365](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
+Uma _equipe_ é um conjunto de pessoas, conteúdo e ferramentas que possibilitam a colaboração. Uma equipe define quem são seus membros e as permissões e as políticas que se aplicam a eles. As equipes são criadas em Grupos do Microsoft 365. Alterações na associação a um grupo do Office 365 são sincronizadas com a equipe. Assim como outros Grupos do Microsoft 365, as equipes são provisionadas automaticamente com uma caixa de correio do Exchange, um site do SharePoint, um bloco de anotações do OneNote e outros ativos do Office 365. Saiba mais sobre os [Grupos do Microsoft 365](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
 
 **Canais**
 
@@ -57,7 +57,7 @@ Determinam quem pode ingressar na equipe:
 
 Os tipos de usuários da equipe determinam o grau de controle que cada membro da equipe tem:
 
--   O _criador da equipe_ tem permissões para criar um grupo ou uma equipe no diretório. O administrador pode restringir esse tipo de usuário a um subconjunto de administradores ou usuários. Para obter mais informações, confira [Gerenciar quem pode criar Grupos do Office 365](https://support.office.com/article/Manage-who-can-create-Office-365-Groups-4c46c8cb-17d0-44b5-9776-005fced8e618). 
+-   O _criador da equipe_ tem permissões para criar um grupo ou uma equipe no diretório. O administrador pode restringir esse tipo de usuário a um subconjunto de administradores ou usuários. Para obter mais informações, confira [Gerenciar quem pode criar Grupos do Microsoft 365](https://support.office.com/article/Manage-who-can-create-Office-365-Groups-4c46c8cb-17d0-44b5-9776-005fced8e618). 
 -   O _proprietário da equipe_ gerencia a associação e as configurações da equipe. Pode haver até 100 proprietários de equipe por equipe.
 -   Um _membro da equipe_ é um membro de sua organização que participa de uma equipe.
 -   Um _convidado_ é um usuário que é externo à sua organização. Qualquer pessoa com um endereço de email poderá ser convidada se a organização tiver habilitado o [acesso de convidado](guest-access.md).
@@ -78,8 +78,8 @@ As funções de administrador de equipe determinam quais recursos cada detentor 
 </thead>
 <tbody>
    <tr>
-    <td valign="top" colspan="2">Administrador de Serviço de Equipes</td>
-    <td valign="top">Gerenciar o serviço de Equipes e criar e gerenciar Grupos do Office 365</td>
+    <td valign="top" colspan="2">Administrador de Serviço do Teams</td>
+    <td valign="top">Gerenciar o serviço do Teams; criar e gerenciar Grupos do Microsoft 365</td>
     <td valign="top">Gerenciar reuniões, inclusive políticas de reunião, configurações e pontes de conferência<sup>1</sup><br><br>Gerenciar voz, inclusive políticas de chamada, inventário e atribuição de números de telefone, filas de chamadas e atendedores automáticos<sup>1</sup><br><br>Gerenciar mensagens, inclusive políticas de mensagens<sup>1</sup><br><br>Gerenciar todas as configurações de toda a organização, inclusive federação, atualização do Teams e configurações de cliente do Teams<sup>1</sup><br><br>Gerenciar as equipes na organização e as configurações associadas, inclusive associação<sup>2</sup><br><br>Exibir a página de perfil do usuário e solucionar problemas de qualidade de chamada do usuário usando o conjunto de ferramentas avançado de solução de problemas<sup>3</sup></td>
 </tr>
 <tr>
@@ -197,7 +197,7 @@ Se uma equipe começar a cair na rotina, considere estas opções:
 
 Quando o trabalho de uma equipe chega ao fim, é importante reconhecer formalmente que terminou. Assim, os membros da equipe são informados do encerramento. Além disso, é impedido o acesso a informações desatualizadas e obsoletas. Você pode usar a própria equipe para realizar tarefas de encerramento, como post-mortem e resumos executivos.
 
-Você pode excluir equipes que você sabe que não precisa (por exemplo, uma equipe criada exclusivamente para testes ou uma equipe que contenha dados confidenciais). Na verdade, as equipes são excluídas com uma “exclusão reversível” que a TI pode reverter por até 21 dias (30 dias para Grupos do Office 365). A exclusão de equipes não afeta os chats nem o conteúdo retidos de acordo com as políticas de conformidade. Os canais também têm uma "exclusão reversível" e podem ser revertidos por até 21 dias após a exclusão.
+Você pode excluir equipes que você sabe que não precisa (por exemplo, uma equipe criada exclusivamente para testes ou uma equipe que contenha dados confidenciais). Na verdade, as equipes são excluídas com uma “exclusão reversível” que a TI pode reverter por até 21 dias (30 dias para Grupos do Microsoft 365). A exclusão de equipes não afeta os chats nem o conteúdo retidos de acordo com as políticas de conformidade. Os canais também têm uma "exclusão reversível" e podem ser revertidos por até 21 dias após a exclusão.
 
 Você também pode usar as políticas de expiração e retenção, além de recursos de arquivamento, para reduzir a exposição de equipes que não estão mais ativas ou cujos proprietários deixaram a organização.
 

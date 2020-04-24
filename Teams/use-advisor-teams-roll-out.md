@@ -19,20 +19,20 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: Use o Assistente do Teams (visualização pública) para ajudar a planejar e concluir a implantação do Microsoft Teams.
-ms.openlocfilehash: 6e4f383983326333bcd8b821d2342872eb89ecd7
-ms.sourcegitcommit: f96d66d08a9d6993edbb9554738dc8236d901933
+ms.openlocfilehash: 006ecf1563da153660902ac4c580253e50632867
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "43053614"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780800"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Use o Assistente do Teams para ajudá-lo na implantação do Microsoft Teams
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-O Assistente do Teams (visualização pública) orienta você na implantação do Microsoft Teams. Ele avalia o ambiente de locatário do Office 365 e identifica as configurações mais comuns que talvez seja necessário atualizar ou modificar antes de poder implantar o Teams com êxito. Em seguida, o Assistente do Teams cria uma Equipe de implantação (no Teams), com canais para cada carga de trabalho que você deseja implantar. Cada carga de trabalho da Equipe de implantação vem com um plano abrangente do Planner que inclui todas as tarefas de implantação para cada carga de trabalho.  Usando esse plano do Planner, você atribuirá tarefas às pessoas responsáveis por cada fase da implantação, incluindo o gerente de projeto, os administradores do Teams e do Office 365, o pessoal do suporte e a equipe de adoção e preparação do usuário. Cada tarefa de implantação contém todas as orientações e recursos necessários para concluir a tarefa com êxito.
+O Assistente do Teams (visualização pública) orienta você na implantação do Microsoft Teams. Ele avalia o ambiente da organização do Office 365 e identifica as configurações mais comuns que talvez seja necessário atualizar ou modificar antes de poder implantar o Teams com êxito. Em seguida, o Assistente do Teams cria uma Equipe de implantação (no Teams), com canais para cada carga de trabalho que você deseja implantar. Cada carga de trabalho da Equipe de implantação vem com um plano abrangente do Planner que inclui todas as tarefas de implantação para cada carga de trabalho.  Usando esse plano do Planner, você atribuirá tarefas às pessoas responsáveis por cada fase da implantação, incluindo o gerente de projeto, os administradores do Teams e do Office 365, o pessoal do suporte e a equipe de adoção e preparação do usuário. Cada tarefa de implantação contém todas as orientações e recursos necessários para concluir a tarefa com êxito.
 
-O Assistente do Teams faz parte do [centro de administração do Teams](https://admin.teams.microsoft.com). No mínimo, você precisará de uma licença do Office 365 Business Essentials para poder aproveitar o Assistente do Teams para integração com os Formulários e o Planner. Para usar o Assistente do Teams, clique no botão **Iniciar** no widget de **Implantação da Carga de Trabalho do Teams** no Painel. Ou vá para **Planejamento** > **Teams Advisor**.
+O Assistente do Teams faz parte do [centro de administração do Teams](https://admin.teams.microsoft.com). No mínimo, você precisará de uma licença do Microsoft 365 Business Basic para poder aproveitar o Assistente do Teams para integração com os Formulários e o Planner. Para usar o Assistente do Teams, clique no botão **Iniciar** no widget de **Implantação da Carga de Trabalho do Teams** no Painel. Ou vá para **Planejamento** > **Teams Advisor**.
 
 > [!IMPORTANT]
 > O Assistente do Teams não está disponível para implantações do Office 365 U.S. Government DoD ou GCC High.
@@ -96,8 +96,8 @@ Além dos [Testes de avaliação de todas as cargas de trabalho](#assessment-tes
 
 |Teste de avaliação  |O que ele informa  |
 |---------|---------|
-|Política de nomenclatura do Grupo do Office 365 configurada     |Se os padrões de nomeação foram configurados para Grupos do Office 365. A política de nomenclatura de grupos do Office 365 permite que sua organização aplique uma estratégia de nomenclatura consistente para equipes criadas pelo usuário e se aplica também a outras cargas de trabalho de Grupos (incluindo o Outlook, o SharePoint, o Planner e o Yammer). Este teste consulta o Azure AD por meio do Microsoft Graph para verificar a existência de políticas de nomenclatura que se aplicam aos grupos do Office 365. Para obter mais informações, confira [Política de Nomenclatura dos Grupos do Office 365](https://docs.microsoft.com/office365/admin/create-groups/groups-naming-policy).    |
-|Política de Expiração de Grupo do Office 365 configurada     |Se uma Política de Expiração de Grupo foi definida para Grupos do Office 365. Isso permite que sua organização remova automaticamente as Equipes inativas. Ela está desativada por padrão. Este teste consulta o Azure AD por meio do Microsoft Graph e relata se o valor foi modificado no padrão. Para obter mais informações, leia [Política de Expiração dos Grupos do Office 365](https://docs.microsoft.com/office365/admin/create-groups/office-365-groups-expiration-policy).    |
+|Política de nomenclatura do Grupo do Office 365 configurada     |Se os padrões de nomeação foram configurados para Grupos do Microsoft 365. A política de nomenclatura de grupos do Microsoft 365 permite que sua organização aplique uma estratégia de nomenclatura consistente para equipes criadas pelo usuário e se aplica também a outras cargas de trabalho de grupos (incluindo o Outlook, o SharePoint, o Planner e o Yammer). Esse teste consulta o Azure AD por meio do Microsoft Graph para verificar a existência de políticas de nomenclatura que se aplicam aos grupos do Microsoft 365. Para obter mais informações, confira [Política de Nomenclatura dos Grupos do Office 365](https://docs.microsoft.com/office365/admin/create-groups/groups-naming-policy).    |
+|Política de Expiração de Grupo do Office 365 configurada     |Se uma Política de Expiração de Grupo foi definida para Grupos do Microsoft 365. Isso permite que sua organização remova automaticamente as Equipes inativas. Ela está desativada por padrão. Este teste consulta o Azure AD por meio do Microsoft Graph e relata se o valor foi modificado no padrão. Para obter mais informações, leia [Política de Expiração dos Grupos do Office 365](https://docs.microsoft.com/office365/admin/create-groups/office-365-groups-expiration-policy).    |
 
 ### <a name="assessments-for-meetings-and-conferencing"></a>Avaliações de reuniões e conferências
 
@@ -131,7 +131,7 @@ Depois que o Assistente do Teams a criar a equipe de Implantação, o bot do Ass
 
 ## <a name="frequently-asked-questions"></a>Perguntas frequentes
 ### <a name="what-are-the-licensing-requirements-for-advisor-for-teams"></a>Quais são os requisitos de licenciamento para o Assistente do Teams?
-No mínimo, você precisará do Office 365 Business Essentials para poder aproveitar o Assistente do Teams para integração com os Formulários e o Planner.
+No mínimo, você precisará do Microsoft 365 Business Basic para poder aproveitar o Assistente do Teams para integração com os Formulários e o Planner.
 
 ### <a name="can-i-delete-the-deployment-team"></a>Posso excluir a Equipe de implantação?
 Depois que o Assistente do Teams tiver criado a Equipe de implantação, gerencie-a como qualquer outra equipe, incluindo a capacidade de excluí-la. Lembre-se de que, se você não excluir a equipe usando o centro de administração do Teams, o centro de administração do Teams relatará que a equipe ainda existe. Esse é um recurso temporário e será corrigido quando o Assistente do Teams deixar o período de visualização pública e ficar geralmente disponível.
