@@ -58,7 +58,7 @@
 ### [Gerenciar aplicativos para o Teams](manage-apps.md)
 ### [Configurações de administração para aplicativos no Teams](admin-settings.md)
 ### [Usar guias internas e personalizadas](built-in-custom-tabs.md)
-### [Usar o Office 365 e conectores personalizados](Office-365-custom-connectors.md)
+### [Use o Microsoft 365 ou Office 365 e conectores personalizados](Office-365-custom-connectors.md)
 ### [Gerenciar seu aplicativo de linha de negócios](manage-your-lob-apps.md)
 ### [Certificação de aplicativo](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Modelos de aplicativos para o Teams](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -143,10 +143,10 @@
 ## Audioconferência
 ### [Planejar sua implantação](deploy-audio-conferencing-teams-landing-page.md)
 
-### [Audioconferência no Office 365](audio-conferencing-in-office-365.md)
-### [Perguntas comuns sobre a Audioconferência](audio-conferencing-common-questions.md)
+### [Audioconferência no Microsoft 365](audio-conferencing-in-office-365.md)
+### [Perguntas comuns sobre a audioconferência](audio-conferencing-common-questions.md)
 ### [Tutorial: Audioconferência no Teams](Tutorial-Audio-Conferencing.yml)
-### [Experimentar ou comprar audioconferência no Office 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
+### [Experimente ou compre a Audioconferência do Microsoft 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
 ### [Período de discagem gratuita da audioconferência](complimentary-dial-out-period.md)
 ### [Benefício da assinatura de Audioconferência “Discar”/”Ligar para mim”](audio-conferencing-subscription-dial-out.md)
 
@@ -717,7 +717,7 @@
 ### [Usar o Planejador de Rede para o Teams](network-planner.md)
 ### [Passo a passo do Planejador de Rede](tutorial-network-planner-example.yml)
 ### [Servidores proxy para Teams ou Skype for Business Online](proxy-servers-for-skype-for-business-online.md)
-### [Planejar-se para grupos do Office 365 ao criar equipes no Teams](plan-office-365-groups.md)
+### [Planejar o Grupos do Microsoft 365 ao criar equipes no Teams](plan-office-365-groups.md)
 ### [Planejar o gerenciamento do ciclo de vida no Teams](plan-teams-lifecycle.md)
 ### [Plano de governança no Teams](plan-teams-governance.md)
 ### [Usar o complemento de teste de rede](use-network-testing-companion.md)
@@ -730,7 +730,7 @@
 ### [Instalar o Teams usando MSI](msi-deployment.md)
 ### [Habilitar o Teams em sua organização](Office-365-set-up.md)
 ### [Como o Microsoft Teams usa a memória](teams-memory-usage-perf.md)
-### [URLs e intervalos de endereços IP do Office 365](office-365-urls-ip-address-ranges.md)
+### [URLs e intervalos de endereços IP do Microsoft 365 e Office 365](office-365-urls-ip-address-ranges.md)
 ### [Teams para infraestruturas de área de trabalho virtualizada (VDI)](teams-for-vdi.md)
 ### [Implantar o Teams para o Surface Hub](teams-surface-hub.md)
 ### [Atualizações de cliente do Teams](teams-client-update.md)
@@ -738,12 +738,12 @@
 
 ## Licenças
 ### [Gerenciamento do acesso de usuários ao Teams](user-access.md)
-### [Licenciamento do Office 365 para o Teams](office-365-licensing.md)
+### [Licenciamento do Microsoft 365 e Office 365 para o Teams](office-365-licensing.md)
 ### [Atribuir licenças do Teams](assign-teams-licenses.md)
 ### [Licenciamento do complemento do Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 #### Opções de licença com base no seu plano
-##### [Office 365 Business Premium](teams-add-on-licensing/office-365-business-premium.md)
-##### [Office 365 ProPlus](teams-add-on-licensing/office-365-premium-pro-plus.md)
+##### [Microsoft 365 Business Standard](teams-add-on-licensing/office-365-business-premium.md)
+##### [Aplicativos do Microsoft 365 para empresas](teams-add-on-licensing/office-365-premium-pro-plus.md)
 ##### [Office 365 Enterprise E1 e E3](teams-add-on-licensing/office-365-enterprise-e1-e3.md)
 ##### [Office 365 Enterprise E5](teams-add-on-licensing/office-365-enterprise-e5-with-audio-conferencing.md)
 ##### [Office 365 Enterprise E5 sem audioconferência](teams-add-on-licensing/office-365-enterprise-e5-without-audio-conferencing.md)
@@ -753,20 +753,20 @@
 ### [Gerenciar a oferta da avaliação comercial do Teams](iw-trial-teams.md)
 ### [Gerenciar a experiência do Teams Exploratory](teams-exploratory.md)
 ### [Gerenciar a versão gratuita do Teams](manage-freemium.md)
-### [Atualizar o Teams gratuitamente para a versão de assinatura do Office 365](upgrade-freemium.md)
+### [Atualize o Teams gratuitamente para a versão de assinatura](upgrade-freemium.md)
 ### [Licenciamento de políticas de mensagens](teams-add-on-licensing/pri-message.md)
 ### [Licença de Usuário Virtual](teams-add-on-licensing/virtual-user.md)
 
 
-## Interoperabilidade com o Office 365
+## Interoperabilidade com o Microsoft 365 e o Office 365
 
-### [Grupos do Office 365 e o Teams](office-365-groups.md)
-### [Aprimorar grupos existentes do Office 365 com o Teams](enhance-office-365-groups.md)
+### [Grupos do Microsoft 365 e o Teams](office-365-groups.md)
+### [Aprimorar os grupos existentes do Microsoft 365 com o Teams](enhance-office-365-groups.md)
 ### [Como o Exchange e o Teams interagem](exchange-teams-interact.md)
 #### [Configurar uma organização híbrida do Exchange para uso com o Teams](exchange-hybrid-organization.md)
 #### [Adicionar o domínio SMTP ao Teams como um domínio aceito no Exchange Online](smtp-accepted-domain.md)
 ### [Como o SharePoint Online e o OneDrive for Business interagem com o Teams](sharepoint-onedrive-interact.md)
-### [Experiência do Teams em um locatário Multi-Geo-enabled do Office 365](teams-experience-o365odb-spo-multi-geo.md)
+### [Experiência do Teams em um locatário habilitado para Multi-Geo do Microsoft 365 ou Office 365](teams-experience-o365odb-spo-multi-geo.md)
 
 
 ## Dispositivos suportados
@@ -899,6 +899,6 @@
 ## Acessibilidade e conformidade
 ### [Declaração de acessibilidade de conformidade na França para o Microsoft Teams](accessibility-declaration-of-conformance-in-france-for-teams.md)
 ### [Soluções de acessibilidade para o Skype for Business Online e o Microsoft Teams](accessibility-solutions-in-france.md)
-### [Planos de chamadas no Office 365 - Código de práticas do Reino Unido](code-of-practice-for-the-united-kingdom-u-k.md)
-### [Planos de chamada no Office 365 - Manipulação de reclamações do código do Reino Unido](complaint-handling-code-for-the-united-kingdom-u-k.md)
+### [Planos de chamadas no Microsoft 365 - Código de práticas do Reino Unido](code-of-practice-for-the-united-kingdom-u-k.md)
+### [Planos de chamada no Microsoft 365 - Manipulação de reclamações do código do Reino Unido](complaint-handling-code-for-the-united-kingdom-u-k.md)
 ### [Termos e condições da chamada de emergência](emergency-calling-terms-and-conditions.md)
