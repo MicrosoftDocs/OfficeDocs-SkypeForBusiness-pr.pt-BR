@@ -9,7 +9,7 @@ ms.reviewer: baluc
 ms.service: msteams
 search.appverid: MET150
 localization_priority: Priority
-description: Usuários do Office 365 que não possuem licenças para o Microsoft Teams podem iniciar uma avaliação de 1 ano do Teams.
+description: Os usuários do Microsoft 365 ou do Office 365 que não estão licenciados para o Microsoft Teams podem iniciar uma avaliação de um ano do Teams.
 f1.keywords:
 - NOCSH
 ms.collection:
@@ -17,17 +17,17 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: a46720a59b5d3530f64bf4f459df13ad7c5cf5de
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 6a0ad5cf058b8dcc5567cfc706ed3edb2cc09adf
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137151"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778347"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Gerenciar a oferta de avaliação na nuvem comercial do Microsoft Teams
 =======================================================
 
-A avaliação do Microsoft Teams Commercial Cloud oferece 1 ano de avaliação do produto para usuários que já possuem o Office 365 em sua organização e não possuem licenças do Microsoft Teams.. Os administradores podem mudar ou desativar esse recurso para os usuários de sua organização.
+A avaliação do Microsoft Teams Commercial Cloud oferece um ano de avaliação do produto aos usuários existentes do Microsoft 365 ou Office 365 em sua organização que não estão licenciados para o Microsoft Teams. Os administradores podem ativar ou desativar esse recurso para os usuários em sua organização.
 
 > [!IMPORTANT]
 > A Avaliação da Nuvem Comercial do Microsoft Teams será substituído pelo Microsoft Teams Exploratory a partir de janeiro de 2020. Para saber mais sobre essa nova oferta, leia a [licença Gerenciar o Teams Exploratory](teams-exploratory.md).
@@ -55,7 +55,7 @@ A versão de avaliação concede uma assinatura de avaliação de um ano para to
 
 Habilite os usuários para se inscreverem em aplicativos e versões de avaliação (no Centro de administração do Office 365). Para obter mais informações, consulte [Gerenciar a avaliação](#manage-the-trial), mais adiante neste artigo. 
 
-Os usuários que não têm uma licença do Office 365 que inclui o Teams podem iniciar a oferta de avaliação do Microsoft Teams Commercial Cloud. Por exemplo, se um usuário tiver o Office 365 Business (que não inclui o Teams), eles estará qualificado para a versão de avaliação.
+Os usuários que não têm uma licença do Office 365 que inclui o Teams podem iniciar a oferta de avaliação do Microsoft Teams Commercial Cloud. Por exemplo, se um usuário tiver o Microsoft 365 Apps for business (que não inclui o Teams), ele estará qualificado para a avaliação.
 
 ## <a name="who-is-not-eligible"></a>Quem não está qualificado
 
