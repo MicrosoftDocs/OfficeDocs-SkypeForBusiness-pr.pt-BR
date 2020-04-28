@@ -12,15 +12,16 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-description: Saiba mais sobre os relatórios do teams que estão disponíveis no centro de administração do Microsoft Teams.
+description: Neste artigo, você aprenderá sobre os relatórios do teams que estão disponíveis no centro de administração do Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 86003876bbbf4927886a8b260fad48f451a2d325
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 24d8a9658c4f7c0d9b0c12472491065106a7533c
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778236"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904276"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Análise e relatórios do Microsoft Teams
 

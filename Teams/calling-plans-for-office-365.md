@@ -24,13 +24,14 @@ ms.custom:
 - O365P_E5Voiceplandetails
 - Licensing
 - LIL_Placement
+- seo-marvel-apr2020
 description: 'Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization. '
-ms.openlocfilehash: 81bf7febe1bece1482c9e882632c6b6bde512207
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: c7e3d405e82613de8cfe5313c6dd93c0b5c29e0a
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779940"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905013"
 ---
 # <a name="calling-plans-for-microsoft-365"></a>Planos de chamada para o Microsoft 365
 
@@ -42,7 +43,7 @@ Aqui estão as opções de planos de chamada:
     
 - **Plano de chamadas domésticas e internacionais**: os usuários licenciados podem chamar números localizados no país/região em que a licença do Office 365 é atribuída ao usuário com base na localização do usuário e para números internacionais em [196 países/regiões](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md).
     
-Os minutos mensais disponíveis para cada organização e para cada país/região estão localizados [aqui](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
+Acesse a [disponibilidade de país e região](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) para saber mais sobre os minutos mensais disponíveis para cada organização em cada país/região.
   
 > [!IMPORTANT]
 > O país/região é baseado na localização da licença do usuário no **Centro** > de administração do Microsoft 365,**usuários ativos** e **não** no endereço de cobrança listado no **perfil da organização** no **centro de administração do Microsoft 365**.   

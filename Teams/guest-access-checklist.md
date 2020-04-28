@@ -7,7 +7,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 ms.reviewer: sbhatta
-description: Use esta lista de verificação para ajudar a configurar o acesso de convidados no Microsoft Teams.
+description: Saiba mais sobre como ativar e configurar o acesso de convidado no Microsoft Teams como um administrador global ou de equipes.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -17,12 +17,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 22a0c2a8641203e764d6c490a008525cf71e8d5c
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 04627c74528972aad69b1e810e222f55cae49588
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776946"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43902576"
 ---
 <a name="microsoft-teams-guest-access-checklist"></a>Lista de verificação de acesso de convidados do Microsoft Teams
 =========================================
@@ -30,7 +31,7 @@ ms.locfileid: "43776946"
 Use esta lista de verificação para ajudá-lo a habilitar e configurar o acesso de convidados no Microsoft Teams. Você precisa ser um administrador global ou administrador do Teams para corrigir essas alterações.
 
 > [!IMPORTANT]
-> Talvez você precise aguardar até 24 horas para que as configurações entrem em vigor. 
+> Talvez seja necessário esperar algumas horas para que as alterações entrem em vigor. 
 
 Assista a este vídeo curto (5:31 minutos) para saber como habilitar o acesso de convidados no Microsoft 365, incluindo o Teams.
 

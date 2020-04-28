@@ -16,18 +16,19 @@ ms.collection:
 description: Saiba como usar o relatório de atividade de usuários do teams no centro de administração do Microsoft Teams para ver como os usuários em sua organização estão usando o Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d2e6d747afdf5dc5d381c11c83521e8a56ee38fe
-ms.sourcegitcommit: f4beced1a74d123253e166c7d402c1f24653d452
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 9516c7ed39a56e09bb714f58e988dc46b41ec9e2
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "43528426"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43903866"
 ---
 # <a name="microsoft-teams-user-activity-report"></a>Relatório de atividades do usuário do Microsoft Teams
 
 O relatório de atividade de usuários do teams fornece informações sobre os tipos de atividades que os usuários da sua organização executam no Teams. Por exemplo, você pode ver quantos usuários comunicam-se através de chamadas do 1:1, quantos usuários se comunicam por meio de mensagens de canal e quantos usuários participam de mensagens de chat privadas.
 
-## <a name="view-the-report"></a>Exibir o relatório
+## <a name="view-the-user-activity-report"></a>Exibir o relatório de atividade do usuário
 
 1. Na navegação à esquerda do centro de administração do Microsoft Teams, clique em **análises &** > relatórios de**uso**dos relatórios. Na guia **exibir relatórios** , em **relatório**, selecione **atividade do usuário do teams**.
 2. Em **Intervalo de dados**, selecione intervalo e em seguida clique em **Executar relatório**.

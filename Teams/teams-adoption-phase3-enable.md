@@ -10,21 +10,23 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: Saiba como dar suporte à habilitação de escala ampla do teams para sua organização.
+description: Leia uma visão geral das etapas que você precisará saber para dar suporte à habilitação de escala ampla de equipes da sua organização.
 f1.keywords:
 - CSH
-ms.custom: Adopt
+ms.custom:
+- Adopt
+- seo-marvel-apr2020
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 85cb53ed6099dcbb5c2fdf0b9b45816048f3b77c
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: bfccc3338589c6a90025024b373c917de58ebeee
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837751"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904596"
 ---
 # <a name="microsoft-teams-adoption-phase-3---scale"></a>Fase 3 de adoção do Microsoft Teams - Dimensionamento
 

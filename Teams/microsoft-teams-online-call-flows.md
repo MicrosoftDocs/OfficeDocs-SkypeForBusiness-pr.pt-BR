@@ -16,13 +16,14 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-description: Descreve como o Microsoft Teams usa fluxos do Office 365 em várias topologias.
-ms.openlocfilehash: 409af0b815c87e6d8285c3cb9a1bd8a5d61fa98b
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+description: Saiba como as equipes usam os fluxos do Office 365 em várias topologias, bem como fluxos de equipe exclusivos usados para comunicação de mídia ponto a ponto.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: dd0a5155766ee86bdf03219cdfcbb50cc220177d
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41832821"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904983"
 ---
 # <a name="microsoft-teams-call-flows"></a>Fluxos de chamadas do Microsoft Teams
 
@@ -55,7 +56,7 @@ Geralmente, uma rede de cliente tem vários perímetros de rede com firewalls e/
 
 **Internet**. Esse é o segmento de rede que faz parte de sua rede geral que será usado pelos usuários que estão se conectando ao Office 365 de fora da rede do cliente. Ele também é usado por algum tráfego da rede do cliente para o Office 365.
 
-**Rede privada ou de convidado visitada**. Esse é o segmento de rede fora da rede do cliente, mas não na Internet pública, que seus usuários e seus convidados podem visitar (por exemplo, uma rede privada residencial ou uma rede privada corporativa, que não implanta equipes, onde seus usuários e seus clientes que a interação com os serviços do teams pode residir).
+**Rede privada ou de convidado visitada**. Esse é o segmento de rede fora da rede do cliente, mas não na Internet pública, que seus usuários e seus convidados podem visitar (por exemplo, uma rede privada residencial ou uma rede privada corporativa, que não implanta equipes, onde os usuários e seus clientes que interagem com os serviços do teams podem residir).
 
 > [!NOTE]
 > A conectividade com o Office 365 também se aplica a essas redes.
@@ -66,7 +67,7 @@ Geralmente, uma rede de cliente tem vários perímetros de rede com firewalls e/
 
 ### <a name="types-of-traffic"></a>Tipos de tráfego
 
-**Mídia em tempo real**. Dados encapsulados no RTP (protocolo de transporte em tempo real) que dão suporte a cargas de trabalho de áudio, vídeo e compartilhamento de tela. Em geral, o tráfego de mídia é altamente sensível à latência, portanto, você quer que esse tráfego tome o caminho mais direto possível e use UDP versus TCP como o protocolo de camada de transporte, que é o melhor transporte para mídia interativa em tempo real de uma perspectiva de qualidade . (Observe que, como último recurso, a mídia pode usar TCP/IP e também ser encapsulado no protocolo HTTP, mas não é recomendado devido a implicações de qualidade ruim.) O fluxo de RTP é protegido usando o SRTP, no qual somente a carga é criptografada.
+**Mídia em tempo real**. Dados encapsulados no RTP (protocolo de transporte em tempo real) que dão suporte a cargas de trabalho de áudio, vídeo e compartilhamento de tela. Em geral, o tráfego de mídia é altamente sensível à latência, portanto, você quer que esse tráfego tome o caminho mais direto possível e use UDP versus TCP como o protocolo de camada de transporte, que é o melhor transporte para mídia interativa em tempo real de um ponto de vista de qualidade. (Observe que, como último recurso, a mídia pode usar TCP/IP e também ser encapsulado no protocolo HTTP, mas não é recomendado devido a implicações de qualidade ruim.) O fluxo de RTP é protegido usando o SRTP, no qual somente a carga é criptografada.
 
 **Sinalização**. O link de comunicação entre o cliente e o servidor, ou outros clientes que são usados para controlar atividades (por exemplo, quando uma chamada é iniciada) e entrega mensagens instantâneas. A maior parte do tráfego de sinalização usa as interfaces REST baseadas em HTTPS, mas em alguns cenários (por exemplo, conexão entre o Office 365 e um controlador de borda de sessão) ele usa o protocolo SIP. É importante entender que esse tráfego é muito menos sensível à latência, mas pode causar paralisações de serviço ou tempos limite de chamadas se a latência entre os pontos de extremidade exceder vários segundos.
 
@@ -338,7 +339,7 @@ Observe que:
 
 Essa topologia inclui equipes com roteamento direto do sistema telefônico.
 
-O roteamento direto permite que você use um provedor de serviços de rede de telefonia pública comutada (PSTN) de terceiros ao emparelhar um dispositivo de hardware do controlador de borda de sessão (SBC) com suporte do cliente para o Office 365 e, em seguida, conectar o tronco de telefonia a Esse dispositivo.
+O roteamento direto permite que você use um provedor de serviços de rede de telefonia pública comutada (PSTN) de terceiros ao emparelhar um dispositivo de hardware do controlador de borda de sessão (SBC) com suporte do cliente para o Office 365 e, em seguida, conectar o tronco de telefonia a esse dispositivo.
 
 Para dar suporte a esse cenário, o cliente deve implantar um SBC certificado para roteamento direto de um dos parceiros certificados da Microsoft. O SBC deve ser configurado como recomendado pelo fornecedor e ser roteável do Office 365 para tráfego UDP direto. A mídia pode fluir diretamente do Teams e/ou do cliente Skype for Business para o SBC (ignorando o gateway do Teams) ou percorrendo o gateway do teams. A conectividade com o SBC, quando o tronco está configurado para ignorar o gateway de equipe, é baseada em ICE, em que o SBC suporta ICE-Lite, enquanto o ponto de extremidade do teams/Skype for Business é compatível com a forma de ICE completa.
 

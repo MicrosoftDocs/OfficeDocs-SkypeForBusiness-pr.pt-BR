@@ -15,13 +15,14 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Saiba como usar e gerenciar políticas de chamadas de emergência no Microsoft Teams.
-ms.openlocfilehash: 90f278487b1b8d2e0e0b9b165e7d15023d6c0aaa
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+description: Saiba como usar e gerenciar políticas de chamadas de emergência no Microsoft Teams para definir o que acontece quando um usuário do teams na sua organização faz uma chamada de emergência.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 2e697e05c4ade1e14ee2f59da5b60413e60e2367
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888690"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905103"
 ---
 # <a name="manage-emergency-calling-policies-in-microsoft-teams"></a>Gerenciar políticas de chamadas de emergência no Microsoft Teams
 
@@ -35,7 +36,7 @@ Se você tiver atribuído uma política de chamadas de emergência a um site de 
 
 ## <a name="create-a-custom-emergency-calling-policy"></a>Criar uma política de chamadas de emergência personalizada
 
-### <a name="using-the-microsoft-teams-admin-center"></a>Usar o centro de administração do Microsoft Teams
+### <a name="using-the-microsoft-teams-admin-center"></a>Usando o centro de administração do Microsoft Teams
 
 1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para**políticas de emergência**de **voz** > e clique na guia **políticas de chamadas** .
 2. Clique em **Adicionar**.
@@ -53,7 +54,7 @@ Veja [New-CsTeamsEmergencyCallingPolicy](https://docs.microsoft.com/powershell/m
 
 ## <a name="edit-an-emergency-calling-policy"></a>Editar uma política de chamadas de emergência
 
-### <a name="using-the-microsoft-teams-admin-center"></a>Usar o centro de administração do Microsoft Teams
+### <a name="using-the-microsoft-teams-admin-center"></a>Usando o centro de administração do Microsoft Teams
 
 Você pode editar a política global ou qualquer política personalizada criada.
 
@@ -67,9 +68,9 @@ Consulte [set-CsTeamsEmergencyCallingPolicy](https://docs.microsoft.com/powershe
 
 ## <a name="assign-a-custom-emergency-calling-policy-to-users"></a>Atribuir uma política de chamadas de emergência personalizada aos usuários
 
-### <a name="using-the-microsoft-teams-admin-center"></a>Usar o centro de administração do Microsoft Teams
+### <a name="using-the-microsoft-teams-admin-center"></a>Usando o centro de administração do Microsoft Teams
 
-1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para **usuários**e, em seguida, clique no usuário.
+1. Na barra de navegação à esquerda do centro de administração do Microsoft Teams, vá para **Usuários** e clique no usuário.
 2. Clique em **políticas**e, em seguida, ao lado de **políticas atribuídas**, clique em **Editar**.
 3. Em **política de chamadas de emergência**, selecione a política que você deseja atribuir e clique em **salvar**.
 

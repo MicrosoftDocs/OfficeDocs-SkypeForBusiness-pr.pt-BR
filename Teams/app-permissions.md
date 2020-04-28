@@ -12,18 +12,19 @@ ms.collection:
 - M365-collaboration
 search.appverid: MET150
 ms.reviewer: rowille
-description: Saiba que aplicativos de dados e permissões estão solicitando da sua organização.
+description: O administrador pode aprender quais dados e permissões os aplicativos do Microsoft Teams estão solicitando na organização.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5d7548d4d162310bc239c752e2bce38e725008f9
-ms.sourcegitcommit: 8e2fa7b744d0a174b699ae7298d4688b971eeff3
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 0f17ed779415c1dfaa731d13839d02ca971d46f1
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41845222"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904586"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Permissões e considerações dos aplicativos Microsoft Teams
 
@@ -41,7 +42,7 @@ As permissões listadas abaixo em maiúsculas, por exemplo, RECEIVE_MESSAGE e RE
 
 |    |     |
 |-----------|------------|
-| ![Um ícone que representa um ponto de decisão](media/audio_conferencing_image7.png) <br/>Ponto de decisão|<ul><li>Use as tabelas a seguir como um guia para entender quais permissões os aplicativos que você está investigando estão solicitando.</li></ul> |
+| ![Um ícone representando um ponto de decisão](media/audio_conferencing_image7.png) <br/>Ponto de decisão|<ul><li>Use as tabelas a seguir como um guia para entender quais permissões os aplicativos que você está investigando estão solicitando.</li></ul> |
 | ![Um ícone representando o passo seguinte](media/audio_conferencing_image9.png)<br/>Próxima etapa|<ul><li>Pesquise o aplicativo ou o próprio serviço para decidir se deseja permitir o acesso a ele dentro da sua organização. Por exemplo, os bots enviam e recebem mensagens de usuários e, exceto para os bots de linha de negócios corporativo, estão localizados fora do limite de conformidade. Portanto, qualquer aplicativo que inclua um bot requer essas permissões e tem esse perfil de risco, no mínimo. </li></ul>|
 
 ## <a name="global-app-permissions-and-considerations"></a>Permissões e considerações globais do aplicativo
@@ -137,7 +138,7 @@ Nenhum (atualmente)
 
 - Uma guia também obtém o contexto no qual ele está em execução, incluindo o nome de entrada e o UPN do usuário atual, a ID de objeto do Azure AD para o usuário atual, a ID do grupo do Office 365 em que ele reside (se for uma equipe), a ID do locatário e a localidade atual do usuário. No entanto, para mapear essas IDs para as informações de um usuário, a guia teria que fazer com que o usuário entre no Azure AD.
 
-## <a name="connectors"></a>Alinha
+## <a name="connectors"></a>Conectores
 
 Um conector publica mensagens em um canal quando ocorrem eventos em um sistema externo.
 

@@ -15,13 +15,14 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: Leia este artigo para localizar códigos de país do caminho de mídia para roteamento direto.
-ms.openlocfilehash: 4d3e19ceeab48e7ade6ffa9b51bff68f38613426
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+description: Leia este artigo para localizar códigos de país do caminho de mídia para roteamento direto, para que você possa selecionar o caminho de mídia ideal.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 69265e797b256186f714e2cd4dcefcb3751c05ee
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836091"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904803"
 ---
 # <a name="direct-routing-media-path-country-codes"></a>Código de caminho de mídia de roteamento direto
 
@@ -48,7 +49,7 @@ A tabela a seguir mostra os valores de código de país para o parâmetro-MediaR
 | Samoa Americana  | COMO |
 | Andorra         | AD |
 | Angola          | AO |
-| Anguilla        | AI |
+| Anguila        | AI |
 | Horário      | CAPTURA | 
 | Antígua e Barbuda | AG |
 | Argentina       | AR |
@@ -69,7 +70,7 @@ A tabela a seguir mostra os valores de código de país para o parâmetro-MediaR
 | Butão          | BT |
 | Bolívia         | BO |
 | Bonaire         | BQ até |
-| Bosnia and Herzegovina (Bosna i Hercegovina) | BA |
+| Bósnia e Herzegovina | BA |
 | Botsuana        | LARGURA |
 | Ilha Bouvet   | BV |
 | Brasil          | BR |
@@ -77,7 +78,7 @@ A tabela a seguir mostra os valores de código de país para o parâmetro-MediaR
 | Ilhas Virgens Britânicas | VG |
 | Brunei          | BN |
 | Bulgária        | BG |
-| Burkina Faso    | BF |
+| Burquina Faso    | BF |
 | Burundi         | DOBRA |
 | Cabo verde      | INICIA |
 | Camboja        | KH |
@@ -91,7 +92,7 @@ A tabela a seguir mostra os valores de código de país para o parâmetro-MediaR
 | Ilha Christmas | CX |
 | Ilhas Cocos (Keeling) | CP |
 | Colômbia        | CO |
-| Ilhas Comores         | km |
+| Comores         | km |
 | Congo           | CG |
 | Congo (RDC)     | CD |
 | Ilhas Cook    | CK |
@@ -115,12 +116,12 @@ A tabela a seguir mostra os valores de código de país para o parâmetro-MediaR
 | Eswatini        | St |
 | Etiópia        | ET |
 | Ilhas Malvinas | CE |
-| Ilhas Faroés   | HETEROGÊNEO |
-| Ilhas            | FJ |
+| Ilhas Faroe   | HETEROGÊNEO |
+| Fiji            | FJ |
 | Finlândia         | FI |
 | França          | FR |
-| Guiana francesa   | GF |
-| Polinésia francesa | REPETIÇÃO |
+| Guiana Francesa   | GF |
+| Polinésia Francesa | REPETIÇÃO |
 | Territórios franceses do Sul | TF |
 | Gabão           | GA |
 | Gâmbia          | GM |
@@ -141,7 +142,7 @@ A tabela a seguir mostra os valores de código de país para o parâmetro-MediaR
 | Haiti           | Oi |
 | Ilha Heard e Ilhas McDonald | HM |
 | Honduras        | HN |
-| Hong Kong SAR   | HK |
+| RAE de Hong Kong   | HK |
 | Hungria         | HU |
 | Islândia         | CONSISTE |
 | Índia           | NO |
@@ -183,7 +184,7 @@ A tabela a seguir mostra os valores de código de país para o parâmetro-MediaR
 | Ilhas Marshall | MH |
 | Martinica      | MQ |
 | Mauritânia      | MR |
-| Ilhas       | MEU |
+| Maurício       | MEU |
 | Mayotte         | YT |
 | México          | MX |
 | Micronésia      | FM |
@@ -194,7 +195,7 @@ A tabela a seguir mostra os valores de código de país para o parâmetro-MediaR
 | Montserrat      | Srta |
 | Marrocos         | MA |
 | Moçambique      | MZ |
-| Sinal         | CM |
+| Mianmar         | CM |
 | Namíbia         | N/D |
 | Nauru           | N º cheque |
 | Nepal           | NP |
@@ -211,7 +212,7 @@ A tabela a seguir mostra os valores de código de país para o parâmetro-MediaR
 | Ilhas Marianas do Norte | NP |
 | Noruega          | Não |
 | Omã            | OM |
-| Paquistão         | CP |
+| Paquistão        | CP |
 | Palau           | SENHA |
 | Autoridade Palestina | PROFISSIONAIS |
 | Panamá          | PA |
@@ -224,13 +225,13 @@ A tabela a seguir mostra os valores de código de país para o parâmetro-MediaR
 | Portugal        | PT |
 | Porto Rico     | R |
 | Catar           | QA |
-| Reuniões         | NOVAMENTE |
+| Reunião         | NOVAMENTE |
 | Romênia         | RO |
 | Rússia          | RU |
 | Ruanda          | RWs |
 | Saba            | XS |
 | São Barthelemy | BL |
-| São Cristóvão e Nevis | KN |
+| São Cristóvão e Névis | KN |
 | Santa Lúcia     | LC |
 | São Martins    | MF |
 | São Pedro e Miquelon | 23:00 |
@@ -238,12 +239,12 @@ A tabela a seguir mostra os valores de código de país para o parâmetro-MediaR
 | Ocidental           | WS |
 | San Marino      | SM |
 | São Tomé e Príncipe | PRAZO |
-| Saudi Arabia (المملكة العربية السعودية)    | SA |
+| Arábia Saudita    | SA |
 | Senegal         | SN |
 | Sérvia          | RS |
 | Seychelles      | SC |
 | Serra Leoa    | SL | 
-| Cingapura       | SG |
+| Singapura       | SG |
 | Santo Eustáquio  | ÍNDICE |
 | Santo Maarten    | MÉTODO SX |
 | Eslováquia        | SK |
@@ -278,7 +279,7 @@ A tabela a seguir mostra os valores de código de país para o parâmetro-MediaR
 | Tuvalu          | PROGRAMA |
 | Territórios insulares dos EUA | Hmm |
 | Ilhas Virgens americanas | VI |
-| Xelim          | UG |
+| Uganda          | UG |
 | Ucrânia         | ASSISTÊNCIA |
 | Emirados Árabes Unidos | AE |
 | Reino Unido  | GB |

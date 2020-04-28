@@ -19,14 +19,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
-- seo-marvel-mar2020
+- seo-marvel-apr2020
 description: Saiba como atribuir uma ID de conferência a um usuário no Microsoft Teams e o que os parâmetros de IDs de conferência devem estar.
-ms.openlocfilehash: 7c4b9614843f353438630892574c25576913d24b
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 66d67693970f03326ae2acb58ba40310f567a370
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140934"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905613"
 ---
 # <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-microsoft-teams"></a>Visualizar e redefinir um ID de conferência atribuído a um usuário no Microsoft Teams
 
@@ -34,7 +34,7 @@ Um ID de conferência é atribuído automaticamente a um usuário do Microsoft T
   
 Ainda que um ID de conferência seja automaticamente criado e atribuído ao usuário, poderá haver momentos em que o usuário não desejará usá-lo ou você desejará defini-lo como um número específico, ou quando os usuários se esquecem ou pedem o ID de conferência. É possível usar o centro de administração do Microsoft Teams ou o Windows PowerShell para visualizar, alterar e redefinir o ID de conferência.
   
-Um e-mail será enviado ao usuário com a ID da conferência e os números de telefone da audioconferência padrão ou, se você redefinir a ID da conferência, será enviado um e-mail diferente que incluirá a ID da conferência, mas não um PIN. Para obter mais informações sobre como redefinir o PIN do organizador da conferência, [acesse aqui](reset-a-conference-id-for-a-user-in-teams.md). 
+Um e-mail será enviado ao usuário com a ID da conferência e os números de telefone da audioconferência padrão ou, se você redefinir a ID da conferência, será enviado um e-mail diferente que incluirá a ID da conferência, mas não um PIN. Consulte [redefinir uma ID de conferência para um usuário no Microsoft Teams](reset-a-conference-id-for-a-user-in-teams.md) para obter mais informações sobre como redefinir o PIN do organizador de uma conferência. 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
@@ -100,4 +100,3 @@ Para obter mais informações sobre o Windows PowerShell, consulte a [referênci
 ## <a name="related-topics"></a>Tópicos relacionados
 
 [Experimentar ou comprar audioconferência no Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
-

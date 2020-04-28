@@ -18,13 +18,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
-description: Saiba mais sobre como gerenciar contas de recursos no Microsoft Teams
-ms.openlocfilehash: 9de381c1ba338c9ffc51153ac0fa1296ccb3f4a0
-ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+- seo-marvel-apr2020
+description: Neste artigo, você aprenderá a criar, editar e gerenciar contas de recursos no Microsoft Teams.
+ms.openlocfilehash: 07f6f15f3ed3fc1e115ae672ef1eac89b5eab12f
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43749998"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905003"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Gerenciar contas de recursos no Microsoft Teams
 
@@ -37,7 +38,7 @@ No Microsoft Teams ou no Skype for Business Online, cada fila de chamadas do sis
 > [!NOTE]
 > Este artigo se aplica ao Microsoft Teams e ao Skype for Business online. Para contas de recursos hospedadas no Skype for Business Server 2019, consulte [Configurar contas de recursos](/SkypeForBusiness/hybrid/configure-onprem-ra).
 
-## <a name="overview"></a>Visão geral
+## <a name="assign-a-phone-number-to-a-phone-system-call-queue"></a>Atribuir um número de telefone a uma fila de chamadas do sistema telefônico
 
 Se sua organização já estiver usando pelo menos uma licença do sistema de telefonia, para atribuir um número de telefone a uma fila de chamadas do sistema telefônico, o processo será:
 

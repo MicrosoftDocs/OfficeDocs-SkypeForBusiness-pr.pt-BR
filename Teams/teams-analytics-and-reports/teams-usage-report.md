@@ -16,18 +16,19 @@ ms.collection:
 description: Saiba como usar o relatório de uso do Teams no centro de administração do Microsoft Teams para obter uma visão geral das atividades to Teams na sua organização.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0252478a1ca41962ecdc424f97c85025b6b7dda9
-ms.sourcegitcommit: f4beced1a74d123253e166c7d402c1f24653d452
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 8cc25c5f63bd8645e5bfc540438a77f37abaa164
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "43528416"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904266"
 ---
 # <a name="microsoft-teams-usage-report"></a>Relatório de uso do Microsoft Teams
 
 O relatório de uso do Teams no centro de administração do Microsoft Teams apresenta uma visão geral da atividade de uso no Teams, incluindo o número de usuários e canais ativos, para que você possa ver rapidamente quantos usuários na sua organização estão usando o Teams para se comunicar e colaborar. Você pode visualizar as informações de uso de equipes, incluindo o número de usuários e canais ativos, convidados e mensagens em cada equipe.
 
-## <a name="view-the-report"></a>Exibir o relatório
+## <a name="view-the-usage-report"></a>Exibir o relatório de uso
 
 1. Na navegação à esquerda do centro de administração do Microsoft Teams, clique em **análises &** > relatórios de**uso**dos relatórios. Na guia **exibir relatórios** , em **relatório**, selecione **uso do teams**.
 2. Em **Intervalo de dados**, selecione intervalo e em seguida clique em **Executar relatório**.

@@ -20,13 +20,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Licensing
+- seo-marvel-apr2020
 description: 'Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. '
-ms.openlocfilehash: 304c08568ee39f69f727d159a5599a3a3ac89ed4
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 8deb0d00365803ff8ae585f8f6d4dfefbf72108f
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779738"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905583"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>Configurar Créditos de Comunicação para sua organização
 
@@ -37,7 +38,7 @@ Você precisará configurar Créditos de Comunicação se quiser usar números g
   
 ## <a name="step-1-assign-an-audio-conferencing-or-calling-plan-license-to-your-users"></a>Etapa 1: atribuir uma conferência de áudio ou um plano de chamadas a seus usuários
 
-Ao se inscrever, você recebe um determinado número de minutos, dependendo do seu país/região. Você pode ver a quantidade de minutos para a qual vai procurar o país ou região [aqui](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). Depois de usar esses minutos, as chamadas serão desconectadas. Para evitar que isso aconteça, você precisa configurar créditos de comunicações.
+Ao se inscrever, você recebe um determinado número de minutos, dependendo do seu país/região. Você pode procurar seu país ou região na [lista disponibilidade de país ou região para conferências de áudio e planos de chamada](https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans#select-your-country-or-region-to-see-whats-available-for-your-organization) para ver o número de minutos que receberá. Depois de usar esses minutos, as chamadas serão desconectadas. Para evitar que isso aconteça, você precisa configurar créditos de comunicações.
   
 Para fazer isso, **você precisa atribuir uma conferência de áudio ou uma licença do sistema de telefone** para seus usuários.
   

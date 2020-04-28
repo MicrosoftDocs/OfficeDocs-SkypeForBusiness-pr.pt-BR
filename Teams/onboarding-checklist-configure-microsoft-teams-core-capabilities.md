@@ -8,20 +8,20 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 audience: admin
-description: Siga as tarefas principais, tarefas pendentes e atividades desta lista de verificação quando você configura o Microsoft Teams.
+description: Siga as tarefas principais, tarefas pendentes e atividades desta lista de verificação quando você configura o Teams para sua organização.
+ms.custom: seo-marvel-apr2020
 localization_priority: Normal
 f1.keywords:
 - NOCSH
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 385262789d243e7e504532fbac5003e5b3e35fed
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 69874e9d75cea1377b0aae110b5e1b3ce681d84f
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43777259"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43903896"
 ---
 # <a name="configure-microsoft-teams-core-capabilities"></a>Configurar os recursos principais do Microsoft Teams
 

@@ -12,15 +12,16 @@ search.appverid: MET150
 ms.reviewer: vikramju
 f1.keywords:
 - NOCSH
-description: Saiba mais sobre barreiras de informação e como elas afetam o Microsoft Teams.
+description: Este artigo explica o que são barreiras de informações no Microsoft Teams e como elas podem afetar o Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8cdb736db3234d0c7e24729a7d8e2b06c2d068d0
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 2bbe2f38fe56e6952952730b7ba74dda1a98398f
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780810"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904973"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Barreiras de informação no Microsoft Teams
 

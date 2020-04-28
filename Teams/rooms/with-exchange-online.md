@@ -12,15 +12,15 @@ f1.keywords:
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
-ms.custom: ''
+ms.custom: seo-marvel-apr2020
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
-description: Leia este tópico para obter informações sobre como implantar salas do Microsoft Teams com o Exchange Online.
-ms.openlocfilehash: fbf1057539f15d6de702909a1571c9e11fdf5de3
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+description: Leia este tópico para obter informações sobre como implantar salas do Microsoft Teams com o Exchange Online e o Skype for Business Server no local.
+ms.openlocfilehash: aa106c525a1d6b25513fe0c9aa0614e222ce75ca
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780550"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905283"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-online"></a>Implantar as Salas do Microsoft Teams com o Exchange Online
 
@@ -155,7 +155,7 @@ Para a validação, você deve ser capaz de usar qualquer cliente Skype for Busi
 > [!IMPORTANT]
 > Se você estiver usando o plano 2 do Skype for Business, só poderá usar as salas do Microsoft Teams no modo somente Skype for Business, o que significa que todas as suas reuniões serão reuniões do Skype for Business. Para habilitar sua sala de reunião para reuniões do Microsoft Teams, recomendamos que você compre a licença da sala de reunião.
   
-## <a name="see-also"></a>Confira também
+## <a name="related-topics"></a>Tópicos relacionados
 
 [Configurar contas para salas do Microsoft Teams](rooms-configure-accounts.md)
 

@@ -20,14 +20,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
-- seo-marvel-mar2020
-description: 'Saiba como procurar seus números de conferência de discagem de entrada no Microsoft Teams. '
-ms.openlocfilehash: d430daf841694029818f54d27abfeba3bc77604e
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+- seo-marvel-apr2020
+description: Saiba como Pesquisar os números de conferência discada que estão disponíveis para conferências de áudio no Microsoft Teams.
+ms.openlocfilehash: 962ca1626ab0bcc6fe3ac7e8da1c0183dbe3dcf2
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140964"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905753"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-microsoft-teams"></a>Ver uma lista de números de audioconferência no Microsoft Teams
 

@@ -13,13 +13,14 @@ localization_priority: Normal
 ms.assetid: 39d7dc65-22c3-400f-91f1-87ed2fd792b6
 ms.collection:
 - M365-collaboration
-description: Visão geral de gerenciamento para salas do Microsoft Teams.
-ms.openlocfilehash: 3a56a03342ca0edb0da9dc9ed3a4cada77816bc7
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+description: Saiba mais sobre como desenvolver e executar manutenção e operações contínuas para garantir que seus sistemas de salas do Microsoft Teams estejam disponíveis para seus usuários.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 6b63e42e1f3fa3d5540936d562aa913837103ed1
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825879"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905363"
 ---
 # <a name="management-overview"></a>Visão geral do gerenciamento
 
@@ -86,10 +87,10 @@ Para obter mais informações sobre solução de problemas e modo de administra�
 
 [Suporte às Salas do Microsoft Teams](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
-[Plano para salas do Microsoft Teams](rooms-plan.md)
+[Planejar as Salas do Microsoft Teams](rooms-plan.md)
 
-[Implantar salas do Microsoft Teams](rooms-deploy.md)
+[Implantar Salas do Microsoft Teams](rooms-deploy.md)
 
-[Configurar um console de salas do Microsoft Teams](console.md)
+[Configurar um console de Salas do Microsoft Teams](console.md)
 
 [Gerenciar as configurações de um console de salas do Microsoft Teams remotamente com um arquivo de configuração XML](xml-config-file.md)

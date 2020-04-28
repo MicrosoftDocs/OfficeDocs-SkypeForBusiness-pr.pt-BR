@@ -15,16 +15,17 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.cloudvoice
+- seo-marvel-apr2020
 search.appverid: MET150
-description: Página de aterrissagem para implantar a voz na nuvem no Microsoft Teams
+description: Saiba mais sobre o recurso de voz em nuvem e entenda as decisões de implantação necessárias que você vai enfrentar.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c8498d8d4f6336bf54f6ae7f9c96540783b54dd1
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 20a46a82c336396ccb71587db71515b699a9056e
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825049"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905903"
 ---
 # <a name="cloud-voice-in-microsoft-teams"></a>Voz na nuvem no Microsoft Teams
 
@@ -131,7 +132,7 @@ Quais usuários exigem um plano de discagem personalizado e qual plano de discag
 
 ### <a name="call-queues"></a>Filas de chamadas
 
-As filas de chamadas na nuvem incluem Saudações que são usadas quando alguém liga para um número de telefone para sua organização, a capacidade de colocar automaticamente as chamadas em espera e a capacidade de Pesquisar o próximo agente de chamada disponível para lidar com a chamada enquanto as pessoas que chamam são ouvindo música em espera. Você pode criar uma ou várias filas de chamadas para sua organização. 
+As filas de chamadas na nuvem incluem Saudações que são usadas quando alguém liga para um número de telefone para sua organização, a capacidade de colocar automaticamente as chamadas em espera e a capacidade de Pesquisar o próximo agente de chamada disponível para manipular a chamada, enquanto as pessoas que ligam estão ouvindo música em espera. Você pode criar uma ou várias filas de chamadas para sua organização. 
 
 
 |Pergunte-se|Ação |

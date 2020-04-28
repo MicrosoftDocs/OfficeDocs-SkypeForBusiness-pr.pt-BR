@@ -7,23 +7,25 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: dearbeen
-description: Verifique se a sua organização e os usuários estão prontos para o Microsoft Teams
+description: Saiba como avaliar a preparação da sua organização para fazer a transição com êxito para o ambiente do Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - CSH
-ms.custom: Teams-upgrade-guidance
+ms.custom:
+- Teams-upgrade-guidance
+- seo-marvel-apr2020
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 888e56561e4e6f4a521a0e1730fe3c9ea6adff82
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: a9cfb5c1982d6cfa031db447ed07543edf3a2a3e
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706931"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904436"
 ---
 # <a name="assess-organizational-change-readiness"></a>Avaliar preparação da mudança organizacional
 
@@ -53,7 +55,7 @@ Depois de proteger a sua equipe de projeto e definir sua visão, o escopo e os o
 
 Ao avaliar a preparação da sua organização, você pode determinar como as pessoas enganosas (ou não) que seus usuários poderão alterar a forma como trabalham e adotando novas tecnologias. Entender como os usuários reagirem para alterar fortalece a sua organização a preocupações de forma proativa, ajustar o plano de distribuição para obter a melhor compra e identificar os usuários que realmente podem ajudá-lo a facilitar a alteração com os pares.
 
-### <a name="activity"></a>Atividades
+### <a name="activity"></a>Atividade
 
 Use os seguintes iniciadores de conversa para conduzir uma avaliação de prontidão organizacional e documentar a cultura da sua organização quando ela for alterada. Essas informações podem ajudar a informar o nível de conscientização e o treinamento que talvez você precise implementar para o seu projeto. Não se preocupe com os números exatos. Este exercício representa uma compreensão geral da sua cultura organizacional. Se precisar de ajuda para começar, simplesmente avalie uma distribuição passada; Isso pode ajudá-lo a prever como os usuários podem reagir a alterações e ajudá-lo a solucionar proativamente as reações que você espera.
 

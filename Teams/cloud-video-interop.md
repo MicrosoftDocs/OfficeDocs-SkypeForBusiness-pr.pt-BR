@@ -10,19 +10,21 @@ search.appverid: MET150
 ms.reviewer: srividhc
 f1.keywords:
 - NOCSH
-description: A interoperabilidade de vídeo em nuvem permite que dispositivos de sala de reunião de terceiros ingressem em reuniões do Microsoft Teams.
+description: Use a interoperabilidade de vídeo em nuvem como uma solução intermediária para permitir que dispositivos de salas de reunião de terceiros ingressem em reuniões do Microsoft Teams.
 localization_priority: Normal
+ms.custom:
+- seo-marvel-apr2020
 ms.collection:
 - M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f9addb5dfe25f5d4906c0b4ab1d332a2ea70f72d
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 5c7cb1888856ff8dba910e4f4735516876a8ade2
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779637"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905873"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>Interoperabilidade de vídeo na nuvem para o Microsoft Teams
 
@@ -89,7 +91,7 @@ O parceiro escolhido para a sua implantação do CVI fornecerá um documento de 
 
 ### <a name="provision"></a>Configura  
 
-Durante a fase de provisionamento, você atribuirá licenças aos usuários adequados de acordo com o guia de configuração do parceiro. Você também precisará passar pelo processo de consentimento do Azure para fornecer ao parceiro acesso ao seu ambiente de equipe. Mais informações sobre o processo de consentimento do Azure podem ser encontradas aqui:https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent 
+Durante a fase de provisionamento, você atribuirá licenças aos usuários adequados de acordo com o guia de configuração do parceiro. Você também precisará passar pelo processo de consentimento do Azure para fornecer ao parceiro acesso ao seu ambiente de equipe. Consulte [permissões e consentimento no ponto de extremidade da plataforma de identidade da Microsoft](https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent) para obter mais informações sobre o processo de consentimento do Azure.
 
 ### <a name="schedule"></a>Prazo
 

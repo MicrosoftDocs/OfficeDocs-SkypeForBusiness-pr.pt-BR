@@ -15,14 +15,14 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.reviewer: lavenkat
-description: Comece a usar os modelos do teams para pequenas e médias empresas
+description: Use os modelos predefinidos do Microsoft Teams para criar com rapidez e facilidade empresas para empresas de pequeno e médio porte.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 4aa620e241bd59ce39f415fca3e33583a3c26c01
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 89555c13504b621b5cb9c43ae9edb33c9f2bbe54
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140844"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904883"
 ---
 # <a name="get-started-with-teams-templates-for-small-and-medium-businesses"></a>Comece a usar os modelos do teams para pequenas e médias empresas
 

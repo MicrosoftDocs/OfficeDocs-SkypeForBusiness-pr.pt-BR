@@ -13,15 +13,16 @@ f1.keywords:
 - NOCSH
 ms.reviewer: crowe
 search.appverid: MET150
-description: Página inicial do plano de chamada
+description: Determine qual plano de chamadas do sistema telefônico da Microsoft melhor servirá à sua organização na voz em nuvem no Teams.
+ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c62ce8a891244920257623aea9a62859161a129f
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 4b1fb0abed3477039f4c19c0e2de0ea696626f35
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825189"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905023"
 ---
 # <a name="which-calling-plan-is-right-for-you"></a>Qual plano de chamadas é ideal para você? 
 

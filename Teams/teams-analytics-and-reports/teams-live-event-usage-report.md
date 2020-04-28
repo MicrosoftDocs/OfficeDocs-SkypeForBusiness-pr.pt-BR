@@ -16,18 +16,19 @@ ms.collection:
 description: Saiba como usar o relatório de uso de eventos Team Live no centro de administração do Microsoft Teams para obter uma visão geral da atividade de eventos do teams Live em sua organização.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: af8a7d0225c3098f48de689a15921cd6f1f2f1c9
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: faf4a19b8a9bcd4b6fbdc2b3fd55882121015da2
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827239"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904286"
 ---
 # <a name="microsoft-teams-live-event-usage-report"></a>Relatório de uso de eventos ao vivo do Microsoft Teams
 
 O relatório de uso de eventos Team Live no centro de administração do Microsoft Teams mostra a visão geral de atividade para eventos dinâmicos mantidos em sua organização. Você pode exibir informações de uso, incluindo status do evento, hora de início, exibições e tipo de produção para cada evento. Você pode obter informações sobre as tendências de uso e ver quem em sua organização agenda, apresenta e produz eventos ao vivo.
 
-## <a name="view-the-report"></a>Exibir o relatório
+## <a name="view-the-live-event-usage-report"></a>Exibir o relatório de uso de eventos ao vivo
 
 1. Na navegação à esquerda do centro de administração do Microsoft Teams, clique em **análises &** > relatórios de**uso**dos relatórios. Na guia **exibir relatórios** , em **relatório**, selecione **uso de eventos ao vivo do teams**.
 2. Em **intervalo de datas**, selecione um intervalo predefinido ou defina um intervalo personalizado. Você pode definir um intervalo para mostrar dados de até um ano, seis meses antes e depois da data atual.

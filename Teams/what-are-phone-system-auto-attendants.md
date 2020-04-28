@@ -22,13 +22,14 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.autoattendants.overview
 - Phone System
-description: Saiba o que são atendedores automáticos da nuvem e como usá-los.
-ms.openlocfilehash: d9f108acd4c1ebe3c275d79555145c6c92a78737
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+- seo-marvel-apr2020
+description: Saiba mais sobre atendedores automáticos da nuvem e como usá-los para permitir que os chamadores se movimentem por meio de um sistema de menus para localizar e fazer ou transferir chamadas para usuários ou departamentos.
+ms.openlocfilehash: bfe142db0322757dd8fefe55c4de529168939126
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836661"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905133"
 ---
 # <a name="what-are-cloud-auto-attendants"></a>O que são atendedores automáticos da nuvem?
 
@@ -91,7 +92,7 @@ Não há limite quanto ao número de usuários do Active Directory discados por 
 |Fala (entrada de voz) |Nome  <br/> Apelido  <br/> Nome + Sobrenome  <br/> Sobrenome + Nome  | usuários do 80.000 |
 
 > [!NOTE]
-> Se você estiver usando o recurso discar por nome com reconhecimento de fala, mas o Active Directory da sua organização for maior do que o 80.000 usuários e você não tiver limitado o escopo de discagem por nome usando o recurso de escopo de discagem, o recurso discar por nome ainda funcionará para seus chamadores usando um teclado de telefone , e as entradas de voz estarão disponíveis para todos os outros cenários. Você pode usar o recurso Escopo de Discagem para restringir os nomes que são acessíveis mudando o escopo da Discagem por Nome para um atendedor automático específico.
+> Se você estiver usando discar por nome com reconhecimento de fala, mas o Active Directory da sua organização for maior do que o 80.000 usuários e você não tiver limitado o escopo de discagem por nome usando o recurso de escopo de discagem, a discagem por nome ainda funcionará para seus chamadores usando um teclado de telefone, e as entradas de voz estarão disponíveis para todos os outros cenários. Você pode usar o recurso Escopo de Discagem para restringir os nomes que são acessíveis mudando o escopo da Discagem por Nome para um atendedor automático específico.
   
 ### <a name="dial-by-name---keypad-dtmf-entry"></a>Discar por Nome - entrada de teclado (DTMF)
 As pessoas que fazem chamadas podem usar o recurso discar por nome para acessar os usuários especificando o nome completo ou parcial da pessoa que estão tentando acessar. Há vários formatos que podem ser usados quando o nome é inserido.
@@ -244,6 +245,6 @@ Para atribuir um número de serviço, você precisará adquirir ou portar seus n
 
 [Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
 
-[Disponibilidade da Audioconferência e dos Planos de Chamadas por país e região](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+[Disponibilidade de Audioconferência e Planos de Chamadas por país e região](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
 [Exemplo de pequenas empresas - Configurar um atendedor automático](/microsoftteams/tutorial-org-aa)

@@ -13,13 +13,14 @@ localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection:
 - M365-collaboration
-description: Este artigo explica as preparações de infra-estrutura para a implantação de salas do Microsoft Teams.
-ms.openlocfilehash: 7c067376ffffd2a674c5e0cfb2204801b0c4f32a
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+description: Saiba como preparar sua infraestrutura para a implantação de salas do Microsoft Teams para que você possa aproveitar todos os recursos.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 5267e27409e41c014d391048b70620fc802d8ff4
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779768"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905343"
 ---
 # <a name="prepare-your-environment"></a>Preparar seu ambiente
 
@@ -158,7 +159,7 @@ Assim como qualquer dispositivo com Windows, o nome do computador pode ser renom
   
  Se você quiser renomear o computador após ingressar em um domínio, use o comando rename-Computer PowerShell seguido pelo novo nome do computador.
   
-## <a name="see-also"></a>Confira também
+## <a name="related-topics"></a>Tópicos relacionados
 
 [Planejar salas do Microsoft Teams](rooms-plan.md)
 

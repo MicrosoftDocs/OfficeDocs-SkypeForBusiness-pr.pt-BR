@@ -11,19 +11,20 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-description: Saiba como usar os modelos do teams para criar uma equipe com canais predefinidos.
+description: Saiba como usar modelos de equipe para criar espaços de colaboração com canais para diferentes tópicos e aplicativos pré-instalação para fornecer conteúdo e serviços.
 f1.keywords:
 - CSH
 ms.custom:
 - NewAdminCenter_Update
+- seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 585d3241506dacf60eb02b1d7a3e97cb80357026
-ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
+ms.openlocfilehash: e4cdf8d489025110b47a98402a344e025b256012
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42796024"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904616"
 ---
 # <a name="get-started-with-teams-templates"></a>Introdução aos modelos do Teams
 
@@ -48,7 +49,7 @@ A maioria das propriedades em uma equipe é incluída e suportada pelos modelos.
 | Tipo de modelo base | Associação da equipe |
 | Nome da equipe | Imagem da equipe |
 | Descrição da equipe | Configurações de canal |
-| Visibilidade da equipe (pública ou privada) | Alinha |
+| Visibilidade da equipe (pública ou privada) | Conectores |
 | Configurações da equipe (por exemplo, membro, convidado, @ menção) | Arquivos e conteúdo |
 | Canal de favoritos automático | |
 | Aplicativo instalado | |
@@ -71,7 +72,7 @@ Por padrão, o modelo base é definido como **padrão** , que não contém nenhu
 | Treinamento<br>Equipe de classe | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationClass')` | Aplicativo<ul><li>Bloco de anotações de classe do OneNote (fixado na guia **geral** ) </li><li>Aplicativo atribuições (fixadas na guia **geral** )</li></ul> Propriedades da equipe:<ul><li>Visibilidade da equipe definida como **HiddenMembership** (não pode ser substituída)</li></ul> |
 | Treinamento<br>Equipe da equipe | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationStaff')` | Aplicativo<ul><li>Bloco de anotações de equipe do OneNote (fixado na guia **geral** )</li></ul> |
 |Treinamento<br>Equipe de PLC |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationProfessionalLearningCommunity')` | Aplicativo<ul><li>Bloco de anotações de PLC do OneNote (fixado na guia **geral** )</ul></li>|
-| Varejo<br>Armazenadas | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailStore')` | Canais<ul><li>Deslocar entrega</li><li>Aprendizagem</li></ul>Propriedades da equipe<ul><li>Visibilidade da equipe definida como Public</li></ul>Permissões de membro<ul><li>Impedir que os membros criem, atualizem ou removam canais</li><li>Impedir que os membros adicionem ou removam aplicativos</li><li>Impedir que os membros criem, atualizem ou removam conectores</li></ul> |
+| Varejo<br>Repositório | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailStore')` | Canais<ul><li>Deslocar entrega</li><li>Aprendizagem</li></ul>Propriedades da equipe<ul><li>Visibilidade da equipe definida como Public</li></ul>Permissões de membro<ul><li>Impedir que os membros criem, atualizem ou removam canais</li><li>Impedir que os membros adicionem ou removam aplicativos</li><li>Impedir que os membros criem, atualizem ou removam conectores</li></ul> |
 | Varejo<br>Colaboração do gerente | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailManagerCollaboration')` | Canais<ul><li>Deslocar entrega</li><li>Aprendizagem</li></ul>Propriedades da equipe:<ul><li>Visibilidade da equipe definida como particular</li></ul>Permissões de membro:<ul><li>Impedir que os membros criem, atualizem ou removam canais</li><li>Impedir que os membros adicionem ou removam aplicativos</li><li>Impedir que os membros criem, atualizem ou removam conectores</li></ul>|
 | Intensivo<br>Flecha |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')` |Canais <ul><li>Comunicados\*</li><li>Huddles\*</li><li>Arredonda</li><li>Especificam\*</li><li>Treinamento\*</li></ul>\*Canais de favoritos automáticos |
 |Intensivo<br>Hospital | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')` |Canais<ul><li>Comunicados\*</li><li>Conformidade\*</li><li>Custodial</li><li>Recursos humanos</li></li><li>Farmácia</li></ul>\*Canal de preferência automática|

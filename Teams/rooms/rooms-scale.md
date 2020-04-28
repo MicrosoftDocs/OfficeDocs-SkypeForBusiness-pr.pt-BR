@@ -12,11 +12,11 @@ f1.keywords:
 localization_priority: Normal
 ms.custom:
 - Strat_SB_Admin
-- seo-marvel-mar2020
+- seo-marvel-apr2020
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 ms.collection:
 - M365-collaboration
-description: Leia este tópico para saber mais sobre a implantação de salas do Microsoft Teams em implantações em grandes escalas.
+description: Saiba mais sobre a implantação de salas do Microsoft Teams em implantações em grandes escalas usando o Gerenciador de configuração do Microsoft Endpoint.
 no-loc:
 - Microsoft
 - Microsoft Corporation
@@ -34,12 +34,12 @@ no-loc:
 - Azure Monitor
 - Log Analytics
 - Operations Management Suite
-ms.openlocfilehash: 04d5945e042293ad0cb1597307fd4a2b596bee39
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: f96b970165996cc27308ce616fb4875d741f8869
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141014"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905313"
 ---
 # <a name="deploy-microsoft-teams-rooms-by-using-microsoft-endpoint-configuration-manager"></a>Implantar salas do Microsoft Teams usando o Gerenciador de configuração do Microsoft Endpoint
 
@@ -169,7 +169,7 @@ Você precisa criar e configurar os seguintes pacotes e, em seguida, distribuí-
 | SRS v2-pacote do Microsoft Monitoring Agent | Pacote de software       | Optional-pacote para implantar e configurar o agente do Microsoft Operations Management Suite|
 | Pacote em segundo plano do SRS v2-WinPE    | Pacote de software       | Pacote para a imagem de tela de fundo personalizada a ser usada com imagens de inicialização                           |
 | Windows 10 Enterprise                | Imagem do sistema operacional | Pacote para o arquivo de instalação do sistema operacional (install. wim)                          |
-| Surface pro                          | Pacote de driver         | Pacote para drivers de dispositivo e firmware para Microsoft Surface pro                     |
+| Surface Pro                          | Pacote de driver         | Pacote para drivers de dispositivo e firmware para Microsoft Surface pro                     |
 | Surface Pro 4                        | Pacote de driver         | Pacote para drivers de dispositivo e firmware para Microsoft Surface Pro 4                   |
 
 Para obter mais informações, consulte [pacotes e programas no Configuration Manager](https://docs.microsoft.com/configmgr/apps/deploy-use/packages-and-programs).
@@ -188,7 +188,7 @@ Crie a seguinte estrutura de pastas no site de administração central do Gerenc
 -   SRS v2-configurar a configuração do SRS
 -   SRS v2-pacote Sysprep
 -   Drivers
-    -   Surface pro
+    -   Surface Pro
     -   Surface Pro 4
 -   Sistemas operacionais
     -   Windows 10 Enterprise

@@ -16,20 +16,20 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
-description: Introdução às Mensagens Seguras para Organizações de Saúde
+description: Saiba como personalizar uma política de mensagens segura que pode incluir confirmações de leitura e notificações de prioridade.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f2b431eb28d2f475bc8abdf6ac05db760200d40e
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 95a4d258f35827d4ad30ee1e6b2938e6331efcc2
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43136981"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905523"
 ---
 # <a name="get-started-with-secure-messaging-for-healthcare-organizations"></a>Introdução às Mensagens Seguras para Organizações de Saúde
 
 As políticas de mensagens são usadas para controlar quais recursos de mensagens de chat e de canal estão disponíveis para os usuários do Microsoft Teams e fazem parte da implantação geral de mensagens seguras para organizações de assistência médica, como hospitais, clínicas ou consultórios do doutor, onde a transmissão de mensagens cruciais e funciona em tempo hábil é fundamental, como se conhece quando mensagens cruciais são lidas.
 
-Você pode usar a política global (padrão para toda a organização) ou criar uma ou mais políticas de mensagens personalizadas para as pessoas em sua organização. Os usuários em sua organização receberão automaticamente a política global, a menos que você crie e atribua uma política personalizada. Depois de criar uma política personalizada, atribua a ela um usuário ou grupos de usuários em sua organização. Por exemplo, você pode optar por permitir que apenas determinadas funções de trabalho usem esses recursos (talvez apenas os médicos e os recursos humanos) e outros trabalhadores (como o janitorial ou a cozinha cozinha) para obter um conjunto mais limitado de recursos. Decida por si mesmo o que precisa da sua organização, as orientações aqui são no máximo uma sugestão.
+Você pode usar a política global (padrão para toda a organização) ou criar uma ou mais políticas de mensagens personalizadas para as pessoas em sua organização. Os usuários da sua organização terão automaticamente a política global, a menos que você crie e atribua uma política personalizada. Depois de criar uma política personalizada, atribua a ela um usuário ou grupos de usuários em sua organização. Por exemplo, você pode optar por permitir que apenas determinadas funções de trabalho usem esses recursos (talvez apenas os médicos e os recursos humanos) e outros trabalhadores (como o janitorial ou a cozinha cozinha) para obter um conjunto mais limitado de recursos. Decida por si mesmo o que precisa da sua organização, as orientações aqui são no máximo uma sugestão.
 
 As políticas podem ser facilmente gerenciadas no [centro de administração do Microsoft Teams](https://admin.teams.microsoft.com) , fazendo logon com credenciais de administrador e escolhendo **políticas de mensagens** no painel de navegação à esquerda.
 

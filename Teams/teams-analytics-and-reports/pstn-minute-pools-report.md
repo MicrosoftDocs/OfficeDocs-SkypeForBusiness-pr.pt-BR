@@ -16,19 +16,19 @@ MS.collection:
 description: Como usar o relatório de grupos de minutos PSTN do teams no centro de administração do Microsoft Teams para exibir os minutos consumidos na sua organização durante o mês atual.
 appliesto:
 - Microsoft Teams
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 5f44d8a48dc01b8d2cdbce9dd164d5b2440c24d8
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: d00e6f76258caad7899ddd589e037718928741e0
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140662"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904893"
 ---
 # <a name="microsoft-teams-pstn-minute-pools-report"></a>Relatório de grupos de minutos PSTN do Microsoft Teams
 
 O relatório de grupos de minutos de tempo PSTN do teams no centro de administração do Microsoft Teams oferece uma visão geral das atividades de conferência e de chamada de áudio em sua organização mostrando o número de minutos consumidos durante o mês atual. Você pode ver um detalhamento da atividade, incluindo a licença usada para chamadas, o total de minutos disponíveis, os minutos usados e o uso da licença por local.
 
-## <a name="view-the-report"></a>Exibir o relatório
+## <a name="view-the-pstn-minute-pools-report"></a>Exibir o relatório de grupos de minutos PSTN
 
 Na navegação à esquerda do centro de administração do Microsoft Teams, clique em **análises &** > relatórios de**uso**dos relatórios. Na guia **exibir relatórios** , em **relatório**, selecione **pools de minutos PSTN**e clique em **executar relatório**.
 

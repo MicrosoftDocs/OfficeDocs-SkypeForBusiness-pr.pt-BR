@@ -10,27 +10,29 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: Saiba mais sobre como organizar equipes e canais no Microsoft Teams.
+description: Saiba mais sobre como organizar equipes e canais no Microsoft Teams e como usar o Microsoft Teams para orientar a colaboração entre organizações.
 f1.keywords:
 - CSH
-ms.custom: Adopt
+ms.custom:
+- Adopt
+- seo-marvel-apr2020
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 52a3f29869320992840ab8aebd17453485eec662
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: e59cb13759e078ae9686396635f41bd95fce90b8
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779587"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904933"
 ---
 # <a name="understand-teams-and-channels-in-microsoft-teams"></a>Compreender as equipes e os canais no Microsoft Teams
 
 Os conceitos de equipes e canais são fundamentais para uma implementação íntegra e produtiva do Microsoft Teams. 
 
-- Uma equipe é um conjunto de pessoas, conteúdo e ferramentas que trabalham em conjunto para produzir um resultado comercial para a sua empresa. As equipes são criadas em grupos do Microsoft 365 e alterações na sincronização de associações de grupo do Office 365 para a equipe. 
+- Uma equipe é um conjunto de pessoas, conteúdo e ferramentas que trabalham em conjunto para produzir um resultado comercial para a sua empresa. As equipes são criadas em Grupos do Microsoft 365. Alterações na associação a um grupo do Office 365 são sincronizadas com a equipe. 
 
 - Os canais são os espaços de colaboração dentro de uma equipe na qual o trabalho real está concluído. 
 

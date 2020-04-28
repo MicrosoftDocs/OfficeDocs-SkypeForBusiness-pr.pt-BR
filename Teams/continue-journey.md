@@ -8,9 +8,11 @@ ms.service: msteams
 audience: admin
 ms.reviewer: dearbeen
 search.appverid: MET150
-description: Orientação para continuar a viagem do Skype for Business para o Microsoft Teams
+description: Saiba como usar o Microsoft Teams para monitorar a integridade da rede, manter os usuários envolvidos e se preparar para a nova funcionalidade.
 localization_priority: Normal
-ms.custom: Teams-upgrade-guidance
+ms.custom:
+- Teams-upgrade-guidance
+- seo-marvel-mar2020
 f1.keywords:
 - NOCSH
 ms.collection:
@@ -18,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 41976649dec2509a9adfd472e7c382389250a4b4
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: b414cd4a6e312270520560edd3ed4d14c874bacb
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706441"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904086"
 ---
 # <a name="how-to-use-microsoft-teams-effectively"></a>Como usar o Microsoft Teams de forma eficaz
 

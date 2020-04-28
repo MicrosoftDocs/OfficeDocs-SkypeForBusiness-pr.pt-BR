@@ -9,22 +9,23 @@ ms.service: msteams
 ms.reviewer: jastark
 audience: admin
 search.appverid: MET150
-description: Saiba mais sobre as configurações de política de chamada no Microsoft Teams.
+description: Saiba como criar, modificar e adicionar usuários a políticas de chamadas personalizadas no Microsoft Teams, além de várias configurações de política de chamada.
 localization_priority: Normal
 ms.custom:
-- NewAdminCenter_Update
+- ms.teamsadmincenter.callingpolicies.overview
+- seo-marvel-apr2020
 ms.collection:
 - M365-voice
-f1keywords:
-- ms.teamsadmincenter.callingpolicies.overview
+f1.keywords:
+- CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 788cc0e93b16585f1d3424d3bfa0a62693528740
-ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
+ms.openlocfilehash: a94bf072aa4db0ba0b3f65fb5340c22ab09581e4
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37972442"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43914072"
 ---
 <a name="calling-policies-in-microsoft-teams"></a>Políticas de chamada no Microsoft Teams
 ===================================
@@ -105,6 +106,10 @@ Essa configuração permite que as chamadas recebidas sejam roteadas a delegados
 ### <a name="busy-on-busy-is-available-while-in-a-call"></a>Ocupado em ocupado está disponível durante uma chamada
 
 Ocupado em ocupado (opções de ocupado)) é uma nova configuração em políticas de chamadas de equipes que permite que você configure como as chamadas de entrada são manipuladas quando um usuário já está em uma chamada ou conferência ou tem uma chamada colocada em espera. Chamadas novas ou recebidas podem ser recusadas com um sinal de ocupado. Você pode habilitar as opções de ocupado no nível do locatário ou no nível do usuário. Independentemente de como as opções ocupadas são configuradas, os usuários de uma chamada ou conferência ou aquelas com uma chamada em espera não são impedidos de iniciar novas chamadas nem conferências. Essa configuração é desabilitada por padrão.
+
+### <a name="allow-music-on-hold"></a>Permitir música em espera
+
+Essas configurações permitem ativar ou desativar a música em espera quando um chamador PSTN é colocado em espera. Ele está ativado por padrão. Esta configuração não se aplica a recursos de estacionamento de chamada e chefe de chefe e só está disponível no momento pelo PowerShell. 
 
 ## <a name="see-also"></a>Confira também
 

@@ -12,13 +12,14 @@ ms.collection:
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Este artigo discute o suporte do ciclo de vida para salas do Microsoft Teams.
-ms.openlocfilehash: 27610cd7a7ed5c2bca1fcb118b3687149d2872d0
-ms.sourcegitcommit: a610bfe9c0192432744dfaf8d5ff5c2bb5a16b00
+description: Saiba mais sobre o suporte do ciclo de vida para salas do Microsoft Teams, incluindo a estrutura de suporte dinâmico e suas fases.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 6a6a3000b97de9756c78ed09c5f4d56a237fda0d
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "43190826"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905373"
 ---
 # <a name="microsoft-teams-rooms-app-version-support"></a>Suporte à versão do aplicativo salas do Microsoft Teams
  
@@ -63,10 +64,10 @@ A tabela a seguir mostra as versões recomendadas e com suporte do Windows 10 qu
 
 Ao usar uma versão com suporte do Windows 10, você sempre terá as atualizações mais recentes do aplicativo para o aplicativo salas do Microsoft Teams.  
 
-## <a name="see-also"></a>Confira também
+## <a name="related-topics"></a>Tópicos relacionados
 
 [Suporte às Salas do Microsoft Teams](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
 [Salas de lançamento das salas do Microsoft Teams](rooms-release-note.md)
 
-[Plano para salas do Microsoft Teams](rooms-plan.md)
+[Planejar as Salas do Microsoft Teams](rooms-plan.md)

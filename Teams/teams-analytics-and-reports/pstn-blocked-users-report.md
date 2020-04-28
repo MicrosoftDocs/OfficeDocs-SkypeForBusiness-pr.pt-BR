@@ -16,19 +16,19 @@ MS.collection:
 description: Use o relatório de usuários bloqueados PSTN no centro de administração do Microsoft Teams para obter uma visão geral dos usuários de equipes da sua organização que estão bloqueados para fazer chamadas PSTN.
 appliesto:
 - Microsoft Teams
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: e6055533138f08bafbdc9c39b03350612075840f
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 511485fa156ba448368809edf54728ada1b80be7
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140682"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904903"
 ---
 # <a name="microsoft-teams-pstn-blocked-users-report"></a>Relatório de usuários bloqueados PSTN do Microsoft Teams
 
 O relatório de usuários bloqueados PSTN no centro de administração do Microsoft Teams mostra os usuários em sua organização que estão bloqueados da realização de chamadas PSTN no Teams. Você pode ver mais informações sobre cada usuário bloqueado, incluindo o número de telefone atribuído a ele e o motivo pelo qual eles foram bloqueados para fazerem chamadas.
 
-## <a name="view-the-report"></a>Exibir o relatório
+## <a name="view-the-pstn-blocked-users-report"></a>Exibir o relatório de usuários bloqueados PSTN
 
 Na navegação à esquerda do centro de administração do Microsoft Teams, clique em **análises &** > relatórios de**uso**dos relatórios. Na guia **exibir relatórios** , em **relatório**, selecione **usuários bloqueados PSTN**e clique em **executar relatório**.
 

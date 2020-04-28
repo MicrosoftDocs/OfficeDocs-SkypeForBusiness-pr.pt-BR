@@ -19,13 +19,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: 'Saiba como configurar o sistema telefônico (Cloud PBX) para sua organização. '
-ms.openlocfilehash: 8c534607ca50baae75c3b0b2fdf5bc54359c22e4
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+- seo-marvel-apr2020
+description: Guia passo a passo detalhando como configurar o sistema de telefonia (Cloud PBX) para sua organização no Office 365.
+ms.openlocfilehash: c2756b750c00dd370d5ef33370ae359d0351e07e
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779808"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905563"
 ---
 # <a name="set-up-phone-system-in-your-organization"></a>Configurar o sistema telefônico em sua organização
 
@@ -33,9 +34,9 @@ The following is a step-by-step guide for setting up Phone System in Office 365.
 
 ## <a name="step-1-make-sure-that-phone-system-is-available-in-your-country-or-region"></a>Etapa 1: Certifique-se de que o Sistema de Telefonia está disponível em seu país ou região
 
-1.  Primeiro, acesse [Disponibilidade de Audioconferência e Planos de Chamadas por país e região](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) e selecione seu país ou região na lista na parte superior da página. 
-2.  Em **Sistema de Telefonia**, examine a lista de recursos e detalhes. 
-3.  Se o Sistema de Telefonia estiver disponível, vá para a etapa 2. 
+1.    Primeiro, acesse [Disponibilidade de Audioconferência e Planos de Chamadas por país e região](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) e selecione seu país ou região na lista na parte superior da página. 
+2.    Em **Sistema de Telefonia**, examine a lista de recursos e detalhes. 
+3.    Se o Sistema de Telefonia estiver disponível, vá para a etapa 2. 
 
 ## <a name="step-2-buy-and-assign-phone-system-and-calling-plan-licenses"></a>Etapa 2: Comprar e atribuir licenças do Sistema de Telefonia e Planos de Chamadas
 

@@ -15,13 +15,14 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: Leia este tópico para saber como configurar o bypass de mídia com o roteamento direto do sistema telefônico.
-ms.openlocfilehash: 8d6891d8ecabace3b093e2dc788edee6e9cc5bd1
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+description: Saiba como configurar o bypass de mídia com o roteamento direto do sistema telefônico ao alternar todos os usuários de uma só vez ou implementar uma abordagem em fases (recomendado).
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 2d6bb25296b7a98e6fea7a59a5dd9406622dbd96
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837601"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904833"
 ---
 # <a name="configure-media-bypass-with-direct-routing"></a>Configurar o bypass de mídia com Roteamento Direto
 
@@ -29,11 +30,11 @@ Antes de configurar o bypass de mídia com roteamento direto, certifique-se de t
 
 Para ativar o bypass de mídia, as seguintes condições devem ser atendidas:
 
-1.  Verifique se o seu fornecedor de Border Border Controller (SBC) de escolha oferece suporte a bypass de mídia e fornece instruções sobre como configurar bypass no SBC. Consulte a página de certificação para saber mais sobre SBCs, quais são compatíveis com o bypass de mídia e para obter instruções.
+1.    Verifique se o seu fornecedor de Border Border Controller (SBC) de escolha oferece suporte a bypass de mídia e fornece instruções sobre como configurar bypass no SBC. Consulte a página de certificação para saber mais sobre SBCs, quais são compatíveis com o bypass de mídia e para obter instruções.
 
-2.  Você precisa ativar o bypass de mídia no tronco usando o seguinte comando: **set-CSOnlinePSTNGateway-Identity <sbc_FQDN>-MediaBypass $true**.
+2.    Você precisa ativar o bypass de mídia no tronco usando o seguinte comando: **set-CSOnlinePSTNGateway-Identity <sbc_FQDN>-MediaBypass $true**.
 
-3.  Verifique se as portas necessárias estão abertas. 
+3.    Verifique se as portas necessárias estão abertas. 
 
 
 ## <a name="migrate-from-non-bypassed-trunks-to-bypass-enabled-trunks"></a>Migrar de troncos não ignorados para troncos compatíveis com bypass
@@ -59,7 +60,7 @@ Para obter uma lista de controladores de borda de sessão (SBCs) certificados pa
 
 
 
-## <a name="see-also"></a>Confira também
+## <a name="related-topics"></a>Tópicos relacionados
 
 [Ignorar a mídia de plano com roteamento direto](direct-routing-plan-media-bypass.md)
 

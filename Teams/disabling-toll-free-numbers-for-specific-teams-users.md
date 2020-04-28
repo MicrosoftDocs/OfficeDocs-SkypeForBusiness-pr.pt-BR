@@ -19,13 +19,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
-description: Os administradores podem controlar como os organizadores podem usar números de chamada gratuita para suas reuniões.
-ms.openlocfilehash: 7bc830529fc24a61be914998e923ad2d5288b7c5
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+- seo-marvel-mar2020
+description: Saiba como controlar como os organizadores podem usar números de chamada gratuita para suas reuniões de ponte de áudio da conferência.
+ms.openlocfilehash: 517ffea6a15cd625320f33e3eb4911f4a250d51d
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837261"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904566"
 ---
 # <a name="disabling-toll-free-numbers-for-specific-teams-users"></a>Desativar números de chamada gratuita para usuários específicos do Microsoft Teams
 

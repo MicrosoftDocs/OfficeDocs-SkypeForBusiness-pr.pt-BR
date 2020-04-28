@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: Saiba como configurar o Skype for Business para usar outro idioma para a saudação de correio de voz padrão da sua organização.
-ms.openlocfilehash: 5cff20da14dac942527b8b667731c24a47f0cf29
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 9941ba697300d7dd1426e278d8d42900621cf58a
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780360"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904326"
 ---
 # <a name="change-the-default-language-for-greetings-and-emails"></a>Alterar o idioma padrão de saudações e emails
 
@@ -38,14 +38,14 @@ Se você for um [administrador global](https://support.office.com/article/da585e
   
 - **Os idiomas disponíveis são determinados pelo local da organização**. Por exemplo, se a sua organização está nos Estados Unidos, você pode definir o idioma padrão como inglês ou espanhol. Se a sua organização está no Canadá, você pode escolher entre inglês e francês. Para ver a lista de idiomas com suporte, acesse [Idiomas para saudações e mensagens da caixa postal do Skype for Business](languages-for-voicemail-greetings-and-messages.md).
     
-- **Não é possível alterar o idioma do sistema apenas para uma pessoa de sua organização.** Somente o idioma da saudação poderá ser alterado para todas as pessoas na organização.
+- **Alterar idiomas para mensagens de correio de voz e saudação de correio de voz de um usuário individual.** Você pode alterar os Lanaguage preferenciais para os usuários, o que alterará o idioma da saudação de correio de voz e das mensagens de correio de voz enviadas para a caixa de correio do Outlook. Para obter instruções, consulte [como definir as configurações de idioma e região do Office 365https://docs.microsoft.com/office365/troubleshoot/access-management/set-language-and-region)] (. 
     
     > [!NOTE]
-    > Depois de entrar, os usuários podem alterar seu próprio idioma de saudação por meio das configurações. 
+    > Os usuários podem alterar seu próprio idioma de saudação por meio das configurações depois de entrarem nas seguintes instruções encontradas em [alterar seu idioma de exibição e fuso horário no Microsoft 365 para empresas](https://support.office.com/en-us/article/change-your-display-language-and-time-zone-in-microsoft-365-for-business-6f238bff-5252-441e-b32b-655d5d85d15b?ui=en-US&rs=en-US&ad=US)
   
 - **Deseja gravar sua mensagem de caixa postal de saída?** Veja [Verificar a caixa postal e as opções do Skype for Business](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8). Para o Microsoft Teams-os usuários podem alterar as configurações de caixa postal nas [configurações do cliente de área de trabalho do teams](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)
 
-- **Deseja alterar o idioma do prompt de correio de voz?** Para o Skype for Business [https://mysettings.lync.com/voicemail](https://mysettings.lync.com/voicemail) -e escolha um novo idioma em **idioma do pedido**. Para o Microsoft Teams-os usuários podem alterar as configurações de caixa postal nas [configurações do cliente de área de trabalho do teams](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)
+- **Deseja alterar o idioma do prompt de correio de voz?** Para o Skype for Business [https://mysettings.lync.com/voicemail](https://mysettings.lync.com/voicemail) -e escolha um novo idioma em **idioma do pedido**. Para o Microsoft Teams-os usuários podem alterar a saudação de correio de voz nas [configurações do cliente de desktop do teams](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)
     
 ## <a name="change-the-system-language-for-everyone-in-your-organization"></a>Alterar o idioma do sistema para todas as pessoas na organização
 

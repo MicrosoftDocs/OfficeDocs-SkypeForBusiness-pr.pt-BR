@@ -11,17 +11,18 @@ ms.service: msteams
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Configure uma política de reunião para permitir que os usuários compartilhem suas áreas de trabalho em bate-papos ou reuniões do Teams
+description: Saiba como configurar uma política de reunião para permitir que os usuários compartilhem suas áreas de trabalho nos chats ou reuniões do teams.
 ms.collection:
 - M365-collaboration
+ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 366aaeb4f48670ae04d4b53d21196ef2d9e81fb4
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
-ms.translationtype: HT
+ms.openlocfilehash: 955a642d2a2309ccbaf9f9d6280170a93a9179ae
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825539"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905893"
 ---
 <a name="configure-desktop-sharing-in-microsoft-teams"></a>Configurar o compartilhamento da área de trabalho no Microsoft Teams
 ============================================
@@ -52,8 +53,8 @@ Para configurar o compartilhamento de tela, crie uma nova política de reuniões
 
 5. Ative ou desative as seguintes configurações:
 
-    - **Permitir que um participante conceda ou solicite o controle** – permite que os membros da equipe forneçam ou solicitem o controle do aplicativo ou da área de trabalho do apresentador.
-    - **Permitir que um participante conceda ou solicite o controle** – permite que convidados e usuários externos (federados) forneçam ou solicitem controle da área de trabalho ou aplicativo do apresentador.
+    - **Permitir que um participante conceda ou solicite o controle** – permite que os membros da equipe conceda ou solicitem o controle da área de trabalho ou do aplicativo do apresentador.
+    - **Permitir que um participante externo conceda ou solicite controle** – permite que convidados e usuários externos (federados) conceda ou solicitem controle da área de trabalho ou do aplicativo do apresentador.
     - **Permitir o compartilhamento do PowerPoint** - permite que os usuários criem reuniões que permitem que as apresentações do PowerPoint sejam carregadas e compartilhadas.
     - **Permitir quadro de comunicações** – permite que os usuários compartilhem um quadro de comunicações.
     - **Permitir anotações compartilhadas** – permite que os usuários façam anotações compartilhadas.

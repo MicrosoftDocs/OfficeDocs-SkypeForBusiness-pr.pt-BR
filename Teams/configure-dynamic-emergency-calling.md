@@ -13,15 +13,16 @@ localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Configurar chamadas de emergência dinâmicas
+description: Saiba como configurar os planos de chamada e o recurso de chamadas de emergência dinâmicos de roteamento direto do sistema telefônico.
+ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6b22c6cec20e42ac33b15c53a49477b36a35fbe9
-ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
+ms.openlocfilehash: 92862eb960722ac2becbe216cdec5281282106b5
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42417586"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905883"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>Planejar e configurar chamadas de emergência dinâmicas 
 
@@ -96,7 +97,7 @@ Para obter mais informações sobre como configurar endereços de emergência, c
 
 As configurações de rede são usadas para determinar a localização de um cliente do Teams e para obter dinamicamente as políticas de chamadas de emergência e um local de emergência. Você pode definir as configurações de rede de acordo com a forma como a sua organização quer que a chamada de emergência funcione.
 
-As configurações de rede incluem sites que incluem uma coleção de sub-redes--elas são usadas exclusivamente para atribuição de política dinâmica a usuários.  Por exemplo, uma política TeamsEmergencyCalling e uma política TeamsEmergencyCallRouting podem ser atribuídas ao "site Redmond" para que todos os usuários que estiverem em roaming ou em outro local da Microsoft sejam configurados com números de emergência, roteamento e escrivaninha de segurança específico para Redmond.  
+As configurações de rede incluem sites que incluem uma coleção de sub-redes--elas são usadas exclusivamente para atribuição de política dinâmica a usuários.  Por exemplo, uma política TeamsEmergencyCalling e uma política TeamsEmergencyCallRouting podem ser atribuídas ao "site Redmond" para que todos os usuários que estiverem em roaming ou em outro local da Microsoft sejam configurados com números de emergência, roteamento e pessoal de segurança específicos para Redmond.  
 
 >[!Note]
 >As sub-redes também podem ser definidas no LIS e podem ser associadas a um local de emergência.  

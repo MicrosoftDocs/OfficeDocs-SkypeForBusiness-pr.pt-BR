@@ -18,13 +18,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.messagingpolicies.overview
-description: Saiba mais sobre as políticas de mensagens e como elas podem ser usadas para controlar as mensagens de chat no Teams.
-ms.openlocfilehash: a589b676a6c1da24eae7a25218fcfd449160f374
-ms.sourcegitcommit: 4e1647d19501b37860d9fc79370fa4347f76f85f
+- seo-marvel-apr2020
+description: Neste artigo, você aprenderá sobre as políticas de mensagens e como elas podem ser usadas para controlar as mensagens de chat no Microsoft Teams.
+ms.openlocfilehash: d9cc2fbd9d3ba2eef77114228130a763d3f4fd25
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43079433"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904416"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Gerenciar políticas de mensagens no Teams
 

@@ -9,22 +9,23 @@ ms.service: msteams
 audience: admin
 ms.reviewer: esmather
 search.appverid: MET150
-description: Saiba como usar o aplicativo Web whiteboard no Microsoft Teams
+description: Neste artigo, você aprenderá a gerenciar e usar o aplicativo Web do whiteboard no Microsoft Teams.
 localization_priority: Normal
 f1.keywords:
 - CSH
 ms.custom:
 - NewAdminCenter_Update
+- seo-marvel-apr2020
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bdb6c4a1773996101d916c8fe11c0e46bc78b287
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: b8f17a65ca4ce10497b4f05d6b2762f1f430909b
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837511"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904953"
 ---
 <a name="manage-the-whiteboard-in-microsoft-teams"></a>Gerenciar o quadro de comunicações no Microsoft Teams
 ==========================================

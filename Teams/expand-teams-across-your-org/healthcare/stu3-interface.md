@@ -16,14 +16,14 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: anach
-description: Saiba mais sobre a especificação de interface STU3 no Teams, incluindo configurar ou reconfigurar um servidor FHIR para trabalhar com o aplicativo Microsoft Teams pacientes.
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 35d887575ffb894b7a47e50511e6bd6c3a9a75d1
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+description: Saiba como integrar registros de saúde eletrônicas ao aplicativo Microsoft Teams pacientes e à especificação de interface STU3.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 2e101f6ca50a76b4b8bb9d3dd33d35fd7706a81f
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141194"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905743"
 ---
 # <a name="stu3-interface-specification"></a>Especificação de interface STU3
 

@@ -2,7 +2,7 @@
 title: Usar o planejador de rede-exemplo de cenário
 metadata:
   title: Usar o planejador de rede-exemplo de cenário
-  description: Explore o uso do planejador de rede para configurar um plano de rede e gerar um relatório.
+  description: Este cenário de exemplo mostra como usar a ferramenta planejador de rede para criar sites e pessoas e executar relatórios.
   audience: IT Pro
   level: Intermediate
   displayType: one-column
@@ -15,12 +15,13 @@ metadata:
   localization_priority: Normal
   ms.collection:
   - M365-collaboration
-  ms.openlocfilehash: 7a743bea1524084298abb590c653d994aacb0bc4
-  ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+  ms.custom: seo-marvel-apr2020
+  ms.openlocfilehash: 5148415363ac62c68140982d03235b8bfa8835ac
+  ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
   ms.translationtype: MT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 02/08/2020
-  ms.locfileid: "41863532"
+  ms.lasthandoff: 04/27/2020
+  ms.locfileid: "43904506"
 items:
 - durationInMinutes: 2
   content: "\nA ferramenta planejador de rede está disponível no centro de administração do teams. Ele ajuda você a determinar os requisitos de rede de sua organização. Este cenário de exemplo mostra como você pode usar a ferramenta para criar sites, pessoas e executar relatórios para uma empresa chamada contoso. \n\n## <a name=\"before-you-begin\"></a>Antes de você começar\n\nPresumimos que você já saiba como usar o centro de administração do Teams e esteja familiarizado com o que precisa fazer para preparar sua rede para o Teams. Se este for o primeiro artigo que você viu no planejador de rede, recomendamos que você entre nos seguintes artigos primeiro.\n\n- [Preparo da rede da sua organização para o Teams](prepare-network.md)\n- [Usar o planejador de rede para o Microsoft Teams](network-planner.md) \n\n## <a name=\"overview-of-contoso-network\"></a>Visão geral da rede contoso\n\nA contoso tem três locais:\n\n- **Sede de Seattle:** Este é o local principal da contoso. Ele tem 1000 funcionários e 25 deles são somente chamadas. O site está conectado à Internet, e há uma conexão de telefone local (PSTN). A contoso tem a configuração de roteamento direto configurada para poder usar a conexão telefônica local com o Teams. \n- **Rio o Office:** Esta filial tem os funcionários do 400 e os 10 chamam apenas chamadas. O site usa sua conexão com a matriz para tráfego de Internet e telefone (PSTN). Este escritório está conectado à sede de Seattle usando uma conexão WAN.\n- **Escritório de Denver:** Este Office tem 250 funcionários e 50 somente estão chamando. O site tem sua própria conexão à Internet local, mas não tem conexão de telefone direta (PSTN).\n\nVamos começar!\n"

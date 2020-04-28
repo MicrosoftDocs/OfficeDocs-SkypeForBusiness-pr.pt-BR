@@ -20,13 +20,14 @@ f1.keywords:
 ms.custom:
 - Phone System
 - ms.teamsadmincenter.callparkpolicies.overview
-description: Use o parque de chamadas e recupere para colocar uma chamada em espera no serviço do teams na nuvem.
-ms.openlocfilehash: b4b5200f139f5610ff1109b97742607d3b633ff6
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+- seo-marvel-apr2020
+description: Saiba como usar o estacionamento de chamadas e recuperar para colocar uma chamada em espera no serviço do teams na nuvem.
+ms.openlocfilehash: 2420652fc908a943e798ac1acade53eca4c5b55f
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824589"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905033"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>Estacionamento e recuperação de chamadas no Microsoft Teams
 
@@ -49,7 +50,7 @@ Para estacionar e recuperar chamadas, um usuário deve ser um usuário de voz em
 
 O estacionamento de chamadas e a recuperação têm suporte no momento pelos seguintes clientes e dispositivos. (Compatível com o modo somente Teams, com ou sem conectividade PSTN)
 
-| Potencial | Teams desktop | Aplicativo Teams Mac | Aplicativo Web do Teams (Edge) |Aplicativo móvel do teams para iOS/Android | Telefone IP do teams | Telefone IP do Skype for Business |
+| Funcionalidade | Teams desktop | Aplicativo Teams Mac | Aplicativo Web do Teams (Edge) |Aplicativo móvel do teams para iOS/Android | Telefone IP do teams | Telefone IP do Skype for Business |
 |------------|---------------|---------------|----------------------|-----------------------------|----------------|-----------------------------|
 | Estacionar uma chamada | Sim | Sim | Sim | Sim | Em breve| Não |
 | Recuperar uma chamada estacionada | Sim | Sim | Sim | Sim | Em breve| Não |

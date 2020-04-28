@@ -8,7 +8,7 @@ ms.topic: conceptual
 audience: admin
 ms.service: msteams
 ms.reviewer: dearbeen
-description: Preparar-se para a atualização para o modo somente Microsoft Teams
+description: O administrador pode saber mais sobre como se preparar para uma atualização para o modo Microsoft Teams only no centro de administração do Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -16,17 +16,18 @@ f1.keywords:
 ms.custom:
 - Teams-upgrade-guidance
 - ms.teamsadmincenter.orgwidesettings.teamsupgrade.upgradetoteams
+- seo-marvel-apr2020
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4c4619758672022ed767c56e296ba41d2dcc33fd
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: c45a21a1aae9facd10dafe675d10955b3fa90c62
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776816"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43903056"
 ---
 # <a name="teams-only-mode-considerations"></a>Considerações sobre o modo Teams Only (Apenas Teams)
 
@@ -37,7 +38,7 @@ A atualização para o modo somente Teams oferece aos usuários todas as vantage
 Embora milhares de clientes tenham sido atualizados com êxito para o Microsoft Teams, há considerações que podem influenciar a linha do tempo de atualização da sua organização e a experiência do usuário ao longo do caminho. Em particular, ter a opção de atualizar não significa necessariamente que sua organização está pronta para esta mudança. Para obter a melhor experiência do usuário, confirme se o Microsoft Teams atende a seus requisitos de colaboração e comunicação, verifique se a rede está pronta para dar suporte ao Microsoft Teams e implemente seu plano de preparação do usuário antes de atualizar os usuários para o Microsoft Teams. 
 
 > [!IMPORTANT]
-> Se você está apenas começando a planejar a atualização, lembre-se de rever nossa orientação de atualização e planejamento de recursos. [Comece aqui](upgrade-start-here.md). 
+> Se você estiver iniciando o planejamento da atualização, lembre-se de rever nossa [introdução ao guia de atualização do Microsoft Teams](upgrade-start-here.md) . 
 
 **Considerações de coexistência**: as organizações que já usam o Skype for Business Online e/ou o Skype for Business Server podem introduzir equipes em seu ambiente em um ritmo que atenda às suas necessidades. As organizações podem implantar de forma incremental as equipes para um conjunto desejado de usuários, conforme necessário, e os usuários que usam equipes podem se comunicar com os usuários que usam o Skype for Business e vice-versa. Para gerenciar essa experiência, os administradores usam modos de coexistência, que definem a experiência do cliente final do usuário, o comportamento de roteamento de chats e chamadas de entrada, bem como se novas reuniões estão agendadas no Teams ou no Skype for Business. Os usuários podem federar-se com usuários em outras organizações se o usuário for atualizado somente para o Microsoft **Teams**; no entanto, a melhor experiência é fornecida quando os dois usuários usam o Microsoft Teams. Os usuários que são atualizados para o Microsoft Teams ainda podem ingressar em reuniões do Skype for Business. 
 

@@ -8,7 +8,8 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Obtenha orientação sobre como planejar para mover suas equipes do StaffHub para turnos no Microsoft Teams.
+description: Use esta linha do tempo para ajudar a transição da sua organização do StaffHub Teams para turnos no Microsoft Teams.
+ms.custom: seo-marvel-mar2020
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -17,13 +18,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f296beffa5d9d97bd34035a80cac8068783cea54
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 67c7a34a1051f68183429d9850561748d34568ab
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780610"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905713"
 ---
 # <a name="plan-to-move-your-staffhub-teams-to-shifts-in-microsoft-teams"></a>Planeje mover suas equipes do StaffHub para turnos no Microsoft Teams
 

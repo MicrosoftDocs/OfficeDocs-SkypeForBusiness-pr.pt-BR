@@ -11,20 +11,21 @@ ms.collection:
 - M365-collaboration
 ms.reviewer: lolaj
 search.appverid: MET150
-description: Saiba como baixar e usar a ferramenta complementar de teste de rede.
+description: Saiba como baixar e usar a ferramenta complementar de teste de rede para testar a qualidade da rede e a conexão.
 f1.keywords:
 - CSH
 ms.custom:
 - NewAdminCenter_Update
+- seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: a9fffea969ea1448bdf8f2a076dbef6756765e20
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: f70e3db61db45897dbb9877bb67b7471ff26d060
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780020"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905153"
 ---
 <a name="use-the-network-testing-companion"></a>Usar o complemento de teste de rede
 =================================

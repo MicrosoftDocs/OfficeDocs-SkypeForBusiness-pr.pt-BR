@@ -10,21 +10,23 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: Tome decisões importantes para a fase 2 do seu plano de adoção
+description: Início rápido que aborda as principais decisões que você precisará fazer para a fase 2 do seu plano de adoção do Microsoft Teams.
 f1.keywords:
 - CSH
-ms.custom: Adopt
+ms.custom:
+- Adopt
+- seo-marvel-apr2020
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2a8c154a0e3f1366327b37b22531541fde288db2
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 7b24fd6e6ea957c085050dd1311ec536800b706b
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780480"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904316"
 ---
 # <a name="governance-quick-start-for-microsoft-teams"></a>Início rápido de governança no Microsoft Teams
 

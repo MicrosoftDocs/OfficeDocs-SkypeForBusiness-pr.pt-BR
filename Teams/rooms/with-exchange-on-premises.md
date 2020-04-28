@@ -12,17 +12,17 @@ f1.keywords:
 localization_priority: Normal
 ms.custom:
 - Strat_SB_Admin
-- seo-marvel-mar2020
+- seo-marvel-apr2020
 ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection:
 - M365-collaboration
 description: Leia este tópico para obter informações sobre como implantar salas do Microsoft Teams em um ambiente híbrido com o Exchange no local.
-ms.openlocfilehash: 0efed0a07024f0f1fcfeea7168c4f78c66fecd64
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 39e78b914edb547737ed75c20191dd9beba242c6
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141004"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905293"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>Implantar as Salas do Microsoft Teams com o Exchange no local
 
@@ -175,14 +175,14 @@ O PowerShell do Skype for Business Online é usado para gerenciar serviços para
 
 Para a validação, você deve ser capaz de usar qualquer cliente para se conectar a esta conta.
   
-## <a name="see-also"></a>Confira também
+## <a name="related-topics"></a>Tópicos relacionados
 
 [Configurar contas para salas do Microsoft Teams](rooms-configure-accounts.md)
 
-[Plano para salas do Microsoft Teams](rooms-plan.md)
+[Planejar as Salas do Microsoft Teams](rooms-plan.md)
   
-[Implantar salas do Microsoft Teams](rooms-deploy.md)
+[Implantar Salas do Microsoft Teams](rooms-deploy.md)
   
-[Configurar um console de salas do Microsoft Teams](console.md)
+[Configurar um console de Salas do Microsoft Teams](console.md)
   
 [Gerenciar Salas do Microsoft Teams](rooms-manage.md)

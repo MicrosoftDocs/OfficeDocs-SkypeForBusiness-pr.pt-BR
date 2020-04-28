@@ -16,12 +16,13 @@ MS.collection:
 description: Saiba como usar o relatório de uso de PSTN do teams no centro de administração do Microsoft Teams para obter uma visão geral do uso de chamadas e videoconferências em sua organização.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c35699093168f5bb0443277f65da9a8060f27b69
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 411cf551697bd1fdd0902dc2d906e1c7752cd27d
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778247"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904296"
 ---
 # <a name="microsoft-teams-pstn-usage-report"></a>Relatório de uso PSTN do Microsoft Teams
 
@@ -29,7 +30,7 @@ O relatório de uso de PSTN do teams no centro de administração do Microsoft T
 
 A guia **planos de chamada** mostra informações, incluindo o número de minutos gastos pelos usuários em chamadas PSTN de entrada e saída e o custo dessas chamadas. A guia **encaminhamento direto** mostra informações incluindo o endereço SIP e os horários de início e término da chamada. Use as informações neste relatório para obter informações sobre o uso da PSTN em sua organização e ajudá-lo a investigar, planejar e tomar decisões de negócios.
 
-## <a name="view-the-report"></a>Exibir o relatório
+## <a name="view-the-pstn-usage-report"></a>Exibir o relatório de uso de PSTN
 
 1. Na navegação à esquerda do centro de administração do Microsoft Teams, clique em **análises &** > relatórios de**uso**dos relatórios. Na guia **exibir relatórios** , em **relatório**, selecione **relatório de uso de PSTN**.
 2. Em **intervalo de datas**, selecione um intervalo predefinido de 7 ou 28 dias, ou defina um intervalo personalizado e selecione **executar relatório**.
@@ -79,10 +80,10 @@ Esses campos podem vir do (s) SBC (s) cliente. Há três formatos que o SBC pode
 
 A ID de correlação compartilhada existe somente no arquivo do Excel exportado que você baixar e indica que duas ou mais chamadas estão relacionadas. A seguir explica os diferentes cenários e quando a ID de correlação compartilhada está presente.
 
-1.  Usuário PSTN 1 em um ponto de extremidade PSTN chamado Teams user 1 no cliente do Teams, tipo de chamada Dr_In, ID de correlação 57f28917-42k5-4c0c-9433-79734873f2ac, nenhuma ID de correlação compartilhada.
-2.  Usuário do teams 1 no cliente do teams chamado de usuário PSTN 1 em um ponto de extremidade PSTN, tipo de chamada Dr_Out 2c12b8ca-62eb-4c48-B68D-e451f518ff4, nenhuma ID de correlação compartilhada.
-3.  Usuário PSTN 1 em um ponto de extremidade PSTN chamado de usuário do teams 2 no cliente do Teams, tipo de chamada Dr_In f45e9a25-9f94-46e7-a457-84f5940efde9, ID de correlação compartilhada f45e9a25-9f94-46e7-a457-84f5940efde9.
-4.  Chamada existente 3 com ID de correlação "f45e9a25-9f94-46e7-a457-84f5940efde9". Usuário PSTN 1 em uma chamada com o usuário do teams 2. Usuário do teams 2 transferido (cego ou consultiva) uma chamada para equipes ou usuários de PSTN, tipo de chamada Dr_Out_User_Transfer 45a1da7c-9e97-481a-8a05-3fe19a9a77e0, ID de correlação compartilhada f45e9a25-9f94-46e7-a457-84f5940efde9.
+1.    Usuário PSTN 1 em um ponto de extremidade PSTN chamado Teams user 1 no cliente do Teams, tipo de chamada Dr_In, ID de correlação 57f28917-42k5-4c0c-9433-79734873f2ac, nenhuma ID de correlação compartilhada.
+2.    Usuário do teams 1 no cliente do teams chamado de usuário PSTN 1 em um ponto de extremidade PSTN, tipo de chamada Dr_Out 2c12b8ca-62eb-4c48-B68D-e451f518ff4, nenhuma ID de correlação compartilhada.
+3.    Usuário PSTN 1 em um ponto de extremidade PSTN chamado de usuário do teams 2 no cliente do Teams, tipo de chamada Dr_In f45e9a25-9f94-46e7-a457-84f5940efde9, ID de correlação compartilhada f45e9a25-9f94-46e7-a457-84f5940efde9.
+4.    Chamada existente 3 com ID de correlação "f45e9a25-9f94-46e7-a457-84f5940efde9". Usuário PSTN 1 em uma chamada com o usuário do teams 2. Usuário do teams 2 transferido (cego ou consultiva) uma chamada para equipes ou usuários de PSTN, tipo de chamada Dr_Out_User_Transfer 45a1da7c-9e97-481a-8a05-3fe19a9a77e0, ID de correlação compartilhada f45e9a25-9f94-46e7-a457-84f5940efde9.
 
 ## <a name="exporting-the-reports"></a>Exportando os relatórios
 Clique em **exportar para o Excel**e, na guia **downloads** , clique em **baixar** para baixar o relatório quando ele estiver pronto. O processo de exportação pode levar de alguns segundos a vários minutos para ser concluído, dependendo da quantidade de dados.

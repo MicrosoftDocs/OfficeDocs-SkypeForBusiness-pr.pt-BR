@@ -10,23 +10,23 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: Saiba como aumentar a conscientização e implementar um programa de treinamento para adoção do Microsoft Teams.
+description: Saiba mais sobre como aumentar a conscientização e implementar um programa de treinamento para adoção do Microsoft Teams.
 f1.keywords:
 - CSH
 ms.custom:
 - Adopt
-- seo-marvel-mar2020
+- seo-marvel-apr2020
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d1111a73fcd80b429d04ed688ac44053c4ef3ad9
-ms.sourcegitcommit: 5606f908c6efeb67713f5986b1d8575a896bb5bd
+ms.openlocfilehash: f5539d13811a5bc4a59ef5fa8767d229baf38dea
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "43506862"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904346"
 ---
 # <a name="drive-awareness-and-implement-training-for-microsoft-teams"></a>Promover a conscientização e implementar o treinamento do Microsoft Teams
 

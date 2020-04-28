@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: dearbeen
-description: Prepare a equipe de ti em sua organização para a implantação e o suporte ao Microsoft Teams.
+description: Saiba como preparar a equipe de ti em sua organização para a implantação e o suporte ao Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -16,14 +16,15 @@ ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
+- seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 47aef5ceee6daee63683655f167016e4d7ae1cf2
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: de62e9e8c55af81b68188d3f5b8ad63975bb9058
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776726"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905253"
 ---
 # <a name="prepare-your-it-staff-for-microsoft-teams"></a>Preparar sua equipe de ti para o Microsoft Teams
 
@@ -41,7 +42,7 @@ Seus administradores da organização do Office 365, líderes técnicos e suppor
 Compartilhe os recursos a seguir com os membros da equipe de ti e confirme se estão prontos para dar suporte aos usuários antes de começar a atualização para o Microsoft Teams:
 
 - [Treinamento de administrador para o Microsoft Teams](itadmin-readiness.md)
-- [Entre em contato com o suporte para produtos comerciais - Ajuda para Administradores](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+- [Entre em contato com o suporte para produtos para empresas - ajuda para administradores](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 - [Solucionar problemas de conectividade do cliente Microsoft Teams](connectivity-issues.md)
 - [Usar arquivos de log para solucionar problemas no Microsoft Teams](log-files.md)
 
