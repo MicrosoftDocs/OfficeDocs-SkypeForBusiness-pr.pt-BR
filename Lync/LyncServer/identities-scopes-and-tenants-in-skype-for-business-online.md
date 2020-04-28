@@ -12,12 +12,12 @@ ms:contentKeyID: 56558817
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e6c6f0c08d03cd746f5929f6a7f1d82373a527a4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 598f1cb760a6b4ca969c1e8df25f9735fd0df7c1
+ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180288"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43918559"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -89,7 +89,7 @@ Você também pode ter dois usuários: Ken Myer e pilar Ackerman. Ken Myer foi a
 
 Como você pode ver, Ken Myer tem permissão para se comunicar com provedores de IM públicos. Isso ocorre porque as configurações da política por usuário atribuídas a ele substituem as configurações na política global. Pilar Ackerman não pode se comunicar com provedores de IM públicos. Isso ocorre porque ela é gerenciada pela política global e a política global proíbe essas comunicações.
 
-As políticas por usuário devem ser criadas para você pelo suporte do Office 365. Depois que as políticas são criadas, você pode atribuí-las aos usuários usando o cmdlet **Grant-cs** apropriado (por exemplo, [Grant-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsExternalAccessPolicy)). As políticas por usuário são fáceis de identificar porque a identidade da política sempre começa com o **prefixo**da marca. Por exemplo:
+As políticas por usuário devem ser criadas para você pelo suporte da Microsoft. Depois que as políticas são criadas, você pode atribuí-las aos usuários usando o cmdlet **Grant-cs** apropriado (por exemplo, [Grant-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsExternalAccessPolicy)). As políticas por usuário são fáceis de identificar porque a identidade da política sempre começa com o **prefixo**da marca. Por exemplo:
 
     Identity : tag:AllowPublicIMCommunication
 
