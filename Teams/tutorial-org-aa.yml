@@ -2,7 +2,7 @@
 title: Exemplo de pequena empresa – configurar um atendedor automático
 metadata:
   title: Exemplo de pequena empresa – configurar um atendedor automático
-  description: Para administradores de ti, planeje atendedores automáticos em toda a organização.
+  description: Os administradores de ti podem usar o sistema telefônico no Teams para configurar atendedores automáticos e sistema de menus automatizado para chamadas recebidas.
   audience: IT Pro
   level: Intermediate
   displayType: one-column
@@ -21,12 +21,12 @@ metadata:
   - M365-voice
   ms.custom:
   - NewAdminCenter_Update
-  ms.openlocfilehash: 2fe6c5c39d63fe2adc46ffad32d342520b17b874
-  ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+  ms.openlocfilehash: ad9738ef2c4701871c4d960ad664b589f05f6cc0
+  ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
   ms.translationtype: MT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 02/20/2020
-  ms.locfileid: "42160755"
+  ms.lasthandoff: 04/27/2020
+  ms.locfileid: "43904496"
 items:
 - durationInMinutes: 2
   content: "\n[O Microsoft Teams](/MicrosoftTeams/Teams-overview) e o [Skype for Business online](https://support.office.com/article/Video-What-is-Skype-for-Business-3a21eca4-434d-41f1-ab06-3d4a268573b7) são parte do Office 365 que fornecem chats, conversas telefônicas, correio de voz, reuniões, arquivos e aplicativos juntos em um só lugar. Ambos exigem licenças do [**sistema telefônico**](/MicrosoftTeams/what-is-phone-system-in-office-365) para habilitar o controle de chamada e os recursos de PBX na nuvem do Office 365. A licença está disponível como um complemento ou como parte das licenças Enterprise e5. Os detalhes de licenciamento estão no [Licenciamento do complemento Skype for Business](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing). \n\nUma licença do sistema de telefonia permite substituir o sistema PBX existente por um [conjunto de recursos](/MicrosoftTeams/here-s-what-you-get-with-phone-system) que incluem correio de voz, filas de chamadas e [atendedores automáticos](/microsoftteams/what-are-phone-system-auto-attendants), que permitem que as pessoas que chamam sua empresa naveguem em um sistema de menus para acessá-los para o departamento, pessoa ou o operador correto. Os atendedores automáticos podem ser usados com o Microsoft Teams ou o Skype for Business. Você cria um sistema de atendedor automático para sua organização com o centro de administração do Microsoft Teams.\n\nSe for solicitado a configurar um atendedor automático, este artigo fornece uma ilustração de uma ilustração do processo de planejamento, design e implementação para atendedores automáticos em uma pequena empresa hipotética. Isso não é uma solução de um só tamanho, em vez disso, o processo de pensar por trás de uma estrutura funcional de vários atendedores automáticos. \n\n## <a name=\"before-you-begin\"></a>Antes de você começar\n\nEste tutorial pressupõe que você já fez estas tarefas: \n- [Configure o sistema telefônico em sua organização](/MicrosoftTeams/setting-up-your-phone-system) para fornecer números de telefone para seus usuários.\n- [Configurar a caixa postal na nuvem](/MicrosoftTeams/set-up-phone-system-voicemail) \n- Revisado [o que são atendedores automáticos da nuvem?](/MicrosoftTeams/what-are-phone-system-auto-attendants) para obter uma melhor compreensão dos recursos do sistema telefônico que podem interagir com um atendedor automático.\n\nAlém disso, você terá satisfação em descobrir que a maior parte da parte de planejamento e design pode ser feita usando um quadro branco ou cartões de índice: ter um bom plano não é tecnicamente exigente.\n"
