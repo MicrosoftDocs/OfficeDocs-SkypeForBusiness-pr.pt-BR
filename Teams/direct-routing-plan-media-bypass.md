@@ -15,13 +15,14 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: Leia este tópico para saber como planejar o bypass de mídia com o roteamento direto do sistema telefônico.
-ms.openlocfilehash: c40840e2169a67172f006a0f0910c715feb40253
-ms.sourcegitcommit: bb88ac0c9489bb47957e5ef1074b5df3126b6fdb
+description: Saiba como planejar a bypass de mídia com o roteamento direto do sistema telefônico, o que permite reduzir o caminho do tráfego de mídia e melhorar o desempenho.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 316e94a2baafcecc9fb690f3d836e7c96c0b30ea
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/25/2020
-ms.locfileid: "42265636"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43901836"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planejar o bypass de mídia com Roteamento Direto
 
@@ -319,7 +320,7 @@ UDP/SRTP | Processador de mídia | SBC | 49 152 – 53 247    | Definido no SBC 
 
 ## <a name="configure-separate-trunks-for-media-bypass-and-non-media-bypass"></a>Configurar troncos separados para ignorar a mídia e ignorar não relacionadas à mídia  
 
-Se você estiver migrando para o bypass de mídia do bypass não relacionado à mídia e quiser confirmar a funcionalidade antes de migrar todo o uso para o bypass de mídia, você pode criar um tronco separado e uma política de roteamento de voz online separada para direcionar o tronco bypass de mídia e atribuir a um determinado Eles. 
+Se você estiver migrando para o bypass de mídia do bypass não relacionado à mídia e quiser confirmar a funcionalidade antes de migrar todo o uso para o bypass de mídia, você pode criar um tronco separado e uma política de roteamento de voz online separada para direcionar o tronco bypass de mídia e atribuir a usuários específicos. 
 
 Etapas de configuração de alto nível:
 

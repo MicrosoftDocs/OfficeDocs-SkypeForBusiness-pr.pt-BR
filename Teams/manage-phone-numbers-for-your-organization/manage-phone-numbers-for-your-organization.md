@@ -24,13 +24,14 @@ ms.custom:
 - ms.lync.lac.NewNumberManualAcquisitionOpenSupportTicket
 - ms.lync.lac.VASAMissingGeoCodes
 - Calling Plans
-description: Saiba como obter e gerenciar números de telefone do Microsoft Teams para a sua organização.
-ms.openlocfilehash: 39f6b143f65b2e3aee8d9aa78a06ae280cafea8c
-ms.sourcegitcommit: a610bfe9c0192432744dfaf8d5ff5c2bb5a16b00
+- seo-marvel-apr2020
+description: Saiba como obter e gerenciar números de telefone do usuário (assinante) e serviço (gratuito e gratuito) do Microsoft Teams para sua organização.
+ms.openlocfilehash: 264196a75c908fb4731c0db1ff9db8d788c08ed0
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "43191308"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905843"
 ---
 # <a name="manage-phone-numbers-for-your-organization"></a>Gerenciar os números de telefone de sua organização
 

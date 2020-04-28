@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 849d54b5bbdab228d4d91329894da3cdf993017b
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: 597dfa4b2184272c96843cca1ed7c7b79e4d3667
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706601"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43902266"
 ---
 # <a name="choose-your-upgrade-journey-from-skype-for-business-to-teams"></a>Escolha a jornada de atualização do Skype for Business para o Teams
 
@@ -156,7 +156,7 @@ A tabela a seguir resume os prós e os contras do uso dos modos do Skype for Bus
 | Prós     |       Contras |
 | :------------------ | :---------------- |
 | Roteamento previsível para o usuário final. Todas as chamadas e chats chegam ao Skype for Business ou Teams (mas não a ambos), com base na seleção do administrador.|As conversas de interoperabilidade não têm suporte para o compartilhamento de tela, compartilhamento de arquivos e rich text. Isso pode ser tratado, aproveitando a funcionalidade de Reunir Agora para iniciar uma reunião. |
-|Poderá reduzir as chances de um usuário final se confundir, devido a uma determinada funcionalidade está disponível apenas em um cliente. | Os usuários não têm acesso ao Teams para atividades comuns realizadas no Skype for Business, como chats e chamadas antes da atualização para o TeamsOnly.|
+|Poderá reduzir as chances de um usuário final se confundir, devido a uma determinada funcionalidade está disponível apenas em um cliente. | Os usuários não têm acesso ao Microsoft Teams para atividades comuns realizadas no Skype for Business, como chat e chamadas à frente da atualização para o TeamsOnly.|
 |O administrador aumentou o controle sobre o conjunto de recursos disponíveis para os usuários durante a transição do Skype for Business para o Teams. | |
 | Permite que uma organização use o Teams para reuniões, mesmo que ainda não esteja pronta para mudar inteiramente para o modo TeamsOnly.||
 |A presença de um determinado usuário é a mesma, conforme visualizada por outros, independentemente do cliente usado.||

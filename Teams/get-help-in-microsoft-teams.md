@@ -14,15 +14,16 @@ ms.reviewer: karuanag
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Descubra todas as maneiras de obter ajuda no Microsoft Teams.
+description: Saiba mais sobre os tópicos da ajuda, vídeos, notas de versão e fóruns de comentários para obter ajuda no Microsoft Teams.
+ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 37203cb0dc875f7fdbefe62752bff006edf7fb31
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 6de91776e6ca187df92deef412057eb92410a145
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836821"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904673"
 ---
 <a name="get-help-in-microsoft-teams"></a>Obter ajuda no Microsoft Teams
 ============================================

@@ -23,12 +23,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Conheça as etapas necessárias para atribuir um novo número de telefone de serviço à sua ponte de conferência para expandir a cobertura para seus usuários.
-ms.openlocfilehash: 233678bd953046eed5e6425e0b1a36c5a39b1061
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: d22e3c475ae80b7c6aecb89e9e6487c8db38ab1e
+ms.sourcegitcommit: 3ef5c913318fdeeaa8c55caab07c2f8224eae2b0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780350"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43898146"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>Alterar os números de telefone em sua ponte de Audioconferência
 
@@ -67,7 +67,7 @@ Somente um número de chamada de serviço pode ser definido como o número padr�
  
 ### <a name="step-3---change-the-default-phone-numbers-that-are-included-in-the-meeting-invites-of-users-optional"></a>Etapa 3-alterar os números de telefone padrão que estão incluídos nos convites de reunião de usuários (opcional)
 
-Os números de telefone padrão de um usuário são aqueles que estão incluídos nos convites de reunião quando eles agendam uma reunião. Para obter mais informações, incluindo como os números de telefone do defaul são atribuídos para novos usuários, consulte [definir os números de telefone incluídos nos convites no Microsoft Teams](set-the-phone-numbers-included-on-invites-in-teams.md) ou [definir os números de telefone incluídos nos convites no Skype for Business online](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites).
+Os números de telefone padrão de um usuário são aqueles que estão incluídos nos convites de reunião quando eles agendam uma reunião. Para obter mais informações, incluindo como os números de telefone padrão são atribuídos para novos usuários, consulte [definir os números de telefone incluídos nos convites no Microsoft Teams](set-the-phone-numbers-included-on-invites-in-teams.md) ou [definir os números de telefone incluídos nos convites no Skype for Business online](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites).
   
 1. Entre com sua conta corporativa ou de estudante.
 
@@ -83,7 +83,7 @@ Depois que as alterações forem salvas, os novos números de telefone padrão s
 
 Para as próximas duas etapas, será necessário iniciar o Windows PowerShell.
   
-Se você atualizou os números de telefone padrão que estão inlcuded nos convites de reunião para alguns ou todos os seus usuários, você pode, opcionalmente, atualizar os convites de reunião que já foram enviados para os usuários de sua organização antes de seus números de telefone padrão terem sido alterados usando o serviço de migração de reunião. Para obter informações adicionais, veja [Configurando o Meeting Migration Service (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms).
+Se você atualizou os números de telefone padrão que estão incluídos nos convites de reunião para alguns ou todos os seus usuários, você pode, opcionalmente, atualizar convites de reunião que já foram enviados para os usuários de sua organização antes de os seus números de telefone padrão terem sido alterados usando o serviço de migração de reunião. Para obter informações adicionais, veja [Configurando o Meeting Migration Service (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms).
   
 - Execute o serviço de migração de reunião (MMS) para os usuários que tiveram seus números de telefone padrão alterados na etapa 2. Para isso, execute o seguinte comando:
 
@@ -139,7 +139,7 @@ Para obter mais informações sobre o Meeting Migration Service, veja [Configura
 
 3. Se o número de telefone for um número de chamada gratuita, selecione o número de telefone na lista e, no painel Ação, clique em **Cancelar atribuição**. Se o número de telefone for um número de chamada tarifada, entre em contato com o [suporte da Microsoft](https://go.microsoft.com/fwlink/?linkid=2091806) para que o número de telefone não seja atribuído.
 
-4. Se o número de telefone for um número de chamada de fre, clique em **Sim** na janela de confirmação.
+4. Se o número de telefone for um número de chamada gratuita, clique em **Sim** na janela de confirmação.
 
    > [!IMPORTANT]
    > Após a atribuição de um número de telefone de uma ponte de audioconferência, o número de telefone não estará mais disponível para que os usuários ingressem em reuniões novas ou existentes.
@@ -223,9 +223,9 @@ Para poupar tempo automatizando esse processo, você pode usar os cmdlets [set-C
 
 ## <a name="troubleshooting"></a>Solução de problemas
 
-**O botão Cancelar atribuição está acinzentado**
+**O botão Cancelar atribuição não está disponível**
 
-Você deseja cancelar a atribuição de um número, mas o botão está esmaecido e, se enquanto hoovering sobre ele, você será redirecionado para contatar o suporte com a seguinte mensagem _"os números padrão ou compartilhados podem possível ser cancelados da ponte. Para cancelar a atribuição de números de chamada dedicada, entre em contato com o suporte._".
+Você deseja cancelar a atribuição de um número, mas o botão não está disponível e, se ao passar o mouse sobre ele, você será redirecionado para contatar o suporte com a seguinte mensagem _"os números padrão ou compartilhados podem possível ser cancelados na ponte. Para cancelar a atribuição de números de chamada dedicada, entre em contato com o suporte._".
 
 Para obter mais informações sobre a (s) ponte (s), execute o seguinte PowerShell:
 ```PowerShell

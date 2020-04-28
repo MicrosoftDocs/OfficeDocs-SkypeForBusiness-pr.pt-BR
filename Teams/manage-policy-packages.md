@@ -14,16 +14,18 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - CSH
-ms.custom: ms.teamsadmincenter.policypackages.overview
+ms.custom:
+- ms.teamsadmincenter.policypackages.overview
+- seo-marvel-apr2020
 localization_priority: Normal
 search.appverid: MET150
-description: Saiba como usar e gerenciar pacotes de política no Microsoft Teams.
-ms.openlocfilehash: a2c2ecf22529c4f16b992f349b29ccaf0ad48b0d
-ms.sourcegitcommit: 613665c866f6fd0febfa6e26ad718241cdfbb207
+description: Saiba como usar e gerenciar pacotes de política no Microsoft Teams para simplificar, simplificar e ajudar a fornecer consistência ao gerenciar políticas para grupos de usuários.
+ms.openlocfilehash: b69ce06d01af624ff73386531d7ef2b77bef3b4e
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "42942439"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43914049"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>Gerenciar pacotes de política no Microsoft Teams
 
@@ -85,7 +87,7 @@ Veja a seguir as etapas sobre como exibir, atribuir e personalizar pacotes de po
 
 #### <a name="assign-a-policy-package-to-one-user"></a>Atribuir um pacote de política a um usuário
 
-1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para **usuários**e, em seguida, clique no usuário.
+1. Na barra de navegação à esquerda do centro de administração do Microsoft Teams, vá para **Usuários** e clique no usuário.
 2. Na página do usuário, clique em **políticas**e, em seguida, ao lado de **pacote de política**, clique em **Editar**.
 3. No painel **atribuir pacote de política** , selecione o pacote que você deseja atribuir e clique em **salvar**.
 
@@ -93,7 +95,7 @@ Veja a seguir as etapas sobre como exibir, atribuir e personalizar pacotes de po
 
 1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para **pacotes de política**e, em seguida, selecione o pacote de política que você deseja atribuir clicando à esquerda do nome do pacote.
 2. Clique em **gerenciar usuários**.
-3. No painel **gerenciar usuários** , procure pelo usuário por nome para exibição ou por nome de usuário, selecione o nome e clique em **Adicionar**. Repita esta etapa para cada usuário que você deseja adicionar.
+3. No painel **Gerenciar usuários**, procure o usuário pelo nome de exibição ou pelo nome de usuário, escolha o nome e clique em **Adicionar**. Repita esta etapa para cada usuário que você deseja adicionar.
 4. Quando tiver terminado de adicionar usuários, clique em **salvar**.
 
 ### <a name="customize-policies-in-a-policy-package"></a>Personalizar políticas em um pacote de política

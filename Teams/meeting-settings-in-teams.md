@@ -21,12 +21,12 @@ ms.custom:
 ms.collection:
 - M365-collaboration
 description: Aprenda a gerenciar as configurações das reuniões do Teams que os usuários agendam em sua organização.
-ms.openlocfilehash: 920069ed5f5687111d51411afce9499a2d5db5d2
-ms.sourcegitcommit: ab6099547846f048f1c4cc584a8c5cb8c386d22e
-ms.translationtype: HT
+ms.openlocfilehash: 25945b35ec4800a00ab295ba328d5f1d65ac2ab0
+ms.sourcegitcommit: 3ef5c913318fdeeaa8c55caab07c2f8224eae2b0
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "42413288"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43898166"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Gerenciar configurações de reunião no Microsoft Teams
 
@@ -36,7 +36,6 @@ Como administrador, você usa as configurações de reunião do Teams para contr
 
 Com o ingresso anônimo, qualquer pessoa pode ingressar na reunião como um usuário anônimo clicando no link do convite para a reunião. Para saber mais, consulte [Ingressar em uma reunião sem uma conta do Teams](https://support.office.com/article/join-a-meeting-without-a-teams-account-c6efc38f-4e03-4e79-b28f-e65a4c039508).
 
-
 ![Um ícone mostrando o logotipo do Microsoft Teams](media/teams-logo-30x30.png) **Usando o centro de administração do Microsoft Teams**
 
 1. Na barra de navegação à esquerda, vá para **Reuniões** > **Configurações de reunião**.
@@ -44,7 +43,8 @@ Com o ingresso anônimo, qualquer pessoa pode ingressar na reunião como um usu�
 
     ![Captura de tela das configurações dos participantes para reuniões no centro de administração](media/meeting-settings-participants.png "Captura de tela das configurações dos participantes das reuniões do Teams no centro de administração do Microsoft Teams")
 
-Se você não deseja que usuários anônimos participem de reuniões agendadas por usuários em sua organização, desative essa configuração.
+> [!CAUTION]
+> Se você não deseja que usuários anônimos participem de reuniões agendadas por usuários em sua organização, desative essa configuração.
 
 ## <a name="customize-meeting-invitations"></a>Personalizar convites para reuniões
 
@@ -92,7 +92,7 @@ Se você estiver usando Qualidade de Serviço [(QoS)](qos-in-teams.md) para prio
     ![Captura de tela das configurações de rede para reuniões no centro de administração](media/meeting-settings-network.png "Captura de tela das configurações de rede para reuniões do Teams no centro de administração do Microsoft Teams")
 
     - Para permitir que marcadores DSCP sejam usados para QoS, ative **Inserir marcadores Quality of Service (QoS) para tráfego de mídia em tempo real**. Você só tem a opção de usar ou não usar marcadores; você não pode definir marcadores personalizados para cada tipo de tráfego. Consulte [Selecionar um método de implementação de QoS](QoS-in-Teams.md#select-a-qos-implementation-method) para obter mais informações sobre marcadores DSCP.
-        > [!NOTE] 
+        > [!NOTE]
         > A ativação de **Inserir marcadores Quality of Service (QoS) para tráfego de mídia em tempo real** também permitirá a comunicação com a Transport Relay (Retransmissão de Transporte) com as portas UDP 3479 (Áudio), 3480 (Vídeo) e 3481 (Compartilhamento).
     - Para especificar intervalos de portas, ao lado de **Selecione um intervalo de portas para cada tipo de tráfego de mídia em tempo real**, selecione **Especificar intervalos de portas** e insira as portas inicial e final para compartilhamento de áudio, vídeo e tela. A seleção desta opção é necessária para implementar a QoS.
         > [!IMPORTANT]
@@ -102,7 +102,7 @@ Se você estiver usando Qualidade de Serviço [(QoS)](qos-in-teams.md) para prio
 
 Se você não tiver certeza de quais intervalos de portas usar em seu ambiente, as seguintes configurações são um bom ponto de partida. Para saber mais, leia [Implementar a Qualidade de Serviço (QoS) no Microsoft Teams](QoS-in-Teams.md). Esses são os marcadores DSCP necessários e os intervalos de portas de mídia correspondentes sugeridos usados pelo Teams e pelo ExpressRoute.
 
-_Intervalos de portas e marcadores DSCP_
+### <a name="port-ranges-and-dscp-markings"></a>Intervalos de portas e marcadores DSCP
 
 Tipo de tráfego de mídia| Intervalo de portas de origem do cliente \* |Protocolo|Valor DSCP|Classe DSCP|
 |:---             |:---                         |:---    |:---      |:---      |

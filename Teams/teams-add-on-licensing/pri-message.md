@@ -18,13 +18,14 @@ localization_priority: Normal
 ms.custom:
 - Licensing
 - LIL_Placement
-description: Saiba mais sobre notificações de prioridade em mensagens do Microsoft Teams.
-ms.openlocfilehash: c6bd6c1381eee82878ce59cc2133ec72b9b9e21c
-ms.sourcegitcommit: 4e1647d19501b37860d9fc79370fa4347f76f85f
+- seo-marvel-apr2020
+description: Neste artigo, você aprenderá sobre as notificações de prioridade no Microsoft Teams Messaging.
+ms.openlocfilehash: c2c84019635ce2c46b6aad38363c7f8aabada83b
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43079396"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904683"
 ---
 # <a name="messaging-policies-licensing"></a>Licenciamento de políticas de mensagens
 

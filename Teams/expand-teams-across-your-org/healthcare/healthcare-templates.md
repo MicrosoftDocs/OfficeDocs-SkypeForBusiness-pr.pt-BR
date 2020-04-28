@@ -16,14 +16,14 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
-description: Introdução aos modelos do Teams para Organizações de Saúde
+description: Use os modelos do Microsoft Teams para criar equipes rápida e facilmente fornecendo um modelo predefinido de configurações, canais e aplicativos.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 7973b051684ba2d6d3f4024244ac4930cfd2de6f
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: db6475c3d7c4be6242c1befb988b240b9efcab42
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43136932"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904723"
 ---
 # <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>Introdução aos modelos do Teams para Organizações de Saúde
 

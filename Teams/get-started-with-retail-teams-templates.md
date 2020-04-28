@@ -11,19 +11,20 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 search.appverid: MET150
-description: Saiba como usar os modelos do teams para criar estruturas de equipe projetadas para as necessidades do revendedor.
+description: Saiba como usar modelos de equipe para criar estruturas de equipe projetadas para as necessidades do revendedor fornecendo configurações, canais e aplicativos pré-instalados predefinidos.
 f1.keywords:
 - CSH
 ms.custom:
 - NewAdminCenter_Update
+- seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ec16f919bad5ed696741664836aa3d7127837c5a
-ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
+ms.openlocfilehash: 4477d42cf7036ac93d79684407ee97b7b9e9b900
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42892361"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904656"
 ---
 # <a name="get-started-with-teams-templates-in-retail"></a>Introdução aos modelos do Teams no varejo 
 
@@ -63,7 +64,7 @@ O modelo de colaboração do gerente é outro um dos modelos de equipe projetado
 
 Maneiras recomendadas de personalizar o modelo de colaboração do gerente para sua organização:
 
-- Se sua organização tiver qualquer site interno (por exemplo, um site do SharePoint) relevante para gerentes, considere fixar as guias em um canal de equipe relevante (consulte a documentação [aqui](get-started-with-teams-templates.md) para obter instruções).
+- Se sua organização tiver sites internos (por exemplo, um site do SharePoint) que sejam relevantes para gerentes, considere fixar como guias em um canal de equipe relevante. Você pode dar uma olhada na [documentação do modelo do Microsoft Teams](get-started-with-teams-templates.md) para obter instruções.
 
 ## <a name="how-to-use-first-party-templates"></a>Como usar modelos de primeira empresa
 

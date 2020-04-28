@@ -13,13 +13,14 @@ localization_priority: Normal
 ms.assetid: 3034fdcb-7c89-42c4-9c5e-13400e82d88f
 ms.collection:
 - M365-collaboration
-description: Leia este tópico para saber como ingressar o PC do cliente do Sistema de Salas do Skype em seu domínio.
-ms.openlocfilehash: f2cad169b812d3da3a964c96adabc498df1009b8
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+description: O administrador pode saber mais sobre como ingressar em um PC de utensílios do sistema de sala da Skype em um domínio do Active Directory, juntamente com as considerações para fazer isso.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: dfcee1421c25903a5ec8deb2f66871ed1d57ef1c
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826079"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905433"
 ---
 <!-- This asset missed in the rebrand, and honestly not sure if it's worth keeping.   -->
 
@@ -60,7 +61,7 @@ Mesmo que você crie uma Unidade Organizacional e bloqueie herança, há algumas
   
 Você pode ter várias abordagens para resolver esses problemas. Recomendamos que você consulte os especialistas em Active Directory para garantir que sejam fornecidas a você as configurações de GPO apropriadas ou pelo menos uma Unidade Organizacional na qual as políticas descritas anteriormente não existem. É recomendável habilitar a QoS (qualidade de serviço) para dispositivos do sistema de sala do Skype.
 
-## <a name="see-also"></a>Confira também
+## <a name="related-topics"></a>Tópicos relacionados
   
 [Configuração de Dispositivo: Criar Nova ou Editar Existente](/skypeforbusiness/help-topics/help-lscp/device-configuration-create-new-or-edit-existing.md)
 

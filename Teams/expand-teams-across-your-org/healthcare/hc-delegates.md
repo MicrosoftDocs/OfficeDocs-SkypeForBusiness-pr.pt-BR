@@ -16,13 +16,14 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: acolonna
-description: Um usuário pode definir explicitamente outro usuário como um representante na mensagem de status.
-ms.openlocfilehash: e76181ff69f2d4e6ed75183bdb5fbdda695d05e4
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+description: Saiba como um usuário com status ausente ou não incomodar pode definir explicitamente outro usuário como representante em sua mensagem de status.
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 5fea05e8f316117ae711cc9f00da752c45959f2e
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42153803"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904733"
 ---
 # <a name="message-delegation"></a>Delegação de mensagem
 

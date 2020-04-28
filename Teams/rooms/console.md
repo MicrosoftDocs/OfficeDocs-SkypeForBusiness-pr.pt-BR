@@ -1,5 +1,5 @@
 ---
-title: Configurar um console de salas do Microsoft Teams
+title: Configurar um console de Salas do Microsoft Teams
 ms.author: v-lanac
 author: lanachin
 ms.reviewer: Travis-Snoozy
@@ -12,17 +12,17 @@ f1.keywords:
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
-ms.custom: ''
+ms.custom: seo-marvel-apr2020
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
-description: Este artigo descreve como configurar o console de salas do Microsoft Teams e seus periféricos.
-ms.openlocfilehash: c91c570cd83cc07f1f15823623f2b02a2ebcddf4
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+description: Este artigo descreve como configurar e configurar o console de salas do Microsoft Teams e seus periféricos.
+ms.openlocfilehash: d5c1b7f47769d925f6d67527429971970b555044
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826089"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905443"
 ---
-# <a name="configure-a-microsoft-teams-rooms-console"></a>Configurar um console de salas do Microsoft Teams
+# <a name="configure-a-microsoft-teams-rooms-console"></a>Configurar um console de Salas do Microsoft Teams
 
 Este artigo descreve como configurar o console de salas do Microsoft Teams e seus periféricos.
   
@@ -101,7 +101,7 @@ Após o sistema ser desligado, é seguro remover o disco de instalação USB. Ne
 
 ### <a name="selecting-a-language"></a>Selecionando um idioma 
 
-Na atualização do criador, você precisará usar o script ApplyCurrentRegionAndLanguage. ps1 em cenários em que a seleção de idioma implícita não forneça ao usuário o idioma real do aplicativo desejado (por exemplo, que eles querem que o aplicativo de console seja exibido em francês, mas Ele está chegando em inglês).
+Na atualização do criador, você precisará usar o script ApplyCurrentRegionAndLanguage. ps1 em cenários em que a seleção de linguagem implícita não forneça ao usuário o idioma real do aplicativo desejado (por exemplo, que eles querem que o aplicativo de console seja exibido em francês, mas está chegando em inglês).
   
 > [!NOTE]
 > As instruções a seguir funcionam apenas para consoles criados usando a atualização do criador do Windows. Sistemas herdados/no mercado que não foram configurados usando mídia com o novo sistema de provisionamento não poderão usar essas instruções, mas também não devem ser de acordo com o problema inicial que exige essa intervenção manual (a edição de aniversário permite que você escolha o idioma do aplicativo explicitamente como parte da instalação).
@@ -260,10 +260,10 @@ Use a lista de verificação a seguir ao fazer uma verificação final de que o 
 ## <a name="see-also"></a>Confira também
 <a name="Checklist"> </a>
 
-[Plano para salas do Microsoft Teams](rooms-plan.md)
+[Planejar as Salas do Microsoft Teams](rooms-plan.md)
   
-[Implantar salas do Microsoft Teams](rooms-deploy.md)
+[Implantar Salas do Microsoft Teams](rooms-deploy.md)
   
-[Configurar um console de salas do Microsoft Teams](console.md)
+[Configurar um console de Salas do Microsoft Teams](console.md)
   
 [Gerenciar Salas do Microsoft Teams](rooms-manage.md)

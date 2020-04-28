@@ -15,14 +15,14 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: Saiba como configurar um SBC (controlador de borda de sessão) para atender a vários locatários.
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 1419a42a6affa00bbeed35d328f91331ad5357ec
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+description: Saiba como configurar um SBC (controlador de borda de sessão) para atender a vários locatários para parceiros da Microsoft e/ou operadoras PSTN.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 061d0afec96e6c76e49f6471ea8ed2f673e33eba
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779567"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43901846"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurar um controlador de borda da sessão para vários locatários
 

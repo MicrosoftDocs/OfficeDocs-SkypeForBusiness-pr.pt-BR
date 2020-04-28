@@ -1,5 +1,5 @@
 ---
-title: Implantar salas do Microsoft Teams
+title: Implantar Salas do Microsoft Teams
 ms.author: v-lanac
 author: lanachin
 manager: serdars
@@ -12,15 +12,15 @@ f1.keywords:
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
-ms.custom: ''
+ms.custom: seo-marvel-apr2020
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
-description: Leia este artigo para saber mais sobre como implantar salas do Microsoft Teams.
-ms.openlocfilehash: 650302d6d952a59c1cc460e2cdf8758cfb0fcd41
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+description: Leia este artigo para saber mais sobre como implantar salas do Microsoft Teams, incluindo as fases de implantação.
+ms.openlocfilehash: cf5ba9614426c59412c53b7e0e9420ca09ef6267
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41863342"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905403"
 ---
 # <a name="deployment-overview"></a>Visão geral de implantação
 
@@ -138,7 +138,7 @@ Ao planejar a implantação de salas do Microsoft Teams, você tem várias opç�
 | Implantar mais de 50 dispositivos de salas do Microsoft Teams, implantar dispositivos de mais de um fornecedor ou exigir agentes específicos da organização como parte da implantação. | Use uma plataforma de distribuição e desenvolvimento de software baseado em sequenciador de tarefas, como [o Gerenciador de configuração do Microsoft Endpoint](rooms-scale.md).  |
 
 
-**Dica de pro** -cada sala do Microsoft Teams deve ter um nome de máquina válido e exclusivo na sua rede. Muitos sistemas de monitoramento e alerta exibem o nome do computador como um identificador de chave, portanto, é importante desenvolver uma Convenção de nomenclatura para implantações de salas do Microsoft Teams que permitem ao pessoal de suporte localizar facilmente as salas do Microsoft Teams que foram sinalizadas como requer uma ação. Um exemplo pode estar usando um padrão de MTR para o*nome da sala* do*site*-(MTR-Lon-Curie). 
+**Dica de pro** -cada sala do Microsoft Teams deve ter um nome de máquina válido e exclusivo na sua rede. Muitos sistemas de monitoramento e alerta exibem o nome do computador como um identificador de chave, portanto, é importante desenvolver uma Convenção de nomenclatura para implantações de salas do Microsoft Teams que permitem ao pessoal de suporte localizar facilmente as salas do Microsoft Teams que foram sinalizadas para exigir uma ação. Um exemplo pode estar usando um padrão de MTR para o*nome da sala* do*site*-(MTR-Lon-Curie). 
 
 Como parte da implantação, você também precisará considerar sua estratégia para gerenciar e configurar as [contas locais](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/skype-room-systems-v2-0#local-accounts) que são criadas pelo instalador do aplicativo salas do Microsoft Teams.
 
@@ -171,7 +171,7 @@ _Exemplo de tabela de implantação_
 
 ### <a name="microsoft-teams-rooms-application-and-peripheral-device-configuration"></a>Aplicativo salas do Microsoft Teams e configuração de dispositivo periférico 
 
-Após a implantação física de cada sistema de salas do Microsoft Teams e dos dispositivos periféricos suportados conectados, você precisará configurar o aplicativo salas do Microsoft Teams para atribuir a conta de recursos de salas do Microsoft Teams e a senha criada anteriormente para habilitar o sistema de salas do Microsoft Teams para entrar no Microsoft Teams ou no Skype for Business e no Exchange. É fundamental aproveitar os periféricos de áudio e vídeo USB certificados vinculados em outro lugar do documento. Não fazer isso pode resultar em um comportamento imprevisível. 
+Após a implantação física de cada sistema de salas do Microsoft Teams e dos dispositivos periféricos suportados conectados, você precisará configurar o aplicativo salas do Microsoft Teams para atribuir a conta de recursos de salas do Microsoft Teams e a senha criada anteriormente para permitir que o sistema de salas do Microsoft Teams entre no Microsoft Teams ou no Skype for Business e no Exchange. É fundamental aproveitar os periféricos de áudio e vídeo USB certificados vinculados em outro lugar do documento. Não fazer isso pode resultar em um comportamento imprevisível. 
 
 Você pode configurar manualmente cada sistema de salas do Microsoft Teams. Você também pode usar um arquivo de configuração XML de sala de salas (Microsoft Teams) armazenado de forma centralizada para gerenciar as configurações do aplicativo e aproveitar um script de início de GPO para reaplicar a configuração desejada, sempre que o sistema de salas do Microsoft Teams for inicializado. 
 

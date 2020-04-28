@@ -16,14 +16,14 @@ appliesto:
 hideEdit: true
 f1.keywords:
 - NOCSH
-description: A Microsoft faz parceria com fornecedores selecionados de SBC (controlador de borda da sessão) para garantir que seus SBCs sejam compatíveis com o Roteamento Direto.
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ec7dacf18c27eb6aafbb29adc2ce618e9db07e68
-ms.sourcegitcommit: 0fdc60840f45ff5b0a39a8ec4a21138f6cab49c9
+description: O administrador pode saber qual controlador de borda de sessão (SBCs) foi certificado para roteamento direto.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 4d0a4f5846b120559b2fbaea97e191f1740ad4be
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43160035"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43901826"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Lista de controladores de borda da sessão certificados para Roteamento Direto
 

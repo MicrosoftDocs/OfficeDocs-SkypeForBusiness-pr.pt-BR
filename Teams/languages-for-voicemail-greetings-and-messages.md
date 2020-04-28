@@ -20,13 +20,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: 'Saiba quais idiomas podem ser configurados no Skype for Business para as mensagens padrão do sistema. '
-ms.openlocfilehash: 78d3c53782e83ae191983bd8d7af2f1f5072f1df
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+- seo-marvel-apr2020
+description: Saiba quais idiomas você pode definir no Skype for Business para as mensagens padrão do sistema e saudações de correio de voz.
+ms.openlocfilehash: e5158c7b313ad13abbd370550c38f54c8df04d29
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836581"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904516"
 ---
 # <a name="languages-for-voicemail-greetings-and-messages"></a>Idiomas das mensagens e saudações da caixa postal
 
@@ -63,18 +64,18 @@ Para alter o idioma usado pelo Skype for Business nas saudações da caixa posta
 |Coreano  <br/> |Coreano  <br/> |ko-KR  <br/> |Sim  <br/> |Sim  <br/> |Não  <br/> |
 |Norueguês (Bokmal)  <br/> |Noruega  <br/> |nb-NO  <br/> |Sim  <br/> |Não  <br/> |Não  <br/> |
 |Polonês  <br/> |Polônia  <br/> |pl-PL  <br/> |Sim  <br/> | Sim <br/> |Não  <br/> |
-|Português  <br/> |Brasil  <br/> |pt-BR  <br/> |Sim, mas é usado o Português (Portugal) (pt-PT).  <br/> |Sim  <br/> |Sim  <br/> |
-|Português  <br/> |Portugal  <br/> |pt-PT  <br/> |Sim  <br/> |Sim  <br/> |Sim, mas é usado o Português (Brasil) (pt-BR).  <br/> |
-|Romeno<br/> |Romênia  <br/> |ro-RO  <br/> |Sim  <br/> |Sim  <br/> |Não  <br/> |
-|Russo  <br/> |Rússia  <br/> |ru-RU  <br/> |Sim  <br/> |Sim  <br/> |Não  <br/> |
-|Eslovaco <br/> |Eslováquia  <br/> |sk-SK  <br/> |Sim  <br/> |Sim  <br/> |Não  <br/> |
-|Esloveno <br/> |Eslovênia  <br/> |SL-SI  <br/> |Sim  <br/> |Sim  <br/> |Não  <br/> |
-|Espanhol  <br/> |Espanha  <br/> |es-ES  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |
+|Português  <br/> |Brasil  <br/> |pt-BR  <br/> |Sim, mas é usado o Português (Portugal) (pt-PT).  <br/> |Sim   <br/> |Sim  <br/> |
+|Português  <br/> |Portugal  <br/> |pt-PT  <br/> |Sim   <br/> |Sim  <br/> |Sim, mas é usado o Português (Brasil) (pt-BR).  <br/> |
+|Romeno<br/> |Romênia  <br/> |ro-RO  <br/> |Sim   <br/> |Sim  <br/> |Não  <br/> |
+|Russo  <br/> |Rússia  <br/> |ru-RU  <br/> |Sim   <br/> |Sim  <br/> |Não  <br/> |
+|Eslovaco <br/> |Eslováquia  <br/> |sk-SK  <br/> |Sim   <br/> |Sim  <br/> |Não  <br/> |
+|Esloveno <br/> |Eslovênia  <br/> |SL-SI  <br/> |Sim   <br/> |Sim  <br/> |Não  <br/> |
+|Espanhol  <br/> |Espanha  <br/> |es-ES  <br/> |Sim   <br/> |Sim   <br/> |Sim  <br/> |
 |Espanhol  <br/> |México  <br/> |es-MX  <br/> |Sim, mas é usado o Espanhol (Espanha) (es-ES).  <br/> |Sim  <br/> |Sim, mas é usado o Espanhol (Espanha) (es-ES).  <br/> |
 |Sueco  <br/> |Suécia  <br/> |sv-SE  <br/> |Sim  <br/> |Sim  <br/> |Não  <br/> |
-|Tailandês <br/> |Tailândia  <br/> |th-TH  <br/> |Sim  <br/> |Sim  <br/> |Não  <br/> |
-|Turco  <br/> |Turquia  <br/> |tr-TR  <br/> |Sim  <br/> |Sim  <br/> |Não  <br/> |
-|Vietnamita <br/> |Vietnã  <br/> |vi-VN  <br/> |Sim  <br/> |Sim  <br/> |Não  <br/> |
+|Tailandês <br/> |Tailândia  <br/> |th-TH  <br/> |Sim   <br/> |Sim  <br/> |Não  <br/> |
+|Turco  <br/> |Turquia  <br/> |tr-TR  <br/> |Sim   <br/> |Sim  <br/> |Não  <br/> |
+|Vietnamita <br/> |Vietnã  <br/> |vi-VN  <br/> |Sim   <br/> |Sim  <br/> |Não  <br/> |
    
 ## <a name="related-topics"></a>Tópicos relacionados
 [Disponibilidade da Audioconferência e dos Planos de Chamadas por país e região](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

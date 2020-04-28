@@ -1,5 +1,5 @@
 ---
-title: Organizações GOV, EDU e sem fins lucrativos
+title: GOV, EDU e instituições sem fins lucrativos
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,15 +18,16 @@ localization_priority: Normal
 ms.custom:
 - Licensing
 - LIL_Placement
-description: 'Saiba mais sobre licenças complementares e recursos para planos de organizações GOV, EDU e sem fins lucrativos. '
-ms.openlocfilehash: 49be4e27997278d1a0b2842ced2c540783b68163
-ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
+- seo-marvel-apr2020
+description: Saiba mais sobre licenças de Complementos e recursos para planos de governo, educação e organização sem fins lucrativos.
+ms.openlocfilehash: d16a6f0170acb90a54e24cbf7b24f2480fd4b51a
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42795964"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904536"
 ---
-# <a name="gov-edu-and-non-profit-organizations"></a>Organizações GOV, EDU e sem fins lucrativos
+# <a name="gov-edu-and-non-profit-organizations"></a>GOV, EDU e instituições sem fins lucrativos
 
 A maioria dos recursos do teams está disponível para organizações de governo dos EUA, educação e sem fins lucrativos. Consulte a tabela a seguir para obter detalhes.
 
@@ -51,4 +52,4 @@ Em resposta a uma maior necessidade de as pessoas trabalharem remotamente (ou tr
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Office 365 sem fins lucrativos](https://www.microsoft.com/microsoft-365/nonprofit/office-365-nonprofit)
+[Office 365 para instituições sem fins lucrativos](https://www.microsoft.com/microsoft-365/nonprofit/office-365-nonprofit)

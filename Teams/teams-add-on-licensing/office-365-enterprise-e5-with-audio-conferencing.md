@@ -18,13 +18,14 @@ localization_priority: Normal
 ms.custom:
 - Licensing
 - LIL_Placement
-description: 'Saiba mais sobre licenças de complemento, recursos e como comprar para os planos do Office 365 Enterprise e5. '
-ms.openlocfilehash: c5c205a6084b017a1085bf49a10df04e139bfc56
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+- seo-marvel-apr2020
+description: Saiba mais sobre as licenças de complemento, seus recursos e como comprar essas licenças para os planos do Office 365 Enterprise e5.
+ms.openlocfilehash: 06559857143f04714acd0a39064fc4a9c12c04ab
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826529"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904703"
 ---
 # <a name="office-365-enterprise-e5"></a>Office 365 Enterprise E5
 

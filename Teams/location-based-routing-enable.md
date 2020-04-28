@@ -8,7 +8,7 @@ ms.reviewer: roykuntz
 ms.service: msteams
 audience: admin
 search.appverid: MET150
-description: Saiba como habilitar o roteamento baseado em local para roteamento direto.
+description: Saiba como habilitar o roteamento baseado em local para roteamento direto, incluindo a habilitação para usuários, sites de rede, configurações de gateway e políticas de chamadas.
 localization_priority: Normal
 f1.keywords:
 - NOCSH
@@ -16,12 +16,13 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 734a2354e81dc88430e8f880c46b0f97862158b5
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 56ea3f8b27a582a9cea282244a03be692d0781be
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836551"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905773"
 ---
 # <a name="enable-location-based-routing-for-direct-routing"></a>Habilitar o Roteamento baseado na localização para o Roteamento direto
 
@@ -119,8 +120,8 @@ Este artigo descreve como habilitar o roteamento baseado em localização para r
 
     Neste exemplo, habilitamos o roteamento baseado em local para cada gateway associado a gateways PSTN nos sites Delhi e Hyderabad. 
     ```PowerShell
-    Set-CSOnlinePSTNGateway -Identity sbc.contoso.com  -GatewaySiteLbrEnabled $true –GatewaySiteID “Delhi”
-    Set-CSOnlinePSTNGateway -Identity sbc1.contoso.com  -GatewaySiteLbrEnabled $true -GatewaySiteID “Hyderabad” 
+    Set-CSOnlinePSTNGateway -Identity sbc.contoso.com  -GatewaySiteLbrEnabled $true –GatewaySiteID "Delhi"
+    Set-CSOnlinePSTNGateway -Identity sbc1.contoso.com  -GatewaySiteLbrEnabled $true -GatewaySiteID "Hyderabad" 
     ```
     Não habilite o roteamento baseado em localização para gateways que não roteiam chamadas para a PSTN. No entanto, você ainda precisa associar o gateway ao site de rede onde o sistema está localizado. Isso ocorre porque restrições de roteamento baseadas em local precisam ser impostas para que chamadas PSTN atinjam pontos de extremidade conectados por meio desse gateway. Neste exemplo, o roteamento baseado em localização não está habilitado para cada gateway associado a sistemas PBX nos sites Delhi e Hyderabad.
 
@@ -159,7 +160,7 @@ Grant-CsTeamsCallingPolicy -PolicyName <policy name> -id <user id>
 Neste exemplo, impedimos que a chamada em PSTN seja ignorada para políticas de chamada User1's. 
 
 ```PowerShell
-Grant-CsTeamsCallingPolicy –PolicyName “AllowCallingPreventTollBypass” -id “User1” 
+Grant-CsTeamsCallingPolicy –PolicyName "AllowCallingPreventTollBypass" -id "User1" 
 ```
 
 ## <a name="related-topics"></a>Tópicos relacionados

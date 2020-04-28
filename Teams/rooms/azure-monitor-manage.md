@@ -14,13 +14,13 @@ ms.assetid: f8109905-3279-475f-a64b-31d37af48bfe
 ms.collection:
 - M365-collaboration
 description: Este artigo discute como gerenciar dispositivos de salas do Microsoft Teams de forma integrada usando o Azure monitor.
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 8ddc76c43bf3aff42312f18ed35fc7aec9691edb
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 74c4ba537adeeeffbc7f3f3ca1cfba7481dff6fb
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137582"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905453"
 ---
 # <a name="manage-microsoft-teams-rooms-devices-with-azure-monitor"></a>Gerenciar dispositivos de salas do Microsoft Teams com o Azure monitor
 
@@ -44,7 +44,7 @@ Se você entender essas descrições de eventos, será alertado rapidamente sobr
 | 3001  <br> Evento de erro  | Este é um evento de erro de hardware. O aplicativo salas do Microsoft Teams tem um processo que verifica a integridade dos componentes de hardware conectados (frente da sala, microfone, alto-falante, câmera) a cada 5 minutos. Se um ou mais dos componentes não estiverem íntegros, ele gravará EventID 3001 no log de eventos. Esse evento é escrito a cada 5 minutos até que o problema com o dispositivo seja corrigido.   | {"Descrição": " **status da tela frontal da sala: não íntegro.** Configured display count is 2. Real display count is 0. **Conference Microphone status : Unhealthy.** Conference Speaker status : Healthy. Default Speaker status : Healthy. Status da câmera: íntegro. "," resourcestate ":" não íntegro "," OperationName ":" HardwareCheckEngine "," OperationResult ":" FAIL "," so ":" Windows 10 "," OSVersion ":" 10.0.14393.1198 "," alias ":" alias<span></span>@contoso. com "," DisplayName ":" Yosemite sala de conferência "," AppVersion ":" 2.0.58.0 "," IPv4Address ":" 10.10.10.10 "," IPv6Address ":" IPv6Address "," IPv4Address2 " <br><br>  Os periféricos de hardware são mostrados como Healthy ou Unhealthy. <br> Neste exemplo, há duas telas frontais da sala configuradas e, no momento, nenhuma delas está disponível. O status do microfone da conferência não é íntegro, o que pode ter várias causas possíveis. Como pelo menos um recurso não passou na verificação, ResourceState é listado como Unhealthy. Peça para um técnico investigar melhor. |
 | 4000  <br> Informações  <br> | Este é um evento de reinício do aplicativo. Sempre que o aplicativo é reiniciado, esse evento é registrado no log de eventos do Windows.  <br> | {"Descrição": "reinicialização do aplicativo.", "resourcestate": "Healthy", "OperationName": "reiniciar", "OperationResult": "Pass", "so": "alias @domain. com", "DisplayName": "10.0.14393.693", "alias"<span></span>: "alias. com", "DisplayName": "nome para exibição", "IPv6Address": "1.0.38.0", "IPv4Address": "10.10.10.10", "IPv6Address": "endereço IP V6"} <br><br> O aplicativo pode ser reiniciado por vários motivos. Comparar a frequência de reinicialização de dispositivos na mesma compilação e em prédios diferentes. Tenha em mente problemas conhecidos como flutuações e falhas de energia, pois isso pode fornecer pistas para problemas de infraestrutura.|
 
-## <a name="see-also"></a>Confira também
+## <a name="related-topics"></a>Tópicos relacionados
  
 
 [Planejar o gerenciamento de salas do Microsoft Teams com o Azure monitor](azure-monitor-plan.md)
