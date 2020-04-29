@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Este apêndice inclui etapas detalhadas para desabilitar o híbrido como parte da consolidação em nuvem para o Teams e o Skype for Business.
-ms.openlocfilehash: 053d632b5a07b7ce7cca8ef7a1ddf45a673bcf59
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 039e8a30495567fe818fe4d60b863f37cf94e049
+ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780140"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43918730"
 ---
 # <a name="disable-hybrid-to-complete-migration-to-the-cloud"></a>Desabilitar a migração híbrida para concluir a nuvem
 
@@ -42,7 +42,7 @@ Essas etapas devem ser feitas juntas como uma unidade. Os detalhes são fornecid
 
 > [!Note] 
 > Em casos raros, alterar o DNS de apontar para local para o Office 365 para sua organização pode fazer com que a Federação com algumas outras organizações pare de funcionar até que outra organização Atualize sua configuração de Federação:<ul><li>
-Todas as organizações federadas que usam o modelo de Federação direta mais antigo (também conhecido como servidor parceiro permitido) precisarão atualizar suas entradas de domínio permitidas para sua organização para remover o FQDN do proxy. Esse modelo de Federação herdado não é baseado nos registros SRV DNS, portanto, essa configuração se tornará desatualizada quando sua organização for movida para a nuvem. </li><li>Qualquer organização federada que não tenha um provedor de hospedagem habilitado para sipfed. online. Lync. <span>com precisará atualizar sua configuração para habilitar isso. Essa situação só é possível se a organização federada estiver exclusivamente local e nunca federada com nenhum locatário híbrido ou online. Nesse caso, a Federação com essas organizações não funcionará até que o provedor de hospedagem seja habilitado.</li></ul>Se você suspeita que qualquer um dos seus parceiros federados pode usar Federação direta ou federado com qualquer organização online ou híbrida, sugerimos que você envie uma comunicação sobre isso ao se preparar para concluir a migração para a nuvem.
+Todas as organizações federadas que usam o modelo de Federação direta mais antigo (também conhecido como servidor parceiro permitido) precisarão atualizar suas entradas de domínio permitidas para sua organização para remover o FQDN do proxy. Esse modelo de Federação herdado não é baseado nos registros SRV DNS, portanto, essa configuração se tornará desatualizada quando sua organização for movida para a nuvem. </li><li>Qualquer organização federada que não tenha um provedor de hospedagem habilitado para sipfed. online. Lync. <span>com precisará atualizar sua configuração para habilitar isso. Essa situação só é possível se a organização federada for puramente local e nunca federada com nenhum locatário híbrido ou online. Nesse caso, a Federação com essas organizações não funcionará até que o provedor de hospedagem seja habilitado.</li></ul>Se você suspeita que qualquer um dos seus parceiros federados pode estar usando a Federação direta ou não tenha federado com nenhuma organização online ou híbrida, sugerimos que você envie uma comunicação sobre isso ao se preparar para concluir a migração para a nuvem.
 
 1.  *Atualize o DNS para apontar para o Office 365.*
 O DNS externo da organização para a organização local precisa ser atualizado para que os registros do Skype for Business apontem para o Office 365 em vez da implantação local. Especificamente:
@@ -65,9 +65,10 @@ O comando a seguir precisa ser feito de uma janela do PowerShell do Skype for Bu
  
 3.  *Desabilitar a capacidade no local para se comunicar com o Office 365.*  
 O comando abaixo precisa ser feito de uma janela do PowerShell local:
-```PowerShell
+
+    ```PowerShell
     Get-CsHostingProvider|Set-CsHostingProvider -Enabled $false
-```
+    ```
 
 ### <a name="manage-phone-numbers-for-users-who-were-migrated-from-on-premises"></a>Gerenciar números de telefone para usuários que foram migrados do local
 
