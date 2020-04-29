@@ -1,7 +1,7 @@
 ---
 title: Conduzir uma investigação de conteúdo de descoberta eletrônica do conteúdo
 author: LolaJacobsen
-ms.author: lolaj
+ms.author: hakank
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -17,12 +17,12 @@ description: Saiba o que fazer quando você precisar executar uma descoberta ele
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 4b31f2efb613551ab17320900e45cf30d0ee11be
-ms.sourcegitcommit: df4dde0fe6ce9e26cb4b3da4e4b878538d31decc
+ms.openlocfilehash: 67006fba94a58514fa33c91edd0a46312396b31a
+ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "43521537"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43918579"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Conduzir uma investigação de Descoberta Eletrônica de conteúdo no Microsoft Teams
 
@@ -40,17 +40,15 @@ Nem todo o conteúdo do teams é eDiscoverable. A tabela a seguir mostra os tipo
 |:--- | --- |:--- |
 | Mensagens de chat do teams | Sim | Mensagens de chat de chats em que os usuários convidados são os únicos participantes de um 1:1 ou 1: N o chat não é eDiscoverable. |
 | Gravações de áudio | Não | |
-| Carimbo de data/hora mostrando quando uma mensagem foi lida por cada usuário | Não | |
-| Gravações de áudio | Não | |
 | Mensagens de canal privado | Não | |
 | Emojis, GIFs, adesivos | Sim | |
 | Trechos de código | Não | |
-| Links de chat | Não | |
+| Links de chat | Sim | |
 | Reações (curtidas, corações e assim por diante) | Não | |
 | Mensagens editadas | Sim | Se o usuário estiver em espera, as versões anteriores das mensagens editadas serão preservadas. |
 | Imagens embutidas | Sim | |
-| Tabelas | Não | |
-| Assunto | Não | |
+| Tabelas | Sim | |
+| Assunto | Sim | |
 | Cota | Sim | Conteúdo entre aspas é pesquisável. No entanto, os resultados da pesquisa não indicam que o conteúdo foi cotado. |
 | Nome do canal | Não | |
 
@@ -162,7 +160,7 @@ Um conjunto de revisão de conversa fornece uma exibição encadeada e mais intu
 
 A funcionalidade como a redação está disponível nos dois tipos de conjuntos de revisão.
 
-Para obter mais informações sobre conjuntos de revisão, consulte [rever conversas na descoberta eletrônica avançada](https://docs.microsoft.com/microsoft-365/compliance/conversation-review-sets)
+Para obter mais informações sobre conjuntos de revisão, consulte [rever conversas na descoberta eletrônica avançada](https://docs.microsoft.com/microsoft-365/compliance/conversation-review-sets).
 
 #### <a name="collection-options"></a>Opções de coleção
 

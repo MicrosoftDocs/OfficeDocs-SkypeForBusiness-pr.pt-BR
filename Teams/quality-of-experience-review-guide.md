@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: 44ea666d39427e6be6aa60a3c05af2a10ed1cc5e
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: bb0b28805f06109109a1d7ba47b08f57112c9ee4
+ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780580"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43918720"
 ---
 # <a name="quality-of-experience-review-guide"></a>Guia de revisão da experiência de qualidade 
 
@@ -61,28 +61,6 @@ Este guia se destina a ser usado por parceiros e interessados do cliente com fun
 
 Este guia também deve ser usado pelo (s) especialista (s) de qualidade designado (s). Para obter mais informações, consulte [a função Champion de qualidade](4-envision-plan-my-service-management.md#the-quality-champion-role).
 
-## <a name="assign-roles-for-accessing-cqd"></a>Atribuir funções para acessar o CQD
-
-Antes de usar este guia, verifique se você tem as [funções](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) de locatário adequadas atribuídas para poder acessar o CQD.
-
-Esta tabela mostra o que cada função pode fazer no CQD:
-
-
-|  |Exibir relatórios  |Exibir campos EUII  |Criar relatórios  |Carregar dados de construção  |
-|---------|:-------:|:-------:|:-------:|:-------:|
-|Administrador global     |Sim          |Sim          |Sim          |Sim         |
-|Administrador de Serviço de Equipes     |Sim          |Sim          |Sim          |Sim         |
-|Administrador de Comunicações de Equipes     |Sim          |Sim          |Sim          |Sim         |
-|Engenheiro de Suporte de Comunicações de Equipes     |Sim          |Sim          |Sim         |Não         |
-|Especialista em suporte do teams Communications     |Sim         |Não         |Sim         |Não         |
-|Administrador do Skype for Business     |Sim          |Sim          |Sim          |Sim         |
-|Leitor global do Azure AD |Sim          |Sim          |Sim         |Não         |
-|Leitor de relatórios<sup>1</sup> do Microsoft 365     |Sim         |Não         |Sim         |Não         |
-
-<sup>1</sup> além de ler relatórios do CQD, o leitor de relatórios do Microsoft 365 pode exibir todos os [relatórios de atividades](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263) no centro de administração e todos os relatórios do pacote de conteúdo de [adoção do Microsoft 365](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f).
-
-> [!NOTE]
-> Se você não estiver vendo EUII (informações identificáveis pelo usuário final) e tiver uma das funções que tem permissão para ver essas informações, lembre-se de que CQD só mantém EUII por 30 dias. Qualquer item mais antigo que 30 dias é excluído.
 
 ## <a name="what-is-quality"></a>O que é qualidade?
 

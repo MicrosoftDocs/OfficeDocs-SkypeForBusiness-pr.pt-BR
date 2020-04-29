@@ -17,12 +17,12 @@ description: Saiba como usar o relatório de uso de PSTN do teams no centro de a
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 411cf551697bd1fdd0902dc2d906e1c7752cd27d
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 0a6836e6f29cce1d55ff755cd1fa8ac5b18dea06
+ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904296"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43918569"
 ---
 # <a name="microsoft-teams-pstn-usage-report"></a>Relatório de uso PSTN do Microsoft Teams
 
@@ -104,56 +104,58 @@ A primeira linha do CSV contém nomes de coluna. Todas as datas são UTC e no fo
 
  Você pode exportar dados até um ano a partir da data atual, a menos que as normas específicas do país proíbam a retenção dos dados por 12 meses.
 
-| # | Nome | [Tipo de dados (SQL Server)](https://docs.microsoft.com/sql/t-sql/data-types/data-types-transact-sql) | Descrição |
-| :-: | :-: | :-: |:------------------- |
-| 0 | Usageid | `uniqueidentifier` | Identificador de chamada exclusivo |
-| 1 | ID da chamada | `nvarchar(64)` | Identificador de chamadas. Não garantido como exclusivo |
-| 2 | ID de conferência | `nvarchar(64)` | ID da conferência de áudio |
-| 3 | Local do usuário | `nvarchar(2)` | Código do país do usuário, [ISO 3166-1 alfa-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
-| 4 | ObjectId do AAD | `uniqueidentifier` | Chamando a ID do usuário no Azure Active Directory.<br/> Esta e outras informações do usuário serão nulas/vazias para tipos de chamada do bot (ucap_in ucap_out) |
-| 5 | UPNS | `nvarchar(128)` | UserPrincipalName (nome do usuário) no Azure Active Directory.<br/>Geralmente, é o mesmo que o endereço SIP do usuário e pode ser o mesmo que o endereço de email do usuário |
-| 6 | Nome de exibição do usuário | `nvarchar(128)` | Exibir o nome do usuário |
-| 7 | ID do chamador | `nvarchar(128)` | Número que recebeu a chamada para chamadas recebidas ou o número foi discado para chamadas feitas. Formato [E. 164](https://en.wikipedia.org/wiki/E.164) |
-| 8 | Tipo de Chamada | `nvarchar(32)` | Se a chamada foi uma chamada PSTN de saída ou de entrada e o tipo de chamada, como uma chamada feita por um usuário ou uma conferência de áudio |
-| 9 | Tipo de número | `nvarchar(16)` | Tipo de número de telefone do usuário, como um serviço de número de chamada gratuita |
-| 254 | Doméstica/internacional | `nvarchar(16)` | Se a chamada foi doméstica (dentro de um país ou região) ou internacional (fora de um país ou região) com base na localização do usuário |
-| 11:00 | Destino discado | `nvarchar(64)` | País ou região discada |
-| 12 | Número do destino | `nvarchar(32)` | Número discado no formato [E. 164](https://en.wikipedia.org/wiki/E.164) |
-| 0,13 | Hora de início | `datetimeoffset` | Hora de início da chamada |
-| 14 | Hora de término | `datetimeoffset` | Hora de término da chamada |
-| 15 | Segundos de duração | `int` | Tempo em que a chamada foi conectada |
-| 16 | Taxa de conexão | `numeric(16, 2)` | Preço da taxa de conexão |
-| 16 | Chargeback | `numeric(16, 2)` | Valor de dinheiro ou custo da chamada cobrada na sua conta |
-| dezoito | Moeda | `nvarchar(3)` | Tipo de moeda usado para calcular o custo da chamada ([ISO 4217](https://en.wikipedia.org/wiki/ISO_4217)) |
-| pol | Funcionalidade | `nvarchar(32)` | A licença usada para a chamada |
+> [!div class="has-no-wrap"]  
+> | # | Nome | [Tipo de dados (SQL Server)](https://docs.microsoft.com/sql/t-sql/data-types/data-types-transact-sql) | Descrição |
+> | :-: | :-: | :-: |:------------------- |
+> | 0 | Usageid | `uniqueidentifier` | Identificador de chamada exclusivo |
+> | 1 | ID da chamada | `nvarchar(64)` | Identificador de chamadas. Não garantido como exclusivo |
+> | 2 | ID de conferência | `nvarchar(64)` | ID da conferência de áudio |
+> | 3 | Local do usuário | `nvarchar(2)` | Código do país do usuário, [ISO 3166-1 alfa-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
+> | 4 | ObjectId do AAD | `uniqueidentifier` | Chamando a ID do usuário no Azure Active Directory.<br/> Esta e outras informações do usuário serão nulas/vazias para tipos de chamada do bot (ucap_in ucap_out) |
+> | 5 | UPNS | `nvarchar(128)` | UserPrincipalName (nome do usuário) no Azure Active Directory.<br/>Geralmente, é o mesmo que o endereço SIP do usuário e pode ser o mesmo que o endereço de email do usuário |
+> | 6 | Nome de exibição do usuário | `nvarchar(128)` | Exibir o nome do usuário |
+> | 7 | ID do chamador | `nvarchar(128)` | Número que recebeu a chamada para chamadas recebidas ou o número foi discado para chamadas feitas. Formato [E. 164](https://en.wikipedia.org/wiki/E.164) |
+> | 8 | Tipo de Chamada | `nvarchar(32)` | Se a chamada foi uma chamada PSTN de saída ou de entrada e o tipo de chamada, como uma chamada feita por um usuário ou uma conferência de áudio |
+> | 9 | Tipo de número | `nvarchar(16)` | Tipo de número de telefone do usuário, como um serviço de número de chamada gratuita |
+> | 254 | Doméstica/internacional | `nvarchar(16)` | Se a chamada foi doméstica (dentro de um país ou região) ou internacional (fora de um país ou região) com base na localização do usuário |
+> | 11:00 | Destino discado | `nvarchar(64)` | País ou região discada |
+> | 12 | Número do destino | `nvarchar(32)` | Número discado no formato [E. 164](https://en.wikipedia.org/wiki/E.164) |
+> | 0,13 | Hora de início | `datetimeoffset` | Hora de início da chamada |
+> | 14 | Hora de término | `datetimeoffset` | Hora de término da chamada |
+> | 15 | Segundos de duração | `int` | Tempo em que a chamada foi conectada |
+> | 16 | Taxa de conexão | `numeric(16, 2)` | Preço da taxa de conexão |
+> | 16 | Chargeback | `numeric(16, 2)` | Valor de dinheiro ou custo da chamada cobrada na sua conta |
+> | dezoito | Moeda | `nvarchar(3)` | Tipo de moeda usado para calcular o custo da chamada ([ISO 4217](https://en.wikipedia.org/wiki/ISO_4217)) |
+> | pol | Funcionalidade | `nvarchar(32)` | A licença usada para a chamada |
 
 ### <a name="exported-direct-routing-usage-report"></a>Relatório de uso de roteamento direto exportado
 
 Você pode exportar dados de até cinco meses (150 dias) a partir da data atual, a menos que as normas específicas do país proíbam a retenção dos dados desse período.
 
-| # | Nome | [Tipo de dados (SQL Server)](https://docs.microsoft.com/sql/t-sql/data-types/data-types-transact-sql) | Descrição |
-| :-: | :-: | :-: |:------------------- |
-| 0 | CorrelationId | `uniqueidentifier` | Identificador de chamada exclusivo |
-| 1 | Endereço SIP | `nvarchar(128)` | O endereço do usuário ou do bot que fez ou recebeu a chamada.<br/>Observe que isso é realmente UserPrincipalName (UPN, nome do usuário) no Azure Active Directory, que geralmente é o mesmo que o endereço SIP |
-| 2 | Nome para exibição | `nvarchar(128)` | O nome de um usuário ou um bot de chamada (por exemplo, fila de chamadas ou atendedor automático) conforme definido no centro de administração do Microsoft 365 |
-| 3 | País do usuário | `nvarchar(2)` | Código do país do usuário, [ISO 3166-1 alfa-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
-| 4 | Hora do convite | `datetimeoffset` | Quando o convite inicial envia a saída do usuário do teams ou a chamada de bot para o SBC ou recebido em chamadas de entrada para equipes ou bot pelo componente de proxy SIP do direcionamento direto do SBC |
-| 5 | Hora de início | `datetimeoffset` | Hora em que o proxy SIP recebeu a resposta final (mensagem SIP "200 OK") do SBC em saída (equipes/bot a um usuário PSTN) ou depois que o proxy SIP envia o convite para o próximo salto no backend do teams na chamada de entrada (usuário PSTN para um Teams/bot).<br/>Para chamadas com falha e não atendidas, isso pode ser igual ao tempo de convite ou falha |
-| 6 | Tempo de falha | `datetimeoffset` | Existe apenas para chamadas com falha (não totalmente estabelecidas) |
-| 7 | Hora de término | `datetimeoffset` | Existe apenas para chamadas bem-sucedidas (totalmente estabelecidas). Hora da chamada encerrada |
-| 8 | Duração (segundos) | `int` | Duração da chamada |
-| 9 | Sucesso | `nvarchar(3)` | Sim/não. Êxito ou tentativa |
-| 254 | Número do chamador | `nvarchar(32)` | Número do usuário ou do bot que fez a chamada. Em entrada a uma chamada de usuário da equipe, ele será um usuário PSTN, na saída do teams User Call, e será o número de usuário da equipe |
-| 12 | Número do chamador | `nvarchar(32)` | Número do usuário ou do bot que recebeu a chamada. Em entrada a uma chamada de usuário da equipe, ele será o usuário do Teams, na saída do teams User Call, e será o usuário da PSTN |
-| 0,13 | Tipo de chamada | `nvarchar(32)` | Tipo de chamada e direção |
-| 14 | Região do Azure para mídia | `nvarchar(8)` | O datacenter usado para o caminho de mídia em chamada sem bypass |
-| 15 | Região do Azure para sinalização | `nvarchar(8)` | O datacenter usado para sinalizar para chamadas ignoradas e não ignoradas |
-| 16 | Código SIP final | `int` | O código com o qual a chamada terminou, [RFC 3261](https://tools.ietf.org/html/rfc3261) |
-| 16 | Subcódigo final da Microsoft | `int` | Além dos códigos SIP, a Microsoft tem subcódigos que indicam o problema específico |
-| dezoito | Frase SIP final | `nvarchar(256)` | Descrição do código SIP e do subcódigo da Microsoft |
-| pol | O FQDN DO SBC | `nvarchar(64)` | Nome de domínio totalmente qualificado do controlador de borda de sessão |
-| cedido | Bypass de mídia | `nvarchar(3)` | Sim/não. Indica se o tronco foi habilitado para bypass de mídia ou não |
-| 21 | ID de correlação compartilhada | `uniqueidentifier` | Indica que duas ou mais chamadas estão relacionadas |
+> [!div class="has-no-wrap"]  
+> | # | Nome | [Tipo de dados (SQL Server)](https://docs.microsoft.com/sql/t-sql/data-types/data-types-transact-sql) | Descrição |
+> | :-: | :-: | :-: |:------------------- |
+> | 0 | CorrelationId | `uniqueidentifier` | Identificador de chamada exclusivo |
+> | 1 | Endereço SIP | `nvarchar(128)` | O endereço do usuário ou do bot que fez ou recebeu a chamada.<br/>Observe que isso é realmente UserPrincipalName (UPN, nome do usuário) no Azure Active Directory, que geralmente é o mesmo que o endereço SIP |
+> | 2 | Nome para exibição | `nvarchar(128)` | O nome de um usuário ou um bot de chamada (por exemplo, fila de chamadas ou atendedor automático) conforme definido no centro de administração do Microsoft 365 |
+> | 3 | País do usuário | `nvarchar(2)` | Código do país do usuário, [ISO 3166-1 alfa-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
+> | 4 | Hora do convite | `datetimeoffset` | Quando o convite inicial envia a saída do usuário do teams ou a chamada de bot para o SBC ou recebido em chamadas de entrada para equipes ou bot pelo componente de proxy SIP do direcionamento direto do SBC |
+> | 5 | Hora de início | `datetimeoffset` | Hora em que o proxy SIP recebeu a resposta final (mensagem SIP "200 OK") do SBC em saída (equipes/bot a um usuário PSTN) ou depois que o proxy SIP envia o convite para o próximo salto no backend do teams na chamada de entrada (usuário PSTN para um Teams/bot).<br/>Para chamadas com falha e não atendidas, isso pode ser igual ao tempo de convite ou falha |
+> | 6 | Tempo de falha | `datetimeoffset` | Existe apenas para chamadas com falha (não totalmente estabelecidas) |
+> | 7 | Hora de término | `datetimeoffset` | Existe apenas para chamadas bem-sucedidas (totalmente estabelecidas). Hora da chamada encerrada |
+> | 8 | Duração (segundos) | `int` | Duração da chamada |
+> | 9 | Sucesso | `nvarchar(3)` | Sim/não. Êxito ou tentativa |
+> | 254 | Número do chamador | `nvarchar(32)` | Número do usuário ou do bot que fez a chamada. Em entrada a uma chamada de usuário da equipe, ele será um usuário PSTN, na saída do teams User Call, e será o número de usuário da equipe |
+> | 12 | Número do chamador | `nvarchar(32)` | Número do usuário ou do bot que recebeu a chamada. Em entrada a uma chamada de usuário da equipe, ele será o usuário do Teams, na saída do teams User Call, e será o usuário da PSTN |
+> | 0,13 | Tipo de chamada | `nvarchar(32)` | Tipo de chamada e direção |
+> | 14 | Região do Azure para mídia | `nvarchar(8)` | O datacenter usado para o caminho de mídia em chamada sem bypass |
+> | 15 | Região do Azure para sinalização | `nvarchar(8)` | O datacenter usado para sinalizar para chamadas ignoradas e não ignoradas |
+> | 16 | Código SIP final | `int` | O código com o qual a chamada terminou, [RFC 3261](https://tools.ietf.org/html/rfc3261) |
+> | 16 | Subcódigo final da Microsoft | `int` | Além dos códigos SIP, a Microsoft tem subcódigos que indicam o problema específico |
+> | dezoito | Frase SIP final | `nvarchar(256)` | Descrição do código SIP e do subcódigo da Microsoft |
+> | pol | O FQDN DO SBC | `nvarchar(64)` | Nome de domínio totalmente qualificado do controlador de borda de sessão |
+> | cedido | Bypass de mídia | `nvarchar(3)` | Sim/não. Indica se o tronco foi habilitado para bypass de mídia ou não |
+> | 21 | ID de correlação compartilhada | `uniqueidentifier` | Indica que duas ou mais chamadas estão relacionadas |
 
 
 ## <a name="related-topics"></a>Tópicos relacionados

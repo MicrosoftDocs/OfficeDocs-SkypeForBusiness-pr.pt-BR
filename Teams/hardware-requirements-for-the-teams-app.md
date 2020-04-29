@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b85df2a7a5cf341c61d86baef89b0df8a3c4f439
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 4eb43e79a7ad45596876a3fc932ad405271b0dda
+ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902526"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43918499"
 ---
 # <a name="hardware-requirements-for-microsoft-teams"></a>Requisitos de hardware para o Microsoft Teams
 
@@ -72,7 +72,7 @@ Todos os requisitos das seções a seguir se aplicam aos aplicativos da área de
 |Vídeo    |  Câmera de vídeo USB 2.0       |
 |Dispositivos    |   Câmera de notebook, microfone e alto-falantes padrão    | 
 |Voz    |  Microfone e alto-falantes compatíveis, headset com microfone ou dispositivos equivalentes.       |
-|Chamadas de vídeo e reuniões | <ul><li>Para uma experiência melhor com chamadas de vídeo e reuniões online, recomendamos o uso de um computador com um processador de 2 GHz e 4 GB de RAM (ou superior). </li><li>O efeito de vídeo opcional desfocar tela de fundo exige um processador compatível com Advanced Vector Extensions 2 (AVX2), compatível com a maioria de Mac 2013 ou posterior. Para obter uma lista de codificadores e decodificadores não compatíveis, confira [Recomendações do driver de decodificador e codificador de hardware](hardware-decoders-and-encoders.md).</li><li>Ingressar em uma reunião usando a detecção de proximidade em uma sala do Microsoft Teams não está disponível no Linux.</li></ul>
+|Chamadas de vídeo e reuniões | <ul><li>Para uma experiência melhor com chamadas de vídeo e reuniões online, recomendamos o uso de um computador com um processador de 2 GHz e 4 GB de RAM (ou superior). </li><li>Os efeitos de vídeo em segundo plano exigem um processador com suporte a Advanced vector Extensions 2 (AVX2), com suporte nos mais recentes dispositivos Mac do 2013 e mais tarde. Para obter uma lista de codificadores e decodificadores não compatíveis, confira [Recomendações do driver de decodificador e codificador de hardware](hardware-decoders-and-encoders.md).</li><li>Ingressar em uma reunião usando a detecção de proximidade em uma sala do Microsoft Teams não está disponível no Linux.</li></ul>
 |Distribuições do Linux compatíveis | Ubuntu 16.04 LTS, 18.04 LTS, Fedora 30 Workstation, RHEL 8 Workstation, CentOS 8
 
 ## <a name="hardware-requirements-for-teams-on-mobile-devices"></a>Requisitos de hardware para o Teams em dispositivos móveis

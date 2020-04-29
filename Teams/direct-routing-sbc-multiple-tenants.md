@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Saiba como configurar um SBC (controlador de borda de sessão) para atender a vários locatários para parceiros da Microsoft e/ou operadoras PSTN.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 061d0afec96e6c76e49f6471ea8ed2f673e33eba
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 883df3c78387d509f094f91bc346fc5b31f53690
+ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43901846"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43918710"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurar um controlador de borda da sessão para vários locatários
 
@@ -119,8 +119,8 @@ Para obter mais informações sobre funções de administrador e como atribuir u
 
 ### <a name="add-a-base-domain-to-the-tenant-and-verify-it"></a>Adicionar um domínio base ao locatário e verificá-lo
 
-1.    No centro de administração do Microsoft 365, vá para **Configurar** > **domínios** > **Adicionar domínio**.
-2.    Na caixa **Insira um domínio que você possui** , digite o FQDN do domínio base. No exemplo a seguir, o domínio base é *Customers.adatum.biz*.
+1. No centro de administração do Microsoft 365, vá para **Configurar** > **domínios** > **Adicionar domínio**.
+2. Na caixa **Insira um domínio que você possui** , digite o FQDN do domínio base. No exemplo a seguir, o domínio base é *Customers.adatum.biz*.
 
     ![Captura de tela mostrando a página Adicionar um domínio](media/direct-routing-2-sbc-add-domain.png)
 
@@ -129,8 +129,8 @@ Para obter mais informações sobre funções de administrador e como atribuir u
 
     ![Captura de tela mostrando a confirmação de um nome de domínio verificado](media/direct-routing-3-sbc-verify-domain.png)
 
-5.    Clique em **Avançar**e, na página **Atualizar configurações de DNS** , selecione **eu mesmo adiciono os registros DNS** e clique em **Avançar**.
-6.    Na próxima página, desmarque todos os valores (a menos que você queira usar o nome do domínio do Exchange, do SharePoint ou do teams/Skype for Business), clique em **Avançar**e, em seguida, clique em **concluir**. Verifique se o novo domínio está no status de configuração concluída.
+5. Clique em **Avançar**e, na página **Atualizar configurações de DNS** , selecione **eu mesmo adiciono os registros DNS** e clique em **Avançar**.
+6. Na próxima página, desmarque todos os valores (a menos que você queira usar o nome do domínio do Exchange, do SharePoint ou do teams/Skype for Business), clique em **Avançar**e, em seguida, clique em **concluir**. Verifique se o novo domínio está no status de configuração concluída.
 
     ![Captura de tela mostrando domínios com status de configuração concluída](media/direct-routing-14-sbc-setup-complete.png)
 
@@ -227,7 +227,7 @@ Duas novas entidades foram introduzidas:
 
 -    As operadoras só precisam configurar e gerenciar um único tronco (tronco de portadora no domínio de transportadora) usando o comando Set-CSOnlinePSTNGateway. No exemplo acima, é adatum.biz;
 -    No locatário do cliente, a transportadora precisa apenas adicionar o FQDN do tronco derivado às políticas de roteamento de voz dos usuários. Não é necessário executar New-CSOnlinePSTNGateway para um tronco.
--     O tronco derivado, como o nome sugere, herda ou deriva todos os parâmetros de configuração do tronco da transportadora. Exemplos
+-    O tronco derivado, como o nome sugere, herda ou deriva todos os parâmetros de configuração do tronco da transportadora. Exemplos
 -    Customers.adatum.biz – o tronco de portador que precisa ser criado no locatário da operadora.
 -    Sbc1.customers.adatum.biz – o tronco derivado em um locatário do cliente que não precisa ser criado no PowerShell.  Você pode simplesmente adicionar o nome do tronco derivado no locatário do cliente na política de roteamento de voz online sem criá-lo.
 -   A transportadora precisará configurar o registro de DNS resolvendo o endereço IP do SBC do tronco derivado para a Carrier.

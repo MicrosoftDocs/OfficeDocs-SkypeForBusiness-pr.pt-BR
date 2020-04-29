@@ -24,12 +24,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: Saiba mais sobre como ativar e usar o painel de qualidade de chamada e obter relatórios resumidos de qualidade das chamadas.
-ms.openlocfilehash: bfb67c6246581513d06ad4489ab8c3b534ad04d4
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 874b074047e191422d552236dea1d0f1e746780d
+ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43914050"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43918839"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Ativar e usar o painel de qualidade de chamada do Microsoft Teams e do Skype for Business Online
 
@@ -38,6 +38,30 @@ Saiba como configurar o Microsoft 365 ou o Office 365 para usar o painel de qual
 O painel de qualidade de chamada (CQD) fornece informações sobre a qualidade das chamadas feitas usando o Microsoft Teams e os serviços do Skype for Business online. Este tópico descreve as etapas para iniciar a coleta de dados que você pode usar para solucionar problemas de qualidade de chamada.
 
 Atualmente, o CQD e o CQD avançados estão disponíveis para uso. O CQD avançado está disponível <span>https://cqd.teams.microsoft.com</span>em. Nova URL, mas o mesmo logon com as credenciais de administrador.
+
+## <a name="assign-roles-for-accessing-cqd"></a>Atribuir funções para acessar o CQD
+
+Atribua [funções](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) para acessar o CQD para as pessoas que precisam usá-lo. 
+
+Esta tabela mostra o que cada função pode fazer no CQD:
+
+
+|  |Exibir relatórios  |Exibir campos EUII  |Criar relatórios  |Carregar dados de construção  |
+|---------|:-------:|:-------:|:-------:|:-------:|
+|Administrador global     |Sim          |Sim          |Sim          |Sim         |
+|Administrador de Serviço do Teams     |Sim          |Sim          |Sim          |Sim         |
+|Administrador de Comunicações de Equipes     |Sim          |Sim          |Sim          |Sim         |
+|Engenheiro de Suporte de Comunicações de Equipes     |Sim          |Sim          |Sim         |Não         |
+|Especialista em suporte do teams Communications     |Sim         |Não         |Sim         |Não         |
+|Administrador do Skype for Business     |Sim          |Sim          |Sim          |Sim         |
+|Leitor global do Azure AD |Sim          |Sim          |Sim         |Não         |
+|Leitor de relatórios<sup>1</sup> do Microsoft 365     |Sim         |Não         |Sim         |Não         |
+
+<sup>1</sup> além de ler relatórios do CQD, o leitor de relatórios do Microsoft 365 pode exibir todos os [relatórios de atividades](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263) no centro de administração e todos os relatórios do pacote de conteúdo de [adoção do Microsoft 365](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f).
+
+> [!NOTE]
+> Se você não estiver vendo EUII (informações identificáveis pelo usuário final) e tiver uma das funções que tem permissão para ver essas informações, lembre-se de que CQD só mantém EUII por 30 dias. Qualquer item mais antigo que 30 dias é excluído.
+
 
 ## <a name="use-power-bi-to-analyze-cqd-data"></a>Usar o Power BI para analisar dados do CQD
 
@@ -500,7 +524,7 @@ Essas funções de administrador podem acessar o CQD, mas não podem ver EUII (i
 - Leitor de relatórios do Microsoft 365
 - Especialista em suporte do teams Communications
 
-Para saber mais sobre as funções que podem acessar o CQD-, incluindo EUII, [atribua funções para acessar o CQD](quality-of-experience-review-guide.md#assign-roles-for-accessing-cqd).
+Para saber mais sobre as funções que podem acessar o CQD-, incluindo EUII, [atribua funções para acessar o CQD](#assign-roles-for-accessing-cqd).
 
 ### <a name="why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only"></a>Por que estou vendo as informações do Skype for Business no CQD quando já filtro para o Microsoft Teams?
 

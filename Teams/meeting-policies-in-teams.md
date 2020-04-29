@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Saiba como gerenciar as configurações de política de reunião no Teams e usá-las para controlar os recursos disponíveis para os participantes da reunião para reuniões agendadas pelos usuários.
-ms.openlocfilehash: d06dbe4d2a6e7750abba5352becc15be1daf8ce6
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 689b22a98c986ca73ae3926785f75dcb6c6a9e74
+ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904426"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43918700"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Gerenciar políticas de reunião no Teams
 
@@ -44,7 +44,7 @@ Você pode implementar políticas das seguintes maneiras, que afetam a experiên
 |Por organização e por usuário     |Quando você implementa uma combinação de uma política por organização e por usuário, certos recursos são restritos para participantes da reunião com base em sua política e na política do organizador. Por exemplo, **permitir gravação na nuvem** é uma política por organização e por usuário. Ative essa configuração para permitir que o organizador da reunião e os participantes iniciem e parem de gravar.
 
 Por padrão, uma política chamada global (padrão para toda a organização) é criada. Por padrão, todos os usuários de sua organização recebem a política de reunião global. Você pode fazer alterações nele ou criar uma ou mais políticas personalizadas e atribuir usuários a elas. Os usuários receberão a política global, a menos que você crie e atribua uma política personalizada. Quando você cria uma política personalizada, pode permitir ou impedir que determinados recursos sejam disponibilizados para seus usuários e, em seguida, atribuí-los a um ou mais usuários que terão as configurações aplicadas a eles.
-
+-Nota-o botão detalhes da reunião será availiable se um usuário tiver as licenças do audioconference habilitadas ou o usuário for permitido para Audioconferencing, caso contrário, os detalhes da reunião não serão availiable
 ## <a name="change-or-create-a-meeting-policy"></a>Alterar ou criar uma política de reunião
 
 Para alterar ou criar uma política de reunião, acesse o centro de administração do Microsoft Teams > **Reuniões** > **Políticas de reunião**. Selecione uma política na lista ou selecione **Adicionar**. Se você estiver criando uma nova política, adicione um nome e uma descrição. O nome não pode conter caracteres especiais ou ter mais de 64 caracteres. Escolha as configurações e, em seguida, selecione **salvar**.
@@ -139,7 +139,7 @@ Observe que, se você desativar a opção **permitir reuniões privadas de agend
 - [Permitir transcrição](#allow-transcription)
 - [Permitir gravação na nuvem](#allow-cloud-recording)
 - [Permitir vídeo IP](#allow-ip-video)
-- [Taxa de bits de mídia (KBs)](#media-bit-rate-kbs)
+- [Taxa de bits de mídia (KPS)](#media-bit-rate-kps)
 
 ### <a name="allow-transcription"></a>Permitir transcrição
 
@@ -188,9 +188,9 @@ Em reuniões hospedadas pela Amanda, ninguém pode ativar o vídeo, independente
 
 Se Daniela chama Amanda com vídeo ativado, o Amanda pode atender a chamada somente com áudio.  Quando a chamada estiver conectada, Amanda poderá ver o vídeo do Daniela, mas não poderá ativar o vídeo. Se o Amanda chama Daniela, Daniela pode atender a chamada com vídeo e áudio. Quando a chamada estiver conectada, o Daniela poderá ativar ou desativar o vídeo, conforme necessário.
 
-### <a name="media-bit-rate-kbs"></a>Taxa de bits de mídia (KBs)
+### <a name="media-bit-rate-kps"></a>Taxa de bits de mídia (KPS)
 
-Esta é uma política por usuário. Essa configuração determina a taxa de bits de mídia para transmissões de compartilhamento de áudio, vídeo e aplicativos baseados em vídeo em chamadas e reuniões para o usuário. Ela é aplicada à passagem de mídia uplink e de downlink para usuários na chamada ou reunião. Essa configuração lhe dá controle granular sobre o gerenciamento da largura de banda em sua organização. Dependendo dos cenários de reuniões exigidos pelos usuários, recomendamos ter largura de banda suficiente para ter uma boa experiência de qualidade. O valor mínimo é de 30 kbps e o valor máximo depende do cenário da reunião. Para saber mais sobre a largura de banda mínima recomendada para reuniões de boa qualidade, chamadas e eventos dinâmicos no Teams, consulte [requisitos de largura de banda](prepare-network.md#bandwidth-requirements).
+Esta é uma política por usuário. Essa configuração determina a taxa de bits de mídia para transmissões de compartilhamento de áudio, vídeo e aplicativos baseados em vídeo em chamadas e reuniões para o usuário. Ela é aplicada à passagem de mídia uplink e de downlink para usuários na chamada ou reunião. Essa configuração lhe dá controle granular sobre o gerenciamento da largura de banda em sua organização. Dependendo dos cenários de reuniões exigidos pelos usuários, recomendamos ter largura de banda suficiente para ter uma boa experiência de qualidade. O valor mínimo é 30 KPS e o valor máximo depende do cenário da reunião. Para saber mais sobre a largura de banda mínima recomendada para reuniões de boa qualidade, chamadas e eventos dinâmicos no Teams, consulte [requisitos de largura de banda](prepare-network.md#bandwidth-requirements).
 
 Se não houver largura de banda suficiente para uma reunião, os participantes verão uma mensagem indicando uma qualidade de rede ruim.
 

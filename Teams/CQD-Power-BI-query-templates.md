@@ -16,12 +16,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Use o Power BI para analisar dados do CQD para o Microsoft Teams.
-ms.openlocfilehash: af540f09fefc27b99e1c084d2571fe51d47a393c
-ms.sourcegitcommit: f3390e27bb63b66d1c4fb4f8afbda6b814fbbb5b
+ms.openlocfilehash: a288376192af375660107b79e93ec8613f46163d
+ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43170492"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43918670"
 ---
 # <a name="use-power-bi-to-analyze-cqd-data-for-microsoft-teams"></a>Usar o Power BI para analisar dados do CQD para o Microsoft Teams
 
@@ -29,7 +29,7 @@ Novidades em janeiro de 2020: [Baixe os modelos de consulta do Power bi para CQD
 
 Para os relatórios do CQD no Microsoft Teams, se você preferir usar o Power BI para consultar e relatar seus dados, baixe os modelos do Power BI do CQD. Ao abrir os modelos no Power BI, você será solicitado a entrar com as credenciais de administrador do CQD. Você pode personalizar esses modelos de consulta e distribuí-los para qualquer pessoa em sua organização que tenha uma licença do Power BI e permissões de administrador do CQD.
 
-Antes de poder usar esses arquivos PBIX, você precisará [instalar o conector do Power bi para Microsoft CQD](CQD-Power-BI-connector.md) usando o arquivo *MicrosoftCallQuality. pqx* incluído no [Download](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). 
+Antes de poder usar esses arquivos do PBIT, você precisará [instalar o conector do Power bi para Microsoft CQD](CQD-Power-BI-connector.md) usando o arquivo *MicrosoftCallQuality. pqx* incluído no [Download](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). 
 
 
 |  |  |
@@ -43,7 +43,7 @@ Antes de poder usar esses arquivos PBIX, você precisará [instalar o conector d
 |Relatório de comentários do usuário do CQD (classificar minha chamada). PBit     | Mostra os dados de Tarifa de minha chamada de forma que você possa usar facilmente para ajudar a fazer chamadas para a sua organização. Referência cruzada com as literalmente para identificar oportunidades de educação do usuário final.        |
 
 > [!TIP]
-> Depois de configurar seus relatórios do Power BI para dados do CQD, adicione-os como uma guia a um canal. Depois de selecionar **+** em um canal, selecione **Power bi** e localize seu relatório. Lembre-se: somente as pessoas com uma licença do Power BI e credenciais de administrador do CQD podem acessar esses relatórios.
+> Depois de configurar seus relatórios do Power BI para dados do CQD, adicione-os como uma guia a um canal. Depois de selecionar **+** em um canal, selecione **Power bi** e localize seu relatório. Para saber mais, leia [Inserir relatório com a guia Power bi para Teams](https://docs.microsoft.com/power-bi/service-embed-report-microsoft-teams). Lembre-se: somente as pessoas com uma licença do Power BI e credenciais de administrador do CQD podem acessar esses relatórios.
 
 
 ## <a name="related-topics"></a>Tópicos relacionados
