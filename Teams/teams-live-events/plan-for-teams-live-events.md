@@ -14,15 +14,16 @@ localization_priority: Priority
 ms.collection:
 - M365-collaboration
 search.appverid: MET150
-description: Saiba mais sobre os fatores a serem considerados antes de configurar eventos ao vivo no Microsoft Teams.
+description: Neste artigo, você aprenderá sobre os fatores a serem considerados antes de configurar eventos ao vivo no Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aabd94e8a5c4904f0343e2c8ccb647d632f3fa21
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: c0246a8517035ab5edd347fef30ae3f86af4afd9
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779960"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43903076"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planejar eventos ao vivo no Microsoft Teams
 
@@ -99,6 +100,7 @@ A tabela a seguir destaca os principais recursos oferecidos em eventos ao vivo e
 |Acesso externo (federação) e apresentadores/participantes convidados |&#x2714; (Skype for Business)  |  &#x2714; (Teams) |Não disponível |
 |Apresentador – acesso PSTN |&#x274C; |&#x2714; (Teams) |Não disponível |
 |Apresentar uma tela |&#x274C; |&#x2714; (Teams) |Não disponível |
+|Compartilhar áudio do sistema no Windows (disponível apenas durante o compartilhamento de tela)|&#x274C; |&#x2714; (Teams) |&#x2714; |
 |Apresentar um PowerPoint (compartilhamento de PPT) |&#x2714; |&#x274C; (mitigado por compartilhamento de tela) |Não disponível |
 |Gravação de reuniões baseadas na nuvem |&#x2714; |&#x2714; |&#x2714; |
 |Publicar automaticamente a gravação no Stream |&#x274C; |&#x274C; |&#x2714; |

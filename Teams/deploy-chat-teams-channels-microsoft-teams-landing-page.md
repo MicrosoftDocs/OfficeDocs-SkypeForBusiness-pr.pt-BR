@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 search.appverid: MET150
-description: Orientações passo a passo para implementar chat, equipes, canais e aplicativos no Microsoft Teams
+description: Orientação passo a passo para a implantação de chats, equipes, canais e aplicativos no Microsoft Teams, com base no perfil da sua organização e nos requisitos de negócios.
 localization_priority: Priority
 ms.collection:
 - M365-collaboration
@@ -18,12 +18,13 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.quickstartteamsadmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 082cde04ad29ba0d1af68bb02f851d87197d7407
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+- seo-marvel-apr2020
+ms.openlocfilehash: 1f503bbfbc582fc3713a9f40e435382772e7ab63
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776566"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43901936"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Chat, equipes, canais e aplicativos no Microsoft Teams
 
@@ -240,9 +241,9 @@ Os profissionais de TI que trabalham com educação podem aproveitar o Teams par
 
 ### <a name="government---gcc-considerations"></a>Governo - Considerações de GCC
 
-O uso do Microsoft 365 for Government - GCC (Government Community Cloud) é apropriado para atender aos requisitos dos profissionais de TI que conduzem implantações do Office 365 em entidades governamentais federais, estaduais, locais, tribais ou territoriais dos EUA ou outras entidades que tratam de dados sujeitos a regulamentações e requisitos governamentais.
+O uso do Microsoft 365 for Government - GCC (Nuvem da Comunidade Governamental) é apropriado para atender aos requisitos de profissionais de TI que estejam conduzindo implantações do Office 365 em entidades governamentais federais, estaduais, locais, tribais ou territoriais dos Estados Unidos, ou outras entidades que manipulem dados sujeitos a regulamentos e exigências governamentais.
 
-| Pergunte-se | Ação |
+| Pergunte a si mesmo | Ação |
 |--------------|--------|
 | Será necessário implantar o Teams em um Microsoft 365 Government - ambiente GCC? | Para ver considerações de implantação, confira [Plano para o Microsoft 365 Government - implantações de GCC](plan-for-government-gcc.md).|
 |||

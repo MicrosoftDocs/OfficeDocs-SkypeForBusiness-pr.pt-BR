@@ -19,18 +19,18 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d3375abfbcd8319d104b4a2a657492c5105e240f
-ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.openlocfilehash: 30599b73447e9b5ab9873c6cd48372d997def5d1
+ms.sourcegitcommit: 3ef5c913318fdeeaa8c55caab07c2f8224eae2b0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43749778"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43898116"
 ---
 > [!IMPORTANT]
 > O modelo de serviço do Teams está sujeito a alterações para melhorar a experiência do cliente. Por exemplo, o acesso padrão ou os tempos de expiração do token de atualização podem estar sujeitos a modificações para melhorar a resiliência de desempenho e autenticação para as pessoas que usam o Teams. Quaisquer alterações são feitas com a meta de manter o Teams seguro e confiável por padrão.
 <p>
 
- # <a name="security-and-microsoft-teams"></a>Segurança e Microsoft Teams
+# <a name="security-and-microsoft-teams"></a>Segurança e Microsoft Teams
 
 Microsoft Teams, como parte do serviço do Office 365 (M365), segue todas as práticas recomendadas e os procedimentos de segurança, como segurança de nível de serviço, defesa profunda, controles do cliente dentro do serviço, aumento da segurança e melhores práticas operacionais. Para obter todos os detalhes, consulte a [Central de Confiabilidade da Microsoft](https://microsoft.com/trustcenter).
 
@@ -209,7 +209,6 @@ Essas são as duas opções para controlar quem chega nas reuniões do Teams e q
 |Pessoas da minha organização e organizações confiáveis      |  - No locatário</br> - Convidado do locatário</br> - Federado</br>        |  - Anônimo</br>  - Discagem PSTN</br>      |
 |Todos      |   - No locatário</br>  - Convidado do locatário</br>  - Federado anônimo</br>  - Discagem PSTN</br>       |         |
 
-
 2. A segunda forma é por meio de **reuniões estruturadas** (onde os apresentadores podem fazer isso em relação a tudo o que deve ser feito e os participantes têm uma experiência controlada). Depois de ingressar em uma reunião estruturada, os apresentadores controlam o que os participantes podem fazer na reunião. </p>
 
 |Ações  |Apresentadores  |Participantes  |
@@ -227,7 +226,7 @@ Essas são as duas opções para controlar quem chega nas reuniões do Teams e q
 
 O Teams oferece aos usuários corporativos a capacidade de criar e ingressar em reuniões em tempo real. Usuários corporativos também podem convidar usuários externos que não tenham uma conta AAD/Office 365 para participar dessas reuniões. Usuários empregados por parceiros externos com uma identidade segura e autenticada também podem ingressar em reuniões e podem atuar como apresentadores se forem promovidos para tal atividade. Os usuários anônimos não podem criar ou entrar em uma reunião como um apresentador, mas eles podem ser promovidos para o apresentador após entrarem.
 
-Para que os usuários anônimos possam participar de reuniões do Teams, a configuração reuniões dos participantes no centro de administração de Teams deve ser ativada.  
+Para que os usuários anônimos possam participar de reuniões do Teams, a configuração reuniões dos participantes no centro de administração de Teams deve ser ativada.
 
 > [!NOTE]
 > O termo *usuários anônimos* significa os usuários que não são autenticados no locatário de organizações. Neste contexto, todos os usuários externos são considerados anônimos. Os usuários autenticados incluem usuários locatários e usuários convidados do locatário.
@@ -238,6 +237,9 @@ Habilitar os usuários externos a participar de reuniões do Teams pode ser muit
 - Os tipos de participantes permitem limitar o acesso a reuniões específicas.
 - Agendar reuniões é restrito a usuários que têm uma conta do AAD e uma licença do Teams.
 - Os usuários anônimos não autenticados que desejem ingressar em uma conferência de discagem discam um dos números de acesso de conferência. Se a configuração "Sempre permitir que os chamadores ignore o lobby" está *Ativada*, eles também deverão esperar até que um apresentador ou usuário autenticado participe da reunião.
+
+> [!CAUTION]
+> Se você não quiser que usuários Anônimos (usuários não convidados explicitamente) ingressem em uma reunião, você precisará garantir que **Usuários anônimos podem participar de uma reunião** esteja definido como **Desativado** na seção de **Participantes** da reunião.
 
 Também é possível que um organizador defina as configurações para permitir que os chamadores de discagem sejam a primeira pessoa de uma reunião. Essa configuração é definida nas configurações de videoconferência para os usuários e se aplica a todas as reuniões agendadas pelo usuário.
 
@@ -269,6 +271,9 @@ Os participantes da reunião também são categorizados por local e por credenci
 Muitas reuniões envolvem usuários externos. Esses mesmos clientes também querem garantias sobre a identidade de usuários externos antes de permitir que ingressem em uma reunião. Como a seção a seguir descreve, o Teams limita o acesso à reunião aos tipos de usuários cuja permissão foi explícita e exige que todos os tipos de usuários apresentem as *credenciais* apropriadas ao entrarem em uma reunião.
 
 ### <a name="participant-admittance"></a>Admissão de participantes
+
+> [!CAUTION]
+> Se você não quiser que usuários Anônimos (usuários não convidados explicitamente) ingressem em uma reunião, você precisará garantir que **Usuários anônimos podem participar de uma reunião** esteja definido como **Desativado** na seção de **Participantes** da reunião.
 
 No Teams, os usuários anônimos são transferidos para uma área de espera chamada lobby. Os apresentadores podem, então, *permitir ou rejeitar a participação desses usuários na reunião. Quando esses usuários são transferidos para o lobby, o apresentador e os participantes são notificados, e os usuários anônimos devem aguardar até que sejam aceitos ou rejeitados, ou a conexão vai expirar.
 

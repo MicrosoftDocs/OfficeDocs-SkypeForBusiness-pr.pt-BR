@@ -17,12 +17,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 95ad893b3070a560edfa0e4afe46ab10df2960ad
-ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
+ms.openlocfilehash: 9a22c741898b48c3d71970699f09c00bb638205f
+ms.sourcegitcommit: 3ef5c913318fdeeaa8c55caab07c2f8224eae2b0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43096876"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43898126"
 ---
 # <a name="use-the-getting-started-wizard-to-set-up-business-voice"></a>Usar o assistente do Guia de Introdução para configurar o Business Voice
 
@@ -49,7 +49,7 @@ Se você não quiser personalizar nada imediatamente, pronto! Você pode começa
 
 <table>
     <tr>
-        <td>Se você quiser alterar o endereço de emergência, clique em <b>Editar</b> e, em seguida, insira um novo endereço. O endereço que você fornece é validado para garantir que seja legítimo e corretamente formatado para serviços de resposta a emergências. Esse endereço será atribuído a todos os usuários aos quais você atribuir um número na próxima etapa. Se você tiver funcionários em mais de um local, confira <a href="./customize-business-voice.md">Personalização do design do Business Voice</a> para adicionar e atribuir mais endereços de emergência após preparar o assistente do Guia de Introdução.</td> 
+        <td>Se você quiser alterar o endereço de emergência, clique em <b>Editar</b> e, em seguida, insira um novo endereço. O endereço que você fornece é validado para garantir que seja legítimo e corretamente formatado para serviços de resposta a emergências. Esse endereço será atribuído a todos os usuários aos quais você atribuir um número na próxima etapa. Se você tiver funcionários em mais de um local, confira <a href="./customize-business-voice.md">Personalização do design do Business Voice</a> para adicionar e atribuir mais endereços de emergência após preparar o assistente do Guia de Introdução.</td>
         <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-choose-number.png" width="400"></td></tr>
 </table>
 
@@ -59,7 +59,7 @@ Para saber mais, confira [O que são locais de emergência, endereços e roteame
 
 <table>
     <tr>
-        <td>Além de um novo número de telefone local, você pode comprar um número de chamada gratuita ou portar um número existente para o Microsoft 365. Para configurar um número gratuito, você precisa adquirir um plano de chamadas. Para portar um ou mais números para o Microsoft 365, vá para o <a href="https://admin.teams.microsoft.com">centro de administração do Teams</a> após concluir o assistente.
+        <td>Além de um novo número de telefone local, você pode comprar um número de chamada gratuita ou portar um número existente para o Microsoft 365. Para configurar um número de chamada gratuita, você precisa comprar Créditos de Comunicações. Para portar um ou mais números para o Microsoft 365, vá para o <a href="https://admin.teams.microsoft.com">centro de administração do Teams</a> após concluir o assistente.
         </td>
         <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-choose-number.png" width="400">
         </td>

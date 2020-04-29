@@ -14,18 +14,18 @@ f1.keywords:
 - CSH
 ms.custom:
 - Teams-upgrade-guidance
-- seo-marvel-mar2020
+- seo-marvel-apr2020
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 44544e440d9f6cdfff08ae66ed7f425abf69fb4d
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 595d8104e465217533a8e751eae69156cb548921
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43136531"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43902946"
 ---
 # <a name="faq--upgrading-from-skype-for-business-to-microsoft-teams"></a>Perguntas frequentes ‒ atualização do Skype for Business para o Microsoft Teams
 
@@ -164,7 +164,7 @@ O Microsoft Teams está disponível em todas as licenças do pacote Office 365 f
 
 ### <a name="is-teams-available-in-the-government-community-cloud-gcc"></a>O Teams está disponível na GCC (Nuvem da comunidade governamental)?
 
-Sim, o Teams está disponível para a GCC (Nuvem da comunidade governamental) dos Estados Unidos. [Saiba mais](plan-for-government-gcc.md).
+Sim, o Teams está disponível para a GCC (Nuvem da comunidade governamental) dos Estados Unidos. Para saber mais, confira o [plano de implantações do Microsoft 365 GCC](plan-for-government-gcc.md).
 
 ## <a name="calling-capabilities"></a>Funcionalidades de chamadas
 
@@ -204,7 +204,7 @@ Além de os usuários conseguirem identificar as Salas do Microsoft Teams próxi
 
 ### <a name="will-skype-room-systems-v1-be-updated-to-support-teams-meetings"></a>Os Sistemas de Salas Skype v1 serão atualizados para dar suporte a reuniões do Teams?
 
-Os dispositivos LRS (Sistema de Salas do Lync) com o software Sistema de Salas do Skype Versão 1 (SRS v1) atingiram o fim do suporte em 9 de outubro de 2018. Isso significa que o software Sistemas de Salas Skype v1 não recebe mais atualizações ou correções de produtos. Os clientes que usam os dispositivos do Sistema de Salas do Lync, usando o software Sistema de Salas do Skype v1, são aconselhados a atualizar os dispositivos nas Salas do Microsoft Teams. [Saiba mais](rooms/lrs-migration.md).
+Os dispositivos LRS (Sistema de Salas do Lync) com o software Sistema de Salas do Skype Versão 1 (SRS v1) atingiram o fim do suporte em 9 de outubro de 2018. Isso significa que o software Sistemas de Salas Skype v1 não recebe mais atualizações ou correções de produtos. Os clientes que usam os dispositivos do Sistema de Salas do Lync, usando o software Sistema de Salas do Skype v1, são aconselhados a atualizar os dispositivos nas Salas do Microsoft Teams. Para saber mais, confira [Migrar dispositivos do Sistema de Salas do Lync (LRS) Salas do Microsoft Teams](rooms/lrs-migration.md).
 
 ## <a name="management-capabilities"></a>Funcionalidades de gerenciamento
 
