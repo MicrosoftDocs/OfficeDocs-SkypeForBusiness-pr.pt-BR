@@ -17,12 +17,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 65ce8eb17efe434f5da288b89485e813b21190e4
-ms.sourcegitcommit: f3390e27bb63b66d1c4fb4f8afbda6b814fbbb5b
+ms.openlocfilehash: b870a15f885922563d8440d571dc5a6eb7ac7540
+ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43170479"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43940778"
 ---
 # <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>Início rápido do administrador – reuniões e eventos ao vivo no Microsoft Teams
 
@@ -59,7 +59,7 @@ Se você já preparou a sua rede quando implantou o Microsoft 365 ou o Office 36
 
 - Se os usuários não estiverem familiarizados com as reuniões do Teams, compartilhe o treinamento de [Gerenciamento de reuniões](https://support.office.com/article/join-a-teams-meeting-078e9868-f1aa-4414-8bb9-ee88e9236ee4) com eles. Confira nossa aula online ministrada por instrutor, [Realizar reuniões eficientes com o Teams](https://microsoftteams.eventbuilder.com/MaximizingTeamsMeetings).
 
-- Para saber mais sobre como gerenciar as opções de reunião, leia [Alterar as configurações de participante de uma reunião do Teams](https://support.microsoft.com/office/change-participant-settings-for-a-teams-meeting-53261366-dbd5-45f9-aae9-a70e6354f88e).
+- Para saber mais sobre como gerenciar as opções de reunião, leia [Alterar as configurações de participante de uma reunião do Teams](https://support.microsoft.com/article/change-participant-settings-for-a-teams-meeting-53261366-dbd5-45f9-aae9-a70e6354f88e).
 
 - Não se esqueça de [gerenciar os dispositivos dos usuários](device-management.md) - telefones, headsets, câmeras. Para obter as informações mais recentes e atualizadas sobre os dispositivos certificados pelo Teams, acesse [Dispositivos do Teams](https://office.com/teamsdevices).
 

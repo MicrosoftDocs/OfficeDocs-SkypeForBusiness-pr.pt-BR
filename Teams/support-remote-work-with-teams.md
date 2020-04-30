@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Use este guia para ajudar os funcionários remotos da sua organização a serem produtivos usando o Microsoft Teams, especialmente quando estiverem trabalhando em casa (WFH) em resposta à epidemia de COVID-19 (coronavírus).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ef26f05e20aadeb46be2a553303bc686aded6215
-ms.sourcegitcommit: 5606f908c6efeb67713f5986b1d8575a896bb5bd
+ms.openlocfilehash: 98570e5ee634781467c373bebf1ec1fa4dc97e6d
+ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "43506842"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43940708"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>Ofereça suporte a trabalhadores remotos usando o Microsoft Teams
 
@@ -77,7 +77,7 @@ Compartilhe esses ativos e vídeos com seus usuários finais para ajudá-los a c
    - [As 9 principais maneiras que o TI da Microsoft está possibilitando o trabalho remoto para seus funcionários](https://www.microsoft.com/microsoft-365/blog/2020/03/12/top-9-ways-microsoft-it-enabling-remote-work-employees/)
 
 
-1. Microsoft Teams for Education
+1. Microsoft Teams for Education 
    - Se você trabalha com educação e deseja configurar professores, alunos e administradores no Teams, use o Office 365 A1. Esta versão gratuita do Office 365 está disponível para todas as instituições de ensino. Inscreva-se em [Obtenha o Office 365 gratuitamente para toda a sua escola](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans).
 
    - Não perca a [Introdução ao Teams para aprendizado remoto](remote-learning-edu.md).

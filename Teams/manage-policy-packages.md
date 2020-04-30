@@ -20,12 +20,12 @@ ms.custom:
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba como usar e gerenciar pacotes de política no Microsoft Teams para simplificar, simplificar e ajudar a fornecer consistência ao gerenciar políticas para grupos de usuários.
-ms.openlocfilehash: b69ce06d01af624ff73386531d7ef2b77bef3b4e
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 752995cb31fa1588420b31e8927ce95ad4b52dc0
+ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43914049"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43945585"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>Gerenciar pacotes de política no Microsoft Teams
 
@@ -47,11 +47,12 @@ Atualmente, o Microsoft Teams inclui os seguintes pacotes de política.
 |Educação (aluno da escola principal)   |Cria um conjunto de políticas e configurações de política que se aplicam a alunos principais.|
 |Educação (aluno escolar secundário)    |Cria um conjunto de políticas e configurações de política que se aplicam a alunos secundários.         |
 |Educação (professor)    |Cria um conjunto de políticas e configurações de política que se aplicam a professores.      |
+|Trabalhador clínico da assistência médica  |Cria um conjunto de políticas e configurações de política que dão a funcionários clínicos, como as mensagens de mão registradas, recarga de mão, médicos e funcionários sociais acesso total a chats, chamadas, gerenciamento de turnos e reuniões. |
+|Operador de informações da assistência médica  |Cria um conjunto de políticas e configurações de política que fornecem aos operadores de informações, como pessoal de ti, pessoal de informática, pessoal de finanças e órgãos de conformidade, acesso total a chats, chamadas e reuniões.|
 |Usuário para empresas de pequeno e médio porte (Business Voice) |Cria uma política de configuração de aplicativo que inclui os aplicativos para uma experiência de voz empresarial.|
-|Usuário para empresas de pequeno e médio porte (sem Business Voice) |Este pacote de política foi projetado para criar um conjunto de políticas e aplicar essas configurações a usuários de empresas de pequeno e médio porte sem nenhum recurso de voz comercial.|
+|Usuário para empresas de pequeno e médio porte (sem Business Voice) |Cria um conjunto de políticas e configurações de política que se aplicam a usuários de empresas de pequeno e médio porte sem nenhum recurso de voz comercial.|
 |Diretor de segurança pública   |Cria um conjunto de políticas e configurações de política que se aplicam a órgãos públicos de segurança em sua organização.|
-|Assistência médica (funcionário clínico)  |Cria um conjunto de políticas e configurações de política que dão a funcionários clínicos, como as mensagens de mão registradas, recarga de mão, médicos e funcionários sociais acesso total a chats, chamadas, gerenciamento de turnos e reuniões. |
-|Assistência médica (operador de informações)  |Cria um conjunto de políticas e configurações de política que fornecem aos operadores de informações, como pessoal de ti, pessoal de informática, pessoal de finanças e órgãos de conformidade, acesso total a chats, chamadas e reuniões.|
+
 
 
 > [!NOTE]

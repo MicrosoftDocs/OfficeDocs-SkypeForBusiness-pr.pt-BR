@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Saiba como usar o painel de integridade para monitorar a conexão entre o controlador de borda de sessão e o roteamento direto.
-ms.openlocfilehash: a89377c798295267b1e75f3ffa6efc19b8c4c37d
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 55ae433428a8bb6fd42d4166e5d756432463b4ed
+ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42051797"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43940738"
 ---
 # <a name="health-dashboard-for-direct-routing"></a>Painel de integridade para roteamento direto
 
@@ -55,7 +55,7 @@ O painel de integridade fornece as seguintes informações relacionadas à integ
 
    A fórmula usada para calcular o NER é:
 
-   NER = chamadas atendidas + usuário ocupado + toque em nenhuma resposta + capturas de rejeição de terminal x 100
+   NER = 100 x (chamadas atendidas + usuário ocupado + toque em nenhuma resposta + transferência de recusa de terminal) chamadas/total
 
  
 - **Duração média da chamada** -informações sobre a média da duração das chamadas podem ajudá-lo a monitorar a qualidade das chamadas. A duração média de uma chamada PSTN 1:1 é de quatro a cinco minutos.  No entanto, para cada empresa, essa média pode ser diferente.  A Microsoft recomenda estabelecer uma linha de base para a média da duração da chamada da sua empresa. Se esse parâmetro ficar significativamente abaixo da linha de base, isso pode indicar que os usuários estão com problemas com a qualidade da chamada ou a confiabilidade e estão desligados antes do normal. Se você começar a ver a duração média de chamadas médias médias, por exemplo, 15 segundos, os chamadores podem estar sendo soltos porque o seu serviço não está funcionando de maneira confiável. 

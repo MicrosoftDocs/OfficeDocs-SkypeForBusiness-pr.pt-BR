@@ -20,12 +20,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Saiba qual escrivaninha e telefones de conferências são certificados para que o Microsoft Teams produza os melhores resultados.
-ms.openlocfilehash: 655de2414203525d305c0097ba9301e2ef513f87
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 389262df9117e07eefa1c78d6fd255bfc437fdad
+ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43903106"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43940648"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>Telefones IP certificados para o Microsoft Teams
 
@@ -49,10 +49,11 @@ Os seguintes telefones são certificados para o Microsoft Teams:
 |AudioCodes C448HD (modo de CAP somente) | C450HD_TEAMS_0.225 | Março de 2019|
 |Crestron M100|2.3875.00068|Dezembro de 2018|
 |Crestron Flex UC-P100-T & UC-P110-T  | 58.15.91.6 |Janeiro de 2019|
-|Polyline trio 8500/8800 (somente modo compartilhado)| 5.9.0.10869|Junho de 2019|
+|Exibição ThinkSmart do Lenovo|CD-18781Y. 200410.067|Abril de 2020|
 |CCX400 de Polyline | 1.0.0.0200 | Janeiro de 2020|
 |CCX600 de Polyline | 5.9.12.1111| Janeiro de 2020|
 |CCX500 de Polyline | 5.9.12.1111| Dezembro de 2019|
+|Polyline trio 8500/8800 (somente modo compartilhado)| 5.9.0.10869|Junho de 2019|
 |Yealink MP56| 122.15.0.6| Março de 2020|
 |Yealink VP59 | 91.15.0.16 |Junho de 2019|
 |Yealink T55 | 58.15.0.36 |Maio de 2019|

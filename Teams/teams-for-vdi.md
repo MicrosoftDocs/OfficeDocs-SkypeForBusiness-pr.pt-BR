@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 18c545d6b3208bb5156a699deee71ee27b38b3f4
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: d3a6d946d6bf00e6e43a0f6678352e5b4e9b7629
+ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43903116"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43940668"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams para Infraestrutura de Área de Trabalho Virtualizada
 
@@ -345,6 +345,7 @@ Para saber mais sobre como usar o PowerShell para gerenciar as políticas de reu
 - A resolução de fluxo de vídeo de entrada e saída está limitada à resolução de 720p. Esta é uma limitação WebRTC.
 - Só há suporte para um fluxo de vídeo de uma câmera de entrada ou de um fluxo de compartilhamento de tela. Quando há um compartilhamento de tela recebido, esse compartilhamento de tela é mostrado em vez do vídeo do alto-falante dominante.
 - Compartilhamento de tela de saída:
+    - Não há suporte para o compartilhamento de tela de chat.
     - Não há suporte para compartilhamento de aplicativos.
 - Conceda controle e assuma o controle:  
     - Sem suporte durante uma sessão de compartilhamento de tela ou compartilhamento de aplicativos.

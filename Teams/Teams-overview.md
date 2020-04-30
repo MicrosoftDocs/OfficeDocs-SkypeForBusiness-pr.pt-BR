@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.allteamsdocuments
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fe9e0b5220466971749bd3a8fd12c0c854e42009
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 256c86eec1fba1526ef8e7a17fbb07db4c5d3e32
+ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778467"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43940678"
 ---
 # <a name="welcome-to-microsoft-teams"></a>Bem-vindo ao Microsoft Teams
 Se você é o administrador do Microsoft Teams em sua organização, está no lugar certo. Se você está pronto para começar a usar o Teams, comece em [Como implementar o Teams](How-to-roll-out-teams.md).
@@ -70,7 +70,7 @@ Para saber mais:
 - [Gerenciar o Teams durante a transição para o novo centro de administração do Teams](manage-teams-in-modern-portal.md)
 - [Gerenciar os recursos do Teams no Microsoft 365 ou no Office 365](enable-features-office-365.md)
 
-Para ficar por dentro do que será lançado para o Microsoft Teams e todos os outros produtos e serviços do Office 365 em sua organização, confira o [Centro de mensagens](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter) e o [Roteiro do Teams](https://www.microsoft.com/microsoft-365/roadmap?rtc=1%26filters=Microsoft%20Teams%26searchterms=microsoft%2Cteams). Você receberá comunicados sobre recursos novos e atualizados, alterações planejadas e problemas para se manter informado e preparado. 
+Para ficar por dentro do que será lançado para o Microsoft Teams e todos os outros produtos e serviços do Office 365 em sua organização, confira o [Centro de mensagens](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter) e o [Roteiro do Teams](https://www.microsoft.com/microsoft-365/roadmap?rtc=1&filters=Microsoft%20Teams). Você receberá comunicados sobre recursos novos e atualizados, alterações planejadas e problemas para se manter informado e preparado. 
 
 ## <a name="upgrade-from-skype-for-business-to-teams"></a>Atualização do Skype for Business para o Teams
 O Teams é o principal cliente para comunicações inteligentes no Office 365 e, eventualmente, ele substituirá o Skype for Business Online. Para ficar por dentro dos novos recursos que chegam ao Teams, consulte o [Roteiro do Microsoft 365](https://aka.ms/O365Roadmap). Para complementar os recursos de bate-papo e mensagens persistentes, o Teams oferece uma experiência abrangente de reunião e chamada, com voz e vídeo totalmente integrados. Confira [Agora o Microsoft Teams é uma solução completa de reuniões e chamadas](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-is-now-a-complete-meeting-and-calling-solution/ba-p/236042) no Blog do Microsoft Teams.
