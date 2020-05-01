@@ -25,16 +25,16 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para a Alemanha.
-ms.openlocfilehash: fedbd51600ae2d21d2221446eeeb6267b2406676
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: af11dafc34947f2ef162252029795d1465f6d43a
+ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41683904"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "43951196"
 ---
 # <a name="availability-in-germany"></a>Disponibilidade na Alemanha
 
-[Procure outro país ou região](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou saiba mais sobre a disponibilidade da Audioconferência e dos Planos de Chamadas por país e região.
+[Encontre outro país ou região](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) ou saiba mais sobre a disponibilidade de Audioconferência e planos de chamadas por país e região.
 
 Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para a Alemanha.
   
@@ -43,10 +43,10 @@ Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Te
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
 |A Audioconferência está disponível para compra?  <br/> |Sim  <br/> |
-|Os números de telefone são atribuídos automaticamente para a Audioconferência?  <br/> |Sim, para:<br/><ul><li> Frankfurt</ul>Para obter números de telefone dedicados, consulte [Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](/microsoftteams/getting-service-phone-numbers).  <br/> |
+|Os números de telefone são atribuídos automaticamente para a Audioconferência?  <br/> |Sim, para:<br/><ul><li> Munique</ul>Para obter números de telefone dedicados, consulte [Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](/microsoftteams/getting-service-phone-numbers).  <br/> |
 |Funcionalidade de discagem usando o recurso Telefonar para Mim  <br/> |Disponível  <br/> |
    
-## <a name="phone-system"></a>Sistema de Telefonia
+## <a name="phone-system"></a>Sistema Telefônico
 
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
@@ -68,7 +68,7 @@ Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Te
 
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
-|Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?  <br/> |Frankfurt  <br/> |
+|Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?  <br/> |<ul> <li>Frankfurt  <li> Munique </ul> <br/> |
 |Há números de chamada tarifada disponíveis?  <br/> |Sim  <br/> |
 |Há números de chamada gratuita disponíveis?  <br/> |Sim  <br/> |
    
@@ -86,7 +86,7 @@ Para configurá-los, consulte [Configurar Créditos de Comunicação para a sua 
 
 [Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
 
-[Disponibilidade da Audioconferência e dos Planos de Chamadas por país e região](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+[Disponibilidade de Audioconferência e Planos de Chamadas por país e região](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
 
 

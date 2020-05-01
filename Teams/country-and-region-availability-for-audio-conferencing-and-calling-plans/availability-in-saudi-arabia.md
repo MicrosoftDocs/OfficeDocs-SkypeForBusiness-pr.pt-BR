@@ -25,16 +25,16 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para a Arábia Saudita.
-ms.openlocfilehash: e5fc2b21e25bd1a69a73b3319065ad2de5030af1
-ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
+ms.openlocfilehash: 36d59a1c77824f86d4eca6d94450c71c4cd87cb6
+ms.sourcegitcommit: 67466cde3ffd5c42d632300b8a2adf7aab7df5d1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41852508"
+ms.lasthandoff: 05/01/2020
+ms.locfileid: "43958456"
 ---
 # <a name="availability-in-saudi-arabia"></a>Disponibilidade na Arábia Saudita
 
-[Procure outro país ou região](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou saiba mais sobre a disponibilidade da Audioconferência e dos Planos de Chamadas por país e região.
+[Encontre outro país ou região](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) ou saiba mais sobre a disponibilidade de Audioconferência e planos de chamadas por país e região.
 
 Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para a Arábia Saudita.
   
@@ -46,7 +46,7 @@ Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Te
 |Os números de telefone são atribuídos automaticamente para a Audioconferência?  <br/> |Não  <br/> |
 |Funcionalidade de discagem usando o recurso Telefonar para Mim  <br/> |Requer créditos de comunicação  <br/> |
    
-## <a name="phone-system"></a>Sistema de Telefonia
+## <a name="phone-system"></a>Sistema Telefônico
 
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
@@ -61,16 +61,16 @@ Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Te
 |:-----|:-----|
 |Os Planos de Chamadas estão disponíveis para compra?  <br/> |Não  <br/> |
 |Minutos disponíveis para Planos de Chamadas  <br/> |Não se aplica  <br/> |
-|É possível fazer chamadas de saída?  <br/> |Não se aplica  <br/> |
+|É possível fazer chamadas de saída?  <br/> |Não aplicável  <br/> |
 
-Se os planos de chamada não estiverem disponíveis para compra, considere o uso do [Roteamento direto do sistema telefônico](../direct-routing-landing-page.md). Com o roteamento direto, você pode usar o sistema telefônico com praticamente qualquer operadora de telefonia.
+Se os Planos de Chamada não estiverem disponíveis para compra, considere a possibilidade de usar o [Roteamento Direto do Sistema de Telefonia](../direct-routing-landing-page.md). Com o Roteamento Direto, você pode usar o Sistema de Telefonia praticamente com qualquer portadora de telefonia.
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Números de chamadas gratuitas e tarifadas para serviços
 
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
-|Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?  <br/> | Riad  <br/> |
-|Há números de chamada tarifada disponíveis?  <br/> |Sim  <br/> |
+|Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?  <br/> | Não aplicável  <br/> |
+|Há números de chamada tarifada disponíveis?  <br/> |Não  <br/> |
 |Há números de chamada gratuita disponíveis?  <br/> |Não  <br/> |
    
  Para obter números de telefone de chamadas gratuitas e tarifadas para audioconferência, atendedores automáticos e filas de chamadas, consulte [Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](/microsoftteams/getting-service-phone-numbers).
@@ -87,4 +87,4 @@ Para configurá-los, consulte [Configurar Créditos de Comunicação para a sua 
 
 [Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
 
-[Disponibilidade da Audioconferência e dos Planos de Chamadas por país e região](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+[Disponibilidade de Audioconferência e Planos de Chamadas por país e região](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

@@ -17,12 +17,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Saiba como usar e gerenciar políticas de chamadas de emergência no Microsoft Teams para definir o que acontece quando um usuário do teams na sua organização faz uma chamada de emergência.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2e697e05c4ade1e14ee2f59da5b60413e60e2367
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 62a6314435aa3af44d0c44ab6a6790212c62d8de
+ms.sourcegitcommit: 5692900c0fc0a2552fe3f8ece40920c839e1ea23
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905103"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "43952430"
 ---
 # <a name="manage-emergency-calling-policies-in-microsoft-teams"></a>Gerenciar políticas de chamadas de emergência no Microsoft Teams
 
@@ -42,9 +42,10 @@ Se você tiver atribuído uma política de chamadas de emergência a um site de 
 2. Clique em **Adicionar**.
 3. Insira um nome e uma descrição para a política.
 4. Defina como você deseja notificar as pessoas em sua organização, geralmente a segurança, quando uma chamada de emergência é feita. Para fazer isso, em **modo de notificação**, selecione uma das seguintes opções:
-    - **Somente notificação**: uma mensagem de chat do teams é enviada aos usuários e grupos que você especificar.
+    - **Enviar somente notificação**: uma mensagem de chat do teams é enviada aos usuários e grupos que você especificar.
     - **Em conferência, mas com mudo ativado**: uma mensagem de chat do teams é enviada aos usuários e grupos que você especifica e podem ouvir (mas não participar) da conversa entre o chamador e o operador PSAP.
-5.  Se você tiver selecionado o modo de notificação **em conferência, mas estiver mudo** , na caixa **número para discagem para notificações** , você pode digitar um número de telefone PSTN de um usuário ou grupo para chamar e ingressar na chamada de emergência. Por exemplo, digite o número da central de segurança da sua organização, que receberá uma chamada quando uma chamada de emergência for feita e poderá ouvi-la ou participar da chamada.
+    - **Em conferência e com mudo ativado (em** **breve)**: uma mensagem de chat do teams é enviada para os usuários e grupos que você especifica e pode desativar o mudo para ouvir e participar da conversa entre o chamador e o operador PSAP.
+5.  Se você tiver selecionado o modo de notificação **em conferência, mas estiver mudo** , na caixa **número para discagem para notificações** , você pode digitar um número de telefone PSTN de um usuário ou grupo para chamar e ingressar na chamada de emergência. Por exemplo, digite o número da central de segurança da sua organização, que receberá uma chamada quando uma chamada de emergência for feita e poderá ouvi-la na chamada.
 6. Procure e selecione um ou mais usuários ou grupos, como a mesa de segurança da sua organização, para notificar quando uma chamada de emergência é feita.  A notificação pode ser enviada para endereços de email de usuários, grupos de distribuição e grupos de segurança. Um máximo de 50 usuários pode ser notificado.
 7. Clique em **Salvar**.
 
@@ -100,15 +101,15 @@ Neste exemplo, atribuímos uma política chamada política de chamadas de emerg�
 > Verifique se você se conectou primeiro ao módulo do PowerShell do Azure Active Directory e do módulo do PowerShell do Skype for Business seguindo as etapas em [conectar a todos os serviços do Office 365 em uma única janela do Windows PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window).
 
 Obtenha o GroupObjectId do grupo específico.
-```
+```powershell
 $group = Get-AzureADGroup -SearchString "Contoso Operations"
 ```
 Obter os membros do grupo especificado.
-```
+```powershell
 $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
 ```
 Atribua todos os usuários do grupo a uma política específica do teams. Neste exemplo, a política de roteamento de chamadas de emergência de emergência.
-```
+```powershell
 $members | ForEach-Object {Grant-CsTeamsEmergencyCallingPolicy -PolicyName "Operations Emergency Calling Policy" -Identity $_.UserPrincipalName}
 ``` 
 Dependendo do número de membros do grupo, esse comando pode levar alguns minutos para ser executado.
@@ -119,9 +120,9 @@ Use o cmdlet [set-CsTenantNetworkSite](https://docs.microsoft.com/powershell/mod
 
 O exemplo a seguir mostra como atribuir uma política chamada política de chamada de emergência da Contoso 1 ao site do site1.
 
-    ```
-    Set-CsTenantNetworkSite -identity "site1" -EmergencyCallingPolicy "Contoso Emergency Calling Policy 1"
-    ```
+```powershell
+Set-CsTenantNetworkSite -identity "site1" -EmergencyCallingPolicy "Contoso Emergency Calling Policy 1"
+```
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

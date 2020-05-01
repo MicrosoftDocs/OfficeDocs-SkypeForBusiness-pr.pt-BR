@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Instalar o conector do Power BI para usar modelos de consulta CQD
-ms.openlocfilehash: ad76c2f4378a1f639abf98d115e4700fae7796c5
-ms.sourcegitcommit: 2d44f1a673316daf0aca3149571b24a63ca72772
+ms.openlocfilehash: d9619fbf39558597c0f6c168f57f8b240d3c2a20
+ms.sourcegitcommit: 5692900c0fc0a2552fe3f8ece40920c839e1ea23
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/11/2020
-ms.locfileid: "43227545"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "43952440"
 ---
 # <a name="install-power-bi-connector-to-use-cqd-query-templates"></a>Instalar o conector do Power BI para usar modelos de consulta CQD
 
@@ -153,7 +153,11 @@ Se você encontrar erros adicionais fora desse escopo, notifique a equipe do CQD
 
 **<sup>2</sup>** as credenciais de logon que você usa para o CQD *não* precisam ter as mesmas credenciais que você usa para fazer logon no próprio aplicativo da área de trabalho do Power bi.
 
+## <a name="frequently-asked-questions"></a>Perguntas frequentes
 
+### <a name="when-will-the-power-bi-connector-be-updated-from-beta-status"></a>Quando o conector do Power BI será atualizado do status "beta"?
+
+Apesar da marca beta, o conector de qualidade da chamada para o Power BI é a versão de lançamento do conector e tem a segurança oficialmente assinada pela equipe do Power BI para refletir isso. O processo de certificação para remover a marca beta é um processo extensivo e requer um compromisso da equipe do Power BI para fornecer suporte direto ao conector também. Devido a restrições de tempo, a equipe do Power BI atualmente não consegue fornecer esse suporte e certificação mais ampla, mas ainda está preparada para atestar a segurança, a autenticidade e a funcionalidade geral do conector de qualidade da chamada da Microsoft.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

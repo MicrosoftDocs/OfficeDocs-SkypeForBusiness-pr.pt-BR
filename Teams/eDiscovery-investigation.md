@@ -17,12 +17,12 @@ description: Saiba o que fazer quando você precisar executar uma descoberta ele
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 67006fba94a58514fa33c91edd0a46312396b31a
-ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
+ms.openlocfilehash: 55afbf3ff1dd3f38990dc60f9cae3cbce7c2f9db
+ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "43918579"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "43950886"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Conduzir uma investigação de Descoberta Eletrônica de conteúdo no Microsoft Teams
 
@@ -38,9 +38,9 @@ Nem todo o conteúdo do teams é eDiscoverable. A tabela a seguir mostra os tipo
 
 | Tipo de conteúdo | eDiscoverable | Observações |
 |:--- | --- |:--- |
-| Mensagens de chat do teams | Sim | Mensagens de chat de chats em que os usuários convidados são os únicos participantes de um 1:1 ou 1: N o chat não é eDiscoverable. |
+| Mensagens de chat do teams | Sim |  |
 | Gravações de áudio | Não | |
-| Mensagens de canal privado | Não | |
+| Mensagens de canal privado | Sim | |
 | Emojis, GIFs, adesivos | Sim | |
 | Trechos de código | Não | |
 | Links de chat | Sim | |
