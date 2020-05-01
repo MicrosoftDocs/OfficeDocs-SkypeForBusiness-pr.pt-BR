@@ -276,14 +276,6 @@
 #### [Como usar dispositivos analógicos com Roteamento Direto](direct-routing-analog-devices.md)
 
 
-### [Migrar para o roteamento direto](direct-routing-migrating.md)
-
-### Monitorar e solucionar problemas do Roteamento Direto
-#### [Visão geral](direct-routing-monitor-and-troubleshoot.md)
-#### [Painel de Integridade](direct-routing-health-dashboard.md)
-### [Contas de usuário em um ambiente híbrido com conectividade PSTN](direct-routing-user-accounts-in-a-hybrid-environment.md)
-
-
 ### Roteamento com Base no Local
 #### [Planejar o Roteamento baseado na localização para o Roteamento direto](location-based-routing-plan.md)
 #### [Configurar definições de rede para o Roteamento baseado na localização](location-based-routing-configure-network-settings.md)
@@ -297,12 +289,14 @@
 #### [Planejar a otimização da mídia local](direct-routing-media-optimization.md)
 #### [Configurar a otimização da mídia local](direct-routing-media-optimization-configure.md)
 
-### Monitorar e solucionar problemas do Roteamento Direto
-#### [Visão geral](direct-routing-monitor-and-troubleshoot.md)
-#### [Painel de Integridade](direct-routing-health-dashboard.md)
 ### [Contas de usuário em um ambiente híbrido com conectividade PSTN](direct-routing-user-accounts-in-a-hybrid-environment.md)
 
 ### [Migrar para o roteamento direto](direct-routing-migrating.md)
+
+### Monitorar e solucionar problemas do Roteamento Direto
+#### [Visão geral](direct-routing-monitor-and-troubleshoot.md)
+#### [Painel de Integridade](direct-routing-health-dashboard.md)
+
 
 ### Referência técnica do Roteamento direto
 #### [Failover de tronco em chamadas de saída](direct-routing-trunk-failover-on-outbound-call.md)
