@@ -43,7 +43,7 @@
 ## [Gerenciar políticas de mensagens](messaging-policies-in-teams.md)
 ## [Presença do usuário no Teams](presence-admins.md)
 ## [Gerenciar marcas no Teams](manage-tags.md)
-## [Exibir análise entre equipes e por equipe em Teams](teams-analytics-and-reports/cross-team-per-team-analytics.md)
+## [Exibir a análise no Teams](teams-analytics-and-reports/view-analytics.md)
 ## [Expiração e renovação da equipe](team-expiration-renewal.md)
 ## [Arquivar ou excluir uma equipe](archive-or-delete-a-team.md)
 ## [Migrar do Slack para o Teams](migrate-slack-to-teams.md)
@@ -62,6 +62,8 @@
 ### [Gerenciar seu aplicativo de linha de negócios](manage-your-lob-apps.md)
 ### [Certificação de aplicativo](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Modelos de aplicativos para o Teams](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Gerenciar o aplicativo Tarefas para a sua organização](manage-tasks-app.md)
+### [Configurar a hierarquia de direcionamento da equipe](set-up-your-team-hierarchy.md)
 ### [Configurar o aplicativo de Reuniões do Skype para trabalhar com o Teams](configure-skype-meetings-app-to-work-with-teams.md)
 
 ## Comunicar-se com usuários externos
