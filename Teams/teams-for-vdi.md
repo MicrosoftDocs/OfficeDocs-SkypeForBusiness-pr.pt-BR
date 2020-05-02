@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d3a6d946d6bf00e6e43a0f6678352e5b4e9b7629
-ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
+ms.openlocfilehash: 11192ca8bc1fe7e273e687363bf327fcd0c3078e
+ms.sourcegitcommit: 3325fd9de57367e9dd60685d1fef096921441a76
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43940668"
+ms.lasthandoff: 05/01/2020
+ms.locfileid: "43997162"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams para Infraestrutura de Área de Trabalho Virtualizada
 
@@ -353,7 +353,7 @@ Para saber mais sobre como usar o PowerShell para gerenciar as políticas de reu
 - Quando o compartilhamento de tela está em uma configuração de vários monitores, somente o monitor principal é compartilhado.
 - Não há suporte para o dimensionamento de DPI alta em CWA.
 
-Para os problemas conhecidos do teams que não estão relacionados ao VDI, consulte [problemas conhecidos do teams](Known-issues.md).
+Para os problemas conhecidos do teams que não estão relacionados ao VDI, consulte [equipes de suporte em sua organização](Known-issues.md).
 
 ## <a name="troubleshooting"></a>Solução de problemas
 

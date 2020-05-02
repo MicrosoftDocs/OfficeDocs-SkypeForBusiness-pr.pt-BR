@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Saiba como atribuir, alterar ou remover um número de telefone comercial para seus usuários de equipe para que empresas e clientes externos possam fazer chamadas.
-ms.openlocfilehash: b406a303352afaf29537815e98aed2d660670f12
-ms.sourcegitcommit: 89a7c0427a5abbef838a17ae7eac6934c6176a35
+ms.openlocfilehash: 0be2d66d1a073a031b8112cf4aa8438cfc68b150
+ms.sourcegitcommit: a09334ef1a6b0a877839c3b46165eb5a6aad1ba9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42982104"
+ms.lasthandoff: 05/02/2020
+ms.locfileid: "44006027"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>Atribuir, alterar ou remover o número de telefone de um usuário
 
@@ -42,19 +42,20 @@ Para saber como obter planos de chamada no Teams e quanto eles custam, consulte 
   
 ## <a name="assign-a-phone-number-to-a-user"></a>Atribuir um número de telefone a um usuário
  
-![Um ícone mostrando o logotipo](media/teams-logo-30x30.png) do Microsoft Teams **usando o centro de administração do Microsoft Teams**
+![Um ícone mostrando o logotipo do Microsoft Teams](media/teams-logo-30x30.png) **Usando o centro de administração do Microsoft Teams**
     
 1. Na navegação à esquerda, clique em**números de telefone**de **voz** > .
 2. Na página **números de telefone** , selecione um número não atribuído na lista e clique em **Editar**.  
 3. No painel **Editar** , em **atribuída a**, procure o usuário por nome para exibição ou nome de usuário e clique em **atribuir**.
 4. Para atribuir ou alterar o local de emergência associado, em **local de emergência**, procure e selecione o local.
+5. Dependendo se você deseja enviar um email para o usuário com as informações do número de telefone, desative ou ative o **usuário de email com informações de número de telefone**. Por padrão, ele está ativado. 
 6. Clique em **Salvar**.
     > [!NOTE]
     > Devido à latência entre o Office 365 e o Teams, pode levar até 24 horas para os usuários serem habilitados. Se após 24 horas, se o número de telefone não estiver atribuído corretamente, [entre em contato com o suporte para produtos empresariais-ajuda para administradores](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products). Estamos aqui para ajudar!
   
 ## <a name="change-a-phone-number-for-a-user"></a>Alterar um número de telefone para um usuário
  
-![Um ícone mostrando o logotipo](media/teams-logo-30x30.png) do Microsoft Teams **usando o centro de administração do Microsoft Teams**
+![Um ícone mostrando o logotipo do Microsoft Teams](media/teams-logo-30x30.png) **Usando o centro de administração do Microsoft Teams**
     
 1. No painel de navegação esquerdo, clique em **usuários**, localize e clique duas vezes no usuário desejado, clique em **conta**e, em **informações gerais**, anote o número de telefone atribuído ao usuário.
 2. Na navegação à esquerda, clique em**números de telefone**de **voz** > .
@@ -68,7 +69,7 @@ Para saber como obter planos de chamada no Teams e quanto eles custam, consulte 
 
 ## <a name="remove-a-phone-number-from-a-user"></a>Remover um número de telefone de um usuário
  
-![Um ícone mostrando o logotipo](media/teams-logo-30x30.png) do Microsoft Teams **usando o centro de administração do Microsoft Teams**
+![Um ícone mostrando o logotipo do Microsoft Teams](media/teams-logo-30x30.png) **Usando o centro de administração do Microsoft Teams**
 
 1. No painel de navegação esquerdo, clique em **usuários**, localize e clique duas vezes no usuário desejado, clique em **conta**e, em **informações gerais**, anote o número de telefone atribuído ao usuário.
 2. Na navegação à esquerda, clique em**números de telefone**de **voz** > .

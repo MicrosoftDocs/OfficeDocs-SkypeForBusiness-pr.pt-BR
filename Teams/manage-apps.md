@@ -17,12 +17,12 @@ description: Saiba como gerenciar seus aplicativos do teams na página Gerenciar
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 5e261dfd6f23ec298e354a7732a9a1afa9d6b22e
-ms.sourcegitcommit: f3390e27bb63b66d1c4fb4f8afbda6b814fbbb5b
+ms.openlocfilehash: ea73b460fee758a45f19d6acbd5ff8172e2b8304
+ms.sourcegitcommit: a09334ef1a6b0a877839c3b46165eb5a6aad1ba9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43170549"
+ms.lasthandoff: 05/02/2020
+ms.locfileid: "44006037"
 ---
 <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>Gerenciar seus aplicativos no centro de administração do Microsoft Teams
 ======================================================
@@ -53,13 +53,13 @@ Para ver as informações desejadas na tabela, clique em **Editar coluna** no ca
 
 ## <a name="upload-a-new-app"></a>Carregar um novo aplicativo
 
-Você pode usar o catálogo de aplicativos para testar e distribuir aplicativos de linha de negócios que são criados especificamente para a sua organização. Um pacote do aplicativo Teams é criado usando o [Teams app Studio](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-app-studio). Quando você tem o pacote do aplicativo, pode adicioná-lo ao seu catálogo de aplicativos. Embora todos os usuários em sua organização possam ver o catálogo de aplicativos, somente administradores globais e administradores de serviços de equipe podem publicá-lo e gerenciá-lo.
+Você pode usar o catálogo de aplicativos para testar e distribuir aplicativos personalizados que são criados especificamente para a sua organização. Um pacote do aplicativo Teams é criado usando o [Teams app Studio](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-app-studio). Quando você tem o pacote do aplicativo, pode adicioná-lo ao seu catálogo de aplicativos. Embora todos os usuários em sua organização possam ver o catálogo de aplicativos, somente administradores globais e administradores de serviços de equipe podem publicá-lo e gerenciá-lo.
 
 Para carregar um novo aplicativo personalizado para o catálogo de aplicativos do locatário, clique em **carregar novo aplicativo** para carregar seu pacote de aplicativo em formato. zip. O aplicativo não está realçado depois de carregado, portanto, você precisará pesquisar o catálogo de aplicativos para localizá-lo.
 
 Para atualizar um aplicativo após ele ser carregado, na lista de aplicativos na página **gerenciar aplicativos** , clique no nome do aplicativo e, em seguida, clique em **Atualizar**. Isso substitui o aplicativo existente em seu catálogo de aplicativos e todas as políticas de permissão do aplicativo e políticas de configuração do aplicativo permanecem impostas para o aplicativo atualizado.
 
-Para saber mais, consulte [gerenciar seus aplicativos de linha de negócios no Microsoft Teams](manage-your-lob-apps.md).
+Para saber mais, consulte [gerenciar seus aplicativos personalizados no Microsoft Teams](manage-your-custom-apps.md).
 
 ## <a name="allow-and-block-apps"></a>Permitir e bloquear aplicativos
 

@@ -19,12 +19,12 @@ localization_priority: Normal
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0f17ed779415c1dfaa731d13839d02ca971d46f1
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 0ed1e7d4f90fa1be96ac48f376c3cb1b939a39c4
+ms.sourcegitcommit: 3325fd9de57367e9dd60685d1fef096921441a76
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904586"
+ms.lasthandoff: 05/01/2020
+ms.locfileid: "43997182"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Permissões e considerações dos aplicativos Microsoft Teams
 
@@ -43,7 +43,7 @@ As permissões listadas abaixo em maiúsculas, por exemplo, RECEIVE_MESSAGE e RE
 |    |     |
 |-----------|------------|
 | ![Um ícone representando um ponto de decisão](media/audio_conferencing_image7.png) <br/>Ponto de decisão|<ul><li>Use as tabelas a seguir como um guia para entender quais permissões os aplicativos que você está investigando estão solicitando.</li></ul> |
-| ![Um ícone representando o passo seguinte](media/audio_conferencing_image9.png)<br/>Próxima etapa|<ul><li>Pesquise o aplicativo ou o próprio serviço para decidir se deseja permitir o acesso a ele dentro da sua organização. Por exemplo, os bots enviam e recebem mensagens de usuários e, exceto para os bots de linha de negócios corporativo, estão localizados fora do limite de conformidade. Portanto, qualquer aplicativo que inclua um bot requer essas permissões e tem esse perfil de risco, no mínimo. </li></ul>|
+| ![Um ícone representando o passo seguinte](media/audio_conferencing_image9.png)<br/>Próxima etapa|<ul><li>Pesquise o aplicativo ou o próprio serviço para decidir se deseja permitir o acesso a ele dentro da sua organização. Por exemplo, os bots enviam e recebem mensagens de usuários e, exceto para os bots personalizados da empresa, eles estão localizados fora do limite de conformidade. Portanto, qualquer aplicativo que inclua um bot requer essas permissões e tem esse perfil de risco, no mínimo. </li></ul>|
 
 ## <a name="global-app-permissions-and-considerations"></a>Permissões e considerações globais do aplicativo
 

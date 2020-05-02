@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba como gerenciar o ciclo de vida de canais privados em sua organização.
-ms.openlocfilehash: 39830035ba91b2fa50c7d5bbd82e6da6e60d0f00
-ms.sourcegitcommit: 379bfaf6b0584c1ac93341af605f93ab932a442b
+ms.openlocfilehash: 10746605895732af19a43ffb85df06a81ae34316
+ms.sourcegitcommit: 3325fd9de57367e9dd60685d1fef096921441a76
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "43240631"
+ms.lasthandoff: 05/01/2020
+ms.locfileid: "43997242"
 ---
 # <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>Gerenciar o ciclo de vida de canais privados no Microsoft Teams
 
@@ -51,7 +51,7 @@ PATCH /teams/<team_id>
 
 Como administrador, você pode definir políticas usando o centro de administração do Microsoft Teams ou o PowerShell para controlar quais usuários na sua organização têm permissão para criar canais privados.
 
-### <a name="using-the-microsoft-teams-admin-center"></a>Usar o centro de administração do Microsoft Teams
+### <a name="using-the-microsoft-teams-admin-center"></a>Usando o centro de administração do Microsoft Teams
 
 Use as políticas do teams para definir quais usuários na sua organização podem criar canais privados. Para saber mais, consulte [gerenciar políticas de equipes no Microsoft Teams](teams-policies.md).
 
@@ -68,7 +68,7 @@ Como administrador, você pode usar a API do PowerShell ou do Graph para criar u
 ### <a name="using-powershell"></a>Usando o PowerShell
 
 ```PowerShell
-New-TeamChannel –GroupId <Group_Id> –MembershipType Private –DisplayName “<Channel_Name>” –Owner <Owner_UPN>
+New-TeamChannel –GroupId <Group_Id> –MembershipType Private –DisplayName "<Channel_Name>" –Owner <Owner_UPN>
 ```
 
 ### <a name="using-graph-api"></a>Usando a API do Graph
@@ -95,7 +95,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
 ## <a name="find-sharepoint-urls-for-all-private-channels-in-a-team"></a>Localizar URLs do SharePoint para todos os canais particulares em uma equipe
 
-Se você estiver procurando executar o descoberta eletrônica ou o controle legal em arquivos em um canal privado ou procurando criar um aplicativo de linha de negócios que coloca arquivos em canais particulares específicos, você desejará uma maneira de consultar os conjuntos de sites exclusivos do SharePoint criados para cada canal privado.
+Se você estiver procurando executar o descoberta eletrônica ou o controle legal em arquivos em um canal privado ou procurando criar um aplicativo personalizado que coloca arquivos em canais particulares específicos, você precisará de uma maneira de consultar os conjuntos de sites exclusivos do SharePoint criados para cada canal privado.
 
 Como administrador, você pode usar os comandos do PowerShell ou de APIs de gráfico para consultar essas URLs.
 
@@ -106,7 +106,7 @@ Como administrador, você pode usar os comandos do PowerShell ou de APIs de grá
 
     ```PowerShell
     $sites = get-sposite -template "teamchannel#0"
-    $groupID = “<group_id>"
+    $groupID = "<group_id>"
     foreach ($site in $sites) {$x= Get-SpoSite -Identity
     $site.url -Detail; if ($x.RelatedGroupId -eq $groupID)
     {$x.RelatedGroupId;$x.url}}
@@ -236,7 +236,7 @@ Você pode experimentar esses comandos por meio do [Graph Explorer](https://deve
           ]
     }
     ```    
-2.  Use o seguinte para promover o membro a um proprietário, onde &lt;group_id&gt;, &lt;channel_id&gt;e &lt;ID&gt; serão retornados da chamada anterior. Observe que &lt;ID&gt; e &lt;userid&gt; retornados da chamada anterior não são iguais e não são intercambiáveis. Certifique-se de &lt;usar&gt;ID.
+2.     Use o seguinte para promover o membro a um proprietário, onde &lt;group_id&gt;, &lt;channel_id&gt;e &lt;ID&gt; serão retornados da chamada anterior. Observe que &lt;ID&gt; e &lt;userid&gt; retornados da chamada anterior não são iguais e não são intercambiáveis. Certifique-se de &lt;usar&gt;ID.
 
     **Solicitação**
 

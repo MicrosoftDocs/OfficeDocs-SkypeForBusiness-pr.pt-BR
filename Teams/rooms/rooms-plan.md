@@ -1,5 +1,5 @@
 ---
-title: Plano para salas do Microsoft Teams
+title: Planejar as Salas do Microsoft Teams
 ms.author: v-lanac
 author: lanachin
 ms.reviewer: sohailta
@@ -14,12 +14,12 @@ ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection:
 - M365-collaboration
 description: Este artigo explica as considerações de planejamento pertinentes para a implantação de salas do Microsoft Teams, a próxima geração de sistemas de sala do Skype.
-ms.openlocfilehash: 1d5236c522a0f3da6f2c2686e34db9d665a93d15
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: b28c310ab5c00040490d359cf6b79445f0d1cc95
+ms.sourcegitcommit: 3325fd9de57367e9dd60685d1fef096921441a76
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825889"
+ms.lasthandoff: 05/01/2020
+ms.locfileid: "43997302"
 ---
 # <a name="plan-microsoft-teams-rooms"></a>Planejar salas do Microsoft Teams
 
@@ -65,7 +65,7 @@ Você pode implantar salas do Microsoft Teams com o Microsoft Teams, o Skype for
 
 Use a abordagem ilustrada abaixo para orientá-lo na sua implantação e personalize as amostras de saídas fornecidas em todos esses artigos, conforme necessário para a sua organização.
 
-Comece a entender quais salas de conferência você tem e que concepção o que funciona melhor para você no futuro e, em seguida, percorra a seleção e procuring o equipamento que você precisa, preparando seus sites, Configurando e implantando o serviço, gerenciando mudanças e adoção do usuário e desenvolvimento de operações e procedimentos de manutenção.
+Comece a entender quais salas de conferência você tem e se está acompanhando o que funciona melhor para você no futuro e, em seguida, percorra a seleção e procuring o equipamento necessário, preparando seus sites, Configurando e implantando o serviço, gerenciando alterações e adoção do usuário e desenvolvendo operações e procedimentos de manutenção.
 
 ![Comece a entender o que você tem e que o que funciona melhor para você e, em seguida, percorra a seleção e procuring o equipamento necessário, preparando seus sites, Configurando e implantando o serviço, gerenciando alterações e adoção do usuário e desenvolvendo operações e procedimentos de manutenção.](../media/room-systems-image2.png "Comece a entender o que você tem e que o que funciona melhor para você e, em seguida, percorra a seleção e procuring o equipamento necessário, preparando seus sites, Configurando e implantando o serviço, gerenciando alterações e adoção do usuário e desenvolvendo operações e procedimentos de manutenção.")
 
@@ -87,7 +87,7 @@ Talvez seja necessário coordenar essas atividades em várias equipes. Oferecemo
 
 ## <a name="room-inventory-and-capability-planning"></a>Planejamento da sala e planejamento de recursos
 
-A primeira etapa é inventariar a reunião e as salas de conferência existentes da sua organização para compreender o ambiente, o tamanho da sala, o layout e a finalidade e para identificar os recursos que você deseja que cada sala do escopo tenha no futuro, como o que mais rico os recursos de colaboração serão habilitados na sala. 
+A primeira etapa é inventariar a reunião e as salas de conferência existentes da sua organização para compreender o ambiente, o tamanho da sala, o layout e a finalidade e identificar os recursos que você deseja que cada espaço do escopo tenha no futuro, como quais recursos de colaboração mais avançados serão habilitados na sala. 
 
 Depois de criar um inventário do equipamento e dos recursos em cada sala existente, seus requisitos para essa sala são inseridos em sua seleção de dispositivo, planejando criar uma solução avançada de conferência. As modalidades (áudio, vídeo) necessárias para cada sala — além do tamanho da sala e da finalidade, todas desempenham um papel importante para decidir qual solução é mais adequada para cada sala. 
 
@@ -150,7 +150,7 @@ Sua organização deve executar tarefas de monitoramento, administração e gere
 
 Muitas organizações têm uma equipe de AV ou um parceiro que gerencia seus dispositivos e salas de conferência. Essa equipe deve estar envolvida para concordar com quem gerenciará os dispositivos de salas do Microsoft Teams que serão encaminhados para monitorar o desempenho e implantar atualizações e hotfixes de software. 
 
-Considere qual fila do helpdesk você direcionará as chamadas relacionadas ao Microsoft Teams Rooms֪ – e forneça uma pergunta frequente à equipe de assistência técnica para que elas possam entender melhor como usar as salas do Microsoft Teams e as principais etapas para solução de problemas que podem ser tomadas. Um bom ponto de partida para esta pergunta frequente é a [ajuda do usuário](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) e a [lista de problemas conhecidos](known-issues.md).
+Considere qual fila do helpdesk você direcionará as chamadas relacionadas ao Microsoft Teams Rooms֪ – e forneça uma pergunta frequente à equipe de assistência técnica para que elas possam entender melhor como usar as salas do Microsoft Teams e as principais etapas para solução de problemas que podem ser tomadas. Um bom ponto de partida para esta pergunta frequente são as equipes de ajuda e suporte do [usuário](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) [em sua organização](known-issues.md).
 
 |    |     |
 |-----------|------------|
