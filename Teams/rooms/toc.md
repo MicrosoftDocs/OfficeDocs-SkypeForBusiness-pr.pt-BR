@@ -7,6 +7,7 @@
 ### [Requisitos](requirements.md)
 ### [Licenciamento online](rooms-licensing.md)
 ### [Planejar o gerenciamento com o Monitor do Azure](azure-monitor-plan.md)
+### [Planejar o gerenciamento com sala de reunião gerenciada](managed-meeting-rooms.md)
 
 ## Implantar
 ### [Visão geral de implantação](rooms-deploy.md)
