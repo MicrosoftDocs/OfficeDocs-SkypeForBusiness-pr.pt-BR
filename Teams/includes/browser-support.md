@@ -1,4 +1,4 @@
-O Teams tem suporte total para os seguintes navegadores da Internet, com exceções notáveis para chamadas e reuniões.
+O Teams tem suporte total para os seguintes navegadores da Internet, com exceções notáveis para chamadas e reuniões. Esta tabela se aplica aos sistemas operacionais que estão sendo executados em computadores de mesa. 
 
 
 |Navegador  |Chamadas – áudio, vídeo e compartilhamento  |Reuniões - áudio, vídeo e compartilhamento<sup>1</sup> <sup>2</sup>  |
@@ -15,4 +15,6 @@ O Teams tem suporte total para os seguintes navegadores da Internet, com exceç�
 <sup>2</sup> O recurso Desfocar tela de fundo não está disponível quando você executa o Teams em um navegador. Esse recurso está disponível apenas no cliente de área de trabalho do Teams.
 
 > [!NOTE]
-> Há suporte para o Teams, contanto que um sistema operacional possa executar o navegador compatível. Por exemplo, executar o Firefox no sistema operacional Linux é uma opção para usar o Teams.
+> Há suporte para o Teams, contanto que um sistema operacional possa executar o navegador compatível em computadores de mesa. Por exemplo, executar o Firefox no sistema operacional Linux é uma opção para usar o Teams.
+>
+> Para sistemas operacionais móveis, recomendamos que você execute o aplicativo Teams, disponível nas lojas Android e iOS. Há suporte para a execução do Teams em um sistema operacional móvel, mas muitos recursos não estão disponíveis.

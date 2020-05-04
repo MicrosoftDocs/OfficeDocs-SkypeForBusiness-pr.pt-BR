@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 03cc795f9d3df5500c4eafceee4a1fd5d3605fb6
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 28a77271c66dc473dfb774db2c02ca80bc842587
+ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904026"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "43950966"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Limites e especificações para o Microsoft Teams
 
@@ -134,6 +134,16 @@ Os nomes de canal também não podem começar com um caractere de sublinhado (_)
 |Eventos ao vivo simultâneos em uma organização no Office 365 | 15 |
 
 Para saber mais sobre eventos ao vivo e uma comparação dos eventos ao vivo do Teams para a Transmissão de Reunião do Skype, vá para [Eventos ao vivo do Teams e Transmissão de Reunião do Skype](teams-live-events/plan-for-teams-live-events.md#teams-live-events-and-skype-meeting-broadcast).
+
+> [!IMPORTANT]
+> **O limite de eventos ao vivo do Microsoft 365 cresce**
+> 
+> Para ajudar os clientes a atender às necessidades de comunicação que mudam rapidamente, os eventos ao vivo do Microsoft 365 aumentarão temporariamente os limites padrão até 1 de julho de 2020, para eventos ao vivo hospedados no Teams. Os seguintes aumentos foram lançados final de abril de 2020:
+> - Limite de participantes: os eventos podem dar suporte a no máximo 20.000 participantes
+> - Eventos simultâneos: 50 eventos podem ser hospedados simultaneamente em um locatário
+> - Duração do evento: a duração do evento aumentou para 16 horas por transmissão
+
+
 
 ## <a name="presence-in-outlook"></a>Presença no Outlook
 
