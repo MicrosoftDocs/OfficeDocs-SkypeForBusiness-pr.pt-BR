@@ -26,7 +26,7 @@
 ## Gerenciar
 ### [Visão geral do gerenciamento](rooms-manage.md)
 ### [Manutenção e operações](rooms-operations.md)
-### [Problemas conhecidos](known-issues.md)
+### [Suporte do Teams na sua organização](known-issues.md)
 ### [Dispositivos com o Monitor do Azure](azure-monitor-manage.md)
 ### [Configurações com um arquivo XML](xml-config-file.md)
 ### [Usar a ferramenta de recuperação](recovery-tool.md)
