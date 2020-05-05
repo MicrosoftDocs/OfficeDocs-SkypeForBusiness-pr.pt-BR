@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Saiba como configurar um SBC (controlador de borda de sessão) para atender a vários locatários para parceiros da Microsoft e/ou operadoras PSTN.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 883df3c78387d509f094f91bc346fc5b31f53690
-ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
+ms.openlocfilehash: 13d2dceb8cedc6e48d420619476cbf73c675785a
+ms.sourcegitcommit: e618396eb8da958983668ad0884b4481e1ed7b98
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "43918710"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44021993"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurar um controlador de borda da sessão para vários locatários
 
@@ -253,7 +253,7 @@ Para configurar o failover para um ambiente de vários locatários, você precis
 - Para cada locatário, adicione os FQDNs para dois SBCs diferentes.  Por exemplo:
 
    customer1.sbc1.contoso.com <br>
-   customer2.sbc2.contoso.com <br>
+   customer1.sbc2.contoso.com <br>
 
 - Nas políticas de roteamento de voz online dos usuários, especifique o SBCs.  Se um SBC falhar, a política de roteamento roteará chamadas para o segundo SBC.
 

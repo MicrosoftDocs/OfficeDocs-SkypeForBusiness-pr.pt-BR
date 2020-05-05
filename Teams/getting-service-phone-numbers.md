@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: Saiba como obter novos números de telefone e porta ou transferir números existentes para conferências de áudio, atendedores automáticos e filas de chamadas (números de serviço) para equipes.
-ms.openlocfilehash: 9eb88d46a9e993067e7a2fc8baf9847dea5b32d7
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 9ce7875f06677ab6b9a4ad61a9e30bf0df861bb8
+ms.sourcegitcommit: e618396eb8da958983668ad0884b4481e1ed7b98
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43136711"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44021983"
 ---
 # <a name="getting-service-phone-numbers"></a>Obter números de telefone de serviço
 
@@ -51,7 +51,7 @@ Há três maneiras de obter números de serviço:
 ![Um ícone mostrando o logotipo do Microsoft Teams](media/teams-logo-30x30.png) **Usando o centro de administração do Microsoft Teams**
 
 1. No painel de navegação esquerdo, vá para**números de telefone**de **voz** > e clique em **Adicionar**.
-2. Insira um nome para o pedido e, se desejar, adicione uma descrição.
+2. Insira um nome para o pedido e adicione uma descrição.
 3. Na página localização e quantidade, faça o seguinte:
     1. Em **país ou região**, selecione um país ou região.
     1. Em **tipo de número**, selecione o tipo de número de serviço desejado.
