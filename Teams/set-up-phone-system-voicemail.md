@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Saiba como configurar o correio de voz na nuvem para seus usuários. '
-ms.openlocfilehash: 4f85e8db6f50becb4ae2406e84621c08507e9737
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: eb25d18dc0414edcc3b143487cced1f0e13b2b60
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779727"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042928"
 ---
 # <a name="set-up-cloud-voicemail"></a>Configurar a caixa postal na nuvem
 
@@ -41,7 +41,7 @@ Para os usuários do Skype for Business Online e dos planos de chamada, o correi
   
 1. Se o recurso do sistema de telefonia não estiver incluído no seu plano, talvez seja necessário comprar licenças complementares do **sistema telefônico** . Você também pode precisar comprar uma licença do Exchange Online. Consulte [Licenciamento de Complementos do Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
     
-2. [Atribuir ou remover licenças do Office 365 para empresas](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc), [atribuir licenças do Microsoft Teams](assign-teams-licenses.md)e licenças do Exchange Online às pessoas de sua empresa. Depois disso, elas poderão receber mensagens de voz!
+2. [Atribuir ou remover licenças do Office 365 para empresas](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc), as [licenças de complemento atribuir Microsoft Teams](teams-add-on-licensing/assign-teams-add-on-licenses.md)e as licenças do Exchange Online às pessoas de sua empresa. Depois disso, elas poderão receber mensagens de voz!
     
 3. O suporte para a transcrição de correio de voz foi adicionado a partir de março de 2017 e é habilitado por padrão para todas as organizações e usuários. Você pode desativar a transcrição para sua organização usando o Windows PowerShell e seguindo as etapas abaixo.
 
@@ -51,7 +51,7 @@ As informações a seguir tratam da configuração do correio de voz em nuvem pa
   
 1. Se o recurso do sistema de telefonia não estiver incluído no seu plano, talvez seja necessário comprar licenças complementares do **sistema telefônico** . Você também precisa comprar uma licença do Exchange Online. Consulte [Licenciamento de Complementos do Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
     
-2. [Atribuir ou remover licenças do Office 365 para empresas](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc), [atribuir licenças do Microsoft Teams](assign-teams-licenses.md)e licenças do Exchange Online às pessoas de sua empresa.
+2. [Atribuir ou remover licenças do Office 365 para empresas](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc), as [licenças de complemento atribuir Microsoft Teams](teams-add-on-licensing/assign-teams-add-on-licenses.md)e as licenças do Exchange Online às pessoas de sua empresa.
     
 3. Siga as instruções correspondentes à solução de chamadas PSTN locais implantadas para os usuários. Para o Cloud Connector Edition, siga as instruções na seção **habilitar usuários para voz do sistema de telefone e serviços de correio de voz** do [guia configurar o Skype for Business Cloud Connector Edition](https://technet.microsoft.com/library/mt605228.aspx). Para chamadas PSTN com o Skype for Business Server, siga [habilitar o recurso usuários do Enterprise Voice no local](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises). Para o roteamento direto do Teams, siga a seção **Configurar o número de telefone e habilitar o** recurso de correio de voz empresarial e [Configurar o roteamento direto](https://docs.microsoft.com/microsoftteams/direct-routing-configure#configure-the-phone-number-and-enable-enterprise-voice-and-voicemail).
 

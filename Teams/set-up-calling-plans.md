@@ -23,12 +23,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Saiba como configurar planos de chamada, incluindo os planos de exibição disponíveis em sua região, comprar & atribuir licenças, obter números de telefone e adicionar endereços de emergência & locais.
-ms.openlocfilehash: 4c470327b01b799dabc585db479e51e8ef37c41b
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 08db669cfb7ddb75f6a73610f112c682a016354b
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140874"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042398"
 ---
 # <a name="set-up-calling-plans"></a>Configurar Planos de Chamadas
 
@@ -45,7 +45,7 @@ Se os planos de chamada não estiverem disponíveis para seu país ou região, c
     > [!TIP]
     > As licenças do **sistema telefônico** e os planos de chamada no Office 365 vão juntos, portanto, para ver a opção de comprar planos de chamadas, você deve ter as licenças do **sistema de telefone** .
   
-2. Primeiro atribua as licenças e, em seguida, atribua um plano de chamada para as pessoas em sua organização. Consulte [atribuir licenças do Microsoft Teams](assign-teams-licenses.md).
+2. Primeiro atribua as licenças e, em seguida, atribua um plano de chamada para as pessoas em sua organização. Consulte [atribuir licenças de Complementos do Microsoft Teams](teams-add-on-licensing/assign-teams-add-on-licenses.md).
     
 ## <a name="step-3-get-phone-numbers"></a>Etapa 3: obter números de telefone
 Há três maneiras de obter novos números de usuário:

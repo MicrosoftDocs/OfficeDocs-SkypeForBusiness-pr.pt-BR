@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d0ae16216c5975407b3ec1c60a67231edd2ee8f1
-ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
+ms.openlocfilehash: cc6238e2cf9a3912cfa8cec765f63e6a553f4db1
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43940889"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042488"
 ---
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>Gerenciar o aplicativo tarefas para sua organização no Microsoft Teams
 
@@ -28,7 +28,7 @@ ms.locfileid: "43940889"
 
 ## <a name="overview-of-tasks"></a>Visão geral das tarefas
 
-O aplicativo tarefas traz uma experiência coesa de gerenciamento de tarefas para o Microsoft Teams, integrando tarefas pessoais da tarefa tarefas pendentes e tarefas da equipe com o Planner em um só lugar. Os usuários podem acessar as tarefas como um aplicativo no lado esquerdo do Teams e como uma guia em um canal dentro de equipes individuais. As listas **pessoais** e **listas de equipes** nas tarefas permitem que os usuários exibam e gerenciem todas as tarefas pessoais e da equipe e priorizem o trabalho delas. Tarefas está disponível em Teams desktop, Web e clientes móveis. 
+O aplicativo tarefas traz uma experiência coesa de gerenciamento de tarefas para o Microsoft Teams, integrando tarefas pessoais da [Microsoft a fazer](https://todo.microsoft.com/tasks/) e tarefas da equipe com o Planner em um só lugar. Os usuários podem acessar as tarefas como um aplicativo no lado esquerdo do Teams e como uma guia em um canal dentro de equipes individuais. As listas **pessoais** e **listas de equipes** nas tarefas permitem que os usuários exibam e gerenciem todas as tarefas pessoais e da equipe e priorizem o trabalho delas. Tarefas está disponível em Teams desktop, Web e clientes móveis. 
 
 > [!NOTE]
 > Ao implantar a experiência de tarefas em clientes da área de trabalho do Teams, o nome do aplicativo aparecerá inicialmente como **planejador** para os usuários. O nome então mudará temporariamente para **tarefas pelo Planner e para fazer**e, posteriormente, será renomeado para **tarefas**. Em clientes móveis do Teams, os usuários sempre verão o nome do aplicativo como **tarefas**. Pode haver um pequeno atraso na disponibilidade da experiência móvel depois que a experiência da área de trabalho estiver disponível.

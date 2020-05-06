@@ -23,12 +23,12 @@ ms.custom:
 - ms.lync.lac.CpcGettingStarted
 - seo-marvel-mar2020
 description: 'Veja como experimentar ou adquirir licenças de Audioconferência (Conferência PSTN) para o Office 365 para configurar chamadas de conferência em que as pessoas podem discar. '
-ms.openlocfilehash: 35d84c84f02c459af32aa764d877f4b8c64d4d63
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 26b7074407759533d2ac272371e34c9022dd6ce5
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780160"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44041768"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-microsoft-365-for-microsoft-teams"></a>Experimentar ou comprar videoconferências no Microsoft 365 para Microsoft Teams
 
@@ -54,7 +54,7 @@ Você deve ser um [administrador global ou administrador de cobrança](https://s
 
 3. [Atribuir ou remover licenças de assinatura no Office 365](https://support.office.com/article//997596b5-4173-4627-b915-36abac6786dc) que você comprou às pessoas na organização que vão agendar ou realizar reuniões.
 
-4. Se você adquiriu licenças complementares de Audioconferência e Créditos de Comunicação, atribua-as também. Para obter instruções, consulte [atribuir licenças do Microsoft Teams](assign-teams-licenses.md).
+4. Se você adquiriu licenças complementares de Audioconferência e Créditos de Comunicação, atribua-as também. Para obter instruções, consulte [atribuir licenças de Complementos do Microsoft Teams](teams-add-on-licensing/assign-teams-add-on-licenses.md).
 
 ### <a name="to-buy-and-assign-pay-per-minute-audio-conferencing-licenses"></a>Para comprar e atribuir licenças de Audioconferência com pagamento por minuto:
 

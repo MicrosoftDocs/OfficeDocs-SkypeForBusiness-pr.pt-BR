@@ -24,12 +24,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: Saiba mais sobre como ativar e usar o painel de qualidade de chamada e obter relatórios resumidos de qualidade das chamadas.
-ms.openlocfilehash: 874b074047e191422d552236dea1d0f1e746780d
-ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
+ms.openlocfilehash: 95c4a777576b2cf574ba76d7f1b19de69f64dc88
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "43918839"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44047376"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Ativar e usar o painel de qualidade de chamada do Microsoft Teams e do Skype for Business Online
 
@@ -482,6 +482,8 @@ Crie relatórios detalhados no CQD e filtre a ID da reunião para ver todos os u
  
 A telemetria não irá necessariamente chamar o problema, mas pode ajudá-lo a entender melhor onde procurar e informar suas decisões. É uma rede, dispositivo, atualizações de driver ou firmware, uso ou usuário?
 
+### <a name="why-do-i-see-upto-02-difference-in-call-and-user-count-values-on-measures-and-how-to-get-most-accurate-volumes"></a>Por que vejo até 0,2% diferença de valores de contagem de usuários e chamada em medidas e como obter os volumes mais precisos? 
+Para calcular a contagem de chamadas e os indicadores de contagem do usuário, uma operação cont.se diferente é realizada em relação à chamada ou aos identificadores de usuário no conjunto de dados. Em conjuntos de dados grandes, há uma inherient de erro de até 0,2% com o opeartion de cont.se diferente. Para o volume mais preciso, você deve confiar em medidas de contagem de fluxo, pois elas não dependem dessa operação cont.se distinta. A filtragem para reduzir o volume dos dados pode reduzir o erro, mas não pode elimnate essa fonte de erro em chamadas distintas e contagens de usuários. Consulte [dimensões e medidas disponíveis no painel de qualidade de chamada](dimensions-and-measures-available-in-call-quality-dashboard.md) para quais medidas são impactadas.
 
 ### <a name="why-does-my-cqd-v2-report-data-look-different-than-the-cqd-v3-report-data"></a>Por que meus dados de relatório do CQD v2 parecem diferentes dos dados do relatório do CQD v3? 
 

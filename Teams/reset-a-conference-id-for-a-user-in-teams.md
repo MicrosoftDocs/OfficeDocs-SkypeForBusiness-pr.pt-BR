@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Conheça as etapas para redefinir o ID de conferência de reunião de um usuário no Microsoft Teams e obtenha links para as ferramentas de atualização e migração da reunião.
-ms.openlocfilehash: 4874630d27f0ded2cdf9cf4bb0bc0912a426e544
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 008a479677723dedbfe1923f57358808b16fd9ec
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137611"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042448"
 ---
 # <a name="reset-a-conference-id-for-a-user-in-microsoft-teams"></a>Redefinir o ID de conferência de um usuário no Microsoft Teams
 
@@ -59,7 +59,7 @@ Esse ID de conferência dinâmico é incluído no final dos convites de reunião
 
 - Você pode enviar todas as informações da conferência para o usuário em um email que inclua a ID de conferência e os números de telefone de discagem clicando em **enviar informações de conferência em um email** para o usuário na seção **conferência de áudio** . Isso não envia o PIN.
     
-- Uma ID de conferência terá 7 dígitos e você não poderá alterar seu comprimento.
+- Uma ID de conferência terá 8 dígitos e você não poderá alterar seu comprimento.
     
 - Depois que for redefinido, o novo ID de conferência será listado em **ID de Conferência**.
     

@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ca163d2a705b4aaebc77c03dbf4c92edf9c5d601
-ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.openlocfilehash: 4d9e288037b82b3d5b0cccab133debdfa2d7d66b
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43749568"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042208"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Usar o suplemento de Reunião do Teams no Outlook
 =======================================
@@ -124,12 +124,12 @@ Use as etapas a seguir para solucionar problemas com o suplemento de reunião do
 
 Se você não conseguir instalar o suplemento Teams Meeting para o Outlook, tente estas etapas de solução de problemas.
 
+- Os usuários do Windows 7 devem instalar a [atualização para o Universal C Runtime no Windows](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows) para que o suplemento de Reunião do Teams funcione.
 - Verifique se o usuário tem uma política de atualização do teams que permite agendar reuniões no Teams. Para obter mais detalhes, confira [a atualização do Skype for Business para o Teams](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview#meetings) .
 - Verifique se o usuário tem uma política de reunião do teams que permite o suplemento do Outlook. Consulte [gerenciar políticas de reunião no Teams](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#allow-the-outlook-add-in) para obter mais detalhes.
 - Verifique se o usuário tem o cliente da área de trabalho do teams instalado. O suplemento de reunião não será instalado quando você usar somente o cliente Web Teams.
-- Certifique-se de que o usuário tenha permissão para executar o regsvr32. exe.
+- Certifique-se de que o usuário tenha permissão para executar o regsvr32. exe.  Para obter mais informações, consultehttps://support.microsoft.com/help/249873/how-to-use-the-regsvr32-tool-and-troubleshoot-regsvr32-error-messages
 - Certifique-se de que todas as atualizações disponíveis para o cliente da área de trabalho do Outlook foram aplicadas.
-- Certifique-se de que o nome da conta do usuário que efetuou logon não contenha espaços. (Esse é um problema conhecido e será corrigido em uma atualização futura.)
 - Siga estas etapas:
   - Reinicie o cliente de área de trabalho do Teams.
   - Saia e entre novamente no cliente de área de trabalho do Teams.

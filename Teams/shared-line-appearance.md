@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.users.voice.calldelegation.tooltip
 - seo-marvel-apr2020
 description: Saiba como enviar um email aos seus usuários com as informações de audioconferência no Microsoft Teams.
-ms.openlocfilehash: 52f4257d5e5603c0f7ed812d5ab677a18ed47fb9
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 80c279e4d80478c2392f8c4faffb46e822c016e4
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905543"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042578"
 ---
 # <a name="shared-line-appearance-in-microsoft-teams"></a>Aparência de linha compartilhada no Microsoft Teams
 
@@ -40,7 +40,7 @@ A aparência da linha compartilhada faz parte do recurso de delegação que perm
 
 Um usuário deve ter o sistema telefônico com conectividade PSTN (uma licença de plano de chamada ou um OnlineVoiceRoutingPolicy de roteamento direto) para ser um representante ou configurar a delegação e permitir que outras pessoas façam ou recebam chamadas em seu nome.
 
-Os gerentes e representantes precisam ter um sistema telefônico com conectividade PSTN (uma licença de plano de chamada ou um OnlineVoiceRoutingPolicy de roteamento direto). A experiência de linha compartilhada faz parte da delegação e está incluída com o sistema telefônico. Para obter detalhes adicionais sobre o modelo de licenciamento, consulte [Licenciamento do Office 365 para Microsoft Teams](office-365-licensing.md).
+Os gerentes e representantes precisam ter um sistema telefônico com conectividade PSTN (uma licença de plano de chamada ou um OnlineVoiceRoutingPolicy de roteamento direto). A experiência de linha compartilhada faz parte da delegação e está incluída com o sistema telefônico. Para obter detalhes adicionais sobre o modelo de licenciamento, consulte [Descrição do serviço Microsoft Teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).
 
 ## <a name="configuring-delegation-and-shared-line-appearance"></a>Configurar a aparência da delegação e da linha compartilhada
 

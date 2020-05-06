@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Saiba como configurar o sistema telefônico para filas de chamadas em nuvem com o Microsoft Teams, que fornecem uma mensagem de saudação, suspender música, redirecionamento de chamada e outros recursos.
-ms.openlocfilehash: d6a0095e0189c37a8002017fde590e05faf791fe
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 8d7001d3e4052eddcfce1d3dfa3da845bce3af66
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43914008"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44047382"
 ---
 # <a name="create-a-cloud-call-queue"></a>Criar uma fila de chamada do Cloud
 
@@ -68,7 +68,7 @@ Para começar a usar filas de chamadas, é importante lembrar-se de algumas cois
 > Os números do serviço de roteamento direto para filas de chamadas têm suporte somente para usuários e agentes do Microsoft Teams.
 
 > [!NOTE]
-> Para redirecionar chamadas para pessoas em sua organização que estão online, elas devem ter uma licença do **sistema de telefonia** e estar habilitadas para o Enterprise Voice ou ter planos de chamadas do Office 365. Consulte [atribuir licenças do Microsoft Teams](assign-teams-licenses.md). Para habilitá-las para o Enterprise Voice, você pode usar o Windows PowerShell. Por exemplo, execute:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+> Para redirecionar chamadas para pessoas em sua organização que estão online, elas devem ter uma licença do **sistema de telefonia** e estar habilitadas para o Enterprise Voice ou ter planos de chamadas do Office 365. Consulte [atribuir licenças de Complementos do Microsoft Teams](teams-add-on-licensing/assign-teams-add-on-licenses.md). Para habilitá-las para o Enterprise Voice, você pode usar o Windows PowerShell. Por exemplo, execute:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
 - Para saber mais sobre os planos de chamada do Office 365, consulte [sistema telefônico e planos de chamada](calling-plan-landing-page.md) e [planos de chamadas do Office 365](calling-plans-for-office-365.md).
 
@@ -183,7 +183,7 @@ Os agentes de chamada selecionados devem ser um dos seguintes:
 - Usuários locais do Skype for Business Server
 
   > [!NOTE]
-  > Isso também se aplica se você quiser redirecionar chamadas para as pessoas em sua organização que estão online. Esses indivíduos devem ter uma licença do **sistema telefônico** e o Enterprise Voice habilitados *ou* ter um plano de chamadas. Para obter mais informações, consulte [atribuir licenças do Skype for Business](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses), [atribuir licenças do Microsoft Teams](https://docs.microsoft.com/microsoftteams/assign-teams-licenses)ou [qual plano de chamada é ideal para você?](https://docs.microsoft.com/microsoftteams/calling-plan-landing-page)
+  > Isso também se aplica se você quiser redirecionar chamadas para as pessoas em sua organização que estão online. Esses indivíduos devem ter uma licença do **sistema telefônico** e o Enterprise Voice habilitados *ou* ter um plano de chamadas. Para obter mais informações, consulte [atribuir licenças do Skype for Business](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses), [atribuir licenças do Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/assign-teams-add-on-licenses)ou [qual plano de chamada é ideal para você?](https://docs.microsoft.com/microsoftteams/calling-plan-landing-page)
 
  Para habilitar um agente para Enterprise Voice, você pode usar o Windows PowerShell. Por exemplo, execute:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 

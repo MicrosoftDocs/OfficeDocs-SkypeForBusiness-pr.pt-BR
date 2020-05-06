@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d82b8de29d8f73f439f158e96d1c61767a3bd019
-ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
+ms.openlocfilehash: b83113df089d22aeab705f0eb4ebc1d808b25c28
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43940688"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44041928"
 ---
 <a name="microsoft-365-groups-and-microsoft-teams"></a>Grupos do Microsoft 365 e o Microsoft Teams
 =====================================
@@ -56,3 +56,11 @@ Quando você cria uma equipe, no back-end, está criando um grupo do Office 365 
 Os recursos e as funcionalidades do grupo para seus usuários dependem de onde você conduz os membros do grupo. Por exemplo, se você remover um membro de uma equipe, ele será removido do grupo do Office 365 também. A remoção do grupo remove imediatamente a equipe e os canais do cliente do teams. Se você remover uma pessoa de um grupo usando o centro de administração do Microsoft 365, ele não terá mais acesso aos outros aspectos de colaboração, como a biblioteca de documentos do SharePoint Online, o grupo do Yammer ou o OneNote compartilhado. No entanto, eles ainda terão acesso à funcionalidade de chat da equipe por aproximadamente duas horas.
 
 Como prática recomendada para gerenciar membros do Teams, adicione e remova membros do cliente do teams para garantir que o controle de acesso em cascata correto para outros aplicativos de nuvem dependentes seja aplicado. Além disso, você evitará uma experiência não contígua, deixando as pessoas com a impressão de que ainda têm acesso aos recursos que costumavam ter (até o próximo ciclo de sincronização adicionar ou revogar acesso a um componente específico do serviço). Se você adicionar ou remover membros da equipe fora do cliente do Teams (usando o centro de administração do Microsoft 365, o Azure AD ou o PowerShell do Exchange Online), poderá levar até 24 horas (mais em alguns casos) para que as alterações sejam refletidas no Microsoft Teams.
+
+<a name="ability-to-add-group-as-attendee-while-scheduling-meetings"></a>Capacidade de Adicionar grupo como participante ao agendar reuniões
+----------------------------------------------------------
+
+A partir de maio de 2020, agora você pode convidar um grupo para uma reunião agendada, com as seguintes advertências:
+1. Todos os grupos e grupos existentes do Microsoft 365 criados a partir de grupos do Microsoft 365 existentes serão pesquisáveis e poderão ser adicionados à reunião. No entanto, os membros receberão o convite de reunião com base em sua assinatura para o grupo.
+2. As equipes criadas do zero antes de maio de 2018 também poderão ser pesquisadas, mas os membros não receberão o convite de reunião devido à sua assinatura de grupo padrão, que é "apenas respostas para você". Isso pode ser alterado do Outlook modificando as configurações de grupo
+3. As equipes criadas do zero após maio de 2018 não são pesquisáveis e são ocultadas usando-se a propriedade "HiddenFromAddressListsEnabled". Esta é uma configuração controlada pelo administrador que pode ser modificada pelo administrador.

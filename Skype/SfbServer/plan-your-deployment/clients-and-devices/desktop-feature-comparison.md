@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: 'Resumo: os administradores do Skype for Business Server 2015 ou do Skype for Business Online podem usar essas tabelas para compreender quais recursos são compatíveis com os clientes.'
-ms.openlocfilehash: c07955758f86e31eb947a99ce8ba0e8dc7a44b30
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 2da6ed53ea70e6a3065b283456ccf028fd04ca6f
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43777796"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44041948"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2015"></a>Comparação de recursos do cliente de desktop para o Skype for Business Server 2015
 
@@ -188,7 +188,7 @@ Esta tabela abrange os recursos relacionados ao suporte a serviços de voz.
 |Atendimento de chamadas de grupo  |&#x2714;||&#x2714; &#x2776; ||||&#x2714;|||
 |Roteamento com base no local  |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;||&#x2714;|
 |Gerenciar grupo de resposta/grupo de chamada de equipe |&#x2714;||&#x2714;|||||||
-
+|Chamada de atendedor automático de resposta |&#x2714;||&#x2714;|||||||
  &#x2776; este recurso não está disponível no Skype for Business online.
   
 ## <a name="external-users-support"></a>Suporte a usuários externos

@@ -22,12 +22,12 @@ ms.custom:
 - Licensing
 - seo-marvel-apr2020
 description: 'Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. '
-ms.openlocfilehash: 8deb0d00365803ff8ae585f8f6d4dfefbf72108f
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 5fb963bbea97a41b6dbd6b68d5d7e0c162dc5a05
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905583"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042938"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>Configurar Créditos de Comunicação para sua organização
 
@@ -42,11 +42,11 @@ Ao se inscrever, você recebe um determinado número de minutos, dependendo do s
   
 Para fazer isso, **você precisa atribuir uma conferência de áudio ou uma licença do sistema de telefone** para seus usuários.
   
-- Atribua uma licença de **audioconferência** a seus usuários. Consulte [atribuir licenças do Microsoft Teams](assign-teams-licenses.md).
+- Atribua uma licença de **audioconferência** a seus usuários. Consulte [atribuir licenças de Complementos do Microsoft Teams](teams-add-on-licensing/assign-teams-add-on-licenses.md).
     
     Depois de atribuir essa licença, você precisará configurar a conferência de áudio. Para obter instruções passo a passo, consulte [experimentar ou comprar o áudio videoconferência no Office 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md).
     
-- Atribua um **sistema telefônico** e uma licença de plano de chamadas **domésticas ou domésticas e internacionais** para seus usuários. Consulte [atribuir licenças do Microsoft Teams](assign-teams-licenses.md).
+- Atribua um **sistema telefônico** e uma licença de plano de chamadas **domésticas ou domésticas e internacionais** para seus usuários. Consulte [atribuir licenças de Complementos do Microsoft Teams](teams-add-on-licensing/assign-teams-add-on-licenses.md).
     
     > [!NOTE]
     > Embora isso não seja obrigatório para créditos de comunicações, você ainda precisa atribuir um **plano de chamadas domésticas** ou uma licença de **plano de chamadas doméstica e internacional** .

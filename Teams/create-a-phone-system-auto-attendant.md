@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Saiba como configurar e testar atendedores automáticos da nuvem para o Microsoft Teams.
-ms.openlocfilehash: dee263c08751f21e1fde19965d23595d5da27e39
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 0b4b654a8e6d0eedd9d80cf5bf3bed8e9ee74115
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43788977"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44047378"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>Configurar um atendedor automático do Cloud
 
@@ -48,7 +48,7 @@ As implementações de atendedor automático geralmente envolvem vários atended
 <!-- When you create a new auto attendant in Teams after October 10th, 2019, the required auto attendant is automatically created and linked with the new auto attendant. -->
  
 > [!TIP]
-> Para redirecionar chamadas para um operador ou uma opção de menu que seja um usuário online com uma licença do sistema de telefonia, será necessário habilitá-las para o Enterprise Voice. Consulte [atribuir licenças do Skype for Business](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses) ou [atribuir licenças do Microsoft Teams](assign-teams-licenses.md). Você também pode usar o Windows PowerShell. Por exemplo, execute:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+> Para redirecionar chamadas para um operador ou uma opção de menu que seja um usuário online com uma licença do sistema de telefonia, será necessário habilitá-las para o Enterprise Voice. Consulte [atribuir licenças do Skype for Business](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses) ou [atribuir licenças do suplemento do Microsoft Teams](teams-add-on-licensing/assign-teams-add-on-licenses.md). Você também pode usar o Windows PowerShell. Por exemplo, execute:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
 ## <a name="step-2--create-auto-attendants"></a>Etapa 2 — criar atendedores automáticos
 

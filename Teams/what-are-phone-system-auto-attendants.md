@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Saiba mais sobre atendedores automáticos da nuvem e como usá-los para permitir que os chamadores se movimentem por meio de um sistema de menus para localizar e fazer ou transferir chamadas para usuários ou departamentos.
-ms.openlocfilehash: bfe142db0322757dd8fefe55c4de529168939126
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 614077237f95c97c584a467c5852f97f438e92b8
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905133"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042598"
 ---
 # <a name="what-are-cloud-auto-attendants"></a>O que são atendedores automáticos da nuvem?
 
@@ -64,7 +64,7 @@ Para começar a usar os atendedores automáticos, é importante lembrar-se de qu
 > Os números do serviço de roteamento direto para atendedor automático e filas de chamadas são suportados somente para usuários do Microsoft Teams e para agentes de chamadas.
 
    > [!TIP]
-   > Para redirecionar chamadas para um operador ou uma opção de menu que seja um usuário online com uma licença do **sistema de telefonia** , você precisará habilitar a conta do Enterprise Voice ou atribuir planos de chamada a elas. Consulte [atribuir licenças do Microsoft Teams](assign-teams-licenses.md). Você também pode usar o Windows PowerShell. Por exemplo, execute:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+   > Para redirecionar chamadas para um operador ou uma opção de menu que seja um usuário online com uma licença do **sistema de telefonia** , você precisará habilitar a conta do Enterprise Voice ou atribuir planos de chamada a elas. Consulte [atribuir licenças de Complementos do Microsoft Teams](teams-add-on-licensing/assign-teams-add-on-licenses.md). Você também pode usar o Windows PowerShell. Por exemplo, execute:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
   
 - Para obter e usar números de serviço de chamada gratuita para seus atendedores automáticos, você precisa configurar créditos de comunicações. Para fazer isso, confira [o que são créditos de comunicações?](what-are-communications-credits.md) e [Configure créditos de comunicações para sua organização](set-up-communications-credits-for-your-organization.md).
 

@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Instalar o conector do Power BI para usar modelos de consulta CQD
-ms.openlocfilehash: d9619fbf39558597c0f6c168f57f8b240d3c2a20
-ms.sourcegitcommit: 5692900c0fc0a2552fe3f8ece40920c839e1ea23
+ms.openlocfilehash: 9274394c15e76aa985cf9e0a005963b79e0acac9
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43952440"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042588"
 ---
 # <a name="install-power-bi-connector-to-use-cqd-query-templates"></a>Instalar o conector do Power BI para usar modelos de consulta CQD
 
@@ -158,6 +158,16 @@ Se você encontrar erros adicionais fora desse escopo, notifique a equipe do CQD
 ### <a name="when-will-the-power-bi-connector-be-updated-from-beta-status"></a>Quando o conector do Power BI será atualizado do status "beta"?
 
 Apesar da marca beta, o conector de qualidade da chamada para o Power BI é a versão de lançamento do conector e tem a segurança oficialmente assinada pela equipe do Power BI para refletir isso. O processo de certificação para remover a marca beta é um processo extensivo e requer um compromisso da equipe do Power BI para fornecer suporte direto ao conector também. Devido a restrições de tempo, a equipe do Power BI atualmente não consegue fornecer esse suporte e certificação mais ampla, mas ainda está preparada para atestar a segurança, a autenticidade e a funcionalidade geral do conector de qualidade da chamada da Microsoft.
+
+### <a name="why-does-the-connector-seem-so-slow-compared-to-advanced-cqd-in-browser-what-can-i-do-to-improve-performance"></a>Por que o conector parece tão lento quando comparado ao CQD avançado no navegador? O que posso fazer para melhorar o desempenho?
+
+O desempenho da consulta para os vários modelos é realmente o mesmo no navegador e no conector. A diferença se refere ao número de consultas simultâneas em execução. Como a versão do navegador do CQD tinha menos opções de visualização bem desenvolvidas e com informações de visualização, a maioria dos nossos relatórios limitava o carregamento de consultas do 2-3 de cada vez. Por outro lado, os modelos de conector geralmente exibem mais de 20 consultas simultâneas. Se você quiser criar relatórios que sejam tão responsivos quanto os antigos para os quais foi usado, tente criar relatórios sem mais de 2-3 consultas por guia.
+
+### <a name="i-find-that-i-routinely-run-into-the-10000-row-limit-when-running-queries-how-can-i-get-the-connector-to-return-more-than-10000-rows"></a>Acho que eu insiro rotineiramente o limite de linha de 10.000 ao executar consultas. Como posso obter o conector para retornar mais de 10.000 linhas?
+
+O limite de linha de 10.000 é realmente especificado no final da API, e ele foi projetado para ajudar a melhorar significativamente o desempenho e reduzir o risco de erros de execução de consulta resultantes de condições de memória insuficiente.
+
+Em vez de tentar aumentar a contagem de linhas do resultado, é melhor reestruturar seus relatórios de acordo com as práticas recomendadas do conector. Os modelos incluídos foram projetados para demonstrar essas práticas recomendadas. Sempre que possível, comece examinando seus KPIs usando dimensões mais amplas e inferiores de cardinalidade, como mês, ano, data, região, país, etc. De lá, você pode fazer uma busca detalhada em dimensões de cardinalidade cada vez mais altos. Os relatórios de helpdesk e local-avançado fornecem bons exemplos de fluxo de trabalho de busca detalhada.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

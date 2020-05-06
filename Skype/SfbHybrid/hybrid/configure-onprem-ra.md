@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Configurar uma conta de recurso para o Skype for Business Server 2019.
-ms.openlocfilehash: 1de087abdf08420a6300ae45466e9696aacb1ed1
-ms.sourcegitcommit: 477aac9e14fced139ee7dd827942ce35b9769b63
+ms.openlocfilehash: 0d7e52892c718f215a269201b73a547a97c13f96
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "43510780"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042838"
 ---
 # <a name="configure-resource-accounts"></a>Configurar contas de recurso
 
@@ -28,7 +28,7 @@ Para usar um atendedor automático ou uma fila de chamadas do sistema de telefon
 
 Se você tiver um atendedor automático de UM do Exchange e um sistema de fila de chamadas, antes de mudar para o Exchange Server 2019 ou Exchange Online, será necessário registrar manualmente os detalhes conforme descrito abaixo e implementar um sistema completamente novo usando o centro de administração do Microsoft Teams.
 
-## <a name="overview"></a>Visão Geral
+## <a name="overview"></a>Visão geral
 
 Se o atendedor automático ou a fila de chamadas do sistema de telefonia precisar de um número de serviço, as várias dependências poderão ser atendidas na seguinte sequência:
 
@@ -43,7 +43,7 @@ Se o atendedor automático ou a fila de chamadas do sistema de telefonia precisa
 
 Se o atendedor automático ou a fila de chamadas estiverem aninhados em um atendedor automático de nível superior, a conta de recurso associada só precisará de um número de telefone se você quiser vários pontos de entrada na estrutura de atendedores automáticos e filas de chamada.
 
-Para redirecionar as chamadas para pessoas em sua organização que estão hospedadas online, elas devem ter uma licença de **sistema de telefonia** e estar habilitadas para o Enterprise Voice ou ter planos de chamadas do Office 365. Consulte [atribuir licenças do Microsoft Teams](/MicrosoftTeams/assign-teams-licenses). Para habilitá-los para o Enterprise Voice, você pode usar o Windows PowerShell. Por exemplo, execute:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+Para redirecionar as chamadas para pessoas em sua organização que estão hospedadas online, elas devem ter uma licença de **sistema de telefonia** e estar habilitadas para o Enterprise Voice ou ter planos de chamadas do Office 365. Confira [atribuir licenças complementares do Microsoft Teams](/MicrosoftTeams/teams-add-on-licensing/assign-teams-add-on-licenses). Para habilitá-los para o Enterprise Voice, você pode usar o Windows PowerShell. Por exemplo, execute:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
 Se o atendedor automático do sistema de telefonia ou a fila de chamada que você estiver criando for aninhado e não precisar de um número de telefone, o processo será:
 
@@ -84,7 +84,7 @@ A criação de uma conta de recurso que usa um número de telefone precisaria ex
 
     Consulte [Start-ADSyncSyncCycle](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-feature-scheduler) para obter mais detalhes sobre este comando.
 
-5. Atribua a licença de usuário virtual ou de sistema de telefonia à conta de recurso. Consulte [atribuir licenças do Microsoft Teams](/MicrosoftTeams/assign-teams-licenses) e [atribuir licenças a um usuário](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#assign-licenses-to-one-user).
+5. Atribua a licença de usuário virtual ou de sistema de telefonia à conta de recurso. Consulte [atribuir licenças de complemento do Microsoft Teams](/MicrosoftTeams/teams-add-on-licensing/assign-teams-add-on-licenses) e [atribuir licenças a um usuário](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#assign-licenses-to-one-user).
 
    Se você estiver atribuindo um número de telefone a uma conta de recurso, agora você pode usar o sistema de telefonia livre de custo-licença de usuário virtual. Isso fornece recursos do sistema de telefonia para números de telefone no nível organizacional e permite que você crie recursos de atendedor automático e fila de chamadas.
 

@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para a Arábia Saudita.
-ms.openlocfilehash: 36d59a1c77824f86d4eca6d94450c71c4cd87cb6
-ms.sourcegitcommit: 67466cde3ffd5c42d632300b8a2adf7aab7df5d1
+ms.openlocfilehash: ba64a0e3cb0e9bfd6da12cfaf70516cf3c508955
+ms.sourcegitcommit: b143611d14765af054a4f84cca52e2003d35af1a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "43958456"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44047826"
 ---
 # <a name="availability-in-saudi-arabia"></a>Disponibilidade na Arábia Saudita
 
@@ -71,7 +71,7 @@ Se os Planos de Chamada não estiverem disponíveis para compra, considere a pos
 |:-----|:-----|
 |Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?  <br/> | Não aplicável  <br/> |
 |Há números de chamada tarifada disponíveis?  <br/> |Não  <br/> |
-|Há números de chamada gratuita disponíveis?  <br/> |Não  <br/> |
+|Há números de chamada gratuita disponíveis?  <br/> |Sim  <br/> |
    
  Para obter números de telefone de chamadas gratuitas e tarifadas para audioconferência, atendedores automáticos e filas de chamadas, consulte [Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](/microsoftteams/getting-service-phone-numbers).
   

@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.callparkpolicies.overview
 - seo-marvel-apr2020
 description: Saiba como usar o estacionamento de chamadas e recuperar para colocar uma chamada em espera no serviço do teams na nuvem.
-ms.openlocfilehash: 2420652fc908a943e798ac1acade53eca4c5b55f
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: e36690c4059ceae67c8615b1e910051439ca8e78
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905033"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042958"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>Estacionamento e recuperação de chamadas no Microsoft Teams
 
@@ -44,7 +44,7 @@ Alguns dos cenários comuns para usar o parque de chamadas são:
 
 ## <a name="license-required"></a>Licença necessária
 
-Para estacionar e recuperar chamadas, um usuário deve ser um usuário de voz empresarial, e um administrador deve conceder ao usuário uma política de estacionamento de chamadas. Para obter mais informações sobre o modelo de licenciamento, consulte [Licenciamento do Office 365 para Microsoft Teams](office-365-licensing.md).
+Para estacionar e recuperar chamadas, um usuário deve ser um usuário de voz empresarial, e um administrador deve conceder ao usuário uma política de estacionamento de chamadas. Para obter mais informações sobre o modelo de licenciamento, consulte [Descrição de serviço do Microsoft Teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).
 
 ## <a name="call-park-and-retrieve-feature-availability"></a>Ligar para o parque da chamada e recuperar a disponibilidade de recursos
 

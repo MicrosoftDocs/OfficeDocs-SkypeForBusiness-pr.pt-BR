@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: Compartilhamento de chamadas e retirada de chamadas em grupo permitem que os usuários compartilhem chamadas com colegas para que as chamadas possam ser capturadas quando o usuário não estiver disponível.
-ms.openlocfilehash: 727e3a4c3627e38722182bc1d6ad1f4e435d95a4
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 8ed53ca5103d3ee4264e0dc1aef3267172d37527
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780780"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042948"
 ---
 # <a name="call-sharing-and-group-call-pickup-in-microsoft-teams"></a>Compartilhamento de chamadas e atendimento de chamada em grupo no Microsoft Teams
 
@@ -43,7 +43,7 @@ Para compartilhar chamadas com outras pessoas, um usuário cria um grupo de cham
 
 ## <a name="license-required"></a>Licença necessária
 
-Os usuários devem ter o Enterprise Voice habilitado para configurar e usar o compartilhamento de chamadas e a retirada de chamadas em grupo. Para obter detalhes adicionais sobre o modelo de licenciamento, consulte [Licenciamento do Office 365 para Microsoft Teams](office-365-licensing.md).
+Os usuários devem ter o Enterprise Voice habilitado para configurar e usar o compartilhamento de chamadas e a retirada de chamadas em grupo. Para obter detalhes adicionais sobre o modelo de licenciamento, consulte [Descrição do serviço Microsoft Teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).
 
 ## <a name="configure-group-call-pickup"></a>Configurar a retirada de chamadas em grupo
 

@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: A Microsoft está desativando o serviço de Unificação de mensagens do Exchange Online (ExchUMO) em 28 de fevereiro de 2020. Este artigo resume o que os clientes afetados devem saber e fazer para planejar sua continuidade de negócios.
-ms.openlocfilehash: ab0040887b41fc62786f21c889f7dd63aae011b4
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: a28d8e1d9217773ec28c8f2afdf00cb1e16ae53c
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780770"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042828"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Suporte à migração online de Unificação de mensagens do Exchange
 
@@ -135,6 +135,7 @@ Os administradores da organização do Office 365 precisam recriar seus atendedo
 | VM | Recursos de serviço | Descoberta eletrônica e retenção  | Para segurança e conformidade  | S | S    |
 | VM | Recursos de serviço | Suporte a regras do Exchange | Para segurança e conformidade  | S | S    |
 | VM | Recursos do usuário | Acesso de discagem PSTN  | Acesso ao Assinante  | N | S    |
+| VM | Recursos do usuário | Delegar  | email de chamada perdida  | N | S    |
 | VM | Recursos do usuário | PSTN Outlook Voice Access   | Acesso ao Assinante  | N | S    |
 | VM | Recursos do usuário | Discar usando um ponto de extremidade autenticado | Chamar o serviço de caixa postal para ouvir mensagens de voz e alterar as configurações de caixa postal| S | S    |
 | VM | Recursos do usuário | Configuração do usuário para desabilitar a caixa postal   |  | S | S    |
@@ -162,13 +163,13 @@ Os administradores da organização do Office 365 precisam recriar seus atendedo
 | VM | Recursos do chamador  | Detecção de silêncio   |  | N | S    |
 | VM | Locatário-recursos de administração | Caixa postal protegida no nível do servidor    | Locatário-o administrador pode configurar uma regra de nível de serviço para marcar a caixa postal de entrada como protegida | S | S    |
 | VM | Locatário-recursos de administração | Alterar o limite de tempo de duração da gravação  |     | S | S    |
-| VM | Locatário-recursos de administração | Alterar o tempo limite de detecção de silêncio    |  | Não disponível    | S    |
+| VM | Locatário-recursos de administração | Alterar o tempo limite de detecção de silêncio    |  | N/D    | S    |
 | VM | Locatário-recursos de administração | Alterar o número de falhas de entrada | CVM: embutido em código para 3 | N | S    |
 | VM | Locatário-recursos de administração | Alterar o idioma padrão |  | S | S    |
 | VM | Locatário-recursos de administração | Desabilitar/habilitar transcrição |  | S | S    |
 | VM | Locatário-recursos de administração | Desabilitar/habilitar notificação de chamada perdida |  | N | S    |
 | VM | Locatário-recursos de administração | Ajude a Microsoft a melhorar a visualização da caixa postal    |  | S | S    |
-| VM | Locatário-recursos de administração | Personalizar mensagem de texto para usuários habilitados|  | Não disponível    | S    |
+| VM | Locatário-recursos de administração | Personalizar mensagem de texto para usuários habilitados|  | N/D    | S    |
 | VM | Locatário-recursos de administração | Mascaramento de profanação de transcrição|  | S | N    |
 | VM | Locatário-recursos de administração | Política de caixa postal    |   | S | S    |
 | VM | Locatário-recursos de administração | Administração do portal da Web   |  | CY19   | S    |

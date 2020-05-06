@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 'Consulte as etapas para atribuir uma licença de conferência discada e um ID de conferência a um usuário no Microsoft Teams e várias outras configurações de conferência discada. '
-ms.openlocfilehash: 513695cf905c7cb21f332f6b025318253b03334d
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: b353f119d3f666f0a694ab325273e2b5f568da04
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141154"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042478"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-your-organization-in-microsoft-teams"></a>Gerenciar as configurações de Audioconferência de sua organização no Microsoft Teams
 
@@ -39,7 +39,7 @@ Pode ser mais fácil para você visualizar todas as configurações de audioconf
 ## <a name="assign-an-audio-conferencing-license"></a>Atribui licença de audioconferência
 
 > [!NOTE]
-> Não é possível atribuir licenças usando o Teams. Você deve usar o centro de administração do Microsoft 365. Consulte [Atribuir licenças do Skype for Business e do Microsoft Teams](assign-teams-licenses.md). 
+> Não é possível atribuir licenças usando o Teams. Você deve usar o centro de administração do Microsoft 365. Consulte [atribuir licenças de Complementos do Microsoft Teams](teams-add-on-licensing/assign-teams-add-on-licenses.md). 
   
  **Atribuir uma licença a um usuário**
   

@@ -15,12 +15,12 @@ description: Use esta orientação para implementar o Microsoft Teams como sua p
 ROBOTS: NOINDEX, NOFOLLOW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9db6b2192224e796475c903cf5eeeaa06ecdc8ee
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 2cd8fc92d3f46df8bcfaa07a96b69b84790750aa
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780370"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44041708"
 ---
 # <a name="roll-out-microsoft-teams-first"></a>Implantar o Microsoft Teams primeiro
 
@@ -43,7 +43,7 @@ Para começar a usar sua primeira implantação do Microsoft Teams, você precis
     Para entender os atributos sincronizados com a sincronização do AAD, leia a [sincronização do Azure ad Connect: atributos sincronizados com o Azure Active Directory](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized)
 
 3.  Licenças de usuário adequadas atribuídas para Teams  
-    Para entender o licenciamento do Teams, leia [o licenciamento do Office 365 para Microsoft Teams](office-365-licensing.md)
+    Para entender o licenciamento do Teams, leia [Descrição de serviço do Microsoft Teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).
 
 4.  Rede da organização preparada para equipes  
     Para entender a preparação da rede, leia [preparar a rede da sua organização para equipes](prepare-network.md).
@@ -54,7 +54,7 @@ Para começar a usar sua primeira implantação do Microsoft Teams, você precis
 > Os locatários criados após 1º de setembro de 2019 são provisionados no modo somente Teams.
 > 
 > [!IMPORTANT]
-> Se você tiver o Skype for Business Server implantado e seu locatário tiver sido provisionado após 1º de setembro de 2019, entre em contato com o suporte Premier para habilitar os recursos de coexistência do teams. Verifique se a "política de atualização da organização" está definida como ' Island Mode ' <span class="underline">antes</span> de atribuir licenças de equipe a um usuário.
+> Se você tiver o Skype for Business Server implantado e seu locatário tiver sido provisionado após 1º de setembro de 2019, entre em contato com o suporte para habilitar os recursos de coexistência do teams. Verifique se a "política de atualização da organização" está definida como ' Island Mode ' <span class="underline">antes</span> de atribuir licenças de equipe a um usuário.
 
 ## <a name="migration-starting-points"></a>Pontos de partida de migração
 
@@ -233,7 +233,7 @@ Saiba mais aqui: <a href="https://docs.microsoft.com/microsoftteams/admin-settin
 
 1.  Conheça pré-requisitos detalhados na seção início aqui.
 
-2.  Alternar o locatário para o modo de ilhas (para locatários provisionados após 9/1/2019, entre em contato com o suporte Premier para fazer essa alteração)  
+2.  Alternar o locatário para o modo de ilhas (para locatários provisionados após 9/1/2019, entre em contato com o suporte para fazer essa alteração)  
     [Definir suas configurações de coexistência e atualização](setting-your-coexistence-and-upgrade-settings.md)
 
 3.  Configurar seu locatário de acordo com as políticas de negócios/empresa da empresa  

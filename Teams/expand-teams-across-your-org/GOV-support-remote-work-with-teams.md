@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Use este guia para ajudar os funcionários remotos da sua organização a serem produtivos usando o Microsoft Teams, especialmente quando estiverem trabalhando em casa (WFH) em resposta à epidemia do COVID-19 (Coronavírus).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 35bd251b4b8ef6a13263148c5fbb2245256dad3f
-ms.sourcegitcommit: 4e1647d19501b37860d9fc79370fa4347f76f85f
+ms.openlocfilehash: 92d7e2d151b467cabf387791f635fb284c99fca1
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43079383"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042378"
 ---
 # <a name="support-remote-government-workers-using-microsoft-teams"></a>Ofereça suporte aos funcionários públicos remotos que usam o Microsoft Teams
 
@@ -33,7 +33,7 @@ Aprenda como preparar o Teams na sua organização:
 
   - Verifique se todos têm acesso ao Teams, usando a oferta gratuita do **[Office 365 G1 por 6 meses](../g1-trial-license.md)**. Fale com seu parceiro ou equipe de conta da Microsoft se precisar de ajuda.
 
-  - Se você já possui uma assinatura, verifique se o **[Teams está ativado](../assign-teams-licenses.md)** para todos.
+  - Se você já possui uma assinatura, verifique se o **[Teams está ativado](../user-access.md)** para todos.
 
   - Para uma implantação rápida, visite o [**Teams FastPath PowerPoint**](https://aka.ms/TeamsGovFastPath) para disponibilizar equipes na sua organização.
 
