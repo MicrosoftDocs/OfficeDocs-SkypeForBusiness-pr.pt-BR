@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4cc744b8cbe9942712857309f061b998957661b4
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 6c40e9f89d56329dc8f4f450b72a76c031315b9a
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780380"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44041748"
 ---
 <a name="manage-the-microsoft-teams-exploratory-license"></a>Gerenciar a licença do Microsoft Teams Exploratory
 =======================================================
@@ -139,7 +139,7 @@ Para atualizar os usuários da licença do Teams Exploratory, faça o seguinte:
 
 3. Atribua as licenças adquiridas recentemente.
 
-Para saber mais, confira [Licenças do Office 365 do Microsoft Teams](Office-365-licensing.md).
+Para saber mais, confira [Descrição do serviço do Microsoft Teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).
 
 > [!NOTE]
 > Se a licença do Teams Exploratory terminar e um usuário não for atualizado imediatamente para uma assinatura que inclua o Teams, os dados do usuário não serão removidos. O usuário ainda existe no Azure Active Directory e todos os dados no Teams ainda permanecem. Depois que uma nova licença for atribuída ao usuário para ativar a funcionalidade do Teams novamente, todo o conteúdo ainda existirá. 

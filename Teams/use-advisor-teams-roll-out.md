@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: Use o Assistente do Teams (visualização pública) para ajudar a planejar e concluir a implantação do Microsoft Teams.
-ms.openlocfilehash: 006ecf1563da153660902ac4c580253e50632867
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 1357829330f4d2ef7ad95e0eda1cebcbe8492756
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780800"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042908"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Use o Assistente do Teams para ajudá-lo na implantação do Microsoft Teams
 
@@ -84,7 +84,7 @@ As seções a seguir descrevem cada avaliação, incluindo se algo é um pré-re
 |Teste de avaliação  |O que ele informa  |
 |---------|---------|
 |Domínio personalizado configurado     |Se houver um domínio que não seja @onmicrosoft.com configurado para o locatário (por exemplo, @contoso.onmicrosoft.com). Você pode usar o domínio @onmicrosoft. com, é claro, ou - pode configurar um domínio personalizados, sua escolha. Para obter mais informações, leia [Adicionar um domínio ao Office 365.](https://docs.microsoft.com/office365/admin/setup/add-domain) |
-|Licenças do Teams     |Esse é um pré-requisito - você **deve ter** licenças do Teams para implantar o Teams. Consulte o Microsoft Graph para ver se você tem licenças do Teams (com pelo menos uma licença disponível para atribuir). Para obter mais informações, leia [Licenças do Office 365 do Microsoft Teams](https://docs.microsoft.com/microsoftteams/office-365-licensing).    |
+|Licenças do Teams     |Esse é um pré-requisito - você **deve ter** licenças do Teams para implantar o Teams. Consulte o Microsoft Graph para ver se você tem licenças do Teams (com pelo menos uma licença disponível para atribuir). Para saber mais, leia a [descrição do serviço do Microsoft Teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).    |
 |Licenças do Exchange Online     |Se você tiver uma assinatura ativa com licenças disponíveis do Exchange Online. Embora o Exchange não seja necessário para a funcionalidade básica do Teams, a integração com o Exchange fornece uma experiência ideal para o Teams. Consulte o Microsoft Graph para analisar as assinaturas associadas ao seu locatário e valide se você tiver assinaturas com uma licença qualificada do Exchange Online (com pelo menos uma licença disponível para atribuir). Para obter mais informações, leia [Como o Exchange e o Teams interagem](exchange-teams-interact.md).    |
 |Licenças do SharePoint Online     |Se você tiver uma assinatura ativa com licenças disponíveis do SharePoint Online. Recomendamos licenças do SharePoint Online por usuário para fornecer o OneDrive for Business para armazenamento de arquivos em chats. Consulte o Microsoft Graph para ver se você tem licenças do SharePoint Online (com pelo menos uma licença disponível para atribuir). Para obter mais informações, leia [Como o SharePoint Online e o OneDrive for Business interagem com o Microsoft Teams](https://docs.microsoft.com/microsoftteams/sharepoint-onedrive-interact).    |
 |Acesso para convidado habilitado     |Se o [acesso para convidado](guest-access.md) estiver habilitado. O acesso de convidados permite convidar usuários externos para suas equipes. Use a lista de [Verificação de acesso de convidado ao Teams](guest-access-checklist.md) para ativar o acesso de convidados no Teams. a lista de verificação inclui as configurações necessárias do Azure AD. |

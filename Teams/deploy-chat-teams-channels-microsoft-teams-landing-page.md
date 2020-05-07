@@ -19,12 +19,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 - seo-marvel-apr2020
-ms.openlocfilehash: 1f503bbfbc582fc3713a9f40e435382772e7ab63
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: e8e2f2b09ab448e0460c82af0fba776f2ce1126a
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43901936"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44041828"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Chat, equipes, canais e aplicativos no Microsoft Teams
 
@@ -151,11 +151,11 @@ Convém alterar essas configurações, com base nas necessidades da organizaçã
 
 ### <a name="teams-licensing"></a>Licenciamento do Teams
 
-O Teams é oferecido como parte de muitas licenças do Office 365. Para saber mais sobre o licenciamento do Teams, confira [Licenciamento do Office 365 para o Teams](office-365-licensing.md).
+O Teams é oferecido como parte de muitas licenças do Office 365. Para saber mais sobre o licenciamento do Teams, confira a [descrição do serviço do Microsoft Teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).
 
-|Pergunte-se|Ação |
+|Pergunte a si mesmo|Ação |
 |------------|-------|
-|Meus usuários têm licenças necessárias para usar todos os recursos do Teams que desejo implementar? | Para saber mais sobre os requisitos de licenciamento, confira [Licenciamento do Office 365 para o Teams](office-365-licensing.md).|
+|Meus usuários têm licenças necessárias para usar todos os recursos do Teams que desejo implementar? | Para aprender sobre os requisitos de licenciamento, leia a [descrição do serviço do Microsoft Teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).|
 |||
 
 ### <a name="exchange-and-sharepoint-interoperability"></a>Interoperabilidade entre o Exchange e o SharePoint 

@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8db4565b4a9b1fd5e984640b20d3eaacbed24a37
-ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
+ms.openlocfilehash: 39e1177f4e400b0be085bb2c822bc645fc77cf7c
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42978483"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042388"
 ---
 <a name="manage-the-office-365-e1-trial"></a>Gerenciar a avaliação do Office 365 E1
 ==============================
@@ -59,7 +59,7 @@ Depois de usar seu código promocional de avaliação E1, você não poderá us�
 
 ## <a name="manage-the-e1-trial"></a>Gerenciar a avaliação E1
 
-Depois de ativar a Avaliação do Office 365 E1, ative a licença para todos os usuários que precisarem. Para saber como, leia [Gerenciar o acesso de usuários ao Teams](user-access.md#manage-teams-through-the-microsoft-365-admin-center).
+Depois de ativar a Avaliação do Office 365 E1, ative a licença para todos os usuários que precisarem. Para saber como, leia [Gerenciar o acesso de usuários ao Teams](user-access.md).
 
 
 Depois de ativar a Avaliação E1 para os usuários que precisam, você gerenciará esses usuários da mesma forma como gerencia os usuários com licença paga. Para mais informações, confira [Gerenciar as configurações do Teams da sua organização](enable-features-office-365.md).
@@ -76,7 +76,7 @@ Para atualizar usuários da avaliação E1 para uma assinatura paga:
 
 3. Atribua as licenças adquiridas recentemente.
 
-Para saber mais, confira [Licenças do Office 365 do Microsoft Teams](Office-365-licensing.md).
+Para saber mais, confira [Descrição do serviço do Microsoft Teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).
 
 > [!NOTE]
 > Se a licença de avaliação E1 terminar e um usuário não for atualizado imediatamente para uma assinatura que inclua o Teams, os dados do usuário não serão removidos. O usuário ainda existe no Azure Active Directory e todos os dados no Teams ainda permanecem. Depois que uma nova licença for atribuída ao usuário para ativar a funcionalidade do Teams novamente, todo o conteúdo ainda existirá. 
@@ -90,7 +90,7 @@ Para saber mais, confira [Licenças do Office 365 do Microsoft Teams](Office-365
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Gerenciamento do acesso de usuários ao Teams](user-access.md#manage-teams-through-the-microsoft-365-admin-center)
+[Gerenciamento do acesso de usuários ao Teams](user-access.md)
 
 [Gerenciar as configurações do Teams da sua organização](enable-features-office-365.md)
 
