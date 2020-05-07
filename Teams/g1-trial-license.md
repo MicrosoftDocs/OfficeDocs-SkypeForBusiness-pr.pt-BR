@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a6ae8079ba3ccd498936c5d17740ea2e5bafb514
-ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
+ms.openlocfilehash: 9579edfb8571f6d7d3ddf86eb6ce56c2a7e4fb85
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/19/2020
-ms.locfileid: "42858716"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042808"
 ---
 <a name="manage-the-office-365-g1-trial-for-us-government"></a>Gerenciar a Avaliação do Office 365 G1 para o governo dos EUA 
 ==============================
@@ -55,7 +55,7 @@ Depois de usar seu código promocional de avaliação G1, você não poderá us�
 
 ## <a name="manage-the-g1-trial"></a>Gerenciar a avaliação G1
 
-Depois de ativar a Avaliação do Office 365 G1, ative a licença para todos os usuários que precisarem. Para saber como, leia  [Gerenciar o acesso de usuários ao Teams](user-access.md#manage-teams-through-the-microsoft-365-admin-center).
+Depois de ativar a Avaliação do Office 365 G1, ative a licença para todos os usuários que precisarem. Para saber como, leia  [Gerenciar o acesso de usuários ao Teams](user-access.md).
 
 Depois de ativar a Avaliação G1 para os usuários que precisam, você gerenciará esses usuários da mesma forma como gerencia os usuários com licença paga. Para mais informações, confira  [Gerenciar as configurações do Teams da sua organização](enable-features-office-365.md).
 
@@ -82,7 +82,6 @@ Para mais informações, consulte [Teams para Governo](expand-teams-across-your-
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Gerenciamento do acesso de usuários ao Teams](user-access.md#manage-teams-through-the-microsoft-365-admin-center)
+[Gerenciamento do acesso de usuários ao Teams](user-access.md)
 
 [Gerenciar as configurações do Teams da sua organização](enable-features-office-365.md)
-

@@ -17,12 +17,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9487a6a96397be27ebf23bd474fc0b9a5ba1fea0
-ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
+ms.openlocfilehash: be3df465c740aef7069a77cb7a7562fd0ecd8cd9
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43940768"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042438"
 ---
 # <a name="retention-policies-in-microsoft-teams"></a>Políticas de retenção no Microsoft Teams
 
@@ -55,7 +55,7 @@ Com as políticas de retenção para o Teams, você pode:
 
 Quando os dados estão sujeitos a uma política de retenção, os usuários podem continuar a trabalhar com eles, pois eles são mantidos no local, em seu local original. Se um usuário editar ou excluir dados sujeitos à política, uma cópia será salva em um local seguro, onde será mantida enquanto a política estiver em vigor.
 
-O requisito mínimo de licenciamento para políticas de retenção é o Office 365 E3. Para saber mais sobre o licenciamento, confira [Licenciamento do Office 365 para o Teams](Office-365-licensing.md).
+O requisito mínimo de licenciamento para políticas de retenção é o Office 365 E3. Para saber mais sobre licenciamento, consulte [Descrição do serviço Microsoft Teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).
 
 ## <a name="how-teams-retention-policies-work"></a>Como funcionam as políticas de retenção do Teams
 

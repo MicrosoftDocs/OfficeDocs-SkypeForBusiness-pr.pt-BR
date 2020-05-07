@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba como levar seus aplicativos personalizados do teams do desenvolvimento para a implantação.
-ms.openlocfilehash: 8166ba6b46853510a9f4e966ddca4e5b8686b551
-ms.sourcegitcommit: a09334ef1a6b0a877839c3b46165eb5a6aad1ba9
+ms.openlocfilehash: a2896a2aa2b2d9750afd147b113a76637514afb6
+ms.sourcegitcommit: b5c747e2daad6dd3c1d91f4e61ae6f26db5c77f0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/02/2020
-ms.locfileid: "44006047"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44064526"
 ---
 # <a name="manage-your-custom-apps-in-microsoft-teams"></a>Gerenciar seus aplicativos personalizados no Microsoft Teams
 
@@ -131,15 +131,19 @@ Você pode atualizar o aplicativo por meio do catálogo de aplicativos do locat�
 
 Na maioria dos casos, após concluir uma atualização do aplicativo, a nova versão será exibida automaticamente para os usuários finais. No entanto, há algumas atualizações do <a href="https://docs.microsoft.com/microsoftteams/platform/resources/schema/manifest-schema" target="_blank">manifesto do Microsoft Teams</a> que exigem a aceitação do usuário para serem concluídas:
 
-* um bot foi adicionado ou removido
-* a propriedade "botId" de um bot existente foi alterada
-* a propriedade "isNotificationOnly" de um bot existente foi alterada
-* a propriedade "supportsFiles" do bot foi alterada
-* uma extensão de mensagens foi adicionada ou removida
-* um novo conector foi adicionado
-* uma nova guia estática foi adicionada
-* uma nova guia configurável foi adicionada
-* as propriedades dentro de "webApplicationInfo" foram alteradas
+* Um bot foi adicionado ou removido
+* A propriedade "botId" de um bot existente foi alterada
+* A propriedade "isNotificationOnly" de um bot existente foi alterada
+* A propriedade "supportsFiles" do bot foi alterada
+* Uma extensão de mensagens foi adicionada ou removida
+* Um novo conector foi adicionado
+* Uma nova guia estática foi adicionada
+* Uma nova guia configurável foi adicionada
+* As propriedades dentro de "webApplicationInfo" foram alteradas
+
+![Captura de tela da lista de aplicativos, mostrando os aplicativos que têm uma nova versão disponível](media/manage-your-custom-apps-update1.png)
+
+![Captura de tela da opção de atualização para um aplicativo](media/manage-your-custom-apps-update2.png)
 
 ## <a name="related-apps"></a>Aplicativos relacionados
 

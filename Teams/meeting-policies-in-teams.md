@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Saiba como gerenciar as configurações de política de reunião no Teams e usá-las para controlar os recursos disponíveis para os participantes da reunião para reuniões agendadas pelos usuários.
-ms.openlocfilehash: 3a482ce562c0d0281c1bc289dfc953f416a8f133
-ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
+ms.openlocfilehash: 4a61d2563a63d2dc8d1b55bbf0bbc6c52230d900
+ms.sourcegitcommit: c3f44fccdbd9178d30b52bb0db6f6d31a6dd174b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43940698"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44139205"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Gerenciar políticas de reunião no Teams
 
@@ -106,10 +106,11 @@ Ao selecionar uma política existente na página **políticas de reunião** ou s
 - [Permitir o suplemento do Outlook](#allow-the-outlook-add-in)
 - [Permitir agendamento de reunião de canal](#allow-channel-meeting-scheduling)
 - [Permitir agendamento de reuniões particulares](#allow-scheduling-private-meetings)
+- [Permitir reunião agora em reuniões privadas](#allow-meet-now-in-private-meetings)
 
 ### <a name="allow-meet-now-in-channels"></a>Permitir reunir agora em canais
 
-Esta é uma política por usuário e se aplica antes de iniciar uma reunião. Esta configuração controla se um usuário pode iniciar uma reunião ad hoc em um canal do teams. Se você ativar esta opção, quando um usuário postar uma mensagem em um canal do Teams, o usuário pode clicar em **reunir agora** na caixa de texto para iniciar uma reunião ad hoc no canal.
+Esta é uma política por usuário e se aplica antes de iniciar uma reunião. Esta configuração controla se um usuário pode iniciar uma reunião ad hoc em um canal do teams. Se você ativar esta opção, quando um usuário postar uma mensagem em um canal do Teams, o usuário pode clicar em **reunir agora** na caixa de texto para iniciar uma reunião ad hoc no canal. O valor padrão é True.
 
 ![Captura de tela mostrando o ícone reunir agora abaixo de uma mensagem](media/meeting-policies-meet-now.png)
 
@@ -123,7 +124,7 @@ Se você desativar essa opção, os usuários não poderão agendar reuniões do
 
 ### <a name="allow-channel-meeting-scheduling"></a>Permitir agendamento de reunião de canal
 
-Esta é uma política por usuário e se aplica antes de iniciar uma reunião. Esta configuração controla se os usuários podem agendar uma reunião em um canal do teams.  Se você desativar essa opção, a opção **agendar uma reunião** não estará disponível para o usuário quando ele iniciar uma reunião em um canal do Teams e a opção **Adicionar canal** estiver desabilitada para os usuários do teams.
+Esta é uma política por usuário e se aplica antes de iniciar uma reunião. Esta configuração controla se os usuários podem agendar uma reunião em um canal do teams.  Se você desativar essa opção, a opção **agendar uma reunião** não estará disponível para o usuário quando ele iniciar uma reunião em um canal do Teams e a opção **Adicionar canal** estiver desabilitada para os usuários do teams. O valor padrão é True.
 
 ![Captura de tela mostrando a opção agendar uma reunião no Teams](media/meeting-policies-schedule-a-meeting.png)
 
@@ -133,7 +134,11 @@ Esta é uma política por usuário e se aplica antes de iniciar uma reunião. Es
 
 Esta é uma política por usuário e se aplica antes de iniciar uma reunião. Esta configuração controla se os usuários podem agendar reuniões privadas no Teams. Uma reunião é particular quando não é publicada em um canal de uma equipe.
 
-Observe que, se você desativar a opção **permitir reuniões privadas de agendamento** e **permitir agendamento de reunião de canal**, a opção **Adicionar participantes necessários** e **Adicionar canal** estará desabilitada para os usuários do teams.
+Observe que, se você desativar a opção **permitir reuniões privadas de agendamento** e **permitir agendamento de reunião de canal**, a opção **Adicionar participantes necessários** e **Adicionar canal** estará desabilitada para os usuários do teams. O valor padrão é True.
+
+### <a name="allow-meet-now-in-private-meetings"></a>Permitir reunião agora em reuniões privadas
+
+Esta é uma política por usuário e se aplica antes de iniciar uma reunião. Esta configuração controla se um usuário pode iniciar uma reunião privada ad hoc.  O valor padrão é True.
 
 <a name="bkaudioandvideo"> </a>
 
@@ -314,7 +319,6 @@ Essas configurações controlam quais participantes da reunião aguardam no lobb
 - [Permitir que as pessoas anônimas iniciem uma reunião](#let-anonymous-people-start-a-meeting)
 - [Admitir pessoas automaticamente](#automatically-admit-people)
 - [Permitir que os usuários de discagem ignorem o lobby](#allow-dial-in-users-to-bypass-the-lobby)
-- [Permitir reunião agora em reuniões privadas](#allow-meet-now-in-private-meetings)
 - [Habilitar legendas dinâmicas](#enable-live-captions)
 - [Permitir chat em reuniões](#allow-chat-in-meetings)
 
@@ -378,9 +382,6 @@ Aqui está o comportamento da junção de pessoas que discam por telefone.
 |   | Todos em sua organização     |Aguardar no lobby         |
 |   | Todos em sua organização e organizações federadas      | Aguardar no lobby         |
 
-### <a name="allow-meet-now-in-private-meetings"></a>Permitir reunião agora em reuniões privadas
-
-Esta é uma política por usuário e se aplica antes de iniciar uma reunião. Esta configuração controla se um usuário pode iniciar uma reunião privada ad hoc. 
 
 ### <a name="enable-live-captions"></a>Habilitar legendas dinâmicas
 
