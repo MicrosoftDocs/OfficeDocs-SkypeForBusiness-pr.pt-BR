@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: Saiba quais países e regiões têm números de teleconferência discada e como eles são atribuídos automaticamente.
-ms.openlocfilehash: fa99e9225f55919b58bf6d9b4648a740b21fcb34
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: e3abae815eca6dad17fe51efaf7ec715421650ff
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43777436"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164710"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-skype-for-business-online"></a>Números de telefone para Audioconferência no Skype for Business Online
 
@@ -55,7 +55,7 @@ There are two types of audio conferencing phone numbers that can be assigned to 
   
  **Números de telefone dedicados** são os que estão disponíveis apenas para usuários em sua organização. Você pode alterar os idiomas usados quando alguém liga para um desses números.
   
- Os **números de telefone compartilhados** são os números de telefone que podem ser compartilhados com outros serviços do Microsoft 365 ou do Office 365s. Você não pode alterar os idiomas que são usados quando alguém liga para um desses números.
+ Os **números de telefone compartilhados** são os números de telefone que podem ser compartilhados com outras contas do Microsoft 365 ou do Office 365. Você não pode alterar os idiomas que são usados quando alguém liga para um desses números.
   
 While the default audio conferencing number that is assigned to an organizer is only included in the meeting invite, a caller can use any of the phone numbers that are assigned to your conferencing bridge to join a meeting. The list of phone numbers that can be used to join a meeting is available using the **Find a local number** link that is included on every meeting invite.
   
@@ -89,4 +89,4 @@ Para ver uma lista dos países/regiões que têm números de telefone automatica
    
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Experimentar ou comprar audioconferência no Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Experimentar ou comprar videoconferências no Microsoft 365 ou no Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

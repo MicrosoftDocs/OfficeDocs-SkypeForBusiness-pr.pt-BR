@@ -20,16 +20,16 @@ ms.custom:
 - Setup
 - ms.lync.lac.OrgMobileNotification
 description: Saiba como ativar ou desativar as notificações do telefone celular para que seus usuários possam receber alertas sobre mensagens de entrada, caixa postal e mensagens de chat perdidas.
-ms.openlocfilehash: e84ae2ef4054d730cc56bae3bd545f04e966bab4
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+ms.openlocfilehash: 8e209637ffe4c4053adc6dea44fb574257c330c3
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769544"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164101"
 ---
 # <a name="turn-on-or-off-mobile-phone-notifications"></a>Ativar ou desativar notificações do telefone celular
 
-Como **[atribuir funções de administrador no Office 365 for Business](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)** para sua organização, você pode escolher se seus usuários do Skype for Business receberão alertas sobre mensagens instantâneas recebidas e perdidas quando estiverem em seus celulares ou Tablets.
+Como **[atribuir funções de administrador nos aplicativos Microsoft 365 para empresas](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)** para sua organização, você pode escolher se seus usuários do Skype for Business receberão alertas sobre mensagens instantâneas recebidas e perdidas quando estiverem em seus celulares ou Tablets.
   
 Nos telefones Android e Windows Phone, as notificações do Skype for Business aparecem em tempo real. Para dispositivos Windows Phone, iPhone e iPad, no entanto, notificações por push serão usadas para mostrar alertas sempre que você não estiver usando ativamente o Skype for Business no seu telefone ou tablet.
   
@@ -38,7 +38,7 @@ Nos telefones Android e Windows Phone, as notificações do Skype for Business a
 
 ![Um ícone mostrando o logotipo do Skype for Business](../images/sfb-logo-30x30.png) **Usando o centro de administração do Skype for Business**
 
-1. Entre no Office 365.
+1. Entre no Microsoft 365.
     
 2. Vá para o centro de administração > **Skype for Business**.
     

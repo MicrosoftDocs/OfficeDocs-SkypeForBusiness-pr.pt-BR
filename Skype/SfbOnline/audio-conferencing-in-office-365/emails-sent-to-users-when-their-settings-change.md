@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Saiba quais informações são enviadas automaticamente para os usuários por e-mail quando as configurações de conferência discada forem alteradas no Skype for Business online. '
-ms.openlocfilehash: 12904c6485a422c7df314767b58ac485c38816ea
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: e2f58bfe582b7adc6672c06bec0e90571ff9a96a
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41986546"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164270"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-skype-for-business-online"></a>Emails enviados para usuários quando as configurações forem alteradas no Skype for Business Online
 
@@ -35,11 +35,11 @@ ms.locfileid: "41986546"
 
 Os emails serão enviados automaticamente para os usuários que estão [habilitados para conferência de áudio](set-up-audio-conferencing.md) usando a Microsoft como provedor de serviços de audioconferência.
   
-Por padrão, há quatro tipos de email que serão enviados aos usuários que estão habilitados para videoconferências. No entanto, se quiser limitar o número de emails enviados para os usuários, você pode desativá-lo. A conferência de áudio no Office 365 enviará emails ao email dos usuários quando:
+Por padrão, há quatro tipos de email que serão enviados aos usuários que estão habilitados para videoconferências. No entanto, se quiser limitar o número de emails enviados para os usuários, você pode desativá-lo. Conferências de áudio no Microsoft 365 ou no Office 365 enviarão emails ao email dos usuários quando:
   
 - **Uma licença de conferência de áudio é atribuída a eles ou quando você está alterando o provedor de serviços de audioconferência para a Microsoft.**
     
-     Este e-mail inclui a ID de conferência, o número de telefone de conferência padrão para as reuniões, o PIN de audioconferência para o usuário e as instruções e o link para usar a ferramenta de atualização de reunião do Skype for Business online que é usada para atualizar reuniões existentes para o utilizador. Consulte [atribuir licenças do Skype for Business](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md) ou [atribuir a Microsoft como provedor de serviços de audioconferência](assign-microsoft-as-the-audio-conferencing-provider.md).
+     Este e-mail inclui a ID de conferência, o número de telefone de conferência padrão para as reuniões, o PIN de conferência de áudio para o usuário e as instruções e o link para usar a ferramenta de atualização de reunião do Skype for Business online que é usada para atualizar reuniões existentes para o usuário. Consulte [atribuir licenças do Skype for Business](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md) ou [atribuir a Microsoft como provedor de serviços de audioconferência](assign-microsoft-as-the-audio-conferencing-provider.md).
     
     > [!NOTE]
     > [!OBSERVAçãO] Se a sua organização estiver habilitada para IDs de conferência dinâmicas, todas as reuniões de um usuário agendadas terão IDs de conferência exclusivas. Você pode configurar [IDs dinâmicas de audioconferência em sua organização](using-audio-conferencing-dynamic-ids-in-your-organization.md). 
@@ -76,7 +76,7 @@ Por padrão, há quatro tipos de email que serão enviados aos usuários que est
     
     Isso acontece quando a licença de **conferência de áudio** é removida de um usuário ou ao alterar o provedor de serviços de audioconferência de um usuário da Microsoft para um provedor de serviços de audioconferência de terceiros ou quando o provedor é definido como **nenhum**. Este e-mail contém as instruções e informações para o usuário usar a ferramenta de atualização de reunião do Skype for Business online para remover informações específicas da conferência de áudio, como o número de telefone ou a ID de conferência padrão.
     
-    Veja [Atribuir ou remover licenças de assinatura no Office 365](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).
+    Consulte [atribuir ou remover licenças para aplicativos do Microsoft 365 para empresas](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).
     
     Aqui está um exemplo desse email:
     
@@ -87,7 +87,7 @@ Por padrão, há quatro tipos de email que serão enviados aos usuários que est
 
 ## <a name="make-changes-to-the-email-messages-that-are-sent-to-them"></a>Alterar as mensagens de email enviadas a eles
 
-Você pode fazer alterações nos emails enviados automaticamente para os usuários, incluindo o endereço de email e o nome para exibição que está incluído nas informações *de contato do* remetente. Por padrão, o remetente dos emails será do Office 365, mas você pode alterar o endereço de email e o nome de exibição usando o Windows PowerShell e o cmdlet [set-csonlinedialinconferencingtenantsettingshttp](https://go.microsoft.com/fwlink/?LinkId=627285) . Para fazer alterações no endereço de email que está enviando o email aos usuários, você deve:
+Você pode fazer alterações nos emails enviados automaticamente para os usuários, incluindo o endereço de email e o nome para exibição que está incluído nas informações *de contato do* remetente. Por padrão, o remetente dos emails será do Microsoft 365 ou do Office 365, mas você pode alterar o endereço de email e o nome de exibição usando o Windows PowerShell e o cmdlet [set-csonlinedialinconferencingtenantsettingshttp](https://go.microsoft.com/fwlink/?LinkId=627285) . Para fazer alterações no endereço de email que está enviando o email aos usuários, você deve:
   
 - Digite o endereço de email no parâmetro  _SendEmailFromAddress_.
     
@@ -145,13 +145,13 @@ Você pode usar o cmdlet [set-csonlinedialinconferencingtenantsettingshttp](http
   
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Quer saber como gerenciar com o Windows PowerShell?
 
-- Por padrão, o remetente dos emails será do Office 365, mas você pode alterar o endereço de email e o nome de exibição usando o Windows PowerShell e o cmdlet [set-csonlinedialinconferencingtenantsettingshttp](https://go.microsoft.com/fwlink/?LinkId=627285) .
+- Por padrão, o remetente dos emails será do Microsoft 365 ou do Office 365, mas você pode alterar o endereço de email e o nome de exibição usando o Windows PowerShell e o cmdlet [set-csonlinedialinconferencingtenantsettingshttp](https://go.microsoft.com/fwlink/?LinkId=627285) .
     
-- O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com o Windows PowerShell, você pode gerenciar o Office 365 usando um ponto único de administração para simplificar seu trabalho diário quando houver várias tarefas a serem feitas. Para começar a usar o Windows PowerShell, consulte estes tópicos:
+- O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com o Windows PowerShell, você pode gerenciar o Microsoft 365 ou o Office 365 usando um único ponto de administração que pode simplificar seu trabalho diário quando você tiver várias tarefas para fazer. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
     
-  - [Por que você precisa usar o PowerShell do Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Por que você precisa usar o Microsoft 365 ou o Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-  - [Melhores maneiras de gerenciar o Office 365 com o Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Melhores maneiras de gerenciar o Microsoft 365 ou o Office 365 com o Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
 - O Windows PowerShell tem muitas vantagens em velocidade, simplicidade e produtividade apenas usando o centro de administração do Microsoft 365, como quando você está realizando alterações de configuração para muitos usuários de uma só vez. Saiba mais sobre essas vantagens nos seguintes tópicos: 
     

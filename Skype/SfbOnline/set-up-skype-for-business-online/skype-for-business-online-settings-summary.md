@@ -20,24 +20,24 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 'Este resumo das configurações de organização e usuário do Skype for Business pode ajudá-lo a saber mais sobre conectividade de mensagens de chat públicas, convites para reuniões, gravações e reuniões e muito mais.  '
-ms.openlocfilehash: fd8db122b1e0ec8ef205c07f68826dea83a833c7
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: a7c627620bba6d1249dcc6ce14bbaf25796b7173
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706456"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164120"
 ---
 # <a name="skype-for-business-online-settings-summary"></a>Resumo de configurações do Skype for Business Online
 
 O **centro de administração do Skype for Business** inclui configurações para toda a sua organização e para usuários individuais. 
   
 > [!NOTE]
->  Dependendo da sua localização, talvez você não tenha acesso a todos os recursos do Skype for Business online. Para obter detalhes, consulte [restrições de licença do Office 365](https://go.microsoft.com/fwlink/?LinkId=529483). 
+>  Dependendo da sua localização, talvez você não tenha acesso a todos os recursos do Skype for Business online. Para obter detalhes, consulte [restrições de licença do Microsoft 365 e do Office 365](https://go.microsoft.com/fwlink/?LinkId=529483). 
   
 ## <a name="skype-for-business-online-organization-settings"></a>Configurações de organização do Skype for Business Online
 <a name="__top"> </a>
 
-|**Ajuste**|**Descrição**|**Padrão**|**Saiba Mais**|
+|**Ajuste**|**Descrição**|**Padrão**|**Saiba mais**|
 |:-----|:-----|:-----|:-----|
 |Federação de domínios  <br/> |Comunicar com outras organizações que usam o Skype for Business Online.  <br/> |Habilitado  <br/> |[Permitir que os usuários entrem em contato com usuários externos do Skype for Business](allow-users-to-contact-external-skype-for-business-users.md) <br/> |
 |Conectividade de mensagem de chat Pública  <br/> |Comunicar com usuários do Skype for Business Online.  <br/> |Habilitado  <br/> |[Permitir que os usuários entrem em contato com usuários externos do Skype for Business](allow-users-to-contact-external-skype-for-business-users.md) <br/> |

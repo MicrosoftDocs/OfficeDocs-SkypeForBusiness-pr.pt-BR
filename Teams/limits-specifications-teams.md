@@ -138,7 +138,7 @@ Para saber mais sobre eventos ao vivo e uma comparação dos eventos ao vivo do 
 > [!IMPORTANT]
 > **O limite de eventos ao vivo do Microsoft 365 cresce**
 > 
-> Para ajudar os clientes a atender às necessidades de comunicação que mudam rapidamente, os eventos ao vivo do Microsoft 365 aumentarão temporariamente os limites padrão até 1 de julho de 2020, para eventos ao vivo hospedados no Teams. Os seguintes aumentos foram lançados final de abril de 2020:
+> Para ajudar os clientes a atender às necessidades de comunicação que mudam rapidamente, os eventos ao vivo do Microsoft 365 aumentarão temporariamente os limites padrão até 1º de julho de 2020, para eventos ao vivo hospedados no Teams. Os seguintes aumentos foram lançados no final de abril de 2020:
 > - Limite de participantes: os eventos podem dar suporte a no máximo 20.000 participantes
 > - Eventos simultâneos: 50 eventos podem ser hospedados simultaneamente em um locatário
 > - Duração do evento: a duração do evento aumentou para 16 horas por transmissão

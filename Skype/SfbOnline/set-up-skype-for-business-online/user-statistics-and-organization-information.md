@@ -21,13 +21,13 @@ ms.custom:
 - Setup
 - ms.lync.lac.DashboardOrganizationInformation
 - ms.lync.lac.DashboardUserStatistics
-description: Saiba quais estatísticas de usuários do Skype for Business estão disponíveis, como o número de usuários habilitados, usuários habilitados para conferência ou usuários habilitados para o Office 365.
-ms.openlocfilehash: fd1998795fe87fda0d49fe42cc1c8101c51f3b9c
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+description: Saiba quais são as estatísticas de usuário do Skype for Business disponíveis, como o número de usuários habilitados, usuários habilitados para conferência ou usuários habilitados para o Microsoft 365 ou o Office 365.
+ms.openlocfilehash: f4a8857b767162634866a3d953d113e97876c008
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43777026"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164500"
 ---
 # <a name="user-statistics-and-organization-information"></a>Estatísticas de usuários e informações da organização
 
@@ -38,10 +38,10 @@ O painel do Skype for Business fornece um instantâneo de como o serviço está 
 |||
 |:-----|:-----|
 |**Propriedade** <br/> |**Como alterá-la** <br/> |
-|Usuários do Skype for Business Online  <br/> |Para adicionar ou impedir que pessoas usem o aplicativo Skype for Business, veja [Atribuir ou remover licenças do Office 365 para empresas](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) ou [Remover licenças de usuários no Office 365 para empresas](https://support.office.com/article/9b497c85-d0a4-4735-80fa-d3565bc05bd1).  <br/> Para ver uma lista completa do que fazer quando um usuário sai da empresa, consulte [Remover um ex-funcionário do Office 365](https://support.office.com/article/44d96212-4d90-4027-9aa9-a95eddb367d1).  <br/> |
-|Usuários habilitados para Audioconferência  <br/> |Para habilitar as pessoas para videoconferências, consulte [experimentar ou comprar conferências de áudio no Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md).  <br/> |
-|Usuários na nuvem  <br/> |Este é o número de usuários do Skype for Business Online que têm contas do Office 365.  <br/> Para adicionar pessoas à sua assinatura do Microsoft 365 ou do Office 365 (ou seja, criar contas do Office 365 para elas), confira [Adicionar usuários individualmente ou em massa ao Office 365-ajuda para administradores](https://support.office.com/article/1970f7d6-03b5-442f-b385-5880b9c256ec).  <br/> |
-|Usuários sincronizados ou hospedados online  <br/> |Este é o número de usuários híbridos criados em uma implantação do Skype for Business Server local, mas que estão sincronizados com o Office 365.  <br/> Para configurar a conectividade híbrida do Skype for Business, veja [Implantar a conectividade híbrida entre o Skype for Business Server e o Skype for Business Online](https://technet.microsoft.com/library/jj204669.aspx).  <br/> |
+|Usuários do Skype for Business Online  <br/> |Para adicionar ou bloquear pessoas usando o aplicativo Skype for Business, consulte [atribuir ou remover licenças do microsoft 365 para empresas](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) ou [remover licenças de usuários no Microsoft 365 para empresas](https://support.office.com/article/9b497c85-d0a4-4735-80fa-d3565bc05bd1).  <br/> Para obter uma lista completa do que fazer quando um usuário sair da sua empresa, confira [remover um funcionário antigo do Microsoft 365](https://support.office.com/article/44d96212-4d90-4027-9aa9-a95eddb367d1).  <br/> |
+|Usuários habilitados para Audioconferência  <br/> |Para habilitar as pessoas para conferências de áudio, consulte [experimentar ou comprar videoconferência no Microsoft 365 ou no Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md).  <br/> |
+|Usuários na nuvem  <br/> |Este é o número de usuários do Skype for Business online que têm contas do Microsoft 365 ou do Office 365.  <br/> Para adicionar pessoas à sua assinatura do Microsoft 365 ou do Office 365 (ou seja, criar contas do Microsoft 365 ou do Office 365 para elas), confira [Adicionar usuários individualmente ou em massa ao Office 365-ajuda para administradores](https://support.office.com/article/1970f7d6-03b5-442f-b385-5880b9c256ec).  <br/> |
+|Usuários sincronizados ou hospedados online  <br/> |Este é o número de usuários híbridos criados em uma implantação local do Skype for Business Server, mas são sincronizados com o Microsoft 365 ou o Office 365.  <br/> Para configurar a conectividade híbrida do Skype for Business, veja [Implantar a conectividade híbrida entre o Skype for Business Server e o Skype for Business Online](https://technet.microsoft.com/library/jj204669.aspx).  <br/> |
    
 > [!NOTE]
 > Se for exibido Não Disponível, não há informações ou ocorreram erros. 
@@ -51,11 +51,11 @@ O painel do Skype for Business fornece um instantâneo de como o serviço está 
 |||
 |:-----|:-----|
 |**Propriedade** <br/> |**Como alterá-la** <br/> |
-|Nome da organização  <br/> |Este é o nome que você inseriu ao criar uma conta no Office 365. Para alterá-lo, veja [Alterar o endereço, contato técnico e outras informações de sua organização](https://support.office.com/article/a36e5a52-4df2-479e-bb97-9e67b8483e10).  <br/> |
+|Nome da organização  <br/> |Este é o nome que você digitou quando se inscreveu no Microsoft 365 ou no Office 365. Para alterá-lo, veja [Alterar o endereço, contato técnico e outras informações de sua organização](https://support.office.com/article/a36e5a52-4df2-479e-bb97-9e67b8483e10).  <br/> |
 |ID da organização  <br/> |Você não pode alterar o ID da Organização  <br/> |
 |Data de criação da organização  <br/> |Você não pode alterar este valor.  <br/> |
-|Sincronização do Active Directory ativada  <br/> |Mostra se a sua organização está sincronizada com uma organização do Skype for Business Online local.  <br/> Para configurar o Active Directory local, veja [Configurar a sincronização de diretório para o Office 365](https://support.office.com/article/1b3b5318-6977-42ed-b5c7-96fa74b08846).  <br/> |
-|Domínios da organização  <br/> |Quando você configurou o Office 365 inicialmente, estes foram os domínios registrados.  <br/> Para adicionar um domínio, veja [Adicionar vários domínios ao Office 365](https://support.office.com/article/2d2fa996-b760-411d-a5cc-190d63f13207).  <br/> Para remover um domínio, veja [Remover um domínio do Office 365](https://support.office.com/article/f09696b2-8c29-4588-a08b-b333da19810c).  <br/> |
+|Sincronização do Active Directory ativada  <br/> |Mostra se a sua organização está sincronizada com uma organização do Skype for Business Online local.  <br/> Para configurar o Active Directory local, consulte [Configurar a sincronização de diretório para o Microsoft 365 ou o Office 365](https://support.office.com/article/1b3b5318-6977-42ed-b5c7-96fa74b08846).  <br/> |
+|Domínios da organização  <br/> |Ao configurar inicialmente o Microsoft 365 ou o Office 365, estes são os domínios que foram registrados.  <br/> Para adicionar um domínio, consulte [adicionar vários domínios ao Microsoft 365 ou ao Office 365](https://support.office.com/article/2d2fa996-b760-411d-a5cc-190d63f13207).  <br/> Para remover um domínio, consulte [remover um domínio do Microsoft 365 ou do Office 365](https://support.office.com/article/f09696b2-8c29-4588-a08b-b333da19810c).  <br/> |
    
 ## <a name="related-topics"></a>Tópicos relacionados
 [Permitir que os usuários entrem em contato com usuários externos do Skype for Business](allow-users-to-contact-external-skype-for-business-users.md)

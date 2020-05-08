@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 56ea3f8b27a582a9cea282244a03be692d0781be
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 69f2ee37e63f83d6fc1d19ea733ff44ad23e7011
+ms.sourcegitcommit: 6e24ea8aa9cccf8a1a964c8ed414ef5c7de3dc17
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905773"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44158988"
 ---
 # <a name="enable-location-based-routing-for-direct-routing"></a>Habilitar o Roteamento baseado na localização para o Roteamento direto
 
@@ -38,7 +38,45 @@ Este artigo descreve como habilitar o roteamento baseado em localização para r
 - Configurações de gateway
 - Políticas de chamada
 
-## <a name="enable-location-based-routing-for-users"></a>Habilitar roteamento baseado em local para usuários
+Você pode usar o [centro de administração do Microsoft Team](#using-the-microsoft-teams-admin-center) ou o [PowerShel](#using-powershell)l para habilitar o roteamento baseado em local.
+
+## <a name="using-the-microsoft-teams-admin-center"></a>Usando o centro de administração do Microsoft Teams
+
+### <a name="enable-location-based-routing-for-users"></a>Habilitar roteamento baseado em local para usuários
+
+1. Criar uma política de roteamento de voz e atribuir usos de PSTN à política. Ao atribuir usos de PSTN a uma política, certifique-se de executar uma das seguintes ações:
+
+    - Use usos de PSTN associados a rotas de voz que usam um gateway PSTN local para o site.
+    - Use usos de PSTN associados a rotas de voz que usam um gateway PSTN localizado em uma região onde restrições de roteamento baseadas em localização não são necessárias.
+2. Atribua a política de roteamento de voz aos usuários que exigem restrições de roteamento a serem impostas.
+
+Para saber mais sobre como criar políticas de roteamento de voz e atribuí-las aos usuários, consulte [gerenciar políticas de roteamento de voz no Microsoft Teams](manage-voice-routing-policies.md).
+
+### <a name="enable-location-based-routing-for-network-sites"></a>Habilitar o roteamento baseado em local para sites de rede
+
+Habilite o roteamento baseado em local para seus sites que precisam impor restrições de roteamento. Para fazer isso, no painel de navegação esquerdo do centro de administração do Microsoft Teams, vá para **locais** > **topologia de rede**, selecione um site de rede, clique em **Editar**e ative o **roteamento baseado em localização**.  
+
+Para saber mais, consulte [gerenciar a topologia de rede](manage-your-network-topology.md).
+
+### <a name="enable-location-based-routing-for-gateways"></a>Habilitar roteamento baseado em local para gateways
+
+Habilite o roteamento baseado em local para gateways que roteiam chamadas para gateways PSTN que roteiam chamadas para a PSTN e associe o site de rede onde o gateway está localizado. 
+
+1. No painel de navegação esquerdo, vá para**Roteamento direto**de **voz** > e clique na guia **SBCS** .
+2. Selecione o SBC e clique em **Editar**. 
+3. Em **roteamento baseado em localização e otimização de mídia**, ative **habilitar roteamento baseado em local**.
+4. Especifique a ID do site do gateway e, em seguida, defina o modo ignorar.
+5. Clique em **Salvar**.
+
+### <a name="enable-location-based-routing-for-calling-policies"></a>Habilitar roteamento baseado em local para políticas de chamadas
+
+Para impor o roteamento baseado em localização para usuários específicos, configure a política de chamada do usuário para impedir o bypass de chamada PSTN. Para fazer isso, ative a configuração **impedir o bypass de chamada** na política de chamada.
+
+Para saber mais, consulte [chamando políticas no Teams](teams-calling-policy.md).
+
+## <a name="using-powershell"></a>Usando o PowerShell
+
+### <a name="enable-location-based-routing-for-users"></a>Habilitar roteamento baseado em local para usuários
 
 1. Use o cmdlet [set-CsOnlinePstnUsage](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstnusage?view=skype-ps) para definir usos de PSTN. Para vários usos, separe cada uso com uma vírgula.
 
@@ -76,7 +114,8 @@ Este artigo descreve como habilitar o roteamento baseado em localização para r
     ```PowerShell
     Grant-CsOnlineVoiceRoutingPolicy -Identity <User> -Tenant <TenantId>
     ```
-## <a name="enable-location-based-routing-for-network-sites"></a>Habilitar o roteamento baseado em local para sites de rede
+### <a name="enable-location-based-routing-for-network-sites"></a>Habilitar o roteamento baseado em local para sites de rede
+
 1.  Use o cmdlet [set-CsTenantNetworkSite](https://docs.microsoft.com/powershell/module/skype/set-cstenantnetworksite?view=skype-ps) para habilitar o roteamento baseado em localização e associar políticas de roteamento de voz a seus sites de rede que precisam impor restrições de roteamento.
     ```PowerShell
     Set-CsTenantNetworkSite -Identity <site ID> -EnableLocationBasedRouting <$true|$false>  
@@ -96,7 +135,8 @@ Este artigo descreve como habilitar o roteamento baseado em localização para r
     |EnableLocationBasedRouting    |Verdadeiro    |Verdadeiro    |
     |Sub-redes     |Sub-rede 1 (Déli)     |Sub-rede 2 (Hyderabad)     |
 
-## <a name="enable-location-based-routing-for-gateways"></a>Habilitar roteamento baseado em local para gateways
+### <a name="enable-location-based-routing-for-gateways"></a>Habilitar roteamento baseado em local para gateways
+
 1. Use o cmdlet [New-CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway?view=skype-ps) para criar uma configuração de gateway para cada site de gateway ou de rede. 
 
     ```PowerShell
@@ -148,7 +188,7 @@ Este artigo descreve como habilitar o roteamento baseado em localização para r
     |PstnGateway: gateway 3 DEL-PBX    |    Falso     |     Site 1 (Déli)    |
     |PstnGateway: gateway 4 HYD-PBX    |    Falso     |    Site 2 (Hyderabad)     |
 
-## <a name="enable-location-based-routing-for-calling-policies"></a>Habilitar roteamento baseado em local para políticas de chamadas
+### <a name="enable-location-based-routing-for-calling-policies"></a>Habilitar roteamento baseado em local para políticas de chamadas
 
 Para impor o roteamento baseado em localização para usuários específicos, configure a política de voz dos usuários para impedir o PTSN de chamada tarifada. 
 

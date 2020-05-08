@@ -28,17 +28,17 @@ ms.custom:
 - O365P_ShareLync
 - LIL_Placement
 description: 'See how to configure Skype for Business to let users talk to users in another organization, or let outside contacts to them. '
-ms.openlocfilehash: 394613e3137c65e814cc08dd898ec797d560d1c6
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: a1f399f7b127596aaf28c7e22b2c65525c72a8e4
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42010934"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164820"
 ---
 # <a name="allow-users-to-contact-external-skype-for-business-users"></a>Permitir que os usuários entrem em contato com usuários externos do Skype for Business
 
 > [!NOTE]
-> A Federação do Skype for Business não está disponível para o Office 365 operado pela 21Vianet e pelas organizações da Alemanha do Office 365. 
+> A Federação do Skype for Business não está disponível para o Microsoft 365 ou o Office 365 operado pela 21Vianet e pela Microsoft 365 ou pelas organizações da Alemanha do Office 365. 
   
 Siga as etapas descritas neste artigo quando:
   
@@ -51,13 +51,13 @@ Siga as etapas descritas neste artigo quando:
 ## <a name="enable-business-to-business-communications-for-your-users"></a>Habilitar comunicações entre empresas para os usuários
 <a name="bk_preview"> </a>
 
-Você deve ter [permissões de administrador](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) no Office 365 em ambas as organizações para fazer isso.
+Você deve ter [permissões de administrador](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) no Microsoft 365 ou no Office 365 em ambas as organizações para fazer isso.
 
 ![Um ícone mostrando o logotipo](../images/teams-logo-30x30.png) do Microsoft Teams **usando o centro de administração do teams**
   
-1. Entre com sua conta de administrador do Office 365. 
+1. Entre com sua conta de administrador do Microsoft 365 ou do Office 365. 
     
-2. No centro de administração, vá para **** > **equipes**de centros de administração.
+2. No centro de administração, vá para **Admin Centers** > **equipes**de centros de administração.
     
     ![Escolha o administrador do teams.](../images/MS-Teams-Admin.png)
   
@@ -116,7 +116,7 @@ Depois de habilitar a comunicação externa com outros usuários do Skype for Bu
     
 - Para configurar a Federação entre o Lync e o Skype for Business Online, confira este artigo: [Configurando o suporte de Federação para um cliente do Lync Online](https://technet.microsoft.com/library/hh202193.aspx).
     
-- Quando dois usuários do Skype for Business no Office 365 estão se comunicando entre si em domínios separados, eles só podem usar os recursos do Skype for Business (por exemplo, conversas por vídeo ou compartilhamento de área de trabalho) que estejam ativados em ambas as organizações.
+- Quando dois usuários do Skype for Business no Microsoft 365 ou o Office 365 estão se comunicando entre si em domínios separados, eles só podem usar os recursos do Skype for Business (por exemplo, conversas com vídeo ou compartilhamento de área de trabalho) que estejam ativados nas duas organizações.
     
 - Se um usuário do Skype for Business em sua organização for colocado em um local ou em uma retenção de litígio, todas as conversas de mensagens instantâneas entre esse usuário e outros usuários do Skype for Business ou do Skype serão salvas em **itens recuperáveis** na caixa de correio. Essas conversas não serão salvas na pasta **Histórico da Conversa** de suas caixas de correio.
     
@@ -125,7 +125,7 @@ Depois de habilitar a comunicação externa com outros usuários do Skype for Bu
 
 Depois de habilitar a comunicação externa para toda a sua empresa, você poderá desativá-la para indivíduos específicos.
   
-1. Entre com sua conta de administrador do Office 365.
+1. Entre com sua conta de administrador do Microsoft 365 ou do Office 365.
     
 2. No centro de administração, vá para usuários**ativos**do **usuários** > .
     

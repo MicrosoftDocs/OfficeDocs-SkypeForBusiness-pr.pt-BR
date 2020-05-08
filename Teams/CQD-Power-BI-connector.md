@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Instalar o conector do Power BI para usar modelos de consulta CQD
-ms.openlocfilehash: 9274394c15e76aa985cf9e0a005963b79e0acac9
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: e461a145280e6edf8c2039dbea55b5547dd5596e
+ms.sourcegitcommit: 6e24ea8aa9cccf8a1a964c8ed414ef5c7de3dc17
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042588"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44158978"
 ---
 # <a name="install-power-bi-connector-to-use-cqd-query-templates"></a>Instalar o conector do Power BI para usar modelos de consulta CQD
 
@@ -28,6 +28,7 @@ Antes de poder usar os modelos de consulta do Power BI para CQD (arquivos PBIX),
 
 Leia [use o Power bi para analisar os dados do CQD para](CQD-Power-BI-query-templates.md) que as equipes aprendam sobre esses modelos.
 
+Verifique se você tem a [função de acesso CQD](https://docs.microsoft.com/microsoftteams/turning-on-and-using-call-quality-dashboard#assign-roles-for-accessing-cqd) certa para acessar os relatórios do Power bi. 
 
 ## <a name="installation"></a>Instalação
 

@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Consulte como selecionar idiomas para o atendedor automático para um número de Audioconferência no Skype for Business Online.
-ms.openlocfilehash: 34ed4ccee5239923f68b089ce14551fe43c32320
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 93b6ea917c7f79747273366893efc47a22b89bb2
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776796"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44163891"
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing-in-skype-for-business-online"></a>Definir os idiomas para o atendedor automático de Audioconferência no Skype for Business Online
 
@@ -64,7 +64,7 @@ Você deve ser um [administrador global](https://support.office.com/article/da58
     
 - Os idiomas podem ser definidos para números de telefone dedicados, mas não para números compartilhados.
     
-- Para ver uma lista de países/regiões onde a Audioconferência no Office 365 usando a Microsoft como provedor está disponível, consulte [Números de telefone para AudioConferência](phone-numbers-for-audio-conferencing.md).
+- Para ver uma lista de países/regiões em que o Microsoft 365 ou o Office 365 usando a Microsoft como o provedor está disponível, consulte [números de telefone para videoconferências](phone-numbers-for-audio-conferencing.md).
     
 ## <a name="want-to-use-windows-powershell"></a>Você deseja usar o Windows PowerShell?
 
@@ -74,4 +74,4 @@ Para saber mais, consulte [usando o Windows PowerShell para realizar tarefas com
   
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Experimentar ou comprar audioconferência no Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Experimentar ou comprar videoconferências no Microsoft 365 ou no Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

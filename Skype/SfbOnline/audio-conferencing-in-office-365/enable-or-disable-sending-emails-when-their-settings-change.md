@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Learn how to enable or disable Skype from sending emails to users when settings such as pin changes or the default conferencing number changes. '
-ms.openlocfilehash: bfdbe1c6c9380b12086ce667c588d8b974438ee5
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 681a02fd410c008f46ad7906c5963660df668a89
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41707216"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164260"
 ---
 # <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change-in-skype-for-business-online"></a>Habilitar ou desabilitar o envio de emails quando as configurações de conferência de áudio mudarem no Skype for Business Online
 
@@ -35,7 +35,7 @@ ms.locfileid: "41707216"
 
 Os usuários são notificados automaticamente por e-mail quando estão habilitados para videoconferências. No entanto, pode haver ocasiões em que você queira reduzir o número de emails enviados para os usuários do Skype for Business. Nesses casos, você pode desabilitar o envio de emails.
   
-Se você desabilitar o envio de emails, os emails de audioconferência não serão enviados para seus usuários, incluindo emails para quando os usuários estiverem habilitados ou desabilitados para a conferência de áudio, quando o PIN for redefinido e quando a ID de conferência e o número de telefone de conferência padrão forem alterados .
+Se você desabilitar o envio de emails, os emails de audioconferência não serão enviados aos seus usuários, incluindo emails para quando os usuários estiverem habilitados ou desabilitados para a conferência de áudio, quando o PIN for redefinido e quando a ID de conferência e o número de telefone de conferência padrão forem alterados.
   
 Aqui está um exemplo do e-mail que é enviado aos usuários quando eles são habilitados para videoconferências:
   
@@ -105,11 +105,11 @@ Você pode usar o centro de administração do Skype for Business ou o Windows P
     
   - [Get-Csonlinedialinconferencingtenantsettingshttp](https://go.microsoft.com/fwlink/?LinkId=715760)
     
-- O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com o Windows PowerShell, você pode gerenciar o Office 365 usando um ponto único de administração para simplificar seu trabalho diário quando houver várias tarefas a serem feitas. Para começar a usar o Windows PowerShell, consulte estes tópicos:
+- O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com o Windows PowerShell, você pode gerenciar o Microsoft 365 ou o Office 365 usando um único ponto de administração que pode simplificar seu trabalho diário quando você tiver várias tarefas para fazer. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
     
-  - [Por que você precisa usar o PowerShell do Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Por que você precisa usar o Microsoft 365 ou o Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-  - [Melhores maneiras de gerenciar o Office 365 com o Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Melhores maneiras de gerenciar o Microsoft 365 ou o Office 365 com o Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
 - O Windows PowerShell tem muitas vantagens em velocidade, simplicidade e produtividade apenas usando o centro de administração do Microsoft 365, como quando você está realizando alterações de configuração para muitos usuários de uma só vez. Saiba mais sobre essas vantagens nos seguintes tópicos: 
     

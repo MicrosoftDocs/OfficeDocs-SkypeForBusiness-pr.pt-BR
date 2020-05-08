@@ -20,23 +20,23 @@ f1.keywords:
 ms.custom:
 - Optimization
 description: 'Learn about using Azure ExpressRoute to have a network with bandwidth requirements and Quality of Service capability for a business class user experience. '
-ms.openlocfilehash: f638a154e379d065d355010160bf8dff0ecc1b78
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 7802217872d1f466fa1d855435f84e2ecc468830
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41693076"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164340"
 ---
 # <a name="expressroute-and-qos-in-skype-for-business-online"></a>ExpressRoute e QoS no Skype for Business Online
 
-Conecte-se ao Office 365 por meio de uma conexão de rede dedicada usando o Azure ExpressRoute para Office 365 e Skype for Business Online. A conexão dedicada para seus aplicativos do Skype for Business oferecerá um desempenho confiável e previsível, bem como privacidade longe da Internet pública. É possível adquirir uma conexão de rede melhor para o Office 365 e o Skype for Business Online para adicionar previsibilidade e confiabilidade de classe de negócios, além de contar com um SLA de disponibilidade.
+Conecte-se ao Microsoft 365 ou o Office 365 em uma conexão de rede dedicada usando o Azure ExpressRoute para Microsoft 365 ou o Office 365 e o Skype for Business online. Sua conexão dedicada para seus aplicativos do Skype for Business fornecerá desempenho confiável e previsível, bem como privacidade longe da Internet pública. Agora você pode comprar uma conexão de rede melhorada para o Microsoft 365 ou o Office 365 e o Skype for Business Online, que adicionam previsibilidade, confiabilidade de classe empresarial e vem com um SLA de tempo de atividade.
   
 > [!NOTE]
 > Uma nova versão da calculadora de largura de banda está disponível: [Skype for Business, calculadora de largura de banda](https://go.microsoft.com/fwlink/?LinkId=715766). No entanto, as instruções neste documento usam a calculadora de largura de banda do Lync 2010 e do 2013. 
   
 ## <a name="skype-for-business-online-and-expressroute"></a>Skype for Business Online e ExpressRoute
 
-Ao trabalhar com um parceiro ExpressRoute da Microsoft, você pode conectar diversos aplicativos do Office 365 na nuvem, incluindo o Skype for Business Online, por meio de uma conexão dedicada. No entanto, os recursos de comunicação por voz e vídeo em tempo real do Skype for Business exigem serviços de rede configurados especificamente para oferecer suporte a essas cargas de trabalho em tempo real do Office 365. Isso inclui uma rede com largura de banda suficiente para transportar o volume de tráfego necessário e que pode dar suporte a Qualidade de Serviço (QoS) para oferecer uma experiência de classe empresarial aos usuários.
+Trabalhando com um parceiro do ExpressRoute da Microsoft, você pode conectar uma variedade de aplicativos do Microsoft 365 e do Office 365, incluindo o Skype for Business online na nuvem por meio de uma conexão dedicada. No entanto, os recursos de comunicação de voz e vídeo em tempo real para o Skype for Business exigem serviços de rede especificamente configurados para dar suporte a essas cargas de trabalho em tempo real do Microsoft 365 ou do Office 365. Isso inclui uma rede com largura de banda suficiente para transportar o volume de tráfego necessário e que pode dar suporte a Qualidade de Serviço (QoS) para oferecer uma experiência de classe empresarial aos usuários.
   
 Este documento foi elaborado para ajudar vocês, administradores e designers de rede, a compreender os desafios específicos necessários para dar suporte a comunicações em tempo real, as ferramentas fornecidas pela Microsoft para ajudar a criar uma rede capaz de suportar esses requisitos e orientar você pelo processo de design usando um estudo de caso. 
   
@@ -92,7 +92,7 @@ Para oferecer serviços em tempo real consistentes e de alta qualidade para a De
     
 Agora que cobrimos o básico, para oferecer serviços de voz de nível empresarial para a Dewey Law LLC., recomendamos o uso de serviço IP MPLS (Multi-Protocol Label Switching) de um parceiro de serviços de rede que se conecta ao serviço Azure ExpressRoute. O MPLS fornece ao serviço IP uma garantia de bom desempenho contra atraso, tremulação e perda de pacotes. No entanto, se o MPLS não estiver disponível, você também pode usar um cabo Ethernet conectado a um de nossos parceiros de troca de dados do ExpressRoute.
   
-Provedores de MPLS oferecem vários níveis de classe de serviço, mas cada um usa termos diferentes para identificá-los. Você precisará trabalhar em conjunto com seu provedor para garantir que ele entende os dados que você inseriu na [Calculadora de largura de banda do Lync 2010 e 2013](https://go.microsoft.com/fwlink/?LinkID=690282) e quais são as opções disponíveis e recomendadas para as diferentes aplicações de carga de trabalho em tempo real do Office 365.
+Provedores de MPLS oferecem vários níveis de classe de serviço, mas cada um usa termos diferentes para identificá-los. Você terá que trabalhar em conjunto com seu provedor para garantir que eles compreendam os dados que você inseriu na [calculadora de largura de banda do Lync 2010 e 2013](https://go.microsoft.com/fwlink/?LinkID=690282) e as opções disponíveis e são recomendados para os diferentes aplicativos de carga de trabalho em tempo real do Office 365 e do Office 365.
   
 Há duas opções para como os dados de aplicativos do Skype for Business podem ser mapeados para a classe de serviço correta do MPLS:
   
@@ -122,7 +122,7 @@ Isso também exige que as associações de prioridade de QoS na Camada 3 e Camad
 
 Depois de preparar os pré-requisitos de rede de QoS e os mecanismos necessários para dar suporte ao ExpressRoute, a próxima etapa é solicitar os serviços de acesso à rede do ExpressRoute. Ao solicitar serviços de acesso à rede do ExpressRoute para a Dewey Law LLC do provedor de serviços de rede parceiro da Microsoft, será necessário fornecer duas coisas:
   
-- A largura de banda total necessária para conectar cada local ao ExpressRoute e ao Office 365.
+- A quantidade total de largura de banda necessária para conectar cada site ao ExpressRoute e Microsoft 365 ou do Office 365.
     
 - A largura de banda total necessária para cada classe de serviço necessária para dar suporte aos aplicativos do Skype for Business que forem usados na Dewey Law LLC. Os requisitos de largura de banda para classe de serviço são definidos pelo volume de tráfego esperado para cada uma das várias aplicações do Skype for Business, como voz, vídeo, mensagens instantâneas, presença e compartilhamento de tela.
     
@@ -152,13 +152,13 @@ Definimos três personas para a Dewey Law LLC.: "Executivos/Parceiros", "Associa
   
 |**Pessoal**|**Mensagens Instantâneas/Presença**|**Áudio P2P**|**Vídeo P2P**|**Áudio da conferência**|**Vídeo da conferência**|**Compartilhamento da área de trabalho**|**Audioconferência**|**Lync 2010 RTV_Type**|**Usuários remotos**|**Lync 2013 áudio estéreo**|**Lync 2013 qualidade de vídeo**|**Lync 2013 comportamento dos usuários para janela de vídeo P2P**|**Lync 2013 Uso de Multi-view**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|Executivos/ Parceiros  <br/> |Alto  <br/> |Médio  <br/> |Baixo  <br/> |Média  <br/> |Média  <br/> |Nenhum  <br/> |Média  <br/> |CIF  <br/> |0%  <br/> |0%  <br/> |Melhor  <br/> |Típico  <br/> |Típico  <br/> |
+|Executivos/ Parceiros  <br/> |Alto  <br/> |Média  <br/> |Baixo  <br/> |Média  <br/> |Média  <br/> |Nenhum  <br/> |Média  <br/> |CIF  <br/> |0%  <br/> |0%  <br/> |Melhor  <br/> |Típico  <br/> |Típico  <br/> |
 |Associados/ Assistentes jurídicos  <br/> |Alto  <br/> |Média  <br/> |Baixo  <br/> |Média  <br/> |Alto  <br/> |Alto  <br/> |Média  <br/> |CIF  <br/> |0%  <br/> |0%  <br/> |Médio  <br/> |Típico  <br/> |Típico  <br/> |
 |Administradores de TI  <br/> |Alto  <br/> |Média  <br/> |Nenhum  <br/> |Baixo  <br/> |Nenhum  <br/> |Nenhum  <br/> |Média  <br/> |CIF  <br/> |0%  <br/> |0%  <br/> |Médio  <br/> |Típico  <br/> |Típico  <br/> |
    
 Será necessário digitar as informações na tabela **Distribuição de usuários por locais e posições** acima na planilha "Locais" da Calculadora de largura de banda do Lync 2010 e 2013. Como o número de usuários nos escritórios regionais é idêntico, eles são definidos para um "Local" e especificamos que existiam três instâncias dele. O mesmo foi feito para as filiais grandes e pequenas com 24 e 50 usuários no local, respectivamente.
   
-Depois de especificar as configurações de cada persona, será preciso inserir o número de usuários de cada persona em cada local na planilha "Locais". O número total de usuários em todos os locais é atualizado automaticamente. Como não há usuários no local do Office 365, todos devem ser inseridos nas linhas "Filiais" da planilha. A Calculadora de largura de banda do Lync 2010 e 2013 preenche as colunas "Classe de melhor esforço", "Classe de tráfego de dados" e "Classe de tráfego em tempo real " da tabela "WAN BW por classe de tráfego de QoS". Isso é mostrado nos dados da tabela abaixo.
+Depois de especificar as configurações de cada persona, será preciso inserir o número de usuários de cada persona em cada local na planilha "Locais". O número total de usuários em todos os locais é atualizado automaticamente. Como não há usuários no local do Microsoft 365 ou do Office 365, eles devem ser inseridos nas linhas ' ramificações ' da planilha. A Calculadora de largura de banda do Lync 2010 e 2013 preenche as colunas "Classe de melhor esforço", "Classe de tráfego de dados" e "Classe de tráfego em tempo real " da tabela "WAN BW por classe de tráfego de QoS". Isso é mostrado nos dados da tabela abaixo.
   
 > [!TIP]
 >  [!DICA] A planilha completa também inclui o número máximo de sessões simultâneas para cada aplicativo, mas excluímos essas colunas para economizar espaço.
@@ -211,7 +211,7 @@ Podemos calcular a largura de banda total que atravessará a WAN e a quantidade 
    
 Isso significa que o tráfego do Skype for Business Online que atravessará a rota expressa será de aproximadamente 114 Mbps, portanto Dewey precisará de pelo menos 200 Mbps de assinatura para o ExpressRoute. Vários circuitos do ExpressRoute podem ser comprados em diferentes locais de pareamento do ExpressRoute. Isso pode ser recomendável se os locais de Dewey estiverem em diferentes regiões geográficas ou para fornecer resiliência em caso de falha na conexão com o circuito do ExpressRoute. Se você adquirir os circuitos do ExpressRoute em várias regiões do Azure, o complemento ExpressRoute premium deverá receber conectividade global do ExpressRoute.
   
-Agora que você tem a quantidade total de largura de banda necessária e os números de largura de banda da classe de serviço (CoS), você poderá fazer as solicitações com o(s) provedor(es) de serviço de rede selecionado(s). Não se esqueça de incluir estimativas de tráfego para outros aplicativos e serviços. Oferecemos orientação sobre o planejamento de rede para outros serviços do Office 365, incluindo calculadoras de largura de banda para o Exchange e o OneDrive. A assinatura de largura de banda para o provedor de serviços de rede será mais alta porque o tráfego intra-site precisará ser adicionado novamente. A calculadora de largura de banda do Lync 2010 e 2013 fornece apenas uma estimativa do tráfego esperado, portanto, é recomendável confirmar a capacidade da rede em suportar esse volume de tráfego realizando um teste de estresse. 
+Agora que você tem a quantidade total de largura de banda necessária e os números de largura de banda da classe de serviço (CoS), você poderá fazer as solicitações com o(s) provedor(es) de serviço de rede selecionado(s). Não se esqueça de incluir estimativas de tráfego para outros aplicativos e serviços. Oferecemos diretrizes de planejamento de rede para outros serviços do Microsoft 365 e do Office 365, incluindo calculadoras de largura de banda para o Exchange e o OneDrive. A assinatura de largura de banda para o provedor de serviços de rede será mais alta porque o tráfego intra-site precisará ser adicionado novamente. A calculadora de largura de banda do Lync 2010 e 2013 fornece apenas uma estimativa do tráfego esperado, portanto, é recomendável confirmar a capacidade da rede em suportar esse volume de tráfego realizando um teste de estresse. 
   
 > [!TIP]
 > [!DICA] Testes de estresse são altamente recomendáveis ao realizar uma pré-avaliação da rede. 
@@ -224,7 +224,7 @@ O teste de estresse fornece alguma garantia de que a rede pode suportar o volume
 
 O serviço ExpressRoute da Microsoft fornece uma conexão dedicada à nuvem do Azure, mas os serviços de comunicação de cargas de trabalho em tempo real do Office 365 exigem serviços de rede com largura de banda suficiente para transportar o volume de tráfego e são capazes de oferecer suporte a QoS (Qualidade de Serviço) para proporcionar uma experiência do usuário de nível empresarial. Uma conexão com recursos de QoS deve ser configurada de ponta a ponta (PC, switches de rede e roteadores para a computação em nuvem), pois qualquer parte do caminho que não suportar QoS poderia afetar a qualidade da conversa inteira.
   
-O objetivo desta seção é ajudar você a entender os desafios para dar suporte ao tráfego em tempo real em uma rede IP e mostrar como configurar e oferecer suporte a uma implantação bem-sucedida do ExpressRoute com cargas de trabalho em tempo real do Office 365 usando um provedor de troca ExpressRoute da Microsoft ou um provedor de serviços de rede parceiro.
+A finalidade desta seção é ajudá-lo a entender os desafios ao oferecer suporte ao tráfego em tempo real em uma rede IP e configurar e dar suporte a uma implantação do ExpressRoute bem-sucedida de cargas de trabalho do Microsoft 365 ou do Office 365 em tempo real usando um provedor de serviços de rede do ExpressRoute Exchange ou um parceiro de provedor de serviços de rede da Microsoft.
   
 A QoS é aceita de suas redes exclusivamente por circuitos de rede ExpressRoute e é usada dentro da rede da Microsoft para o tráfego do Skype for Business. Hoje, partes de algumas conexões de saída da Microsoft têm valores de DSCP ausentes para o Skype for Business. Até o tráfego de saída ser totalmente marcado com valores de DSCP, é recomendável seguir as orientações para a adição de marcações de QoS ao tráfego no limite da sua rede, conforme descrito na seção **Como implementar QoS usando uma ACL (lista de controle de acesso) de rede** deste artigo.
   
@@ -234,7 +234,7 @@ Oferecer serviços de voz e vídeo com qualidade empresarial resulta em exigênc
   
 Sabendo o impacto da perda de pacotes de voz, os designers de rede chegaram a duas abordagens para melhorar o desempenho de voz e vídeo sobre IP:
   
-- Tornar a codificação/decodificação de voz mais resiliente quando os pacotes são perdidos. Isso pode ser feito usando a correção de erro antecipada (FEC) para corrigir uma porcentagem dos erros encontrados, que é um recurso encontrado no transporte em tempo real do Office 365, ou criando sistemas de decodificação de voz que tentam mascarar o efeito de pacotes perdidos, que é uma característica dos codecs da Microsoft. 
+- Tornar a codificação/decodificação de voz mais resiliente quando os pacotes são perdidos. Isso pode ser feito usando o recurso de correção de erro encaminhar (FEC) para corrigir uma porcentagem dos erros detectados, que é um recurso encontrado no Microsoft 365 ou o transporte em tempo real do Office 365 ou na criação de sistemas de decodificação de voz que tentam mascarar o efeito de pacotes perdidos, que é uma característica dos codecs da Microsoft. 
     
 - Use serviços de transporte que têm mecanismos de qualidade de serviço para garantir o desempenho da rede em relação a atrasos, perda de pacotes, tremulação e variação de atraso entre os pacotes.
     
@@ -392,7 +392,7 @@ Quando um pacote é enviado pela rede MPLS, o roteador de borda do provedor de s
   
 Além de simplificar o processo de encaminhamento, a outra vantagem do MPLS é que o sistema de gerenciamento de rede sabe quais conexões estão sendo transportadas por cada link da rede. Ao controlar a forma como tráfego é encaminhado pela rede, o operador pode garantir a QoS que cada caminho fornecerá. Assim, ao contrário do desempenho baseado no melhor esforço do IP tradicional ou básico, os operadores do MPLS podem fornecer um serviço IP com desempenho previsível. Esse LSP também faz do MPLS inerentemente mais seguro que os serviços de Internet tradicionais. Assim, com um serviço de IP básico, podemos esperar que a rede terá um desempenho bom o suficiente para oferecer uma boa qualidade de voz e usará técnicas como FEC e uma codificação de voz mais resiliente para aumentar as chances. A diferença é quemas, com o MPLS, podemos ter certeza disso.
   
-Provedores de MPLS oferecem vários gradientes de classe de serviço e, infelizmente usam termos diferentes para identificá-los. Você precisará trabalhar em conjunto com seu provedor para garantir que ele entende os resultados da [Calculadora de largura de banda do Lync 2010 e 2013](https://go.microsoft.com/fwlink/?LinkID=690282) e quais são as opções recomendadas para diferentes aplicações de carga de trabalho em tempo real do Office 365.
+Provedores de MPLS oferecem vários gradientes de classe de serviço e, infelizmente usam termos diferentes para identificá-los. Você terá que trabalhar em conjunto com seu provedor para garantir que eles compreendam as saídas da [calculadora de largura de banda do Lync 2010 e 2013](https://go.microsoft.com/fwlink/?LinkID=690282) e as opções recomendadas para os diferentes aplicativos de carga de trabalho em tempo real do Office 365 ou do Office 365.
   
 ## <a name="conclusion"></a>Conclusão
 

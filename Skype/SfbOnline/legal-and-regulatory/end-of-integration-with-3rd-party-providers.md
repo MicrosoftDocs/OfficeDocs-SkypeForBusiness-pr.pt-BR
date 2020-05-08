@@ -20,12 +20,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: Em 31 de julho de 2021, o programa de finalização da vida útil será concluído para a integração do Skype for Business com provedores de serviços de audioconferência de terceiros (ACP de terceiros).
-ms.openlocfilehash: 7ea6068d8715bd0df9e80041d70b8baf37abaf1b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 5b49bf573ad79cbdacbc538a0ef67faf1b2b634e
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41985026"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164450"
 ---
 # <a name="end-of-life-program-for-the-integration-of-skype-for-business-with-third-party-audio-conferencing-providers"></a>Programa de fim de vida útil para a integração do Skype for Business com provedores de serviços de audioconferência de terceiros 
 
@@ -59,7 +59,7 @@ Dependendo do estado final desejado de uma organização, há três caminhos que
 
 As organizações que decidem migrar para a conferência de áudio da Microsoft e concluir a migração antes de 31 de julho de 2021 não terão nenhum impacto sobre o serviço durante ou após essa data. A migração para a conferência de áudio da Microsoft apresentará as seguintes alterações em uma organização: 
 
-- O serviço será cobrado com todos os outros serviços do Office 365. 
+- O serviço será cobrado com todos os outros serviços do Microsoft 365 ou do Office 365. 
 
 - Se a assinatura padrão for comprada, o custo de discagem em tarifas será incluído no custo de assinatura mensal por usuário. 
 
@@ -73,13 +73,13 @@ As organizações que decidem migrar para a conferência de áudio da Microsoft 
 
 Migrar para o Microsoft Audio Conferencing é simples e pode ser feito em apenas algumas etapas após a aquisição das licenças do serviço. Para saber mais sobre como migrar para a conferência de áudio da Microsoft, consulte:
 
-- [Experimentar ou comprar audioconferência no Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+- [Experimentar ou comprar videoconferências no Microsoft 365 ou no Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
  
 **Resumo:**
 
 - As organizações que migram para a conferência de áudio da Microsoft e concluírem a migração antes de 31 de julho de 2021, não verão nenhum impacto para o serviço durante ou após essa data.
 
-- Para saber mais sobre como migrar para a conferência de áudio da Microsoft, consulte [experimentar ou comprar videoconferência no Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md). 
+- Para saber mais sobre como migrar para a conferência de áudio da Microsoft, consulte [experimentar ou comprar videoconferência no Microsoft 365 ou no Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md). 
 
 ### <a name="path-2-continue-to-separately-use-a-third-party-audio-conferencing-provider"></a>Caminho #2: continuar a usar separadamente um provedor de audioconferência de terceiros
 
@@ -91,7 +91,7 @@ Para impedir a fragmentação de áudio nas reuniões do Skype for Business com 
  
 Em termos de agendamento e em 31 de julho de 2021, as informações de discagem de um ACP de terceiros não serão mais incluídas automaticamente nos convites de reunião do Skype for Business. Os usuários precisarão adicionar manualmente as informações de discagem em seus convites de reunião do Skype for Business se quiserem continuar incluindo essas informações como parte de suas reuniões. 
 
-Observe que em 31 de julho de 2021, as reuniões existentes dos usuários não serão automaticamente reagendadas para remover qualquer informação de discagem de ACP de terceiros. As organizações que decidem manter o VoIP habilitado para as reuniões de seus usuários devem considerar a desabilitação da integração de ACP de terceiros para seus usuários e reagendar suas reuniões usando o serviço de migração de reunião para remover o áudio de terceiros informações de discagem de conferência a partir de suas reuniões existentes e impedir a fragmentação de áudio em reuniões já agendadas. 
+Observe que em 31 de julho de 2021, as reuniões existentes dos usuários não serão automaticamente reagendadas para remover qualquer informação de discagem de ACP de terceiros. As organizações que decidem manter o VoIP habilitado para as reuniões de seus usuários devem considerar a possibilidade de desabilitar a integração de ACP de terceiros para seus usuários e reagendar suas reuniões usando o serviço de migração de reunião para remover as informações de discagem de audioconferência de terceiros de suas reuniões existentes e impedir a fragmentação de áudio em reuniões já agendadas. 
 
 - Para desabilitar a integração de audioconferência de terceiros para um determinado organizador, use o cmdlet Remove-CsUserAcp. Para obter informações adicionais, consulte [Remove-CsUserAcp](https://docs.microsoft.com/powershell/module/skype/remove-csuseracp?view=skype-ps). 
 
@@ -105,7 +105,7 @@ Observe que em 31 de julho de 2021, as reuniões existentes dos usuários não s
 
     - Para desabilitar o VoIP de todas as reuniões de um determinado organizador, defina o parâmetro AllowIPAudio da política de conferência do usuário como falso por meio do cmdlet Set-CsConferencingPolicy. Para obter informações adicionais, consulte [set-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps).
  
-- Se uma organização não desabilitar o VoIP para todas as reuniões, é recomendável que os usuários sejam desabilitados usando a integração do Skype for Business online com um ACP terceirizado e reagende suas reuniões para remover as informações de discagem de ACP de terceiros para impedir a fragmentação de áudio.
+- Se uma organização não desabilitar o VoIP para todas as reuniões, recomendamos que os usuários sejam desabilitados usando a integração do Skype for Business online com um ACP de terceiros e reagende suas reuniões para remover as informações de discagem de ACP de terceiros para impedir a fragmentação de áudio.
 
     - Para desabilitar a integração de audioconferência de terceiros para um determinado organizador, use o cmdlet [Remove-CsUserAcp](https://docs.microsoft.com/powershell/module/skype/remove-csuseracp?view=skype-ps) . 
 

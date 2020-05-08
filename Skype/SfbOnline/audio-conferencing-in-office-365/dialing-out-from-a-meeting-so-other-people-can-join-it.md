@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Saiba o que você precisa e como os organizadores da reunião podem fazer chamadas para outras pessoas que usam o Skype for Business.
-ms.openlocfilehash: e69fa266b9e10091f0936baee45c140ba198661f
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c0bf11f3bd6a865bcd5dea107eedb8f2d5f5951f
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41982816"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164280"
 ---
 # <a name="dialing-out-from-a-skype-for-business-meeting-so-other-people-can-join-it"></a>Discando de uma reunião do Skype for Business para que outras pessoas possam participar dela
 
@@ -39,7 +39,7 @@ Como organizador da reunião, você pode discar usando o aplicativo Skype for Bu
     
 - Você como o organizador da reunião foi habilitado para videoconferências.
 
-Para adicionar outros participantes via discagem para as reuniões de sua organização, pelo menos um usuário autenticado da mesma organização que o organizador (sua organização) precisa estar presente na reunião para permitir a adição de outros participantes via discagem externa. 
+Para adicionar outros participantes via discagem para as reuniões da sua organização, pelo menos um usuário autenticado da mesma organização que o organizador (sua organização) precisa estar presente na reunião para permitir a adição de outros participantes via discagem externa. 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
@@ -58,7 +58,7 @@ O recurso de discagem externa só está disponível para alguns países/regiões
   
 ## <a name="want-to-know-more-about-audio-conferencing"></a>Quer saber mais sobre a conferência de áudio?
 
-[Experimentar ou comprar audioconferência no Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Experimentar ou comprar videoconferências no Microsoft 365 ou no Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
     
 - [Licenciamento do complemento Skype for Business](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
     

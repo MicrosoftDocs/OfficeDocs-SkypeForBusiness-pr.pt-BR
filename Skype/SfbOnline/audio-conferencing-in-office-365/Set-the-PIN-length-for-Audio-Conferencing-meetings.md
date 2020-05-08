@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Learn the parameters for the length and requirements of a PIN and see how to set the length for meetings in Skype for Business.
-ms.openlocfilehash: 9142c78c30c56702e2892d396b5688ee120cc83e
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 9e1be77b18c5b416d220ce5d7432562888ce5752
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41695806"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164530"
 ---
 # <a name="set-the-pin-length-for-audio-conferencing-meetings-in-skype-for-business-online"></a>Definir o comprimento do PIN para reuniões de conferência de áudio no Skype for Business Online
 
@@ -36,7 +36,7 @@ ms.locfileid: "41695806"
 
 Ao configurar a conferência de áudio para o Skype for Business, você receberá uma ponte de áudio de audioconferência. Uma ponte de conferência pode conter um ou mais números de telefone. O número de telefone que você define será incluído nos convites de reunião do aplicativo Skype for Business.
   
-A ponte de audioconferência atende a uma chamada para as pessoas que estão discando para uma reunião usando um telefone. Ele responde ao chamador com prompts de voz de um atendedor automático e, em seguida, dependendo das suas configurações, pode reproduzir notificações e pedir para os chamadores gravarem o nome. **As configurações de ponte da Microsoft** permitem que você altere as configurações de notificações de reunião e da experiência de junção de reunião e defina o comprimento dos Pins que são usados pelos organizadores da reunião. Os organizadores da reunião usam PINs para iniciar reuniões se não puderem ingressar na reunião usando o aplicativo Skype for Business.
+A ponte de audioconferência atende uma chamada feita por um usuário que discou para a reunião utilizando um telefone. Ele responde ao chamador com prompts de voz de um atendedor automático e, em seguida, dependendo das suas configurações, pode reproduzir notificações e pedir para os chamadores gravarem o nome. **As configurações de ponte da Microsoft** permitem que você altere as configurações de notificações de reunião e da experiência de junção de reunião e defina o comprimento dos Pins que são usados pelos organizadores da reunião. Os organizadores da reunião usam PINs para iniciar reuniões se não puderem ingressar na reunião usando o aplicativo Skype for Business.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
@@ -45,7 +45,7 @@ A ponte de audioconferência atende a uma chamada para as pessoas que estão dis
  
 1. No **centro de administração do Skype for Business**, no painel de navegação à esquerda, vá para **conferência** > de áudio**configurações da ponte da Microsoft**.
     
-2. Em **** > **tamanho do pino**de segurança, selecione o número de dígitos que você deseja para o PIN e clique em **salvar**.
+2. Em **Security** > **tamanho do pino**de segurança, selecione o número de dígitos que você deseja para o PIN e clique em **salvar**.
     
 > [!NOTE]
 > [!OBSERVAçãO] Um PIN é diferente de um ID de conferência. IDs de conferência são usados pelos chamadores quando eles participam da reunião. São usados para identificar a reunião. O PIN é usado para autenticar um chamador como organizador da reunião. 
@@ -64,11 +64,11 @@ A ponte de audioconferência atende a uma chamada para as pessoas que estão dis
     
 - Para definir o número de dígitos do PIN como 8:  `Set-CsOnlineDialInConferencingTenantSettings -PinLength 8`
     
-- O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com o Windows PowerShell, você pode gerenciar o Office 365 usando um ponto único de administração para simplificar seu trabalho diário quando houver várias tarefas a serem feitas. Para começar a usar o Windows PowerShell, consulte estes tópicos:
+- O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com o Windows PowerShell, você pode gerenciar o Microsoft 365 ou o Office 365 usando um único ponto de administração que pode simplificar seu trabalho diário quando você tiver várias tarefas para fazer. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
     
-  - [Por que você precisa usar o PowerShell do Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Por que você precisa usar o Microsoft 365 ou o Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-  - [Melhores maneiras de gerenciar o Office 365 com o Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Melhores maneiras de gerenciar o Microsoft 365 ou o Office 365 com o Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
 - O Windows PowerShell tem muitas vantagens em velocidade, simplicidade e produtividade apenas usando o centro de administração do Microsoft 365, como quando você está realizando alterações de configurações para muitos usuários de uma só vez. Saiba mais sobre essas vantagens nos seguintes tópicos: 
     
@@ -85,4 +85,4 @@ A ponte de audioconferência atende a uma chamada para as pessoas que estão dis
   
 ## <a name="see-also"></a>Confira também
 
-[Experimentar ou comprar audioconferência no Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Experimentar ou comprar videoconferências no Microsoft 365 ou no Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

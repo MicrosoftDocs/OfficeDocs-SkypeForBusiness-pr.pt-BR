@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: 'Resumo: os administradores do Skype for Business Server 2015 ou do Skype for Business Online podem usar essas tabelas para compreender quais recursos são compatíveis com os clientes.'
-ms.openlocfilehash: 2da6ed53ea70e6a3065b283456ccf028fd04ca6f
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 4d23a23b133366401d784d4e403b283af1967162
+ms.sourcegitcommit: 6e24ea8aa9cccf8a1a964c8ed414ef5c7de3dc17
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44041948"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44158918"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2015"></a>Comparação de recursos do cliente de desktop para o Skype for Business Server 2015
 
@@ -165,7 +165,7 @@ Para obter detalhes, consulte a [Descrição do serviço do Skype for Business o
 Esta tabela abrange os recursos relacionados ao suporte a serviços de voz.
   
 > [!NOTE]
-> Os recursos de voz do Skype for Business (telefonia) são limitados a determinados planos de assinatura do Skype for Business online. > para obter detalhes, consulte a [Descrição do serviço do Skype for Business online](https://technet.microsoft.com/library/jj822172.aspx).
+> Os recursos de voz do Skype for Business (telefonia) são limitados a determinados planos de assinatura do Skype for Business online. Para obter detalhes, consulte a [Descrição do serviço do Skype for Business online](https://technet.microsoft.com/library/jj822172.aspx).
   
 | Recurso/capacidade | Cliente do Skype for Business 2015 ou 2016 | Skype for Business no Mac | Cliente do Lync 2013 | Aplicativo Lync da Windows Store | Lync 2010 | Lync 2010 Attendant | Lync Phone Edition | Communicator para Mac 2011 | Lync para Mac 2011 |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
@@ -189,7 +189,8 @@ Esta tabela abrange os recursos relacionados ao suporte a serviços de voz.
 |Roteamento com base no local  |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;||&#x2714;|
 |Gerenciar grupo de resposta/grupo de chamada de equipe |&#x2714;||&#x2714;|||||||
 |Chamada de atendedor automático de resposta |&#x2714;||&#x2714;|||||||
- &#x2776; este recurso não está disponível no Skype for Business online.
+
+&#x2776; este recurso não está disponível no Skype for Business online.
   
 ## <a name="external-users-support"></a>Suporte a usuários externos
 
