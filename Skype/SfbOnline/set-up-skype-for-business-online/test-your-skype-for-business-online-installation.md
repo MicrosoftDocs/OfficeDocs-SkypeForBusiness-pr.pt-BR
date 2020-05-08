@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 'Learn to save time, support calls and increase satisfaction by setting up test accounts and computers, and testing dial-in conferencing, online features such as person-to-person calls, conferencing, and sign in and out. '
-ms.openlocfilehash: b8ebf8f82ad4706282d9feca5cdf21f27df90adb
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: fea4b04f51560b602687eff90ca6932ce5d1be8f
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692816"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164290"
 ---
 # <a name="test-your-skype-for-business-online-installation"></a>Testar a instalação do Skype for Business Online
 
@@ -32,7 +32,7 @@ Economize tempo, reduza as chamadas de suporte e melhore a satisfação do usuá
 
 Veja o que você precisa:
 
-- Pelo menos três contas do Office 365 (a sua e pelo menos mais duas).
+- Pelo menos três contas do Microsoft 365 ou do Office 365 (sua e pelo menos duas outras).
 
 - Um computador para cada conta de teste. Configure-os como os computadores típicos de sua organização.
 
@@ -51,7 +51,7 @@ Veja o que você precisa:
 ## <a name="set-up-test-accounts"></a>Configurar contas de teste
 <a name="__toc328126910"> </a>
 
-1. Vá para **administrador** > **Office 365** > **usuários e grupos**e, em seguida,![selecione](../images/328ffb57-5f31-430a-b653-4a6b8e76d338.png) adicionar e insira as informações necessárias.
+1. Vá para **administrador** > **Microsoft 365** ou **Office 365** > **usuários e grupos**e, em seguida,![selecione](../images/328ffb57-5f31-430a-b653-4a6b8e76d338.png) adicionar e insira as informações necessárias.
 
 2. Quando você chegar na Etapa 4 (Email), digite seu endereço de email. Assim, você terá um registro do novo nome de usuário e senha.
 
@@ -62,7 +62,7 @@ Veja o que você precisa:
 
 Em cada computador de teste:
 
-1. Vá para a home page do Office 365 e entre usando as credenciais de uma de suas contas de teste.
+1. Vá para a página inicial do Microsoft 365 ou do Office 365 e entre com as credenciais de uma das suas contas de teste.
 
 2. Vá para **Configurações**![Configurações: atualizar seu perfil, instalar software e conectá-lo à nuvem](../images/4b83e9cb-c7e4-46c8-b3d1-cfee017123ae.png) e clique em **Instale software e conecte-o à nuvem**.
 
@@ -114,7 +114,7 @@ Não consegue entrar? Veja [Como solucionar problemas de entrada no Skype for Bu
 |[Enviar uma mensagem instantânea no Skype for Business](https://support.office.com/article/b3aefb9b-dec8-4be8-a1ee-1eab12144d05) <br/> |A janela de conversa do Skype for Business é exibida, você escreve algo e recebe uma resposta da pessoa que contatou.  <br/> |
 |[Enviar uma mensagem instantânea no Skype for Business](https://support.office.com/article/b3aefb9b-dec8-4be8-a1ee-1eab12144d05) <br/> |A janela de conversa do Skype for Business é exibida, você digita algo e todos na conversa respondem.  <br/> |
 |[Pesquisar um contato usando seu nome ou sobrenome](https://support.office.live.com/article/29fa2061-f679-4e0d-902d-736b67774c8b#BKMK_ContactsFAQ) <br/> |Seus resultados da pesquisa começam a ser exibidos assim que você começa a digitar.  <br/> |
-|[Perguntas frequentes sobre o Lync para Office 365](https://support.office.com/article/29fa2061-f679-4e0d-902d-736b67774c8b.aspx#BKMK_ContactsFAQ) <br/> |O contato adicionado é exibido no grupo de Contatos escolhido.  <br/> |
+|[Perguntas frequentes sobre o Lync para Microsoft 365](https://support.office.com/article/29fa2061-f679-4e0d-902d-736b67774c8b.aspx#BKMK_ContactsFAQ) <br/> |O contato adicionado é exibido no grupo de Contatos escolhido.  <br/> |
 |[Alterar seu status de presença no Skype for Business (Lync)](https://support.office.com/article/ef8998cc-7801-4b62-81ba-9a2c1630f9e5) <br/> |Seu novo status de presença é refletido na lista de Contatos de outras pessoas.  <br/> |
 |[Usar o cartão de visita](https://support.office.com/article/19870880-FC90-46B0-9C60-C398518E9FBC) <br/> |O cartão de visita da pessoa é exibido próximo a seu nome.  <br/> |
 
