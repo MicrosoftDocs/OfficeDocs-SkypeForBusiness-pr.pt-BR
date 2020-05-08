@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: Use o Assistente do Teams (visualização pública) para ajudar a planejar e concluir a implantação do Microsoft Teams.
-ms.openlocfilehash: 1357829330f4d2ef7ad95e0eda1cebcbe8492756
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 79273c0c0d96bf5f7c52399310bffce433928e2b
+ms.sourcegitcommit: c3f44fccdbd9178d30b52bb0db6f6d31a6dd174b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042908"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44139194"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Use o Assistente do Teams para ajudá-lo na implantação do Microsoft Teams
 
@@ -65,6 +65,12 @@ Enquanto o Assistente do Teams está na visualização pública, fornecemos os d
     - Plano do Planner, incluindo tarefas de adoção
     - Pesquisa de usuário do Forms
     - Assistente para o bot do Teams
+1. Atualização do Skype for Business
+    - Avaliação do locatário
+    - Plano do Planner, incluindo tarefas de adoção
+    - Pesquisa de usuário do Forms
+    - Assistente para o bot do Teams
+    - Projetado para clientes que estão usando o Skype for Business Online ou o Skype for Business local, o plano de atualização do Skype for Business ajudará você a entender melhor sua jornada de atualização. Aproveitando uma estrutura comprovada de sucesso para implementar mudanças, o plano orientará você no processo passo a passo, esteja você começando a usar o Teams, já usando o Teams com o Skype for Business, ou estando pronto para a atualização.  O plano também conectará você às [diretrizes online e práticas recomendadas](https://aka.ms/SkypeToTeams), [ativos para download](https://aka.ms/UpgradeSuccessKit), [live 1: muitos workshops de planejamento](https://aka.ms/UpgradeWorkshops)e recursos adicionais para dar suporte ao seu sucesso.
 
 Recomendamos que você comece com o plano de Chat, equipes, canais e aplicativos. Quando terminar de implantar a carga de trabalho, volte ao Assistente do Teams e clique em **Adicionar canal** para iniciar a próxima carga de trabalho.
 
@@ -108,6 +114,9 @@ Além dos [Testes de avaliação de todas as cargas de trabalho](#assessment-tes
 |Licenças de Audioconferência    |Se você tiver uma assinatura ativa com licenças de Audioconferência. Esse é um pré-requisito se você estiver implantando pontes de Audioconferência. Consulta o Microsoft Graph para ver se você tem licenças de audioconferência (com pelo menos uma licença disponível para atribuir). Para obter mais informações, leia [Licenciamento do complemento do Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).    |
 |Licenças de Stream     |Se você tiver uma assinatura ativa com licenças do Microsoft Stream disponíveis. Esse é um pré-requisito se deseja habilitar a Gravação da Reunião. Consulte o Microsoft Graph para ver se você tem licenças do Microsoft Stream (com pelo menos uma licença disponível para atribuir). Para obter mais informações sobre o Stream e sobre como habilitá-lo, leia [Gravação de reuniões na nuvem do Teams](cloud-recording.md).
 
+### <a name="assessments-for-skype-for-business-upgrade"></a>Avaliações da atualização do Skype for Business
+Além de [Testes de avaliação de todas as cargas de trabalho](#assessment-tests-for-all-workloads), a atualização do Skype for Business também inclui avaliações usadas no plano de reuniões e conferências.
+
 ### <a name="advisor-for-teams-bot"></a>Assistente para o bot do Teams
 
 Depois que o Assistente do Teams a criar a equipe de Implantação, o bot do Assistente fornece a seguinte mensagem no canal Geral:
@@ -148,6 +157,9 @@ Sim, depois que o Assistente do Teams tiver criado a Equipe de implantação, vo
 ### <a name="can-i-modify-the-forms-survey"></a>Posso modificar a pesquisa do Forms?
 Sim, depois que o Assistente do Teams tiver criado a Equipe de implantação, você poderá modificar a pesquisa do Forms, conforme necessário.
 
+### <a name="are-there-any-differences-between-advisor-for-teams-in-gcc"></a>Existem diferenças entre o Assistente do Teams no GCC?
+Sim, os Formulários de pesquisa do usuário são criados, mas não são fixados nos canais do plano, pois o aplicativo Teams Forms não está disponível no momento.
+
 ### <a name="what-information-is-advisor-for-teams-collecting-about-my-organization"></a>Quais informações o Assistente do Teams está coletando sobre minha organização?
 O Assistente do Teams solicita o seu contrato para coletar informações não fazem parte da informações de identificação do usuário final (EUII). As informações coletadas estão na forma de telemetria que fornece comentários à Microsoft sobre a forma como o Assistente do Teams está impulsionando os resultados bem-sucedidos e onde talvez seja necessário melhorar o desempenho. Esses mesmos dados são usados para identificar oportunidades para a Microsoft se envolver proativamente com sua organização, podendo assim ajudar na implantação.
 
@@ -170,4 +182,4 @@ Vá para [Central de Ajuda do Forms](https://support.office.com/forms).
 [Práticas recomendadas para organizar equipes no Teams](best-practices-organizing.md)
 
 [Nomes de produtos e identificadores de plano de serviço para licenciamento](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-service-plan-reference
-) 
+)
