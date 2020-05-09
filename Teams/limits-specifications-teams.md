@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 28a77271c66dc473dfb774db2c02ca80bc842587
-ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
+ms.openlocfilehash: 73193c1979e2db3632f84e762b9c716ab46a7e56
+ms.sourcegitcommit: b5c747e2daad6dd3c1d91f4e61ae6f26db5c77f0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43950966"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44064416"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Limites e especificações para o Microsoft Teams
 
@@ -110,7 +110,7 @@ Os nomes de canal também não podem começar com um caractere de sublinhado (_)
 
 |Recurso     | Limite máximo |
 |------------|---------------|
-|Número de pessoas em uma reunião  | 250    |
+|Número de pessoas em uma reunião (podem conversar e telefonar)  | 250    |
 |O número de pessoas em uma chamada de áudio ou vídeo do chat | 20 |
 |Tamanho máximo do arquivo do PowerPoint | 2GB|
 |As equipes mantêm [gravações de reunião](cloud-recording.md) que não são carregadas no Microsoft Stream, disponíveis para download local | 20 dias |
@@ -131,7 +131,9 @@ Os nomes de canal também não podem começar com um caractere de sublinhado (_)
 |------------|---------------|
 |Tamanho da audiência | 10.000 participantes |
 |Duração do evento | 4 horas |
-|Eventos ao vivo simultâneos em uma organização no Office 365 | 15 |
+|Eventos ao vivo simultâneos em uma organização no Office 365 <sup>1</sup> | 15 |
+
+<sup>1</sup> Você pode agendar o número de eventos que desejar, mas é possível executar apenas 15 por vez. Assim que o produtor entra em um evento ao vivo, ele será considerado em andamento. O produtor que tentar se entrar no décimo-sexto evento ao vivo receberá uma mensagem de erro.
 
 Para saber mais sobre eventos ao vivo e uma comparação dos eventos ao vivo do Teams para a Transmissão de Reunião do Skype, vá para [Eventos ao vivo do Teams e Transmissão de Reunião do Skype](teams-live-events/plan-for-teams-live-events.md#teams-live-events-and-skype-meeting-broadcast).
 

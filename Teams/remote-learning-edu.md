@@ -18,19 +18,19 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d380300aa27d07ecfecdbe805be9042c88779285
-ms.sourcegitcommit: 3ef5c913318fdeeaa8c55caab07c2f8224eae2b0
+ms.openlocfilehash: c9a87acce75568716eb4c4cf2dac4ecb6c03959d
+ms.sourcegitcommit: c3f44fccdbd9178d30b52bb0db6f6d31a6dd174b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43898156"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44139234"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>Introdução ao Microsoft Teams para aprendizado remoto
 
 > [!NOTE]
-> Este artigo é um excelente recurso para a sua escola configurar um aprendizado remoto. Se você é um educador, líder de escola ou profissional de TI, esses recursos podem ajudar:
+> Este artigo é um excelente recurso para a sua instituição educacional configurar o aprendizado remoto. Se você é um educador, líder de escola ou profissional de TI, esses recursos podem ajudar:
 >
-> - Tenha acesso à toda a sua escola ou universidade rapidamente no Teams com a [**Introdução à um pager**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-for-education-getting-started-1-pager.pdf?raw=true).
+> - Tenha acesso à toda a sua escola ou universidade rapidamente no Teams com a [**Introdução ao pager**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-for-education-getting-started-1-pager.pdf?raw=true).
 > - Baixe [**Como começar a usar o Teams**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/Teams-for-Education-ITAdmin-get-started-guide.pptx?raw=true): um guia para profissionais de TI com práticas úteis ao gerenciamento de segurança e alterações.
 > - Uma coleção de artigos escritos para educadores incluindo orientação para os [**primeiros passos mais importantes para o ensino utilizando o Teams**](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114).
 > - Um curso online de 1 hora no Microsoft Educator Center mostra como os educadores usam o Teams em suas carreiras. [**Transforme o aprendizado com o Microsoft Teams**](https://education.microsoft.com/course/9c9f5c11/overview).
@@ -44,7 +44,7 @@ O aprendizado online pode ser tão pessoal, envolvente e socialmente conectado q
 
 O Microsoft Teams é um hub digital que reúne conversas, conteúdo, tarefas e aplicativos em um só lugar, permitindo que os educadores criem ambientes de aprendizagem vibrantes. Crie salas de aula colaborativas, conecte-se a comunidades de aprendizagem profissional e com os colegas, tudo em uma só experiência.
 
-Dentro do Teams, os educadores podem conversar rapidamente com os alunos, compartilhar arquivos e sites, criar um Bloco de Anotações de Classe do OneNote e distribuir e dar notas às tarefas. Os Blocos de Anotações de Classe integrados do OneNote e o gerenciamento de tarefas de ponta a ponta permitem que os educadores organizem lições interativas e forneçam feedback eficaz e oportuno. Os administradores e funcionários da escola podem ficar atualizados e colaborar usando o Teams para anúncios e conversas com assuntos de interesse. Os professores podem compartilhar materiais de ensino usando as Comunidades de Aprendizagem Profissional.
+Dentro do Teams, os educadores podem conversar rapidamente com os alunos, compartilhar arquivos e sites, criar um Bloco de Anotações de Classe do OneNote e distribuir e dar notas às tarefas. Os Blocos de Anotações de Classe integrados do OneNote e o gerenciamento de tarefas de ponta a ponta permitem que os educadores organizem lições interativas e forneçam feedback eficaz e oportuno. Os administradores e funcionários da escola podem ficar atualizados e colaborar usando o Teams para comunicados e conversas com assuntos de interesse. Os professores podem compartilhar materiais de ensino usando as Comunidades de Aprendizagem Profissional.
 
 Use as práticas recomendadas nesse artigo para começar a usar o Microsoft Teams para suas necessidades educacionais e habilitar os recursos de aprendizado remoto. As equipes de classe podem ser usadas para criar espaços de classe colaborativos, fornecer uma plataforma de reunião virtual, facilitar a aprendizagem com tarefas e comentários e realizar chamadas dinâmicas com os alunos.
 
@@ -78,9 +78,12 @@ Para obter instruções sobre como criar no Teams, confira: [criar uma equipe de
 ### <a name="2-configure-user-experiences-using-policies"></a>2. Configurar experiências de usuário usando políticas
 
 > [!IMPORTANT]
-> Se precisar aprender mais sobre como proteger os alunos durante as reuniões, confira a seção [Como manter os alunos seguros ao usar reuniões no Teams para aprendizado à distância](https://support.office.com/article/f00fa399-0473-4d31-ab72-644c137e11c8).
+> Se precisar aprender mais sobre como proteger os alunos durante as reuniões, confira a seção [Como manter os alunos seguros ao usar reuniões no Teams para aprendizado à distância](https://support.office.com/article/f00fa399-0473-4d31-ab72-644c137e11c8). Se quiser se aprofundar em nossas recomendações de política para Administradores EDU, acesse [Políticas do Teams e Pacotes de Políticas para Educação](policy-packages-edu.md).
 
 [As políticas do Teams](teams-policies.md) oferecem a capacidade de controlar as opções disponíveis para usuários específicos ou grupos de usuários. As políticas podem ser aplicadas para definir quem deve ter permissão para usar o chat privado, chamadas particulares, agendamento de reuniões, tipos de conteúdo que podem ser compartilhados e muito mais.
+
+> [!IMPORTANT]
+> Nossas orientações mais atualizadas sobre as políticas para estudantes e professores podem ser encontradas em [Políticas do Teams e Pacotes de Política do Education](policy-packages-edu.md).
 
 **A equipe de ensino superior, professores e estudantes** se beneficiam dos recursos incluídos nas políticas padrão (globais). Algumas configurações adicionais de política podem ser habilitadas para adicionar mais funcionalidade ao Microsoft Teams, incluindo o [habilitar recursos de tradução na política de mensagens](messaging-policies-in-teams.md#messaging-policy-settings) e [permitir a transcrição automática da reunião](meeting-policies-in-teams.md#allow-transcription) na política de reunião.
 
@@ -88,41 +91,6 @@ Talvez seja necessário restringir os recursos fornecidos aos **estudantes de en
 
 > [!IMPORTANT]
 > Para atender às políticas atribuídas a qualquer usuário, recomendamos definir a configuração "Admitir pessoas automaticamente" para "Todos em sua organização". Essa configuração garantirá que usuários não autenticados sejam admitidos do lobby antes que possam participar de reuniões do Teams. Para mais informações, confira [Gerenciar políticas de reunião no Teams](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#automatically-admit-people).
-
-Este é um conjunto de configurações de política comum não padrão que podem ser atribuídas aos estudantes de ensino básico e fundamental a fim de limitar a comunicação sem supervisão entre os alunos:
-
-#### <a name="messaging-policy"></a>Políticas de mensagens
-
-- Excluir as mensagens enviadas definidas como ''Desativado''
-- Editar as mensagens enviadas definidas como ''Desativado''
-- Classificação de conteúdo Giphy definido como "estrito"
-- Traduzir as mensagens definido como "ligado"
-- Enviar mensagens urgentes usando as notificações de prioridade definido como "desligado"
-- Remover usuários de conversas de grupo definidas como "desligado"
-
-#### <a name="meeting-policy"></a>Políticas de reunião
-
-- Permitir Reunir agora nos canais definido como "desligado"
-- Permitir o suplemento do Outlook definido como "desligado"
-- Permitir o agendamento de reunião do canal definido como "desligado"
-- Permitir o agendamento de reuniões particulares definido como "desativado"
-- Permitir Reunir agora em reuniões particulares definido como "desativado"
-- Opcional: Permitir vídeos IP "ativado"
-
-> [!NOTE]
-> Isso permite que os educadores possam ver os vídeos dos alunos em tempo real.
-
-#### <a name="live-events-policy"></a>Políticas de eventos ao vivo
-
-- Permitir o agendamento definido como "desligado"
-
-#### <a name="calling-policy"></a>Políticas de chamada
-
-- Fazer chamadas privadas definido como "desligado"
-
-#### <a name="teams-policy"></a>Políticas do Teams
-
-- Criar canais privados definido como "desligado"
 
 **Os professores e funcionários do ensino básico** devem receber políticas que concedam os principais recurso que podem ser restritos aos alunos. Crie novas políticas que permitem o agendamento de reuniões e o chat privado (as configurações padrão para uma nova política). [Atribua essas políticas em massa à sua equipe e educadores por meio da atribuição de política de lote](batch-policy-assignment-edu.md).
 
@@ -132,14 +100,14 @@ Este é um conjunto de configurações de política comum não padrão que podem
 
 O Microsoft Teams para Educação oferece [tipos de equipes específicos](https://support.office.com/article/choose-a-team-type-to-collaborate-in-microsoft-teams-0a971053-d640-4555-9fd7-f785c2b99e67) para uso educacional. O [Tipo de equipe de classe](https://support.office.com/article/create-a-class-team-in-microsoft-teams-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b) foi projetado para as salas de aula com recursos específicos, incluindo: atribuições, um bloco de anotações do OneNote na sala de aula, uma [pasta de materiais da classe](https://support.office.com/article/Use-folders-to-create-read-only-files-for-students-or-other-team-members-0e7791d7-8c9c-4749-9bca-984289477988) para proteger o conteúdo somente leitura para estudantes e a capacidade de ativar o mudo para alunos que atrapalham. Há algumas maneiras de implantar as equipes de classe:
 
-1. O recurso [SDS (School Data Sync)](https://sds.microsoft.com/) pode ser **configurado pela TI**, permitindo que as equipes de classe sejam criadas para todas as classes com base nas informações do sistema de informações da escola. Este processo provisiona os grupos de cada seção e mantém as suas listas de instrutores e alunos sincronizadas conforme as inscrições mudam. Os professores podem converter esses grupos em equipes de classe [usando este processo](https://support.office.com/article/create-a-class-team-in-microsoft-teams-preview-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b). Depois de criar uma equipe de classe, os [Educadores têm a capacidade de preparar a equipe](https://support.office.com/article/activate-early-access-class-teams-created-with-school-data-sync-0d154696-66ab-4fcf-b22f-c3d9a82aaf78) antes de admitir alunos. O SDS tem suporte para mais de 80 diferentes sistemas de informações escolares (sistemas SIS) para importação de dados, e a [equipe de suporte do SDS](https://aka.ms/SDSSupport) está pronta para ajudar você com o planejamento e configuração. Você também pode visualizar o nosso [Guia de Implantação Rápida para Aprendizado Remoto](https://docs.microsoft.com/SchoolDataSync/fast-deployment-guidance) para começar rapidamente.
+1. O recurso [School Data Sync (SDS)](https://sds.microsoft.com/) pode ser **configurado por TI**, permitindo que as equipes de classe sejam criadas para todas as classes com base nas informações do sistema de informações da escola. Este processo provisiona os grupos de cada seção e mantém as suas listas de instrutores e alunos sincronizadas conforme as inscrições mudam. Os professores podem converter esses grupos em equipes de classe [usando este processo](https://support.office.com/article/create-a-class-team-in-microsoft-teams-preview-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b). Depois de criar uma equipe de classe, os [Educadores têm a capacidade de preparar a equipe](https://support.office.com/article/activate-early-access-class-teams-created-with-school-data-sync-0d154696-66ab-4fcf-b22f-c3d9a82aaf78) antes de admitir alunos. O SDS tem suporte para mais de 80 diferentes sistemas de informações escolares (sistemas SIS) para importação de dados, e a [equipe de suporte do SDS](https://aka.ms/SDSSupport) está pronta para ajudar você com o planejamento e configuração. Você também pode visualizar o nosso [Guia de Implantação Rápida para Aprendizado Remoto](https://docs.microsoft.com/SchoolDataSync/fast-deployment-guidance) para começar rapidamente.
 1. Os **professores configuram** seu próprio tipo de classe da equipe e convidam os alunos. Os Professores podem fazer isso ao [adicionar alunos à equipe](https://support.office.com/article/add-a-student-to-a-class-team-b88263bb-ace1-4702-8a48-f8a2cf4af954), ao [compartilhar um código de ingresso](https://support.office.com/article/create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f) ou ao [compartilhar um link para a equipe](https://support.office.com/article/create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f). Se possível, é melhor que os professores adicionem seus alunos à equipe para garantir que eles tenham acesso e sejam notificados de que foram adicionados a uma equipe.
 
 Após a configuração da equipe, os proprietários da equipe podem [personalizar as configurações da equipe](https://support.office.com/article/find-your-class-team-s-settings-in-microsoft-teams-2592d4de-581d-4952-9028-02317880c158), incluindo adicionar uma [imagem da equipe](https://support.office.com/article/change-your-team-picture-02ea2af6-b49d-4de8-9551-1a5e472993c0), [criar canais](https://support.office.com/article/create-student-project-groups-channels-in-microsoft-teams-f85b3c07-fb87-4b94-883b-9be55f4b1e45) para assuntos das aulas ou áreas de colaboração em grupo, [adicionar um aplicativo](https://support.office.com/article/add-an-app-to-teams-b2217706-f7ed-4e64-8e96-c413afd02f77) como Quizlet/Flipgrid/Kahoot para exibir o conteúdo educacional existente e [mencionar a equipe na primeira postagem](https://support.office.com/article/using-the-conversation-tab-in-microsoft-teams-53d1c530-3797-4a6f-9892-6760f8763df2) para notificar todos e iniciar a conversa.
 
 ### <a name="create-staff-teams-for-staff-communication-and-collaboration"></a>Criar a equipes de funcionários para comunicação e colaboração dos funcionários
 
-As [equipes de tipo funcionários](https://support.office.com/article/create-a-staff-team-in-microsoft-teams-314ac9d5-36a9-408e-8ae4-7ef20e9f1ddf) foram projetadas para que os administradores e funcionários da escola compartilhem informações e trabalhem em conjunto em iniciativas de toda a escola, incluindo a elaboração de comunicados, marcações de reuniões, compartilhamento de conteúdo e a disponibilização de aplicativos externos, como [Planner para o acompanhamento de tarefas](https://support.office.com/article/create-a-plan-with-planner-d000976a-7490-4ddf-b9af-09ee764891e2). Os administradores da escola podem adicionar membros da equipe escolar à equipe por meio do assistente de criação de equipe, [adicionar membros após a criação da equipe](https://support.office.com/article/add-members-to-a-team-in-teams-aff2249d-b456-4bc3-81e7-52327b6b38e9) ou ao [compartilhar um código de ingresso ou um link para a equipe](https://support.office.com/article/create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f). [Criar canais](https://support.office.com/article/create-a-channel-in-teams-fda0b75e-5b90-4fb8-8857-7e102b014525) é uma ótima maneira de organizar conversas e arquivos por fluxo de trabalho ou assunto. [O guia de introduções para proprietários de equipes](https://support.office.com/article/go-to-guide-for-team-owners-75f9669b-bd8f-457d-b60b-ac2ac9c8ead4) é um local excelente para saber mais sobre os recursos e as funções do proprietário da equipe.
+As [equipes por tipo funcionários](https://support.office.com/article/create-a-staff-team-in-microsoft-teams-314ac9d5-36a9-408e-8ae4-7ef20e9f1ddf) foram projetadas para que os administradores e funcionários da escola compartilhem informações e trabalhem em conjunto em iniciativas de toda a escola, incluindo a elaboração de comunicados, marcações de reuniões, compartilhamento de conteúdo e a disponibilização de aplicativos externos, como [Planner para o acompanhamento de tarefas](https://support.office.com/article/create-a-plan-with-planner-d000976a-7490-4ddf-b9af-09ee764891e2). Os administradores da escola podem adicionar membros da equipe escolar à equipe por meio do assistente de criação de equipe, [adicionar membros após a criação da equipe](https://support.office.com/article/add-members-to-a-team-in-teams-aff2249d-b456-4bc3-81e7-52327b6b38e9) ou ao [compartilhar um código de ingresso ou um link para a equipe](https://support.office.com/article/create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f). [Criar canais](https://support.office.com/article/create-a-channel-in-teams-fda0b75e-5b90-4fb8-8857-7e102b014525) é uma ótima maneira de organizar conversas e arquivos por fluxo de trabalho ou assunto. [O guia de introduções para proprietários de equipes](https://support.office.com/article/go-to-guide-for-team-owners-75f9669b-bd8f-457d-b60b-ac2ac9c8ead4) é um local excelente para saber mais sobre os recursos e as funções do proprietário da equipe.
 
 ## <a name="teams-meeting-scenarios"></a>Cenários de reuniões no Teams
 
@@ -164,7 +132,7 @@ Você pode saber mais sobre como o Microsoft Teams é usado na educação em: [M
 
 O Teams respeita a configuração da [Política de caixa de correio do Outlook na Web](https://docs.microsoft.com/powershell/module/exchange/client-access/set-owamailboxpolicy) configurada pelos administradores de locatários para controlar se os usuários podem alterar a imagem de perfil. Se a configuração **-SetPhotoEnabled** estiver desativada, os usuários não poderão adicionar, alterar ou remover sua imagem de perfil. Para impedir que alunos ou funcionários alterem ou removam suas fotos de perfil, desative essa configuração na política de caixa de correio do Outlook na Web atribuída a eles.
 
-Por exemplo, se um aluno carregar uma foto de perfil aprovada pelo departamento de TI ou RH da escola, nenhuma ação será necessária. No entanto, se um aluno carregar uma foto inadequada, altere-a de acordo com as políticas internas da sua escola.  
+Por exemplo, se um aluno carregar uma foto de perfil aprovada pelo departamento de TI ou RH da escola, nenhuma ação será necessária. No entanto, se um aluno carregar uma foto inadequada, altere-a de acordo com as políticas internas da sua escola.
 
 ## <a name="adoption-content"></a>Conteúdo de adoção
 
