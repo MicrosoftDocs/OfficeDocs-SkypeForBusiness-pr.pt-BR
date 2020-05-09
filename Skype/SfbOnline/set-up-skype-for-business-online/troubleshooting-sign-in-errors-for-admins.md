@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 'Aprenda causas comuns para erros de sinal do Skype for Business Online e trabalhe na solução de problemas. '
-ms.openlocfilehash: 881bb6e41b4b22fe71caeb701ac10d1696147d4b
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: ae5c2e5eb85ea7afb3033e7e6b769a607ab86601
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43777146"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164320"
 ---
 # <a name="troubleshooting-skype-for-business-online-sign-in-errors-for-administrators"></a>Solucionando erros de entrada no Skype for Business Online para administradores
 
@@ -128,7 +128,7 @@ Se a sua organização tiver um domínio personalizado, este procedimento será 
 
   - **Valor/Destino**: sipdir.online.lync.com
 
-Para obter detalhes, consulte o artigo 2566790 da Base de Dados de Conhecimento da Microsoft, [Solucionando problemas de configuração do DNS do Skype for Business Online no Office 365.](https://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=2566790)
+Para obter detalhes, consulte o artigo 2566790 da Base de Dados de Conhecimento da Microsoft, [Solucionando problemas de configuração do DNS do Skype for Business Online no Microsoft 365 ou Office 365](https://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=2566790).
 
 ### <a name="install-a-third-party-ssl-certificate-on-your-adfs-server"></a>Instalar um certificado SSL de terceiros no seu servidor ADFS
 <a name="verify-upn-and"> </a>

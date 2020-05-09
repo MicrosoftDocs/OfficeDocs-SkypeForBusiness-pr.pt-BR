@@ -19,18 +19,17 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 30599b73447e9b5ab9873c6cd48372d997def5d1
-ms.sourcegitcommit: 3ef5c913318fdeeaa8c55caab07c2f8224eae2b0
+ms.openlocfilehash: 6571da01408893423ae6672dccd80ba65a55cbaf
+ms.sourcegitcommit: 6e24ea8aa9cccf8a1a964c8ed414ef5c7de3dc17
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43898116"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44158968"
 ---
+# <a name="security-and-microsoft-teams"></a>Segurança e Microsoft Teams
+
 > [!IMPORTANT]
 > O modelo de serviço do Teams está sujeito a alterações para melhorar a experiência do cliente. Por exemplo, o acesso padrão ou os tempos de expiração do token de atualização podem estar sujeitos a modificações para melhorar a resiliência de desempenho e autenticação para as pessoas que usam o Teams. Quaisquer alterações são feitas com a meta de manter o Teams seguro e confiável por padrão.
-<p>
-
-# <a name="security-and-microsoft-teams"></a>Segurança e Microsoft Teams
 
 Microsoft Teams, como parte do serviço do Office 365 (M365), segue todas as práticas recomendadas e os procedimentos de segurança, como segurança de nível de serviço, defesa profunda, controles do cliente dentro do serviço, aumento da segurança e melhores práticas operacionais. Para obter todos os detalhes, consulte a [Central de Confiabilidade da Microsoft](https://microsoft.com/trustcenter).
 
@@ -98,7 +97,7 @@ Esta seção oferece uma visão geral dos elementos fundamentais que compõem a 
 
 Os principais elementos são:
 
-- O Active Directory do Azure (AAD), que fornece um único repositório de back-end confiável para contas de usuários. As informações do perfil de usuário são armazenadas no AAD pelas ações do Microsoft Graph.
+- O Active Directory do Azure (Azure AD) que fornece um único repositório de back-end confiável às contas dos usuários. As informações de perfil do usuário são armazenadas no Azure AD pelas ações do Microsoft Graph.
   - Lembre-se de que pode haver vários tokens emitidos, que pode ser visto se rastrear o tráfego de rede. Skype que você pode ver em rastreamentos ao olhar o tráfego de áudio e de chat.
 - O protocolo TLS (Transport Layer Security) e o TLS (MTLS) mútuo que criptografam o tráfego de mensagens instantâneas e permitem a autenticação do ponto de extremidade. Os fluxos de áudio e vídeo ponto a ponto e de compartilhamento de aplicativos são criptografados e a integridade verificada utilizando protocolo SRTP). Você também pode ver o tráfego OAuth em seu rastreamento, principalmente em relação à negociação de permissões durante a mudança entre as guias no Teams, por exemplo, para mover-se de postagens para arquivos. Para obter um exemplo do fluxo OAuth para guias, [consulte este documento](https://docs.microsoft.com/microsoftteams/platform/tabs/how-to/authentication/auth-flow-tab).
 - O Teams usa protocolos padrão do setor para autenticação de usuário, sempre que possível.
@@ -160,7 +159,7 @@ O Teams usa algoritmos compatíveis com FIPS (Federal Information Processing Sta
 
 ### <a name="user-and-client-authentication"></a>Autenticação do usuário e do cliente
 
-Um usuário confiável é um com as credenciais autenticadas pelo AAD no Office 365/Microsoft 365.
+Um usuário confiável é aquele cujas credenciais foram autenticadas pelo Azure AD no Office 365 / Microsoft 365.
 
 Autenticação é o provisionamento de credenciais de usuário em um servidor ou serviço confiável. O Teams usa os seguintes protocolos de autenticação, dependendo do status e da localização do usuário.
 
@@ -169,11 +168,11 @@ Autenticação é o provisionamento de credenciais de usuário em um servidor ou
 > [!NOTE]
 > Se você precisar revisar a autenticação e os métodos de autorização do Azure AD, a introdução desse artigo e a sessão “Noções básicas de autenticação no Azure AD”.
 
-A autenticação do Teams é realizada por meio de AAD e OAuth. O processo de autenticação pode ser simplificado para:
+A autenticação do Teams é realizada pelo Azure AD e pelo OAuth. O processo de autenticação pode ser simplificado para:
 
 - Logon de usuário > Emissão de token > Solicitação posterior usa o token emitido.
 
-As solicitações do cliente ao servidor são autenticadas e autorizadas por meio do AAD com o uso do OAuth. Os usuários com credenciais válidas emitidas por um parceiro federado são confiáveis e passam pelo mesmo processo de usuários nativos. No entanto, outras restrições podem ser colocadas no local por administradores.
+As solicitações do cliente ao servidor são autenticadas e autorizadas pelo Azure AD com o uso do OAuth. Os usuários com credenciais válidas emitidas por um parceiro federado são confiáveis e passam pelo mesmo processo de usuários nativos. No entanto, outras restrições podem ser colocadas no local por administradores.
 
 Para autenticação de mídia, os protocolos ICE e TURN também utilizam o mecanismo do desafio Digest, conforme descrito no IETF TURN RFC.
 
@@ -203,28 +202,28 @@ Essas são as duas opções para controlar quem chega nas reuniões do Teams e q
 
 1. Você pode controlar quem entra em suas reuniões nas configurações de **lobby**.</p>
 
-|As opções de configuração "Quem pode ignorar o lobby" disponíveis na página Opções de reunião   |Os tipos de usuário ingressam diretamente na reunião  |Tipos de usuário indo para o lobby   |
-|---------|---------|---------|
-|Pessoas da minha organização     |  - No locatário  </br>- Convidado do locatário         |  - Federado</br>  - Anônimo</br>  - Discagem PSTN</br>     |
-|Pessoas da minha organização e organizações confiáveis      |  - No locatário</br> - Convidado do locatário</br> - Federado</br>        |  - Anônimo</br>  - Discagem PSTN</br>      |
-|Todos      |   - No locatário</br>  - Convidado do locatário</br>  - Federado anônimo</br>  - Discagem PSTN</br>       |         |
+    |As opções de configuração "Quem pode ignorar o lobby" disponíveis na página Opções de reunião   |Os tipos de usuário ingressam diretamente na reunião  |Tipos de usuário indo para o lobby   |
+    |---------|---------|---------|
+    |Pessoas da minha organização     |  - No locatário  </br>- Convidado do locatário         |  - Federado</br>  - Anônimo</br>  - Discagem PSTN</br>     |
+    |Pessoas da minha organização e organizações confiáveis      |  - No locatário</br> - Convidado do locatário</br> - Federado</br>        |  - Anônimo</br>  - Discagem PSTN</br>      |
+    |Todos      |   - No locatário</br>  - Convidado do locatário</br>  - Federado anônimo</br>  - Discagem PSTN</br>       |         |
 
 2. A segunda forma é por meio de **reuniões estruturadas** (onde os apresentadores podem fazer isso em relação a tudo o que deve ser feito e os participantes têm uma experiência controlada). Depois de ingressar em uma reunião estruturada, os apresentadores controlam o que os participantes podem fazer na reunião. </p>
 
-|Ações  |Apresentadores  |Participantes  |
-|---------|---------|---------|
-|Falar e compartilhar seus vídeos     |   Y      |   Y      |
-|Participar do chat da reunião     |   Y    |    Y     |
-|Alterar as configurações das opções de reunião     |   Y      |  N       |
-|Ativar mudo de outros participantes| Y | N |
-|Remover outros participantes      |  Y       |   N      |
-|Compartilhar conteúdo     |     Y    |     N    |
-|Admitir outros participantes do lobby|  Y       |   N      |
-|Tornar outros participantes apresentadores ou participantes     |   Y      | N        |
-|Iniciar ou parar gravação      |     Y    |    N     |
-|Assumir o controle quando outro participante compartilhar um PowerPoint     |  Y         | N        |
+    |Ações  |Apresentadores  |Participantes  |
+    |---------|---------|---------|
+    |Falar e compartilhar seus vídeos     |   Y      |   Y      |
+    |Participar do chat da reunião     |   Y    |    Y     |
+    |Alterar as configurações das opções de reunião     |   Y      |  N       |
+    |Ativar mudo de outros participantes| Y | N |
+    |Remover outros participantes      |  Y       |   N      |
+    |Compartilhar conteúdo     |     Y    |     N    |
+    |Admitir outros participantes do lobby|  Y       |   N      |
+    |Tornar outros participantes apresentadores ou participantes     |   Y      | N        |
+    |Iniciar ou parar gravação      |     Y    |    N     |
+    |Assumir o controle quando outro participante compartilhar um PowerPoint     |  Y         | N        |
 
-O Teams oferece aos usuários corporativos a capacidade de criar e ingressar em reuniões em tempo real. Usuários corporativos também podem convidar usuários externos que não tenham uma conta AAD/Office 365 para participar dessas reuniões. Usuários empregados por parceiros externos com uma identidade segura e autenticada também podem ingressar em reuniões e podem atuar como apresentadores se forem promovidos para tal atividade. Os usuários anônimos não podem criar ou entrar em uma reunião como um apresentador, mas eles podem ser promovidos para o apresentador após entrarem.
+O Teams oferece aos usuários corporativos a capacidade de criar e ingressar em reuniões em tempo real. Os usuários corporativos também podem convidar usuários externos que não possuem uma conta do Azure AD/Office 365 para participar dessas reuniões. Usuários empregados por parceiros externos com uma identidade segura e autenticada também podem ingressar em reuniões e podem atuar como apresentadores se forem promovidos para tal atividade. Os usuários anônimos não podem criar ou entrar em uma reunião como um apresentador, mas eles podem ser promovidos para o apresentador após entrarem.
 
 Para que os usuários anônimos possam participar de reuniões do Teams, a configuração reuniões dos participantes no centro de administração de Teams deve ser ativada.
 
@@ -238,8 +237,8 @@ Habilitar os usuários externos a participar de reuniões do Teams pode ser muit
 - Agendar reuniões é restrito a usuários que têm uma conta do AAD e uma licença do Teams.
 - Os usuários anônimos não autenticados que desejem ingressar em uma conferência de discagem discam um dos números de acesso de conferência. Se a configuração "Sempre permitir que os chamadores ignore o lobby" está *Ativada*, eles também deverão esperar até que um apresentador ou usuário autenticado participe da reunião.
 
-> [!CAUTION]
-> Se você não quiser que usuários Anônimos (usuários não convidados explicitamente) ingressem em uma reunião, você precisará garantir que **Usuários anônimos podem participar de uma reunião** esteja definido como **Desativado** na seção de **Participantes** da reunião.
+  > [!CAUTION]
+  > Se você não quiser que usuários Anônimos (usuários não convidados explicitamente) ingressem em uma reunião, você precisará garantir que **Usuários anônimos podem participar de uma reunião** esteja definido como **Desativado** na seção de **Participantes** da reunião.
 
 Também é possível que um organizador defina as configurações para permitir que os chamadores de discagem sejam a primeira pessoa de uma reunião. Essa configuração é definida nas configurações de videoconferência para os usuários e se aplica a todas as reuniões agendadas pelo usuário.
 
