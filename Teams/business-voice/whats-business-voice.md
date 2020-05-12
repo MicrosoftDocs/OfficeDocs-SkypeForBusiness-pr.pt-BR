@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Visão geral do Microsoft 365 Business Voice e como ele pode ajudar pequenas e médias empresas a se comunicarem com mais eficiência.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bffce01704402aac8fea90aee92d6bd854c5874f
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 828d05e68e84145868f4e58156fbe86ec8f14912
+ms.sourcegitcommit: 42b9b921d28cb02f537f0598653835193eb3f42f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780790"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44170672"
 ---
 # <a name="what-is-microsoft-365-business-voice"></a>O que é o Microsoft 365 Business Voice?
 
@@ -32,15 +32,19 @@ O Business Voice faz tudo isso agrupando os recursos do Microsoft 365 Phone Syst
 
 O Business Voice é ideal para você se sua organização tiver 300 ou menos pessoas e você tiver uma das seguintes assinaturas do Microsoft 365:
 
-* Microsoft 365 Business Basic
-* Microsoft 365 Business Standard
-* Office 365 E1
-* Office 365 E3
-* Office 365 F1
-* Microsoft 365 A1
-* Microsoft 365 A3
-* Microsoft 365 E3
-* Microsoft 365 Business
+- Microsoft 365 Business Basic
+- Microsoft 365 Business Standard
+- Microsoft 365 Business Premium
+- Microsoft Apps para pequenos e médios negócios 
+- Microsoft Apps para grandes empresas
+- Microsoft 365 F1
+- Office 365 F1
+- Microsoft e Office 365 Enterprise E1, E3 ou E5
+- Microsoft 365 e Office 365 Education A1, A3 ou A5
+- Microsoft 365 e Office 365 Government G1, G3 ou G5 (GCC apenas)
+- Microsoft 365 Basic para entidades sem fins lucrativos
+- Microsoft 365 Standard para entidades sem fins lucrativos
+- Microsoft 365 e Office 365 para entidades sem fins lucrativos E1, E3 ou E5
 
 O Business Voice está disponível em mais de 70 países e regiões. Poder configurar o Business Voice por conta própria, transferir números de telefone para o Microsoft 365 e gerenciar seus números de telefone no Microsoft 365 depende do país ou região em que o locatário do Microsoft 365 está localizado. Para mais informações, consulte a [Disponibilidade do Business Voice em países e regiões](country-region-availability.md).
 
