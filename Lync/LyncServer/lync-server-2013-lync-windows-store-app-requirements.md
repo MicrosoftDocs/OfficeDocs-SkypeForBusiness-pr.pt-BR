@@ -12,12 +12,12 @@ ms:contentKeyID: 50120200
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 06d32aa0cf2248c80b8f98d80e8c796818b89a6b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d5e85bf0d6e4281094be562bd94c8e5b76e02453
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186014"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221765"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -43,7 +43,7 @@ As organizações com uma implantação local do Lync Server devem atender aos s
 
 
 > [!NOTE]  
-> Para o Lync Server 2010, execute a atualização cumulativa para o Lync Server 2010: fevereiro de 2012 (disponível em <A class=uri href="https://go.microsoft.com/fwlink/?linkid=3052%26kbid=2670352"> https://go.microsoft.com/fwlink/?linkid=3052&amp; kbid = 2670352</A>) ou posterior em todos os servidores. Para permitir que os usuários ingressem em reuniões, execute a atualização cumulativa do Lync Server 2010: outubro de 2012 (disponível em <A class=uri href="https://go.microsoft.com/fwlink/?linkid=3052%26kbid=2737915"> https://go.microsoft.com/fwlink/?linkid=3052&amp; kbid = 2737915</A>) nos servidores.
+> Para o Lync Server 2010, execute a atualização cumulativa para o Lync Server 2010: fevereiro de 2012 (disponível em <A class=uri href="https://go.microsoft.com/fwlink/?linkid=3052%26kbid=2670352"> https://go.microsoft.com/fwlink/?linkid=3052&amp ; kbid = 2670352</A>) ou posterior em todos os servidores. Para permitir que os usuários ingressem em reuniões, execute a atualização cumulativa do Lync Server 2010: outubro de 2012 (disponível em <A class=uri href="https://go.microsoft.com/fwlink/?linkid=3052%26kbid=2737915"> https://go.microsoft.com/fwlink/?linkid=3052&amp ; kbid = 2737915</A>) nos servidores.
 
 
 
@@ -61,7 +61,7 @@ As organizações com uma implantação local do Lync Server devem atender aos s
 
   - Em clientes, instale o Windows 8,1 e a versão mais recente do aplicativo Lync da Windows Store para corrigir um problema de entrada que geralmente ocorre ao usar vários domínios (por exemplo, quando o URI do SIP é **UserA@domainZ.com** , mas o servidor de borda é **SIP.domainX.com**).
 
-Se sua organização se inscrever no Lync Online ou no Office 365 e você estiver usando seu próprio nome de domínio, você deve realizar algumas etapas adicionais para configurar sua rede para descoberta automática dos servidores Lync. Os requisitos de configuração de rede são os mesmos para Lync Windows Store app e Lync em dispositivos móveis. Siga as instruções "configurar sua rede" no artigo do wiki do Office 365 "configurar dispositivos do Lync Mobile", disponível em [https://go.microsoft.com/fwlink/?LinkId=271822](https://go.microsoft.com/fwlink/?linkid=271822).
+Se sua organização se inscrever no Lync Online ou no Microsoft 365 e você estiver usando seu próprio nome de domínio, você deve realizar algumas etapas adicionais para configurar sua rede para descoberta automática dos servidores do Lync. Os requisitos de configuração de rede são os mesmos para Lync Windows Store app e Lync em dispositivos móveis.
 
 <div>
 
@@ -82,4 +82,3 @@ Se sua organização se inscrever no Lync Online ou no Office 365 e você estive
 </div>
 
 </div>
-

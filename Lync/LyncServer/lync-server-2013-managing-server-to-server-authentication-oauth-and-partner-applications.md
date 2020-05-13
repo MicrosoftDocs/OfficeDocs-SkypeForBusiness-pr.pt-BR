@@ -12,12 +12,12 @@ ms:contentKeyID: 48183894
 ms.date: 05/15/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 33f382fcbed7316948a865e7e7c75cf518b157fb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f7f3f32b4e0c13ea68df183d19b020118e32205b
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42185514"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221605"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -57,9 +57,9 @@ O Lync Server 2013 oferece suporte a três cenários de autenticação de servid
 
   - Configure a autenticação de servidor para servidor entre uma instalação local do Lync Server 2013 e uma instalação local do Exchange 2013 e/ou Microsoft SharePoint Server.
 
-  - Configure a autenticação de servidor para servidor entre um par de componentes do Office 365 (por exemplo, entre o Microsoft Exchange e o Microsoft Lync Server, ou entre o Microsoft Lync Server e o Microsoft SharePoint).
+  - Configure a autenticação de servidor para servidor entre um par de componentes do Microsoft 365 (por exemplo, entre o Microsoft Exchange e o Microsoft Lync Server, ou entre o Microsoft Lync Server e o Microsoft SharePoint).
 
-  - Configurar a autenticação de servidor para servidor em um ambiente ente locais (isto é, autenticação de servidor para servidor entre o servidor no local e um componente do Office 365).
+  - Configure a autenticação de servidor para servidor em um ambiente entre locais (ou seja, autenticação de servidor para servidor entre um servidor local e um componente do Microsoft 365).
 
 Observe que, neste momento, somente o Exchange 2013, o SharePoint Server e o Lync Server 2013 dão suporte à autenticação de servidor para servidor; Se você não estiver executando um desses servidores, não poderá implementar completamente a autenticação OAuth.
 
@@ -67,7 +67,7 @@ Também deve ser indicado que você não precisa usar a autenticação de servid
 
 No entanto, a autenticação de servidor para servidor será exigida ser você quiser usar os novos recursos do Lync Server, como o "armazenamento de contato unificado". Com o repositório unificado de contatos, as informações de contato do Lync Server 2013 são armazenadas no Exchange 2013, e não no Lync Server; Isso permite que os usuários tenham um único conjunto de contatos prontamente acessível no Lync, no Microsoft Outlook ou no Microsoft Outlook Web Access. Como o repositório unificado de contatos requer o Lync Server 2013 para compartilhar informações com o Exchange 2013, você deve usar a autenticação de servidor para servidor a fim de implantar o recurso. A autenticação de servidor para servidor também é necessária se você optar por usar o arquivamento do Exchange, em que as transcrições de sessões de mensagens instantâneas são salvas como emails do Exchange 2013, e não como registros de banco de dados individuais.
 
-Para a versão do Office 365 do Lync Server para se comunicar com seu representante do Exchange, o Lync Server 2013 deve primeiro obter um token de segurança do servidor de autorização. O Lync Server usa o token de segurança para se identificar para o Exchange. A versão do Exchange 365 do Office deve passar pelo mesmo processo para se comunicar com o Lync Server 2013.
+Para a versão do Microsoft 365 do Lync Server para se comunicar com seu representante do Exchange, o Lync Server 2013 deve primeiro obter um token de segurança do servidor de autorização. O Lync Server usa o token de segurança para se identificar para o Exchange. A versão Microsoft 365 do Exchange deve passar pelo mesmo processo para se comunicar com o Lync Server 2013.
 
 No entanto, para uma autenticação de servidor para servidor ente dois servidores da Microsoft, não é preciso usar um servidor de token terceirizado. Os produtos de servidor como o Lync Server 2013 e o Exchange 2013 têm um servidor token interno que pode ser usado para fins de autenticação com outros servidores da Microsoft (como o SharePoint Server) que dão suporte à autenticação de servidor para servidor. Por exemplo, o Lync Server 2013 pode ele mesmo gerar e assinar um token de segurança e usá-lo para se comunicar com o Exchange 2013. Em um caso como esse, não há a necessidade de um servidor de token terceirizado.
 

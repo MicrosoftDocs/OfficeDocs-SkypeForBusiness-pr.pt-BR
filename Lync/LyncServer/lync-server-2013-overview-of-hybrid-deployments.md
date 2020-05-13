@@ -12,12 +12,12 @@ ms:contentKeyID: 48185845
 ms.date: 05/25/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ae6aec94b75bdb559dace5fe110c1b07442f6171
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0d5b3b276d93fc0f09ad42be9448dc87eb1ba049
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216267"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221535"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -39,7 +39,7 @@ _**Última modificação do tópico:** 2016-05-25_
 
 Uma implantação híbrida do Lync Server é uma implantação em que os usuários de um domínio, como o contoso.com, são divididos entre o uso do Lync Server local e do Microsoft Lync Online. Alguns dos usuários do domínio estão hospedados no Lync Server local, e alguns usuários estão hospedados no Skype for Business online.
 
-Você pode configurar sua implantação do Lync local para híbrido com o Skype for Business Online e usar a sincronização do Active Directory para manter os usuários locais e online sincronizados. Você também pode configurar implantações híbridas para integração com o Exchange local e o SharePoint, ou com aplicativos do Microsoft Office 365, incluindo o Exchange Online e o SharePoint Online.
+Você pode configurar sua implantação do Lync local para híbrido com o Skype for Business Online e usar a sincronização do Active Directory para manter os usuários locais e online sincronizados. Você também pode configurar implantações híbridas para integração com o Exchange local e o SharePoint, ou com os aplicativos do Microsoft 365 e do Office 365, incluindo o Exchange Online e o SharePoint Online.
 
 Esta seção orienta você durante a implantação dos aplicativos necessários para uma implantação híbrida do Lync Server e, em seguida, configurar sua implantação para gerenciar usuários entre o Lync Server local e o Skype for Business online.
 
@@ -60,4 +60,3 @@ Para obter mais informações sobre o Skype for Business Online, consulte [Lync 
 </div>
 
 </div>
-

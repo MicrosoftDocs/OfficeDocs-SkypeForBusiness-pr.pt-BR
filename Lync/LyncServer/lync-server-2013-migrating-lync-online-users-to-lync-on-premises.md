@@ -12,12 +12,12 @@ ms:contentKeyID: 62258120
 ms.date: 11/13/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e87b977dd70227d134e5feae8df2ea089e216df3
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 5efc642ea326765df138f19fde4e691aa94d6b3b
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780740"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221221"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -55,7 +55,7 @@ _**Última modificação do tópico:** 2015-11-13_
     
       - Instale a ferramenta de sincronização do Azure Active Directory. Para obter mais informações, confira <https://social.technet.microsoft.com/wiki/contents/articles/19098.howto-install-the-windows-azure-active-directory-sync-tool.aspx>.
     
-      - Para permitir que os usuários usem o single sign-on para o Lync Online, instale os serviços <https://social.technet.microsoft.com/wiki/contents/articles/1011.active-directory-federation-services-ad-fs-overview.aspx>de Federação do Active Directory.
+      - Para permitir que os usuários usem o single sign-on para o Lync Online, instale os serviços de Federação do Active Directory <https://social.technet.microsoft.com/wiki/contents/articles/1011.active-directory-federation-services-ad-fs-overview.aspx> .
     
       - Em sua implantação local, no Shell de gerenciamento do Lync Server, digite os cmdlets a seguir para criar o provedor de hospedagem para o Lync Online:
         
@@ -117,13 +117,13 @@ _**Última modificação do tópico:** 2015-11-13_
     
       - Atualize o **Lyncdiscover.contoso.com** um registro para apontar para o FQDN do servidor de proxy reverso local.
     
-      - Atualize o ***\_SIP *.\_ tls.contoso.com** registro SRV para resolver para o endereço IP público ou VIP do serviço de borda de acesso do Lync local.
+      - Atualize o *** \_ SIP *. \_ tls.contoso.com** registro SRV para resolver para o endereço IP público ou VIP do serviço de borda de acesso do Lync local.
     
-      - Atualize o ***\_sipfederationtls *.\_ tcp.contoso.com** registro SRV para resolver para o endereço IP público ou VIP do serviço de borda de acesso do Lync local.
+      - Atualize o *** \_ sipfederationtls *. \_ tcp.contoso.com** registro SRV para resolver para o endereço IP público ou VIP do serviço de borda de acesso do Lync local.
     
       - Se sua organização usa DNS dividido (às vezes chamado de "DNS de divisões"), certifique-se de que os usuários que resolvem nomes através da zona DNS interna sejam direcionados para o pool de front-ends.
 
-6.  Digite o `Get-CsUser` cmdlet para verificar algumas propriedades sobre os usuários que serão movidos. Você deseja certificar-se de que o HostingProviderProxyFQDN está definido `"sipfed.online.lync.com"` como e que os endereços SIP estão definidos corretamente.
+6.  Digite o `Get-CsUser` cmdlet para verificar algumas propriedades sobre os usuários que serão movidos. Você deseja certificar-se de que o HostingProviderProxyFQDN está definido como `"sipfed.online.lync.com"` e que os endereços SIP estão definidos corretamente.
 
 7.  Mover os usuários do Lync Online para o Lync no local.
     
@@ -141,15 +141,15 @@ _**Última modificação do tópico:** 2015-11-13_
     
         Get-CsUser -Filter {Hosting Provider -eq "sipfed.online.lync.com"} | Move-CsUser -Target "<fe-pool>.contoso.com" -Credential $creds -HostedMigrationOverrideURL <URL>
     
-    O formato da URL especificada para o parâmetro **HostedMigrationOverrideUrl** deve ser a URL para o pool em que o serviço de migração hospedado está sendo executado, no seguinte formato *:\</HostedMigration/hostedmigrationService.svc do\>pool https://FQDN*.
+    O formato da URL especificada para o parâmetro **HostedMigrationOverrideUrl** deve ser a URL para o pool em que o serviço de migração hospedado está sendo executado, no seguinte formato *: \< \> /HostedMigration/hostedmigrationService.svc do pool https://FQDN*.
     
-    Você pode determinar a URL para o serviço de migração hospedado visualizando a URL do painel de controle do Lync Online para sua conta da organização do Office 365.
+    Você pode determinar a URL para o serviço de migração hospedado visualizando a URL do painel de controle do Lync Online para sua conta de organização do Microsoft 365 ou do Office 365.
     
     <div>
     
-    ## <a name="to-determine-the-hosted-migration-service-url-for-your-office-365-organization"></a>Para determinar a URL do serviço de migração hospedado para sua organização do Office 365
+    ## <a name="to-determine-the-hosted-migration-service-url-for-your-organizaton"></a>Para determinar a URL do serviço de migração hospedado para seu organização
     
-    1.  Faça logon na sua organização do Office 365 como administrador.
+    1.  Faça logon na sua organização do Microsoft 365 ou do Office 365 como administrador.
     
     2.  Abra o **centro de administração do Lync**.
     
@@ -173,7 +173,7 @@ _**Última modificação do tópico:** 2015-11-13_
     
 
     > [!NOTE]  
-    > O tamanho máximo padrão para os arquivos de log de transações do banco de dados do rtcxds é de 16 GB. Isso pode não ser grande o suficiente se você estiver movendo um grande número de usuários de uma só vez, especialmente se você tiver o espelhamento habilitado. Para contornar isso, você pode aumentar o tamanho do arquivo ou fazer o backup dos arquivos de log regularmente. Para obter mais informações, <A class=uri href="https://support.microsoft.com/kb/2756725">https://support.microsoft.com/kb/2756725</A>consulte.
+    > O tamanho máximo padrão para os arquivos de log de transações do banco de dados do rtcxds é de 16 GB. Isso pode não ser grande o suficiente se você estiver movendo um grande número de usuários de uma só vez, especialmente se você tiver o espelhamento habilitado. Para contornar isso, você pode aumentar o tamanho do arquivo ou fazer o backup dos arquivos de log regularmente. Para obter mais informações, consulte <A class=uri href="https://support.microsoft.com/kb/2756725">https://support.microsoft.com/kb/2756725</A> .
 
     
     </div>

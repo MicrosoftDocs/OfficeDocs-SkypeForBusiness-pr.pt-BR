@@ -12,12 +12,12 @@ ms:contentKeyID: 48183925
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6ad8735834ab004753444849c529cb4ceec18c16
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: af989286dad9c0c8bba38f61b17b606e758dcd15
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776706"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221785"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,7 +41,7 @@ O Lync 2013 introduz uma abordagem diferente para a implantação do cliente. Em
 
   - O **Office 2013 Windows Installer** é um pacote de instalação baseado no Windows Installer que consiste em vários arquivos MSI. Um pacote de núcleo MSI de linguagem neutra é combinado com um ou mais pacotes de linguagem específica para fazer um produto completo. A instalação reúne os pacotes individuais e efetua a personalização e tarefas de manutenção durante e após a instalação do Office nos computadores dos usuários. Os tópicos desta seção descrevem como usar e personalizar o Office 2013 Windows Installer para implantar o Lync 2013.
 
-  - O **Office 2013 clique para executar** é um programa de instalação que transmite arquivos de instalação do Office para o usuário a partir do centro de administração do Microsoft 365. Os administradores podem personalizar a instalação utilizando a Ferramenta de Implantação do Office para Clique para Executar. Como o Office 2013 clique para executar é usado principalmente no ambiente do Microsoft Office 365, este método de instalação não é descrito em detalhes nesta seção. Informações detalhadas sobre como usar e personalizar a instalação clique para executar estão disponíveis na documentação do kit de recursos do Office 2013. Os administradores também podem baixar os arquivos de programa e de origem do Office 2013 clique para executar em um local local, o que é útil quando você deseja minimizar a demanda na rede ou impedir que os usuários instalem software da Internet por causa dos requisitos de segurança corporativos.
+  - O **Office 2013 clique para executar** é um programa de instalação que transmite arquivos de instalação do Office para o usuário a partir do centro de administração do Microsoft 365. Os administradores podem personalizar a instalação utilizando a Ferramenta de Implantação do Office para Clique para Executar. Como o Office 2013 clique para executar é usado principalmente no ambiente do Microsoft 365, este método de instalação não é descrito em detalhes nesta seção. Informações detalhadas sobre como usar e personalizar a instalação clique para executar estão disponíveis na documentação do kit de recursos do Office 2013. Os administradores também podem baixar os arquivos de programa e de origem do Office 2013 clique para executar em um local local, o que é útil quando você deseja minimizar a demanda na rede ou impedir que os usuários instalem software da Internet por causa dos requisitos de segurança corporativos.
 
 Os tópicos desta seção concentram-se em como implantar clientes usando o instalador baseado em MSI do Office 2013. Sua referência principal deve ser a documentação do kit de recursos do Office 2013, que descreve detalhadamente como preparar sua infraestrutura, personalizar a instalação e implantar o Office 2013. No entanto, você deve usar a documentação do Office em conjunto com os tópicos nesta seção, que apontam as considerações de implantação específicas para o Lync 2013.
 

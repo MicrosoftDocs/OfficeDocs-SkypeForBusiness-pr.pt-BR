@@ -7,17 +7,17 @@ f1.keywords:
 - NOCSH
 TOCTitle: Managing the Centralized Logging Service configuration settings
 ms:assetid: f455c3aa-0061-413d-bdfb-a3e78f82723d
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721938(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ721938(v=OCS.15)
 ms:contentKeyID: 49733875
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7811c8c55a7c759076382ecf102868cc6c7abf09
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6c6e156fbae7147b650c7360394cbd0d277b937b
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42185414"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221595"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +37,7 @@ ms.locfileid: "42185414"
 
 _**Última modificação do tópico:** 2012-11-01_
 
-O serviço de registro em log centralizado é controlado e configurado por configurações e parâmetros criados e usados pelo CLSController (controlador de serviço de registro em log centralizado) para enviar comandos ao agente de serviço de registro em log centralizado do computador individual ( CLSAgent). O agente processa os comandos enviados a ele e (no caso de um comando Iniciar) usa a configuração dos cenários, provedores, tamanho de log, duração de rastreamento e sinalizadores para começar a coletar logs de rastreamento de acordo com as informações de configuração fornecidas.
+O serviço de registro em log centralizado é controlado e configurado por configurações e parâmetros que são criados e usados pelo CLSController (controlador de serviço de registro em log centralizado) para enviar comandos ao agente de serviço de registro em log centralizado do computador individual (CLSAgent). O agente processa os comandos enviados a ele e (no caso de um comando Iniciar) usa a configuração dos cenários, provedores, tamanho de log, duração de rastreamento e sinalizadores para começar a coletar logs de rastreamento de acordo com as informações de configuração fornecidas.
 
 <div>
 
@@ -50,8 +50,7 @@ O serviço de registro em log centralizado é controlado e configurado por confi
 > <LI>
 > <P><STRONG>Cmdlets CsClsSearchTerm:</STRONG> <A href="https://technet.microsoft.com/library/JJ205061(v=OCS.15)">Get-CsClsSearchTerm</A> e <A href="https://technet.microsoft.com/library/JJ204911(v=OCS.15)">Set-CsClsSearchTerm</A>.</P>
 > <LI>
-> <P><STRONG>Cmdlets CsClsSecurityGroup:</STRONG> <A href="https://technet.microsoft.com/library/JJ205285(v=OCS.15)">Get-CsClsSecurityGroup</A>, <A href="https://technet.microsoft.com/library/JJ204700(v=OCS.15)">Set-CsClsSecurityGroup</A>, <A href="https://technet.microsoft.com/library/JJ205359(v=OCS.15)">New-CsClsSecurityGroup</A> e <A href="https://technet.microsoft.com/library/JJ204958(v=OCS.15)">Remove-CsClsSecurityGroup</A>.</P></LI></UL>As configurações definidas nesses cmdlets não afetarão nem causarão qualquer comportamento adverso, mas serão projetadas para uso com o Microsoft Office 365 e não produzirão os resultados esperados em implantações locais. Isso não quer dizer que não há uso para esses cmdlets em implantações locais, mas sua utilização é um tópico mais avançado que não é abordado nesta documentação.
-
+> <P><STRONG>Cmdlets CsClsSecurityGroup:</STRONG> <A href="https://technet.microsoft.com/library/JJ205285(v=OCS.15)">Get-CsClsSecurityGroup</A>, <A href="https://technet.microsoft.com/library/JJ204700(v=OCS.15)">Set-CsClsSecurityGroup</A>, <A href="https://technet.microsoft.com/library/JJ205359(v=OCS.15)">New-CsClsSecurityGroup</A> e <A href="https://technet.microsoft.com/library/JJ204958(v=OCS.15)">Remove-CsClsSecurityGroup</A>.</P></LI></UL>As configurações definidas nesses cmdlets não afetarão nem causarão qualquer comportamento adverso, mas serão projetadas para uso com o Microsoft 365 e não produzirão os resultados esperados em implantações locais. Isso não quer dizer que não há uso para esses cmdlets em implantações locais, mas sua utilização é um tópico mais avançado que não é abordado nesta documentação.
 
 
 </div>

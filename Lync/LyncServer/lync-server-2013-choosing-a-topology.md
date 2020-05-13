@@ -12,12 +12,12 @@ ms:contentKeyID: 48183634
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dc30881da768d8dad9f952df37bdf1accdf091b9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6a75e1e829b59ff66df6b598c63b35f2f78981e4
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192014"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221735"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -67,9 +67,9 @@ Ao escolher uma topologia, você pode usar uma das seguintes opções de topolog
 
 </div>
 
-A tabela a seguir resume a funcionalidade disponível com as topologias do Microsoft Lync Server 2013 com suporte. Os títulos de coluna indicam a funcionalidade disponível para uma determinada opção de configuração de borda. Usando a opção borda em escala (balanceamento de carga DNS) como exemplo, você pode ver que ele oferece suporte à alta disponibilidade, pode usar endereços IP privados não roteáveis (com NAT) ou endereços IP públicos roteáveis atribuídos às interfaces externas de borda e reduz o custo porque um o balanceador de carga de hardware não é necessário.
+A tabela a seguir resume a funcionalidade disponível com as topologias do Microsoft Lync Server 2013 com suporte. Os títulos de coluna indicam a funcionalidade disponível para uma determinada opção de configuração de borda. Usando a opção borda em escala (balanceamento de carga DNS) como um exemplo, você pode ver que ele oferece suporte à alta disponibilidade, pode usar endereços IP privados não roteáveis (com NAT) ou endereços IP públicos roteáveis atribuídos às interfaces externas de borda e reduz o custo porque um balanceador de carga de hardware não é necessário.
 
-Cenários de failover de borda suportados com balanceamento de carga DNS são sessões ponto a ponto do Lync para Lync, sessões de conferência do Lync, sessões do Lync para PSTN e o Office 365. Cenários de failover de borda que não se beneficiam do balanceamento de carga DNS são failover para o usuário remoto Exchange Unified Messaging (UM) (antes do Exchange 2010 SP1), conectividade de IM (mensagens instantâneas públicas) e Federação com servidores executando o Office Communications Do.
+Cenários de failover de borda suportados com o balanceamento de carga DNS são sessões ponto a ponto do Lync para Lync, sessões de conferência do Lync, sessões do Lync para PSTN, Office 365 e Microsoft 365. Cenários de failover de borda que não se beneficiam do balanceamento de carga DNS são failover para o usuário remoto do Exchange (UM) (antes do Exchange 2010 SP1), conectividade de IM (mensagens instantâneas) públicas e Federação com servidores que executam o Office Communications Server.
 
 ### <a name="summary-of-edge-server-topology-options"></a>Resumo das opções de topologia do servidor de borda
 
@@ -153,7 +153,7 @@ Usar NAT para todas as interfaces externas de Borda exige o uso do balanceamento
 
   - Lync Server 2013 a borda consolidada dimensionada (balanceamento de carga DNS) exige três endereços IP públicos para cada servidor de borda em um pool de borda.
 
-  - Lync Server 2013 a borda consolidada dimensionada (carga de hardware balanceada) exige três endereços IP públicos para endereços IP virtuais do balanceador de carga (um requisito de tempo que não aumenta à medida que mais servidores de borda são adicionados ao pool) mais três endereços IP públicos por Servidor de borda em um pool.
+  - Lync Server 2013 a borda consolidada dimensionada (carga de hardware balanceada) exige três endereços IP públicos para endereços IP virtuais do balanceador de carga (um requisito de tempo que não aumenta à medida que mais servidores de borda são adicionados ao pool) mais três endereços IP públicos por servidor de borda em um pool.
 
 ### <a name="ip-address-requirements-for-scaled-consolidated-edge-ip-address-per-role"></a>Requisitos de endereço IP para borda consolidada em escala (endereço IP por função)
 
@@ -172,22 +172,22 @@ Usar NAT para todas as interfaces externas de Borda exige o uso do balanceamento
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>duas</p></td>
+<td><p>2 </p></td>
 <td><p>6 </p></td>
 <td><p>3 (1 por VIP) + 6</p></td>
 </tr>
 <tr class="even">
-<td><p>3D</p></td>
+<td><p>3 </p></td>
 <td><p>9 </p></td>
 <td><p>3 (1 por VIP) + 9</p></td>
 </tr>
 <tr class="odd">
-<td><p>quatro</p></td>
-<td><p>12</p></td>
+<td><p>4 </p></td>
+<td><p>12 </p></td>
 <td><p>3 (1 por VIP) + 12</p></td>
 </tr>
 <tr class="even">
-<td><p>0,5</p></td>
+<td><p>5 </p></td>
 <td><p>15 </p></td>
 <td><p>3 (1 por VIP) + 15</p></td>
 </tr>
@@ -212,22 +212,22 @@ Usar NAT para todas as interfaces externas de Borda exige o uso do balanceamento
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>duas</p></td>
-<td><p>duas</p></td>
+<td><p>2 </p></td>
+<td><p>2 </p></td>
 <td><p>1 (1 por VIP) + 2</p></td>
 </tr>
 <tr class="even">
-<td><p>3D</p></td>
-<td><p>3D</p></td>
+<td><p>3 </p></td>
+<td><p>3 </p></td>
 <td><p>1 (1 por VIP) + 3</p></td>
 </tr>
 <tr class="odd">
-<td><p>quatro</p></td>
-<td><p>quatro</p></td>
+<td><p>4 </p></td>
+<td><p>4 </p></td>
 <td><p>1 (1 por VIP) + 4</p></td>
 </tr>
 <tr class="even">
-<td><p>0,5</p></td>
+<td><p>5 </p></td>
 <td><p>0,5</p></td>
 <td><p>1 (1 por VIP) + 5</p></td>
 </tr>
@@ -271,7 +271,7 @@ Os principais pontos de decisão para a seleção de topologia são alta disponi
 
 
 > [!IMPORTANT]
-> É recomendável usar o balanceamento de carga DNS se você estiver se Federando com empresas que usam o Lync Server 2010 e o Microsoft Office 365. Lembre-se de que há impactos significativos no desempenho se a maioria dos seus parceiros federados estiverem usando o Office Communications Server 2007 ou o Office Communications Server 2007 R2.
+> É recomendável usar o balanceamento de carga DNS se você estiver se Federando com empresas que usam o Lync Server 2010 e o Office 365 ou o Microsoft 365. Lembre-se de que há impactos significativos no desempenho se a maioria dos seus parceiros federados estiverem usando o Office Communications Server 2007 ou o Office Communications Server 2007 R2.
 
 
 

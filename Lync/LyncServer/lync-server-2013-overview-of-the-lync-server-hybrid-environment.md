@@ -12,12 +12,12 @@ ms:contentKeyID: 48183399
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b39c94b08da65e546fdf3ad01d42ada636ff371d
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: e3fe59038c022dafcf7eeedb0079ae1a8cc63fd1
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780750"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221525"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -59,7 +59,7 @@ Você precisará ter os seguintes aplicativos e utilitários instalados para con
 
   - [Instalar o Windows PowerShell para logon único com o AD FS](https://go.microsoft.com/fwlink/p/?linkid=398710)
 
-  - O assistente de conexão do Microsoft Online Services (msoidcli-7.0. msi) está incluído na configuração da área de trabalho do Office 365, que pode ser obtida da página de downloads vinculada a partir do centro de administração do Microsoft 365.
+  - O assistente de conexão do Microsoft Online Services (msoidcli-7.0. msi) está incluído na configuração da área de trabalho do Microsoft 365, que pode ser obtida da página de downloads vinculada a partir do centro de administração do Microsoft 365.
 
 </div>
 
@@ -67,7 +67,7 @@ Você precisará ter os seguintes aplicativos e utilitários instalados para con
 
 ## <a name="administrator-credentials"></a>Credenciais de administrador
 
-Quando for solicitado a fornecer suas credenciais de administrador, use o nome de usuário e a senha da conta de administrador da sua organização do Office 365. Você também usará essas credenciais ao configurar o AD FS (serviços de Federação do Active Directory) 2,0, sincronização de diretórios, logon único, Federação e transferência de usuários para o Lync Online.
+Quando você for solicitado a fornecer as credenciais de administrador, use o nome de usuário e a senha da conta de administrador da sua organização do Microsoft 365 ou do Office 365. Você também usará essas credenciais ao configurar o AD FS (serviços de Federação do Active Directory) 2,0, sincronização de diretórios, logon único, Federação e transferência de usuários para o Lync Online.
 
 </div>
 
@@ -75,7 +75,7 @@ Quando for solicitado a fornecer suas credenciais de administrador, use o nome d
 
 ## <a name="connecting-to-lync-online-powershell"></a>Conectando-se ao PowerShell do Lync Online
 
-Agora, os administradores têm a capacidade de usar o Windows PowerShell para gerenciar o Lync Online e suas contas de usuário do Lync Online. Para fazer isso, primeiro você deve baixar e instalar o módulo do conector do Lync Online no centro de downloadhttps://go.microsoft.com/fwlink/?LinkId=294688)da Microsoft (. Para obter mais informações sobre como baixar, instalar e usar o módulo do conector do Lync Online e para obter informações detalhadas sobre como usar o Windows PowerShell para gerenciar o Lync Online, consulte [usando o Windows PowerShell para gerenciar o Lync Online](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
+Agora, os administradores têm a capacidade de usar o Windows PowerShell para gerenciar o Lync Online e suas contas de usuário do Lync Online. Para fazer isso, primeiro você deve baixar e instalar o módulo do conector do Lync Online no centro de download da Microsoft ( https://go.microsoft.com/fwlink/?LinkId=294688) . Para obter mais informações sobre como baixar, instalar e usar o módulo do conector do Lync Online e para obter informações detalhadas sobre como usar o Windows PowerShell para gerenciar o Lync Online, consulte [usando o Windows PowerShell para gerenciar o Lync Online](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
 
 </div>
 

@@ -12,12 +12,12 @@ ms:contentKeyID: 48185910
 ms.date: 05/25/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 54888a96d33dc3d9195256483f41719031847744
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 47e8bc57edbf3b6414820aba1613be8b44fc670e
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780320"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221515"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -45,7 +45,7 @@ Você deve considerar os requisitos a seguir para usuários e sua infraestrutura
 
 Você deve ter o seguinte configurado no seu ambiente para implementar e implantar uma implantação híbrida.
 
-  - Uma organização do Microsoft Office 365 com o Skype for Business online habilitado. Observe que você pode usar apenas um único locatário para uma configuração híbrida com sua implantação local.
+  - Uma organização do Microsoft 365 ou do Office 365 com o Skype for Business online habilitado. Observe que você pode usar apenas um único locatário para uma configuração híbrida com sua implantação local.
 
   - Uma única implantação local (infraestrutura) do Skype for Business Server ou do Lync Server que é implantada em uma topologia com suporte. Consulte requisitos de topologia.
     
@@ -53,7 +53,7 @@ Você deve ter o seguinte configurado no seu ambiente para implementar e implant
 
   - Ferramentas administrativas do Skype for Business Server 2015. Se você estiver usando o Lync Server 2013 ou o Lync Server 2010, poderá usar as ferramentas administrativas do Lync Server 2013.
 
-  - Para dar suporte ao logon único com o Office 365 para que os usuários possam usar as mesmas credenciais de logon para entrar no Office como eles fazem no local, você pode usar os recursos de sincronização de senha do Azure Active Directory (AAD) Connect. Você também pode usar o AD FS (serviços de Federação do Active Directory) para logon único com o Office 365.
+  - Para dar suporte ao logon único com o Microsoft 365 ou o Office 365 de modo que os usuários possam usar as mesmas credenciais de logon para entrar no Office como eles estão no local, você pode usar os recursos de sincronização de senha do Azure Active Directory (AAD) Connect. Você também pode usar o AD FS (serviços de Federação do Active Directory) para logon único com o Microsoft 365 ou o Office 365.
     
     Para mais informações, confira [Integrar suas identidades locais ao Azure Active Directory](https://go.microsoft.com/fwlink/p/?linkid=619754).
 
@@ -159,7 +159,7 @@ A lista de domínios permitidos inclui domínios que têm um FQDN (nome de domí
 
 Os seguintes requisitos devem ser atendidos para configurar com êxito uma implantação híbrida:
 
-  - A correspondência de domínio deve ser configurada da mesma para sua implantação local e sua organização do Office 365. Se a descoberta de parceiros estiver habilitada na implantação local, a Federação deverá ser configurada para seu locatário online. Se a descoberta de parceiro não estiver habilitada, a Federação fechada deverá ser configurada para seu locatário online.
+  - A correspondência de domínio deve ser configurada da mesma para sua implantação local e sua organização do Microsoft 365 ou do Office 365. Se a descoberta de parceiros estiver habilitada na implantação local, a Federação deverá ser configurada para seu locatário online. Se a descoberta de parceiro não estiver habilitada, a Federação fechada deverá ser configurada para seu locatário online.
 
   - A lista de domínios bloqueados na implantação local deve corresponder exatamente à lista de domínios bloqueados para seu locatário online.
 
@@ -191,7 +191,7 @@ Além disso, você precisa garantir que a resolução DNS descrita na tabela a s
 <td><p>Requisito de DNS</p></td>
 </tr>
 <tr class="even">
-<td><p>Registro SRV de DNS para _sipfederationtls. _tcp. &lt;sipdomain.com&gt; para todos os domínios SIP com suporte que resolvem os IP externos de borda de acesso</p></td>
+<td><p>Registro SRV de DNS para _sipfederationtls. _tcp. &lt; sipdomain.com &gt; para todos os domínios SIP com suporte que resolvem os IP externos de borda de acesso</p></td>
 <td><p>Servidor (es) de borda</p></td>
 <td><p>Habilitar a comunicação federada em uma configuração híbrida. O servidor de borda precisa saber onde rotear o tráfego federado para o domínio SIP dividido entre o local e o online.</p></td>
 </tr>
@@ -214,7 +214,7 @@ Dependendo de como o DNS é configurado em sua organização, talvez seja necess
 
 Os computadores em sua rede devem ser capazes de realizar pesquisas de DNS da Internet padrão. Se estes computadores podem atingir sites da Internet padrões, sua rede cumpre este requisito.
 
-Dependendo do local do seu data center do Microsoft Online Services, você também deve configurar seus dispositivos de firewall de rede para aceitar conexões com base em nomes de domínio curinga (por exemplo, \*todo o tráfego de. Outlook.com). Se os firewalls da sua organização não dão suporte a configurações de nome de curinga, será necessário determinar manualmente os intervalos de endereços IP que você gostaria de permitir e as portas especificadas.
+Dependendo do local do seu data center do Microsoft Online Services, você também deve configurar seus dispositivos de firewall de rede para aceitar conexões com base em nomes de domínio curinga (por exemplo, todo o tráfego de \* . Outlook.com). Se os firewalls da sua organização não dão suporte a configurações de nome de curinga, será necessário determinar manualmente os intervalos de endereços IP que você gostaria de permitir e as portas especificadas.
 
 Consulte o tópico de ajuda sobre [URLs e intervalos de endereços IP do Office 365](https://go.microsoft.com/fwlink/p/?linkid=252942).
 
@@ -299,7 +299,7 @@ Ao sincronizar as contas de usuário entre suas implantações locais e Lync Onl
 
 
 > [!IMPORTANT]  
-> Se o usuário for criado usando o portal online para o Office 365, a conta de usuário não será sincronizada com o Active Directory local, e o usuário não existirá no Active Directory local. Se você já criou usuários no Lync Online e deseja configurar o híbrido com um Lync Server local, consulte <A href="lync-server-2013-moving-users-from-lync-online-to-lync-on-premises.md">movendo usuários do Lync Online para o Lync no local no Lync Server 2013</A>.
+> Se o usuário for criado usando o portal online para o centro de administração do Microsoft 365, a conta de usuário não será sincronizada com o Active Directory local e o usuário não existirá no Active Directory local. Se você já criou usuários no Lync Online e deseja configurar o híbrido com um Lync Server local, consulte <A href="lync-server-2013-moving-users-from-lync-online-to-lync-on-premises.md">movendo usuários do Lync Online para o Lync no local no Lync Server 2013</A>.
 
 
 
@@ -307,11 +307,11 @@ Ao sincronizar as contas de usuário entre suas implantações locais e Lync Onl
 
 Você também deve considerar os seguintes problemas relacionados ao usuário ao planejar uma implantação híbrida.
 
-  - **Contatos do usuário**   o limite de contatos para os usuários do Lync Online é de 250. Qualquer contato além desse número será removido da lista de contatos do usuário quando a conta for movida para o Lync Online.
+  - **Contatos**     do usuário O limite de contatos para os usuários do Lync Online é de 250. Qualquer contato além desse número será removido da lista de contatos do usuário quando a conta for movida para o Lync Online.
 
-  - **Instant Messaging and Presence**   As listas de contatos de mensagens instantâneas e de presença, os grupos e as ACLs (listas de controle de acesso) são migrados com a conta de usuário.
+  - **Mensagens instantâneas e presença**     As listas de contatos, os grupos e as ACLs (listas de controle de acesso) do usuário são migrados com a conta do usuário.
 
-  - **Dados de conferência, conteúdo de reunião e reuniões**   agendadas esse conteúdo não é migrado com a conta de usuário. Os usuários devem reagendar as reuniões depois que suas contas forem migradas para o Lync Online.
+  - **Dados de conferência, conteúdo de reunião e reuniões**     agendadas Este conteúdo não é migrado com a conta de usuário. Os usuários devem reagendar as reuniões depois que suas contas forem migradas para o Lync Online.
 
 </div>
 
@@ -321,11 +321,11 @@ Você também deve considerar os seguintes problemas relacionados ao usuário ao
 
   - Em um ambiente híbrido do Lync Server 2013, os usuários podem ser habilitados para mensagens instantâneas, voz e reuniões tanto no local quanto no online, mas não em ambos simultaneamente.
 
-  - **Cliente do Lync**     alguns usuários podem exigir uma nova versão do cliente quando forem movidos para o Lync Online. Para o Office Communications Server 2007 R2, os usuários devem ser movidos para um pool do Lync Server 2013 antes da migração para o Lync Online.
+  - **Cliente**     do Lync Alguns usuários podem exigir uma nova versão do cliente quando forem movidos para o Lync Online. Para o Office Communications Server 2007 R2, os usuários devem ser movidos para um pool do Lync Server 2013 antes da migração para o Lync Online.
     
     Para obter mais informações sobre o suporte ao cliente, consulte [clients for Lync Online](https://go.microsoft.com/fwlink/p/?linkid=281902) and Lync [clients and Network Ports supported](https://go.microsoft.com/fwlink/p/?linkid=281901).
 
-  - **Políticas e configurações locais (não-usuário)**   online e políticas locais exigem configuração separada. Você não pode definir políticas globais que se aplicam a ambos.
+  - **Políticas e configurações locais (não usuário)**     As políticas online e local exigem configuração separada. Você não pode definir políticas globais que se aplicam a ambos.
 
 </div>
 
@@ -338,4 +338,3 @@ Você também deve considerar os seguintes problemas relacionados ao usuário ao
 </div>
 
 </div>
-

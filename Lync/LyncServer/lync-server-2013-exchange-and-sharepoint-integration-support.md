@@ -12,12 +12,12 @@ ms:contentKeyID: 48184504
 ms.date: 01/20/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c4f96a5f5b1b4de3564da0dd9773a8472bd2b1a6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 262e31ac6049920ca4e327f50dccaae18d69a2f5
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204767"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221715"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -67,7 +67,7 @@ O Lync Server 2013 suporta os dois cenários de autenticação de servidor para 
 
 
 > [!NOTE]  
-> Não há suporte para a autenticação de servidor para servidor entre um servidor local e um componente do Office 365 nesta versão 2013 do Lync Server. Entre outras coisas, isso significa que não é possível configurar a autenticação de servidor para servidor entre uma instalação local do Lync Server 2013 e Microsoft Exchange 365.
+> A autenticação de servidor para servidor entre um servidor local e um componente do Microsoft 365 ou do Office 365 não é suportada nesta versão 2013 do Lync Server. Entre outras coisas, isso significa que não é possível configurar a autenticação de servidor para servidor entre uma instalação local do Lync Server 2013 e Microsoft Exchange 365.
 
 
 
@@ -84,4 +84,3 @@ Para obter detalhes sobre a autenticação de servidor para servidor, consulte [
 </div>
 
 </div>
-

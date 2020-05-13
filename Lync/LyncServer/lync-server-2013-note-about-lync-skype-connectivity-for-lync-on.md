@@ -12,12 +12,12 @@ ms:contentKeyID: 57793359
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: de54cbdde864da5600c06b608344e8593529d604
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 8535c2a3d4f3d5f1cae8ec443283c1a3db8c8c45
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780700"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221545"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,11 +37,11 @@ ms.locfileid: "43780700"
 
 _**Última modificação do tópico:** 2013-09-23_
 
-Este documento foi escrito para ajudar os administradores locais do Lync Server a configurar a conectividade Lync-Skype.A conectividade Lync-Skype também é um recurso do Lync Online, que faz parte do Office 365. Você pode habilitar o recurso de conectividade Lync-Skype do centro de administração do Lync no centro de administração do Microsoft 365.
+Este documento foi escrito para ajudar os administradores locais do Lync Server a configurar a conectividade Lync-Skype.A conectividade Lync-Skype também é um recurso do Lync Online, que faz parte do Office 365 e do Microsoft 365. Você pode habilitar o recurso de conectividade Lync-Skype do centro de administração do Lync dentro do centro de administração.
 
-Para o Office 365 Midsize Business, o Office 365 Enterprise, o Office 365 Education e o Office 365 para o governo: entre no centro de administração do Microsoft 365 e navegue até o **centro de administração do Lync**. Vá para **comunicações externas**. Em **provedores de serviços públicos de im**, clique em **habilitar**. Se você deseja controlar o acesso de usuários individuais à conectividade Lync-Skype, é possível fazer isso editando as configurações de comunicações externas de usuários individuais.
+Para o Microsoft 365 Midsize Business, o Office 365 Enterprise, o Microsoft 365 Education e o Office 365 para governos: entre no portal do Office 365 ou no centro de administração do Microsoft 365 e navegue até o **centro de administração do Lync**. Vá para **comunicações externas**. Em **provedores de serviços públicos de im**, clique em **habilitar**. Se você deseja controlar o acesso de usuários individuais à conectividade Lync-Skype, é possível fazer isso editando as configurações de comunicações externas de usuários individuais.
 
-Para o Office 365 Small Business Premium: entrar e acessar **configurações \> do serviço \> de administração, reuniões e conferências**. Ative as comunicações externas. O comutador de comunicações externas ativa a conectividade do Lync-Skype e as comunicações com outras organizações que usam o Lync. Dependendo de quando você começou a usar o Lync Online, a opção de comunicação externa em um estado "ativado" pode indicar inicialmente que as comunicações com outras organizações do Lync estão ativadas. Para ativar a conectividade do Lync-Skype, basta desativar a opção e voltar novamente.
+Para o Microsoft 365 Small Business Premium: entrar no Microsoft 365 e vá até **configurações de \> serviço \> de administração, reuniões e conferências**. Ative as comunicações externas. O comutador de comunicações externas ativa a conectividade do Lync-Skype e as comunicações com outras organizações que usam o Lync. Dependendo de quando você começou a usar o Lync Online, a opção de comunicação externa em um estado "ativado" pode indicar inicialmente que as comunicações com outras organizações do Lync estão ativadas. Para ativar a conectividade do Lync-Skype, basta desativar a opção e voltar novamente.
 
 </div>
 

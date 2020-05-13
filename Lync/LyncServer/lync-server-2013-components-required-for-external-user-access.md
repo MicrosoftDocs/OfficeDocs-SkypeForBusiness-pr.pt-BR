@@ -12,12 +12,12 @@ ms:contentKeyID: 48183711
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ca81e26e6a4b634b7b1f861ddfb0e0aedebca23f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 05c4b2845f4146c6394712951089750299ce60b7
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204663"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221815"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -64,13 +64,13 @@ A maioria dos componentes de borda é implantada em uma rede de perímetro. Os c
 
 Os servidores de borda enviam e recebem tráfego de rede para os serviços oferecidos pela implantação interna por usuários externos. O Servidor de Borda executa os seguintes serviços:
 
-  - **Serviço de borda de acesso**   o serviço de borda de acesso fornece um ponto de conexão único e confiável para o tráfego do protocolo SIP (Session Initiation Protocol) de entrada e saída.
+  - Serviço de borda de **acesso**     O serviço de borda de acesso fornece um ponto de conexão único e confiável para o tráfego do protocolo SIP (Session Initiation Protocol) de entrada e saída.
 
-  - **Serviço de borda de Webconferência**   o serviço de borda de Webconferência permite que usuários externos ingressem em reuniões hospedadas na sua implantação interna do Lync Server 2013.
+  - Serviço de borda de **Webconferência**     O serviço de borda de Webconferência permite que usuários externos ingressem em reuniões hospedadas na sua implantação interna do Lync Server 2013.
 
-  - **Serviço de borda**   a/v o serviço de borda a/v disponibiliza áudio, vídeo, compartilhamento de aplicativos e transferência de arquivos para usuários externos. Os usuários podem adicionar áudio e vídeo a reuniões que incluem participantes externos e podem se comunicar usando áudio e/ou vídeo diretamente com um usuário externo em sessões ponto a ponto. O Serviço de Borda A/V também fornece suporte para compartilhamento de área de trabalho e transferência de arquivo.
+  - Serviço de borda **A/V**     O serviço de borda A/V disponibiliza áudio, vídeo, compartilhamento de aplicativos e transferência de arquivos para usuários externos. Os usuários podem adicionar áudio e vídeo a reuniões que incluem participantes externos e podem se comunicar usando áudio e/ou vídeo diretamente com um usuário externo em sessões ponto a ponto. O Serviço de Borda A/V também fornece suporte para compartilhamento de área de trabalho e transferência de arquivo.
 
-  - **Serviço de proxy do XMPP**   o serviço de proxy do XMPP aceita e envia mensagens de protocolo de presença e de mensagens extensíveis (XMPP) para e a partir de parceiros federados de XMPP configurados.
+  - Serviço de proxy **XMPP**     O serviço de proxy do XMPP aceita e envia mensagens de XMPP (Extensible Messaging and Presence Protocol) para e de parceiros federados XMPP configurados.
 
 Usuários externos autorizados podem acessar os servidores de borda para se conectar à sua implantação interna do Lync Server 2013, mas os servidores de borda não fornecem meios para qualquer outro acesso à rede interna.
 
@@ -106,7 +106,7 @@ O proxy reverso é necessário para o seguinte:
 
   - Permitir que os dispositivos móveis descubram automaticamente os Servidores Front-End que oferecem serviços de mobilidade
 
-  - Permitir notificações por push para dispositivos móveis dos serviços de notificação por push do Office 365 ou da Apple
+  - Para habilitar as notificações por push para dispositivos móveis dos serviços de notificação por push da Microsoft 365, do Office 365 ou Apple push
 
 Para obter informações adicionais relacionadas a proxies reversos e os requisitos que os proxies reverso devem atender, consulte os detalhes em [requisitos de configuração para o proxy reverso no Lync Server 2013](lync-server-2013-configuration-requirements-for-reverse-proxy.md).
 
@@ -114,7 +114,7 @@ Para obter informações adicionais relacionadas a proxies reversos e os requisi
 
 
 > [!NOTE]  
-> Os usuários externos não precisam de uma conexão VPN (rede virtual privada) à sua organização para participar de comunicações usando o Lync Server 2013. Se você tiver implementado a tecnologia VPN em sua organização e seus usuários usarem a VPN para o Lync, o tráfego de mídia (como videoconferência) poderá ser afetado de forma adversa. Considere fornecer um meio de tráfego de mídia para se conectar ao serviço de borda AV diretamente e ignorar a VPN. Para obter detalhes, consulte o artigo de blog NextHop, "Habilitando o Lync Media para ignorar um túnel <A href="https://go.microsoft.com/fwlink/p/?linkid=256532">https://go.microsoft.com/fwlink/p/?LinkId=256532</A>VPN" em.
+> Os usuários externos não precisam de uma conexão VPN (rede virtual privada) à sua organização para participar de comunicações usando o Lync Server 2013. Se você tiver implementado a tecnologia VPN em sua organização e seus usuários usarem a VPN para o Lync, o tráfego de mídia (como videoconferência) poderá ser afetado de forma adversa. Considere fornecer um meio de tráfego de mídia para se conectar ao serviço de borda AV diretamente e ignorar a VPN. Para obter detalhes, consulte o artigo de blog NextHop, "Habilitando o Lync Media para ignorar um túnel VPN" em <A href="https://go.microsoft.com/fwlink/p/?linkid=256532">https://go.microsoft.com/fwlink/p/?LinkId=256532</A> .
 
 
 
@@ -132,7 +132,7 @@ Para obter informações adicionais relacionadas a proxies reversos e os requisi
 
 <div>
 
-## <a name="director"></a>Be
+## <a name="director"></a>Diretor
 
 Um diretor é uma função de servidor opcional e separada no Lync Server 2013 que não hospeda contas de usuário ou fornece serviços de presença ou conferência. Ele serve como um servidor de próximo salto interno para o qual um servidor de Borda roteia o tráfego SIP de entrada destinado a servidores internos. O diretor autentica solicitações de entrada e as redireciona para o pool ou servidor de casa do usuário. Ao autenticar no diretor, você pode descartar solicitações de contas de usuário que são desconhecidas para a implantação.
 

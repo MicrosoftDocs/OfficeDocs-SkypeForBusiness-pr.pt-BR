@@ -12,12 +12,12 @@ ms:contentKeyID: 48183839
 ms.date: 05/25/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1626b01f1cf008285e7d7fd12c6987c8da9f9ba4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 538f2163fe983e8ab886964e379b0c54c9de6dd8
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186174"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221685"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +37,7 @@ ms.locfileid: "42186174"
 
 _**Última modificação do tópico:** 2016-05-25_
 
-Com as implantações híbridas do Lync, você pode ter alguns dos seus usuários do Lync no local e outros usuários no Lync Online, ambos compartilhando o mesmo domínio. Isso pode facilitar a fornecer serviços do Lync aos usuários da sua organização em diferentes locais geográficos ou usuários que se conectam remotamente. Você também pode aproveitar as configurações híbridas do Lync como um caminho de migração para o Office 365.
+Com as implantações híbridas do Lync, você pode ter alguns dos seus usuários do Lync no local e outros usuários no Lync Online, ambos compartilhando o mesmo domínio. Isso pode facilitar a fornecer serviços do Lync aos usuários da sua organização em diferentes locais geográficos ou usuários que se conectam remotamente. Você também pode aproveitar as configurações híbridas do Lync como um caminho de migração para o Microsoft 365.
 
 Esta seção descreve as configurações híbridas para o Lync Server 2013.
 

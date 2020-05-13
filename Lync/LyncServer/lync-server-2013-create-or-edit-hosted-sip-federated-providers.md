@@ -12,12 +12,12 @@ ms:contentKeyID: 48679556
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 937dfe2a63f755a7366fbb1b82c5593c466ac544
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b78e9be0f3b885a40fcf313173a1281ac5489936
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42181404"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221835"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +37,7 @@ ms.locfileid: "42181404"
 
 _**Última modificação do tópico:** 2012-10-19_
 
-A conectividade de IM (mensagens instantâneas) do provedor hospedado permite que os usuários em sua organização usem mensagens instantâneas para se comunicar com usuários de serviços de IM fornecidos por provedores hospedados, incluindo o Microsoft Office 365 e o Lync Online.
+A conectividade de mensagens instantâneas do provedor hospedado permite que os usuários em sua organização usem mensagens instantâneas para se comunicar com usuários de serviços de IM fornecidos por provedores hospedados, incluindo o Microsoft 365 e o Lync Online.
 
 Cada provedor hospedado é configurado com o nome de domínio totalmente qualificado do servidor de Borda do provedor e o nível de verificação padrão **Permitir que os usuários se comuniquem somente com pessoas em suas listas de Contatos que usam este provedor**.
 
@@ -59,13 +59,13 @@ Use o procedimento a seguir para criar ou editar provedores hospedados:
 
 6.  Na página **Editar Provedor Federado SIP**, você pode digitar ou editar as seguintes configurações:
     
-      - **Habilitar comunicações com este provedor**   selecionar essa configuração permite comunicações com os usuários deste provedor.
+      - **Habilitar comunicações com este provedor**     A seleção dessa configuração permite a comunicação com os usuários desse provedor.
     
-      - **Nome do provedor:**   uma propriedade obrigatória, digite o nome do provedor conforme ele será refletido na lista de provedores federados SIP.
+      - **Nome do provedor:**     Uma propriedade Required, digite o nome do provedor conforme ele será refletido na lista de provedores federados SIP.
     
-      - **Serviço de borda de acesso (FQDN):**   uma propriedade necessária, digite o nome de domínio totalmente qualificado do serviço de borda de acesso do provedor hospedado que você está configurando. Esta informação deve ser fornecida pelo provedor hospedado, e só deve ser alterada se o provedor fizer uma mudança no FQDN do serviço de Borda de Acesso.
+      - **Serviço de borda de acesso (FQDN):**     Uma propriedade Required, digite o nome de domínio totalmente qualificado do serviço de borda de acesso do provedor hospedado que você está configurando. Esta informação deve ser fornecida pelo provedor hospedado, e só deve ser alterada se o provedor fizer uma mudança no FQDN do serviço de Borda de Acesso.
     
-      - **Nível de verificação padrão:**   a configuração padrão, **permitir que os usuários se comuniquem com pessoas em suas listas de contatos que usam este provedor** limitarão a comunicação aos contatos que você aceitou e estão em sua lista de contatos.
+      - **Nível de verificação padrão:**     A configuração padrão, **permitir que os usuários se comuniquem com pessoas em suas listas de contatos, que usam esse provedor** , limitarão a comunicação aos contatos que você aceitou e estão em sua lista de contatos.
         
         Selecionar **Permitir que os usuários se comuniquem com todos que usam este provedor** remove a restrição de que você deve ter recebido e aceitado o convite de um contato. Esta configuração não limita quem pode entrar em contato com você a partir da rede do provedor hospedado.
 

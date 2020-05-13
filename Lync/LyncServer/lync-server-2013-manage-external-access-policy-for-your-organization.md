@@ -12,12 +12,12 @@ ms:contentKeyID: 48184160
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 55ca35ace807c5e8e551295f3d395e85d514b901
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: afc2b1599551cfc3b7ee7341e441946610166ba0
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42185934"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221755"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,21 +37,21 @@ ms.locfileid: "42185934"
 
 _**Última modificação do tópico:** 2013-10-07_
 
-Após a implantação de um ou mais servidores de borda, você deve habilitar os tipos de acesso externo que terão suporte para sua organização.
+Depois de implantar um ou mais Servidores de Borda, você deve habilitar os tipos de acesso externo que terão suporte na sua organização.
 
 Por padrão, não há políticas configuradas para suportar o acesso de usuário externo, incluindo o acesso de usuário remoto, acesso de usuário federado, mesmo que você já tenha habilitado o suporte de acesso de usuário externo para sua organização. Para controlar o uso de acesso de usuário externo, você deve configurar uma ou mais políticas, especificando o tipo de acesso de usuário externo suportado para cada política. Os escopos da política a seguir estão disponíveis para criação e configuração. Por padrão, a política global é criada, mas não pode ser excluída.
 
-  - **Política global a**   política global é criada quando você implanta seus servidores de borda. Por padrão, nenhuma opção de acesso do usuário externo está habilitada na política global. Para suportar o acesso do usuário externo a nível global, você deve configurar a política global para suportar um ou mais tipos de opções de acesso do usuário externo. A política global se aplica a todos os usuários na sua organização, mas as políticas locais e as políticas de usuário substituem a política global. Ao excluir a política global, ela não é removida. Ao invés, é redefinida para a configuração padrão.
+  - **Política global**   A política global é criada quando você implanta seus Servidores de Borda. Por padrão, nenhuma opção de acesso do usuário externo está habilitada na política global. Para suportar o acesso do usuário externo a nível global, você deve configurar a política global para suportar um ou mais tipos de opções de acesso do usuário externo. A política global se aplica a todos os usuários na sua organização, mas as políticas locais e as políticas de usuário substituem a política global. Ao excluir a política global, ela não é removida. Ao invés, é redefinida para a configuração padrão.
 
-  - **Política de site**   você pode criar e configurar uma ou mais políticas de site para limitar o suporte ao acesso de usuários externos a sites específicos. A configuração da política de local substitui a política global, mas apenas para o local específico e coberto por essa política. Por exemplo, se você ativar o acesso de usuário remoto na política global, pode especificar uma política de local que o desative para um local específico. Por padrão, a política de local é aplicada a todos os usuários do local, mas você pode atribuir uma política de usuário para substituir a configuração da política de local.
+  - **Política de site**   Você pode criar e configurar uma ou mais políticas de site para limitar o suporte ao acesso de usuários externos a sites específicos. A configuração da política de local substitui a política global, mas apenas para o local específico e coberto por essa política. Por exemplo, se você ativar o acesso de usuário remoto na política global, pode especificar uma política de local que o desative para um local específico. Por padrão, a política de local é aplicada a todos os usuários do local, mas você pode atribuir uma política de usuário para substituir a configuração da política de local.
 
-  - **Política de usuário**   você pode criar e configurar uma ou mais políticas de usuário para limitar o suporte ao acesso de usuários remotos a usuários específicos. A configuração da política de usuário substitui a política global e a do local, mas apenas para usuários específicos aos quais a política de usuário é atribuída. Por exemplo, se você ativar o acesso de usuário remoto na política global e na de local, deve especificar uma política de usuário que a desative e depois atribuir essa política de usuário a usuários específicos. Se você criar uma política de usuário, deve aplicá-la a um ou mais usuários antes que ela surta efeito.
+  - **Política de usuário**   Você pode criar e configurar uma ou mais políticas de usuário para limitar o suporte ao acesso de usuário remoto a usuários específicos. A configuração da política de usuário substitui a política global e a do local, mas apenas para usuários específicos aos quais a política de usuário é atribuída. Por exemplo, se você ativar o acesso de usuário remoto na política global e na de local, deve especificar uma política de usuário que a desative e depois atribuir essa política de usuário a usuários específicos. Se você criar uma política de usuário, deve aplicá-la a um ou mais usuários antes que ela surta efeito.
 
 <div>
 
 
 > [!IMPORTANT]  
-> As configurações de política do Lync Server aplicadas em um nível de política podem substituir as configurações que são aplicadas em outro nível de política. A precedência de política do Lync Server é: a política de usuário (maior influência) substitui uma política de site e, em seguida, uma política de site substitui uma política global (menos influência). Isso significa que quanto mais próxima a configuração de diretiva for o objeto que a política está afetando, maior será a influência sobre o objeto.
+> As configurações de política do Lync Server aplicadas em um nível de política podem substituir as configurações que são aplicadas em outro nível de política. A precedência de política do Lync Server é: a política de usuário (maior influência) substitui uma política de site e, em seguida, uma política de site substitui uma política global (menos influência). Isso significa que quanto mais próxima a configuração da política estiver do objeto que a política estiver afetando, maior será a influência sobre o objeto.
 
 
 
@@ -59,7 +59,7 @@ Por padrão, não há políticas configuradas para suportar o acesso de usuário
 
 Essas opções incluem os seguintes tipos de acesso externo:
 
-  - **Habilitar comunicações com usuários**   federados habilitará isso se você quiser dar suporte ao acesso de usuários a domínios de parceiros federados. Essa configuração configura a capacidade de os usuários se comunicarem com outros domínios federados SIP, bem como provedores hospedados como o Microsoft Office 365. Selecionar essa configuração permite que você selecione a opção para permitir a comunicação com domínios XMPP federados.
+  - **Habilitar comunicações com usuários federados**   Habilite esta opção se desejar oferecer suporte para o acesso de usuários a domínios parceiros federados. Essa configuração configura a capacidade de os usuários se comunicarem com outros domínios federados SIP, bem como provedores hospedados como o Microsoft 365. Selecionar essa configuração permite que você selecione a opção para permitir a comunicação com domínios XMPP federados.
     
     Como opção, você pode selecionar **Permitir comunicações com parceiros XMPP federados** se você primeiro selecionar **Permitir comunicações com usuários federados**. A federação XMPP é uma federação com organizações que utilizam o XMPP (extensible messaging and presence protocol).
     
@@ -72,9 +72,9 @@ Essas opções incluem os seguintes tipos de acesso externo:
     
     </div>
 
-  - **Habilitar comunicações com usuários**   remotos habilite essa opção se você quiser que os usuários em sua organização que estejam fora do firewall, como telecomutadores e usuários que estão viajando, possam se conectar ao Lync Server pela Internet.
+  - **Habilitar comunicações com usuários**     remotos Habilite essa opção se quiser que os usuários em sua organização que estejam fora do firewall, como telecomutadores e usuários que estão viajando, possam se conectar ao Lync Server pela Internet.
 
-  - **Habilitar comunicações com usuários**   públicos habilite essa opção se você quiser que os usuários internos possam se comunicar com contatos do provedor de mensagens instantâneas públicos, como os fornecidos pelo\!Windows Live, Yahoo e America Online (AOL).
+  - **Habilitar comunicações com usuários públicos**     Habilite essa opção se quiser que usuários internos possam se comunicar com contatos do provedor de mensagens instantâneas públicos, como os fornecidos pelo Windows Live, Yahoo \! e America Online (AOL).
     
     <div>
     
@@ -101,15 +101,15 @@ Essas opções incluem os seguintes tipos de acesso externo:
 
 </div>
 
-**Para exibir as políticas de acesso externo usando os cmdlets do Windows PowerShell**
+**Para exibir políticas de acesso externo usando os cmdlets do Windows PowerShell**
 
-  - Você pode visualizar as políticas de acesso externo usando o Shell de gerenciamento do Lync Server e o cmdlet **Get-CsExternalAccessPolicy** . Você pode executar esse cmdlet do Shell de gerenciamento do Lync Server 2013 ou de uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Lync Server, consulte o artigo de blog do Lync Server Windows PowerShell "início rápido: Managing Microsoft Lync Server [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)2010 using Remote PowerShell" em.
+  - Você pode visualizar as políticas de acesso externo usando o Shell de gerenciamento do Lync Server e o cmdlet **Get-CsExternalAccessPolicy** . Você pode executar esse cmdlet do Shell de gerenciamento do Lync Server 2013 ou de uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Lync Server, consulte o artigo de blog do Lync Server Windows PowerShell "início rápido: Managing Microsoft Lync Server 2010 using Remote PowerShell" em [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) .
     
-    Para exibir informações sobre todas as suas políticas de acesso externo, digite o seguinte comando no Shell de gerenciamento do Lync Server e pressione ENTER:
+    Para exibir informações sobre todas as suas políticas de acesso externo, digite o seguinte comando no Shell de Gerenciamento do Lync Server e pressione ENTER:
     
         Get-CsExternalAccessPolicy
     
-    Esse comando retorna informações semelhantes às seguintes:
+    Esse comando retornará informações parecidas com:
     
         Identity                          : Global
         Description                       :

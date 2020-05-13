@@ -7,17 +7,17 @@ f1.keywords:
 - NOCSH
 TOCTitle: Technical diagrams
 ms:assetid: 7b6da49b-ac72-4ab0-8957-166e330b38fa
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn594589(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Dn594589(v=OCS.15)
 ms:contentKeyID: 61180439
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 14a76769398b93e422a3d9cad2f8f84ad1c6f8bc
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 37a6ec347e6a6907ebd0736556ea02053ab05202
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194974"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44219681"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +37,7 @@ ms.locfileid: "42194974"
 
 _**Última modificação do tópico:** 2014-03-14_
 
-**Resumo:** esses diagramas fornecem representações visuais de soluções recomendadas para o Lync 2013.
+**Resumo:**   Esses diagramas fornecem representações visuais de soluções recomendadas para o Lync 2013.
 
 Esses recursos estão disponíveis no formato Visio (. vsd) (Visio 2010 ou Visio 2013) e no formato PDF. Para obter informações sobre como imprimir documentos, consulte Dicas para impressão de cartazes.
 
@@ -87,7 +87,7 @@ Esses pôsteres detalham uma área técnica específica e devem ser usados com o
 </colgroup>
 <thead>
 <tr class="header">
-<th>Cargo</th>
+<th>Título</th>
 <th>Descrição</th>
 </tr>
 </thead>
@@ -136,7 +136,7 @@ Esses pôsteres detalham uma área técnica específica e devem ser usados com o
 <p><a href="https://go.microsoft.com/fwlink/p/?linkid=391840">Amplie o cartaz em detalhes com o Zoom.it da Microsoft</a></p>
 <p><a href="https://go.microsoft.com/fwlink/p/?linkid=391837">Versão em PDF</a> (melhor para dispositivos móveis ou tablets)</p>
 <p><a href="https://go.microsoft.com/fwlink/p/?linkid=391839">Versão do Visio</a> (melhor para usuários com o Visio)</p></td>
-<td><p>Este cartaz descreve as opções de plataforma disponíveis para o Lync 2013 para os BDMs e arquitetos os clientes podem escolher do Lync Online com o Office 365, o Hybrid Lync, o Lync Server local e o Lync hospedado. O cartaz inclui detalhes de cada opção de arquitetura, incluindo os cenários mais ideais para cada uma delas, os requisitos de licença e as responsabilidades dos profissionais de TI.</p>
+<td><p>Este cartaz descreve as opções de plataforma disponíveis para o Lync 2013 para BDMs e arquitetos os clientes podem escolher entre o Lync Online e o Microsoft 365, o Hybrid Lync, o Lync Server local e o Lync hospedado. O cartaz inclui detalhes de cada opção de arquitetura, incluindo os cenários mais ideais para cada uma delas, os requisitos de licença e as responsabilidades dos profissionais de TI.</p>
 <p>Tamanho: 34 por-44 polegadas</p>
 <p>Este cartaz foi criado usando o Visio 2013. Nenhuma modificação deve ser necessária para um ambiente específico.</p></td>
 </tr>

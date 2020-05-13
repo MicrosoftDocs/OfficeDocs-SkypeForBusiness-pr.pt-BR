@@ -12,12 +12,12 @@ ms:contentKeyID: 51541531
 ms.date: 09/21/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 82e66cf65d8aa29e476e759bd1f09ccbbf7b61f5
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: de331cc4742a3a995a63ea4848e2515871fb5f69
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780240"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221211"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -412,8 +412,7 @@ No iPhone e iPad, o Lync se desconecta automaticamente se o usuário não tiver 
 </table>
 
 
-1 não está disponível para os usuários do Skype for Business Online e/ou Microsoft 365 ou do Office 365.
-
+1 não está disponível para usuários do Skype for Business Online, Microsoft 365 ou Office 365.
 </div>
 
 <div>
@@ -757,11 +756,11 @@ No iPhone e iPad, o Lync se desconecta automaticamente se o usuário não tiver 
 </table>
 
 
-1 para os usuários do Microsoft 365 ou do Office 365, este recurso está disponível apenas para reuniões habilitadas para o provedor de conferência de áudio (ACP).
+1 para os usuários do Office 365 e do Microsoft 365, este recurso está disponível apenas para reuniões habilitadas para o provedor de conferência de áudio (ACP).
 
 2 não disponível para usuários do Microsoft 365 ou do Office 365.
 
-3 para o Skype for Business Online e/ou para o Microsoft 365 ou o usuário do Office 365, esse recurso está disponível a partir de provedores de conferência de áudio de terceiros.
+3 para o Skype for Business Online, o Microsoft 365 ou o Office 365 Users, esse recurso está disponível a partir de provedores de conferência de áudio de terceiros.
 
 a apresentação do PowerPoint 4A compartilhada pelo Lync Web App não pode ser exibida no Lync Mobile 2013. As anotações feitas nos clientes de área de trabalho do Lync 2013 não são visíveis em dispositivos móveis.
 
@@ -892,13 +891,13 @@ a apresentação do PowerPoint 4A compartilhada pelo Lync Web App não pode ser 
 </table>
 
 
-1 Lync Server 2013, Skype for Business Online e Office 365 os usuários podem ligar para outros usuários do Lync e usuários do Skype tocando no ícone. Os usuários do Lync Server 2013 também podem fazer chamadas PSTN tocando no ícone.
+1 Lync Server 2013, Skype for Business Online e Microsoft 365 ou Office 365 os usuários podem ligar para outros usuários do Lync e usuários do Skype tocando no ícone. Os usuários do Lync Server 2013 também podem fazer chamadas PSTN tocando no ícone.
 
-2 para usuários locais do Lync Server 2013, em dispositivos Windows Phone, iPhone e iPad, o usuário toca o ícone de chamada no cartão de visita e aceita o retorno de chamada do Lync Server 2013. Para o usuário Microsoft 365 ou Office 365, em dispositivos Windows Phone, iPhone e iPad, quando o usuário toca no botão de chamada, uma caixa de diálogo é aberta solicitando que o usuário confirme se deseja chamar o número.
+2 para usuários locais do Lync Server 2013, em dispositivos Windows Phone, iPhone e iPad, o usuário toca o ícone de chamada no cartão de visita e aceita o retorno de chamada do Lync Server 2013. Para usuários do Microsoft 365 ou do Office 365, em dispositivos Windows Phone, iPhone e iPad, quando o usuário toca no botão de chamada, uma caixa de diálogo é aberta solicitando que o usuário confirme se deseja chamar o número.
 
-3 indisponível para o Skype for Business Online e/ou para o Microsoft 365 ou para o usuário do Office 365.
+3 não disponível para usuários do Skype for Business Online, Microsoft 365 ou Office 365
 
-4 para o Skype for Business Online e/ou o Microsoft 365 ou o usuário do Office 365, esse recurso tem suporte dos parceiros da Microsoft.
+4 para usuários do Skype for Business Online, Microsoft 365 ou Office 365, esse recurso tem suporte dos parceiros da Microsoft.
 
 </div>
 
@@ -973,7 +972,7 @@ a apresentação do PowerPoint 4A compartilhada pelo Lync Web App não pode ser 
 
 1 por padrão, os usuários federados recebem a relação de privacidade contatos externos. Para poder acessar um contato federado em seu celular chamando o número de trabalho publicado, o contato federado deve atribuir manualmente o relacionamento de privacidade de colegas.
 
-2 indisponível para os usuários do Office 365.
+2 não disponível para usuários do Microsoft 365 ou do Office 365.
 
 </div>
 
@@ -1080,4 +1079,3 @@ a apresentação do PowerPoint 4A compartilhada pelo Lync Web App não pode ser 
 </div>
 
 </div>
-

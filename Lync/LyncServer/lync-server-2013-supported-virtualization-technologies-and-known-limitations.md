@@ -12,12 +12,12 @@ ms:contentKeyID: 48184428
 ms.date: 02/07/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c81b56fd8d0922b011840aa2b3133ce05d32ad13
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0968f79b8c9aedc3dc2d2318a2e8abf5c51531d7
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42218277"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221141"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -45,9 +45,9 @@ O plug-in de VDI do Lync permite chamadas de áudio e vídeo para tecnologias de
 
 O plug-in de VDI do Lync suporta o Remoting completo de área de trabalho no cenário de área de trabalho virtual pessoal, mas não no cenário de sessão de área de trabalho remota. Esses cenários podem ser descritos da seguinte maneira:
 
-  - **Com suporte: áreas de trabalho virtuais personalizadas ou VDI (Virtual Desktop Infrastructure).**    Neste cenário, cada usuário faz logon em uma área de trabalho virtual personalizável e pode salvar arquivos na área de trabalho que persistem entre as sessões. Os serviços de área de trabalho remota da Microsoft, o modo de exibição de horizonte VMware e o Citrix XenDesktop são implementações que foram testadas para uso com o Lync. Para obter informações sobre ambientes VDI específicos do fornecedor e hardware de cliente que foram testados pela Microsoft, consulte [infraestrutura qualificada para Microsoft Lync](https://go.microsoft.com/fwlink/?linkid=313435).
+  - **Com suporte: áreas de trabalho virtuais personalizadas ou VDI (Virtual Desktop Infrastructure).**     Neste cenário, cada usuário faz logon em uma área de trabalho virtual personalizável e pode salvar arquivos na área de trabalho que persistem entre as sessões. Os serviços de área de trabalho remota da Microsoft, o modo de exibição de horizonte VMware e o Citrix XenDesktop são implementações que foram testadas para uso com o Lync. Para obter informações sobre ambientes VDI específicos do fornecedor e hardware de cliente que foram testados pela Microsoft, consulte [infraestrutura qualificada para Microsoft Lync](https://go.microsoft.com/fwlink/?linkid=313435).
 
-  - **Sem suporte: sessões da área de trabalho remota.**    Neste cenário, cada usuário faz logon em uma sessão de área de trabalho virtual genérica que não pode ser personalizada. As implementações de exemplo incluem sessões de área de trabalho remota da Microsoft (RDSH) e Citrix XenApp combinados com o receptor Citrix.
+  - **Sem suporte: sessões da área de trabalho remota.**     Neste cenário, cada usuário faz logon em uma sessão de área de trabalho virtual genérica que não pode ser personalizada. As implementações de exemplo incluem sessões de área de trabalho remota da Microsoft (RDSH) e Citrix XenApp combinados com o receptor Citrix.
 
 O plug-in do Lync VDI não oferece suporte a outras tecnologias de virtualização, como a virtualização de aplicativo, que permite o uso de um aplicativo sem exigir a instalação do aplicativo completo localmente. As implementações de exemplo incluem o Citrix XenApp e o Microsoft Application Virtualization (App-V). Não há suporte para o fluxo de aplicativos, comunicação remota de aplicativos e modos de virtualização mista (por exemplo, aplicativos remotos de área de trabalho remota).
 
@@ -81,7 +81,7 @@ Veja a seguir as limitações conhecidas quando você usa o Lync 2013 em um ambi
     
       - Toques personalizados e recursos de música em espera.
 
-  - O plug-in do Lync VDI não é suportado em um ambiente do Office 365.
+  - O plug-in do Lync VDI não é suportado em um ambiente do Microsoft 365 ou do Office 365.
 
 </div>
 

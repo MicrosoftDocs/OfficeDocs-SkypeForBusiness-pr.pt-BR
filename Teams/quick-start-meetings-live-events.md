@@ -17,20 +17,20 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5358e169c66764cc3343feeb78365fbe47cab452
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 3c02d93fb010b603e973077029b9b6710c5e0ba7
+ms.sourcegitcommit: 7c08d88dcaa85e34e93131bb9a5a64597c6d8155
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042468"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44210637"
 ---
 # <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>Início rápido do administrador – reuniões e eventos ao vivo no Microsoft Teams
 
 Há duas maneiras de se reunir no Microsoft Teams – reuniões e eventos ao vivo. Use este artigo para implementar e configurar reuniões e eventos ao vivo na sua organização rapidamente. 
 
- - As **reuniões** no Teams incluem áudio, vídeo e compartilhamento de tela para até 250 pessoas. Elas são uma das principais maneiras de colaboração no Teams. E não é necessário ser membro de uma organização (nem mesmo ter uma conta do Teams!) para participar de uma reunião do Teams – basta verificar no convite as instruções sobre como ingressar. 
+ - As **Reuniões** no Teams incluem áudio, vídeo e compartilhamento de tela para até 350 pessoas. Elas são uma das principais maneiras de colaboração no Teams. E não é necessário ser membro de uma organização (nem mesmo ter uma conta do Teams!) para participar de uma reunião do Teams – basta verificar no convite as instruções sobre como ingressar. 
 
- - Os **eventos ao vivo** são uma extensão das reuniões do Teams e permitem agendar e produzir eventos que podem ser transmitidos para grandes públicos online – até 10.000 pessoas. Se você precisar de uma reunião para mais de 250 pessoas, use um evento ao vivo.
+ - Os **eventos ao vivo** são uma extensão das reuniões do Teams e permitem agendar e produzir eventos que podem ser transmitidos para grandes públicos online – até 10.000 pessoas. Se você precisar de uma reunião para mais de 350 pessoas, use um evento ao vivo.
 
 ## <a name="get-licenses-for-meetings-and-live-events"></a>Obter licenças para reuniões e eventos ao vivo
 
