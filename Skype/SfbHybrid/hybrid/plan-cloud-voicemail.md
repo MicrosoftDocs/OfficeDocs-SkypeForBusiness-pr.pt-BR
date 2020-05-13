@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Este artigo descreve os benefícios, as considerações de planejamento e os requisitos para implementar o serviço de caixa postal do Microsoft Cloud. Para obter informações sobre como configurar a caixa postal em nuvem, consulte Configuring Cloud postal.
-ms.openlocfilehash: 07448ab8232115e19c01261dc487c04b5a2dd4f9
-ms.sourcegitcommit: 6cfaadec5782ca7316db36472bd0be20217da693
+ms.openlocfilehash: 30a4983c79f4a7cddd274c272b5a094c17653bbb
+ms.sourcegitcommit: 7c08d88dcaa85e34e93131bb9a5a64597c6d8155
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/29/2020
-ms.locfileid: "42341767"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44210627"
 ---
 # <a name="plan-cloud-voicemail-service-for-on-premises-users"></a>Planejar o serviço de caixa postal na nuvem para usuários locais
 
@@ -79,7 +79,7 @@ Além dos requisitos acima, os requisitos a seguir devem ser configurados para s
 
 - Uma URL do EWS (serviços Web do Exchange) externa e descoberta automática deve ser configurada ou alguns recursos de caixa postal na nuvem serão limitados.
 
-- Se você tiver uma implantação local somente&#x2014;ou seja, somente servidores do Exchange e do Skype for Business&#x2014;mas quiser aproveitar as vantagens da caixa postal na nuvem, não será necessário ter licenças adicionais.
+- Se você tiver uma implantação local somente&#x2014;ou seja, somente servidores do Exchange e do Skype for Business&#x2014;, mas quiser aproveitar as vantagens da caixa postal na nuvem, será necessário ter uma licença do sistema de telefonia.
 
 ## <a name="migration-and-interoperability"></a>Migração e interoperabilidade
 
@@ -100,6 +100,6 @@ A Microsoft recomenda os seguintes caminhos de migração:
 
 - Se você estiver atualizando para o Skype for Business Server 2019, poderá usar o UM do Exchange no Exchange Server 2013 ou 2016, mas deverá atualizar para a caixa postal em nuvem se estiver usando o Exchange Server 2019.
 - Se você estiver atualizando para o Exchange Server 2019 e estiver usando versões anteriores do Exchange Server UM para mensagens de voz do Skype for Business Server, a Microsoft recomenda que você atualize para o Skype for Business Server 2019 antes da atualização de caixa de correio.  Caso contrário, os recursos de mensagens de voz serão perdidos.
-- Se você estiver atualizando para o Skype for Business Server 2019 e tiver o Skype for Business Server 2015 configurado para caixa postal com a UM do Exchange Online, a caixa postal dos usuários migrará automaticamente da UM do Exchange Online para a caixa postal em nuvem quando sua conta for movida para Skype for Business Server 2019. 
+- Se você estiver atualizando para o Skype for Business Server 2019 e tiver o Skype for Business Server 2015 configurado para caixa postal com a UM do Exchange Online, a caixa postal dos usuários migrará automaticamente da UM do Exchange Online para a caixa postal em nuvem quando sua conta for movida para o Skype for Business Server 2019. 
 
 Para obter mais informações sobre como planejar sua migração, consulte [Plan for Skype for Business Server and Exchange Server Migration](plan-um-migration.md).
