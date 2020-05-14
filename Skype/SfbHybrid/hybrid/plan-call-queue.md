@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Visão geral do uso de um atendedor automático na nuvem com o Skype for Business Server 2019.
-ms.openlocfilehash: d14aeab9857f2a54e6622fb368193a2e270e0f49
-ms.sourcegitcommit: 477aac9e14fced139ee7dd827942ce35b9769b63
+ms.openlocfilehash: 2186909b3ec905d6ec6d387bcea172d8fb80287c
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "43510790"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221301"
 ---
 # <a name="plan-cloud-call-queues"></a>Planejar filas de chamada em nuvem
 
@@ -43,7 +43,7 @@ Além dos requisitos acima, os requisitos a seguir devem ser configurados para s
 
 - Conectividade híbrida. Se você já tiver o Skype for Business Server implantado e quiser habilitar as filas de chamadas em nuvem para seus usuários locais, você deve garantir que a conectividade híbrida seja configurada entre seus ambientes locais e online. Isso às vezes é chamado de configuração de domínio dividido.
 
-   Para saber mais, confira [planejar conectividade híbrida entre o Skype for Business Server e o office 365](plan-hybrid-connectivity.md) e [Configurar a conectividade híbrida entre o Skype for Business Server e o Office 365](configure-hybrid-connectivity.md).
+   Para saber mais, confira [planejar conectividade híbrida entre o Skype for Business Server e o microsoft 365 ou o office 365](plan-hybrid-connectivity.md) e [Configurar a conectividade híbrida entre o Skype for Business Server e o Microsoft 365 ou o Office 365](configure-hybrid-connectivity.md).
 
 - Se você estiver atribuindo um número de telefone a uma conta de recurso, agora poderá usar a licença de usuário virtual do sistema de telefonia livre de custo. Isso fornece recursos do sistema de telefonia para números de telefone no nível organizacional e permite que você crie recursos de atendedor automático e fila de chamadas.
 
@@ -65,8 +65,8 @@ Quando você tem uma estrutura sólida que atende às suas necessidades e um scr
 
 [Configurar um atendedor automático do Cloud](/MicrosoftTeams/create-a-phone-system-auto-attendant)
 
-[Planejar conectividade híbrida entre o Skype for Business Server e o Office 365](plan-hybrid-connectivity.md)
+[Planejar a conectividade híbrida entre o Skype for Business Server e o Microsoft 365 ou o Office 365](plan-hybrid-connectivity.md)
 
-[Configurar a conectividade híbrida entre o Skype for Business Server e o Office 365](configure-hybrid-connectivity.md)
+[Configurar a conectividade híbrida entre o Skype for Business Server e o Microsoft 365 ou o Office 365](configure-hybrid-connectivity.md)
 
 [Gerenciar contas de recursos no Microsoft Teams](/MicrosoftTeams/manage-resource-accounts)

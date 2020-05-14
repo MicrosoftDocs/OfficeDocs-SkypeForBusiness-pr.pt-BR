@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - ms.teamsadmincenter.voice.callerid.overview
 description: A identificação de chamadas pode ser controlada para chamadas de entrada e de saída para usuários do sistema telefônico usando uma política chamada CallingLineIdentity.
-ms.openlocfilehash: af578cf92f6c19e8ac612dfe8301914c9e55833b
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 2547e6ca3aed10d112897aa1b24900a479c5c8ef
+ms.sourcegitcommit: a7c823f61d9ab88424bad924113d780ce11e509f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836303"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44224204"
 ---
 # <a name="how-can-caller-id-be-used-in-your-organization"></a>Como a identificação de chamadas pode ser usada em sua organização
 
@@ -46,7 +46,7 @@ A funcionalidade de identificação de chamadas está disponível para todos os 
   
 ## <a name="outbound-caller-id"></a>Identificação de chamada de saída
 
-Existem três opções disponíveis para a identificação de chamada PSTN de saída:
+Há três opções disponíveis para a identificação de chamadas PSTN de saída:
   
 - O número de telefone atribuído ao usuário, que é o padrão.
     
@@ -62,11 +62,11 @@ No entanto, você não pode atribuir esses tipos de números de telefone para id
     
 Para definir a identificação de chamada de saída, consulte [Definir a identificação de chamadas para um usuário](/microsoftteams/set-the-caller-id-for-a-user).
   
-### <a name="end-user-control-of-outbound-caller-id"></a>Controle de usuário final de identificação de chamada de saída
+### <a name="end-user-control-of-outbound-caller-id"></a>Controle do usuário final da identificação de chamadas de saída
 
-The EnableUserOverride attribute enables single or multiple users to change their Caller ID setting to **Anonymous**. This only applies when a CallingLineIdentity policy is configured with a CallingIDSubstitute parameter of either LineURI or Substitute. The default value of EnableUserOverride is False.
+O atributo EnableUserOverride permite que um ou vários usuários alterem a configuração de identificação de chamadas para **anônima**. Isso só se aplica quando uma política CallingLineIdentity é configurada com um parâmetro CallingIDSubstitute de LineURI ou substituto. O valor padrão de EnableUserOverride é false.
   
-Seus usuários finais podem definir a identificação de chamadas como **anônimas** usando a guia **configurações** no cliente da área de trabalho do Skype for Business, selecionar **chamadas para um usuário final** (se habilitado pelo administrador), selecionar **ocultar meu número de telefone e informações de perfil para todas as chamadas**.
+Seus usuários finais podem definir a identificação de chamadas como **anônimas** usando a guia **configurações** no cliente da área de trabalho do Skype for Business, selecione **chamadas para um usuário final** (se habilitada por administrador) e selecione **ocultar meu número de telefone e informações de perfil para todas as chamadas**. No Teams, os usuários podem acessar a imagem do perfil no canto superior direito, selecionar **configurações**  >  de**chamadas**e, em seguida, em **identificação de chamadas**, selecionar **ocultar meu número de telefone e informações de perfil para todas as chamadas**.
   
 ||||
 |:-----|:-----|:-----|
@@ -77,7 +77,7 @@ Seus usuários finais podem definir a identificação de chamadas como **anônim
 |MSI  <br/> |Skype for Business  <br/> |Não  <br/> |
 |Mac  <br/> |Skype for Business  <br/> |Não  <br/> |
    
-## <a name="inbound-caller-id"></a>Identificação de chamada de entrada
+## <a name="inbound-caller-id"></a>IDENTIFICAÇÃO de chamada de entrada
 
 O sistema de telefonia mostrará a ID chamada para um número de telefone externo se o número estiver associado a um usuário no Azure AD. Se o número de telefone não estiver no Azure AD, o nome de exibição fornecido pela Telco será exibido se estiver disponível.
 

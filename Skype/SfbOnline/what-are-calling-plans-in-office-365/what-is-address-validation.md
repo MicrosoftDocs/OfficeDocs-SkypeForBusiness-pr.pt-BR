@@ -20,16 +20,16 @@ ms.custom:
 - Calling Plans
 - ms.lync.lac.CivicAddressValidation
 description: 'Saiba o que é a validação de endereço, por que ela é importante e como está relacionada a endereços e serviços de emergência. '
-ms.openlocfilehash: 695698f8d1b6a466829174802f2ece0b92398f7e
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+ms.openlocfilehash: 9cde4246cf449e1259fb7b46264f20d65d3a7849
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769244"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44220691"
 ---
 # <a name="what-is-address-validation"></a>O que é validação de endereço?
 
-Quando você configura Planos de Chamadas no Office 365, precisa atribuir um número de telefone e um endereço de emergência a cada usuário.
+Ao configurar planos de chamada, será preciso atribuir um número de telefone e um endereço de emergência para cada um dos seus usuários.
   
 A validação de um endereço envolve a garantia de que ele está correto e também formatado corretamente. É possível que um endereço de emergência parcialmente correto, como um nome digitado incorretamente na cidade, ainda possa passar na validação. O processo de validação usa todas as partes de um endereço fornecido para determinar se ele contém informações suficientes para encaminhar a chamada para a central de serviços de emergência apropriada. Se for o caso, ele será validado e poderá ser atribuído a um número de telefone.
 

@@ -13,22 +13,22 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Configurar uma conta de recurso para o Skype for Business Server 2019.
-ms.openlocfilehash: 0d7e52892c718f215a269201b73a547a97c13f96
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: b5397a1d179ade5e9d70d6c9cf857bae9319d155
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042838"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221131"
 ---
 # <a name="configure-resource-accounts"></a>Configurar contas de recurso
 
-As implementações híbridas do Skype for Business Server 2019 usam apenas serviços em nuvem fornecidos pelo sistema de telefonia para Unificação de mensagens e não se integram ao Exchange Online. No Skype for Business Server 2019, agora você pode usar as filas de chamadas de nuvem e atendedores automáticos descritos [aqui, o que você obtém com o sistema de telefonia no Office 365](/MicrosoftTeams/here-s-what-you-get-with-phone-system).
+As implementações híbridas do Skype for Business Server 2019 usam apenas serviços em nuvem fornecidos pelo sistema de telefonia para Unificação de mensagens e não se integram ao Exchange Online. No Skype for Business Server 2019, agora você pode usar as filas de chamadas de nuvem e atendedores automáticos descritos [aqui, o que você obtém com o sistema de telefonia no Microsoft 365 ou Office 365](/MicrosoftTeams/here-s-what-you-get-with-phone-system).
 
 Para usar um atendedor automático ou uma fila de chamadas do sistema de telefonia com o Skype for Business Server 2019, você precisará criar contas de recursos que atuem como pontos de extremidade de aplicativo e podem ser atribuídos a números de telefone e, em seguida, use o centro de administração do teams online para configurar a fila de chamadas ou atendedor automático. Essa conta de recurso pode ser hospedada online (Confira [gerenciar contas de recursos no Microsoft Teams](/MicrosoftTeams/manage-resource-accounts) para criar contas de recursos hospedadas online) ou localmente, conforme descrito neste artigo. Normalmente, você terá vários nós de atendedor automático ou de enfileiramento de sistema de telefonia, cada um deles mapeado para contas de recursos, que podem estar hospedados online ou no Skype for Business Server 2019.
 
 Se você tiver um atendedor automático de UM do Exchange e um sistema de fila de chamadas, antes de mudar para o Exchange Server 2019 ou Exchange Online, será necessário registrar manualmente os detalhes conforme descrito abaixo e implementar um sistema completamente novo usando o centro de administração do Microsoft Teams.
 
-## <a name="overview"></a>Visão geral
+## <a name="overview"></a>Visão Geral
 
 Se o atendedor automático ou a fila de chamadas do sistema de telefonia precisar de um número de serviço, as várias dependências poderão ser atendidas na seguinte sequência:
 
@@ -43,7 +43,7 @@ Se o atendedor automático ou a fila de chamadas do sistema de telefonia precisa
 
 Se o atendedor automático ou a fila de chamadas estiverem aninhados em um atendedor automático de nível superior, a conta de recurso associada só precisará de um número de telefone se você quiser vários pontos de entrada na estrutura de atendedores automáticos e filas de chamada.
 
-Para redirecionar as chamadas para pessoas em sua organização que estão hospedadas online, elas devem ter uma licença de **sistema de telefonia** e estar habilitadas para o Enterprise Voice ou ter planos de chamadas do Office 365. Confira [atribuir licenças complementares do Microsoft Teams](/MicrosoftTeams/teams-add-on-licensing/assign-teams-add-on-licenses). Para habilitá-los para o Enterprise Voice, você pode usar o Windows PowerShell. Por exemplo, execute:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+Para redirecionar as chamadas para pessoas em sua organização que estão hospedadas online, elas devem ter uma licença de **sistema de telefonia** e estar habilitadas para o Enterprise Voice ou ter planos de chamadas do Microsoft 365 ou do Office 365. Consulte [atribuir licenças do Microsoft Teams](/MicrosoftTeams/assign-teams-licenses). Para habilitá-los para o Enterprise Voice, você pode usar o Windows PowerShell. Por exemplo, execute:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
 Se o atendedor automático do sistema de telefonia ou a fila de chamada que você estiver criando for aninhado e não precisar de um número de telefone, o processo será:
 
@@ -58,7 +58,7 @@ A criação de uma conta de recurso que usa um número de telefone precisaria ex
 
 1. Porta ou obter um número de serviço de chamada tarifada ou gratuita. O número não pode ser atribuído a nenhum outro serviço de voz ou contas de recurso.
 
-   Antes de atribuir um número de telefone a uma conta de recurso, você precisará obter ou portar os números de serviço de chamada gratuita ou tarifada existentes. Após obter os números de telefone de serviço de chamada tarifada ou gratuita, eles serão exibidos nos**números de telefone**de**voz** > do centro > de **Administração do Microsoft Teams**e o **tipo de número** listado será listado como **serviço de chamada**gratuita. Para obter seus números de serviço, consulte [obter números de telefone de serviço](/MicrosoftTeams/getting-service-phone-numbers) ou se você deseja transferir um número de serviço existente, consulte [transferir números de telefone para o Microsoft Teams](/MicrosoftTeams/phone-number-calling-plans/transfer-phone-numbers-to-teams).
+   Antes de atribuir um número de telefone a uma conta de recurso, você precisará obter ou portar os números de serviço de chamada gratuita ou tarifada existentes. Após obter os números de telefone de serviço de chamada tarifada ou gratuita, eles serão exibidos nos números de telefone de voz do **centro de administração do Microsoft Teams**  >  **Voice**  >  **Phone numbers**e o **tipo de número** listado será listado como **serviço de chamada**gratuita. Para obter seus números de serviço, consulte [obter números de telefone de serviço](/MicrosoftTeams/getting-service-phone-numbers) ou se você deseja transferir um número de serviço existente, consulte [transferir números de telefone para o Microsoft Teams](/MicrosoftTeams/phone-number-calling-plans/transfer-phone-numbers-to-teams).
 
    Se você estiver fora dos Estados Unidos, não poderá usar o centro de administração do Microsoft Teams para obter os números de serviço. Vá para [gerenciar números de telefone para sua organização](/MicrosoftTeams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization) em vez de ver como fazer isso fora dos Estados Unidos.
 
@@ -76,7 +76,7 @@ A criação de uma conta de recurso que usa um número de telefone precisaria ex
 
     Consulte [New-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps) para obter mais detalhes sobre este comando.
 
-4. Opcion Depois que suas contas de recursos são criadas, você pode aguardar que o AD seja sincronizado entre online e localmente, ou forçar uma sincronização e prosseguir para a configuração online do atendedor automático do sistema de telefonia ou filas de chamadas. Para forçar uma sincronização, você deve executar o seguinte comando no computador que está executando o AAD Connect (se você ainda não tiver feito isso, `import-module adsync` você precisará carregar para executar o comando):
+4. Opcion Depois que suas contas de recursos são criadas, você pode aguardar que o AD seja sincronizado entre online e localmente, ou forçar uma sincronização e prosseguir para a configuração online do atendedor automático do sistema de telefonia ou filas de chamadas. Para forçar uma sincronização, você deve executar o seguinte comando no computador que está executando o AAD Connect (se você ainda não tiver feito isso, você precisará carregar `import-module adsync` para executar o comando):
 
     ``` Powershell
     Start-ADSyncSyncCycle -PolicyType Delta
@@ -135,7 +135,7 @@ Faça logon no servidor front-end do Skype for Business e execute os seguintes c
 
     Consulte [New-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps) para obter mais detalhes sobre este comando.
 
-2. Opcion Depois que suas contas de recursos são criadas, você pode aguardar que o AD seja sincronizado entre online e localmente, ou forçar uma sincronização e prosseguir para a configuração online do atendedor automático do sistema de telefonia ou filas de chamadas. Para forçar uma sincronização, você deve executar o seguinte comando no computador que está executando o AAD Connect (se você ainda não tiver feito isso, `import-module adsync` você precisará carregar para executar o comando):
+2. Opcion Depois que suas contas de recursos são criadas, você pode aguardar que o AD seja sincronizado entre online e localmente, ou forçar uma sincronização e prosseguir para a configuração online do atendedor automático do sistema de telefonia ou filas de chamadas. Para forçar uma sincronização, você deve executar o seguinte comando no computador que está executando o AAD Connect (se você ainda não tiver feito isso, você precisará carregar `import-module adsync` para executar o comando):
 
     ``` Powershell
     Start-ADSyncSyncCycle -PolicyType Delta
@@ -209,4 +209,4 @@ A migração do Exchange UM para o sistema de telefonia exigirá a recriação d
 
 [New-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-csonlineapplicationinstance?view=skype-ps)
 
-[Gerenciar contas de recursos no Microsoft Teams](/MicrosoftTeams/manage-resource-accounts) - \(para criar contas de recursos hospedadas online\)
+[Gerenciar contas de recursos no Microsoft Teams](/MicrosoftTeams/manage-resource-accounts)  -  \( para criar contas de recursos hospedadas online\)

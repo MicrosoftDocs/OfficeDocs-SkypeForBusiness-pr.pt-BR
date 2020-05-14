@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 21507e18-bd79-4019-9c3a-0867fccaa3b4
 description: 'Resumo: Leia este tópico para saber mais sobre as práticas recomendadas para implementar e gerenciar grandes reuniões no Skype for Business Server.'
-ms.openlocfilehash: 18b0f036e49996564aa68735300f4e677ce5b1cb
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: acb0dd1dbd0efe93b985ed2f9e143ef1538ecb86
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780230"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221251"
 ---
 # <a name="plan-for-large-meetings-in-skype-for-business-server"></a>Planejar grandes reuniões no Skype for Business Server
  
@@ -26,10 +26,10 @@ ms.locfileid: "43780230"
 O tamanho das reuniões que o Skype for Business Server pode dar suporte depende se a conferência está hospedada em um pool compartilhado ou dedicado: em qualquer lugar de 250 participantes de um pool compartilhado para 1000 participantes em um pool dedicado. 
   
 > [!NOTE]
-> Este tópico se concentra nas práticas recomendadas para grandes reuniões compatíveis com o Skype for Business Server. Se sua organização requer recursos maiores de reunião, você deve considerar a implementação de um ambiente híbrido que aproveita a transmissão de reunião do Skype, um novo serviço online que faz parte do Office 365. 
+> Este tópico se concentra nas práticas recomendadas para grandes reuniões compatíveis com o Skype for Business Server. Se sua organização requer recursos maiores de reunião, você deve considerar a implementação de um ambiente híbrido que aproveita a transmissão de reunião do Skype, um novo serviço online que faz parte do Microsoft 365 e do Office 365. 
 
 > [!NOTE]
-> A transmissão de reunião do Skype permite que os usuários hospedem e transmitam reuniões para grandes audiências online de até 10.000 participantes. O uso da transmissão de reunião do Skype exige que o Skype for Business Server já esteja configurado em uma configuração híbrida com uma organização de produção 365 do Office. Todos os usuários devem ter um locatário online estabelecido como um pré-requisito. Se você estiver interessado em implantar uma solução híbrida que possa aproveitar a transmissão de reunião do Skype, confira [o que é uma transmissão de reunião do Skype?](https://go.microsoft.com/fwlink/?LinkId=617071) e [configure sua implantação local para transmissão de reunião do Skype](../../deploy/configure-skype-meeting-broadcast.md). 
+> A transmissão de reunião do Skype permite que os usuários hospedem e transmitam reuniões para grandes audiências online de até 10.000 participantes. O uso da transmissão de reunião do Skype exige que o Skype for Business Server já esteja configurado em uma instalação híbrida com uma organização de produção Microsoft 365 ou do Office 365. Todos os usuários devem ter um locatário online estabelecido como um pré-requisito. Se você estiver interessado em implantar uma solução híbrida que possa aproveitar a transmissão de reunião do Skype, confira [o que é uma transmissão de reunião do Skype?](https://go.microsoft.com/fwlink/?LinkId=617071) e [configure sua implantação local para transmissão de reunião do Skype](../../deploy/configure-skype-meeting-broadcast.md). 
   
 As grandes reuniões geralmente têm as seguintes características:
   

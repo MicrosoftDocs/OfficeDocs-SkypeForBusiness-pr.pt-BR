@@ -18,12 +18,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: Descreve as soluções de telefonia da Microsoft.
-ms.openlocfilehash: 1ab2feb1a7cc650bc9dbb35d3205a6f9de2de7b7
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c317079284c43f2578141827409655903982b79e
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42048622"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221321"
 ---
 # <a name="microsoft-telephony-solutions"></a>Soluções de telefonia da Microsoft
 
@@ -40,13 +40,13 @@ Você deve usar este artigo junto com o diagrama técnico associado, que fornece
 
 ## <a name="private-branch-exchange-pbx-options"></a>Opções de PBX (central privada de comutação)
 
-### <a name="phone-system-office-365"></a>Sistema de telefonia (Office 365)
+### <a name="phone-system-microsoft-365-or-office-365"></a>Sistema de telefonia (Microsoft 365 ou Office 365)
   
-O sistema de telefonia é a tecnologia da Microsoft para habilitar o controle de chamadas e os recursos de PBX (central privada de comutação telefônica) na nuvem do Office 365 com o Microsoft Teams e/ou o Skype for Business online. 
+O sistema de telefonia é a tecnologia da Microsoft para habilitar o controle de chamadas e os recursos de PBX (central privada de comutação telefônica) na nuvem do Microsoft 365 ou do Office 365 com o Microsoft Teams e/ou o Skype for Business online. 
 
-O sistema de telefonia funciona com o Microsoft Teams ou clientes do Skype for Business Online e dispositivos certificados. O sistema de telefonia permite que você substitua seu sistema PBX existente por um conjunto de recursos fornecidos diretamente pelo Office 365 e totalmente integrado à experiência de produtividade de nuvem da empresa. Para conectar o sistema de telefonia à rede telefônica pública comutada (PSTN), você pode escolher o plano de chamadas da Microsoft ou sua própria operadora de telefonia.
+O sistema de telefonia funciona com o Microsoft Teams ou clientes do Skype for Business Online e dispositivos certificados. O sistema de telefonia permite substituir seu sistema PBX existente por um conjunto de recursos fornecidos diretamente pelo Microsoft 365 ou Office 365 e totalmente integrado à experiência de produtividade de nuvem da empresa. Para conectar o sistema de telefonia à rede telefônica pública comutada (PSTN), você pode escolher o plano de chamadas da Microsoft ou sua própria operadora de telefonia.
 
-Para obter mais informações, consulte [o que é o sistema de telefonia no Office 365](https://docs.microsoft.com/MicrosoftTeams/what-is-phone-system-in-office-365).
+Para obter mais informações, consulte [o que é o sistema de telefonia no Microsoft 365 ou no Office 365](https://docs.microsoft.com/MicrosoftTeams/what-is-phone-system-in-office-365).
 
 ### <a name="enterprise-voice-skype-for-business-server"></a>Enterprise Voice (Skype for Business Server)
 
@@ -58,18 +58,18 @@ Para obter mais informações, consulte [Plan for Enterprise Voice in Skype for 
 
 Você pode optar por se conectar à rede telefônica pública comutada (PSTN) por:
 
-- Usando o plano de chamadas da Microsoft no Office 365 
+- Usando o plano de chamadas da Microsoft no Microsoft 365 ou no Office 365 
 - Conectando sua própria operadora de telefonia
 
-### <a name="calling-plan-office-365"></a>Plano de chamadas (Office 365)
+### <a name="calling-plan-microsoft-365-or-office-365"></a>Plano de chamadas (Microsoft 365 ou Office 365)
 
-Essa opção conecta o sistema de telefonia do Office 365 da Microsoft à rede telefônica pública comutada (PSTN) para habilitar chamadas para telefones fixos e celulares em todo o mundo. Com o plano de chamadas, a Microsoft é a operadora PSTN.
+Essa opção conecta o sistema de telefonia do Microsoft 365 ou do Office 365 à rede telefônica pública comutada (PSTN) para habilitar chamadas para telefones fixos e celulares em todo o mundo. Com o plano de chamadas, a Microsoft é a operadora PSTN.
 
-Confira mais informações em [planos de chamadas para o Office 365](https://docs.microsoft.com/MicrosoftTeams/calling-plans-for-office-365).
+Confira mais informações em [planos de chamadas para o Microsoft 365 ou o Office 365](https://docs.microsoft.com/MicrosoftTeams/calling-plans-for-office-365).
 
-### <a name="connect-your-own-telephony-carrier-office-365-and-skype-for-business-on-premises"></a>Conectar sua própria portadora de telefonia (Office 365 e Skype for Business no local)
+### <a name="connect-your-own-telephony-carrier-microsoft-365-or-office-365-and-skype-for-business-on-premises"></a>Conectar sua própria portadora de telefonia (Microsoft 365 ou Office 365 e Skype for Business no local)
 
-Essa opção conecta o sistema de telefonia no Office 365 ou no sistema Enterprise Voice no Skype for Business no local para sua rede de telefonia. Essa opção requer um SBC (controlador de borda de sessão) suportado. Em alguns casos, essa opção pode exigir software adicional da Microsoft implantado no local.
+Essa opção conecta o sistema de telefonia no Microsoft 365 ou no Office 365 ou no sistema Enterprise Voice no Skype for Business no local para sua rede de telefonia. Essa opção requer um SBC (controlador de borda de sessão) suportado. Em alguns casos, essa opção pode exigir software adicional da Microsoft implantado no local.
 
 ## <a name="which-solution-is-right-for-your-organization"></a>Qual é a solução certa para a sua organização?
 
@@ -115,12 +115,12 @@ O sistema de telefonia com plano de chamadas é uma opção tudo na nuvem para u
 
 
 - Sistema de telefonia da Microsoft com planos de chamadas domésticas ou internacionais adicionados que permitem a chamada para telefones em todo o mundo (dependendo do nível de serviço que está sendo licenciado). 
-- Como o plano de chamada PSTN opera fora do Office 365, essa opção não requer implantação ou manutenção de nenhuma implantação local.
+- Como o plano de chamada PSTN Opera de fora do Microsoft 365 ou do Office 365, essa opção não requer implantação ou manutenção de nenhuma implantação local.
 - Os clientes podem conectar um SBC com suporte via roteamento direto para interoperabilidade com PBX de terceiros, dispositivos analógicos e outros equipamentos de telefonia de terceiros suportados pelo SBC.
 
 | Requisitos de infraestrutura                   | Obrigatório?|
 | :----------------------------------------------------| ---------:|
-| Requer conexão ininterrupta com o Office 365 | Sim |
+| Requer conexão ininterrupta com o Microsoft 365 ou o Office 365 | Sim |
 | Disponível em todo o mundo *                            | Não  |
 | Requer a implantação e a manutenção de um SBC (controlador de borda de sessão) suportado | Não |
 | Requer contrato com portadora de terceiros      | Não   |
@@ -137,7 +137,7 @@ Se você responder sim às perguntas a seguir, esta é a solução certa para vo
 - Você não deseja gerenciar controladores de borda de sessão por conta própria.
 - O Microsoft Teams e/ou o Skype for Business online tem todos os recursos exigidos pela sua organização.
 
-Para obter mais informações, consulte [o que é o sistema de telefonia no office 365](https://docs.microsoft.com/MicrosoftTeams/what-is-phone-system-in-office-365) e [planos de chamadas para o Office 365](https://docs.microsoft.com/MicrosoftTeams/calling-plans-for-office-365).
+Para obter mais informações, consulte [o que é o sistema de telefonia no microsoft 365 e o office 365](https://docs.microsoft.com/MicrosoftTeams/what-is-phone-system-in-office-365) e [planos de chamadas para o Microsoft 365 ou o Office 365](https://docs.microsoft.com/MicrosoftTeams/calling-plans-for-office-365).
 
 ## <a name="phone-system-with-own-carrier-via-direct-routing"></a>Sistema de telefonia com portadora própria via roteamento direto
 
@@ -152,7 +152,7 @@ Essa opção fornece um sistema de telefonia da Microsoft na nuvem com praticame
 
 | Requisitos de infraestrutura                   | Obrigatório?|
 | :----------------------------------------------------| ---------:|
-| Requer conexão ininterrupta com o Office 365 | Sim |
+| Requer conexão ininterrupta com o Microsoft 365 ou o Office 365 | Sim |
 | Disponível em todo o mundo                            | Sim  |
 | Requer a implantação e a manutenção de um SBC (controlador de borda de sessão) suportado | Sim |
 | Requer contrato com uma operadora de terceiros *      | Sim   |
@@ -168,7 +168,7 @@ Se você responder sim às perguntas a seguir, esta é a solução certa para vo
 - Você precisa interoperar com PBXs de terceiros e/ou equipamentos que contenham pagers de sobrecarga, dispositivos analógicos
 - O Microsoft Teams tem todos os recursos exigidos pela sua organização.
 
-Para obter mais informações, consulte [o que é o sistema de telefonia no Office 365](https://docs.microsoft.com/MicrosoftTeams/what-is-phone-system-in-office-365) e [planejar o roteamento direto](https://docs.microsoft.com/MicrosoftTeams/direct-routing-plan).
+Para obter mais informações, consulte [o que é o sistema de telefonia no Microsoft 365 e o Office 365](https://docs.microsoft.com/MicrosoftTeams/what-is-phone-system-in-office-365) e [planejar o roteamento direto](https://docs.microsoft.com/MicrosoftTeams/direct-routing-plan).
 
 
 ## <a name="phone-system-with-own-carrier-via-skype-for-business-server-or-cloud-connector-edition"></a>Sistema de telefonia com sua própria operadora via Skype for Business Server ou Cloud Connector Edition
@@ -184,7 +184,7 @@ Essa opção fornece um sistema de telefonia da Microsoft na nuvem com conectivi
 
 | Requisitos de infraestrutura                   | Obrigatório?|
 | :----------------------------------------------------| ---------:|
-| Requer conexão ininterrupta com o Office 365 | Sim |
+| Requer conexão ininterrupta com o Microsoft 365 ou o Office 365 | Sim |
 | Disponível em todo o mundo                            | Sim  |
 | Requer a implantação e a manutenção de um SBC (controlador de borda de sessão) suportado | Sim |
 | Requer contrato com portadora de terceiros      | Sim   |
@@ -198,7 +198,7 @@ Se você responder sim às perguntas a seguir, esta é a solução certa para vo
 - O plano de chamada PSTN não está disponível em sua região.
 - Você precisa manter sua operadora PSTN atual.
 
-Para obter mais informações, consulte [o que é o sistema de telefonia no Office 365](https://docs.microsoft.com/MicrosoftTeams/what-is-phone-system-in-office-365), [Skype for Business Server 2019](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-server-2019)e [Plan for Skype for Business Cloud Connector Edition](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition).
+Para obter mais informações, consulte [o que é o sistema de telefonia no Microsoft 365 e Office 365](https://docs.microsoft.com/MicrosoftTeams/what-is-phone-system-in-office-365), [Skype for Business Server 2019](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-server-2019)e [Plan for Skype for Business Cloud Connector Edition](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition).
 
 Recomendação: quando as condições de negócios mudam, por exemplo, não é mais necessário manter sua operadora PSTN, considere mudar para o Microsoft Teams usando as opções 1 ou 2 para:
 - Reduzir os custos de manutenção
@@ -217,7 +217,7 @@ Essa opção fornece o Enterprise Voice no local com conectividade a uma rede de
 
 | Requisitos de infraestrutura                   | Obrigatório?|
 | :----------------------------------------------------| ---------:|
-| Requer conexão ininterrupta com o Office 365 | Não |
+| Requer conexão ininterrupta com o Microsoft 365 ou o Office 365 | Não |
 | Disponível em todo o mundo                            | Sim  |
 | Requer a implantação e a manutenção de um SBC (controlador de borda de sessão) suportado | Sim |
 | Requer contrato com portadora de terceiros      | Sim   |
@@ -228,15 +228,3 @@ Para obter mais informações, consulte [Plan for Enterprise Voice in Skype for 
 Recomendação: quando as condições de negócios mudam, por exemplo, não é mais necessário manter sua operadora PSTN, considere mudar para o Microsoft Teams usando as opções 1 ou 2 para:
 - Reduzir os custos de manutenção
 - Ter acesso aos recursos mais recentes lançados pela Microsoft
-
-
-
-
-
-
-
-
-
-
-
-  

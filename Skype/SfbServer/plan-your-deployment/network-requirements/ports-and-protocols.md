@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c94063f1-e802-4a61-be90-022fc185335e
 description: 'Resumo: revise as considerações de uso da porta antes de implementar o Skype for Business Server.'
-ms.openlocfilehash: 33199855d020af08e306022be47a0a9757125adb
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 09b0d187195faa0aa4b5278456991d9223427f9d
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42025782"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44220381"
 ---
 # <a name="port-and-protocol-requirements-for-servers"></a>Requisitos de porta e protocolo para servidores
  
@@ -34,7 +34,7 @@ Embora isso possa parecer um pouco intimidante primeiro, o trabalho pesado para 
   
 Você também pode encontrar as informações nessas tabelas no formulário do diagrama, examinando o pôster de cargas de trabalho de protocolo vinculado dos [diagramas técnicos do artigo do Skype for Business Server 2015](../../technical-diagrams.md) .
 > [!NOTE]
-> - Se você estiver implementando o Skype for Business online (O365) [, consulte URLs e intervalos de endereços IP do Office 365](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US). Os ambientes híbridos precisarão fazer referência a este tópico e também [planejar a conectividade híbrida](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json).
+> - Se você estiver implementando o Skype for Business online (Microsoft 365 ou o Office 365), consulte as [URLs e os intervalos de endereços IP do microsoft 365 e do office 365](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US). Os ambientes híbridos precisarão fazer referência a este tópico e também [planejar a conectividade híbrida](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json).
 > - Você pode ter firewalls de hardware ou software, não exigimos modelos ou versões específicos. O que importa é que as portas são listadas para que o firewall não prejudique o funcionamento do Skype for Business Server.
   
 ## <a name="port-and-protocol-details"></a>Detalhes de Porta e Protocolo
@@ -107,7 +107,7 @@ A tabela a seguir lista as portas que precisam ser abertas em cada função de s
 |Servidor front-end de chats persistentes  |Serviço de transferência de arquivos de chat persistente  |443  |TCP (TLS)  ||
    
 > [!NOTE]
-> Alguns cenários de controle de chamada remota exigem uma conexão TCP entre o Servidor Front-End ou o Diretor e o PBX. Embora o Skype for Business Server não use mais a porta TCP 5060, durante a implantação de controle de chamada remota, você cria uma configuração de servidor confiável, que associa o FQDN do servidor de linha RCC à porta TCP que o servidor front-end ou diretor usará para se conectar ao Sistema PBX. Para obter detalhes, consulte o cmdlet **CsTrustedApplicationComputer** na documentação do Shell de gerenciamento do Skype for Business Server.
+> Alguns cenários de controle de chamada remota exigem uma conexão TCP entre o Servidor Front-End ou o Diretor e o PBX. Embora o Skype for Business Server não use mais a porta TCP 5060, durante a implantação de controle de chamada remota, você cria uma configuração de servidor confiável, que associa o FQDN do servidor de linha RCC à porta TCP que o servidor front-end ou diretor usará para se conectar ao sistema PBX. Para obter detalhes, consulte o cmdlet **CsTrustedApplicationComputer** na documentação do Shell de gerenciamento do Skype for Business Server.
   
 Para os seus pools que usam somente o balanceamento de carga de hardware (não o balanceamento de carga DNS), a tabela a seguir mostra as portas que precisam abrir os balanceadores de carga de hardware.
   
@@ -186,7 +186,7 @@ A tabela a seguir explica as configurações de exceções recomendadas do IPsec
 |:--- |:--- |:--- |:--- |:--- |:--- |:--- |
 |Entrada interna do Servidor de Borda A/V  |Qualquer tamanho  |Interno do Servidor de Borda A/V  |UDP e TCP  |Qualquer tamanho  |Qualquer tamanho  |Não autenticar  |
 |Entrada externa do Servidor de Borda A/V  |Qualquer tamanho  |Externo do Servidor de Borda A/V  |UDP e TCP  |Qualquer tamanho  |Qualquer tamanho  |Não autenticar  |
-|Saída interna do Servidor de Borda A/V  |Interno do Servidor de Borda A/V  |Qualquer tamanho  |TCP &amp; UDP  |Qualquer tamanho  |Qualquer tamanho  |Não autenticar  |
+|Saída interna do Servidor de Borda A/V  |Interno do Servidor de Borda A/V  |Qualquer tamanho  |&amp;TCP UDP  |Qualquer tamanho  |Qualquer tamanho  |Não autenticar  |
 |Saída externa do Servidor de Borda A/V  |Externo do Servidor de Borda A/V  |Qualquer tamanho  |UDP e TCP  |Qualquer tamanho  |Qualquer tamanho  |Não autenticar  |
 |Entrada do Servidor de Mediação  |Qualquer tamanho  |Mediação  <br/> Servidor (es)  |UDP e TCP  |Qualquer tamanho  |Qualquer tamanho  |Não autenticar  |
 |Saída do Servidor de Mediação  |Mediação  <br/> Servidor (es)  |Qualquer tamanho  |UDP e TCP  |Qualquer tamanho  |Qualquer tamanho  |Não autenticar  |

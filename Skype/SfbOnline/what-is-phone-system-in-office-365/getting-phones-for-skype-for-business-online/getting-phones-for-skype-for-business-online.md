@@ -22,25 +22,25 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Saiba quais telefones da Polycom, HP, and Mitel funcionam com o Skype for Business e as licenças necessárias. '
-ms.openlocfilehash: f779462ad6def85cee43139d450d19b5d70195a3
-ms.sourcegitcommit: a61d33fe15982bd8a34f1759b6b89be5aa699fe3
+ms.openlocfilehash: f51465cc86baa37e54acddf732cc5f63e6274aa1
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "41784758"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44220431"
 ---
 # <a name="getting-phones-for-skype-for-business-online"></a>Obter telefones para o Skype for Business Online
 
 Skype for Business Online qualifies and supports desktop phones for users who want to have a traditional phone experience, rather than use the Skype for Business app. This topic covers the phones and firmware versions that are supported for use in Skype for Business Online and other information that can help you when you are setting up phones in your organization.
 
 > [!NOTE]
-> O Skype for Business será substituído lentamente pelo Microsoft Teams como o principal método de comunicação do Office 365.  Veja [uma nova visão para comunicações inteligentes no Office 365](https://www.microsoft.com/microsoft-365/blog/2017/09/25/a-new-vision-for-intelligent-communications-in-office-365/) para obter mais informações.
+> O Skype for Business será substituído lentamente pelo Microsoft Teams como o principal método de comunicação do Microsoft 365 e do Office 365.  Veja [uma nova visão para comunicações inteligentes no Office 365](https://www.microsoft.com/microsoft-365/blog/2017/09/25/a-new-vision-for-intelligent-communications-in-office-365/) para obter mais informações.
 >
 >Para obter as atualizações mais recentes e as informações mais atualizadas sobre os dispositivos compatíveis, consulte os [dispositivos Microsoft Teams para comunicações inteligentes](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1).
   
 ## <a name="supported-phones"></a>Telefones compatíveis
   
-A Microsoft está estabelecendo parcerias e trabalhando em conjunto com o Polycom, o Yealink e o AudioCodes para desenvolver e certificar uma ampla variedade de dispositivos por meio do programa de telefonia IP (PIP) do parceiro para o sistema telefônico no Office 365 e no Skype for Business Server.
+A Microsoft está em parceria e trabalhando em conjunto com o Polycom, o Yealink e o AudioCodes para desenvolver e certificar uma ampla variedade de dispositivos por meio do programa de telefonia IP (PIP) do parceiro para o sistema telefônico.
   
 Ao solicitar novos telefones para o Skype for Business, é importante comprar telefones com a *ID de produto correta*. Essas IDs de produto garantirão que os telefones recebidos tenham a versão qualificada do Skype for Business online já instalada.
   
@@ -64,7 +64,7 @@ Para obter mais detalhes sobre telefones AudioCodes, consulte [telefones IP do S
   
 ## <a name="supported-firmware"></a>Firmware compatível
 
-Esta é a versão mínima de software necessária para telefones compatíveis trabalharem com o Sistema de Telefonia no Office 365:
+Esta é a versão mínima do software necessária para que os telefones compatíveis funcionem com o sistema telefônico:
   
 ||||
 |:-----|:-----|:-----|
@@ -92,24 +92,24 @@ Para obter recursos e recursos completos do dispositivo, verifique os guias de u
 ||||||
 |:-----|:-----|:-----|:-----|:-----|
 |**Recurso** <br/> |**Polycom 3PIP** <br/> |**Yealink 3PIP** <br/> |**AudioCodes 3PIP** <br/> |**LPE** <br/> |
-|Entre com as credenciais dos usuários  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |Não  <br/> |
-|Entrar via PC (Emparelhamento), somente Windows  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |
-|Entrar usando (Entrada na Web)  <br/>  <br/> **Observação:** Verifique a matriz de suporte no guia de implantação.           |Sim  <br/> |Sim  <br/> |Sim  <br/> |Não  <br/> |
-|Clique único para ingressar na reunião  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |
-|Clique para discar (Emparelhamento)  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |
-|Controles de reunião  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |
-|Caixa postal visual  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |
-|Trava de telefone  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |
-|Atualização de dispositivo  <br/> |Sim  <br/> |Sim  <br/> |Sim   <br/> |Sim   <br/> |
-|Provisionamento em banda  <br/> |Sim  <br/> |Sim   <br/> |Sim   <br/> |Sim   <br/> |
-|QoE  <br/> |Sim  <br/> |Sim   <br/> |Sim   <br/> |Não  <br/> |
-|Upload de log  <br/> <br/> **Observação:** Atualmente, todos os logs são carregados somente para a equipe de suporte da Microsoft; o acesso do cliente a logs telefônicos ainda não está disponível.           |Sim  <br/> |Sim   <br/> |Sim   <br/> |Sim   <br/> |
-|Autenticação moderna  <br/> |Sim  <br/> |Sim   <br/> |Sim   <br/> |Não  <br/> |
+|Entre com as credenciais dos usuários  <br/> |Sim   <br/> |Sim   <br/> |Sim  <br/> |Não  <br/> |
+|Entrar via PC (Emparelhamento), somente Windows  <br/> |Sim   <br/> |Sim   <br/> |Sim   <br/> |Sim  <br/> |
+|Entrar usando (Entrada na Web)  <br/>  <br/> **Observação:** Verifique a matriz de suporte no guia de implantação.           |Sim   <br/> |Sim   <br/> |Sim  <br/> |Não  <br/> |
+|Clique único para ingressar na reunião  <br/> |Sim   <br/> |Sim   <br/> |Sim   <br/> |Sim  <br/> |
+|Clique para discar (Emparelhamento)  <br/> |Sim   <br/> |Sim   <br/> |Sim   <br/> |Sim  <br/> |
+|Controles de reunião  <br/> |Sim   <br/> |Sim   <br/> |Sim   <br/> |Sim  <br/> |
+|Caixa postal visual  <br/> |Sim   <br/> |Sim   <br/> |Sim   <br/> |Sim  <br/> |
+|Trava de telefone  <br/> |Sim   <br/> |Sim   <br/> |Sim   <br/> |Sim  <br/> |
+|Atualização de dispositivo  <br/> |Sim  <br/> |Sim   <br/> |Sim   <br/> |Sim   <br/> |
+|Provisionamento em banda  <br/> |Sim   <br/> |Sim   <br/> |Sim   <br/> |Sim   <br/> |
+|QoE  <br/> |Sim   <br/> |Sim   <br/> |Sim  <br/> |Não  <br/> |
+|Upload de log  <br/> <br/> **Observação:** Atualmente, todos os logs são carregados somente para a equipe de suporte da Microsoft; o acesso do cliente a logs telefônicos ainda não está disponível.           |Sim   <br/> |Sim   <br/> |Sim   <br/> |Sim   <br/> |
+|Autenticação moderna  <br/> |Sim   <br/> |Sim   <br/> |Sim  <br/> |Não  <br/> |
 |Vários Números de Emergência  <br/> |Sim  <br/> |Não  <br/> |Não  <br/> |Sim  <br/> |
-|Integração com o calendário do Exchange*  <br/> |Sim  <br/> |Sim   <br/> |Sim   <br/> |Sim   <br/> <br/> **Observação:** Requer compartilhamento de Internet para PC           |
-|Integração de presença  <br/> |Sim  <br/> |Sim   <br/> |Sim   <br/> |Sim   <br/> |
-|Diretório Corporativo  <br/> |Sim  <br/> |Sim   <br/> |Sim   <br/> |Sim  <br/> |
-|Delegação  <br/> |Sim  <br/> |Sim   <br/> |Sim   <br/> |Não  <br/> |
+|Integração com o calendário do Exchange*  <br/> |Sim   <br/> |Sim   <br/> |Sim   <br/> |Sim   <br/> <br/> **Observação:** Requer compartilhamento de Internet para PC           |
+|Integração de presença  <br/> |Sim   <br/> |Sim   <br/> |Sim   <br/> |Sim   <br/> |
+|Diretório Corporativo  <br/> |Sim   <br/> |Sim   <br/> |Sim   <br/> |Sim  <br/> |
+|Delegação  <br/> |Sim  <br/> |Sim   <br/> |Sim  <br/> |Não  <br/> |
 |Integração da imagem do contato  <br/> |Não  <br/> |Sim  <br/> |Não  <br/> |Sim  <br/> |
 ||||||
 
@@ -123,9 +123,9 @@ Para obter instruções de configuração passo a passo, veja [Implantar telefon
 ## <a name="related-topics"></a>Tópicos relacionados
 [Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](../getting-service-phone-numbers.md)
 
-[Veja aqui o que você obtém com o Sistema de Telefonia no Office 365](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
+[Veja o que você obtém com o Sistema de Telefonia](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
 
-[Disponibilidade da Audioconferência e dos Planos de Chamadas por país e região](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
+[Disponibilidade de Audioconferência e Planos de Chamadas por país e região](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
 
   
  

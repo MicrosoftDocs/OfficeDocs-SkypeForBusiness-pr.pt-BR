@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4812c444-2546-48d7-9ca7-b71fce508ed8
 description: 'Resumo: Configure seus requisitos de não-servidor para o Skype for Business Server 2015. Há várias coisas que você deve configurar antes de realizar sua implantação, incluindo Active Directory, DNS, certs e fileshares.'
-ms.openlocfilehash: 164f4b8037c972907eb6d1375f77b3cc350959e5
-ms.sourcegitcommit: 543f650ad4aff73bccfe7a60b66fb944b4e3c119
+ms.openlocfilehash: d552c0c2c6b9f129b6dcf08e927634c6e3bdde6e
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42572799"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44220871"
 ---
 # <a name="environmental-requirements-for-skype-for-business-server-2015"></a>Requisitos ambientais para o Skype for Business Server 2015
  
@@ -168,11 +168,11 @@ Nesta topologia, há uma ou mais florestas de usuários, e o Skype for Business 
 #### <a name="multiple-forests-in-a-resource-forest-topology-with-skype-for-business-online-and-azure-active-directory-connect"></a>Várias florestas em uma topologia de floresta de recursos com o Skype for Business Online e o Azure Active Directory Connect
 <a name="BKMK_multipleforestopology"> </a>
 
-![Mostra duas florestas do AD, uma floresta de usuário e uma floresta de recursos. As duas florestas têm uma relação de confiança. Eles são sincronizados com o Office 365 usando o Azure AD Connect. Todos os usuários estão habilitados para o Skype for Business por meio do Office 365.](../../media/6d54558d-8786-4ebf-90f6-55ae3fdb5ae7.jpg)
+![Mostra duas florestas do AD, uma floresta de usuário e uma floresta de recursos. As duas florestas têm uma relação de confiança. Eles estão sincronizados com o Microsoft 365 ou o Office 365 usando o Azure AD Connect. Todos os usuários estão habilitados para o Skype for Business via Microsoft 365 ou Office 365.](../../media/6d54558d-8786-4ebf-90f6-55ae3fdb5ae7.jpg)
   
-Com esse cenário, há várias florestas no local, com uma topologia de floresta de recursos. Há uma relação de confiança total entre as florestas do Active Directory. A ferramenta Azure Active Directory Connect é usada para sincronizar contas entre as florestas de usuário local e o Office 365.
+Com esse cenário, há várias florestas no local, com uma topologia de floresta de recursos. Há uma relação de confiança total entre as florestas do Active Directory. A ferramenta Azure Active Directory Connect é usada para sincronizar contas entre as florestas do usuário local e o Microsoft 365 ou o Office 365.
   
- A organização também tem o Office 365 e usa o [Azure Active Directory Connect](https://go.microsoft.com/fwlink/p/?LinkId=614836) para sincronizar suas contas locais com o Office 365. Os usuários habilitados para o Skype for Business são habilitados via Office 365 e Skype for Business online. O Skype for Business Server não é implantado no local.
+ A organização também tem o Microsoft 365 ou o Office 365 e usa o [Azure Active Directory Connect](https://go.microsoft.com/fwlink/p/?LinkId=614836) para sincronizar suas contas locais com o Microsoft 365 ou o Office 365. Os usuários habilitados para o Skype for Business são habilitados via Microsoft 365 ou Office 365 e Skype for Business online. O Skype for Business Server não é implantado no local.
   
 A autenticação de logon único é fornecida por um farm de serviços de Federação do Active Directory localizado na floresta do usuário.
   
@@ -210,7 +210,7 @@ E é extremamente importante lembrar que qualquer nome no DNS é idêntico ao no
   
 Isso parece ser lógico para qualquer computador que já tenha ingressado em um domínio, mas se você tiver um servidor de borda que não ingressou no seu domínio, ele poderá ter um nome curto, sem nenhum sufixo de domínio. Certifique-se de que não é o caso, no DNS ou no servidor de borda, ou qualquer servidor ou pool do Skype for Business Server 2015, para esse assunto.
   
-E definitivamente não use caracteres Unicode ou sublinhados. Os caracteres padrão (que são a-Z, a-z, 0-9 e hifens) são aqueles que serão suportados pelas autoridades de certificação públicas e de DNS externo (você precisará atribuir FQDNs ao SN no certificado, não esquecer), portanto, você se reservará muito Grief se Você se deparar com isso em mente.
+E definitivamente não use caracteres Unicode ou sublinhados. Os caracteres padrão (que são a-Z, a-z, 0-9 e hifens) são aqueles que serão suportados pelas autoridades de certificação públicas e de DNS externo (você precisará atribuir FQDNs ao SN no certificado, não esquecer), de modo que você se retorne uma grande quantidade de Grief se você se deparar com isso em mente.
   
 Para ler mais sobre os requisitos de DNS para redes, confira a seção [rede](../../plan-your-deployment/network-requirements/network-requirements.md) da nossa documentação de planejamento.
   
@@ -270,7 +270,7 @@ Você também precisará de certificados quando o Skype for Business Server 2015
   
 O Skype for Business Server 2015 também inclui suporte para (sem exigir) certificados assinados usando a função de hash de criptografia SHA-256. Para dar suporte ao acesso externo usando SHA-256, o certificado externo precisa ser emitido por uma autoridade de certificação pública usando SHA-256.
   
-Para experimentar e manter as coisas simples, colocamos os requisitos de certificado para servidores Standard Edition, pools de front-ends e outras funções, com o contoso.com fictício que está sendo usado para exemplos (provavelmente você usará algo senão para seu ambiente). Estes são todos os certificados de servidor Web padrão, com chaves privadas que não são exportáveis. Algumas coisas adicionais a serem observadas:
+Para experimentar e manter as coisas diretas, colocamos os requisitos de certificado para servidores Standard Edition, pools de front-ends e outras funções, com o contoso.com fictício que está sendo usado para exemplos (provavelmente você está usando outra coisa para seu ambiente). Estes são todos os certificados de servidor Web padrão, com chaves privadas que não são exportáveis. Algumas coisas adicionais a serem observadas:
   
 - O uso avançado de chave (EKU) do servidor é automaticamente configurado quando você usa o assistente de certificado para solicitar certificados.
     
@@ -283,24 +283,24 @@ Certificados para servidores Standard Edition:
 |**Certificado**|**Nome da entidade/nome comum**|**Nome alternativo da entidade**|**Exemplo**|**Comments**|
 |:-----|:-----|:-----|:-----|:-----|
 |Padrão  <br/> |FQDN do pool  <br/> |FQDN do pool e FQDN do servidor  <br/> Se você tiver vários domínios SIP e tiver habilitado a configuração automática do cliente, o assistente de certificados detectará e adicionará os FQDNs de cada domínio SIP aceito.  <br/> Se esse pool é o servidor de logon automático para clientes, e a combinação estrita do Sistema de Nome de Domínio (DNS) é exigida na política do grupo, também é preciso de entradas para o sip.sipdomain (para cada domínio de SIP que você tiver).  <br/> |SN = SE01. contoso. com; SAN = SE01. contoso. com  <br/> Se esse pool é o servidor de logon automático para clientes, e se a combinação estrita de DNS for exigida na política do grupo, também serão precisos: SAN=sip.contoso.com; SAN=sip.fabrikam.com  <br/> |Nos servidores Standard Edition Standard Edition Server, o FQDN do servidor é o mesmo que o FQDN do pool.  <br/> O assistente detecta quaisquer domínios SIP especificados durante a instalação e os adiciona automaticamente ao nome alternativo para a entidade.  <br/> Você também pode usar esse certificado para autenticação de servidor para servidor.  <br/> |
-|Web interna  <br/> |FQDN do servidor  <br/> |Cada um dos seguintes:  <br/> • FQDN da Web interna (que é o mesmo que o FQDN do servidor)  <br/> E  <br/> • Atender a URLs simples  <br/> • URL simples discada  <br/> • URL simples de administração  <br/> OU  <br/> • Uma entrada curinga para URLs simples  <br/> |SN = SE01. contoso. com; SAN = SE01. contoso. com; SAN = reunião. contoso. com; SAN = atender. fabrikam. com; SAN = dialem. contoso. com; SAN = admin. contoso. com  <br/> Como usar um certificado curinga:  <br/> SN = SE01. contoso. com; SAN = SE01. contoso. com; SAN =\*. contoso.com  <br/> |Não é possível substituir o FQDN interno da Web no construtor de topologias.  <br/> Se você tiver vários URLs simples de reunião, você precisará incluir todos eles como SANs.  <br/> As entradas curinga são suportadas pelas entradas de URL simples.  <br/> |
-|Web externa  <br/> |FQDN do servidor  <br/> |Cada um dos seguintes:  <br/> • FQDN da Web externa  <br/> E  <br/> • URL simples discada  <br/> • Atender a URLs simples por domínio SIP  <br/> OU  <br/> • Uma entrada curinga para URLs simples  <br/> |SN = SE01. contoso. com; SAN = webcon01. contoso. com; SAN = reunião. contoso. com; SAN = atender. fabrikam. com; SAN = dialem. contoso. com  <br/> Como usar um certificado coringa:  <br/> SN = SE01. contoso. com; SAN = webcon01. contoso. com; SAN =\*. contoso.com  <br/> |Se você tiver vários URLs simples de reunião, será necessário incluir todos eles como nomes alternativos de entidade.  <br/> As entradas curinga são suportadas pelas entradas de URL simples.  <br/> |
+|Web interna  <br/> |FQDN do servidor  <br/> |Cada um dos seguintes:  <br/> • FQDN da Web interna (que é o mesmo que o FQDN do servidor)  <br/> E  <br/> • Atender a URLs simples  <br/> • URL simples discada  <br/> • URL simples de administração  <br/> OU  <br/> • Uma entrada curinga para URLs simples  <br/> |SN = SE01. contoso. com; SAN = SE01. contoso. com; SAN = reunião. contoso. com; SAN = atender. fabrikam. com; SAN = dialem. contoso. com; SAN = admin. contoso. com  <br/> Como usar um certificado curinga:  <br/> SN = SE01. contoso. com; SAN = SE01. contoso. com; SAN = \* . contoso.com  <br/> |Não é possível substituir o FQDN interno da Web no construtor de topologias.  <br/> Se você tiver vários URLs simples de reunião, você precisará incluir todos eles como SANs.  <br/> As entradas curinga são suportadas pelas entradas de URL simples.  <br/> |
+|Web externa  <br/> |FQDN do servidor  <br/> |Cada um dos seguintes:  <br/> • FQDN da Web externa  <br/> E  <br/> • URL simples discada  <br/> • Atender a URLs simples por domínio SIP  <br/> OU  <br/> • Uma entrada curinga para URLs simples  <br/> |SN = SE01. contoso. com; SAN = webcon01. contoso. com; SAN = reunião. contoso. com; SAN = atender. fabrikam. com; SAN = dialem. contoso. com  <br/> Como usar um certificado coringa:  <br/> SN = SE01. contoso. com; SAN = webcon01. contoso. com; SAN = \* . contoso.com  <br/> |Se você tiver vários URLs simples de reunião, será necessário incluir todos eles como nomes alternativos de entidade.  <br/> As entradas curinga são suportadas pelas entradas de URL simples.  <br/> |
    
 Certificados para servidores front-end em um pool de front-ends:
   
 |**Certificado**|**Nome da entidade/nome comum**|**Nome alternativo da entidade**|**Exemplo**|**Comments**|
 |:-----|:-----|:-----|:-----|:-----|
 |Padrão  <br/> |FQDN do pool  <br/> |FQDN do pool e FQDN do servidor  <br/> Se você tiver vários domínios SIP e tiver habilitado a configuração automática do cliente, o assistente de certificados detectará e adicionará os FQDNs de cada domínio SIP aceito.  <br/> Se esse pool é o servidor de logon automático para clientes, e a combinação estrita do Sistema de Nome de Domínio (DNS) é exigida na política do grupo, também é preciso de entradas para o sip.sipdomain (para cada domínio de SIP que você tiver).  <br/> |SN = EEpool. contoso. com; SAN = EEpool. contoso. com; SAN = ee01. contoso. com  <br/> Se esse pool é o servidor de logon automático para clientes, e se a combinação estrita de DNS for exigida na política do grupo, também serão precisos: SAN=sip.contoso.com; SAN=sip.fabrikam.com  <br/> |O assistente detecta quaisquer domínios SIP especificados durante a instalação e os adiciona automaticamente ao nome alternativo para a entidade.  <br/> Você também pode usar esse certificado para autenticação de servidor para servidor.  <br/> |
-|Web interna  <br/> |FQDN do pool  <br/> |Cada um dos seguintes:  <br/> • FQDN da Web interna (que não é o mesmo que o FQDN do servidor)  <br/> • FQDN do servidor  <br/> • FQDN do pool do Skype for Business  <br/> E  <br/> • Atender a URLs simples  <br/> • URL simples discada  <br/> • URL simples de administração  <br/> OU  <br/> • Uma entrada curinga para URLs simples  <br/> |SN = ee01. contoso. com; SAN = ee01. contoso. com; SAN = reunião. contoso. com; SAN = atender. fabrikam. com; SAN = dialem. contoso. com; SAN = admin. contoso. com  <br/> Como usar um certificado curinga:  <br/> SN = ee01. contoso. com; SAN = ee01. contoso. com; SAN =\*. contoso.com  <br/> |Se você tiver vários URLs simples de reunião, será necessário incluir todos eles como nomes alternativos de entidade.  <br/> As entradas curinga são suportadas pelas entradas de URL simples.  <br/> |
-|Web externa  <br/> |FQDN do pool  <br/> |Cada um dos seguintes:  <br/> • FQDN da Web externa  <br/> E  <br/> • URL simples discada  <br/> • URL simples de administração  <br/> OU  <br/> • Uma entrada curinga para URLs simples  <br/> |SN = ee01. contoso. com; SAN = webcon01. contoso. com; SAN = reunião. contoso. com; SAN = atender. fabrikam. com; SAN = dialem. contoso. com  <br/> Como usar um certificado curinga:  <br/> SN = ee01. contoso. com; SAN = webcon01. contoso. com; SAN =\*. contoso.com  <br/> |Se você tiver vários URLs simples de reunião, será necessário incluir todos eles como nomes alternativos de entidade.  <br/> As entradas curinga são suportadas pelas entradas de URL simples.  <br/> |
+|Web interna  <br/> |FQDN do pool  <br/> |Cada um dos seguintes:  <br/> • FQDN da Web interna (que não é o mesmo que o FQDN do servidor)  <br/> • FQDN do servidor  <br/> • FQDN do pool do Skype for Business  <br/> E  <br/> • Atender a URLs simples  <br/> • URL simples discada  <br/> • URL simples de administração  <br/> OU  <br/> • Uma entrada curinga para URLs simples  <br/> |SN = ee01. contoso. com; SAN = ee01. contoso. com; SAN = reunião. contoso. com; SAN = atender. fabrikam. com; SAN = dialem. contoso. com; SAN = admin. contoso. com  <br/> Como usar um certificado curinga:  <br/> SN = ee01. contoso. com; SAN = ee01. contoso. com; SAN = \* . contoso.com  <br/> |Se você tiver vários URLs simples de reunião, será necessário incluir todos eles como nomes alternativos de entidade.  <br/> As entradas curinga são suportadas pelas entradas de URL simples.  <br/> |
+|Web externa  <br/> |FQDN do pool  <br/> |Cada um dos seguintes:  <br/> • FQDN da Web externa  <br/> E  <br/> • URL simples discada  <br/> • URL simples de administração  <br/> OU  <br/> • Uma entrada curinga para URLs simples  <br/> |SN = ee01. contoso. com; SAN = webcon01. contoso. com; SAN = reunião. contoso. com; SAN = atender. fabrikam. com; SAN = dialem. contoso. com  <br/> Como usar um certificado curinga:  <br/> SN = ee01. contoso. com; SAN = webcon01. contoso. com; SAN = \* . contoso.com  <br/> |Se você tiver vários URLs simples de reunião, será necessário incluir todos eles como nomes alternativos de entidade.  <br/> As entradas curinga são suportadas pelas entradas de URL simples.  <br/> |
    
 Certificados para o diretor:
   
 |**Certificado**|**Nome da entidade/nome comum**|**Nome alternativo da entidade**|**Exemplo**|
 |:-----|:-----|:-----|:-----|
 |Padrão  <br/> |Director pool  <br/> |FQDN do diretor, FQDN do pool de diretores.  <br/> Se esse pool for o servidor de logon automático para clientes e a correspondência de DNS estrita for necessária na política de grupo, você também precisará de entradas para SIP. sipdomain (para cada domínio SIP que você tiver).  <br/> |pool.contoso.com; SAN = dir01. contoso. com  <br/> Se esse pool de Diretor for o servidor de logon automático para clientes, e se a combinação estrita de DNS for exigida na política do grupo, também serão precisos: SAN=sip.contoso.com; SAN=sip.fabrikam.com  <br/> |
-|Web interna  <br/> |FQDN do servidor  <br/> |Cada um dos seguintes:  <br/> • FQDN da Web interna (que é o mesmo que o FQDN do servidor)  <br/> • FQDN do servidor  <br/> • FQDN do pool do Skype for Business  <br/> E  <br/> • Atender a URLs simples  <br/> • URL simples discada  <br/> • URL simples de administração  <br/> OU  <br/> • Uma entrada curinga para URLs simples  <br/> |SN = dir01. contoso. com; SAN = dir01. contoso. com; SAN = reunião. contoso. com; SAN = atender. fabrikam. com; SAN = dialem. contoso. com; SAN = admin. contoso. com  <br/> Como usar um certificado curinga:  <br/> SN = dir01. contoso. com; SAN = dir01. contoso. com SAN =\*. contoso.com  <br/> |
-|Web externa  <br/> |FQDN do servidor  <br/> |Cada um dos seguintes:  <br/> • FQDN da Web externa  <br/> E  <br/> • Atender a URLs simples por domínio SIP  <br/> • URL simples discada  <br/> OU  <br/> • Uma entrada curinga para URLs simples  <br/> |O FQDN da Web externa do diretor deve ser diferente do pool de front-ends ou servidor front-end.  <br/> SN = dir01. contoso. com; SAN = directorwebcon01. contoso. com SAN = encontro. contoso. com; SAN = atender. fabrikam. com; SAN = dialem. contoso. com  <br/> Como usar um certificado curinga:  <br/> SN = dir01. contoso. com; SAN = directorwebcon01. contoso. com SAN =\*. contoso.com  <br/> |
+|Web interna  <br/> |FQDN do servidor  <br/> |Cada um dos seguintes:  <br/> • FQDN da Web interna (que é o mesmo que o FQDN do servidor)  <br/> • FQDN do servidor  <br/> • FQDN do pool do Skype for Business  <br/> E  <br/> • Atender a URLs simples  <br/> • URL simples discada  <br/> • URL simples de administração  <br/> OU  <br/> • Uma entrada curinga para URLs simples  <br/> |SN = dir01. contoso. com; SAN = dir01. contoso. com; SAN = reunião. contoso. com; SAN = atender. fabrikam. com; SAN = dialem. contoso. com; SAN = admin. contoso. com  <br/> Como usar um certificado curinga:  <br/> SN = dir01. contoso. com; SAN = dir01. contoso. com SAN = \* . contoso.com  <br/> |
+|Web externa  <br/> |FQDN do servidor  <br/> |Cada um dos seguintes:  <br/> • FQDN da Web externa  <br/> E  <br/> • Atender a URLs simples por domínio SIP  <br/> • URL simples discada  <br/> OU  <br/> • Uma entrada curinga para URLs simples  <br/> |O FQDN da Web externa do diretor deve ser diferente do pool de front-ends ou servidor front-end.  <br/> SN = dir01. contoso. com; SAN = directorwebcon01. contoso. com SAN = encontro. contoso. com; SAN = atender. fabrikam. com; SAN = dialem. contoso. com  <br/> Como usar um certificado curinga:  <br/> SN = dir01. contoso. com; SAN = directorwebcon01. contoso. com SAN = \* . contoso.com  <br/> |
    
 Certificados para servidor de mediação autônomo:
   
@@ -312,7 +312,7 @@ Certificados para aparelho de filial persistente:
   
 |**Certificado**|**Nome da entidade/nome comum**|**Nome alternativo da entidade**|**Exemplo**|
 |:-----|:-----|:-----|:-----|
-|Padrão  <br/> |FQDN do aplicativo  <br/> |SIP. \<sipdomain\> (você precisa apenas de uma entrada por domínio SIP)  <br/> |SN = sba01. contoso. net; SAN = SIP. contoso. com; SAN = SIP. fabrikam. com  <br/> |
+|Padrão  <br/> |FQDN do aplicativo  <br/> |SIP. \< sipdomain \> (você precisa apenas de uma entrada por domínio SIP)  <br/> |SN = sba01. contoso. net; SAN = SIP. contoso. com; SAN = SIP. fabrikam. com  <br/> |
    
 ### <a name="certificates-for-your-persistent-chat-server"></a>Certificados para seu servidor de chat persistente
 
@@ -340,22 +340,22 @@ Listaremos as especificações de cada tabela abaixo.
   
 Agora, é aí que um pouco de planejamento é bom, mas, às vezes, você implantou o Skype for Business Server 2015 sem a intenção de implantar a mobilidade, e isso é feito na linha quando você já tem certificados no ambiente. A reemissão deles por meio de uma autoridade de certificação interna normalmente é muito fácil, mas com certificados públicos de uma AC pública, que pode ser um pouco mais caro.
   
-Se for o que você está procurando e se você tiver muitos domínios SIP (o que tornaria a adição de SANS mais caras), poderá configurar seu proxy reverso para usar HTTP para a solicitação de serviço de descoberta automática inicial, em vez de usar HTTPS (que é o padrão configuração). O tópico Planejamento para mobilidade tem mais informações sobre isso.
+Se for o que você está procurando e se você tiver muitos domínios SIP (o que tornaria a adição de SANS mais caras), poderá configurar seu proxy reverso para usar HTTP para a solicitação de serviço de descoberta automática inicial, em vez de usar HTTPS (que é a configuração padrão). O tópico Planejamento para mobilidade tem mais informações sobre isso.
   
 Requisitos de certificado de pool de front-end e pool de diretores:
   
 |**Descrição**|**Entrada de SAN**|
 |:-----|:-----|
-|URL interna do serviço de descoberta automática  <br/> |SAN = lyncdiscoverinternal. \<sipdomain\>  <br/> |
-|URL externa do serviço de descoberta automática  <br/> |SAN = lyncdiscover. \<sipdomain\>  <br/> |
+|URL interna do serviço de descoberta automática  <br/> |SAN = lyncdiscoverinternal. \< sipdomain\>  <br/> |
+|URL externa do serviço de descoberta automática  <br/> |SAN = lyncdiscover. \< sipdomain\>  <br/> |
    
-Como alternativa, você pode usar SAN\*=. \<sipdomain\>
+Como alternativa, você pode usar SAN = \* . \< sipdomain\>
   
 Requisitos de certificado de proxy reverso (AC pública):
   
 |**Descrição**|**Entrada de SAN**|
 |:-----|:-----|
-|URL externa do serviço de descoberta automática  <br/> |SAN = lyncdiscover. \<sipdomain\>  <br/> |
+|URL externa do serviço de descoberta automática  <br/> |SAN = lyncdiscover. \< sipdomain\>  <br/> |
    
 Essa SAN precisa ser atribuída ao certificado atribuído ao ouvinte SSL em seu proxy reverso.
   

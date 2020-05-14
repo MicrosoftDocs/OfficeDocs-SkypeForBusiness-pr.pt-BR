@@ -21,17 +21,17 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - ms.lync.lac.NumberActivationStatePending
-description: A validação de endereços é uma etapa importante da configuração de Planos de Chamadas no Office 365. Ela fornece ao usuário da organização um endereço de chamada de emergência que pode ser usado pelos serviços de resposta a emergências.
-ms.openlocfilehash: 12cd21d0be899b69abeeb787759fea702a98791c
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: A validação de endereço é uma parte importante da configuração de planos de chamada. Ela fornece ao usuário da organização um endereço de chamada de emergência que pode ser usado pelos serviços de resposta a emergências.
+ms.openlocfilehash: 879c8681a65fc491fb9b0573b3cbf7f15e3276b1
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769134"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44220671"
 ---
 # <a name="why-is-number-activation-just-pending"></a>Por que a ativação do número está somente pendente?
 
-A validação de endereços é uma etapa importante da configuração de Planos de Chamadas no Office 365. Se por algum motivo um número de telefone não estiver ativado e estiver listado como **pendente** devido à validação de endereço, será necessário criar e enviar uma solicitação de serviço. A maneira de fazer isso depende do tamanho da sua organização.
+A validação de endereço é uma parte importante da configuração de planos de chamada. Se por algum motivo um número de telefone não estiver ativado e estiver listado como **pendente** devido à validação de endereço, será necessário criar e enviar uma solicitação de serviço. A maneira de fazer isso depende do tamanho da sua organização.
   
 ## <a name="for-organizations-150-or-less-follow-these-steps"></a>Para organizações com 150 usuários ou menos, siga estas etapas
 1. No centro de administração, escolha **precisa de ajuda**?
@@ -39,12 +39,12 @@ A validação de endereços é uma etapa importante da configuração de Planos 
 3. Se os resultados da seção **Exibir soluções** não ajudarem, escolha uma destas opções:
     - **Permitir que liguemos para você (recomendado)**: confirme seu número de contato e pressione **Telefonar para mim**. O tempo de espera previsto para o retorno da chamada é indicado no painel **Precisa de ajuda?**
     - **Enviar um email para nós**: confirme seu endereço de email e escolha **Enviar**. O tempo de resposta da chamada é indicado no painel **Precisa de ajuda?**
-
+ 
 ## <a name="for-organizations-with-more-than-150-users-create-a-service-request-to-validate-an-emergency-address"></a>Para organizações com mais de 150 usuários, crie uma solicitação de serviço para validar um endereço de emergência
 
-1. Entre no Office 365 como administrador usando sua conta corporativa ou de estudante.
+1. Entre como administrador para o Microsoft 365 ou o Office 365 com sua conta corporativa ou de estudante.
     
-2. No centro de administração, no painel de navegação esquerdo, clique em **dar suporte** > a**nova solicitação de serviço**.
+2. No centro de administração, no painel de navegação esquerdo, clique em **dar suporte**a  >  **nova solicitação de serviço**.
     
 3. Em **Solicitações de serviço**, clique em **Adicionar**.
     
@@ -69,7 +69,7 @@ A validação de endereços é uma etapa importante da configuração de Planos 
       - País ou região
     
      > [!IMPORTANT]
-     > **Informe o país/região onde oferecemos Planos de Chamadas no Office 365 para o qual você está tentando validar um endereço de emergência ao atribuir um número de telefone.**
+     > **Coloque o país/região em que oferecemos planos de chamada para os quais você está tentando validar um endereço de emergência ao atribuir um número de telefone.**
   
       - CEP
     

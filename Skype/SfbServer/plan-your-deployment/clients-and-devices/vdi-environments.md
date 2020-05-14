@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ea68414b-bb7e-483a-b731-b6b5a44372b1
 description: Este tópico discute considerações de planejamento para usar o Skype for Business enquanto se conecta a uma área de trabalho remota virtual.
-ms.openlocfilehash: c2972e2b453b6cf5592ddc8b3b48dfceee9a4e35
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 6886eab8a13db852e0aa86b63d08aa33f82fdaed
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42027992"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44219521"
 ---
 # <a name="plan-for-skype-for-business-in-vdi-environments"></a>Planejar o Skype for Business em ambientes de VDI
  
@@ -43,7 +43,7 @@ Há três soluções disponíveis para o componente de plug-in VDI, oferecido pe
 ## <a name="citrix-hdx-realtime-optimization-pack"></a>Pacote de otimização do Citrix HDX em tempo real
 <a name="Citrix_RT"> </a>
 
-O plug-in do ambiente VDI do Citrix (um recurso do XenApp e do XenDesktop) é compatível com o Lync 2013 e o Skype for Business 2015 e 2016 (clientes completos usando qualquer clique para executar o instalador ou instaladores MSI lançados após os clientes de janeiro de 2017) instalados em um virtual placa. O funcionamento geral é baseado no plug-in VDI do Microsoft Lync, mas funciona em uma variedade maior de sistemas operacionais clientes, incluindo Windows 10, Macintosh e Linux.
+O plug-in do ambiente VDI do Citrix (um recurso do XenApp e do XenDesktop) é compatível com o Lync 2013 e o Skype for Business 2015 e 2016 (clientes completos usando qualquer clique para executar o instalador ou instaladores MSI lançados após os clientes de janeiro de 2017) instalados em uma área de trabalho virtual. O funcionamento geral é baseado no plug-in VDI do Microsoft Lync, mas funciona em uma variedade maior de sistemas operacionais clientes, incluindo Windows 10, Macintosh e Linux.
   
 Uma lista completa de recursos e tecnologias compatíveis pode ser encontrada no site da Citrix na [entrega do Microsoft Skype for Business para usuários do XenApp e do XenDesktop](https://www.citrix.com/content/dam/citrix/en_us/documents/products-solutions/delivering-microsoft-lync-to-xenapp-and-xendesktop-users.pdf).
   
@@ -62,7 +62,7 @@ A solução de ambiente VDI do VMWare é compatível com clientes completos do S
   
 Uma discussão completa de recursos e tecnologias compatíveis pode ser encontrada no site do VMWare nos seguintes links:
   
-- [O que há de novo no VMware &amp; horizonte 7,4 horizonte Client 4,7](https://blogs.vmware.com/euc/2018/01/vmware-horizon-7-4-horizon-client-4-7-whats-new.mdl)
+- [O que há de novo no VMware horizonte 7,4 &amp; horizonte Client 4,7](https://blogs.vmware.com/euc/2018/01/vmware-horizon-7-4-horizon-client-4-7-whats-new.mdl)
     
 - [Horizonte Virtualization Pack para Skype for Business](https://www.vmware.com/products/horizon/skype-for-business.mdl)
     
@@ -161,10 +161,10 @@ Não há suporte aos seguintes recursos:
     
 - Toques personalizados e recursos de música em espera.
     
-O plug-in do Lync VDI não é suportado em um ambiente do Office 365.
+O plug-in do Lync VDI não é suportado nos ambientes do Microsoft 365 ou do Office 365.
   
 > [!NOTE]
-> O pacote de otimização do Citrix RealTime oferece suporte ao Office 365. Para ambientes virtuais baseados em Citrix, revise a documentação de [visão geral técnica](https://docs.citrix.com/en-us/hdx-optimization/2-0/hdx-realtime-optimization-pack-about.mdl) da Citrix para obter a lista de recursos e versões compatíveis.
+> O pacote de otimização do Citrix RealTime oferece suporte ao Microsoft 365 e ao Office 365. Para ambientes virtuais baseados em Citrix, revise a documentação de [visão geral técnica](https://docs.citrix.com/en-us/hdx-optimization/2-0/hdx-realtime-optimization-pack-about.mdl) da Citrix para obter a lista de recursos e versões compatíveis.
   
 ## <a name="see-also"></a>Confira também
 <a name="Citrix_RT"> </a>

@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Leia este tópico para saber mais sobre o gerenciamento de salas do Microsoft Teams, a próxima geração de sistemas de sala do Skype.
-ms.openlocfilehash: 1fecf852c11e7ab89e0cdc7dc6caf615182e7d5f
-ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
+ms.openlocfilehash: 109d07bdf7b4925f7c3d0481e1ff7facef3de8f8
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43157754"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "43580699"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Manutenção e operações de salas do Microsoft Teams 
  
@@ -31,10 +31,10 @@ Com configurações adicionais, o gerenciamento remoto é possível usando o Mic
 ## <a name="collecting-logs-on-microsoft-teams-rooms"></a>Coletando logs em salas do Microsoft Teams
 <a name="Logs"> </a>
 
-Para coletar logs, você deve invocar o script de coleta de log que acompanha o aplicativo salas do Microsoft Teams. No modo de administração, inicie um prompt do PowerShell elevado e execute o seguinte comando:
+Para coletar logs, você deve invocar o script de coleta de log que acompanha o aplicativo salas do Microsoft Teams. No modo Admin, inicie um prompt de comandos com privilégios elevados e emita o seguinte comando:
   
 ```PowerShell
-c:\rigel\x64\scripts\provisioning\ScriptLaunch.ps1 CollectSrsV2Logs.ps1 -ExecutionPolicy unrestricted
+powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\ScriptLaunch.ps1 CollectSrsV2Logs.ps1
 ```
 
 Os logs serão exibidos como um arquivo ZIP em c:\rigel.
@@ -78,7 +78,7 @@ Esta seção abrange as configurações do sistema das quais as salas do Microso
 |Configuração|Permite|
 |:-----|:-----|
 |HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon AutoAdminLogon = (REG_SZ) 1  <br/> |Permite que salas do Microsoft Teams sejam inicializadas  <br/> |
-|Gerenciamento de energia\> -em AC, desligar a tela após 10 minutos  <br/> Gerenciamento de energia\> -em AC, nunca coloque o sistema em suspensão  <br/> |Permite que as salas do Microsoft Teams desativem exibições anexadas e ativadas automaticamente  <br/> |
+|Gerenciamento de energia- \> em AC, desligar a tela após 10 minutos  <br/> Gerenciamento de energia- \> em AC, nunca coloque o sistema em suspensão  <br/> |Permite que as salas do Microsoft Teams desativem exibições anexadas e ativadas automaticamente  <br/> |
 |net accounts /maxpwage:unlimited  <br/> Ou uma maneira equivalente de desabilitar a expiração de senha na conta local. Deixar de fazer isso fará com que a conta do Skype falhe ao fazer logon com uma senha expirada. Observe que isso afeta todas as contas locais do computador e, portanto, não definir isso também fará com que a conta administrativa na caixa acabe de expirar também.  <br/> |Permite que a conta do Skype esteja sempre conectada  <br/> |
    
 A transferência de arquivos usando políticas de grupo é discutida em [configurar um item de arquivo](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx).
@@ -112,8 +112,8 @@ Para executar uma operação de gerenciamento:
 1. Entre em um computador com credenciais de conta que têm permissão para executar comandos do PowerShell em um dispositivo de salas do Microsoft Teams.
 2. Abra um prompt de comando normal do PowerShell no computador.
 3. Copie o texto do comando da tabela abaixo e cole-o no prompt.
-4. Substituir `<Device fqdn>` os campos pelos valores de FQDN apropriados para o seu ambiente.
-5. Substituir * \<caminho\> * com o nome do arquivo e o caminho local do arquivo de configuração Master SkypeSettings. XML (ou imagem do tema).
+4. Substituir os `<Device fqdn>` campos pelos valores de FQDN apropriados para o seu ambiente.
+5. Substituir * \< caminho \> * com o nome do arquivo e o caminho local do arquivo de configuração Master SkypeSettings. XML (ou imagem do tema).
     
 Para obter dispositivos conectados
   
@@ -173,11 +173,11 @@ Se você quiser gerenciar as atualizações manualmente e não conseguir seguir 
 ### <a name="to-update-using-powershell"></a>Para atualizar usando o PowerShell
 
 1. Extraia o pacote do [MSI](https://go.microsoft.com/fwlink/?linkid=851168) de instalação para um compartilhamento que o dispositivo possa acessar.
-2. Execute o script a seguir direcionando os dispositivos de sala do \<Microsoft\> Teams, alterando o compartilhamento para o compartilhamento de dispositivo conforme apropriado:
+2. Execute o script a seguir direcionando os dispositivos de sala do Microsoft Teams, alterando o \< compartilhamento \> para o compartilhamento de dispositivo conforme apropriado:
     
-```PowerShell
-Add-AppxPackage -Update -ForceApplicationShutdown -Path '\\<share>\$oem$\$1\Rigel\x64\Ship\AppPackages\*\*.appx' -DependencyPath (Get-ChildItem '\\<share>\$oem$\$1\Rigel\x64\Ship\AppPackages\*\Dependencies\x64\*.appx' | Foreach-Object {$_.FullName})
-```
+    ```PowerShell
+    Add-AppxPackage -Update -ForceApplicationShutdown -Path '\\<share>\$oem$\$1\Rigel\x64\Ship\AppPackages\*\*.appx' -DependencyPath (Get-ChildItem '\\<share>\$oem$\$1\Rigel\x64\Ship\AppPackages\*\Dependencies\x64\*.appx' | Foreach-Object {$_.FullName})
+    ```
 
 ## <a name="admin-mode-and-device-management"></a>Modo de administração e gerenciamento de dispositivo
 <a name="AdminMode"> </a>

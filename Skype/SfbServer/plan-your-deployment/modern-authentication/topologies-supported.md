@@ -14,12 +14,12 @@ ms.collection: IT_Skype16
 ms.custom: tracyp
 ms.assetid: 258430b0-574a-47fb-90b7-54ee8996b2ec
 description: Este artigo lista as topologias online e local compatíveis com a autenticação moderna no Skype for Business, bem como os recursos de segurança que se aplicam a cada topologia.
-ms.openlocfilehash: 8c580b5ddbc38073960885375b74c73222ee272d
-ms.sourcegitcommit: 3ef5c913318fdeeaa8c55caab07c2f8224eae2b0
+ms.openlocfilehash: 443980f6ecf2bdf170974bf0fdc0dd64f3657e67
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43898106"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44219691"
 ---
 # <a name="skype-for-business-topologies-supported-with-modern-authentication"></a>Topologias do Skype for Business compatíveis com a autenticação moderna
 
@@ -35,7 +35,7 @@ Dada o Skype for Business, o Skype for Business Online, o Exchange Server e o Ex
 
 ### <a name="supported-ma-topologies-in-skype-for-business"></a>Topologias de MA compatíveis no Skype for Business
 
-Há dois aplicativos de servidor potencialmente, e duas cargas de trabalho do Office 365, envolvidas nas topologias do Skype for Business usadas pelo MA.
+Há dois aplicativos de servidor potencialmente e duas cargas de trabalho do Microsoft 365 ou do Office 365, envolvidas nas topologias do Skype for Business usadas pelo MA.
 
 - Skype for Business Server (CU 5) local
 

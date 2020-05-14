@@ -1,5 +1,5 @@
 ---
-title: Planejar o sistema de telefonia no Office 365 com conectividade PSTN local no Skype for Business Server
+title: Planejar o sistema de telefonia com conectividade PSTN local no Skype for Business Server
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -19,30 +19,30 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 021a4c0b-d5de-4155-a506-650d758624aa
-description: Saiba mais sobre as considerações de planejamento para o sistema de telefonia no Office 365 (Cloud PBX) com conectividade PSTN local.
-ms.openlocfilehash: be8fbe5671e2959341c08d4efa45829df0cc5e42
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+description: Saiba mais sobre as considerações de planejamento para o sistema de telefonia (Cloud PBX) com conectividade PSTN local.
+ms.openlocfilehash: 367b7b976dbc79e50f4f7dc1fc1cdba85ddcc679
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42020222"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44220232"
 ---
-# <a name="plan-phone-system-in-office-365-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>Planejar o sistema de telefonia no Office 365 com conectividade PSTN local no Skype for Business Server
+# <a name="plan-phone-system-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>Planejar o sistema de telefonia com conectividade PSTN local no Skype for Business Server
 
-Saiba mais sobre as considerações de planejamento para o sistema de telefonia no Office 365 (Cloud PBX) com conectividade PSTN local.
+Saiba mais sobre as considerações de planejamento para o sistema de telefonia (Cloud PBX) com conectividade PSTN local.
 
 Esse conteúdo é relevante se você já tiver o Skype for Business Server ou o Lync Server 2013 implantado no local. Para outros cenários, consulte [soluções de telefonia da Microsoft](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions).
 
- O sistema de telefonia no Office 365 com conectividade PSTN local permite que você aproveite os recursos do sistema de telefonia (Cloud PBX) para seus usuários. Isso pode ajudar nos seguintes cenários:
+ O sistema de telefonia com conectividade PSTN local permite que você aproveite os recursos do sistema de telefonia (Cloud PBX) para seus usuários. Isso pode ajudar nos seguintes cenários:
 
-- Você tem alguns dos seus usuários do Skype for Business hospedados no local e outros hospedados no Skype for Business online. Agora você pode habilitar o sistema de telefonia nas funcionalidades e recursos do Office 365 para seus usuários hospedados no Skype for Business Online, mas continuar a usar a conectividade PSTN local.
+- Você tem alguns dos seus usuários do Skype for Business hospedados no local e outros hospedados no Skype for Business online. Agora você pode habilitar recursos e recursos do sistema de telefonia para seus usuários hospedados no Skype for Business Online, mas continuar a usar a conectividade PSTN local.
 
 - Você tem uma implantação local e deseja mover alguns ou todos os seus usuários para o Skype for Business Online, mas continuar a usar a conectividade PSTN local.
 
     > [!IMPORTANT]
-    > Para habilitar com êxito os usuários para o sistema de telefonia no Office 365 com conectividade PSTN local, o endereço SIP deve estar em seu próprio domínio. Não há suporte para o uso do domínio padrão para o Office 365, onmicrosoft.com. 
+    > Para habilitar com êxito os usuários para o sistema de telefonia com conectividade PSTN local, seu endereço SIP deve estar em seu próprio domínio. Não há suporte para o uso do domínio padrão para o Microsoft 365 ou o Office 365, onmicrosoft.com. 
 
-Para saber mais sobre o sistema de telefonia no Office 365, incluindo o licenciamento e os planos, confira [planos de chamadas PSTN para o Skype for Business](https://support.office.com/article/PSTN-Calling-plans-for-Skype-for-Business-f47c6a97-bc8b-42e6-b5d4-ce6b41ed1918).
+Para saber mais sobre o sistema de telefonia, incluindo o licenciamento e os planos, confira [planos de chamadas PSTN para o Skype for Business](https://support.office.com/article/PSTN-Calling-plans-for-Skype-for-Business-f47c6a97-bc8b-42e6-b5d4-ce6b41ed1918).
 
 ## <a name="feature-comparison"></a>Comparação de recursos
 
@@ -55,30 +55,30 @@ O Cloud PBX com conectividade PSTN local não oferece o mesmo conjunto de recurs
 Se você mover seus usuários do local para o online antes de atualizar o firmware, os usuários não poderão se conectar usando seus telefones. Para corrigir esse problema, os usuários devem ser movidos de volta para o ambiente local para que seus telefones sejam atualizados para o firmware mínimo. NÃO TENTE ATUALIZAR PARA O FIRMWARE MÍNIMO OU RECONFIGURAR O TELEFONE ANTES DE TRANSFERIR O USUÁRIO DE VOLTA PARA O SEU AMBIENTE LOCAL.
 Se uma reinicialização forçada for executada enquanto o dispositivo não estiver com o firmware mínimo, ele usará o padrão de autenticação de PIN, que não tem suporte no Skype for Business online. Para obter mais informações, consulte [obtendo telefones para o Skype for Business online](https://support.office.com/article/Getting-phones-for-Skype-for-Business-Online-91f2d947-45fc-4fab-bd8b-2e313531c477?ui=en-US&amp;rs=en-US&amp;ad=US).
 
-Ao implantar o sistema de telefonia no Office 365 com conectividade PSTN local, você pode mover seus usuários para a nuvem via Skype for Business online em seu próprio ritmo, mantendo a conectividade PSTN local. Se você tiver um PBX, continue a usá-lo para fornecer conectividade PSTN para os usuários que você move para a nuvem. Depois que um usuário for transferido para o Skype for Business Online e o sistema de telefonia no Office 365, seu telefone PBX herdado não funcionará mais, mas o número de telefone encaminhará para qualquer um dos clientes do Skype for Business para PCs ou dispositivos inteligentes, bem como para telefone de mesa compatível com Skype for Business meses. Uma vez portado, o sistema de telefonia nos usuários do Office 365 e os usuários do PBX herdados podem fazer uma chamada com o outro normalmente, bem como fazer/receber chamadas PSTN usando seu número de telefone normal.
+Ao implantar o sistema de telefonia com conectividade PSTN local, você pode mover seus usuários para a nuvem via Skype for Business online em seu próprio ritmo, mantendo a conectividade PSTN local. Se você tiver um PBX, continue a usá-lo para fornecer conectividade PSTN para os usuários que você move para a nuvem. Depois que um usuário for movido para o Skype for Business Online e o sistema de telefonia, seu telefone PBX herdado não funcionará mais, mas o número de telefone encaminhará para qualquer um dos clientes do Skype for Business para computadores ou telefones inteligentes, bem como para telefones de mesa compatíveis com o Skype for Business. Uma vez portados, os usuários do sistema de telefonia e os usuários do PBX herdados podem chamar um ao outro normalmente, bem como fazer/receber chamadas PSTN usando seu número de telefone normal.
 
-Você pode ter um recurso personalizado ou um complemento principal para seu PBX herdado, como um Call Center. Se o recurso personalizado não estiver disponível atualmente no sistema de telefonia no Office 365, você deverá deixar aqueles usuários que exigem o recurso personalizado no local com o PBX herdado e apenas portar os usuários que não precisam acessar o recurso personalizado para o sistema de telefonia no Office 365 com conectividade PSTN local.
+Você pode ter um recurso personalizado ou um complemento principal para seu PBX herdado, como um Call Center. Se o recurso personalizado não estiver disponível atualmente no sistema de telefonia, você deverá deixar aqueles usuários que precisam desse recurso personalizado no local com o PBX herdado e apenas portar os usuários que não precisam acessar o recurso personalizado no sistema de telefonia com conectividade PSTN local.
 
-Para obter uma lista de PBXs herdados que interoperam diretamente com o Skype for Business Server 2015, consulte [infraestrutura qualificada para Microsoft Lync](https://docs.microsoft.com/SkypeForBusiness/lync-cert/qualified-ip-pbx-gateway). Se seu PBX não estiver na lista, você poderá usar um controlador de borda de sessão para conectar seu PBX com o sistema de telefonia no Office 365 no Skype for Business online.
+Para obter uma lista de PBXs herdados que interoperam diretamente com o Skype for Business Server 2015, consulte [infraestrutura qualificada para Microsoft Lync](https://docs.microsoft.com/SkypeForBusiness/lync-cert/qualified-ip-pbx-gateway). Se seu PBX não estiver na lista, você poderá usar um controlador de borda de sessão para conectar seu PBX com o sistema de telefonia no Skype for Business online.
 
 ### <a name="network-considerations-for-quality-and-performance"></a>Considerações de rede para qualidade e desempenho
 
-Ao implantar um serviço hospedado na nuvem como o sistema de telefonia no Office 365 com conectividade PSTN local, você deve ter em mente o seguinte. Em uma implantação unificada do Skype for Business Server 2015 Enterprise Voice, todos os clientes e infraestrutura estão na rede da empresa. A qualidade e o desempenho desta rede, que são fundamentais para áudio e vídeo de alta qualidade, estão sob o controle direto da equipe da empresa. Com o sistema de telefonia do Office 365 com conectividade PSTN local, há três redes envolvidas, duas das quais o cliente é responsável, mas apenas uma da equipe corporativa tem controle direto:
+Ao implantar um serviço hospedado na nuvem como o sistema de telefonia com conectividade PSTN local, você deve ter em mente o seguinte. Em uma implantação unificada do Skype for Business Server 2015 Enterprise Voice, todos os clientes e infraestrutura estão na rede da empresa. A qualidade e o desempenho desta rede, que são fundamentais para áudio e vídeo de alta qualidade, estão sob o controle direto da equipe da empresa. Com o sistema de telefonia com conectividade PSTN local, há três redes envolvidas, duas das quais o cliente é responsável, mas apenas uma das quais a equipe corporativa tem controle direto:
 
-- **Rede de entrega de mídia global da Microsoft** Infraestrutura e rede de nuvem global da Microsoft. O Office 365 e o sistema de telefonia no Office 365 servidores e tráfego atravessam essa rede.
+- **Rede de entrega de mídia global da Microsoft** Infraestrutura e rede de nuvem global da Microsoft. Servidores e tráfego do sistema de telefonia atravessam essa rede.
 
-- **Interconexão PSTN de empresa/nuvem** Esta é a rede que conecta sua empresa à nuvem do Office 365. Isso não é necessariamente o mesmo que sua conexão genérica com a Internet.
+- **Interconexão PSTN de empresa/nuvem** Esta é a rede que conecta sua empresa à nuvem. Isso não é necessariamente o mesmo que sua conexão genérica com a Internet.
 
-- **Rede da sua empresa** A qualidade da mídia em tempo real é altamente dependente de sua própria rede: especialmente da rede WiFi e da qualidade da interconexão usada para alcançar a nuvem do Office 365.
+- **Rede da sua empresa** A qualidade da mídia em tempo real é altamente dependente de sua própria rede: especialmente da rede WiFi e a qualidade da interconexão usada para chegar à nuvem.
 
 > [!NOTE]
 > Para obter mais informações sobre como ajustar o desempenho no Skype for Business Online, consulte [ajustar o desempenho do Skype for Business online](https://support.office.com/article/Tune-Skype-for-Business-Online-performance-beec23c2-c5d6-4e84-a8af-e82aefca7802?ui=en-US&amp;rs=en-US&amp;ad=US). 
 
-## <a name="prerequisites-for-using-phone-system-in-office-365-with-on-premises-pstn-connectivity"></a>Pré-requisitos para usar o sistema de telefonia no Office 365 com conectividade PSTN local
+## <a name="prerequisites-for-using-phone-system-with-on-premises-pstn-connectivity"></a>Pré-requisitos para usar o sistema de telefonia com conectividade PSTN local
 
-Antes de poder configurar o sistema de telefonia no Office 365 com conectividade PSTN local e mover usuários para o Skype for Business Online, você deve confirmar se tem os seguintes pré-requisitos em vigor:
+Antes de poder configurar o sistema de telefonia com conectividade PSTN local e mover usuários para o Skype for Business Online, você deve confirmar se tem os seguintes pré-requisitos em vigor:
 
- **Versões do servidor local.** As versões dos servidores em sua implantação local devem estar listadas na tabela a seguir para dar suporte ao sistema de telefonia no Office 365 com conectividade PSTN local.
+ **Versões do servidor local.** As versões dos servidores em sua implantação local devem estar listadas na tabela a seguir para dar suporte ao sistema de telefonia com conectividade PSTN local.
 
 
 | **Função de servidor**                                       | **Versões suportadas\\**\*                                                                                         |
@@ -114,6 +114,6 @@ Além disso, você deve garantir o seguinte:
 
 - **Recomenda Serviços de Federação do Active Directory (AD FS).** Recomendamos implantar o AD FS para suportar o logon único. Para obter mais informações, consulte [Active Directory Federation Services (AD FS)](https://technet.microsoft.com/library/cc736690%28v=ws.10%29.aspx).
 
-Para obter informações sobre a implantação do sistema de telefonia no Office 365, consulte [habilitar usuários para o sistema de telefonia no office 365 com conectividade PSTN local no Skype for Business Server](enable-users-for-phone-system.md).
+Para obter informações sobre como implantar o sistema de telefonia, consulte [habilitar usuários para o sistema de telefonia com conectividade PSTN local no Skype for Business Server](enable-users-for-phone-system.md).
 
 

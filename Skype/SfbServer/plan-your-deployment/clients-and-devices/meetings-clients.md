@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
 description: 'Resumo: os profissionais de ti devem analisar os requisitos de suporte para o aplicativo do Skype for Business Web App e reuniões do Skype durante o planejamento do Skype for Business Server. Este artigo não se destina aos usuários desses aplicativos.'
-ms.openlocfilehash: 0e1ce225f99a112f11d55d76eb8039a10d9aac6b
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 30397c922dbc5bb8578714d70712f90d7e14ca4c
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43777786"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221041"
 ---
 # <a name="plan-for-meetings-clients-web-app-and-meetings-app"></a>Plano para clientes de reuniões (aplicativo Web e aplicativos de reuniões)
  
@@ -33,14 +33,14 @@ Depois de implementar o Skype for Business Server, os usuários da sua organiza�
 Mais tarde, esses usuários podem criar reuniões e convidar usuários de fora da organização, e os convidados da reunião podem não ter qualquer versão do cliente Skype for Business. Quando os usuários clicarem na URL para o convite da reunião, a ausência de um cliente será detectada e o convidado sem um cliente do Skype for Business será solicitado a baixar e instalar um cliente leve e apenas reuniões para que eles possam participar da reunião.
   
 > [!NOTE]
-> O aplicativo Skype for Business Web App e reuniões do Skype só estão disponíveis ao tentar fazer logon em uma reunião sem ter o Skype for Business. A ajuda do usuário para esses aplicativos [https://aka.ms/smahelp](https://aka.ms/smahelp)é em. 
+> O aplicativo Skype for Business Web App e reuniões do Skype só estão disponíveis ao tentar fazer logon em uma reunião sem ter o Skype for Business. A ajuda do usuário para esses aplicativos é em [https://aka.ms/smahelp](https://aka.ms/smahelp) . 
   
 > [!NOTE]
 > Não é possível pré-instalar o aplicativo Skype for Business Web App ou Skype reuniões, mas os usuários de [telefone inteligente](https://products.office.com/skype-for-business/download-app?tab=tabs-1) e [Tablet](https://products.office.com/skype-for-business/download-app?tab=tabs-2) podem ser capazes de instalar clientes móveis de baixo custo que eles podem usar para participar de reuniões.
   
 Por padrão, o servidor que hospeda a reunião orientará o usuário a baixar e instalar o Skype for Business Web App para ingressar na reunião. O Skype for Business Web App é armazenado no servidor front-end e é enviado para o participante da reunião. 
   
-Para o Skype for Business Server, o aplicativo reuniões do Skype (no Windows) e o Skype for Business para Mac (no Mac) estão disponíveis como substituições para o Skype for Business Web App, começando com o CU5, mas fornecer os aplicativos de substituição requer a configuração adicional descrita em [habilitar o aplicativo de reuniões do Skype para substituir o Skype for Business Web App (opcional)](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable).  Se o aplicativo reuniões do Skype e o Skype for Business para Mac estiverem habilitados, os usuários baixarão a versão mais recente dos aplicativos da CDN (rede de distribuição de conteúdo) do Office 365, em vez do Skype for Business Server. Para o Skype for Business Server 2019, usar o aplicativo reuniões do Skype e o Skype for Business para Mac é a única opção.
+Para o Skype for Business Server, o aplicativo reuniões do Skype (no Windows) e o Skype for Business para Mac (no Mac) estão disponíveis como substituições para o Skype for Business Web App, começando com o CU5, mas fornecer os aplicativos de substituição requer a configuração adicional descrita em [habilitar o aplicativo de reuniões do Skype para substituir o Skype for Business Web App (opcional)](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable). Se o aplicativo reuniões do Skype e o Skype for Business para Mac estiverem habilitados, os usuários baixarão a versão mais recente dos aplicativos da CDN (rede de distribuição de conteúdo) do Microsoft 365 ou do Office 365, e não do Skype for Business Server. Para o Skype for Business Server 2019, usar o aplicativo reuniões do Skype e o Skype for Business para Mac é a única opção.
   
 O aplicativo reuniões do Skype oferece uma experiência de navegador simplificada para baixar e instalar o aplicativo e ingressar em reuniões, incluindo o ingresso de um clique para usuários do Internet Explorer. O aplicativo de reuniões do Skype também tem vários aprimoramentos sobre o Skype for Business Web App para confiabilidade e a experiência da reunião. 
   
@@ -56,12 +56,12 @@ Para usar o Skype for Business Web App, um usuário deve ter uma das seguintes c
 
 | Sistema operacional | Borda | Internet Explorer 11 de 32 e 64 bits ou posterior | Internet Explorer 10 de 32 e 64 bits ou posterior | Internet Explorer 9 de 32 e 64 bits ou posterior | Versão de 32 e 64 bits do Safari 6.2.8-11. X | Versão de 32 e 64 bits do Chrome 18. X ou posterior |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|Windows 10  <br/> |Sim  <br/> |Sim  <br/> |N/D  <br/> |Não disponível  <br/> |Não disponível  <br/> |Sim &#x2778; <br/> |
-|Windows 8,1 &#x2776; <br/> |N/D  <br/> |Sim  <br/> |N/D  <br/> |Não disponível  <br/> |Não disponível <br/> |Sim &#x2778; <br/> |
-|&#x2776; Windows 8 (baseado em Intel) <br/> |Não disponível  <br/> |Não disponível  <br/> |Sim  <br/> |N/D <br/> |Não disponível  <br/> |Sim &#x2778; <br/> |
+|Windows 10  <br/> |Sim  <br/> |Sim  <br/> |Não disponível  <br/> |Não disponível  <br/> |Não disponível  <br/> |Sim &#x2778; <br/> |
+|Windows 8,1 &#x2776; <br/> |N/D  <br/> |Sim  <br/> |Não disponível  <br/> |Não disponível  <br/> |Não disponível <br/> |Sim &#x2778; <br/> |
+|&#x2776; Windows 8 (baseado em Intel) <br/> |Não disponível  <br/> |Não disponível  <br/> |Sim  <br/> |Não disponível <br/> |Não disponível  <br/> |Sim &#x2778; <br/> |
 |Windows 7 com SP1 &#x2777; <br/> |N/D  <br/> |Sim  <br/> |Não  <br/> |Não  <br/> |N/D <br/>|Sim &#x2778; <br/> |
 |Windows Server 2008 R2 com SP1 &#x2777; <br/> |N/D  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |N/D <br/>|Sim &#x2778; <br/> |
-|macOS 10,8 e posterior (baseado em Intel) &#x2777; <br/> |N/D  <br/> |N/D  <br/> |N/D  <br/> |Não disponível  <br/> |Sim  <br/> |Sim <br/> |
+|macOS 10,8 e posterior (baseado em Intel) &#x2777; <br/> |Não disponível  <br/> |Não disponível  <br/> |Não disponível  <br/> |Não disponível  <br/> |Sim  <br/> |Sim <br/> |
    
 &#x2776; o plug-in do navegador do Skype for Business Web App requer um plug-in de compartilhamento específico para usar voz, vídeo, compartilhamento e exibição de compartilhamento contínuo de tela e outros recursos baseados no computador. Um participante de reunião recebe a opção de instalar o plug-in de compartilhamento ao ingressar na reunião ou ao iniciar um desses recursos. No Windows 8 e Windows 8,1, o plug-in de compartilhamento pode ser instalado somente se você estiver executando o Internet Explorer 10 ou o Internet Explorer 11 para a área de trabalho. Esses recursos não estão disponíveis em versões que não sejam de área de trabalho do Internet Explorer 10 e 11. Observe que o Firefox e o Safari versão 12,0 e posterior não são mais suportados.
   
@@ -130,7 +130,7 @@ Esta tabela compara os recursos de reuniões disponíveis para os usuários do c
 |Faça votações  <br/> |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
 |Carregar arquivos para compartilhar com outras pessoas  <br/> |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
 |Programe uma reunião ou conferência  <br/> |Agendador da Web do Outlook ou Skype for Business  <br/> |Agendador da Web do Outlook ou Skype for Business  <br/> |Agendador da Web do Skype for Business  <br/> |Agendador da Web do Skype for Business  <br/> |Agendador da Web do Skype for Business  <br/> |
-|P&amp;um gerente  <br/> |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
+|P &amp; um gerente  <br/> |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
 |Desabilitar vídeo de participante  <br/> |&#x2714;|||||
 |Desabilitar IM de reunião  <br/> |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
 |Audiência sem áudio  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|

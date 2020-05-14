@@ -12,18 +12,18 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: c36150bb-461c-4f1c-877b-fac7fb232f7c
 description: Leia este tópico para saber mais sobre o provisionamento de contas do sistema de salas do Skype no Microsoft 365 ou no Office 365.
-ms.openlocfilehash: e2796d9a81f918c0503382e23aad5ead711240e7
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: dd79081c690863a5851295ab48a950b3f7af66af
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779707"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221845"
 ---
 # <a name="provisioning-skype-room-system-accounts-in-microsoft-365-and-office-365"></a>Provisionamento de contas do sistema de salas do Skype no Microsoft 365 e no Office 365
  
-Leia este tópico para saber mais sobre o provisionamento de contas do sistema de salas do Skype no Office 365.
+Leia este tópico para saber mais sobre o provisionamento de contas do sistema de salas do Skype no Microsoft 365 ou no Office 365.
   
-A seção a seguir abrange o provisionamento de contas do sistema de salas do Skype para uma organização do Office 365.
+A seção a seguir abrange o provisionamento de contas do sistema de salas do Skype.
   
 ## <a name="microsoft-365-and-office-365-prerequisites"></a>Pré-requisitos do Microsoft 365 e do Office 365
 
@@ -41,7 +41,7 @@ Seu locatário online deve atender aos seguintes requisitos:
     
   - Acesso do PowerShell remoto do Skype for Business Online
     
-  - Módulo do Windows Azure Active Directory para Windows PowerShell para acessar o acesso ao diretório do Office 365
+  - Módulo do Windows Azure Active Directory para Windows PowerShell para acessar o Microsoft 365 ou o Office 365 Directory Access
     
 Para a conta de sala do Skype, é necessário o seguinte:
   
@@ -55,9 +55,9 @@ Para a conta de sala do Skype, é necessário o seguinte:
     
 ## <a name="provisioning-overview"></a>Visão geral do provisionamento
 
-O diagrama a seguir fornece uma visão geral do fluxo de provisionamento da conta do sistema de salas do Skype no Office 365.
+O diagrama a seguir fornece uma visão geral do fluxo de provisionamento da conta do sistema de salas do Skype.
   
-![Etapas de provisionamento do sistema de salas do Skype para o O365](../../media/354c5659-317b-4e85-a1bc-c60c07f305a4.png)
+![Etapas de provisionamento do sistema de salas do Skype](../../media/354c5659-317b-4e85-a1bc-c60c07f305a4.png)
   
 ## <a name="identify-a-new-conference-room"></a>Identificar uma nova sala de conferência
 
@@ -93,7 +93,7 @@ Após criar a caixa de correio, você pode usar o cmdlet Set-CalendarProcessing 
 
 ## <a name="assigning-a-skype-for-business-online-license"></a>Atribuindo uma licença do Skype for Business Online
 
-Agora você pode atribuir uma licença do Skype for Business online (plano 2) ou do Skype for Business online (plano 3) usando o portal administrativo do Office 365, conforme descrito em [assign or Remove licenses for Office 365 for Business](https://support.office.com/article/Assign-or-remove-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc?ui=en-US&amp;rs=en-US&amp;ad=US) ou no [Skype for Business Add-on Licensing](https://support.office.com/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7). 
+Agora você pode atribuir uma licença do Skype for Business online (plano 2) ou do Skype for Business online (plano 3) usando o portal administrativo do 365 da Microsoft, conforme descrito em [assign or Remove licenses for Microsoft 365 for Business](https://support.office.com/article/Assign-or-remove-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc?ui=en-US&amp;rs=en-US&amp;ad=US) ou no [Skype for Business Add-on Licensing](https://support.office.com/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7). 
   
 Após atribuir uma licença para o Skype for Business Online, você poderá entrar e validar que a conta está ativa usando qualquer cliente Skype for Business.
   
@@ -126,7 +126,7 @@ Após uma conta de caixa de correio de sala de recursos ter sido criada e habili
 
 ## <a name="password-expiration"></a>Expiração da senha
 
-No Office 365, a política de expiração de senha padrão para todas as suas contas de usuário é de 90 dias, a menos que você configure uma política de expiração de senha diferente. Para contas do sistema de salas do Skype, você pode selecionar a configuração a senha nunca expira com as etapas a seguir.
+No Microsoft 365 ou no Office 365, a política de expiração de senha padrão para todas as suas contas de usuário é de 90 dias, a menos que você configure uma política de expiração de senha diferente. Para contas do sistema de salas do Skype, você pode selecionar a configuração a senha nunca expira com as etapas a seguir.
   
 1. Crie uma sessão do Windows Azure Active Directory usando suas credenciais de administrador global do locatário.
     

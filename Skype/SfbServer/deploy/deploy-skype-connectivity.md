@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: fb51860b-6f46-4b71-b8c8-682d0982d36d
 description: 'Resumo: saiba como conectar o Skype for Business Server com o consumidor do Skype. Também conhecido como conectividade do Skype.'
-ms.openlocfilehash: 2cf124c340218a352f55fa1c09302a0d0f1d972a
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: b0cae57ac357b2b88d74b6326176c7cb7cdaf22e
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780060"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44219741"
 ---
 # <a name="deploy-skype-connectivity-in-skype-for-business-server"></a>Implantar a conectividade do Skype no Skype for Business Server
 
@@ -73,13 +73,13 @@ A tabela a seguir descreve o suporte para pesquisa de diretório do Skype.
 > [!NOTE]
 > O Skype for Business Server limitará as solicitações de entrada, se houver muitas solicitações pendentes na fila. 
   
-## <a name="deploying-skype-connectivity-for-skype-for-business-online-in-office-365"></a>Implantando a conectividade do Skype para o Skype for Business online no Office 365
+## <a name="deploying-skype-connectivity-for-skype-for-business-online"></a>Implantando a conectividade do Skype para o Skype for Business Online
 
-A conectividade do Skype também é um recurso do Skype for Business Online, que faz parte do Office 365. Você pode habilitar o recurso de conectividade do Skype do centro de administração do Skype for Business no centro de administração do Microsoft 365.
+A conectividade do Skype também é um recurso do Skype for Business Online, que faz parte do Microsoft 365 e do Office 365. Você pode habilitar o recurso de conectividade do Skype do centro de administração do Skype for Business no centro de administração do Microsoft 365.
   
-Para o Office 365 Midsize Business, o Office 365 Enterprise, o Office 365 Education e o Office 365 para o governo: entre no centro de administração do Microsoft 365 e navegue até o centro de administração do Skype for Business. Vá para comunicações externas. Em provedores de serviços públicos de IM, clique em habilitar. Se você quiser controlar o acesso de usuários individuais à conectividade do Skype, poderá fazê-lo editando as configurações de comunicações externas de usuários individuais.
+Para o Microsoft 365 Midsize Business, o Office 365 Enterprise, o Microsoft 365 Education e o Office 365 para o governo: entre no centro de administração do Microsoft 365 e navegue até o centro de administração do Skype for Business. Vá para comunicações externas. Em provedores de serviços públicos de IM, clique em habilitar. Se você quiser controlar o acesso de usuários individuais à conectividade do Skype, poderá fazê-lo editando as configurações de comunicações externas de usuários individuais.
   
-Para o Office 365 Small Business Premium: entrar no Office 365 e vá até configurações \> \> de serviço de administração, reuniões e conferências. Ative as comunicações externas. O comutador de comunicações externas ativa a conectividade do Skype e as comunicações com outras organizações que usam o Skype for Business.
+Para o Office 365 Small Business Premium: entrar no Office 365 e vá até configurações de \> serviço \> de administração, reuniões e conferências. Ative as comunicações externas. O comutador de comunicações externas ativa a conectividade do Skype e as comunicações com outras organizações que usam o Skype for Business.
   
 Para obter mais informações sobre a administração do Skype for Business Online, consulte:
   
@@ -109,12 +109,12 @@ A comunicação entre qualquer implantação local do Skype for Business e usuá
   
 Implantações locais são necessárias para publicar um registro SRV DNS de Federação para cada domínio que eles hospedam. As orientações estão disponíveis no [planejamento de DNS](../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md#dns-planning). Cada domínio deve ser resolvido pela consulta SRV DNS para um FQDN do servidor de borda que atenda a uma correspondência de sufixo de nível superior do domínio. Por exemplo, considere o domínio "contoso.com":
 
-|**FQDNs válidos**|**Comentário**|
+|**FQDNs válidos**|**Comment**|
 |:-----|:-----|
 |sip.contoso.com   ||
 |sipfed.contoso.com   |Em cada caso, o FQDN exato deve estar presente no SN ou na SAN do certificado externo instalado no servidor de borda.   |
 |access.contoso.com   ||
-|**FQDNs inválidos**|**Motivo**|
+|**FQDNs inválidos**|**Reason**|
 |sip.contoso-edge.com   |Não é uma correspondência de sufixo.  |
 |sip.it.contoso.com   |Não é uma correspondência de sufixo de nível superior.   |
 
@@ -204,7 +204,7 @@ A configuração da conectividade do Skype também pode ser feita usando apenas 
     
    - ProxyFqdn: local da borda de Federação do Skype (de propriedade/mantida pela Microsoft)
     
-   - IconURL: ícone usado pelo cliente &amp; do Lync Skype for Business para identificar visualmente contatos do Skype
+   - IconURL: ícone usado pelo &amp; cliente do Lync Skype for Business para identificar visualmente contatos do Skype
     
    - NameDecorationRoutingDomain e NameDecorationExcludedDomainList: a configuração desses permite que os usuários insiram o MSAs dos usuários do Skype sem precisar saber sobre a "decoração" de domínios não-Microsoft com "msn.com". Isso elimina a necessidade de digitar "user (contoso. com) @msn. com" para todos os domínios que não estão no ExcludedDomainList. O cliente SfB formatará automaticamente o MSA se o domínio não estiver na lista excluída. Adicionamos os domínios de conta da Microsoft mais comuns à lista de excluídos.
     
@@ -221,7 +221,7 @@ A configuração da conectividade do Skype também pode ser feita usando apenas 
 A tabela a seguir descreve o status da interoperabilidade entre a versão mais recente do Skype Consumer e a versão mais recente do Skype for Business.
   
 
-|**Clientes do Skype**|**Adicionar contatos, mensagens instantâneas, presença, áudio e chamadas de vídeo**|**Comentário**|
+|**Clientes do Skype**|**Adicionar contatos, mensagens instantâneas, presença, áudio e chamadas de vídeo**|**Comment**|
 |:-----|:-----|:-----|
 |Área de trabalho do Windows do Skype  <br/> |7,6 ou superior, Windows XP e superior  <br/> |**Novo**: suporte adicionado para o Windows Skype Client em execução no Windows XP e Windows Vista **(requer a versão mais recente do cliente 7,26 ou superior)** <br/> |
 |Skype Mobile-telefone Android e Tablet  <br/> |6,19 ou superior, executando o sistema operacional Android versão 4.0.3 ou superior  <br/> |Os dispositivos de especificação baixa podem não suportar a chamada de vídeo  <br/> |
@@ -244,7 +244,6 @@ A tabela a seguir descreve o status da interoperabilidade entre a versão mais r
 |Aplicativo moderno do Lync (Win 8,1)  <br/> |Sim  <br/> |Sim  <br/> |
 |Lync Mac 2011  <br/> |Pode adicionar (sem pesquisa)  <br/> |Sim  <br/> |
 |Lync Desktop 2010  <br/> |Pode adicionar (sem pesquisa)  <br/> |Sim  <br/> |
-|Lync Phone Edition  <br/> |N/D  <br/> |Não disponível  <br/> |
-|Atendedor do Lync  <br/> |N/D  <br/> |N/D  <br/> |
+|Lync Phone Edition  <br/> |Não disponível  <br/> |Não disponível  <br/> |
+|Atendedor do Lync  <br/> |Não disponível  <br/> |Não disponível  <br/> |
    
-

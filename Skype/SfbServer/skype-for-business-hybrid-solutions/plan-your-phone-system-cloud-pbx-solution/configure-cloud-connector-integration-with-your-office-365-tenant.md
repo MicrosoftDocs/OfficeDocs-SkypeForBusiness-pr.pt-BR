@@ -15,19 +15,19 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 0e2f2395-b890-4d16-aa2d-99d52438b89c
-description: Saiba como configurar a integração do Cloud Connector com sua organização do Office 365.
-ms.openlocfilehash: 1fecf017f614fc8bdf0f38b5f51c29e4b2774357
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+description: Saiba como configurar a integração do Cloud Connector com sua organização do Microsoft 365 ou do Office 365.
+ms.openlocfilehash: 2c65551ce75efce61f82d47ac2b9c16db555ab42
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780640"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221241"
 ---
 # <a name="configure-cloud-connector-integration-with-your-microsoft-365-or-office-365-organization"></a>Configurar a integração do Cloud Connector com sua organização do Microsoft 365 ou do Office 365
  
-Saiba como configurar a integração do Cloud Connector com sua organização do Office 365.
+Saiba como configurar a integração do Cloud Connector com sua organização do Microsoft 365 ou do Office 365.
   
-Depois que a instalação do Skype for Business Cloud Connector Edition estiver concluída, execute as etapas desta seção para configurar sua implantação e conectá-la à sua organização do Office 365.
+Depois que a instalação do Skype for Business Cloud Connector Edition estiver concluída, execute as etapas desta seção para configurar sua implantação e conectá-la à sua organização do Microsoft 365 ou do Office 365.
   
 ## <a name="configure-firewall-settings"></a>Configurar definições de firewall
 
@@ -53,23 +53,23 @@ Se você estiver usando o TLS entre servidores de mediação e gateways, será n
     
 ## <a name="update-the-domain-for-your-tenant"></a>Atualizar o domínio para o locatário
 
-Certifique-se de ter concluído as etapas para atualizar seu domínio no Office 365 e ter a capacidade de adicionar registros DNS. Para obter mais informações sobre como configurar seu domínio no Office 365, consulte [Adicionar um domínio ao office 365](https://support.office.com/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611).
+Verifique se você concluiu as etapas para atualizar seu domínio no Microsoft 365 ou no Office 365 e tem a capacidade de adicionar registros DNS. Para obter mais informações sobre como configurar seu domínio no Microsoft 365 ou no Office 365, consulte [Adicionar um domínio ao microsoft 365 ou office 365](https://support.office.com/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611).
   
-## <a name="add-dns-records-in-office-365-for-your-edge"></a>Adicionar registros DNS no Office 365 para sua borda
+## <a name="add-dns-records-for-your-edge"></a>Adicionar registros DNS para sua borda
 
-Adicione os seguintes registros DNS à sua organização do Office 365. Para obter informações sobre como adicionar registros DNS à sua organização do Office 365, consulte [Adicionar ou editar registros DNS personalizados no Office 365](https://support.office.com/article/Add-or-edit-custom-DNS-records-in-Office-365-AF00A516-DD39-4EDA-AF3E-1EAF686C8DC9?ui=en-US&amp;rs=en-US&amp;ad=US&amp;fromAR=1).
+Adicione os seguintes registros DNS à sua organização do Microsoft 365 ou do Office 365. Para obter informações sobre como adicionar registros DNS, consulte [Adicionar ou editar registros DNS personalizados no Microsoft 365 ou no Office 365](https://support.office.com/article/Add-or-edit-custom-DNS-records-in-Office-365-AF00A516-DD39-4EDA-AF3E-1EAF686C8DC9?ui=en-US&amp;rs=en-US&amp;ad=US&amp;fromAR=1).
   
 1. Adicionar um registro DNS A para borda de acesso.
     
-2. Os registros SRV serão criados automaticamente pelo Office 365 e os scripts de implantação. Confirme que você pode pesquisar os dois serviços SIP a seguir na borda: _sip e _sipfederationtls.
+2. Os registros SRV serão criados automaticamente pelo Microsoft 365 ou Office 365 e os scripts de implantação. Confirme que você pode pesquisar os dois serviços SIP a seguir na borda: \_ SIP e \_ sipfederationtls.
     
      ![Confirmação de registros SRV](../../media/3c353a29-6dcc-4ed3-98db-3a6bed3e929e.png)
   
-## <a name="set-up-hybrid-connectivity-between-cloud-connector-edition-and-office-365"></a>Configurar a conectividade híbrida entre o Cloud Connector Edition e o Office 365
+## <a name="set-up-hybrid-connectivity-between-cloud-connector-edition-and-microsoft-365-or-office-365"></a>Configurar a conectividade híbrida entre o Cloud Connector Edition e o Microsoft 365 ou o Office 365
 
-Para configurar a conectividade híbrida entre sua implantação do Skype for Business Cloud Connector Edition e sua organização do Office 365, execute o cmdlet a seguir em uma sessão remota do PowerShell. Para saber como estabelecer uma sessão remota do PowerShell, consulte: [configurar seu computador para o Windows PowerShell](https://technet.microsoft.com/library/dn362831%28v=ocs.15%29.aspx).
+Para configurar a conectividade híbrida entre sua implantação do Skype for Business Cloud Connector Edition e sua organização do Microsoft 365 ou do Office 365, execute o cmdlet a seguir em uma sessão remota do PowerShell. Para saber como estabelecer uma sessão remota do PowerShell, consulte: [configurar seu computador para o Windows PowerShell](https://technet.microsoft.com/library/dn362831%28v=ocs.15%29.aspx).
   
-O cmdlet define o FQDN externo da borda de acesso. No primeiro dos comandos, o \<FQDN\> de borda de acesso externo deve ser aquele para a função de borda de acesso SIP. Por padrão, isso deve ser AP.\<nome\>do domínio.
+O cmdlet define o FQDN externo da borda de acesso. No primeiro dos comandos, o FQDN de \< borda de acesso externo \> deve ser aquele para a função de borda de acesso SIP. Por padrão, isso deve ser AP. \< Nome do domínio \> .
   
 ```powershell
 Set-CsTenantHybridConfiguration -PeerDestination <External Access Edge FQDN> -UseOnPremDialPlan $false
@@ -99,13 +99,13 @@ Se você estiver usando o TLS entre servidores de mediação e gateways, será n
     
 5. Os gateways PSTN em um site PSTN só devem se conectar ao (s) servidor (es) de mediação no mesmo site.
     
-## <a name="set-up-your-users-in-office-365"></a>Configurar seus usuários no Office 365
+## <a name="set-up-your-users"></a>Configurar seus usuários
 
-Faça logon no centro de administração do Microsoft 365, adicione os usuários que serão habilitados para serviços de voz online e atribua uma licença E5 ou sistema de telefonia no Office 365 complemento à licença E3 para esses usuários. Para obter informações sobre como adicionar usuários, consulte [Adicionar usuários ao Office 365 for Business](https://support.office.com/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc).
+Faça logon no centro de administração do Microsoft 365, adicione os usuários que serão habilitados para serviços de voz online e atribua uma licença E5 ou um complemento de sistema de telefonia à licença E3 para esses usuários. Para obter informações sobre como adicionar usuários, consulte [Adicionar usuários ao Microsoft 365 for Business](https://support.office.com/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc).
   
-## <a name="enable-users-for-phone-system-in-office-365-voice-and-voicemail-services"></a>Habilitar usuários para o sistema de telefonia no Office 365 voz e serviços de caixa postal
-
-Depois de adicionar os usuários ao Office 365, habilite suas contas de sistema de telefonia no Office 365 Voice Services, incluindo a caixa postal. Para habilitar esses recursos, você deve fazer logon na sua organização do Office 365 com uma conta que é uma função de administrador global e poder executar o PowerShell remoto. Para saber como estabelecer uma sessão remota do PowerShell, consulte: [configurar seu computador para o Windows PowerShell](https://technet.microsoft.com/library/dn362831%28v=ocs.15%29.aspx)
+## <a name="enable-users-for-phone-system-voice-and-voicemail-services"></a>Habilitar usuários para serviços de voz e caixa postal do sistema de telefonia
+ 
+Depois de adicionar os usuários ao Microsoft 365 ou ao Office 365, habilite suas contas para serviços de voz do sistema de telefonia, incluindo caixa postal. Para habilitar esses recursos, você deve fazer logon na sua organização do Microsoft 365 ou do Office 365 com uma conta que seja uma função de administrador global e poder executar o PowerShell remoto. Para saber como estabelecer uma sessão remota do PowerShell, consulte: [configurar seu computador para o Windows PowerShell](https://technet.microsoft.com/library/dn362831%28v=ocs.15%29.aspx)
   
 - Atribua a política ao usuário e configure o número de telefone comercial do usuário, que você especifica com o valor do parâmetro **Identity** :
     
@@ -114,7 +114,7 @@ Depois de adicionar os usuários ao Office 365, habilite suas contas de sistema 
   ```
 
     > [!NOTE]
-    > Uma identidade de usuário pode ser especificada usando o endereço SIP do usuário, o nome do usuário principal (UPN) ou o nome de exibição do Active Directory do usuário (por exemplo, "Bob Kelly"). O caractere asterisco\*() também pode ser usado com o nome de exibição como a identidade do usuário. Por exemplo, a identidade "\*Smith" retorna todos os usuários que têm um nome de exibição que termina com o valor de cadeia de caracteres "Smith".
+    > Uma identidade de usuário pode ser especificada usando o endereço SIP do usuário, o nome do usuário principal (UPN) ou o nome de exibição do Active Directory do usuário (por exemplo, "Bob Kelly"). O caractere asterisco ( \* ) também pode ser usado com o nome de exibição como a identidade do usuário. Por exemplo, a identidade " \* Smith" retorna todos os usuários que têm um nome de exibição que termina com o valor de cadeia de caracteres "Smith".
   
 Em seguida, você pode verificar se os usuários foram adicionados e habilitados usando o seguinte script:
   
@@ -158,18 +158,18 @@ Get-CsOnlineUser | Get-CsUserPstnSettings
 ```
 
 > [!NOTE]
-> Se nenhum site PSTN for atribuído a um usuário, a conectividade híbrida entre sua implantação do Skype for Business Cloud Connector Edition e sua organização do Office 365 será revertida para usar o padrão de nível de locatário (destino de par) para que as chamadas possam ser concluídas. 
+> Se nenhum site PSTN for atribuído a um usuário, a conectividade híbrida entre sua implantação do Skype for Business Cloud Connector Edition e sua organização do Microsoft 365 ou do Office 365 será revertida para usar o padrão de nível de locatário (destino de par) para que as chamadas possam ser concluídas. 
   
 ## <a name="configure-online-hybrid-mediation-server-settings"></a>Definir configurações do servidor de mediação híbrida online
 <a name="BKMK_ConfigureMediationServer"> </a>
 
-Quando uma chamada P2P é escalonada para uma conferência PSTN, o servidor de conferência do Skype for Business online enviará um convite para o servidor de mediação do Cloud Connector. Para garantir que o Office 365 possa encaminhar esse convite com êxito, você precisa definir uma configuração no seu locatário online para cada servidor de mediação do Cloud Connector da seguinte maneira: 
+Quando uma chamada P2P é escalonada para uma conferência PSTN, o servidor de conferência do Skype for Business online enviará um convite para o servidor de mediação do Cloud Connector. Para garantir que o Microsoft 365 ou o Office 365 possa encaminhar esse convite com êxito, você precisa definir uma configuração no seu locatário online para cada servidor de mediação do Cloud Connector da seguinte maneira: 
   
 1. Crie um usuário no centro de administração do Microsoft 365. Use o nome de usuário desejado, como "MediationServer1".
     
     Use o domínio SIP padrão do Cloud Connector (o primeiro domínio SIP no arquivo. ini) como o domínio do usuário.
     
-    Observe que a atribuição de licenças só é necessária para a propagação do usuário no diretório do Skype for Business online. Atribuir licenças do Office 365 (como E5) à conta criada, permitir até uma hora para que as alterações sejam propagadas, verifique se as contas de usuário foram provisionadas corretamente para o diretório do Skype for Business online executando o cmdlet a seguir e remova a licença dessa conta.
+    Observe que a atribuição de licenças só é necessária para a propagação do usuário no diretório do Skype for Business online. Atribuir uma licença do Microsoft 365 ou do Office 365 (como E5) à conta criada, permitir até uma hora para que as alterações sejam propagadas, verifique se as contas de usuário foram provisionadas corretamente para o diretório do Skype for Business online executando o cmdlet a seguir e remova a licença dessa conta.
     ```powershell
    Get-CsOnlineUser -Identity <UserPrincipalName>
    ```
@@ -180,7 +180,7 @@ Quando uma chamada P2P é escalonada para uma conferência PSTN, o servidor de c
    Set-MsolUser -UserPrincipalName <UserPrincipalName> -Department "HybridMediationServer"
    ```
 
-3. Inicie uma sessão do PowerShell remoto do Skype for Business locatário usando suas credenciais de administrador de locatário do Skype for Business e, em seguida, execute o seguinte cmdlet para definir o servidor de mediação e \<o\> FQDN do servidor de borda para essa conta de usuário, substituindo DisplayName pelo nome de exibição do usuário para a conta que você criou na etapa 1:
+3. Inicie uma sessão do PowerShell remoto do Skype for Business locatário usando suas credenciais de administrador de locatário do Skype for Business e, em seguida, execute o seguinte cmdlet para definir o servidor de mediação e o FQDN do servidor de borda para essa conta de usuário, substituindo \< DisplayName \> pelo nome de exibição do usuário para a conta que você criou na etapa 1:
     
    ```powershell
    Set-CsHybridMediationServer -Identity <DisplayName> -Fqdn <MediationServerFQDN> -AccessProxyExternalFqdn <EdgeServerExternalFQDN>
@@ -194,4 +194,3 @@ Quando uma chamada P2P é escalonada para uma conferência PSTN, o servidor de c
     
 4. Se houver vários servidores de mediação do Cloud Connector (vários sites, alta disponibilidade), repita as etapas anteriores para cada um deles.
     
-

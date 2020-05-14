@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 95f0852e-391d-4345-985f-0a2da50491fa
 description: 'Resumo: análise dos clientes e aplicativos com suporte para o Skype for Business.'
-ms.openlocfilehash: 71960fe7f450bbf4073c80d584e1eb1b0eb259d5
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: bcb6cfdaa0797e46ebc01f551a46600577d4dc27
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42013484"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44220551"
 ---
 # <a name="plan-for-clients-and-devices"></a>Planejar clientes e dispositivos
 
@@ -36,7 +36,7 @@ O Skype for Business Server oferece suporte a vários tipos de clientes, incluin
 
 ### <a name="skype-for-business-2019"></a>Skype for Business (2019)
 
-O Skype for Business (2019) é o cliente de destaque completo recomendado para o Skype for Business Server 2015 e 2019. Consulte [acompanhar as atualizações mais recentes no Skype for Business](https://support.office.com/article/What-s-new-in-Skype-for-Business-2016-cece9f93-add1-4d93-9a38-56cc598e5781) para obter uma descrição dos novos recursos. O suporte aos recursos do cliente é detalhado na [comparação de recursos do cliente de desktop para o Skype for Business](desktop-feature-comparison.md)e a documentação do usuário está na [ajuda do Skype for Business](https://support.office.com/Skype-for-business). Esse cliente é incluído quando um usuário instala o Office 365.
+O Skype for Business (2019) é o cliente de destaque completo recomendado para o Skype for Business Server 2015 e 2019. Consulte [acompanhar as atualizações mais recentes no Skype for Business](https://support.office.com/article/What-s-new-in-Skype-for-Business-2016-cece9f93-add1-4d93-9a38-56cc598e5781) para obter uma descrição dos novos recursos. O suporte aos recursos do cliente é detalhado na [comparação de recursos do cliente de desktop para o Skype for Business](desktop-feature-comparison.md)e a documentação do usuário está na [ajuda do Skype for Business](https://support.office.com/Skype-for-business). Esse cliente é incluído quando um usuário instala o Microsoft 365 ou o Office 365.
 
 Um cliente básico gratuito que oferece suporte A menos recursos também está disponível. Ambas as versões estão disponíveis para download no [download do Skype for Business em todos os seus dispositivos](https://products.office.com/skype-for-business/download-app?tab=tabs-3). As diferenças entre clientes completos e básicos são descritas na seção [limitações do cliente básico](desktop-feature-comparison.md#Full-Basic) .
 
@@ -91,7 +91,7 @@ O Microsoft Surface Hub é um dispositivo de produtividade All-in-One destinado 
 
 Se sua organização comprou as licenças adequadas, escolha o cliente completo; caso contrário, escolha o cliente básico.
 
-Os usuários podem instalar o cliente para si mesmos para [baixar o Skype for Business em todos os seus dispositivos](https://products.office.com/skype-for-business/download-app?tab=tabs-3). O cliente também é instalado quando os usuários instalam o Office 365 no Windows. Se alguns dos seus usuários tiverem Macs, esses usuários terão um conjunto diferente de recursos, conforme descrito nas seções anteriores.
+Os usuários podem instalar o cliente para si mesmos para [baixar o Skype for Business em todos os seus dispositivos](https://products.office.com/skype-for-business/download-app?tab=tabs-3). O cliente também é instalado quando os usuários instalam o Microsoft 365 ou o Office 365 no Windows. Se alguns dos seus usuários tiverem Macs, esses usuários terão um conjunto diferente de recursos, conforme descrito nas seções anteriores.
 
 Alguns recursos disponíveis com o Skype for Business Server 2015 não estão disponíveis no Skype for Business online ou no Skype for Business Server 2019, confira [limitações da conta de usuário online ou híbrida para](desktop-feature-comparison.md#Online-Hybrid) as limitações da conta de usuário do 2015 ou do [online ou híbrido para 2019](desktop-feature-comparison.md#Online-Hybrid) . Os administradores do Skype for Business Online podem querer consultar a [Descrição do serviço do Skype for Business online](https://technet.microsoft.com/library/skype-for-business-online-service-description.aspx) para obter informações sobre os diferentes planos disponíveis para eles.
 

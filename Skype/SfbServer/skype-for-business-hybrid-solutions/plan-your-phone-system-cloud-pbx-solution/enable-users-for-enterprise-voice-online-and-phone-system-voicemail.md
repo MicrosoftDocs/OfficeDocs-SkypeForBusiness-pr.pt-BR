@@ -1,5 +1,5 @@
 ---
-title: Habilitar usuários para o Enterprise Voice online e o sistema de telefonia no Office 365 caixa postal
+title: Habilitar usuários para o Enterprise Voice online e a caixa postal do sistema de telefonia
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -18,25 +18,25 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 28daebcb-c2dc-4338-b2d1-04345ece9c19
-description: Saiba como habilitar o sistema de telefonia nos serviços de voz do Office 365 para seus usuários do Skype for Business.
-ms.openlocfilehash: 8ed04e3926adfecb2f0022d12c783f6c3e83d763
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+description: Saiba como habilitar os serviços de voz do sistema de telefonia para seus usuários do Skype for Business.
+ms.openlocfilehash: 522da56969f851280812670692a27d94e4df09a8
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780720"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221101"
 ---
-# <a name="enable-users-for-enterprise-voice-online-and-phone-system-in-office-365-voicemail"></a>Habilitar usuários para o Enterprise Voice online e o sistema de telefonia no Office 365 caixa postal
+# <a name="enable-users-for-enterprise-voice-online-and-phone-system-voicemail"></a>Habilitar usuários para o Enterprise Voice online e a caixa postal do sistema de telefonia
  
-Saiba como habilitar o sistema de telefonia nos serviços de voz do Office 365 para seus usuários do Skype for Business.
+Saiba como habilitar os serviços de voz do sistema de telefonia para seus usuários do Skype for Business.
   
-A etapa final na implantação do sistema de telefonia no Office 365 com conectividade PSTN local é habilitar os usuários para o sistema de telefonia no Office 365 e no correio de voz. Para habilitar esses recursos, você deve ser um usuário com a função de administrador global e poder executar o PowerShell remoto. Você precisa seguir as etapas deste tópico para todas as contas de usuário que ainda não têm o Enterprise Voice habilitado para o Skype for Business online.
+A etapa final na implantação do sistema de telefonia com conectividade PSTN local é habilitar os usuários para o sistema de telefonia e caixa postal. Para habilitar esses recursos, você deve ser um usuário com a função de administrador global e poder executar o PowerShell remoto. Você precisa seguir as etapas deste tópico para todas as contas de usuário que ainda não têm o Enterprise Voice habilitado para o Skype for Business online.
   
-## <a name="enable-phone-system-in-office-365-voice-services"></a>Habilitar o sistema de telefonia nos serviços de voz do Office 365
+## <a name="enable-phone-system-voice-services"></a>Habilitar serviços de voz do sistema de telefonia
 
-Para habilitar um usuário para o sistema de telefonia do Office 365 voz e correio de voz, você precisará executar algumas etapas iniciais, como verificar se o conector do Skype for Business online está implantado nos seus servidores e habilitar os usuários para caixa postal hospedada.
+Para habilitar um usuário para voz e caixa postal do sistema de telefonia, você precisará executar algumas etapas iniciais, como verificar se o conector do Skype for Business online está implantado nos seus servidores e habilitar os usuários para caixa postal hospedada.
   
-### <a name="to-enable-your-users-for-phone-system-in-office-365-voice-and-voicemail"></a>Para habilitar os usuários para o sistema de telefonia no Office 365 voz e caixa postal
+### <a name="to-enable-your-users-for-phone-system-voice-and-voicemail"></a>Para habilitar os usuários para voz e caixa postal do sistema de telefonia
 
 1. Antes de começar, verifique se o conector do Skype for Business online (módulo do Windows PowerShell) está implantado em seus servidores front-end. Caso contrário, você pode baixá-lo do [centro de download](https://www.microsoft.com/download/details.aspx?id=39366). Você pode encontrar mais informações sobre como usar esse módulo em [Configurando o computador para o gerenciamento do Skype for Business online](https://technet.microsoft.com/library/dn362839%28v=ocs.15%29.aspx).
     
@@ -87,9 +87,9 @@ Para habilitar um usuário para o sistema de telefonia do Office 365 voz e corre
     > [!NOTE]
     > Você também pode especificar um usuário pelo endereço SIP, nome UPN, nome de domínio e nome de usuário (domínio \ nomedeusuário) e nome de exibição no Active Directory ("Bob Kelly"). 
   
-## <a name="update-the-line-uri-and-dial-plan-for-users-enabled-for-phone-system-in-office-365"></a>Atualizar o URI da linha e o plano de discagem para usuários habilitados para o sistema de telefonia no Office 365
+## <a name="update-the-line-uri-and-dial-plan-for-users-enabled-for-phone-system"></a>Atualizar o URI da linha e o plano de discagem para usuários habilitados para o sistema de telefonia
 
-Esta seção descreve como atualizar o URI da linha e o plano de discagem para usuários habilitados para o sistema de telefonia no Office 365. 
+Esta seção descreve como atualizar o URI da linha e o plano de discagem para usuários habilitados para o sistema de telefonia. 
   
 ### <a name="to-update-the-line-uri"></a>Para atualizar o URI da linha
 
@@ -141,12 +141,12 @@ Você pode atribuir planos de discagem por usuário com o Windows PowerShell e o
 
 ## <a name="update-the-voice-routing-policies-using-on-premises-windows-powershell-cmdlets"></a>Atualizar as políticas de roteamento de voz usando cmdlets do Windows PowerShell no local
 
-Esta seção descreve como atualizar as políticas de roteamento de voz para usuários habilitados para o sistema de telefonia no Office 365.
+Esta seção descreve como atualizar as políticas de roteamento de voz para usuários habilitados para o sistema de telefonia.
   
-O sistema de telefonia nos usuários do Office 365 deve ter uma política de roteamento de voz atribuída a eles para chamadas de roteamento com êxito. Isso difere dos usuários do Business Voice no local que exigem que uma política de voz seja atribuída a eles para permitir que as chamadas sejam roteadas com êxito. A política de roteamento de voz deve conter usos de PSTN que definem chamadas e rotas autorizadas para o sistema de telefonia nos usuários do Office 365. Você pode copiar esses usos de PSTN de políticas de voz existentes para novas políticas de roteamento de voz. Para obter mais informações, consulte [New-CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csvoiceroutingpolicy?view=skype-ps).
+Os usuários do sistema de telefonia precisam ter uma política de roteamento de voz atribuída a eles para que as chamadas sejam roteadas com êxito. Isso difere dos usuários do Business Voice no local que exigem que uma política de voz seja atribuída a eles para permitir que as chamadas sejam roteadas com êxito. A política de roteamento de voz deve conter usos de PSTN que definem chamadas e rotas autorizadas para usuários de sistema de telefonia. Você pode copiar esses usos de PSTN de políticas de voz existentes para novas políticas de roteamento de voz. Para obter mais informações, consulte [New-CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csvoiceroutingpolicy?view=skype-ps).
   
 > [!NOTE]
-> Todo o sistema de telefonia nos usuários do Office 365 recebe a mesma política de voz online denominada Businessvoice, que define os recursos de chamada permitidos; por exemplo, permita o toque simultâneo. 
+> Todos os usuários do sistema telefônico recebem a mesma política de voz online chamada Businessvoice,, que define os recursos de chamada permitidos; por exemplo, permita o toque simultâneo. 
   
 ### <a name="to-assign-a-per-user-voice-routing-policy-to-a-single-user"></a>Para atribuir uma política de roteamento de voz por usuário a um único usuário
 

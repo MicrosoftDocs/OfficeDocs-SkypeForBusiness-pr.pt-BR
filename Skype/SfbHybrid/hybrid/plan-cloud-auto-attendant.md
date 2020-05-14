@@ -12,18 +12,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Visão geral do uso de um atendedor automático na nuvem com o Skype for Business Server 2019
-ms.openlocfilehash: f0b8018e7a926444e7920ccac31ed3ff4ab5c15f
-ms.sourcegitcommit: 477aac9e14fced139ee7dd827942ce35b9769b63
+ms.openlocfilehash: d85c846a05448d8b1021bb5c1cac62c80ee1bf22
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "43510800"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221291"
 ---
 # <a name="plan-cloud-auto-attendants"></a>Planejar atendedores automáticos de nuvem
 
 O atendedor automático usado com a Unificação de mensagens do Exchange (Exchange Server 2013 ou Exchange Server 2016) não está mais disponível no Exchange Server 2019 ou no Exchange Online. Se sua implementação do Skype for Business Server 2019 se integra a qualquer uma dessas versões do Exchange, você precisará usar os recursos de voz de nuvem online associados ao sistema de telefonia. Consulte [planejar o Skype for Business Server e a migração do Exchange Server](plan-um-migration.md) para obter informações sobre como mover os serviços de um do Exchange hospedados no exchange server 2013 e 2016 para a nuvem.
 
-Isso significa inerentemente que você terá uma implementação híbrida do Skype for Business Server 2019 se quiser usar recursos de Unificação de mensagens, como atendedores automáticos. Confira [Configurar a conectividade híbrida entre o Skype for Business Server e o Office 365](configure-hybrid-connectivity.md) para obter detalhes.
+Isso significa inerentemente que você terá uma implementação híbrida do Skype for Business Server 2019 se quiser usar recursos de Unificação de mensagens, como atendedores automáticos. Confira [Configurar a conectividade híbrida entre o Skype for Business Server e o Microsoft 365 ou o Office 365](configure-hybrid-connectivity.md) para obter detalhes.
 
 Um atendedor automático é um serviço de nuvem que aceita chamadas de clientes e toca Saudações, fornece a eles opções de menu e interage com os chamadores usando fala ou o teclado de discagem para rotear suas chamadas para o destino correto. Cada atendedor automático é atribuído a uma *conta de recurso* (consulte [Configure Resource accounts](configure-onprem-ra.md)) no seu sistema Skype for Business Server 2019 que será vinculado diretamente a um atendedor automático no centro de administração do Microsoft Teams. Veja [o que são atendedores automáticos de nuvem?](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md) para obter mais detalhes sobre os atendedores automáticos e quais opções e recursos existem para atendedores automáticos.
 
@@ -36,7 +36,7 @@ Uma chamada de entrada para um atendedor automático na nuvem pode ter um dos v�
 
 1. Via Skype for Business Server 2019
 2. Por meio de um [controlador de borda de sessão](/MicrosoftTeams/direct-routing-border-controllers.md) e [Roteamento direto](/MicrosoftTeams/direct-routing-plan.md)
-3. Por meio de um número hospedado online no Office 365.
+3. Por meio de um número hospedado online no Microsoft 365 ou no Office 365.
 
 Confira também:
 
@@ -55,7 +55,7 @@ Além dos requisitos acima, os requisitos a seguir devem ser configurados para s
 
 - Conectividade híbrida. Se você já tiver o Skype for Business Server implantado e quiser habilitar o atendedor automático na nuvem para seus usuários locais, você deve garantir que a conectividade híbrida seja configurada entre seus ambientes locais e online. Isso às vezes é chamado de configuração de domínio dividido.
 
-   Para saber mais, confira [planejar conectividade híbrida entre o Skype for Business Server e o office 365](plan-hybrid-connectivity.md) e [Configurar a conectividade híbrida entre o Skype for Business Server e o Office 365](configure-hybrid-connectivity.md).
+   Para saber mais, confira [planejar conectividade híbrida entre o Skype for Business Server e o microsoft 365 ou o office 365](plan-hybrid-connectivity.md) e [Configurar a conectividade híbrida entre o Skype for Business Server e o Microsoft 365 ou o Office 365](configure-hybrid-connectivity.md).
 
 - Se você estiver atribuindo um número de telefone para o atendedor automático, precisará de uma licença [do Office 365 Enterprise E5](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-with-audio-conferencing) .
 - Crie uma [conta de recurso](/MicrosoftTeams/manage-resource-accounts.md) online ou conta de [recurso](configure-onprem-ra.md) local para cada atendedor automático e atribua números de telefone e licenças. 
@@ -114,8 +114,8 @@ Quando você tem uma estrutura sólida que atende às suas necessidades e um scr
 
 UM do Exchange: [atender automaticamente e rotear chamadas de entrada](https://docs.microsoft.com/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/automatically-answer-and-route-calls)
 
-[Planejar conectividade híbrida entre o Skype for Business Server e o Office 365](plan-hybrid-connectivity.md)
+[Planejar a conectividade híbrida entre o Skype for Business Server e o Microsoft 365 ou o Office 365](plan-hybrid-connectivity.md)
 
-[Configurar a conectividade híbrida entre o Skype for Business Server e o Office 365](configure-hybrid-connectivity.md)
+[Configurar a conectividade híbrida entre o Skype for Business Server e o Microsoft 365 ou o Office 365](configure-hybrid-connectivity.md)
 
 [KB4480742: as chamadas para acesso ao assinante ou atendedor automático falham com o Fast Busy e o erro "500 Server Internal" após mover objetos de contato para o Skype for Business Server 2019](https://support.microsoft.com/help/4480742/call-failures-and-500-server-internal-error-after-migration-to-2019)

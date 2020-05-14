@@ -24,12 +24,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: Saiba mais sobre como ativar e usar o painel de qualidade de chamada e obter relatórios resumidos de qualidade das chamadas.
-ms.openlocfilehash: 95c4a777576b2cf574ba76d7f1b19de69f64dc88
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 59f905315eebe1e2f3e3b24b157eb198173a94e8
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44047376"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44226008"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Ativar e usar o painel de qualidade de chamada do Microsoft Teams e do Skype for Business Online
 
@@ -37,7 +37,7 @@ Saiba como configurar o Microsoft 365 ou o Office 365 para usar o painel de qual
   
 O painel de qualidade de chamada (CQD) fornece informações sobre a qualidade das chamadas feitas usando o Microsoft Teams e os serviços do Skype for Business online. Este tópico descreve as etapas para iniciar a coleta de dados que você pode usar para solucionar problemas de qualidade de chamada.
 
-Atualmente, o CQD e o CQD avançados estão disponíveis para uso. O CQD avançado está disponível <span>https://cqd.teams.microsoft.com</span>em. Nova URL, mas o mesmo logon com as credenciais de administrador.
+Atualmente, o CQD e o CQD avançados estão disponíveis para uso. O CQD avançado está disponível em <span>https://cqd.teams.microsoft.com</span> . Nova URL, mas o mesmo logon com as credenciais de administrador.
 
 ## <a name="assign-roles-for-accessing-cqd"></a>Atribuir funções para acessar o CQD
 
@@ -148,9 +148,9 @@ O parâmetro de data de URL agora pode aceitar um campo Day. Os relatórios de d
 
 |URL| Data de término da tendência do dia transcorrido|
 |:---|:---|
-|<span>https://<cqdv3>/SPD/#/Dashboard/<reportid>/2019-02/</span>   |Dia atual de fevereiro de 2019|
-|<span>https://<cqdv3>/SPD/#/Dashboard/<reportid>/2019-02-15/</span>|15 de fevereiro de 2019|
-|<span>https://<cqdv3>/SPD/#/Dashboard/<reportid>/00/</span>        |Dia atual|
+|<span>https:// <cqdv3> /SPD/#/Dashboard/ <reportid> /2019-02/</span>   |Dia atual de fevereiro de 2019|
+|<span>https:// <cqdv3> /SPD/#/Dashboard/ <reportid> /2019-02-15/</span>|15 de fevereiro de 2019|
+|<span>https:// <cqdv3> /SPD/#/Dashboard/ <reportid> /00/</span>        |Dia atual|
 |||
 
 Por padrão, o dia atual do mês é usado como o último dia da tendência do dia transcorrido.
@@ -176,12 +176,12 @@ Você pode adicionar várias datas na guia local, como adicionar 2019-09-22 a da
 
 Antes de começar a usar o CQD, ative-o para o Microsoft 365 ou o Office 365 da seguinte maneira:
 
-![Um ícone que mostra o logotipo](media/teams-logo-30x30.png) do Microsoft Teams **usando o centro de administração do Microsoft Teams**
+![Um ícone que mostra o logotipo do Microsoft Teams ](media/teams-logo-30x30.png) **usando o centro de administração do Microsoft Teams**
 
 1. Entre em seu Microsoft 365 ou no Office 365 usando a conta de administrador do Microsoft Teams Service e, em seguida, selecione o bloco **administrador** para abrir o centro de administração.
 2. No painel esquerdo, em **centros de administração**, selecione **Microsoft Teams** para abrir o centro de administração do Microsoft Teams.
 3. No centro de administração do Microsoft Teams, selecione **painel de qualidade de chamada** no painel esquerdo.
-4. \(Na página que abre https://<span>CQD.Teams.Microsoft.com<span/>\), clique em **entrar** e digite sua conta de administrador global ou as informações da conta de administrador do Microsoft Teams Service.
+4. Na página que abre \( https:// <span> CQD.Teams.Microsoft.com <span/> \) , clique em **entrar** e digite sua conta de administrador global ou as informações da conta de administrador do Microsoft Teams Service.
 
     ![Captura de tela: mostra o prompt de credenciais](media/ac4c1699-d8c1-4bda-af30-0fec35b5fd22.png)
   
@@ -189,7 +189,7 @@ Depois de entrar, uma vez ativada, o CQD começará a coletar e processar dados.
 > [!NOTE]
 > Pode levar uma ou mais horas para processar dados suficientes para exibir resultados significativos nos relatórios.
 
-![Um ícone do logotipo](media/sfb-logo-30x30.png) do Skype for Business **usando o portal herdado do Skype for Business**
+![Um ícone do logotipo do Skype for Business ](media/sfb-logo-30x30.png) **usando o portal herdado do Skype for Business**
 
 1. Entre em seu Microsoft 365 ou no Office 365 usando uma conta de administrador e, em seguida, selecione o bloco **administrador** para abrir o centro de administração.
 2. No painel esquerdo, em **centros de administração**, selecione **Microsoft Teams** para abrir o centro de administração do Microsoft Teams.
@@ -212,7 +212,7 @@ CQD relatórios de resumo fornecem um subconjunto de recursos planejados para re
 |:--- |:--- |:--- |
 |Métrica de compartilhamento de aplicativos | Não | Sim |
 |Suporte a informações de prédio do cliente | Sim | Sim |
-|Suporte a informações de ponto de extremidade do cliente | Somente no <span>CQD.Teams.Microsoft.com<span/> | Somente no <span>CQD.Teams.Microsoft.com<span/> |
+|Suporte a informações de ponto de extremidade do cliente | Somente no <span> CQD.Teams.Microsoft.com<span/> | Somente no <span> CQD.Teams.Microsoft.com<span/> |
 |Suporte para análise de busca detalhada   | Não   | Sim   |
 |Métricas de confiabilidade de mídia   | Não   | Sim   |
 |Relatórios prontos da caixa   | Sim   | Sim   |
@@ -359,7 +359,7 @@ O painel relatórios de resumo CQD inclui uma página de **carregamento de dados
 
    - Um arquivo de dados deve ser um arquivo. TSV (valores separados por tabulação) ou um arquivo. csv (valor separado por vírgula). Com um arquivo. csv, qualquer campo que contenha vírgula deve estar entre aspas ou ter a vírgula removida. Por exemplo, se o seu nome de edifício for RJ, RJ, digite "NY, NY" no arquivo. csv.
    - O arquivo de dados não deve ser maior do que 50 MB.
-   - Os arquivos carregados no cqd.teams.microsoft.com têm um limite de linha expandido de 1 milhão para manter o desempenho da consulta rápido. Esse limite também se aplica a CQD V2 em<span></span>CQD.<span></span>Lync. com.
+   - Os arquivos carregados no cqd.teams.microsoft.com têm um limite de linha expandido de 1 milhão para manter o desempenho da consulta rápido. Esse limite também se aplica a CQD V2 em CQD <span></span> . Lync <span></span> . com.
    - Para cada arquivo de dados, cada coluna no arquivo deve corresponder a um tipo de dados predefinido, discutido posteriormente neste tópico.
 3. Em seguida, especifique uma **data de início** e, opcionalmente, **especifique uma data de término**.
 4. Por fim, selecione **carregar** para carregar o arquivo no servidor do CQD.
@@ -432,7 +432,7 @@ EndpointName, EndpointMake, EndpointModel, EndpointType, EndpointLabel1, Endpoin
 
 ## <a name="migrate-reports-from-previous-version-of-cqd"></a>Migrar relatórios de uma versão anterior do CQD
 
-Se você criou relatórios ou carregou arquivos de dados locatários (mapeamento) para o CQD para ohttps://cqd.lync.com) Skype for Business (e deseja migrá-los parahttps://cqd.teams.microsoft.com)o CQD for Teams (, veja como:
+Se você criou relatórios ou carregou arquivos de dados locatários (mapeamento) para o CQD para o Skype for Business ( https://cqd.lync.com) e deseja migrá-los para o CQD for Teams ( https://cqd.teams.microsoft.com) , veja como:
 
 1.    Vá para [https://cqd.lync.com/cqd/](https://cqd.lync.com/cqd/) e navegue até o conjunto de relatórios que você deseja exportar. 
 2.    Passe o mouse sobre o relatório e, na guia "..." , escolha **Exportar árvore de relatório**. Salve o arquivo de exportação.
@@ -445,7 +445,7 @@ Se você criou relatórios ou carregou arquivos de dados locatários (mapeamento
 
 Se você acha que deseja criar um relatório específico que se concentre em uma dimensão dos dados de uma maneira que os relatórios detalhados fornecidos não o fazem, crie um relatório personalizado.
 
-Na lista suspensa de relatórios na parte superior da tela exibida ao \(fazer logon na tela **Summary Reports** \) relatórios resumidos, selecione **relatórios detalhados** e, em seguida, **novo** d clique em "Editar" no menu Ação de um relatório para ver o editor de consultas. Cada relatório é respaldado por uma consulta no cubo. Um relatório é uma visualização dos dados retornados por sua consulta. O editor de consultas ajuda você a editar essas consultas e as opções de exibição do relatório. Ao abrir o editor de consultas para um novo relatório, você verá algo semelhante a esta captura de tela:
+Na lista suspensa de relatórios na parte superior da tela exibida ao fazer logon \( na tela **relatórios resumidos** , \) selecione **relatórios detalhados** e, em seguida, **novo** d clique em "Editar" no menu Ação de um relatório para ver o editor de consultas. Cada relatório é respaldado por uma consulta no cubo. Um relatório é uma visualização dos dados retornados por sua consulta. O editor de consultas ajuda você a editar essas consultas e as opções de exibição do relatório. Ao abrir o editor de consultas para um novo relatório, você verá algo semelhante a esta captura de tela:
 
 ![Editar novos relatórios](media/e8969625-e6f9-4d67-873f-93e78dd12b35.png)
 
@@ -489,9 +489,17 @@ Para calcular a contagem de chamadas e os indicadores de contagem do usuário, u
 
 Se você vir diferenças de dados entre CQD V2 e v3, certifique-se de que a comparação de dados ou a validação seja feita em um ' maçãs-a-maçãs ' e nível estreito, e não em um nível agregado. Por exemplo, se você filtrar os dois relatórios para os dados de cliente da área de trabalho de MSIT "Building 30" do teams WiFi, o percentual de baixa qualidade deve ser o mesmo entre V2 e v3.
 
-CQD V2 e CQD v3 têm contagens totais diferentes, pois o CQD v3 tem novos cenários que não estão presentes no CQD v2. Espera-se que o total de resumo ou números de todos os números agregados sem filtros sejam diferentes.  
+A classificação CQDv2 para CallSetup falha é Inly considerada para a modalidade de "áudio" somente em CQDv3 essa classificação ocorre para cada modalidade (áudio, vídeo e compartilhamento) e é representada no respectivo fluxo de modalidade. 
 
-Se o cenário de uso incluir chamadas do Skype for Business Server 2019, os dados do CQD v3 inclui chamadas do Skype bot (atendedor automático, CVI, interface da área de trabalho virtual), eventos ao vivo e chamadas PSTN. O CQD v2 não usa esses dados. (CQD v3 requer o Skype for Business Server 2019 com o conector de dados na nuvem configurado.)
+Para o Teams, o CQDv2 aplica os mesmos comentários dos usuários a todas as modalidades CQDv3 aplica a base de feedback sobre a modalidade para equipes.
+
+O CQD v3 inclui 
+1. Chamadas do Skype for Business Server 2019, 
+2. Chamadas do Skype bot, como: atendedor automático, fila de chamadas, serviço de anúncio de conferência, 
+3. Interface da área de trabalho virtual,
+4. Interoperabilidade de vídeo em conferência
+3. Chamadas do Publisher e do apresentador de eventos ao vivo 
+4. Chamadas PSTN. 
 
 Por exemplo, se você vir fluxos de áudio do 200.000 com falhas de 5000 em um relatório de resumo do CQD v2, não seria comum ver os fluxos de áudio do 300.000 com falhas de 5500 (a diferença pode ser devido ao Skype for Business 2019 Server que permite chamadas, chamadas CVI, chamadas PSTN e assim por diante) em um relatório de resumo CQD v3.
 
@@ -500,6 +508,18 @@ Para desambiguar diferenças inesperadas, examine mais de uma divisão dos dados
 - Par de categorias de agente do usuário
 - Primeiro produto
 - Segundo produto
+
+Veja um exemplo da aplicação de filtros específicos para comparar os dados do CQD V2 e do CQD V3:
+
+1. Registro de QoE disponível = verdadeiro
+
+2. Adicionar é o filtro de pares do servidor com o valor: cliente: cliente e cliente: servidor. A maioria dos locatários prefere excluir o servidor: chamadas do servidor.
+
+3. Adicionar um filtro para categoria do agente do usuário e filtrar atendedor automático, fila de chamadas, bot, sistema de sala, MediationServer, serviço de anúncio de conferência, VDI, etc.
+
+:::image type="content" source="media/turning-on-and-using-call-quality-dashboard1.png" alt-text="Captura de tela da aplicação de filtros específicos no CQD v3":::
+
+:::image type="content" source="media/turning-on-and-using-call-quality-dashboard2.png" alt-text="Captura de tela da aplicação de filtros específicos no CQD v2":::
 
 ### <a name="other-expected-differences-between-cqd-v2-and-cqd-v3"></a>Outras diferenças esperadas entre CQD V2 e CQD v3
 

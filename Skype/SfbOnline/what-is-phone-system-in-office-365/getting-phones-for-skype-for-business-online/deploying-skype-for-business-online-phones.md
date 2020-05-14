@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Saiba quais são as etapas de implantação para obter o firmware correto, atualize-o, se necessário, atribua licenças e defina as configurações para telefones do Skype for Business Online
-ms.openlocfilehash: f4f1a36e5a2e98c4566a81b41bc6e6c281ac9a3b
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 41c6ef53469ab2de3699fd17a2d181477e143fae
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42113144"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44220441"
 ---
 # <a name="deploying-skype-for-business-online-phones"></a>Implantando telefones do Skype for Business Online
 
@@ -54,23 +54,23 @@ Um telefone e firmware compatíveis com o Skype for Business online também são
 
 Verifique a versão do firmware em seus telefones. De
   
-- **Polycom VVX**, vá para **configurações** > **status** > **** > **aplicativo** > plataforma**principal**.
+- **Polycom VVX**, vá para **configurações**  >  **status**  >  **Platform**  >  **aplicativo**plataforma  >  **principal**.
     
 - **Telefones Yealink**, vá até **status** na tela principal do telefone.
     
-- **Telefones AudioCodes**, vá para **menu** > **** > **versão firmware** do status do dispositivo na tela inicial.
+- **Telefones AudioCodes**, vá para **menu**  >  **Device Status**  >  **versão firmware** do status do dispositivo na tela inicial.
     
     > [!NOTE]
     > Para obter acesso remoto aos detalhes do telefone, consulte os guias de administração do fabricante. Veja os links acima para os guias do usuário e os manuais do telefone. 
   
-- **Lync Phone Edition (LPe) phones**, vá para o **menu** > **informações do sistema** na tela iniciar.
+- **Lync Phone Edition (LPe) phones**, vá para o **menu**  >  **informações do sistema** na tela iniciar.
     
 ### <a name="step-4---device-update-considerations"></a>Etapa 4-considerações sobre atualização de dispositivos
 
 > [!NOTE]
 > O firmware do Polycom antes do 5.5.1. X tinha um mecanismo de bloqueio de dispositivo específico do fabricante que é substituído por um "Phone-Lock" de implementação do Skype for Business. A atualização de um telefone de 5.4. X. X que foi protegido com "Device-Lock" como 5.5.1. X com "Phone-Lock" não herdará o código PIN de "Device-Lock", o que pode deixar o telefone desprotegido. Os usuários que ativaram o "Device-Lock" precisam habilitar o seguinte parâmetro de perfil de dispositivo Polycom para dar aos usuários o controle do tempo de atualização (Lync. deviceUpdate. popUpSK. Enabled = 1). 
   
-As atualizações de firmware são gerenciadas pelo serviço Skype for Business. Todo firmware de telefone certificado pelo Skype for Business é carregado para o servidor de atualização do Skype for Business e a atualização do dispositivo é habilitada em todos os telefones por padrão. Dependendo do tempo de inatividade no telefone e nos intervalos de sondagem, os telefones baixarão e instalarão automaticamente as compilações certificadas mais recentes. Você pode desativar as configurações de atualização de dispositivo usando o cmdlet [set-CsIPPhonePolicy](https://technet.microsoft.com/library/mt629497.aspx) e definindo __ o parâmetro EnableDeviceUpdate `false`como.
+As atualizações de firmware são gerenciadas pelo serviço Skype for Business. Todo firmware de telefone certificado pelo Skype for Business é carregado para o servidor de atualização do Skype for Business e a atualização do dispositivo é habilitada em todos os telefones por padrão. Dependendo do tempo de inatividade no telefone e nos intervalos de sondagem, os telefones baixarão e instalarão automaticamente as compilações certificadas mais recentes. Você pode desativar as configurações de atualização de dispositivo usando o cmdlet [set-CsIPPhonePolicy](https://technet.microsoft.com/library/mt629497.aspx) e definindo o parâmetro _EnableDeviceUpdate_ como `false` .
   
 ![Captura de tela mostrando a implantação de telefones](../../images/be727622-1924-439f-96ca-89230739db9e.png)
   
@@ -173,13 +173,13 @@ Você pode saber mais sobre os planos de chamadas lendo [sistema telefônico e p
 |||||||
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |**Skype for Business** <br/> |**Exchange** <br/> |**Método de entrada no telefone** <br/> |**Acesso ao Skype for Business** <br/> |**Acesso do Exchange com autenticação moderna e MFA desabilitadas** <br/> |**Acesso do Exchange com autenticação moderna e MFA habilitados** <br/> |
-|Online  <br/> |Online  <br/> |Entrada na Web  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |
-|Online  <br/> |Online  <br/> |Nome de usuário/Senha  <br/> |Sim  <br/> |Sim  <br/> |Não  <br/> |
+|Online  <br/> |Online  <br/> |Entrada na Web  <br/> |Sim  <br/> |Sim   <br/> |Sim  <br/> |
+|Online  <br/> |Online  <br/> |Nome de usuário/Senha  <br/> |Sim   <br/> |Sim  <br/> |Não  <br/> |
 |Online  <br/> |Local  <br/> |Entrada na Web  <br/> |Sim  <br/> |Não  <br/> |Não  <br/> |
-|Online  <br/> |Local  <br/> |Nome de usuário/Senha  <br/> |Sim  <br/> |Sim  <br/> |Não  <br/> |
+|Online  <br/> |Local  <br/> |Nome de usuário/Senha  <br/> |Sim   <br/> |Sim  <br/> |Não  <br/> |
 |Local  <br/> |Online/local  <br/> |Autenticação de PIN  <br/> |Sim  <br/> |Não  <br/> |Não  <br/> |
-|Local  <br/> |Online/local  <br/> |Nome de usuário/Senha  <br/> |Sim  <br/> |Sim  <br/> |N/D  <br/> |
-|Local  <br/> |Online/local  <br/> |Entrada via PC (BTOE)  <br/> |Sim  <br/> |Sim  <br/> |N/D  <br/> |
+|Local  <br/> |Online/local  <br/> |Nome de usuário/Senha  <br/> |Sim   <br/> |Sim  <br/> |N/D  <br/> |
+|Local  <br/> |Online/local  <br/> |Entrada via PC (BTOE)  <br/> |Sim   <br/> |Sim  <br/> |N/D  <br/> |
    
 - **Recursos de telefone** O conjunto de recursos pode variar um pouco de acordo com o parceiro de telefone IP. Para obter o conjunto de recursos completo e obter mais informações sobre os recursos para cada fabricante de telefone, consulte [como obter telefones para o Skype for Business online](getting-phones-for-skype-for-business-online.md).
     
@@ -222,9 +222,9 @@ O BToE pode ser configurado para operar em dois modos: *automático* (padrão) e
 ## <a name="related-topics"></a>Tópicos relacionados
 [Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](../../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
 
-[Veja aqui o que você obtém com o Sistema de Telefonia no Office 365](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
+[Veja o que você obtém com o Sistema de Telefonia](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
 
-[Disponibilidade da Audioconferência e dos Planos de Chamadas por país e região](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
+[Disponibilidade de Audioconferência e Planos de Chamadas por país e região](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
 
   
  

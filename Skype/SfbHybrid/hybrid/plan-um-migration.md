@@ -11,12 +11,12 @@ ms.topic: article
 localization_priority: Normal
 ms.prod: skype-for-business-itpro
 description: Este tópico aborda o que você precisa considerar ao decidir migrar suas implantações existentes do Skype for Business Server ou do Exchange Server para a versão mais recente ou para o Skype for Business online ou o Exchange Online.
-ms.openlocfilehash: ce2e0712c75e5aa052c7eff7667f09ff34c3908a
-ms.sourcegitcommit: bb88ac0c9489bb47957e5ef1074b5df3126b6fdb
+ms.openlocfilehash: fec12eb5b386222ad0a69115ca3fc9e2de9e2fea
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/25/2020
-ms.locfileid: "42265606"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221261"
 ---
 # <a name="plan-for-skype-for-business-server-and-exchange-server-migration"></a>Planejar a migração do Skype for Business Server e do Exchange Server
 
@@ -33,7 +33,7 @@ A Unificação de mensagens (UM) foi preterida no Exchange 2019. Isso significa 
 - Caixa postal
 - Atendedor automático
 
-Se você implantou a função de UM no Exchange 2013 ou o serviço de UM no Exchange 2016 e deseja atualizar para o Exchange 2019, você precisará migrar a caixa postal para o serviço de caixa postal do Microsoft Cloud no Office 365. Se você quiser migrar sua caixa postal para a caixa postal em nuvem, confira a seção [Exchange 2013/exchange 2016 e Skype for business 2015 para o exchange 2019 e Skype for business 2019](#exchange-2013exchange-2016-and-skype-for-business-2015-to-exchange-2019-and-skype-for-business-2019) abaixo.
+Se você implantou a função de UM no Exchange 2013 ou o serviço de UM no Exchange 2016 e deseja atualizar para o Exchange 2019, você precisará migrar a caixa postal para o serviço de caixa postal do Microsoft Cloud no Microsoft 365 ou no Office 365. Se você quiser migrar sua caixa postal para a caixa postal em nuvem, confira a seção [Exchange 2013/exchange 2016 e Skype for business 2015 para o exchange 2019 e Skype for business 2019](#exchange-2013exchange-2016-and-skype-for-business-2015-to-exchange-2019-and-skype-for-business-2019) abaixo.
 > [!IMPORTANT]
 > Se os usuários de seus servidores do Exchange 2013 ou do Exchange 2016 tiverem caixas de correio habilitadas para a UM, não os mova para o Exchange 2019 antes de atualizar seus servidores do Skype for Business para o Skype for Business Server 2019 e mover os usuários para eles para evitar uma interrupção de mensagem de voz.
 
@@ -55,13 +55,13 @@ Oferecemos suporte para os seguintes cenários que permitirão a migração de u
 - Exchange 2013/Exchange 2016 e Skype for Business Server 2015 para o Exchange 2019 e Skype for Business Server 2019
 - Skype for Business Server 2015 para o Skype for Business Server 2019 com o Exchange 2013/Exchange 2016
 
-Os cenários a seguir exigem que nenhuma configuração de PBX ou de SBC exista como parte da sua implantação atual e pressuponha que você tem a UM configurada em seus servidores locais do Exchange. Cada uma dessas soluções também pressupõe que você tenha decidido configurar uma implantação híbrida entre seus servidores do Skype for Business no local e o Office 365. Para obter mais informações sobre as implantações híbridas do Skype for Business, consulte [Plan Hybrid Connectivity](plan-hybrid-connectivity.md).
+Os cenários a seguir exigem que nenhuma configuração de PBX ou de SBC exista como parte da sua implantação atual e pressuponha que você tem a UM configurada em seus servidores locais do Exchange. Cada uma dessas soluções também pressupõe que você tenha decidido configurar uma implantação híbrida entre seus servidores do Skype for Business no local e o Microsoft 365 ou o Office 365. Para obter mais informações sobre as implantações híbridas do Skype for Business, consulte [Plan Hybrid Connectivity](plan-hybrid-connectivity.md).
 
 ### <a name="exchange-2013exchange-2016-and-skype-for-business-2015-to-exchange-2019-and-skype-for-business-2019"></a>Exchange 2013/Exchange 2016 e Skype for Business 2015 para o Exchange 2019 e Skype for Business 2019
 
 Neste cenário, você deseja migrar seus servidores existentes do Exchange 2013, Exchange 2016 e Skype for Business 2015 para o Exchange 2019 e o Skype for Business 2019.
 
-Como mencionado anteriormente neste tópico, o Exchange 2019 não inclui mais o serviço de UM. Isso significa que, para todas as caixas de correio que você deseja mover para o Exchange 2019, você precisa usar a caixa postal na nuvem para substituir a funcionalidade fornecida pelo serviço UM. Quando você configura o Skype for Business Server 2019 e uma implantação híbrida entre ele e o Office 365, a caixa postal em nuvem substitui esses serviços de caixa postal do Exchange.
+Como mencionado anteriormente neste tópico, o Exchange 2019 não inclui mais o serviço de UM. Isso significa que, para todas as caixas de correio que você deseja mover para o Exchange 2019, você precisa usar a caixa postal na nuvem para substituir a funcionalidade fornecida pelo serviço UM. Quando você configura o Skype for Business Server 2019 e uma implantação híbrida entre ele e o Microsoft 365 ou o Office 365, a caixa postal em nuvem substitui esses serviços de caixa postal de UM do Exchange.
 
 A ordem na qual você move os usuários para o Exchange 2019 e o Skype for Business Server 2019 é fundamental para garantir que a funcionalidade de caixa postal permaneça disponível para todos os usuários. Onde a caixa postal é processada também é determinada pelo local em que as caixas de correio e usuários do Exchange e do Skype for Business estão localizadas. Confira a tabela a seguir para ver quais combinações de Exchange e Skype for Business Server são suportadas e onde a caixa postal é processada.
 

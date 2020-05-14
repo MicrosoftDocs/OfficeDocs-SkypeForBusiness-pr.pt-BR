@@ -3,7 +3,7 @@ title: Usando o relatório de roteamento direto do CQD PSTN
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
-ms.reviewer: siunies
+ms.reviewer: siunies, fan.fan
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -15,19 +15,20 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Use o relatório de roteamento direto PSTN do CQD para monitorar e solucionar problemas de chamadas PSTN no Microsoft Teams.
-ms.openlocfilehash: 32d91d56e51c5706c3e460029312f3b6bb6948c3
-ms.sourcegitcommit: 98fcfc03c55917d0aca48b7bd97988f81e8930c1
+ms.openlocfilehash: a3a7d84a21858b8cb2039f3f5bb6efde6b9adaaa
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42559358"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221745"
 ---
 # <a name="using-the-cqd-pstn-direct-routing-report"></a>Usando o relatório de roteamento direto do CQD PSTN
 
 Novidades de março de 2020, adicionamos um relatório de roteamento direto de PSTN CQD a nossos [modelos de consulta para download do Power bi para CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). 
 
 
-O CQD PSTN Direct Routing Report ajuda os clientes a entender os padrões de uso e a qualidade de suas informações de monitoração de serviços PSTN sobre seu SBC, o serviço de telefonia, os parâmetros de rede e os detalhes da taxa de eficácia da rede e o uso da atender. Essas informações podem ajudá-lo a identificar problemas, incluindo o motivo para as chamadas descartadas. Por exemplo, você poderá saber quando o volume será eliminado, quantas chamadas serão afetadas por qual motivo.
+O CQD PSTN Direct Routing Report (CQD PSTN Direct Routing Report. PBit) ajuda você a entender os padrões de uso e a qualidade dos seus serviços PSTN. Use esse relatório para monitorar o uso do serviço, informações sobre o seu controlador de borda de sessão (SBC), o serviço de telefonia, os parâmetros de rede e os detalhes da taxa de eficácia da rede. Essas informações podem ajudá-lo a identificar problemas, incluindo o motivo para as chamadas descartadas. Por exemplo, você poderá ver quando o volume cai ou quantas chamadas são afetadas e por qual motivo.
+
 
 O relatório de roteamento direto PSTN CQD tem quatro seções:
 
@@ -38,6 +39,24 @@ O relatório de roteamento direto PSTN CQD tem quatro seções:
   - [Taxa de eficácia da rede](#network-effectiveness-ratio)
 
   - [Parâmetros de rede](#network-parameters)
+
+## <a name="highlights"></a>Alça
+
+1. Analisar por tipo de chamada, SBC, chamador e chamado Country
+
+   O CQD PSTN Direct Routing Report agrega as métricas de confiabilidade e uso de todos os SBCs em seu locatário para os últimos 7, 30 ou 180 dias (6 meses). Você pode analisar dados por tipo de chamada, SBC, chamador e chamado país. Se estiver interessado em um determinado SBC ou país, você poderá identificar as alterações nas tendências ao longo do intervalo de tempo selecionado.
+   :::image type="content" source="media/CQD-PSTN-report8.png" alt-text="Captura de tela de filtros disponíveis no relatório de roteamento direto PSTN CQD":::
+   
+2. Controlar tendências
+
+    A análise de tendências é essencial ao tentar entender o uso e a confiabilidade do serviço. As tendências horárias fornecem uma visão detalhada do desempenho diário, o que ajuda a identificar incidentes em tempo real. As tendências diárias permitem que você veja a integridade do seu serviço a partir de uma perspectiva de longo prazo. É importante poder alternar entre esses dois modos com a granularidade de dados adequada. O CQD PSTN Direct Routing Report fornece uma visão geral de tendências de 6 meses, tendências diárias de 7 e 30 dias e tendências horárias, para que você possa analisar o desempenho em cada nível.
+    :::image type="content" source="media/CQD-PSTN-report9.png" alt-text="Captura de tela de gráficos de tendências no CQD PSTN Direct Routing Report":::
+
+3. Fazer drill-through para SBC ou em nível de usuário
+
+   Criamos recursos de Drill-through em muitas categorias de dados no CQD, que permite que você entenda rapidamente o uso ou a distribuição de confiabilidade no SBC ou no nível do usuário. Ao usar Drill through, você pode poinpoint rapidamente problemas e entender o impacto real dos usuários. Os recursos do relatório de roteamento direto PSTN CQD analisam as métricas de detalhes do serviço e de eficácia da rede. Clique no ponto de dados em que você está interessado para analisar detalhes do nível do usuário ou do SBC.
+   :::image type="content" source="media/CQD-PSTN-report10.png" alt-text="Captura de tela mostrando a funcionalidade de Drill-through em um ponto de dados":::
+
 
 ## <a name="pstn-overview"></a>Visão geral da PSTN
 

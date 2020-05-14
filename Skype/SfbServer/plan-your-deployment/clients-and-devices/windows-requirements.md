@@ -17,18 +17,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a6851e38-ba9a-4f19-9aa7-d8accf4d62b3
 description: 'Resumo: revise os requisitos de suporte do cliente do Windows durante o planejamento do Skype for Business Server.'
-ms.openlocfilehash: 39f9efcd2008dacb653538b56f2aff3fcb8b7887
-ms.sourcegitcommit: 545e466f1fa9163bb00cc96c8db70a70b02af697
+ms.openlocfilehash: 67208fc25344ff417094419f22068822e03b13db
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "42928234"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44219821"
 ---
 # <a name="windows-client-requirements-and-software-support"></a>Requisitos de cliente do Windows e suporte a software
  
 **Resumo:** Examine os requisitos de suporte do cliente do Windows ao planejar o Skype for Business Server.
   
-Esta seção resume o software necessário para dar suporte aos clientes do Windows do Skype for Business.  Esses clientes são instalados quando o Office 365 é instalado e também estão disponíveis no [download do Skype for Business em todos os seus dispositivos](https://products.office.com/skype-for-business/download-app?tab=tabs-3).
+Esta seção resume o software necessário para dar suporte aos clientes do Windows do Skype for Business. Esses clientes são instalados quando o Microsoft 365 ou o Office 365 é instalado, e também estão disponíveis no [download do Skype for Business em todos os seus dispositivos](https://products.office.com/skype-for-business/download-app?tab=tabs-3).
   
 > [!NOTE]
 > O suplemento de reunião online para o Skype for Business, que oferece suporte ao gerenciamento de reunião no cliente de mensagens e colaboração do Outlook, é instalado automaticamente com o Skype for Business. 
@@ -45,7 +45,7 @@ Esta seção resume o software necessário para dar suporte aos clientes do Wind
    
 ## <a name="hardware"></a>Hardware
 
-Consulte os [requisitos do sistema](https://products.office.com/office-system-requirements) do Office 365 para o hardware necessário para executar o cliente Skype for Business.
+Confira os [requisitos de sistema](https://products.office.com/office-system-requirements) do Microsoft 365 e Office para o hardware necessário para executar o cliente Skype for Business.
   
 ## <a name="skype-meetings-app-and-skype-for-business-web-app"></a>Aplicativo de reuniões do Skype e Skype for Business Web App 
 
@@ -81,4 +81,4 @@ A seguir estão os pré-requisitos do Skype for Business para Windows Phone.
 
 [Baixar o Skype for Business em todos os seus dispositivos](https://products.office.com/skype-for-business/download-app?tab=tabs-3)
   
-[Requisitos de sistema do Office 365](https://products.office.com/office-system-requirements)
+[Requisitos de sistema do Microsoft 365 e do Office](https://products.office.com/office-system-requirements)

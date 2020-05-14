@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Instalar o conector do Power BI para usar modelos de consulta CQD
-ms.openlocfilehash: e461a145280e6edf8c2039dbea55b5547dd5596e
-ms.sourcegitcommit: 6e24ea8aa9cccf8a1a964c8ed414ef5c7de3dc17
+ms.openlocfilehash: c9e644d9b21a21a9e87c9a51440610f1b4a15c6d
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44158978"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44219831"
 ---
 # <a name="install-power-bi-connector-to-use-cqd-query-templates"></a>Instalar o conector do Power BI para usar modelos de consulta CQD
 
@@ -34,11 +34,11 @@ Verifique se você tem a [função de acesso CQD](https://docs.microsoft.com/mic
 
 O processo para instalar um conector personalizado e ajustar a segurança para permitir o uso do conector é descrito em detalhes na [documentação do Power bi](https://docs.microsoft.com/power-bi/desktop-connector-extensibility). Para simplificar, veja a seguir uma explicação rápida:
 
-1.  Verifique se o seu computador já tem uma pasta * \[de\]\\conectores\\* personalizados da área de trabalho do Power bi desktop. Caso contrário, crie essa pasta. <sup>1</sup>
+1.  Verifique se o seu computador já tem uma pasta de * \[ \] \\ \\ conectores personalizados da área de trabalho do Power bi desktop*   . Caso contrário, crie essa pasta. <sup>1</sup>
 
-2.  Baixe o arquivo do conector (um * \*arquivo. Mez* ou * \*. pqx* ) e coloque-o no diretório de *conectores personalizados* .
+2.  Baixe o arquivo do conector (um arquivo * \* . Mez* ou * \* . pqx* ) e coloque-o no diretório de *conectores personalizados* .
 
-3.  **Se o arquivo do conector for * \*um arquivo. Mez* ,** você também precisará ajustar as configurações de segurança conforme descrito na [documentação de instalação do conector personalizado](https://docs.microsoft.com/power-bi/desktop-connector-extensibility#data-extension-security).
+3.  **Se o arquivo do conector for um arquivo * \* . Mez* ,** você também precisará ajustar as configurações de segurança conforme descrito na [documentação de instalação do conector personalizado](https://docs.microsoft.com/power-bi/desktop-connector-extensibility#data-extension-security).
 
 Se uma nova versão deste conector do Power BI para Microsoft Teams for lançada, basta substituir o arquivo de conector antigo no diretório de *conectores personalizados* pelo novo arquivo.
 
@@ -150,7 +150,7 @@ Se você encontrar erros adicionais fora desse escopo, notifique a equipe do CQD
 
 ## <a name="footnotes"></a>Notas
 
-**<sup>1</sup>** alguns processos e aplicativos (por exemplo, o onedrive) podem fazer com que a pasta raiz dos seus documentos seja alterada; Verifique se o diretório de *conectores\\personalizados da área de trabalho do Power bi* está colocado dentro da pasta de documentos da pasta raiz atual.
+**<sup>1</sup>** alguns processos e aplicativos (por exemplo, o onedrive) podem fazer com que a pasta raiz dos seus documentos seja alterada; Verifique se o diretório de * \\ conectores personalizados da área de trabalho do Power bi* está colocado dentro da pasta de documentos da pasta raiz atual.
 
 **<sup>2</sup>** as credenciais de logon que você usa para o CQD *não* precisam ter as mesmas credenciais que você usa para fazer logon no próprio aplicativo da área de trabalho do Power bi.
 
@@ -160,7 +160,7 @@ Se você encontrar erros adicionais fora desse escopo, notifique a equipe do CQD
 
 Apesar da marca beta, o conector de qualidade da chamada para o Power BI é a versão de lançamento do conector e tem a segurança oficialmente assinada pela equipe do Power BI para refletir isso. O processo de certificação para remover a marca beta é um processo extensivo e requer um compromisso da equipe do Power BI para fornecer suporte direto ao conector também. Devido a restrições de tempo, a equipe do Power BI atualmente não consegue fornecer esse suporte e certificação mais ampla, mas ainda está preparada para atestar a segurança, a autenticidade e a funcionalidade geral do conector de qualidade da chamada da Microsoft.
 
-### <a name="why-does-the-connector-seem-so-slow-compared-to-advanced-cqd-in-browser-what-can-i-do-to-improve-performance"></a>Por que o conector parece tão lento quando comparado ao CQD avançado no navegador? O que posso fazer para melhorar o desempenho?
+### <a name="why-does-the-connector-seem-so-slow-compared-to-advanced-cqd-in-the-browser-what-can-i-do-to-improve-performance"></a>Por que o conector parece tão lento em comparação com o CQD avançado no navegador? O que posso fazer para melhorar o desempenho?
 
 O desempenho da consulta para os vários modelos é realmente o mesmo no navegador e no conector. A diferença se refere ao número de consultas simultâneas em execução. Como a versão do navegador do CQD tinha menos opções de visualização bem desenvolvidas e com informações de visualização, a maioria dos nossos relatórios limitava o carregamento de consultas do 2-3 de cada vez. Por outro lado, os modelos de conector geralmente exibem mais de 20 consultas simultâneas. Se você quiser criar relatórios que sejam tão responsivos quanto os antigos para os quais foi usado, tente criar relatórios sem mais de 2-3 consultas por guia.
 
@@ -169,6 +169,8 @@ O desempenho da consulta para os vários modelos é realmente o mesmo no navegad
 O limite de linha de 10.000 é realmente especificado no final da API, e ele foi projetado para ajudar a melhorar significativamente o desempenho e reduzir o risco de erros de execução de consulta resultantes de condições de memória insuficiente.
 
 Em vez de tentar aumentar a contagem de linhas do resultado, é melhor reestruturar seus relatórios de acordo com as práticas recomendadas do conector. Os modelos incluídos foram projetados para demonstrar essas práticas recomendadas. Sempre que possível, comece examinando seus KPIs usando dimensões mais amplas e inferiores de cardinalidade, como mês, ano, data, região, país, etc. De lá, você pode fazer uma busca detalhada em dimensões de cardinalidade cada vez mais altos. Os relatórios de helpdesk e local-avançado fornecem bons exemplos de fluxo de trabalho de busca detalhada.
+
+
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

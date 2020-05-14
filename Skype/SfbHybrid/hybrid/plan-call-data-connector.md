@@ -12,16 +12,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Visão geral do uso das ferramentas de telemetria do Skype for Business online para monitorar uma implementação local em um cenário híbrido.
-ms.openlocfilehash: ad4d7ddb270bc4e4227eea7d33c37411ea96fa8c
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 30ff8aebc739e0602f9700cbe9120d230845a023
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779657"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221311"
 ---
 # <a name="plan-call-data-connector"></a>Planejar o Call data Connector
 
-## <a name="overview"></a>Visão geral
+## <a name="overview"></a>Visão Geral
 
 Este tópico descreve os benefícios, as considerações de planejamento e os requisitos para implementar o conector de dados de chamadas do Skype for Business Server. Para obter mais informações sobre a configuração do conector de dados de chamadas, consulte [Configure Call data Connector](configure-call-data-connector.md).
 
@@ -60,12 +60,12 @@ Os requisitos a seguir pressupõem que você já tenha o Skype for Business Serv
 
 - Habilitar a conectividade híbrida. Se você já tem o Skype for Business Server implantado e deseja habilitar o Call data Connector, você deve garantir que a conectividade híbrida seja configurada entre seus ambientes locais e online. Isso às vezes é chamado de configuração de domínio dividido.
 
-   Para saber mais, confira [planejar conectividade híbrida entre o Skype for Business Server e o office 365](plan-hybrid-connectivity.md) e [Configurar a conectividade híbrida entre o Skype for Business Server e o Office 365](configure-hybrid-connectivity.md).
+   Para saber mais, confira [planejar conectividade híbrida entre o Skype for Business Server e o microsoft 365 ou o office 365](plan-hybrid-connectivity.md) e [Configurar a conectividade híbrida entre o Skype for Business Server e o Microsoft 365 ou o Office 365](configure-hybrid-connectivity.md).
 
-- Autentique na sua organização do Office 365 e assegure-se de ter as seguintes funções habilitadas:
+- Autentique na sua organização do Microsoft 365 ou do Office 365 e assegure-se de ter as seguintes funções habilitadas:
 
   - Administrador do Skype for Business Server
-  - Administrador Global
+  - Administrador global do Microsoft 365 ou do Office 365
 
 - Se você ainda não tiver feito isso, ative o painel de qualidade de chamada conforme descrito em [ativando e usando o painel de qualidade de chamada para o Microsoft Teams e o Skype for Business online](/microsoftteams/turning-on-and-using-call-quality-dashboard).
 

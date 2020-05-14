@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Depois de implantar um ou mais Servidores de Borda, você deve habilitar os tipos de acesso externo que terão suporte na sua organização.
-ms.openlocfilehash: e4405585da71dc48f5fa1790f83938a814270d84
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
-ms.translationtype: HT
+ms.openlocfilehash: e3feecfffa591df5433ce45526ec236ca6ef8b42
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41818272"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221655"
 ---
 # <a name="manage-external-access-policy-for-your-organization"></a>Gerenciar a política de acesso externo da sua organização
 
@@ -41,7 +41,7 @@ Por padrão, não há políticas configuradas para suportar o acesso de usuário
 
 Essas opções incluem os seguintes tipos de acesso externo:
 
-  - **Habilitar comunicações com usuários federados**   Habilite esta opção se desejar oferecer suporte para o acesso de usuários a domínios parceiros federados. Esta configuração define a capacidade de os usuários se comunicarem com outros domínios federados SIP, bem como com provedores hospedados como o Microsoft Office 365. 
+  - **Habilitar comunicações com usuários federados**   Habilite esta opção se desejar oferecer suporte para o acesso de usuários a domínios parceiros federados. Essa configuração configura a capacidade de os usuários se comunicarem com outros domínios federados SIP, bem como provedores hospedados como o Microsoft 365 ou o Office 365. 
 
 
   - **Habilitar comunicações com usuários remotos**   Habilite esta opção se desejar que os usuários da sua organização que estejam fora do firewall, como telecomutadores e usuários que estejam viajando, possam se conectar ao Skype for Business Server pela Internet.

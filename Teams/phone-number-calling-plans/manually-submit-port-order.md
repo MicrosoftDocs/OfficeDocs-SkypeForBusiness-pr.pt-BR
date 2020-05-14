@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Saiba como enviar manualmente uma solicitação de pedido de portabilidade.
-ms.openlocfilehash: db47bd98b165607be778000538756b8821340488
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: d4c0c594cd9cb26d3f0b8b054c140facd2733239
+ms.sourcegitcommit: a7c823f61d9ab88424bad924113d780ce11e509f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827969"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44224214"
 ---
 # <a name="manually-submit-a-port-order"></a>Enviar manualmente um pedido de portabilidade
 
@@ -31,28 +31,28 @@ Em alguns países e regiões, talvez seja necessário enviar manualmente uma sol
 
 Use as etapas neste artigo para criar e enviar manualmente um pedido de portabilidade se seu país ou região não estiver listado no [Assistente de portabilidade no centro de administração do Microsoft Teams](transfer-phone-numbers-to-teams.md).
 
-## <a name="manually-submit-a-port-order-request"></a>Enviar manualmente uma solicitação de pedido de portabilidade
+## <a name="manually-submit-a-new-port-order-request"></a>Enviar manualmente uma nova solicitação de pedido de portabilidade
 
-Você pode enviar manualmente um pedido de portabilidade criando uma solicitação de serviço no centro de administração do Microsoft 365 ou enviando seu formulário de carta de autorização (LOA) completo diretamente para a mesa de serviço PSTN para a sua região.
+Você pode enviar manualmente um novo pedido de portabilidade criando uma solicitação de serviço enviando seu formulário de carta de autorização (LOA) completo diretamente para a mesa de serviço PSTN para a sua região ou no centro de administração do Microsoft 365.
+
+### <a name="send-your-letter-of-authorization-directly-to-the-pstn-service-desk"></a>Enviar a carta de autorização diretamente para a mesa de serviço PSTN
+
+Baixe o [loa](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) para o seu país ou região, preencha o formulário e envie-o para a [mesa de serviço PSTN](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) para a sua região:
+
+- Nos Estados Unidos e no Canadá, [Envie sua solicitação](mailto:ptn@microsoft.com).
+- Na Europa, [Envie sua solicitação](mailto:ptneu@microsoft.com).
+- Na Ásia, [Envie sua solicitação](mailto:ptnapac@microsoft.com).
 
 ### <a name="submit-a-service-request-in-the-microsoft-365-admin-center"></a>Enviar uma solicitação de serviço no centro de administração do Microsoft 365
 
-1. Na navegação à esquerda do centro de administração do Microsoft 365, vá para **dar suporte** > à**nova solicitação de serviço**.  Se você não vir o **suporte** listado, adicione-o indo para **Personalizar a navegação** na navegação à esquerda e marque a caixa de seleção **suporte** .
+1. Na navegação à esquerda do centro de administração do Microsoft 365, vá para **dar suporte**à  >  **nova solicitação de serviço**.  Se você não vir o **suporte** listado, adicione-o indo para **Personalizar a navegação** na navegação à esquerda e marque a caixa de seleção **suporte** .
 2. No painel **precisa de ajuda?** , selecione **entrar em contato com o suporte**.
 3. No painel de **suporte do contato** , faça o seguinte:
 
     1. Digite um título (por exemplo, solicitação de pedido de portabilidade) e uma descrição para a sua solicitação, confirme seu número de telefone e endereço de email e selecione o método de contato preferencial.
-    2. Em **anexos**, clique em **Adicionar um arquivo**e, em seguida, carregue a [loa](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md#letters-of-authorization-loas-for-transferring-numbers)completa.
+    2. Em **anexos**, clique em **Adicionar um arquivo**e, em seguida, carregue a [loa](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)completa.
     3. Clique em **contato comigo**.
-
-### <a name="send-your-letter-of-authorization-directly-to-the-pstn-service-desk"></a>Enviar a carta de autorização diretamente para a mesa de serviço PSTN
-
-Baixe o [loa](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md#letters-of-authorization-loas-for-transferring-numbers) para o seu país ou região, preencha o formulário e envie-o para a [mesa de serviço PSTN](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) para a sua região:
-
-- Nos Estados Unidos, [Envie sua solicitação](mailto:ptn@microsoft.com).
-- Na Europa, [Envie sua solicitação](mailto:ptneu@microsoft.com).
-- Na Ásia, [Envie sua solicitação](mailto:ptnapac@microsoft.com).
-  
+    
 ## <a name="what-else-should-you-know-about-number-porting"></a>O que mais você deve saber sobre a portabilidade de números?
 
 - Para usar planos de chamada, você deve comprar e atribuir licenças aos usuários. Veja [Licenciamento do complemento do teams](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md).

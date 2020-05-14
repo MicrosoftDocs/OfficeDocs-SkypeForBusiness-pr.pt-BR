@@ -18,24 +18,24 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 'Resumo: saiba como configurar a interoperabilidade entre a sua implantação local e o Skype for Business online.'
-ms.openlocfilehash: ccf140b62cdbad11605c99fe1cb0cc66aa1ee4dd
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 0df507fcc47157a9290018a199e1362cb203048b
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780100"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221445"
 ---
 # <a name="configure-skype-for-business-hybrid"></a>Configure o Skype for Business híbrido
 
 Para configurar o Skype for Business híbrido, você precisa:
 
-- [Configure seu serviço de borda local para federação com o Office 365 ou outra organização](#configure-your-on-premises-edge-service-to-federate-with-office-365-or-another-organization).
-- [Configure seu ambiente local para confiar no Office 365 e habilitar o espaço de endereçamento SIP compartilhado com o Office 365](#configure-your-on-premises-environment-to-enable-shared-sip-address-space-with-office-365).
-- [Habilitar o espaço de endereçamento SIP compartilhado em sua organização do Office 365](#enable-shared-sip-address-space-in-your-office-365-organization).
+- [Configure seu serviço de borda local para federação com o Microsoft 365 ou o Office 365](#configure-your-on-premises-edge-service-to-federate-with-microsoft-365-or-office-365).
+- [Configure seu ambiente local para confiar no Microsoft 365 ou no Office 365 e habilitar o espaço de endereçamento SIP compartilhado](#configure-your-on-premises-environment-to-enable-shared-sip-address-space-with-microsoft-365-or-office-365).
+- [Habilitar o espaço de endereçamento SIP compartilhado em sua organização do Microsoft 365 ou do Office 365](#enable-shared-sip-address-space-in-your-organization).
 
 Observe que, se você tiver o Exchange local, convém configurar o OAuth entre seus ambientes do Exchange local e do Skype for Business online. Para obter mais informações, consulte [gerenciar a autenticação de servidor para servidor no Skype for Business Server](https://docs.microsoft.com/SkypeForBusiness/manage/authentication/server-to-server-and-partner-applications) e [planejar a integração do Skype for Business e do Exchange](https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/integrate-with-exchange/integrate-with-exchange#feature_support). 
   
-## <a name="configure-your-on-premises-edge-service-to-federate-with-office-365-or-another-organization"></a>Configurar seu serviço de borda local para federação com o Office 365 ou outra organização
+## <a name="configure-your-on-premises-edge-service-to-federate-with-microsoft-365-or-office-365"></a>Configurar seu serviço de borda local para federação com o Microsoft 365 ou o Office 365
 
 A Federação permite que os usuários em sua implantação local se comuniquem com os usuários do Microsoft 365 ou do Office 365 em sua organização. Para configurar a Federação, execute o seguinte cmdlet no Shell de gerenciamento do Skype for Business Server:
   
@@ -49,9 +49,9 @@ Se o valor de '-EnablePartnerDiscovery ' for definido como $True, o Skype for Bu
 > Para obter mais detalhes sobre como habilitar a Federação entre usuários de sua implantação local do Skype for Business e usuários de uma organização do Skype for Business Online, consulte [Configuring Federation support for a Skype for Business online Customer in Skype for Business Server](https://docs.microsoft.com/skypeforbusiness/manage/federation-and-external-access/federation-support/configuring-federation-support).
 
 
-## <a name="configure-your-on-premises-environment-to-enable-shared-sip-address-space-with-office-365"></a>Configurar seu ambiente local para habilitar o espaço de endereçamento SIP compartilhado com o Office 365
+## <a name="configure-your-on-premises-environment-to-enable-shared-sip-address-space-with-microsoft-365-or-office-365"></a>Configure seu ambiente local para habilitar o espaço de endereçamento SIP compartilhado com o Microsoft 365 ou o Office 365
 
-Você também deve configurar seu ambiente local para confiar no Office 365 e habilitar o espaço de endereço SIP compartilhado com o Office 365. Isso significa que o Office 365 pode hospedar potencialmente as contas de usuário para o mesmo conjunto de domínios SIP como seu ambiente local, e as mensagens podem ser roteadas entre os usuários hospedados no local e online.  Para fazer isso, configure um provedor de hospedagem com ProxyFqdn = sipfed. online. Lync. com, conforme descrito abaixo.
+Você também deve configurar seu ambiente local para confiar no Microsoft 365 ou no Office 365 e habilitar o espaço de endereçamento SIP compartilhado. Isso significa que o Microsoft 365 ou o Office 365 pode hospedar potencialmente as contas de usuário para o mesmo conjunto de domínios SIP como seu ambiente local, e as mensagens podem ser roteadas entre os usuários hospedados no local e online.  Para fazer isso, configure um provedor de hospedagem com ProxyFqdn = sipfed. online. Lync. com, conforme descrito abaixo.
 
 Primeiro, verifique se você já tem um provedor de hospedagem com ProxyFqdn = sipfed. online. Lync. com. Se houver uma, remova-a usando o seguinte comando:
 
@@ -65,11 +65,11 @@ Em seguida, crie um novo provedor de hospedagem, use o cmdlet New-CsHostingProvi
 New-CsHostingProvider -Identity Office365 -ProxyFqdn "sipfed.online.lync.com" -Enabled $true -EnabledSharedAddressSpace $true -HostsOCSUsers $true -VerificationLevel UseSourceVerification -IsLocal $false -AutodiscoverUrl https://webdir.online.lync.com/Autodiscover/AutodiscoverService.svc/root 
 ```
 
- ## <a name="enable-shared-sip-address-space-in-your-office-365-organization"></a>Habilitar o espaço de endereçamento SIP compartilhado na sua organização do Office 365
+ ## <a name="enable-shared-sip-address-space-in-your-organization"></a>Habilitar o espaço de endereçamento SIP compartilhado em sua organização
   
-Além da alteração feita em sua implantação local, você precisará fazer com que a alteração correspondente na sua organização do Office 365 para habilitar o espaço de endereçamento SIP compartilhado com sua implantação local.  
+Além da alteração feita em sua implantação local, você precisará fazer a alteração correspondente na sua organização do Microsoft 365 ou do Office 365 para habilitar o espaço de endereçamento SIP compartilhado com sua implantação local.  
 
-Para habilitar o espaço de endereçamento SIP compartilhado na sua organização do Office 365, estabeleça uma sessão remota do PowerShell com o Skype for Business Online e execute o seguinte cmdlet:
+Para habilitar o espaço de endereçamento SIP compartilhado em sua organização, estabeleça uma sessão remota do PowerShell com o Skype for Business Online e execute o seguinte cmdlet:
   
 ```PowerShell
 Set-CsTenantFederationConfiguration -SharedSipAddressSpace $true

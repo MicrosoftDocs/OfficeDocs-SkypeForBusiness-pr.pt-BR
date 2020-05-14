@@ -13,18 +13,18 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 700639ec-5264-4449-a8a6-d7386fad8719
 description: 'Resumo: Configure a autenticação de servidor para servidor para um ambiente híbrido do Skype for Business Server.'
-ms.openlocfilehash: 191d5d2f391df73401ff27e8c71a60624e74296c
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 6cc408677af4629d36b577da4ae38cd420195483
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780730"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221675"
 ---
 # <a name="configure-server-to-server-authentication-for-a-skype-for-business-server-hybrid-environment"></a>Configure a autenticação de servidor para servidor para um ambiente híbrido do Skype for Business Server.
 
 **Resumo:** Configurar a autenticação de servidor para servidor para o ambiente híbrido do Skype for Business Server.
 
-Em uma configuração híbrida, alguns dos seus usuários estão hospedados em uma instalação local do Skype for Business Server enquanto outros usuários estão hospedados na versão do Office 365 do Skype for Business Server. Para configurar a autenticação de servidor para servidor em um ambiente híbrido, primeiro você deve configurar a instalação local do Skype for Business Server para confiar no servidor de autorização do Office 365. A etapa inicial desse processo pode ser executada executando o seguinte script do Shell de gerenciamento do Skype for Business Server:
+Em uma configuração híbrida, alguns dos seus usuários estão hospedados em uma instalação local do Skype for Business Server enquanto outros usuários estão hospedados na versão do Microsoft 365 ou do Office 365 do Skype for Business Server. Para configurar a autenticação de servidor para servidor em um ambiente híbrido, primeiro você deve configurar a instalação local do Skype for Business Server para confiar no servidor de autorização. A etapa inicial desse processo pode ser executada executando o seguinte script do Shell de gerenciamento do Skype for Business Server:
 
 ```PowerShell
 $TenantID = (Get-CsTenant -Filter {DisplayName -eq "Fabrikam.com"}).TenantId
@@ -75,11 +75,11 @@ $TenantID = (Get-CsTenant -Filter {DisplayName -eq "Fabrikam.com"}).TenantId
 Para executar esse script, você deve ter instalado o módulo PowerShell do Skype for Business Online e se conectar ao seu locatário com este módulo. Se você não tiver instalado esses cmdlets, seu script falhará porque o cmdlet Get-CsTenant não estará disponível. Após a conclusão do script, você deve configurar uma relação de confiança entre o Skype for Business Server e o servidor de autorização e uma segunda relação de confiança entre o Exchange 2013/2016 e o servidor de autorização. Isso só pode ser feito usando os cmdlets do Microsoft Online Services.
 
 > [!NOTE]
-> Se você não tiver instalado os cmdlets do Microsoft Online Services, será necessário instalá-lo no repositório do PowerShell com o cmdlet `install-module MSOnline`. As informações detalhadas de instalação e uso do Módulo do Microsoft Online Services podem ser encontradas no site do Office 365. Essas instruções também mostrarão como configurar o logon único, a federação e a sincronização entre o Office 365 e o Active Directory. 
+> Se você não tiver instalado os cmdlets do Microsoft Online Services, será necessário instalá-lo no repositório do PowerShell com o cmdlet `install-module MSOnline` . Informações detalhadas sobre a instalação e o uso do módulo do Microsoft Online Services podem ser encontradas no site da Microsoft 365. Essas instruções também informarão como configurar o logon único, a Federação e a sincronização entre o Microsoft 365 ou o Office 365 e o Active Directory. 
 
 
 
-Depois de ter configurado o Office 365 e depois de ter criado entidades de serviço do Office 365 para o Skype for Business Server e o Exchange 2013, você precisará registrar suas credenciais com essas entidades de serviço. Para fazer isso, primeiro você deve obter um certificado de base64 X. 509 salvo como um. Arquivo CER. Ele será aplicado às entidades de serviço do Office 365.
+Depois de ter configurado o Microsoft 365 ou o Office 365, e depois de ter criado as entidades de serviço do Microsoft 365 ou do Office 365 para o Skype for Business Server e o Exchange 2013, você precisará registrar suas credenciais com essas entidades de serviço. Para fazer isso, primeiro você deve obter um certificado de base64 X. 509 salvo como um. Arquivo CER. Esse certificado será então aplicado às entidades de serviço do Microsoft 365 ou do Office 365.
 
 Quando você tiver obtido o certificado X. 509, abra o console do PowerShell e importe o módulo Microsoft Online Windows PowerShell contendo os cmdlets que podem ser usados para gerenciar entidades de serviço:
 
@@ -87,7 +87,7 @@ Quando você tiver obtido o certificado X. 509, abra o console do PowerShell e i
 Import-Module MSOnline
 ```
 
-Após a importação do módulo, digite o seguinte comando e pressione ENTER para conectar ao Office 365:
+Após a importação do módulo, digite o seguinte comando e pressione ENTER:
 
 ```PowerShell
 Connect-MsolService
@@ -95,7 +95,7 @@ Connect-MsolService
 
 Depois de pressionar ENTER, uma caixa de diálogo de credenciais será exibida. Insira seu nome de usuário e senha do Microsoft 365 ou do Office 365 na caixa de diálogo e clique em OK.
 
-Assim que estiver conectado ao Office 365, você poderá executar o comando a seguir para retornar informações sobre as entidades de serviço:
+Assim que estiver conectado ao Microsoft 365 ou ao Office 365, você poderá executar o comando a seguir para retornar informações sobre as entidades de serviço:
 
 ```PowerShell
 Get-MsolServicePrincipal
@@ -120,10 +120,10 @@ A próxima etapa é importar, codificar e atribuir o certificado X.509. Para imp
 $certificate = New-Object System.Security.Cryptography.X509Certificates.X509Certificate
 $certificate.Import("C:\Certificates\Office365.cer")
 $binaryValue = $certificate.GetRawCertData()
-$credentialsValue = [System.Convert]::ToBase64String($binaryValue)
+$credentialsValue = [System.Convert]::ToBase64String($binaryValue) 
 ```
 
-Após a importação e codificação do certificado, você poderá atribuir o certificado às entidades de serviço do Office 365. Para fazer isso, primeiro use o Get-MsolServicePrincipal para recuperar o valor da propriedade AppPrincipalId para o Skype for Business Server e as entidades de serviço do Microsoft Exchange; o valor da propriedade AppPrincipalId será usado para identificar a entidade de serviço à qual o certificado está sendo atribuído. Com o valor da propriedade AppPrincipalId para o Skype for Business Server em mãos, use o comando a seguir para atribuir o certificado à versão do Skype for Business Online:
+Após o certificado ter sido importado e codificado, você pode atribuir o certificado à sua entidade de serviço do Microsoft 365 ou do Office 365. Para fazer isso, primeiro use o Get-MsolServicePrincipal para recuperar o valor da propriedade AppPrincipalId para o Skype for Business Server e as entidades de serviço do Microsoft Exchange; o valor da propriedade AppPrincipalId será usado para identificar a entidade de serviço à qual o certificado está sendo atribuído. Com o valor da propriedade AppPrincipalId para o Skype for Business Server em mãos, use o comando a seguir para atribuir o certificado à versão do Skype for Business Online:
 
 ```PowerShell
 New-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-000000000000 -Type Asymmetric -Usage Verify -Value $credentialsValue 
@@ -154,7 +154,7 @@ Você pode excluir o certificado usando um comando semelhante a este:
 Remove-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-000000000000 -KeyId bc2795f3-2387-4543-a95d-f92c85c7a1b0
 ```
 
-Além de atribuir um certificado, você também deve configurar a entidade de serviço do Exchange Online e configurar sua versão local das URLs de serviços Web externos do Skype for Business Server como uma entidade de serviço do Office 365. Isso pode ser feito executando os dois comandos a seguir. 
+Além de atribuir um certificado, você também deve configurar a entidade de serviço do Exchange Online e configurar sua versão local de URLs de serviços Web externos do Skype for Business Server como uma entidade de serviço do Microsoft 365 ou do Office 365. Isso pode ser feito executando os dois comandos a seguir. 
 
 No exemplo a seguir, Pool1ExternalWebFQDN.contoso.com é a URL de serviços Web externos para o pool do Skype for Business Server. Você deve repetir essas etapas para adicionar todas as URLs de serviços Web externos na implantação.
 

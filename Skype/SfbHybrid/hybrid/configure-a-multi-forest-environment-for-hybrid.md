@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: As seções a seguir fornecem orientação sobre como configurar um ambiente com várias florestas em um modelo de floresta de recursos/usuários para fornecer a funcionalidade do Skype for Business em um cenário híbrido.
-ms.openlocfilehash: acfca3b29407b019b87f5429906dbc72b4ef7dc3
-ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
+ms.openlocfilehash: cf3a162001756661afd0f204e9968713d9db0f5b
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "43918680"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221475"
 ---
 # <a name="deploy-a-resource-forest-topology"></a>Implantar uma topologia de floresta de recursos
  
@@ -35,7 +35,7 @@ As seções a seguir fornecem orientação sobre como configurar um ambiente com
 
 Há suporte para várias florestas de usuários. Lembre-se do seguinte: 
     
-- Para as versões suportadas do Lync Server e do Skype for Business Server em uma configuração híbrida, consulte [Server Version requirements](plan-hybrid-connectivity.md#server-version-requirements) in [Plan Hybrid Connectivity between Skype for Business Server e Office 365](plan-hybrid-connectivity.md).
+- Para as versões suportadas do Lync Server e do Skype for Business Server em uma configuração híbrida, consulte [Server Version requirements](plan-hybrid-connectivity.md#server-version-requirements) in [Plan Hybrid Connectivity between Skype for Business Server e Microsoft 365 ou Office 365](plan-hybrid-connectivity.md).
     
 - O Exchange Server pode ser implantado em uma ou mais florestas, que podem ou não incluir a floresta que contém o Skype for Business Server. Verifique se você aplicou a atualização cumulativa mais recente.
     
@@ -61,7 +61,7 @@ Para obter a sincronização de identidade adequada, os seguintes atributos prec
 |**Florestas de usuários**|**Florestas de recursos**|
 |:-----|:-----|
 |atributo de link da conta escolhida  <br/> |atributo de link da conta escolhida  <br/> |
-|Email  <br/> |Email  <br/> |
+|email  <br/> |email  <br/> |
 |ProxyAddresses  <br/> |ProxyAddresses  <br/> |
 |ObjectSID  <br/> |msRTCSIP-OriginatorSID  <br/> |
    
@@ -73,9 +73,9 @@ Não sincronize os UPNs entre as florestas. Encontramos durante os testes que pr
     
 - Se o UPN exclusivo de cada floresta de usuário foi sincronizado com o objeto desabilitado associado na floresta de recursos, a autenticação do AD FS falhará. A regra de correspondência localizaria o UPN no objeto na floresta de recursos, que foi desabilitado e não pôde ser usado para autenticação. 
     
-## <a name="create-an-office-365-organization"></a>Criar uma organização do Office 365
+## <a name="create-a-microsoft-365-or-office-365-organization"></a>Criar uma organização do Microsoft 365 ou do Office 365
 
-Em seguida, você precisará provisionar uma organização do Office 365 para usar com sua implantação. Para obter mais informações, consulte [assinaturas, licenças, contas e locatários para ofertas de nuvem da Microsoft](https://docs.microsoft.com/office365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings). 
+Em seguida, você precisará provisionar uma organização do Microsoft 365 ou do Office 365 para usar com sua implantação. Para obter mais informações, consulte [assinaturas, licenças, contas e locatários para ofertas de nuvem da Microsoft](https://docs.microsoft.com/office365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings). 
   
 ## <a name="configure-active-directory-federation-services"></a>Configurar serviços de Federação do Active Directory
 
@@ -91,9 +91,9 @@ A menos que você use um SIP/SMTP/UPN exclusivo para usuários de cada floresta,
     
 Ao colocar um farm do AD FS em cada floresta de usuário e usar um SIP/SMTP/UPN exclusivo para cada floresta, resolvemos os dois problemas. Somente as contas dessa floresta de usuário específico seriam pesquisadas e correspondidas durante as tentativas de autenticação. Isso ajudará a fornecer um processo de autenticação mais contínuo. 
   
-Essa será uma implantação padrão do Windows Server 2012 R2 AD FS e deve estar funcionando antes de continuar. Para obter instruções, consulte [como instalar o AD FS 2012 R2 para o Office 365](https://blogs.technet.com/b/rmilne/archive/2014/04/28/how-to-install-adfs-2012-r2-for-office-365.aspx). 
+Essa será uma implantação padrão do Windows Server 2012 R2 AD FS e deve estar funcionando antes de continuar. Para obter instruções, consulte [como instalar o AD FS 2012 R2 para o Microsoft 365 ou o Office 365](https://blogs.technet.com/b/rmilne/archive/2014/04/28/how-to-install-adfs-2012-r2-for-office-365.aspx). 
   
-Depois de implantado, você terá que editar a regra de declarações para corresponder à âncora de origem selecionada anteriormente. No MMC do AD FS, em relações de confiança de terceira parte confiável, clique com o botão direito em **plataforma de identidade do Microsoft Office 365**e clique em **Editar regras de declaração**. Edite a primeira regra e altere ObjectID para **employeeNumber**. 
+Depois de implantado, você terá que editar a regra de declarações para corresponder à âncora de origem selecionada anteriormente. No MMC do AD FS, em relações de confiança de terceiros confiáveis, clique com o botão direito do mouse em **microsoft 365 Identity Platform** ou **Microsoft Office 365 Identity Platform**e selecione **Editar regras de declaração**. Edite a primeira regra e altere ObjectID para **employeeNumber**. 
   
 ![Tela de regras de edição de várias florestas](../../sfbserver/media/f5d485bd-52cc-437f-ba71-217f8902056c.png)
   
@@ -107,9 +107,9 @@ Quando concluído e o AAD Connect estiver mesclando, se você examinar um objeto
   
 ![Tela de objeto do metaverso de várias florestas](../../sfbserver/media/16379880-2de3-4c43-b219-1551f5dec5f6.png)
   
-Os atributos realçados verdes foram mesclados do Office 365, o amarelo é da floresta do usuário e o azul é da floresta de recursos. 
+Os atributos realçados verdes foram mesclados do Microsoft 365 ou do Office 365, o amarelo é da floresta do usuário e o azul é da floresta de recursos. 
   
-Este é um usuário de teste, e você pode ver que o AAD Connect identificou o atributo e o cloudSourceAnchor do usuário e os objetos de floresta de recursos do Office 365, em nosso caso 1101, que é o employeeNumber selecionado anteriormente. Em seguida, ele pôde mesclar este objeto no que você vê acima. 
+Este é um usuário de teste e você pode ver que o AAD Connect identificou o atributo e o cloudSourceAnchor do usuário e os objetos de floresta de recursos do Microsoft 365 ou do Office 365, no nosso caso 1101, que é o employeeNumber selecionado anteriormente. Em seguida, ele pôde mesclar este objeto no que você vê acima. 
   
 Para obter mais informações, consulte [integrar seus diretórios locais com o Azure Active Directory](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect/). 
   

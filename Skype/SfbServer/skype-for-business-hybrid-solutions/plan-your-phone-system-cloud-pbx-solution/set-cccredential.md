@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 784ff94a-4b33-4dbd-ba74-27acc3eb6954
 description: O cmdlet Set-CcCredential define a credencial da implantação atual do Skype for Business Cloud Connector Edition.
-ms.openlocfilehash: a97d85ef6fec31383b349e9a0c3b3d9e25d04337
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 3717eb0dcaa46bb6708f40ecb7f94869f24774a2
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780670"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221565"
 ---
 # <a name="set-cccredential"></a>Set-CcCredential
  
@@ -44,7 +44,7 @@ Set-CcCredential -AccountType "TenantAdmin"
 ## <a name="detailed-description"></a>Descrição detalhada
 <a name="DetailedDescription"> </a>
 
-O cmdlet Set-CcCredential define o nome da conta e a senha do administrador do locatário. Para versões anteriores a 2,0, esse administrador deve ser um administrador global. O Cloud Connector usa essa conta para obter informações de configuração, definir parâmetros de configuração e atualizar o status do dispositivo para a configuração da organização do Office 365. Com a versão 2,0 e posterior, você também pode usar esse cmdlet para atualizar as senhas das contas VmAdmin e DomainAdmin.
+O cmdlet Set-CcCredential define o nome da conta e a senha do administrador do locatário. Para versões anteriores a 2,0, esse administrador deve ser um administrador global. O Cloud Connector usa essa conta para obter informações de configuração, definir parâmetros de configuração e atualizar o status do dispositivo para a configuração de organização do Microsoft 365 ou do Office 365. Com a versão 2,0 e posterior, você também pode usar esse cmdlet para atualizar as senhas das contas VmAdmin e DomainAdmin.
   
 ## <a name="parameters"></a>Parâmetros
 <a name="DetailedDescription"> </a>
@@ -56,12 +56,12 @@ O cmdlet Set-CcCredential define o nome da conta e a senha do administrador do l
 ## <a name="input-types"></a>Tipos de Entrada
 <a name="InputTypes"> </a>
 
-Nenhum. O cmdlet Set-CcCredential não aceita a entrada por pipeline.
+Nenhum O cmdlet Set-CcCredential não aceita a entrada por pipeline.
   
 ## <a name="return-types"></a>Tipos de Retorno
 <a name="ReturnTypes"> </a>
 
-None
+Nenhum
   
 ## <a name="see-also"></a>Confira também
 <a name="ReturnTypes"> </a>

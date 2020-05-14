@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Este artigo descreve os benefícios, as considerações de planejamento e os requisitos para implementar o serviço de caixa postal do Microsoft Cloud. Para obter informações sobre como configurar a caixa postal em nuvem, consulte Configuring Cloud postal.
-ms.openlocfilehash: 30a4983c79f4a7cddd274c272b5a094c17653bbb
-ms.sourcegitcommit: 7c08d88dcaa85e34e93131bb9a5a64597c6d8155
+ms.openlocfilehash: e07dfe76a60d107702891384458cf164a4744578
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44210627"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221281"
 ---
 # <a name="plan-cloud-voicemail-service-for-on-premises-users"></a>Planejar o serviço de caixa postal na nuvem para usuários locais
 
@@ -31,7 +31,7 @@ A caixa postal em nuvem substitui o local da UM (Unificação de mensagens) do E
 
 - Acesso à caixa postal na caixa de correio do Exchange do usuário usando o Skype for Business online ou clientes do Outlook
 
-- A capacidade de usar o Portal baseado na Web do Office 365 para gerenciar opções de caixa postal
+- A capacidade de usar o centro de administração do Microsoft 365 para gerenciar opções de caixa postal
 
 - Suporte para caixas de correio do Exchange no local ou na nuvem
 
@@ -46,7 +46,7 @@ Com a caixa postal na nuvem, suas tarefas administrativas são muito simplificad
 - Não é necessário configurar a função UM do Exchange.
 - As tarefas de configuração para correio de voz em nuvem são mais simples.
 - As atualizações da funcionalidade de caixa postal são entregues diretamente na nuvem, de forma que os usuários sempre tenham acesso aos recursos e atualizações mais recentes com menos dependência em atualizações cumulativas (CUs).
-- Você tem o mesmo conjunto de controles para as caixas de correio do Exchange local e online. Para obter mais informações sobre esses controles, consulte [Configurar caixa postal do sistema de telefonia](https://support.office.com/article/Set-up-Phone-System-voicemail-Admin-help-9c590873-b014-4df3-9e27-1bb97322a79d?ui=en-US&rs=en-US&ad=US).
+- Você tem o mesmo conjunto de controles para as caixas de correio do Exchange local e online. Para obter mais informações sobre esses controles, consulte [Configurar caixa postal do sistema de telefonia](https://support.office.com/article/Set-up-Phone-System-voicemail-Admin-help-9c590873-b014-4df3-9e27-1bb97322a79d).
 
 O diagrama a seguir mostra a caixa postal na nuvem em uma implantação híbrida:
 
@@ -73,7 +73,7 @@ Além dos requisitos acima, os requisitos a seguir devem ser configurados para s
 
 - Conectividade híbrida. Se você já tem o Skype for Business Server implantado e deseja habilitar a caixa postal na nuvem para seus usuários locais, você deve garantir que a conectividade híbrida seja configurada entre seus ambientes locais e online. Isso às vezes é chamado de configuração de domínio dividido.
 
-   Para saber mais, confira [planejar conectividade híbrida entre o Skype for Business Server e o office 365](plan-hybrid-connectivity.md) e [Configurar a conectividade híbrida entre o Skype for Business Server e o Office 365](configure-hybrid-connectivity.md).
+   Para saber mais, confira [planejar conectividade híbrida entre o Skype for Business Server e o Microsoft 365 ou o office 365](plan-hybrid-connectivity.md) e [Configurar a conectividade híbrida entre o Skype for Business Server e o Office 365](configure-hybrid-connectivity.md).
 
 - Os usuários locais devem estar habilitados para Enterprise Voice e caixa postal hospedada no Skype for Business Server.
 
