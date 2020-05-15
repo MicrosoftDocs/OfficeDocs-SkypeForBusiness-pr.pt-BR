@@ -22,12 +22,12 @@ ms.custom:
 - Reporting
 - seo-marvel-mar2020
 description: Obtenha informações detalhadas sobre as dimensões e medidas usadas pelo painel de qualidade de chamada do Microsoft Teams e do Skype for Business online.
-ms.openlocfilehash: c1c277e29f46fe9c748b82e4ebfcfe29897a60da
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 93e7857c2e63f7b13986898ac8e9973c2be189de
+ms.sourcegitcommit: 000515147632c6278bcda4505a1038014dda8e2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137331"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44232582"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard"></a>Dimensões e medidas disponíveis no painel de qualidade da chamada
 
@@ -123,7 +123,7 @@ As informações de dimensões são baseadas em parte em dados carregados no por
 |**Deployment**| | | |
 | ID do primeiro locatário  | Cadeia de caracteres  | ID do locatário do Office 365 para o primeiro ponto de extremidade. <br/> **Valor de exemplo:** 00000000 — 0000 -0000-0000 — 000000000000  | <br/>&bull;Não foi possível determinar a ID do locatário do primeiro ponto de extremidade. Isso pode indicar que o ponto de extremidade foi conectado a uma implantação local do Skype for Business Server.  |
 | ID do segundo locatário  | Cadeia de caracteres  | ID do locatário do Office 365 para o segundo ponto de extremidade. <br/> **Valor de exemplo:** 00000000 — 0000-0000-0000 — 000000000000  |  <br/>&bull;Não foi possível determinar a ID do locatário para o segundo ponto de extremidade. Isso pode indicar que o ponto de extremidade foi conectado a uma implantação local do Skype for Business Server.  |
-| Primeiro pool  | Cadeia de caracteres  | FQDN do pool do Skype for Business online atribuído ao primeiro ponto de extremidade. <br/> **Valor de exemplo:** pool1<span></span>.<span></span>Lync. com  | <br/>&bull;Indica que o ponto de extremidade foi conectado a um Microsoft Teams ou ao Skype for Business. Este campo só será preenchido para fluxos usando implantações locais do Skype for Business Server. |
+| Primeiro pool  | Cadeia de caracteres  | FQDN do pool do Skype for Business online atribuído ao primeiro ponto de extremidade. <br/> **Valor de exemplo:** pool1 <span></span> . Lync <span></span> . com  | <br/>&bull;Indica que o ponto de extremidade foi conectado a um Microsoft Teams ou ao Skype for Business. Este campo só será preenchido para fluxos usando implantações locais do Skype for Business Server. |
 | Segundo pool  | Cadeia de caracteres  | FQDN do pool do Skype for Business online atribuído ao segundo ponto de extremidade. <br/> **Valor de exemplo:** <span>pool1.Lync.com</span>   | &bull;Não foi possível determinar o pool do Skype for Business online para o segundo ponto de extremidade. Isso pode indicar que o ponto de extremidade foi conectado a uma implantação local do Skype for Business Server.  |
 | É federado  | Boolean  | Verdadeiro se os fluxos tivessem entre dois locatários federados; caso contrário, false.   | <br/>&bull;Não foi possível determinar se isso era um fluxo federado <br/>&bull;Alguns dados de sinalização não foram coletados   |
 |Região | Cadeia de caracteres   |  Região em que a implantação foi localizada com base na região de início do locatário. <br/> **Valor de exemplo:** América do Norte | <br/>&bull;Dados de rede não relatados <br/>&bull;A rede não está dentro da rede corporativa <br/>&bull;A rede não tem região definida nos dados de mapeamento de sub-rede. |
@@ -163,8 +163,8 @@ As informações de dimensões são baseadas em parte em dados carregados no por
 | Mês inteiro  | Data e hora  | Mês completo do final do fluxo. Os valores são relatados no fuso horário UTC. <br/> **Valor de exemplo:** 2017-02-01T00:00:00 | |
 |Hora de início|Cadeia de caracteres  |Hora do dia em que a chamada começou.|&bull;Falha na configuração da chamada |
 |**UserAgent** | | |
-| Primeiro domínio  | Cadeia de caracteres  | Domínio do usuário do primeiro ponto de extremidade. Se o primeiro ponto de extremidade for um servidor de conferência, ele usará o domínio do organizador da reunião. Também pode ser o domínio das contas de serviço usadas no cenário.  <br/> **Valor de exemplo:** Contoso<span></span>. com | |
-| Segundo domínio  | Cadeia de caracteres  | Domínio do usuário do segundo ponto de extremidade. Se o segundo ponto de extremidade for um servidor de conferência, ele usará o domínio do organizador da reunião. Também pode ser o domínio das contas de serviço usadas no cenário. <br/> **Valor de exemplo:** Contoso<span></span>. com  | |
+| Primeiro domínio  | Cadeia de caracteres  | Domínio do usuário do primeiro ponto de extremidade. Se o primeiro ponto de extremidade for um servidor de conferência, ele usará o domínio do organizador da reunião. Também pode ser o domínio das contas de serviço usadas no cenário.  <br/> **Valor de exemplo:** Contoso <span></span> . com | |
+| Segundo domínio  | Cadeia de caracteres  | Domínio do usuário do segundo ponto de extremidade. Se o segundo ponto de extremidade for um servidor de conferência, ele usará o domínio do organizador da reunião. Também pode ser o domínio das contas de serviço usadas no cenário. <br/> **Valor de exemplo:** Contoso <span></span> . com  | |
 | Categoria do primeiro agente do usuário  | Cadeia de caracteres  | Categoria do agente do usuário do primeiro ponto de extremidade. <br/> **Valor de exemplo:** OC | &bull;No momento, um agente do usuário não tem um mapeamento    |
 | Categoria do segundo agente do usuário  | Cadeia de caracteres  | Categoria do agente do usuário do segundo ponto de extremidade. <br/> **Valor de exemplo:** OC | &bull;No momento, um agente do usuário não tem um mapeamento    |
 | Primeiro agente do usuário  | Cadeia de caracteres  | Cadeia de caracteres de agente do usuário do primeiro ponto de extremidade. <br/> **Valor de exemplo:** UCCAPI/16.0.7766.5281 OC/16.0.7766.2047 (Skype for Business) | &bull;Nenhum agente de usuário relatado pelo primeiro ponto de extremidade   |
@@ -243,8 +243,8 @@ As informações de dimensões são baseadas em parte em dados carregados no por
 | Segundo canal Wi-Fi  | Cadeia de caracteres  | Canal WiFi usado pelo segundo ponto de extremidade. <br/> **Valor de exemplo:** 10  | <br/>&bull;WiFi não foi usado <br/>&bull;O canal não foi reportado  |
 | Primeiro tipo de rádio Wi-Fi  | Cadeia de caracteres  | Tipo de rádio WiFi usado pelo primeiro ponto de extremidade. HRDSSS é equivalente ao 802.11 b. <br/> **Valor de exemplo:** AC 802.11  | <br/>&bull;WiFi não foi usado <br/>&bull;O tipo WiFi não foi reportado  |
 | Segundo tipo de rádio Wi-Fi  | Cadeia de caracteres  | Tipo de rádio WiFi usado pelo segundo ponto de extremidade. HRDSSS é equivalente ao 802.11 b. <br/> **Valor de exemplo:** AC 802.11  | <br/>&bull;WiFi não foi usado <br/>&bull;O tipo WiFi não foi reportado  |
-| Primeiro sufixo DNS  | Cadeia de caracteres  | Sufixo DNS associado ao adaptador de rede reportado pelo primeiro ponto de extremidade. Observação esse valor pode ser relatado para qualquer tipo de adaptador de rede. **Valor de exemplo:** Corp<span></span>.<span></span>contoso. com  | <br/>&bull;Esse valor não foi reportado pelo ponto de extremidade <br/>  |
-| Segundo sufixo DNS  | Cadeia de caracteres  | Sufixo DNS associado ao adaptador de rede reportado pelo segundo ponto de extremidade. Observação esse valor pode ser relatado para qualquer tipo de adaptador de rede.<br/> **Valor de exemplo:** Corp<span></span>.<span></span>contoso. com   | <br/>&bull;Esse valor não foi reportado pelo ponto de extremidade  |
+| Primeiro sufixo DNS  | Cadeia de caracteres  | Sufixo DNS associado ao adaptador de rede reportado pelo primeiro ponto de extremidade. Observação esse valor pode ser relatado para qualquer tipo de adaptador de rede. **Valor de exemplo:** Corp <span></span> . contoso <span></span> . com  | <br/>&bull;Esse valor não foi reportado pelo ponto de extremidade <br/>  |
+| Segundo sufixo DNS  | Cadeia de caracteres  | Sufixo DNS associado ao adaptador de rede reportado pelo segundo ponto de extremidade. Observação esse valor pode ser relatado para qualquer tipo de adaptador de rede.<br/> **Valor de exemplo:** Corp <span></span> . contoso <span></span> . com   | <br/>&bull;Esse valor não foi reportado pelo ponto de extremidade  |
 | Primeira faixa de Wi-Fi  | Cadeia de caracteres  | Banda WiFi usada como reportada pelo primeiro ponto de extremidade. <br/> **Valor de exemplo:** 5,0 GHz  | <br/>&bull;O valor não foi calculado pelo ponto de extremidade <br/>&bull;O valor não foi reportado  |
 | Segunda faixa Wi-Fi  | Cadeia de caracteres  | Banda WiFi usada como reportada pelo segundo ponto de extremidade. <br/> **Valor de exemplo:** 5,0 GHz  | <br/>&bull;O valor não foi calculado pelo ponto de extremidade <br/>&bull;O valor não foi reportado  |
 | Primeira força de sinal de Wi-Fi  | Cadeia de caracteres  | Intensidade do sinal WiFi em porcentagem [0-100] reportada pelo primeiro ponto de extremidade. <br/> **Valor de exemplo:** 081: [90-100)  | <br/>&bull;O valor não foi calculado pelo ponto de extremidade <br/>&bull;O valor não foi reportado  |
@@ -455,7 +455,7 @@ Os valores Boolianos são sempre true ou false. Em alguns casos, o verdadeiro ta
 
 As dimensões que são fornecidas como intervalo ou grupo de valores são mostradas usando o seguinte formato:
 
- _\<Cadeia de caracteres\> de\<ordem de classificação\> - \<[limite superior inclusivo inferior, exclusivo\>_
+ _\<Cadeia de caracteres de ordem de classificação \> [ \< \>  -  limite superior inclusivo inferior, \< exclusivo\>_
 
 Por exemplo, a dimensão duração (minutos) representa a duração da chamada em segundos com o valor informado como um intervalo de valores.
 
@@ -467,7 +467,7 @@ Por exemplo, a dimensão duração (minutos) representa a duração da chamada e
 |066: [3 – 4) |3 minutos < = duração do fluxo < 4 minutos |
 |  | |
 
-A \<cadeia de caracteres de ordem de classificação> é usada para controlar a ordem de classificação ao apresentar os dados e pode ser usada para filtragem. Por exemplo, um filtro sobre Duration (minutos) < "065", mostraria fluxos com duração inferior a 2 minutos (o ' 0 ' à esquerda é necessário para que o filtro funcione conforme o esperado).
+A \< cadeia de caracteres de ordem de classificação> é usada para controlar a ordem de classificação ao apresentar os dados e pode ser usada para filtragem. Por exemplo, um filtro sobre Duration (minutos) < "065", mostraria fluxos com duração inferior a 2 minutos (o ' 0 ' à esquerda é necessário para que o filtro funcione conforme o esperado).
 
 > [!NOTE]
 > O valor real da cadeia de caracteres da ordem de classificação não é significativo.
@@ -480,7 +480,7 @@ Cadeias de caracteres usadas por CQD geralmente são derivadas de arquivos de da
 
 As dimensões que são fornecidas como um par de enumeração são mostradas usando o seguinte formato:
 
- _\<valor de enumeração de um ponto\> de \<extremidade: valor de enumeração do outro ponto de extremidade\>_
+ _\<valor de enumeração de um ponto de extremidade \> : \< valor de enumeração do outro ponto de extremidade\>_
 
 A ordem dos valores de enumeração é consistente, mas não reflete a ordem dos primeiros ou dos segundos pontos de extremidade.
 
@@ -499,7 +499,7 @@ A tabela acima lista os possíveis motivos pelos quais uma dimensão pode estar 
 
 ## <a name="measurements"></a>Medições
 
-Muitos valores de medida também podem ser usados como filtros. A tabela a seguir lista as medidas disponíveis atualmente no CQD, mostradas na ordem listada no editor de consultas:
+Muitos valores de medida também podem ser usados como filtros. A tabela a seguir lista as medidas disponíveis atualmente no CQD, mostradas na ordem listada no editor de consultas
 
 |Nome da medida |Americanas |Descrição |
 |:--- |:--- |:--- |
@@ -511,7 +511,7 @@ Muitos valores de medida também podem ser usados como filtros. A tabela a segui
 |Contagem total de fluxos de mídia com êxito |Número de fluxos |Número de fluxos onde o caminho de mídia foi estabelecido e terminou normalmente. |
 |Contagem total de fluxos de configuração de chamadas bem-sucedida |número de fluxos |Número de fluxos onde o caminho da mídia pode ser estabelecido entre os pontos de extremidade no início da chamada.|
 |Porcentagem total de falhas na configuração da chamada |Porcentual |Porcentagem de todos os fluxos onde o caminho da mídia não pode ser estabelecido entre os pontos de extremidade no início da chamada. |
-|Porcentagem de falha de chamada descartada total |Porcentual |Porcentagem de fluxos estabelecidos com êxito onde o caminho da mídia não terminou normalmente. | Contagem total de chamadas curtas
+|Porcentagem de falha de chamada descartada total |Porcentual |Porcentagem de fluxos estabelecidos com êxito onde o caminho da mídia não terminou normalmente.| 
 |Taxa de captura de resposta total |Ratio |Taxa de chamadas com duração inferior a 5 segundos sobre o número total de chamadas. |
 |Porcentagem total de chamadas curtas |Porcentual |Porcentagem do total de chamadas com menos de 1 minuto de duração. |
 |Porcentagem total de falha de mídia |Porcentual |Porcentagem de todos os fluxos onde o caminho da mídia não pode ser estabelecido ou não terminou normalmente. |
@@ -521,8 +521,8 @@ Muitos valores de medida também podem ser usados como filtros. A tabela a segui
 |Percentual de falha de mídia bloqueada por IP de firewall |Porcentual |Porcentagem de fluxos que falharam ao serem estabelecidos porque o equipamento de rede bloqueou o acesso aos servidores do Skype for Business. Essas falhas geralmente indicam que um proxy, firewall ou outro dispositivo de segurança de rede não está configurado corretamente para acessar o endereço IP e as portas usadas pelo Skype for Business no Office 365. |
 | A mídia falhou devido à contagem de outros fluxos|Número de fluxos| Número de fluxos onde o caminho da mídia não pode ser estabelecido entre os pontos de extremidade devido a um motivo não determinado/não classificado.| |
 | Outra porcentagem de falha de mídia|Porcentual| Porcentagem de fluxos onde o caminho da mídia não pode ser estabelecido entre os pontos de extremidade devido a um motivo não determinado/não classificado. ||
-| Contagem total de chamadas disponíveis para CDR|Número de fluxos|Número total de fluxos de mídia com informações de confiabilidade/diagnóstico disponíveis.|
-| Contagem total de chamadas com falha na mídia|Número de fluxos|Número de fluxos onde o caminho da mídia não pode ser estabelecido entre os pontos de extremidade.|
+| Contagem total de chamadas disponíveis para CDR|Número de fluxos|Número total de fluxos de mídia com informações de confiabilidade/diagnóstico disponíveis. Há um erro de até 0,2% para essa medida. Veja a observação abaixo para obter detalhes.|
+| Contagem total de chamadas com falha na mídia|Número de fluxos|Número de fluxos onde o caminho da mídia não pode ser estabelecido entre os pontos de extremidade. Há um erro de até 0,2% para essa medida. Veja a observação abaixo para obter detalhes.|
 |Contagem de fluxos de áudio |Número de fluxos |Número de fluxos de áudio. |
 |Contagem de fluxos de áudio ruins |Número de fluxos |Número de fluxos de áudio classificados como ruins com base nas métricas de rede listadas aqui: [classificação de fluxo no painel de qualidade de chamada](stream-classification-in-call-quality-dashboard.md). |
  |Contagem de fluxos de áudio boa |Número de fluxos |Número de fluxos de áudio classificados como bons com base nas métricas de rede listadas aqui: [classificação de fluxo no painel de qualidade de chamada](stream-classification-in-call-quality-dashboard.md). |
@@ -543,11 +543,11 @@ Muitos valores de medida também podem ser usados como filtros. A tabela a segui
 |Contagem de fluxos de chamadas de áudio ruins |Número de fluxos |Número de fluxos de áudio onde pelo menos um fluxo de áudio na chamada (segmento de chamada) foi classificado como ruim com base nas métricas de rede listadas aqui: [classificação de fluxo no painel de qualidade de chamada](stream-classification-in-call-quality-dashboard.md). |
 |Contagem de fluxos de chamadas de áudio não classificados |Número de fluxos |Número de fluxos de áudio onde os fluxos de áudio na chamada (segmento de chamada) não puderam ser classificados devido a métricas de rede ausentes. |
 |Porcentagem de nível de chamada de áudio ruim |Porcentual |A porcentagem de todos os fluxos de áudio onde pelo menos um fluxo de áudio na chamada (segmento de chamada) foi classificado como ruim com base nas métricas de rede listadas aqui: [classificação de fluxo no painel de qualidade de chamada](stream-classification-in-call-quality-dashboard.md). |
-| Contagem de chamadas de áudio | Número |Número de chamadas envolvendo áudio.| |
-| Contagem de chamadas de áudio ruins|Número  |Número de chamadas envolvendo áudio classificado como ruim.|
-| Contagem de chamadas de áudio válidas |Número de chamadas|Número de chamadas envolvendo áudio classificado como bom.|
-| Contagem de chamadas de áudio não classificadas |Número de chamadas|Número de chamadas envolvendo áudio que não puderam ser classificadas como boas ou ruins.|
-| Porcentagem de chamadas de áudio ruins |Porcentagem de chamadas|Porcentagem de chamadas envolvendo áudio classificado como ruim.|
+| Contagem de chamadas de áudio | Número |Número de chamadas envolvendo áudio. Há um erro de até 0,2% para essa medida. Veja a observação abaixo para obter detalhes.|
+| Contagem de chamadas de áudio ruins|Número  |Número de chamadas envolvendo áudio classificado como ruim. Há um erro de até 0,2% para essa medida. Veja a observação abaixo para obter detalhes.|
+| Contagem de chamadas de áudio válidas |Número de chamadas|Número de chamadas envolvendo áudio classificado como bom. Há um erro de até 0,2% para essa medida. Veja as anotações abaixo para obter detalhes.|
+| Contagem de chamadas de áudio não classificadas |Número de chamadas|Número de chamadas envolvendo áudio que não puderam ser classificadas como boas ou ruins. Há um erro de até 0,2% para essa medida. Veja a observação abaixo para obter detalhes.|
+| Porcentagem de chamadas de áudio ruins |Porcentagem de chamadas|Porcentagem de chamadas envolvendo áudio classificado como ruim. Há um erro de até 0,2% para essa medida. Veja a observação abaixo para obter detalhes.|
 |Contagem de fluxos de compartilhamento |Número de fluxos |Número de fluxos de compartilhamento de aplicativos baseados em RDP. |
 |Compartilhamento ruim devido à contagem de à |Número de fluxos |Número de fluxos de compartilhamento de aplicativos em que a métrica de porcentagem total de danificados de bloco excede aos limites listados aqui: [classificação de fluxo no painel de qualidade de chamada](stream-classification-in-call-quality-dashboard.md). |
 |Compartilhamento ruim devido à contagem de à |Número de fluxos |Número de fluxos de compartilhamento de aplicativos em que a métrica de porcentagem total de danificados de bloco excede aos limites listados aqui: [classificação de fluxo no painel de qualidade de chamada](stream-classification-in-call-quality-dashboard.md). |
@@ -662,18 +662,18 @@ Muitos valores de medida também podem ser usados como filtros. A tabela a segui
 | Taxa média de falha do microfone do segundo|Número de falhas|Taxa média de falha de microfone secundário (falhas por 5 minutos para o microfone de ponto de extremidade) do fluxo. ||
 | Taxa Méd de falha do primeiro alto-falante|Número de falhas|Taxa média de falha do primeiro alto-falante (falhas por 5 minutos para o ponto de extremidade alto-falante) para o fluxo. |
 | Taxa média de falhas de alto-falante do segundo|Número de falhas|Taxa média de falhas de um segundo-falante (falhas por 5 minutos para o ponto de extremidade alto-falante) para o fluxo. |
-| Contagem do primeiro usuário|Número | Número de usuários únicos ou distintos do primeiro ponto de extremidade.| |
-| Contagem do segundo usuário|Número|Número de usuários de ponto de extremidade exclusivo ou distintos do segundo.|
+| Contagem do primeiro usuário|Número | Número de usuários únicos ou distintos do primeiro ponto de extremidade. Há um erro de até 0,2% para essa medida. Veja a observação abaixo para obter detalhes.| 
+| Contagem do segundo usuário|Número|Número de usuários de ponto de extremidade exclusivo ou distintos do segundo. Há um erro de até 0,2% para essa medida. Veja a observação abaixo para obter detalhes.|
 | Taxa de evento de falhas do primeiro dispositivo|Porcentual|Fração média das chamadas que o primeiro ponto de extremidade detectou falhas ou falhas na mídia reproduzida ou capturada que causou má qualidade da mídia que está sendo enviada ou recebida.|
 | Taxa de evento de falhas do dispositivo médio segundo|Porcentual|Fração média da chamada que o segundo ponto de extremidade detectou falhas ou falhas na mídia reproduzida ou capturada que causou má qualidade da mídia que está sendo enviada ou recebida.|
 | Contagem de eventos do primeiro problema do dispositivo|Número de fluxos onde o primeiro ponto de extremidade detectou falhas ou falhas significativas na mídia reproduzida ou capturada que causou má qualidade da mídia que está sendo enviada ou recebida.||
 | Contagem de eventos de problemas do segundo dispositivo|Número de fluxo em que o segundo ponto de extremidade detectou falhas ou falhas significativas na mídia reproduzida ou capturada que causou má qualidade da mídia que está sendo enviada ou recebida.||
-| Contagem de tentativas de total PSTN | Número de chamadas | Total de chamadas tentadas, incluindo chamadas com êxito e falhas nas chamadas no intervalo de tempo selecionado.|
-|Contagem total conectada PSTN | Número de chamadas | Total de chamadas conectadas com êxito no intervalo de tempo selecionado.|
-|Contagem de tentativas de entrada PSTN | Número de chamadas | Total de chamadas com tentativas de entrada, incluindo chamadas com êxito e chamadas com falha no intervalo de tempo selecionado.|
-|Contagem de entrada conectada PSTN | Número de chamadas | Total de chamadas de entrada conectadas com êxito no intervalo de tempo selecionado.|
-|Contagem de tentativas de saída PSTN | Número de chamadas | Total de chamadas tentadas de saída, incluindo chamadas com êxito e falhas nas chamadas no intervalo de tempo selecionado.|
-|Contagem de conexão de saída PSTN | Número de chamadas | Total de chamadas de saída conectadas com êxito no intervalo de tempo selecionado.|
+| Contagem de tentativas de total PSTN | Número de chamadas | Total de chamadas tentadas, incluindo chamadas com êxito e falhas nas chamadas no intervalo de tempo selecionado. Há um erro de até 0,2% para essa medida. Veja a observação abaixo para obter detalhes.|
+|Contagem total conectada PSTN | Número de chamadas | Total de chamadas conectadas com êxito no intervalo de tempo selecionado. Há um erro de até 0,2% para essa medida. Veja a observação abaixo para obter detalhes.|
+|Contagem de tentativas de entrada PSTN | Número de chamadas | Total de chamadas com tentativas de entrada, incluindo chamadas com êxito e chamadas com falha no intervalo de tempo selecionado. Há um erro de até 0,2% para essa medida. Veja a observação abaixo para obter detalhes.|
+|Contagem de entrada conectada PSTN | Número de chamadas | Total de chamadas de entrada conectadas com êxito no intervalo de tempo selecionado. Há um erro de até 0,2% para essa medida. Veja a observação abaixo para obter detalhes.|
+|Contagem de tentativas de saída PSTN | Número de chamadas | Total de chamadas tentadas de saída, incluindo chamadas com êxito e falhas nas chamadas no intervalo de tempo selecionado. Há um erro de até 0,2% para essa medida. Veja a observação abaixo para obter detalhes.|
+|Contagem de conexão de saída PSTN | Número de chamadas | Total de chamadas de saída conectadas com êxito no intervalo de tempo selecionado. Há um erro de até 0,2% para essa medida. Veja a observação abaixo para obter detalhes.|
 |Total de minutos da PSTN | Minutos | Total de minutos | Uso total de minutos no intervalo de tempo selecionado.|
 |Total de minutos de entrada PSTN | Minutos | Uso total de minutos de entrada no intervalo de tempo selecionado.|
 |Total de minutos de saída PSTN | Minutos | Uso total de minutos de saída no intervalo de tempo selecionado.|
@@ -686,8 +686,13 @@ Muitos valores de medida também podem ser usados como filtros. A tabela a segui
 |Taxa de perda de pacotes P50 | Porcentual | 50% das solicitações devem ter menos que a taxa de perda de pacotes fornecida.|
 |Atraso de discagem de saída PSTN| Milissegundos | O atraso que ocorre em chamadas feitas a partir do momento em que um número foi discado até que o chamador ou a parte chamada espere.|
 |Atraso de discagem de entrada PSTN | Milissegundos | O tempo ou o atraso que ocorre em chamadas de entrada feitas a partir do momento em que um número foi discado até que o chamador ou a parte chamada espere.|
-|Porcentagem NER de PSTN | Porcentual | O NER mede a capacidade de uma rede para entregar chamadas, medindo o número de chamadas enviadas versus o número de chamadas entregues a um destinatário.<br/>NER = (chamadas atendidas + usuário ocupado + toque em nenhuma resposta + capturas de recusa de terminal)/total de chamadas de tentativa x 100|
+|Porcentagem NER de PSTN | Porcentual | O NER mede a capacidade de uma rede para entregar chamadas, medindo o número de chamadas enviadas versus o número de chamadas entregues a um destinatário.<br/>NER = (chamadas atendidas + usuário ocupado + toque em nenhuma resposta + capturas de recusa de terminal)/total de tentativas chamadas x 100. há um erro de até 0,2% para essa medida. Veja a observação abaixo para obter detalhes.|
 ||||
+
+### <a name="notes-on-measurements"></a>Anotações em medidas
+
+#### <a name="accuracy-limitations"></a>Limitações de precisão
+Certos tipos de usuário e contagem de chamadas contam com a execução de uma operação cont.se distinta no conjunto de dados para calcular a contagem. No momento, há um erro de até 0,2% inerente à operação cont.se distinta, dependendo do número de linhas em que a operação é realizada. Para o volume mais preciso, você deve usar medidas de contagem de fluxo, pois elas não dependem dessa operação cont.se distinta. A filtragem para reduzir o volume dos dados pode reduzir o erro, mas não pode eliminar essa fonte de erro em chamadas distintas e contagens de usuários. Mais informações sobre essa limitação podem ser encontradas aqui a [função de agregação DContar](https://docs.microsoft.com/azure/data-explorer/kusto/query/dcount-aggfunction).
 
 ## <a name="filters"></a>Filtros
 

@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Teams disponíveis no Brasil.
-ms.openlocfilehash: d07ed05218f878ebf80502099fdb4a1b0b0a3913
-ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
-ms.translationtype: HT
+description: Estes são os serviços do Microsoft 365 e do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para o Brasil.
+ms.openlocfilehash: 438bc74a418c10a9826d7c391941d2d14b43d23a
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41853786"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44230619"
 ---
 # <a name="availability-in-brazil"></a>Disponibilidade no Brasil
 
 [Encontre outro país ou região](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) ou saiba mais sobre a disponibilidade de Audioconferência e planos de chamadas por país e região.
 
-Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Teams disponíveis no Brasil.
+Estes são os serviços do Microsoft 365 e do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para o Brasil.
   
 ## <a name="audio-conferencing"></a>Audioconferência
 

@@ -24,22 +24,22 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para Suíça.
-ms.openlocfilehash: a68806337d09dba9fd989df40b409351ecb2928a
-ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
+description: Estes são os serviços do Microsoft 365 e do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para Suíça.
+ms.openlocfilehash: 2424355a6b370536e5844ac766ca3f0215f4bb1a
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41852358"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44230669"
 ---
 # <a name="availability-in-switzerland"></a>Disponibilidade na Suíça
 
 > [!NOTE]
 > Você pode obter números de **serviço** na Suíça para uso com a conferência, o atendedor automático e as filas de chamadas, mas não é possível obter números de **usuário** na Suíça, pois os planos de chamada não estão disponíveis.
 
-[Procure outro país ou região](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou saiba mais sobre a disponibilidade da Audioconferência e dos Planos de Chamadas por país e região.
+[Encontre outro país ou região](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) ou saiba mais sobre a disponibilidade de Audioconferência e planos de chamadas por país e região.
 
-Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para Suíça.
+Estes são os serviços do Microsoft 365 e do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para Suíça.
   
 ## <a name="audio-conferencing"></a>Audioconferência
 
@@ -49,7 +49,7 @@ Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Te
 |Os números de telefone são atribuídos automaticamente para a Audioconferência?  <br/> |Sim, para: <br/><ul><li> Zurich</ul>Para obter números de telefone dedicados, consulte [Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](/microsoftteams/getting-service-phone-numbers).  <br/> |
 |Funcionalidade de discagem usando o recurso Telefonar para Mim  <br/> |Disponível  <br/> |
    
-## <a name="phone-system"></a>Sistema de Telefonia
+## <a name="phone-system"></a>Sistema Telefônico
 
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
@@ -64,9 +64,9 @@ Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Te
 |:-----|:-----|
 |Os Planos de Chamadas estão disponíveis para compra?  <br/> |Não  <br/> |
 |Minutos disponíveis para Planos de Chamadas  <br/> |Não se aplica  <br/> |
-|É possível fazer chamadas de saída?  <br/> |Não se aplica  <br/> |
+|É possível fazer chamadas de saída?  <br/> |Não aplicável  <br/> |
 
-Se os planos de chamada não estiverem disponíveis para compra, considere o uso do [Roteamento direto do sistema telefônico](../direct-routing-landing-page.md). Com o roteamento direto, você pode usar o sistema telefônico com praticamente qualquer operadora de telefonia.
+Se os Planos de Chamada não estiverem disponíveis para compra, considere a possibilidade de usar o [Roteamento Direto do Sistema de Telefonia](../direct-routing-landing-page.md). Com o Roteamento Direto, você pode usar o Sistema de Telefonia praticamente com qualquer portadora de telefonia.
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Números de chamadas gratuitas e tarifadas para serviços
 
@@ -90,7 +90,7 @@ Para configurá-los, consulte [Configurar Créditos de Comunicação para a sua 
 
 [Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
 
-[Disponibilidade da Audioconferência e dos Planos de Chamadas por país e região](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+[Disponibilidade de Audioconferência e Planos de Chamadas por país e região](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
   
  

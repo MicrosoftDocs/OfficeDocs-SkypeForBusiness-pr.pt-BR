@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: 'Resumo: explore estes links para saber como desenvolver designs conceituais, lógicos e físicos para configurar recursos, servidores e topologias do Skype for Business Server 2019.'
-ms.openlocfilehash: 2948010c99019cbb3329c6770d56ff93fb6b86d7
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 4c7b969c41761441889c5d0963b1a3c6b6b644f7
+ms.sourcegitcommit: 000515147632c6278bcda4505a1038014dda8e2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42129464"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44232362"
 ---
 # <a name="plan-for-your-skype-for-business-server-2019-deployment"></a>Planejar a implantação do Skype for Business Server 2019
  
@@ -62,4 +62,4 @@ Os seguintes recursos sobre como planejar o Skype for Business Server estão dis
 |:--- |:--- |:--- |
 |![Ícone para DMC](../media/paragraph_writing.png)| [Skype for Business Server para profissionais de ti](https://go.microsoft.com/fwlink/p/?LinkId=527960)   |Visite docs.microsoft.com e centros de recursos para acessar vídeos, sites de comunidades, documentação, downloads e muito mais.    |
 |![Ícone para conteúdo do desenvolvedor](../media/developer.png)|[Plataforma de desenvolvedor do Skype](https://go.microsoft.com/fwlink/?LinkId=619775)   | Encontre recursos de desenvolvedor para o Skype for Business Server, incluindo exemplos de código, treinamento e SDKs.    |
-|![Ícone para notícias, Blogs e assim por diante](../media/blog_site.png) | <UL><LI>[Gerenciamento de alterações e adoção](https://go.microsoft.com/fwlink/p/?LinkId=532796) </LI><LI>   [Blogs do Office](https://go.microsoft.com/fwlink/p/?LinkId=528899) </li><li>[Blog técnico do Office 365](https://go.microsoft.com/fwlink/p/?LinkId=532798.aspx) </li><li>  [Blog da equipe do Skype](https://go.microsoft.com/fwlink/p/?LinkId=532818) </li></ul>  |Acompanhe as notícias das equipes que criam e documentam o Skype for Business Server.    |
+|![Ícone para notícias, Blogs e assim por diante](../media/blog_site.png) | <UL><LI>[Gerenciamento de alterações e adoção](https://go.microsoft.com/fwlink/p/?LinkId=532796) </LI><LI>   [Blogs do Office](https://go.microsoft.com/fwlink/p/?LinkId=528899) </li><li>[Blog técnico do Microsoft 365](https://go.microsoft.com/fwlink/p/?LinkId=532798.aspx) </li><li>  [Blog da equipe do Skype](https://go.microsoft.com/fwlink/p/?LinkId=532818) </li></ul>  |Acompanhe as notícias das equipes que criam e documentam o Skype for Business Server.    |

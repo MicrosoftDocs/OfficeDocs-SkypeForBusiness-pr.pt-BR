@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: A Microsoft está desativando o serviço de Unificação de mensagens do Exchange Online (ExchUMO) em 28 de fevereiro de 2020. Este artigo resume o que os clientes afetados devem saber e fazer para planejar sua continuidade de negócios.
-ms.openlocfilehash: a28d8e1d9217773ec28c8f2afdf00cb1e16ae53c
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: cf8b62d4a36059a90631e139910dab3f9f40aa38
+ms.sourcegitcommit: 000515147632c6278bcda4505a1038014dda8e2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042828"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44232556"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Suporte à migração online de Unificação de mensagens do Exchange
 
@@ -82,7 +82,7 @@ A Microsoft identificou várias implantações de clientes que estão consumindo
     Procure um aviso no centro de notificação de administração com mais detalhes e linha do tempo em relação à migração dos seus usuários. As notificações são enviadas pelo menos 30 dias antes do período de migração. 
 
     > [!Note]
-    > Se você recebeu uma notificação com a linha do tempo de migração dos seus usuários e deseja adiar sua migração por um motivo crítico para os negócios, é possível fazer isso contatando o suporte da Microsoft. Observe que você não pode adiar a migração além da data de aposentadoria, 28 de fevereiro de 2020. Para clientes que podem ter mais dúvidas, entre em contato com a equipe de conta ou com o suporte da Microsoft. Os clientes que já usam o Office 365 podem enviar um caso de suporte através do centro de administração do Microsoft 365. 
+    > Se você recebeu uma notificação com a linha do tempo de migração dos seus usuários e deseja adiar sua migração por um motivo crítico para os negócios, é possível fazer isso contatando o suporte da Microsoft. Observe que você não pode adiar a migração além da data de aposentadoria, 28 de fevereiro de 2020. Para clientes que podem ter mais dúvidas, entre em contato com a equipe de conta ou com o suporte da Microsoft. Os clientes que já usam o Microsoft 365 ou o Office 365 podem enviar um caso de suporte através do centro de administração do Microsoft 365. 
 
 6. **Considere optar por uma migração planejada**
 
@@ -104,7 +104,7 @@ A Microsoft identificou várias implantações de clientes que estão consumindo
 
 ## <a name="auto-attendant-migration-guidelines"></a>Diretrizes de migração do atendedor automático
 
-Os administradores da organização do Office 365 precisam recriar seus atendedores automáticos online da UM do Exchange no serviço de atendedor automático do Microsoft Cloud e mudar seus números de telefone locais para eles antes de 28 de fevereiro de 2020, que é quando o serviço do Exchange UMO será desativado. Esta é a diretriz recomendada para migrar com êxito e testar novos atendedores automáticos na nuvem. Se você tiver um grande número de atendedores automáticos, poderá usar o [atendedor automático da um do Exchange para os scripts de migração do atendedor](https://github.com/NathanJBennett/ExUMAAMigrationToCloudAA) automático na nuvem para simplificar a migração em massa de atendedores automáticos.
+Os administradores de organização do Microsoft 365 e do Office 365 precisam recriar seus atendedores automáticos online da UM do Exchange no serviço de atendedor automático do Microsoft Cloud e mudar seus números de telefone no local para eles antes de 28 de fevereiro de 2020, que é quando o serviço do Exchange UMO será desativado. Esta é a diretriz recomendada para migrar com êxito e testar novos atendedores automáticos na nuvem. Se você tiver um grande número de atendedores automáticos, poderá usar o [atendedor automático da um do Exchange para os scripts de migração do atendedor](https://github.com/NathanJBennett/ExUMAAMigrationToCloudAA) automático na nuvem para simplificar a migração em massa de atendedores automáticos.
 
 ### <a name="setup"></a>Configurar
 
@@ -163,13 +163,13 @@ Os administradores da organização do Office 365 precisam recriar seus atendedo
 | VM | Recursos do chamador  | Detecção de silêncio   |  | N | S    |
 | VM | Locatário-recursos de administração | Caixa postal protegida no nível do servidor    | Locatário-o administrador pode configurar uma regra de nível de serviço para marcar a caixa postal de entrada como protegida | S | S    |
 | VM | Locatário-recursos de administração | Alterar o limite de tempo de duração da gravação  |     | S | S    |
-| VM | Locatário-recursos de administração | Alterar o tempo limite de detecção de silêncio    |  | N/D    | S    |
+| VM | Locatário-recursos de administração | Alterar o tempo limite de detecção de silêncio    |  | N/A    | S    |
 | VM | Locatário-recursos de administração | Alterar o número de falhas de entrada | CVM: embutido em código para 3 | N | S    |
 | VM | Locatário-recursos de administração | Alterar o idioma padrão |  | S | S    |
 | VM | Locatário-recursos de administração | Desabilitar/habilitar transcrição |  | S | S    |
 | VM | Locatário-recursos de administração | Desabilitar/habilitar notificação de chamada perdida |  | N | S    |
 | VM | Locatário-recursos de administração | Ajude a Microsoft a melhorar a visualização da caixa postal    |  | S | S    |
-| VM | Locatário-recursos de administração | Personalizar mensagem de texto para usuários habilitados|  | N/D    | S    |
+| VM | Locatário-recursos de administração | Personalizar mensagem de texto para usuários habilitados|  | N/A    | S    |
 | VM | Locatário-recursos de administração | Mascaramento de profanação de transcrição|  | S | N    |
 | VM | Locatário-recursos de administração | Política de caixa postal    |   | S | S    |
 | VM | Locatário-recursos de administração | Administração do portal da Web   |  | CY19   | S    |

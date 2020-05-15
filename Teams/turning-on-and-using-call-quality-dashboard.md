@@ -24,12 +24,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: Saiba mais sobre como ativar e usar o painel de qualidade de chamada e obter relatórios resumidos de qualidade das chamadas.
-ms.openlocfilehash: 59f905315eebe1e2f3e3b24b157eb198173a94e8
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 9a1c7cb451f722d019a4119daf8ab9c3a08c810f
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44226008"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44243570"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Ativar e usar o painel de qualidade de chamada do Microsoft Teams e do Skype for Business Online
 
@@ -483,13 +483,13 @@ Crie relatórios detalhados no CQD e filtre a ID da reunião para ver todos os u
 A telemetria não irá necessariamente chamar o problema, mas pode ajudá-lo a entender melhor onde procurar e informar suas decisões. É uma rede, dispositivo, atualizações de driver ou firmware, uso ou usuário?
 
 ### <a name="why-do-i-see-upto-02-difference-in-call-and-user-count-values-on-measures-and-how-to-get-most-accurate-volumes"></a>Por que vejo até 0,2% diferença de valores de contagem de usuários e chamada em medidas e como obter os volumes mais precisos? 
-Para calcular a contagem de chamadas e os indicadores de contagem do usuário, uma operação cont.se diferente é realizada em relação à chamada ou aos identificadores de usuário no conjunto de dados. Em conjuntos de dados grandes, há uma inherient de erro de até 0,2% com o opeartion de cont.se diferente. Para o volume mais preciso, você deve confiar em medidas de contagem de fluxo, pois elas não dependem dessa operação cont.se distinta. A filtragem para reduzir o volume dos dados pode reduzir o erro, mas não pode elimnate essa fonte de erro em chamadas distintas e contagens de usuários. Consulte [dimensões e medidas disponíveis no painel de qualidade de chamada](dimensions-and-measures-available-in-call-quality-dashboard.md) para quais medidas são impactadas.
+Para calcular a contagem de chamadas e os indicadores de contagem do usuário, uma operação cont.se diferente é realizada em relação à chamada ou aos identificadores de usuário no conjunto de dados. Em conjuntos de dados grandes, há um erro de até 0,2% inerente à operação cont.se distinta. Para o volume mais preciso, você deve confiar em medidas de contagem de fluxo, pois elas não dependem dessa operação cont.se distinta. A filtragem para reduzir o volume dos dados pode reduzir o erro, mas não pode eliminar essa fonte de erro em chamadas distintas e contagens de usuários. Consulte [dimensões e medidas disponíveis no painel de qualidade de chamada](dimensions-and-measures-available-in-call-quality-dashboard.md) para quais medidas são impactadas.
 
 ### <a name="why-does-my-cqd-v2-report-data-look-different-than-the-cqd-v3-report-data"></a>Por que meus dados de relatório do CQD v2 parecem diferentes dos dados do relatório do CQD v3? 
 
 Se você vir diferenças de dados entre CQD V2 e v3, certifique-se de que a comparação de dados ou a validação seja feita em um ' maçãs-a-maçãs ' e nível estreito, e não em um nível agregado. Por exemplo, se você filtrar os dois relatórios para os dados de cliente da área de trabalho de MSIT "Building 30" do teams WiFi, o percentual de baixa qualidade deve ser o mesmo entre V2 e v3.
 
-A classificação CQDv2 para CallSetup falha é Inly considerada para a modalidade de "áudio" somente em CQDv3 essa classificação ocorre para cada modalidade (áudio, vídeo e compartilhamento) e é representada no respectivo fluxo de modalidade. 
+A classificação CQDv2 para CallSetup falha só é considerada para a modalidade de "áudio", em CQDv3 essa classificação ocorre para cada modalidade (áudio, vídeo e compartilhamento) e é representada no respectivo fluxo de modalidade. 
 
 Para o Teams, o CQDv2 aplica os mesmos comentários dos usuários a todas as modalidades CQDv3 aplica a base de feedback sobre a modalidade para equipes.
 

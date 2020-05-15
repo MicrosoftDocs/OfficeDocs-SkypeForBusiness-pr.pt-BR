@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 'Resumo: saiba como usar o PowerShell para obter a funcionalidade do SEFAUtil no Skype for Business Server 2019 depois de instalar a atualização cumulativa 1.'
-ms.openlocfilehash: 1a18a954e40ba7a0c72e4d87b4b3c943e827f2a1
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 24040a3da5dc2549996463078a55324f3fc03657
+ms.sourcegitcommit: 000515147632c6278bcda4505a1038014dda8e2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42049133"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44232552"
 ---
 # <a name="using-sefautil-functionality-via-powershell-in-skype-for-business-server-2019"></a>Usando a funcionalidade do SEFAUtil por meio do PowerShell no Skype for Business Server 2019
 
@@ -103,7 +103,7 @@ Para implantações locais, os cmdlets introduzidos neste recurso só podem ser 
 - CsHelpDesk-obter todos os cmdlets
 
 Para obter mais informações sobre essas funções de administrador, consulte [criar administradores do painel de controle do Skype for Business Server](../SfbServer/help-topics/help-depwiz/create-skype-for-business-server-control-panel-administrators.md). O administrador pode acessar esses cmdlets de modo direto ou remoto fazendo logon em um computador servidor.
-Para uma implantação híbrida, os administradores do Skype for Business devem ser capazes de chamar get e Set para todos os cmdlets. Para obter mais informações sobre a lista completa de funções, consulte [sobre as funções de administrador do Office 365](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles)
+Para uma implantação híbrida, os administradores do Skype for Business devem ser capazes de chamar get e Set para todos os cmdlets. Para obter mais informações sobre a lista completa de funções, consulte [sobre funções de administrador](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles)
 
 > [!NOTE]
 > A descoberta automática do servidor deve estar habilitada. Nenhum requisito adicional de licenciamento será introduzido para uso dos cmdlets.

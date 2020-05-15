@@ -24,12 +24,12 @@ ms.custom:
 - Direct Routing
 - seo-marvel-mar2020
 description: Saiba mais sobre chamadas de emergência, incluindo informações sobre endereços de emergência, roteamento de chamadas de emergência e chamadas de emergência dinâmicas.
-ms.openlocfilehash: 8afe2d2af8b2aecbe3d73da03137f330aa8304b8
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 8c2de31aa81ac36338560c9b75d5c7ef27e460f8
+ms.sourcegitcommit: 000515147632c6278bcda4505a1038014dda8e2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141024"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44232542"
 ---
 # <a name="manage-emergency-calling"></a>Gerenciar chamadas de emergência
 
@@ -90,7 +90,7 @@ Quando o local deve estar associado ao número de telefone, depende do país/reg
 
 Chamadas de emergência dinâmicas para planos de chamada da Microsoft fornecem a funcionalidade de configurar e rotear chamadas de emergência com base na localização atual do cliente da equipe. A capacidade de direcionar o roteamento automático para o ponto de resposta de segurança pública adequado (PSAP) ou notificar a equipe de suporte técnico varia de acordo com o país de uso do usuário do teams.  
 
-No momento, somente os usuários do plano de chamada nos Estados Unidos podem aproveitar locais dinâmicos para direcionar as chamadas de emergência da seguinte maneira:
+Para usuários do plano de chamada, o local dinâmico para roteamento de chamadas de emergência só tem suporte nos Estados Unidos da seguinte maneira. (Para obter informações sobre chamadas de emergência dinâmicas e roteamento direto, consulte [considerações para roteamento direto](#considerations-for-direct-routing).
 
 - Se um cliente do teams para um plano de chamadas dos Estados Unidos usuários adquirirem dinamicamente um endereço de emergência nos Estados Unidos, esse endereço será usado para roteamento de emergência em vez do endereço cadastrado, e a chamada será automaticamente roteada para o PSAP na área de serviço do endereço.
 

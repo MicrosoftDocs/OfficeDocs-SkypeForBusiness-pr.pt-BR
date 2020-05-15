@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Saiba qual escrivaninha e telefones de conferências são certificados para que o Microsoft Teams produza os melhores resultados.
-ms.openlocfilehash: 9a533b882da3298cdfd497e4f87b88e64a2d5ef4
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 517cea81f2cbe47f43fe38b2761b774f49c425c4
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44041829"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44230649"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>Telefones IP certificados para o Microsoft Teams
 
@@ -48,8 +48,8 @@ Os seguintes telefones são certificados para o Microsoft Teams:
 |:---|:---|:---|
 |AudioCodes C450HD | C450HD_TEAMS_0.225 | Março de 2019|
 |AudioCodes C448HD (modo de CAP somente) | C450HD_TEAMS_0.225 | Março de 2019|
-|Crestron M100|2.3875.00068|Dezembro de 2018|
-|Crestron Flex UC-P100-T & UC-P110-T  | 58.15.91.6 |Janeiro de 2019|
+|Crestron M100| Este produto foi descontinuado. Para obter mais informações, acesse [Crestron M100](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M100-T) no website da Crestron. | Descontinuado a partir de 5/11/2020|
+|Crestron Flex UC-P100-T & UC-P110-T  | Este produto foi descontinuado. Para obter mais informações, acesse o site de [comunicação unificada]( https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/UC-PHONE-T-PLUS) no website da Crestron. |Descontinuado a partir de 5/11/2020|
 |Exibição ThinkSmart do Lenovo|CD-18781Y. 200410.067|Abril de 2020|
 |CCX400 de Polyline | 1.0.0.0200 | Janeiro de 2020|
 |CCX600 de Polyline | 5.9.12.1111| Janeiro de 2020|
@@ -86,3 +86,5 @@ Se você for um fornecedor que está procurando participar do programa de certif
 Saiba mais sobre os [programas de certificação do Skype for Business e do Microsoft Teams](https://docs.microsoft.com/SkypeForBusiness/certification/overview).
 
 [Explore os telefones e dispositivos certificados do Microsoft Teams.](https://products.office.com/microsoft-teams/across-devices/devices)
+
+[Teams e interoperabilidade do Skype](teams-skype-interop.md)

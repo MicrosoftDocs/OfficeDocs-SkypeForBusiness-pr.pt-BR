@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para El Salvador.
-ms.openlocfilehash: f5d7d1bc36020165da4fac4e3d1e5b0f3d8bde56
-ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
+description: Estes são os serviços do Microsoft 365 e do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para El Salvador.
+ms.openlocfilehash: 47f048d0b174305032e978ae904fe081c94e948c
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41853566"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44230239"
 ---
 # <a name="availability-in-el-salvador"></a>Disponibilidade em El Salvador
 
-[Procure outro país ou região](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou saiba mais sobre a disponibilidade da Audioconferência e dos Planos de Chamadas por país e região.
+[Encontre outro país ou região](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) ou saiba mais sobre a disponibilidade de Audioconferência e planos de chamadas por país e região.
 
-Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para El Salvador.
+Estes são os serviços do Microsoft 365 e do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para El Salvador.
   
 ## <a name="audio-conferencing"></a>Audioconferência
 
@@ -46,7 +46,7 @@ Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Te
 |Os números de telefone são atribuídos automaticamente para a Audioconferência?  <br/> |Não <br/> |
 |Funcionalidade de discagem usando o recurso Telefonar para Mim  <br/> |Requer créditos de comunicação  <br/> |
    
-## <a name="phone-system"></a>Sistema de Telefonia
+## <a name="phone-system"></a>Sistema Telefônico
 
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
@@ -61,9 +61,9 @@ Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Te
 |:-----|:-----|
 |Os Planos de Chamadas estão disponíveis para compra?  <br/> |Não  <br/> |
 |Minutos disponíveis para Planos de Chamadas  <br/> |Não se aplica  <br/> |
-|É possível fazer chamadas de saída?  <br/> |Não se aplica  <br/> |
+|É possível fazer chamadas de saída?  <br/> |Não aplicável  <br/> |
 
-Se os planos de chamada não estiverem disponíveis para compra, considere o uso do [Roteamento direto do sistema telefônico](../direct-routing-landing-page.md). Com o roteamento direto, você pode usar o sistema telefônico com praticamente qualquer operadora de telefonia.
+Se os Planos de Chamada não estiverem disponíveis para compra, considere a possibilidade de usar o [Roteamento Direto do Sistema de Telefonia](../direct-routing-landing-page.md). Com o Roteamento Direto, você pode usar o Sistema de Telefonia praticamente com qualquer portadora de telefonia.
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Números de chamadas gratuitas e tarifadas para serviços
 
@@ -87,6 +87,6 @@ Para configurá-los, consulte [Configurar Créditos de Comunicação para a sua 
 
 [Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
 
-[Disponibilidade da Audioconferência e dos Planos de Chamadas por país e região](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+[Disponibilidade de Audioconferência e Planos de Chamadas por país e região](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
 

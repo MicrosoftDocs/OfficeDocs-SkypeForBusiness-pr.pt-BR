@@ -26,12 +26,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Saiba mais sobre a conferência de áudio, o sistema telefônico, os planos de chamadas, os créditos de comunicações e os números de telefone de chamada tarifada e gratuitas disponíveis em um país ou região.
-ms.openlocfilehash: d6c989ea073a3d12f5bd4f04496f57977534e05c
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: eae54b4b8957f588afab45758f9be5d2f678b3ea
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141054"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44230189"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Disponibilidade de Audioconferência e Planos de Chamadas por país e região
 
@@ -178,14 +178,14 @@ Para saber mais sobre Audioconferência, confira [Perguntas comuns sobre a Audio
 Em Audioconferência, há um recurso chamado”*Ligue para mim*", que pode ser usado para permitir que outras pessoas ingressem em uma reunião discada. Use a lista suspensa acima para pesquisar o país/região e ver se esse recurso está disponível.
 
 > [!CAUTION]
-> A discagem para números de telefone gratuitos pode não ser possível, pois alguns números sem tarifas funcionam apenas de dentro de um determinado país ou região dentro de um país. Por exemplo, se você discar dos Estados Unidos para um número gratuito no Brasil, a chamada pode não ser bem-sucedida porque a chamada não se originou no Brasil ou em uma região específica no Brasil. A capacidade de discagem de números sem tarifas varia muito dependendo das restrições do número gratuito discado. Infelizmente, no Office 365, não é possível controlar esse comportamento e, como resultado, sua experiência pode variar dependendo do número gratuito e das restrições do número gratuito da chamada. 
+> A discagem para números de telefone gratuitos pode não ser possível, pois alguns números sem tarifas funcionam apenas de dentro de um determinado país ou região dentro de um país. Por exemplo, se você discar dos Estados Unidos para um número gratuito no Brasil, a chamada pode não ser bem-sucedida porque a chamada não se originou no Brasil ou em uma região específica no Brasil. A capacidade de discagem de números sem tarifas varia muito dependendo das restrições do número gratuito discado. Infelizmente, não podemos controlar esse comportamento e, como resultado, a sua experiência pode variar dependendo do número de chamada gratuita discada e das restrições do número de chamada gratuita. 
   
-A discagem de uma reunião para outro país/região do mundo que não está listada abaixo está disponível usando os [ Créditos de comunicação do Office 365](../what-are-communications-credits.md). Para esses usuários, você precisará [Configurar créditos de comunicações para a sua organização](../set-up-communications-credits-for-your-organization.md).
+Discar de uma reunião para outro país/região do mundo que não está listado abaixo está disponível usando créditos de [comunicação](../what-are-communications-credits.md). Para esses usuários, você precisará [Configurar créditos de comunicações para a sua organização](../set-up-communications-credits-for-your-organization.md).
   
 ### <a name="phone-system"></a>Sistema Telefônico
 Com o sistema de telefonia, você pode criar atendentes automáticos e filas de chamada (com um número gratuito) para atender às chamadas recebidas para a sua organização e, ao adicionar um plano de chamadas para usuários, eles podem usar o Skype for Business para cuidar das tarefas básicas de controle de chamada como o posicionamento e o recebimento de chamadas, a transferência de chamadas e a desativação e ativação de chamadas. Os usuários do **Sistema de Telefonia** podem clicar em um nome na agenda e o Skype for Business faz a chamada para esta pessoa. Para fazer e receber chamadas, os usuários do**Sistema de Telefonia**podem usar seus dispositivos móveis, um fone de ouvido com um laptop ou PC, ou um dos muitos telefones IP que funcionam com o Skype for Business.
 
-> A disponibilidade de números de telefone celular de alguns desses locais pode variar a qualquer momento, dependendo dos níveis de inventário. Além de obter os números telefônicos para usuários individuais do Office 365, também é possível procurar e adquirir números de discagem gratuita ou não para serviços como Audioconferência (para pontes de conferências) e atendedores automáticos e filas de chamadas. Eles são chamados de números de serviço. Confira [Obter números de telefone do serviço](/microsoftteams/getting-service-phone-numbers) para obter números de telefone. No entanto, para os usuários, depois de atribuir um Plano de Chamada a eles, você pode atribuir um número de telefone para que eles possam fazer e receber chamadas telefônicas. Para encontrar esses números de telefone, acesse [Obter números de telefone para seus usuários](/microsoftteams/getting-phone-numbers-for-your-users). Você também pode conferir[Atribuir, alterar ou remover o número de telefone de um usuário](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user). 
+> A disponibilidade de números de telefone celular de alguns desses locais pode variar a qualquer momento, dependendo dos níveis de inventário. Além de obter números de telefone para usuários individuais, também é possível pesquisar e adquirir números de telefone de chamada tarifada ou gratuita para serviços como videoconferências (para pontes de conferência), atendedores automáticos e filas de chamadas. Eles são chamados de números de serviço. Confira [Obter números de telefone do serviço](/microsoftteams/getting-service-phone-numbers) para obter números de telefone. No entanto, para os usuários, depois de atribuir um Plano de Chamada a eles, você pode atribuir um número de telefone para que eles possam fazer e receber chamadas telefônicas. Para encontrar esses números de telefone, acesse [Obter números de telefone para seus usuários](/microsoftteams/getting-phone-numbers-for-your-users). Você também pode conferir[Atribuir, alterar ou remover o número de telefone de um usuário](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user). 
 
 [Preços do sistema telefônico](https://products.office.com/skype-for-business/phone-system#Requirements)
 
@@ -204,7 +204,7 @@ Você também pode ver [Sistema de Telefonia e licenciamento de Planos de Chamad
   
 ### <a name="toll-and-toll-free-phone-numbers-for-services"></a>Números de telefone gratuitos e gratuito para os serviços
 
-Além de obter os números telefônicos para usuários individuais do Office 365, também é possível procurar e adquirir números de discagem gratuita ou não para serviços como Audioconferência (para pontes de conferências) e atendedores automáticos e filas de chamadas. Eles são chamados de números de serviço.
+Além de obter números de telefone para usuários individuais, também é possível pesquisar e adquirir números de telefone de chamada tarifada ou gratuita para serviços como videoconferências (para pontes de conferência), atendedores automáticos e filas de chamadas. Eles são chamados de números de serviço.
   
 Veja a seguir uma lista de capitais e principais cidades onde você pode obter números de serviços para usar com Audioconferências o e Planos de Chamadas. Você pode obter números de serviço gratuito por esses locais usando o **Centro de administração do Skype for Business**.
   

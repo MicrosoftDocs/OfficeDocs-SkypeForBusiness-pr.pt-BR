@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para a Austrália.
-ms.openlocfilehash: acbde97d1b0facf077b175650d4748318d53b591
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+description: Estes são os serviços do Microsoft 365 e do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para a Austrália.
+ms.openlocfilehash: 5bfca9b286a264177437ca36569b943f945b6693
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41695426"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44230639"
 ---
 # <a name="availability-in-australia"></a>Disponibilidade na Austrália
 
-[Procure outro país ou região](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou saiba mais sobre a disponibilidade da Audioconferência e dos Planos de Chamadas por país e região.
+[Encontre outro país ou região](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) ou saiba mais sobre a disponibilidade de Audioconferência e planos de chamadas por país e região.
 
-Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para a Austrália.
+Estes são os serviços do Microsoft 365 e do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para a Austrália.
 
 ## <a name="audio-conferencing"></a>Audioconferência
 
@@ -46,7 +46,7 @@ Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Te
 |Os números de telefone são atribuídos automaticamente para a Audioconferência?  <br/> |Não. [Entre em contato conosco](mailto:ptnapac@microsoft.com). <br/> |
 |Funcionalidade de discagem usando o recurso Telefonar para Mim  <br/> |Disponível  <br/> |
 
-## <a name="phone-system"></a>Sistema de Telefonia
+## <a name="phone-system"></a>Sistema Telefônico
 
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
@@ -59,14 +59,14 @@ Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Te
 
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
-|Os Planos de Chamadas estão disponíveis para compra?  <br/> |Sim, consulte [chamadas Telstra para o Office 365](https://aka.ms/TelstraVoicePlan).  <br/> |
-|Minutos disponíveis para Planos de Chamadas  <br/> |Consulte [chamadas Telstra para o Office 365](https://aka.ms/TelstraVoicePlan). <br/> |
-|É possível fazer chamadas de saída?  <br/> |Consulte [chamadas Telstra para o Office 365](https://aka.ms/TelstraVoicePlan). <br/> |
+|Os Planos de Chamadas estão disponíveis para compra?  <br/> |Sim, confira [chamadas Telstra](https://aka.ms/TelstraVoicePlan).  <br/> |
+|Minutos disponíveis para Planos de Chamadas  <br/> |Consulte [chamadas Telstra](https://aka.ms/TelstraVoicePlan). <br/> |
+|É possível fazer chamadas de saída?  <br/> |Consulte [chamadas Telstra](https://aka.ms/TelstraVoicePlan). <br/> |
 
 > [!IMPORTANT]
 > Para excluir números de assinantes australianos (fornecidos pela Telstra), entre em contato com a Telstra diretamente.
 > Para atualizar as informações de endereço de emergência dos números de assinantes Austrália (fornecidas pela Telstra), entre em contato com a Telstra diretamente.
-> Para obter mais informações, consulte [chamadas Telstra para o Office 365](https://aka.ms/TelstraVoicePlan).
+> Para obter mais informações, consulte [chamadas Telstra](https://aka.ms/TelstraVoicePlan).
 
 ### <a name="if-your-tenant-is-located-outside-australia"></a>Se o seu locatário estiver localizado fora da Austrália
 
@@ -76,9 +76,9 @@ A partir de 1 ° de setembro de 2019, se o seu locatário estiver localizado for
 |---------|---------|
 |Américas    |Estados Unidos, territórios insulares dos EUA      |
 |APAC     |Bangladesh, Butão, Brunei, Camboja, Hong Kong, Indonésia, Laos, Macau, Malásia, Maldivas, Myanmar, Nepal, Filipinas, Cingapura, Sri Lanka, Tailândia, Timor-Leste, Vietnã|
-|EMEA    |Ilhas Åland, Andorra, Áustria, Bélgica, Ilhas Bouvet, Bulgária, Croácia, Chipre, República Tcheca, Dinamarca, Estônia, Ilhas Faroés, Finlândia, França, Alemanha, Gibraltar, Grécia, Groenlândia, Guernsey, Hungria, Islândia, Irlanda, ilha de Man, Itália, Jan Mayen, Jersey, Letônia, Liechtenstein, Lituânia, Luxemburgo, Malta, Mônaco, Holanda, Noruega, Polônia, Portugal, Romênia, San Marino, Eslováquia, Eslovênia, Espanha, Svalbard, Suécia, Suíça, Reino Unido, cidade do Vaticano  |
+|EMEA    |Ilhas Aland, Andorra, Áustria, Bélgica, Ilhas Bouvet, Bulgária, Croácia, Chipre, República Tcheca, Dinamarca, Estônia, Ilhas Faroés, Finlândia, França, Alemanha, Gibraltar, Grécia, Groenlândia, Guernsey, Hungria, Islândia, Irlanda, ilha de Man, Itália, Jan Mayen, Jersey, Letônia, Liechtenstein, Lituânia, Luxemburgo, Malta, Mônaco, Holanda, Noruega, Polônia, Portugal, Romênia, Sueco, Eslováquia, Eslovênia, Espanha, Eslováquia, Reino Unido, Reino Unido, Reino Unido  |
 
-Observe que a chamada do Telstra para o Office 365 será exibida como um complemento somente para os usuários localizados na Austrália e os países e regiões listados acima, depois de provisionados pelo Telstra. Para os usuários em outras regiões, eles continuarão a anexar planos de chamadas da Microsoft ou roteamento direto, conforme aplicável. Para obter mais informações, consulte [chamadas Telstra para o Office 365](https://aka.ms/TelstraVoicePlan).
+Observe que Telstra chamada será exibida como um complemento somente para os usuários localizados na Austrália e os países e regiões listados acima, depois de provisionados pelo Telstra. Para os usuários em outras regiões, eles continuarão a anexar planos de chamadas da Microsoft ou roteamento direto, conforme aplicável. Para obter mais informações, consulte [chamadas Telstra](https://aka.ms/TelstraVoicePlan).
 
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Números de chamadas gratuitas e tarifadas para serviços
 
@@ -102,4 +102,4 @@ Para configurá-los, consulte [Configurar Créditos de Comunicação para a sua 
 
 [Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
 
-[Disponibilidade da Audioconferência e dos Planos de Chamadas por país e região](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+[Disponibilidade de Audioconferência e Planos de Chamadas por país e região](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

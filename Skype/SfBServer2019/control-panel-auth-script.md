@@ -12,22 +12,22 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
-description: Script de ajuda para configurar a autenticação do painel de controle do SFB 2019 com o Office 365 via protocolo OAuth..
-ms.openlocfilehash: ad6c41c70cc885ca8eee2a19e7dcc4173ef714c2
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+description: Script de ajuda para configurar a autenticação do painel de controle do SFB 2019 com o Microsoft 365 ou o Office 365 via protocolo OAuth.
+ms.openlocfilehash: 92c13da1146698d130439c1f76e3885b561bec1b
+ms.sourcegitcommit: 000515147632c6278bcda4505a1038014dda8e2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41887720"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44232592"
 ---
 # <a name="skype-for-business-server-2019-control-panel-authentication-script"></a>Script de autenticação do painel de controle do Skype for Business Server 2019
 
-Esse script deve ser executado após a instalação da atualização cumulativa 1 do Skype for Business Server 2019, como parte da configuração do novo painel de controle. Esse script criará um aplicativo Azure AD no Azure. Isso ajudará a conectar-se ao Office 365 usando o OAuth no novo painel de controle.
+Este script deve ser executado após a instalação da atualização cumulativa 1 do Skype for Business Server 2019, como parte da configuração do novo painel de controle. Este script criará um aplicativo do Azure AD no Azure. Isso ajudará a entrar no Microsoft 365 ou no Office 365 usando o OAuth no novo painel de controle.
 
 ```powershell
 <#
  .SYNOPSIS
- Helper script to configure SFB 2019 control panel authentication with Office 365 via OAuth protocol.
+ Helper script to configure SFB 2019 control panel authentication with Microsoft 365 or Office 365 via OAuth protocol.
 
  .DESCRIPTION
  Copyright (c) Microsoft Corporation. All rights reserved.
