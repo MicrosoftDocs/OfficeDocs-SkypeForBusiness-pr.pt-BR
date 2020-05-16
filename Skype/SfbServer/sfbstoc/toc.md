@@ -11,13 +11,13 @@
 
 ## [Soluções de telefonia da Microsoft](../../sfbhybrid/hybrid/msft-telephony-solutions.md)
 
-### [Plano Phone System com conectividade PSTN local](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity.md)
+### [Planejar Sistema de Telefonia com conectividade PSTN local por meio do Skype for Business Server](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity.md)
 
 ### [Habilitar usuários para o Sistema de Telefonia com conectividade PSTN local no Skype for Business Server](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-phone-system.md)
 
 #### [Habilitar usuários do Enterprise Voice local](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises.md)
 #### [Atribuir uma política de roteamento de voz](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/assign-a-voice-routing-policy.md)
-#### [Habilitar os usuários do Enterprise Voice online e do Sistema de Telefone na Caixa Postal do Office 365](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-enterprise-voice-online-and-phone-system-voicemail.md)
+#### [Habilitar os usuários do Enterprise Voice online e da Caixa Postal do Sistema de Telefone](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-enterprise-voice-online-and-phone-system-voicemail.md)
 
 
 ### [Skype for Business Cloud Connector Edition](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition.md)

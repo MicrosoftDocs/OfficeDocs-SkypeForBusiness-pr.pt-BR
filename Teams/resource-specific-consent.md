@@ -1,0 +1,100 @@
+---
+title: Consentimento específico do recurso no Microsoft Teams
+author: LanaChin
+ms.author: v-lanac
+ms.reviewer: nkramer
+manager: serdars
+ms.topic: article
+audience: admin
+ms.service: msteams
+search.appverid: MET150
+description: Saiba mais sobre as configurações que você precisa configurar para controlar se os proprietários de equipes em sua organização podem dar consentimento aos aplicativos.
+localization_priority: Normal
+ms.collection: M365-collaboration
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: 54a0565f5126c899ed5fbf9527aa30f83c3bee3b
+ms.sourcegitcommit: 296aeac481f901eb9d52b4f12a8c037afc49fa77
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44256564"
+---
+# <a name="resource-specific-consent-in-microsoft-teams"></a><span data-ttu-id="ff0d3-103">Consentimento específico do recurso no Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="ff0d3-103">Resource-specific consent in Microsoft Teams</span></span>
+
+[!INCLUDE [preview-feature](includes/preview-feature.md)]
+
+<span data-ttu-id="ff0d3-104">O consentimento específico do recurso no Microsoft Teams permite que os proprietários da equipe atribuam consentimento aos aplicativos para acessar dados da equipe.</span><span class="sxs-lookup"><span data-stu-id="ff0d3-104">Resource-specific consent in Microsoft Teams lets team owners give consent to apps to access team data.</span></span> <span data-ttu-id="ff0d3-105">Exemplos desse tipo de acesso incluem a capacidade de ler mensagens de canal, criar e excluir canais e criar e remover guias de canal.</span><span class="sxs-lookup"><span data-stu-id="ff0d3-105">Examples of such access include the ability to read channel messages, create and delete channels, and create and remove channel tabs.</span></span>
+
+<span data-ttu-id="ff0d3-106">Como administrador, você controla se os proprietários da equipe em sua organização podem dar consentimento por meio das configurações definidas usando o módulo do PowerShell do Azure Active Directory (Azure AD) ou o portal do Azure e o centro de administração do Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="ff0d3-106">As an admin, you control whether team owners in your organization can give consent through settings that you configure by using the Azure Active Directory (Azure AD) PowerShell module or the Azure portal and the Microsoft Teams admin center.</span></span>  
+
+## <a name="set-whether-team-owners-can-give-consent-to-apps"></a><span data-ttu-id="ff0d3-107">Definir se os proprietários da equipe podem dar consentimento aos aplicativos</span><span class="sxs-lookup"><span data-stu-id="ff0d3-107">Set whether team owners can give consent to apps</span></span>
+
+<span data-ttu-id="ff0d3-108">Aqui estão as configurações que você deve definir para controlar se os proprietários da equipe podem dar consentimento aos aplicativos.</span><span class="sxs-lookup"><span data-stu-id="ff0d3-108">Here are the settings that you must set to control whether team owners can give consent to apps.</span></span> <span data-ttu-id="ff0d3-109">Certifique-se de rever todas as configurações a seguir.</span><span class="sxs-lookup"><span data-stu-id="ff0d3-109">Be sure to review all the following settings.</span></span>
+
+### <a name="settings-in-azure-ad"></a><span data-ttu-id="ff0d3-110">Configurações no Azure AD</span><span class="sxs-lookup"><span data-stu-id="ff0d3-110">Settings in Azure AD</span></span>
+
+<span data-ttu-id="ff0d3-111">As duas configurações a seguir determinam se os proprietários da equipe podem dar consentimento aos aplicativos.</span><span class="sxs-lookup"><span data-stu-id="ff0d3-111">The following two settings determine whether team owners can give consent to apps.</span></span>
+
+> [!IMPORTANT]
+> <span data-ttu-id="ff0d3-112">Alterar qualquer uma dessas configurações não afeta o acesso a dados para aplicativos que já receberam consentimento.</span><span class="sxs-lookup"><span data-stu-id="ff0d3-112">Changing any of these settings doesn't affect data access for apps that were already granted consent.</span></span> <span data-ttu-id="ff0d3-113">Por exemplo, se você definir essas configurações para impedir que os proprietários da equipe tenham consentimento, essas alterações não removerão o acesso aos dados que já foram concedidos.</span><span class="sxs-lookup"><span data-stu-id="ff0d3-113">For example, if you configure these settings to prevent team owners from giving consent, these changes don't remove data access that's already been granted.</span></span>
+
+#### <a name="the-users-can-consent-to-apps-accessing-company-data-on-their-behalf-setting"></a><span data-ttu-id="ff0d3-114">A configuração "os usuários podem concordar com os aplicativos que acessam dados da empresa em nome"</span><span class="sxs-lookup"><span data-stu-id="ff0d3-114">The "Users can consent to apps accessing company data on their behalf" setting</span></span>
+
+<span data-ttu-id="ff0d3-115">Esta configuração controla se os usuários em sua organização podem concordar com os aplicativos em seu nome.</span><span class="sxs-lookup"><span data-stu-id="ff0d3-115">This setting controls whether users in your organization can consent to apps on their behalf.</span></span> <span data-ttu-id="ff0d3-116">Para permitir que os proprietários da equipe forneçam consentimento, essa configuração deve ser definida como **Sim**.</span><span class="sxs-lookup"><span data-stu-id="ff0d3-116">To enable team owners to give consent, this setting must be set to **Yes**.</span></span> <span data-ttu-id="ff0d3-117">Para gerenciar essa configuração, siga este procedimento:</span><span class="sxs-lookup"><span data-stu-id="ff0d3-117">To manage this setting, do the following:</span></span>
+
+1. <span data-ttu-id="ff0d3-118">No portal do Azure, acesse configurações de usuário de **aplicativos corporativos**  >  **User settings**.</span><span class="sxs-lookup"><span data-stu-id="ff0d3-118">In the Azure portal, go to **Enterprise applications** > **User settings**.</span></span>
+2. <span data-ttu-id="ff0d3-119">Em **aplicativos corporativos**, definir **usuários pode concordar com os aplicativos que acessam dados da empresa em nome** de **não** ou **Sim**.</span><span class="sxs-lookup"><span data-stu-id="ff0d3-119">Under **Enterprise applications**, set **Users can consent to apps accessing company data on their behalf** to **No** or **Yes**.</span></span>
+
+<span data-ttu-id="ff0d3-120">Você também pode gerenciar essa configuração usando o PowerShell.</span><span class="sxs-lookup"><span data-stu-id="ff0d3-120">You can also manage this setting using PowerShell.</span></span> <span data-ttu-id="ff0d3-121">Para saber mais, consulte [Configurar o conteúdo do usuário para aplicativos](https://docs.microsoft.com/azure/active-directory/manage-apps/configure-user-consent#configure-user-consent-to-applications).</span><span class="sxs-lookup"><span data-stu-id="ff0d3-121">To learn more, see [Configure user content to applications](https://docs.microsoft.com/azure/active-directory/manage-apps/configure-user-consent#configure-user-consent-to-applications).</span></span>
+
+#### <a name="the-enablegroupspecificconsent-setting"></a><span data-ttu-id="ff0d3-122">A configuração "EnableGroupSpecificConsent"</span><span class="sxs-lookup"><span data-stu-id="ff0d3-122">The "EnableGroupSpecificConsent" setting</span></span>
+
+<span data-ttu-id="ff0d3-123">Esta configuração controla se os usuários em sua organização podem concordar com os aplicativos que acessam dados da empresa para os grupos dos quais eles possuem.</span><span class="sxs-lookup"><span data-stu-id="ff0d3-123">This setting controls whether users in your organization can consent to apps accessing company data for the groups that they own.</span></span> <span data-ttu-id="ff0d3-124">Essa configuração deve ser habilitada para os proprietários de equipe concederem consentimento.</span><span class="sxs-lookup"><span data-stu-id="ff0d3-124">This setting must be enabled for team owners to give consent.</span></span> <span data-ttu-id="ff0d3-125">Para ver as etapas sobre como gerenciar essa configuração usando o PowerShell, consulte [Configurar consentimento de proprietário de grupo para aplicativos que acessam dados de grupo](https://docs.microsoft.com/azure/active-directory/manage-apps/configure-user-consent#configure-group-owner-consent-to-apps-accessing-group-data).</span><span class="sxs-lookup"><span data-stu-id="ff0d3-125">For steps on how to manage this setting by using PowerShell, see [Configure group owner consent to apps accessing group data](https://docs.microsoft.com/azure/active-directory/manage-apps/configure-user-consent#configure-group-owner-consent-to-apps-accessing-group-data).</span></span>
+
+### <a name="settings-in-the-microsoft-teams-admin-center"></a><span data-ttu-id="ff0d3-126">Configurações no centro de administração do Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="ff0d3-126">Settings in the Microsoft Teams admin center</span></span>
+
+<span data-ttu-id="ff0d3-127">Além das configurações nas configurações do Azure AD, do [aplicativo de toda a organização](manage-apps.md#manage-org-wide-app-settings) na página [gerenciar aplicativos](manage-apps.md) , se um aplicativo estiver bloqueado ou permitido na página [gerenciar aplicativos](manage-apps.md#allow-and-block-apps) , e a [política de permissão do aplicativo](teams-app-permission-policies.md) atribuída ao proprietário da equipe determinar se um proprietário da equipe pode conceder consentimento.</span><span class="sxs-lookup"><span data-stu-id="ff0d3-127">In addition to settings in Azure AD, [org-wide app settings](manage-apps.md#manage-org-wide-app-settings) on the [Manage apps](manage-apps.md) page, whether an app is blocked or allowed on the [Manage apps](manage-apps.md#allow-and-block-apps) page, and the [app permission policy](teams-app-permission-policies.md) assigned to the team owner determine whether a team owner can give consent.</span></span>
+
+> [!IMPORTANT]
+> <span data-ttu-id="ff0d3-128">Alterar qualquer uma dessas configurações não afeta o acesso a dados para aplicativos que já receberam consentimento.</span><span class="sxs-lookup"><span data-stu-id="ff0d3-128">Changing any of these settings doesn't affect data access for apps that were already granted consent.</span></span> <span data-ttu-id="ff0d3-129">Por exemplo, se você desabilitar aplicativos de terceiros para toda a organização ou se bloquear aplicativos específicos para impedir que os proprietários da equipe tenham consentimento, essas alterações não removerão o acesso aos dados que já foi concedido.</span><span class="sxs-lookup"><span data-stu-id="ff0d3-129">For example, if you disable third-party apps org-wide or if you block specific apps to prevent team owners from giving consent, these changes don't remove data access that's already been granted.</span></span>  
+
+#### <a name="the-allow-third-party-apps-setting-in-org-wide-app-settings"></a><span data-ttu-id="ff0d3-130">A configuração "permitir aplicativos de terceiros" nas configurações de aplicativo de toda a organização</span><span class="sxs-lookup"><span data-stu-id="ff0d3-130">The "Allow third party apps" setting in org-wide app settings</span></span>
+
+<span data-ttu-id="ff0d3-131">Esta configuração de aplicativo da organização controla se os usuários em sua organização podem usar aplicativos de terceiros.</span><span class="sxs-lookup"><span data-stu-id="ff0d3-131">This org-wide app setting controls whether users in your organization can use third-party apps.</span></span> <span data-ttu-id="ff0d3-132">Essa configuração deve ser ativada para permitir que os proprietários de equipe forneçam consentimento.</span><span class="sxs-lookup"><span data-stu-id="ff0d3-132">This setting must be on to enable team owners to give consent.</span></span> <span data-ttu-id="ff0d3-133">Para gerenciar essa configuração, siga este procedimento:</span><span class="sxs-lookup"><span data-stu-id="ff0d3-133">To manage this setting, do the following:</span></span>
+
+1. <span data-ttu-id="ff0d3-134">Na navegação à esquerda do centro de administração do Microsoft Teams, vá até **Team apps**  >  **gerenciar aplicativos**e clique em **configurações de aplicativo de toda a organização**.</span><span class="sxs-lookup"><span data-stu-id="ff0d3-134">In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**, and then click **Org-wide app settings**.</span></span>
+2. <span data-ttu-id="ff0d3-135">Em **aplicativos de terceiros**, desative ou ative **permitir aplicativos**de terceiros.</span><span class="sxs-lookup"><span data-stu-id="ff0d3-135">Under **Third party apps**, turn off or turn on **Allow third party apps**.</span></span>
+
+    ![Captura de tela da configuração "permitir aplicativos de terceiros na equipe"](media/resource-specific-consent-org-wide-setting.png)
+
+<span data-ttu-id="ff0d3-137">Talvez você precise aguardar até 24 horas para que as configurações entrem em vigor.</span><span class="sxs-lookup"><span data-stu-id="ff0d3-137">You may have to wait up to 24 hours for your changes to take effect.</span></span>
+
+#### <a name="allow-or-block-the-app-at-the-org-level"></a><span data-ttu-id="ff0d3-138">Permitir ou bloquear o aplicativo no nível da organização</span><span class="sxs-lookup"><span data-stu-id="ff0d3-138">Allow or block the app at the org level</span></span>
+
+<span data-ttu-id="ff0d3-139">Quando você bloqueia ou permite um aplicativo na página [gerenciar aplicativos](manage-apps.md#allow-and-block-apps) , esse aplicativo é bloqueado ou permitido para todos os usuários em sua organização.</span><span class="sxs-lookup"><span data-stu-id="ff0d3-139">When you block or allow an app on the [Manage apps](manage-apps.md#allow-and-block-apps) page, that app is blocked or allowed for all users in your organization.</span></span> <span data-ttu-id="ff0d3-140">Os proprietários da equipe só podem dar consentimento a um aplicativo se o aplicativo for permitido.</span><span class="sxs-lookup"><span data-stu-id="ff0d3-140">Team owners can only give consent to an app if the app is allowed.</span></span> <span data-ttu-id="ff0d3-141">Para permitir ou bloquear um aplicativo no nível da organização, faça o seguinte:</span><span class="sxs-lookup"><span data-stu-id="ff0d3-141">To allow or block an app at the org level, do the following:</span></span>
+
+1. <span data-ttu-id="ff0d3-142">Na navegação à esquerda do centro de administração do Microsoft Teams, vá até **Team apps**  >  **gerenciar aplicativos**.</span><span class="sxs-lookup"><span data-stu-id="ff0d3-142">In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**.</span></span>
+2. <span data-ttu-id="ff0d3-143">Na página Gerenciar aplicativos, selecione o aplicativo e, em seguida, clique em **Bloquear** para bloqueá-lo ou clique em **permitir** para permitir.</span><span class="sxs-lookup"><span data-stu-id="ff0d3-143">On the Manage apps page, select the app, and then click **Block** to block it or click **Allow** to allow it.</span></span>
+
+    ![Captura de tela dos aplicativos bloqueados nas configurações de toda a organização](media/resource-specific-consent-allow-block-apps.png)
+
+#### <a name="app-permission-policy-assigned-to-the-team-owner"></a><span data-ttu-id="ff0d3-145">Política de permissão do aplicativo atribuída ao proprietário da equipe</span><span class="sxs-lookup"><span data-stu-id="ff0d3-145">App permission policy assigned to the team owner</span></span>
+
+<span data-ttu-id="ff0d3-146">Os proprietários da equipe só podem dar consentimento aos aplicativos que a política de permissão do aplicativo permite que eles sejam executados.</span><span class="sxs-lookup"><span data-stu-id="ff0d3-146">Team owners can only give consent to apps that their app permission policy allows them to run.</span></span> <span data-ttu-id="ff0d3-147">Para exibir e gerenciar a política de permissão do aplicativo atribuída a um proprietário da equipe, faça o seguinte:</span><span class="sxs-lookup"><span data-stu-id="ff0d3-147">To view and manage the app permission policy that's assigned to a team owner, do the following:</span></span>
+
+1. <span data-ttu-id="ff0d3-148">Na navegação à esquerda do centro de administração do Microsoft Teams, vá para **usuários**.</span><span class="sxs-lookup"><span data-stu-id="ff0d3-148">In the left navigation of the Microsoft Teams admin center, go to **Users**.</span></span>
+2. <span data-ttu-id="ff0d3-149">Clique duas vezes no nome de exibição do proprietário da equipe e, em seguida, clique em **políticas**.</span><span class="sxs-lookup"><span data-stu-id="ff0d3-149">Double-click the display name of the team owner, and then click **Policies**.</span></span>
+3. <span data-ttu-id="ff0d3-150">A política atribuída ao proprietário da equipe está listada em **política de permissão do aplicativo**.</span><span class="sxs-lookup"><span data-stu-id="ff0d3-150">The policy assigned to the team owner is listed under **App permission policy**.</span></span>
+    - <span data-ttu-id="ff0d3-151">Para atribuir uma política diferente, clique em **Editar**e selecione a política que você deseja atribuir.</span><span class="sxs-lookup"><span data-stu-id="ff0d3-151">To assign a different policy, click **Edit**, and then select the policy that you want to assign.</span></span>
+    - <span data-ttu-id="ff0d3-152">Para editar as configurações da política atribuída ao proprietário da equipe, clique no nome da política e faça as alterações desejadas.</span><span class="sxs-lookup"><span data-stu-id="ff0d3-152">To edit the settings of the policy that's assigned to the team owner, click the policy name, and then make the changes that you want.</span></span>  
+
+## <a name="uploading-custom-apps"></a><span data-ttu-id="ff0d3-153">Carregando aplicativos personalizados</span><span class="sxs-lookup"><span data-stu-id="ff0d3-153">Uploading custom apps</span></span>
+
+<span data-ttu-id="ff0d3-154">Ao carregar um aplicativo personalizado (também um Sideload conhecido) que usa o consentimento específico do recurso, o aplicativo deve vir do locatário em que ele está sendo instalado.</span><span class="sxs-lookup"><span data-stu-id="ff0d3-154">When uploading a custom app (also known sideloading) that uses resource-specific consent, the app must come from the tenant that it's being installed to.</span></span> <span data-ttu-id="ff0d3-155">Em outras palavras, o registro do aplicativo Azure AD deve ser desse locatário.</span><span class="sxs-lookup"><span data-stu-id="ff0d3-155">In other words, the Azure AD app registration must be from this tenant.</span></span> <span data-ttu-id="ff0d3-156">Os administradores globais são isentos dessa restrição e podem carregar aplicativos personalizados de qualquer locatário, diretamente para uma equipe (Sideload) ou para o catálogo de aplicativos locatário.</span><span class="sxs-lookup"><span data-stu-id="ff0d3-156">Global admins are exempted from this restriction, and can upload custom apps from any tenant, either directly to a team (sideloading) or to the tenant app catalog.</span></span>
+
+## <a name="related-topics"></a><span data-ttu-id="ff0d3-157">Tópicos relacionados</span><span class="sxs-lookup"><span data-stu-id="ff0d3-157">Related topics</span></span>
+
+- [<span data-ttu-id="ff0d3-158">Microsoft Graph</span><span class="sxs-lookup"><span data-stu-id="ff0d3-158">Microsoft Graph</span></span>](https://developer.microsoft.com/graph)
+- [<span data-ttu-id="ff0d3-159">Gerenciar seus aplicativos no centro de administração do Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="ff0d3-159">Manage your apps in the Microsoft Teams admin center</span></span>](manage-apps.md)
+- [<span data-ttu-id="ff0d3-160">Gerenciar políticas de permissões de aplicativo no Teams</span><span class="sxs-lookup"><span data-stu-id="ff0d3-160">Manage app permission policies in Teams</span></span>](teams-app-permission-policies.md)
