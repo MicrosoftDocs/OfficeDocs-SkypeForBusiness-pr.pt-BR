@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Saiba como gerenciar as configurações de política de reunião no Teams e usá-las para controlar os recursos disponíveis para os participantes da reunião para reuniões agendadas pelos usuários.
-ms.openlocfilehash: 4a61d2563a63d2dc8d1b55bbf0bbc6c52230d900
-ms.sourcegitcommit: c3f44fccdbd9178d30b52bb0db6f6d31a6dd174b
+ms.openlocfilehash: a2c921da824bdbbcd6b0f6baf49887e55df08ca9
+ms.sourcegitcommit: 296aeac481f901eb9d52b4f12a8c037afc49fa77
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44139205"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44256496"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Gerenciar políticas de reunião no Teams
 
@@ -46,7 +46,7 @@ Você pode implementar políticas das seguintes maneiras, que afetam a experiên
 Por padrão, uma política chamada global (padrão para toda a organização) é criada. Por padrão, todos os usuários de sua organização recebem a política de reunião global. Você pode fazer alterações nele ou criar uma ou mais políticas personalizadas e atribuir usuários a elas. Os usuários receberão a política global, a menos que você crie e atribua uma política personalizada. Quando você cria uma política personalizada, pode permitir ou impedir que determinados recursos sejam disponibilizados para seus usuários e, em seguida, atribuí-los a um ou mais usuários que terão as configurações aplicadas a eles.
 
 > [!NOTE]
-> O botão detalhes da reunião estará disponível se um usuário tiver as licenças de conferência de áudio habilitadas ou o usuário for permitido para a conferência de áudio, caso contrário, os detalhes da reunião não estarão disponíveis
+> O botão detalhes da reunião estará disponível se um usuário tiver as licenças de conferência de áudio habilitadas ou o usuário for permitido para a conferência de áudio, caso contrário, os detalhes da reunião não estarão disponíveis.
 
 ## <a name="change-or-create-a-meeting-policy"></a>Alterar ou criar uma política de reunião
 
@@ -78,7 +78,7 @@ Para atribuir uma política a vários usuários de uma só vez, confira [Editar 
 
 Ou, você também pode fazer o seguinte:
 
-1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para**políticas de reunião**de **reuniões** > .
+1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para políticas de reunião de **reuniões**  >  **Meeting policies**.
 2. Escolha a política clicando à esquerda do nome da política.
 3. Escolha **Gerenciar usuários**.
 4. No painel **Gerenciar usuários**, procure o usuário pelo nome de exibição ou pelo nome de usuário, escolha o nome e marque **Adicionar**. Repita esta etapa para cada usuário que você deseja adicionar.
@@ -327,7 +327,7 @@ Essas configurações controlam quais participantes da reunião aguardam no lobb
 
 ### <a name="let-anonymous-people-start-a-meeting"></a>Permitir que as pessoas anônimas iniciem uma reunião
 
-Esta é uma política por organizador. Essa configuração controla se as pessoas anônimas, incluindo B2B e usuários federados, podem ingressar na reunião do usuário sem um usuário autenticado da organização em participação. 
+Esta é uma política por organizador. Essa configuração controla se as pessoas anônimas, incluindo B2B e usuários federados, podem ingressar na reunião do usuário sem um usuário autenticado da organização em participação. O valor padrão é False.
 
 ![Captura de tela mostrando uma mensagem para um usuário em espera](media/meeting-policies-anonymous-user-lobby.png)
 
@@ -365,11 +365,11 @@ Esta é uma política por organizador. Esta configuração controla se as pessoa
 |---------|---------|
 |**Todos**   |Todos os participantes da reunião ingressam na reunião diretamente sem esperar no lobby. Isso inclui usuários autenticados, usuários federados, convidados, usuários anônimos e pessoas que discam por telefone.       |
 |**Todos em sua organização e organizações federadas**     |Usuários autenticados dentro da organização, incluindo usuários convidados e os usuários de organizações federadas, ingressam na reunião diretamente sem esperar no lobby.  Usuários anônimos e usuários que discam por telefone aguarde no lobby.   |
-|**Todos em sua organização**    |Os usuários autenticados de dentro da organização, incluindo os usuários convidados, ingressam na reunião diretamente sem esperar no lobby.  Usuários federados, usuários anônimos e usuários que discam por telefone aguarde no lobby.           |
+|**Todos em sua organização**    |Os usuários autenticados de dentro da organização, incluindo os usuários convidados, ingressam na reunião diretamente sem esperar no lobby.  Usuários federados, usuários anônimos e usuários que discam por telefone aguarde no lobby. Esta é a configuração padrão.           |
 
 ### <a name="allow-dial-in-users-to-bypass-the-lobby"></a>Permitir que os usuários de discagem ignorem o lobby
 
-Esta é uma política por organizador. Esta configuração controla se as pessoas que discam por telefone entram diretamente na reunião ou esperam no lobby, independentemente da configuração de usuário **admitir pessoas automaticamente** .
+Esta é uma política por organizador. Esta configuração controla se as pessoas que discam por telefone entram diretamente na reunião ou esperam no lobby, independentemente da configuração de usuário **admitir pessoas automaticamente** . O valor padrão é False.
 
 Aqui está o comportamento da junção de pessoas que discam por telefone.
 
@@ -402,6 +402,16 @@ Esta é uma política por organizador. Esta configuração controla se o chat da
 
 <a name="bkparticipantsandguests"> </a>
 
+## <a name="meeting-policy-settings---meeting-attendance-report"></a>Configurações de política de reunião-relatório de presença de reunião
+
+Esta é uma política por usuário. Esta configuração controla se os organizadores da reunião podem baixar o [relatório de participação da reunião](teams-analytics-and-reports/meeting-attendance-report.md).
+
+No momento, você só pode usar o PowerShell para definir essa configuração de política. Você pode editar uma política de reunião do teams existente usando o cmdlet [set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) . Ou crie uma nova política de reunião do teams usando o cmdlet [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) e atribua-a a usuários.
+
+Para habilitar um organizador da reunião para baixar o relatório de presença de reunião, defina o parâmetro **AllowEngagementReport** como **habilitado**. Quando habilitada, a opção para baixar o relatório é exibida no painel **participantes** .
+
+Para impedir que um organizador da reunião Baixe o relatório, defina o parâmetro como **desabilitado**. Por padrão, essa configuração está desabilitada e a opção de baixar o relatório não está disponível.
+
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Políticas de mensagens no Teams](messaging-policies-in-teams.md)
+- [Visão Geral do PowerShell do Teams](teams-powershell-overview.md)

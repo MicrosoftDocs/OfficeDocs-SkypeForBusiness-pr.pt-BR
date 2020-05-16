@@ -18,12 +18,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 01f9ecbbce3146a2b5d36a70b485a2106f12ab6e
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: f1eb02b7755ecfaa78b3b5ad511f45052a7807b5
+ms.sourcegitcommit: 296aeac481f901eb9d52b4f12a8c037afc49fa77
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902346"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44256386"
 ---
 <a name="use-activity-reports-for-microsoft-teams"></a>Usar relatórios de atividades do Microsoft Teams 
 ========================================
@@ -101,7 +101,7 @@ Os relatórios de atividade podem ser acessados por usuários que estão atribu�
 
 ### <a name="reports-reader-role"></a>Função leitor de relatórios
 
-Você pode atribuir a função de *Leitor de Relatórios* a uma equipe que não seja de ti, que você deseja que tenha acesso a esses relatórios. Ao atribuir essa função aos gerentes de treinamento ou participantes de negócios, você pode garantir que eles tenham acesso às informações úteis para direcionar e controlar a adoção do Teams.
+Você pode atribuir a função de *Leitor de Relatórios* a uma equipe que não seja de ti, que você deseja que tenha acesso a esses relatórios. Ao atribuir essa função aos gerentes de treinamento ou participantes de negócios, você pode garantir que eles tenham acesso às informações úteis para direcionar e controlar a adoção do Teams. Para saber como atribuir funções, leia [atribuir funções de administrador e de administrador aos usuários com o Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal).
 
 ## <a name="other-information-on-the-reports-dashboard"></a>Outras informações sobre o painel Relatórios
 

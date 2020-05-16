@@ -18,12 +18,12 @@ description: Neste artigo, você aprenderá sobre os fatores a serem considerado
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 51c81bb5c9ec945d7a7c47021a6a0af705c98883
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: e997b667b02ef2c3b68e5c751b619098e9e740e4
+ms.sourcegitcommit: a7c823f61d9ab88424bad924113d780ce11e509f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042848"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44224234"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planejar eventos ao vivo no Microsoft Teams
 
@@ -35,14 +35,16 @@ Todos podem participar de um evento ao vivo sem uma licença. Leia [Início ráp
 
 Os pré-requisitos a seguir são necessários para o usuário agendar um evento ao vivo do Teams.
 
-Estas são as licenças que devem ser atribuídas:  
+Estas são as licenças que devem ser atribuídas para produzir ou apresentar um evento ao vivo no Teamse:  
 
-- Uma licença do Office 365 Enterprise E1, E3 ou E5 ou uma licença do Office 365 A3 ou A5
-- Uma licença do Microsoft Teams
-- Uma licença do Microsoft Stream
+- Uma licença do Microsoft ou Office 365 Enterprise E1, E3 ou E5 ou uma licença do Office 365 para Educação A3 ou A5.
+- Uma licença do Microsoft Teams. -isso está incluído nas licenças acima. 
+- Uma licença do Microsoft Stream-será necessária se você estiver planejando compartilhar o conteúdo para um aplicativo ou dispositivo externo; Confira [licenciamento do Microsoft Stream](https://docs.microsoft.com/stream/license-overview). 
 
-> [!IMPORTANT]
-> O usuário que cria e agenda um evento ao vivo deve ter uma caixa de correio do Exchange Online.
+  Os usuários não precisarão de uma licença do Microsoft Stream atribuída se você quiser que somente registrem e baixem as gravações. Isso significará que as gravações não são armazenadas no Microsoft Stream, mas, em vez disso, são armazenadas no AMS (Azure Media Services) com um limite de 30 dias antes de serem excluídas. Não é algo neste ponto que um administrador pode controlar ou gerenciar o, incluindo a capacidade de excluí-lo.
+
+> [!NOTE]
+> Neste momento, não há nenhum plano do Microsoft 365 Small Business, que possa ser usado para criar e realizar eventos ao vivo no Teams.
 
 É importante saber que uma licença do Office 365 é necessária para participar de um evento ao vivo como um usuário autenticado, mas esse requisito depende do método de produção utilizado:
 
@@ -81,6 +83,14 @@ O usuário deverá ter:
 ## <a name="teams-live-events-and-skype-meeting-broadcast"></a>Eventos ao vivo do Teams e Transmissão de Reunião do Skype
 
 A tabela a seguir destaca os principais recursos oferecidos em eventos ao vivo e como eles diferem da Transmissão de Reunião do Skype.
+
+> [!IMPORTANT]
+> **O limite de eventos ao vivo do Microsoft 365 cresce**
+> 
+> Para ajudar os clientes a atender às necessidades de comunicação que mudam rapidamente, os eventos ao vivo do Microsoft 365 aumentarão temporariamente os limites padrão até 1º de julho de 2020, para eventos ao vivo hospedados no Teams. Os seguintes aumentos foram lançados no final de abril de 2020:
+> - Limite de participantes: os eventos podem dar suporte a no máximo 20.000 participantes
+> - Eventos simultâneos: 50 eventos podem ser hospedados simultaneamente em um locatário
+> - Duração do evento: a duração do evento aumentou para 16 horas por transmissão
 
 |**Funcionalidade**   |**Transmissão de Reunião do Skype** |**Eventos produzidos no Teams** |**Eventos produzidos em dispositivos ou aplicativos externos** |
 |---------|---------|---------|---------|
@@ -123,17 +133,29 @@ Você pode usar os eventos ao vivo do Teams em várias regiões do mundo inteiro
 
 **Disponível nestes data centers regionais**
 
-- Américas
+- América do Norte
+- América Central
+- América do Sul
 - Pacífico Asiático
 - Europa/África
 
-**Local dos dados para estes países**
-
+**Local de dados para esses países/regiões (com suporte)**
 - Austrália
 - Canadá
 - Índia
 - Japão
 - Reino Unido
+
+**Não há suporte para esses países/regiões e nuvens**
+- Alemanha
+- França
+- Noruega
+- África do Sul
+- Coreia do Sul
+- Suíça
+- EMIRADOS
+- Nuvem Comunitária do Governo (GCC)-H
+- Departamento de Defesa
 
 **Exclusões e considerações**
 

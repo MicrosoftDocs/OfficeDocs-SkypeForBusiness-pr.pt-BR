@@ -19,12 +19,12 @@ localization_priority: Normal
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0ed1e7d4f90fa1be96ac48f376c3cb1b939a39c4
-ms.sourcegitcommit: 3325fd9de57367e9dd60685d1fef096921441a76
+ms.openlocfilehash: f19cbbba6df7c43c69af35893466344e8df1d17d
+ms.sourcegitcommit: 296aeac481f901eb9d52b4f12a8c037afc49fa77
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "43997182"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44256476"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Permissões e considerações dos aplicativos Microsoft Teams
 
@@ -57,13 +57,17 @@ Nenhum
 
 ### <a name="considerations"></a>Considerações
 
-Um aplicativo deve divulgar quais dados ele usa e o que os dados são usados nos termos de uso e nos links da política de privacidade.</td>
+- Um aplicativo deve divulgar quais dados ele usa e o que os dados são usados nos termos de uso e nos links da política de privacidade.
+
+- O [consentimento específico do recurso](resource-specific-consent.md) fornece um conjunto de permissões que os aplicativos podem solicitar, que aparecem na tela de instalação do aplicativo. Para saber mais sobre permissões de consentimento específicas do recurso, consulte [referência de permissões de gráfico](https://docs.microsoft.com/graph/permissions-reference).
+
+- Os aplicativos também podem precisar de permissões diferentes de permissões de consentimento específicas do recurso. Após a instalação de um aplicativo, o aplicativo pode solicitar permissões de gráfico por meio de um prompt de consentimento. Para saber mais, consulte [noções básicas sobre experiências de consentimento de aplicativos do Azure ad](https://docs.microsoft.com/azure/active-directory/develop/application-consent-experience). Você pode configurar permissões de API e consentimento no portal do Azure. Para saber mais, consulte [estrutura de consentimento do Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/consent-framework).
 
 ## <a name="bots-and-messaging-extensions"></a>Bots e extensões de mensagens
 
 ### <a name="required-permissions"></a>Permissões necessárias
 
-- RECEIVE_MESSAGE, REPLYTO_MESSAGE. O bot pode receber mensagens de usuários e responder a elas.<sup>1</sup>
+- RECEIVE_MESSAGE REPLYTO_MESSAGE. O bot pode receber mensagens de usuários e respondê-las. <sup>1</sup>
 
 - POST_MESSAGE_USER. Depois que um usuário envia uma mensagem para um bot, o bot pode enviar mensagens diretas ao usuário (também chamadas de *mensagens proativas* a qualquer momento.
 
@@ -95,13 +99,13 @@ Um aplicativo deve divulgar quais dados ele usa e o que os dados são usados nos
 
 - Teoricamente, é possível que as mensagens de bot contenham links para sites de phishing ou de malware, mas os bots podem ser bloqueados pelo usuário, pelo administrador de locatários ou globalmente pela Microsoft.
 
-- Um bot pode recuperar (e pode armazenar) informações de identidade muito básicas para os membros da equipe para os quais o aplicativo foi adicionado ou para usuários individuais em chats pessoais ou em grupo. Para obter mais informações sobre esses usuários, o bot deve exigir que eles entrem no Azure Active Directory (Azure AD)
+- Um bot pode recuperar (e pode armazenar) informações de identidade muito básicas para os membros da equipe para os quais o aplicativo foi adicionado ou para usuários individuais em chats pessoais ou em grupo. Para obter mais informações sobre esses usuários, o bot deve exigir que eles entrem no Azure Active Directory (Azure AD).
 
 - Os bots podem recuperar (e podem armazenar) a lista de canais em uma equipe; esses dados saem da rede corporativa.
 
 - Quando um arquivo é enviado a um bot, o arquivo sai da rede corporativa. O envio e recebimento de arquivos requer a aprovação do usuário para cada arquivo. 
 
-- Por padrão, os bots não têm a capacidade de agir em nome do usuário, mas os bots podem solicitar que os usuários entrem; assim que o usuário entrar, o bot terá um token de acesso com o qual poderá fazer outras coisas. Exatamente o que essas coisas adicionais dependem do bot e do local em que o usuário entra: um bot é um aplicativo do Azure AD https://apps.dev.microsoft.com/ registrado em e pode ter seu próprio conjunto de permissões.
+- Por padrão, os bots não têm a capacidade de agir em nome do usuário, mas os bots podem solicitar que os usuários entrem; assim que o usuário entrar, o bot terá um token de acesso com o qual poderá fazer outras coisas. Exatamente o que essas coisas adicionais dependem do bot e do local em que o usuário entra: um bot é um aplicativo do Azure AD registrado em https://apps.dev.microsoft.com/ e pode ter seu próprio conjunto de permissões.
 
 - Os bots são informados sempre que os usuários são adicionados ou excluídos de uma equipe.
 

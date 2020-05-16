@@ -34,7 +34,8 @@
 ## [Atribuir proprietários e membros da equipe no Teams](assign-roles-permissions.md)
 ## [Visão geral da associação dinâmica de equipes](dynamic-memberships.md)
 ## [Práticas recomendadas para organizar equipes no Teams](best-practices-organizing.md)
-## [Criar uma equipe englobando toda a organização no Teams](create-an-org-wide-team.md)
+## [Gerenciar grandes Equipes](best-practices-large-groups.md)
+## [Crie uma equipe englobando toda a organização no Teams](create-an-org-wide-team.md)
 ## [Criar equipes de gerentes de pessoas](create-manager-directs-teams.md)
 ## [Gerenciar equipes e políticas de canais](teams-policies.md)
 ## [Rótulos de confidencialidade para o Teams](sensitivity-labels.md)
@@ -690,7 +691,7 @@
 #### [Usar o Power BI para analisar dados do CQD](CQD-Power-BI-query-templates.md)
 #### [Instalar o Conector do Power BI para usar modelos de consulta do CQD](CQD-Power-BI-connector.md)
 #### [Obter dados do CQD sobre a utilização do Teams](CQD-teams-utilization-report.md)
-#### [Usando o relatório CQD PSTN](CQD-PSTN-report.md)
+#### [Usando o relatório de Roteamento Direto CQD PSTN](CQD-PSTN-report.md)
 ### [Dimensões e medidas disponíveis no Painel de Qualidade de Chamadas](dimensions-and-measures-available-in-call-quality-dashboard.md)
 ### [Classificação de fluxo no painel de qualidade da chamada](stream-classification-in-call-quality-dashboard.md)
 ## [Solucionar problemas de instalação e atualização](troubleshoot-installation.md)
@@ -775,6 +776,7 @@
 ## [Receba ajuda no Teams](get-help-in-microsoft-teams.md)
 ## [Atualizações de conteúdo do Teams](teams-updates.md)
 
+## [Como pesquisar o PIN de suporte](support-pin.md)
 
 ## Disponibilidade de Audioconferência e Planos de Chamadas por país e região
 ### [Visão geral](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

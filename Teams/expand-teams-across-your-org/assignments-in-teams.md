@@ -21,12 +21,12 @@ description: Saiba como gerenciar atribuições no centro de administração do 
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad9e3f8b0f2f3800c7394a9d4dc21fe7a2058426
-ms.sourcegitcommit: c16451519e05b47bbb77e09dacd13ff212617e91
+ms.openlocfilehash: 78ce963b8d675aa6d5c851c1081472559d24c3a3
+ms.sourcegitcommit: 296aeac481f901eb9d52b4f12a8c037afc49fa77
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "42327993"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44256446"
 ---
 # <a name="assignments-in-teams-for-education"></a>Tarefas do Teams for Education
 
@@ -47,13 +47,15 @@ Essa configuração está desativada por padrão.
 
 <a name="bkmakecode"> </a>
 ### <a name="makecode"></a>MakeCode
-O MakeCode é uma plataforma de codificação baseada em blocos que dá vida a toda a sua ciência ao computador para todos os alunos. 
+O Microsoft MakeCode é uma plataforma de codificação baseada em blocos que leva a ciências da computação à vida para todos os alunos. 
 
-Este é um produto ou serviço de terceiros sujeito aos seus próprios termos e políticas de privacidade. Você é responsável pelo uso de produtos e serviços de terceiros.
+O MakeCode é um produto da Microsoft que está sujeito aos [termos de uso e às políticas de](https://go.microsoft.com/fwlink/?LinkID=206977) [privacidade](https://go.microsoft.com/fwlink/?LinkId=521839) da Microsoft.
 
-Essa configuração está desativada por padrão.
+Essa configuração está desativada por padrão. Para habilitar as tarefas do MakeCode no Teams, no **centro de administração do teams**, navegue até a seção **tarefas** e ative a opção de alternância de **MakeCode.** Clique em **salvar** e aguarde até 24 horas para que as configurações entrem em vigor.
 
-[Saiba mais sobre o MakeCode](https://www.microsoft.com/makecode)
+Para obter mais informações sobre como esse recurso funciona, consulte esta [demonstração em vídeo](https://makecode.com/blog/teams/teams-assignments).
+
+[Saiba mais sobre o MakeCode](https://aka.ms/makecode)
 
 <a name="#turnitin"> </a>
 ### <a name="turnitin"></a>Turnitin
@@ -75,7 +77,7 @@ Exemplo. `https://your-tenant-name.turnitin.com`
 O console de administração é onde você pode criar uma integração e uma chave de API associada à integração.
 
 Selecione **integrações** no menu do lado e, em seguida, selecione **Adicionar integração** e dê um nome à integração.
-![Captura de tela mostrando a adição de uma nova integração](./educationImages/Assignments_mopo_turnitin2.png)
+![Captura de tela mostrando como adicionar uma nova integração](./educationImages/Assignments_mopo_turnitin2.png)
 
 O TurnitinApiKey será atribuído a você depois de seguir as instruções. Copie a chave da API e cole-a no centro de administração do Microsoft Teams.  Esta é a única vez que você pode ver a chave.
 ![Captura de tela mostrando a cópia da chave de API](./educationImages/Assignments_mopo_turnitin3.png)
