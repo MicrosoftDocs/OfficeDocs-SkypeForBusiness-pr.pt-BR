@@ -20,12 +20,12 @@ search.appverid: MET150
 description: Saiba mais sobre o recurso de voz em nuvem e entenda as decisões de implantação necessárias que você vai enfrentar.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 20a46a82c336396ccb71587db71515b699a9056e
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 952eb7064844cf0e77e829cd2506c4303504074c
+ms.sourcegitcommit: 3ed779277540589eabef745685ab6c67d8a8ff90
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905903"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "44281666"
 ---
 # <a name="cloud-voice-in-microsoft-teams"></a>Voz na nuvem no Microsoft Teams
 
@@ -60,7 +60,7 @@ Estas são as configurações que a maioria das organizações deseja alterar (s
 O sistema de telefonia é a tecnologia da Microsoft para habilitar os recursos de controle de chamada e PBX (Private Branch Exchange) na nuvem do Office 365. O sistema telefônico permite substituir seu sistema de PBX (Exchange Branch Exchange) existente por um conjunto de recursos entregues diretamente do Office 365 e totalmente integrado à experiência de produtividade na nuvem da empresa.
 
 
-|Pergunte-se|Ação |
+|Pergunte a si mesmo|Ação |
 |:------------|:-------|
 |Em quais locais e escritórios do usuário devo implementar o sistema telefônico? |Para obter mais informações sobre o sistema telefônico, consulte [o que é o sistema telefônico no Office 365](what-is-phone-system-in-office-365.md).</li></ul>|
 |||
@@ -70,7 +70,7 @@ O sistema de telefonia é a tecnologia da Microsoft para habilitar os recursos d
 Para conectar o sistema telefônico à rede telefônica pública comutada (PSTN) para que os usuários possam fazer chamadas telefônicas pelo mundo, você tem opções com base na necessidade dos seus negócios.  Pergunte-se o seguinte:
 
 
-|Pergunte-se|Ação |
+|Pergunte a si mesmo|Ação |
 | :------------|:-------|
 | Desejo usar o plano de chamadas da Microsoft como minha operadora de telefonia? | Para obter mais informações, consulte [sistema telefônico com planos de chamada](calling-plan-landing-page.md).|
 | Preciso usar minha própria operadora de telefonia? | Para obter mais informações, consulte [sistema telefônico com roteamento direto](direct-routing-landing-page.md).
@@ -92,7 +92,7 @@ Talvez você queira alterar as configurações para o seguinte, com base nas nec
 
 O correio de voz na nuvem, da plataforma de correio de voz do Azure, oferece suporte a depósitos de correio de voz para trocar caixas de correio somente e não é compatível com sistemas de email O correio de voz na nuvem inclui a transcrição de correio de voz, que é habilitada para todos os usuários da sua organização por padrão. Suas necessidades comerciais podem exigir que você desabilite a transcrição de correio de voz para usuários específicos ou todos em toda a organização.
 
-|Pergunte-se|Ação |
+|Pergunte a si mesmo|Ação |
 |:------------|:-------|
 | Desejo habilitar o correio de voz na nuvem? | Para procedimentos de configuração de correio de voz, consulte [Configurar correio de voz na nuvem](set-up-phone-system-voicemail.md).
 | Desejo habilitar a transcrição de correio de voz para alguns ou todos os meus usuários? | Para desativar a transcrição de correio de voz, consulte [definindo políticas de correio de voz em sua organização](set-up-phone-system-voicemail.md#setting-voicemail-policies-in-your-organization).</li></ul>|
@@ -102,7 +102,7 @@ O correio de voz na nuvem, da plataforma de correio de voz do Azure, oferece sup
 
 Por padrão, todas as chamadas de saída usam o número de telefone atribuído como identidade de chamada (identificação de chamadas). O destinatário da chamada pode identificar o autor da chamada rapidamente e decidir se deseja aceitar ou rejeitar a chamada.
 
-|Pergunte-se|Ação |
+|Pergunte a si mesmo|Ação |
 |:------------|:-------|
 |Desejo mascarar ou desabilitar o recurso de identificação de chamadas? | Para alterar ou bloquear a identificação de chamadas, consulte [definir a identificação de chamadas para um usuário](set-the-caller-id-for-a-user.md). |
 |||
@@ -111,7 +111,7 @@ Por padrão, todas as chamadas de saída usam o número de telefone atribuído c
 
 A Microsoft tem dois tipos de números de telefone disponíveis: números de *assinante* (usuário), que podem ser atribuídos a usuários em sua organização e números de *serviço* , disponíveis como chamada de serviço de chamada tarifada e gratuita, que têm uma capacidade de chamada simultânea maior do que os números de assinantes e podem ser atribuídos a serviços como videoconferências, atendedores automáticos ou filas de chamadas.
 
-|Pergunte-se|Ação |
+|Pergunte a si mesmo|Ação |
 | :------------|:-------|
 | Quais locais de usuário precisam de novos números de telefone da Microsoft? | Para obter informações sobre como obter números de telefone, consulte [gerenciar números de telefone para sua organização](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) e [obter números de telefone para seus usuários](getting-phone-numbers-for-your-users.md). 
 | Que tipo de número de telefone (assinante ou serviço) eu preciso? | Para ajudá-lo a escolher o tipo de número de telefone necessário, consulte [diferentes tipos de números de telefone usados para planos de chamadas](different-kinds-of-phone-numbers-used-for-calling-plans.md).
@@ -135,7 +135,7 @@ Quais usuários exigem um plano de discagem personalizado e qual plano de discag
 As filas de chamadas na nuvem incluem Saudações que são usadas quando alguém liga para um número de telefone para sua organização, a capacidade de colocar automaticamente as chamadas em espera e a capacidade de Pesquisar o próximo agente de chamada disponível para manipular a chamada, enquanto as pessoas que ligam estão ouvindo música em espera. Você pode criar uma ou várias filas de chamadas para sua organização. 
 
 
-|Pergunte-se|Ação |
+|Pergunte a si mesmo|Ação |
 |:------------|:-------|
 | Minha organização precisa de filas de chamadas? | Para obter mais informações, consulte [criar uma fila de chamadas em nuvem](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json) e [Configurar o sistema telefônico](setting-up-your-phone-system.md). |
 
@@ -143,7 +143,7 @@ As filas de chamadas na nuvem incluem Saudações que são usadas quando alguém
 
 Os atendedores automáticos na nuvem podem ser usados para criar um sistema de menus para a sua organização que permite que chamadores externos e externos se movimentem por meio de um sistema de menus para localizar e fazer ou transferir chamadas para usuários ou departamentos da empresa em sua organização.
 
-|Pergunte-se|Ação |
+|Pergunte a si mesmo|Ação |
 |:------------|:-------|
 | Minha organização precisa de atendedores automáticos? | Para obter mais informações, consulte [o que são atendedores automáticos da nuvem](what-are-phone-system-auto-attendants.md) e [Configure um atendedor automático na nuvem](create-a-phone-system-auto-attendant.md). |
 
@@ -151,7 +151,7 @@ Os atendedores automáticos na nuvem podem ser usados para criar um sistema de m
 
 Para obter mais informações sobre os dispositivos compatíveis, consulte o seguinte:
 
-- [Gerenciar seus dispositivos no Microsoft Teams](device-management.md)
+- [Gerenciar seus dispositivos no Microsoft Teams](devices/device-management.md)
 - [Telefones IP](https://docs.microsoft.com/skypeforbusiness/certification/devices-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 - [Dispositivos de áudio e vídeo USB](https://docs.microsoft.com/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 - [Comunicações inteligentes para dispositivos](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1)
