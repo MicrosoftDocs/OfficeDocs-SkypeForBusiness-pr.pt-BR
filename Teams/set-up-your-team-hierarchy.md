@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2bb8133733f7230715753ecea0118fc635af446b
-ms.sourcegitcommit: 6e24ea8aa9cccf8a1a964c8ed414ef5c7de3dc17
+ms.openlocfilehash: 26e4ee05b9f94fa0883aef5bbe98b691c9e0c46d
+ms.sourcegitcommit: 5a88788bd0a0b2ccbc5b977b38dcfe4681cd5d10
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44158998"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "44278164"
 ---
 # <a name="set-up-your-team-targeting-hierarchy"></a>Configurar sua hierarquia de direcionamento de equipe
 
@@ -57,7 +57,7 @@ O arquivo CSV deve conter as três colunas a seguir, na seguinte ordem, começan
 ----------------|----------|---------------|
 | TargetName    | Sim      | Este é o nome do nó. O nome pode ter até 100 caracteres de comprimento e conter apenas os caracteres A-Z, a-z e 0-9. Os nomes de nó devem ser exclusivos. |
 | ParentName    | Sim       | Este é o nome do nó pai. O valor que você especifica aqui deve coincidir com o valor no campo TargetName do nó pai exatamente. Se você quiser adicionar mais de um nó pai, separe cada nome de nó pai com um ponto-e-vírgula (;). Você pode adicionar até 25 nós pai, e cada nome de nó pai pode ter até 2500 caracteres de comprimento. Um nó pode ter vários nós pai apenas se os nós pai são nós raiz.   <br><br>**Importante** Tenha cuidado para não criar um loop em que um pai mais alto na hierarquia faça referência a um nó filho inferior na hierarquia. Não há suporte para isso. |
-| TeamID        | Sim, se a equipe publicar tarefas ou receber tarefas de um nó pai       | Isso contém a ID da equipe à qual você deseja vincular um nó. Um nó deve ser vinculado a uma equipe se estiver na parte inferior da sua hierarquia, se você quiser que os usuários possam publicar desse nó ou se quiser que os usuários possam ver relatórios para esse nó e seus descendentes. Por exemplo, se o seu gerente da região oeste do Office quiser ver o relatório de conclusão de tarefas para os nós que pertencem a essa região.<br><br>Se quiser adicionar um nó somente para fins de agrupamento de outros nós na hierarquia, você não precisará vincular esse nó a uma equipe e deixar este campo em branco. Você pode vincular cada nó a apenas uma equipe.<br>Para obter a ID de uma equipe à qual você deseja vincular um nó, execute o seguinte comando do PowerShell `Get-Team | Export-Csv TeamList.csv`:. Isso lista as equipes em sua organização e inclui o nome e a ID de cada equipe. Localize o nome da equipe à qual você deseja se vincular e copie a ID nesse campo.|
+| TeamID        | Sim, se a equipe publicar tarefas ou receber tarefas de um nó pai       | Isso contém a ID da equipe à qual você deseja vincular um nó. Um nó deve ser vinculado a uma equipe se estiver na parte inferior da sua hierarquia, se você quiser que os usuários possam publicar desse nó ou se quiser que os usuários possam ver relatórios para esse nó e seus descendentes. Por exemplo, se o seu gerente da região oeste do Office quiser ver o relatório de conclusão de tarefas para os nós que pertencem a essa região.<br><br>Se quiser adicionar um nó somente para fins de agrupamento de outros nós na hierarquia, você não precisará vincular esse nó a uma equipe e deixar este campo em branco. Você pode vincular cada nó a apenas uma equipe.<br>Para obter a ID de uma equipe à qual você deseja vincular um nó, execute o seguinte comando do PowerShell: `Get-Team | Export-Csv TeamList.csv` . Isso lista as equipes em sua organização e inclui o nome e a ID de cada equipe. Localize o nome da equipe à qual você deseja se vincular e copie a ID nesse campo.|
 
 ### <a name="add-attribute-columns"></a>Adicionar colunas de atributo
 
@@ -90,11 +90,11 @@ Ao adicionar uma coluna de Bucket, observe o seguinte:
 
 Aqui está um exemplo de um arquivo CSV de esquema que seria criado para dar suporte à hierarquia mostrada na imagem acima. Este esquema contém o seguinte:
 
-- Três colunas obrigatórias `TargetName`nomeadas, `ParentName`e`TeamID`
-- Três colunas de atributo `Store layout`chamadas `Departments:Clothing`, e`Departments:Foods`
-- Três colunas de Bucket `Fresh Foods`chamadas `Frozen Foods`, e`Womenswear`
+- Três colunas obrigatórias nomeadas `TargetName` , `ParentName` e`TeamId`
+- Três colunas de atributo chamadas `Store layout` , `Departments:Clothing` e`Departments:Foods`
+- Três colunas de Bucket chamadas `Fresh Foods` , `Frozen Foods` e`Womenswear`
 
-O `Store layout` atributo tem valores que incluem `Compact`, `Standard`e `Large`. As `Departments` colunas de atributo podem ser definidas com um valor `0` de (zero) `1`ou. O `Store` layout e `Departments` os atributos não são mostrados na imagem acima. Elas são adicionadas aqui para ajudar a mostrar como os atributos podem ser adicionados às entradas de nó. O mesmo se aplica às colunas de três buckets.
+O `Store layout` atributo tem valores que incluem `Compact` , `Standard` e `Large` . As `Departments` colunas de atributo podem ser definidas com um valor de `0` (zero) ou `1` . O `Store` layout e os `Departments` atributos não são mostrados na imagem acima. Elas são adicionadas aqui para ajudar a mostrar como os atributos podem ser adicionados às entradas de nó. O mesmo se aplica às colunas de três buckets.
 
 
 | TargetName             | ParentName                      | TeamID                       | Layout da loja|Departamentos: roupas|Departamentos: alimentos|#Fresh alimentos|#Frozen alimentos|#Womenswear|

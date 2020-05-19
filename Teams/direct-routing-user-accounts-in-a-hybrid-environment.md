@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Saiba mais sobre diferentes combinações de criação de usuários e quais combinações têm suporte ou não são suportadas.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: a235b5c27919c0015849140a3e772f4a189a17d8
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 635ab29498ee01c976b33dc62a193bb723ba190e
+ms.sourcegitcommit: ebdad71a8d393466e33a2fdc8606d882a6007588
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779990"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "44280250"
 ---
 # <a name="user-accounts-in-a-hybrid-environment-with-pstn-connectivity"></a>Contas de usuário em um ambiente híbrido com conectividade PSTN
 
@@ -65,7 +65,7 @@ Um ambiente híbrido do Skype for Business com conectividade PSTN fornece flexib
 |**Combinações sem suporte**    | |         |         |      |
 |Azure AD| Local/online | Skype for Business/Microsoft Teams|Conectividade de voz do Enterprise Voice/Hybrid/roteamento direto  |Não, o objeto do usuário deve ser criado primeiro no AD local |
 |No anúncio local  |No local| Microsoft Teams| Conectividade de voz do Enterprise Voice/Hybrid/roteamento direto   |Não, o cliente do Microsoft Teams não é compatível com o Skype for Business local |     
-|No anúncio local  |Online |Skype for Business  | Roteamento Direto  |Não, o roteamento direto não é compatível com o cliente Skype for Business, e o usuário deve ser habilitado para o Enterprise Voice no Skype for Business primeiro.  |
+|No anúncio local  |Online |Skype for Business  | Roteamento Direto  |Não, o roteamento direto não é compatível com o cliente Skype for Business  |
 
 
 ### <a name="supportability-statement-for-the-hybrid-environment-with-pstn"></a>Instrução de suporte para o ambiente híbrido com PSTN

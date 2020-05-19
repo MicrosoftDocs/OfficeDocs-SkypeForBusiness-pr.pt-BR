@@ -16,12 +16,12 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0c341b808890ecc1d3b237ae70190aad9d1de8ea
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 9c3d5f4eb0cd63dd252d5fcc01bff21f8643a788
+ms.sourcegitcommit: ebdad71a8d393466e33a2fdc8606d882a6007588
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836541"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "44280270"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>Planejar o Roteamento baseado na localização para o Roteamento direto
 
@@ -133,7 +133,7 @@ A transferência de chamadas requer que o usuário inicial atenda a chamada enqu
 
 #### <a name="user-not-enabled-for-location-based-routing"></a>O usuário não está habilitado para roteamento baseado em local
 
-Um usuário que não está habilitado para roteamento baseado em localização pode transferir ou encaminhar chamadas PSTN para outros usuários que não estão habilitados para roteamento baseado em local. Geralmente, o usuário não pode transferir ou encaminhar uma chamada PSTN para um usuário habilitado para roteamento baseado em local porque os usuários habilitados para roteamento baseado em localização, em geral, só podem ser colocados em conjunto em gateways habilitados para roteamento baseado em localização para PSTN chamam. A exceção é quando um usuário habilitado para roteamento baseado em local faz roaming para um site que não está habilitado para roteamento baseado em local. Nesse cenário, a chamada transferida é permitida.  
+Um usuário que não está habilitado para roteamento baseado em localização pode transferir ou encaminhar chamadas PSTN para outros usuários que não estão habilitados para roteamento baseado em local. Geralmente, o usuário não pode transferir ou encaminhar uma chamada PSTN para um usuário habilitado para roteamento baseado em local porque os usuários habilitados para roteamento baseado em localização, em geral, só podem ser colocados em conjunto em gateways habilitados para roteamento baseado em localização para chamadas PSTN. A exceção é quando um usuário habilitado para roteamento baseado em local faz roaming para um site que não está habilitado para roteamento baseado em local. Nesse cenário, a chamada transferida é permitida.  
 
 Da mesma forma, um usuário que não está habilitado para roteamento baseado em local só pode receber uma transferência ou chamada PSTN encaminhada de outro usuário que não esteja habilitado para roteamento baseado em local. 
 
@@ -249,6 +249,10 @@ O roteamento baseado em local não se aplica aos seguintes tipos de interações
 ### <a name="location-based-routing-for-conferencing"></a>Roteamento baseado em local para conferência
 
 Um usuário habilitado para roteamento baseado em local em uma chamada PSTN não pode iniciar uma conferência com outro usuário ou número PSTN. É permitido conectar-se a atendedores automáticos ou filas de chamadas. Se o usuário tiver uma licença de conferência, o usuário deverá iniciar uma conferência com os usuários relevantes e chamar a PSTN por meio da ponte de conferência para iniciar uma chamada em conferência.  
+
+### <a name="media-bypass-requirement-for-location-based-routing"></a>Requisito de bypass de mídia para roteamento baseado em local
+
+Se você estiver implantando o roteamento baseado em localização na Índia, será necessário configurar também o bypass de mídia. Para saber mais, confira o [plano de bypass de mídia com roteamento direto](direct-routing-plan-media-bypass.md).
 
 ## <a name="next-steps"></a>Próximas etapas
 

@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Saiba como gerenciar as configurações de política de reunião no Teams e usá-las para controlar os recursos disponíveis para os participantes da reunião para reuniões agendadas pelos usuários.
-ms.openlocfilehash: a2c921da824bdbbcd6b0f6baf49887e55df08ca9
-ms.sourcegitcommit: 296aeac481f901eb9d52b4f12a8c037afc49fa77
+ms.openlocfilehash: 2b7579b9dfe1d70c0a570d6ca519491a263e9f09
+ms.sourcegitcommit: 5a88788bd0a0b2ccbc5b977b38dcfe4681cd5d10
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "44256496"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "44278194"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Gerenciar políticas de reunião no Teams
 
@@ -401,6 +401,23 @@ Esta é uma política por usuário e aplica-se durante uma reunião. Esta config
 Esta é uma política por organizador. Esta configuração controla se o chat da reunião é permitido na reunião do usuário.
 
 <a name="bkparticipantsandguests"> </a>
+
+## <a name="meeting-policy-settings---designated-presenter-role-mode"></a>Configurações da política da reunião – modo de função do apresentador designado
+
+Esta é uma política por usuário. Essa configuração permite alterar o valor padrão da configuração **quem pode apresentar?** em opções de **reunião** no cliente do teams. Essa configuração de política afeta todas as reuniões, incluindo reunir reuniões agora.
+
+A configuração **quem pode apresentar?** permite que os organizadores da reunião escolham quem pode ser apresentadores em uma reunião. Para saber mais, confira [alterar as configurações de participante de uma reunião](https://support.microsoft.com/article/change-participant-settings-for-a-teams-meeting-53261366-dbd5-45f9-aae9-a70e6354f88e) e funções de equipe [em uma reunião de equipe](https://support.microsoft.com/article/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019).
+
+No momento, você só pode usar o PowerShell para definir essa configuração de política. Você pode editar uma política de reunião do teams existente usando o cmdlet [set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) . Ou crie uma nova política de reunião do teams usando o cmdlet [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) e atribua-a a usuários.
+
+Para especificar o valor padrão da configuração **quem pode apresentar?** no Teams, defina o parâmetro **DesignatedPresenterRoleMode** como um dos seguintes:
+
+- **EveryoneUserOverride**: todos os participantes da reunião podem ser apresentadores. Esse é o valor padrão. Esse parâmetro corresponde à configuração **todos** no Teams.
+- **EveryoneInCompanyUserOverride**: os usuários autenticados na organização, incluindo os usuários convidados, podem ser apresentadores. Esse parâmetro corresponde à configuração **pessoas na minha organização** no Teams.
+- **EveryoneInSameAndFederatedCompanyUserOverride**: os usuários autenticados na organização, incluindo usuários convidados e usuários de organizações federadas, podem ser apresentadores. Esse parâmetro corresponde às **pessoas na configuração minha organização e organizações confiáveis** do teams.
+- **OrganizerOnlyUserOverride**: somente o organizador da reunião pode ser um apresentador e todos os participantes da reunião são designados como participantes. Esse parâmetro corresponde à **única configuração eu** do teams.
+
+Lembre-se de que depois de definir o valor padrão, os organizadores da reunião ainda podem alterar essa configuração no Teams e escolher quem pode apresentar nas reuniões agendadas.
 
 ## <a name="meeting-policy-settings---meeting-attendance-report"></a>Configurações de política de reunião-relatório de presença de reunião
 
