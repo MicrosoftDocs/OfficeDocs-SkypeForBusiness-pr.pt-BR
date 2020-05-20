@@ -21,12 +21,12 @@ ms.custom: ms.teamsadmincenter.policypackages.overview
 localization_priority: Priority
 search.appverid: MET150
 description: Saiba mais sobre políticas em uma configuração EDU ou educacional e como usar e gerenciar pacotes de políticas no Microsoft Teams.
-ms.openlocfilehash: 7aab40ce5cd3e82d884faffea29c0a1f47be6d26
-ms.sourcegitcommit: c3f44fccdbd9178d30b52bb0db6f6d31a6dd174b
+ms.openlocfilehash: c602327321319c9924501d7879abcadf2a2c019e
+ms.sourcegitcommit: 5a88788bd0a0b2ccbc5b977b38dcfe4681cd5d10
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44139224"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "44278184"
 ---
 # <a name="teams-policies-and-policy-packages-for-education"></a>Políticas do Teams e Pacotes de Políticas para Educação
 
@@ -269,8 +269,14 @@ Essas configurações permitem aos educadores controlar o acesso às suas reuni�
 - **Permitir que pessoas anônimas iniciem uma reunião**: **Desativada**
 - **Admitir pessoas automaticamente**: **Todos em sua organização**
 - **Permitir que os usuários de discagem ignorem o lobby**: **Desativada**
+- <sup>1</sup>**DesignatedPresenterRoleMode**: **OrganizerOnlyUserOverride**
 
-### <a name="message-policies"></a>Políticas de mensagem
+<sup>1</sup> Esta configuração não está no centro de administração do Microsoft Teams, portanto, você precisará usar o PowerShell para definir o parâmetro **DesignatedPresenterRoleMode** usando o cmdlet [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) ou o cmdlet [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) Define o valor padrão da configuração **Quem pode apresentar?** nas **Opções de reunião** no Teams para **Somente Eu**. Com essa configuração, somente o organizador da reunião pode ser um apresentador e todos os outros participantes da reunião são designados como participantes. Para saber mais, confira [Configurações de política de reunião- Modo função de apresentador designado](meeting-policies-in-teams.md#meeting-policy-settings---designated-presenter-role-mode).
+
+> [!NOTE]
+> Para funcionários que não são educadores, talvez você queira definir o parâmetro como **EveryoneUserOverride** (que corresponde à configuração **Todos** no Teams) ou **EveryoneInCompanyUserOverride** (que corresponde à configuração **Pessoas na minha organização** no Teams).
+
+### <a name="messaging-policies"></a>Políticas de mensagens
 
 Definir **Proprietários pode excluir as mensagens enviadas** para **Ativada** permitirá que os educadores monitorem as sessões de chat e removam mensagens inadequadas em reuniões do canal.
 
