@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4d9e288037b82b3d5b0cccab133debdfa2d7d66b
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: a836ac2e2c5e461e8c2feacda4bfd3b569593a6a
+ms.sourcegitcommit: 1a6b4efad1e6a958cdbaae4b0e2e231145c9658f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042208"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "44321610"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Usar o suplemento de Reunião do Teams no Outlook
 =======================================
@@ -32,7 +32,7 @@ O suplemento de reunião do Teams permite que os usuários agendem uma reunião 
 
 ## <a name="teams-meeting-add-in-in-outlook-for-windows"></a>Suplemento de reunião do Teams no Outlook para Windows
 
-O suplemento de reunião do Teams é instalado automaticamente para usuários que possuem o Microsoft Teams e o Office 2010, Office 2013 ou Office 2016 instalado no PC com Windows. Os usuários verão o suplemento de reunião do Teams na faixa de opções Calendário do Outlook.
+O suplemento de reunião do teams é instalado automaticamente para os usuários que têm o Microsoft Teams e o Office 2013, o Office 2016 ou o Office 2019 instalado no computador Windows. Os usuários verão o suplemento de reunião do Teams na faixa de opções Calendário do Outlook.
 
 ![Captura de tela do suplemento de reunião do Teams na faixa de opções do Outlook](media/Teams-add-in-for-Outlook.png)
 
@@ -65,12 +65,12 @@ O botão Reunião do Teams é exibido nas versões mais recentes do aplicativo d
 As coordenadas da reunião (os números de discagem e de ingresso no Teams) serão adicionadas ao convite da reunião depois que o usuário clicar em **Enviar**.  
 
 ## <a name="teams-meeting-add-in-in-and-findtime-for-outlook"></a>Suplemento de reunião do Teams e Verificador de Horas para o Outlook
-O Verificador de Horas é um suplemento para o Outlook que ajuda os usuários a chegarem a um consenso entre as empresas sobre um horário de reunião. Depois que os convidados da reunião fornecem seu horário preferido, o Verificador de Horas envia o convite da reunião em nome do usuário. Se a opção **Reunião online** estiver selecionada no Verificador de Horas, o Verificador de Horas agendará uma reunião do Skype for Business ou Microsoft Teams. (O Verificador de Horas usará o que tiver sido definido pela sua organização como o canal de reunião online padrão.)
+Findtime é um suplemento do Outlook que ajuda os usuários a alcançarem um consenso em um horário de reunião entre as empresas. Depois que os convidados da reunião fornecem seu horário preferido, o Verificador de Horas envia o convite da reunião em nome do usuário. Se a opção **Reunião online** estiver selecionada no Verificador de Horas, o Verificador de Horas agendará uma reunião do Skype for Business ou Microsoft Teams. (O Verificador de Horas usará o que tiver sido definido pela sua organização como o canal de reunião online padrão.)
 
 > [!NOTE]  
 > Se você salvou uma configuração do Skype for Business no [painel do Verificador de Horas](https://findtime.microsoft.com/UserDashboard), o Verificador de Horas usará essa configuração em vez do Microsoft Teams. Se você deseja usar o Microsoft Teams, exclua a configuração do Skype for Business no seu painel.
 
-Consulte [Agendar reuniões com o Verificador de Horas](https://support.office.com/article/scheduling-meetings-with-findtime-4dc806ed-fde3-4ea7-8c5e-b5d1fddab4a6) para obter mais informações.
+Para obter mais informações, consulte [agendar reuniões com o findtime](https://support.office.com/article/scheduling-meetings-with-findtime-4dc806ed-fde3-4ea7-8c5e-b5d1fddab4a6).
 
 ## <a name="authentication-requirements"></a>Requisitos de autenticação
 
@@ -128,7 +128,8 @@ Se você não conseguir instalar o suplemento Teams Meeting para o Outlook, tent
 - Verifique se o usuário tem uma política de atualização do teams que permite agendar reuniões no Teams. Para obter mais detalhes, confira [a atualização do Skype for Business para o Teams](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview#meetings) .
 - Verifique se o usuário tem uma política de reunião do teams que permite o suplemento do Outlook. Consulte [gerenciar políticas de reunião no Teams](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#allow-the-outlook-add-in) para obter mais detalhes.
 - Verifique se o usuário tem o cliente da área de trabalho do teams instalado. O suplemento de reunião não será instalado quando você usar somente o cliente Web Teams.
-- Certifique-se de que o usuário tenha permissão para executar o regsvr32. exe.  Para obter mais informações, consultehttps://support.microsoft.com/help/249873/how-to-use-the-regsvr32-tool-and-troubleshoot-regsvr32-error-messages
+- Verifique se o usuário tem o Outlook 2013 ou posterior instalado.
+- Certifique-se de que o usuário tenha permissão para executar o regsvr32. exe.
 - Certifique-se de que todas as atualizações disponíveis para o cliente da área de trabalho do Outlook foram aplicadas.
 - Siga estas etapas:
   - Reinicie o cliente de área de trabalho do Teams.
