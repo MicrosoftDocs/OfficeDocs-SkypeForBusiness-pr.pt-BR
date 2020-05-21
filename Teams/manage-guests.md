@@ -17,18 +17,18 @@ description: Saiba como criar suas primeiras equipes e canais, pioneiros no iní
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 544dcb4ffd424512797d3791e2eda6b22439c084
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 83f4e4cdff4515f89a5b3fe68c91d848f9ae5dda
+ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43777836"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44326448"
 ---
 <a name="manage-guest-access-in-microsoft-teams"></a>Gerenciar o acesso de convidados no Microsoft Teams
 ======================================
 
 > [!IMPORTANT]
-> Talvez você precise aguardar até 24 horas para que as configurações entrem em vigor. 
+> Talvez seja necessário esperar algumas horas para que as alterações entrem em vigor. 
 
 **Guest** é um tipo de usuário no Microsoft Teams que está incluído em todas as assinaturas do Microsoft 365 Business Standard, do Office 365 Enterprise, do Microsoft 365 Business Basic e do Office 365 Education. Não é necessária nenhuma licença adicional do Office 365. Leia mais sobre o [Licenciamento de acesso de convidado](#guest-access-licensing-limits) abaixo.
 
@@ -38,7 +38,7 @@ Após a ativação do acesso de convidado, você pode definir as configurações
     
 Os administradores de ti podem adicionar convidados no nível do locatário, definir e gerenciar políticas e permissões do usuário de convidado e receber relatórios sobre atividades do usuário convidado. Esses controles estão disponíveis no centro de administração do teams. O conteúdo e as atividades do usuário convidado se enquadram na mesma proteção de conformidade e auditoria que o restante do Office 365.
 
-Os proprietários da equipe podem convidar novos convidados e adicionar usuários convidados do diretório existente a suas equipes no centro de administração do teams. Identifique os usuários convidados na página **Teams** > **Manage Teams** e defina recursos relacionados ao canal para convidados na página de**acesso de convidados** de configurações > de toda a **organização**. As configurações incluem permitir que os convidados criem, atualizem e excluam canais, conforme mostrado na ilustração a seguir.
+Os proprietários da equipe podem convidar novos convidados e adicionar usuários convidados do diretório existente a suas equipes no centro de administração do teams. Identifique os usuários convidados na página **Teams**  >  **Manage Teams** e defina recursos relacionados ao canal para convidados na página de acesso de convidados de **configurações de toda a organização**  >  **Guest access** . As configurações incluem permitir que os convidados criem, atualizem e excluam canais, conforme mostrado na ilustração a seguir.
 
 ![Configurações de permissões de convidado no Teams](media/manage-guest-access-image1.png)
   
@@ -64,7 +64,7 @@ As avaliações do Access estão disponíveis com a versão Premium P2 do Azure 
 
 ## <a name="lag-time-for-guest-access-settings-to-take-effect"></a>Tempo de retardo para as configurações de acesso de convidado entrarem em vigor
 
-Para as configurações de acesso de convidado no Azure Active Directory, são necessárias 2-24 horas para que as alterações entrem em vigor no Microsoft 365 ou no Office 365. Se um usuário vir a mensagem "entrar em contato com seu administrador" ao tentar adicionar um convidado à equipe, é provável que o recurso convidado não esteja ativado ou que as configurações ainda não sejam efetivadas. Para obter ajuda com problemas para configurar o acesso de convidado, leia [solucionar problemas de acesso de convidado no Teams](troubleshoot-guest-access.md).
+Para as configurações de acesso de convidado no Azure Active Directory, demora algumas horas para que as alterações entrem em vigor no Microsoft 365 ou no Office 365. Se um usuário vir a mensagem "entrar em contato com seu administrador" ao tentar adicionar um convidado à equipe, é provável que o recurso convidado não esteja ativado ou que as configurações ainda não sejam efetivadas. Para obter ajuda com problemas para configurar o acesso de convidado, leia [solucionar problemas de acesso de convidado no Teams](troubleshoot-guest-access.md).
 
   
 ## <a name="external-access-federation-vs-guest-access"></a>Acesso externo (federação) e o acesso de convidado

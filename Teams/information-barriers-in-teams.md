@@ -16,12 +16,12 @@ description: Este artigo explica o que são barreiras de informações no Micros
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2bbe2f38fe56e6952952730b7ba74dda1a98398f
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 1cf6b2fc8c103b8a27bca2d21dd2138def88ce06
+ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904973"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44326738"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Barreiras de informação no Microsoft Teams
 
@@ -64,7 +64,7 @@ O serviço de avaliação da política de barreira de informações determina se
 As políticas de barreira de informações são gerenciadas no centro de conformidade do Microsoft 365 (SCC) usando cmdlets do PowerShell. Para obter mais informações, consulte [definir políticas para barreiras de informação](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies).
 
 > [!IMPORTANT]
-> Antes de configurar ou definir políticas, **você deve habilitar a pesquisa de diretório em escopo no Microsoft Teams**. Aguarde pelo menos 24 horas depois de habilitar a pesquisa de diretório de escopo antes de configurar ou definir políticas para barreiras de informação. [Saiba mais sobre pré-requisitos para barreiras de informação](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies#prerequisites).
+> Antes de configurar ou definir políticas, **você deve habilitar a pesquisa de diretório em escopo no Microsoft Teams**. Aguarde pelo menos algumas horas depois de habilitar a pesquisa de diretório de escopo antes de configurar ou definir políticas para barreiras de informação. [Saiba mais sobre pré-requisitos para barreiras de informação](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies#prerequisites).
 
 ## <a name="information-barriers-administrator-role"></a>Função de administrador de barreiras de informações
 

@@ -17,12 +17,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba como usar políticas de comentários para controlar se os usuários de equipes em sua organização podem enviar comentários sobre o Teams para a Microsoft.
-ms.openlocfilehash: 70771f4a5e7c1376970ac3ac96cb9a4f822882a8
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: b016a1d566f15cdabea55913b7fe107d86dee358
+ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837541"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44326678"
 ---
 # <a name="manage-feedback-policies-in-microsoft-teams"></a>Gerenciar políticas de comentários no Microsoft Teams
 
@@ -32,7 +32,7 @@ Os usuários em sua organização podem enviar comentários sobre as equipes par
 
 **O recurso fornecer comentários**
 
-Os usuários podem enviar comentários e sugestões sobre equipes para nós indo para **ajudar** > a enviar**comentários** sobre o Microsoft Teams. Os dados enviados por meio de **comentários** são considerados como "dados de suporte" em seu contrato do Office 365, incluindo informações que, de outra forma, seriam consideradas "dados do cliente" ou "dados pessoais".
+Os usuários podem enviar comentários e sugestões sobre equipes para nós indo para **ajudar**a enviar comentários sobre o Microsoft  >  **Give feedback** Teams. Os dados enviados por meio de **comentários** são considerados como "dados de suporte" em seu contrato do Office 365, incluindo informações que, de outra forma, seriam consideradas "dados do cliente" ou "dados pessoais".
 
 ![Captura de tela da opção fornecer comentários no Teams](media/manage-feedback-policies-in-teams-give-feedback.png)
 
@@ -46,7 +46,7 @@ Os usuários também podem classificar sua experiência com o Microsoft Teams e 
 
 Como administrador, você pode controlar se os usuários em sua organização podem enviar comentários sobre o Teams para a Microsoft por meio de **comentários** e se eles recebem a pesquisa. Por padrão, todos os usuários de sua organização recebem automaticamente a atribuição da política global (padrão da organização), e o recurso **fornecer comentários** e a pesquisa são habilitados na política. A exceção é o Teams for Education, em que os recursos são habilitados para professores e desabilitado para estudantes.
 
-Você pode editar a política global ou criar e atribuir uma política personalizada. Se for atribuída uma política personalizada a um usuário, essa política se aplicará ao usuário. Se um usuário não estiver atribuído a uma política personalizada, a política global se aplicará ao usuário. Depois de editar a política global ou atribuir uma política, pode levar até 24 horas para que as alterações entrem em vigor.
+Você pode editar a política global ou criar e atribuir uma política personalizada. Se for atribuída uma política personalizada a um usuário, essa política se aplicará ao usuário. Se um usuário não estiver atribuído a uma política personalizada, a política global se aplicará ao usuário. Depois de editar a política global ou atribuir uma política, pode demorar algumas horas para que as alterações entrem em vigor.
 
 Digamos, por exemplo, permitir que todos os usuários em sua organização enviem comentários por meio de **comentários** e recebam pesquisas, exceto para novas contratações no treinamento. Nesse cenário, você cria uma política personalizada para desativar os dois recursos e atribuí-lo a novas contratações. Todos os outros usuários da sua organização obtêm a política global com os recursos ativados.  
 
@@ -55,7 +55,7 @@ Use o cmdlet **New-CsTeamsFeedbackPolicy** , *que pode ser [encontrado aqui](htt
 Para desativar e ativar os recursos, defina os seguintes parâmetros:
 
  - **Enviar comentários**: defina o parâmetro **useriniciad** como **Enabled** para permitir que os usuários atribuídos à política forneçam comentários. Definir o parâmetro como **desativado** desativa o recurso e os usuários atribuídos à política não têm a opção de enviar comentários.
- - **Pesquisas**: defina o parâmetro **receiveSurveysMode** como **Enabled** para permitir que os usuários atribuídos à política recebam a pesquisa. Para que os usuários recebam a pesquisa e permitam que eles se recusem, defina o parâmetro como **enabledUserOverride**. No Teams, os usuários podem ir até a**privacidade** **das configurações** > e escolher se desejam participar de pesquisas. Definir o parâmetro como **desativado** desativa o recurso e os usuários atribuídos a política não receberão a pesquisa.
+ - **Pesquisas**: defina o parâmetro **receiveSurveysMode** como **Enabled** para permitir que os usuários atribuídos à política recebam a pesquisa. Para que os usuários recebam a pesquisa e permitam que eles se recusem, defina o parâmetro como **enabledUserOverride**. No Teams, os usuários podem ir até a privacidade **das configurações**  >  **Privacy** e escolher se desejam participar de pesquisas. Definir o parâmetro como **desativado** desativa o recurso e os usuários atribuídos a política não receberão a pesquisa.
 
 ## <a name="create-a-custom-feedback-policy"></a>Criar uma política de comentários personalizada
 

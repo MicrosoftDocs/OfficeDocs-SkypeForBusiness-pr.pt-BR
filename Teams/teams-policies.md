@@ -24,24 +24,24 @@ ms.custom:
 - ms.teamsadmincenter.teamsandchannelpolicies.overview
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discover
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.create
-ms.openlocfilehash: dc3d5fa4880f3255017b535657a4a32a51789c82
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 392bbb3c97cf32e815f81073bf662d4d6280ae75
+ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836961"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44326648"
 ---
 # <a name="manage-teams-policies-in-microsoft-teams"></a>Gerenciar políticas do teams no Microsoft Teams
 
 Como administrador, você pode usar políticas do teams no Microsoft Teams para controlar o que os usuários em sua organização podem fazer em equipes e canais. Por exemplo, você pode definir se os usuários podem descobrir equipes particulares nos resultados da pesquisa e na Galeria da equipe e se os usuários podem criar canais privados.
 
-Você gerencia políticas do teams acessando > **políticas** **do teams**Team no centro de administração do Microsoft Teams. Você pode usar a política global (padrão para toda a organização) ou criar políticas personalizadas e atribuí-las aos usuários. Os usuários em sua organização receberão automaticamente a política global, a menos que você crie e atribua uma política personalizada.
+Você gerencia políticas do teams acessando políticas **do teams**  >  **Team** no centro de administração do Microsoft Teams. Você pode usar a política global (padrão para toda a organização) ou criar políticas personalizadas e atribuí-las aos usuários. Os usuários da sua organização terão automaticamente a política global, a menos que você crie e atribua uma política personalizada.
 
-Você pode editar a política global ou criar e atribuir uma política personalizada. Se for atribuída uma política personalizada a um usuário, essa política se aplicará ao usuário. Se um usuário não estiver atribuído a uma política personalizada, a política global se aplicará ao usuário. Depois de editar a política global ou atribuir uma política, pode levar até 24 horas para que as alterações entrem em vigor.
+Você pode editar a política global ou criar e atribuir uma política personalizada. Se for atribuída uma política personalizada a um usuário, essa política se aplicará ao usuário. Se um usuário não estiver atribuído a uma política personalizada, a política global se aplicará ao usuário. Depois de editar a política global ou atribuir uma política, pode demorar algumas horas para que as alterações entrem em vigor.
 
 ## <a name="create-a-custom-teams-policy"></a>Criar uma política personalizada do Microsoft Teams
 
-1. Na navegação à esquerda do centro de administração do Microsoft Teams, **vá para** > políticas do teams**Teams**.
+1. Na navegação à esquerda do centro de administração do Microsoft Teams, **vá para políticas do teams**  >  **Teams**.
 2. Clique em **Adicionar**.
 3. Insira um nome e uma descrição para a política.
 
@@ -57,7 +57,7 @@ Você pode editar a política global ou criar e atribuir uma política personali
 
 Você pode editar a política global ou qualquer política personalizada criada.
 
-1. Na navegação à esquerda do centro de administração do Microsoft Teams, **vá para** > políticas do teams**Teams**.
+1. Na navegação à esquerda do centro de administração do Microsoft Teams, **vá para políticas do teams**  >  **Teams**.
 2. Selecione a política clicando à esquerda do nome da política e, em seguida, clique em **Editar**.
 3. Ative ou desative as configurações desejadas e clique em **salvar**.
 
@@ -75,7 +75,7 @@ Para atribuir uma política personalizada do teams a vários usuários de uma s�
 
 Ou, você também pode fazer o seguinte:
 
-1. Na navegação à esquerda do centro de administração do Microsoft Teams, **vá para** > políticas do teams**Teams**.
+1. Na navegação à esquerda do centro de administração do Microsoft Teams, **vá para políticas do teams**  >  **Teams**.
 2. Escolha a política clicando à esquerda do nome da política.
 3. Escolha **Gerenciar usuários**.
 4. No painel **Gerenciar usuários**, procure o usuário pelo nome de exibição ou pelo nome de usuário, escolha o nome e marque **Adicionar**. Repita esta etapa para cada usuário que você deseja adicionar.

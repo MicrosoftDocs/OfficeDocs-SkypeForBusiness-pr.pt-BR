@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 89b1a8a756cba44435098e5cd446294004029eac
-ms.sourcegitcommit: b5c747e2daad6dd3c1d91f4e61ae6f26db5c77f0
+ms.openlocfilehash: 3cbf3ec38876d57fe1c2b8ac61abf5b86d5c2106
+ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44064476"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44326768"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Gerenciar políticas de configuração de aplicativo no Microsoft Teams
 
@@ -58,7 +58,7 @@ Você pode editar as configurações na política global para incluir os aplicat
 
 Você pode usar o centro de administração do Microsoft Teams para criar uma política personalizada.
 
-1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para > **políticas de configuração**de **aplicativos do teams**.
+1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para políticas de configuração de **aplicativos do teams**  >  **Setup policies**.
 2. Clique em **Adicionar**.
     ![Captura de tela mostrando a página Adicionar políticas de configuração de aplicativos](media/app-setup-policies-add.png)
 3. Insira um nome e uma descrição para a política.
@@ -86,7 +86,7 @@ Você pode usar o centro de administração do Microsoft Teams para criar uma po
 
 Você pode usar o centro de administração do Microsoft Teams para editar uma política, incluindo a política global (padrão de toda a organização) e políticas personalizadas que você criar.
 
-1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para > **políticas de configuração**de **aplicativos do teams**.
+1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para políticas de configuração de **aplicativos do teams**  >  **Setup policies**.
 2. Selecione a política clicando à esquerda do nome da política e, em seguida, clique em **Editar**.
 3. Aqui, faça as alterações desejadas.
 4. Clique em **Salvar**.
@@ -105,7 +105,7 @@ Para atribuir uma política a vários usuários de uma só vez, confira [Editar 
 
 Ou, você também pode fazer o seguinte:
 
-1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para > **políticas de configuração**de **aplicativos do teams**.
+1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para políticas de configuração de **aplicativos do teams**  >  **Setup policies**.
 2. Escolha a política clicando à esquerda do nome da política.
 3. Escolha **Gerenciar usuários**.
 4. No painel **Gerenciar usuários**, procure o usuário pelo nome de exibição ou pelo nome de usuário, escolha o nome e marque **Adicionar**. Repita esta etapa para cada usuário que você deseja adicionar.
@@ -161,7 +161,7 @@ Não há limite quanto ao número de aplicativos fixos que você pode adicionar 
 
 #### <a name="how-long-does-it-take-for-policy-changes-to-take-effect"></a>Quanto tempo leva para as alterações de política entrarem em vigor?
 
-Depois de editar a política global ou atribuir uma política, pode levar até 24 horas para que as alterações entrem em vigor.
+Depois de editar a política global ou atribuir uma política, pode demorar algumas horas para que as alterações entrem em vigor.
 
 ### <a name="user-experience"></a>Experiência do usuário
 

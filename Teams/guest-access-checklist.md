@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 04627c74528972aad69b1e810e222f55cae49588
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 9d91731792dd049f76d781c4a0be08e92d09e0bb
+ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902576"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44326598"
 ---
 <a name="microsoft-teams-guest-access-checklist"></a>Lista de verificação de acesso de convidados do Microsoft Teams
 =========================================
@@ -39,7 +39,7 @@ Assista a este vídeo curto (5:31 minutos) para saber como habilitar o acesso de
 
 ## <a name="step-1-turn-on-guest-access-at-the-teams-org-wide-level"></a>Etapa 1: habilitar o acesso de convidados no nível de toda a organização do Teams
 
-Para habilitar o acesso de convidados, acesse o **Centro de administração do Microsoft Teams**. 
+Para ativar o acesso de convidado, vá para o centro de administração em <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> . 
 
 1. No Centro de administração do Teams, selecione **Configurações em toda a organização** > **Acesso de convidados**.
 2. Defina o botão **Permitir acesso de convidados no Microsoft Teams** para **Ativado**.
@@ -78,7 +78,7 @@ Estas são as configurações do Azure AD que oferecem suporte ao acesso de conv
 
 ## <a name="step-3-configure-microsoft-365-groups"></a>Etapa 3: configurar os grupos do Microsoft 365
 
-1. No centro de administração do Microsoft 365, vá para**configurações**de **configurações** > , clique em **Serviços**e, em seguida, selecione **grupos do Microsoft 365**.
+1. No centro de administração do Microsoft 365, vá **Settings**para  >  **configurações**de configurações, clique em **Serviços**e, em seguida, selecione **grupos do Microsoft 365**.
 
      ![A captura de tela mostra as configurações de grupos do Microsoft 365](media/guest-access-checklist-services-settings.png)
 2. Verifique se a caixa de seleção **Permitir que os membros do grupo fora da organização acessem o conteúdo do grupo** foi selecionada. Se essa configuração não for selecionada, os convidados não poderão acessar nenhum conteúdo do grupo.

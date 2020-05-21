@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba como gerenciar o ciclo de vida de canais privados em sua organização.
-ms.openlocfilehash: 154cde6ad8371b2d9f902bf3803f48e72ade0a77
-ms.sourcegitcommit: 1a6b4efad1e6a958cdbaae4b0e2e231145c9658f
+ms.openlocfilehash: 45d9591eed2bd3a880d3ca3e2ceb2252bf6f8898
+ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44321690"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44326688"
 ---
 # <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>Gerenciar o ciclo de vida de canais privados no Microsoft Teams
 
@@ -180,7 +180,11 @@ Você pode experimentar esses comandos por meio do [Graph Explorer](https://deve
 
 Talvez você queira listar os proprietários e os membros de um canal privado para decidir se precisa promover certos membros do canal privado para um proprietário. Isso pode acontecer quando você tem proprietários de canais privados que saíram da organização e o canal privado exige que a ajuda do administrador solicite a posse do canal.
 
-Como administrador, você pode usar os comandos do PowerShell ou de APIs de gráfico para consultar essas URLs.
+Como administrador, você pode usar o centro de administração do Microsoft Teams, o PowerShell ou a API de gráfico para executar essas ações.
+
+### <a name="using-the-microsoft-teams-admin-center"></a>Usando o centro de administração do Microsoft Teams
+
+Para saber como gerenciar os membros da equipe usando o centro de administração do Microsoft Teams, consulte [gerenciar equipes no centro de administração do Microsoft Teams](manage-teams-in-modern-portal.md).
 
 ### <a name="using-powershell"></a>Usando o PowerShell
 

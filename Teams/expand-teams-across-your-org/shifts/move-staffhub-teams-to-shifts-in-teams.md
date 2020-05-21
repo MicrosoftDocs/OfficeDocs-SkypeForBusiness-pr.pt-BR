@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 6c57ebda3d23135beb46febf13529b903958df6b
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: e0bf24c32854ddf2498b8a00874ad1d358c8fb8a
+ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780620"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44326788"
 ---
 # <a name="move-your-microsoft-staffhub-teams-to-shifts-in-microsoft-teams"></a>Mover suas equipes do Microsoft StaffHub para turnos no Microsoft Teams
 
@@ -91,7 +91,7 @@ Se esses pré-requisitos não forem atendidos, a solicitação de mudança falha
 
 Cada usuário deve ter uma licença ativa do Microsoft 365 ou do Office 365 de [um plano elegível](microsoft-staffhub-to-be-retired.md#which-plans-is-shifts-available-in) e deve receber uma licença do teams. Atribuir uma licença do teams aos usuários permite que eles acessem o Microsoft Teams.
 
-Você gerencia as licenças do teams no centro de administração do Microsoft 365. Para saber mais, consulte [gerenciar o acesso do usuário ao Teams](../../user-access.md).
+Você gerencia as licenças do teams no centro de administração do Microsoft 365. Para saber mais, confira [Gerenciar o acesso dos usuários ao Teams](../../user-access.md).
 
 > [!NOTE]
 > Se a sua organização usa o Skype for Business e você não está pronto para mover todos os usuários para o Microsoft Teams, você pode habilitar o Microsoft Teams para os seus primeiros trabalhadores que podem executar o Microsoft Teams junto ao Skype for Business. Nesse modo de coexistência, chamado de *ilhas*, cada aplicativo cliente Opera como uma solução separada. Para saber mais, consulte [entender o Microsoft Teams e a coexistência e interoperabilidade do Skype for Business](../../teams-and-skypeforbusiness-coexistence-and-interoperability.md).
@@ -156,7 +156,7 @@ Siga um destes procedimentos:
 
 O Teams inclui uma política interna de configuração de aplicativos do FirstlineWorker que você pode usar para personalizar o Microsoft Teams para destacar os aplicativos que são mais importantes para os primeiros funcionários da sua organização. Quando você atribui essa política aos usuários, os aplicativos da política são fixados na barra de aplicativos no Microsoft Teams para acesso rápido e fácil. Outros aplicativos adicionados às equipes podem ser encontrados na barra de aplicativos clicando em **... Mais aplicativos** na área de trabalho da equipe e nos clientes Web e passando o dedo para cima no cliente do teams Mobile. Por padrão, a política de configuração do aplicativo FirstlineWorker inclui a atividade, turnos, chat e aplicativos de chamada.
 
-Para ver as etapas sobre como atribuir a política de configuração do aplicativo FirstlineWorker aos usuários, consulte [usar a política de configuração do aplicativo FirstlineWorker para fixar turnos em Teams](manage-the-shifts-app-for-your-organization-in-teams.md#use-the-firstlineworker-app-setup-policy-to-pin-shifts-to-teams). Depois de atribuir uma política, pode levar até 24 horas para entrar em vigor.
+Para ver as etapas sobre como atribuir a política de configuração do aplicativo FirstlineWorker aos usuários, consulte [usar a política de configuração do aplicativo FirstlineWorker para fixar turnos em Teams](manage-the-shifts-app-for-your-organization-in-teams.md#use-the-firstlineworker-app-setup-policy-to-pin-shifts-to-teams). Depois de atribuir uma política, pode levar algumas horas para entrar em vigor.
 
 Recomendamos que você conclua esta etapa pelo menos uma semana antes de mover suas equipes e usuários do StaffHub para o Microsoft Teams. Quando os usuários estão em equipes, confirme se eles podem ver e acessar o aplicativo turnos.
 

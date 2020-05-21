@@ -21,12 +21,12 @@ description: Saiba como gerenciar atribuições no centro de administração do 
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 78ce963b8d675aa6d5c851c1081472559d24c3a3
-ms.sourcegitcommit: 296aeac481f901eb9d52b4f12a8c037afc49fa77
+ms.openlocfilehash: 61caf4bc59387fd5c00cabf459976506b97ef9a0
+ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "44256446"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44326758"
 ---
 # <a name="assignments-in-teams-for-education"></a>Tarefas do Teams for Education
 
@@ -51,7 +51,7 @@ O Microsoft MakeCode é uma plataforma de codificação baseada em blocos que le
 
 O MakeCode é um produto da Microsoft que está sujeito aos [termos de uso e às políticas de](https://go.microsoft.com/fwlink/?LinkID=206977) [privacidade](https://go.microsoft.com/fwlink/?LinkId=521839) da Microsoft.
 
-Essa configuração está desativada por padrão. Para habilitar as tarefas do MakeCode no Teams, no **centro de administração do teams**, navegue até a seção **tarefas** e ative a opção de alternância de **MakeCode.** Clique em **salvar** e aguarde até 24 horas para que as configurações entrem em vigor.
+Essa configuração está desativada por padrão. Para habilitar as tarefas do MakeCode no Teams, no **centro de administração do teams**, navegue até a seção **tarefas** e ative a opção de alternância de **MakeCode.** Clique em **salvar** e aguarde algumas horas para que as configurações entrem em vigor.
 
 Para obter mais informações sobre como esse recurso funciona, consulte esta [demonstração em vídeo](https://makecode.com/blog/teams/teams-assignments).
 
@@ -82,6 +82,6 @@ Selecione **integrações** no menu do lado e, em seguida, selecione **Adicionar
 O TurnitinApiKey será atribuído a você depois de seguir as instruções. Copie a chave da API e cole-a no centro de administração do Microsoft Teams.  Esta é a única vez que você pode ver a chave.
 ![Captura de tela mostrando a cópia da chave de API](./educationImages/Assignments_mopo_turnitin3.png)
 
-Ao clicar no botão **salvar** no centro de administração para esta configuração, aguarde até 24 horas para que essas configurações entrem em vigor.
+Ao clicar no botão **salvar** no centro de administração para esta configuração, aguarde algumas horas para que essas configurações entrem em vigor.
 
 Pronto para começar a usar a integração do TurnItIn no Microsoft Teams? Inscreva-se para o [programa de acesso antecipado](https://www.turnitin.com/products/feedback-studio/microsoft-teams-integration).

@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Encontre e gerencie atualizações para o Skype for Business Server 2015/2019 e Lync 2013 em um só lugar. Use os links nesta página para saber mais e baixar as atualizações.
-ms.openlocfilehash: 5530816da6ca5561439a8a6620cd132eeb86ab44
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 51a756cc0bf7ee74d0971732fce481c4773e8497
+ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44220541"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44326568"
 ---
 # <a name="skype-for-business-server-updates"></a>Atualizações do Skype for Business Server
 
@@ -54,6 +54,7 @@ O KB 4470124 é o principal KB para o Skype for Business Server 2019, que tem to
 
 |Número do pacote|Número de KB|Data do lançamento|
 |:--- |:--- |:--- |
+|Atualização cumulativa 11 do Skype for Business Server 2015|[KB 3061064](https://support.microsoft.com/kb/3061064)| 13 de maio de 2020 |
 |Skype for Business Server 2015 atualização cumulativa 10 hotfix 1|[KB 3061064](https://support.microsoft.com/kb/3061064)| Agosto de 2019 |
 |Atualização cumulativa 10 do Skype for Business Server 2015 |[KB 3061064](https://support.microsoft.com/kb/3061064)| Julho de 2019 |
 |Atualização cumulativa 9 do Skype for Business Server 2015, servidor de componentes Web|[KB 4487981](https://support.microsoft.com/kb/4487981)| Maio de 2019 |
@@ -98,7 +99,7 @@ O KB 4470124 é o principal KB para o Skype for Business Server 2019, que tem to
 |Lync Server 2013 atualização cumulativa 8 hotfix 1 |[KB 3200079](https://support.microsoft.com/kb/3200079) |Novembro de 2016 |
 |Atualização cumulativa 8 do Lync Server 2013 |[KB 3175336](https://support.microsoft.com/kb/3175336)|Agosto de 2016 |
 |Atualização cumulativa 7 do Lync Server 2013  |[KB 3140581](https://support.microsoft.com/kb/3140581)|Abril de 2016 |
-|Lync Server 2013 atualização cumulativa 6 hotfix 2 |[KB 3175338](https://support.microsoft.com/kb/3175338)|janeiro de 2016 |
+|Lync Server 2013 atualização cumulativa 6 hotfix 2 |[KB 3175338](https://support.microsoft.com/kb/3175338)|Janeiro de 2016 |
 |Lync Server 2013 atualização cumulativa 6 hotfix 1 |[KB 3121213](https://support.microsoft.com/kb/3121213)|dezembro de 2015 |
 |Atualização cumulativa 6 do Lync Server 2013 |[KB 3081739](https://support.microsoft.com/kb/3081739)|Setembro de 2015 |
 |Lync Server 2013 atualização cumulativa 5 hotfix 10 |[KB 3064728](https://support.microsoft.com/kb/3064728)|Julho de 2015 |

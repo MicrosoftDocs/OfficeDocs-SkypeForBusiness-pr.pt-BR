@@ -16,12 +16,12 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9c3d5f4eb0cd63dd252d5fcc01bff21f8643a788
-ms.sourcegitcommit: ebdad71a8d393466e33a2fdc8606d882a6007588
+ms.openlocfilehash: 6f72360f4462a64e357d58489aa70203bf10c532
+ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "44280270"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44326638"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>Planejar o Roteamento baseado na localização para o Roteamento direto
 
@@ -252,7 +252,7 @@ Um usuário habilitado para roteamento baseado em local em uma chamada PSTN não
 
 ### <a name="media-bypass-requirement-for-location-based-routing"></a>Requisito de bypass de mídia para roteamento baseado em local
 
-Se você estiver implantando o roteamento baseado em localização na Índia, será necessário configurar também o bypass de mídia. Para saber mais, confira o [plano de bypass de mídia com roteamento direto](direct-routing-plan-media-bypass.md).
+Se você estiver implantando o roteamento baseado em localização na Índia, será necessário configurar também o bypass de mídia. Para saber mais, consulte [planejar o bypass de mídia com o roteamento direto e a](direct-routing-plan-media-bypass.md) [otimização de mídia local para roteamento direto](direct-routing-media-optimization.md).
 
 ## <a name="next-steps"></a>Próximas etapas
 

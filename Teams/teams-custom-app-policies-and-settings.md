@@ -23,19 +23,19 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.tooltip.allowsideloading
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - seo-marvel-mar2020
-ms.openlocfilehash: 7c3c7958994c50e1ae0e90ed13437601dabc0688
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: a0002ed8312f2a100ab61aa98923c7f4aeb0dc26
+ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140652"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44326778"
 ---
 # <a name="manage-custom-app-policies-and-settings-in-microsoft-teams"></a>Gerencie políticas e configurações de aplicativo personalizado no Microsoft Teams
 
 > [!NOTE]
 > Para usar o app Studio [, consulte Introdução à plataforma Microsoft Teams com C#/.net e app Studio](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-dotnet-app-studio) a última etapa ainda não está funcionando, portanto, será necessário baixar o zip e instalá-lo da maneira antiga de [carregar um pacote do aplicativo para o Microsoft Teams](https://docs.microsoft.com/microsoftteams/platform/concepts/apps/apps-upload).
 
-Como administrador, você pode usar políticas e configurações personalizadas do aplicativo para controlar quem em sua organização pode carregar aplicativos personalizados para o Microsoft Teams. Os administradores decidem quais usuários podem carregar aplicativos personalizados, e administradores e proprietários de equipe podem determinar se equipes específicas em sua organização permitem que aplicativos personalizados sejam adicionados a eles.  Depois de editar a política de aplicativo personalizada, pode levar até 24 horas para que as alterações entrem em vigor. Você deve ser administrador global ou administrador do teams Service para gerenciar essas políticas.
+Como administrador, você pode usar políticas e configurações personalizadas do aplicativo para controlar quem em sua organização pode carregar aplicativos personalizados para o Microsoft Teams. Os administradores decidem quais usuários podem carregar aplicativos personalizados, e administradores e proprietários de equipe podem determinar se equipes específicas em sua organização permitem que aplicativos personalizados sejam adicionados a eles.  Depois de editar a política de aplicativo personalizada, pode demorar algumas horas para que as alterações entrem em vigor. Você deve ser um administrador global ou administrador de serviços do Teams para gerenciar essas políticas.
 
 ## <a name="overview-of-custom-apps"></a>Visão geral dos aplicativos personalizados
 
@@ -72,7 +72,7 @@ Você pode editar as configurações na política de configuração do aplicativ
 
 #### <a name="set-a-user-custom-app-policy"></a>Definir uma política de aplicativo personalizada do usuário
 
-1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para > **políticas de configuração**de **aplicativos do teams**.
+1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para políticas de configuração de **aplicativos do teams**  >  **Setup policies**.
 2. Clique em **Adicionar**.
 3. Ative ou desative **carregar aplicativos personalizados**.
 4. Escolha qualquer outra configuração que você queira para a política.
@@ -94,7 +94,7 @@ Se essa configuração estiver ativada:
 
 #### <a name="configure-the-team-custom-app-setting"></a>Configurar a configuração do aplicativo personalizado da equipe
 
-1. No Microsoft Teams, vá para a equipe, clique em **mais opções ̇ ̇ ̇** > **Gerenciar equipe**.
+1. No Microsoft Teams, vá para a equipe, clique em **mais opções ̇ ̇ ̇**  >  **Gerenciar equipe**.
 2. Clique em **configurações**e, em seguida, expanda **permissões do membro**.
 3. Marque ou desmarque a caixa de seleção **permitir que os membros carreguem aplicativos personalizados** .
 
@@ -106,7 +106,7 @@ A configuração **permitir interação com aplicativos personalizados** em toda
 
 #### <a name="configure-the-org-wide-custom-app-setting"></a>Configurar a configuração de aplicativo personalizado em toda a organização
 
-1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá até **Team apps** > **gerenciar aplicativos**.
+1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá até **Team apps**  >  **gerenciar aplicativos**.
 2. Clique em **configurações de aplicativo de toda a organização**.
 3. Em **aplicativos personalizados**, ative ou desative **a interação de permissão com aplicativos personalizados**.
 
