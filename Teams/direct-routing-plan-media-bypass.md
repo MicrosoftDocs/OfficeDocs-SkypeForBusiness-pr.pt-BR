@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Saiba como planejar a bypass de mídia com o roteamento direto do sistema telefônico, o que permite reduzir o caminho do tráfego de mídia e melhorar o desempenho.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f5e053149670804e585d0cd61522f67a922b2b47
-ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
+ms.openlocfilehash: a4f8995c3972da8fd2d060b7083edb61138b97ac
+ms.sourcegitcommit: f63cf7fdde333a7cb36c39e9b6cdc33afd2b4601
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "43918690"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "44338241"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planejar o bypass de mídia com Roteamento Direto
 
@@ -140,7 +140,9 @@ Em caminho de mídia para aplicativos de voz | Ativa | Não |
 Pode fazer transcodificação (B2BUA)\* | Sim | Não, somente retransmite o áudio entre os pontos de extremidade | 
 Número de instâncias mundiais e locais | 8 no total: 2 em leste dos EUA e oeste; 2 em Amsterdã e Dublin; 2 em Hong Kong e Cingapura; 2 no Japão  | Muitos
 
-O intervalo IP é 52.112.0.0/14 (endereços IP de 52.112.0.1 a 52.115.255.254). 
+Os intervalos de IP são:
+- 52.112.0.0/14 (endereços IP de 52.112.0.1 para 52.115.255.254)
+- 52.120.0.0/14 (endereços IP de 52.120.0.1 para 52.123.255.254)
 
 \*Explicação da transcodificação: 
 

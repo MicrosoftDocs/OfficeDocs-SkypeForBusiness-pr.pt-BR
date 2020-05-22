@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Saiba como o roteamento direto do Microsoft Phone System permite conectar um controlador de borda de sessão (SBC) compatível fornecido pelo cliente a um sistema telefônico da Microsoft.
-ms.openlocfilehash: 7d5a69ff3b0533d17d6582489fad6e156d8df1c7
-ms.sourcegitcommit: 6fbaab29076e16fe18f8faeb7e012a0815c2369d
+ms.openlocfilehash: 14b14302aa3f75a164e6e6dbbef5cc91fc2b47cf
+ms.sourcegitcommit: f63cf7fdde333a7cb36c39e9b6cdc33afd2b4601
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43785934"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "44338231"
 ---
 # <a name="plan-direct-routing"></a>Planejar o Roteamento Direto
 
@@ -73,7 +73,7 @@ Os requisitos de infraestrutura para o SBCs, os domínios e outros requisitos de
 |Troncos de telefonia conectados ao SBC|Um ou mais troncos de telefonia conectados ao SBC. Em uma extremidade, o SBC se conecta ao sistema telefônico da Microsoft via roteamento direto. O SBC também pode se conectar a entidades de telefonia de terceiros, como PBXs, adaptadores de telefonia analógicas e assim por diante. Qualquer opção de conectividade PSTN conectada ao SBC funcionará. (Para configuração dos troncos PSTN para o SBC, consulte os fornecedores de SBC ou provedores de tronco.)|
 |Organização do Office 365|Uma organização do Office 365 que você usa para Home seus usuários do Microsoft Teams e a configuração e a conexão com o SBC.|
 |Registrador de usuários|O usuário deve estar na home page do Office 365.<br/>Se a sua empresa tiver um ambiente Skype for Business ou Lync local com conectividade híbrida para o Office 365, você não poderá habilitar a voz no Teams para um usuário hospedado no local.<br/><br/>Para verificar o registrador de um usuário, use o seguinte cmdlet do PowerShell do Skype for Business Online:<br/><code>Get-CsOnlineUser -Identity \<user> \| fl HostingProvider</code> <br/><br/>A saída do cmdlet deve mostrar:<br/><code>HostingProvider : sipfed.online.lync.com</code>|
-|Domínios|Um ou mais domínios adicionados às organizações do Office 365.<br/><br/>Observe que você não pode usar o domínio padrão \*,. onmicrosoft.com, que é criado automaticamente para o seu locatário.<br/><br/>Para exibir os domínios, você pode usar o seguinte cmdlet do PowerShell do Skype for Business Online:<br/><code>Get-CsTenant \| fl Domains</code><br/><br/>Para obter mais informações sobre domínios e organizações do Office 365, consulte [perguntas frequentes sobre domínios](https://support.office.com/article/Domains-FAQ-1272bad0-4bd4-4796-8005-67d6fb3afc5a).|
+|Domínios|Um ou mais domínios adicionados às organizações do Office 365.<br/><br/>Observe que você não pode usar o domínio padrão, \* . onmicrosoft.com, que é criado automaticamente para o seu locatário.<br/><br/>Para exibir os domínios, você pode usar o seguinte cmdlet do PowerShell do Skype for Business Online:<br/><code>Get-CsTenant \| fl Domains</code><br/><br/>Para obter mais informações sobre domínios e organizações do Office 365, consulte [perguntas frequentes sobre domínios](https://support.office.com/article/Domains-FAQ-1272bad0-4bd4-4796-8005-67d6fb3afc5a).|
 |Endereço IP público do SBC|Um endereço IP público que pode ser usado para se conectar ao SBC. Com base no tipo de SBC, o SBC pode usar NAT.|
 |FQDN (nome de domínio totalmente qualificado) para o SBC|Um FQDN para o SBC, no qual a parte do domínio do FQDN é um dos domínios registrados na sua organização do Office 365. Para obter mais informações, consulte [nomes de domínio SBC](#sbc-domain-names).|
 |Entrada DNS pública para o SBC |Uma entrada DNS pública que associa o endereço IP do SBC ao endereço IP público. |
@@ -115,7 +115,7 @@ Além disso, você deve garantir o seguinte:
 
 O roteamento direto também oferece suporte a usuários que estão licenciados para o plano de chamadas da Microsoft. Sistema telefônico da Microsoft com plano de chamadas pode rotear algumas chamadas usando a interface de roteamento direto. No entanto, os números de telefone dos usuários devem ser adquiridos online ou portados para a Microsoft.  
 
-A combinação de plano de chamada e a conectividade de roteamento direto para o mesmo usuário é opcional, mas pode ser útil (por exemplo, quando o usuário recebe um plano de chamada da Microsoft, mas quer rotear algumas chamadas usando o SBC). Um dos cenários mais comuns são chamadas para PBXs de terceiros.  Com PBXs de terceiros, todas as chamadas, exceto chamadas para os telefones conectados a essa PBXs, são roteadas usando o plano de chamadas da Microsoft, mas chamadas para os telefones conectados a PBXs de terceiros vão para o SBC e, portanto, permanecer dentro da rede corporativa e não na PSTN. 
+A combinação de plano de chamada e a conectividade de roteamento direto para o mesmo usuário é opcional, mas pode ser útil (por exemplo, quando o usuário recebe um plano de chamada da Microsoft, mas quer rotear algumas chamadas usando o SBC). Um dos cenários mais comuns é chamadas para PBXs de terceiros.  Com PBXs de terceiros, todas as chamadas, exceto chamadas para os telefones conectados a essa PBXs, são roteadas usando o plano de chamadas da Microsoft, mas chamadas para os telefones conectados a PBXs de terceiros vão para o SBC e, portanto, permanecer dentro da rede corporativa e não na PSTN. 
 
 Para obter mais informações sobre o licenciamento do sistema telefônico, consulte [obter o máximo do Office com](https://products.office.com/compare-all-microsoft-office-products?tab=2) [as opções de plano](https://technet.microsoft.com/library/office-365-plan-options.aspx)do Office 365 e do Office 365. 
 
@@ -132,7 +132,7 @@ Você pode usar como ponto final:
 
 ## <a name="sbc-domain-names"></a>Nomes de domínio SBC
 
-O nome de domínio SBC deve ser de um dos nomes registrados em domínios do locatário. Não é possível usar \*o locatário. onmicrosoft.com para o nome FQDN do SBC.
+O nome de domínio SBC deve ser de um dos nomes registrados em domínios do locatário. Não é possível usar o \* locatário. onmicrosoft.com para o nome FQDN do SBC.
 
 A tabela a seguir mostra exemplos de nomes DNS registrados para o locatário, se o nome pode ser usado como um FQDN para o SBC e exemplos de nomes de FQDN válidos:
 
@@ -155,9 +155,9 @@ A Microsoft recomenda que você solicite o certificado do SBC gerando uma solici
   > [!NOTE]
   > A maioria das autoridades de certificação (CAs) exige que o tamanho da chave privada seja de pelo menos 2048. Tenha isso em mente ao gerar o CSR.
 
-O certificado precisa ter FQDN do SBC nos campos assunto, nome comum ou nome alternativo do assunto.
+O certificado precisa ter o FQDN do SBC como o nome comum (CN) no campo assunto.
 
-Como alternativa, o roteamento direto dá suporte a um caractere curinga na SAN e o caractere curinga precisa estar de acordo com o [http padrão RFC em TLS](https://tools.ietf.org/html/rfc2818#section-3.1). Um exemplo seria usar \*. contoso.com na San, que corresponderia ao FQDN FQDN SBC.contoso.com, mas não corresponde ao SBC.Test.contoso.com.
+Como alternativa, o roteamento direto dá suporte a um caractere curinga na SAN e o caractere curinga precisa estar de acordo com o [http padrão RFC em TLS](https://tools.ietf.org/html/rfc2818#section-3.1). Um exemplo seria usar \* . contoso.com na San, que corresponderia ao FQDN FQDN SBC.contoso.com, mas não corresponde ao SBC.Test.contoso.com.
 
 O certificado precisa ser gerado por uma das seguintes autoridades de certificação raiz:
 
@@ -200,7 +200,7 @@ Saiba mais sobre os [ambientes do Office 365 e do governo dos EUA](https://docs.
 
 ### <a name="office-365-and-office-365-gcc-environments"></a>Ambientes do Office 365 e do Office 365 GCC
 
-O ponto de conexão para roteamento direto são os três FQDNs a seguir:
+Os pontos de conexão para roteamento direto são os três FQDNs a seguir:
 
 - **SIP.pstnhub.Microsoft.com** – FQDN global – deve ser tentado primeiro. Quando o SBC envia uma solicitação para resolver esse nome, os servidores DNS do Microsoft Azure retornam um endereço IP apontando para o datacenter principal do Azure atribuído ao SBC. A atribuição se baseia em métricas de desempenho dos datacenters e da proximidade geográfica com o SBC. O endereço IP retornado corresponde ao FQDN primário.
 - **SIP2.pstnhub.Microsoft.com** – FQDN secundário – mapas geograficamente para a segunda região de prioridade.
@@ -280,7 +280,7 @@ Observe que os requisitos abaixo se aplicam se você deseja implantar o roteamen
 
 
 
-O tráfego de mídia flui para e de um serviço separado na nuvem da Microsoft. O intervalo IP para tráfego de mídia é o seguinte.
+O tráfego de mídia flui para e de um serviço separado na nuvem da Microsoft. Os intervalos de endereços IP para tráfego de mídia são os seguintes.
 
 ### <a name="office-365-and-office-365-gcc-environments"></a>Ambientes do Office 365 e do Office 365 GCC
 
