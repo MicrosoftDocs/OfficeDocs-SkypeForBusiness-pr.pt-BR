@@ -14,12 +14,12 @@ ms.reviewer: vinbel
 search.appverid: MET150
 description: Use um site ou uma página existente do SharePoint Online e crie uma guia estática independente que possa ser usada como um portal da Intranet para a sua organização.
 localization_priority: Priority
-ms.openlocfilehash: 63527cb3cccc5f882f44ff39911d33270bafb4c8
-ms.sourcegitcommit: 9419860f9a1c1dd2c7c444162e1d55d704e19c69
+ms.openlocfilehash: 4777b744d76415f45718cb274f402556e1e28240
+ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43207070"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44326578"
 ---
 # <a name="create-a-teams-intranet-portal-app-from-a-sharepoint-online-site-or-page"></a>Criar um 'aplicativo Portal da Intranet' do Teams a partir de um site ou página do SharePoint Online
 
@@ -41,7 +41,7 @@ Antes de começar:
 
 2. Você precisará conhecer o subdomínio de seu locatário, que será usado no espaço reservado **{{subdomínio}}**.
 
-3. Este artigo usará o espaço reservado **{{siteUrl}}** para a *URL* do local ou da página que você escolheu.
+3. Este artigo usará **{{siteUrl}}** como um espaço reservado para a *URL* do site ou da página que você escolheu.
     - *URLs* de exemplo:   https://contoso.sharepoint.com/teams/Contoso   *ou* https://contoso.sharepoint.com/sites/Contoso
 4. Além disso, o **{{sitePath}}** será usado para indicar o *caminho* da URL (ex:/teams/Contoso).
     - Exemplos de *caminhos*: /teams/Contoso *ou* /sites/Contoso
@@ -96,7 +96,7 @@ Comece seguindo as etapas abaixo:
 
 Para exibir a nova guia no Teams para área de trabalho, navegue até as reticências (**…**) no lado esquerdo da barra de aplicativos. Encontre seu novo aplicativo, carregue-o e teste seu aplicativo autônomo no Teams.
 
-Se você deseja disponibilizar o novo aplicativo no menu esquerdo em uma posição superior, você deve usar uma configuração de política de aplicativo. Essa configuração pode ser encontrada na seção Administrador da equipe > Política do aplicativo > Adicionar um aplicativo afixado. Quando você atribui a política a um usuário para teste, a alteração será exibida 24 horas depois. Com isso em mente, decida onde o aplicativo deve aparecer o quanto antes para evitar atrasos.
+Se você deseja disponibilizar o novo aplicativo no menu esquerdo em uma posição superior, você deve usar uma configuração de política de aplicativo. Essa configuração pode ser encontrada na seção Administrador da equipe > Política do aplicativo > Adicionar um aplicativo afixado. Quando você atribui a política a um usuário para teste, a alteração será exibida algumas horas depois. Com isso em mente, decida onde o aplicativo deve aparecer o quanto antes para evitar atrasos.
 
 Para exibir e testar o novo aplicativo em um dispositivo móvel, abra a gaveta de aplicativos tocando na divisa (**^**) acima da barra de guias, na parte inferior da tela. Encontre seu aplicativo e navegue até ele no seu dispositivo móvel.
 

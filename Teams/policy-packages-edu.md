@@ -21,12 +21,12 @@ ms.custom: ms.teamsadmincenter.policypackages.overview
 localization_priority: Priority
 search.appverid: MET150
 description: Saiba mais sobre políticas em uma configuração EDU ou educacional e como usar e gerenciar pacotes de políticas no Microsoft Teams.
-ms.openlocfilehash: c602327321319c9924501d7879abcadf2a2c019e
-ms.sourcegitcommit: 5a88788bd0a0b2ccbc5b977b38dcfe4681cd5d10
+ms.openlocfilehash: c8eed1c27f73d8805924ee30be0041a710bbdb25
+ms.sourcegitcommit: 624bd511b96cf213483d3ea8f27b20a91d955550
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "44278184"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44330566"
 ---
 # <a name="teams-policies-and-policy-packages-for-education"></a>Políticas do Teams e Pacotes de Políticas para Educação
 
@@ -130,6 +130,8 @@ No momento, o Microsoft Teams inclui os seguintes pacotes de políticas:
 |**Education_PrimaryStudent**| Alunos do ensino fundamental  | Os alunos mais jovens do ensino fundamental da sua instituição podem precisar de mais limites no Microsoft Teams. Use esse conjunto de políticas e configurações de políticas para limitar recursos como criação e gerenciamento de reuniões, gerenciamento de chat e chamadas privadas. |
 |**Education_SecondaryStudent**| Alunos do ensino médio | Os alunos do ensino médio da sua instituição podem precisar de mais limites no Microsoft Teams. Use esse conjunto de políticas e configurações de políticas para limitar recursos como criação e gerenciamento de reuniões, gerenciamento de chat e chamadas privadas. |
 |**Education_HigherEducationStudent**| Alunos do ensino superior | Os alunos do ensino superior dentro da sua intuição podem precisar de menos limites do que os alunos mais jovens, mas algumas limitações podem ser recomendadas. Você pode usar esse conjunto de políticas e configurações de políticas para conceder acesso a chats, chamadas e reuniões em sua organização, mas limite como os alunos usam o Microsoft Teams com participantes externos. |
+|**Education_PrimaryTeacher_RemoteLearning**| Educadores e funcionários | Cria um conjunto de políticas que se aplicam aos professores primários para maximizar a segurança e a colaboração dos alunos ao usar o aprendizado remoto. |
+|**Education_PrimaryStudent_RemoteLearning**| Alunos do ensino fundamental| Cria um conjunto de políticas que se aplicam aos alunos do ensino fundamental para maximizar a segurança e a colaboração dos alunos ao usarem o aprendizado remoto.
 |||
 
 :::image type="content" source="media/edu-policy-packages-list.png" alt-text="Página de pacotes de políticas com a lista de pacotes de política à sua escolha.":::
