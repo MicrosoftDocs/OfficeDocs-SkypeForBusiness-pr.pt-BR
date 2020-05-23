@@ -21,12 +21,12 @@ f1.keywords:
 description: Saiba como treinar uma equipe de especialistas para promover a adoção do Teams, gerando conscientização, adoção e educação em sua organização.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4be0002b65567bcd708e765242b744936c6ac12e
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: e2c44be9ac59b3a7c076540b658cf27bf74ef0e8
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904753"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350255"
 ---
 # <a name="create-your-champions-program-for-microsoft-teams"></a>Criar seu programa de defensores do Microsoft Teams
 
@@ -45,7 +45,7 @@ Os campeões devem:
 
 Use o [Guia do programa de campeões](https://go.microsoft.com/fwlink/?linkid=854665) para criar este programa em sua organização. Nossas práticas recomendadas para esta comunidade são:
 
-- Participe do programa de campeões do Office 365: Certifique-se de que, no mínimo, os líderes do programa Champion (e todos os campeões da empresa) sejam membros do [programa Microsoft Office 365 Champion](https://aka.ms/O365Champions). Esta chamada de comunidade mensal gratuita fornecerá informações valiosas para a execução do seu próprio programa e obter o máximo de equipes e outros serviços do Office 365. Os materiais do programa podem ser reutilizados em seu próprio programa interno.
+- Participe do programa Microsoft 365 ou Microsoft Office 365 [campeões](https://aka.ms/O365Champions). Certifique-se de que, no mínimo, os líderes do programa Champion (e de todos os campeões da empresa) sejam membros do programa. Esta chamada de comunidade mensal gratuita fornecerá informações valiosas para a execução do seu próprio programa e obter o máximo de equipes e outros serviços do Microsoft 365 ou do Office 365. Os materiais do programa podem ser reutilizados em seu próprio programa interno.
 
 - Use a equipe de defensor do trabalho em equipe: seus campeões devem usar a equipe que você tem configurado para todas as comunicações de programas, comentários e localizar recursos.  Ao fazer isso, eles ficarão cada vez mais familiarizados com o produto e seus benefícios.
 
@@ -60,5 +60,5 @@ Use o [Guia do programa de campeões](https://go.microsoft.com/fwlink/?linkid=85
 
 - Treine os campeões de trem cedo e frequentemente: seu programa de lançamento e reuniões mensais podem ser usados para criar habilidades na sua comunidade de defensores. Use essas oportunidades para colocá-las no quadro, conduzir o treinamento inicial, incentivar as pessoas a participarem dos nossos cursos e garantir que estejam prontas para dar suporte aos seus funcionários enquanto avançam na fase de experimentação.  
 
-![Um ícone que representa a próxima](media/teams-adoption-next-icon.png) etapa seguinte: [concluir o início rápido de governança](teams-adoption-governance-quick-start.md)
+![Um ícone que representa a próxima etapa ](media/teams-adoption-next-icon.png) seguinte: [concluir o início rápido de governança](teams-adoption-governance-quick-start.md)
 

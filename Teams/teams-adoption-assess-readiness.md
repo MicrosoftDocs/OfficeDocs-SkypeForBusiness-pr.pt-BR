@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3c34494c08b6c81671c7f36e1ca76593e8d204be
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: aeca6da477147c420c9dea053dbebc465fb491f6
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904763"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350265"
 ---
 # <a name="how-ready-is-your-organization-for-microsoft-teams"></a>Sua organização está preparada para o Microsoft Teams?
 
@@ -64,7 +64,7 @@ Os pioneiros a compartilhar certas características, independentemente do tamanh
 - Disposto a compartilhar suas observações e aprender com o grupo
 - São de risco visuais; ou seja, ele está disposto a tentar algo para ver se funciona
 
-Use um formulário simples no Office 365 para permitir que esses indivíduos optem pelo programa de adoção inicial do teams. Dependendo do tamanho e da complexidade da sua organização, você pode optar por habilitar algumas ou todas essas pessoas para sua fase de experimentação. Neste programa, ele está concordando em participar ativamente da fase de experimentação e fornecer comentários regulares para a equipe do projeto. Evite ter pessoas que simplesmente queiram testar novas tecnologias. Avise que, ao dar este comentário ativo, eles estão ajudando a criar o resultado do seu projeto. Você usará esta lista de pessoas na [fase 2-experimento](teams-adoption-phase2-experiment.md).
+Use um formulário simples no Microsoft 365 ou no Office 365 para permitir que esses indivíduos optem pelo seu programa de adoção inicial do teams. Dependendo do tamanho e da complexidade da sua organização, você pode optar por habilitar algumas ou todas essas pessoas para sua fase de experimentação. Neste programa, ele está concordando em participar ativamente da fase de experimentação e fornecer comentários regulares para a equipe do projeto. Evite ter pessoas que simplesmente queiram testar novas tecnologias. Avise que, ao dar este comentário ativo, eles estão ajudando a criar o resultado do seu projeto. Você usará esta lista de pessoas na [fase 2-experimento](teams-adoption-phase2-experiment.md).
 
 Nosso guia do programa pioneira é um recurso útil para MEUR este programa em seu ambiente.  
  
@@ -104,4 +104,4 @@ Combine esses dados com os perfis do interessado e os funcionários que desejam 
 
 Você pode usar especialistas internos para solucionar o problema de ter tipos de alteração diferentes. Aqui, os comentários são a chave para o sucesso: incentivar as pessoas a compartilharem seus desafios e necessidades. Adote interrupções e disparadores dando a esses indivíduos ou grupos um assento na tabela durante o experimento. Esta prática recomendada abrirá o caminho para uma implantação mais tranqüila de seus aprimoramentos de colaboração.  
 
-![Um ícone que representa a próxima](media/teams-adoption-next-icon.png) etapa seguinte: [adoção 2 da Microsoft Teams. fase 2: experimento](teams-adoption-phase2-experiment.md) 
+![Um ícone que representa a próxima etapa ](media/teams-adoption-next-icon.png) seguinte: [adoção 2 da Microsoft Teams. fase 2: experimento](teams-adoption-phase2-experiment.md) 

@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 00e0cd424de4917cf4a6f84a36b99dbfc3e2f951
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 47b391fa734b06ba9ffbab9cea3d049322bfc034
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44041868"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350115"
 ---
 # <a name="get-started-driving-adoption-of-microsoft-teams"></a>Como começar a promover a adoção do Microsoft Teams
 
@@ -40,9 +40,9 @@ Antes de começar, certifique-se de que:
 
 - Você fez o download da área de trabalho e dos aplicativos móveis. 
 
-## <a name="office-365-adoption-framework"></a>Estrutura de adoção do Office 365
+## <a name="adoption-framework"></a>Estrutura de adoção
 
-O Office 365 tem uma estrutura de adoção que se aplica a grandes cargas de trabalho no serviço. Esta estrutura aborda as etapas básicas que qualquer organização deve adotar para dar suporte a serviços de nuvem. Para saber mais sobre a estrutura geral de adoção, consulte [documentação e recursos do Microsoft Enterprise](https://aka.ms/O365AdoptionHub). 
+O Microsoft 365 e o Office 365 têm uma estrutura de adoção que se aplica a grandes cargas de trabalho no serviço. Esta estrutura aborda as etapas básicas que qualquer organização deve adotar para dar suporte a serviços de nuvem. Para saber mais sobre a estrutura geral de adoção, consulte [documentação e recursos do Microsoft Enterprise](https://aka.ms/O365AdoptionHub). 
 
 Neste plano de adoção do Teams, organizamos as etapas em fases e fornecemos diretrizes específicas da equipe, conforme descrito em [fases de adoção](#adoption-phases), a seguir.
 
@@ -54,9 +54,9 @@ Cada projeto de adoção varia em tamanho e complexidade com base em seu ambient
 
 - **Experimento** -nesta fase de crescimento controlado, você trará seus campeões internos e pioneiros onboards. Você falará com os usuários da sua empresa para identificar os cenários que se beneficiarão imediatamente das funcionalidades de colaboração e comunicação oferecidas pelo Teams. Você coletará comentários que informarão a sua fase de adoção em larga escala e tomará decisões de serviço sobre gerenciamento de controle e ciclo de vida que garantirão uma implantação bem-sucedida.
 
-- **Scale** -esta é a fase de implantação em escala ampla na qual você ativará os recursos do teams para todos os seus funcionários. Nesta fase, o tamanho da sua organização determinará se esse é um projeto "go Big" que ativará o Teams para todos os funcionários simultaneamente ou, se você abordar isso por região, unidade de negócios ou outro método de segmentação da população dos funcionários. Nesta fase, você passará para um modelo de entrega contínua. Funcionários, líderes e unidades de negócios desejarão expandir o uso do Teams e exigirão treinamento e seu envolvimento para compreender melhor o uso do Teams e outros recursos do Office 365.   
+- **Scale** -esta é a fase de implantação em escala ampla na qual você ativará os recursos do teams para todos os seus funcionários. Nesta fase, o tamanho da sua organização determinará se esse é um projeto "go Big" que ativará o Teams para todos os funcionários simultaneamente ou, se você abordar isso por região, unidade de negócios ou outro método de segmentação da população dos funcionários. Nesta fase, você passará para um modelo de entrega contínua. Funcionários, líderes e unidades de negócios desejarão expandir o uso do Teams e exigirão treinamento e seu envolvimento para compreender melhor o uso do Teams e outros recursos do Microsoft 365 ou do Office 365.
 
 Cada uma dessas fases de adoção depende da sua prontidão técnica e ambiental para o Microsoft Teams. Vamos começar!
 
 
-![Um ícone que representa a próxima](media/teams-adoption-next-icon.png) etapa seguinte: [adoção 1 da Microsoft Teams. fase 1: iniciar](teams-adoption-phase1.md)|
+![Um ícone que representa a próxima etapa ](media/teams-adoption-next-icon.png) seguinte: [adoção 1 da Microsoft Teams. fase 1: iniciar](teams-adoption-phase1.md)|

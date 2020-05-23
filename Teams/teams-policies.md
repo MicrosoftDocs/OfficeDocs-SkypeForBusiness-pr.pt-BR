@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.teamsandchannelpolicies.overview
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discover
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.create
-ms.openlocfilehash: 392bbb3c97cf32e815f81073bf662d4d6280ae75
-ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
+ms.openlocfilehash: ce387ec406a9ccfd6ee45a67f2613a45c219f21f
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44326648"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44349695"
 ---
 # <a name="manage-teams-policies-in-microsoft-teams"></a>Gerenciar políticas do teams no Microsoft Teams
 
@@ -65,13 +65,19 @@ Você pode editar a política global ou qualquer política personalizada criada.
 
 Você pode usar o centro de administração do Microsoft Teams para atribuir uma política personalizada a um ou mais usuários ou ao módulo do PowerShell do Skype for Business para atribuir uma política personalizada a grupos de usuários, como um grupo de segurança ou grupo de distribuição.
 
-### <a name="assign-a-custom-teams-policy-to-a-user"></a>Atribuir uma política personalizada do teams a um usuário
+### <a name="assign-a-custom-teams-policy-to-users"></a>Atribuir uma política personalizada do teams aos usuários
 
-1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para **usuários**e, em seguida, clique no usuário.
+Para atribuir uma política a um usuário:
+
+1. Na barra de navegação à esquerda do centro de administração do Microsoft Teams, vá para **Usuários** e clique no usuário.
 2. Clique em **políticas**e, em seguida, ao lado de **políticas atribuídas**, clique em **Editar**.
 3. Em **políticas do teams**, selecione a política que você deseja atribuir e clique em **salvar**.
 
-Para atribuir uma política personalizada do teams a vários usuários de uma só vez, consulte [Editar configurações de usuários do teams em massa](edit-user-settings-in-bulk.md).
+Para atribuir uma política a vários usuários de uma só vez:
+
+1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para **usuários**e procure os usuários ou filtre o modo de exibição para mostrar os usuários que você deseja.
+2. Na coluna **&#x2713;** (marca de seleção), selecione os usuários. Para selecionar todos os usuários, clique no &#x2713; (marca de seleção) na parte superior da tabela.
+3. Clique em **Editar configurações**, faça as alterações desejadas e, em seguida, clique em **aplicar**.  
 
 Ou, você também pode fazer o seguinte:
 
@@ -108,3 +114,4 @@ Dependendo do número de membros do grupo, esse comando pode levar alguns minuto
 
 - [Gerenciar a descoberta de equipes privadas no Teams](manage-discovery-of-private-teams.md)
 - [Canais privados no Teams](private-channels.md)
+- [Atribuir políticas a seus usuários no Teams](assign-policies.md)

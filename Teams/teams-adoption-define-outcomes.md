@@ -21,12 +21,12 @@ f1.keywords:
 description: Saiba como medir os resultados e o sucesso de sua habilitação em escala ampla de equipes.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f963acb58369e7b623969cb518f53249912bfd67
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 5a51caae2e8d8e9005aad3d8e669eead3b7a0765
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140794"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350135"
 ---
 # <a name="define-outcomes-and-success-for-your-microsoft-teams-adoption"></a>Definir os resultados e o sucesso da adoção do Microsoft Teams
 
@@ -79,13 +79,13 @@ O Teams é uma tecnologia Transformative, portanto, dependendo do tamanho da sua
 | Teams First | Teams Core | As equipes ficam grandes | Skype lado a lado | Migração |
 |------------ | ---------- | ------------ | ------------------ | --------- |
 | Implantação de nuvem líder com o Teams | Habilitação do cenário de colaboração líder com equipes | Todos os funcionários em equipes e em equipes de toda a organização | Habilitar o Microsoft Teams e o Skype for Business | Migrar usuários do Skype for Business para o Teams |
-| -Aplicável aos novos ou baixos usos do Office 365 para clientes <br/>-Liderar com o Microsoft Teams no cenário específico do cliente <br/>-Destaque a experiência do usuário integrado e o tempo de implantação acelerado para o Office 365 <br/>-Realize a habilitação de carga de trabalho de planejamento para evitar a implementação em série | -Habilitar equipes juntamente com o OneDrive e o SharePoint Online <br/>-Criar uma intranet corporativa para compartilhar recursos de notícias e vídeo com o Microsoft Stream<br/>**Melhor juntos**: <br/>Teams<br/>SharePoint<br/>Yammer<br/>Planner<br/>PowerApps |-Para clientes com menos de 5000 estações (limitação atual)<br/>-Habilitar a colaboração entre organizações com uma equipe para todos<br/>-Automatizar tarefas comuns (solicitações de férias, pesquisas de funcionários, envolvimento executivo) |-Use as táticas essenciais do teams para acelerar a colaboração<br/>-Destaque as diretrizes de cenário de reunião com base no tamanho e no conjunto de recursos necessários</br>-Usar o Skype for Business para chamadas, interoperabilidade e cenários híbridos da empresa<br/>-Use um roteiro público para planejamento de recursos. |-Plano passe para o Teams do Skype for Business criando roteiro de estratégia de serviço para o cliente<br/>-Anexar ao recurso cronograma de lançamento<br/>-Recomendável incluir o lado a lado e o Teams Core para facilitar a transição
+| -Aplicável ao uso novo ou baixo do Microsoft 365 ou do Office 365 para clientes <br/>-Liderar com o Microsoft Teams no cenário específico do cliente <br/>-Destaque a experiência do usuário integrado e o tempo de implantação acelerado para o Microsoft 365 ou o Office 365 <br/>-Realize a habilitação de carga de trabalho de planejamento para evitar a implementação em série | -Habilitar equipes juntamente com o OneDrive e o SharePoint Online <br/>-Criar uma intranet corporativa para compartilhar recursos de notícias e vídeo com o Microsoft Stream<br/>**Melhor juntos**: <br/>Teams<br/>SharePoint<br/>Yammer<br/>Planner<br/>PowerApps |-Para clientes com menos de 5000 estações (limitação atual)<br/>-Habilitar a colaboração entre organizações com uma equipe para todos<br/>-Automatizar tarefas comuns (solicitações de férias, pesquisas de funcionários, envolvimento executivo) |-Use as táticas essenciais do teams para acelerar a colaboração<br/>-Destaque as diretrizes de cenário de reunião com base no tamanho e no conjunto de recursos necessários</br>-Usar o Skype for Business para chamadas, interoperabilidade e cenários híbridos da empresa<br/>-Use um roteiro público para planejamento de recursos. |-Plano passe para o Teams do Skype for Business criando roteiro de estratégia de serviço para o cliente<br/>-Anexar ao recurso cronograma de lançamento<br/>-Recomendável incluir o lado a lado e o Teams Core para facilitar a transição
 
 Veja a seguir nossas recomendações para a maioria das organizações de clientes. No entanto, há exceções. Para obter orientação para qualquer cenário não abordado aqui, faça suas perguntas na nossa comunidade de adoção e entre em contato com a equipe FastTrack ou a rede de parceiros da Microsoft.
 
 - **Escolha o Microsoft Teams primeiro ou o Teams Core**: a maioria das organizações tem um investimento existente na tecnologia da Microsoft. Você pode estar habilitando mais de uma carga de trabalho de cada vez, como o Exchange Online, o OneDrive for Business ou o SharePoint. Nesses casos, selecionar o Teams primeiro ou o Teams Core é uma opção inteligente. Ele permitirá que os usuários sejam usados para a experiência de colaboração aprimorada do teams. Sua equipe de projeto de colaboração pode planejar a implementação de recursos adicionais e o treinamento e o suporte necessários para que eles sejam bem-sucedidos. 
 
-- **Escolha as equipes se tornarem grandes**: nas novas organizações do cliente do Office 365, muitas vezes é melhor fazer uma equipe ter uma abordagem grande para minimizar a mudança cansativo causada pela aprendizagem de nova tecnologia várias vezes. Você terá o maior benefício ao habilitar o Microsoft Teams para colaboração e reuniões principais, SharePoint, OneDrive, Planner e outras cargas de trabalho e permitir que seus funcionários aprendam sobre elas no contexto da implantação de suas equipes. 
+- **Escolher o Microsoft Teams é muito grande**: no novo Microsoft 365 ou nas organizações do cliente do Office 365, geralmente é melhor fazer uma equipe ter uma abordagem grande para minimizar a mudança cansativo causada pela aprendizagem de nova tecnologia várias vezes. Você terá o maior benefício ao habilitar o Microsoft Teams para colaboração e reuniões principais, SharePoint, OneDrive, Planner e outras cargas de trabalho e permitir que seus funcionários aprendam sobre elas no contexto da implantação de suas equipes. 
 
     O Teams go Big também é a estratégia de capacitação preferida para organizações em 1.000 funcionários que desejam simplificar a comunicação e o envolvimento dos funcionários. Usar a equipe em toda a organização pode reunir as pessoas para revisar as tarefas e iniciativas comuns em qualquer dispositivo. 
 
@@ -137,7 +137,7 @@ Exemplo de práticas recomendadas de gerenciamento e provisionamento em nível d
 
 Uma parte essencial do direcionamento de transformação digital e uso no Microsoft Teams é trabalhar com as unidades de negócios para compreender quais são as necessidades, oportunidades e dificuldades. Embora seja semelhante à tradicional ti para a conversa empresarial, o foco deve estar no que é necessário. Ouça antes de mudar para os requisitos técnicos. Em muitos casos, os recursos prontos para o Microsoft Teams atendem às necessidades da sua organização.   
 
-Prática recomendada: antes de considerar o desenvolvimento de uma solução personalizada, certifique-se de que sua organização esteja totalmente usando os recursos de ausência temporária do Office 365. O desenvolvimento de solução personalizada sempre incorre em custos de longo prazo para seus departamentos de ti e suporte.
+Prática recomendada: antes de considerar o desenvolvimento de uma solução personalizada, certifique-se de que sua organização esteja totalmente usando os recursos prontos do Microsoft 365 ou do Office 365. O desenvolvimento de solução personalizada sempre incorre em custos de longo prazo para seus departamentos de ti e suporte.
  
 Siga as etapas a seguir para simplificar o trabalho com unidades de negócios.  Reconheça isso em empresas muito grandes e multinacionais esse processo pode continuar muito depois de sua primeira implantação de escala grande do Microsoft Teams:
 
@@ -147,4 +147,4 @@ Siga as etapas a seguir para simplificar o trabalho com unidades de negócios.  
 4. Capture comentários e desenvolva especialistas com o conhecimento da unidade de negócios para dar suporte à transição
 5. Configurar pontos de verificação mensais para discutir o progresso e priorizar a lista de pendências de projetos adicionais.
 
-![Um ícone que representa a próxima](media/teams-adoption-next-icon.png) etapa seguinte: [otimizar comentários e relatórios](teams-adoption-optimize-feedback-and-reporting.md)
+![Um ícone que representa a próxima etapa ](media/teams-adoption-next-icon.png) seguinte: [otimizar comentários e relatórios](teams-adoption-optimize-feedback-and-reporting.md)

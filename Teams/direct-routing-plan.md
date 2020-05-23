@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Saiba como o roteamento direto do Microsoft Phone System permite conectar um controlador de borda de sessão (SBC) compatível fornecido pelo cliente a um sistema telefônico da Microsoft.
-ms.openlocfilehash: 14b14302aa3f75a164e6e6dbbef5cc91fc2b47cf
-ms.sourcegitcommit: f63cf7fdde333a7cb36c39e9b6cdc33afd2b4601
+ms.openlocfilehash: e2bef46f65297cccc573f2e63dedda0e2aca61e7
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "44338231"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44349595"
 ---
 # <a name="plan-direct-routing"></a>Planejar o Roteamento Direto
 
@@ -285,6 +285,7 @@ O tráfego de mídia flui para e de um serviço separado na nuvem da Microsoft. 
 ### <a name="office-365-and-office-365-gcc-environments"></a>Ambientes do Office 365 e do Office 365 GCC
 
 - 52.112.0.0/14 (endereços IP de 52.112.0.1 para 52.115.255.254).
+- 52.120.0.0/14 (endereços IP de 52.120.0.1 para 52.123.255.254).
 
 ### <a name="office-365-gcc-dod-environment"></a>Ambiente do Office 365 GCC DoD
 

@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 11192ca8bc1fe7e273e687363bf327fcd0c3078e
-ms.sourcegitcommit: 3325fd9de57367e9dd60685d1fef096921441a76
+ms.openlocfilehash: 59c3d9d6ee6da2881aff52efa77c3d13678b560a
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "43997162"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350225"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams para Infraestrutura de Área de Trabalho Virtualizada
 
@@ -237,7 +237,7 @@ Como fazer [**chamadas para políticas**](teams-calling-policy.md): o Teams incl
 
 #### <a name="assign-policies-using-the-microsoft-teams-admin-center"></a>Atribuir políticas usando o centro de administração do Microsoft Teams
 
-Para atribuir a política de chamada do DisallowCalling e a política de reunião do AllOff aos usuários, siga estas etapas:
+Para atribuir a política de chamada do DisallowCalling e a política de reunião do AllOff a um usuário:
 
 1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para **usuários**.
 2. Selecione o usuário clicando à esquerda do nome de exibição do usuário e clique em **Editar configurações**.
@@ -246,13 +246,17 @@ Para atribuir a política de chamada do DisallowCalling e a política de reuniã
     2.  Em **política de reunião**, clique em **AllOff**.
 4. Clique em **Aplicar**.
 
-Para atribuir uma política a vários usuários de uma só vez, confira [Editar as configurações de usuários do Teams em massa](edit-user-settings-in-bulk.md).
+Para atribuir uma política a vários usuários de uma só vez:
+
+1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para **usuários**e procure os usuários ou filtre o modo de exibição para mostrar os usuários que você deseja.
+2. Na coluna **&#x2713;** (marca de seleção), selecione os usuários. Para selecionar todos os usuários, clique no &#x2713; (marca de seleção) na parte superior da tabela.
+3. Clique em **Editar configurações**, faça as alterações desejadas e, em seguida, clique em **aplicar**.  
 
 Ou, você também pode fazer o seguinte:
 
 1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para a política que você deseja atribuir. Por exemplo:
-    - Vá para **Voice** > **políticas de chamadas**de voz e clique em **DisallowCalling**.
-    - Vá para **Meetings** > **políticas de reunião**de reuniões e clique em **AllOff**.
+    - Vá para **Voice**  >  **políticas de chamadas**de voz e clique em **DisallowCalling**.
+    - Vá para **Meetings**  >  **políticas de reunião**de reuniões e clique em **AllOff**.
 3. Selecione **Gerenciar usuários**.
 4. No painel **Gerenciar usuários**, procure o usuário pelo nome de exibição ou pelo nome de usuário, escolha o nome e clique em **Adicionar**. Repita esta etapa para cada usuário que você deseja adicionar.
 5. Quando tiver terminado de adicionar usuários, clique em **salvar**.
@@ -289,7 +293,7 @@ Como fazer [**chamadas**](teams-calling-policy.md)para políticas: as políticas
 
 #### <a name="assign-policies-using-the-microsoft-teams-admin-center"></a>Atribuir políticas usando o centro de administração do Microsoft Teams
 
-Para atribuir a política de chamada do AllowCalling e a política de reunião do usuário para os usuários, siga estas etapas:
+Para atribuir a política de chamada do AllowCalling e a política de reunião do enistor a um usuário:
 
 1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para **usuários**.
 2. Selecione o usuário clicando à esquerda do nome de exibição do usuário e clique em **Editar configurações**.
@@ -298,13 +302,17 @@ Para atribuir a política de chamada do AllowCalling e a política de reunião d
     2.  Em **política de reunião**, clique em **permitir**.
 4. Clique em **Aplicar**.
 
-Para atribuir uma política a vários usuários de uma só vez, confira [Editar as configurações de usuários do Teams em massa](edit-user-settings-in-bulk.md).
+Para atribuir uma política a vários usuários de uma só vez:
+
+1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para **usuários**e procure os usuários ou filtre o modo de exibição para mostrar os usuários que você deseja.
+2. Na coluna **&#x2713;** (marca de seleção), selecione os usuários. Para selecionar todos os usuários, clique no &#x2713; (marca de seleção) na parte superior da tabela.
+3. Clique em **Editar configurações**, faça as alterações desejadas e, em seguida, clique em **aplicar**.  
 
 Ou, você também pode fazer o seguinte:
 
 1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para a política que você deseja atribuir. Por exemplo:
-    - Vá para **Voice** > **políticas de chamadas**de voz e clique em **AllowCalling**.
-    - Vá para **Meetings** > **políticas de reunião**de reuniões e clique em **permitir**.
+    - Vá para **Voice**  >  **políticas de chamadas**de voz e clique em **AllowCalling**.
+    - Vá para **Meetings**  >  **políticas de reunião**de reuniões e clique em **permitir**.
 3. Selecione **Gerenciar usuários**.
 4. No painel **Gerenciar usuários**, procure o usuário pelo nome de exibição ou pelo nome de usuário, escolha o nome e clique em **Adicionar**. Repita esta etapa para cada usuário que você deseja adicionar.
 5. Quando tiver terminado de adicionar usuários, clique em **salvar**.

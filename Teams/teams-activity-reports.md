@@ -18,12 +18,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f1eb02b7755ecfaa78b3b5ad511f45052a7807b5
-ms.sourcegitcommit: 296aeac481f901eb9d52b4f12a8c037afc49fa77
+ms.openlocfilehash: 211bf51e0221ecaba29cee9e9a859c0a6acf9332
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "44256386"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44349975"
 ---
 <a name="use-activity-reports-for-microsoft-teams"></a>Usar relatórios de atividades do Microsoft Teams 
 ========================================
@@ -107,7 +107,7 @@ Você pode atribuir a função de *Leitor de Relatórios* a uma equipe que não 
 
 ### <a name="at-a-glance-activity-widget"></a>Widget atividade rápida
 
-O painel relatórios inclui os dados de uso do Teams no widget atividades rápidas, que oferece uma visão de produto de como os usuários podem se comunicar e colaborar usando os demais serviços do Office 365.
+O painel relatórios inclui os dados de uso do teams no widget atividade em resumo, que oferece uma visão geral de como os usuários se comunicam e colaboram usando os vários serviços do Microsoft 365 ou do Office 365.
 
 ![Captura de tela do widget atividade rápida do Teams.](media/at-a-glance-activity-widget.png)
 

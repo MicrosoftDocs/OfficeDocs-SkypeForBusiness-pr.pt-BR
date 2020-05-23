@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f7000c3555a660fc692b7b88b0d94fb3ea42742c
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 2c71cc945c3de6b6a4446ab44db4fbc2a4e43520
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140738"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350235"
 ---
 # <a name="onboard-early-adopters-and-gather-feedback-for-microsoft-teams"></a>Integração de usuários pioneiros e coleta de comentários do Microsoft Teams
 
@@ -41,7 +41,7 @@ Conclua as etapas a seguir com estes primeiros adeptos:
 
 ## <a name="gather-feedback"></a>Coletar comentários
 
-Use os componentes do Office 365 para coletar comentários sobre o seu projeto.
+Use os componentes do Microsoft 365 ou do Office 365 para reunir comentários para o seu projeto.
   
 ![Um ícone representando um ponto de decisão](media/teams-adoption-decision-icon.png) Decisão: se sua organização já tem um investimento em uma rede do Yammer, você pode usá-la como um fórum de comentários para o seu programa pioneiro. Caso contrário, e seu programa pioneiro tiver menos de 5000 membros, crie uma equipe no Teams para coletar comentários e fornecer treinamento.
   
@@ -49,4 +49,4 @@ Use os componentes do Office 365 para coletar comentários sobre o seu projeto.
 > Algumas organizações combinarão os canais para o feedback mais cedo para a equipe do programa de campeões do trabalho em equipe. Trata-se de uma boa abordagem, pois muitos dos pioneiros podem se tornar especialistas no futuro, e criar uma comunidade mais forte. 
 
 
-![Um ícone que representa a próxima](media/teams-adoption-next-icon.png) etapa seguinte: [suporte onboard](teams-adoption-onboard-support.md).
+![Um ícone que representa a próxima etapa ](media/teams-adoption-next-icon.png) seguinte: [suporte onboard](teams-adoption-onboard-support.md).

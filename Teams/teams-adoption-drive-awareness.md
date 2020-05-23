@@ -21,16 +21,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f5539d13811a5bc4a59ef5fa8767d229baf38dea
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 52c259098a1d31fdd601d1cce06ea1b685e774bf
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904346"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350125"
 ---
 # <a name="drive-awareness-and-implement-training-for-microsoft-teams"></a>Promover a conscientização e implementar o treinamento do Microsoft Teams
 
-Conscientização e treinamento são o segmento de marketing e comunicações de sua estratégia geral de adoção. Isso garantirá que seus funcionários estejam cientes dos novos recursos do Microsoft Teams e de seus serviços e aplicativos do Office 365 subjacentes.
+Conscientização e treinamento são o segmento de marketing e comunicações de sua estratégia geral de adoção. Isso garantirá que seus funcionários estejam cientes dos novos recursos do Microsoft Teams e seus serviços e aplicativos do Microsoft 365 ou do Office 365 subjacentes.
    
 Para os seus pilotos iniciais e para a sua distribuição final na empresa, suas comunicações internas devem ser uma prioridade. Eles devem incluir:
 
@@ -49,13 +49,13 @@ Se a sua empresa tiver um portal de intranet central para notícias, informaçõ
 
 ## <a name="implement-end-user-training"></a>Implementar o treinamento do usuário final
 
-Use nossos recursos para fornecer treinamento de usuário final à medida que as pessoas começarem a usar o Microsoft Teams e outros serviços do Office 365. Acesse nossas páginas de recursos para saber mais:
+Use nossos recursos para fornecer treinamento de usuário final à medida que as pessoas começarem a usar o Microsoft Teams e outros serviços do Microsoft 365 ou do Office 365. Acesse nossas páginas de recursos para saber mais:
 
 - [Treinamento do usuário final do instrutor ministrado por instrutor para equipes](instructor-led-training-teams-landing-page.md)
 - [Treinamento do administrador para Teams](itadmin-readiness.md)
 - [Treinamento em vídeo do usuário final online](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
 - [Café no treinamento online da nuvem para campeões & profissionais de ti](https://aka.ms/CoffeeintheCloud) 
-- [Dia da vida útil do treinamento do Office 365 planilhas de referências](https://aka.ms/O365AdoptionTools)
+- [Dia da vida útil do treinamento do Microsoft 365 e do Office 365](https://aka.ms/O365AdoptionTools)
 
 ## <a name="measure-and-share-success"></a>Mensure e compartilhe o sucesso
 
@@ -71,4 +71,4 @@ Compartilhe as ideias obtidas de seus canais de feedback com a #TeamsStories de 
 
 [Saiba mais sobre os relatórios de uso do Microsoft Teams no centro de administração do Microsoft 365.](teams-activity-reports.md)
 
-![Um ícone que representa as próximas etapas](media/teams-adoption-next-icon.png) a seguir: [agendar análises de integridade do serviço](teams-adoption-schedule-service-health-reviews.md)
+![Um ícone que representa as próximas etapas a ](media/teams-adoption-next-icon.png) seguir: [agendar análises de integridade do serviço](teams-adoption-schedule-service-health-reviews.md)

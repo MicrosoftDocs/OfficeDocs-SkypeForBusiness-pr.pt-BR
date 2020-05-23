@@ -17,18 +17,18 @@ localization_priority: Normal
 search.appverid: MET150
 description: Saiba como usar e gerenciar políticas de roteamento de chamadas de emergência no Microsoft Teams para configurar números de emergência e especificar como as chamadas de emergência são roteadas.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 310f2d3177f7a601013859d06a90f6d1ba44c656
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: cf47bc27ddc72d6f767815b5323b69f6e5fd00ca
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905113"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350205"
 ---
 # <a name="manage-emergency-call-routing-policies-in-microsoft-teams"></a>Gerenciar políticas de roteamento de chamadas de emergência no Microsoft Teams
 
 Se você implantou o roteamento direto do sistema telefônico em sua organização, poderá usar as políticas de roteamento de chamadas de emergência no Microsoft Teams para configurar os números de emergência e especificar como as chamadas de emergência serão roteadas. Uma política de roteamento de chamadas de emergência determina se os serviços de emergência avançados estão habilitados para usuários que receberam a política, os números usados para chamar serviços de emergência (por exemplo, 911 nos Estados Unidos) e como as chamadas para serviços de emergência são roteadas.
 
-Para gerenciar as políticas de roteamento de chamadas de emergência, acesse**as políticas de emergência** de **voz** > no centro de administração do Microsoft Teams ou usando o Windows PowerShell. As políticas podem ser atribuídas a usuários e [sites de rede](cloud-voice-network-settings.md).
+Para gerenciar as políticas de roteamento de chamadas de **Voice**emergência,  >  acesse**as políticas de emergência** de voz no centro de administração do Microsoft Teams ou usando o Windows PowerShell. As políticas podem ser atribuídas a usuários e [sites de rede](cloud-voice-network-settings.md).
 
 Para os usuários, você pode usar a política global (padrão para toda a organização) ou criar e atribuir políticas personalizadas. Os usuários receberão automaticamente a política global, a menos que você crie e atribua uma política personalizada. Lembre-se de que você pode editar as configurações na política global, mas não pode renomeá-la ou excluí-la. Para sites de rede, você cria e atribui políticas personalizadas.
 
@@ -38,14 +38,14 @@ Se você tiver atribuído uma política de roteamento de chamadas de emergência
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Usando o centro de administração do Microsoft Teams
 
-1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para**políticas de emergência**de **voz** > e clique na guia **políticas de roteamento de chamadas** .
+1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para políticas de emergência de **voz**  >  **Emergency policies**e clique na guia **políticas de roteamento de chamadas** .
 2. Clique em **Adicionar**.
 3. Insira um nome e uma descrição para a política.
 4. Para habilitar serviços de emergência avançados, ative os **serviços de emergência avançados**. Quando os serviços de emergência aprimorados são habilitados, o Teams recupera informações de política e local do serviço e inclui essas informações como parte da chamada de emergência.
 5. Defina um ou mais números de emergência. Para fazer isso, em **números de emergência**, faça o seguinte:
     1. **Cadeia de discagem de emergência**: digite a cadeia de caracteres de discagem de emergência. Esta cadeia de caracteres de discagem indica que uma chamada é uma chamada de emergência.
         > [!NOTE]
-        > Para roteamento direto, estamos migrando de clientes do teams que enviam chamadas de emergência com "+" na frente da cadeia de discagem de emergência. Até que a transição seja concluída, o padrão de rota de voz para corresponder a uma cadeia de discagem de emergência deve garantir que seja feita uma correspondência para cadeias de caracteres que tenham e não tenham um "+" anterior, como 911 e + 911. Por exemplo, ^\\+? 911 ou. *.
+        > Para roteamento direto, estamos migrando de clientes do teams que enviam chamadas de emergência com "+" na frente da cadeia de discagem de emergência. Até que a transição seja concluída, o padrão de rota de voz para corresponder a uma cadeia de discagem de emergência deve garantir que seja feita uma correspondência para cadeias de caracteres que tenham e não tenham um "+" anterior, como 911 e + 911. Por exemplo, ^ \\ +? 911 ou. *.
     2. **Máscara de discagem de emergência**: para cada número de emergência, você pode especificar zero ou mais máscaras de discagem de emergência. Uma máscara de discagem é o número que você deseja traduzir para o valor da cadeia de caracteres de discagem de emergência. Isso permite que números de emergência alternativos sejam discados e ainda que a chamada atinja serviços de emergência. <br>Por exemplo, você adiciona 112 como a máscara de discagem de emergência, que é o número do serviço de emergência para a maioria da Europa e 911 como a cadeia de discagem de emergência. Um usuário do teams da Europa que está visitando talvez não saiba que 911 é o número de emergência nos Estados Unidos e, quando discam o 112, a chamada é feita ao 911. Para definir várias máscaras de discagem, separe cada valor por um ponto-e-vírgula. Por exemplo, 112; 212.
     3. **Uso de PSTN**: selecione o uso da rede telefônica pública comutada (PSTN). O uso de PSTN é usado para determinar qual rota é usada para direcionar chamadas de emergência de usuários que estão autorizados a usá-las. O roteiro associado a esse uso deve apontar para um tronco SIP dedicado a chamadas de emergência ou para um gateway de número de identificação de local de emergência (ELIN) que roteia as chamadas de emergência para o ponto de resposta de segurança pública mais próximo (PSAP).
 
@@ -64,7 +64,7 @@ Veja [New-CsTeamsEmergencyCallRoutingPolicy](https://docs.microsoft.com/powershe
 
 Você pode editar a política global ou qualquer política personalizada criada.
 
-1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para**políticas de emergência**de **voz** > e clique na guia **políticas de roteamento de chamadas** .
+1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para políticas de emergência de **voz**  >  **Emergency policies**e clique na guia **políticas de roteamento de chamadas** .
 2. Selecione a política clicando à esquerda do nome da política e, em seguida, clique em **Editar**.
 3. Faça as alterações desejadas e clique em **salvar**.
 
@@ -76,15 +76,21 @@ Consulte [set-CsTeamsEmergencyCallRoutingPolicy](https://docs.microsoft.com/powe
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Usando o centro de administração do Microsoft Teams
 
+Para atribuir uma política a um usuário:
+
 1. Na barra de navegação à esquerda do centro de administração do Microsoft Teams, vá para **Usuários** e clique no usuário.
 2. Clique em **políticas**e, em seguida, ao lado de **políticas atribuídas**, clique em **Editar**.
 3. Em **política de roteamento de chamada de emergência**, selecione a política que você deseja atribuir e clique em **salvar**.
 
-Para atribuir uma política personalizada do teams a vários usuários de uma só vez, consulte [Editar configurações de usuários do teams em massa](edit-user-settings-in-bulk.md).
+Para atribuir uma política a vários usuários de uma só vez:
+
+1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para **usuários**e procure os usuários ou filtre o modo de exibição para mostrar os usuários que você deseja.
+2. Na coluna **&#x2713;** (marca de seleção), selecione os usuários. Para selecionar todos os usuários, clique no &#x2713; (marca de seleção) na parte superior da tabela.
+3. Clique em **Editar configurações**, faça as alterações desejadas e, em seguida, clique em **aplicar**.  
 
 Ou, você também pode fazer o seguinte:
 
-1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para**políticas de emergência**de **voz** > e clique na guia **políticas de roteamento de chamadas** .
+1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para políticas de emergência de **voz**  >  **Emergency policies**e clique na guia **políticas de roteamento de chamadas** .
 2. Escolha a política clicando à esquerda do nome da política.
 3. Escolha **Gerenciar usuários**.
 4. No painel **Gerenciar usuários**, procure o usuário pelo nome de exibição ou pelo nome de usuário, escolha o nome e marque **Adicionar**. Repita esta etapa para cada usuário que você deseja adicionar.
@@ -133,3 +139,4 @@ Set-CsTenantNetworkSite -identity "site1" -EmergencyCallRoutingPolicy "Emergency
 
 - [Gerenciar políticas de chamadas de emergência no Teams](manage-emergency-calling-policies.md)
 - [Visão Geral do PowerShell do Teams](teams-powershell-overview.md)
+- [Atribuir políticas a seus usuários no Teams](assign-policies.md)

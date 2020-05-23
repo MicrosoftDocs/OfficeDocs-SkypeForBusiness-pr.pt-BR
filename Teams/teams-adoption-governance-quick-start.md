@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7b24fd6e6ea957c085050dd1311ec536800b706b
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: a65a9c43ba6828781c53b14e739ba92593ca934c
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904316"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350245"
 ---
 # <a name="governance-quick-start-for-microsoft-teams"></a>Início rápido de governança no Microsoft Teams
 
@@ -64,10 +64,10 @@ A experiência de reunião do teams é de alta qualidade, compatível com vídeo
 
 ### <a name="decision-6--data-security"></a>Decisão 6: segurança de dados
 
-Em preparação para a sua ampla implantação, você pode optar por usar rótulos de segurança para classificar os tipos de equipe em seu ambiente. Para os fins deste experimento, recomendamos que você faça referência ao [plano de governança no Teams](plan-teams-governance.md) e assegure-se de que uma política de retenção básica tenha sido definida nos dados do teams no Microsoft 365 ou no Office 365. Talvez seja necessário coordenar esse trabalho com sua equipe técnica, porque é necessário ter direitos de administrador do Office 365 para concluir esse trabalho.
+Em preparação para a sua ampla implantação, você pode optar por usar rótulos de segurança para classificar os tipos de equipe em seu ambiente. Para os fins deste experimento, recomendamos que você faça referência ao [plano de governança no Teams](plan-teams-governance.md) e assegure-se de que uma política de retenção básica tenha sido definida nos dados do teams no Microsoft 365 ou no Office 365. Talvez seja necessário coordenar esse trabalho com sua equipe técnica, pois os direitos de administrador do Microsoft 365 ou do Office 365 são necessários para concluir esse trabalho.
 
 ### <a name="decision-7-length-of-your-experiment"></a>Decisão 7: duração do seu experimento
 
 Uma implementação de equipe bem-sucedida continua a um ritmo saudável para garantir a impulso, o foco e os aprendizados adequados. Recomendamos que esta fase do seu projeto tenha 60 dias de duração para garantir que seus primeiros pioneiros completem ciclos de negócios suficientes. Estendendo a experimentação por muito tempo aumenta o risco de um programa de alteração com falha; no entanto, esse tempo vai variar para cada organização.  
 
-![Um ícone que representa a próxima](media/teams-adoption-next-icon.png) etapa seguinte: [definir cenários de uso](teams-adoption-define-usage-scenarios.md)
+![Um ícone que representa a próxima etapa ](media/teams-adoption-next-icon.png) seguinte: [definir cenários de uso](teams-adoption-define-usage-scenarios.md)

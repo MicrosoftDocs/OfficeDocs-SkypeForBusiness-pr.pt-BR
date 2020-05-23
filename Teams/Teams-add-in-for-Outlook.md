@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a836ac2e2c5e461e8c2feacda4bfd3b569593a6a
-ms.sourcegitcommit: 1a6b4efad1e6a958cdbaae4b0e2e231145c9658f
+ms.openlocfilehash: 89e7db133b8878e77dbf14025b97c658b0de21e4
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44321610"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44349605"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Usar o suplemento de Reunião do Teams no Outlook
 =======================================
@@ -44,7 +44,7 @@ O suplemento de reunião do teams é instalado automaticamente para os usuários
 
 ## <a name="teams-meeting-add-in-in-outlook-for-mac"></a>Suplemento de reunião do Teams no Outlook para Mac
 
-O botão Reunião do Teams no Outlook para Mac aparecerá na faixa de opções do Outlook para Mac se o Outlook estiver executando o build de produção 16.24.414.0 e posterior, e estiver ativado com uma assinatura de cliente do Office 365.
+O botão reunião do teams no Outlook para Mac será exibido na faixa de opções do Outlook para Mac se o Outlook estiver executando o Build Build 16.24.414.0 e posterior e estiver ativado com uma assinatura do Microsoft 365 ou do Office 365 Client.
 
 As coordenadas da reunião (os números de discagem e de ingresso no Teams) serão adicionadas ao convite da reunião depois que o usuário clicar em **Enviar**.  
 

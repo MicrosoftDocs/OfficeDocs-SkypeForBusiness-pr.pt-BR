@@ -16,25 +16,25 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9475b323e1b9b04c5735a656eac5766b8a110810
-ms.sourcegitcommit: 48b24ccf133c9d03b0d1d4eea1ec275b2be5e3bb
+ms.openlocfilehash: ca63f95bb95a304fc410b402a68a52e5b1aeca9e
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2020
-ms.locfileid: "44016175"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44349635"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Como o Exchange e o Microsoft Teams interagem
 
 > [!Tip]
 > Assista à sessão a seguir para saber como as equipes interagem com o Azure Active Directory (AAD), o Microsoft 365 Groups, o Exchange, o SharePoint e o OneDrive for Business: [noções básicas do Microsoft Teams](https://aka.ms/teams-foundations)
 
-Para a experiência completa com o Teams, todos os usuários devem estar habilitados para o Exchange Online, para o SharePoint Online e para a criação de grupos no Office 365.
+Para toda a experiência do Teams, todos os usuários devem ser habilitados para a criação de grupos do Exchange Online, do SharePoint Online e do Microsoft 365.
 
 As caixas de correio dos usuários do Exchange não podem ficar hospedadas online nem no local. A integração com o Exchange local requer uma implantação híbrida do Exchange. Para obter mais informações sobre como configurar uma implantação híbrida, consulte [implantações híbridas do Exchange Server](https://docs.microsoft.com/exchange/exchange-hybrid).
 
 Os usuários hospedados no Exchange Online ou no Exchange Dedicated vNext podem usar todos os recursos do Microsoft Teams. Eles podem criar e ingressar em equipes e canais, criar e exibir reuniões, ligar e bater papo, modificar imagens de perfil de usuário (se a política de caixa de correio do Outlook na Web permitir que elas façam isso) e adicionar e configurar conectores, guias e bots.
 
-Os usuários hospedados no Exchange Online dedicado (Herdado) devem ser sincronizados com o Azure Active Directory no Office 365. Eles podem criar e ingressar em equipes e canais, adicionar e configurar guias e bots e usar os recursos de chat e chamadas. No entanto, eles não podem modificar imagens de perfil, gerenciar reuniões, acessar contatos do Outlook ou gerenciar conectores.
+Os usuários hospedados no Exchange Online dedicado (Herdado) devem ser sincronizados com o Azure Active Directory no Microsoft 365 ou o Office 365. Eles podem criar e ingressar em equipes e canais, adicionar e configurar guias e bots e usar os recursos de chat e chamadas. No entanto, eles não podem modificar imagens de perfil, gerenciar reuniões, acessar contatos do Outlook ou gerenciar conectores.
 
 Os usuários com caixas de correio hospedadas no local devem ser sincronizados com o Azure Active Directory. Eles podem usar todos os recursos no cenário acima, mas além disso, também podem alterar a imagem do perfil do usuário (se a política de caixa de correio do Outlook na Web permitir que elas façam isso) e gerenciar reuniões, fornecer o Exchange Server 2016 (atualização cumulativa 3), ou posterior, estiver em execução no local com o OAuth configurado (preferencialmente por meio do assistente de configuração híbrida do Exchange), conforme descrito em [Configurar a autenticação OAuth entre](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help) Para habilitar a delegação de calendário para esses usuários, você também deve completar as etapas 2-3 conforme descrito em [Configurar a integração e o OAuth entre o Skype for Business Online e o Exchange Server](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises); essas etapas fornecerão ao aplicativo agendamento de equipe as permissões necessárias para confirmar as permissões de representante.   
 
@@ -45,12 +45,12 @@ A tabela a seguir fornece uma referência rápida útil para a disponibilidade d
 
 **Ações suportadas:**
 
-| A caixa de correio do usuário está hospedada em: | eDiscovery| Controle&nbsp;legal | Tention| Gerenciamento de canal e equipe |Criar e exibir reuniões no Microsoft Teams| Modificar fotos de perfil de usuário | Histórico de chamadas | Gerenciar contatos | Acessar contatos do Outlook | Caixa postal |Adicionar e configurar conectores|Adicionar e configurar guias|Adicionar e configurar bots| 
+| A caixa de correio do usuário está hospedada em: | eDiscovery| &nbsp;Controle legal | Tention| Gerenciamento de canal e equipe |Criar e exibir reuniões no Microsoft Teams| Modificar fotos de perfil de usuário | Histórico de chamadas | Gerenciar contatos | Acessar contatos do Outlook | Caixa postal |Adicionar e configurar conectores|Adicionar e configurar guias|Adicionar e configurar bots| 
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 |**Exchange Online**|Sim <sup>2</sup>|Sim <sup>2</sup>|Sim |Sim |Sim|Sim<sup>8</sup>|Sim |Sim|Sim <sup>7</sup>|Sim |Sim |Sim |Sim|
 |**Exchange Online Dedicated vNext**|Sim <sup>2</sup>|Sim <sup>2</sup>|Sim |Sim |Sim|Sim<sup>8</sup>|Sim |Sim|Sim <sup>7</sup>|Sim |Sim |Sim |Sim|
-|**Exchange Online Dedicated – Legacy** (Sincronização obrigatória com o Azure AD)|Sim <sup>2</sup>|Sim <sup>2, 3</sup>|Sim <sup>4|Sim|Não|Não|Sim|Sim|Não|Sim <sup>5|Sim <sup>6|Sim |Sim|
-|**Exchange no local** (sincronização com o Azure ad & a configuração OAuth necessária)|Sim <sup>2</sup>| Sim <sup>2</sup> |Sim <sup>4|Sim|Sim (Exchange 2016 CU3 +)|Sim<sup>8</sup> (Exchange 2016 Cu3 +)|Sim |Sim|Não|Sim <sup>5|Sim <sup>6|Sim |Sim|
+|**Exchange Online Dedicated – Legacy** (Sincronização obrigatória com o Azure AD)|Sim <sup>2</sup>|Sim <sup>2, 3</sup>|Sim <sup> 4|Sim|Não|Não|Sim|Sim|Não|Sim <sup> 5|Sim <sup> 6|Sim |Sim|
+|**Exchange no local** (sincronização com o Azure ad & a configuração OAuth necessária)|Sim <sup>2</sup>| Sim <sup>2</sup> |Sim <sup> 4|Sim|Sim (Exchange 2016 CU3 +)|Sim<sup>8</sup> (Exchange 2016 Cu3 +)|Sim |Sim|Não|Sim <sup> 5|Sim <sup> 6|Sim |Sim|
 
 <sup>1</sup> suporte do Exchange 2016 Cu3 e versões mais recentes.  
 
@@ -70,18 +70,21 @@ A tabela a seguir fornece uma referência rápida útil para a disponibilidade d
 
 ## <a name="requirements-to-get-the-most-out-of-microsoft-teams"></a>Requisitos para aproveitar ao máximo o Microsoft Teams
 
-O Microsoft Teams funciona com vários serviços do Office 365 para fornecer aos usuários uma experiência avançada. Para dar suporte a essa experiência, você precisa habilitar certos recursos ou serviços e atribuir licenças.
+O Microsoft Teams funciona com vários serviços do Microsoft 365 e do Office 365 para fornecer aos usuários uma experiência avançada. Para dar suporte a essa experiência, você precisa habilitar certos recursos ou serviços e atribuir licenças.
 
 - O SharePoint Online é necessário para compartilhar e armazenar arquivos em conversas de equipe. O Microsoft Teams não tem suporte para o SharePoint no local.
 
-- Os usuários devem receber uma licença do SharePoint Online se desejam compartilhar arquivos em chats. Se os usuários não forem designados e habilitados com as licenças do SharePoint Online, eles não terão o armazenamento OneDrive for Business no Office 365. O compartilhamento de arquivos continuará funcionando nos canais, mas os usuários não conseguirão compartilhar arquivos em bate-papos sem o armazenamento do OneDrive for Business no Office 365.
+- Os usuários devem receber uma licença do SharePoint Online se desejam compartilhar arquivos em chats. Se os usuários não forem atribuídos e habilitados com as licenças do SharePoint Online, eles não terão o armazenamento do OneDrive for Business no Microsoft 365 ou no Office 365. O compartilhamento de arquivos continuará a funcionar em canais, mas os usuários não poderão compartilhar arquivos em chats sem o armazenamento do OneDrive for Business no Microsoft 365 ou no Office 365.
 
-- Os usuários devem estar habilitados para a criação do grupo do Office 365 para criar equipes no Microsoft Teams.
+- Os usuários devem ser habilitados para criação de grupos do Microsoft 365 para criar equipes no Microsoft Teams.
 
 - Para permitir que o Microsoft Teams funcione com o Exchange no local, você deve configurar o novo protocolo de autenticação OAuth do Exchange, de preferência, executando o assistente híbrido do Exchange, conforme descrito em [Configurar a autenticação OAuth entre as organizações Exchange e Exchange Online](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help). Para permitir que os usuários com a caixa de correio local do Exchange agendem reuniões de equipe em nome de outro usuário, você também deve completar as etapas 2-3 conforme descrito em [Configurar a integração e o OAuth entre o Skype for Business Online e o Exchange Server](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises). 
 
 > [!NOTE]
->Para a integração do Exchange local e das equipes, a licença necessária precisa ser atribuída para o usuário sincronizado do AAD.
+> O suplemento do Outlook Teams pode ser usado para agendar uma reunião do teams para caixas de correio hospedadas no Exchange local. No entanto, o agendamento de uma reunião do teams em nome de outro usuário com o Exchange local requer o Exchange 2013 CU9 e superior e o novo protocolo de autenticação OAuth do Exchange. O delegado e o delegante devem ter uma caixa de correio no Exchange local.
+
+> [!NOTE]
+> Para a integração do Exchange local e das equipes, a licença necessária precisa ser atribuída para o usuário sincronizado do AAD.
 
 > [!IMPORTANT]
 > Se você desinstalar o cliente Skype for Business após mover um usuário para o modo **somente para equipes** , a presença poderá parar de funcionar no Outlook e em outros aplicativos do Office. A presença funciona bem no Microsoft Teams. Para solucionar esse problema, selecione a imagem do seu perfil no canto superior direito do Microsoft Teams e selecione **configurações**. Na guia **geral** , em **aplicativo**, selecione **registrar equipes como o aplicativo de chat do Office (requer a reinicialização de aplicativos do Office)**. Depois de selecionar essa opção, feche e abra novamente todos os aplicativos do Office, incluindo o Outlook. Depois de abrir o Outlook, as informações de presença estarão disponíveis.
@@ -96,7 +99,7 @@ Veja algumas coisas adicionais a serem lembradas ao implementar o Microsoft Team
 
 - Se a sua organização tiver requisitos de conformidade para garantir que todas as discussões na reunião sejam detectáveis, você deve desabilitar reuniões privadas se o organizador tiver uma caixa de correio local do Exchange.
 
-- Em uma implantação híbrida do Exchange, o conteúdo de mensagens de chat é pesquisável, independentemente de os participantes do chat terem uma caixa de correio ou uma caixa de correio local baseada em nuvem. Para saber mais, leia [pesquisando caixas de correio baseadas em nuvem para usuários locais no Office 365](https://docs.microsoft.com/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users). Para saber mais sobre como pesquisar conteúdo no Teams, leia [pesquisa de conteúdo no centro de conformidade do Microsoft 365](https://docs.microsoft.com/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups).
+- Em uma implantação híbrida do Exchange, o conteúdo de mensagens de chat é pesquisável, independentemente de os participantes do chat terem uma caixa de correio ou uma caixa de correio local baseada em nuvem. Para saber mais, leia [pesquisando caixas de correio baseadas em nuvem para usuários locais](https://docs.microsoft.com/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users). Para saber mais sobre como pesquisar conteúdo no Teams, leia [pesquisa de conteúdo no centro de conformidade do Microsoft 365](https://docs.microsoft.com/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups).
 
 > [!TIP]
 > Para obter informações sobre como usar o Azure AD Connect para sincronizar com o Azure Active Directory, confira [integrando suas identidades locais com o Azure Active Directory](https://go.microsoft.com/fwlink/?linkid=854600).

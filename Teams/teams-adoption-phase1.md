@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 00615f1bbd48654701ff64e547bffdbd8ee142f9
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 620e6ebdcfe244dc937ab96bc4e14c67cda0b11c
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905663"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44349705"
 ---
 # <a name="microsoft-teams-adoption-phase-1---start"></a>Fase 1 de adoção do Microsoft Teams - Início
 
@@ -67,10 +67,10 @@ Na maioria dos casos, essa equipe inicial deve ser um pequeno grupo de pessoas c
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-A [comunidade técnica da Microsoft](https://aka.ms/TechCommunity) fornece ideias oferecidas pelos colegas a problemas técnicos e de adoção para muitos produtos do Office 365. Sugerimos que você ingresse nas seguintes comunidades:
+A [comunidade técnica da Microsoft](https://aka.ms/TechCommunity) fornece ideias oferecidas pelos colegas a problemas técnicos e de adoção para muitos produtos do Microsoft 365 e do Office 365. Sugerimos que você ingresse nas seguintes comunidades:
 
 - [Comunidade técnica do Microsoft Teams](https://aka.ms/TeamsCommunity) – obtenha perguntas sobre produtos respondidas, aprenda com outros clientes do Teams e siga o nosso blog para ficar atualizado sobre novos recursos e casos de uso do teams. 
-- O [programa campeões do office 365](https://aka.ms/O365Champions) e a comunidade de adoção de forças – Aprenda com seus colegas sobre como adotar melhor a adoção de cargas de trabalho do Office 365, como Teams, SharePoint, Yammer e outros produtos. Abra para profissionais de ti, usuários empresariais, o desenvolvedor "acidental" e qualquer pessoa interessada em orientar a adoção de serviços de nuvem.  
+- [Programa de campeões](https://aka.ms/O365Champions) e a comunidade de adoção impulsionadora – Aprenda com seus colegas sobre como adotar a melhor adoção de cargas de trabalho do Microsoft 365 ou do Office 365, como Teams, SharePoint, Yammer e outros produtos. Abra para profissionais de ti, usuários empresariais, o desenvolvedor "acidental" e qualquer pessoa interessada em orientar a adoção de serviços de nuvem.  
 
 
-![Um ícone que representa a próxima](media/teams-adoption-next-icon.png) etapa seguinte: [entender equipes e canais](teams-adoption-understand-teams-and-channels.md)
+![Um ícone que representa a próxima etapa ](media/teams-adoption-next-icon.png) seguinte: [entender equipes e canais](teams-adoption-understand-teams-and-channels.md)

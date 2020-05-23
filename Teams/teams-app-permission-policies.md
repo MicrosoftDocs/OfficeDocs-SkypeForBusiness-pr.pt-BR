@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 3382eff6334c3879c1c30d503101446ceaae4df9
-ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.openlocfilehash: 5456bb7cece960796308a2d987cecaedc9828a3c
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43749808"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350105"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>Gerenciar políticas de permissões de aplicativo no Microsoft Teams
 
@@ -51,7 +51,7 @@ Digamos, por exemplo, que você queira bloquear todos os aplicativos de terceiro
 
 Se você quiser controlar os aplicativos que estão disponíveis para diferentes grupos de usuários em sua organização, crie e atribua uma ou mais políticas de permissão de aplicativo personalizadas. Você pode criar e atribuir políticas personalizadas separadas com base em aplicativos que são publicados pela Microsoft, por terceiros ou por sua organização. É importante saber que, após criar uma política personalizada, você não poderá alterá-la se os aplicativos de terceiros estiverem desabilitados nas configurações de aplicativo de toda a organização.
 
-1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para > **políticas de permissão**de **aplicativos do teams**.
+1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para políticas de permissão de **aplicativos do teams**  >  **Permission policies**.
 2. Clique em **Adicionar**.
     ![Captura de tela da política de permissão de novo aplicativo](media/app-permission-policies-new-policy.png)
 3. Insira um nome e uma descrição para a política.
@@ -75,26 +75,32 @@ Se você quiser controlar os aplicativos que estão disponíveis para diferentes
 
 Você pode usar o centro de administração do Microsoft Teams para editar uma política, incluindo a política global e políticas personalizadas criadas por você.
 
-1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para > **políticas de permissão**de **aplicativos do teams**.
+1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para políticas de permissão de **aplicativos do teams**  >  **Permission policies**.
 2. Selecione a política clicando à esquerda do nome da política e, em seguida, clique em **Editar**.
 3. Aqui, faça as alterações desejadas. Você pode gerenciar as configurações com base no editor do aplicativo e adicionar e remover aplicativos com base na configuração permitir/bloquear.
 4. Clique em **Salvar**.
 
 ## <a name="assign-a-custom-app-permission-policy-to-users"></a>Atribuir uma política de permissão de aplicativo personalizada aos usuários
 
-Você pode usar o centro de administração do Microsoft Teams para atribuir uma política personalizada a um ou mais usuários ou ao módulo do PowerShell do Skype for Business para atribuir uma política personalizada a grupos de usuários, como todos os usuários de um grupo de segurança ou grupo de distribuição.
+Você pode usar o centro de administração do Microsoft Teams para atribuir uma política personalizada a um ou mais usuários ou ao módulo do PowerShell do Skype for Business para atribuir uma política personalizada a usuários em um grupo, como todos os usuários de um grupo de segurança ou grupo de distribuição.
 
-### <a name="assign-a-custom-app-permission-policy-to-a-user"></a>Atribuir uma política de permissão de aplicativo personalizada a um usuário
+### <a name="assign-a-custom-app-permission-policy-to-users"></a>Atribuir uma política de permissão de aplicativo personalizada aos usuários
+
+Para atribuir uma política a um usuário:
 
 1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para **usuários**.
 2. Selecione o usuário clicando à esquerda do nome de exibição do usuário e clique em **Editar configurações**.
 3. Em **política de permissão do aplicativo**, selecione a política de permissão do aplicativo que você deseja atribuir e clique em **aplicar**.
 
-Para atribuir uma política a vários usuários de uma só vez, confira [Editar as configurações de usuários do Teams em massa](edit-user-settings-in-bulk.md).
+Para atribuir uma política a vários usuários de uma só vez:
+
+1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para **usuários**e procure os usuários ou filtre o modo de exibição para mostrar os usuários que você deseja.
+2. Na coluna **&#x2713;** (marca de seleção), selecione os usuários. Para selecionar todos os usuários, clique no &#x2713; (marca de seleção) na parte superior da tabela.
+3. Clique em **Editar configurações**, faça as alterações desejadas e, em seguida, clique em **aplicar**.  
 
 Ou, você também pode fazer o seguinte:
 
-1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para > **políticas de permissão**de **aplicativos do teams**.
+1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para políticas de permissão de **aplicativos do teams**  >  **Permission policies**.
 2. Escolha a política clicando à esquerda do nome da política.
 3. Selecione **Gerenciar usuários**.
 4. No painel **Gerenciar usuários**, procure o usuário pelo nome de exibição ou pelo nome de usuário, escolha o nome e clique em **Adicionar**. Repita esta etapa para cada usuário que você deseja adicionar.
@@ -133,16 +139,16 @@ Em GCC, todos os aplicativos de terceiros são bloqueados por padrão. Além dis
 
 Para habilitar um aplicativo de terceiros para um usuário ou um conjunto de usuários em sua organização, faça o seguinte:
 
-1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá até **Team apps** > **gerenciar aplicativos**e, na lista de aplicativos, confirme se o aplicativo de terceiros que você deseja permitir para um conjunto de usuários está definido como **bloqueado** no nível da organização.
+1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá até **Team apps**  >  **gerenciar aplicativos**e, na lista de aplicativos, confirme se o aplicativo de terceiros que você deseja permitir para um conjunto de usuários está definido como **bloqueado** no nível da organização.
 
-2. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para > **políticas de permissão**de **aplicativos do teams**e, em seguida, edite a política global para bloquear o aplicativo de terceiros. Para fazer isso:
+2. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para políticas de permissão de **aplicativos do teams**  >  **Permission policies**e, em seguida, edite a política global para bloquear o aplicativo de terceiros. Para fazer isso:
     1. Na página políticas de permissão de aplicativo, clique em **global (padrão para toda a organização)** e, em seguida, clique em **Editar**.
     2. Em **aplicativos de terceiros**, selecione **bloquear aplicativos específicos e permitir todos os outros**, adicione o aplicativo e, em seguida, clique em **salvar**.
 
     > [!NOTE]
     > É importante fazer isso antes de ir para a próxima etapa para permitir o aplicativo no nível da organização. Isso ocorre porque, se o aplicativo de terceiros não estiver bloqueado na política de permissão global do aplicativo, todos os usuários aos quais a política global se aplica poderão acessar o aplicativo de terceiros quando você permitir no nível da organização.
 
-3. Permitir o aplicativo de terceiros no nível da organização. Para fazer isso, no painel de navegação esquerdo, vá para **Team apps** > **gerenciar aplicativos**. Na lista de aplicativos, clique à esquerda do nome do aplicativo para selecionar o aplicativo e, em seguida, selecione **permitir**.
+3. Permitir o aplicativo de terceiros no nível da organização. Para fazer isso, no painel de navegação esquerdo, vá para **Team apps**  >  **gerenciar aplicativos**. Na lista de aplicativos, clique à esquerda do nome do aplicativo para selecionar o aplicativo e, em seguida, selecione **permitir**.
 4. [Crie uma política de permissão de aplicativo personalizada](#create-a-custom-app-permission-policy) para permitir o aplicativo e, em seguida, [atribua a política](#assign-a-custom-app-permission-policy-to-users) aos usuários desejados.
 
 ## <a name="faq"></a>Perguntas frequentes
@@ -191,3 +197,4 @@ Para políticas de permissão de aplicativo atribuídas a usuários específicos
 ## <a name="related-topics"></a>Tópicos relacionados
 
 - [Configurações de administração para aplicativos no Teams](admin-settings.md)
+- [Atribuir políticas a seus usuários no Teams](assign-policies.md)

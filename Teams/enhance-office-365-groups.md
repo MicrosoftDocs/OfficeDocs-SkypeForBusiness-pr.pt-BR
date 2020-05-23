@@ -8,7 +8,7 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 audience: admin
-description: Saiba como aprimorar os grupos do Microsoft 365 com o Microsoft Teams ao convidar uma lista de diatribuições a uma equipe, adicionar grupos de segurança habilitados para email e muito mais.
+description: Saiba como aprimorar os grupos do Microsoft 365 com o Microsoft Teams ao convidar uma lista de distribuição a uma equipe, adicionar grupos de segurança habilitados para email e muito mais.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -18,28 +18,28 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 97164b6eeed1a626681cf320fc02c7dd0a74353a
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 38707df888adbd6da61e0e5487e570564ad26cbf
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776596"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44349835"
 ---
 <a name="enhance-existing-microsoft-365-groups-with-microsoft-teams"></a>Aprimorar os grupos existentes do Microsoft 365 com o Microsoft Teams
 =======================================================
 
-Os usuários do Microsoft Teams podem aprimorar um grupo existente do Office 365 com a funcionalidade do teams. Ao examinar o aperfeiçoamento de um grupo público do Office 365, os usuários podem fazer isso se o número de membros for igual ou menor do que 5.000.
+Os usuários do Microsoft Teams podem aprimorar um grupo existente do Microsoft 365 com a funcionalidade do teams. Ao examinar o aperfeiçoamento de um grupo público do Microsoft 365, os usuários podem fazer isso se o número de membros for igual ou menor do que 5.000.
 
-Para isso, os usuários deverão seguir o fluxo de criar uma nova equipe a partir do cliente do Microsoft Teams. Selecione **criar do grupo do** > **Office 365**e, em seguida, escolha o grupo existente que você deseja aprimorar com o Microsoft Teams. Os membros do grupo existente serão adicionados como membros da equipe automaticamente.
+Para isso, os usuários deverão seguir o fluxo de criar uma nova equipe a partir do cliente do Microsoft Teams. Selecione **criar do**  >  **grupo do Microsoft 365**e, em seguida, escolha o grupo existente que você deseja aprimorar com o Microsoft Teams. Os membros do grupo existente serão adicionados como membros da equipe automaticamente.
 
 > [!IMPORTANT]
-> Somente os proprietários de grupos do Office 365 têm permissão para melhorar um grupo existente com o Teams e esse grupo deve conter menos de 5.000 usuários. As equipes que já foram aprimoradas não aparecerão na lista.
+> Somente os proprietários do grupo do Microsoft 365 têm permissão para aprimorar um grupo existente com o Teams e esse grupo deve conter menos de 5.000 usuários. As equipes que já foram aprimoradas não aparecerão na lista.
 >
->A opção para criar uma equipe a partir de um grupo do Office 365 não estará disponível, a menos que essas condições tenham sido atendidas.
+>A opção para criar uma equipe a partir de um grupo do Microsoft 365 não estará disponível, a menos que essas condições tenham sido atendidas.
 
 Os usuários também podem convidar uma lista de distribuição para uma equipe, e os membros dessa lista de distribuição também serão incluídos na equipe. Isso é uma adição única, e alterações posteriores na associação de grupo na lista de distribuição não serão replicadas ou sincronizadas com o Microsoft Teams.
 
-![Captura de tela da opção para criar uma equipe a partir de um grupo do Office 365.](media/Enhance_Existing_Office_365_groups_with_Microsoft_Teams_image2.png)
+![Captura de tela da opção para criar uma equipe a partir de um grupo do Microsoft 365.](media/Enhance_Existing_Office_365_groups_with_Microsoft_Teams_image2.png)
 
 Você também pode adicionar grupos de segurança habilitados para e-mail como membros de uma equipe. Mas, se você adicionar mais membros ao grupo de segurança, esses membros não serão incluídos automaticamente na equipe. Você precisa adicionar os novos membros separadamente ou adicionar novamente o grupo de segurança na equipe. (Se você adicionar novamente o grupo de segurança, remover as duplicidades garante que os membros sejam incluídos apenas uma vez).
 
@@ -49,4 +49,4 @@ Há dois tipos de configurações de privacidade com grupos do Microsoft 365, **
 
 -   Os grupos privados não aparecem nas pesquisas e os usuários não podem entrar a menos que o proprietário da equipe os inclua como membros.
 
-Ao criar uma nova equipe no Microsoft Teams, um proprietário de um grupo particular existente do Office 365 tem uma opção de usar a associação no grupo do Office 365 para criar a equipe. Os usuários podem adicionar seus arquivos existentes do SharePoint e do OneNote acrescentando uma guia para o SharePoint e mesclando os arquivos do OneNote.
+Ao criar uma nova equipe no Microsoft Teams, um proprietário de um grupo particular existente do Microsoft 365 tem uma opção de usar a associação no grupo do Microsoft 365 para criar a equipe. Os usuários podem adicionar seus arquivos existentes do SharePoint e do OneNote acrescentando uma guia para o SharePoint e mesclando os arquivos do OneNote.

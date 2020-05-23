@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_Healthcare
 ms.reviewer: anach
 description: Aplicativo pacientes para administradores do teams
-ms.openlocfilehash: fbbb3361968ae928638fedca09fbd8d4c2ff33b6
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: a4c3980feceac51a6a674848e4c0005d9cc0c9d1
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780400"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350175"
 ---
 # <a name="audit-logs-for-patients-app"></a>Logs de auditoria para o aplicativo de pacientes
 
@@ -28,7 +28,7 @@ Um log de auditoria para atividades de aplicativo pacientes permite que as equip
 
 ## <a name="meet-hipaa-requirements"></a>Conheça os requisitos da HIPAA
 
-De acordo com as diretrizes da HIPAA, os provedores de assistência médica são necessários para manter registros de todo o acesso a PHI, para que seja possível que as alterações sejam auditadas. A Microsoft está comprometida com seus clientes empresariais que usam o Microsoft Teams e para ajudá-los a atender aos requisitos e controles da HIPAA. O acesso a PHI pelo aplicativo pacientes é totalmente controlado e os logs são disponibilizados no centro de segurança e conformidade do M365, conforme descrito no artigo [funcionalidade de pesquisa de log de auditoria](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) .
+De acordo com as diretrizes da HIPAA, os provedores de assistência médica são necessários para manter registros de todo o acesso a PHI, para que seja possível que as alterações sejam auditadas. A Microsoft está comprometida com seus clientes empresariais que usam o Microsoft Teams e para ajudá-los a atender aos requisitos e controles da HIPAA. O acesso a PHI pelo aplicativo pacientes é totalmente controlado e os logs são disponibilizados no centro de conformidade do Microsoft 365, conforme descrito no artigo [funcionalidade de pesquisa de log de auditoria](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) .
 
 > [!IMPORTANT]
 > A responsabilidade de manter a privacidade do paciente é colocada no provedor de assistência médica por lei. A lei concede aos pacientes a privacidade e requer que um administrador de ti ou um controlador de HIPAA possa determinar facilmente qual enfermeira, clínico ou trabalhador social acessou ou alterou registros de pacientes. Um dos exemplos mais comuns de uma violação de acesso PHI é o acesso a pacientes VIP. A funcionalidade do log de auditoria é necessária para conduzir investigações de qualquer violação de acesso Fi e para atender às exigências da HIPAA.
@@ -41,7 +41,7 @@ Uma auditoria depende de várias configurações anteriores:
 
 1. O administrador teria que trabalhar com o provedor de serviços FHIR para ter o EMR em um formato usado pelo aplicativo pacientes. Confira [integrando os registros eletrônicos de assistência médica ao Microsoft Teams](patients-app.md).
 2. Um administrador de provedor de assistência médica precisaria habilitar o aplicativo pacientes no centro de administração do teams. Consulte [gerenciar políticas de configuração de aplicativos no Microsoft Teams](../../teams-app-setup-policies.md) e artigos relacionados para obter mais informações.
-3. O administrador teria que habilitar as auditorias de atividades no O365, da mesma forma que habilitam qualquer auditoria de log de atividades no Office 365, conforme descrito em [antes de você começar](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#before-you-begin) e [Ativar ou desativar a pesquisa de log de auditoria](https://docs.microsoft.com/office365/securitycompliance/turn-audit-log-search-on-or-off#turn-on-audit-log-search). Se o log de auditoria já estiver ativado, nada de especial será necessário para o aplicativo pacientes. Sempre que um provedor de assistência médica instalar e executar o aplicativo dentro de uma equipe, os logs de auditoria registrarão suas atividades de PHI.
+3. O administrador teria que habilitar as auditorias de atividades, da mesma forma que habilitam qualquer auditoria de log de atividades, conforme descrito em [antes de você começar](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#before-you-begin) e [Ativar ou desativar a pesquisa de log de auditoria](https://docs.microsoft.com/office365/securitycompliance/turn-audit-log-search-on-or-off#turn-on-audit-log-search). Se o log de auditoria já estiver ativado, nada de especial será necessário para o aplicativo pacientes. Sempre que um provedor de assistência médica instalar e executar o aplicativo dentro de uma equipe, os logs de auditoria registrarão suas atividades de PHI.
 4. Em seguida, o administrador precisaria anunciar a disponibilidade do aplicativo pacientes, e os funcionários da área de saúde precisariam começar a gerar atividades a serem incluídas em uma auditoria.
 
 <!-- add link out to client doc when available -->
