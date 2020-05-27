@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Saiba como gerenciar as configurações de política de reunião no Teams e usá-las para controlar os recursos disponíveis para os participantes da reunião para reuniões agendadas pelos usuários.
-ms.openlocfilehash: 2f6a88276a2b5d3214b89555d0008e2b58cf1aa2
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: 87f790db77d2f98f66f53e399bf13f134a8e0a6e
+ms.sourcegitcommit: 47637ed816b471fe689e7bdac27b73e6efced60c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44349555"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44374309"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Gerenciar políticas de reunião no Teams
 
@@ -76,11 +76,11 @@ Para atribuir uma política de reunião a um usuário:
 2. Selecione o usuário clicando à esquerda do nome de exibição do usuário e clique em **Editar configurações**.
 3. Em **Política de reunião**, selecione a política que você deseja atribuir e clique em **Aplicar**.
 
-Para atribuir uma política a vários usuários de uma só vez:
+Para atribuir uma política a vários usuários por vez:
 
-1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para **usuários**e procure os usuários ou filtre o modo de exibição para mostrar os usuários que você deseja.
-2. Na coluna **&#x2713;** (marca de seleção), selecione os usuários. Para selecionar todos os usuários, clique no &#x2713; (marca de seleção) na parte superior da tabela.
-3. Clique em **Editar configurações**, faça as alterações desejadas e, em seguida, clique em **aplicar**.  
+1. Na barra de navegação à esquerda do centro de administração do Microsoft Teams, vá para **Usuários** e, em seguida, pesquise os usuários ou filtre o modo de exibição para mostrar os usuários que você deseja.
+2. Na coluna **&#x2713;** (marca de seleção), selecione os usuários. Para selecionar todos os usuários, clique na (marca de seleção) &#x2713; na parte superior da tabela.
+3. Clique em **Editar configurações**, faça as alterações desejadas e, em seguida, clique em **Aplicar**.  
 
 Ou, você também pode fazer o seguinte:
 
@@ -333,60 +333,32 @@ Essas configurações controlam quais participantes da reunião aguardam no lobb
 
 ### <a name="let-anonymous-people-start-a-meeting"></a>Permitir que as pessoas anônimas iniciem uma reunião
 
-Esta é uma política por organizador. Essa configuração controla se as pessoas anônimas, incluindo B2B e usuários federados, podem ingressar na reunião do usuário sem um usuário autenticado da organização em participação. O valor padrão é False.
+Trata-se de uma política de um organizador que permite reuniões de discagem de discagem de discagem de discagem líder. Esta configuração controla se a discagem de usuários pode ingressar na reunião sem um usuário autenticado da organização em participação. O valor padrão é falso, que significa que os usuários de discagem aguardarão no lobby até que um usuário autenticado da organização ingresse na reunião. 
 
-![Captura de tela mostrando uma mensagem para um usuário em espera](media/meeting-policies-anonymous-user-lobby.png)
+**Observação** Se falso e um usuário de discagem ingressar na reunião primeiro e for colocado no lobby, um usuário da organização deverá ingressar na reunião com um cliente do teams para admitir o usuário da lobbby. Não há controles de lobby disponíveis para discar em usuários. 
 
-Aqui está o comportamento da junção de pessoas anônimas quando os usuários autenticados estão presentes na reunião.
-
-|Permitir que as pessoas anônimas iniciem uma reunião  |Admitir pessoas automaticamente |Ingressar no comportamento de pessoas anônimas |
-|---------|---------|---------|
-|Verdadeiro    | Todos      | Ingressar diretamente         |
-|   | Todos em sua organização       | Aguardar no lobby        |
-|   | Todos em sua organização e organizações federadas       | Aguardar no lobby         |
-|Falso    | Todos        | Ingressar diretamente        |
-|   | Todos em sua organização     | Aguardar no lobby        |
-|   | Todos em sua organização e organizações federadas      | Aguardar no lobby         |
-
-Aqui está o comportamento da junção de pessoas anônimas quando nenhum usuário autenticado está presente na reunião.
-
-|Permitir que as pessoas anônimas iniciem uma reunião |Admitir pessoas automaticamente  |Ingressar no comportamento de pessoas anônimas |
-|---------|---------|---------|
-|Verdadeiro    | Todos      | Ingressar diretamente         |
-|   | Todos em sua organização       | Aguardar no lobby        |
-|   | Todos em sua organização e organizações federadas       | Aguardar no lobby         |
-|Falso    | Todos        | Aguardar no lobby. Os usuários são automaticamente admitidos quando o primeiro usuário autenticado entra na reunião.        |
-|   | Todos em sua organização     |Aguardar no lobby         |
-|   | Todos em sua organização e organizações federadas      | Aguardar no lobby         |
 
 ### <a name="automatically-admit-people"></a>Admitir pessoas automaticamente
 
-Esta é uma política por organizador. Esta configuração controla se as pessoas ingressam em uma reunião diretamente ou esperam no lobby até serem admitidas por um usuário autenticado.
+Esta é uma política por organizador. Esta configuração controla se as pessoas ingressam em uma reunião diretamente ou esperam no lobby até serem admitidas por um usuário autenticado. Esta configuração não se aplica a usuários de discagem. 
 
 ![Captura de tela mostrando uma reunião com um usuário no lobby](media/meeting-policies-lobby.png)
 
  Os organizadores da reunião podem clicar em **Opções de reunião** no convite da reunião para alterar essa configuração para cada reunião agendada.
+ 
+ **Observação** Nas opções de reunião, a configuração é rotulada como "quem pode ignorar o lobby"
   
 |Valor de configuração  |Comportamento da junção |
 |---------|---------|
-|**Todos**   |Todos os participantes da reunião ingressam na reunião diretamente sem esperar no lobby. Isso inclui usuários autenticados, usuários federados, convidados, usuários anônimos e pessoas que discam por telefone.       |
-|**Todos em sua organização e organizações federadas**     |Usuários autenticados dentro da organização, incluindo usuários convidados e os usuários de organizações federadas, ingressam na reunião diretamente sem esperar no lobby.  Usuários anônimos e usuários que discam por telefone aguarde no lobby.   |
-|**Todos em sua organização**    |Os usuários autenticados de dentro da organização, incluindo os usuários convidados, ingressam na reunião diretamente sem esperar no lobby.  Usuários federados, usuários anônimos e usuários que discam por telefone aguarde no lobby. Esta é a configuração padrão.           |
+|**Todos**   |Todos os participantes da reunião ingressam na reunião diretamente sem esperar no lobby. Isso inclui usuários autenticados, usuários externos de organizações confiáveis (federadas), convidados e usuários anônimos.     |
+|**Todos em sua organização e organizações federadas**     |Usuários autenticados dentro da organização, incluindo usuários convidados e os usuários de organizações confiáveis, ingressam na reunião diretamente sem esperar no lobby.  Usuários anônimos esperam no lobby.   |
+|**Todos em sua organização**    |Os usuários autenticados de dentro da organização, incluindo os usuários convidados, ingressam na reunião diretamente sem esperar no lobby.  Os usuários de organizações confiáveis e usuários anônimos esperam no lobby. Esta é a configuração padrão.           |
 
 ### <a name="allow-dial-in-users-to-bypass-the-lobby"></a>Permitir que os usuários de discagem ignorem o lobby
 
-Esta é uma política por organizador. Esta configuração controla se as pessoas que discam por telefone entram diretamente na reunião ou esperam no lobby, independentemente da configuração de usuário **admitir pessoas automaticamente** . O valor padrão é False.
+Esta é uma política por organizador. Esta configuração controla se as pessoas que discam por telefone entram diretamente na reunião ou esperam no lobby, independentemente da configuração de usuário **admitir pessoas automaticamente** . O valor padrão é False. Quando for falso, os usuários de discagem aguardarão no lobby até que o usuário da organização ingresse na reunião com um cliente do Teams e os admite. Quando for verdadeiro, discar os usuários entrarão automaticamente na reunião quando um usuário da organização ingressar na reunião. 
 
-Aqui está o comportamento da junção de pessoas que discam por telefone.
-
-|Permitir que os usuários de discagem ignorem o lobby  |Admitir pessoas automaticamente  |Comportamento de junção de pessoas que discam |
-|---------|---------|---------|
-|Verdadeiro    | Todos      | Ingressar diretamente         |
-|   | Todos em sua organização       | Ingressar diretamente        |
-|   | Todos em sua organização e organizações federadas       | Ingressar diretamente         |
-|Falso    | Todos        | Ingressar diretamente        |
-|   | Todos em sua organização     |Aguardar no lobby         |
-|   | Todos em sua organização e organizações federadas      | Aguardar no lobby         |
+**Observação** Se um usuário de discagem ingressar em uma reunião antes de um usuário da organização ingressar na reunião, ela será colocada no lobby até que o usuário da organização ingresse na reunião usando um cliente do Team e os inscreva. 
 
 
 ### <a name="enable-live-captions"></a>Habilitar legendas dinâmicas

@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dc2a4495d95d0c6458fef16ea2f3f336dd337db4
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: e34bc0b15186afdbbe33edb154f02b4decdc3b12
+ms.sourcegitcommit: 47637ed816b471fe689e7bdac27b73e6efced60c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140672"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44374299"
 ---
 # <a name="understand-microsoft-teams-and-skype-for-business-coexistence-and-interoperability"></a>Entender o Microsoft Teams e a coexistência e interoperabilidade do Skype for Business
 
@@ -82,6 +82,8 @@ Esse modo pode ser usado antes de iniciar uma implantação gerenciada do teams 
 Um usuário **somente para equipes** (também chamado de usuário *atualizado* ) tem acesso a todos os recursos do teams. Eles podem reter o cliente Skype for Business para ingressar em reuniões no Skype for Business que foram organizadas por usuários não atualizados ou parceiros externos. Um usuário atualizado pode continuar a se comunicar com outros usuários da organização que ainda estão usando o Skype for Business usando recursos de interoperabilidade entre o Teams e o Skype for Business (desde que esses usuários do Skype for Business não estejam no modo **ilhas** ). No entanto, um usuário atualizado não pode iniciar um chat, chamada ou reunião do Skype for Business.
 
 Assim que a sua organização estiver pronta para alguns ou todos os usuários usarem o Microsoft Teams como a única ferramenta de comunicação e colaboração, você poderá atualizar esses usuários para o modo **somente Teams** . Se você estiver atualizando do modo de **ilhas** , aconselhamos que primeiro você saturasse a adoção da equipe em toda a organização antes de iniciar o processo de atualização. Isso evita cenários de comunicação desfeitas devido ao modo de **ilhas** que não fornecem interoperabilidade.
+
+Quando no modo **somente equipes** , o Teams é o aplicativo padrão para o protocolo SIP/Tel. Isso significa que os links no cartão de visita de um usuário no Outlook para chamadas ou chats serão manipulados pelo Teams.
 
 Para saber mais sobre como migrar para o modo **somente equipes** , consulte [Considerações sobre o modo Microsoft Teams](teams-only-mode-considerations.md).
 
@@ -204,7 +206,7 @@ Mediante a aceitação, eles são colocados na reunião do teams; Eles devem com
  
 Enquanto isso, o usuário do Skype for Business recebe uma mensagem de chat de entrada com o link para a reunião e é guiado para ingressar.
 
-Esse escalonamento para uma reunião do teams está disponível para interoperabilidade dentro do locatário e chamadas federadas e chats de locatário cruzado. Ele está ativado por padrão e não há nenhuma configuração que o administrador tenha para provisionar. No entanto, ela é desativada para o usuário se ``-AllowPrivateMeetNow`` o ``CsTeamsMeetingPolicy`` administrador ``$false``definir como.
+Esse escalonamento para uma reunião do teams está disponível para interoperabilidade dentro do locatário e chamadas federadas e chats de locatário cruzado. Ele está ativado por padrão e não há nenhuma configuração que o administrador tenha para provisionar. No entanto, ela é desativada para o usuário se o administrador definir ``-AllowPrivateMeetNow`` ``CsTeamsMeetingPolicy`` como ``$false`` .
 
 Depois de revisar este artigo, consulte [escolher a sua viagem de atualização, a](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md) [orientação de migração e interoperabilidade](https://aka.ms/SkypeToTeams-Interop), [a coexistência com o Skype for Business](coexistence-chat-calls-presence.md)e [a configuração de seus parâmetros de coexistência e atualização](https://aka.ms/SkypeToTeams-SetCoexistence) para obter detalhes sobre a implementação.
 

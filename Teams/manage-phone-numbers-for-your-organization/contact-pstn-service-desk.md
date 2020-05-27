@@ -23,12 +23,12 @@ ms.custom:
 - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
 description: Ao receber números de telefone ou portabilidade (transferência) de números para a sua organização, talvez seja necessário obter ajuda e suporte na mesa de serviço PSTN.
-ms.openlocfilehash: f9dd45f70a0e233f22fbbe607731d65146c705f7
-ms.sourcegitcommit: a09334ef1a6b0a877839c3b46165eb5a6aad1ba9
+ms.openlocfilehash: 3079d6881d86239d395c036c9630ef5ee2eac151
+ms.sourcegitcommit: 47637ed816b471fe689e7bdac27b73e6efced60c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/02/2020
-ms.locfileid: "44006007"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44374269"
 ---
 # <a name="pstn-service-desk-contact"></a>Contato da mesa de serviço PSTN
 
@@ -38,6 +38,7 @@ Atualmente, a equipe de serviço da PSTN tem três endereços de e-mail para sup
 |:-----:|:------:|
 | [Nos **Estados Unidos ou no Canadá**, envie um e-mail para PTN@microsoft.com](mailto:ptn@microsoft.com)| [**Bélgica, França, Alemanha, Grã-Bretanha, Irlanda, Holanda, Espanha, Suécia, Suíça**, e-mail em ptneu@microsoft.com](mailto:ptneu@microsoft.com)|
 |[**Fora dos Estados Unidos ou do Canadá**, envie-nos um e-mail para ptneu@microsoft.com](mailto:ptneu@microsoft.com)| [**Restante do mundo**, envie-nos um e-mail para gcstnmsd@microsoft.com](mailto:gcstnmsd@microsoft.com)|
+|Devido a um grande aumento nas solicitações de entrada, a **equipe de portabilidade do norte da América do Norte** está em log. Estamos trabalhando para limpar essa lista de pendências em uma base FIFO (primeiro a entrar, primeiro a sair) e, como resultado, **a resposta a novas solicitações será adiada.**|
 
 Se precisar de assistência **para transferir/portar seus números de telefone existentes para o Microsoft Teams**, inclua o máximo de detalhes possível:
   - Sua [ID de empresa (ID de locatário) ou domínios da Microsoft ativos no momento](https://docs.microsoft.com/onedrive/find-your-office-365-tenant-id).
