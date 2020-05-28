@@ -15,12 +15,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: Veja quais periféricos e dispositivos USB, como fones de ouvido com microfone, telefones-voz, webcams e monitores, são certificados para o Microsoft Teams.
-ms.openlocfilehash: 8ecb8fcd065cb43c37fa4c55cc5b7106218d6eca
-ms.sourcegitcommit: 3ed779277540589eabef745685ab6c67d8a8ff90
+ms.openlocfilehash: 25099435d4a62d404571c87a42b29698a64b75f8
+ms.sourcegitcommit: 26a6802fb7bfc865771fc476916957524c280d83
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44281749"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "44407403"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Dispositivos de áudio e vídeo USB certificados para o Microsoft Teams
 
@@ -74,10 +74,16 @@ Se você for um fabricante e quiser participar do programa de certificação, co
 
 ## <a name="certified-devices"></a>Dispositivos certificados
 
-*Atualizado em 2020 de abril*
+*Tabela atualizada pode 2020*
 
 | Fabricante    | Modelo                   | Qualificação  | Programa certificado                                  |
 |:----------------|:------------------------|:-----------|:---------------------------------------------------|
+|Jabra             |750 viva-voz com Jabra Link 370|5/21/2020 | Certificado para o Microsoft Teams  | 
+|EPOS              | Fone de ouvido com microfone Sennheiser Adaptive 660 |5/15/2020 |Certificado para o Microsoft Teams  | 
+|EPOS              | Fone de ouvido com microfone Sennheiser Adaptive 560|5/15/2020 |Certificado para o Microsoft Teams  | 
+|EPOS              | Sennheiser adaptação 460T fone de ouvido |5/15/2020 |Certificado para o Microsoft Teams  | 
+|EPOS              | Fone de ouvido com microfone Sennheiser Adaptive 360| 5/15/2020 |Certificado para o Microsoft Teams  | 
+|Yealink           |Fone de ouvido com microfone UH36 | 5/13/2020 |Certificado para o Microsoft Teams  | 
 | Polyline            | Office Savi 8210        | 4/20/2020  | Skype for Business com atualização para o Microsoft Teams |
 | Polyline            | Savi 8210 UC            | 4/20/2020  | Skype for Business com atualização para o Microsoft Teams |
 | Polyline            | Office Savi 8220        | 4/20/2020  | Skype for Business com atualização para o Microsoft Teams |

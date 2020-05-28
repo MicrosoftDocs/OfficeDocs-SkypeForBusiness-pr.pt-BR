@@ -1,6 +1,6 @@
 ---
 title: Requisitos de hardware para o Microsoft Teams
-ms.reviewer: ''
+ms.reviewer: microthk
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4e6b61a610d01a50d09af77c626001ca2aff5918
-ms.sourcegitcommit: a7c823f61d9ab88424bad924113d780ce11e509f
+ms.openlocfilehash: 9c37bc3aa89a92cf4fdd1e870f49653c8915355e
+ms.sourcegitcommit: d675569fe51c20d0ad1b9855191297530f922d75
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44224114"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44385982"
 ---
 # <a name="hardware-requirements-for-microsoft-teams"></a>Requisitos de hardware para o Microsoft Teams
 
@@ -86,6 +86,7 @@ Você pode usar o Teams nas seguintes plataformas móveis:
 - iOS: compatível com iPhone, iPad e iPod Touch.
 
   O suporte é limitado às duas versões principais mais recentes do iOS. Quando uma nova versão principal do iOS é lançada, a nova versão do iOS e a versão anterior são oficialmente suportadas.
+  O **Desfoque opcional meu** efeito de vídeo em segundo plano no Ios exige um sistema operacional do IOS 12 ou posterior e é compatível com os seguintes dispositivos: iPhone 7 ou posterior, iPad 2018 (6º geração) ou posterior e iPod Touch 2019 (7 geração).
 
 Para obter uma melhor experiência no Teams, use a versão mais recente do iOS e Android.
 
