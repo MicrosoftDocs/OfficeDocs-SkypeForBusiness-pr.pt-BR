@@ -314,6 +314,7 @@
 ##### [Protocolo SIP](direct-routing-protocols-SIP.md)
 ##### [Protocolos de mídia](direct-routing-protocols-media.md)
 #### [Configurar o bot de retorno de toque](direct-routing-ringback-bot.md)
+#### [Gerenciar uma política de roteamento de voz](manage-voice-routing-policies.md)
 
 
 ## Telefones
@@ -439,7 +440,6 @@
 #### [Adicionar fundos e gerenciar Créditos de Comunicação](add-funds-and-manage-communications-credits.md)
 
 ### [Fluxos de chamadas do Microsoft Teams](microsoft-teams-online-call-flows.md)
-### [Gerenciar uma política de roteamento de voz](manage-voice-routing-policies.md)
 
 ## Guia prático para organizações de grandes porte
 ### [Tutorial: Chamadas no Teams](Tutorial-calling-in-teams.yml)
