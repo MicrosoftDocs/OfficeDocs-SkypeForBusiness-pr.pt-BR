@@ -17,12 +17,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Saiba como usar a atribuição de política em lote para atribuir políticas a grandes conjuntos de usuários em sua instituição educacional em grande parte para fins escolares remotos (teleescolares, tele-School).
 f1keywords: ''
-ms.openlocfilehash: bb851981f9923869d39c690dff6d22e446e0e844
-ms.sourcegitcommit: e710bb8dbbd084912cbf509896515a674ab5e19f
+ms.openlocfilehash: 5772a260642b09232e4df5eec57751a39ec2a74a
+ms.sourcegitcommit: 86b0956680b867b8bedb2e969220b8006829ee53
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "43033355"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "44410436"
 ---
 # <a name="assign-policies-to-large-sets-of-users-in-your-school"></a>Atribuir políticas a grandes conjuntos de usuários na sua escola
 
@@ -108,10 +108,8 @@ $faculty = Get-AzureADUser -All $true | Where-Object {($_.assignedLicenses).SkuI
 
 ## <a name="assign-a-policy-in-bulk"></a>Atribuir uma política em massa
 
-Agora, atribuímos as políticas adequadas aos usuários em massa. O número máximo de usuários para os quais você pode atribuir ou atualizar políticas é de 20.000 de cada vez. Por exemplo, se você tiver mais de 20.000 funcionários e professores, será necessário enviar vários lotes.
+Agora, atribuímos as políticas adequadas aos usuários em massa. O número máximo de usuários para os quais você pode atribuir ou atualizar políticas é de 5.000 de cada vez. Por exemplo, se você tiver mais de 5.000 funcionários e professores, será necessário enviar vários lotes.
 
-> [!IMPORTANT]
-> No momento, recomendamos que você atribua políticas em lotes de 5.000 usuários por vez. Durante esses horários de maior demanda, você pode enfrentar atrasos em tempos de processamento. Para minimizar o impacto dessas melhorias de processamento, sugerimos que você envie tamanhos de lote menores de até 5.000 usuários e envie cada lote somente após a conclusão da conclusão do anterior. Enviar lotes para fora do seu horário de trabalho normal também pode ajudar.
 
 Execute o seguinte para atribuir a política de reunião chamada EducatorMeetingPolicy à sua equipe e educadores.
 
@@ -130,13 +128,13 @@ Cada atribuição em massa retorna uma ID de operação, que você pode usar par
 Get-CsBatchPolicyAssignmentOperation -OperationId 3964004e-caa8-4eb4-b0d2-7dd2c8173c8c | fl
 ```
 
-Para exibir o status da atribuição de cada usuário na operação em lotes, execute o seguinte. Os ```UserState``` detalhes de cada usuário estão na propriedade.
+Para exibir o status da atribuição de cada usuário na operação em lotes, execute o seguinte. Os detalhes de cada usuário estão na ```UserState``` propriedade.
 
 ```powershell
 Get-CsBatchPolicyAssignmentOperation -OperationId 3964004e-caa8-4eb4-b0d2-7dd2c8173c8c | Select -ExpandProperty UserState
 ```
 
-## <a name="assign-a-policy-in-bulk-if-you-have-more-than-20000-users"></a>Atribuir uma política em massa se você tiver mais de 20.000 usuários
+## <a name="assign-a-policy-in-bulk-if-you-have-more-than-5000-users"></a>Atribuir uma política em massa se você tiver mais de 5.000 usuários
 
 Primeiro, execute o seguinte procedimento para ver quantas pessoas e professores você tem:
 
@@ -144,13 +142,13 @@ Primeiro, execute o seguinte procedimento para ver quantas pessoas e professores
 $faculty.count
 ```
 
-Em vez de fornecer toda a lista de IDs de usuário, execute o seguinte para especificar o primeiro 20.000 e, em seguida, o próximo 20.000 e assim por diante.
+Em vez de fornecer toda a lista de IDs de usuário, execute o seguinte para especificar o primeiro 5.000 e, em seguida, o próximo 5.000 e assim por diante.
 
 ```powershell
 New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMeetingPolicy -PolicyName EducatorMeetingPolicy -Identity $faculty[0..19999].ObjectId
 ```
 
-Você pode alterar o intervalo de IDs de usuário até chegar à lista completa de usuários. Por exemplo, insira ```$faculty[0..19999``` para o primeiro lote, use ```$faculty[20000..39999``` para o segundo lote, insira ```$faculty[40000..59999``` para o terceiro lote e assim por diante.
+Você pode alterar o intervalo de IDs de usuário até chegar à lista completa de usuários. Por exemplo, insira ```$faculty[0..4999``` para o primeiro lote, use ```$faculty[5000..9999``` para o segundo lote, insira ```$faculty[10000..14999``` para o terceiro lote e assim por diante.
 
 ## <a name="get-the-policies-assigned-to-a-user"></a>Obter as políticas atribuídas a um usuário
 

@@ -20,12 +20,12 @@ ms.custom:
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba como usar e gerenciar pacotes de política no Microsoft Teams para simplificar, simplificar e ajudar a fornecer consistência ao gerenciar políticas para grupos de usuários.
-ms.openlocfilehash: d9ad5c2308ead1fe5761755270f81f058bf0fa3c
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: 62151d9356e414f0f527e597492be685c0067fd0
+ms.sourcegitcommit: 86b0956680b867b8bedb2e969220b8006829ee53
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44353026"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "44412528"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>Gerenciar pacotes de política no Microsoft Teams
 
@@ -106,10 +106,7 @@ Veja a seguir as etapas sobre como exibir, atribuir e personalizar pacotes de po
 
 Use a atribuição de pacote de política em lotes para atribuir um pacote de política a grandes conjuntos de usuários por vez. Use o cmdlet [New-CsBatchPolicyPackageAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicypackageassignmentoperation) para enviar um lote de usuários e o pacote de política que você deseja atribuir. As atribuições são processadas como uma operação em segundo plano e uma ID de operação é gerada para cada lote.
 
-Um lote pode conter até 20.000 usuários. Você pode especificar os usuários por sua ID de objeto, UPN, endereço SIP ou endereço de email. Para saber mais, consulte [atribuir um pacote de política a um lote de usuários](assign-policies.md#assign-a-policy-package-to-a-batch-of-users).
-
-> [!IMPORTANT]
-> No momento, recomendamos que você atribua políticas em lotes de 5.000 usuários por vez. Durante esses horários de maior demanda, você pode enfrentar atrasos em tempos de processamento. Para minimizar o impacto dessas melhorias de processamento, sugerimos que você envie tamanhos de lote menores de até 5.000 usuários e envie cada lote somente após a conclusão da conclusão do anterior. Enviar lotes para fora do seu horário de trabalho normal também pode ajudar.
+Um lote pode conter até 5.000 usuários. Você pode especificar os usuários por sua ID de objeto, UPN, endereço SIP ou endereço de email. Para saber mais, consulte [atribuir um pacote de política a um lote de usuários](assign-policies.md#assign-a-policy-package-to-a-batch-of-users).
 
 ### <a name="customize-policies-in-a-policy-package"></a>Personalizar políticas em um pacote de política
 

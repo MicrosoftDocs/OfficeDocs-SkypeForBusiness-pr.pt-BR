@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Leia este artigo para saber mais sobre como implantar as barras de colaboração do Microsoft Teams.
-ms.openlocfilehash: 4593d6b42e61efbd7d57f27fd0a10ed8f97b82f5
-ms.sourcegitcommit: f0ccafb7e9c2d382ab4545e085657e8129024f1d
+ms.openlocfilehash: 71f9482dd5f42ddeb56b32c1a92db033d1f179f7
+ms.sourcegitcommit: 86b0956680b867b8bedb2e969220b8006829ee53
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/16/2020
-ms.locfileid: "44268010"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "44410446"
 ---
 # <a name="deploy-collaboration-bars-for-microsoft-teams"></a>Implantar barras de colaboração do Microsoft Teams
 
@@ -62,7 +62,7 @@ Antes de implantar as barras de colaboração, você precisa decidir se elas usa
 
 Se você decidir configurar uma conta de recurso do Microsoft 365, precisará comprar uma licença da sala de reunião para ela. A licença da sala de reunião inclui uma caixa de correio de recurso que permite que as pessoas em sua organização submarquem a sala de reunião via Outlook ou Teams. A licença também permite a conferência de vídeo e áudio e o compartilhamento de tela entre os participantes da reunião.
 
-Se você precisar receber ou fazer chamadas para ou de um número de telefone externo, também precisará de um sistema telefônico Microsoft 365 ou da licença Microsoft 365 Business Voice.
+Se precisar receber ou fazer chamadas para ou de um número de telefone externo, talvez seja necessário um plano de chamadas ou uma [licença do complemento](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing?tabs=small-business)Microsoft 365 Business Voice. Se o roteamento direto estiver habilitado em sua organização, você só precisará do SKU da sala de reunião.
 
 Ao criar uma conta de recurso, você pode optar por permitir que a conta aceite ou recuse automaticamente solicitações de reunião, permita reuniões recorrentes, especifique até onde as pessoas adiantadas podem agendar o recurso e assim por diante.
 
@@ -87,7 +87,7 @@ O planejamento de configuração e implantação abrange as seguintes áreas-cha
 
 ### <a name="account-provisioning"></a>Provisionamento de conta
 
-Se você planeja usar contas de recursos do Microsoft 365 para permitir que os usuários marquem as barras de colaboração, siga as instruções em [criar uma conta de recurso usando o centro de administração do microsoft 365](resource-account-ui.md) para criar uma conta de recurso do Microsoft 365 para cada barra de colaboração que precisa de um. Também é aí que você precisará adicionar uma licença da sala de reunião à conta do recurso e, se quiser fazer ou receber chamadas para ou de números de telefone externos, um sistema telefônico ou uma licença de voz para empresas.
+Se você planeja usar contas de recursos do Microsoft 365 para permitir que os usuários marquem as barras de colaboração, siga as instruções em [criar uma conta de recurso usando o centro de administração do microsoft 365](resource-account-ui.md) para criar uma conta de recurso do Microsoft 365 para cada barra de colaboração que precisa de um. Também é aí que você precisará adicionar uma licença da sala de reunião à conta do recurso e, se quiser fazer ou receber chamadas para ou de números de telefone externos, um plano de chamadas ou uma licença de voz para empresas, se sua organização não estiver usando o roteamento direto.
 
 Se quiser atribuir barras de colaboração a usuários individuais para o uso particular, você não precisará configurar nenhuma conta adicional. Os usuários podem entrar nas barras de colaboração usando suas contas pessoais.
 

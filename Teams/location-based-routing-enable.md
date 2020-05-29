@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 69f2ee37e63f83d6fc1d19ea733ff44ad23e7011
-ms.sourcegitcommit: 6e24ea8aa9cccf8a1a964c8ed414ef5c7de3dc17
+ms.openlocfilehash: 4daf270dcd67dc732bba5e5fe134d5a0994dcd75
+ms.sourcegitcommit: 2295a668a6f118b95f010e81150351741572b076
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44158988"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "44412638"
 ---
 # <a name="enable-location-based-routing-for-direct-routing"></a>Habilitar o Roteamento baseado na localização para o Roteamento direto
 
@@ -36,7 +36,7 @@ Este artigo descreve como habilitar o roteamento baseado em localização para r
 - Usuários
 - Sites de rede
 - Configurações de gateway
-- Políticas de chamada
+- Políticas de chamadas
 
 Você pode usar o [centro de administração do Microsoft Team](#using-the-microsoft-teams-admin-center) ou o [PowerShel](#using-powershell)l para habilitar o roteamento baseado em local.
 
@@ -54,7 +54,7 @@ Para saber mais sobre como criar políticas de roteamento de voz e atribuí-las 
 
 ### <a name="enable-location-based-routing-for-network-sites"></a>Habilitar o roteamento baseado em local para sites de rede
 
-Habilite o roteamento baseado em local para seus sites que precisam impor restrições de roteamento. Para fazer isso, no painel de navegação esquerdo do centro de administração do Microsoft Teams, vá para **locais** > **topologia de rede**, selecione um site de rede, clique em **Editar**e ative o **roteamento baseado em localização**.  
+Habilite o roteamento baseado em local para seus sites que precisam impor restrições de roteamento. Para fazer isso, no painel de navegação esquerdo do centro de administração do Microsoft Teams, vá para **locais**  >  **topologia de rede**, selecione um site de rede, clique em **Editar**e ative o **roteamento baseado em localização**.  
 
 Para saber mais, consulte [gerenciar a topologia de rede](manage-your-network-topology.md).
 
@@ -62,7 +62,7 @@ Para saber mais, consulte [gerenciar a topologia de rede](manage-your-network-to
 
 Habilite o roteamento baseado em local para gateways que roteiam chamadas para gateways PSTN que roteiam chamadas para a PSTN e associe o site de rede onde o gateway está localizado. 
 
-1. No painel de navegação esquerdo, vá para**Roteamento direto**de **voz** > e clique na guia **SBCS** .
+1. No painel de navegação esquerdo, vá **Voice**para  >  **Roteamento direto**de voz e clique na guia **SBCS** .
 2. Selecione o SBC e clique em **Editar**. 
 3. Em **roteamento baseado em localização e otimização de mídia**, ative **habilitar roteamento baseado em local**.
 4. Especifique a ID do site do gateway e, em seguida, defina o modo ignorar.
@@ -176,17 +176,6 @@ Para saber mais, consulte [chamando políticas no Teams](teams-calling-policy.md
     Identity: sbc2.contoso.com 
     GatewaySiteLbrEnabled: $false 
     ```
-
-    Os pontos de extremidade conectados a sistemas que não roteiam chamadas para a PSTN (por exemplo, um PBX) terão restrições semelhantes aos pontos de extremidade de usuários do teams habilitados para roteamento baseado em local. Isso significa que esses usuários podem fazer e receber chamadas para e de usuários do teams independentemente da localização do usuário. Eles também podem fazer e receber chamadas de e para outros sistemas que não roteiam chamadas para a rede PSTN (por exemplo, um ponto de extremidade conectado a um PBX diferente), independentemente do site de rede ao qual o sistema está associado. Todas as chamadas recebidas, chamadas de saída, transferências de chamadas e encaminhamento de chamadas que envolvem pontos de extremidade PSTN estarão sujeitas a imposição de roteamento baseado em localização. Essas chamadas devem usar somente gateways PSTN definidos como locais para tais sistemas. 
-
-    A tabela a seguir mostra a configuração de gateway de quatro gateways em dois locais de rede diferentes: dois conectados a gateways PSTN e dois conectados a sistemas PBX. 
-
-    ||GatewaySiteLbrEnabled   |NetworkSiteID  |
-    |---------|---------|---------|
-    |PstnGateway: gateway 1 DEL-GW    |    Verdadeiro     |   Site 1 (Déli)      |
-    |PstnGateway: gateway 2 HYD-GW     |   Verdadeiro      |      Site 2 (Hyderabad)   |
-    |PstnGateway: gateway 3 DEL-PBX    |    Falso     |     Site 1 (Déli)    |
-    |PstnGateway: gateway 4 HYD-PBX    |    Falso     |    Site 2 (Hyderabad)     |
 
 ### <a name="enable-location-based-routing-for-calling-policies"></a>Habilitar roteamento baseado em local para políticas de chamadas
 
