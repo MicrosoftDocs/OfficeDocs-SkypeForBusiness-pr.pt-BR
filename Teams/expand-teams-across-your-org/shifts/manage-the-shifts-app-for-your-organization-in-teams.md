@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 745644c7a6cf2207412faacd78e7b5a26d7b754d
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: c2ca24f2176547f83efb6bdce591ac71d516dca9
+ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44349655"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "44416881"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Gerencie o aplicativo Turnos para sua organização no Microsoft Teams
 
@@ -73,11 +73,27 @@ Para exibir a política FirstlineWorker, no painel de navegação esquerdo do ce
 
 ![Captura de tela da política de configuração do aplicativo FirstlineWorker](../../media/firstline-worker-app-setup-policy.png "Captura de tela da política de configuração do aplicativo FirstlineWorker no centro de administração do Microsoft Teams")
 
-#### <a name="assign-the-firstlineworker-policy-to-individual-users"></a>Atribuir a política FirstlineWorker a usuários individuais
+#### <a name="assign-the-firstlineworker-policy-to-users"></a>Atribuir a política FirstlineWorker aos usuários
+
+Para atribuir a política de configuração do aplicativo FirstlineWorker a um usuário:
 
 1. Na barra de navegação à esquerda do centro de administração do Microsoft Teams, vá para **Usuários** e clique no usuário.
-2. Ao lado de **Políticas atribuídas**, escolha **Editar**.
-3. Em **política de configuração do aplicativo Teams**, selecione **FirstlineWorker**e, em seguida, escolha **salvar**.
+2. Selecione o usuário clicando à esquerda do nome de exibição do usuário e clique em **Editar configurações**.
+3. Em **política de configuração do aplicativo**, selecione **FirstlineWorker**e, em seguida, clique em **aplicar**.
+
+Para atribuir uma política a vários usuários por vez:
+
+1. Na barra de navegação à esquerda do centro de administração do Microsoft Teams, vá para **Usuários** e, em seguida, pesquise os usuários ou filtre o modo de exibição para mostrar os usuários que você deseja.
+2. Na coluna **&#x2713;** (marca de seleção), selecione os usuários. Para selecionar todos os usuários, clique na (marca de seleção) &#x2713; na parte superior da tabela.
+3. Clique em **Editar configurações**, em **política de configuração do aplicativo**, selecione **FirstlineWorker**e, em seguida, clique em **aplicar**.  
+
+Ou, você também pode fazer o seguinte:
+
+1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para políticas de configuração de **aplicativos do teams**  >  **Setup policies**.
+2. Selecione a política FirstlineWorker, clicando à esquerda do nome da política.
+3. Escolha **Gerenciar usuários**.
+4. No painel **Gerenciar usuários**, procure o usuário pelo nome de exibição ou pelo nome de usuário, escolha o nome e marque **Adicionar**. Repita esta etapa para cada usuário que você deseja adicionar.
+5. Após terminar de adicionar usuários, selecione **aplicar**.
 
 #### <a name="assign-the-firstlineworker-app-setup-policy-to-user-members-of-a-group"></a>Atribuir a política de configuração do aplicativo FirstlineWorker a membros do grupo de usuários
 
@@ -102,5 +118,15 @@ $members | ForEach-Object {Grant-CsTeamsAppSetupPolicy -PolicyName "FirstlineWor
 ``` 
 Dependendo do número de membros do grupo, esse comando pode levar alguns minutos para ser executado.
 
+## <a name="search-the-audit-log-for-shifts-events"></a>Pesquisar eventos Shift do log de auditoria
+
+**(em visualização)**
+
+Você pode pesquisar o log de auditoria para exibir a atividade de turnos em sua organização.  Para saber mais sobre como Pesquisar no log de auditoria e ver uma lista de [atividades de turnos](../../audit-log-events.md#shifts-in-teams-activities) que são registradas no log de auditoria, consulte [Pesquisar o log de auditoria para eventos no Teams](../../audit-log-events.md).
+
+Para que você possa Pesquisar no log de auditoria, primeiro ative a auditoria no [centro de conformidade do & de segurança](https://protection.office.com). Para saber mais, confira [Ativar ou desativar a pesquisa de log de auditoria](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014). Lembre-se de que os dados de auditoria estão disponíveis apenas no ponto em que você ativou a auditoria.
+
 ## <a name="related-topics"></a>Tópicos relacionados
+
 - [Ajuda de turnos para trabalhadores de primeira mão](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
+- [Atribuir políticas a seus usuários no Teams](../../assign-policies.md)

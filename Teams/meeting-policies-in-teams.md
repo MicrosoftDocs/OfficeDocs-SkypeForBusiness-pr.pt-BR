@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Saiba como gerenciar as configurações de política de reunião no Teams e usá-las para controlar os recursos disponíveis para os participantes da reunião para reuniões agendadas pelos usuários.
-ms.openlocfilehash: 87f790db77d2f98f66f53e399bf13f134a8e0a6e
-ms.sourcegitcommit: 47637ed816b471fe689e7bdac27b73e6efced60c
+ms.openlocfilehash: efe9e50ae7f3365917ea31ef722a47c1f1fe95ec
+ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44374309"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "44416871"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Gerenciar políticas de reunião no Teams
 
@@ -335,7 +335,7 @@ Essas configurações controlam quais participantes da reunião aguardam no lobb
 
 Trata-se de uma política de um organizador que permite reuniões de discagem de discagem de discagem de discagem líder. Esta configuração controla se a discagem de usuários pode ingressar na reunião sem um usuário autenticado da organização em participação. O valor padrão é falso, que significa que os usuários de discagem aguardarão no lobby até que um usuário autenticado da organização ingresse na reunião. 
 
-**Observação** Se falso e um usuário de discagem ingressar na reunião primeiro e for colocado no lobby, um usuário da organização deverá ingressar na reunião com um cliente do teams para admitir o usuário da lobbby. Não há controles de lobby disponíveis para discar em usuários. 
+**Observação** Se falso e um usuário de discagem ingressar na reunião primeiro e for colocado no lobby, um usuário da organização deverá ingressar na reunião com um cliente do teams para admitir o usuário do lobby. Não há controles de lobby disponíveis para discar em usuários. 
 
 
 ### <a name="automatically-admit-people"></a>Admitir pessoas automaticamente
@@ -406,6 +406,23 @@ No momento, você só pode usar o PowerShell para definir essa configuração de
 Para habilitar um organizador da reunião para baixar o relatório de presença de reunião, defina o parâmetro **AllowEngagementReport** como **habilitado**. Quando habilitada, a opção para baixar o relatório é exibida no painel **participantes** .
 
 Para impedir que um organizador da reunião Baixe o relatório, defina o parâmetro como **desabilitado**. Por padrão, essa configuração está desabilitada e a opção de baixar o relatório não está disponível.
+
+## <a name="meeting-policy-settings---meeting-provider-for-islands-mode"></a>Configurações de política de reunião – provedor de reunião para o modo de ilhas
+
+**(em breve)**
+
+Esta é uma política por usuário. Esta configuração controla qual suplemento de reunião do Outlook é usado para *os usuários que estão no modo de ilhas*. Você pode especificar se os usuários só podem usar o suplemento de reunião do Teams e os suplementos de reunião do Skype for Business para agendar reuniões no Outlook.
+
+Você só pode aplicar essa política a usuários que estão no modo de ilhas e ter o parâmetro **AllowOutlookAddIn** definido como **true** na política de reunião do Microsoft Teams.
+
+No momento, você só pode usar o PowerShell para definir essa política. Você pode editar uma política de reunião do teams existente usando o cmdlet [set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) . Ou crie uma nova política de reunião do teams usando o cmdlet [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) e atribua-a a usuários.
+
+Para especificar o suplemento de reunião que você deseja disponibilizar para os usuários, defina o parâmetro **PreferredMeetingProviderForIslandsMode** da seguinte maneira:
+
+- Defina o parâmetro como **TeamsAndSfB** para habilitar o suplemento de reunião do Teams e o suplemento Skype for Business no Outlook. Esse é o valor padrão.
+- Defina o parâmetro como **TeamsOnly** para habilitar somente o suplemento de reunião do teams no Outlook. Essa configuração de política garante que todas as reuniões futuras tenham um link de ingressar na reunião do teams. Não migra a reunião do Skype for Business existente para ingressar nos links para o Microsoft Teams. Essa configuração de política não afeta a presença, o chat, as chamadas PSTN ou qualquer outro recurso no Skype for Business, o que significa que os usuários continuarão a usar o Skype for Business para esses recursos.
+
+  Se você definir o parâmetro para **TeamsOnly**e, em seguida, retornar ao **TeamsAndSfB**, ambos os suplementos de reunião serão habilitados. No entanto, observe que a reunião de equipes existentes que ingressam em links não será migrada para o Skype for Business. Somente as reuniões do Skype for Business agendadas após a alteração terão o link de ingresso na reunião do Skype for Business.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

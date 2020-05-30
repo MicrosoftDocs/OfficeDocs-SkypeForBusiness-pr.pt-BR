@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 89e7db133b8878e77dbf14025b97c658b0de21e4
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: 052cf825e2f05dd17a77043ab87bedbb2f3f8d9c
+ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44349605"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "44416721"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Usar o suplemento de Reunião do Teams no Outlook
 =======================================
@@ -37,6 +37,7 @@ O suplemento de reunião do teams é instalado automaticamente para os usuários
 ![Captura de tela do suplemento de reunião do Teams na faixa de opções do Outlook](media/Teams-add-in-for-Outlook.png)
 
 > [!NOTE]
+> - Não há **URL direta** que se vincule ao suplemento Teams.
 > - Há mais considerações se a sua organização executar tanto o Skype for Business Teams quanto o Skype for Business. Em algumas circunstâncias, o suplemento Teams não está disponível no Outlook. Confira [a atualização do Skype for Business para o Teams](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview#meetings) para obter detalhes.
 > - Ter permissões do usuário para executar o arquivo Regsvr32.exe é um requisito mínimo para que o suplemento Reunião do Teams seja instalado no computador.
 > - Se o suplemento de Reunião do Teams não for exibido, instrua os usuários a fechar o Outlook e o Teams e reiniciar o cliente Teams primeiro, depois entrar no Teams e então reiniciar o cliente Outlook, exatamente nessa ordem.
@@ -65,6 +66,7 @@ O botão Reunião do Teams é exibido nas versões mais recentes do aplicativo d
 As coordenadas da reunião (os números de discagem e de ingresso no Teams) serão adicionadas ao convite da reunião depois que o usuário clicar em **Enviar**.  
 
 ## <a name="teams-meeting-add-in-in-and-findtime-for-outlook"></a>Suplemento de reunião do Teams e Verificador de Horas para o Outlook
+
 Findtime é um suplemento do Outlook que ajuda os usuários a alcançarem um consenso em um horário de reunião entre as empresas. Depois que os convidados da reunião fornecem seu horário preferido, o Verificador de Horas envia o convite da reunião em nome do usuário. Se a opção **Reunião online** estiver selecionada no Verificador de Horas, o Verificador de Horas agendará uma reunião do Skype for Business ou Microsoft Teams. (O Verificador de Horas usará o que tiver sido definido pela sua organização como o canal de reunião online padrão.)
 
 > [!NOTE]  
@@ -96,7 +98,9 @@ O cliente Teams instala o suplemento correto, determinando se os usuários preci
 
 Os clientes podem [escolher sua jornada de atualização do Skype for Business para o Teams](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md). Os administradores de locatários podem usar o modo de coexistência do Teams para definir essa jornada para seus usuários. Os administradores de locatários têm a opção de permitir que os usuários usem o Teams juntamente ao Skype for Business (modo Ilhas). 
 
-Quando os usuários que estão no modo Ilha agendam uma reunião no Outlook, eles normalmente esperam poder escolher agendar uma reunião do Skype for Business ou do Teams. No Outlook na Web, Outlook para Windows e Outlook para Mac, os usuários veem tanto o suplemento do Skype for Business como o do Teams quando estão no modo Ilhas. Devido a certas limitações na versão inicial, o Outlook mobile pode oferecer suporte apenas à criação de reuniões do Skype for Business **ou** do Teams. Veja a tabela a seguir para obter detalhes.
+Quando os usuários que estão no modo Ilha agendam uma reunião no Outlook, eles normalmente esperam poder escolher agendar uma reunião do Skype for Business ou do Teams. No Outlook na Web, no Outlook no Outlook e no Outlook Mac, os usuários visualizam os suplementos do Skype for Business e do teams quando estiverem no modo ilhas por padrão. Você pode configurar uma configuração de política de reunião do teams para controlar se os usuários no modo de ilhas só podem usar o suplemento de reunião do Teams e os suplementos de reunião do Skype for Business.
+
+Devido a certas limitações na versão inicial, o Outlook mobile pode oferecer suporte apenas à criação de reuniões do Skype for Business **ou** do Teams. Veja a tabela a seguir para obter detalhes.
 
 | Modo de coexistência no centro de administração do Teams | Provedor de reuniões padrão no Outlook mobile |
 | --------------------------------------|---------------------------------------------|
@@ -105,6 +109,14 @@ Quando os usuários que estão no modo Ilha agendam uma reunião no Outlook, ele
 | Colaboração do Skype for Business com o Teams | Skype for Business |
 | Colaboração e reuniões do Skype for Business com o Teams | Teams |
 | Somente Teams | Teams |
+
+### <a name="set-whether-users-in-islands-mode-can-only-use-the-teams-meeting-add-in-or-both-the-teams-meeting-and-skype-for-business-meeting-add-ins"></a>Defina se os usuários no modo de ilhas só podem usar o suplemento de reunião do Teams e os suplementos de reunião do Skype for Business.
+
+**(em breve)**
+
+Como administrador, você pode configurar uma configuração de política de reunião do teams para controlar qual suplemento de reunião do Outlook é usado para *os usuários que estão no modo de ilhas*. Você pode especificar se os usuários só podem usar o suplemento de reunião do Teams e os suplementos de reunião do Skype for Business para agendar reuniões no Outlook.
+
+Você só pode aplicar essa política a usuários que estão no modo de ilhas e ter o parâmetro **AllowOutlookAddIn** definido como **true** na política de reunião do Microsoft Teams. Para ver as etapas sobre como definir essa política, consulte [definir o provedor de reunião para usuários no modo ilhas](meeting-policies-in-teams.md#meeting-policy-settings---meeting-provider-for-islands-mode).
 
 ## <a name="other-considerations"></a>Outras considerações
 

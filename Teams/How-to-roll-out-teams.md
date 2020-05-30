@@ -21,17 +21,17 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7cb1178771ad0616a28fcc9e8a22c08b2851c4cf
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 74764b2a785835b9dfb65bedf3eb67db0e1109af
+ms.sourcegitcommit: 86b0956680b867b8bedb2e969220b8006829ee53
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904873"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "44410416"
 ---
 # <a name="how-to-roll-out-microsoft-teams"></a>Como implementar o Microsoft Teams
 
 ## <a name="start-here"></a>Comece aqui
-Não importa se você faz parte de uma pequena empresa ou de uma multinacional, comece a implementar o Teams pela [Introdução](get-started-with-teams-quick-start.md). Ela orientará você por uma implantação do Teams em pequena escala, o que pode ser tudo o que você precisa caso tenha um pequeno negócio ou esteja implantando rapidamente o Teams como sua primeira carga de trabalho do Office 365 para dar suporte a **trabalhadores remotos**. Se você faz parte de uma organização maior, use a [Introdução](get-started-with-teams-quick-start.md) para fazer um piloto do Teams com um grupo pequeno de usuários iniciais, para saber mais sobre o Teams e dar início ao planejamento da implementação para toda a organização. 
+Não importa se você faz parte de uma pequena empresa ou de uma multinacional, comece a implementar o Teams pela [Introdução](get-started-with-teams-quick-start.md). Ele o orienta por uma implantação do Teams em pequena escala, que pode ser tudo o que você precisa se você for uma empresa de pequeno porte ou estiver implementando o Teams rapidamente como sua primeira carga de trabalho do Office 365 para oferecer suporte aos **trabalhadores remotos**. Se você faz parte de uma organização maior, use a [Introdução](get-started-with-teams-quick-start.md) para fazer um piloto do Teams com um grupo pequeno de usuários iniciais, para saber mais sobre o Teams e dar início ao planejamento da implementação para toda a organização. 
 
 ## <a name="recommended-path-to-teams"></a>Caminho recomendado para o Teams
 

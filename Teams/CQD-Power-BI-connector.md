@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Instalar o conector do Power BI para usar modelos de consulta CQD
-ms.openlocfilehash: 7c54c34bcdbdd7227e40dab52f9a765bf4336e37
-ms.sourcegitcommit: 86b0956680b867b8bedb2e969220b8006829ee53
+ms.openlocfilehash: 84177d98addfa3efc96db4e77148556a941a74dc
+ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "44410466"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "44416861"
 ---
 # <a name="install-power-bi-connector-to-use-cqd-query-templates"></a>Instalar o conector do Power BI para usar modelos de consulta CQD
 
@@ -163,6 +163,10 @@ Apesar da marca beta, o conector de qualidade da chamada para o Power BI é a ve
 ### <a name="why-does-the-connector-seem-slower-compared-to-advanced-cqd-in-the-browser-what-can-i-do-to-improve-performance"></a>Por que o conector parece mais lento quando o CQD avançado está no navegador? O que posso fazer para melhorar o desempenho?
 
 O desempenho da consulta para os vários modelos é realmente o mesmo no navegador e no conector.  Assim como qualquer outro aplicativo autônomo, o Power BI adiciona seu tempo de autenticação e renderização ao nosso desempenho. Além disso, a diferença se refere ao número de consultas simultâneas em execução. Como a versão do navegador do CQD tinha menos opções de visualização bem desenvolvidas e com informações de visualização, a maioria dos nossos relatórios limitava o carregamento de consultas do 2-3 de cada vez. Por outro lado, os modelos de conector geralmente exibem mais de 20 consultas simultâneas. Se você quiser criar relatórios que sejam tão responsivos quanto os antigos para os quais foi usado, tente criar relatórios sem mais de 2-3 consultas por guia.
+
+Para obter mais informações, consulte os seguintes artigos: 
+- [Guia de otimização do Power BI](https://docs.microsoft.com/power-bi/guidance/power-bi-optimization)
+- [Diretrizes de modelo DirectQuery](https://docs.microsoft.com/power-bi/guidance/directquery-model-guidance)
 
 ### <a name="i-find-that-i-routinely-run-into-the-10000-row-limit-when-running-queries-how-can-i-get-the-connector-to-return-more-than-10000-rows"></a>Acho que eu insiro rotineiramente o limite de linha de 10.000 ao executar consultas. Como posso obter o conector para retornar mais de 10.000 linhas?
 

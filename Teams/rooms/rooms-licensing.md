@@ -22,12 +22,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: Saiba mais sobre as licenças disponíveis para diferentes tipos de recursos de chamada e reunião nos quartos do Microsoft Teams.
-ms.openlocfilehash: d3ab603e914fef828788d474fa051c1e102165cd
-ms.sourcegitcommit: b5c747e2daad6dd3c1d91f4e61ae6f26db5c77f0
+ms.openlocfilehash: 581be3b73e951ff4d3409ccf9f4ee10f212c7f23
+ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44064486"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "44416841"
 ---
 # <a name="teams-meeting-room-licensing-update"></a>Atualização do licenciamento da sala de reunião do teams
 
@@ -67,7 +67,7 @@ A tabela a seguir lista os recursos que estão disponíveis nos quartos do Micro
 |Ingressar em uma reunião agendada  | SKU da sala de reunião  |Skype for Business Server Standard CAL  |
 |Iniciar uma reunião ad hoc | SKU da sala de reunião  |Skype for Business Server Standard CAL  <br/> Skype for Business Server Enterprise CAL|
 |Iniciar uma reunião ad hoc e discar de uma reunião para números de telefone |  SKU da sala de reunião |Skype for Business Standard CAL  <br/> Skype for Business Server Enterprise CAL|
-|Dê à sala um número de telefone e faça ou receba uma chamada da sala ou ingresse em uma conferência de áudio usando um número de telefone  | SKU da sala de reunião  |Skype for Business Server Standard CAL  <br/> Skype for Business Server Plus CAL  |
+|Dê à sala um número de telefone e faça ou receba uma chamada da sala ou ingresse em uma conferência de áudio usando um número de telefone  | Com roteamento direto: SKU da sala de reunião<br/>Sem roteamento direto: plano de chamadas doméstica ou internacional<br/>Microsoft 365 Business Voice  |Skype for Business Server Standard CAL  <br/> Skype for Business Server Plus CAL  |
 |Gerenciar o dispositivo da sala com o Microsoft Intune |SKU da sala de reunião  |Assinatura do Microsoft Intune com [MDM local](https://docs.microsoft.com/configmgr/mdm/plan-design/plan-on-premises-mdm) |
 | |||
 

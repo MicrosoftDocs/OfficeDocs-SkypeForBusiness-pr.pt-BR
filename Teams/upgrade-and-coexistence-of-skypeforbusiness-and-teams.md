@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 597dfa4b2184272c96843cca1ed7c7b79e4d3667
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: a6a1e54d677436b2441e9174cc265eb67b7664d2
+ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902266"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "44416741"
 ---
 # <a name="choose-your-upgrade-journey-from-skype-for-business-to-teams"></a>Escolha a jornada de atualização do Skype for Business para o Teams
 
@@ -104,7 +104,7 @@ A tabela a seguir resume a experiência do Teams no modo de Uso Paralelo e no mo
 | Chats e chamadas recebidos no:|  Teams ou Skype for Business | Teams |
 | Chamadas PSTN recebidas em: | Skype for Business <br>(Não há suporte para o uso da funcionalidade PSTN no Teams no modo de Uso Paralelo.)     | Teams |   
  |Presença    | A presença no Skype for Business e no Teams é independente. Os usuários podem ver estados diferentes para o mesmo usuário de Uso Paralelo, dependendo do cliente usado. | A presença baseia-se apenas na atividade do usuário no Teams. Todos os outros usuários, independentemente de qual cliente usam, veem essa presença. | 
- | Agendamento de Reunião    | Os usuários podem agendar reuniões no Teams ou no Skype for Business. Eles verão ambos os suplementos no Outlook.    |     Os usuários só agendam reuniões no Teams. Somente o suplemento do Teams está disponível no Outlook. | 
+ | Agendamento de reunião    | Os usuários podem agendar reuniões no Teams ou no Skype for Business. Por padrão, eles verão ambos os suplementos no Outlook. Você pode definir uma política de reunião do teams para controlar se os usuários só podem usar o suplemento de reunião do Teams e os suplementos de reunião do Skype for Business (em**breve**). Para saber mais, consulte [definir o provedor de reunião para usuários no modo ilhas](meeting-policies-in-teams.md#meeting-policy-settings---meeting-provider-for-islands-mode). |     Os usuários só agendam reuniões no Teams. Somente o suplemento do Teams está disponível no Outlook. | 
 
 A tabela a seguir resume os prós e os contras de usar o método de recursos sobrepostos para migrar sua organização para o Teams.
 
@@ -148,7 +148,7 @@ Como alternativa, o administrador poderá primeiro mudar apenas o agendamento de
 |Chats e chamadas VOIP de usuários em sua organização recebidos em:     | Skype for Business        | Skype for Business       | Teams        |
 |Chamadas PSTN recebidas em:     | Skype for Business        |Skype for Business         | Teams        |
 |Presença     | Skype for Business        |Skype for Business         | Teams        |
-|Agendamento de Reunião     | Skype for Business         | Teams        | Teams        |
+|Agendamento de Reunião     | Skype for Business         | Microsoft Teams        | Teams        |
 
 
 A tabela a seguir resume os prós e os contras do uso dos modos do Skype for Business como uma etapa de transição para o modo TeamsOnly.

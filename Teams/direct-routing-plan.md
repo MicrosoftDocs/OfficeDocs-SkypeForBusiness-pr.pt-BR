@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Saiba como o roteamento direto do Microsoft Phone System permite conectar um controlador de borda de sessão (SBC) compatível fornecido pelo cliente a um sistema telefônico da Microsoft.
-ms.openlocfilehash: e2bef46f65297cccc573f2e63dedda0e2aca61e7
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: 29b4136c553d8b0f77fbb10259899ebea793ed98
+ms.sourcegitcommit: 1df448516b05bccd0527256b1f4f20792566f8a2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44349595"
+ms.lasthandoff: 05/30/2020
+ms.locfileid: "44428948"
 ---
 # <a name="plan-direct-routing"></a>Planejar o Roteamento Direto
 
@@ -234,7 +234,7 @@ A sip.pstnhub.dod.teams.microsoft.us FQDN será resolvida para um dos seguintes 
 - 52.127.64.33
 - 52.127.68.34
 
-Você precisa abrir portas para todos esses endereços IP no seu firewall para permitir o recebimento e o tráfego de entrada e saída dos endereços para sinalização.  Se o seu firewall der suporte a nomes DNS, a sip.pstnhub.dod.teams.microsoft.us FQDN será resolvida para todos esses endereços IP. 
+Você precisa abrir portas para todos esses endereços IP no seu firewall para permitir o recebimento e o tráfego de entrada e saída dos endereços para sinalização.
 
 ### <a name="office-365-gcc-high-environment"></a>Ambiente High do Office 365 GCC
 
@@ -247,7 +247,7 @@ A sip.pstnhub.gov.teams.microsoft.us FQDN será resolvida para um dos seguintes 
 - 52.127.88.59
 - 52.127.92.64
 
-Você precisa abrir portas para todos esses endereços IP no seu firewall para permitir o recebimento e o tráfego de entrada e saída dos endereços para sinalização.  Se o seu firewall der suporte a nomes DNS, a sip.pstnhub.gov.teams.microsoft.us FQDN será resolvida para todos esses endereços IP. 
+Você precisa abrir portas para todos esses endereços IP no seu firewall para permitir o recebimento e o tráfego de entrada e saída dos endereços para sinalização.
 
 ## <a name="sip-signaling-ports"></a>Sinalização SIP: portas
 
