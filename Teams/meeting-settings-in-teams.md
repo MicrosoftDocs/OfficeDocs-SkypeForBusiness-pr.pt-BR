@@ -21,12 +21,12 @@ ms.custom:
 ms.collection:
 - M365-collaboration
 description: Aprenda a gerenciar as configurações das reuniões do Teams que os usuários agendam em sua organização.
-ms.openlocfilehash: 25945b35ec4800a00ab295ba328d5f1d65ac2ab0
-ms.sourcegitcommit: 3ef5c913318fdeeaa8c55caab07c2f8224eae2b0
+ms.openlocfilehash: 761504400639c8ed53c617f6c816dd7c4703a530
+ms.sourcegitcommit: ef3cd762e799df43bdcde03363c501d7ca9bb6b3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43898166"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44489133"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Gerenciar configurações de reunião no Microsoft Teams
 
@@ -38,8 +38,11 @@ Com o ingresso anônimo, qualquer pessoa pode ingressar na reunião como um usu�
 
 ![Um ícone mostrando o logotipo do Microsoft Teams](media/teams-logo-30x30.png) **Usando o centro de administração do Microsoft Teams**
 
-1. Na barra de navegação à esquerda, vá para **Reuniões** > **Configurações de reunião**.
-2. Em **Participantes**, ative **Usuários anônimos podem ingressar em uma reunião**.
+1. Vá para o centro de administração em <a href="https://go.microsoft.com/fwlink/?linkid=867439" target="_blank">https://admin.teams.microsoft.com</a> .
+
+2. Na barra de navegação à esquerda, vá para **Reuniões** > **Configurações de reunião**.
+
+3. Em **Participantes**, ative **Usuários anônimos podem ingressar em uma reunião**.
 
     ![Captura de tela das configurações dos participantes para reuniões no centro de administração](media/meeting-settings-participants.png "Captura de tela das configurações dos participantes das reuniões do Teams no centro de administração do Microsoft Teams")
 
@@ -62,8 +65,9 @@ Você pode personalizar os convites para reuniões do Teams para atender às nec
 
 ![Um ícone mostrando o logotipo do Microsoft Teams](media/teams-logo-30x30.png) **Usando o centro de administração do Microsoft Teams**
 
-1. Na barra de navegação à esquerda, vá para **Reuniões** > **Configurações de reunião**.
-2. Em **Convite por email**, faça o seguinte:
+1. Vá para o <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">centro de administração</a>...
+2. Na barra de navegação à esquerda, vá para **Reuniões** > **Configurações de reunião**.
+3. Em **Convite por email**, faça o seguinte:
 
     ![Captura de tela das configurações de convite para reunião que você pode personalizar](media/meeting-settings-invitation.png "Captura de tela das configurações de convite de reunião que você pode personalizar para reuniões do Teams")
 
@@ -71,9 +75,9 @@ Você pode personalizar os convites para reuniões do Teams para atender às nec
     - **URL jurídica** Se sua organização possui um site jurídico que você deseja que as pessoas acessem para quaisquer questões jurídicas, digite a URL aqui.
     - **URL de ajuda** Se a sua organização tiver um site de suporte que você deseja que as pessoas acessem se tiverem problemas, digite a URL aqui.
     - **Rodapé** Digite o texto que você deseja incluir como rodapé.
-3. Clique em **Visualizar convite** para ver uma prévia do seu convite para a reunião.
-4. Quando terminar, clique em **Salvar**.
-5. Aguarde cerca de uma hora para que as alterações sejam propagadas. Em seguida, agende uma reunião do Teams para ver como é o convite da reunião.  
+4. Clique em **Visualizar convite** para ver uma prévia do seu convite para a reunião.
+5. Quando terminar, clique em **Salvar**.
+6. Aguarde cerca de uma hora para que as alterações sejam propagadas. Em seguida, agende uma reunião do Teams para ver como é o convite da reunião.  
 
 ## <a name="set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings"></a>Defina como você deseja lidar com o tráfego de mídia em tempo real nas reuniões do Teams
 
@@ -85,9 +89,9 @@ Se você estiver usando Qualidade de Serviço [(QoS)](qos-in-teams.md) para prio
 > Se você habilitar a QoS ou alterar as configurações do serviço Microsoft Teams no centro de administração do Microsoft Teams, também será necessário [aplicar as configurações correspondentes a todos os dispositivos de usuários](QoS-in-Teams-clients.md) e que todos os dispositivos de rede internos implementem totalmente as alterações à QoS no Teams.
 
  ![Um ícone mostrando o logotipo do Microsoft Teams](media/teams-logo-30x30.png) **Usando o centro de administração do Microsoft Teams**
-
-1. Na barra de navegação à esquerda, vá para **Reuniões** > **Configurações de reunião**.
-2. Em **Rede**, faça o seguinte:
+1. Vá para o <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">centro de administração</a>.
+2. Na barra de navegação à esquerda, vá para **Reuniões** > **Configurações de reunião**.
+3. Em **Rede**, faça o seguinte:
 
     ![Captura de tela das configurações de rede para reuniões no centro de administração](media/meeting-settings-network.png "Captura de tela das configurações de rede para reuniões do Teams no centro de administração do Microsoft Teams")
 
@@ -108,7 +112,7 @@ Tipo de tráfego de mídia| Intervalo de portas de origem do cliente \* |Protoco
 |:---             |:---                         |:---    |:---      |:---      |
 |Áudio            | 50.000–50.019               |TCP/UDP |46        |Expedited Forwarding (EF)|
 |Vídeo            | 50.020–50.039               |TCP/UDP |34        |Assured Forwarding (AF41)|
-|Compartilhamento de tela/aplicativo| 50.040-50.059      |TCP/UDP |18        |Assured Forwarding (AF21)|
+|Compartilhamento de tela/aplicativo| 50.040-50.059      |TCP/UDP |dezoito        |Assured Forwarding (AF21)|
 | | | | |
 
 \* Os intervalos de portas que você atribui não podem se sobrepor e devem estar próximos um do outro.

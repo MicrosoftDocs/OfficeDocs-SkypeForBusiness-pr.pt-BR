@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Saiba como gerenciar as configurações de política de reunião no Teams e usá-las para controlar os recursos disponíveis para os participantes da reunião para reuniões agendadas pelos usuários.
-ms.openlocfilehash: efe9e50ae7f3365917ea31ef722a47c1f1fe95ec
-ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
+ms.openlocfilehash: cd5056b2252d4aaad7f1bc8c104c43f43aa516fd
+ms.sourcegitcommit: ef3cd762e799df43bdcde03363c501d7ca9bb6b3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "44416871"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44489143"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Gerenciar políticas de reunião no Teams
 
@@ -423,6 +423,24 @@ Para especificar o suplemento de reunião que você deseja disponibilizar para o
 - Defina o parâmetro como **TeamsOnly** para habilitar somente o suplemento de reunião do teams no Outlook. Essa configuração de política garante que todas as reuniões futuras tenham um link de ingressar na reunião do teams. Não migra a reunião do Skype for Business existente para ingressar nos links para o Microsoft Teams. Essa configuração de política não afeta a presença, o chat, as chamadas PSTN ou qualquer outro recurso no Skype for Business, o que significa que os usuários continuarão a usar o Skype for Business para esses recursos.
 
   Se você definir o parâmetro para **TeamsOnly**e, em seguida, retornar ao **TeamsAndSfB**, ambos os suplementos de reunião serão habilitados. No entanto, observe que a reunião de equipes existentes que ingressam em links não será migrada para o Skype for Business. Somente as reuniões do Skype for Business agendadas após a alteração terão o link de ingresso na reunião do Skype for Business.
+
+## <a name="meeting-policy-settings---video-filters-mode"></a>Configurações de política de reunião-modo de filtros de vídeo
+
+Esta é uma política por usuário. Esta configuração controla se os usuários podem personalizar a tela de fundo do vídeo em uma reunião.
+
+No momento, você só pode usar o PowerShell para definir essa política. Você pode editar uma política de reunião do teams existente usando o cmdlet [set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) . Ou crie uma nova política de reunião do teams usando o cmdlet [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) e, em seguida, atribua a política aos usuários.
+
+Para especificar se os usuários podem personalizar a tela de fundo do vídeo em uma reunião, defina o parâmetro **VideoFiltersMode** da seguinte maneira:
+
+|Valor de configuração no PowerShell |Comportamento  |
+|---------|---------|
+|**Sem filtros**     |O usuário não pode personalizar o plano de fundo do vídeo.|
+|**BlurOnly**     |O usuário tem a opção de desfocar a tela de fundo do vídeo. |
+|**BlurandDefaultBackgrounds**     |O usuário tem a opção de desfocar o plano de fundo do vídeo ou escolher um conjunto de imagens para usar como plano de fundo. |
+|**Filtros**     |Use tem a opção de desfocar a tela de fundo do vídeo, escolher de um conjunto de imagens ou carregar imagens personalizadas para usar como plano de fundo. |
+
+> [!NOTE]
+> Imagens carregadas pelos usuários não são filtradas pelo Teams. Ao usar a configuração **filtros** , você deve ter políticas de organização internas para impedir que os usuários carreguem imagens ofensivas ou inadequadas, ou imagens que sua organização não tem direitos de usar para planos de fundo de reunião do teams.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

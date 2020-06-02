@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Este artigo descreve os benefícios, as considerações de planejamento e os requisitos para implementar o serviço de caixa postal do Microsoft Cloud. Para obter informações sobre como configurar a caixa postal em nuvem, consulte Configuring Cloud postal.
-ms.openlocfilehash: e07dfe76a60d107702891384458cf164a4744578
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: b78608f3fd1e60421ad0edc4318b2b44217851c2
+ms.sourcegitcommit: bdafa1f4146e615d325e27a50352f10c0d51ef1a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221281"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44472250"
 ---
 # <a name="plan-cloud-voicemail-service-for-on-premises-users"></a>Planejar o serviço de caixa postal na nuvem para usuários locais
 
@@ -79,7 +79,7 @@ Além dos requisitos acima, os requisitos a seguir devem ser configurados para s
 
 - Uma URL do EWS (serviços Web do Exchange) externa e descoberta automática deve ser configurada ou alguns recursos de caixa postal na nuvem serão limitados.
 
-- Se você tiver uma implantação local somente&#x2014;ou seja, somente servidores do Exchange e do Skype for Business&#x2014;, mas quiser aproveitar as vantagens da caixa postal na nuvem, será necessário ter uma licença do sistema de telefonia.
+- Se você tiver um servidor Exchange local, configure o correio de voz na nuvem usando as etapas em [Configurar caixa postal na nuvem para usuários de caixa de correio do Exchange Server](https://docs.microsoft.com/microsoftteams/set-up-phone-system-voicemail#set-up-cloud-voicemail-for-exchange-server-mailbox-users).
 
 ## <a name="migration-and-interoperability"></a>Migração e interoperabilidade
 

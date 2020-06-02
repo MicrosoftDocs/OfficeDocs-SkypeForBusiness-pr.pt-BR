@@ -15,12 +15,12 @@ description: Use esta orientação para implementar o Microsoft Teams como sua p
 ROBOTS: NOINDEX, NOFOLLOW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2cd8fc92d3f46df8bcfaa07a96b69b84790750aa
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 647f6879f7892c1a65599832e48deb67e183fae0
+ms.sourcegitcommit: bdafa1f4146e615d325e27a50352f10c0d51ef1a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44041708"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44472342"
 ---
 # <a name="roll-out-microsoft-teams-first"></a>Implantar o Microsoft Teams primeiro
 
@@ -142,9 +142,7 @@ Saiba mais aqui: <a href="https://docs.microsoft.com/microsoftteams/admin-settin
 <li><p>a descoberta eletrônica e a retenção legal para conformidade com mensagens de canal são aceitas</p></li>
 <li><p>Políticas de prevenção contra perda de dados (DLP) estão disponíveis</p></li>
 </ul>
-<p>Conjunto de recursos completo disponível com o Exchange Online, o Exchange local oferece suporte para a maioria desses recursos, consulte</p>
-<p><a href="https://docs.microsoft.com/MicrosoftTeams/exchange-teams-interact">Como o Exchange e o Teams interagem</a></p>
-<p>para obter uma lista completa</p></td>
+<p>Conjunto de recursos completo disponível com o Exchange Online, o Exchange local oferece suporte para a maioria desses recursos, veja <a href="https://docs.microsoft.com/MicrosoftTeams/exchange-teams-interact">como o Exchange e o Teams interagem</a> para a lista completa.</p></td>
 </tr>
 </tbody>
 </table>
@@ -243,8 +241,7 @@ Saiba mais aqui: <a href="https://docs.microsoft.com/microsoftteams/admin-settin
     [Obter clientes para o Teams](get-clients.md)
 
 5.   Orientar o programa de adoção  
-    [Adotar o Microsoft Teams](adopt-microsoft-teams-landing-page.md)
-    
+    [Adotar o Microsoft Teams](adopt-microsoft-teams-landing-page.md)<br/>
     [Lista de verificação de início rápido da adoção do Microsoft Teams](teams-adoption-quick-start-checklist.md)
 
 6.  Começar a mover outras cargas de trabalho para o Office 365
