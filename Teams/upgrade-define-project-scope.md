@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: conceptual
 audience: admin
 ms.service: msteams
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 description: Escopo seu projeto de atualização refinando a visão e os objetivos para garantir que todos os participantes do projeto estejam alinhados e trabalhando em direção aos mesmos resultados finais.
 localization_priority: Normal
 search.appverid: MET150
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f9592d20f95b32bab45f2f1d5cf3aa0431a838b9
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: da75154f78739ab1a1044b101235ccc678ca1eed
+ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904476"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44522534"
 ---
 # <a name="define-your-project-scope"></a>Definir o escopo de seu projeto
 

@@ -20,16 +20,16 @@ ms.custom:
 - Reporting
 - O365E_ReportsS4BOrgActivity
 description: 'Learn how to get the Skype for Business Conference Organized Activity report, and how to interpret and customize it. '
-ms.openlocfilehash: f005a1ee53d1fc5ab5ee9e4736ff8d6d241f3a6e
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+ms.openlocfilehash: 3d00b86e5e080e16f199a6f9e2fd24de2d607d23
+ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769384"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44204832"
 ---
 # <a name="conference-organizer-activity-report"></a>Relatório de atividades dos organizadores de conferências
 
-O novo painel **Relatórios** do Office 365 mostra a visão geral das atividades em todos os produtos do Office 365 da sua organização. Ele permite analisar detalhes dos relatórios em nível de produtos individuais para ter informações mais granulares das atividades dentro de cada produto. Por exemplo, você pode usar o relatório **Atividade dos organizadores de conferências do Skype for Business** para ver o quanto seus usuários estão organizando conferências usando mensagens instantâneas, áudio/vídeo, compartilhamento de aplicativos, a Web, discagem de terceiros e discagem da Microsoft. 
+O painel **relatórios** mostra a visão geral da atividade nos produtos do Microsoft 365 ou do Office 365 em sua organização. Ele permite analisar detalhes dos relatórios em nível de produtos individuais para ter informações mais granulares das atividades dentro de cada produto. Por exemplo, você pode usar o relatório **Atividade dos organizadores de conferências do Skype for Business** para ver o quanto seus usuários estão organizando conferências usando mensagens instantâneas, áudio/vídeo, compartilhamento de aplicativos, a Web, discagem de terceiros e discagem da Microsoft. 
 
 Confira a [visão geral de relatórios](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) para saber mais.
   
@@ -40,9 +40,9 @@ Esse relatório, juntamente com os outros relatórios do Skype for Business, for
   
 ## <a name="how-to-get-to-the-skype-for-business-conference-organizer-report"></a>Como obter o relatório de organizadores de conferências do Skype for Business
 
-1. Vá para o centro de administração >**uso**dos **relatórios** > .
+1. Vá para o centro de administração > uso dos **relatórios**  >  **Usage**.
     
-2. Na página **uso** , selecione**atividade do organizador de conferências** do **Skype for Business** >na **lista Selecionar um relatório** à esquerda. Ou clique no widget **atividade do Skype for Business** e, em seguida, clique em **atividade do organizador de conferências do Skype for Business** na lista de atividades do **Skype for Business** .
+2. Na página **uso** , selecione atividade do organizador de conferências do **Skype for Business**  > **Conference organizer activity** na **lista Selecionar um relatório** à esquerda. Ou clique no widget **atividade do Skype for Business** e, em seguida, clique em **atividade do organizador de conferências do Skype for Business** na lista de atividades do **Skype for Business** .
   
 ## <a name="interpret-the-skype-for-business-conferences-organizer-report"></a>Interpretar o relatório dos organizadores de conferências do Skype for Business
 

@@ -1,7 +1,7 @@
 ---
 title: Criar uma fila de chamadas
-ms.author: crowe
-author: CarolynRowe
+ms.author: dstrome
+author: dstrome
 manager: serdars
 ms.reviewer: phans, wasseemh
 ms.topic: article
@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Saiba como configurar o sistema telefônico para filas de chamadas em nuvem com o Microsoft Teams, que fornecem uma mensagem de saudação, suspender música, redirecionamento de chamada e outros recursos.
-ms.openlocfilehash: 8d7001d3e4052eddcfce1d3dfa3da845bce3af66
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 9c2593f657ae66a1dcde825ac7a783df10cd96d8
+ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44047382"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44523772"
 ---
 # <a name="create-a-cloud-call-queue"></a>Criar uma fila de chamada do Cloud
 
@@ -64,11 +64,11 @@ Para começar a usar filas de chamadas, é importante lembrar-se de algumas cois
 - Uma fila de chamadas é necessária para ter uma conta de recurso associada. Consulte [gerenciar contas de recursos no Teams](manage-resource-accounts.md) para obter detalhes sobre contas de recursos.
 - Ao atribuir um número de telefone a uma conta de recurso, agora você pode usar a [licença de usuário virtual](teams-add-on-licensing/virtual-user.md)de sistema telefônico sem custo. O sistema telefônico permite números de telefone no nível organizacional para uso com serviços de atendedor automático de baixo custo e fila de chamadas.
 
-> [!NOTE]
-> Os números do serviço de roteamento direto para filas de chamadas têm suporte somente para usuários e agentes do Microsoft Teams.
+  > [!NOTE]
+  > Os números do serviço de roteamento direto para filas de chamadas têm suporte somente para usuários e agentes do Microsoft Teams.
 
-> [!NOTE]
-> Para redirecionar chamadas para pessoas em sua organização que estão online, elas devem ter uma licença do **sistema de telefonia** e estar habilitadas para o Enterprise Voice ou ter planos de chamadas do Office 365. Consulte [atribuir licenças de Complementos do Microsoft Teams](teams-add-on-licensing/assign-teams-add-on-licenses.md). Para habilitá-las para o Enterprise Voice, você pode usar o Windows PowerShell. Por exemplo, execute:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+  > [!NOTE]
+  > Para redirecionar chamadas para pessoas em sua organização que estão online, elas devem ter uma licença do **sistema de telefonia** e estar habilitadas para o Enterprise Voice ou ter planos de chamadas do Office 365. Consulte [atribuir licenças de Complementos do Microsoft Teams](teams-add-on-licensing/assign-teams-add-on-licenses.md). Para habilitá-las para o Enterprise Voice, você pode usar o Windows PowerShell. Por exemplo, execute:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
 - Para saber mais sobre os planos de chamada do Office 365, consulte [sistema telefônico e planos de chamada](calling-plan-landing-page.md) e [planos de chamadas do Office 365](calling-plans-for-office-365.md).
 
@@ -80,33 +80,23 @@ Para começar a usar filas de chamadas, é importante lembrar-se de algumas cois
 - Os seguintes clientes têm suporte para agentes de chamada associados a uma fila de chamadas em nuvem:
 
   - Cliente de área de trabalho do Skype for Business 2016 (versões de 32 bits e de 64 bits)
-
   - Lync desktop cliente 2013 (versões de 32 bits e de 64 bits)
-
   - Todos os modelos de telefone IP com suporte para Microsoft Teams. Consulte [Obter telefones para o Skype for Business Online](/skypeforbusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online).
-
   - Cliente Skype for Business para Mac (versão 16.8.196 e posterior)
-
   - Cliente Skype for Business Android (versão 6.16.0.9 e posterior)
-
   - Cliente Skype for Business (versão 6.16.0 e posterior) do iPhone
-
   - Cliente Skype for Business para iPad (versão 6.16.0 e posterior)
-
   - Microsoft Teams Windows Client (versões de 32 bits e 64 bits)
-
   - Cliente Mac do Microsoft Teams
-
   - Aplicativo iPhone do Microsoft Teams
-
   - Aplicativo Android do Microsoft Teams
 
     > [!NOTE]
-    > As filas de chamadas atribuídas a um número de roteamento direto não oferecerão suporte para clientes do Skype for Business, clientes do Lync ou telefones IP do Skype for Business como agentes.
+    > As filas de chamadas atribuídas a um número de roteamento direto não dão suporte a clientes Skype for Business, clientes do Lync ou telefones IP do Skype for Business como agentes.
 
 ## <a name="step-2--get-or-transfer-toll-or-toll-free-service-phone-numbers"></a>Etapa 2: obter ou transferir números de telefone de serviço de chamada tarifada ou gratuita
 
-Antes de criar e configurar suas filas de chamadas, você precisa obter ou transferir seus números de serviço de chamada tarifada ou chamada gratuitas existentes. Para obter seus números de serviço, consulte [obtendo números de telefone de serviço](getting-service-phone-numbers.md) ou se você quiser transferir um número de serviço existente, consulte [transferir números de telefone para o Office 365](phone-number-calling-plans/transfer-phone-numbers-to-teams.md). Depois de obter os números de telefone de serviço de chamada tarifada ou gratuita, eles aparecerão nos**números de telefone**de**voz** > do centro > de **Administração do Microsoft Teams**. Números de chamada gratuita serão listados com um **tipo** de serviço de número **: gratuito**.
+Antes de criar e configurar suas filas de chamadas, você precisa obter ou transferir seus números de serviço de chamada tarifada ou chamada gratuitas existentes. Para obter seus números de serviço, consulte [obtendo números de telefone de serviço](getting-service-phone-numbers.md) ou se você quiser transferir um número de serviço existente, consulte [transferir números de telefone para o Office 365](phone-number-calling-plans/transfer-phone-numbers-to-teams.md). Depois de obter os números de telefone de serviço de chamada tarifada ou gratuita, eles aparecerão nos números de telefone de voz do **centro de administração do Microsoft Teams**  >  **Voice**  >  **Phone numbers**. Números de chamada gratuita serão listados com um **tipo** de serviço de número **: gratuito**.
 
 > [!NOTE]
 > Se você estiver fora dos Estados Unidos, não poderá usar o centro de administração do Microsoft Teams para obter números de serviço. Vá para [gerenciar números de telefone de sua organização](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) em vez de ver como fazer isso de fora dos Estados Unidos.
@@ -122,7 +112,7 @@ Ao configurar vários atendedores automáticos, você normalmente atribuiria um 
 
 ### <a name="use-the-microsoft-teams-admin-center"></a>Usar o centro de administração do Microsoft Teams
 
-No **centro de administração do Microsoft Teams**,**filas de chamadas**de **voz** > e clique em **+ Adicionar novo**:
+No **centro de administração do Microsoft Teams**, **Voice**  >  **filas de chamadas**de voz e clique em **+ Adicionar novo**:
 
 ### <a name="set-the-display-name-and-resource-account"></a>Definir o nome para exibição e a conta do recurso
 
@@ -130,15 +120,15 @@ No **centro de administração do Microsoft Teams**,**filas de chamadas**de **vo
 
 * * *
 
-![O ícone do número 1 faz referência a um texto explicativo no](media/teamscallout1.png)
-**nome** anterior da captura de tela digite um nome de exibição descritivo para a fila de chamadas. Esse nome é necessário e pode conter até 64 caracteres, incluindo espaços.
+![O ícone do número 1 faz referência a um texto explicativo no nome anterior da captura de tela ](media/teamscallout1.png)
+ **Name** digite um nome de exibição descritivo para a fila de chamadas. Esse nome é necessário e pode conter até 64 caracteres, incluindo espaços.
 
  Esse nome será exibido na notificação para a chamada recebida.
 
 * * *
 
-![O ícone do número 2 faz referência a um balão na captura de](media/teamscallout2.png)
-tela anterior**Adicionar contas** selecione uma conta de recurso. Todas as filas de chamadas são necessárias para ter uma conta de recurso. Não é necessário ter contas de recursos para ter um número de telefone de chamada tarifada ou gratuita do serviço.
+![O ícone do número 2 faz referência a um balão na captura de tela anterior ](media/teamscallout2.png)
+ **Adicionar contas** selecione uma conta de recurso. Todas as filas de chamadas são necessárias para ter uma conta de recurso. Não é necessário ter contas de recursos para ter um número de telefone de chamada tarifada ou gratuita do serviço.
 
 Se não houver lista, obtenha números de serviço e atribua-os a uma conta de recurso antes de criar a fila de chamadas, conforme descrito anteriormente. Para obter seus números de serviço, consulte [obtendo números de telefone de serviço](getting-service-phone-numbers.md). Consulte [gerenciar contas de recursos no Teams](manage-resource-accounts.md) para obter informações específicas sobre como atribuir um número de telefone.
 
@@ -151,13 +141,13 @@ Se não houver lista, obtenha números de serviço e atribua-os a uma conta de r
 
 * * *
 
-![O ícone do número 1 faz referência a um texto explicativo na](media/teamscallout1.png)
-captura de tela anterior**saudação** da saudação opcional para as pessoas que chamam o número da fila de chamadas.
+![O ícone do número 1 faz referência a um texto explicativo na captura de tela anterior ](media/teamscallout1.png)
+ **saudação** da saudação opcional para as pessoas que chamam o número da fila de chamadas.
 
 Você pode carregar um arquivo de áudio (formatos. wav,. mp3 ou. WMA).
 
-![O ícone do número 2 faz referência a um texto explicativo nas](media/teamscallout2.png)
-músicas de captura de tela anteriores**em espera** , você pode usar a música padrão em espera fornecida com a fila de chamadas. Você também pode carregar um arquivo de áudio nos formatos. wav, MP3 ou. WMA para usar como sua música personalizada em espera.
+![O ícone do número 2 faz referência a um texto explicativo nas músicas de captura de tela anteriores ](media/teamscallout2.png)
+ **em espera** , você pode usar a música padrão em espera fornecida com a fila de chamadas. Você também pode carregar um arquivo de áudio nos formatos. wav, MP3 ou. WMA para usar como sua música personalizada em espera.
 
 * * *
 
@@ -165,8 +155,8 @@ músicas de captura de tela anteriores**em espera** , você pode usar a música 
 
 ![Captura de tela das opções de atendimento de chamadas](media/teams-cq-call-answering-options.png)
 
-![O ícone do número 1 faz referência a um texto explicativo na](media/teamscallout1.png)
-captura de tela anterior**agentes e grupos** para adicionar agentes individuais diretamente, sem adicioná-los a um grupo, clique em **Adicionar usuários**. Coloque agentes individuais na ordem em que você deseja que eles recebam a chamada. Você pode adicionar até 20 agentes individuais (para adicionar mais de 20, colocá-los em um grupo).
+![O ícone do número 1 faz referência a um texto explicativo na captura de tela anterior ](media/teamscallout1.png)
+ **agentes e grupos** para adicionar agentes individuais diretamente, sem adicioná-los a um grupo, clique em **Adicionar usuários**. Coloque agentes individuais na ordem em que você deseja que eles recebam a chamada. Você pode adicionar até 20 agentes individuais (para adicionar mais de 20, colocá-los em um grupo).
 
 As chamadas são roteadas primeiro para agentes individuais e depois para os agentes em grupos. 
 
@@ -185,21 +175,42 @@ Os agentes de chamada selecionados devem ser um dos seguintes:
   > [!NOTE]
   > Isso também se aplica se você quiser redirecionar chamadas para as pessoas em sua organização que estão online. Esses indivíduos devem ter uma licença do **sistema telefônico** e o Enterprise Voice habilitados *ou* ter um plano de chamadas. Para obter mais informações, consulte [atribuir licenças do Skype for Business](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses), [atribuir licenças do Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/assign-teams-add-on-licenses)ou [qual plano de chamada é ideal para você?](https://docs.microsoft.com/microsoftteams/calling-plan-landing-page)
 
- Para habilitar um agente para Enterprise Voice, você pode usar o Windows PowerShell. Por exemplo, execute:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+   Para habilitar um agente para Enterprise Voice, você pode usar o Windows PowerShell. Por exemplo, execute:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
 - Usuários com uma licença do **sistema telefônico** ou um plano de chamadas que são adicionados a um grupo do Office 365; uma lista de distribuição habilitada para email; ou um grupo de segurança. Quando você adiciona um agente em uma lista de distribuição ou um grupo de segurança como um agente de fila de chamada, pode levar até três horas para que a primeira chamada seja recebida. Uma lista de distribuição ou um grupo de segurança recém-criado pode levar até 48 horas para se tornar disponível para ser usado com filas de chamadas. Os grupos do Microsoft 365 recém criados estão disponíveis quase que imediatamente.
 
 - Se seus agentes estiverem usando o aplicativo Microsoft Teams para chamadas da fila de chamadas, eles precisarão estar no modo TeamsOnly.
 
-![O ícone do número 2 faz referência a um texto explicativo no](media/teamscallout2.png)
-**método de roteamento** de captura de tela anterior, você pode escolher o **atendedor**, a **série**ou o **rodízio** como o método de distribuição. Todas as filas de chamadas novas e existentes têm roteamento de atendedor selecionado por padrão. Quando o roteamento do atendente é usado, a primeira chamada na fila toca em todos os agentes de chamada ao mesmo tempo. O primeiro agente de chamadas para atender a chamada recebe a chamada.
+![O ícone do número 2 faz referência a um texto explicativo no modo de conferência anterior em ](media/teamscallout2.png)
+ **modo de conferência** reduz significativamente o tempo necessário para que o chamador seja conectado a um agente, após o agente aceitar a chamada. Se você tiver mais de uma fila de chamadas, poderá habilitar o modo de conferência em algumas ou todas as suas filas de chamadas; habilitar ou desabilitar o modo de conferência em uma fila de chamadas não afeta nenhuma outra fila de chamadas.
+
+O modo de conferência está desabilitado por padrão, mas pode ser habilitado a qualquer momento se os seguintes requisitos forem atendidos:
+
+- Os agentes adicionados à fila de chamadas precisam usar um dos seguintes clientes:
+  - A versão mais recente do cliente de desktop do Microsoft Teams, do aplicativo Android ou do aplicativo iOS
+  - Microsoft Teams Phone versão 1449/1.0.94.2020051601 ou posterior
+- Contas de equipe dos agentes devem ser definidas para o modo somente de equipes
+
+> [!IMPORTANT]
+> Se os requisitos do agente acima não forem atendidos e o modo de conferência estiver habilitado em uma fila de chamadas, os agentes que não atendem aos requisitos não serão incluídos na lista de circulação de chamadas. Os agentes que não estão na lista de circulação de chamadas não recebem chamadas. Se você tiver agentes que não atendem aos requisitos de agente acima, não habilite o modo de conferência na fila de chamadas.
+
+Depois que o modo de conferência estiver habilitado em uma fila de chamadas, as chamadas serão beneficiadas do tempo de conexão mais rápido se forem recebidas por meio de um dos seguintes métodos:
+
+- Chamadas de VoIP de outro cliente de desktop do Microsoft Teams
+- Chamadas PSTN de plano de chamada
+- Chamadas PSTN de roteamento direto
+
+A maioria das chamadas é recebida por meio de um dos métodos listados acima. Se uma chamada for recebida por meio de outro método (como uma chamada de VoIP de um cliente Skype for Business), a chamada ainda será adicionada à fila de chamadas, mas não se beneficiará do tempo de conexão mais rápido.
+
+![Do número 3, faz referência a um balão no método de roteamento de captura de tela anterior, ](media/teamscallout3.png)
+ **Routing method** você pode escolher o **atendedor**, a **série**ou o **rodízio** como o método de distribuição. Todas as filas de chamadas novas e existentes têm roteamento de atendedor selecionado por padrão. Quando o roteamento do atendente é usado, a primeira chamada na fila toca em todos os agentes de chamada ao mesmo tempo. O primeiro agente de chamadas para atender a chamada recebe a chamada.
 
 - O **Roteamento de atendedor** faz com que a primeira chamada na fila toque em todos os agentes de chamada ao mesmo tempo. O primeiro agente de chamadas para atender a chamada recebe a chamada.
 - **Roteamento serial** as chamadas recebidas entram em contato com todos os agentes de chamada, um por um, do início da lista de agentes de chamadas. Os agentes não podem ser solicitados na lista agente de chamadas. Se um agente ignorar ou não atender a chamada, a chamada tocará no próximo agente e experimentará todos os agentes até que ele seja retirado ou expirado.
 - O direcionamento de **rodízio** equilibra a circulação de chamadas de entrada para que cada agente de chamadas obtenha o mesmo número de chamadas da fila. Isso pode ser desejável em um ambiente de vendas de entrada para garantir uma oportunidade igual entre todos os agentes de chamadas.
 
-![O ícone do número 3, faz referência a um balão no roteamento](media/teamscallout3.png)
-baseado em presença de**roteamento baseado em presença** de captura de tela anterior, usa o status de disponibilidade dos agentes de chamada para determinar se um agente deve ser incluído na lista de roteamento de chamadas para o método de roteamento selecionado. Os agentes de chamada cujo status de disponibilidade está definido como **disponível** estão incluídos na lista de circulação de chamadas e podem receber chamadas. Os agentes cujo status de disponibilidade é definido como qualquer outro status serão excluídos da lista de roteamento de chamadas e não receberão chamadas até que seu status de disponibilidade mude novamente para **disponível**.
+![O ícone do número 4 faz referência a um balão no roteamento baseado em presença de roteamento baseado em presença de captura de tela anterior ](media/teamscallout4.png)
+ **Presence-based routing** que usa o status de disponibilidade dos agentes de chamada para determinar se um agente deve ser incluído na lista de roteamento de chamadas para o método de roteamento selecionado. Os agentes de chamada cujo status de disponibilidade está definido como **disponível** estão incluídos na lista de circulação de chamadas e podem receber chamadas. Os agentes cujo status de disponibilidade é definido como qualquer outro status serão excluídos da lista de roteamento de chamadas e não receberão chamadas até que seu status de disponibilidade mude novamente para **disponível**.
 
 Você pode habilitar o roteamento de chamadas baseado em presença com qualquer um dos métodos de roteamento.
 
@@ -214,8 +225,8 @@ Se um agente optar por não receber chamadas, ele não será incluído na lista 
 
 * * *
 
-![O ícone do número 1 faz referência a um texto explicativo no](media/teamscallout1.png)
-agente de captura de tela anterior**pode cancelar a entrada de chamadas** que você pode optar por permitir que os agentes da fila de chamada optem por fazer chamadas de uma fila específica habilitando essa opção.
+![O ícone do número 1 faz referência a um texto explicativo no agente de captura de tela anterior ](media/teamscallout1.png)
+ **pode cancelar a entrada de chamadas** que você pode optar por permitir que os agentes da fila de chamada optem por fazer chamadas de uma fila específica habilitando essa opção.
 
 Habilitar essa opção permite que todos os agentes nesta fila sejam iniciados ou parem de receber chamadas desta fila de chamadas. Você pode revogar o privilégio de cancelamento de agente a qualquer momento desmarcando a caixa de seleção, fazendo com que os agentes se tornem automaticamente para esta fila de novo (a configuração padrão para todos os agentes).
 
@@ -226,12 +237,12 @@ Para acessar a opção de recusa, os agentes podem:
  3. Na página Configurações do usuário, clique em **filas de chamadas**e desmarque as caixas de seleção para recusar as filas.
 
     > [!NOTE]
-    > Os agentes que usam aplicativos ou pontos de extremidade diferentes da área de trabalho do Skype for Business podem acessar a opção de cancelamento no portal [https://aka.ms/cqsettings](https://aka.ms/cqsettings)de configurações do usuário.
+    > Os agentes que usam aplicativos ou pontos de extremidade diferentes da área de trabalho do Skype for Business podem acessar a opção de cancelamento no portal de configurações do usuário [https://aka.ms/cqsettings](https://aka.ms/cqsettings) .
     >
     > Se os agentes estiverem em clientes da área de trabalho do Microsoft Teams, eles poderão se recusar usando as configurações de chamada. 
 
-![O ícone do número 2 faz referência a um balão na configuração de](media/teamscallout2.png)
-**alerta** anterior do agente de captura de tela
+![O ícone do número 2 faz referência a um balão na configuração de ](media/teamscallout2.png)
+ **alerta** anterior do agente de captura de tela
 
 Isso define a duração de um agente sendo notificado sobre uma chamada antes que os métodos de roteamento serial ou Round Robin se movam para o próximo agente.
 
@@ -245,13 +256,13 @@ A configuração padrão é 30 segundos, mas pode ser definida por até 3 minuto
 
 * * *
 
-![O ícone do número 1 faz referência a um texto explicativo na](media/teamscallout1.png)
-captura de tela anterior as**chamadas máximas na fila** usam essa configuração para definir o máximo de chamadas que podem esperar na fila ao mesmo tempo. O padrão é 50, mas pode variar de 0 a 200. Quando esse limite for atingido, a chamada será manipulada da maneira que você definiu **quando a configuração número máximo de chamadas for atingida** abaixo.
+![O ícone do número 1 faz referência a um texto explicativo na captura de tela anterior as ](media/teamscallout1.png)
+ **chamadas máximas na fila** usam essa configuração para definir o máximo de chamadas que podem esperar na fila ao mesmo tempo. O padrão é 50, mas pode variar de 0 a 200. Quando esse limite for atingido, a chamada será manipulada da maneira que você definiu **quando a configuração número máximo de chamadas for atingida** abaixo.
 
 * * *
 
-![O ícone do número 2 faz referência a um texto explicativo na](media/teamscallout2.png)
-captura de tela anterior**quando o número máximo de chamadas é atingido** quando a fila de chamadas atinge seu tamanho máximo (definido usando o **máximo de chamadas na configuração de fila** ), você pode escolher o que acontece com as novas chamadas de entrada.
+![O ícone do número 2 faz referência a um texto explicativo na captura de tela anterior ](media/teamscallout2.png)
+ **quando o número máximo de chamadas é atingido** quando a fila de chamadas atinge seu tamanho máximo (definido usando o **máximo de chamadas na configuração de fila** ), você pode escolher o que acontece com as novas chamadas de entrada.
 
 - **Desconectar** A chamada está desconectada.
 - **Redirecionar para** Ao escolher essa opção, selecione uma das seguintes opções:
@@ -264,13 +275,13 @@ captura de tela anterior**quando o número máximo de chamadas é atingido** qua
 
 * * *
 
-![O ícone do número 3 faz referência a um balão no tempo limite](media/teamscallout3.png)
-de chamada de captura de tela anterior **: tempo de espera máximo** você também pode decidir quanto tempo uma chamada pode ficar em espera na fila antes de expirar e precisar ser redirecionada ou desconectada. O local em que é redirecionado é baseado em como você define a configuração **quando uma chamada atinge o tempo limite** . Você pode definir uma hora de 0 a 45 minutos.
+![O ícone do número 3 faz referência a um balão no tempo limite de chamada de captura de tela anterior ](media/teamscallout3.png)
+ **: tempo de espera máximo** você também pode decidir quanto tempo uma chamada pode ficar em espera na fila antes de expirar e precisar ser redirecionada ou desconectada. O local em que é redirecionado é baseado em como você define a configuração **quando uma chamada atinge o tempo limite** . Você pode definir uma hora de 0 a 45 minutos.
 
 O valor de tempo limite pode ser definido em segundos, em intervalos de 15 segundos. Isso permite que você manipule o fluxo de chamadas com granularidade mais fina. Por exemplo, você pode especificar que as chamadas não atendidas por um agente dentro de 30 segundos vão para um atendedor automático de pesquisa de diretório.
 
-![O ícone do número 4 faz referência a um balão na captura de](media/teamscallout4.png)
-tela anterior quando a chamada atinge o**tempo limite** quando a chamada atinge o limite que você definiu no **tempo em que uma chamada pode esperar na configuração da fila** , você pode escolher o que acontecerá com a chamada:
+![O ícone do número 4 faz referência a um balão na captura de tela anterior ](media/teamscallout4.png)
+ **quando a chamada atinge o tempo limite** quando a chamada atinge o limite que você definiu no **tempo em que uma chamada pode esperar na configuração da fila** , você pode escolher o que acontecerá com a chamada:
 
 - **Desconectar** A chamada está desconectada.
 - **Redirecionar esta chamada para** Ao escolher esta opção, você tem estas opções:

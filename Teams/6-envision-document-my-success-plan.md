@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cd3cacafdf5f3f8369ea6bce18da2aac976e437b
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 40f88c93e20fde89eb9791cc90760d554e52a004
+ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825129"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44512808"
 ---
 # <a name="document-my-success-plan"></a>Documentar meu plano de sucesso
 
@@ -108,11 +108,11 @@ Veja a seguir um exemplo de um plano de execução trimestral da fase enVision d
 
 ## <a name="communications-and-governance-plan"></a>Plano de comunicação e governança
 
-Para manter os participantes do projeto atualizados com o andamento da implantação, você precisa estabelecer um plano de como as comunicações ocorrerão entre os membros principais da equipe do projeto e com os interessados para discutir questões relacionadas ao status do projeto, chave Marcos, bloqueadores e várias análises do projeto em relação a KSIs estabelecidas, métricas operacionais e metas estratégicas.
+Para manter os participantes do projeto atualizados com o andamento da implantação, você precisa estabelecer um plano de como as comunicações ocorrerão entre os membros principais da equipe do projeto e com os interessados para discutir questões relacionadas ao status do projeto, principais marcos, bloqueadores e várias análises do projeto contra o KSIs estabelecido, avaliações operacionais e metas estratégicas.
 
 Veja a seguir um exemplo de um plano de comunicação e governança que você pode aproveitar em seu projeto de implementação de voz em nuvem.
 
-| Tipo                                        | Goal                                                                                                                                                      | Os | Dias/tempo                                     | Local             | Proprietário da reunião |
+| Tipo                                        | Goal                                                                                                                                                      | Participantes | Dias/tempo                                     | Local             | Proprietário da reunião |
 |---------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|-----------------------------------------------|----------------------|---------------|
 | Chamadas do Project standup                       | Sincronizar com o status do projeto, acompanhar Marcos chave e bloqueadores                                                                                           | TBA          | Segunda-feira, terça-feira, quarta-feira, 5 PM PST | Virtual              | TBA           |
 | Comitê de direcionamento semanal                   | Revisar o status do projeto de voz em nuvem, relatar a executivos, gerar problemas que exigem ajuda executiva para resolver                                        | TBA          | A cada sexta-feira de 11 AM                        | Virtual              | TBA           |
@@ -173,7 +173,7 @@ Depois de executar a avaliação de preparação para adoção, a equipe de proj
 
 Identifique recursos para dar suporte a atividades de adoção, como panfletos, emails de boas-vindas e materiais de treinamento, além de quaisquer personalizações necessárias para atender aos requisitos da sua organização.
 
-Baixe modelos de atividades de adoção do [Kit de sucesso do cliente do Microsoft Teams](https://www.microsoft.com/download/details.aspx?id=54244).
+Baixe modelos de atividades de adoção do [Kit de sucesso do cliente do Microsoft Teams](https://aka.ms/TeamsCustomerSuccess).
 
 ### <a name="operational-plan"></a>Plano operacional
 

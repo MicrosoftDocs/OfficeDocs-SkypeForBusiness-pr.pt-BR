@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: 'Use this reference guide to learn about Skype for Business Online reporting and what info is available. '
-ms.openlocfilehash: 24574fdc572eeca323487b40ff9a1d5874f4f5ea
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 90326597b6df3a96e7624852d849a64e3eec348f
+ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41705946"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44205482"
 ---
 # <a name="skype-for-business-online-reporting"></a>Relatórios do Skype for Business Online
 
@@ -33,15 +33,15 @@ Como administrador da sua organização, seria útil ter uma lista completa de t
 Para acessar os relatórios do Skype for Business Online, faça logon no centro de administração do Microsoft 365 usando sua conta de usuário e senha. A conta que você usa para fazer logon deve ser atribuída à função de administrador global ou delegar a função de administrador de serviço do Skype for Business para exibir os relatórios.
   
 > [!NOTE]
-> Para verificar as permissões, no centro de administração, > usuários**ativos** **dos usuários** > . Clique no nome de exibição do usuário e, em seguida, clique em **Editar** e em uma página de propriedades da conta, clique em **funções**
+> Para verificar as permissões, no centro de administração, > usuários ativos **dos usuários**  >  **Active users**. Clique no nome de exibição do usuário e, em seguida, clique em **Editar** e em uma página de propriedades da conta, clique em **funções**
   
 ## <a name="skype-for-business-online-reporting-reference"></a>Referência de relatórios do Skype for Business Online
 
-Nos centros de administração do Office 365 e do Skype for Business, você pode usar diferentes tipos de relatórios, incluindo aqueles para o Skype for Business online.
+Nos centros de administração, você pode usar diferentes tipos de relatórios, incluindo aqueles para o Skype for Business online.
   
  **Para exibir os relatórios**
   
-1. Vá para o centro de administração ou > **relatórios**do **centro de administração do Skype for Business**.
+1. Vá para o centro de administração ou relatórios do **centro de administração do Skype for Business**  >  **Reports**.
     
 2. Na janela do painel, clique no widget de relatório ou escolha na lista o relatório desejado.
     

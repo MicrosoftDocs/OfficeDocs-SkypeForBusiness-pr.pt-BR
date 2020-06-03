@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Saiba como configurar o correio de voz na nuvem para seus usuários. '
-ms.openlocfilehash: d747b86d50cf4e81398d53bbc3602bff9cc4351c
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: 5526bee2bd365a4047e3641ea223941227858d1a
+ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44349715"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44523114"
 ---
 # <a name="set-up-cloud-voicemail"></a>Configurar a caixa postal na nuvem
 
@@ -35,7 +35,7 @@ Este artigo é para o [administrador do Office 365](https://support.office.com/a
 > [!NOTE]
 > O correio de voz na nuvem aceita o depósito de mensagens de correio de voz apenas em uma caixa de correio do Exchange e não é compatível com sistemas de email de terceiros. 
 
-## <a name="cloud-only-environments-set-up-cloud-voicemail-for-cloud-psystem-users"></a>Ambientes somente de nuvem: configurar o correio de voz na nuvem para usuários da nuvem psystem
+## <a name="cloud-only-environments-set-up-cloud-voicemail-for-phone-system-users"></a>Ambientes somente de nuvem: configurar o correio de voz na nuvem para usuários do sistema telefônico
 
 Para os usuários do Skype for Business Online e dos planos de chamada, o correio de voz na nuvem é automaticamente configurado e provisionado para os usuários após a atribuição de uma licença do **sistema telefônico** e um número de telefone a ele.
   
@@ -74,6 +74,26 @@ As informações a seguir tratam da configuração do correio de voz em nuvem pa
 
 > [!NOTE]
 > Quando um representante responde a uma chamada em nome de um delegador, as notificações não estão disponíveis no correio de voz na nuvem. Os usuários podem receber notificações de chamadas perdidas.
+
+## <a name="enabling-protected-voicemail-in-your-organization"></a>Habilitar correio de voz protegido em sua organização
+
+Quando alguém deixa uma mensagem de correio de voz para um usuário em sua organização, o correio de voz é entregue à caixa de correio do usuário como um anexo de mensagem de email. Usando regras de fluxo de email para aplicar criptografia de mensagens, você pode impedir que essas mensagens de correio de voz sejam encaminhadas para outros destinatários. Quando você habilita o correio de voz protegido, os usuários podem ouvir mensagens de correio de voz protegidas ligando para a caixa postal ou abrindo a mensagem no Outlook, Outlook na Web ou no Outlook para Android ou iOS. Não é possível abrir mensagens de correio de voz protegidas no Skype for Business.
+
+Para obter mais informações sobre criptografia de mensagens, consulte [criptografia de email](https://docs.microsoft.com/microsoft-365/compliance/email-encryption?view=o365-worldwide).
+
+Para configurar o correio de voz protegido, faça o seguinte:
+
+1. Acesse https://admin.microsoft.com e entre usando uma conta com permissões de administrador global.
+2. Selecione **Mostrar tudo** e, em seguida, vá para o Exchange das **centrais de administração**  >  **Exchange**.
+3. No centro de administração do Exchange, selecione regras de **fluxo de email**  >  **Rules**.
+4. Selecione **+** **Adicionar**e, em seguida, selecione **aplicar a criptografia de mensagens e a proteção de direitos do Office 365 às mensagens**.
+5. Forneça um nome para a nova regra de fluxo de email e, em **aplicar esta regra se**, selecione **as propriedades da mensagem**  >  **incluem o tipo de mensagem de**caixa  >  **postal**. Selecione **OK**.
+6. Em **faça o seguinte**, selecione **aplicar criptografia de mensagem do Office 365 e proteção de direitos à mensagem com** e selecione **uma opção**. Em **modelo RMS**, selecione **não encaminhar**. Selecione **OK** e, em seguida, **salvar**.
+    > [!NOTE]
+    > Se a lista de **modelos RMS** estiver vazia, você precisará configurar a criptografia de mensagens do Office 365. Para obter mais informações sobre como configurar a criptografia de mensagens do Office 365, consulte os seguintes artigos:
+    > - [Configurar novos recursos de criptografia de mensagens do Office 365](https://docs.microsoft.com/microsoft-365/compliance/set-up-new-message-encryption-capabilities?view=o365-worldwide)
+    > - [Configurando e Gerenciando modelos para proteção de informações do Azure](https://docs.microsoft.com/information-protection/deploy-use/configure-policy-templates)
+    > - [Opção não encaminhar para emails](https://docs.microsoft.com/information-protection/deploy-use/configure-usage-rights#do-not-forward-option-for-emails)
 
 ## <a name="setting-voicemail-policies-in-your-organization"></a>Configuração de políticas de caixa postal em sua organização
 

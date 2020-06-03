@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 description: Tarefas e atividades necessárias para o gerenciamento de serviços do Teams, incluindo monitorar a integridade do serviço e avaliar e garantir a qualidade e o uso da rede
 localization_priority: Normal
 search.appverid: MET150
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3183eac6851531bcaefbddd72cc445844755b307
-ms.sourcegitcommit: 3325fd9de57367e9dd60685d1fef096921441a76
+ms.openlocfilehash: 976954014e3d1e78e8ca22de4f20a95985033006
+ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "43997282"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44523314"
 ---
 # <a name="operate-your-service"></a>Operar seu serviço
 
@@ -166,7 +166,7 @@ Você pode monitorar a integridade do serviço e as alterações futuras aprovei
 
 O Microsoft Teams é um serviço baseado em nuvem. Com isso, vem a capacidade de fornecer novos recursos e funcionalidades a um ritmo rápido. O fornecimento de inovação contínua oferece um benefício óbvio para as organizações, mas essas mudanças precisam ser gerenciadas apropriadamente em sua organização para evitar a resistência do usuário ou escalonamentos à sua assistência técnica.
 
-As atualizações para o Microsoft Teams são distribuídas automaticamente para seus usuários. Seus usuários sempre terão o cliente e os recursos mais recentes disponíveis no serviço Teams. Não é possível gerenciar a distribuição de atualizações do teams para seus usuários, portanto, é extremamente importante gerenciar a mudança através de programas de comunicação, treinamento e adoção efetivos. Se seus usuários estiverem cientes da alteração, instruído sobre os benefícios e habilitados para aproveitar os novos recursos&mdash;, eles poderão se adaptar mais rapidamente e bem como a mudança.
+As atualizações para o Microsoft Teams são distribuídas automaticamente para seus usuários. Seus usuários sempre terão o cliente e os recursos mais recentes disponíveis no serviço Teams. Não é possível gerenciar a distribuição de atualizações do teams para seus usuários, portanto, é extremamente importante gerenciar a mudança através de programas de comunicação, treinamento e adoção efetivos. Se seus usuários estiverem cientes da alteração, instruído sobre os benefícios e habilitados para aproveitar os novos recursos, &mdash; eles poderão se adaptar mais rapidamente e bem como a mudança.
 
 ### <a name="monitoring-for-change"></a>Monitorando alterações
 

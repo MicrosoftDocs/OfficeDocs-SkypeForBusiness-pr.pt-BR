@@ -1,5 +1,5 @@
 ---
-title: Preparo da rede da sua organização para o Teams
+title: Prepare a rede da sua organização para o Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: f06599b7e3ed06a26715de30d59dd25a61c0f197
-ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
+ms.openlocfilehash: 6d811db9759b2876520b307140a3a1967047f482
+ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43945584"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44523294"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Preparar a rede da organização para o Microsoft Teams 
 
@@ -106,7 +106,10 @@ Para uma discussão aprofundada da otimização da rede, incluindo orientações
 <td>Certifique-se de que todos os computadores que executam o cliente do teams possam resolver consultas DNS externas para descobrir os serviços fornecidos pelo Office 365 e que seus firewalls não impedem o acesso. Para obter informações sobre como configurar portas de firewall, vá para <a href="https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges">URLs e intervalos de IP do Office 365</a>.</td>
 </tr>
 <tr class="odd">
-<td>Validar (NAT) o tamanho do pool</td>
+<td>Manter persistência da sessão</td>
+<td>Verifique se o seu firewall não altera os endereços ou as portas do NAT (Network Address Translation) mapeados para UDP.</td>
+</tr><tr class="odd">
+<td>Validar o tamanho do pool de NAT</td>
 <td>Valide o tamanho do pool de NAT (conversão de endereços de rede) necessário para a conectividade do usuário. Quando vários usuários e dispositivos acessam o Office 365 usando a <a href="https://docs.microsoft.com/office365/enterprise/nat-support-with-office-365">NAT (conversão de endereços de rede) ou Pat (conversão de endereço de porta)</a>, você precisa garantir que os dispositivos ocultos atrás de cada endereço IP roteável publicamente não exceda o número compatível. Certifique-se de que os endereços IP públicos adequados sejam atribuídos aos pools de NAT para evitar a exaustão de portabilidade. A exaustão da porta contribuirá para que os usuários internos e dispositivos não consigam se conectar ao serviço do Office 365.</td>
 </tr>
 <tr class="even">

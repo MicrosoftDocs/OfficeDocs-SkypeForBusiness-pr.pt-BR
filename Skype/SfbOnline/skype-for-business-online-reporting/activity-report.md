@@ -20,16 +20,16 @@ ms.custom:
 - Reporting
 - O365E_ReportsS4BActivity
 description: 'Learn how to get the Skype for Business Activity reports, what it contains, and how to interpret the data. '
-ms.openlocfilehash: 577ed8ea84326510ad1c2943dcbf0b280a2bd9ae
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+ms.openlocfilehash: f50b8c03304a308594fd7bd920ee92e8d38a1f43
+ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769414"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44205552"
 ---
 # <a name="activity-report"></a>Relatório de atividades
 
-O painel **relatórios** do Office 365 mostra a visão geral da atividade em todos os produtos do Office 365 em sua organização. Ele permite que você faça drill-in para relatórios de nível de produto individuais para dar a você uma visão mais granular sobre as atividades de cada produto. Por exemplo, você pode usar o relatório **atividade do Skype for Business** para ver quanto seus usuários estão usando sessões de conferência ponto a ponto ou organizadas ou quanto elas estão participando de sessões de conferência. 
+O painel **relatórios** mostra a visão geral da atividade nos produtos do Microsoft 365 ou do Office 365 em sua organização. Ele permite que você faça drill-in para relatórios de nível de produto individuais para dar a você uma visão mais granular sobre as atividades de cada produto. Por exemplo, você pode usar o relatório **atividade do Skype for Business** para ver quanto seus usuários estão usando sessões de conferência ponto a ponto ou organizadas ou quanto elas estão participando de sessões de conferência. 
 
 Confira a [visão geral de relatórios](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) para saber mais.
   
@@ -40,9 +40,9 @@ Esse relatório, juntamente com os outros relatórios do Skype for Business, for
   
 ## <a name="how-to-get-to-the-skype-for-business-activity-report"></a>Como obter o relatório de atividade do Skype for Business
 
-1. Vá para o centro de administração >**uso**dos **relatórios** > .
+1. Vá para o centro de administração > uso dos **relatórios**  >  **Usage**.
     
-2. Na página **uso** , escolha atividade **do Skype for Business** > **** na **lista Selecionar um relatório** à esquerda ou clique no widget atividade do **Skype for Business** .
+2. Na página **uso** , escolha atividade **do Skype for Business**  >  **Activity** na **lista Selecionar um relatório** à esquerda ou clique no widget atividade do **Skype for Business** .
 
   
 ## <a name="interpret-the-skype-for-business-activity-report"></a>Interpretar o relatório de atividade do Skype for Business
@@ -89,7 +89,7 @@ A tabela mostra uma divisão de todas as atividades de conferência por usuário
 * **Ponto a ponto** mostra o número total de sessões de conferência ponto a ponto que o usuário usou.
 * **Conferências organizadas** mostra o número total de conferências que foram organizadas por esse usuário.
 * **Conferências participadas** mostra o número total de conferências das quais esse usuário participou.
-* **Produto atribuído** são os produtos do Office 365 atribuídos a esse usuário.<br/>
+* **Produto atribuído** é o Microsoft 365 ou produtos do Office 365 atribuídos a esse usuário.<br/>
 
 Se as políticas da sua organização impedirem você de exibir relatórios nos quais as informações do usuário sejam identificáveis, você pode alterar a configuração de privacidade de todos esses relatórios. Confira a seção **ocultar detalhes do usuário na seção relatórios** nos [relatórios de atividades no centro de administração](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263).
 ***

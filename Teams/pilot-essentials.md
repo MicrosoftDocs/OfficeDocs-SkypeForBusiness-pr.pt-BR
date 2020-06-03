@@ -5,7 +5,7 @@ ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 audience: admin
 description: Orientação para iniciar um piloto do Microsoft Teams para explorar todas as equipes que podem oferecer a sua organização enquanto você continua usando o Skype for Business
 localization_priority: Normal
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 52721d40e36dc017d9ba76473367d1c9c5e5b4e7
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: 0849c2aae273953e7cb67b95f32cf30f4e17297f
+ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706451"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44522684"
 ---
 # <a name="conduct-a-user-pilot"></a>Realizar um piloto de usuário
 
@@ -38,13 +38,13 @@ Este artigo faz parte do estágio de implantação e implementação da sua jorn
 - [Seu ambiente foi preparado](https://aka.ms/SkypeToTeams-TechnicalReadiness)
 - [Preparou sua organização](https://aka.ms/SkypeToTeams-UserReadiness)
 
-Ao implantar novas tecnologias, sua organização pode obter um valor empresarial, como economia de custos, conformidade com a segurança, satisfação do funcionário e eficiência operacional, mas também pode afetar a produtividade do usuário e a infraestrutura organizacional ( sua rede). Antes de habilitar a nova tecnologia em toda a sua organização, realize um piloto formal do usuário. Da mesma forma que pintaria um pequeno patch de cor em uma parede antes de pintar a sala inteira, você testaria uma implementação ampla em uma escala menor, conduzindo um piloto para validar a prontidão técnica e do usuário, identificar e atenuar problemas e ajudar a garantir uma sucesso implementação em toda a organização.
+Ao implantar novas tecnologias, sua organização pode obter um valor empresarial, como economia de custos, conformidade com segurança, satisfação do funcionário e eficiência operacional, mas também pode afetar a produtividade do usuário e a infraestrutura organizacional (sua rede). Antes de habilitar a nova tecnologia em toda a sua organização, realize um piloto formal do usuário. Da mesma forma que pintaria um pequeno patch de cor em uma parede antes de pintar a sala inteira, você testaria uma implementação ampla em uma escala menor, conduzindo um piloto para validar a prontidão técnica e do usuário, identificar e atenuar problemas e ajudar a garantir uma implementação bem-sucedida de toda a organização.
 
 Para obter os resultados mais realísticos, o piloto deve envolver usuários reais, imitando como eles se comunicam e colaboram e verificar experiências técnicas e do usuário. Não importa se a sua organização está considerando a execução do Skype for Business e do teams lado a lado, atualizando para o Microsoft Teams no futuro ou implantando novas funcionalidades, como uma conferência ou conferência, um piloto pode ajudar a identificar o caminho correto para a sua organização. Às vezes, consideramos a fase 1 de uma distribuição, o piloto ideal aproveita a preparação que você já iniciou e implementa seu plano definido com um grupo direcionado de usuários.
 
 | | |
 |---|---|
-| ![Um ícone que representa um ponto de decisão](media/audio_conferencing_image7.png) <br/>Ponto de decisão|<ul><li>Como você vai usar um piloto para informar a direção do projeto?</li></ul> |
+| ![Um ícone representando um ponto de decisão](media/audio_conferencing_image7.png) <br/>Ponto de decisão|<ul><li>Como você vai usar um piloto para informar a direção do projeto?</li></ul> |
 | ![Um ícone representando o passo seguinte](media/audio_conferencing_image9.png)<br/>Próxima etapa|<ul><li>Use as diretrizes abaixo para criar e executar seu piloto formal.</li></ul>|
 
 > [!Tip]
@@ -78,14 +78,14 @@ Sua organização pode optar por fazer o piloto de toda a funcionalidade de uma 
 
 ## <a name="5-conduct-your-pilot"></a>5. conduzir seu piloto
 
-Com toda a logística em vigor, agora você está pronto para começar o seu piloto. A condução do seu piloto inclui a comunicação com os usuários, o monitoramento da rede e do uso para garantir que o desempenho da rede e a qualidade das chamadas permaneçam saudáveis, coletando comentários dos participantes e revisando perguntas sobre as assistência técnica para perguntas relacionadas a Acompanhar.
+Com toda a logística em vigor, agora você está pronto para começar o seu piloto. A condução do seu piloto inclui a comunicação com os usuários, o monitoramento da rede e do uso para garantir que o desempenho da rede e a qualidade das chamadas permaneçam saudáveis, coletando comentários dos participantes e revisando perguntas sobre as assistência técnica para perguntas relacionadas ao Teams.
 
 ### <a name="tips-for-pilot-success"></a>Dicas para o sucesso piloto
 
 As dicas a seguir podem ajudar a garantir o sucesso do seu piloto:
 
 - Antes de iniciar o piloto, confirme se todos os participantes do piloto estão habilitados para o [modo de coexistência]
-- (https://aka.ms/SkypeToTeams-SetCoexistence) que você deseja validar.
+- ( https://aka.ms/SkypeToTeams-SetCoexistence) que você deseja validar.
 - Semanalmente, em todo o piloto, reúna-se com seus participantes do projeto para revisar os comentários do usuário, dados de uso, dados de rede e tíquetes da assistência técnica para garantir que seu piloto esteja funcionando corretamente. Faça os ajustes necessários.
 
 ### <a name="suggested-timeline"></a>Linha do tempo sugerida

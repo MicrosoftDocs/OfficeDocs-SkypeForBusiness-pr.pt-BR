@@ -1,7 +1,7 @@
 ---
 title: Configurar um atendedor automático do Cloud
-ms.author: kenwith
-author: kenwith
+ms.author: dstrome
+author: dstrome
 manager: serdars
 ms.reviewer: waseemh
 ms.topic: article
@@ -21,16 +21,16 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Saiba como configurar e testar atendedores automáticos da nuvem para o Microsoft Teams.
-ms.openlocfilehash: 0b4b654a8e6d0eedd9d80cf5bf3bed8e9ee74115
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: ba7da55a33aa1fa65b677146e73ce352158a4cdf
+ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44047378"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44523756"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>Configurar um atendedor automático do Cloud
 
-Os atendedores automáticos permitem que as pessoas liguem para sua organização e naveguem em um sistema de menus para falar com o departamento certo, a fila de chamadas, a pessoa ou um operador. Você pode criar atendedores automáticos para sua organização com o centro de administração do Microsoft Teams ou com o PowerShell. Para criar um atendedor automático, vá para **voz** no painel de navegação esquerdo e, em seguida, selecione **atendedores** > automáticos**Adicionar novo**.
+Os atendedores automáticos permitem que as pessoas liguem para sua organização e naveguem em um sistema de menus para falar com o departamento certo, a fila de chamadas, a pessoa ou um operador. Você pode criar atendedores automáticos para sua organização com o centro de administração do Microsoft Teams ou com o PowerShell. Para criar um atendedor automático, vá para **voz** no painel de navegação esquerdo e, em seguida, selecione **atendedores automáticos**  >  **Adicionar novo**.
 
 Se você quiser saber mais sobre atendedores automáticos, consulte [o que são atendedores automáticos da nuvem?](/microsoftteams/what-are-phone-system-auto-attendants)
 
@@ -43,7 +43,7 @@ As implementações de atendedor automático geralmente envolvem vários atended
 
 ## <a name="step-1--get-started"></a>Etapa 1-Introdução
 
-- Um atendedor automático é necessário para ter uma conta de recurso associada. Consulte [gerenciar contas de recursos no Teams](manage-resource-accounts.md) para obter detalhes sobre contas de recursos e todas as licenças necessárias. 
+Um atendedor automático é necessário para ter uma conta de recurso associada. Consulte [gerenciar contas de recursos no Teams](manage-resource-accounts.md) para obter detalhes sobre contas de recursos e todas as licenças necessárias. 
  
 <!-- When you create a new auto attendant in Teams after October 10th, 2019, the required auto attendant is automatically created and linked with the new auto attendant. -->
  
@@ -57,7 +57,7 @@ As implementações de atendedor automático geralmente envolvem vários atended
 
 ### <a name="with-the-microsoft-teams-admin-center"></a>Com o centro de administração do Microsoft Teams
 
-No **centro de administração do Microsoft Teams**, clique em**atendedores automáticos**de **voz** > e, em seguida, clique em **+ Adicionar**:
+No **centro de administração do Microsoft Teams**, clique em **Voice**  >  **atendedores automáticos**de voz e, em seguida, clique em **+ Adicionar**:
 
 #### <a name="general-info-page"></a>Página de informações gerais
 
@@ -65,16 +65,16 @@ No **centro de administração do Microsoft Teams**, clique em**atendedores auto
 
 * * *
 
-![Ícone do número 1, um texto explicativo no](media/teamscallout1.png)
-**nome** anterior da captura de tela Insira um nome de exibição para o atendedor automático. O nome é obrigatório e pode conter até 64 caracteres, incluindo espaços. O **nome** que você designar aqui estará listado em uma coluna na guia **atendedores automáticos** .
+![Ícone do número 1, um texto explicativo no nome anterior da captura de tela ](media/teamscallout1.png)
+ **Name** Insira um nome de exibição para o atendedor automático. O nome é obrigatório e pode conter até 64 caracteres, incluindo espaços. O **nome** que você designar aqui estará listado em uma coluna na guia **atendedores automáticos** .
 
 <a name="phonenumber"> </a>
 
 * * *
 
-![Ícone do número 2, um balão no](media/teamscallout2.png)
- <a name="operator"> </a> 
- **operador** de captura de tela anterior é opcional (mas recomendado). Você pode definir a opção de **operador** para permitir que os chamadores quebrem nos menus e falar com uma pessoa designada.
+![Ícone do número 2, um balão no operador de captura de tela ](media/teamscallout2.png)
+ <a name="operator"> </a>anterior 
+ **Operator** é opcional (mas recomendado). Você pode definir a opção de **operador** para permitir que os chamadores quebrem nos menus e falar com uma pessoa designada.
 
 A tecla 0 é atribuída ao operador por padrão.
 
@@ -83,10 +83,10 @@ Se você definir um operador, solicite às pessoas que chamam sobre a opção na
 Você tem várias maneiras de definir o operador:
 
 - **Nenhum operador** desabilita as opções "operador" e "pressionar 0". Este é o padrão atual.
-- A **pessoa em sua organização** atribui uma pessoa com uma licença do sistema telefônico habilitada para Enterprise Voice ou planos de chamada atribuídos no Office 365. Você também pode configurá-lo para que o chamador seja enviado ao correio de voz. Para enviar um chamador para correio de voz, selecione **pessoa em sua organização** e defina as configurações da conta para enviar chamadas diretamente para o correio de voz.
+- **Pessoa na organização** atribui uma pessoa com uma licença do sistema telefônico habilitada para Enterprise Voice ou planos de chamada atribuídos no Office 365. Você também pode configurá-lo para que o chamador seja enviado ao correio de voz. Para enviar um chamador para correio de voz, selecione **pessoa na organização** e defina as configurações da conta para enviar chamadas diretamente para o correio de voz.
 
      > [!Note]
-     > **A pessoa em sua organização** pode ser um usuário online ou um usuário hospedado no local usando o Skype for Business Server.
+     > A **pessoa na organização** pode ser um usuário online ou um usuário hospedado no local usando o Skype for Business Server. Ao selecionar **pessoa na organização** , você pode selecionar uma conta com uma caixa de correio compartilhada ou com uma caixa de correio do usuário.
 
 - **Aplicativo de voz**  Selecione o nome da conta de recurso vinculada a um atendedor automático ou fila de chamadas que já foi criada. Os chamadores que solicitam um operador são redirecionados para lá.  
 <!--   
@@ -104,18 +104,18 @@ Você tem várias maneiras de definir o operador:
 
 <a name="timezone"> </a>
 
-![Ícone do número 3, um texto explicativo no](media/teamscallout3.png) **fuso horário** anterior da captura de tela, você precisa definir o fuso horário para o atendedor automático. A configuração pode ser a mesma que o fuso horário do endereço principal listado para a sua organização ou um fuso horário diferente. Cada atendedor automático pode ter um fuso horário diferente. O horário comercial definido para o atendedor automático também usa este fuso horário. Certifique-se de definir o fuso horário certo para evitar discrepâncias de horário comercial, pois nem todas as regiões têm o horário de verão. 
+![Ícone do número 3, um texto explicativo no fuso horário anterior da captura de tela, ](media/teamscallout3.png) **Time zone** você precisa definir o fuso horário para o atendedor automático. A configuração pode ser a mesma que o fuso horário do endereço principal listado para a sua organização ou um fuso horário diferente. Cada atendedor automático pode ter um fuso horário diferente. O horário comercial definido para o atendedor automático também usa este fuso horário. Certifique-se de definir o fuso horário certo para evitar discrepâncias de horário comercial, pois nem todas as regiões têm o horário de verão. 
 
 * * *
 
-![Ícone do número 4, um texto explicativo no](media/teamscallout4.png)
- <a name="language"> </a> 
- **idioma** anterior da captura de tela, selecione o idioma que você deseja usar para o atendedor automático. O atendedor automático usa esse idioma com chamadores e todos os prompts do sistema são reproduzidos nesse idioma.
+![Ícone do número 4, um texto explicativo no idioma anterior da captura de tela ](media/teamscallout4.png)
+ <a name="language"> </a>, 
+ **Language** selecione o idioma que você deseja usar para o atendedor automático. O atendedor automático usa esse idioma com chamadores e todos os prompts do sistema são reproduzidos nesse idioma.
 
  * * *
 
-![Ícone do número 5, um texto explicativo na captura de](media/teamscallout5.png)
-tela anterior habilitar o reconhecimento de fala de**entrada de voz** estará disponível se essa opção estiver selecionada. Os chamadores podem usar a entrada de voz no [idioma que você definir](set-auto-attendant-languages-for-audio-conferencing-in-teams.md). Se quiser permitir que as pessoas usem o teclado numérico do telefone para fazer seleções, você pode deixar o reconhecimento de fala definido como **desativado**.
+![Ícone do número 5, um texto explicativo na captura de tela anterior ](media/teamscallout5.png)
+ **habilitar** o reconhecimento de fala de entrada de voz estará disponível se essa opção estiver selecionada. Os chamadores podem usar a entrada de voz no [idioma que você definir](set-auto-attendant-languages-for-audio-conferencing-in-teams.md). Se quiser permitir que as pessoas usem o teclado numérico do telefone para fazer seleções, você pode deixar o reconhecimento de fala definido como **desativado**.
 
 * * *  
 
@@ -139,13 +139,13 @@ Você pode configurar saudações, avisos e menus personalizados que as pessoas 
 > [!NOTE]
 > Uma saudação é mais valiosa para um atendedor automático de primeiro nível. Geralmente, um atendedor automático aninhado não precisa de uma saudação.
 
-![Ícone do número 1, um texto explicativo na captura de](media/teamscallout1.png) tela anterior se você **não selecionar nenhuma saudação**, o chamador não ouvirá uma mensagem ou saudação antes que a chamada seja manipulada por uma das ações que você selecionar mais tarde. 
+![Ícone do número 1, um texto explicativo na captura de tela anterior ](media/teamscallout1.png) se você **não selecionar nenhuma saudação**, o chamador não ouvirá uma mensagem ou saudação antes que a chamada seja manipulada por uma das ações que você selecionar mais tarde. 
 
 <!-- You can also upload an audio file (in .wav, mp3 or .wma formats), or create a custom greeting using Text-to-Speech.-->
 
-![Ícone do número 2, um texto explicativo na captura de](media/teamscallout2.png) tela anterior se você selecionar **executar um arquivo de áudio** , poderá usar o botão **carregar arquivo** para carregar uma mensagem de saudação gravada salva como áudio. WAV,. MP3 ou. Formato WMA. A gravação não pode ter mais de 5 MB.
+![Ícone do número 2, um texto explicativo na captura de tela anterior ](media/teamscallout2.png) se você selecionar **executar um arquivo de áudio** , poderá usar o botão **carregar arquivo** para carregar uma mensagem de saudação gravada salva como áudio. WAV,. MP3 ou. Formato WMA. A gravação não pode ter mais de 5 MB.
 
-![Ícone do número 3, um texto explicativo na captura de](media/teamscallout3.png) tela anterior **digite uma mensagem de saudação** , se você escolher essa opção, insira o texto que você deseja que o sistema Leia (até 1000 caracteres) no campo fornecido. Por exemplo, digite "bem-vindo à contoso. A sua ligação é muito importante para nós." A saída é criada pelo software de texto para voz.
+![Ícone do número 3, um texto explicativo na captura de tela anterior ](media/teamscallout3.png) **digite uma mensagem de saudação** , se você escolher essa opção, insira o texto que você deseja que o sistema leia (até 1000 caracteres) no campo fornecido. Por exemplo, digite "bem-vindo à contoso. A sua ligação é muito importante para nós." A saída é criada pelo software de texto para voz.
 
 * * *
 
@@ -155,12 +155,12 @@ Se você selecionar **Desconectar**, o chamador será desconectado após a sauda
 
 <a name="redirectcalls"> </a>
 
-![Ícone do número 4, um texto explicativo na chamada de](media/teamscallout4.png) **redirecionamento** de captura de tela anterior envia o chamador para o destino escolhido sem escolher entre as opções. As configurações possíveis são:
+![Ícone do número 4, um texto explicativo na chamada de ](media/teamscallout4.png) **redirecionamento** de captura de tela anterior envia o chamador para o destino escolhido sem escolher entre as opções. As configurações possíveis são:
 
   - **Pessoa na organização** A conta que você escolher deve ter uma licença do sistema de telefonia habilitada para Enterprise Voice ou ter um plano de chamada atribuído no Office 365. Você pode configurá-lo para que o chamador possa ser enviado para o correio de voz: selecione **pessoa na organização** e defina essa conta para que as chamadas sejam encaminhadas diretamente para o correio de voz.
 
-  > [!Note]
-  > A **pessoa na organização** pode ser um usuário online ou um usuário hospedado no local usando o Skype for Business Server.
+    > [!Note]
+    > A **pessoa na organização** pode ser um usuário online ou um usuário hospedado no local usando o Skype for Business Server. Ao selecionar **pessoa na organização** , você pode selecionar uma conta com uma caixa de correio compartilhada ou com uma caixa de correio do usuário.
 
   - **Aplicativo de voz** Selecione um atendedor automático ou fila de chamadas que já tenha sido configurada. Você pesquisa o atendedor automático ou a fila de chamadas pelo nome da conta do recurso associada ao serviço.
   - **Correio de voz** Selecione o grupo do Office 365 que contém os usuários em sua organização que precisam acessar o correio de voz recebido por este atendedor automático. As mensagens de correio de voz são enviadas para o grupo do Office 365 que você especificou. Para acessar mensagens de correio de voz, os membros do grupo podem abri-los navegando para o grupo no Outlook.
@@ -171,10 +171,10 @@ Se você selecionar **Desconectar**, o chamador será desconectado após a sauda
 
 ![Captura de tela: seção ações da página de manipulação de chamadas](media/2a33b1f7-d362-47a7-bf32-ef702bc878e8b.png)
 
-![Ícone do número 1, um texto explicativo na captura de](media/teamscallout1.png) tela anterior ao selecionar **Opções do menu reproduzir** , você pode selecionar se deseja usar um arquivo de áudio ou inserir texto que será renderizado como texto para fala para dar opções de menu de discagem aos chamadores. Selecione esta opção em vez das opções de **chamada de redirecionamento para** ou **Desconectar** .
+![Ícone do número 1, um texto explicativo na captura de tela anterior ](media/teamscallout1.png) ao selecionar **Opções do menu reproduzir** , você pode selecionar se deseja usar um arquivo de áudio ou inserir texto que será renderizado como texto para fala para dar opções de menu de discagem aos chamadores. Selecione esta opção em vez das opções de **chamada de redirecionamento para** ou **Desconectar** .
 
 
-![Ícone do número 2, um texto explicativo na captura de](media/teamscallout2.png) tela anterior **reproduz um arquivo de áudio** permite que você configure um prompt e opções para o chamador escolher. 
+![Ícone do número 2, um texto explicativo na captura de tela anterior ](media/teamscallout2.png) **reproduz um arquivo de áudio** permite que você configure um prompt e opções para o chamador escolher. 
 - Se você selecionar **executar um arquivo de áudio** , poderá usar o botão **carregar arquivo** para carregar uma mensagem de saudação gravada salva como áudio. WAV,. MP3 ou. Formato WMA. A gravação não pode ter mais de 5 MB.
 
 - **Digite uma mensagem de saudação** Se você escolher essa opção, insira o texto que deseja que o sistema Leia (até 1000 caracteres) no campo fornecido. Por exemplo, digite "bem-vindo à contoso. A sua ligação é muito importante para nós." A saída é criada pelo software de texto para voz.
@@ -189,11 +189,11 @@ Se você selecionar **Desconectar**, o chamador será desconectado após a sauda
 > [!NOTE]
 > As chaves \* (repetir) e \# (verso) são reservadas pelo sistema e não podem ser reatribuídas. Se o reconhecimento de fala estiver habilitado, pressionar * corresponderá com "repetir" e # corresponderá com os comandos de voz "verso".
 
-![Ícone do número 3, um texto explicativo na captura de](media/teamscallout3.png) tela anterior para configurar uma opção de menu, clique na **tecla + atribuir uma tecla de discagem** e insira as informações das seguintes opções:
+![Ícone do número 3, um texto explicativo na captura de tela anterior ](media/teamscallout3.png) para configurar uma opção de menu, clique na **tecla + atribuir uma tecla de discagem** e insira as informações das seguintes opções:
 
-![O ícone do número 4, um texto explicativo na coluna](media/teamscallout4.png)anterior de**comando de voz** de captura de tela de uma opção pode ter até 64 caracteres de comprimento e pode conter várias palavras como "atendimento ao cliente" ou "operações e aterramento".   Se o reconhecimento de fala estiver habilitado, o nome será reconhecido automaticamente, e o autor será capaz de pressionar 3, diga "três" ou diga "atendimento ao cliente" para selecionar a opção mapeada para a chave 3. Esse texto também é renderizado por texto em fala para o prompt de confirmação do serviço, que pode ser algo parecido com "Transferindo sua chamada para a operadora".
+![O ícone do número 4, um texto explicativo na coluna anterior de ](media/teamscallout4.png) **comando de voz** de captura de tela de uma opção pode ter até 64 caracteres de comprimento e pode conter várias palavras como "atendimento ao cliente" ou "operações e aterramento".   Se o reconhecimento de fala estiver habilitado, o nome será reconhecido automaticamente, e o autor será capaz de pressionar 3, diga "três" ou diga "atendimento ao cliente" para selecionar a opção mapeada para a chave 3. Esse texto também é renderizado por texto em fala para o prompt de confirmação do serviço, que pode ser algo parecido com "Transferindo sua chamada para a operadora".
 
-![Ícone do número 5, um texto explicativo na captura de](media/teamscallout5.png) tela anterior, a opção **redirecionar para** define o local em que a chamada vai se a tecla correspondente for pressionada ou a opção for selecionada usando o reconhecimento de fala. A chamada pode ser enviada para:
+![Ícone do número 5, um texto explicativo na captura de tela anterior, ](media/teamscallout5.png) a opção **redirecionar para** define o local em que a chamada vai se a tecla correspondente for pressionada ou a opção for selecionada usando o reconhecimento de fala. A chamada pode ser enviada para:
 
 <!-- Is the Operator behavior changing here? Looks like operator is only an available option for dial key 0 -->
 
@@ -211,7 +211,7 @@ Se você selecionar **Desconectar**, o chamador será desconectado após a sauda
 - **External phone number** routes the caller to a designated phone number outside your local system.<!-- does this have prerequisites like direct routing?
 - **Group Voicemail** routes the call to a voicemail box that you select.  -->
 
-![Ícone do número 6, um balão na pesquisa anterior de](media/teamscallout6.png)  **diretório** de captura de tela nesta seção, você pode habilitar a **discagem por nome** e **discar por extensão** para o atendedor automático. Você pode definir quem é e não está incluído nesses serviços na página de escopo opcional de discagem. Pesquisa de diretório é definida como **None** por padrão.
+![Ícone do número 6, um balão na pesquisa anterior de ](media/teamscallout6.png) **diretório** de captura de tela nesta seção, você pode habilitar a **discagem por nome** e **discar por extensão** para o atendedor automático.   Você pode definir quem é e não está incluído nesses serviços na página de escopo opcional de discagem. Pesquisa de diretório é definida como **None** por padrão.
 
 **Discar por nome** Se você habilitar essa opção, os chamadores poderão procurar pessoas em sua organização usando **discar por nome**. Eles dizem que o nome do usuário e o reconhecimento de voz correspondem a um usuário. Você pode definir quem é e não está incluído nesses serviços na página de escopo opcional de discagem. Qualquer usuário online com uma licença de sistema telefônico ou qualquer usuário hospedado no local usando o Skype for Business Server é um usuário elegível e pode ser encontrado com o nome discado.
 
@@ -225,7 +225,7 @@ Se você selecionar **Desconectar**, o chamador será desconectado após a sauda
 >    - Celular/MobilePhone
 >    - TelephoneNumber/intervalo
 >    - OtherTelephone
->- O formato obrigatório para inserir a extensão no campo de número de telefone do usuário `+<phonenumber>;ext=<extension>` é `x<extension>`ou.
+>- O formato obrigatório para inserir a extensão no campo de número de telefone do usuário é `+<phonenumber>;ext=<extension>` ou `x<extension>` .
 >- Não há suporte para a atribuição de uma extensão no centro de administração do teams no momento. Você deve usar o comando [set-MsolUser](https://docs.microsoft.com/powershell/module/msonline/set-msoluser?view=azureadps-1.0) do PowerShell ou o centro de administração do Microsoft 365.
 >- Pode levar até 12 horas antes que as alterações nos atributos AAD intervalo e MobilePhone estejam disponíveis.
 >- Não defina uma extensão para o LineUri de um usuário. Não há suporte para isso no momento.
@@ -268,17 +268,17 @@ Inicialmente, o horário comercial é definido para começar em 12:00 e terminar
 ![captura de tela das configurações do fluxo de chamadas de horas extras](media/aa-afterhour.png)
  * * *
 
-![Ícone do número 1, um texto explicativo na captura de](media/teamscallout1.png) tela anterior, você pode clicar em **selecionar 24/7** para fazer todas as horas de trabalho para este atendedor automático.
+![Ícone do número 1, um texto explicativo na captura de tela anterior, ](media/teamscallout1.png) você pode clicar em **selecionar 24/7** para fazer todas as horas de trabalho para este atendedor automático.
 
-![Ícone do número 2, um texto explicativo na captura de](media/teamscallout2.png) tela anterior, selecione a opção **Redefinir para padrão** para reverter todas as alterações no cronograma e retorne à definição padrão de horas comerciais como 9:00 am a 5:00 PM de segunda a sexta-feira.
+![Ícone do número 2, um texto explicativo na captura de tela anterior, ](media/teamscallout2.png) Selecione a opção **Redefinir para padrão** para reverter todas as alterações no cronograma e retorne à definição padrão de horas comerciais como 9:00 am a 5:00 PM de segunda a sexta-feira.
 
-![Ícone do número 3, um texto explicativo na captura de](media/teamscallout3.png) tela anterior, selecione **limpar todas as horas** para limpar completamente o cronograma. A seleção dessa opção e a saída de horas não é recomendável, portanto Use essa opção somente se desejar refazer o horário comercial.
+![Ícone do número 3, um texto explicativo na captura de tela anterior, ](media/teamscallout3.png) selecione **limpar todas as horas** para limpar completamente o cronograma. A seleção dessa opção e a saída de horas não é recomendável, portanto Use essa opção somente se desejar refazer o horário comercial.
 
-![Ícone 4, um texto explicativo no ícone de captura de](media/teamscallout4.png)![tela anterior do número 5, um texto explicativo na captura](media/teamscallout5.png) de tela anterior para personalizar a hora de início ou de término para um dia da semana, clique em **Iniciar em** ou **terminar no** momento em que deseja redefinir e selecione o novo horário na lista exibida.   A lista permite que você selecione o horário comercial em intervalos de 15 minutos, e o horário comercial selecionado aqui é baseado no fuso horário que você definiu na página **informações gerais** .
+![Ícone 4, um texto explicativo no ícone de captura de tela anterior ](media/teamscallout4.png) ![ do número 5, um texto explicativo na captura de tela anterior ](media/teamscallout5.png) para personalizar a hora de início ou de término para um dia da semana, clique em **Iniciar em** ou **terminar no** momento em que deseja redefinir e selecione o novo horário na lista exibida.   A lista permite que você selecione o horário comercial em intervalos de 15 minutos, e o horário comercial selecionado aqui é baseado no fuso horário que você definiu na página **informações gerais** .
 
  <!-- The **Apply to all days** option can be used to reset all days of the week to match the settings for that day. This makes setting weekdays and weekends to different hours easier.-->
 
-![Ícone do número 6, um texto explicativo na captura de](media/teamscallout6.png) tela anterior para configurar uma pausa (um almoço, por exemplo), selecione **Adicionar novo horário** para esse dia da semana para criar uma nova linha de tabela e selecionar novos horários de início e de término. Você pode definir várias quebras dentro do horário comercial.
+![Ícone do número 6, um texto explicativo na captura de tela anterior ](media/teamscallout6.png) para configurar uma pausa (um almoço, por exemplo), selecione **Adicionar novo horário** para esse dia da semana para criar uma nova linha de tabela e selecionar novos horários de início e de término. Você pode definir várias quebras dentro do horário comercial.
 
 As opções de [fluxo de chamadas](#call-flow) disponíveis após horas são iguais às opções disponíveis durante o horário comercial. Role a tela para baixo na página de entrada de informações para definir as opções de fluxo de chamadas após horas.
 
@@ -294,9 +294,9 @@ Você pode adicionar até 20 feriados agendados para cada atendedor automático.
 
 ![Captura de tela: não há feriados configurados](media/aa-no-holidays.png)
 
-![Ícone do número 1, um texto explicativo na captura de](media/teamscallout1.png) tela anterior para definir um fluxo de chamadas personalizado para um feriado no atendedor automático, clique em **+ Adicionar** a tela ver o **novo fluxo de chamadas de feriados** .
+![Ícone do número 1, um texto explicativo na captura de tela anterior ](media/teamscallout1.png) para definir um fluxo de chamadas personalizado para um feriado no atendedor automático, clique em **+ Adicionar** a tela ver o **novo fluxo de chamadas de feriados** .
 > [!TIP]
-> Para criar feriados, você pode ir para a tela em > **feriados**de **configurações de toda a organização**.  
+> Para criar feriados, você pode ir para a tela em feriados de **configurações de toda a organização**  >  **Holidays**.  
 
 
 
@@ -304,13 +304,13 @@ Você pode adicionar até 20 feriados agendados para cada atendedor automático.
 
 * * *
 
-![Ícone do número 1, um texto explicativo na captura de](media/teamscallout1.png) tela anterior Insira um **nome** para seu novo fluxo de chamadas.
+![Ícone do número 1, um texto explicativo na captura de tela anterior ](media/teamscallout1.png) Insira um **nome** para seu novo fluxo de chamadas.
 
-![Ícone do número 2, um texto explicativo na captura de](media/teamscallout2.png) tela anterior se você já tiver criado feriados, verá-os no menu suspenso **feriados** e poderá selecioná-los. Você pode ver uma opção não utilizada que pode ser editada para o que você precisa. Caso contrário, clique em **Adicionar** na parte inferior da lista suspensa para criar um novo feriado.  Consulte [Configurar feriados no Microsoft Teams](set-up-holidays-in-teams.md) para obter as etapas usadas para criar um feriado. 
+![Ícone do número 2, um texto explicativo na captura de tela anterior ](media/teamscallout2.png) se você já tiver criado feriados, verá-os no menu suspenso **feriados** e poderá selecioná-los. Você pode ver uma opção não utilizada que pode ser editada para o que você precisa. Caso contrário, clique em **Adicionar** na parte inferior da lista suspensa para criar um novo feriado.  Consulte [Configurar feriados no Microsoft Teams](set-up-holidays-in-teams.md) para obter as etapas usadas para criar um feriado. 
 
 Um nome de fluxo de chamadas de feriados pode ter até 64 caracteres de comprimento e deve ser exclusivo para a organização. Por exemplo, você não pode ter dois fluxos de chamadas de Natal chamados "de Graças" na mesma organização. O atendedor automático pode ter um fluxo de chamadas para cada feriado que você configurou, mas talvez queira ter um conjunto comum de comportamentos planejados que não sejam uma saudação personalizada.
 
-![O ícone do número 3, um balão na captura de tela](media/teamscallout3.png) anterior, as opções de [saudação](#call-flow) disponíveis para um fluxo de chamadas de feriados são iguais às opções disponíveis durante o horário comercial. As **ações** executadas após a saudação também são semelhantes, exceto que as únicas ações disponíveis são para **Desconectar** ou **redirecionar**e, ao escolher a opção **redirecionar para** , o operador não é uma das opções disponíveis. Você não pode configurar um menu específico para um fluxo de feriados.
+![O ícone do número 3, um balão na captura de tela anterior, ](media/teamscallout3.png) as opções de [saudação](#call-flow) disponíveis para um fluxo de chamadas de feriados são iguais às opções disponíveis durante o horário comercial. As **ações** executadas após a saudação também são semelhantes, exceto que as únicas ações disponíveis são para **Desconectar** ou **redirecionar**e, ao escolher a opção **redirecionar para** , o operador não é uma das opções disponíveis. Você não pode configurar um menu específico para um fluxo de feriados.
 
 > [!NOTE]
 > Por padrão, todas as chamadas recebidas durante um período de feriado são definidas como **Desconectar** após a saudação (se houver), portanto, você deve especificar um redirecionamento se desejar um comportamento personalizado.
@@ -329,7 +329,7 @@ Clique em **ao lado** de definir escopo de discagem, de **volta** para fazer alt
 
 Nesta página, você pode definir quem está listado no seu diretório e disponível para discar por nome quando uma pessoa chama a sua organização. Discar por nome é definido como **desativado** por padrão em uma tela anterior. Todos os usuários com uma extensão estarão disponíveis se a **discagem por extensão** tiver sido selecionada anteriormente.
 
-![Ícone do número 1, um texto explicativo na captura de](media/teamscallout1.png) tela anterior **inclui** as opções desta seção são **todos os usuários online** ou **grupos de usuários personalizados**
+![Ícone do número 1, um texto explicativo na captura de tela anterior ](media/teamscallout1.png) **inclui** as opções desta seção são **todos os usuários online** ou **grupos de usuários personalizados**
 
 Se você selecionar **todos os usuários online**, todos os usuários qualificados serão incluídos na pesquisa de diretório.
 
@@ -339,7 +339,7 @@ Se você selecionar **todos os usuários online**, todos os usuários qualificad
 
 Nesta página, você pode configurar quais usuários em sua organização serão listados em seu diretório e disponíveis para discar por nome quando uma pessoa ligar para a sua organização.
 
-![Ícone do número 2, um texto explicativo na captura de](media/teamscallout2.png) tela anterior **exclui** as opções desta seção permite excluir usuários ou grupos de usuários específicos do diretório da organização.
+![Ícone do número 2, um texto explicativo na captura de tela anterior ](media/teamscallout2.png) **exclui** as opções desta seção permite excluir usuários ou grupos de usuários específicos do diretório da organização.
 
 Se você selecionar **nenhum**, todos os usuários qualificados serão incluídos na pesquisa de diretório.
 
@@ -361,11 +361,11 @@ Se você ainda não configurou uma conta de recurso para o atendedor automático
 
 ![captura de tela: gerenciamento de contas de recursos opcionais](media/aa-ra-optional.png) 
 
-![Ícone do número 1, um texto explicativo na captura de](media/teamscallout1.png) tela anterior para adicionar uma ou mais contas de recursos existentes e não atribuídos ao atendedor automático, clique em **Adicionar contas** e em Pesquisar e selecione-os nas caixas de diálogo fornecidas.
+![Ícone do número 1, um texto explicativo na captura de tela anterior ](media/teamscallout1.png) para adicionar uma ou mais contas de recursos existentes e não atribuídos ao atendedor automático, clique em **Adicionar contas** e em Pesquisar e selecione-os nas caixas de diálogo fornecidas.
 
 ![captura de tela do novo assistente de resumo do atendente](media/aa-assigned.png)
 
-![Ícone do número 1, um texto explicativo na captura de](media/teamscallout1.png) tela anterior para adicionar uma conta de recurso adicional, clique em **+ adicionar conta**.
+![Ícone do número 1, um texto explicativo na captura de tela anterior ](media/teamscallout1.png) para adicionar uma conta de recurso adicional, clique em **+ adicionar conta**.
 
 ![Ícone do número 2, um texto explicativo na captura de tela anterior](media/teamscallout2.png) A conta do recurso ou contas atribuídas a este atendedor automático são mostradas em uma lista.
 

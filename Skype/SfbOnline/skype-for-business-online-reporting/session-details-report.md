@@ -18,17 +18,17 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Reporting
-description: O novo painel relatórios do Microsoft 365 mostra a visão geral da atividade em todos os produtos do Office 365 em sua organização. Ele permite analisar detalhes dos relatórios em nível de produtos individuais para ter informações mais granulares das atividades dentro de cada produto.
-ms.openlocfilehash: b10e68e46b8865579692594ded33e89558f4fdc2
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+description: O painel relatórios mostra a visão geral da atividade nos produtos do Microsoft 365 ou do Office 365 em sua organização. Ele permite analisar detalhes dos relatórios em nível de produtos individuais para ter informações mais granulares das atividades dentro de cada produto.
+ms.openlocfilehash: 951f93aabe66bdb7e6b92f9b2c6cf1627e7e1a10
+ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776276"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44205502"
 ---
 # <a name="session-details-report"></a>Relatório de detalhes da sessão
 
-O novo painel **Relatórios** do Office 365 mostra a visão geral das atividades em todos os produtos do Office 365 da sua organização. Ele permite analisar detalhes dos relatórios em nível de produtos individuais para ter informações mais granulares das atividades dentro de cada produto. Por exemplo, você pode usar o relatório de **detalhes da sessão do Skype for Business** para ver detalhes sobre as experiências de chamadas de um usuário individual.
+O painel **relatórios** mostra a visão geral da atividade nos produtos do Microsoft 365 ou do Office 365 em sua organização. Ele permite analisar detalhes dos relatórios em nível de produtos individuais para ter informações mais granulares das atividades dentro de cada produto. Por exemplo, você pode usar o relatório de **detalhes da sessão do Skype for Business** para ver detalhes sobre as experiências de chamadas de um usuário individual.
   
 Consulte a [visão geral de relatórios](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) para ver mais relatórios disponíveis.
   
@@ -46,7 +46,7 @@ Esse relatório, juntamente com os outros relatórios do Skype for Business, for
 3. Na lista em **selecionar um relatório**, clique em **detalhes da sessão do Skype for Business**.
     
     > [!TIP]
-    > Se você não vir esse relatório listado, acesse o >  **centro de administração do Skype for Business****relata** > **detalhes da sessão**. 
+    > Se você não vir esse relatório listado, acesse o **centro de administração do Skype for Business**  >  **relata**  >  **detalhes da sessão**. 
   
     > [!IMPORTANT]
     > Dependendo da assinatura do Microsoft 365 ou do Office 365 que você tem, talvez você não veja todos os produtos e relatórios que são mostrados aqui. 

@@ -22,16 +22,16 @@ ms.custom:
 - O365M_ReportsS4BPeerActivity
 - O365P_ReportsS4BPeerActivity
 description: 'Get a Skype for Business Peer-to-peer activity report, and learn how to interpret and customize it for your needs. '
-ms.openlocfilehash: 53d36b29961991a6d87ccd8b3ccfb94335693ac8
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+ms.openlocfilehash: 3708bff31f0034347c23d67d58cf4be7cb3bc956
+ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769334"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44205052"
 ---
 # <a name="peer-to-peer-activity-report"></a>Relatório de atividades ponto a ponto
 
-O novo painel **Relatórios** do Office 365 mostra a visão geral das atividades em todos os produtos do Office 365 da sua organização. Ele permite analisar detalhes dos relatórios em nível de produtos individuais para ter informações mais granulares das atividades dentro de cada produto. Por exemplo, você pode usar o relatório de **atividade ponto a ponto do Skype for Business** para ver quanto seus usuários estão usando mensagens instantâneas, áudio, vídeo, compartilhamento de aplicativos e transferência de arquivos. 
+O painel **relatórios** mostra a visão geral da atividade nos produtos do Microsoft 365 ou do Office 365 em sua organização. Ele permite analisar detalhes dos relatórios em nível de produtos individuais para ter informações mais granulares das atividades dentro de cada produto. Por exemplo, você pode usar o relatório de **atividade ponto a ponto do Skype for Business** para ver quanto seus usuários estão usando mensagens instantâneas, áudio, vídeo, compartilhamento de aplicativos e transferência de arquivos. 
 
 Confira a [visão geral de relatórios](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263).
   
@@ -42,9 +42,9 @@ Esse relatório, juntamente com os outros relatórios do Skype for Business, for
   
 ## <a name="how-to-get-to-the-skype-for-business-peer-to-peer-activity-report"></a>Como acessar o relatório Atividade ponto a ponto do Skype for Business
 
-1. Vá para o centro de administração >**uso**dos **relatórios** > .
+1. Vá para o centro de administração > uso dos **relatórios**  >  **Usage**.
     
-2. Na página **uso** , selecione**atividade ponto a ponto** do **Skype for Business** > na **lista Selecionar um relatório** à esquerda. Ou clique no widget **atividade do Skype for Business** e, em seguida, clique em **atividade ponto a ponto** do Skype for Business na lista de **atividades do Skype for Business** .
+2. Na página **uso** , selecione atividade ponto a ponto do **Skype for Business**  >  **Peer-to-peer activity** na **lista Selecionar um relatório** à esquerda. Ou clique no widget **atividade do Skype for Business** e, em seguida, clique em **atividade ponto a ponto** do Skype for Business na lista de **atividades do Skype for Business** .
 
 ## <a name="interpret-the-skype-for-business-peer-to-peer-activity-report"></a>Interpretar o relatório Atividade ponto a ponto do Skype for Business
 

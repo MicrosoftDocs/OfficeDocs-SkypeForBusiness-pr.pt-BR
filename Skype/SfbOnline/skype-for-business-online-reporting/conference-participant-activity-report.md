@@ -20,16 +20,16 @@ ms.custom:
 - Reporting
 - O365E_ReportsS4BPartActivity
 description: 'Learn how to get the Skype for Business Conference Participant Activity report, and how to interpret and customize it. '
-ms.openlocfilehash: 86bbc6532b556ee683184f5940117a71387d8c42
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+ms.openlocfilehash: 1fe925708356d31a50d6f5a6f2dcc5a3b89a6805
+ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769364"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44205472"
 ---
 # <a name="conference-participant-activity-report"></a>Relatório de atividades dos participantes de conferências
 
-Como administrador do Office 365, o novo painel **relatórios** mostra os dados sobre o uso dos produtos do Office 365 em sua organização. Você pode usar o relatório **atividade de participantes de conferências do Skype for Business** para ver a quantidade de mensagens instantâneas, áudio/vídeo, compartilhamento de aplicativos, conferências discadas e Web estão sendo participadas pelos usuários da sua organização.
+O painel **relatórios** mostra os dados sobre o uso dos produtos do Microsoft 365 ou do Office 365 em sua organização. Você pode usar o relatório **atividade de participantes de conferências do Skype for Business** para ver a quantidade de mensagens instantâneas, áudio/vídeo, compartilhamento de aplicativos, conferências discadas e Web estão sendo participadas pelos usuários da sua organização.
 
 Confira a [visão geral de relatórios](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) para saber mais.
   
@@ -40,9 +40,9 @@ Esse relatório, juntamente com os outros relatórios do Skype for Business, for
   
 ## <a name="how-to-get-to-the-skype-for-business-conference-participant-report"></a>Como acessar o relatório de participantes de conferências do Skype for Business
 
-1. Vá para o centro de administração >**uso**dos **relatórios** > .
+1. Vá para o centro de administração > uso dos **relatórios**  >  **Usage**.
     
-2. Na página **uso** , selecione**atividade de participantes de conferências** do **Skype for Business** > na **lista Selecionar um relatório** à esquerda. Ou clique no widget **atividade do Skype for Business** e, em seguida, clique em atividade de participantes de conferências do Skype **for Business** na lista de **atividades do Skype for Business** .
+2. Na página **uso** , selecione atividade de participantes de conferências do **Skype for Business**  >  **Conference participant activity** na **lista Selecionar um relatório** à esquerda. Ou clique no widget **atividade do Skype for Business** e, em seguida, clique em atividade de participantes de conferências do Skype **for Business** na lista de **atividades do Skype for Business** .
     
   
 ## <a name="interpret-the-skype-for-business-conference-participant-activity-report"></a>Interpretar o relatório Atividade de participantes de conferências do Skype for Business
