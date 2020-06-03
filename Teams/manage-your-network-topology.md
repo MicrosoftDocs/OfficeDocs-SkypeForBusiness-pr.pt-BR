@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba como definir configurações de rede para recursos de voz na nuvem no Microsoft Teams.
-ms.openlocfilehash: 2f615de14cb38c24a1789b968e7c77e38698e26d
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.openlocfilehash: 03eaeac1bce07cffa7dc000f964f080361a37d40
+ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888700"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44539618"
 ---
 # <a name="manage-your-network-topology-for-cloud-voice-features-in-microsoft-teams"></a>Gerenciar a topologia de rede para recursos de voz na nuvem no Microsoft Teams
 
@@ -39,12 +39,12 @@ Você define regiões de rede, sites de rede e sub-redes na guia **sites de rede
 
 #### <a name="add-and-configure-a-network-site"></a>Adicionar e configurar um site de rede
 
-1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para **locais** > de**topologia de rede**e clique na guia sites de **rede** .
-2. Clique em **novo**e insira um nome e uma descrição para o site.
+1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para **locais**de  >  **topologia de rede**e clique na guia sites de **rede** .
+2. Clique em **Adicionar**e, em seguida, insira um nome e uma descrição para o site.
 
     ![Captura de tela da página Adicionar site de rede](media/manage-network-topology-add-site.png)
 
-3. Para associar o site a uma região de rede, clique em **vincular região de rede**, selecione uma região existente ou clique em **Adicionar** para adicionar uma região e, em seguida, clique em **vincular**.  
+3. Para associar o site a uma região de rede, clique em **Adicionar região de rede**, selecione uma região existente ou clique em **Adicionar** para adicionar uma região e, em seguida, clique em **vincular**.  
 4. Para habilitar o roteamento baseado em local para o site, ative o **roteamento baseado em localização**.
 5. Para atribuir políticas de serviços de emergência ao site, siga um destes procedimentos ou ambos:
 
@@ -56,7 +56,7 @@ Você define regiões de rede, sites de rede e sub-redes na guia **sites de rede
 
 #### <a name="modify-a-network-site"></a>Modificar um site de rede
 
-1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para **locais** > de**topologia de rede**e clique na guia sites de **rede** .
+1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para **locais**de  >  **topologia de rede**e clique na guia sites de **rede** .
 2. Selecione o site clicando à esquerda do nome do site e, em seguida, clique em **Editar**.
 3. Faça as alterações desejadas e clique em **salvar.**
 
@@ -66,7 +66,7 @@ Você gerencia endereços IP externos confiáveis na guia **IPs confiáveis** , 
 
 #### <a name="add-a-trusted-ip-address"></a>Adicionar um endereço IP confiável
 
-1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para **locais** > de**topologia de rede**e clique na guia **IPs confiáveis** .
+1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para **locais**de  >  **topologia de rede**e clique na guia **IPs confiáveis** .
 2. Clique em **Novo**.
 3. No painel **Adicionar endereço IP confiável** , especifique a versão IP, o endereço IP, o intervalo de rede, adicione uma descrição e clique em **aplicar**.
 
@@ -74,7 +74,7 @@ Você gerencia endereços IP externos confiáveis na guia **IPs confiáveis** , 
 
 #### <a name="edit-a-trusted-ip-address"></a>Editar um endereço IP confiável
 
-1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para **locais** > de**topologia de rede**e clique na guia **IPs confiáveis** .
+1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para **locais**de  >  **topologia de rede**e clique na guia **IPs confiáveis** .
 2. Selecione o endereço IP clicando à esquerda dele e, em seguida, clique em **Editar**.
 3. No painel **Editar endereço IP confiável** , faça as alterações desejadas e, em seguida, clique em **aplicar**.
 
@@ -84,7 +84,7 @@ Para concluir as etapas desta seção, você precisará de familiaridade com cmd
 
 ### <a name="define-network-regions"></a>Definir regiões de rede
 
- Use o cmdlet [New-CsTenantNetworkRegion](https://docs.microsoft.com/powershell/module/skype/New-CsTenantNetworkRegion) para definir regiões de rede. Observe que o parâmetro RegionID é um nome lógico que representa a geografia da região e não tem dependências ou restrições e o parâmetro &lt;de ID&gt; de site do CentralSite é opcional.
+ Use o cmdlet [New-CsTenantNetworkRegion](https://docs.microsoft.com/powershell/module/skype/New-CsTenantNetworkRegion) para definir regiões de rede. Observe que o parâmetro RegionID é um nome lógico que representa a geografia da região e não tem dependências ou restrições e o parâmetro de ID de site do CentralSite &lt; &gt; é opcional.
 
 ```PowerShell
 New-CsTenantNetworkRegion -NetworkRegionID <region ID>  

@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: O administrador pode saber mais sobre como ativar ou desativar anúncios de entrada e de saída em uma reunião do Microsoft Teams.
-ms.openlocfilehash: b5c9227ad50816fecf64690b4a2de3233e7a669f
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 5b3cdabac41c5c79827df714ccf3192f06b55440
+ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904743"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44539468"
 ---
 # <a name="turn-on-or-off-entry-and-exit-announcements-for-meetings-in-microsoft-teams"></a>Ativar ou desativar anúncios de entrada e de saída para reuniões no Microsoft Teams
 
@@ -41,17 +41,23 @@ A ponte de conferência atende uma chamada feita por um usuário que discou para
 
 ![Um ícone mostrando o logotipo do Microsoft Teams](media/teams-logo-30x30.png) **Usando o centro de administração do Microsoft Teams**
 
-1. Na navegação à esquerda, vá para **Reuniões** > **Pontes de conferência**. 
+Você deve ser um administrador para fazer essas alterações.
 
-2. No topo da página **Pontes de conferência**, clique em **Configurações da ponte**. 
+1. Acesse o centro de administração em  <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> .
 
-3. No painel **Configurações da ponte**, ative ou desative **Notificações de entrada/saída de reuniões**. Esta opção é selecionada por padrão. Entretanto, se você a desmarcar, os usuários que já entraram na reunião não serão notificados quando alguém entrar ou sair da reunião.
+2. Na navegação à esquerda, vá para **Reuniões** > **Pontes de conferência**. 
+
+3. No topo da página **Pontes de conferência**, clique em **Configurações da ponte**. 
+
+4. No painel **Configurações da ponte**, ative ou desative **Notificações de entrada/saída de reuniões**. Esta opção é selecionada por padrão. Entretanto, se você a desmarcar, os usuários que já entraram na reunião não serão notificados quando alguém entrar ou sair da reunião.
     
-4. Em **Tipo de anúncio de entrada/saída**, selecione **Nomes ou números de telefone** ou **Tons**.
+5. Em **Tipo de anúncio de entrada/saída**, selecione **Nomes ou números de telefone** ou **Tons**.
+  > [!NOTE]
+  > Por padrão, os participantes externos não conseguem ver os números de telefone dos participantes discadas. Se você quiser manter a privacidade desses números de telefone, selecione **tons** de **tipo de anúncio de entrada/saída** (isso impede que os números sejam lidos pelo Teams).
     
-5. Caso escolha **Nomes ou números de telefone**, ative ou desative **Solicitar que os chamadores gravem seu nome antes de entrar na reunião**.
+6. Caso escolha **Nomes ou números de telefone**, ative ou desative **Solicitar que os chamadores gravem seu nome antes de entrar na reunião**.
     
-6. Clique em **Salvar**.
+7. Clique em **Salvar**.
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>Deseja saber mais sobre o Windows PowerShell?
 

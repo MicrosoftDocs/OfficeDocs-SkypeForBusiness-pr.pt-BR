@@ -24,26 +24,26 @@ ms.custom:
 - Direct Routing
 - seo-marvel-mar2020
 description: Saiba mais sobre chamadas de emergência, incluindo informações sobre endereços de emergência, roteamento de chamadas de emergência e chamadas de emergência dinâmicas.
-ms.openlocfilehash: 8c2de31aa81ac36338560c9b75d5c7ef27e460f8
-ms.sourcegitcommit: 000515147632c6278bcda4505a1038014dda8e2f
+ms.openlocfilehash: 889446ca08289ccb15128bee8ca6b6170398c599
+ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44232542"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44539488"
 ---
 # <a name="manage-emergency-calling"></a>Gerenciar chamadas de emergência
 
-Este artigo descreve os conceitos que você precisará saber para gerenciar as chamadas de emergência--ele inclui informações sobre endereços de emergência, endereços de emergência dinâmicos e roteamento de chamadas de emergência. Este artigo usa a seguinte terminologia:
+Este artigo descreve os conceitos que você precisará saber para gerenciar as chamadas de emergência, &mdash; incluindo informações sobre endereços de emergência, endereços de emergência dinâmicos e roteamento de chamadas de emergência. Este artigo usa a seguinte terminologia:
 
-- **Endereço de emergência** -um endereço cívico--o endereço físico ou da rua de um local de negócios para a sua organização.
+- **Endereço de emergência** -um endereço cívico &mdash; do endereço físico ou da rua de um local de negócios para a sua organização.
 
   Por exemplo, o endereço *12345 residencial do Norte, Redmond, WA 98052* é usado para direcionar chamadas de emergência para as autoridades de expedição adequadas e para ajudar a localizar o chamador de emergência.
 
 - **Lugar** -geralmente um número de andar, prédio, asa ou número de escritório. O local está associado a um endereço de emergência para dar um local mais exato dentro de um edifício. Você pode ter um número ilimitado de locais associados a um endereço de emergência. Por exemplo, se a sua organização tiver vários edifícios, talvez você queira incluir informações de local para cada prédio e para cada andar dentro de cada edifício.  
 
-- **Local de emergência** -um local é um endereço cívico--com um lugar opcional. Se a sua empresa tiver mais de um local físico, é provável que você precise de mais de um local de emergência. 
+- **Local de emergência** -um local é um endereço cívico &mdash; com um lugar opcional. Se a sua empresa tiver mais de um local físico, é provável que você precise de mais de um local de emergência. 
 
-  Quando você cria um endereço de emergência, um ID de local exclusivo é criado automaticamente para esse endereço.  Se você adicionar um local a um endereço de emergência-por exemplo, se você adicionar uma elevação a um endereço de construção--uma ID de local será criada para a combinação do endereço de emergência e local.  Neste exemplo, haverá duas IDs de localização: uma para o endereço cívico; um para o endereço cívico associado e o local associado.
+  Quando você cria um endereço de emergência, um ID de local exclusivo é criado automaticamente para esse endereço.  Se você adicionar um local a um endereço &mdash; de emergência por exemplo, se adicionar um andar a um endereço de edifício &mdash; , uma ID de localização será criada para a combinação do endereço de emergência e do local.  Neste exemplo, haverá duas IDs de localização: uma para o endereço cívico; um para o endereço cívico associado e o local associado.
 
   Quando você atribui um local de emergência a um usuário ou site, essa ID de local exclusivo associada ao usuário ou ao site.
 
@@ -84,7 +84,7 @@ Quando o local deve estar associado ao número de telefone, depende do país/reg
 
 - Nos Estados Unidos e no Canadá, por exemplo, uma localização de emergência é necessária quando um número é atribuído a um usuário.
 
-- Para outros países, como na Europa, Oriente Médio e África (EMEA), é preciso um local de emergência quando você recebe o número de telefone do Office 365 ou quando ele é transferido de outro provedor de serviços ou operadora.
+- Para outros países, como &mdash; na Europa, Oriente Médio e África (EMEA), &mdash; é preciso um local de emergência quando você recebe o número de telefone do Office 365 ou quando ele é transferido de outro provedor de serviços ou operadora.
 
 ### <a name="dynamic-emergency-calling"></a>Chamadas de emergência dinâmicas
 
@@ -96,7 +96,7 @@ Para usuários do plano de chamada, o local dinâmico para roteamento de chamada
 
 - Se um cliente do teams para um usuário do plano de chamadas do Brasil não adquirir dinamicamente um endereço de emergência nos Estados Unidos, o endereço de emergência registrado será usado para ajudar a tela e a encaminhar a chamada. No entanto, a chamada será filtrada para determinar se um endereço atualizado é necessário antes de conectar o chamador ao PSAP apropriado.
 
-Nos Estados Unidos, você deve configurar o endereço cívico que faz parte dos locais de emergência atribuídos a identificadores de rede, e inclui os códigos geográficos associados. Para obter mais informações, consulte [planejar e configurar chamadas de emergência dinâmicas](configure-dynamic-emergency-calling.md).
+Nos Estados Unidos, você deve configurar o endereço cívico que faz parte dos locais de emergência atribuídos a identificadores de rede &mdash; e inclui os códigos geográficos associados. Para obter mais informações, consulte [planejar e configurar chamadas de emergência dinâmicas](configure-dynamic-emergency-calling.md).
 
 
 ### <a name="emergency-call-routing"></a>Encaminhamento de chamadas de emergência
@@ -142,15 +142,15 @@ Se os planos de chamada não estiverem disponíveis na sua área ou se você qui
 
 ### <a name="emergency-call-enablement-and-configuration"></a>Ativação e configuração de chamadas de emergência
 
-Você deve definir políticas de chamadas de emergência para usuários de roteamento direto usando o TeamsEmergencyCallRoutingPolicy para definir números de emergência e seus destinos de roteamento associados. (Observe que locais de emergência registrados não são compatíveis com usuários de roteamento direto.)
+Você deve definir políticas de chamadas de emergência para usuários de roteamento direto usando uma política de roteamento de chamadas de emergência do Teams (TeamsEmergencyCallRoutingPolicy) para definir números de emergência e seus destinos de roteamento associados. (Observe que locais de emergência registrados não são compatíveis com usuários de roteamento direto.)
 
-Você pode atribuir um TeamsEmergencyCallRoutingPolicy a uma conta de usuário de roteamento direto do Teams, a um site de rede ou a ambos. Quando um cliente de equipes iniciar ou alterar uma conexão de rede, o Teams executará uma pesquisa do site de rede onde o cliente está localizado da seguinte maneira:
+Você pode atribuir uma política de roteamento de chamadas de emergência a uma conta de usuário de roteamento direto do Teams, a um site de rede ou a ambos. Quando um cliente de equipes iniciar ou alterar uma conexão de rede, o Teams executará uma pesquisa do site de rede onde o cliente está localizado da seguinte maneira:
 
-- Se um TeamsEmergencyCallRoutingPolicy estiver associado ao site, a política do site será usada para configurar as chamadas de emergência.
+- Se uma política de roteamento de chamadas de emergência estiver associada ao site, a política do site será usada para configurar o recurso de chamadas de emergência.
 
-- Se não houver nenhum TeamsEmergencyCallRoutingPolicy associado ao site, ou se o cliente estiver conectado a um site não definido, o TeamsEmergencyCallRoutingPolicy associado à conta de usuário será usado para configurar a chamada de emergência. 
+- Se não houver nenhuma política de roteamento de chamadas de emergência associada ao site, ou se o cliente estiver conectado a um site não definido, a política de roteamento de chamadas de emergência associada à conta de usuário será usada para configurar o recurso de chamadas de emergência. 
 
-- Se o cliente do Teams não conseguir obter um TeamsEmergencyCallRoutingPolicy, o usuário não está habilitado para chamadas de emergência.
+- Se o cliente do Teams não conseguir obter uma política de roteamento de chamadas de emergência, o usuário não está habilitado para chamadas de emergência.
 
 ### <a name="dynamic-emergency-calling"></a>Chamadas de emergência dinâmicas
 
@@ -158,7 +158,7 @@ Os clientes do teams para usuários de roteamento direto podem adquirir um ender
 
 ### <a name="emergency-call-routing"></a>Encaminhamento de chamadas de emergência
 
-O TeamsEmergencyCallRoutingPolicy faz referência a um uso de PSTN online, que deve ter a configuração de roteamento direto apropriada para direcionar adequadamente as chamadas de emergência para o (s) gateways PSTN apropriados (s). Em particular, você deve garantir que há um OnlineVoiceRoute para a cadeia de caracteres de discagem de emergência. Para obter mais informações, consulte [Configurar o roteamento direto](direct-routing-configure.md). 
+A política de roteamento de chamadas de emergência faz referência a um uso de PSTN online, que deve ter a configuração de roteamento direto apropriada para direcionar adequadamente as chamadas de emergência para o (s) gateways PSTN apropriados (es). Em particular, você deve garantir que há um OnlineVoiceRoute para a cadeia de caracteres de discagem de emergência. Para obter mais informações, consulte [Configurar o roteamento direto](direct-routing-configure.md). 
 
 (Observação: os clientes do Team precedem o sinal "+" na frente dos números de emergência de uma maneira semelhante à qual o cliente Skype for Business faz; ou seja, + 911. Esse comportamento será modificado nos próximos meses para que as chamadas de emergência do Teams não estejam mais enviando um "+" antes do número; ou seja, 911.)
 
@@ -198,17 +198,17 @@ Para obter mais informações, consulte [controladores de borda de sessão certi
 
 A notificação do Security Desk está disponível com planos de chamadas da Microsoft e direcionamento direto do sistema de telefonia.
 
-Use o TeamsEmergencyCallingPolicy para configurar quem deve ser notificado durante uma chamada de emergência e como eles são notificados: somente chat, em conferência e mudo ou em conferência e mudo, mas com a capacidade de ativar mudo.  Você também pode especificar um número PSTN externo de um usuário ou grupo para chamar e ingressar na chamada de emergência. 
+Você usa uma política de chamadas de emergência do Teams (TeamsEmergencyCallingPolicy) para configurar quem deve ser notificado durante uma chamada de emergência e como eles são notificados: somente chat, em conferência e mudo ou em conferência e mudo, mas com a capacidade de ativar mudo.  Você também pode especificar um número PSTN externo de um usuário ou grupo para chamar e ingressar na chamada de emergência. 
 
-Um TeamsEmergencyCallingPolicy pode ser concedido a uma conta de usuário do Team, atribuída a um site de rede ou a ambos.  Quando um cliente de equipes iniciar ou alterar uma conexão de rede, o Teams executará uma pesquisa do site de rede onde o cliente está localizado:
+Uma política de chamadas de emergência pode ser concedida a uma conta de usuário do Teams, atribuída a um site de rede ou a ambos.  Quando um cliente de equipes iniciar ou alterar uma conexão de rede, o Teams executará uma pesquisa do site de rede onde o cliente está localizado:
 
-- Se um TeamsEmergencyCallingPolicy estiver associado a um site de rede, a política do site será usada para configurar a notificação do Security Desk.
+- Se uma política de chamadas de emergência estiver associada a um site de rede, a política do site será usada para configurar a notificação do Security Desk.
 
-- Se não houver nenhum TeamsEmergencyCallingPolicy associado ao site, ou se o cliente estiver conectado em um site indefinido, o TeamsEmergencyCallingPolicy associado à conta de usuário será usado para configurar a notificação de segurança do escritório.  
+- Se não houver nenhuma política de chamadas de emergência associada ao site, ou se o cliente estiver conectado a um site não definido, a política de chamadas de emergência associada à conta de usuário será usada para configurar a notificação de segurança técnica.  
 
-- Se o cliente do Teams não conseguir obter um TeamsEmergencyCallingPolicy, o usuário não está habilitado para a notificação de segurança técnica.
+- Se o cliente do Teams não conseguir obter uma política de chamadas de emergência, o usuário não está habilitado para a notificação de segurança técnica.
 
-Durante uma chamada de emergência, uma mesa de segurança é reconversada na chamada, e a experiência do usuário de segurança é controlada com base no TeamsEmergencyCallingPolicy. Um chat em grupo é iniciado com cada membro do Security Desk, e o local do chamador de emergência é compartilhado por meio de uma notificação de mensagem importante.  Se uma opção de conferência estiver configurada como parte da política, cada usuário do Security Desk será chamado também como parte da conferência.
+Durante uma chamada de emergência, uma mesa de segurança é reconversada e a experiência do usuário de segurança é controlada com base na política de chamadas de emergência do teams. Um chat em grupo é iniciado com cada membro do Security Desk, e o local do chamador de emergência é compartilhado por meio de uma notificação de mensagem importante.  Se uma opção de conferência estiver configurada como parte da política, cada usuário do Security Desk será chamado também como parte da conferência.
 
     
 ## <a name="related-topics"></a>Tópicos relacionados

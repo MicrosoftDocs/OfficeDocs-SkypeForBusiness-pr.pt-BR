@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Neste artigo, você aprenderá a atribuir ou alterar o local de um local de emergência para os usuários da sua organização.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d5b13cf5d4b4a0cf22077318e3c2c2196840f66e
-ms.sourcegitcommit: 000515147632c6278bcda4505a1038014dda8e2f
+ms.openlocfilehash: 35f7dfe6572b7ef3dc76b6c224d206e2ee4f23a2
+ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44232462"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44539508"
 ---
 # <a name="assign-or-change-the-place-for-an-emergency-location-for-a-user"></a>Atribuir ou alterar o local de um local de emergência de um usuário
 
@@ -37,7 +37,7 @@ Você pode atribuir ou alterar o local de uma localização de emergência para 
 
 1. Na navegação à esquerda do centro de administração do Microsoft Teams, clique em números de telefone de **voz**  >  **Phone numbers**.
 
-2. Na página **números de telefone** , selecione um número de usuário na lista e clique em **Editar**.
+2. Na página **números de telefone** , clique na guia **números** , selecione um número de usuário na lista e, em seguida, clique em **Editar**.
 
 3. No painel **Editar** , em **local de emergência**, siga um destes procedimentos:
 
@@ -45,7 +45,9 @@ Você pode atribuir ou alterar o local de uma localização de emergência para 
 
     - Para alterar o local que já está atribuído ao usuário, clique em **X** para remover o local e o local existentes, procure e selecione o local que você deseja atribuir.
 
-4. Clique em **Salvar**.
+4. Dependendo se você deseja enviar um email para o usuário com as informações do número de telefone, desative ou ative o **usuário de email com informações de número de telefone**. Por padrão, ele está ativado.
+
+5. Clique em **Aplicar**.
 
 ## <a name="using-powershell"></a>Usando o PowerShell
 

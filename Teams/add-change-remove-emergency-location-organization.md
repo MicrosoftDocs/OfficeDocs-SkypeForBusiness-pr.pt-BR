@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 'Saiba como adicionar, alterar ou remover um local de emergência para sua organização no centro de administração do Microsoft Teams. '
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 72730a326c6239b195d77f8a7bdde1b376da646f
-ms.sourcegitcommit: 000515147632c6278bcda4505a1038014dda8e2f
+ms.openlocfilehash: 8bed76fdfff2a6af2dabb3eef5c01dcfb39f422a
+ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44232482"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44539458"
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>Adicionar, alterar ou remover um local de emergência para sua organização
 
@@ -40,13 +40,13 @@ Você gerencia locais de emergência para sua organização no centro de adminis
 ### <a name="using-the-microsoft-teams-admin-center"></a>Usando o centro de administração do Microsoft Teams
 
 1. Na navegação à esquerda do centro de administração do Microsoft Teams, clique em **locais**  >  **endereços de emergência**.
-2. Clique em **Adicionar local**.
+2. Clique em **Adicionar**.
 3. Insira um nome e uma descrição para o local.
 4. Selecione o país ou região e, em seguida, digite o endereço.
 
    > [!NOTE]
    > Na Bélgica, na França, na Alemanha, na Irlanda, Holanda e na Espanha, é importante entender que, para ativar com êxito um número de telefone no Office 365, o endereço configurado no local de emergência, que é usado para adquirir o número, deve corresponder ao código de área do número de telefone.
-5. Se o endereço não for encontrado e você quiser editar manualmente o endereço, ative o desejo **Editar o formulário de endereço manualmente se não for possível encontrar o endereço selecionado**.
+5. Se o endereço não for encontrado e você quiser editar manualmente o endereço, ative **Editar o endereço manualmente**.
 6. Clique em **Salvar**.
 
 ### <a name="using-powershell"></a>Usando o PowerShell

@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 'Consulte as etapas para atribuir uma licença de conferência discada e um ID de conferência a um usuário no Microsoft Teams e várias outras configurações de conferência discada. '
-ms.openlocfilehash: b353f119d3f666f0a694ab325273e2b5f568da04
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: f887e6567052f80d6353202906f77a51e6403372
+ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042478"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44539448"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-your-organization-in-microsoft-teams"></a>Gerenciar as configurações de Audioconferência de sua organização no Microsoft Teams
 
@@ -45,7 +45,7 @@ Pode ser mais fácil para você visualizar todas as configurações de audioconf
   
 1. Entre no Microsoft 365 com sua conta corporativa ou de estudante.
     
-2. Na navegação à esquerda do **centro de administração do Microsoft 365**, vá para usuários**ativos**do **usuários** > e selecione o usuário ou os usuários na lista de usuários disponíveis.
+2. Na navegação à esquerda do **centro de administração do Microsoft 365**, vá para usuários ativos do **usuários**  >  **Active users**e selecione o usuário ou os usuários na lista de usuários disponíveis.
     
     > [!NOTE]
     > [!DICA] Para atribuir licenças a mais de 20 usuários ao mesmo tempo, você pode usar o menu suspenso **Selecionar uma exibição** e escolher uma das opções ou criar sua própria exibição. Em seguida, clique em **Editar**, **Próximo** duas vezes, selecione a licença e clique em **Enviar**.  
@@ -76,7 +76,7 @@ Consulte a [referência do Microsoft Teams PowerShell](https://docs.microsoft.co
   
 ## <a name="reset-the-meeting-conference-id"></a>Redefinir a ID de conferência de reunião
 
-![Um ícone mostrando o logotipo](media/teams-logo-30x30.png) do teams **usando o centro de administração do Microsoft Teams**
+![Um ícone mostrando o logotipo do teams ](media/teams-logo-30x30.png) **usando o centro de administração do Microsoft Teams**
 
 1. Na navegação à esquerda, clique em **usuários**e selecione o usuário na lista de usuários disponíveis.
 
@@ -146,41 +146,44 @@ Consulte [definir os números de telefone incluídos nos convites](set-the-phone
 
     Se você escolher **nomes ou números de telefone**, também poderá optar por habilitar ou desabilitar **o recurso pedir que os chamadores registrem o nome antes de ingressar na reunião**. 
 
+    > [!NOTE]
+    > Por padrão, os participantes externos não conseguem ver os números de telefone dos participantes discadas. Se você quiser manter a privacidade desses números de telefone, selecione **tons** de **tipo de anúncio de entrada/saída** (isso impede que os números sejam lidos pelo Teams).
+
 5. Clique em **Salvar**.
 
     
-Consulte [alterar as configurações de uma ponte de conferência de áudio](change-the-settings-for-an-audio-conferencing-bridge.md).
+Consulte [Alterar as configurações de uma ponte de audioconferência](change-the-settings-for-an-audio-conferencing-bridge.md).
   
- **Definir o comprimento do PIN para reuniões**
+ **Definir o tamanho do PIN para reuniões**
 
 1. Na navegação à esquerda, vá para **Reuniões** > **Pontes de conferência**. 
 
-2. Na parte superior da página **pontes de conferência** , clique em **configurações de ponte**. 
+2. No topo da página **Pontes de conferência**, clique em **Configurações da ponte**. 
 
-3. No painel **configurações de ponte** , insira o número de dígitos que você deseja para o pino na lista **comprimento do pino** e clique em **salvar**.
+3. No painel **Configurações da ponte**, insira o número de dígitos que deseja para o PIN na lista **Tamanho do PIN** e clique em **Salvar**.
 
     O PIN deve ter entre 4 e 12 dígitos. O padrão é 5.
 
     
-Consulte [alterar as configurações de uma ponte de conferência de áudio](change-the-settings-for-an-audio-conferencing-bridge.md).
+Consulte [Alterar as configurações de uma ponte de audioconferência](change-the-settings-for-an-audio-conferencing-bridge.md).
   
- **Habilitar ou desabilitar o envio de emails para usuários de áudio**
+ **Habilitar ou desabilitar o envio de e-mails para usuários de áudio**
 
 1. Na navegação à esquerda, vá para **Reuniões** > **Pontes de conferência**. 
 
-2. Na parte superior da página **pontes de conferência** , clique em **configurações de ponte**. 
+2. No topo da página **Pontes de conferência**, clique em **Configurações da ponte**. 
 
-3. No painel **configurações de ponte** , habilite ou desabilite **enviar emails automaticamente aos usuários se suas configurações de audioconferência de áudio mudarem**.
+3. No painel **Configurações da ponte**, ative ou desative **Enviar e-mails automaticamente aos usuários se suas configurações de audioconferência forem alteradas**.
 
 4. Clique em **Salvar**. 
  
-    Você também pode enviar emails para o usuário com as configurações de audioconferência, acessando as propriedades de videoconferência do usuário e clicando **em enviar informações de conferência por email**.
+    Você também pode enviar e-mails para o usuário com as configurações da audioconferência acessando as propriedades de audioconferência do usuário clicando em **Enviar informações da conferência por e-mail**.
     
     Se você fizer isso, será enviado um email somente com o número de telefone e a ID da conferência, mas o PIN não será incluído.
 
-Veja [Enviar um email para um usuário com suas informações de conferência de áudio](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md).
+Consulte [Enviar um e-mail para um usuário com suas informações de Audioconferência](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md).
     
-## <a name="see-and-set-the-primary-default-and-secondary-alternate-languages-on-an-audio-conferencing-bridge"></a>Ver e definir os idiomas principais (padrão) e secundários (alternativos) em uma ponte de audioconferência
+## <a name="see-and-set-the-primary-default-and-secondary-alternate-languages-on-an-audio-conferencing-bridge"></a>Visualizar e definir os idiomas primário (padrão) e secundários (alternativos) para uma ponte de audioconferência
 
 ![Um ícone mostrando o logotipo do Microsoft Teams](media/teams-logo-30x30.png) **Usando o centro de administração do Microsoft Teams**
 

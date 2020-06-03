@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Saiba como adicionar, alterar ou remover um local para um local de emergência de sua organização no centro de administração do Microsoft Teams.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: c3ff180848d12ad3fb00d048bbb1910bf13c00d6
-ms.sourcegitcommit: 000515147632c6278bcda4505a1038014dda8e2f
+ms.openlocfilehash: 5ba712602ef2a966343282d4e467365f3c1c3329
+ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44232492"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44539428"
 ---
 # <a name="add-change-or-remove-a-place-for-an-emergency-location-in-your-organization"></a>Adicionar, alterar ou remover um endereço de um local de emergência para sua organização
 
@@ -39,7 +39,7 @@ Você gerencia locais de emergência para sua organização no centro de adminis
 
 1. Na navegação à esquerda do centro de administração do Microsoft Teams, clique em **locais**  >  **endereços de emergência**.
 2. Na lista, clique no nome do local ao qual você deseja adicionar um local.
-3. Na guia **locais** , clique em **Adicionar local**.
+3. Na guia **locais** , clique em **Adicionar**.
 4. Digite um nome para o local e clique em **aplicar**.
 
 ### <a name="using-powershell"></a>Usando o PowerShell
