@@ -17,12 +17,12 @@ description: Aprenda a se comunicar com usuários de outras organizações no Mi
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: fb22aeaef31d04a9d359bc43742c85b72bf12c97
-ms.sourcegitcommit: 6fbaab29076e16fe18f8faeb7e012a0815c2369d
+ms.openlocfilehash: 4c9b77d01469cb5893a826ae85a1744408623361
+ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43785924"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44539438"
 ---
 <a name="communicate-with-users-from-other-organizations-in-microsoft-teams"></a>Comunique-se com usuários de outras organizações no Microsoft Teams
 ======================================================
@@ -73,7 +73,7 @@ Se você estiver pronto para ativar o acesso de convidados em sua organização,
 | É possível bloquear um usuário individual | Não | Sim |
 | Há suporte para @menções | Sim<sup>4</sup> | Sim |
 | Fazer chamadas privadas | Sim | Sim |
-| Exibir o número de telefone dos participantes da reunião discada | Não | Sim |
+| Exibir o número de telefone dos participantes da reunião discada | Não<sup>5</sup> | Sim |
 | Permitir vídeo IP | Sim | Sim |
 | Modo de compartilhamento de tela | Sim<sup>4</sup> | Sim |
 | Permitir Reunir Agora
@@ -89,6 +89,8 @@ Se você estiver pronto para ativar o acesso de convidados em sua organização,
 <sup>2</sup> Apenas por endereço de email ou de protocolo SIP.<br>
 <sup>3</sup> O chat externo (federado) funciona apenas no modo 1:1.<br>
 <sup>4</sup> Com suporte para chat individual de usuários do Apenas Teams para Apenas Teams de duas organizações diferentes. 
+<sup>5</sup> Por padrão, os participantes externos não podem ver os números de telefone dos participantes discados. Se você quer manter a privacidade desses números de telefone, selecione **Tons** para **Tipo de anúncio de entrada/saída** (isso impede que os números sejam lidos pelo Teams). Se você não quiser revelar números de telefone PSTN externos aos usuários externos, quando você **Ativar os anúncios de entrada/saída,**, selecione **Tons** para o tipo de anúncio. Para saber mais, leia [Ativar ou desativar anúncios de entrada e saída das reuniões no Microsoft Teams](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md).
+
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
