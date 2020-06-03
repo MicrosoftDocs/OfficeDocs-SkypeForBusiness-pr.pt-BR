@@ -2,7 +2,7 @@
 layout: HubPage
 ms.topic: hub-page
 title: Treinamento com instrutor e vídeos para usuários
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 manager: serdars
 description: Saiba como se inscrever gratuitamente em aulas ao vivo, ministradas por instrutor, para aprender tudo sobre o Microsoft Teams.
 localization_priority: Priority
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_RemoteWorkers
 - remotework
-ms.openlocfilehash: f3c50309e97c38e21e06c1ec133a5261f09ea392
-ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
+ms.openlocfilehash: 6765b67498cb3e3ade6104ff86fc49d9be3384f1
+ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43950996"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44523444"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -172,26 +172,6 @@ A Microsoft está feliz por hospedar uma série de sessões de treinamento onlin
                         <h3>Teams for Education - Webinars</h3>
                         <p>Saiba como usar o Teams na educação superior.</p>
                         <p><i>Público-alvo: Funcionários, alunos, acadêmicos, corpo docentes de pesquisa, profissionais de TI</i></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://microsoftteams.eventbuilder.com/FLWValueWebinar"target="_blank">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/clock-teams.svg" alt="Clock symbol" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Capacite seus funcionários de primeira linha com o Teams</h3>
-                        <p>Saiba como o Teams permite uma transformação digital que traz um potencial ilimitado para toda a sua força de trabalho.</p>
-                        <p><i>Público: tomadores de decisão de negócios, tomadores de decisão de TI</i></p>
                     </div>
                 </div>
             </div>
