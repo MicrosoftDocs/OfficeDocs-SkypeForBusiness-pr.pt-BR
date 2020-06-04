@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 description: Perguntas frequentes sobre a jornada de migração do Skype for Business para o Microsoft Teams.
 localization_priority: Priority
 search.appverid: MET150
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 595d8104e465217533a8e751eae69156cb548921
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 96354e7b1a8283ebf66648c1bb2987119fe5bdc0
+ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902946"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44522664"
 ---
 # <a name="faq--upgrading-from-skype-for-business-to-microsoft-teams"></a>Perguntas frequentes ‒ atualização do Skype for Business para o Microsoft Teams
 
@@ -118,7 +118,9 @@ Não. Será necessário mudar os usuários para o modo **Somente Teams** para co
 
 ### <a name="who-can-i-contact-if-i-have-questions-about-the-upgrade-process"></a>Com quem poderei entrar em contato se tiver dúvidas sobre o processo de atualização?
 
-Em caso de dúvidas sobre a atualização, fale com seus pontos de contato atuais, que podem incluir sua equipe de conta Microsoft, seu parceiro ou o [FastTrack](https://www.microsoft.com/fasttrack). Como alternativa, você pode abrir um tíquete de ajuda no [Centro de Administração do Microsoft Teams](https://admin.teams.microsoft.com/).
+Em caso de dúvidas sobre a atualização, fale com seus pontos de contato atuais, que podem incluir sua equipe de conta Microsoft, seu parceiro ou o [FastTrack](https://www.microsoft.com/fasttrack). Como alternativa, você pode abrir um tíquete de ajuda no [Centro de Administração do Microsoft Teams](https://admin.teams.microsoft.com/) clicando no botão **Precisa de Ajuda** button.
+
+![Captura de tela de um botão precisa de ajuda do Teams](media/helpDesk.png "Captura de tela do botão Precisa de ajuda no centro de administração do Microsoft Teams")     
 
 ### <a name="do-i-upgrade-all-users-on-my-tenant-together-or-can-i-opt-to-upgrade-select-users-at-a-time"></a>Devo atualizar todos os usuários de meu locatário juntos ou posso optar por atualizar usuários selecionados de cada vez?
 
