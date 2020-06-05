@@ -17,12 +17,12 @@ description: Aprenda a se comunicar com usuários de outras organizações no Mi
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: 4c9b77d01469cb5893a826ae85a1744408623361
-ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
+ms.openlocfilehash: b2f91d994ef05b9668d31dabc4d43033350ae85a
+ms.sourcegitcommit: 2c23a8c5afc4a6b74c2c6d7487975a94fe99dc07
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44539438"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "44562036"
 ---
 <a name="communicate-with-users-from-other-organizations-in-microsoft-teams"></a>Comunique-se com usuários de outras organizações no Microsoft Teams
 ======================================================
@@ -90,7 +90,6 @@ Se você estiver pronto para ativar o acesso de convidados em sua organização,
 <sup>3</sup> O chat externo (federado) funciona apenas no modo 1:1.<br>
 <sup>4</sup> Com suporte para chat individual de usuários do Apenas Teams para Apenas Teams de duas organizações diferentes. 
 <sup>5</sup> Por padrão, os participantes externos não podem ver os números de telefone dos participantes discados. Se você quer manter a privacidade desses números de telefone, selecione **Tons** para **Tipo de anúncio de entrada/saída** (isso impede que os números sejam lidos pelo Teams). Se você não quiser revelar números de telefone PSTN externos aos usuários externos, quando você **Ativar os anúncios de entrada/saída,**, selecione **Tons** para o tipo de anúncio. Para saber mais, leia [Ativar ou desativar anúncios de entrada e saída das reuniões no Microsoft Teams](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md).
-
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
