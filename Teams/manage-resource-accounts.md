@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 - seo-marvel-apr2020
 description: Neste artigo, você aprenderá a criar, editar e gerenciar contas de recursos no Microsoft Teams.
-ms.openlocfilehash: 1ea9d4ebd6cbbb93646555787a04ab5b5516be03
-ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
+ms.openlocfilehash: 2bf333eef72de4744f13cfe25a4457facaf4b3e6
+ms.sourcegitcommit: f9db7effbb1e56484686afe4724cc3b73380166d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "44512879"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "44565886"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Gerenciar contas de recursos no Microsoft Teams
 
@@ -98,9 +98,11 @@ Quando você cria uma conta de recurso durante a criação de um atendedor autom
 Um atendedor automático aninhado ou fila de chamadas exigir uma conta de recurso, mas, em muitos casos, a conta de recurso correspondente não precisará de um número de telefone e do licenciamento necessário para dar suporte a um número de telefone. A criação de uma conta de recurso que não precisa de um número de telefone exigiria a execução das seguintes tarefas na seguinte ordem:
 
 1. Criar uma nova conta de recurso. Consulte [criar uma conta de recurso no centro de administração do Microsoft Teams](#create-a-resource-account-in-the-microsoft-teams-admin-center) ou [criar uma conta de recurso no PowerShell](#create-a-resource-account-in-powershell).
+
 2. Configure um dos seguintes procedimentos:
    - [Atendedor automático na nuvem](create-a-phone-system-auto-attendant.md)
    - [Fila de chamadas em nuvem](create-a-phone-system-call-queue.md)
+   
 3. Atribua a conta de recurso à fila de chamadas ou ao atendedor automático. Consulte [atribuir/cancelar a atribuição de números de telefone e serviços](#assignunassign-phone-numbers-and-services).
 
 
@@ -115,16 +117,6 @@ Depois de comprar uma licença do sistema de telefonia, na navegação à esquer
 Para criar uma nova conta de recurso, clique em **Adicionar**. No painel **adicionar conta do recurso** , preencha o **nome para exibição**, o nome de **usuário** (o nome do domínio deve ser preenchido automaticamente) e o tipo de **conta de recurso** para a conta do recurso. O tipo de conta de recurso pode ser o **atendedor automático** ou a **fila de chamadas**, dependendo do aplicativo que você pretende associar à conta do recurso. Quando estiver pronto, clique em **salvar**.
 
 ![Captura de tela das opções da nova conta do recurso](media/res-acct.png)
-
-<a name="enablesignin"> </a>
-
-Quando você cria uma conta de recurso, a conexão é bloqueada para a conta. Você verá uma faixa na parte superior do painel que diz que a conta do recurso não pode ser carregada. Você deve desbloquear o login para a conta do recurso no centro de administração do Microsoft 365 para que a conta do recurso tenha permissão para entrar. Para fazer isso, no centro de administração do 365 da Microsoft, vá para **usuários**, procure e selecione a conta do recurso. Na parte superior do painel sob o nome para exibição, clique em **desbloquear este usuário?**, desmarque a caixa de seleção **bloquear o usuário para entrar** e clique em **salvar alterações**.
-
-![Captura de tela da opção desbloquear este usuário](media/res-acct-unblock.png)
-
-Depois de fazer isso, você verá "entrar permitido" sob o nome para exibição. 
-
-![Captura de tela da mensagem de entrada permitida](media/res-acct-sign-in-allowed.png)
 
 Em seguida, aplique uma licença para a conta do recurso no centro de administração do Microsoft 365, conforme descrito em [atribuir licenças aos usuários](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide).
 
@@ -238,7 +230,9 @@ Set-CsOnlineApplicationInstance -Identity  <Resource Account oid> -OnpremPhoneNu
 
 ## <a name="troubleshooting"></a>Solução de problemas
 
-Caso não veja o número de telefone atribuído à conta do recurso no centro de administração do Teams e não consiga atribuir o número a partir daí, verifique o seguinte:
+### <a name="you-dont-see-the-phone-number-assigned-to-the-resource-account-in-the-microsoft-teams-admin-center"></a>Você não vê o número de telefone atribuído à conta do recurso no centro de administração do Microsoft Teams
+
+Se você não vir o número de telefone atribuído à conta do recurso no centro de administração do Microsoft Teams e não conseguir atribuir o número a partir daí, verifique o seguinte:
 
 ``` Powershell
 Get-MsolUser -UserPrincipalName "username@contoso.com"| fl objectID,department
@@ -252,6 +246,25 @@ Set-MsolUser -ObjectId -Department "Microsoft Communication Application Instance
 
 > [!NOTE]
 > Atualize a página da Web do centro de administração do teams depois de executar o cmldet, e você deve poder atribuir o número corretamente.
+
+### <a name="you-get-a-we-cant-use-this-resource-account-for-services-error-message"></a>Você recebe uma destas "não é possível usar esta conta de recurso para serviços". mensagem de erro
+
+<a name="blocksignin"> </a>
+
+Você recebe a seguinte mensagem de erro quando tenta usar uma conta de recurso:
+
+"Não podemos usar esta conta de recurso para serviços. A conta do recurso deve estar DESABILITAda e BLOQUEAda para entrar. Você deve bloquear entradas para esta conta de recurso na página usuários no centro de administração do Microsoft 365. "
+
+Quando você cria uma conta de recurso, por padrão, ela está desabilitada e a conexão é bloqueada para a conta. Essas configurações não devem ser alteradas. Para resolver essa mensagem de erro, bloqueie a conta do recurso de entrar. Para fazer isso:
+
+1. No centro de administração do Microsoft 365, vá para **usuários**, procure e selecione a conta do recurso.
+2. Na parte superior do painel sob o nome para exibição, clique em **bloquear este usuário?**, marque a caixa de seleção **bloquear este usuário para entrar** e, em seguida, selecione **salvar alterações**.
+
+   ![Captura de tela da opção bloquear este usuário](media/res-acct-block.png)
+
+    Depois de fazer isso, você verá "entrar bloqueados" sob o nome para exibição.
+
+      ![Captura de tela da mensagem de entrada bloqueada](media/res-acct-sign-in-blocked.png)
 
 ## <a name="related-information"></a>Informações relacionadas
 

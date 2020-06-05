@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba como definir e usar rótulos de sensibilidade no Microsoft Teams.
-ms.openlocfilehash: 5fb470262d0d359af87f751ece5f686210286c91
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 7f8eb7e0fa0d34ae21829a12011f094d8e9c9126
+ms.sourcegitcommit: 2c23a8c5afc4a6b74c2c6d7487975a94fe99dc07
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779758"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "44562066"
 ---
 # <a name="sensitivity-labels-for-microsoft-teams"></a>Rótulos de sensibilidade do Microsoft Teams
 
@@ -109,6 +109,10 @@ No momento, não há suporte para rótulos de sensibilidade no centro de adminis
 **Suporte para rótulos de sensibilidade em APIs de gráficos do Teams, cmdlets e modelos do PowerShell**
 
 Atualmente, os usuários não poderão aplicar rótulos de sensibilidade em equipes criadas diretamente por meio de APIs de gráfico, cmdlets e modelos do PowerShell.
+
+**Suporte para rótulos de sensibilidade em SKUs EDU do teams**
+
+No momento, os rótulos de sensibilidade não são aceitos para clientes que usam SKUs de educação do teams.
 
 **Edição de rótulos de sensibilidade diretamente em um conjunto de sites do SharePoint para canais privados**
 
