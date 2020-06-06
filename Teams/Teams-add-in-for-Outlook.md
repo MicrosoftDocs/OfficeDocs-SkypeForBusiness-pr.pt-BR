@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 052cf825e2f05dd17a77043ab87bedbb2f3f8d9c
-ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
+ms.openlocfilehash: de92e52b50ce863ba940badbdeff32c90f083fde
+ms.sourcegitcommit: 8395f91205bde549a0a92999ef00c5f5fb03fb80
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "44416721"
+ms.lasthandoff: 06/05/2020
+ms.locfileid: "44583434"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Usar o suplemento de Reunião do Teams no Outlook
 =======================================
@@ -111,8 +111,6 @@ Devido a certas limitações na versão inicial, o Outlook mobile pode oferecer 
 | Somente Teams | Teams |
 
 ### <a name="set-whether-users-in-islands-mode-can-only-use-the-teams-meeting-add-in-or-both-the-teams-meeting-and-skype-for-business-meeting-add-ins"></a>Defina se os usuários no modo de ilhas só podem usar o suplemento de reunião do Teams e os suplementos de reunião do Skype for Business.
-
-**(em breve)**
 
 Como administrador, você pode configurar uma configuração de política de reunião do teams para controlar qual suplemento de reunião do Outlook é usado para *os usuários que estão no modo de ilhas*. Você pode especificar se os usuários só podem usar o suplemento de reunião do Teams e os suplementos de reunião do Skype for Business para agendar reuniões no Outlook.
 

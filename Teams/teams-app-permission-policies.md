@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 5456bb7cece960796308a2d987cecaedc9828a3c
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: a7e8cf5e6ed4329a617a7922d4c4380fb5593b7c
+ms.sourcegitcommit: 8395f91205bde549a0a92999ef00c5f5fb03fb80
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44350105"
+ms.lasthandoff: 06/05/2020
+ms.locfileid: "44583506"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>Gerenciar políticas de permissões de aplicativo no Microsoft Teams
 
@@ -52,10 +52,10 @@ Digamos, por exemplo, que você queira bloquear todos os aplicativos de terceiro
 Se você quiser controlar os aplicativos que estão disponíveis para diferentes grupos de usuários em sua organização, crie e atribua uma ou mais políticas de permissão de aplicativo personalizadas. Você pode criar e atribuir políticas personalizadas separadas com base em aplicativos que são publicados pela Microsoft, por terceiros ou por sua organização. É importante saber que, após criar uma política personalizada, você não poderá alterá-la se os aplicativos de terceiros estiverem desabilitados nas configurações de aplicativo de toda a organização.
 
 1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para políticas de permissão de **aplicativos do teams**  >  **Permission policies**.
-2. Clique em **Adicionar**.
+2. Clique em **Adicionar**. <br>
     ![Captura de tela da política de permissão de novo aplicativo](media/app-permission-policies-new-policy.png)
 3. Insira um nome e uma descrição para a política.
-4. Em **aplicativos da Microsoft**, **aplicativos de terceiros**e aplicativos de **locatários**, selecione uma das seguintes opções:
+4. Em **aplicativos da Microsoft**, **aplicativos de terceiros**e **aplicativos personalizados**, selecione uma das seguintes opções:
 
     - **Permitir todos os aplicativos**
     - **Permitir aplicativos específicos e bloquear todos os outros**
@@ -65,10 +65,10 @@ Se você quiser controlar os aplicativos que estão disponíveis para diferentes
 5. Se você selecionou **permitir aplicativos específicos e bloquear outras pessoas**, adicione os aplicativos que deseja permitir:
 
     1. Selecione **permitir aplicativos**.
-    1. Procure os aplicativos que você deseja permitir e, em seguida, clique em **Adicionar**. Os resultados da pesquisa são filtrados para o fornecedor do aplicativo (**aplicativos da Microsoft**, **aplicativos**de terceiros ou **aplicativos locatários**).
-    1. Quando tiver escolhido a lista de aplicativos, clique em **permitir**.
+    1. Procure os aplicativos que você deseja permitir e, em seguida, clique em **Adicionar**. Os resultados da pesquisa são filtrados para o fornecedor do aplicativo (**aplicativos da Microsoft**, **aplicativos**de terceiros ou **aplicativos personalizados**).
+    1. Quando tiver escolhido a lista de aplicativos, clique em **permitir**. 
 
-6. Da mesma forma, se você selecionou **bloquear aplicativos específicos e permitir todos os outros**, procure e adicione os aplicativos que deseja bloquear.
+6. Da mesma forma, se você selecionou **bloquear aplicativos específicos e permitir todos os outros**, procure e adicione os aplicativos que deseja bloquear e, em seguida, clique em **Bloquear**.
 7. Clique em **Salvar**.
 
 ## <a name="edit-an-app-permission-policy"></a>Editar uma política de permissão do aplicativo
@@ -92,11 +92,11 @@ Para atribuir uma política a um usuário:
 2. Selecione o usuário clicando à esquerda do nome de exibição do usuário e clique em **Editar configurações**.
 3. Em **política de permissão do aplicativo**, selecione a política de permissão do aplicativo que você deseja atribuir e clique em **aplicar**.
 
-Para atribuir uma política a vários usuários de uma só vez:
+Para atribuir uma política a vários usuários por vez:
 
-1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para **usuários**e procure os usuários ou filtre o modo de exibição para mostrar os usuários que você deseja.
-2. Na coluna **&#x2713;** (marca de seleção), selecione os usuários. Para selecionar todos os usuários, clique no &#x2713; (marca de seleção) na parte superior da tabela.
-3. Clique em **Editar configurações**, faça as alterações desejadas e, em seguida, clique em **aplicar**.  
+1. Na barra de navegação à esquerda do centro de administração do Microsoft Teams, vá para **Usuários** e, em seguida, pesquise os usuários ou filtre o modo de exibição para mostrar os usuários que você deseja.
+2. Na coluna **&#x2713;** (marca de seleção), selecione os usuários. Para selecionar todos os usuários, clique na (marca de seleção) &#x2713; na parte superior da tabela.
+3. Clique em **Editar configurações**, faça as alterações desejadas e, em seguida, clique em **Aplicar**.  
 
 Ou, você também pode fazer o seguinte:
 

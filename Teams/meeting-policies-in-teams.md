@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Saiba como gerenciar as configurações de política de reunião no Teams e usá-las para controlar os recursos disponíveis para os participantes da reunião para reuniões agendadas pelos usuários.
-ms.openlocfilehash: 015a127b90aeb24dd9b2c2bcfca2389e95bf1496
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: a2d1cf256829cccd27bde2dce311145b8861ae84
+ms.sourcegitcommit: 8395f91205bde549a0a92999ef00c5f5fb03fb80
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44523144"
+ms.lasthandoff: 06/05/2020
+ms.locfileid: "44583494"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Gerenciar políticas de reunião no Teams
 
@@ -411,8 +411,6 @@ Para habilitar um organizador da reunião para baixar o relatório de presença 
 Para impedir que um organizador da reunião Baixe o relatório, defina o parâmetro como **desabilitado**. Por padrão, essa configuração está desabilitada e a opção de baixar o relatório não está disponível.
 
 ## <a name="meeting-policy-settings---meeting-provider-for-islands-mode"></a>Configurações de política de reunião – provedor de reunião para o modo de ilhas
-
-**(em breve)**
 
 Esta é uma política por usuário. Esta configuração controla qual suplemento de reunião do Outlook é usado para *os usuários que estão no modo de ilhas*. Você pode especificar se os usuários só podem usar o suplemento de reunião do Teams e os suplementos de reunião do Skype for Business para agendar reuniões no Outlook.
 
