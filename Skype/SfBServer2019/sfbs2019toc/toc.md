@@ -2,7 +2,8 @@
 
 ## [Novidades](../whats-new.md)
 ## [O que foi preterido](../deprecated.md)
-## [Soluções de Telefonia da Microsoft](../../sfbhybrid/hybrid/msft-telephony-solutions.md)
+## [Diretrizes de virtualização](../virtualization-guidance.md)
+## [Soluções de telefonia da Microsoft](../../sfbhybrid/hybrid/msft-telephony-solutions.md)
 
 ## [Downloads e atualizações do Skype for Business](../../SfbServer/software-updates.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ### [Atualizações de cliente](../../SfbServer/sfb-client-updates.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
