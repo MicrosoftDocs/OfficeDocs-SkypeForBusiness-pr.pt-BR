@@ -17,12 +17,12 @@ description: Saiba mais sobre os recursos de apresentador e participante em um e
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: 6341e688973dc50c070b9a0c01dfa57d03514119
-ms.sourcegitcommit: 1a6b4efad1e6a958cdbaae4b0e2e231145c9658f
+ms.openlocfilehash: 7714442be770420797df1c51a532f769eb0350a4
+ms.sourcegitcommit: f9db7effbb1e56484686afe4724cc3b73380166d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44321720"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "44565854"
 ---
 <a name="presenter-and-participant-capabilities-in-a-teams-live-event"></a>Recursos de apresentador e participante em um evento do Teams
 ======================================================
@@ -36,7 +36,6 @@ Os recursos de reunião disponíveis são:
 - Quadro de comunicações
 - Gravando
 - Arquivos
-- Agendar uma reunião (somente para reuniões)
 
 Este artigo descreve os recursos de participante e o que o acesso a eles têm para os recursos de evento ao vivo.
 
@@ -45,7 +44,7 @@ Este artigo descreve os recursos de participante e o que o acesso a eles têm pa
 Apresentadores e organizadores incluem o seguinte:
 
 - Apresentadores da minha empresa
-- Apresentadores de outras organizações (restrição a eventos ao vivo) - inclui participantes anônimos e externos. Os apresentadores são designados pelo organizador e exigem um convite pessoal do organizador.
+- Apresentadores de outras organizações. Os apresentadores são designados pelo organizador e isso exige um convite pessoal do organizador.
 
 Os apresentadores e organizadores têm acesso a todos os recursos em um evento ao vivo.
 
@@ -65,7 +64,7 @@ O participante locatário pertence à organização e tem credenciais para o loc
 | Evento ao vivo |  | |||
 |---------|----------------|----------------|---------------------|------------|--------------|
 |  **Recurso**       | Antes da reunião | Na reunião | Após a reunião |
-| Chat | Sim | Sim | Sim |
+| Chat | Não disponível | N/D | Não disponível |
 | Anotações da Reunião | Sim | Sim |Sim |
 | Quadro de comunicações | Sim | Sim |Sim |
 | Gravando | N/A |Sim | Sim |
@@ -80,7 +79,7 @@ Um participante convidado é uma pessoa de outra empresa que foi convidado a ace
 | Evento ao vivo  | | |||
 |---------|----------------|----------------|---------------------|------------|--------------|
 | **Recurso**        | Antes da reunião | Na reunião | Após a reunião |
-| Chat | Sim | Sim | Sim |
+| Chat | Não disponível | N/D | Não disponível |
 | Anotações da Reunião | Sim | Sim | Sim |
 | Quadro de comunicações | Não | Não | Não |
 | Gravando | N/A | Não | Não |
@@ -95,7 +94,7 @@ Um participante externo é uma pessoa que está usando o Teams em outra organiza
 | Evento ao vivo |  | |||
 |---------|----------------|----------------|---------------------|------------|--------------|
 |  **Recurso**         | Antes da reunião | Na reunião | Após a reunião |
-| Chat | Não| Sim | Sim |
+| Chat | Não disponível| N/D | Não disponível |
 | Anotações da Reunião | Não | Não | Não |
 | Quadro de comunicações | Não| Não | Não |
 | Gravando | N/A | Não | Não |
@@ -109,9 +108,9 @@ O participante anônimo é como um usuário externo, mas a identidade dele não 
 | Evento ao vivo|  | |||
 |---------|----------------|----------------|---------------------|------------|--------------|
 | **Recurso**        | Antes da reunião | Na reunião | Após a reunião |
-| Chat | Não | Sim | Não |
+| Chat | Não disponível | N/D | Não disponível |
 | Anotações da Reunião | N/A | Não | N/A |
-| Quadro de comunicações | N/A | Não | N/A |
+| Quadro de comunicações | Não disponível | N/D | Não disponível |
 | Gravando | N/A | Não | N/A |
 | Arquivos | N/A | Não | N/A |
 |||||||
@@ -122,3 +121,5 @@ O participante anônimo é como um usuário externo, mas a identidade dele não 
 [Segurança e o Microsoft Teams](teams-security-guide.md)
 
 [Acesso de convidados ao Teams](guest-access.md)
+
+[Planejar eventos ao vivo no Teams](teams-live-events/plan-for-teams-live-events.md)
