@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 17843b886fc334d7b02907882a82dffdf302e9f5
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 698d63f0d53119569f6b212fa7db7a16c827f571
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137981"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610053"
 ---
 # <a name="evaluate-my-environment"></a>Avaliar meu ambiente
 
@@ -66,8 +66,8 @@ A implantação coloca uma nova tecnologia nos dedos de um usuário, mas os resu
 Use as seguintes considerações para avaliar a prontidão da sua organização para lidar com o gerenciamento de alterações do usuário.
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Pontos de decisão</td><td><ul><li>Você teve sucesso anterior com a adoção do software ou dos serviços pelo usuário?</li><li>Você pode acompanhar a tomada de uso?</li><li>Você tem recursos para projetar e gerenciar uma campanha de adoção&mdash;inicial e&mdash;contínua (conscientização, treinamento e suporte)?</li><li>Você tem uma equipe de gerenciamento de alterações/adoção de usuários dedicada ou pode investir nesses recursos para garantir resultados de negócios?</li></ol></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Próximas etapas</td><td><ul><li>Se você respondeu &quot;sim&quot; a todas as opções acima, identifique os participantes corretos do gerenciamento de alterações do usuário e comece a planejar a preparação do usuário.</li><li>Se você respondeu &quot;não&quot; a alguns ou todos os itens acima, considere envolver recursos externos para auxiliar na condução do gerenciamento de alterações e das atividades relacionadas à adoção da sua organização.</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Pontos de decisão</td><td><ul><li>Você teve sucesso anterior com a adoção do software ou dos serviços pelo usuário?</li><li>Você pode acompanhar a tomada de uso?</li><li>Você tem recursos para projetar e gerenciar uma &mdash; campanha de adoção inicial e contínua &mdash; (conscientização, treinamento e suporte)?</li><li>Você tem uma equipe de gerenciamento de alterações/adoção de usuários dedicada ou pode investir nesses recursos para garantir resultados de negócios?</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Próximas etapas</td><td><ul><li>Se você respondeu &quot; Sim &quot; a todas as opções acima, identifique os participantes corretos do gerenciamento de alterações do usuário e comece a planejar a preparação do usuário.</li><li>Se você respondeu &quot; não &quot; a alguns ou todos os itens acima, considere envolver recursos externos para auxiliar na condução do gerenciamento de alterações e das atividades relacionadas à adoção da sua organização.</li></ol></td></tr>
 </table>
 
 
@@ -124,7 +124,7 @@ A otimização do caminho de rede para a rede global da Microsoft melhorará o d
 As VPNs fornecem um serviço valioso para muitas organizações. Infelizmente, normalmente não são projetados ou configurados para dar suporte a mídia em tempo real. Algumas VPNs também podem não dar suporte ao UDP. As VPNs também introduzem uma camada adicional de criptografia na parte superior do tráfego de mídia que já está criptografado. Além disso, a conectividade com o serviço do Teams pode não ser eficiente devido ao tráfego excessivo por meio de um dispositivo VPN.
 Além disso, eles não são necessariamente projetados a partir de uma perspectiva de capacidade para acomodar as cargas previstas que as equipes precisarão.
 
-A recomendação é fornecer um caminho alternativo que contorne a VPN para o tráfego do Microsoft Teams. Geralmente, isso é conhecido como *VPN de túnel dividido*. Tunelamento dividido significa que o tráfego do Office 365 não atravessa a VPN, mas vai diretamente para o Office 365. Essa alteração terá um impacto positivo na qualidade, mas também fornecerá o benefício secundário de reduzir a carga dos dispositivos VPN e da rede da organização.
+A recomendação é fornecer um caminho alternativo que contorne a VPN para o tráfego do Microsoft Teams. Geralmente, isso é conhecido como *VPN de túnel dividido*. O tunelamento dividido significa que o tráfego para o Microsoft 365 ou o Office 365 não percorrerá a VPN, mas vai diretamente para o Microsoft 365 ou o Office 365. Essa alteração terá um impacto positivo na qualidade, mas também fornecerá o benefício secundário de reduzir a carga dos dispositivos VPN e da rede da organização.
 
 Para implementar um túnel dividido, consulte o fornecedor da VPN para obter os detalhes de configuração.
 
@@ -153,10 +153,10 @@ Plugins e conectores também se conectam por essas portas TCP. As quatro portas 
 
 Abrir essas portas é fundamental para uma implantação confiável do Teams. Não há suporte para o bloqueio dessas portas e ele terá efeito na qualidade da mídia.
 
-Se a sua organização exigir que você especifique o intervalo de endereços IP e os domínios para os quais essas portas devem ser abertas, você poderá restringir os intervalos de IP e os domínios de destino para essas portas. Para obter uma lista de portas, protocolos e intervalos de IP exatos, consulte [URLs e intervalos de endereço IP do Office 365](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams).
+Se a sua organização exigir que você especifique o intervalo de endereços IP e os domínios para os quais essas portas devem ser abertas, você poderá restringir os intervalos de IP e os domínios de destino para essas portas. Para obter uma lista de portas, protocolos e intervalos de IP exatos, confira [Microsoft 365 ou URLs e intervalos de endereços IP do Microsoft ou do Office 365](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams).
 Se você optar por restringir os intervalos de endereço IP e os domínios de destino, você precisará manter atualizada a lista de portas e intervalos, pois eles podem ser alterados. Você pode se inscrever [neste feed RSS](https://go.microsoft.com/fwlink/p/?linkid=236301) para ser atualizado quando ocorrerem mudanças. Também é uma prática recomendada testar se todas as portas são abertas executando a ferramenta de [avaliação de rede do Skype for Business](https://www.microsoft.com/download/details.aspx?id=53885) regularmente. Você pode saber mais sobre a funcionalidade dessa ferramenta na próxima seção.
 
-No caso de um servidor proxy ser implantado, recomendamos que você desvie o servidor proxy para todos os serviços do Teams. Embora o uso de um proxy possa funcionar, é muito provável que a qualidade seja reduzida devido à mídia que está sendo forçada a usar TCP em vez de UDP. Para obter mais informações sobre servidores proxy e desvios, consulte [URLs e intervalos de endereço IP do Office 365](https://docs.microsoft.com/MicrosoftTeams/office-365-urls-ip-address-ranges).
+No caso de um servidor proxy ser implantado, recomendamos que você desvie o servidor proxy para todos os serviços do Teams. Embora o uso de um proxy possa funcionar, é muito provável que a qualidade seja reduzida devido à mídia que está sendo forçada a usar TCP em vez de UDP. Para obter mais informações sobre servidores proxy e ignorar, consulte [URLs e intervalos de endereços IP do Microsoft 365 ou do Office 365](https://docs.microsoft.com/MicrosoftTeams/office-365-urls-ip-address-ranges).
 
 <!--ENDOFSECTION-->
 
@@ -166,11 +166,11 @@ Depois de concluir o planejamento e a preparação da rede, incluindo a atualiza
 
 É possível baixar a [Ferramenta de avaliação de rede do Skype for Business](https://www.microsoft.com/download/details.aspx?id=53885) para testar se sua rede está ou não pronta para o Teams. A ferramenta oferece dupla funcionalidade: ela pode testar se todas as portas corretas foram abertas e pode testar falhas de rede.
 
-Depois de baixar e instalar a ferramenta, você pode encontrá-la em C\\: arquivos\\de programas da ferramenta de avaliação de rede do Microsoft Skype for Business. Um guia detalhado sobre como usar a ferramenta (Usage.docx) está incluído no diretório.
+Depois de baixar e instalar a ferramenta, você pode encontrá-la em C: \\ arquivos de programas da ferramenta de \\ avaliação de rede do Microsoft Skype for Business. Um guia detalhado sobre como usar a ferramenta (Usage.docx) está incluído no diretório.
 
 ### <a name="test-for-opened-ports"></a>Testar portas abertas
 
-Abra uma janela do prompt de comando e navegue até o diretório da ferramenta de avaliação de rede digitando **CD C:\\\\arquivos de programa da ferramenta de avaliação de rede do Microsoft Skype for Business**. No prompt de comando, inicie o teste de portas abertas inserindo **networkassessmenttool.exe /connectivitycheck**
+Abra uma janela do prompt de comando e navegue até o diretório da ferramenta de avaliação de rede digitando **CD C: \\ arquivos de programa \\ da ferramenta de avaliação de rede do Microsoft Skype for Business**. No prompt de comando, inicie o teste de portas abertas inserindo **networkassessmenttool.exe /connectivitycheck**
 
 Depois de executar as verificações, a ferramenta exibirá a mensagem "verificações concluídas com sucesso" ou relatório sobre as portas bloqueadas.
 Isso também gera um arquivo chamado Connectivity_results.txt, que contém o resultado da ferramenta e fica armazenado em %userprofile%\\appdata\\local\\ferramenta de avaliação de rede do microsoft skype for business\\ diretório.
@@ -206,7 +206,7 @@ Observe que ambos os segmentos devem atender aos requisitos de uma implantação
 
 Se os resultados do planejamento de largura de banda, testes de porta ou testes de requisitos de rede mostrarem que a rede atual precisa de correção antes de implantar o Teams, isso poderá ser feito de várias maneiras:
 
--   Para largura de banda insuficiente, atualize as conexões para que o tráfego para o Office 365 possa fluir sem impedimentos.
+-   Para largura de banda insuficiente, atualize as conexões para que o tráfego para o Microsoft 365 ou o Office 365 possa fluir de forma desprejudicada.
 
 -   Para portas bloqueadas, altere as regras de firewall e teste-as novamente.
 

@@ -18,12 +18,12 @@ description: Aprenda as etapas necessárias para adicionar pessoas de fora da su
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8202f7cae250d497eb690a7cb337c12dd1b79cb1
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 7a30aa56260da8c5e07c8c08c1a8c3745ffb6ee5
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902546"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637220"
 ---
 <a name="how-a-guest-joins-a-team"></a>Como um convidado ingressa em uma equipe
 ========================
@@ -35,11 +35,11 @@ Um proprietário de equipe do Microsoft Teams pode adicionar e gerenciar convida
   
 ## <a name="how-a-guest-becomes-a-member-of-a-team"></a>Como um convidado se torna membro de uma equipe
 
-1. Um proprietário de equipe ou um administrador do Office 365 [adiciona um convidado a uma equipe.](https://support.office.com/article/add-guests-to-a-team-fccb4fa6-f864-4508-bdde-256e7384a14f).
-1. O administrador do Office 365 ou o proprietário da equipe gerencia os recursos de um convidado, conforme necessário: por exemplo, permitindo que ele adicione ou exclua canais ou desabilite o acesso a arquivos.
+1. Um proprietário de equipe ou um administrador do Microsoft 365 ou do Office 365 [adiciona um convidado a uma equipe](https://support.office.com/article/add-guests-to-a-team-fccb4fa6-f864-4508-bdde-256e7384a14f).
+1. O administrador do Microsoft 365 ou do Office 365 ou o proprietário da equipe gerencia os recursos de convidado conforme necessário: por exemplo, permitir que um convidado adicione ou exclua canais ou desabilite o acesso a arquivos.
 1. O convidado recebe um e-mail de boas-vindas do proprietário da equipe com informações sobre a equipe e o que esperar agora que é membro. 
 1. O convidado aceita o convite.
-  Os usuários convidados que têm um endereço de email que pertence a uma conta do Azure Active Directory ou do Office 365 corporativa ou de estudante podem aceitar o convite diretamente. 
+  Os usuários convidados que têm um endereço de email que pertence a um Azure Active Directory, o Microsoft 365 ou uma conta corporativa ou de estudante do Office 365 podem aceitar o convite diretamente. 
   Se o convidado ainda não tiver uma conta da Microsoft associada ao seu endereço de email, ela será direcionada para criar uma de graça. 
 1. Depois de aceitar o convite, o convidado pode [participar de equipes e de canais](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499), receber e responder mensagens de canais, [acessar arquivos em canais](https://support.office.com/article/access-files-in-channels-c593c78a-27c4-4661-a598-682baa30ca7e), participar de bate-papos participar de reuniões, colaborar em documentos e muito mais. 
 

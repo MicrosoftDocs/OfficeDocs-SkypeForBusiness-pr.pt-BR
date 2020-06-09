@@ -22,12 +22,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Saiba quais idiomas você pode definir no Skype for Business para as mensagens padrão do sistema e saudações de correio de voz.
-ms.openlocfilehash: e5158c7b313ad13abbd370550c38f54c8df04d29
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 0931ee7923b26fe5c81c442a895dbb1bfde8c601
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904516"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638760"
 ---
 # <a name="languages-for-voicemail-greetings-and-messages"></a>Idiomas das mensagens e saudações da caixa postal
 
@@ -80,7 +80,7 @@ Para alter o idioma usado pelo Skype for Business nas saudações da caixa posta
 ## <a name="related-topics"></a>Tópicos relacionados
 [Disponibilidade da Audioconferência e dos Planos de Chamadas por país e região](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-[Veja aqui o que é fornecido com o Sistema de Telefonia no Office 365](here-s-what-you-get-with-phone-system.md)
+[Veja o que você obtém com o Sistema de Telefonia](here-s-what-you-get-with-phone-system.md)
   
   
  

@@ -29,16 +29,16 @@ ms.custom:
 - O365P_SFBVoiceCreditAether
 - Licensing
 description: 'Saiba como pagar por créditos de comunicação (consumo PSTN) dos serviços do Skype for Business e consulte planos para manter os usuários com acesso contínuo ao sistema telefônico. '
-ms.openlocfilehash: 9ba413c80c403e69eb977bb1911ad37e67ad87cd
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: ba3ca7b50b39915997096d28af3dc52e33455088
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827209"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610271"
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>Adicionar fundos e gerenciar Créditos de Comunicação
 
-Os créditos de comunicações são uma maneira conveniente de pagar pelo sistema telefônico e planos de chamada no Office 365. Os créditos de comunicação ajudam a garantir que você e seus usuários nunca sejam detectados sem ser possível:
+Os créditos de comunicações são uma maneira conveniente de pagar pelo sistema telefônico e planos de chamada no Microsoft 365 ou no Office 365. Os créditos de comunicação ajudam a garantir que você e seus usuários nunca sejam detectados sem ser possível:
   
 - Disque para reuniões de conferência de áudio usando números de telefone de discagem de chamada gratuita.
     
@@ -76,7 +76,7 @@ Você pode ver os planos e preços visitando um dos seguintes links:
     
 - [Planos de sistema telefônico](https://go.microsoft.com/fwlink/?LinkId=799763)
     
-Você também pode ver as informações conectando- [se ao centro de administração do Microsoft 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) e indo**fazer assinaturas de** >  **cobrança** > **adicionar assinaturas**.
+Você também pode ver as informações conectando- [se ao centro de administração do Microsoft 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) e indo fazer assinaturas de **cobrança**  >  **Subscriptions**  >  **adicionar assinaturas**.
   
 Para ver uma tabela com as licenças ou licenças necessárias para cada recurso, consulte [Licenciamento de Complementos do Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
@@ -86,7 +86,7 @@ Para ver uma tabela com as licenças ou licenças necessárias para cada recurso
     
 - [Configurar a Caixa Postal na Nuvem - Ajuda da administração](set-up-phone-system-voicemail.md)
     
-- [Configurar Planos de Chamadas](set-up-calling-plans.md) e [Planos de Chamadas para o Office 365](calling-plans-for-office-365.md)
+- [Configurar planos de chamadas](set-up-calling-plans.md) e [planos de chamada para o Microsoft 365 ou o Office 365](calling-plans-for-office-365.md)
         
  
  

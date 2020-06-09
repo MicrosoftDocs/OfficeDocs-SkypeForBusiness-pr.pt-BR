@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: Compartilhamento de chamadas e retirada de chamadas em grupo permitem que os usuários compartilhem chamadas com colegas para que as chamadas possam ser capturadas quando o usuário não estiver disponível.
-ms.openlocfilehash: 8ed53ca5103d3ee4264e0dc1aef3267172d37527
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 0e21f8ec8b9d913568b87a41b70261ac917260e2
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042948"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638850"
 ---
 # <a name="call-sharing-and-group-call-pickup-in-microsoft-teams"></a>Compartilhamento de chamadas e atendimento de chamada em grupo no Microsoft Teams
 
@@ -47,7 +47,7 @@ Os usuários devem ter o Enterprise Voice habilitado para configurar e usar o co
 
 ## <a name="configure-group-call-pickup"></a>Configurar a retirada de chamadas em grupo
 
-Para configurar o recebimento de chamadas em grupo, um usuário primeiro configura um grupo de chamadas (isso não é o mesmo que um grupo de segurança ou um grupo do Office 365) e, em seguida, adiciona os usuários com quem deseja compartilhar suas chamadas. Em seguida, eles escolhem uma configuração de toque simultâneo ou encaminhamento de chamadas. Para obter mais informações e procedimentos passo a passo, consulte [encaminhamento de chamadas e toque simultâneo no Teams](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e).
+Para configurar o recebimento de chamadas em grupo, um usuário primeiro configura um grupo de chamadas (isso não é o mesmo que um grupo de segurança ou um grupo do Microsoft 365) e, em seguida, adiciona os usuários com quem deseja compartilhar suas chamadas. Em seguida, eles escolhem uma configuração de toque simultâneo ou encaminhamento de chamadas. Para obter mais informações e procedimentos passo a passo, consulte [encaminhamento de chamadas e toque simultâneo no Teams](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e).
 
 A criação de grupos de chamadas e preferências de notificação são recursos controlados pelo usuário; os administradores não precisam configurar esses recursos para seus usuários. Os grupos de chamadas não podem ser criados a partir de grupos de segurança ou de grupos do Microsoft 365; Elas devem ser criadas no Teams.
 

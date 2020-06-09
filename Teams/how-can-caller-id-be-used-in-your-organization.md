@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - ms.teamsadmincenter.voice.callerid.overview
 description: A identificação de chamadas pode ser controlada para chamadas de entrada e de saída para usuários do sistema telefônico usando uma política chamada CallingLineIdentity.
-ms.openlocfilehash: 2547e6ca3aed10d112897aa1b24900a479c5c8ef
-ms.sourcegitcommit: a7c823f61d9ab88424bad924113d780ce11e509f
+ms.openlocfilehash: 67bb9d13d9cdece2793837044e280927e03c5795
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44224204"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638891"
 ---
 # <a name="how-can-caller-id-be-used-in-your-organization"></a>Como a identificação de chamadas pode ser usada em sua organização
 
@@ -50,7 +50,7 @@ Há três opções disponíveis para a identificação de chamadas PSTN de saíd
   
 - O número de telefone atribuído ao usuário, que é o padrão.
     
-- A telephone number that is classified as a *service* and *toll-free* number in your Calling Plans in Office 365 telephone number inventory. It is usually assigned to an organizational auto attendant or call queue.
+- Um número de telefone classificado como um *serviço* e um número de *chamada gratuita* em seu plano de número de telefone de planos de chamadas. Ele geralmente é atribuído a um atendedor automático da organização ou à fila de chamadas.
     
 - Definido como anônimo.
     

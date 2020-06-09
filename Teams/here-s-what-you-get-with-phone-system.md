@@ -1,5 +1,5 @@
 ---
-title: Veja aqui o que você obtém com o Sistema de Telefonia no Office 365
+title: Veja o que você obtém com o Sistema de Telefonia
 ms.reviewer: ''
 author: CarolynRowe
 ms.author: crowe
@@ -22,27 +22,27 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Saiba mais sobre os recursos, a disponibilidade e a forma de planejar e configurar o sistema telefônico da Microsoft para sua empresa. '
-ms.openlocfilehash: 27ec4803a33f524d1c260c27c1af3c71210b33d2
-ms.sourcegitcommit: 152eb7daacd0a36f42aa441633c12c7037a0969a
+ms.openlocfilehash: fa7acbd4593b44805b2f9044602f3521baacaaaf
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "42288699"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638340"
 ---
-# <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Veja aqui o que você obtém com o Sistema de Telefonia no Office 365
+# <a name="heres-what-you-get-with-phone-system"></a>Veja o que você obtém com o Sistema de Telefonia
 
-Este artigo descreve o sistema telefônico nos recursos do Office 365. Para obter mais informações sobre como usar o sistema telefônico como a substituição de PBX (Private Branch Exchange) e opções para conexão à rede telefônica pública comutada (PSTN), consulte [o que é o sistema telefônico no Office 365](what-is-phone-system-in-office-365.md).
+Este artigo descreve os recursos do sistema telefônico. Para obter mais informações sobre como usar o sistema telefônico como a substituição de PBX (Private Branch Exchange) e opções para conexão à rede telefônica pública comutada (PSTN), consulte [o que é sistema telefônico](what-is-phone-system-in-office-365.md).
 
 Os clientes estão disponíveis para PC, Mac e celular, que fornece recursos para dispositivos de tablets e celulares para PCs e telefones IP de área de trabalho. Para obter mais informações, consulte [obter clientes para Microsoft Teams](get-clients.md).
 
   
-## <a name="phone-system-in-office-365-features"></a>Sistema telefônico nos recursos do Office 365
+## <a name="phone-system-features"></a>Recursos do sistema de telefonia
 
 O sistema de telefonia fornece os recursos a seguir. A menos que indicado de outra forma, os recursos estão disponíveis no Teams e no Skype for Business online.
   
 |||
 |:-----|:-----|
-|**Sistema telefônico no recurso Office 365** <br/> |**Descrição** <br/> |
+|**Recurso do sistema de telefonia** <br/> |**Descrição** <br/> |
 |[Atendedores automáticos da nuvem](what-are-phone-system-auto-attendants.md) <br/> |Permite criar um sistema de menus que permite que chamadores externos e externos localizem e façam ou transfiram chamadas para usuários ou departamentos da empresa em sua organização.  <br/> |
 |[Filas de chamadas na nuvem](create-a-phone-system-call-queue.md) <br/> |Permite configurar como as filas de chamadas são gerenciadas para sua organização: por exemplo, configurar saudações e músicas em espera, procure o próximo agente de chamada disponível para lidar com a chamada e assim por diante.  <br/> |
 |Música de espera | Reproduz a música padrão definida pelo serviço quando uma chamada externa da PSTN (rede telefônica pública comutada) é colocada em espera. Esse recurso funciona para chamadas PSTN-to-Team de um para um, além de chamadas feitas para uma fila de chamadas. Esse recurso fornece a paridade de notificação em espera com outras plataformas. Esse recurso é configurável pelo administrador, mas [atualmente apenas pelo PowerShell](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps). Também não há suporte para a música em uma transferência consultiva de uma chamada PSTN.|
@@ -82,14 +82,14 @@ Os recursos a seguir ainda não estão disponíveis em nuvens de GCC alta e DoD.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-- [O que é o sistema telefônico no Office 365](what-is-phone-system-in-office-365.md)
+- [O que é o Sistema de Telefonia](what-is-phone-system-in-office-365.md)
 - [Voz na nuvem no Microsoft Teams](cloud-voice-landing-page.md)
 - [Configurar o Sistema de Telefonia](setting-up-your-phone-system.md)
 - [Qual plano de chamadas é ideal para você?](calling-plan-landing-page.md)
 - [Roteamento Direto do Sistema Telefônico](direct-routing-landing-page.md)
 - [Monitorar e gerenciar a qualidade da chamada](monitor-call-quality-qos.md)
 - [Licenciamento do complemento do Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
-- [Preço do sistema telefônico](https://products.office.com/microsoft-teams/voice-calling#requirements)
+- [Preços do sistema telefônico](https://products.office.com/microsoft-teams/voice-calling#requirements)
 - [Teams para infraestrutura de área de trabalho virtualizada com chamadas e reuniões](teams-for-vdi.md#teams-on-vdi-with-calling-and-meetings)
 
   

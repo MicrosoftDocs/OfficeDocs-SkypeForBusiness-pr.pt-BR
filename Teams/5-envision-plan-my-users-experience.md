@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 77a325fbe8cacb3b2760f5b3034dee0e16695278
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: ad827244baaacde8ee5c7166590c81347c8eea5b
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42021592"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610016"
 ---
 # <a name="plan-my-users-experience"></a>Planejar a experiência de meus usuários
 
@@ -58,7 +58,7 @@ Para obter informações sobre os requisitos de software para os clientes do tea
 ## <a name="endpoint-firewalls"></a>Firewalls de ponto de extremidade
 
 Os firewalls do lado do cliente podem ter um impacto significativo sobre a experiência do usuário.
-Os firewalls do lado do cliente podem afetar a qualidade das chamadas, além de impedir o estabelecimento da chamada. Configure as exclusões apropriadas no firewall do cliente de acordo com as informações contidas em [URLs e intervalos de endereços IP do Office 365](https://aka.ms/o365ips). O fornecedor terceirizado deve ter orientações específicas sobre como criar exclusões.
+Os firewalls do lado do cliente podem afetar a qualidade das chamadas, além de impedir o estabelecimento da chamada. Configure as exclusões apropriadas no firewall cliente com base nas informações do [Microsoft 365 ou das URLs e intervalos de endereços IP do Office 365](https://aka.ms/o365ips). O fornecedor terceirizado deve ter orientações específicas sobre como criar exclusões.
 
 >[!NOTE]
 > O Microsoft Teams atualizará automaticamente o Firewall do Windows com uma configuração de firewall apropriada.

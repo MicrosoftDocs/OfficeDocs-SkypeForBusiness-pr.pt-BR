@@ -21,19 +21,19 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: Um administrador do Office 365 pode editar as configurações de conferência de áudio do Teams, incluindo provedor, chamada tarifada padrão ou número de chamada gratuita, ID de conferência ou PIN para um usuário.
-ms.openlocfilehash: f635a3a9c471d2d089b8592c4dd36f55bf9095e2
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+description: Um administrador do Microsoft 365 ou do Office 365 pode editar as configurações de conferência de áudio do Teams, incluindo provedor, chamada tarifada padrão ou número de chamada gratuita, ID de conferência ou PIN para um usuário.
+ms.openlocfilehash: 33d241e9758bab2b52e342cab2ec157dafb73275
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137141"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638470"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user-in-microsoft-teams"></a>Gerenciar as configurações de audioconferência de um usuário no Microsoft Teams
 
-Como um administrador do Office 365, você pode editar as configurações de audioconferência — como o provedor, número padrão de chamada tarifada ou de chamada gratuita, ID de conferência ou PIN — para um usuário individual em sua organização. Se você quiser editar as configurações de sua organização, consulte [gerenciar as configurações de audioconferência para sua organização](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md).
+Como um administrador do Microsoft 365 ou do Office 365, você pode editar as configurações de audioconferência (por exemplo, o provedor, o número de chamada tarifada ou chamada gratuita padrão, a ID de conferência ou o PIN) para um usuário individual em sua organização. Se você quiser editar as configurações de sua organização, consulte [gerenciar as configurações de audioconferência para sua organização](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md).
 
-## <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Um ícone mostrando o logotipo do Microsoft Teams](media/teams-logo-30x30.png) Usar o centro de administração do Microsoft Teams
+## <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Um ícone mostrando o logotipo do Microsoft Teams](media/teams-logo-30x30.png) Usando o centro de administração do Microsoft Teams
 
 1. Na navegação à esquerda, clique em **usuários**e selecione o usuário na lista de usuários disponíveis.
 

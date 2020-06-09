@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1268a87e5e5ae48547e1f2489641ac13cd3bae64
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+ms.openlocfilehash: a74d07cc40adf8010c2d987e05669264f8cc1367
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41862711"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610026"
 ---
 # <a name="plan-my-service-management"></a>Planejar meu gerenciamento de serviços
 
@@ -31,14 +31,14 @@ Este artigo oferece uma visão geral dos requisitos necessários para oferecer e
 
 ## <a name="service-management-for-teams"></a>Gerenciamento de serviços para o Teams
 
-O gerenciamento do serviço é um tema amplo, que abrange as operações do serviço Microsoft Teams no dia a dia depois que ele é implantado e habilitado para os usuários. O serviço Microsoft Teams abrange o Microsoft Office 365 e os componentes de infraestrutura implantados localmente (por exemplo, a rede).
+O gerenciamento do serviço é um tema amplo, que abrange as operações do serviço Microsoft Teams no dia a dia depois que ele é implantado e habilitado para os usuários. O serviço Teams abrange o Microsoft 365 ou o Office 365 e os componentes de infraestrutura implantados no local (por exemplo, rede).
 
 É provável que a noção de gerenciamento do serviço não seja um conceito novo para a maioria das organizações. Você provavelmente já implementou processos e tarefas que estão associados a serviços existentes. Considerando isso, é possível que você possa expandir o que já está funcionando ao planejar o gerenciamento do serviço atual para dar suporte ao Microsoft Teams no futuro.
 
-O gerenciamento do serviço compreende todas as atividades e processos envolvidos no gerenciamento do Microsoft Teams de ponta a ponta. Alguns componentes do gerenciamento de serviços (os componentes de infraestrutura que o próprio serviço do Office 365 abrange) são de responsabilidade da Microsoft, ao passo que o cliente é responsável por gerenciar os diversos aspectos do Teams, a rede e os pontos de extremidade que fornecem.
+O gerenciamento do serviço compreende todas as atividades e processos envolvidos no gerenciamento do Microsoft Teams de ponta a ponta. Alguns componentes de gerenciamento de serviços — os componentes de infraestrutura que o serviço do Microsoft 365 ou do Office 365 em si são, são responsabilidade da Microsoft, enquanto o cliente é responsável pelos seus usuários a gerenciar os diversos aspectos do Teams, da rede e dos pontos de extremidade que fornecem.
 Para ver uma discussão completa sobre a responsabilidade do cliente pelo gerenciamento de serviços do Teams e como ele se relaciona com os principais componentes que sustentam a qualidade da experiência do usuário, consulte [Planejar gerenciamento de serviços e qualidade](https://docs.microsoft.com/MicrosoftTeams/prepare-network).
 
-![Diagrama dos três componentes de qualidade](media/plan-my-service-management-image1.png "Diagrama dos três componentes de qualidade--serviço do Office 365, rede e pontos de extremidade--e como o gerenciamento de serviços se sobrepõe a todos os três.")
+![Diagrama dos três componentes de qualidade](media/plan-my-service-management-image1.png "Diagrama dos três componentes de qualidade--Microsoft 365 ou serviço do Office 365, rede e pontos de extremidade--e como o gerenciamento de serviços se sobrepõe a todos os três.")
 
 <!--ENDOFSECTION-->
 

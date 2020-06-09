@@ -21,16 +21,16 @@ f1.keywords:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5224fabff542051438bc523388b96ecf93f7af9a
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 76086d7e34d56a9bab59c7ca10ed40472aecd7a1
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905913"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610240"
 ---
 # <a name="adopt-microsoft-teams"></a>Adotar o Microsoft Teams
 
-Se você for uma pequena empresa ou se quiser implantar equipes que comecem com chats, equipes & canais e reuniões, use nossas [diretrizes](get-started-with-teams-quick-start.md)de introdução de introdução, que foram projetadas para que você comece a trabalhar rapidamente. Se você for uma grande organização com uma configuração do Skype for Business local ou híbrida, ou se quiser implementar recursos de voz (como planos de chamadas do Office 365 ou sistema telefônico), comece com nossas diretrizes de introdução, mas você precisará de diretrizes adicionais abaixo, em orientação de adoção mais **profunda**.
+Se você for uma pequena empresa ou se quiser implantar equipes que comecem com chats, equipes & canais e reuniões, use nossas [diretrizes](get-started-with-teams-quick-start.md)de introdução de introdução, que foram projetadas para que você comece a trabalhar rapidamente. Se você for uma grande organização com uma configuração do Skype for Business local ou híbrida, ou se quiser implementar recursos de voz (como o Microsoft 365 ou o Office 365 ou o sistema de telefonia), comece com nossas diretrizes de introdução, mas precisará de diretrizes adicionais abaixo, em **orientação de adoção mais profunda**.
 
 <ul class="panelContent cardsFTitle">
     <li>

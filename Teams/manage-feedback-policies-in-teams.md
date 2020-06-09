@@ -17,12 +17,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba como usar políticas de comentários para controlar se os usuários de equipes em sua organização podem enviar comentários sobre o Teams para a Microsoft.
-ms.openlocfilehash: b016a1d566f15cdabea55913b7fe107d86dee358
-ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
+ms.openlocfilehash: 22e254cb2db6dc63e01c9c8ef5628fb97cfa0e16
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44326678"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637950"
 ---
 # <a name="manage-feedback-policies-in-microsoft-teams"></a>Gerenciar políticas de comentários no Microsoft Teams
 
@@ -32,7 +32,7 @@ Os usuários em sua organização podem enviar comentários sobre as equipes par
 
 **O recurso fornecer comentários**
 
-Os usuários podem enviar comentários e sugestões sobre equipes para nós indo para **ajudar**a enviar comentários sobre o Microsoft  >  **Give feedback** Teams. Os dados enviados por meio de **comentários** são considerados como "dados de suporte" em seu contrato do Office 365, incluindo informações que, de outra forma, seriam consideradas "dados do cliente" ou "dados pessoais".
+Os usuários podem enviar comentários e sugestões sobre equipes para nós indo para **ajudar**a enviar comentários sobre o Microsoft  >  **Give feedback** Teams. Os dados enviados por meio de **comentários** são considerados como "dados de suporte" em seu contrato do Microsoft 365 ou do Office 365, incluindo informações que, de outra forma, seriam consideradas "dados do cliente" ou "dados pessoais".
 
 ![Captura de tela da opção fornecer comentários no Teams](media/manage-feedback-policies-in-teams-give-feedback.png)
 

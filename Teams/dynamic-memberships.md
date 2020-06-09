@@ -8,7 +8,7 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 search.appverid: MET150
-description: Saiba como o Microsoft Teams dá suporte a equipes associadas a grupos do Office 365 usando associação dinâmica.
+description: Saiba como o Microsoft Teams dá suporte a equipes associadas a grupos do Microsoft 365 usando associação dinâmica.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d325ee076d29ddfe50fd6193ec5755bf2bb51b82
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: dc7e3124ec3ec97e3f3643412ccb4f990ab825cc
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905793"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638400"
 ---
 # <a name="overview-of-dynamic-membership-for-teams"></a>Visão geral da associação dinâmica de equipes
 
@@ -35,7 +35,7 @@ Com associação dinâmica, você pode configurar equipes para determinados coho
 
 Usando esse recurso, uma determinada atualização dos membros da equipe com base em um conjunto específico de critérios, em vez de gerenciar manualmente a associação. Isso exige que as licenças do Azure AD Premium e a associação da equipe possam ser [atribuídas por um administrador locatário](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-dynamic-membership) às propriedades do Azure AD de qualquer usuário, desde que você tenha um locatário e uma conta de administrador.
 
-O Microsoft Teams pode levar alguns minutos de até 2 horas para refletir as alterações de associação dinâmica quando entrarem em vigor no grupo do Office 365 para uma equipe.
+O Microsoft Teams pode levar alguns minutos de até 2 horas para refletir as alterações de associação dinâmica quando entrarem em vigor no grupo do Microsoft 365 para uma equipe.
 
 > [!NOTE]
 > - As regras podem definir quem é um membro da equipe, mas não quem é o proprietário da equipe.
@@ -44,7 +44,7 @@ O Microsoft Teams pode levar alguns minutos de até 2 horas para refletir as alt
 > -    Os membros não poderão deixar a equipe apoiada por grupos dinâmicos.
 
 
-## <a name="creating-and-managing-an-office-365-group-with-dynamic-membership"></a>Criando e gerenciando um grupo do Office 365 com associação dinâmica
+## <a name="creating-and-managing-a-microsoft-365-group-with-dynamic-membership"></a>Criando e gerenciando um grupo do Microsoft 365 com associação dinâmica
 Enquanto estiver conectado como administrador de locatários, siga as instruções em [criar um grupo dinâmico e verificar o status](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-create-rule). Conforme necessário, consulte [regras de associação dinâmica para grupos no Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-dynamic-membership).
 
 ## <a name="create-a-new-team-with-your-o365-group"></a>Criar uma nova equipe com seu grupo do O365

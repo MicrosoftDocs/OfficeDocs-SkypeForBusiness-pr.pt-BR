@@ -23,12 +23,12 @@ ms.custom:
 - Licensing
 - seo-marvel-mar2020
 description: Saiba mais sobre a opção pagar por minuto para habilitar os recursos de audioconferência para organizações que usam o licenciamento por volume da Microsoft.
-ms.openlocfilehash: 18324a5e2f0ec97311675fa4dcb7293a456486a0
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 4facf6f01c08104f920c779b59f38feabb2150fc
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44041718"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610506"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>Audioconferência Pagar por Minuto
 
@@ -56,7 +56,7 @@ Enquanto a oferta de licença por usuário por conferência de áudio inclui o u
   
 O pay-per-minute exige que a sua organização tenha [créditos de comunicações](what-are-communications-credits.md) habilitados com uma licença atribuída a cada usuário para que a videoconferência funcione. Se quiser mais detalhes, consulte [Configurar créditos de comunicações para a sua organização](set-up-communications-credits-for-your-organization.md) e/ou [Licenciamento do complemento do Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
-Para habilitar o pagamento por minuto da conferência de áudio para os usuários de sua organização, consulte [experimentar ou comprar videoconferências no Office 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md).
+Para habilitar o pagamento por minuto da conferência de áudio para os usuários de sua organização, consulte [experimentar ou comprar videoconferências no Microsoft Office 365 ou no Office 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md).
 
 ## <a name="why-is-it-best-for-you"></a>Por que é melhor para você?
 

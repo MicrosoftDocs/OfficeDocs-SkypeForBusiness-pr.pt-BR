@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d8c88ba4ddb8b2e9af83e227388232e243dcabe1
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 4e2ca0b4088a7855da8cf2bc5196ecc9f2082475
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140290"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637940"
 ---
 # <a name="meetings-first"></a>Meetings First
 
@@ -78,9 +78,9 @@ Não é necessária uma [topologia híbrida do Skype for Business](https://docs.
 
 As reuniões primeiro são compatíveis com qualquer versão do Skype for Business Server (e conhecidas para funcionar com o Lync Server sem suporte). Ele é compatível com qualquer cliente Skype for Business compatível, mas melhor recurso juntos exige um cliente recente.
 
-Depois que esses requisitos são atendidos (e não antes), os usuários podem ser [licenciados para o Office 365 e Teams](https://docs.microsoft.com/office365/enterprise/assign-licenses-to-user-accounts).
+Depois que esses requisitos são atendidos (e não antes), os usuários podem ser [licenciados para o Microsoft 365 ou o Office 365 e o Teams](https://docs.microsoft.com/office365/enterprise/assign-licenses-to-user-accounts).
 
-Para a melhor experiência da melhor reunião, os usuários devem ser habilitados para o [Exchange Online](exchange-teams-interact.md), o [SharePoint Online e o onedrive for Business](sharepoint-onedrive-interact.md), e a criação de grupos do Office 365. As reuniões primeiro são compatíveis com os usuários cuja caixa de correio está no Exchange local ou que não têm o SharePoint Online ou o OneDrive for Business, ou a criação de grupos do Office 365. No entanto, sua experiência será menos completa. Em particular, para organizações que usam o Exchange Server local, pode haver (dependendo da versão do Exchange Server) algumas limitações para criar e exibir reuniões do cliente do Teams, bem como com relação aos recursos de conformidade.
+Para a melhor experiência da melhor reunião, os usuários devem ser habilitados para o [Exchange Online](exchange-teams-interact.md), o [SharePoint Online e o onedrive for Business e a criação de](sharepoint-onedrive-interact.md)grupos do Microsoft 365. As reuniões primeiro são compatíveis com os usuários cuja caixa de correio está no Exchange local ou que não têm o SharePoint Online, o OneDrive for Business ou a criação de grupos do Microsoft 365. No entanto, sua experiência será menos completa. Em particular, para organizações que usam o Exchange Server local, pode haver (dependendo da versão do Exchange Server) algumas limitações para criar e exibir reuniões do cliente do Teams, bem como com relação aos recursos de conformidade.
 
 No mínimo, os usuários devem ser [licenciados para equipes](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide). Além disso, eles podem ser licenciados para [conferências de áudio](set-up-audio-conferencing-in-teams.md), se necessário.
 

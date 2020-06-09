@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 79b6e33c6434a1242b7d30322aff77b62f1b42fd
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 631d41d15eb727a9b9919e56720238189159f669
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780210"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638911"
 ---
 # <a name="microsoft-education-governance-faq-for-admins"></a>Perguntas frequentes sobre governança do Microsoft Education para administradores
 
@@ -35,7 +35,7 @@ Para evitar nomes inadequados ou enganosas, ou apenas para fornecer mais estrutu
 
 -   **Política de nomenclatura de sufixo de prefixo** Você pode usar prefixos ou sufixos para definir a Convenção de nomenclatura de Teams (grupos), por exemplo, **GRP_US_My Group_Engineering**. Os prefixos e sufixos podem ser cadeias de caracteres fixas ou atributos de usuário (como **[departamento]**) que são adicionados ao nome com base no usuário que está criando a equipe.
 -   **Palavras bloqueadas personalizadas** Você pode carregar um conjunto de palavras que os usuários de uma organização específica são bloqueados usando em nomes de equipes criados por eles. Por exemplo, você pode bloquear os termos **CEO**, **Payroll**e **HR** de uso em nomes de equipe para grupos aos quais não se aplicam.
--   **Classificação** Você pode criar classificações que os usuários em sua organização podem definir quando criarem um grupo do Office 365. 
+-   **Classificação** Você pode criar classificações que os usuários em sua organização podem definir quando criarem um grupo do Microsoft 365. 
 
 > [!IMPORTANT]
 > O uso da política de nomenclatura de grupos do Microsoft 365 exige licenças do Azure Active Directory Premium P1 ou licenças EDU do Azure AD Basic para cada usuário exclusivo que seja membro de um ou mais grupos do Microsoft 365.
@@ -66,14 +66,14 @@ No início de cada semestre ou trimestre, você precisará de uma série de nova
 -   Você pode usar a API do Microsoft Graph (atualmente em versão beta) para criar, configurar, clonar e arquivar equipes. Consulte [usar a API do Microsoft Graph para trabalhar com o Microsoft Teams](https://developer.microsoft.com/graph/docs/api-reference/beta/resources/teams_api_overview) para obter mais informações.
 
 > [!TIP]
-> O School Data Sync cria um grupo do Office 365 para cada classe sincronizada e [habilita a associação de grupo oculto](https://techcommunity.microsoft.com/t5/School-Data-Sync/HiddenGroupMembershipEnabled-SDS-setting/td-p/159945) para que somente professores e alunos dentro da classe possam ver os membros dessa classe. Se estiver usando um processo diferente para criar grupos de classe, use o parâmetro HiddenGroupMembershipEnabled do cmdlet New-unificado para atender aos mesmos requisitos de privacidade.
+> O School Data Sync cria um grupo do Microsoft 365 para cada classe sincronizada e [habilita a associação de grupo oculto](https://techcommunity.microsoft.com/t5/School-Data-Sync/HiddenGroupMembershipEnabled-SDS-setting/td-p/159945) para que somente professores e alunos dentro da classe possam ver os membros dessa classe. Se estiver usando um processo diferente para criar grupos de classe, use o parâmetro HiddenGroupMembershipEnabled do cmdlet New-unificado para atender aos mesmos requisitos de privacidade.
 
 ## <a name="how-do-i-deal-with-teams-when-the-semester-or-quarter-ends"></a>Como faço para lidar com o Microsoft Teams quando o semestre ou o trimestre termina?
 
 Recomendamos que você primeiro pense em como deseja lidar com os dados do teams quando o semestre ou trimestre da escola terminar: se deseja excluí-lo ou mantê-lo disponível para os alunos, mesmo depois de concluírem o curso. Convém manter o calendário escolar em mente para que as políticas que você definir não entrem em conflito com feriados. Você pode usar as seguintes ferramentas para implementar sua estratégia:
 
 -   **Política de retenção:** Use esta opção para excluir todos os dados anteriores a uma idade que você especificou para garantir que os dados antigos sejam removidos de chats (para todos ou alguns usuários) e canais. Você também pode configurar o Microsoft Teams para manter o conteúdo para que ele não possa ser excluído. Para obter mais informações, consulte [políticas de retenção para Microsoft Teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Retention-policies-for-Microsoft-Teams/ba-p/178011).
--   **Política de vencimento:** Configurar o Microsoft Teams para expirar após um determinado número de dias. Trinta dias antes do vencimento, todos os proprietários de uma equipe são notificados de que sua equipe precisa ser renovada; caso contrário, ele será excluído (embora um administrador possa recuperar equipes excluídas por um adicional de 30 dias). Essa configuração é muito útil para garantir que as equipes não usadas sejam subdivididas. Saiba mais na [política de expiração de grupo do Office 365](https://support.office.com/article/office-365-group-expiration-policy-8d253fe5-0e09-4b3c-8b5e-f48def064733).
+-   **Política de vencimento:** Configurar o Microsoft Teams para expirar após um determinado número de dias. Trinta dias antes do vencimento, todos os proprietários de uma equipe são notificados de que sua equipe precisa ser renovada; caso contrário, ele será excluído (embora um administrador possa recuperar equipes excluídas por um adicional de 30 dias). Essa configuração é muito útil para garantir que as equipes não usadas sejam subdivididas. Saiba mais na [política de expiração de grupo do Microsoft 365](https://support.office.com/article/office-365-group-expiration-policy-8d253fe5-0e09-4b3c-8b5e-f48def064733).
 
 -   **Equipe de arquivamento:** Esta configuração coloca as equipes em modo somente leitura. Elas ainda podem ser navegadas e pesquisadas, mas ninguém pode adicionar novas postagens. [Arquivar ou restaurar uma equipe](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7) descreve como os proprietários da equipe podem arquivar uma equipe; Os proprietários da equipe também podem usar a [API do Graph (beta)](https://developer.microsoft.com/graph/docs/api-reference/beta/resources/teams_api_overview) para arquivar ou restaurar uma equipe.
  

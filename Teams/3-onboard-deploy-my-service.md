@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 86e9fd1b26bebd120136c3c33abf0a44ffa03e0d
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+ms.openlocfilehash: 4e77127d6840473cfb6238d9150ac692230181e1
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41862811"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610043"
 ---
 # <a name="deploy-my-service"></a>Implantar meu serviço
 
@@ -33,7 +33,7 @@ Este artigo oferece uma visão geral dos requisitos para a implantação adequad
 
 Use este guia estratégico para ajudar sua organização a planejar e executar a distribuição com êxito dos recursos de voz do Microsoft Teams em uma base site a site.
 
-Incluindo todas as atividades necessárias, linhas do tempo recomendadas e links para a orientação correspondente para cada atividade, este guia estratégico aborda a orientação de ponta a ponta para ajudar a garantir uma implantação de voz bem-sucedida do teams para um determinado site, com foco em fatores importantes para o usuário.
+Incluindo todas as atividades necessárias, linhas do tempo recomendadas e links para a orientação correspondente para cada atividade, este guia estratégico aborda a orientação de ponta a ponta para ajudar a garantir uma implantação de voz bem-sucedida do teams para um determinado site, com enfoque em fatores importantes para o usuário.
 
 Ao completar as atividades neste guia estratégico, sua organização pode:
 
@@ -44,7 +44,7 @@ Ao completar as atividades neste guia estratégico, sua organização pode:
 -   Reduza as necessidades de suporte e aumente a satisfação do usuário.
 
 > [!NOTE]
-> Este artigo e o guia estratégico associado não têm a finalidade de descrever todas as etapas de configuração técnica necessárias para a habilitação de serviços ou o fornecimento de Tom de discagem para um site específico. Em vez disso, eles se concentram em atividades e tarefas recomendadas para os usuários integrados facilmente e têm a necessidade de começar a consumir cargas de trabalho de voz do teams por meio de uma transição rápida e tranqüila com uma alta taxa de adoção e minimizar os requisitos de suporte. Para obter orientação técnica sobre como configurar melhor seu ambiente para a voz do Teams, consulte as listas de verificação de integração para [configurar as cargas de trabalho de voz](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md), [Configurando o roteamento direto nas equipes](onboarding-checklist-configure-direct-routing-in-Microsoft-Teams.md), [recursos essenciais do teams](onboarding-checklist-configure-microsoft-teams-core-capabilities.md), [redes para equipes](prepare-network.md)e [habilitando o Office 365](onboarding-checklist-enable-office-365.md).
+> Este artigo e o guia estratégico associado não têm a finalidade de descrever todas as etapas de configuração técnica necessárias para a habilitação de serviços ou o fornecimento de Tom de discagem para um site específico. Em vez disso, eles se concentram em atividades e tarefas recomendadas para os usuários integrados facilmente e têm a necessidade de começar a consumir cargas de trabalho de voz do teams por meio de uma transição rápida e tranqüila com uma alta taxa de adoção e minimizar os requisitos de suporte. Para obter orientação técnica sobre como configurar melhor seu ambiente para a voz do Teams, consulte as listas de verificação de integração para [configurar as cargas de trabalho de voz](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md), [Configurando o roteamento direto nas equipes](onboarding-checklist-configure-direct-routing-in-Microsoft-Teams.md), [recursos essenciais do teams](onboarding-checklist-configure-microsoft-teams-core-capabilities.md), [redes para equipes](prepare-network.md)e [habilitando o Microsoft 365 ou o Office 365](onboarding-checklist-enable-office-365.md).
 
 <!--ENDOFSECTION-->
 
@@ -90,9 +90,9 @@ Independentemente do tamanho e da complexidade do local, a habilitação de cada
 
 5. Examine cada atividade, execute as ações necessárias e atualize o status enquanto percorre a linha do tempo. O status é representado graficamente, conforme descrito abaixo:
   
-   - ![Ilustração de uma marca](media/deploy-my-service-image3.png) de seleção verde **Sim ou não aplicável (verde):** a atividade foi concluída ou não é aplicável para este site, e nenhuma ação adicional é necessária.</li>
-   - ![Ilustração de um ponto](media/deploy-my-service-image4.png) de exclamação amarelo <strong>a atividade ainda não foi concluída (amarela):</strong> a atividade ainda não foi concluída e deve ser atualizada para Sim ou não em seu cronograma.</li>
-   - ![Ilustração de um X vermelho indicando não](media/deploy-my-service-image5.png) <strong>(vermelho):</strong> a atividade não pode ser concluída devido a um problema e deve ser transportada para a reunião de status do projeto.</li></ul>
+   - ![Ilustração de uma marca de seleção verde ](media/deploy-my-service-image3.png) **Sim ou não aplicável (verde):** a atividade foi concluída ou não é aplicável para este site, e nenhuma ação adicional é necessária.</li>
+   - ![Ilustração de um ponto de exclamação amarelo ](media/deploy-my-service-image4.png) <strong>a atividade ainda não foi concluída (amarela):</strong> a atividade ainda não foi concluída e deve ser atualizada para Sim ou não em seu cronograma.</li>
+   - ![Ilustração de um X vermelho indicando não ](media/deploy-my-service-image5.png) <strong>(vermelho):</strong> a atividade não pode ser concluída devido a um problema e deve ser transportada para a reunião de status do projeto.</li></ul>
 
 6. O status é acumulado dentro de cada seção, e o título da seção é formatado com um desses indicadores de status. O **status semanal** também é atualizado automaticamente.
 

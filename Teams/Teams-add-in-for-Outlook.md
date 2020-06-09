@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: de92e52b50ce863ba940badbdeff32c90f083fde
-ms.sourcegitcommit: 8395f91205bde549a0a92999ef00c5f5fb03fb80
+ms.openlocfilehash: 25b7163da92323a0695031a61d93895779a5ded7
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2020
-ms.locfileid: "44583434"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637710"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Usar o suplemento de Reunião do Teams no Outlook
 =======================================
@@ -65,7 +65,7 @@ O botão Reunião do Teams é exibido nas versões mais recentes do aplicativo d
 
 As coordenadas da reunião (os números de discagem e de ingresso no Teams) serão adicionadas ao convite da reunião depois que o usuário clicar em **Enviar**.  
 
-## <a name="teams-meeting-add-in-in-and-findtime-for-outlook"></a>Suplemento de reunião do Teams e Verificador de Horas para o Outlook
+## <a name="teams-meeting-add-in-and-findtime-for-outlook"></a>Suplemento de reunião do Teams e Localizartime para Outlook
 
 Findtime é um suplemento do Outlook que ajuda os usuários a alcançarem um consenso em um horário de reunião entre as empresas. Depois que os convidados da reunião fornecem seu horário preferido, o Verificador de Horas envia o convite da reunião em nome do usuário. Se a opção **Reunião online** estiver selecionada no Verificador de Horas, o Verificador de Horas agendará uma reunião do Skype for Business ou Microsoft Teams. (O Verificador de Horas usará o que tiver sido definido pela sua organização como o canal de reunião online padrão.)
 

@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Aprenda a usar e gerenciar canais privados no Microsoft Teams.
-ms.openlocfilehash: 761d6a06da6bb02991e706f6e18ac8ce7d4106f4
-ms.sourcegitcommit: bb88ac0c9489bb47957e5ef1074b5df3126b6fdb
-ms.translationtype: HT
+ms.openlocfilehash: 769fd2b489d65b276823abd7c3ff8f579100617a
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/25/2020
-ms.locfileid: "42265626"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637930"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Canais privados no Microsoft Teams
 
@@ -68,10 +68,12 @@ Quando um canal privado é criado, ele é vinculado à equipe pai e não pode se
 
 ### <a name="who-can-create-private-channels"></a>Quem pode criar canais privados?
 
-Por padrão, qualquer proprietário ou membro de equipe pode criar um canal privado. Os convidados não podem criá-los. A capacidade de criar canais privados pode ser gerenciada no nível da equipe e da organização:
+Por padrão, qualquer proprietário ou membro de equipe pode criar um canal privado. Os convidados não podem criá-los. A capacidade de criar canais privados pode ser gerenciada no nível da equipe e no nível da organização.
 
-- Na guia **Configurações** de uma equipe, os proprietários de equipe podem desativar ou ativar a capacidade dos membros de criar canais privados.
-- Como administrador, você pode usar [políticas](teams-policies.md) para controlar quais usuários em sua organização podem criar canais privados.
+> 1. Vá para o centro de administração em <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> .
+
+> 2. Use [políticas](teams-policies.md) para controlar quais usuários da sua organização podem criar canais privados.
+    Depois de definir as políticas, os proprietários da equipe poderão desativar ou ativar a capacidade dos membros de criar canais privados na guia **configurações** de uma equipe.
 
 A pessoa que cria um canal privado é o proprietário de canal privado e somente o proprietário de canal privado pode adicionar ou remover diretamente as pessoas dele. O proprietário de um canal privado pode adicionar qualquer membro da equipe a um canal privado criado, incluindo convidados. Os membros de um canal privado têm um espaço seguro para conversas e, quando novos membros são adicionados, eles podem ver todas as conversas (mesmo conversas antigas) nesse canal privado.
 
@@ -83,7 +85,7 @@ Se um membro da equipe sair ou for removido de uma equipe, esse usuário também
 
 O proprietário de um canal privado não pode ser removido pelo cliente do Teams se ele for o último proprietário de um ou mais canais privados.
 
-Se o proprietário de um canal privado sair de sua organização ou se forem removidos do grupo do Office 365 associado à equipe, um membro do canal privado será automaticamente promovido para ser o proprietário do canal privado.
+Se um proprietário de canal privado deixar sua organização ou se for removido do grupo do Microsoft 365 associado à equipe, um membro do canal privado será automaticamente promovido para ser o proprietário do canal privado.
 
 ### <a name="what-can-team-owners-and-team-members-see-in-a-private-channel"></a>O que os proprietários e membros de equipe podem ver em um canal privado?
 
@@ -105,14 +107,14 @@ A tabela a seguir descreve quais ações os proprietários, membros e convidados
 
 |Ação  |Proprietário de equipe|Membro da equipe|Convidado da equipe|Proprietário do canal privado|Membro do canal privado|Convidado do canal privado|
 |---------|---------|---------|---------|---------|---------|---------|
-|Criar um canal privado|Sim<sup>1</sup>|Yes<sup>1,2</sup>|Não|N/D|N/D|Não disponível|
+|Criar um canal privado|Sim<sup>1</sup>|Yes<sup>1,2</sup>|Não|N/A|N/A|N/A|
 |Excluir canal privado|Sim|Não|Não|Sim|Não|Não|
-|Sair do canal privado|Não disponível|N/D|Não disponível|Sim<sup>3</sup>|Sim|Sim|
-|Editar canal privado|Não|N/D|N/D|Sim|Não|Não|
+|Sair do canal privado|N/A|N/A|N/A|Sim<sup>3</sup>|Sim |Sim|
+|Editar canal privado|Não|N/A|N/A|Sim|Não|Não|
 |Restaurar canal privado excluído|Sim|Não|Não|Sim|Não|Não|
-|Adicionar membros|Não|N/D|N/D|Sim|Não|Não|
-|Editar configurações|Não|N/D|N/D|Sim|Não|Não|
-|Gerenciar guias e aplicativos|Não|N/D|Não disponível|Sim<sup>4</sup>|Sim<sup>5</sup>|Não|
+|Adicionar membros|Não|N/A|N/A|Sim|Não|Não|
+|Editar configurações|Não|N/A|N/A|Sim|Não|Não|
+|Gerenciar guias e aplicativos|Não|N/A|N/A|Sim<sup>4</sup>|Sim<sup>5</sup>|Não|
 
 <sup>1</sup> Supondo que a política que você, o administrador, configurou, permite ao usuário criar canais privados.<br>
 <sup>2</sup> Cada equipe tem uma configuração que os proprietários de equipe podem ativar ou desativar para permitir que os membros da equipe criem canais privados. Os proprietários de equipe sempre podem criar canais privados.<br>

@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Saiba como atribuir, alterar ou remover um número de telefone comercial para seus usuários de equipe para que empresas e clientes externos possam fazer chamadas.
-ms.openlocfilehash: a8dea997df1511406a302922b291fa2248f29356
-ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
+ms.openlocfilehash: 858c6c5f9995d4d9b3914ee769de1bb75d1951af
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44326798"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44609956"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>Atribuir, alterar ou remover o número de telefone de um usuário
 
@@ -51,7 +51,8 @@ Para saber como obter planos de chamada no Teams e quanto eles custam, consulte 
 5. Dependendo se você deseja enviar um email para o usuário com as informações do número de telefone, desative ou ative o **usuário de email com informações de número de telefone**. Por padrão, ele está ativado. 
 6. Clique em **Salvar**.
     > [!NOTE]
-    > Devido à latência entre o Office 365 e o Teams, pode ser possível levar algumas horas para que os usuários sejam habilitados. Se o número de telefone não estiver atribuído corretamente após algumas horas, [entre em contato com o suporte para produtos empresariais-ajuda para administradores](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products). Estamos aqui para ajudar!
+    > Devido à latência entre o Microsoft 365 ou o Office 365 e o Teams, pode levar até 24 horas para que os usuários sejam habilitados. Se o número de telefone não estiver atribuído corretamente após 24 horas, [entre em contato com o suporte para produtos empresariais-ajuda para administradores](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products). Estamos aqui para ajudar!
+
   
 ## <a name="change-a-phone-number-for-a-user"></a>Alterar um número de telefone para um usuário
  

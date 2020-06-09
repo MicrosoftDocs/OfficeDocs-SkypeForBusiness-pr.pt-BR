@@ -11,23 +11,23 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-description: Saiba mais sobre a expiração e a renovação da equipe e como usar a política de expiração do grupo do Microsoft 365 ou do Office 365 para limpar automaticamente as equipes não usadas no Microsoft Teams.
+description: Saiba mais sobre expiração e renovação da equipe e como usar a política de expiração do grupo Microsoft 365 ou Microsoft 365 para limpar automaticamente as equipes não usadas no Microsoft Teams.
 f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ed1e91ae51bf3f2868e9e2f5f1de1532954d552e
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: 34984c545e3e6593c9d5168a81d3465ce391dab2
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44350275"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638550"
 ---
 # <a name="team-expiration-and-renewal-in-microsoft-teams"></a>Expiração e renovação da equipe no Microsoft Teams
 
 Organizações com um grande número de equipes muitas vezes têm equipes que nunca são usadas de fato. Isso pode acontecer devido a vários motivos, incluindo a experimentação do produto, a colaboração da equipe de curto prazo ou os proprietários da equipe que deixam a organização. Ao longo do tempo, tais equipes podem acumular e criar uma sobrecarga nos recursos do locatário.  
 
-Para restringir o número de equipes não usadas, como administrador, você pode usar a [política de expiração de grupo do Microsoft 365 ou do Office 365](https://docs.microsoft.com/office365/admin/create-groups/office-365-groups-expiration-policy) para limpar automaticamente as equipes não usadas. Como as equipes são apoiadas por grupos, as políticas de expiração de grupo também se aplicam automaticamente às equipes.
+Para restringir o número de equipes não usadas, como administrador, você pode usar a [política de expiração do grupo microsoft 365 ou microsoft 365](https://docs.microsoft.com/office365/admin/create-groups/office-365-groups-expiration-policy) para limpar automaticamente as equipes não usadas. Como as equipes são apoiadas por grupos, as políticas de expiração de grupo também se aplicam automaticamente às equipes.
 
 Quando você aplica uma política de expiração a uma equipe, um proprietário da equipe recebe uma notificação para a renovação da equipe 30 dias, 15 dias e 1 dia antes da data de expiração da equipe. Quando o proprietário da equipe receber a notificação, poderá clicar em **renovar agora** em configurações da equipe para renovar a equipe.
 

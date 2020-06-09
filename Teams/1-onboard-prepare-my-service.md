@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
-description: Use as listas de verificação integradas para preparar o Office 365 para equipes e configurar as principais funcionalidades, redes e cargas de trabalho de voz na nuvem do teams.
+description: Use as listas de verificação integradas para preparar o Microsoft 365 ou o Office 365 para Teams e configurar as principais funcionalidades, redes e cargas de trabalho de voz na nuvem do teams.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 710a365ef68d3e187013892ef978cd8e12557cc1
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 3c805e8ff14ddb1c46f83db819c5dd8a2c305914
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137991"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610063"
 ---
 # <a name="prepare-my-service"></a>Preparar meu serviço
 
@@ -34,7 +34,7 @@ Este artigo apresenta uma visão geral dos requisitos para a preparação dos se
 
 As listas de verificação a seguir orientam você pelas etapas para implementar a conferência de áudio, sistema telefônico com planos de chamada ("planos de chamada") e recursos de roteamento direto do sistema telefônico ("roteamento direto") no Microsoft Teams.
 
-*  [Preparar o Office 365 para Teams](onboarding-checklist-enable-office-365.md)
+*  [Preparar o Microsoft 365 ou o Office 365 para Teams](onboarding-checklist-enable-office-365.md)
 
 *  [Configurar recursos essenciais do teams](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)
 

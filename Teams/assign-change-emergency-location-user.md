@@ -18,19 +18,19 @@ f1.keywords:
 - NOCSH
 description: Neste artigo, você aprenderá a atribuir ou alterar um local de emergência para os usuários da sua organização.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f11bfd9762667823b4ec6b2883c9661f9f5754d0
-ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
+ms.openlocfilehash: 450fe848052af1e331964da3d7b695daf0f1567a
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44539498"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610990"
 ---
 # <a name="assign-or-change-an-emergency-location-for-a-user"></a>Atribuir ou alterar um local de emergência para um usuário
 
-Quando você estiver configurando planos de chamada, será necessário atribuir um local de emergência para cada número de telefone ou usuário. Em países europeus, o local de emergência está associado ao número de telefone quando você o recebe do Office 365 ou quando transfere um número de telefone para o Office 365. Nos Estados Unidos, o local de emergência está associado ao número de telefone quando ele é atribuído ao usuário. O endereço de emergência pode ser alterado se o usuário ao qual ele está atribuído for movido para um novo local. Para obter mais informações sobre endereços e locais de emergência, consulte [gerenciar chamadas de emergência](what-are-emergency-locations-addresses-and-call-routing.md).
+Quando você estiver configurando planos de chamada, será necessário atribuir um local de emergência para cada número de telefone ou usuário. Em países europeus, o local de emergência está associado ao número de telefone quando você o recebe do Microsoft 365 ou do Office 365 ou quando transfere um número de telefone para o Microsoft 365 ou o Office 365. Nos Estados Unidos, o local de emergência está associado ao número de telefone quando ele é atribuído ao usuário. O endereço de emergência pode ser alterado se o usuário ao qual ele está atribuído for movido para um novo local. Para obter mais informações sobre endereços e locais de emergência, consulte [o que são locais de emergência, locais e encaminhamento de chamadas?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing).
   
 Para saber como obter um plano de chamadas e quanto eles custam, consulte [Licenciamento de Complementos do Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
-
+  
 Você pode atribuir ou alterar um local de emergência para um usuário no centro de administração do Microsoft Teams ou usando o PowerShell.
 
 ## <a name="using-the-microsoft-teams-admin-center"></a>Usando o centro de administração do Microsoft Teams

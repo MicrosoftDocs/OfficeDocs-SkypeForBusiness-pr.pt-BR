@@ -26,10 +26,10 @@ ms.custom:
 - Calling Plans
 description: Estes são os serviços do Microsoft 365 e do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para os Estados Unidos.
 ms.openlocfilehash: 1a33ad9909b7caa76acb2b4e042b24aa98cc86f1
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/14/2020
+ms.lasthandoff: 06/09/2020
 ms.locfileid: "44230329"
 ---
 # <a name="availability-in-the-united-states-us"></a>Disponibilidade nos Estados Unidos (EUA)

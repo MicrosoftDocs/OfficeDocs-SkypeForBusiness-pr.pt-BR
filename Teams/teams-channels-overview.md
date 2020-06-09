@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4cf14616d4cfa2abc2caa99aee052b30e902172d
-ms.sourcegitcommit: 769241842058cfb4618460fad2dde1494a3609a1
-ms.translationtype: HT
+ms.openlocfilehash: 5846d3912f9acea3a21174b7468e8376e9779b55
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42574018"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637500"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Visão geral de equipes e canais no Microsoft Teams
 
@@ -56,7 +56,7 @@ Veja este pequeno vídeo para saber mais sobre as práticas recomendadas para cr
 
 Quando o Microsoft Teams é ativado para toda a organização, os proprietários da equipe designada podem convidar qualquer funcionário com quem trabalham para ingressar na equipe. O Microsoft Teams torna fácil para os proprietários de equipe adicionarem pessoas na empresa baseado nos seus nomes. Dependendo das configurações usadas pela empresa, convidados que são membros da equipe, mas não pertencem à empresa também podem sem adicionados às suas equipes. Veja [Acesso de Convidado no Microsoft Teams](guest-access.md) para obter mais detalhes. 
 
-Os proprietários de equipe também podem criar uma equipe baseado em um grupo do Office 365 existente. Quaisquer alterações feitas no grupo serão sincronizadas com o Microsoft Teams automaticamente. Criar uma equipe baseada em um grupo do Office 365 existente, não apenas simplifica o processo de convidar e gerenciar os membros, mas também sincronizar os arquivos de grupo dentro do Microsoft Teams.
+Os proprietários da equipe também podem criar uma equipe com base em um grupo existente do Microsoft 365. Quaisquer alterações feitas no grupo serão sincronizadas com o Microsoft Teams automaticamente. A criação de uma equipe com base em um grupo existente do Microsoft 365 não apenas simplifica o processo de convite e gerenciamento de membros, mas também sincroniza arquivos de grupo dentro do Microsoft Teams.
 
 **Funções da equipe**
 
@@ -77,7 +77,7 @@ Reserve três minutos para conferir este vídeo de guia para proprietários de e
 
 Se você for um administrador do Microsoft Teams no Office 365, terá acesso às configurações de todo o sistema no centro de administração do Microsoft Teams. Essas configurações podem impactar as opções e padrões que os proprietários de equipe veem nas configurações de equipe. Por exemplo, você pode ativar um canal padrão, "Geral", para anúncios, discussões e recursos em toda a equipe, que será exibido em todas as equipes.
 
-Por padrão, todos os usuários têm permissões para criar uma equipe no Microsoft Teams (para modificar isso, consulte [Atribuir funções e permissões no Teams)](assign-roles-permissions.md). Os usuários de um grupo existente do Office 365 também podem aprimorar suas permissões com a funcionalidade do Teams.
+Por padrão, todos os usuários têm permissões para criar uma equipe no Microsoft Teams (para modificar isso, consulte [Atribuir funções e permissões no Teams)](assign-roles-permissions.md). Os usuários de um grupo existente do Microsoft 365 também podem melhorar suas permissões com a funcionalidade do Microsoft Teams.
 
 Uma atividade importante de planejamento inicial para envolver os usuários com o Microsoft Teams é ajudar as pessoas a pensarem sobre e entenderem como o Teams pode aprimorar a colaboração no dia a dia. Converse com as pessoas e ajude-as a selecionar cenários de negócios em que elas estejam colaborando atualmente de maneira fragmentada. Reúna-os em um canal com as guias relevantes que os ajudarão a realizar seu trabalho. Um dos casos de uso mais eficientes do Microsoft Teams é em qualquer processo multiorganizacional. 
 

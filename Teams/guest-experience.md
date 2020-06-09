@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c7bf160e53fcbdd13fefac06c706d743a8b55643
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 20fc95f14782057c6c493d9835fd17a7339018ca
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902596"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637270"
 ---
 <a name="what-the-guest-experience-is-like"></a>Como é a experiência do convidado
 =================================
@@ -57,7 +57,7 @@ A tabela a seguir compara a funcionalidade do teams disponível para os membros 
 |Criar reuniões ou agendas do Access  <br/> |&#x2713;||
 |Acessar o armazenamento do OneDrive for Business  <br/> |&#x2713;||
 |Criar políticas de acesso de convidados de equipes/canais de todos os locatários  <br/> |&#x2713;||
-|Convidar um usuário para fora do domínio da organização do Office 365 <br/>  *Os proprietário de equipes controlam essa configuração.*  <br/> <br/> |&#x2713;||
+|Convidar um usuário para fora do domínio da organização do Microsoft 365 ou do Office 365 <br/>  *Os proprietário de equipes controlam essa configuração.*  <br/> <br/> |&#x2713;||
 |Criar uma equipe  <br/> |&#x2713;||
 |Descobrir e entrar em uma equipe pública  <br/> |&#x2713;||
 |Visualizar o organograma  <br/> |&#x2713;||
@@ -99,7 +99,7 @@ A tabela a seguir mostra os recursos de chamada e reunião disponíveis para con
 <sup>1</sup> esse recurso estará disponível em breve.
 
 > [!NOTE]
-> Os administradores do Office 365 controlam os recursos disponíveis aos convidados. 
+> Os administradores do Microsoft 365 e do Office 365 controlam os recursos disponíveis para convidados. 
 
 ## <a name="frequently-asked-questions"></a>Perguntas frequentes
 
