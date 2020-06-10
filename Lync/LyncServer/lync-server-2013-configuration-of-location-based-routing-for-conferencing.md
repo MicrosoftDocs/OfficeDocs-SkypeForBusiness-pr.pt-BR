@@ -12,12 +12,12 @@ ms:contentKeyID: 56335088
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7bc901b9ef1b4b358771427f44d220631e4a40ee
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6f982f6e484412234c75eadaea925b65ee11bcbb
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199014"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691607"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -53,21 +53,27 @@ Para obter informações adicionais sobre como implantar e configurar o roteamen
 
 O aplicativo de conferência de roteamento baseado em local está desabilitado por padrão. Antes de habilitar esse aplicativo, você precisa determinar a prioridade correta a ser atribuída ao aplicativo. Para determinar essa prioridade, execute o seguinte cmdlet no Shell de gerenciamento do Lync Server:
 
-Get-CsServerApplication-Identity Service: registrar:\<FQDN do pool\>
+```powershell
+Get-CsServerApplication -Identity Service:Registrar:<Pool FQDN>
+```
 
-Neste cmdlet, \<o FQDN\> do pool é o pool no qual o aplicativo de conferência de roteamento baseado em local deve ser habilitado.
+Neste cmdlet, \<Pool FQDN\> é o pool no qual o aplicativo de conferência de roteamento baseado na localização deve ser habilitado.
 
 Este cmdlet retornará a lista de aplicativos hospedados pelo Lync Server e o valor de prioridade para cada um deles. O aplicativo de conferência de roteamento baseado em local precisa ser atribuído a um valor de prioridade maior do que o aplicativo "UdcAgent" e menor do que os aplicativos "defaultrouting", "ExumRouting" e "OutboundRouting". Recomendamos que você atribua o aplicativo de conferência de roteamento baseado em local um valor de prioridade que seja um ponto maior do que o valor de prioridade do aplicativo "UdcAgent".
 
-Por exemplo, se o aplicativo "UdcAgent" tiver um valor de prioridade "2", o aplicativo "defaultrouting" tem um valor de prioridade "8", o aplicativo "ExumRouting" tem um valor de prioridade "9" e o aplicativo "OutboundRouting" tem um valor de prioridade "10" e, em seguida, Você deve atribuir o aplicativo de conferência de roteamento baseado em local com um valor de prioridade "3". Isso colocaria a prioridade dos aplicativos na seguinte ordem: outros aplicativos (prioridades: 0 a 1), "UdcAgent" (prioridade: 2), aplicativo de conferência de roteamento baseado em local (prioridade: 3), outros aplicativos (prioridades: 4 a 8), " Defaultrouting "(prioridade: 9)," ExumRouting "(prioridade: 10) e" OutboundRouting "(prioridade: 11).
+Por exemplo, se o aplicativo "UdcAgent" tiver um valor de prioridade "2", o aplicativo "defaultrouting" tem um valor de prioridade "8", o aplicativo "ExumRouting" tem um valor de prioridade "9" e o aplicativo "OutboundRouting" tem um valor de prioridade "10", então você deve atribuir o aplicativo de conferência de roteamento baseado em local um valor de prioridade "3". Isso colocaria a prioridade dos aplicativos na seguinte ordem: outros aplicativos (prioridades: 0 a 1), "UdcAgent" (prioridade: 2), aplicativo de conferência de roteamento baseado em local (prioridade: 3), outros aplicativos (prioridades: 4 a 8), "roteamento default" (prioridade: 9), "ExumRouting" (prioridade: 10) e "OutboundRouting" (prioridade: 11).
 
 Depois de encontrar o valor de prioridade correto para o aplicativo de conferência de roteamento baseado em local, digite o cmdlet a seguir para cada pool de front-end ou servidor Standard Edition que hospeda os usuários habilitados para roteamento baseado em local:
 
-New-CsServerApplication-Identity Service: registrar:\<pool FQDN\>/LBRouting-priority \<Application Priority\> Enabled $true-Critical $true-URIhttps://www.microsoft.com/LCS/LBRouting
+```powershell
+New-CsServerApplication -Identity Service:Registrar:<Pool FQDN>/LBRouting -Priority <Application Priority> -Enabled $true -Critical $true -Uri http://www.microsoft.com/LCS/LBRouting
+```
 
 Por exemplo:
 
-New-CsServerApplication-Identity Service:Registrar:LS2013CU2LBRPool. contoso. com/LBRouting-Priority 3 Enabled $true-Critical $true-URIhttps://www.microsoft.com/LCS/LBRouting
+```powershell
+New-CsServerApplication -Identity Service:Registrar:LS2013CU2LBRPool.contoso.com/LBRouting -Priority 3 -Enabled $true -Critical $true -Uri http://www.microsoft.com/LCS/LBRouting
+```
 
 Após usar esse cmdlet, reinicie todos os servidores front-end no pool ou os servidores Standard Edition onde o aplicativo de conferência de roteamento baseado na localização tenha sido habilitado.
 
