@@ -41,6 +41,7 @@
 ## [Rótulos de confidencialidade para o Teams](sensitivity-labels.md)
 ## [Gerenciar a descoberta de equipes privadas no Teams](manage-discovery-of-private-teams.md)
 ## [Configurar a moderação de canal no Teams](manage-channel-moderation-in-teams.md)
+## [Integração de emails do Teams e Outlook](teams-outlook-email-integration.md)
 ## [Gerenciar políticas de mensagens](messaging-policies-in-teams.md)
 ## [Presença do usuário no Teams](presence-admins.md)
 ## [Gerenciar marcas no Teams](manage-tags.md)
