@@ -18,12 +18,12 @@ description: Os administradores podem aprender a adicionar novos usuários convi
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 026fa191dffa160980bfb00e7031490f01ddc6cc
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: ea1670078a61366e1ab0207368a58f9ad2b900ab
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778216"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44609829"
 ---
 <a name="add-a-guest-to-a-team"></a>Adicionar um convidado a uma equipe
 =====================
@@ -42,12 +42,12 @@ Como administrador, você pode adicionar um novo usuário convidado à organiza�
 
 Com a colaboração do Azure AD B2B, as organizações podem impor políticas de acesso condicional e autenticação multifator (MFA) para usuários B2B. Essas políticas podem ser impostas no nível do locatário, aplicativo ou usuário individual, da mesma maneira que podem ser habilitadas para membros e funcionários em tempo integral da organização. Essas políticas são aplicadas na organização de recursos. Para obter mais informações, consulte [Acesso condicional para usuários de colaboração B2B](https://go.microsoft.com/fwlink/?linkid=857454). Usuários convidados não podem ser bloqueados individualmente.
 
-Os usuários convidados que você adicionou por meio do Azure AD B2B, Grupos do Microsoft 365 ou SharePoint Online estão prontos para prosseguir. O administrador do Office 365 ou o proprietário da equipe pode adicionar aqueles convidados às respectivas equipes. Se uma equipe já estiver com um grupos do Office 365 e um convidado for adicionado ao grupo, ele obterá acesso à equipe. Adicionar um convidado através do grupo do Office 365 não gera um e-mail de convite para o convidado; então, alguém da equipe precisa notificá-lo.
+Os usuários convidados que você adicionou por meio do Azure AD B2B, Grupos do Microsoft 365 ou SharePoint Online estão prontos para prosseguir. O administrador do Microsoft 365 ou Office 365 ou um proprietário da equipe pode adicionar aqueles convidados às suas respectivas equipes. Se uma equipe já estiver com um grupo do Microsoft 365 e um convidado for adicionado ao grupo, o convidado obterá acesso à equipe. Adicionar um convidado através do grupo do Microsoft 365 não gera um email de convite para o convidado; portanto, alguém da equipe deve notificá-lo.
 
 > [!NOTE]
-> Os convidados estão sujeitos aos limites de serviço do [Office 365](https://go.microsoft.com/fwlink/p/?linkid=282347) e do [Azure Active Directory](https://go.microsoft.com/fwlink/p/?linkid=853019).
+> Os convidados estão sujeitos aos limites de serviço do [Microsoft 365 ou Office 365](https://go.microsoft.com/fwlink/p/?linkid=282347) e do [Azure Active Directory](https://go.microsoft.com/fwlink/p/?linkid=853019).
 
-Você pode acompanhar a adição de convidados no Centro de Conformidade &amp; Segurança do Azure AD ou do Office 365. A adição de um convidado no Microsoft Teams é auditada e registrada como uma atividade de administração de grupo do Azure AD: “Adicionou membro a grupo”. Para obter mais detalhes, consulte [Auditar e reportar um usuário de colaboração B2B](https://go.microsoft.com/fwlink/p/?linkid=858884) e [Procurar registro de auditoria no Centro de Segurança &amp; Conformidade do Office 365](https://support.office.com/article/Search-the-audit-log-in-the-Office-365-Security--Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c).
+Você pode acompanhar adições de convidados no Azure AD ou no Centro de segurança do Microsoft 365. A adição de um convidado no Microsoft Teams é auditada e registrada como uma atividade de administração de grupo do Azure AD: “Adicionou membro a grupo”. Para obter mais detalhes, confira [Auditar e reportar um usuário de colaboração B2B](https://go.microsoft.com/fwlink/p/?linkid=858884) e [Procurar registro de auditoria no Centro de segurança do Microsoft 365](https://support.office.com/article/Search-the-audit-log-in-the-Office-365-Security--Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c).
 
 
 ## <a name="more-information"></a>Mais informações
