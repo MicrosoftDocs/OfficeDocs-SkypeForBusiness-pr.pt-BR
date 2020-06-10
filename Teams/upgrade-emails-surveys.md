@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 202a1b4b1ac253979f264570368ec5ab4c819108
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: 31dfb96d4ad883593e49b71aa8ec86a86b25e660
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44522484"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665943"
 ---
 # <a name="sample-emails-and-surveys-for-upgrade-basic-communications"></a>Exemplos de emails e pesquisas para atualizar comunicações básicas
 
@@ -135,7 +135,7 @@ Let me be the first to officially welcome you to Microsoft Teams. Your Skype for
 CALL TO ACTION: If you need assistance getting started in Teams:
 
 - View this Introducing Microsoft Teams video: https://teamsdemo.office.com/
-- Visit the Office 365 Training Center, or simply ask T-Bot.
+- Visit the Microsoft 365 or Office 365 Training Center, or simply ask T-Bot.
 
 Should you have questions about Teams, contact <<insert alias or contact info>>.
 
@@ -203,7 +203,7 @@ Should you have questions, contact <<insert alias or contact info>>.
 
 Indique o nível de habilidade para executar as atividades a seguir no Teams e se houver uma ou mais atividades sobre as quais você gostaria de saber mais.
 
-| &nbsp; | Muito qualificados | Um pouco experiente | Não habilitado | Deseja saber mais | Não disponível | Não tem certeza/não está familiarizado | | | | |
+| &nbsp; | Muito qualificados | Um pouco experiente | Não habilitado | Deseja saber mais | N/A | Não tem certeza/não está familiarizado | | | | |
 |---|---|---|---|---|---|---|---|---|---|---|
 | Usar o Teams para IM/Chat com outras pessoas | | | | | | | | | | |
 | Usar o Microsoft Teams para reuniões online | | | | | | | | | | |

@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d0fb9a90a3528ed8d2d7f4d2f00843a9215e92a2
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: a146b2971c32b88a8a8ef6925e38044b25b847e6
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902416"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665703"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>Implementar a QoS (qualidade de serviço) no Microsoft Teams
 
@@ -44,9 +44,9 @@ A maneira menos complexa de solucionar esses problemas é aumentar o tamanho das
 
 Para que a QoS seja eficiente, você terá configurações de QoS consistentes aplicadas para encerrar em sua organização, porque qualquer parte do caminho que não dê suporte a suas prioridades de QoS poderá diminuir a qualidade das chamadas, vídeo e compartilhamentos de tela. Isso inclui a aplicação de configurações a todos os computadores ou dispositivos de usuário, switches de rede, roteadores para a Internet e o serviço Teams online.
 
-_Figura 1. A relação entre as redes da organização e os serviços do Office 365_
+_Figura 1. A relação entre as redes da organização e os serviços do Microsoft 365 ou do Office 365_
 
-![Ilustração da relação entre redes e serviços](media/Qos-in-Teams-Image1.png "A relação entre as redes da organização e os serviços do Office 365: a rede local e os dispositivos se conectam a uma rede de interconexão, que, por sua vez, se conecta com o Office 365 Cloud Voice and audio Conferencing Services.")
+![Ilustração da relação entre redes e serviços](media/Qos-in-Teams-Image1.png "A relação entre as redes da organização e os serviços do Microsoft 365 ou do Office 365: rede local e dispositivos se conectam a uma rede Interconnect, que, por sua vez, se conecta com o Microsoft 365 ou o Office 365 Cloud Voice and audio Conferencing Services.")
 
 Na maioria dos casos, a rede conectando sua empresa à nuvem será uma rede não gerenciada na qual você não poderá definir as opções de QoS de maneira confiável. Uma opção disponível para endereçar QoS ponto a ponto é o [Azure ExpressRoute](https://azure.microsoft.com/documentation/articles/expressroute-introduction/), mas ainda recomendamos que você implemente QoS em sua rede local para tráfego de entrada e saída. Isso aumentará a qualidade das cargas de trabalho de comunicação em tempo real em toda a sua implantação e amenizará o chokepoints.
 
@@ -150,7 +150,7 @@ Em um nível muito alto, a implementação de QoS requer estas etapas:
 
 Ao se preparar para implementar a QoS, tenha em mente as seguintes diretrizes:
 
-- O caminho mais curto para o Office 365 é melhor.
+- O caminho mais curto para o Microsoft 365 ou o Office 365 é melhor.
 - As portas de fechamento só levarão à degradação da qualidade.
 - Quaisquer obstáculos entre eles, como proxies, não são recomendados.
 - Limite o número de saltos:
@@ -158,7 +158,7 @@ Ao se preparar para implementar a QoS, tenha em mente as seguintes diretrizes:
   - ISP para borda de rede da Microsoft – 3 saltos
   - Borda de rede da Microsoft para destino final – irrelevante
 
-Para obter informações sobre como configurar portas de firewall, vá para [URLs e intervalos de IP do Office 365](office-365-urls-ip-address-ranges.md).
+Para obter informações sobre como configurar portas de firewall, acesse [Microsoft 365 e URLs e intervalos de IP do Office 365](office-365-urls-ip-address-ranges.md).
 
 ## <a name="managing-source-ports-in-the-teams-admin-center"></a>Gerenciar portas de origem no centro de administração do teams
 

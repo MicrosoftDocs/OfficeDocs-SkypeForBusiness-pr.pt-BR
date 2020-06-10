@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 44dfc985f213141e20e15eb29198004d10030280
-ms.sourcegitcommit: 8395f91205bde549a0a92999ef00c5f5fb03fb80
+ms.openlocfilehash: bcb1570a87740d899a5f92957c0335e70d7f91ba
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2020
-ms.locfileid: "44583444"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665413"
 ---
 # <a name="choose-your-upgrade-journey-from-skype-for-business-to-teams"></a>Escolha a jornada de atualização do Skype for Business para o Teams
 
@@ -83,7 +83,7 @@ Ao usar o método de recursos sobrepostos, o tráfego de comunicação do Skype 
 
 - A comunicação iniciada do cliente do teams a partir de um *usuário em uma organização externa* sempre chegará ao cliente Skype for Business do usuário a.
 
-Se você atribuiu uma licença do Office 365 aos seus usuários, essa será a experiência de atualização padrão da sua organização. Quando você atribui uma licença do Office 365, as licenças do Teams e do Skype for Business Online são atribuídas por padrão.<sup>2</sup>
+Se você tiver atribuído uma licença do Microsoft 365 ou do Office 365 aos seus usuários, essa será a experiência de atualização padrão para a sua organização. Quando você atribui uma licença do Microsoft 365 ou do Office 365, as duas equipes e licenças do Skype for Business online são atribuídas por padrão. <sup>2</sup>
 
 Para que esse método funcione efetivamente, todos os usuários devem executar ambos os clientes simultaneamente. Os chats e chamadas recebidos de dentro da organização para um usuário no modo de Uso Paralelo podem chegar ao cliente do Skype for Business ou do Teams, mas isso não está sob o controle do destinatário. Depende de qual cliente o remetente usa para iniciar a comunicação. Se o remetente e o destinatário estiverem em organizações diferentes, chamadas e chats recebidos para um usuário no modo de Uso Paralelo sempre chegam ao cliente do Skype for Business.
 
@@ -178,7 +178,7 @@ A tabela a seguir resume os métodos de atualização:
 |A interoperabilidade entre o Skype for Business e o Teams não existe enquanto os dois usuários estão no modo de Uso Paralelo.      |A interoperabilidade é necessária para a comunicação entre usuários do Skype for Business e do Teams.         |
 
 > [!NOTE]
-> Caso não consiga seguir os métodos com suporte para migrar os usuários do Skype for Business Server para o Teams, seria possível fazer a transição dos usuários para o Teams removendo o Skype for Business Server e todos os atributos de usuário relacionados no Active Directory. Depois que atributos do Azure Active Directory dos usuários forem removidos dos atributos do Skype for Business Server e os registros DNS forem redirecionados para o Office 365, seria possível licenciar os usuários no Office 365 e atualizá-los para ao Teams. 
+> Caso não consiga seguir os métodos com suporte para migrar os usuários do Skype for Business Server para o Teams, seria possível fazer a transição dos usuários para o Teams removendo o Skype for Business Server e todos os atributos de usuário relacionados no Active Directory. Após a limpeza dos atributos do Azure Active Directory dos usuários, os atributos do servidor do Skype for Business e os registros DNS foram redirecionados para o Microsoft 365 ou o Office 365, seria possível licenciar os usuários no Microsoft 365 ou no Office 365 e atualizá-los para o Microsoft Teams. 
 
 > [!IMPORTANT]
 > Com a migração de substituição, os dados de contatos e de reuniões não serão migrados do ambiente local para o Microsoft Teams.

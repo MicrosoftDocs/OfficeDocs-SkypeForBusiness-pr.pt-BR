@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6aa61c739910e00a277f6c3f201222ac5eb782da
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: ec46cfed6c39593dc32b155374f5cf9478d73ad0
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44523014"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666043"
 ---
 # <a name="prepare-your-environment-for-upgrading-to-teams"></a>Preparar seu ambiente para a atualização para o Microsoft Teams
 
@@ -43,7 +43,7 @@ Para gerar uma atualização bem-sucedida do Microsoft Teams em sua organizaçã
 Complete essas atividades em paralelo com a preparação para a preparação do usuário:
 
 - [Prepare sua equipe de ti](upgrade-prepare-IT-pros.md) para ajudar a garantir que elas tenham o que elas precisam para uma viagem de atualização bem-sucedida.
-- Verifique se o ambiente atende a todos os [pré-requisitos](upgrade-plan-journey-prerequisites.md)e entenda as dependências entre os serviços e as equipes do Office 365.
+- Verifique se o ambiente atende a todos os [pré-requisitos](upgrade-plan-journey-prerequisites.md)e entenda as dependências entre o Microsoft 365 ou os serviços e equipes do Office 365.
 - [Avalie seu ambiente](upgrade-plan-journey-evaluate-environment.md) executando a descoberta ambiental usando um questionário de exemplo para confirmar a preparação da sua organização e realizar uma viagem de atualização bem-sucedida para o Microsoft Teams.
 - [Prepare sua rede](prepare-network.md) por meio de planejamento, preparação e tomada das etapas necessárias para a sua rede para dar suporte a cargas de trabalho de equipes.
 - [Prepare seu serviço](upgrade-prepare-environment-prepare-service.md) para distribuição usando as listas de verificação integradas para garantir que sua configuração de equipe esteja pronta para dar suporte à migração de seus usuários do Skype for Business para o Teams.

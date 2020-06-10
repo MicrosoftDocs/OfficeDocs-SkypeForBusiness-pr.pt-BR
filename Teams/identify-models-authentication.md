@@ -18,12 +18,12 @@ description: Saiba sobre os diferentes modelos de identidade no Microsoft Teams,
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 1ccddd3bacdd495fb6febb11871d6d501f0a666b
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 6c32783b96e5fdfe8c0f783a0fd27fd58a7f04c1
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637200"
+ms.locfileid: "44665673"
 ---
 <a name="identity-models-and-authentication-in-microsoft-teams"></a>Modelos de identidade e autenticação no Microsoft Teams
 ==========================================
@@ -51,6 +51,7 @@ Dependendo das decisões da sua organização de qual modelo de identidade imple
 
 Consulte [escolhendo um modelo de conexão](https://go.microsoft.com/fwlink/?linkid=854626) e [noções básicas sobre modelos de identidade e guias do Azure Active Directory](https://support.office.com/article/Understanding-Office-365-identity-and-Azure-Active-Directory-06a189e7-5ec6-4af2-94bf-a22ea225a7a9) para obter mais detalhes.
 
+
 <a name="multi-factor-authentication"></a>Autenticação multifator
 ----------------------------
 
@@ -63,5 +64,5 @@ Depois que os usuários estiverem registrados para a MFA, da próxima vez que o 
 
 |Tipo de locatário  |Opções de segundo fator de MFA disponíveis  |Notas  |
 |---------|---------|---------|
-|**Somente na nuvem**     |MFA do Microsoft 365 e do Office 365 <ul><li>Chamada telefônica</li><li>Mensagem de texto</li><li>Notificação no aplicativo móvel</li><li>Código de verificação no aplicativo móvel</li></ul>        |[Plano para a autenticação multifator para implantações do Microsoft 365](https://support.office.com/article/Plan-for-multi-factor-authentication-for-Office-365-Deployments-043807b2-21db-4d5c-b430-c8a6dee0e6ba)         |
-|**Configuração híbrida (modelo de identidade sincronizada ou federada)**     |<ul><li>MFA do Microsoft 365 e do Office 365</li><li>Módulo Azure MFA (integrado com ADFS)</li><li>Cartão inteligente físico ou virtual (integrado com ADFS)</li></ul>         |Observação: outras soluções MFA estão disponíveis com os [documentos de compatibilidade do provedor de identidade do Azure ad](https://www.microsoft.com/download/details.aspx?id=56843)         |
+|**Somente na nuvem**     |MFA do Microsoft 365 ou do Office 365 <ul><li>Chamada telefônica</li><li>Mensagem de texto</li><li>Notificação no aplicativo móvel</li><li>Código de verificação no aplicativo móvel</li></ul>        | |
+|**Configuração híbrida (modelo de identidade sincronizada ou federada)**     |<ul><li>MFA do Microsoft 365 ou do Office 365</li><li>Módulo Azure MFA (integrado com ADFS)</li><li>Cartão inteligente físico ou virtual (integrado com ADFS)</li></ul>         |Observação: outras soluções MFA estão disponíveis com os [documentos de compatibilidade do provedor de identidade do Azure ad](https://www.microsoft.com/download/details.aspx?id=56843)         |

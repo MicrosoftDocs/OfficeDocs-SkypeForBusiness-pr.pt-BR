@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Saiba como recuperar dados do Microsoft Teams do log de auditoria.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 62b4c462cec58facca274883c98f1aad23042f16
-ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
+ms.openlocfilehash: 609bf3065d160da46b6e65d20235a4451de83c5f
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "44416731"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665633"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Pesquisar o log de auditoria de eventos no Microsoft Teams
 
@@ -93,7 +93,7 @@ Aqui você pode revisar as correspondências da política que definiu e fazer os
 
 ### <a name="mass-delete-scenario"></a>Cenário de exclusão em massa
 
-Conforme mencionado anteriormente, você pode monitorar cenários de exclusão. É possível criar uma política que monitoria a exclusão em massa de sites de equipe. Neste exemplo, uma política baseada em alertas é configurada para detectar a exclusão em massa de equipes em um intervalo de 30 minutos. 
+Conforme mencionado anteriormente, você pode monitorar cenários de exclusão. É possível criar uma política que monitoria a exclusão em massa de sites de equipe. Neste exemplo, uma política baseada em alertas é configurada para detectar a exclusão em massa de equipes em um intervalo de 30 minutos.
 
 ![Captura de tela da página Criar política mostrando a configuração de uma política para a detecção de exclusão da equipe em massa](media/TeamsMassDeletePolicy.png)
 
@@ -115,7 +115,7 @@ Você pode definir alertas e enviar emails para administradores e outros usuári
 
 [Políticas de detecção de anomalias](https://docs.microsoft.com/cloud-app-security/anomaly-detection-policy) na Cloud app Security fornecem o usuário e a análise de comportamento de entidade (Ueba) e o Machine Learning (ml) prontos para você poder executar imediatamente a detecção avançada de ameaças em seu ambiente de nuvem. Como elas são habilitadas automaticamente, as novas políticas de detecção de anomalias fornecem resultados imediatos fornecendo detecções imediatas, direcionando várias anomalias comportamentais em todos os seus usuários e máquinas e dispositivos conectados à sua rede. Além disso, as novas políticas expõem mais dados do mecanismo de detecção do Cloud app Security, para ajudar você a acelerar o processo de investigação e conter ameaças contínuas.
 
-Estamos trabalhando para integrar os eventos do teams a políticas de detecção de anomalias. Por enquanto, você pode configurar políticas de detecção de anomalias para outros produtos do Office e executar itens de ação em usuários que correspondam a essas políticas. 
+Estamos trabalhando para integrar os eventos do teams a políticas de detecção de anomalias. Por enquanto, você pode configurar políticas de detecção de anomalias para outros produtos do Office e executar itens de ação em usuários que correspondam a essas políticas.
 
 ## <a name="teams-activities"></a>Atividades do teams
 
@@ -133,14 +133,21 @@ Aqui está uma lista de todos os eventos registrados para atividades de usuário
 |Função de membros alterada no Team    |MemberRoleChanged         |Um proprietário de equipe altera a função dos membros de uma equipe. Os valores a seguir indicam o tipo de função atribuído ao usuário. <br><br>**1** -indica a função de proprietário.<br>**2** -indica a função do membro.<br>**3** -indica a função de convidado.<br><br>A propriedade Members também inclui o nome da sua organização e o endereço de email do membro.        |
 |Configuração da equipe alterada    |TeamSettingChanged        |A operação TeamSettingChanged é registrada quando as seguintes atividades são executadas por um proprietário de equipe. Para cada uma dessas atividades, uma descrição da configuração que foi alterada (mostrada entre parênteses) é exibida na coluna **Item** nos resultados da pesquisa do log de auditoria.<ul><li>Altera o tipo de acesso de uma equipe. As equipes podem ser definidas como privadas ou públicas (**tipo de acesso à equipe**). Quando uma equipe é particular (a configuração padrão), os usuários podem acessar a equipe somente por convite. Quando uma equipe é pública, ela é detectável por qualquer pessoa.</li><li>Altera a classificação das informações de uma equipe (**classificação da equipe**). Por exemplo, os dados da equipe podem ser classificados como alto impacto empresarial, impacto na média empresa ou baixo impacto nos negócios.</li><li>Altera o nome de uma equipe (**nome da equipe**).</li><li>Altera a descrição da equipe (**Descrição da equipe**).</li><li>Alterações feitas nas configurações da equipe. Para acessar essas configurações, um proprietário de equipe pode clicar com o botão direito do mouse em uma equipe, selecionar **Gerenciar equipe**e, em seguida, clicar na guia **configurações** . Para essas atividades, o nome da configuração que foi alterada é exibido na coluna **Item** nos resultados da pesquisa do log de auditoria.</li></ul>         |
 |Equipe criada    |TeamCreated         |Um usuário cria uma equipe.         |
+|Todos os aplicativos da organização excluídos|DeletedAllOrganizationApps           |Excluiu todos os aplicativos da organização do catálogo.     |
+|Aplicativo excluído |AppDeletedFromCatalog           |Um aplicativo foi excluído do catálogo.     |
 |Canal excluído     |ChannelDeleted         |Um usuário exclui um canal de uma equipe.         |
 |Equipe excluída  |TeamDeleted            |Um proprietário da equipe exclui uma equipe.      |
+|Aplicativo instalado |AppInstalled         |Um aplicativo foi instalado.   |
+|Aplicativo publicado |AppPublishedToCatalog           |Um aplicativo foi adicionado ao catálogo.     |
 |Bot removido da equipe   |BotRemovedFromTeam         |Um usuário remove um bot de uma equipe.       |
 |Conector removido     |ConnectorRemoved         |Um usuário remove um conector de um canal.         |
 |Membros removidos    |MemberRemoved        |Um proprietário da equipe remove membros de uma equipe, canal ou chat em grupo.         |
 |Guia removida    |TabRemoved         |Um usuário remove uma guia de um canal.         |
+|Aplicativo não instalado |AppUninstalled           |Um aplicativo foi desinstalado.     |
+|Aplicativo atualizado |AppUpdatedInCatalog           |Um aplicativo foi atualizado no catálogo.     |
 |Conector atualizado    |ConnectorUpdated         |Um usuário modificou um conector em um canal.         |
 |Guia atualizado   |TabUpdated         |Um usuário modificou uma guia em um canal.         |
+|Aplicativo atualizado |AppUpgraded           |Um aplicativo foi atualizado para a versão mais recente no catálogo.     |
 |Usuário conectado ao Microsoft Teams     |TeamsSessionStarted         |Um usuário entra em um cliente do Microsoft Teams. Esse evento não captura atividades de atualização de tokens.         |
 
 ## <a name="shifts-in-teams-activities"></a>Turnos nas atividades do teams
@@ -184,4 +191,4 @@ Você pode usar a API de atividade de gerenciamento do Office 365 para recuperar
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-- [Pesquisar o log de auditoria no centro de conformidade do Microsoft 365](https://support.office.com/article/0d4d0f35-390b-4518-800e-0c7ec95e946c)
+- [Pesquisar o log de auditoria no centro de conformidade do Microsoft 365](https://support.office.com/article/0d4d0f35-390b-4518-800e-0c7ec95e946c) 

@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fcaa545f2a704dfad856a4cebbcc9cb9f31d7481
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: e1577000dfe1adcdbc7c1bb0c03ce6c90aa3b29f
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44349765"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666283"
 ---
 # <a name="optimize-feedback-and-reporting-for-your-microsoft-teams-adoption"></a>Otimizar os comentários e relatórios de adoção do Microsoft Teams
 
@@ -56,7 +56,7 @@ Prática recomendada: faça com que os representantes do seu departamento de sup
 
 Há três tipos de relatório que você deve revisar ao implantar e adotar o Microsoft Teams:
 
-- [Integridade do serviço](https://status.office365.com/) – do Microsoft 365 ou do Office 365 e do seu departamento de suporte interno de ti.
+- [Integridade do serviço](https://status.office365.com/) – do Microsoft 365, do Office 365 e do seu departamento de suporte interno de ti.
 - [Atividade do serviço](https://docs.microsoft.com/office365/admin/activity-reports/activity-reports?redirectSourcePath=%252fen-us%252farticle%252fActivity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263&view=o365-worldwide) – do Microsoft 365 ou do Office 365 Veja [relatórios sobre o Microsoft Teams](https://docs.microsoft.com/office365/admin/activity-reports/microsoft-teams-user-activity?redirectSourcePath=%252farticle%252fOffice-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524&view=o365-worldwide). Você também pode usar informações de outros sistemas dentro da sua organização.
 - Satisfação do serviço – coletada de fóruns internos da Comunidade e pesquisas sobre experiências específicas
 

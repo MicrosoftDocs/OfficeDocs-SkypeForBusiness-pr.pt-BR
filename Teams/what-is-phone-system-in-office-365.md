@@ -1,5 +1,5 @@
 ---
-title: O que é o Sistema de Telefonia no Office 365?
+title: O que é o sistema de telefonia?
 ms.reviewer: ''
 author: CarolynRowe
 ms.author: crowe
@@ -20,23 +20,23 @@ f1.keywords:
 ms.custom:
 - Phone System
 - seo-marvel-apr2020
-description: Neste artigo, você aprenderá sobre a tecnologia do sistema telefônico no Microsoft Office 365.
-ms.openlocfilehash: e3db8806733cff76ba69c19338c9d562bdbe6e83
-ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
+description: Neste artigo, você aprenderá sobre a tecnologia do sistema telefônico no Microsoft 365 e no Office 365.
+ms.openlocfilehash: 8f871c065eacd69a1fc607c3a35d9f98032c9b6d
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43951216"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666123"
 ---
-# <a name="what-is-phone-system-in-office-365"></a>O que é o Sistema de Telefonia no Office 365?
+# <a name="what-is-phone-system"></a>O que é o sistema de telefonia?
 
-Um PBX (Private Branch Exchange) é um sistema telefônico em uma empresa. O sistema telefônico no Office 365 oferece recursos de PBX, mas sem o equipamento complicado e caro. 
+Um PBX (Private Branch Exchange) é um sistema telefônico em uma empresa. O sistema telefônico oferece recursos de PBX, mas sem o equipamento complicado e caro. 
 
-O sistema de telefonia permite que você substitua seu sistema de PBX local existente por um conjunto de recursos fornecidos pelo Office 365 que esteja totalmente integrado à sua experiência na nuvem. Para obter mais informações sobre os recursos, consulte o [que você obtém com o sistema telefônico no Office 365](here-s-what-you-get-with-phone-system.md).
+O sistema de telefonia permite que você substitua seu sistema de PBX local existente por um conjunto de recursos fornecidos pelo Microsoft 365 ou o Office 365 que está totalmente integrado à sua experiência na nuvem. Para obter mais informações sobre os recursos, consulte o [que você obtém com o sistema telefônico](here-s-what-you-get-with-phone-system.md).
 
 ## <a name="phone-system-technology"></a>Tecnologia do sistema de telefonia
 
-O sistema de telefonia habilita o controle de chamada e os recursos de PBX na nuvem do Office 365 com o Microsoft Teams e o Skype for Business online. 
+O sistema de telefonia habilita o controle de chamada e os recursos de PBX na nuvem com o Microsoft Teams e o Skype for Business online. 
   
 Com o sistema telefônico, os usuários podem usar o Microsoft Teams ou o Skype for Business online para fazer e receber chamadas, transferir chamadas e ativar ou desativar a opção mudo de chamadas. Os usuários do sistema de telefonia podem clicar em um nome no catálogo de endereços e colocar o Microsoft Teams ou chamadas do Skype for Business online para essa pessoa. Para fazer e receber chamadas, os usuários do sistema telefônico podem usar seus dispositivos móveis, um fone de ouvido com um laptop ou um computador, ou um de vários telefones IP que funcionem com o Teams e o Skype for Business online. Administradores de sistema telefônico podem gerenciar opções e configurações de chamadas do mesmo console usado para mensagens, colaboração e assim por diante.
   
@@ -48,7 +48,7 @@ Para chamadas para fora da sua organização, a Microsoft oferece várias opçõ
   
 O sistema telefônico pode ser conectado à PSTN de uma destas duas maneiras:
   
-- Compre um plano de chamadas da Microsoft (doméstico ou doméstica e internacional) para o Office 365. O plano de chamadas da Microsoft é uma solução completa na nuvem com a Microsoft como sua operadora PSTN. Para obter mais informações, consulte [sistema telefônico e planos de chamada](calling-plan-landing-page.md).
+- Compre um plano de chamadas da Microsoft (doméstico ou doméstica e internacional). O plano de chamadas da Microsoft é uma solução completa na nuvem com a Microsoft como sua operadora PSTN. Para obter mais informações, consulte [sistema telefônico e planos de chamada](calling-plan-landing-page.md).
 
 - Use sua infraestrutura de telefonia existente para conectividade PSTN local.
 
@@ -67,7 +67,7 @@ O sistema telefônico pode ser conectado à PSTN de uma destas duas maneiras:
 
 - **Correio de voz** – quando você recebe uma licença do sistema de telefonia para um usuário, esse usuário pode receber correio de voz que tenha sido deixado por chamadores. A Caixa Postal na Nuvem será automaticamente configurada e provisionada para os usuários depois que você atribuir uma licença do Sistema de Telefonia e um número de telefone a elas. Confira [Configurar a Caixa postal na Nuvem](set-up-phone-system-voicemail.md).
 
-Para obter mais informações sobre recursos, veja [o que você obtém com o sistema telefônico no Office 365](here-s-what-you-get-with-phone-system.md). Se você estiver pronto para começar, consulte [Configurar o sistema telefônico em sua organização](setting-up-your-phone-system.md).
+Para obter mais informações sobre recursos, veja [o que você obtém com o sistema telefônico](here-s-what-you-get-with-phone-system.md). Se você estiver pronto para começar, consulte [Configurar o sistema telefônico em sua organização](setting-up-your-phone-system.md).
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

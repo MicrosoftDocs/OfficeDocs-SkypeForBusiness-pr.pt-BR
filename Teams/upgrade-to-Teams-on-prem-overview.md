@@ -18,14 +18,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 69efb8c74950ffdb4426049558caaf59254b4605
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 6a864828ce925ea289f27de1b3340a50770b4e88
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779798"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665263"
 ---
-# <a name="upgrade-from-skype-for-business-to-teams-mdash-for-it-administrators"></a>Atualize o Skype for Business para o &mdash; Teams para administradores de ti
+# <a name="upgrade-from-skype-for-business-to-teams-mdash-for-it-administrators"></a>Atualize o Skype for Business para o Teams &mdash; para administradores de ti
 
 ## <a name="overview"></a>Visão geral
 
@@ -54,7 +54,7 @@ Com o método de recursos sobrepostos, os usuários podem usar os clientes do Te
 - A comunicação iniciada do cliente das equipes de outro usuário sempre chegará ao cliente do teams do usuário, *se o outro usuário estiver na mesma organização*. 
 - A comunicação iniciada do cliente das equipes de outro usuário sempre chegará ao cliente Skype for Business do usuário A, *se o outro usuário estiver em uma organização federada*.
 
-O modo de ilhas é o modo padrão de TeamsUpgradePolicy para qualquer organização existente que ainda não esteja TeamsOnly. Quando você atribui uma licença do Office 365, as duas equipes e licenças do Skype for Business online são atribuídas por padrão. (Isso é verdadeiro mesmo se o usuário estiver em um local no Skype for Business Server. Não importa se o usuário está hospedado no local ou online, deixe a licença do Skype for Business online habilitada, pois ela é necessária no momento para a funcionalidade completa do teams. Na verdade, se você não tiver feito nenhuma etapa para alterar a configuração padrão, talvez já tenha um uso significativo do teams em sua organização.  Esse é um dos benefícios da abordagem de recursos sobrepostos. Ele permite uma adoção rápida e orientada pelo usuário final em uma organização.
+O modo de ilhas é o modo padrão de TeamsUpgradePolicy para qualquer organização existente que ainda não esteja TeamsOnly. Quando você atribui uma licença do Microsoft 365 ou do Office 365, as duas equipes e licenças do Skype for Business online são atribuídas por padrão. (Isso é verdadeiro mesmo se o usuário estiver em um local no Skype for Business Server. Não importa se o usuário está hospedado no local ou online, deixe a licença do Skype for Business online habilitada, pois ela é necessária no momento para a funcionalidade completa do teams. Na verdade, se você não tiver feito nenhuma etapa para alterar a configuração padrão, talvez já tenha um uso significativo do teams em sua organização.  Esse é um dos benefícios da abordagem de recursos sobrepostos. Ele permite uma adoção rápida e orientada pelo usuário final em uma organização.
 
 Para esse método funcionar de forma eficaz, é preciso que todos os usuários executem os dois clientes simultaneamente. Os chats e chamadas recebidos de dentro da organização para um usuário no modo de Uso Paralelo podem chegar ao cliente do Skype for Business ou do Teams, mas isso não está sob o controle do destinatário. Depende de qual cliente o remetente usa para iniciar a comunicação. Se o remetente e o destinatário estiverem em organizações diferentes, chamadas e chats recebidos para um usuário no modo de Uso Paralelo sempre chegam ao cliente do Skype for Business.  
 
@@ -148,7 +148,7 @@ Os usuários com contas do Skype for Business hospedadas no local [devem ser mov
 
 -   2 etapas: após executar move-CsUser, conceda o modo TeamsOnly ao usuário usando TeamsUpgradePolicy.
 
-Ao contrário de outras políticas, não é possível criar novas instâncias de TeamsUpgradePolicy no Office 365. Todas as instâncias existentes são incorporadas ao serviço.  (Observe que Mode é uma propriedade dentro de TeamsUpgradePolicy, em vez do nome de uma instância de política.) Em alguns--mas não em todos os casos, o nome da instância da política é o mesmo que o modo. Em particular, para atribuir o modo TeamsOnly a um usuário, você concederá a instância "UpgradeToTeams" de TeamsUpgradePolicy a esse usuário. Para ver uma lista de todos os casos, você pode executar o seguinte comando:
+Ao contrário de outras políticas, não é possível criar novas instâncias de TeamsUpgradePolicy no Microsoft 365 ou no Office 365. Todas as instâncias existentes são incorporadas ao serviço.  (Observe que Mode é uma propriedade dentro de TeamsUpgradePolicy, em vez do nome de uma instância de política.) Em alguns--mas não em todos os casos, o nome da instância da política é o mesmo que o modo. Em particular, para atribuir o modo TeamsOnly a um usuário, você concederá a instância "UpgradeToTeams" de TeamsUpgradePolicy a esse usuário. Para ver uma lista de todos os casos, você pode executar o seguinte comando:
 
 ```PowerShell
 Get-CsTeamsUpgradePolicy|ft Identity, Mode, NotifySfbUsers
@@ -238,7 +238,7 @@ Para a opção de atualização de recursos sobrepostos:
 
 - Considere esta opção se você pode fazer uma atualização rápida para a sua organização geral.  Como há um risco potencial de confusão com a execução de ambos os clientes, é melhor se você pode minimizar esse período de tempo. Você deve garantir que os usuários saibam que executar os dois clientes.
 
-- Essa opção é o modelo de caixa de saída e não requer ação do administrador para começar a usar o Microsoft Teams, exceto para atribuir a licença do Office 365. Se seus usuários já têm o Skype for Business Online, você pode já estar nesse modelo.
+- Essa opção é o modelo de caixa de saída e não exige ação do administrador para começar a usar o Microsoft Teams, exceto para atribuir a licença do Microsoft 365 ou do Office 365. Se seus usuários já têm o Skype for Business Online, você pode já estar nesse modelo.
 
 - Pode ser difícil sair do modo de recursos sobrepostos e mover para TeamsOnly. Como os usuários atualizados só se comunicam via Teams, qualquer outro usuário na organização que se comunique com esse usuário deve estar usando o Microsoft Teams.  Se você tiver usuários que não começaram a usar o Teams, eles serão expostos a mensagens ausentes. Além disso, eles não verão os usuários do TeamsOnly online no Skype for Business. Algumas organizações optam por fazer uma atualização em todo o locatário usando a política global do locatário para evitar isso, no entanto, isso exige espera até que todos os usuários estejam prontos para serem atualizados.
 
@@ -343,7 +343,7 @@ Este artigo fornece apenas uma visão geral de alto nível. Para obter mais info
 
 Este é o cenário de atualização mais simples que envolve voz. 
 
-1. Certifique-se de que os usuários receberam uma licença do teams. Por padrão, quando você atribui uma licença do Office 365, o Teams é habilitado, portanto, a menos que você tenha desabilitado anteriormente a licença do Teams, nenhuma ação deve ser necessária.
+1. Certifique-se de que os usuários receberam uma licença do teams. Por padrão, quando você atribui uma licença do Microsoft 365 ou do Office 365, o Teams está habilitado, portanto, a menos que você tenha desabilitado anteriormente a licença do Teams, nenhuma ação deve ser necessária.
 
 2.  Se os usuários já tiverem um plano de chamadas da Microsoft com um número de telefone, a única alteração necessária será atribuir o modo de TeamsOnly do usuário no TeamsUpgradePolicy.  Antes de atribuir o modo de TeamsOnly, as chamadas PSTN de entrada serão feitas no cliente Skype for Business do usuário. Após a atualização para o modo TeamsOnly, as chamadas PSTN de entrada serão enterradas no cliente do teams do usuário.  
 
@@ -365,7 +365,7 @@ As etapas básicas estão listadas abaixo.  As etapas 1-4 são listadas na sequ�
 
 5. Atualize o usuário: essas etapas devem ser coordenadas. 
 
-   - No Office 365, atualize o usuário para o modo TeamsOnly (Grant-CsTeamsUpgradePolicy).
+   - No Microsoft 365 ou no Office 365, atualize o usuário para o modo TeamsOnly (Grant-CsTeamsUpgradePolicy).
    - No SBC, configure o roteamento de voz para permitir chamadas recebidas enviando chamadas para roteamento direto em vez de para o servidor de mediação local.
 
 
@@ -383,7 +383,7 @@ As etapas básicas estão listadas abaixo.  As etapas 1-5 são listadas na sequ�
 
 4. Se desejar, configure várias políticas de equipe para esses usuários (por exemplo, TeamsMessagingPolicy, TeamsMeetingPolicy, etc.). Isso pode ser feito a qualquer momento, mas se você quiser garantir que os usuários tenham a configuração correta quando forem atualizados, é melhor fazer isso antes de o usuário ser atualizado para o TeamsOnly.
 
-5. Atribua as licenças do Office 365, se necessário.  O usuário deve ter o plano 2 do teams online e do Skype for Business Online, bem como o sistema telefônico. Se o Skype for Business online plano 2 estiver desabilitado, habilite-o novamente.  
+5. Atribua as licenças do Microsoft 365 ou do Office 365, se necessário.  O usuário deve ter o plano 2 do teams online e do Skype for Business Online, bem como o sistema telefônico. Se o Skype for Business online plano 2 estiver desabilitado, habilite-o novamente.  
 
 6. Atualize o usuário: essas etapas devem ser coordenadas. 
 
@@ -391,7 +391,7 @@ As etapas básicas estão listadas abaixo.  As etapas 1-5 são listadas na sequ�
 
    - No SBC, configure o roteamento de voz para permitir chamadas recebidas enviando chamadas para roteamento direto em vez de para o servidor de mediação local. 
 
-   - No Office 365: atribua o OnlineVoiceRoutingPolicy relevante para habilitar as chamadas feitas. 
+   - No Microsoft 365 ou no Office 365: atribua o OnlineVoiceRoutingPolicy relevante para habilitar as chamadas feitas. 
 
 
 ### <a name="from-skype-for-business-server-on-premises-with-enterprise-voice-to-microsoft-calling-plan"></a>No Skype for Business Server local, com o Enterprise Voice, para o plano de chamadas da Microsoft
@@ -406,7 +406,7 @@ As etapas básicas estão listadas abaixo.As etapas 1-5 são listadas na sequên
 
 3. Se desejar, configure várias políticas de equipe para esses usuários (por exemplo, TeamsMessagingPolicy, TeamsMeetingPolicy, etc.). Isso pode ser feito a qualquer momento, mas se você quiser garantir que os usuários tenham a configuração correta quando forem atualizados, é melhor fazer isso antes de o usuário ser atualizado para o TeamsOnly. 
 
-4. Atribua as licenças do Office 365, se necessário.O usuário deve ter o plano 2 do teams online e do Skype for Business Online, bem como o sistema telefônico. Se o Skype for Business online plano 2 estiver desabilitado, habilite-o novamente.  
+4. Atribua as licenças do Microsoft 365 ou do Office 365, se necessário.O usuário deve ter o plano 2 do teams online e do Skype for Business Online, bem como o sistema telefônico. Se o Skype for Business online plano 2 estiver desabilitado, habilite-o novamente.  
 
 5. Obter números de telefone para seus usuários. (Para obter detalhes, consulte [gerenciar números de telefone para sua organização](https://docs.microsoft.com/MicrosoftTeams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization).)
 
@@ -556,7 +556,7 @@ Em ambos os casos, a transferência de contatos do Skype for Business para o Mic
 
 [Orientações de migração e interoperabilidade para organizações que usam o Teams em conjunto com o Skype for Business](migration-interop-guidance-for-teams-with-skype.md) 
 
-[Configurar a conectividade híbrida entre o Skype for Business Server e o Office 365](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
+[Configurar a conectividade híbrida entre o Skype for Business Server e o Microsoft 365 ou o Office 365](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
 
 [Mover os usuários entre um ambiente local e a nuvem](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)
 

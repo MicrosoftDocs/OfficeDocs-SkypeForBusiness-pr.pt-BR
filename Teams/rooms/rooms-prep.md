@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Saiba como preparar sua infraestrutura para a implantação de salas do Microsoft Teams para que você possa aproveitar todos os recursos.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5267e27409e41c014d391048b70620fc802d8ff4
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 4309140e249f5ab3674f0b2255ae195821922ad4
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905343"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666163"
 ---
 # <a name="prepare-your-environment"></a>Preparar seu ambiente
 
@@ -55,7 +55,7 @@ Para funcionar corretamente, o dispositivo de salas Microsoft Teams deve ter ace
 - Acessar a instância do Active Directory ou do Azure Active Directory (Azure AD), bem como o servidores Microsoft Exchange e Skype for Business.
 - Acesso a um servidor que pode fornecer um endereço IP usando DHCP. As salas do Microsoft Teams não podem ser configuradas com um endereço IP estático.
 - Acessar as portas HTTP 80 e 443.
-- Portas TCP e UDP configuradas conforme descrito em [requisitos de protocolo e porta para servidores](/skypeforbusiness/plan-your-deployment/network-requirements/ports-and-protocols) para implementações do Skype for Business Server no local ou [URLs do Office 365 e intervalos de endereços IP](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US) para as implementações do Microsoft Teams ou do Skype for Business online.
+- Portas TCP e UDP configuradas conforme descrito em [requisitos de protocolo e porta para servidores](/skypeforbusiness/plan-your-deployment/network-requirements/ports-and-protocols) para implementações do Skype for Business Server no local, ou [URLs do Microsoft 365 e do Office 365 e intervalos de endereços IP](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US) para as implementações do Microsoft Teams ou do Skype for Business online.
 
 > [!IMPORTANT]
 > Use uma conexão de rede de 1 Gbps com fio para assegurar a largura de banda necessária. 
@@ -110,7 +110,7 @@ Para usar esse aplicativo, você deve poder conectar-se aos pontos de extremidad
 
 |Objetivo|Origem ou credenciais|Porta de origem|Destino|CDN|ExpressRoute para Office 365|IP de destino|Porta de Destino|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|Autenticação ou identidade  <br/> |Consulte [autenticação e identidade do Office 365](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_Identity) <br/> |||
+|Autenticação ou identidade  <br/> |Consulte [autenticação e identidade do Microsoft 365 e do Office 365](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_Identity) <br/> |||
 |Portal e compartilhamento  <br/> |Consulte [centro de administração do Microsoft 365 e compartilhado](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_Portal-identity) <br/> |||
 |Sinalização SIP  <br/> |Computador cliente ou usuário conectado  <br/> |Portas efêmeras  <br/> |\*. contoso.com  <br/> |Não  <br/> |Sim  <br/> |[Intervalos de IP do Skype for Business](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443  <br/> |
 |Conferência Web com conexões PSOM (Modelo de Objeto Compartilhado Persistente)  <br/> |Computador cliente ou usuário conectado  <br/> |Portas efêmeras  <br/> |\*. contoso.com  <br/> |Não  <br/> |Sim  <br/> |[Intervalos de IP do Skype for Business](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443  <br/> |
@@ -123,11 +123,11 @@ Para usar esse aplicativo, você deve poder conectar-se aos pontos de extremidad
 |Dicas rápidas do cliente Skype  <br/> |Computador cliente ou usuário conectado  <br/> |Portas efêmeras  <br/> |quicktips.skypeforbusiness.com  <br/> |Não  <br/> |Não  <br/> |N/D  <br/> |TCP 443  <br/> |
 
 > [!NOTE]
-> O curinga para contoso.com e broadcast.skype.com representa uma longa lista de nós que são usados exclusivamente para o Office 365. 
+> O caractere curinga para contoso.com e broadcast.skype.com representa uma longa lista de nós que é usada exclusivamente para o Microsoft 365 ou o Office 365. 
   
 ### <a name="create-provisioning-packages"></a>Criar pacotes de provisionamento
 
-Você usará pacotes de provisionamento para autenticar o Exchange Server ou o Office 365.
+Você usará pacotes de provisionamento para autenticar o Exchange Server, o Microsoft 365 ou o Office 365.
   
 ### <a name="admin-group-management"></a>Gerenciamento de grupo de administradores
 
@@ -155,7 +155,7 @@ A senha do Administrador local não é incluída como opção durante a Instala�
   
 ### <a name="machine-account"></a>Conta do computador
 
-Assim como qualquer dispositivo com Windows, o nome do computador pode ser renomeado clicando com o \> botão \> direito do mouse em configurações sobre renomear computador.
+Assim como qualquer dispositivo com Windows, o nome do computador pode ser renomeado clicando com o botão direito do mouse em configurações \> sobre \> renomear computador.
   
  Se você quiser renomear o computador após ingressar em um domínio, use o comando rename-Computer PowerShell seguido pelo novo nome do computador.
   

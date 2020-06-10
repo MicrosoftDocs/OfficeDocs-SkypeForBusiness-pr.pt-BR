@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Saiba como configurar o sistema telefônico para filas de chamadas em nuvem com o Microsoft Teams, que fornecem uma mensagem de saudação, suspender música, redirecionamento de chamada e outros recursos.
-ms.openlocfilehash: 9c2593f657ae66a1dcde825ac7a783df10cd96d8
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: 6bf3353a86cc096d5d9f9891315d9b47de40e9f4
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44523772"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44669424"
 ---
 # <a name="create-a-cloud-call-queue"></a>Criar uma fila de chamada do Cloud
 
@@ -48,6 +48,7 @@ Todas as chamadas na fila são enviadas aos agentes por um dos seguintes método
 
 - Com o roteamento de atendedor, a primeira chamada na fila toca todos os agentes ao mesmo tempo.
 - Com o roteamento serial, a primeira chamada na fila toca todos os agentes de chamada um por vez.
+- Com roteamento de ociosidade mais longo, o agente de chamada cujo tempo está ocioso o tempo mais longo recebe a próxima chamada disponível. O tempo ocioso é definido como o período de tempo durante o qual o estado de presença de um agente de chamada é definido como **disponível** ou **ausente** (se for menor que 10 minutos), no momento da chamada. Se a presença de um agente de chamada estiver **ausente** por mais de 10 minutos, o cronômetro de ociosidade será redefinido.
 - Com o rodízio, o roteamento de chamadas recebidas é balanceado para que cada agente de chamadas obtenha o mesmo número de chamadas da fila.
 
 Você pode definir as opções de gerenciamento de chamadas, como consentimento de agente/recusa, roteamento baseado em presença, tempo de espera de chamada e opções de tempo limite de chamada com qualquer um dos métodos acima.
@@ -166,7 +167,7 @@ Você pode selecionar até 200 agentes de chamada que pertencem a qualquer uma d
 - Grupo de segurança
 - Lista de distribuição
 
-Os agentes de chamada selecionados devem ser um dos seguintes:
+Os agentes de chamada selecionados devem ser um dos seguintes: 
 
 - Usuários online com uma licença do sistema telefônico e Enterprise Voice habilitadas
 - Usuários online com um plano de chamada
@@ -202,19 +203,25 @@ Depois que o modo de conferência estiver habilitado em uma fila de chamadas, as
 
 A maioria das chamadas é recebida por meio de um dos métodos listados acima. Se uma chamada for recebida por meio de outro método (como uma chamada de VoIP de um cliente Skype for Business), a chamada ainda será adicionada à fila de chamadas, mas não se beneficiará do tempo de conexão mais rápido.
 
-![Do número 3, faz referência a um balão no método de roteamento de captura de tela anterior, ](media/teamscallout3.png)
- **Routing method** você pode escolher o **atendedor**, a **série**ou o **rodízio** como o método de distribuição. Todas as filas de chamadas novas e existentes têm roteamento de atendedor selecionado por padrão. Quando o roteamento do atendente é usado, a primeira chamada na fila toca em todos os agentes de chamada ao mesmo tempo. O primeiro agente de chamadas para atender a chamada recebe a chamada.
+![O ícone do número 3 faz referência a um balão no método de roteamento de captura de tela anterior, ](media/teamscallout3.png)
+ **Routing method** você pode escolher **atendedor**, **serial**, **Idle mais longo**ou **rodízio** como método de distribuição. Todas as filas de chamadas novas e existentes têm roteamento de atendedor selecionado por padrão. Quando o roteamento do atendente é usado, a primeira chamada na fila toca em todos os agentes de chamada ao mesmo tempo. O primeiro agente de chamadas para atender a chamada recebe a chamada.
 
 - O **Roteamento de atendedor** faz com que a primeira chamada na fila toque em todos os agentes de chamada ao mesmo tempo. O primeiro agente de chamadas para atender a chamada recebe a chamada.
 - **Roteamento serial** as chamadas recebidas entram em contato com todos os agentes de chamada, um por um, do início da lista de agentes de chamadas. Os agentes não podem ser solicitados na lista agente de chamadas. Se um agente ignorar ou não atender a chamada, a chamada tocará no próximo agente e experimentará todos os agentes até que ele seja retirado ou expirado.
+- As rotas **ociosas mais longas** a próxima chamada disponível para o agente de chamadas, cujo tempo está ocioso o mais longo. O tempo ocioso é definido como o período de tempo durante o qual o estado de presença de um agente de chamada é definido como **disponível** ou **ausente** (se for menor que 10 minutos), no momento da chamada. Se a presença de um agente de chamada estiver definida como **ausente** por mais de 10 minutos, o cronômetro de ociosidade será redefinido. Os Estados de presença de usuários são consultados a cada minuto.
+
+    É importante saber que habilitar essa configuração força o **roteamento baseado em presença** a ser habilitado também.
+
+    > [!IMPORTANT]
+    > Os agentes que usam o cliente Skype for Business não receberão chamadas quando a configuração ociosa mais longa estiver habilitada. Se você tiver agentes que usam o Skype ou o negócio, não habilite essa configuração.
 - O direcionamento de **rodízio** equilibra a circulação de chamadas de entrada para que cada agente de chamadas obtenha o mesmo número de chamadas da fila. Isso pode ser desejável em um ambiente de vendas de entrada para garantir uma oportunidade igual entre todos os agentes de chamadas.
 
 ![O ícone do número 4 faz referência a um balão no roteamento baseado em presença de roteamento baseado em presença de captura de tela anterior ](media/teamscallout4.png)
- **Presence-based routing** que usa o status de disponibilidade dos agentes de chamada para determinar se um agente deve ser incluído na lista de roteamento de chamadas para o método de roteamento selecionado. Os agentes de chamada cujo status de disponibilidade está definido como **disponível** estão incluídos na lista de circulação de chamadas e podem receber chamadas. Os agentes cujo status de disponibilidade é definido como qualquer outro status serão excluídos da lista de roteamento de chamadas e não receberão chamadas até que seu status de disponibilidade mude novamente para **disponível**.
+ **Presence-based routing** que usa o status de disponibilidade dos agentes de chamada para determinar se um agente deve ser incluído na lista de roteamento de chamadas para o método de roteamento selecionado. Os agentes de chamada cujo status de disponibilidade está definido como **disponível** estão incluídos na lista de circulação de chamadas e podem receber chamadas. Os agentes cujo status de disponibilidade é definido como qualquer outro status serão excluídos da lista de roteamento de chamadas e não receberão chamadas até que seu status de disponibilidade mude novamente para **disponível**.  
 
 Você pode habilitar o roteamento de chamadas baseado em presença com qualquer um dos métodos de roteamento.
 
-Se um agente optar por não receber chamadas, ele não será incluído na lista de roteamento de chamadas, independentemente do seu status de disponibilidade definido como.
+Se um agente optar por não receber chamadas, ele não será incluído na lista de roteamento de chamadas, independentemente do seu status de disponibilidade definido como. 
 
 > [!IMPORTANT]
 > Os agentes que usam o cliente Skype for Business não são incluídos na lista de roteamento de chamadas quando o roteamento baseado em presença está habilitado, independentemente de seu status de disponibilidade. Os agentes que não estão na lista de circulação de chamadas não recebem chamadas. Se você tiver agentes que usam o Skype for Business, não habilite o encaminhamento de chamadas baseado em presença.
@@ -267,7 +274,7 @@ A configuração padrão é 30 segundos, mas pode ser definida por até 3 minuto
 - **Desconectar** A chamada está desconectada.
 - **Redirecionar para** Ao escolher essa opção, selecione uma das seguintes opções:
 
-  - **Pessoa em sua empresa** Um usuário online com uma licença do **sistema de telefonia** e estar habilitado para o Enterprise Voice ou ter um plano de chamada. Você pode configurá-lo para que o chamador possa ser enviado para o correio de voz. Para fazer isso, selecione uma **pessoa em sua empresa** e defina esta pessoa para que as chamadas sejam encaminhadas diretamente para o correio de voz.
+  - **Pessoa na organização** Um usuário online com uma licença do **sistema de telefonia** e estar habilitado para o Enterprise Voice ou ter um plano de chamada. Você pode configurá-lo para que o chamador possa ser enviado para o correio de voz. Para fazer isso, selecione uma pessoa em sua organização e defina esta pessoa para que as chamadas sejam encaminhadas diretamente para o correio de voz.
 
   Para saber mais sobre as licenças necessárias para correio de voz, consulte [Configurar correio de voz na nuvem](set-up-phone-system-voicemail.md).
 
@@ -285,7 +292,7 @@ O valor de tempo limite pode ser definido em segundos, em intervalos de 15 segun
 
 - **Desconectar** A chamada está desconectada.
 - **Redirecionar esta chamada para** Ao escolher esta opção, você tem estas opções:
-  - **Pessoa em sua empresa** Um usuário online com uma licença do **sistema de telefonia** e estar habilitado para o Enterprise Voice ou ter planos de chamada. Para configurá-lo para que a pessoa que está ligando possa ser enviada para o correio de voz, selecione uma **pessoa em sua empresa** e defina esta pessoa para que as chamadas sejam encaminhadas diretamente para o correio de voz.
+  - **Pessoa na organização** Um usuário online com uma licença do **sistema de telefonia** e estar habilitado para o Enterprise Voice ou ter planos de chamada. Para configurá-lo para que a pessoa que está ligando possa ser enviada para o correio de voz, selecione uma pessoa em sua organização e defina esta pessoa para que as chamadas sejam encaminhadas diretamente para o correio de voz.
 
   Para saber mais sobre as licenças necessárias para correio de voz, consulte [Configurar correio de voz na nuvem](set-up-phone-system-voicemail.md).
 

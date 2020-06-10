@@ -23,16 +23,16 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Saiba os países e regiões que têm números de conferência discada e como eles são atribuídos automaticamente.
-ms.openlocfilehash: 9f130ec72d398e55ff3f4890ae89422915fc47a2
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: c353fa46e271b6bdec72944565e595592e3810d1
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779607"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665883"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-microsoft-teams"></a>Números de telefone para Audioconferência no Microsoft Teams
 
-Quando você configura a conferência a **Audioconferência** para o Microsoft Teams, números de telefone de discagem são atribuídos automaticamente à sua organização. Para ver os números de telefone atribuídos à sua ponte de conferência de áudio, no centro de administração do Microsoft Teams, vá para **reuniões** > **conferência Bridges**. Para obter mais informações, acesse [ver uma lista de números de audioconferência](see-a-list-of-audio-conferencing-numbers-in-teams.md).
+Quando você configura a conferência a **Audioconferência** para o Microsoft Teams, números de telefone de discagem são atribuídos automaticamente à sua organização. Para ver os números de telefone atribuídos à sua ponte de conferência de áudio, no centro de administração do Microsoft Teams, vá para **reuniões**  >  **conferência Bridges**. Para obter mais informações, acesse [ver uma lista de números de audioconferência](see-a-list-of-audio-conferencing-numbers-in-teams.md).
   
   
 ## <a name="audio-conferencing-coverage-and-pricing"></a>Cobertura e preços da Audioconferência
@@ -50,7 +50,7 @@ Existem dois tipos de números de telefone de audioconferência que podem ser at
   
 - **Números de telefone dedicados** são os que estão disponíveis apenas para usuários em sua organização. Você pode alterar os idiomas usados quando alguém liga para um desses números.
   
-- Os **números de telefone compartilhados** são os números de telefone que podem ser compartilhados com outros serviços do Microsoft 365 ou do Office 365s. Você não pode alterar os idiomas que são usados quando alguém liga para um desses números.
+- Os **números de telefone compartilhados** são os números de telefone que podem ser compartilhados com outros 365 ou o Office 365. Você não pode alterar os idiomas que são usados quando alguém liga para um desses números.
   
 Embora o número de audioconferência padrão atribuído a um organizador só seja incluído no convite da reunião, um chamador pode usar qualquer um dos números de telefone atribuídos à ponte de conferência para entrar em uma reunião. A lista de números de telefone que podem ser usados para ingressar em uma reunião está disponível por meio do link **Encontrar um número local** incluído em todos os convites de reunião.
   
@@ -78,4 +78,4 @@ Para ver uma lista dos países/regiões que têm números de telefone automatica
    
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Experimentar ou comprar a audioconferência no Office 365](/skypeforbusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[Experimentar ou comprar videoconferências no Microsoft 365 ou no Office 365](/skypeforbusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

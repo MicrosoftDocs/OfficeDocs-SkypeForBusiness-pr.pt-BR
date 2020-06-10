@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 68d8ff88e34fac291560b414c18055a12d838a91
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: da8f257e6e5d3a3adaaa8e1412187de9cbf8dbe3
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042788"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638770"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Gerenciar a oferta de avaliação na nuvem comercial do Microsoft Teams
 =======================================================
@@ -55,7 +55,7 @@ A versão de avaliação concede uma assinatura de avaliação de um ano para to
 
 Habilite os usuários para se inscreverem em aplicativos e versões de avaliação (no Centro de administração do Office 365). Para obter mais informações, consulte [Gerenciar a avaliação](#manage-the-trial), mais adiante neste artigo. 
 
-Os usuários que não têm uma licença do Office 365 que inclui o Teams podem iniciar a oferta de avaliação do Microsoft Teams Commercial Cloud. Por exemplo, se um usuário tiver o Microsoft 365 Apps for business (que não inclui o Teams), ele estará qualificado para a avaliação.
+Os usuários que não têm uma licença do Microsoft 365 ou Office 365 que inclui o Teams podem iniciar a oferta de avaliação do Microsoft Teams Commercial Cloud. Por exemplo, se um usuário tiver o Microsoft 365 Apps for business (que não inclui o Teams), ele estará qualificado para a avaliação.
 
 ## <a name="who-is-not-eligible"></a>Quem não está qualificado
 
@@ -148,6 +148,6 @@ Para saber mais, confira [Descrição do serviço do Microsoft Teams](https://do
 
 A partir de 22 de abril de 2019, os usuários podem começar a solicitar a licença de avaliação do Microsoft Teams Commercial Cloud mais recente. Caso pretenda migrar os usuários em sua organização da licença de avaliação herdada e para o mais recente, primeiro será necessário remover a licença de avaliação herdada do Microsoft Teams de cada usuário. Após a remoção da licença herdada, todos os usuários afetados poderão solicitar a licença de avaliação do Microsoft Teams Commercial Cloud.
 
-- Se você quiser remover essa licença por meio do PowerShell, confira [: remover licenças de contas de usuário com o Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell)
+- Se você quiser remover essa licença por meio do PowerShell, confira: [Remover licenças de contas de usuário com o Microsoft 365 ou Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell)
 
-- Se você quiser remover essa licença por meio do portal de administração, confira: [remover licenças de usuários no Office 365 para empresas](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/remove-licenses-from-users?view=o365-worldwide)
+- Se você quiser remover essa licença por meio do portal de administração, confira: [Remover licenças de usuários](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/remove-licenses-from-users?view=o365-worldwide)

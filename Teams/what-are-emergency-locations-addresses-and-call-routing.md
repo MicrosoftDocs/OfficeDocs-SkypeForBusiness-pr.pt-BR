@@ -24,12 +24,12 @@ ms.custom:
 - Direct Routing
 - seo-marvel-mar2020
 description: Saiba mais sobre chamadas de emergência, incluindo informações sobre endereços de emergência, roteamento de chamadas de emergência e chamadas de emergência dinâmicas.
-ms.openlocfilehash: 889446ca08289ccb15128bee8ca6b6170398c599
-ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
+ms.openlocfilehash: b41b7e9b4442e10cf3ca352a9d6460f2d537b43e
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44539488"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665153"
 ---
 # <a name="manage-emergency-calling"></a>Gerenciar chamadas de emergência
 
@@ -84,7 +84,7 @@ Quando o local deve estar associado ao número de telefone, depende do país/reg
 
 - Nos Estados Unidos e no Canadá, por exemplo, uma localização de emergência é necessária quando um número é atribuído a um usuário.
 
-- Para outros países, como &mdash; na Europa, Oriente Médio e África (EMEA), &mdash; é preciso um local de emergência quando você recebe o número de telefone do Office 365 ou quando ele é transferido de outro provedor de serviços ou operadora.
+- Para outros países--como na Europa, Oriente Médio e África (EMEA)-um local de emergência é necessário quando você recebe o número de telefone do Microsoft 365 ou do Office 365 ou quando ele é transferido de outro provedor de serviços ou operadora.
 
 ### <a name="dynamic-emergency-calling"></a>Chamadas de emergência dinâmicas
 

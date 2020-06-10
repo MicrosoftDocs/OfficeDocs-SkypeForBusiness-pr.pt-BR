@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Saiba qual escrivaninha e telefones de conferências são certificados para que o Microsoft Teams produza os melhores resultados.
-ms.openlocfilehash: 37fd96db69b456ac5659cc430da19d2aad6fa560
-ms.sourcegitcommit: 2295a668a6f118b95f010e81150351741572b076
+ms.openlocfilehash: f25373f0d7b35163bd1fce2d5662e5eb96e5aeab
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "44412628"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666113"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>Telefones IP certificados para o Microsoft Teams
 
@@ -67,7 +67,10 @@ As seguintes barras de colaboração são certificadas para o Microsoft Teams:
 
 |Modelo de barra de colaboração|Versão do firmware|Data de lançamento |Tamanho da sala (até)|
 |:---|:---|:---|:---|
+|X30 de Polyline Studio | 3.1.1.216109| De junho de 2020|Sala de foco (3m x 3ms) </br> Pequena sala de reunião (4,5 m x 4,5 m)|
+|X50 de Polyline Studio | 3.1.1.216109| De junho de 2020|Sala de foco (3m x 3ms) </br> Pequena sala de reunião (4,5 m x 4,5 m)|
 |Yealink VC210| 118.15.0.14|Fevereiro de 2020|Sala de foco (3m x 3ms) </br> Pequena sala de reunião (4,5 m x 4,5 m)|
+
 
 Consulte [conjunto de recursos de telefones do Microsoft Teams](/MicrosoftTeams/devices/phones-for-teams#microsoft-teams-phones-feature-set) para obter informações sobre os recursos compatíveis com esses dispositivos.
 

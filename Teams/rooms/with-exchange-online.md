@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: Leia este tópico para obter informações sobre como implantar salas do Microsoft Teams com o Exchange Online e o Skype for Business Server no local.
-ms.openlocfilehash: aa106c525a1d6b25513fe0c9aa0614e222ce75ca
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 03999e5717f784166387c823c95af1e333d4f942
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905283"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666143"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-online"></a>Implantar as Salas do Microsoft Teams com o Exchange Online
 
@@ -86,7 +86,7 @@ Se você implantou o AD FS (serviços de Federação do Active Directory), talve
 4. Clique em **Concluir** para criar a conta.
 5. Depois de criar a conta, execute uma sincronização de diretório. Isso pode ser feito usando [set-MsolDirSyncConfiguration](https://docs.microsoft.com/powershell/module/msonline/set-msoldirsyncconfiguration?view=azureadps-1.0) no PowerShell. Quando concluir, vá para a página usuários e verifique se as duas contas criadas nas etapas anteriores foram mescladas.
 
-### <a name="assign-an-office-365-license"></a>Atribuir uma licença do Office 365
+### <a name="assign-a-microsoft-365-or-office-365-license"></a>Atribuir uma licença do Microsoft 365 ou do Office 365
 
 1. Primeiro, conecte-se ao Azure AD para aplicar algumas configurações de conta. Você poderá executar este cmdlet para se conectar. Para obter detalhes sobre o Active Directory, consulte [Azure ActiveDirectory (MSOnline) 1,0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0).
 
@@ -100,8 +100,8 @@ Se você implantou o AD FS (serviços de Federação do Active Directory), talve
      Connect-AzureAD -Credential $cred
      ``` -->
 
-2. A conta de usuário precisa ter uma licença válida do Office 365 para garantir que o Exchange e o Skype for Business Server funcionem. Se você tiver a licença, será necessário atribuir um local de uso à sua conta de usuário — isso determina quais SKUs de licença estão disponíveis para a sua conta. Você fará a atribuição em uma etapa seguinte.
-3. Em seguida, use`Get-MsolAccountSku` <!--Get-AzureADSubscribedSku--> para recuperar uma lista de SKUs disponíveis para sua organização do Office 365.
+2. A conta de usuário precisa ter uma licença válida do Microsoft 365 ou do Office 365 para garantir que o Exchange e o Skype for Business Server funcionem. Se você tiver a licença, será necessário atribuir um local de uso à sua conta de usuário — isso determina quais SKUs de licença estão disponíveis para a sua conta. Você fará a atribuição em uma etapa seguinte.
+3. Em seguida, use`Get-MsolAccountSku` <!--Get-AzureADSubscribedSku--> para recuperar uma lista de SKUs disponíveis para sua organização do Microsoft 365 ou do Office 365.
 4. Depois de listar os SKUs, você pode adicionar uma licença usando o botão`Set-MsolUserLicense` <!-- Set-AzureADUserLicense--> cmdlet. Nesse caso, $strLicense é o código de SKU que você vê (por exemplo, contoso:STANDARDPACK). 
 
     ```PowerShell
@@ -140,7 +140,7 @@ Se você implantou o AD FS (serviços de Federação do Active Directory), talve
 
 ### <a name="assign-a-skype-for-business-server-license-to-your-microsoft-teams-rooms-account"></a>Atribuir uma licença do Skype for Business Server à sua conta de salas do Microsoft Teams
 
-1. Faça logon como administrador de locatários, abra o portal administrativo do Office 365 e clique no aplicativo de administração.
+1. Faça logon como administrador de locatários, abra o centro de administração do Microsoft 365 e clique no aplicativo de administração.
 2. Clique em **Usuários e Grupos** e clique em **Adicionar usuários, redefinir senhas e muito mais**.
 3. Clique na conta de salas do Microsoft Teams e, em seguida, clique no ícone de caneta para editar as informações da conta.
 4. Clique em **Licenças**.
@@ -150,7 +150,7 @@ Se você implantou o AD FS (serviços de Federação do Active Directory), talve
 Para a validação, você deve ser capaz de usar qualquer cliente Skype for Business para se conectar a esta conta.
 
 > [!NOTE]
-> Se você estiver usando os SKUs E1, E3, E4 ou E5 com o Skype for Business plano 2 com videoconferência ou com o sistema telefônico do Office 365 e um plano de chamadas, eles continuarão a funcionar. No entanto, você deve considerar mudar para um modelo de licenciamento mais simples, conforme descrito na [atualização de licenciamento da sala de reunião do teams](rooms-licensing.md), após a expiração das licenças atuais.
+> Se você estiver usando SKUs E1, E3, E4 ou E5 com o Skype for Business plano 2 com conferência de áudio ou com o sistema telefônico e um plano de chamadas, isso continuará funcionando. No entanto, você deve considerar mudar para um modelo de licenciamento mais simples, conforme descrito na [atualização de licenciamento da sala de reunião do teams](rooms-licensing.md), após a expiração das licenças atuais.
 
 > [!IMPORTANT]
 > Se você estiver usando o plano 2 do Skype for Business, só poderá usar as salas do Microsoft Teams no modo somente Skype for Business, o que significa que todas as suas reuniões serão reuniões do Skype for Business. Para habilitar sua sala de reunião para reuniões do Microsoft Teams, recomendamos que você compre a licença da sala de reunião.

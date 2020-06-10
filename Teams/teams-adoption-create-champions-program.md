@@ -21,12 +21,12 @@ f1.keywords:
 description: Saiba como treinar uma equipe de especialistas para promover a adoção do Teams, gerando conscientização, adoção e educação em sua organização.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e2c44be9ac59b3a7c076540b658cf27bf74ef0e8
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: 9f6a54a6da5aa12e92e6ae50960cca5e5faf6d0a
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44350255"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665993"
 ---
 # <a name="create-your-champions-program-for-microsoft-teams"></a>Criar seu programa de defensores do Microsoft Teams
 
@@ -45,7 +45,7 @@ Os campeões devem:
 
 Use o [Guia do programa de campeões](https://go.microsoft.com/fwlink/?linkid=854665) para criar este programa em sua organização. Nossas práticas recomendadas para esta comunidade são:
 
-- Participe do programa Microsoft 365 ou Microsoft Office 365 [campeões](https://aka.ms/O365Champions). Certifique-se de que, no mínimo, os líderes do programa Champion (e de todos os campeões da empresa) sejam membros do programa. Esta chamada de comunidade mensal gratuita fornecerá informações valiosas para a execução do seu próprio programa e obter o máximo de equipes e outros serviços do Microsoft 365 ou do Office 365. Os materiais do programa podem ser reutilizados em seu próprio programa interno.
+- Participe do [programa de campeões](https://aka.ms/O365Champions). Certifique-se de que, no mínimo, os líderes do programa de Campeões (e de todos os campeões da empresa) sejam membros do programa. Esta chamada de comunidade mensal gratuita fornecerá informações valiosas para a execução do seu próprio programa e obter o máximo de equipes e outros serviços do Microsoft 365 ou do Office 365. Os materiais do programa podem ser reutilizados em seu próprio programa interno.
 
 - Use a equipe de defensor do trabalho em equipe: seus campeões devem usar a equipe que você tem configurado para todas as comunicações de programas, comentários e localizar recursos.  Ao fazer isso, eles ficarão cada vez mais familiarizados com o produto e seus benefícios.
 

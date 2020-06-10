@@ -19,12 +19,12 @@ ms.collection:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 51d4170d949daa9c53cb8035ab0a3249e4127ca3
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: 9388b9933a21bb36f28c4175836d56daab07faf6
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44523044"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666213"
 ---
 # <a name="prepare-your-it-staff-for-microsoft-teams"></a>Preparar sua equipe de ti para o Microsoft Teams
 
@@ -37,7 +37,7 @@ Este artigo faz parte do estágio de Preparação Técnica da sua jornada de atu
 - [Compreendeu a coexistência e interoperabilidade do Skype for Business e do Teams](https://aka.ms/SkypeToTeams-Coexist)
 - [Escolheu sua jornada de atualização](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
-Seus administradores da organização do Office 365, líderes técnicos e support Desk podem ser levados em consideração para oferecer uma experiência de usuário de alta qualidade. Isso inclui garantir que sua rede esteja pronta para dar suporte a equipes, configurar equipes para seus usuários e poder solucionar problemas que possam surgir e solucionar problemas que possam surgir.
+Seus administradores da organização do Microsoft 365 ou do Office 365, clientes potenciais técnicos e support Desk, são promovedos para a condução de uma experiência de usuário de alta qualidade. Isso inclui garantir que sua rede esteja pronta para dar suporte a equipes, configurar equipes para seus usuários e poder solucionar problemas que possam surgir e solucionar problemas que possam surgir.
 
 Compartilhe os recursos a seguir com os membros da equipe de ti e confirme se estão prontos para dar suporte aos usuários antes de começar a atualização para o Microsoft Teams:
 

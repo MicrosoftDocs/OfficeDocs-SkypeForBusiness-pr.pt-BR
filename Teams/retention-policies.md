@@ -17,25 +17,25 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: be3df465c740aef7069a77cb7a7562fd0ecd8cd9
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: ccbdf48463ab504c1eac51b9558d3edb07533c70
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042438"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666173"
 ---
 # <a name="retention-policies-in-microsoft-teams"></a>Políticas de retenção no Microsoft Teams
 
 As políticas de retenção ajudam a gerenciar com mais eficiência as informações da sua organização. Use políticas de retenção para manter os dados necessários para cumprir as políticas internas da sua organização, regulamentações do setor ou necessidades jurídicas, além de excluir os dados considerados um passivo, que não são mais necessários, ou que não têm nenhum valor legal ou comercial.
 
-Por padrão, os dados de chat, canal e arquivos de equipe são mantidos para sempre, a menos que haja uma tentativa de excluir o conteúdo por meio de políticas de retenção, exclusões do usuário, exclusões de administradores, etc. Como administrador, você pode configurar as políticas de retenção de equipes para mensagens de chat e de canal e decidir proativamente se deseja manter os dados, excluí-los ou mantê-los por um período específico de tempo e, em seguida, excluí-los.
+Por padrão, os dados de chat, canal e arquivos de equipe são mantidos indefinidamente, a menos que haja uma tentativa de excluir o conteúdo por meio de políticas de retenção, exclusões do usuário, exclusões de administradores, etc. Como administrador, você pode configurar as políticas de retenção de equipes para mensagens de chat e de canal e decidir proativamente se deseja manter os dados, excluí-los ou mantê-los por um período específico de tempo e, em seguida, excluí-los.
 
 Você cria e gerencia políticas de retenção para equipes e outras cargas de trabalho no [centro de conformidade do Microsoft 365](https://protection.office.com/) ou usando os cmdlets do PowerShell do centro de conformidade do & central de segurança. Você pode aplicar uma política de retenção do Teams para toda a organização ou para usuários e equipes específicas.
 
 > [!NOTE]
 > Ainda não damos suporte à configuração para a retenção de mensagens de canal privado. A retenção de arquivos compartilhados em canais privados tem suporte.
 
-Para saber mais sobre as políticas de retenção do Office 365, confira [Visão geral das políticas de retenção](https://support.office.com/article/overview-of-retention-policies-5e377752-700d-4870-9b6d-12bfc12d2423).
+Para saber mais sobre as políticas de retenção do Microsoft 365 ou do Office 365, consulte [visão geral de políticas de retenção](https://support.office.com/article/overview-of-retention-policies-5e377752-700d-4870-9b6d-12bfc12d2423).
 
 ## <a name="what-are-retention-policies-for-teams"></a>O que são políticas de retenção para o Teams?
 
@@ -148,7 +148,7 @@ Para excluir uma política de retenção do Teams, siga este procedimento:
 
 ### <a name="using-powershell"></a>Usando o PowerShell
 
-Para criar e gerenciar as políticas de retenção de equipes usando o [Office 365 Security & Compliance PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell), use os seguintes cmdlets:
+Para criar e gerenciar as políticas de retenção de equipes usando o [PowerShell do centro de conformidade do &](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell), use os seguintes cmdlets:
 
 |Política|Rule|
 |---|---|

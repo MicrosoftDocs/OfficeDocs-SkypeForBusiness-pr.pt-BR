@@ -15,12 +15,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: Veja quais periféricos e dispositivos USB, como fones de ouvido com microfone, telefones-voz, webcams e monitores, são certificados para o Microsoft Teams.
-ms.openlocfilehash: 9ad1e4f564306872588dda2ce82ca1c1504db95d
-ms.sourcegitcommit: 184f4f61a3e739a1cfa533c6d95d405d887ea25d
+ms.openlocfilehash: 587b4cd4af1c80709fe1f9c306d34f32ef2d37e5
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/06/2020
-ms.locfileid: "44591291"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666103"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Dispositivos de áudio e vídeo USB certificados para o Microsoft Teams
 
@@ -78,6 +78,7 @@ Se você for um fabricante e quiser participar do programa de certificação, co
 
 | Fabricante        | Modelo                                                     | Qualificação      | Programa certificado                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Jabra              | 750 viva-voz com Jabra Link 370       | 5/21/2020 | Certificado para o Microsoft Teams|
 | EPOS                | Fone de ouvido com microfone Sennheiser Adaptive 660                              | 5/15/2020      | Certificado para o Microsoft Teams                          |
 | EPOS                | Fone de ouvido com microfone Sennheiser Adaptive 560                              | 5/15/2020      | Certificado para o Microsoft Teams                          |
 | EPOS                | Sennheiser adaptação 460T fone de ouvido                             | 5/15/2020      | Certificado para o Microsoft Teams                          |

@@ -14,18 +14,18 @@ ms.assetid: ''
 ms.collection:
 - M365-collaboration
 description: Saiba como configurar a autenticação moderna para salas do Microsoft Teams
-ms.openlocfilehash: ee95de457d5af82fb68acb4fd79b6b5a5a3a7ed0
-ms.sourcegitcommit: 56ceda54ca48d2984298d4d1f26017c0147d4431
+ms.openlocfilehash: f44fe0e66e5dd219606b2ceaa3860e01164ccfa4
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "43505608"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666253"
 ---
 # <a name="authentication-in-microsoft-teams-rooms"></a>Autenticação em salas do Microsoft Teams
 
 O gerenciamento de contas para dispositivos de salas do Microsoft Teams é manipulado no nível do aplicativo. O aplicativo se conecta ao Microsoft Teams, ao Skype for Business e ao Exchange para obter recursos para a conta da sala para habilitar as experiências de chamada e reunião. O dispositivo é mantido na conta para permitir recursos sempre ativados, cenários de chamada (para dispositivos configurados com um plano de chamada) e mecanismos de bloqueio personalizados implementados nesses dispositivos. Isso significa que a autenticação para esses dispositivos ocorre de uma maneira diferente do que os dispositivos do usuário final.  
 
-A autenticação moderna é recomendada para todos os clientes que usam dispositivos de salas do Microsoft Teams com o Office 365. Se você tiver uma implantação local do Exchange Server ou do Skype for Business Server, configure a [autenticação moderna híbrida](https://docs.microsoft.com/office365/enterprise/hybrid-modern-auth-overview) com o Azure Active Directory (Azure AD) para habilitar o uso da autenticação moderna.
+A autenticação moderna é recomendada para todos os clientes que usam dispositivos de salas do Microsoft Teams com o Microsoft 365 ou o Office 365. Se você tiver uma implantação local do Exchange Server ou do Skype for Business Server, configure a [autenticação moderna híbrida](https://docs.microsoft.com/office365/enterprise/hybrid-modern-auth-overview) com o Azure Active Directory (Azure AD) para habilitar o uso da autenticação moderna.
 
 A autenticação moderna é compatível com as salas do Microsoft Teams versão 4.4.25.0 e posteriores.
 
@@ -61,9 +61,9 @@ Para aplicar a configuração, consulte [gerenciar configurações de console de
 
 ## <a name="prepare-your-environment-for-modern-authentication"></a>Preparar seu ambiente para autenticação moderna
 
-Antes de começar, certifique-se de que compreende os modelos de identidade a serem usados com o Office 365 e o Azure AD. Você pode encontrar mais informações nos [modelos de identidade do Office 365 e no Active Directory do Azure](https://docs.microsoft.com/Office365/Enterprise/about-office-365-identity) e na [identidade híbrida e na sincronização de diretórios do Office 365](https://docs.microsoft.com/Office365/Enterprise/plan-for-directory-synchronization).
+Antes de começar, certifique-se de que compreende os modelos de identidade a serem usados com o Office 365 e o Azure AD. Você pode encontrar mais informações nos [modelos de identidade do Office 365 e no Active Directory do Azure](https://docs.microsoft.com/Office365/Enterprise/about-office-365-identity) e na [identidade híbrida e na sincronização de diretórios do Microsoft 365 ou do Office 365](https://docs.microsoft.com/Office365/Enterprise/plan-for-directory-synchronization).
 
-### <a name="enable-modern-authentication-in-office-365"></a>Habilitar a autenticação moderna no Office 365
+### <a name="enable-modern-authentication-in-microsoft-365-or-office-365"></a>Habilitar a autenticação moderna no Microsoft 365 ou no Office 365
 
 Para habilitar a autenticação moderna do Exchange Online, confira [habilitar a autenticação moderna no Exchange Online](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/enable-or-disable-modern-authentication-in-exchange-online). Se você usa o Skype for Business Online, verifique também se a autenticação moderna está ativada para o Skype for Business online. Para saber mais, confira [Skype for Business Online: habilitar seu locatário para autenticação moderna](https://aka.ms/SkypeModernAuth).
 

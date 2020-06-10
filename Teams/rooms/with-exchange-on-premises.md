@@ -17,12 +17,12 @@ ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection:
 - M365-collaboration
 description: Leia este tópico para obter informações sobre como implantar salas do Microsoft Teams em um ambiente híbrido com o Exchange no local.
-ms.openlocfilehash: 39e78b914edb547737ed75c20191dd9beba242c6
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: d017706a0e512a4945eaccd69c0e11a7962ca518
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905293"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666153"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>Implantar as Salas do Microsoft Teams com o Exchange no local
 
@@ -36,17 +36,17 @@ A Microsoft fornece [SkypeRoomProvisioningScript. ps1](https://go.microsoft.com/
 
 Antes de implantar salas do Microsoft Teams com o Exchange no local, certifique-se de que atenda aos requisitos. Para obter mais informações, consulte [requisitos de salas do Microsoft Teams](requirements.md).
   
-Se você estiver implantando salas do Microsoft Teams com o Exchange no local, usará as ferramentas administrativas do Active Directory para adicionar um endereço de email para a sua conta de domínio local. Esta conta será sincronizada com o Office 365. Você deverá:
+Se você estiver implantando salas do Microsoft Teams com o Exchange no local, usará as ferramentas administrativas do Active Directory para adicionar um endereço de email para a sua conta de domínio local. Esta conta será sincronizada com o Microsoft 365 ou o Office 365. Você deverá:
   
 - Criar uma conta e sincronizá-la com o Active Directory.
 
 - Habilitar a caixa de correio remota e as propriedades definidas.
 
-- Atribua uma licença do Office 365.
+- Atribua uma licença do Microsoft 365 ou do Office 365.
 
 - Habilite a conta do dispositivo com o Skype for Business Server. Para habilitar a conta de dispositivo, seu ambiente deverá atender aos seguintes pré-requisitos:
 
-  - Você precisará ter o Skype for Business online (plano 2) ou versão mais recente no seu plano do Office 365. O plano precisa dar suporte à funcionalidade de conferência.
+  - Você precisará ter o Skype for Business online (plano 2) ou versão mais recente no seu plano do Microsoft 365 ou do Office 365. O plano precisa dar suporte à funcionalidade de conferência.
   
   - Se você precisa do Enterprise Voice (telefonia PSTN) usando provedores de serviços de telefonia para salas do Microsoft Teams, você precisa do Skype for Business online (plano 3).
   
@@ -105,14 +105,14 @@ Se você estiver implantando salas do Microsoft Teams com o Exchange no local, u
 
    Para obter informações detalhadas de sintaxe e parâmetro, consulte [Set-CalendarProcessing](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-calendarprocessing).
 
-### <a name="assign-an-office-365-license"></a>Atribuir uma licença do Office 365
+### <a name="assign-a-microsoft-365-or-office-365-license"></a>Atribuir uma licença do Microsoft 365 ou do Office 365
 
 1. Conecte-se ao Azure Active Directory. Para obter detalhes sobre o Active Directory, consulte [Azure ActiveDirectory (MSOnline) 1,0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0). 
 
    > [!NOTE]
    > Não há suporte para o [Azure Active Directory PowerShell 2,0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0) . 
 
-2. A conta do dispositivo precisa ter uma licença válida do Office 365 ou o Exchange e o Microsoft Teams não funcionarão. Se você tem a licença, deve atribuir um local de uso à conta de dispositivo (isso determina quais SKUs de licença estão disponíveis para sua conta). Você pode usar`Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> para recuperar uma lista de SKUs disponíveis.
+2. A conta do dispositivo precisa ter uma licença válida do Microsoft 365 ou do Office 365 ou o Exchange e o Microsoft Teams não funcionarão. Se você tem a licença, deve atribuir um local de uso à conta de dispositivo (isso determina quais SKUs de licença estão disponíveis para sua conta). Você pode usar`Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> para recuperar uma lista de SKUs disponíveis.
 
 <!--   ``` Powershell
    Get-AzureADSubscribedSku | Select -Property Sku*,ConsumedUnits -ExpandProperty PrepaidUnits
@@ -166,7 +166,7 @@ O PowerShell do Skype for Business Online é usado para gerenciar serviços para
 
 ### <a name="assign-a-license-to-your-microsoft-teams-rooms-account"></a>Atribuir uma licença à sua conta de salas do Microsoft Teams
 
-1. Faça logon como administrador de locatários, abra o portal administrativo do Office 365 e clique no aplicativo de administração.
+1. Faça logon como administrador de locatários, abra o centro de administração do Microsoft 365 e clique no aplicativo de administração.
 2. Clique em **Usuários e Grupos** e clique em **Adicionar usuários, redefinir senhas e muito mais**.
 3. Clique na conta de salas do Microsoft Teams e, em seguida, clique no ícone de caneta para editar as informações da conta.
 4. Clique em **Licenças**.

@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: Leia este tópico para saber mais sobre como configurar contas para salas do Microsoft Teams no Exchange e no Skype for Business.
-ms.openlocfilehash: 66eecbb0773f04599a0b5255cb5f83f158eb74f7
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 97367427aa2629fab3e40bae064c02f521ff710d
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825939"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666243"
 ---
 # <a name="configure-accounts-for-microsoft-teams-rooms"></a>Configurar contas para salas do Microsoft Teams
  
@@ -28,11 +28,11 @@ Leia este tópico para saber mais sobre as salas do Microsoft Teams e como elas 
   
 Este tópico introduz como criar contas usadas por salas do Microsoft Teams no Microsoft Exchange e no Skype for Business. As instruções de implantação para dispositivos de salas do Microsoft Teams são abordadas em [configurar um console de salas do Microsoft Teams](console.md). É provável que sua infraestrutura esteja incluída em uma destas configurações:
   
-- Implantação online: o ambiente da sua organização é implantado completamente no Office 365. Para obter mais informações, consulte [implantar salas do Microsoft Teams com o Office 365](with-office-365.md).
+- Implantação online: o ambiente da sua organização é implantado completamente no Microsoft 365 ou no Office 365. Para obter mais informações, consulte [implantar salas do Microsoft Teams com o Microsoft 365 ou o Office 365](with-office-365.md).
     
 - Implantação local: sua organização tem servidores que ele controla, em que o Active Directory, o Exchange e o Skype for Business Server são hospedados. Para obter mais informações, consulte [implantar salas do Microsoft Teams com o Skype for Business Server](with-skype-for-business-server-2015.md)
     
-- Implantações híbridas: sua organização tem uma combinação de serviços, com alguns hospedados localmente e alguns hospedados online por meio do Office 365. Com as salas do Microsoft Teams, há suporte para os seguintes cenários híbridos: 
+- Implantações híbridas: sua organização tem uma combinação de serviços, com alguns hospedados localmente e alguns hospedados online por meio do Microsoft 365 ou do Office 365. Com as salas do Microsoft Teams, há suporte para os seguintes cenários híbridos:
     
   - Exchange Online com o Skype for Business Server no local. Para obter mais informações, consulte [implantar salas do Microsoft Teams com o Exchange Online (híbrido)](with-exchange-online.md).
     
@@ -52,7 +52,7 @@ Cada conta de dispositivo é exclusiva para um único dispositivo de salas do Mi
 - Sua infraestrutura deve ser configurada para permitir que as salas do Microsoft Teams validem a conta do dispositivo e para acessar os serviços apropriados da Microsoft.
     
 > [!IMPORTANT]
-> É recomendável que a conta seja criada antes da instalação do hardware. O ideal é iniciar a preparação da conta de duas a três semanas antes da instalação. Em ambientes híbridos, a conta usada para salas do Microsoft Teams deve ter a sincronização de senha habilitada no AAD Sync porque a autenticação de salas do Microsoft Teams requer autenticação do Office 365.
+> É recomendável que a conta seja criada antes da instalação do hardware. O ideal é iniciar a preparação da conta de duas a três semanas antes da instalação. Em ambientes híbridos, a conta usada para salas do Microsoft Teams deve ter a sincronização de senha habilitada no AAD Sync porque a autenticação de salas do Microsoft Teams requer o Microsoft 365 ou a autenticação do Office 365.
   
 Você pode pensar em uma conta de dispositivo como a conta do recurso que as pessoas reconhecem como uma sala de conferência ou uma conta do espaço de reunião. Para agendar uma reunião usando essa sala de conferência, convide a conta para essa reunião. Para usar as salas do Microsoft Teams com mais eficiência, faça o mesmo com a conta do dispositivo atribuída a cada uma.
   
@@ -72,7 +72,7 @@ Essas propriedades representam a configuração mínima de uma conta de disposit
    
 ## <a name="advanced-configuration"></a>Configuração avançada
 
-Embora as propriedades da configuração básica permitam que a conta de dispositivo seja configurada em um ambiente simples, é possível que seu ambiente tenha outras restrições em contas de diretório que devem ser atendidas para que as salas do Microsoft Teams usem com êxito o conta de dispositivo.
+Embora as propriedades da configuração básica permitam que a conta de dispositivo seja configurada em um ambiente simples, é possível que o ambiente tenha outras restrições em contas de diretório que devem ser atendidas para que as salas do Microsoft Teams usem com êxito a conta do dispositivo.
   
 |**Propriedade**|**Objetivo**|
 |:-----|:-----|
@@ -80,13 +80,13 @@ Embora as propriedades da configuração básica permitam que a conta de disposi
    
 A maneira mais fácil de configurar contas de dispositivos é configurá-los usando o Windows PowerShell remoto. A Microsoft fornece [SkypeRoomProvisioningScript. ps1](https://go.microsoft.com/fwlink/?linkid=870105), um script que ajudará a criar novas contas de dispositivo ou validar as contas de recursos existentes que você tem para ajudar a transformá-las em contas de dispositivo de salas do Microsoft Teams compatíveis.
   
-Se você preferir usar a interface do usuário do Office 365 em cmdlets do Windows PowerShell, algumas etapas podem ser executadas manualmente. Consulte [criando uma conta de dispositivo usando o Office 365](https://docs.microsoft.com/surface-hub/create-a-device-account-using-office-365).
+Se você preferir usar a interface do usuário do Microsoft 365 ou do Office 365 em cmdlets do Windows PowerShell, algumas etapas podem ser executadas manualmente. Consulte [criando uma conta de dispositivo usando o Microsoft 365 ou o Office 365](https://docs.microsoft.com/surface-hub/create-a-device-account-using-office-365).
   
 ## <a name="see-also"></a>Confira também
 
-[Plano para salas do Microsoft Teams](rooms-plan.md)
+[Planejar as Salas do Microsoft Teams](rooms-plan.md)
   
-[Configurar um console de salas do Microsoft Teams](console.md)
+[Configurar um console de Salas do Microsoft Teams](console.md)
   
 [Gerenciar Salas do Microsoft Teams](rooms-manage.md)
 

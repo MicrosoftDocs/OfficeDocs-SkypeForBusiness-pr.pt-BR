@@ -1,5 +1,5 @@
 ---
-title: Implantações do governo Microsoft 365-GCC
+title: Office 365 implantação do governo do Office
 author: lolajacobsen
 ms.author: heidip
 manager: serdars
@@ -20,16 +20,16 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3ab398d4d76eb0c1ae6bac37b7c9c198ebc82d86
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: b93762c92d9681074124ba8ddb3fd066bdf8a60a
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137801"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665223"
 ---
-# <a name="plan-for-microsoft-365-government---gcc-deployments"></a>Plano para implantações do governo Microsoft 365-GCC
+# <a name="plan-for-office-365-government---gcc-deployments"></a>Plano para implantações do governo do Office 365-GCC
 
-Esta orientação destina-se aos profissionais de ti que estão conduzindo implantações do Office 365 em entidades federais, estaduais, tribal ou outras entidades do governo dos EUA, que lidam com os dados sujeitos a normas e requisitos governamentais, onde o uso do Microsoft 365 governo-GCC é adequado para atender a esses requisitos. Novidades de 26 de março de 2020: não perca o nosso [Guia de início rápido para download para gcc](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/Quick-Start-Guide-for-GCC.pdf?raw=true).
+Esta orientação é para os profissionais de ti que estão conduzindo implantações do Office 365 em entidades federais, estaduais, tribal ou outras entidades do governo dos EUA, que lidam com os dados sujeitos a normas e requisitos governamentais, em que o uso do Office 365 governo-GCC é adequado para atender a esses requisitos. Novidades de 26 de março de 2020: não perca o nosso [Guia de início rápido para download para gcc](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/Quick-Start-Guide-for-GCC.pdf?raw=true).
 
 > [!IMPORTANT]
 > O Microsoft Teams está experimentando um grande pico em chamadas online e videoconferência/videoconferência devido ao coronavirus (COVID-19) Pandemic.<br/>
@@ -44,20 +44,20 @@ Esta orientação destina-se aos profissionais de ti que estão conduzindo impla
 
 
 > [!NOTE]
-> Se a sua organização já atendeu aos requisitos de qualificação do governo Microsoft 365 e se aplicou e foi aceito no programa, você pode ignorar as etapas 1 e 2 e ir diretamente para a etapa 3. 
+> Se sua organização já atendeu aos requisitos de qualificação do governo do Office 365 e se aplicou e foi aceito no programa, você pode ignorar as etapas 1 e 2 e ir diretamente para a etapa 3. 
 
-## <a name="step-1-determine-whether-your-organization-needs-microsoft-365-government---gcc-and-meets-eligibility-requirements"></a>Etapa 1. Determine se a sua organização precisa do Microsoft 365 governo-GCC e atenda aos requisitos de qualificação. 
+## <a name="step-1-determine-whether-your-organization-needs-office-365-government---gcc-and-meets-eligibility-requirements"></a>Etapa 1. Determine se a sua organização precisa do Office 365 governo-GCC e atenda aos requisitos de qualificação. 
 
-O ambiente Microsoft 365 governo-GCC fornece conformidade com os requisitos do governo dos EUA para serviços de nuvem, incluindo FedRAMP moderado e requisitos para justiça criminal e sistemas de informações federais fiscais (tipos de dados CJI e FTI).
+O ambiente governamental do Office 365-GCC fornece conformidade com os requisitos governamentais dos EUA para serviços de nuvem, incluindo FedRAMP moderado e requisitos para justiça criminal e sistemas de informação federal fiscal (tipos de dados CJI e FTI).
 
-Além de desfrutar dos recursos e funcionalidades do Office 365, as organizações se beneficiam dos seguintes recursos exclusivos do Microsoft 365 governo-GCC:
+Além de desfrutar dos recursos e funcionalidades do Office 365, as organizações se beneficiam dos seguintes recursos exclusivos do Office 365 governo-GCC:
 
 -   O conteúdo do cliente da sua organização é logicamente segregado do conteúdo do cliente nos serviços comerciais do Office 365 da Microsoft.
 -   O conteúdo do cliente da sua organização é armazenado nos Estados Unidos.
 -   O acesso ao conteúdo do cliente da sua organização está restrito ao pessoal da Microsoft em tela.
--   O Microsoft 365 governo-GCC está em conformidade com certificações e capacitações necessárias para clientes do setor público dos EUA.
+-   O Office 365-GCC está em conformidade com certificações e capacitações necessárias para clientes do setor público dos EUA.
 
-Você pode encontrar mais informações sobre a oferta do Microsoft 365 governo-GCC para clientes do governo dos EUA em [planos do governo do Office 365](https://products.office.com/government/compare-office-365-government-plans), incluindo [requisitos de qualificação](https://products.office.com/government/compare-office-365-government-plans#EligibilityRequirements).
+Você pode encontrar mais informações sobre a oferta do Office 365 governo-GCC para clientes do governo dos EUA em [planos do governo do office 365](https://products.office.com/government/compare-office-365-government-plans), incluindo [requisitos de qualificação](https://products.office.com/government/compare-office-365-government-plans#EligibilityRequirements).
 
 A [Descrição do serviço governo dos EUA do Office 365](https://technet.microsoft.com/library/mt774581.aspx) descreve os benefícios da plataforma, que são centralizados em relação aos requisitos de conformidade nos Estados Unidos.
 
@@ -66,27 +66,27 @@ A [Descrição do serviço governo dos EUA do Office 365](https://technet.micros
 
 |    |     |
 |-----------|------------|
-| ![Um ícone representando pontos de decisão](media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Decida se o Microsoft 365 governo-GCC é apropriado para sua organização.</li><li>Confirme se a sua organização atende aos requisitos de qualificação.</li></ul> |
+| ![Um ícone representando pontos de decisão](media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Decida se o Office 365 governo-GCC é apropriado para sua organização.</li><li>Confirme se a sua organização atende aos requisitos de qualificação.</li></ul> |
 
 > [!Note]
-> Microsoft 365 governo-GCC só está disponível nos Estados Unidos. Os clientes do governo dos EUA podem escolher entre vários [planos governamentais do Office 365](https://products.office.com/en/government/compare-office-365-government-plans).
+> O Office 365 governo-GCC só está disponível nos Estados Unidos. Os clientes do governo dos EUA podem escolher entre vários [planos governamentais do Office 365](https://products.office.com/en/government/compare-office-365-government-plans).
 
 
-## <a name="step-2-apply-for-microsoft-365-government---gcc"></a>Etapa 2. Solicitar o Microsoft 365 governo-GCC
+## <a name="step-2-apply-for-office-365-government---gcc"></a>Etapa 2. Aplicar para o Office 365 governo-GCC
 
 Decidisse que esse serviço é ideal para sua organização, inicie o processo de [aplicação deste serviço aqui](https://products.office.com/government/eligibility-validation).
 
-## <a name="step-3-understand-microsoft-365-government---gcc-default-security-settings"></a>Etapa 3. Compreenda as configurações de segurança padrão do governo Microsoft 365-GCC.
+## <a name="step-3-understand-office-365-government---gcc-default-security-settings"></a>Etapa 3. Compreenda as configurações de segurança padrão do governo do Office 365-GCC.
 
 Recomendamos que você leve tempo para revisar cuidadosamente suas [configurações de administrador e de segurança](enable-features-office-365.md) antes de modificá-las e considerar o impacto sobre a conformidade antes de fazer qualquer alteração nas configurações de segurança padrão.
 
 |    |     |
 |-----------|------------|
-| ![Um ícone representando um ponto de decisão](media/audio_conferencing_image7.png) <br/>Ponto de decisão|<ul><li>Decida se você modificará qualquer uma das configurações de segurança do governo padrão da Microsoft 365, resolvendo para compreender primeiro o impacto de todas as alterações que você possa fazer.</li></ul> |
+| ![Um ícone representando um ponto de decisão](media/audio_conferencing_image7.png) <br/>Ponto de decisão|<ul><li>Decida se você modificará qualquer uma das configurações de segurança do governo padrão do Office 365, resolvendo para primeiro entender o impacto das alterações que você pode fazer.</li></ul> |
 
 ## <a name="step-4-understand-which-capabilities-are-currently-unavailable-or-disabled-by-default"></a>Etapa 4. Compreenda quais recursos estão indisponíveis no momento ou desabilitados por padrão.
 
-Para acomodar os requisitos de nossos clientes de nuvem governamental, há algumas diferenças entre os planos Microsoft 365 governo-GCC e Enterprise. Consulte a tabela a seguir para ver os recursos disponíveis.
+Para acomodar os requisitos de nossos clientes de nuvem governamental, há algumas diferenças entre os planos do Office 365 para os EUA e os planos corporativos. Consulte a tabela a seguir para ver os recursos disponíveis.
 
 [Descrição do serviço do Microsoft Teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)
 
@@ -108,7 +108,7 @@ Determine suas necessidades de governança e como você pode atendê-las. Vá pa
 
 ## <a name="step-6-deploy-teams-for-collaboration"></a>Etapa 6. Implantar equipes para colaboração
 
-Depois de ter sido integrado ao Microsoft 365 governo – GCC, siga o caminho de implantação recomendado descrito em [como implantar o Microsoft Teams](How-to-roll-out-teams.md). Não deixe de entrar em contato com sua equipe de adoção e gerenciamento de mudanças e especialistas do teams.
+Depois de ter sido integrado ao Office 365 governo – GCC, siga o caminho de implantação recomendado descrito em [como implantar o Microsoft Teams](How-to-roll-out-teams.md). Não deixe de entrar em contato com sua equipe de adoção e gerenciamento de mudanças e especialistas do teams.
 
 Você também pode trabalhar com o [FastTrack](https://www.microsoft.com/fasttrack) ou o parceiro escolhido para onboard do serviço.
 

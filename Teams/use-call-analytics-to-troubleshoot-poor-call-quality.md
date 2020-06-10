@@ -24,16 +24,16 @@ ms.custom:
 - ms.teamsadmincenter.users.activity.audioqualitycolumn
 - Reporting
 description: Use os detalhes da análise de chamadas sobre dispositivos, redes e conectividade para solucionar problemas do usuário com o Microsoft Teams e chamadas e reuniões do Skype for Business.
-ms.openlocfilehash: 05af82a942d54e0f97f2be2b176091f19186cbf4
-ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.openlocfilehash: 71a1e1c339c502da5cbbf998c75e758f2bbe3be2
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43749558"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665243"
 ---
 # <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>Usar a Análise de Chamada para solucionar problemas de baixa qualidade da chamada
 
-O recurso de análise de chamadas ajuda você a solucionar problemas de chamada ou conexão com o Microsoft Teams e o Skype for Business. A análise de chamadas mostra informações detalhadas sobre os dispositivos, redes e conectividade para as chamadas e reuniões de cada usuário na sua conta do Office 365. Se as informações de construção, site e locatário tiverem sido adicionadas à análise de chamadas, ela também será mostrada para cada chamada e sessão. As informações disponíveis por meio de análises de chamadas podem ajudá-lo a descobrir o motivo pelo qual um usuário teve uma experiência de chamada ou de reunião ruim. 
+O recurso de análise de chamadas ajuda você a solucionar problemas de chamada ou conexão com o Microsoft Teams e o Skype for Business. A análise de chamadas mostra informações detalhadas sobre os dispositivos, redes e conectividade para as chamadas e reuniões de cada usuário na sua conta do Microsoft 365 ou do Office 365. Se as informações de construção, site e locatário tiverem sido adicionadas à análise de chamadas, ela também será mostrada para cada chamada e sessão. As informações disponíveis por meio de análises de chamadas podem ajudá-lo a descobrir o motivo pelo qual um usuário teve uma experiência de chamada ou de reunião ruim. 
   
 ## <a name="call-analytics-permissions"></a>Permissões de análise de chamadas
 
@@ -60,7 +60,7 @@ Veja suas equipes e o administrador do Skype for Business se precisar de ajuda c
 
 1. Entre com as credenciais de administrador do teams support ou Teams de comunicações de equipe.
 
-2. No navegador da Web, vá *https://admin.teams.microsoft.com*para.
+2. No navegador da Web, vá para *https://admin.teams.microsoft.com* .
     
 3. No **painel**, na **pesquisa do usuário**, comece a digitar o nome ou o endereço SIP do usuário cujas chamadas você deseja solucionar ou selecione **exibir usuários** para ver uma lista de usuários.
     

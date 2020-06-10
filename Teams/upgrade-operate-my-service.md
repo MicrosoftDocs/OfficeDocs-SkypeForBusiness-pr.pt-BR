@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 976954014e3d1e78e8ca22de4f20a95985033006
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: c167903414aecabf7eecae01527a71ae61c27a4b
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44523314"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666083"
 ---
 # <a name="operate-your-service"></a>Operar seu serviço
 
@@ -37,11 +37,11 @@ Este artigo apresenta uma visão geral dos requisitos para equipes com êxito pa
 
 O guia de operações oferece uma visão geral de todas as tarefas e atividades necessárias, como parte da função de gerenciamento de serviços do Microsoft Teams.
 
-O gerenciamento do serviço é um tema amplo, que abrange as operações do serviço Microsoft Teams no dia a dia depois que ele é implantado e habilitado para os usuários. O serviço Microsoft Teams abrange o Microsoft Office 365 e os componentes de infraestrutura implantados localmente (por exemplo, a rede).
+O gerenciamento do serviço é um tema amplo, que abrange as operações do serviço Microsoft Teams no dia a dia depois que ele é implantado e habilitado para os usuários. O serviço Teams abrange o Microsoft 365 ou o Office 365 e os componentes de infraestrutura implantados no local (por exemplo, rede).
 
 É provável que a noção de gerenciamento do serviço não seja um conceito novo para a maioria das organizações. Você já deve ter implementado processos e tarefas associadas a serviços existentes. Dito isso, você provavelmente pode aumentar seus processos atuais quando planejar o gerenciamento de serviços hoje para dar suporte às equipes no futuro.
 
-O gerenciamento de serviços abrange todas as atividades e os processos envolvidos no gerenciamento do teams de ponta a ponta. Conforme observado anteriormente, alguns componentes de gerenciamento de serviços — a infraestrutura que o serviço do Office 365 em si são, são responsabilidade da Microsoft, enquanto você, o cliente, é responsável pelos seus usuários a gerenciar os vários aspectos do Teams, da rede e dos pontos de extremidade que você fornece.
+O gerenciamento de serviços abrange todas as atividades e os processos envolvidos no gerenciamento do teams de ponta a ponta. Conforme observado anteriormente, alguns componentes de gerenciamento de serviços — a infraestrutura que o serviço do Microsoft 365 ou do Office 365 em si são, são responsabilidade da Microsoft, enquanto você, o cliente, é responsável pelos seus usuários gerenciar os diversos aspectos do Teams, da rede e dos pontos de extremidade que você fornece.
 
 As tarefas e atividades neste guia são agrupadas em oito categorias, conforme mostrado no diagrama a seguir. Cada uma dessas categorias será expandida nas seções a seguir.
 
@@ -72,7 +72,7 @@ Depois que um contrato estiver em vigor, as equipes correspondentes deverão com
 
 ### <a name="teams-service-dependencies"></a>Dependências do serviço Teams
 
-O Microsoft Teams reúne tecnologias do Office 365 para fornecer um hub de trabalho em equipe. Os exemplos incluem:
+O Microsoft Teams reúne tecnologias do Microsoft 365 e do Office 365 para fornecer um hub de trabalho em equipe. Os exemplos incluem:
 
 - O Active Directory do Azure (Azure AD) fornece serviços de autenticação e autorização para Teams.
 
@@ -106,7 +106,7 @@ As seções a seguir fornecem uma visão geral das atividades necessárias para 
 
 ## <a name="monitor-service-health"></a>Monitorar a integridade do serviço
 
-É importante compreender a integridade geral do serviço Microsoft Teams para que você possa alertar proativamente outras pessoas em sua organização de qualquer evento que afete o serviço. Conforme descrito anteriormente, o Teams depende de outros serviços do Office 365, como o Azure Active Directory, o Exchange Online, o SharePoint Online e o OneDrive for Business. Por isso, é igualmente importante monitorar a integridade dos serviços dependentes.
+É importante compreender a integridade geral do serviço Microsoft Teams para que você possa alertar proativamente outras pessoas em sua organização de qualquer evento que afete o serviço. Conforme descrito anteriormente, o Teams depende de outros serviços do Microsoft 365 e do Office 365, como o Azure Active Directory, o Exchange Online, o SharePoint Online e o OneDrive for Business. Por isso, é igualmente importante monitorar a integridade dos serviços dependentes.
 
 Incorpore essa atividade ao seu processo de gerenciamento de incidentes para informar aos usuários, ao helpdesk e às suas equipes de operações a fim de se preparar para lidar com o atendimento ao usuário.
 
@@ -115,9 +115,9 @@ As seções a seguir descrevem as ferramentas que você pode aproveitar para mon
 | Ferramenta de monitoramento | Benefícios | Quando usar |
 |---|---|---|
 | Centro de administração do Microsoft 365 | Disponível em qualquer dispositivo com um navegador compatível. | Use quando não forem necessárias notificações em tempo real. |
-| Aplicativo de administração do Office 365 | Fornece notificações por push para o seu dispositivo móvel. | Use quando você precisar ser notificado sobre incidentes de serviço enquanto estiver em trânsito. |
+| Aplicativo de administração do Microsoft 365 | Fornece notificações por push para o seu dispositivo móvel. | Use quando você precisar ser notificado sobre incidentes de serviço enquanto estiver em trânsito. |
 | Centro de sistema da Microsoft | Integração com o Microsoft System Center. | Use quando precisar de recursos avançados de monitoramento e suporte de notificação. |
-| API de comunicação do serviço do Office 365 | Acesso programático à integridade do serviço do Office 365. | Use quando precisar de integração com uma ferramenta de monitoramento de terceiros ou se quiser criar sua própria solução. |
+| API de comunicações do serviço Microsoft 365 | Acesso programático à integridade do serviço do Microsoft 365 ou do Office 365. | Use quando precisar de integração com uma ferramenta de monitoramento de terceiros ou se quiser criar sua própria solução. |
 
 > [!NOTE]
 > Somente pessoas que receberam a função de administrador **global** ou **administrador de serviço** podem exibir a integridade do serviço.
@@ -128,22 +128,22 @@ O [centro de administração do Microsoft 365](https://portal.office.com/) forne
 
 ### <a name="monitoring-with-the-mobile-app"></a>Monitorando com o aplicativo móvel
 
-O aplicativo de administração do Office 365 está disponível em Apple iOS, Android e Windows (PC e celular). O aplicativo fornece informações de administradores de serviço sobre integridade do serviço e alterações futuras. O aplicativo dá suporte a notificações por push que podem alertá-lo quase que logo após a publicação de um comunicado. Isso ajuda você a ficar atualizado sobre o status, a integridade e todas as alterações futuras do serviço. O suporte de notificação o torna a ferramenta de monitoramento recomendada para administradores. Para obter mais informações, consulte:
+O aplicativo de administração do Microsoft 365 está disponível em Apple iOS, Android e Windows (PC e celular). O aplicativo fornece informações de administradores de serviço sobre integridade do serviço e alterações futuras. O aplicativo dá suporte a notificações por push que podem alertá-lo quase que logo após a publicação de um comunicado. Isso ajuda você a ficar atualizado sobre o status, a integridade e todas as alterações futuras do serviço. O suporte de notificação o torna a ferramenta de monitoramento recomendada para administradores. Para obter mais informações, consulte:
 
-[Aplicativo móvel de administração do Office 365](https://support.office.com/article/Office-365-Admin-Mobile-App-e16f6421-2a1a-4142-bf9d-9846600a060a)
+[Aplicativo móvel de administração do Microsoft 365](https://support.office.com/article/Office-365-Admin-Mobile-App-e16f6421-2a1a-4142-bf9d-9846600a060a)
 
-[Baixar o aplicativo móvel de administração do Office 365](https://products.office.com/business/manage-office-365-admin-app)
+[Baixar o aplicativo móvel Microsoft 365 admin](https://products.office.com/business/manage-office-365-admin-app)
 
 ### <a name="monitoring-with-microsoft-system-center"></a>Monitorando com o Microsoft System Center
 
-O Microsoft System Center é uma plataforma de gerenciamento integrada que ajuda você a gerenciar o Data Center, dispositivos cliente e ambientes de ti híbridos da nuvem. Os administradores do Office 365 que usam o System Center agora têm a opção de importar o pacote de gerenciamento do Office 365, que permite exibir todas as comunicações de serviço dentro do Operations Manager do System Center. Usar essa ferramenta permite que você acesse o status de seus serviços inscritos, incidentes de serviço ativos e resolvidos e suas comunicações do centro de mensagens (alterações futuras). Para obter mais informações, consulte a seguinte [postagem de blog](https://blogs.office.com/2014/07/29/new-office-365-admin-tools/?eu=true).
+O Microsoft System Center é uma plataforma de gerenciamento integrada que ajuda você a gerenciar o Data Center, dispositivos cliente e ambientes de ti híbridos da nuvem. Os administradores do Microsoft 365 ou do Office 365 que usam o System Center agora têm a opção de importar o pacote de gerenciamento, o que permite que eles vejam todas as comunicações do serviço dentro do Operations Manager do System Center. Usar essa ferramenta permite que você acesse o status de seus serviços inscritos, incidentes de serviço ativos e resolvidos e suas comunicações do centro de mensagens (alterações futuras). Para obter mais informações, consulte a seguinte [postagem de blog](https://blogs.office.com/2014/07/29/new-office-365-admin-tools/?eu=true).
 
 Se você aproveitar o System Center para monitorar a integridade do serviço do Teams (e os serviços dependentes), poderá personalizar ainda mais o pacote de gerenciamento para alertar ou notificar grupos específicos ou pessoas que foram identificadas para reagir a incidentes.
 Esses grupos podem incluir proprietários de serviços, helpdesks, grupos de suporte de segundo nível e terceiro e gerentes de incidentes em sua organização.
 
 ### <a name="monitoring-for-advanced-scenarios"></a>Monitorando cenários avançados
 
-Você pode monitorar a integridade do serviço e as alterações futuras aproveitando a API de comunicação do serviço do Office 365 para acessar as alterações e a integridade do serviço do Office 365 de forma programática. Use essa API para criar sua própria ferramenta de monitoramento ou conecte suas ferramentas de monitoramento existentes às comunicações de serviço do Office 365, o que pode simplificar o modo como você monitora o ambiente. Para obter mais informações, consulte [Office 365 para desenvolvedores empresariais](https://msdn.microsoft.com/library/jj984343(v=office.15).aspx).
+Você pode monitorar a integridade do serviço e as alterações futuras aproveitando a API de comunicações do serviço para acessar a integridade do serviço e as alterações de forma programática. Use essa API para criar sua própria ferramenta de monitoramento ou conecte suas ferramentas de monitoramento existentes às comunicações do serviço do Microsoft 365 ou do Office 365, o que pode simplificar o modo como você monitora o ambiente. Para obter mais informações, consulte [Microsoft 365 ou Office 365 para desenvolvedores corporativos](https://msdn.microsoft.com/library/jj984343(v=office.15).aspx).
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>Tarefas diárias/semanais/mensais/necessárias
 
@@ -154,7 +154,7 @@ Você pode monitorar a integridade do serviço e as alterações futuras aprovei
 
 ### <a name="references"></a>Referências
 
-[Como verificar a integridade do serviço do Office 365](https://support.office.com/article/How-to-check-Office-365-service-health-932AD3AD-533C-418A-B938-6E44E8BC33B0)
+[Como verificar a integridade do serviço do Microsoft 365 ou do Office 365](https://support.office.com/article/How-to-check-Office-365-service-health-932AD3AD-533C-418A-B938-6E44E8BC33B0)
 
 [Verificar a integridade do serviço do Microsoft Teams](service-health.md)
 
@@ -231,7 +231,7 @@ Para obter mais informações sobre como planejar o gerenciamento de alteraçõe
 
 ## <a name="assess-teams-usage"></a>Avaliar o uso do teams
 
-Após o início do piloto inicial, é fundamental estabelecer uma cadência regular para medir o uso de equipes reais. Isso permite que sua organização Obtenha ideias sobre como o uso real se alinha com o uso previsto durante a fase enVision. Embora esta seção se concentre no uso do Teams, isso deve fazer parte de um esforço mais amplo para medir e avaliar o uso geral do Office 365.
+Após o início do piloto inicial, é fundamental estabelecer uma cadência regular para medir o uso de equipes reais. Isso permite que sua organização Obtenha ideias sobre como o uso real se alinha com o uso previsto durante a fase enVision. Embora esta seção se concentre no uso do Teams, isso deve fazer parte de um esforço mais amplo para medir e avaliar o Microsoft 365 ou o uso geral do Office 365.
 
 A revisão do uso mais rápido na implantação oferece a oportunidade de:
 
@@ -245,7 +245,7 @@ Se o uso não for o esperado, isso pode ser devido a um problema de implantaçã
 
 ### <a name="measuring-usage-with-the-microsoft-365-admin-center"></a>Medindo o uso com o centro de administração do Microsoft 365
 
-Os dados de uso do teams estão disponíveis no painel relatório. Os dados de uso do teams podem ser encontrados em três relatórios diferentes. O primeiro relatório fornece um modo de exibição de produto cruzado de como os usuários se comunicam e colaboram usando os vários serviços do Office 365. Este relatório pode ser encontrado aqui: [relatório de usuários ativos do Office 365](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Active-Users-FC1CF1D0-CD84-43FD-ADB7-A4C4DFA8112D)
+Os dados de uso do teams estão disponíveis no painel relatório. Os dados de uso do teams podem ser encontrados em três relatórios diferentes. O primeiro relatório fornece um modo de exibição de produto cruzado de como os usuários se comunicam e colaboram usando os vários serviços no Microsoft 365 ou no Office 365. Este relatório pode ser encontrado aqui: [relatórios do Microsoft 365 no centro de administração – usuários ativos](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Active-Users-FC1CF1D0-CD84-43FD-ADB7-A4C4DFA8112D)
 
 Os outros dois relatórios são específicos do Teams e fornecem mais detalhes sobre o uso do teams a partir de uma perspectiva de usuário e dispositivo. Os dois relatórios podem ser encontrados aqui:
 
@@ -257,7 +257,7 @@ Os outros dois relatórios são específicos do Teams e fornecem mais detalhes s
 
 Os relatórios de uso no centro de Administração podem ser acessados por pessoas que receberam uma função de **administrador global** ou por uma função de administrador específica do produto (**administrador do Exchange**, **administrador do Skype for Business**, **administrador do SharePoint**).
 
-Além disso, a função de **leitor de relatórios** está disponível para os usuários que precisam acessar os relatórios, mas não executam nenhuma tarefa que exija permissões no nível de administrador. Você atribui esta função para fornecer relatórios de uso para qualquer pessoa que seja um participante, para monitorar e impulsionar a adoção. Para obter mais informações sobre as diferentes funções disponíveis, consulte [sobre as funções de administrador do Office 365](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d).
+Além disso, a função de **leitor de relatórios** está disponível para os usuários que precisam acessar os relatórios, mas não executam nenhuma tarefa que exija permissões no nível de administrador. Você atribui esta função para fornecer relatórios de uso para qualquer pessoa que seja um participante, para monitorar e impulsionar a adoção. Para obter mais informações sobre as diferentes funções disponíveis, consulte [sobre as funções de administração do Microsoft 365](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d).
 
 ### <a name="assessing-usage"></a>Avaliando o uso
 
@@ -355,8 +355,8 @@ Para garantir a integridade da sua rede, várias atividades de operações preci
 
 | Atividade | Descrição | Cadência | Equipe designada |
 |---|---|---|---|
-| Monitorar IPs e URLs do Office 365 | Monitore as alterações nas [URLs e nos intervalos de endereços IP do Office 365](https://aka.ms/o365ips) usando o [RSS feed](https://go.microsoft.com/fwlink/p/?linkid=236301) fornecido e inicie uma solicitação de alteração para grupos de rede aplicáveis. | Diário | |
-| Atualizar a rede com base em alterações no IPs e URLs do Office 365 | Faça atualizações nos componentes de rede aplicáveis (firewalls, servidores proxy, VPNs, firewalls do lado do cliente e assim por diante) para refletir as alterações nas [URLs e nos intervalos de endereços IP do Office 365](https://aka.ms/o365ips). | Conforme necessário | |
+| Monitorar o Microsoft 365 ou as URLs e IPs do Office 365 | Monitore as alterações nas [URLs e nos intervalos de endereços IP do Office 365](https://aka.ms/o365ips) usando o [RSS feed](https://go.microsoft.com/fwlink/p/?linkid=236301) fornecido e inicie uma solicitação de alteração para grupos de rede aplicáveis. | Diário | |
+| Atualizar a rede com base nas alterações do Microsoft 365 ou do Office 365 IPs e URLs | Faça atualizações nos componentes de rede aplicáveis (firewalls, servidores proxy, VPNs, firewalls do lado do cliente e assim por diante) para refletir as alterações nas [URLs e nos intervalos de endereços IP do Office 365](https://aka.ms/o365ips). | Conforme necessário | |
 | Fornecer dados de construção | Forneça informações atualizadas de sub-rede para o especialista em qualidade (ou stakeholders relevantes) para garantir que as [definições de construção no CQD](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information) sejam mantidas atualizadas. | Conforme necessário | |
 | Implementar alteração | Implementar alterações na rede para dar suporte às mudanças nos requisitos técnicos e comerciais da equipe. Os elementos de rede podem incluir:<ul><li>Firewalls</li><li>VPNs</li><li>Redes com fio e Wi-Fi</li><li>Conectividade à Internet e rota expressa</li><li>DNS</li></ul> | Conforme necessário | |
 | Monitoramento de rede e relatórios | Monitore a rede de ponta a ponta para obter disponibilidade, utilização e tendências de capacidade usando suas ferramentas de gerenciamento de rede e recursos de emissão de relatórios existentes disponíveis em seus provedores de rede. Use os dados de tendências para o planejamento da capacidade de rede. | Diária, semanal, mensal | |
@@ -429,7 +429,7 @@ Um catálogo de pontos de extremidade compatíveis e dispositivos de interface (
 
 Mesmo que você tenha seguido a orientação anterior, os usuários da sua organização ainda podem ter problemas com o Microsoft Teams. Embora o problema não seja com o ponto de extremidade propriamente dito, os sintomas do problema são normalmente exibidos pelo cliente para o usuário. A orientação a seguir destina-se a fornecer etapas gerais que você pode tomar para resolver o problema; Não se destina a ser um guia de solução de problemas abrangente. As etapas são fornecidas em uma ordem específica, mas não precisam ser seguidas explicitamente e podem não ser aplicáveis, dependendo da natureza do problema.
 
-1. **Validar a integridade do serviço:** O problema que um usuário pode estar enfrentando pode estar relacionado a um evento que afeta negativamente o serviço do teams ou os serviços do itsdependent. Como primeiro passo, recomendamos que você confirme que não há problemas de serviço ativos. Consulte [como verificar a integridade do serviço do Office 365](https://support.office.com/article/How-to-check-Office-365-service-health-932AD3AD-533C-418A-B938-6E44E8BC33B0). Lembre-se de verificar o status dos serviços dependentes (por exemplo, Exchange, SharePoint, OneDrive for Business). O monitoramento da integridade do serviço é discutido mais detalhadamente na seção anterior, [monitorar a integridade do serviço](#monitor-service-health).
+1. **Validar a integridade do serviço:** O problema que um usuário pode estar enfrentando pode estar relacionado a um evento que afeta negativamente o serviço do teams ou seus serviços dependentes. Como primeiro passo, recomendamos que você confirme que não há problemas de serviço ativos. Consulte [como verificar a integridade do serviço do Microsoft 365](https://docs.microsoft.com/office365/enterprise/view-service-health). Lembre-se de verificar o status dos serviços dependentes (por exemplo, Exchange, SharePoint, OneDrive for Business). O monitoramento da integridade do serviço é discutido mais detalhadamente na seção anterior, [monitorar a integridade do serviço](#monitor-service-health).
 
 2. **Validar a conectividade do cliente:** Problemas de conectividade causam funcionalidades ou problemas de entrada no Teams. Recomendamos (especialmente para novos sites ou locais) que você valida a conectividade com o serviço. Verifique se as seguintes [URLs do Office 365 e diretrizes de intervalos de endereços IP](https://aka.ms/o365ips) são seguidas para cada site. Você pode aproveitar a [ferramenta de avaliação de rede da Microsoft](https://www.microsoft.com/download/details.aspx?id=53885) para executar um teste de conectividade para validar que as portas de mídia foram abertas corretamente para recursos do teams. As etapas detalhadas sobre como executar os testes de conectividade são fornecidas na orientação de [preparação de rede](prepare-network.md) .
 

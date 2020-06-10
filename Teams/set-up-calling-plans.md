@@ -23,12 +23,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Saiba como configurar planos de chamada, incluindo os planos de exibição disponíveis em sua região, comprar & atribuir licenças, obter números de telefone e adicionar endereços de emergência & locais.
-ms.openlocfilehash: 08db669cfb7ddb75f6a73610f112c682a016354b
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 84dbff3ed660f6d436f01f0737141d8b261c1318
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042398"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666233"
 ---
 # <a name="set-up-calling-plans"></a>Configurar Planos de Chamadas
 
@@ -57,7 +57,7 @@ Há três maneiras de obter novos números de usuário:
 - **Usar um formulário de solicitação para novos números.** Às vezes (dependendo do seu país/região) você não poderá obter seus novos números de telefone usando o centro de administração do teams ou será necessário números de telefone ou códigos de área específicos. Nesse caso, você precisará fazer o download de um formulário e enviá-lo de volta para nós. Para obter mais informações, consulte [Gerenciar os números de telefone de sua organização](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md). 
 
 ## <a name="step-4-add-emergency-addresses-and-locations-for-your-organization"></a>Etapa 4: adicionar endereços e locais de emergência para sua organização
-<a name="bkmk_add_addresses"> </a> Um endereço de emergência deve estar associado a um número de telefone. Quando essa associação acontece pode variar entre país e regiões. Por exemplo, nos Estados Unidos, você precisa associar um endereço de emergência quando atribui o número de telefone para o usuário. No Reino Unido, você precisa associar um endereço de emergência para o número de telefone quando você está obtendo os números de telefone do Office 365 ou transferindo números de telefone do seu provedor de serviço atual. 
+<a name="bkmk_add_addresses"> </a> Um endereço de emergência deve estar associado a um número de telefone. Quando essa associação acontece pode variar entre país e regiões. Por exemplo, nos Estados Unidos, você precisa associar um endereço de emergência quando atribui o número de telefone para o usuário. No Reino Unido, você precisa associar um endereço de emergência ao número de telefone quando receber os números de telefone do Microsoft 365 ou do Office 365 ou ao transferir números de telefone de seu provedor de serviços atual. 
 
 Para obter informações sobre chamadas de emergência e gerenciamento de endereços de emergência, consulte [gerenciar chamadas de emergência](what-are-emergency-locations-addresses-and-call-routing.md) e [Adicionar, alterar ou remover um local de emergência para sua organização](add-change-remove-emergency-location-organization.md).
     

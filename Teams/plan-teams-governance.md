@@ -18,12 +18,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a196dfee988a41a5d8145d9b6256d1df6e714133
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 19b2fc0c14730f4aa4c25ccdfcf5298f6f038d3d
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905823"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665273"
 ---
 # <a name="plan-for-governance-in-teams"></a>Plano de governança no Teams
 
@@ -58,7 +58,7 @@ Sua organização pode exigir que você implemente controles estritos sobre como
 > Para ajudá-lo a planejar com antecedência, [saiba mais sobre como definir essas políticas e quais são as licenças necessárias](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets#template-settings).
 > 
 > [!NOTE]
-> Limitar a criação de grupo e equipe pode reduzir a produtividade dos usuários, pois muitos serviços do Office 365 exigem que os grupos sejam criados para o serviço funcionar. Para obter informações adicionais, navegue até e expanda [por que controlar quem cria os grupos do Microsoft 365](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618#why).
+> Limitar a criação de grupo e equipe pode reduzir a produtividade dos usuários, pois muitos serviços do Microsoft 365 e do Office 365 exigem que os grupos sejam criados para o serviço funcionar. Para obter informações adicionais, navegue até e expanda [por que controlar quem cria os grupos do Microsoft 365](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618#why).
 
 
 #### <a name="additional-information"></a>Informações adicionais
@@ -87,7 +87,7 @@ Sua organização pode ter requisitos adicionais para a configuração de polít
 |Funcionalidade |Detalhes |É necessária uma licença do Azure AD Premium |Decidiu |
 |---------|---------|---------|---------|
 |Política de expiração |Gerencie o ciclo de vida dos grupos do Microsoft 365 definindo uma política de expiração. |P1 |A ser determinado|
-|Política de retenção |Manter ou excluir dados de um período de tempo específico definindo as políticas de retenção para equipes no centro de conformidade do & de segurança. **Observação**: o uso deste recurso requer licenciamento do Office 365 Enterprise E3 ou superior. |Não |A ser determinado |
+|Política de retenção |Manter ou excluir dados de um período de tempo específico definindo as políticas de retenção para equipes no centro de conformidade do & de segurança. **Observação**: o uso deste recurso requer o licenciamento do Microsoft 365 ou do Office 365 Enterprise E3 ou superior. |Não |A ser determinado |
 |Arquivar e restaurar |Arquive uma equipe quando ela não estiver mais ativa, mas você quiser mantê-la para referência ou reativar no futuro. |Não |A ser determinado |
 
 > [!Note]
@@ -106,7 +106,7 @@ Para obter orientação técnica sobre como implementar essas configurações, c
 
 ## <a name="teams-feature-management"></a>Gerenciamento de recursos do teams
 
-Outro aspecto importante do gerenciamento de controle e ciclo de vida para equipes é a capacidade de controlar a quais recursos seus usuários terão acesso. Você pode gerenciar recursos de mensagens, reuniões e chamadas no nível da organização do Office 365 ou por usuário. 
+Outro aspecto importante do gerenciamento de controle e ciclo de vida para equipes é a capacidade de controlar a quais recursos seus usuários terão acesso. Você pode gerenciar recursos de mensagens, reuniões e chamadas no nível da organização do Microsoft 365 ou do Office 365 ou por usuário.
 
 
 |         |         |
@@ -129,7 +129,7 @@ Além disso, você pode configurar a moderação de um canal e dar recursos do m
 
 ## <a name="security-and-compliance"></a>Segurança e conformidade
 
-O Teams foi desenvolvido sobre os recursos avançados de segurança e conformidade do Office 365 e é compatível com auditoria e relatórios, pesquisa de conteúdo de conformidade, descoberta eletrônica, controle legal e políticas de retenção. 
+O Microsoft Teams foi desenvolvido sobre os recursos avançados de segurança e conformidade do Microsoft 365 e do Office 365 e dá suporte à auditoria e relatórios, pesquisa de conteúdo de conformidade, descoberta eletrônica, controle legal e políticas de retenção.
 
 > [!Important]
 > Se sua organização tiver requisitos de conformidade e segurança, examine o conteúdo detalhado fornecido sobre este tópico na [visão geral de segurança e conformidade no Microsoft Teams](security-compliance-overview.md).

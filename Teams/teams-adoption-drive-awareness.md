@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 52c259098a1d31fdd601d1cce06ea1b685e774bf
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: d0744c78062b2ecd507cc16658819ba101930597
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44350125"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665963"
 ---
 # <a name="drive-awareness-and-implement-training-for-microsoft-teams"></a>Promover a conscientização e implementar o treinamento do Microsoft Teams
 
@@ -55,7 +55,7 @@ Use nossos recursos para fornecer treinamento de usuário final à medida que as
 - [Treinamento do administrador para Teams](itadmin-readiness.md)
 - [Treinamento em vídeo do usuário final online](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
 - [Café no treinamento online da nuvem para campeões & profissionais de ti](https://aka.ms/CoffeeintheCloud) 
-- [Dia da vida útil do treinamento do Microsoft 365 e do Office 365](https://aka.ms/O365AdoptionTools)
+- [Ferramentas de adoção](https://aka.ms/O365AdoptionTools)
 
 ## <a name="measure-and-share-success"></a>Mensure e compartilhe o sucesso
 
