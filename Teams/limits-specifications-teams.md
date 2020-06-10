@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ebdd3204be74e3f7b923d977e6de25c041c2038e
-ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
+ms.openlocfilehash: e9b4b5e9d862596e91bcb6d30112e5f70a9c8263
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "44512818"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637640"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Limites e especificações para o Microsoft Teams
 
@@ -40,7 +40,7 @@ Este artigo descreve alguns dos limites, das especificações e de outros requis
 |Número de equipes de toda a organização permitidas em um locatário | 5     |
 |Número de membros em uma [equipe de toda a organização](create-an-org-wide-team.md) | 5.000       |
 |Número de equipes que um administrador global pode criar        |  500.000   |
-|Número de equipes que uma organização no Office 365 pode ter    | 500.000&sup2;     |
+|Número de equipes que uma organização do Microsoft 365 ou Office 365 pode ter    | 500.000&sup2;     |
 |Número de canais por equipe    | 200 (inclui canais excluídos)&sup3;         |
 |Número de canais privados por equipe    |30|
 |Números de membros em um canal privado    |250|
@@ -93,7 +93,7 @@ O bate-papo do Teams funciona em um back-end do Microsoft Exchange, para que os 
 Para obter mais informações, confira [Limites do Exchange Online](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits).
 
 > [!NOTE]
-> O tamanho da mensagem, os anexos de arquivos e os limites de imagens embutidas são os mesmos em todas as licenças do Office 365.
+> O tamanho da mensagem, os anexos de arquivos e os limites de imagens embutidas são os mesmos em todas as licenças do Microsoft 365 e Office 365.
 
 ## <a name="channel-names"></a>Nomes de canal
 
@@ -132,7 +132,7 @@ Os nomes de canal também não podem começar com um caractere de sublinhado (_)
 |------------|---------------|
 |Tamanho da audiência | 10.000 participantes |
 |Duração do evento | 4 horas |
-|Eventos ao vivo simultâneos em uma organização no Office 365 <sup>1</sup> | 15 |
+|Eventos ao vivo simultâneos em execução em uma organização do Microsoft 365 ou Office 365 <sup>1</sup> | 15 |
 
 <sup>1</sup> Você pode agendar o número de eventos que desejar, mas é possível executar apenas 15 por vez. Assim que o produtor entra em um evento ao vivo, ele será considerado em andamento. O produtor que tentar se entrar no décimo-sexto evento ao vivo receberá uma mensagem de erro.
 

@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Use este guia para oferecer suporte à sua força de trabalho remota quando estiverem trabalhando em casa (WFH) em resposta à epidemia de COVID-19 (coronavírus).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7a94122550003bee5f98cc5e753aeae2353932f2
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 4208f5519ffff94d9726dfb06ed4ff1aef2d8a15
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780310"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637900"
 ---
 # <a name="faq-support-your-remote-workforce"></a>Perguntas frequentes: Suporte para sua força de trabalho remota
 
@@ -34,7 +34,7 @@ Confira [Suporte a funcionários remotos com o Teams](support-remote-work-with-t
 A Microsoft tem expandindo significativamente a capacidade nas principais regiões com os comunicados recentes sobre a epidemia COVID-19 (coronavirus). Estamos monitorando de perto a situação e nossos serviços para garantir que nossos serviços estejam disponíveis para nossos clientes.Uma das vantagens de um serviço de nuvem é a capacidade de escala dinâmica, incluindo a utilização da nossa significativa cadeia de fornecedores, a realocação de recursos entre serviços e a redistribuição de carga.Vimos um aumento na utilização do Microsoft Teams, ao qual respondemos e continuamos monitorando de perto. Também estamos trabalhando para atender a demanda por Planos de Chamadas e para ter números de telefone suficientes, conforme necessário.
 
 > [!NOTE]
-> Se você já configurou com o M365 e quer saber mais sobre as ações que a Microsoft está fazendo, vá ao Centro de Mensagens e analise a postagem **MC205458**.
+> Se você já está configurado com o Microsoft 365 e quer saber mais sobre as ações que a Microsoft está executando, acesse o Centro de Mensagens e analise a postagem **MC205458** do centro de mensagens.
 
 Não perca a nossa postagem de blog de 5 de março de 2020 com um artigo de Jared Spataro, vice-presidente corporativo da Microsoft 365: [Nosso compromisso com os clientes durante o COVID-19](https://www.microsoft.com/pt-BR/microsoft-365/blog/2020/03/05/our-commitment-to-customers-during-covid-19/).
 
@@ -102,21 +102,21 @@ Leia [Suporte a funcionários remotos usando o Teams](support-remote-work-with-t
 
 ### <a name="i-just-got-started-with-microsoft-365-so-i-can-use-teams-to-support-my-remote-workers-or-students-ive-signed-up-for-the-service-but-when-a-user-tries-to-use-teams-they-get-this-error-youre-missing-out-ask-your-admin-to-enable-microsoft-teams-what-should-i-do"></a>Acabei de iniciar o Microsoft 365 para poder usar o Teams para oferecer suporte a meus funcionários ou alunos remotos. Já me inscrevi no serviço, mas quando um usuário tenta usar o Teams, ele recebe o seguinte erro: "Você está perdendo! Peça ao seu administrador para habilitar o Microsoft Teams.” O que devo fazer?
 
-Depois de ativar uma das ofertas gratuitas do Teams, você ainda precisará ativá-la para seus usuários. Leia [Gerenciar o acesso do usuário ao Teams](user-access.md) e [Adicionar usuários individuais ou em massa ao Office 365](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users).
+Depois de ativar uma das ofertas gratuitas do Teams, você ainda precisará ativá-la para seus usuários. Leia [Gerenciar o acesso do usuário ao Teams](user-access.md) e [Adicionar usuários individuais ou em massa](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users).
 
 Se você está licenciando ou habilitando um usuário pela primeira vez, mas possui o Microsoft 365 há algum tempo, pode ser necessário [Ativar o Teams](Office-365-set-up.md) para sua organização. Marque [Já tenho o Microsoft 365, mas não uso o Teams. Vocês estão fornecendo licenças de avaliação?](#i-have-microsoft-365-already-but-i-dont-use-teams-are-you-providing-trial-licenses) neste artigo.
 
 ### <a name="can-i-use-calling-plans-with-the-office-365-e1-trial-that-microsoft-is-offering-can-i-assign-a-telephone-number-to-my-users-how-much-am-i-going-to-pay"></a>Posso usar Planos de Chamadas com a versão de avaliação do Office 365 E1 que a Microsoft oferece? Posso atribuir um número de telefone aos meus usuários? Quanto precisarei pagar?
 
-Os usuários podem fazer chamadas de vídeo e áudio de aplicativo para aplicativo em qualquer versão do Teams. Para atribuir um número a um funcionário, você precisará de um [Sistema de telefonia no Office 365](what-is-phone-system-in-office-365.md). Recomendamos trabalhar com um parceiro da Microsoft ou representante de vendas para obter e implantar isso. Saiba mais em [Chamadas de voz e de vídeo com o Teams](https://products.office.com/microsoft-teams/voice-calling).
+Os usuários podem fazer chamadas de vídeo e áudio de aplicativo para aplicativo em qualquer versão do Teams. Para atribuir um número a um funcionário, você precisará de um [Sistema de Telefonia](what-is-phone-system-in-office-365.md). Recomendamos trabalhar com um parceiro da Microsoft ou representante de vendas para obter e implantar isso. Saiba mais em [Chamadas de voz e de vídeo com o Teams](https://products.office.com/microsoft-teams/voice-calling).
 
 ### <a name="can-i-set-up-an-auto-attendant-with-the-new-teams-e1-trial-so-i-can-have-an-emergency-line-internally-at-my-company-to-deal-with-covid-19-coronavirus"></a>Posso configurar um Atendedor Automático com a nova versão de avaliação Teams E1, para que eu possa ter uma linha interna de emergência na minha empresa para lidar com o COVID-19 (coronavirus)?
 
-Para configurar um [Atendedor Automático na Nuvem](what-are-phone-system-auto-attendants.md) no Teams, você precisará de um[Sistema de telefonia no Office 365](what-is-phone-system-in-office-365.md) além do Teams. Recomendamos trabalhar com um parceiro da Microsoft ou representante de vendas para obter e implantar isso.
+Para configurar um [Atendedor Automático na Nuvem](what-are-phone-system-auto-attendants.md) no Teams, você precisará de um[Sistema de Telefonia](what-is-phone-system-in-office-365.md) além do Teams. Recomendamos trabalhar com um parceiro da Microsoft ou representante de vendas para obter e implantar isso.
 
 ### <a name="where-can-i-find-more-information-to-help-remote-workers"></a>Onde posso encontrar mais informações para ajudar funcionários remotos?
 
-Usuários finais: [Colaborar com o Office 365](https://support.office.com/article/collaborate-with-office-365-ac05a41e-0b49-4420-9ebc-190ee4e744f4) - omo trabalhar melhor em todas as suas cargas de trabalho do Office 365
+Usuários finais: [Colaborar com o Microsoft 365](https://support.office.com/article/collaborate-with-office-365-ac05a41e-0b49-4420-9ebc-190ee4e744f4) - como trabalhar melhor em conjunto em todas as suas cargas de trabalho do Microsoft 365
 
 Administradores de TI/itPro [Suporte a funcionários remotos usando o Teams](support-remote-work-with-teams.md).
 

@@ -17,12 +17,12 @@ localization_priority: Priority
 f1.keywords:
 - NOCSH
 description: Orientação completa para migrar do Slack para o Microsoft Teams.
-ms.openlocfilehash: 8e6b7383176713a34f5a00ca3914e42ac50f9834
-ms.sourcegitcommit: 5606f908c6efeb67713f5986b1d8575a896bb5bd
+ms.openlocfilehash: ca104baf5baebaa0e44c2202794c1b8ed6862633
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "43506872"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638640"
 ---
 # <a name="migrate-from-slack-to-microsoft-teams"></a>Migrar do Slack para o Microsoft Teams
 
@@ -79,12 +79,12 @@ Para exportar Mensagens Diretas, confira as ferramentas, como o Export, na Loja 
 
 Os aplicativos no Slack são como os aplicativos no Teams. Depois de ter uma lista de aplicativos e suas configurações no Workspace, você poderá pesquisar na Loja de Aplicativos do Teams para ver se eles estão disponíveis para o Teams*. 
 
-Vá para <your Slack workspace>.slack.com/apps/manage para obter uma lista de Aplicativos e Integrações Personalizadas. Essa página também mostra o número de configurações em que cada aplicativo está em uso. As Integrações Personalizadas variam em sua "capacidade de migração". Se for um Web Hook, você poderá enviá-lo a um Conector do Office 365 para mudar o fluxo de trabalho no Teams. Avalie bots e outros aplicativos caso a caso ao planejar movê-los para o Teams.
+Vá para <your Slack workspace>.slack.com/apps/manage para obter uma lista de Aplicativos e Integrações Personalizadas. Essa página também mostra o número de configurações em que cada aplicativo está em uso. As Integrações Personalizadas variam em sua "capacidade de migração". Se for um Web Hook, você poderá enviá-lo a um Conector do Microsoft 365 ou Office 365 para mudar o fluxo de trabalho no Teams. Avalie bots e outros aplicativos caso a caso ao planejar movê-los para o Teams.
 
 \*Se o seu administrador restringiu o uso de aplicativos, talvez você não tenha acesso a lista completa de aplicativos disponíveis.
 
 ### <a name="users"></a>Usuários
-Os esquemas de identidade usados no Slack podem não ser mapeados diretamente para o Office 365. Por exemplo, os endereços de email dos usuários do Slack podem não ser mapeados para as contas corporativas ou de estudante do Office 365. Você deverá criar um mapa de ID do usuário antes de começar a planejar a distribuição do Teams.
+Os esquemas de identidade usados no Slack podem não ser mapeados diretamente para o Microsoft 365 ou Office 365. Por exemplo, os endereços de email dos usuários do Slack podem não ser mapeados para as contas corporativas ou de estudante do Microsoft 365 ou Office 365. Você deverá criar um mapa de ID do usuário antes de começar a planejar a distribuição do Teams.
 
 Se você tiver um plano de serviço pago do Slack, vá para *<your Slack workspace>.slack.com/admin/stats#members* para obter detalhes dos membros, como endereço de email e tipo de conta para cada usuário (por exemplo, convidado único versus multicanal).
 
@@ -335,7 +335,7 @@ Para descobrir quais aplicativos adicionar ao Teams, é importante entender como
 
 Em muitos casos, os aplicativos recebem basicamente dados direcionados a eventos de um serviço externo (por exemplo, sistema de monitoramento) e enviam uma mensagem para o Slack. Você pode obter o mesmo resultado usando um Conector do Microsoft 365, que pode enviar mensagens no Teams com base em eventos.
 
-A seguir estão exemplos de soluções do Slack em que um Conector do Office 365 foi usado no Teams para integração.
+A seguir estão exemplos de soluções do Slack em que um Conector do Microsoft 365 foi usado no Teams para integração.
 - Ansível
   - Os alertas podem ser enviados ao Teams por meio de [Webhook ansível](https://docs.ansible.com/ansible-tower/latest/html/userguide/notifications.html#webhook)
 - New Relic

@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2ad4592799efef11b7d09d564af5217dd9cdd550
-ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
+ms.openlocfilehash: eac771d87003ab00adbe3c99adb1193c4ff12779
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43951266"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638840"
 ---
 # <a name="plan-for-lifecycle-management-in-teams"></a>Planejar o gerenciamento de ciclo de vida no Teams
 
@@ -41,7 +41,7 @@ Os conceitos e as definições a seguir afetam as decisões que você toma para 
 
 **Microsoft Teams**
 
-Uma _equipe_ é um conjunto de pessoas, conteúdo e ferramentas que possibilitam a colaboração. Uma equipe define quem são seus membros e as permissões e as políticas que se aplicam a eles. As equipes são criadas em Grupos do Microsoft 365. Alterações na associação a um grupo do Office 365 são sincronizadas com a equipe. Assim como outros Grupos do Microsoft 365, as equipes são provisionadas automaticamente com uma caixa de correio do Exchange, um site do SharePoint, um bloco de anotações do OneNote e outros ativos do Office 365. Saiba mais sobre os [Grupos do Microsoft 365](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
+Uma _equipe_ é um conjunto de pessoas, conteúdo e ferramentas que possibilitam a colaboração. Uma equipe define quem são seus membros e as permissões e as políticas que se aplicam a eles. As equipes são criadas nos Grupos do Microsoft 365 e as alterações na associação ao grupo do Microsoft 365 são sincronizadas com a equipe. Assim como outros Grupos do Microsoft 365, as equipes são provisionadas automaticamente com uma caixa de correio do Exchange, um site do SharePoint, um bloco de anotações do OneNote e outros ativos do Office 365. Saiba mais sobre os [Grupos do Microsoft 365](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
 
 **Canais**
 
@@ -141,7 +141,7 @@ As equipes podem ser criadas por meio de diversos métodos:
 
 -   Crie a equipe do zero. Adicione membros usando aliases de email ou nomes de usuário individuais ou expanda uma lista de distribuição.
 -   Crie a equipe com base em uma equipe existente e use sua configuração de canal e qualquer configuração de aplicativo como modelo. Opcionalmente, você também pode usar sua lista de membros.
--   Adicione uma equipe a um Grupo do Office 365 existente. Assim, a equipe também terá acesso à caixa de correio e ao site do SharePoint do grupo.
+-   Adicione uma equipe a um grupo existente do Microsoft 365, que também fornece acesso à equipe à sua caixa de correio e ao site do SharePoint.
 -   Use as APIs do Teams do Microsoft Graph ou cmdlets do PowerShell para criar equipes. As APIs podem criar equipes de forma programática com base nos atributos do Catálogo de Endereços Global (como região ou departamento) ou em processos empresariais (compromissos de clientes ou listas de participantes de salas de aula, por exemplo).
 
 Use estes links para obter mais informações sobre como organizar as equipes:

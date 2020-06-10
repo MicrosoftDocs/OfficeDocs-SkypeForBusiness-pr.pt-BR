@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: Use o Assistente do Teams (visualização pública) para ajudar a planejar e concluir a implantação do Microsoft Teams.
-ms.openlocfilehash: 79273c0c0d96bf5f7c52399310bffce433928e2b
-ms.sourcegitcommit: c3f44fccdbd9178d30b52bb0db6f6d31a6dd174b
+ms.openlocfilehash: bd893faa9a166b238a88f3865527bc38ef9bc6d3
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44139194"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637170"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Use o Assistente do Teams para ajudá-lo na implantação do Microsoft Teams
 
@@ -78,7 +78,7 @@ Recomendamos que você comece com o plano de Chat, equipes, canais e aplicativos
 Cada plano inclui uma avaliação de prontidão do locatário, que você pode usar para identificar rapidamente os aspectos do seu ambiente que talvez precisem ser remediados antes de implantar o Teams. As avaliações incluem pré-requisitos e práticas recomendadas. Todos os testes de avaliação terão uma marca de seleção verde ou um triângulo de aviso laranja. 
 
 - <sub><img src="media/use-advisor-teams-roll-out-image2.png" alt="Green check mark"/></img></sub>Uma marca de seleção verde significa que o locatário passou por um teste específico. 
-- <sub><img src="media/use-advisor-teams-roll-out-image1.png" alt="Yellow alert mark"/></img></sub>Um triângulo de aviso laranja significa que sugerimos que você faça um acompanhamento para determinar se alguma ação é necessária (por exemplo, uma política de expiração do Grupo do Office 365 é recomendada, mas não obrigatória).
+- <sub><img src="media/use-advisor-teams-roll-out-image1.png" alt="Yellow alert mark"/></img></sub>Um triângulo de aviso laranja significa que sugerimos que você faça um acompanhamento para determinar se alguma ação é necessária (por exemplo, uma política de expiração do Grupo do Microsoft 365 é recomendada, mas não obrigatória).
 
 > [!IMPORTANT]
 > Quando um usuário com uma função Administrativa inicia o Assistente do Teams, todas as avaliações são executadas em segundo plano. Se você atualizar ou corrigir algo, isso pode não ser refletido em suas avaliações por até 24 horas. Isso é temporário, assim que o Assistente do Teams deixar a visualização pública e estiver geralmente disponível, as avaliações serão atualizadas quase em tempo real.
@@ -102,8 +102,8 @@ Além dos [Testes de avaliação de todas as cargas de trabalho](#assessment-tes
 
 |Teste de avaliação  |O que ele informa  |
 |---------|---------|
-|Política de nomenclatura do Grupo do Office 365 configurada     |Se os padrões de nomeação foram configurados para Grupos do Microsoft 365. A política de nomenclatura de grupos do Microsoft 365 permite que sua organização aplique uma estratégia de nomenclatura consistente para equipes criadas pelo usuário e se aplica também a outras cargas de trabalho de grupos (incluindo o Outlook, o SharePoint, o Planner e o Yammer). Esse teste consulta o Azure AD por meio do Microsoft Graph para verificar a existência de políticas de nomenclatura que se aplicam aos grupos do Microsoft 365. Para obter mais informações, confira [Política de Nomenclatura dos Grupos do Office 365](https://docs.microsoft.com/office365/admin/create-groups/groups-naming-policy).    |
-|Política de Expiração de Grupo do Office 365 configurada     |Se uma Política de Expiração de Grupo foi definida para Grupos do Microsoft 365. Isso permite que sua organização remova automaticamente as Equipes inativas. Ela está desativada por padrão. Este teste consulta o Azure AD por meio do Microsoft Graph e relata se o valor foi modificado no padrão. Para obter mais informações, leia [Política de Expiração dos Grupos do Office 365](https://docs.microsoft.com/office365/admin/create-groups/office-365-groups-expiration-policy).    |
+|Política de nome de grupo do Microsoft 365 configurada     |Se os padrões de nomeação foram configurados para Grupos do Microsoft 365. A política de nomenclatura de grupos do Microsoft 365 permite que sua organização aplique uma estratégia de nomenclatura consistente para equipes criadas pelo usuário e se aplica também a outras cargas de trabalho de grupos (incluindo o Outlook, o SharePoint, o Planner e o Yammer). Esse teste consulta o Azure AD por meio do Microsoft Graph para verificar a existência de políticas de nomenclatura que se aplicam aos grupos do Microsoft 365. Para obter mais informações, confira [Política de nome de grupo do Microsoft 365](https://docs.microsoft.com/office365/admin/create-groups/groups-naming-policy).    |
+|Política de Expiração de grupo do Microsoft 365 configurada     |Se uma Política de Expiração de Grupo foi definida para Grupos do Microsoft 365. Isso permite que sua organização remova automaticamente as Equipes inativas. Ela está desativada por padrão. Este teste consulta o Azure AD por meio do Microsoft Graph e relata se o valor foi modificado no padrão. Para obter mais informações, leia [Política de Expiração de Grupo do Microsoft 365](https://docs.microsoft.com/office365/admin/create-groups/office-365-groups-expiration-policy).    |
 
 ### <a name="assessments-for-meetings-and-conferencing"></a>Avaliações de reuniões e conferências
 

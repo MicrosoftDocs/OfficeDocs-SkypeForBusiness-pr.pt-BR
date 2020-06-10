@@ -17,12 +17,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d2a158f8b43b4cf58e2c5c6c4a4248488f41973d
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 37bd749e44c2020d35a927491553662c74bff01f
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780280"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610970"
 ---
 # <a name="check-your-internet-connection-for-business-voice"></a>Verifique sua conexão com a Internet para obter o Business Voice
 
@@ -60,7 +60,7 @@ Antes de começar, você precisa das seguintes informações:
 
 Siga estas etapas:
 
-1. Em um navegador, vá para https://admin.teams.microsoft.com. Entre usando uma conta que tenha permissões de Administrador Global. A conta que você usou para se inscrever no Office 365 tem essas permissões.
+1. Em um navegador, vá para https://admin.teams.microsoft.com. Entre usando uma conta que tenha permissões de Administrador Global. A conta que você usou para se inscrever no Microsoft 365 ou Office 365 tem essas permissões.
 2. Abra **Planejamento** e selecione **Planejador de rede**.
 3. Em **Planos de rede**, selecione **Adicionar**. Digite um nome ao seu plano e selecione **Aplicar**. Seu plano de rede deve ter a seguinte aparência:
 
@@ -77,13 +77,13 @@ Siga estas etapas:
 
 ### <a name="find-your-minimum-internet-connection-speed"></a>Encontre sua velocidade mínima de conexão com a Internet
 
-Ao selecionar **Gerar relatório**, o Office 365 cria um relatório parecido com este:
+Ao selecionar **Gerar relatório**, o Microsoft 365 ou Office 365 cria um relatório parecido com este:
 
 ![Detalhes do relatório do planejador de rede](../media/network-planner-report.png)
 
 O número realçado mostra o quanto da sua conexão com a Internet será usada pelo Teams e Business Voice. Recomendamos que esse número não ultrapasse 30% da velocidade total da conexão com a Internet. Por exemplo, se sua conexão com a Internet for 60 Mbps, o Teams e o Business Voice deverão usar no máximo 18 Mbps.
 
-Use esta equação para determinar a velocidade mínima da conexão com a Internet: *\<número realçado> / 0,3*. Com o número realçado na imagem anterior, o cálculo é *4,6875/0,3 = 15,6*. Nesse caso, a velocidade da conexão com a Internet deve ter pelo menos 15.6 Mbps.
+Use esta equação para determinar a velocidade mínima da conexão com a Internet: *\<highlighted number> / 0,3*. Com o número realçado na imagem anterior, o cálculo é *4,6875/0,3 = 15,6*. Nesse caso, a velocidade da conexão com a Internet deve ter pelo menos 15.6 Mbps.
 
 Se o Teams e o Business Voice usarem mais de 30% da velocidade total da conexão com a Internet, o número realçado aparecerá em vermelho. Nesse caso, talvez seja necessário atualizar sua conexão com a Internet.
 

@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2604a0dd6aa662d807ae878dc31800736529833c
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 928f761626f51c2c717e046ad2f3aac49161b4cd
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778437"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638370"
 ---
 # <a name="monitor-usage-and-feedback-in-microsoft-teams"></a>Monitorar o uso e os comentários no Microsoft Teams
 É importante saber como os usuários estão usando o Teams e como está sendo a experiência deles com o Teams. Os relatórios de uso podem ajudar você a entender melhor os padrões de uso e, com os comentários dos usuários, fornecer informações para orientar a implantação geral e indicar onde priorizar os esforços de treinamento e comunicação.
@@ -38,7 +38,7 @@ Veja aqui como obter relatórios para exibir o uso do Teams.
 
 Os relatórios de equipes no centro de administração do Microsoft Teams fornecem informações sobre como o Teams é usado em sua organização. Use os relatórios para obter uma perspectiva sobre o uso do Teams, atividades do usuário e uso de dispositivos em sua organização. 
 
-Para ver esses relatórios, você deve ser um administrador global do Office 365, administrador de serviço do Teams ou administrador do Skype for Business. Acesse o centro de administração do Microsoft Teams, na navegação à esquerda, selecione **Análises e relatórios** e, em **Relatório**, escolha o relatório que você deseja executar.
+Para ver esses relatórios, você deve ser um administrador global do Microsoft 365 ou Office 365, administrador de serviço do Teams ou administrador do Skype for Business. Acesse o centro de administração do Microsoft Teams, na navegação à esquerda, selecione **Análises e relatórios** e, em **Relatório**, escolha o relatório que você deseja executar.
 
 - **Relatório de uso do Teams**: este relatório fornece uma visão geral da atividade de uso no Teams, inclusive do total de usuários e canais ativos, e do número de usuários e canais ativos, convidados e mensagens em cada equipe. 
 
@@ -62,7 +62,7 @@ Para saber mais, acesse [Usar relatórios de atividades no Teams](teams-activity
 
 ### <a name="microsoft-365-usage-analytics"></a>Análise de uso do Microsoft 365
 
-Você pode usar a análise do uso do Microsoft 365 no Power BI para visualizar e analisar o uso dos dados do Teams e de outros produtos e serviços do Office 365. A análise de uso do Microsoft 365 é um pacote de conteúdo que inclui um painel predefinido e uma série de relatórios predefinidos. Cada relatório fornece informações e dados de uso específicos. Para conectar o pacote de conteúdo, você precisa do Power BI e deve ser um administrador global do Office 365 ou leitor de relatórios. Se você ainda não tem o Power BI [Inscreva-se no serviço do Power BI gratuitamente](https://powerbi.microsoft.com). 
+Você pode usar a análise do uso do Microsoft 365 no Power BI para visualizar e analisar o uso dos dados do Teams e de outros produtos e serviços do Microsoft 365 ou Office 365. A análise de uso do Microsoft 365 é um pacote de conteúdo que inclui um painel predefinido e uma série de relatórios predefinidos. Cada relatório fornece informações e dados de uso específicos. Para conectar o pacote de conteúdo, você precisa do Power BI e deve ser um administrador global do Microsoft 365, Office 365 ou leitor de relatórios. Se você ainda não tem o Power BI [Inscreva-se no serviço do Power BI gratuitamente](https://powerbi.microsoft.com). 
 
 Para saber mais, confira [Análise de uso do Microsoft 365](https://support.office.com/article/Microsoft-365-usage-analytics-77ff780d-ab19-4553-adea-09cb65ad0f1f). 
 
