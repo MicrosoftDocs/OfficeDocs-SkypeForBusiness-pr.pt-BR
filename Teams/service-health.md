@@ -13,22 +13,22 @@ ms.collection:
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: É uma boa prática verificar se o serviço do Teams está íntegro, bem como outros componentes do Office 365, como o Exchange, o SharePoint e o OneDrive for Business.
+description: É uma boa prática verificar se o serviço Teams é saudável e outros componentes do Microsoft 365 ou do Office 365, como Exchange, SharePoint e OneDrive for Business.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 219c484b4bf8eff35d78966820a3002e55aecbb7
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: 1451750d5e329ddb27307b21334fb7d281255d73
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706571"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690167"
 ---
-<a name="verify-service-health-for-microsoft-teams"></a><span data-ttu-id="7acd8-103">Verificar a integridade do serviço para o Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="7acd8-103">Verify service health for Microsoft Teams</span></span>
+<a name="verify-service-health-for-microsoft-teams"></a><span data-ttu-id="d18d4-103">Verificar a integridade do serviço para o Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="d18d4-103">Verify service health for Microsoft Teams</span></span>
 ===========================================
 
-<span data-ttu-id="7acd8-104">A integridade do serviço do Microsoft Teams é exibida no centro de administração do Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="7acd8-104">Service health for Microsoft Teams is displayed on the Microsoft 365 admin center.</span></span> <span data-ttu-id="7acd8-105">Antes de solucionar problemas, é uma boa prática verificar se o serviço do Teams está íntegro.</span><span class="sxs-lookup"><span data-stu-id="7acd8-105">Before troubleshooting issues, it's a good practice to verify that the Teams service is healthy.</span></span>
+<span data-ttu-id="d18d4-104">A integridade do serviço do Microsoft Teams é exibida no centro de administração do Microsoft 365.</span><span class="sxs-lookup"><span data-stu-id="d18d4-104">Service health for Microsoft Teams is displayed on the Microsoft 365 admin center.</span></span> <span data-ttu-id="d18d4-105">Antes de solucionar problemas, é uma boa prática verificar se o serviço do Teams está íntegro.</span><span class="sxs-lookup"><span data-stu-id="d18d4-105">Before troubleshooting issues, it's a good practice to verify that the Teams service is healthy.</span></span> <span data-ttu-id="d18d4-106">Vá para o console de <a href=" https://admin.microsoft.com/adminportal/home?ref=servicehealth" target="_blank">integridade do teams Service</a> para analisar a integridade do serviço.</span><span class="sxs-lookup"><span data-stu-id="d18d4-106">Go to the <a href=" https://admin.microsoft.com/adminportal/home?ref=servicehealth" target="_blank">Teams Service Health</a> console to review the service health.</span></span>
 
-<span data-ttu-id="7acd8-106">Além disso, tenha em mente que o Microsoft Teams é construído em cima dos serviços adicionais do Office 365; então, ao verificar a integridade do serviço, lembre-se de verificar também o status do Exchange, do SharePoint e do OneDrive for Business.</span><span class="sxs-lookup"><span data-stu-id="7acd8-106">Also, keep in mind that, Microsoft Teams is built on top of additional Office 365 services, so when looking at Service Health, remember to also check the status of Exchange, SharePoint, and OneDrive for Business.</span></span> <span data-ttu-id="7acd8-107">Os problemas de integridade de serviço para esses outros serviços não significam automaticamente que o Teams será afetado (ex.: o download do Catálogo de Endereços no Exchange não está disponível), mas que você precisa analisar os avisos dos serviços afetados para verificar se há algum impacto no Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="7acd8-107">Service Health issues for these other services does not automatically mean that Teams is impacted (e.g. Address Book downloads in Exchange are unavailable), but that you should review the advisories for those affected services to determine if there is an impact to Microsoft Teams.</span></span>
+<span data-ttu-id="d18d4-107">Além disso, lembre-se de que, o Microsoft Teams foi desenvolvido sobre os serviços adicionais do Microsoft 365 ou do Office 365, portanto, quando estiver vendo a integridade do serviço, lembre-se também de verificar o status do Exchange, do SharePoint e do OneDrive for Business.</span><span class="sxs-lookup"><span data-stu-id="d18d4-107">Also, keep in mind that, Microsoft Teams is built on top of additional Microsoft 365 or Office 365 services, so when looking at Service Health, remember to also check the status of Exchange, SharePoint, and OneDrive for Business.</span></span> <span data-ttu-id="d18d4-108">Os problemas de integridade de serviço para esses outros serviços não significam automaticamente que o Teams será afetado (ex.: o download do Catálogo de Endereços no Exchange não está disponível), mas que você precisa analisar os avisos dos serviços afetados para verificar se há algum impacto no Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="d18d4-108">Service Health issues for these other services does not automatically mean that Teams is impacted (e.g. Address Book downloads in Exchange are unavailable), but that you should review the advisories for those affected services to determine if there is an impact to Microsoft Teams.</span></span>
 
 ![Captura de tela da página de integridade do serviço.](media/Verify_service_health_for_Microsoft_Teams_image1.png)
 
