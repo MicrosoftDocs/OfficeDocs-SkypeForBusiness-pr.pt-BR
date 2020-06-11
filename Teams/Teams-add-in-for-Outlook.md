@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 25b7163da92323a0695031a61d93895779a5ded7
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: fdecae806c0e02efc9a440ce192528ab6017d994
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637710"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44689807"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Usar o suplemento de Reunião do Teams no Outlook
 =======================================
@@ -139,7 +139,7 @@ Se você não conseguir instalar o suplemento Teams Meeting para o Outlook, tent
 - Verifique se o usuário tem uma política de reunião do teams que permite o suplemento do Outlook. Consulte [gerenciar políticas de reunião no Teams](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#allow-the-outlook-add-in) para obter mais detalhes.
 - Verifique se o usuário tem o cliente da área de trabalho do teams instalado. O suplemento de reunião não será instalado quando você usar somente o cliente Web Teams.
 - Verifique se o usuário tem o Outlook 2013 ou posterior instalado.
-- Certifique-se de que o usuário tenha permissão para executar o regsvr32. exe.
+- Certifique-se de que o usuário tenha permissão para executar regsvr32.exe.
 - Certifique-se de que todas as atualizações disponíveis para o cliente da área de trabalho do Outlook foram aplicadas.
 - Siga estas etapas:
   - Reinicie o cliente de área de trabalho do Teams.
@@ -161,7 +161,7 @@ Se o suplemento ainda não for exibido, use as etapas a seguir para verificar as
 
 > [!NOTE]
 > A edição incorreta do registro pode danificar seriamente seu sistema. Antes de fazer alterações no registro, você deve fazer backup de todos os dados importantes do computador.
-- Inicie o RegEdit. exe
+- Iniciar RegEdit.exe
 - Navegue até HKEY_CURRENT_USER \Software\Microsoft\Office\Outlook\Addins
 - Verifique se o TeamsAddin. FastConnect existe.
 - Em TeamsAddin. FastConnect, verifique se existe LoadBehavior e se está definido como 3.
@@ -169,4 +169,6 @@ Se o suplemento ainda não for exibido, use as etapas a seguir para verificar as
 
 ### <a name="delegate-scheduling-does-not-work"></a>O agendamento de representante não funciona
 
-Se o seu administrador configurou o Microsoft Exchange para [controlar o acesso ao Exchange Web Server (EWS)](https://docs.microsoft.com/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange), um representante não poderá agendar uma reunião do Teams em nome do chefe. A solução para esta configuração está em desenvolvimento e será lançada no futuro. 
+Se o seu administrador configurou o Microsoft Exchange para [controlar o acesso ao Exchange Web Server (EWS)](https://docs.microsoft.com/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange), um representante não poderá agendar uma reunião do Teams em nome do chefe. A solução para esta configuração está em desenvolvimento e será lançada no futuro. Como solução alternativa, o administrador pode adicionar a seguinte cadeia de caracteres à lista de permissões do EWS: "*SchedulingService*". 
+
+

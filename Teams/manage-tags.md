@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba como gerenciar como as marcas são usadas em sua organização no Microsoft Teams.
-ms.openlocfilehash: 6b95dc07954803ea6d15a1ca5bdf6c705ca3e252
-ms.sourcegitcommit: 1d24b62f41bce4f8d86d6060291af1267f75a2a2
+ms.openlocfilehash: 9c17045a167c46cabc2c7bd0c89b7488996975ad
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43209483"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690847"
 ---
 # <a name="manage-tags-in-microsoft-teams"></a>Gerenciar marcas no Microsoft Teams
 
@@ -53,7 +53,7 @@ Uma equipe pode ter até 100 marcas, até 100 os membros da equipe podem ser atr
 
 Por padrão, os proprietários da equipe podem adicionar marcas. Você pode alterar essa configuração para permitir que os proprietários da equipe e os membros da equipe adicionem marcas ou você pode desativar as marcas da sua organização.
 
-1. Na navegação à esquerda do centro de administração do Microsoft Teams, clique em configurações da > **equipe**de **configurações de toda a organização**.
+1. Na navegação à esquerda do centro de administração do Microsoft Teams, clique em configurações da equipe de **configurações de toda a organização**  >  **Teams settings**.
 2. Em **marcação**, ao lado de **marcação está habilitado para**, selecione uma das seguintes opções:
 
     - **Proprietários e membros da equipe**: permitir que proprietários e membros da equipe adicionem marcas.
@@ -64,7 +64,7 @@ Por padrão, os proprietários da equipe podem adicionar marcas. Você pode alte
 
 Você pode definir as seguintes configurações de marcas para controlar a forma como as marcas são usadas em toda a organização.
 
-1. Na navegação à esquerda do centro de administração do Microsoft Teams, clique em configurações da > **equipe**de **configurações de toda a organização**.
+1. Na navegação à esquerda do centro de administração do Microsoft Teams, clique em configurações da equipe de **configurações de toda a organização**  >  **Teams settings**.
 2. Em **marcação**, defina o seguinte, dependendo das necessidades da sua organização.
 
     - O **proprietário da equipe pode substituir quem pode aplicar as marcas**: quando está ativado, os proprietários da equipe podem permitir ou impedir que os membros adicionem marcas nas configurações da equipe.
@@ -79,6 +79,8 @@ Se você ativou o **proprietário da equipe pode substituir quem pode aplicar ma
 
 ## <a name="add-tags-in-teams"></a>Adicionar marcas no Teams
 
-No Teams, a guia **Membros** da página Gerenciar equipe de uma equipe inclui uma coluna **marcas** . Proprietários e membros da equipe (se o recurso estiver habilitado para eles) podem clicar em **gerenciar marcas** ao lado de um membro para ver a lista de marcas sugeridas para esse membro e adicionar marcas à lista.
+Para gerenciar marcas, selecione **gerenciar equipes** no lado esquerdo do aplicativo e localize sua equipe na lista. Selecione **mais opções**e, em seguida, escolha **gerenciar marcas**.
 
-![Captura de tela de como aplicar marcas no cliente do teams ](media/manage-tags-teams.png) 
+Aqui, você pode criar marcas e atribuí-las às pessoas de sua equipe.
+
+![Captura de tela de como aplicar marcas no cliente do teams ](media/manage-tags-teams.png)

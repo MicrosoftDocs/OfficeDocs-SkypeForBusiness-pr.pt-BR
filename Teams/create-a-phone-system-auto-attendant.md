@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Saiba como configurar e testar atendedores automáticos da nuvem para o Microsoft Teams.
-ms.openlocfilehash: ba7da55a33aa1fa65b677146e73ce352158a4cdf
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: 94bbc68ca8a9b89d2ae8c9931ca57b17f761ae90
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44523756"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44697438"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>Configurar um atendedor automático do Cloud
 
@@ -83,7 +83,7 @@ Se você definir um operador, solicite às pessoas que chamam sobre a opção na
 Você tem várias maneiras de definir o operador:
 
 - **Nenhum operador** desabilita as opções "operador" e "pressionar 0". Este é o padrão atual.
-- **Pessoa na organização** atribui uma pessoa com uma licença do sistema telefônico habilitada para Enterprise Voice ou planos de chamada atribuídos no Office 365. Você também pode configurá-lo para que o chamador seja enviado ao correio de voz. Para enviar um chamador para correio de voz, selecione **pessoa na organização** e defina as configurações da conta para enviar chamadas diretamente para o correio de voz.
+- **Pessoa na organização** atribui uma pessoa com uma licença do sistema de telefonia habilitada para Enterprise Voice ou planos de chamada atribuídos no Microsoft 365 ou no Office 365. Você também pode configurá-lo para que o chamador seja enviado ao correio de voz. Para enviar um chamador para correio de voz, selecione **pessoa na organização** e defina as configurações da conta para enviar chamadas diretamente para o correio de voz.
 
      > [!Note]
      > A **pessoa na organização** pode ser um usuário online ou um usuário hospedado no local usando o Skype for Business Server. Ao selecionar **pessoa na organização** , você pode selecionar uma conta com uma caixa de correio compartilhada ou com uma caixa de correio do usuário.
@@ -157,13 +157,13 @@ Se você selecionar **Desconectar**, o chamador será desconectado após a sauda
 
 ![Ícone do número 4, um texto explicativo na chamada de ](media/teamscallout4.png) **redirecionamento** de captura de tela anterior envia o chamador para o destino escolhido sem escolher entre as opções. As configurações possíveis são:
 
-  - **Pessoa na organização** A conta que você escolher deve ter uma licença do sistema de telefonia habilitada para Enterprise Voice ou ter um plano de chamada atribuído no Office 365. Você pode configurá-lo para que o chamador possa ser enviado para o correio de voz: selecione **pessoa na organização** e defina essa conta para que as chamadas sejam encaminhadas diretamente para o correio de voz.
+  - **Pessoa na organização** A conta que você escolher deve ter uma licença do sistema de telefonia habilitada para Enterprise Voice ou ter um plano de chamada atribuído no Microsoft 365 ou no Office 365. Você pode configurá-lo para que o chamador possa ser enviado para o correio de voz: selecione **pessoa na organização** e defina essa conta para que as chamadas sejam encaminhadas diretamente para o correio de voz.
 
     > [!Note]
     > A **pessoa na organização** pode ser um usuário online ou um usuário hospedado no local usando o Skype for Business Server. Ao selecionar **pessoa na organização** , você pode selecionar uma conta com uma caixa de correio compartilhada ou com uma caixa de correio do usuário.
 
   - **Aplicativo de voz** Selecione um atendedor automático ou fila de chamadas que já tenha sido configurada. Você pesquisa o atendedor automático ou a fila de chamadas pelo nome da conta do recurso associada ao serviço.
-  - **Correio de voz** Selecione o grupo do Office 365 que contém os usuários em sua organização que precisam acessar o correio de voz recebido por este atendedor automático. As mensagens de correio de voz são enviadas para o grupo do Office 365 que você especificou. Para acessar mensagens de correio de voz, os membros do grupo podem abri-los navegando para o grupo no Outlook.
+  - **Correio de voz** Selecione o grupo do Microsoft 365 que contém os usuários em sua organização que precisam acessar o correio de voz recebido por este atendedor automático. As mensagens de correio de voz são enviadas para o grupo do Microsoft 365 que você especificou. Para acessar mensagens de correio de voz, os membros do grupo podem abri-los navegando para o grupo no Outlook.
 
       Alterne a **transcrição** para **ativado** para habilitar a transcrição de voz para texto de mensagens de correio de voz.
 
@@ -198,11 +198,11 @@ Se você selecionar **Desconectar**, o chamador será desconectado após a sauda
 <!-- Is the Operator behavior changing here? Looks like operator is only an available option for dial key 0 -->
 
 - **Operador** de Se um operador já estiver configurado, a opção será automaticamente mapeada para a chave 0, mas também pode ser excluída ou reatribuída a uma chave diferente. O chamador que seleciona essa opção é enviado para o operador designado. Se o operador não estiver definido como qualquer chave, o comando de voz "operador" também será desabilitado. 
-- A **pessoa na organização** pode ser um usuário online ou um usuário hospedado no local usando o Skype for Business Server. O usuário deve ter uma licença do sistema de telefonia habilitada para Enterprise Voice ou planos de chamada atribuídos no Office 365. Procure a pessoa no campo **Pesquisar por nome** .
+- A **pessoa na organização** pode ser um usuário online ou um usuário hospedado no local usando o Skype for Business Server. O usuário deve ter uma licença de sistema telefônico habilitada para Enterprise Voice ou planos de chamada atribuídos no Microsoft 365 ou no Office 365. Procure a pessoa no campo **Pesquisar por nome** .
 
 - **Aplicativo de voz** Selecione um atendedor automático ou fila de chamadas que já tenha sido configurada. Você pesquisa o atendedor automático ou a fila de chamadas pelo nome da conta de recurso associada ao aplicativo.
 
-- **Correio de voz** Selecione o grupo do Office 365 que contém os usuários em sua organização que precisam acessar o correio de voz recebido por este atendedor automático. As mensagens de correio de voz são enviadas para o grupo do Office 365 que você especificou. Para acessar mensagens de correio de voz, os membros do grupo podem abri-los navegando para o grupo no Outlook.
+- **Correio de voz** Selecione o grupo do Microsoft 365 que contém os usuários em sua organização que precisam acessar o correio de voz recebido por este atendedor automático. As mensagens de correio de voz são enviadas para o grupo do Microsoft 365 que você especificou. Para acessar mensagens de correio de voz, os membros do grupo podem abri-los navegando para o grupo no Outlook.
 
     Alterne a **transcrição** para **ativado** para habilitar a transcrição de voz para texto de mensagens de correio de voz.
 
@@ -333,7 +333,7 @@ Nesta página, você pode definir quem está listado no seu diretório e dispon�
 
 Se você selecionar **todos os usuários online**, todos os usuários qualificados serão incluídos na pesquisa de diretório.
 
-**Grupos de usuários personalizados** Essa opção permite pesquisar e selecionar um grupo do Office 365, uma lista de distribuição ou um grupo de segurança já criado em sua organização. Os usuários são adicionados ao diretório se estiverem no grupo, lista de distribuição ou grupo de segurança escolhido do Office 365, e eles forem **usuários online com uma licença do sistema de telefone** ou hospedados no local usando o Skype for Business Server. Você pode adicionar vários grupos do Microsoft 365, listas de distribuição e grupos de segurança ao diretório.
+**Grupos de usuários personalizados** Essa opção permite pesquisar e selecionar um grupo, uma lista de distribuição ou um grupo de segurança do Microsoft 365 já criado em sua organização. Os usuários são adicionados ao diretório se estiverem no grupo do Microsoft 365, lista de distribuição ou grupo de segurança escolhido, e eles forem **usuários online com uma licença do sistema de telefone** ou hospedados no local usando o Skype for Business Server. Você pode adicionar vários grupos do Microsoft 365, listas de distribuição e grupos de segurança ao diretório.
 
 <a name="dialscope"> </a>
 
@@ -343,8 +343,7 @@ Nesta página, você pode configurar quais usuários em sua organização serão
 
 Se você selecionar **nenhum**, todos os usuários qualificados serão incluídos na pesquisa de diretório.
 
-**Grupo de usuários personalizado** Você pode pesquisar um grupo do Office 365, uma lista de distribuição ou um grupo de segurança que tenha sido criado em sua organização. Os usuários desse grupo são excluídos da pesquisa de diretório. Você pode adicionar vários grupos do Microsoft 365, listas de distribuição e grupos de segurança.
-
+**Grupo de usuários personalizado** Você pode procurar um grupo, uma lista de distribuição ou um grupo de segurança do Microsoft 365 que tenha sido criado em sua organização. Os usuários desse grupo são excluídos da pesquisa de diretório. Você pode adicionar vários grupos do Microsoft 365, listas de distribuição e grupos de segurança.
 
 Se você deixar as configurações no padrão quando discar por nome estiver habilitada, todos os usuários qualificados serão incluídos na pesquisa de diretório.
 
@@ -411,7 +410,7 @@ Você também pode usar o PowerShell para criar e configurar atendedores automá
 
 ### <a name="more-about-windows-powershell"></a>Mais sobre o Windows PowerShell
 
-- O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com o Windows PowerShell, você pode gerenciar o Office 365 e o Microsoft Teams a partir de um único ponto de administração que pode simplificar o seu trabalho diário. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
+- O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com o Windows PowerShell, você pode gerenciar o Microsoft 365 ou o Office 365 e o Microsoft Teams a partir de um único ponto de administração que pode simplificar o seu trabalho diário. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
 
   - [Uma introdução ao Windows PowerShell e ao Skype for Business Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
@@ -419,13 +418,13 @@ Você também pode usar o PowerShell para criar e configurar atendedores automá
 
 - O Windows PowerShell tem muitas vantagens em velocidade, simplicidade e produtividade apenas usando o centro de administração do Microsoft 365, como as alterações de configuração de vários usuários ao mesmo tempo. Saiba mais sobre essas vantagens nos seguintes tópicos:
 
-  - [Gerenciar o Office 365 com o Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-with-office-365-powershell)
+  - [Gerenciar o Microsoft 365 ou o Office 365 com o Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-with-office-365-powershell)
 
   - [Usar o Windows PowerShell para gerenciar o Skype for Business Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Veja aqui o que você obtém com o Sistema de Telefonia no Office 365](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
+[Veja o que você obtém com o Sistema de Telefonia](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
 
 [Obter números de telefone de serviço](/microsoftteams/getting-service-phone-numbers)
 

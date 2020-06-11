@@ -22,18 +22,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 882bb40d1d7f300f51fded6321f29bafd7f8ba92
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: 18f880e9b6762371f2a936ff0901db542d541748
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44522494"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690917"
 ---
 # <a name="teams-only-mode-considerations"></a>Considerações sobre o modo Teams Only (Apenas Teams)
 
-Se você for um administrador em sua organização do Office 365, verá agora a opção atualizar para o modo somente Teams no centro de administração do Microsoft Teams. Com essa funcionalidade, você pode atualizar usuários individuais ou, como alternativa, o locatário inteiro.  
+Se você for um administrador em sua organização do Microsoft 365 ou do Office 365, agora verá a opção de atualizar para o modo somente Teams no centro de administração do Microsoft Teams. Com essa funcionalidade, você pode atualizar usuários individuais ou, como alternativa, o locatário inteiro.  
 
-A atualização para o modo somente Teams oferece aos usuários todas as vantagens do Microsoft Teams, o Hub de trabalho em equipe no Office 365, por meio de uma única experiência de cliente. Além disso, os usuários no modo apenas Teams receberão todas as chamadas e chats no Teams, independentemente de o remetente estar usando o Skype for Business ou Teams e se beneficiar do suporte a interoperabilidade e Federação.
+A atualização para o modo somente Teams oferece aos usuários todas as vantagens do Microsoft Teams, o Hub para trabalho em equipe no Microsoft 365 ou o Office 365, por meio de uma única experiência de cliente. Além disso, os usuários no modo apenas Teams receberão todas as chamadas e chats no Teams, independentemente de o remetente estar usando o Skype for Business ou Teams e se beneficiar do suporte a interoperabilidade e Federação.
 
 Embora milhares de clientes tenham sido atualizados com êxito para o Microsoft Teams, há considerações que podem influenciar a linha do tempo de atualização da sua organização e a experiência do usuário ao longo do caminho. Em particular, ter a opção de atualizar não significa necessariamente que sua organização está pronta para esta mudança. Para obter a melhor experiência do usuário, confirme se o Microsoft Teams atende a seus requisitos de colaboração e comunicação, verifique se a rede está pronta para dar suporte ao Microsoft Teams e implemente seu plano de preparação do usuário antes de atualizar os usuários para o Microsoft Teams. 
 
@@ -54,7 +54,7 @@ Embora milhares de clientes tenham sido atualizados com êxito para o Microsoft 
  - Office 365 Alemanha
  - O locatário do Skype for Business é hospedado na Coréia do Sul **e** a organização requer que os dados do Team sejam armazenados na Coreia do Sul. Atualmente, as organizações com dados do Skype for Business armazenados na Coréia do Sul que atualizam para o Microsoft Teams terão seus dados de equipe armazenados na região do datacenter da Ásia, e não na região do centro de dados da Coreia do Sul.
 
-**Considerações específicas do usuário**: alguns cenários do usuário ainda estão em evolução, e os administradores podem decidir adiar temporariamente a atualização de certos usuários durante a atualização de outros usuários da organização. Em particular, ainda estamos trabalhando em cenários de endereçamento para usuários cujo dispositivo principal seja baseado em VDI. Monitore o site de [mapa do Office 365](https://www.microsoft.com/microsoft-365/roadmap) para anúncios.
+**Considerações específicas do usuário**: alguns cenários do usuário ainda estão em evolução, e os administradores podem decidir adiar temporariamente a atualização de certos usuários durante a atualização de outros usuários da organização. Em particular, ainda estamos trabalhando em cenários de endereçamento para usuários cujo dispositivo principal seja baseado em VDI. Monitore o site de [roteiro do Microsoft 365](https://www.microsoft.com/microsoft-365/roadmap) para anúncios.
 
 > [!NOTE]
 > Antes de mudar para o modo Microsoft Teams, você precisa substituir ou atualizar dispositivos que não dão suporte a equipes. 

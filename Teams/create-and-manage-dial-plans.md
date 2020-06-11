@@ -21,12 +21,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: Saiba como usar o centro de administração do Microsoft Teams ou o Windows PowerShell para criar e gerenciar planos de discagem (planos de discagem de chamada PSTN).
-ms.openlocfilehash: 50cdbaf9fd1e5ae10eca20c0f547dce29d606983
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 966ac2e21d3bc57dd32a0b2732e0be285b9fdf0d
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902016"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691337"
 ---
 # <a name="create-and-manage-dial-plans"></a>Criar e gerenciar planos de discagem
 
@@ -36,7 +36,7 @@ Depois de planejar os planos de discagem para a sua organização e descobrir to
 
 ### <a name="create-a-dial-plan"></a>Criar um plano de discagem
 
-1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para**plano de discagem**por **voz** > .
+1. Na navegação à esquerda do centro de administração do Microsoft Teams, **Voice**vá para  >  **plano de discagem**por voz.
 2. Clique em **Adicionar**e, em seguida, insira um nome e uma descrição para o plano de discagem.
     ![Captura de tela mostrando a página Adicionar para criar um plano de discagem](media/create-dial-plan.png)
 3. Em **detalhes do plano de discagem**, especifique um prefixo de discagem externo se os usuários precisarem discar um ou mais dígitos iniciais adicionais (por exemplo, 9) para obter uma linha externa. Para fazer isso:
@@ -56,7 +56,7 @@ Depois de planejar os planos de discagem para a sua organização e descobrir to
 
 ### <a name="edit-a-dial-plan"></a>Editar um plano de discagem
 
-1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para**plano de discagem**por **voz** > .
+1. Na navegação à esquerda do centro de administração do Microsoft Teams, **Voice**vá para  >  **plano de discagem**por voz.
 2. Selecione o plano de discagem clicando à esquerda do nome do plano de discagem e, em seguida, clique em **Editar**.
 3. Faça as alterações desejadas e clique em **salvar**.
 
@@ -74,7 +74,7 @@ Depois de planejar os planos de discagem para a sua organização e descobrir to
 
  **Verifique se você está executando o Windows PowerShell versão 3,0 ou posterior**
   
-1. Para verificar se você está executando a versão 3,0 ou superior: **menu** > iniciar**Windows PowerShell**.
+1. Para verificar se você está executando a versão 3,0 ou superior: **menu iniciar**  >  **Windows PowerShell**.
     
 2. Verifique a versão digitando  _Get-Host_ na janela do **Windows PowerShell**.
     
@@ -82,13 +82,13 @@ Depois de planejar os planos de discagem para a sua organização e descobrir to
     
 4. Você também precisará instalar o módulo do Windows PowerShell para o Skype for Business online que permite que você crie uma sessão remota do Windows PowerShell que se conecta ao Skype for Business online. Você pode baixar esse módulo, que tem suporte apenas em computadores de 64 bits, no [módulo do Windows PowerShell para Skype for Business online](https://go.microsoft.com/fwlink/?LinkId=294688). Reinicie o computador se for solicitado.
     
-Para saber mais, confira [conectar-se a todos os serviços do Office 365 em uma única janela do Windows PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window).
+Para saber mais, confira [conectar-se a todos os serviços do Microsoft 365 ou do Office 365 em uma única janela do Windows PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window).
   
  **Iniciar uma sessão do Windows PowerShell**
   
-1. Clique em **Iniciar** > o**Windows PowerShell**.
+1. Clique em **Iniciar**o  >  **Windows PowerShell**.
     
-2. Na janela do **Windows PowerShell** , conecte-se ao seu Microsoft 365 ou ao Office 365 executando:
+2. Na janela do **Windows PowerShell** , conecte-se ao Microsoft 365 ou ao Office 365 executando:
     
     > [!NOTE]
     > [!OBSERVAçãO] Execute o comando **Import-Module** apenas quando usar o módulo do Windows PowerShell do Skype for Business Online pela primeira vez.

@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: Os organizadores da reunião podem aprender a discar usando o aplicativo Teams para permitir que outras pessoas ingressem na mesma reunião usando seus telefones.
-ms.openlocfilehash: fc670995dcf5a16c79c857c217711490be82a664
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 7d15cbbc1b81d54f6a217713cea3927dcff31e56
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43901956"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691287"
 ---
 # <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>Discar de uma reunião do Microsoft Teams para que outras pessoas possam ingressar
 
@@ -45,7 +45,7 @@ Ao discar para alguém, recomendamos que você faça isso usando números de tel
 
 Veja como fazer para discar para funcionar:
 
- **Etapa 1:** Na reunião, use a captura de tela **adicionar pessoas** ![da opção de botão](media/add-people-button.png) adicionar pessoas para discar para um número de telefone.
+ **Etapa 1:** Na reunião, use a captura de tela **adicionar pessoas** ![ da opção de botão adicionar pessoas ](media/add-people-button.png) para discar para um número de telefone.
  **Etapa 2:** Digite o número de telefone completo, incluindo o código de país/região na caixa **convidar alguém ou discar um número** .
   
 ![Captura de tela da caixa convidar alguém ou discar um número](media/invite-someone-box.png)
@@ -60,6 +60,6 @@ Se você estiver procurando instruções sobre como permitir que seus usuários 
 
 ## <a name="want-to-know-more-about-audio-conferencing"></a>Quer saber mais sobre a conferência de áudio?
 
-[Experimentar ou comprar audioconferência no Office 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
+[Experimentar ou comprar videoconferência](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
     
 [Licenciamento do complemento do Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)

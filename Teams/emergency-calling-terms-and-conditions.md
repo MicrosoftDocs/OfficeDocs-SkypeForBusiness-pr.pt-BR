@@ -22,20 +22,20 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 'Saiba como os serviços de emergência (911) diferem dos serviços telefônicos tradicionais e como fazer uma chamada. '
-ms.openlocfilehash: 5a6f0b45fdf31ffbb1c0c5820a81326772610fb3
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 70978907e8fffa74a7284b3c0179088287a2b181
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834961"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691447"
 ---
 # <a name="emergency-calling-terms-and-conditions"></a>Termos e condições para chamadas de emergência
 
 ## <a name="important-information"></a>Informações importantes
 
-A chamada de serviços de emergência funciona de forma diferente com planos de chamada no Office 365 do que nos serviços de telefonia tradicional. É importante que você compreenda essas diferenças e as comunique a todos os usuários com planos de chamada no Office 365. Você reconhece e concorda que leu e entendeu as diferenças em nossas chamadas de serviços de emergência e fornecerá esse aviso a cada usuário com planos de chamada no Office 365.
+A chamada de serviços de emergência funciona de forma diferente com planos de chamada no Microsoft 365 ou no Office 365 em serviços de telefonia tradicional. É importante que você compreenda essas diferenças e as comunique a todos os usuários com planos de chamada no Microsoft 365 ou no Office 365. Você reconhece e concorda que leu e entendeu as diferenças em nossas chamadas de serviços de emergência e fornecerá esse aviso a cada usuário com planos de chamada no Microsoft 365 ou no Office 365.
   
-As diferenças em nossos recursos de chamada de serviços de emergência incluem o seguinte: (i) o Skype for Business e o Teams podem não conhecer a localização real de um chamador fazendo uma chamada de serviços de emergência, o que pode fazer com que a chamada seja roteada para o centro de chamadas de serviços de emergência e/ou serviços de emergência errados para o local errado; (II) se o cliente do teams do usuário estiver offline, ou se o dispositivo do usuário não puder acessar a Internet por qualquer motivo, como uma falha na rede ou falta de energia, as chamadas de serviços de emergência por meio do sistema telefônico no Office 365 não são compatíveis e não devem funcionar; e (III) embora os planos de chamada no Office 365 possam ser usados em qualquer lugar do mundo em que uma conexão à Internet está disponível, os usuários não devem fazer uma chamada de serviços de emergência de um local fora do país/região de residência porque a chamada provavelmente não será roteada para a central de chamadas apropriada nesse país/região.
+As diferenças em nossos recursos de chamada de serviços de emergência incluem o seguinte: (i) o Skype for Business e o Teams podem não conhecer a localização real de um chamador fazendo uma chamada de serviços de emergência, o que pode fazer com que a chamada seja roteada para o centro de chamadas de serviços de emergência e/ou serviços de emergência errados para o local errado; (II) se o cliente do teams do usuário estiver offline, ou se o dispositivo do usuário não puder acessar a Internet por qualquer motivo, como uma queda de rede ou falta de energia, as chamadas de serviços de emergência por meio do sistema telefônico no Microsoft 365 ou do Office 365 não são suportadas e não devem funcionar; e (III) embora os planos de chamada no Microsoft 365 ou o Office 365 possam ser usados em qualquer lugar do mundo em que uma conexão à Internet está disponível, os usuários não devem fazer uma chamada de serviços de emergência de um local fora do país/região de casa, pois a chamada provavelmente não será roteada para a central de chamadas apropriada nesse país/região.
   
 ## <a name="related-topics"></a>Tópicos relacionados
 [Perguntas comuns sobre a transferência de números de telefone](transferring-phone-numbers-common-questions.md)

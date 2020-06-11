@@ -21,59 +21,41 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Saiba como configurar o correio de voz na nuvem para seus usuários. '
-ms.openlocfilehash: 5526bee2bd365a4047e3641ea223941227858d1a
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: 62729794ff1e23ce29b3e3aad86fa09b63a428e5
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44523114"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691047"
 ---
 # <a name="set-up-cloud-voicemail"></a>Configurar a caixa postal na nuvem
 
-Este artigo é para o [administrador do Office 365](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) que deseja configurar o recurso de correio de voz na nuvem para todos os participantes da empresa.
+Este artigo é para o administrador do Microsoft 365 ou do Office 365, conforme descrito em [sobre funções de administrador](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) que deseja configurar o recurso de correio de voz na nuvem para todos na empresa.
 
 > [!NOTE]
 > O correio de voz na nuvem aceita o depósito de mensagens de correio de voz apenas em uma caixa de correio do Exchange e não é compatível com sistemas de email de terceiros. 
 
-## <a name="cloud-only-environments-set-up-cloud-voicemail-for-phone-system-users"></a>Ambientes somente de nuvem: configurar o correio de voz na nuvem para usuários do sistema telefônico
+> [!NOTE]
+> Quando um representante responde a uma chamada em nome de um delegador, as notificações não estão disponíveis no correio de voz na nuvem. Os usuários podem receber notificações de chamadas perdidas.
 
-Para os usuários do Skype for Business Online e dos planos de chamada, o correio de voz na nuvem é automaticamente configurado e provisionado para os usuários após a atribuição de uma licença do **sistema telefônico** e um número de telefone a ele.
-  
-1. Se o recurso do sistema de telefonia não estiver incluído no seu plano, talvez seja necessário comprar licenças complementares do **sistema telefônico** . Você também pode precisar comprar uma licença do Exchange Online. Consulte [Licenciamento de Complementos do Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
-    
-2. [Atribuir ou remover licenças do Office 365 para empresas](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc), as [licenças de complemento atribuir Microsoft Teams](teams-add-on-licensing/assign-teams-add-on-licenses.md)e as licenças do Exchange Online às pessoas de sua empresa. Depois disso, elas poderão receber mensagens de voz!
-    
-3. O suporte para a transcrição de correio de voz foi adicionado a partir de março de 2017 e é habilitado por padrão para todas as organizações e usuários. Você pode desativar a transcrição para sua organização usando o Windows PowerShell e seguindo as etapas abaixo.
+## <a name="cloud-only-environments-set-up-cloud-voicemail-for-online-phone-system-users"></a>Ambientes somente de nuvem: configurar o correio de voz na nuvem para usuários de sistema telefônico online
+
+Para usuários de sistema telefônico online, o correio de voz em nuvem é automaticamente configurado e provisionado para os usuários após a atribuição de uma licença do **sistema telefônico** aos usuários. 
+
+> [!NOTE]
+> Para usuários de sistema telefônico online do Skype for Business com números de telefone fornecidos locais, talvez seja necessário habilitar a caixa postal hospedada com [set-CsUser-HostedVoicemail $true](https://docs.microsoft.com/powershell/module/skype/set-csuser?view=skype-ps). 
 
 ## <a name="set-up-cloud-voicemail-for-exchange-server-mailbox-users"></a>Configurar correio de voz na nuvem para usuários de caixa de correio do Exchange Server
 
 As informações a seguir tratam da configuração do correio de voz em nuvem para trabalhar com os usuários online para o sistema telefônico, mas têm sua caixa de correio no Exchange Server. 
   
-1. Se o recurso do sistema de telefonia não estiver incluído no seu plano, talvez seja necessário comprar licenças complementares do **sistema telefônico** . Consulte [Licenciamento de Complementos do Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
-    
-2. [Atribuir licenças de Complementos do Microsoft Teams](teams-add-on-licensing/assign-teams-add-on-licenses.md) às pessoas de sua empresa.
-    
-3. O suporte para a transcrição de correio de voz foi adicionado a partir de março de 2017 e é habilitado por padrão para todas as organizações e usuários. Você pode desativar a transcrição para sua organização usando o Windows PowerShell e seguindo as etapas abaixo.
+1. As mensagens de correio de voz são entregues à caixa de correio do Exchange do usuário via SMTP roteado por meio do Exchange Online Protection. Para habilitar a entrega bem-sucedida dessas mensagens, certifique-se de que os conectores do Exchange estejam configurados corretamente entre seus servidores Exchange e a proteção do Exchange Online; [Usar conectores para configurar o fluxo de emails](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow). 
 
-4. As mensagens de correio de voz são entregues à caixa de correio do Exchange do usuário via SMTP roteado por meio do Exchange Online Protection. Para habilitar a entrega bem-sucedida dessas mensagens, certifique-se de que os conectores do Exchange estejam configurados corretamente entre seus servidores Exchange e a proteção do Exchange Online; [Usar conectores para configurar o fluxo de emails](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow). 
-
-6. Para habilitar recursos de correio de voz, como personalizar saudações e correio de voz visual nos clientes Skype for Business, é necessário conectividade do Office 365 para a caixa de correio do Exchange Server via Exchange Web Services. Para habilitar essa conectividade, você deve configurar o novo protocolo de autenticação OAuth do Exchange descrito em [Configurar a autenticação OAuth entre as organizações Exchange e Exchange Online](https://technet.microsoft.com/library/dn594521(v=exchg.150).aspx), ou executar o assistente híbrido do Exchange no Exchange 2013 CU5 ou superior. Além disso, você deve configurar a integração e o OAuth entre o Skype for Business Online e o Exchange Server descritos em [Configurar a integração e o OAuth entre o Skype for Business Online e o Exchange Server](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises). 
+2. Para habilitar recursos de correio de voz, como personalizar saudações e correio de voz visual nos clientes Skype for Business, é necessário conectividade do Microsoft 365 ou do Office 365 para a caixa de correio do Exchange Server via Exchange Web Services. Para habilitar essa conectividade, você deve configurar o novo protocolo de autenticação OAuth do Exchange descrito em [Configurar a autenticação OAuth entre as organizações Exchange e Exchange Online](https://technet.microsoft.com/library/dn594521(v=exchg.150).aspx), ou executar o assistente híbrido do Exchange no Exchange 2013 CU5 ou superior. Além disso, você deve configurar a integração e o OAuth entre o Skype for Business Online e o Exchange Server descritos em [Configurar a integração e o OAuth entre o Skype for Business Online e o Exchange Server](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises). 
 
 ## <a name="set-up-cloud-voicemail-for-skype-for-business-server-users"></a>Configurar correio de voz na nuvem para usuários do Skype for Business Server
 
-As informações a seguir tratam da configuração do correio de voz em nuvem para trabalhar com os usuários online do Exchange e no local para o Skype for Business. 
-  
-1. Talvez seja necessário comprar licenças do Exchange Online para as pessoas em sua empresa. Consulte [Licenciamento de Complementos do Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
-    
-2. [Atribuir ou remover licenças do Office 365 para empresas](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) as licenças do Exchange Online para as pessoas em sua empresa.
-    
-3. O suporte para a transcrição de correio de voz foi adicionado a partir de março de 2017 e é habilitado por padrão para todas as organizações e usuários. Você pode desativar a transcrição para sua organização usando o Windows PowerShell e seguindo as etapas abaixo.
-
-4. Para configurar usuários do Skype for Business Server para correio de voz na nuvem, consulte [planejar o serviço de correio de voz para usuários locais](https://docs.microsoft.com/skypeforbusiness/hybrid/plan-cloud-voicemail)
-
-
-> [!NOTE]
-> Quando um representante responde a uma chamada em nome de um delegador, as notificações não estão disponíveis no correio de voz na nuvem. Os usuários podem receber notificações de chamadas perdidas.
+Para configurar usuários do Skype for Business Server para correio de voz na nuvem, consulte [planejar o serviço de correio de voz para usuários locais](https://docs.microsoft.com/skypeforbusiness/hybrid/plan-cloud-voicemail).
 
 ## <a name="enabling-protected-voicemail-in-your-organization"></a>Habilitar correio de voz protegido em sua organização
 
@@ -90,8 +72,8 @@ Para configurar o correio de voz protegido, faça o seguinte:
 5. Forneça um nome para a nova regra de fluxo de email e, em **aplicar esta regra se**, selecione **as propriedades da mensagem**  >  **incluem o tipo de mensagem de**caixa  >  **postal**. Selecione **OK**.
 6. Em **faça o seguinte**, selecione **aplicar criptografia de mensagem do Office 365 e proteção de direitos à mensagem com** e selecione **uma opção**. Em **modelo RMS**, selecione **não encaminhar**. Selecione **OK** e, em seguida, **salvar**.
     > [!NOTE]
-    > Se a lista de **modelos RMS** estiver vazia, você precisará configurar a criptografia de mensagens do Office 365. Para obter mais informações sobre como configurar a criptografia de mensagens do Office 365, consulte os seguintes artigos:
-    > - [Configurar novos recursos de criptografia de mensagens do Office 365](https://docs.microsoft.com/microsoft-365/compliance/set-up-new-message-encryption-capabilities?view=o365-worldwide)
+    > Se a lista de **modelos RMS** estiver vazia, você precisará configurar a criptografia de mensagens. Para obter mais informações sobre a configuração da criptografia de mensagens, consulte os seguintes artigos:
+    > - [Configurar novos recursos de criptografia de mensagens](https://docs.microsoft.com/microsoft-365/compliance/set-up-new-message-encryption-capabilities?view=o365-worldwide)
     > - [Configurando e Gerenciando modelos para proteção de informações do Azure](https://docs.microsoft.com/information-protection/deploy-use/configure-policy-templates)
     > - [Opção não encaminhar para emails](https://docs.microsoft.com/information-protection/deploy-use/configure-usage-rights#do-not-forward-option-for-emails)
 
@@ -102,7 +84,7 @@ Para configurar o correio de voz protegido, faça o seguinte:
 
 A transcrição do correio de voz é habilitada por padrão e o mascaramento de obscenidades está desativado por padrão para todas as organizações e usuários; no entanto, você pode controlá-los usando os cmdlets [Set-CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798310.aspx) e [Grant-CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798311.aspx).
 
-As mensagens de correio de voz recebidas pelos usuários em sua organização são transcritas na região em que a sua organização do Office 365 está hospedada. A região em que seu locatário está hospedado pode não ser a mesma região em que o usuário que está recebendo a mensagem de correio de voz está localizado. Para exibir a região em que seu locatário está hospedado, vá para a página de [perfil da organização](https://go.microsoft.com/fwlink/p/?linkid=2067339) e clique em **Exibir detalhes** ao lado de **local de dados**.
+As mensagens de correio de voz recebidas pelos usuários em sua organização são transcritas na região em que a sua organização do Microsoft 365 ou do Office 365 está hospedada. A região em que seu locatário está hospedado pode não ser a mesma região em que o usuário que está recebendo a mensagem de correio de voz está localizado. Para exibir a região em que seu locatário está hospedado, vá para a página de [perfil da organização](https://go.microsoft.com/fwlink/p/?linkid=2067339) e clique em **Exibir detalhes** ao lado de **local de dados**.
 
 > [!IMPORTANT]
 > Você não pode criar uma nova instância de política para transcrição e o mascaramento de obscenidades de transcrição usando o cmdlet **New-CsOnlineVoiceMailPolicy** e não pode remover uma instância de política existente usando o cmdlet **Remove-CsOnlineVoiceMailPolicy** .
@@ -150,7 +132,7 @@ Grant-CsOnlineVoicemailPolicy -PolicyName TranscriptionProfanityMaskingEnabled -
 ```
 
 > [!IMPORTANT]
-> [!IMPORTANTE] O serviço de caixa postal no Office 365 armazena em cache as políticas de caixa postal e atualiza o cache a cada 4 horas. Portanto as alterações de política que você faz podem levar até 4 horas para serem aplicadas.
+> O serviço de correio de voz do Microsoft 365 e do Office 365 armazena em cache as políticas de correio de voz e atualiza o cache a cada 4 horas. Portanto as alterações de política que você faz podem levar até 4 horas para serem aplicadas.
 
 ## <a name="help-your-users-learn-teams-voicemail-features"></a>Ajude seus usuários a aprender recursos de caixa postal do teams
 
@@ -169,7 +151,6 @@ Temos informações e artigos de treinamento para ajudar seus usuários a ser be
 ## <a name="related-topics"></a>Tópicos relacionados
 [Instalar o Skype for Business Online](/skypeforbusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
 
-[Veja aqui o que você obtém com o Sistema de Telefonia no Office 365](here-s-what-you-get-with-phone-system.md)
+[Veja o que você obtém com o Sistema de Telefonia](here-s-what-you-get-with-phone-system.md)
 
 [Plano de migração para o Skype for Business Server e Exchange Server](https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-um-migration)
-

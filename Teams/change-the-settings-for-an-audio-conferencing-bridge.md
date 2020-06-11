@@ -24,16 +24,16 @@ ms.custom:
 - ms.teamsadmincenter.audioconferencing.bridgesettings
 - seo-marvel-mar2020
 description: Altere as configurações de ponte de áudio audioconferência, incluindo notificações de entrada e de saída, executar nomes ou números de telefone, tons e solicitar aos chamadores gravarem o nome.
-ms.openlocfilehash: 48028ccb3f2a0664f9fa724ec91e1dfc0177326f
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: acebe42e8dbc5707238975c34ce97961c1493d91
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780340"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690907"
 ---
 # <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>Alterar as configurações de uma ponte de audioconferência
 
-Ao configurar a conferência de áudio no Office 365, você receberá números de telefone para seus usuários do que é chamado de ponte de audioconferência. Uma ponte de conferência pode conter um ou mais números de telefone. Esses números de telefone são usados quando os chamadores discam para uma reunião. O número de telefone está incluído na parte inferior do convite de reunião do Skype for Business ou do Microsoft Teams.
+Ao configurar a conferência de áudio no Microsoft 365 ou no Office 365, você receberá números de telefone para seus usuários a partir de uma ponte de audioconferência. Uma ponte de conferência pode conter um ou mais números de telefone. Esses números de telefone são usados quando os chamadores discam para uma reunião. O número de telefone está incluído na parte inferior do convite de reunião do Skype for Business ou do Microsoft Teams.
   
 A ponte de conferência atende a uma chamada e solicita o chamador com prompts de voz usando um atendedor automático de reunião e, em seguida, dependendo das suas configurações, ele pode executar notificações, pedir para os chamadores gravarem o nome e controlar as configurações de pino. Os PINs são fornecidos aos organizadores da reunião para permitir que eles iniciem uma reunião quando não estão usando um aplicativo Skype for Business ou Microsoft Teams.
 
@@ -45,7 +45,7 @@ A ponte de conferência atende a uma chamada e solicita o chamador com prompts d
 
 ## <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Um ícone mostrando o logotipo do Microsoft Teams](media/teams-logo-30x30.png) Usando o centro de administração do Microsoft Teams
 
-1. No painel de navegação esquerdo, vá para **reuniões** > **conferência pontes**. 
+1. No painel de navegação esquerdo, vá para **reuniões**  >  **conferência pontes**. 
 
 2. Na parte superior da página **pontes de conferência** , clique em **configurações de ponte**. 
 
@@ -72,7 +72,7 @@ A ponte de conferência atende a uma chamada e solicita o chamador com prompts d
 
  **Configurar a experiência da reunião quando os chamadores entrarem em uma reunião**
     
-1. No **centro de administração do Skype for Business**, no painel de navegação esquerdo, vá para configurações de ponte de **áudio** > da**Microsoft Bridge**.
+1. No **centro de administração do Skype for Business**, no painel de navegação esquerdo, vá para configurações de ponte de **áudio**da  >  **Microsoft Bridge**.
     
 2. Na página **configurações da ponte da Microsoft** , em **experiência de ingresso na reunião**, selecione:
     
@@ -92,9 +92,9 @@ A ponte de conferência atende a uma chamada e solicita o chamador com prompts d
   
 1. Entre com sua conta corporativa ou de estudante.
     
-2. Vá para o **Centro** > de administração do Microsoft 365**Skype for Business**.
+2. Vá para o **centro de administração do Microsoft 365**  >  **Skype for Business**.
     
-3. No **centro de administração do Skype for Business**, no painel de navegação à esquerda, vá para **conferência** > de áudio**configurações da ponte da Microsoft**.
+3. No **centro de administração do Skype for Business**, no painel de navegação à esquerda, vá para **conferência de áudio**  >  **configurações da ponte da Microsoft**.
     
 4. Na página **configurações da ponte da Microsoft** , em **segurança**, insira o número de dígitos que você deseja para o pino na lista **comprimento do PIN** e clique em **salvar**.
     
@@ -105,9 +105,9 @@ A ponte de conferência atende a uma chamada e solicita o chamador com prompts d
   
 1. Entre com sua conta corporativa ou de estudante.
     
-2. Vá para o **Centro** > de administração do Microsoft 365**Skype for Business**.
+2. Vá para o **centro de administração do Microsoft 365**  >  **Skype for Business**.
     
-3. No **centro de administração do Skype for Business**, no painel de navegação à esquerda, vá para **conferência** > de áudio**configurações da ponte da Microsoft**.
+3. No **centro de administração do Skype for Business**, no painel de navegação à esquerda, vá para **conferência de áudio**  >  **configurações da ponte da Microsoft**.
     
 4. Na página **configurações da ponte da Microsoft** , marque ou desmarque **enviar emails automaticamente aos usuários se as informações de discagem forem alteradas**e clique em **salvar**.
     
@@ -117,11 +117,11 @@ A ponte de conferência atende a uma chamada e solicita o chamador com prompts d
 
 - Para poupar tempo ou automatizar esse processo, você pode usar o cmdlet [set-CsDialinConferencingBridge](https://go.microsoft.com/fwlink/?LinkId=617686) .
     
-- O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com o Windows PowerShell, você pode gerenciar o Office 365 usando um ponto único de administração para simplificar seu trabalho diário quando houver várias tarefas a serem feitas. Para começar a usar o Windows PowerShell, consulte estes tópicos:
+- O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com o Windows PowerShell, você pode gerenciar o Microsoft 365 ou o Office 365 usando um único ponto de administração que pode simplificar seu trabalho diário quando você tiver várias tarefas para fazer. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
     
   - [Por que você precisa usar o PowerShell do Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-  - [Melhores maneiras de gerenciar o Office 365 com o Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Melhores maneiras de gerenciar o Microsoft 365 ou o Office 365 com o Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
 - O Windows PowerShell tem muitas vantagens em velocidade, simplicidade e produtividade apenas usando o centro de administração do Microsoft 365, como quando você está realizando alterações de configuração para muitos usuários de uma só vez. Saiba mais sobre essas vantagens nos seguintes tópicos: 
     

@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: b4c6fe9551374139e8220543cb83f262a2a5195a
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: b804916609b121ba02a048d1763c4181fb5d0a63
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44350055"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691017"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Gerenciar políticas de configuração de aplicativo no Microsoft Teams
 
@@ -103,11 +103,11 @@ Para atribuir uma política a um usuário:
 2. Selecione o usuário clicando à esquerda do nome de exibição do usuário e clique em **Editar configurações**.
 3. Em **política de configuração do aplicativo**, selecione a política de configuração do aplicativo que você deseja atribuir e clique em **aplicar**.
 
-Para atribuir uma política a vários usuários de uma só vez:
+Para atribuir uma política a vários usuários por vez:
 
-1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para **usuários**e procure os usuários ou filtre o modo de exibição para mostrar os usuários que você deseja.
-2. Na coluna **&#x2713;** (marca de seleção), selecione os usuários. Para selecionar todos os usuários, clique no &#x2713; (marca de seleção) na parte superior da tabela.
-3. Clique em **Editar configurações**, faça as alterações desejadas e, em seguida, clique em **aplicar**.  
+1. Na barra de navegação à esquerda do centro de administração do Microsoft Teams, vá para **Usuários** e, em seguida, pesquise os usuários ou filtre o modo de exibição para mostrar os usuários que você deseja.
+2. Na coluna **&#x2713;** (marca de seleção), selecione os usuários. Para selecionar todos os usuários, clique na (marca de seleção) &#x2713; na parte superior da tabela.
+3. Clique em **Editar configurações**, faça as alterações desejadas e, em seguida, clique em **Aplicar**.  
 
 Ou, você também pode fazer o seguinte:
 
@@ -124,7 +124,7 @@ Você pode querer atribuir uma política de configuração de aplicativo persona
 Neste exemplo, atribuímos uma política de configuração de aplicativo personalizada chamada política de configuração de aplicativo de RH a todos os usuários no grupo de projetos de RH da Contoso Pharmaceuticals.  
 
 > [!NOTE]
-> Verifique se você se conectou primeiro ao módulo do PowerShell do Azure Active Directory e do módulo do PowerShell do Skype for Business seguindo as etapas em [conectar a todos os serviços do Office 365 em uma única janela do Windows PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window).
+> Verifique se você se conectou primeiro ao módulo do PowerShell do Azure Active Directory e do módulo do PowerShell do Skype for Business seguindo as etapas em [conectar a todos os serviços do Microsoft 365 ou do Office 365 em uma única janela do Windows PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window).
 
 Obtenha o GroupObjectId do grupo específico.
 ```PowerShell

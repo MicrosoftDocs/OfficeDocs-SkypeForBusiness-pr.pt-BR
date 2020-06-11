@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 31f7c64e9e3d6587cd0f53a8672fb7c0dda88d0b
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: 3eae061b901bba6fe7bf4208f6498597d824d363
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44522804"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44689457"
 ---
 # <a name="how-to-use-microsoft-teams-effectively"></a>Como usar o Microsoft Teams de forma eficaz
 
@@ -48,7 +48,7 @@ O status da sua rede afeta a experiência do usuário. Quando um usuário tem um
 Para obter os resultados máximos de benefícios e negócios com o Teams, os usuários devem realmente usá-lo. No entanto, a empolgação inicial tende a wane e os usuários a revertam facilmente para as maneiras antigas de trabalhar. Incentive a adoção do usuário e mantenha a empolgação para as equipes com um plano de adoção contínuo, que pode incluir:
 
 - Listando especialistas em pontos para ajudar a evangelizar e incentivar os usuários do colega.
-- Confira o [Guia de adoção do Office 365](https://go.microsoft.com/fwlink/?linkid=859045) para obter dicas sobre o aumento do envolvimento e a adoção da adoção.
+- Confira o [Guia de adoção do Microsoft 365](https://go.microsoft.com/fwlink/?linkid=859045) para obter dicas sobre o aumento do envolvimento e a adoção da adoção.
 - Aproveitando o [Kit de sucesso do cliente do teams](https://aka.ms/TeamsCustomerSuccess) para melhorar a conscientização e compartilhar as práticas recomendadas.
 - Implementação de uma [adoção formal e estratégia de gerenciamento de alterações](http://www.successwithteams.com/) para ajudar a sustentar o crescimento da adoção.
 

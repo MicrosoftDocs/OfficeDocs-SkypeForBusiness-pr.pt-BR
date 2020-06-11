@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: 'Aprenda a configurar a discagem ou a conferência de áudio para as pessoas da sua empresa que precisam usar um telefone para participar de chamadas em conferência. '
-ms.openlocfilehash: e14cf924d039b461df3fc84d7b600d96d515be58
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
-ms.translationtype: HT
+ms.openlocfilehash: 0ac5ac9cd3a722920a76d968848cd37388908121
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41838061"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691087"
 ---
 # <a name="set-up-audio-conferencing-for-microsoft-teams"></a>Configurar a conferência de áudio do Microsoft Teams
 
@@ -52,7 +52,7 @@ Acesse [Disponibilidade do país e região para audioconferência e planos de ch
     >[!NOTE] 
     > A audioconferência está incluída nas licenças do Office 365 Enterprise E5 e como um complemento.
         
-2. Depois de comprar as licenças da audioconferência, você precisará atribuí-las àquelas pessoas na sua organização que irão agendar ou liderar reuniões. Consulte [Atribuir licenças aos usuários no Office 365 for business](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) que você comprou para as pessoas na sua organização que vão agendar ou conduzir reuniões.
+2. Depois de comprar as licenças da audioconferência, você precisará atribuí-las àquelas pessoas na sua organização que irão agendar ou liderar reuniões. Confira [atribuir licenças a usuários do Microsoft 365 ou do Office 365 para empresas](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) que você comprou para as pessoas em sua organização que vão agendar ou conduzir reuniões.
     
 3. Também é recomendável que você atribua licenças créditos de comunicação (são gratuitas) para as mesmas pessoas a quem você atribuiu as licenças na etapa anterior. Para saber como configurar os créditos de comunicação, consulte [Configurar créditos de comunicação para sua organização](set-up-communications-credits-for-your-organization.md).
     
@@ -66,7 +66,7 @@ Para audioconferências, você não pode usar números de telefone para usuário
   
 - **Use o centro de administração do Microsoft Teams.**. Em alguns países/regiões, você pode obter números de serviço para suas pontes de conferência usando o centro de administração do Microsoft Teams. Consulte [Obter números dos telefones de serviço](/microsoftteams/getting-service-phone-numbers).
     
-- **Portar seus números de serviço existentes**. Para portar ou transferir números existentes do seu provedor de serviços ou operadora de telefone atual ao Office 365. Você pode consultar [Transferir os números dos telefones ao Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) ou [Gerenciar números de telefone da sua organização](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) para obter mais informações para ajudá-lo.  
+- **Portar seus números de serviço existentes**. Para transferir ou transferir números existentes do seu provedor de serviços atual ou da operadora de telefone para o Microsoft 365 ou o Office 365. Você pode consultar [Transferir os números dos telefones ao Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) ou [Gerenciar números de telefone da sua organização](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) para obter mais informações para ajudá-lo.  
   
 - **Use um formulário de solicitação para novos números**. Às vezes (dependendo do seu país/região), você não poderá obter seus novos números de serviço usando o centro de administração do Microsoft Teams ou precisará de números de telefone ou códigos de área específicos. Nesse caso, você precisará fazer o download de um formulário e enviá-lo de volta para nós. Para obter mais informações, consulte [Gerenciar números de telefone para sua organização](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md). 
     

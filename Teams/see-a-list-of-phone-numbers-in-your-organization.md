@@ -23,24 +23,24 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: Saiba como usar o centro de administração do Microsoft Teams para ver uma lista de todos os números de telefone em sua organização e todos os números atribuídos a usuários ou desatribuídos.
-ms.openlocfilehash: 8483a3847027f3790930653ead39678f6a802533
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 8ad4e0ce2949e2aa72d387aff167a433ec7c8150
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140954"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691167"
 ---
 # <a name="see-a-list-of-phone-numbers-in-your-organization"></a>Ver uma lista de números de telefone em sua organização
 
-Existem diferentes tipos de números de telefone que você pode atribuir a usuários ou outros serviços (números de serviço), como a videoconferência de áudio no Office 365.
+Existem diferentes tipos de números de telefone que você pode atribuir a usuários ou outros serviços (números de serviço), como a videoconferência de áudio no Microsoft 365 ou o Office 365.
   
 ## <a name="to-see-a-list-of-all-phone-numbers-that-you-have-for-your-organization"></a>Para ver uma lista de todos os números de telefone de sua organização
 
-![Um ícone mostrando o logotipo](media/teams-logo-30x30.png) do teams **usando o centro de administração do Microsoft Teams**
+![Um ícone mostrando o logotipo do teams ](media/teams-logo-30x30.png) **usando o centro de administração do Microsoft Teams**
 
 1. Vá para o **centro de administração do Microsoft Teams**.
 
-2. Na navegação à esquerda, vá para **Voice** > **números de telefone**de voz.
+2. Na navegação à esquerda, vá para **Voice**  >  **números de telefone**de voz.
 
     > [!IMPORTANT]
     > Para ver a opção de **voz** no painel de navegação à esquerda no centro de administração do Skype for Business, primeiro você deve comprar pelo menos uma **licença do Enterprise E5**, uma licença complementar do **sistema de telefonia** ou uma licença do suplemento de conferência de **áudio** .
@@ -63,11 +63,11 @@ Existem diferentes tipos de números de telefone que você pode atribuir a usuá
 
 Ao configurar usuários, talvez você queira apenas ver a lista de números de telefone que já estão atribuídos aos usuários e os números de telefone que estão disponíveis para serem atribuídos a eles.
   
-![Um ícone mostrando o logotipo](media/teams-logo-30x30.png) do teams **usando o centro de administração do Microsoft Teams**
+![Um ícone mostrando o logotipo do teams ](media/teams-logo-30x30.png) **usando o centro de administração do Microsoft Teams**
 
 1. Vá para o **centro de administração do Microsoft Teams**.
 
-2. Na navegação à esquerda, vá para **Voice** > **números de telefone**de voz.
+2. Na navegação à esquerda, vá para **Voice**  >  **números de telefone**de voz.
 
     > [!IMPORTANT]
     > Para ver a opção de **voz** no painel de navegação à esquerda no centro de administração do Microsoft Teams, primeiro você deve comprar pelo menos uma **licença Enterprise E5**, uma licença complementar do **sistema de telefonia** ou uma licença do suplemento de **conferência de áudio** .
@@ -84,11 +84,11 @@ Ao configurar usuários, talvez você queira apenas ver a lista de números de t
 
 Ao configurar usuários em sua organização para fazer e receber chamadas, primeiro você deve obter os números de telefone e, depois, atribuí-los aos usuários. Depois de obter os números de telefone, talvez você queira apenas ver o status de ativação do número de atribuições.
 
-![Um ícone mostrando o logotipo](media/teams-logo-30x30.png) do teams **usando o centro de administração do Microsoft Teams** !
+![Um ícone mostrando o logotipo do teams ](media/teams-logo-30x30.png) **usando o centro de administração do Microsoft Teams** !
   
 1. Vá para o **centro de administração do Microsoft Teams**.
 
-2. Na navegação à esquerda, vá para **Voice** > **números de telefone**de voz.
+2. Na navegação à esquerda, vá para **Voice**  >  **números de telefone**de voz.
 
     > [!IMPORTANT]
     > Para ver a opção de **voz** no painel de navegação à esquerda no centro de administração do Microsoft Teams, primeiro você deve comprar pelo menos uma **licença Enterprise E5**, uma licença complementar do **sistema de telefonia** ou uma licença do suplemento de **conferência de áudio** .

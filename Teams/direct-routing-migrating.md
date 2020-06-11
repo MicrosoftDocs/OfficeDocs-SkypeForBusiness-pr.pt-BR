@@ -16,27 +16,27 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Saiba o que é necessário para migrar para o Roteamento Direto de uma perspectiva de configuração do Skype for Business Online e do Teams.
-ms.openlocfilehash: fa7a3e09d4f79328545bff29b2f440ba0bfe6990
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.openlocfilehash: 11240c3a1067885dbf34499a4e131185acccbf52
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888580"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691357"
 ---
 # <a name="migrate-to-direct-routing"></a>Migrar para o Roteamento Direto
 
 Este artigo descreve o que é necessário para migrar para o Roteamento Direto de uma perspectiva de configuração do Skype for Business Online e do Teams. Este artigo aborda a migração dos seguintes sistemas: 
  
-- Sistema de telefonia do Office 365 com planos de chamada (para o Teams e o Skype for Business online) 
-- Sistema de telefonia do Office 365 com conectividade PSTN local no Skype for Business Server (para Skype for Business Online)  
-- Sistema de telefonia do Office 365 com conectividade PSTN local usando a Edição Cloud Connector (para Skype for Business Online)
+- Sistema telefônico com planos de chamada (para Teams e Skype for Business online) 
+- Sistema telefônico com conectividade PSTN local no Skype for Business Server (para Skype for Business online)  
+- Sistema telefônico com conectividade PSTN local usando o Cloud Connector Edition (para Skype for Business online)
 
 
 Além dessas etapas de configuração, também é necessário configurar o Controlador de Borda de Sessão (SBC) para direcionar as chamadas para a nova rota. Isso está fora do escopo deste documento. Para obter mais informações, consulte a documentação do seu fornecedor de SBC.  
 
 ## <a name="user-provisioning-end-state-for-various-pstn-connectivity-options"></a>Provisionamento de usuário estado final para várias opções de conectividade PSTN 
 
-A tabela a seguir mostra o estado final de um usuário provisionado para as opções de conectividade PSTN selecionadas com o sistema de telefonia do Office 365. São exibidos somente os atributos relevantes para voz.
+A tabela a seguir mostra o estado final de um usuário provisionado para as opções de conectividade PSTN selecionadas com o sistema telefônico. São exibidos somente os atributos relevantes para voz.
 
 |Atributos de objeto do usuário |Sistema de Telefonia com Planos de Chamadas|Sistema de Telefonia com conectividade PSTN local por meio do Skype for Business Server|Sistema de Telefonia com conectividade PSTN via Cloud Connector|Sistema de Telefonia com conectividade PSTN local por meio de Roteamento Direto|
 |---|---|---|---|---|

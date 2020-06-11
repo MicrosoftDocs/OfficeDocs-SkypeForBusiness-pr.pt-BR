@@ -21,16 +21,16 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: O administrador pode saber mais sobre como ativar ou desativar anúncios de entrada e de saída em uma reunião do Microsoft Teams.
-ms.openlocfilehash: 4e263328e0f38e1c058fd9036e22eefbfa50f6fd
-ms.sourcegitcommit: 2c23a8c5afc4a6b74c2c6d7487975a94fe99dc07
+ms.openlocfilehash: 824949ea1c212f514830dfad3926444944ac099c
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "44562046"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690977"
 ---
 # <a name="turn-on-or-off-entry-and-exit-announcements-for-meetings-in-microsoft-teams"></a>Ativar ou desativar anúncios de entrada e de saída para reuniões no Microsoft Teams
 
-Quando você estiver configurando a Audioconferência no Office 365, você receberá uma ponte de audioconferência. Uma ponte de conferência pode conter um ou mais números de telefone que as pessoas usarão para ligar para uma reunião do Microsoft Teams. 
+Ao configurar a videoconferência no Microsoft 365 ou no Office 365, você receberá uma ponte de audioconferência. Uma ponte de conferência pode conter um ou mais números de telefone que as pessoas usarão para ligar para uma reunião do Microsoft Teams. 
   
 A ponte de conferência atende uma chamada feita por um usuário que discou para a reunião utilizando um telefone. A ponte de conferência atende o chamador com solicitações de voz de um atendedor automático de conferência e, dependendo das suas configurações, pode reproduzir notificações, pedir para o chamador gravar o nome dele e configurar a segurança do PIN. É fornecido um PIN para o organizador da reunião do Microsoft Teams que permite que ele inicie uma reunião se ele não conseguir iniciar usando o aplicativo Microsoft Teams. No entanto, você pode fazer a configuração de modo que o PIN não seja obrigatório para iniciar a reunião.
 
@@ -62,11 +62,11 @@ Você deve ser um administrador para fazer essas alterações.
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>Deseja saber mais sobre o Windows PowerShell?
 
-O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com o Windows PowerShell, você pode gerenciar o Office 365 usando um ponto único de administração para simplificar seu trabalho diário quando houver várias tarefas a serem feitas. Para começar a usar o Windows PowerShell, consulte estes tópicos:
+O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com o Windows PowerShell, você pode gerenciar o Microsoft 365 ou o Office 365 usando um único ponto de administração que pode simplificar seu trabalho diário quando você tiver várias tarefas para fazer. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
     
-  - [Por que você precisa usar o PowerShell do Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Por que você precisa usar o Microsoft 365 ou o Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-  - [Melhores maneiras de gerenciar o Office 365 com o Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Melhores maneiras de gerenciar o Microsoft 365 ou o Office 365 com o Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
 Para obter mais informações sobre o Windows PowerShell, consulte a [referência do Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) para obter mais informações.
   

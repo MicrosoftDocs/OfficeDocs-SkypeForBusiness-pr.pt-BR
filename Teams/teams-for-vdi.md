@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 59c3d9d6ee6da2881aff52efa77c3d13678b560a
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: 1338b9f497722b50658545918afa825fb652d462
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44350225"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44689697"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams para Infraestrutura de Área de Trabalho Virtualizada
 
@@ -132,8 +132,10 @@ Para saber mais sobre o Teams e aplicativos do Microsoft 365 para empresas, cons
 
 1. Baixe o pacote MSI do teams que corresponde ao seu sistema operacional VDI VM usando um dos seguintes links:
 
-    - [Versão de 32 bits](https://statics.teams.cdn.office.net/production-windows/1.3.00.4461/Teams_windows.msi)
-    - [Versão de 64 bits](https://statics.teams.cdn.office.net/production-windows-x64/1.3.00.4461/Teams_windows_x64.msi)
+
+    - [Versão de 32 bits](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)
+    - [Versão de 64 bits](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)
+
 
     A versão mínima do aplicativo de área de trabalho Teams necessário é a versão 1.3.00.4461. (A suspensão PSTN não é suportada em versões anteriores).
 
@@ -246,11 +248,11 @@ Para atribuir a política de chamada do DisallowCalling e a política de reuniã
     2.  Em **política de reunião**, clique em **AllOff**.
 4. Clique em **Aplicar**.
 
-Para atribuir uma política a vários usuários de uma só vez:
+Para atribuir uma política a vários usuários por vez:
 
-1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para **usuários**e procure os usuários ou filtre o modo de exibição para mostrar os usuários que você deseja.
-2. Na coluna **&#x2713;** (marca de seleção), selecione os usuários. Para selecionar todos os usuários, clique no &#x2713; (marca de seleção) na parte superior da tabela.
-3. Clique em **Editar configurações**, faça as alterações desejadas e, em seguida, clique em **aplicar**.  
+1. Na barra de navegação à esquerda do centro de administração do Microsoft Teams, vá para **Usuários** e, em seguida, pesquise os usuários ou filtre o modo de exibição para mostrar os usuários que você deseja.
+2. Na coluna **&#x2713;** (marca de seleção), selecione os usuários. Para selecionar todos os usuários, clique na (marca de seleção) &#x2713; na parte superior da tabela.
+3. Clique em **Editar configurações**, faça as alterações desejadas e, em seguida, clique em **Aplicar**.  
 
 Ou, você também pode fazer o seguinte:
 
@@ -302,11 +304,11 @@ Para atribuir a política de chamada do AllowCalling e a política de reunião d
     2.  Em **política de reunião**, clique em **permitir**.
 4. Clique em **Aplicar**.
 
-Para atribuir uma política a vários usuários de uma só vez:
+Para atribuir uma política a vários usuários por vez:
 
-1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para **usuários**e procure os usuários ou filtre o modo de exibição para mostrar os usuários que você deseja.
-2. Na coluna **&#x2713;** (marca de seleção), selecione os usuários. Para selecionar todos os usuários, clique no &#x2713; (marca de seleção) na parte superior da tabela.
-3. Clique em **Editar configurações**, faça as alterações desejadas e, em seguida, clique em **aplicar**.  
+1. Na barra de navegação à esquerda do centro de administração do Microsoft Teams, vá para **Usuários** e, em seguida, pesquise os usuários ou filtre o modo de exibição para mostrar os usuários que você deseja.
+2. Na coluna **&#x2713;** (marca de seleção), selecione os usuários. Para selecionar todos os usuários, clique na (marca de seleção) &#x2713; na parte superior da tabela.
+3. Clique em **Editar configurações**, faça as alterações desejadas e, em seguida, clique em **Aplicar**.  
 
 Ou, você também pode fazer o seguinte:
 
@@ -373,3 +375,4 @@ Para obter informações sobre como solucionar problemas de VDA e CWA, consulte 
 
 - [Instalar o Microsoft Teams usando MSI](msi-deployment.md)
 - [Visão Geral do PowerShell do Teams](teams-powershell-overview.md)
+- [Usar o Microsoft Teams na área de trabalho virtual do Windows](https://docs.microsoft.com/azure/virtual-desktop/teams-on-wvd)

@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Saiba como planejar a bypass de mídia com o roteamento direto do sistema telefônico, o que permite reduzir o caminho do tráfego de mídia e melhorar o desempenho.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a4f8995c3972da8fd2d060b7083edb61138b97ac
-ms.sourcegitcommit: f63cf7fdde333a7cb36c39e9b6cdc33afd2b4601
+ms.openlocfilehash: c1c11361a693fce63a863920fe6b27a2c87621af
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "44338241"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691247"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planejar o bypass de mídia com Roteamento Direto
 
@@ -79,13 +79,12 @@ O diagrama a seguir mostra o fluxo de chamadas quando o bypass de mídia está h
 
 O procedimento a seguir descreve o fluxo de chamadas se o usuário não tiver acesso ao endereço IP público do SBC. 
 
-Por exemplo, suponha que o usuário seja externo, e o administrador de locatários decidiu não abrir o endereço IP público do SBC para todos na Internet, mas somente para a nuvem da Microsoft. Os componentes internos do tráfego podem fluir pelas retransmissões de transporte de equipe. Esta é a configuração recomendada para usuários fora da rede corporativa. Considere o seguinte:
+Por exemplo, suponha que o usuário seja externo, e o administrador de locatários decidiu não abrir o endereço IP público do SBC para todos na Internet, mas somente para a nuvem da Microsoft. Os componentes internos do tráfego podem fluir pelas retransmissões de transporte de equipe. Considere o seguinte:
 
 - As retransmissões de transporte de equipes são usadas.
 
 - Para bypass de mídia, a Microsoft usa uma versão de retransmissões de transporte que requer as portas de abertura 50 000 a 59 999 entre as retransmissões de transporte de equipes e o SBC (no futuro, planejamos mudar para a versão que requer apenas as portas 3478 e 3479).
 
-- Para fins de otimização de mídia, a Microsoft recomenda abrir o endereço IP público do SBC somente para retransmissões de transporte de equipe. Para clientes fora da rede corporativa, a Microsoft recomenda usar retransmissões de transporte em vez de acessar o endereço IP público do SBC diretamente.
 
 O diagrama a seguir mostra o fluxo de chamadas quando o bypass de mídia está habilitado, o cliente é externo, e o cliente não pode alcançar o endereço IP público do controlador de borda de sessão (a mídia é retransmitida pela retransmissão de transporte do Teams).
 
@@ -138,7 +137,7 @@ Em caminho de mídia para chamadas não ignoradas para usuários finais | Ativa 
 Em caminho de mídia para chamadas ignoradas para usuários finais | Não | Se o cliente não puder alcançar o SBC no endereço IP público | 
 Em caminho de mídia para aplicativos de voz | Ativa | Não | 
 Pode fazer transcodificação (B2BUA)\* | Sim | Não, somente retransmite o áudio entre os pontos de extremidade | 
-Número de instâncias mundiais e locais | 8 no total: 2 em leste dos EUA e oeste; 2 em Amsterdã e Dublin; 2 em Hong Kong e Cingapura; 2 no Japão  | Muitos
+Número de instâncias mundiais e locais | 10 no total: 2 em leste dos EUA e oeste; 2 em Amsterdã e Dublin; 2 em Hong Kong e Cingapura; 2 no Japão; 2 na Austrália oriental e no sudeste | Muitos
 
 Os intervalos de IP são:
 - 52.112.0.0/14 (endereços IP de 52.112.0.1 para 52.115.255.254)
@@ -165,13 +164,13 @@ Verifique se o seu SBC tem acesso aos processadores de mídia e intervalos de tr
 
 Para sinalização SIP, os requisitos de FQDN e de firewall são iguais aos dos casos sem bypass. 
 
-O roteamento direto é oferecido nos seguintes ambientes do Office 365:
-- Office 365
+O roteamento direto é oferecido nos seguintes ambientes do Microsoft 365 ou do Office 365:
+- Microsoft 365 ou Office 365
 - Office 365 GCC
 - Office 365 GCC High
 - Office 365 DoD saiba mais sobre os [ambientes do office 365 e do governo dos EUA](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) , como GCC, gcc High e DOD.
 
-### <a name="office-365-and-office-365-gcc-environments"></a>Ambientes do Office 365 e do Office 365 GCC
+### <a name="microsoft-365-office-365-and-office-365-gcc-environments"></a>Ambientes do Microsoft 365, do Office 365 e do Office 365 GCC
 
 Os pontos de conexão para roteamento direto são os três FQDNs a seguir:
 
@@ -227,7 +226,7 @@ Você precisa abrir portas para todos esses endereços IP no seu firewall para p
 ## <a name="sip-signaling-ports"></a>Sinalização SIP: portas
 
 Os requisitos de porta são iguais para todos os ambientes do Office 365 em que o roteamento direto é oferecido:
-- Office 365
+- Microsoft 365 ou Office 365
 - Office 365 GCC
 - Office 365 GCC High
 - Office 365 DoD
@@ -263,7 +262,7 @@ UDP/SRTP | Cliente | SBC | 50 000 – 50 019  | Definido no SBC |
 
 As retransmissões de transporte estão no mesmo intervalo dos processadores de mídia (para casos que não podem ser ignorados): 
 
-### <a name="office-365-and-office-365-gcc-environments"></a>Ambientes do Office 365 e do Office 365 GCC
+### <a name="microsoft-365-office-365-and-office-365-gcc-environments"></a>Ambientes do Microsoft 365, do Office 365 e do Office 365 GCC
 
 - 52.112.0.0/14 (endereços IP de 52.112.0.1 para 52.115.255.254)
 
@@ -366,6 +365,5 @@ Para todos os outros pontos de extremidade que não são compatíveis com o bypa
 ## <a name="see-also"></a>Confira também
 
 [Configurar o bypass de mídia com Roteamento Direto](direct-routing-configure-media-bypass.md)
-
 
 

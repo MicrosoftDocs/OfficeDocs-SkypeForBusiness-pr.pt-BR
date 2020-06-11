@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: 'Saiba como configurar telefones celulares comuns para "lobbies", áreas de recepção e salas de conferência '
-ms.openlocfilehash: da44a7d66cdc0810405711719f4545caf64007a7
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 23e60a5fe57ea8e2ff07bb6333a5ea1c341bba88
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140864"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691067"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>Configurar a licença de Telefone de Área Comum para o Microsoft Teams
 > [!NOTE]
@@ -40,11 +40,11 @@ Primeiro, você precisa comprar uma licença de telefone (CAP) de área comum e 
 
 ## <a name="step-1---buy-the-licenses"></a>Etapa 1 - Compre as licenças
 
-1. No centro de administração do Microsoft 365, vá para**serviços de compra** de **cobrança** > e, em seguida, expanda **outros planos**.
+1. No centro de administração do Microsoft 365, vá **Billing**para  >  **serviços de compra** de cobrança e, em seguida, expanda **outros planos**.
 
     ![Captura de tela mostrando o bloco de telefone de área comum](media/set-up-common-area-phone-image1.png)
 
-2. Selecione comprar **telefone** > da área comum**agora**.
+2. Selecione comprar **telefone da área comum**  >  **agora**.
 
 3. Na página check-out, clique em **comprar agora**.
 
@@ -80,7 +80,7 @@ A licença de telefonia do Common Area é compatível com:
 
 ## <a name="step-2---create-a-new-user-account-for-the-phone-and-assign-the-licenses"></a>Etapa 2 - Criar uma nova conta de usuário para o telefone e atribuir as licenças
 
-1. No centro de administração do Microsoft 365, vá para **usuários** > usuários**ativos** > **Adicionar um usuário**.
+1. No centro de administração do Microsoft 365, vá para **usuários**usuários  >  **ativos**  >  **Adicionar um usuário**.
 
 2. Insira um nome de usuário como "Main" para o primeiro nome e "recepção" para o segundo nome.
 
@@ -103,7 +103,7 @@ Para obter mais informações, consulte [Adicionar um usuário](https://docs.mic
 
 Use o centro de administração do teams para atribuir um número ao usuário.
 
-1. No centro de administração do Teams, selecione**números de telefone**de **voz** > .
+1. No centro de administração do Teams, selecione números de telefone de **voz**  >  **Phone numbers**.
 
 3.    Selecione um número na lista de números de telefone e clique em **Atribuir**.
 
@@ -120,6 +120,4 @@ Use o centro de administração do teams para atribuir um número ao usuário.
 
 Para obter mais informações, consulte [como obter números de telefone para seus usuários](getting-phone-numbers-for-your-users.md).
 
-Você também pode levar seu número de telefone com outra transportadora e "portar" ou transferi-la para o Office 365. Veja [transferir números de telefone para o Microsoft Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).
-
-
+Você também pode levar seu número de telefone com outra transportadora e "portar" ou transferi-la para o Microsoft 365 ou o Office 365. Veja [transferir números de telefone para o Microsoft Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).

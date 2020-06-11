@@ -24,12 +24,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: Saiba mais sobre como ativar e usar o painel de qualidade de chamada e obter relatórios resumidos de qualidade das chamadas.
-ms.openlocfilehash: 9a1c7cb451f722d019a4119daf8ab9c3a08c810f
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+ms.openlocfilehash: 965392e02fa0ff24b38c8191b7b2a7aef904a723
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44243570"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44697414"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Ativar e usar o painel de qualidade de chamada do Microsoft Teams e do Skype for Business Online
 
@@ -347,7 +347,7 @@ O painel relatórios de resumo CQD inclui uma página de **carregamento de dados
 - Um mapa de ponto de extremidade para marca/modelo/tipo de ponto de extremidade, etc.
   
 > [!NOTE]
-> As etiquetas de relatório que você carrega no CQD serão manipuladas como *dados de suporte* de acordo com o contrato do Office 365, incluindo qualquer informação que, de outra forma, seria considerada dados *pessoais*ou *dados do cliente* . Não inclua os dados que não deseja fornecer à Microsoft como *dados de suporte*, essas informações ficarão visíveis aos engenheiros da Microsoft para fins de suporte.
+> Os rótulos de relatório que você carrega no CQD serão tratados como *dados de suporte* em seu contrato com o Microsoft 365 ou o Office 365, incluindo qualquer informação que, de outra forma, seria considerada dados do *cliente* ou *dados pessoais*. Não inclua os dados que não deseja fornecer à Microsoft como *dados de suporte*, essas informações ficarão visíveis aos engenheiros da Microsoft para fins de suporte.
 
 ![Captura de tela: mostra os dados do locatário do painel de qualidade da chamada](media/839c9ab4-0246-46c9-8402-aafd83a0bc63.png)
   

@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Saiba como configurar o sistema telefônico para filas de chamadas em nuvem com o Microsoft Teams, que fornecem uma mensagem de saudação, suspender música, redirecionamento de chamada e outros recursos.
-ms.openlocfilehash: 6bf3353a86cc096d5d9f9891315d9b47de40e9f4
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: ac0fb41ebb85a6e7e80d3d221da4dabf456d20aa
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44669424"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44697442"
 ---
 # <a name="create-a-cloud-call-queue"></a>Criar uma fila de chamada do Cloud
 
@@ -68,10 +68,10 @@ Para começar a usar filas de chamadas, é importante lembrar-se de algumas cois
   > [!NOTE]
   > Os números do serviço de roteamento direto para filas de chamadas têm suporte somente para usuários e agentes do Microsoft Teams.
 
-  > [!NOTE]
-  > Para redirecionar chamadas para pessoas em sua organização que estão online, elas devem ter uma licença do **sistema de telefonia** e estar habilitadas para o Enterprise Voice ou ter planos de chamadas do Office 365. Consulte [atribuir licenças de Complementos do Microsoft Teams](teams-add-on-licensing/assign-teams-add-on-licenses.md). Para habilitá-las para o Enterprise Voice, você pode usar o Windows PowerShell. Por exemplo, execute:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+> [!NOTE]
+> Para redirecionar chamadas para pessoas em sua organização que estão online, elas devem ter uma licença do **sistema de telefonia** e estar habilitadas para o Enterprise Voice ou ter planos de chamada do Microsoft 365 ou do Office 365. Consulte [atribuir licenças de Complementos do Microsoft Teams](teams-add-on-licensing/assign-teams-add-on-licenses.md). Para habilitá-las para o Enterprise Voice, você pode usar o Windows PowerShell. Por exemplo, execute:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
-- Para saber mais sobre os planos de chamada do Office 365, consulte [sistema telefônico e planos de chamada](calling-plan-landing-page.md) e [planos de chamadas do Office 365](calling-plans-for-office-365.md).
+- Para saber mais sobre planos de chamada, consulte [sistema telefônico e planos de chamada](calling-plan-landing-page.md) e [planos de chamada para o Microsoft 365 ou o Office 365](calling-plans-for-office-365.md).
 
 - Você só pode atribuir filas de chamadas em nuvem e números de telefone de serviço de chamada gratuita que você recebeu no **centro de administração do Microsoft Teams** ou transferido de outro provedor de serviços. Créditos de comunicações são necessários para números de serviço de chamada gratuita.
 
@@ -97,7 +97,7 @@ Para começar a usar filas de chamadas, é importante lembrar-se de algumas cois
 
 ## <a name="step-2--get-or-transfer-toll-or-toll-free-service-phone-numbers"></a>Etapa 2: obter ou transferir números de telefone de serviço de chamada tarifada ou gratuita
 
-Antes de criar e configurar suas filas de chamadas, você precisa obter ou transferir seus números de serviço de chamada tarifada ou chamada gratuitas existentes. Para obter seus números de serviço, consulte [obtendo números de telefone de serviço](getting-service-phone-numbers.md) ou se você quiser transferir um número de serviço existente, consulte [transferir números de telefone para o Office 365](phone-number-calling-plans/transfer-phone-numbers-to-teams.md). Depois de obter os números de telefone de serviço de chamada tarifada ou gratuita, eles aparecerão nos números de telefone de voz do **centro de administração do Microsoft Teams**  >  **Voice**  >  **Phone numbers**. Números de chamada gratuita serão listados com um **tipo** de serviço de número **: gratuito**.
+Antes de criar e configurar suas filas de chamadas, você precisa obter ou transferir seus números de serviço de chamada tarifada ou chamada gratuitas existentes. Para obter seus números de serviço, consulte [obtendo números de telefone de serviço](getting-service-phone-numbers.md) ou se você quiser transferir um número de serviço existente, consulte [transferir números de telefone para o Microsoft Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md). Depois de obter os números de telefone de serviço de chamada tarifada ou gratuita, eles aparecerão nos números de telefone de voz do **centro de administração do Microsoft Teams**  >  **Voice**  >  **Phone numbers**. Números de chamada gratuita serão listados com um **tipo** de serviço de número **: gratuito**.
 
 > [!NOTE]
 > Se você estiver fora dos Estados Unidos, não poderá usar o centro de administração do Microsoft Teams para obter números de serviço. Vá para [gerenciar números de telefone de sua organização](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) em vez de ver como fazer isso de fora dos Estados Unidos.
@@ -163,7 +163,7 @@ As chamadas são roteadas primeiro para agentes individuais e depois para os age
 
 Você pode selecionar até 200 agentes de chamada que pertencem a qualquer uma das seguintes listas de endereçamento ou grupos:
 
-- Grupo do Office 365
+- Grupo do Microsoft 365
 - Grupo de segurança
 - Lista de distribuição
 
@@ -178,7 +178,7 @@ Os agentes de chamada selecionados devem ser um dos seguintes:
 
    Para habilitar um agente para Enterprise Voice, você pode usar o Windows PowerShell. Por exemplo, execute:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
-- Usuários com uma licença do **sistema telefônico** ou um plano de chamadas que são adicionados a um grupo do Office 365; uma lista de distribuição habilitada para email; ou um grupo de segurança. Quando você adiciona um agente em uma lista de distribuição ou um grupo de segurança como um agente de fila de chamada, pode levar até três horas para que a primeira chamada seja recebida. Uma lista de distribuição ou um grupo de segurança recém-criado pode levar até 48 horas para se tornar disponível para ser usado com filas de chamadas. Os grupos do Microsoft 365 recém criados estão disponíveis quase que imediatamente.
+- Usuários com uma licença do **sistema telefônico** ou um plano de chamadas que são adicionados a um grupo do Microsoft 365, uma lista de distribuição habilitada para email ou um grupo de segurança. Quando você adiciona um agente em uma lista de distribuição ou um grupo de segurança como um agente de fila de chamada, pode levar até três horas para que a primeira chamada seja recebida. Uma lista de distribuição ou um grupo de segurança recém-criado pode levar até 48 horas para se tornar disponível para ser usado com filas de chamadas. Os grupos do Microsoft 365 recém criados estão disponíveis quase que imediatamente.
 
 - Se seus agentes estiverem usando o aplicativo Microsoft Teams para chamadas da fila de chamadas, eles precisarão estar no modo TeamsOnly.
 
@@ -328,7 +328,7 @@ Você também pode usar o Windows PowerShell para criar e configurar filas de ch
 
 ### <a name="more-about-windows-powershell"></a>Mais sobre o Windows PowerShell
 
-- O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com o Windows PowerShell, você pode gerenciar o Office 365 e o Microsoft Teams com um único ponto de administração. Isso pode simplificar o seu trabalho diário, quando você tem várias tarefas para fazer. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
+- O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com o Windows PowerShell, você pode gerenciar o Microsoft 365 ou o Office 365 e o Microsoft Teams com um único ponto de administração. Isso pode simplificar o seu trabalho diário, quando você tem várias tarefas para fazer. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
 
   - [Uma introdução ao Windows PowerShell e ao Skype for Business Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
@@ -336,13 +336,13 @@ Você também pode usar o Windows PowerShell para criar e configurar filas de ch
 
 - O Windows PowerShell tem muitas vantagens em velocidade, simplicidade e produtividade sobre o centro de administração do Microsoft Teams quando você faz alterações para muitos usuários de uma só vez. Saiba mais sobre essas vantagens nos seguintes tópicos:
 
-  - [Gerenciar o Office 365 com o Windows PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-with-office-365-powershell)
+  - [Gerenciar o Microsoft 365 ou o Office 365 com o Windows PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-with-office-365-powershell)
 
   - [Configurar seu computador para o Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Veja aqui o que você obtém com o Sistema de Telefonia no Office 365](here-s-what-you-get-with-phone-system.md)
+[Veja o que você obtém com o Sistema de Telefonia](here-s-what-you-get-with-phone-system.md)
 
 [Obter números de telefone de serviço](getting-service-phone-numbers.md)
 

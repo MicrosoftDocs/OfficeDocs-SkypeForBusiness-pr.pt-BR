@@ -18,16 +18,16 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-apr2020
-ms.openlocfilehash: 038312f2dc63778111bd58ae93bfc5afab56750c
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 7acb172e7a7785773ce4a8f80d76d8c9781f9c7e
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904046"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690397"
 ---
 <a name="edit-guest-user-information"></a>Editar informações do usuários convidados
 ===========================
 
-Para editar contas de convidados (como o nome de exibição ou a imagem de perfil), vá para o portal do Azure Active Directory. Para obter mais informações, consulte [Entender a identidade do Office 365 e o Azure Active Directory](https://support.office.com/article/Understanding-Office-365-Identity-and-Azure-Active-Directory-06a189e7-5ec6-4af2-94bf-a22ea225a7a9).
+Para editar contas de convidados (como o nome de exibição ou a imagem de perfil), vá para o portal do Azure Active Directory. Para obter mais informações, consulte [noções básicas sobre identidade e Active Directory do Azure](https://support.office.com/article/Understanding-Office-365-Identity-and-Azure-Active-Directory-06a189e7-5ec6-4af2-94bf-a22ea225a7a9).
 
 No momento, você não pode editar informações de convidado no centro de administração do Microsoft Teams, no centro de administração do Microsoft 365 ou no centro de administração do Exchange.

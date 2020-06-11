@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Saiba como configurar um SBC (controlador de borda de sessão) para atender a vários locatários para parceiros da Microsoft e/ou operadoras PSTN.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 13d2dceb8cedc6e48d420619476cbf73c675785a
-ms.sourcegitcommit: e618396eb8da958983668ad0884b4481e1ed7b98
+ms.openlocfilehash: 4df64ec7bb47b440ba334becdfc03f1966631b3b
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44021993"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44689737"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurar um controlador de borda da sessão para vários locatários
 
@@ -52,7 +52,7 @@ Veja a seguir as etapas de implementação técnica para configurar o cenário.
 2. Ativar o nome do subdomínio.
 3. Configure o tronco da transportadora para o locatário do cliente e provisionar usuários.
 
-*Certifique-se de compreender noções básicas de DNS e como o nome de domínio é gerenciado no Office 365. Examine [a ajuda para obter ajuda com os domínios do Office 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) antes de continuar.*
+*Certifique-se de que você compreende noções básicas de DNS e como o nome de domínio é gerenciado no Microsoft 365 ou no Office 365. Examine [a ajuda para obter ajuda com os domínios do Microsoft 365 ou do Office 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) antes de continuar.*
 
 ## <a name="deploy-and-configure-the-sbc"></a>Implantar e configurar o SBC
 
@@ -62,6 +62,7 @@ Para ver as etapas detalhadas sobre como implantar e configurar o SBCs para um c
 - **Oracle:** [notas de configuração de roteamento direto](https://www.oracle.com/technetwork/indexes/documentation/acme-packet-2228107.html), a configuração do cenário de Hospedagem de SBC é descrita na seção "Microsoft". 
 - **Comunicações da faixa** de opções:  Consulte o guia de [configuração do Microsoft Teams SBC da faixa de opções do Microsoft Teams](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe) para obter a documentação sobre como configurar a faixa de opções da faixa de opções SBCS e para esta página de [práticas recomendadas de roteamento direto do Microsoft Teams](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+Carriers+for+Microsoft+Teams+Direct+Routing)
 - **SMS (anynode):**  Registre-se na [página da comunidade de SMS](https://community.te-systems.de/) para obter documentação e exemplos sobre como configurar o SBC anynode para vários locatários.
+- **Metaswitch:**  Registre-se na [página da Comunidade metaswitch](https://sso.metaswitch.com/UI/Login) para obter a documentação sobre como habilitar o SBC Perimeta para vários locatários.
 
 > [!NOTE]
 > Preste atenção em como configurar o cabeçalho "contato". O cabeçalho do contato é usado para localizar o locatário do cliente na mensagem de convite de entrada. 
@@ -74,19 +75,19 @@ Para o cenário de hospedagem, você precisa criar:
 
 No exemplo a seguir:
 - Adatum é uma operadora que atende vários clientes fornecendo serviços de telefonia e de Internet.
-- Woodgrove Bank, contoso e Adventure Works são três clientes que têm domínios do Office 365, mas recebem os serviços de telefonia do adatum.
+- Woodgrove Bank, contoso e Adventure Works são três clientes que têm domínios do Microsoft 365 ou do Office 365, mas recebem os serviços de telefonia do adatum.
 
-Subdomínios **devem** coincidir com o nome FQDN do tronco que será configurado para o cliente e o FQDN no cabeçalho do contato ao enviar o convite para o Office 365. 
+Subdomínios **devem** coincidir com o nome FQDN do tronco que será configurado para o cliente e o FQDN no cabeçalho do contato ao enviar o convite para o Microsoft 365 ou o Office 365. 
 
-Quando chega uma chamada na interface de roteamento direto do Office 365, a interface usa o cabeçalho do contato para localizar o locatário onde o usuário deve ser pesquisado. O roteamento direto não usa a pesquisa de número de telefone no convite, pois alguns clientes podem ter números não-participantes que podem sobrepor-se a vários locatários. Portanto, o nome FQDN no cabeçalho do contato é necessário para identificar o locatário exato para pesquisar o usuário pelo número de telefone.
+Quando chega uma chamada na interface de roteamento direto do Microsoft 365 ou do Office 365, a interface usa o cabeçalho do contato para localizar o locatário onde o usuário deve ser pesquisado. O roteamento direto não usa a pesquisa de número de telefone no convite, pois alguns clientes podem ter números não-participantes que podem sobrepor-se a vários locatários. Portanto, o nome FQDN no cabeçalho do contato é necessário para identificar o locatário exato para pesquisar o usuário pelo número de telefone.
 
-*Consulte [obter ajuda com os domínios do Office 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) para obter mais informações sobre como criar nomes de domínio em organizações do Office 365.*
+*Consulte [obter ajuda com os domínios do Office 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) para obter mais informações sobre como criar nomes de domínio no Microsoft 365 ou em organizações do Office 365.*
 
 O diagrama a seguir resume os requisitos para o domínio base, subdomínios e cabeçalho de contato.
 
 ![Diagrama mostrando os requisitos para domínios e cabeçalho de contato](media/direct-routing-1-sbc-requirements.png)
 
-O SBC exige um certificado para autenticar as conexões. Para o cenário de hospedagem SBC, a transportadora precisa solicitar um certificado com San * \*. base_domain (por \*exemplo,. Customers.adatum.biz)*. Esse certificado pode ser usado para autenticar conexões para vários locatários servidos a partir de um único SBC.
+O SBC exige um certificado para autenticar as conexões. Para o cenário de hospedagem SBC, a transportadora precisa solicitar um certificado com SAN * \* . base_domain (por exemplo, \* . Customers.adatum.biz)*. Esse certificado pode ser usado para autenticar conexões para vários locatários servidos a partir de um único SBC.
 
 
 A tabela a seguir é um exemplo de uma configuração.
@@ -113,13 +114,13 @@ Para configurar a base e subdomínios, siga as etapas descritas abaixo. No exemp
 
 Você só poderá adicionar novos domínios se tiver entrado no centro de administração do Microsoft 365 como administrador global. 
 
-Para validar a função que você tem, entre no centro de administração do Microsoft 365 (https://portal.office.com), **vá para** > usuários**ativos**do Microsoft e verifique se você tem uma função de administrador global. 
+Para validar a função que você tem, entre no centro de administração do Microsoft 365 ( https://portal.office.com) , vá para **usuários**  >  **ativos**do Microsoft e verifique se você tem uma função de administrador global. 
 
-Para obter mais informações sobre funções de administrador e como atribuir uma função no Office 365, consulte [sobre as funções de administrador do office 365](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d).
+Para obter mais informações sobre funções de administrador e como atribuir uma função no Microsoft 365 ou no Office 365, consulte [sobre funções de administrador](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d).
 
 ### <a name="add-a-base-domain-to-the-tenant-and-verify-it"></a>Adicionar um domínio base ao locatário e verificá-lo
 
-1. No centro de administração do Microsoft 365, vá para **Configurar** > **domínios** > **Adicionar domínio**.
+1. No centro de administração do Microsoft 365, vá para **Configurar**  >  **domínios**  >  **Adicionar domínio**.
 2. Na caixa **Insira um domínio que você possui** , digite o FQDN do domínio base. No exemplo a seguir, o domínio base é *Customers.adatum.biz*.
 
     ![Captura de tela mostrando a página Adicionar um domínio](media/direct-routing-2-sbc-add-domain.png)
@@ -138,7 +139,7 @@ Para obter mais informações sobre funções de administrador e como atribuir u
 
 Depois de registrar um nome de domínio, você precisa ativá-lo adicionando pelo menos um usuário licenciado E1, E3 ou E5 e atribuindo um endereço SIP à parte FQDN do endereço SIP correspondente ao domínio base criado. 
 
-*Consulte [obter ajuda com os domínios do Office 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) para obter mais informações sobre como adicionar usuários nas organizações do Office 365.*
+*Consulte [obter ajuda com os domínios do microsoft 365 ou do office 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) para obter mais informações sobre como adicionar usuários nas organizações do Microsoft 365 ou do Office 365.*
 
 Por exemplo: test@customers.adatum.biz
 
@@ -154,12 +155,12 @@ Será necessário criar um nome de subdomínio exclusivo para cada cliente. Nest
 
 Você só poderá adicionar novos domínios se tiver entrado no centro de administração do Microsoft 365 como administrador global. 
 
-Para validar a função que você tem, entre no centro de administração do Microsoft 365 (https://portal.office.com), **vá para** > usuários**ativos**do Microsoft e verifique se você tem uma função de administrador global. 
+Para validar a função que você tem, entre no centro de administração do Microsoft 365 ( https://portal.office.com) , vá para **usuários**  >  **ativos**do Microsoft e verifique se você tem uma função de administrador global. 
 
-Para obter mais informações sobre funções de administrador e como atribuir uma função no Office 365, consulte [sobre as funções de administrador do office 365](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d).
+Para obter mais informações sobre funções de administrador e como atribuir uma função no Microsoft 365 ou no Office 365, consulte [sobre funções de administrador](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d).
 
 ### <a name="add-a-subdomain-to-the-customer-tenant-and-verify-it"></a>Adicionar um subdomínio ao locatário do cliente e verificá-lo
-1. No centro de administração do Microsoft 365, vá para **Configurar** > **domínios** > **Adicionar domínio**.
+1. No centro de administração do Microsoft 365, vá para **Configurar**  >  **domínios**  >  **Adicionar domínio**.
 2. Na caixa **Insira um domínio que você possui** , digite o FQDN do subdomínio para esse locatário. No exemplo a seguir, o subdomínio é sbc1.customers.adatum.biz.
 
     ![Captura de tela da página Adicionar um domínio](media/direct-routing-5-sbc-add-customer-domain.png)
@@ -177,7 +178,7 @@ Para obter mais informações sobre funções de administrador e como atribuir u
 
     ![Captura de tela mostrando a criação do registro TXT](media/direct-routing-8-sbc-txt-record.png)
 
-    Para obter mais informações, consulte [criar registros DNS em qualquer provedor de Hospedagem de DNS para o Office 365](https://support.office.com/article/create-dns-records-at-any-dns-hosting-provider-for-office-365-7b7b075d-79f9-4e37-8a9e-fb60c1d95166).
+    Para obter mais informações, consulte [criar registros DNS em qualquer provedor de Hospedagem de DNS](https://support.office.com/article/create-dns-records-at-any-dns-hosting-provider-for-office-365-7b7b075d-79f9-4e37-8a9e-fb60c1d95166).
 
 7. Volte para o centro de administração do Microsoft 365 do cliente e clique em **verificar**. 
 8. Na próxima página, selecione **adicionarei os registros de DNS** e clique em **Avançar**.
@@ -200,7 +201,7 @@ Para obter mais informações sobre funções de administrador e como atribuir u
 
 Depois de registrar um nome de domínio, você precisa ativá-lo adicionando pelo menos um usuário e atribuir um endereço SIP à parte FQDN do endereço SIP correspondente ao subdomínio criado no locatário do cliente.
 
-*Consulte [obter ajuda com os domínios do Office 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) para obter mais informações sobre como adicionar usuários nas organizações do Office 365.*
+*Consulte [obter ajuda com os domínios do microsoft 365 ou do office 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) para obter mais informações sobre como adicionar usuários nas organizações do Microsoft 365 ou do Office 365.*
 
 Por exemplo: test@sbc1.customers.adatum.biz
 

@@ -17,12 +17,12 @@ description: Saiba como configurar os planos de chamada e o recurso de chamadas 
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 45e0523086ab985a488da15305fffbed8c57b0dc
-ms.sourcegitcommit: 000515147632c6278bcda4505a1038014dda8e2f
+ms.openlocfilehash: 50e32c34b211766aa5fc3ad7732b1dd392ed8346
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44232572"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690877"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>Planejar e configurar chamadas de emergência dinâmicas 
 
@@ -159,7 +159,7 @@ Use os cmdlets a seguir para adicionar portas, opções, sub-redes e WAPs ao LIS
 
 Use as políticas a seguir para configurar as chamadas de emergência. Você pode gerenciar essas políticas no centro de administração do Microsoft Teams ou usando o PowerShell.
 
-- **Política de roteamento de chamadas de emergência** – aplica-se somente ao roteamento direto. Essa política configura os números de emergência, máscaras por número, se desejado, e a rota PSTN por número.  Você pode atribuir essa política a usuários, a sites de rede ou a ambos. (Planos de chamada os clientes da equipe são habilitados automaticamente para fazer chamadas de emergência com os números de emergência do país com base no local de uso do Office 365.)  Para saber mais, consulte [gerenciar políticas de roteamento de chamadas de emergência para roteamento direto](manage-emergency-call-routing-policies.md).
+- **Política de roteamento de chamadas de emergência** – aplica-se somente ao roteamento direto. Essa política configura os números de emergência, máscaras por número, se desejado, e a rota PSTN por número.  Você pode atribuir essa política a usuários, a sites de rede ou a ambos. (Planos de chamada os clientes da equipe são habilitados automaticamente para chamadas de emergência com os números de emergência do país com base em seu local de uso do Microsoft 365 ou do Office 365.)  Para saber mais, consulte [gerenciar políticas de roteamento de chamadas de emergência para roteamento direto](manage-emergency-call-routing-policies.md).
 
 - **Política de chamadas de emergência** -aplica-se a planos de chamada e encaminhamento direto. Essa política configura a experiência de notificação de segurança técnica quando uma chamada de emergência é feita. Você pode definir quem deseja notificar e como eles são notificados. Por exemplo, para notificar automaticamente a equipe de segurança da sua organização e fazer com que elas escutem em chamadas de emergência.  Essa política pode ser atribuída a usuários ou sites de rede ou ambos. Para saber mais, consulte [gerenciar políticas de chamadas de emergência no Microsoft Teams](manage-emergency-calling-policies.md).
 

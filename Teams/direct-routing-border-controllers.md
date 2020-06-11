@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: O administrador pode saber qual controlador de borda de sessão (SBCs) foi certificado para roteamento direto.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 35ce7be2c99ad0de9da3d397c8b6aed28a3634bc
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 1a76ed1e3a386aef7d6b6216b279a1e712e20f88
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666093"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691267"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Lista de controladores de borda da sessão certificados para Roteamento Direto
 
@@ -81,7 +81,12 @@ A tabela a seguir lista os dispositivos que são verificados quanto à interoper
 | [Audiocodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   [ATA-2](https://www.audiocodes.com/media/2399/mediapack-20x-mp-20x-analog-telephone-adapters-datasheet.pdf)   |     &#10004;     |
 | [Faixa](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions) |   [SBC 1000. Versão do software: 8.1.1 (Build 527)](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Analog+Devices)   |     &#10004;     |
 | [Faixa](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions) |   [SBC 2000. Versão do software: 8.1.1 (Build 527)](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Analog+Devices)   |     &#10004;     |
-
+| [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |   AP1100 software versão 8.3.0.1.2 |     &#10004;     |
+  | [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  AP3900 software versão 8.3.0.1.2|     &#10004;     |
+  | [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  AP4600 software versão 8.3.0.1.2|     &#10004;     |
+  | [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  AP6300 software versão 8.3.0.1.2|     &#10004;     |
+  | [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  AP6350 software versão 8.3.0.1.2|     &#10004;     |
+  | [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  VME software versão 8.3.0.1.2 |     &#10004;     |
 
 Para nos enviar comentários sobre o produto sobre o Microsoft Teams, como ideias para novos recursos, consulte [UserVoice](https://microsoftteams.uservoice.com).
 Observe a certificação concedida a uma versão principal. Isso significa que o firmware com qualquer número no firmware SBC após a versão principal tem suporte.

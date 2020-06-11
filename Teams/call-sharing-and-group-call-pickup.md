@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: Compartilhamento de chamadas e retirada de chamadas em grupo permitem que os usuários compartilhem chamadas com colegas para que as chamadas possam ser capturadas quando o usuário não estiver disponível.
-ms.openlocfilehash: 0e21f8ec8b9d913568b87a41b70261ac917260e2
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 97810336b55d6582a93eca04b832f2807073004a
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44638850"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690807"
 ---
 # <a name="call-sharing-and-group-call-pickup-in-microsoft-teams"></a>Compartilhamento de chamadas e atendimento de chamada em grupo no Microsoft Teams
 

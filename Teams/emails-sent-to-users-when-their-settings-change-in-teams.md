@@ -21,18 +21,18 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 'Saiba as informações que são enviadas automaticamente aos usuários por e-mail quando suas configurações de conferência discada são alteradas no Microsoft Teams. '
-ms.openlocfilehash: 4c4668e671b65a7927434a5ad7c9028d673d47b3
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 15c35570d509ae69a41e4c6d9522a5a62d32dd59
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042858"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691477"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-microsoft-teams"></a>E-mails enviados para os usuários quando suas configurações são alteradas no Microsoft Teams
 
 Serão enviados e-mails automaticamente para usuários que estão [habilitados para audioconferência](set-up-audio-conferencing-in-teams.md) e usam a Microsoft como provedor de audioconferência.
 
-Por padrão, existem quatro tipos de e-mail que são enviados aos usuários habilitados para audioconferência. No entanto, se você deseja limitar o número de e-mails enviados aos usuários, é possível desativá-los. A audioconferência no Office 365 enviará um e-mail para o e-mail de seus usuários quando:
+Por padrão, existem quatro tipos de e-mail que são enviados aos usuários habilitados para audioconferência. No entanto, se você deseja limitar o número de e-mails enviados aos usuários, é possível desativá-los. Conferências de áudio no Microsoft 365 ou no Office 365 enviarão emails ao email dos usuários quando:
 
 - **Uma licença de Audioconferência PSTN for atribuída a eles ou quando você alterar o provedor de audioconferência para a Microsoft.**
 
@@ -67,7 +67,7 @@ Por padrão, existem quatro tipos de e-mail que são enviados aos usuários habi
 
     Isso acontece quando a licença de **conferência de áudio** é removida de um usuário ou ao configurar o provedor de serviços de audioconferência para **nenhum**.
 
-    Veja [Atribuir ou remover licenças de assinatura no Office 365](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).
+    Consulte [atribuir ou remover licenças para o Microsoft 365 para empresas](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).
 
     Aqui está um exemplo desse email:
 
@@ -78,7 +78,7 @@ Por padrão, existem quatro tipos de e-mail que são enviados aos usuários habi
 
 ## <a name="make-changes-to-the-email-messages-that-are-sent-to-them"></a>Alterar as mensagens de email enviadas a eles
 
-Você pode fazer alterações ao email que será enviado automaticamente aos usuários. Por padrão, o remetente dos emails será do Office 365, mas você pode alterar o nome de exibição usando o Windows PowerShell. Consulte a [referência do Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) para obter mais informações.
+Você pode fazer alterações ao email que será enviado automaticamente aos usuários. Por padrão, o remetente dos emails será do Microsoft 365 ou do Office 365, mas você pode alterar o nome de exibição usando o Windows PowerShell. Consulte a [referência do Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) para obter mais informações.
 
 ## <a name="what-if-you-dont-want-email-to-be-sent-to-them"></a>E se você não quiser que eles recebam emails?
 
@@ -106,9 +106,9 @@ Consulte a [referência do Microsoft Teams PowerShell](https://docs.microsoft.co
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>Deseja saber mais sobre o Windows PowerShell?
 
-Por padrão, o remetente dos emails será do Office 365, mas você pode alterar o endereço de email e o nome de exibição usando o Windows PowerShell. 
+Por padrão, o remetente dos emails será do Microsoft 365 ou do Office 365, mas você pode alterar o endereço de email e o nome de exibição usando o Windows PowerShell. 
 
-O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com o Windows PowerShell, você pode gerenciar o Office 365 usando um ponto único de administração para simplificar seu trabalho diário quando houver várias tarefas a serem feitas. Para começar a usar o Windows PowerShell, consulte estes tópicos:
+O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com o Windows PowerShell, você pode gerenciar o Microsoft 365 ou o Office 365 usando um único ponto de administração que pode simplificar seu trabalho diário quando você tiver várias tarefas para fazer. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
 
   - [Por que você precisa usar o PowerShell do Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
 

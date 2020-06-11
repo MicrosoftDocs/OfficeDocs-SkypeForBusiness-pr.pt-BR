@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 'Saiba como obter novos, portar ou transferir números existentes para o Microsoft Teams e como mostrar as alterações aos seus usuários. '
-ms.openlocfilehash: 97d827d2fedbf12fd18519ac70a23bacdc78a58c
-ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
+ms.openlocfilehash: 45c0b87d8e208913b9be0d231a8e2ae2e0ebfd5a
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43951006"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691427"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>Obter números de telefone para seus usuários
 
@@ -37,28 +37,29 @@ Há três maneiras de obter números de usuário:
     
 - **Fazer a portabilidade de seus números existentes.** Você pode transferir ou transferir números existentes do seu provedor de serviços atual ou da operadora de telefone. Consulte [Transferir os números dos telefones ao Teams](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams) ou [Gerenciar números de telefone da sua organização](/microsoftteams/manage-phone-numbers-for-your-organization) para obter mais informações.  
   
-- **Usar um formulário de solicitação para novos números.** Às vezes (dependendo do seu país ou região) você não poderá obter seus novos números de telefone usando o centro de administração do Microsoft Teams ou precisará de números de telefone ou códigos de área específicos. Em caso afirmativo, você precisará baixar um formulário e enviá-lo de volta para nós. Para obter mais informações, consulte [Gerenciar números de telefone para sua organização](/microsoftteams/manage-phone-numbers-for-your-organization).
+- **Usar um formulário de solicitação para novos números.** Às vezes (dependendo do seu país ou região) você não poderá obter seus novos números de telefone usando o centro de administração do Microsoft Teams ou precisará de números de telefone ou códigos de área específicos. Para obter mais informações, consulte [Gerenciar números de telefone para sua organização](/microsoftteams/manage-phone-numbers-for-your-organization).
   
 > [!NOTE]
-> Se precisar de ajuda para configurar números de telefone para sua organização, você pode [entrar em contato com o serviço de suporte PSTN](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).
+> Se precisar de ajuda para configurar os números de telefone de sua organização, entre em entrar em contato com o suporte de produtos para empresas – ajuda para administradores ( https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products?view=o365-worldwide&tabs=online .
   
 ## <a name="get-new-phone-numbers-for-your-users"></a>Obtenha novos números de telefone para seus usuários
 
 ![Um ícone mostrando o logotipo do Microsoft Teams](media/teams-logo-30x30.png) **Usando o centro de administração do Microsoft Teams**
-    
-1. No painel de navegação esquerdo, vá para**números de telefone**de **voz** > e clique em **Adicionar**.
-2. Insira um nome para o pedido e adicione uma descrição.
-3. Na página localização e quantidade, faça o seguinte:
+
+1. Vá para o centro de administração do Microsoft Teams em <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> . 
+2. No painel de navegação esquerdo, vá **Voice**para  >  **números de telefone**de voz e clique em **Adicionar**.
+3. Insira um nome para o pedido e adicione uma descrição.
+4. Na página localização e quantidade, faça o seguinte:
     1. Em **país ou região**, selecione um país ou região.
     2. Em **tipo de número**, selecione **usuário (assinante)**.
     3. Em **local**, selecione um local. Se você precisar criar um novo local, clique em **Adicionar um local**.
     4. Em **código de área**, selecione um código de área. 
     5. Em **quantidade**, digite o número de números que você deseja para sua organização e clique em **Avançar** para selecionar seus números.
-4. Selecione os números desejados. Você tem 10 minutos para selecionar seus números de telefone e fazer o pedido. Se você demorar mais de 10 minutos, os números de telefone serão retornados ao pool de números.
-5. Quando estiver pronto para fazer o pedido, clique em **fazer pedido**.
+5. Selecione os números desejados. Você tem 10 minutos para selecionar seus números de telefone e fazer o pedido. Se você demorar mais de 10 minutos, os números de telefone serão retornados ao pool de números.
+6. Quando estiver pronto para fazer o pedido, clique em **fazer pedido**.
 
     > [!IMPORTANT]
-    > A quantidade de números de telefone para usuários (assinantes) é igual ao número total de **planos de chamadas domésticas** e/ou licenças **de plano de chamada domésticas e internacionais** que você atribuiu multiplicado por 1,1; mais 10 números de telefone adicionais. Por exemplo, se você tiver 50 usuários no total com um Plano De Chamadas Domésticas e/ou um Plano de Chamadas Domésticas e Internacionais, você pode adquirir **65** números de telefone **(50 x 1,1 + 10)**. Para obter detalhes, consulte quantos [números de telefone você pode obter?](/microsoftteams/how-many-phone-numbers-can-you-get). Se precisar de mais números de telefone do que isso, [entre em contato com o serviço de suporte PSTN](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).
+    > A quantidade de números de telefone para usuários (assinantes) é igual ao número total de **planos de chamadas domésticas** e/ou licenças **de plano de chamada domésticas e internacionais** que você atribuiu multiplicado por 1,1; mais 10 números de telefone adicionais. Por exemplo, se você tiver 50 usuários no total com um Plano De Chamadas Domésticas e/ou um Plano de Chamadas Domésticas e Internacionais, você pode adquirir **65** números de telefone **(50 x 1,1 + 10)**. Para obter detalhes, consulte quantos [números de telefone você pode obter?](/microsoftteams/how-many-phone-numbers-can-you-get). Se precisar de mais números de telefone do que isso, [entre em contato com o suporte de contato para produtos comerciais-ajuda para administradores](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products?view=o365-worldwide&tabs=online).
   
 ## <a name="port-or-transfer-phone-numbers-from-your-service-provider-or-phone-carrier"></a>Fazer a portabilidade ou transferir os números de telefone de seu provedor de serviços ou de sua operadora de telefonia
   
@@ -70,15 +71,14 @@ Há três maneiras de obter números de usuário:
 
 ![Um ícone mostrando o logotipo do Microsoft Teams](media/teams-logo-30x30.png) **Usando o centro de administração do Microsoft Teams** 
 
-No painel de navegação esquerdo, vá para**números de telefone** de **voz** > para exibir os números de sua organização, incluindo localização, tipo de número e informações de status.
+Na navegação à esquerda do <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">centro de administração</a>, vá para números de telefone de **voz**  >  **Phone numbers** para exibir os números de sua organização, incluindo localização, tipo de número e informações de status.
   
 ## <a name="assign-phone-numbers-to-users"></a>Atribuir números de telefone aos usuários
 
-Depois de obter os números de telefone, você precisará atribuir um número a cada um dos seus usuários. Consulte [atribuir, alterar ou remover um número de telefone para um usuário](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user).
+Depois de obter os números de telefone, você precisará atribuir um número a cada um dos seus usuários. Para obter mais informações [, consulte atribuir, alterar ou remover um número de telefone para um usuário](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user) .
 
 > [!NOTE]
-> Se precisar de mais números de telefone do que isso, [entre em contato com o serviço de suporte PSTN](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).
-
+> Se precisar de mais números de telefone do que isso, [entre em contato com o suporte de contato para produtos comerciais-ajuda para administradores](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products?view=o365-worldwide&tabs=online).
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

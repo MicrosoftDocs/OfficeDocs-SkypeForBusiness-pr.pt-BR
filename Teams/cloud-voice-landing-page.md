@@ -20,12 +20,12 @@ search.appverid: MET150
 description: Saiba mais sobre o recurso de voz em nuvem e entenda as decisões de implantação necessárias que você vai enfrentar.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 952eb7064844cf0e77e829cd2506c4303504074c
-ms.sourcegitcommit: 3ed779277540589eabef745685ab6c67d8a8ff90
+ms.openlocfilehash: 96d4f6b5e75e0f0f716b4f1b840b079996344cfb
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44281666"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690787"
 ---
 # <a name="cloud-voice-in-microsoft-teams"></a>Voz na nuvem no Microsoft Teams
 
@@ -43,7 +43,7 @@ Recomendamos que todas as organizações funcionem pelas decisões básicas e, s
 
 Os artigos a seguir fornecem mais informações sobre a implantação e o uso de recursos de voz na nuvem no Teams:
 
-- [Sistema de telefonia no Office 365](what-is-phone-system-in-office-365.md)
+- [Sistema telefônico no Microsoft 365 ou no Office 365](what-is-phone-system-in-office-365.md)
 - [Sistema de Telefonia com Planos de Chamadas](calling-plan-landing-page.md)
 - [Roteamento Direto do Sistema Telefônico](direct-routing-landing-page.md)
 - [Implantação do Cloud Voice](cloud-voice-deployment.md)
@@ -57,12 +57,12 @@ Estas são as configurações que a maioria das organizações deseja alterar (s
 
 ## <a name="phone-system-office-365"></a>Sistema telefônico (Office 365)
 
-O sistema de telefonia é a tecnologia da Microsoft para habilitar os recursos de controle de chamada e PBX (Private Branch Exchange) na nuvem do Office 365. O sistema telefônico permite substituir seu sistema de PBX (Exchange Branch Exchange) existente por um conjunto de recursos entregues diretamente do Office 365 e totalmente integrado à experiência de produtividade na nuvem da empresa.
+O sistema de telefonia é a tecnologia da Microsoft para habilitar os recursos de controle de chamada e PBX (Private Branch Exchange) na nuvem do Microsoft 365 ou do Office 365. O sistema telefônico permite substituir seu sistema de PBX (Exchange Branch Exchange) existente por um conjunto de recursos entregues diretamente do Microsoft 365 ou do Office 365 e totalmente integrado à experiência de produtividade na nuvem da empresa.
 
 
 |Pergunte a si mesmo|Ação |
 |:------------|:-------|
-|Em quais locais e escritórios do usuário devo implementar o sistema telefônico? |Para obter mais informações sobre o sistema telefônico, consulte [o que é o sistema telefônico no Office 365](what-is-phone-system-in-office-365.md).</li></ul>|
+|Em quais locais e escritórios do usuário devo implementar o sistema telefônico? |Para obter mais informações sobre o sistema telefônico, consulte [o que é o sistema telefônico no Microsoft 365 ou o Office 365](what-is-phone-system-in-office-365.md).</li></ul>|
 |||
 
 ## <a name="connection-to-the-public-switched-telephone-network-pstn"></a>Conexão com a rede telefônica pública comutada (PSTN)
@@ -120,7 +120,7 @@ Como faço para portar números de telefone existentes para o Microsoft Teams?|P
 
 ### <a name="dial-plans"></a>Planos de discagem
 
-Um plano de discagem no recurso do sistema de telefonia do Office 365 é um conjunto de regras de normalização que traduz os números de telefone discada em um formato alternativo (geralmente o formato E. 164) para autorização de chamadas e encaminhamento de chamadas.
+Um plano de discagem no recurso do sistema de telefonia do Microsoft 365 ou do Office 365 é um conjunto de regras de normalização que traduz os números de telefone discados em um formato alternativo (geralmente o formato E. 164) para autorização de chamadas e encaminhamento de chamadas.
 
 Para obter mais informações sobre os planos de discagem, confira [O que são os planos de discagem?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-dial-plans)
 

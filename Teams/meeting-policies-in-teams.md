@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Saiba como gerenciar as configurações de política de reunião no Teams e usá-las para controlar os recursos disponíveis para os participantes da reunião para reuniões agendadas pelos usuários.
-ms.openlocfilehash: 726e14aef92eed8fe681d183b8e1cfd404e659ca
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: ae1b73c2aefecb64dfe18e0fda0aa880f3962aa7
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665133"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690937"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Gerenciar políticas de reunião no Teams
 
@@ -436,8 +436,8 @@ Para especificar se os usuários podem personalizar a tela de fundo do vídeo em
 |---------|---------|
 |**Sem filtros**     |O usuário não pode personalizar o plano de fundo do vídeo.|
 |**BlurOnly**     |O usuário tem a opção de desfocar a tela de fundo do vídeo. |
-|**BlurandDefaultBackgrounds**     |O usuário tem a opção de desfocar o plano de fundo do vídeo ou escolher um conjunto de imagens para usar como plano de fundo. |
-|**Filtros**     |Use tem a opção de desfocar a tela de fundo do vídeo, escolher de um conjunto de imagens ou carregar imagens personalizadas para usar como plano de fundo. |
+|**BlurandDefaultBackgrounds**     |O usuário tem a opção de desfocar o plano de fundo do vídeo ou escolher um conjunto de imagens padrão para usar como plano de fundo. |
+|**Filtros**     |Use tem a opção de desfocar a tela de fundo do vídeo, escolher do conjunto de imagens padrão ou carregar imagens personalizadas para usar como plano de fundo. |
 
 > [!NOTE]
 > Imagens carregadas pelos usuários não são filtradas pelo Teams. Ao usar a configuração **filtros** , você deve ter políticas de organização internas para impedir que os usuários carreguem imagens ofensivas ou inadequadas, ou imagens que sua organização não tem direitos de usar para planos de fundo de reunião do teams.

@@ -16,12 +16,12 @@ f1.keywords:
 description: Saiba como adicionar o domínio SMTP do Microsoft Teams como um domínio de remetente permitido no Exchange Online para enviar notificações para os membros da equipe.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b0efec3be7bbd9cf14ee7d0f1ca826ca76996795
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: b66b58cb14c5205b0ba4a6ff7e95102dc1584579
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637740"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44689857"
 ---
 <a name="add-the-microsoft-teams-smtp-domain-as-an-allowed-sender-domain-in-exchange-online"></a>Adicionar o domínio SMTP do Microsoft Teams como um domínio de remetente permitido no Exchange Online 
 =============================================================================

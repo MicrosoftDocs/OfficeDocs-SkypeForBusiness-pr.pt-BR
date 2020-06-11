@@ -16,12 +16,12 @@ description: Orientação prática para a implantação de recursos de voz na nu
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: eb2a9a3cf2e349ab74fc9059408a7be2c41c8408
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: 4f2cfcc4be8641fd11a0f22ba090fc5c71a3a240
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44523334"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690897"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Gravação de reuniões na nuvem do Microsoft Teams
 
@@ -48,7 +48,7 @@ Para que as reuniões de um usuário do Team sejam gravadas, o Microsoft Stream 
 <sup>1</sup> o usuário precisa ser licenciado para carregar/baixar reuniões no Microsoft Stream, mas não precisa da licença para gravar uma reunião. Se você quiser impedir que um usuário grave uma reunião do Microsoft Teams, será necessário conceder uma TeamsMeetingPolicy que tenha AllowCloudRecording definido para $False.
 
 > [!IMPORTANT] 
-> Os usuários não precisarão de uma licença do Microsoft Stream atribuída se você quiser que somente registrem e baixem as gravações. Isso significa que as gravações não são armazenadas no Microsoft Stream, mas, em vez disso, são armazenadas nos serviços de mídia do Azure (AMS) com um limite de 30 dias antes de ser excluída. Não é algo neste ponto que um administrador pode controlar ou gerenciar o, incluindo a capacidade de excluí-lo.
+> Os usuários não precisarão de uma licença do Microsoft Stream atribuída se você quiser que somente registrem e baixem as gravações. Isso significa que as gravações não são armazenadas no Microsoft Stream, mas, em vez disso, são armazenadas nos serviços de mídia do Azure (AMS) com um limite de 21 dias antes de serem excluídas. Não é algo neste ponto que um administrador pode controlar ou gerenciar o, incluindo a capacidade de excluí-lo.
 
 ## <a name="set-up-teams-cloud-meeting-recording-for-users-in-your-organization"></a>Configurar a gravação na nuvem do Teams para usuários em sua organização
 
@@ -58,7 +58,7 @@ Esta seção explica como você pode configurar e planejar a gravação de reuni
 
 O Microsoft Stream está disponível como parte das assinaturas qualificadas do Microsoft 365 e do Office 365 ou como um serviço autônomo.  Confira [Visão geral de licenciamento Stream](https://docs.microsoft.com/stream/license-overview) para obter mais detalhes.  O Microsoft Stream agora está incluído no Microsoft 365 Business, no Microsoft 365 Business Standard e no Microsoft 365 Business Basic.
 
-Saiba mais sobre como você pode [atribuir licenças a usuários no Office 365](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) para que os usuários possam acessar o Microsoft Stream. Certifique-se de que o Microsoft Stream não seja bloqueado para os usuários, conforme definido nas [entradas de bloco para o Microsoft Stream](https://docs.microsoft.com/stream/disable-user-organization).
+Saiba mais sobre como você pode [atribuir licenças a usuários no Microsoft 365 ou no Office 365](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) para que os usuários possam acessar o Microsoft Stream. Certifique-se de que o Microsoft Stream não seja bloqueado para os usuários, conforme definido nas [entradas de bloco para o Microsoft Stream](https://docs.microsoft.com/stream/disable-user-organization).
 
 ### <a name="make-sure-users-have-upload-video-permissions-in-microsoft-stream"></a>Certifique-se de que os usuários tenham permissões de carregamento de vídeo no Microsoft Stream
 
@@ -83,11 +83,15 @@ Observe que o organizador da reunião e o iniciador de gravação precisam ter p
 
 Para que um usuário retorne à política global, use o cmdlet a seguir para remover uma atribuição de política específica para um usuário:
 
-`Grant-CsTeamsMeetingPolicy -Identity {user} -PolicyName $null -Verbose`
+```powershell
+Grant-CsTeamsMeetingPolicy -Identity {user} -PolicyName $null -Verbose
+```
 
 Para alterar o valor de AllowCloudRecording na política global, use o seguinte cmdlet:
 
-`Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $false`
+```powershell
+Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $false
+```
 </br>
 </br>
 
@@ -105,7 +109,7 @@ As gravações de reunião são armazenadas no armazenamento na nuvem do Microso
 
 Para encontrar a região em que os dados do Microsoft Stream estão armazenados, no Microsoft Stream, clique em **?** no canto superior direito, clique em **Sobre o Microsoft Stream**e, em seguida, clique em **Seus dados estão armazenados no**.  Para saber mais sobre as regiões nas quais o Microsoft Stream armazena dados, confira [Perguntas frequentes sobre o Microsoft Stream](https://docs.microsoft.com/stream/faq#which-regions-does-microsoft-stream-host-my-data-in).
 
-Para saber mais sobre o local onde os dados são armazenados nos serviços do Office 365, confira o artigo [Onde seus dados estão localizados?](https://products.office.com/where-is-your-data-located?rtc=1)
+Para saber mais sobre o local em que os dados são armazenados nos serviços do Microsoft 365 ou do Office 365, confira [onde estão os dados localizados?](https://products.office.com/where-is-your-data-located?rtc=1)
 
 ### <a name="turn-on-or-turn-off-recording-transcription"></a>Ativar ou desativar a gravação de transcrição
 
@@ -121,11 +125,15 @@ A menos que você tenha atribuído uma política personalizada aos usuários, os
 
 Para que um usuário retorne à política global, use o cmdlet a seguir para remover uma atribuição de política específica para um usuário:
 
-`Grant-CsTeamsMeetingPolicy -Identity {user} -PolicyName $null -Verbose`
+```powershell
+Grant-CsTeamsMeetingPolicy -Identity {user} -PolicyName $null -Verbose
+```
 
 Para alterar o valor de AllowCloudRecording na política global, use o seguinte cmdlet:
 
-`Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false`
+```powershell
+Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
+```
 </br>
 </br>
 
@@ -150,7 +158,7 @@ As gravações de reunião são consideradas conteúdo de propriedade do locatá
 
 ## <a name="compliance-and-ediscovery-for-meeting-recordings"></a>Conformidade e descoberta eletrônica para gravações de reunião
 
-As gravações de reunião são armazenadas no Microsoft Stream, que é compatível com o nível C do Office 365. Para oferecer suporte a solicitações de Descoberta eletrônica para administradores de conformidade que estejam interessados em gravações de reuniões ou chamadas para o Microsoft Streams, a mensagem de gravação concluída estará disponível na funcionalidade de pesquisa de conteúdo de conformidade do Microsoft Teams. Os administradores de conformidade podem procurar a palavra-chave "gravação" na linha do assunto do item na visualização de pesquisa de conteúdo de conformidade e descobrir as gravações da reunião e de chamadas na organização. Um pré-requisito para exibir todas as gravações é que eles precisarão ser configurados no Microsoft Stream com acesso de administrador. Saiba mais sobre [atribuir permissões de administrador no Stream](https://docs.microsoft.com/stream/assign-administrator-user-role).
+As gravações de reunião são armazenadas no Microsoft Stream, que é o Microsoft 365 e o Office 365 de acordo com a camada-C. Para oferecer suporte a solicitações de Descoberta eletrônica para administradores de conformidade que estejam interessados em gravações de reuniões ou chamadas para o Microsoft Streams, a mensagem de gravação concluída estará disponível na funcionalidade de pesquisa de conteúdo de conformidade do Microsoft Teams. Os administradores de conformidade podem procurar a palavra-chave "gravação" na linha do assunto do item na visualização de pesquisa de conteúdo de conformidade e descobrir as gravações da reunião e de chamadas na organização. Um pré-requisito para exibir todas as gravações é que eles precisarão ser configurados no Microsoft Stream com acesso de administrador. Saiba mais sobre [atribuir permissões de administrador no Stream](https://docs.microsoft.com/stream/assign-administrator-user-role).
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

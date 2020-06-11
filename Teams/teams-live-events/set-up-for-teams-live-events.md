@@ -18,12 +18,12 @@ description: Configure os eventos ao vivo no Teams, incluindo a configuração d
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: df54e90f2c895ebf7090fbec2487aae52bd53d66
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 2e865fe2285abb9cd515d1efe769f18cb5735ff2
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779950"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44689667"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Configurar eventos ao vivo no Microsoft Teams
 
@@ -99,7 +99,7 @@ Para os usuários agendarem eventos produzidos com um aplicativo ou dispositivo 
 
 1. Habilitar o Microsoft Stream para usuários na organização. Stream está disponível como parte das assinaturas qualificadas do Microsoft 365 ou do Office 365 ou como um serviço autônomo. O Stream não está incluído nos planos Business Essentials ou Business Premium. Confira [Visão geral de licenciamento Stream](https://docs.microsoft.com/stream/license-overview) para obter mais detalhes.
 
-      Saiba mais sobre como você pode [atribuir licenças a usuários no Office 365](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) para que os usuários possam acessar o Stream. Certifique-se de que o fluxo não está bloqueado para os usuários, conforme definido [neste artigo](https://docs.microsoft.com/stream/disable-user-organization).
+      Saiba mais sobre como você pode [atribuir licenças aos usuários](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) para que os usuários possam acessar o Stream. Certifique-se de que o fluxo não está bloqueado para os usuários, conforme definido [neste artigo](https://docs.microsoft.com/stream/disable-user-organization).
 
 2. Garanta que os usuários tenham permissão para a criação de evento ao vivo no Stream. Por padrão, os administradores podem criar eventos com um aplicativo ou dispositivo externo. O administrador do Stream pode [habilitar usuários adicionais para a criação de eventos ao vivo](https://docs.microsoft.com/stream/live-event-administration#enabling-and-restricting-users-to-creating) no Stream.  
 

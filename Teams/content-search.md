@@ -17,12 +17,12 @@ ms.custom: seo-marvel-mar2020
 description: Saiba como usar a pesquisa de conteúdo no Microsoft Teams para consultar informações do Microsoft Teams do Exchange, do SharePoint Online, do OneDrive for Business e do OneNote.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 93f566590baedc77a4d15eca96569cc85ce54f0b
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 45da4a0f4acf66cb8caafcd8d2bc2287c1176c94
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776446"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690437"
 ---
 <a name="use-content-search-in-microsoft-teams"></a>Usar a pesquisa de conteúdo no Microsoft Teams
 =====================================
@@ -32,7 +32,7 @@ ms.locfileid: "43776446"
 
 A pesquisa de conteúdo fornece uma maneira de consultar as informações do Microsoft Teams estendido o Exchange, o SharePoint Online e o OneDrive for Business.
 
-Para saber mais, leia [Pesquisar conteúdo no Office 365](https://support.office.com/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a).
+Para saber mais, leia [pesquisa de conteúdo no Microsoft 365 ou no Office 365](https://support.office.com/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a).
 
 Por exemplo, ao usar a **pesquisa de conteúdo** em sua caixa de correio de especificações de fabricação e especificações de fabricação do site do SharePoint, você pode pesquisar as conversas de canal padrão do teams do Exchange, uploads e alterações de arquivos do SharePoint Online e alterações do OneNote.
 

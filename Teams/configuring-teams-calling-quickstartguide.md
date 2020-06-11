@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 10d52aca36d92029f8ee832be84e6dc7d140f749
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: f95a38727a886187e6bf01b0a4ec64e5546b627d
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902876"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44689647"
 ---
 <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>Guia de Início Rápido: como configurar Planos de Chamadas no Microsoft Teams
 ==============================================================
@@ -36,7 +36,7 @@ Leia o anúncio feito em 12 de dezembro de 2017, dos Planos de Chamadas no Micro
 > [!NOTE]
 > Recomendamos que, em paralelo com este guia de início rápido, você leia o [sistema telefônico com planos de chamadas](calling-plan-landing-page.md) e o [FastTrack](https://aka.ms/cloudvoice) para planejar e conduzir uma implementação bem-sucedida.
 
-Com a inclusão dos Planos de Chamadas, um recurso do Office 365 acionado pelo Skype for Business, agora você pode usar o Microsoft Teams para fazer e receber chamadas de telefones fixos e celulares pela PSTN (Rede Telefônica Pública Comutada).
+Ao adicionar planos de chamada-um recurso do Microsoft 365 e do Office 365 oferecido pelo Skype for Business – agora você pode usar o Microsoft Teams para fazer e receber chamadas telefônicas de ou para telefones fixos e celulares via rede telefônica pública comutada (PSTN).
 
 ![Captura de tela mostrando a página contatos no Teams](media/Calling_in_Teams.png)
 ## <a name="prerequisites-for-enabling-the-calls-tab-in-teams"></a>Pré-requisitos para habilitar a guia **Chamadas** no Microsoft Teams

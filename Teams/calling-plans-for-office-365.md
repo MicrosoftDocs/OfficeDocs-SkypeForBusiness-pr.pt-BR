@@ -26,12 +26,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: 'Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization. '
-ms.openlocfilehash: 14e3727ae4e474b2b211df469b44e94b2cec8bf3
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: baa90b5a625abf53890fcd51ff91b0ac754b3c94
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44041728"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691397"
 ---
 # <a name="calling-plans-for-microsoft-365"></a>Planos de chamada para o Microsoft 365
 
@@ -39,28 +39,28 @@ Chamadas para outros usuários do Skype for Business e do Microsoft Teams são g
   
 Aqui estão as opções de planos de chamada:
   
-- **Plano de chamadas domésticas**: os usuários licenciados podem fazer chamadas para números localizados no país/região onde são atribuídos no Office 365.
+- **Plano de chamadas domésticas**: os usuários licenciados podem chamar números localizados no país/região onde estão atribuídos no Microsoft 365 ou no Office 365.
     
-- **Plano de chamadas domésticas e internacionais**: os usuários licenciados podem chamar números localizados no país/região em que a licença do Office 365 é atribuída ao usuário com base na localização do usuário e para números internacionais em [196 países/regiões](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md).
+- **Plano de chamadas domésticas e internacionais**: os usuários licenciados podem chamar números localizados no país/região em que a licença do Microsoft 365 ou do Office 365 está atribuída ao usuário com base na localização do usuário e para números internacionais em [países/regiões do 196](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md).
     
 Acesse a [disponibilidade de país e região](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) para saber mais sobre os minutos mensais disponíveis para cada organização em cada país/região.
   
 > [!IMPORTANT]
-> O país/região é baseado na localização da licença do usuário no **Centro** > de administração do Microsoft 365,**usuários ativos** e **não** no endereço de cobrança listado no **perfil da organização** no **centro de administração do Microsoft 365**.   
+> O país/região é baseado na localização da licença do usuário no **centro de administração do Microsoft 365**  >  **, usuários ativos** e **não** no endereço de cobrança listado no **perfil da organização** no **centro de administração do Microsoft 365**.   
 ![Captura de tela do local da licença do usuário](media/cc1e16d1-8a5e-43e0-99a3-dc991efdfbab.png)
   
 Para obter informações detalhadas sobre limites de uso e termos de uso, consulte [período de discagem gratuito do áudio audioconferência](complimentary-dial-out-period.md).
   
 ## <a name="how-to-buy-a-calling-plan"></a>Como comprar um plano de chamadas
 
-1. <strong>Primeiro, você deve comprar uma</strong> licença do complemento do sistema de telefonia * *<strong>. Para fazer isso, [entre no centro de administração do Microsoft 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) e escolha * * cobranças</strong> > **Serviços** > de compra**complementares de assinaturas** > **comprar agora**.
+1. <strong>Primeiro, você deve comprar uma</strong> licença do complemento do sistema de telefonia * *<strong>. Para fazer isso, [entre no centro de administração do Microsoft 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) e escolha * * cobranças</strong>  >  de**serviços de compra**  >  **complementares de assinatura**  >  **comprar agora**.
     
     ![Captura de tela mostrando a opção para comprar um plano de chamada de voz.](media/5893fca0-292c-4cdf-9b43-c507a8b44b74.png)
   
     > [!NOTE]
     > Dependendo do seu plano, talvez seja necessário comprar mais Complementos antes de poder comprar licenças do sistema de telefonia. Para saber mais, consulte [Licenciamento de Complementos do Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
-2. Depois de comprar licenças do sistema telefônico, você pode comprar o plano de chamadas entrando no **centro de administração do Microsoft 365**, escolher**assinaturas complementares**de**Serviços** > de compra de **cobrança** > e, em seguida, clicar em **comprar agora**. Você verá os planos de chamadas ali.
+2. Depois de comprar licenças do sistema telefônico, você pode comprar o plano de chamadas entrando no **centro de administração do Microsoft 365**, escolher **Billing**  >  assinaturas complementares de**serviços de compra**de cobrança  >  **Add-on subscriptions**e, em seguida, clicar em **comprar agora**. Você verá os planos de chamadas ali.
     
     ![Captura de tela mostrando as opções do plano de chamada de voz.](media/ab2d6dce-56eb-4bbc-ac1a-430b0c065d18.png)
   
@@ -88,7 +88,7 @@ Veja mais artigos que explicam como configurar seus planos de chamada:
     
 - [Licenciamento do complemento do Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
     
-- [Veja aqui o que você obtém com o Sistema de Telefonia no Office 365](https://docs.microsoft.com/MicrosoftTeams/here-s-what-you-get-with-phone-system)
+- [Veja o que você obtém com o sistema telefônico no Microsoft 365 ou no Office 365](https://docs.microsoft.com/MicrosoftTeams/here-s-what-you-get-with-phone-system)
     
    
 ## <a name="related-topics"></a>Tópicos relacionados

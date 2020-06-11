@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dc7e3124ec3ec97e3f3643412ccb4f990ab825cc
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 24268206ee4f325d3b80f315f1125cfff5d0fbad
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44638400"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691587"
 ---
 # <a name="overview-of-dynamic-membership-for-teams"></a>Visão geral da associação dinâmica de equipes
 
@@ -43,13 +43,13 @@ O Microsoft Teams pode levar alguns minutos de até 2 horas para refletir as alt
 > - Os proprietários não poderão adicionar ou remover usuários como membros da equipe, pois os membros são definidos por regras de grupo dinâmico.
 > -    Os membros não poderão deixar a equipe apoiada por grupos dinâmicos.
 
-
 ## <a name="creating-and-managing-a-microsoft-365-group-with-dynamic-membership"></a>Criando e gerenciando um grupo do Microsoft 365 com associação dinâmica
+
 Enquanto estiver conectado como administrador de locatários, siga as instruções em [criar um grupo dinâmico e verificar o status](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-create-rule). Conforme necessário, consulte [regras de associação dinâmica para grupos no Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-dynamic-membership).
 
-## <a name="create-a-new-team-with-your-o365-group"></a>Criar uma nova equipe com seu grupo do O365
+## <a name="create-a-new-team-with-your-microsoft-365-group"></a>Criar uma nova equipe com seu grupo do Microsoft 365
 
-Agora, aguarde o tempo para as alterações de associação entrarem em vigor e crie uma nova equipe, conforme descrito em [aprimorar os grupos existentes do microsoft 365 com o Microsoft Teams](enhance-office-365-groups.md).
+Agora, aguarde o tempo para as alterações de associação entrarem em vigor e crie uma nova equipe, conforme descrito em [criar uma equipe a partir de um grupo existente](https://support.microsoft.com/en-us/office/create-a-team-from-an-existing-group-24ec428e-40d7-4a1a-ab87-29be7d145865).
 
 ## <a name="apply-dynamic-membership-to-an-existing-team"></a>Aplicar associação dinâmica a uma equipe existente
 

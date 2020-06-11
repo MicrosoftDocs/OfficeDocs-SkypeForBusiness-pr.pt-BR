@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b4ea5bce539ff178130910297a47add38464e4d4
-ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
+ms.openlocfilehash: 1ab528740947fa7efdd0608cec309757c3bb5eb2
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42558521"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44689717"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>O que são os eventos ao vivo do Microsoft Teams ?
 
@@ -79,7 +79,7 @@ O objetivo do eCDN é pegar o conteúdo de vídeo da Internet e distribuir o con
 - [Gama](http://www.ramp.com)
 
 ### <a name="attendee-experience"></a>Experiência do participante 
-A experiência do participante é o aspecto mais importante de eventos dinâmicos e é essencial que os participantes participem do evento ao vivo sem ter problemas. A experiência do participante usa o Stream Player (para eventos produzidos no Teams) e o Azure Media Player (para eventos produzidos em um aplicativo ou dispositivo externo) e funciona em toda a área de trabalho, navegador e dispositivos móveis (iOS, Android). O Office 365 fornece o Yammer e o Teams como dois hubs de colaboração, e a experiência do Live articipante está integrada a essas ferramentas de colaboração. 
+A experiência do participante é o aspecto mais importante de eventos dinâmicos e é essencial que os participantes participem do evento ao vivo sem ter problemas. A experiência do participante usa o Stream Player (para eventos produzidos no Teams) e o Azure Media Player (para eventos produzidos em um aplicativo ou dispositivo externo) e funciona em toda a área de trabalho, navegador e dispositivos móveis (iOS, Android). O Microsoft 365 e o Office 365 fornecem o Yammer e o Teams como dois hubs de colaboração, e a experiência do Live articipante está integrada a essas ferramentas de colaboração. 
 
 ![Captura de tela mostrando a experiência do participante de eventos ao vivo](../media/teams-live-events-attendee.png "Captura de tela mostrando a experiência do participante de eventos ao vivo")
 

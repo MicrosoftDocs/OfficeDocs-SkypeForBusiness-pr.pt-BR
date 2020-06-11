@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.teamsandchannelpolicies.overview
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discover
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.create
-ms.openlocfilehash: ce387ec406a9ccfd6ee45a67f2613a45c219f21f
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: f046a21ee0ff0bf4fe49feea2c4a38702516227a
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44349695"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690957"
 ---
 # <a name="manage-teams-policies-in-microsoft-teams"></a>Gerenciar políticas do teams no Microsoft Teams
 
@@ -73,11 +73,11 @@ Para atribuir uma política a um usuário:
 2. Clique em **políticas**e, em seguida, ao lado de **políticas atribuídas**, clique em **Editar**.
 3. Em **políticas do teams**, selecione a política que você deseja atribuir e clique em **salvar**.
 
-Para atribuir uma política a vários usuários de uma só vez:
+Para atribuir uma política a vários usuários por vez:
 
-1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para **usuários**e procure os usuários ou filtre o modo de exibição para mostrar os usuários que você deseja.
-2. Na coluna **&#x2713;** (marca de seleção), selecione os usuários. Para selecionar todos os usuários, clique no &#x2713; (marca de seleção) na parte superior da tabela.
-3. Clique em **Editar configurações**, faça as alterações desejadas e, em seguida, clique em **aplicar**.  
+1. Na barra de navegação à esquerda do centro de administração do Microsoft Teams, vá para **Usuários** e, em seguida, pesquise os usuários ou filtre o modo de exibição para mostrar os usuários que você deseja.
+2. Na coluna **&#x2713;** (marca de seleção), selecione os usuários. Para selecionar todos os usuários, clique na (marca de seleção) &#x2713; na parte superior da tabela.
+3. Clique em **Editar configurações**, faça as alterações desejadas e, em seguida, clique em **Aplicar**.  
 
 Ou, você também pode fazer o seguinte:
 
@@ -94,7 +94,7 @@ Você pode querer atribuir uma política personalizada do teams a vários usuár
 Neste exemplo, atribuímos uma política de equipe chamada política de equipe de marketing a todos os usuários do grupo de marketing da contoso.  
 
 > [!NOTE]
-> Verifique se você se conectou primeiro ao módulo do PowerShell do Azure Active Directory e do módulo do PowerShell do Skype for Business seguindo as etapas em [conectar a todos os serviços do Office 365 em uma única janela do Windows PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window).
+> Verifique se você se conectou primeiro ao módulo do PowerShell do Azure Active Directory e do módulo do PowerShell do Skype for Business seguindo as etapas em [conectar a todos os serviços do Microsoft 365 ou do Office 365 em uma única janela do Windows PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window).
 
 Obtenha o GroupObjectId do grupo específico.
 ```PowerShell

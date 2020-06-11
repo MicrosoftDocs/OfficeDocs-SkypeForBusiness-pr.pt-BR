@@ -22,19 +22,19 @@ f1.keywords:
 ms.custom:
 - Legal
 - seo-marvel-mar2020
-description: Saiba mais sobre o período de discagem grátis para o plano de chamadas do Office 365 e conferência de áudio do Office 365 no Microsoft Teams.
-ms.openlocfilehash: 19ffdd1b0a634a2fb3294479b2163af38aefedf6
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+description: Saiba mais sobre o período de discagem gratuita do plano de chamadas do Microsoft 365 ou do Office 365 e do Office 365 audioconferência no Microsoft Teams.
+ms.openlocfilehash: 11788e00b1fa643f18beaca2b339a1770c6cd909
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779788"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690887"
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>Período complementar de discagem de audioconferência
 
 ## <a name="skype-for-business-pstn-services"></a>Serviços PSTN do Skype for Business
 
-Customers may use Office 365 Calling Plan and Office 365 Audio Conferencing as permitted in the Skype for Business Online PSTN Services Use Terms and Customer's volume licensing agreement. The PSTN Services Use Terms may be found at [Licensing Terms and Documentation](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=2&amp;Keyword=PSTN).
+Os clientes podem usar o Microsoft 365 ou o plano de chamadas do Office 365 e o plano de áudio do Office 365, conforme permitido nos termos de uso dos serviços PSTN do Skype for Business Online e no contrato de licenciamento por volume do cliente. Os termos de uso dos serviços PSTN podem ser encontrados em [termos de licenciamento e documentação](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=2&amp;Keyword=PSTN).
   
 ### <a name="end-of-complimentary-dial-out-period"></a>Fim do período de discagem grátis
 
@@ -44,7 +44,7 @@ Esta alteração não ocorrerá para os países onde a assinatura de audioconfer
 
 ### <a name="complimentary-dial-out-period-details"></a>Detalhes do período de discagem grátis
 
-Para os clientes que preenchem nosso serviço de audioconferência do Office 365, a Microsoft está fornecendo um benefício complementar adicional relacionado à discagem de reuniões organizadas por usuários com uma licença de assinatura do Office 365 Audio Conferencing até 2019 de novembro. Durante esse período de tempo, a Microsoft permite que os participantes da reunião ou participantes autorizados sejam definidos nas configurações da política de reunião para fazer chamadas discada de dentro da reunião para números de telefone não Premium nos países e regiões da 44 "zona A" listados abaixo. Esse benefício se aplica às licenças de assinatura mensal da conferência de áudio e não se estende às licenças de pagamento por minuto de audioconferência.
+Para os clientes que estão adotando o serviço de conferência de áudio do Microsoft 365 ou do Office 365, a Microsoft está fornecendo benefícios complementares adicionais relacionados à discagem de reuniões organizadas por usuários que atribuiram uma licença de assinatura do Microsoft 365 ou do Office 365 para audioconferência até o 2019 de novembro. Durante esse período de tempo, a Microsoft permite que os participantes da reunião ou participantes autorizados sejam definidos nas configurações da política de reunião para fazer chamadas discada de dentro da reunião para números de telefone não Premium nos países e regiões da 44 "zona A" listados abaixo. Esse benefício se aplica às licenças de assinatura mensal da conferência de áudio e não se estende às licenças de pagamento por minuto de audioconferência.
 
 Além disso, há um limite de 900 minutos durante o período de discagem complementar da seguinte forma:
 
@@ -58,7 +58,7 @@ Usuários com um local de uso de licenças (esse é o local do país de usuário
 - Todas as chamadas de saída para destinos fora da lista de países uma lista de países são cobradas por minuto usando créditos de comunicações em nossas tarifas publicadas para esse destino (o locatário fornecido configurou créditos de comunicações e atribuiu a licença de créditos de comunicação ao organizador da reunião).
 
 > [!NOTE]
-> Você pode monitorar o uso com o pool de minutos de discagem externa no centro de administração do Skype for Business. No centro de administração do Microsoft Teams & Skype, acesse**Reports** >  >  **portal herdado****pools de minutos PSTN**. Este pool de minutos complementares será rotulado no relatório como "chamadas de saída para a zona de países e regiões".
+> Você pode monitorar o uso com o pool de minutos de discagem externa no centro de administração do Skype for Business. No centro de administração do Microsoft Teams & Skype, acesse **portal herdado**  >  **Reports**  >  **pools de minutos PSTN**. Este pool de minutos complementares será rotulado no relatório como "chamadas de saída para a zona de países e regiões".
 
 As notificações por email serão enviadas para todos os administradores de locatários de um determinado cliente quando a utilização do pool de minutos de discagem de locatário do locatário tiver atingido 80% e 100%.
 

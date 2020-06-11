@@ -18,12 +18,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f4f536c6395e17e58f255ac3b88ccca0a092815c
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: cdcf054cfcf6b9d4f030ff1cf47bb9959a4cbcf8
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778557"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44689817"
 ---
 # <a name="how-sharepoint-online-and-onedrive-for-business-interact-with-microsoft-teams"></a>Como o SharePoint Online e o OneDrive for Business interagem com o Microsoft Teams
 
@@ -37,7 +37,7 @@ Cada equipe do Microsoft Teams tem um site de equipe no SharePoint Online, e cad
 
 Os arquivos de chat particulares são armazenados na pasta do OneDrive for Business do remetente, e as permissões são automaticamente concedidas a todos os participantes como parte do processo de compartilhamento de arquivos.
 
-Se os usuários não forem designados e habilitados com as licenças do SharePoint Online, eles não terão o armazenamento OneDrive for Business no Office 365. O compartilhamento de arquivos continuará a funcionar em canais padrão, mas os usuários não poderão compartilhar arquivos em chats sem o armazenamento do OneDrive for Business no Office 365.
+Se os usuários não forem atribuídos e habilitados com as licenças do SharePoint Online, eles não terão o armazenamento do OneDrive for Business no Microsoft 365 ou no Office 365. O compartilhamento de arquivos continuará a funcionar em canais padrão, mas os usuários não poderão compartilhar arquivos em chats sem o armazenamento do OneDrive for Business no Microsoft 365 ou no Office 365.
 
 Ao armazenar os arquivos na biblioteca de documentos do SharePoint Online e no OneDrive for Business, todas as regras de conformidade configuradas no nível tenant serão cumpridas. 
 

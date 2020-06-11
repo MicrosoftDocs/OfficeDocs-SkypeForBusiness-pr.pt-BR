@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Instalar o conector do Power BI para usar modelos de consulta CQD
-ms.openlocfilehash: 84177d98addfa3efc96db4e77148556a941a74dc
-ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
+ms.openlocfilehash: eb7d2bf412308b017f2583436dd792d64a084b20
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "44416861"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690927"
 ---
 # <a name="install-power-bi-connector-to-use-cqd-query-templates"></a>Instalar o conector do Power BI para usar modelos de consulta CQD
 
@@ -121,6 +121,8 @@ Apesar de fazer uso do Power BI, nem toda a funcionalidade do Power BI é compat
 4.  **Fazendo referência a dados armazenados em cache –** Atualmente, o Power BI não oferece suporte a referências a dados armazenados em cache de um conector DirectQuery de maneira alguma. Qualquer tentativa de fazer referência aos resultados de uma consulta resultará em uma nova consulta. 
 
 5.  **Filtragem de dados relativa –** É compatível com o conector CQD, mas somente com as dimensões *hora de início* e hora de *término* . Embora a dimensão de *Data* possa ser a opção óbvia para a filtragem de data relativa, a *Data* não é armazenada como um objeto de data/hora e, portanto, não oferece suporte a filtragem de data relativa no Power bi.
+
+6. **Suporte para a nuvem da Comunidade governamental (GCC) do governo-** Para os clientes no ambiente GCC, o conector do Power BI do CQD funcionará com o uso da área de trabalho do Power BI. O conector do Power BI CQD não é compatível no momento com o serviço do Power BI para clientes GCC.
 
 Observe que, embora o conector esteja em visualização, essas limitações provavelmente não mudarão com a versão final do conector. A maioria desses problemas é uma restrição do design do conector DirectQuery no Power BI ou fundamental para o design do modelo de dados CQD.
 

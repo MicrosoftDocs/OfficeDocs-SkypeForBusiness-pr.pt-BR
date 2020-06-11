@@ -21,16 +21,16 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: Saiba mais sobre o recurso de identificação de chamadas padrão do Office 365 (um número de telefone atribuído a um usuário), também conhecido como identificação da linha de chamada. Você pode alterar ou bloquear o recurso de identificação de chamadas de um usuário.
-ms.openlocfilehash: 3e19b1de929057880573c29ba75aa0ec1091139f
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+description: Saiba mais sobre o recurso de identificação de chamadas padrão do Microsoft 365 e do Office 365 (um número de telefone atribuído a um usuário), também conhecido como identificação da linha de chamada. Você pode alterar ou bloquear o recurso de identificação de chamadas de um usuário.
+ms.openlocfilehash: 059e92f04f3d4a5df73ed9201f1f784f2bd01f30
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780520"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691117"
 ---
 # <a name="set-the-caller-id-for-a-user"></a>Definir a identificação de chamadas para um usuário
-O sistema telefônico no Office 365 fornece uma ID de chamada padrão que é o número de telefone atribuído ao usuário. Você pode alterar ou bloquear a ID de chamadas (também chamada de ID da linha de chamada) de um usuário. Você pode saber mais sobre como usar o recurso de identificação de chamadas em sua organização, indo [como a identificação de chamadas pode ser usada em sua organização](how-can-caller-id-be-used-in-your-organization.md).
+O sistema telefônico do Microsoft 365 e do Office 365 fornece uma ID de chamada padrão que é o número de telefone atribuído ao usuário. Você pode alterar ou bloquear a ID de chamadas (também chamada de ID da linha de chamada) de um usuário. Você pode saber mais sobre como usar o recurso de identificação de chamadas em sua organização, indo [como a identificação de chamadas pode ser usada em sua organização](how-can-caller-id-be-used-in-your-organization.md).
   
 > [!TIP]
 > Você não pode bloquear as chamadas recebidas atualmente no Skype for Business Online. 
@@ -73,7 +73,7 @@ Para saber mais sobre essas configurações e como você pode usá-las, clique [
     
 4. Você também precisará instalar o módulo do Windows PowerShell para Skype for Business Online, que permite que você crie uma sessão remota do Windows PowerShell que se conecta ao Skype for Business Online. Esse módulo, que tem suporte apenas em computadores de 64 bits, pode ser baixado do Centro de Download da Microsoft em [Módulo do Windows PowerShell para o Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688). Se for solicitado, reinicie o seu computador.
     
-    Se precisar saber mais, confira [Conectar-se a todos os serviços do Office 365 usando uma única janela do Windows PowerShell](https://technet.microsoft.com/library/dn568015.aspx).
+    Se precisar saber mais, consulte [conectar a todos os serviços do Microsoft 365 ou do Office 365 em uma única janela do Windows PowerShell](https://technet.microsoft.com/library/dn568015.aspx).
     
 - **Iniciar uma sessão do Windows PowerShell**
     
@@ -91,7 +91,7 @@ Para saber mais sobre essas configurações e como você pode usá-las, clique [
     Import-PSSession $session
    ```
 
-Se você quiser mais informações sobre como iniciar o Windows PowerShell, consulte [conectar-se a todos os serviços do Office 365 em uma única janela do Windows PowerShell](https://technet.microsoft.com/library/dn568015.aspx) ou [configurar seu computador para Windows PowerShell](/skypeforbusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
+Se você quiser mais informações sobre como iniciar o Windows PowerShell, consulte [conectar-se a todos os serviços do Microsoft 365 ou do Office 365 em uma única janela do Windows PowerShell](https://technet.microsoft.com/library/dn568015.aspx) ou [configurar seu computador para Windows PowerShell](/skypeforbusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
     
 ### <a name="see-all-of-the-caller-id-policy-settings-in-your-organization"></a>Veja todas as configurações de ID de chamadas em sua organização
 
@@ -154,15 +154,15 @@ Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName $nul
 ```
 ## <a name="want-to-know-more-about-windows-powershell"></a>Deseja saber mais sobre o Windows PowerShell?
 
-- O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com o Windows PowerShell, você pode gerenciar o Office 365 e o Skype for Business Online usando um único ponto de administração, o que pode simplificar o seu trabalho diário quando tiver várias tarefas para fazer. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
+- O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com o Windows PowerShell, você pode gerenciar o Microsoft 365 ou o Office 365 e o Skype for Business online usando um único ponto de administração que pode simplificar o seu trabalho diário, quando você tem várias tarefas para fazer. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
     
   - [Uma introdução ao Windows PowerShell e ao Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
-  - [Seis motivos pelos quais você pode querer usar o Windows PowerShell para gerenciar o Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Seis motivos pelos quais você pode querer usar o Windows PowerShell para gerenciar o Microsoft 365 ou o Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
     
 - O Windows PowerShell tem muitas vantagens em velocidade, simplicidade e produtividade apenas usando o centro de administração do Microsoft 365, como quando você está usando alterações de configuração para muitos usuários de uma só vez. Saiba mais sobre essas vantagens nos seguintes tópicos:
     
-  - [Melhores maneiras de gerenciar o Office 365 com o Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Melhores maneiras de gerenciar o Microsoft 365 ou o Office 365 com o Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
   - [Usar o Windows PowerShell para gerenciar o Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525453)
     

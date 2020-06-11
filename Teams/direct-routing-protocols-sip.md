@@ -17,12 +17,12 @@ f1.keywords:
 description: Protocolos de roteamento direto
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a66213214457648ec0b699d77bdadc96113fba27
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 264e7e3de8031e8ac150c186078ff3d7ccff2f16
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780680"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691217"
 ---
 # <a name="direct-routing---sip-protocol"></a>Roteamento direto-protocolo SIP
 
@@ -30,7 +30,7 @@ Este artigo descreve como o roteamento direto implementa o protocolo de iniciaç
 
 ## <a name="processing-the-incoming-request-finding-the-tenant-and-user"></a>Processando a solicitação de entrada: encontrando o locatário e o usuário
 
-Em uma chamada de entrada, o proxy SIP precisa encontrar o locatário para o qual a chamada está destinada e localizar o usuário específico nesse locatário. O administrador do locatário pode configurar números não-DID, por exemplo, + 1001, em vários locatários. Portanto, é importante localizar o locatário específico no qual executar a pesquisa de número, pois os números não-DID podem ser iguais em várias organizações do Office 365.  
+Em uma chamada de entrada, o proxy SIP precisa encontrar o locatário para o qual a chamada está destinada e localizar o usuário específico nesse locatário. O administrador do locatário pode configurar números não-DID, por exemplo, + 1001, em vários locatários. Portanto, é importante localizar o locatário específico no qual realizar a pesquisa de número porque os números não-coversais podem ser iguais em várias organizações do Microsoft 365 ou do Office 365.  
 
 Esta seção descreve como o proxy SIP localiza o locatário e o usuário e executa a autenticação do SBC na conexão de entrada.
 
@@ -56,11 +56,11 @@ Ao receber o convite, o proxy SIP executa as seguintes etapas:
 
 2. Tente localizar um locatário usando o nome FQDN completo apresentado no cabeçalho do contato.  
 
-   Verifique se o nome FQDN do cabeçalho do contato (sbc1.adatum.biz) está registrado como um nome DNS em qualquer organização do Office 365. Se encontrado, a pesquisa do usuário é realizada no locatário que tem o FQDN do SBC registrado como um nome de domínio. Se não for encontrado, a etapa 3 será aplicada.   
+   Verifique se o nome FQDN do cabeçalho do contato (sbc1.adatum.biz) está registrado como um nome DNS em qualquer organização do Microsoft 365 ou do Office 365. Se encontrado, a pesquisa do usuário é realizada no locatário que tem o FQDN do SBC registrado como um nome de domínio. Se não for encontrado, a etapa 3 será aplicada.   
 
 3. A etapa 3 aplica-se apenas se a etapa 2 falhar. 
 
-   Remova a porção do host do FQDN, apresentada no cabeçalho do contato (FQDN: sbc12.adatum.biz, após remover a porção do host: adatum.biz) e verifique se esse nome está registrado como um nome DNS em qualquer organização do Office 365. Se encontrado, a pesquisa do usuário será realizada nesse locatário. Se não for encontrado, a chamada falhará.
+   Remova a porção do host do FQDN, apresentada no cabeçalho do contato (FQDN: sbc12.adatum.biz, após remover a porção do host: adatum.biz) e verifique se esse nome está registrado como um nome DNS em qualquer organização do Microsoft 365 ou do Office 365. Se encontrado, a pesquisa do usuário será realizada nesse locatário. Se não for encontrado, a chamada falhará.
 
 4. Usando o número de telefone apresentado na solicitação-URI, execute a pesquisa de número reverso dentro do locatário localizado na etapa 2 ou 3. Compare o número de telefone apresentado a um URI de SIP do usuário dentro do locatário encontrado na etapa anterior.
 
@@ -82,7 +82,7 @@ Esse nome também deve estar no (s) campo (s) nome (s) nome (s) do requerente ou
 
 O suporte para caracteres curinga está descrito no [RFC 2818, seção 3,1](https://tools.ietf.org/html/rfc2818#section-3.1). Criadas
 
-*"Os nomes podem conter o caractere \* curinga que é considerado para corresponder a um único componente de nome de domínio ou fragmento de componente. Por exemplo, \*. a.com corresponde a foo.a.com, mas não bar.foo.a.com. f\*. com corresponde a foo.com, mas não bar.com. "*
+*"Os nomes podem conter o caractere curinga \* que é considerado para corresponder a um único componente de nome de domínio ou fragmento de componente. Por exemplo, \* . a.com corresponde a foo.a.com, mas não bar.foo.a.com. f \* . com corresponde a foo.com, mas não bar.com. "*
 
 Se mais de um valor no cabeçalho do contato apresentado em uma mensagem SIP for enviado pelo SBC, somente a parte FQDN do primeiro valor do cabeçalho do contato será usada.
 

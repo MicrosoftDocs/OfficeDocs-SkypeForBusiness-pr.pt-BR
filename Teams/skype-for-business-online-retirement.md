@@ -18,12 +18,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 69cd9da8cee3c6cc8345c945e3e40288889d3547
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: dbfee03ac40203c8b76307521b9ec6726feacd2f
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905533"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691517"
 ---
 # <a name="skype-for-business-online-retirement"></a>Desativação do Skype for Business Online
 
@@ -31,7 +31,7 @@ O Skype for Business online será desativado em 31 de julho de 2021. Este artigo
  
 ## <a name="what-is-the-skype-for-business-retirement-plan"></a>O que é o plano de aposentadoria do Skype for Business?
 
-O Skype for Business online será desativado em 31 de julho de 2021 e, depois dessa data, o serviço não estará mais acessível. Entre agora e, atualmente, os clientes atuais do Skype for Business online não terão mudanças de serviço, e eles poderão continuar a adicionar novos usuários conforme necessário. No entanto, a partir de 1 ° de setembro de 2019, todos os novos clientes do Office 365 são integrados diretamente a equipes de chat, reuniões e chamadas. Observe que o serviço de consumidor do Skype e o Skype for Business Server não serão afetados por este anúncio.  
+O Skype for Business online será desativado em 31 de julho de 2021 e, depois dessa data, o serviço não estará mais acessível. Entre agora e, atualmente, os clientes atuais do Skype for Business online não terão mudanças de serviço, e eles poderão continuar a adicionar novos usuários conforme necessário. No entanto, a partir de 1 ° de setembro de 2019, todos os novos clientes do Microsoft 365 ou do Office 365 diretamente ao Teams para chat, reuniões e chamadas são onboards. Observe que o serviço de consumidor do Skype e o Skype for Business Server não serão afetados por este anúncio.  
 
 ## <a name="why-are-we-making-this-announcement-now"></a>Por que estamos fazendo este lançamento agora?
 

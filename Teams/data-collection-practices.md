@@ -23,12 +23,12 @@ ms.custom:
 - seo-marvel-mar2020
 hideEdit: true
 description: Saiba como a Microsoft coleta dados do censo, do uso e do erro para compreender o Microsoft Teams e os problemas e o uso do Skype for Business para planejar melhorias de produtos.
-ms.openlocfilehash: a7bc6066304bfc8d221678f0c37b484e602d1bbd
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: b7f1f7b63645adfb0cfa0c492a680059ef383402
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137351"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691527"
 ---
 # <a name="skype-for-business-and-microsoft-teams-data-collection-practices"></a>Práticas de coleta de dados do Skype for Business e do Microsoft Teams
 
@@ -104,7 +104,7 @@ O relatório de erros requer duas coisas:
 
 - A configuração da política de grupo DisableAutomaticSendTracing é definida como false no servidor ou no centro de administração do locatário (esse é o estado padrão). Consulte [Configurar políticas de inicialização do cliente](/skypeforbusiness/deploy/deploy-clients/configure-client-bootstrapping-policies) para obter mais informações.
     
-- Os usuários finais optam individualmente na guia Geral ( ![clique no ícone de engrenagem um ícone que representa um ](media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png) engrenagem e, em seguida, a caixa de diálogo **Opções** é aberta com a guia **geral** exibida) no cliente Skype for Business.
+- Os usuários finais optam individualmente na guia Geral (clique no ícone de engrenagem ![ um ícone que representa um engrenagem ](media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png) e, em seguida, a caixa de diálogo **Opções** é aberta com a guia **geral** exibida) no cliente Skype for Business.
     
  
 ![Captura de tela da caixa de seleção coleta de dados na caixa de diálogo opções](media/68bc8f77-deaa-478c-9977-a5259b88df3e.png)
@@ -115,7 +115,7 @@ Consulte [definir opções gerais no Skype for Business](https://support.office.
 
 Você pode ver [configurar sua rede para o Skype for Business online](https://support.office.com/article/81fa5e16-418d-4698-a5f0-e666211c5c66) para configurar sua rede.
 
-Se você estiver usando o Office 365 operado pela 21Vianet na China, consulte [configurar sua rede para o Skype for Business online operado pela 21vianet](https://support.office.com/article/d21f89b0-3afc-432e-b735-036b2432fdbf).
+Se você estiver usando o Microsoft 365 ou o Office 365 operado pela 21Vianet na China, consulte [configurar sua rede para o Skype for Business online operado pela 21vianet](https://support.office.com/article/d21f89b0-3afc-432e-b735-036b2432fdbf).
 
 ## <a name="related-topics"></a>Tópicos relacionados
 [Disponibilidade da Audioconferência e dos Planos de Chamadas por país e região](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

@@ -21,16 +21,16 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: Saiba como atribuir uma ID de conferência a um usuário no Microsoft Teams e o que os parâmetros de IDs de conferência devem estar.
-ms.openlocfilehash: 66d67693970f03326ae2acb58ba40310f567a370
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 4f24fb85479e6a52c8b2658b7a8a41beb0e1c6ad
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905613"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691147"
 ---
 # <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-microsoft-teams"></a>Visualizar e redefinir um ID de conferência atribuído a um usuário no Microsoft Teams
 
-Um ID de conferência é atribuído automaticamente a um usuário do Microsoft Teams quando ele está configurado para audioconferência no Office 365 e usa a Microsoft como o provedor de audioconferência. O ID de conferência atribuído é enviado no convite da reunião quando ela é agendada. Cada reunião agendada por um usuário terá um ID de conferência exclusivo atribuído. 
+Uma ID de conferência é atribuída automaticamente a um usuário do Microsoft Teams quando ele está configurado para videoconferência no Microsoft 365 ou no Office 365 e usa a Microsoft como provedor de serviços de audioconferência. O ID de conferência atribuído é enviado no convite da reunião quando ela é agendada. Cada reunião agendada por um usuário terá um ID de conferência exclusivo atribuído. 
   
 Ainda que um ID de conferência seja automaticamente criado e atribuído ao usuário, poderá haver momentos em que o usuário não desejará usá-lo ou você desejará defini-lo como um número específico, ou quando os usuários se esquecem ou pedem o ID de conferência. É possível usar o centro de administração do Microsoft Teams ou o Windows PowerShell para visualizar, alterar e redefinir o ID de conferência.
   
@@ -89,14 +89,14 @@ Consulte a [referência do Microsoft Teams PowerShell](https://docs.microsoft.co
     
 ## <a name="want-to-know-more-about-windows-powershell"></a>Deseja saber mais sobre o Windows PowerShell?
 
-O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com o Windows PowerShell, você pode gerenciar o Office 365 usando um ponto único de administração para simplificar seu trabalho diário quando houver várias tarefas a serem feitas. Para começar a usar o Windows PowerShell, consulte estes tópicos:
+O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com o Windows PowerShell, você pode gerenciar o Microsoft 365 ou o Office 365 usando um único ponto de administração que pode simplificar seu trabalho diário quando você tiver várias tarefas para fazer. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
     
   - [Por que você precisa usar o PowerShell do Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-  - [Melhores maneiras de gerenciar o Office 365 com o Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Melhores maneiras de gerenciar o Microsoft 365 ou o Office 365 com o Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
 Para obter mais informações sobre o Windows PowerShell, consulte a [referência do Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) para obter mais informações.
     
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Experimentar ou comprar audioconferência no Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[Experimentar ou comprar videoconferências no Microsoft 365 ou no Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

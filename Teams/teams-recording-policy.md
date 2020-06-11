@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2ef9ca9a5f03ecffe1460a24db186a266fd4a84c
-ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
+ms.openlocfilehash: 8bb6f5a682b816e04e03694788fbdcf48ad897b5
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44326668"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690987"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>Introdução à gravação baseada em políticas de equipe para chamadas & reuniões
 
@@ -217,7 +217,7 @@ Os parceiros a seguir estão no processo de certificação da solução para o M
 |CallCabinet |[https://www.callcabinet.com/compliance-microsoft-teams-call-recording](https://www.callcabinet.com/compliance-microsoft-teams-call-recording ) |
 |Bom |[https://www.niceactimize.com/compliance/ms-teams-recording.html](https://www.niceactimize.com/compliance/ms-teams-recording.html) |
 |Numonix |[https://numonix.cloud](https://numonix.cloud)    |
-|Caixa vermelha |[https://hubs.ly/H0qtN7Q0](https://hubs.ly/H0qtN7Q0)  |
+|Caixa vermelha |[https://www.redboxvoice.com/compliance-recording-for-microsoft-teams](https://www.redboxvoice.com/compliance-recording-for-microsoft-teams)  |
 |Verint |[https://www.verba.com/solutions/microsoft-teams-recording](https://www.verba.com/solutions/microsoft-teams-recording) |
 
 Esta lista será atualizada à medida que mais parceiros entrarem e atenderem aos critérios de certificação.

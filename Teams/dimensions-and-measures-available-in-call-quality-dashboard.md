@@ -22,12 +22,12 @@ ms.custom:
 - Reporting
 - seo-marvel-mar2020
 description: Obtenha informações detalhadas sobre as dimensões e medidas usadas pelo painel de qualidade de chamada do Microsoft Teams e do Skype for Business online.
-ms.openlocfilehash: 93e7857c2e63f7b13986898ac8e9973c2be189de
-ms.sourcegitcommit: 000515147632c6278bcda4505a1038014dda8e2f
+ms.openlocfilehash: 2dfef2dbe1bb94574911ab94d8da0cff50410592
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44232582"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691277"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard"></a>Dimensões e medidas disponíveis no painel de qualidade da chamada
 
@@ -121,8 +121,8 @@ As informações de dimensões são baseadas em parte em dados carregados no por
 | Primeiro Inside Corp  | Enumeração <br/>**Valores possíveis:** <br/> Dentro, fora  | Indica se o primeiro ponto de extremidade estava em uma sub-rede dentro da rede corporativa, com base no mapeamento de dados da sub-rede para o edifício do locatário. Por padrão, o ponto de extremidade é considerado externo. <br/> **Valor de exemplo:** Nessa | |
 | Segunda corporação interna  | Enumeração <br/> **Valores possíveis:** <br/> Dentro, fora | Indica se o segundo ponto de extremidade estava em uma sub-rede dentro da rede corporativa, com base no mapeamento de dados da sub-rede para o edifício do locatário. Por padrão, o ponto de extremidade é considerado externo. <br/>**Valor de exemplo:** Nessa  |  |
 |**Deployment**| | | |
-| ID do primeiro locatário  | Cadeia de caracteres  | ID do locatário do Office 365 para o primeiro ponto de extremidade. <br/> **Valor de exemplo:** 00000000 — 0000 -0000-0000 — 000000000000  | <br/>&bull;Não foi possível determinar a ID do locatário do primeiro ponto de extremidade. Isso pode indicar que o ponto de extremidade foi conectado a uma implantação local do Skype for Business Server.  |
-| ID do segundo locatário  | Cadeia de caracteres  | ID do locatário do Office 365 para o segundo ponto de extremidade. <br/> **Valor de exemplo:** 00000000 — 0000-0000-0000 — 000000000000  |  <br/>&bull;Não foi possível determinar a ID do locatário para o segundo ponto de extremidade. Isso pode indicar que o ponto de extremidade foi conectado a uma implantação local do Skype for Business Server.  |
+| ID do primeiro locatário  | Cadeia de caracteres  | ID do locatário para o primeiro ponto de extremidade. <br/> **Valor de exemplo:** 00000000 — 0000 -0000-0000 — 000000000000  | <br/>&bull;Não foi possível determinar a ID do locatário do primeiro ponto de extremidade. Isso pode indicar que o ponto de extremidade foi conectado a uma implantação local do Skype for Business Server.  |
+| ID do segundo locatário  | Cadeia de caracteres  | ID do locatário para o segundo ponto de extremidade. <br/> **Valor de exemplo:** 00000000 — 0000-0000-0000 — 000000000000  |  <br/>&bull;Não foi possível determinar a ID do locatário para o segundo ponto de extremidade. Isso pode indicar que o ponto de extremidade foi conectado a uma implantação local do Skype for Business Server.  |
 | Primeiro pool  | Cadeia de caracteres  | FQDN do pool do Skype for Business online atribuído ao primeiro ponto de extremidade. <br/> **Valor de exemplo:** pool1 <span></span> . Lync <span></span> . com  | <br/>&bull;Indica que o ponto de extremidade foi conectado a um Microsoft Teams ou ao Skype for Business. Este campo só será preenchido para fluxos usando implantações locais do Skype for Business Server. |
 | Segundo pool  | Cadeia de caracteres  | FQDN do pool do Skype for Business online atribuído ao segundo ponto de extremidade. <br/> **Valor de exemplo:** <span>pool1.Lync.com</span>   | &bull;Não foi possível determinar o pool do Skype for Business online para o segundo ponto de extremidade. Isso pode indicar que o ponto de extremidade foi conectado a uma implantação local do Skype for Business Server.  |
 | É federado  | Boolean  | Verdadeiro se os fluxos tivessem entre dois locatários federados; caso contrário, false.   | <br/>&bull;Não foi possível determinar se isso era um fluxo federado <br/>&bull;Alguns dados de sinalização não foram coletados   |
@@ -455,7 +455,7 @@ Os valores Boolianos são sempre true ou false. Em alguns casos, o verdadeiro ta
 
 As dimensões que são fornecidas como intervalo ou grupo de valores são mostradas usando o seguinte formato:
 
- _\<Cadeia de caracteres de ordem de classificação \> [ \< \>  -  limite superior inclusivo inferior, \< exclusivo\>_
+ _\<sort order string\> [\<lower bound inclusive\> - \<upper bound exclusive\>_
 
 Por exemplo, a dimensão duração (minutos) representa a duração da chamada em segundos com o valor informado como um intervalo de valores.
 
@@ -467,7 +467,7 @@ Por exemplo, a dimensão duração (minutos) representa a duração da chamada e
 |066: [3 – 4) |3 minutos < = duração do fluxo < 4 minutos |
 |  | |
 
-A \< cadeia de caracteres de ordem de classificação> é usada para controlar a ordem de classificação ao apresentar os dados e pode ser usada para filtragem. Por exemplo, um filtro sobre Duration (minutos) < "065", mostraria fluxos com duração inferior a 2 minutos (o ' 0 ' à esquerda é necessário para que o filtro funcione conforme o esperado).
+O \<sort order string> é usado para controlar a ordem de classificação ao apresentar os dados e pode ser usado para filtragem. Por exemplo, um filtro sobre Duration (minutos) < "065", mostraria fluxos com duração inferior a 2 minutos (o ' 0 ' à esquerda é necessário para que o filtro funcione conforme o esperado).
 
 > [!NOTE]
 > O valor real da cadeia de caracteres da ordem de classificação não é significativo.
@@ -480,7 +480,7 @@ Cadeias de caracteres usadas por CQD geralmente são derivadas de arquivos de da
 
 As dimensões que são fornecidas como um par de enumeração são mostradas usando o seguinte formato:
 
- _\<valor de enumeração de um ponto de extremidade \> : \< valor de enumeração do outro ponto de extremidade\>_
+ _\<enumeration value from one end point\> : \<enumeration value from the other endpoint\>_
 
 A ordem dos valores de enumeração é consistente, mas não reflete a ordem dos primeiros ou dos segundos pontos de extremidade.
 
@@ -515,10 +515,10 @@ Muitos valores de medida também podem ser usados como filtros. A tabela a segui
 |Taxa de captura de resposta total |Ratio |Taxa de chamadas com duração inferior a 5 segundos sobre o número total de chamadas. |
 |Porcentagem total de chamadas curtas |Porcentual |Porcentagem do total de chamadas com menos de 1 minuto de duração. |
 |Porcentagem total de falha de mídia |Porcentual |Porcentagem de todos os fluxos onde o caminho da mídia não pode ser estabelecido ou não terminou normalmente. |
-|Falha na mídia devido à contagem de fluxos de DPI do firewall |Número de fluxos |Número de fluxos que falharam ao serem estabelecidos devido ao bloqueio do equipamento de rede devido à inspeção profunda do pacote que não permite o tráfego do Skype for Business. Essas falhas geralmente indicam que um proxy, firewall ou outro dispositivo de segurança de rede não está configurado corretamente para acessar o endereço IP e as portas usadas pelo Skype for Business no Office 365. |
-|Porcentagem de falha de mídia de firewall PPP |Porcentual |Porcentagem de fluxos que falharam ao serem estabelecidos devido ao bloqueio do equipamento de rede devido à inspeção profunda do pacote que não permite o tráfego do Skype for Business. Essas falhas geralmente indicam que um proxy, firewall ou outro dispositivo de segurança de rede não está configurado corretamente para acessar o endereço IP e as portas usadas pelo Skype for Business no Office 365. |
-|Falha na mídia devido à contagem de fluxos de IP bloqueados do firewall |Número de fluxos |Número de fluxos que falharam ao estabelecer devido ao equipamento de rede bloqueando o acesso a servidores do Skype for Business. Essas falhas geralmente indicam que um proxy, firewall ou outro dispositivo de segurança de rede não está configurado corretamente para acessar o endereço IP e as portas usadas pelo Skype for Business no Office 365. |
-|Percentual de falha de mídia bloqueada por IP de firewall |Porcentual |Porcentagem de fluxos que falharam ao serem estabelecidos porque o equipamento de rede bloqueou o acesso aos servidores do Skype for Business. Essas falhas geralmente indicam que um proxy, firewall ou outro dispositivo de segurança de rede não está configurado corretamente para acessar o endereço IP e as portas usadas pelo Skype for Business no Office 365. |
+|Falha na mídia devido à contagem de fluxos de DPI do firewall |Número de fluxos |Número de fluxos que falharam ao serem estabelecidos devido ao bloqueio do equipamento de rede devido à inspeção profunda do pacote que não permite o tráfego do Skype for Business. Essas falhas geralmente indicam que um proxy, firewall ou outro dispositivo de segurança de rede não está configurado corretamente para acessar o endereço IP e as portas usadas pelo Skype for Business no Microsoft 365 ou no Office 365. |
+|Porcentagem de falha de mídia de firewall PPP |Porcentual |Porcentagem de fluxos que falharam ao serem estabelecidos devido ao bloqueio do equipamento de rede devido à inspeção profunda do pacote que não permite o tráfego do Skype for Business. Essas falhas geralmente indicam que um proxy, firewall ou outro dispositivo de segurança de rede não está configurado corretamente para acessar o endereço IP e as portas usadas pelo Skype for Business no Microsoft 365 ou no Office 365. |
+|Falha na mídia devido à contagem de fluxos de IP bloqueados do firewall |Número de fluxos |Número de fluxos que falharam ao estabelecer devido ao equipamento de rede bloqueando o acesso a servidores do Skype for Business. Essas falhas geralmente indicam que um proxy, firewall ou outro dispositivo de segurança de rede não está configurado corretamente para acessar o endereço IP e as portas usadas pelo Skype for Business no Microsoft 365 ou no Office 365. |
+|Percentual de falha de mídia bloqueada por IP de firewall |Porcentual |Porcentagem de fluxos que falharam ao serem estabelecidos porque o equipamento de rede bloqueou o acesso aos servidores do Skype for Business. Essas falhas geralmente indicam que um proxy, firewall ou outro dispositivo de segurança de rede não está configurado corretamente para acessar o endereço IP e as portas usadas pelo Skype for Business no Microsoft 365 ou no Office 365. |
 | A mídia falhou devido à contagem de outros fluxos|Número de fluxos| Número de fluxos onde o caminho da mídia não pode ser estabelecido entre os pontos de extremidade devido a um motivo não determinado/não classificado.| |
 | Outra porcentagem de falha de mídia|Porcentual| Porcentagem de fluxos onde o caminho da mídia não pode ser estabelecido entre os pontos de extremidade devido a um motivo não determinado/não classificado. ||
 | Contagem total de chamadas disponíveis para CDR|Número de fluxos|Número total de fluxos de mídia com informações de confiabilidade/diagnóstico disponíveis. Há um erro de até 0,2% para essa medida. Veja a observação abaixo para obter detalhes.|
