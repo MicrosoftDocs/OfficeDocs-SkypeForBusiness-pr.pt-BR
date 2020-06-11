@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.tooltip.allowsideloading
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - seo-marvel-mar2020
-ms.openlocfilehash: a0002ed8312f2a100ab61aa98923c7f4aeb0dc26
-ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
+ms.openlocfilehash: b368b0f81a4ce6bcdf3416ec597b702534e4a857
+ms.sourcegitcommit: 54ce623c4db792b5e33f5db00e575afc88776b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44326778"
+ms.lasthandoff: 06/11/2020
+ms.locfileid: "44698271"
 ---
 # <a name="manage-custom-app-policies-and-settings-in-microsoft-teams"></a>Gerencie políticas e configurações de aplicativo personalizado no Microsoft Teams
 
@@ -123,10 +123,10 @@ Digamos, por exemplo, que você queira permitir que apenas proprietários de equ
 
 |Configuração de aplicativo personalizado em toda a organização |Configuração do aplicativo personalizado da equipe |Política de aplicativo personalizada do usuário |Efeito  |
 |---------|---------|---------|---------|
-| Desativado    | Desativado    | Desativado     |A interação com todos os aplicativos personalizados está bloqueada para sua organização. Os aplicativos personalizados não podem ser carregados por qualquer pessoa. Você pode usar o PowerShell para remover o aplicativo personalizado.   |
-| Desativado     | Desativado     | Ativado        |A interação com todos os aplicativos personalizados está bloqueada para sua organização. Os aplicativos personalizados não podem ser carregados por qualquer pessoa. Você pode usar o PowerShell para remover o aplicativo personalizado.         |
-| Desativado    | Ativado        | Desativado        |A interação com todos os aplicativos personalizados está bloqueada para sua organização. Os aplicativos personalizados não podem ser carregados por qualquer pessoa. Você pode usar o Windows PowerShell para excluir aplicativos personalizados.         |
-| Desativado    | Ativado      | Ativado       |A interação com todos os aplicativos personalizados está bloqueada para sua organização. Os aplicativos personalizados não podem ser carregados por qualquer pessoa. Você pode usar o PowerShell para remover o aplicativo personalizado.         |
+| Desativado    | Desativado    | Desativado     |A interação com todos os aplicativos personalizados está bloqueada para sua organização. Aplicativos personalizados não podem ser carregados por qualquer pessoa, exceto por um administrador de serviço Teams ou um administrador global. Você pode usar o PowerShell para remover o aplicativo personalizado.   |
+| Desativado     | Desativado     | Ativado        |A interação com todos os aplicativos personalizados está bloqueada para sua organização. Aplicativos personalizados não podem ser carregados por qualquer pessoa, exceto por um administrador de serviço Teams ou um administrador global. Você pode usar o PowerShell para remover o aplicativo personalizado.         |
+| Desativado    | Ativado        | Desativado        |A interação com todos os aplicativos personalizados está bloqueada para sua organização. Aplicativos personalizados não podem ser carregados por qualquer pessoa, exceto por um administrador de serviço Teams ou um administrador global. Você pode usar o Windows PowerShell para excluir aplicativos personalizados.         |
+| Desativado    | Ativado      | Ativado       |A interação com todos os aplicativos personalizados está bloqueada para sua organização. Aplicativos personalizados não podem ser carregados por qualquer pessoa, exceto por um administrador de serviço Teams ou um administrador global. Você pode usar o PowerShell para remover o aplicativo personalizado.         |
 | Ativado    | Desativado       | Desativado         |  O usuário não pode carregar aplicativos personalizados.      |
 | Ativado     | Desativado       | Ativado         | Se o usuário for um proprietário da equipe, ele pode carregar aplicativos personalizados para a equipe. Se o usuário não for um proprietário da equipe, ele não poderá carregar aplicativos personalizados para a equipe. O usuário pode carregar aplicativos personalizados no contexto pessoal.     |
 | Ativado     | Ativado     | Desativado         | O usuário não pode carregar aplicativos personalizados.       |
