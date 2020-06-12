@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6f097563ae71c6d7f59f0469da98cfbf59f2ec82
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 3096673df464b02ae828423c5aebf8690a7ab853
+ms.sourcegitcommit: 862ba1d2b3bd4622b1b0baa15096c29c591cc6c4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690557"
+ms.lasthandoff: 06/11/2020
+ms.locfileid: "44702616"
 ---
 # <a name="hardware-requirements-for-microsoft-teams"></a>Requisitos de hardware para o Microsoft Teams
 
@@ -43,8 +43,8 @@ Todos os requisitos das seções a seguir se aplicam aos aplicativos da área de
 |Versão do .NET    |  Exige .NET 4.5 CLR ou posterior       |
 |Vídeo    |  Câmera de vídeo USB 2.0       |
 |Dispositivos    |   Câmera de notebook, microfone e alto-falantes padrão    | 
-|Chamadas de vídeo e reuniões | <ul><li>Para ter uma experiência melhor com chamadas com vídeo do 1:1, recomendamos o uso de um computador com processador de núcleo único e 4,0 GB de RAM (ou superior). </li><li>Para ter uma experiência melhor com reuniões online, recomendamos o uso de um computador com processador de núcleo duplo e 8,0 GB de RAM (ou superior). </li><li>Os **efeitos de vídeo em segundo plano** opcionais exigem um processador com suporte a Advanced vector Extensions 2 (AVX2) ou que executa o Windows 10. </li><li>Para obter uma lista de codificadores e decodificadores não compatíveis, confira [Recomendações do driver de decodificador e codificador de hardware](hardware-decoders-and-encoders.md).</li><li>Ingressar em uma reunião usando a detecção de proximidade em uma sala do Microsoft Teams requer o Bluetooth LE, que exige que o Bluetooth esteja habilitado no dispositivo cliente e para clientes Windows é necessário o cliente do Teams de 64 bits. Ela não está disponível em clientes do Teams de 32 bits.</li></ul> |
-|Eventos ao vivo do Teams | Se estiver produzindo um evento do Teams em tempo real, recomendamos o uso de um computador com um processador Core i5 Kaby Lake, 4 GB de RAM (ou superior) e o codificador de hardware. Para obter uma lista de codificadores e decodificadores não compatíveis, confira [Recomendações do driver de decodificador e codificador de hardware](hardware-decoders-and-encoders.md). |
+|Chamadas de vídeo e reuniões | <ul><li>Para ter uma experiência melhor com chamadas com vídeo do 1:1, recomendamos o uso de um computador com processador de núcleo único e 4,0 GB de RAM (ou superior). </li><li>Para ter uma experiência melhor com reuniões online, recomendamos o uso de um computador com processador de núcleo duplo e 8,0 GB de RAM (ou superior). </li><li>Os **efeitos de vídeo em segundo plano** opcionais não são suportados em processadores sem um conjunto de instruções AVX2 em execução no Windows 8,1 ou versões anteriores.</li><li>Para obter uma lista de codificadores e decodificadores não compatíveis, confira [Recomendações do driver de decodificador e codificador de hardware](hardware-decoders-and-encoders.md).</li><li>Ingressar em uma reunião usando a detecção de proximidade em uma sala do Microsoft Teams requer o Bluetooth LE, que exige que o Bluetooth esteja habilitado no dispositivo cliente e para clientes Windows é necessário o cliente do Teams de 64 bits. Ela não está disponível em clientes do Teams de 32 bits.</li></ul> |
+|Eventos ao vivo do Teams | Se você estiver produzindo um evento ao vivo do Teams, recomendamos usar um computador com um processador Core i5 KABY Lake, 4,0 GB de RAM (ou superior) e codificador de hardware. Para obter uma lista de codificadores e decodificadores não compatíveis, confira [Recomendações do driver de decodificador e codificador de hardware](hardware-decoders-and-encoders.md). |
 
 ## <a name="hardware-requirements-for-teams-on-a-mac"></a>Requisitos de hardware para o Teams no Mac
 
@@ -57,7 +57,7 @@ Todos os requisitos das seções a seguir se aplicam aos aplicativos da área de
 |Sistema operacional  |    Mac OS X 10.11 El Capitan ou posterior     |
 |Vídeo  |    Webcam compatível      |
 |Voz    |  Microfone e alto-falantes compatíveis, headset com microfone ou dispositivos equivalentes.       |
-|Chamadas de vídeo e reuniões | <ul><li>Para ter uma experiência melhor com chamadas com vídeo do 1:1, recomendamos o uso de um computador com processador de núcleo único e 4,0 GB de RAM (ou superior). </li><li>Para ter uma experiência melhor com reuniões online, recomendamos o uso de um computador com processador de núcleo duplo e 8,0 GB de RAM (ou superior). </li><li>Os **efeitos de vídeo em segundo plano** opcionais exigem um processador com suporte a Advanced vector Extensions 2 (AVX2), com suporte nos mais recentes dispositivos Mac do 2013 e mais tarde. </li><li>Para obter uma lista de codificadores e decodificadores não compatíveis, confira [Recomendações do driver de decodificador e codificador de hardware](hardware-decoders-and-encoders.md).</li><li>Ingressar em uma reunião usando a detecção de proximidade em uma sala do Microsoft Teams não está disponível no Mac OS.</li></ul> |
+|Chamadas de vídeo e reuniões | <ul><li>Para ter uma experiência melhor com chamadas com vídeo do 1:1, recomendamos o uso de um computador com processador de núcleo único e 4,0 GB de RAM (ou superior). </li><li>Para ter uma experiência melhor com reuniões online, recomendamos o uso de um computador com processador de núcleo duplo e 8,0 GB de RAM (ou superior).</li><li>Para obter uma lista de codificadores e decodificadores não compatíveis, confira [Recomendações do driver de decodificador e codificador de hardware](hardware-decoders-and-encoders.md).</li><li>Ingressar em uma reunião usando a detecção de proximidade em uma sala do Microsoft Teams não está disponível no Mac OS.</li></ul> |
 
 ## <a name="hardware-requirements-for-teams-on-linux"></a>Requisitos de hardware para o Teams no Lixus
 
@@ -72,7 +72,7 @@ Todos os requisitos das seções a seguir se aplicam aos aplicativos da área de
 |Vídeo    |  Câmera de vídeo USB 2.0       |
 |Dispositivos    |   Câmera de notebook, microfone e alto-falantes padrão    | 
 |Voz    |  Microfone e alto-falantes compatíveis, headset com microfone ou dispositivos equivalentes.       |
-|Chamadas de vídeo e reuniões | <ul><li>Para ter uma experiência melhor com chamadas com vídeo do 1:1, recomendamos o uso de um computador com processador de núcleo único e 4,0 GB de RAM (ou superior). </li><li>Para ter uma experiência melhor com reuniões online, recomendamos o uso de um computador com processador de núcleo duplo e 8,0 GB de RAM (ou superior).  </li><li>O efeito de vídeo opcional **desfocar tela de fundo** exige um processador compatível com Advanced Vector Extensions 2 (AVX2), compatível com a maioria de Mac 2013 ou posterior. </li><li>Para obter uma lista de codificadores e decodificadores não compatíveis, confira [Recomendações do driver de decodificador e codificador de hardware](hardware-decoders-and-encoders.md).</li><li>Ingressar em uma reunião usando a detecção de proximidade em uma sala do Microsoft Teams não está disponível no Linux.</li></ul>
+|Chamadas de vídeo e reuniões | <ul><li>Para ter uma experiência melhor com chamadas com vídeo do 1:1, recomendamos o uso de um computador com processador de núcleo único e 4,0 GB de RAM (ou superior). </li><li>Para ter uma experiência melhor com reuniões online, recomendamos o uso de um computador com processador de núcleo duplo e 8,0 GB de RAM (ou superior).</li><li>Para obter uma lista de codificadores e decodificadores não compatíveis, confira [Recomendações do driver de decodificador e codificador de hardware](hardware-decoders-and-encoders.md).</li><li>Ingressar em uma reunião usando a detecção de proximidade em uma sala do Microsoft Teams não está disponível no Linux.</li></ul>
 |Distribuições do Linux compatíveis | Ubuntu 16.04 LTS, 18.04 LTS, Fedora 30 Workstation, RHEL 8 Workstation, CentOS 8
 
 ## <a name="hardware-requirements-for-teams-on-mobile-devices"></a>Requisitos de hardware para o Teams em dispositivos móveis

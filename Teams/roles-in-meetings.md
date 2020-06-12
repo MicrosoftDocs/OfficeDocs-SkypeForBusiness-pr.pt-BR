@@ -17,12 +17,12 @@ description: Saiba mais sobre os recursos de apresentador e participante em uma 
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: 11c5858532ade4fd4ed00f7c8f6d1d0c94baeb2d
-ms.sourcegitcommit: 1a6b4efad1e6a958cdbaae4b0e2e231145c9658f
+ms.openlocfilehash: c8433d4caa0defbe83114ac4027c10b6bf61a725
+ms.sourcegitcommit: 862ba1d2b3bd4622b1b0baa15096c29c591cc6c4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44321730"
+ms.lasthandoff: 06/11/2020
+ms.locfileid: "44702686"
 ---
 <a name="presenter-and-participant-capabilities-in-a-teams-meeting"></a>Recursos de apresentador e participante em uma reunião do Teams
 ======================================================
@@ -92,10 +92,10 @@ Um participante convidado é uma pessoa de outra empresa que foi convidado a ace
 
 Um participante externo é uma pessoa que está usando o Teams em outra organização e que foi convidado a participar de uma reunião, mas não tem acesso a outros recursos compartilhados da sua organização. Os participantes-usuários externos são exibidos na lista de reuniões com o mesmo nome de identidade que eles têm em sua própria organização. Leia mais sobre um participante externo em [Comunicar-se com usuários de outras empresas](communicate-with-users-from-other-organizations.md#external-access).
 
-| Reunião (pode ser adicionada a uma equipe como apenas para convidados) ||
+| Reunião ||
 |-|-|-|
 | **Recurso** |||
-| Chat | N/A |
+| Chat | Sim |
 | Anotações da Reunião | N/A |  
 | Quadro de comunicações | N/A |
 | Gravando | N/A |  
@@ -110,7 +110,7 @@ O participante anônimo é como um usuário externo, mas a identidade dele não 
 | Reunião  | | |||
 |---------|----------------|----------------|---------------------|------------|--------------|
 | **Recurso**        | Antes da reunião | Na reunião | Após a reunião |
-| Chat | N/A | Não | N/A |
+| Chat | Não disponível | Sim | Não disponível |
 | Anotações da Reunião | N/A | Não | N/A |
 | Quadro de comunicações | N/A | Não | N/A |
 | Gravando | N/A | Não | N/A |
