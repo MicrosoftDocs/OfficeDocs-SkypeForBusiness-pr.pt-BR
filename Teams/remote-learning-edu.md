@@ -18,17 +18,23 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b22bef34defe69edf4fe330e0afb0f0b93e5e8e6
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 0bd7c88a08dfdfa76ad560a56e524b7061d240f1
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 06/09/2020
-ms.locfileid: "44638520"
+ms.locfileid: "44666273"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>Introdução ao Microsoft Teams para aprendizado remoto
 
+Para obter uma visão geral sobre como fazer a transição para aprendizagem remota e recursos para ajudá-lo a começar, confira nossa [home page de aprendizado remoto](https://www.microsoft.com/education/remote-learning).
+
+Recursos para ajudar os professores e alunos com o aprendizado remoto estão disponíveis no [Ensino e aprendizado remoto no Office 365 Education](https://support.office.com/article/remote-teaching-and-learning-in-office-365-education-f651ccae-7b65-478b-8366-51bb884025c4).
+
+Este artigo aborda as etapas que você deve seguir para configurar a sua instituição educacional para aprendizagem remota.
+
 > [!NOTE]
-> Este artigo é um excelente recurso para a sua instituição educacional configurar o aprendizado remoto. Se você é um educador, líder de escola ou profissional de TI, esses recursos podem ajudar:
+> Se você é um educador, líder de escola ou profissional de TI, esses recursos podem ajudar:
 >
 > - Tenha acesso à toda a sua escola ou universidade rapidamente no Teams com a [**Introdução ao pager**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-for-education-getting-started-1-pager.pdf?raw=true).
 > - Baixe [**Como começar a usar o Teams**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/Teams-for-Education-ITAdmin-get-started-guide.pptx?raw=true): um guia para profissionais de TI com práticas úteis ao gerenciamento de segurança e alterações.

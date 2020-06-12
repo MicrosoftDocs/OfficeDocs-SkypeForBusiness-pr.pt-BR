@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: eac771d87003ab00adbe3c99adb1193c4ff12779
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 0d142be3a8d5f245cda857601995653d6ca6d240
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 06/09/2020
-ms.locfileid: "44638840"
+ms.locfileid: "44665283"
 ---
 # <a name="plan-for-lifecycle-management-in-teams"></a>Planejar o gerenciamento de ciclo de vida no Teams
 
@@ -41,7 +41,7 @@ Os conceitos e as definições a seguir afetam as decisões que você toma para 
 
 **Microsoft Teams**
 
-Uma _equipe_ é um conjunto de pessoas, conteúdo e ferramentas que possibilitam a colaboração. Uma equipe define quem são seus membros e as permissões e as políticas que se aplicam a eles. As equipes são criadas nos Grupos do Microsoft 365 e as alterações na associação ao grupo do Microsoft 365 são sincronizadas com a equipe. Assim como outros Grupos do Microsoft 365, as equipes são provisionadas automaticamente com uma caixa de correio do Exchange, um site do SharePoint, um bloco de anotações do OneNote e outros ativos do Office 365. Saiba mais sobre os [Grupos do Microsoft 365](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
+Uma _equipe_ é um conjunto de pessoas, conteúdo e ferramentas que possibilitam a colaboração. Uma equipe define quem são seus membros e as permissões e as políticas que se aplicam a eles. As equipes são criadas com o Microsoft 365 Groups e as alterações feitas na assinatura de grupo do Microsoft 365 devem ser sincronizadas com a equipe. Assim como outros Grupos do Microsoft 365, o Teams é provisionado automaticamente com uma caixa de correio do Exchange, um site do SharePoint, um bloco de anotações do OneNote e outros ativos do Microsoft 365 ou Office 365. Saiba mais sobre os [Grupos do Microsoft 365](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
 
 **Canais**
 

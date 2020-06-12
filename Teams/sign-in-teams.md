@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 63bfd0cb9fe4292b180dfc6a0c7852b3c90a8bc4
-ms.sourcegitcommit: 624bd511b96cf213483d3ea8f27b20a91d955550
+ms.openlocfilehash: 32e231fbcef2991e13ec5b496e6ed61eb677ee20
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44330536"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665753"
 ---
 <a name="sign-in-to-microsoft-teams-using-modern-authentication"></a>Entrar no Microsoft Teams usando a autenticação moderna
 ==========================
@@ -69,7 +69,7 @@ Para sair do Teams, os usuários podem clicar na imagem do perfil na parte super
 
 ## <a name="urls-and-ip-address-ranges"></a>URLs e intervalos de endereços IP
 
-O Teams exige conectividade com a Internet. Para entender os pontos de extremidade que devem ser acessados pelos clientes que usam o Teams nos planos do Office 365, no Governo e em outras nuvens, leia [URLs e intervalos de endereços IP do Office 365](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges).
+O Teams exige conectividade com a Internet. Para entender os pontos de extremidade que devem ser acessados pelos clientes utilizando o Teams em planos do Microsoft 365 ou Office 365, bem como no governo e em outras nuvens, leia [URLs e intervalos de endereços IP do Office 365](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges).
 
 > [!IMPORTANT]
 > O Teams atualmente exige o acesso (porta TCP 443) para o serviço Google ssl.gstatic.com (<https://ssl.gstatic.com)> para todos os usuários; tal exigência é obrigatória mesmo que você não esteja usando o Gstatic. O Teams removerá esse requisito em breve (início de 2020), e atualizaremos este artigo de forma adequada neste momento.
