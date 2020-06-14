@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e9b4b5e9d862596e91bcb6d30112e5f70a9c8263
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 2ba5201781743567d4c94cad3b065f21e6578e9a
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637640"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690537"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Limites e especificações para o Microsoft Teams
 
@@ -101,7 +101,7 @@ Os nomes de canal não podem conter os seguintes caracteres ou palavras.
 
 |||
 |---------|---------|
-|Caracteres     | ~ # % & * { } + / \ : < > ? &#124; ' " ..        |
+|Caracteres     | ~ # % & * { } + / \ : < > ? &#124; ' " , .        |
 |Caracteres nesses intervalos    | 0 a 1F<br>80 a 9F        |
 |Palavras     | forms, CON, CONIN$, CONOUT$, PRN, AUX, NUL, COM1 a COM9, LPT1 a LPT9, desktop.ini,  &#95;vti&#95;|
 

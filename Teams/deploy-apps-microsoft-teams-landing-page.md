@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 83e5c452cd2e9056818059c5f0b1ddcdeca2c235
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 10d17aedd0a653b6fc5bd24946ede5da09dc4647
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43901946"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691327"
 ---
 # <a name="apps-bots--connectors-in-microsoft-teams"></a>Aplicativos, bots e conectores no Microsoft Teams
 
@@ -63,11 +63,11 @@ Os aplicativos são aceitos pelos usuários e gerenciados pelo administrador ou 
 
 ### <a name="bots-for-private-chats-and-channels"></a>Bots para chats privados e canais
 
-Os bots são programas automatizados que respondem a consultas ou fornecem atualizações e notificações sobre detalhes que os usuários consideram interessantes ou sobre os quais desejam se manter informados. Os bots permitem que os usuários interajam com serviços de nuvem, como gerenciamento de tarefas, agendamento e pesquisa através de um chat no Teams. O Teams oferece suporte a bots em chats privados e canais. Os administradores podem controlar se o uso de bots é permitido em uma organização do Office 365.
+Os bots são programas automatizados que respondem a consultas ou fornecem atualizações e notificações sobre detalhes que os usuários consideram interessantes ou sobre os quais desejam se manter informados. Os bots permitem que os usuários interajam com serviços de nuvem, como gerenciamento de tarefas, agendamento e pesquisa através de um chat no Teams. O Teams oferece suporte a bots em chats privados e canais. Os administradores podem controlar se o uso de bots é permitido em uma organização do Microsoft 365 ou do Office 365.
 
 | Pergunte a si mesmo | Action |
 |--------------|--------|
-|Desejo permitir bots personalizados na minha organização do Office 365?|Para saber mais sobre a adição de bots, confira [Adicionar bots para canais e chats privados no Microsoft Teams](add-bots.md). Para obter mais informações sobre a ativação ou desativação de bots personalizados, confira [Configurações de administrador para aplicativos no Microsoft Teams](admin-settings.md).|
+|Desejo permitir bots personalizados na minha organização?|Para saber mais sobre a adição de bots, confira [Adicionar bots para canais e chats privados no Microsoft Teams](add-bots.md). Para obter mais informações sobre a ativação ou desativação de bots personalizados, confira [Configurações de administrador para aplicativos no Microsoft Teams](admin-settings.md).|
 |||
 
 ### <a name="built-in-and-custom-tabs"></a>Guias internas e personalizadas
@@ -76,16 +76,16 @@ Os proprietários e membros da equipe podem incluir guias em um canal, chat priv
 
 | Pergunte-se | Action |
 |--------------|--------|
-|Desejo permitir guias personalizadas na minha organização do Office 365?|Para obter mais informações, confira [Configurar as guias internas e personalizadas no Teams](built-in-custom-tabs.md).|
+|Desejo permitir guias personalizadas na minha organização?|Para obter mais informações, confira [Configurar as guias internas e personalizadas no Teams](built-in-custom-tabs.md).|
 |||
 
-### <a name="office-365-and-custom-connectors"></a>Office 365 e conectores personalizados
+### <a name="custom-connectors"></a>Conectores personalizados
 
 Os conectores mantêm sua equipe atualizada com conteúdo e atualizações de serviços que você usa frequentemente diretamente em um canal. Com conectores, os usuários do Teams podem receber atualizações de serviços populares, como Twitter, Trello, Wunderlist, GitHub e Azure DevOps Services em chats do Teams.
 
 | Pergunte a si mesmo | Ação |
 |--------------|--------|
-|Quero que os usuários criem conectores personalizados?|Para saber mais, confira [Usar o Office 365 e conectores personalizados no Teams](office-365-custom-connectors.md).|
+|Quero que os usuários criem conectores personalizados?|Para saber mais, confira [Usar conectores personalizados no Teams](office-365-custom-connectors.md).|
 |||
 
 ## <a name="additional-deployment-decisions"></a>Decisões adicionais de implantação
@@ -94,9 +94,9 @@ Convém alterar essas configurações, com base nas necessidades da organizaçã
 
 ### <a name="activity-reports"></a>Relatórios de atividades
 
-Você pode usar relatórios de atividade para ver como os usuários em sua organização estão usando o Teams. Por exemplo, se alguns usuários ainda não estiverem usando o Teams, é provável que não saibam por onde começar ou não entendam como podem usá-lo para se tornarem mais produtivos e colaborativos. Sua organização pode usar os relatórios de atividades para decidir onde priorizar os esforços de treinamento e comunicação. Para exibir relatórios de atividades, você deve ser um administrador global no Office 365, administrador de serviço do Teams ou administrador do Skype for Business.
+Você pode usar relatórios de atividade para ver como os usuários em sua organização estão usando o Teams. Por exemplo, se alguns usuários ainda não estiverem usando o Teams, é provável que não saibam por onde começar ou não entendam como podem usá-lo para se tornarem mais produtivos e colaborativos. Sua organização pode usar os relatórios de atividades para decidir onde priorizar os esforços de treinamento e comunicação. Para exibir relatórios de atividades, você deve ser um administrador global no Microsoft 365 e Office 365, administrador de serviço do Teams ou administrador do Skype for Business.
 
-| Pergunte-se | Ação |
+| Pergunte a si mesmo | Ação |
 |--------------|--------|
 | <br>Quem precisa ver os relatórios de atividade e eles têm a função correta para visualizá-los? |<ul><li>Se não quiser atribuir uma função de administrador a um usuário, você poderá [atribuir a função de leitor de relatórios](teams-activity-reports.md#reports-reader-role).</li><li>Confira [Funções e permissões](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles) e [Exibir e atribuir funções](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-manage-roles-portal) para informar-se sobre como atribuir funções de administrador no Azure Active Directory.</li></ul> |
 |||

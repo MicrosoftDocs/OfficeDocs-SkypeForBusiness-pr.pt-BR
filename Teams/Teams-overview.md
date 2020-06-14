@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: LolaJ
-description: Encontre o caminho certo para implementar o Microsoft Teams em sua organização. Conheça a infraestrutura do Teams e a utilização do Teams com o Office 365.
+description: Encontre o caminho certo para implementar o Microsoft Teams em sua organização. Conheça a infraestrutura do Teams e a utilização do Teams com o Microsoft 365 ou com o Office 365.
 localization_priority: Priority
 search.appverid: MET150
 ms.collection:
@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.allteamsdocuments
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 421a849c37d1500ef3542f8a5c203069177eb1df
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: f4c9fc53608d1072558931ee2ba424d6d0334e31
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637670"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44689767"
 ---
 # <a name="welcome-to-microsoft-teams"></a>Bem-vindo ao Microsoft Teams
 Se você é o administrador do Microsoft Teams em sua organização, está no lugar certo. Se você está pronto para começar a usar o Teams, comece em [Como implementar o Teams](How-to-roll-out-teams.md).
@@ -38,7 +38,7 @@ Se você está procurando a Ajuda do Teams para o usuário final, clique em **Aj
 
 ## <a name="teams-architecture"></a>Arquitetura do Teams
 
-O Teams foi elaborado com base nos grupos do Microsoft 365, no Microsoft Graph e na mesma segurança, conformidade e gerenciamento de nível corporativo que o restante do Office 365. O Teams utiliza as identidades armazenadas no Azure Active Directory (Azure AD). O Teams continua trabalhando mesmo quando você está offline ou com condições de rede desejadas.
+O Teams foi elaborado com base nos grupos do Microsoft 365, no Microsoft Graph e na mesma segurança, conformidade e gerenciamento de nível corporativo que o restante do Microsoft 365 e do Office 365. O Teams utiliza as identidades armazenadas no Azure Active Directory (Azure AD). O Teams continua trabalhando mesmo quando você está offline ou com condições de rede desejadas.
 
 Para ver onde o Teams se encaixa no contexto do Microsoft 365, confira este cartaz de arquitetura: [O Teams como parte do Microsoft 365](teams-architecture-solutions-posters.md#teams-as-part-of-microsoft-365)
 
@@ -47,11 +47,11 @@ Quando você cria uma equipe, é criado o seguinte:
 - Um site do [SharePoint Online](sharepoint-onedrive-interact.md) e uma biblioteca de documentos para armazenar arquivos da equipe
 - Uma caixa de correio e um calendário compartilhados do [Exchange Online](exchange-teams-interact.md)
 - Um bloco de anotações do OneNote
-- Vínculos com outros aplicativos do Office 365, como o Planner e o Power BI
+- Vínculos com outros aplicativos do Microsoft 365 e do Office 365, como o Planner e o Power BI
 
 Quando você cria uma equipe com base em um grupo existente, a associação, o site, a caixa de correio e o bloco de anotações desse grupo são exibidos no Teams. Para saber mais, confira este pôster: [Grupos no Microsoft 365 para Arquitetos TI](teams-architecture-solutions-posters.md#groups-in-microsoft-365)
 
-Para personalizar e estender o Teams, adicione aplicativos de terceiros por meio de [aplicativos, bots e conectores](deploy-apps-microsoft-teams-landing-page.md). Com o Teams, você pode incluir pessoas de fora da organização [adicionando-as como convidadas](guest-access.md) a uma equipe ou um canal. Como parte do Office 365, o Teams oferece uma [plataforma de desenvolvimento](https://docs.microsoft.com/microsoftteams/platform) robusta para que você possa criar o hub de trabalho em equipe necessário para sua organização. 
+Para personalizar e estender o Teams, adicione aplicativos de terceiros por meio de [aplicativos, bots e conectores](deploy-apps-microsoft-teams-landing-page.md). Com o Teams, você pode incluir pessoas de fora da organização [adicionando-as como convidadas](guest-access.md) a uma equipe ou um canal. Como parte do Microsoft 365 e do Office 365, o Teams oferece uma [plataforma de desenvolvimento](https://docs.microsoft.com/microsoftteams/platform) robusta para que você possa criar o hub de trabalho em equipe necessário para sua organização. 
 
 > [!TIP]
 > Para um mergulho profundo na arquitetura do Teams, assista aos vídeos na [Academia da Plataforma do Teams](https://aka.ms/TeamsPlatformAcademy).
@@ -70,17 +70,17 @@ Para saber mais:
 - [Gerenciar o Teams durante a transição para o novo centro de administração do Teams](manage-teams-in-modern-portal.md)
 - [Gerenciar os recursos do Teams no Microsoft 365 ou no Office 365](enable-features-office-365.md)
 
-Para ficar por dentro do que será lançado para o Microsoft Teams e todos os outros produtos e serviços do Office 365 em sua organização, confira o [Centro de mensagens](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter) e o [Roteiro do Teams](https://www.microsoft.com/microsoft-365/roadmap?rtc=1&filters=Microsoft%20Teams). Você receberá comunicados sobre recursos novos e atualizados, alterações planejadas e problemas para se manter informado e preparado. 
+Para ficar por dentro do que será lançado para o Teams e todos os outros produtos e serviços do Microsoft 365 e do Office 365 em sua organização, confira o [Centro de mensagens](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter) e o [Roteiro do Teams](https://www.microsoft.com/microsoft-365/roadmap?rtc=1&filters=Microsoft%20Teams). Você receberá comunicados sobre recursos novos e atualizados, alterações planejadas e problemas para se manter informado e preparado. 
 
 ## <a name="upgrade-from-skype-for-business-to-teams"></a>Atualização do Skype for Business para o Teams
-O Teams é o principal cliente para comunicações inteligentes no Office 365 e, eventualmente, ele substituirá o Skype for Business Online. Para ficar por dentro dos novos recursos que chegam ao Teams, consulte o [Roteiro do Microsoft 365](https://aka.ms/O365Roadmap). Para complementar os recursos de bate-papo e mensagens persistentes, o Teams oferece uma experiência abrangente de reunião e chamada, com voz e vídeo totalmente integrados. Confira [Agora o Microsoft Teams é uma solução completa de reuniões e chamadas](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-is-now-a-complete-meeting-and-calling-solution/ba-p/236042) no Blog do Microsoft Teams.
+O Teams é o principal cliente para comunicações inteligentes no Microsoft 365 e no Office 365, e eventualmente substituirá o Skype for Business online. Para ficar por dentro dos novos recursos que chegam ao Teams, consulte o [Roteiro do Microsoft 365](https://aka.ms/O365Roadmap). Para complementar os recursos de bate-papo e mensagens persistentes, o Teams oferece uma experiência abrangente de reunião e chamada, com voz e vídeo totalmente integrados. Confira [Agora o Microsoft Teams é uma solução completa de reuniões e chamadas](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-is-now-a-complete-meeting-and-calling-solution/ba-p/236042) no Blog do Microsoft Teams.
 
 Se você está executando o Skype for Business e está pronto para atualizar para o Microsoft Teams ou se está executando o Skype for Business e o Microsoft Teams lado a lado e está pronto para mudar totalmente para o Microsoft Teams, temos ferramentas, dicas e diretrizes para garantir o sucesso de sua transição. Para saber mais, confira [Atualizar para o Teams](upgrade-start-here.md).
 
-## <a name="teamwork-and-office-365"></a>Trabalho em equipe e o Office 365
-Cada equipe é diferente. Não há uma abordagem única para a colaboração. O Office 365 foi projetado para atender às necessidades exclusivas de cada equipe, capacitando as pessoas a se comunicarem, colaborarem e alcançarem mais com aplicativos integrados de propósito específico.
+## <a name="teamwork"></a>Trabalho em equipe
+Cada equipe é diferente. Não há uma abordagem única para a colaboração. O Microsoft 365 e Office 365 foram projetados para atender às necessidades exclusivas de cada equipe, capacitando as pessoas a se comunicarem, colaborarem e alcançarem mais com aplicativos integrados de propósito específico.
 
-Ao decidir quais aplicativos e serviços do Office 365 usar, pense no trabalho de sua organização e nos tipos de conversas que as equipes precisam ter. 
+Ao decidir quais aplicativos e serviços do Microsoft 365 ou do  Office 365 usar, pense no trabalho de sua organização e nos tipos de conversas que as equipes precisam ter. 
 
 - O **Teams**, como o hub do trabalho em equipe, em que as pessoas, inclusive pessoas de fora da organização, podem se conectar e colaborar ativamente em tempo real para fazer as coisas. Tenha uma conversa exatamente onde o trabalho está acontecendo, ao criar um documento em coautoria, realizar uma reunião ou trabalhar em conjunto em outros aplicativos e serviços. O Microsoft Teams é o lugar ideal para ter conversas informais, iterar rapidamente em um projeto, trabalhar com arquivos de equipe e colaborar em entregas compartilhadas. 
 

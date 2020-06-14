@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 908ed1b8f0baccaa4d4bc69de777ee92b67a4cc7
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 01f57601e7dbf59286c5a92a45b09f835b21c131
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665933"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691297"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Conferências e reuniões no Microsoft Teams
 
@@ -63,11 +63,9 @@ Para dimensionar reuniões na organização, você deve garantir que todos os us
 - Portas TCP 80 e 443 de saída dos clientes que usarão o Teams
 - Portas UDP 3478 a 3481 de saída dos clientes que usarão o Teams
 
-Use a ferramenta [NetworkTestingCompanion](https://www.powershellgallery.com/packages/NetworkTestingCompanion/1.5.2) para confirmar se os locais de rede estão prontos para o tráfego de voz e vídeo, que dará suporte à experiência de reuniões.
-
 | Pergunte a si mesmo | Ação |
 |--------------|--------|
-|Minha rede está pronta para a implantação de reuniões do Teams? | Para verificar se a rede está pronta, confira:<ul><li>[Preparar a rede da organização para o Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/prepare-network)</li><li>[URLs e intervalos de endereços IP do Office 365](https://docs.microsoft.com/MicrosoftTeams/office-365-urls-ip-address-ranges)</li></ul> |
+|Minha rede está pronta para a implantação de reuniões do Teams? | Para verificar se a rede está pronta, confira:<ul><li>[Preparar a rede da organização para o Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/prepare-network)</li><li>[URLs e intervalos de endereços IP](https://docs.microsoft.com/MicrosoftTeams/office-365-urls-ip-address-ranges)</li></ul> |
 |||
 
 ## <a name="core-deployment-decisions"></a>Decisões importantes sobre implantação

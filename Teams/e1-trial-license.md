@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 39e1177f4e400b0be085bb2c822bc645fc77cf7c
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 7b8cd74a8ac6c06a1bc51368009051dbacaca962
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042388"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691347"
 ---
 <a name="manage-the-office-365-e1-trial"></a>Gerenciar a avaliação do Office 365 E1
 ==============================
@@ -85,7 +85,7 @@ Para saber mais, confira [Descrição do serviço do Microsoft Teams](https://do
 
 - Se você deseja remover essa licença por meio do PowerShell, confira: [Remover licenças de contas de usuário com o Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell)
 
-- Se você quiser remover essa licença por meio do portal de administração, confira: [remover licenças de usuários no Office 365 para empresas](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/remove-licenses-from-users?view=o365-worldwide)
+- Se você quiser remover essa licença por meio do portal de administração, confira: [Remover licenças de usuários no Office 365 para empresas](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/remove-licenses-from-users?view=o365-worldwide)
 
 
 ## <a name="related-topics"></a>Tópicos relacionados
@@ -96,6 +96,6 @@ Para saber mais, confira [Descrição do serviço do Microsoft Teams](https://do
 
 [Gerenciar a experiência do Teams Exploratory](teams-exploratory.md)
 
-[Office 365 para instituições sem fins lucrativos](https://www.microsoft.com/microsoft-365/nonprofit/office-365-nonprofit)
+[Microsoft 365 ou Office 365 para entidades sem fins lucrativos](https://www.microsoft.com/microsoft-365/nonprofit/office-365-nonprofit)
 
 [Obter assistência na implantação de equipes](https://go.microsoft.com/fwlink/?linkid=780698)

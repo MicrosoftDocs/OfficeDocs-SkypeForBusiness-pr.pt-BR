@@ -18,12 +18,12 @@ description: Neste artigo, você aprenderá sobre os fatores a serem considerado
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e997b667b02ef2c3b68e5c751b619098e9e740e4
-ms.sourcegitcommit: a7c823f61d9ab88424bad924113d780ce11e509f
+ms.openlocfilehash: ae4b4c06d6340c89cf41e271db8bcd359f27d211
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44224234"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44689727"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planejar eventos ao vivo no Microsoft Teams
 
@@ -46,7 +46,7 @@ Estas são as licenças que devem ser atribuídas para produzir ou apresentar um
 > [!NOTE]
 > Neste momento, não há nenhum plano do Microsoft 365 Small Business, que possa ser usado para criar e realizar eventos ao vivo no Teams.
 
-É importante saber que uma licença do Office 365 é necessária para participar de um evento ao vivo como um usuário autenticado, mas esse requisito depende do método de produção utilizado:
+É importante saber que uma licença do Microsoft 365 ou do Office 365 é necessária para participar de um evento ao vivo como um usuário autenticado, mas esse requisito depende do método de produção utilizado:
 
 - **Para os eventos produzidos no Teams**  O usuário deve receber uma licença do Teams.
 - **Para os eventos produzidos com um aplicativo ou dispositivo externo** O usuário deve receber uma licença do Stream.
@@ -97,7 +97,7 @@ A tabela a seguir destaca os principais recursos oferecidos em eventos ao vivo e
 |Tamanho máximo da audiência |10.000 participantes |10.000 participantes<sup>1</sup> |10.000 participantes<sup>1</sup> |
 |Duração máxima do evento ao vivo |4 horas |4 horas |4 horas |
 |Número máximo de apresentadores e produtores em um evento ao vivo |10 <sup>2</sup> |10 <sup>2</sup> |10 <sup>2</sup> |
-|Número máximo de eventos ao vivo simultâneos por organização do Office 365 |15  | 15  | 15  |
+|Número máximo de eventos ao vivo simultâneos por organização do Microsoft 365 ou do Office 365 |15  | 15  | 15  |
 |Criação de evento ao vivo |   Portal de Transmissão de Reunião do Skype |Teams, Yammer via Teams | Teams, Yammer via Teams, Stream |
 |Envolvimento do público – Yammer  |&#x2714; |&#x2714; (experiência integrada) |&#x2714; (experiência integrada) |
 |Envolvimento do público – Perguntas e Respostas Moderadas  |&#x2714;  |&#x2714; |&#x2714; |
@@ -117,7 +117,7 @@ A tabela a seguir destaca os principais recursos oferecidos em eventos ao vivo e
 |Legendas em tempo real |&#x2714; |&#x2714; |&#x274C; |
 |Legendas em gravações de eventos ao vivo |&#x2714; |&#x2714; |&#x2714; |
 |Controles de DVR dos participantes (pausar, retroceder) |&#x2714; |&#x2714; |&#x2714; |
-|Suporte a eCDN de parceiro |&#x2714; (Hive, Kollective, Ramp) |&#x2714; (Hive, Kollective, Ramp) |&#x2714; (Hive, Kollective, Ramp) |
+|Suporte a eCDN de parceiro |&#x2714; (Kollective, Ramp) |&#x2714; (Kollective, Ramp) |&#x2714; (Hive, Kollective, Ramp) |
 |Relatório de participação posterior à transmissão para Produtores |&#x2714; |&#x2714; |&#x274C; |
 |Análise de opiniões do público – Votação ao vivo e sondagens  |&#x2714; (Microsoft Pulse) |&#x274C; |&#x274C; |
 

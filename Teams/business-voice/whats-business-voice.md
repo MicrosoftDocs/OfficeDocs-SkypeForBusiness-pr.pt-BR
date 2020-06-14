@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Visão geral do Microsoft 365 Business Voice e como ele pode ajudar pequenas e médias empresas a se comunicarem com mais eficiência.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 828d05e68e84145868f4e58156fbe86ec8f14912
-ms.sourcegitcommit: 42b9b921d28cb02f537f0598653835193eb3f42f
+ms.openlocfilehash: 2e4798a8e449bf3ee9128938305795f617099af1
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44170672"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690817"
 ---
 # <a name="what-is-microsoft-365-business-voice"></a>O que é o Microsoft 365 Business Voice?
 
@@ -35,10 +35,9 @@ O Business Voice é ideal para você se sua organização tiver 300 ou menos pes
 - Microsoft 365 Business Basic
 - Microsoft 365 Business Standard
 - Microsoft 365 Business Premium
-- Microsoft Apps para pequenos e médios negócios 
-- Microsoft Apps para grandes empresas
 - Microsoft 365 F1
-- Office 365 F1
+- Microsoft 365 F3
+- Office 365 F3
 - Microsoft e Office 365 Enterprise E1, E3 ou E5
 - Microsoft 365 e Office 365 Education A1, A3 ou A5
 - Microsoft 365 e Office 365 Government G1, G3 ou G5 (GCC apenas)

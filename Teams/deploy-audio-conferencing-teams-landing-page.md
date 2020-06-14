@@ -19,12 +19,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c706fdde4f9634cc67b334cf19d0e9d3325f6ec8
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: f01c95ac248d470cc0384e42b6948c45bb99c8bf
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776576"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691317"
 ---
 # <a name="learn-how-to-deploy-audio-conferencing-in-microsoft-teams"></a>Saiba como implantar audioconferência no Microsoft Teams
 
@@ -44,8 +44,8 @@ Antes de implantar a Audioconferência no Teams, considere o seguinte:
 |Pergunte-se|Ação |
 |------------|-------|
 |A Audioconferência está disponível para meu país/região?|Para descobrir se a Audioconferência está disponível em seu país/região, confira [Disponibilidade de Audioconferência e Planos de Chamadas por país e região](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).|
-|Meus usuários têm licenciamento adequado para audioconferência do Teams?|As licenças de audioconferência estão disponíveis como parte da assinatura do Office 365 E5 ou como um serviço complementar à assinatura do Microsoft 365 Business Standard, E1 ou E3. <ul><li>Para obter e atribuir licenças, confira [Experimentar ou comprar a Audioconferência no Office 365](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365) e [Atribuir ou remover licenças do Office 365 para empresas](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).</li><li> Para saber mais, leia [Licenciamento do complemento do Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md). </li><li>Para ver quais recursos de nuvem estão incluídos em cada plano do Office 365, confira os artigos [Opções de Licença com base nos planos](teams-add-on-licensing/office-365-business-premium.md).</li></ul>|
-|Preciso comprar Créditos de Comunicação para os usuários que recebem licenças de Audioconferência?|Para saber mais, leia [O que são Créditos de Comunicação?](what-are-communications-credits.md) e, em seguida, confira a seção [Créditos de Comunicações](#communications-credits) abaixo.|
+|Meus usuários têm licenciamento adequado para audioconferência do Teams?|As licenças de audioconferência estão disponíveis como parte da assinatura do Microsoft 365 ou do Office 365 E5 ou como um serviço complementar à assinatura do Microsoft 365 Business Standard, E1 ou E3. <ul><li>Para obter e atribuir licenças, confira [Experimentar ou comprar a Audioconferência no Microsoft 365 ou no Office 365](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365) e [Atribuir ou remover licenças do Microsoft 365 Apps para Pequenos e Médios negócios](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).</li><li> Para saber mais, leia [Licenciamento do complemento do Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md). </li><li>Para ver quais recursos de nuvem estão incluídos em cada plano, confira os artigos [Opções de Licença com base nos planos](teams-add-on-licensing/office-365-business-premium.md).</li></ul>|
+|Preciso comprar Créditos de Comunicação para os usuários que recebem licenças de audioconferência?|Para saber mais, leia [O que são Créditos de Comunicação?](what-are-communications-credits.md) e, em seguida, confira a seção [Créditos de Comunicações](#communications-credits) abaixo.|
 |||
 
 
@@ -69,9 +69,9 @@ O Teams fornece um conjunto personalizado de funções de administrador que pode
 
 As pontes de conferência permitem que as pessoas liguem para reuniões usando um telefone. Você pode usar as configurações padrão em uma ponte de conferência ou alterar o número de telefone (chamada gratuita e tarifada) e outras configurações, como o PIN ou os idiomas serão usados.
 
-Confira [Audioconferência no Office 365](audio-conferencing-in-office-365.md) para saber mais.
+Confira [Audioconferências](audio-conferencing-in-office-365.md) para saber mais.
 
-|Pergunte-se|Ação |
+|Pergunte a si mesmo|Ação |
 |------------|-------|
 |Preciso adicionar novos números de ponte de conferência?| Para adicionar novos números, confira [Obter números de telefone de serviço](/microsoftteams/getting-service-phone-numbers).|
 |Será necessário modificar as configurações da ponte?|Para alterar essas configurações de ponte, confira [Alterar as configurações de uma ponte de Audioconferência](change-the-settings-for-an-audio-conferencing-bridge.md).|
@@ -136,7 +136,7 @@ Como administrador, você pode usar os controles de chamadas de saída para rest
 
 ### <a name="dial-plans"></a>Planos de discagem
 
-Um plano de discagem, um Sistema de Telefonia no Office 365, é um conjunto de regras de normalização que converte números telefônicos discados em um formato alternativo (normalmente no formatoE.164) para autorização de chamada e roteamento de chamada.
+Um plano de discagem, um Sistema de Telefonia no Microsoft 365 ou Office 365, é um conjunto de regras de normalização que converte números telefônicos discados em um formato alternativo (normalmente no formato E. 164) para autorização e roteamento de chamada.
 
 Para obter mais informações sobre os planos de discagem, confira [O que são os planos de discagem?](what-are-dial-plans.md)
 
