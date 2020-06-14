@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: O administrador pode saber qual controlador de borda de sessão (SBCs) foi certificado para roteamento direto.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1a76ed1e3a386aef7d6b6216b279a1e712e20f88
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 5b6e79b38ae92c3a2387b91e0d254f99f8412da5
+ms.sourcegitcommit: d664ef6994e242bf18a29dac31286c78c163478a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691267"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "44710795"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Lista de controladores de borda da sessão certificados para Roteamento Direto
 
@@ -71,7 +71,11 @@ A tabela a seguir lista os dispositivos certificados para Roteamento Direto.
 |                                                                                                                   |      AP 6350           |    &#10004;   |    &#10004;    |     8.3.0.0.1  |   <ul> <li> [Roteamento de localização dinâmica da largura de banda](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[Serviço de roteamento de emergência inentrada (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Inentrada do gateway de emergência (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>  |  &#10004;  |                                            
 |                                                                                                                    |      VME           |    &#10004;    |    &#10004;    |     8.3.0.0.1   |   <ul> <li> [Roteamento de localização dinâmica da largura de banda](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[Serviço de roteamento de emergência inentrada (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Inentrada do gateway de emergência (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>  |  &#10004;  |    
 |                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      3,20 compatível (4,0 recomendado)        |     |    |    
-|                     [Metaswitch](https://www.metaswitch.com/products/core-network/perimeta-sbc)                               |     Perimeta SBC        |     &#10004;   |  |      4,7      |     |    |    
+|                     [Metaswitch](https://www.metaswitch.com/products/core-network/perimeta-sbc)                               |     Perimeta SBC        |     &#10004;   |  |      4,7      |     |    |  
+|                     [Cisco](http://www.cisco.com/go/cube)                               |     Elemento de borda unificada da Cisco (cubo) para roteadores de serviços integrados da série 1000        |     &#10004;   |  |      IOS XE de Amsterdã 17.2.1 r      |     |   |  
+|                                   |     Elemento de borda unificada da Cisco (cubo) para roteadores de serviços integrados da série 4000        |     &#10004;   |  |      IOS XE de Amsterdã 17.2.1 r      |     |    |  
+|                                   |     Elemento de borda unificada da Cisco (cubo) para roteador de serviços de nuvem da série 1000V       |     &#10004;   |  |      IOS XE de Amsterdã 17.2.1 r      |     |    |  
+|                                 |     Elemento de borda unificada da Cisco (cubo) para roteadores de serviços de agregação da série 1000      |     &#10004;   |  |      IOS XE de Amsterdã 17.2.1 r      |     |    |  
 
 A tabela a seguir lista os dispositivos que são verificados quanto à interoperabilidade entre os dispositivos de roteamento direto e analógico.
 

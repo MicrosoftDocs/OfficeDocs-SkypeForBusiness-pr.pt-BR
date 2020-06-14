@@ -16,12 +16,12 @@ description: Orientação prática para a implantação de recursos de voz na nu
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4f2cfcc4be8641fd11a0f22ba090fc5c71a3a240
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 3fd2a8c7c34b52b8724d72110e281e754d9c02b0
+ms.sourcegitcommit: d664ef6994e242bf18a29dac31286c78c163478a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690897"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "44710805"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Gravação de reuniões na nuvem do Microsoft Teams
 
@@ -113,7 +113,9 @@ Para saber mais sobre o local em que os dados são armazenados nos serviços do 
 
 ### <a name="turn-on-or-turn-off-recording-transcription"></a>Ativar ou desativar a gravação de transcrição
 
-Quando os usuários gravam suas reuniões do Teams, eles podem confirmar se uma transcrição deve ser gerada automaticamente após o registro da reunião. Se você desativou o recurso de transcrição para o organizador da reunião e o iniciador de gravação, o iniciador de gravação não conseguirá optar por transcrever as gravações de reunião.
+Esta configuração controla se as legendas e os recursos de transcrição estão disponíveis durante a reprodução de gravações de reunião. Se você desativar essa opção, as opções de **pesquisa** e **CC** não estarão disponíveis durante a reprodução de uma gravação de reunião. A pessoa que iniciou a gravação precisa desta configuração ativada para que a gravação também inclua transcrição.
+
+Observe que a transcrição para reuniões gravadas no momento só tem suporte para os usuários que têm o idioma no Microsoft Teams definido como Inglês e quando o inglês está falado na reunião.
 
 Você pode usar o centro de administração do Microsoft Teams ou o PowerShell para definir uma política de reunião do Teams para controlar se o iniciador de gravação tem uma opção para transcrever a gravação da reunião.
 

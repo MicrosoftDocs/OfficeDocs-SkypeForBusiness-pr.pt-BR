@@ -18,12 +18,12 @@ appliesto:
 ms.reviewer: ''
 description: Saiba como personalizar uma política de mensagens segura que pode incluir confirmações de leitura e notificações de prioridade.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 95a4d258f35827d4ad30ee1e6b2938e6331efcc2
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: b4bd8032cce78e388d221108ebdfc08a16b8afd1
+ms.sourcegitcommit: 5dff3217760cf881d1d96e5d5c76101c90afcbc0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905523"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "44724885"
 ---
 # <a name="get-started-with-secure-messaging-for-healthcare-organizations"></a>Introdução às Mensagens Seguras para Organizações de Saúde
 
@@ -52,8 +52,6 @@ Para aplicativos de saúde, escolha o **usuário controlado** ou **ativado para 
 *Exemplo de uso com confirmações de leitura:* Jakob Roth, um paciente de alto risco, é admitido para o hospital.Sófia Krause é um enfermeira que trabalha como parte da equipe inter-disciplinara (IDT) de funcionários médicos, incluindo especialistas diferentes, é atribuído como o principal coordenador responsável por este paciente.  Sófia inicia um chat em grupo com um conjunto de médicos e outros repacientes que trabalharão com o paciente para coordenar o cuidado e iniciar uma triagem de emergência.As hojes e médicos se comunicam e colaboram com o plano de atendimento do paciente em todo o processo de coordenação de atendimento.  Mensagens importantes e urgentes são enviadas pelo 1:1 e conversas de chat em grupo. Sófia usa a funcionalidade de confirmações de leitura para determinar se as mensagens enviadas solicitando suporte são entregues e lidas pelos médicos ou às mensagens de destino. Os resultados do paciente de Jakob são praticamente ótimos, e ele fica mais cedo, porque a equipe de cuidado comunica-se tranqüilamente.
 
 ## <a name="send-urgent-messages-using-priority-notifications"></a>Enviar mensagens urgentes usando as notificações de prioridade
-
-[!INCLUDE [pri-message-offer](../../includes/pri-message-offer.md)]
 
 Um usuário pode marcar uma mensagem como *urgente* ao enviar mensagens de chat para outros usuários. Esse recurso ajuda a equipe do hospital a enviar uma outra pessoa quando um incidente crítico exige sua atenção. Ao contrário *das mensagens comuns comuns, as* [notificações de prioridade](https://support.microsoft.com/article/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462) notificam os usuários a cada dois minutos por até 20 minutos ou até que a mensagem seja retirada e lida pelo destinatário, maximizando a probabilidade de que a mensagem seja acionada de forma oportuna.
 

@@ -16,16 +16,28 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Notas de versão para recursos de administração do Microsoft Teams.
-ms.openlocfilehash: f8bf1c14e8dca43eccfa2bfdde209eca43fc24fe
-ms.sourcegitcommit: 862ba1d2b3bd4622b1b0baa15096c29c591cc6c4
+ms.openlocfilehash: 99f92af75e90ef568bf98ccb6587d0dad0da1591
+ms.sourcegitcommit: d664ef6994e242bf18a29dac31286c78c163478a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "44702715"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "44710815"
 ---
 # <a name="release-notes-for-microsoft-teams-admin-features"></a>Notas de versão para recursos de administração do Microsoft Teams
 
 Estas notas de versão fornecem informações sobre novos recursos de administração do Microsoft Teams.
+
+## <a name="june-11-2020"></a>11 de junho de 2020
+
+### <a name="call-queues---presence-based-routing"></a>Filas de chamadas – roteamento baseado em presença
+
+Quando desativado, as chamadas serão roteadas para agentes que optaram por receber chamadas, independentemente do estado de presença. Quando ativado, os agentes aceitos só receberão chamadas quando o estado de presença estiver disponível. [Saiba mais](../create-a-phone-system-call-queue.md).
+
+
+## <a name="june-10-2020"></a>10 de junho de 2020
+
+### <a name="call-queues---longest-idle-routing"></a>Filas de chamadas – roteamento de ociosidade mais longo
+Quando você escolhe isso, as chamadas recebidas serão roteadas para agentes de chamadas que ainda não responderam às chamadas recebidas pelo período de tempo mais longo. [Saiba mais](../create-a-phone-system-call-queue.md).
 
 ## <a name="june-1-2020"></a>1 de junho de 2020
 
@@ -90,12 +102,6 @@ Crie marcas e atribua pessoas a elas para que você possa @mention um grupo, fun
 ### <a name="policy-based-recording-for-teams-calls-and-meetings"></a>Gravação baseada em políticas para chamadas e reuniões do teams
 
 Esse recurso permite gravações automáticas com base em políticas de chamadas de equipe e reuniões por fornecedores de software certificados pela Microsoft.
-
-## <a name="march-29-2020"></a>29 de março de 2020
-
-### <a name="call-queues---presence-based-routing"></a>Filas de chamadas – roteamento baseado em presença
-
-Quando desativado, as chamadas serão roteadas para agentes que optaram por receber chamadas, independentemente do estado de presença. Quando ativado, os agentes aceitos só receberão chamadas quando o estado de presença estiver disponível. [Saiba mais](../create-a-phone-system-call-queue.md).
 
 ## <a name="march-25-2020"></a>25 de março de 2020
 
