@@ -19,19 +19,19 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6571da01408893423ae6672dccd80ba65a55cbaf
-ms.sourcegitcommit: 6e24ea8aa9cccf8a1a964c8ed414ef5c7de3dc17
+ms.openlocfilehash: 0e13055fb9c4f3f30b1810a24a20aea25c9eb652
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44158968"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44689657"
 ---
 # <a name="security-and-microsoft-teams"></a>Segurança e Microsoft Teams
 
 > [!IMPORTANT]
 > O modelo de serviço do Teams está sujeito a alterações para melhorar a experiência do cliente. Por exemplo, o acesso padrão ou os tempos de expiração do token de atualização podem estar sujeitos a modificações para melhorar a resiliência de desempenho e autenticação para as pessoas que usam o Teams. Quaisquer alterações são feitas com a meta de manter o Teams seguro e confiável por padrão.
 
-Microsoft Teams, como parte do serviço do Office 365 (M365), segue todas as práticas recomendadas e os procedimentos de segurança, como segurança de nível de serviço, defesa profunda, controles do cliente dentro do serviço, aumento da segurança e melhores práticas operacionais. Para obter todos os detalhes, consulte a [Central de Confiabilidade da Microsoft](https://microsoft.com/trustcenter).
+Microsoft Teams, como parte do serviço do Microsoft 365 e do Office 365, segue todas as práticas recomendadas e os procedimentos de segurança, como segurança de nível de serviço por meio de defesa profunda, controles do cliente dentro do serviço, aumento da segurança e melhores práticas operacionais. Para obter todos os detalhes, consulte a [Central de Confiabilidade da Microsoft](https://microsoft.com/trustcenter).
 
 ## <a name="trustworthy-by-design"></a>Confiável por Ddesign
 
@@ -63,7 +63,7 @@ O Teams atenua esses ataques ao executar a proteção de rede DDOS do Azure e ao
 
 A Espionagem pode ocorrer quando um atacante ganha acesso ao caminho dos dados na rede e tem a habilidade para monitorar e ler o tráfego. Isso também é chamado de bisbilhotar ou falsificar. Se o tráfego está no texto plano, o atacante pode lê-lo quando o atacante ganha acesso ao caminho. Um exemplo é um ataque realizado no controle de um router no caminho dos dados.
 
-O Teams usa TLS (MTLS mútuo) para comunicações do servidor no O365 e TLS de clientes do serviço, tornando esse ataque muito difícil ou impossível de ser realizado no período em que uma determinada conversa pode ser atacada. TLS autentica todas as partes e criptografa todo tráfego. Isso não impede a espionagem, mas o atacante não pode ler o tráfego, a não ser que quebre a criptografia.
+O Teams usa TLS mútuo (MTLS) para comunicações do servidor no Microsoft 365 e Office 365 e também usa TLS de clientes para o serviço, tornando esse ataque muito difícil ou impossível de ser realizado no período em que uma determinada conversa pode ser atacada. O TLS autentica todos os participantes e criptografa todo o tráfego. Isso não impede a espionagem, mas o atacante não pode ler o tráfego, a não ser que quebre a criptografia.
 
 O protocolo TURN é usado para fins de mídia em tempo real. O protocolo TURN não exige que o tráfego seja criptografado e as informações que são enviadas são protegidas pela integridade da mensagem. Mesmo estando abertas apara a espionagem, as informações que são enviadas (o endereço do IP e a porta) podem ser extraídas diretamente olhando os endereços de saída e de destino dos pacotes. O serviço do Teams garante que os dados são válidos verificando a Integridade da Mensagem da mensagem, usando a chave derivada de poucos itens, incluindo uma senha do TURN, que nunca é enviada em um texto não criptografado. O SRTP é usado para o tráfego de mídia e também é criptografado.
 
@@ -106,11 +106,11 @@ As seções a seguir abordam algumas das principais tecnologias.
 
 ### <a name="azure-active-directory"></a>Azure Active Directory
 
-O Active Directory do Azure funciona como o serviço de diretório do Office 365 (O365). Ele armazena todas as informações do diretório e as atribuições de política do usuário.
+O Active Directory do Azure funciona como o serviço de diretório do Microsoft 365 e do Office 365. Ele armazena todas as informações do diretório e as atribuições de política do usuário.
 
 #### <a name="crl-distribution-points"></a>Pontos de distribuição CRL
 
-O tráfego do O365 ocorre por canais criptografados por TLS/HTTPS, o que significa que os certificados são usados para a criptografia de todo o tráfego. O Teams requer que todos os certificados de servidor contenham um ou mais pontos de distribuição das Listas de Certificados Revogados (CRLs). Os pontos de distribuição (CDP) de CRL são locais dos quais as CRLs podem ser baixadas para verificar se o certificado não foi revogado desde sua emissão e se o certificado continua dentro do período de validade. Um ponto de distribuição de CRL pode ser encontrado nas propriedades do certificado como uma URL e é normalmente uma HTTP segura. O serviço do Teams verifica a CRL com cada autenticação de certificado.
+O tráfego do Microsoft 365 e do Office 365 ocorre por canais criptografados por TLS/HTTPS, o que significa que os certificados são usados para a criptografia de todo o tráfego. O Teams requer que todos os certificados de servidor contenham um ou mais pontos de distribuição das Listas de Certificados Revogados (CRLs). Os pontos de distribuição (CDP) de CRL são locais dos quais as CRLs podem ser baixadas para verificar se o certificado não foi revogado desde sua emissão e se o certificado continua dentro do período de validade. Um ponto de distribuição de CRL pode ser encontrado nas propriedades do certificado como uma URL e é normalmente uma HTTP segura. O serviço do Teams verifica a CRL com cada autenticação de certificado.
 
 #### <a name="enhanced-key-usage"></a>Uso Avançado de Chave
 
@@ -159,11 +159,11 @@ O Teams usa algoritmos compatíveis com FIPS (Federal Information Processing Sta
 
 ### <a name="user-and-client-authentication"></a>Autenticação do usuário e do cliente
 
-Um usuário confiável é aquele cujas credenciais foram autenticadas pelo Azure AD no Office 365 / Microsoft 365.
+Um usuário confiável é aquele cujas credenciais foram autenticadas pelo Azure AD no Microsoft 365 ou no Office 365.
 
 Autenticação é o provisionamento de credenciais de usuário em um servidor ou serviço confiável. O Teams usa os seguintes protocolos de autenticação, dependendo do status e da localização do usuário.
 
-- **Autenticação moderna (MA)** é a implementação Microsoft do OAUTH 2.0 para comunicação de cliente para servidor. Ela ativa recursos de segurança como a Autenticação multifator do O365 e Acesso condicional do O365. Para usar a MA, tanto o locatário online quanto os clientes precisam ser habilitados para a MA. Os clientes do Teams em PC e dispositivos móveis, bem como no cliente Web, [todos são compatíveis do MA](https://docs.microsoft.com/microsoftteams/sign-in-teams).
+- **Autenticação moderna (MA)** é a implementação Microsoft do OAUTH 2.0 para comunicação de cliente para servidor. Ela ativa recursos de segurança como a Autenticação Multifatorial e o Acesso Condicional. Para usar a MA, tanto o locatário online quanto os clientes precisam ser habilitados para a MA. Os clientes do Teams em PC e dispositivos móveis, bem como no cliente Web, [todos são compatíveis do MA](https://docs.microsoft.com/microsoftteams/sign-in-teams).
 
 > [!NOTE]
 > Se você precisar revisar a autenticação e os métodos de autorização do Azure AD, a introdução desse artigo e a sessão “Noções básicas de autenticação no Azure AD”.
@@ -178,7 +178,7 @@ Para autenticação de mídia, os protocolos ICE e TURN também utilizam o mecan
 
 ### <a name="windows-powershell-and-team-management-tools"></a>Ferramentas de gerenciamento do Teams e Windows PowerShell
 
-No Teams, os administradores de TI podem gerenciar seus serviços por meio do Portal de administração do O365 ou usando o Tenant Remote PowerShell (TRPS). Os administradores de locatário usam autenticação moderna para autenticar o TRPS.
+No Teams, os administradores de TI podem gerenciar seus serviços por meio do Centro de administração do Microsoft 365 ou usando o Tenant Remote PowerShell (TRPS). Os administradores de locatário usam autenticação moderna para autenticar o TRPS.
 
 ### <a name="configuring-access-to-teams-at-your-internet-boundary"></a>Configuração do acesso ao Teams no seu limite de Internet
 
@@ -188,13 +188,9 @@ Para que o Teams funcione corretamente (para que os usuários possam participar 
 
 As portas UDP 3478-3481 e TCP 443 são usadas pelos clientes para solicitar o serviço de áudio visuais. Um cliente usa essas duas portas para atribuir as portas UDP e TCP, respectivamente, para permitir esses fluxos de mídia. Os fluxos de mídia nessas portas estão protegidos por uma chave trocada por um canal de sinalização protegido por TLS.
 
-### <a name="udptcp-5000059999-optional"></a>UDP/TCP 50000 – 59.999 (opcional)
-
-Portas em intervalo superior não usam retransmissão de transporte. Como são portas opcionais, você não as encontrará listadas nas URLs e intervalos de endereços IP do Office 365. Isso também significa que o Teams funcionará se essas portas estiverem bloqueadas, devido ao tráfego usando os intervalos de porta 3478-3481 (retransmissão de transporte). Eles são usados para o trânsito de mídia mas, mesmo que estes intervalos sejam desbloqueados, a redução no retardo será mínima (alguns milissegundos). Na maior parte, os problemas com a qualidade de mídia não serão afetados pelo desbloqueio e uso dessas portas. Qualquer investigação desses problemas devem se concentrar em outros lugares.
-
 ### <a name="federation-safeguards-for-teams"></a>Proteções de Federação para o Teams
 
-A Federação fornece à sua organização a capacidade de se comunicar com outras organizações para compartilhar mensagens instantâneas e presença. No Teams, a federação está ativada por padrão. No entanto, os administradores de locatários têm a capacidade de controlar isso por meio do portal de administração do O365.
+A Federação fornece à sua organização a capacidade de se comunicar com outras organizações para compartilhar mensagens instantâneas e presença. No Teams, a federação está ativada por padrão. No entanto, os administradores de locatários têm a capacidade de controlar isso por meio do Centro de administração do Microsoft 365.
 
 ## <a name="addressing-threats-to-teams-meetings"></a>Enfrentando ameaças em reuniões do Teams
 
@@ -223,7 +219,7 @@ Essas são as duas opções para controlar quem chega nas reuniões do Teams e q
     |Iniciar ou parar gravação      |     Y    |    N     |
     |Assumir o controle quando outro participante compartilhar um PowerPoint     |  Y         | N        |
 
-O Teams oferece aos usuários corporativos a capacidade de criar e ingressar em reuniões em tempo real. Os usuários corporativos também podem convidar usuários externos que não possuem uma conta do Azure AD/Office 365 para participar dessas reuniões. Usuários empregados por parceiros externos com uma identidade segura e autenticada também podem ingressar em reuniões e podem atuar como apresentadores se forem promovidos para tal atividade. Os usuários anônimos não podem criar ou entrar em uma reunião como um apresentador, mas eles podem ser promovidos para o apresentador após entrarem.
+O Teams oferece aos usuários corporativos a capacidade de criar e ingressar em reuniões em tempo real. Os usuários corporativos também podem convidar usuários externos que não possuem uma conta do Azure AD, do Microsoft 365 ou do Office 365 para participar dessas reuniões. Usuários empregados por parceiros externos com uma identidade segura e autenticada também podem ingressar em reuniões e podem atuar como apresentadores se forem promovidos para tal atividade. Os usuários anônimos não podem criar ou entrar em uma reunião como um apresentador, mas eles podem ser promovidos para o apresentador após entrarem.
 
 Para que os usuários anônimos possam participar de reuniões do Teams, a configuração reuniões dos participantes no centro de administração de Teams deve ser ativada.
 
@@ -306,6 +302,6 @@ Os organizadores da reunião controlam se os participantes podem fazer apresenta
 
 [Gerenciar configurações de reunião no Microsoft Teams](https://docs.microsoft.com/microsoftteams/meeting-settings-in-teams)
 
-[Otimizar a conectividade do Office 365 para usuários remotos usando a criação de túnel dividido de VPN](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-split-tunnel)
+[Otimize a conectividade do Microsoft 365 ou do Office 365 para usuários remotos usando o tunelamento dividido da VPN](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-split-tunnel)
 
-- [Implementando a criação de túnel dividido de VPN para Office 365](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-implement-split-tunnel)
+- [Implementando o tunelamento dividido de VPN](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-implement-split-tunnel)
