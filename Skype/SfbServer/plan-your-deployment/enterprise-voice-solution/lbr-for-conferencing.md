@@ -16,18 +16,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8b86740e-db95-4304-bb83-64d0cbb91d47
 description: Planejamento de roteamento baseado em local para conferência no Skype for Business Server Enterprise Voice, incluindo transferências de chamadas consultivas.
-ms.openlocfilehash: f2a44c1f3275dd0cc9e1205d60ba26e01429ea51
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: cec7eb1f853752997ca3dcfbe8546b86227fde9b
+ms.sourcegitcommit: d664ef6994e242bf18a29dac31286c78c163478a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690577"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "44710735"
 ---
 # <a name="location-based-routing-for-conferencing-in-skype-for-business-server"></a>Roteamento baseado em local para conferência no Skype for Business Server
 
 Planejamento de roteamento baseado em local para conferência no Skype for Business Server Enterprise Voice, incluindo transferências de chamadas consultivas.
 
-O roteamento baseado em local permite restringir o roteamento de chamadas entre pontos de extremidade VoIP e pontos de extremidade PSTN com base no local das partes na chamada. O roteamento baseado em local para conferência permite que você aplique regras de roteamento com base no local em reuniões (por exemplo, conferências) para impedir o desvio de chamada PSTN. O aplicativo monitora uma conferência ativa e aplica as restrições de roteamento com base no local com base no local de usuários participantes. O roteamento baseado em local para o aplicativo de conferência adicional permite a imposição de restrições de roteamento com base no local para transferências consultivas envolvendo pontos de extremidade PSTN.
+O roteamento baseado em local permite restringir o roteamento de chamadas entre pontos de extremidade VoIP e pontos de extremidade PSTN com base no local das partes na chamada. O roteamento baseado em local para conferência permite que você aplique regras de roteamento com base no local em reuniões (ou seja, conferências) para impedir o desvio de chamada PSTN. O aplicativo monitora uma conferência ativa e aplica as restrições de roteamento com base no local com base no local de usuários participantes. O roteamento baseado em local para o aplicativo de conferência adicional permite a imposição de restrições de roteamento com base no local para transferências consultivas envolvendo pontos de extremidade PSTN.
 
 O aplicativo de conferência de roteamento baseado em local oferece ao Skype for Business conferências um mecanismo para a prevenção de desvio de chamada PSTN. O aplicativo monitora conferências ativas e impõe restrições de roteamento com base no local com base no local dos usuários participantes do Skype for Business.
 
@@ -49,9 +49,7 @@ O roteamento baseado em local para o aplicativo de conferência impede a partici
 
 Essas restrições de roteamento com base no local de conferência são resumidas na tabela a seguir.
 
-| |
-
-|**Usuário (s) em uma conferência em um determinado ponto**|**Usuário (s) com permissão para ingressar na conferência**|**Usuário (s) não autorizados a ingressar na conferência**|
+|Usuário (s) em uma conferência em um determinado ponto|Usuário (s) com permissão para ingressar na conferência|Usuário (s) não autorizados a ingressar na conferência|
 |:-----|:-----|:-----|
 |Usuário (s) de cliente VoIP do Skype for Business em um único site de rede  <br/> |Usuário de cliente VoIP do Skype for Business do mesmo local de rede  <br/> Usuário de cliente VoIP do Skype for Business de um site de rede diferente  <br/> Usuário de cliente VoIP do Skype for Business de um site de rede desconhecido  <br/> Usuário de cliente VoIP federado do Skype for Business  <br/> Usuário ingressando a partir de um ponto de extremidade PSTN  <br/> |Nenhuma  <br/> |
 |Usuário (s) de cliente VoIP do Skype for Business de um site de rede desconhecido  <br/> |Usuário de cliente VoIP do Skype for Business de qualquer site  <br/> Usuário de cliente VoIP do Skype for Business de um site desconhecido  <br/> Usuário de cliente VoIP federado do Skype for Business  <br/> |Ingresso de usuário por meio de um ponto de extremidade PSTN  <br/> |
@@ -69,7 +67,7 @@ Veja a seguir as características adicionais do aplicativo de roteamento baseado
 > [!NOTE]
 > Com a atualização cumulativa 4 do Skype for Business, o comportamento na seguinte tabela deve ser observado:
 
-|**Usuário**|**Outra parte**|**Action**|**Resultado**|
+|Usuário|Outra parte|Action|Resultado|
 |:-----|:-----|:-----|:-----|
 |Skype for Business Mobile  <br/> |PSTN  <br/> |O Skype for Business Mobile está em uma chamada PSTN. O Skype for Business Mobile então Escalona a chamada para um atendedor automático de conferência (CAA).  <br/> |A chamada é bloqueada, com uma mensagem de erro apropriada.  <br/> |
 |Skype for Business Mobile  <br/> |Cliente do Skype for Business ou federado  <br/> |O cliente ou usuário federado está em uma chamada VoIP para um usuário de roteamento baseado em local móvel do Skype for Business e qualquer uma das partes é escalonada para um CAA.  <br/> |A chamada de escalonamento é bloqueada, com uma mensagem de erro apropriada.  <br/> |
@@ -91,18 +89,18 @@ Quando um usuário habilitado para roteamento baseado em local inicia uma transf
 A tabela a seguir descreve como as restrições de roteamento baseadas em local são aplicadas pelo roteamento baseado em local para o aplicativo de conferência para transferências de chamadas consultivas. Embora os pontos de extremidade PBX não estejam diretamente associados a um site de rede, o tronco SIP ao qual o PBX está conectado pode ser atribuído a um local de rede. Portanto, o ponto de extremidade de PBX pode ser indiretamente associado a um site de rede.
 
 
-|**Site de rede da parte transferida por chamada**|**Local de rede do destino da transferência de chamadas**|**Comportamento**|
+|Site de rede da parte transferida por chamada|Local de rede do destino da transferência de chamadas|Comportamento|
 |:-----|:-----|:-----|
 |Ponto de extremidade PSTN  <br/> |O usuário do Skype for Business no mesmo local de rede (ou seja, site 1)  <br/> |A transferência consultiva será permitida  <br/> |
-|Ponto de extremidade PSTN  <br/> |Usuário do Skype for Business em diferentes sites de rede (por exemplo, site 2)  <br/> |A transferência consultiva não será permitida  <br/> |
+|Ponto de extremidade PSTN  <br/> |Usuário do Skype for Business em sites de rede diferentes (ou seja, site 2)  <br/> |A transferência consultiva não será permitida  <br/> |
 |Ponto de extremidade PSTN  <br/> |Usuário do Skype for Business em um site de rede desconhecido  <br/> |A transferência consultiva não será permitida  <br/> |
 |Ponto de extremidade PSTN  <br/> |Usuário federado do Skype for Business  <br/> |A transferência consultiva não será permitida  <br/> |
 |Ponto de extremidade PSTN  <br/> |Ponto de extremidade de PBX no mesmo site (ou seja, site 1)  <br/> |A transferência consultiva será permitida  <br/> |
-|Ponto de extremidade PSTN  <br/> |Ponto de extremidade de PBX em sites diferentes (por exemplo, site 2)  <br/> |A transferência consultiva não será permitida  <br/> |
+|Ponto de extremidade PSTN  <br/> |Ponto de extremidade de PBX em sites diferentes (ou seja, site 2)  <br/> |A transferência consultiva não será permitida  <br/> |
 |Ponto de extremidade de PBX no mesmo site (ou seja, site 1)  <br/> |Ponto de extremidade PSTN  <br/> |A transferência consultiva será permitida  <br/> |
 |Ponto de extremidade de PBX em um site diferente (ou seja, site 2)  <br/> |Ponto de extremidade PSTN  <br/> |A transferência consultiva não será permitida  <br/> |
 |Ponto de extremidade de PBX em qualquer site  <br/> |O usuário do Skype for Business no mesmo local de rede (ou seja, site 1)  <br/> |A transferência consultiva será permitida  <br/> |
-|Ponto de extremidade de PBX em qualquer site  <br/> |Usuário do Skype for Business em diferentes sites de rede (por exemplo, site 2)  <br/> |A transferência consultiva será permitida  <br/> |
+|Ponto de extremidade de PBX em qualquer site  <br/> |Usuário do Skype for Business em sites de rede diferentes (ou seja, site 2)  <br/> |A transferência consultiva será permitida  <br/> |
 |Ponto de extremidade de PBX em qualquer site  <br/> |Usuário do Skype for Business em um site de rede desconhecido  <br/> |A transferência consultiva será permitida  <br/> |
 |Ponto de extremidade de PBX em qualquer site  <br/> |Usuário federado do Skype for Business  <br/> |A transferência consultiva será permitida  <br/> |
 
@@ -113,7 +111,7 @@ O roteamento baseado em local para o aplicativo de conferência requer que o Sky
 A tabela a seguir identifica a combinação de funções de servidor e versões que dão suporte ao roteamento baseado em local.
 
 
-|**Versão do pool de front-end**|**Versão do servidor de mediação**|**Com suporte**|
+|Versão do pool de front-end|Versão do servidor de mediação|Com suporte|
 |:-----|:-----|:-----|
 |Atualização cumulativa 2 do Skype for Business Server ou do Lync Server 2013  <br/> |Atualização cumulativa 2 do Skype for Business Server ou do Lync Server 2013  <br/> |Sim  <br/> |
 |Atualização cumulativa 2 do Lync Server 2013  <br/> |Atualização cumulativa 1 do Lync Server 2013  <br/> |Não  <br/> |
@@ -137,7 +135,11 @@ O roteamento baseado em local para o aplicativo de conferência depende da confi
 
 O roteamento baseado em local para o aplicativo de conferência está desabilitado por padrão. Antes de habilitar esse aplicativo, você precisa determinar a prioridade correta a ser atribuída ao aplicativo. Para determinar essa prioridade, execute o seguinte cmdlet no Shell de gerenciamento do Skype for Business Server:
 
-Get-CsServerApplication-Identity Service: registrar: <Pool FQDN> neste cmdlet, \<Pool FQDN\> é o pool no qual o roteamento baseado em local para o aplicativo de conferência deve ser habilitado.
+```powershell
+Get-CsServerApplication -Identity Service:Registrar:<Pool FQDN>
+```
+
+Neste cmdlet, \<Pool FQDN\> é o pool no qual o roteamento baseado em local para o aplicativo de conferência deve ser habilitado.
 
 Este cmdlet retornará a lista de aplicativos hospedados pelo Skype for Business Server e o valor de prioridade para cada um deles. O roteamento baseado em local para o aplicativo de conferência precisa receber um valor de prioridade maior do que o aplicativo "UdcAgent" e menor do que os aplicativos "defaultrouting", "ExumRouting" e "OutboundRouting". Recomendamos que você atribua o roteamento baseado em local para o aplicativo de conferência um valor de prioridade que seja um ponto maior do que o valor de prioridade do aplicativo "UdcAgent".
 
@@ -145,11 +147,15 @@ Por exemplo, se o aplicativo "UdcAgent" tiver um valor de prioridade "2", o apli
 
 Depois de encontrar o valor de prioridade correto para o aplicativo roteamento baseado em local para conferência, digite o seguinte cmdlet para cada pool de front-end ou servidor Standard Edition que tenha usuários habilitados para roteamento baseado em local:
 
-New-CsServerApplication-Identity Service: registrar: `<Pool FQDN`>/lbrouting-Priority \<Application Priority\> -$true Enabled-$true-URI-crítico<http://www.microsoft.com/LCS/LBRouting>
+```powershell
+New-CsServerApplication -Identity Service:Registrar:<Pool FQDN>/LBRouting -Priority <Application Priority> -Enabled $true -Critical $true -Uri <http://www.microsoft.com/LCS/LBRouting>
+```
 
 Por exemplo:
 
-New-CsServerApplication-Identity Service:Registrar:LS2013CU2LBRPool. contoso. com/LBRouting-Priority 3 Enabled $true-Critical $true-URIhttp://www.microsoft.com/LCS/LBRouting
+```powershell
+New-CsServerApplication -Identity Service:Registrar:LS2013CU2LBRPool.contoso.com/LBRouting -Priority 3 -Enabled $true -Critical $true -Uri http://www.microsoft.com/LCS/LBRouting
+```
 
 Após usar esse cmdlet, reinicie todos os servidores front-end no pool ou os servidores Standard Edition onde o roteamento baseado em local para o aplicativo de conferência foi habilitado.
 
