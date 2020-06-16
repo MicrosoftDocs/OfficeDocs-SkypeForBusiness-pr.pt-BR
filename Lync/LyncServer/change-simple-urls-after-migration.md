@@ -1,8 +1,8 @@
 ---
 title: Alterar URLs simples após a migração
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -13,12 +13,12 @@ ms:contentKeyID: 49733777
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: def26afe2bae21a7a3b6d0ffae4b358c76296e6d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2c9f46944e80c5eb7a2d81de6f164d19aab64d29
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42181024"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755321"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -70,7 +70,7 @@ Após a migração para o Lync Server 2013, você deve estar ciente de como a al
     
 
     > [!TIP]  
-    > Recomendamos usar a URL mais simples possível para a URL Admin. A opção mais simples é <STRONG> https://admin.</STRONG> &lt;domínio&gt;.
+    > Recomendamos usar a URL mais simples possível para a URL Admin. A opção mais simples é <STRONG> https://admin .</STRONG> &lt; domínio &gt; .
 
     
     </div>

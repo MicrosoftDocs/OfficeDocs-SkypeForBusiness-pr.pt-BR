@@ -1,8 +1,8 @@
 ---
 title: Configurar os clientes para migração
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -13,12 +13,12 @@ ms:contentKeyID: 48185411
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8660fab3fccdae04ea4e3407aedf259ab3e1f4f6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: fb167b56d201ff6215c45c10628b3c88be046041
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42181014"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755007"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -44,7 +44,7 @@ Este tópico contém as etapas de implantação de cliente recomendadas que voc�
 
 ## <a name="to-configure-clients-before-migration"></a>Para configurar os clientes antes da migração
 
-1.  Implantar as atualizações de servidor, cliente e dispositivo (hotfixes) mais recentes para o Lync Server 2010. Para obter as informações mais recentes sobre o Lync Server 2010, consulte updates Resource Center for Lync at <https://go.microsoft.com/fwlink/p/?linkid=232630>.
+1.  Implantar as atualizações de servidor, cliente e dispositivo (hotfixes) mais recentes para o Lync Server 2010. Para obter as informações mais recentes sobre o Lync Server 2010, consulte updates Resource Center for Lync at <https://go.microsoft.com/fwlink/p/?linkid=232630> .
 
 2.  No Lync Server 2010, use a filtragem de versão do cliente para permitir que apenas clientes com as atualizações mais recentes instaladas.
 

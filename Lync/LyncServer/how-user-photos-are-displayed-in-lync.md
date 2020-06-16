@@ -1,8 +1,8 @@
 ---
 title: Como as fotos do usuário são exibidas no Lync
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: How user photos are displayed in Lync
@@ -12,12 +12,12 @@ ms:contentKeyID: 62835297
 ms.date: 08/27/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2b2c64d0a147457eb50a778d7909b3ccfbf8fecc
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 88d6f6f6f5578994831fd15329988d963a295832
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180354"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755435"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -93,13 +93,13 @@ As considerações para o uso de imagens de serviços de domínio do Active Dire
 
 O usuário não pode alterar a imagem usada em seu perfil de serviços de domínio do Active Directory diretamente através do cliente Lync 2010. Eles podem usar uma das seguintes opções para fazer isso, se disponíveis:
 
-  - **Os usuários do SharePoint Server**   podem carregar uma foto em "My site" em um SharePoint Server e, em seguida, [Configurar a sincronização de perfil no SharePoint](https://go.microsoft.com/fwlink/p/?linkid=507466) para sincronizar a foto com o atributo **ThumbNailPhoto** nos serviços de domínio do Active Directory.
+  - **SharePoint Server**     Os usuários podem carregar uma foto em "My site" em um SharePoint Server e, em seguida, [Configurar a sincronização de perfil no SharePoint](https://go.microsoft.com/fwlink/p/?linkid=507466) para sincronizar a foto com o atributo **ThumbNailPhoto** nos serviços de domínio do Active Directory.
 
-  - **Foto armazenada em URL**   publicamente acessível os usuários podem configurar sua foto de usuário especificando uma URL publicamente acessível para a imagem que eles desejam usar. A imagem deve estar publicamente acessível sem uma senha. A imagem armazenada no endereço da Web especificado é transferida para outros usuários por meio da categoria cartão de visita nas informações de presença. Quando o cliente do Lync precisa exibir uma foto do usuário, ele recupera a imagem do endereço da Web especificado.
+  - **Foto armazenada em URL**     publicamente acessível Os usuários podem configurar sua foto de usuário especificando uma URL publicamente acessível para a imagem que eles desejam usar. A imagem deve estar publicamente acessível sem uma senha. A imagem armazenada no endereço da Web especificado é transferida para outros usuários por meio da categoria cartão de visita nas informações de presença. Quando o cliente do Lync precisa exibir uma foto do usuário, ele recupera a imagem do endereço da Web especificado.
 
-  - **Os cmdlets do Exchange 2010 para administradores do Windows PowerShell**   podem executar o cmdlet [Import-RecipientDataProperty](https://go.microsoft.com/fwlink/p/?linkid=507468) no Shell de gerenciamento do Exchange 2010 no para gerenciar o atributo **ThumbNailPhoto** . Quando as imagens são importadas com os cmdlets do Exchange 2010, o tamanho do arquivo é limitado a 10 KB.
+  - **Cmdlets do Exchange 2010 para Windows PowerShell**     Os administradores podem executar o cmdlet [Import-RecipientDataProperty](https://go.microsoft.com/fwlink/p/?linkid=507468) no Shell de gerenciamento do Exchange 2010 para gerenciar o atributo **ThumbNailPhoto** . Quando as imagens são importadas com os cmdlets do Exchange 2010, o tamanho do arquivo é limitado a 10 KB.
 
-  - **Ferramentas de terceiros**   os usuários podem carregar apenas suas próprias fotos para o atributo **ThumbNailPhoto** .
+  - **Ferramentas**     de terceiros Os usuários podem carregar apenas suas próprias fotos para o atributo **ThumbNailPhoto** .
 
 </div>
 
@@ -144,7 +144,7 @@ O valor do parâmetro **DisplayPhoto** determina a origem da imagem de foto do u
 <tbody>
 <tr class="odd">
 <td><p>NoPhoto</p></td>
-<td><p>nenhuma</p></td>
+<td><p>Nenhuma</p></td>
 <td><p><strong>Não exibe minha imagem</strong></p></td>
 </tr>
 <tr class="even">
@@ -183,13 +183,13 @@ As fotos do usuário incluídas no status de presença também têm um valor de 
 
 A consulta para o serviço ABWQ inclui os seguintes atributos:
 
-  - **O keyhash**   é o valor de hash dos dados de foto binários e é usado para determinar se a foto atual foi alterada.
+  - **Fotohash**     O valor de hash dos dados de foto binários e é usado para determinar se a foto atual foi alterada.
 
-  - **PhotoRelPath**   o caminho relativo para o arquivo de imagem armazenado no servidor.
+  - **PhotoRelPath**     O caminho relativo para o arquivo de imagem armazenado no servidor.
 
-  - **Fotosize**   o tamanho do arquivo de imagem, em bytes.
+  - **Fotosize**     O tamanho do arquivo de imagem, em bytes.
 
-  - **Timestamp**   a data e a hora em que o arquivo de imagem foi baixado pela última vez no servidor e copiado para o cache do cliente.
+  - **Timestamp**     A data e a hora em que o arquivo de imagem foi baixado pela última vez no servidor e copiado para o cache do cliente.
 
 Em seguida, após recuperar o arquivo de imagem, o cliente Lync 2010 compara os valores de atributo retornados da consulta com relação aos valores de atributo recebidos pelo cliente do provisionamento em banda para ver se eles são diferentes. Se os valores forem diferentes, o cliente recupera o arquivo de imagem do usuário conectado com uma solicitação HTTP GET.
 
@@ -320,13 +320,13 @@ No Lync 2013, são suportadas três resoluções de imagem para as fotos do usu�
 
 Qualquer usuário com uma caixa de correio habilitada no Exchange 2013 pode carregar uma imagem diferente, incluindo fotos de alta resolução, através do Outlook Web Access ou do Lync 2013 Client Options. As configurações recomendadas para imagens usadas incluem:
 
-  - **Resolução de imagem**   648 por 648 pixels
+  - **Resolução**     de imagem 648 por 648 pixels
 
-  - **Intensidade de cor**   de 24 bits
+  - **Intensidade**     de cor 24 bits
 
-  - **Tamanho do arquivo de imagem**   de até 20 MB
+  - Tamanho do arquivo de **imagem**     até 20 MB
 
-  - ****   JPEG no formato de arquivo
+  - **Formato**     de arquivo FORMATO
 
 Uma imagem JPEG de 24 bits típica de 648 pixels por 648 pixels tem um tamanho de arquivo de aproximadamente 240 KB, portanto, 1 MB de espaço de armazenamento é necessário para cada 4 fotos do usuário.
 

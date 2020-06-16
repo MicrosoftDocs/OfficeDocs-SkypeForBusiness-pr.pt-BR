@@ -1,8 +1,8 @@
 ---
 title: Configure o tráfego de mídia e rotas de federação
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Configure federation routes and media traffic
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733860
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6fc7359a21d60c0c77028491af9fccdf21991c58
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 0d6af77188809b092050629c1b74cdab8b20a2cc
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42136088"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44754957"
 ---
 # <a name="configure-federation-routes-and-media-traffic"></a>Configure o tráfego de mídia e rotas de federação
 
@@ -36,7 +36,7 @@ Use os procedimentos a seguir para fazer a transição da rota de Federação e 
 
 
 > [!IMPORTANT]  
-> Se o servidor de borda do Office Communications Server 2007 R2 herdado estiver configurado para usar o mesmo FQDN para o serviço de borda de acesso, o serviço de borda de Webconferência e o serviço de borda A/V, os procedimentos desta seção para fazer a transição da configuração de Federação para um servidor de borda do Lync Server 2013 não têm suporte. Se os serviços de borda herdados estiverem configurados para usar o mesmo FQDN, você deverá primeiro migrar todos os usuários do Office Communications Server 2007 R2 para o Lync Server 2013 e, em seguida, encerrar o servidor de borda do Office Communications Server 2007 R2 antes de habilitar a Federação no o servidor de borda do Lync Server 2013. Para obter informações detalhadas, consulte os seguintes tópicos: 
+> Se o servidor de borda do Office Communications Server 2007 R2 herdado estiver configurado para usar o mesmo FQDN para o serviço de borda de acesso, o serviço de borda de Webconferência e o serviço de borda A/V, os procedimentos desta seção para fazer a transição da configuração de Federação para um servidor de borda do Lync Server 2013 não têm suporte. Se os serviços de borda herdados estiverem configurados para usar o mesmo FQDN, você deverá primeiro migrar todos os usuários do Office Communications Server 2007 R2 para o Lync Server 2013 e, em seguida, encerrar o servidor de borda do Office Communications Server 2007 R2 antes de habilitar a Federação no servidor de borda do Lync Server 2013. Para obter informações detalhadas, consulte os seguintes tópicos: 
 > <UL>
 > <LI>
 > <P><A href="move-remaining-users-to-lync-server-2013_1.md">Mover os usuários restantes para o Lync Server 2013</A></P>
@@ -47,7 +47,7 @@ Use os procedimentos a seguir para fazer a transição da rota de Federação e 
 
 
 > [!IMPORTANT]  
-> Se sua Federação do XMPP for encaminhada por um servidor de borda do Lync Server 2013, os usuários herdados do Office Communications Server 2007 R2 não poderão se comunicar com o parceiro federado do XMPP até que todos os usuários tenham sido movidos para o Lync Server 2013, políticas do XMPP e certificados foram configurados, o parceiro federado XMPP foi configurado no Lync Server 2013 e, por fim, as entradas DNS foram atualizadas.
+> Se sua Federação do XMPP for encaminhada por um servidor de borda do Lync Server 2013, os usuários herdados do Office Communications Server 2007 R2 não poderão se comunicar com o parceiro federado do XMPP até que todos os usuários tenham sido movidos para o Lync Server 2013, as políticas e certificados do XMPP foram configurados, o parceiro federado do XMPP foi configurado no Lync Server 2013
 
 
 
@@ -87,11 +87,11 @@ Para publicar, habilitar ou desabilitar com êxito uma topologia ao adicionar ou
     
     ![Página especificar borda externa do construtor de topologia](images/JJ721925.e36f3a1f-3655-456e-9e6d-4814c37da0bf(OCS.15).jpg "Página especificar borda externa do construtor de topologia")
 
-5.  Em **Especificar Borda Externa**, desmarque a caixa de seleção **Este pool de Borda é usado para conectividade de IM pública e de _federação**. Isso removerá a associação de federação com o BackCompatSite.
+5.  In **Specify External Edge**, clear the **This Edge pool is used for federation and public IM connectivity** check box. This will remove the federation association with the BackCompatSite.
     
 
     > [!IMPORTANT]  
-    > Esta etapa é importante. É necessário desmarcar essa opção para remover a associação de federação herdada.
+    > This step is important. You must clear this option to remove the legacy federation association.
 
 
 
@@ -123,7 +123,7 @@ Para publicar, habilitar ou desabilitar com êxito uma topologia ao adicionar ou
 
 1.  No servidor do Office Communications Server 2007 R2 Standard Edition ou servidor front-end, abra a ferramenta administrativa do Office Communications Server 2007 R2.
 
-2.  No painel esquerdo, expanda o nó superior e clique com o botão direito do mouse no nó **Floresta**. Selecione **Propriedades** e clique em **Propriedades Globais**.
+2.  In the left pane, expand the top node, and then right-click the **Forest** node. Select **Properties**, and then click **Global Properties**.
 
 3.  Clique na guia **Federação**.
 
@@ -217,7 +217,7 @@ Para publicar, habilitar ou desabilitar com êxito uma topologia ao adicionar ou
     
 
     > [!NOTE]  
-    > Se você não tem um balanceador de carga de hardware, você precisa atualizar o registro A do DNS para a federação resolver o novo servidor de borda de acesso do Lync Server. Para realizar essa tarefa com o mínimo de interrupção, reduza o valor de TTL do FQDN da Borda de Acesso do Lync Server externo para que quando o DNS for atualizado para apontar para a nova Borda de Acesso do Lync Server, a federação e o acesso remoto sejam atualizado rapidamente.
+    > If you do not have a hardware load balancer, you need to update the DNS A record for federation to resolve the new Lync Server Access Edge server. To accomplish this with minimum disruption, reduce the TTL value for the external Lync Server Access Edge FQDN so that when DNS is updated to point to the new Lync Server Access Edge server, federation and remote access will be updated quickly.
 
 
 
