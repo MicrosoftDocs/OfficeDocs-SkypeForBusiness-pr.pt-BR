@@ -1,8 +1,8 @@
 ---
 title: Considerações de coexistência
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -13,12 +13,12 @@ ms:contentKeyID: 48184990
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2b31b8f3e534fc7b060f194f84310050a0386d8c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a7052042afbc3927e1047a9c2fbb30a71168f317
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180994"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755027"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -26,7 +26,7 @@ ms.locfileid: "42180994"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="coexistence-considerations"></a><span data-ttu-id="68c2f-102">Considerações de coexistência</span><span class="sxs-lookup"><span data-stu-id="68c2f-102">Coexistence considerations</span></span>
+# <a name="coexistence-considerations"></a><span data-ttu-id="c2e95-102">Considerações de coexistência</span><span class="sxs-lookup"><span data-stu-id="c2e95-102">Coexistence considerations</span></span>
 
 </div>
 
@@ -36,23 +36,23 @@ ms.locfileid: "42180994"
 
 <span> </span>
 
-<span data-ttu-id="68c2f-103">_**Última modificação do tópico:** 2012-10-06_</span><span class="sxs-lookup"><span data-stu-id="68c2f-103">_**Topic Last Modified:** 2012-10-06_</span></span>
+<span data-ttu-id="c2e95-103">_**Última modificação do tópico:** 2012-10-06_</span><span class="sxs-lookup"><span data-stu-id="c2e95-103">_**Topic Last Modified:** 2012-10-06_</span></span>
 
-<span data-ttu-id="68c2f-104">Após a migração, somente um pool do servidor de chat persistente do Lync Server 2013, existirá, e você poderá encerrar sua implantação herdada.</span><span class="sxs-lookup"><span data-stu-id="68c2f-104">After migration, only a Lync Server 2013, Persistent Chat Server pool will exist, and you can decommission your legacy deployment.</span></span>
+<span data-ttu-id="c2e95-104">Após a migração, somente um pool do servidor de chat persistente do Lync Server 2013, existirá, e você poderá encerrar sua implantação herdada.</span><span class="sxs-lookup"><span data-stu-id="c2e95-104">After migration, only a Lync Server 2013, Persistent Chat Server pool will exist, and you can decommission your legacy deployment.</span></span>
 
-<span data-ttu-id="68c2f-105">Antes que a migração seja concluída e antes de você tenha descomissionado completamente sua implantação do servidor de chat de grupo atual, você pode ter qualquer uma das seguintes implantações:</span><span class="sxs-lookup"><span data-stu-id="68c2f-105">Before migration completes and before you have decommissioned your current Group Chat Server deployment completely, you may have any of the following deployments:</span></span>
+<span data-ttu-id="c2e95-105">Antes que a migração seja concluída e antes de você tenha descomissionado completamente sua implantação do servidor de chat de grupo atual, você pode ter qualquer uma das seguintes implantações:</span><span class="sxs-lookup"><span data-stu-id="c2e95-105">Before migration completes and before you have decommissioned your current Group Chat Server deployment completely, you may have any of the following deployments:</span></span>
 
-  - <span data-ttu-id="68c2f-106">Lync Server 2013, pool de servidor de chat persistente, que deve ser hospedado em um pool do Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="68c2f-106">Lync Server 2013, Persistent Chat Server pool, which must be homed on a Lync Server 2013 pool.</span></span>
+  - <span data-ttu-id="c2e95-106">Lync Server 2013, pool de servidor de chat persistente, que deve ser hospedado em um pool do Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="c2e95-106">Lync Server 2013, Persistent Chat Server pool, which must be homed on a Lync Server 2013 pool.</span></span>
 
-  - <span data-ttu-id="68c2f-107">Lync Server 2010, pool de chat de grupo, que deve ser hospedado em um pool do Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="68c2f-107">Lync Server 2010, Group Chat pool, which must be homed on a Lync Server 2010 pool.</span></span>
+  - <span data-ttu-id="c2e95-107">Lync Server 2010, pool de chat de grupo, que deve ser hospedado em um pool do Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="c2e95-107">Lync Server 2010, Group Chat pool, which must be homed on a Lync Server 2010 pool.</span></span>
 
-  - <span data-ttu-id="68c2f-108">Pool de chat do grupo do Office Communications Server 2007 R2, que deve estar hospedado em um pool do Office Communications Server 2007 R2.</span><span class="sxs-lookup"><span data-stu-id="68c2f-108">Office Communications Server 2007 R2 Group Chat pool, which must be homed on an Office Communications Server 2007 R2 pool.</span></span>
+  - <span data-ttu-id="c2e95-108">Pool de chat do grupo do Office Communications Server 2007 R2, que deve estar hospedado em um pool do Office Communications Server 2007 R2.</span><span class="sxs-lookup"><span data-stu-id="c2e95-108">Office Communications Server 2007 R2 Group Chat pool, which must be homed on an Office Communications Server 2007 R2 pool.</span></span>
 
-<span data-ttu-id="68c2f-p101">Essas implantações podem coexistir. No entanto, as categorias, salas e complementos em uma implantação não interagem com aquelas na implantação acompanhante.</span><span class="sxs-lookup"><span data-stu-id="68c2f-p101">These deployments can exist side by side. However the categories, rooms, and add-ins in one deployment do not interact with those in the accompanying deployment.</span></span>
+<span data-ttu-id="c2e95-109">These deployments can exist side by side.</span><span class="sxs-lookup"><span data-stu-id="c2e95-109">These deployments can exist side by side.</span></span> <span data-ttu-id="c2e95-110">However the categories, rooms, and add-ins in one deployment do not interact with those in the accompanying deployment.</span><span class="sxs-lookup"><span data-stu-id="c2e95-110">However the categories, rooms, and add-ins in one deployment do not interact with those in the accompanying deployment.</span></span>
 
-<span data-ttu-id="68c2f-111">Usando a configuração manual, um cliente herdado (cliente de chat de grupo) pode se conectar a um pool por vez para o Office Communications Server 2007 R2, o Lync Server 2010, o chat de grupo ou o Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="68c2f-111">Using manual configuration, a legacy client (Group Chat client) can connect to one pool at a time for Office Communications Server 2007 R2, Lync Server 2010, Group Chat, or Lync Server 2013.</span></span>
+<span data-ttu-id="c2e95-111">Usando a configuração manual, um cliente herdado (cliente de chat de grupo) pode se conectar a um pool por vez para o Office Communications Server 2007 R2, o Lync Server 2010, o chat de grupo ou o Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="c2e95-111">Using manual configuration, a legacy client (Group Chat client) can connect to one pool at a time for Office Communications Server 2007 R2, Lync Server 2010, Group Chat, or Lync Server 2013.</span></span>
 
-<span data-ttu-id="68c2f-112">O Lync 2013 (cliente) pode interagir somente com o pool do servidor de chat persistente do Lync Server 2013, não com pools do servidor de chat de grupo herdado.</span><span class="sxs-lookup"><span data-stu-id="68c2f-112">The Lync 2013 (client) can interact only with the Lync Server 2013, Persistent Chat Server pool, not with legacy Group Chat Server pools.</span></span> <span data-ttu-id="68c2f-113">Para usar o chat persistente em um Lync 2013 (cliente), o usuário deve estar hospedado no Lync 2013 e habilitado por política.</span><span class="sxs-lookup"><span data-stu-id="68c2f-113">To use Persistent Chat in a Lync 2013 (client), the user must be homed on Lync 2013 and enabled by policy.</span></span>
+<span data-ttu-id="c2e95-112">O Lync 2013 (cliente) pode interagir somente com o pool do servidor de chat persistente do Lync Server 2013, não com pools do servidor de chat de grupo herdado.</span><span class="sxs-lookup"><span data-stu-id="c2e95-112">The Lync 2013 (client) can interact only with the Lync Server 2013, Persistent Chat Server pool, not with legacy Group Chat Server pools.</span></span> <span data-ttu-id="c2e95-113">Para usar o chat persistente em um Lync 2013 (cliente), o usuário deve estar hospedado no Lync 2013 e habilitado por política.</span><span class="sxs-lookup"><span data-stu-id="c2e95-113">To use Persistent Chat in a Lync 2013 (client), the user must be homed on Lync 2013 and enabled by policy.</span></span>
 
 </div>
 

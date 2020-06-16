@@ -1,8 +1,8 @@
 ---
 title: Antes de começar a migração
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -13,12 +13,12 @@ ms:contentKeyID: 48184202
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 66f1ca7d80b8f5c6176633f527335262276c69c4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ba5aed1ed654ba09d23f38b8b00a2b3c76b82b3e
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42181064"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755405"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -26,7 +26,7 @@ ms.locfileid: "42181064"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="before-you-begin-the-migration"></a><span data-ttu-id="bd48b-102">Antes de começar a migração</span><span class="sxs-lookup"><span data-stu-id="bd48b-102">Before you begin the migration</span></span>
+# <a name="before-you-begin-the-migration"></a><span data-ttu-id="3da4f-102">Antes de começar a migração</span><span class="sxs-lookup"><span data-stu-id="3da4f-102">Before you begin the migration</span></span>
 
 </div>
 
@@ -36,23 +36,23 @@ ms.locfileid: "42181064"
 
 <span> </span>
 
-<span data-ttu-id="bd48b-103">_**Última modificação do tópico:** 2012-08-29_</span><span class="sxs-lookup"><span data-stu-id="bd48b-103">_**Topic Last Modified:** 2012-08-29_</span></span>
+<span data-ttu-id="3da4f-103">_**Última modificação do tópico:** 2012-08-29_</span><span class="sxs-lookup"><span data-stu-id="3da4f-103">_**Topic Last Modified:** 2012-08-29_</span></span>
 
-<span data-ttu-id="bd48b-104">Antes de começar, recomendamos que você leia este documento e os seguintes guias para se familiarizar com a implantação das funções correspondentes do Lync Server 2013:</span><span class="sxs-lookup"><span data-stu-id="bd48b-104">Before you begin, we recommend that you read this document and the following guides to familiarize yourself with deploying the corresponding Lync Server 2013 roles:</span></span>
+<span data-ttu-id="3da4f-104">Antes de começar, recomendamos que você leia este documento e os seguintes guias para se familiarizar com a implantação das funções correspondentes do Lync Server 2013:</span><span class="sxs-lookup"><span data-stu-id="3da4f-104">Before you begin, we recommend that you read this document and the following guides to familiarize yourself with deploying the corresponding Lync Server 2013 roles:</span></span>
 
-  - [<span data-ttu-id="bd48b-105">Implantando o Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="bd48b-105">Deploying Lync Server 2013</span></span>](lync-server-2013-deploying-lync-server.md)
+  - [<span data-ttu-id="3da4f-105">Implantando o Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3da4f-105">Deploying Lync Server 2013</span></span>](lync-server-2013-deploying-lync-server.md)
 
-  - [<span data-ttu-id="bd48b-106">Implantando o acesso de usuário externo no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="bd48b-106">Deploying external user access in Lync Server 2013</span></span>](lync-server-2013-deploying-external-user-access.md)
+  - [<span data-ttu-id="3da4f-106">Implantando o acesso de usuário externo no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3da4f-106">Deploying external user access in Lync Server 2013</span></span>](lync-server-2013-deploying-external-user-access.md)
 
-  - [<span data-ttu-id="bd48b-107">Implantando clientes e dispositivos no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="bd48b-107">Deploying clients and devices in Lync Server 2013</span></span>](lync-server-2013-deploying-clients-and-devices.md)
+  - [<span data-ttu-id="3da4f-107">Implantando clientes e dispositivos no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3da4f-107">Deploying clients and devices in Lync Server 2013</span></span>](lync-server-2013-deploying-clients-and-devices.md)
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="bd48b-108">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="bd48b-108">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="3da4f-108">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="3da4f-108">In This Section</span></span>
 
-  - [<span data-ttu-id="bd48b-109">Processo de migração</span><span class="sxs-lookup"><span data-stu-id="bd48b-109">Migration process</span></span>](migration-process_1.md)
+  - [<span data-ttu-id="3da4f-109">Processo de migração</span><span class="sxs-lookup"><span data-stu-id="3da4f-109">Migration process</span></span>](migration-process_1.md)
 
-  - [<span data-ttu-id="bd48b-110">Fases de migração</span><span class="sxs-lookup"><span data-stu-id="bd48b-110">Migration phases</span></span>](migration-phases_1.md)
+  - [<span data-ttu-id="3da4f-110">Fases de migração</span><span class="sxs-lookup"><span data-stu-id="3da4f-110">Migration phases</span></span>](migration-phases_1.md)
 
 </div>
 

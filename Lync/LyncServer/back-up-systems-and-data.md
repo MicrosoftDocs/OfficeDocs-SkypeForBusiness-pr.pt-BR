@@ -1,8 +1,8 @@
 ---
 title: Fazer backup de dados e sistemas
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -13,12 +13,12 @@ ms:contentKeyID: 48185550
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 866effa84453cf313a6eb5117b883410e2a1ed6b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 14b8257b6748c6b8dc7db0069b7c10d30ca2b73c
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42181134"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755363"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -26,7 +26,7 @@ ms.locfileid: "42181134"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="back-up-systems-and-data"></a><span data-ttu-id="65cf9-102">Fazer backup de dados e sistemas</span><span class="sxs-lookup"><span data-stu-id="65cf9-102">Back up systems and data</span></span>
+# <a name="back-up-systems-and-data"></a><span data-ttu-id="70203-102">Fazer backup de dados e sistemas</span><span class="sxs-lookup"><span data-stu-id="70203-102">Back up systems and data</span></span>
 
 </div>
 
@@ -36,11 +36,11 @@ ms.locfileid: "42181134"
 
 <span> </span>
 
-<span data-ttu-id="65cf9-103">_**Última modificação do tópico:** 2012-09-18_</span><span class="sxs-lookup"><span data-stu-id="65cf9-103">_**Topic Last Modified:** 2012-09-18_</span></span>
+<span data-ttu-id="70203-103">_**Última modificação do tópico:** 2012-09-18_</span><span class="sxs-lookup"><span data-stu-id="70203-103">_**Topic Last Modified:** 2012-09-18_</span></span>
 
-<span data-ttu-id="65cf9-104">Antes de começar a migração para o Lync Server 2013, é altamente recomendável que você execute um backup completo do sistema e documente o sistema existente, incluindo um inventário de contas de usuário hospedadas em cada pool, para que você possa reverter para o Lync Server 2010 se ele é necessário.</span><span class="sxs-lookup"><span data-stu-id="65cf9-104">Before you begin the migration to Lync Server 2013, we strongly recommend that you perform a full system backup and document your existing system, including an inventory of user accounts that are homed on each pool, so that you can roll back to Lync Server 2010 if it becomes necessary.</span></span> <span data-ttu-id="65cf9-105">Várias ferramentas e programas estão disponíveis para fazer backup e restaurar dados, configurações e sistemas.</span><span class="sxs-lookup"><span data-stu-id="65cf9-105">Multiple tools and programs are available for backing up and restoring data, settings, and systems.</span></span>
+<span data-ttu-id="70203-104">Antes de começar a migração para o Lync Server 2013, é altamente recomendável que você execute um backup completo do sistema e documente o sistema existente, incluindo um inventário de contas de usuário hospedadas em cada pool, para que você possa reverter para o Lync Server 2010, se for necessário.</span><span class="sxs-lookup"><span data-stu-id="70203-104">Before you begin the migration to Lync Server 2013, we strongly recommend that you perform a full system backup and document your existing system, including an inventory of user accounts that are homed on each pool, so that you can roll back to Lync Server 2010 if it becomes necessary.</span></span> <span data-ttu-id="70203-105">Várias ferramentas e programas estão disponíveis para fazer backup e restaurar dados, configurações e sistemas.</span><span class="sxs-lookup"><span data-stu-id="70203-105">Multiple tools and programs are available for backing up and restoring data, settings, and systems.</span></span>
 
-<span data-ttu-id="65cf9-106">Para obter detalhes e procedimentos, consulte [fazendo backup e restaurando o Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkid=265417) .</span><span class="sxs-lookup"><span data-stu-id="65cf9-106">For details and procedures, see [Backing Up and Restoring Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkid=265417) .</span></span>
+<span data-ttu-id="70203-106">Para obter detalhes e procedimentos, consulte [fazendo backup e restaurando o Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkid=265417) .</span><span class="sxs-lookup"><span data-stu-id="70203-106">For details and procedures, see [Backing Up and Restoring Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkid=265417) .</span></span>
 
 </div>
 
