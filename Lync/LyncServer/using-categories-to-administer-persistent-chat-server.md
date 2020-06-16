@@ -1,8 +1,8 @@
 ---
 title: Usando categorias para administrar o servidor de chat persistente
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Using categories to administer Persistent Chat Server
@@ -12,12 +12,12 @@ ms:contentKeyID: 48185628
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0e02a780772cd0e9592bb078ab526a4085a234bc
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 73801c006f7ef5487960628d0f981809cdfd2d38
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189004"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755625"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42189004"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-categories-to-administer-persistent-chat-server"></a><span data-ttu-id="43a3a-102">Usando categorias para administrar o servidor de chat persistente</span><span class="sxs-lookup"><span data-stu-id="43a3a-102">Using categories to administer Persistent Chat Server</span></span>
+# <a name="using-categories-to-administer-persistent-chat-server"></a><span data-ttu-id="f2e70-102">Usando categorias para administrar o servidor de chat persistente</span><span class="sxs-lookup"><span data-stu-id="f2e70-102">Using categories to administer Persistent Chat Server</span></span>
 
 </div>
 
@@ -35,63 +35,63 @@ ms.locfileid: "42189004"
 
 <span> </span>
 
-<span data-ttu-id="43a3a-103">_**Última modificação do tópico:** 2013-10-01_</span><span class="sxs-lookup"><span data-stu-id="43a3a-103">_**Topic Last Modified:** 2013-10-01_</span></span>
+<span data-ttu-id="f2e70-103">_**Última modificação do tópico:** 2013-10-01_</span><span class="sxs-lookup"><span data-stu-id="f2e70-103">_**Topic Last Modified:** 2013-10-01_</span></span>
 
-<span data-ttu-id="43a3a-104">Sua implantação de servidor de chat persistente pode hospedar várias salas de chat persistentes simultâneas.</span><span class="sxs-lookup"><span data-stu-id="43a3a-104">Your Persistent Chat Server deployment can host many concurrent Persistent Chat rooms.</span></span> <span data-ttu-id="43a3a-105">As salas de chat podem ser organizadas em um conjunto de categorias no servidor.</span><span class="sxs-lookup"><span data-stu-id="43a3a-105">Chat rooms can be organized into a set of categories on the server.</span></span> <span data-ttu-id="43a3a-106">Cada sala de chat pertence a uma categoria, e herda algumas configurações dessa categoria.</span><span class="sxs-lookup"><span data-stu-id="43a3a-106">Each chat room belongs to one category, and inherits some settings from that category.</span></span> <span data-ttu-id="43a3a-107">Essa organização cria uma estrutura útil para identificar conversas, com base em suas finalidades de negócio e facilita a administração delegada e o gerenciamento simplificado.</span><span class="sxs-lookup"><span data-stu-id="43a3a-107">This organization creates a useful structure for identifying conversations, based on their business purpose, and facilitates delegated administration and simplified management.</span></span>
-
-<div>
-
-
-> [!NOTE]  
-> <span data-ttu-id="43a3a-108">Embora muitos dos recursos de gerenciamento de salas de chat estejam disponíveis em computadores que executam o chat persistente (Lync Client) para o usuário, os administradores de chat persistente (na função <STRONG>cspersistentchatadministrator</STRONG> ) devem usar o painel de controle do Lync Server ou cmdlets do Windows PowerShell para criar ou gerenciar categorias.</span><span class="sxs-lookup"><span data-stu-id="43a3a-108">Although many of the management features of chat rooms are available in computers running Persistent Chat (Lync client) for the user, Persistent Chat Administrators (in the <STRONG>cspersistentchatadministrator</STRONG> role) must use the Lync Server Control Panel or Windows PowerShell cmdlets to create or manage categories.</span></span>
-
-
-
-</div>
-
-<span data-ttu-id="43a3a-109">Os administradores de chat persistente usam o painel de controle do Lync Server ou cmdlets do Windows PowerShell para criar e gerenciar categorias e para projetar o acesso de salas de chat para os usuários em sua organização.</span><span class="sxs-lookup"><span data-stu-id="43a3a-109">Persistent Chat administrators use Lync Server Control Panel or Windows PowerShell cmdlets to create and manage categories, and to design access for chat rooms for the users in their organization.</span></span>
-
-<span data-ttu-id="43a3a-110">Gerentes de sala de chat persistente, que têm a capacidade de gerenciar uma ou mais salas de chat, podem usar o cliente Lync para iniciar um aplicativo Web de gerenciamento de salas para criar e gerenciar salas (ou os clientes podem criar soluções e fluxos de trabalho personalizados para serem invocados).</span><span class="sxs-lookup"><span data-stu-id="43a3a-110">Persistent Chat room managers, who have the ability to manage one or more chat rooms, can use the Lync client to launch a room management Web application to create and manage rooms (or customers can create custom solutions and workflows to be invoked).</span></span> <span data-ttu-id="43a3a-111">Os administradores de chat persistente também podem usar o painel de controle do Lync Server ou cmdlets do Windows PowerShell para criar e gerenciar salas.</span><span class="sxs-lookup"><span data-stu-id="43a3a-111">Persistent Chat administrators can also use Lync Server Control Panel or Windows PowerShell cmdlets to create and manage rooms.</span></span>
+<span data-ttu-id="f2e70-104">Sua implantação de servidor de chat persistente pode hospedar várias salas de chat persistentes simultâneas.</span><span class="sxs-lookup"><span data-stu-id="f2e70-104">Your Persistent Chat Server deployment can host many concurrent Persistent Chat rooms.</span></span> <span data-ttu-id="f2e70-105">As salas de chat podem ser organizadas em um conjunto de categorias no servidor.</span><span class="sxs-lookup"><span data-stu-id="f2e70-105">Chat rooms can be organized into a set of categories on the server.</span></span> <span data-ttu-id="f2e70-106">Cada sala de chat pertence a uma categoria, e herda algumas configurações dessa categoria.</span><span class="sxs-lookup"><span data-stu-id="f2e70-106">Each chat room belongs to one category, and inherits some settings from that category.</span></span> <span data-ttu-id="f2e70-107">Essa organização cria uma estrutura útil para identificar conversas, com base em suas finalidades de negócio e facilita a administração delegada e o gerenciamento simplificado.</span><span class="sxs-lookup"><span data-stu-id="f2e70-107">This organization creates a useful structure for identifying conversations, based on their business purpose, and facilitates delegated administration and simplified management.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="43a3a-112">Uma sala de chat persistente não pode ter o mesmo nome de uma categoria de chat persistente.</span><span class="sxs-lookup"><span data-stu-id="43a3a-112">A Persistent Chat room cannot have the same name as a Persistent Chat category.</span></span>
+> <span data-ttu-id="f2e70-108">Embora muitos dos recursos de gerenciamento de salas de chat estejam disponíveis em computadores que executam o chat persistente (Lync Client) para o usuário, os administradores de chat persistente (na função <STRONG>cspersistentchatadministrator</STRONG> ) devem usar o painel de controle do Lync Server ou cmdlets do Windows PowerShell para criar ou gerenciar categorias.</span><span class="sxs-lookup"><span data-stu-id="f2e70-108">Although many of the management features of chat rooms are available in computers running Persistent Chat (Lync client) for the user, Persistent Chat Administrators (in the <STRONG>cspersistentchatadministrator</STRONG> role) must use the Lync Server Control Panel or Windows PowerShell cmdlets to create or manage categories.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="43a3a-p103">Os gerentes de sala de chat podem fazer alterações em todas as propriedades de sala de chat, exceto alterar a categoria da sala. Não é possível impedi-los de executar as seguintes ações:</span><span class="sxs-lookup"><span data-stu-id="43a3a-p103">Chat room managers can make changes to all chat room properties, except for changing the category of the room. They cannot be restricted from performing the following actions:</span></span>
+<span data-ttu-id="f2e70-109">Os administradores de chat persistente usam o painel de controle do Lync Server ou cmdlets do Windows PowerShell para criar e gerenciar categorias e para projetar o acesso de salas de chat para os usuários em sua organização.</span><span class="sxs-lookup"><span data-stu-id="f2e70-109">Persistent Chat administrators use Lync Server Control Panel or Windows PowerShell cmdlets to create and manage categories, and to design access for chat rooms for the users in their organization.</span></span>
 
-  - <span data-ttu-id="43a3a-115">Desabilitar uma sala de chat</span><span class="sxs-lookup"><span data-stu-id="43a3a-115">Disabling a chat room</span></span>
-
-  - <span data-ttu-id="43a3a-116">Alterar o nome de uma sala de chat</span><span class="sxs-lookup"><span data-stu-id="43a3a-116">Changing a chat room name</span></span>
-
-  - <span data-ttu-id="43a3a-117">Alterar a descrição de uma sala de chat</span><span class="sxs-lookup"><span data-stu-id="43a3a-117">Changing a chat room description</span></span>
-
-  - <span data-ttu-id="43a3a-118">Alterar um tipo de sala de chat (Auditório versus Normal)</span><span class="sxs-lookup"><span data-stu-id="43a3a-118">Changing a chat room type (Auditorium versus Normal)</span></span>
-
-  - <span data-ttu-id="43a3a-119">Alterar a privacidade de uma sala (aberta versus fechada versus segredo)</span><span class="sxs-lookup"><span data-stu-id="43a3a-119">Changing the privacy of a room (open versus closed versus secret)</span></span>
-
-  - <span data-ttu-id="43a3a-120">Adicionar ou remover membros</span><span class="sxs-lookup"><span data-stu-id="43a3a-120">Adding or removing members</span></span>
-
-  - <span data-ttu-id="43a3a-121">Adicionar ou remover gerentes de sala de chat</span><span class="sxs-lookup"><span data-stu-id="43a3a-121">Adding or removing chat room managers</span></span>
-
-  - <span data-ttu-id="43a3a-122">Adicionar ou remover um suplemento</span><span class="sxs-lookup"><span data-stu-id="43a3a-122">Adding or removing an add-in</span></span>
-
-  - <span data-ttu-id="43a3a-123">Alterar configurações como convites (de acordo com o que é permitido pela categoria)</span><span class="sxs-lookup"><span data-stu-id="43a3a-123">Changing settings such as invitations (according to what’s permitted by the category)</span></span>
+<span data-ttu-id="f2e70-110">Gerentes de sala de chat persistente, que têm a capacidade de gerenciar uma ou mais salas de chat, podem usar o cliente Lync para iniciar um aplicativo Web de gerenciamento de salas para criar e gerenciar salas (ou os clientes podem criar soluções e fluxos de trabalho personalizados para serem invocados).</span><span class="sxs-lookup"><span data-stu-id="f2e70-110">Persistent Chat room managers, who have the ability to manage one or more chat rooms, can use the Lync client to launch a room management Web application to create and manage rooms (or customers can create custom solutions and workflows to be invoked).</span></span> <span data-ttu-id="f2e70-111">Os administradores de chat persistente também podem usar o painel de controle do Lync Server ou cmdlets do Windows PowerShell para criar e gerenciar salas.</span><span class="sxs-lookup"><span data-stu-id="f2e70-111">Persistent Chat administrators can also use Lync Server Control Panel or Windows PowerShell cmdlets to create and manage rooms.</span></span>
 
 <div>
 
-## <a name="delegated-administration"></a><span data-ttu-id="43a3a-124">Administração delegada</span><span class="sxs-lookup"><span data-stu-id="43a3a-124">Delegated Administration</span></span>
 
-<span data-ttu-id="43a3a-125">Criar e gerenciar salas de chat persistente é muito mais fácil com o uso correto de categorias.</span><span class="sxs-lookup"><span data-stu-id="43a3a-125">Creating and managing Persistent Chat rooms is much easier with the correct use of categories.</span></span> <span data-ttu-id="43a3a-126">Um administrador de chat persistente pode definir **Membros permitidos** e **criadores** para cada categoria e também pode definir as configurações e os comportamentos de sala de chat padrão que serão aplicados a todas as salas de chat criadas na categoria.</span><span class="sxs-lookup"><span data-stu-id="43a3a-126">A Persistent Chat Administrator can define **AllowedMembers** and **Creators** for each category, and can also define the default chat room settings and behaviors that will be applied to all chat rooms created in the category.</span></span> <span data-ttu-id="43a3a-127">Administradores de chat persistente criam e gerenciam categorias usando o painel de controle do Lync Server ou cmdlets do Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="43a3a-127">Persistent Chat administrators create and manage categories by using Lync Server Control Panel or Windows PowerShell cmdlets.</span></span>
+> [!NOTE]  
+> <span data-ttu-id="f2e70-112">Uma sala de chat persistente não pode ter o mesmo nome de uma categoria de chat persistente.</span><span class="sxs-lookup"><span data-stu-id="f2e70-112">A Persistent Chat room cannot have the same name as a Persistent Chat category.</span></span>
 
-<span data-ttu-id="43a3a-p105">Usuários, Unidades Organizacionais (OUs) e grupos de usuário identificados como Creators da categoria são os únicos indivíduos e grupos que têm permissão para criar salas na categoria. Após a criação da categoria, eles podem escolher usuários, OUs e grupos de usuário na lista **AllowedMembers** da categoria como gerentes de sala de chat e membros para gerenciar e participar na sala.</span><span class="sxs-lookup"><span data-stu-id="43a3a-p105">Users, Organizational Units (OUs), and user groups that are identified as Creators of the category are the only individuals and groups that are allowed to create rooms in the category. After the category is created, they can choose users, OUs, and user groups from the category’s **AllowedMembers** list as chat room managers and members to manage and participate in the room.</span></span>
 
-<span data-ttu-id="43a3a-130">As salas de chat criadas em uma categoria aderem às políticas e configurações aplicadas pela categoria (por exemplo, quem pode estar na associação da sala, quem pode gerenciar a sala, se os carregamentos de arquivo são permitidos, se os convites são enviados e assim por diante).</span><span class="sxs-lookup"><span data-stu-id="43a3a-130">Chat rooms that are created in a category adhere to the policies and settings enforced by the category (such as who can be in the room’s membership, who can manage the room, whether file uploads are allowed, whether invitations are sent, and so on).</span></span>
+
+</div>
+
+<span data-ttu-id="f2e70-113">Chat room managers can make changes to all chat room properties, except for changing the category of the room.</span><span class="sxs-lookup"><span data-stu-id="f2e70-113">Chat room managers can make changes to all chat room properties, except for changing the category of the room.</span></span> <span data-ttu-id="f2e70-114">They cannot be restricted from performing the following actions:</span><span class="sxs-lookup"><span data-stu-id="f2e70-114">They cannot be restricted from performing the following actions:</span></span>
+
+  - <span data-ttu-id="f2e70-115">Desabilitar uma sala de chat</span><span class="sxs-lookup"><span data-stu-id="f2e70-115">Disabling a chat room</span></span>
+
+  - <span data-ttu-id="f2e70-116">Alterar o nome de uma sala de chat</span><span class="sxs-lookup"><span data-stu-id="f2e70-116">Changing a chat room name</span></span>
+
+  - <span data-ttu-id="f2e70-117">Alterar a descrição de uma sala de chat</span><span class="sxs-lookup"><span data-stu-id="f2e70-117">Changing a chat room description</span></span>
+
+  - <span data-ttu-id="f2e70-118">Alterar um tipo de sala de chat (Auditório versus Normal)</span><span class="sxs-lookup"><span data-stu-id="f2e70-118">Changing a chat room type (Auditorium versus Normal)</span></span>
+
+  - <span data-ttu-id="f2e70-119">Alterar a privacidade de uma sala (aberta versus fechada versus segredo)</span><span class="sxs-lookup"><span data-stu-id="f2e70-119">Changing the privacy of a room (open versus closed versus secret)</span></span>
+
+  - <span data-ttu-id="f2e70-120">Adicionar ou remover membros</span><span class="sxs-lookup"><span data-stu-id="f2e70-120">Adding or removing members</span></span>
+
+  - <span data-ttu-id="f2e70-121">Adicionar ou remover gerentes de sala de chat</span><span class="sxs-lookup"><span data-stu-id="f2e70-121">Adding or removing chat room managers</span></span>
+
+  - <span data-ttu-id="f2e70-122">Adicionar ou remover um suplemento</span><span class="sxs-lookup"><span data-stu-id="f2e70-122">Adding or removing an add-in</span></span>
+
+  - <span data-ttu-id="f2e70-123">Alterar configurações como convites (de acordo com o que é permitido pela categoria)</span><span class="sxs-lookup"><span data-stu-id="f2e70-123">Changing settings such as invitations (according to what’s permitted by the category)</span></span>
+
+<div>
+
+## <a name="delegated-administration"></a><span data-ttu-id="f2e70-124">Administração delegada</span><span class="sxs-lookup"><span data-stu-id="f2e70-124">Delegated Administration</span></span>
+
+<span data-ttu-id="f2e70-125">Criar e gerenciar salas de chat persistente é muito mais fácil com o uso correto de categorias.</span><span class="sxs-lookup"><span data-stu-id="f2e70-125">Creating and managing Persistent Chat rooms is much easier with the correct use of categories.</span></span> <span data-ttu-id="f2e70-126">Um administrador de chat persistente pode definir **Membros permitidos** e **criadores** para cada categoria e também pode definir as configurações e os comportamentos de sala de chat padrão que serão aplicados a todas as salas de chat criadas na categoria.</span><span class="sxs-lookup"><span data-stu-id="f2e70-126">A Persistent Chat Administrator can define **AllowedMembers** and **Creators** for each category, and can also define the default chat room settings and behaviors that will be applied to all chat rooms created in the category.</span></span> <span data-ttu-id="f2e70-127">Administradores de chat persistente criam e gerenciam categorias usando o painel de controle do Lync Server ou cmdlets do Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="f2e70-127">Persistent Chat administrators create and manage categories by using Lync Server Control Panel or Windows PowerShell cmdlets.</span></span>
+
+<span data-ttu-id="f2e70-128">Users, Organizational Units (OUs), and user groups that are identified as Creators of the category are the only individuals and groups that are allowed to create rooms in the category.</span><span class="sxs-lookup"><span data-stu-id="f2e70-128">Users, Organizational Units (OUs), and user groups that are identified as Creators of the category are the only individuals and groups that are allowed to create rooms in the category.</span></span> <span data-ttu-id="f2e70-129">After the category is created, they can choose users, OUs, and user groups from the category’s **AllowedMembers** list as chat room managers and members to manage and participate in the room.</span><span class="sxs-lookup"><span data-stu-id="f2e70-129">After the category is created, they can choose users, OUs, and user groups from the category’s **AllowedMembers** list as chat room managers and members to manage and participate in the room.</span></span>
+
+<span data-ttu-id="f2e70-130">As salas de chat criadas em uma categoria aderem às políticas e configurações aplicadas pela categoria (por exemplo, quem pode estar na associação da sala, quem pode gerenciar a sala, se os carregamentos de arquivo são permitidos, se os convites são enviados e assim por diante).</span><span class="sxs-lookup"><span data-stu-id="f2e70-130">Chat rooms that are created in a category adhere to the policies and settings enforced by the category (such as who can be in the room’s membership, who can manage the room, whether file uploads are allowed, whether invitations are sent, and so on).</span></span>
 
 </div>
 
