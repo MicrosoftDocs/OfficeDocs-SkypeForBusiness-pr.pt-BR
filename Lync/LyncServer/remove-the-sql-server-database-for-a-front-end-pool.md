@@ -1,8 +1,8 @@
 ---
-title: Remover o banco de dados do SQL Server para um pool de front-ends
+title: Remover o banco de dados do Servidor SQL para um pool Front-End
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Remove the SQL Server database for a Front End pool
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733681
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a69972d355ad2870445af14ccfeb097f1d8a6dcb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 10d46868b63236327825f2fe4134330fd055ead2
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189394"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44757273"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42189394"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="remove-the-sql-server-database-for-a-front-end-pool"></a>Remover o banco de dados do SQL Server para um pool de front-ends
+# <a name="remove-the-sql-server-database-for-a-front-end-pool"></a>Remover o banco de dados do Servidor SQL para um pool Front-End
 
 </div>
 
@@ -63,13 +63,13 @@ Após remover um pool de front-ends do Microsoft Lync Server 2010 ou reconfigura
     
         Uninstall-CsDataBase -DatabaseType User -SqlServerFqdn <FQDN> [-SqlInstanceName <instance>]
     
-    Onde \<FQDN\> é o FQDN (nome de domínio totalmente qualificado) do servidor de banco de \<dados\> e instância é a instância de banco de dados nomeada (isto é, se houver uma definida).
+    Onde \<FQDN\> é o nome de domínio totalmente qualificado (FQDN) do servidor de banco de dados e \<instance\> é a instância de banco de dados nomeada (isto é, se houver uma definida).
 
 4.  Para remover o banco de dados do repositório de aplicativos do pool, digite:
     
         Uninstall-CsDataBase -DatabaseType Application -SqlServerFqdn <FQDN> [-SqlInstanceName <instance>]
     
-    Onde \<FQDN\> é o FQDN do servidor de banco de dados \<e\> instância é a instância do banco de dados nomeado (ou seja, se houver uma definida).
+    Onde \<FQDN\> é o FQDN do servidor de banco de dados e \<instance\> é a instância de banco de dados nomeada (isto é, se houver uma definida).
 
 5.  Quando o cmdlet **Uninstall-CsDataBase** solicitar que você confirme as ações, leia as informações e pressione **Y** (ou Enter) para continuar ou pressione **N** e em seguida Enter se desejar interromper o cmdlet (em caso de erros).
 

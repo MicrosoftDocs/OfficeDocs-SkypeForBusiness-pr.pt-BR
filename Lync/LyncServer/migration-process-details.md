@@ -1,8 +1,8 @@
 ---
 title: Processo de migração-detalhes
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Migration process - details
@@ -12,12 +12,12 @@ ms:contentKeyID: 48185412
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6df1eb2e0f69f79bd299f2da4f6f12aaba1bb5d8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 76624475b86427d8e3b1aa4f9efa75c127afcb85
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189944"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756706"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -66,7 +66,7 @@ Certifique-se de que você tenha atendido aos seguintes pré-requisitos antes de
 
 Execute as seguintes etapas para preparar adequadamente os dados de origem para a migração.
 
-1.  Faça backup dos bancos de dados de origem para o Lync Server 2010, o chat de grupo ou o Office Communications Server 2007 R2 Group Chat. Para obter detalhes sobre como fazer backup do SQL Server, consulte "visão geral do backup (SQL <https://go.microsoft.com/fwlink/p/?linkid=254851>Server)" em.
+1.  Faça backup dos bancos de dados de origem para o Lync Server 2010, o chat de grupo ou o Office Communications Server 2007 R2 Group Chat. Para obter detalhes sobre como fazer backup do SQL Server, consulte "visão geral do backup (SQL Server)" em <https://go.microsoft.com/fwlink/p/?linkid=254851> .
     
     <div>
     
@@ -141,7 +141,7 @@ Execute as seguintes etapas para migrar seu servidor de chat de grupo herdado.
 
 8.  Port o Lync Server 2010, o chat de grupo ou o URI do servidor de pesquisa de chat do grupo do Office Communications Server 2007 R2 para o Lync Server 2013, o objeto de contato do servidor de chat persistente. As etapas a seguir são necessárias se seus clientes de chat de grupo do Lync 2010 ou do Office Communicator 2007 R2 precisarem se conectar ao Lync 2013, persistente chat (cliente) mais recente após a migração sem qualquer alteração de configuração do lado do cliente:
     
-      - Exclua a\<OCSChat@ conta de\>usuário DomainName. com do servidor de pesquisa. Isso foi usado para apontar para o serviço de pesquisa no Lync Server 2010, chat de grupo. Você pode desinstalar o pool e remover as entradas confiáveis mais tarde.
+      - Exclua a \<domainName\> conta de usuário do servidor de pesquisa do OCSChat@. com. Isso foi usado para apontar para o serviço de pesquisa no Lync Server 2010, chat de grupo. Você pode desinstalar o pool e remover as entradas confiáveis mais tarde.
     
       - Crie um ponto de extremidade herdado (objeto de contato do servidor de chat persistente) executando o cmdlet do Windows PowerShell, **New-CsPersistentChatEndpoint**, com o URI SIP idêntico para que o cliente herdado funcione efetivamente quando o serviço for reiniciado.
     
@@ -163,7 +163,7 @@ Execute as seguintes etapas para migrar seu servidor de chat de grupo herdado.
     
 
     > [!IMPORTANT]  
-    > O Lync Server 2013 oferece suporte a vários pools de servidores de chat persistente. No entanto, damos suporte à migração de um chat de grupo do Lync 2010&nbsp;ou do pool de chat de grupo do Office Communications Server 2007 R2 para um único servidor Lync Server 2013, persistente pool do servidor de chat. Você pode adicionar novos pools de servidores de chat persistentes à sua implantação para atender às necessidades normativas (por exemplo, manter dados dentro de uma determinada Geografia).
+    > O Lync Server 2013 oferece suporte a vários pools de servidores de chat persistente. No entanto, damos suporte à migração de um chat de grupo do Lync 2010 ou do pool de chat de grupo do Office Communications Server 2007 R2 &nbsp; para um único servidor Lync server 2013, persistente pool do servidor de chat. Você pode adicionar novos pools de servidores de chat persistentes à sua implantação para atender às necessidades normativas (por exemplo, manter dados dentro de uma determinada Geografia).
 
     
     </div>

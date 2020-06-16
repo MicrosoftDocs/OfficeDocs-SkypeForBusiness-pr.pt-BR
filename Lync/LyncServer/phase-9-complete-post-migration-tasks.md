@@ -1,8 +1,8 @@
 ---
 title: 'Fase 9: concluir tarefas de migração'
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: 'Phase 9: Complete post-migration tasks'
@@ -12,12 +12,12 @@ ms:contentKeyID: 48183292
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7d1ef8c74a0ac14fd99cabb676a63ca176697fc9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1e12268cce33526ba2602a2efc9a611ebb211801
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209477"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756332"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -49,15 +49,15 @@ Os tópicos desta seção descrevem as tarefas que você precisará realizar ap�
 
   - [Habilitar o Exchange 2013 Outlook Web App e integração de IM](enable-exchange-2013-outlook-web-app-and-im-integration.md)
 
-  - [Migrar o Catálogo de Endereços](migrate-address-book_1.md)
+  - [Migrar o Catálogo de endereços](migrate-address-book_1.md)
 
   - [Habilitar o controle de chamada remota](enable-remote-call-control.md)
 
-  - [Remover servidores de arquivamento e monitoramento herdados](remove-legacy-archiving-and-monitoring-servers_1.md)
+  - [Remover servidores de Arquivamento e de Monitoramento herdados](remove-legacy-archiving-and-monitoring-servers_1.md)
 
   - [Migrar o Servidor de Mediação](migrate-mediation-server.md)
 
-  - [Configurar servidores de aplicativos confiáveis](configure-trusted-application-servers_1.md)
+  - [Configurar servidores de aplicativo confiáveis](configure-trusted-application-servers_1.md)
 
   - [Configurar a página de ingresso na reunião](configure-the-meeting-join-page_1.md)
 

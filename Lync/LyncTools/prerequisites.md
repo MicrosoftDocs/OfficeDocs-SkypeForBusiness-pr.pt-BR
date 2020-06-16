@@ -1,8 +1,8 @@
 ---
 title: Pré-requisitos
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Prerequisites
@@ -12,12 +12,12 @@ ms:contentKeyID: 51541417
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9a4f10cb1bdf5733dbe54519325475871be10564
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9d8f0ee6a50d40f938a9f2c6f731b0a4afa647ba
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196144"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756882"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -93,9 +93,9 @@ Os computadores que executarão a ferramenta de estresse e desempenho do Lync Se
 
 1.  Você deve estar conectado como um membro do domínio ou do grupo Administradores local.
 
-2.  O Lync Server 2013 estresse e a ferramenta de desempenho (LyncPerfTool. exe) não podem ser executados em um computador que também está executando os componentes do Lync Server 2013.
+2.  O Lync Server 2013 estresse e a ferramenta de desempenho (LyncPerfTool.exe) não podem ser executados em um computador que também está executando os componentes do Lync Server 2013.
 
-3.  Você deve executar a ferramenta de criação de usuário do Lync Server 2013 (UserProvisioningTool. exe) no servidor de front-end ou no servidor Standard Edition onde as contas de usuário residirão. Quando a ferramenta é executada várias vezes, cada usuário habilitado para a comunicação unificada da Microsoft deve ter um número de telefone exclusivo.
+3.  Você deve executar a ferramenta de criação de usuário do Lync Server 2013 (UserProvisioningTool.exe) no servidor de front-end ou no servidor Standard Edition onde as contas de usuário residirão. Quando a ferramenta é executada várias vezes, cada usuário habilitado para a comunicação unificada da Microsoft deve ter um número de telefone exclusivo.
 
 4.  O tamanho do arquivo da página deve ser gerenciado pelo sistema ou deve ser pelo menos 1,5 vezes a quantidade de RAM no sistema.
 

@@ -1,8 +1,8 @@
 ---
 title: Remover o servidor front-end Enterprise Edition ou o servidor front-end Standard Edition
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Remove the Enterprise Edition Front End Server or Standard Edition Front End Server
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733721
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 37091a4cc89b64f03697f7ac44a7cc45ff39070e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 461a7868d0c8a6c00df8dba67ed0135a100d4e84
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189444"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44757242"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -43,15 +43,15 @@ Os procedimentos descritos neste tópico foram projetados para orientá-lo duran
 
 ## <a name="in-this-section"></a>Nesta seção
 
-  - [Redefinir controle de admissão de chamadas](reset-call-admission-control.md)
+  - [Redefinir o controle de admissão de chamada](reset-call-admission-control.md)
 
-  - [Impedir sessões para serviços](prevent-sessions-for-services.md)
+  - [Evitar sessões de serviços](prevent-sessions-for-services.md)
 
   - [Parar os serviços do Lync Server 2010](stop-lync-server-2010-services.md)
 
-  - [Remover um servidor front-end de um pool](remove-a-front-end-server-from-a-pool.md)
+  - [Remover um Servidor Front-End de um pool](remove-a-front-end-server-from-a-pool.md)
 
-  - [Remover pool de front-ends ou servidor Standard Edition](remove-front-end-pool-or-standard-edition-server.md)
+  - [Remover um pool Front-End ou um servidor Standard Edition](remove-front-end-pool-or-standard-edition-server.md)
 
 </div>
 

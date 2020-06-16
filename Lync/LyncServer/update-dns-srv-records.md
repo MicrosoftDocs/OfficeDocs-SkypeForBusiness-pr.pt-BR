@@ -1,8 +1,8 @@
 ---
-title: Atualizar registros SRV DNS
+title: Atualizar registros de DNS SRV
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Update DNS SRV records
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733739
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 40abfa35892b09b3bdc4824a35f0697142980854
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 85b286355f765342a2c7b240f23e0aac1c7daad6
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189134"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755665"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42189134"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="update-dns-srv-records"></a>Atualizar registros SRV DNS
+# <a name="update-dns-srv-records"></a>Atualizar registros de DNS SRV
 
 </div>
 
@@ -45,9 +45,9 @@ Este tópico descreve como atualizar os registros DNS (sistema de nomes de domí
 
 1.  No servidor DNS, clique em **Iniciar**, clique em **Ferramentas Administrativas** e em **DNS**.
 
-2.  Na árvore do console do seu domínio SIP, expanda **zonas de pesquisa direta**, expanda o domínio SIP no qual o Lync Server 2013 está instalado e ** \_** navegue até a configuração TCP.
+2.  Na árvore do console do seu domínio SIP, expanda **zonas de pesquisa direta**, expanda o domínio SIP no qual o Lync Server 2013 está instalado e navegue até a configuração ** \_ TCP** .
 
-3.  No painel direito, clique com o botão direito do mouse em ** \_sipinternaltls** e selecione **Propriedades**.
+3.  No painel direito, clique com o botão direito do mouse em ** \_ sipinternaltls** e selecione **Propriedades**.
 
 4.  Em **host que oferece esse serviço**, atualize o FQDN do host para apontar para o pool do Lync Server 2013.
 
@@ -61,7 +61,7 @@ Este tópico descreve como atualizar os registros DNS (sistema de nomes de domí
 
 3.  Na caixa **Abrir**, digite **cmd** e clique em **OK**.
 
-4.  No prompt de comando, digite FQDN do **nslookup** \<do pool\> de front- \<ends ou FQDN do servidor\>Standard Edition e pressione Enter.
+4.  No prompt de comando, digite **nslookup** \<FQDN of the Front End pool\> ou \<FQDN of the Standard Edition server\> e pressione Enter.
 
 5.  Verifique se recebeu uma resposta que resolve para o endereço IP apropriado para o FQDN.
 

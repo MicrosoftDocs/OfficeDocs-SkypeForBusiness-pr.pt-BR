@@ -1,8 +1,8 @@
 ---
 title: Cmdlets, parâmetros e valores de parâmetro do Windows PowerShell no Skype for Business Online
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Windows PowerShell cmdlets, parameters, and parameter values
@@ -12,12 +12,12 @@ ms:contentKeyID: 56558799
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e9fadf59b353458b2e7c48f597c11b92342e7edc
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.openlocfilehash: 70c7b04c428297e74d0910a42c4136bf4a06dacd
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888660"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755505"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41888660"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-07-05_
+_**Última modificação do tópico:** 2013-07-05_
 
-Se você estiver familiarizado com a janela de comando encontrada em todas as versões do Windows (ou se estiver familiarizado com o MS-DOS), terá um início para aprender como usar o Windows PowerShell. Na janela de comando, digite um comando e pressione ENTER. Em resposta, o computador executa um comando ou um arquivo executável. Por exemplo, para retornar informações sobre todos os arquivos e pastas do diretório atual, digite este comando no prompt de comando e pressione ENTER:
+Se você estiver familiarizado com a janela de comando encontrada em todas as versões do Windows (ou se estiver familiarizado com o MS-DOS), terá uma partida de início quando se trata de aprender a usar o Windows PowerShell. Na janela de comando, digite um comando e pressione ENTER. Em resposta, o computador executa um comando ou um arquivo executável. Por exemplo, para retornar informações sobre todos os arquivos e pastas no diretório atual, digite este comando no prompt de comando e pressione ENTER:
 
 ```console
 dir
 ```
 
-Em seguida, você recebe informações sobre todos os arquivos e pastas no diretório atual:
+Por sua vez, você obtém informações sobre todos os arquivos e pastas no diretório atual:
 
 ```console
     Directory: C:\
@@ -62,13 +62,13 @@ Em seguida, você recebe informações sobre todos os arquivos e pastas no diret
               7 Dir(s)21,386,002,432 bytes free
 ```
 
-Esse é um exemplo de um resultado quando você digita somente o nome de um comando ou um arquivo executável. No entanto, muitos dos comandos executados na janela de comando também aceitam *argumentos*. Os argumentos são partes adicionais de informações que são transmitidas ao comando, que modificam o comportamento do comando. Por exemplo, se você quisesse ver somente os nomes dos arquivos e da pasta no diretório atual, não há outras informações, como o tamanho do arquivo ou da pasta, ou a data e a hora em que a pasta ou pasta foi criada. Nesse caso, você deve acrescentar o argumento **/b** ao executar o comando dir:
+Este é um exemplo de um resultado quando você digita apenas o nome de um comando ou um arquivo executável. No entanto, muitos dos comandos executados dentro da janela de comando também aceitam *argumentos*. Argumentos são partes adicionais de informações que são passadas para o comando, que modificam o comportamento do comando. Por exemplo, se você quisesse ver os nomes dos arquivos e pastas no diretório atual — não há outras informações, como o tamanho do arquivo ou pasta, ou a data e hora em que a pasta ou pasta foi criada. Nesse caso, você deve acrescentar o argumento **/b** ao executar o comando dir:
 
 ```console
 dir /b
 ```
 
-Quando você inclui o argumento **/b** , o comando **dir** relata somente os nomes das pastas e dos arquivos encontrados no diretório atual:
+Quando você inclui o argumento **/b** , o comando **dir** retorna apenas os nomes das pastas e dos arquivos encontrados no diretório atual:
 
 ```console
 Deploy
@@ -83,13 +83,13 @@ RHDSetup.exe
 setup.doc
 ```
 
-No comando anterior, o argumento **/b** é a única informação necessária para limitar os dados retornados a nomes de arquivos e pastas. Geralmente, esse é o caso com comandos de linha de comando: a mera presença de um argumento é tudo o que é necessário para alterar o comportamento do comando. (Ou seja, você inclui o argumento **/b** para ocultar informações adicionais ou exclui o argumento **/b** para mostrar as informações extras.) Em outras ocasiões, no entanto, você deve especificar um *valor de argumento*. Um valor de argumento são informações adicionais passadas para o argumento em si. Por exemplo, o argumento **/o** permite que você especifique como deseja que o comando dir Classifique os dados retornados. Entre outras opções, você pode usar o valor de argumento **e** para classificar por extensão de arquivo ou o valor de argumento **s** para classificar por tamanho do arquivo. Por exemplo, esse comando classifica os dados retornados por extensão de arquivo. Observe como o valor de argumento **e** é incluído imediatamente após o argumento **/o** :
+No comando anterior, o argumento **/b** é a única informação necessária para limitar os dados retornados aos nomes de arquivos e pastas. Isso geralmente é o caso com comandos de linha de comando: a mera presença de um argumento é tudo o que é necessário para alterar o comportamento do comando. (Ou seja, você inclui o argumento **/b** para ocultar informações adicionais ou exclui o argumento **/b** para mostrar as informações extras.) Em outras ocasiões, no entanto, você deve especificar um *valor de argumento*. Um valor de argumento é uma informação adicional passada para o próprio argumento. Por exemplo, o argumento **/o** permite que você especifique como deseja que o comando dir Classifique os dados retornados. Entre outras opções, você pode usar o valor de argumento **e** para classificar por extensão de arquivo ou o valor de argumento **s** para classificar por tamanho de arquivo. Por exemplo, esse comando classifica os dados retornados por extensão de arquivo. Observe como o valor de argumento **e** é incluído imediatamente após o argumento **/o** :
 
 ```console
 dir /oe
 ```
 
-Usando nossa pasta de exemplo, os dados retornados terão a seguinte aparência, com os arquivos classificados em ordem alfabética pela extensão de arquivo:
+Usando nossa pasta de exemplo, os dados retornados terão a seguinte aparência, com os arquivos classificados alfabeticamente por extensão de arquivo:
 
 ```console
     Directory: C:\
@@ -116,15 +116,15 @@ RHDSetup.exe
 pldok.log
 ```
 
-Embora o Windows PowerShell use uma terminologia diferente, a abordagem básica para trabalhar com o Windows PowerShell é a mesma que trabalhar com a janela de comando: você digita comandos, inclui argumentos e valores de argumento conforme necessário e, em seguida, pressiona ENTER para executar esses comandos. Como observado, no entanto, o Windows PowerShell usa uma terminologia diferente do que o Shell de comando usa. No Windows PowerShell, os comandos que você executa são conhecidos como *cmdlets*. Por sua vez, os argumentos passados para um cmdlet são conhecidos como *parâmetros*, e os valores passados para um parâmetro são conhecidos como *valores de parâmetro*.
+Embora o Windows PowerShell use uma terminologia diferente, a abordagem básica para trabalhar com o Windows PowerShell é o mesmo que trabalhar com a janela de comando: você digita comandos, inclui argumentos e valores de argumentos conforme necessário e, em seguida, pressiona ENTER para executar esses comandos. Como observado, no entanto, o Windows PowerShell usa uma terminologia diferente da usada pelo shell de comando. No Windows PowerShell, os comandos executados são conhecidos como *cmdlets*. Por sua vez, os argumentos passados para um cmdlet são conhecidos como *parâmetros*, e os valores passados para um parâmetro são conhecidos como *valores de parâmetro*.
 
-As definições anteriores são um pouco simplificadas. Cmdlets são essencialmente mini-aplicativos que podem ser executados somente de dentro do ambiente do Windows PowerShell. No entanto, você também pode executar outros comandos e aplicativos no Windows PowerShell, incluindo a maioria dos comandos e aplicativos que podem ser executados a partir de uma janela de comando. Por exemplo, se você quiser iniciar o bloco de notas no Windows PowerShell, tudo o que precisa fazer é digitar o seguinte e pressionar ENTER:
+As definições anteriores são um pouco simplificadas. Os cmdlets são, basicamente, aplicativos que podem ser executados apenas de dentro do ambiente do Windows PowerShell. No entanto, você também pode executar outros comandos e aplicativos de dentro do Windows PowerShell, incluindo a maioria dos comandos e aplicativos que podem ser executados a partir de uma janela de comando. Por exemplo, se você deseja iniciar o bloco de notas no Windows PowerShell, tudo o que precisa fazer é digitar o seguinte e pressionar ENTER:
 
 ```console
 notepad.exe
 ```
 
-No entanto, ao gerenciar o Skype for Business Online, a maioria dos administradores confiará nos cmdlets do Windows PowerShell para executar tarefas administrativas. No momento, há poucos outros tipos de comandos ou aplicativos que podem ser usados para gerenciar o Skype for Business online. Às vezes, os cmdlets do Skype for Business Online podem ser usados sem nenhum argumento adicional (, como observado, os argumentos são conhecidos como parâmetros no Windows PowerShell). Por exemplo, o comando a seguir chama o cmdlet [Get-CsOnlineUser](https://technet.microsoft.com/library/JJ994026(v=OCS.15)) sem parâmetros adicionais. Por si só, o comando retorna informações sobre todos os seus usuários do Skype for Business Online:
+No entanto, quando se trata de gerenciar o Skype for Business Online, a maioria dos administradores confiará nos cmdlets do Windows PowerShell para executar tarefas administrativas. No momento, há poucos outros tipos de comandos ou aplicativos que podem ser usados para gerenciar o Skype for Business online. Às vezes, os cmdlets do Skype for Business Online podem ser usados sem nenhum argumento adicional (, conforme observado, os argumentos são conhecidos como parâmetros no Windows PowerShell). Por exemplo, o comando a seguir chama o cmdlet [Get-CsOnlineUser](https://technet.microsoft.com/library/JJ994026(v=OCS.15)) sem parâmetros adicionais. Em si, o comando retorna informações sobre todos os seus usuários do Skype for Business Online:
 
 ```powershell
 Get-CsOnlineUser
@@ -146,7 +146,7 @@ Este comando consiste em três partes:
     -UnassignedUser
     ```
     
-    Isso é útil, não apenas porque os parâmetros devem ser precedidas com um traço, mas também porque isso é diferente da janela de comando, em que os argumentos são precedidas usando uma barra (/):
+    Isso é útil para saber, não apenas porque os parâmetros devem ser precedidas por um traço, mas também porque isso difere da janela de comando, onde os argumentos são precedidas usando uma barra (/):
     
     ```console
     /b
@@ -154,7 +154,7 @@ Este comando consiste em três partes:
 
   - O valor do parâmetro **kenmyer@litwareinc.com**.
 
-Esse comando, incidentalmente, retorna informações sobre um usuário específico: o usuário com a identidade, kenmyer@litwareinc.com.
+Esse comando, incidentalmente, retorna informações sobre um usuário específico: o usuário com a identidade kenmyer@litwareinc.com.
 
 <div>
 

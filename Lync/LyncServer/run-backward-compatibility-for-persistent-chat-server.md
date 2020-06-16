@@ -1,8 +1,8 @@
 ---
 title: Executar compatibilidade com versões anteriores para servidor de chat persistente
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Run backward compatibility for Persistent Chat Server
@@ -12,12 +12,12 @@ ms:contentKeyID: 48184175
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 52d107c13d281001196dcad17604d0bfbbb9e522
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5308d39e4edcfeddf494aa364f6b7ed43b9822dc
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189334"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755765"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,13 +37,13 @@ ms.locfileid: "42189334"
 
 _**Última modificação do tópico:** 2013-02-21_
 
-O ponto de extremidade do Lync Server 2013, do servidor de chat persistente oferece uma maneira de criar uma URL simples que aponta para um pool de servidor de chat persistente. Isso é útil para clientes herdados (Microsoft Office Communications Server 2007 R2 Group Chat Server ou Lync Server 2010, chat de grupo) porque os usuários podem inserir uma URL simples na configuração manual ao tentar apontar o cliente herdado para um computador que executa o Lync 2013, Chat persistente. Este ponto de extremidade não é usado pelo chat persistente e é necessário somente para clientes herdados. Isso é útil para o período provisório onde as salas podem ser migradas, mas os clientes do Lync 2013 não foram implantados em toda a organização. Os usuários que executam o Lync 2010 Group Chat (cliente) ainda podem se conectar ao servidor back-end do servidor de chat persistente.
+O ponto de extremidade do Lync Server 2013, do servidor de chat persistente oferece uma maneira de criar uma URL simples que aponta para um pool de servidor de chat persistente. Isso é útil para clientes herdados (Microsoft Office Communications Server 2007 R2 Group Chat Server ou Lync Server 2010, chat de grupo), pois os usuários podem inserir uma URL simples na configuração manual ao tentar apontar o cliente herdado para um computador executando o Lync 2013, chat persistente. Este ponto de extremidade não é usado pelo chat persistente e é necessário somente para clientes herdados. Isso é útil para o período provisório onde as salas podem ser migradas, mas os clientes do Lync 2013 não foram implantados em toda a organização. Os usuários que executam o Lync 2010 Group Chat (cliente) ainda podem se conectar ao servidor back-end do servidor de chat persistente.
 
 Você não precisa criar vários pontos de extremidade do servidor de chat persistente; Você só precisa de um para cada pool do servidor de chat persistente. Os administradores podem criar vários pontos de extremidade (um por pool), mas os clientes herdados podem estar configurados para conectar-se somente a um pool por vez. No cenário habitual ou importante, a implantação herdade é somente um pool. Uma nova implantação geralmente migra esse pool para um novo Lync Server 2013 e pode adicionar alguns novos pools de servidores de chat persistentes adicionais.
 
 Esse cenário indispensável, geralmente, segue esse padrão:
 
-  - Você administra usuários com um Lync Server 2010, pool de chat de grupo e seus clientes de chat de grupo do Lync 2010 se conectam a esse pool usando alguns usuários conhecidos (SIP padrão\<: OCSChat@ DomainName\>. com ou semelhante a um). Os usuários são serviços de domínio do Active Directory habilitados para SIP e o serviço de pesquisa registra com eles para receber solicitações de entrada.
+  - Você administra usuários com um Lync Server 2010, pool de chat de grupo e seus clientes de chat de grupo do Lync 2010 se conectam a esse pool usando um usuário conhecido (SIP padrão: ocschat@ \<domainName\> . com ou uma similar). Os usuários são serviços de domínio do Active Directory habilitados para SIP e o serviço de pesquisa registra com eles para receber solicitações de entrada.
 
   - Em seguida, você instala um servidor de chat persistente do Lync Server 2013 e um pool de servidor de chat persistente.
 

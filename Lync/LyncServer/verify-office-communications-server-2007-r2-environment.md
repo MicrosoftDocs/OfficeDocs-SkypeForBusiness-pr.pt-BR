@@ -1,8 +1,8 @@
 ---
 title: Verificar o ambiente do Office Communications Server 2007 R2
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Verify Office Communications Server 2007 R2 environment
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733840
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 885b1b08ef2d02c6a3cb3a77b83ca832e70281a5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 14a7ba7e51e6dd1f6e42aeddfbbbd4ce7581d3fc
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188934"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755575"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -63,7 +63,7 @@ Antes de implantar o Lync Server 2013 em um estado de coexistência com o Office
 
 **Verificar a configuração de parceiro federado XMPP herdado**
 
-1.  No servidor XMPP herdado, navegue até o mini-aplicativo Serviços\\de ferramentas administrativas.
+1.  No servidor XMPP herdado, navegue até o mini-aplicativo serviços de ferramentas administrativas \\ .
 
 2.  Verifique se o serviço do Gateway XMPP do Office Communications Server foi inicializado.
     

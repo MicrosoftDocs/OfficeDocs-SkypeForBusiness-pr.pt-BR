@@ -1,8 +1,8 @@
 ---
 title: Configurar
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Setup
@@ -12,12 +12,12 @@ ms:contentKeyID: 51541428
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e3aa6ee2de6ae44875c526e8f07425f2cc8a8bc4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9e6975c37b201edf25bbe470de9bd00abdececcb
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196054"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756852"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -43,7 +43,7 @@ Para instalar as ferramentas fornecidas como parte da ferramenta de estresse e d
 
 ## <a name="installing-the-stress-and-performance-tool"></a>Instalando a ferramenta de estresse e desempenho
 
-Execute o arquivo do Windows Installer, **CapacityPlanningTool. msi**, em cada computador cliente que você usará para simular o tráfego do usuário. Esses computadores cliente não devem estar executando componentes do Lync Server.
+Execute o arquivo do Windows Installer **CapacityPlanningTool.msi**, em cada computador cliente que você usará para simular o tráfego do usuário. Esses computadores cliente não devem estar executando componentes do Lync Server.
 
 </div>
 

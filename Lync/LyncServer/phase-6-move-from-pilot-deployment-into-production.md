@@ -1,8 +1,8 @@
 ---
-title: 'Fase 6: mover da implantação piloto para a produção'
+title: 'Fase 6: Mover da implantação piloto para produção'
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: 'Phase 6: Move from pilot deployment into production'
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733867
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: af65324bc20d47bf12804c045a3c1beb62134fd5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e51e252fe670b85a2aeb3e827b37465be00ac68e
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189644"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44757062"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42189644"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="phase-6-move-from-pilot-deployment-into-production"></a>Fase 6: mover da implantação piloto para a produção
+# <a name="phase-6-move-from-pilot-deployment-into-production"></a>Fase 6: Mover da implantação piloto para produção
 
 </div>
 
@@ -43,9 +43,9 @@ Os tópicos desta seção descrevem tarefas que você deve concluir antes de mov
 
 ## <a name="in-this-section"></a>Nesta seção
 
-  - [Configure o tráfego de mídia e rotas de federação](configure-federation-routes-and-media-traffic.md)
+  - [Configurar rotas de federação e tráfego de mídia](configure-federation-routes-and-media-traffic.md)
 
-  - [Verificar a Federação e o acesso remoto para usuários externos](verify-federation-and-remote-access-for-external-users.md)
+  - [Verificar o acesso remoto e de federação para usuários externos](verify-federation-and-remote-access-for-external-users.md)
 
   - [Alterar URLs simples após a migração](change-simple-urls-after-migration.md)
 

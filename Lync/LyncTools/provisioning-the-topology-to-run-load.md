@@ -1,8 +1,8 @@
 ---
 title: Provisionando a topologia para executar o carregamento
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Provisioning the Topology to Run Load
@@ -12,12 +12,12 @@ ms:contentKeyID: 51541424
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 08f9cd219e70f1f761ac49932b73ca0d8c618121
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a3e08a66397e5c6e7fb5b6111fbdcf6d11d3632a
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196084"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756872"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -67,7 +67,7 @@ Dependendo das configurações e da configuração existentes do Lync Server 201
         Powershell.exe -file <path to the file>
     ```
     
-4.  Normalmente, depois que um dos scripts desse pacote é executado, os rastreamentos resultantes do script serão armazenados em um arquivo no mesmo caminho a partir do qual o script foi invocado \<, chamado\>scriptname $h $ m $ s. txt. Por exemplo, executando ArchivingPolicy. ps1 às 12:15 P.M. o irá gerar um arquivo de log, como ArchivingPolicy121500. txt.
+4.  Normalmente, depois que um dos scripts desse pacote é executado, os rastreamentos resultantes do script serão armazenados em um arquivo no mesmo caminho a partir do qual o script foi invocado, chamado \<scriptname\> $h $ m $s.txt. Por exemplo, a execução de ArchivingPolicy.ps1 às 12:15 P.M. o irá gerar um arquivo de log, como ArchivingPolicy121500.txt.
 
 5.  Por fim, observe que, apesar de fornecermos exemplos para configurar o servidor, você é responsável por modificar ou excluir a configuração após concluir a execução da carga.
 

@@ -1,8 +1,8 @@
 ---
 title: Fases da migração
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Migration phases
@@ -12,12 +12,12 @@ ms:contentKeyID: 48185642
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4d8101e5dee47699421ed83effed3c578c96bfda
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 19594eb5f0e7c2847dfbbf41795574c01b67d0be
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189974"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756812"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -45,7 +45,7 @@ As fases a seguir descrevem o processo de migração de pool do Lync Server 2010
 
 1.  [Fase 1: planejar a migração do Lync Server 2010](phase-1-plan-your-migration-from-lync-server-2010.md)
 
-2.  [Fase 2: preparar-se para a migração](phase-2-prepare-for-migration.md)
+2.  [Fase 2: Preparar para migração](phase-2-prepare-for-migration.md)
 
 3.  [Fase 3: implantar o pool piloto do Lync Server 2013](phase-3-deploy-lync-server-2013-pilot-pool.md)
 
@@ -53,11 +53,11 @@ As fases a seguir descrevem o processo de migração de pool do Lync Server 2010
 
 5.  [Fase 5: Adicionar o servidor de borda do Lync Server 2013 ao pool piloto](phase-5-add-lync-server-2013-edge-server-to-pilot-pool.md)
 
-6.  [Fase 6: mover da implantação piloto para a produção](phase-6-move-from-pilot-deployment-into-production.md)
+6.  [Fase 6: Mover da implantação piloto para produção](phase-6-move-from-pilot-deployment-into-production.md)
 
-7.  [Fase 7: concluir tarefas de migração](phase-7-complete-post-migration-tasks.md)
+7.  [Fase 7: Concluir tarefas pós-migração](phase-7-complete-post-migration-tasks.md)
 
-8.  [Fase 8: encerrar pools herdados](phase-8-decommission-legacy-pools.md)
+8.  [Fase 8: Encerrar os pools herdados](phase-8-decommission-legacy-pools.md)
 
 </div>
 

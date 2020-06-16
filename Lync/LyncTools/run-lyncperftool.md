@@ -1,8 +1,8 @@
 ---
 title: Executar LyncPerfTool
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Run LyncPerfTool
@@ -12,12 +12,12 @@ ms:contentKeyID: 51541437
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3b4c7d7de6dcb2f2eee15e7da0809dd6e3c41e07
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 82df3ee8cfccb91aec4e284674ace72e23a202c4
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196074"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756862"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,22 +37,22 @@ ms.locfileid: "42196074"
 
 _**Última modificação do tópico:** 2013-02-24_
 
-Antes de executar a ferramenta de estresse e desempenho do Lync Server 2013 (LyncPerfTool. exe), você deve criar usuários, contatos e cenários. Para obter detalhes sobre como usar as ferramentas para executar essas ações, consulte [Create Users and contacts](create-users-and-contacts.md) e [Configure User Profile](configure-user-profile.md). A execução dessas ferramentas também gerará um arquivo que executará o LyncPerfTool. exe como parte de um arquivo em lote com os parâmetros necessários incluídos.
+Antes de executar a ferramenta de estresse e desempenho do Lync Server 2013 (LyncPerfTool.exe), você deve criar usuários, contatos e cenários. Para obter detalhes sobre como usar as ferramentas para executar essas ações, consulte [Create Users and contacts](create-users-and-contacts.md) e [Configure User Profile](configure-user-profile.md). A execução dessas ferramentas também gerará um arquivo que será executado LyncPerfTool.exe como parte de um arquivo em lote com os parâmetros necessários incluídos.
 
 <div>
 
 ## <a name="running-the-lync-server-2013-stress-and-performance-tool"></a>Executando a ferramenta de estresse e desempenho do Lync Server 2013
 
-A ferramenta UserProfileGenerator. exe cria um arquivo em lotes que permite que você execute o LyncPerfTool. exe registrando os contadores de desempenho do LyncPerfTool e carregando o arquivo de configuração XML. O arquivo em lotes executa uma instância do LyncPerfTool. exe por arquivo de configuração. Para executar o arquivo em lotes, faça o seguinte:
+A ferramenta UserProfileGenerator.exe cria um arquivo em lotes que permite que você execute LyncPerfTool.exe registrando os contadores de desempenho do LyncPerfTool e carregando o arquivo de configuração XML. O arquivo em lotes executa uma instância do LyncPerfTool.exe por arquivo de configuração. Para executar o arquivo em lotes, faça o seguinte:
 
-1.  Copie a pasta que contém as pastas e os arquivos de configuração para o diretório que contém o LyncStressTool. exe em cada computador cliente. (Por exemplo, se você gerou os arquivos de configuração na pasta chamada 1,28\_13.16.16, copie essa pasta para a pasta que contém o LyncPerfTool. exe em cada cliente.)
+1.  Copie a pasta que contém as pastas e os arquivos de configuração para o diretório que contém LyncStressTool.exe em cada computador cliente. (Por exemplo, se você gerou os arquivos de configuração na pasta chamada 1,28 \_ 13.16.16, copie essa pasta para a pasta que contém LyncPerfTool.exe em cada cliente.)
 
 2.  Navegue até a pasta de cliente numerada apropriadamente e execute o script de lote do RunClient. Você pode simplesmente clicar duas vezes no arquivo em lotes no Windows Explorer e ele executará todos os arquivos de configuração desse número de cliente. Você também pode executar o script a partir da pasta de cliente apropriada usando a seguinte sintaxe:
 
     ```Batch
         RunClient0.bat "C:\Program Files\Microsoft Lync Server 2013\LyncStressAndPerfTool\LyncStress" 
     ```
-Para executar o LyncPerfTool. exe diretamente, abra um prompt de comando e digite o seguinte comando na linha de comando (ao fazer isso pela primeira vez, não se esqueça de registrar os contadores de desempenho regsvr32/i/n/s LyncPerfToolPerf. dll, conforme mostrado na observação mais adiante neste tópico): LyncPerfTool. exe/file:\<configXML\>
+Para executar o LyncPerfTool.exe diretamente, abra um prompt de comando e, em seguida, digite o seguinte comando na linha de comando (ao fazer isso pela primeira vez, não se esqueça de registrar os contadores de desempenho regsvr32/i/n LyncPerfToolPerf.dll, conforme mostrado na observação posteriormente neste tópico) :LyncPerfTool.exe/file:\<configXML\>
 ```Powershell
     LyncPerfTool.exe /file:IM_client0.xml
 ```
@@ -79,7 +79,7 @@ Para finalizar o processo, pressione CTRL + C.
 
 
 > [!NOTE]  
-> Todas as instâncias de LyncPerfTool. exe iniciadas imediatamente começarão a se conectar aos usuários, normalmente a uma taxa de um usuário por segundo. A taxa de entrada de pico do pool de usuários é de cerca de 12 por segundo. Isso significa que você não deve iniciar mais de 12 instâncias do LyncPerfTool ao mesmo tempo, enquanto os usuários ainda estão entrando. 1000 os usuários levarão cerca de 20 minutos para entrar totalmente, de uma por segundo.
+> Cada instância do LyncPerfTool.exe que você inicia imediatamente começará a se conectar aos usuários, normalmente com uma taxa de um usuário por segundo. A taxa de entrada de pico do pool de usuários é de cerca de 12 por segundo. Isso significa que você não deve iniciar mais de 12 instâncias do LyncPerfTool ao mesmo tempo, enquanto os usuários ainda estão entrando. 1000 os usuários levarão cerca de 20 minutos para entrar totalmente, de uma por segundo.
 
 
 

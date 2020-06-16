@@ -1,8 +1,8 @@
 ---
 title: Mover objetos de contato de Unificação de mensagens do Exchange
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Move Exchange Unified Messaging Contact objects
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733612
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 02c9a16251ca49d4d5179ed3ad72e4d0307beb4b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f3b3091a342b46b5c1aad1d456aa9159d951a4ba
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189884"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756610"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -47,7 +47,7 @@ Para migrar objetos de contato do atendedor automático (AA) e de acesso do assi
 
 
 > [!NOTE]  
-> Para usar os cmdlets <STRONG>Get-CsExUmContact</STRONG> e <STRONG>Move-CsExUmContact</STRONG>, é preciso ser membro do grupo RTCUniversalUserAdmins e ter permissão de OU (unidade organizacional) para a OU em que os objetos de contato estão armazenados. A permissão de OU pode ser concedida usando o cmdlet <STRONG>Grant-OUPermission</STRONG>.
+> In order to use the <STRONG>Get-CsExUmContact</STRONG> and <STRONG>Move-CsExUmContact</STRONG> cmdlets, you must be a member of the RTCUniversalUserAdmins group and have organizational unit (OU) permission to the OU where the contacts objects are stored. OU permission can be granted using the <STRONG>Grant-OUPermission</STRONG> cmdlet.
 
 
 
@@ -75,9 +75,9 @@ Para migrar objetos de contato do atendedor automático (AA) e de acesso do assi
 
 2.  Navegue até o script ExchUCUtil do Windows PowerShell.
     
-    No Exchange 2007, ExchUCUtil. ps1 está localizado em: **% arquivos de programas\\%\\scripts\\de\\servidor do Microsoft Exchange ExchUCUtil. ps1**
+    No Exchange 2007, o ExchUCUtil.ps1 está localizado em: **% arquivos de programas% \\ scripts do Microsoft \\ Exchange Server \\ \\ExchUCUtil.ps1**
     
-    No Exchange 2010, ExchUCUtil. ps1 está localizado em: **% arquivos de programas\\%\\scripts\\do\\Microsoft\\Exchange Server v14 ExchUCUtil. ps1**
+    No Exchange 2010, o ExchUCUtil.ps1 está localizado em: **% arquivos de programas% \\ scripts do Microsoft \\ Exchange Server \\ v14 \\ \\ExchUCUtil.ps1**
 
 3.  Se o Exchange estiver implantado em uma única floresta, digite:
     

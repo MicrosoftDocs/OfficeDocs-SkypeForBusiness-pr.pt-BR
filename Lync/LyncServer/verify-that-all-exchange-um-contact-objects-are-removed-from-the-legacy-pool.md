@@ -1,8 +1,8 @@
 ---
 title: Verificar se todos os objetos de contato do UM do Exchange foram removidos do pool herdado
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Verify that all Exchange UM Contact objects are removed from the legacy pool
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733664
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7815f78dfa5f2b4aab3f09102a9948498c20cf10
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6e638dc7e0172c3187859797776f8e64372c81d5
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188844"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755545"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -39,7 +39,7 @@ _**Última modificação do tópico:** 2012-09-26_
 
 Use a ferramenta **OCSUmUtil** ou o cmdlet **Get-CsExumContact** para verificar se os objetos de contato do um do Exchange foram removidos do pool herdado do Office Communications Server 2007 R2. **OCSUmUtil** está localizado na seguinte pasta:
 
-% Arquivos de programa\\% arquivos\\comuns do Lync\\Server\\2013 suportam ocsumutil. exe
+% Arquivos de programa% \\ Arquivos comuns \\ do Lync Server 2013 \\ \\OcsUMUtil.exe
 
 **OCSUmUtil** precisa ser executado a partir de uma conta de usuário que tenha:
 

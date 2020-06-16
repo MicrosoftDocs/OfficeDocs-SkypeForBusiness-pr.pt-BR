@@ -1,8 +1,8 @@
 ---
 title: Os cmdlets de relatório do Skype for Business Online e o serviço Web REST
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: The Skype for Business Online reporting cmdlets and REST web service
@@ -12,12 +12,12 @@ ms:contentKeyID: 56563409
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 63cbce4dda006bb45606a09eef29d8c47946ad2a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f40d394ba69cf017c11d4eb6cd57246a9d425c0f
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189174"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755695"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -51,7 +51,7 @@ Os cmdlets de relatórios disponíveis para os administradores incluem:
 
   - Get-CsP2PSessionReport, que fornece informações sobre o número e o tipo de sessões ponto a ponto nas quais os usuários participaram.
 
-A maioria dos administradores usará os relatórios disponíveis no centro de administração do Microsoft 365: não apenas esses relatórios são gerados automaticamente, mas também fornecem uma representação gráfica dos dados que costumam ser mais fáceis de interpretar do que os valores de números brutos retornados pelo cmdlets de relatório. No entanto, os administradores familiarizados com o Windows PowerShell podem usar os cmdlets de relatório para retornar dados que não estão prontamente disponíveis nos relatórios do Lync Online. Por exemplo, os cmdlets de relatório retornam informações sobre a duração da sessão (a quantidade de tempo, em minutos, que cada sessão lasted). As durações de sessão individual não estão disponíveis usando os relatórios do Lync Online. Da mesma forma, em modo de exibição diário, os relatórios do Lync Online exibem informações somente nos 14 dias precedentes. Se quiser rever os totais diários de um dia diferente (por exemplo, uma data de quatro meses atrás), você pode fazer isso usando os cmdlets de relatório.
+A maioria dos administradores usará os relatórios disponíveis no centro de administração do Microsoft 365: não apenas esses relatórios são gerados automaticamente, mas também fornecem uma representação gráfica dos dados que costumam ser mais fáceis de interpretar do que os valores de números brutos retornados pelos cmdlets de relatório. No entanto, os administradores familiarizados com o Windows PowerShell podem usar os cmdlets de relatório para retornar dados que não estão prontamente disponíveis nos relatórios do Lync Online. Por exemplo, os cmdlets de relatório retornam informações sobre a duração da sessão (a quantidade de tempo, em minutos, que cada sessão lasted). As durações de sessão individual não estão disponíveis usando os relatórios do Lync Online. Da mesma forma, em modo de exibição diário, os relatórios do Lync Online exibem informações somente nos 14 dias precedentes. Se quiser rever os totais diários de um dia diferente (por exemplo, uma data de quatro meses atrás), você pode fazer isso usando os cmdlets de relatório.
 
 Os administradores também podem estar interessados no artigo [usando o Excel para recuperar dados de relatórios do office 365](https://msdn.microsoft.com/library/dn781442.aspx), que explica como usar o recurso de consulta de dados OData no Microsoft Excel para criar um relatório personalizado do Office 365. Relatórios personalizados oferecem a capacidade de ditar quais dados (e quantos dados) são retornados do serviço de relatórios do Office 365. Relatórios personalizados também permitem que você faça coisas como especificar como os dados devem ser classificados e agrupados e fornecer acesso a informações que não são exibidas no centro de administração.
 
