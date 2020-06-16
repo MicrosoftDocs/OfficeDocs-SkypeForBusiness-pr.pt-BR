@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: O administrador pode saber qual controlador de borda de sessão (SBCs) foi certificado para roteamento direto.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5b6e79b38ae92c3a2387b91e0d254f99f8412da5
-ms.sourcegitcommit: d664ef6994e242bf18a29dac31286c78c163478a
+ms.openlocfilehash: 1c1805ec472a36389cd6b45d5d344438b41a5a32
+ms.sourcegitcommit: d0d37351c37c2b4db9b0fc51b286dd548f5b9542
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "44710795"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "44735431"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Lista de controladores de borda da sessão certificados para Roteamento Direto
 
@@ -72,7 +72,7 @@ A tabela a seguir lista os dispositivos certificados para Roteamento Direto.
 |                                                                                                                    |      VME           |    &#10004;    |    &#10004;    |     8.3.0.0.1   |   <ul> <li> [Roteamento de localização dinâmica da largura de banda](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[Serviço de roteamento de emergência inentrada (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Inentrada do gateway de emergência (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>  |  &#10004;  |    
 |                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      3,20 compatível (4,0 recomendado)        |     |    |    
 |                     [Metaswitch](https://www.metaswitch.com/products/core-network/perimeta-sbc)                               |     Perimeta SBC        |     &#10004;   |  |      4,7      |     |    |  
-|                     [Cisco](http://www.cisco.com/go/cube)                               |     Elemento de borda unificada da Cisco (cubo) para roteadores de serviços integrados da série 1000        |     &#10004;   |  |      IOS XE de Amsterdã 17.2.1 r      |     |   |  
+|                     [Cisco](https://www.cisco.com/c/en/us/solutions/enterprise/interoperability-portal/networking_solutions_products_genericcontent0900aecd805bd13d.html)                               |     Elemento de borda unificada da Cisco (cubo) para roteadores de serviços integrados da série 1000        |     &#10004;   |  |      IOS XE de Amsterdã 17.2.1 r      |     |   |  
 |                                   |     Elemento de borda unificada da Cisco (cubo) para roteadores de serviços integrados da série 4000        |     &#10004;   |  |      IOS XE de Amsterdã 17.2.1 r      |     |    |  
 |                                   |     Elemento de borda unificada da Cisco (cubo) para roteador de serviços de nuvem da série 1000V       |     &#10004;   |  |      IOS XE de Amsterdã 17.2.1 r      |     |    |  
 |                                 |     Elemento de borda unificada da Cisco (cubo) para roteadores de serviços de agregação da série 1000      |     &#10004;   |  |      IOS XE de Amsterdã 17.2.1 r      |     |    |  
@@ -91,6 +91,7 @@ A tabela a seguir lista os dispositivos que são verificados quanto à interoper
   | [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  AP6300 software versão 8.3.0.1.2|     &#10004;     |
   | [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  AP6350 software versão 8.3.0.1.2|     &#10004;     |
   | [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  VME software versão 8.3.0.1.2 |     &#10004;     |
+  | [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/) |  anynode com Grandstream GXW42xx (V 1.0.7.10) |     &#10004;     |
 
 Para nos enviar comentários sobre o produto sobre o Microsoft Teams, como ideias para novos recursos, consulte [UserVoice](https://microsoftteams.uservoice.com).
 Observe a certificação concedida a uma versão principal. Isso significa que o firmware com qualquer número no firmware SBC após a versão principal tem suporte.

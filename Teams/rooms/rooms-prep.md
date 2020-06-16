@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Saiba como preparar sua infraestrutura para a implantação de salas do Microsoft Teams para que você possa aproveitar todos os recursos.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4309140e249f5ab3674f0b2255ae195821922ad4
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 8551bc625b270b8b61de4be71ceb772a1d1ede47
+ms.sourcegitcommit: d0d37351c37c2b4db9b0fc51b286dd548f5b9542
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666163"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "44735421"
 ---
 # <a name="prepare-your-environment"></a>Preparar seu ambiente
 
@@ -53,7 +53,7 @@ Uma *conta de dispositivo* é uma conta que o cliente de salas do Microsoft Team
 Para funcionar corretamente, o dispositivo de salas Microsoft Teams deve ter acesso a uma rede com fio que atenda a esses requisitos:
   
 - Acessar a instância do Active Directory ou do Azure Active Directory (Azure AD), bem como o servidores Microsoft Exchange e Skype for Business.
-- Acesso a um servidor que pode fornecer um endereço IP usando DHCP. As salas do Microsoft Teams não podem ser configuradas com um endereço IP estático.
+- Acesso a um servidor que pode fornecer um endereço IP usando DHCP. As salas do Microsoft Teams não podem ser configuradas com um endereço IP estático na primeira unidade de inicialização.
 - Acessar as portas HTTP 80 e 443.
 - Portas TCP e UDP configuradas conforme descrito em [requisitos de protocolo e porta para servidores](/skypeforbusiness/plan-your-deployment/network-requirements/ports-and-protocols) para implementações do Skype for Business Server no local, ou [URLs do Microsoft 365 e do Office 365 e intervalos de endereços IP](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US) para as implementações do Microsoft Teams ou do Skype for Business online.
 
@@ -104,7 +104,7 @@ As salas do Microsoft Teams foram projetadas para herdar as configurações de p
     
 11. Voltando à tela de entrada, escolha o usuário **Skype**. Se todas as etapas anteriores tiverem sido bem-sucedidas, o dispositivo de salas do Microsoft Teams entrará com êxito.
     
-Para usar esse aplicativo, você deve poder conectar-se aos pontos de extremidades descritos abaixo. Para ver os endereços IP, expanda a seção de endereços IP abaixo da tabela que descreve o fluxo de tráfego.
+To use this application, you must be able to connect to the endpoints described below. To see the IP addresses, expand the IP address section below the table describing the traffic flow.
   
 **Exemplos de Porta/Nome de host de proxy firewall**
 
@@ -118,7 +118,7 @@ Para usar esse aplicativo, você deve poder conectar-se aos pontos de extremidad
 |Áudio  <br/> |Computador cliente ou usuário conectado  <br/> |TCP/UDP 50.000-50019  <br/> |\*. contoso.com  <br/> |Não  <br/> |Sim  <br/> |[Intervalos de IP do Skype for Business](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443, UDP 3478, TCP/UDP 50.000-59.999  <br/> |
 |Vídeo  <br/> |Computador cliente ou usuário conectado  <br/> |TCP/UDP 50.020-50039  <br/> |\*. contoso.com  <br/> |Não  <br/> |Sim  <br/> |[Intervalos de IP do Skype for Business](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443, UDP 3478, TCP/UDP 50.000-59.999  <br/> |
 |Compartilhamento de área de trabalho  <br/> |Computador cliente ou usuário conectado  <br/> |TCP/UDP 50.040-50059  <br/> |\*. contoso.com  <br/> |Não  <br/> |Sim  <br/> |[Intervalos de IP do Skype for Business](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443, 50.000-59.999  <br/> |
-|Notificações por push do Lync Mobile para o Lync Mobile 2010 em dispositivos iOS. Você não precisa disso para dispositivos móveis Android, Nokia Symbian ou Windows Phone.  <br/> |Computador cliente ou usuário conectado  <br/> |Portas efêmeras  <br/> |\*. contoso.com  <br/> |Não  <br/> |Sim  <br/> |[Intervalos de IP do Skype for Business](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 5223  <br/> |
+|Lync Mobile push notifications for Lync Mobile 2010 on iOS devices. You don't need this for Android, Nokia Symbian or Windows Phone mobile devices.  <br/> |Computador cliente ou usuário conectado  <br/> |Portas efêmeras  <br/> |\*. contoso.com  <br/> |Não  <br/> |Sim  <br/> |[Intervalos de IP do Skype for Business](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 5223  <br/> |
 |Telemetria do Skype  <br/> |Computador cliente ou usuário conectado  <br/> |Portas efêmeras  <br/> |skypemaprdsitus.trafficmanager.net  <br/> pipe.skype.com  <br/> |Não  <br/> |Não  <br/> |N/D  <br/> |TCP 443  <br/> |
 |Dicas rápidas do cliente Skype  <br/> |Computador cliente ou usuário conectado  <br/> |Portas efêmeras  <br/> |quicktips.skypeforbusiness.com  <br/> |Não  <br/> |Não  <br/> |N/D  <br/> |TCP 443  <br/> |
 
@@ -144,7 +144,7 @@ A Conta de Dispositivo normalmente não usa senha. É possível atribuir a ela u
   
 ### <a name="admin---local-administrator-account"></a>"Administrador" - Conta do Administrador Local
 
-Sala de salas do Microsoft Teams a senha padrão é definida como "SFB". A senha pode ser alterada localmente acessando as configurações \> do Windows vá para Windows ou no arquivo Autounattend. XML (use o Gerenciador de imagem de sistema do Windows do ADK para fazer a alteração no arquivo XML).
+Sala de salas do Microsoft Teams a senha padrão é definida como "SFB". A senha pode ser alterada localmente acessando as configurações do Windows \> vá para Windows ou no arquivo AutoUnattend.xml (use o Gerenciador de imagem de sistema do Windows do ADK para fazer a alteração no arquivo XML).
   
 > [!CAUTION]
 > Certifique-se de alterar a senha das salas do Microsoft Teams assim que possível. 
