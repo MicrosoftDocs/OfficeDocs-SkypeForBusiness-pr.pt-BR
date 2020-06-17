@@ -1,8 +1,8 @@
 ---
-title: Redefinir controle de admissão de chamada
+title: Redefinir o controle de admissão de chamada
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -10,27 +10,27 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Se um pool de front-end herdado estiver hospedando o controle de admissão de chamadas (CAC), você deverá mover a hospedagem do CAC para um pool do Skype for Business Server 2019 antes de poder remover o pool de front-end herdado.
-ms.openlocfilehash: cbc481e55d044ef196bd91dbfa8f7ebc796f28b5
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Se um pool de front-ends herdado estiver hospedando o CAC (controle de admissão de chamadas), você deverá mover a hospedagem de CAC para um pool do Skype for Business Server 2019 antes de poder remover o pool de front-ends herdado.
+ms.openlocfilehash: 850ab5c13483d024d52c483c63ef09468f8374b3
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41812799"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44753293"
 ---
-# <a name="reset-call-admission-control"></a>Redefinir controle de admissão de chamada
+# <a name="reset-call-admission-control"></a>Redefinir o controle de admissão de chamada
 
-Se um pool de front-end herdado estiver hospedando o controle de admissão de chamadas (CAC), você deverá mover a hospedagem do CAC para um pool do Skype for Business Server 2019 antes de poder remover o pool de front-end herdado.
+Se um pool de front-ends herdado estiver hospedando o CAC (controle de admissão de chamadas), você deverá mover a hospedagem de CAC para um pool do Skype for Business Server 2019 antes de poder remover o pool de front-ends herdado.
   
 ### <a name="to-reset-cac"></a>Para redefinir o CAC
 
-1. Abrir o construtor de topologias.
+1. Abra o Construtor de Topologia.
     
-2. Clique com o botão direito do mouse no nó do site e, em seguida, clique em **Editar propriedades**.
+2. Clique com o botão direito no nó do site e, em seguida, clique em **Editar propriedades**.
     
-3. Em **configuração de controle de admissão de chamada**, verifique se a opção **habilitar controle de admissão de chamadas** está selecionada. 
+3. Em **Configuração de Controle de Admissão de Chamadas**, certifique-se de que a opção ** Habilitar controle de admissão de chamadas** está selecionada. 
     
-4. Em **pool de front-ends para executar o controle de admissão de chamadas (CAC)**, selecione o pool do Skype for Business Server 2019 para hospedar o CAC e, em seguida, clique em **OK**.
+4. Em **pool de front-ends para executar o CAC (controle de admissão de chamadas)**, selecione o pool do Skype for Business Server 2019 que deve hospedar o CAC e clique em **OK**.
     
 5. Publique a topologia.
     

@@ -1,8 +1,8 @@
 ---
-title: Preparar para migração da fase 2
+title: Fase 2 preparar para a migração
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: fa6fef59-9d3a-4bda-acda-960734e4cb1a
 description: Antes de começar a migração para o Skype for Business Server 2019, siga as etapas descritas nesta seção.
-ms.openlocfilehash: 8fe77953f9e96b83ba90dfcd52f49a640ea1566c
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 74a59bb9f7617fd02f4b1f714e1f1d96dacac603
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41813219"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44752353"
 ---
 # <a name="phase-2-prepare-for-migration"></a>Fase 2: Preparar para migração
 

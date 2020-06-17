@@ -1,8 +1,8 @@
 ---
 title: Evitar sessões de serviços
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Você pode usar o painel de controle de instalações herdadas para impedir novas sessões para todos os serviços herdados em execução em um computador específico ou para impedir novas sessões para um serviço herdado específico.
-ms.openlocfilehash: 5bba30bee0fb8c25bed25e2c3cbd593179aa9b97
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: c5cc8846febaf690376e01c36b9fa023b8377970
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41813049"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44752283"
 ---
 # <a name="prevent-sessions-for-services"></a>Evitar sessões de serviços
 
@@ -24,35 +24,35 @@ Você pode usar o painel de controle de instalações herdadas para impedir nova
   
 ## <a name="to-prevent-new-sessions-for-services-on-a-computer"></a>Para impedir novas sessões para serviços em um computador
 
-1. Em uma conta de usuário que é membro do grupo RTCUniversalServerAdmins (ou tem direitos de usuário equivalentes) ou atribuído à função CsServerAdministrator ou CsAdministrator, faça logon em qualquer computador que esteja na rede na qual você implantou o Skype for Business Server 2019.
+1. A partir de uma conta de usuário que seja membro do grupo RTCUniversalServerAdmins (ou tenha direitos de usuário equivalentes) ou atribuída à função CsServerAdministrator ou CsAdministrator, faça logon em qualquer computador que esteja na rede na qual você implantou o Skype for Business Server 2019.
     
 2. Abra o painel de controle do Skype for Business.
     
-3. Na barra de navegação esquerda, clique em **Topologia** e em **Status**. 
+3. Na barra de navegação à esquerda, clique em **Topologia** e em **Status**.
     
-4. Na página **status** , classifique ou pesquise a lista, conforme necessário, para localizar o computador que está executando os serviços para os quais você deseja impedir novas sessões e, em seguida, clique nela. 
+4. Na página **Status**, classifique ou pesquise na lista conforme o necessário para encontrar o computador que está executando os serviços para os quais você deseja impedir novas sessões e clique nele. 
     
-5. Clique em **ação**.
+5. Clique em **Ação**.
     
-6. Clique em **impedir novas sessões para todos os serviços**.
+6. Clique em **Impedir novas sessões para todos os serviços**.
     
-## <a name="to-prevent-new-sessions-for-a-specific-service"></a>Para impedir novas sessões para um serviço específico
+## <a name="to-prevent-new-sessions-for-a-specific-service"></a>Para Impedir novas sessões para um serviço específico
 
-1. Em uma conta de usuário que é membro do grupo RTCUniversalServerAdmins (ou tem direitos de usuário equivalentes) ou atribuído à função CsServerAdministrator ou CsAdministrator, faça logon em qualquer computador que esteja na rede na qual você implantou o Skype for Business Server 2019.
+1. A partir de uma conta de usuário que seja membro do grupo RTCUniversalServerAdmins (ou tenha direitos de usuário equivalentes) ou atribuída à função CsServerAdministrator ou CsAdministrator, faça logon em qualquer computador que esteja na rede na qual você implantou o Skype for Business Server 2019.
     
 2. Abra o painel de controle do Skype for Business.
     
-3. Na barra de navegação esquerda, clique em **Topologia** e em **Status**. 
+3. Na barra de navegação à esquerda, clique em **Topologia** e em **Status**.
     
-4. Na página **status** , classifique ou pesquise a lista, conforme necessário, para localizar o computador que está executando o serviço que você deseja iniciar ou parar e, em seguida, clique nele. 
+4. Na página **Status**, classifique ou pesquise na lista conforme o necessário para encontrar o computador que está executando o serviço que você deseja iniciar ou interromper e clique nele. 
     
 5. Clique em **Propriedades**.
     
-6. Classifique a lista de serviços, se necessário, e clique no serviço para o qual você deseja impedir novas sessões.
+6. Classifique a lista de serviços, se necessário e clique no serviço para o qual você deseja impedir novas sessões.
     
-7. Clique em **ação**.
+7. Clique em **Ações**.
     
-8. Clique em **impedir novas sessões para o serviço**.
+8. Clique em **Impedir novas sessões para o serviço**.
     
 9. Clique em **Fechar**.
     

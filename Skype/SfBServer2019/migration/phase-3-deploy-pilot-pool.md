@@ -1,8 +1,8 @@
 ---
 title: Fase 3 implantar o pool piloto do Skype for Business Server 2019
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -11,17 +11,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: f12b1517-fb56-4ded-8323-57aa9fc9ea48
-description: Esta seção aborda as etapas necessárias para implantar um pool piloto do Skype for Business Server 2019. A implantação do Skype for Business Server 2019 requer o uso do construtor de topologias para definir sua topologia e os componentes que você deseja implantar, preparando seu ambiente para a implantação do Skype for Business Server 2019 componentes, publicando sua topologia Crie no primeiro servidor front-end e, em seguida, instalando e Configurando o software Skype for Business Server 2019 para os componentes da sua implantação. Quando concluído, a implantação do pool piloto do Skype for Business Server 2019 coexistirá com um pool herdado existente.
-ms.openlocfilehash: ea3b2f57b3d427cb7ede2d012e092f317d2d6edd
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Esta seção aborda as etapas necessárias para implantar um pool piloto do Skype for Business Server 2019. A implantação do Skype for Business Server 2019 requer o uso do construtor de topologias para definir sua topologia e os componentes que você deseja implantar, preparando seu ambiente para implantação dos componentes do Skype for Business Server 2019, publicando seu design de topologia no primeiro servidor front-end e Instalando e Configurando o software do Skype for Business Server 2019 para os componentes da sua implantação. Quando a instalação for concluída, a implantação do pool piloto do Skype for Business Server 2019 coexistirá com um pool herdado existente.
+ms.openlocfilehash: 53cbb0eca580a7dd70cf638a219615eafce8c14e
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41813199"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44752343"
 ---
 # <a name="phase-3-deploy-skype-for-business-server-2019-pilot-pool"></a>Fase 3: implantar o pool piloto do Skype for Business Server 2019
 
-Esta seção aborda as etapas necessárias para implantar um pool piloto do Skype for Business Server 2019. A implantação do Skype for Business Server 2019 requer o uso do construtor de topologias para definir sua topologia e os componentes que você deseja implantar, preparando seu ambiente para a implantação do Skype for Business Server 2019 componentes, publicando sua topologia Crie no primeiro servidor front-end e, em seguida, instalando e Configurando o software Skype for Business Server 2019 para os componentes da sua implantação. Quando concluído, a implantação do pool piloto do Skype for Business Server 2019 coexistirá com um pool herdado existente.
+Esta seção aborda as etapas necessárias para implantar um pool piloto do Skype for Business Server 2019. A implantação do Skype for Business Server 2019 requer o uso do construtor de topologias para definir sua topologia e os componentes que você deseja implantar, preparando seu ambiente para implantação dos componentes do Skype for Business Server 2019, publicando seu design de topologia no primeiro servidor front-end e Instalando e Configurando o software do Skype for Business Server 2019 para os componentes da sua implantação. Quando a instalação for concluída, a implantação do pool piloto do Skype for Business Server 2019 coexistirá com um pool herdado existente.
   
 ## <a name="in-this-section"></a>Nesta seção
 

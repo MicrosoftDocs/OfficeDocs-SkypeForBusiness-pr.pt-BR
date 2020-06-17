@@ -1,8 +1,8 @@
 ---
 title: Alterar URLs simples após a migração
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -11,41 +11,41 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: O Skype for Business Server oferece suporte a URLs simples.
-ms.openlocfilehash: ab820c1b24eb9b2e8befc85a34e82d068c9083ea
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 1b25dd74f5bdca433554091b3f8ce1c1d2dfa8ce
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41813879"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44753901"
 ---
 # <a name="change-simple-urls-after-migration"></a>Alterar URLs simples após a migração
 
 O Skype for Business Server oferece suporte a três URLs simples:
   
-- A **reunião** é usada como a URL base para todas as conferências no site ou na organização. Com a URL simples de reunião, os links para ingressar em reuniões são fáceis de compreender e fáceis de se comunicar e distribuir. 
+- **Reunir** é usado como URL base para todas as conferências no site ou na organização. Com o URL Reunir simples, os links para ingressar em reuniões são fáceis de compreender, de comunicar e distribuir. 
     
-- A **discagem** permite o acesso à página da Web configurações de conferência discada. A URL simples Dial-in é incluída em todos os convites de reunião para que os usuários que desejam discar para a reunião possam acessar o número de telefone e as informações de PIN necessárias. 
+- **Discar** possibilita o acesso à página da web Configurações de Conferência Discada. O URL Discar é incluído em todos os convites de reuniões para que o usuário que desejar discar para ingressar na reunião possa obter acesso ao número de telefone necessário, bem como as informações do PIN. 
     
-- O **administrador** permite acesso rápido ao painel de controle do Skype for Business Server. A URL simples de Admin é parte interna da sua organização. 
+- O **administrador** permite acesso rápido ao painel de controle do Skype for Business Server. A URL simples de Admin é interna à organização. 
     
-Depois de migrar para o Skype for Business Server, você deve estar ciente de como a alteração afeta seus registros DNS e certificados para URLs simples. Se o diretor herdado do Skype for Business permanecer em uso na topologia, não será necessária nenhuma alteração nas URLs simples. Se o diretor do servidor do Skype for Business for removido da topologia após a migração, os registros DNS de URL simples deverão ser atualizados para apontar para um dos pools do servidor do Skype for Business. No entanto, sempre que você alterar um nome de URL simples, você deve executar Enable-CsComputer em cada director e servidor front-end para registrar a alteração.
+Após migrar para o Skype for Business Server, você deve estar ciente de como a alteração impacta seus registros DNS e certificados para URLs simples. Se o diretor de servidor do Skype for Business herdado permanecer em uso na topologia, não será necessário fazer alterações nas suas URLs simples. Se o diretor do Skype for Business Server for removido da topologia após a migração, os registros DNS de URL simples devem ser atualizados para apontar para um dos pools do Skype for Business Server. Contudo, sempre que você alterar o nome de um URL simples, você deve executar o Enable-CsComputer em cada servidor Diretor e Front End para registrar a alteração.
 
-## <a name="to-update-the-meet-simple-url"></a>Para atualizar a URL de reunião simples
+## <a name="to-update-the-meet-simple-url"></a>Para atualizar a URL simples de reunião
 
-1. No construtor de topologias, clique com o botão direito do mouse no nó superior do **Skype for Business Server**e clique em **Editar propriedades**.
+1. No construtor de topologias, clique com o botão direito do mouse no nó superior **Skype for Business Server**e clique em **Editar propriedades**.
     
-2. Selecione **URLs simples** no painel esquerdo e, abaixo de **URLs de reunião:** selecione a URL do encontro e clique em **Editar URL**.
+2. Selecione **URLs simples** no painel esquerdo e, abaixo das **URLs da reunião:** selecione a URL de reunião e clique em **Editar URL**.
     
 3. Atualize a URL para o valor desejado e clique em **OK** para salvar a URL editada. 
     
 ## <a name="to-update-the-admin-simple-url"></a>Para atualizar a URL simples de administrador
 
-1. No construtor de topologias, clique com o botão direito do mouse no nó superior do **Skype for Business Server**e clique em **Editar propriedades**.
+1. No construtor de topologias, clique com o botão direito do mouse no nó superior **Skype for Business Server**e clique em **Editar propriedades**.
     
-2. Selecione **URLs simples** no painel esquerdo e, em seguida, abaixo da caixa **URL de acesso administrativo** , insira a URL simples que você deseja para acesso administrativo ao painel de controle do Skype for Business Server e clique em **OK**.
+2. Selecione **URLs simples** no painel esquerdo e, em seguida, abaixo da caixa **URL de acesso administrativo** , digite a URL simples que você deseja para acesso administrativo ao painel de controle do Skype for Business Server e clique em **OK**.
     
    > [!TIP]
-   > Nós recomendamos que você use a URL do administrador mais simples possível. A opção mais simples é https://admin. <em> \<domínio\></em>. 
+   > Recomendamos usar a URL mais simples possível para a URL Admin. A opção mais simples é https://admin . <em>\<domain\></em> . 
   
 ## <a name="see-also"></a>Confira também
 

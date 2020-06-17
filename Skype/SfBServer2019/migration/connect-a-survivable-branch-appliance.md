@@ -1,8 +1,8 @@
 ---
 title: Conectar um aparelho de filial persistente
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -10,13 +10,13 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 'Cada aparelho de filial persistente (SBA) é associado a um pool de front-ends que serve como um registrador de backup para o SBA. Quando o pool de front-ends é migrado para o Skype for Business Server 2019, o SBA deve ser desassociado do pool de front-ends enquanto o pool é atualizado, após o pool ter sido migrado para o Skype for Business Server 2019, o SBA pode ser reassociado ao front E pool nd. Isso envolve excluir o SBA da topologia herdada no construtor de topologia e, em seguida, adicionar o SBA à topologia do Skype for Business Server 2019. Os usuários hospedados no SBA herdado devem ser movidos primeiro para outro pool de front-ends antes da remoção do SBA da topologia. Após a adição da SBA à topologia do Skype for Business Server 2019, esses usuários podem ser movidos de volta para o SBA. Essas etapas estão resumidas abaixo:'
-ms.openlocfilehash: 7f51b9c29d6008ea3606184eb22741a489d056df
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+description: 'Cada aparelho de filial persistente (SBA) é associado a um pool de front-ends que serve como um registrador de backup para o SBA. Quando o pool de front-ends é migrado para o Skype for Business Server 2019, o SBA deve ser desassociado do pool de front-ends enquanto o pool é atualizado, após o pool ter sido migrado para o Skype for Business Server 2019, o SBA pode ser associado novamente ao pool de front-ends atualizado. Isso envolve excluir o SBA da topologia herdada no construtor de topologia e, em seguida, adicionar o SBA à topologia do Skype for Business Server 2019. Os usuários hospedados no SBA herdado devem ser movidos primeiro para outro pool de front-ends antes da remoção do SBA da topologia. Após a adição da SBA à topologia do Skype for Business Server 2019, esses usuários podem ser movidos de volta para o SBA. Essas etapas estão resumidas abaixo:'
+ms.openlocfilehash: 23fea7694a754b82ecad684d2ea02b603a6c7299
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42027782"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44751543"
 ---
 # <a name="connect-a-survivable-branch-appliance"></a>Conectar um aparelho de filial persistente
 

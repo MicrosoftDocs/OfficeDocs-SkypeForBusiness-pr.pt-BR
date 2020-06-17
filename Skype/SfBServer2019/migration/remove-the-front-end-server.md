@@ -1,8 +1,8 @@
 ---
-title: Remover o servidor front-end do Enterprise Edition ou o servidor front-end Standard Edition
+title: Remover o servidor front-end Enterprise Edition ou o servidor front-end Standard Edition
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -10,17 +10,17 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Os procedimentos descritos neste tópico foram projetados para orientá-lo no processo de remoção de um pool Front-end do Enterprise Edition ou um servidor front-end padrão da edição. Depois de migrar para o Skype for Business Server 2019, esta é uma das primeiras etapas para descomissionar o ambiente herdado.
-ms.openlocfilehash: 6c402035823a10e2c6e823c7558bd8a57a97b915
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Os procedimentos descritos neste tópico foram projetados para orientá-lo pelo processo de remoção de um pool de front-ends Enterprise Edition ou um servidor front-end Standard Edition. Após a migração para o Skype for Business Server 2019, esta é uma das primeiras etapas para descomissionar seu ambiente herdado.
+ms.openlocfilehash: 2fbcebec1c873c595b0ad1d40b1d1d3e9b115a32
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41812919"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44752123"
 ---
 # <a name="remove-the-front-end-server"></a>Remover o Servidor Front-End
 
-Os procedimentos descritos nesta seção foram projetados para orientá-lo no processo de remoção de um pool Front-end do Enterprise Edition ou um servidor front-end padrão da edição. Depois de migrar para o Skype for Business Server 2019, esta é uma das primeiras etapas em encerrar o ambiente herdado.
+Os procedimentos descritos nesta seção foram projetados para orientá-lo pelo processo de remoção de um pool de front-ends Enterprise Edition ou um servidor front-end Standard Edition. Após a migração para o Skype for Business Server 2019, esta é uma das primeiras etapas do encerramento de seu ambiente herdado.
   
 ## <a name="in-this-section"></a>Nesta seção
 

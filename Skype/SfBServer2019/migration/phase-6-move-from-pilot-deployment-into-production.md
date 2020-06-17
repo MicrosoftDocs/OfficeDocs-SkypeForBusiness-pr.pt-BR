@@ -1,8 +1,8 @@
 ---
-title: Fase 6 mover-se da implantação piloto para produção
+title: Fase 6 mover da implantação piloto para a produção
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -10,17 +10,17 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Os tópicos desta seção descrevem tarefas que devem ser concluídas antes de mover a implantação do Skype for Business Server 2019 de uma implantação piloto para uma implantação em nível de produção.
-ms.openlocfilehash: ddd83f382354273faed55769e15e12db0538d66a
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Os tópicos desta seção descrevem as tarefas que devem ser concluídas antes de mover sua implantação do Skype for Business Server 2019 de uma implantação piloto para uma implantação no nível de produção.
+ms.openlocfilehash: 2af1d78d866a935a975b3baa520f54fc780b0922
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41813129"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44752483"
 ---
 # <a name="phase-6-move-from-pilot-deployment-into-production"></a>Fase 6: Mover da implantação piloto para produção
 
-Os tópicos desta seção descrevem tarefas que devem ser concluídas antes de mover a implantação do Skype for Business Server 2019 de uma implantação piloto para uma implantação em nível de produção.
+Os tópicos desta seção descrevem as tarefas que você deve concluir antes de mover sua implantação do Skype for Business Server 2019 de uma implantação piloto para uma implantação no nível de produção.
   
 ## <a name="in-this-section"></a>Nesta seção
 

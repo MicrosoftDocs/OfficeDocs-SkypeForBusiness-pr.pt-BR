@@ -1,8 +1,8 @@
 ---
 title: Migrar reuniões existentes e conteúdo de reunião
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -11,23 +11,23 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 'Quando uma conta de usuário é movida de um servidor do Skype for Business Server 2019, as seguintes informações são movidas com essa conta de usuário:'
-ms.openlocfilehash: 6394ebf798560ce5a13fe7ba931076364257decc
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 6513f581f55028ec28d4cf05f1f1b3df37c49e65
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41813469"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44752683"
 ---
 # <a name="migrate-existing-meetings-and-meeting-content"></a>Migrar reuniões existentes e conteúdo de reunião
 
 Quando uma conta de usuário é movida para um servidor do Skype for Business Server 2019, as seguintes informações são movidas com essa conta de usuário:
   
-- **Reuniões já programadas pelo usuário**. Isso inclui a movimentação dos diretórios de conferências e dos dados de conferência.
+- **As reuniões já foram programadas pelo usuário**. Isto inclui mover os diretórios de conferência e dados de conferência.
     
-- **PIN (número de identificação pessoal) do usuário**. O PIN atual do usuário continua a funcionar até que ele expire ou que o usuário solicitou um novo PIN.
+- **PIN (número de identificação pessoal) do usuário**. O PIN atual do usuário continua funcionando até que ele expire ou o usuário solicite um novo PIN.
     
-As seguintes informações da conta de usuário não se movem para o novo servidor.
+A seguinte informação de conta do usuário não é movida para o novo servidor.
   
-- **Conteúdo da reunião**. Para mover o conteúdo compartilhado durante uma reunião, como o PowerPoint, quadro de comunicações, anexos ou dados de votação, use o parâmetro **-MoveConferenceData** como parte do cmdlet **move-CsUser** . 
+- **Conteúdo da reunião**. Para mover o conteúdo compartilhado durante uma reunião, como o PowerPoint, quadros de comunicações, anexos ou dados de pesquisa, use o parâmetro **-MoveConferenceData** como parte do cmdlet **move-CsUser** . 
     
 

@@ -1,8 +1,8 @@
 ---
 title: Administrar servidores após migração
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -10,18 +10,18 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Em geral, você deve usar a ferramenta administrativa que corresponde à versão do servidor que você deseja gerenciar.
-ms.openlocfilehash: 98b06f85a2bf31eacf366847a9f3dcca59952ad9
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Em geral, você deve usar a ferramenta administrativa que corresponde à versão do servidor que você quer gerenciar.
+ms.openlocfilehash: e18d54b660b675334d2cd37320a10340ea2f1497
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41813959"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44752473"
 ---
 # <a name="administering-servers-after-migration"></a>Administrar servidores após migração
 
-Em geral, você deve usar a ferramenta administrativa que corresponde à versão do servidor que você deseja gerenciar. Não é possível instalar ferramentas administrativas de versões diferentes no mesmo computador.
+Em geral, você deve usar a ferramenta administrativa que corresponde à versão do servidor que você quer gerenciar. Você não pode instalar ferramentas administrativas de versões diferentes no mesmo computador.
   
 > [!IMPORTANT]
-> Depois que um pool piloto do Skype for Business Server é implantado, não é possível usar o construtor de topologias ou o painel de controle para gerenciar os recursos do 2019. Você deve usar as ferramentas do 2019 para gerenciar todos os recursos de versão atuais e anteriores. 
+> Depois que um pool piloto do Skype for Business Server é implantado, você não pode usar o construtor de topologias ou o painel de controle para gerenciar qualquer recurso 2019. Você deve usar as ferramentas 2019 para gerenciar todos os recursos atuais e anteriores da versão. 
   

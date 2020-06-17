@@ -1,8 +1,8 @@
 ---
-title: Parar serviços herdados
+title: Interromper serviços herdados
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -11,14 +11,14 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Você pode usar o painel de controle do Skype for Business Server para iniciar ou parar todos os serviços herdados em execução em um computador específico ou para iniciar ou parar um serviço herdado específico.
-ms.openlocfilehash: 8e0ae8532330861cbdb153083072b582d757351c
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 2aca4cd9fb5d85bcf0744dc2b9e9551adc2a2336
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41812789"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44753283"
 ---
-# <a name="stop-legacy-services"></a>Parar serviços herdados
+# <a name="stop-legacy-services"></a>Interromper serviços herdados
 
 Você pode usar o painel de controle do Skype for Business Server para iniciar ou parar todos os serviços herdados em execução em um computador específico ou para iniciar ou parar um serviço herdado específico.
   
