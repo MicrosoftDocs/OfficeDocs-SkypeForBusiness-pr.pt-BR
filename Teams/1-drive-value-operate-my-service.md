@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 82b1397e597ae6dea218a8f3c27f50d26a60d05f
-ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
+ms.openlocfilehash: 2e20023d1b79f4b5706301ef0cb1e670f35e8b5f
+ms.sourcegitcommit: 8b172e9a0d0626c9a88998600d4b17c6c8cdadd2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "44610073"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44761379"
 ---
 # <a name="operate-my-service"></a>Operar meu serviço
 
@@ -435,7 +435,7 @@ Mesmo que você tenha seguido a orientação anterior, os usuários da sua organ
 
 2.  **Validar a conectividade do cliente:** Problemas de conectividade causam funcionalidades ou problemas de entrada no Teams. Recomendamos (especialmente para novos sites ou locais) que você valida a conectividade com o serviço. Verifique se as seguintes [URLs do Office 365 e diretrizes de intervalos de endereços IP](https://aka.ms/o365ips) são seguidas para cada site. Você pode aproveitar a [ferramenta de avaliação de rede da Microsoft](https://www.microsoft.com/download/details.aspx?id=53885) para executar um teste de conectividade para validar que as portas de mídia foram abertas corretamente para recursos de voz na nuvem. As etapas detalhadas sobre como executar os testes de conectividade são fornecidas na orientação de [preparação de rede](3-envision-evaluate-my-environment.md#network-readiness) .
 
-3.  **Verifique a lista de problemas conhecidos:** Consulte [equipes de suporte em sua organização](known-issues.md) para determinar se o usuário foi afetado negativamente por um desses problemas. Siga a solução alternativa fornecida (se houver uma) para resolver o problema.
+3.  **Verifique a lista de problemas conhecidos:** Consulte [solução de problemas do Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams) para determinar se o usuário foi afetado negativamente por um desses problemas. Siga a solução alternativa fornecida (se houver uma) para resolver o problema.
 
 4.  **Acesse a Comunidade do Microsoft Teams:** A [comunidade do Microsoft Teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams) oferece espaços dedicados para equipes. A comunidade de equipes fornece uma lista de discussão, Postagens de blog e anúncios centralizados em relação ao Teams. Você pode postar uma pergunta ou Pesquisar discussões anteriores sobre soluções para o seu problema.
 
@@ -460,7 +460,7 @@ Mesmo que você tenha seguido a orientação anterior, os usuários da sua organ
 
 [Comunidade do Microsoft Teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams)
 
-[Problemas conhecidos do Microsoft Teams](known-issues.md)
+[Solução de problemas do Teams](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
 
 [Verificar a integridade do serviço do Microsoft Teams](service-health.md)
 

@@ -18,23 +18,23 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 20fc95f14782057c6c493d9835fd17a7339018ca
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: b34c58bc043f67d1a60f3b6c30fef7f5cc693b08
+ms.sourcegitcommit: 5895550d9d19a619d90af3381530ca3017e4b520
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637270"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "44799792"
 ---
 <a name="what-the-guest-experience-is-like"></a>Como é a experiência do convidado
 =================================
 
 Quando um convidado é convidado a ingressar em uma equipe, ele recebe uma mensagem de boas-vindas. Essa mensagem inclui algumas informações sobre a equipe e o que esperar agora que elas são membro. O convidado deve aceitar o convite selecionando **abrir o Microsoft Teams** na mensagem de email para que ele possa acessar a equipe e seus canais.
     
-![Captura de tela mostrando um exemplo de uma mensagem de boas-vindas](media/guest-experience-image1.png)
+![Captura de tela mostrando um exemplo de uma mensagem de email de boas-vindas](media/guest-experience-image1.png)
     
-Todos os membros da equipe veem uma mensagem no tópico do canal anunciando que o proprietário da equipe adicionou um convidado e informou o nome do convidado. Todos da equipe podem identificar facilmente quem é um convidado. Conforme mostrado na captura de tela a seguir de uma equipe de exemplo, uma faixa indica que "esta equipe tem convidados" e um rótulo **(convidado)** aparece ao lado do nome de cada convidado.
-    
-![Captura de tela mostrando usuários convidados de notificação de cabeçalho](media/guest-experience-image2.png "A captura de tela mostra uma parte do canal de marketing da Northwind Traders, com a notificação na faixa superior informando que a equipe tem convidados e os usuários que os convidados são identificados com a palavra GUEST ao lado do nome.")
+Todos os membros da equipe veem uma mensagem no tópico do canal anunciando que o proprietário da equipe adicionou um convidado e informou o nome do convidado. Todos da equipe podem identificar facilmente quem é um convidado. Uma marca no canto superior direito do segmento de canal indica o número de convidados na equipe e um rótulo de a **(convidado)** exibido ao lado do nome de cada convidado.
+
+![Captura de tela mostrando a marca que indica o número de convidados na equipe](media/guest-experience-image2.png)
 
 Confira estes vídeos sobre a experiência de convidado no Microsoft Teams:
 - [Ingressar em uma equipe como um convidado](https://support.office.com/article/join-a-team-as-a-guest-928d1eef-61e2-49ec-b754-c2fe86b34824)

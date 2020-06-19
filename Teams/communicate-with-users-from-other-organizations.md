@@ -17,12 +17,12 @@ description: Aprenda a se comunicar com usuários de outras organizações no Mi
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: fcc17aa7bc00904a13aa77761472ea3ea37a17cd
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 8676c45a386a9fb36571e3262a8c70769f45f0a6
+ms.sourcegitcommit: af15d99837a389b6b26952211e65cd68c4b7f46e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44689687"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "44785273"
 ---
 <a name="communicate-with-users-from-other-organizations-in-microsoft-teams"></a>Comunique-se com usuários de outras organizações no Microsoft Teams
 ======================================================
@@ -89,7 +89,7 @@ Se você estiver pronto para ativar o acesso de convidados em sua organização,
 <sup>2</sup> Apenas por endereço de email ou de protocolo SIP.<br>
 <sup>3</sup> O chat externo (federado) funciona apenas no modo 1:1.<br>
 <sup>4</sup> Com suporte para chat individual de usuários do Apenas Teams para Apenas Teams de duas organizações diferentes. <br>
-<sup>5</sup> Por padrão, os participantes externos não podem ver os números de telefone dos participantes discados. Se você quer manter a privacidade desses números de telefone, selecione **Tons** para **Tipo de anúncio de entrada/saída** (isso impede que os números sejam lidos pelo Teams). Se você não quiser revelar números de telefone PSTN externos aos usuários externos, quando você **Ativar os anúncios de entrada/saída,**, selecione **Tons** para o tipo de anúncio. Para saber mais, leia [Ativar ou desativar anúncios de entrada e saída das reuniões no Microsoft Teams](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md).
+<sup>5</sup> Por padrão, os participantes externos não podem ver os números de telefone dos participantes discados. Se você quiser manter a privacidade desses números de telefone, selecione **Tons** para o **tipo de anúncio de entrada/saída** (isso impede que os números sejam lidos pelas equipes). Para saber mais, leia [Ativar ou desativar anúncios de entrada e saída das reuniões no Microsoft Teams](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md).
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

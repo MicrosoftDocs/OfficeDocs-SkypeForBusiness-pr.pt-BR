@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Aprenda a usar e gerenciar canais privados no Microsoft Teams.
-ms.openlocfilehash: 769fd2b489d65b276823abd7c3ff8f579100617a
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 54fd36bd78f1d9ea263fe3e79a3d12a08741c389
+ms.sourcegitcommit: 8acc2ed4cb807f941a6526ec8aad562536f45aa6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637930"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "44804685"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Canais privados no Microsoft Teams
 
@@ -44,7 +44,10 @@ Um ícone de cadeado indica um canal privado. Somente membros de canais privados
 
 Atualmente, os canais privados oferecem suporte a conectores e guias (exceto Stream, Planner e Forms). Estamos trabalhando no suporte total de aplicativos para canais privados, incluindo extensões de mensagens e bots.
 
-Cada equipe pode ter no máximo 30 canais privados e cada canal privado pode ter no máximo 250 membros. O limite de 30 canais privados é um acréscimo ao limite de 200 canais padrão por equipe.
+Cada equipe pode ter no máximo 30 canais privados e cada canal privado pode ter no máximo 250 membros. O limite de 30 canais privados é um acréscimo ao limite de 200 canais padrão por equipe. 
+
+Quando você cria uma equipe a partir de uma equipe existente, qualquer canal privado na equipe existente não será copiado.
+
 
 > [!NOTE]
 > Estamos continuamente adicionando recursos aos canais privados, portanto, verifique as informações mais atualizadas sobre aplicativos, reuniões de canal e dimensionamento de canais privados para grandes equipes.
@@ -70,9 +73,9 @@ Quando um canal privado é criado, ele é vinculado à equipe pai e não pode se
 
 Por padrão, qualquer proprietário ou membro de equipe pode criar um canal privado. Os convidados não podem criá-los. A capacidade de criar canais privados pode ser gerenciada no nível da equipe e no nível da organização.
 
-> 1. Vá para o centro de administração em <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> .
+ 1. Vá para o centro de administração em <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> .
 
-> 2. Use [políticas](teams-policies.md) para controlar quais usuários da sua organização podem criar canais privados.
+ 2. Use [políticas](teams-policies.md) para controlar quais usuários da sua organização podem criar canais privados.
     Depois de definir as políticas, os proprietários da equipe poderão desativar ou ativar a capacidade dos membros de criar canais privados na guia **configurações** de uma equipe.
 
 A pessoa que cria um canal privado é o proprietário de canal privado e somente o proprietário de canal privado pode adicionar ou remover diretamente as pessoas dele. O proprietário de um canal privado pode adicionar qualquer membro da equipe a um canal privado criado, incluindo convidados. Os membros de um canal privado têm um espaço seguro para conversas e, quando novos membros são adicionados, eles podem ver todas as conversas (mesmo conversas antigas) nesse canal privado.
@@ -107,14 +110,14 @@ A tabela a seguir descreve quais ações os proprietários, membros e convidados
 
 |Ação  |Proprietário de equipe|Membro da equipe|Convidado da equipe|Proprietário do canal privado|Membro do canal privado|Convidado do canal privado|
 |---------|---------|---------|---------|---------|---------|---------|
-|Criar um canal privado|Sim<sup>1</sup>|Yes<sup>1,2</sup>|Não|N/A|N/A|N/A|
+|Criar um canal privado|Sim<sup>1</sup>|Yes<sup>1,2</sup>|Não|N/D|N/A|N/A|
 |Excluir canal privado|Sim|Não|Não|Sim|Não|Não|
-|Sair do canal privado|N/A|N/A|N/A|Sim<sup>3</sup>|Sim |Sim|
-|Editar canal privado|Não|N/A|N/A|Sim|Não|Não|
+|Sair do canal privado|Não disponível|N/A|Não disponível|Sim<sup>3</sup>|Sim|Sim|
+|Editar canal privado|Não|N/D|Não disponível|Sim|Não|Não|
 |Restaurar canal privado excluído|Sim|Não|Não|Sim|Não|Não|
-|Adicionar membros|Não|N/A|N/A|Sim|Não|Não|
-|Editar configurações|Não|N/A|N/A|Sim|Não|Não|
-|Gerenciar guias e aplicativos|Não|N/A|N/A|Sim<sup>4</sup>|Sim<sup>5</sup>|Não|
+|Adicionar membros|Não|N/D|Não disponível|Sim|Não|Não|
+|Editar configurações|Não|N/D|Não disponível|Sim|Não|Não|
+|Gerenciar guias e aplicativos|Não|N/D|Não disponível|Sim<sup>4</sup>|Sim<sup>5</sup>|Não|
 
 <sup>1</sup> Supondo que a política que você, o administrador, configurou, permite ao usuário criar canais privados.<br>
 <sup>2</sup> Cada equipe tem uma configuração que os proprietários de equipe podem ativar ou desativar para permitir que os membros da equipe criem canais privados. Os proprietários de equipe sempre podem criar canais privados.<br>
@@ -136,7 +139,7 @@ Confira [Gerenciar o ciclo de vida dos canais privados no Teams](private-channel
 
 ## <a name="private-channel-sharepoint-sites"></a>Sites do SharePoint em canal privado
 
-Cada canal privado tem seu próprio conjunto de sites do SharePoint otimizado para compartilhamento de arquivos e provisionamento rápido. O conjunto de sites separado é para garantir que o acesso aos arquivos do canal privado seja restrito apenas aos membros do canal privado, em comparação com o site de equipe em que os proprietários de equipe têm acesso a todos os ativos do conjunto de sites. Esses conjuntos de sites são criados com uma biblioteca de documentos por padrão e podem ser facilmente aprimorados para um conjunto de sites com todos os recursos por meio da [interface de gerenciamento de site](https://support.office.com/article/Enable-or-disable-site-collection-features-A2F2A5C2-093D-4897-8B7F-37F86D83DF04). Cada conjunto de sites é criado na mesma região geográfica do conjunto de sites de equipe pai. Esses sites leves têm uma ID de modelo personalizada, "TEAMCHANNEL# 0", para facilitar o gerenciamento por meio do PowerShell e da API do Graph.  Por padrão, eles não ficam visíveis no centro de administração do SharePoint.
+Cada canal privado tem seu próprio conjunto de sites do SharePoint. O conjunto de sites separado é para garantir que o acesso aos arquivos do canal privado seja restrito apenas aos membros do canal privado, em comparação com o site de equipe em que os proprietários de equipe têm acesso a todos os ativos do conjunto de sites. Esses conjuntos de sites são criados com uma biblioteca de documentos por padrão e podem ser facilmente aprimorados para um conjunto de sites com todos os recursos por meio da [interface de gerenciamento de site](https://support.office.com/article/Enable-or-disable-site-collection-features-A2F2A5C2-093D-4897-8B7F-37F86D83DF04). Cada conjunto de sites é criado na mesma região geográfica do conjunto de sites de equipe pai. Esses sites leves têm uma ID de modelo personalizada, "TEAMCHANNEL# 0", para facilitar o gerenciamento por meio do PowerShell e da API do Graph.  Por padrão, eles não ficam visíveis no centro de administração do SharePoint.
 
 Para acomodar um número maior de conjuntos de sites por locatário, o limite aumentou de 500.000 para 2 milhões. Um conjunto de sites de canal privado sincroniza a classificação de dados e herda permissões de acesso de convidado do conjunto de sites da equipe pai.  A associação do proprietário do conjunto de sites e dos grupos de membros é mantida em sincronia com a associação do canal privado no Teams. As alterações na associação de grupos de Proprietário ou Membro no SharePoint Online serão revertidas para a associação de canal particular dentro de quatro horas automaticamente. Em situações em que determinados usuários precisam acessar os documentos sem a necessidade de acessar mensagens de canal privado, adicione-os ao grupo visitantes no site ou a um novo grupo separado de Proprietários e Membros.
 

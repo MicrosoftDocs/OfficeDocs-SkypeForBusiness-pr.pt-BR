@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.messagingpolicies.overview
 - seo-marvel-apr2020
 description: Neste artigo, você aprenderá sobre as políticas de mensagens e como elas podem ser usadas para controlar as mensagens de chat no Microsoft Teams.
-ms.openlocfilehash: a1d47efe49781f8c7f62cdb87eaab977fa4304e2
-ms.sourcegitcommit: 5dff3217760cf881d1d96e5d5c76101c90afcbc0
+ms.openlocfilehash: 9e382f5dd23220cc1a97f2549430a75a79e47eb7
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "44724904"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756902"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Gerenciar políticas de mensagens no Teams
 
@@ -93,7 +93,7 @@ Use as configurações a seguir para alterar a política de mensagens globais ou
 - **Permitir visualizações de URLs** Use essa configuração para ativar ou desativar a visualização automática de URLs nas mensagens.
 - **Permitir que os usuários traduzam mensagens** Ative essa configuração para permitir que os usuários traduzam mensagens de equipe automaticamente para o idioma especificado pelas configurações de idioma pessoal do Microsoft 365 ou do Office 365.
 - **Permitir leitura avançada na exibição de mensagens** Ative essa configuração para permitir que os usuários exibam mensagens na Leitura Avançada da Microsoft. A Leitura Avançada é uma ferramenta de aprendizagem que fornece uma experiência de leitura em tela inteira para aumentar a legibilidade do texto.
-- **Enviar mensagens urgentes usando as notificações de prioridade** Se você ativar isso, os usuários poderão enviar mensagens usando [notificações de prioridade](https://support.microsoft.com/article/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462). As notificações de prioridade notificam os usuários a cada 2 minutos por um período de 20 minutos ou até que as mensagens marcadas como *urgentes* sejam retiradas e lidas pelo destinatário, maximizando a probabilidade de que a mensagem seja acionada de forma oportuna.
+- **Enviar mensagens urgentes usando as notificações de prioridade** Se você ativar isso, os usuários poderão enviar mensagens usando [notificações de prioridade](https://support.microsoft.com/en-us/office/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462). As notificações de prioridade notificam os usuários a cada 2 minutos por um período de 20 minutos ou até que as mensagens marcadas como *urgentes* sejam retiradas e lidas pelo destinatário, maximizando a probabilidade de que a mensagem seja acionada de forma oportuna.
 - **Criação de mensagens de áudio** 
   > [!Important]
   > Mensagens de áudio não são capturadas em relatórios de descoberta eletrônica.

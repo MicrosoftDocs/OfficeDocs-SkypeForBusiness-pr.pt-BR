@@ -1,7 +1,7 @@
 ---
 title: Coexistência com o Skype for Business
-author: kenwith
-ms.author: kenwith
+author: serdarsoysal
+ms.author: serdars
 manager: Serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
 description: Comportamento de coexistência entre equipes & Skype for Business, incluindo parâmetros de roteamento, chat & encaminhamento de chamadas, chats & chamadas de threads pré-existentes, & presença.
-ms.openlocfilehash: ff5e94b16cd55374ec0aeb45aaffdda41fbe0498
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 361f59297fb28e02203b8659be88302bca89515c
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137300"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44757232"
 ---
 # <a name="coexistence-with-skype-for-business"></a>Coexistência com o Skype for Business
 
@@ -65,12 +65,12 @@ Os parâmetros que determinam o método de roteamento de thread são:
 
 As tabelas abaixo encaminham a circulação de chat e chamadas no locatário e são válidas para novas chamadas ou chats que não são iniciados a partir de um thread pré-existente. Ele descreve qual cliente receberá uma nova chamada ou chat, se for originado por um usuário à esquerda, a um usuário do destinatário no locatário à direita.
 
-As mensagens enviadas para os usuários do TeamsOnly sempre serão roteadas para o Microsoft Teams. As mensagens enviadas para\* os usuários do SfB sempre direcionarão para o Skype for Business, se a conversa for possível, conforme descrito acima. As mensagens enviadas para as ilhas usuários sempre serão roteadas para o mesmo cliente a partir do qual elas foram enviadas.
+As mensagens enviadas para os usuários do TeamsOnly sempre serão roteadas para o Microsoft Teams. As mensagens enviadas para \* os usuários do SfB sempre direcionarão para o Skype for Business, se a conversa for possível, conforme descrito acima. As mensagens enviadas para as ilhas usuários sempre serão roteadas para o mesmo cliente a partir do qual elas foram enviadas.
 
 As tabelas a seguir mostram qual cliente em um determinado modo receberá uma chamada do originador (três colunas mais à esquerda), dependendo do modo do originador, do cliente escolhido e onde o cliente do Skype for Business é hospedado (local ou online).
 
 Nas tabelas a seguir: 
-- **SfB\* ** representa qualquer um dos seguintes modos: *SfBOnly*, *SfBWithTeamsCollab*, *SfBWithTeamsCollabAndMeetings*.
+- **SfB \* ** representa qualquer um dos seguintes modos: *SfBOnly*, *SfBWithTeamsCollab*, *SfBWithTeamsCollabAndMeetings*.
 
 - O *texto em itálico* realça uma conversa de interoperabilidade.
 
@@ -78,16 +78,16 @@ Nas tabelas a seguir:
 
 **Tabela 1a: novo chat no locatário ou encaminhamento de chamadas para um destinatário do modo de ilhas**
 
-| <br/><br/> Modo | Criador <br/><br/> Cliente | <br/><br/> SfB&nbsp;homed | | Correspondente <br/><br/> Ilhas  |
+| <br/><br/> Modo | Criador <br/><br/> Cliente | <br/><br/> SfB &nbsp; homed | | Correspondente <br/><br/> Ilhas  |
 |--- |--- |--- |--- |--- |
 | Ilhas | Microsoft Teams <br/> Skype for Business<br/> Microsoft Teams<br/> Skype for Business| Online<br/> Online<br/> Local<br/>Local| &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|Microsoft Teams <br/> Skype for Business<br/> Microsoft Teams<br/> Skype for Business|
 |SfB\* <br/> | Skype for Business<br/>Skype for Business<br/> | Online<br/> Local<br/> |&boxv;<br/>&boxv;|Skype for Business<br/>Skype for Business<br/>|
 |TeamsOnly |Teams| Online<br/>|&boxv;<br/>|Teams|
 | | | | | |
 
-**Tabela 1b: novo chat no locatário ou encaminhamento de chamadas para um destinatário em um\* modo de SfB**
+**Tabela 1b: novo chat no locatário ou encaminhamento de chamadas para um destinatário em um \* modo de SfB**
 
-| <br/><br/> Modo   | Criador <br/><br/> Cliente | <br/><br/> SfB&nbsp;homed | |   Correspondente <br/><br/> SfB\*   |
+| <br/><br/> Modo   | Criador <br/><br/> Cliente | <br/><br/> SfB &nbsp; homed | |   Correspondente <br/><br/> SfB\*   |
 |--- |--- |--- |---   |--- |
 | Ilhas |Microsoft Teams<br/>Skype for Business<br/>Microsoft Teams <br/>Skype for Business  |Online<br/> Online<br/> Local<br/> Local<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype for Business* <br/> Skype for Business<br/> **Não é possível** <br/>Skype for Business<br/> |
 |SfB\* <br/> | Skype for Business<br/>Skype for Business<br/> | Online<br/> Local<br/> |&boxv;<br/>&boxv; |  Skype for Business<br/>Skype for Business<br/> |
@@ -96,7 +96,7 @@ Nas tabelas a seguir:
 
 **Tabela 1C: novo chat no locatário ou encaminhamento de chamadas para um destinatário do modo TeamsOnly**
 
-| <br/><br/> Modo   | Criador <br/><br/> Cliente | <br/><br/> SfB&nbsp;homed | |   Correspondente <br/><br/> TeamsOnly  |
+| <br/><br/> Modo   | Criador <br/><br/> Cliente | <br/><br/> SfB &nbsp; homed | |   Correspondente <br/><br/> TeamsOnly  |
 |--- |--- |--- |--- | --- |
 | Ilhas   |Teams<br/>Skype for Business<br/>Teams <br/>Skype for Business<br/>|Online<br/> Online<br/> Local<br/> Local<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|  Teams <br/>*Microsoft Teams* <br/>Teams <br/>*Microsoft Teams*  |
 |SfB\*  | Skype for Business<br/>Skype for Business<br/> | Online<br/> Local<br/> | &boxv;<br/>&boxv; | *Microsoft Teams*  <br/>*Microsoft Teams*   |
@@ -107,7 +107,7 @@ Nas tabelas a seguir:
   
 As tabelas abaixo encaminham a circulação de chamadas federadas e chats e são válidas para novas chamadas ou chats. Elas descrevem qual cliente receberá uma nova chamada ou chat, se for originado por um usuário à esquerda, a um usuário de destino federado à direita.
 
-Em resumo, se a conversa for possível, conforme descrito acima, as mensagens enviadas para os usuários do TeamsOnly sempre irão parar em equipes; as mensagens enviadas para\* usuários do SfB sempre vão parar no Skype for Business; as mensagens enviadas para as ilhas usuários sempre vão parar no Skype for Business, independentemente do cliente do qual foram enviadas. O roteamento de chats federados e chamadas é diferente do roteamento de locatários nessas ilhas que os usuários sempre receberão uma comunicação federada no Skype for Business.
+Em resumo, se a conversa for possível, conforme descrito acima, as mensagens enviadas para os usuários do TeamsOnly sempre irão parar em equipes; as mensagens enviadas para \* os usuários do SfB sempre vão parar no Skype for Business; mensagens enviadas para as ilhas os usuários sempre vão parar no Skype for Business, independentemente do cliente do qual foram enviadas. O roteamento de chats federados e chamadas é diferente do roteamento de locatários nessas ilhas que os usuários sempre receberão uma comunicação federada no Skype for Business.
 
 Isso ocorre porque não podemos pressupor que um parceiro federado do Skype for Business já usa o Teams se ele está no modo de ilhas. Ilhas é o modo padrão, no entanto, não podemos supor que todos os usuários de ilhas executam Teams. Ao direcionar para o Skype for Business, garantimos que não há comunicação com um usuário de ilhas. Se encaminhadas para o Microsoft Teams, essa comunicação poderá ser perdida se o destino não usar o Teams. O roteamento para o Skype for Business garante que a mensagem sempre será recebida.  
 
@@ -125,7 +125,7 @@ As tabelas a seguir descrevem qual cliente receberá uma chamada do originador (
 | TeamsOnly |Teams |Online| &boxv;|*Skype for Business* |
 |  | | | | 
 
-**Tabela 2B: novo chat federado ou encaminhamento de chamadas para um destinatário em\* um modo de SfB**
+**Tabela 2B: novo chat federado ou encaminhamento de chamadas para um destinatário em um modo de SfB \***
 
 | <br/><br/>Modo   | Criador<br/><br/> Cliente| <br/><br/>SfB homed| |  Correspondente<br/><br/> SfB\* |  
 |--- |--- |--- |--- |--- |
@@ -174,7 +174,7 @@ Por exemplo, se o chat ou a chamada de um originador deve se chamar no cliente S
 Para saber qual comportamento esperar, você precisará compreender que a presença é compartilhada com base no modo de coexistência de um usuário:
 
 * Se um usuário estiver no modo TeamsOnly, qualquer outro usuário (seja no Teams ou no Skype for Business) verá que a presença de equipes do usuário do TeamsOnly
-* Se um usuário estiver em qualquer um dos modos\* de SfB (SfbOnly, SfbWithTeamsCollab, SfbWithTeamsCollabAndMeetings), qualquer outro usuário (seja no Teams ou no Skype for Business) verá a\* presença do SfB do Skype for Business do
+* Se um usuário estiver em qualquer um dos modos de SfB \* (SfbOnly, SfbWithTeamsCollab, SfbWithTeamsCollabAndMeetings), qualquer outro usuário (seja no Teams ou no Skype for Business) verá a \* presença do SfB do Skype for Business do
 * Se um usuário estiver no modo de ilhas (ou herdado), a presença nas equipes e presença no Skype for Business é independente (os valores precisam não corresponder) e outros usuários verão uma ou outra presença do usuário da Ilhas, dependendo se estiverem no mesmo locatário ou em um locatário federado e qual cliente ele usa
     * No Teams, qualquer outro usuário no mesmo locatário verá a presença de equipes do usuário das Ilhas; Isso é alinhado com a tabela de roteamento do locatário acima
     * No Teams, qualquer outro usuário em um locatário federado verá a presença do Skype for Business do usuário de ilhas; Isso é alinhado com a tabela de roteamento federado acima
@@ -183,7 +183,7 @@ Para saber qual comportamento esperar, você precisará compreender que a presen
 
 ### <a name="in-tenant-presence"></a>Presença no locatário
 
-As mensagens enviadas para usuários do TeamsOnly sempre vão para o Microsoft Teams. As mensagens enviadas para\* usuários do SfB sempre vão parar no Skype for Business, se a conversa for possível, conforme descrito acima. As mensagens enviadas para as ilhas usuários sempre vão para o cliente do qual elas se originaram.
+As mensagens enviadas para usuários do TeamsOnly sempre vão para o Microsoft Teams. As mensagens enviadas para \* usuários do SfB sempre vão parar no Skype for Business, se a conversa for possível, conforme descrito acima. As mensagens enviadas para as ilhas usuários sempre vão para o cliente do qual elas se originaram.
 
 A tabela descreve a presença do fornecedor que será vista por um observador, dependendo do modo do fornecedor e do cliente do Inspetor (para um novo thread).
 

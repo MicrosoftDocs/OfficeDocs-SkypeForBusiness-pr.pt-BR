@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5debf9eb72066c90ff0af002b4e5f3b3bafe8383
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 2806d913fb63dcd2a7a25b26153435333282e871
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637060"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44752973"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Como o Exchange e o Microsoft Teams interagem
 
@@ -50,7 +50,7 @@ A tabela a seguir fornece uma referência rápida útil para a disponibilidade d
 |**Exchange Online**|Sim <sup>2</sup>|Sim <sup>2</sup>|Sim |Sim |Sim|Sim<sup>8</sup>|Sim |Sim|Sim <sup>7</sup>|Sim |Sim |Sim |Sim|
 |**Exchange Online Dedicated vNext**|Sim <sup>2</sup>|Sim <sup>2</sup>|Sim |Sim |Sim|Sim<sup>8</sup>|Sim |Sim|Sim <sup>7</sup>|Sim |Sim |Sim |Sim|
 |**Exchange Online Dedicated – Legacy** (Sincronização obrigatória com o Azure AD)|Sim <sup>2</sup>|Sim <sup>2, 3</sup>|Sim <sup> 4|Sim|Não|Não|Sim|Sim|Não|Sim <sup> 5|Sim <sup> 6|Sim |Sim|
-|**Exchange no local** (sincronização com o Azure ad & a configuração OAuth necessária)|Sim <sup>2</sup>| Sim <sup>2</sup> |Sim <sup> 4|Sim|Sim (Exchange 2016 CU3 +)|Sim<sup>8</sup> (Exchange 2016 Cu3 +)|Sim |Sim|Não|Sim <sup> 5|Sim <sup> 6|Sim |Sim|
+|**Exchange no local** (sincronização com o Azure ad & a configuração OAuth necessária)|Sim <sup>2</sup>| Sim <sup>2</sup> |Sim <sup> 4|Sim|Sim (Exchange 2016 CU3 +)|Não|Sim|Sim|Não|Sim <sup> 5|Sim <sup> 6|Sim |Sim|
 
 <sup>1</sup> suporte do Exchange 2016 Cu3 e versões mais recentes.  
 

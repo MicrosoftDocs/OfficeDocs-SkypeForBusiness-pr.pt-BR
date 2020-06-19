@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Saiba como gerenciar as configurações de política de reunião no Teams e usá-las para controlar os recursos disponíveis para os participantes da reunião para reuniões agendadas pelos usuários.
-ms.openlocfilehash: ae1b73c2aefecb64dfe18e0fda0aa880f3962aa7
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: d14c32357101ef2fe002394046f707445b7c10a6
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690937"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756912"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Gerenciar políticas de reunião no Teams
 
@@ -420,9 +420,9 @@ No momento, você só pode usar o PowerShell para definir essa política. Você 
 Para especificar o suplemento de reunião que você deseja disponibilizar para os usuários, defina o parâmetro **PreferredMeetingProviderForIslandsMode** da seguinte maneira:
 
 - Defina o parâmetro como **TeamsAndSfB** para habilitar o suplemento de reunião do Teams e o suplemento Skype for Business no Outlook. Esse é o valor padrão.
-- Defina o parâmetro como **TeamsOnly** para habilitar somente o suplemento de reunião do teams no Outlook. Essa configuração de política garante que todas as reuniões futuras tenham um link de ingressar na reunião do teams. Não migra a reunião do Skype for Business existente para ingressar nos links para o Microsoft Teams. Essa configuração de política não afeta a presença, o chat, as chamadas PSTN ou qualquer outro recurso no Skype for Business, o que significa que os usuários continuarão a usar o Skype for Business para esses recursos.
+- Defina o parâmetro como **Teams** para habilitar somente o suplemento de reunião do teams no Outlook. Essa configuração de política garante que todas as reuniões futuras tenham um link de ingressar na reunião do teams. Não migra a reunião do Skype for Business existente para ingressar nos links para o Microsoft Teams. Essa configuração de política não afeta a presença, o chat, as chamadas PSTN ou qualquer outro recurso no Skype for Business, o que significa que os usuários continuarão a usar o Skype for Business para esses recursos.
 
-  Se você definir o parâmetro para **TeamsOnly**e, em seguida, retornar ao **TeamsAndSfB**, ambos os suplementos de reunião serão habilitados. No entanto, observe que a reunião de equipes existentes que ingressam em links não será migrada para o Skype for Business. Somente as reuniões do Skype for Business agendadas após a alteração terão o link de ingresso na reunião do Skype for Business.
+  Se você definir o parâmetro para o **Teams**e, em seguida, voltar para **TeamsAndSfB**, ambos os suplementos de reunião serão habilitados. No entanto, observe que a reunião de equipes existentes que ingressam em links não será migrada para o Skype for Business. Somente as reuniões do Skype for Business agendadas após a alteração terão o link de ingresso na reunião do Skype for Business.
 
 ## <a name="meeting-policy-settings---video-filters-mode"></a>Configurações de política de reunião-modo de filtros de vídeo
 

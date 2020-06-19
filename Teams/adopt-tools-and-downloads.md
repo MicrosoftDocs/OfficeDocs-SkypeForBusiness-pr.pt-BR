@@ -1,10 +1,10 @@
 ---
 title: Ferramentas e downloads para adoção
 ms.reviewer: karuanag
-description: Use esses recursos de adoção para ajudá-lo a conduzir a adoção do Microsoft Teams e outros serviços do Office 365.
+description: Use esses recursos de adoção para ajudá-lo a conduzir a adoção do Microsoft Teams e outros serviços do Microsoft 365 ou do Office 365.
 ms.topic: landing-page
-author: kenwith
-ms.author: kenwith
+author: serdarsoysal
+ms.author: serdars
 manager: serdars
 layout: LandingPage
 ms.date: 11/20/2018
@@ -19,12 +19,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 78531cfad01051e4a9d7493384a18f4c0a4e1dc4
-ms.sourcegitcommit: 494e5956619084ff8f0a4f42efb5081c4530488a
+ms.openlocfilehash: 0d736a407ee169e1b3121eede66c945c216237d9
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/06/2020
-ms.locfileid: "42550999"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756500"
 ---
 # <a name="tools-for-driving-adoption"></a>Ferramentas para conduzir a adoção 
 
@@ -148,8 +148,8 @@ Use as ferramentas abaixo para dar suporte a cada fase do seu plano de adoção 
     </li></ul>
 
 
-### <a name="office-365-champions-program"></a>Programa de campeões do Office 365
-O programa campeões do Office 365 é um programa gratuito que ajuda as pessoas que desejam aproveitar ao máximo o Microsoft Teams e outros serviços do Office 365. Nós combinamos nossa comunidade online na [comunidade técnica da Microsoft](https://aka.ms/DriveAdoption) com chamadas de comunidade mensais que destacam todos os componentes de impulsionação da adoção do controle às práticas recomendadas para novos recursos. Junte-se à https://aka.ms/O365Champions nossa comunidade e obtenha acesso ao lançamento antecipado, ouça de outros clientes e aprenda com especialistas da Microsoft.  
+### <a name="microsoft-365-or-office-365-champions-program"></a>Programa Microsoft 365 ou Office 365 campeões
+O programa de Campeões é um programa gratuito que ajuda as pessoas que desejam aproveitar ao máximo o Microsoft Teams e outros serviços do Microsoft 365 ou do Office 365. Nós combinamos nossa comunidade online na [comunidade técnica da Microsoft](https://aka.ms/DriveAdoption) com chamadas de comunidade mensais que destacam todos os componentes de impulsionação da adoção do controle às práticas recomendadas para novos recursos. Junte- https://aka.ms/O365Champions se à nossa comunidade e obtenha acesso ao lançamento antecipado, ouça de outros clientes e aprenda com especialistas da Microsoft.  
 
 ### <a name="teams-adoption-guide"></a>Guia de adoção do teams
 Confira a [adoção do teams quadro a quadro](https://aka.ms/teamstoolkit), um guia online que ajudará você a implantar equipes em sua empresa. Ele inclui muitas ferramentas, modelos e outros recursos disponíveis para download, além de outros recursos para ajudá-lo na jornada de adoção do seu Teams.

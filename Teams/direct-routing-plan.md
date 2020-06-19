@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Saiba como o roteamento direto do Microsoft Phone System permite conectar um controlador de borda de sessão (SBC) compatível fornecido pelo cliente a um sistema telefônico da Microsoft.
-ms.openlocfilehash: bd221be2174a538956667e0b113d459f2293882f
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 1d0dff52258cfae9776fde57b5a30ff60793b902
+ms.sourcegitcommit: 5895550d9d19a619d90af3381530ca3017e4b520
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691227"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "44799822"
 ---
 # <a name="plan-direct-routing"></a>Planejar o Roteamento Direto
 
@@ -49,7 +49,7 @@ A Microsoft também oferece soluções de voz todas em nuvem, como o plano de ch
 
 O roteamento direto também oferece suporte a usuários que têm a licença adicional para o plano de chamadas da Microsoft. Para obter mais informações, consulte [sistema telefônico e planos de chamada](calling-plan-landing-page.md). 
 
-Com o roteamento direto, quando os usuários participam de uma conferência agendada, o número de discagem é fornecido pelo serviço de conferência de áudio da Microsoft, que requer o licenciamento adequado.  Ao discar, o serviço de audioconferência da Microsoft coloca a chamada usando recursos de chamada online, que requer o licenciamento adequado. (Observe que a discagem não roteia pelo roteamento direto.) Para obter mais informações, consulte [reuniões online com o Teams](https://products.office.com/microsoft-teams/online-meeting-solutions). 
+Com o roteamento direto, quando os usuários participam de uma conferência agendada, o número de discagem é fornecido pelo serviço de conferência de áudio da Microsoft, que requer o licenciamento adequado.  Ao discar, o serviço de audioconferência da Microsoft coloca a chamada usando recursos de chamada online, que requer o licenciamento adequado. (Observação se um usuário não tiver uma licença de conferência de áudio da Microsoft, a chamada será roteada por meio do roteamento direto.) Para obter mais informações, consulte [reuniões online com o Teams](https://products.office.com/microsoft-teams/online-meeting-solutions). 
  
 Planejar a implantação do roteamento direto é essencial para uma implementação bem-sucedida. Este artigo descreve os requisitos de infraestrutura e licença e fornece informações sobre a conectividade SBC: 
 
@@ -67,7 +67,7 @@ Para obter informações detalhadas sobre como configurar o roteamento direto, c
 ## <a name="infrastructure-requirements"></a>Requisitos de infraestrutura
 Os requisitos de infraestrutura para o SBCs, os domínios e outros requisitos de conectividade de rede compatíveis para implantar o roteamento direto estão listados na tabela a seguir:  
 
-|**Requisitos de infraestrutura**|**Você precisa dos seguintes**|
+|Requisitos de infraestrutura|Você precisa dos seguintes|
 |:--- |:--- |
 |Controlador de borda de sessão (SBC)|Um SBC compatível. Para obter mais informações, consulte [SBCS compatível](#supported-session-border-controllers-sbcs).|
 |Troncos de telefonia conectados ao SBC|Um ou mais troncos de telefonia conectados ao SBC. Em uma extremidade, o SBC se conecta ao sistema telefônico da Microsoft via roteamento direto. O SBC também pode se conectar a entidades de telefonia de terceiros, como PBXs, adaptadores de telefonia analógicas e assim por diante. Qualquer opção de conectividade PSTN conectada ao SBC funcionará. (Para configuração dos troncos PSTN para o SBC, consulte os fornecedores de SBC ou provedores de tronco.)|
@@ -136,7 +136,7 @@ O nome de domínio SBC deve ser de um dos nomes registrados em domínios do loca
 
 A tabela a seguir mostra exemplos de nomes DNS registrados para o locatário, se o nome pode ser usado como um FQDN para o SBC e exemplos de nomes de FQDN válidos:
 
-|**Nome DNS**|**Pode ser usado para o FQDN do SBC**|**Exemplos de nomes FQDN**|
+|Nome DNS|Pode ser usado para o FQDN do SBC|Exemplos de nomes FQDN|
 |:--- |:--- |:--- |
 contoso.com|Sim|**Nomes válidos:**<br/>sbc1.contoso.com<br/>ssbcs15.contoso.com<br/>europe.contoso.com|
 |contoso.onmicrosoft.com|Não|Não há suporte para o uso de domínios *. onmicrosoft.com para nomes SBC
@@ -257,7 +257,7 @@ Você deve usar as seguintes portas para os ambientes do Microsoft 365 ou do Off
 - Office 365 GCC High
 - Office 365 DoD
 
-|**Traffic**|**De**|**Até**|**Porta de origem**|**Porta de destino**|
+|Traffic|De|Até|Porta de origem|Porta de destino|
 |:--- |:--- |:--- |:--- |:--- |
 |SIP/TLS|Proxy SIP|SBC|1024 – 65535|Definido no SBC (para Office 365 GCC High/DoD somente a porta 5061 deve ser usada)|
 SIP/TLS|SBC|Proxy SIP|Definido no SBC|5061|
@@ -269,7 +269,7 @@ O SBC faz uma consulta DNS resolver sip.pstnhub.microsoft.com. Com base na local
 
 A tabela a seguir resume as relações entre os datacenters primários, secundários e terciários:
 
-|**Se o datacenter principal estiver**|**EMEA**|**NOAM**|**Centro**|
+|Se o datacenter principal estiver|EMEA|NOAM|Centro|
 |:--- |:--- |:--- |:--- |
 |O datacenter secundário (sip2.pstnhub.microsoft.com)|Junte|FAZ|Junte|
 |O datacenter terciário (sip3.pstnhub.microsoft.com)|Centro|Centro|FAZ|
@@ -298,7 +298,7 @@ O tráfego de mídia flui para e de um serviço separado na nuvem da Microsoft. 
 ### <a name="port-range-applicable-to-all-environments"></a>Intervalo de porta (aplicável a todos os ambientes)
 O intervalo de portas dos processadores de mídia é mostrado na tabela a seguir: 
 
-|**Traffic**|**De**|**Até**|**Porta de origem**|**Porta de destino**|
+|Traffic|De|Até|Porta de origem|Porta de destino|
 |:--- |:--- |:--- |:--- |:--- |
 |UDP/SRTP|Processador de mídia|SBC|3478-3481 e 49152 – 53247|Definido no SBC|
 |UDP/SRTP|SBC|Processador de mídia|Definido no SBC|3478-3481 e 49152 – 53247|

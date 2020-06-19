@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7054156ad2cb3526cd2e8fc802014433a68efc81
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: a342c27c7379ed11e691098fe309fe4e429cb1e0
+ms.sourcegitcommit: af15d99837a389b6b26952211e65cd68c4b7f46e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44689707"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "44785297"
 ---
 <a name="manage-the-microsoft-teams-exploratory-license"></a>Gerenciar a licença do Microsoft Teams Exploratory
 =======================================================
@@ -147,6 +147,8 @@ Para saber mais, confira [Descrição do serviço do Microsoft Teams](https://do
 ## <a name="what-happens-to-legacy-microsoft-teams-commercial-cloud-trial-licenses"></a>O que acontece com as licenças de Avaliação de Nuvem Comercial do Microsoft Teams herdadas?
 
 A partir de fevereiro de 2020, os usuários qualificados podem começar a usar a experiência mais recente do Microsoft Teams Exploratory. Todos as licenças de Avaliação de Nuvem Comercial do Teams herdadas serão automaticamente convertidas para a nova oferta antes da expiração da avaliação.
+
+Quando um usuário entra no Teams Commercial Cloud Trial expirado pela primeira vez, atribuímos automaticamente uma licença de experiência do Teams Exploratory a esse usuário. Os usuários não serão convertidos antes de entrar.
 
 ### <a name="remove-a-teams-exploratory-license"></a>Remover uma licença do Teams Exploratory
 

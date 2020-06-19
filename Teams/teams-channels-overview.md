@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a99ec5fdea273c5d9e265e22a77c86ee628da3ab
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 19c4bf59275d0f9be4c522129fd20ae668c2f30d
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690007"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44753433"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Visão geral de equipes e canais no Microsoft Teams
 
@@ -34,7 +34,7 @@ Vamos começar pensando em como o Microsoft Teams permite que equipes individuai
 - As **equipes** são uma coleção de pessoas, conteúdo e ferramentas que envolvem diferentes projetos e resultados dentro de uma organização.
 
     - As equipes podem ser criadas para serem particulares e apenas para usuários convidados.
-    - As equipes também podem ser criadas para serem públicas e abertas, permitindo que qualquer pessoa dentro da organização participe (até 5000 membros).
+    - As equipes também podem ser criadas para serem públicas e abertas, e qualquer pessoa dentro da organização pode participar (até 10.000 membros).
     
     As equipes são projetadas para reunir um grupo de pessoas que trabalham unidas para realizar tarefas. O Teams pode ser dinâmico para um trabalho baseado em um projeto (por exemplo, lançamento de um produto, criação de uma sala de guerra digital), assim como para trabalhos contínuos a fim de refletir a estrutura interna da empresa (por exemplo, localizações de departamentos e escritórios). Conversas, arquivos e notas nos canais de equipe são visíveis apenas para os membros da equipe.
 

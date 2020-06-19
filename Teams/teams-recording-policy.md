@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8bb6f5a682b816e04e03694788fbdcf48ad897b5
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 00727602aed5eee205a01b01e1ab01218c5b2352
+ms.sourcegitcommit: 8acc2ed4cb807f941a6526ec8aad562536f45aa6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690987"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "44804675"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>Introdução à gravação baseada em políticas de equipe para chamadas & reuniões
 
@@ -133,7 +133,7 @@ Os requisitos do Azure e da VM do Windows se aplicam somente ao componente bot d
 
 ## <a name="compliance-recording-policy-assignment-and-provisioning"></a>Conformidade de atribuição e provisionamento de política de gravação
 
-Os administradores de ti podem determinar quais usuários devem ser gravados e qual gravador será usado para cada usuário, criando e atribuindo políticas de gravação de conformidade. Os gravadores são automaticamente convidados a participar de conversas com base na configuração dessas políticas quando ocorre uma interação de comunicação. As políticas de gravação de conformidade são gerenciadas usando o [<span class="underline">Microsoft PowerShell</span>](https://docs.microsoft.com/microsoftteams/teams-powershell-overview) e podem ser aplicadas no locatário e no nível de cada usuário para cada organização. Você pode encontrar mais informações sobre documentos da Microsoft para [<span class="underline">políticas de reunião</span>](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams) e políticas de [<span class="underline">chamadas</span>](https://docs.microsoft.com/microsoftteams/teams-calling-policy).
+Os administradores de ti podem determinar quais usuários devem ser gravados e qual gravador será usado para cada usuário, criando e atribuindo políticas de gravação de conformidade. Os gravadores são automaticamente convidados a participar de conversas com base na configuração dessas políticas quando ocorre uma interação de comunicação. As políticas de gravação de conformidade são gerenciadas usando o [<span class="underline">Microsoft PowerShell</span>](https://docs.microsoft.com/microsoftteams/teams-powershell-overview) e podem ser aplicadas no locatário, por usuário e no nível de grupo de segurança para cada organização. Você pode encontrar mais informações sobre documentos da Microsoft para [<span class="underline">políticas de reunião</span>](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams), políticas de [<span class="underline">chamadas</span>](https://docs.microsoft.com/microsoftteams/teams-calling-policy) e políticas de [<span class="underline">grupo</span>](https://docs.microsoft.com/microsoftteams/assign-policies#assign-a-policy-to-a-group).
 
 1. Crie uma instância do aplicativo em seu locatário.
 

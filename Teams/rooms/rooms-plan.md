@@ -14,12 +14,12 @@ ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection:
 - M365-collaboration
 description: Este artigo explica as considerações de planejamento pertinentes para a implantação de salas do Microsoft Teams, a próxima geração de sistemas de sala do Skype.
-ms.openlocfilehash: b28c310ab5c00040490d359cf6b79445f0d1cc95
-ms.sourcegitcommit: 3325fd9de57367e9dd60685d1fef096921441a76
+ms.openlocfilehash: 7b954b81d13addd4b8eb0c7bb5614f9e08f24251
+ms.sourcegitcommit: 8b172e9a0d0626c9a88998600d4b17c6c8cdadd2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "43997302"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44761459"
 ---
 # <a name="plan-microsoft-teams-rooms"></a>Planejar salas do Microsoft Teams
 
@@ -102,8 +102,8 @@ _Exemplo de inventário de sala de reunião/conferência_
 
 | Site  | Nome da sala | Tipo de sala | Número de pessoas  | Em escopo? | Recursos de sala atuais       | Recursos de sala futura     |
 |-----------|---------------|---------------|-----------------------|--------------|-------------------------------------|----------------------------------------------------------|
-| HQ de Londres | Curie         | Média        | 6&ndash;12                  | Sim          | Falante                        | 1 tela, áudio e vídeo, além de uma apresentação<br>Acesso PSTN |
-| HQ de Sydney | Pico          | Grande         | 12&ndash;16                 | Sim          | Unidade AV herdada, 1 tela e câmera | 2 telas, áudio e vídeo e apresentação<br>Acesso PSTN |
+| HQ de Londres | Curie         | Média        | 6 &ndash; 12                  | Sim          | Falante                        | 1 tela, áudio e vídeo, além de uma apresentação<br>Acesso PSTN |
+| HQ de Sydney | Pico          | Grande         | 12 &ndash; 16                 | Sim          | Unidade AV herdada, 1 tela e câmera | 2 telas, áudio e vídeo e apresentação<br>Acesso PSTN |
 
 ## <a name="device-selection"></a>Seleção de dispositivo 
 
@@ -124,10 +124,10 @@ _Exemplo de modelo de implantação de salas do Microsoft Teams para sua organiz
 
 | **Tipo/tamanho da sala** | **Número de pessoas**  | **Sistema de salas do Microsoft Teams** | **Dispositivos periféricos**  | **Exibição (s)** |
 |----------------------|-----------------------|----------------------------------|-------------------------|-----------------|
-| Foco 10 ' a 9 '      | 2&ndash;4                   |                                  |                         |                 |
-| Pequeno 16 ' por 16 '     | 4&ndash;6                   |                                  |                         |                 |
-| Média 18 ' a 20 '    | 6&ndash;12                  |                                  |                         |                 |
-| Grande 15 ' por 32 '     | 12&ndash;16                 |                                  |                         |                 |
+| Foco 10 ' a 9 '      | 2 &ndash; 4                   |                                  |                         |                 |
+| Pequeno 16 ' por 16 '     | 4 &ndash; 6                   |                                  |                         |                 |
+| Média 18 ' a 20 '    | 6 &ndash; 12                  |                                  |                         |                 |
+| Grande 15 ' por 32 '     | 12 &ndash; 16                 |                                  |                         |                 |
 
 **Dica de pro –** Agora é um ótimo momento para começar a reunir informações sobre a solução de salas do Microsoft Teams que você escolheu.
 
@@ -150,7 +150,7 @@ Sua organização deve executar tarefas de monitoramento, administração e gere
 
 Muitas organizações têm uma equipe de AV ou um parceiro que gerencia seus dispositivos e salas de conferência. Essa equipe deve estar envolvida para concordar com quem gerenciará os dispositivos de salas do Microsoft Teams que serão encaminhados para monitorar o desempenho e implantar atualizações e hotfixes de software. 
 
-Considere qual fila do helpdesk você direcionará as chamadas relacionadas ao Microsoft Teams Rooms֪ – e forneça uma pergunta frequente à equipe de assistência técnica para que elas possam entender melhor como usar as salas do Microsoft Teams e as principais etapas para solução de problemas que podem ser tomadas. Um bom ponto de partida para esta pergunta frequente são as equipes de ajuda e suporte do [usuário](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) [em sua organização](known-issues.md).
+Considere qual fila do helpdesk você direcionará as chamadas relacionadas ao Microsoft Teams Rooms֪ – e forneça uma pergunta frequente à equipe de assistência técnica para que elas possam entender melhor como usar as salas do Microsoft Teams e as principais etapas para solução de problemas que podem ser tomadas. Um bom ponto de partida para esta pergunta frequente é a [ajuda do usuário](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) e os [problemas conhecidos](known-issues.md).
 
 |    |     |
 |-----------|------------|

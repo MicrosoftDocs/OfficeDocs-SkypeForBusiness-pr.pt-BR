@@ -1,7 +1,7 @@
 ---
 title: Saiba como configurar câmeras de conteúdo-Microsoft Teams
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 ms.custom: seo-marvel-mar2020
 description: Use uma câmera de conteúdo em uma sala do Microsoft Teams, que interage com o software de processamento de imagens para permitir que os apresentadores desenhem em um quadro de comunicações analógico.
-ms.openlocfilehash: ecd9c20c7f479c548d0ab9b4c3db8bbec945e79f
-ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
+ms.openlocfilehash: e2aa115f1ddac9c7ae0eb8b247b204429f7ed1d4
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43157804"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756892"
 ---
 # <a name="content-cameras"></a>Câmeras de conteúdo
 
@@ -87,7 +87,7 @@ Ou, consulte o Marketplace de dispositivos do Microsoft Teams para kits de câme
 
 Depois que a câmera estiver instalada na sala, configure-a no console de salas do Microsoft Teams da sala:
 
-1. Selecione **Settings** ![o ícone](../media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png)configurações de configurações, faça logon como administrador e selecione **configurações de dispositivo**.
+1. Selecione **Settings** ![ o ícone configurações ](../media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png) de configurações, faça logon como administrador e selecione **configurações de dispositivo**.
 2. Na seção **padrões da câmera** , selecione a câmera de conteúdo e certifique-se de que a opção **aprimoramentos de conteúdo** esteja selecionada.
 3. Adicionais Se a câmera foi instalada de cabeça para baixo porque a câmera foi montada a partir do teto, marque a opção **girar conteúdo câmera 180 °** .
 4. Selecione **salvar e sair**.
@@ -100,6 +100,6 @@ Você também pode ajustar essas configurações remotamente usando um [arquivo 
 
 [Gerenciar as configurações de um console de salas do Microsoft Teams remotamente com um arquivo de configuração XML](xml-config-file.md)
 
-[Requisitos de salas do Microsoft Teams](requirements.md)
+[Requisitos das Salas Microsoft Teams](requirements.md)
 
 

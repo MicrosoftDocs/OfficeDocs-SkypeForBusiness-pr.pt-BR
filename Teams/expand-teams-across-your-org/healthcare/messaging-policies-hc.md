@@ -18,12 +18,12 @@ appliesto:
 ms.reviewer: ''
 description: Saiba como personalizar uma política de mensagens segura que pode incluir confirmações de leitura e notificações de prioridade.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: b4bd8032cce78e388d221108ebdfc08a16b8afd1
-ms.sourcegitcommit: 5dff3217760cf881d1d96e5d5c76101c90afcbc0
+ms.openlocfilehash: 1321c22f2eac04063723b404153909c20125dd57
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "44724885"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755825"
 ---
 # <a name="get-started-with-secure-messaging-for-healthcare-organizations"></a>Introdução às Mensagens Seguras para Organizações de Saúde
 
@@ -53,7 +53,7 @@ Para aplicativos de saúde, escolha o **usuário controlado** ou **ativado para 
 
 ## <a name="send-urgent-messages-using-priority-notifications"></a>Enviar mensagens urgentes usando as notificações de prioridade
 
-Um usuário pode marcar uma mensagem como *urgente* ao enviar mensagens de chat para outros usuários. Esse recurso ajuda a equipe do hospital a enviar uma outra pessoa quando um incidente crítico exige sua atenção. Ao contrário *das mensagens comuns comuns, as* [notificações de prioridade](https://support.microsoft.com/article/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462) notificam os usuários a cada dois minutos por até 20 minutos ou até que a mensagem seja retirada e lida pelo destinatário, maximizando a probabilidade de que a mensagem seja acionada de forma oportuna.
+Um usuário pode marcar uma mensagem como *urgente* ao enviar mensagens de chat para outros usuários. Esse recurso ajuda a equipe do hospital a enviar uma outra pessoa quando um incidente crítico exige sua atenção. Ao contrário *das mensagens comuns comuns, as* [notificações de prioridade](https://support.microsoft.com/en-us/office/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462) notificam os usuários a cada dois minutos por até 20 minutos ou até que a mensagem seja retirada e lida pelo destinatário, maximizando a probabilidade de que a mensagem seja acionada de forma oportuna.
 
 Um administrador pode habilitar ou desabilitar a capacidade dos usuários atribuídos a essa política para enviar notificações de prioridade. Este recurso está ativado por padrão. O destinatário da mensagem de prioridade talvez não tenha a mesma política de mensagens e não terá a opção de desabilitar as mensagens de prioridade de recebimento. Para aplicativos de assistência médica, recomendamos habilitar o recurso para pelo menos alguns usuários, mas você precisará determinar quais deles.
 
