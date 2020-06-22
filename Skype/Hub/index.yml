@@ -1,0 +1,59 @@
+### YamlMime:Hub
+title: Skype for Business
+summary: Documentação técnica do Skype for Business
+brand: m365
+metadata:
+  title: Skype for Business
+  description: Documentação técnica do Skype for Business
+  ms.service: skype-for-business-online
+  ms.topic: hub-page
+  audience: ITPro
+  author: samanro
+  ms.author: samanro
+  ms.date: 07/03/2019
+  localization_priority: Priority
+  ms.openlocfilehash: bfae335402888736c47ebe38c98cc2d30654d8af
+  ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+  ms.translationtype: HT
+  ms.contentlocale: pt-BR
+  ms.lasthandoff: 02/11/2020
+  ms.locfileid: "44805539"
+additionalContent:
+  sections:
+  - title: Para Profissionais de TI
+    items:
+    - title: Skype for Business Online
+      summary: Encontre recursos para gerenciar o Skype for Business Online no seu ambiente Office 365.
+      url: /SkypeForBusiness/skype-for-business-online
+    - title: Soluções híbridas
+      summary: Saiba como planejar uma implantação híbrida do Skype for Business.
+      url: /SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json
+    - title: Skype para Business Server
+      summary: Implante e gerencie o server do Skype for Business para a sua organização.
+      url: /SkypeForBusiness/skype-for-business-server-2019
+    - title: Referência do PowerShell para o Skype for Business
+      summary: Saiba mais sobre os cmdlets do PowerShell necessários para gerenciar o Skype for Business e o Skype for Business online.
+      url: /powershell/skype/intro
+    - title: Microsoft Teams
+      summary: Receba orientações práticas, obtenha ajuda com o planejamento e siga as instruções necessárias para implementar o Microsoft Teams com êxito.
+      url: /MicrosoftTeams/
+    - title: Mudar do Skype for Business para o Microsoft Teams
+      summary: Encontre orientações e ferramentas para explorar o caminho ideal para o Teams.
+      url: /MicrosoftTeams/upgrade-start-here
+    - title: Salas do Microsoft Teams
+      summary: Aprenda a planejar, implantar e gerenciar Salas no Microsoft Teams.
+      url: /SkypeForBusiness/room-systems/
+    - title: Programa de certificação do Skype for Business
+      summary: Saiba mais sobre soluções e dispositivos certificados.
+      url: /SkypeForBusiness/certification/overview
+    - title: Solução de problemas
+      summary: Encontre solução de problemas e recursos de suporte para Profissionais de TI e administradores.
+      url: /office/troubleshoot
+  - title: Para outros públicos
+    items:
+    - title: Desenvolvedores
+      summary: Orientações para o desenvolvimento de soluções para o Skype for Business.
+      url: /skype-sdk/
+    - title: Usuários finais
+      summary: Encontre ajuda, treinamentos e suporte técnico para os usuários do Skype for Business em support.office.com.
+      url: https://support.office.com/skype-for-business

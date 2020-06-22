@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Saiba qual escrivaninha e telefones de conferências são certificados para que o Microsoft Teams produza os melhores resultados.
-ms.openlocfilehash: f25373f0d7b35163bd1fce2d5662e5eb96e5aeab
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: c18b335684c5a0ff6017760e1e2aa03dabd68f66
+ms.sourcegitcommit: 8d5ba1346be583af9382906dda556ccf868904f7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666113"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44816812"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>Telefones IP certificados para o Microsoft Teams
 
@@ -71,6 +71,39 @@ As seguintes barras de colaboração são certificadas para o Microsoft Teams:
 |X50 de Polyline Studio | 3.1.1.216109| De junho de 2020|Sala de foco (3m x 3ms) </br> Pequena sala de reunião (4,5 m x 4,5 m)|
 |Yealink VC210| 118.15.0.14|Fevereiro de 2020|Sala de foco (3m x 3ms) </br> Pequena sala de reunião (4,5 m x 4,5 m)|
 
+### <a name="product-release-information-teams-phones"></a>Informações de lançamento do produto-telefones de equipes
+A seguir estão as versões mais recentes do aplicativo para telefone IP do Teams e versão do firmware lançadas
+#### <a name="release-date-may-132020"></a>Data do lançamento: 13 de maio de 2020
+#### <a name="app-versions"></a>Versões do aplicativo
+|AppV| Versão|
+|:---|:---|
+|Teams | .040801|
+|Agente de administração|.210|
+|Portal da empresa| .4715|
+
+#### <a name="firmware-versions"></a>Versões do firmware
+|Atualizar #3| Firmware liberado para produção|
+|:---|:---|
+|AudioCodes C450HD|C450HD_TEAMS_1.3.47|
+|CCX400 de Polyline|1.0.1.0054|
+|CCX500/CCX600|5.9.13.0306|
+|Yealink T55/T56/T58|58.15.0.104|
+|Yealink VP59|91.15.0.40|
+|Yealink CP960|73.15.0.100|
+
+### <a name="product-release-information-collaboration-bar"></a>Informações de lançamento do produto-barra de colaboração
+Veja a seguir as versões mais recentes do aplicativo da barra de colaboração do Teams e a versão do firmware lançadas
+#### <a name="app-versions"></a>Versões do aplicativo
+|AppV| Versão|
+|:---|:---|
+|Teams | .040901|
+|Agente de administração|.210|
+|Portal da empresa| .4715|
+
+#### <a name="firmware-versions"></a>Versões do firmware
+|Atualizar #3| Firmware liberado para produção|
+|:---|:---|
+|Yealink VC210|118.15.0.19|
 
 Consulte [conjunto de recursos de telefones do Microsoft Teams](/MicrosoftTeams/devices/phones-for-teams#microsoft-teams-phones-feature-set) para obter informações sobre os recursos compatíveis com esses dispositivos.
 
