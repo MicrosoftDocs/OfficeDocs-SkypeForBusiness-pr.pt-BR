@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 18f880e9b6762371f2a936ff0901db542d541748
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 96ff2652a326e537f200c47495496dd81ea9fd4b
+ms.sourcegitcommit: 27fae90d4429e81143ea285edab9dbc19bd3c0bb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690917"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "44854093"
 ---
 # <a name="teams-only-mode-considerations"></a>Considerações sobre o modo Teams Only (Apenas Teams)
 
@@ -41,9 +41,6 @@ Embora milhares de clientes tenham sido atualizados com êxito para o Microsoft 
 > Se você estiver iniciando o planejamento da atualização, lembre-se de rever nossa [introdução ao guia de atualização do Microsoft Teams](upgrade-start-here.md) . 
 
 **Considerações de coexistência**: as organizações que já usam o Skype for Business Online e/ou o Skype for Business Server podem introduzir equipes em seu ambiente em um ritmo que atenda às suas necessidades. As organizações podem implantar de forma incremental as equipes para um conjunto desejado de usuários, conforme necessário, e os usuários que usam equipes podem se comunicar com os usuários que usam o Skype for Business e vice-versa. Para gerenciar essa experiência, os administradores usam modos de coexistência, que definem a experiência do cliente final do usuário, o comportamento de roteamento de chats e chamadas de entrada, bem como se novas reuniões estão agendadas no Teams ou no Skype for Business. Os usuários podem federar-se com usuários em outras organizações se o usuário for atualizado somente para o Microsoft **Teams**; no entanto, a melhor experiência é fornecida quando os dois usuários usam o Microsoft Teams. Os usuários que são atualizados para o Microsoft Teams ainda podem ingressar em reuniões do Skype for Business. 
-
-> [!NOTE]
-> Os usuários que são atualizados para o Microsoft Teams não podem se comunicar com os usuários que estão usando o Skype para consumidor.
 
 > [!IMPORTANT]
 > Para obter informações mais detalhadas sobre a coexistência, consulte [entender o Microsoft Teams e a coexistência e interoperabilidade do Skype for Business](teams-and-skypeforbusiness-coexistence-and-interoperability.md). 

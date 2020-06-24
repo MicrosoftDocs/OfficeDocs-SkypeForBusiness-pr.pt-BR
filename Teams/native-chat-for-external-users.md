@@ -14,19 +14,19 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 description: Saiba mais sobre a experiência de chat de equipes nativas para usuários de acesso externo (federado) no Microsoft Teams, disponível entre usuários externos onde os dois usuários estão no modo de atualização do TeamsOnly.
-ms.openlocfilehash: 0d6f7ed00482ee68233b4d93cc101e9c820a6f14
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 1a8cd038f8ff65ea24abb790e564d2cb30ef0ed1
+ms.sourcegitcommit: 44e47c3b2eb44c38cb8d761befdc6c0cef7c61bc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41832681"
+ms.lasthandoff: 06/22/2020
+ms.locfileid: "44842002"
 ---
 <a name="native-chat-experience-for-external-federated-users-in-microsoft-teams"></a>Experiência de chat nativo para usuários externos (federados) no Microsoft Teams
 ======================================
 
-Quando um usuário do Microsoft Teams está conversando com um usuário externo (federado), a experiência de chat é limitada ao texto. No entanto, se tanto o locatário do teams quanto o do usuário externo estiverem no modo de atualização do TeamsOnly, você poderá ter uma "experiência de chat de equipe nativa", que inclui formatação rica, @mentions e outros recursos de chat. Em outras palavras, você pode ter a mesma experiência de chat do teams 1:1 com usuários externos qualificados da mesma forma que faria com os usuários da sua organização. Os chats de equipes nativas com usuários externos ainda estão limitados a chats de 1:1 (os usuários externos não podem fazer chats em grupo).
+Quando um usuário do Microsoft Teams está conversando com um usuário externo (federado), a experiência de chat é limitada ao texto. No entanto, se tanto o usuário do Microsoft Teams quanto o usuário externo estiverem no modo de atualização do TeamsOnly, você poderá ter uma "experiência de chat de equipe nativa", que inclui formatação rica, @mentions e outros recursos de chat. Em outras palavras, você pode ter a mesma experiência de chat do teams 1:1 com usuários externos qualificados da mesma forma que faria com os usuários da sua organização. Os chats de equipes nativas com usuários externos ainda estão limitados a chats de 1:1 (os usuários externos não podem fazer chats em grupo).
 
-A experiência de chat nativa para usuários externos está ativada para todos os locatários de equipes, mas nem todos os usuários estão qualificados. Para ser oferecida uma experiência de chat nativa, tanto o remetente quanto o destinatário precisam estar em um locatário do teams que esteja executando o modo de atualização do TeamsOnly. Para saber mais sobre as políticas de atualização, leia [configuração de suas configurações de coexistência e atualização](setting-your-coexistence-and-upgrade-settings.md).
+A experiência de chat nativa para usuários externos está ativada para todos os locatários de equipes, mas nem todos os usuários estão qualificados. Para oferecer uma experiência de chat nativa, o remetente e o destinatário precisam estar configurados para o modo de atualização do TeamsOnly. Para saber mais sobre as políticas de atualização, leia [configuração de suas configurações de coexistência e atualização](setting-your-coexistence-and-upgrade-settings.md).
 
 Para ver uma lista de recursos para usuários de acesso externo no Teams, consulte [comparar o acesso externo e de convidado](communicate-with-users-from-other-organizations.md#compare-external-and-guest-access).
 

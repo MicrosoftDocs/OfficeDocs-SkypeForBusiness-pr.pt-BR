@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 ms.custom: seo-marvel-mar2020
 description: Gerenciamento remoto das configurações padrão usadas por um dispositivo de salas do Microsoft Teams, incluindo a aplicação de um tema personalizado e a criação de um arquivo de configurações mestre.
-ms.openlocfilehash: 8d723423cc8e93429d193f4340eceddcc55ca10d
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+ms.openlocfilehash: 77fc064157d57a2584e4a527148a143680010832
+ms.sourcegitcommit: 44e47c3b2eb44c38cb8d761befdc6c0cef7c61bc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44230499"
+ms.lasthandoff: 06/22/2020
+ms.locfileid: "44842012"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>Gerenciar as configurações de um console de salas do Microsoft Teams remotamente com um arquivo de configuração XML
 
@@ -30,7 +30,7 @@ Este artigo discute o gerenciamento remoto das configurações padrão usadas po
   
 ## <a name="create-an-xml-configuration-file"></a>Criar um arquivo de configuração XML
 
-Qualquer editor de texto pode ser usado para criar um arquivo de configurações. A tabela de **elementos XML** explica os elementos mostrados neste arquivo de configuração de exemplo SkypeSettings. XML (nome do arquivo obrigatório).
+Qualquer editor de texto pode ser usado para criar um arquivo de configurações. A tabela de **elementos XML** explica os elementos mostrados neste exemplo de arquivo de configuração do SkypeSettings.xml (nome do arquivo obrigatório).
   
 ```XML
 <SkypeSettings>
@@ -90,28 +90,29 @@ Se um valor de variável for do tipo errado, os elementos estiverem fora da orde
 |\<ExchangeAddress\> |Cadeia de caracteres &#x2778;  ||O nome de entrada da conta de dispositivo do Exchange do console. Se o ExchangeAddress for omitido, o SkypeSignInAddress não será reutilizado automaticamente. |
 |\<ModernAuthEnabled> |&#x2777; Boolean  |  |Desabilitado por padrão. <br/> <br/>Quando definido como true, o aplicativo salas do Microsoft Teams usa apenas a autenticação moderna para se conectar a recursos e não retorna à autenticação básica.|
 |\<DomainUsername\> |Cadeia de caracteres &#x2778;  ||O domínio e o nome do usuário do dispositivo de console, por exemplo, Seattle\RanierConf. |
-|\<Passe\> |Cadeia de caracteres 3  || O parâmetro de senha é a mesma senha usada para entrar na conta do dispositivo do Skype for Business.   |
+|\<Password\> |Cadeia de caracteres 3  || O parâmetro de senha é a mesma senha usada para entrar na conta do dispositivo do Skype for Business.   |
 | \<ConfigureDomain\>  |Cadeia de caracteres &#x2778;  ||Você pode listar vários domínios, separados por vírgulas. |
-|\<TeamsMeetingsEnabled\> |&#x2777; Boolean  |Primeiro &#x2776;  |Desabilitado por padrão. <br/> <br/> O arquivo XML é considerado mal formado se ambos os \< SkypeMeetingsEnabled \> e \< TeamsMeetingsEnabled \> estiverem desativados, mas é aceitável ter ambas as configurações habilitadas ao mesmo tempo. |
+|\<TeamsMeetingsEnabled\> |&#x2777; Boolean  |Primeiro &#x2776;  |Desabilitado por padrão. <br/> <br/> O arquivo XML é considerado mal formado se ambos \<SkypeMeetingsEnabled\> \<TeamsMeetingsEnabled\> estiverem desativados, mas é aceitável ter ambas as configurações habilitadas ao mesmo tempo. |
 |\<IsTeamsDefaultClient> |&#x2777; Boolean  |Primeiro &#x2776;  |Desabilitado por padrão. |
 |\<BluetoothAdvertisementEnabled> |&#x2777; Boolean  |Primeiro &#x2776;  |Habilitado por padrão. |
 |\<AutoAcceptProximateMeetingInvitations> |&#x2777; Boolean  |Primeiro &#x2776;  |Se verdadeiro, reuniões com base em proximidade são automaticamente aceitas. Desabilitado por padrão. |
 |\<DualScreenMode\>  |&#x2777; Boolean  |Primeiro &#x2776;  |Se verdadeiro, o modo de tela dupla está habilitado. Caso contrário, o dispositivo usa o modo de tela única. |
-| \<DuplicateIngestDefault\> |&#x2777; Boolean  |Primeiro &#x2776; |Se verdadeiro, o conteúdo é mostrado nas duas telas no modo de tela dupla, quando estiver fora da reunião. | 
+| \<DuplicateIngestDefault\> |&#x2777; Boolean  |Primeiro &#x2776; |Se verdadeiro, o conteúdo é mostrado nas duas telas no modo de tela dupla, quando estiver fora da reunião. |
+|\<DisableTacCommunication\> |&#x2777; Boolean  |Primeiro &#x2776; |Se verdadeiro, todas as comunicações com o gerenciamento de dispositivos do centro de administração do Team serão desabilitadas. |
 |\<SendLogs\> |Contêiner |Primeiro &#x2776;  |  |
 |\<EmailAddressForLogsAndFeedback\> |Cadeia de caracteres &#x2778;  | | Define um endereço de email opcional para o qual os logs podem ser enviados quando a janela "fornecer comentários" for exibida. |
 |\<SendLogsAndFeedback\> |&#x2777; Boolean  | | Se verdadeiro, os logs são enviados para o administrador. Se falso, somente os comentários são enviados para o administrador (e não os logs).  |
-| \<Dispositivos\>  |Contêiner |Primeiro &#x2776;  | Os nomes dos dispositivos de áudio conectados nos elementos filho têm os mesmos valores listados no aplicativo Gerenciador de Dispositivos. A configuração pode conter um dispositivo que atualmente não existe no sistema, como um dispositivo de A/V que não está conectado ao console. A configuração seria mantida para o dispositivo correspondente.  |
+| \<Devices\>  |Contêiner |Primeiro &#x2776;  | Os nomes dos dispositivos de áudio conectados nos elementos filho têm os mesmos valores listados no aplicativo Gerenciador de Dispositivos. A configuração pode conter um dispositivo que atualmente não existe no sistema, como um dispositivo de A/V que não está conectado ao console. A configuração seria mantida para o dispositivo correspondente.  |
 |\<MicrophoneForCommunication\> |Cadeia de caracteres &#x2778;  ||Define o microfone usado como o dispositivo de gravação em uma conferência. |
 |\<SpeakerForCommunication\> |Cadeia de caracteres &#x2778;  ||Dispositivo que deve ser usado como alto-falante para a conferência. Essa configuração é usada para definir o dispositivo de alto-falantes usado em uma chamada. |
-|\<Defaultspeakr\> |Cadeia de caracteres &#x2778;  ||Dispositivo que deve ser usado para executar o áudio de uma fonte de ingestão HDMI.  |
+|\<DefaultSpeaker\> |Cadeia de caracteres &#x2778;  ||Dispositivo que deve ser usado para executar o áudio de uma fonte de ingestão HDMI.  |
 |\<ContentCameraId>  | Cadeia de caracteres &#x2778;  | | Defina o caminho da instância da câmera configurada em sala para compartilhar conteúdo analógico do quadro de comunicações em uma reunião. Consulte [localizar o caminho da instância USB da câmera de conteúdo](#locate-the-content-camera-usb-instance-path).|
 |\<ContentCameraInverted>  | &#x2777; Boolean | | Especifique se a câmera de conteúdo está fisicamente instalada de cabeça para baixo. Para câmeras de conteúdo que dão suporte à rotação automática, especifique falso. |
 |\<ContentCameraEnhancement>  | &#x2777; Boolean | |Quando definida como true (o padrão), a imagem da câmera de conteúdo é aprimorada digitalmente: a borda do quadro de comunicações é detectada e um zoom apropriado é selecionado, as linhas de tinta são aprimoradas e a pessoa que está escrevendo no quadro de comunicações torna-se transparente.  <br><br> Defina como falso se você pretende enviar um RSS feed de vídeo para os participantes de uma reunião de espaços em que um quadro de comunicações não está desenhado com uma caneta e, em vez disso, a câmera é usada para mostrar notas autoadesivas, cartazes ou outras mídias.  |
-| \<Temas\>  |Contêiner |Primeiro &#x2776;  |Um dos recursos que podem ser aplicados com um arquivo XML é um tema personalizado para a sua organização. Você pode especificar um nome de tema, uma imagem de fundo e uma cor. |
+| \<Theming\>  |Contêiner |Primeiro &#x2776;  |Um dos recursos que podem ser aplicados com um arquivo XML é um tema personalizado para a sua organização. Você pode especificar um nome de tema, uma imagem de fundo e uma cor. |
 |\<ThemeName\> |Cadeia de caracteres &#x2778;  || Usado para identificar o tema no cliente. As opções de Nome do Tema são Padrão, um dos temas predefinidos fornecidos ou Personalizado. <br/>  Os nomes de temas personalizados sempre usam o nome *personalizado*. A interface do usuário do cliente pode ser definida no console com o padrão ou uma das predefinições, mas o uso de um tema personalizado deve ser definido remotamente por um administrador. <br/>  Os temas predefinidos incluem:  <br/>  Padrão <br/>  Onda Azul <br/>  Floresta Digital <br/>  Apanhador de Sonhos <br/>  Suco de Lima <br/>  Pixel Perfeito <br/>  Mapa Rodoviário <br/>  Pôr do Sol <br/>  Para desabilitar o tema atual, use "nenhum tema" para o ThemeName.  |
 |\<CustomThemeImageUrl\> |Cadeia de caracteres &#x2778;  ||Obrigatório para um tema personalizado, caso contrário, opcional. Insira somente o nome do arquivo.   |Para obter mais informações sobre a imagem do tema personalizado, consulte a seção [imagens do tema personalizado](xml-config-file.md#Themes) .
-|\<CustomThemeColor\> |Contêiner ||Contêiner para os \< \> valores RedComponent, \< GreenComponent \> e \< BlueComponent \> . Esses valores são necessários para um tema personalizado. |
+|\<CustomThemeColor\> |Contêiner ||Contêiner para os \<RedComponent\> \<GreenComponent\> valores, e \<BlueComponent\> . Esses valores são necessários para um tema personalizado. |
 |\<RedComponent\> |Byte (0-255) ||Representa o componente da cor vermelha. |
 |\<GreenComponent\> |Byte (0-255) ||Representa o componente da cor verde. |
 |\<BlueComponent\> |Byte (0-255) ||Representa o componente da cor azul. | 
@@ -125,7 +126,7 @@ Se um valor de variável for do tipo errado, os elementos estiverem fora da orde
   
 ## <a name="manage-console-settings-with-an-xml-configuration-file"></a>Gerenciar as configurações do console usando um arquivo de configuração XML
 
-Na inicialização, se um console de salas do Microsoft Teams encontrar um arquivo XML chamado SkypeSettings. xml localizado em `C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState` , ele aplicará as configurações indicadas pelo arquivo XML e excluirá o arquivo XML.
+Na inicialização, se um console de salas do Microsoft Teams encontrar um arquivo XML chamado SkypeSettings.xml localizado em `C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState` , ele aplicará as configurações indicadas pelo arquivo XML e excluirá o arquivo XML.
   
 Dependendo de quantas salas do Microsoft Teams sua empresa tem e como você opta por gerenciar para configurá-los, há várias maneiras de colocar o arquivo de configuração XML. Quando o arquivo for enviado por push para o console, reinicie-o para processar as alterações de configuração. O arquivo de configuração XML é excluído após seu processamento bem-sucedido. Os métodos de gerenciamento sugeridos para os dispositivos de salas do Microsoft Teams são discutidos em:
   
@@ -138,7 +139,7 @@ Você pode usar o método de sua preferência, desde que possa usá-lo para tran
 
 <a name="Themes"> </a>
 
-O arquivo de imagem do tema personalizado deve ser colocado na `C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState` pasta. Digite o nome do arquivo e a extensão \< na \> variável CustomThemeImageUrl.
+O arquivo de imagem do tema personalizado deve ser colocado na `C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState` pasta. Digite o nome do arquivo e a extensão na \<CustomThemeImageUrl\> variável.
   
 O arquivo de imagem deve ser exatamente 3840X1080 pixels e deve ser um dos seguintes formatos de arquivo: jpg, JPEG, png e BMP. Se a sua organização quiser uma imagem personalizada, um designer de elementos gráficos poderá usar o [modelo do Photoshop de tema personalizado](../downloads/ThemingTemplateMicrosoftTeamsRooms_v2.1.psd). Ele contém mais detalhes sobre onde vários elementos da interface do usuário são relativos ao restante de uma imagem de tema e quais áreas aparecem em consoles e exibições.
   

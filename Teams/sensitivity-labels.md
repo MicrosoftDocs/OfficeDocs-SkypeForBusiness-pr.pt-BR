@@ -17,16 +17,14 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba como definir e usar rótulos de sensibilidade no Microsoft Teams.
-ms.openlocfilehash: 7f8eb7e0fa0d34ae21829a12011f094d8e9c9126
-ms.sourcegitcommit: 2c23a8c5afc4a6b74c2c6d7487975a94fe99dc07
+ms.openlocfilehash: e2482a5afeb7dff9804a5a0591cd377be9f9b177
+ms.sourcegitcommit: 27fae90d4429e81143ea285edab9dbc19bd3c0bb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "44562066"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "44854113"
 ---
 # <a name="sensitivity-labels-for-microsoft-teams"></a>Rótulos de sensibilidade do Microsoft Teams
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 Os [Rótulos de sensibilidade](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels) permitem que os administradores de equipe regulam o acesso a conteúdo organizacional confidencial criado durante a colaboração dentro do teams. Você pode definir rótulos de sensibilidade e suas políticas associadas no [centro de conformidade de & de segurança](https://docs.microsoft.com/microsoft-365/compliance/go-to-the-securitycompliance-center). Esses rótulos e políticas são automaticamente aplicados ao Teams em sua organização.  
 
@@ -36,19 +34,20 @@ Rótulos de sensibilidade são diferentes dos rótulos de classificação que ex
 
 Por outro lado, as etiquetas de sensibilidade e suas políticas são automaticamente impostas de ponta a ponta por meio de uma combinação da plataforma de grupos, do centro de conformidade & do centro de conformidade e dos serviços do teams. Os rótulos de sensibilidade fornecem suporte avançado à infraestrutura para proteger os dados confidenciais da sua organização.  
 
+Para migrar seus grupos existentes de rótulos de classificação para usar rótulos de sensibilidade, use as instruções em [Rótulos de classificação e sensibilidade do Azure Active Directory para grupos do Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/migrate-aad-classification-sensitivity-labels).
 ## <a name="create-manage-and-publish-sensitivity-labels-for-teams"></a>Criar, gerenciar e publicar rótulos de sensibilidade para equipes
 
-Para saber como habilitar, criar e publicar rótulos de sensibilidade para equipes, consulte [usar rótulos de sensibilidade com o Microsoft Teams, grupos do microsoft 365 e sites do SharePoint](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites).
+Para saber como habilitar, criar e publicar rótulos de sensibilidade para equipes, consulte [Rótulos de classificação e sensibilidade do Azure Active Directory para grupos do Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites).
 
 >[!IMPORTANT]
 >Criar, atualizar e excluir rótulos de sensibilidade exigem sequenciamento cuidadoso com rótulos de publicação para usuários. Qualquer desvio na sequência pode resultar em erros persistentes de criação de equipe para todos os usuários. Portanto, é essencial fazer o seguinte quando você <a href="#createpublishlabels">cria e publica rótulos</a>, <a href="#modifydeletelabels">modifica e exclui rótulos publicados</a>e <a href="#manageerrors">gerencia erros de criação de equipe</a>.
 
 **Criar e publicar rótulos** <a name="createpublishlabels"> </a>
 
-Quando um rótulo é criado e publicado no centro de conformidade do & de segurança, pode levar até 24 horas para o rótulo ficar visível na interface de criação do Microsoft Teams. Use as etapas a seguir para publicar o rótulo para todos os usuários no locatário:
+Quando um rótulo é criado e publicado no centro de conformidade do & de segurança, pode levar até 10 minutos para o rótulo ficar visível na interface de criação do Microsoft Teams. Use as etapas a seguir para publicar o rótulo para todos os usuários no locatário:
 1. Crie o rótulo e publique-o para algumas contas de usuário selecionadas no locatário.
-2. Quando o rótulo for publicado, Aguarde 24 horas.
-3. Depois de 24 horas, tente criar uma equipe com o rótulo usando uma das contas de usuário que têm acesso ao rótulo.
+2. Quando o rótulo for publicado, aguarde 10 minutos.
+3. Após 10 minutos, tente criar uma equipe com o rótulo usando uma das contas de usuário que têm acesso ao rótulo.
 4. Se a equipe criou com êxito a etapa 3, siga em frente e publique o rótulo dos usuários remanescentes no locatário.
 
 **Modificar e excluir rótulos publicados** <a name="modifydeletelabels"> </a>
@@ -56,8 +55,8 @@ Quando um rótulo é criado e publicado no centro de conformidade do & de segura
 Excluir ou modificar o rótulo enquanto ele está associado a políticas de sensibilidade pode resultar em falhas de criação de equipe em todo o locatário. Portanto, antes de excluir ou modificar um rótulo, primeiro você deve desassociar o rótulo de suas políticas associadas. Use as etapas a seguir  
 para excluir ou modificar um rótulo:
 1. Remova o rótulo de todas as políticas que usam o rótulo. Ou, se preferir, você também pode excluir as próprias políticas.
-2. Quando o rótulo é removido das políticas ou as próprias diretivas são excluídas, aguarde 48 horas antes de prosseguir.
-3. Após 48 horas, inicie a interface de criação de equipe e certifique-se de que o rótulo não fique mais visível para qualquer usuário no locatário.
+2. Quando o rótulo é removido das políticas ou as próprias diretivas são excluídas, aguarde 10 minutos antes de prosseguir.
+3. Após 10 minutos, inicie a interface de criação de equipe e certifique-se de que o rótulo não fique mais visível para qualquer usuário no locatário.
 4. Agora você pode excluir ou modificar o rótulo com segurança.
 
 **Gerenciar erros** <a name="manageerrors"> </a> de criação de equipe

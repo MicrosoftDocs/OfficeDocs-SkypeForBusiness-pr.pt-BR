@@ -17,12 +17,12 @@ f1.keywords:
 description: Protocolos de roteamento direto
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 264e7e3de8031e8ac150c186078ff3d7ccff2f16
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 0756860bc6fad7a470a33e00ac8452e7977ecde0
+ms.sourcegitcommit: 93c5afed49f47574f1b00305e5dfbb8a89be02a7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691217"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44859646"
 ---
 # <a name="direct-routing---sip-protocol"></a>Roteamento direto-protocolo SIP
 
@@ -44,7 +44,7 @@ Veja a seguir um exemplo da mensagem de convite SIP em uma chamada recebida:
 | Do cabeçalho | Do cabeçalho de: <SIP: 7168712781@sbc1. adatum. biz; Transport = UDP; tag = 1c747237679 |
 | Para cabeçalho | Para: sip:+183338006777@sbc1.adatum.biz | 
 | Cabeçalho CSeq | CSeq: 1 convite | 
-| Cabeçalho de contato | Contato: <SIP: 68712781@sbc1. adatum. biz; Transport = TLS> | 
+| Cabeçalho de contato | Contato: <SIP: 68712781@sbc1. adatum. biz: 5058; Transport = TLS> | 
 
 Ao receber o convite, o proxy SIP executa as seguintes etapas:
 
@@ -100,13 +100,13 @@ INVITE sip:+18338006777@sip.pstnhub.microsoft.com SIP /2.0
 
 O proxy SIP precisa calcular o próximo FQDN de salto para as novas transações de cliente em caixa de diálogo (por exemplo, até mais ou convidar) e ao responder às opções de SIP. É usado o contato ou a rota de registro. 
 
-De acordo com a RFC 3261, o cabeçalho do contato é necessário em qualquer solicitação que pode resultar em uma nova caixa de diálogo. A rota de registro será necessária apenas se um proxy quiser permanecer no caminho de solicitações futuras em uma caixa de diálogo. 
+De acordo com a RFC 3261, o cabeçalho do contato é necessário em qualquer solicitação que pode resultar em uma nova caixa de diálogo. A rota de registro será necessária apenas se um proxy quiser permanecer no caminho de solicitações futuras em uma caixa de diálogo. Se um SBC de proxy estiver em uso com a [otimização de mídia local para roteamento direto](https://docs.microsoft.com/MicrosoftTeams/direct-routing-media-optimization), será necessário configurar uma rota de registro, pois o SBC do proxy precisa permanecer na rota. 
 
-A Microsoft recomenda usar somente o cabeçalho do contato pelos seguintes motivos:
+A Microsoft recomenda usar somente o cabeçalho do contato se não for usado um SBC do proxy:
 
-- Por RFC 3261, a rota de registro é usada se um proxy quiser permanecer no caminho de solicitações futuras em uma caixa de diálogo, o que não é essencial, pois todo o tráfego vai entre o proxy SIP da Microsoft e o SBC emparelhado. Não há necessidade de um servidor proxy intermediário entre o SBC e o proxy SIP da Microsoft.
+- Por RFC 3261, a rota de registro é usada se um proxy quiser permanecer no caminho de solicitações futuras em uma caixa de diálogo, que não é essencial se nenhum SBC de proxy estiver configurado, pois todo o tráfego vai entre o proxy SIP da Microsoft e o SBC emparelhado. 
 
-- O proxy SIP da Microsoft usa apenas o cabeçalho do contato (não o caminho do registro) para determinar o próximo salto ao enviar opções de ping de saída. Configurar apenas um parâmetro (contato) em vez de dois (contato e rota de registro) simplifica a administração.
+- O proxy SIP da Microsoft usa apenas o cabeçalho do contato (não o caminho do registro) para determinar o próximo salto ao enviar opções de ping de saída. Configurar apenas um parâmetro (contato) em vez de dois (contato e rota de registro) simplifica a administração se um SBC de proxy não estiver em uso. 
 
 Para calcular o próximo salto, o proxy SIP usa:
 
