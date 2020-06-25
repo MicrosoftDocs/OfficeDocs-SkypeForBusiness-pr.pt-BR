@@ -19,12 +19,12 @@ ms.collection:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9388b9933a21bb36f28c4175836d56daab07faf6
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: c5f6c30ea0fd36df35280dc0b179babec9e98107
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666213"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868138"
 ---
 # <a name="prepare-your-it-staff-for-microsoft-teams"></a>Preparar sua equipe de ti para o Microsoft Teams
 
@@ -42,7 +42,7 @@ Seus administradores da organização do Microsoft 365 ou do Office 365, cliente
 Compartilhe os recursos a seguir com os membros da equipe de ti e confirme se estão prontos para dar suporte aos usuários antes de começar a atualização para o Microsoft Teams:
 
 - [Treinamento de administrador para o Microsoft Teams](itadmin-readiness.md)
-- [Entre em contato com o suporte para produtos para empresas - ajuda para administradores](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+- [Entre em contato com o suporte para produtos para empresas - ajuda para administradores](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)
 - [Solucionar problemas de conectividade do cliente Microsoft Teams](connectivity-issues.md)
 - [Usar arquivos de log para solucionar problemas no Microsoft Teams](log-files.md)
 

@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Saiba como configurar e testar atendedores automáticos da nuvem para o Microsoft Teams.
-ms.openlocfilehash: 94bbc68ca8a9b89d2ae8c9931ca57b17f761ae90
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 0cdba07297e22b116bbfe120f4d1e5640ee9a892
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44697438"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44874261"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>Configurar um atendedor automático do Cloud
 
@@ -220,7 +220,7 @@ Se você selecionar **Desconectar**, o chamador será desconectado após a sauda
 
 > [!IMPORTANT]
 > Por favor, observe o seguinte:
->- Os usuários que você deseja disponibilizar pela extensão de discagem precisam ter uma extensão especificada como parte de um dos seguintes atributos telefônicos definidos no Active Directory ou no [centro de administração do Microsoft 365](https://docs.microsoft.com/office365/admin/add-users/add-users?view=o365-worldwide#use-the-new-admin-center-to-add-users)do Azure Active Directory.
+>- Os usuários que você deseja disponibilizar pela extensão de discagem precisam ter uma extensão especificada como parte de um dos seguintes atributos de telefone definidos no Active Directory ou Active Directory do Azure (consulte [adicionar usuários individualmente ou em massa] para obter mais informações ( https://docs.microsoft.com/microsoft-365/admin/add-users/add-users) .
 >    - HomePhone
 >    - Celular/MobilePhone
 >    - TelephoneNumber/intervalo

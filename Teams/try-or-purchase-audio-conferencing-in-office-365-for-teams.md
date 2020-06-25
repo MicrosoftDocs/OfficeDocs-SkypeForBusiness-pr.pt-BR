@@ -23,12 +23,12 @@ ms.custom:
 - ms.lync.lac.CpcGettingStarted
 - seo-marvel-mar2020
 description: 'Veja como experimentar ou comprar licenças de conferência PSTN (conferência PSTN) para o Microsoft 365 ou o Office 365 para configurar as chamadas em conferência nas quais as pessoas podem discar. '
-ms.openlocfilehash: db49a690ef0936dc22a618756d15064543074137
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 1a728c9e7920f1bc8387663a1db918d6e095ab01
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691537"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868528"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-microsoft-365-for-microsoft-teams"></a>Experimentar ou comprar videoconferências no Microsoft 365 para Microsoft Teams
 
@@ -52,7 +52,7 @@ Você deve ser um [administrador global ou administrador de cobrança](https://s
 
    - **Comprar**: consulte [Licenciamento do complemento do Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
-3. [Adicione usuários individualmente ou em massa](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users) que você tenha adquirido para as pessoas em sua organização que agendarão ou conduzirão reuniões.
+3. [Atribua licenças a usuários](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users) em sua organização que agendarão ou conduzirão reuniões.
 
 4. Se você adquiriu licenças complementares de Audioconferência e Créditos de Comunicação, atribua-as também. Para obter instruções, consulte [atribuir licenças de Complementos do Microsoft Teams](teams-add-on-licensing/assign-teams-add-on-licenses.md).
 
@@ -69,7 +69,7 @@ Se você for um cliente de Volume e Licenciamento, pode obter licenças de Audio
     > [!IMPORTANT]
     > Se os Créditos de Comunicação ainda não tiver sido configurados, a Audioconferência não funcionará para os usuários com licenças de pagamento por minuto.
 
-4. [Adicione usuários individualmente ou em massa](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users) que você tenha adquirido para as pessoas em sua organização que agendarão ou conduzirão reuniões.
+4. [Atribua licenças a usuários](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users) em sua organização que agendarão ou conduzirão reuniões.
 
     > [!NOTE]
     > Se você tiver licenças de Audioconferência Pagar por Minuto, não precisa atribuir licenças de Créditos de Comunicação separadamente para cada usuário especificamente para uso de Audioconferência (você ainda precisará atribuí-las para outros serviços).

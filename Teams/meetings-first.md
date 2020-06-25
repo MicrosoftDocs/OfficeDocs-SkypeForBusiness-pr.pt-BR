@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4e2ca0b4088a7855da8cf2bc5196ecc9f2082475
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 58f8424342fa609124a3b658fbde9d7d297d7b44
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637940"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868468"
 ---
 # <a name="meetings-first"></a>Meetings First
 
@@ -82,7 +82,7 @@ Depois que esses requisitos são atendidos (e não antes), os usuários podem se
 
 Para a melhor experiência da melhor reunião, os usuários devem ser habilitados para o [Exchange Online](exchange-teams-interact.md), o [SharePoint Online e o onedrive for Business e a criação de](sharepoint-onedrive-interact.md)grupos do Microsoft 365. As reuniões primeiro são compatíveis com os usuários cuja caixa de correio está no Exchange local ou que não têm o SharePoint Online, o OneDrive for Business ou a criação de grupos do Microsoft 365. No entanto, sua experiência será menos completa. Em particular, para organizações que usam o Exchange Server local, pode haver (dependendo da versão do Exchange Server) algumas limitações para criar e exibir reuniões do cliente do Teams, bem como com relação aos recursos de conformidade.
 
-No mínimo, os usuários devem ser [licenciados para equipes](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide). Além disso, eles podem ser licenciados para [conferências de áudio](set-up-audio-conferencing-in-teams.md), se necessário.
+No mínimo, os usuários devem ser [licenciados para equipes](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users). Além disso, eles podem ser licenciados para [conferências de áudio](set-up-audio-conferencing-in-teams.md), se necessário.
 
 Recomendamos que você [conceda o **SfBOnly** ou o modo **SfBWithTeamsCollab** ](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps) como padrão do locatário no momento em que licenciasse os usuários. Isso garante que os usuários não comecem a usar o Microsoft Teams no modo de **ilhas** padrão antes de você estar pronto para iniciar reuniões primeiro.
 

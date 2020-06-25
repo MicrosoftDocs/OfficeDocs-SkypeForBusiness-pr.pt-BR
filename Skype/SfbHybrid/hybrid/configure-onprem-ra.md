@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Configurar uma conta de recurso para o Skype for Business Server 2019.
-ms.openlocfilehash: b5397a1d179ade5e9d70d6c9cf857bae9319d155
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: f858ea5e18a7d433ca04a9a55c4c0582d5f096ce
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221131"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868428"
 ---
 # <a name="configure-resource-accounts"></a>Configurar contas de recurso
 
@@ -84,7 +84,7 @@ A criação de uma conta de recurso que usa um número de telefone precisaria ex
 
     Consulte [Start-ADSyncSyncCycle](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-feature-scheduler) para obter mais detalhes sobre este comando.
 
-5. Atribua a licença de usuário virtual ou de sistema de telefonia à conta de recurso. Consulte [atribuir licenças de complemento do Microsoft Teams](/MicrosoftTeams/teams-add-on-licensing/assign-teams-add-on-licenses) e [atribuir licenças a um usuário](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#assign-licenses-to-one-user).
+5. Atribua a licença de usuário virtual ou de sistema de telefonia à conta de recurso. Consulte [atribuir licenças de complemento do Microsoft Teams](/MicrosoftTeams/teams-add-on-licensing/assign-teams-add-on-licenses) e [atribuir licenças aos usuários](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users).
 
    Se você estiver atribuindo um número de telefone a uma conta de recurso, agora você pode usar o sistema de telefonia livre de custo-licença de usuário virtual. Isso fornece recursos do sistema de telefonia para números de telefone no nível organizacional e permite que você crie recursos de atendedor automático e fila de chamadas.
 
@@ -199,9 +199,9 @@ A migração do Exchange UM para o sistema de telefonia exigirá a recriação d
 
 [Configurar um atendedor automático do Cloud](/MicrosoftTeams/create-a-phone-system-auto-attendant)  
 
-[Planejar atendedores automáticos de nuvem](plan-cloud-auto-attendant.md)
+[Atendedores automáticos do plano da nuvem](plan-cloud-auto-attendant.md)
 
-[Planejar filas de chamada em nuvem](plan-call-queue.md)
+[Planejar filas de chamadas da nuvem](plan-call-queue.md)
 
 [Planejar o serviço de caixa postal na nuvem para usuários locais](plan-cloud-voicemail.md)
 

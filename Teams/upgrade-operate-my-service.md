@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 434b7e0fed87d6273d13c7cb646079d51d7c1ddc
-ms.sourcegitcommit: 8b172e9a0d0626c9a88998600d4b17c6c8cdadd2
+ms.openlocfilehash: d7828675f2a1dc7f3ea6f1cbad1227a9c47bd816
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44761469"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868498"
 ---
 # <a name="operate-your-service"></a>Operar seu serviço
 
@@ -437,7 +437,7 @@ Mesmo que você tenha seguido a orientação anterior, os usuários da sua organ
 
 4. **Acesse a Comunidade do Microsoft Teams:** A [comunidade do Microsoft Teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams) oferece espaços dedicados para equipes. A comunidade de equipes fornece uma lista de discussão, Postagens de blog e anúncios centralizados em relação ao Teams. Você pode postar uma pergunta ou Pesquisar discussões anteriores sobre soluções para o seu problema.
 
-5. **Entre em contato com o suporte da Microsoft:** Você pode entrar em contato com o suporte da Microsoft para obter problemas com o Teams online ou por telefone. Para obter informações, consulte [contatar o suporte para produtos empresariais](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json). Para clientes Premier, as solicitações de suporte podem ser iniciadas seguindo-se a orientação em [contatar o suporte para o Microsoft Teams (clientes Premier)](https://support.microsoft.com/premier/contacts).
+5. **Entre em contato com o suporte da Microsoft:** Você pode entrar em contato com o suporte da Microsoft para obter problemas com o Teams online ou por telefone. Para obter informações, consulte [contatar o suporte para produtos empresariais-ajuda para administradores](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products). Para clientes Premier, as solicitações de suporte podem ser iniciadas seguindo-se a orientação em [contatar o suporte para o Microsoft Teams (clientes Premier)](https://support.microsoft.com/premier/contacts).
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>Tarefas diárias/semanais/mensais/necessárias
 

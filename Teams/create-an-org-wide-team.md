@@ -17,18 +17,18 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 41d7241cc0ffddf1042a3fe46f75def76c1ccf04
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: a87ee4f846002537311fc5a9a9dd2e5f22757b0e
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43903026"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868118"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>Criar uma equipe englobando toda a organização no Microsoft Teams
 
 As equipes de toda a organização oferecem uma maneira automática de todas as pessoas em uma organização de pequeno e médio porte fazerem parte de uma única equipe para colaboração.
 
-Com as equipes de toda a organização, os administradores globais podem criar facilmente uma equipe pública que obtém todos os usuários da organização e mantém a associação atualizada com o Active Directory à medida que os usuários entram e saem da organização. Somente os administradores globais podem criar equipes de toda a organização e, no momento, as equipes de toda a organização estão limitadas a organizações com até 5.000 usuários. Há também um limite de cinco equipes de toda a organização por locatário. Se esses requisitos forem atendidos, os administradores globais poderão ver **Toda a organização** como uma opção ao selecionar **Criar uma equipe do zero** ao criar uma equipe. 
+Com as equipes de toda a organização, os administradores globais podem criar facilmente uma equipe pública que obtém todos os usuários da organização e mantém a associação atualizada com o Active Directory à medida que os usuários entram e saem da organização. Somente administradores globais podem criar equipes de toda a organização e, atualmente, uma equipe de toda a organização está limitada a organizações com no máximo 5.000 usuários. Há também um limite de cinco equipes de toda a organização por locatário. Se esses requisitos forem atendidos, os administradores globais poderão ver **Toda a organização** como uma opção ao selecionar **Criar uma equipe do zero** ao criar uma equipe. 
 
 ![Captura de tela da opção Toda a organização para criar uma equipe de toda a organização](media/create-org-wide-team.png "Captura de tela da opção Toda a organização para criar uma equipe de toda a organização")
 
@@ -45,7 +45,7 @@ Estes tipos de contas não serão adicionados à sua equipe de toda a organizaç
 Quando o diretório da sua organização for atualizado para incluir novos usuários ativos, ou se os usuários não trabalharem mais na sua empresa e a conta deles for desabilitada, as alterações serão sincronizadas automaticamente e os usuários serão adicionados ou removidos da equipe. Os membros da equipe não podem sair de uma equipe de toda a organização. Como proprietário da equipe, você pode adicionar ou remover usuários manualmente, se necessário.
 
 > [!NOTE]
-> - Se você for um administrador global e não vir a opção **Toda a organização** ao criar uma equipe, o recurso pode ainda estar sendo distribuído, você alcançou o limite de cinco equipes de toda a organização ou sua organização pode ter mais do que o limite de tamanho atual de 5.000 membros. Queremos aumentar esse limite no futuro. As equipes de toda a organização ainda não estão disponíveis no Teams para Educação.
+> - Se você não vir a opção de **toda a organização** durante a criação de uma equipe e se for um administrador global, pode ter chegado ao limite de cinco equipes de toda a organização ou sua organização pode ter mais do que o limite de tamanho atual de membros do 5.000. Queremos aumentar esse limite no futuro. As equipes de toda a organização ainda não estão disponíveis no Teams para Educação.
 > - As salas que não fazem parte de uma lista de salas, equipamentos e contas de recursos podem ser adicionadas ou sincronizadas com a equipe de toda a organização. Os proprietários da equipe podem remover facilmente essas contas da equipe.
 > - Todas as ações do sistema para adicionar ou remover membros são postadas no canal Geral. O canal também será marcado como tendo uma nova atividade no cliente do Teams.
 > - Criaremos automaticamente uma equipe de toda a organização para a sua organização, caso sua organização seja nova no Teams e não tenha mais de 5.000 usuários. O nome da equipe refletirá o nome do locatário e terá um canal Geral. Os administradores globais podem editar essa equipe como qualquer outra equipe. 
@@ -78,7 +78,7 @@ Embora os membros não possam sair de uma equipe de toda a organização, como p
 
 ### <a name="is-there-a-way-to-create-an-org-wide-team-other-than-using-the-teams-client"></a>Existe uma maneira de criar uma equipe de toda a organização, além de usar o cliente do Teams?
 
-Os administradores globais podem criar uma equipe de toda a organização, usando o cliente do Teams. Se a sua organização limita a criação de equipes ao uso do PowerShell, a solução alternativa recomendada é adicionar seus administradores globais ao grupo de segurança de usuários que podem criar uma equipe. Para obter mais informações, confira [Gerenciar quem pode criar Grupos do Microsoft 365](https://docs.microsoft.com/office365/admin/create-groups/manage-creation-of-groups).
+Os administradores globais podem criar uma equipe de toda a organização, usando o cliente do Teams. Se a sua organização limita a criação de equipes ao uso do PowerShell, a solução alternativa recomendada é adicionar seus administradores globais ao grupo de segurança de usuários que podem criar uma equipe. Para obter mais informações, consulte [gerenciar quem pode criar grupos](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-creation-of-groups).
 
 Se essa opção não for viável, você pode usar o PowerShell para criar uma equipe pública e adicionar um administrador global como proprietário da equipe. Em seguida, faça com que o administrador global clique em **Mais opções** ao lado do nome da equipe, clique em **Editar equipe** e, em seguida, altere a privacidade para **Toda a organização - Todos na organização serão adicionados automaticamente**. Observe que somente os proprietários da equipe podem acessar a opção **Editar equipe** e apenas administradores globais podem ver a opção **Toda a organização**.
 

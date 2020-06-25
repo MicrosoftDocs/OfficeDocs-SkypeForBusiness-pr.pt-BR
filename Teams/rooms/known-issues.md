@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: O administrador pode saber mais sobre uma lista de problemas conhecidos para salas do Microsoft Teams, incluindo atualização, interface do usuário, hardware e limitações e comportamentos esperados.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e3cb46ed1ca3fde81f301ec6c2f2f8620452b389
-ms.sourcegitcommit: f63cf7fdde333a7cb36c39e9b6cdc33afd2b4601
+ms.openlocfilehash: 1083ceb040f173aeef0a8a60d56a888a6b8fdb17
+ms.sourcegitcommit: 02dd624d39a14f48b9d2463881605d2f051722e7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "44338221"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "44874448"
 ---
 # <a name="known-issues"></a>Problemas conhecidos 
  
@@ -31,9 +31,10 @@ Este artigo lista os problemas conhecidos das Salas do Microsoft Teams, por áre
 
 | Título do problema |  Comportamento \/ Sintoma | Solução alternativa conhecida | Artigo KB |
 |  ---        |      ---             |   ---            | --- |
+| Aplicativo não inicializado |  Após a atualização para a versão do aplicativo 4.4.41.0, o sistema é inicializado para tela preta ou acesse a tela de logon após alguns minutos. | Siga as etapas no [aplicativo salas do Microsoft Teams não inicia após a atualização para a versão 4.4.41.0](https://docs.microsoft.com/microsoftteams/troubleshoot/teams-administration/teams-rooms-app-wont-start-after-update) para corrigir esse problema.  | Nenhum |
 |  Aplicativo desatualizado         |    O console das Salas do Microsoft Teams mostra um erro de "configuração de sistema desatualizada".                |   [Usar a ferramenta de recuperação das Salas do Microsoft Teams](recovery-tool.md)             |  Nenhum |
 |  Dispositivo atualizado para uma versão sem suporte do Windows 10   |    Dispositivo Windows 10 atualizado da versão 1803 para a versão 1809, que não tem suporte. A versão compatível é 1903. |   Isso pode acontecer se a configuração de [política de grupo ou de MDM para DeferFeatureUpdatesPeriodinDays](https://docs.microsoft.com/windows/deployment/update/waas-configure-wufb) , que permite adiar atualizações de recursos para um número específico de dias, é definida como o máximo de 365 dias. <br><br> O Windows 10 versão 1809 não é compatível com as salas do Microsoft Teams, enquanto a versão 1903 tem suporte. No entanto, a partir de 27 de março de 2020, a versão 1809 tem mais de 365 dias de idade. Se essa configuração não for alterada, o Windows tenta instalar a versão 1809, que pode causar problemas com as salas do Microsoft Teams.<br><br>Para evitar essa situação, **remova** todas as configurações de política de grupo ou MDM para adiar atualizações. Isso permite que o Windows atualize para a versão do sistema operacional compatível mais recente. <br><br>**Importante** A política de grupo ou a configuração do MDM deve ser **removida** (esquerda não configurada) e **não definida como 0**. Se a política estiver definida como 0, o Windows usará a versão mais recente disponível, que pode não ser suportada. |  Nenhum |
-| Aplicativo não inicializado |  Após a atualização para a versão do aplicativo 4.4.41.0, o sistema inicializa na tela preta onde pode ficar preso ou ir para a tela de logon após alguns minutos. | Siga as etapas no [aplicativo salas do Microsoft Teams não inicia após a atualização para a versão 4.4.41.0](https://docs.microsoft.com/microsoftteams/troubleshoot/teams-administration/teams-rooms-app-wont-start-after-update) para corrigir esse problema.  | Nenhum |
+
 
 
 <a name="OS-conflicts"> </a>  

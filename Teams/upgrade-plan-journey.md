@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9f2a52c9bce6269ec7ddd69e4923a011cf3b6872
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: 12d9db8cfc765efbb516fb4b53010d51d8e4e3a7
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44523104"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868448"
 ---
 # <a name="plan-for-your-upgrade"></a>Planejar a atualização
 
@@ -33,9 +33,13 @@ ms.locfileid: "44523104"
 
 Um ambiente técnico saudável, adoção contínua do usuário e realização de suas metas de negócios começam com planejamento adequado. Um plano sólido oferece uma estrutura para o seu projeto de atualização e garante que todos os stakeholders estejam trabalhando em direção às mesmas metas. Ao levar tempo para definir corretamente o sucesso, você pode medir os resultados enquanto avança pela sua implantação e verificar se está obtendo os resultados desejados. O planejamento da sua jornada inclui:
 
-- [Listar os participantes do projeto](upgrade-enlist-stakeholders.md).
-- [Definir o escopo do seu projeto](https://aka.ms/SkypetoTeams-Scope).
-- [Noções básicas sobre a coexistência e interoperabilidade do Skype for Business e do teams](https://aka.ms/SkypeToTeams-Coexist).
+- [Listar os participantes do projeto](upgrade-enlist-stakeholders.md)
+- [Definindo o escopo do seu projeto](https://aka.ms/SkypetoTeams-Scope)
+- [Noções básicas sobre a coexistência e interoperabilidade do Skype for Business e do teams](https://aka.ms/SkypeToTeams-Coexist)
+- [Escolher a jornada da atualização com base nas necessidades da sua empresa](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [Planejando um piloto de usuário](pilot-essentials.md)
+
+Depois de planejar a sua viagem, você vai ler tópicos sobre como [preparar seu ambiente](upgrade-prepare-environment.md) e [preparar sua organização](upgrade-prepare-organization.md) antes de [implementar a atualização](upgrade-to-teams.md).  
 
 > [!TIP]
 > Junte-se aos workshops interativos e ativos nos quais compartilharemos orientação, práticas recomendadas e recursos projetados para iniciar o planejamento e a implementação da atualização.
