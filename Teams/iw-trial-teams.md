@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: da8f257e6e5d3a3adaaa8e1412187de9cbf8dbe3
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: b0e6185b81d7fcdbf76efa7c827249a93dfc00df
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44638770"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868678"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Gerenciar a oferta de avaliação na nuvem comercial do Microsoft Teams
 =======================================================
@@ -150,4 +150,4 @@ A partir de 22 de abril de 2019, os usuários podem começar a solicitar a licen
 
 - Se você quiser remover essa licença por meio do PowerShell, confira: [Remover licenças de contas de usuário com o Microsoft 365 ou Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell)
 
-- Se você quiser remover essa licença por meio do portal de administração, confira: [Remover licenças de usuários](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/remove-licenses-from-users?view=o365-worldwide)
+- Se você quiser remover essa licença por meio do portal de administração do, confira: [Excluir um usuário da sua organização](https://docs.microsoft.com/microsoft-365/admin/add-users/delete-a-user)

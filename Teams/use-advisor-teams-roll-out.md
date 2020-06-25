@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: Use o Assistente do Teams (visualização pública) para ajudar a planejar e concluir a implantação do Microsoft Teams.
-ms.openlocfilehash: 5c7c0cad16c61b498da0693653979c26da4b219f
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: ef9b22d7e4a3a3c3670acc766ee27cdc2c3de67c
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665253"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868148"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Use o Assistente do Teams para ajudá-lo na implantação do Microsoft Teams
 
@@ -89,7 +89,7 @@ As seções a seguir descrevem cada avaliação, incluindo se algo é um pré-re
 
 |Teste de avaliação  |O que ele informa  |
 |---------|---------|
-|Domínio personalizado configurado     |Se houver um domínio que não seja @onmicrosoft.com configurado para o locatário (por exemplo, @contoso.onmicrosoft.com). Você pode usar o domínio @onmicrosoft. com, é claro, ou - pode configurar um domínio personalizados, sua escolha. Para obter mais informações, leia [Adicionar um domínio](https://docs.microsoft.com/office365/admin/setup/add-domain). |
+|Domínio personalizado configurado     |Se houver um domínio que não seja @onmicrosoft.com configurado para o locatário (por exemplo, @contoso.onmicrosoft.com). Você pode usar o domínio @onmicrosoft. com, é claro, ou - pode configurar um domínio personalizados, sua escolha. Para obter mais informações, leia [Adicionar um domínio ao Microsoft 365.](https://docs.microsoft.com/microsoft-365/admin/setup/add-domain) |
 |Licenças do Teams     |Esse é um pré-requisito - você **deve ter** licenças do Teams para implantar o Teams. Consulte o Microsoft Graph para ver se você tem licenças do Teams (com pelo menos uma licença disponível para atribuir). Para saber mais, leia a [descrição do serviço do Microsoft Teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).    |
 |Licenças do Exchange Online     |Se você tiver uma assinatura ativa com licenças disponíveis do Exchange Online. Embora o Exchange não seja necessário para a funcionalidade básica do Teams, a integração com o Exchange fornece uma experiência ideal para o Teams. Consulte o Microsoft Graph para analisar as assinaturas associadas ao seu locatário e valide se você tiver assinaturas com uma licença qualificada do Exchange Online (com pelo menos uma licença disponível para atribuir). Para obter mais informações, leia [Como o Exchange e o Teams interagem](exchange-teams-interact.md).    |
 |Licenças do SharePoint Online     |Se você tiver uma assinatura ativa com licenças disponíveis do SharePoint Online. Recomendamos licenças do SharePoint Online por usuário para fornecer o OneDrive for Business para armazenamento de arquivos em chats. Consulte o Microsoft Graph para ver se você tem licenças do SharePoint Online (com pelo menos uma licença disponível para atribuir). Para obter mais informações, leia [Como o SharePoint Online e o OneDrive for Business interagem com o Microsoft Teams](https://docs.microsoft.com/microsoftteams/sharepoint-onedrive-interact).    |
@@ -102,8 +102,8 @@ Além dos [Testes de avaliação de todas as cargas de trabalho](#assessment-tes
 
 |Teste de avaliação  |O que ele informa  |
 |---------|---------|
-|Política de nome de grupo do Microsoft 365 configurada     |Se os padrões de nomeação foram configurados para Grupos do Microsoft 365. A política de nomenclatura de grupos do Microsoft 365 permite que sua organização aplique uma estratégia de nomenclatura consistente para equipes criadas pelo usuário e se aplica também a outras cargas de trabalho de grupos (incluindo o Outlook, o SharePoint, o Planner e o Yammer). Esse teste consulta o Azure AD por meio do Microsoft Graph para verificar a existência de políticas de nomenclatura que se aplicam aos grupos do Microsoft 365. Para obter mais informações, confira [Política de Nomenclatura dos Grupos](https://docs.microsoft.com/office365/admin/create-groups/groups-naming-policy).    |
-|Política de Expiração de grupo do Microsoft 365 configurada     |Se uma Política de Expiração de Grupo foi definida para Grupos do Microsoft 365. Isso permite que sua organização remova automaticamente as Equipes inativas. Ela está desativada por padrão. Este teste consulta o Azure AD por meio do Microsoft Graph e relata se o valor foi modificado no padrão. Para obter mais informações, leia [Política de Expiração dos Grupos](https://docs.microsoft.com/office365/admin/create-groups/office-365-groups-expiration-policy).    |
+|Política de nome de grupo do Microsoft 365 configurada     |Se os padrões de nomeação foram configurados para Grupos do Microsoft 365. A política de nomenclatura de grupos do Microsoft 365 permite que sua organização aplique uma estratégia de nomenclatura consistente para equipes criadas pelo usuário e se aplica também a outras cargas de trabalho de grupos (incluindo o Outlook, o SharePoint, o Planner e o Yammer). Esse teste consulta o Azure AD por meio do Microsoft Graph para verificar a existência de políticas de nomenclatura que se aplicam aos grupos do Microsoft 365. Para obter mais informações, leia [Política de nomenclatura dos grupos](https://docs.microsoft.com/microsoft-365/admin/create-groups/groups-naming-policy).    |
+|Política de Expiração de grupo do Microsoft 365 configurada     |Se uma Política de Expiração de Grupo foi definida para Grupos do Microsoft 365. Isso permite que sua organização remova automaticamente as Equipes inativas. Ela está desativada por padrão. Este teste consulta o Azure AD por meio do Microsoft Graph e relata se o valor foi modificado no padrão. Para obter mais informações, leia [Política de expiração de grupo do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/create-groups/office-365-groups-expiration-policy).    |
 
 ### <a name="assessments-for-meetings-and-conferencing"></a>Avaliações de reuniões e conferências
 

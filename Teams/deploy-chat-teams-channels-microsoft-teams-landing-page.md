@@ -19,12 +19,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 - seo-marvel-apr2020
-ms.openlocfilehash: 6a77e98a75497d8608f0b85ad1a52d3fed8d153b
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 0de34afb93093a1385dc8c0e4bca078e485e6887
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691307"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868108"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Chat, equipes, canais e aplicativos no Microsoft Teams
 
@@ -128,12 +128,11 @@ O Teams é compatível com vários clientes, como clientes de área de trabalho,
 |Vou personalizar as configurações de cliente do Teams para minha organização?|Saiba como [Instalar o Teams usando o MSI](msi-deployment.md).|
 |||
 
-
 ### <a name="teams-usage-reporting"></a>Relatórios de uso do Teams
 
-As funções de Administrador global, Administrador de serviços do Teams e Leitores de Relatórios podem exibir relatórios de uso do Teams. Para saber mais, confira os [artigos de análise de uso do Microsoft 365](https://docs.microsoft.com/office365/admin/usage-analytics/usage-analytics?redirectSourcePath=%252farticle%252fMicrosoft-365-usage-analytics-77ff780d-ab19-4553-adea-09cb65ad0f1f&view=o365-worldwide).
+As funções de Administrador global, Administrador de serviços do Teams e Leitores de Relatórios podem exibir relatórios de uso do Teams. Para saber mais, confira a [análise de uso do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/usage-analytics/usage-analytics).
 
-|Pergunte-se|Ação |
+|Pergunte a si mesmo|Ação |
 |------------|-------|
 |<br> Quem precisa ver os relatórios de uso do Teams e eles têm a função correta para visualizá-los? |<ul><li>Se o usuário não for um administrador, [atribua a função de leitor de relatórios](teams-activity-reports.md#reports-reader-role).</li><li>Confira [Funções e permissões](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles) e [Exibir e atribuir funções](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-manage-roles-portal) para saber como atribuir funções de administrador no Azure Active Directory. |
 |||
