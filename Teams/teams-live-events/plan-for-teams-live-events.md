@@ -18,12 +18,12 @@ description: Neste artigo, você aprenderá sobre os fatores a serem considerado
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ae4b4c06d6340c89cf41e271db8bcd359f27d211
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 424798b7f9acf1445510eb6a072631dda9501307
+ms.sourcegitcommit: 27fae90d4429e81143ea285edab9dbc19bd3c0bb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44689727"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "44854103"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planejar eventos ao vivo no Microsoft Teams
 
@@ -67,6 +67,14 @@ O usuário deverá ter:
 
 > [!IMPORTANT]
 > Os usuários anônimos não autenticados não podem ser convidados como produtores ou apresentadores em eventos ao vivo do Teams.
+
+Para um convidado apresentar em um evento ao vivo, faça o seguinte:
+
+1. [Adicione o usuário como um convidado a uma equipe](https://support.office.com/article/add-guests-to-a-team-fccb4fa6-f864-4508-bdde-256e7384a14f).
+2. Solicite que o usuário aceite o convite de convidado e participe da equipe.
+3. [Agende o evento ao vivo e adicione o convidado ao seu grupo de eventos](https://support.microsoft.com/article/schedule-a-teams-live-event-7a9ce97c-e1cd-470f-acaf-e6dfc179a0e2).
+
+Como prática recomendada, recomendamos que você crie um canal para produtores e apresentadores do evento ao vivo para que eles possam conversar e compartilhar informações antes do evento. Os convidados que não têm credenciais do Microsoft 365 não verão o calendário nas equipes. Para que seja mais fácil se juntar ao evento, os produtores podem postar o link de evento no canal. Os apresentadores podem abrir o Teams, ir para o canal e, em seguida, clicar no link para entrar no evento. 
 
 ## <a name="who-can-watch-live-events"></a>Quem pode assistir a eventos ao vivo
 
@@ -117,7 +125,7 @@ A tabela a seguir destaca os principais recursos oferecidos em eventos ao vivo e
 |Legendas em tempo real |&#x2714; |&#x2714; |&#x274C; |
 |Legendas em gravações de eventos ao vivo |&#x2714; |&#x2714; |&#x2714; |
 |Controles de DVR dos participantes (pausar, retroceder) |&#x2714; |&#x2714; |&#x2714; |
-|Suporte a eCDN de parceiro |&#x2714; (Kollective, Ramp) |&#x2714; (Kollective, Ramp) |&#x2714; (Hive, Kollective, Ramp) |
+|Suporte a eCDN de parceiro |&#x2714; (Kollective, Hive) |&#x2714; (Kollective, Hive) |&#x2714; (Hive, Kollective, Ramp) |
 |Relatório de participação posterior à transmissão para Produtores |&#x2714; |&#x2714; |&#x274C; |
 |Análise de opiniões do público – Votação ao vivo e sondagens  |&#x2714; (Microsoft Pulse) |&#x274C; |&#x274C; |
 
