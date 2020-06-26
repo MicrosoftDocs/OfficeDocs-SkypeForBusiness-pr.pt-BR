@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: cc2fbf41-a7e0-4ef8-a939-47bc42da5529
 description: 'Resumo: saiba o que deve ser considerado ao planejar o painel de qualidade da chamada.'
-ms.openlocfilehash: 63b69d64624d13253badf1d3e6f44535afdc0993
-ms.sourcegitcommit: 35de08b532eb7cf58c3221210c2b3b52f8aa047e
+ms.openlocfilehash: 407366fc98dc423db59ed9bf98cfe58463b708fc
+ms.sourcegitcommit: 0979fae58ecd713f8317ed99caae015b5cc2c8e4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "42339436"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "44877942"
 ---
 # <a name="plan-for-call-quality-dashboard-for-skype-for-business-server"></a>Planejar o painel de qualidade de chamada para o Skype for Business Server 
  
@@ -144,7 +144,7 @@ Em uma configuração de vários servidores, o arquivo de QoE, o cubo e o portal
     
 - Hospedagem de um portal de "desenvolvimento" separado do portal de "produção". 
     
-  **Hospedagem do portal Web do CQD e do cubo do CQD em máquinas diferentes.** As organizações que podem ter requisitos para separar o portal do CQD da instalação do SQL Server ou podem querer misturar e corresponder às edições do SQL Server para a instância do SQL Server e a instância do SQL Server Analysis Services podem optar por instalar o portal do CQD e CQD cubo em máquinas diferentes. O componente de arquivo de QoE também pode ser o único componente do CQD que é instalado se a organização simplesmente quer ter um método sustentável para arquivar os dados de QoE sem atingir limites de desempenho no Monitoring Server.
+  **Hospedagem do portal Web do CQD e do cubo do CQD em máquinas diferentes.** As organizações que podem ter requisitos para separar o portal do CQD da instalação do SQL Server ou podem querer misturar e corresponder às edições do SQL Server para a instância do SQL Server e a instância do SQL Server Analysis Services podem optar por instalar o portal do CQD e o cubo do CQD em máquinas diferentes. O componente de arquivo de QoE também pode ser o único componente do CQD que é instalado se a organização simplesmente quer ter um método sustentável para arquivar os dados de QoE sem atingir limites de desempenho no Monitoring Server.
   
 ![CQD de servidor único](../../media/f65be6f3-6bba-4c3d-b3ae-c05e03551b5b.png)
   
@@ -195,9 +195,9 @@ Esta seção faz a suposição de que há um único QoEMetrics DB no ambiente.
 
 |**Máquina**|**Núcleos de CPU**|**RAM**|**Arquivo de QoE e cubo no mesmo disco**|**Arquivo de QoE e SQL Temp DB no mesmo disco**|
 |:-----|:-----|:-----|:-----|:-----|
-|Máquina virtual  <br/> |quatro  <br/> |7 GB  <br/> |Sim  <br/> |Sim  <br/> |
-|4 núcleo  <br/> |quatro  <br/> |20 GB  <br/> |Sim  <br/> |Não  <br/> |
-|8 núcleo  <br/> |8  <br/> |32 GB  <br/> |Sim  <br/> |Não  <br/> |
+|Máquina virtual  <br/> |4   <br/> |7 GB  <br/> |Sim  <br/> |Sim  <br/> |
+|4 núcleo  <br/> |4   <br/> |20 GB  <br/> |Sim  <br/> |Não  <br/> |
+|8 núcleo  <br/> |8   <br/> |32 GB  <br/> |Sim  <br/> |Não  <br/> |
 |16 núcleos  <br/> |16   <br/> |128 GB  <br/> |Não  <br/> |Não  <br/> |
    
 **Resultados de desempenho**
@@ -267,7 +267,7 @@ Estes são os serviços de função do IIS necessários (em ordem hierárquica):
     
   - Filtros ISAPI
     
-  - Diagnóstico &amp; de integridade
+  - Diagnóstico de integridade &amp;
     
   - Log HTTP
     
@@ -282,7 +282,7 @@ Estes são os serviços de função do IIS necessários (em ordem hierárquica):
   - Console de gerenciamento do IIS
     
 > [!NOTE]
->  Observe o seguinte para os requisitos acima: > 3,5 e 4,5 versões do .NET Framework estão disponíveis. Ambos são necessários (mais especificamente, 3,5 SP1 é necessário). > em alguns sistemas, se o ASP.NET for configurado antes da instalação do IIS, o ASP.NET pode não estar registrado no IIS. O problema manifesta através da ausência de pools de aplicativos para a versão do .NET correspondente e também não tem a versão do .NET CLR na configuração do pool de aplicativos. Para corrigir esse problema no Windows Server 2008 R2, execute `%systemroot%\Microsoft.NET\Framework64\4.0.30319\aspnet_regiis.exe -iru`. No Windows Server 2012 e no Windows Server 2012 R2, `dism /online /enable-Feature /all /FeatureName:WCF-HTTP-Activation45` execute o depois de remover o módulo "ServiceModel" do site da Web padrão no Gerenciador do IIS. as ferramentas de gerenciamento do > são opcionais, mas recomendadas.
+>  Observe o seguinte para os requisitos acima: > 3,5 e 4,5 versões do .NET Framework estão disponíveis. Ambos são necessários (mais especificamente, 3,5 SP1 é necessário). > em alguns sistemas, se o ASP.NET for configurado antes da instalação do IIS, o ASP.NET pode não estar registrado no IIS. O problema manifesta através da ausência de pools de aplicativos para a versão do .NET correspondente e também não tem a versão do .NET CLR na configuração do pool de aplicativos. Para corrigir esse problema no Windows Server 2008 R2, execute `%systemroot%\Microsoft.NET\Framework64\4.0.30319\aspnet_regiis.exe -iru` . No Windows Server 2012 e no Windows Server 2012 R2, execute `dism /online /enable-Feature /all /FeatureName:WCF-HTTP-Activation45` o depois de remover o módulo "ServiceModel" do site da Web padrão no Gerenciador do IIS. as ferramentas de gerenciamento do > são opcionais, mas recomendadas.
   
 Para instalar esses requisitos usando o PowerShell, execute o seguinte:
   
@@ -318,6 +318,9 @@ Para obter ajuda adicional sobre como instalar e configurar os recursos de Busin
 Três contas de serviço de domínio são recomendadas no princípio de privilégio mínimo: 
   
 - Um que já tenha uma entidade de segurança de logon para o banco de dados de métricas de QoE (com db_datareader privilégio) e uma entidade de segurança de logon na instância de QoE do SQL Server (necessário para criar um objeto de servidor vinculado durante a instalação). Essa conta será usada para executar a etapa "dados de arquivo de QoE" do trabalho do SQL Server Agent.
+    
+    > [!NOTE]
+    > Se estiver trabalhando em um ambiente muito bloqueado, você precisará verificar se essa conta de serviço tem os direitos de usuário "fazer logon como um trabalho em lotes" e "permitir logon local" no servidor de banco de dados de monitoramento de métricas de QoE e no SQL Server do QoE.
     
 - Um que será usado para executar a etapa "processar cubo" do trabalho do SQL Server Agent. A instalação criará uma entidade de segurança de logon para o banco de dados de arquivo de QoE (com o privilégio de leitura e gravação) e também criará um membro na função QoE (com o privilégio controle total) para o cubo.
     

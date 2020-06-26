@@ -1,9 +1,9 @@
 ---
-title: Disponibilidade em Argélia
-author: LanaChin
-ms.author: v-lanac
+title: Disponibilidade em Bangladesh
+author: cichur
+ms.author: v-cichur
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
+ms.reviewer: fafan
 ms.topic: reference
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -23,25 +23,25 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Estes são os serviços do Microsoft 365 e do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para a Argélia.
-ms.openlocfilehash: 541414367e53449628be50ce0885b65000a4aec4
+description: Estes são os serviços do Microsoft 365 e do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para Bangladesh.
+ms.openlocfilehash: 1ec0337d6c63f97197908375c2c8a3712f5b9621
 ms.sourcegitcommit: 0979fae58ecd713f8317ed99caae015b5cc2c8e4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 06/25/2020
-ms.locfileid: "44877892"
+ms.locfileid: "44877955"
 ---
-# <a name="availability-in-algeria"></a>Disponibilidade em Argélia
+# <a name="availability-in-bangladesh"></a>Disponibilidade em Bangladesh
 
 [Encontre outro país ou região](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) ou saiba mais sobre a disponibilidade de Audioconferência e planos de chamadas por país e região.
 
-Estes são os serviços do Microsoft 365 e do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para a Argélia.
+Estes são os serviços do Microsoft 365 e do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para Bangladash.
   
 ## <a name="audio-conferencing"></a>Audioconferência
 
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
-|A Audioconferência está disponível para compra?  <br/> |Sim. Pague por minuto somente.  <br/> |
+|A Audioconferência está disponível para compra?  <br/> |Sim. Pague por minuto somente. <br/> |
 |Os números de telefone são atribuídos automaticamente para a Audioconferência?  <br/> | Não |
 |Funcionalidade de discagem usando o recurso Telefonar para Mim  <br/> | Requer créditos de comunicação <br/> |
    

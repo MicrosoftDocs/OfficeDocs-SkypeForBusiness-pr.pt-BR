@@ -1,9 +1,9 @@
 ---
-title: Disponibilidade em Argélia
-author: LanaChin
-ms.author: v-lanac
+title: Disponibilidade em Uganda
+author: cichur
+ms.author: v-cichur
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
+ms.reviewer: fafan
 ms.topic: reference
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Estes são os serviços do Microsoft 365 e do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para a Argélia.
-ms.openlocfilehash: 541414367e53449628be50ce0885b65000a4aec4
+description: Estes são os serviços do Microsoft 365 e do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para Uganda.
+ms.openlocfilehash: 1ffab17c3330ff19c24c27f2e840f5ad1856a456
 ms.sourcegitcommit: 0979fae58ecd713f8317ed99caae015b5cc2c8e4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 06/25/2020
-ms.locfileid: "44877892"
+ms.locfileid: "44877958"
 ---
-# <a name="availability-in-algeria"></a>Disponibilidade em Argélia
+# <a name="availability-in-uganda"></a>Disponibilidade em Uganda
 
 [Encontre outro país ou região](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) ou saiba mais sobre a disponibilidade de Audioconferência e planos de chamadas por país e região.
 
-Estes são os serviços do Microsoft 365 e do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para a Argélia.
+Estes são os serviços do Microsoft 365 e do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para Uganda.
   
 ## <a name="audio-conferencing"></a>Audioconferência
 

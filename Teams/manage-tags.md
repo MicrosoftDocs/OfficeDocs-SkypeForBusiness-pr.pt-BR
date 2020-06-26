@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba como gerenciar como as marcas são usadas em sua organização no Microsoft Teams.
-ms.openlocfilehash: 9c17045a167c46cabc2c7bd0c89b7488996975ad
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: b19613268384831aaaa2608fc183b62fdc1b0445
+ms.sourcegitcommit: 0979fae58ecd713f8317ed99caae015b5cc2c8e4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690847"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "44877932"
 ---
 # <a name="manage-tags-in-microsoft-teams"></a>Gerenciar marcas no Microsoft Teams
 
@@ -38,6 +38,8 @@ Uma marca pode ser adicionada a uma pessoa em uma equipe específica. Depois que
 - Um gerente de produto de grupo quer enviar mensagens para todos os gerentes de produto em um canal.
 - Um administrador hospitalar quer enviar uma mensagem para todos os radiologists de um canal.
 - Um gerente de marketing deseja iniciar um chat em grupo com todos os designers.
+
+Quando uma marca é @mentioned em uma conversa de canal, os membros da equipe associados à marca serão notificados, assim como qualquer outro @mention.
 
 Para saber mais, confira [usando marcas no Teams](https://support.office.com/article/using-tags-in-teams-667bd56f-32b8-4118-9a0b-56807c96d91e).
 
@@ -77,10 +79,20 @@ Se você ativou o **proprietário da equipe pode substituir quem pode aplicar ma
 
 ![Captura de tela da configuração marcas no nível da equipe](media/manage-tags-team-settings.png)
 
-## <a name="add-tags-in-teams"></a>Adicionar marcas no Teams
+## <a name="use-tags"></a>Usar marcas
 
-Para gerenciar marcas, selecione **gerenciar equipes** no lado esquerdo do aplicativo e localize sua equipe na lista. Selecione **mais opções**e, em seguida, escolha **gerenciar marcas**.
+### <a name="add-tags"></a>Adicionar marcas
+
+Para criar e atribuir marcas, selecione **equipes** no lado esquerdo do aplicativo e localize sua equipe na lista. Selecione **mais opções**e, em seguida, escolha **gerenciar marcas**.
 
 Aqui, você pode criar marcas e atribuí-las às pessoas de sua equipe.
 
 ![Captura de tela de como aplicar marcas no cliente do teams ](media/manage-tags-teams.png)
+
+### <a name="delete-tags"></a>Excluir marcas
+
+Remova todos os membros da equipe associados à marca e a marca será excluída.
+
+## <a name="related-topics"></a>Tópicos relacionados
+
+[Usando marcas no Teams](https://support.office.com/article/using-tags-in-teams-667bd56f-32b8-4118-9a0b-56807c96d91e)

@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Saiba qual escrivaninha e telefones de conferências são certificados para que o Microsoft Teams produza os melhores resultados.
-ms.openlocfilehash: c18b335684c5a0ff6017760e1e2aa03dabd68f66
-ms.sourcegitcommit: 8d5ba1346be583af9382906dda556ccf868904f7
+ms.openlocfilehash: 6253d1bd46589892d1558ab7e9871bbf38c8cdbb
+ms.sourcegitcommit: 0979fae58ecd713f8317ed99caae015b5cc2c8e4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44816812"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "44877902"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>Telefones IP certificados para o Microsoft Teams
 
@@ -51,6 +51,7 @@ Os seguintes telefones são certificados para o Microsoft Teams:
 |Crestron M100| Este produto foi descontinuado. Para obter mais informações, acesse [Crestron M100](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M100-T) no website da Crestron. | Descontinuado a partir de 5/11/2020|
 |Crestron Flex UC-P100-T & UC-P110-T  | Este produto foi descontinuado. Para obter mais informações, acesse o site de [comunicação unificada]( https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/UC-PHONE-T-PLUS) no website da Crestron. |Descontinuado a partir de 5/11/2020|
 |Exibição ThinkSmart do Lenovo|CD-18781Y. 200410.067|Abril de 2020|
+|C60 de Polyline trio|5.9.3.6155|Abril de 2020|
 |CCX400 de Polyline | 1.0.0.0200 | Janeiro de 2020|
 |CCX600 de Polyline | 5.9.12.1111| Janeiro de 2020|
 |CCX500 de Polyline | 5.9.12.1111| Dezembro de 2019|
