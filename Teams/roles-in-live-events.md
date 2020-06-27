@@ -17,109 +17,57 @@ description: Saiba mais sobre os recursos de apresentador e participante em um e
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: 7714442be770420797df1c51a532f769eb0350a4
-ms.sourcegitcommit: f9db7effbb1e56484686afe4724cc3b73380166d
+ms.openlocfilehash: b17b5493f8bccacbf16674f5698b672f271bb9d8
+ms.sourcegitcommit: 02dd624d39a14f48b9d2463881605d2f051722e7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "44565854"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "44874438"
 ---
-<a name="presenter-and-participant-capabilities-in-a-teams-live-event"></a>Recursos de apresentador e participante em um evento do Teams
+<a name="presenter-producer-and-attendee-capabilities-in-a-teams-live-event"></a>Recursos de apresentador, produtor e participante em um evento ao vivo do Teams
 ======================================================
 
-Os eventos ao vivo do Microsoft Teams oferecem suporte a vários tipos de participantes. Os participantes podem acessar vários recursos de eventos ao vivo com base nas funções dentro ou fora de uma organização.
+O Microsoft Teams oferece suporte a eventos ao vivo que são transmitidos para grandes audiências online. Enquanto a função de participante é passiva, o apresentador e o produtor do evento ao vivo têm acesso a vários recursos da reunião, incluindo:  
 
-Os recursos de reunião disponíveis são:
-
-- Bate-papo (inclui fotos e figurinhas)
-- Anotações da Reunião
-- Quadro de comunicações
+- Chat (inclui fotos e figurinhas)
 - Gravando
 - Arquivos
+- Perguntas e Respostas
 
-Este artigo descreve os recursos de participante e o que o acesso a eles têm para os recursos de evento ao vivo.
+Este artigo descreve os recursos disponíveis em um evento ao vivo do Teams.
 
-## <a name="presenters-and-organizers"></a>Apresentadores e organizadores
+## <a name="presenter-and-producer"></a>Apresentador e produtor
 
-Apresentadores e organizadores incluem o seguinte:
+Apresentador e produtor incluem os seguintes:
 
 - Apresentadores da minha empresa
-- Apresentadores de outras organizações. Os apresentadores são designados pelo organizador e isso exige um convite pessoal do organizador.
+- Apresentadores de outras organizações. Os apresentadores são designados pelo produtor e isso exige um convite pessoal do produtor.
 
-Os apresentadores e organizadores têm acesso a todos os recursos em um evento ao vivo.
+Os apresentadores e os produtores têm acesso a todos os recursos de eventos ao vivo.
 
-## <a name="participants"></a>Participantes
-
-Existem vários tipos de participantes de eventos ao vivo:
-
-- [Participante locatário](#in-tenant-participant)
-- [Participante convidado](#guest-participant)
-- [Participante externo (federado)](#external-federated-participant)
-- [Participante anônimo](#anonymous-participant)
-
-### <a name="in-tenant-participant"></a>Participante locatário
-
-O participante locatário pertence à organização e tem credenciais para o locatário. Saiba mais sobre esse participante em [Segurança e o Microsoft Teams](teams-security-guide.md#participant-types).
-
-| Evento ao vivo |  | |||
+| |  | |||
 |---------|----------------|----------------|---------------------|------------|--------------|
-|  **Recurso**       | Antes da reunião | Na reunião | Após a reunião |
-| Chat | Não disponível | N/D | Não disponível |
-| Anotações da Reunião | Sim | Sim |Sim |
-| Quadro de comunicações | Sim | Sim |Sim |
-| Gravando | N/A |Sim | Sim |
-| Arquivos | Sim | Sim | Sim |
+|  **Recurso**       | Antes do evento | Durante o evento | Depois do evento |
+| Chat | Sim | Sim| Sim |
+| Gravando | Não disponível |N/D | Sim |
+| Arquivos | Sim |Sim | Sim |
+| Perguntas e Respostas, se habilitado pelo produtor| Sim | Sim | Sim |
 |||||||
 
+## <a name="live-event-attendee"></a>Participante do evento ao vivo
 
-### <a name="guest-participant"></a>Participante convidado
+Um participante de um evento ao vivo é alguém que tem o link para o evento ao vivo ou a gravação do evento. Nenhuma permissão especial é necessária para participar/visualizar o evento. Um participante que exibir o evento ao vivo em tempo real poderá participar do Perguntas e Respostas, se permitido pelo apresentador e/ou produtor. 
 
-Um participante convidado é uma pessoa de outra empresa que foi convidado a acessar o Teams ou outros recursos no locatário da organização, com base na plataforma B2B do Azure Active Directory. Os usuários convidados podem ser convidados para se juntar a reuniões normais e reuniões com canal. Leia mais sobre um participante convidado no [Como é a experiência do convidado](guest-experience.md#comparison-of-team-member-and-guest-capabilities).
-
-| Evento ao vivo  | | |||
+| |  | |||
 |---------|----------------|----------------|---------------------|------------|--------------|
-| **Recurso**        | Antes da reunião | Na reunião | Após a reunião |
-| Chat | Não disponível | N/D | Não disponível |
-| Anotações da Reunião | Sim | Sim | Sim |
-| Quadro de comunicações | Não | Não | Não |
-| Gravando | N/A | Não | Não |
-| Arquivos | Não | Não | Não |
+|  **Recurso**       | Antes do evento | Durante o evento | Depois do evento |
+| Perguntas e Respostas, se habilitado pelo produtor | Sim | Sim | Sim |
+| Gravando | Não disponível | N/D| Sim |
+| Controles de reprodução de vídeo, se habilitados pelo produtor | Sim | Sim | Sim |
 |||||||
-
-
-### <a name="external-federated-participant"></a>Participante externo (federado)
-
-Um participante externo é uma pessoa que está usando o Teams em outra organização e que foi convidado a participar de uma reunião, mas não tem acesso a outros recursos compartilhados da sua organização. Os participantes-usuários externos são exibidos na lista de reuniões com o mesmo nome de identidade que eles têm em sua própria organização. Leia mais sobre um participante externo em [Comunicar-se com usuários de outras empresas](communicate-with-users-from-other-organizations.md#external-access).
-
-| Evento ao vivo |  | |||
-|---------|----------------|----------------|---------------------|------------|--------------|
-|  **Recurso**         | Antes da reunião | Na reunião | Após a reunião |
-| Chat | Não disponível| N/D | Não disponível |
-| Anotações da Reunião | Não | Não | Não |
-| Quadro de comunicações | Não| Não | Não |
-| Gravando | N/A | Não | Não |
-| Arquivos | Sim | Sim | Sim |
-|||||||
-
-### <a name="anonymous-participant"></a>Participante anônimo
-
-O participante anônimo é como um usuário externo, mas a identidade dele não é projetada na reunião. No momento de ingressar, eles inserem manualmente um apelido. Saiba mais sobre um participante anônimo em [Segurança e o Microsoft Teams](teams-security-guide.md#participant-types).
-
-| Evento ao vivo|  | |||
-|---------|----------------|----------------|---------------------|------------|--------------|
-| **Recurso**        | Antes da reunião | Na reunião | Após a reunião |
-| Chat | Não disponível | N/D | Não disponível |
-| Anotações da Reunião | N/A | Não | N/A |
-| Quadro de comunicações | Não disponível | N/D | Não disponível |
-| Gravando | N/A | Não | N/A |
-| Arquivos | N/A | Não | N/A |
-|||||||
-
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Segurança e o Microsoft Teams](teams-security-guide.md)
+- [Planejar eventos ao vivo no Teams](teams-live-events/plan-for-teams-live-events.md)
 
-[Acesso de convidados ao Teams](guest-access.md)
-
-[Planejar eventos ao vivo no Teams](teams-live-events/plan-for-teams-live-events.md)
+- [Introdução a eventos ao vivo do Microsoft Teams](https://support.microsoft.com/pt-BR/office/get-started-with-microsoft-teams-live-events-d077fec2-a058-483e-9ab5-1494afda578a#bkmk_productiontypes)

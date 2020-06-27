@@ -17,12 +17,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ccbdf48463ab504c1eac51b9558d3edb07533c70
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: e091cc9c5d6f3ce55ea9e64473759afbd59df2c4
+ms.sourcegitcommit: a73df97a06ea860bfaf5387e0acbf3c724697e14
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666173"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "44902266"
 ---
 # <a name="retention-policies-in-microsoft-teams"></a>Políticas de retenção no Microsoft Teams
 
@@ -59,7 +59,7 @@ O requisito mínimo de licenciamento para políticas de retenção é o Office 3
 
 ## <a name="how-teams-retention-policies-work"></a>Como funcionam as políticas de retenção do Teams
 
-Os chat do Teams são armazenados em uma pasta oculta SubstrateHolds na caixa de correio de cada usuário no chat, e as mensagens de canal do Teams são armazenadas em uma pasta oculta do SubstratesHolds na caixa de correio de uma equipe. O Teams usa um serviço de chat fornecido pelo Azure que também armazena esses dados e, por padrão, o serviço armazena os dados para sempre. Com uma política de retenção do Teams, quando você exclui dados, os dados serão excluídos permanentemente das caixas de correio do Exchange e do serviço de chat subjacente.
+Os chats de equipe são armazenados em uma pasta oculta-Teamschat-na caixa de correio de cada usuário no chat, e as mensagens de canal de equipe são armazenadas em uma pasta oculta-Teamschat-na caixa de correio de grupo de uma equipe. O Teams usa um serviço de chat fornecido pelo Azure que também armazena esses dados e, por padrão, o serviço armazena os dados para sempre. Com uma política de retenção do Teams, quando você exclui dados, os dados serão excluídos permanentemente das caixas de correio do Exchange e do serviço de chat subjacente.
 
 Se você aplicar uma política de retenção aos chats e mensagens de canal do Teams, veja o que acontece:
 
@@ -83,7 +83,7 @@ Aqui estão algumas considerações e limitações que você deve conhecer ao tr
 
 - O Teams não têm suporte para as configurações de retenção avançadas, como a capacidade de aplicar uma política ao conteúdo que contém palavras-chave ou informações confidenciais. No momento, as políticas de retenção do Teams se aplicam a todo o conteúdo de mensagens de chat e/ou de canal.
 
-- O Microsoft Teams pode levar até três a sete dias para limpar mensagens expiradas. Uma política de retenção do Teams excluirá mensagens de chat e de canal ao fim do período de retenção. No entanto, pode levar até três a sete dias para limpar essas mensagens e excluí-las permanentemente. Além disso, as mensagens de chat e de canal serão pesquisáveis com as ferramentas de descoberta eletrônica entre o período de retenção e quando as mensagens forem excluídas permanentemente.
+- Uma política de retenção do teams acionará um processo, dentro de um dia, para excluir mensagens de chat e de canal quando o período de retenção expirar. No entanto, pode levar até três a sete dias para limpar essas mensagens e excluí-las permanentemente. Além disso, as mensagens de chat e de canal serão pesquisáveis com as ferramentas de descoberta eletrônica entre o período de retenção e quando as mensagens forem excluídas permanentemente.
 
 ### <a name="multiple-retention-policies-and-the-principles-of-retention"></a>Várias políticas de retenção e princípios de retenção
 

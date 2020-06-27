@@ -11,73 +11,73 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: c4e0c905-33a1-49d8-9276-1b338f94d085
-description: 'Resumo: Saiba mais sobre o recurso classificar minha chamada no Skype for Business Server.'
-ms.openlocfilehash: ca33e327b7416f18943a425df4ecb0d78d4047c6
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Resumo: Saiba mais sobre o recurso Rate My Call no Skype for Business Server.'
+ms.openlocfilehash: 15f2bcbcf75690baaa350541f5f1da134fb32025
+ms.sourcegitcommit: a73df97a06ea860bfaf5387e0acbf3c724697e14
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41817730"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "44902211"
 ---
 # <a name="rate-my-call-in-skype-for-business-server"></a>Classificar minha chamada no Skype for Business Server
 
-**Resumo:** Saiba mais sobre o recurso classificar minha chamada no Skype for Business Server.
+**Resumo:** Saiba mais sobre o recurso Rate My Call no Skype for Business Server.
 
-Classificar minha chamada foi um novo recurso dos clientes do Skype for Business 2015 e do 2016 no Windows que oferece às empresas uma maneira de obter comentários de seus usuários finais.
+Rate My Call foi um novo recurso nos clientes do Skype for Business 2015 e 2016 no Windows que oferece às empresas uma maneira de obter comentários de seus usuários finais.
 
-A janela classificar minha chamada oferece um sistema de classificação "estrela" e tokens predefinidos para chamadas de áudio e vídeo. Além disso, os administradores podem habilitar um campo personalizado para fornecer comentários.
+A janela Rate My Call oferece um sistema de classificação "estrela" e tokens predefinidos para chamadas de áudio e vídeo. Além disso, os administradores podem habilitar um campo personalizado para fornecer comentários.
 
-Atualmente, os dados coletados do recurso Rate My Call não estão incluídos em nenhum relatório de monitoramento existente, mas sim em um relatório de monitoramento separado. Os dados são coletados nas tabelas SQL que podem ser acessadas executando consultas SQL.
+Taxa de coleta os dados de chamadas não estão incluídos atualmente em nenhum relatório de monitoramento existente, mas têm um relatório de monitoramento separado. Os dados são coletados em tabelas SQL que podem ser acessadas executando consultas SQL.
 
-## <a name="rate-my-call-prerequisites"></a>Pré-requisitos do Rate My Call
+## <a name="rate-my-call-prerequisites"></a>Pré-requisitos de taxa de chamada
 
-Antes que os usuários na implantação do Skype for Business Server possam acessar a funcionalidade de chamada de minha chamada, o seguinte conjunto de componentes deve ser implantado e configurado:
+Antes que os usuários em sua implantação do Skype for Business Server possam acessar a funcionalidade de Tarifa de minha chamada, o conjunto de componentes a seguir deve ser implantado e configurado:
 
 -  Você deve ter o Skype for Business Server instalado (versão 9160 ou posterior).
 
-- Peça aos usuários que instalem e atualizem para a versão mais recente do Skype for Business e também solicitem que eles usem a interface do usuário do Skype for Business.
+- Peça que seus usuários instalem e atualizem para a versão mais recente do Skype for Business e também solicitem o uso da interface do usuário do Skype for Business.
 
-- Os usuários devem ser hospedados no pool de front-ends do Skype for Business Server.
+- Os usuários devem estar hospedados no pool de front-ends do Skype for Business Server.
 
-- Você deve ter um banco de dados de monitoramento do Skype for Business Server implantado e associado a seus pools do Skype for Business Server.
+- Você deve ter um banco de dados de monitoramento do Skype for Business Server implantado e associado aos seus pools do Skype for Business Server.
 
-- Recomendamos a implantação do Painel de Qualidade da Chamada (CQD, Call Quality Dashboard).
+- Recomendamos implantar o painel de qualidade de chamada (CQD).
 
-## <a name="configure-rate-my-call"></a>Configurar o recurso Rate my Call
+## <a name="configure-rate-my-call"></a>Configurar taxa de minha chamada
 
-O recurso classificar minha chamada está habilitado por padrão na política do cliente com as seguintes configurações:
+O recurso Rate My Call é habilitado por padrão na política de cliente com as seguintes configurações:
 
-- Classificar minha porcentagem de exibição de chamada em porcentagem-10%
+- Porcentagem de exibição da minha chamada em taxa de 10%
 
-- Classificar minha chamada permitir comentários do usuário personalizado-desabilitado
+- Taxa de minha chamada permitir comentários do usuário personalizado-desabilitado
 
-Não há nenhuma ação necessária para habilitar o recurso base, mas se você quiser um comentário personalizado, será necessário habilitá-lo separadamente. O cmdlet do Windows PowerShell a seguir é um exemplo de como habilitar comentários personalizados do usuário final e alterar o intervalo de 10% para 80%.
+No entanto, não há nenhuma ação necessária para habilitar o recurso base, mas se você quiser comentários personalizados, será necessário habilitá-lo separadamente. O cmdlet do Windows PowerShell a seguir é um exemplo de habilitar o feedback personalizado do usuário final e alterar o intervalo de 10% para 80%.
 
 ```PowerShell
-Set-CSClientPolicy -Identity <PolicyIdentity> -RateMyCallDisplayPercentage 80 - RateMyCallAllowCustomUserFeedback $true 
+Set-CSClientPolicy -Identity <PolicyIdentity> -RateMyCallDisplayPercentage 80 -RateMyCallAllowCustomUserFeedback $true 
 ```
 
-## <a name="accessing-rate-my-call-data"></a>Acessando os dados de Rate My Call
+## <a name="accessing-rate-my-call-data"></a>Acessar dados da taxa de chamada My
 
-Os dados dos usuários são coletados em duas tabelas no banco de dados de monitoramento.
+Dados de usuários são coletados em duas tabelas no banco de dados de monitoramento.
 
- **[QoeMetrics]. [dbo]. [CallQualityFeedbackToken]** -Esta tabela contém resultados de sondagem de token pelos usuários finais.
+ **[QoeMetrics]. [dbo]. [CallQualityFeedbackToken]** -Esta tabela contém resultados de sondagem de token por usuários finais.
 
  **[QoeMetrics]. [dbo]. [CallQualityFeedbackTokenDef]** -Esta tabela contém definições de token.
 
-As definições do token são codificadas da seguinte forma:
+As definições de token são codificadas da seguinte maneira:
 
 |||
 |:-----|:-----|
-|1  <br/> |DistortedSpeech  <br/> |
-|2  <br/> | ElectronicFeedback <br/> |
-|3  <br/> | BackgroundNoise <br/> |
-|4  <br/> |MuffledSpeech  <br/> |
-|5  <br/> |Eco  <br/> |
-|21  <br/> | FrozenVideo <br/> |
+|1   <br/> |DistortedSpeech  <br/> |
+|2   <br/> | ElectronicFeedback <br/> |
+|3   <br/> | BackgroundNoise <br/> |
+|4   <br/> |MuffledSpeech  <br/> |
+|5   <br/> |Eco  <br/> |
+| 21   <br/> | FrozenVideo <br/> |
 |22  <br/> | PixelatedVideo <br/> |
 |23  <br/> | BlurryImage <br/> |
-|24  <br/> | PoorColor <br/> |
+|dia  <br/> | PoorColor <br/> |
 |25  <br/> | DarkVideo <br/> |
 |101  <br/> |Audio_SilentLocal  <br/> |
 |102  <br/> |Audio_SilentRemote  <br/> |
@@ -108,11 +108,11 @@ As definições do token são codificadas da seguinte forma:
 |501  <br/> |Reliabilty_Join  <br/> |
 |502  <br/> |Reliabilty_Invite  <br/> |
 
- **[QoeMetrics]. [dbo]. [CallQualityFeedback]** Esta tabela contém resultados de sondagem de votação "estrela" e comentários dos clientes, se habilitados.
+ **[QoeMetrics]. [dbo]. [CallQualityFeedback]** Esta tabela contém resultados de pesquisa de votação de "estrela" e comentários do cliente, se habilitado.
 
-Dados de tabelas podem ser chamados usando uma consulta **Select \* from [Table.Name]** ou usando o Microsoft SQL Server Management Studio.
+Os dados de tabelas podem ser chamados usando uma consulta **Select \* from [Table.Name]** ou usando o Microsoft SQL Server Management Studio.
 
-Podem ser usadas as seguintes consultas em SQL:
+As seguintes consultas SQL podem ser usadas:
 
  **Áudio**
 
@@ -151,7 +151,7 @@ SELECT
             Caller.UserKey = CallerCqf.FromURI
 ```
 
- **Vídeo**
+ **Video**
 
 ```SQL
 SELECT
@@ -190,7 +190,7 @@ SELECT
 
 ## <a name="updating-token-definitions"></a>Atualizando definições de token
 
-Os clientes mais recentes do Skype for Business relatam novas\> IDs de token de problema (100) que podem não estar presentes em sua [QoeMetrics]. [dbo]. Tabela [CallQualityFeedbackTokenDef]. Para atualizar a tabela de banco de dados com as definições de token mais recentes, o comando SQL abaixo pode ser executado no banco de dados de monitoramento usando o Microsoft SQL Server Management Studio. Esse comando substituirá todas as entradas no [QoeMetrics]. [dbo]. Tabela [CallQualityFeedbackTokenDef].
+Os clientes mais recentes do Skype for Business relatam novas IDs de token de problema ( \> 100) que podem não estar presentes em seu [QoeMetrics]. [ dbo]. Tabela [CallQualityFeedbackTokenDef]. Para atualizar a tabela de banco de dados com as definições de token mais recentes, o comando SQL abaixo pode ser executado no banco de dados de monitoramento usando o Microsoft SQL Server Management Studio. Este comando substituirá todas as entradas no [QoeMetrics]. [dbo]. Tabela [CallQualityFeedbackTokenDef].
 
 ```SQL
 DELETE FROM [CallQualityFeedbackTokenDef];

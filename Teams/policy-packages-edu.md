@@ -21,12 +21,12 @@ ms.custom: ms.teamsadmincenter.policypackages.overview
 localization_priority: Priority
 search.appverid: MET150
 description: Saiba mais sobre políticas em uma configuração EDU ou educacional e como usar e gerenciar pacotes de políticas no Microsoft Teams.
-ms.openlocfilehash: c8eed1c27f73d8805924ee30be0041a710bbdb25
-ms.sourcegitcommit: 624bd511b96cf213483d3ea8f27b20a91d955550
+ms.openlocfilehash: 8e024003957a295d56e26a46f473d543f2cb0ded
+ms.sourcegitcommit: 02dd624d39a14f48b9d2463881605d2f051722e7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44330566"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "44874418"
 ---
 # <a name="teams-policies-and-policy-packages-for-education"></a>Políticas do Teams e Pacotes de Políticas para Educação
 
@@ -158,9 +158,20 @@ Para garantir que os alunos não possam agendar uma reunião para comunicar-se s
 
 ![Ensino do aluno na página de aprendizado remoto, com a seção Geral exibida, todas as opções aqui estão desativadas.](media/edu-policy-list-a.png)
 
-- E na mesma página, na seção Participantes e Convidados na reunião: **Permitir Reunir agora em reuniões privadas**: Desativada
+- E na mesma página, na seção Participantes e Convidados na reunião:
+  - **Permitir Reunir agora em reuniões privadas**: Desativado
+  - **Permitir chat em reuniões**: Desabilitado
 
-![Seção de participantes e convidados, com a opção Permitir Reunir agora em reuniões privadas definida como Desativada.](media/edu-participants-and-guests.png)
+![Seção de participantes e convidados, com a opção Permitir Reunir agora em reuniões privadas definida como Desativado.](media/edu-participants-and-guests.png)
+
+Desativar as opções **Permitir Reunir agora nos canais**, **Permitir agendamento de reunião de canal**, **Permitir agendamento de reuniões privadas** e **Reunir agora em reuniões privadas** para os estudantes, impede tanto a eles de agendarem uma reunião, como também ao organizador. Elas também fornecem as seguintes medidas de segurança para a educação:
+
+- Se os alunos tentarem participar da reunião antes do educador, eles não poderão participar da reunião na versão mais recente do aplicativo do Teams.
+- Embora a criação de reuniões se aplique a todos os usuários e licenças, as medidas de segurança de bloqueio de participação na reunião descritas acima, apenas se aplicam a clientes educacionais no Teams com base no tipo de licença do usuário.
+
+Quando você altera a política **Permitir chat em reuniões** para desabilitar e impedir que os alunos agendem as reuniões acima, e mantém essa política ativada para educadores (para as reuniões que não estão agendadas em um canal ou se reunir agora em um canal), os alunos não poderão conversar antes do educador ingressar na reunião, nem após a reunião. Eles ainda poderão ver o histórico do chat antes, durante e após a reunião. Como exemplo, eles poderão ver as mensagens do professor ou o link de gravação da reunião, caso a reunião tenha sido gravada.
+
+Se alunos e educadores estiverem com a política **Permitir chat em reuniões** desativada, ninguém poderá conversar na janela de chat da reunião. A medida de segurança de restrição nos chats de reunião descrita acima, apenas se aplica a clientes educacionais em equipes com base no tipo de licença dos usuários.
 
 #### <a name="control-whether-or-not-students-can-share-their-videos-during-calls-and-meetings"></a>Controle se os alunos podem ou não compartilhar vídeos durante chamadas e reuniões
 

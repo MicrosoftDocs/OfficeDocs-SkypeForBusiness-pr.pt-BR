@@ -17,21 +17,21 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4511bf67926c831548084647195e21ed13fc08f5
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 0eb91032689ffccc5696d60e44e52e72d5f4f067
+ms.sourcegitcommit: 2e8a61abdd586bf8f0f88cac3b7d4ca4b9d9be34
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691197"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "44889980"
 ---
 # <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>Início rápido do administrador – reuniões e eventos ao vivo no Microsoft Teams
 
 Há duas maneiras de se reunir no Microsoft Teams – reuniões e eventos ao vivo. Use este artigo para implementar e configurar reuniões e eventos ao vivo na sua organização rapidamente. 
 
- - As **reuniões** no Teams incluem áudio, vídeo e compartilhamento de tela para até 250 pessoas. Elas são uma das principais maneiras de colaboração no Teams. E não é necessário ser membro de uma organização (nem mesmo ter uma conta do Teams!) para participar de uma reunião do Teams – basta verificar no convite as instruções sobre como ingressar. 
+ - As **Reuniões** no Teams incluem áudio, vídeo e compartilhamento de tela para até 300* pessoas. Elas são uma das principais maneiras de colaboração no Teams. E não é necessário ser membro de uma organização (nem mesmo ter uma conta do Teams!) para participar de uma reunião do Teams – basta verificar no convite as instruções sobre como ingressar. 
 
- - Os **eventos ao vivo** são uma extensão das reuniões do Teams e permitem agendar e produzir eventos que podem ser transmitidos para grandes públicos online – até 10.000 pessoas. Se você precisar de uma reunião para mais de 250 pessoas, use um evento ao vivo.
-
+ - Os **eventos ao vivo** são uma extensão das reuniões do Teams e permitem agendar e produzir eventos que podem ser transmitidos para grandes públicos online – até 10.000 pessoas. Se você precisar de uma reunião para mais de 300 pessoas, use um evento ao vivo.
+<br><br>**Observação:** para o Teams Governamental (GCC, GCC Alta, DoD), o limite ainda é 250. Atualizaremos este artigo quando o limite de nuvem governamental aumentar de 250 para 300.
 ## <a name="get-licenses-for-meetings-and-live-events"></a>Obter licenças para reuniões e eventos ao vivo
 
 Todos podem participar de uma reunião ou evento ao vivo do Teams gratuitamente – não é necessário ter uma licença. Os participantes ingressam em uma reunião ou evento ao vivo do Teams clicando no botão **Ingressar** no Teams ou no convite da reunião. O áudio da reunião faz parte das reuniões do Teams, mas se você quiser que as pessoas possam ingressar em uma reunião por telefone, você precisará fornecer um número de discagem. 
