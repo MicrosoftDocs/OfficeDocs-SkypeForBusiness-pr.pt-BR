@@ -1,0 +1,71 @@
+### YamlMime:Hub
+title: Giz palestras do Microsoft Teams
+summary: Projetado para profissionais de ti e tomadores de decisões, a palestra em palestras oferece uma oportunidade única para aprender práticas recomendadas e orientação prática sobre alguns dos cenários mais populares e atraentes do teams. Clique em qualquer título do workshop para se registrar.
+brand: teams
+metadata:
+  title: Giz palestras do Microsoft Teams
+  description: Projetado para profissionais de ti e tomadores de decisões, a palestra em palestras oferece uma oportunidade única para aprender práticas recomendadas e orientação prática sobre alguns dos cenários mais populares e atraentes do teams. Facilitada por especialistas no assunto, esses workshops interativos online vão rearmar você com o insights para aprimorar a implementação de suas equipes e fornecer valor adicional para os usuários finais. Clique no título de qualquer Workshop abaixo para ver as datas e horários disponíveis e inscreva-se agora! Clique em qualquer título do workshop para se registrar.
+  ms.service: msteams
+  ms.topic: hub-page
+  author: LolaJacobsen
+  ms.author: lolaj
+  manager: serdars
+  ms.date: 06/17/2020
+  ms.reviewer: nsuter
+  audience: admin
+  f1.keywords:
+  - NOCSH
+  localization_priority: Normal
+  ROBOTS: NOINDEX, NOFOLLOW
+  ms.collection:
+  - Teams_ITAdmin_JourneyFromSfB
+  - M365-collaboration
+  ms.custom:
+  - seo-marvel-apr2020
+  search.appverid: MET150
+  appliesto:
+  - Microsoft Teams
+  ms.openlocfilehash: 45489827990ef2453a92e6a7ea980790efadb569
+  ms.sourcegitcommit: a73df97a06ea860bfaf5387e0acbf3c724697e14
+  ms.translationtype: MT
+  ms.contentlocale: pt-BR
+  ms.lasthandoff: 06/26/2020
+  ms.locfileid: "44902306"
+productDirectory:
+  items:
+  - title: Acessar o Microsoft Teams--zero para produção
+    imageSrc: https://docs.microsoft.com/office/media/icons/list-123-teams.svg
+    summary: Em breve! Comece a implementar a implementação do seu Teams para colaboração, chat e reuniões. Compartilharemos configurações importantes, considerações, práticas recomendadas e recursos para que os usuários funcionem rapidamente.
+    url: http://aka.ms/ChalkTalkGTT
+  - title: Então... você deseja fazer chamadas com o Microsoft Teams?
+    imageSrc: https://docs.microsoft.com/office/media/icons/headset-teams.svg
+    summary: Junte-se a nós para ter uma visão profunda da adição de recursos de chamada PSTN à implantação do seu Teams. Juntos, vamos examinar a terminologia de chamadas, os principais conceitos e as configurações.
+    url: https://microsoftteams.eventbuilder.com/ChalkTalksCalling
+  - title: Como carregar a qualidade de áudio/vídeo no Microsoft Teams
+    imageSrc: https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg
+    summary: Procurando garantir que os usuários tenham experiências ideais com reuniões e recursos de voz? Vamos discutir ferramentas, relatórios e práticas recomendadas para ajudá-lo a gerenciar a qualidade do serviço--desde o estabelecimento de uma estratégia pró-ativa para a solução de problemas comuns.
+    url: https://microsoftteams.eventbuilder.com/ChalkTalksQuality
+  - title: Faça mais com aplicativos no Microsoft Teams
+    imageSrc: https://docs.microsoft.com/office/media/icons/cloud-devtest-teams.svg
+    summary: Esta sessão de fundação abrange recursos básicos, incluindo gerenciamento e segurança de aplicativos. Saiba como integrar seus fluxos de trabalho, aplicativos de produtividade e os serviços que você usa todos os dias em uma única experiência unificada.
+    url: https://microsoftteams.eventbuilder.com/ChalkTalksApps
+  - title: Automatizar fluxos de trabalho de ti com o Teams
+    imageSrc: https://docs.microsoft.com/office/media/icons/layout-navigation-teams.svg
+    summary: Em breve! Automatize seus processos de ti usando aplicativos disponíveis no Microsoft Teams. Abordaremos cenários comuns como assistência técnica e compartilhamento de conhecimento para que sua equipe possa economizar tempo e se concentrar no que é importante.
+    url: https://aka.ms/ChalkTalkAutoIT
+  - title: Como habilitar o Microsoft Teams para o envolvimento do trabalho da primeira
+    imageSrc: https://docs.microsoft.com/office/media/icons/clock-teams.svg
+    summary: Pronto para começar a habilitar os espaços de trabalho digitais para a sua primeira força de trabalho? Juntos, abordaremos as práticas recomendadas para iniciar um piloto para melhorar a comunicação, o envolvimento do funcionário e a produtividade operacional.
+    url: https://microsoftteams.eventbuilder.com/ChalkTalksEnableFirstline
+additionalContent:
+  sections:
+  - items:
+    - title: Ainda está usando o Skype for Business?
+      summary: Confira nossa série de workshops de atualização.
+      url: upgrade-workshops-landing-page.yml
+    - title: Preparar os usuários
+      summary: Faça com que seus usuários funcionem com o treinamento do teams Live.
+      url: https://aka.ms/TeamsLiveTraining
+    - title: Novo usuário do Teams?
+      summary: Saiba mais sobre como começar a usar o Microsoft Teams.
+      url: https://docs.microsoft.com/microsoftteams/teams-overview
