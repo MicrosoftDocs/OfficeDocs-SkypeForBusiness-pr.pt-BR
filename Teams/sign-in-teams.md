@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2d6e4e8989bf26e4a907deec550d18f344728129
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 0189c6072840582854b276f0c0116e03fcaff3c0
+ms.sourcegitcommit: 0979fae58ecd713f8317ed99caae015b5cc2c8e4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868298"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "44877812"
 ---
 <a name="sign-in-to-microsoft-teams-using-modern-authentication"></a>Entrar no Microsoft Teams usando a autenticação moderna
 ==========================
@@ -66,6 +66,10 @@ Ao entrar, os usuários móveis verão uma lista de todas as contas do Microsoft
 1. Se a conta selecionada estiver atualmente conectada a outros aplicativos do Office 365 ou do Microsoft 365, o usuário será direcionado diretamente para o Teams. Não é necessário que os usuários insiram suas credenciais.
     
 2. Se o usuário não estiver conectado à sua conta do Microsoft 365 em nenhum outro lugar, será solicitado que insira autenticação de fator único ou multifator (SFA ou MFA), dependendo de qual sua organização configurou para as políticas de entrada de dispositivos móveis.
+
+> [!NOTE]
+> Para que os usuários possam viver a experiência de logon conforme ao descrito nesta seção, os dispositivos devem executar o Teams para iOS versão 2.0.13 (Build 2020061704) ou posterior, ou o Teams para Android versão 1416/1.0.0.2020061702 ou posterior.
+
 
 ### <a name="adding-multiple-accounts-to-teams"></a>Adicionar várias contas ao Teams.
 
