@@ -131,7 +131,6 @@
 ## [Início rápido – reuniões e eventos ao vivo](quick-start-meetings-live-events.md)
 ## [Planejar sua implantação](deploy-meetings-microsoft-teams-landing-page.md)
 ## [Tutorial: Reuniões no Teams](Tutorial-Meetings-in-Teams.yml)
-## [Recursos de apresentador e de participantes em uma reunião do Teams](roles-in-meetings.md)
 ## [Gerenciar políticas de reunião](meeting-policies-in-teams.md)
 ## [Gerenciar configurações de reuniões](meeting-settings-in-teams.md)
 ## [Emails enviados para os usuários quando suas configurações são alteradas](emails-sent-to-users-when-their-settings-change-in-teams.md) 
@@ -626,12 +625,7 @@
 ## [Introdução aos modelos do Teams](get-started-with-teams-templates.md)
 ## [Aplicativo Marcações e visitas virtuais](bookings-app-admin.md)
 ## [Turnos do Teams](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
-### [O Microsoft StaffHub será desativado](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
-### [Instalar o módulo PowerShell do Microsoft PowerHub](expand-teams-across-your-org/shifts/install-the-staffhub-powershell-module.md)
-### [Executar um relatório para exibir o uso ativo do StaffHub](expand-teams-across-your-org/shifts/run-report-to-show-staffhub-usage.md)
-### [Planejar a mudança de suas equipes do StaffHub para o Shifts no Teams](expand-teams-across-your-org/shifts/plan-to-move-staffhub-teams-to-shifts-in-teams.md)
-### [Mova as suas equipes do Microsoft StaffHub para o Shifts no Teams](expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams.md)
-### [Exemplo de comunicação por email para os usuários](expand-teams-across-your-org/shifts/staffhub-to-teams-email-template.md)
+### [O Microsoft StaffHub foi desativado](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
 ### [Gerenciar o aplicativo Shifts para sua organização no Teams](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
 
 ## Teams para Serviços de Saúde

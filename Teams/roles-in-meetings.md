@@ -17,12 +17,12 @@ description: Saiba mais sobre os recursos de apresentador e participante em uma 
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: c8433d4caa0defbe83114ac4027c10b6bf61a725
-ms.sourcegitcommit: 862ba1d2b3bd4622b1b0baa15096c29c591cc6c4
+ms.openlocfilehash: b0302a5c1f09e6ed6bfbb877709ed3562ce1440a
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "44702686"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938170"
 ---
 <a name="presenter-and-participant-capabilities-in-a-teams-meeting"></a>Recursos de apresentador e participante em uma reunião do Teams
 ======================================================
@@ -36,6 +36,8 @@ Os recursos de reunião disponíveis são:
 - Quadro de comunicações
 - Gravando
 - Arquivos
+    - compartilhando um arquivo em um chat de reunião e exibindo/baixando um arquivo de um chat de reunião
+    - apresentando um PPT em uma reunião (não por compartilhamento de tela) e exibindo um PPT em uma reunião
 - Agendar uma reunião (somente para reuniões)
 
 Este artigo descreve os recursos de participante e o acesso que eles têm aos recursos de reunião.
@@ -62,14 +64,15 @@ Existem vários tipos de participantes de reuniões:
 
 O participante locatário pertence à organização e tem credenciais para o locatário. Saiba mais sobre esse participante em [Segurança e o Microsoft Teams](teams-security-guide.md#participant-types).
 
-|Reunião  |  | |||
+|  |  | |||
 |---------|----------------|----------------|---------------------|------------|--------------|
 | **Recurso**        | Antes da reunião | Na reunião | Após a reunião |
 | Chat | Sim | Sim | Sim |
 | Anotações da Reunião | Sim | Sim |Sim |
 | Quadro de comunicações | Sim | Sim |Sim |
 | Gravando | N/A |Sim | Sim |
-| Arquivos | Sim | Sim | Sim |
+| Arquivos - compartilhando um arquivo em um chat de reunião e exibindo/baixando um arquivo de um chat de reunião | Sim | Sim | Sim |
+| Arquivos - apresentando um PPT em uma reunião (não por compartilhamento de tela) e exibindo um PPT em uma reunião | Sim | Sim | Sim |
 | Agendar uma reunião | Sim | N/D | N/A |
 |||||||
 
@@ -77,14 +80,15 @@ O participante locatário pertence à organização e tem credenciais para o loc
 
 Um participante convidado é uma pessoa de outra empresa que foi convidado a acessar o Teams ou outros recursos no locatário da organização, com base na plataforma B2B do Azure Active Directory. Os usuários convidados podem ser convidados para se juntar a reuniões normais e reuniões com canal. Leia mais sobre um participante convidado no [Como é a experiência do convidado](guest-experience.md#comparison-of-team-member-and-guest-capabilities).
 
-| Reunião |  | |||
+|  |  | |||
 |---------|----------------|----------------|---------------------|------------|--------------|
 | **Recurso**        | Antes da reunião | Na reunião | Após a reunião |
 | Chat | Sim | Sim | Sim |
 | Anotações da Reunião | Sim | Sim | Sim |
 | Quadro de comunicações | Não | Não |Não |
 | Gravando | N/A |Não | Não |
-| Arquivos | Sim | Sim | Sim |
+| Arquivos - compartilhando um arquivo em um chat de reunião e exibindo/baixando um arquivo de um chat de reunião | Sim | Sim | Sim |
+| Arquivos - apresentando um PPT em uma reunião (não por compartilhamento de tela) e exibindo um PPT em uma reunião | Sim | Sim | Sim |
 | Agendar uma reunião | Não | N/D | N/A |
 |||||||
 
@@ -92,14 +96,15 @@ Um participante convidado é uma pessoa de outra empresa que foi convidado a ace
 
 Um participante externo é uma pessoa que está usando o Teams em outra organização e que foi convidado a participar de uma reunião, mas não tem acesso a outros recursos compartilhados da sua organização. Os participantes-usuários externos são exibidos na lista de reuniões com o mesmo nome de identidade que eles têm em sua própria organização. Leia mais sobre um participante externo em [Comunicar-se com usuários de outras empresas](communicate-with-users-from-other-organizations.md#external-access).
 
-| Reunião ||
+|  ||
 |-|-|-|
 | **Recurso** |||
 | Chat | Sim |
 | Anotações da Reunião | N/A |  
 | Quadro de comunicações | N/A |
-| Gravando | N/A |  
-| Arquivos | N/A |
+| Gravando | Não disponível |  
+| Arquivos - compartilhando um arquivo em um chat de reunião e exibindo/baixando um arquivo de um chat de reunião |  |  |  |
+| Arquivos - apresentando um PPT em uma reunião (não por compartilhamento de tela) e exibindo um PPT em uma reunião |  |  |  |
 | Agendar uma reunião | N/A |
 |||
 
@@ -107,14 +112,15 @@ Um participante externo é uma pessoa que está usando o Teams em outra organiza
 
 O participante anônimo é como um usuário externo, mas a identidade dele não é projetada na reunião. No momento de ingressar, eles inserem manualmente um apelido. Saiba mais sobre um participante anônimo em [Segurança e o Microsoft Teams](teams-security-guide.md#participant-types).
 
-| Reunião  | | |||
+|   | | |||
 |---------|----------------|----------------|---------------------|------------|--------------|
 | **Recurso**        | Antes da reunião | Na reunião | Após a reunião |
 | Chat | Não disponível | Sim | Não disponível |
 | Anotações da Reunião | N/A | Não | N/A |
 | Quadro de comunicações | N/A | Não | N/A |
-| Gravando | N/A | Não | N/A |
-| Arquivos | N/A | Não | N/A |
+| Gravando | N/A | Não | Não disponível |
+| Arquivos - compartilhando um arquivo em um chat de reunião e exibindo/baixando um arquivo de um chat de reunião |  |  |  |
+| Arquivos - apresentando um PPT em uma reunião (não por compartilhamento de tela) e exibindo um PPT em uma reunião |  |  |  |
 | Agendar uma reunião | N/A | N/D | N/A |
 |||||||
 
