@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba como criar e gerenciar políticas de roteamento de voz no Microsoft Teams.
-ms.openlocfilehash: 061e8066e06c4514a27ea302dab96acfad004ac4
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: e3dc656043776d3a2f0e5b37a0c35ab98b7c03f7
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44350185"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938120"
 ---
 # <a name="manage-voice-routing-policies-in-microsoft-teams"></a>Gerenciar políticas de roteamento de voz no Microsoft Teams
 
@@ -65,35 +65,16 @@ Consulte [set-CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/
 
 ## <a name="assign-a-custom-voice-routing-policy-to-users"></a>Atribuir uma política de roteamento de voz personalizada a usuários
 
-### <a name="using-the-microsoft-teams-admin-center"></a>Usando o centro de administração do Microsoft Teams
+[!INCLUDE [assign-policy](includes/assign-policy.md)]
 
-Para atribuir uma política a um usuário:
-
-1. Na barra de navegação à esquerda do centro de administração do Microsoft Teams, vá para **Usuários** e clique no usuário.
-2. Clique em **políticas**e, em seguida, ao lado de **políticas atribuídas**, clique em **Editar**.
-3. Em **política de roteamento de voz**, selecione a política que você deseja atribuir e clique em **salvar**.
-
-Para atribuir uma política a vários usuários de uma só vez:
-
-1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para **usuários**e procure os usuários ou filtre o modo de exibição para mostrar os usuários que você deseja.
-2. Na coluna **&#x2713;** (marca de seleção), selecione os usuários. Para selecionar todos os usuários, clique no &#x2713; (marca de seleção) na parte superior da tabela.
-3. Clique em **Editar configurações**, faça as alterações desejadas e, em seguida, clique em **aplicar**.  
-
-Ou, você também pode fazer o seguinte:
-
-1. Na navegação à esquerda do centro de administração do Microsoft Teams, acesse políticas **de**  >  **Roteamento de voz**.
-2. Escolha a política clicando à esquerda do nome da política.
-3. Escolha **Gerenciar usuários**.
-4. No painel **Gerenciar usuários**, procure o usuário pelo nome de exibição ou pelo nome de usuário, escolha o nome e marque **Adicionar**. Repita esta etapa para cada usuário que você deseja adicionar.
-5. Quando tiver terminado de adicionar usuários, clique em **salvar**.
-
-### <a name="using-powershell"></a>Usando o PowerShell
-
-Veja [Grant-CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csonlinevoiceroutingpolicy).
+Consulte também [Grant-CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csonlinevoiceroutingpolicy).
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-- [Visão Geral do PowerShell do Teams](teams-powershell-overview.md)
-- [Configurar o roteamento de voz para roteamento direto](direct-routing-voice-routing.md)
-- [Habilitar o Roteamento baseado na localização para o Roteamento direto](location-based-routing-enable.md)
-- [Atribuir políticas a seus usuários no Teams](assign-policies.md)
+[Visão Geral do PowerShell do Teams](teams-powershell-overview.md)
+
+[Configurar o roteamento de voz para roteamento direto](direct-routing-voice-routing.md)
+
+[Habilitar o Roteamento baseado na localização para o Roteamento direto](location-based-routing-enable.md)
+
+[Atribuir políticas a seus usuários no Teams](assign-policies.md)

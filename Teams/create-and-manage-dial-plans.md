@@ -21,12 +21,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: Saiba como usar o centro de administração do Microsoft Teams ou o Windows PowerShell para criar e gerenciar planos de discagem (planos de discagem de chamada PSTN).
-ms.openlocfilehash: 966ac2e21d3bc57dd32a0b2732e0be285b9fdf0d
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 0e5f45ecdb92843a77bd7a957b1b7c31b3403b92
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691337"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938230"
 ---
 # <a name="create-and-manage-dial-plans"></a>Criar e gerenciar planos de discagem
 
@@ -60,13 +60,9 @@ Depois de planejar os planos de discagem para a sua organização e descobrir to
 2. Selecione o plano de discagem clicando à esquerda do nome do plano de discagem e, em seguida, clique em **Editar**.
 3. Faça as alterações desejadas e clique em **salvar**.
 
-### <a name="add-users-to-a-dial-plan"></a>Adicionar usuários a um plano de discagem
+### <a name="assign-a-dial-plan-to-users"></a>Atribuir um plano de discagem aos usuários
 
-1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para **usuários**.
-2. Selecione o usuário clicando no nome para exibição.
-3. Selecione a guia **políticas** .
-4. Clique em **Editar** à direita das políticas atribuídas.
-5. No menu suspenso **plano de discagem** , selecione o plano de discagem que você deseja atribuir ao usuário e clique em **aplicar**.
+Você atribui um plano de discagem da mesma forma que atribui políticas. [!INCLUDE [assign-policy](includes/assign-policy.md)]
 
 ## <a name="using-powershell"></a>Usando o PowerShell
   

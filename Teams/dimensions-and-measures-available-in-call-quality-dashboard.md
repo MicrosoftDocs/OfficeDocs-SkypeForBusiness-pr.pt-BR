@@ -22,12 +22,12 @@ ms.custom:
 - Reporting
 - seo-marvel-mar2020
 description: Obtenha informações detalhadas sobre as dimensões e medidas usadas pelo painel de qualidade de chamada do Microsoft Teams e do Skype for Business online.
-ms.openlocfilehash: 2dfef2dbe1bb94574911ab94d8da0cff50410592
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 09beeb289b2861ff239e52a136b604bc8d58fa8f
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691277"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938510"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard"></a>Dimensões e medidas disponíveis no painel de qualidade da chamada
 
@@ -515,6 +515,7 @@ Muitos valores de medida também podem ser usados como filtros. A tabela a segui
 |Taxa de captura de resposta total |Ratio |Taxa de chamadas com duração inferior a 5 segundos sobre o número total de chamadas. |
 |Porcentagem total de chamadas curtas |Porcentual |Porcentagem do total de chamadas com menos de 1 minuto de duração. |
 |Porcentagem total de falha de mídia |Porcentual |Porcentagem de todos os fluxos onde o caminho da mídia não pode ser estabelecido ou não terminou normalmente. |
+|Duração total do fluxo de áudio (minutos) |Minutos |Duração total do fluxo de áudio em minutos no intervalo de tempo selecionado. |
 |Falha na mídia devido à contagem de fluxos de DPI do firewall |Número de fluxos |Número de fluxos que falharam ao serem estabelecidos devido ao bloqueio do equipamento de rede devido à inspeção profunda do pacote que não permite o tráfego do Skype for Business. Essas falhas geralmente indicam que um proxy, firewall ou outro dispositivo de segurança de rede não está configurado corretamente para acessar o endereço IP e as portas usadas pelo Skype for Business no Microsoft 365 ou no Office 365. |
 |Porcentagem de falha de mídia de firewall PPP |Porcentual |Porcentagem de fluxos que falharam ao serem estabelecidos devido ao bloqueio do equipamento de rede devido à inspeção profunda do pacote que não permite o tráfego do Skype for Business. Essas falhas geralmente indicam que um proxy, firewall ou outro dispositivo de segurança de rede não está configurado corretamente para acessar o endereço IP e as portas usadas pelo Skype for Business no Microsoft 365 ou no Office 365. |
 |Falha na mídia devido à contagem de fluxos de IP bloqueados do firewall |Número de fluxos |Número de fluxos que falharam ao estabelecer devido ao equipamento de rede bloqueando o acesso a servidores do Skype for Business. Essas falhas geralmente indicam que um proxy, firewall ou outro dispositivo de segurança de rede não está configurado corretamente para acessar o endereço IP e as portas usadas pelo Skype for Business no Microsoft 365 ou no Office 365. |
@@ -666,15 +667,15 @@ Muitos valores de medida também podem ser usados como filtros. A tabela a segui
 | Contagem do segundo usuário|Número|Número de usuários de ponto de extremidade exclusivo ou distintos do segundo. Há um erro de até 0,2% para essa medida. Veja a observação abaixo para obter detalhes.|
 | Taxa de evento de falhas do primeiro dispositivo|Porcentual|Fração média das chamadas que o primeiro ponto de extremidade detectou falhas ou falhas na mídia reproduzida ou capturada que causou má qualidade da mídia que está sendo enviada ou recebida.|
 | Taxa de evento de falhas do dispositivo médio segundo|Porcentual|Fração média da chamada que o segundo ponto de extremidade detectou falhas ou falhas na mídia reproduzida ou capturada que causou má qualidade da mídia que está sendo enviada ou recebida.|
-| Contagem de eventos do primeiro problema do dispositivo|Número de fluxos onde o primeiro ponto de extremidade detectou falhas ou falhas significativas na mídia reproduzida ou capturada que causou má qualidade da mídia que está sendo enviada ou recebida.||
-| Contagem de eventos de problemas do segundo dispositivo|Número de fluxo em que o segundo ponto de extremidade detectou falhas ou falhas significativas na mídia reproduzida ou capturada que causou má qualidade da mídia que está sendo enviada ou recebida.||
+| Contagem de eventos do primeiro problema do dispositivo| Número | Número de fluxos onde o primeiro ponto de extremidade detectou falhas ou falhas significativas na mídia reproduzida ou capturada que causou má qualidade da mídia que está sendo enviada ou recebida.|
+| Contagem de eventos de problemas do segundo dispositivo| Número | Número de fluxo em que o segundo ponto de extremidade detectou falhas ou falhas significativas na mídia reproduzida ou capturada que causou má qualidade da mídia que está sendo enviada ou recebida.|
 | Contagem de tentativas de total PSTN | Número de chamadas | Total de chamadas tentadas, incluindo chamadas com êxito e falhas nas chamadas no intervalo de tempo selecionado. Há um erro de até 0,2% para essa medida. Veja a observação abaixo para obter detalhes.|
 |Contagem total conectada PSTN | Número de chamadas | Total de chamadas conectadas com êxito no intervalo de tempo selecionado. Há um erro de até 0,2% para essa medida. Veja a observação abaixo para obter detalhes.|
 |Contagem de tentativas de entrada PSTN | Número de chamadas | Total de chamadas com tentativas de entrada, incluindo chamadas com êxito e chamadas com falha no intervalo de tempo selecionado. Há um erro de até 0,2% para essa medida. Veja a observação abaixo para obter detalhes.|
 |Contagem de entrada conectada PSTN | Número de chamadas | Total de chamadas de entrada conectadas com êxito no intervalo de tempo selecionado. Há um erro de até 0,2% para essa medida. Veja a observação abaixo para obter detalhes.|
 |Contagem de tentativas de saída PSTN | Número de chamadas | Total de chamadas tentadas de saída, incluindo chamadas com êxito e falhas nas chamadas no intervalo de tempo selecionado. Há um erro de até 0,2% para essa medida. Veja a observação abaixo para obter detalhes.|
 |Contagem de conexão de saída PSTN | Número de chamadas | Total de chamadas de saída conectadas com êxito no intervalo de tempo selecionado. Há um erro de até 0,2% para essa medida. Veja a observação abaixo para obter detalhes.|
-|Total de minutos da PSTN | Minutos | Total de minutos | Uso total de minutos no intervalo de tempo selecionado.|
+|Total de minutos da PSTN | Minutos | Uso total de minutos no intervalo de tempo selecionado.|
 |Total de minutos de entrada PSTN | Minutos | Uso total de minutos de entrada no intervalo de tempo selecionado.|
 |Total de minutos de saída PSTN | Minutos | Uso total de minutos de saída no intervalo de tempo selecionado.|
 |Contagem de usuários ativos PSTN | Número de usuários | O número de usuários que fizeram pelo menos uma chamada conectada durante esse dia.|

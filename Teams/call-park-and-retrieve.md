@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.callparkpolicies.overview
 - seo-marvel-apr2020
 description: Saiba como usar o estacionamento de chamadas e recuperar para colocar uma chamada em espera no serviço do teams na nuvem.
-ms.openlocfilehash: e36690c4059ceae67c8615b1e910051439ca8e78
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: a9518705cd5edff3834be21732f78dd47352cd63
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042958"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938530"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>Estacionamento e recuperação de chamadas no Microsoft Teams
 
@@ -52,11 +52,11 @@ O estacionamento de chamadas e a recuperação têm suporte no momento pelos seg
 
 | Funcionalidade | Teams desktop | Aplicativo Teams Mac | Aplicativo Web do Teams (Edge) |Aplicativo móvel do teams para iOS/Android | Telefone IP do teams | Telefone IP do Skype for Business |
 |------------|---------------|---------------|----------------------|-----------------------------|----------------|-----------------------------|
-| Estacionar uma chamada | Sim | Sim | Sim | Sim | Em breve| Não |
-| Recuperar uma chamada estacionada | Sim | Sim | Sim | Sim | Em breve| Não |
-| Retorno de chamada não recuperado | Sim | Sim | Sim | Sim | Em breve| Não |
+| Estacionar uma chamada | Sim  | Sim  | Sim  | Sim  | Sim | Não |
+| Recuperar uma chamada estacionada | Sim  | Sim  | Sim  | Sim  | Sim | Não |
+| Retorno de chamada não recuperado | Sim  | Sim  | Sim  | Sim  | Sim | Não |
 
-## <a name="configuring-call-park-and-retrieve"></a>Configurar o estacionamento de chamadas e recuperar
+## <a name="configure-call-park-and-retrieve"></a>Configurar o estacionamento e a recuperação de chamadas
 
 Você deve ser um administrador para configurar o estacionamento de chamadas e a recuperação, e o recurso está desabilitado por padrão. Você pode habilitá-lo para usuários e criar grupos de usuários usando a política de estacionamento de chamadas. Quando você aplica a mesma política a um conjunto de usuários, ele pode estacionar e recuperar chamadas entre si. Para configurar os grupos de usuários do parque de chamadas para usuários e criar grupos de usuários do parque de chamadas, siga o procedimento de [política atribuir um estacionamento de chamada](#assign-a-call-park-policy) abaixo.
 
@@ -64,33 +64,35 @@ Para obter informações sobre como usar o recurso Park e retrieve Call, consult
 
 ### <a name="enable-a-call-park-policy"></a>Habilitar uma política de estacionamento de chamadas
 
-Siga estas etapas para habilitar uma política de estacionamento de chamadas:
-
-1. Vá para**políticas de estacionamento de chamada**de**voz** > do centro > de **Administração do Microsoft Teams**.
-2. Selecione **nova política**.
+1. Na navegação à esquerda do centro de administração do Microsoft Teams, **Voice**vá para  >  **políticas de estacionamento de chamada**de voz.
+2. Selecione **Adicionar**.
 3. Dê um nome à política e, em seguida, alterne **permitir estacionamento de chamada** para **ativado**.
 4. Selecione **salvar**.
 
+#### <a name="using-powershell"></a>Usando o PowerShell
+
+Veja [New-CsTeamsCallParkPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamscallparkpolicy?view=skype-ps).
+
+### <a name="edit-a-call-park-policy"></a>Editar uma política de estacionamento de chamadas
+
+1. Na navegação à esquerda do centro de administração do Microsoft Teams, **Voice**vá para  >  **políticas de estacionamento de chamada**de voz.
+2. Selecione a política clicando à esquerda do nome da política e, em seguida, clique em **Editar**.
+3. Alternar para ativar ou **desativar** o estacionamento **de** **chamadas** .
+4. Clique em **Salvar**.
+
+#### <a name="using-powershell"></a>Usando o PowerShell
+
+Consulte [set-CsTeamsCallParkPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallparkpolicy?view=skype-ps). Por exemplo, para alterar a configuração padrão, execute o seguinte:
+
+  ```PowerShell
+  Set-CsTeamsCallParkPolicy -Identity Global -AllowCallPark $true
+  ```
+
 ### <a name="assign-a-call-park-policy"></a>Atribuir uma política de estacionamento de chamadas
 
-Siga estas etapas para atribuir uma política de estacionamento de chamadas a um ou mais usuários:
-
-1. Vá para**políticas de estacionamento de chamada**de**voz** > do centro > de **Administração do Microsoft Teams**.
-2. Escolha a política clicando à esquerda do nome da política.
-3. Escolha **Gerenciar usuários**.
-4. No painel **Gerenciar usuários**, procure o usuário pelo nome de exibição ou pelo nome de usuário, escolha o nome e marque **Adicionar**. Repita esta etapa para cada usuário que você deseja adicionar.
-5. Quando terminar de adicionar os usuários, escolha **Salvar**.
+[!INCLUDE [assign-policy](includes/assign-policy.md)]
  
-### <a name="configure-call-park-and-retrieve-with-powershell"></a>Configurar o estacionamento de chamadas e recuperar com o PowerShell
-
-Use o cmdlet [New-CsTeamsCallParkPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamscallparkpolicy?view=skype-ps) do PowerShell para criar uma política de estacionamento de chamadas.
-
-Use o cmdlet [Grant-CsTeamsCallParkPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallparkpolicy?view=skype-ps) do PowerShell para conceder uma política de estacionamento de chamadas.
-
-Você pode alterar a configuração padrão usando [set-CsTeamsCallParkPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallparkpolicy?view=skype-ps) da seguinte maneira:
-
-`Set-CsTeamsCallParkPolicy -Identity Global -AllowCallPark $true`
-
+Consulte também [Grant-CsTeamsCallParkPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallparkpolicy?view=skype-ps).
 
 ## <a name="troubleshooting"></a>Solução de problemas
 
@@ -105,6 +107,8 @@ Se um usuário tentar recuperar uma chamada e não tiver êxito, verifique o seg
 - Modo ilha – o parque de chamadas e a recuperação não está disponível no modo da ilha Teams.
 - A chamada já foi recuperada ou terminada.
 
-## <a name="more-information"></a>Mais informações
+## <a name="related-topics"></a>Tópicos relacionados
 
-[Estacionar uma chamada no Teams](https://support.office.com/article/park-a-call-in-teams-8538c063-d676-4e9a-8045-fc3b7299bb2f).
+[Estacionar uma chamada no Teams](https://support.office.com/article/park-a-call-in-teams-8538c063-d676-4e9a-8045-fc3b7299bb2f)
+
+[Atribuir políticas a seus usuários no Teams](assign-policies.md)

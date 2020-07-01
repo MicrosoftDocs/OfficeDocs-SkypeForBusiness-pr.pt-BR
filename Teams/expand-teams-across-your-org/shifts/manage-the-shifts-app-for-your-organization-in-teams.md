@@ -2,7 +2,7 @@
 title: Gerenciar o aplicativo turnos para a sua organização
 author: LanaChin
 ms.author: v-lanac
-ms.reviewer: lisawu
+ms.reviewer: lisawu,gumariam
 manager: serdars
 ms.topic: article
 audience: admin
@@ -18,17 +18,17 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: c2ca24f2176547f83efb6bdce591ac71d516dca9
-ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
+ms.openlocfilehash: ecc64c105bb9171942dfac912ccea4f2fa1442aa
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "44416881"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938350"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Gerencie o aplicativo Turnos para sua organização no Microsoft Teams
 
 > [!IMPORTANT]
-> A partir de 30 de junho de 2020, o Microsoft StaffHub será desativado. Estamos criando recursos de StaffHub no Microsoft Teams. Hoje, o Teams inclui o aplicativo turnos para gerenciamento de agendamento e recursos adicionais se acumularão ao longo do tempo. O StaffHub deixará de funcionar para todos os usuários em 30 de junho de 2020. Qualquer pessoa que tentar abrir o StaffHub será exibida uma mensagem direcionando-o para o download do teams. Para saber mais, confira [Microsoft StaffHub para ser desativado](microsoft-staffhub-to-be-retired.md).  
+> A partir de 30 de junho de 2020, o Microsoft StaffHub foi desativado. Estamos criando recursos de StaffHub no Microsoft Teams. Hoje, o Teams inclui o aplicativo turnos para gerenciamento de agendamento e recursos adicionais se acumularão ao longo do tempo. StaffHub parou de funcionar para todos os usuários em 30 de junho de 2020. Qualquer pessoa que tentar abrir o StaffHub será exibida uma mensagem direcionando-o para o download do teams. Para saber mais, confira [o Microsoft StaffHub foi desativado](microsoft-staffhub-to-be-retired.md).  
 
 ## <a name="overview-of-shifts"></a>Visão geral de turnos
 
@@ -65,7 +65,7 @@ Para permitir ou bloquear usuários específicos em sua organização usando tur
 
 ### <a name="use-the-firstlineworker-app-setup-policy-to-pin-shifts-to-teams"></a>Usar a política de configuração do aplicativo FirstlineWorker para fixar mudanças em equipes
 
-As políticas de configuração do aplicativo permitem que você personalize o Microsoft Teams para realçar os aplicativos que são mais importantes para os usuários da sua organização. Os aplicativos definidos em uma política são fixados na barra do aplicativo na &mdash; barra do cliente da área de trabalho do Teams e na parte inferior dos clientes móveis do Teams, &mdash; nos quais os usuários podem acessá-los de forma rápida e fácil. 
+As políticas de configuração do aplicativo permitem que você personalize o Microsoft Teams para realçar os aplicativos que são mais importantes para os usuários da sua organização. Os aplicativos definidos em uma política são fixados na barra do aplicativo na &mdash; barra do cliente da área de trabalho do Teams e na parte inferior dos clientes móveis do Teams, &mdash; nos quais os usuários podem acessá-los de forma rápida e fácil.
  
 O Teams inclui uma política interna de configuração de aplicativos FirstlineWorker que você pode atribuir a trabalhos de primeiros a sua organização. Por padrão, a política inclui os aplicativos atividade, turnos, chat e chamadas. 
 
@@ -73,50 +73,9 @@ Para exibir a política FirstlineWorker, no painel de navegação esquerdo do ce
 
 ![Captura de tela da política de configuração do aplicativo FirstlineWorker](../../media/firstline-worker-app-setup-policy.png "Captura de tela da política de configuração do aplicativo FirstlineWorker no centro de administração do Microsoft Teams")
 
-#### <a name="assign-the-firstlineworker-policy-to-users"></a>Atribuir a política FirstlineWorker aos usuários
+#### <a name="assign-the-firstlineworker-app-setup-policy-to-users"></a>Atribuir a política de configuração do aplicativo FirstlineWorker aos usuários
 
-Para atribuir a política de configuração do aplicativo FirstlineWorker a um usuário:
-
-1. Na barra de navegação à esquerda do centro de administração do Microsoft Teams, vá para **Usuários** e clique no usuário.
-2. Selecione o usuário clicando à esquerda do nome de exibição do usuário e clique em **Editar configurações**.
-3. Em **política de configuração do aplicativo**, selecione **FirstlineWorker**e, em seguida, clique em **aplicar**.
-
-Para atribuir uma política a vários usuários por vez:
-
-1. Na barra de navegação à esquerda do centro de administração do Microsoft Teams, vá para **Usuários** e, em seguida, pesquise os usuários ou filtre o modo de exibição para mostrar os usuários que você deseja.
-2. Na coluna **&#x2713;** (marca de seleção), selecione os usuários. Para selecionar todos os usuários, clique na (marca de seleção) &#x2713; na parte superior da tabela.
-3. Clique em **Editar configurações**, em **política de configuração do aplicativo**, selecione **FirstlineWorker**e, em seguida, clique em **aplicar**.  
-
-Ou, você também pode fazer o seguinte:
-
-1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para políticas de configuração de **aplicativos do teams**  >  **Setup policies**.
-2. Selecione a política FirstlineWorker, clicando à esquerda do nome da política.
-3. Escolha **Gerenciar usuários**.
-4. No painel **Gerenciar usuários**, procure o usuário pelo nome de exibição ou pelo nome de usuário, escolha o nome e marque **Adicionar**. Repita esta etapa para cada usuário que você deseja adicionar.
-5. Após terminar de adicionar usuários, selecione **aplicar**.
-
-#### <a name="assign-the-firstlineworker-app-setup-policy-to-user-members-of-a-group"></a>Atribuir a política de configuração do aplicativo FirstlineWorker a membros do grupo de usuários
-
-Você pode atribuir a política de configuração do aplicativo FirstlineWorker a membros do grupo, como um grupo de segurança, conectando-se ao módulo do PowerShell do Azure Active Directory e ao módulo do PowerShell do Skype for Business. Para obter mais informações sobre como usar o PowerShell para gerenciar o Microsoft Teams, consulte [visão geral do teams PowerShell](../../teams-powershell-overview.md).
-
-Neste exemplo, atribuímos a política de configuração do aplicativo FirstlineWorker a todos os membros do grupo de equipe do contoso First.
-
-> [!NOTE]
-> Verifique se você se conectou primeiro ao módulo do PowerShell do Azure Active Directory e do módulo do PowerShell do Skype for Business seguindo as etapas em [conectar a todos os serviços do Office 365 em uma única janela do Windows PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window).
-
-Obtenha o GroupObjectId do grupo específico.
-```PowerShell
-$group = Get-AzureADGroup -SearchString "Contoso Firstline Team"
-```
-Obter os membros do grupo especificado.
-```PowerShell
-$members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
-```
-Atribua a política de configuração do aplicativo FirstlineWorker a todos os membros de usuário do grupo.
-```PowerShell
-$members | ForEach-Object {Grant-CsTeamsAppSetupPolicy -PolicyName "FirstlineWorker" -Identity $_.EmailAddress}
-``` 
-Dependendo do número de membros do grupo, esse comando pode levar alguns minutos para ser executado.
+[!INCLUDE [assign-policy](../../includes/assign-policy.md)]
 
 ## <a name="search-the-audit-log-for-shifts-events"></a>Pesquisar eventos Shift do log de auditoria
 

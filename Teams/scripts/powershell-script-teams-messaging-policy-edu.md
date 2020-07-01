@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 748167dc8e03b53fc07611df0ff464d984fb5678
-ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
+ms.openlocfilehash: c1df183046dc2378081382e2a8b46c9b3b92c80a
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43951056"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938190"
 ---
 # <a name="powershell-script-sample---create-and-assign-a-messaging-policy"></a>Exemplo de script do PowerShell, criar e atribuir uma política de mensagens
 
@@ -62,4 +62,4 @@ $dataSetFilePath = "<csv file with user ids for newly provisioned students> "
 ```
 
 > [!NOTE]
-> Você também pode usar a atribuição de política de lote para atribuir uma política de mensagens a grandes conjuntos de usuários. Para obter mais informações, consulte [atribuir políticas a grandes conjuntos de usuários na sua escola](../batch-policy-assignment-edu.md) e [atribuir políticas a seus usuários no Microsoft Teams](../assign-policies.md).
+> Você também pode atribuir uma política de mensagens diretamente aos usuários em escala por meio de uma atribuição de política em lotes ou a um grupo do qual os usuários são membros. Para obter mais informações, consulte [atribuir políticas a grandes conjuntos de usuários na sua escola](../batch-policy-assignment-edu.md) e [atribuir políticas a seus usuários no Microsoft Teams](../assign-policies.md).

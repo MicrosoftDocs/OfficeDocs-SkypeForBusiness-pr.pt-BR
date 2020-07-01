@@ -17,12 +17,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Saiba como usar e gerenciar políticas de roteamento de chamadas de emergência no Microsoft Teams para configurar números de emergência e especificar como as chamadas de emergência são roteadas.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b200f5a160e7b13a9412d588f3342eeb5a08ccd8
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 35595d8c3b784b908448eae72013cb8bcf3f37f7
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44638690"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938160"
 ---
 # <a name="manage-emergency-call-routing-policies-in-microsoft-teams"></a>Gerenciar políticas de roteamento de chamadas de emergência no Microsoft Teams
 
@@ -74,56 +74,9 @@ Consulte [set-CsTeamsEmergencyCallRoutingPolicy](https://docs.microsoft.com/powe
 
 ## <a name="assign-a-custom-emergency-call-routing-policy-to-users"></a>Atribuir uma política de roteamento de chamada de emergência personalizada aos usuários
 
-### <a name="using-the-microsoft-teams-admin-center"></a>Usando o centro de administração do Microsoft Teams
+[!INCLUDE [assign-policy](includes/assign-policy.md)]
 
-Para atribuir uma política a um usuário:
-
-1. Na barra de navegação à esquerda do centro de administração do Microsoft Teams, vá para **Usuários** e clique no usuário.
-2. Clique em **políticas**e, em seguida, ao lado de **políticas atribuídas**, clique em **Editar**.
-3. Em **política de roteamento de chamada de emergência**, selecione a política que você deseja atribuir e clique em **salvar**.
-
-Para atribuir uma política a vários usuários por vez:
-
-1. Na barra de navegação à esquerda do centro de administração do Microsoft Teams, vá para **Usuários** e, em seguida, pesquise os usuários ou filtre o modo de exibição para mostrar os usuários que você deseja.
-2. Na coluna **&#x2713;** (marca de seleção), selecione os usuários. Para selecionar todos os usuários, clique na (marca de seleção) &#x2713; na parte superior da tabela.
-3. Clique em **Editar configurações**, faça as alterações desejadas e, em seguida, clique em **Aplicar**.  
-
-Ou, você também pode fazer o seguinte:
-
-1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para políticas de emergência de **voz**  >  **Emergency policies**e clique na guia **políticas de roteamento de chamadas** .
-2. Escolha a política clicando à esquerda do nome da política.
-3. Escolha **Gerenciar usuários**.
-4. No painel **Gerenciar usuários**, procure o usuário pelo nome de exibição ou pelo nome de usuário, escolha o nome e marque **Adicionar**. Repita esta etapa para cada usuário que você deseja adicionar.
-5. Quando tiver terminado de adicionar usuários, clique em **salvar**.
-
-### <a name="using-powershell"></a>Usando o PowerShell
-
-#### <a name="assign-a-custom-emergency-call-routing-policy-to-a-user"></a>Atribuir uma política de roteamento de chamada de emergência personalizada a um usuário
-
-Veja [Grant-CsTeamsEmergencyCallRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsemergencycallroutingpolicy).
-
-### <a name="assign-a-custom-emergency-call-routing-policy-to-users-in-a-group"></a>Atribuir uma política de roteamento de chamadas de emergência personalizada a usuários em um grupo
-
-Você pode querer atribuir uma política de roteamento de chamadas de emergência personalizada a vários usuários que você já tenha identificado. Por exemplo, você pode querer atribuir uma política a todos os usuários em um grupo de segurança ou distribuição. Você pode fazer isso conectando-se ao módulo do PowerShell do Azure Active Directory e ao módulo do PowerShell do Skype for Business.
-
-Neste exemplo, atribuímos uma política chamada política de roteamento de chamadas de emergência HR a todos os usuários do grupo de RH da contoso.  
-
-> [!NOTE]
-> Verifique se você se conectou primeiro ao módulo do PowerShell do Azure Active Directory e do módulo do PowerShell do Skype for Business seguindo as etapas em [conectar a todos os serviços do Microsoft 365 ou do Office 365 em uma única janela do Windows PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window).
-
-Obtenha o GroupObjectId do grupo específico.
-```PowerShell
-$group = Get-AzureADGroup -SearchString "Contoso HR"
-```
-Obter os membros do grupo especificado.
-```PowerShell
-$members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
-```
-Atribua todos os usuários do grupo a uma política específica do teams. Neste exemplo, é a política de roteamento de chamadas de emergência HR.
-```PowerShell
-$members | ForEach-Object {Grant-CsTeamsEmergencyCallRoutingPolicy -PolicyName "HR Emergency Call Routing Policy" -Identity $_.UserPrincipalName}
-``` 
-Dependendo do número de membros do grupo, esse comando pode levar alguns minutos para ser executado.
+Consulte também [Grant-CsTeamsEmergencyCallRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsemergencycallroutingpolicy).
 
 ## <a name="assign-a-custom-emergency-call-routing-policy-to-a-network-site"></a>Atribuir uma política de roteamento de chamada de emergência personalizada a um site de rede
 
@@ -137,6 +90,8 @@ Set-CsTenantNetworkSite -identity "site1" -EmergencyCallRoutingPolicy "Emergency
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-- [Gerenciar políticas de chamadas de emergência no Teams](manage-emergency-calling-policies.md)
-- [Visão Geral do PowerShell do Teams](teams-powershell-overview.md)
-- [Atribuir políticas a seus usuários no Teams](assign-policies.md)
+[Gerenciar políticas de chamadas de emergência no Teams](manage-emergency-calling-policies.md)
+
+[Visão Geral do PowerShell do Teams](teams-powershell-overview.md)
+
+[Atribuir políticas a seus usuários no Teams](assign-policies.md)

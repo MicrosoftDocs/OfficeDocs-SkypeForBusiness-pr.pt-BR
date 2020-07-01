@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba como usar e gerenciar políticas de identificação de chamadas no Microsoft Teams para alterar ou bloquear a identificação de chamadas de usuários do teams em sua organização.
-ms.openlocfilehash: 67b5abef6cdbdab9a127dd2957c2fdfefbaf2927
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 41466640f33769a64ce14d5d3dc47959c876a5bc
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691417"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938460"
 ---
 # <a name="manage-caller-id-policies-in-microsoft-teams"></a>Gerenciar políticas de identificação de chamadas no Microsoft Teams
 
@@ -33,9 +33,7 @@ Como administrador, você pode usar as políticas de identificação de chamada 
 
 Por exemplo, quando os usuários fazem uma chamada, você pode alterar a identificação de chamadas para exibir o número de telefone principal da sua organização, em vez de números de telefone dos usuários.
 
-Você gerencia as políticas de identificação de chamadas **Voice**indo para  >  **políticas de identificação de chamadas** de voz no centro de administração do Microsoft Teams. Você pode usar a política global (padrão para toda a organização) ou criar políticas personalizadas e atribuí-las aos usuários. Os usuários da sua organização terão automaticamente a política global, a menos que você crie e atribua uma política personalizada.
-
-Você pode editar a política global ou criar e atribuir uma política personalizada. Se for atribuída uma política personalizada a um usuário, essa política se aplicará ao usuário. Se um usuário não estiver atribuído a uma política personalizada, a política global se aplicará ao usuário.
+Você gerencia as políticas de identificação de chamadas **Voice**indo para  >  **políticas de identificação de chamadas** de voz no centro de administração do Microsoft Teams. Você pode usar a política global (padrão para toda a organização) ou criar e atribuir políticas personalizadas. Os usuários da sua organização terão automaticamente a política global, a menos que você crie e atribua uma política personalizada.
 
 ## <a name="create-a-custom-caller-id-policy"></a>Criar uma política de identificação de chamadas personalizada
 
@@ -67,54 +65,10 @@ Você pode editar a política global ou qualquer política personalizada criada.
 
 ## <a name="assign-a-custom-caller-id-policy-to-users"></a>Atribuir uma política de identificação de chamadas personalizada a usuários
 
-Você pode usar o centro de administração do Microsoft Teams para atribuir uma política personalizada a um ou mais usuários ou ao módulo do PowerShell do Skype for Business para atribuir uma política personalizada a usuários em um grupo, como um grupo de segurança ou grupo de distribuição.
+[!INCLUDE [assign-policy](includes/assign-policy.md)]
 
-### <a name="assign-a-custom-caller-line-id-policy-to-users"></a>Atribuir uma política de ID de linha de chamador personalizada aos usuários
+## <a name="related-topics"></a>Tópicos relacionados
 
-Para atribuir uma política a um usuário:
+[New-CsCallingLineIdentity](https://docs.microsoft.com/powershell/module/skype/new-cscallinglineidentity?view=skype-ps)
 
-1. Na barra de navegação à esquerda do centro de administração do Microsoft Teams, vá para **Usuários** e clique no usuário.
-2. Clique em **políticas**e, em seguida, ao lado de **políticas atribuídas**, clique em **Editar**.
-3. Em **política de identificação de chamadas**, selecione a política que você deseja atribuir e, em seguida, escolha **salvar**.
-
-Para atribuir uma política a vários usuários por vez:
-
-1. Na barra de navegação à esquerda do centro de administração do Microsoft Teams, vá para **Usuários** e, em seguida, pesquise os usuários ou filtre o modo de exibição para mostrar os usuários que você deseja.
-2. Na coluna **&#x2713;** (marca de seleção), selecione os usuários. Para selecionar todos os usuários, clique na (marca de seleção) &#x2713; na parte superior da tabela.
-3. Clique em **Editar configurações**, faça as alterações desejadas e, em seguida, clique em **Aplicar**.  
-
-Ou, você também pode fazer o seguinte:
-
-1. Vá para políticas de identificação de chamadas de voz **do centro de administração do Microsoft Teams**  >  **Voice**  >  **Caller ID policies**.
-2. Escolha a política clicando à esquerda do nome da política.
-3. Escolha **Gerenciar usuários**.
-4. No painel **Gerenciar usuários**, procure o usuário pelo nome de exibição ou pelo nome de usuário, escolha o nome e marque **Adicionar**. Repita esta etapa para cada usuário que você deseja adicionar.
-5. Quando tiver terminado de adicionar usuários, selecione **salvar**.
-
-### <a name="assign-a-custom-caller-id-policy-to-users-in-a-group"></a>Atribuir uma política de identificação de chamadas personalizada a usuários em um grupo
-
-Você pode querer atribuir uma política personalizada a vários usuários que você já tenha identificado. Por exemplo, você pode querer atribuir uma política a todos os usuários de um grupo de segurança. Você pode fazer isso conectando-se ao módulo do PowerShell do Azure Active Directory e ao módulo do PowerShell do Skype for Business. Para obter mais informações sobre como usar o PowerShell para gerenciar o Microsoft Teams, consulte [visão geral do teams PowerShell](teams-powershell-overview.md).
-
-Neste exemplo, atribuímos uma política de limite de chamadas personalizada chamada política de identificação de chamadas para todos os usuários no grupo de suporte da contoso.  
-
-> [!NOTE]
-> Verifique se você se conectou primeiro ao módulo do PowerShell do Azure Active Directory e do módulo do PowerShell do Skype for Business seguindo as etapas em [conectar a todos os serviços do Microsoft 365 ou do Office 365 em uma única janela do Windows PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window).
-
-Obtenha o GroupObjectId do grupo específico.
-```PowerShell
-$group = Get-AzureADGroup -SearchString "Contoso Support"
-```
-Obter os membros do grupo especificado.
-```PowerShell
-$members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
-```
-Atribua todos os usuários do grupo a uma política específica de identificação de chamadas. Neste exemplo, ele é compatível com a política de identificação de chamadas.
-```PowerShell
-$members | ForEach-Object { Grant-CsCallingLineIdentity -PolicyName "Support Caller ID Policy" -Identity $_.UserPrincipalName}
-``` 
-Dependendo do número de membros do grupo, esse comando pode levar alguns minutos para ser executado.
-
- ## <a name="related-topics"></a>Tópicos relacionados
-
-- [New-CsCallingLineIdentity](https://docs.microsoft.com/powershell/module/skype/new-cscallinglineidentity?view=skype-ps)
-- [Atribuir políticas a seus usuários no Teams](assign-policies.md)
+[Atribuir políticas a seus usuários no Teams](assign-policies.md)

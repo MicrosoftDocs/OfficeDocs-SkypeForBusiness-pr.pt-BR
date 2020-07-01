@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: O administrador pode saber mais sobre como ativar ou desativar anúncios de entrada e de saída em uma reunião do Microsoft Teams.
-ms.openlocfilehash: 824949ea1c212f514830dfad3926444944ac099c
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: ae2e8936b3fe0dbac0ba0d6ad7bfad3ab2e322ef
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690977"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938550"
 ---
 # <a name="turn-on-or-off-entry-and-exit-announcements-for-meetings-in-microsoft-teams"></a>Ativar ou desativar anúncios de entrada e de saída para reuniões no Microsoft Teams
 
@@ -43,7 +43,7 @@ A ponte de conferência atende uma chamada feita por um usuário que discou para
 
 Você deve ser um administrador para fazer essas alterações.
 
-1. Acesse o centro de administração em  <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> .
+1. Acesse o centro de administração em  <a href="https://admin.teams.microsoft.com" target="_blank">https://admin.teams.microsoft.com</a> .
 
 2. Na navegação à esquerda, vá para **Reuniões** > **Pontes de conferência**. 
 
@@ -54,7 +54,7 @@ Você deve ser um administrador para fazer essas alterações.
 5. Em **Tipo de anúncio de entrada/saída**, selecione **Nomes ou números de telefone** ou **Tons**.
 
    > [!NOTE]
-   > Por padrão, os participantes externos não conseguem ver os números de telefone dos participantes discadas. Se você quiser manter a privacidade desses números de telefone, selecione **tons** de **tipo de anúncio de entrada/saída** (isso impede que os números sejam lidos pelo Teams).
+   > Por padrão, os participantes externos não conseguem ver os números de telefone dos participantes discadas. Se você quiser manter a privacidade desses números de telefone, selecione **Tons** para o **tipo de anúncio de entrada/saída** (isso impede que os números sejam lidos pelas equipes).
     
 6. Caso escolha **Nomes ou números de telefone**, ative ou desative **Solicitar que os chamadores gravem seu nome antes de entrar na reunião**.
     

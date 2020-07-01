@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: Saiba mais sobre números de chamada gratuita no Egito, incluindo a disponibilidade, a disponibilidade de rede com fio/linha fixa e a disponibilidade de rede móvel e restrições.
-ms.openlocfilehash: d7302220500a766fb00a6a13ffa0d96b0bbcf184
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 3ebb1bbd5a66064b6d53a26347d881df20485d5e
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140430"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938420"
 ---
 # <a name="toll-free-dialing-restrictions-in-egypt"></a>Restrições de discagem de chamada gratuita no Egito
 
@@ -38,7 +38,7 @@ ms.locfileid: "43140430"
 
 |**Detalhes**|**Descrição**|
 |:-----|:-----|
-|A chamada gratuita está disponível?  <br/> |Sim  <br/> |
+|A chamada gratuita está disponível?  <br/> |Não  <br/> |
 |Formato (s) de discagem  <br/> |0800-XXX-XXXX  <br/> |
 |Código ISO de país/região  <br/> |EG  <br/> |
 |Ilha/território abrangido  <br/> |Não aplicável  <br/> |

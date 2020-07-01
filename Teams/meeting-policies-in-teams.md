@@ -23,17 +23,17 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Saiba como gerenciar as configurações de política de reunião no Teams e usá-las para controlar os recursos disponíveis para os participantes da reunião para reuniões agendadas pelos usuários.
-ms.openlocfilehash: d14c32357101ef2fe002394046f707445b7c10a6
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 1b7c94cd8dc0f46b72cea21ae46d98ed9a974fc5
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44756912"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938300"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Gerenciar políticas de reunião no Teams
 
 ::: zone target="docs"
-As políticas de reunião são usadas para controlar os recursos disponibilizados para os participantes de reuniões programadas pelos usuários de sua organização. Depois de criar uma política e fazer suas alterações, você pode atribuir usuários à política. Você gerencia políticas de reunião no centro de administração do Microsoft Teams ou usando o [PowerShell](teams-powershell-overview.md).
+As políticas de reunião são usadas para controlar os recursos disponibilizados para os participantes de reuniões programadas pelos usuários de sua organização. Você pode usar a política global (padrão para toda a organização) que é automaticamente criada ou criada e atribuir políticas personalizadas. Você gerencia políticas de reunião no centro de administração do Microsoft Teams ou usando o [PowerShell](teams-powershell-overview.md).
 
 > [!NOTE]
 > Para obter informações sobre como usar funções para gerenciar as permissões de apresentadores e participantes da reunião, consulte [funções em uma reunião do teams](https://support.microsoft.com/en-us/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019?ui=en-us&rs=en-us&ad=us).
@@ -46,52 +46,49 @@ Você pode implementar políticas das seguintes maneiras, que afetam a experiên
 |Por usuário    |Quando você implementa uma política por usuário, somente a política por usuário se aplica para restringir determinados recursos para o organizador e/ou participantes da reunião. Por exemplo, **permitir reunir agora em canais** é uma política por usuário.     |
 |Por organização e por usuário     |Quando você implementa uma combinação de uma política por organização e por usuário, certos recursos são restritos para participantes da reunião com base em sua política e na política do organizador. Por exemplo, **permitir gravação na nuvem** é uma política por organização e por usuário. Ative essa configuração para permitir que o organizador da reunião e os participantes iniciem e parem de gravar.
 
-Por padrão, uma política chamada global (padrão para toda a organização) é criada. Por padrão, todos os usuários de sua organização recebem a política de reunião global. Você pode fazer alterações nele ou criar uma ou mais políticas personalizadas e atribuir usuários a elas. Os usuários receberão a política global, a menos que você crie e atribua uma política personalizada. Quando você cria uma política personalizada, pode permitir ou impedir que determinados recursos sejam disponibilizados para seus usuários e, em seguida, atribuí-los a um ou mais usuários que terão as configurações aplicadas a eles.
+Você pode editar as configurações na política global ou criar e atribuir uma ou mais políticas personalizadas. Os usuários receberão a política global, a menos que você crie e atribua uma política personalizada.
 
 > [!NOTE]
 > O botão detalhes da reunião estará disponível se um usuário tiver as licenças de conferência de áudio habilitadas ou o usuário for permitido para a conferência de áudio, caso contrário, os detalhes da reunião não estarão disponíveis.
 
-## <a name="change-or-create-a-meeting-policy"></a>Alterar ou criar uma política de reunião
+## <a name="create-a-custom-meeting-policy"></a>Criar uma política de reunião personalizada
 
-Para alterar ou criar uma política de reunião, acesse o centro de administração do Microsoft Teams > **Reuniões** > **Políticas de reunião**. Selecione uma política na lista ou selecione **Adicionar**. Se você estiver criando uma nova política, adicione um nome e uma descrição. O nome não pode conter caracteres especiais ou ter mais de 64 caracteres. Escolha as configurações e, em seguida, selecione **salvar**.
+1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para políticas de reunião de **reuniões**  >  **Meeting policies**.
+2. Clique em **Adicionar**.
+3. Insira um nome e uma descrição para a política. O nome não pode conter caracteres especiais ou ter mais de 64 caracteres.
+4. Escolha as configurações desejadas.
+5. Clique em **Salvar**.
 
 Por exemplo, digamos que você tenha um grupo de usuários e queira limitar a quantidade de largura de banda que a reunião exigiria. Você criaria uma nova política personalizada chamada "Largura de banda limitada" e desativaria as seguintes configurações:
 
 Em **Áudio e vídeo**:
+
 - Desative a opção Permitir gravação na nuvem.
 - Desative a opção Permitir vídeo IP.
 
 Em **Compartilhamento de conteúdo**:
+
 - Desative o modo de compartilhamento de tela.
 - Desative a opção Permitir quadro de comunicações.
 - Desative a opção Permitir anotações compartilhadas.
 
 Em seguida, atribua a política aos usuários.
 
+## <a name="edit-a-meeting-policy"></a>Editar uma política de reunião
+
+Você pode editar a política global em qualquer política personalizada que criar. 
+
+1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para políticas de reunião de **reuniões**  >  **Meeting policies**.
+2. Selecione a política clicando à esquerda do nome da política e, em seguida, clique em **Editar**.
+3. Aqui, faça as alterações desejadas.
+4. Clique em **Salvar**.
+
 > [!NOTE]
 > Somente uma política de reunião pode ser atribuída a um usuário de cada vez.
 
 ## <a name="assign-a-meeting-policy-to-users"></a>Atribuir uma política de reunião aos usuários
 
-Para atribuir uma política de reunião a um usuário:
-
-1. Na barra de navegação à esquerda do centro de administração do Microsoft Teams, vá para **Usuários** e clique no usuário.
-2. Selecione o usuário clicando à esquerda do nome de exibição do usuário e clique em **Editar configurações**.
-3. Em **Política de reunião**, selecione a política que você deseja atribuir e clique em **Aplicar**.
-
-Para atribuir uma política a vários usuários por vez:
-
-1. Na barra de navegação à esquerda do centro de administração do Microsoft Teams, vá para **Usuários** e, em seguida, pesquise os usuários ou filtre o modo de exibição para mostrar os usuários que você deseja.
-2. Na coluna **&#x2713;** (marca de seleção), selecione os usuários. Para selecionar todos os usuários, clique na (marca de seleção) &#x2713; na parte superior da tabela.
-3. Clique em **Editar configurações**, faça as alterações desejadas e, em seguida, clique em **Aplicar**.  
-
-Ou, você também pode fazer o seguinte:
-
-1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para políticas de reunião de **reuniões**  >  **Meeting policies**.
-2. Escolha a política clicando à esquerda do nome da política.
-3. Escolha **Gerenciar usuários**.
-4. No painel **Gerenciar usuários**, procure o usuário pelo nome de exibição ou pelo nome de usuário, escolha o nome e marque **Adicionar**. Repita esta etapa para cada usuário que você deseja adicionar.
-5. Após terminar de adicionar usuários, selecione **salvar**.
+[!INCLUDE [assign-policy](includes/assign-policy.md)]
 
 > [!NOTE]
 > Você não pode excluir uma política se usuários estiverem atribuídos a ela. Primeiro, você deve atribuir uma política diferente a todos os usuários afetados. em seguida, é possível excluir a política original.

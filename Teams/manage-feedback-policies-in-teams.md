@@ -17,12 +17,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba como usar políticas de comentários para controlar se os usuários de equipes em sua organização podem enviar comentários sobre o Teams para a Microsoft.
-ms.openlocfilehash: 22e254cb2db6dc63e01c9c8ef5628fb97cfa0e16
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: b489e574a1d1c2a2b1ac5faf69626e997dbbfaa9
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637950"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938480"
 ---
 # <a name="manage-feedback-policies-in-microsoft-teams"></a>Gerenciar políticas de comentários no Microsoft Teams
 
@@ -46,11 +46,11 @@ Os usuários também podem classificar sua experiência com o Microsoft Teams e 
 
 Como administrador, você pode controlar se os usuários em sua organização podem enviar comentários sobre o Teams para a Microsoft por meio de **comentários** e se eles recebem a pesquisa. Por padrão, todos os usuários de sua organização recebem automaticamente a atribuição da política global (padrão da organização), e o recurso **fornecer comentários** e a pesquisa são habilitados na política. A exceção é o Teams for Education, em que os recursos são habilitados para professores e desabilitado para estudantes.
 
-Você pode editar a política global ou criar e atribuir uma política personalizada. Se for atribuída uma política personalizada a um usuário, essa política se aplicará ao usuário. Se um usuário não estiver atribuído a uma política personalizada, a política global se aplicará ao usuário. Depois de editar a política global ou atribuir uma política, pode demorar algumas horas para que as alterações entrem em vigor.
+Você pode editar a política global ou criar e atribuir uma política personalizada. Depois de editar a política global ou atribuir uma política personalizada, pode demorar algumas horas para que as alterações entrem em vigor.
 
 Digamos, por exemplo, permitir que todos os usuários em sua organização enviem comentários por meio de **comentários** e recebam pesquisas, exceto para novas contratações no treinamento. Nesse cenário, você cria uma política personalizada para desativar os dois recursos e atribuí-lo a novas contratações. Todos os outros usuários da sua organização obtêm a política global com os recursos ativados.  
 
-Use o cmdlet **New-CsTeamsFeedbackPolicy** , *que pode ser [encontrado aqui](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)*, para criar uma política personalizada e o cmdlet **Grant-CsTeamsFeedbackPolicy** para atribuí-lo a um ou mais usuários ou grupos de usuários, como um grupo de segurança ou grupo de distribuição.
+Você gerencia políticas de comentários usando o PowerShell. Use o cmdlet **New-CsTeamsFeedbackPolicy** , *que pode ser [encontrado aqui](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)*, para criar uma política personalizada e o cmdlet **Grant-CsTeamsFeedbackPolicy** para atribuí-lo a um ou mais usuários ou grupos de usuários, como um grupo de segurança ou grupo de distribuição.
 
 Para desativar e ativar os recursos, defina os seguintes parâmetros:
 
@@ -65,35 +65,17 @@ Neste exemplo, criamos uma política de comentários chamada nova política de f
 New-CsTeamsFeedbackPolicy -identity "New Hire Feedback Policy" -userInitiatedMode disabled -receiveSurveysMode disabled
 ```
 
-## <a name="assign-a-custom-feedback-policy"></a>Atribuir uma política de comentários personalizada
+## <a name="assign-a-custom-feedback-policy-to-users"></a>Atribuir uma política de comentários personalizada aos usuários
 
-### <a name="assign-a-custom-feedback-policy-to-a-user"></a>Atribuir uma política de comentários personalizada a um usuário
+[!INCLUDE [assign-policy](includes/assign-policy.md)]
 
 Neste exemplo, atribuímos uma política personalizada chamada nova política de feedback de contratação a um usuário chamado Usuário1.
 
 ```PowerShell
 Grant-CsTeamsFeedbackPolicy -Identity user1@contoso.com -PolicyName "New Hire Feedback Policy"
 ```
-### <a name="assign-a-custom-feedback-policy-to-users-in-a-group"></a>Atribuir uma política de comentários personalizada aos usuários em um grupo
-
-Você pode querer atribuir uma política de comentários personalizada a vários usuários que você já tenha identificado. Por exemplo, você pode querer atribuir uma política a todos os usuários de um grupo de segurança.
-
-Neste exemplo, atribuímos uma política de comentários personalizada chamada nova política de feedback de contratação a todos os usuários no novo grupo contoso contratações.  
-
-Obtenha o GroupObjectId do grupo específico.
-```PowerShell
-$group = Get-AzureADGroup -SearchString "Contoso New Hires"
-```
-Obter os membros do grupo especificado.
-```PowerShell
-$members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
-```
-Atribua todos os usuários do grupo a uma política de comentários específica. Neste exemplo, a nova política de feedback para contratação.
-```PowerShell
-$members | ForEach-Object {Grant-CsTeamsFeedbackPolicy -PolicyName "New Hire Feedback Policy" -Identity $_.UserPrincipalName}
-``` 
-Dependendo do número de membros do grupo, esse comando pode levar alguns minutos para ser executado.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
 - [Visão Geral do PowerShell do Teams](teams-powershell-overview.md)
+- [Atribuir políticas a seus usuários no Teams](assign-policies.md)

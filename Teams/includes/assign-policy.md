@@ -1,0 +1,3 @@
+Você pode atribuir uma política diretamente aos usuários, individualmente ou em escalabilidade por meio de uma atribuição de lote (se houver suporte para o tipo de política) ou a um grupo do qual os usuários sejam membros (se houver suporte para o tipo de política). 
+
+Para saber mais sobre as diferentes maneiras pelas quais você pode atribuir políticas aos usuários, consulte [atribuir políticas a seus usuários no Teams](../assign-policies.md).

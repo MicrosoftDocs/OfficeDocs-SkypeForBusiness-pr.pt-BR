@@ -17,12 +17,12 @@ description: Saiba como usar o relatório de uso do aplicativo Teams no centro d
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1a5d5c1bdb5b5bbe58ecdb90721ce24bd0081a65
-ms.sourcegitcommit: a73df97a06ea860bfaf5387e0acbf3c724697e14
+ms.openlocfilehash: 565a3cb28b73a37162947859effc6ec154b59258
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "44902297"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938200"
 ---
 # <a name="microsoft-teams-app-usage-report"></a>Relatório de uso do aplicativo Microsoft Teams
 
@@ -30,7 +30,7 @@ O relatório de uso do aplicativo Teams no centro de administração do Microsof
 
 ## <a name="view-the-app-usage-report"></a>Exibir o relatório de uso do aplicativo
 
-1.  Na navegação à esquerda do centro de administração <https://teams.admin.microsoft.com> , clique em relatórios de **análise & relatórios** de \> **uso**. Na guia **exibir relatórios** , em **relatório**, selecione **uso do aplicativo**.
+1.  Na navegação à esquerda do centro de administração <https://admin.teams.microsoft.com> , clique em relatórios de **análise & relatórios** de \> **uso**. Na guia **exibir relatórios** , em **relatório**, selecione **uso do aplicativo**.
 
      :::image type="content" source="media/app-usage-report1.png" alt-text="Captura de tela do item de menu relatórios de uso":::
 
