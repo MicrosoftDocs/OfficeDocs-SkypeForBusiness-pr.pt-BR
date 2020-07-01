@@ -12,12 +12,12 @@ ms:contentKeyID: 49733758
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e6a10e2fb6d8e17352eb8a96be57b24e706fc5d5
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 1528ef6124193023a0e5938caac7b40c2c6187a2
+ms.sourcegitcommit: 9b1c138b39fd87e239a7b1c5051f30c633e7d813
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42134387"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "44943924"
 ---
 # <a name="assign-a-per-user-voice-policy-in-lync-server-2013"></a>Atribuir uma política de voz por usuário no Lync Server 2013
 
@@ -40,29 +40,29 @@ As políticas de voz globais e no nível do site são atribuídas automaticament
     
 
     > [!NOTE]  
-    > As <STRONG> &lt;configurações&gt; automáticas</STRONG> aplicam as configurações de política global ou de servidor padrão.
+    > As configurações <STRONG> &lt; automáticas &gt; </STRONG> aplicam as configurações de política global ou de servidor padrão.
 
 
 
-## <a name="assigning-a-per-user-voice-policy-by-using-windows-powershell-cmdlets"></a>Atribuindo uma política de voz por usuário usando cmdlets do Windows PowerShell
+## <a name="assign-per-user-voice-policies"></a>Atribuir políticas de voz por usuário
 
-Você pode atribuir políticas de voz por usuário usando o Windows PowerShell e o cmdlet **Grant-CsVoicePolicy** . Você pode executar esse cmdlet do Shell de gerenciamento do Lync Server 2013 ou de uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Lync Server, consulte o artigo de blog do Lync Server Windows PowerShell "início rápido: Managing Microsoft Lync Server [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)2010 using Remote PowerShell" em.
+Você pode atribuir políticas de voz por usuário usando o Windows PowerShell e o cmdlet **Grant-CsVoicePolicy** . Você pode executar esse cmdlet do Shell de gerenciamento do Lync Server 2013 ou de uma sessão remota do Windows PowerShell. Para saber mais sobre como usar o Windows PowerShell remoto para se conectar ao Lync Server, leia esta postagem de blog do Lync Server Windows PowerShell: [início rápido: Gerenciando o Microsoft Lync server 2010 usando o PowerShell remoto](https://go.microsoft.com/fwlink/p/?linkId=255876).
 
-## <a name="to-assign-a-per-user-voice-policy-to-a-single-user"></a>Para atribuir uma política de voz por usuário a um único usuário
+### <a name="assign-a-per-user-voice-policy-to-a-single-user"></a>Atribuir uma política de voz por usuário a um único usuário
 
   - O comando a seguir atribui a política de voz por usuário RedmondVoicePolicy ao usuário Ken Myer.
     
         Grant-CsVoicePolicy -Identity "Ken Myer" -PolicyName "RedmondVoicePolicy"
 
-## <a name="to-assign-a-per-user-voice-policy-to-multiple-users"></a>Para atribuir uma política de voz por usuário a vários usuários
+## <a name="assign-a-per-user-voice-policy-to-multiple-users"></a>Atribuir uma política de voz por usuário a vários usuários
 
   - Esse comando atribui a política de voz por usuário FinanceVoicePolicy a todos os usuários que tenham contas no OU de finanças no Active Directory. Para obter mais informações sobre o parâmetro OU usado neste comando, consulte a documentação do cmdlet [Get-CsUser](https://technet.microsoft.com/library/gg398125\(v=ocs.15\)) .
     
         Get-CsUser -OU "ou=Finance,ou=North America,dc=litwareinc,dc=com" | Grant-CsVoicePolicy -PolicyName "FinanceVoicePolicy"
 
-## <a name="to-unassign-a-per-user-voice-policy"></a>Para cancelar a atribuição de uma política de voz por usuário
+## <a name="unassign-a-per-user-voice-policy"></a>Cancelar a atribuição de uma política de voz por usuário
 
-  - O comando a seguir desatribui a política de voz por usuário anteriormente atribuída a Ken Myer. Depois que a política de voz por usuário é desatribuida, Ken Myer será automaticamente gerenciado usando uma política global ou, se existir, a política do seu site local. A política de site tem precedência sobre a política global.
+  - The following command unassigns any per-user voice policy previously assigned to Ken Myer. After the per-user policy is unassigned, Ken Myer will automatically be managed by using the global policy or, if one exists, his local site policy. A site policy takes precedence over the global policy.
     
         Grant-CsVoicePolicy -Identity "Ken Myer" -PolicyName $Null
 

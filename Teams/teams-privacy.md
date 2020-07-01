@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 924aaf1ad9c9d462a454260226b3a5340f0a68e2
-ms.sourcegitcommit: 0fa50d1cf354d79fbaf16b6aaec60e8d3ab852e8
+ms.openlocfilehash: 9ea6fc3f27b5d97a2e890ec85e68a105acc44b42
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43579567"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938490"
 ---
 # <a name="privacy-and-microsoft-teams"></a>Privacidade e o Microsoft Teams
 
@@ -58,7 +58,7 @@ A Microsoft não divulgará dados pessoais, exceto:
 1. conforme descrito nos Termos de Serviço Online (como o uso de subcontratados autorizados para fornecer determinados componentes de serviços);
 1. conforme exigido por lei.
 
-Se órgãos de cumprimento da lei contatarem a Microsoft com uma solicitação, a Microsoft tentará redirecionar os órgãos de cumprimento da lei para que solicitem os dados pessoais diretamente ao cliente. Se for obrigada a divulgar dados pessoais para os órgãos de cumprimento da lei, a Microsoft notificará o cliente imediatamente e fornecerá uma cópia dos dados solicitados, a menos que seja proibida por lei. Para saber mais sobre os dados que divulgamos em resposta às solicitações de cumprimento da lei e de outros órgãos governamentais, Confira nosso [Relatório de Solicitações de Órgãos de Cumprimento da Lei](https://www.microsoft.com/about/corporate-responsibility/lerr/).
+Se órgãos de cumprimento da lei contatarem a Microsoft com uma solicitação, a Microsoft tentará redirecionar os órgãos de cumprimento da lei para que solicitem os dados pessoais diretamente ao cliente. Se for obrigada a divulgar dados pessoais para os órgãos de cumprimento da lei, a Microsoft notificará o cliente imediatamente e fornecerá uma cópia dos dados solicitados, a menos que seja proibida por lei. Para saber mais sobre os dados que divulgamos em resposta às solicitações de cumprimento da lei e de outros órgãos governamentais, Confira nosso [Relatório de Solicitações de Órgãos de Cumprimento da Lei](https://www.microsoft.com/corporate-responsibility/law-enforcement-requests-report).
 
 O [Guia de Segurança do Teams](https://docs.microsoft.com/microsoftteams/security-compliance-overview#compliance-standards) tem mais informações sobre nossos padrões de conformidade.
 
