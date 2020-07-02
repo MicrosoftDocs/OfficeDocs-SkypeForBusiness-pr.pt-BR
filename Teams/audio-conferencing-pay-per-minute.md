@@ -23,12 +23,12 @@ ms.custom:
 - Licensing
 - seo-marvel-mar2020
 description: Saiba mais sobre a opção pagar por minuto para habilitar os recursos de audioconferência para organizações que usam o licenciamento por volume da Microsoft.
-ms.openlocfilehash: 4facf6f01c08104f920c779b59f38feabb2150fc
-ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
+ms.openlocfilehash: f153c05638f26244a9f37b69018cc22428ee99f2
+ms.sourcegitcommit: 4099da7b1db7663e63ef5bece16e3090c33ea207
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "44610506"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45021739"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>Audioconferência Pagar por Minuto
 
@@ -39,7 +39,7 @@ Você pode descobrir se o seu [país/região tem suporte](country-and-region-ava
 
   
 > [!NOTE]
-> Como essa oferta só está disponível para clientes de volume e licenciamento, você precisará trabalhar com o representante da sua conta para adquirir licenças. 
+> Como essa oferta só está disponível para clientes de volume e licenciamento, você precisará trabalhar com o representante da sua conta para adquirir essas licenças. 
   
 ## <a name="need-some-details"></a>Precisa de alguns detalhes?
 
@@ -54,7 +54,7 @@ Enquanto a oferta de licença por usuário por conferência de áudio inclui o u
 > [!NOTE]
 > Você pode encontrar as tarifas discadas e de discagem associadas a esses tipos de chamadas, analisando a **seção ver tarifas para as quais deseja ligar** em [videoconferências](https://products.office.com/microsoft-teams/online-meeting-solutions#Rates).
   
-O pay-per-minute exige que a sua organização tenha [créditos de comunicações](what-are-communications-credits.md) habilitados com uma licença atribuída a cada usuário para que a videoconferência funcione. Se quiser mais detalhes, consulte [Configurar créditos de comunicações para a sua organização](set-up-communications-credits-for-your-organization.md) e/ou [Licenciamento do complemento do Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+O pay-per-minute exige que a sua organização tenha [créditos de comunicações](what-are-communications-credits.md) configurados. Também requer que uma licença de pagamento por minuto e uma licença de créditos de comunicação sejam atribuídas a cada usuário para que a conferência de áudio funcione. Se quiser mais detalhes, consulte [Configurar créditos de comunicações para a sua organização](set-up-communications-credits-for-your-organization.md) e/ou [Licenciamento do complemento do Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
 Para habilitar o pagamento por minuto da conferência de áudio para os usuários de sua organização, consulte [experimentar ou comprar videoconferências no Microsoft Office 365 ou no Office 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md).
 

@@ -16,12 +16,12 @@ description: Este artigo explica o que são barreiras de informações no Micros
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 12bd0102904ff933b5a2ffd6f12d8a8d3b76aaaa
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 7ab476fa906c849e2c5af59546c3cca482be461a
+ms.sourcegitcommit: 4099da7b1db7663e63ef5bece16e3090c33ea207
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868688"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45021780"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Barreiras de informação no Microsoft Teams
 
@@ -92,7 +92,16 @@ As políticas de barreira de informações são ativadas quando ocorrem os segui
 
     ![Captura de tela mostrando usuário bloqueado da reunião](media/information-barriers-meeting.png)
 
-- **Uma tela é compartilhada entre dois ou mais usuários** -a qualquer momento em que uma tela é compartilhada entre dois ou mais usuários, o compartilhamento de tela deve ser avaliado para garantir que ele não viole as políticas de barreira de informações de outros usuários. Se uma política de barreira de informações for violada, o compartilhamento de tela não será permitido.
+- **Uma tela é compartilhada entre dois ou mais usuários** -a qualquer momento em que uma tela é compartilhada entre dois ou mais usuários, o compartilhamento de tela deve ser avaliado para garantir que ele não viole as políticas de barreira de informações de outros usuários. Se uma política de barreira de informações for violada, o compartilhamento de tela não será permitido. 
+ 
+    Aqui está um exemplo de compartilhamento de tela antes da aplicação da política. 
+
+    ![Captura de tela mostrando um chat de usuário](media/ib-before-screen-share-policy.png)
+
+    Aqui está um exemplo de compartilhamento de tela após a aplicação da política. Os ícones de compartilhamento de tela e chamada não estão visíveis.
+
+    ![Captura de tela mostrando o caractere do usuário com configurações bloqueadas](media/ib-after-screen-share-policy.png)
+
 - **Um usuário insere uma chamada telefônica (VoIP) no Teams** -sempre que uma chamada de voz é iniciada por um usuário para outro usuário ou grupo de usuários, a chamada é avaliada para garantir que ela não viole as políticas de barreira de informações de outros membros da equipe. Se houver alguma violação, a chamada de voz será bloqueada.
 - **Usuários convidados em equipes** – as políticas de barreira de informações se aplicam também a usuários convidados no Microsoft Teams. Se os usuários convidados precisarem ser detectáveis na lista de endereços global da sua organização, consulte [gerenciar o acesso de convidados nos grupos do Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-guest-access-in-groups). Depois que os usuários convidados são detectáveis, você pode [definir políticas de barreira de informações](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies).
 
@@ -100,9 +109,17 @@ As políticas de barreira de informações são ativadas quando ocorrem os segui
 
 Quando o administrador de política de barreira de informações faz alterações em uma política ou uma alteração de política entra em vigor devido a uma alteração no perfil de um usuário (por exemplo, para uma alteração de trabalho ou um motivo semelhante), o serviço de avaliação da política de barreira de informações pesquisa automaticamente os membros para garantir que os membros da equipe não estejam violando nenhuma política.
 
-Se houver um chat existente ou outras comunicações entre usuários e uma nova política for definida ou uma política existente for alterada, o serviço avaliará as comunicações existentes para garantir que as comunicações ainda sejam permitidas.
+Se houver um chat existente ou outras comunicações entre usuários e uma nova política for definida ou uma política existente for alterada, o serviço avaliará as comunicações existentes para garantir que as comunicações ainda sejam permitidas. 
 
-- **1:1 chat** -se a comunicação entre os dois usuários não for mais permitida (se uma comunicação de bloqueio de política for aplicada a um ou aos dois usuários), a comunicação adicional será bloqueada e a conversa de chat se tornará somente leitura.
+- **1:1 chat** -se a comunicação entre os dois usuários não for mais permitida (se uma comunicação de bloqueio de política for aplicada a um ou aos dois usuários), a comunicação adicional será bloqueada e a conversa de chat se tornará somente leitura. 
+
+    Aqui está um exemplo que mostra que o chat está visível.
+
+    ![A captura de tela mostrando o chat do usuário está disponível](media/ib-before-1-1chat-policy.png)
+
+    Aqui está um exemplo que mostra que o chat está desabilitado.
+
+    ![A captura de tela mostrando o chat do usuário está desabilitada](media/ib-after-1-1chat-policy.png)
 
 - **Chat em grupo** -se a comunicação de um usuário para o grupo não for mais permitida (por exemplo, se um usuário alterar trabalhos), o usuário juntamente com os outros usuários que violam a política poderá ser removido do chat em grupo e outras comunicações com o grupo não serão permitidas. O usuário ainda pode ver conversas antigas (que serão somente leitura), mas não poderá ver ou participar de nenhuma nova conversa com o grupo. Se a política nova ou alterada que impede a comunicação for aplicada a mais de um usuário, os usuários afetados pela política poderão ser removidos do chat em grupo. Eles ainda podem ver conversas antigas.
 
@@ -126,11 +143,30 @@ No momento, os usuários perceberão o seguinte se uma política de barreira de 
     ![Captura de tela mostrando o chat em grupo](media/information-barriers-people-picker.png)
     
 - **Guia atividade** -se um usuário visitar a guia **atividade** de um usuário bloqueado, nenhuma postagem será exibida. (A guia **atividade** exibe somente Postagens de canal e não haveria canais comuns entre os dois usuários.)
+
+    Veja um exemplo do modo de exibição da guia atividade.
+
+    ![Captura de tela mostrando a guia atividade](media/ib-before-activity-tab-policy.png)
+
+    Veja um exemplo do modo de exibição da guia atividade que está bloqueado.
+
+    ![Captura de tela mostrando a guia atividade bloqueada](media/ib-after-activity-tab-policy.png)
+
+
 - **Organogramas** -se um usuário acessar um organograma no qual um usuário bloqueado é exibido, o usuário bloqueado não será exibido no organograma e uma mensagem de erro será exibida.
 - **Cartão de visita** -se um usuário participar de uma conversa e o usuário for bloqueado posteriormente, outros usuários verão uma mensagem de erro em vez do cartão de pessoas quando passarem o mouse sobre o nome do usuário bloqueado. As ações listadas no cartão (como chamada e chat) não estarão disponíveis.
 - **Contatos sugeridos** -os usuários bloqueados não aparecem na lista de contatos sugeridos (a lista de contatos inicial exibida para novos usuários).
 - **Contatos de chat** -um usuário pode ver usuários bloqueados na lista de contatos chats, mas os usuários bloqueados serão identificados e a única ação que o usuário poderá executar será excluí-los. O usuário também pode clicar neles para ver a conversa anterior.
 - **Chamadas contatos** -um usuário pode ver os usuários bloqueados na lista de contatos chamadas, mas os usuários bloqueados serão identificados e a única ação que o usuário poderá executar será excluí-los.
+
+    Aqui está um exemplo de um usuário bloqueado na lista de contatos chamadas.
+
+    ![Captura de tela mostrando o chat do usuário do usuário](media/ib-before-chat-contacts-policy.png)
+
+    Veja um exemplo do chat que está sendo desabilitado para um usuário na lista de conteúdo chamadas.
+
+    ![Captura de tela mostrando o usuário bloqueado do chat](media/ib-after-chat-contacts-policy.png)
+
 - **Migração do Skype para o Teams** -durante uma migração do Skype for Business para o Teams, todos os usuários, mesmo aqueles bloqueados por políticas de barreira de informações, serão migrados para o Teams e, em seguida, serão manipulados conforme descrito acima.
 
 ## <a name="teams-policies-and-sharepoint-sites"></a>Políticas de equipe e sites do SharePoint

@@ -18,19 +18,19 @@ description: Aprenda as diferentes maneiras de atribuir políticas a seus usuár
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: 403131fa3e7bd2b3fb2a128640ac49497394d669
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
+ms.openlocfilehash: c7522bc4bffeafeef4d194f5e4ad24ec9648a91a
+ms.sourcegitcommit: 4099da7b1db7663e63ef5bece16e3090c33ea207
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44938540"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45021749"
 ---
 # <a name="assign-policies-to-your-users-in-microsoft-teams"></a>Atribuir políticas aos usuários no Microsoft Teams
 
 > [!NOTE]
 > **Observe o seguinte sobre um dos recursos discutidos neste artigo, atribuição de política para grupos**: 
 > - A [atribuição de política a grupos usando o centro de administração do Microsoft Teams](#using-the-microsoft-teams-admin-center-3)ainda não foi lançada. Ele foi anunciado e estará disponível em breve. 
-> - [A atribuição de política a grupos usando o PowerShell](#using-powershell-3), no momento, só está disponível no modo de visualização particular. Os cmdlets do PowerShell para esse recurso estão no módulo do PowerShell para as equipes de pré-lançamento.
+> - [A atribuição de política a grupos usando o PowerShell](#using-powershell-3), no momento, só está disponível no modo de visualização particular. Os cmdlets para esse recurso estão no módulo de visualização pública do teams PowerShell.
 >
 > Para ficar por dentro do status do lançamento desse recurso, consulte o mapa do [Microsoft 365](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=61185).
 
@@ -160,7 +160,7 @@ Neste exemplo, atribuímos uma política de reunião do teams chamada política 
 Grant-CsTeamsMeetingPolicy -Identity reda@contoso.com -PolicyName "Student Meeting Policy"
 ```
 
-Para saber mais, consulte [Gerenciando políticas pelo PowerShell](teams-powershell-overview.md#managing-policies-via-powershell).
+Para saber mais, leia [gerenciar políticas pelo PowerShell](teams-powershell-managing-teams.md#manage-policies-via-powershell).
 
 ## <a name="assign-a-policy-package"></a>Atribuir um pacote de política
 
@@ -315,40 +315,14 @@ Para alterar a classificação de uma atribuição de grupo, primeiro você prec
 
 ### <a name="using-powershell"></a>Usando o PowerShell
 
-**No momento, esse recurso só está disponível no modo de visualização particular. Os cmdlets deste recurso estão no módulo PowerShell de Teams de pré-lançamento.**
+**No momento, esse recurso só está disponível no modo de visualização particular. Os cmdlets para esse recurso estão no módulo de visualização pública do teams PowerShell.**
 
 > [!NOTE]
 > Atualmente, a atribuição de política a grupos usando o PowerShell não está disponível para todos os tipos de política de equipe. Consulte [New-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/new-csgrouppolicyassignment) para obter a lista de tipos de política com suporte.
 
 #### <a name="install-and-connect-to-the-microsoft-teams-powershell-module"></a>Instalar e conectar-se ao módulo do PowerShell do Microsoft Teams
 
-Os cmdlets estão na versão de pré-lançamento do módulo do teams PowerShell. Siga estas etapas para desinstalar primeiro a versão geralmente disponível do módulo do teams PowerShell (se ele estiver instalado) e instale a versão de pré-lançamento mais recente do módulo a partir da Galeria de teste do PowerShell.
-
-Se você ainda não fez isso, execute o seguinte para registrar a Galeria de teste do PowerShell como uma fonte confiável.
-
-```powershell
-Register-PSRepository -SourceLocation https://www.poshtestgallery.com/api/v2 -Name PsTestGallery -InstallationPolicy Trusted
-```
-
-Se você tiver a versão geralmente disponível do módulo Teams PowerShell instalada, execute o seguinte para desinstalá-lo.
-
-```powershell
-Uninstall-Module MicrosoftTeams -AllVersions
-```
-
-Execute o seguinte para instalar o módulo do Microsoft Teams PowerShell mais recente da Galeria de teste do PowerShell.
-
-```powershell
-Install-Module MicrosoftTeams -Repository PSTestGallery
-```
-
-Execute o seguinte para se conectar ao Microsoft Teams e iniciar uma sessão.
-
-```powershell
-Connect-MicrosoftTeams
-```
-
-Quando for solicitado, entre usando suas credenciais de administrador.
+Esses cmdlets fazem parte do módulo de visualização pública do teams do PowerShell. Para obter orientação passo a passo, leia [instalar Teams PowerShell](teams-powershell-install.md).
 
 #### <a name="assign-a-policy-to-a-group"></a>Atribuir uma política a um grupo
 

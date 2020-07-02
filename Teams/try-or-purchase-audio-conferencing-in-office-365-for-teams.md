@@ -23,12 +23,12 @@ ms.custom:
 - ms.lync.lac.CpcGettingStarted
 - seo-marvel-mar2020
 description: 'Veja como experimentar ou comprar licenças de conferência PSTN (conferência PSTN) para o Microsoft 365 ou o Office 365 para configurar as chamadas em conferência nas quais as pessoas podem discar. '
-ms.openlocfilehash: 1a728c9e7920f1bc8387663a1db918d6e095ab01
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 8c94dac38495069f22f9729e8625bc006fb4662f
+ms.sourcegitcommit: 4099da7b1db7663e63ef5bece16e3090c33ea207
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868528"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45021859"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-microsoft-365-for-microsoft-teams"></a>Experimentar ou comprar videoconferências no Microsoft 365 para Microsoft Teams
 
@@ -72,7 +72,7 @@ Se você for um cliente de Volume e Licenciamento, pode obter licenças de Audio
 4. [Atribua licenças a usuários](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users) em sua organização que agendarão ou conduzirão reuniões.
 
     > [!NOTE]
-    > Se você tiver licenças de Audioconferência Pagar por Minuto, não precisa atribuir licenças de Créditos de Comunicação separadamente para cada usuário especificamente para uso de Audioconferência (você ainda precisará atribuí-las para outros serviços).
+    > Se você tiver licenças de audioconferência por minuto, também deverá atribuir uma licença de créditos de comunicações separadamente a cada usuário.
 
 ## <a name="step-2-set-the-audio-conferencing-provider-for-people-who-lead-or-schedule-meetings"></a>Etapa 2: Configure o provedor de serviços de audioconferência para pessoas que lideram ou agendam reuniões
 
