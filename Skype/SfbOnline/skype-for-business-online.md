@@ -1,6 +1,6 @@
 ---
 title: Administrador do Skype for Business Online
-ms.reviewer: ''
+ms.reviewer: brandber
 description: Saiba como gerenciar o Skype for Business Online em sua organização.
 services: skype-for-business-online-admin
 author: tonysmit
@@ -14,16 +14,13 @@ ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: landing-page
 ms.author: tonysmit
-f1.keywords:
-- CSH
-ms.custom:
-- ms.teamsadmincenter.dashboard.helparticle.sfboadmindocumentation
-ms.openlocfilehash: 35f66c853eb26cdd946ab08ae8ea63bdce2ca63d
-ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
+f1keywords: ms.teamsadmincenter.dashboard.helparticle.sfboadmindocumentation
+ms.openlocfilehash: 758b371594f6bf42c8600028f7801627ca7d0999
+ms.sourcegitcommit: 9b1c138b39fd87e239a7b1c5051f30c633e7d813
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "44205343"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "44943934"
 ---
 # <a name="skype-for-business-online-admin"></a>Administrador do Skype for Business Online
 
@@ -159,6 +156,7 @@ Saiba como gerenciar o Skype for Business Online em sua organização.
                         <h3>Novos recursos</h3>
                         <p><a href="/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-canada">Planos de Chamadas no Canadá (disponibilidade geral)</a></p>
                         <p><a href="/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia">Planos de Chamadas na Austrália (somente versão prévia)</a></p>
+                        <p><a href="/MicrosoftTeams/teams-powershell-overview.md">Integração do conector do Skype for Business online com o Teams PowerShell (apenas para visualização)</a></p>
                     </div>
                 </div>
             </div>
@@ -193,7 +191,7 @@ Saiba como gerenciar o Skype for Business Online em sua organização.
                 <div class="card">
                     <div class="cardText">
                         <h3>Audioconferência</h3>
-                        <p><a href="/MicrosoftTeams/audio-conferencing-common-questions">Audioconferência</a></p><p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-my-organization">Gerenciar as configurações de audioconferência em minha organização</a></p><p><a href="/MicrosoftTeams/audio-conferencing-common-questions">Perguntas comuns sobre a Audioconferência</a></p><p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/compare-audio-conferencing-providers">Comparar os provedores de audioconferência</a></p><p><a href="/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans">Veja se a Audioconferência está disponível em seu país/região</a></p>
+                        <p><a href="/MicrosoftTeams/audio-conferencing-common-questions">Audioconferência no Office 365</a></p><p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-my-organization">Gerenciar as configurações de audioconferência em minha organização</a></p><p><a href="/MicrosoftTeams/audio-conferencing-common-questions">Perguntas comuns sobre a Audioconferência</a></p><p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/compare-audio-conferencing-providers">Comparar os provedores de audioconferência</a></p><p><a href="/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans">Veja se a Audioconferência está disponível em seu país/região</a></p>
                     </div>
                 </div>
             </div>
@@ -229,7 +227,7 @@ Saiba como gerenciar o Skype for Business Online em sua organização.
                 <div class="card">
                     <div class="cardText">
                         <h3>Planos de Chamadas</h3>
-                        <p><a href="/MicrosoftTeams/calling-plan-landing-page">O que são os planos de chamada?</a></p><p><a href="/MicrosoftTeams/set-up-calling-plans">Configurar Planos de Chamadas</a></p><p><a href="/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans">Veja se os Planos de Chamadas estão disponíveis em seu país/região</a></p>
+                        <p><a href="/MicrosoftTeams/calling-plan-landing-page">O que são Planos de Chamadas no Office 365?</a></p><p><a href="/MicrosoftTeams/set-up-calling-plans">Configurar Planos de Chamadas</a></p><p><a href="/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans">Veja se os Planos de Chamadas estão disponíveis em seu país/região</a></p>
                     </div>
                 </div>
             </div>
@@ -241,7 +239,7 @@ Saiba como gerenciar o Skype for Business Online em sua organização.
                 <div class="card">
                     <div class="cardText">
                         <h3>Sistema Telefônico</h3>
-                        <p><a href="/MicrosoftTeams/what-is-phone-system-in-office-365">O que é o sistema de telefonia?</a></p><p><a href="/MicrosoftTeams/here-s-what-you-get-with-phone-system">Aqui&#39;s o que você obtém com o sistema telefônico</a></p>
+                        <p><a href="/MicrosoftTeams/what-is-phone-system-in-office-365">O que é o Sistema de Telefonia no Office 365?</a></p><p><a href="/MicrosoftTeams/here-s-what-you-get-with-phone-system">Veja aqui o que você obtém com o Sistema de Telefonia no Office 365</a></p>
                </div>
                 </div>
             </div>
