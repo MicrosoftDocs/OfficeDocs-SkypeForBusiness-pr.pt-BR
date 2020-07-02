@@ -17,12 +17,12 @@ appliesto:
 ms.reviewer: lavenkat
 description: Use os modelos predefinidos do Microsoft Teams para criar com rapidez e facilidade empresas para empresas de pequeno e médio porte.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 0d88ee5ea6a584a4b064b1ba12dd6d6ef72f2f25
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 1de5e0459168c7586f0b8e18a33153ca1519853a
+ms.sourcegitcommit: 9b1c138b39fd87e239a7b1c5051f30c633e7d813
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44757052"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "44944024"
 ---
 # <a name="get-started-with-teams-templates-for-small-and-medium-businesses"></a>Comece a usar os modelos do teams para pequenas e médias empresas
 
@@ -30,7 +30,7 @@ Os modelos do Microsoft Teams permitem criar equipes de forma rápida e fácil, 
 
 Para empresas de pequeno e médio porte, os modelos podem ser especialmente poderosos, pois ajudam os administradores a implantar equipes rapidamente em toda a organização. Os modelos também ajudam a orientar os usuários e começar a usar o Microsoft Teams com eficiência. Este artigo é para você se for responsável por planejar, implantar e gerenciar várias equipes em toda a organização.
 
-Atualmente, oferecemos três modelos SMB de primeira festa que você pode aproveitar para várias situações. Todos os modelos criarão equipes *particulares* . Depois de criar as equipes e se preparar para a sua organização, você pode definir a privacidade para *toda* a organização ou *pública*, conforme apropriado. Para saber mais sobre os modelos de equipe em geral, consulte [introdução aos modelos](get-started-with-teams-templates.md)do Microsoft Teams.
+Atualmente, oferecemos três modelos SMB de primeira empresa que você pode aproveitar para várias situações. Todos os modelos criarão equipes *particulares* . Depois de criar as equipes e se preparar para a sua organização, você pode definir a privacidade para *toda* a organização ou *pública*, conforme apropriado. Para saber mais sobre os modelos de equipe em geral, consulte [introdução aos modelos](get-started-with-teams-templates.md)do Microsoft Teams.
 
 ## <a name="company-wide-template"></a>Modelo de toda a empresa
 O modelo para toda a empresa destina-se à comunicação e colaboração que são relevantes para toda a empresa. Você pode usar o canal geral para anúncios em toda a empresa, notícias do setor ou publicações executivas. O canal de recursos humanos é um ótimo lugar para consolidar todas as atividades relacionadas a RH, como Postagens de trabalho, novos recursos de integração de funcionários, treinamento e desenvolvimento. O canal de coisas divertidas fornece uma plataforma social para todas as postagens divertidas e divertidas.

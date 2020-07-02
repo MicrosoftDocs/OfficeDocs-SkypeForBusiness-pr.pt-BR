@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Saiba mais sobre registros de depuração, mídia e desktop produzidos pelo Microsoft Teams, onde podem ser encontrados e como eles podem ajudar na resolução de problemas.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a9981a30eb0365f2919d86bd6bf694375e71e9eb
-ms.sourcegitcommit: 47637ed816b471fe689e7bdac27b73e6efced60c
+ms.openlocfilehash: 7ad44af297cdfe375f28485e1c4c4e223f616666
+ms.sourcegitcommit: a94a267c421a78587b0dbbea5fa167aad2882e9b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44374199"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45012187"
 ---
 <a name="use-log-files-in-troubleshooting-microsoft-teams"></a>Usar arquivos de registro para solucionar problemas no Microsoft Teams
 =================================================
@@ -44,6 +44,7 @@ A tabela a seguir descreve os diversos clientes e seus registros associados. Os 
 |Web    |X         |-         |-         |
 |Windows     |X         |X         |X         |
 |Mac OSX     |X         |X         |X         |
+|Linux     |X         |X         |X         |
 |iOS     |-         |-         |-         |
 |Android     |-         |-         |-         |
 
@@ -72,11 +73,17 @@ Os registros de depuração são produzidos usando os seguintes métodos para o 
 
       Atalho do teclado: Opção + Comando + Shift+1
 
+-   Linux
+
+      Atalho do teclado: Ctrl + Alt + Shift + 1
+
 Os registros de depuração serão baixados automaticamente nas seguintes pastas.
 
 -   Windows: %userprofile%\\Downloads
 
 -   Mac OSX: Downloads
+
+-   Linux: ~/downloads
 
 -   Navegador: Você será instruído para salvar o registro de depuração no local padrão de salvamento
 
@@ -93,6 +100,8 @@ Os registros de mídia contêm dados de diagnóstico de áudio, vídeo e compart
 |            |%appdata%\Microsoft\Teams\media-stack \\ *. etl         |
 |Mac OSX     |~/Library/Application Support Support/Microsoft/Teams/Media-Stack/*. blog         |
 |            |~/Library/Application Support Support/Microsoft/Teams/skylib/*. blog         |
+|Linux       |~/.config/Microsoft/Microsoft Teams/Media-Stack/*. blog         |
+|            |~/.config/Microsoft/Microsoft Teams/skylib/*. blog         |
 
 
 
@@ -103,13 +112,18 @@ Os registros de desktop, também conhecidos como registros de bootstrapper, cont
 
 Windows:
 
-1.  Clique com o botão direito do mouse no **ícone do Microsoft Teams na** bandeja do sistema, selecione **obter logs**
+1.  Clique com o botão direito do mouse no ícone do **Microsoft Teams** na bandeja do sistema, selecione **obter logs**
 
 Mac OsX:
 
 1.  Escolher **Obter registros** no menu suspenso de **Ajuda**
 
+Linux
+
+1.  Clique no ícone do **Microsoft Teams** na bandeja do sistema, selecione **obter logs**
+
 |Cliente |Localização |
 |---------|---------|
-|Windows     |%appdata%\Microsoft\Teams\logs.txt         |
+|Windows     |% AppData% \Microsoft\Teams\logs.txt         |
 |Mac OSX     |~/Library/Application Support/Microsoft/Teams/logs.txt         |
+|Linux       |~/.config/Microsoft/Microsoft Teams/logs.txt         |

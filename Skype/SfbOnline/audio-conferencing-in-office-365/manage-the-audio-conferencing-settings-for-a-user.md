@@ -21,19 +21,19 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Como um administrador do Microsoft 365 ou do Office 365, você pode editar as configurações de videoconferência do Skype for Business Online, como o provedor, o número de chamada tarifada ou número de chamada gratuita padrão, ID de conferência ou PIN para um usuário individual em sua organização. '
-ms.openlocfilehash: 2df6b9bfe7b1b9c161730b29e85dd1ed7335b0cd
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+ms.openlocfilehash: 47ad2b0d6b5684d2a897055ad43e253e55c67109
+ms.sourcegitcommit: 9b1c138b39fd87e239a7b1c5051f30c633e7d813
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44164130"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "44943844"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user-in-skype-for-business-online"></a>Gerenciar as configurações de audioconferência para um usuário no Skype for Business Online
 
 > [!Note]
 > Se você deseja gerenciar a configurações de usuário no Microsoft Teams, consulte [Gerenciar as configurações de audioconferência para um usuário no Microsoft Teams](/MicrosoftTeams/manage-the-audio-conferencing-settings-for-a-user-in-teams).
 
-Como um administrador do Microsoft 365 ou do Office 365, você pode editar as configurações de audioconferência (por exemplo, o provedor, o número de chamada tarifada ou chamada gratuita padrão, a ID de conferência ou o PIN) para um usuário individual em sua organização. Se você quiser editar as configurações de sua organização, consulte [gerenciar as configurações de audioconferência para minha organização](manage-the-audio-conferencing-settings-for-my-organization.md).
+As a Microsoft 365 or Office 365 admin, you can edit the Audio Conferencing settings—such as the provider, default toll or toll-free number, conference ID, or PIN—for an individual user in your organization. If you want to edit settings for your organization, see [Manage the Audio Conferencing settings for my organization](manage-the-audio-conferencing-settings-for-my-organization.md).
 
  
 1. Entre com sua conta corporativa ou de estudante.

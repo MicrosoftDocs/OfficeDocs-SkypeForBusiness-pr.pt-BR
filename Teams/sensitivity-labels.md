@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba como definir e usar rótulos de sensibilidade no Microsoft Teams.
-ms.openlocfilehash: e2482a5afeb7dff9804a5a0591cd377be9f9b177
-ms.sourcegitcommit: 27fae90d4429e81143ea285edab9dbc19bd3c0bb
+ms.openlocfilehash: 2940fd5537f02a6d5b3125f4c0037b9705571ffa
+ms.sourcegitcommit: a94a267c421a78587b0dbbea5fa167aad2882e9b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "44854113"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45012307"
 ---
 # <a name="sensitivity-labels-for-microsoft-teams"></a>Rótulos de sensibilidade do Microsoft Teams
 
@@ -100,6 +100,10 @@ Um proprietário de equipe pode alterar o rótulo de sensibilidade e a configura
 Você pode especificar se uma equipe criada com um rótulo específico permite acesso de convidado. As equipes criadas com um rótulo que não permite acesso de convidado só estão disponíveis para os usuários da sua organização. Pessoas de fora da sua organização não podem ser adicionadas à equipe.
 
 ## <a name="known-issues"></a>Problemas conhecidos
+
+**Rótulos padrão filho não exibidos durante a criação da equipe**
+
+Atualmente, um rótulo filho definido como o rótulo padrão para equipes não será exibido na parte superior da lista na lista de rótulos de sensibilidade no modelo de criação de equipe. Os criadores de equipe ainda podem usar o menu suspenso para aplicar o rótulo filho como solução alternativa.
 
 **Suporte para rótulos de sensibilidade no centro de administração do Microsoft Teams**
 

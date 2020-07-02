@@ -18,19 +18,19 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba como gerenciar o ciclo de vida de canais privados em sua organização.
-ms.openlocfilehash: 45d9591eed2bd3a880d3ca3e2ceb2252bf6f8898
-ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
+ms.openlocfilehash: 0f4f4d21adcb73731c8d0218a7b776c0aacbc7da
+ms.sourcegitcommit: a94a267c421a78587b0dbbea5fa167aad2882e9b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44326688"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45012287"
 ---
 # <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>Gerenciar o ciclo de vida de canais privados no Microsoft Teams
 
 Aqui você encontrará as diretrizes necessárias para gerenciar o ciclo de vida de [canais privados](private-channels.md) em sua organização.
 
 > [!IMPORTANT]
-> Se você estiver usando as etapas do PowerShell neste artigo para gerenciar canais privados, deve instalar e usar a versão de pré-lançamento mais recente do módulo do teams PowerShell da [Galeria de teste do PowerShell](https://www.poshtestgallery.com/packages/MicrosoftTeams/). Para ver as etapas sobre como instalar o módulo, consulte [instalar a versão de pré-lançamento do módulo do teams PowerShell](install-prerelease-teams-powershell-module.md). A versão mais recente disponível publicamente do módulo Teams PowerShell não oferece suporte ao gerenciamento de canais privados.
+> Se você estiver usando as etapas do PowerShell neste artigo para gerenciar canais privados, você deve instalar e usar o módulo de visualização pública do teams PowerShell da [Galeria do PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/). Para ver as etapas sobre como instalar o módulo, consulte [instalar o Microsoft Teams PowerShell](teams-powershell-install.md). O módulo mais recente do PowerShell para equipes de disponibilidade geral não oferece suporte ao gerenciamento de canais privados.
 
 ## <a name="set-whether-team-members-can-create-private-channels"></a>Definir se os membros da equipe podem criar canais privados
 
