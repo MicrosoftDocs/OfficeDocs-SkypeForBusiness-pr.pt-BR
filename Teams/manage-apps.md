@@ -17,12 +17,12 @@ description: Saiba como gerenciar seus aplicativos do teams na página Gerenciar
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: d4abedbd24f9f0211a66b0890fe9d3db2fc977cd
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 7884aa033d3d137ac36fe86a47a2861732b50bb5
+ms.sourcegitcommit: ad82786076cc965e75b1ec5ffd4bc9bf75437340
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868478"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45028087"
 ---
 <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>Gerenciar seus aplicativos no centro de administração do Microsoft Teams
 ======================================================
@@ -86,7 +86,7 @@ Use as configurações de aplicativo de toda a organização para controlar se o
     - **Permitir aplicativos de terceiros**: isso controla se os usuários podem usar aplicativos de terceiros. Se você desabilitar essa configuração, os usuários não poderão instalar ou usar qualquer aplicativo de terceiros, e o status do aplicativo desses aplicativos será exibido como **bloqueado em toda a organização** na tabela.
 
         > [!NOTE]
-        > Em uma implantação do Microsoft 365 governo-GCC do Teams, a configuração **permitir aplicativos de terceiros na configuração do teams** está desativada por padrão.
+        > Em uma implantação do Microsoft 365 governo-GCC do Teams, a configuração **permitir aplicativos** de terceiros está desativada por padrão.
 
         Quando **permitir que aplicativos de terceiros** estejam desativados, os [WebHooks de saída](https://docs.microsoft.com/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors) são desativados, o que significa que os usuários não podem criá-los. Quando essa configuração está ativada, os WebHooks de saída são habilitados para todos os usuários, independentemente de a configuração estar ativada ou desativada na política de permissão do aplicativo dos usuários.
     - **Permitir que todos os novos aplicativos de terceiros publicados na loja por padrão**: controlam se novos aplicativos de terceiros publicados na App App Store se tornam disponíveis automaticamente no Teams. Você só pode definir esta opção se permitir aplicativos de terceiros.

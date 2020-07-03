@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 53eed34584cb3a8167367e29f036cb21d741bd83
-ms.sourcegitcommit: 9b1c138b39fd87e239a7b1c5051f30c633e7d813
+ms.openlocfilehash: 49b260179749b5aba906fdf0ce64cd5b99452b37
+ms.sourcegitcommit: ad82786076cc965e75b1ec5ffd4bc9bf75437340
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "44944004"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45028157"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams para Infraestrutura de Área de Trabalho Virtualizada
 
@@ -30,12 +30,12 @@ Este artigo descreve os requisitos e as limitações para usar o Microsoft Teams
 ## <a name="what-is-vdi"></a>O que é VDI?
 
 A Virtual Desktop Infrastructure (VDI) é a tecnologia de virtualização que hospeda um sistema operacional e aplicativos de área de trabalho em um servidor centralizado em um Data Center. Isso permite uma experiência de área de trabalho totalmente personalizada para os usuários com uma fonte centralizada totalmente segura e compatível.
- 
+
 O Microsoft Teams em um ambiente virtualizado é compatível com chat e colaboração. Além disso, com a plataforma Citrix, também há suporte para a funcionalidade de chamadas e reuniões.
 
 As equipes em um ambiente virtualizado dão suporte a várias configurações. Isso inclui modos VDI, dedicado, compartilhado, persistente e não persistente. Os recursos estão em desenvolvimento contínuo e são adicionados regularmente, e a funcionalidade será ampliada nos próximos meses e anos.
- 
-Usar o Microsoft Teams em um ambiente virtualizado pode ser um pouco diferente de usar o Microsoft Teams em um ambiente não virtualizado. Por exemplo, alguns recursos avançados podem não estar disponíveis em um ambiente virtualizado, e a resolução de vídeo pode ser diferente. 
+
+Usar o Microsoft Teams em um ambiente virtualizado pode ser um pouco diferente de usar o Microsoft Teams em um ambiente não virtualizado. Por exemplo, alguns recursos avançados podem não estar disponíveis em um ambiente virtualizado, e a resolução de vídeo pode ser diferente.
 
 Para garantir uma experiência de usuário ideal, siga as orientações deste artigo.
 
@@ -100,12 +100,12 @@ A seguir está a configuração mínima de VM recomendada.
 
 Em uma configuração não persistente, as alterações do sistema operacional local dos usuários não são mantidas após o logoff dos usuários. Essas configurações geralmente são sessões de vários usuários compartilhadas. A configuração da VM varia de acordo com o número de usuários e os recursos de caixa física disponíveis.
 
-Para uma configuração não persistente, o aplicativo da área de trabalho Teams deve ser instalado por computador para a imagem dourada. (Para saber mais, confira a seção [instalar ou atualizar o aplicativo Teams desktop no VDI](#install-or-update-the-teams-desktop-app-on-vdi) .) Isso garante uma inicialização eficiente do aplicativo Teams durante uma sessão de usuário. 
+Para uma configuração não persistente, o aplicativo da área de trabalho Teams deve ser instalado por computador para a imagem dourada. (Para saber mais, confira a seção [instalar ou atualizar o aplicativo Teams desktop no VDI](#install-or-update-the-teams-desktop-app-on-vdi) .) Isso garante uma inicialização eficiente do aplicativo Teams durante uma sessão de usuário.
 
 Usar o Microsoft Teams com uma configuração não persistente também exige um Gerenciador de cache de perfis para sincronização eficiente de dados do teams Runtime. Isso garante que as informações apropriadas específicas do usuário (por exemplo, dados do usuário, perfil e configurações) sejam armazenadas em cache durante a sessão do usuário. Verifique se os dados dessas duas pastas estão sincronizados.  
 
 - C:\Users\username\AppData\Local\Microsoft\IdentityCache (%localAppdata%\Microsoft\IdentityCache)
-- C:\Users\username\AppData\Roaming\Microsoft\Teams(%appdata%\Microsoft\Teams)
+- C:\Users\username\AppData\Roaming\Microsoft\Teams (%appdata%\Microsoft\Teams)
 
 Há uma variedade de soluções do cache Manager disponíveis. Por exemplo, [FSLogix](https://docs.microsoft.com/fslogix/overview). Consulte o provedor do Gerenciador de armazenamento em cache para obter instruções de configuração específicas.
 
@@ -143,10 +143,8 @@ Para saber mais sobre o Teams e aplicativos do Microsoft 365 para empresas, cons
 
 1. Baixe o pacote MSI do teams que corresponde ao seu sistema operacional VDI VM usando um dos seguintes links:
 
-
     - [Versão de 32 bits](https://statics.teams.cdn.office.net/production-windows/1.3.00.13565/Teams_windows.msi)
     - [Versão de 64 bits](https://statics.teams.cdn.office.net/production-windows-x64/1.3.00.13565/Teams_windows_x64.msi)
-
 
     A versão mínima do aplicativo de área de trabalho Teams necessário é a versão 1.3.00.4461. (A suspensão PSTN não tem suporte em versões anteriores).
 
@@ -179,6 +177,7 @@ Para saber mais sobre o Teams e aplicativos do Microsoft 365 para empresas, cons
       ```console
       msiexec /passive /x <path_to_msi> /l*v <uninstall_logfile_name>
       ```
+
       Esse processo desinstala o Teams da pasta arquivos de programas (x86) ou da pasta arquivos de programas, dependendo do ambiente do sistema operacional.
 
 ## <a name="teams-on-vdi-performance-considerations"></a>Teams sobre considerações de desempenho do VDI
@@ -271,9 +270,9 @@ Ou, você também pode fazer o seguinte:
 1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para a política que você deseja atribuir. Por exemplo:
     - Vá para **Voice**  >  **políticas de chamadas**de voz e clique em **DisallowCalling**.
     - Vá para **Meetings**  >  **políticas de reunião**de reuniões e clique em **AllOff**.
-3. Selecione **Gerenciar usuários**.
-4. No painel **Gerenciar usuários**, procure o usuário pelo nome de exibição ou pelo nome de usuário, escolha o nome e clique em **Adicionar**. Repita esta etapa para cada usuário que você deseja adicionar.
-5. Quando tiver terminado de adicionar usuários, clique em **salvar**.
+2. Selecione **Gerenciar usuários**.
+3. No painel **Gerenciar usuários**, procure o usuário pelo nome de exibição ou pelo nome de usuário, escolha o nome e clique em **Adicionar**. Repita esta etapa para cada usuário que você deseja adicionar.
+4. Quando tiver terminado de adicionar usuários, clique em **salvar**.
 
 #### <a name="assign-policies-using-powershell"></a>Atribuir políticas usando o PowerShell
 
@@ -327,9 +326,9 @@ Ou, você também pode fazer o seguinte:
 1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para a política que você deseja atribuir. Por exemplo:
     - Vá para **Voice**  >  **políticas de chamadas**de voz e clique em **AllowCalling**.
     - Vá para **Meetings**  >  **políticas de reunião**de reuniões e clique em **permitir**.
-3. Selecione **Gerenciar usuários**.
-4. No painel **Gerenciar usuários**, procure o usuário pelo nome de exibição ou pelo nome de usuário, escolha o nome e clique em **Adicionar**. Repita esta etapa para cada usuário que você deseja adicionar.
-5. Quando tiver terminado de adicionar usuários, clique em **salvar**.
+2. Selecione **Gerenciar usuários**.
+3. No painel **Gerenciar usuários**, procure o usuário pelo nome de exibição ou pelo nome de usuário, escolha o nome e clique em **Adicionar**. Repita esta etapa para cada usuário que você deseja adicionar.
+4. Quando tiver terminado de adicionar usuários, clique em **salvar**.
 
 #### <a name="assign-policies-using-powershell"></a>Atribuir políticas usando o PowerShell
 

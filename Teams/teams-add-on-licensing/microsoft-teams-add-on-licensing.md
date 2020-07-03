@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Saiba mais sobre as licenças de complemento do Microsoft Teams e os recursos que você obtém com cada licença.
-ms.openlocfilehash: acb0ff4cd9cbaeeedb81490731a8b68a8de854a8
-ms.sourcegitcommit: 42b9b921d28cb02f537f0598653835193eb3f42f
+ms.openlocfilehash: 307dad7dbf8ca19bdeb10fa18b2cbd18a2273f74
+ms.sourcegitcommit: ad82786076cc965e75b1ec5ffd4bc9bf75437340
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44170682"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45028177"
 ---
 # <a name="microsoft-teams-add-on-licenses"></a>Licenças de Complementos do Microsoft Teams
 
@@ -164,9 +164,9 @@ Para saber mais, confira [Microsoft 365 e o Office 365 ofertas sem fins lucrativ
 
 Em resposta a uma maior necessidade de as pessoas trabalharem remotamente (ou trabalhar de casa), a Microsoft tem várias ofertas de avaliação gratuitas de equipes para organizações governamentais, educacionais e sem fins lucrativos. As avaliações estão disponíveis para estes planos:
 
-- Avaliação do Office 365 Enterprise [E1](../e1-trial-license.md), avaliação E3 e avaliação e5
+- Avaliação do Office 365 Enterprise [E1](../e1-trial-license.md) (descontinuado a partir de 1 ° de julho de 2020), avaliação de E3 e avaliação e5
 - Avaliação do Office 365 Education [a1](../teams-edu-licensing.md)
-- [Avaliação de G1](../g1-trial-license.md) do governo do Office 365
+- [Avaliação de G1](../g1-trial-license.md) do governo do Office 365 (descontinuado a partir de 1º de julho de 2020)
 
 Para se inscrever para uma oferta de avaliação, consulte [inscrever-se para obter uma oferta de avaliação](https://transform.microsoft.com/customer-trials?tab=requestnewtrial).
 
@@ -176,7 +176,7 @@ Veja um resumo das ofertas de avaliação de recursos de voz.
 
   ![Opções baseadas em avaliação](../media/licensing-trial-offers.png)
 
- Seu plano básico não precisa ser uma oferta de avaliação para usar qualquer um desses testes para recursos de voz. Você pode usar um plano de negócios do Microsoft 365 ou uma empresa, governo, educação ou plano sem fins lucrativos com qualquer uma das ofertas de avaliação para recursos de voz. Para ver as ofertas de avaliação e Complementos disponíveis, no centro de administração do Microsoft 365, vá para**serviços de compra**de **cobrança** > , selecione **outras categorias que podem ser de seu interesse**e selecione **Complementos**.
+ Seu plano básico não precisa ser uma oferta de avaliação para usar qualquer um desses testes para recursos de voz. Você pode usar um plano de negócios do Microsoft 365 ou uma empresa, governo, educação ou plano sem fins lucrativos com qualquer uma das ofertas de avaliação para recursos de voz. Para ver as ofertas de avaliação e Complementos disponíveis, no centro de administração do Microsoft 365, vá **Billing**para  >  **serviços de compra**de cobrança, selecione **outras categorias que podem ser de seu interesse**e selecione **Complementos**.
 
   Para cada uma dessas opções de voz e conferência, os [créditos de comunicações](../set-up-communications-credits-for-your-organization.md) serão necessários se você tiver números de chamada gratuita ou se precisar adicionar mais minutos aos usuários para discar de reuniões ou para que os usuários façam chamadas PSTN domésticas e internacionais.
 
