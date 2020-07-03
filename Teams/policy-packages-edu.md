@@ -21,12 +21,12 @@ ms.custom: ms.teamsadmincenter.policypackages.overview
 localization_priority: Priority
 search.appverid: MET150
 description: Saiba mais sobre políticas em uma configuração EDU ou educacional e como usar e gerenciar pacotes de políticas no Microsoft Teams.
-ms.openlocfilehash: 8e024003957a295d56e26a46f473d543f2cb0ded
-ms.sourcegitcommit: 02dd624d39a14f48b9d2463881605d2f051722e7
+ms.openlocfilehash: fcc6a5d22d5e499cf698e424148ff37cd3ee054e
+ms.sourcegitcommit: 4099da7b1db7663e63ef5bece16e3090c33ea207
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "44874418"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45021879"
 ---
 # <a name="teams-policies-and-policy-packages-for-education"></a>Políticas do Teams e Pacotes de Políticas para Educação
 
@@ -148,6 +148,9 @@ Cada política individual recebe o nome do pacote de políticas, para que você 
 ### <a name="meeting-policies"></a>Políticas de reunião
 
 #### <a name="turn-off-the-ability-to-create-and-start-meetings"></a>Desativar o recurso para criar e iniciar reuniões
+
+> [!NOTE]
+> Você pode não perceber essa funcionalidade em seu locatário no momento. Isso ocorre porque esse recurso está sendo implantado e estará disponível para todos os usuários depois que ele for implantado em todos os locatários. Consulte o [Roteiro do Teams](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=63355) para obter mais informações.
 
 Para garantir que os alunos não possam agendar uma reunião para comunicar-se sem supervisão, em políticas de reunião, mantenha os recursos de criação de reunião **Desativadas** por meio dessas Configurações gerais:
 
