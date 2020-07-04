@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Use este guia para oferecer suporte à sua força de trabalho remota quando estiverem trabalhando em casa (WFH) em resposta à epidemia de COVID-19 (coronavírus).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4208f5519ffff94d9726dfb06ed4ff1aef2d8a15
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 483aaab4fc21028c79fb6fd8cdc0b5044792985c
+ms.sourcegitcommit: ad82786076cc965e75b1ec5ffd4bc9bf75437340
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637900"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45028107"
 ---
 # <a name="faq-support-your-remote-workforce"></a>Perguntas frequentes: Suporte para sua força de trabalho remota
 
@@ -77,10 +77,7 @@ O Teams está disponível gratuitamente em alguns programas diferentes:
 
 **Profissionais de TI**
 
-- Se você trabalha para uma empresa e deseja configurar o Teams para funcionários, você pode se inscrever no [ Office 365 E1 Trial](e1-trial-license.md) oferecido por meio de um representante de vendas ou parceiro da Microsoft.
-
-> [!NOTE]
-> A mesma versão gratuita do Teams está disponível na [Nuvem do governo dos EUA](g1-trial-license.md), com as exceções do GCC High e do Departamento de Defesa.
+- Se você trabalha para uma empresa e quer que os funcionários sejam configurados no Teams, inscreva-se no [Teams Exploratory](teams-exploratory.md).
 
 - Se você trabalha com Educação e deseja configurar o Teams para professores, alunos e administradores, use o Office 365 a1, a versão gratuita do Office 365, disponível para instituições de ensino. Inscreva-se em [https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans).
 

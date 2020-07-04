@@ -15,47 +15,24 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 03544095e5189af2f80714151f31648f79e65c8d
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: ea7c72e78fe14894678f963f8b876a608f6d6222
+ms.sourcegitcommit: ad82786076cc965e75b1ec5ffd4bc9bf75437340
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868668"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45028147"
 ---
 <a name="manage-the-office-365-e1-trial"></a>Gerenciar a avaliação do Office 365 E1
 ==============================
 
-Novidade em março de 2020, uma avaliação gratuita do Office 365 E1 por 6 meses, incluindo o Microsoft Teams, já está disponível. A Microsoft está disponibilizando esta licença de avaliação E1 especial em resposta à crescente necessidade de funcionários trabalharem em casa (WFH) em resposta ao surto de COVID-19 (coronavírus). 
+A partir de 01º de julho de 2020, a licença de avaliação do Office 365 E1 não estará mais disponível. Se você precisar licenciar usuários para o Microsoft Teams, leia a [Descrição do serviço do Microsoft Teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description) para obter uma lista de assinaturas pagas que incluem o Teams. Como alternativa, as organizações qualificadas podem usar a **[Versão gratuita do Teams](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)**, ou os funcionários podem ativar a experiência **[Exploratória do Teams](teams-exploratory.md)**.
 
-Para saber o que está disponível com uma licença E1, leia [Office 365 E1](https://www.microsoft.com/microsoft-365/business/office-365-enterprise-e1-business-software).
+
+Se você for um cliente do Teams for Education, consulte a licença gratuita do [Office 365 A1](teams-edu-licensing.md).
+
+Use as orientações deste artigo para gerenciar as suas licenças de avaliação do Office 365 E1 existentes, incluindo [atualizar para uma assinatura paga](#upgrade-users-from-the-office-365-e1-trial-license).
 
 Não perca todas as nossas diretrizes para [dar suporte a funcionários remotos no Teams](support-remote-work-with-teams.md).
-
-## <a name="how-to-get-an-e1-trial-license"></a>Como obter uma licença de avaliação E1
-
-Entre em contato com seu representante de conta da Microsoft. Ele fornecerá um código promocional que você poderá usar para se inscrever na avaliação E1. 
-
-Para organizações atendidas por um parceiro da Microsoft, trabalhe com seu parceiro para obter uma avaliação gratuita de seis meses do Teams. Caso você ainda não tenha um parceiro da Microsoft e queira trabalhar com um, acesse [Provedores de soluções da Microsoft](https://www.microsoft.com/solution-providers/home) e pesquise por parceiros com experiência no Teams.
-
-
-## <a name="how-to-sign-up-for-e1"></a>Como se inscrever na E1
-
-Clique no código promocional no e-mail que o representante da sua conta enviará a você. 
-
-
-## <a name="whos-eligible"></a>Quem está qualificado?
-
-Esta oferta destina-se a qualquer cliente gerenciado por um representante de contas da Microsoft. É para organizações, incluindo entidades sem fins lucrativos, que não ativaram nenhuma outra avaliação do Office 365 E1 no passado. 
-
-Depois de usar seu código promocional de avaliação E1, você não poderá usá-lo novamente nem ativar outro código de avaliação E1. Nesses casos, os funcionários podem ativar uma [licença do Teams Exploratory](teams-exploratory.md).
-
-## <a name="who-isnt-eligible"></a>Quem não está qualificado
-
-- Esta oferta não está disponível para clientes GCC, GCC High, DoD ou EDU. 
-
-- Para o GCC, confira a [Avaliação do Office 365 G1](g1-trial-license.md). 
-
-- Os clientes EDU devem usar a licença gratuita do Office 365 A1.
 
 ## <a name="manage-the-e1-trial"></a>Gerenciar a avaliação E1
 

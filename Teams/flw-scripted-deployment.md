@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3411d3a163e9da5e58fa258371d02ca878868adb
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 7a57de3528ac9ef0f950c7034b3c6ee3860b53ea
+ms.sourcegitcommit: ad82786076cc965e75b1ec5ffd4bc9bf75437340
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44638380"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45028167"
 ---
 # <a name="how-to-provision-teams-at-scale-for-firstline-workers"></a>Como provisionar o Teams em escala para os Trabalhadores da Linha de Frente
 
@@ -50,7 +50,7 @@ Baixe os ativos a partir [deste local](https://aka.ms/flwteamsscale).
 
 ## <a name="technical-requirements"></a>Requisitos técnicos
 
-- O locatário deve ter o número adequado de licenças disponíveis que incluam o Microsoft Teams. Caso ainda não tenha essas licenças, siga as instruções aqui para ativar a [avaliação gratuita do Office 365 E1](e1-trial-license.md).
+- O locatário deve ter o número adequado de licenças disponíveis que incluam o Microsoft Teams. Se você ainda não possui essas licenças, consulte o [Exploratório do Teams](teams-exploratory.md) para obter uma assinatura de avaliação gratuita.
 - O usuário que executa estas etapas deve ter as seguintes funções atribuídas: Administrador Global, Administrador de Usuários e Administrador de Serviço do Teams, no Microsoft Azure Active Directory.
 - Os usuários devem ter direitos para instalar e configurar softwares no computador local.
 
