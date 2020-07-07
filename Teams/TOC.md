@@ -658,6 +658,7 @@
 ### [QuickStart para trabalhadores de linha de frente](firstline-workers-quickstart.yml)
 ### [Implantação programada de trabalhadores de primeira linha](flw-scripted-deployment.md)
 ### [RealWear para Microsoft Teams](flw-realwear.md)
+### [Walkie Talkie](walkie-talkie.md)
 ### [Criar um aplicativo do portal de intranet do Teams a partir de um site ou página do SPO](teams-standalone-static-tabs-using-spo-sites.md)
 
 ## [Teams para o Varejo](expand-teams-across-your-org/teams-for-retail-landing-page.md)
