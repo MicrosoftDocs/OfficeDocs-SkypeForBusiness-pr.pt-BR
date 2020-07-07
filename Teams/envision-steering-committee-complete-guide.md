@@ -16,12 +16,11 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 397f41a468c987e70d068066dcf16ddf0e64843a
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
-ms.translationtype: MT
+ms.openlocfilehash: a7e4e24b871ab537e336ddbd2b25c0d44408c299
+ms.sourcegitcommit: 2467ece95e100a3a3cc2be3538d8eb7d878b3663
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43136781"
+ms.lasthandoff: 07/06/2020
+ms.locfileid: "45042783"
 ---
 # <a name="steering-committee"></a>Comitê de direcionamento
 
@@ -88,7 +87,7 @@ Ao agendar uma reunião de Comitê, leve em consideração o projeto e a cadênc
 
 ### <a name="prepare-for-the-meeting"></a>Preparar-se para a reunião
 
-Para aproveitar ao máximo o tempo de todos, você precisa se preparar para a reunião. A equipe central pode começar a preparar o material para a reunião do Comitê de direcionamento. O modelo de Comitê de direcionamento – link para modelo PPT de exemplo] o modelo de Comitê de direcionamento pode ser usado como ponto de partida para preparação.
+Para aproveitar ao máximo o tempo de todos, você precisa se preparar para a reunião. A equipe central pode começar a preparar o material para a reunião do Comitê de direcionamento. Você pode criar uma apresentação do PowerPoint para ajudar a se preparar para a reunião.
 
 Os seguintes ativos devem ser preenchidos e incluídos no baralho da apresentação para a reunião:
 

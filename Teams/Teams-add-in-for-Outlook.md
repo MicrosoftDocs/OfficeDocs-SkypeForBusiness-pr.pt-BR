@@ -18,12 +18,11 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fdecae806c0e02efc9a440ce192528ab6017d994
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
-ms.translationtype: MT
+ms.openlocfilehash: 877ebf8041b52e6522dc55a053e0465d4aa6a48d
+ms.sourcegitcommit: ac36d3923095a4321dad14fdf23c98358affd10c
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44689807"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "45049408"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Usar o suplemento de Reunião do Teams no Outlook
 =======================================
@@ -133,6 +132,10 @@ Use as etapas a seguir para solucionar problemas com o suplemento de reunião do
 ### <a name="teams-meeting-add-in-in-outlook-for-windows-does-not-show"></a>O suplemento de reunião do Microsoft Teams no Outlook para Windows não é mostrado
 
 Se você não conseguir instalar o suplemento Teams Meeting para o Outlook, tente estas etapas de solução de problemas.
+
+[Baixe](https://aka.ms/SaRA-TeamsAddInScenario) e execute o [Assistente de recuperação de suporte da Microsoft](https://aka.ms/SaRA_Home) para executar etapas e correções automáticas de solução de problemas.
+
+Você também pode executar as seguintes etapas manualmente:
 
 - Os usuários do Windows 7 devem instalar a [atualização para o Universal C Runtime no Windows](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows) para que o suplemento de Reunião do Teams funcione.
 - Verifique se o usuário tem uma política de atualização do teams que permite agendar reuniões no Teams. Para obter mais detalhes, confira [a atualização do Skype for Business para o Teams](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview#meetings) .

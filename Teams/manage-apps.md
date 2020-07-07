@@ -17,12 +17,11 @@ description: Saiba como gerenciar seus aplicativos do teams na página Gerenciar
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 7884aa033d3d137ac36fe86a47a2861732b50bb5
-ms.sourcegitcommit: ad82786076cc965e75b1ec5ffd4bc9bf75437340
-ms.translationtype: MT
+ms.openlocfilehash: bd793cc4ec6cbd27180e3babeb69c7fdc5e98ce4
+ms.sourcegitcommit: 2467ece95e100a3a3cc2be3538d8eb7d878b3663
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45028087"
+ms.lasthandoff: 07/06/2020
+ms.locfileid: "45042923"
 ---
 <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>Gerenciar seus aplicativos no centro de administração do Microsoft Teams
 ======================================================
@@ -77,6 +76,9 @@ Quando você bloqueia ou permite um aplicativo na página **gerenciar aplicativo
 
 Use as configurações de aplicativo de toda a organização para controlar se os usuários podem instalar aplicativos de terceiros e se os usuários podem carregar ou interagir com aplicativos personalizados em sua organização. As configurações de aplicativo de toda a organização governam o comportamento para todos os usuários e substituem quaisquer outras políticas de permissão de aplicativo atribuídas aos usuários. Você pode usá-los para controlar aplicativos mal-intencionados ou problemáticos.
 
+> [!NOTE]
+> A página **gerenciar aplicativos** ainda não está disponível nas implantações do Microsoft 365 governo-gcc do teams.  Para saber como usar as configurações de aplicativo de toda a organização para habilitar ou desabilitar aplicativos de terceiros, consulte [gerenciar políticas de permissão do aplicativo no Microsoft Teams](teams-app-permission-policies.md).
+
 1. Na página **gerenciar aplicativos** , selecione **configurações de aplicativo de toda a organização**. Em seguida, você pode definir as configurações desejadas no painel.
 
     ![Captura de tela das configurações de aplicativo de toda a organização](media/manage-apps-org-wide-app-settings.png)
@@ -84,9 +86,6 @@ Use as configurações de aplicativo de toda a organização para controlar se o
 2. Em **aplicativos de terceiros**, desative ou ative essas configurações para controlar o acesso a aplicativos de terceiros:
 
     - **Permitir aplicativos de terceiros**: isso controla se os usuários podem usar aplicativos de terceiros. Se você desabilitar essa configuração, os usuários não poderão instalar ou usar qualquer aplicativo de terceiros, e o status do aplicativo desses aplicativos será exibido como **bloqueado em toda a organização** na tabela.
-
-        > [!NOTE]
-        > Em uma implantação do Microsoft 365 governo-GCC do Teams, a configuração **permitir aplicativos** de terceiros está desativada por padrão.
 
         Quando **permitir que aplicativos de terceiros** estejam desativados, os [WebHooks de saída](https://docs.microsoft.com/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors) são desativados, o que significa que os usuários não podem criá-los. Quando essa configuração está ativada, os WebHooks de saída são habilitados para todos os usuários, independentemente de a configuração estar ativada ou desativada na política de permissão do aplicativo dos usuários.
     - **Permitir que todos os novos aplicativos de terceiros publicados na loja por padrão**: controlam se novos aplicativos de terceiros publicados na App App Store se tornam disponíveis automaticamente no Teams. Você só pode definir esta opção se permitir aplicativos de terceiros.

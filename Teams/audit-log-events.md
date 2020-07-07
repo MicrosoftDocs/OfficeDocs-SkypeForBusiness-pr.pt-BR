@@ -15,12 +15,11 @@ search.appverid: MET150
 description: Saiba como recuperar dados do Microsoft Teams do log de auditoria.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a305afdc96f71731431ba187cd4d4021e0cec943
-ms.sourcegitcommit: 8d5ba1346be583af9382906dda556ccf868904f7
-ms.translationtype: MT
+ms.openlocfilehash: 4084074d9dec08b2c254d1678fde51d0a26adfaa
+ms.sourcegitcommit: 2467ece95e100a3a3cc2be3538d8eb7d878b3663
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44816622"
+ms.lasthandoff: 07/06/2020
+ms.locfileid: "45042873"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Pesquisar o log de auditoria de eventos no Microsoft Teams
 
@@ -41,7 +40,7 @@ Para obter uma lista completa das atividades do teams que são auditadas, consul
 
 ## <a name="turn-on-auditing-in-teams"></a>Ativar a auditoria no Microsoft Teams
 
-Antes de poder ver os dados de auditoria, você deve primeiro ativar a auditoria no centro de [conformidade do & de segurança](https://protection.office.com). Para obter ajuda para ativar a auditoria, leia [Ativar ou desativar a pesquisa ativar log de auditoria](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014).
+Antes de poder ver os dados de auditoria, você deve primeiro ativar a auditoria no centro de [conformidade do & de segurança](https://protection.office.com). Para obter ajuda com a ativação de auditoria, leia [Ativar ou desativar a pesquisa ativar log de auditoria](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014).
 
 > [!IMPORTANT]
 > Os dados de auditoria só estão disponíveis no momento em que você ativou a auditoria.
@@ -138,6 +137,7 @@ Aqui está uma lista de todos os eventos registrados para atividades de usuário
 |Canal excluído     |ChannelDeleted         |Um usuário exclui um canal de uma equipe.         |
 |Equipe excluída  |TeamDeleted            |Um proprietário da equipe exclui uma equipe.      |
 |Aplicativo instalado |AppInstalled         |Um aplicativo foi instalado.   |
+|Ação realizada no cartão|PerformedCardAction|Um usuário executou uma ação em um cartão adaptável em um chat. Os cartões adaptáveis são geralmente usados por bots para permitir a exibição rica de informações e interação em chats. <br/><br/>**Observação:** Somente as ações de entrada embutidas em um cartão adaptável dentro de um chat estarão disponíveis no log de auditoria. Por exemplo, quando um usuário envia uma resposta de votação em uma conversa de canal em um cartão adaptável gerado por um bot de votação. Ações do usuário, como "Exibir resultado", que abrirão uma caixa de diálogo, ou as ações do usuário dentro dos diálogos não estarão disponíveis no log de auditoria.|
 |Aplicativo publicado |AppPublishedToCatalog           |Um aplicativo foi adicionado ao catálogo.     |
 |Bot removido da equipe   |BotRemovedFromTeam         |Um usuário remove um bot de uma equipe.       |
 |Conector removido     |ConnectorRemoved         |Um usuário remove um conector de um canal.         |
