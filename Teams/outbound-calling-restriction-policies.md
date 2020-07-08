@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Os administradores podem controlar o tipo de conferência de áudio e as chamadas PSTN do usuário final que podem ser feitas pelos usuários.
-ms.openlocfilehash: ca4b7920ccad27a9434cbd1e5f76d7d10c4f4612
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: fd7c30a7561c06dd237bb72b405c8fc5b7b68dcd
+ms.sourcegitcommit: c8b5d4dd70d183f7ca480fb735a19290a3457b30
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665903"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45077666"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>Políticas de restrição de chamadas de saída para audioconferência e chamadas PSTN do usuário
 
@@ -69,7 +69,7 @@ Para descobrir quais são os países/regiões que são considerados zona A, cons
 
 3.    Em **restrições a chamadas discadas de reuniões desse usuário**, selecione a opção de restrição discada que você deseja.
 
-    ![Restrições às opções de discagem](media/restrictions-to-dial-outs.png)
+    ![Restrições às opções de discagem](/Skype/SfbOnline/images/restrictions-to-dial-outs.png)
 
 5. Clique em **Salvar**.
 
