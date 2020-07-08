@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Saiba como configurar e conectar seu SBC ao encaminhamento direto do sistema telefônico.
-ms.openlocfilehash: 8ceb4d1811b479fbcdc0d4ca83f4dbc4672227bd
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 900c8c50f60842465ae6a636d5953be81c83af84
+ms.sourcegitcommit: c8b5d4dd70d183f7ca480fb735a19290a3457b30
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691257"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45077616"
 ---
 # <a name="connect-your-session-border-controller-sbc-to-direct-routing"></a>Conectar o seu controlador de borda de sessão (SBC) ao roteamento direto
 
@@ -40,7 +40,7 @@ Você pode usar o [centro de administração do Microsoft Teams](#using-the-micr
 
 1. No painel de navegação esquerdo, vá **Voice**para  >  **Roteamento direto**de voz e clique na guia **SBCS** .
 2. Clique em **Adicionar**.
-3. Digite um FQDN para o SBC. <br><br>Verifique se a parte do nome do domínio do FQDN corresponde a um domínio registrado em seu locatário e lembre-se de que o nome de `*.onmicrosoft.com` domínio não tem suporte para o nome de domínio do FQDN do SBC. Por exemplo, se você tiver dois nomes de domínio `contoso.com` e `contoso.on.microsoft.com` usar `sbc.contoso.com` como o nome SBC.
+3. Digite um FQDN para o SBC. <br><br>Verifique se a parte do nome do domínio do FQDN corresponde a um domínio registrado em seu locatário e lembre-se de que o nome de `*.onmicrosoft.com` domínio não tem suporte para o nome de domínio do FQDN do SBC. Por exemplo, se você tiver dois nomes de domínio `contoso.com` e `contoso.onmicrosoft.com` usar `sbc.contoso.com` como o nome SBC.
 4. Defina as configurações a seguir para o SBC, com base nas necessidades da sua organização. Para obter detalhes sobre cada uma dessas configurações, consulte [configurações de SBC](#sbc-settings).
 
     ![Captura de tela da página Adicionar SBC no centro de administração do Microsoft Teams](media/direct-routing-add-sbc.png)

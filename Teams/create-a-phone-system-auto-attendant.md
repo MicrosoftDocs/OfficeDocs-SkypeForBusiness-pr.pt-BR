@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Saiba como configurar e testar atendedores automáticos da nuvem para o Microsoft Teams.
-ms.openlocfilehash: 0cdba07297e22b116bbfe120f4d1e5640ee9a892
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 247cb553c2fb3c4dafd1a36b826fc13f2f21b0ce
+ms.sourcegitcommit: c8b5d4dd70d183f7ca480fb735a19290a3457b30
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44874261"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45077707"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>Configurar um atendedor automático do Cloud
 
@@ -37,7 +37,7 @@ Se você quiser saber mais sobre atendedores automáticos, consulte [o que são 
 > [!NOTE]
 > Este artigo se aplica ao Microsoft Teams e ao Skype for Business online.
 
-Os números de telefone não são atribuídos diretamente ao atendedor automático, mas sim a uma [conta de recurso](manage-resource-accounts.md) associada ao atendedor automático.
+Os números de telefone não são atribuídos diretamente ao atendedor automático, mas a uma [conta de recurso](manage-resource-accounts.md) associada ao atendedor automático.
 
 As implementações de atendedor automático geralmente envolvem vários atendedores automáticos. Um atendedor automático de *primeiro nível* geralmente tem uma conta de recurso com um número de telefone atribuído. Um atendedor automático aninhado é usado como um menu de segundo nível ao qual o atendedor automático de *primeiro nível* se conecta como chamada para. Um atendedor automático *aninhado* não é necessário para ter um número de telefone atribuído à sua conta de recurso.
 
@@ -88,7 +88,19 @@ Você tem várias maneiras de definir o operador:
      > [!Note]
      > A **pessoa na organização** pode ser um usuário online ou um usuário hospedado no local usando o Skype for Business Server. Ao selecionar **pessoa na organização** , você pode selecionar uma conta com uma caixa de correio compartilhada ou com uma caixa de correio do usuário.
 
-- **Aplicativo de voz**  Selecione o nome da conta de recurso vinculada a um atendedor automático ou fila de chamadas que já foi criada. Os chamadores que solicitam um operador são redirecionados para lá.  
+- **Aplicativo de voz**  Selecione o nome da conta de recurso vinculada a um atendedor automático ou fila de chamadas que já foi criada. Os chamadores que solicitam um operador são redirecionados para lá.
+- **Número de telefone externo** transfere o chamador para um número de telefone externo que você especificar. Observe o seguinte:
+
+    - A conta do recurso associada ao aplicativo que faz a transferência PSTN deve ter um número de telefone e receber uma licença do sistema de telefonia virtual. Não há suporte para licenças do sistema telefônico. Além disso, a conta do recurso deve ter um dos seguintes:
+        - Para uma conta de recurso com um número de plano de chamada, atribua uma licença de [plano de chamada](calling-plans-for-office-365.md) .
+        - Para uma conta de recurso com um número de roteamento direto, atribua uma [política de roteamento de voz online](manage-voice-routing-policies.md).
+    - O número de telefone de saída exibido é determinado da seguinte maneira:
+        - Para números de plano de chamada, o número de telefone do chamador original é exibido.
+        - Para números de roteamento direto, o número enviado é baseado na configuração P-Assertd-Identity (PAI) no SBC, da seguinte maneira:
+            - Se definido como Disabled, o número de telefone do chamador original será exibido. Esta é a configuração padrão e recomendada.
+            - Se definido como habilitado, o número de telefone da conta do recurso será exibido.
+    - Não há suporte para transferências entre troncos de plano de chamada e troncos diretos de roteamento.
+
 <!--   
 
 - **Auto attendant** Select the name of the resource account linked to an auto attendant that has already been created. Callers that request an operator are redirected there.
@@ -157,15 +169,27 @@ Se você selecionar **Desconectar**, o chamador será desconectado após a sauda
 
 ![Ícone do número 4, um texto explicativo na chamada de ](media/teamscallout4.png) **redirecionamento** de captura de tela anterior envia o chamador para o destino escolhido sem escolher entre as opções. As configurações possíveis são:
 
-  - **Pessoa na organização** A conta que você escolher deve ter uma licença do sistema de telefonia habilitada para Enterprise Voice ou ter um plano de chamada atribuído no Microsoft 365 ou no Office 365. Você pode configurá-lo para que o chamador possa ser enviado para o correio de voz: selecione **pessoa na organização** e defina essa conta para que as chamadas sejam encaminhadas diretamente para o correio de voz.
+  - **Pessoa na organização** A conta que você escolher deve ter uma licença do sistema de telefonia habilitada para Enterprise Voice ou ter um plano de chamada atribuído no Microsoft 365 ou no Office 365. Você pode configurá-lo para que o chamador possa ser enviado para o correio de voz. Selecione **pessoa na organização** e defina essa conta para fazer com que as chamadas sejam encaminhadas diretamente para o correio de voz.
 
     > [!Note]
     > A **pessoa na organização** pode ser um usuário online ou um usuário hospedado no local usando o Skype for Business Server. Ao selecionar **pessoa na organização** , você pode selecionar uma conta com uma caixa de correio compartilhada ou com uma caixa de correio do usuário.
 
   - **Aplicativo de voz** Selecione um atendedor automático ou fila de chamadas que já tenha sido configurada. Você pesquisa o atendedor automático ou a fila de chamadas pelo nome da conta do recurso associada ao serviço.
+  - **Número de telefone externo** transfere o chamador para um número de telefone externo que você especificar. Observe o seguinte:
+
+    - A conta do recurso associada ao aplicativo que faz a transferência PSTN deve ter um número de telefone e receber uma licença do sistema de telefonia virtual. Não há suporte para licenças do sistema telefônico. Além disso, a conta do recurso deve ter um dos seguintes:
+        - Para uma conta de recurso com um número de plano de chamada, atribua uma licença de [plano de chamada](calling-plans-for-office-365.md) .
+        - Para uma conta de recurso com um número de roteamento direto, atribua uma [política de roteamento de voz online](manage-voice-routing-policies.md).
+    - O número de telefone de saída exibido é determinado da seguinte maneira:
+        - Para números de plano de chamada, o número de telefone do chamador original é exibido.
+        - Para números de roteamento direto, o número enviado é baseado na configuração P-Assertd-Identity (PAI) no SBC, da seguinte maneira:
+            - Se definido como Disabled, o número de telefone do chamador original será exibido. Esta é a configuração padrão e recomendada.
+            - Se definido como habilitado, o número de telefone da conta do recurso será exibido.
+    - Não há suporte para transferências entre troncos de plano de chamada e troncos diretos de roteamento.
   - **Correio de voz** Selecione o grupo do Microsoft 365 que contém os usuários em sua organização que precisam acessar o correio de voz recebido por este atendedor automático. As mensagens de correio de voz são enviadas para o grupo do Microsoft 365 que você especificou. Para acessar mensagens de correio de voz, os membros do grupo podem abri-los navegando para o grupo no Outlook.
 
       Alterne a **transcrição** para **ativado** para habilitar a transcrição de voz para texto de mensagens de correio de voz.
+
 
  * * *
 
@@ -201,6 +225,18 @@ Se você selecionar **Desconectar**, o chamador será desconectado após a sauda
 - A **pessoa na organização** pode ser um usuário online ou um usuário hospedado no local usando o Skype for Business Server. O usuário deve ter uma licença de sistema telefônico habilitada para Enterprise Voice ou planos de chamada atribuídos no Microsoft 365 ou no Office 365. Procure a pessoa no campo **Pesquisar por nome** .
 
 - **Aplicativo de voz** Selecione um atendedor automático ou fila de chamadas que já tenha sido configurada. Você pesquisa o atendedor automático ou a fila de chamadas pelo nome da conta de recurso associada ao aplicativo.
+
+- **Número de telefone externo** transfere o chamador para um número de telefone externo que você especificar. Observe o seguinte:
+
+    - A conta do recurso associada ao aplicativo que faz a transferência PSTN deve ter um número de telefone e receber uma licença do sistema de telefonia virtual. Não há suporte para licenças do sistema telefônico. Além disso, a conta do recurso deve ter um dos seguintes:
+        - Para uma conta de recurso com um número de plano de chamada, atribua uma licença de [plano de chamada](calling-plans-for-office-365.md) .
+        - Para uma conta de recurso com um número de roteamento direto, atribua uma [política de roteamento de voz online](manage-voice-routing-policies.md).
+    - O número de telefone de saída exibido é determinado da seguinte maneira:
+        - Para números de plano de chamada, o número de telefone do chamador original é exibido.
+        - Para números de roteamento direto, o número enviado é baseado na configuração P-Assertd-Identity (PAI) no SBC, da seguinte maneira:
+            - Se definido como Disabled, o número de telefone do chamador original será exibido. Esta é a configuração padrão e recomendada.
+            - Se definido como habilitado, o número de telefone da conta do recurso será exibido.
+    - Não há suporte para transferências entre troncos de plano de chamada e troncos diretos de roteamento.
 
 - **Correio de voz** Selecione o grupo do Microsoft 365 que contém os usuários em sua organização que precisam acessar o correio de voz recebido por este atendedor automático. As mensagens de correio de voz são enviadas para o grupo do Microsoft 365 que você especificou. Para acessar mensagens de correio de voz, os membros do grupo podem abri-los navegando para o grupo no Outlook.
 

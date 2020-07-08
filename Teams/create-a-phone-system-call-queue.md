@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Saiba como configurar o sistema telefônico para filas de chamadas em nuvem com o Microsoft Teams, que fornecem uma mensagem de saudação, suspender música, redirecionamento de chamada e outros recursos.
-ms.openlocfilehash: ac0fb41ebb85a6e7e80d3d221da4dabf456d20aa
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: dd11e33e4947ea231310b06af2570711d55b2451
+ms.sourcegitcommit: c8b5d4dd70d183f7ca480fb735a19290a3457b30
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44697442"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45077706"
 ---
 # <a name="create-a-cloud-call-queue"></a>Criar uma fila de chamada do Cloud
 
@@ -69,7 +69,7 @@ Para começar a usar filas de chamadas, é importante lembrar-se de algumas cois
   > Os números do serviço de roteamento direto para filas de chamadas têm suporte somente para usuários e agentes do Microsoft Teams.
 
 > [!NOTE]
-> Para redirecionar chamadas para pessoas em sua organização que estão online, elas devem ter uma licença do **sistema de telefonia** e estar habilitadas para o Enterprise Voice ou ter planos de chamada do Microsoft 365 ou do Office 365. Consulte [atribuir licenças de Complementos do Microsoft Teams](teams-add-on-licensing/assign-teams-add-on-licenses.md). Para habilitá-las para o Enterprise Voice, você pode usar o Windows PowerShell. Por exemplo, execute:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+> Para redirecionar chamadas para pessoas em sua organização que estão online, elas devem ter uma licença do **sistema de telefonia** e estar habilitadas para o Enterprise Voice ou ter planos de chamada do Microsoft 365 ou do Office 365. Consulte [atribuir licenças de Complementos do Microsoft Teams](teams-add-on-licensing/assign-teams-add-on-licenses.md). Para habilitá-las para o Enterprise Voice, você pode usar o Windows PowerShell. Por exemplo, execute: ' Set-CsUser-Identity "Amos Marble"-EnterpriseVoiceEnabled $true.
 
 - Para saber mais sobre planos de chamada, consulte [sistema telefônico e planos de chamada](calling-plan-landing-page.md) e [planos de chamada para o Microsoft 365 ou o Office 365](calling-plans-for-office-365.md).
 
@@ -174,11 +174,11 @@ Os agentes de chamada selecionados devem ser um dos seguintes:
 - Usuários locais do Skype for Business Server
 
   > [!NOTE]
-  > Isso também se aplica se você quiser redirecionar chamadas para as pessoas em sua organização que estão online. Esses indivíduos devem ter uma licença do **sistema telefônico** e o Enterprise Voice habilitados *ou* ter um plano de chamadas. Para obter mais informações, consulte [atribuir licenças do Skype for Business](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses), [atribuir licenças do Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/assign-teams-add-on-licenses)ou [qual plano de chamada é ideal para você?](https://docs.microsoft.com/microsoftteams/calling-plan-landing-page)
+  > Isso também se aplica se você quiser redirecionar chamadas para as pessoas em sua organização que estão online. Esses indivíduos devem ter uma licença do sistema telefônico e o Enterprise Voice habilitados *ou* ter um plano de chamadas. Para obter mais informações, consulte [atribuir licenças do Skype for Business](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses), [atribuir licenças do Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/assign-teams-add-on-licenses)ou [qual plano de chamada é ideal para você?](https://docs.microsoft.com/microsoftteams/calling-plan-landing-page)
 
    Para habilitar um agente para Enterprise Voice, você pode usar o Windows PowerShell. Por exemplo, execute:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
-- Usuários com uma licença do **sistema telefônico** ou um plano de chamadas que são adicionados a um grupo do Microsoft 365, uma lista de distribuição habilitada para email ou um grupo de segurança. Quando você adiciona um agente em uma lista de distribuição ou um grupo de segurança como um agente de fila de chamada, pode levar até três horas para que a primeira chamada seja recebida. Uma lista de distribuição ou um grupo de segurança recém-criado pode levar até 48 horas para se tornar disponível para ser usado com filas de chamadas. Os grupos do Microsoft 365 recém criados estão disponíveis quase que imediatamente.
+- Usuários com uma licença do sistema telefônico ou um plano de chamadas que são adicionados a um grupo do Microsoft 365, uma lista de distribuição habilitada para email ou um grupo de segurança. Quando você adiciona um agente em uma lista de distribuição ou um grupo de segurança como um agente de fila de chamada, pode levar até três horas para que a primeira chamada seja recebida. Uma lista de distribuição ou um grupo de segurança recém-criado pode levar até 48 horas para se tornar disponível para ser usado com filas de chamadas. Os grupos do Microsoft 365 recém criados estão disponíveis quase que imediatamente.
 
 - Se seus agentes estiverem usando o aplicativo Microsoft Teams para chamadas da fila de chamadas, eles precisarão estar no modo TeamsOnly.
 
@@ -274,11 +274,23 @@ A configuração padrão é 30 segundos, mas pode ser definida por até 3 minuto
 - **Desconectar** A chamada está desconectada.
 - **Redirecionar para** Ao escolher essa opção, selecione uma das seguintes opções:
 
-  - **Pessoa na organização** Um usuário online com uma licença do **sistema de telefonia** e estar habilitado para o Enterprise Voice ou ter um plano de chamada. Você pode configurá-lo para que o chamador possa ser enviado para o correio de voz. Para fazer isso, selecione uma pessoa em sua organização e defina esta pessoa para que as chamadas sejam encaminhadas diretamente para o correio de voz.
+  - **Pessoa na organização** Um usuário online com uma licença do sistema de telefonia e estar habilitado para o Enterprise Voice ou ter um plano de chamada. Você pode configurá-lo para que o chamador possa ser enviado para o correio de voz. Para fazer isso, selecione uma pessoa em sua organização e defina esta pessoa para que as chamadas sejam encaminhadas diretamente para o correio de voz.
 
   Para saber mais sobre as licenças necessárias para correio de voz, consulte [Configurar correio de voz na nuvem](set-up-phone-system-voicemail.md).
 
   - **Aplicativo de voz** Selecione o nome de uma conta de recurso associada a uma fila de chamadas ou atendedor automático que já foi criado.
+
+  - **Número de telefone externo** Escolha esta imagem para transferir o chamador para um número de telefone externo que você especificar. Observe o seguinte:
+
+    - A conta do recurso associada ao aplicativo que faz a transferência PSTN deve ter um número de telefone e receber uma licença do sistema de telefonia virtual. Não há suporte para licenças do sistema telefônico. Além disso, a conta do recurso deve ter um dos seguintes:
+        - Para uma conta de recurso com um número de plano de chamada, atribua uma licença de [plano de chamada](calling-plans-for-office-365.md) .
+        - Para uma conta de recurso com um número de roteamento direto, atribua uma [política de roteamento de voz online](manage-voice-routing-policies.md).
+    - O número de telefone de saída exibido é determinado da seguinte maneira:
+        - Para números de plano de chamada, o número de telefone do chamador original é exibido.
+        - Para números de roteamento direto, o número enviado é baseado na configuração P-Assertd-Identity (PAI) no SBC, da seguinte maneira:
+            - Se definido como Disabled, o número de telefone do chamador original será exibido. Esta é a configuração padrão e recomendada.
+            - Se definido como habilitado, o número de telefone da conta do recurso será exibido.
+    - Não há suporte para transferências entre troncos de plano de chamada e troncos diretos de roteamento.
 
 * * *
 
@@ -292,11 +304,23 @@ O valor de tempo limite pode ser definido em segundos, em intervalos de 15 segun
 
 - **Desconectar** A chamada está desconectada.
 - **Redirecionar esta chamada para** Ao escolher esta opção, você tem estas opções:
-  - **Pessoa na organização** Um usuário online com uma licença do **sistema de telefonia** e estar habilitado para o Enterprise Voice ou ter planos de chamada. Para configurá-lo para que a pessoa que está ligando possa ser enviada para o correio de voz, selecione uma pessoa em sua organização e defina esta pessoa para que as chamadas sejam encaminhadas diretamente para o correio de voz.
+  - **Pessoa na organização** Um usuário online com uma licença do sistema de telefonia e estar habilitado para o Enterprise Voice ou ter planos de chamada. Para configurá-lo para que a pessoa que está ligando possa ser enviada para o correio de voz, selecione uma pessoa em sua organização e defina esta pessoa para que as chamadas sejam encaminhadas diretamente para o correio de voz.
 
   Para saber mais sobre as licenças necessárias para correio de voz, consulte [Configurar correio de voz na nuvem](set-up-phone-system-voicemail.md).
 
   - **Aplicativo de voz** Selecione o nome de uma conta de recurso associada a uma fila de chamadas ou atendedor automático que você já criou.
+
+  - **Número de telefone externo** Escolha esta imagem para transferir o chamador para um número de telefone externo que você especificar. Observe o seguinte:
+
+    - A conta do recurso associada ao aplicativo que faz a transferência PSTN deve ter um número de telefone e receber uma licença do sistema de telefonia virtual. Não há suporte para licenças do sistema telefônico. Além disso, a conta do recurso deve ter um dos seguintes:
+        - Para uma conta de recurso com um número de plano de chamada, atribua uma licença de [plano de chamada](calling-plans-for-office-365.md) .
+        - Para uma conta de recurso com um número de roteamento direto, atribua uma [política de roteamento de voz online](manage-voice-routing-policies.md).
+    - O número de telefone de saída exibido é determinado da seguinte maneira:
+        - Para números de plano de chamada, o número de telefone do chamador original é exibido.
+        - Para números de roteamento direto, o número enviado é baseado na configuração P-Assertd-Identity (PAI) no SBC, da seguinte maneira:
+            - Se definido como Disabled, o número de telefone do chamador original será exibido. Esta é a configuração padrão e recomendada.
+            - Se definido como habilitado, o número de telefone da conta do recurso será exibido.
+    - Não há suporte para transferências entre troncos de plano de chamada e troncos diretos de roteamento.
 
 ## <a name="change-caller-id-for-outbound-calls"></a>Alterar a identificação de chamada para chamadas de saída
 

@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Saiba mais sobre atendedores automáticos da nuvem e como usá-los para permitir que os chamadores se movimentem por meio de um sistema de menus para localizar e fazer ou transferir chamadas para usuários ou departamentos.
-ms.openlocfilehash: 590d2282faa4642cbd23c195e6a2e9e327803993
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 53353df78c0344b3cf96b1854ea576e8d907bfbc
+ms.sourcegitcommit: c8b5d4dd70d183f7ca480fb735a19290a3457b30
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665183"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45077636"
 ---
 # <a name="what-are-cloud-auto-attendants"></a>O que são atendedores automáticos da nuvem?
 
@@ -42,7 +42,7 @@ Para configurar um atendedor automático para o sistema telefônico, vá para [c
 Um atendedor automático na nuvem tem os seguintes recursos:
   
 - Ele oferece saudações corporativas ou informativas.
-- Ele oferece menus corporativos personalizados. Você pode personalizar esses menus para ter mais do que um nível.
+- It can provide custom corporate menus. You can customize these menus to have more than one level.
 - Ele fornece pesquisa de diretório que permite que as pessoas liguem para pesquisar o diretório da organização em busca de um nome.
 - Ele permite que alguém que ligue para alcançar ou deixar uma mensagem para uma pessoa em sua organização.
 - Ele oferece suporte a vários idiomas para solicitações, conversão de texto em fala e reconhecimento de fala.
@@ -71,8 +71,9 @@ Para começar a usar os atendedores automáticos, é importante lembrar-se de qu
     > [!IMPORTANT]
     > [!IMPORTANTE] Os números de telefone (assinante) não podem ser atribuídos aos atendedores automáticos  somente números de telefone de serviço chamadas gratuitas ou tarifadas podem ser usados.
 
-- Um sistema de atendedor automático completo geralmente envolve vários atendedores automáticos e só pode exigir um único número de telefone atribuído para o atendedor automático de nível superior ou de entrada. Outros atendedores automáticos ou filas de chamadas em todo o sistema precisarão apenas de um número de telefone, se você quiser fornecer vários pontos de entrada no sistema.
-- É possível aplicar mais de um número de telefone a um atendedor automático associando mais de uma conta de recurso a um atendedor automático.
+- Um sistema de atendedor automático completo geralmente envolve vários atendedores automáticos.
+- É possível aplicar mais de um número de telefone a atendedores automáticos em nível de entrada.
+- Os atendedores automáticos de nível não entry ou as filas de chamadas em todo o sistema precisarão apenas de um número de telefone se eles forem fazer chamadas PSTN de saída.
   
 ## <a name="feature-overview"></a>Visão geral do recurso
 

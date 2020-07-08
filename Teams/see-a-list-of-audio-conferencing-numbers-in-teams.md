@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: Saiba como Pesquisar os números de conferência discada que estão disponíveis para conferências de áudio no Microsoft Teams.
-ms.openlocfilehash: d7eb7f1e1679e49f6a6e1b09009a6772cf1bc47f
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: c2d8850ddda3581932565e8d1dc2357c261e4e15
+ms.sourcegitcommit: c8b5d4dd70d183f7ca480fb735a19290a3457b30
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691177"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45077656"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-microsoft-teams"></a>Ver uma lista de números de audioconferência no Microsoft Teams
 
@@ -38,14 +38,11 @@ Ao configurar os usuários de audioconferência para o Microsoft Teams, é poss�
 Se houver somente um número de telefone disponível para sua organização, ele será usado como número padrão para todos os seus usuários. Quando vários números de telefone estão disponíveis, você pode selecionar o número de telefone padrão de cada usuário. O número padrão será incluído nos convites de reunião do Microsoft Teams.
   
 Consulte [Definir os números de telefone incluídos no convite](set-the-phone-numbers-included-on-invites-in-teams.md) para alterar o número de telefone de discagem para um único usuário.
-  
-> [!NOTE]
-> [!OBSERVAçãO] Números de discagem locais são dedicados à sua organização e são os únicos que podem ser definidos como números de telefone padrão. No entanto, números de discagem internacionais podem ser compartilhados entre várias organizações. 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
-## <a name="to-view-your-audio-conferencing-phone-numbers"></a>Para ver seus números de telefone de audioconferência
+## <a name="to-view-your-audio-conferencing-phone-numbers"></a>Para ver os números de telefone da conferência de áudio
 
 ![Um ícone mostrando o logotipo do Microsoft Teams](media/teams-logo-30x30.png) **Usando o centro de administração do Microsoft Teams**
 
