@@ -271,7 +271,7 @@
 ### [Servidores proxy para o Skype for Business Online](../optimizing-your-network/proxy-servers-for-skype-for-business-online.md)
 
 
-## [Análise de Chamada e Painel de Qualidade de Chamadas](/microsoftteams/difference-between-call-analytics-and-call-quality-dashboard?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
+## [Análise de Chamada e Painel de Qualidade de Chamadas](/microsoftteams/monitor-call-quality-qos?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Dimensões e medidas disponíveis no Painel de Qualidade de Chamadas](/microsoftteams/dimensions-and-measures-available-in-call-quality-dashboard?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Configurar a Análise de Chamada do Skype for Business](/microsoftteams/set-up-call-analytics?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Ativando e usando o Painel de Qualidade de Chamadas](/microsoftteams/turning-on-and-using-call-quality-dashboard?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
