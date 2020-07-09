@@ -1,12 +1,12 @@
 ---
-title: Implementar QoS e monitorar a análise de chamadas
-author: dstrome
-ms.author: dstrome
+title: Monitorar e melhorar a qualidade das chamadas para o Microsoft Teams
+author: lolajacobsen
+ms.author: lolaj
 manager: Serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
-ms.reviewer: ''
+ms.reviewer: vkorlep, siunies
 description: Use as configurações de qualidade do serviço (QoS) e, em seguida, faça a análise de chamada e painel de qualidade da chamada no Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
@@ -17,43 +17,56 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 2157ea9ec536e644440161fb321c7a60bb8d396e
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 2d5db11bbd9608aebb1eb2b73ebacc9793629e44
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44638610"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085928"
 ---
-# <a name="implement-qos-and-monitor-call-quality-in-microsoft-teams"></a>Implementar QoS e monitorar a qualidade das chamadas no Microsoft Teams
+# <a name="monitor-and-improve-call-quality-for-microsoft-teams"></a>Monitorar e melhorar a qualidade das chamadas para o Microsoft Teams
 
-## <a name="get-started"></a>Comece a usar
+Este artigo apresenta três ferramentas importantes que você pode usar para monitorar, solucionar problemas, gerenciar e melhorar a qualidade das chamadas no Microsoft Teams. 
 
-À medida que seus usuários começarem a usar o Microsoft Teams para fazer chamadas e participar de reuniões, eles poderão enfrentar a voz de um usuário que está decompondo ou travando uma chamada ou reunião. O vídeo compartilhado pode congelar ou ser pixel ou falhar completamente. Isso ocorre devido aos pacotes de IP que representam o tráfego de voz e vídeo que está encontrando o congestionamento da rede e que chega fora de sequência. Há maneiras de identificar esses problemas quando eles fazem a superfície e impedem o retorno, principalmente a QoS (qualidade de serviço).
+- **Painel de qualidade de chamada (CQD)**: para analisar tendências ou problemas de toda a organização, melhorar o desempenho
 
-A **QoS (qualidade de serviço)** é uma maneira de permitir o tráfego de rede em tempo real (como fluxos de voz ou de vídeo) que é sensível a atrasos na rede para "recortar linha" na frente do tráfego que é menos confidencial (como baixar um novo aplicativo, onde um segundo adicional para baixar não é um negócio importante). A QoS identifica e marca todos os pacotes em fluxos em tempo real usando objetos de política de grupo do Windows e um recurso de roteamento chamado de listas de controle de acesso baseado em porta, o que, em seguida, ajuda sua rede a fornecer voz, vídeo e compartilhamento de tela transmite suas próprias partes exclusivas de largura de banda de rede.
+- **Análise de chamadas**: para analisar a qualidade da chamada e da reunião para usuários individuais
 
- Por enquanto, vamos dizer que é muito parecido com o envio de uma carta por meio do e-mail: se você enviar a tarifa do livro de ti, ele fica logo em breve, e isso é bom o suficiente, se você enviá-lo para a primeira classe, ele se torna muito mais rápido e, se você enviar o email de prioridade de ti, ele será incluído dentro de dois dias. De redes de curso são executados mais rapidamente do que o e-mail, mas ele ainda é válido para que a velocidade seja crítica para alguns aplicativos e não é tão importante para outras pessoas. Este assunto é inerentemente detalhado e difícil de entender em primeiro lugar, mas faz uma grande diferença na experiência do usuário para que ele valha a pena investir tempo e energia antecipadamente. Leia [implementar qualidade de serviço (QoS) no Microsoft Teams](QoS-in-Teams.md) para obter uma discussão mais detalhada.
+- **QoS (qualidade de serviço)**: priorizar o tráfego de rede importante
 
-O ideal é que você implementasse a QoS na sua rede interna enquanto configurou o Microsoft Teams, mas se for pequeno o suficiente pode ser opcional. Isso permite que o tráfego de voz e vídeo sensível à atraso seja priorizado antes do outro tráfego. Você faria essa priorização em todos os [dispositivos cliente](QoS-in-Teams-clients.md), no centro de [Administração do Microsoft Teams](meeting-settings-in-teams.md#set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings), bem como nos switches e roteadores da sua rede.
 
-O [**painel de análise de chamadas e o painel de qualidade de chamada**](difference-between-call-analytics-and-call-quality-dashboard.md) são usados para localizar e solucionar problemas que surgem durante a operação em andamento.  
 
-A **análise de chamadas** mostra informações detalhadas sobre os dispositivos, redes e conectividade relacionados a ***chamadas e reuniões específicas*** para cada usuário em uma conta do Microsoft Teams ou do Skype for Business. Se você for um administrador do Microsoft 365 ou do Office 365, poderá usar a análise de chamadas para solucionar problemas de qualidade de chamada e conexão que ocorrem em uma chamada específica. Isso pode ajudá-lo a identificar e eliminar problemas.
+## <a name="monitor-and-troubleshoot-call-quality"></a>Monitorar e solucionar problemas com a qualidade das chamadas
+Você usará a análise de **chamadas** por usuário e o **painel de qualidade da chamada** para encontrar e solucionar problemas de qualidade de chamada que surgem durante a operação contínua. Isso permite que você conduza melhorias de desempenho em toda a sua rede. Ambas as ferramentas estão no centro de administração do teams.
 
-O **painel de qualidade de chamada (CQD)** foi projetado para ajudar administradores e engenheiros de rede a otimizar sua ***rede***, não analisar e solucionar problemas de uma única chamada. CQD muda o foco de usuários específicos para ver as informações agregadas de uma organização inteira. Isso também pode ajudá-lo a identificar e eliminar problemas.
+ - A **análise de chamadas** mostra informações detalhadas sobre os dispositivos, redes e conectividade relacionados a ***chamadas e reuniões específicas*** para cada usuário no Microsoft Teams. Os agentes de administração do Teams e da assistência técnica usarão essas informações para solucionar problemas de qualidade de chamada e conexão em uma chamada específica. Para saber mais, leia [Configurar análise de chamadas](set-up-call-analytics.md) e [use a análise de chamadas para solucionar problemas de qualidade de chamadas ruins](use-call-analytics-to-troubleshoot-poor-call-quality.md).
+ 
+ - O **painel de qualidade de chamada (CQD)** oferece uma ***visão geral*** da qualidade das chamadas em toda a sua organização. Use as informações do CQD para ajudá-lo a identificar e corrigir problemas. Primeiro, [Configure o CQD](turning-on-and-using-call-quality-dashboard.md). Em seguida, leia [gerenciar a qualidade da chamada e da reunião no Teams](quality-of-experience-review-guide.md).
+
+ A análise de chamadas e o CQD são executados em paralelo e podem ser usados de forma independente ou em conjunto. Por exemplo, se um especialista em suporte a comunicações determinar que precisa de mais ajuda para solucionar o problema de chamada de um usuário, ele escalonará a chamada para um engenheiro de suporte a comunicações, que terá acesso a informações adicionais sobre a chamada. Por sua vez, o engenheiro de suporte à comunicação alerta um engenheiro de rede para um possível problema relacionado a sites que observou na análise de chamadas. O engenheiro de rede verifica CQD para ver se um problema geral relacionado ao site pode ser um motivo contribuinte do problema com a chamada do usuário.
+
+
+## <a name="prioritize-important-network-traffic-using-qos"></a>Priorize o tráfego de rede importante usando QoS
+À medida que seus usuários começarem a usar o Microsoft Teams para chamadas e reuniões, eles poderão enfrentar a voz de um autor ou recortar ou recortar uma chamada ou reunião. O vídeo compartilhado pode congelar ou ser pixel ou falhar completamente. Isso ocorre devido aos pacotes de IP que representam o tráfego de voz e vídeo que está encontrando o congestionamento da rede e que chega fora de sequência. Se isso acontecer (ou para impedir que isso aconteça em primeiro lugar), use a **QoS (qualidade de serviço)**. 
+
+Com a QoS, você prioriza o tráfego de rede sensível à demora (por exemplo, fluxos de voz ou vídeo), permitindo que ele seja "recortado em linha" na frente do tráfego que seja menos confidencial (como baixar um novo aplicativo, onde um segundo adicional para baixar não é um negócio). A QoS identifica e marca todos os pacotes em fluxos em tempo real usando objetos de política de grupo do Windows e um recurso de roteamento chamado de listas de controle de acesso baseado em porta, o que instrui sua rede a fornecer voz, vídeo e tela que compartilhem sua própria largura de banda de rede dedicada.
+
+O ideal é que você implemente a QoS na sua rede interna enquanto estiver pronto para implantar o Microsoft Teams, mas você pode fazer isso a qualquer momento. Se você for suficientemente pequeno, talvez não precise de QoS.
+
+Quando estiver pronto, leia [implementar qualidade de serviço (QoS) no Microsoft Teams](QoS-in-Teams.md).
+
+Para usar a QoS para gerenciar o tráfego de reunião, confira [definir como deseja manipular o tráfego de mídia em tempo real para reuniões de equipe](meeting-settings-in-teams.md#set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings).
+
 
 ## <a name="related-topics"></a>Tópicos Relacionados
 
-[Implementar a QoS (qualidade de serviço) no Microsoft Teams](QoS-in-Teams.md)
-
-[Vídeo: visão geral da qualidade da chamada](https://aka.ms/teams-quality)
-
-[Configurar Análise de Chamada](set-up-call-analytics.md)
+[Configurar a análise de chamadas](set-up-call-analytics.md)
 
 [Usar a Análise de Chamada para solucionar problemas de baixa qualidade da chamada](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
-[Ativando e usando o Painel de Qualidade de Chamadas](turning-on-and-using-call-quality-dashboard.md)
+[Configurar o CQD](turning-on-and-using-call-quality-dashboard.md)
 
-[Dimensões e medidas disponíveis no Painel de Qualidade de Chamadas](dimensions-and-measures-available-in-call-quality-dashboard.md)
+[Gerenciar a qualidade da chamada e da reunião no Teams](quality-of-experience-review-guide.md)
 
-[Classificação de fluxo no painel de qualidade da chamada](stream-classification-in-call-quality-dashboard.md)
+[Solução de problemas do Teams](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
+

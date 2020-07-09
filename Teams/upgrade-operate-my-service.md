@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d7828675f2a1dc7f3ea6f1cbad1227a9c47bd816
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: c23d5d3967e681b0b30d69c5977672063f4e648e
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868498"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085907"
 ---
 # <a name="operate-your-service"></a>Operar seu serviço
 
@@ -49,7 +49,9 @@ As tarefas e atividades neste guia são agrupadas em oito categorias, conforme m
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Pontos de decisão</td><td><ul><li>Decida como as operações serão implementadas para equipes.</li></ul></td></tr>
+
 <tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Próximas etapas</td><td><ul><li>Examine o guia de operações totalmente.</li><li>Implemente uma estratégia de operações que se alinhe às metas da sua organização para fornecer a qualidade e a confiabilidade das cargas de trabalho de equipes.</li><li>Examine o guia de revisão da qualidade da experiência.</li><li> Implemente uma estratégia de operações para executar regularmente análises de qualidade de experiência para garantir que a implantação de suas equipes esteja operando em seus recursos de pico.</li></ul></td></tr>
+
 </table>
 
 ### <a name="operational-role-mapping"></a>Mapeamento de funções operacionais
@@ -377,12 +379,12 @@ Para garantir a integridade da sua rede, várias atividades de operações preci
 Todas as organizações precisam de um grupo ou indivíduo para serem contados por qualidade. Essa é a função mais importante do gerenciamento do serviço. A função de especialista em qualidade é atribuída a uma pessoa ou grupo que seja apaixonado pela experiência dos usuários.
 Essa função requer a habilidade de identificar tendências no ambiente e a capacidade de trabalhar com outras equipes para possibilitar correções. O melhor candidato para o posto de defensor da qualidade costuma ser o proprietário do serviço do cliente. Dependendo do tamanho e da complexidade da organização, isso pode ser qualquer pessoa ou grupo com entusiasmo para garantir uma experiência de usuário de alta qualidade.
 
-O especialista em qualidade aproveita as ferramentas existentes e os processos documentados, como o painel de qualidade da chamada (CQD) e o guia de avaliação da qualidade da experiência, para monitorar a experiência do usuário, identificar tendências de qualidade e remediação quando necessário.
+O especialista em qualidade aproveita as ferramentas existentes e os processos documentados, como o CQD (painel de qualidade da chamada) e [aprimorar e monitorar a qualidade das chamadas para as equipes](monitor-call-quality-qos.md), monitorar a experiência do usuário, identificar tendências de qualidade e remediação quando necessário.
 O especialista em qualidade deve funcionar com as respectivas equipes para direcionar ações de correção e reportar para um Comitê de direcionamento sobre o progresso e quaisquer problemas de abertura.
 
-O [Guia de revisão da qualidade da experiência](https://aka.ms/qerguide) inclui atividades que avaliam e fornecem diretrizes de correção em áreas importantes com impacto maior na melhoria da experiência do usuário. A orientação fornecida no guia de revisão da experiência de qualidade concentra-se em usar o CQD online como a principal ferramenta para denunciar e investigar cada área, com foco no áudio para maximizar a adoção e o impacto. Todas as otimizações feitas à rede para melhorar a experiência de área também se converterão diretamente em aprimoramentos no vídeo e no compartilhamento da área de trabalho.
+[Melhorar e monitorar a qualidade da chamada para o Teams](monitor-call-quality-qos.md) inclui atividades que avaliam e fornecem orientação de correção em áreas importantes com impacto maior na melhoria da experiência do usuário. A orientação fornecida no guia de revisão da experiência de qualidade concentra-se em usar o CQD online como a principal ferramenta para denunciar e investigar cada área, com foco no áudio para maximizar a adoção e o impacto. Todas as otimizações feitas à rede para melhorar a experiência de área também se converterão diretamente em aprimoramentos no vídeo e no compartilhamento da área de trabalho.
 
-É altamente recomendável que você Innomine o especialista de qualidade em início. Depois de serem nomeados, eles devem começar a se familiarizar com o conteúdo no guia de revisão de qualidade da experiência e materiais de treinamento associados.
+É altamente recomendável que você Innomine o especialista de qualidade em início. Depois de serem nomeados, eles devem começar a se familiarizar com o conteúdo em [aprimorar e monitorar a qualidade da chamada para equipes](monitor-call-quality-qos.md) e material de treinamento associado.
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>Tarefas diárias/semanais/mensais/necessárias
 
@@ -398,7 +400,7 @@ O [Guia de revisão da qualidade da experiência](https://aka.ms/qerguide) inclu
 
 [Carregar informações de construção](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information)
 
-[Guia de revisão da experiência de qualidade](https://aka.ms/qerguide)
+[Melhorar e monitorar a qualidade da chamada para equipes](monitor-call-quality-qos.md)
 
 <!--ENDOFSECTION-->
 
@@ -419,7 +421,7 @@ Os firewalls do lado do cliente podem afetar a qualidade das chamadas e até mes
 
 ### <a name="wi-fi-drivers"></a>Drivers de Wi-Fi
 
-Os drivers de Wi-Fi podem ser problemáticos. Como exemplo, um driver pode ter comportamentos de roaming muito agressivos entre pontos de acesso que podem induzir comutação de ponto de acesso desnecessária, que leva a uma qualidade de chamada ruim. Um driver de Wi-Fi com mau desempenho pode ser descoberto por meio de uma análise de qualidade da experiência (consulte [Guia de revisão de qualidade de experiência](https://aka.ms/qerguide) para obter mais detalhes). É essencial implementar um processo orientado por qualidade que monitora novos drivers Wi-Fi e garante que eles sejam testados antes de serem implantados na população geral do usuário.
+Os drivers de Wi-Fi podem ser problemáticos. Como exemplo, um driver pode ter comportamentos de roaming muito agressivos entre pontos de acesso que podem induzir comutação de ponto de acesso desnecessária, que leva a uma qualidade de chamada ruim. Um driver de Wi-Fi com mau desempenho pode ser descoberto por meio de uma análise da qualidade da experiência (consulte [melhorar e monitorar a qualidade da chamada para o Microsoft Teams](monitor-call-quality-qos.md) para obter mais detalhes). É essencial implementar um processo orientado por qualidade que monitora novos drivers Wi-Fi e garante que eles sejam testados antes de serem implantados na população geral do usuário.
 
 ### <a name="endpoint-management"></a>Gerenciamento de ponto de extremidade
 
@@ -445,7 +447,7 @@ Mesmo que você tenha seguido a orientação anterior, os usuários da sua organ
 |---|---|---|---|
 | Requisitos de ponto de extremidade | Certifique-se de que o ponto de extremidade do teams continua a atender a todos os requisitos de software para as equipes listadas em [obter clientes para Microsoft Teams](get-clients.md). | Mensal | |
 | Firewalls de ponto de extremidade | Mantenha as exclusões apropriadas no firewall da empresa com base nas informações nas [URLs e nos intervalos de endereços IP do Office 365](https://aka.ms/o365ips). Seu fornecedor de terceiros terá orientação específica para manter as exclusões. Assine o [RSS feed](https://support.office.com/o365ip/rss) para ser notificado automaticamente sobre as alterações. | Conforme necessário | |
-| Drivers de Wi-Fi | Testar e atualizar drivers Wi-Fi no PC. Valide os resultados usando o CQD ([Guia de revisão da qualidade da experiência](https://aka.ms/qerguide)). | Conforme necessário | |
+| Drivers de Wi-Fi | Testar e atualizar drivers Wi-Fi no PC. Valide os resultados usando CQD ([melhore e monitore a qualidade das chamadas para o Teams](monitor-call-quality-qos.md)). | Conforme necessário | |
 | Gerenciamento de ponto de extremidade | Mantenha o catálogo de pontos de extremidade compatíveis e dispositivos de interface (como fones de ouvido com microfone). Gerenciar contratos de fornecedor, garantia, distribuição, substituição e políticas de reparo. | Mensal | |
 | Solução de problemas de ponto de extremidade | As tarefas de solução de problemas podem incluir verificação de conectividade, consultoria na lista de problemas conhecidos, coleta de registros, análise e escalonamento ao suporte da Microsoft ou a outros fornecedores. | Conforme necessário | |
 

@@ -1,9 +1,9 @@
 ---
-title: Configurar Análise de Chamada
+title: Configurar a análise de chamadas do Microsoft Teams
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
-ms.reviewer: mikedav, wlooney
+ms.reviewer: mikedav, vkorlep
 ms.topic: article
 ms.assetid: fbf7247a-84ae-46cc-9204-2c45b1c734cd
 ms.tgt.pltfrm: cloud
@@ -13,88 +13,54 @@ ms.collection:
 search.appverid: MET150
 audience: Admin
 appliesto:
-- Skype for Business
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
 - CSH
 ms.custom:
 - Reporting
-description: Configurar e usar a análise de chamadas para identificar e solucionar problemas de qualidade de chamada do Skype for Business e do Microsoft Teams.
-ms.openlocfilehash: 347725e77806f94e44b4c8d160736ceb23265f11
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+description: Configurar a análise de chamadas por usuário para identificar e solucionar problemas de qualidade de chamada do Microsoft Teams.
+ms.openlocfilehash: 233d91a60ea783238e10ed1baa02334494ef6e08
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029402"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085307"
 ---
-# <a name="set-up-call-analytics"></a>Configurar Análise de Chamada
+# <a name="set-up-call-analytics-for-microsoft-teams"></a>Configurar a análise de chamadas do Microsoft Teams
 
-Como um administrador do teams ou do Skype for Business Online, você pode usar a análise de chamadas para solucionar problemas de qualidade e conexão de chamadas do Skype for Business e do Microsoft Teams. Pode ser útil configurar os recursos a seguir na análise de chamadas:
+Como administrador do Microsoft Teams, você pode usar a análise de chamadas por usuário para solucionar problemas com a qualidade das chamadas e problemas de conexão para **usuários individuais**. Para aproveitar ao máximo a análise de chamadas, configure o seguinte:
   
-- Defina permissões que permitam a outros funcionários, como agentes de assistência técnica, usar o recurso de análise de chamadas, mas evitar que eles acessem o restante do centro de administração do Microsoft Teams. 
+- Atribua funções de suporte especializadas a pessoas, como agentes de assistência técnica, para permitir que eles vejam a análise de chamadas para os usuários. Essas funções de suporte não podem acessar o restante do centro de administração do teams. 
     
-- Adicione informações de construção, site e locatário para fazer uma chamada de análise ao carregar um arquivo de dados. tsv ou. csv.
+- Adicione informações de construção, site e locatário às análises de chamadas por usuário carregando um arquivo de dados. tsv ou. csv.
     
-**O recurso de análise de chamadas agora está disponível no centro de administração do Microsoft Teams**. Para ver todas as informações de chamada e dados de um usuário, use a guia **histórico de chamadas** . Você pode fazer isso consultando a página de perfil do usuário seguindo um destes procedimentos:
-
-- Procure pelo usuário no painel.
+Quando estiver pronto para começar a usar a análise de chamadas por usuário, leia [usar a análise de chamadas por usuário para solucionar problemas de qualidade de chamada de baixa qualidade](use-call-analytics-to-troubleshoot-poor-call-quality.md).
   
-   ![Captura de tela da pesquisa do usuário no painel](media/set-up-call-analytics-image-1.png)
+## <a name="give-permission-to-support-and-helpdesk-staff"></a>Conceder permissão para a equipe de suporte e helpdesk
 
--  Selecione **usuários** na navegação à esquerda.
+Como administrador do Teams, você tem acesso completo para fazer chamadas para a análise de todos os usuários. Criamos algumas funções especializadas do Azure Active Directory que você pode atribuir à equipe de suporte e aos agentes de helpdesk para que elas também possam acessar a análise de chamadas por usuário (sem ter acesso ao resto do centro de administração do Teams). Atribua a função de **especialista de comunicações do teams** a usuários que devem ter um modo de exibição limitado de análise de chamadas por usuário (suporte de camada 1). Atribua a função de **engenheiro de suporte de comunicações ao Teams** a usuários que precisam de acesso completo a análises de chamadas por usuário (suporte a nível 2). Nenhuma função tem acesso ao restante do centro de administração do teams.
 
-   ![Captura de tela da navegação à esquerda](media/set-up-call-analytics-image-2.png)
-  
-## <a name="set-call-analytics-permissions"></a>Definir permissões para a análise de chamadas
-<a name="BKMK_SetCAPerms"></a>
+Para saber o que cada uma dessas funções faz, leia [o que faz cada função de suporte do teams](use-call-analytics-to-troubleshoot-poor-call-quality.md#what-does-each-teams-support-role-do)?
 
-Como administrador, você tem acesso total a todos os recursos do recurso de análise de chamadas. Além disso, você pode atribuir funções do Azure Active Directory a equipe de suporte. Atribua a função de especialista de comunicações do teams a usuários que devem ter uma visão limitada da análise de chamadas. Atribua a função de engenheiro de suporte de comunicações ao Teams a usuários que precisam acessar a funcionalidade completa do recurso de análise de chamadas. Os dois níveis de permissão impedem o acesso ao restante do centro de administração do Microsoft Teams.
-
-> [!NOTE]
-> A função de especialista de suporte de comunicações é equivalente ao suporte de nível 1 e a função de engenheiro de suporte de comunicações equivale ao suporte de nível 2.
-
-Para obter mais informações sobre as funções de administração do Teams, consulte [usar funções de administrador do Microsoft Teams para gerenciar o Teams](using-admin-roles.md). 
-  
-Especialistas de suporte de comunicações lidam com problemas básicos de qualidade de chamada. Eles não investigam problemas com reuniões. Em vez disso, eles coletam informações relacionadas e encaminham para um engenheiro de suporte de comunicações. Engenheiros de suporte a comunicações consulte informações em logs de chamadas detalhados que estão ocultos a especialistas de suporte de comunicações. A tabela a seguir fornece uma visão geral das informações disponíveis para especialistas de suporte de comunicações e engenheiros de suporte de comunicações quando eles usam a análise de chamadas.
-
-|**Atividades**|**Informações na análise de chamadas**|**O que o especialista de suporte de comunicações vê**|**O que o engenheiro de suporte a comunicações vê**|
-|:-----|:-----|:-----|:-----|
-|**Chamadas** <br/> |Nome do chamador  <br/> |Somente o nome do usuário para o qual o agente procurou.  <br/> |Nome de usuário.  <br/> |
-||Nome do destinatário  <br/> |Mostra como usuário interno ou externo.  <br/> |Nome do destinatário.  <br/> |
-||Número de telefone do chamador  <br/> |Número de telefone inteiro, exceto os últimos três dígitos, ofuscados com símbolos de asterisco. Por exemplo, 15552823 * * *.  <br/> |Número de telefone inteiro, exceto os últimos três dígitos, ofuscados com símbolos de asterisco. Por exemplo, 15552823 * * *.  <br/> |
-||Número de telefone do destinatário  <br/> |Número de telefone inteiro, exceto os últimos três dígitos, ofuscados com símbolos de asterisco. Por exemplo, 15552823 * * *.  <br/> |Número de telefone inteiro, exceto os últimos três dígitos, ofuscados com símbolos de asterisco. Por exemplo, 15552823 * * *.  <br/> |
-||**** > Guia**avançado** de detalhes da chamada <br/> |As informações não são mostradas.  <br/> |Todos os detalhes mostrados, como nomes de dispositivos, endereços IP, mapeamento de sub-rede e muito mais.  <br/> |
-||**** > Guia**depuração** **avançada** > de detalhes da chamada <br/> |As informações não são mostradas.  <br/> |Todos os detalhes exibidos, como sufixo DNS e SSID.  <br/> |
-|**Reuniões** <br/> |Nomes dos participantes  <br/> |Somente o nome do usuário para o qual o agente procurou. Outros participantes identificados como usuário interno ou usuário externo.  <br/> |Todos os nomes mostrados.  <br/> |
-||Contagem de participantes  <br/> |Número de participantes.  <br/> |Número de participantes.  <br/> |
-||Detalhes da sessão  <br/> |Detalhes da sessão mostrados com exceções. Somente o nome do usuário para o qual o agente procurou é mostrado. Outros participantes identificados como usuário interno ou usuário externo. Os últimos três dígitos do número de telefone ofuscados com símbolos de asterisco.  <br/> |Detalhes da sessão mostrados. Nomes de usuário e detalhes da sessão mostrados. Os últimos três dígitos do número de telefone ofuscados com símbolos de asterisco.  <br/> |
-||||
-   
- ### <a name="set-up-permissions-by-assigning-admin-roles"></a>Configurar permissões atribuindo funções de administrador
-<a name="BKMK_SetUpTier"> </a>
+Para obter mais informações sobre as funções de administração do Teams, consulte [usar funções de administração do teams para gerenciar o Teams](using-admin-roles.md). Para saber como atribuir funções de administrador no Azure Active Directory, consulte [Exibir e atribuir funções no Azure Active Directory](https://docs.microsoft.com/Azure/active-directory/users-groups-roles/directory-manage-roles-portal).
 
 Para saber como atribuir funções administrativas no Azure Active Directory, consulte [Exibir e atribuir funções no Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-manage-roles-portal).
 
 ## <a name="upload-a-tsv-or-csv-file-to-add-building-site-and-tenant-information"></a>Carregar um arquivo. tsv ou. csv para adicionar informações de criação, site e locatário
-<a name="BKMK_UploadFiles"> </a>
 
-Você pode adicionar informações de construção, site e locatário para fazer uma chamada de análise para fazer o upload de um arquivo. csv ou. TSV. Com todas essas informações, a análise de chamadas pode mapear endereços IP para locais físicos. Os agentes da assistência técnica ou da assistência técnica podem encontrar essas informações úteis para ajudar a identificar tendências em problemas com chamadas. Por exemplo, por que muitos usuários na mesma criação têm problemas de qualidade de chamada semelhantes? 
+Você pode adicionar informações de construção, site e locatário a análises de chamadas por usuário carregando um arquivo. csv ou. TSV. Com todas essas informações, a análise de chamadas pode mapear endereços IP para locais físicos. Os agentes de administradores e helpdesks podem usar essas informações para ajudar a identificar tendências em problemas com chamadas. Por exemplo, por que os usuários na mesma criação têm problemas de qualidade de chamada semelhantes? 
 
-Se você é um administrador do Teams e do Skype for Business, pode usar um arquivo de dados existente do teams & painel de qualidade de chamada do Skype for Business. Primeiro, baixe o arquivo do painel de qualidade de chamada e, em seguida, carregue-o para a análise de chamadas. 
+Se você for um administrador do teams ou do Skype for Business, poderá usar um locatário existente e construir um arquivo de dados do teams ou do painel de qualidade de chamada do Skype for Business (CQD). Primeiro, baixe o arquivo do CQD e carregue-o para a análise de chamadas. 
 
-- Para baixar um arquivo de dados existente, acesse o > **painel** > de qualidade de chamada **do centro de administração do Microsoft Teams****agora**. Na lista **meus uploads** , clique em **baixar** ao lado do arquivo desejado.
+- Para baixar um arquivo de dados existente, acesse o painel de qualidade de chamada **do centro de administração do Microsoft Teams**  >  **Call Quality Dashboard**  >  **agora**. Na lista **meus uploads** , clique em **baixar** ao lado do arquivo desejado. 
 
-- Para carregar o novo arquivo, vá para > **locais**do **centro de administração do Microsoft Teams**e, em seguida, selecione **carregar dados de localização** ou **substituir dados de localização**.
+- Para carregar o novo arquivo, vá para locais do **centro de administração do Microsoft Teams**  >  **Locations**e, em seguida, selecione **carregar dados de localização** ou **substituir dados de localização**.
   
-Se você estiver criando o arquivo. tsv ou. csv do zero, consulte [formato de arquivo de dados locatários e estrutura de arquivo de dados de construção](turning-on-and-using-call-quality-dashboard.md#BKMKTenantDataFile).
+Se você estiver criando o arquivo. tsv ou. csv do zero, consulte [carregar dados do locatário e construção de dados](CQD-upload-tenant-building-data.md).
   
 ## <a name="related-topics"></a>Tópicos relacionados
-<a name="BKMK_UploadFiles"> </a>
 
-[Usar a Análise de Chamada para solucionar problemas de baixa qualidade da chamada](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+[Use a análise de chamadas por usuário para solucionar problemas de qualidade de chamadas ruins](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
-[Análise de Chamada e Painel de Qualidade de Chamadas](difference-between-call-analytics-and-call-quality-dashboard.md)
-
-  
- 
+[Solução de problemas do Teams](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)

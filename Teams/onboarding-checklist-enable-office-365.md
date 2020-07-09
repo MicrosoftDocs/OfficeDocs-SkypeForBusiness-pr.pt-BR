@@ -16,12 +16,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 2439a2fd23566c93fb60772112da098cff315760
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 28a89502a628c3cc9dcdf2c910371bb37568f194
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665163"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085167"
 ---
 # <a name="enable-microsoft-365-or-office-365"></a>Habilitar o Microsoft 365 ou o Office 365
  
@@ -36,4 +36,4 @@ ms.locfileid: "44665163"
 | EXEMPLO 7  | Confirmar administradores do locatário | Trabalhe com suas equipes de segurança para desenvolver um modelo de administração do Microsoft 365 ou do Office 365. <br/><br/>Certifique-se de identificar e documentar todos os administradores de locatários e serviços. | | [Sobre as funções de administração do Microsoft 365 ou do Office 365](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d) |
 | 8 Mb  | Implementar funções administrativas para o seu locatário | Valide se seu modelo de administração atende às necessidades da sua organização e atribui funções de administrador do Microsoft 365 ou do Office 365 aos seus administradores. | | [Atribuir funções de administrador no Microsoft 365 ou no Office 365 para empresas](https://support.office.com/article/Assign-admin-roles-in-Office-365-for-business-eac4d046-1afd-4f1a-85fc-8219c79e1504) |
 | Etapa 9  | Faça login no Painel de qualidade da chamada (CQD) para carregar as informações da sua construção. | Toda implantação do Teams deve tirar proveito do CQD para obter insights sobre a qualidade e a confiabilidade de todas as chamadas que usam o Teams. <br><br>Use as orientações do CQD listadas na coluna **Informações adicionais** para obter o máximo benefício dessa ferramenta. | | [Planejamento para gerenciamento de serviços e qualidade](https://docs.microsoft.com/MicrosoftTeams/prepare-network) <br/><br/>[Guia de Revisão da Experiência de Qualidade](https://aka.ms/qerguide) <br/><br/>[Modelos de revisão da experiência de qualidade](https://aka.ms/qertemplates) <br/><br/>[Ativar e usar o Painel de Qualidade da Chamada no Microsoft Teams e no Skype for Business Online](https://support.office.com/article/Turning-on-and-using-Call-Quality-Dashboard-for-Microsoft-Teams-and-Skype-for-Business-Online-553fa13c-92d2-4d5c-a3d5-41a073cb047c)<br><br>[Carregar informações de construção](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard?#upload-building-information) |
-| 10%  | Confirme se as informações de construção estão sendo processadas e se o Painel de Qualidade da Chamada (CQD) está funcionando para o seu locatário. | | | [Painel de Qualidade da Chamada](https://cqd.lync.com) |
+| 10%  | Confirme se as informações de construção estão sendo processadas e se o Painel de Qualidade da Chamada (CQD) está funcionando para o seu locatário. | | | [Painel de Qualidade da Chamada](https://cqd.teams.microsoft.com) |

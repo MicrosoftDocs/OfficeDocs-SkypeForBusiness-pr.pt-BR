@@ -19,18 +19,21 @@ f1.keywords:
 ms.custom:
 - PowerShell
 description: 'Baixe, instale e use o conector Skype for Business online para criar uma sessão remota do Windows PowerShell que se conecta ao Skype for Business online. '
-ms.openlocfilehash: 14e45765c4f1102242efe93548096dabf0174ff7
-ms.sourcegitcommit: a7c823f61d9ab88424bad924113d780ce11e509f
+ms.openlocfilehash: 8c5068c221c46f7be0d9d97c1c3d515ae244b316
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44224104"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085697"
 ---
 # <a name="download-and-install-the-skype-for-business-online-connector-module"></a>Baixar e instalar o módulo do conector do Skype for Business Online
 
-O módulo conector do Skype for Business Online inclui o cmdlet **New-CsOnlineSession** , que permite que você crie uma sessão remota do Windows PowerShell que se conecta ao Skype for Business online. Este módulo, que tem suporte apenas em computadores de 64 bits (consulte [configurar seu computador para gerenciamento do Skype for Business online usando o Windows PowerShell](set-up-your-computer-for-windows-powershell.md) para obter mais informações) pode ser baixado no centro de download da Microsoft em [https://www.microsoft.com/download/details.aspx?id=39366](https://www.microsoft.com/download/details.aspx?id=39366) . Baixe o arquivo SkypeOnlinePowershell. exe e conclua o seguinte procedimento:
+> [!NOTE]
+> A versão mais recente do [Teams PowerShell Public Preview](https://www.powershellgallery.com/packages/MicrosoftTeams/) está integrada ao conector do Skype for Business Online, fornecendo um único módulo para gerenciamento do teams PowerShell.
+
+O módulo conector do Skype for Business Online inclui o cmdlet **New-CsOnlineSession** , que permite que você crie uma sessão remota do Windows PowerShell que se conecta ao Skype for Business online. Este módulo, que tem suporte apenas em computadores de 64 bits (consulte [configurar seu computador para gerenciamento do Skype for Business online usando o Windows PowerShell](set-up-your-computer-for-windows-powershell.md) para obter mais informações) pode ser baixado no centro de download da Microsoft em [https://www.microsoft.com/download/details.aspx?id=39366](https://www.microsoft.com/download/details.aspx?id=39366) . Baixe o arquivo SkypeOnlinePowershell.exe e, em seguida, conclua o seguinte procedimento:
   
-1. Clique duas vezes no arquivo **SkypeOnlinePowershell. exe** .
+1. Clique duas vezes no arquivo **SkypeOnlinePowershell.exe** .
     
 2. No Skype for Business Online, assistente de configuração do Windows PowerShell, na página **termos de licença para software da Microsoft** , selecione **aceito os termos do contrato de licença**e clique em **instalar**. Se a caixa de diálogo **controle de conta de usuário** for exibida, clique em **Sim** para continuar a instalação.
     
@@ -56,7 +59,7 @@ Import-Module SkypeOnlineConnector
 
 Salve o arquivo. Da próxima vez que você iniciar o Windows PowerShell, o módulo do conector do Skype for Business online será importado automaticamente. Lembre-se de que você receberá uma mensagem de erro, e o módulo não será carregado, se você não estiver executando o Windows PowerShell em credenciais de administrador.
   
-Além de instalar o módulo do conector Skype for Business Online, o SkypeOnlinePowershell. exe também instala três componentes adicionais: 1) a IDCRL (biblioteca de tempo de execução do serviço de identidade), usada para manipular a autenticação do cliente para o Skype for Business Online; 2) .NET Framework 4,5; e 3) o pacote Microsoft Visual C++ 2012 Redistributable (x64) (versão 11.0.50727). O .NET Framework 4,5 fornece a infraestrutura usada para compilar e executar aplicativos .NET, incluindo o Windows PowerShell. O pacote redistribuível do Visual C++ instala componentes de tempo de execução do Visual C++ para computadores que não têm o Microsoft Visual Studio 2012 instalado.
+Além de instalar o módulo do conector Skype for Business Online, SkypeOnlinePowershell.exe também instala três componentes adicionais: 1) a IDCRL (biblioteca de tempo de execução do serviço de identidade), usada para manipular a autenticação do cliente para o Skype for Business Online; 2) .NET Framework 4,5; e 3) o pacote Microsoft Visual C++ 2012 Redistributable (x64) (versão 11.0.50727). O .NET Framework 4,5 fornece a infraestrutura usada para compilar e executar aplicativos .NET, incluindo o Windows PowerShell. O pacote redistribuível do Visual C++ instala componentes de tempo de execução do Visual C++ para computadores que não têm o Microsoft Visual Studio 2012 instalado.
   
 Para verificar o número da versão do módulo conector que está instalado no seu computador, abra o painel de controle, abra **programas e recursos**e verifique o número da versão do **módulo do Windows PowerShell para o Skype for Business online**.
   

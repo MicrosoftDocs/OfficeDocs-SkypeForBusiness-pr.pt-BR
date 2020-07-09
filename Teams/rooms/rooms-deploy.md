@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Leia este artigo para saber mais sobre como implantar salas do Microsoft Teams, incluindo as fases de implantação.
-ms.openlocfilehash: cf5ba9614426c59412c53b7e0e9420ca09ef6267
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: ee8ff755674828b4a2635316227f9cc27189a110
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905403"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085957"
 ---
 # <a name="deployment-overview"></a>Visão geral de implantação
 
@@ -119,7 +119,7 @@ O planejamento de configuração e implantação abrange as seguintes áreas-cha
 
 Cada dispositivo de salas do Microsoft Teams requer uma conta de recurso dedicada e exclusiva que deve ser habilitada para o Microsoft Teams ou o Skype for Business e o Exchange. Essa conta deve ter uma caixa de correio de sala hospedada no Exchange e estar habilitada como uma sala de reunião na implantação do teams ou do Skype for Business. No lado do Exchange, o processamento do calendário deve ser configurado para que o dispositivo possa aceitar automaticamente as solicitações de reunião recebidas. Para obter mais informações sobre como criar essas contas, consulte [Configurar contas para salas do Microsoft Teams](rooms-configure-accounts.md). 
 
-**Dica de pro** – torne os nomes de exibição para essas contas descritivas e fáceis de entender. Estes são os nomes que os usuários verão ao procurar e adicionar sistemas de salas do Microsoft Teams a reuniões. Algumas organizações usam o*nome da sala*do *site*-da Convenção (*capacidade máxima da sala*)-RS, portanto, por exemplo Curie — uma sala de conferência de 12 pessoas em Londres — pode ter o nome de exibição Lon-Curie (12)-RS. 
+**Dica de pro** – torne os nomes de exibição para essas contas descritivas e fáceis de entender. Estes são os nomes que os usuários verão ao procurar e adicionar sistemas de salas do Microsoft Teams a reuniões. Algumas organizações usam o nome da sala do *site*da Convenção - *Room Name*(*capacidade máxima da sala*)-RS, portanto, por exemplo Curie — uma sala de conferência de 12 pessoas em Londres — pode ter o nome de exibição Lon-Curie (12)-RS. 
 
 |    |     |
 |-----------|------------|
@@ -138,7 +138,7 @@ Ao planejar a implantação de salas do Microsoft Teams, você tem várias opç�
 | Implantar mais de 50 dispositivos de salas do Microsoft Teams, implantar dispositivos de mais de um fornecedor ou exigir agentes específicos da organização como parte da implantação. | Use uma plataforma de distribuição e desenvolvimento de software baseado em sequenciador de tarefas, como [o Gerenciador de configuração do Microsoft Endpoint](rooms-scale.md).  |
 
 
-**Dica de pro** -cada sala do Microsoft Teams deve ter um nome de máquina válido e exclusivo na sua rede. Muitos sistemas de monitoramento e alerta exibem o nome do computador como um identificador de chave, portanto, é importante desenvolver uma Convenção de nomenclatura para implantações de salas do Microsoft Teams que permitem ao pessoal de suporte localizar facilmente as salas do Microsoft Teams que foram sinalizadas para exigir uma ação. Um exemplo pode estar usando um padrão de MTR para o*nome da sala* do*site*-(MTR-Lon-Curie). 
+**Dica de pro** -cada sala do Microsoft Teams deve ter um nome de máquina válido e exclusivo na sua rede. Muitos sistemas de monitoramento e alerta exibem o nome do computador como um identificador de chave, portanto, é importante desenvolver uma Convenção de nomenclatura para implantações de salas do Microsoft Teams que permitem ao pessoal de suporte localizar facilmente as salas do Microsoft Teams que foram sinalizadas para exigir uma ação. Um exemplo pode estar usando um padrão de MTR para o nome da sala do*site* - *Room Name* (MTR-Lon-Curie). 
 
 Como parte da implantação, você também precisará considerar sua estratégia para gerenciar e configurar as [contas locais](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/skype-room-systems-v2-0#local-accounts) que são criadas pelo instalador do aplicativo salas do Microsoft Teams.
 
@@ -188,7 +188,7 @@ Você pode usar o [PowerShell remoto](rooms-operations.md#remote-management-usin
 
 Após a implantação do sistema de salas do Microsoft Teams, você deve testá-lo. Verifique se os recursos listados na [ajuda das salas do Microsoft Teams](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) estão trabalhando no dispositivo implantado. É altamente recomendável que a equipe de implantação Verifique se as salas do Microsoft Teams estão se conectando ao pacote de gerenciamento de operações da Microsoft (se usado). Também é importante fazer várias chamadas de teste e reuniões para verificar a qualidade. Para obter mais informações, consulte esta [lista de verificação de implantação útil](console.md#microsoft-teams-rooms-deployment-checklist).
 
-Recomendamos que, como parte da distribuição geral do teams ou do Skype for Business, você configure a criação de arquivos para o painel de qualidade de chamada (CQD), monitore as tendências de qualidade e participe do processo de avaliação da qualidade da experiência. Para obter mais informações, consulte o [Guia de revisão da qualidade da experiência](https://aka.ms/qerguide). 
+Recomendamos que, como parte da distribuição geral do teams ou do Skype for Business, você configure a criação de arquivos para o painel de qualidade de chamada (CQD), monitore as tendências de qualidade e participe do processo de avaliação da qualidade da experiência. Para obter mais informações, consulte [melhorar e monitorar a qualidade da chamada para equipes](../monitor-call-quality-qos.md). 
 
 ### <a name="asset-management"></a>Gerenciamento de ativos
 

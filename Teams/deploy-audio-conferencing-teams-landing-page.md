@@ -19,12 +19,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f01c95ac248d470cc0384e42b6948c45bb99c8bf
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: c90f5e62dbc3cc4944031eeaa9a19a6fc35bb47f
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691317"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085807"
 ---
 # <a name="learn-how-to-deploy-audio-conferencing-in-microsoft-teams"></a>Saiba como implantar audioconferência no Microsoft Teams
 
@@ -148,7 +148,7 @@ Para obter mais informações sobre os planos de discagem, confira [O que são o
 
 ### <a name="troubleshoot-meeting-and-call-quality"></a>Resolver problemas de qualidade de chamadas e reuniões 
 
-O Teams oferece duas maneiras de monitorar e solucionar problemas de qualidade da chamada: [Análise de Chamadas e Painel de Qualidade de Chamadas](difference-between-call-analytics-and-call-quality-dashboard.md). A Análise de Chamadas exibe informações detalhadas sobre dispositivos, redes e conectividade relacionados a chamadas e reuniões específicas para cada usuário. A Análise de Chamadas foi desenvolvida para ajudar administradores e agentes de assistência técnica a solucionar problemas de qualidade de chamadas com chamadas específicas, enquanto o Painel de Qualidade de Chamadas foi desenvolvido para ajudar administradores e engenheiros de rede a otimizar uma rede. O Painel de Qualidade de Chamadas desloca o foco de usuários específicos e analisa as informações agregadas de toda a organização do Teams. 
+O Teams oferece duas maneiras de monitorar e solucionar problemas de qualidade da chamada: [Análise de Chamadas e Painel de Qualidade de Chamadas](monitor-call-quality-qos.md). A Análise de Chamadas exibe informações detalhadas sobre dispositivos, redes e conectividade relacionados a chamadas e reuniões específicas para cada usuário. A Análise de Chamadas foi desenvolvida para ajudar administradores e agentes de assistência técnica a solucionar problemas de qualidade de chamadas com chamadas específicas, enquanto o Painel de Qualidade de Chamadas foi desenvolvido para ajudar administradores e engenheiros de rede a otimizar uma rede. O Painel de Qualidade de Chamadas desloca o foco de usuários específicos e analisa as informações agregadas de toda a organização do Teams. 
 
 |Pergunte a si mesmo|Ação |
 |------------|-------|

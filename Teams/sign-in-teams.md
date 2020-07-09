@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0189c6072840582854b276f0c0116e03fcaff3c0
-ms.sourcegitcommit: 0979fae58ecd713f8317ed99caae015b5cc2c8e4
+ms.openlocfilehash: 9fb5b21be6b45aab617c0bcb48fbcbb2d404a816
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "44877812"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085437"
 ---
 <a name="sign-in-to-microsoft-teams-using-modern-authentication"></a>Entrar no Microsoft Teams usando a autenticação moderna
 ==========================
@@ -128,3 +128,8 @@ O Teams exige conectividade com a Internet. Para entender os pontos de extremida
 A autenticação moderna está disponível para todas as organizações que usam o Teams; portanto, se os usuários não puderem concluir o processo, pode haver algo errado com o seu domínio ou com sua conta corporativa ou de estudante da Microsoft.
 
 Para saber mais, confira [Por que estou com problemas para entrar no Microsoft Teams?](https://support.office.com/article/why-am-i-having-trouble-signing-in-to-microsoft-teams-a02f683b-61a3-4008-9447-ee60c5593b0f)
+
+
+## <a name="related-topics"></a>Tópicos relacionados
+
+[Solução de problemas do Teams](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)

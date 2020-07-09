@@ -19,14 +19,16 @@ f1.keywords:
 ms.custom:
 - PowerShell
 description: Use o Windows PowerShell e os cmdlets Get-CsTenant e Get-CsTenantLicensingConfiguration para obter informações sobre seu locatário do Skype for Business online.
-ms.openlocfilehash: e4765fbbe8c705300bb93c09651034e080a8132e
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 06597447edaf095be3df26b58e6210bb919ee0bd
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42010614"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085687"
 ---
 # <a name="manage-skype-for-business-online-organizations"></a>Gerenciar organizações do Skype for Business Online
+> [!NOTE]
+> A versão mais recente do [Teams PowerShell Public Preview](https://www.powershellgallery.com/packages/MicrosoftTeams/) está integrada ao conector do Skype for Business Online, fornecendo um único módulo para gerenciamento do teams PowerShell.
 
 Você pode encontrar informações sobre o locatário do Skype for Business online usando os cmdlets **Get-CsTenant** e **Get-CsTenantLicensingConfiguration** .
   

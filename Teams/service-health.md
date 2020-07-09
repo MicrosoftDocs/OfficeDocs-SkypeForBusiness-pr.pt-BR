@@ -16,12 +16,12 @@ f1.keywords:
 description: É uma boa prática verificar se o serviço Teams é saudável e outros componentes do Microsoft 365 ou do Office 365, como Exchange, SharePoint e OneDrive for Business.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1451750d5e329ddb27307b21334fb7d281255d73
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: c30a4da2a37f75540c2b81a1f0d37e2c1e348339
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690167"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085517"
 ---
 <a name="verify-service-health-for-microsoft-teams"></a>Verificar a integridade do serviço para o Microsoft Teams
 ===========================================
@@ -33,3 +33,8 @@ Além disso, lembre-se de que, o Microsoft Teams foi desenvolvido sobre os servi
 ![Captura de tela da página de integridade do serviço.](media/Verify_service_health_for_Microsoft_Teams_image1.png)
 
 ![Captura de tela mostrando que o serviço do Microsoft Teams está íntegro.](media/Verify_service_health_for_Microsoft_Teams_image2.png)
+
+
+## <a name="related-topics"></a>Tópicos relacionados
+
+[Solução de problemas do Teams](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)

@@ -17,11 +17,12 @@ description: Saiba como gerenciar seus aplicativos do teams na página Gerenciar
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: bd793cc4ec6cbd27180e3babeb69c7fdc5e98ce4
-ms.sourcegitcommit: 2467ece95e100a3a3cc2be3538d8eb7d878b3663
+ms.openlocfilehash: 1aa72a1720139324f53168c36f1d27a12b5cf5bb
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2020
-ms.locfileid: "45042923"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45086208"
 ---
 <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>Gerenciar seus aplicativos no centro de administração do Microsoft Teams
 ======================================================
@@ -31,6 +32,9 @@ Como administrador, a página **gerenciar aplicativos** no centro de administra�
 A página **gerenciar aplicativos** oferece uma exibição de todos os aplicativos disponíveis em seu catálogo de locatários, fornecendo as informações necessárias para decidir quais aplicativos permitir ou bloquear em sua organização. Em seguida, você pode usar [políticas de permissão do aplicativo](teams-app-permission-policies.md), políticas de configuração do [aplicativo](teams-app-setup-policies.md)e [políticas e configurações personalizadas do aplicativo](teams-custom-app-policies-and-settings.md) para configurar a experiência do aplicativo para usuários específicos em sua organização.
 
 Na navegação à esquerda do centro de administração do Microsoft Teams, vá até **Team apps**  >  **gerenciar aplicativos**. Você deve ser administrador global ou administrador do teams Service para acessar a página.
+
+> [!NOTE]
+> A página **gerenciar aplicativos** ainda não está disponível nas implantações da Comunidade do governo do Microsoft 365 (GCC) do teams.
 
 ## <a name="view-apps-in-your-tenant-app-catalog"></a>Exibir aplicativos em seu catálogo de aplicativos locatário
 
@@ -77,7 +81,7 @@ Quando você bloqueia ou permite um aplicativo na página **gerenciar aplicativo
 Use as configurações de aplicativo de toda a organização para controlar se os usuários podem instalar aplicativos de terceiros e se os usuários podem carregar ou interagir com aplicativos personalizados em sua organização. As configurações de aplicativo de toda a organização governam o comportamento para todos os usuários e substituem quaisquer outras políticas de permissão de aplicativo atribuídas aos usuários. Você pode usá-los para controlar aplicativos mal-intencionados ou problemáticos.
 
 > [!NOTE]
-> A página **gerenciar aplicativos** ainda não está disponível nas implantações do Microsoft 365 governo-gcc do teams.  Para saber como usar as configurações de aplicativo de toda a organização para habilitar ou desabilitar aplicativos de terceiros, consulte [gerenciar políticas de permissão do aplicativo no Microsoft Teams](teams-app-permission-policies.md).
+> Para saber como usar as configurações de aplicativo de toda a organização nas implantações do Microsoft 365 governo-GCC do Teams, consulte [gerenciar políticas de permissão do aplicativo no Microsoft Teams](teams-app-permission-policies.md).
 
 1. Na página **gerenciar aplicativos** , selecione **configurações de aplicativo de toda a organização**. Em seguida, você pode definir as configurações desejadas no painel.
 

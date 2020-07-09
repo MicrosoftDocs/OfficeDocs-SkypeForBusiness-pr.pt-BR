@@ -18,11 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 877ebf8041b52e6522dc55a053e0465d4aa6a48d
-ms.sourcegitcommit: ac36d3923095a4321dad14fdf23c98358affd10c
+ms.openlocfilehash: 0e9111f54bc3f94c028c8ddc8549e1202326df4f
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "45049408"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085237"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Usar o suplemento de Reunião do Teams no Outlook
 =======================================
@@ -175,3 +176,6 @@ Se o suplemento ainda não for exibido, use as etapas a seguir para verificar as
 Se o seu administrador configurou o Microsoft Exchange para [controlar o acesso ao Exchange Web Server (EWS)](https://docs.microsoft.com/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange), um representante não poderá agendar uma reunião do Teams em nome do chefe. A solução para esta configuração está em desenvolvimento e será lançada no futuro. Como solução alternativa, o administrador pode adicionar a seguinte cadeia de caracteres à lista de permissões do EWS: "*SchedulingService*". 
 
 
+## <a name="related-topics"></a>Tópicos relacionados
+
+[Solução de problemas do Teams](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)

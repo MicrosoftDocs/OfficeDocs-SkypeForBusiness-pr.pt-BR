@@ -1,14 +1,13 @@
 ---
-title: Implementar a qualidade de serviço em clientes do teams
+title: Implementar a QoS (qualidade de serviço) em clientes do Microsoft Teams
 author: lolajacobsen
 ms.author: lolaj
 manager: Serdars
-ms.date: 2/17/2019
 ms.topic: article
 ms.service: msteams
-ms.reviewer: rowille
+ms.reviewer: vkorlep, siunies
 audience: admin
-description: Saiba como preparar a rede para sua organização para a QoS (qualidade de serviço) no Microsoft Teams.
+description: Saiba como usar a QoS (qualidade de serviço) para otimizar o tráfego de rede do cliente de desktop do Microsoft Teams.
 ms.custom: seo-marvel-mar2020
 localization_priority: Normal
 search.appverid: MET150
@@ -18,16 +17,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 81c10ce415c0ed0db670a81b896289b23cb39218
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 80b9257abbbb873b30367f9d430e9a8d155cda09
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904556"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085527"
 ---
-# <a name="set-qos-on-windows-clients"></a>Definir o QoS em clientes do Windows
+# <a name="implement-quality-of-service-qos-in-microsoft-teams-clients"></a>Implementar a QoS (qualidade de serviço) em clientes do Microsoft Teams
 
-Você pode usar a QoS baseada em política dentro da política de grupo para definir o intervalo de porta de origem para o valor DSCP predefinido no cliente do teams. Os intervalos de porta especificados na tabela a seguir são um ponto de partida para criar uma política para cada carga de trabalho.
+Você pode usar a QoS (qualidade de serviço) baseada em política em uma política de grupo para definir o intervalo de porta de origem para o valor DSCP predefinido no cliente do teams. Os intervalos de porta especificados na tabela a seguir são um ponto de partida para criar uma política para cada carga de trabalho.
 
 *Tabela 1. Intervalos de portas iniciais recomendados*
 
@@ -54,7 +53,7 @@ Para criar uma política de áudio QoS para computadores Windows 10 associados a
 
 1. Na caixa de diálogo **QoS baseada em política** , na página de abertura, digite um nome para a nova política na caixa **nome** . Selecione **especificar valor DSCP** e defina o valor como **46**. Deixe **especificar a taxa de aceleração de saída** desmarcada e clique em **Avançar**.
 
-1. Na próxima página, selecione **apenas aplicativos com esse nome executável** e insira o nome **Teams. exe**e clique em **Avançar**. Essa configuração instrui a política a priorizar somente o tráfego de correspondência do cliente do teams.
+1. Na próxima página, selecione **apenas aplicativos com esse nome executável** e insira o nome **Teams.exe**e clique em **Avançar**. Essa configuração instrui a política a priorizar somente o tráfego de correspondência do cliente do teams.
 
 1. Na terceira página, verifique se **qualquer endereço IP de origem** e **qualquer endereço IP de destino** estão selecionados e clique em **Avançar**. Essas duas configurações garantem que os pacotes serão gerenciados independentemente de qual computador (endereço IP) enviou os pacotes e qual computador (endereço IP) receberá os pacotes.
 
@@ -86,9 +85,9 @@ Para verificar se os valores do objeto de política de grupo foram definidos, ex
    gpresult /R > gp.txt
    ```
 
-   Isso irá gerar um relatório de GPOs aplicados e enviá-lo a um arquivo de texto chamado *GP. txt*.
+   Isso irá gerar um relatório de GPOs aplicados e enviá-lo a um arquivo de texto chamado *gp.txt*.
 
-   Para obter um relatório HTML mais legível chamado *GP. html*, digite o seguinte comando:
+   Para obter um relatório HTML mais legível chamado *gp.html*, digite o seguinte comando:
 
    ```console
    gpresult /H gp.html
@@ -98,7 +97,7 @@ Para verificar se os valores do objeto de política de grupo foram definidos, ex
 
 1. Abra o editor do registro e vá para
 
-   HKEY\_local\_Machine\\software\\\\Policies\\Microsoft\\Windows QoS
+   HKEY \_ local \_ Machine \\ software \\ Policies \\ Microsoft \\ Windows \\ QoS
 
    Verifique os valores das entradas do registro listadas na tabela 2.
 
@@ -119,3 +118,8 @@ Para verificar se os valores do objeto de política de grupo foram definidos, ex
    | | | |
 
 1. Verifique se o valor da entrada do nome do aplicativo está correto para o cliente que você está usando e verifique se as entradas do valor DSCP e da porta local refletem as configurações no objeto de política de grupo.
+
+
+## <a name="related-topics"></a>Tópicos relacionados
+
+[Implementar a QoS (qualidade de serviço) no Teams](QoS-in-Teams.md)

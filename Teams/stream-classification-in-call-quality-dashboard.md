@@ -1,10 +1,10 @@
 ---
-title: Classificação de fluxo no Painel de Qualidade de Chamadas
-ms.author: tonysmit
-author: tonysmit
+title: Classificação de fluxo no painel de qualidade de chamada (CQD)
+ms.author: lolajacobsen
+author: lolaj
 manager: serdars
 ms.reviewer: gageames
-ms.topic: conceptual
+ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
@@ -19,21 +19,21 @@ f1.keywords:
 - CSH
 ms.custom:
 - Optimization
-description: Saiba como a qualidade do fluxo é classificada no Painel de Qualidade de Chamadas para o Microsoft Teams e o Skype for Business Online.
-ms.openlocfilehash: 2c70126c86a6e9f0a8bc48c8fffa90142fe5928f
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+description: Saiba como a qualidade do fluxo é classificada no painel de qualidade da chamada (CQD) para Microsoft Teams e Skype for Business online.
+ms.openlocfilehash: 28c3857f1bf30903e9a59d45e8149f8ecbfc57be
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42160735"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085887"
 ---
-# <a name="stream-classification-in-call-quality-dashboard"></a>Classificação de fluxo no Painel de Qualidade de Chamadas
+# <a name="stream-classification-in-call-quality-dashboard-cqd"></a>Classificação de fluxo no painel de qualidade de chamada (CQD)
 
-The Call Quality Dashboard (CQD) for Microsoft Teams and Skype for Business Online allows you to gain insights into the quality of calls made using Microsoft Teams and Skype for Business services. This topic provides detailed information about the quality classification of media streams. To learn more about CQD and how to enable it, see [Turning on and using Call Quality Dashboard](turning-on-and-using-call-quality-dashboard.md).
+The Call Quality Dashboard (CQD) for Microsoft Teams and Skype for Business Online allows you to gain insights into the quality of calls made using Microsoft Teams and Skype for Business services. This topic provides detailed information about the quality classification of media streams. To learn more about CQD and how to set it up, see [Set up Call Quality Dashboard](turning-on-and-using-call-quality-dashboard.md).
 
 ## <a name="classifier-definitions"></a>Definições do classificador
 
-Fluxos no CQD são classificados como _satisfatórios_, _ruins_ou não _classificados_ com base nos valores das métricas de qualidade de tecla disponíveis. As métricas e condições usadas para classificar o fluxo são mostradas nas tabelas a seguir. As dimensões "ruim devido a" de CQD podem ser usadas para compreender qual medida é responsável por uma classificação _deficiente_ . Para obter mais informações sobre essas dimensões, consulte [dimensões e medidas disponíveis no painel de qualidade da chamada](dimensions-and-measures-available-in-call-quality-dashboard.md).
+Streams in CQD are classified as _Good_, _Poor_, or _Unclassified_ based on the values of the available key quality metrics. The metrics and conditions used to classify stream are shown in the tables that follow. CQD's "Poor Due To" dimensions can be used to understand which metric is responsible for a _Poor_ classification. For more information on these dimensions, see [Dimensions and measures available in Call Quality Dashboard](dimensions-and-measures-available-in-call-quality-dashboard.md).
 
 ### <a name="audio-classifier"></a>Classificador de áudio
 
@@ -41,7 +41,7 @@ Se uma ou mais das seguintes condições forem atendidas, um fluxo de áudio ser
 
 |Indicador|Condição|Explicação|
 |:-----|:-----|:-----|
-|Média de degradação de áudio|> 1,0|Média de pontuação média média média de Pontuação do Stream. Quanta perda de rede e Tremulação afetaram a qualidade do áudio recebido.|
+|Média de degradação de áudio|> 1,0|Average Network Mean Opinion Score degradation for stream. How much network loss and jitter have impacted the quality of received audio.|
 |Viagem de ida e volta|> 500|Tempo médio de propagação da rede de ida e volta, calculado em milissegundos. Detalhes disponíveis em [RFC3550](https://tools.ietf.org/html/rfc3550).|
 |Taxa de perda de pacotes|> 0,1|Taxa média de perda de pacotes do Stream.|
 |Tremulação|> 30|Variação média do fluxo em milissegundos.|
@@ -115,10 +115,18 @@ Se a conectividade do ICE for bem-sucedida para um fluxo não _classificado_ , �
 > A dimensão "Utilização de pacote" e a medida "Utilização média de pacote" podem ser usadas para determinar a atividade de pacote de um fluxo.
 
 ## <a name="related-topics"></a>Tópicos Relacionados
+[Melhorar e monitorar a qualidade da chamada para equipes](monitor-call-quality-qos.md)
 
-[Ativar e usar o painel de qualidade da chamada (CQD)](turning-on-and-using-call-quality-dashboard.md)
+[O que é CQD?](CQD-what-is-call-quality-dashboard.md)
 
-[Dimensões e medidas disponíveis no Painel de Qualidade de Chamadas](dimensions-and-measures-available-in-call-quality-dashboard.md)
+[Configurar o painel de qualidade da chamada (CQD)](turning-on-and-using-call-quality-dashboard.md)
 
-[Usar a Análise de Chamada para solucionar problemas de baixa qualidade da chamada](use-call-analytics-to-troubleshoot-poor-call-quality.md)
- 
+[Carregar dados do locatário e construção](CQD-upload-tenant-building-data.md)
+
+[Dados e relatórios do CQD](CQD-data-and-reports.md)
+
+[Usar o CQD para gerenciar a qualidade da chamada e da reunião](quality-of-experience-review-guide.md)
+
+[Dimensões e medidas disponíveis no CQD](dimensions-and-measures-available-in-call-quality-dashboard.md)
+
+[Usar o Power BI para analisar dados do CQD](CQD-Power-BI-query-templates.md)

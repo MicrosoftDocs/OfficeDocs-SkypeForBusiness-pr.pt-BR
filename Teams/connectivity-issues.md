@@ -17,12 +17,12 @@ description: Solucione problemas de conectividade do cliente Microsoft Teams cau
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: cef20522784ba2d63d1461104a51f3148f48cf53
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 116ce1afef08a6f1639ed011b799f9ca43ea57f5
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44689637"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085227"
 ---
 <a name="troubleshoot-connectivity-issues-with-the-microsoft-teams-client"></a>Solucionar problemas de conectividade do cliente Microsoft Teams
 ==============================================================
@@ -44,3 +44,8 @@ A maioria dos problemas descobertos com o cliente Microsoft Teams pode ser remet
 -   Interoperabilidade do Skype for Business
 
 -   Interoperabilidade do cliente Skype for Business
+
+
+## <a name="related-topics"></a>Tópicos relacionados
+
+[Solução de problemas do Teams](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)

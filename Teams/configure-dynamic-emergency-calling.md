@@ -17,12 +17,12 @@ description: Saiba como configurar os planos de chamada e o recurso de chamadas 
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 50e32c34b211766aa5fc3ad7732b1dd392ed8346
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 27ee8dd17b3948d373b5a6c13a210d298ee10d8c
+ms.sourcegitcommit: a22a7b7e4bf556ee3e5e2e51c6f9f1c865a0724a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690877"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45083151"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>Planejar e configurar chamadas de emergência dinâmicas 
 
@@ -74,6 +74,7 @@ Os clientes a seguir têm suporte no momento.  Verifique com frequência para ve
 - Cliente móvel do teams para Apple iOS Client versão 1.0.92.2019121004 e App Store versão 1.0.92 e posterior
 - Cliente do teams Mobile para cliente Android e Google Play Store versão 1416/1.0.0.2019121201 e posterior
 - Teams Phone versão 1449/1.0.94.2019110802 e maior
+- Salas de equipe versão 4.4.25.0 e maior
 
 ## <a name="assign-emergency-addresses"></a>Atribuir endereços de emergência
 

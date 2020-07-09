@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 30cbb5a29f88494c24474624a79ffa4ea8004025
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.openlocfilehash: f800b92a0663b5c4318022c00cbb9ba022f2e8c3
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42160358"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085677"
 ---
 <a name="admin-settings-for-apps-in-microsoft-teams"></a>Configurações de administração para aplicativos no Microsoft Teams
 ==========================================
@@ -34,7 +34,7 @@ ms.locfileid: "42160358"
 
 Os aplicativos fornecem ferramentas de ponta da sua organização para tirar o máximo proveito do teams. Esses aplicativos combinam a funcionalidade de guias, extensões de mensagens, conectores e bots fornecidos pela Microsoft, criados por um terceiro ou por desenvolvedores em sua organização.
 
-Você gerencia aplicativos para sua organização em **aplicativos Teams** no centro de administração do Microsoft Teams. Por exemplo, você pode permitir ou bloquear aplicativos no nível da organização, definir políticas para controlar quais aplicativos estão disponíveis para os usuários do Teams e personalizar o Microsoft Teams, fixando os aplicativos que são mais importantes para seus usuários.
+Você gerencia aplicativos da sua organização em **aplicativos do teams** no [centro de administração](https://admin.teams.microsoft.com/). Por exemplo, você pode permitir ou bloquear aplicativos no nível da organização, definir políticas para controlar quais aplicativos estão disponíveis para os usuários do Teams e personalizar o Microsoft Teams, fixando os aplicativos que são mais importantes para seus usuários.
 
 Estamos melhorando continuamente a experiência do aplicativo em equipes e adicionando recursos e funcionalidades. Ao longo do tempo, vamos criar recursos adicionais de gerenciamento de aplicativos, portanto, verifique as informações mais atualizadas sobre as políticas de aplicativos.
 

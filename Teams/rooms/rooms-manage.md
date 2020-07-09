@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Saiba mais sobre como desenvolver e executar manutenção e operações contínuas para garantir que seus sistemas de salas do Microsoft Teams estejam disponíveis para seus usuários.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6b63e42e1f3fa3d5540936d562aa913837103ed1
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: bd1b552e9a59ee36856d23478a7e414637976889
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905363"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085947"
 ---
 # <a name="management-overview"></a>Visão geral do gerenciamento
 
@@ -42,7 +42,7 @@ Informações sobre o estado do aplicativo salas do Microsoft Teams e dispositiv
 |**Configuração**|**Permite**|
 |:-----|:-----|
 |HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon AutoAdminLogon = (DWORD) 1  <br/> |Permite que salas do Microsoft Teams sejam inicializadas  <br/> |
-|Gerenciamento de energia\> -em AC, desligar a tela após 10 minutos  <br/> Gerenciamento de energia\> -em AC, nunca coloque o sistema em suspensão  <br/> |Permite que as salas do Microsoft Teams desativem exibições anexadas e ativadas automaticamente  <br/> |
+|Gerenciamento de energia- \> em AC, desligar a tela após 10 minutos  <br/> Gerenciamento de energia- \> em AC, nunca coloque o sistema em suspensão  <br/> |Permite que as salas do Microsoft Teams desativem exibições anexadas e ativadas automaticamente  <br/> |
 |net accounts /maxpwage:unlimited  <br/> Ou uma maneira equivalente de desabilitar a expiração de senha na conta local. Deixar de fazer isso fará com que a conta do Skype falhe ao fazer logon com uma senha expirada. Observe que isso afeta todas as contas locais do computador e, portanto, não definir isso também fará com que a conta administrativa na caixa acabe de expirar também.  <br/> |Permite que a conta do Skype esteja sempre conectada  <br/> |
 
 A transferência de arquivos usando políticas de grupo é discutida em [configurar um item de arquivo](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx).
@@ -65,7 +65,7 @@ Recomendamos que você implemente a qualidade operacional contínua e os procedi
 
 Ao carregar suas informações de construção para CQD, você pode investigar as tendências de qualidade de chamada e confiabilidade em um nível de construção, o que torna mais fácil comparar os prédios e concentrar sua atenção em problemas específicos.
 
-Recomendamos que você examine e siga o [Guia de revisão da qualidade da experiência](https://aka.ms/qerguide) para identificar as tendências de qualidade e confiabilidade e crie um plano de ação para solucioná-los. 
+Recomendamos que você revise e siga o [aprimoramento e monitore a qualidade da chamada para](../monitor-call-quality-qos.md) que as equipes identifiquem as tendências de qualidade e confiabilidade e crie um plano de ação para solucioná-los. 
 
 ## <a name="updating-the-microsoft-teams-rooms-os-and-microsoft-teams-rooms-application"></a>Atualizando o aplicativo salas do Microsoft Teams e salas do Microsoft Teams
 

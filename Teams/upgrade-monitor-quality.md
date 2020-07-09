@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 25b356d171ee8c1a66de2f69b0b0525c24220755
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: 843acff0dafc7cd5ad2b3fd63ccc009c64716b03
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44522554"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085917"
 ---
 # <a name="quality-of-experience-review-guide"></a>Guia de revisão da experiência de qualidade
 
@@ -33,7 +33,9 @@ ms.locfileid: "44522554"
 
 Este artigo faz parte do estágio operacional de excelência da sua jornada de atualização, que começa assim que você concluiu a atualização do Skype for Business para o Teams.
 
-O [Guia de revisão da qualidade da experiência](https://aka.ms/qerguide) inclui um conjunto de atividades que avaliam e fornecem orientação de correção em áreas importantes que têm o maior impacto na melhoria da experiência do usuário, conforme ilustrado a seguir.
+## <a name="improve-and-monitor-call-quality"></a>Melhorar e monitorar a qualidade das chamadas
+
+[Melhorar e monitorar a qualidade da chamada para o Teams](monitor-call-quality-qos.md) inclui um conjunto de atividades que avaliam e fornecem orientação de correção em áreas importantes que têm o maior impacto na melhoria da experiência do usuário, conforme ilustrado a seguir.
 
 ![Ilustração das principais áreas a serem examinadas durante uma crítica.](media/plan-my-service-management-image2.png "As principais áreas a serem examinadas durante uma revisão de qualidade da experiência: áudio, confiabilidade e resultados da pesquisa de usuários.")
 
@@ -51,8 +53,8 @@ Ao avaliar continuamente e corrigir as áreas descritas no guia, você pode redu
 
 - Dispositivos de rede ou sub-redes com problemas
 
-As diretrizes fornecidas no guia de revisão de qualidade de experiência concentram-se em usar o painel de qualidade de chamada (CQD) online como a principal ferramenta para denunciar e investigar cada área descrita, com foco no áudio para maximizar a adoção e o impacto. Todas as otimizações feitas à rede para melhorar a experiência de área também se converterão diretamente em aprimoramentos no vídeo e no compartilhamento da área de trabalho.
+As diretrizes fornecidas em [melhorar e monitorar a qualidade da chamada para o Teams](monitor-call-quality-qos.md) concentram-se em usar o painel de qualidade de chamada (CQD) online como a principal ferramenta para denunciar e investigar cada área descrita, com foco no áudio para melhorar a adoção e o impacto. Todas as otimizações feitas à rede para melhorar a experiência de área também se converterão diretamente em aprimoramentos no vídeo e no compartilhamento da área de trabalho.
 
-É altamente recomendável que você innomeado o especialista em qualidade no início. Depois de serem nomeados, eles devem começar a se familiarizar com o conteúdo no [Guia de revisão da qualidade da experiência](https://aka.ms/qerguide).
+É altamente recomendável que você innomeado o especialista em qualidade no início. Depois de serem nomeados, eles devem começar a se familiarizar com o conteúdo [para melhorar e monitorar a qualidade da chamada para equipes](monitor-call-quality-qos.md).
 
 <!--ENDOFSECTION-->

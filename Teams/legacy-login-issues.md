@@ -17,12 +17,12 @@ description: Solucionar problemas relacionados ao recebimento de mensagens e cha
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 52038470e81b825391e4176c07af7a30f51356df
-ms.sourcegitcommit: ef3cd762e799df43bdcde03363c501d7ca9bb6b3
+ms.openlocfilehash: af7845b5fd6d50d63be6cd21749cbfedc7669fcf
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "44489153"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085147"
 ---
 <a name="issues-receiving-messages-and-calls-on-legacy-systems"></a>Problemas ao receber mensagens e chamadas em sistemas herdados
 ==============================================================
@@ -45,3 +45,8 @@ Consulte [entrar no Microsoft Teams usando a autenticação moderna](sign-in-tea
 ## <a name="skype-token-revocation"></a>Revogação de token do Skype
 
 Ao alterar/redefinir uma senha, os clientes mais antigos não receberão mensagens e chamadas para até uma hora. Para solucionar esse problema, reinicie o aplicativo ou mova-se para clientes mais recentes.
+
+
+## <a name="related-topics"></a>Tópicos relacionados
+
+[Solução de problemas do Teams](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)

@@ -1,10 +1,10 @@
 ---
-title: Dimensões e medições-painel de qualidade da chamada
+title: Dimensões e medições-painel de qualidade de chamada (CQD)
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
 ms.reviewer: siunies, mikedav, gageames
-ms.topic: conceptual
+ms.topic: article
 ms.assetid: e97aeeee-9e43-416f-b433-9cdd63d8874b
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -21,17 +21,17 @@ f1.keywords:
 ms.custom:
 - Reporting
 - seo-marvel-mar2020
-description: Obtenha informações detalhadas sobre as dimensões e medidas usadas pelo painel de qualidade de chamada do Microsoft Teams e do Skype for Business online.
-ms.openlocfilehash: 09beeb289b2861ff239e52a136b604bc8d58fa8f
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
+description: Obtenha informações detalhadas sobre as dimensões e medidas usadas pelo painel de qualidade da chamada (CQD) para Microsoft Teams e Skype for Business online.
+ms.openlocfilehash: 1b5be1cc988a1999bee05aba04b0f27c9127bd54
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44938510"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085777"
 ---
-# <a name="dimensions-and-measurements-available-in-call-quality-dashboard"></a>Dimensões e medidas disponíveis no painel de qualidade da chamada
+# <a name="dimensions-and-measurements-available-in-call-quality-dashboard-cqd"></a>Dimensões e medidas disponíveis no painel de qualidade de chamada (CQD)
 
-O painel de qualidade de chamada (CQD) para Microsoft Teams e o Skype for Business Online permite que você compreenda melhor a qualidade das chamadas feitas com esses serviços. Este tópico fornece informações detalhadas sobre as dimensões e medidas visíveis por meio do CQD. Para saber mais sobre o CQD, confira [ativar e usar o painel de qualidade de chamada para Microsoft Teams e Skype for Business online](turning-on-and-using-call-quality-dashboard.md).
+O painel de qualidade de chamada (CQD) para Microsoft Teams e o Skype for Business Online permite que você compreenda melhor a qualidade das chamadas feitas com esses serviços. Este tópico fornece informações detalhadas sobre as dimensões e medidas visíveis por meio do CQD. Para saber mais sobre o CQD, confira [usar o CQD para gerenciar a qualidade da chamada e da reunião no Microsoft Teams](quality-of-experience-review-guide.md).
 
 ## <a name="first-and-second-endpoint-classification"></a>Classificação de primeiro e segundo pontos de extremidade
 
@@ -170,7 +170,7 @@ As informações de dimensões são baseadas em parte em dados carregados no por
 | Primeiro agente do usuário  | Cadeia de caracteres  | Cadeia de caracteres de agente do usuário do primeiro ponto de extremidade. <br/> **Valor de exemplo:** UCCAPI/16.0.7766.5281 OC/16.0.7766.2047 (Skype for Business) | &bull;Nenhum agente de usuário relatado pelo primeiro ponto de extremidade   |
 | Segundo agente do usuário  | Cadeia de caracteres  | Cadeia de caracteres de agente do usuário do segundo ponto de extremidade. <br/> **Valor de exemplo:** UCCAPI/16.0.7766.5281 OC/16.0.7766.2047 (Skype for Business) | &bull;Nenhum agente de usuário foi reportado pelo segundo ponto de extremidade   |
 | Tipo de conferência  | Enumeração <br/>**Valores possíveis:** <br/>&bull;conf: applicationsharing <br/>&bull;conf: áudio-vídeo <br/>&bull;conf: foco | Tipo de URI de conferência.  <br/> **Valor de exemplo:** conf: áudio-vídeo | &bull;Cenário de não conferência.   |
-| ID de conferência  | Cadeia de caracteres | ID de conferência (ou ID de chamada) associada aos fluxos. No cqd.teams.microsoft.com, todas as chamadas têm uma ID de chamada independentemente de serem uma chamada ponto a ponto (P2P) ou uma chamada em conferência. No cqd.lync.com, esse valor é apenas avialble para chamadas em conferência do Skype for Business.  Essa dimensão pode ter muitas linhas a serem usadas como dimensão em um relatório. Em vez disso, ele pode ser usado em um filtro.  <br/> **Valor de exemplo (CQD.Lync.com):** 0001P6GK <br/> **Valor de exemplo (CQD.Teams.Microsoft.com):** 5a962ccf-B9CB-436A-A433-f28bf5404ad8  | |
+| ID de conferência  | Cadeia de caracteres | ID de conferência (ou ID de chamada) associada aos fluxos. No cqd.teams.microsoft.com, todas as chamadas têm uma ID de chamada independentemente de serem uma chamada ponto a ponto (P2P) ou uma chamada em conferência. No cqd.lync.com, esse valor só está disponível para chamadas em conferência do Skype for Business.  Essa dimensão pode ter muitas linhas a serem usadas como dimensão em um relatório. Em vez disso, ele pode ser usado em um filtro.  <br/> **Valor de exemplo (CQD.Lync.com):** 0001P6GK <br/> **Valor de exemplo (CQD.Teams.Microsoft.com):** 5a962ccf-B9CB-436A-A433-f28bf5404ad8  | |
 | Primeira versão do aplicativo cliente  | Cadeia de caracteres  | Versão do aplicativo usada para o primeiro ponto de extremidade. Os dados são analisados a partir da cadeia de caracteres do agente do usuário. <br/> **Valor de exemplo:** 16.0.7766.2047 | &bull;Não foi possível analisar a cadeia de caracteres de versão <br/>&bull;O valor não foi reportado.   |
 | Versão do segundo aplicativo cliente  | Cadeia de caracteres  | Versão do aplicativo usada para o segundo ponto de extremidade. Os dados são analisados a partir da cadeia de caracteres do agente do usuário. <br/> **Valor de exemplo:** 16.0.7766.2047 | &bull;Não foi possível analisar a cadeia de caracteres de versão <br/>&bull;O valor não foi reportado. |
 |ID da reunião (em cqd.teams.microsoft.com) <br/> ID de conferência (em cqd.lync.com) |Cadeia de caracteres |O identificador da reunião, gerado quando a reunião foi criada. <br/> **Valor do exemplo (Skype for Business):** 0001P6GK  <br/> **Valor de exemplo (Teams):** 19: meeting_MzB... zIw@thread. v2| |
@@ -701,9 +701,18 @@ Muitos valores de dimensão e medição também podem ser usados como filtros. V
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Configurar a Análise de Chamada do Skype for Business](set-up-call-analytics.md)
+[Melhorar e monitorar a qualidade da chamada para equipes](monitor-call-quality-qos.md)
 
-[Usar a Análise de Chamada para solucionar problemas de baixa qualidade da chamada](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+[O que é CQD?](CQD-what-is-call-quality-dashboard.md)
 
-[Análise de Chamada e Painel de Qualidade de Chamadas](difference-between-call-analytics-and-call-quality-dashboard.md)
- 
+[Configurar o painel de qualidade da chamada (CQD)](turning-on-and-using-call-quality-dashboard.md)
+
+[Carregar dados do locatário e construção](CQD-upload-tenant-building-data.md)
+
+[Dados e relatórios do CQD](CQD-data-and-reports.md)
+
+[Usar o CQD para gerenciar a qualidade da chamada e da reunião](quality-of-experience-review-guide.md)
+
+[Classificação de fluxo no CQD](stream-classification-in-call-quality-dashboard.md)
+
+[Usar o Power BI para analisar dados do CQD](CQD-Power-BI-query-templates.md)

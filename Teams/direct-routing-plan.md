@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Saiba como o roteamento direto do Microsoft Phone System permite conectar um controlador de borda de sessão (SBC) compatível fornecido pelo cliente a um sistema telefônico da Microsoft.
-ms.openlocfilehash: 1d0dff52258cfae9776fde57b5a30ff60793b902
-ms.sourcegitcommit: 5895550d9d19a619d90af3381530ca3017e4b520
+ms.openlocfilehash: 71ef4cd96853bd11f1169fd10aa7519c3ea4a2ec
+ms.sourcegitcommit: a22a7b7e4bf556ee3e5e2e51c6f9f1c865a0724a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "44799822"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45083171"
 ---
 # <a name="plan-direct-routing"></a>Planejar o Roteamento Direto
 
@@ -219,6 +219,8 @@ Os FQDNs – sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com e sip3.pstnhu
 - 52.114.76.76 
 - 52.114.7.24 
 - 52.114.14.70
+- 52.114.16.74
+- 52.114.20.29
 
 Você precisa abrir portas para todos esses endereços IP no seu firewall para permitir o recebimento e o tráfego de entrada e saída dos endereços para sinalização.  Se o seu firewall der suporte a nomes DNS, a sip-all.pstnhub.microsoft.com FQDN será resolvida para todos esses endereços IP. 
 

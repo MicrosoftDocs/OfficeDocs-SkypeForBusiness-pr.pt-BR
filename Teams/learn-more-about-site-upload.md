@@ -22,17 +22,20 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bace73e411970ee1b907890b08a5e501daf90e50
-ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
+ms.openlocfilehash: 1b32e9db020b3498e8185b4d38e25d1d9a1feca5
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44539638"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085287"
 ---
 <a name="add-and-update-reporting-labels"></a>Adicionar e atualizar rótulos de relatórios
 ============================
 
-Os rótulos de relatório são usados em sua organização para indicar os locais físicos de escritórios, prédios ou sites organizacionais. A página de etiquetas de relatório no centro de administração do Microsoft Teams permite que você forneça um arquivo de texto (. csv ou. tsv) que contém uma lista de locais físicos e suas sub-redes de rede associadas. Esse arquivo é usado pelo painel de análise de chamadas e de qualidade de chamada para gerar relatórios. Quando você carregar o mapeamento de sub-rede, os relatórios fornecidos por esses serviços também conterão os nomes de localização, facilitando a compreensão e o uso dos relatórios para corrigir problemas em potencial.
+Os rótulos de relatório são usados em sua organização para indicar os locais físicos de escritórios, prédios ou sites organizacionais. A página de etiquetas de relatório no centro de administração do Microsoft Teams permite que você forneça um arquivo de texto (. csv ou. tsv) que contém uma lista de locais físicos e suas sub-redes de rede associadas. Esse arquivo é usado pela análise de chamadas para gerar relatórios. Quando você carregar o mapeamento de sub-rede, os relatórios fornecidos por esses serviços também conterão os nomes de localização, facilitando a compreensão e o uso dos relatórios para corrigir problemas em potencial.
+
+> [!IMPORTANT]
+> Os rótulos de relatório que você carrega serão tratados como *dados de suporte* em seu contrato do Office 365, incluindo qualquer informação que, de outra forma, seria considerada dados do *cliente* ou *dados pessoais*. Não inclua os dados que não deseja fornecer à Microsoft como dados de *suporte*, pois essas informações ficarão visíveis para os engenheiros da Microsoft para fins de suporte.
 
 Os dados de rótulos e locais de relatório que você fornece são uma estrutura de dados única – atualmente, não há uma interface disponível para fazer edições individuais nos dados.
 
@@ -57,7 +60,7 @@ Use o exemplo a seguir para ajudar a criar seu arquivo de dados.
 |10.0.131.0    |SVC-1|32|USCAMTV001|A contoso concedeu&F|Office|RE&F|Exibição de Mountain|94043|Junte|CA|Junte|1|1|
 |10.0.132.0    |SVC-1|32|USCAMTV001|A contoso concedeu&F|Office|RE&F|Exibição de Mountain|94043|Junte|CA|Junte|1|1|
 
-Para obter mais informações sobre como formatar seu arquivo de dados, consulte [formato de arquivo de dados do locatário e estrutura do arquivo de dados de construção](turning-on-and-using-call-quality-dashboard.md#tenant-data-file-format-and-structure).
+Para obter mais informações sobre como formatar seu arquivo de dados, consulte [formato de arquivo de dados do locatário e estrutura do arquivo de dados de construção](CQD-upload-tenant-building-data.md#upload-building-data-file).
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

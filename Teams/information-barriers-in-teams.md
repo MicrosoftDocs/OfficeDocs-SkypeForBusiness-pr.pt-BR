@@ -16,12 +16,12 @@ description: Este artigo explica o que são barreiras de informações no Micros
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7ab476fa906c849e2c5af59546c3cca482be461a
-ms.sourcegitcommit: 4099da7b1db7663e63ef5bece16e3090c33ea207
+ms.openlocfilehash: ce71f0c0f2621253698cd250372624ded638dcec
+ms.sourcegitcommit: a22a7b7e4bf556ee3e5e2e51c6f9f1c865a0724a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45021780"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45083181"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Barreiras de informação no Microsoft Teams
 
@@ -143,10 +143,6 @@ No momento, os usuários perceberão o seguinte se uma política de barreira de 
     ![Captura de tela mostrando o chat em grupo](media/information-barriers-people-picker.png)
     
 - **Guia atividade** -se um usuário visitar a guia **atividade** de um usuário bloqueado, nenhuma postagem será exibida. (A guia **atividade** exibe somente Postagens de canal e não haveria canais comuns entre os dois usuários.)
-
-    Veja um exemplo do modo de exibição da guia atividade.
-
-    ![Captura de tela mostrando a guia atividade](media/ib-before-activity-tab-policy.png)
 
     Veja um exemplo do modo de exibição da guia atividade que está bloqueado.
 

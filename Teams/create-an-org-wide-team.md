@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a87ee4f846002537311fc5a9a9dd2e5f22757b0e
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 222daeb76d24186078ac6a49581dbfb05f1711bd
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868118"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45086218"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>Criar uma equipe englobando toda a organização no Microsoft Teams
 
@@ -32,7 +32,7 @@ Com as equipes de toda a organização, os administradores globais podem criar f
 
 ![Captura de tela da opção Toda a organização para criar uma equipe de toda a organização](media/create-org-wide-team.png "Captura de tela da opção Toda a organização para criar uma equipe de toda a organização")
 
-Quando uma equipe de toda a organização é criada, todos os administradores globais são adicionados como proprietários da equipe e todos os usuários ativos são adicionados como membros da equipe. Os usuários não licenciados também são adicionados à equipe. Na primeira vez que um usuário não licenciado entra no Teams, o usuário recebe uma licença de avaliação do Microsoft Teams Commercial Cloud. Para saber mais sobre a licença de avaliação, confira [Gerenciar a oferta de avaliação do Microsoft Teams Commercial Cloud](iw-trial-teams.md). 
+Quando uma equipe de toda a organização é criada, todos os administradores globais são adicionados como proprietários da equipe e todos os usuários ativos são adicionados como membros da equipe. Os usuários não licenciados também são adicionados à equipe. Na primeira vez que um usuário não licenciado entrar no Teams, o usuário recebe uma licença do Microsoft Team exploratório. Para saber mais sobre a licença exploratório, confira [gerenciar a licença exploratório do Microsoft Teams](teams-exploratory.md). 
 
 Estes tipos de contas não serão adicionados à sua equipe de toda a organização:
 

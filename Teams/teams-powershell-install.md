@@ -13,12 +13,12 @@ ms.collection:
 description: Saiba como usar os controles do PowerShell para gerenciar o Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 849b22d09c79e97c5eaaeab4dee96b1d432970cb
-ms.sourcegitcommit: 9b1c138b39fd87e239a7b1c5051f30c633e7d813
+ms.openlocfilehash: 8f42548439c0915eea8405b3c466f7696767f80c
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "44944076"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085877"
 ---
 # <a name="install-microsoft-teams-powershell"></a>Instalar o Microsoft Teams PowerShell
 
@@ -26,7 +26,7 @@ Este artigo explica como instalar o módulo do Microsoft Teams PowerShell usando
 
 ## <a name="requirements"></a>Requisitos
 
-O Teams PowerShell funciona com o PowerShell 6.2.4 e posterior em todas as plataformas. Também é compatível com o PowerShell 5,1 no Windows. Instale a [versão mais recente do PowerShell](/powershell/scripting/install/installing-powershell) disponível para o seu sistema operacional. O Teams PowerShell não tem requisitos adicionais quando executados no PowerShell 6.2.4 e posteriores.
+O Teams PowerShell requer o PowerShell 5,1 ou superior em todas as plataformas. Instale a [versão mais recente do PowerShell](/powershell/scripting/install/installing-powershell) disponível para o seu sistema operacional.
 
 > [!WARNING]
 > Há problemas conhecidos com o PowerShell 7 e o Teams PowerShell. Para obter a melhor experiência, recomendamos que você use o PowerShell 5,1.
@@ -45,7 +45,7 @@ Install-Module MicrosoftTeams
 
 Por padrão, a galeria do PowerShell (PSGallery) não está configurada como um repositório confiável para o **PowerShellGet**. Na primeira vez que usar o PSGallery, você verá a seguinte mensagem:
 
-```output
+```console
 Untrusted repository
 
 You are installing the modules from an untrusted repository. If you trust this repository, change
@@ -55,7 +55,7 @@ Are you sure you want to install the modules from 'PSGallery'?
 [Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help (default is "N"):
 ```
 
-Responda `Yes` ou `Yes to All` para continuar com a instalação.
+Responda **Sim** ou **Sim para tudo** para continuar com a instalação.
 
 
 ## <a name="install-teams-powershell-public-preview"></a>Instale a visualização pública do teams PowerShell

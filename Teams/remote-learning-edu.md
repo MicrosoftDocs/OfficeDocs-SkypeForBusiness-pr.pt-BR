@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0bd7c88a08dfdfa76ad560a56e524b7061d240f1
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 62cb28b26cb96faa05674a705f33b34bfb00aa90
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666273"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085967"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>Introdução ao Microsoft Teams para aprendizado remoto
 
@@ -156,6 +156,7 @@ Os profissionais de TI e a equipe de suporte podem se familiarizar rapidamente c
 
 Os recursos de suporte adicionais incluem:
 
+- [Solução de problemas do Teams](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
 - [Solucionar problemas de instalação e atualização do Microsoft Teams](troubleshoot-installation.md)
 - [Registrar um tíquete de suporte (pode ser usado por educadores e funcionários)](https://aka.ms/edusupport)
 - [Centro de Suporte e Ajuda para educadores usando o Teams](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114)

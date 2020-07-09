@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba como solucionar problemas de instalação e atualização para o aplicativo cliente de área de trabalho do Teams no Windows.
-ms.openlocfilehash: 5c6ee4da7e4bb78463cb262cb382e3a090529bb5
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
-ms.translationtype: HT
+ms.openlocfilehash: 7b8d4984a8ee40f9a013155ad28b682e000260ba
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888840"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45086137"
 ---
 # <a name="troubleshoot-microsoft-teams-installation-and-update-issues-on-windows"></a>Solucionar problemas de instalação e atualização do Microsoft Teams no Windows
 
@@ -154,3 +154,4 @@ Em alguns casos, o software de criptografia pode alterar os arquivos na pasta %L
 
 - [Obter clientes para o Teams](get-clients.md)
 - [Atualizações de cliente do Teams](teams-client-update.md)
+- [Solução de problemas do Teams](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
