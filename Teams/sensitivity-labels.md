@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba como definir e usar rótulos de sensibilidade no Microsoft Teams.
-ms.openlocfilehash: 2940fd5537f02a6d5b3125f4c0037b9705571ffa
-ms.sourcegitcommit: a94a267c421a78587b0dbbea5fa167aad2882e9b
+ms.openlocfilehash: 4f1bdc4715fd1375cff637604c93962e2f30c258
+ms.sourcegitcommit: d7f49f8c28cba32d3715ea1965c736e6ba574bda
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "45012307"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45091264"
 ---
 # <a name="sensitivity-labels-for-microsoft-teams"></a>Rótulos de sensibilidade do Microsoft Teams
 
@@ -99,15 +99,15 @@ Um proprietário de equipe pode alterar o rótulo de sensibilidade e a configura
 
 Você pode especificar se uma equipe criada com um rótulo específico permite acesso de convidado. As equipes criadas com um rótulo que não permite acesso de convidado só estão disponíveis para os usuários da sua organização. Pessoas de fora da sua organização não podem ser adicionadas à equipe.
 
+### <a name="sensitivity-labels-in-the-microsoft-teams-admin-center"></a>Rótulos de sensibilidade no centro de administração do Microsoft Teams
+
+Você pode definir rótulos de sensibilidade ao criar ou editar uma equipe no centro de administração do Microsoft Teams. Os rótulos de sensibilidade também são visíveis nas propriedades da equipe e na coluna **classificação** na página gerenciar equipes do centro de administração do Microsoft Teams.
+
 ## <a name="known-issues"></a>Problemas conhecidos
 
 **Rótulos padrão filho não exibidos durante a criação da equipe**
 
 Atualmente, um rótulo filho definido como o rótulo padrão para equipes não será exibido na parte superior da lista na lista de rótulos de sensibilidade no modelo de criação de equipe. Os criadores de equipe ainda podem usar o menu suspenso para aplicar o rótulo filho como solução alternativa.
-
-**Suporte para rótulos de sensibilidade no centro de administração do Microsoft Teams**
-
-No momento, não há suporte para rótulos de sensibilidade no centro de administração do Microsoft Teams. Se você usar rótulos de sensibilidade, não poderá definir rótulos de sensibilidade ao criar ou editar uma equipe. Os rótulos de sensibilidade também não ficam visíveis nas propriedades da equipe e não ficarão visíveis na coluna **classificação** no centro de administração do Microsoft Teams.
 
 **Suporte para rótulos de sensibilidade em APIs de gráficos do Teams, cmdlets e modelos do PowerShell**
 
