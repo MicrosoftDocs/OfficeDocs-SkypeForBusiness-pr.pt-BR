@@ -22,6 +22,7 @@ ms.custom:
 description: Neste artigo, você aprenderá sobre as políticas de mensagens e como elas podem ser usadas para controlar as mensagens de chat no Microsoft Teams.
 ms.openlocfilehash: c29697c8ec4d235ed232616e34590351bea59e9e
 ms.sourcegitcommit: 2467ece95e100a3a3cc2be3538d8eb7d878b3663
+ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 07/06/2020
 ms.locfileid: "45042973"
