@@ -14,12 +14,12 @@ ms.reviewer: vinbel
 search.appverid: MET150
 description: Use um site ou uma página existente do SharePoint Online e crie uma guia estática independente que possa ser usada como um portal da Intranet para a sua organização.
 localization_priority: Priority
-ms.openlocfilehash: 4777b744d76415f45718cb274f402556e1e28240
-ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
+ms.openlocfilehash: 09ff3fd57eee23c5eec9dfac118b68938c1c9f36
+ms.sourcegitcommit: a22a7b7e4bf556ee3e5e2e51c6f9f1c865a0724a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44326578"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45083161"
 ---
 # <a name="create-a-teams-intranet-portal-app-from-a-sharepoint-online-site-or-page"></a>Criar um 'aplicativo Portal da Intranet' do Teams a partir de um site ou página do SharePoint Online
 
@@ -105,7 +105,7 @@ Para exibir e testar o novo aplicativo em um dispositivo móvel, abra a gaveta d
 
 ## <a name="a-sample-manifestjson-file"></a>Um arquivo Manifest.JSON de amostra
 
-O arquivo        JSO que você gerar se parecerá com o mostrado abaixo.
+O arquivo JSON que você gerar se parecerá com o mostrado abaixo.
 
 ```JSON'
 {
