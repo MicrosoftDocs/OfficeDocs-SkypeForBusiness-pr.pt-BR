@@ -694,21 +694,29 @@
 
 <!-- ============================================================ -->
 # Monitorar, manter e solucionar problemas
-## [Monitorar e gerenciar a qualidade da chamada](monitor-call-quality-qos.md)
-### [Guia de revisão da experiência de qualidade](quality-of-experience-review-guide.md)
-### [Configurar o QoS no Teams](QoS-in-Teams.md)
+## Monitorar e gerenciar a qualidade da chamada
+### [Monitorar e gerenciar a qualidade da chamada](monitor-call-quality-qos.md)
+### Painel de Qualidade da Chamada (CQD)
+#### [O que é CQD?](CQD-what-is-call-quality-dashboard.md)
+#### [Configurar CQD](turning-on-and-using-call-quality-dashboard.md)
+#### [Carregar dados de locatário e de criação](CQD-upload-tenant-building-data.md)
+#### [Dados e relatórios CQD](CQD-data-and-reports.md)
+#### [Use CQD para gerenciar a qualidade da chamada e da reunião](quality-of-experience-review-guide.md)
+#### [Perguntas frequentes](CQD-frequently-asked-questions.md)
+#### [Dimensões e medidas disponíveis no CQD](dimensions-and-measures-available-in-call-quality-dashboard.md)
+#### [Classificação de fluxo no CQD](stream-classification-in-call-quality-dashboard.md)
+#### [Criar um bloco de construção](CQD-building-mapping.md)
+#### Usar o Power BI para analisar dados do CQD
+##### [Usar o Power BI para analisar dados do CQD](CQD-Power-BI-query-templates.md)
+##### [Instalar o Conector do Power BI para usar modelos de consulta do CQD](CQD-Power-BI-connector.md)
+##### [Obter dados do CQD sobre a utilização do Teams](CQD-teams-utilization-report.md)
+##### [Usando o relatório de Roteamento Direto CQD PSTN](CQD-PSTN-report.md)
+### Análise de Chamada
+#### [Configurar Análise de Chamada](set-up-call-analytics.md)
+#### [Usar a análise de chamada para solucionar problemas de baixa qualidade da chamada](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+### Qualidade de Serviço (QoS)
+#### [Configurar o QoS no Teams](QoS-in-Teams.md)
 #### [Definir o QoS em clientes do Windows](QoS-in-Teams-clients.md)
-### [Análise de Chamada e Painel de Qualidade de Chamadas](difference-between-call-analytics-and-call-quality-dashboard.md)
-### [Configurar Análise de Chamada](set-up-call-analytics.md)
-### [Usar a Análise de Chamada para solucionar problemas de baixa qualidade da chamada](use-call-analytics-to-troubleshoot-poor-call-quality.md)
-### [Ativando e usando o Painel de Qualidade de Chamadas](turning-on-and-using-call-quality-dashboard.md)
-### Usar o Power BI para analisar dados do CQD
-#### [Usar o Power BI para analisar dados do CQD](CQD-Power-BI-query-templates.md)
-#### [Instalar o Conector do Power BI para usar modelos de consulta do CQD](CQD-Power-BI-connector.md)
-#### [Obter dados do CQD sobre a utilização do Teams](CQD-teams-utilization-report.md)
-#### [Usando o relatório de Roteamento Direto CQD PSTN](CQD-PSTN-report.md)
-### [Dimensões e medidas disponíveis no Painel de Qualidade de Chamadas](dimensions-and-measures-available-in-call-quality-dashboard.md)
-### [Classificação de fluxo no painel de qualidade da chamada](stream-classification-in-call-quality-dashboard.md)
 ## [Solução de problemas do Teams](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
 ## [Solucionar problemas de instalação e atualização](troubleshoot-installation.md)
 ## [Solucionar problemas de conectividade do cliente Teams](connectivity-issues.md)
@@ -717,6 +725,7 @@
 ## [Perguntas frequentes: Suporte para sua força de trabalho remota](FAQ-support-remote-workforce.md)
 ## [Verificar a integridade do serviço para o Teams](service-health.md)
 ## [Entre em contato com o suporte para produtos para empresas - Ajuda para administradores](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)
+
 
 <!-- ============================================================ -->
   
