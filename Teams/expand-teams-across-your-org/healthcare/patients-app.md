@@ -18,18 +18,16 @@ appliesto:
 ms.reviewer: anach
 description: Saiba mais sobre como integrar os registros eletrônicos de assistência médica ao aplicativo Microsoft Teams pacientes usando APIs FHIR.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2af20b0c95f85d00269ac34b0768e4118793879b
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: f981b2fc68aa52f8ea5a48fab18977197ac813c8
+ms.sourcegitcommit: 397c4840fb053238de24b8b24ae75588b33b693d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905513"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "45098419"
 ---
 # <a name="integrating-electronic-healthcare-records-into-microsoft-teams"></a>Integração dos Registros Eletrônicos de Saúde no Microsoft Teams
 
 [!INCLUDE [preview-feature](../../includes/preview-feature.md)]
-
-Para participar da visualização particular, consulte [registrar na visualização particular](#enroll-in-the-private-preview).
 
 Este artigo destina-se a um desenvolvedor geral de ti de assistência médica interessado em usar APIs do FHIR sobre um sistema de informações médicas para se conectar ao Microsoft Teams. Isso permitiria cenários de coordenação que correspondam às necessidades de uma organização de assistência médica.
 
@@ -53,7 +51,6 @@ As seções a seguir explicam os requisitos da camada de acesso a dados somente 
 - Expectativas em relação ao desempenho e à confiabilidade
 - Expectativas em relação a recursos de FHIR para serem compatíveis com o aplicativo pacientes
 - Processo de integração e o modelo de compromisso esperado
-- Como se inscrever e seu cliente na visualização particular do aplicativo pacientes
 - Como começar a usar o FHIR e alguns desafios comuns enfrentados com o aplicativo pacientes
 - Requisitos futuros para a próxima iteração do aplicativo pacientes
 
@@ -80,7 +77,7 @@ A autenticação do serviço para o serviço deve ser feita por meio do [fluxo d
     {"resourceType": "CapabilityStatement",.
         .
         .
-        "Rest": [{"Mode": "servidor", "segurança": {"extensão": [{"extensão": [{"URL": "token", "valueUri": "https://login.contoso.com/145f4184-1b0b-41c7-ba24-b3c1291bfda1/oauth2/token"}, {"URL": ""}], "serviço":https://login.contoso.com/145f4184-1b0b-41c7-ba24-b3c1291bfda1/oauth2/authorize""}], "URL":http://fhir-registry.smarthealthit.org/StructureDefinition/oauth-uris""}], "serviço": [{"codificação": [{"sistema":https://hl7.org/fhir/ValueSet/restful-security-service"", "código": "OAuth", "OAuth", "
+        "Rest": [{"Mode": "servidor", "segurança": {"extensão": [{"extensão": [{"URL": "token", "valueUri": " https://login.contoso.com/145f4184-1b0b-41c7-ba24-b3c1291bfda1/oauth2/token "}, {"URL": " https://login.contoso.com/145f4184-1b0b-41c7-ba24-b3c1291bfda1/oauth2/authorize "}], "serviço": ""}], "URL": " http://fhir-registry.smarthealthit.org/StructureDefinition/oauth-uris "}], "serviço": [{"codificação": [{"sistema": " https://hl7.org/fhir/ValueSet/restful-security-service ", "código": "OAuth", "OAuth", "
                 .
                 .
             } ] }
@@ -145,26 +142,4 @@ Enquanto o aplicativo pacientes está em visualização particular, não há gar
 
 Se você não tem experiência com o FHIR e precisa de acesso fácil a um servidor FHIR que você possa expor à interface de integração do EHR do Microsoft Teams, a Microsoft tem um servidor FHIR de código-fonte aberto disponível para todos os desenvolvedores usarem. Consulte o artigo o [que é FHIR Server para Azure](https://docs.microsoft.com/azure/healthcare-apis/overview-open-source-server) para saber mais sobre o servidor de fonte de FHIR aberto disponível na Microsoft e implementá-lo para suas organizações.
 
-Você também pode usar o ambiente do EHR da área restrita do HSPC aberto para criar um EHR que também ofereça suporte a um servidor FHIR aberto e usá-lo para brincar com o aplicativo pacientes. Recomendamos que você leia a [documentação da área restrita do HSPC](https://healthservices.atlassian.net/wiki/spaces/HSPC/pages/64585866/HSPC+Sandbox). Além disso, a área restrita fornece uma maneira fácil, orientada à interface do usuário e fácil de criar, adicionar e editar pacientes, além de oferecer várias amostras para começar.  
-
-## <a name="enroll-in-the-private-preview"></a>Registrar na visualização particular
-
-Depois de criar o servidor de FHIR de código-fonte aberto, é muito fácil se conectar ao aplicativo pacientes dentro do seu locatário, seguindo as etapas descritas abaixo:
-
-1. [Entre em contato conosco](mailto:Teamsforhealthcare@service.microsoft.com?subject=Microsoft%20Teams%20Patients%20App%20private%20preview) com os seguintes detalhes iniciais:  
-    - Seu nome
-    - Sua posição
-    - A empresa ou organização que você representa
-    - Por que você está interessado no aplicativo pacientes para integração com o EHR
-
-    Entraremos em contato com você o mais rápido possível com mais perguntas e orientarão você por meio de um processo para ser configurado para a visualização particular.
-
-2. Verifique se o Sideload de aplicativos personalizados está habilitado no locatário em que você experimentará o aplicativo pacientes. Consulte políticas de [permissão do aplicativo](../../admin-settings.md) para saber como ativar isso no centro de administração do teams para o seu cliente ou locatário do seu cliente.
-
-3. Sideload o manifesto do aplicativo pacientes que você receberá da Microsoft (após processar seus emails para nós) em uma equipe no locatário que será usada para cenários de coordenação e arredondamento de pacientes. Instruções detalhadas sobre como carregar um aplicativo em [carregar um pacote do aplicativo para o Microsoft Teams](/microsoftteams/platform/concepts/apps/apps-upload)
-
-4. Navegue até o canal geral como proprietário da equipe e, em seguida, clique na guia pacientes. Você deve ver uma experiência de primeira execução que apresentará duas opções, ou seja, o modo EHR e o modo manual. Selecione o **modo EHR** e copie o ponto de extremidade do FHIR Server (que você acabou de configurar anteriormente com todos os dados obrigatórios e os recursos de acordo com as especificações acima) para o campo link e dê à conexão um nome que bem represente o servidor FHIR. Clique em conectar e tudo está pronto para ser usado.
-
-    ![Captura de tela das configurações do servidor de aplicativos pacientes](../../media/patients-server.png)
-
-5. Comece a usar o aplicativo para pesquisar pacientes do servidor/EHR do FHIR e adicioná-los a uma lista e [nos enviar comentários](mailto:Teamsforhealthcare@service.microsoft.com?subject=Microsoft%20Teams%20Patients%20App%20feedback) se algo não funcionar. Além disso, para estabelecer uma versão totalmente autenticada do fluxo do FHIR do aplicativo pacientes-> do servidor, entre em contato com o Microsoft Teams for Healthcare Product Engineering, por meio da solicitação de email mencionada anteriormente para esclarecer os requisitos, e ajudaremos a habilitar isso para você de acordo com os requisitos de autenticação descritos acima no documento da interface FHIR.  
+Você também pode usar o ambiente do EHR da área restrita do HSPC aberto para criar um EHR que também ofereça suporte a um servidor FHIR aberto e usá-lo para brincar com o aplicativo pacientes. Recomendamos que você leia a [documentação da área restrita do HSPC](https://healthservices.atlassian.net/wiki/spaces/HSPC/pages/64585866/HSPC+Sandbox). Além disso, a área restrita fornece uma maneira fácil, orientada à interface do usuário e fácil de criar, adicionar e editar pacientes, além de oferecer várias amostras para começar. 
