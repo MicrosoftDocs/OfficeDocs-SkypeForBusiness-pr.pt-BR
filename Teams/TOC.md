@@ -255,6 +255,7 @@
 #### [Criar uma fila de chamada do Cloud](create-a-phone-system-call-queue.md)
 #### [Atender chamadas do atendedor automático e da fila de chamadas diretamente no Teams](answer-auto-attendant-and-call-queue-calls.md)
 
+### [Bloquear chamadas de entrada](block-inbound-calls.md)
 ### [Recuperação e estacionamento de chamadas](call-park-and-retrieve.md)
 ### [Atendimento de chamada de grupo e compartilhamento de chamada](call-sharing-and-group-call-pickup.md)
 ### [Política de chamada](teams-calling-policy.md)
