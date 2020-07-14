@@ -1,15 +1,15 @@
 ---
 title: Conduzir uma investigação de conteúdo de descoberta eletrônica do conteúdo
-author: LolaJacobsen
-ms.author: hakank
-manager: serdars
+author: markjjo
+ms.author: markjjo
+manager: laurawi
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
 - M365-collaboration
 - SPO_Content
-ms.reviewer: anach
+ms.reviewer: anwara
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -17,12 +17,12 @@ description: Saiba o que fazer quando você precisar executar uma descoberta ele
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 55afbf3ff1dd3f38990dc60f9cae3cbce7c2f9db
-ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
+ms.openlocfilehash: 0bdd14db1fd0e849effe9ffe1789c06e1e012d90
+ms.sourcegitcommit: 113e3a7314505cf78da57917ff62642125fb11fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43950886"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45121391"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Conduzir uma investigação de Descoberta Eletrônica de conteúdo no Microsoft Teams
 
@@ -154,7 +154,7 @@ Depois de finalizar a pesquisa, você pode clicar no botão de **configuração 
 
 Ao adicionar uma pesquisa a um conjunto de revisão, você pode escolher um conjunto de revisão normal ou um conjunto de revisão de conversa.
 
-Um conjunto de revisão normal é semelhante a uma exportação; Ele fornece os arquivos `.msg` individuais para o conteúdo do Teams e apresenta o conteúdo em um modo de exibição básico. Normalmente, você usaria um conjunto de revisão normal quando planeja usar outras ferramentas de software para reprocessar os arquivos mais tarde.
+Um conjunto de revisão normal é semelhante a uma exportação; Ele fornece os `.msg` arquivos individuais para o conteúdo do Teams e apresenta o conteúdo em um modo de exibição básico. Normalmente, você usaria um conjunto de revisão normal quando planeja usar outras ferramentas de software para reprocessar os arquivos mais tarde.
 
 Um conjunto de revisão de conversa fornece uma exibição encadeada e mais intuitiva das conversas; Ele exibe mensagens relacionadas juntas na ordem correta.
 
@@ -180,11 +180,11 @@ Além de documentos, você pode adicionar emails, mensagens de equipe, mensagens
 
 O botão **gerenciar conjuntos de revisão** fornece opções adicionais, como análises, relatórios resumidos, Quantos conjuntos de carregamento foram adicionados e assim por diante.
 
-Para acessar visualizações e gráficos de seus dados, clique em **exibição de perfil de pesquisa** de **resultados** \> individuais no canto superior direito. Você pode clicar em fatias nestes gráficos para selecionar interativamente o tipo de conteúdo que deseja consultar. Por exemplo, você pode optar por consultar somente o conteúdo da equipe. Você também pode salvar essas consultas da mesma forma que salva as consultas que você escreve manualmente.
+Para acessar visualizações e gráficos de seus dados, clique em exibição de perfil de pesquisa de **resultados individuais** \> **Search profile view** no canto superior direito. Você pode clicar em fatias nestes gráficos para selecionar interativamente o tipo de conteúdo que deseja consultar. Por exemplo, você pode optar por consultar somente o conteúdo da equipe. Você também pode salvar essas consultas da mesma forma que salva as consultas que você escreve manualmente.
 
 #### <a name="summary-view-text-view-and-annotate-view"></a>Modo de exibição de resumo, modo de exibição de texto e exibição de anotação
 
-Se você clicar em uma conversa de equipe no conjunto de revisão, ele exibirá o **modo de exibição Resumo**, que exibe uma conversa de equipe inteira como uma lista de mensagens com as quais você pode interagir individualmente. Clique na seta para baixo à direita de uma mensagem para exibir um menu de contexto que permite que você exiba detalhes da mensagem ou baixe `.msg` o arquivo individual. Clicar em detalhes da mensagem mostrará um resumo dos metadados ou os metadados completos da mensagem.
+Se você clicar em uma conversa de equipe no conjunto de revisão, ele exibirá o **modo de exibição Resumo**, que exibe uma conversa de equipe inteira como uma lista de mensagens com as quais você pode interagir individualmente. Clique na seta para baixo à direita de uma mensagem para exibir um menu de contexto que permite que você exiba detalhes da mensagem ou baixe o `.msg` arquivo individual. Clicar em detalhes da mensagem mostrará um resumo dos metadados ou os metadados completos da mensagem.
 
 Para baixar um PDF, clique no botão baixar no canto superior direito do modo de exibição de resumo.
 
