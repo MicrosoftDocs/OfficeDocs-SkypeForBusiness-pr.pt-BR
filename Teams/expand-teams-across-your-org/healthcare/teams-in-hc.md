@@ -18,12 +18,12 @@ appliesto:
 ms.reviewer: ''
 description: Saiba mais sobre os recursos de assistência médica que incluem coordenação, Secure Messaging, telehealth, integração do EHR e primeira integração do sistema de trabalho.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 457a5701288cf3d6203ad690d82d0bea3a4556cc
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
+ms.openlocfilehash: 8d2a77e5e7e696e20efb13a5c805968fc3af3204
+ms.sourcegitcommit: 70b80892a152f86a6d596f0f5b58cf391bc29098
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44938360"
+ms.lasthandoff: 07/15/2020
+ms.locfileid: "45138101"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>Introdução ao Teams para Organizações de Saúde
 
@@ -89,9 +89,25 @@ O aplicativo pacientes é criado na plataforma de extensibilidade do Teams e apr
 
 Consulte [integrando os registros eletrônicos de assistência médica ao Microsoft Teams](patients-app.md) para obter detalhes de implementação.
 
-## <a name="templates"></a>Modelos
+## <a name="teams-templates"></a>Modelos de equipe
 
 Novos modelos para a criação de equipes foram desenvolvidos para serem aplicados a uma configuração do hospital e mais esperadas em breve. Isso facilita a criação de equipes que os funcionários da área de saúde usam para coordenar o cuidado com pacientes em vários departamentos ou em diante. Consulte [introdução aos modelos de equipe para organizações de assistência médica](healthcare-templates.md). As equipes podem ser iniciadas para departamentos internos, como cardiologia ou para portabilidade, e mais modelos estão em desenvolvimento.
+
+## <a name="lists-app"></a>Aplicativo listas
+
+[!INCLUDE [preview-feature](../../includes/preview-feature.md)]
+
+O aplicativo listas no Teams ajuda as equipes a acompanhar informações e organizar o trabalho. O aplicativo é pré-instalado para todos os usuários do Teams e está disponível como uma guia em cada equipe e canal. As listas podem ser criadas do zero, de modelos predefinidos ou importando dados para o Excel.
+
+As equipes de cuidado podem usar o modelo pacientes para começar. Elas podem criar listas para acompanhar as necessidades e o status dos pacientes. Os dados existentes do paciente em planilhas do Excel podem ser trazidos para criar uma lista no Teams. Essas listas podem ser usadas para cenários como rodadas e monitoramento de pacientes para coordenar o cuidado.
+
+Por exemplo, um enfermeira de cobrança cria uma lista de pacientes em uma equipe que inclui todos os membros da equipe. Durante os XX, a equipe de atendimento ao cliente em seus dispositivos móveis e atualizar as informações dos pacientes na lista, que todos os membros da equipe podem ver para permanecer em sincronização. Em sessões de arredondamento em que a equipe de atendimento se reúne para discutir e avaliar as principais métricas de desempenho da saúde para garantir que um paciente esteja no caminho de ponto de partida correto para a descarga, ele pode compartilhar essas informações usando o Microsoft Teams em uma tela grande de exibição. Cuidado os membros da equipe que não estão no local podem ingressar remotamente.
+
+Aqui está um exemplo de lista que foi configurada para o arredondamento de pacientes.
+
+:::image type="content" source="../../media/lists-patients-example.png" alt-text="Captura de tela da lista de exemplos para o arredondamento de pacientes":::
+
+Para saber mais, consulte [gerenciar o aplicativo listas para sua organização no Teams](../../manage-lists-app.md).
 
 ## <a name="secure-messaging"></a>Mensagens seguras
 
@@ -105,7 +121,7 @@ Juntos, esses recursos permitem uma atenção mais rápida para mensagens urgent
 
 Consulte [introdução ao Secure Messaging Policies for Healthcare para empresas](messaging-policies-hc.md) para obter mais detalhes.
 
-Também relacionados a mensagens seguras é a capacidade de ter outros locatários agrupados por organizações de assistência médica, permitindo comunicações mais ricas entre os locatários. (consulte [gerenciar o acesso externo (Federação) no Microsoft Teams](../../manage-external-access.md)).
+Também relacionados a mensagens seguras é a capacidade de ter outros locatários agrupados por organizações de assistência médica, permitindo comunicações mais ricas entre os locatários. (Consulte [gerenciar o acesso externo (Federação) no Microsoft Teams](../../manage-external-access.md)).
 
 ## <a name="firstline-worker-integration"></a>Integração do trabalho do primeiro lugar
 

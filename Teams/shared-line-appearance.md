@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.users.voice.calldelegation.tooltip
 - seo-marvel-apr2020
 description: Saiba como enviar um email aos seus usuários com as informações de audioconferência no Microsoft Teams.
-ms.openlocfilehash: 80c279e4d80478c2392f8c4faffb46e822c016e4
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 92eda8a1818d98689e71d81f31c5355df3ef1e26
+ms.sourcegitcommit: 2cc36c954200f50de33b909856b33fe0a9a6b7a5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042578"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45125974"
 ---
 # <a name="shared-line-appearance-in-microsoft-teams"></a>Aparência de linha compartilhada no Microsoft Teams
 
@@ -59,7 +59,7 @@ A aparência da linha compartilhada tem suporte no momento pelos seguintes aplic
 
 | Funcionalidade | Teams desktop | Aplicativo Teams Mac | Aplicativo Web do Teams (Edge) |Aplicativo móvel do teams para iOS/Android | Telefone IP do teams |
 |------------|---------------|---------------|----------------------|-----------------------------|----------------|
-| Configurar a delegação | Sim  | Sim  | Sim | Não | Não |
+| Configurar a delegação | Sim  | Sim  | Sim | Não | Sim |
 | Receber chamadas em nome de outra | Sim  | Sim  | Sim  | Sim  | Sim |
 | Ligar para um número de telefone em nome de outro | Sim  | Sim  | Sim  | Sim  | Sim |
 | Chamar um usuário do teams em nome de outro | Sim  | Sim  | Sim  | Sim  | Sim |

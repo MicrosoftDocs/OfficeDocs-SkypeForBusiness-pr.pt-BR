@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Saiba como preparar sua infraestrutura para a implantação de salas do Microsoft Teams para que você possa aproveitar todos os recursos.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8551bc625b270b8b61de4be71ceb772a1d1ede47
-ms.sourcegitcommit: d0d37351c37c2b4db9b0fc51b286dd548f5b9542
+ms.openlocfilehash: a8252151dcad1c8e483394c6268d445376f25973
+ms.sourcegitcommit: 2cc36c954200f50de33b909856b33fe0a9a6b7a5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "44735421"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45125954"
 ---
 # <a name="prepare-your-environment"></a>Preparar seu ambiente
 
@@ -36,8 +36,8 @@ Esta seção contém uma visão geral das etapas necessárias para preparar seu 
    - HTTP: 80
    - Se sua rede é executada através de um proxy, você também precisa do endereço de proxy ou de informações do script.
     
-     > [!NOTE]
-     > O SkypeRoomSystemv2 não oferece suporte à entrada HDCP, pois foi observado que ela causa conflitos com a funcionalidade de ingestão HDMI (vídeo e áudio). Certifique-se que as chaves conectadas às Salas do Microsoft Teams estejam com as opções HDCP desativadas.
+     > [!IMPORTANT]
+     > As salas do Microsoft Teams não dão suporte à autenticação de proxy porque elas podem interferir nas operações regulares da sala. Verifique se as salas do Microsoft Teams foram isentadas da autenticação de proxy antes de entrar em produção.
   
 3. Para aprimorar sua experiência, a Microsoft coleta dados. Para permitir que a Microsoft colete dados, acesse os sites da lista branca:
 

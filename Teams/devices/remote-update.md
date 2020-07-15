@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Atualizar os telefones e as barras de colaboração do Microsoft Teams remotamente usando o centro de administração do teams
-ms.openlocfilehash: 7e47c9394eddfa73b8b55279b68ae59ff7b6de3d
-ms.sourcegitcommit: 9b1c138b39fd87e239a7b1c5051f30c633e7d813
+ms.openlocfilehash: f7607da002be7f038e4cafe5b4b6026ea2d99ddf
+ms.sourcegitcommit: 2cc36c954200f50de33b909856b33fe0a9a6b7a5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "44944075"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45125944"
 ---
 # <a name="update-microsoft-teams-devices-remotely"></a>Atualizar dispositivos do Microsoft Teams remotamente
 
@@ -32,7 +32,7 @@ Usando o centro de administração do Microsoft Teams, você pode atualizar seus
 As atualizações de firmware de dispositivo podem ser aplicadas automaticamente ou agendadas para uma data e hora futuras. Outras atualizações de dispositivo disponíveis não são aplicadas automaticamente, mas podem ser aplicadas manualmente ou agendadas para uma data e hora futuras.
 
 > [!NOTE]
-> Enquanto as atualizações de firmware do dispositivo podem ser agendadas, se a data e a hora programadas ficarão após o máximo de 30 ou 90, a atualização do firmware será aplicada quando o atraso máximo for atingido. A data e a hora programadas são ignoradas.
+> Enquanto as atualizações de firmware do dispositivo podem ser agendadas, se a data e a hora programadas ficarão após o máximo de 30 ou 90, a atualização do firmware será aplicada quando o atraso máximo for atingido. A data e a hora programadas são ignoradas. Além disso, a atualização remota de dispositivos do Microsoft Teams é um recurso ainda não disponível nos locatários de nuvem do governo dos EUA (GCC-alta).
 
 ## <a name="choose-automatic-device-firmware-update-behavior"></a>Escolher o comportamento de atualização automática do firmware do dispositivo
 
