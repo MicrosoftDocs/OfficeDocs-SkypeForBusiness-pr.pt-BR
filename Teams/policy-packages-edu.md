@@ -23,6 +23,7 @@ search.appverid: MET150
 description: Saiba mais sobre políticas em uma configuração EDU ou educacional e como usar e gerenciar pacotes de políticas no Microsoft Teams.
 ms.openlocfilehash: fcc6a5d22d5e499cf698e424148ff37cd3ee054e
 ms.sourcegitcommit: 4099da7b1db7663e63ef5bece16e3090c33ea207
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 07/02/2020
 ms.locfileid: "45021879"

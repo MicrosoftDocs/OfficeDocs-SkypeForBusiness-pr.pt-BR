@@ -117,7 +117,6 @@
 #### [Visão geral](teams-analytics-and-reports/teams-reporting-reference.md)
 #### [Relatório de uso do Teams](teams-analytics-and-reports/teams-usage-report.md)
 #### [Relatório de atividades do usuário do Teams](teams-analytics-and-reports/user-activity-report.md)
-#### [Relatório de uso do Teams](teams-analytics-and-reports/app-usage-report.md)
 #### [Relatório de uso de dispositivos do Teams](teams-analytics-and-reports/device-usage-report.md)
 #### [Relatório de usuários bloqueados da PSTN](teams-analytics-and-reports/pstn-blocked-users-report.md)
 #### [Relatório de pools de minutos PSTN](teams-analytics-and-reports/pstn-minute-pools-report.md)
@@ -131,6 +130,7 @@
 ## [Início rápido – reuniões e eventos ao vivo](quick-start-meetings-live-events.md)
 ## [Planejar sua implantação](deploy-meetings-microsoft-teams-landing-page.md)
 ## [Tutorial: Reuniões no Teams](Tutorial-Meetings-in-Teams.yml)
+## [Recursos de apresentador e de participantes em uma reunião do Teams](roles-in-meetings.md)
 ## [Gerenciar políticas de reunião](meeting-policies-in-teams.md)
 ## [Gerenciar configurações de reuniões](meeting-settings-in-teams.md)
 ## [Emails enviados para os usuários quando suas configurações são alteradas](emails-sent-to-users-when-their-settings-change-in-teams.md) 
@@ -217,7 +217,6 @@
 ## Eventos ao vivo
 ### [O que são os eventos ao vivo do Teams?](teams-live-events/what-are-teams-live-events.md)
 ### [Planejar eventos ao vivo do Teams](teams-live-events/plan-for-teams-live-events.md)
-### [Recursos de apresentador, produtor e participante em um evento ao vivo](roles-in-live-events.md)
 ### [Configurar eventos ao vivo do Teams](teams-live-events/set-up-for-teams-live-events.md)
 ### [Usar o PowerShell para definir políticas de eventos ao vivo do Teams](teams-live-events/set-teams-live-events-policies-using-powershell.md)
 ### [Definir configurações de eventos ao vivo do Teams](teams-live-events/configure-teams-live-events.md)
@@ -255,12 +254,10 @@
 #### [Criar uma fila de chamada do Cloud](create-a-phone-system-call-queue.md)
 #### [Atender chamadas do atendedor automático e da fila de chamadas diretamente no Teams](answer-auto-attendant-and-call-queue-calls.md)
 
-### [Bloquear chamadas de entrada](block-inbound-calls.md)
 ### [Recuperação e estacionamento de chamadas](call-park-and-retrieve.md)
 ### [Atendimento de chamada de grupo e compartilhamento de chamada](call-sharing-and-group-call-pickup.md)
 ### [Política de chamada](teams-calling-policy.md)
 ### [Aparência de linha compartilhada](shared-line-appearance.md)
-### [Configuração do teclado de discagem](dial-pad-configuration.md)
 
 
 ## Planos de Chamadas
@@ -357,16 +354,6 @@
 ### [Gerenciar políticas de chamadas de emergência](manage-emergency-calling-policies.md)
 ### [Gerenciar políticas de roteamento de chamada](manage-emergency-call-routing-policies.md)
 
-## Estudo de caso da migração de voz da contoso
-### [Visão geral](voice-case-study-overview.md)
-### [Atualização Teams](voice-case-study-migration-plan.md)
-### [Sistema de Telefonia](voice-case-study-phone-system.md)
-### [Roteamento baseado em local](voice-case-study-location-based-routing.md)
-### [Chamada de emergência](voice-case-study-emergency-calling.md)
-### [Audioconferência](voice-case-study-audio-conferencing.md)
-### [Atendedores automáticos e filas de chamadas](voice-case-study-call-queues.md)
-
-
 
 
 ## Referência
@@ -382,6 +369,7 @@
 #### [Gerenciamento de números de telefone para os Países Baixos](manage-phone-numbers-for-your-organization/phone-number-management-for-the-netherlands.md)
 #### [Gerenciamento de números de telefone para o Reino Unido](manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-k.md)
 #### [Gerenciamento de números de telefone para os EUA](manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md)
+
 
 ### Limitações e restrições de discagem gratuita
 #### [Visão geral](toll-free-dialing-limitations-and-restrictions.md)
@@ -510,30 +498,33 @@
 
 ## Planejar sua jornada de atualização
 
-### Planejar seu projeto e os requisitos 
-#### [Visão geral](upgrade-plan-journey.md)
-#### [Listar os participantes em seu projeto](upgrade-enlist-stakeholders.md)
-#### [Definir o escopo de seu projeto](upgrade-define-project-scope.md)
-#### [Compreender a coexistência e interoperabilidade](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
-#### [Escolher sua jornada de atualização](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-#### [Planejar um piloto de usuário](pilot-essentials.md)
+### [Visão geral do planejamento de atualização](upgrade-plan-journey.md)
+### [Listar os participantes em seu projeto](upgrade-enlist-stakeholders.md)
+### [Definir o escopo de seu projeto](upgrade-define-project-scope.md)
+### [Compreender a coexistência e interoperabilidade](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+### [Escolher sua jornada de atualização](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+### [Meetings First](meetings-first.md)
 
-### Preparar seu ambiente para o Teams
-#### [Visão geral de preparação técnica](upgrade-prepare-environment.md)
-#### [Preparar a equipe de TI para o Teams](upgrade-prepare-IT-pros.md)
-#### [Pré-requisitos](upgrade-plan-journey-prerequisites.md)
-#### [Avaliar seu ambiente](upgrade-plan-journey-evaluate-environment.md)
-#### [Preparar seu serviço](upgrade-prepare-environment-prepare-service.md)
+## Preparar seu ambiente para o Teams
+### [Visão geral de preparação técnica](upgrade-prepare-environment.md)
+### [Preparar a equipe de TI para o Teams](upgrade-prepare-IT-pros.md)
+### [Pré-requisitos](upgrade-plan-journey-prerequisites.md)
+### [Avaliar seu ambiente](upgrade-plan-journey-evaluate-environment.md)
+### [Preparar seu serviço](upgrade-prepare-environment-prepare-service.md)
 
-### Preparar sua organização para o Teams
-#### [Visão geral de preparação Organizacional](upgrade-prepare-organization.md)
-#### [Avaliar preparação da mudança organizacional](upgrade-org-change-readiness.md)
-#### [Preparar um plano de preparação para usuários](upgrade-user-readiness.md)
+## Preparar sua organização para o Teams
+### [Visão geral de preparação Organizacional](upgrade-prepare-organization.md)
+### [Avaliar preparação da mudança organizacional](upgrade-org-change-readiness.md)
+### [Preparar um plano de preparação para usuários](upgrade-user-readiness.md)
+
 
 ## Implementar sua atualização
 ### [Visão geral](upgrade-to-Teams.md)
+### [Realizar um piloto de usuário](pilot-essentials.md)
 ### [Atualizar o Skype for Business Online para o Teams](upgrade-to-Teams-execute-SkypeforBusinessOnline.md)
+
 ### [Atualizar do Skype for Business local para o Teams](upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md)
+
 
 ## Operar, adotar e otimizar
 ### [Visão geral do plano operacional](continue-journey.md)
@@ -550,8 +541,6 @@
 ### [Coexistência com o Skype for Business](coexistence-chat-calls-presence.md)
 ### [Experiência e conformidade do cliente do Teams a modos de coexistência](teams-client-experience-and-conformance-to-coexistence-modes.md)
 ### [Definir suas configurações de coexistência e atualização](setting-your-coexistence-and-upgrade-settings.md)
-
-### [Meetings First](meetings-first.md)
 
 
 <!-- ============================================================ -->
@@ -622,7 +611,12 @@
 ## [Introdução aos modelos do Teams](get-started-with-teams-templates.md)
 ## [Aplicativo Marcações e visitas virtuais](bookings-app-admin.md)
 ## [Turnos do Teams](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
-### [O Microsoft StaffHub foi desativado](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
+### [O Microsoft StaffHub será desativado](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
+### [Instalar o módulo PowerShell do Microsoft PowerHub](expand-teams-across-your-org/shifts/install-the-staffhub-powershell-module.md)
+### [Executar um relatório para exibir o uso ativo do StaffHub](expand-teams-across-your-org/shifts/run-report-to-show-staffhub-usage.md)
+### [Planejar a mudança de suas equipes do StaffHub para o Shifts no Teams](expand-teams-across-your-org/shifts/plan-to-move-staffhub-teams-to-shifts-in-teams.md)
+### [Mova as suas equipes do Microsoft StaffHub para o Shifts no Teams](expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams.md)
+### [Exemplo de comunicação por email para os usuários](expand-teams-across-your-org/shifts/staffhub-to-teams-email-template.md)
 ### [Gerenciar o aplicativo Shifts para sua organização no Teams](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
 
 ## Teams para Serviços de Saúde
@@ -654,7 +648,6 @@
 ### [QuickStart para trabalhadores de linha de frente](firstline-workers-quickstart.yml)
 ### [Implantação programada de trabalhadores de primeira linha](flw-scripted-deployment.md)
 ### [RealWear para Microsoft Teams](flw-realwear.md)
-### [Walkie Talkie](walkie-talkie.md)
 ### [Criar um aplicativo do portal de intranet do Teams a partir de um site ou página do SPO](teams-standalone-static-tabs-using-spo-sites.md)
 
 ## [Teams para o Varejo](expand-teams-across-your-org/teams-for-retail-landing-page.md)
@@ -682,7 +675,6 @@
 ## Conformidade
 ### [Barreiras de informações](information-barriers-in-teams.md)
 ### [Políticas de retenção](retention-policies.md)
-### [Conformidade em comunicações](communication-compliance.md)
 ### [Gravação baseada em políticas para chamadas & reuniões](teams-recording-policy.md)
 ### [Prevenção contra Perda de Dados](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### Descoberta eletrônica
@@ -695,38 +687,29 @@
 
 <!-- ============================================================ -->
 # Monitorar, manter e solucionar problemas
-## Monitorar e gerenciar a qualidade da chamada
-### [Monitorar e gerenciar a qualidade da chamada](monitor-call-quality-qos.md)
-### Painel de Qualidade da Chamada (CQD)
-#### [O que é CQD?](CQD-what-is-call-quality-dashboard.md)
-#### [Configurar CQD](turning-on-and-using-call-quality-dashboard.md)
-#### [Carregar dados de locatário e de criação](CQD-upload-tenant-building-data.md)
-#### [Dados e relatórios CQD](CQD-data-and-reports.md)
-#### [Use CQD para gerenciar a qualidade da chamada e da reunião](quality-of-experience-review-guide.md)
-#### [Perguntas frequentes](CQD-frequently-asked-questions.md)
-#### [Dimensões e medidas disponíveis no CQD](dimensions-and-measures-available-in-call-quality-dashboard.md)
-#### [Classificação de fluxo no CQD](stream-classification-in-call-quality-dashboard.md)
-#### [Criar um bloco de construção](CQD-building-mapping.md)
-#### Usar o Power BI para analisar dados do CQD
-##### [Usar o Power BI para analisar dados do CQD](CQD-Power-BI-query-templates.md)
-##### [Instalar o Conector do Power BI para usar modelos de consulta do CQD](CQD-Power-BI-connector.md)
-##### [Obter dados do CQD sobre a utilização do Teams](CQD-teams-utilization-report.md)
-##### [Usando o relatório de Roteamento Direto CQD PSTN](CQD-PSTN-report.md)
-### Análise de Chamada
-#### [Configurar Análise de Chamada](set-up-call-analytics.md)
-#### [Usar a análise de chamada para solucionar problemas de baixa qualidade da chamada](use-call-analytics-to-troubleshoot-poor-call-quality.md)
-### Qualidade de Serviço (QoS)
-#### [Configurar o QoS no Teams](QoS-in-Teams.md)
+## [Suporte do Teams na sua organização](Known-issues.md)
+## [Monitorar e gerenciar a qualidade da chamada](monitor-call-quality-qos.md)
+### [Guia de revisão da experiência de qualidade](quality-of-experience-review-guide.md)
+### [Configurar o QoS no Teams](QoS-in-Teams.md)
 #### [Definir o QoS em clientes do Windows](QoS-in-Teams-clients.md)
-## [Solução de problemas do Teams](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
+### [Análise de Chamada e Painel de Qualidade de Chamadas](difference-between-call-analytics-and-call-quality-dashboard.md)
+### [Configurar Análise de Chamada](set-up-call-analytics.md)
+### [Usar a Análise de Chamada para solucionar problemas de baixa qualidade da chamada](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+### [Ativando e usando o Painel de Qualidade de Chamadas](turning-on-and-using-call-quality-dashboard.md)
+### Usar o Power BI para analisar dados do CQD
+#### [Usar o Power BI para analisar dados do CQD](CQD-Power-BI-query-templates.md)
+#### [Instalar o Conector do Power BI para usar modelos de consulta do CQD](CQD-Power-BI-connector.md)
+#### [Obter dados do CQD sobre a utilização do Teams](CQD-teams-utilization-report.md)
+#### [Usando o relatório de Roteamento Direto CQD PSTN](CQD-PSTN-report.md)
+### [Dimensões e medidas disponíveis no Painel de Qualidade de Chamadas](dimensions-and-measures-available-in-call-quality-dashboard.md)
+### [Classificação de fluxo no painel de qualidade da chamada](stream-classification-in-call-quality-dashboard.md)
 ## [Solucionar problemas de instalação e atualização](troubleshoot-installation.md)
 ## [Solucionar problemas de conectividade do cliente Teams](connectivity-issues.md)
 ## [Problemas ao receber mensagens e chamadas em sistemas herdados](legacy-login-issues.md)
 ## [Usar arquivos de registro para solucionar problemas no Teams](log-files.md)
 ## [Perguntas frequentes: Suporte para sua força de trabalho remota](FAQ-support-remote-workforce.md)
 ## [Verificar a integridade do serviço para o Teams](service-health.md)
-## [Entre em contato com o suporte para produtos para empresas - Ajuda para administradores](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)
-
+## [Recursos de suporte para o Teams](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 <!-- ============================================================ -->
   
@@ -745,6 +728,7 @@
 ### [Planejar o Grupos do Microsoft 365 ao criar equipes no Teams](plan-office-365-groups.md)
 ### [Planejar o gerenciamento do ciclo de vida no Teams](plan-teams-lifecycle.md)
 ### [Plano de governança no Teams](plan-teams-governance.md)
+### [Usar o complemento de teste de rede](use-network-testing-companion.md)
 
 ## Instalar o Teams
 ### [Obter clientes para o Teams](get-clients.md)
@@ -773,6 +757,7 @@
 ### [Licenciamento de políticas de mensagens](teams-add-on-licensing/pri-message.md)
 ### [Sistema de Telefonia do Microsoft 365 – licença de Usuário Virtual](teams-add-on-licensing/virtual-user.md)
 
+
 ## Interoperabilidade com o Microsoft 365 e o Office 365
 
 ### [Grupos do Microsoft 365 e o Teams](office-365-groups.md)
@@ -784,9 +769,9 @@
 ### [Como o SharePoint Online e o OneDrive for Business interagem com o Teams](sharepoint-onedrive-interact.md)
 ### [Experiência do Teams em um locatário habilitado para Multi-Geo do Microsoft 365 ou Office 365](teams-experience-o365odb-spo-multi-geo.md)
 
+
 ## Dispositivos suportados
 ### [Gerenciar seus dispositivos no Teams](devices/device-management.md)
-### [Atualizar seus dispositivos remotamente](devices/remote-update.md)
 ### [Telefones para o Teams](devices/phones-for-teams.md)
 ### [Dispositivos de áudio e vídeo USB](devices/usb-devices.md)
 ### [Implantar barras de colaboração do Microsoft Teams](devices/collab-bar-deploy.md)
@@ -794,12 +779,11 @@
 ### [Telefones IP certificados para o Microsoft Teams](devices/teams-ip-phones.md)
 ### [Telefones para o Skype for Business Online](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
+
 ## PowerShell do Teams
 ### [Visão geral](teams-powershell-overview.md)
-### [Instalar o PowerShell do Teams](teams-powershell-install.md)
-### [Gerenciar Teams com o PowerShell do Teams](teams-powershell-managing-teams.md)
-### [Notas de versão do Windows PowerShell do Teams](teams-powershell-release-notes.md)
 ### [Referência de Cmdlet para o Teams](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)
+### [Instalar a versão de pré-lançamento do módulo Teams PowerShell](install-prerelease-teams-powershell-module.md)
 
 ## [Documentação de desenvolvedor do Teams](https://docs.microsoft.com/microsoftteams/platform)
 ## [Receba ajuda no Teams](get-help-in-microsoft-teams.md)
@@ -809,7 +793,6 @@
 
 ## Disponibilidade de Audioconferência e Planos de Chamadas por país e região
 ### [Visão geral](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-### [Albânia](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-albania.md)
 ### [Argélia](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-algeria.md)
 ### [Antígua e Barbuda](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-antigua-and-barbuda.md)
 ### [Argentina](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-argentina.md)
@@ -817,7 +800,6 @@
 ### [Áustria ](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-austria.md)
 ### [Bahamas](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-bahamas.md)
 ### [Bahrein](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bahrain.md)
-### [Bangladesh](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bangladesh.md)
 ### [Barbados](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-barbados.md)
 ### [Belarus](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belarus.md)
 ### [Bélgica](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belgium.md)
@@ -829,7 +811,6 @@
 ### [Brunei](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-brunei.md)
 ### [Bulgária](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bulgaria.md)
 ### [Camboja](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-cambodia.md)
-### [Camarões](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-cameroon.md)
 ### [Canadá](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-canada.md)
 ### [Ilhas Cayman](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-cayman-islands.md)
 ### [Chile](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-chile.md)
@@ -855,7 +836,6 @@
 ### [Grécia](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-greece.md)
 ### [Granada](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-grenada.md)
 ### [Guam](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-guam.md)
-### [Guatemala](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-guatemala.md)
 ### [Honduras](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-honduras.md)
 ### [Hong-Kong](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-hong-kong.md)
 ### [Hungria](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-hungary.md)
@@ -882,7 +862,6 @@
 ### [Países Baixos](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-netherlands.md)
 ### [Nova Zelândia](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-new-zealand.md)
 ### [Nigéria](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-nigeria.md)
-### [Ilhas Marianas do Norte](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-northern-mariana-islands.md)
 ### [Noruega](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-norway.md)
 ### [Paquistão ](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-pakistan.md)
 ### [Panamá](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-panama.md)
@@ -913,8 +892,6 @@
 ### [Trinidad e Tobago](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-trinidad-and-tobago.md)
 ### [Tunísia](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-tunisia.md)
 ### [Turquia](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-turkey.md)
-### [Ilhas Turks e Caicos](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-turks-and-caicos-islands.md)
-### [Uganda](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-uganda.md)
 ### [Ucrânia](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-ukraine.md)
 ### [Emirados Árabes Unidos (EAU)](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-united-arab-emirates-uae.md)
 ### [Reino Unido](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-united-kingdom-u-k.md)
