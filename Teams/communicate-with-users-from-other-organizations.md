@@ -17,12 +17,12 @@ description: Aprenda a se comunicar com usuários de outras organizações no Mi
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: 8676c45a386a9fb36571e3262a8c70769f45f0a6
-ms.sourcegitcommit: af15d99837a389b6b26952211e65cd68c4b7f46e
+ms.openlocfilehash: 61cbaf6b869ffb0ff377615081953d16a6a63aea
+ms.sourcegitcommit: 2cc36c954200f50de33b909856b33fe0a9a6b7a5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "44785273"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45125964"
 ---
 <a name="communicate-with-users-from-other-organizations-in-microsoft-teams"></a>Comunique-se com usuários de outras organizações no Microsoft Teams
 ======================================================
@@ -47,7 +47,7 @@ Se você desejar que usuários externos tenham acesso a equipes e canais, o [ace
 Use o **acesso de convidados** para adicionar um usuário individual (independentemente do domínio) a uma equipe, onde eles podem conversar, ligar, reunir e colaborar em arquivos da organização (armazenados no SharePoint ou no OneDrive for Business), usando os aplicativos do Microsoft 365 ou do Office 365, como Word, Excel ou PowerPoint. Um usuário convidado pode ter quase todos os mesmos recursos de equipes que um membro nativo da equipe. Para saber mais, leia [Acesso de convidados no Teams](guest-access.md).
 
 - Os convidados são adicionados ao Active Directory da sua organização.
-- Para se comunicar com um convidado, ele deve estar conectado ao Teams usando sua conta de convidado. Isso significa que um convidado pode ter que sair de sua própria conta do Teams para entrar em sua conta do Teams.
+- Para se comunicar com um convidado, ele deve estar conectado ao Teams usando sua conta de convidado. Isso significa que um convidado pode ter que sair de sua própria conta do Teams para entrar em sua conta do Teams, ou mudar organização se for a mesma conta.
 - Os usuários convidados têm acesso a mais recursos no Teams - como arquivos, equipes e canais - do que os usuários de acesso externo (federado).
 - O administrador do Teams controla tudo o que um convidado pode (ou não) fazer no centro de administração do Teams. Para saber mais, leia [Gerenciar acesso de convidados](manage-guests.md).
 
