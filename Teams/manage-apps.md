@@ -17,12 +17,12 @@ description: Saiba como gerenciar seus aplicativos do teams na página Gerenciar
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 1aa72a1720139324f53168c36f1d27a12b5cf5bb
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: 3a99577b51f08d9ae0e0d4aef73297fade1b1176
+ms.sourcegitcommit: 92a1158a4ade08d7168691b7f8b44a33df090afb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45086208"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "45146117"
 ---
 <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>Gerenciar seus aplicativos no centro de administração do Microsoft Teams
 ======================================================
@@ -42,15 +42,24 @@ Você pode exibir todos os aplicativos no catálogo do aplicativo locatário, in
 
 ![Captura de tela da página de aplicativos gerenciados](media/manage-apps.png)
 
-- **Nome**: o nome do aplicativo. Clique no nome do aplicativo para ver mais informações sobre o aplicativo. Isso inclui uma descrição do aplicativo, seja ele permitido ou bloqueado, versão, categorias que se aplicam ao aplicativo, status de certificação, recursos com suporte e ID do aplicativo. Veja um exemplo:<br> 
-![Captura de tela da página de detalhes de aplicativos de um aplicativo](media/manage-apps-app-details.png)
+- **Nome**: o nome do aplicativo. Clique no nome do aplicativo para ver mais informações sobre o aplicativo. Isso inclui uma descrição do aplicativo, seja ele permitido ou bloqueado, versão, categorias que se aplicam ao aplicativo, status de certificação, recursos com suporte e ID do aplicativo. Veja um exemplo:
+
+  ![Captura de tela da página de detalhes de aplicativos de um aplicativo](media/manage-apps-app-details.png)
+  
 - **Certificação**: se o aplicativo tiver passado pela certificação, você verá o **Microsoft 365 Certified** ou **atestado de fornecedor**. Clique no link para exibir os detalhes de certificação do aplicativo. Se você vir " **--** ", não temos informações de certificação para o aplicativo. Para saber mais sobre aplicativos certificados no Teams, leia [o programa de certificação de aplicativos Microsoft 365](https://docs.microsoft.com/teams-app-certification/all-apps).  
+
 - **Categorias**: categorias que se aplicam ao aplicativo.
+
 - **Status do aplicativo**: status do aplicativo no nível da organização, que pode ser um dos seguintes:
+
     - **Permitido**: o aplicativo está disponível para todos os usuários em sua organização.
+    
     - **Bloqueado**: o aplicativo está bloqueado e não está disponível para os usuários de sua organização.
-    - **Bloqueou toda a organização**: o aplicativo está bloqueado em configurações de aplicativo de toda a organização. <br>
-É importante saber que essa coluna representa o status permitido e bloqueado dos aplicativos que estavam anteriormente no painel configurações de **toda a organização** . Agora, você vê, bloqueia e permite aplicativos na organização toda a partir da página **gerenciar aplicativos** . 
+    
+    - **Bloqueou toda a organização**: o aplicativo está bloqueado em configurações de aplicativo de toda a organização.
+    
+      É importante saber que essa coluna representa o status permitido e bloqueado dos aplicativos que estavam anteriormente no painel configurações de **toda a organização** . Agora, você vê, bloqueia e permite aplicativos na organização toda a partir da página **gerenciar aplicativos** . 
+
 - **Versão**: versão do aplicativo.
 
 Para ver as informações desejadas na tabela, clique em **Editar coluna** no canto superior direito para adicionar ou remover colunas à tabela.
@@ -91,7 +100,8 @@ Use as configurações de aplicativo de toda a organização para controlar se o
 
     - **Permitir aplicativos de terceiros**: isso controla se os usuários podem usar aplicativos de terceiros. Se você desabilitar essa configuração, os usuários não poderão instalar ou usar qualquer aplicativo de terceiros, e o status do aplicativo desses aplicativos será exibido como **bloqueado em toda a organização** na tabela.
 
-        Quando **permitir que aplicativos de terceiros** estejam desativados, os [WebHooks de saída](https://docs.microsoft.com/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors) são desativados, o que significa que os usuários não podem criá-los. Quando essa configuração está ativada, os WebHooks de saída são habilitados para todos os usuários, independentemente de a configuração estar ativada ou desativada na política de permissão do aplicativo dos usuários.
+        > [!NOTE]
+        > Quando **permitir que aplicativos de terceiros** estejam desativados, os [WebHooks de saída](https://docs.microsoft.com/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors) são desativados, o que significa que os usuários não podem criá-los. Quando essa configuração está ativada, os WebHooks de saída são habilitados para todos os usuários e você pode controlá-los no nível do usuário, permitindo ou bloqueando o aplicativo webhook de saída por meio [das políticas de permissão do aplicativo](teams-app-permission-policies.md). <br><br>Observe que, se você tiver [políticas de permissão de aplicativo](teams-app-permission-policies.md) existentes para **aplicativos da Microsoft** que usam a configuração **permitir aplicativos específicos e bloquear todas as outras** e desejar habilitar WebHooks de saída para usuários, adicione o aplicativo webhook de saída à lista.
     - **Permitir que todos os novos aplicativos de terceiros publicados na loja por padrão**: controlam se novos aplicativos de terceiros publicados na App App Store se tornam disponíveis automaticamente no Teams. Você só pode definir esta opção se permitir aplicativos de terceiros.
 
 3. Em **aplicativos personalizados**, desative ou ative **permitir interação com aplicativos personalizados**. Esta configuração controla se os usuários podem interagir com aplicativos personalizados. Para saber mais, consulte [gerenciar políticas e configurações personalizadas do aplicativo no Microsoft Teams](teams-custom-app-policies-and-settings.md).

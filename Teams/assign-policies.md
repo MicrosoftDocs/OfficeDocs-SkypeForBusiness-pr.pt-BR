@@ -18,11 +18,12 @@ description: Aprenda as diferentes maneiras de atribuir políticas a seus usuár
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: 161a979578f24b351c93e870a562e6c4104b52d0
-ms.sourcegitcommit: ac36d3923095a4321dad14fdf23c98358affd10c
+ms.openlocfilehash: 0978ed0413c372b8bacbb936af6e125294e9d35f
+ms.sourcegitcommit: 95ccfce5016dfda1a59812df446824be21f3f23e
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "45049438"
+ms.lasthandoff: 07/15/2020
+ms.locfileid: "45143842"
 ---
 # <a name="assign-policies-to-your-users-in-microsoft-teams"></a>Atribuir políticas aos usuários no Microsoft Teams
 
@@ -295,7 +296,7 @@ Se você não especificar uma classificação, a atribuição de política terá
 **Este recurso ainda não foi lançado. Ele foi anunciado e estará disponível em breve.**
 
 > [!NOTE]
-> Atualmente, a atribuição de política a grupos usando o centro de administração do Microsoft Teams está disponível apenas para política de chamada de equipes, política de reunião do Teams e política de mensagens de equipe. Para outros tipos de política, use o PowerShell.
+> Atualmente, a atribuição de política a grupos usando o centro de administração do Microsoft Teams está disponível apenas para política de chamada de equipes, política de estacionamento de chamada de equipe, política de equipe, política de eventos do Teams, política de reunião do Teams e política de mensagens de equipe. Para outros tipos de política, use o PowerShell.
 
 1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para a página tipo de política. Por exemplo, acesse **Meetings**  >  **políticas de reunião**de reuniões.
 2. Selecione a guia **atribuição de política de grupo** .

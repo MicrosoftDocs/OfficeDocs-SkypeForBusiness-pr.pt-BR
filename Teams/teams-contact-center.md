@@ -13,12 +13,12 @@ f1.keywords:
 description: Uma visão geral da solução integrada do centro de contatos como serviço (CCaaS) para o Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aceca495760670846a869a8dcca9734a5cf7daa1
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 34f801c19bcbc5479e4e71f520a4d0d437a7b58a
+ms.sourcegitcommit: 95ccfce5016dfda1a59812df446824be21f3f23e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44756822"
+ms.lasthandoff: 07/15/2020
+ms.locfileid: "45143832"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Integrações do centro de contato do Microsoft Teams
 
@@ -49,6 +49,7 @@ Os parceiros a seguir estão no processo de certificação da solução para o M
 | Enghouse Interactive | http://www.enghouseteams.com/                                                       |
 | Five9 | https://www.five9.com/products/application-integration/uc-integration                                                   |
 | Genesys | https://www.genesys.com/microsoft                                                                                   |
+| Tecnologias Landis | https://landistechnologies.com/microsoft-teams-contact-center/                                          |
 | Luware | https://luware.com/en/solutions/                                                                                       |
 | BOM contato | https://www.niceincontact.com/microsoft-teams                                                            |
 | Tendfor | https://www.tendfor.com/en/                                                                                     |

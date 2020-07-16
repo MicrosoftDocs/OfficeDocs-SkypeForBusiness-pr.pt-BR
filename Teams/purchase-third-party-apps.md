@@ -17,20 +17,24 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 0a92835ac9bed704ed82583ab44da58279d74bcc
-ms.sourcegitcommit: 2467ece95e100a3a3cc2be3538d8eb7d878b3663
+ms.openlocfilehash: ab917c57578a854ef5bf6c591229ac35a7e98fe9
+ms.sourcegitcommit: 92a1158a4ade08d7168691b7f8b44a33df090afb
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2020
-ms.locfileid: "45042953"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "45146107"
 ---
 <a name="purchase-services-for-teams-third-party-apps-in-the-microsoft-teams-admin-center"></a>Comprar serviços para Teams aplicativos de terceiros no centro de administração do Microsoft Teams
 ======================================================
 
-Os aplicativos do teams são gratuitos e assinaturas de serviço para esses aplicativos estão disponíveis para compra por meio do [AppSource](https://appsource.microsoft.com/) e agora por meio do centro de administração do Microsoft Teams. Essas assinaturas de serviço são chamadas de SaaS (software como serviço).
+> [!NOTE]
+> No momento, esse recurso só está disponível nos Estados Unidos.
 
-A página [gerenciar aplicativos](manage-apps.md) no centro de administração do Microsoft Teams é onde você vê e gerencia todos os aplicativos do teams no catálogo de aplicativos da sua organização. Por exemplo, você pode ver o status do nível de organização e as propriedades dos aplicativos, carregar novos aplicativos personalizados em seu catálogo de aplicativos locatário, bloquear ou permitir aplicativos no nível da organização e gerenciar as configurações de aplicativo de toda a organização.
+Os aplicativos Teams são gratuitos para instalar e alguns podem exigir assinaturas de serviço de compra para experimentar o escopo e a funcionalidade completa do aplicativo. Essas assinaturas de serviço são chamadas de SaaS (software como serviço), que estão disponíveis para compra por meio do [AppSource](https://appsource.microsoft.com/) e agora através do centro de administração do Microsoft Teams.
 
-Aqui, você também pode comprar licenças de serviços oferecidos por aplicativos de terceiros para os usuários de sua organização. A coluna **licenças** na tabela indica se um aplicativo oferece uma assinatura SaaS para compra. No momento, esse recurso só está disponível nos Estados Unidos.
+A página [gerenciar aplicativos](manage-apps.md) no centro de administração do Microsoft Teams é onde você vê e gerencia todos os aplicativos do teams para sua organização. Por exemplo, você pode ver o status do nível de organização e as propriedades dos aplicativos, carregar novos aplicativos personalizados para a loja de aplicativos da sua organização, bloquear ou permitir aplicativos no nível da organização e gerenciar as configurações de aplicativo de toda a organização.
+
+Aqui, você também pode comprar licenças de serviços oferecidos por aplicativos de terceiros para os usuários de sua organização. A coluna **licenças** na tabela indica se um aplicativo oferece uma assinatura SaaS para compra.
 
 ## <a name="search-for-and-purchase-services-for-a-third-party-app"></a>Pesquisar e comprar serviços para um aplicativo de terceiros
 
@@ -43,15 +47,18 @@ Aqui, você também pode comprar licenças de serviços oferecidos por aplicativ
 4. Para comprar um plano, clique em **comprar agora**. Você será redirecionado para a experiência de compra da oferta associada ao aplicativo Teams. É aqui que você vai concluir a compra do serviço ou da oferta SaaS.
 5. Escolha o plano desejado. Se a oferta SaaS incluir mais de um plano, clique em **alterar** para ver a lista de planos disponíveis.
 6. Selecione o termo de cobrança ( **mensal** ou **anual**) e insira o número de licenças de usuário que você deseja comprar.
-7. Quando estiver pronto, escolha **fazer pedido**.
-8. Clique em **Configurar agora** para ativar sua assinatura no site do fornecedor.
+7. Digite seu método de pagamento.
+8. Quando estiver pronto, escolha **fazer pedido**.
+9. Clique em **Configurar agora** para ativar sua assinatura no site do fornecedor.
 
 Depois de comprar a oferta SaaS associada ao aplicativo Teams, você pode exibir os detalhes de compra a seguir na página **gerenciar aplicativos** .
 
 - **Data de ativação da licença**: data em que a sua licença foi ativada. Se a sua conta ainda não tiver sido configurada, isso será mostrado como **ativação de assinatura pendente**.
-- **Licenças**: número de licenças adquiridas
+- **Licenças**: número de licenças adquiridas.
 
 Selecione **gerenciar licenças** para acessar o centro de administração do Microsoft 365 para exibir e gerenciar as licenças que você comprou e para gerenciar atribuições de licença para os usuários.
+
+Os administradores globais podem ver as compras feitas por qualquer pessoa na organização, enquanto os administradores do teams Services só podem ver as compras feitas por si mesmos.  
 
 ## <a name="have-a-saas-offer-for-a-teams-app-that-you-want-to-list-and-sell-in-the-microsoft-teams-admin-center-and-appsource"></a>Ter uma oferta SaaS para um aplicativo Teams que você deseja listar e vender no centro de administração do Microsoft Teams e AppSource?
 
