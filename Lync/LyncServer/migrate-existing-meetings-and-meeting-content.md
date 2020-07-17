@@ -25,7 +25,7 @@ ms.locfileid: "44756962"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="migrate-existing-meetings-and-meeting-content"></a><span data-ttu-id="cb922-102">Migrar reuniões existentes e conteúdo de reunião</span><span class="sxs-lookup"><span data-stu-id="cb922-102">Migrate existing meetings and meeting content</span></span>
+# <a name="migrate-existing-meetings-and-meeting-content"></a><span data-ttu-id="75cc5-102">Migrar reuniões existentes e conteúdo de reunião</span><span class="sxs-lookup"><span data-stu-id="75cc5-102">Migrate existing meetings and meeting content</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "44756962"
 
 <span> </span>
 
-<span data-ttu-id="cb922-103">_**Última modificação do tópico:** 2013-02-22_</span><span class="sxs-lookup"><span data-stu-id="cb922-103">_**Topic Last Modified:** 2013-02-22_</span></span>
+<span data-ttu-id="75cc5-103">_**Última modificação do tópico:** 2013-02-22_</span><span class="sxs-lookup"><span data-stu-id="75cc5-103">_**Topic Last Modified:** 2013-02-22_</span></span>
 
-<span data-ttu-id="cb922-104">Quando uma conta de usuário é movida do Lync Server 2010 para um servidor do Lync Server 2013, as seguintes informações são movidas com essa conta de usuário:</span><span class="sxs-lookup"><span data-stu-id="cb922-104">When a user account is moved from Lync Server 2010 to a Lync Server 2013 server, the following information is moved with that user account:</span></span>
+<span data-ttu-id="75cc5-104">Quando uma conta de usuário é movida do Lync Server 2010 para um servidor do Lync Server 2013, as seguintes informações são movidas com essa conta de usuário:</span><span class="sxs-lookup"><span data-stu-id="75cc5-104">When a user account is moved from Lync Server 2010 to a Lync Server 2013 server, the following information is moved with that user account:</span></span>
 
-  - <span data-ttu-id="cb922-105">**Meetings already scheduled by the user**.</span><span class="sxs-lookup"><span data-stu-id="cb922-105">**Meetings already scheduled by the user**.</span></span> <span data-ttu-id="cb922-106">This includes moving the conferencing directories and conferencing data.</span><span class="sxs-lookup"><span data-stu-id="cb922-106">This includes moving the conferencing directories and conferencing data.</span></span>
+  - <span data-ttu-id="75cc5-p101">**As reuniões já foram programadas pelo usuário**. Isto inclui mover os diretórios de conferência e dados de conferência.</span><span class="sxs-lookup"><span data-stu-id="75cc5-p101">**Meetings already scheduled by the user**. This includes moving the conferencing directories and conferencing data.</span></span>
 
-  - <span data-ttu-id="cb922-107">**User’s personal identification number (PIN)**.</span><span class="sxs-lookup"><span data-stu-id="cb922-107">**User’s personal identification number (PIN)**.</span></span> <span data-ttu-id="cb922-108">The user’s current PIN continues to work until it expires or the user requests a new PIN.</span><span class="sxs-lookup"><span data-stu-id="cb922-108">The user’s current PIN continues to work until it expires or the user requests a new PIN.</span></span>
+  - <span data-ttu-id="75cc5-p102">**Número de identificação pessoal (PIN) do usuário**. O PIN atual do usuário continua a funcionar até vencer ou o usuário solicitar um novo PIN.</span><span class="sxs-lookup"><span data-stu-id="75cc5-p102">**User’s personal identification number (PIN)**. The user’s current PIN continues to work until it expires or the user requests a new PIN.</span></span>
 
-<span data-ttu-id="cb922-109">A seguinte informação de conta do usuário não é movida para o novo servidor.</span><span class="sxs-lookup"><span data-stu-id="cb922-109">The following user account information does not move to the new server.</span></span>
+<span data-ttu-id="75cc5-109">A seguinte informação de conta do usuário não é movida para o novo servidor.</span><span class="sxs-lookup"><span data-stu-id="75cc5-109">The following user account information does not move to the new server.</span></span>
 
-  - <span data-ttu-id="cb922-110">**Meeting content**.</span><span class="sxs-lookup"><span data-stu-id="cb922-110">**Meeting content**.</span></span> <span data-ttu-id="cb922-111">In order to move the content shared during a meeting, for example PowerPoint, Whiteboard, attachments or poll data, use the **-MoveConferenceData** parameter as part of the **Move-CsUser** cmdlet.</span><span class="sxs-lookup"><span data-stu-id="cb922-111">In order to move the content shared during a meeting, for example PowerPoint, Whiteboard, attachments or poll data, use the **-MoveConferenceData** parameter as part of the **Move-CsUser** cmdlet.</span></span>
+  - <span data-ttu-id="75cc5-p103">**Conteúdo da reunião**. Para poder mover o conteúdo compartilhado durante uma reunião, por exemplo, PowerPoint, Quadro de Avisos, anexos ou dados do pool, use o parâmetro **-MoveConferenceData** como parte do cmdlet **Move-CsUser**.</span><span class="sxs-lookup"><span data-stu-id="75cc5-p103">**Meeting content**. In order to move the content shared during a meeting, for example PowerPoint, Whiteboard, attachments or poll data, use the **-MoveConferenceData** parameter as part of the **Move-CsUser** cmdlet.</span></span>
 
 </div>
 

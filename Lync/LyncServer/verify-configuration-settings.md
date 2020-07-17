@@ -25,7 +25,7 @@ ms.locfileid: "44755605"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="verify-configuration-settings"></a><span data-ttu-id="fa52b-102">Verifique as configurações</span><span class="sxs-lookup"><span data-stu-id="fa52b-102">Verify configuration settings</span></span>
+# <a name="verify-configuration-settings"></a><span data-ttu-id="8f85e-102">Verifique as configurações</span><span class="sxs-lookup"><span data-stu-id="8f85e-102">Verify configuration settings</span></span>
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "44755605"
 
 <span> </span>
 
-<span data-ttu-id="fa52b-103">_**Última modificação do tópico:** 2012-09-06_</span><span class="sxs-lookup"><span data-stu-id="fa52b-103">_**Topic Last Modified:** 2012-09-06_</span></span>
+<span data-ttu-id="8f85e-103">_**Última modificação do tópico:** 2012-09-06_</span><span class="sxs-lookup"><span data-stu-id="8f85e-103">_**Topic Last Modified:** 2012-09-06_</span></span>
 
-<span data-ttu-id="fa52b-104">Você pode validar a replicação de informações de configuração para o servidor de borda executando o cmdlet do Lync Server 2013 **Get-CsManagementStoreReplicationStatus** no computador interno no qual o repositório de gerenciamento central está localizado, ou em qualquer computador ingressado no domínio no qual o Lync Server 2013 Core Components (OcsCore.msi) está instalado.</span><span class="sxs-lookup"><span data-stu-id="fa52b-104">You can validate the replication of configuration information to the Edge server by running the Lync Server 2013 **Get-CsManagementStoreReplicationStatus** cmdlet on the internal computer on which the Central Management store is located, or on any domain joined computer on which Lync Server 2013 Core Components (OcsCore.msi) is installed.</span></span>
+<span data-ttu-id="8f85e-104">Você pode validar a replicação de informações de configuração para o servidor de borda executando o cmdlet do Lync Server 2013 **Get-CsManagementStoreReplicationStatus** no computador interno no qual o repositório de gerenciamento central está localizado, ou em qualquer computador ingressado no domínio no qual o Lync Server 2013 Core Components (OcsCore.msi) está instalado.</span><span class="sxs-lookup"><span data-stu-id="8f85e-104">You can validate the replication of configuration information to the Edge server by running the Lync Server 2013 **Get-CsManagementStoreReplicationStatus** cmdlet on the internal computer on which the Central Management store is located, or on any domain joined computer on which Lync Server 2013 Core Components (OcsCore.msi) is installed.</span></span>
 
-<span data-ttu-id="fa52b-105">Os resultados iniciais podem indicar o status como "Falso" e não "Verdadeiro" para replicação.</span><span class="sxs-lookup"><span data-stu-id="fa52b-105">Initial results may indicate the status as "False" instead of "True" for replication.</span></span> <span data-ttu-id="fa52b-106">Se isso acontecer, execute o cmdlet **Invoke-CsManagementStoreReplication** e dê tempo para a replicação ser concluída antes de executar o **Get-CsManagementStoreReplicationStatus** novamente.</span><span class="sxs-lookup"><span data-stu-id="fa52b-106">If so, run the **Invoke-CsManagementStoreReplication** cmdlet and allow time for the replication to complete before running the **Get-CsManagementStoreReplicationStatus** again.</span></span>
+<span data-ttu-id="8f85e-105">Os resultados iniciais podem indicar o status como "Falso" e não "Verdadeiro" para replicação.</span><span class="sxs-lookup"><span data-stu-id="8f85e-105">Initial results may indicate the status as "False" instead of "True" for replication.</span></span> <span data-ttu-id="8f85e-106">Se isso acontecer, execute o cmdlet **Invoke-CsManagementStoreReplication** e dê tempo para a replicação ser concluída antes de executar o **Get-CsManagementStoreReplicationStatus** novamente.</span><span class="sxs-lookup"><span data-stu-id="8f85e-106">If so, run the **Invoke-CsManagementStoreReplication** cmdlet and allow time for the replication to complete before running the **Get-CsManagementStoreReplicationStatus** again.</span></span>
 
 </div>
 
