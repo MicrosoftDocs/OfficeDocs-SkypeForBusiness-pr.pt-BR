@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 241c1f2ab0287b6beb2a99386b2f04b1f7cbfb28
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 1199bacde9ed41152cde6054975963cfd5a19ae9
+ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666063"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45158729"
 ---
 # <a name="prerequisites-and-environmental-dependencies-for-teams"></a>Pré-requisitos e dependências ambientais para equipes
 
@@ -48,12 +48,16 @@ Consulte os artigos a seguir para saber mais sobre pré-requisitos e como o Micr
 
 - Se sua organização não tiver identidades sincronizadas com o Azure Active Directory, consulte [modelos de identidade e autenticação no Microsoft Teams](identify-models-authentication.md).
 
-- Se a sua organização não tiver<sup>um</sup>Exchange Online, confira [entender como o Exchange e o Microsoft Teams interagem](Exchange-Teams-interact.md).
+- Se a sua organização não tiver o Exchange Online, confira [entender como o Exchange e o Microsoft Teams interagem](Exchange-Teams-interact.md).
 
 - Se sua organização não tiver o SharePoint Online, confira [entender como o SharePoint Online e o onedrive for Business interagem com o Microsoft Teams](SharePoint-OneDrive-interact.md).
 
-- Saiba como os [grupos do microsoft 365 e o Microsoft Teams interagem](Office-365-groups.md).
+- Para saber como os [grupos do microsoft 365 e do Microsoft Teams interagem](Office-365-groups.md).
 
-- Se sua organização for uma instituição educacional e você usar um sistema de informações do aluno, [implante a sincronização de dados da escola](https://docs.microsoft.com/schooldatasync) antes de implantar o Microsoft Teams.
+- Se sua organização for uma instituição educacional e você usar um sistema de informações do aluno, consulte [Bem-vindo à sincronização de dados do Microsoft School](https://docs.microsoft.com/schooldatasync) antes de implantar o Microsoft Teams.
+
+- Se a sua organização estiver considerando opções de chamadas PSTN (rede telefônica pública comutada), consulte [sistema de telefonia de voz e conectividade PSTN](cloud-voice-landing-page.md), [que é o plano de chamada adequado para você](calling-plan-landing-page.md)e [Roteamento direto do sistema telefônico](direct-routing-landing-page.md).
+
+- Para garantir que todos os requisitos de rede tenham sido atendidos antes de distribuir o Microsoft Teams, consulte [preparar a rede da sua organização para o Microsoft Teams](prepare-network.md).
 
 Depois de verificar se o seu ambiente atende a todos os pré-requisitos aplicáveis, [avalie o ambiente atual do teams](upgrade-plan-journey-evaluate-environment.md).

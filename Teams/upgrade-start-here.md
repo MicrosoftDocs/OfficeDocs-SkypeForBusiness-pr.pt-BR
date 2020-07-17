@@ -28,12 +28,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f113f617ece465c3f18a0e9facacabc7bd776eb9
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: fae61030e7ee8b2695fa518b194999a974ed0d8d
+ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44522994"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45158629"
 ---
 # <a name="getting-started-with-your-microsoft-teams-upgrade"></a>Introdução à atualização para o Microsoft Teams
 
@@ -52,6 +52,14 @@ O Skype for Business Online será desativado em 31 de julho de 2021, e depois di
 ## <a name="can-we-continue-to-use-skype-for-business-online-as-we-prepare-for-and-execute-our-upgrade-to-teams"></a>Podemos continuar usando o Skype for Business online enquanto nos preparamos e executamos nossa atualização para o Teams?
 
 Sim, a Microsoft oferece várias opções para executar o Skype for Business Online e o Teams juntos. Esses modos de coexistência permitem que seus usuários se familiarizem com o Teams hoje e ajudam a acelerar a atualização para utilizar apenas o Teams. Para saber mais, confira [https://aka.ms/SkypeToTeams-Coexist](https://aka.ms/SkypeToTeams-Coexist).
+
+## <a name="is-phone-system-available-for-teams-users"></a>O sistema telefônico está disponível para usuários do teams?
+
+Sim. O sistema de telefonia está disponível para todos os usuários do teams depois de serem movidos para o modo TeamsOnly.  Além disso, a Microsoft fornece opções para se conectar à rede telefônica pública comutada (PSTN) para que os usuários possam fazer chamadas telefônicas em qualquer lugar do mundo. Para obter mais informações, consulte [sistema de telefonia de voz e conectividade PSTN](cloud-voice-landing-page.md).
+
+## <a name="can-we-continue-to-use-our-on-premises-telephony-infrastructure"></a>Podemos continuar a usar nossa infraestrutura de telefonia local?
+
+Sim. Com o roteamento direto do sistema telefônico, você pode usar o sistema telefônico com praticamente qualquer operadora de telefonia. Com o roteamento direto, você conecta seu próprio controlador de borda de sessão (SBC) diretamente ao sistema telefônico. Para obter mais informações, consulte [Roteamento direto do sistema telefônico](direct-routing-landing-page.md).
  
 ## <a name="how-is-microsoft-helping-customers-with-their-upgrade-to-teams"></a>Como a Microsoft está ajudando os clientes na atualização para o Teams? 
 

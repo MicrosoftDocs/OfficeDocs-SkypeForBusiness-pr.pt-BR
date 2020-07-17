@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 29dc02a88efe533f9a43a110c357203b87a890d6
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: 76e9aeab00d2ce86d79fb50fa6bbc1ee3d2c3347
+ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44523164"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45158659"
 ---
 # <a name="upgrade-from-skype-for-business-online-to-teams"></a>Atualizar do Skype for Business Online para o Teams
 
@@ -99,8 +99,16 @@ Você também pode achar mais fácil atualizar os grupos de usuários de uma vez
 Ao validar a atualização para o modo somente Teams e estiver pronto para expandir, repita as etapas anteriores para aplicar o TeamsOnly a mais usuários.  
 
 
-## <a name="phone-system-and-teams-upgrade"></a>Atualização do sistema de telefonia e do teams
+## <a name="phone-system-and-pstn-connectivity-options"></a>Opções de conectividade PSTN e do sistema telefônico
 
-Se a sua implantação do Skype for Business online incluir o sistema telefônico com planos de chamadas e a Microsoft for o seu provedor de rede telefônica pública comutada (PSTN), a atualização de seus usuários para o Microsoft Teams fará automaticamente a chamada PSTN de entrada para o Teams.
+O sistema telefônico com Teams tem suporte depois que o usuário está no modo TeamsOnly. (Se o usuário estiver no modo de ilhas, o sistema telefônico só tem suporte no Skype for Business.)  
 
-Se a sua implantação do Skype for Business Online inclui o sistema telefônico com o Cloud Connector Edition, consulte [considerações adicionais sobre o roteamento direto do sistema telefônico](2-envision-make-my-service-decisions-direct-routing.md).
+### <a name="pstn-connectivity-options"></a>Opções de conectividade PSTN
+
+Ao considerar as opções de conectividade PSTN (rede telefônica pública comutada), há dois cenários possíveis ao migrar do Skype for Business online para o modo TeamsOnly:
+
+- Um usuário no Skype for Business Online, com um plano de chamadas da Microsoft. Após a atualização, este usuário continuará a ter um plano de chamadas da Microsoft. Esse é o cenário mais simples que requer apenas algumas etapas. Para obter mais informações, consulte [o Skype for Business online com planos de chamada da Microsoft](upgrade-to-teams-on-prem-overview.md#from-skype-for-business-online-with-microsoft-calling-plans).
+
+- Um usuário no Skype for Business Online, com funcionalidade de voz local por meio do Skype for Business local ou da edição do Cloud Connector. A atualização do usuário para o Teams precisa ser coordenada com a migração do usuário para o roteamento direto para garantir que o usuário do TeamsOnly tenha funcionalidade PSTN.  Para obter mais informações, consulte o [Skype for Business online com voz local](upgrade-to-teams-on-prem-overview.md#from-skype-for-business-online-with-on-premises-voice).
+
+

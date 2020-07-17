@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4ab67b8a8181398c49e4763b3217a2f1ed770a6a
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 359f5071444942fd2209c39b9e93b1b9424ec0e0
+ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666053"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45158679"
 ---
 # <a name="prepare-your-service-for-upgrading-to-teams"></a>Preparar seu serviço para a atualização para o Microsoft Teams
 
@@ -40,9 +40,9 @@ Este artigo faz parte do estágio de Preparação Técnica da sua jornada de atu
 
 Este artigo fornece uma visão geral dos requisitos para preparar sua organização para serviços de colaboração e de voz em nuvem com o Microsoft Teams. Ao preparar-se corretamente, você pode ter certeza de que está pronto para fornecer esses recursos à sua organização.
 
-## <a name="onboarding-checklists-for-microsoft-teams-rollout"></a>Listas de verificação integradas para distribuição do Microsoft Teams
+## <a name="onboarding-checklists-and-landing-pages-for-microsoft-teams-rollout"></a>Listas de verificação integradas e páginas iniciais do Microsoft Teams para distribuição
 
-As listas de verificação a seguir orientam você pelas etapas para implantar o Microsoft Teams em sua organização:
+As seguintes listas de verificação e páginas iniciais orientam você pelas etapas para implantar o Microsoft Teams em sua organização:
 
 - [Preparar o Microsoft 365 ou o Office 365 para Teams](onboarding-checklist-enable-office-365.md)
 
@@ -50,9 +50,12 @@ As listas de verificação a seguir orientam você pelas etapas para implantar o
 
 - [Preparar sua rede](prepare-network.md)
 
-- [Configurar cargas de trabalho de voz na nuvem no Teams](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)
+- [Bate-papo, equipes, canais e aplicativos](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
 
-- [Configurar o roteamento direto no Teams](onboarding-checklist-configure-direct-routing-in-microsoft-teams.md)
+- [Reuniões e conferências de áudio](deploy-meetings-microsoft-teams-landing-page.md)
+
+- [Opções de conectividade PSTN e do sistema telefônico](cloud-voice-landing-page.md)
+
 
 As tarefas e atividades nessas listas de verificação são itens principais que se aplicam a todas as implementações de recursos de colaboração e voz com o Microsoft Teams. Você pode personalizar as listas de verificação para incluir as atividades e tarefas específicas à sua viagem de equipes.
 

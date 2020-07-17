@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bcb1570a87740d899a5f92957c0335e70d7f91ba
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 0ef1b81bda61cba281f944499118966d2b9a528d
+ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665413"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45158599"
 ---
 # <a name="choose-your-upgrade-journey-from-skype-for-business-to-teams"></a>Escolha a jornada de atualização do Skype for Business para o Teams
 
@@ -56,6 +56,9 @@ Esse artigo descreve os vários modos que lhe permitem gerenciar quais modalidad
 Para preparar formalmente sua organização para a jornada para o Teams, você precisa começar a planejar os cenários de atualização que permitirão que sua organização adote totalmente o Teams como única solução de comunicação e colaboração.
 
 Para lhe ajudar no processo de tomada de decisão, familiarize-se com os vários modos, conceitos e terminologia relevantes para a atualização do Skype for Business para o Teams. Para obter mais informações, consulte [Microsoft Teams e coexistência e interoperabilidade do Skype for Business](https://aka.ms/SkypeToTeams-Coexist).
+
+> [!NOTE]
+> Também será preciso considerar os cenários de migração de voz. O sistema de telefonia é a tecnologia da Microsoft para habilitar os recursos de controle de chamada e PBX (Private Branch Exchange) na nuvem do Microsoft 365 ou do Office 365. Para conectar o sistema telefônico à rede telefônica pública comutada (PSTN) para que os usuários possam fazer chamadas telefônicas pelo mundo, você tem opções com base na necessidade dos seus negócios. Para obter mais informações sobre as opções do sistema telefônico e de conectividade PSTN, consulte [sistema de telefonia de voz e conectividade PSTN](cloud-voice-landing-page.md).
 
 Um usuário que migrou para o Teams não usa mais um cliente do Skype for Business, exceto para ingressar em uma reunião hospedada no Skype for Business. Todos os chats recebidos e chamadas entram no cliente das equipes do usuário, independentemente de o remetente usar o Microsoft Teams ou o Skype for Business. Todas as novas reuniões organizadas pelo usuário atualizado serão agendadas como reuniões do Teams. Se o usuário tentar usar o cliente do Skype for Business, o início de chats e chamadas será bloqueado <sup>1</sup>. No entanto, o usuário ainda pode (e deve) usar o cliente do Skype for Business para ingressar nas reuniões que tenha sido convidado.
 
@@ -154,7 +157,7 @@ Como alternativa, o administrador poderá primeiro mudar apenas o agendamento de
 |Chats e chamadas VOIP de usuários em sua organização recebidos em:     | Skype for Business        | Skype for Business       | Teams        |
 |Chamadas PSTN recebidas em:     | Skype for Business        |Skype for Business         | Teams        |
 |Presença     | Skype for Business        |Skype for Business         | Teams        |
-|Agendamento de Reunião     | Skype for Business         | Teams        | Teams        |
+|Agendamento de Reunião     | Skype for Business         | Microsoft Teams        | Teams        |
 
 
 A tabela a seguir resume os prós e os contras do uso dos modos do Skype for Business como uma etapa de transição para o modo TeamsOnly.

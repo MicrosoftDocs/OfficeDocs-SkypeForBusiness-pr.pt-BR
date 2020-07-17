@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: b7e237ffd041c2207516b714147d555b3a1b9043
-ms.sourcegitcommit: 70b80892a152f86a6d596f0f5b58cf391bc29098
+ms.openlocfilehash: 1423c17d57c0074f9e6db1091791eb3f17370414
+ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/15/2020
-ms.locfileid: "45138327"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45158689"
 ---
 # <a name="manage-the-lists-app-for-your-organization-in-microsoft-teams"></a>Gerenciar o aplicativo listas para sua organização no Microsoft Teams
 
@@ -46,7 +46,7 @@ Os modelos em listas são adaptados para cenários comuns de controle de informa
 
 - Controlar problemas e trazê-los para fechar usando o modelo de controlador de problemas.
 - Organize todos os detalhes do evento com o modelo de itinerário do evento.
-- Use o modelo pacientes para registrar as necessidades e o status dos pacientes para que as equipes da sua organização de assistência médica possam monitorar e coordenar o cuidado.
+- Use o modelo pacientes para registrar as necessidades e o status dos pacientes para equipes de cuidado em sua organização de assistência médica para monitorar e coordenar o cuidado.
 - Acompanhar o status dos aplicativos de empréstimo com o modelo empréstimos.
 
 ## <a name="example-scenario"></a>Cenário de exemplo

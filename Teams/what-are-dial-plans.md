@@ -21,12 +21,12 @@ ms.custom:
 - ms.teamsadmincenter.voice.dialplans.overview
 - Calling Plans
 description: 'Saiba quais tipos de planos de chamada de discagem (planos de discagem de chamada PSTN) estão disponíveis com o Teams e como escolher um para a sua organização.  '
-ms.openlocfilehash: 3ca0848094e94ff302cfcdeaa80ddd72a3b86698
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: ddd2de412d0ddd00135f9b095eb2d14c8fc4c922
+ms.sourcegitcommit: 91f6db3cdb4f2b7761d2b21f0f4eef405edacd5f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836681"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "45153573"
 ---
 # <a name="what-are-dial-plans"></a>O que são planos de discagem?
 
@@ -57,6 +57,9 @@ A seguir são apresentados planos de discagem efetivos possíveis:
  **Usuário do locatário-país do serviço** Se um plano de discagem do usuário do locatário for definido e atribuído a um usuário, o usuário provisionado receberá um plano de discagem efetivo que consiste no plano de discagem do usuário do locatário mesclado e o plano de discagem do país do serviço associado ao local do uso.
 
 Consulte [criar e gerenciar planos de discagem](create-and-manage-dial-plans.md) para criar seus planos de discagem de locatários.
+
+> [!NOTE]
+> No cenário em que nenhuma regra de normalização de plano de discagem se aplica a um número discado, a cadeia de caracteres discada ainda é normalizada para colocar "+ CC" onde CC é o código do país do local de uso do usuário de discagem. Isso se aplica a planos de chamada, roteamento direto e cenários de discagem de conferência PSTN.
 
 ## <a name="planning-for-tenant-dial-plans"></a>Planejamento de planos de discagem de locatário
 
@@ -105,7 +108,7 @@ Uma ou mais regras de normalização devem ser atribuídas ao plano de discagem.
 Como qualquer plano de discagem de locatário é efetivamente mesclado com um determinado plano de discagem de país do serviço do usuário, é provável que as regras de normalização do plano de discagem do país do serviço precisem ser avaliadas para determinar quais regras de normalização de plano de discagem de locatário são necessárias. O cmdlet **Get-CsEffectiveTenantDialPlan** pode ser usado para essa finalidade. O cmdlet usa a identidade de um usuário como parâmetro de entrada e retorna todas as regras de normalização aplicáveis ao usuário.
 
 ### <a name="creating-normalization-rules"></a>Criação de regras de normalização
-<a name="createrule"> </a> <a name="regularexpression"> </a>
+<a name="createrule"> </a>
 
 Regras de normalização use expressões regulares do .NET Framework para especificar padrões de correspondência numérica que o servidor usa para traduzir cadeias de caracteres de discagem para o formato E. 164. As regras de normalização podem ser criadas especificando a expressão regular para a correspondência e a conversão a ser feita quando uma correspondência é encontrada. Ao concluir, você pode digitar um número de teste para verificar se a regra de normalização funciona como o esperado.
 
@@ -117,11 +120,11 @@ Consulte [criar e gerenciar planos de discagem](create-and-manage-dial-plans.md)
 
 A tabela a seguir mostra exemplos de regras de normalização que são gravadas como expressões reguladores do .NET Framework. São apenas exemplos e não deve ser uma referência prescritiva para a criação de regras de normalização.
 
- **Regras de normalização usando expressões regulares do .NET Framework**<a name="#regularexpression"> </a>
+<a name="regularexpression"> </a> 
+ **Regras de normalização usando expressões regulares do .NET Framework**
 
-||||||
+| Nome da regra<br/> | Descrição<br/> | Padrão do número<br/> | Conversão<br/> | Exemplo<br/> |
 |:-----|:-----|:-----|:-----|:-----|
-|**Nome da regra** <br/> |**Descrição** <br/> |**Padrão de número** <br/> |**Conversão** <br/> |**Exemplo** <br/> |
 |4digitExtension  <br/> |Converte extensões de 4 dígitos.  <br/> |^(\\d{4})$  <br/> |+1425555$1  <br/> |0100 é convertido em +14255550100  <br/> |
 |5digitExtension  <br/> |Converte extensões de 5 dígitos.  <br/> |^5(\\d{4})$  <br/> |+1425555$1  <br/> |50100 é convertido em +14255550100  <br/> |
 |7digitcallingRedmond  <br/> |Converte números de 7 dígitos para números locais Redmond.  <br/> |^(\\d{7})$  <br/> |+1425$1  <br/> |5550100 é convertido em +14255550100  <br/>|
@@ -135,13 +138,12 @@ A tabela a seguir mostra exemplos de regras de normalização que são gravadas 
 
  A tabela a seguir ilustra um exemplo de plano de discagem para Redmond, Washington, Estados Unidos, com base nas regras de normalização mostradas na tabela anterior.
 
-| |
-|:---------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Plano de discagem de Redmond** <br/>                                                                                                                              |
-| 5digitExtension <br/>                                                                                                                                    |
-| 7digitcallingRedmond <br/>                                                                                                                               |
-| RedmondSitePrefix <br/>                                                                                                                                  |
-| RedmondOperator <br/>                                                                                                                                    |
+| Plano de discagem de Redmond<br/> |
+|:-----------------------|                                                                                                                      
+| 5digitExtension <br/> |                                                                                                                                    
+| 7digitcallingRedmond <br/> |
+| RedmondSitePrefix <br/> |
+| RedmondOperator <br/> |
 
 > [!NOTE]
 > Os nomes das regras de normalização mostradas na tabela anterior não incluem espaços, mas essa é uma questão de escolha. O primeiro nome da tabela, por exemplo, poderia ter sido escrito "extensão de 5 dígitos" ou "Extensão de 5-dígitos" e ainda assim ser válido.

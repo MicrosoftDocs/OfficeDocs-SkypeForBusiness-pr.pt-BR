@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4cd9b38f09d4936d2db895f3ae8861bcf65b8a4e
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 17420c93c883054d36c4ae2e1b323be9e589a2c2
+ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666023"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45158669"
 ---
 # <a name="upgrade-from-skype-for-business-on-premises-to-teams"></a>Atualize o Skype for Business no local para o Microsoft Teams
 
@@ -69,14 +69,24 @@ Dependendo dos seus requisitos, você pode atribuir o modo de coexistência apro
 
 ## <a name="step-3-move-users-from-skype-for-business-on-premises-to-teams-only"></a>Etapa 3: mover os usuários do Skype for Business no local apenas para o Microsoft Teams
 
-Em última análise, você desejará mover seus usuários para o modo TeamsOnly. Isso pode envolver uma ou duas etapas, dependendo do seu ambiente local atual.  
+Em última análise, você desejará mover seus usuários para o modo TeamsOnly. Isso pode envolver uma ou duas etapas, dependendo do seu ambiente local.  
 
 Para obter mais informações, consulte [mover usuários entre locais e a nuvem](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud) e [mover usuários do local para o Microsoft Teams](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams). 
 
+## <a name="step-4-disable-hybrid-to-complete-your-migration-to-the-cloud"></a>Etapa 4: desativar híbrido para concluir a migração para a nuvem
+
+Depois de mover todos os usuários no local para a nuvem, você pode encerrar a implantação do Skype for Business local. Para obter mais informações, consulte [desabilitar a migração híbrida para concluir a nuvem](upgrade-to-teams-execute-skypeforbusinesshybridonprem.md).
 
 
-## <a name="phone-system-and-teams-upgrade"></a>Atualização do sistema de telefonia e do teams
+## <a name="phone-system-and-pstn-connectivity-options"></a>Opções de conectividade PSTN e do sistema telefônico
 
-Se você estiver migrando sua implantação do Skype for Business para o sistema telefônico com planos de chamada, a Microsoft será o seu provedor de rede telefônica pública comutada (PSTN). Pressupondo que você concluiu a portabilidade do número de telefone--a atualização dos usuários para o Teams fará automaticamente a chamada PSTN de entrada para o Microsoft Teams.
+O sistema telefônico com Teams tem suporte depois que o usuário está no modo TeamsOnly. (Se o usuário estiver no modo de ilhas, o sistema telefônico só tem suporte no Skype for Business.) 
 
-Se estiver migrando sua implantação do Skype for Business para o sistema telefônico, mas não estiver usando planos de chamada, você precisará fazer a transição de sua implantação do Enterprise Voice para o roteamento direto do sistema de telefone da Microsoft. Para obter mais informações, consulte [Roteamento direto do sistema telefônico](direct-routing-landing-page.md).
+### <a name="pstn-connectivity-options"></a>Opções de conectividade PSTN
+
+Ao considerar as opções de conectividade PSTN (rede telefônica pública comutada), há dois cenários possíveis ao migrar do Skype for Business no local para o modo TeamsOnly:
+
+- Um usuário do Skype for Business no local com o Enterprise Voice, que se moverá para online e usando um plano de chamadas da Microsoft. Migrar este usuário para o Microsoft Teams requer mover a conta do Skype for Business no local para a nuvem e coordenar essa movimentação com uma a porta do número de telefone do usuário para um plano de chamadas da Microsoft ou B) atribuir um novo número de assinante de regiões disponíveis.  Para obter mais informações, consulte [o Skype for Business Server no local, com o Enterprise Voice, para o plano de chamadas da Microsoft](upgrade-to-teams-on-prem-overview.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-microsoft-calling-plan).
+
+- Um usuário do Skype for Business no local com o Enterprise Voice, que será movido para online e mantendo a conectividade PSTN local. Migrar este usuário para o Teams requer mover a conta do Skype for Business no local para a nuvem e coordenar essa movimentação com a migração do usuário para o roteamento direto. Para obter mais informações, consulte o [Skype for Business Server no local, com o Enterprise Voice, para o roteamento direto](upgrade-to-teams-on-prem-overview.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-direct-routing).
+
