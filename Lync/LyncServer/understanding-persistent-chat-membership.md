@@ -69,9 +69,9 @@ Uma categoria especifica todos os usuários e grupos que podem ser membros de um
 
 Definir uma lista de membros para uma categoria oferece os seguintes benefícios:
 
-  - All chat rooms in this category are bound by the restrictions set at the category level. You can use this to segregate chat rooms based on business need and access policies.
+  - Todas as salas de chat nesta categoria estão sujeitas às restrições definidas no nível da categoria. Você pode usar isso para segregar as salas de chat baseando-se nas necessidades de negócios e políticas de acesso.
 
-  - A user who is in the **Creators** list can create new chat rooms in that category. If you want to implement a system where a restricted number of personnel in the organization can create chat rooms, this control can be used to meet that requirement.
+  - Um usuário membro na lista **Criadores ** pode criar novas salas de chat naquela categoria. Se você desejar implantar um sistema onde um número restrito de pessoas na organização possa criar salas de chat, este controle pode ser usado para atender a essa exigência.
 
 </div>
 
@@ -81,7 +81,7 @@ Definir uma lista de membros para uma categoria oferece os seguintes benefícios
 
 O **Membros permitidos** de uma categoria deve incluir todos os usuários que usarão qualquer sala de chat persistente nessa categoria. Dependendo dos seus requisitos para proteger dados empresariais e garantir o nível correto de acesso, você poderá definir uma ou mais categorias para especificar quem pode pesquisar e participar das salas. Se desejar permitir apenas um conjunto específico de usuários (um helpdesk central ou apenas funcionários de tempo integral) para criar salas, você pode fazer o escopo dos **Criadores** de uma categoria para satisfazer esse requisito.
 
-Categories can also be used to create ethical walls. Ethical walls prevent any conflict of interest in an organization. For example, an administrator can create chat rooms in a category for traders only, whereas chat rooms in another category can be used by analysts only.
+As categorias podem ser também usadas para criar barreiras éticas. As barreiras éticas evitam qualquer conflito de interesses em uma organização. Por exemplo, um administrador pode criar salas de chat em uma categoria apenas para comerciantes, ao passo que as salas de chat em outra categoria podem ser usadas somente por analistas.
 
 <div>
 

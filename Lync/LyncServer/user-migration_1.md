@@ -37,7 +37,7 @@ ms.locfileid: "44755635"
 
 _**Última modificação do tópico:** 2012-10-19_
 
-A generally accepted best practice for migrations is to create several test users and use them to conduct systems tests. After you have successfully moved and tested those accounts, you should identify a group of pilot production users and move their accounts and conduct validation tests on them. When you get satisfactory results, you can move the rest of your users to the new deployment.
+Uma prática recomendada normalmente aceita para migração é criar vários usuários de teste e utilizá-los para conduzir testes de sistema. Após mover e testar com êxito essas contas, identifique um grupo de usuários de produção piloto e mova suas contas e realize testes de validação nelas. Quando os resultados estiverem satisfatórios, você poderá mover o restante dos usuários para a nova implantação.
 
 </div>
 

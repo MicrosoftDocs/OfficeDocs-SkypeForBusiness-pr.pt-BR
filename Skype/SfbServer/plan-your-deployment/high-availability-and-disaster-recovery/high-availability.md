@@ -98,7 +98,7 @@ Não recomendamos implantar um pool de Front Ends que contém apenas dois Servid
   
 Se você precisar implantar um pool com dois servidores front-end, siga estas diretrizes:
   
-- If one of the two Front End Servers goes down, you should try to bring the failed server back up as soon as you can. Similarly, if you need to upgrade one of the two servers, bring it back online as soon as the upgrade is finished.
+- Se um dos dois Servidores de Front End ficar inativo, você deve ativá-lo assim que possível. Da mesma forma, se você precisar atualizar um dos dois servidores, ative-o assim que a atualização terminar.
     
 - Se por alguma razão você precisar desativar ambos os servidores ao mesmo tempo, realize o seguinte procedimento quando o tempo de inatividade do pool for concluído:
     

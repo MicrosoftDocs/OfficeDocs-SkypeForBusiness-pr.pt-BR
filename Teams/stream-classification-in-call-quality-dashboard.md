@@ -29,11 +29,11 @@ ms.locfileid: "45085887"
 ---
 # <a name="stream-classification-in-call-quality-dashboard-cqd"></a>Classificação de fluxo no painel de qualidade de chamada (CQD)
 
-The Call Quality Dashboard (CQD) for Microsoft Teams and Skype for Business Online allows you to gain insights into the quality of calls made using Microsoft Teams and Skype for Business services. This topic provides detailed information about the quality classification of media streams. To learn more about CQD and how to set it up, see [Set up Call Quality Dashboard](turning-on-and-using-call-quality-dashboard.md).
+O painel de qualidade de chamada (CQD) para Microsoft Teams e o Skype for Business Online permite que você obtenha ideias sobre a qualidade das chamadas feitas usando o Microsoft Teams e os serviços do Skype for Business. Este tópico fornece informações detalhadas sobre a classificação de qualidade de fluxos de mídia. Para saber mais sobre o CQD e como configurá-lo, consulte [Configurar o painel de qualidade de chamada](turning-on-and-using-call-quality-dashboard.md).
 
 ## <a name="classifier-definitions"></a>Definições do classificador
 
-Streams in CQD are classified as _Good_, _Poor_, or _Unclassified_ based on the values of the available key quality metrics. The metrics and conditions used to classify stream are shown in the tables that follow. CQD's "Poor Due To" dimensions can be used to understand which metric is responsible for a _Poor_ classification. For more information on these dimensions, see [Dimensions and measures available in Call Quality Dashboard](dimensions-and-measures-available-in-call-quality-dashboard.md).
+Fluxos no CQD são classificados como _satisfatórios_, _ruins_ou não _classificados_ com base nos valores das métricas de qualidade de tecla disponíveis. As métricas e condições usadas para classificar o fluxo são mostradas nas tabelas a seguir. As dimensões "ruim devido a" de CQD podem ser usadas para compreender qual medida é responsável por uma classificação _deficiente_ . Para obter mais informações sobre essas dimensões, consulte [dimensões e medidas disponíveis no painel de qualidade da chamada](dimensions-and-measures-available-in-call-quality-dashboard.md).
 
 ### <a name="audio-classifier"></a>Classificador de áudio
 
@@ -41,7 +41,7 @@ Se uma ou mais das seguintes condições forem atendidas, um fluxo de áudio ser
 
 |Indicador|Condição|Explicação|
 |:-----|:-----|:-----|
-|Média de degradação de áudio|> 1,0|Average Network Mean Opinion Score degradation for stream. How much network loss and jitter have impacted the quality of received audio.|
+|Média de degradação de áudio|> 1,0|Média de pontuação média média média de Pontuação do Stream. Quanta perda de rede e Tremulação afetaram a qualidade do áudio recebido.|
 |Viagem de ida e volta|> 500|Tempo médio de propagação da rede de ida e volta, calculado em milissegundos. Detalhes disponíveis em [RFC3550](https://tools.ietf.org/html/rfc3550).|
 |Taxa de perda de pacotes|> 0,1|Taxa média de perda de pacotes do Stream.|
 |Tremulação|> 30|Variação média do fluxo em milissegundos.|

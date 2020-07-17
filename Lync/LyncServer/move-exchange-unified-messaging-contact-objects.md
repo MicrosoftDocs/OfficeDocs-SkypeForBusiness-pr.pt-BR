@@ -47,7 +47,7 @@ Para migrar objetos de contato do atendedor automático (AA) e de acesso do assi
 
 
 > [!NOTE]  
-> In order to use the <STRONG>Get-CsExUmContact</STRONG> and <STRONG>Move-CsExUmContact</STRONG> cmdlets, you must be a member of the RTCUniversalUserAdmins group and have organizational unit (OU) permission to the OU where the contacts objects are stored. OU permission can be granted using the <STRONG>Grant-OUPermission</STRONG> cmdlet.
+> Para usar os cmdlets <STRONG>Get-CsExUmContact</STRONG> e <STRONG>Move-CsExUmContact</STRONG>, é preciso ser membro do grupo RTCUniversalUserAdmins e ter permissão de OU (unidade organizacional) para a OU em que os objetos de contato estão armazenados. A permissão de OU pode ser concedida usando o cmdlet <STRONG>Grant-OUPermission</STRONG>.
 
 
 

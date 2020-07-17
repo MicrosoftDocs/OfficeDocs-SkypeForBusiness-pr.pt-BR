@@ -47,13 +47,13 @@ _**Última modificação do tópico:** 2012-10-02_
     
     ![Assistente de topologia de mesclagem, especificar página de configuração de borda](images/JJ205243.cdca609d-d4d5-47d9-9ff8-8b1daa4106e1(OCS.15).jpg "Assistente de topologia de mesclagem, especificar página de configuração de borda")  
 
-5.  In **Specify Edge Type**, enter the type of Edge Server configuration, and then click **Next**. This example uses the **Single Edge Server** option.
+5.  Em **Especificar Versão de Borda**, insira o tipo de configuração do Servidor de Borda e clique em **Avançar**. Esse exemplo usa a opção **Servidor de Borda Único**.
     
     <div>
     
 
     > [!IMPORTANT]  
-    > <STRONG>Expanded Edge deployment</STRONG> is not a supported configuration. An <STRONG>Expanded Edge Server</STRONG> must first be converted to a <STRONG>Single Edge Server</STRONG> or a <STRONG>Load-balanced consolidated Edge</STRONG> Server.
+    > <STRONG>Implantação de Borda Expandida</STRONG> não é uma configuração suportada. Um <STRONG>Servidor de Borda Expandida</STRONG> deve primeiro ser convertido em um <STRONG>Servidor de Borda Único</STRONG> ou em um Servidor <STRONG>Implantação de Borda Consolidada Balanceada</STRONG>.
 
     
     </div>
@@ -68,7 +68,7 @@ _**Última modificação do tópico:** 2012-10-02_
     
 
     > [!IMPORTANT]  
-    > Before you click <STRONG>Next</STRONG>, do the next step in this procedure. It is very important that you do not miss this step.
+    > Antes de clicar em <STRONG>Avançar</STRONG>, realize a próxima etapa deste procedimento. É muito importante que você não pule esta etapa.
 
     
     </div>

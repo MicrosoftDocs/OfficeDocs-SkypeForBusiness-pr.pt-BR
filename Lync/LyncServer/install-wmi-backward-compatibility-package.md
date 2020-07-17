@@ -55,7 +55,7 @@ Para instalar o pacote de Compatibilidade com Versões Anteriores da WMI
     
 
     > [!IMPORTANT]  
-    > OCSWMIBC.msi must be installed on the computer where the Topology Builder Merge wizard is run. However, we recommend installing OCSWMIBC.msi on all Front End servers in your topology.
+    > O OCSWMIBC.msi deve ser instalado no computador em que o assistente de Fusão do Construtor de Topologias será executado. No entanto, é recomendável instalar o OCSWMIBC.msi em todos os servidores front-end de sua topologia.
 
     
     </div>

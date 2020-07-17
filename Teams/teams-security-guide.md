@@ -61,7 +61,7 @@ O Teams atenua esses ataques ao executar a proteção de rede DDOS do Azure e ao
 
 ### <a name="eavesdropping"></a>Espionagem
 
-Eavesdropping can occur when an attacker gains access to the data path in a network and has the ability to monitor and read the traffic. This is also called sniffing or snooping. If the traffic is in plain text, the attacker can read the traffic when the attacker gains access to the path. An example is an attack performed by controlling a router on the data path.
+A Espionagem pode ocorrer quando um atacante ganha acesso ao caminho dos dados na rede e tem a habilidade para monitorar e ler o tráfego. Isso também é chamado de bisbilhotar ou falsificar. Se o tráfego está no texto plano, o atacante pode lê-lo quando o atacante ganha acesso ao caminho. Um exemplo é um ataque realizado no controle de um router no caminho dos dados.
 
 O Teams usa TLS mútuo (MTLS) para comunicações do servidor no Microsoft 365 e Office 365 e também usa TLS de clientes para o serviço, tornando esse ataque muito difícil ou impossível de ser realizado no período em que uma determinada conversa pode ser atacada. O TLS autentica todos os participantes e criptografa todo o tráfego. Isso não impede a espionagem, mas o atacante não pode ler o tráfego, a não ser que quebre a criptografia.
 

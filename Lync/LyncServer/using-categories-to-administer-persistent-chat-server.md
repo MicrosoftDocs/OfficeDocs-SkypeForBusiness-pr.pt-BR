@@ -63,7 +63,7 @@ Gerentes de sala de chat persistente, que têm a capacidade de gerenciar uma ou 
 
 </div>
 
-Chat room managers can make changes to all chat room properties, except for changing the category of the room. They cannot be restricted from performing the following actions:
+Os gerentes de sala de chat podem fazer alterações em todas as propriedades de sala de chat, exceto alterar a categoria da sala. Não é possível impedi-los de executar as seguintes ações:
 
   - Desabilitar uma sala de chat
 
@@ -89,7 +89,7 @@ Chat room managers can make changes to all chat room properties, except for chan
 
 Criar e gerenciar salas de chat persistente é muito mais fácil com o uso correto de categorias. Um administrador de chat persistente pode definir **Membros permitidos** e **criadores** para cada categoria e também pode definir as configurações e os comportamentos de sala de chat padrão que serão aplicados a todas as salas de chat criadas na categoria. Administradores de chat persistente criam e gerenciam categorias usando o painel de controle do Lync Server ou cmdlets do Windows PowerShell.
 
-Users, Organizational Units (OUs), and user groups that are identified as Creators of the category are the only individuals and groups that are allowed to create rooms in the category. After the category is created, they can choose users, OUs, and user groups from the category’s **AllowedMembers** list as chat room managers and members to manage and participate in the room.
+Usuários, Unidades Organizacionais (OUs) e grupos de usuário identificados como Creators da categoria são os únicos indivíduos e grupos que têm permissão para criar salas na categoria. Após a criação da categoria, eles podem escolher usuários, OUs e grupos de usuário na lista **AllowedMembers** da categoria como gerentes de sala de chat e membros para gerenciar e participar na sala.
 
 As salas de chat criadas em uma categoria aderem às políticas e configurações aplicadas pela categoria (por exemplo, quem pode estar na associação da sala, quem pode gerenciar a sala, se os carregamentos de arquivo são permitidos, se os convites são enviados e assim por diante).
 

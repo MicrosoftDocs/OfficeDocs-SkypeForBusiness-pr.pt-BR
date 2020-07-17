@@ -39,7 +39,7 @@ _**Última modificação do tópico:** 2012-09-28_
 
 Este procedimento detalha as etapas para configurar o pool do Lync Server 2013 para usar o servidor de mediação do Lync Server 2013, em vez do servidor herdado do Office Communications Server 2007 R2.
 
-To successfully publish, enable, or disable a topology when adding or removing a server role, you should be logged in as a user who is a member of the RTCUniversalServerAdmins and Domain Admins groups. It is also possible to delegate the proper administrator rights and permissions for adding server roles. For details, see Delegate Setup Permissions in the Standard Edition server or Enterprise Edition server Deployment documentation. For other configuration changes, only membership in the RTCUniversalServerAdmins group is required.
+Para publicar com sucesso, habilite ou desabilite uma topologia ao adicionar ou remover uma função do servidor, você deve estar conectado como um usuário que é um membro do RTCUniversalServerAdmins e dos grupos Administradores do Domínio. Também é possível delegar os direitos e as permissões de administrador corretos para  adicionar funções do do servidor. Para obter detalhes, consulte Permissões de configuração delegadas na Documentação de implantação do servidor Standard Edition ou servidor Enterprise Edition. Para obter as alterações de configuração, somente a associação no grupo RTCUniversalServerAdmins é exigida.
 
 <div>
 
@@ -63,7 +63,7 @@ To successfully publish, enable, or disable a topology when adding or removing a
 
 4.  Complete a página **Definir Novo Gateway IP/PSTN** com as seguintes informações:
     
-      - Enter the gateway FQDN or IP address. The FQDN of the gateway is required if the gateway uses the TLS protocol.
+      - Insira o FQDN do gateway ou endereço IP. O FQDN do gateway é exigido se o gateway utiliza o protocolo TLS.
     
       - Aceite o valor padrão do **Porta de Escuta do Gateway IP/PSTN** ou insira a nova porta de escuta se ela for modificada.
     

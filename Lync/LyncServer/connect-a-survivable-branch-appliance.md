@@ -69,7 +69,7 @@ Cada aparelho de filial persistente (SBA) é associado a um pool de front-ends q
 
 7.  Clique em **Avançar** e execute uma das seguintes ações:
     
-    1.  If you are using a Lync 2010 Survivable Branch Appliance or Server at this site, be sure to uncheck the **Open the New Survivable Wizard when this wizard closes** option. Click **Finish**.
+    1.  Se você estiver usando um Aparelho de Filial Persistente  Lync 2010 ou Servidor nesse site, certifique-se de desmarcar a caixa de seleção **Abrir o Novo Assistente Persistente quando este assistente fechar** e clique em **Concluir**.
 
 8.  Para associar o SBA herdado do Lync Server 2010 ao pool de front-ends do Lync Server 2013:
     

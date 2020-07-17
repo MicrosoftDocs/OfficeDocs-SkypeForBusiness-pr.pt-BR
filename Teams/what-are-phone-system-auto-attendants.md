@@ -42,7 +42,7 @@ Para configurar um atendedor automático para o sistema telefônico, vá para [c
 Um atendedor automático na nuvem tem os seguintes recursos:
   
 - Ele oferece saudações corporativas ou informativas.
-- It can provide custom corporate menus. You can customize these menus to have more than one level.
+- Ele oferece menus corporativos personalizados. Você pode personalizar esses menus para ter mais do que um nível.
 - Ele fornece pesquisa de diretório que permite que as pessoas liguem para pesquisar o diretório da organização em busca de um nome.
 - Ele permite que alguém que ligue para alcançar ou deixar uma mensagem para uma pessoa em sua organização.
 - Ele oferece suporte a vários idiomas para solicitações, conversão de texto em fala e reconhecimento de fala.

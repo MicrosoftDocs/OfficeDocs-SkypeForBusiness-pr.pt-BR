@@ -49,7 +49,7 @@ Antes de encerrar um pool, você precisa executar o procedimento a seguir para c
     
         Get-CsConferenceDirectory
     
-    Because this cmdlet returns all the conference directories in your organization, you may want to limit the results to only the pool you want to decommission. For example, if you want to decommission a pool with the fully qualified domain name (FQDN) pool01.contoso.net:
+    Como este cmdlet retorna todos os diretórios de conferência da organização, convém limitar os resultados apenas ao pool que deseja encerrar. Por exemplo, caso deseje encerrar um pool com o FQDN (nome de domínio totalmente qualificado) pool01.contoso.net:
     
         Get-CsConferenceDirectory | Where-Object {$_.ServiceID -match "pool01.contoso.net"}
     

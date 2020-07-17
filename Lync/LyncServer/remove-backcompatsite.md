@@ -49,7 +49,7 @@ Depois que todos os pools estão desativados e todos os Servidores de Borda desi
 
 3.  Clique em **Avançar** para continuar.
 
-4.  On the **Specify Legacy Edge** page, ensure that list of Edge Servers is empty. If the list is not empty, use the **Remove** button to remove all the legacy Edge Servers, and then click **Next**.
+4.  Na página **Especificar borda herdada**, certifique-se de que a lista de Servidores de Borda está vazia. Se a lista não está vazia, use o botão **Remover** para remover todos os Servidores de Borda herdados e clique em **Avançar**.
     
     ![Assistente de topologia de mesclagem, especificar página de configuração de borda](images/JJ204637.fb35a59a-711e-4259-b177-7311df1fed3c(OCS.15).jpg "Assistente de topologia de mesclagem, especificar página de configuração de borda")  
 

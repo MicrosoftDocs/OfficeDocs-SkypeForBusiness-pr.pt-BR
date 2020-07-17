@@ -62,7 +62,7 @@ Você pode modificar o comportamento da página de ingresso na reunião se quise
 </tr>
 <tr class="even">
 <td><p>ShowAlternateJoinOptionsExpanded</p></td>
-<td><p>When set to True then alternate options for joining an online conference (such as Office Communicator 2007 R2) will automatically be expanded and shown to users. When set to False (the default value) these options will be available, but the user will have to display the list of options for themselves.</p></td>
+<td><p>Quando for definido como True, as opções alternativas para ingresso em uma conferência online (como Office Communicator 2007 R2) serão automaticamente expandidas e exibidas aos usuários. Quando for definido como False (o valor padrão), essas opções estarão disponíveis, mas o usuário terá que exibir a lista de opções por conta própria.</p></td>
 </tr>
 </tbody>
 </table>
