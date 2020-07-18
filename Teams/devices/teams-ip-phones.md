@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Saiba qual escrivaninha e telefones de conferências são certificados para que o Microsoft Teams produza os melhores resultados.
-ms.openlocfilehash: 4dc1438261271b57796b0907def79a4affdc167b
-ms.sourcegitcommit: 4099da7b1db7663e63ef5bece16e3090c33ea207
+ms.openlocfilehash: a4789f23f79b48001bd2c411eeefe592267c4c24
+ms.sourcegitcommit: 98760985712d3cccefd0378964a26324677cf777
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45021729"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45166749"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>Telefones IP certificados para o Microsoft Teams
 
@@ -53,8 +53,8 @@ Os seguintes telefones são certificados para o Microsoft Teams:
 | Exibição ThinkSmart do Lenovo                 | CD-18781Y. 200410.067                                                                                                                                                                                                                       | Abril de 2020                   |
 | C60 de Polyline trio                          | 5.9.3.6155                                                                                                                                                                                                                                 | Abril de 2020                   |
 | CCX400 de Polyline                            | 1.0.0.0200                                                                                                                                                                                                                                 | Janeiro de 2020                 |
-| CCX600 de Polyline                            | 5.9.12.1111                                                                                                                                                                                                                                | Janeiro de 2020                 |
-| CCX500 de Polyline                            | 5.9.12.1111                                                                                                                                                                                                                                | Dezembro de 2019                |
+| CCX600 de Polyline                            | 5.9.12.1122                                                                                                                                                                                                                                | Janeiro de 2020                 |
+| CCX500 de Polyline                            | 5.9.12.1122                                                                                                                                                                                                                                | Dezembro de 2019                |
 | Polyline trio 8500/8800 (somente modo compartilhado) | 5.9.0.10869                                                                                                                                                                                                                                | Junho de 2019                    |
 | Yealink MP56                           | 122.15.0.6                                                                                                                                                                                                                                 | Março de 2020                   |
 | Yealink VP59                           | 91.15.0.16                                                                                                                                                                                                                                 | Junho de 2019                    |
@@ -91,6 +91,7 @@ Ao instalar uma nova versão de firmware em seu dispositivo, você pode determin
 
 | Modelo de dispositivo        | Versão do firmware     | Lançamento do produto incluído |
 |:--------------------|:---------------------|:-------------------------|
+| AudioCodes C448HD   | C450HD_TEAMS_1.4.208 | Atualizar #4                |
 | AudioCodes C450HD   | C450HD_TEAMS_1.4.208 | Atualizar #4                |
 | CCX400 de Polyline         | 1.0.1.0054           | Atualizar #3                |
 | CCX500/CCX600  | 5.9.13.0306          | Atualizar #3                |
