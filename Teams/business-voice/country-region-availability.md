@@ -17,12 +17,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 448534a9cab210be71f36ac034207d35e2b9f5f7
-ms.sourcegitcommit: 3ed779277540589eabef745685ab6c67d8a8ff90
+ms.openlocfilehash: b352493f408f9adbc41fc978c4990f3d07f7a410
+ms.sourcegitcommit: f1386c5cfe52819e54f4ffb1f1ce06aef5a59522
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44281696"
+ms.lasthandoff: 07/18/2020
+ms.locfileid: "45170600"
 ---
 # <a name="country-and-region-availability-for-business-voice"></a>Disponibilidade do Business Voice em países e regiões
 
@@ -55,6 +55,7 @@ Para ver o que está incluso no Business Voice com Plano de Chamadas e sem Plano
 | Reino Unido       | X                                    | X<sup>1</sup>                                               | X                      |
 | Estados Unidos        | X                                    | X<sup>1</sup>                                               | X                      |
 | Argentina            |                                      | X                                                           |                        |
+| Austrália            |                                      | X                                                           |                        |
 | Áustria              |                                      | X                                                           |                        |
 | Bélgica              |                                      | X                                                           |                        |
 | Bósnia e Herzegovina |                                      | X                                                           |                        |
