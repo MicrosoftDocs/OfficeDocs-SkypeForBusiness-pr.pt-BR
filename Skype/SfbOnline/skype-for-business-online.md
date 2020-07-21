@@ -15,14 +15,16 @@ ms.devlang: na
 ms.topic: landing-page
 ms.author: tonysmit
 f1keywords: ms.teamsadmincenter.dashboard.helparticle.sfboadmindocumentation
-ms.openlocfilehash: 758b371594f6bf42c8600028f7801627ca7d0999
-ms.sourcegitcommit: 9b1c138b39fd87e239a7b1c5051f30c633e7d813
+ms.openlocfilehash: db4b7e5469608724bb9d147d212a08e6b31957a0
+ms.sourcegitcommit: 705ccc9a76e08fd3bae2b51d8853f84d3b325a3b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "44943934"
+ms.lasthandoff: 07/20/2020
+ms.locfileid: "45185786"
 ---
 # <a name="skype-for-business-online-admin"></a>Administrador do Skype for Business Online
+
+O Skype for Business online está sendo desativado em 31 de julho de 2021, no momento em que o acesso ao serviço será encerrado. Incentivamos os clientes a começar a atualizar para o Microsoft Teams, o Hub para trabalho em equipe no Microsoft 365. <a href=https://aka.ms/sfboannounce>Saiba mais</a>. 
 
 Saiba como gerenciar o Skype for Business Online em sua organização.
 
