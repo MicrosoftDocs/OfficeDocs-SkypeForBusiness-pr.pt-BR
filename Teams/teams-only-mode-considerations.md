@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 96ff2652a326e537f200c47495496dd81ea9fd4b
-ms.sourcegitcommit: 27fae90d4429e81143ea285edab9dbc19bd3c0bb
+ms.openlocfilehash: 01a4b593366018fa1eb153d96e1b42508d541f60
+ms.sourcegitcommit: 705ccc9a76e08fd3bae2b51d8853f84d3b325a3b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "44854093"
+ms.lasthandoff: 07/20/2020
+ms.locfileid: "45185816"
 ---
 # <a name="teams-only-mode-considerations"></a>Considerações sobre o modo Teams Only (Apenas Teams)
 
@@ -43,7 +43,7 @@ Embora milhares de clientes tenham sido atualizados com êxito para o Microsoft 
 **Considerações de coexistência**: as organizações que já usam o Skype for Business Online e/ou o Skype for Business Server podem introduzir equipes em seu ambiente em um ritmo que atenda às suas necessidades. As organizações podem implantar de forma incremental as equipes para um conjunto desejado de usuários, conforme necessário, e os usuários que usam equipes podem se comunicar com os usuários que usam o Skype for Business e vice-versa. Para gerenciar essa experiência, os administradores usam modos de coexistência, que definem a experiência do cliente final do usuário, o comportamento de roteamento de chats e chamadas de entrada, bem como se novas reuniões estão agendadas no Teams ou no Skype for Business. Os usuários podem federar-se com usuários em outras organizações se o usuário for atualizado somente para o Microsoft **Teams**; no entanto, a melhor experiência é fornecida quando os dois usuários usam o Microsoft Teams. Os usuários que são atualizados para o Microsoft Teams ainda podem ingressar em reuniões do Skype for Business. 
 
 > [!IMPORTANT]
-> Para obter informações mais detalhadas sobre a coexistência, consulte [entender o Microsoft Teams e a coexistência e interoperabilidade do Skype for Business](teams-and-skypeforbusiness-coexistence-and-interoperability.md). 
+> Para obter informações mais detalhadas sobre a coexistência, consulte [entender o Microsoft Teams e a coexistência e interoperabilidade do Skype for Business](teams-and-skypeforbusiness-coexistence-and-interoperability.md). Para obter mais informações sobre o Teams e o Skype (consumidor), consulte [Teams e interoperabilidade do Skype](teams-skype-interop.md).
 
 **Considerações de todos os locatários**: estamos nos empenhando para habilitar o Microsoft Teams nos seguintes ambientes; no entanto, por enquanto, os administradores não devem atualizar os usuários em sua organização se o locatário do Skype for Business estiver hospedado em um dos seguintes ambientes:
 

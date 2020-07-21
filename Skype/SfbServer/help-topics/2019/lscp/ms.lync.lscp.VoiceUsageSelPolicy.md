@@ -14,16 +14,16 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: cf6a2441-d8ad-4e45-8049-8d83f1fb5f28
 ROBOTS: NOINDEX, NOFOLLOW
-description: Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o painel de controle do Skype for Business Server, consulte Gerenciar o Skype for Business Server.
-ms.openlocfilehash: 781d00911c0d4d1ea1fb197bbc67fd8b80909b6c
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o painel de controle do Skype for Business Server, consulte Manage Skype for Business Server.
+ms.openlocfilehash: 075068b924c009df1d142c4c16253d38826f974a
+ms.sourcegitcommit: e2ce0a0c26f31bb09413c0999380301d7b693331
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41797422"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "45189193"
 ---
 # <a name="voice-usage-policy"></a>Política de Uso de Voz
  
-Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o painel de controle do Skype for Business Server, confira o artigo gerenciar artigos no [Skype for Business server 2019](../../../../SfBServer2019/skype-for-business-server-2019.md).
+Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o painel de controle do Skype for Business Server, consulte o artigo sobre como gerenciar artigos no [Skype for Business server 2019](../../../../SfBServer2019/skype-for-business-server-2019.yml).
   
 
