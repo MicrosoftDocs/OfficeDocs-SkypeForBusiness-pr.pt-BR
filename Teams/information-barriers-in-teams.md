@@ -16,12 +16,12 @@ description: Este artigo explica o que são barreiras de informações no Micros
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: dc9bbd3f3ff190eee3aa0b44ba68dfd8eb9aab6a
-ms.sourcegitcommit: 113e3a7314505cf78da57917ff62642125fb11fd
+ms.openlocfilehash: 29a9ac9d80e4c729dc6c040c1a7ec7fdc5eaa7d7
+ms.sourcegitcommit: a5276a713697e089d0eb0d80bba83a7af8d48251
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45121701"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "45202907"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Barreiras de informação no Microsoft Teams
 
@@ -31,7 +31,7 @@ As barreiras de informação (IB) são políticas que um administrador pode conf
 > - Grupos de barreira de informações não podem ser criados entre locatários.
 > - Não há suporte para o uso de bots para adicionar usuários na versão 1.
 > - Os canais privados são compatíveis com as políticas de barreira de informações que você configurar.
-> - Novo: o suporte à barreira de informações do site do SharePoint conectado ao Teams agora está em visualização particular. Clique [aqui](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR3-O9WDTKhhDtgWfphwS9YhUM0hJNklNRkZKMlhLNDRZNzlEQlVDSjdZVi4u) para participar da visualização particular.
+> - Novo: para obter informações sobre as barreiras de suporte para o site do SharePoint conectado ao Microsoft Teams, clique [aqui](https://docs.microsoft.com/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites).
 
 As políticas de barreira de informações também impedem pesquisas e descobrimento. Isso significa que, se você tentar se comunicar com alguém com quem não deveria se comunicar, não encontrará esse usuário no seletor de pessoas.
 
@@ -171,6 +171,8 @@ Quando uma equipe é criada, um site do SharePoint é provisionado e associado �
 
 Por exemplo: na contoso Bank Corporation, o usuário ' Sesha@contosobank.onmicrosoft.com ' pertence ao segmento bancário de investimentos e o usuário ' Nikita@contosobank.onmicrosoft.com ' pertence ao consultor do segmento. A política IB da organização bloqueia a comunicação e a colaboração entre esses dois segmentos.
 Quando o usuário Sesha cria um segmento de banco de investimentos, a equipe e o site do SharePoint que os reproduzir serão acessíveis somente para os usuários do segmento do banco de investimentos. O Nikita do usuário não pode acessar esse site, mesmo que ele tenha o link do site.
+
+Clique [aqui](https://docs.microsoft.com/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites) para obter mais detalhes.
 
 ## <a name="required-licenses-and-permissions"></a>Permissões e licenças necessárias
 

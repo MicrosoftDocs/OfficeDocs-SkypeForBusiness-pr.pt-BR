@@ -14,12 +14,12 @@ f1.keywords:
 localization_priority: Normal
 description: Saiba mais sobre o suporte do ciclo de vida para salas do Microsoft Teams, incluindo a estrutura de suporte dinâmico e suas fases.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f27f2d9b36f0b425bf73e500c089e4e5bbacc6ee
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 196f4e7e6384ffa0f0d59478e1a0cb326bf4b984
+ms.sourcegitcommit: bdf6cea0face74809ad3b8b935bc14ad60b3bb35
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691187"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "45201185"
 ---
 # <a name="microsoft-teams-rooms-app-version-support"></a>Suporte à versão do aplicativo salas do Microsoft Teams
  
@@ -54,8 +54,8 @@ A tabela a seguir mostra as versões recomendadas e com suporte do Windows 10 qu
 |Versão  |Data de disponibilidade   |Status de suporte de salas do Microsoft Teams   |Sala mínima de salas do Microsoft Teams versão do aplicativo | Build do sistema operacional recomendado  |
 |:---  |:---       |:---                                  |:---     |:---     |
 | 2004 |2020-05-27 |Em validação, <br/>Não recomendado|&#x2014; |19041,264 |
-| 1909 |2019-11-12 |Validação concluída, <br/>Nenhum problema conhecido.|Em breve |18363,418  |
-| 1903 |2019-05-21 |Suporte <br/>Recomendado  |4.2.4.0 |18362,356 |
+| 1909 |2019-11-12 |Suporte <br/>Recomendado |4.5.33.0 |18363,418  |
+| 1903 |2019-05-21 |Com suporte  |4.2.4.0 |18362,356 |
 | 1809 |2019-03-28 |Ignorada <br/>Não recomendado &#x2780;|&#x2014; |&#x2014; |
 | 1803 |2018-07-10 |Com suporte                             |4.1.22.0 |17134,191|
 | 1709 |2018-01-18 |Incompatível                         |&#x2014; |&#x2014; |

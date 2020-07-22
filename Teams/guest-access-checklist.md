@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 583fdf2ba821437d1877036ddafe5cce0a460269
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: ee7fd8e7fc85e345df3e29de99e16292c6ef7e1f
+ms.sourcegitcommit: bdf6cea0face74809ad3b8b935bc14ad60b3bb35
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637290"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "45201045"
 ---
 <a name="microsoft-teams-guest-access-checklist"></a>Lista de verificação de acesso de convidados do Microsoft Teams
 =========================================
@@ -78,7 +78,7 @@ Estas são as configurações do Azure AD que oferecem suporte ao acesso de conv
 
 ## <a name="step-3-configure-microsoft-365-groups"></a>Etapa 3: configurar os grupos do Microsoft 365
 
-1. No centro de administração do Microsoft 365, vá **Settings**para  >  **configurações**de configurações, clique em **Serviços**e, em seguida, selecione **grupos do Microsoft 365**.
+1. No centro de administração do Microsoft 365, vá para **configurações**da  >  **organização**configurações, clique em **Serviços**e, em seguida, selecione **grupos do Microsoft 365**.
 
      ![A captura de tela mostra as configurações de grupos do Microsoft 365](media/guest-access-checklist-services-settings.png)
 2. Verifique se a caixa de seleção **Permitir que os membros do grupo fora da organização acessem o conteúdo do grupo** foi selecionada. Se essa configuração não for selecionada, os convidados não poderão acessar nenhum conteúdo do grupo.
@@ -92,7 +92,7 @@ Para obter instruções detalhadas sobre como definir essas configurações, con
 
 Certifique-se de que os usuários possam adicionar convidados. Veja como:
 
-1. No Centro de administração do Microsoft 365, acesse **Configurações** > **Configurações**, clique em **Segurança e privacidade** e, em seguida, **Compartilhamento**.
+1. No centro de administração do Microsoft 365, vá **Settings**para configurações da  >  **organização**configurações, clique em **segurança & privacidade**e selecione **compartilhamento**.
 
      ![A tela de captura mostra um exemplo de configurações de serviços](media/guest-access-checklist-security-privacy-settings.png)
  
@@ -107,7 +107,7 @@ Certifique-se de que os usuários possam adicionar convidados. Veja como:
 
 1. Acesse o Centro de administração do Microsoft 365.
 2. Em **Centros de Administração**, selecione **SharePoint**.
-3. No novo centro de administração do SharePoint, em **Sites**, selecione **Sites ativos**.
+3. No novo Centro de administração do SharePoint, em **Sites**, selecione **Sites ativos**.
 
     ![Sites ativos no Centro de administração do SharePoint](media/guest-access-checklist-SPOSettings0.png)
 

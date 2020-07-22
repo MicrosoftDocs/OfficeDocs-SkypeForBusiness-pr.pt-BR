@@ -17,12 +17,12 @@ description: Saiba como usar o relatório de uso de PSTN do teams no centro de a
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0a6836e6f29cce1d55ff755cd1fa8ac5b18dea06
-ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
+ms.openlocfilehash: 18fce1d70308fcdc58441bb1a5cad8a446131e0e
+ms.sourcegitcommit: bdf6cea0face74809ad3b8b935bc14ad60b3bb35
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "43918569"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "45201195"
 ---
 # <a name="microsoft-teams-pstn-usage-report"></a>Relatório de uso PSTN do Microsoft Teams
 
@@ -30,16 +30,19 @@ O relatório de uso de PSTN do teams no centro de administração do Microsoft T
 
 A guia **planos de chamada** mostra informações, incluindo o número de minutos gastos pelos usuários em chamadas PSTN de entrada e saída e o custo dessas chamadas. A guia **encaminhamento direto** mostra informações incluindo o endereço SIP e os horários de início e término da chamada. Use as informações neste relatório para obter informações sobre o uso da PSTN em sua organização e ajudá-lo a investigar, planejar e tomar decisões de negócios.
 
+> [!NOTE]
+> Se você tiver um plano de chamadas do Telstra ou do Softbank, você não verá os registros de detalhes da chamada no relatório de uso de PSTN. Entre em contato com o Telstra ou o Softbank para atender às suas necessidades de relatório. 
+
 ## <a name="view-the-pstn-usage-report"></a>Exibir o relatório de uso de PSTN
 
-1. Na navegação à esquerda do centro de administração do Microsoft Teams, clique em **análises &** > relatórios de**uso**dos relatórios. Na guia **exibir relatórios** , em **relatório**, selecione **relatório de uso de PSTN**.
+1. Na navegação à esquerda do centro de administração do Microsoft Teams, clique em **análises &** relatórios de  >  **uso**dos relatórios. Na guia **exibir relatórios** , em **relatório**, selecione **relatório de uso de PSTN**.
 2. Em **intervalo de datas**, selecione um intervalo predefinido de 7 ou 28 dias, ou defina um intervalo personalizado e selecione **executar relatório**.
 
 ## <a name="interpret-the-report"></a>Interpretar relatório
 
 ### <a name="calling-plans"></a>Planos de Chamadas
 
-![Captura de tela do relatório de relatório de uso PSTN dos planos de chamada no centro de administração](../media/teams-reports-pstn-usage-calling-plans-with-callouts.png "Captura de tela do relatório de uso de PSTN no centro de administração do Microsoft Teams com textos explicativos numerados")
+[![Captura de tela do relatório de relatório de uso PSTN dos planos de chamada no centro de administração](../media/teams-reports-pstn-usage-calling-plans-with-callouts.png "Captura de tela do relatório de uso de PSTN no centro de administração do Microsoft Teams com textos explicativos numerados")](../media/teams-reports-pstn-usage-calling-plans-with-callouts.png#lightbox)
 
 |Texto Explicativo |Descrição  |
 |--------|-------------|
@@ -54,7 +57,7 @@ A guia **planos de chamada** mostra informações, incluindo o número de minuto
 
 ### <a name="direct-routing"></a>Roteamento Direto
 
-![Captura de tela do relatório de uso de uso de PSTN de roteamento direto no centro de administração](../media/teams-reports-pstn-usage-direct-routing-with-callouts.png "Captura de tela do relatório de uso de PSTN Routing Direct no centro de administração do Microsoft Teams com textos explicativos numerados")
+[![Captura de tela do relatório de uso de uso de PSTN de roteamento direto no centro de administração](../media/teams-reports-pstn-usage-direct-routing-with-callouts.png "Captura de tela do relatório de uso de PSTN Routing Direct no centro de administração do Microsoft Teams com textos explicativos numerados")](../media/teams-reports-pstn-usage-direct-routing-with-callouts.png#lightbox)
 
 |Texto Explicativo |Descrição  |
 |--------|-------------|
@@ -90,11 +93,11 @@ Clique em **exportar para o Excel**e, na guia **downloads** , clique em **baixar
 
 Esse protocolo exporta os dados de todos os usuários e permite que você execute a classificação e a filtragem simples para análises posteriores. Os arquivos exportados contêm campos adicionais que não estão disponíveis no relatório online. Elas podem ser usadas para solução de problemas e fluxos de trabalho automatizados.
 
- Você receberá um arquivo zip chamado "**calls. Export`[identifier]`.. zip**", com o identificador sendo uma ID exclusiva para a exportação que pode ser usada para solução de problemas.
+ Você receberá um arquivo zip chamado "**calls. Export. `[identifier]` . zip**", com o identificador sendo uma ID exclusiva para a exportação que pode ser usada para solução de problemas.
 
-Se você tiver planos de chamada e roteamento direto, o arquivo exportado poderá conter dados para ambos os produtos. O arquivo de relatório de uso de PSTN terá o nome de arquivo "**PSTN. calls`[UTC date]`.. CSV**"e roteamento direto"**DirectRouting. calls`[UTC date]`.. CSV**".
+Se você tiver planos de chamada e roteamento direto, o arquivo exportado poderá conter dados para ambos os produtos. O arquivo de relatório de uso de PSTN terá o nome de arquivo "**PSTN. calls. `[UTC date]` . CSV**"e roteamento direto"**DirectRouting. calls. `[UTC date]` . CSV**".
 
- Além dos arquivos PSTN e roteamento direto, o arquivo contém "**Parameters. JSON**", com o intervalo de tempo de exportação e os recursos selecionados.
+ Além dos arquivos PSTN e roteamento direto, o arquivo contém o arquivo "**parameters.js**", com o intervalo de exportação e os recursos selecionados.
 
 Os arquivos exportados estão em formato CSV (valores separados por vírgulas) compatíveis com o padrão [RFC 4180](https://tools.ietf.org/html/rfc4180) . Os arquivos podem ser abertos no Excel ou qualquer outro editor compatível com padrões sem precisar de transformações.
 

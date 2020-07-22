@@ -21,12 +21,12 @@ ms.custom:
 ms.collection:
 - M365-collaboration
 description: Aprenda a gerenciar as configurações das reuniões do Teams que os usuários agendam em sua organização.
-ms.openlocfilehash: 1d7aed894724a09f1b3cc352ef3e280cf3ead310
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: 6a30843070adc8da14343ad2dc94730a750e1f31
+ms.sourcegitcommit: bdf6cea0face74809ad3b8b935bc14ad60b3bb35
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45086157"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "45201215"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Gerenciar configurações de reunião no Microsoft Teams
 
@@ -97,7 +97,7 @@ Se você estiver usando a QoS (qualidade de serviço) para priorizar o tráfego 
 
     - Para permitir que marcadores DSCP sejam usados para QoS, ative **Inserir marcadores Quality of Service (QoS) para tráfego de mídia em tempo real**. Você só tem a opção de usar ou não usar marcadores; você não pode definir marcadores personalizados para cada tipo de tráfego. Consulte [Selecionar um método de implementação de QoS](QoS-in-Teams.md#select-a-qos-implementation-method) para obter mais informações sobre marcadores DSCP.
         > [!NOTE]
-        > A ativação de **Inserir marcadores Quality of Service (QoS) para tráfego de mídia em tempo real** também permitirá a comunicação com a Transport Relay (Retransmissão de Transporte) com as portas UDP 3479 (Áudio), 3480 (Vídeo) e 3481 (Compartilhamento).
+        > A marcação de DSCP geralmente é feita por meio das portas de origem e o tráfego UDP direcionará para a retransmissão Transfport com a porta de destino 3478 por padrão.  Se a sua empresa exigir a marcação nas portas de destino, entre em contato com o suporte para habilitar a comunicação com a transmissão de transporte com as portas UDP 3479 (áudio), 3480 (vídeo) e 3481 (compartilhamento).
     - Para especificar intervalos de portas, ao lado de **Selecione um intervalo de portas para cada tipo de tráfego de mídia em tempo real**, selecione **Especificar intervalos de portas** e insira as portas inicial e final para compartilhamento de áudio, vídeo e tela. A seleção desta opção é necessária para implementar a QoS.
         > [!IMPORTANT]
         > Se você selecionar **Usar automaticamente qualquer porta disponível**, serão usadas portas disponíveis entre 1024 e 65535. Use esta opção apenas quando não estiver implementando a QoS.
