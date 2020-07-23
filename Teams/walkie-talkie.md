@@ -18,18 +18,18 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9369cf56a32142d6527fcb86271d8d0fa56718ec
-ms.sourcegitcommit: 2467ece95e100a3a3cc2be3538d8eb7d878b3663
+ms.openlocfilehash: 4154a3ad30bf18de934f0fe5a23bbabc94fc76eb
+ms.sourcegitcommit: 863347fb6e5916d8d936adc4ddcebb2e32a91d1c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2020
-ms.locfileid: "45043003"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45229047"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Aplicativo faça de conversas no Microsoft Teams
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-O aplicativo faça talkie no Teams oferece comunicação instantânea Push-to-Talk (PTT) para a sua equipe e em breve estará disponível no modo de visualização pública no Android. O faça talkie permite que os usuários se conectem com sua equipe usando os mesmos canais subjacentes dos quais são membros. Somente os usuários que se conectam ao faça talkie em um canal tornam-se participantes e podem se comunicar uns com os outros usando o push para conversar, um por vez.
+O aplicativo faça talkie no Teams oferece comunicação instantânea Push-to-Talk (PTT) para sua equipe e está disponível no modo de visualização pública no Android. O faça talkie permite que os usuários se conectem com sua equipe usando os mesmos canais subjacentes dos quais são membros. Somente os usuários que se conectam ao faça talkie em um canal tornam-se participantes e podem se comunicar uns com os outros usando o push para conversar, um por vez.
 
 Com o faça de trabalho no Microsoft Teams, os trabalhadores de primeira mão podem se comunicar com uma experiência PTT conhecida sem precisar ter rádios em massa, e o faça de fala funciona em qualquer lugar com conexão WiFi ou celular à Internet.
 
@@ -73,9 +73,9 @@ O uso de dados esperado do faça talkie é cerca de 20KB/s ao enviar ou receber 
 
 Em geral, os funcionários de primeira mão precisam falar e receber chamadas do faça Talk, mesmo quando seus telefones estiverem bloqueados. Essa experiência é possível por meio de dispositivos especializados com um botão PTT dedicado.
 
-- Telefones existentes
-  - Fone de ouvido com microfone com fio ([Klein eletrônicos](https://www.kleinelectronics.com/))
-  - Fones de ouvido sem fio ([Jabra BlueParrott](https://www.blueparrott.com/))
+- Fones
+  - Fone de ouvido com microfone com fio ([Klein eletrônicos](https://www.kleinelectronics.com/poc-accessories/mtwt/))
+  - Fones de ouvido sem fio ([Jabra BlueParrott](https://www.blueparrott.com/microsoft-teams-walkie-talkie))
 - Telefones resistentes
   - Samsung Galaxy XCover pro
     - [Mais informações](https://www.samsung.com/us/business/products/mobile/phones/galaxy-xcover-pro/).

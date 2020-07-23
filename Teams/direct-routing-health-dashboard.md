@@ -16,16 +16,16 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Saiba como usar o painel de integridade para monitorar a conexão entre o controlador de borda de sessão e o roteamento direto.
-ms.openlocfilehash: 55ae433428a8bb6fd42d4166e5d756432463b4ed
-ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
+ms.openlocfilehash: a75510340815489921a5dd67a204b6914a9539d4
+ms.sourcegitcommit: 863347fb6e5916d8d936adc4ddcebb2e32a91d1c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43940738"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45229107"
 ---
 # <a name="health-dashboard-for-direct-routing"></a>Painel de integridade para roteamento direto
 
-O painel de integridade para roteamento direto permite monitorar a conexão entre o controlador de borda de sessão (SBC) e a interface de roteamento direto.  Com o painel de integridade, você pode monitorar informações sobre seu SBC, o serviço de telefonia e os parâmetros de rede entre seu SBC e a interface de roteamento direto. Essas informações podem ajudá-lo a identificar problemas, incluindo o motivo para as chamadas descartadas. Por exemplo, o SBC pode parar de enviar chamadas se um certificado no SBC tiver expirado ou se houver problemas de rede.  
+O painel de integridade para roteamento direto permite monitorar a conexão entre o controlador de borda de sessão (SBC) e a interface de roteamento direto.  Com o painel de integridade, você pode monitorar informações sobre seu SBC, o serviço de telefonia e os parâmetros de rede entre seu SBC e a interface de roteamento direto. Essas informações podem ajudá-lo a identificar problemas, incluindo o motivo para as chamadas descartadas. Por exemplo, o SBC pode parar de enviar chamadas se um certificado no SBC tiver expirado ou se houver problemas de rede. Consulte as [funções de administrador](using-admin-roles.md) para saber quem tem acesso ao painel de integridade.
 
 O painel de integridade monitora dois níveis de informações:
 
@@ -33,7 +33,6 @@ O painel de integridade monitora dois níveis de informações:
 - Informações detalhadas sobre o SBCs conectado
 
 Você pode exibir o painel de integridade no centro de administração do Microsoft Teams e do Skype for Business.
-
 
 ## <a name="overall-health"></a>Integridade geral
 
@@ -47,18 +46,17 @@ O painel de integridade fornece as seguintes informações relacionadas à integ
 
 - **Taxa de eficácia da rede (Ner)** – o Ner mede a capacidade de uma rede de entregar chamadas, medindo o número de chamadas enviadas versus o número de chamadas entregues a um destinatário.  
 
-   O NER mede a capacidade das redes de entregar chamadas para o terminal distante--excluindo ações do usuário que resultam em rejeições de chamadas.  Se o destinatário rejeitou uma chamada ou enviou a chamada para o correio de voz, a chamada será contada como uma entrega bem-sucedida. Isso significa que uma mensagem de resposta, um sinal de ocupado ou um toque sem resposta são considerados chamadas bem-sucedidas. 
+   O NER mede a capacidade das redes de entregar chamadas para o terminal distante--excluindo ações do usuário que resultam em rejeições de chamadas.  Se o destinatário rejeitou uma chamada ou enviou a chamada para o correio de voz, a chamada será contada como uma entrega bem-sucedida. Isso significa que uma mensagem de resposta, um sinal de ocupado ou um toque sem resposta são considerados chamadas bem-sucedidas.
   
-   Por exemplo, suponha que o roteamento direto enviou uma chamada para o SBC e o SBC retorne o código SIP "504 tempo limite do servidor-o servidor tentou acessar outro servidor para tentar processar a solicitação e não recebeu uma resposta de prompt". Essa resposta indica que há um problema no lado do SBC, e isso diminuirá o NER no painel de integridade para este SBC. 
+   Por exemplo, suponha que o roteamento direto enviou uma chamada para o SBC e o SBC retorne o código SIP "504 tempo limite do servidor-o servidor tentou acessar outro servidor para tentar processar a solicitação e não recebeu uma resposta de prompt". Essa resposta indica que há um problema no lado do SBC, e isso diminuirá o NER no painel de integridade para este SBC.
   
-   Como a ação que você pode ter pode depender do número de chamadas afetadas, o painel de integridade mostra quantas chamadas foram analisadas para calcular um parâmetro. Se o número de chamadas for menor do que 100, o NER pode estar muito baixo, mas ainda é normal. 
+   Como a ação que você pode ter pode depender do número de chamadas afetadas, o painel de integridade mostra quantas chamadas foram analisadas para calcular um parâmetro. Se o número de chamadas for menor do que 100, o NER pode estar muito baixo, mas ainda é normal.
 
    A fórmula usada para calcular o NER é:
 
    NER = 100 x (chamadas atendidas + usuário ocupado + toque em nenhuma resposta + transferência de recusa de terminal) chamadas/total
 
- 
-- **Duração média da chamada** -informações sobre a média da duração das chamadas podem ajudá-lo a monitorar a qualidade das chamadas. A duração média de uma chamada PSTN 1:1 é de quatro a cinco minutos.  No entanto, para cada empresa, essa média pode ser diferente.  A Microsoft recomenda estabelecer uma linha de base para a média da duração da chamada da sua empresa. Se esse parâmetro ficar significativamente abaixo da linha de base, isso pode indicar que os usuários estão com problemas com a qualidade da chamada ou a confiabilidade e estão desligados antes do normal. Se você começar a ver a duração média de chamadas médias médias, por exemplo, 15 segundos, os chamadores podem estar sendo soltos porque o seu serviço não está funcionando de maneira confiável. 
+- **Duração média da chamada** -informações sobre a média da duração das chamadas podem ajudá-lo a monitorar a qualidade das chamadas. A duração média de uma chamada PSTN 1:1 é de quatro a cinco minutos.  No entanto, para cada empresa, essa média pode ser diferente.  A Microsoft recomenda estabelecer uma linha de base para a média da duração da chamada da sua empresa. Se esse parâmetro ficar significativamente abaixo da linha de base, isso pode indicar que os usuários estão com problemas com a qualidade da chamada ou a confiabilidade e estão desligados antes do normal. Se você começar a ver a duração média de chamadas médias médias, por exemplo, 15 segundos, os chamadores podem estar sendo soltos porque o seu serviço não está funcionando de maneira confiável.
 
    Como a ação que você pode ter pode depender do número de chamadas afetadas, o painel de integridade mostra quantas chamadas foram analisadas para calcular um parâmetro.
 
@@ -76,17 +74,15 @@ O painel de integridade fornece as seguintes informações relacionadas à integ
 
     - Aviso: nenhuma opção SIP-o controlador de borda da sessão existe no banco de dados (seu administrador o criou usando o comando New-CsOnlinePSTNGateway). Ele está configurado para enviar opções de SIP, mas o serviço de roteamento direto nunca viu as opções de SIP que chegam deste SBC.
 
-    - Aviso: as mensagens SIP não são configuradas – o monitoramento de tronco usando as opções do SIP não está ativado. O sistema de chamadas da Microsoft usa opções SIP e monitoramento de handshake de Transport Layer Security (TLS) para detectar a integridade dos controladores de borda de sessão conectados (SBCs) no nível do aplicativo. Você terá problemas se esse tronco puder ser alcançado no nível da rede (por ping), mas o certificado expirou ou a pilha SIP não funciona. Para ajudar a identificar esses problemas com antecedência, a Microsoft recomenda habilitar as opções de envio de SIP. Verifique a documentação do fabricante do SBC para configurar o envio de opções SIP. 
+    - Aviso: as mensagens SIP não são configuradas – o monitoramento de tronco usando as opções do SIP não está ativado. O sistema de chamadas da Microsoft usa opções SIP e monitoramento de handshake de Transport Layer Security (TLS) para detectar a integridade dos controladores de borda de sessão conectados (SBCs) no nível do aplicativo. Você terá problemas se esse tronco puder ser alcançado no nível da rede (por ping), mas o certificado expirou ou a pilha SIP não funciona. Para ajudar a identificar esses problemas com antecedência, a Microsoft recomenda habilitar as opções de envio de SIP. Verifique a documentação do fabricante do SBC para configurar o envio de opções SIP.
 
 - **Capacidade de chamadas simultâneas** – você pode especificar o limite de chamadas simultâneas que um SBC pode manipular usando o comando New-ou Set-CsOnlinePSTNGateway com o parâmetro-MaxConcurrentSessions. Esse parâmetro calcula quantas chamadas foram enviadas ou recebidas pelo roteamento direto usando um SBC específico e a compara com o limite definido. Observação: se o SBC também manipular chamadas para PBXs diferentes, esse número não mostrará as chamadas simultâneas reais.
-
 
 ## <a name="detailed-information-for-each-sbc"></a>Informações detalhadas para cada SBC
 
 Você também pode exibir as informações detalhadas de um SBC específico, conforme mostrado na captura de tela a seguir:
 
 ![Detalhes de SBC do painel de integridade](media/direct-routing-dashboard-SBC-detail1.png)
-
 
 O modo de exibição detalhado mostra os seguintes parâmetros adicionais:
 
@@ -113,7 +109,3 @@ O modo de exibição detalhado mostra os seguintes parâmetros adicionais:
    Você pode deslizar os dados por número de dias e direção de chamada (entrada/saída/todos os fluxos).
 
 **Taxa de eficácia da rede** -é o mesmo parâmetro que aparece no painel de integridade geral, mas com a opção de dividir os dados por série temporal ou direção de chamada.
-
-
-
-

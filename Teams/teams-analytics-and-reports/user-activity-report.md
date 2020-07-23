@@ -17,12 +17,12 @@ description: Saiba como usar o relatório de atividade de usuários do teams no 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9516c7ed39a56e09bb714f58e988dc46b41ec9e2
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 19f1ef23e29805e53d819752e3f6313c4989d295
+ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43903866"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45372150"
 ---
 # <a name="microsoft-teams-user-activity-report"></a>Relatório de atividades do usuário do Microsoft Teams
 
@@ -30,7 +30,9 @@ O relatório de atividade de usuários do teams fornece informações sobre os t
 
 ## <a name="view-the-user-activity-report"></a>Exibir o relatório de atividade do usuário
 
-1. Na navegação à esquerda do centro de administração do Microsoft Teams, clique em **análises &** > relatórios de**uso**dos relatórios. Na guia **exibir relatórios** , em **relatório**, selecione **atividade do usuário do teams**.
+Você deve ser um administrador de serviços do teams para fazer essas alterações. Consulte [usar funções de administrador do teams para gerenciar o Teams](https://docs.microsoft.com/microsoftteams/using-admin-roles) para ler sobre como obter funções e permissões de administrador.
+
+1. Na navegação à esquerda do centro de administração, clique em **análises &** relatórios de  >  **uso**de relatórios. Na guia **exibir relatórios** , em **relatório**, selecione **atividade do usuário do teams**.
 2. Em **Intervalo de dados**, selecione intervalo e em seguida clique em **Executar relatório**.
 
     ![Captura de tela do relatório de atividade do usuário do teams no centro de administração do teams com textos explicativos](../media/teams-reports-user-activity-with-callouts.png "Captura de tela do relatório de atividade do usuário do teams no centro de administração do teams com textos explicativos")

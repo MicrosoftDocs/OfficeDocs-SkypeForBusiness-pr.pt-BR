@@ -20,20 +20,18 @@ ms.custom:
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba como usar e gerenciar pacotes de política no Microsoft Teams para simplificar, simplificar e ajudar a fornecer consistência ao gerenciar políticas para grupos de usuários.
-ms.openlocfilehash: 0fc612f4f04e0a57176ac985b40de029d42c5e9e
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 0bd14852a9f488bb6740a2df8219041ba0c71ebb
+ms.sourcegitcommit: 13b88679f3154c264dd2f01be785d6570276853e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44669409"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45374359"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>Gerenciar pacotes de política no Microsoft Teams
 
 Um pacote de política no Microsoft Teams é uma coleção de políticas predefinidas e configurações de política que você pode atribuir aos usuários que têm funções semelhantes em sua organização. Nós criamos pacotes de políticas para simplificar, simplificar e ajudar a fornecer consistência ao gerenciar políticas para grupos de usuários em toda a sua organização.  
 
 Quando você atribui um pacote de política aos usuários, as políticas no pacote são criadas e você pode personalizar as configurações das políticas do pacote para atender às necessidades da sua organização.
-
-Os pacotes de política não estão disponíveis para organizações da comunidade de nuvens (GCC) do governo dos EUA.
 
 ## <a name="what-is-a-policy-package"></a>O que é um pacote de política
 
@@ -49,6 +47,8 @@ Atualmente, o Microsoft Teams inclui os seguintes pacotes de política.
 |Educação (professor)    |Cria um conjunto de políticas e configurações de política que se aplicam a professores.      |
 |Educação (professor de escola principal usando o aprendizado remoto)    |Cria um conjunto de políticas que se aplicam aos professores primários para maximizar a segurança e a colaboração dos alunos ao usar o aprendizado remoto.      |
 |Educação (aluno escolar principal usando o aprendizado remoto)    |Cria um conjunto de políticas que se aplicam aos alunos do ensino fundamental para maximizar a segurança e a colaboração dos alunos ao usarem o aprendizado remoto.      |
+|Gerente da primeira mão |Cria um conjunto de políticas e aplica essas configurações aos gerentes de primeira empresa. |
+|Trabalho da primeira |Cria um conjunto de políticas e aplica essas configurações aos trabalhos iniciais em sua organização. |
 |Trabalhador clínico da assistência médica  |Cria um conjunto de políticas e configurações de política que dão a funcionários clínicos, como as mensagens de mão registradas, recarga de mão, médicos e funcionários sociais acesso total a chats, chamadas, gerenciamento de turnos e reuniões. |
 |Operador de informações da assistência médica  |Cria um conjunto de políticas e configurações de política que fornecem aos operadores de informações, como pessoal de ti, pessoal de informática, pessoal de finanças e órgãos de conformidade, acesso total a chats, chamadas e reuniões.|
 |Sala de pacientes de assistência médica  |Cria um conjunto de políticas e configurações de política que se aplicam a salas de pacientes em sua organização de assistência médica.|

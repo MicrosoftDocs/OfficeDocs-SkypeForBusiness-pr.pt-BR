@@ -17,12 +17,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: efa11a5ca91be13508ab518ab5be504743825b68
-ms.sourcegitcommit: a5276a713697e089d0eb0d80bba83a7af8d48251
+ms.openlocfilehash: 01b042ee5eb604e59044022e3064f522039b4272
+ms.sourcegitcommit: 13b88679f3154c264dd2f01be785d6570276853e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45202947"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45247380"
 ---
 # <a name="retention-policies-in-microsoft-teams"></a>Políticas de retenção no Microsoft Teams
 
@@ -154,6 +154,24 @@ Para excluir uma política de retenção do Teams, siga este procedimento:
 1. Na barra de navegação à esquerda do Centro de Conformidade & Segurança, acesse **Governança de informações** > **Retenção**.
 2. Na lista de políticas de retenção, marque a caixa de seleção ao lado da política de retenção que você deseja excluir.
 3. Marque **excluir política**.
+
+### <a name="end-user-experience"></a>Experiência do usuário final
+
+Para chats privados (1:1 chats) ou chats em grupo, os usuários finais verão que os chats mais antigos do que a configuração da política de retenção serão excluídos e uma mensagem de controle informando que "excluiu mensagens mais antigas devido à política de retenção da sua organização" é mostrada em mensagens de cima do que ainda não foram excluídas.
+:::image type="content" source="media/retention-policies-image1.png" alt-text="Captura de tela da retenção de chat":::
+
+
+:::image type="content" source="media/retention-policies-image2.png" alt-text="Captura de tela da retenção de chat em grupo":::
+
+Para mensagens de canal, os usuários finais (membros do canal) verão as mensagens excluídas desaparecerão do modo de exibição após a expiração das mensagens. Se a mensagem excluída era uma mensagem pai de uma conversa encadeada, então, no lugar da mensagem pai, uma mensagem informando que "esta mensagem foi excluída por causa de uma política de retenção" será exibida.
+
+:::image type="content" source="media/retention-policies-image3.png" alt-text="Captura de tela do canal antes da retenção":::
+
+:::image type="content" source="media/retention-policies-image4.png" alt-text="Captura de tela do canal após a retenção":::
+
+> [!NOTE]
+> O recurso de mensagens de usuário final não é um usuário ou administrador modificável no momento.
+
 
 ### <a name="using-powershell"></a>Usando o PowerShell
 

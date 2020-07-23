@@ -21,12 +21,12 @@ ms.custom:
 ms.collection:
 - M365-collaboration
 description: Aprenda a gerenciar as configurações das reuniões do Teams que os usuários agendam em sua organização.
-ms.openlocfilehash: 6a30843070adc8da14343ad2dc94730a750e1f31
-ms.sourcegitcommit: bdf6cea0face74809ad3b8b935bc14ad60b3bb35
+ms.openlocfilehash: 0e87b5eadd358bb4c7e13f2948b180d2f7bfff81
+ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45201215"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45371980"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Gerenciar configurações de reunião no Microsoft Teams
 
@@ -38,7 +38,9 @@ Com o ingresso anônimo, qualquer pessoa pode ingressar na reunião como um usu�
 
 ![Um ícone mostrando o logotipo do Microsoft Teams](media/teams-logo-30x30.png) **Usando o centro de administração do Microsoft Teams**
 
-1. Vá para o centro de administração em <a href="https://go.microsoft.com/fwlink/?linkid=867439" target="_blank">https://admin.teams.microsoft.com</a> .
+Você deve ser um administrador de serviços do teams para fazer essas alterações. Consulte [usar funções de administrador do teams para gerenciar o Teams](https://docs.microsoft.com/microsoftteams/using-admin-roles) para ler sobre como obter funções e permissões de administrador.
+
+1. Vá para o centro de administração.
 
 2. Na barra de navegação à esquerda, vá para **Reuniões** > **Configurações de reunião**.
 
@@ -65,7 +67,7 @@ Você pode personalizar os convites para reuniões do Teams para atender às nec
 
 ![Um ícone mostrando o logotipo do Microsoft Teams](media/teams-logo-30x30.png) **Usando o centro de administração do Microsoft Teams**
 
-1. Vá para o <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">centro de administração</a>...
+1. Vá para o centro de administração.
 2. Na barra de navegação à esquerda, vá para **Reuniões** > **Configurações de reunião**.
 3. Em **Convite por email**, faça o seguinte:
 
@@ -89,7 +91,7 @@ Se você estiver usando a QoS (qualidade de serviço) para priorizar o tráfego 
 > Se você habilitar a QoS ou alterar as configurações no centro de administração do Microsoft Teams para o serviço do Teams, também precisará [aplicar as configurações correspondentes a todos os dispositivos de usuário](QoS-in-Teams-clients.md) e a todos os dispositivos de rede interna para implementar completamente as alterações no QoS no Teams.
 
  ![Um ícone mostrando o logotipo do Microsoft Teams](media/teams-logo-30x30.png) **Usando o centro de administração do Microsoft Teams**
-1. Vá para o <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">centro de administração</a>.
+1. Vá para o centro de administração.
 2. Na barra de navegação à esquerda, vá para **Reuniões** > **Configurações de reunião**.
 3. Em **Rede**, faça o seguinte:
 

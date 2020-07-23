@@ -22,12 +22,12 @@ ms.custom:
 - Reporting
 - seo-marvel-mar2020
 description: Obtenha informações detalhadas sobre as dimensões e medidas usadas pelo painel de qualidade da chamada (CQD) para Microsoft Teams e Skype for Business online.
-ms.openlocfilehash: 1b5be1cc988a1999bee05aba04b0f27c9127bd54
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: 1625a7fcb0de0c2e5ad8586b0985ddb61de5e75b
+ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085777"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45372130"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard-cqd"></a>Dimensões e medidas disponíveis no painel de qualidade de chamada (CQD)
 
@@ -170,10 +170,10 @@ As informações de dimensões são baseadas em parte em dados carregados no por
 | Primeiro agente do usuário  | Cadeia de caracteres  | Cadeia de caracteres de agente do usuário do primeiro ponto de extremidade. <br/> **Valor de exemplo:** UCCAPI/16.0.7766.5281 OC/16.0.7766.2047 (Skype for Business) | &bull;Nenhum agente de usuário relatado pelo primeiro ponto de extremidade   |
 | Segundo agente do usuário  | Cadeia de caracteres  | Cadeia de caracteres de agente do usuário do segundo ponto de extremidade. <br/> **Valor de exemplo:** UCCAPI/16.0.7766.5281 OC/16.0.7766.2047 (Skype for Business) | &bull;Nenhum agente de usuário foi reportado pelo segundo ponto de extremidade   |
 | Tipo de conferência  | Enumeração <br/>**Valores possíveis:** <br/>&bull;conf: applicationsharing <br/>&bull;conf: áudio-vídeo <br/>&bull;conf: foco | Tipo de URI de conferência.  <br/> **Valor de exemplo:** conf: áudio-vídeo | &bull;Cenário de não conferência.   |
-| ID de conferência  | Cadeia de caracteres | ID de conferência (ou ID de chamada) associada aos fluxos. No cqd.teams.microsoft.com, todas as chamadas têm uma ID de chamada independentemente de serem uma chamada ponto a ponto (P2P) ou uma chamada em conferência. No cqd.lync.com, esse valor só está disponível para chamadas em conferência do Skype for Business.  Essa dimensão pode ter muitas linhas a serem usadas como dimensão em um relatório. Em vez disso, ele pode ser usado em um filtro.  <br/> **Valor de exemplo (CQD.Lync.com):** 0001P6GK <br/> **Valor de exemplo (CQD.Teams.Microsoft.com):** 5a962ccf-B9CB-436A-A433-f28bf5404ad8  | |
+| ID de conferência  | Cadeia de caracteres | ID de conferência (ou ID de chamada) associada aos fluxos. No cqd.teams.microsoft.com, todas as chamadas têm uma ID de chamada independentemente de serem uma chamada ponto a ponto (P2P) ou uma chamada em conferência. Essa dimensão pode ter muitas linhas a serem usadas como dimensão em um relatório. Em vez disso, ele pode ser usado em um filtro.   <br/> **Valor de exemplo (CQD.Teams.Microsoft.com):** 5a962ccf-B9CB-436A-A433-f28bf5404ad8  | |
 | Primeira versão do aplicativo cliente  | Cadeia de caracteres  | Versão do aplicativo usada para o primeiro ponto de extremidade. Os dados são analisados a partir da cadeia de caracteres do agente do usuário. <br/> **Valor de exemplo:** 16.0.7766.2047 | &bull;Não foi possível analisar a cadeia de caracteres de versão <br/>&bull;O valor não foi reportado.   |
 | Versão do segundo aplicativo cliente  | Cadeia de caracteres  | Versão do aplicativo usada para o segundo ponto de extremidade. Os dados são analisados a partir da cadeia de caracteres do agente do usuário. <br/> **Valor de exemplo:** 16.0.7766.2047 | &bull;Não foi possível analisar a cadeia de caracteres de versão <br/>&bull;O valor não foi reportado. |
-|ID da reunião (em cqd.teams.microsoft.com) <br/> ID de conferência (em cqd.lync.com) |Cadeia de caracteres |O identificador da reunião, gerado quando a reunião foi criada. <br/> **Valor do exemplo (Skype for Business):** 0001P6GK  <br/> **Valor de exemplo (Teams):** 19: meeting_MzB... zIw@thread. v2| |
+|ID da reunião |Cadeia de caracteres |O identificador da reunião, gerado quando a reunião foi criada.  <br/> **Valor de exemplo:** 19: meeting_MzB... zIw@thread. v2| |
 |**Rede**||| 
 | SMTP  | Enumeração <br/>**Valores possíveis:** <br/>&bull;GRAMA <br/>&bull;Protocol <br/>&bull;Desconhecido  | Tipo de transporte de rede usado pelo Stream.  Não reconhecido indica que o sistema não pôde determinar se o tipo de transporte era TCP ou UDP.  | &bull;O tipo de transporte não foi reportado <br/>&bull;O caminho de mídia não foi estabelecido  |
 | Primeiro Ice de conectividade  | Enumeração <br/>**Valores possíveis:** <br/>&bull;DIRECT = caminho de rede direta <br/>&bull;RELAY = a retransmissão <br/>&bull;HTTP = via proxy HTTP <br/>&bull;FALHA = falha na conectividade | Tipo de conectividade ICE usado pelo primeiro ponto de extremidade.  |&bull;O tipo de transporte não foi reportado <br/>&bull;O caminho de mídia não foi estabelecido   |

@@ -22,24 +22,22 @@ ms.reviewer: islubin
 description: Saiba como usar as funções administrativas para designar administradores que precisam de níveis diferentes de acesso para gerenciar equipes.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e56ce07f73eb4fe7ce69c2e1fc3522cbfc254096
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 8e044a806136330e630eb7f5336a9480f9ebd435
+ms.sourcegitcommit: 863347fb6e5916d8d936adc4ddcebb2e32a91d1c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665203"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45229037"
 ---
 # <a name="use-microsoft-teams-administrator-roles-to-manage-teams"></a>Usar funções de administrador do Microsoft Teams para gerenciar equipes
 
-Usando o Active Directory do Azure (Azure AD), você pode designar administradores que precisam de diferentes níveis de acesso para gerenciar o Microsoft Teams. Os administradores podem gerenciar toda a carga de trabalho da equipe ou podem ter permissões delegadas para solucionar problemas de qualidade da chamada ou gerenciar as necessidades de telefonia da sua organização. 
+Usando o Active Directory do Azure (Azure AD), você pode designar administradores que precisam de diferentes níveis de acesso para gerenciar o Microsoft Teams. Os administradores podem gerenciar toda a carga de trabalho da equipe ou podem ter permissões delegadas para solucionar problemas de qualidade da chamada ou gerenciar as necessidades de telefonia da sua organização.
 
 ## <a name="teams-roles-and-capabilities"></a>Funções e recursos do teams
 
 Há quatro funções de administração de equipes disponíveis: administrador de serviços do Teams, administrador de comunicações do Teams, especialista de suporte de comunicações de equipe e engenheiro de suporte de comunicações de equipe. Revise a tabela a seguir para entender o que cada função pode fazer e quais ferramentas o administrador pode usar no centro de administração do Microsoft Teams e no PowerShell.
 
-Para acompanhar, vá para o centro de administração em <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> .
-
-
+Para acompanhar, você deve ser um administrador. Veja as instruções para obter as permissões neste artigo.
 
 <!-- add Global admin role? -->
 

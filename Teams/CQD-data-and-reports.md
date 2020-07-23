@@ -22,20 +22,17 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: Saiba mais sobre os dados e relatórios disponíveis no painel de qualidade de chamada da Microsoft (CQD).
-ms.openlocfilehash: 02acff8cd423901c8959e94af664ffe4d43c0e51
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: 2801b8b2a35ae06c4bb42479bac64985b13ea93f
+ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085987"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45372160"
 ---
 # <a name="data-and-reports-in-call-quality-dashboard-cqd"></a>Dados e relatórios no painel de qualidade de chamada (CQD)
 
 O Microsoft Call Quality Dashboard (CQD) usa um feed de dados near-real-time (NRT). Os registros de chamadas estão disponíveis no CQD dentro de 30 minutos após o término de uma chamada. Os registros de chamadas do pipeline do NRT só estão disponíveis por alguns meses antes de serem removidos do conjunto de dados. 
 
-
-> [!NOTE]
-> O CQD avançado (novo em novembro de 2019) combina dados do antigo pipeline do CQD (que fez os registros de chamadas disponíveis em cerca de 24 horas) com os dados do NRT do pipeline CQD avançado. As consultas nos portais mais antigos e avançados dos dados do período de arquivamento produzem os mesmos resultados. As consultas em um portal para os dados NRT e NRT dados + EUII períodos serão diferentes.
 
 ## <a name="many-ways-to-access-cqd-data"></a>Muitas maneiras de acessar dados do CQD
 

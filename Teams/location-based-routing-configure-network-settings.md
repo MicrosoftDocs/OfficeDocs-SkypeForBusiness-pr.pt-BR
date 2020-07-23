@@ -17,16 +17,14 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f63ff0191518acf72fd3e4c33abe80b819c3db28
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 8025467a0581c95a40551244948a8e6b7c0ecbc8
+ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141274"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45372050"
 ---
 # <a name="configure-network-settings-for-location-based-routing"></a>Configurar definições de rede para o Roteamento baseado na localização
-
-> [!INCLUDE [Preview customer token](includes/preview-feature.md)]
 
 Se ainda não tiver feito isso, leia [roteamento baseado em local de plano para roteamento direto](location-based-routing-plan.md) para revisar outras etapas que você precisará tomar antes de definir as configurações de rede para roteamento baseado em local.
 

@@ -21,12 +21,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: f30db1425c61e8cb5f916345c0b751bc81c90a0f
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 0dc4e9a4c223422ab743e657d808f5de0f3239e7
+ms.sourcegitcommit: 863347fb6e5916d8d936adc4ddcebb2e32a91d1c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637420"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45228887"
 ---
 <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>Gerenciar equipes durante a transição para o novo centro de administração do Microsoft Teams
 ======================================================
@@ -34,9 +34,9 @@ ms.locfileid: "44637420"
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-## <a name="what-is-the-new-microsoft-teams-admin-center"></a>O que é o novo centro de administração do Microsoft Teams?  
+## <a name="what-is-the-new-microsoft-teams-admin-center"></a>O que é o novo centro de administração do Microsoft Teams  
 
-A nova experiência com o centro de administração fornecerá uma experiência unificada para gerenciar tanto o Microsoft Teams quanto o Skype for Business. Estamos fornecendo funcionalidade adicional, ideias completas e a capacidade de gerenciar as configurações do teams em um nível de usuário. Você pode acessar o centro de administração em <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> .
+A nova experiência com o centro de administração fornecerá uma experiência unificada para gerenciar tanto o Microsoft Teams quanto o Skype for Business. Estamos fornecendo funcionalidade adicional, ideias completas e a capacidade de gerenciar as configurações do teams em um nível de usuário.
 
 ![Captura de tela do centro de administração do Microsoft Teams.](media/manage-teams-skype-for-business-admin-center-portal.png)
 
@@ -84,15 +84,15 @@ A tabela a seguir identifica as seções da experiência do teams que foram migr
 
 - Permitir que um usuário Sideload aplicativos que podem ser gerenciados em um nível de usuário no [TeamsAppSetupPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsappsetuppolicy?view=skype-ps).
 - Permita que os usuários de um locatário interajam com aplicativos personalizados que podem ser gerenciados em um nível de locatário em configurações de aplicativo de toda a organização.
- 
-<sup>3</sup> aplicativos padrão e aplicativos externos podem ser habilitados e desabilitados no nível do usuário no TeamsAppPermissionPolicy. Além disso, os aplicativos podem ser bloqueados no nível do locatário em configurações de aplicativo de toda a organização, que substitui todas as configurações do usuário e do nível do locatário. 
+
+<sup>3</sup> aplicativos padrão e aplicativos externos podem ser habilitados e desabilitados no nível do usuário no TeamsAppPermissionPolicy. Além disso, os aplicativos podem ser bloqueados no nível do locatário em configurações de aplicativo de toda a organização, que substitui todas as configurações do usuário e do nível do locatário.
 
 > [!NOTE]
-> Você continuará a usar o painel de grupos no centro de administração do Microsoft 365 para obter a configuração relacionada a equipes e canais. As configurações para aplicativos permanecerão na área Teams do centro de administração do Microsoft 365 e serão migradas mais tarde. 
+> Você continuará a usar o painel de grupos no centro de administração do Microsoft 365 para obter a configuração relacionada a equipes e canais. As configurações para aplicativos permanecerão na área Teams do centro de administração do Microsoft 365 e serão migradas mais tarde.
 
 ## <a name="manage-settings-during-the-migration"></a>Gerenciar configurações durante a migração
 
-Você pode continuar modificando as configurações no centro de administração do Microsoft 365 e no centro de administração do Skype for Business até que a migração de uma seção seja concluída para o seu locatário. 
+Você pode continuar modificando as configurações no centro de administração do Microsoft 365 e no centro de administração do Skype for Business até que a migração de uma seção seja concluída para o seu locatário.
 
 A tabela a seguir mostra onde você pode gerenciar recursos durante a migração.
 
@@ -104,7 +104,7 @@ A tabela a seguir mostra onde você pode gerenciar recursos durante a migração
 |Gerenciamento do ciclo de vida do teams   |    X    |      |       |
 |Configurações do teams   |    X    |      |       |
 |Configurações de acesso externo     |    X    |      |       |
-|Gerenciamento de usuários    |         |         |    X     |    
+|Gerenciamento de usuários    |         |         |    X     |
 |Audioconferência     |    X     |    X     |         |
 |Planos de chamada     |    X    |    X     |         |
 |Sistema de Telefonia    |    X    |     X    |         |

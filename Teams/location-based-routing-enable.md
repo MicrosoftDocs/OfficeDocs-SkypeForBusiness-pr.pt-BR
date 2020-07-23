@@ -17,16 +17,14 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4daf270dcd67dc732bba5e5fe134d5a0994dcd75
-ms.sourcegitcommit: 2295a668a6f118b95f010e81150351741572b076
+ms.openlocfilehash: e4cadbfb700c7478cb77c62f4597c9ae00164b0c
+ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "44412638"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45372040"
 ---
 # <a name="enable-location-based-routing-for-direct-routing"></a>Habilitar o Roteamento baseado na localização para o Roteamento direto
-
-> [!INCLUDE [Preview customer token](includes/preview-feature.md)]
 
 Antes de seguir as etapas deste artigo, verifique se você leu o [roteamento baseado em local de plano para roteamento direto](location-based-routing-plan.md) e concluiu as etapas em [definir configurações de rede para roteamento baseado em local](location-based-routing-configure-network-settings.md).
 
