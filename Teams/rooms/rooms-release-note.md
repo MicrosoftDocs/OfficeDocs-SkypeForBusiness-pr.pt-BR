@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: O administrador pode ler as notas de versão para salas do Microsoft Teams, que lista melhorias cumulativas nas salas do Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: cd072f87371dacd45d92d92307ffe79567831201
-ms.sourcegitcommit: bdf6cea0face74809ad3b8b935bc14ad60b3bb35
+ms.openlocfilehash: 2975d384fd0d09b36e18802dbede4e8ec7dc721b
+ms.sourcegitcommit: f1834bb47452007480269b5a5cdad20037c32ef6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45201175"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "45390111"
 ---
 # <a name="release-notes"></a>Notas de versão
 
@@ -29,7 +29,7 @@ Este artigo discute melhorias cumulativas nas salas do Microsoft Teams.
 
 |Liberação |Publicado em <br/> Microsoft Store |
 |--- |--- |
-|4.5.33.0 |07/20/2020 |
+|4.5.35.0 |07/23/2020 |
 |4.4.63.0 |06/25/2020 |
 |4.4.41.0 |05/06/2020 |
 |4.4.25.0 |03/31/2020 |
@@ -66,8 +66,10 @@ Este artigo discute melhorias cumulativas nas salas do Microsoft Teams.
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Introdução ao recurso salas do Microsoft Teams e resolução de problemas
 
-### <a name="45330-07202020"></a>4.5.33.0 (07/20/2020)
+### <a name="45350-07232020"></a>4.5.35.0 (07/23/2020)
+
 Apresentado nesta atualização:
+
 - Ingressar em reuniões do Cisco WebEx de salas de equipe com a associação de convidado direto
 - Habilitação e registro automático do centro de administração do teams
 - Suporte ao lançamento do Windows 10 1909
@@ -75,11 +77,14 @@ Apresentado nesta atualização:
 - Mãos de aumento virtual suporte a participantes e controles do apresentador
 - Configuração de volume padrão ajustável para conferência e alto-falante padrão
 - Pesquisar e chamar usuários federados (locatários) da sala de equipes
-    
+
+> [!IMPORTANT]
+> A versão 4,5 é a última versão para dar suporte à versão 1803 do Windows 10; versões futuras não serão oferecidas aos sistemas na versão 1803 do Windows 10. Para obter mais informações sobre o suporte à versão do Windows, consulte [suporte à versão do Windows 10](https://docs.microsoft.com/microsoftteams/rooms/rooms-lifecycle-support#windows-10-release-support).
 
 ### <a name="44630-06252020"></a>4.4.63.0 (06/25/2020)
 
 Apresentado nesta atualização:
+
 - Correções de qualidade e confiabilidade
 - Correção do problema "o aplicativo não iniciará após a atualização para o 4.4.41.0"
 
@@ -89,6 +94,7 @@ Apresentado nesta atualização:
 ### <a name="44410-05062020"></a>4.4.41.0 (05/06/2020)
 
 Apresentado nesta atualização:
+
 - Correções de confiabilidade para o aplicativo iniciar no Windows 10 quiosque
 
 ### <a name="44250-03312020"></a>4.4.25.0 (03/31/2020)
