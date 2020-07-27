@@ -81,7 +81,7 @@ Os administradores podem desabilitar a capacidade para que os usuários finais e
 
 Você pode desativar a capacidade de um usuário de instalar aplicativos e serviços de avaliação, evitando que o usuário execute a experiência do Teams Exploratory. 
 
-1. No Centro de administração do Microsoft 365, vá até **Configurações** > **Configurações**, selecione**Serviços**e, em seguida, selecione **Aplicativos e serviços de propriedade do usuário**.
+1. No Centro de administração do Microsoft 365, vá até **Configurações** > **Configurações**, selecione**Serviços** e, em seguida, selecione **Aplicativos e serviços de propriedade do usuário**.
 
     ![Captura de tela da página Serviços do centro de administração](media/iw-trial-services.png)
 
