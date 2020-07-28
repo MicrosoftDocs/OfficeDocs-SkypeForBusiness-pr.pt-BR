@@ -59,7 +59,7 @@ Todos os requisitos das seções a seguir se aplicam aos aplicativos da área de
 |Voz    |  Microfone e alto-falantes compatíveis, headset com microfone ou dispositivos equivalentes.       |
 |Chamadas de vídeo e reuniões | <ul><li>Para uma experiência melhor com chamadas de vídeo entre duas pessoas, recomendamos o uso de um computador com um processador dual core e 4 GB de RAM (ou superior). </li><li>Para uma experiência melhor com reuniões online, recomendamos o uso de um computador com um processador dual core e 8 GB de RAM (ou superior).</li><li>Confira [Recomendações do driver de decodificador e codificador de hardware](hardware-decoders-and-encoders.md) para uma lista de codificadores e decodificadores não compatíveis.</li><li>Ingressar em uma reunião usando a detecção de proximidade em uma sala do Microsoft Teams não está disponível no Mac OS.</li></ul> |
 
-## <a name="hardware-requirements-for-teams-on-linux"></a>Requisitos de hardware para o Teams no Lixus
+## <a name="hardware-requirements-for-teams-on-linux"></a>Requisitos de hardware para o Teams no Linux
 
 | Componente | Requisito |
 |---------|---------|
