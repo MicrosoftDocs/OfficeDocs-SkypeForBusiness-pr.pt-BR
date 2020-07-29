@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 54a0565f5126c899ed5fbf9527aa30f83c3bee3b
-ms.sourcegitcommit: 296aeac481f901eb9d52b4f12a8c037afc49fa77
+ms.openlocfilehash: 1ed13f1f85b0c7eccead3737c4549931f016284c
+ms.sourcegitcommit: 682566e51a9e5f0fc65540535c7dcdcbd38e04c4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "44256564"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45429373"
 ---
 # <a name="resource-specific-consent-in-microsoft-teams"></a>Consentimento específico do recurso no Microsoft Teams
 
@@ -95,6 +95,7 @@ Ao carregar um aplicativo personalizado (também um Sideload conhecido) que usa 
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
+- [Permissões de RSC disponíveis](https://aka.ms/teams-rsc)
 - [Microsoft Graph](https://developer.microsoft.com/graph)
 - [Gerenciar seus aplicativos no centro de administração do Microsoft Teams](manage-apps.md)
 - [Gerenciar políticas de permissões de aplicativo no Teams](teams-app-permission-policies.md)

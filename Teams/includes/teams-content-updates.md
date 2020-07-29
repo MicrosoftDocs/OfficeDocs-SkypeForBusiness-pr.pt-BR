@@ -3,51 +3,6 @@
 
 
 
-## <a name="week-of-june-15-2020"></a>Semana de 15 de junho de 2020
-
-
-| Publicado em |Título do tópico | Alteração |
-|------|------------|--------|
-| 6/16/2020 | [Como o Exchange e o Microsoft Teams interagem](/MicrosoftTeams/exchange-teams-interact) | modificado |
-| 6/16/2020 | [Grupos do Microsoft 365 e o Microsoft Teams](/MicrosoftTeams/office-365-groups) | modificado |
-| 6/16/2020 | [Adotar o Microsoft Teams](/MicrosoftTeams/adopt-microsoft-teams-landing-page) | modificado |
-| 6/16/2020 | [Ferramentas e downloads para adoção](/MicrosoftTeams/adopt-tools-and-downloads) | modificado |
-| 6/16/2020 | [Coexistência com o Skype for Business](/MicrosoftTeams/coexistence-chat-calls-presence) | modificado |
-| 6/16/2020 | [Plano de Adoção de Usuários do Microsoft Teams \| Práticas Recomendadas](/MicrosoftTeams/continue-journey) | modificado |
-| 6/16/2020 | [Modelos para organizações de assistência médica](/MicrosoftTeams/expand-teams-across-your-org/healthcare/healthcare-templates) | modificado |
-| 6/16/2020 | [Mensagens seguras para organizações de assistência médica](/MicrosoftTeams/expand-teams-across-your-org/healthcare/messaging-policies-hc) | modificado |
-| 6/16/2020 | [Limites e especificações para o Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | modificado |
-| 6/16/2020 | [Gerenciar políticas de reunião](/MicrosoftTeams/meeting-policies-in-teams) | modificado |
-| 6/16/2020 | [Gerenciar políticas de mensagens no Teams](/MicrosoftTeams/messaging-policies-in-teams) | modificado |
-| 6/16/2020 | [Canais privados no Microsoft Teams](/MicrosoftTeams/private-channels) | modificado |
-| 6/16/2020 | [Saiba como configurar câmeras de conteúdo-Microsoft Teams](/MicrosoftTeams/rooms/content-camera) | modificado |
-| 6/16/2020 | [Implantar salas do Microsoft Teams com o Microsoft 365 ou o Office 365](/MicrosoftTeams/rooms/with-office-365) | modificado |
-| 6/16/2020 | [Modelos de equipe para empresas de pequeno e médio porte](/MicrosoftTeams/smb-templates) | modificado |
-| 6/16/2020 | [Notificações de prioridade em mensagens do Microsoft Teams](/MicrosoftTeams/teams-add-on-licensing/pri-message) | modificado |
-| 6/16/2020 | [Interoperabilidade entre o Skype for Business e o Microsoft Teams](/MicrosoftTeams/teams-and-skypeforbusiness-coexistence-and-interoperability) | modificado |
-| 6/16/2020 | [Visão geral de equipes e canais no Microsoft Teams](/MicrosoftTeams/teams-channels-overview) | modificado |
-| 6/16/2020 | [Central de contatos do teams](/MicrosoftTeams/teams-contact-center) | modificado |
-| 6/16/2020 | [Guia de Operações do Microsoft Teams](/MicrosoftTeams/1-drive-value-operate-my-service) | modificado |
-| 6/16/2020 | Suporte ao Microsoft Teams na sua empresa | removido |
-| 6/16/2020 | [Planejar as Salas do Microsoft Teams](/MicrosoftTeams/rooms/rooms-plan) | modificado |
-| 6/16/2020 | [Notas de versão](/MicrosoftTeams/rooms/rooms-release-note) | modificado |
-| 6/16/2020 | [Guia de Segurança do Microsoft Teams](/MicrosoftTeams/teams-security-guide) | modificado |
-| 6/16/2020 | [Operações do Microsoft Teams\| Serviço de gerenciamento \| Qualidade](/MicrosoftTeams/upgrade-operate-my-service) | modificado |
-| 6/17/2020 | [Bem-vindo ao Microsoft Teams](/MicrosoftTeams/teams-overview) | modificado |
-| 6/17/2020 | [Salas do Microsoft Teams](/MicrosoftTeams/rooms/index) | modificado |
-| 6/17/2020 | [Teams para Infraestrutura de Área de Trabalho Virtualizada](/MicrosoftTeams/teams-for-vdi) | modificado |
-| 6/17/2020 | [Comunique-se com usuários de outras organizações no Microsoft Teams](/MicrosoftTeams/communicate-with-users-from-other-organizations) | modificado |
-| 6/17/2020 | [Gerenciar a experiência do Microsoft Teams Exploratory](/MicrosoftTeams/teams-exploratory) | modificado |
-| 6/18/2020 | [Planejar o Roteamento Direto](/MicrosoftTeams/direct-routing-plan) | modificado |
-| 6/18/2020 | [Como é a experiência do convidado](/MicrosoftTeams/guest-experience) | modificado |
-| 6/18/2020 | [Canais privados no Microsoft Teams](/MicrosoftTeams/private-channels) | modificado |
-| 6/18/2020 | [Teams para Infraestrutura de Área de Trabalho Virtualizada](/MicrosoftTeams/teams-for-vdi) | modificado |
-| 6/18/2020 | [Introdução à gravação baseada em políticas de equipe para fazer chamadas & reuniões](/MicrosoftTeams/teams-recording-policy) | modificado |
-| 6/19/2020 | [Pesquisar o registro de auditoria de eventos no Teams](/MicrosoftTeams/audit-log-events) | modificado |
-| 6/19/2020 | [Telefones e dispositivos para Teams](/MicrosoftTeams/devices/teams-ip-phones) | modificado |
-| 6/19/2020 | [Teams para Infraestrutura de Área de Trabalho Virtualizada](/MicrosoftTeams/teams-for-vdi) | modificado |
-
-
 ## <a name="week-of-june-29-2020"></a>Semana de 29 de junho de 2020
 
 
@@ -303,3 +258,52 @@
 | 7/17/2020 | [Disponibilidade do Business Voice em países e regiões](/MicrosoftTeams/business-voice/country-region-availability) | modificado |
 | 7/17/2020 | [O que é o Microsoft 365 Business Voice?](/MicrosoftTeams/business-voice/whats-business-voice) | modificado |
 | 7/17/2020 | [Notas de versão do Microsoft Teams PowerShell](/MicrosoftTeams/teams-powershell-release-notes) | modificado |
+
+
+## <a name="week-of-july-20-2020"></a>Semana de 20 de julho de 2020
+
+
+| Publicado em |Título do tópico | Alteração |
+|------|------------|--------|
+| 7/21/2020 | [Adicionar o domínio SMTP do teams como um domínio de remetente permitido no Exchange Online](/MicrosoftTeams/smtp-accepted-domain) | modificado |
+| 7/21/2020 | Adoção de preparação do ambiente do Microsoft Teams \| \| , descoberta | removido |
+| 7/21/2020 | [Lista de verificação de acesso de convidados do Microsoft Teams](/MicrosoftTeams/guest-access-checklist) | modificado |
+| 7/21/2020 | [Gerenciar configurações de reunião](/MicrosoftTeams/meeting-settings-in-teams) | modificado |
+| 7/21/2020 | [Suporte de versão](/MicrosoftTeams/rooms/rooms-lifecycle-support) | modificado |
+| 7/21/2020 | [Gerenciar Salas do Microsoft Teams](/MicrosoftTeams/rooms/rooms-manage) | modificado |
+| 7/21/2020 | [Notas de versão](/MicrosoftTeams/rooms/rooms-release-note) | modificado |
+| 7/21/2020 | [Gerenciar remotamente as configurações de dispositivo de salas do Microsoft Teams](/MicrosoftTeams/rooms/xml-config-file) | modificado |
+| 7/21/2020 | [Relatório de uso PSTN do Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/pstn-usage-report) | modificado |
+| 7/21/2020 | [Use o Assistente do Teams (visualização pública) para ajudar a implantar o Microsoft Teams](/MicrosoftTeams/use-advisor-teams-roll-out) | modificado |
+| 7/21/2020 | [Adoção de preparação do ambiente do Microsoft Teams \| \| , descoberta](/MicrosoftTeams/environment-readiness) | adicionado |
+| 7/21/2020 | [Adoção de preparação do ambiente do Microsoft Teams \| \| , descoberta](/MicrosoftTeams/environment-readiness) | modificado |
+| 7/21/2020 | [Barreiras de informação no Microsoft Teams](/MicrosoftTeams/information-barriers-in-teams) | modificado |
+| 7/21/2020 | [Políticas de retenção no Microsoft Teams](/MicrosoftTeams/retention-policies) | modificado |
+| 7/21/2020 | [Gerenciar seus dispositivos no Microsoft Teams](/MicrosoftTeams/devices/device-management) | modificado |
+| 7/21/2020 | [Ativar ou desativar o acesso de convidados ao Microsoft Teams](/MicrosoftTeams/set-up-guests) | modificado |
+| 7/22/2020 | [Adicionar fundos e gerenciar Créditos de Comunicação](/MicrosoftTeams/add-funds-and-manage-communications-credits) | modificado |
+| 7/22/2020 | [Configurações de administração para aplicativos no Microsoft Teams](/MicrosoftTeams/admin-settings) | modificado |
+| 7/22/2020 | [Arquivar ou excluir uma equipe no Microsoft Teams](/MicrosoftTeams/archive-or-delete-a-team) | modificado |
+| 7/22/2020 | [Painel de integridade para roteamento direto](/MicrosoftTeams/direct-routing-health-dashboard) | modificado |
+| 7/22/2020 | [Obter números de telefone para seus usuários](/MicrosoftTeams/getting-phone-numbers-for-your-users) | modificado |
+| 7/22/2020 | [Lista de verificação de acesso de convidados do Microsoft Teams](/MicrosoftTeams/guest-access-checklist) | modificado |
+| 7/22/2020 | [Gerenciar pacotes de política no Microsoft Teams](/MicrosoftTeams/manage-policy-packages) | modificado |
+| 7/22/2020 | [Gerenciar equipes em transição para o novo centro de administração do teams](/MicrosoftTeams/manage-teams-skypeforbusiness-admin-center) | modificado |
+| 7/22/2020 | [Gerenciar configurações de reunião](/MicrosoftTeams/meeting-settings-in-teams) | modificado |
+| 7/22/2020 | [Políticas de retenção no Microsoft Teams](/MicrosoftTeams/retention-policies) | modificado |
+| 7/22/2020 | [Definir os números de telefone incluídos em convites](/MicrosoftTeams/set-the-phone-numbers-included-on-invites-in-teams) | modificado |
+| 7/22/2020 | [Relatório de atividades do usuário do Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/user-activity-report) | modificado |
+| 7/22/2020 | [Gerenciar a experiência do Microsoft Teams Exploratory](/MicrosoftTeams/teams-exploratory) | modificado |
+| 7/22/2020 | [Ativar ou desativar anúncios de entrada e de saída para reuniões no Microsoft Teams](/MicrosoftTeams/turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams) | modificado |
+| 7/22/2020 | [Usar funções de administrador do Microsoft Teams para gerenciar equipes](/MicrosoftTeams/using-admin-roles) | modificado |
+| 7/22/2020 | [Aplicativo faça talkie no Microsoft Teams](/MicrosoftTeams/walkie-talkie) | modificado |
+| 7/22/2020 | [Dados e relatórios no painel de qualidade de chamada (CQD)](/MicrosoftTeams/cqd-data-and-reports) | modificado |
+| 7/22/2020 | [Perguntas frequentes (FAQ) sobre o painel de qualidade de chamada (CQD)](/MicrosoftTeams/cqd-frequently-asked-questions) | modificado |
+| 7/22/2020 | [Dimensões e medições-painel de qualidade de chamada (CQD)](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | modificado |
+| 7/22/2020 | [Definir configurações de rede-roteamento baseado em local](/MicrosoftTeams/location-based-routing-configure-network-settings) | modificado |
+| 7/22/2020 | [Habilitar o Roteamento baseado na localização para o Roteamento direto](/MicrosoftTeams/location-based-routing-enable) | modificado |
+| 7/22/2020 | [Planejar o Roteamento baseado na localização para o Roteamento direto](/MicrosoftTeams/location-based-routing-plan) | modificado |
+| 7/23/2020 | [Notas de versão](/MicrosoftTeams/rooms/rooms-release-note) | modificado |
+| 7/23/2020 | [Disponibilidade em Bahrein](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bahrain) | modificado |
+| 7/24/2020 | [Permissões e considerações dos aplicativos Microsoft Teams](/MicrosoftTeams/app-permissions) | modificado |
+| 7/24/2020 | [Consentimento específico do recurso no Microsoft Teams](/MicrosoftTeams/resource-specific-consent) | modificado |
