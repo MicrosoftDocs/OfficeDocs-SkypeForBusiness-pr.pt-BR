@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ab278fe1bb53d46e8ee3b805ec46a344c19398e4
-ms.sourcegitcommit: 92a1158a4ade08d7168691b7f8b44a33df090afb
+ms.openlocfilehash: c31a368c33c1e88cb97a67fb7fd2001e0168bf73
+ms.sourcegitcommit: ded1e92348b6c18aa31f7f67e68ced3db525977d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "45146067"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "46506124"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Limites e especificações para o Microsoft Teams
 
@@ -108,6 +108,9 @@ Os nomes de canal não podem conter os seguintes caracteres ou palavras.
 Os nomes de canal também não podem começar com um caractere de sublinhado (_), ponto final (.) ou terminar com um ponto final (.).
 
 ## <a name="meetings-and-calls"></a>Reuniões e chamadas
+
+> [!IMPORTANT]
+> Em abril, [anunciamos](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/what-s-new-in-microsoft-teams-april-2020/ba-p/1347929) que os aumentos de limite padrão temporário seriam habilitados para o Microsoft 365 Live Events para ajudá-los a dar suporte melhor aos clientes até o dia 1 de julho. Para continuar atendendo às necessidades dos clientes, estenderemos os limites padrão temporários até o dia 1 de outubro de 2020. Os eventos dinâmicos hospedados no Teams, no Stream e no Yammer continuarão a dar suporte temporário a eventos para até 20.000 participantes, 16 horas de duração e 50 eventos que ocorram simultaneamente. Além disso, os clientes podem hospedar um evento ao vivo no Stream para até 100.000 participantes quando planejado pelo [programa de assistência Microsoft Live Events](https://resources.techcommunity.microsoft.com/live-events/assistance/).
 
 |Recurso     | Limite máximo |
 |------------|---------------|

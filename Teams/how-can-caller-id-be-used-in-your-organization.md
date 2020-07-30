@@ -22,18 +22,22 @@ ms.custom:
 - Calling Plans
 - ms.teamsadmincenter.voice.callerid.overview
 description: A identificação de chamadas pode ser controlada para chamadas de entrada e de saída para usuários do sistema telefônico usando uma política chamada CallingLineIdentity.
-ms.openlocfilehash: 67bb9d13d9cdece2793837044e280927e03c5795
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 5c20f439d156997c89ca54c2a3bf39e9c3a42ae4
+ms.sourcegitcommit: ded1e92348b6c18aa31f7f67e68ced3db525977d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44638891"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "46506192"
 ---
 # <a name="how-can-caller-id-be-used-in-your-organization"></a>Como a identificação de chamadas pode ser usada em sua organização
 
 A identificação de chamadas pode ser controlada para chamadas de entrada e de saída para usuários do sistema telefônico usando uma política chamada CallingLineIdentity.
   
 A funcionalidade de identificação de chamadas está disponível para todos os usuários do sistema telefônico independentemente da conectividade PSTN:
+
+- Planos de chamada da Microsoft 
+
+- Roteamento Direto do Sistema de Telefonia 
   
 - Conectividade PSTN Online
     
@@ -50,7 +54,7 @@ Há três opções disponíveis para a identificação de chamadas PSTN de saíd
   
 - O número de telefone atribuído ao usuário, que é o padrão.
     
-- Um número de telefone classificado como um *serviço* e um número de *chamada gratuita* em seu plano de número de telefone de planos de chamadas. Ele geralmente é atribuído a um atendedor automático da organização ou à fila de chamadas.
+- Um número de telefone classificado como um *serviço* e um número de *chamada gratuita* em seu plano de número de telefone de planos de chamadas. Geralmente é atribuído a um atendente automático da organização ou a uma fila de chamadas.
     
 - Definido como anônimo.
     
@@ -64,7 +68,7 @@ Para definir a identificação de chamada de saída, consulte [Definir a identif
   
 ### <a name="end-user-control-of-outbound-caller-id"></a>Controle do usuário final da identificação de chamadas de saída
 
-O atributo EnableUserOverride permite que um ou vários usuários alterem a configuração de identificação de chamadas para **anônima**. Isso só se aplica quando uma política CallingLineIdentity é configurada com um parâmetro CallingIDSubstitute de LineURI ou substituto. O valor padrão de EnableUserOverride é false.
+O atributo EnableUserOverride permite que um ou vários usuários alterem a configuração de identificação de chamadas para **anônima**. Isso é aplicável apenas quando uma política CallingLineIdentity é configurada com um parâmetro CallingIDSubstitute da LineURI ou Substitute. O valor padrão do EnableUserOverride é False.
   
 Seus usuários finais podem definir a identificação de chamadas como **anônimas** usando a guia **configurações** no cliente da área de trabalho do Skype for Business, selecione **chamadas para um usuário final** (se habilitada por administrador) e selecione **ocultar meu número de telefone e informações de perfil para todas as chamadas**. No Teams, os usuários podem acessar a imagem do perfil no canto superior direito, selecionar **configurações**  >  de**chamadas**e, em seguida, em **identificação de chamadas**, selecionar **ocultar meu número de telefone e informações de perfil para todas as chamadas**.
   

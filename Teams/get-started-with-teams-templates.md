@@ -1,5 +1,5 @@
 ---
-title: Introdução aos modelos do Teams
+title: Introdução aos modelos do Microsoft Teams usando o Microsoft Graph
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -11,7 +11,7 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-description: Saiba como usar modelos de equipe para criar espaços de colaboração com canais para diferentes tópicos e aplicativos pré-instalação para fornecer conteúdo e serviços.
+description: Saiba como usar modelos do teams no Microsoft Graph para criar espaços de colaboração com canais para diferentes tópicos e aplicativos pré-instalação para fornecer conteúdo e serviços.
 f1.keywords:
 - CSH
 ms.custom:
@@ -19,22 +19,22 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e4cdf8d489025110b47a98402a344e025b256012
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 18459b8350326d1af50fa8da4046b8987dd336dd
+ms.sourcegitcommit: ded1e92348b6c18aa31f7f67e68ced3db525977d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904616"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "46506175"
 ---
-# <a name="get-started-with-teams-templates"></a>Introdução aos modelos do Teams
+# <a name="get-started-with-teams-templates-using-microsoft-graph"></a>Introdução aos modelos do Microsoft Teams usando o Microsoft Graph
 
 > [!NOTE]
-> Atualmente, os modelos de equipe não dão suporte à criação de canais particulares. A criação do canal privado não está incluída nas definições do modelo. 
+> Atualmente, os modelos de equipe não dão suporte à criação de canais particulares. A criação do canal privado não está incluída nas definições do modelo.
 
-Os modelos de equipe são definições predefinidas da estrutura de uma equipe projetada em torno de uma necessidade ou projeto comercial. Você pode usar modelos de equipe para criar rapidamente espaços de colaboração avançados com canais para diferentes tópicos e aplicativos pré-instalar para extrair conteúdo e serviços de missão crítica. Os modelos de equipe fornecem uma estrutura de equipe predefinida que pode ajudá-lo a criar facilmente equipes consistentes em toda a sua organização. 
+Os modelos de equipe são definições predefinidas da estrutura de uma equipe projetada em torno de uma necessidade ou projeto comercial. Você não pode criar seu próprio modelo. Em vez disso, use os modelos predefinidos usando o Microsoft Graph. Você pode usar modelos de equipe para criar rapidamente espaços de colaboração avançados com canais para diferentes tópicos e aplicativos pré-instalar para extrair conteúdo e serviços de missão crítica. Os modelos de equipe fornecem uma estrutura de equipe predefinida que pode ajudá-lo a criar facilmente equipes consistentes em toda a sua organização.
 
 Neste artigo, explicaremos as propriedades que podem ser definidas nos modelos, quais tipos de modelo básico são e como você pode usar algumas solicitações de exemplo para criar uma equipe a partir de um modelo.
- 
+
 Este artigo é para você, se estiver:
 
 - Responsável por planejar, implantar e gerenciar várias equipes em toda a organização<br>
@@ -58,9 +58,9 @@ A maioria das propriedades em uma equipe é incluída e suportada pelos modelos.
 > [!NOTE]
 > Adicionaremos mais recursos de modelo em versões futuras do Microsoft Teams, portanto verifique as informações mais atualizadas sobre as propriedades com suporte.
 
-## <a name="what-are-base-template-types"></a>O que são tipos de modelo base?
+## <a name="what-are-base-template-types"></a>O que são tipos de modelo base
 
-Tipos de modelo básico são modelos especiais criados pela Microsoft para indústrias específicas. Esses modelos básicos geralmente contêm aplicativos proprietários que não estão disponíveis nas propriedades da loja e da equipe que ainda não são suportadas individualmente nos modelos do teams.
+Tipos de modelo básico são modelos especiais criados pela Microsoft para indústrias específicas. Esses modelos básicos geralmente contêm aplicativos proprietários que não estão disponíveis nas propriedades da loja e da equipe que ainda não são suportadas individualmente nos modelos do teams. Saiba como usar os [modelos de equipe no console de administração](get-started-with-teams-templates.md).
 
 Depois que um tipo de modelo base é definido, você pode estender ou substituir esses modelos especiais por propriedades adicionais que gostaria de especificar. Mas alguns tipos de modelo básico contêm propriedades que não podem ser substituídas.
 
