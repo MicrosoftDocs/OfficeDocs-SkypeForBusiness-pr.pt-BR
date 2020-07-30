@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 3e8b8e8605b5e4f916389109cb611996aa90a895
-ms.sourcegitcommit: 34a30c2c9a8e32bfcb382c3e6e7237f277ec361d
+ms.openlocfilehash: e85ef79247bdf35c3c116504af23728a0d268ca5
+ms.sourcegitcommit: 682566e51a9e5f0fc65540535c7dcdcbd38e04c4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45206758"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45429323"
 ---
 # <a name="recommended-methods-and-best-practices-for-creating-class-teams"></a>Métodos e práticas recomendadas para a criação de equipes de classe
 
@@ -60,17 +60,17 @@ A automação da criação de equipe poupa o tempo dos administradores de TI e d
 
 ### <a name="considerations"></a>Considerações
 
-O SDS cria equipes em duas etapas. A primeira etapa cria um grupo Microsoft 365 no Azure Active Directory (Azure AD) e a segunda etapa automaticamente transforma esse grupo em uma equipe. A segunda etapa da criação de equipes é opcional no SDS. Um administrador pode não desejar criar equipes automaticamente dependendo do tempo de implantação e o número de equipes não usadas que possam resultar. Recomendamos que as instituições com 500.000 ou mais equipes desabilitem o recurso de criação automática de equipe no SDS e usem o [ método de criação da equipe ministrada pelo professor](#teacher-led-team-creation-from-office-365-class-groups).  
+O SDS cria equipes em duas etapas. A primeira etapa cria um grupo Microsoft 365 no Azure Active Directory (Azure AD) e a segunda etapa automaticamente transforma esse grupo em uma equipe. A segunda etapa da criação de equipes é opcional no SDS. Um administrador pode não desejar criar equipes automaticamente dependendo do tempo de implantação e o número de equipes não usadas que possam resultar. Recomendamos que as instituições com 500.000 ou mais equipes desabilitem o recurso de criação automática de equipe no SDS e usem o [método de criação de equipe liderada por educadores](#educator-led-team-creation-from-office-365-class-groups).  
 
 ### <a name="get-started"></a>Introdução
 
 Para começar, acesse [School Data Sync (SDS)](https://docs.microsoft.com/SchoolDataSync) e contate [https://aka.ms/sdssupport](https://aka.ms/sdssupport) assistência de implantação.  
 
-## <a name="teacher-led-team-creation-from-office-365-class-groups"></a>Criação da equipe ministrada por professores dos grupos de classe do Office 365
+## <a name="educator-led-team-creation-from-office-365-class-groups"></a>Criação de equipe liderada por educadores dos grupos de classe do Office 365
 
 **Esse recurso será lançado em breve, em meados de agosto de 2020.**
 
-A criação da equipe ministrada por professores é uma ótima opção de implantação se você quiser que os professores possam facilmente criar as classes de que precisam. Também recomendamos que as instituições com mais de 500.000 equipes usem esse método para minimizar o número de equipes criadas despropositadamente.   
+A criação da equipe liderada por educadores é uma ótima opção de implantação se você quiser que os educadores possam facilmente criar as classes de que precisam. Também recomendamos que as instituições com mais de 500.000 equipes usem esse método para minimizar o número de equipes criadas despropositadamente.   
 
 Essa abordagem híbrida permite que você use o SDS para criar grupos para cada classe (recomendado) ou use a [API do Graph](https://docs.microsoft.com/graph/api/educationroot-post-classes) para criá-las por conta própria. Depois que os grupos de classe estiverem preparados, os educadores poderão converter os grupos em equipes usando o ícone **Classes sugeridas**.
 
@@ -108,7 +108,7 @@ Para começar a usar o método SDS, acesse [ School Data Sync (SDS)](https://doc
 Para usar o método de API do Graph, confira [API do Graph](https://docs.microsoft.com/graph/api/educationroot-post-classes?view=graph-rest-1.0&tabs=http) e [Criar uma equipe de classe](https://docs.microsoft.com/graph/api/educationroot-post-classes?view=graph-rest-beta&tabs=http).  
 
 > [!NOTE]
-> Para usar esse método com o SDS, você precisará ativar o recurso de criação automática da equipe em seu perfil SDS. Você também pode usar uma combinação de criação automática e de criação de equipe ministrada por professores para equipes de classe necessárias e opcionais usando dois perfis SDS.
+> Para usar esse método com o SDS, você precisará ativar o recurso de criação automática da equipe em seu perfil SDS. Você também pode usar uma combinação de criação automática e de criação de equipe liderada por educadores para as equipes de classe necessárias e opcionais usando dois perfis SDS.
 
 ## <a name="powershell-script-using-graph-apis"></a>Script do PowerShell usando APIs do Graph
 
@@ -147,6 +147,6 @@ Estudantes e professores aproveitarão ao máximo o Teams ao usá-lo com barreir
 ## <a name="recommended-best-practices"></a>Práticas recomendadas
 
 - Implantação antecipada! Implante antecipadamente para garantir que tudo esteja funcionando de maneira confiável e pronta para o primeiro dia de escola. Se você estiver usando o SDS, não precisará da participação completa do aluno para iniciar a implantação SDS. Ele sincronizará os alunos quando essas informações estiverem disponíveis no SIS.
-- Se você tiver mais de 500.000 equipes, recomendamos usar o [método de criação da equipe ministrada pelo professor](#teacher-led-team-creation-from-office-365-class-groups). Isso reduz as equipes não usadas e a desordem, criando apenas equipes de classe relevantes e necessárias.  
-- Caso haja algum problema (por exemplo, as classes não estiverem presentes) com a criação automática de equipe e os professores precisarem delas imediatamente, eles poderão usar o [método de criação de equipe ministrada por professor](#teacher-led-team-creation-from-office-365-class-groups) para tentar novamente. [A criação manual de equipe](#manual-team-creation) é outra solução, no entanto, não mantém a participação da equipe atualizada.  
+- Se você tiver mais de 500.000 equipes, recomendamos usar o [método de criação da equipe liderada por educadores](#educator-led-team-creation-from-office-365-class-groups). Isso reduz as equipes não usadas e a desordem, criando apenas equipes de classe relevantes e necessárias.  
+- Caso haja algum problema (como por exemplo, as classes não estiverem presentes) com a criação automática SDS de equipe e os professores precisarem delas imediatamente, eles poderão usar o [método de criação de equipe liderada por educadores](#educator-led-team-creation-from-office-365-class-groups) para tentar novamente. [A criação manual de equipe](#manual-team-creation) é outra solução, no entanto, não mantém a participação da equipe atualizada.  
 - O limite da equipe de locatários é de 500.000 equipes. Portanto, os administradores devem tentar reduzir proativamente o número de equipes não utilizadas para evitar o seu tempo de configuração. Para saber mais sobre os limites, confira [Limites e especificações para o Microsoft Teams](limits-specifications-teams.md).  
