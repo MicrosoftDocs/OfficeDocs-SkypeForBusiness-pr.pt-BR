@@ -6,7 +6,7 @@
 
 # [Oferecer suporte a trabalhadores remotos (WFH)](support-remote-work-with-teams.md)
 
-# Treinamento 
+# Treinamento
 ## [Visão geral](training-microsoft-teams-landing-page.md)
 ## [Treinamento do Teams com instrutor](instructor-led-training-teams-landing-page.md)
 ## [Treinamento para o administrador do Teams](itadmin-readiness.md)
@@ -50,7 +50,7 @@
 ## [Expiração e renovação da equipe](team-expiration-renewal.md)
 ## [Arquivar ou excluir uma equipe](archive-or-delete-a-team.md)
 ## [Migrar do Slack para o Teams](migrate-slack-to-teams.md)
-## [Modelos do Teams para pequenas e médias empresas](smb-templates.md)
+## [Modelos do Teams com gráfico integrado para pequenas e médias empresas](smb-templates.md)
 
 
 
@@ -648,8 +648,8 @@
 <!-- ============================================================ -->
 
 # Diretrizes governamentais e de indústrias
-## [Visão geral](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md)
-## [Introdução aos modelos do Teams](get-started-with-teams-templates.md)
+## [Visão Geral](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md)
+## [Introdução aos modelos do Teams utilizando o Microsoft Graph](get-started-with-teams-templates.md)
 ## [Aplicativo Marcações e visitas virtuais](bookings-app-admin.md)
 ## [Turnos do Teams](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
 ### [O Microsoft StaffHub foi desativado](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
