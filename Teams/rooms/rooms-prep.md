@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Saiba como preparar sua infraestrutura para a implantação de salas do Microsoft Teams para que você possa aproveitar todos os recursos.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a8252151dcad1c8e483394c6268d445376f25973
-ms.sourcegitcommit: 2cc36c954200f50de33b909856b33fe0a9a6b7a5
+ms.openlocfilehash: d565cd500f22f86c19e38b531511eb25a5e1227a
+ms.sourcegitcommit: c573b0be535fcf927ae01d60a7eb8fbf1aec271d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45125954"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46526697"
 ---
 # <a name="prepare-your-environment"></a>Preparar seu ambiente
 
@@ -39,7 +39,7 @@ Esta seção contém uma visão geral das etapas necessárias para preparar seu 
      > [!IMPORTANT]
      > As salas do Microsoft Teams não dão suporte à autenticação de proxy porque elas podem interferir nas operações regulares da sala. Verifique se as salas do Microsoft Teams foram isentadas da autenticação de proxy antes de entrar em produção.
   
-3. Para aprimorar sua experiência, a Microsoft coleta dados. Para permitir que a Microsoft colete dados, acesse os sites da lista branca:
+3. Para aprimorar sua experiência, a Microsoft coleta dados. Para permitir que a Microsoft colete dados, permita listar estes sites:
 
    - Ponto de extremidade do cliente de telemetria:https://vortex.data.microsoft.com/
    - Ponto de extremidade das configurações de telemetria:https://settings.data.microsoft.com/

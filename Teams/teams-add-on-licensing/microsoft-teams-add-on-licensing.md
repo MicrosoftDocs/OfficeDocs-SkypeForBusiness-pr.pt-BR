@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Saiba mais sobre as licenças de complemento do Microsoft Teams e os recursos que você obtém com cada licença.
-ms.openlocfilehash: 307dad7dbf8ca19bdeb10fa18b2cbd18a2273f74
-ms.sourcegitcommit: ad82786076cc965e75b1ec5ffd4bc9bf75437340
+ms.openlocfilehash: 3e6ab7572c04151c76a99faedd328ac32c457811
+ms.sourcegitcommit: 824c79bd050b0abb576004f6209bb081d5090a8f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45028177"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "46522458"
 ---
 # <a name="microsoft-teams-add-on-licenses"></a>Licenças de Complementos do Microsoft Teams
 
@@ -41,7 +41,7 @@ Aqui está uma lista de recursos que você pode adicionar com as licenças de Co
 |:-----|:-----|:-----|:-----|
 |**Recurso** <br/> |**Descrição** <br/> |**Small Business (usuários do <300)**|**Empresa de grande porte (usuários do >300)**|
 **Microsoft 365 Business Voice** <br/> | [Business Voice](../business-voice/whats-business-voice.md) é uma solução de telefonia projetada para empresas de pequeno e médio porte de até 300 usuários que agrupam o sistema telefônico, videoconferência, um plano de chamadas domésticas e muito mais. Os recursos do sistema telefônico que você receberão incluem correio de voz, identificação de chamadas, estacionamento de chamadas, encaminhamento de chamadas, atendedores automáticos e filas de chamadas. <br> Para descobrir se a Business Voice está disponível no seu país ou região, consulte [disponibilidade de país e região para Business Voice](../business-voice/country-region-availability.md). Para obter informações sobre preços, consulte [preços para Business Voice](https://go.microsoft.com/fwlink/?linkid=2127221). <br/> |&#x2713;||
-|**Audioconferência** <br/> |Às vezes, as pessoas em sua organização precisarão usar um telefone para ligar para uma reunião do teams em seu computador. Configurar a [conferência de áudio](../audio-conferencing-in-office-365.md) para usuários que agendam ou lideram reuniões. <br/> Para descobrir se a Audioconferência está disponível em seu país ou região, consulte [Disponibilidade de Audioconferência e Planos de Chamadas por país e região](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). Para informações de preços, consulte [Preços de Audioconferência](https://go.microsoft.com/fwlink/?linkid=799762).  <br/> |&#x2713;<sup>1</sup>|&#x2713;|
+|**Audioconferência** <br/> |Às vezes, as pessoas em sua organização precisarão usar um telefone para ligar para uma reunião do teams em seu computador. Configurar a [conferência de áudio](../audio-conferencing-in-office-365.md) para usuários que agendam ou lideram reuniões. <br/> Para descobrir se a Audioconferência está disponível em seu país ou região, consulte [Disponibilidade de Audioconferência e Planos de Chamadas por país e região](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). Para informações de preços, consulte [Preços de Audioconferência](https://go.microsoft.com/fwlink/?linkid=799762).  <br/> |&#x2713;|&#x2713;|
 |**Números de chamada gratuita** |Se você quiser números de chamada gratuita para videoconferência, atendedores automáticos ou filas de chamadas, você deve [Configurar créditos de comunicações](../set-up-communications-credits-for-your-organization.md). <br/> |&#x2713;|&#x2713;|
 |**Sistema de Telefonia** <br/> |O [sistema telefônico](../what-is-phone-system-in-office-365.md) é um serviço de telefonia hospedado que oferece recursos de controle de chamada e PBX (Private Branch Exchange), com opções para conexão à rede telefônica pública comutada (PSTN). Os recursos do sistema telefônico incluem correio de voz em nuvem, identificação de chamadas, estacionamento de chamadas, encaminhamento de chamadas, atendedores automáticos, filas de chamadas, transferência de chamadas, identificação de chamadas e muito mais. <br>Para saber mais, veja [aqui o que você obtém com o sistema telefônico](../here-s-what-you-get-with-phone-system.md). Para obter informações sobre preços, consulte [preços do sistema telefônico](https://go.microsoft.com/fwlink/?linkid=799763).  <br/> |&#x2713;<sup>1</sup>|&#x2713;|
 |**Planos de Chamadas** <br/> |Se você quiser que os usuários possam fazer chamadas para números de telefone fora de sua organização, adquira um [plano de chamadas](../calling-plans-for-office-365.md). Há planos de chamadas domésticas e planos de chamadas domésticas e internacionais. Para obter informações sobre preços, consulte [preços para planos de chamada](https://go.microsoft.com/fwlink/?linkid=799761 ).  <br/> |&#x2713;<sup>1</sup>|&#x2713;|

@@ -16,16 +16,16 @@ localization_priority: Normal
 search.appverid: MET150
 description: Saiba mais sobre as salas do Microsoft Teams Premium.
 f1keywords: ''
-ms.openlocfilehash: 01486e66f13af34fb14264c3a14dc414e0d5eb4f
-ms.sourcegitcommit: bdf6cea0face74809ad3b8b935bc14ad60b3bb35
+ms.openlocfilehash: 3caaf978e3d848eb2a06b82bc91acfc8d539ca45
+ms.sourcegitcommit: 824c79bd050b0abb576004f6209bb081d5090a8f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45201265"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "46521976"
 ---
 # <a name="microsoft-teams-rooms-premium"></a>Salas do Microsoft Teams Premium
 
-As salas do Microsoft Teams Premium é um serviço de monitoramento e gerenciamento de ti baseado em nuvem que mantém os dispositivos de salas do Microsoft Teams e seus periféricos atualizados e monitorados proativamente, oferecendo suporte a um ambiente otimizado para uma excelente experiência do usuário.
+As salas do Microsoft Teams Premium incluem um serviço de monitoramento e gerenciamento de ti baseado em nuvem que mantém os dispositivos de salas do Microsoft Teams e seus periféricos atualizados e monitorados proativamente, oferecendo suporte a um ambiente otimizado para uma excelente experiência do usuário.
 
 As salas do Microsoft Teams Premium são para as organizações que desejam melhorar a experiência da sala de reunião e dimensionar rapidamente a superfície ao oferecer gerenciamento proativo para dispositivos de salas do Microsoft Teams. O serviço permite que as organizações Economizem tempo, dinheiro e experiência que, de outra forma, seriam gastos no gerenciamento de sala "faça você mesmo".  
 
@@ -62,8 +62,6 @@ Aqui está um resumo dos recursos importantes que o serviço Premium de salas do
 |**Ideias e recomendações**   |Relatórios de uso, incidentes, integridade e geral (exibições históricas)         |
 
 ## <a name="service-prerequisites"></a>Pré-requisitos do serviço
-
-O serviço Premium de salas do Microsoft Teams é uma licença de complemento por sala. As salas do Microsoft Teams exigem um usuário separado ou uma licença da sala do Microsoft Teams.
 
 Para as salas do Microsoft Teams Premium para manter a qualidade do serviço, as salas registradas devem ser [dispositivos compatíveis com as salas do Microsoft Teams](requirements.md#hardware-requirements), e você deve preparar seu ambiente com todas as [URLs e intervalos de endereços IP do Office 365](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges?redirectSourcePath=%252fen-us%252farticle%252fOffice-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2) totalmente permitidos e acessíveis por dispositivos de sala de reunião. Para saber mais, consulte [preparar seu ambiente](rooms-prep.md) na documentação de salas do Microsoft Teams.
 
