@@ -53,7 +53,6 @@
 ## [Modelos do Teams com gráfico integrado para pequenas e médias empresas](smb-templates.md)
 
 
-
 ## Aplicativos, bots e conectores
 
 ### [Visão geral](deploy-apps-microsoft-teams-landing-page.md)
