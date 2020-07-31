@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c31a368c33c1e88cb97a67fb7fd2001e0168bf73
-ms.sourcegitcommit: ded1e92348b6c18aa31f7f67e68ced3db525977d
+ms.openlocfilehash: 178dc23403a637e15bb8c01b18e03fb5c86477dc
+ms.sourcegitcommit: 824c79bd050b0abb576004f6209bb081d5090a8f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "46506124"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "46522338"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Limites e especificações para o Microsoft Teams
 
@@ -114,6 +114,7 @@ Os nomes de canal também não podem começar com um caractere de sublinhado (_)
 
 |Recurso     | Limite máximo |
 |------------|---------------|
+|Número de pessoas em uma reunião (podem conversar e telefonar)  |300. <br><br>**Observação:** Para o Teams Governamental (GCC, GCC Alta, DoD), o limite ainda é 250. Atualizaremos este artigo quando o limite de nuvem governamental aumentar de 250 para 300 e der suporte a transportadores de reunião.   |
 |Número de pessoas em uma reunião (podem conversar e telefonar)  | 300 |
 |O número de pessoas em uma chamada de áudio ou vídeo do chat | 20 |
 |Tamanho máximo do arquivo do PowerPoint | 2GB|
@@ -130,7 +131,7 @@ Os nomes de canal também não podem começar com um caractere de sublinhado (_)
 |Recorrente com hora de término     |Hora de término da última ocorrência + 60 dias         |60 dias         |
 
 > [!NOTE]
-> As reuniões do Microsoft Teams têm um limite de tempo de 24 horas. 
+> As reuniões do Microsoft Teams têm um limite de tempo de 24 horas.
 
 ## <a name="teams-live-events"></a>Eventos ao vivo do Teams
 
@@ -146,13 +147,12 @@ Para saber mais sobre eventos ao vivo e uma comparação dos eventos ao vivo do 
 
 > [!IMPORTANT]
 > **O limite de eventos ao vivo do Microsoft 365 cresce**
-> 
+>
 > Para ajudar os clientes a atender às necessidades de comunicação que mudam rapidamente, os eventos ao vivo do Microsoft 365 aumentarão temporariamente os limites padrão até 1º de outubro de 2020, para eventos ao vivo hospedados no Teams. Os seguintes aumentos foram lançados:
+>
 > - Limite de participantes: os eventos podem dar suporte a no máximo 20.000 participantes
 > - Eventos simultâneos: 50 eventos podem ser hospedados simultaneamente em um locatário
 > - Duração do evento: a duração do evento aumentou para 16 horas por transmissão
-
-
 
 ## <a name="presence-in-outlook"></a>Presença no Outlook
 
