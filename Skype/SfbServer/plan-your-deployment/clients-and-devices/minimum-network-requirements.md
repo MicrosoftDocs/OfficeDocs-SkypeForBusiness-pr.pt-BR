@@ -17,18 +17,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d9666787-e72b-41e1-ba37-aec5fb849a10
 description: 'Resumo: informações para organizações que não usam o Microsoft 365 ou o Office 365 e precisam acessar reuniões hospedadas por organizações que fazem isso.'
-ms.openlocfilehash: 656f8fa52f4a1080cca0b8464becf77c8c2a0ef0
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: bcb8cfa74067ec6aa3e895f757c71d075888f447
+ms.sourcegitcommit: bf6521f0bc91a55dcf849506bb757ebfae54fcb1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44219721"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46529184"
 ---
 # <a name="skype-meetings-app-minimum-network-requirements"></a>Requisitos mínimos de rede do Aplicativo Skype Meetings
  
 **Resumo:**  Informações para organizações que não usam o Microsoft 365 ou o Office 365 e precisam acessar reuniões hospedadas por organizações que fazem. Este artigo não se destina aos usuários desses aplicativos.
   
-Para permitir que os usuários usem o aplicativo reuniões do Skype para participar de reuniões hospedados no Skype for Business Online, os administradores de rede de organizações que não usam o Microsoft 365 ou o Office 365 devem ter a lista branca ou disponibilizar os FQDNs, IPs e portas mencionados abaixo.
+Para permitir que os usuários usem o aplicativo reuniões do Skype para participar de reuniões hospedados no Skype for Business Online, os administradores de rede de organizações que não usam o Microsoft 365 ou o Office 365 devem permitir ou disponibilizar os FQDNs, IPs e portas mencionados abaixo.
 
 ## <a name="requirements-for-skype-meetings-app-connectivity"></a>Requisitos para conectividade do aplicativo de reuniões do Skype
 

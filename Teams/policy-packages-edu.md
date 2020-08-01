@@ -21,12 +21,12 @@ ms.custom: ms.teamsadmincenter.policypackages.overview
 localization_priority: Priority
 search.appverid: MET150
 description: Saiba mais sobre políticas em uma configuração EDU ou educacional e como usar e gerenciar pacotes de políticas no Microsoft Teams.
-ms.openlocfilehash: fcc6a5d22d5e499cf698e424148ff37cd3ee054e
-ms.sourcegitcommit: 4099da7b1db7663e63ef5bece16e3090c33ea207
+ms.openlocfilehash: b395005dd8e997d296c56b055fff29f2c1636180
+ms.sourcegitcommit: dc3e8ae454c42981f037f4de2e48005428b6078e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45021879"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "46533898"
 ---
 # <a name="teams-policies-and-policy-packages-for-education"></a>Políticas do Teams e Pacotes de Políticas para Educação
 
@@ -100,7 +100,7 @@ Depois que sua definição de política for criada ou atualizada, você poderá 
 Você também pode atribuir uma política a um usuário, navegando até Usuários, selecionando o usuário para o qual deseja atualizar as políticas, selecionando Políticas e, em seguida, Editar. A partir daí, você pode selecionar a definição de política que deseja usar para atribuir ao usuário para cada área de recursos.
 
 > [!IMPORTANT]
-> Se você faz parte de uma grande instituição educacional, pode ser difícil usar a experiência do portal de administração do Microsoft Teams para definir políticas para cada usuário. Será melhor para você atribuir políticas em lotes por meio do PowerShell. Temos algumas informações específicas da EDU sobre como [Atribuir políticas a grandes conjuntos de usuários em sua instituição educacional](batch-policy-assignment-edu.md), se necessário, e você também pode verificar a seção abaixo sobre pacotes de políticas, que são outra ótima maneira de gerenciar políticas e configurações para grandes grupos de usuários.
+> Se você faz parte de uma grande instituição educacional, pode ser difícil usar a experiência do portal de administração do Microsoft Teams para definir políticas para cada usuário. Será melhor para você atribuir políticas em lotes por meio do PowerShell. Temos algumas informações específicas da EDU sobre como [Atribuir políticas a grandes conjuntos de usuários em sua instituição educacional](batch-group-policy-assignment-edu.md), se necessário, e você também pode verificar a seção abaixo sobre pacotes de políticas, que são outra ótima maneira de gerenciar políticas e configurações para grandes grupos de usuários.
 
 ![Edite o painel de políticas do usuário, no lado direito da página Políticas atribuídas.](media/edu-edit-user-policies-pane.png)
 

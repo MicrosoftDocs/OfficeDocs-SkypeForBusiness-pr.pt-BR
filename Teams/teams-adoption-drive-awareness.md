@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d0744c78062b2ecd507cc16658819ba101930597
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: e091e63b47dd33e848be9fc77f6f630174564c95
+ms.sourcegitcommit: dc3e8ae454c42981f037f4de2e48005428b6078e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665963"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "46533848"
 ---
 # <a name="drive-awareness-and-implement-training-for-microsoft-teams"></a>Promover a conscientização e implementar o treinamento do Microsoft Teams
 
@@ -51,7 +51,7 @@ Se a sua empresa tiver um portal de intranet central para notícias, informaçõ
 
 Use nossos recursos para fornecer treinamento de usuário final à medida que as pessoas começarem a usar o Microsoft Teams e outros serviços do Microsoft 365 ou do Office 365. Acesse nossas páginas de recursos para saber mais:
 
-- [Treinamento do usuário final do instrutor ministrado por instrutor para equipes](instructor-led-training-teams-landing-page.md)
+- [Treinamento do usuário final do instrutor ministrado por instrutor para equipes](instructor-led-training-teams-landing-page.yml)
 - [Treinamento do administrador para Teams](itadmin-readiness.md)
 - [Treinamento em vídeo do usuário final online](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
 - [Café no treinamento online da nuvem para campeões & profissionais de ti](https://aka.ms/CoffeeintheCloud) 

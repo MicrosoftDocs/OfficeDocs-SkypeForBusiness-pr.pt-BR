@@ -16,12 +16,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Lista os planos de ensino e os planos de licenciamento e IDs de SKU do aluno.
 f1keywords: ''
-ms.openlocfilehash: 5f382be6aa19cbfef45bc0dcef350e5354df118a
-ms.sourcegitcommit: 862ba1d2b3bd4622b1b0baa15096c29c591cc6c4
+ms.openlocfilehash: 921ea3313709fc16b415915b444e416527076251
+ms.sourcegitcommit: dc3e8ae454c42981f037f4de2e48005428b6078e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "44702696"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "46533888"
 ---
 # <a name="education-sku-reference"></a>Referência de SKU do Education
 
@@ -71,4 +71,4 @@ Este artigo lista os faculdades educacionais e os planos de licenciamento dos al
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-- [Atribuir políticas a grandes conjuntos de usuários na sua escola](batch-policy-assignment-edu.md)
+- [Atribuir políticas a grandes conjuntos de usuários na sua escola](batch-group-policy-assignment-edu.md)

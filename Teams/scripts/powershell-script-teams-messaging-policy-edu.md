@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: c1df183046dc2378081382e2a8b46c9b3b92c80a
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
+ms.openlocfilehash: 318a430f6f59cbb28ffeda4336c36ae07533615b
+ms.sourcegitcommit: dc3e8ae454c42981f037f4de2e48005428b6078e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44938190"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "46533736"
 ---
 # <a name="powershell-script-sample---create-and-assign-a-messaging-policy"></a>Exemplo de script do PowerShell, criar e atribuir uma política de mensagens
 
@@ -38,7 +38,6 @@ Esse script usa o cmdlet [Grant-CsTeamsMessagingPolicy](https://docs.microsoft.c
 Baixe e instale o [módulo do PowerShell do Skype for Business online](https://www.microsoft.com/download/details.aspx?id=39366)e, em seguida, reinicie o computador, se solicitado.
 
 Para obter mais informações, consulte [gerenciar o Skype for Business online com o Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell).
-
 
 ## <a name="sample-script"></a>Script de exemplo
 
@@ -62,4 +61,4 @@ $dataSetFilePath = "<csv file with user ids for newly provisioned students> "
 ```
 
 > [!NOTE]
-> Você também pode atribuir uma política de mensagens diretamente aos usuários em escala por meio de uma atribuição de política em lotes ou a um grupo do qual os usuários são membros. Para obter mais informações, consulte [atribuir políticas a grandes conjuntos de usuários na sua escola](../batch-policy-assignment-edu.md) e [atribuir políticas a seus usuários no Microsoft Teams](../assign-policies.md).
+> Você também pode atribuir uma política de mensagens diretamente aos usuários em escala por meio de uma atribuição de política em lotes ou a um grupo do qual os usuários são membros. Para obter mais informações, consulte [atribuir políticas a grandes conjuntos de usuários na sua escola](../batch-group-policy-assignment-edu.md) e [atribuir políticas a seus usuários no Microsoft Teams](../assign-policies.md).

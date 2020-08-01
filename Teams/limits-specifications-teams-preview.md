@@ -18,12 +18,13 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c207834a2975afcb5aa6e9576c56d2129ff248ff
-ms.sourcegitcommit: dc3e8ae454c42981f037f4de2e48005428b6078e
+ROBOTS: NOINDEX, NOFOLLOW
+ms.openlocfilehash: 7138495b3f210a7c10b61b7bb8dc1287afefb71c
+ms.sourcegitcommit: 824c79bd050b0abb576004f6209bb081d5090a8f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "46533528"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "46522888"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Limites e especificações para o Microsoft Teams
 
@@ -109,15 +110,20 @@ Os nomes de canal também não podem começar com um caractere de sublinhado (_)
 
 ## <a name="meetings-and-calls"></a>Reuniões e chamadas
 
-> [!IMPORTANT]
-> Em abril, [anunciamos](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/what-s-new-in-microsoft-teams-april-2020/ba-p/1347929) que os aumentos de limite padrão temporário seriam habilitados para o Microsoft 365 Live Events para ajudá-los a dar suporte melhor aos clientes até o dia 1 de julho. Para continuar atendendo às necessidades dos clientes, estenderemos os limites padrão temporários até o dia 1 de outubro de 2020. Os eventos dinâmicos hospedados no Teams, no Stream e no Yammer continuarão a dar suporte temporário a eventos para até 20.000 participantes, 16 horas de duração e 50 eventos que ocorram simultaneamente. Além disso, os clientes podem hospedar um evento ao vivo no Stream para até 100.000 participantes quando planejado pelo [programa de assistência Microsoft Live Events](https://resources.techcommunity.microsoft.com/live-events/assistance/).
-
 |Recurso     | Limite máximo |
 |------------|---------------|
+|Número de pessoas em uma reunião (podem conversar e telefonar)  |300. **Somente exibição** permite que até 20.000 participantes somente da escuta para participar de uma reunião na qual o organizador tenha uma licença para a SKU do complemento avançado de comunicações.<sup>1</sup> [!INCLUDE [template](includes/preview-feature.md)] <br><br>**Observação:** Para o Teams Governamental (GCC, GCC Alta, DoD), o limite ainda é 250. Atualizaremos este artigo quando o limite de nuvem governamental aumentar de 250 para 300 e der suporte a transportadores de reunião.   |
 |Número de pessoas em uma reunião (podem conversar e telefonar)  | 300 |
 |O número de pessoas em uma chamada de áudio ou vídeo do chat | 20 |
 |Tamanho máximo do arquivo do PowerPoint | 2GB|
 |As equipes mantêm [gravações de reunião](cloud-recording.md) que não são carregadas no Microsoft Stream, disponíveis para download local | 20 dias |
+
+<sup>1</sup> Somente exibição está ativada por padrão. Você pode usar o Windows PowerShell para desabilitar o estouro de reunião. 
+```powershell
+Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Disabled
+Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Enabled
+```
+Os participantes somente para exibição não poderão participar de uma reunião se não houver a capacidade somente para exibição na reunião ou se o participante não tiver permissão para ignorar o lobby com base em uma configuração de lobby ou em opções definidas. Os participantes somente para exibição não conseguirão ver os arquivos de compartilhamento nativos do PPT.
 
 ### <a name="meeting-expiration"></a>Expiração de reunião
 

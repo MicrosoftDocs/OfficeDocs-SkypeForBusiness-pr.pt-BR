@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Use este guia para ajudar os funcionários remotos da sua organização a serem produtivos usando o Microsoft Teams, especialmente quando estiverem trabalhando em casa (WFH) em resposta à epidemia do COVID-19 (Coronavírus).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cb3fb631c47a97d96c2709bbbe4257950221cb91
-ms.sourcegitcommit: ad82786076cc965e75b1ec5ffd4bc9bf75437340
+ms.openlocfilehash: ae7580b9fd58be66296ab4c9c5e6723aa1a3db91
+ms.sourcegitcommit: dc3e8ae454c42981f037f4de2e48005428b6078e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45028137"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "46533746"
 ---
 # <a name="support-remote-government-workers-using-microsoft-teams"></a>Ofereça suporte aos funcionários públicos remotos que usam o Microsoft Teams
 
@@ -65,7 +65,7 @@ Compartilhe esses ativos e vídeos com seus usuários finais para ajudá-los a c
 
   - Inicie sua jornada com o Teams com uma série de **[treinamentos interativos ao vivo](https://aka.ms/TeamsLiveTraining)**, projetados para por sua organização em funcionamento com o Teams.
 
-  - Participe de uma de nossas **[aulas on-line](../instructor-led-training-teams-landing-page.md)** para ver o Teams em ação e tirar suas dúvidas.
+  - Participe de uma de nossas **[aulas on-line](../instructor-led-training-teams-landing-page.yml)** para ver o Teams em ação e tirar suas dúvidas.
 
   - Compartilhe **[vídeos de treinamento aprofundados](https://www.youtube.com/playlist?list=PLXPr7gfUMmKzR7_jXN5s886apYoHNC3Xk)** com usuários que querem aprender mais.
 
