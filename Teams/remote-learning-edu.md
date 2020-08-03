@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 62cb28b26cb96faa05674a705f33b34bfb00aa90
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: f0fab79f0672c21f348ccfda999bcc32a468c87f
+ms.sourcegitcommit: dc3e8ae454c42981f037f4de2e48005428b6078e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085967"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "46533756"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>Introdução ao Microsoft Teams para aprendizado remoto
 
@@ -98,7 +98,7 @@ Talvez seja necessário restringir os recursos fornecidos aos **estudantes de en
 > [!IMPORTANT]
 > Para atender às políticas atribuídas a qualquer usuário, recomendamos definir a configuração "Admitir pessoas automaticamente" para "Todos em sua organização". Essa configuração garantirá que usuários não autenticados sejam admitidos do lobby antes que possam participar de reuniões do Teams. Para mais informações, confira [Gerenciar políticas de reunião no Teams](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#automatically-admit-people).
 
-**Os professores e funcionários do ensino básico** devem receber políticas que concedam os principais recurso que podem ser restritos aos alunos. Crie novas políticas que permitem o agendamento de reuniões e o chat privado (as configurações padrão para uma nova política). [Atribua essas políticas em massa à sua equipe e educadores por meio da atribuição de política de lote](batch-policy-assignment-edu.md).
+**Os professores e funcionários do ensino básico** devem receber políticas que concedam os principais recurso que podem ser restritos aos alunos. Crie novas políticas que permitem o agendamento de reuniões e o chat privado (as configurações padrão para uma nova política). [Atribua essas políticas em massa para sua equipe e educadores](batch-group-policy-assignment-edu.md).
 
 ## <a name="start-using-teams"></a>Começar a usar o Teams
 
