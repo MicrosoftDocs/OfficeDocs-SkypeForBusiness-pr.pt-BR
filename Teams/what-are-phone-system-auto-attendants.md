@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Saiba mais sobre atendedores automáticos da nuvem e como usá-los para permitir que os chamadores se movimentem por meio de um sistema de menus para localizar e fazer ou transferir chamadas para usuários ou departamentos.
-ms.openlocfilehash: 53353df78c0344b3cf96b1854ea576e8d907bfbc
-ms.sourcegitcommit: c8b5d4dd70d183f7ca480fb735a19290a3457b30
+ms.openlocfilehash: 57e718ad6b660baa39814b987c2b6ca18bba05d9
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "45077636"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552567"
 ---
 # <a name="what-are-cloud-auto-attendants"></a>O que são atendedores automáticos da nuvem?
 
@@ -109,7 +109,7 @@ As pessoas podem pesquisar os nomes em sua organização usando os seguintes for
 |Nome  |Completo   |Amos#   |Pressione 1 para Amos Marble  <br/> Pressione 2 para Amos Marcus |
 |Apelido |Completo |Marble#  |Pressione 1 para Amos Marble  <br/> Pressione 2 para Mary Marble |
 |Nome ou Sobrenome |Parcial |Mar# |Pressione 1 para Mary Marble  <br/> Pressione 2 para Mary Jones  <br/> Pressione 3 para Amos Marcus |
-|Nome + Sobrenome |Parcial |Mar0Amos# |Pressione 1 para Amos Marble  <br/> Pressione 2 para Amos Marcus |
+|Nome + Sobrenome |Parcial |Amos0Mar # |Pressione 1 para Amos Marble  <br/> Pressione 2 para Amos Marcus |
 |Sobrenome + Nome |Parcial |Mar0Am# |Pressione 1 para Amos Marble  <br/> Pressione 2 para Amos Marcus |
 
 Há vários caracteres especiais que são usados durante a pesquisa de pessoas por meio de um teclado de telefone. Por exemplo, a pessoa será solicitada a usar a tecla sustenido (#), enquanto a tecla zero (0) é usada para um espaço entre os nomes. Pressionar a tecla asterisco (*) repetirá a lista de nomes correspondentes para a pessoa.

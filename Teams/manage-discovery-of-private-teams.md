@@ -17,14 +17,17 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba como controlar se as equipes particulares podem ser descobertas pelos usuários do Microsoft Teams por meio de sugestões na Galeria de equipe e nos resultados da pesquisa.
-ms.openlocfilehash: 0d068de791afd32d38b2b49ada275c6e3eced41c
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: e06a9511d8198a069c3dccfdbbbacf3d3f1b2c42
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836511"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46554691"
 ---
 # <a name="manage-discovery-of-private-teams-in-microsoft-teams"></a>Gerenciar a descoberta de equipes particulares no Microsoft Teams
+
+> [!IMPORTANT]
+> Com base nos comentários dos clientes, estamos desabilitando esse recurso, em 31 de agosto de 2020. Isso significa que, após 31 de agosto de 2020, você não poderá mais definir que equipes privadas sejam detectáveis e todas as equipes particulares existentes e novas não serão mais detectáveis. Para saber mais, consulte o [mapa do Microsoft 365](https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=44370).
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
@@ -60,7 +63,7 @@ Os proprietários da equipe podem definir a configuração de descoberta para um
 
 ### <a name="in-team-settings"></a>Em configurações da equipe
 
-No Teams, vá para a equipe particular, clique em **mais opções** > **Gerenciar equipe**. Na guia **configurações** , expanda **descoberta de equipe**e desmarque ou marque a caixa de seleção **habilitar** a descoberta.
+No Teams, vá para a equipe particular, clique em **mais opções**  >  **Gerenciar equipe**. Na guia **configurações** , expanda **descoberta de equipe**e desmarque ou marque a caixa de seleção **habilitar** a descoberta.
 
 ![Captura de tela da configuração de descoberta para equipes privadas existentes](media/private-team-discovery-existing-team.png)
 

@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 955a642d2a2309ccbaf9f9d6280170a93a9179ae
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 34d7780e1d10370b78c11c1a8021381aff71f479
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905893"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552587"
 ---
 <a name="configure-desktop-sharing-in-microsoft-teams"></a>Configurar o compartilhamento da área de trabalho no Microsoft Teams
 ============================================
@@ -54,7 +54,7 @@ Para configurar o compartilhamento de tela, crie uma nova política de reuniões
 5. Ative ou desative as seguintes configurações:
 
     - **Permitir que um participante conceda ou solicite o controle** – permite que os membros da equipe conceda ou solicitem o controle da área de trabalho ou do aplicativo do apresentador.
-    - **Permitir que um participante externo conceda ou solicite controle** – permite que convidados e usuários externos (federados) conceda ou solicitem controle da área de trabalho ou do aplicativo do apresentador.
+    - **Permitir que um participante externo conceda ou solicite o controle** – essa é uma política por usuário. Não importa se uma organização tem essa definição para um usuário não controla o que os participantes externos podem fazer, independentemente do que o organizador da reunião definiu. Esse parâmetro controla se os participantes externos podem receber controle ou solicitação de controle da tela do participante do compartilhamento, dependendo do que o participante do compartilhamento definiu nas políticas de reunião da organização.
     - **Permitir o compartilhamento do PowerPoint** - permite que os usuários criem reuniões que permitem que as apresentações do PowerPoint sejam carregadas e compartilhadas.
     - **Permitir quadro de comunicações** – permite que os usuários compartilhem um quadro de comunicações.
     - **Permitir anotações compartilhadas** – permite que os usuários façam anotações compartilhadas.

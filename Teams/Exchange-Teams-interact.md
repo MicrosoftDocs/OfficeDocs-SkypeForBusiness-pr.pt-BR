@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2806d913fb63dcd2a7a25b26153435333282e871
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 8b064fa34511704c382ca42e6daa7812c17a13b0
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44752973"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552007"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Como o Exchange e o Microsoft Teams interagem
 
@@ -45,28 +45,26 @@ A tabela a seguir fornece uma referência rápida útil para a disponibilidade d
 
 **Ações suportadas:**
 
-| A caixa de correio do usuário está hospedada em: | eDiscovery| &nbsp;Controle legal | Tention| Gerenciamento de canal e equipe |Criar e exibir reuniões no Microsoft Teams| Modificar fotos de perfil de usuário | Histórico de chamadas | Gerenciar contatos | Acessar contatos do Outlook | Caixa postal |Adicionar e configurar conectores|Adicionar e configurar guias|Adicionar e configurar bots|
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-|**Exchange Online**|Sim <sup>2</sup>|Sim <sup>2</sup>|Sim |Sim |Sim|Sim<sup>8</sup>|Sim |Sim|Sim <sup>7</sup>|Sim |Sim |Sim |Sim|
-|**Exchange Online Dedicated vNext**|Sim <sup>2</sup>|Sim <sup>2</sup>|Sim |Sim |Sim|Sim<sup>8</sup>|Sim |Sim|Sim <sup>7</sup>|Sim |Sim |Sim |Sim|
-|**Exchange Online Dedicated – Legacy** (Sincronização obrigatória com o Azure AD)|Sim <sup>2</sup>|Sim <sup>2, 3</sup>|Sim <sup> 4|Sim|Não|Não|Sim|Sim|Não|Sim <sup> 5|Sim <sup> 6|Sim |Sim|
-|**Exchange no local** (sincronização com o Azure ad & a configuração OAuth necessária)|Sim <sup>2</sup>| Sim <sup>2</sup> |Sim <sup> 4|Sim|Sim (Exchange 2016 CU3 +)|Não|Sim|Sim|Não|Sim <sup> 5|Sim <sup> 6|Sim |Sim|
+| A caixa de correio do usuário está hospedada em:                                        | eDiscovery       | &nbsp;Controle legal    | Tention  | Gerenciamento de canal e equipe | Criar e exibir reuniões no Microsoft Teams | Modificar fotos de perfil de usuário | Histórico de chamadas | Gerenciar contatos | Acessar contatos do Outlook | Caixa postal  | Adicionar e configurar conectores | Adicionar e configurar guias | Adicionar e configurar bots |
+|---------------------------------------------------------------------|------------------|--------------------|------------|-----------------------|-----------------------------------|-----------------------------|--------------|-----------------|-------------------------|------------|------------------------------|------------------------|------------------------|
+| **Exchange Online**                                                 | Sim <sup>1</sup> | Sim <sup>1</sup>   | Sim         | Sim                    | Sim                               | Sim<sup>7</sup>             | Sim           | Sim             | Sim <sup>6</sup>        | Sim         | Sim                           | Sim                     | Sim                    |
+| **Exchange Online Dedicated vNext**                                 | Sim <sup>1</sup> | Sim <sup>1</sup>   | Sim         | Sim                    | Sim                               | Sim<sup>7</sup>             | Sim           | Sim             | Sim <sup>6</sup>        | Sim         | Sim                           | Sim                     | Sim                    |
+| **Exchange Online Dedicated – Legacy** (Sincronização obrigatória com o Azure AD)  | Sim <sup>1</sup> | Sim <sup>1, 2</sup> | Sim <sup> 3 | Sim                   | Não                                | Não                          | Sim          | Sim             | Não                      | Sim <sup> 4 | Sim <sup> 5                   | Sim                     | Sim                    |
+| **Exchange no local** (sincronização com o Azure ad & a configuração OAuth necessária) | Sim <sup>1</sup> | Sim <sup>1</sup>   | Sim <sup> 3 | Sim                   | Sim (Exchange 2016 CU3 +)          | Não                          | Sim          | Sim             | Não                      | Sim <sup> 4 | Sim <sup> 5                   | Sim                     | Sim                    |
 
-<sup>1</sup> suporte do Exchange 2016 Cu3 e versões mais recentes.  
+<sup>1</sup> descoberta eletrônica e retenção legal para conformidade com mensagens de canal são compatíveis com todas as opções de hospedagem.
 
-<sup>2</sup> EDiscovery e retenção legal para conformidade com mensagens de canal são compatíveis com todas as opções de hospedagem.
+<sup>2</sup> as equipes de chat privadas do teams ainda não são suportadas para o controle legal para esta opção de hospedagem.
 
-<sup>3</sup> as equipes de chat privadas do teams ainda não têm suporte para o controle legal para essa opção de hospedagem.
+<sup>3</sup> a retenção usará uma caixa de correio de sombra para o usuário online armazenar mensagens.
 
-<sup>4</sup> a retenção usará uma caixa de correio de sombra para o usuário online armazenar mensagens. [O Microsoft Teams dá suporte à descoberta eletrônica para usuários do teams em um ambiente híbrido do Exchange](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-supports-eDiscovery-for-Teams-users-in-a/ba-p/200009).
+<sup>4</sup> os usuários do teams com caixa de correio local do Exchange podem usar o correio de voz com o Teams e receber mensagens de correio de voz no Outlook, mas as mensagens de correio de voz não estarão disponíveis para exibição ou reprodução dentro do cliente da equipe.
 
-<sup>cinco</sup> usuários do teams com caixa de correio local do Exchange podem usar o correio de voz com o Microsoft Teams e receber mensagens de correio de voz no Outlook, mas as mensagens de correio de voz não estarão disponíveis para exibição ou reprodução dentro do cliente da equipe.
+<sup>5</sup> se um dos proprietários de uma equipe puder adicionar conectores, todos os outros participantes dessa equipe poderão fazer isso, mesmo se as caixas de correio estiverem hospedadas no local.
 
-<sup>6</sup> se um dos proprietários de uma equipe puder adicionar conectores, todos os outros participantes dessa equipe poderão fazer isso, mesmo se as caixas de correio estiverem hospedadas no local.
+<sup>6</sup> somente contatos na pasta de contatos padrão. Não há suporte para o acesso a outras pastas de contatos ou subpastas.
 
-<sup>7</sup> somente contatos na pasta de contatos padrão. Não há suporte para o acesso a outras pastas de contatos ou subpastas.
-
-<sup>8</sup> o Teams homenageia a configuração de [política de caixa de correio da Web do Outlook](https://docs.microsoft.com/powershell/module/exchange/client-access/set-owamailboxpolicy) configurada por administradores de locatários para controlar se os usuários podem alterar a imagem do seu perfil. Se a configuração **-SetPhotoEnabled** estiver desativada na política, os usuários não poderão adicionar, alterar ou remover a imagem do perfil dela. Por exemplo, se um usuário carregar uma imagem de perfil que foi aprovada pelo departamento de ti ou RH da sua organização, nenhuma ação será necessária. No entanto, se um usuário carregar uma imagem que não seja apropriada, altere a imagem de acordo com as políticas internas da sua organização.
+<sup>7</sup> as equipes honram a configuração da [política de caixa de correio do Outlook](https://docs.microsoft.com/powershell/module/exchange/client-access/set-owamailboxpolicy) que é configurada por administradores de locatários para controlar se os usuários podem alterar a imagem do perfil. Se a configuração **-SetPhotoEnabled** estiver desativada na política, os usuários não poderão adicionar, alterar ou remover a imagem do perfil dela. Por exemplo, se um usuário carregar uma imagem de perfil que foi aprovada pelo departamento de ti ou RH da sua organização, nenhuma ação será necessária. No entanto, se um usuário carregar uma imagem que não seja apropriada, altere a imagem de acordo com as políticas internas da sua organização.
 
 ## <a name="requirements-to-get-the-most-out-of-microsoft-teams"></a>Requisitos para aproveitar ao máximo o Microsoft Teams
 

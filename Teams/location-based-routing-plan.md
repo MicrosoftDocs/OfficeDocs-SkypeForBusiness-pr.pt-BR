@@ -16,12 +16,12 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c47ca6105b1d497bbba391856bfc190ea88fb47f
-ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
+ms.openlocfilehash: 233e26042c66e96f5611b9f3997684404353453d
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45372030"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552269"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>Planejar o Roteamento baseado na localização para o Roteamento direto
 
@@ -30,12 +30,17 @@ ms.locfileid: "45372030"
 Em alguns países e regiões, é ilegal ignorar o provedor PSTN (rede telefônica pública comutada) para reduzir os custos de chamadas de longa distância. Este artigo descreve como usar o roteamento baseado em local para restringir o bypass de chamadas para usuários do Microsoft Teams com base em sua localização geográfica. Este artigo se aplica apenas ao encaminhamento direto do sistema telefônico.
 
 Aqui você terá uma visão geral do roteamento e orientação baseado em local para ajudá-lo a planejar isso. Quando estiver pronto para aplicar e habilitar o roteamento baseado em localização, consulte:
+
 - [Implantar configurações de rede para roteamento baseado em local](location-based-routing-configure-network-settings.md)
 - [Habilitar o Roteamento baseado na localização para o Roteamento direto](location-based-routing-enable.md)
 
-O roteamento baseado em local é um recurso que permite que você restrinja o desvio de chamada tarifada com base na política e na localização geográfica do usuário no momento de uma chamada PSTN de entrada ou saída. 
+> [!NOTE]
+> O roteamento baseado em local não está disponível nas implantações elevadas do Microsoft 365 governo Community Cloud (GCC).
+
+O roteamento baseado em local é um recurso que permite que você restrinja o desvio de chamada tarifada com base na política e na localização geográfica do usuário no momento de uma chamada PSTN de entrada ou saída. O roteamento baseado em local tem o objetivo de fornecer um mecanismo para impedir o bypass de chamadas. Ele não deve ser usado como um mecanismo para direcionar dinamicamente chamadas PSTN com base na localização do usuário ou podem resultar em conseqüências indesejadas.
 
 Quando um usuário do teams estiver habilitado para roteamento baseado em local, o seguinte será aplicado:
+
 - Para fazer uma chamada PSTN de saída, uma das seguintes opções deve ser verdadeira:
     - O ponto de extremidade do usuário está localizado em um site de rede habilitado para roteamento baseado em local e chama egresso por meio do gateway correspondente habilitado para roteamento baseado em local. 
     - O ponto de extremidade do usuário está localizado em um site de rede que não está habilitado para roteamento baseado em local e chama egresso por meio de um gateway que não está habilitado para roteamento baseado em local.

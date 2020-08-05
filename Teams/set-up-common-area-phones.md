@@ -21,18 +21,18 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: 'Saiba como configurar telefones celulares comuns para "lobbies", áreas de recepção e salas de conferência '
-ms.openlocfilehash: ef75c23ff72d9b640fb5a53feff7cf46fec43292
-ms.sourcegitcommit: 2cc36c954200f50de33b909856b33fe0a9a6b7a5
+ms.openlocfilehash: d9d77765451f98028f808028822ec42e6e51fdc7
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45125984"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552299"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>Configurar a licença de Telefone de Área Comum para o Microsoft Teams
 > [!NOTE]
 > Telefones celulares comuns não oferecem suporte ao correio de voz.
 
-Um telefone de área comum geralmente é colocado em uma área como um lobby ou outra área que está disponível para muitas pessoas fazer uma chamada; por exemplo, uma área de recepção, um lobby ou um telefone de conferência. Os telefones de área comuns são configurados como dispositivos, e não usuários, e podem entrar automaticamente em uma rede.
+Um telefone de área comum geralmente é colocado em uma área como um lobby ou outra área que está disponível para muitas pessoas fazer uma chamada; por exemplo, uma área de recepção, um lobby ou um telefone de conferência. Telefones celulares comuns são conectados com contas ligadas a uma licença de telefone de área comum. A política TeamsIPPhone também deve ser definida apropriadamente para o telefone ter uma experiência de usuário da área comum.
 
 Nas etapas a seguir, ajudaremos você a configurar uma conta para o sistema telefônico implantar telefones de área comuns para a sua organização. Para obter uma experiência de reunião mais completa, incluindo videoconferência, considere comprar a licença de sala de reunião dedicada com um dispositivo de sala de reunião. 
 

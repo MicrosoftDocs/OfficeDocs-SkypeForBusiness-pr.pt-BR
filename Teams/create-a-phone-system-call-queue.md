@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Saiba como configurar o sistema telefônico para filas de chamadas em nuvem com o Microsoft Teams, que fornecem uma mensagem de saudação, suspender música, redirecionamento de chamada e outros recursos.
-ms.openlocfilehash: dd11e33e4947ea231310b06af2570711d55b2451
-ms.sourcegitcommit: c8b5d4dd70d183f7ca480fb735a19290a3457b30
+ms.openlocfilehash: f0631eece5b8f67cd93c46b34c56bb2283826c3f
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "45077706"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46556611"
 ---
 # <a name="create-a-cloud-call-queue"></a>Criar uma fila de chamada do Cloud
 
@@ -203,6 +203,10 @@ Depois que o modo de conferência estiver habilitado em uma fila de chamadas, as
 
 A maioria das chamadas é recebida por meio de um dos métodos listados acima. Se uma chamada for recebida por meio de outro método (como uma chamada de VoIP de um cliente Skype for Business), a chamada ainda será adicionada à fila de chamadas, mas não se beneficiará do tempo de conexão mais rápido.
 
+> [!NOTE]
+> Ocupado em ocupado não é compatível com o modo de conferência. Os agentes em chamadas de fila de não chamada ainda poderão ser apresentados com uma chamada na fila de chamadas se o roteamento baseado em presença não estiver habilitado.
+
+
 ![O ícone do número 3 faz referência a um balão no método de roteamento de captura de tela anterior, ](media/teamscallout3.png)
  **Routing method** você pode escolher **atendedor**, **serial**, **Idle mais longo**ou **rodízio** como método de distribuição. Todas as filas de chamadas novas e existentes têm roteamento de atendedor selecionado por padrão. Quando o roteamento do atendente é usado, a primeira chamada na fila toca em todos os agentes de chamada ao mesmo tempo. O primeiro agente de chamadas para atender a chamada recebe a chamada.
 
@@ -274,9 +278,7 @@ A configuração padrão é 30 segundos, mas pode ser definida por até 3 minuto
 - **Desconectar** A chamada está desconectada.
 - **Redirecionar para** Ao escolher essa opção, selecione uma das seguintes opções:
 
-  - **Pessoa na organização** Um usuário online com uma licença do sistema de telefonia e estar habilitado para o Enterprise Voice ou ter um plano de chamada. Você pode configurá-lo para que o chamador possa ser enviado para o correio de voz. Para fazer isso, selecione uma pessoa em sua organização e defina esta pessoa para que as chamadas sejam encaminhadas diretamente para o correio de voz.
-
-  Para saber mais sobre as licenças necessárias para correio de voz, consulte [Configurar correio de voz na nuvem](set-up-phone-system-voicemail.md).
+  - **Pessoa na organização** Um usuário online com uma licença do sistema de telefonia e está habilitado para o Enterprise Voice ou tem um plano de chamadas.
 
   - **Aplicativo de voz** Selecione o nome de uma conta de recurso associada a uma fila de chamadas ou atendedor automático que já foi criado.
 
@@ -291,6 +293,13 @@ A configuração padrão é 30 segundos, mas pode ser definida por até 3 minuto
             - Se definido como Disabled, o número de telefone do chamador original será exibido. Esta é a configuração padrão e recomendada.
             - Se definido como habilitado, o número de telefone da conta do recurso será exibido.
     - Não há suporte para transferências entre troncos de plano de chamada e troncos diretos de roteamento.
+  - **Correio de voz** Selecione o grupo do Microsoft 365 que contém os usuários em sua organização que precisam acessar o correio de voz recebido por esta fila de chamadas e, em seguida, selecione uma das seguintes opções:
+      - **Reproduzir um arquivo de áudio** Se você escolher essa opção, selecione **carregar arquivo** para carregar uma mensagem de saudação gravada. A gravação não pode ter mais de 5 MB. 
+      - **Digite uma mensagem de saudação** Se você escolher essa opção, insira o texto que deseja que o sistema Leia (até 1000 caracteres). Por exemplo, você pode digitar "Desculpe que não podemos fazer sua chamada neste momento. Deixe seu nome, número de telefone e motivo para a sua chamada após o sinal de bipe. "
+
+      Ative a transcrição se quiser habilitar a transcrição de voz para texto de mensagens de voz.
+
+      As mensagens de correio de voz são enviadas para o grupo do Microsoft 365 que você especificar. Para acessar mensagens de correio de voz, os membros do grupo podem abri-los navegando para o grupo no Outlook.
 
 * * *
 
@@ -304,9 +313,7 @@ O valor de tempo limite pode ser definido em segundos, em intervalos de 15 segun
 
 - **Desconectar** A chamada está desconectada.
 - **Redirecionar esta chamada para** Ao escolher esta opção, você tem estas opções:
-  - **Pessoa na organização** Um usuário online com uma licença do sistema de telefonia e estar habilitado para o Enterprise Voice ou ter planos de chamada. Para configurá-lo para que a pessoa que está ligando possa ser enviada para o correio de voz, selecione uma pessoa em sua organização e defina esta pessoa para que as chamadas sejam encaminhadas diretamente para o correio de voz.
-
-  Para saber mais sobre as licenças necessárias para correio de voz, consulte [Configurar correio de voz na nuvem](set-up-phone-system-voicemail.md).
+  - **Pessoa na organização** Um usuário online com uma licença do sistema de telefonia e habilitado para o Enterprise Voice ou ter planos de chamada.
 
   - **Aplicativo de voz** Selecione o nome de uma conta de recurso associada a uma fila de chamadas ou atendedor automático que você já criou.
 
@@ -321,6 +328,13 @@ O valor de tempo limite pode ser definido em segundos, em intervalos de 15 segun
             - Se definido como Disabled, o número de telefone do chamador original será exibido. Esta é a configuração padrão e recomendada.
             - Se definido como habilitado, o número de telefone da conta do recurso será exibido.
     - Não há suporte para transferências entre troncos de plano de chamada e troncos diretos de roteamento.
+    - **Correio de voz** Selecione o grupo do Microsoft 365 que contém os usuários em sua organização que precisam acessar o correio de voz recebido por esta fila de chamadas e, em seguida, selecione uma das seguintes opções:
+      - **Reproduzir um arquivo de áudio** Se você escolher essa opção, selecione **carregar arquivo** para carregar uma mensagem de saudação gravada. A gravação não pode ter mais de 5 MB.
+      - **Digite uma mensagem de saudação** Se você escolher essa opção, insira o texto que deseja que o sistema Leia (até 1000 caracteres). Por exemplo, você pode digitar "Desculpe que não podemos fazer sua chamada neste momento. Deixe seu nome, número de telefone e motivo para a sua chamada após o sinal de bipe. "
+
+      Ative a transcrição se quiser habilitar a transcrição de voz para texto de mensagens de voz.
+
+      As mensagens de correio de voz são enviadas para o grupo do Microsoft 365 que você especificar. Para acessar mensagens de correio de voz, os membros do grupo podem abri-los navegando para o grupo no Outlook.
 
 ## <a name="change-caller-id-for-outbound-calls"></a>Alterar a identificação de chamada para chamadas de saída
 

@@ -19,15 +19,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1b60ea0159207c88a9aab7030a1d058a44c649eb
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 5a318d59d10b90d5335c84fbbbe6e6e8ae68966d
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666003"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552713"
 ---
 # <a name="upgrade-microsoft-teams-free-to-subscription-version"></a>Atualize o Microsoft Teams gratuitamente para a versão de assinatura
-======================================================
 
 Se a sua organização estiver usando a versão gratuita do Microsoft Teams, você poderá facilmente atualizar para a versão completa adquirindo um plano de assinatura do Microsoft 365 ou do Office 365 para seus usuários. A versão completa fornece recursos adicionais do Teams, como agendamento, videoconferências, administração aprimorada e recursos de segurança, que a versão gratuita não fornece. O Microsoft 365 e o Office 365 combinam o Microsoft Office Desktop Suite conhecido com versões com base em nuvem dos serviços de comunicação e colaboração de última geração da Microsoft, incluindo o Exchange Online, o SharePoint Online e o Office, para ajudar os usuários a se tornarem produtivos de praticamente qualquer lugar pela Internet. Quando você atualiza o Microsoft Teams, os dados de suas equipes existentes não serão perdidos; todas as suas equipes, canais, chats, arquivos e permissões vêm com você. 
 

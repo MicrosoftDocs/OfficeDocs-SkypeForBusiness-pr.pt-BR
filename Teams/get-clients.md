@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e423bedc05dbbf303ecfdbf569ff9e1b096bd3d7
-ms.sourcegitcommit: c16451519e05b47bbb77e09dacd13ff212617e91
+ms.openlocfilehash: d19e7b997a5972d3b3eb9b28d89b3e1b06359889
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "42327833"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552339"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Obter clientes do Microsoft Teams 
 
@@ -40,11 +40,14 @@ O Microsoft Teams tem clientes disponíveis para desktop (Windows, Mac e Linux),
 > [!TIP]
 > Assista à sessão a seguir para conhecer os benefícios do Windows Desktop Client e como planejar e executar sua implantação: [Cliente de Desktop do Microsoft Teams](https://aka.ms/teams-clients)
 
-O cliente de área de trabalho do Microsoft Teams é um aplicativo autônomo e também está [disponível no Office 365 ProPlus](https://docs.microsoft.com/deployoffice/teams-install). O Teams está disponível para as versões de 32 bits e 64 bits do Windows (8.1 ou posterior) e Windows Server (2012 R2 ou posterior), bem como para macOS (10.10 ou posterior) e Linux (nos formatos `.deb` e `.rpm`). No Windows, o Teams exige o .NET Framework 4.5 ou posterior; o instalador do Teams oferecerá instalá-lo para você se você não o tiver. No Linux, os gerenciadores de pacote, como `apt` e `yum`, tentarão instalar quaisquer requisitos para você. No entanto, se eles não instalarem, você precisará instalar todos os requisitos relatados antes de instalar o Teams no Linux.
+O cliente de desktop do Microsoft Teams é um aplicativo autônomo e também está [disponível nos aplicativos do microsoft 365 para empresas](https://docs.microsoft.com/deployoffice/teams-install). O Microsoft Teams está disponível para versões de 32 bits e 64 bits do Windows (8,1 ou posterior) e Windows Server (2012 R2 ou posterior), bem como para macOS e Linux ( `.deb` em `.rpm` formatos e). No Windows, o Teams exige o .NET Framework 4.5 ou posterior; o instalador do Teams oferecerá instalá-lo para você se você não o tiver. No Linux, os gerenciadores de pacote, como `apt` e `yum`, tentarão instalar quaisquer requisitos para você. No entanto, se eles não instalarem, você precisará instalar todos os requisitos relatados antes de instalar o Teams no Linux.
 
 Os clientes de área de trabalho fornecem suporte de comunicação em tempo real (áudio, vídeo e compartilhamento de conteúdo) para reuniões de equipe, chamadas em grupo e chamadas individuais privadas.
 
 Os clientes de desktop podem ser baixados e instalados diretamente pelos usuários finais[https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754) se tiverem as permissões locais apropriadas (direitos de administrador não são necessários para instalar o cliente Teams em um PC, mas são necessários em um Mac).
+
+> [!NOTE]
+> Para obter mais detalhes sobre como instalar o Microsoft Teams em um Chromebook, consulte [como instalar e executar o Microsoft Office em um Chromebook](https://support.office.com/article/how-to-install-and-run-microsoft-office-on-a-chromebook-32f14a23-2c1a-4579-b973-d4b1d78561ad).
 
 Os administradores de TI podem escolher seu método preferido para distribuir os arquivos de instalação aos computadores de sua organização. Entre os exemplos estão o Microsoft Endpoint Configuration Manager (Windows) ou Jamf Pro (macOS). Para obter o pacote MSI para distribuições do Windows, consulte [Instalar o Microsoft Teams usando MSI](msi-deployment.md).  
 
@@ -75,6 +78,8 @@ Quando os usuários iniciam uma chamada usando o cliente Microsoft Teams pela pr
 > [!NOTE]
 > A configuração do Firewall do Windows será alterada mesmo quando o aviso for descartado ao selecionar “Cancelar”. Serão criadas duas regras de entrada para teams.exe com a ação Block para protocolos TCP e UDP.
 
+Se você quiser impedir que as equipes solicitem que os usuários criem regras de firewall quando os usuários fizerem sua primeira chamada do Teams, use o [exemplo de regra de firewall de entrada de script do PowerShell](#sample-powershell-script---inbound-firewall-rule) abaixo. 
+
 ### <a name="mac"></a>Mac
 
 Usuários de Mac podem instalar o Teams usando um arquivo de instalação PKG para computadores macOS. É necessário acesso administrativo para instalar o cliente Mac. O cliente macOS é instalado na pasta /Applications.
@@ -103,14 +108,14 @@ Os administradores de TI podem usar a implantação gerenciada do Teams para dis
 ### <a name="linux"></a>Linux
 
 Os usuários poderão instalar pacotes nativos do Linux nos formatos `.deb` e `.rpm`.
-Instalar o pacote de DEB ou de RPM instalará automaticamente o repositório de pacotes
+Instalar o pacote DEB ou RPM instalará automaticamente o repositório de pacotes.
 - DEB `https://packages.microsoft.com/repos/ms-teams stable main`
 - RPM `https://packages.microsoft.com/yumrepos/ms-teams` 
 
 A chave de assinatura para habilitar a atualização automática usando o gerenciador de pacotes do sistema é instalado automaticamente. No entanto, ele também pode ser encontrado em: (https://packages.microsoft.com/keys/microsoft.asc). o Microsoft Teams é lançado mensalmente, e se o repositório for instalado corretamente, o gerenciador de pacotes do sistema deverá lidar com a atualização automática da mesma forma que outros pacotes no sistema.
 
 > [!NOTE] 
-> Se você encontrar um bug, envie-o usando o `Report a Problem` no cliente. Confira problemas conhecidos em [Problemas conhecidos](Known-issues.md).
+> Se você encontrar um bug, envie-o usando o `Report a Problem` no cliente. Para problemas conhecidos, consulte [equipes de suporte em sua organização](Known-issues.md).
 > Para o suporte do Teams para Linux, você pode usar o [canal de suporte do fórum do Linux nas perguntas e respostas Microsoft](https://docs.microsoft.com/answers/topics/teams.html). Lembre-se de usar a marca `teams-linux` ao postar as perguntas. 
 
 #### <a name="install-teams-using-deb-package"></a>Instalar o Teams usando o pacote DEB
@@ -120,7 +125,7 @@ A chave de assinatura para habilitar a atualização automática usando o gerenc
     - Abra a ferramenta de gerenciamento de pacotes relevante e siga o processo autodirigido de instalação de aplicativos do Linux.
     - Ou se você adora o Terminal, digite: `sudo apt install **teams download file**`
 
-Você pode lançar o Teams por meio de Atividades ou por meio do Terminal digitando `Teams`. 
+Você pode lançar o Teams por meio de Atividades ou por meio do Terminal digitando `teams`. 
 
 #### <a name="install-teams-using-rpm-package"></a>Instalar o Teams usando o pacote RPM
 
@@ -129,12 +134,13 @@ Você pode lançar o Teams por meio de Atividades ou por meio do Terminal digita
     - Abra a ferramenta de gerenciamento de pacotes relevante e siga o processo autodirigido de instalação de aplicativos do Linux.
     - Ou se você adora o Terminal, digite: `sudo yum install **teams download file**`
 
-Você pode lançar o Teams por meio de Atividades ou por meio do Terminal digitando `Teams`.
+Você pode lançar o Teams por meio de Atividades ou por meio do Terminal digitando `teams`.
 
 #### <a name="install-manually-from-the-command-line"></a>Instalar manualmente da linha de comando
 
 Instale manualmente nas distribuições do Debian e do Ubuntu:
-```
+
+```bash
 curl https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
  
 sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/ms-teams stable main" > /etc/apt/sources.list.d/teams.list'
@@ -144,7 +150,8 @@ sudo apt install teams
 ```
 
 Instale manualmente em distribuições baseadas em RHEL, Fedora e CentOS:
-```
+
+```bash
 sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
  
 sudo sh -c 'echo -e "[teams]\nname=teams\nbaseurl=https://packages.microsoft.com/yumrepos/ms-teams\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/yum.repos.d/teams.repo'
@@ -154,13 +161,15 @@ sudo dnf install teams
 ```
 
 Como alternativa, para usar yum em vez de dnf:
-```
+
+```bash
 yum check-update
 sudo yum install teams
 ```
 
 Instale manualmente em distribuições baseadas em openSUSE:
-```
+
+```bash
 sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
  
 sudo sh -c 'echo -e "[teams]\nname=teams\nbaseurl=https://packages.microsoft.com/yumrepos/ms-teams\nenabled=1\nautorefresh=1\nkeeppackages=0\ntype=rpm-md\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/zypp/repos.d/teams.repo'
@@ -214,7 +223,7 @@ No momento, não estão disponibilizadas opções para administradores de TI def
 
 ![Captura de tela das configurações de notificação.](media/Get_clients_for_Microsoft_Teams_image6.png)
 
-## <a name="sample-powershell-script"></a>Exemplo de script do PowerShell
+## <a name="sample-powershell-script---inbound-firewall-rule"></a>Script do PowerShell de exemplo-regra de firewall de entrada
 
 Este script de exemplo, que precisa ser executado em computadores clientes no contexto de uma conta de administrador elevada, criará uma nova regra de firewall de entrada para cada pasta de usuário encontrada em c:\usuários. Quando o Teams encontrar essa regra, impedirá que o aplicativo do Teams solicite que os usuários criem regras de firewall quando os usuários fizerem a primeira chamada no Teams. 
 

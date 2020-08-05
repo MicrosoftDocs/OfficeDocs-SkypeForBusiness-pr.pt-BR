@@ -17,28 +17,28 @@ description: Saiba como gerenciar seus aplicativos do teams na página Gerenciar
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 3a99577b51f08d9ae0e0d4aef73297fade1b1176
-ms.sourcegitcommit: 92a1158a4ade08d7168691b7f8b44a33df090afb
+ms.openlocfilehash: ecc03ff6a6baf1333028b949b590f3018d66e393
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "45146117"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552309"
 ---
 <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>Gerenciar seus aplicativos no centro de administração do Microsoft Teams
 ======================================================
 
-Como administrador, a página **gerenciar aplicativos** no centro de administração do Microsoft Teams é onde você vê e gerencia todos os aplicativos do teams no catálogo de aplicativos da sua organização. Aqui, você pode ver o status e as propriedades dos aplicativos no nível da organização, carregar novos aplicativos personalizados para o catálogo de aplicativos do locatário, bloquear ou permitir aplicativos no nível da organização e gerenciar as configurações de aplicativo de toda a organização.
+Como administrador, a página Gerenciar aplicativos no centro de administração do Microsoft Teams é onde você vê e gerencia todos os aplicativos do teams para sua organização. Aqui, você pode ver o status e as propriedades de nível de organização de aplicativos, aprovar ou carregar novos aplicativos personalizados para a loja de aplicativos da sua organização, bloquear ou permitir aplicativos no nível da organização e gerenciar as configurações de aplicativo de toda a organização.
 
-A página **gerenciar aplicativos** oferece uma exibição de todos os aplicativos disponíveis em seu catálogo de locatários, fornecendo as informações necessárias para decidir quais aplicativos permitir ou bloquear em sua organização. Em seguida, você pode usar [políticas de permissão do aplicativo](teams-app-permission-policies.md), políticas de configuração do [aplicativo](teams-app-setup-policies.md)e [políticas e configurações personalizadas do aplicativo](teams-custom-app-policies-and-settings.md) para configurar a experiência do aplicativo para usuários específicos em sua organização.
+A página Gerenciar aplicativos fornece um modo de exibição para todos os aplicativos disponíveis, fornecendo a você as informações de que você precisa para decidir quais aplicativos permitir ou bloquear em sua organização. Em seguida, você pode usar [políticas de permissão do aplicativo](teams-app-permission-policies.md), políticas de configuração do [aplicativo](teams-app-setup-policies.md)e [políticas e configurações personalizadas do aplicativo](teams-custom-app-policies-and-settings.md) para configurar a experiência do aplicativo para usuários específicos em sua organização.
 
 Na navegação à esquerda do centro de administração do Microsoft Teams, vá até **Team apps**  >  **gerenciar aplicativos**. Você deve ser administrador global ou administrador do teams Service para acessar a página.
 
 > [!NOTE]
-> A página **gerenciar aplicativos** ainda não está disponível nas implantações da Comunidade do governo do Microsoft 365 (GCC) do teams.
+> A página Gerenciar aplicativos ainda não está disponível nas implantações da Comunidade do governo do Microsoft 365 (GCC) do teams.
 
-## <a name="view-apps-in-your-tenant-app-catalog"></a>Exibir aplicativos em seu catálogo de aplicativos locatário
+## <a name="view-apps"></a>Exibir aplicativos
 
-Você pode exibir todos os aplicativos no catálogo do aplicativo locatário, incluindo as informações a seguir sobre cada aplicativo.
+Você pode exibir todos os aplicativos, incluindo as informações a seguir sobre cada aplicativo.
 
 ![Captura de tela da página de aplicativos gerenciados](media/manage-apps.png)
 
@@ -48,9 +48,9 @@ Você pode exibir todos os aplicativos no catálogo do aplicativo locatário, in
   
 - **Certificação**: se o aplicativo tiver passado pela certificação, você verá o **Microsoft 365 Certified** ou **atestado de fornecedor**. Clique no link para exibir os detalhes de certificação do aplicativo. Se você vir " **--** ", não temos informações de certificação para o aplicativo. Para saber mais sobre aplicativos certificados no Teams, leia [o programa de certificação de aplicativos Microsoft 365](https://docs.microsoft.com/teams-app-certification/all-apps).  
 
-- **Categorias**: categorias que se aplicam ao aplicativo.
-
-- **Status do aplicativo**: status do aplicativo no nível da organização, que pode ser um dos seguintes:
+- **Fornecedor**: nome do fornecedor.
+- **Status de publicação**: status de publicação de aplicativos personalizados.
+- **Status**: status do aplicativo no nível da organização, que pode ser um dos seguintes:
 
     - **Permitido**: o aplicativo está disponível para todos os usuários em sua organização.
     
@@ -58,32 +58,51 @@ Você pode exibir todos os aplicativos no catálogo do aplicativo locatário, in
     
     - **Bloqueou toda a organização**: o aplicativo está bloqueado em configurações de aplicativo de toda a organização.
     
-      É importante saber que essa coluna representa o status permitido e bloqueado dos aplicativos que estavam anteriormente no painel configurações de **toda a organização** . Agora, você vê, bloqueia e permite aplicativos na organização toda a partir da página **gerenciar aplicativos** . 
+      É importante saber que essa coluna representa o status permitido e bloqueado dos aplicativos que estavam anteriormente no painel configurações de **toda a organização** . Agora, você vê, bloqueia e permite aplicativos na organização toda a partir da página Gerenciar aplicativos.
+
+- **Aplicativo personalizado**: se o aplicativo é um aplicativo personalizado.
+
+- **Categorias**: categorias que se aplicam ao aplicativo.
 
 - **Versão**: versão do aplicativo.
 
 Para ver as informações desejadas na tabela, clique em **Editar coluna** no canto superior direito para adicionar ou remover colunas à tabela.
 
-## <a name="upload-a-new-app"></a>Carregar um novo aplicativo
+## <a name="publish-a-custom-app-to-your-organizations-app-store"></a>Publicar um aplicativo personalizado na loja de aplicativos da sua organização
 
-Você pode usar o catálogo de aplicativos para testar e distribuir aplicativos personalizados que são criados especificamente para a sua organização. Um pacote do aplicativo Teams é criado usando o [Teams app Studio](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-app-studio). Quando você tem o pacote do aplicativo, pode adicioná-lo ao seu catálogo de aplicativos. Embora todos os usuários em sua organização possam ver o catálogo de aplicativos, somente administradores globais e administradores de serviços de equipe podem publicá-lo e gerenciá-lo.
+Use a página Gerenciar aplicativos para publicar aplicativos criados especificamente para a sua organização. Depois de publicar um aplicativo personalizado, ele estará disponível para os usuários na loja de aplicativos da sua organização. Há duas maneiras de publicar um aplicativo personalizado na loja de aplicativos da sua organização. A maneira como você usa depende de como você obtém o aplicativo.
 
-Para carregar um novo aplicativo personalizado para o catálogo de aplicativos do locatário, clique em **carregar novo aplicativo** para carregar seu pacote de aplicativo em formato. zip. O aplicativo não está realçado depois de carregado, portanto, você precisará pesquisar o catálogo de aplicativos para localizá-lo.
+- [Aprovar um aplicativo personalizado](#approve-a-custom-app): Use esse método se o desenvolvedor enviar o aplicativo diretamente para a página Gerenciar aplicativos usando a API de envio do aplicativo Teams. Em seguida, você pode revisar e publicar (ou rejeitar) o aplicativo diretamente da página de detalhes do aplicativo.
+- [Carregar um pacote de aplicativo](#upload-an-app-package): Use esse método se o desenvolvedor enviar o pacote do aplicativo em formato. zip. Você publica o aplicativo carregando o pacote do aplicativo.
 
-Para atualizar um aplicativo após ele ser carregado, na lista de aplicativos na página **gerenciar aplicativos** , clique no nome do aplicativo e, em seguida, clique em **Atualizar**. Isso substitui o aplicativo existente em seu catálogo de aplicativos e todas as políticas de permissão do aplicativo e políticas de configuração do aplicativo permanecem impostas para o aplicativo atualizado.
+###  <a name="approve-a-custom-app"></a>Aprovar um aplicativo personalizado
 
-Para saber mais, consulte [gerenciar seus aplicativos personalizados no Microsoft Teams](manage-your-custom-apps.md).
+O widget **aprovações pendentes** na página Gerenciar aplicativos informa quando um desenvolvedor envia um aplicativo usando a API de envio de aplicativo Teams. Um aplicativo recém enviado é listado com um **status** de publicação **enviado** e um **status** de **bloqueado**. Acesse a página de detalhes do aplicativo para ver mais informações sobre o aplicativo e, em seguida, publicá-lo, defina o **status de publicação** como **publicar**.
+
+Você também é notificado quando um desenvolvedor envia uma atualização para um aplicativo personalizado. Em seguida, você pode revisar e publicar (ou rejeitar) a atualização na página de detalhes do aplicativo. Todas as políticas de permissão do aplicativo e políticas de configuração do aplicativo permanecem impostas para o aplicativo atualizado.
+
+Para saber mais, confira [publicar um aplicativo personalizado enviado por meio da API de envio de aplicativos Teams](submit-approve-custom-apps.md).
+
+### <a name="upload-an-app-package"></a>Carregar um pacote de aplicativo
+
+O desenvolvedor cria um pacote de aplicativos Teams usando o [Teams app Studio](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-app-studio)e, em seguida, o envia para você no formato. zip. Quando você tem o pacote do aplicativo, pode carregá-lo na loja de aplicativos da sua organização.
+
+Para carregar um novo aplicativo personalizado, selecione **carregar** para carregar o pacote do aplicativo. O aplicativo não está realçado depois de carregado, portanto, você precisará pesquisar a lista de aplicativos na página Gerenciar aplicativos para localizá-lo.
+
+Para atualizar um aplicativo após ele ser carregado, na lista de aplicativos na página Gerenciar aplicativos, clique no nome do aplicativo e, em seguida, clique em **Atualizar**. Isso substitui o aplicativo existente e todas as políticas de permissão do aplicativo e as políticas de configuração do aplicativo permanecem impostas para o aplicativo atualizado.
+
+Para saber mais, confira [publicar um aplicativo personalizado carregando um pacote de aplicativo](upload-custom-apps.md).
 
 ## <a name="allow-and-block-apps"></a>Permitir e bloquear aplicativos
 
-A página **gerenciar aplicativos** é onde você permite ou bloqueia aplicativos individuais no nível da organização. Ele mostra todos os aplicativos disponíveis e seu status atual do aplicativo de nível da organização. (O bloqueio e a permissão de aplicativos no nível da organização foram movidos do painel **configurações do aplicativo de toda a organização** para este local.)
+A página Gerenciar aplicativos é onde você permite ou bloqueia aplicativos individuais no nível da organização. Ele mostra todos os aplicativos disponíveis e seu status atual do aplicativo de nível da organização. (O bloqueio e a permissão de aplicativos no nível da organização foram movidos do painel **configurações do aplicativo de toda a organização** para este local.)
 
 Para permitir ou bloquear um aplicativo, selecione-o e, em seguida, clique em **permitir** ou **Bloquear**. Quando você bloqueia um aplicativo, todas as interações com esse aplicativo são desabilitadas e o aplicativo não aparece no Teams para os usuários de sua organização.
 
-Quando você bloqueia ou permite um aplicativo na página **gerenciar aplicativos** , esse aplicativo é bloqueado ou permitido para todos os usuários em sua organização.  Quando você bloqueia ou permite um aplicativo em uma política de permissão do aplicativo Teams, ele é bloqueado ou permitido para os usuários atribuídos a essa política. Para que um usuário possa instalar e interagir com qualquer aplicativo, você deve permitir o aplicativo no nível da organização na página **gerenciar aplicativos** e na política de permissão do aplicativo atribuída ao usuário.
+Quando você bloqueia ou permite um aplicativo na página Gerenciar aplicativos, esse aplicativo é bloqueado ou permitido para todos os usuários em sua organização.  Quando você bloqueia ou permite um aplicativo em uma política de permissão do aplicativo Teams, ele é bloqueado ou permitido para os usuários atribuídos a essa política. Para que um usuário possa instalar e interagir com qualquer aplicativo, você deve permitir o aplicativo no nível da organização na página Gerenciar aplicativos e na política de permissão do aplicativo atribuída ao usuário.
 
  > [!NOTE]
- > Para desinstalar um aplicativo, clique com o botão direito do mouse no aplicativo e, em seguida, clique em **desinstalar** ou use o menu **mais aplicativos** no lado esquerda. 
+ > Para desinstalar um aplicativo, clique com o botão direito do mouse no aplicativo e, em seguida, clique em **desinstalar** ou use o menu **mais aplicativos** no lado esquerdo. 
 
 ## <a name="manage-org-wide-app-settings"></a>Gerenciar configurações de aplicativo de toda a organização
 
@@ -92,7 +111,7 @@ Use as configurações de aplicativo de toda a organização para controlar se o
 > [!NOTE]
 > Para saber como usar as configurações de aplicativo de toda a organização nas implantações do Microsoft 365 governo-GCC do Teams, consulte [gerenciar políticas de permissão do aplicativo no Microsoft Teams](teams-app-permission-policies.md).
 
-1. Na página **gerenciar aplicativos** , selecione **configurações de aplicativo de toda a organização**. Em seguida, você pode definir as configurações desejadas no painel.
+1. Na página Gerenciar aplicativos, selecione **configurações de aplicativo de toda a organização**. Em seguida, você pode definir as configurações desejadas no painel.
 
     ![Captura de tela das configurações de aplicativo de toda a organização](media/manage-apps-org-wide-app-settings.png)
     
