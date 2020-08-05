@@ -68,7 +68,6 @@
 ### [Modelos de aplicativos para o Teams](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Gerenciar o aplicativo Listas para sua organização no Teams](manage-lists-app.md)
 ### [Gerenciar o aplicativo Tarefas para a sua organização](manage-tasks-app.md)
-### [Gerenciar o aplicativo Elogiar](manage-praise-app.md)
 ### [Configurar a hierarquia de direcionamento da equipe](set-up-your-team-hierarchy.md)
 ### [Configurar o aplicativo de Reuniões do Skype para trabalhar com o Teams](configure-skype-meetings-app-to-work-with-teams.md)
 
