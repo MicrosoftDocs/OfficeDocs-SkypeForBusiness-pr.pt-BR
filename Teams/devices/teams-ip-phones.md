@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Saiba qual escrivaninha e telefones de conferências são certificados para que o Microsoft Teams produza os melhores resultados.
-ms.openlocfilehash: a4789f23f79b48001bd2c411eeefe592267c4c24
-ms.sourcegitcommit: 98760985712d3cccefd0378964a26324677cf777
+ms.openlocfilehash: 6aab0bcb24729dc1e021709563ca1c2dcda5d039
+ms.sourcegitcommit: 2aea6ec07149a3054ee4434c8a0bffabf1a16d25
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "45166749"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46576913"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>Telefones IP certificados para o Microsoft Teams
 
@@ -48,6 +48,7 @@ Os seguintes telefones são certificados para o Microsoft Teams:
 |:---------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------|
 | AudioCodes C450HD                      | C450HD_TEAMS_0.225                                                                                                                                                                                                                         | Março de 2019                   |
 | AudioCodes C448HD (modo de CAP somente)      | C450HD_TEAMS_0.225                                                                                                                                                                                                                         | Março de 2019                   |
+|Crestron UC-2                           |1.0.1.46                                                  | De julho de 2020                    |
 | Crestron M100                          | Este produto foi descontinuado. Para obter mais informações, acesse [Crestron M100](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M100-T) no website da Crestron. | Descontinuado a partir de 5/11/2020 |
 | Crestron Flex UC-P100-T & UC-P110-T    | Este produto foi descontinuado. Para obter mais informações, acesse o site de [comunicação unificada](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/UC-PHONE-T-PLUS) no website da Crestron.                  | Descontinuado a partir de 5/11/2020 |
 | Exibição ThinkSmart do Lenovo                 | CD-18781Y. 200410.067                                                                                                                                                                                                                       | Abril de 2020                   |

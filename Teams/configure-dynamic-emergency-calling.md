@@ -17,12 +17,12 @@ description: Saiba como configurar os planos de chamada e o recurso de chamadas 
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 27ee8dd17b3948d373b5a6c13a210d298ee10d8c
-ms.sourcegitcommit: a22a7b7e4bf556ee3e5e2e51c6f9f1c865a0724a
+ms.openlocfilehash: 1b0cfe260a2d7e159c4adfad31d5266ed5f924d5
+ms.sourcegitcommit: 2aea6ec07149a3054ee4434c8a0bffabf1a16d25
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "45083151"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46576923"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>Planejar e configurar chamadas de emergência dinâmicas 
 
@@ -75,6 +75,9 @@ Os clientes a seguir têm suporte no momento.  Verifique com frequência para ve
 - Cliente do teams Mobile para cliente Android e Google Play Store versão 1416/1.0.0.2019121201 e posterior
 - Teams Phone versão 1449/1.0.94.2019110802 e maior
 - Salas de equipe versão 4.4.25.0 e maior
+
+> [!NOTE]
+> Não há suporte para chamadas de emergência dinâmicas, incluindo a notificação de segurança técnica, no cliente da Web Teams. Para impedir que os usuários usem o cliente Web do teams para chamar números PSTN, você pode definir uma política de chamada de equipes e desativar a configuração **Permitir chamadas de PSTN na Web** . Para saber mais, consulte [chamando políticas em Teams](teams-calling-policy.md) e [set-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps).
 
 ## <a name="assign-emergency-addresses"></a>Atribuir endereços de emergência
 

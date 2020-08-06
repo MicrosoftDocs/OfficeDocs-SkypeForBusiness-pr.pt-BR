@@ -1,8 +1,7 @@
 ---
 title: Expanda o Microsoft Teams em toda a sua organização
 description: Saiba mais sobre os recursos disponíveis para criar na implantação de equipes padrão para ajudá-lo a aproveitar ao máximo o Microsoft Teams para tipos específicos de organização.
-layout: LandingPage
-ms.topic: landing-page
+ms.topic: conceptual
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -16,106 +15,18 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 91a584f7dea5ae9c6ea23f8c4ee30b5eadf3dc20
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: b3e7748fde03358388b5bc105bb247d14eb2701d
+ms.sourcegitcommit: 2aea6ec07149a3054ee4434c8a0bffabf1a16d25
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904366"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46576943"
 ---
 # <a name="expand-microsoft-teams-across-your-organization"></a>Expanda o Microsoft Teams em toda a sua organização
 
 Esses recursos se baseiam no guia de implantação de equipes padrão e são projetados para ajudá-lo a aproveitar ao máximo o Microsoft Teams para tipos específicos de organização. Se você ainda não implantou o Microsoft Teams, consulte o caminho recomendado para o Teams em [como implantar o Microsoft Teams](../How-to-roll-out-teams.md).
 
-<ul class="panelContent cardsFTitle">
- <li>
-        <a href="https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/shifts-for-teams-landing-page">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/clock-teams.svg" alt="An icon representing an analog clock" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Turnos do Teams</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/teams-for-healthcare-landing-page">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/health-teams.svg" alt="A heart icon representing health" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Teams para Serviços de Saúde</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-<li>
-        <a href="https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/teams-for-education-landing-page">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg" alt="A mortarboard icon representing education" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Microsoft Teams for Education</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-<li>
-        <a href="https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/teams-for-retail-landing-page">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/small-business-teams.svg" alt="A storefront icon representing retail" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Teams para o Varejo</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-<li>
-        <a href="https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/teams-for-government-landing-page">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/blocks-teams.svg" alt="A building blocks icon representing government" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Teams para a Administração Pública</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-</ul>
+|               |               |               |               |               |               | 
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | 
+| ![lista de verificação de tarefas-planejamento-equipes](../media/clock-teams-small.svg)  |  [Turnos do Teams](/microsoftteams/expand-teams-across-your-org/shifts-for-teams-landing-page) |![saúde-equipes](../media/health-teams-small.svg)  | [Teams para Serviços de Saúde](/microsoftteams/expand-teams-across-your-org/teams-for-healthcare-landing-page) |![Educação-Tutorial-equipes](../media/education-tutorial-teams-small.svg) |  [Teams para a Educação](/microsoftteams/expand-teams-across-your-org/teams-for-education-landing-page) 
+|![pequenas empresas-equipes](../media/small-business-teams-small.svg)  | [Teams para o Varejo](/microsoftteams/expand-teams-across-your-org/teams-for-retail-landing-page) |![blocos-equipes](../media/blocks-teams-small.svg)  | [Teams para a Administração Pública](/microsoftteams/expand-teams-across-your-org/teams-for-government-landing-page) |               |               |

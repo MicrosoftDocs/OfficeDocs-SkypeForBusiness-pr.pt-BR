@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Saiba como configurar um SBC (controlador de borda de sessão) para atender a vários locatários para parceiros da Microsoft e/ou operadoras PSTN.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0effcbf1c328592781ca955813368e3ee97b61e8
-ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
+ms.openlocfilehash: d3c2f1fccf0a00e5ce54bad98d4ae94f96534dc6
+ms.sourcegitcommit: b14ad0a6c454b20f34fccbd1d312de24379faef0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46552617"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "46572356"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurar um controlador de borda da sessão para vários locatários
 
@@ -60,7 +60,7 @@ Para ver as etapas detalhadas sobre como implantar e configurar o SBCs para um c
 
 - **AudioCodes:** [observações sobre a configuração de roteamento direto](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams), a configuração do cenário de Hospedagem de SBC descrito em "conectando AudioCodes SBC para o Microsoft Teams Direct Routing Routing Model Configuration observação". 
 - **Oracle:** [notas de configuração de roteamento direto](https://www.oracle.com/technetwork/indexes/documentation/acme-packet-2228107.html), a configuração do cenário de Hospedagem de SBC é descrita na seção "Microsoft". 
-- **Comunicações da faixa** de opções:  Consulte o guia de [configuração do Microsoft Teams SBC da faixa de opções do Microsoft Teams](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe) para obter a documentação sobre como configurar a faixa de opções da faixa de opções SBCS e para esta página de [práticas recomendadas de roteamento direto do Microsoft Teams](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+Carriers+for+Microsoft+Teams+Direct+Routing)
+- **Comunicações da faixa** de opções:  Consulte o guia de [configuração do Microsoft Teams SBC da faixa de opções do Microsoft Teams](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe) para obter a documentação sobre como configurar a faixa de opções da faixa de opções SBCS e para esta página de [práticas recomendadas de roteamento direto do Microsoft Teams](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Direct+Routing+Carrier)
 - **SMS (anynode):**  Registre-se na [página da comunidade de SMS](https://community.te-systems.de/) para obter documentação e exemplos sobre como configurar o SBC anynode para vários locatários.
 - **Metaswitch:**  Registre-se na [página da Comunidade metaswitch](https://sso.metaswitch.com/UI/Login) para obter a documentação sobre como habilitar o SBC Perimeta para vários locatários.
 

@@ -1,7 +1,7 @@
 ---
 title: Barreiras de informação no Microsoft Teams
 author: chrfox
-ms.author: chrfox
+ms.author: anwara
 manager: laurawi
 ms.topic: article
 ms.service: msteams
@@ -16,12 +16,12 @@ description: Este artigo explica o que são barreiras de informações no Micros
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 29a9ac9d80e4c729dc6c040c1a7ec7fdc5eaa7d7
-ms.sourcegitcommit: a5276a713697e089d0eb0d80bba83a7af8d48251
+ms.openlocfilehash: 585cff9e8eb99a736b25e4ee0463ce4783c01ad1
+ms.sourcegitcommit: b14ad0a6c454b20f34fccbd1d312de24379faef0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45202907"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "46572376"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Barreiras de informação no Microsoft Teams
 
@@ -177,6 +177,9 @@ Clique [aqui](https://docs.microsoft.com/sharepoint/information-barriers#segment
 ## <a name="required-licenses-and-permissions"></a>Permissões e licenças necessárias
 
 Para obter mais detalhes, incluindo planos e preços, consulte [orientação de licenciamento](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).
+
+## <a name="known-issues"></a>Problemas conhecidos
+- **Os usuários não podem ingressar em reuniões**: se as políticas do IB estiverem habilitadas, os usuários não poderão ingressar em reuniões se o tamanho da lista de reuniões for mais de 250 usuários. A causa raiz é que as verificações de IB dependem se os usuários podem ser adicionados a uma lista de chats de reunião e leva esse sinal para permitir que os usuários ingressem em reuniões. Ao ingressar em uma reunião, você será adicionado ao usuário à lista, portanto para reuniões recorrentes, a escala será preenchida rapidamente. Quando ele atinge uma contagem de usuários do 250, nenhum usuário adicional pode ser adicionado à lista de chats da reunião. Se o IB estiver habilitado, os usuários não poderão ingressar na reunião, mas se a IB não estiver habilitada, os usuários poderão ingressar na reunião, embora não sejam adicionados à lista de chats da reunião. Uma solução de curto prazo é remover membros inativos da lista de chats da reunião para liberar espaço para novos usuários. No entanto, vamos aumentar o tamanho das escalas de chat da reunião em uma data posterior.
 
 ## <a name="more-information"></a>Mais informações
 

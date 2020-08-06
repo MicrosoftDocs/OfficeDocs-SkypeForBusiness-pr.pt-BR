@@ -15,12 +15,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: Veja quais periféricos e dispositivos USB, como fones de ouvido com microfone, telefones-voz, webcams e monitores, são certificados para o Microsoft Teams.
-ms.openlocfilehash: 14565d34b8e03095f7484fe89b0d303a8a0790bc
-ms.sourcegitcommit: 98760985712d3cccefd0378964a26324677cf777
+ms.openlocfilehash: 3b92c41745027987ec3f03272fd10077c6302c49
+ms.sourcegitcommit: b14ad0a6c454b20f34fccbd1d312de24379faef0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "45166739"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "46572256"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Dispositivos de áudio e vídeo USB certificados para o Microsoft Teams
 
@@ -78,8 +78,15 @@ Se você for um fabricante e quiser participar do programa de certificação, co
 
 | Fabricante        | Modelo                                                     | Qualificação      | Programa certificado                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
-|Bose                 |Fone de ouvido com microfone do NC 700                                             |6/8/2020        |Certificado para o Microsoft Teams|
-|Jabra              | 750 viva-voz com Jabra Link 370       | 5/21/2020 | Certificado para o Microsoft Teams|
+|ViewSonic            |WCD-IFP8670                                                |7/31/2020       |Certificado para Skype for Business                        |
+|ViewSonic            |WCD-IFP6570                                               |7/31/2020       |Certificado para Skype for Business                        |
+|Jabra                |Envolver fone de ouvido com microfone de 75                                          |7/31/2020       |Skype for Business com atualização para o Microsoft Teams      |
+|Jabra                |Envolver fone de ouvido com microfone de 65                                          |7/31/2020       |Skype for Business com atualização para o Microsoft Teams      |
+|Jabra                |Envolver fone de ouvido com microfone de 50                                          |7/31/2020       |Skype for Business com atualização para o Microsoft Teams      |
+|Avocor               |WCD-AVW-6555                                              |7/30/2020       |Certificado para o Microsoft Teams                           |
+|Jabra                |Fone de ouvido com microfone Evolve2 85                                         |7/17/2020       |Certificado para o Microsoft Teams                           |
+|Bose                 |Fone de ouvido com microfone do NC 700                                             |6/8/2020        |Certificado para o Microsoft Teams                           |
+|Jabra                | 750 viva-voz com Jabra Link 370     | 5/21/2020       | Certificado para o Microsoft Teams                         |
 | EPOS                | Fone de ouvido com microfone Sennheiser Adaptive 660                              | 5/15/2020      | Certificado para o Microsoft Teams                          |
 | EPOS                | Fone de ouvido com microfone Sennheiser Adaptive 560                              | 5/15/2020      | Certificado para o Microsoft Teams                          |
 | EPOS                | Sennheiser adaptação 460T fone de ouvido                             | 5/15/2020      | Certificado para o Microsoft Teams                          |

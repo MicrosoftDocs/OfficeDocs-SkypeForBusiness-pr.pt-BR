@@ -16,12 +16,12 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 233e26042c66e96f5611b9f3997684404353453d
-ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
+ms.openlocfilehash: 3ab779c7b60ab702284c871ab6bd0ec08d051267
+ms.sourcegitcommit: b14ad0a6c454b20f34fccbd1d312de24379faef0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46552269"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "46572236"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>Planejar o Roteamento baseado na localização para o Roteamento direto
 
@@ -35,7 +35,7 @@ Aqui você terá uma visão geral do roteamento e orientação baseado em local 
 - [Habilitar o Roteamento baseado na localização para o Roteamento direto](location-based-routing-enable.md)
 
 > [!NOTE]
-> O roteamento baseado em local não está disponível nas implantações elevadas do Microsoft 365 governo Community Cloud (GCC).
+> O roteamento baseado em local não está disponível nas implantações do Microsoft 365 governo Community Cloud (GCC) de alta ou DoD.
 
 O roteamento baseado em local é um recurso que permite que você restrinja o desvio de chamada tarifada com base na política e na localização geográfica do usuário no momento de uma chamada PSTN de entrada ou saída. O roteamento baseado em local tem o objetivo de fornecer um mecanismo para impedir o bypass de chamadas. Ele não deve ser usado como um mecanismo para direcionar dinamicamente chamadas PSTN com base na localização do usuário ou podem resultar em conseqüências indesejadas.
 
