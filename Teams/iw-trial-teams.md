@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b0e6185b81d7fcdbf76efa7c827249a93dfc00df
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 9f541eb0bd6970a54bad5272a26ec3a3449d2a13
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868678"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552627"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Gerenciar a oferta de avaliação na nuvem comercial do Microsoft Teams
 =======================================================
@@ -81,7 +81,7 @@ Os administradores podem desativar a capacidade de os usuários finais reivindic
 
 Você pode desativar a capacidade de um usuário instalar serviços e aplicativos de avaliação.
 
-1. No [Centro de administração do Microsoft 365](https://portal.office.com/adminportal/home), vá até **Configurações** > **Configurações**, selecione**Serviços**e, em seguida, selecione **Aplicativos e serviços de propriedade do usuário**.
+1. No [Centro de administração do Microsoft 365](https://portal.office.com/adminportal/home), vá até **Configurações** > **Configurações da organização**, selecione **Serviços**, e depois selecione **Aplicativos e serviços de propriedade do usuário**.
 
     ![Captura de tela da página Serviços do centro de administração](media/iw-trial-services.png)
 

@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d0b5c289a2cc87c778a0d9b0bd1ebb8d52978fb4
-ms.sourcegitcommit: 863347fb6e5916d8d936adc4ddcebb2e32a91d1c
+ms.openlocfilehash: 1508305fbc1d45caff9306dd5afb01d587df030b
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45229137"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552279"
 ---
 <a name="manage-the-microsoft-teams-exploratory-license"></a>Gerenciar a licença do Microsoft Teams Exploratory
 =======================================================
@@ -79,9 +79,9 @@ Os administradores podem desabilitar a capacidade para que os usuários finais e
 
 ### <a name="prevent-users-from-installing-trial-apps-and-services"></a>Impedir que os usuários instalem serviços e aplicativos de avaliação
 
-Você pode desativar a capacidade de um usuário de instalar aplicativos e serviços de avaliação, evitando que o usuário execute a experiência do Teams Exploratory. 
+Você pode desativar a capacidade de um usuário de instalar aplicativos e serviços de avaliação, o que impediria o usuário de executar a experiência Exploratória do Teams. 
 
-1. No Centro de administração do Microsoft 365, vá até **Configurações** > **Configurações**, selecione**Serviços** e, em seguida, selecione **Aplicativos e serviços de propriedade do usuário**.
+1. Do Centro de administração do Microsoft 365, vá até **Configurações** > **Configurações da Organização**, selecione **Serviços** e, em seguida, selecione **Aplicativos e serviços de propriedade do usuário**.
 
     ![Captura de tela da página Serviços do centro de administração](media/iw-trial-services.png)
 
@@ -169,4 +169,3 @@ As licenças de experiência do Microsoft Teams Exploratory iniciadas dentro dos
 Para contratos sem uma data de aniversário ou de renovação anual, o ano subsequente após o primeiro usuário final ativar as licenças de experiências do Microsoft Teams Exploratory será considerado como a data de aniversário ou de renovação. Os usuários na licença do Microsoft Teams Exploratory devem ser convertidos para uma licença paga até essa data a cada ano, de acordo com as políticas descritas acima.
 
 Por exemplo, se o primeiro usuário final ativar o Microsoft Teams Exploratory em 19 de junho de 2020, ele e todos os outros usuários qualificados no locatário do cliente devem ser convertidos para uma licença paga com o Teams até 19 de junho de 2021. 
-
