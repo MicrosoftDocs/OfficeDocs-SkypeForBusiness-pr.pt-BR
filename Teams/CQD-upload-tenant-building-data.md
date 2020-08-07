@@ -1,7 +1,7 @@
 ---
 title: Carregar o locatário e compilar dados no painel de qualidade de chamada (CQD)
-ms.author: lolaj
-author: LolaJacobsen
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: mikedav, siunies, gageames
 ms.topic: article
@@ -21,12 +21,12 @@ ms.custom:
 - Reporting
 - seo-marvel-apr2020
 description: Saiba como carregar locatários e compilar dados no painel de qualidade de chamada (CQD).
-ms.openlocfilehash: d8a27ab45a01d1b0eccc28716bee9fa838fb8de5
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: 86ff0cba51b5c1cb291f7b885cf5baadf9744d4a
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085995"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46584060"
 ---
 # <a name="upload-tenant-and-building-data-in-call-quality-dashboard-cqd"></a>Carregar o locatário e compilar dados no painel de qualidade de chamada (CQD)
 

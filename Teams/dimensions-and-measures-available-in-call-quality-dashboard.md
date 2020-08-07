@@ -1,7 +1,7 @@
 ---
 title: Dimensões e medições-painel de qualidade de chamada (CQD)
-ms.author: lolaj
-author: LolaJacobsen
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: siunies, mikedav, gageames
 ms.topic: article
@@ -22,12 +22,12 @@ ms.custom:
 - Reporting
 - seo-marvel-mar2020
 description: Obtenha informações detalhadas sobre as dimensões e medidas usadas pelo painel de qualidade da chamada (CQD) para Microsoft Teams e Skype for Business online.
-ms.openlocfilehash: 1625a7fcb0de0c2e5ad8586b0985ddb61de5e75b
-ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
+ms.openlocfilehash: 9398c7861be3b87e0d181c979ffb0046dbfdf695
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45372130"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583940"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard-cqd"></a>Dimensões e medidas disponíveis no painel de qualidade de chamada (CQD)
 

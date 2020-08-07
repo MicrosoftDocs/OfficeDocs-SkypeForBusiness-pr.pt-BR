@@ -1,8 +1,8 @@
 ---
 title: Criar uma estratégia de gerenciamento de alterações
 ms.reviewer: ''
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
@@ -15,12 +15,12 @@ description: Crie uma estratégia de gerenciamento de alterações para o Micros
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 93cc8c9b56381e656cbcfbe2c47aef0e10593e45
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 15bf9c37dd205cb95133f157a6b9fe9cc2549f2a
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690477"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46581782"
 ---
 <a name="create-a-change-management-strategy-for-microsoft-teams"></a>Criar uma estratégia de gerenciamento de mudanças para o Microsoft Teams
 =======================================================

@@ -1,8 +1,8 @@
 ---
 title: Criar equipes do Gerenciador de pessoas no Microsoft Teams
 ms.reviewer: pbethi
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eb6cd6ed74bebd0cbd729b828c152b9f04d1fc1f
-ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
+ms.openlocfilehash: fe57656eec61747dd0a43d475444e65d8600e222
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42796180"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583670"
 ---
 # <a name="create-people-manager-teams-in-microsoft-teams"></a>Criar equipes do Gerenciador de pessoas no Microsoft Teams
 
@@ -30,9 +30,9 @@ Ao implantar o Microsoft Teams, em vez de iniciar com uma "ardósia em branco" (
 
 ## <a name="how-to-use-the-powershell-script"></a>Como usar o script do PowerShell 
 
-Comece executando os [gerentes de exportação e o script de direcionadores](scripts/powershell-script-create-teams-from-managers-export-managers.md) (que pressupõe que você já tenha executado os módulos do PowerShell [Connect-AzureAd](https://docs.microsoft.com/powershell/module/azuread/connect-azuread?view=azureadps-2.0) e [Connect-MicrosoftTeams](https://docs.microsoft.com/powershell/module/teams/connect-microsoftteams?view=teams-ps) ). Os *gerentes de exportação e seus scripts do directs* criam um arquivo delimitado por tabulação (ExportedManagerDirects. txt) que lista todos os gerentes com seus subordinados diretos. 
+Comece executando os [gerentes de exportação e o script de direcionadores](scripts/powershell-script-create-teams-from-managers-export-managers.md) (que pressupõe que você já tenha executado os módulos do PowerShell [Connect-AzureAd](https://docs.microsoft.com/powershell/module/azuread/connect-azuread?view=azureadps-2.0) e [Connect-MicrosoftTeams](https://docs.microsoft.com/powershell/module/teams/connect-microsoftteams?view=teams-ps) ). Os *gerentes de exportação e seus scripts do directs* criam um arquivo delimitado por tabulação (ExportedManagerDirects.txt) que lista todos os gerentes com seus subordinados diretos. 
 
-Em seguida, execute o [script criar novas equipes de gerentes de pessoas](scripts/powershell-script-create-teams-from-managers-new-teams.md). Esse script lê no arquivo ExportedManagerDirects. txt e cria uma equipe para cada gerente, com os relatórios diretos do gerente como membros. Se algum gerente ou direto não estiver habilitado para o Teams, o script os ignorará e não criará uma equipe. (Revise o relatório e execute o script novamente depois de ativar o Teams para qualquer pessoa que precisar. O script não criará uma segunda equipe para qualquer gerente que já tenha criado uma equipe.)
+Em seguida, execute o [script criar novas equipes de gerentes de pessoas](scripts/powershell-script-create-teams-from-managers-new-teams.md). Esse script lê no arquivo ExportedManagerDirects.txt e cria uma equipe para cada gerente, com os relatórios diretos do gerente como membros. Se algum gerente ou direto não estiver habilitado para o Teams, o script os ignorará e não criará uma equipe. (Revise o relatório e execute o script novamente depois de ativar o Teams para qualquer pessoa que precisar. O script não criará uma segunda equipe para qualquer gerente que já tenha criado uma equipe.)
 
 Para cada equipe, o script cria um canal geral e "apenas para diversão". 
 
@@ -46,4 +46,4 @@ Para cada equipe, o script cria um canal geral e "apenas para diversão".
 
 [Práticas recomendadas para organizar equipes](best-practices-organizing.md)
 
-[Criar uma equipe englobando toda a organização no Teams](create-an-org-wide-team.md)
+[Crie uma equipe englobando toda a organização no Teams](create-an-org-wide-team.md)

@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba como carregar seus aplicativos personalizados para a loja de aplicativos da sua organização no centro de administração do Microsoft Teams.
-ms.openlocfilehash: 68d7dbc16ca3aa6258fd5f976688240095226934
-ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
+ms.openlocfilehash: d43b19f4ada3ce6f0424a324cdea6f194575325b
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46552787"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583640"
 ---
 # <a name="publish-a-custom-app-by-uploading-an-app-package"></a>Publicar um aplicativo personalizado carregando um pacote de aplicativo
 
@@ -88,6 +88,12 @@ Por padrão, todos os usuários em sua organização podem acessar o aplicativo 
 ### <a name="pin-and-install-the-app-for-users-to-discover"></a>Fixar e instalar o aplicativo para que os usuários descubram
 
 Por padrão, para que os usuários localizem o aplicativo, eles precisam ir para a loja de aplicativos da sua organização e procurar ou procurá-lo. Para facilitar para os usuários acessar o aplicativo, você pode fixar o aplicativo à barra de aplicativos no Microsoft Teams. Para fazer isso, crie uma política de configuração de aplicativo e atribua-a a usuários. Para saber mais, consulte <a href="https://docs.microsoft.com/microsoftteams/teams-app-setup-policies" target="_blank">gerenciar políticas de configuração de aplicativos no Microsoft Teams</a>.
+
+### <a name="search-the-audit-log-for-teams-app-events"></a>Pesquisar eventos do aplicativo Teams no log de auditoria
+
+Você pode pesquisar o log de auditoria para ver a atividade de aplicativos do teams em sua organização. Para saber mais sobre como Pesquisar no log de auditoria e ver uma lista de atividades do teams que são registradas no log de auditoria, consulte <a href="https://docs.microsoft.com/microsoftteams/audit-log-events" target="_blank">Pesquisar o log de auditoria para eventos no Teams</a>.
+
+Para que você possa Pesquisar no log de auditoria, primeiro ative a auditoria no <a href="https://protection.office.com" target="_blank">centro de conformidade do & de segurança</a>. Para saber mais, confira <a href="https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014" target="_blank">Ativar ou desativar a pesquisa de log de auditoria</a>. Lembre-se de que os dados de auditoria estão disponíveis apenas no ponto em que você ativou a auditoria.
 
 ## <a name="discover-and-adopt"></a>Descubra e adote
 

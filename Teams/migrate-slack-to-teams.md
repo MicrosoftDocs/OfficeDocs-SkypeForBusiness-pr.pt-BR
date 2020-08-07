@@ -1,7 +1,7 @@
 ---
 title: Migrar do Slack para o Microsoft Teams
-author: lolajacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 ms.reviewer: brandber
 manager: serdars
 ms.topic: article
@@ -17,12 +17,12 @@ localization_priority: Priority
 f1.keywords:
 - NOCSH
 description: Orientação completa para migrar do Slack para o Microsoft Teams.
-ms.openlocfilehash: ca104baf5baebaa0e44c2202794c1b8ed6862633
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 142a573acaaf9b2d7da50ec2516fbc6c30f4ed2b
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44638640"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46581432"
 ---
 # <a name="migrate-from-slack-to-microsoft-teams"></a>Migrar do Slack para o Microsoft Teams
 

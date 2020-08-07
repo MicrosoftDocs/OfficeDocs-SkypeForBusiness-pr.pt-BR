@@ -17,12 +17,12 @@ description: Saiba como usar o relatório de uso de eventos Team Live no centro 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: faf4a19b8a9bcd4b6fbdc2b3fd55882121015da2
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: f9b25fa7c476c9dd3fe347af26fc13742b41d009
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904286"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583760"
 ---
 # <a name="microsoft-teams-live-event-usage-report"></a>Relatório de uso de eventos ao vivo do Microsoft Teams
 
@@ -30,7 +30,7 @@ O relatório de uso de eventos Team Live no centro de administração do Microso
 
 ## <a name="view-the-live-event-usage-report"></a>Exibir o relatório de uso de eventos ao vivo
 
-1. Na navegação à esquerda do centro de administração do Microsoft Teams, clique em **análises &** > relatórios de**uso**dos relatórios. Na guia **exibir relatórios** , em **relatório**, selecione **uso de eventos ao vivo do teams**.
+1. Na navegação à esquerda do centro de administração do Microsoft Teams, clique em **análises &** relatórios de  >  **uso**dos relatórios. Na guia **exibir relatórios** , em **relatório**, selecione **uso de eventos ao vivo do teams**.
 2. Em **intervalo de datas**, selecione um intervalo predefinido ou defina um intervalo personalizado. Você pode definir um intervalo para mostrar dados de até um ano, seis meses antes e depois da data atual.
 3. Adicionais Em **organizador**, você pode optar por mostrar apenas eventos dinâmicos organizados por um usuário específico.
 4. Clique em **executar relatório**.  
@@ -46,6 +46,9 @@ O relatório de uso de eventos Team Live no centro de administração do Microso
 |**3**   |<ul><li>O eixo X no gráfico representa o intervalo selecionado de datas para o relatório.</li> <li> O eixo Y é a contagem total de modo de exibição.</li> </ul>Passe o mouse sobre o ponto em uma determinada data para ver o número de exibições em todos os eventos dinâmicos nessa data.|
 |**4**   |A tabela oferece uma divisão de cada evento ao vivo. <ul><li>**Evento** é o nome de exibição do evento ao vivo. Clique no nome do evento para [obter mais detalhes](#view-event-details) sobre o evento. </li> <li>**Hora de início** refere-se à data de início e hora do evento.</li> <li>**Status do evento** mostra se o evento foi colocado.  </li><li>**Organizador** é o nome do organizador de eventos.</li> <li>**Apresentadores** são os nomes dos apresentadores de eventos.</li><li>**Produtores** são os nomes dos produtores de eventos.</li><li>**Modos** de exibição é o número de modos de exibição exclusivos.</li><li>A **gravação** mostra se a configuração de gravação está ativada ou desativada.</li><li>**Tipo de produção** mostra se o evento é produzido em Teams ou por um dispositivo ou aplicativo externo.</li></li> </ul>Observe que, se uma conta de usuário não existir mais no Azure AD, o nome de usuário será exibido como "--" na tabela. <br><br>Para ver as informações desejadas na tabela, certifique-se de adicionar as colunas à tabela. |
 |**5**   |Selecione **Editar colunas** para adicionar ou remover colunas na tabela.|
+
+## <a name="notes"></a>Observações
+Exibindo até 100 eventos dinâmicos que correspondem aos critérios de relatório atuais. Para ver mais eventos ao vivo, aplique filtros de data para reduzir o tamanho da lista.
 
 ## <a name="view-event-details"></a>Exibir detalhes do evento
 

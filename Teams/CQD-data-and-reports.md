@@ -1,7 +1,7 @@
 ---
 title: Dados e relatórios no painel de qualidade de chamada (CQD)
-ms.author: lolaj
-author: LolaJacobsen
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: mikedav, siunies, gageames
 ms.topic: article
@@ -22,12 +22,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: Saiba mais sobre os dados e relatórios disponíveis no painel de qualidade de chamada da Microsoft (CQD).
-ms.openlocfilehash: 2801b8b2a35ae06c4bb42479bac64985b13ea93f
-ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
+ms.openlocfilehash: ec9714e0eae187bc82edf01809b50d8512d04e01
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45372160"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583088"
 ---
 # <a name="data-and-reports-in-call-quality-dashboard-cqd"></a>Dados e relatórios no painel de qualidade de chamada (CQD)
 

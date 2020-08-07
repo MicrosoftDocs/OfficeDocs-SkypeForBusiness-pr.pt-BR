@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 48cc430ea864614a306725958b56dda934e00eef
-ms.sourcegitcommit: 113e3a7314505cf78da57917ff62642125fb11fd
+ms.openlocfilehash: a63aee051467d07a5eef9063538d740b07e6eadf
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45121641"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46584080"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>Introdução à gravação baseada em políticas de equipe para chamadas & reuniões
 
@@ -40,7 +40,7 @@ O Microsoft Teams foi aprimorado para dar suporte à integração de soluções 
 
 - Novas políticas administrativas para a gravação de conformidade, incluindo a integração com as ferramentas de reunião e as ferramentas de reunião e as políticas de reunião existentes
 
-- Habilitado para usuários do teams com uma licença separada
+- Requer uma [licença de comunicação avançada](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/advanced-communications)
 
 Os recursos de integração da solução de gravação de conformidade também foram revisados em Ignite 2019 na [<span class="underline">sessão de gravação de conformidade e Microsoft Teams</span>](https://myignite.techcommunity.microsoft.com/sessions/83184?source=sessions).
 
@@ -57,9 +57,9 @@ Cada uma das categorias envolve diferentes requisitos para a forma como as grava
 | Inicia              | Usuário               | Aplicativo/solução       | Administrador (sistema)     | Administrador (sistema)  | LEA                |
 | Destino                  | Por chamada/reunião | Por chamada/reunião | Por chamada/reunião | Por usuário        | Por ponto de extremidade/DID |
 | Proprietário do armazenamento          | Usuário               | AppV                | Locatário              | Conformidade      | LEA                |
-| É preciso fornecer uma notificação? | Sim                 | Sim                 | Sim                 | Sim             | Não                 |
+| É preciso fornecer uma notificação? | Sim                | Sim                | Sim                | Sim             | Não                 |
 | Proprietário do Access           | Usuário               | AppV                | Locatário              | Conformidade      | LEA                |
-| Política de retenção?      | Opcional           | Sim                 | Sim                 | Sim              | Sim                |
+| Política de retenção?      | Opcional           | Sim                | Sim                | Sim             | Sim                |
 
 O Microsoft Teams oferece vários recursos para gravação [<span class="underline">conveniente</span>](https://docs.microsoft.com/microsoftteams/cloud-recording) e funcional para reuniões e eventos ao vivo. A gravação organizacional significa permitir que as organizações que adotarem equipes para chamadas e reuniões sejam estipuladas, por meio de uma política administrativa, quando chamadas e reuniões online devem ser automaticamente registradas e capturadas para processamento e retenção subsequentes, conforme a necessidade de uma política corporativa ou normativa relevante. Os usuários desta política ficarão cientes de que suas interações digitais com o Microsoft Teams estão sendo gravadas, mas não poderão desabilitar a gravação e não terão acesso à gravação após a conclusão da interação. A gravação torna-se parte do arquivo organizacional disponível para a conformidade e o pessoal legal para eDiscovery, o controle legal e outros usos corporativos de retenção.
 

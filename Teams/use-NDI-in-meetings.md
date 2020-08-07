@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: d971a7c9e44e2fbf7c3d2500f237e3755c5f89d0
-ms.sourcegitcommit: 824c79bd050b0abb576004f6209bb081d5090a8f
+ms.openlocfilehash: 86c0908b04b2eece835a747d9f57625878c15a99
+ms.sourcegitcommit: 95989f1a93524a2025feeb50b8635da332961ea3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "46522886"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "46588285"
 ---
 # <a name="use-ndi-in-microsoft-teams"></a>Usar o NDI no Microsoft Teams
 
@@ -40,7 +40,7 @@ O NDI limita-se a uma rede local e só deve ser considerado parte do fluxo de tr
 
 O NDI exige que duas etapas sejam ativadas para um usuário.
 
-1. O administrador de locatários deve habilitar o sinalizador de recursos enableStreamingCallsOverNdi.
+1. O administrador de locatários deve habilitar a propriedade ' AllowNDIStreaming ' em CsTeamsMeetingPolicy.
 
 ```PowerShell
 Set-CsTeamsMeetingPolicy -Identity MEETING_POLICY -AllowNDIStreaming $true
@@ -54,13 +54,13 @@ A imagem a seguir mostra a mensagem de faixa que o usuário vê em uma reunião 
 
 ![Uma imagem da faixa NDI exibida em uma reunião do teams.](media/NDI-disclosure.png)
 
-A faixa tem um link para a [política de privacidade da Microsoft](https://support.skype.com/faq/FA34853/what-is-skype-for-content-creators?q=ndi).
+A faixa tem um link para a [política de privacidade da Microsoft](https://aka.ms/teamsprivacy).
 
 ## <a name="supported-locales-and-user-types"></a>Locais e tipos de usuários com suporte
 
 NDI é compatível com todas as localidades. Os seguintes usuários têm suporte em uma reunião do NDI:
 
-- In-locatário – suporte completo, entregue com base em Ring/tenantid/userId (controlado por política de reuniões + sinalizador de recursos)
+- In-locatário – suporte completo, entregue com base em anel/tenantid/userId (controlado por política de reuniões)
 - Federado – não (mesmo quando eles têm NDI)<sup>1</sup>
 - Freemium-não (valor padrão)
 - Anônimo – não (valor padrão)

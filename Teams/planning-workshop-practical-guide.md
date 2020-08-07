@@ -1,7 +1,7 @@
 ---
 title: Ferramentas & workshops-plano, entrega & adotar equipes
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -15,12 +15,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 82c1369d724d372e9539f79be7aea10cea706751
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 23a9c1de6bf14bc8575201e746fc01437f6618cb
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137521"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46580962"
 ---
 # <a name="tools-and-workshops-plan-deliver-and-adopt-microsoft-teams"></a>Ferramentas e workshops: Planejamento, implantação e adoção do Microsoft Teams
 

@@ -1,7 +1,7 @@
 ---
 title: Atualizações do Microsoft Teams
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -16,12 +16,12 @@ description: Neste artigo, você aprenderá a usar o processo por trás da atual
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 107ef412c7c4faa3e4e0ae3ad9a8539c3bf70dec
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: cfe9a7b8878481ccdad3b1d390dc35923987e105
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43903146"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583268"
 ---
 # <a name="teams-update-process"></a>Processo de atualização de equipes
 
@@ -61,4 +61,4 @@ As versões de cliente da área de trabalho com mais de três meses em primeiro 
 
 Os clientes de desktop do teams nas nuvens governamentais atualmente têm uma exceção para esse contrato de serviço, até que você perceba ainda mais.
 
-Para obter informações sobre as novas versões de versão, verifique o [centro de mensagens](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter) ou vá para **ajuda** > **o que há de novo** no cliente.
+Para obter informações sobre as novas versões de versão, verifique o [centro de mensagens](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter) ou vá para **ajuda**  >  **o que há de novo** no cliente.

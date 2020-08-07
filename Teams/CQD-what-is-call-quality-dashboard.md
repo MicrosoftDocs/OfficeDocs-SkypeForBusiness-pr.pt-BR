@@ -1,7 +1,7 @@
 ---
 title: O que é o painel de qualidade de chamada (CQD)?
-ms.author: lolaj
-author: LolaJacobsen
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: mikedav, siunies, gageames
 ms.topic: article
@@ -23,12 +23,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: Saiba mais sobre o painel de qualidade de chamada (CQD) e como usá-lo para ver relatórios sobre a qualidade da reunião e da chamada no Microsoft Teams.
-ms.openlocfilehash: b7830d60139991b7ccc18679af798c74430e8ed1
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: 9ba1956533887314a9ffa7ad994cbb4c81ffe103
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45088239"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583480"
 ---
 # <a name="what-is-call-quality-dashboard-cqd"></a>O que é o painel de qualidade de chamada (CQD)?
 

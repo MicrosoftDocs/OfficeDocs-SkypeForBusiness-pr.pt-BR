@@ -1,7 +1,7 @@
 ---
 title: Criar um mapa de construção para o painel de qualidade de chamada (CQD)
-ms.author: lolaj
-author: LolaJacobsen
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: mikedav, siunies, gageames
 ms.topic: article
@@ -20,12 +20,12 @@ ms.custom:
 - Reporting
 - seo-marvel-apr2020
 description: Saiba como criar um mapa de construção que você pode usar para carregar locatários e construir dados no painel de qualidade de chamada (CQD).
-ms.openlocfilehash: 18e88c2de64d2d63589a3cd2ebddbc9643fe4522
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: 890e5e9b394cf8b600e635014c90ebb9053a1e07
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085998"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46584030"
 ---
 # <a name="create-a-building-map-for-call-quality-dashboard-cqd"></a>Criar um mapa de construção para o painel de qualidade de chamada (CQD)
 

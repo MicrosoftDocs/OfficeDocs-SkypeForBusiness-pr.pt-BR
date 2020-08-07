@@ -19,16 +19,18 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 26f26e869758c06762167731068033acb1707135
-ms.sourcegitcommit: ded1e92348b6c18aa31f7f67e68ced3db525977d
+ms.openlocfilehash: cc62eeb2cbbc14ce921c3f85860a72d38b59965d
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "46506347"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583168"
 ---
 # <a name="get-started-with-teams-templates-in-the-teams-admin-console"></a>Introdução aos modelos do teams no console de administração do teams
 
 [!INCLUDE [template](includes/preview-feature.md)]
+
+**Os modelos personalizados ainda não têm suporte para clientes EDU.**
 
 > [!NOTE]
 > Atualmente, os modelos de equipe não dão suporte à criação de canais particulares. A criação do canal privado não está incluída nas definições do modelo.
@@ -89,6 +91,6 @@ Depois que um tipo de modelo base é definido, você pode estender ou substituir
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-- [Criar um modelo de equipe](create-a-team-template.md)
-- [Criar uma equipe a partir de um modelo de equipe existente](modify-existing-team-template.md)
-- [Criar um modelo a partir de uma equipe existente](create-team-from-existing-team.md)
+- [Criar um modelo de equipe personalizado](create-a-team-template.md)
+- [Criar um modelo de equipe a partir de um modelo de equipe existente](create-template-from-existing-template.md)
+- [Criar um modelo a partir de uma equipe existente](create-template-from-existing-team.md)
