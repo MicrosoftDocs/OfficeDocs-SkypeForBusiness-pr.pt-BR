@@ -16,16 +16,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 75d9396bf5f537f965493bb0db317a1286b2f950
-ms.sourcegitcommit: b14ad0a6c454b20f34fccbd1d312de24379faef0
+ms.openlocfilehash: e122071a9a4173250a78468126ed576d1e560607
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "46572366"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46581492"
 ---
 # <a name="insights-in-teams-for-education-for-it-admins"></a>Insights no Teams for Education para administradores de TI
 
-Com o Insights no Microsoft Teams for Education, educadores e líderes podem acessar dados analíticos sobre envolvimento digital, carga de trabalho de atribuição, notas, comunicações e muito mais.
+Com o Insights no Microsoft Teams for Education, os educadores podem acessar dados analíticos sobre envolvimento digital, carga de atribuição de trabalho, notas, comunicação e muito mais.
 
 O Insights está ativo nos SKUs A1, A3 e A5 do Office 365 Education.
 
@@ -34,13 +34,11 @@ O Insights está ativo nos SKUs A1, A3 e A5 do Office 365 Education.
 
 ## <a name="permissions"></a>Permissões
 
-- Os alunos são identificados por sua licença e **não têm acesso à guia Insights** (mesmo que sejam proprietários da equipe).
-- Educadores são definidos pelas licenças de corpo docente. Os educadores devem ter uma licença de corpo docente e ser o proprietário de uma equipe de classe para adicionar e ver a guia do Insights. A guia reflete a atividade de todos da equipe da classe que não são proprietários (incluindo educadores que não são os donos da equipe).
-- A definição básica do líder é por licença de corpo docente. O administrador global de TI é identificado pela sua função. Os líderes devem ter uma licença de corpo docente e receber permissões explícitas do administrador global de TI para visualizar os relatórios no aplicativo Insights.
+Os educadores podem adicionar Insights a um canal público dentro de uma equipe de classe, navegando para Aplicativos na barra de aplicativos no Teams e procurando por Insights.
 
-Oferecemos Insights de duas formas:
-- Guias - Os educadores podem adicionar Insights a um canal público dentro de uma equipe de classe, navegando para Aplicativos na barra de aplicativos no Teams e procurando por Insights.
-- Aplicativo pessoal - Os líderes podem adicionar o aplicativo Insights como um aplicativo pessoal (aparece no menu à esquerda no Teams) navegando para Aplicativos na barra de aplicativos do Teams e procurando por Insights.
+- Os alunos são identificados por sua licença e **não têm acesso à guia Insights** (mesmo que sejam proprietários da equipe).
+- Educadores são definidos pelas licenças de corpo docente.
+- Os educadores devem ter uma licença de corpo docente e ser o proprietário de uma equipe de classe para adicionar e ver a guia do Insights. A guia reflete a atividade de todos da equipe da classe que não são proprietários (incluindo educadores que não são os proprietários da equipe).
 
 ## <a name="compliance"></a>Conformidade
 
@@ -51,9 +49,9 @@ O Insights tem compromissos de conformidade líderes do setor e é classificado 
 
 ## <a name="privacy"></a>Privacidade
 
-As informações coletadas e mostradas por meio do Insights atendem a mais de 90 padrões regulatórios e industriais, incluindo o GDPR e a Lei de Direitos e Privacidade da Educação da Família (FERPA) para a segurança de alunos e crianças, além de outras regulamentações semelhantes voltadas para a privacidade. É importante que os administradores de TI saibam que as informações coletadas por um aluno devem ser usadas apenas no contexto da turma, para permitir que educadores e líderes determinem o comportamento da turma. As informações são coletadas para atividades de aprendizado significativas, como participação em reuniões de classe, postagem de mensagens, resposta às postagens dos colegas, execução de tarefas, edição de arquivos e muito mais. Não mostramos informações sobre o chat privado ou logon do Teams, por exemplo.
+As informações coletadas e mostradas por meio do Insights atendem a mais de 90 padrões regulatórios e industriais, incluindo o GDPR e a Lei de Direitos e Privacidade da Educação da Família (FERPA) para a segurança de alunos e crianças, além de outras regulamentações semelhantes voltadas para a privacidade. É importante que os administradores de TI saibam que as informações coletadas dos alunos devem ser usadas apenas em um contexto de classe, para permitir que os educadores determinem o comportamento da classe. As informações são coletadas para atividades de aprendizado significativas, como participação em reuniões de classe, postagem de mensagens, resposta às postagens dos colegas, execução de tarefas, edição de arquivos e muito mais. Não mostramos informações sobre o chat privado ou logon do Teams, por exemplo.
 
-Nosso objetivo é ajudar os educadores a entender o engajamento e focar no aprendizado dos alunos. Embora essas atividades de classe possam ser concentradas em ações no nível do aluno, não há nenhum valor positivo ou negativo atribuído a essas ações pelo Microsoft Teams, e não há identificação crítica de alunos individuais com base em critérios. As informações no Insights informam ao educador que, por exemplo, um aluno não esteve ativo na ferramenta durante um determinado período de tempo ou concluiu todas as suas tarefas na semana passada no prazo determinado. É responsabilidade do educador interagir com o aluno e sua família ou responsáveis ​​para determinar a razão subjacente a qualquer atividade ou inatividade detectada.
+Nosso objetivo é ajudar os educadores a entender o engajamento e focar no aprendizado dos alunos. Embora essas atividades de classe possam ser concentradas em ações ao nível do aluno, não há nenhum valor positivo ou negativo atribuído a essas ações pelo Microsoft Teams, e não há identificação crítica de alunos individuais com base em critérios. As informações no Insights informam ao educador que, por exemplo, um aluno não esteve ativo na ferramenta durante um determinado período de tempo, ou concluiu todas as suas tarefas na semana passada no prazo determinado. É responsabilidade do educador interagir com o aluno e sua família ou responsáveis ​​para determinar a razão subjacente a qualquer atividade ou inatividade detectada.
 
 ## <a name="data-collection"></a>Coleta de dados
 
