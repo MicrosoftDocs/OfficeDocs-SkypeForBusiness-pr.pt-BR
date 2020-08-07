@@ -7,8 +7,8 @@ metadata:
   description: Projetado para profissionais de ti e tomadores de decisões, a palestra em palestras oferece uma oportunidade única para aprender práticas recomendadas e orientação prática sobre alguns dos cenários mais populares e atraentes do teams. Facilitada por especialistas no assunto, esses workshops interativos online vão rearmar você com o insights para aprimorar a implementação de suas equipes e fornecer valor adicional para os usuários finais. Clique no título de qualquer Workshop abaixo para ver as datas e horários disponíveis e inscreva-se agora! Clique em qualquer título do workshop para se registrar.
   ms.service: msteams
   ms.topic: hub-page
-  author: LolaJacobsen
-  ms.author: lolaj
+  author: SerdarSoysal
+  ms.author: serdars
   manager: serdars
   ms.date: 06/17/2020
   ms.reviewer: nsuter
@@ -25,12 +25,12 @@ metadata:
   search.appverid: MET150
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 45489827990ef2453a92e6a7ea980790efadb569
-  ms.sourcegitcommit: a73df97a06ea860bfaf5387e0acbf3c724697e14
+  ms.openlocfilehash: aeb244d8969ad3f8463cd966a6f0facae68f08e0
+  ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
   ms.translationtype: MT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 06/26/2020
-  ms.locfileid: "44902306"
+  ms.lasthandoff: 08/06/2020
+  ms.locfileid: "46583460"
 productDirectory:
   items:
   - title: Acessar o Microsoft Teams--zero para produção

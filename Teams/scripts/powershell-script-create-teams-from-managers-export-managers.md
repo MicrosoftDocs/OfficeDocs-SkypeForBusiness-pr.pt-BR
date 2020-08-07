@@ -1,7 +1,7 @@
 ---
 title: Exemplo de script do PowerShell – gerentes de exportação e seus direcionamentos
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.reviewer: brandber
@@ -16,23 +16,23 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5ccc5e5f435ccb096b3cd552fc8e2e87204a4abc
-ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
+ms.openlocfilehash: d9e7b35710811438f1435306ce08b487b490d472
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43951076"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583118"
 ---
-# <a name="powershell-script-sample---export-managers-and-their-directs"></a><span data-ttu-id="8f7ef-103">Exemplo de script do PowerShell – gerentes de exportação e seus direcionamentos</span><span class="sxs-lookup"><span data-stu-id="8f7ef-103">PowerShell script sample - Export managers and their directs</span></span>
+# <a name="powershell-script-sample---export-managers-and-their-directs"></a><span data-ttu-id="c369d-103">Exemplo de script do PowerShell – gerentes de exportação e seus direcionamentos</span><span class="sxs-lookup"><span data-stu-id="c369d-103">PowerShell script sample - Export managers and their directs</span></span>
 
-<span data-ttu-id="8f7ef-104">Use este script do PowerShell para exportar uma lista de gerentes e seus direcionamentos para a sua organização, em preparação para a criação de uma equipe do gerente de pessoas para cada gerente com seus direcionamentos como membros da equipe.</span><span class="sxs-lookup"><span data-stu-id="8f7ef-104">Use this PowerShell script to export a list of managers and their directs for your organization, in preparation for creating a people manager team for each manager with their directs as team members.</span></span>
+<span data-ttu-id="c369d-104">Use este script do PowerShell para exportar uma lista de gerentes e seus direcionamentos para a sua organização, em preparação para a criação de uma equipe do gerente de pessoas para cada gerente com seus direcionamentos como membros da equipe.</span><span class="sxs-lookup"><span data-stu-id="c369d-104">Use this PowerShell script to export a list of managers and their directs for your organization, in preparation for creating a people manager team for each manager with their directs as team members.</span></span>
 
-<span data-ttu-id="8f7ef-105">Para saber mais sobre esse script do PowerShell, leia [criar equipes do Gerenciador de pessoas](../create-manager-directs-teams.md).</span><span class="sxs-lookup"><span data-stu-id="8f7ef-105">To learn about this PowerShell script, read [Create people manager teams](../create-manager-directs-teams.md).</span></span>
+<span data-ttu-id="c369d-105">Para saber mais sobre esse script do PowerShell, leia [criar equipes do Gerenciador de pessoas](../create-manager-directs-teams.md).</span><span class="sxs-lookup"><span data-stu-id="c369d-105">To learn about this PowerShell script, read [Create people manager teams](../create-manager-directs-teams.md).</span></span>
 
-<span data-ttu-id="8f7ef-106">Se você é novato no PowerShell e precisa de ajuda para começar, consulte [Visão geral do Azure PowerShell](https://docs.microsoft.com/powershell/azure/overview?view=azurermps-5.1.1).</span><span class="sxs-lookup"><span data-stu-id="8f7ef-106">If you're new to PowerShell and need help getting started, see [Overview of Azure PowerShell](https://docs.microsoft.com/powershell/azure/overview?view=azurermps-5.1.1).</span></span>
+<span data-ttu-id="c369d-106">Se você é novato no PowerShell e precisa de ajuda para começar, consulte [Visão geral do Azure PowerShell](https://docs.microsoft.com/powershell/azure/overview?view=azurermps-5.1.1).</span><span class="sxs-lookup"><span data-stu-id="c369d-106">If you're new to PowerShell and need help getting started, see [Overview of Azure PowerShell](https://docs.microsoft.com/powershell/azure/overview?view=azurermps-5.1.1).</span></span>
 
 
-## <a name="export-managers-script"></a><span data-ttu-id="8f7ef-107">Script Export-Managers</span><span class="sxs-lookup"><span data-stu-id="8f7ef-107">Export-Managers script</span></span>
+## <a name="export-managers-script"></a><span data-ttu-id="c369d-107">Script Export-Managers</span><span class="sxs-lookup"><span data-stu-id="c369d-107">Export-Managers script</span></span>
 
 ```powershell
 <# 

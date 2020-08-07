@@ -2,11 +2,10 @@
 title: Adotar o Microsoft Teams
 ms.reviewer: karuanag
 description: Saiba mais sobre os recursos de adoção disponíveis para ajudar você a planejar e implantar o Microsoft Teams em sua organização.
-ms.topic: landing-page
+ms.topic: overview
 author: serdarsoysal
 ms.author: serdars
 manager: serdars
-layout: LandingPage
 ms.date: 10/31/2018
 audience: admin
 ms.service: msteams
@@ -21,196 +20,28 @@ f1.keywords:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6c1a05467a049a8ed0d66789cbc405fcceaaec39
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 038721d887eef7eeb0c52cb82508b271e26dbbdc
+ms.sourcegitcommit: 95989f1a93524a2025feeb50b8635da332961ea3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44756510"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "46588275"
 ---
-# <a name="adopt-microsoft-teams"></a>Adotar o Microsoft Teams
+# <a name="adopt-microsoft-teams"></a><span data-ttu-id="3fc18-103">Adotar o Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="3fc18-103">Adopt Microsoft Teams</span></span>
 
 > [!NOTE]
-> Para obter uma visão geral sobre como fazer a transição para aprendizagem e recursos remotos para ajudá-lo a começar, confira nossa [**Home Page de aprendizagem remota**](https://www.microsoft.com/education/remote-learning).
+> <span data-ttu-id="3fc18-104">Para obter uma visão geral sobre como fazer a transição para aprendizagem e recursos remotos para ajudá-lo a começar, confira nossa [**Home Page de aprendizagem remota**](https://www.microsoft.com/education/remote-learning).</span><span class="sxs-lookup"><span data-stu-id="3fc18-104">For an overview of making the transition to remote learning and resources to help you get started, see our [**remote learning home page**](https://www.microsoft.com/education/remote-learning).</span></span>
 
-Se você for uma pequena empresa ou se quiser implantar equipes que comecem com chats, equipes & canais e reuniões, use nossas [diretrizes](get-started-with-teams-quick-start.md)de introdução de introdução, que foram projetadas para que você comece a trabalhar rapidamente. Se você for uma grande organização com uma configuração do Skype for Business local ou híbrida, ou se quiser implementar recursos de voz (como o Microsoft 365 ou o Office 365 ou o sistema de telefonia), comece com nossas diretrizes de introdução, mas precisará de diretrizes adicionais abaixo, em **orientação de adoção mais profunda**.
+<span data-ttu-id="3fc18-105">Se você for uma pequena empresa ou se quiser implantar equipes que comecem com chats, equipes & canais e reuniões, use nossas [diretrizes](get-started-with-teams-quick-start.md)de introdução de introdução, que foram projetadas para que você comece a trabalhar rapidamente.</span><span class="sxs-lookup"><span data-stu-id="3fc18-105">If you're a small business, or if you want to roll out Teams starting with chat, teams & channels, and meetings, use our prescriptive [Get started guidance](get-started-with-teams-quick-start.md), which is designed to get you up and running quickly.</span></span> <span data-ttu-id="3fc18-106">Se você for uma grande organização com uma configuração do Skype for Business local ou híbrida, ou se quiser implementar recursos de voz (como o Microsoft 365 ou o Office 365 ou o sistema de telefonia), comece com nossas diretrizes de introdução, mas precisará de diretrizes adicionais abaixo, em **orientação de adoção mais profunda**.</span><span class="sxs-lookup"><span data-stu-id="3fc18-106">If you're a large organization with a hybrid or on-premises Skype for Business configuration, or if you want to roll out voice features (such as Microsoft 365 or Office 365 calling plans or phone system), you can start with our Get started guidance, but you'll need the additional guidance below, under **Deeper adoption guidance**.</span></span>
 
-<ul class="panelContent cardsFTitle">
-    <li>
-        <a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-quick-start-checklist">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/clock-teams.svg" alt="Clock icon representing quick start" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Início rápido</h3>
-                        <p>Orienta você pelos cenários de adoção mais comuns</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-understand-teams-and-channels">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/chat.svg" alt="Chat icon representing an introduction" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Introdução a equipes e canais</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-your-first-teams">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/task-checklist-planning-teams.svg" alt="Checklist icon representing planning" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Planejar suas primeiras equipes</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-create-champions-program">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com//office/media/icons/best-practices-teams.svg" alt="Award ribbon icon representing best practices" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Capacite seus campeões</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg" alt="Mortarboard icon representing training" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Treinamento & certificação</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://docs.microsoft.com/microsoftteams/adopt-tools-and-downloads">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/toolbox.svg" alt="Wrench icon representing tools and downloads" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Ferramentas e downloads</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-</ul>
+|               |               |               |               |               |               |
+| :-------------| :-------------| :-------------| :-------------| :-------------| :-------------|
+| <img src="https://docs.microsoft.com/office/media/icons/clock-teams.svg" width="40 px" height="40 px"> | [<span data-ttu-id="3fc18-107">Início rápido</span><span class="sxs-lookup"><span data-stu-id="3fc18-107">Quick start</span></span>](/MicrosoftTeams/teams-adoption-quick-start-checklist) | <img src="https://docs.microsoft.com/office/media/icons/chat.svg" width="40 px" height="40 px"> | [<span data-ttu-id="3fc18-108">Introdução a equipes e canais</span><span class="sxs-lookup"><span data-stu-id="3fc18-108">Introduction to teams and channels</span></span>](/MicrosoftTeams/teams-adoption-understand-teams-and-channels) | <img src="https://docs.microsoft.com/office/media/icons/task-checklist-planning-teams.svg" width="40 px" height="40 px"> | [<span data-ttu-id="3fc18-109">Planejar suas primeiras equipes</span><span class="sxs-lookup"><span data-stu-id="3fc18-109">Plan your first teams</span></span>](/MicrosoftTeams/teams-adoption-your-first-teams) |
+| <img src="https://docs.microsoft.com//office/media/icons/best-practices-teams.svg" width="40 px" height="40 px"> | [<span data-ttu-id="3fc18-110">Capacite seus campeões</span><span class="sxs-lookup"><span data-stu-id="3fc18-110">Empower your champions</span></span>](/MicrosoftTeams/teams-adoption-create-champions-program) | <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg" width="40 px" height="40 px"> | [<span data-ttu-id="3fc18-111">Treinamento & certificação</span><span class="sxs-lookup"><span data-stu-id="3fc18-111">Training & certification</span></span>](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7) | <img src="https://docs.microsoft.com/office/media/icons/toolbox.svg" width="40 px" height="40 px"> | [<span data-ttu-id="3fc18-112">Ferramentas e downloads</span><span class="sxs-lookup"><span data-stu-id="3fc18-112">Tools and Downloads</span></span>](/microsoftteams/adopt-tools-and-downloads) |
 
+### <a name="deeper-adoption-guidance"></a><span data-ttu-id="3fc18-113">Orientação de adoção mais profunda</span><span class="sxs-lookup"><span data-stu-id="3fc18-113">Deeper adoption guidance</span></span>
+<span data-ttu-id="3fc18-114">Os planos de adoção podem ser simples de complexos, dependendo do seu ambiente.</span><span class="sxs-lookup"><span data-stu-id="3fc18-114">Adoption plans can be simple to complex, depending on your environment.</span></span> <span data-ttu-id="3fc18-115">Para implantações em larga escala, percorra as diretrizes abaixo para garantir que sua organização tenha uma transição tranqüila para o Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="3fc18-115">For large-scale deployments, step through the guidance below to ensure your organization has a smooth transition to Teams.</span></span>
 
-### <a name="deeper-adoption-guidance"></a>Orientação de adoção mais profunda
-Os planos de adoção podem ser simples de complexos, dependendo do seu ambiente. Para implantações em larga escala, percorra as diretrizes abaixo para garantir que sua organização tenha uma transição tranqüila para o Microsoft Teams.
-
-<ul class="panelContent cardsF">
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/circle-number-1-teams.svg" alt="Number 1 icon representing the first step" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-phase1">Start</a></h3>
-                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-get-started">Introdução</a></p>
-                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-understand-teams-and-channels">Entender as equipes e canais</a></p>
-                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-your-first-teams">Criar sua primeira equipe</a></p>
-                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-assess-readiness">Avaliar a preparação cultural e organizacional</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/circle-number-2-teams.svg" alt="Number 2 icon representing the second step" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-phase2-experiment">Experimento</a></h3>
-                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-create-champions-program">Criar seu programa de defensores</a></p>
-                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-governance-quick-start">Início rápido de governança</a></p>
-                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-define-usage-scenarios">Definir os cenários de uso</a></p>
-                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-onboard-early-adopters">Pioneiros e obter comentários onboard</a></p>
-                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-onboard-support">Suporte à integração</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/circle-number-3-teams.svg" alt="Number 3 icon representing the third step" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-phase3-enable">Escala</a></h3>
-                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-define-outcomes">Definir resultado e sucesso</a></p>
-                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-optimize-feedback-and-reporting">Otimizar comentários e relatórios</a></p>
-                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-drive-awareness">Promover a conscientização e implementar treinamento</a></p>
-                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-schedule-service-health-reviews">Agendar avaliações de integridade do serviço</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-</ul>
+|               |               |               |               |               |               |
+| :-------------| :-------------| :-------------| :-------------| :-------------| :-------------|
+| <img src="https://docs.microsoft.com/office/media/icons/circle-number-1-teams.svg" width="40 px" height="40 px"> | <span data-ttu-id="3fc18-116">**[Start](/MicrosoftTeams/teams-adoption-phase1)**</span><span class="sxs-lookup"><span data-stu-id="3fc18-116">**[Start](/MicrosoftTeams/teams-adoption-phase1)**</span></span> </br> [<span data-ttu-id="3fc18-117">Introdução</span><span class="sxs-lookup"><span data-stu-id="3fc18-117">Get started</span></span>](/MicrosoftTeams/teams-adoption-get-started) </br> [<span data-ttu-id="3fc18-118">Entender as equipes e canais</span><span class="sxs-lookup"><span data-stu-id="3fc18-118">Understand teams and channels</span></span>](/MicrosoftTeams/teams-adoption-understand-teams-and-channels) </br> [<span data-ttu-id="3fc18-119">Criar sua primeira equipe</span><span class="sxs-lookup"><span data-stu-id="3fc18-119">Create your first teams</span></span>](/MicrosoftTeams/teams-adoption-your-first-teams) </br> [<span data-ttu-id="3fc18-120">Avaliar a preparação cultural e organizacional</span><span class="sxs-lookup"><span data-stu-id="3fc18-120">Assess cultural and organizational readiness</span></span>](/MicrosoftTeams/teams-adoption-assess-readiness) | <img src="https://docs.microsoft.com/office/media/icons/circle-number-2-teams.svg" width="40 px" height="40 px"> | <span data-ttu-id="3fc18-121">**[Experimento](/MicrosoftTeams/teams-adoption-phase2-experiment)**</span><span class="sxs-lookup"><span data-stu-id="3fc18-121">**[Experiment](/MicrosoftTeams/teams-adoption-phase2-experiment)**</span></span> </br> [<span data-ttu-id="3fc18-122">Criar seu programa de defensores</span><span class="sxs-lookup"><span data-stu-id="3fc18-122">Create your champions program</span></span>](/MicrosoftTeams/teams-adoption-create-champions-program) </br> [<span data-ttu-id="3fc18-123">Início rápido de governança</span><span class="sxs-lookup"><span data-stu-id="3fc18-123">Governance quick start</span></span>](/MicrosoftTeams/teams-adoption-governance-quick-start)</br> [<span data-ttu-id="3fc18-124">Definir os cenários de uso</span><span class="sxs-lookup"><span data-stu-id="3fc18-124">Define usage scenarios</span></span>](/MicrosoftTeams/teams-adoption-define-usage-scenarios) </br> [<span data-ttu-id="3fc18-125">Integração de usuários pioneiros e coleta de comentários</span><span class="sxs-lookup"><span data-stu-id="3fc18-125">Onboard early adopters and gather feedback</span></span>](/MicrosoftTeams/teams-adoption-onboard-early-adopters) </br> [<span data-ttu-id="3fc18-126">Suporte à integração</span><span class="sxs-lookup"><span data-stu-id="3fc18-126">Onboard support</span></span>](/MicrosoftTeams/teams-adoption-onboard-support) | <img src="https://docs.microsoft.com/office/media/icons/circle-number-3-teams.svg" width="40 px" height="40 px"> | <span data-ttu-id="3fc18-127">**[Escala](/MicrosoftTeams/teams-adoption-phase3-enable)**</span><span class="sxs-lookup"><span data-stu-id="3fc18-127">**[Scale](/MicrosoftTeams/teams-adoption-phase3-enable)**</span></span> </br> [<span data-ttu-id="3fc18-128">Definir resultado e sucesso</span><span class="sxs-lookup"><span data-stu-id="3fc18-128">Define outcome and success</span></span>](/MicrosoftTeams/teams-adoption-define-outcomes) </br> [<span data-ttu-id="3fc18-129">Otimizar comentários e relatórios</span><span class="sxs-lookup"><span data-stu-id="3fc18-129">Optimize feedback and reporting</span></span>](/MicrosoftTeams/teams-adoption-optimize-feedback-and-reporting) </br> [<span data-ttu-id="3fc18-130">Promover a conscientização e implementar treinamento</span><span class="sxs-lookup"><span data-stu-id="3fc18-130">Drive awareness and implement training</span></span>](/MicrosoftTeams/teams-adoption-drive-awareness) </br> [<span data-ttu-id="3fc18-131">Agendar avaliações de integridade do serviço</span><span class="sxs-lookup"><span data-stu-id="3fc18-131">Schedule service health reviews</span></span>](/MicrosoftTeams/teams-adoption-schedule-service-health-reviews) |
