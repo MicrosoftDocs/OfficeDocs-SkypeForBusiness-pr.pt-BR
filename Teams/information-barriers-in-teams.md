@@ -16,12 +16,12 @@ description: Este artigo explica o que são barreiras de informações no Micros
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 585cff9e8eb99a736b25e4ee0463ce4783c01ad1
-ms.sourcegitcommit: b14ad0a6c454b20f34fccbd1d312de24379faef0
+ms.openlocfilehash: 2fa842f341bac8aca0c1972519777de2855cf06c
+ms.sourcegitcommit: 197f96841a58efd70bcd198b6eb1775e5ecd155c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "46572376"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "46592905"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Barreiras de informação no Microsoft Teams
 
@@ -167,12 +167,12 @@ No momento, os usuários perceberão o seguinte se uma política de barreira de 
 
 ## <a name="teams-policies-and-sharepoint-sites"></a>Políticas de equipe e sites do SharePoint
 
-Quando uma equipe é criada, um site do SharePoint é provisionado e associado à equipe para a experiência dos arquivos. O acesso a este site e arquivos do SharePoint honra a IB da organização, ou seja, somente os usuários cuja segmento de IB corresponde a política de IB têm permissão de acesso. Mesmo no momento do compartilhamento de arquivos, a política IB é respeitada.
+Quando uma equipe é criada, um site do SharePoint é provisionado e associado ao Microsoft Teams para a experiência dos arquivos. As políticas de barreira de informações não são respeitadas neste site e arquivos do SharePoint por padrão. Para habilitar as políticas de barreira de informações, o administrador já preencheu um formulário, solicitando que as políticas de IB sejam habilitadas no SharePoint e no OneDrive (consulte a seção de *pré-requisitos* nas [barreiras de informação](https://docs.microsoft.com/sharepoint/information-barriers#prerequisites)). Se a política de barreira de informações estiver ativada no SharePoint e no OneDrive, as políticas de IB funcionarão em sites do SharePoint provisionados quando uma equipe for criada com o Microsoft Teams.
 
-Por exemplo: na contoso Bank Corporation, o usuário ' Sesha@contosobank.onmicrosoft.com ' pertence ao segmento bancário de investimentos e o usuário ' Nikita@contosobank.onmicrosoft.com ' pertence ao consultor do segmento. A política IB da organização bloqueia a comunicação e a colaboração entre esses dois segmentos.
+**Exemplo de políticas de IB no site do SharePoint de uma equipe**: na contoso Bank Corporation, o usuário "Sesha@contosobank.onmicrosoft.com" pertence ao segmento do banco de investimentos, e o usuário ' Nikita@contosobank.onmicrosoft.com ' pertence ao Conselho do segmento. A política IB da organização bloqueia a comunicação e a colaboração entre esses dois segmentos.
 Quando o usuário Sesha cria um segmento de banco de investimentos, a equipe e o site do SharePoint que os reproduzir serão acessíveis somente para os usuários do segmento do banco de investimentos. O Nikita do usuário não pode acessar esse site, mesmo que ele tenha o link do site.
 
-Clique [aqui](https://docs.microsoft.com/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites) para obter mais detalhes.
+Consulte o artigo [barreiras de informação](https://docs.microsoft.com/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites) para obter mais detalhes.
 
 ## <a name="required-licenses-and-permissions"></a>Permissões e licenças necessárias
 
