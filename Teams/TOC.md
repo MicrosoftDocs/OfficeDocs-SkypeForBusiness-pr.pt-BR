@@ -684,7 +684,7 @@
 ### [Referência de SKU Education](sku-reference-edu.md)
 
 ## Teams para trabalhadores de linha de frente
-### [QuickStart para trabalhadores de linha de frente](firstline-workers-quickstart.yml)
+### [Início rápido para Firstline Workers](firstline-workers-quickstart.yml)
 ### [Implantação programada de trabalhadores de primeira linha](flw-scripted-deployment.md)
 ### [RealWear para Microsoft Teams](flw-realwear.md)
 ### [Walkie Talkie](walkie-talkie.md)
