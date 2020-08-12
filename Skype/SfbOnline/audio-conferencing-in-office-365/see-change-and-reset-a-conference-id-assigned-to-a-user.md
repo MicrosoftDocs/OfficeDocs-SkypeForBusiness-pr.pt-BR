@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Saiba como atribuir uma ID de conferência a um usuário no Skype for Business Online e o que os parâmetros de IDs de conferência devem estar. '
-ms.openlocfilehash: caa94984b06ff73d8f14acf4727870a988298974
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+ms.openlocfilehash: a8f0e64ef30e1e503a1e3b78c9823f5d115df837
+ms.sourcegitcommit: b72bf3827e7145b9b6a95c84e88a7879c6e8c337
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44163894"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46643601"
 ---
 # <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-skype-for-business-online"></a>Visualizar e redefinir uma ID de conferência atribuída a um usuário no Skype for Business Online
 
@@ -82,7 +82,7 @@ Consulte [Get-CsOnlineDialInConferencingUser](https://go.microsoft.com/fwlink/?L
 
 2. Vá para o centro de administração > **Skype for Business**.
 
-3. Nos**usuários**de> **videoconferência** > do **centro de administração do Skype for Business**, no painel ação em **ID de conferência**, clique em **Redefinir**.
+3. Nos usuários de videoconferência do **centro de administração do Skype for Business** >  **Audio conferencing**  >  **Users**, no painel ação em **ID de conferência**, clique em **Redefinir**.
 
 4. Na janela **Redefinir ID de conferência?** , clique em **Sim**. A conference ID will be automatically created and an email sent to the user with the new conference ID.
 
@@ -103,7 +103,7 @@ Usando o Windows PowerShell Para fazer isso, execute:
 
 - A ID de conferência deve atender ao tamanho em dígitos definidos na ponte de audioconferência. Você não pode usar caracteres alfabéticos ou especiais em IDs de conferência; somente números podem ser usados.
 
-- A ID de conferência para todos os seus usuários de audioconferência serão 7 dígitos por padrão e o número de dígitos não poderá ser alterado.
+- A ID de conferência para todos os seus usuários de videoconferência será de 9 dígitos por padrão e o número de dígitos não poderá ser alterado.
 
 
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Quer saber como gerenciar com o Windows PowerShell?
