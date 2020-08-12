@@ -1,5 +1,5 @@
 ---
-title: Instalar e configurar nós do inspetor
+title: Instalar e configurar nós do Inspetor
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -15,74 +15,74 @@ ms.collection: IT_Skype16
 ms.assetid: 7392e4f8-6e2d-447b-aaa3-878f73995f9d
 description: 'Resumo: instalar e configurar nós do inspetor para transações sintéticas do Skype for Business Server.'
 ms.openlocfilehash: 8efe291f72312b7634ae644d0e910cf58951b7a6
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.sourcegitcommit: b72bf3827e7145b9b6a95c84e88a7879c6e8c337
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816090"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46640937"
 ---
-# <a name="install-and-configure-watcher-nodes"></a>Instalar e configurar nós do inspetor
+# <a name="install-and-configure-watcher-nodes"></a>Instalar e configurar nós do Inspetor
  
 **Resumo:** Instalar e configurar nós do inspetor para transações sintéticas do Skype for Business Server.
   
-Nós de Inspetor são computadores que executam periodicamente transações sintéticas do Skype for Business Server. As transações sintéticas são cmdlets do Windows PowerShell que verificam se recursos básicos do usuário, como a capacidade de entrar no ou trocar mensagens instantâneas, estão funcionando conforme esperado. Para o Skype for Business Server 2015, o System Center Operations Manager pode executar as transações sintéticas mostradas na tabela a seguir, que inclui três tipos de transação sintética:
+Os nós do Inspetor são computadores que executam periodicamente as transações sintéticas do Skype for Business Server. As transações sintéticas são cmdlets do Windows PowerShell que verificam se os principais cenários de usuário, como a capacidade de entrar ou para trocar mensagens instantâneas, estão funcionando conforme o esperado. Para o Skype for Business Server 2015, o System Center Operations Manager pode executar as transações sintéticas mostradas na tabela a seguir, que inclui três tipos de transações sintéticas:
   
-- **Padrão** Transações sintéticas que um nó do Inspetor executa por padrão. Ao criar um novo nó Inspetor, você pode especificar quais transações sintéticas o nó executará. (Essa é a finalidade do parâmetro testes usado pelo cmdlet New-CsWatcherNodeConfiguration.) Se você não usar o parâmetro tests quando o nó do Inspetor for criado, ele executará automaticamente todas as transações sintéticas padrão e não executará qualquer uma das transações sintéticas não padrão. Isso significa, por exemplo, que o nó do Inspetor será configurado para executar o teste Test-CsAddressBookService, mas não será configurado para executar o teste Test-CsExumConnectivity.
+- **Padrão** Transações sintéticas que um nó do Inspetor executa por padrão. Ao criar um novo nó do Inspetor, você pode especificar quais transações sintéticas esse nó executará. (Esse é o objetivo do parâmetro tests usado pelo cmdlet New-CsWatcherNodeConfiguration.) Se você não usar o parâmetro tests quando o nó do Inspetor for criado, ele executará automaticamente todas as transações sintéticas padrão e não executará qualquer uma das transações sintéticas não padrão. Isso significa, por exemplo, que o nó do Inspetor será configurado para executar o teste Test-CsAddressBookService, mas não será configurado para executar o teste Test-CsExumConnectivity.
     
-- **Não padrão** Testa se os nós do inspetor não são executados por padrão. (Para obter detalhes, consulte a descrição do tipo padrão.) No entanto, o nó do Inspetor pode ser habilitado para executar qualquer uma das transações sintéticas não padrão. Você pode fazer isso quando cria o nó do Inspetor (usando o cmdlet New-CsWatcherNodeConfiguration) ou a qualquer momento após a criação do nó do Inspetor. Observe que muitas das transações sintéticas não padrão exigem etapas adicionais de configuração. Para obter mais detalhes sobre essas etapas, consulte [instruções de configuração especial para transações sintéticas](test-users-and-settings.md#special_synthetictrans).
+- **Não padrão** Testes que os nós do inspetor não são executados por padrão. (Para obter detalhes, consulte a descrição do tipo padrão.) No entanto, o nó do Inspetor pode ser habilitado para executar qualquer uma das transações sintéticas não padrão. Você pode fazer isso ao criar o nó do Inspetor (usando o cmdlet New-CsWatcherNodeConfiguration) ou a qualquer momento depois que o nó do Inspetor tiver sido criado. Observe que muitas das transações sintéticas não padrão exigem etapas de configuração adicionais. Para obter mais detalhes sobre essas etapas, consulte [instruções de configuração especial para transações sintéticas](test-users-and-settings.md#special_synthetictrans).
     
-- **Maior** Um tipo especial de transação sintética não padrão. Diferentemente das outras transações sintéticas, os testes estendidos podem ser executados várias vezes durante cada fase. Isso pode ser útil, por exemplo, para verificações de várias rotas de voz de PSTN (rede telefônica pública comutada) de um pool. Isso pode ser configurado com a simples adição de várias instâncias de um teste estendido a um nó do inspetor.
+- **Estendido** Um tipo especial de transação sintética não padrão. Diferentemente das outras transações sintéticas, os testes estendidos podem ser executados várias vezes durante cada fase. Isso é útil ao verificar o comportamento, como várias rotas de voz de rede telefônica pública comutada (PSTN) para um pool. Você pode configurar isso simplesmente adicionando várias instâncias de um teste estendido a um nó do Inspetor.
     
-Para obter detalhes sobre o processo de adição de outras transações sintéticas a um nó do inspetor, consulte [Configure a Watcher Node to Run Synthetic Transactions](watcher-nodes.md#enable_synthetic_trans). Você também pode usar o Shell de gerenciamento do Skype for Business Server para remover transações sintéticas de um nó do Inspetor.
+Para obter detalhes sobre o processo de adição de outras transações sintéticas a um nó do Inspetor, consulte [configurar um nó do inspetor para executar transações sintéticas](watcher-nodes.md#enable_synthetic_trans). Você também pode usar o Shell de gerenciamento do Skype for Business Server para remover as transações sintéticas de um nó do Inspetor.
   
 As transações sintéticas disponíveis para os nós do inspetor incluem as seguintes:
   
 |**Nome do cmdlet (nome do teste)**|**Descrição**|
 |:-----|:-----|
-|Test-CsAddressBookService (ABS)  <br/> |Confirma que os usuários podem procurar usuários que não estão na lista de contatos deles.  <br/> |
-|Test-CsAddressBookWebQuery (ABWQ)  <br/> |Confirma que os usuários podem procurar usuários que não estão na lista de contatos via HTTP.  <br/> |
+|Test-CsAddressBookService (ABS)  <br/> |Confirma se os usuários podem pesquisar usuários que não estão em sua lista de contatos.  <br/> |
+|Test-CsAddressBookWebQuery (ABWQ)  <br/> |Confirma se os usuários podem pesquisar usuários que não estão em sua lista de contatos via HTTP.  <br/> |
 |Test-CsAVConference (AvConference)  <br/> |Confirma se os usuários podem criar e participar de uma conferência de áudio/vídeo.  <br/> |
-|Test-Cs GroupIM (Conferência de IM)  <br/> |Confirma se os usuários podem enviar mensagens instantâneas em conferências e participar de conversas de mensagem instantânea com três ou mais pessoas.  <br/> |
-|Test-CsIM (P2P IM)  <br/> |Confirma se os usuários podem enviar mensagens instantâneas ponto a ponto.  <br/> |
+|Test-CsGroupIM (conferência de mensagens instantâneas)  <br/> |Confirma se os usuários podem enviar mensagens instantâneas em conferências e participar de conversas de mensagem instantânea com três ou mais pessoas.  <br/> |
+|Test-CsIM (mensagens instantâneas P2P)  <br/> |Confirma se os usuários podem enviar mensagens instantâneas ponto a ponto.  <br/> |
 |Test-CsP2PAV (P2PAV)  <br/> |Confirma se os usuários podem realizar chamadas de áudio ponto a ponto (apenas sinalização).  <br/> |
-|Test-CsPresence (Presence)  <br/> |Confirma que os usuários podem ver a presença de outros usuários.  <br/> |
+|Test-CsPresence (Presence)  <br/> |Confirma se os usuários podem exibir a presença de outros usuários.  <br/> |
 |Test-CsRegistration (Registration)  <br/> |Confirma se os usuários podem entrar no Skype for Business.  <br/> |
 |Test-CsPstnPeerToPeerCall (PSTN)  <br/> |Confirma se os usuários podem realizar e receber chamadas de pessoas de fora da organização (números PSTN).  <br/> |
-|Test-CsASConference (ASConference)  <br/> |Confirma se os usuários podem criar e participar de uma conferência de compartilhamento de aplicativos.  <br/> |
-|Test-CsAVEdgeConnectivity (AVEdgeConnectivity)  <br/> |Confirma se os servidores de borda A/V podem aceitar conexões para chamadas ponto a ponto e chamadas em conferência.  <br/> |
-|Test-CsDataConference (DataConference)  <br/> |Confirma se os usuários podem participar de uma conferência com colaboração de dados, uma reunião online que inclui atividades como quadros de comunicações e votações.  <br/> |
-|Test-CsDialinConferencing (DialinConferencing)  <br/> |Confirma se os usuários podem discar os números de telefone para participar de conferências.  <br/> |
-|Test-CsDialinConferencing (DialinConferencing)  <br/> |Confirma se os usuários podem discar os números de telefone para participar de conferências.  <br/> |
-|Test-CsExumConnectivity (ExumConnectivity)  <br/> |Confirma se um usuário pode se conectar à uma mensagem unificada do Exchange (UM).  <br/> |
-|Test-CsGroupIM-TestJoinLauncher (JoinLauncher)  <br/> |Confirma se os usuários podem criar reuniões agendadas e ingressar nelas através de um link de endereço Web.  <br/> |
+|Test-CsASConference (asconferência)  <br/> |Confirma se os usuários podem criar e participar de uma conferência de compartilhamento de aplicativos.  <br/> |
+|Test-CsAVEdgeConnectivity (AVEdgeConnectivity)  <br/> |Confirma se os servidores de borda de vídeo de áudio podem aceitar conexões para chamadas ponto a ponto e chamadas de conferência.  <br/> |
+|Test-CsDataConference (dataconferência)  <br/> |Confirma se os usuários podem participar de uma conferência de colaboração de dados (uma reunião online que inclui atividades como quadros de comunicações e sondas).  <br/> |
+|Test-CsDialinConferencing (DialinConferencing)  <br/> |Confirma se os usuários podem discar números de telefone para participar de conferências.  <br/> |
+|Test-CsDialinConferencing (DialinConferencing)  <br/> |Confirma se os usuários podem discar números de telefone para participar de conferências.  <br/> |
+|Test-CsExumConnectivity (exumconnectivity)  <br/> |Confirma se um usuário pode se conectar à UM (Unificação de mensagens) do Exchange.  <br/> |
+|Test-CsGroupIM-TestJoinLauncher (JoinLauncher)  <br/> |Confirma se os usuários podem criar e ingressar em reuniões agendadas (por meio de um link de endereço da Web).  <br/> |
 |Test-CsMCXP2PIM (MCXP2PIM)  <br/> |Confirma se usuários de dispositivos móveis podem registrar-se e enviar mensagens instantâneas.  <br/> |
-|Test-CsP2PVideoInteropServerSipTrunkAV (P2PVideoInteropServerSipTrunkAV)  <br/> |Confirma que o servidor de interoperabilidade de vídeo está ativo e pode manipular conexões de entrada por meio de um tronco de vídeo SIP.  <br/> **Observação:** O suporte do MCX para clientes móveis herdados não está mais disponível no Skype for Business Server 2019. |
+|Test-CsP2PVideoInteropServerSipTrunkAV (P2PVideoInteropServerSipTrunkAV)  <br/> |Confirma se o servidor de interoperabilidade de vídeo está ativo e pode lidar com conexões de entrada através de um tronco SIP de vídeo.  <br/> **Observação:** O suporte do MCX para clientes móveis herdados não está mais disponível no Skype for Business Server 2019. |
 |Test-CsPersistentChatMessage (PersistentChatMessage)  <br/> |Confirma se os usuários podem trocar mensagens usando o serviço de chat persistente.  <br/> |
 |Test-CsUcwaConference (UcwaConference)  <br/> |Confirma se os usuários podem participar de conferências via Web.  <br/> |
-|Test-CsUnifiedContactStore (UnifiedContactStore)  <br/> |Confirma se os contatos de um usuário podem ser acessados por meio do repositório unificado de contatos. O repositório de contatos unificado fornece uma maneira para que os usuários mantenham um único conjunto de contatos que podem ser acessados usando o Skype for Business Server 2015, o cliente de colaboração e email do Outlook e/ou o Outlook Web Access.  <br/> |
-|Test-CsXmppIM (XmppIM)  <br/> |Confirma se uma mensagem instantânea pode ser enviada através do gateway XMPP.  <br/> Os gateways e proxies XMPP estão disponíveis no Skype for Business Server 2015, mas não têm mais suporte no Skype for Business Server 2019.  |
+|Test-CsUnifiedContactStore (UnifiedContactStore)  <br/> |Confirma se os contatos de um usuário podem ser acessados por meio do repositório unificado de contatos. O repositório unificado de contatos oferece uma maneira de que os usuários mantenham um único conjunto de contatos que podem ser acessados usando o Skype for Business Server 2015, o cliente de mensagens e colaboração do Outlook e/ou o Outlook Web Access.  <br/> |
+|Test-CsXmppIM (XmppIM)  <br/> |Confirma se uma mensagem instantânea pode ser enviada através do Gateway XMPP (Extensible Messaging and Presence Protocol).  <br/> Os gateways e proxies do XMPP estão disponíveis no Skype for Business Server 2015, mas não têm mais suporte no Skype for Business Server 2019.  |
 
-Você não precisa instalar nós de inspetor para usar o System Center Operations Manager. Se você não instalar esses nós, ainda poderá obter alertas em tempo real dos componentes do Skype for Business Server 2015 sempre que ocorrer um problema. (O componente e o pacote de gerenciamento do usuário não usam nós do Inspetor.) No entanto, nós de Inspetor são necessários se você deseja monitorar cenários de ponta a ponta usando o pacote de gerenciamento de monitoramento ativo.
+Não é necessário instalar nós do inspetor para usar o System Center Operations Manager. Se você não instalar esses nós, ainda poderá obter alertas em tempo real dos componentes do Skype for Business Server 2015 sempre que ocorrer um problema. (O pacote de gerenciamento de componente e usuário não usa nós do Inspetor.) No entanto, os nós do Inspetor serão necessários se você quiser monitorar cenários de ponta a ponta usando o pacote de gerenciamento de monitoramento ativo.
   
 > [!NOTE]
-> Os administradores também podem executar transações sintéticas manualmente, sem utilizar ou instalar o Operations Manager. Dependendo do tamanho da implantação do Skype for Business Server, as transações sintéticas podem usar uma grande quantidade de memória do computador e tempo do processador. Por esse motivo, é recomendável usar um computador dedicado como nó do inspetor. Por exemplo, você não deve configurar um servidor front-end do Skype for Business Server para atuar como um nó do Inspetor. Os nós de Inspetor devem atender aos mesmos requisitos básicos de hardware que qualquer outro computador na topologia do Skype for Business Server. 
+> Os administradores também podem executar transações sintéticas manualmente, sem usar ou instalar o Operations Manager. Dependendo do tamanho da implantação do Skype for Business Server, as transações sintéticas podem usar uma grande quantidade de memória do computador e o tempo do processador. Por causa disso, recomendamos que você use um computador dedicado como um nó do Inspetor. Por exemplo, você não deve configurar um servidor front-end do Skype for Business Server para atuar como um nó do Inspetor. Os nós do Inspetor devem atender aos mesmos requisitos básicos de hardware que qualquer outro computador na topologia do Skype for Business Server. 
   
 > [!NOTE]
-> Um nó de Inspetor do Lync Server 2013 herdado não pode ser posicionado na mesma máquina que um nó do Inspetor do Skype for Business Server 2015 porque os principais arquivos do sistema do Lync Server 2013 e do Skype for Business Server 2015 não podem ser instalados no mesmo computador. No entanto, os nós do Inspetor do Skype for Business Server 2015 podem monitorar simultaneamente o Skype for Business Server 2015 e o Lync Server 2013. Transações sintéticas padrão são suportadas para as duas versões do produto. 
+> Um nó de Inspetor do Lync Server 2013 herdado não pode ser colocado no mesmo computador que um nó do Inspetor do Skype for Business Server 2015 porque os principais arquivos do sistema para o Lync Server 2013 e o Skype for Business Server 2015 não podem ser instalados no mesmo computador. No entanto, os nós do Inspetor do Skype for Business Server 2015 podem monitorar simultaneamente o Skype for Business Server 2015 e o Lync Server 2013. As transações sintéticas padrão têm suporte para as duas versões do produto. 
   
 Os nós do Inspetor do Lync Server 2013 podem ser implantados dentro ou fora de uma empresa para ajudar a verificar:
   
 - A conectividade com pools para usuários internos da empresa.
     
-- A conectividade através de redes de perímetro para usuários remotos que trabalham fora da empresa.
+- Conectividade através de redes de perímetro para usuários remotos que trabalham fora da empresa.
     
 - A conectividade com dispositivos de filiais.
     
 - Conectividade com o Lync Server 2013 dentro da empresa e através de redes de perímetro.
     
-Para simplificar a administração, diferentes opções de autenticação estão disponíveis para dentro e fora da empresa. Para obter detalhes, consulte [Configure a Watcher Node to Run Synthetic Transactions](watcher-nodes.md#enable_synthetic_trans).
+Para ajudar a simplificar a administração, as diferentes opções de autenticação estão disponíveis para dentro e fora da empresa. Para obter detalhes, consulte [configurar um nó do inspetor para executar transações sintéticas](watcher-nodes.md#enable_synthetic_trans).
   
-Para configurar um computador para atuar como um nó do inspetor, você deve primeiro satisfazer os seguintes pré-requisitos: 
+Para configurar um computador para atuar como um nó do Inspetor, você deve primeiro concluir os seguintes pré-requisitos: 
   
 - Instale o System Center Operations Manager e importe os pacotes de gerenciamento do Skype for Business Server 2015. Você também deve primeiro verificar se o computador do nó do Inspetor atende a todos os pré-requisitos para instalar o Skype for Business Server 2015.
     
@@ -94,82 +94,82 @@ Para configurar um computador para atuar como um nó do inspetor, você deve pri
     
   - Windows PowerShell 3.0
     
-Depois que os pré-requisitos forem atendidos, você poderá configurar o nó do inspetor seguindo estas etapas:
+Depois que os pré-requisitos forem atendidos, você poderá configurar o nó do Inspetor seguindo estas etapas:
   
-1. Instale os arquivos principais do Skype for Business Server 2015 no computador do nó inspetor.
+1. Instale os arquivos principais do Skype for Business Server 2015 no computador do nó do Inspetor.
     
-2. Instale o agente do System Center Operations Manager no computador do nó inspetor.
+2. Instale o agente do System Center Operations Manager no computador do nó do Inspetor.
     
 3. Execute o arquivo executável Watchernode.msi.
     
-4. Use os cmdlets **CsWatcherNodeConfiguration** para configurar as contas de usuário de teste a serem empregadas pelo nó do inspetor.
+4. Use o cmdlet **New-CsWatcherNodeConfiguration** para configurar as contas de usuário de teste para serem empregadas pelo nó do Inspetor.
     
-## <a name="install-the-skype-for-business-server-2015-core-files-and-the-rtclocal-database"></a>Instalar os Arquivos de Núcleo de Skype for Business Server 2015 e o Banco de Dados RTCLocal
+## <a name="install-the-skype-for-business-server-2015-core-files-and-the-rtclocal-database"></a>Instalar os arquivos principais do Skype for Business Server 2015 e o banco de dados RTCLocal
 
-Para instalar os arquivos principais do Skype for Business Server 2015 em um computador, conclua o procedimento a seguir. O banco de dados RTCLocal é instalado automaticamente ao instalar os principais arquivos. Observe que você não precisa instalar o SQL Server nos nós do Inspetor. O SQL Server Express será instalado automaticamente.
+Para instalar os arquivos principais do Skype for Business Server 2015 em um computador, conclua o procedimento a seguir. O banco de dados do RTCLocal será instalado automaticamente quando você instalar os arquivos principais. Observe que não é necessário instalar o SQL Server nos nós do Inspetor. O SQL Server Express será instalado automaticamente.
   
-Para instalar os arquivos principais do Skype for Business Server 2015 e o banco de dados do RTCLocal:
+Para instalar os arquivos principais do Skype for Business Server 2015 e o banco de dados RTCLocal:
   
 1. No computador de nó do inspetor, clique em Iniciar, em Todos os Programas, em Acessórios, clique com o botão direito do mouse em Prompt de Comando e clique em Executar como administrador.
     
-2. Na janela de console, digite o seguinte comando e pressione ENTER. Certifique-se de digitar o caminho apropriado para os arquivos de instalação do Skype for Business Server: D:\Setup.exe/BootstrapLocalMgmtTo Verifique se os principais componentes do Skype for Business Server foram instalados com êxito, clique em **Iniciar**, clique em **todos os programas**, clique em **Skype for Business Server 2015**e, em seguida, clique em **Shell de gerenciamento do Skype for Business Server**. No Shell de gerenciamento do Skype for Business Server, digite o seguinte comando do Windows PowerShell e pressione ENTER:
+2. Na janela do console, digite o seguinte comando e pressione ENTER. Certifique-se de inserir o caminho apropriado para seus arquivos de instalação do Skype for Business Server: D:\Setup.exe/BootstrapLocalMgmtTo verificar se os principais componentes do Skype for Business Server foram instalados com êxito, clique em **Iniciar**, em **todos os programas**, em **Skype for Business Server 2015**e em **Shell de gerenciamento do Skype for Business Server**. No Shell de gerenciamento do Skype for Business Server, digite o seguinte comando do Windows PowerShell e pressione ENTER:
   
 ```PowerShell
 Get-CsWatcherNodeConfiguration
 ```
 
 > [!NOTE]
-> Na primeira vez que você executa este comando, nenhum dado é retornado porque você ainda não configurou qualquer computador do nó do observador. Se o comando for executado sem retornar um erro, você pode presumir que a instalação do Skype for Business Server foi concluída com êxito. 
+> Na primeira vez que você executar este comando, nenhum dado será retornado porque você ainda não configurou nenhum computador do nó do observador. Se o comando for executado sem retornar um erro, você poderá supor que a instalação do Skype for Business Server foi concluída com êxito. 
   
-Se seu computador do nó do observador estiver localizada dentro da sua rede de perímetro, é possível executar o seguinte comando para verificar a instalação do Skype for Business Server 2015:
+Se seu computador do nó do observador estiver localizado dentro de sua rede de perímetro, você poderá executar o comando a seguir para verificar a instalação do Skype for Business Server 2015:
   
-Get-CsPinPolicyYou receberá informações semelhantes a isso, dependendo do número de políticas de PIN configuradas para uso em sua organização:
+O Get-CsPinPolicyYou receberá informações semelhantes a estas, dependendo do número de políticas de PIN configuradas para uso na organização:
   
-Identidade: global
+Identity: global
   
-Descritivo
+Descrição
   
 MinPasswordLength: 5
   
 PINHistoryCount: 0
   
-AllowCommonPatterns: false
+AllowCommonPatterns: falso
   
 PINLifetime: 0
   
 MaximumLogonAttempts :
   
-Se você vir informações sobre suas políticas de PIN, os principais componentes foram instalados com sucesso.
+Se você vir informações sobre suas políticas de PIN, os componentes principais foram instalados com êxito.
   
-## <a name="install-the-operation-manager-agent-files-on-a-watcher-node"></a>Instalar os arquivos do agente do Operation Manager em um nó inspetor
+## <a name="install-the-operation-manager-agent-files-on-a-watcher-node"></a>Instalar os arquivos do agente do Operation Manager em um nó do Inspetor
 
-Da mesma forma que a configuração do Skype for Business Server para relatar alertas de componente, um nó do Inspetor do Skype for Business Server 2015 requer a instalação dos arquivos do agente do System Center Operations Manager. Isso permite que as transações sintéticas sejam executadas e alertas sejam relatados para o servidor de gerenciamento raiz do System Center Operations Manager.
+Semelhante à configuração do Skype for Business Server para relatar alertas de componente, um nó do Inspetor do Skype for Business Server 2015 requer a instalação dos arquivos de agente do System Center Operations Manager. Isso permite que as transações sintéticas sejam executadas e que os alertas sejam relatados para o servidor de gerenciamento raiz do System Center Operations Manager.
   
-Para instalar os arquivos do agente, siga os procedimentos listados em [configurar os computadores do Skype for Business Server que serão monitorados](configure-computers-to-monitor.md).
+Para instalar os arquivos de agente, siga os procedimentos listados em [Configure the Skype for Business Server Computers que serão monitorados](configure-computers-to-monitor.md).
   
-## <a name="configure-a-watcher-node-to-run-synthetic-transactions"></a>Configurar um nó inspetor para executar transações sintéticas
+## <a name="configure-a-watcher-node-to-run-synthetic-transactions"></a>Configurar um nó do inspetor para executar transações sintéticas
 <a name="enable_synthetic_trans"> </a>
 
-Após a instalação dos arquivos do agente do System Center Operations Manager, você deve configurar o próprio nó do Inspetor. As etapas realizadas para isso variam dependendo se seu computador do nó do observador está dentro da sua rede de perímetro ou fora. 
+Depois que os arquivos do agente do Operations Manager System Center tiverem sido instalados, você deve configurar o próprio nó do Inspetor. As etapas que você seguir para fazer isso irão variar, dependendo do seu computador do nó do Inspetor estar dentro da sua rede de perímetro ou fora da rede de perímetro. 
   
-Ao configurar um nó do observador, você também deve escolher o tipo de método de autenticação a ser implantado neste nó. O Skype for Business Server 2015 permite que você escolha um dos dois métodos de autenticação: servidor confiável ou autenticação de credenciais. As diferenças entre estes dois métodos são destacadas na tabela a seguir:
+Ao configurar um nó do observador, você também deve escolher o tipo de método de autenticação a ser implantado neste nó. O Skype for Business Server 2015 permite que você escolha um dos dois métodos de autenticação: servidor confiável ou autenticação de credencial. A tabela a seguir mostra as diferenças entre esses dois métodos:
   
-||**Descrição**|**Locais suportados**|
+||**Descrição**|**Locais com suporte**|
 |:-----|:-----|:-----|
-|TrustedServer  <br/> |Usa uma certificação para personificar um servidor interno e desafios de autenticação de bypass.  <br/> Útil para os administradores que preferem gerenciar um único certificado ao invés de várias senhas do usuário no nó do observador.  <br/> |Dentro da empresa.  <br/> Com este método, o nó do observador deve estar no mesmo domínio que os pools sendo monitorados. Se o nó do observador e os pools estão em domínios diferentes, use a Autenticação de Credencial.  <br/> |
-|Negotiate  <br/> |Armazena os nomes de usuário e senhas com segurança no Gerenciador de Credencial do Windows no nó do observador.  <br/> Este modo exige mais gerenciamento de senha, mas é a única opção para nós do observador fora da empresa. Estes nós do observador não podem ser tratados como um ponto de extremidade confiável para autenticação.  <br/> |Fora da empresa.  <br/> Dentro da empresa.  <br/> |
+|TrustedServer  <br/> |Usa uma certificação para personificar um servidor interno e desafios de autenticação de bypass.  <br/> Útil para administradores que preferem gerenciar um único certificado, em vez de muitas senhas de usuário em cada nó do Inspetor.  <br/> |Dentro da empresa.  <br/> Com esse método, o nó do Inspetor deve estar no mesmo domínio que os pools sendo monitorados. Se o nó do Inspetor e os pools estiverem em domínios diferentes, use a autenticação de credencial.  <br/> |
+|Negocia  <br/> |Armazena os nomes de usuário e senhas com segurança no Gerenciador de Credencial do Windows no nó do observador.  <br/> Este modo requer mais gerenciamento de senha, mas é a única opção para nós de Inspetor fora da empresa. Estes nós do observador não podem ser tratados como um ponto de extremidade confiável para autenticação.  <br/> |Fora da empresa.  <br/> Dentro da empresa.  <br/> |
    
-## <a name="configure-a-watcher-node-to-use-trusted-server-authentication"></a>Configurar um nó inspetor para usar a autenticação de servidor confiável
+## <a name="configure-a-watcher-node-to-use-trusted-server-authentication"></a>Configurar um nó do inspetor para usar autenticação de servidor confiável
 <a name="enable_synthetic_trans"> </a>
 
-Caso seu computador de nó do inspetor esteja dentro da rede de perímetro, utilizar uma autenticação de Servidor Confiável pode reduzir drasticamente as taxas de administração para manter um único certificado em vez de diversas senhas de conta de usuário.
+Se o seu computador do nó do observador estiver dentro da rede de perímetro, usar a autenticação de servidor confiável poderá reduzir significativamente as tarefas de administração, mantendo um único certificado, em vez de usar várias senhas de conta de usuário.
   
-Para configurar autenticação de Servidor Confiável, você deve primeiro criar um pool de aplicativo confiável para hospedar o computador de nó do inspetor. Depois de criar o pool de aplicativos confiável, você deve então configurar transações sintéticas nesse nó do inspetor para executar como aplicativos confiáveis.
+Para configurar a autenticação de servidor confiável, você deve primeiro criar um pool de aplicativos confiáveis para hospedar o computador do nó do Inspetor. Depois de criar o pool de aplicativos confiáveis, você deve configurar transações sintéticas no nó do inspetor para executar como aplicativos confiáveis.
   
 > [!NOTE]
-> Um aplicativo confiável é um aplicativo que recebe status de confiança para ser executado como parte do Skype for Business Server 2015, mas não é uma parte interna do produto. O status de confiável significa que o aplicativo não será desafiado para autenticação toda vez que executar.
+> Um aplicativo confiável é um aplicativo que recebe status confiável para ser executado como parte do Skype for Business Server 2015, mas não é uma parte interna do produto. O status de confiável significa que o aplicativo não será desafiado para autenticação toda vez que executar.
   
-Para criar um pool de aplicativos confiável, abra o Shell de gerenciamento do Skype for Business Server e execute um comando semelhante a este:
+Para criar um pool de aplicativos confiáveis, abra o Shell de gerenciamento do Skype for Business Server e execute um comando semelhante a este:
   
 ```PowerShell
 New-CsTrustedApplicationPool -Identity atl-watcher-001.litwareinc.com -Registrar atl-cs-001.litwareinc.com -ThrottleAsServer $True -TreatAsAuthenticated $True -OutboundOnly $False -RequiresReplication $True -ComputerFqdn atl-watcher-001.litwareinc.com -Site Redmond
@@ -182,19 +182,19 @@ New-CsTrustedApplicationPool -Identity atl-watcher-001.litwareinc.com -Registrar
 Get-Help New-CsTrustedApplicationPool -Full | more
 ```
 
-Após criar o pool de aplicativo confiável, configure o computador de nó do inspetor para executar transações sintéticas como aplicativo confiável. Isso é feito utilizando o cmdlet **New-CsTrustedApplication** e um comando similar a este:
+Depois de criar o pool de aplicativos confiáveis, você pode configurar o computador do nó do inspetor para executar transações sintéticas como um aplicativo confiável usando o cmdlet **New-CsTrustedApplication** e um comando semelhante a este:
   
 ```PowerShell
 New-CsTrustedApplication -ApplicationId STWatcherNode -TrustedApplicationPoolFqdn atl-watcher-001.litwareinc.com -Port 5061
 ```
 
-Quando o comando estiver concluído e o aplicativo confiável for criado, você precisará executar o cmdlet **Enable-CsTopology** para certificar-se de que as alterações tenham efeito:
+Quando o comando for concluído e o aplicativo confiável for criado, você deverá executar o cmdlet **Enable-CsTopology** para garantir que as alterações entrem em vigor:
   
 ```PowerShell
 Enable-CsTopology
 ```
 
-A conta de computador do nó do Inspetor requer a capacidade de consultar o CMS para algumas transações sintéticas. Para permitir esse recurso, adicione a conta de computador do nó do Inspetor ao grupo de segurança RTCUniversalReadOnlyAdmins. Após a duplicação do anúncio, reinicie o computador.
+A conta de computador do nó do observador requer a capacidade de consultar o CMS em algumas transações sintéticas. Para permitir essa capacidade, adicione a conta de computador do nó do Inspetor ao grupo de segurança RTCUniversalReadOnlyAdmins. Depois que a replicação do AD ocorrer, reinicie o computador.
   
 Para verificar se o novo aplicativo confiável foi criado, digite o seguinte no prompt do Shell de gerenciamento do Skype for Business Server:
   
@@ -202,61 +202,61 @@ Para verificar se o novo aplicativo confiável foi criado, digite o seguinte no 
 Get-CsTrustedApplication -Identity "atl-watcher-001.litwareinc.com/urn:application:STWatcherNode"
 ```
 
-## <a name="configure-a-default-certificate-on-the-watcher-node"></a>Configurar um certificado padrão no nó do inspetor
+## <a name="configure-a-default-certificate-on-the-watcher-node"></a>Configurar um certificado padrão no nó do Inspetor
 <a name="enable_synthetic_trans"> </a>
 
-Cada nó de inspetor que usa a autenticação TrustedServer deve ter um certificado padrão atribuído usando o assistente de implantação do Skype for Business Server. 
+Cada nó do inspetor que usa a autenticação TrustedServer deve ter um certificado padrão atribuído usando o assistente de implantação do Skype for Business Server. 
   
 Para atribuir um certificado padrão:
   
-1. Clique em Iniciar, em todos os programas, em Skype for Business Server 2015 e, em seguida, clique em assistente de implantação do Skype for Business Server. 
+1. Clique em Iniciar, em todos os programas, em Skype for Business Server 2015 e em assistente de implantação do Skype for Business Server. 
     
-2. No assistente de implantação do Skype for Business Server, clique em instalar ou atualizar o sistema do Skype for Business Server e, em seguida, clique em executar sob a solicitação de título, instalar ou atribuir certificado. 
+2. No assistente de implantação do Skype for Business Server, clique em instalar ou atualizar o sistema do Skype for Business Server e clique em executar sob a solicitação de título, instalar ou atribuir certificado. 
     
 > [!NOTE]
-> Caso o botão Executar esteja inativo, talvez você precise clicar primeiro em Executar, em Instalar Repositório de Configuração Local. 
+> Caso o botão Executar esteja inativo, talvez você precise clicar primeiro em Executar, sob Instalar Repositório de Configuração Local. 
   
 Siga um destes procedimentos:
   
-- Se você já tiver um certificado que possa ser utilizado como certificado padrão, clique em Padrão no assistente de Certificado e, então, clique em Atribuir. Siga as etapas no assistente de Atribuição de Certificado para atribuí-lo.
+- Se você já tiver um certificado que possa ser usado como o certificado padrão, clique em padrão no assistente de certificado e clique em atribuir. Siga as etapas no assistente de Atribuição de Certificado para atribuí-lo.
     
-- Se você precisar solicitar um certificado para utilizar o certificado padrão, clique em Solicitar e, então, siga as etapas no assistente de Solicitação de Certificado. Se você utilizar valores padrão para o certificado de Servidor da Web, você terá um certificado que pode ser atribuído como certificado padrão.
+- Se você precisar solicitar um certificado para usar o certificado padrão, clique em solicitar e siga as etapas no Assistente para solicitação de certificados para solicitar esse certificado. Se você utilizar valores padrão para o certificado de Servidor da Web, você terá um certificado que pode ser atribuído como certificado padrão.
     
-## <a name="install-and-configure-a-watcher-node"></a>Instalar e configurar um nó de inspetor
+## <a name="install-and-configure-a-watcher-node"></a>Instalar e configurar um nó do Inspetor
 <a name="enable_synthetic_trans"> </a>
 
-Depois de ter reiniciado o computador de nó do inspetor e configurado o certificado, você precisará executar o arquivo Watchernode.msi. (Você deve executar o Watchernode. msi em qualquer computador onde os arquivos de agente do Operations Manager e os componentes principais do Skype for Business Server 2015 estejam instalados.) 
+Depois de reiniciar o computador do nó do Inspetor e configurar um certificado, você deve executar o arquivo Watchernode.msi. (Você deve executar Watchernode.msi em qualquer computador onde os arquivos do agente do Operations Manager e os componentes principais do Skype for Business Server 2015 estejam instalados.) 
   
-Para instalar e configurar um nó de inspetor:
+Para instalar e configurar um nó do inspetor:
   
-1. Para abrir o Shell de gerenciamento do Skype for Business Server, clique em Iniciar, em todos os programas, em Skype for Business Server 2015 e, em seguida, clique em Shell de gerenciamento do Skype for Business Server. 
+1. Abra o Shell de gerenciamento do Skype for Business Server clicando em Iniciar, em todos os programas, em Skype for Business Server 2015 e, em seguida, em Shell de gerenciamento do Skype for Business Server. 
     
-2. No Shell de Gerenciamento, digite o seguinte comando e pressione ENTER (tenha certeza e especifique o caminho real até sua cópia de Watchernode.msi):
+2. No Shell de gerenciamento, digite o seguinte comando e pressione ENTER (tenha certeza e especifique o caminho real para a sua cópia do Watchernode.msi):
     
 ```PowerShell
 C:\Tools\Watchernode.msi Authentication=TrustedServer
 ```
 
 > [!NOTE]
-> Você também pode executar o Watchernode.msi de uma janela de comando. Para abrir uma janela de comando, clique em Iniciar, clique com o botão direito do mouse em Prompt de comando e, então, em Executar como administrador. Quando a janela de comando abrir, digite o mesmo comando da etapa 2 anterior. 
+> Você também pode executar Watchernode.msi n de uma janela de comando. Para abrir uma janela de comando, clique em Iniciar, clique com o botão direito do mouse em Prompt de Comando e clique em Executar como administrador. Quando a janela de comando abrir, digite o mesmo comando mostrado na etapa 2, acima. 
   
 > [!IMPORTANT]
-> No comando anterior, o par de valor/nome Authentication=TrustedServer diferencia maiúscula de minúscula. Ele deve ser digitado exatamente como mostrado. Por exemplo, este comando falhará porque não utiliza a formatação correta: 
+> No comando anterior, a autenticação do par nome/valor = TrustedServer diferencia maiúsculas de minúsculas. Ele deve ser digitado exatamente como mostrado. Por exemplo, esse comando falhará porque não usa a letra de maiúscula correta: 
   
 ```PowerShell
 C:\Tools\Watchernode.msi authentication=trustedserver
 ```
 
-O modo TrustedServer pode ser usado apenas com computadores que ficam dentro da rede de perímetro. Quando um nó de inspetor é executado no modo TrustedServer, os administradores não precisam manter senhas de usuário de teste no computador.
+O modo TrustedServer pode ser usado apenas com computadores que estejam dentro da rede de perímetro. Quando um nó do Inspetor é executado no modo TrustedServer, os administradores não precisam manter as senhas do usuário de teste no computador.
   
-## <a name="configure-a-watcher-node-to-use-negotiate"></a>Configurar um nó do inspetor para usar Negociar
+## <a name="configure-a-watcher-node-to-use-negotiate"></a>Configurar um nó do inspetor para usar Negotiate
 <a name="enable_synthetic_trans"> </a>
 
-Se seu computador no nó do inspetor estiver fora da rede de perímetro, será necessário seguir um procedimento um pouco diferente para configurar o nó do inspetor a fim de executar transações sintéticas: especificamente, você não deve criar um pool de aplicativos confiáveis ou um aplicativo confiável. Isso significa que será necessário concluir as próximas duas tarefas.
+Se o computador do nó do observador estiver fora da rede de perímetro, você deverá seguir um procedimento levemente diferente para configurar esse nó do inspetor para executar as transações sintéticas: em particular, você não deve criar um pool de aplicativos confiável ou um aplicativo confiável. Isso significa que você precisará concluir as próximas duas tarefas.
   
-### <a name="update-membership-in-the-rtc-local-read-only-administrators-group"></a>Atualizar a associação no grupo Administradores locais somente leitura RTC
+### <a name="update-membership-in-the-rtc-local-read-only-administrators-group"></a>Atualizar a associação no grupo de administradores locais somente leitura RTC
 
-Se seu nó de inspetor estiver fora da rede de perímetro, será necessário adicionar a conta Serviço de Rede ao grupo Administradores locais somente leitura RTC no computador no nó do inspetor. Para fazer isso, complete o seguinte procedimento no nó do inspetor:
+Se o nó do Inspetor estiver fora da rede de perímetro, você deve adicionar a conta de serviço de rede ao grupo de administradores locais somente leitura RTC no computador do nó do Inspetor, concluindo o seguinte procedimento no nó do inspetor:
   
 1. Clique em Iniciar, clique com o botão direito do mouse em Computador e clique em Gerenciar.
     
@@ -264,32 +264,32 @@ Se seu nó de inspetor estiver fora da rede de perímetro, será necessário adi
     
 3. No painel Grupos, clique duas vezes em Administradores locais somente leitura RTC.
     
-4. Na caixa de diálogo Propriedades de Administradores Locais Somente Leitura RTC, clique em Adicionar.
+4. Na caixa  de diálogo Propriedades de Administradores Locais Somente Leitura RTC, clique em Adicionar.
     
-5. Na caixa de diálogo Selecionar Usuários, Computadores, Contas de Serviço ou Grupos, clique em Locais.
+5. Na caixa de diálogo Selecionar Usuários, Computadores, Contas de Serviço ou Grupos, clique em Locais
     
 6. Na caixa de diálogo Locais, selecione o nome do computador no nó de inspetor e clique em OK.
     
 7. Na caixa Digite os nomes de objeto a serem selecionados, digite Serviço de Rede e clique em OK.
     
-8. Na caixa de diálogo Propriedades de Administradores Locais Somente Leitura RTC, clique em OK e feche o Gerenciador de Servidor.
+8. Na caixa  de diálogo Propriedades de Administradores Locais Somente Leitura RTC, clique em OK e feche o Gerenciador de Servidor.
     
 9. Reinicie o computador no nó do inspetor.
     
-### <a name="install-the-watcher-node-configuration-files"></a>Instalar os Arquivos de Configuração no Nó do Inspetor
+### <a name="install-the-watcher-node-configuration-files"></a>Instalar os arquivos de configuração do nó do Inspetor
 
-Sua próxima etapa será executar o arquivo Watchernode.msi: 
+A próxima etapa é executar o arquivo Watchernode.msi: 
   
-1. Abra o Shell de Gerenciamento do Microsoft Skype for Business Server. Clique em Iniciar, em Todos os Programas, em Microsoft Skype for Business Server 2015 e em Shell de Gerenciamento do Skype for Business Server. 
+1. Abra o Shell de gerenciamento do Microsoft Skype for Business Server 2015. Clique em Iniciar, em todos os programas, em Microsoft Skype for Business Server 2015 e, em seguida, clique em Shell de gerenciamento do Skype for Business Server. 
     
-2. No Shell de Gerenciamento do Skype for Business Server, digite o seguinte comando e pressione ENTER (tenha certeza e especifique o caminho real até sua cópia de Watchernode.msi):
+2. No Shell de gerenciamento do Skype for Business Server, digite o seguinte comando e pressione ENTER (Lembre-se de especificar o caminho real para a sua cópia do Watchernode.msi):
     
    ```PowerShell
    c:\Tools\Watchernode.msi Authentication=Negotiate
    ```
 
 > [!NOTE]
-> Conforme indicado anteriormente, Watchernode.msi também pode ser executado a partir de uma janela de comando. Para abrir uma janela de comando, clique em **Iniciar**, clique com o botão direito do mouse em **Prompt de Comando** e clique em **Executar como administrador**. Quando a janela de comando for aberta, digite o mesmo comando exibido na etapa 2 acima. 
+> Como mencionado anteriormente, Watchernode.msi também pode ser executado a partir de uma janela de comando. Para abrir uma janela de comando, clique em **Iniciar**, clique com o botão direito do mouse em **Prompt de Comando** e clique em **Executar como administrador**. Quando a janela de comando abrir, digite o mesmo comando mostrado na etapa 2, acima. 
   
 O modo Negociar é usado sempre que o nó de inspetor não podem ser configurado como um pool de aplicativos confiável. Nesse modo, os administradores precisarão gerenciar as senhas do usuário de teste no nó de inspetor.
   

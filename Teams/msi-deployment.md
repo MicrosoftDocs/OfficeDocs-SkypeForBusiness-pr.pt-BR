@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7a5b35add8e6de0a723ab568c4e0959bb9e5612b
-ms.sourcegitcommit: 1eb92a4a8c877f8b6c77cee62609cf9e8c9ee0a7
+ms.openlocfilehash: 55a514aa6aec6991e331b445a2fbb6e9c602ac91
+ms.sourcegitcommit: b72bf3827e7145b9b6a95c84e88a7879c6e8c337
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "46606917"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46640826"
 ---
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>Instalar o Microsoft Teams usando o Microsoft Endpoint Configuration Manager
 
@@ -44,7 +44,7 @@ Estes são os links para os arquivos MSI:
 
 - Instale a versão de 64 bits do teams em sistemas operacionais de 64 bits. Se você tentar instalar a versão de 64 bits do teams em um sistema operacional de 32 bits, a instalação não será bem-sucedida e, no momento, você não receberá uma mensagem de erro.
 
-- Se o locatário do cliente estiver nas nuvens GCCH ou DoD, o cliente deve definir o ponto de extremidade inicial no registro adicionando o valor **cloudtype** à chave **HKEY_CURRENT_USER \software\policies\microsoft\office\16.0\teams** no registro. O tipo de **cloudtype** é **DWORD** e os valores são (0 = indefinida, 1 = comercial, 2 = gcc, * = GCCH, 4 = DoD). Configurar o ponto de extremidade com a chave do registro restringe as equipes para se conectarem ao ponto de extremidade de nuvem correto para conectividade de pré-logon com o Teams.
+- Se o locatário do cliente estiver nas nuvens GCCH ou DoD, o cliente deve definir o ponto de extremidade inicial no registro adicionando o valor **cloudtype** à chave **HKEY_CURRENT_USER \software\policies\microsoft\office\16.0\teams** no registro. O tipo de **cloudtype** é **DWORD** e os valores são (0 = indefinida, 1 = comercial, 2 = gcc, 3 = GCCH, 4 = DoD). Configurar o ponto de extremidade com a chave do registro restringe as equipes para se conectarem ao ponto de extremidade de nuvem correto para conectividade de pré-logon com o Teams.
 
 - As equipes também podem ser incluídas com uma implantação de aplicativos do Microsoft 365 para empresas. Para obter mais informações, consulte [implantar o Microsoft Teams com os aplicativos do microsoft 365 para empresas](https://docs.microsoft.com/deployoffice/teams-install).
 

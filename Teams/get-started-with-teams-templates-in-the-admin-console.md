@@ -1,5 +1,5 @@
 ---
-title: Usar modelos do teams no console de administração
+title: Usar modelos do teams para criar uma nova equipe
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -19,12 +19,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: cc62eeb2cbbc14ce921c3f85860a72d38b59965d
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 8cb72ba0fce238a89b1d087baef16a30cb2d55d3
+ms.sourcegitcommit: 3814db70796888f15ea47d7810e1621a92992870
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583168"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "46634727"
 ---
 # <a name="get-started-with-teams-templates-in-the-teams-admin-console"></a>Introdução aos modelos do teams no console de administração do teams
 
@@ -35,7 +35,7 @@ ms.locfileid: "46583168"
 > [!NOTE]
 > Atualmente, os modelos de equipe não dão suporte à criação de canais particulares. A criação do canal privado não está incluída nas definições do modelo.
 
-Os modelos de equipe são definições predefinidas da estrutura de uma equipe projetada em torno de uma necessidade ou projeto comercial. Use modelos predefinidos ou crie seu próprio modelo. Os modelos de equipe permitem que você crie rapidamente espaços de colaboração avançados com canais para diferentes tópicos e aplicativos pré-instalar para obter conteúdo e serviços de missão crítica. Os modelos de equipe fornecem uma estrutura de equipe predefinida que pode ajudá-lo a criar facilmente equipes consistentes em toda a sua organização. No momento, você pode usar um modelo no console de administração ou usando o [Microsoft Graph](get-started-with-teams-templates.md).
+Os modelos de equipe são definições predefinidas da estrutura de uma equipe projetada em torno de uma necessidade ou projeto comercial. Use modelos predefinidos ou crie seu próprio modelo. Os modelos de equipe permitem que você crie rapidamente espaços de colaboração avançados com canais para diferentes tópicos e aplicativos pré-instalar para obter conteúdo e serviços de missão crítica. Os modelos de equipe fornecem uma estrutura de equipe predefinida que pode ajudá-lo a criar facilmente equipes consistentes em toda a sua organização. No momento, você pode criar uma equipe a partir de um modelo no Teams ou usando [o Microsoft Graph](get-started-with-teams-templates.md).
 
 Neste artigo, explicaremos as propriedades que podem ser definidas nos modelos, quais tipos de modelo básico são e como você pode usar algumas solicitações de exemplo para criar uma equipe a partir de um modelo.
 

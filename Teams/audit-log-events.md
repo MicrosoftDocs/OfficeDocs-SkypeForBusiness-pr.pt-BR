@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Saiba como recuperar dados do Microsoft Teams do log de auditoria.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d5b458dec4782794fef69b58d44430b35eccc07d
-ms.sourcegitcommit: 113e3a7314505cf78da57917ff62642125fb11fd
+ms.openlocfilehash: 64b2e2f28b33a3f0518dbf4f2f07a4be3053d342
+ms.sourcegitcommit: 3814db70796888f15ea47d7810e1621a92992870
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45121371"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "46634607"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Pesquisar o log de auditoria de eventos no Microsoft Teams
 
@@ -189,6 +189,11 @@ Se a sua organização estiver usando o aplicativo turnos no Microsoft Teams, vo
 ## <a name="office-365-management-activity-api"></a>API de atividade de gerenciamento do Office 365
 
 Você pode usar a API de atividade de gerenciamento do Office 365 para recuperar informações sobre os eventos do teams. Para saber mais sobre o esquema de API de atividade de gerenciamento do Teams, consulte [esquema do teams](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema#microsoft-teams-schema).
+
+
+## <a name="attribution-in-teams-audit-logs"></a>Atribuição nos logs de auditoria do teams
+
+Atualmente, há um problema conhecido com a atribuição nos logs de auditoria do Teams e as mensagens de controle: um proprietário pode ser atribuído incorretamente à remoção ou à adição de usuários. Isso acontece quando a alteração ocorre fora do teams. Nesses casos, recomendamos usar os [logs de auditoria do Office 365](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance).
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

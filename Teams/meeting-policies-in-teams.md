@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Saiba como gerenciar as configurações de política de reunião no Teams e usá-las para controlar os recursos disponíveis para os participantes da reunião para reuniões agendadas pelos usuários.
-ms.openlocfilehash: 8eba2d4ebed9112e1ada4e3101bae9fe1cbfbcfe
-ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
+ms.openlocfilehash: c617669cdb5b0ee9f5a7acd52c2c9064b9cbc88e
+ms.sourcegitcommit: b72bf3827e7145b9b6a95c84e88a7879c6e8c337
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46552607"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46640956"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Gerenciar políticas de reunião no Teams
 
@@ -443,3 +443,4 @@ Para especificar se os usuários podem personalizar a tela de fundo do vídeo em
 
 - [Visão Geral do PowerShell do Teams](teams-powershell-overview.md)
 - [Atribuir políticas a seus usuários no Teams](assign-policies.md)
+- [Remover a política de reunião do RestrictedAnonymousAccess Teams dos usuários](meeting-policies-restricted-anonymous-access.md)
