@@ -1,7 +1,7 @@
 ---
 title: Planejar a governança em equipes ‒ Microsoft Teams
-author: lanachin
-ms.author: v-lanac
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.date: 08/10/2018
 ms.topic: reference
@@ -18,12 +18,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 19b2fc0c14730f4aa4c25ccdfcf5298f6f038d3d
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: ea48b4df3313784cf129cf483aebac341917cb21
+ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665273"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46656352"
 ---
 # <a name="plan-for-governance-in-teams"></a>Plano de governança no Teams
 
@@ -103,6 +103,34 @@ Para obter orientação técnica sobre como implementar essas configurações, c
 
 - [Arquivar ou restaurar uma equipe](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7).
 
+## <a name="group-and-team-membership-management"></a>Gerenciamento de associação de grupo e equipe
+
+Gerenciar consistentemente os membros do projeto com base em um projeto, ou grupos restritos, são necessários para equipes que exigem integração rápida e remoção de usuários e convidados. Sua organização também pode precisar certificar-se de que todos os membros atuais tenham a justificativa para empresas em uma equipe. O gerenciamento de membros pode ser difícil porque os proprietários da equipe podem deixar e os usuários não costumam deixar grupos em seu próprio acordo quando um projeto termina ou quando eles alteram funções. A melhor maneira de gerenciar associação a um grupo que permite aos usuários obter acesso quando necessário, mas garantir que o grupo não tenha risco de acesso impróprio é por meio de dois processos de distrito: análises de acesso e gerenciamento de direitos.
+
+O [Gerenciamento de direitos](https://docs.microsoft.com/azure/active-directory/governance/entitlement-management-overview) permite que você delegue a alguém, como um gerente de projeto, para coletar todos os recursos necessários, incluindo os membros da equipe, em um único pacote. Eles também podem definir quem pode fazer solicitações: os usuários de seu locatário ou de outras organizações conectadas. O gerente de projeto receberá solicitações de acesso nas solicitações de email e aprovar ou negar no portal de myaccess. Os administradores podem configurar as condições do Access para incluir uma data de vencimento ou um período pelo qual o usuário ou o convidado serão removidos da equipe, a menos que o Access seja renovado. Os administradores também podem configurar os grupos associados às equipes para participarem de análises do Access. Para [análises do Access](https://docs.microsoft.com/azure/active-directory/governance/access-reviews-overview), os proprietários do grupo receberão lembretes regulares para analisar os membros de uma equipe. As análises do Access incluem recomendações, o que torna mais fácil para os proprietários de grupos passarem pelo processo de atestado regular.
+
+||||
+|:-|:-|:-|
+|<img src="media/audio_conferencing_image7.png" alt= "An icon depicting decision points"/>  | Pontos de decisão | Sua organização requer um processo consistente para gerenciar a participação de uma ou mais equipes? <br> Sua organização precisa de proprietários, ou dos próprios membros, para justificar a participação contínua de uma ou mais equipes com frequência? <br> Sua organização precisa de aprovação para que os usuários e convidados solicitem acesso a recursos, incluindo equipes, grupos, sites do SharePoint e aplicativos? |
+|<img src="media/audio_conferencing_image9.png" alt= "An icon depicting the next steps"/>| Próximas etapas? | Documentar os requisitos de organizações para cada equipe ou equipes específicas para expiração da associação.<br>Planeje como sua organização pode agrupar equipes, grupos, sites do SharePoint e aplicativos juntos em pacotes do Access.<br>Planeje quais pessoas, como o gerente do solicitante, um gerente de projeto, um patrocinador de uma organização conectada ou um responsável pela segurança em sua organização precisará aprovar ou recusar solicitações de acesso. |
+
+> [!TIP]
+> Use a tabela a seguir para capturar os requisitos da sua organização.
+
+| Funcionalidade | Detalhes | É necessária uma licença do Azure AD Premium | Decidiu |
+|:-|:-|:-|:-|
+| Análises do Access | Configurar avaliações do Access para certificar novamente a participação de equipes específicas em intervalos regulares | P2 | A ser determinado |
+| Gerenciamento de direitos | Configurar o pacote do Access para permitir que usuários e convidados solicitem acesso a equipes | P2 | A ser determinado |
+
+> [!NOTE]
+> Para ajudá-lo a planejar com antecedência, [saiba mais sobre quais licenças são necessárias](https://azure.microsoft.com/pricing/details/active-directory/).
+
+### <a name="additional-information"></a>Informações adicionais
+
+Para obter orientação técnica sobre como implementar essas configurações, consulte:
+
+- [Gerenciamento de direitos](https://docs.microsoft.com/azure/active-directory/governance/entitlement-management-overview)
+- [Análises do Access](https://docs.microsoft.com/azure/active-directory/governance/access-reviews-overview)
 
 ## <a name="teams-feature-management"></a>Gerenciamento de recursos do teams
 

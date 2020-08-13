@@ -1,20 +1,19 @@
 ---
 title: Gerenciar o aplicativo elogio no centro de administração do teams
-author: CaitlynZawideh
-ms.author: t-cazaw
+author: cichur
+ms.author: v-cichur
 manager: serdars
 audience: admin
 ms.topic: article
 ms.service: msteams
 localization_priority: Normal
 description: Saiba mais sobre as configurações de administrador no aplicativo elogios no centro de administração do Microsoft Teams
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: deff9fca7cf1097399079482dc4667052a7be537
-ms.sourcegitcommit: 5bcc25fb20ed72bac02bc78e40b591e67eb58686
+ms.openlocfilehash: 2fa2f7e92646dafe3d8bf1cc39325a682c823686
+ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "46564072"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46656302"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>Gerenciar o aplicativo elogios no centro de administração do Microsoft Teams
 
@@ -46,7 +45,7 @@ Educadores podem reconhecer alunos individuais para conquistas e comportamentos 
 
 ## <a name="create-your-own-badges"></a>Criar seus próprios selos
 
-Alterne o botão de alternância de **notificações personalizadas** para ativado e selecione **criar um selo personalizado**. A partir daí, você pode criar um emblema personalizado no painel lateral.
+Alterne o botão de alternância de **notificações personalizadas** para ativado e selecione **criar um selo personalizado**. A partir daí, você pode criar um emblema personalizado no painel lateral. Você pode criar até 25 selos personalizados. 
 
 1. Digite o nome do selo. Esse é o nome que aparecerá no selo quando os usuários enviarem elogios.
 
@@ -55,7 +54,7 @@ Alterne o botão de alternância de **notificações personalizadas** para ativa
    > [!TIP]
    > Se você não tem experiência com valores hexa, este artigo inclui uma [rápida introdução](#hex-colors-intro) para mostrar como usá-los.
 
-3. Carregar uma imagem de selo. O tipo de arquivo aceito é. Formato. O arquivo deve ser menor do que 25KB.
+3. Carregar uma imagem de selo. O tipo de arquivo aceito é. Formato. O arquivo de imagem deve ter menos de 40 KB com dimensões máximas de 216 X 216 pixels.
 ![Selo com campos de plano de fundo, texto e imagem rotulados](media/praise-app-badge-fields.png)
 
 4. Localize o nome do seu selo: em **nomes de selo localizados**, selecione **Adicionar**. Selecione o local desejado na lista suspensa. Em seguida, digite o nome do selo no idioma designado.
@@ -98,7 +97,7 @@ Veja a seguir uma lista de cores de exemplo para ajudá-lo a começar:
 
 **Ao escolher as cores, mantenha a acessibilidade em mente.** Algumas cores se unem melhor do que outras.  Crie contraste entre as cores do texto e do plano de fundo para facilitar a leitura do nome do selo. Por exemplo, se você tiver escolhido uma cor de fundo escura, escolha uma cor de texto claro.
 
-**Ao selecionar uma imagem, mantenha as dimensões do selo em mente.** Para ter a melhor qualidade, recomendamos carregar um arquivo de imagem que seja 216x216 pixels. Evite redimensionar ou distorcer a imagem para ajustá-las a essas dimensões.
+**Ao selecionar uma imagem, mantenha as dimensões do selo em mente.** Para obter a melhor qualidade, recomendamos carregar um arquivo de imagem que seja 216 x 216 pixels (que são as dimensões máximas). Evite redimensionar ou distorcer a imagem para ajustá-las a essas dimensões.
 
 **Se a sua imagem do selo não for retangular, torne a imagem transparente.** Você precisará fazer isso antes de carregar o arquivo de imagem para elogios.
 

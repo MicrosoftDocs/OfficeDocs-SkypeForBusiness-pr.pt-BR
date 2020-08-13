@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Saiba como recuperar dados do Microsoft Teams do log de auditoria.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 64b2e2f28b33a3f0518dbf4f2f07a4be3053d342
-ms.sourcegitcommit: 3814db70796888f15ea47d7810e1621a92992870
+ms.openlocfilehash: ac732b499327e6661472c59f370f45ece42e78cc
+ms.sourcegitcommit: b23d3d583910aa21a62ea69b554ab614c1ae8079
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "46634607"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46648532"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Pesquisar o log de auditoria de eventos no Microsoft Teams
 
@@ -193,7 +193,7 @@ Você pode usar a API de atividade de gerenciamento do Office 365 para recuperar
 
 ## <a name="attribution-in-teams-audit-logs"></a>Atribuição nos logs de auditoria do teams
 
-Atualmente, há um problema conhecido com a atribuição nos logs de auditoria do Teams e as mensagens de controle: um proprietário pode ser atribuído incorretamente à remoção ou à adição de usuários. Isso acontece quando a alteração ocorre fora do teams. Nesses casos, recomendamos usar os [logs de auditoria do Office 365](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance).
+As alterações de associação ao Teams (como usuários adicionados ou excluídos) feitas por meio do Azure Active Directory (Azure AD), do portal de administração do Microsoft 365 ou da API do Microsoft 365 groups Graph serão exibidas nas mensagens de auditoria do Teams e no canal geral com uma atribuição para um proprietário existente da equipe e não para o iniciador real da ação. Nesses cenários, consulte logs do Azure AD ou do [Microsoft 365 Group Audit](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) para ver as informações relevantes.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

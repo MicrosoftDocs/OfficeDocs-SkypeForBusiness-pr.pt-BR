@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 697e36085169e0666e6a821a66c763be39cf9425
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 16da525051e09f4ed1a7acaf3e9906f59b8b30af
+ms.sourcegitcommit: b23d3d583910aa21a62ea69b554ab614c1ae8079
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868518"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46648582"
 ---
 # <a name="team-expiration-and-renewal-in-microsoft-teams"></a>Expiração e renovação da equipe no Microsoft Teams
 
@@ -33,7 +33,7 @@ Quando você aplica uma política de expiração a uma equipe, um proprietário 
 
 ![Captura de tela do botão Renovar agora para renovar uma equipe nas configurações da equipe](media/team-expiration.png "Captura de tela do botão Renovar agora para renovar uma equipe nas configurações da equipe")
 
-Se o proprietário da equipe não renovar a equipe, a equipe será colocada em um estado "excluído sem disco", o que significa que ela pode ser restaurada dentro dos próximos 30 dias.
+Se o proprietário da equipe não renovar a equipe e não houver nenhuma atividade adicional na equipe até o final da política de expiração, a equipe será colocada em um estado "Soft-Deleted", o que significa que ela pode ser restaurada dentro dos próximos 30 dias.
 
 ## <a name="team-auto-renewal"></a>Renovação automática da equipe
 

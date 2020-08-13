@@ -1,7 +1,7 @@
 ---
 title: Gerenciar o acesso de convidados no Microsoft Teams
-author: lanachin
-ms.author: v-lanac
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -17,12 +17,12 @@ description: Saiba como criar suas primeiras equipes e canais, pioneiros no iní
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 4751f274e4bc7a874c1469041787d7d145c11bb8
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: fa45c5c307e33188548353a9a4d36086d804b278
+ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637660"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46655932"
 ---
 <a name="manage-guest-access-in-microsoft-teams"></a>Gerenciar o acesso de convidados no Microsoft Teams
 ======================================
@@ -30,7 +30,7 @@ ms.locfileid: "44637660"
 > [!IMPORTANT]
 > Talvez seja necessário esperar algumas horas para que as alterações entrem em vigor. 
 
-**Guest** é um tipo de usuário no Microsoft Teams que está incluído em todas as assinaturas do Microsoft 365 Business Standard, do Office 365 Enterprise, do Microsoft 365 Business Basic e do Office 365 Education. Não é necessária uma licença adicional do Microsoft 365 ou do Office 365. Leia mais sobre o [Licenciamento de acesso de convidado](#guest-access-licensing-limits) abaixo.
+**Guest** é um tipo de usuário no Microsoft Teams que está incluído em todas as assinaturas do Microsoft 365 Business Standard, do Office 365 Enterprise, do Microsoft 365 Business Basic e do Office 365 Education. Não é necessária nenhuma licença adicional do Microsoft 365 ou Office 365. Leia mais sobre o [Licenciamento de acesso de convidado](#guest-access-licensing-limits) abaixo.
 
 O acesso de convidados no Teams é uma configuração em nível de locatário e está desabilitado por padrão. Para obter detalhes sobre como ativar o acesso de convidado, consulte [Ativar ou desativar o acesso de convidado a equipes](set-up-guests.md)ou usar a [lista de verificação de acesso de convidado](guest-access-checklist.md) para orientá-lo na configuração.
 

@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Saiba como habilitar o roteamento direto do sistema de usuários do Microsoft Phone System.
-ms.openlocfilehash: 2ae485398cef1cef2444de07dcabc4bf3f949ad5
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 5fc3955430e5aa441d3c1099a86011d2b0c760f0
+ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691367"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46656142"
 ---
 # <a name="enable-users-for-direct-routing-voice-and-voicemail"></a>Habilite os usuários para roteamento direto, voz e correio de voz
 
@@ -53,9 +53,9 @@ Se sua implantação do Skype for Business online existir com o Skype for Busine
 
 Para obter informações sobre os requisitos de licença, consulte [Licenciamento e outros requisitos](direct-routing-plan.md#licensing-and-other-requirements) no [Roteamento direto do plano](direct-routing-plan.md).
 
-## <a name="ensure-that-the-user-is-homed-in-skype-for-business-online"></a>Certifique-se de que o usuário esteja hospedado no Skype for Business Online 
+## <a name="ensure-that-the-user-is-homed-online"></a>Certifique-se de que o usuário esteja hospedado online 
 
-O roteamento direto exige que o usuário seja hospedado no Skype for Business online. Você pode verificar a aparência do parâmetro RegistrarPool, que precisa ter um valor no domínio infra.lync.com.
+O roteamento direto exige que o usuário seja hospedado online. Você pode verificar a aparência do parâmetro RegistrarPool, que precisa ter um valor no domínio infra.lync.com.
 
 1. Conecte-se ao PowerShell remoto.
 2. Execute o comando: 
