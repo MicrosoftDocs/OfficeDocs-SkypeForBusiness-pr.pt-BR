@@ -21,45 +21,44 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Conheça as etapas para redefinir o ID de conferência de reunião de um usuário no Microsoft Teams e obtenha links para as ferramentas de atualização e migração da reunião.
-ms.openlocfilehash: fbda2d65868d9f4082ae7b3ee835d0560c609e11
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 52b547fee5bf027bcef21914e3ba3aa79b0e4e08
+ms.sourcegitcommit: 7a9c63ee790108eaa61950ce28ae8027311039d9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666193"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46662121"
 ---
 # <a name="reset-a-conference-id-for-a-user-in-microsoft-teams"></a>Redefinir o ID de conferência de um usuário no Microsoft Teams
 
 Esse ID de conferência dinâmico é incluído no final dos convites de reunião, juntamente com os números de telefone que podem ser discados para que os chamadores participem de uma reunião. Quando o usuário discar para o número de telefone, um atendedor automático da reunião solicitará que ele insira esse ID de conferência para que possam participar da reunião.
   
 > [!NOTE]
-> Se o seu provedor de conferência for da Microsoft, os IDs de conferência dos usuários serão definidos como Somente dinâmicos por padrão. Infelizmente, não é possível alterá-lo para que se torne estático, pois isso não tem mais suporte. Os IDs de conferência são definidos automaticamente somente para usuários do Microsoft Teams habilitados para a audioconferência. 
+> As IDs de conferência são geradas automaticamente, serão entre 7-9 dígitos e são definidas quando você habilita a videoconferência para um usuário. **Não há suporte para IDs de conferência estática.** 
 
-
-## <a name="resetting-the-conference-id-for-a-user"></a>Redefinir o ID de conferência de um usuário
+## <a name="resetting-the-conference-id-for-a-user"></a>Redefinir a ID de conferência de um usuário
 
 ![Um ícone mostrando o logotipo do Microsoft Teams](media/teams-logo-30x30.png) **Usando o centro de administração do Microsoft Teams**
 
-1. Na navegação à esquerda, clique em **usuários**e selecione o usuário na lista de usuários disponíveis.
+1. No painel de navegação à esquerda, clique em **Usuários** e selecione o usuário na lista de usuários disponíveis.
 
 2. Clique em **Editar**.
 
-3. Em **videoconferências** , clique em **Redefinir ID de conferência**.
+3. Em **Audioconferência** clique em **Redefinir ID de conferência**.
 
-2. Na janela **Redefinir ID de conferência** , clique em **Redefinir**. A conference ID will be automatically created and an email sent to the user with the new conference ID. Por padrão, os emails são enviados para os usuários, mas isso pode ser desativado.   
+2. Na janela **Redefinir ID de conferência**, clique em **Redefinir**. Um ID de conferência será criado automaticamente e um e-mail será enviado ao usuário com o novo ID de conferência. Por padrão, os e-mails são enviados aos usuários, mas isso pode ser desativado.   
 
     
 > [!NOTE]
-> Depois de redefinir o ID de conferência, um email com a nova ID de conferência será enviado ao usuário. Este e-mail será enviado ao endereço de email principal, em muitos casos, à sua caixa de correio do Microsoft 365 ou do Office 365. O email contém a nova ID de conferência, os números de telefone de discagem padrão e as instruções para a atualização das reuniões existentes. 
+> Depois de redefinir o ID de conferência, um e-mail com o novo ID de conferência será enviado ao usuário. Este e-mail será enviado ao endereço de email principal, em muitos casos, à sua caixa de correio do Microsoft 365 ou do Office 365. O e-mail contém o novo ID de conferência, o(s) número(s) de telefone de discagem padrão e instruções para atualizar as reuniões existentes. 
   
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
-## <a name="what-else-should-i-know"></a>O que mais devo saber?
+## <a name="what-else-should-i-know"></a>O que mais preciso saber?
 
-- Você pode enviar todas as informações da conferência para o usuário em um email que inclua a ID de conferência e os números de telefone de discagem clicando em **enviar informações de conferência em um email** para o usuário na seção **conferência de áudio** . Isso não envia o PIN.
+- Você pode enviar todas as informações da conferência para o usuário em um único e-mail, que inclui o ID de conferência e os números de telefone de discagem, clicando em **Enviar informações de conferência por e-mail** para o usuário na seção **Audioconferência**. O e-mail não envia o PIN.
     
-- Uma ID de conferência terá 8 dígitos e você não poderá alterar seu comprimento.
+- Uma ID de conferência de dígito de 7-9 é criada pelo serviço Teams. Não é possível alterar seu tamanho.
     
 - Depois que for redefinido, o novo ID de conferência será listado em **ID de Conferência**.
     

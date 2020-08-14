@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: Os organizadores da reunião podem aprender a discar usando o aplicativo Teams para permitir que outras pessoas ingressem na mesma reunião usando seus telefones.
-ms.openlocfilehash: 7d15cbbc1b81d54f6a217713cea3927dcff31e56
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: f84f811d89847bfdf17f123abe9c2df88536bc76
+ms.sourcegitcommit: 7a9c63ee790108eaa61950ce28ae8027311039d9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691287"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46662101"
 ---
 # <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>Discar de uma reunião do Microsoft Teams para que outras pessoas possam ingressar
 
@@ -38,7 +38,8 @@ Ao discar para alguém, recomendamos que você faça isso usando números de tel
   Observe que:
 
 - Você pode discar somente se ingressar em uma reunião usando o Microsoft Teams.
-- Você, como organizador da reunião, foi habilitado para videoconferências.
+- O organizador da reunião foi habilitado para videoconferências ou, no caso de a licença de audioconferência não estiver atribuída, é permitida para fazer chamadas para a rede telefônica comutada pública via planos de chamada online ou roteamento direto.
+- O organizador da reunião [recebe uma política de discagem online que permite discagem fora da conferência habilitada](https://docs.microsoft.com/powershell/module/skype/grant-csdialoutpolicy?view=skype-ps)
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]

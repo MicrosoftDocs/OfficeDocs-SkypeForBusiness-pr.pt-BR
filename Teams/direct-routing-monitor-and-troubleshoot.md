@@ -48,7 +48,7 @@ O diagrama a seguir mostra um exemplo da configuração:
 
 ![Exemplo de configuração de opções SIP](media/sip-options-config-example.png)
 
-Quando um usuário faz uma chamada para número + 1 425 \<quaisquer sete dígitos>, o roteamento direto avalia a rota. Há dois SBCs na rota: sbc1.contoso.com e sbc2.contoso.com. O SBCs tem prioridade igual na rota. Antes de escolher um SBC, o mecanismo de roteamento avalia a integridade do SBCs com base em quando o SBC enviou as opções de SIP pela última vez. 
+Quando um usuário faz uma chamada para número + 1 425 \< quaisquer sete dígitos>, o roteamento direto avalia a rota. Há dois SBCs na rota: sbc1.contoso.com e sbc2.contoso.com. O SBCs tem prioridade igual na rota. Antes de escolher um SBC, o mecanismo de roteamento avalia a integridade do SBCs com base em quando o SBC enviou as opções de SIP pela última vez. 
 
 Um SBC é considerado Íntegro se as estatísticas no momento de enviar a chamada mostrarem que o SBC envia as opções a cada minuto.  
 

@@ -23,12 +23,12 @@ ms.custom:
 - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
 description: Quando você recebe números de telefone ou números de porta (transferência) da sua organização, talvez seja necessário obter ajuda e suporte na mesa de serviço PSTN.
-ms.openlocfilehash: 7e259010772dd655f748f30e3de291a4a43c5cef
-ms.sourcegitcommit: 8816b58e175031cb0a71e0d0e89e447a7b83a760
+ms.openlocfilehash: b0ba69aae5c25db788279ec4e28ad306514b1974
+ms.sourcegitcommit: 7a9c63ee790108eaa61950ce28ae8027311039d9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/08/2020
-ms.locfileid: "46597056"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46662091"
 ---
 # <a name="pstn-service-desk-contact-information"></a>Informações de contato da escrivaninha do serviço PSTN
 
@@ -36,8 +36,9 @@ Para entrar em contato com a equipe de suporte PSTN, envie um email para o alias
 
 | **Eu quero transferir/portar números existentes**  | **Desejo pedir novos números para** |
 |:-----:|:------:|
-| **Nos** **Estados Unidos** ou no **Canadá**, envie um email para [PTN@microsoft.com](mailto:ptn@microsoft.com).| **Bélgica, França, Alemanha, Grã-Bretanha, Irlanda, Holanda, Espanha, Suécia, Suíça**, e envie um email para [ptneu@microsoft.com](mailto:ptneu@microsoft.com).|
-|**Fora** dos **Estados Unidos** ou do **Canadá**, envie um email para [ptneu@microsoft.com](mailto:ptneu@microsoft.com).| **Restante do mundo**, envie um email para [gcstnmsd@microsoft.com](mailto:gcstnmsd@microsoft.com).|
+| [Nos **Estados Unidos ou no Canadá**, envie um e-mail para PTN@microsoft.com](mailto:ptn@microsoft.com)| [**Bélgica, França, Alemanha, Grã-Bretanha, Irlanda, Holanda, Espanha, Suécia, Suíça**, e-mail em ptneu@microsoft.com](mailto:ptneu@microsoft.com)|
+|[**Fora dos Estados Unidos ou do Canadá**, envie-nos um e-mail para ptneu@microsoft.com](mailto:ptneu@microsoft.com)| [**Restante do mundo**, envie-nos um e-mail para gcstnmsd@microsoft.com](mailto:gcstnmsd@microsoft.com)|
+|Devido a um grande aumento nas solicitações de entrada, a **equipe de portabilidade do norte da América do Norte** está em log. Estamos trabalhando para limpar essa lista de pendências em uma base FIFO (primeiro a entrar, primeiro a sair) e, como resultado, **a resposta a novas solicitações será adiada.**|Devido a um grande aumento nas solicitações de entrada, a **equipe de portabilidade da UE** está em log. Estamos trabalhando para limpar essa lista de pendências em uma base FIFO (primeiro a entrar, primeiro a sair) e, como resultado, **a resposta a novas solicitações será adiada.**|
 
 > [!NOTE]
 > As respostas da América do Norte podem ser atrasadas devido a um grande aumento nas solicitações de entrada. A backlog está sendo eliminada em uma base FIFO (primeiro a entrar, primeiro a sair).
