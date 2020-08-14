@@ -125,6 +125,7 @@
 ## [Modelos de aplicativos para o Teams](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Gerenciar o aplicativo Listas para sua organização no Teams](manage-lists-app.md)
 ## [Gerenciar o aplicativo Tarefas para a sua organização](manage-tasks-app.md)
+## [O aplicativo Gerenciar Elogios no centro de administração do Teams](manage-praise-app.md)
 ## [Configurar a hierarquia de direcionamento da equipe](set-up-your-team-hierarchy.md)
 ## [Configurar o aplicativo de Reuniões do Skype para trabalhar com o Teams](configure-skype-meetings-app-to-work-with-teams.md)
 
@@ -168,6 +169,7 @@
 
 ## [Tutorial: Reuniões no Teams](Tutorial-Meetings-in-Teams.yml)
 ## [Gerenciar políticas de reunião](meeting-policies-in-teams.md)
+## [Remover a política de reunião RestrictedAnonymousAccess dos usuários](meeting-policies-restricted-anonymous-access.md)
 ## [Gerenciar configurações de reuniões](meeting-settings-in-teams.md)
 ## [Emails enviados para os usuários quando suas configurações são alteradas](emails-sent-to-users-when-their-settings-change-in-teams.md) 
 ## [Permitir que os usuários gravem seus nomes ao ingressar em uma reunião](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
@@ -829,6 +831,7 @@
 ## Dispositivos suportados
 ### [Gerenciar seus dispositivos no Teams](devices/device-management.md)
 ### [Atualizar seus dispositivos remotamente](devices/remote-update.md)
+### [Gerenciar marcações de dispositivos do Teams](devices/manage-device-tags.md)
 ### [Telefones para o Teams](devices/phones-for-teams.md)
 ### [Dispositivos de áudio e vídeo USB](devices/usb-devices.md)
 ### [Implantar barras de colaboração do Microsoft Teams](devices/collab-bar-deploy.md)

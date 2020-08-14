@@ -18,20 +18,20 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8358aaf175536ea567c6972d878466bdb004b660
-ms.sourcegitcommit: 95989f1a93524a2025feeb50b8635da332961ea3
+ms.openlocfilehash: 0148ea6ad68ede22807553f2bb708299c74bf884
+ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "46588265"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46656332"
 ---
-# <a name="microsoft-teams-admin-training"></a>Treinamento de administração do Microsoft Teams
+# <a name="microsoft-teams-training"></a>Treinamento para o Microsoft Teams
 
 |               |               |
 | ------------- | ------------- |
 | <img src="https://docs.microsoft.com/office/media/icons/walkthrough-map-teams.svg" width="40 px" height="40 px" alt-text="walkthrough-map-teams"> | **[Treinamento de administradores](/microsoftteams/itadmin-readiness)** </br> Use estes tutoriais, vídeos e outros recursos de treinamento para saber mais sobre o Teams e estimular o seu uso na sua organização. 
-| <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg" width="40 px" height="40 px" alt-text="education-tutorial-teams"> | **[Treinamento guiado por instrutor](/microsoftteams/instructor-led-training-teams-landing-page)** </br> Cursos de treinamento online, ao vivo e gratuitos hospedados pela Microsoft, projetados para ajudá-lo a começar a trabalhar com o Teams. Participe para ver o Teams em ação, tire suas dúvidas e interaja com os nossos instrutores ao vivo. 
-| <img src="https://docs.microsoft.com/office/media/icons/user.svg" width="40 px" height="40 px" alt-text="user"> | **[Treinamento para usuário final](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)** </br> Use estes recursos de treinamento para ajudar usuários na sua organização a tirar o máximo de proveito do Teams. |
+| <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg" width="40 px" height="40 px" alt-text="education-tutorial-teams"> | **[Treinamento ao vivo para o Teams](/microsoftteams/instructor-led-training-teams-landing-page)** </br> Cursos de treinamento online, ao vivo e gratuitos hospedados pela Microsoft, projetados para ajudá-lo a começar a trabalhar com o Teams. Participe para ver o Teams em ação, tire suas dúvidas e interaja com os nossos instrutores ao vivo. 
+| <img src="https://docs.microsoft.com/office/media/icons/user.svg" width="40 px" height="40 px" alt-text="user"> | **[Treinamento online para o Teams](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)** </br> Utilize esses recursos de treinamento individualizado para ajudar os usuários a obter o máximo das equipes. |
 
 ## <a name="dont-miss-this-key-training"></a>Não perca este treinamento fundamental
 
@@ -78,5 +78,4 @@ Verifique com frequência - continuaremos atualizando esta lista para que você 
    :::column-end:::
 
 :::row-end:::
-
 ---

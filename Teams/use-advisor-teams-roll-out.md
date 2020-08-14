@@ -1,7 +1,7 @@
 ---
-title: Use o Assistente do Teams (visualização pública) para ajudar a implantar o Microsoft Teams
-author: lolajacobsen
-ms.author: lolaj
+title: Use o Assistente do Teams para ajudá-lo na implantação do Microsoft Teams
+author: SerdarSoysal
+ms.author: serdars
 ms.reviewer: brandber
 manager: serdars
 ms.topic: article
@@ -18,42 +18,40 @@ localization_priority: Priority
 f1.keywords:
 - CSH
 ms.custom: ''
-description: Use o Assistente do Teams (visualização pública) para ajudar a planejar e concluir a implantação do Microsoft Teams.
-ms.openlocfilehash: e447c05fc19766d3e67d510af6fbd424dc4173e7
-ms.sourcegitcommit: bdf6cea0face74809ad3b8b935bc14ad60b3bb35
+description: Utilize o Advisor for Teams para ajudá-lo a planejar e concluir a implementação do Microsoft Teams.
+ms.openlocfilehash: 72870eb94bc5bf19fce439c3607500eb688a291f
+ms.sourcegitcommit: b23d3d583910aa21a62ea69b554ab614c1ae8079
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45201205"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46648592"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Use o Assistente do Teams para ajudá-lo na implantação do Microsoft Teams
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
+O Advisor for Teams orienta você durante a implementação do Microsoft Teams.. Ele avalia o ambiente da organização do Microsoft 365 e identifica as configurações mais comuns que você pode precisar atualizar ou modificar antes de implementar o Teams com êxito. Em seguida, o Assistente do Teams cria uma Equipe de implantação (no Teams), com canais para cada carga de trabalho que você deseja implantar. Cada carga de trabalho da Equipe de implantação vem com um plano abrangente do Planner que inclui todas as tarefas de implantação para cada carga de trabalho.  Utilizando este plano do Planner, você atribuirá tarefas às pessoas responsáveis por cada fase da implementação, incluindo o gerente de projeto, administradores de serviço do Teams, pessoas de suporte e sua equipe de adoção e prontidão do usuário. Cada tarefa de implantação contém todas as orientações e recursos necessários para concluir a tarefa com êxito.
 
-O Assistente do Teams (visualização pública) orienta você na implantação do Microsoft Teams. Ele avalia o ambiente de organização do Microsoft 365 ou do Office 365 e identifica as configurações mais comuns que talvez você precise atualizar ou modificar antes de poder distribuir o Teams com êxito. Em seguida, o Assistente do Teams cria uma Equipe de implantação (no Teams), com canais para cada carga de trabalho que você deseja implantar. Cada carga de trabalho da Equipe de implantação vem com um plano abrangente do Planner que inclui todas as tarefas de implantação para cada carga de trabalho.  Usando esse plano do Planner, você atribuirá tarefas às pessoas responsáveis por cada fase da distribuição, incluindo o gerente de projeto, administradores do Teams e Microsoft 365 ou Office 365, as pessoas de apoio e a sua equipe de adoção e prontidão do usuário. Cada tarefa de implantação contém todas as orientações e recursos necessários para concluir a tarefa com êxito.
-
-O Assistente do Teams faz parte do [centro de administração do Teams](https://admin.teams.microsoft.com). No mínimo, você precisará de uma licença do Microsoft 365 Business Basic para poder aproveitar o Assistente do Teams para integração com os Formulários e o Planner. Para usar o Assistente do Teams, clique no botão **Iniciar** no widget de **Implantação da Carga de Trabalho do Teams** no Painel. Ou vá para **Planejamento** > **Teams Advisor**.
+O Assistente do Teams faz parte do [centro de administração do Teams](https://admin.teams.microsoft.com). No mínimo, você precisará de uma licença do Microsoft 365 Business Basic para que possa aproveitar as vantagens da integração do Advisor for Teams com o Forms e o Planner. Para usar o Assistente do Teams, clique no botão **Iniciar** no widget de **Implantação da Carga de Trabalho do Teams** no Painel. Ou vá para **Planejamento** > **Teams Advisor**.
 
 > [!IMPORTANT]
-> O Assistente do Teams não está disponível para implantações do Office 365 U.S. Government DoD ou GCC High.
+> O Advisor for Teams não está disponível para a implementação do Microsoft 365 Government (GCC High ou DoD).
 
 Para obter uma visão geral dirigida da experiência do Assistente do Teams, confira o vídeo do Microsoft Mechanics [Implantar & Configurar o Microsoft Teams](https://youtu.be/o2mlsUubIO4?t=50).
 
-## <a name="using-advisor-for-teams-public-preview"></a>Usando o Assistente do Teams (visualização pública)
+## <a name="using-advisor-for-teams"></a>Utilizando o Advisor for Teams
 
-**As licenças do Teams, Forms e Planner são necessárias para usar o Assistente do Teams.** No entanto, não é necessário ser um administrador do Teams para usar o Assistente do Teams, qualquer pessoa em sua organização pode usá-lo. Configuramos permissões especiais para que usuários não administradores possam acessar o Assistente do Teams, mesmo que seja no centro de administração do Teams. Você TEM que ser um administrador do Teams, Administrador de Serviços do Teams ou Administrador Global para abrir as avaliações de prontidão dos locatários (isso ocorre porque as funções especiais não administrativas não têm acesso às APIs do Microsoft Graph, subjacentes às avaliações).
+**As licenças do Teams, Forms e Planner são necessárias para usar o Assistente do Teams.** No entanto, não é necessário ser um administrador do Teams para usar o Assistente do Teams, qualquer pessoa em sua organização pode usá-lo. Configuramos permissões especiais para que usuários não administradores possam acessar o Assistente do Teams, mesmo que seja no centro de administração do Teams. Você TEM que ser um administrador do Teams, Administrador de Serviços do Teams ou Administrador Global para abrir as avaliações de prontidão dos locatários (isso ocorre porque as funções especiais não administrativas não têm acesso às APIs do Microsoft Graph, subjacentes às avaliações). No entanto, não é necessário ser um administrador do Teams para usar o Assistente do Teams, qualquer pessoa em sua organização pode usá-lo. Configuramos permissões especiais para que usuários não administradores possam acessar o Assistente do Teams, mesmo que seja no centro de administração do Teams. Você TEM que ser um administrador do Teams, Administrador de Serviços do Teams ou Administrador Global para abrir as avaliações de prontidão dos locatários (isso ocorre porque as funções especiais não administrativas não têm acesso às APIs do Microsoft Graph, subjacentes às avaliações).
 
 > [!IMPORTANT]
-> Se o **Teams Advisor** estiver ausente em **Planejamento** no centro de administração do Teams, isso significa que o usuário não está licenciado para o Teams. Esse comportamento será alterado no futuro.
+> Se o **Teams Advisor** estiver ausente em **Planejamento** no centro de administração do Teams, isso significa que o usuário não está licenciado para o Teams.
 
 Na primeira vez em que você usar o Assistente do Teams, ele criará uma equipe de Implantação no Teams. Ele adiciona um canal para cada carga de trabalho selecionada.
 
 > [!IMPORTANT]
-> Se uma equipe de Implantação já tiver sido criada e outro usuário tentar criá-la, receberá um erro pedindo que ele entre em contato com a equipe de suporte. Isso impede que o Teams, involuntariamente, divulgue informações sobre a equipe existente e seus membros. Peça ajuda ao proprietário da equipe de Implantação para adicioná-lo, ou entre em contato com o suporte para obter ajuda.
+> Se uma equipe de implementação já tiver sido criada e um usuário diferente tentar criá-la, ele receberá um erro solicitando que entre em contato com a equipe de suporte. Isso impede que o Teams, involuntariamente, divulgue informações sobre a equipe existente e seus membros. Peça ajuda ao proprietário da equipe de Implantação para adicioná-lo, ou entre em contato com o suporte para obter ajuda.
 
 ## <a name="available-advisor-for-teams-plans"></a>Planos de Assistente do Teams Disponíveis
 
-Enquanto o Assistente do Teams está na visualização pública, fornecemos os dois planos a seguir:
+O Advisor for Teams oferece atualmente os seguintes planos:
 
 1. Bate-papo, equipes, canais e aplicativos
     - Avaliação do locatário
@@ -81,7 +79,7 @@ Cada plano inclui uma avaliação de prontidão do locatário, que você pode us
 - <sub><img src="media/use-advisor-teams-roll-out-image1.png" alt="Yellow alert mark"/></img></sub>Um triângulo de aviso laranja significa que sugerimos que você faça um acompanhamento para determinar se alguma ação é necessária (por exemplo, uma política de expiração do Grupo do Microsoft 365 é recomendada, mas não obrigatória).
 
 > [!IMPORTANT]
-> Quando um usuário com uma função Administrativa inicia o Assistente do Teams, todas as avaliações são executadas em segundo plano. Se você atualizar ou corrigir algo, isso pode não ser refletido em suas avaliações por até 24 horas. Isso é temporário, assim que o Assistente do Teams deixar a visualização pública e estiver geralmente disponível, as avaliações serão atualizadas quase em tempo real.
+> Quando um usuário com uma função Administrativa inicia o Assistente do Teams, todas as avaliações são executadas em segundo plano. Se você atualizar ou corrigir algo, isso pode não ser refletido em suas avaliações por até 24 horas.
 
 As seções a seguir descrevem cada avaliação, incluindo se algo é um pré-requisito ou prática recomendada, o que cada verificação de avaliação está fazendo e por que e as diretrizes para a correção, conforme necessário.
 
@@ -143,7 +141,7 @@ Depois que o Assistente do Teams a criar a equipe de Implantação, o bot do Ass
 No mínimo, você precisará do Microsoft 365 Business Basic para poder aproveitar o Assistente do Teams para integração com os Formulários e o Planner.
 
 ### <a name="can-i-delete-the-deployment-team"></a>Posso excluir a Equipe de implantação?
-Depois que o Assistente do Teams tiver criado a Equipe de implantação, gerencie-a como qualquer outra equipe, incluindo a capacidade de excluí-la. Lembre-se de que, se você não excluir a equipe usando o centro de administração do Teams, o centro de administração do Teams relatará que a equipe ainda existe. Esse é um recurso temporário e será corrigido quando o Assistente do Teams deixar o período de visualização pública e ficar geralmente disponível.
+Depois que o Assistente do Teams tiver criado a Equipe de implantação, gerencie-a como qualquer outra equipe, incluindo a capacidade de excluí-la. Lembre-se de que, se você não excluir a equipe usando o centro de administração do Teams, o centro de administração do Teams relatará que a equipe ainda existe.
 
 ### <a name="can-i-add-or-remove-channels-in-the-deployment-team"></a>Posso adicionar ou remover canais da Equipe de implantação?
 Sim, uma vez que a Equipe de implantação foi criada, você gerenciará os canais da mesma maneira que em qualquer outra equipe.
@@ -181,5 +179,4 @@ Vá para [Central de Ajuda do Forms](https://support.office.com/forms).
 
 [Práticas recomendadas para organizar equipes no Teams](best-practices-organizing.md)
 
-[Nomes de produtos e identificadores de plano de serviço para licenciamento](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-service-plan-reference
-)
+[Nomes de produtos e identificadores de plano de serviço para licenciamento](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-service-plan-reference)
