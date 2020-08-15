@@ -63,7 +63,6 @@
 
 ### Acesso de convidados
 #### [Sobre o acesso de convidados](guest-access.md)
-#### [Lista de verificação de acesso de convidados](guest-access-checklist.md)
 #### [Como um convidado ingressa em uma equipe](guest-joins.md)
 #### [Como é a experiência do convidado](guest-experience.md)
 #### [Autorizar acesso de convidados no Microsoft Teams](teams-dependencies.md)
@@ -148,6 +147,9 @@
 ### Implantar
 #### [Visão geral de implantação](rooms/rooms-deploy.md)
 #### [Configurar contas](rooms/rooms-configure-accounts.md)
+#### Surface Hub
+##### [Configurar Reuniões Coordenadas](rooms/coordinated-meetings.md)
+##### [Gerenciar as configurações do Microsoft Teams](rooms/surface-hub-manage-config.md)
 #### [Com o Office 365](rooms/with-office-365.md)
 #### [Com o Skype for Business Server](rooms/with-skype-for-business-server-2015.md)
 #### [Com o Exchange Online (híbrido)](rooms/with-exchange-online.md)
