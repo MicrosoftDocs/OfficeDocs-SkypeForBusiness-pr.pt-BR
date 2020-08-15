@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: O administrador pode ler as notas de versão para salas do Microsoft Teams, que lista melhorias cumulativas nas salas do Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2975d384fd0d09b36e18802dbede4e8ec7dc721b
-ms.sourcegitcommit: f1834bb47452007480269b5a5cdad20037c32ef6
+ms.openlocfilehash: 5913a31878b59fb4e061888b4318e8e7d8f3719c
+ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "45390111"
+ms.lasthandoff: 08/15/2020
+ms.locfileid: "46761317"
 ---
 # <a name="release-notes"></a>Notas de versão
 
@@ -29,6 +29,7 @@ Este artigo discute melhorias cumulativas nas salas do Microsoft Teams.
 
 |Liberação |Publicado em <br/> Microsoft Store |
 |--- |--- |
+|4.5.37.0 |08/14/2020 |
 |4.5.35.0 |07/23/2020 |
 |4.4.63.0 |06/25/2020 |
 |4.4.41.0 |05/06/2020 |
@@ -65,6 +66,12 @@ Este artigo discute melhorias cumulativas nas salas do Microsoft Teams.
 |RTM (1.0.8) |12/7/2016 |
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Introdução ao recurso salas do Microsoft Teams e resolução de problemas
+
+### <a name="45370-08142020"></a>4.5.37.0 (08/14/2020)
+
+Apresentado nesta atualização:
+- Reuniões coordenadas entre o Microsoft Teams e o Surface Hub 2S 
+- Correção da falha de conexão do Skype for Business quando o [Windows 10 Update KB4565351](https://support.microsoft.com/en-us/help/4565351/windows-10-update-kb4565351) ou o [Windows 10 Update KB4571709](https://support.microsoft.com/en-us/help/4571709/windows-10-update-kb4571709) estiver instalado
 
 ### <a name="45350-07232020"></a>4.5.35.0 (07/23/2020)
 

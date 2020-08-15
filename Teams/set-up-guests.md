@@ -17,17 +17,17 @@ f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6674f755c4f6a36c3877680aa0c4c4de4f27c83c
-ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
+ms.openlocfilehash: d9e91f51bb809b9917036dce1d074ec694cb113f
+ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656192"
+ms.lasthandoff: 08/15/2020
+ms.locfileid: "46761147"
 ---
 <a name="turn-on-or-turn-off-guest-access-to-microsoft-teams"></a>Ativar ou desativar o acesso de convidados ao Microsoft Teams
 ===================================================
 
-Por padrão, o acesso de convidado está desativado. Como o Microsoft 365 ou o administrador do Office 365, você deve ativar o acesso de convidado para Teams para que os proprietários do administrador ou da equipe possam adicionar convidados. Para ativar o acesso de convidado, use a [lista de verificação de acesso de convidado](guest-access-checklist.md). 
+Por padrão, o acesso de convidado está desativado. Como o Microsoft 365 ou o administrador do Office 365, você deve ativar o acesso de convidado para Teams para que os proprietários do administrador ou da equipe possam adicionar convidados. Para ativar o acesso de convidado, [colabore com convidados em uma equipe](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team). 
 
 Depois de ativar o acesso de convidado, pode levar algumas horas para que as alterações entrem em vigor. Se um usuário vir a mensagem "entrar em contato com seu administrador" ao tentar adicionar um convidado à equipe, é provável que o acesso de convidado não tenha sido ativado ou que as configurações ainda não estejam efetivas.
 

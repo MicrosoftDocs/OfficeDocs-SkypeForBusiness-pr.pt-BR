@@ -18,12 +18,12 @@ description: Aprenda as etapas necessárias para adicionar pessoas de fora da su
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 476640953c0b3773fde44727dede6b95e6bf676d
-ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
+ms.openlocfilehash: 985374db5ff44d19efb26571dc7e9a0e78241002
+ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46655912"
+ms.lasthandoff: 08/15/2020
+ms.locfileid: "46761227"
 ---
 <a name="how-a-guest-joins-a-team"></a>Como um convidado ingressa em uma equipe
 ========================
@@ -31,7 +31,7 @@ ms.locfileid: "46655912"
 Um proprietário de equipe do Microsoft Teams pode adicionar e gerenciar convidados em suas equipes através da web ou do desktop. Qualquer pessoa com uma conta de email corporativa ou de consumidor, como do Outlook, Gmail ou outras, pode participar como convidado no Teams, com acesso total a chats, reuniões e arquivos da equipe. Apenas pessoas de fora da sua organização, como parceiros ou consultores, podem ser adicionadas como convidados. As pessoas pertencentes à sua organização podem entrar como membros de equipe regulares.
   
 > [!NOTE]
-> Por padrão, o acesso de convidado está desativado. Para que os convidados possam entrar em uma equipe, o administrador pode habilitar o acesso dos convidados no Teams. Para fazer isso, use a [Lista de verificação de acesso de convidado](guest-access-checklist.md). 
+> Por padrão, o acesso de convidado está desativado. Para que os convidados possam entrar em uma equipe, o administrador pode habilitar o acesso dos convidados no Teams. Para fazer isso, confira [colaborar com convidados em uma equipe](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team). 
   
 ## <a name="how-a-guest-becomes-a-member-of-a-team"></a>Como um convidado se torna membro de uma equipe
 

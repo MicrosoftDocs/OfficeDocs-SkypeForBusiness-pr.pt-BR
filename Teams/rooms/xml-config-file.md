@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 ms.custom: seo-marvel-mar2020
 description: Gerenciamento remoto das configurações padrão usadas por um dispositivo de salas do Microsoft Teams, incluindo a aplicação de um tema personalizado e a criação de um arquivo de configurações mestre.
-ms.openlocfilehash: c4eb70602940ec48cd244de72f862254bf63edee
-ms.sourcegitcommit: bdf6cea0face74809ad3b8b935bc14ad60b3bb35
+ms.openlocfilehash: abf6d93dea4f856f372305fd30b474f72ce47989
+ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45201245"
+ms.lasthandoff: 08/15/2020
+ms.locfileid: "46761327"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>Gerenciar as configurações de um console de salas do Microsoft Teams remotamente com um arquivo de configuração XML
 
@@ -76,6 +76,13 @@ Qualquer editor de texto pode ser usado para criar um arquivo de configurações
             <BlueComponent>100</BlueComponent>
         </CustomThemeColor>
     </Theming>
+    <CoordinatedMeetings enabled="true"> 
+        <TrustedAccounts>room@contoso.com</TrustedAccounts>
+        <Settings> 
+            <Audio default="false" enabled="false" />
+            <Video default="false" enabled="true" /> 
+        </Settings> 
+    </CoordinatedMeetings>
 </SkypeSettings>
 ```
 
@@ -123,8 +130,12 @@ Se um valor de variável for do tipo errado, os elementos estiverem fora da orde
 |\<CustomThemeColor\> |Contêiner ||Contêiner para os \<RedComponent\> \<GreenComponent\> valores, e \<BlueComponent\> . Esses valores são necessários para um tema personalizado. |
 |\<RedComponent\> |Byte (0-255) ||Representa o componente da cor vermelha. |
 |\<GreenComponent\> |Byte (0-255) ||Representa o componente da cor verde. |
-|\<BlueComponent\> |Byte (0-255) ||Representa o componente da cor azul. | 
-| | | |
+|\<BlueComponent\> |Byte (0-255) ||Representa o componente da cor azul. |
+|\<CoordinatedMeetings\>|&#x2777; Boolean|Primeiro &#x2776; |Contêiner dos elementos de configuração para reuniões coordenadas. Esse elemento tem um atributo:<ul><li><b>habilitado</b> Determina se o Microsoft Teams está configurado para participar de reuniões coordenadas com outros dispositivos.</li></ul>|
+|\<TrustedAccounts\>| Cadeia de caracteres | |Esta é uma lista separada por vírgulas de UPNs para cada dispositivo de sala de equipes ou Surface Hub para o qual o dispositivo deve aceitar solicitações de junção de reunião ou para as quais as solicitações de ingresso em reunião devem ser enviadas.|
+|\<Settings\>|Contêiner | |Contêiner dos elementos de configuração de áudio e vídeo de configuração para reuniões coordenadas.|
+|\<Audio\>| &#x2777; Boolean| |Controla a configuração de áudio para equipes em um Surface Hub. Esse elemento tem dois atributos:<br><ul><li><b>padrão</b> Determina em qual dispositivo o microfone estará ativo quando uma reunião iniciar. Somente um dispositivo (geralmente um dispositivo de salas de equipe) pode ter esse campo definido como `true` enquanto o restante dos dispositivos deve ter esse campo definido para `false` evitar eco e retorno de áudio.</li><li><b>habilitado</b> Determina se os participantes de uma reunião podem ligar ou desligar o microfone. Os dispositivos nos quais o **áudio padrão** está definido `false` devem ter essa configuração definida como para `false` que os participantes não possam ligar acidentalmente um microfone e causar eco de áudio ou comentários.<p>Se o **padrão de áudio** estiver definido como `true` , a configuração de **áudio habilitada** será ignorada e os participantes poderão ativar ou desativar o mudo do microfone.</li></ul>|
+|\<Video\>| &#x2777; Boolean| |Controla a configuração de vídeo para equipes em um Surface Hub. Esse elemento tem dois atributos:<br><ul><li><b>padrão</b> Determina em qual dispositivo a câmera estará ativa quando uma reunião iniciar. Para obter a melhor experiência, recomendamos que apenas o dispositivo de salas de equipe seja definido `true` enquanto todos os outros dispositivos são definidos como `false` .</li><li><b>habilitado</b> Determina se os participantes de uma reunião podem ativar ou desativar a câmera. Você pode definir isso como `true` em qualquer outro dispositivo nos participantes do evento querem compartilhar perspectivas de vídeo diferentes (como se um participante usar o quadro de comunicações do Surface Hub). Se você não quiser que os participantes ativem ou desativem uma câmera em um dispositivo, defina-o como `false` .<p> Se **padrão de vídeo** estiver definido como `true` , a configuração **habilitada para vídeo** será ignorada e os participantes poderão ativar ou desativar a câmera.</li></ul>|
 
 &#x2776; todos os elementos de primeiro nível são opcionais. Se um elemento de primeiro nível for omitido, todos os seus parâmetros filho permanecerão inalterados no dispositivo.
   
