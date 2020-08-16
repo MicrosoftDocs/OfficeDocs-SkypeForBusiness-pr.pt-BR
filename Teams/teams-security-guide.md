@@ -19,17 +19,17 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 94a16b7f9f133c6df6c0c30ee4ac24c54397d110
-ms.sourcegitcommit: 113e3a7314505cf78da57917ff62642125fb11fd
+ms.openlocfilehash: d90ec791fc46b6fc5f218190f15bc9e2c2b79337
+ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45121631"
+ms.lasthandoff: 08/15/2020
+ms.locfileid: "46761287"
 ---
 # <a name="security-and-microsoft-teams"></a>Segurança e Microsoft Teams
 
 > [!IMPORTANT]
-> O modelo de serviço do Teams está sujeito a alterações para melhorar a experiência do cliente. Por exemplo, o acesso padrão ou os tempos de expiração do token de atualização podem estar sujeitos a modificações para melhorar a resiliência de desempenho e autenticação para as pessoas que usam o Teams. Quaisquer alterações são feitas com a meta de manter o Teams seguro e confiável por padrão.
+> O modelo de serviço do Teams está sujeito a alterações para melhorar as experiências do cliente. Por exemplo, o acesso padrão ou os tempos de expiração do token de atualização podem estar sujeitos a modificações para melhorar a resiliência de desempenho e autenticação para as pessoas que usam o Teams. Quaisquer alterações são feitas com a meta de manter o Teams seguro e confiável por padrão.
 
 Microsoft Teams, como parte do serviço do Microsoft 365 e do Office 365, segue todas as práticas recomendadas e os procedimentos de segurança, como segurança de nível de serviço por meio de defesa profunda, controles do cliente dentro do serviço, aumento da segurança e melhores práticas operacionais. Para obter todos os detalhes, consulte a [Central de Confiabilidade da Microsoft](https://microsoft.com/trustcenter).
 
@@ -127,7 +127,7 @@ Conexões de servidor para servidor dependem do MTLS (TLS mútuo) para autentica
 O TLS e o MTLS ajudam a evitar a espionagem e os ataques man-in-the Middle. Em um ataque man-in-the-middle, o invasor redireciona as comunicações entre duas entidades de rede por meio do computador do invasor, sem o conhecimento dos participantes. As especificações de servidores confiáveis do TLS e do Teams reduzem o risco de um ataque man-in-the middle parcialmente na camada de aplicativos usando criptografia coordenada por meio da criptografia de Chave Pública entre os dois pontos de extremidade. O invasor teria que possuir um certificado válido e confiável com a Chave Privada correspondente e emitido para o nome do serviço ao qual o cliente está solicitando descriptografar a comunicação.
 
 > [!NOTE]
-> Os dados do Teams são criptografados em trânsito e em repouso. A Microsoft usa tecnologias padrão do setor, como TLS e SRTP, para criptografar todos os dados em trânsito entre os dispositivos dos usuários e os datacenters da Microsoft e entre os datacenters da Microsoft. Isso inclui mensagens, arquivos, reuniões e outros conteúdos. Os dados corporativos também são criptografados em repouso nos datacenters da Microsoft, de forma que as organizações descriptografem o conteúdo, se necessário, para cumprir suas obrigações de segurança e conformidade, como a Descoberta eletrônica.
+> Os dados do Teams são criptografados em trânsito e em repouso nos datacenters da Microsoft. A Microsoft usa tecnologias padrão do setor, como TLS e SRTP, para criptografar todos os dados em trânsito entre os dispositivos dos usuários e os datacenters da Microsoft e entre os datacenters da Microsoft. Isso inclui mensagens, arquivos, reuniões e outros conteúdos. Os dados corporativos também são criptografados em repouso nos datacenters da Microsoft, de forma que as organizações descriptografem o conteúdo, se necessário, para cumprir suas obrigações de segurança e conformidade, como a Descoberta eletrônica.
 
 ### <a name="encryption-for-teams"></a>Criptografia para o Teams
 

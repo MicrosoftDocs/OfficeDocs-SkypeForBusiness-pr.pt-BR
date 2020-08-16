@@ -18,12 +18,12 @@ description: Os administradores podem aprender a adicionar novos usuários convi
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 099e7a0a1fd7368385d564f46e2df12d5aced4b2
-ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
+ms.openlocfilehash: baac3c7c7e83547672b8baeb0915081523e5bfe8
+ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656122"
+ms.lasthandoff: 08/15/2020
+ms.locfileid: "46761277"
 ---
 <a name="add-a-guest-to-a-team"></a>Adicionar um convidado a uma equipe
 =====================
@@ -33,7 +33,7 @@ ms.locfileid: "46656122"
 Qualquer pessoa com uma conta de email corporativa ou de consumidor, como o Outlook, o Gmail ou outras, pode participar como convidado no Teams.
 
 Como administrador, você pode adicionar um novo usuário convidado à organização de algumas maneiras:
-- Os administradores globais ou administradores do Teams e os proprietários de equipes adicionam um convidado a uma equipe nos clientes do Teams ou no centro de administração do Teams. Para saber mais, leia [Adicionar convidados a uma equipe](https://support.office.com/article/add-guests-to-a-team-fccb4fa6-f864-4508-bdde-256e7384a14f). Se você ainda não configurou o acesso de convidado, siga as etapas da [Lista de verificação de acesso de convidado](guest-access-checklist.md).
+- Os administradores globais ou administradores do Teams e os proprietários de equipes adicionam um convidado a uma equipe nos clientes do Teams ou no centro de administração do Teams. Para saber mais, leia [Adicionar convidados a uma equipe](https://support.office.com/article/add-guests-to-a-team-fccb4fa6-f864-4508-bdde-256e7384a14f). Se você ainda não configurou o acesso de convidado, siga as etapas em [Colaborar com convidados em uma equipe](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team).
 
 > [!NOTE] 
 > Isso não se aplica quando o recurso **Administradores e usuários na função de emissor de convites podem convidar** se encontra ativado. Isso ocorre porque a função de emissor de convites não é compatível com o Teams.
