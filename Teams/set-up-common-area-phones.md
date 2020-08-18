@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: 'Saiba como configurar telefones celulares comuns para "lobbies", áreas de recepção e salas de conferência '
-ms.openlocfilehash: 4e9e96c3384fa365004d4b4b5281c10decdc5dd1
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 05338fe640ca80332eff3659d1a0ef96689d8d41
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581092"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788745"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>Configurar a licença de Telefone de Área Comum para o Microsoft Teams
 > [!NOTE]
@@ -56,7 +56,7 @@ Primeiro, você precisa comprar uma licença de telefone (CAP) de área comum e 
 > [!NOTE]
 > Você não precisa adicionar uma licença do sistema de telefone. Ela está incluída na licença do Telefone da Área Comum.
 
-Para obter mais informações sobre licenças, consulte [Licenciamento de Complementos do Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+Para obter mais informações sobre licenças, consulte [Licenciamento de Complementos do Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
 
 A licença de telefonia do Common Area é compatível com: 
 

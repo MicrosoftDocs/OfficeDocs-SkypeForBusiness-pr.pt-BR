@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 'Saiba como adicionar, alterar ou remover um local de emergência para sua organização no centro de administração do Microsoft Teams. '
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 5758d79325cd83579e2a650db47c9913a0cda26b
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 762246630d245acf92c16aff8df2c9392a307b07
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690837"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788565"
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>Adicionar, alterar ou remover um local de emergência para sua organização
 
@@ -31,7 +31,7 @@ Um local de emergência deve estar associado a um número de telefone, mas quand
 
 Não importa em que país ou região você está, você pode adicionar um local ou locais a um local de emergência e remover um local de emergência. Dependendo do número de locais físicos da sua organização, você pode criar locais para prédios, andares e escritórios. Consulte [gerenciar chamadas de emergência](what-are-emergency-locations-addresses-and-call-routing.md).
   
-Para saber como obter um plano de chamadas e quanto eles custam, consulte [Licenciamento de Complementos do Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+Para saber como obter um plano de chamadas e quanto eles custam, consulte [Licenciamento de Complementos do Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
 
 Você gerencia locais de emergência para sua organização no centro de administração do Microsoft Teams ou usando o PowerShell.
   

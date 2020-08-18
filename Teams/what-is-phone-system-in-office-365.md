@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Neste artigo, você aprenderá sobre a tecnologia do sistema telefônico no Microsoft 365 e no Office 365.
-ms.openlocfilehash: 8f871c065eacd69a1fc607c3a35d9f98032c9b6d
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: b9d44e52cbdd2384742a7473132ba3447e80e8fe
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666123"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788415"
 ---
 # <a name="what-is-phone-system"></a>O que é o sistema de telefonia?
 
@@ -76,5 +76,5 @@ Para obter mais informações sobre recursos, veja [o que você obtém com o sis
 - [Configurar o Sistema de Telefonia](setting-up-your-phone-system.md)
 - [Qual plano de chamadas é ideal para você?](calling-plan-landing-page.md)
 - [Roteamento Direto do Sistema Telefônico](direct-routing-landing-page.md)
-- [Licenciamento do complemento do Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+- [Licenciamento do complemento do Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
 

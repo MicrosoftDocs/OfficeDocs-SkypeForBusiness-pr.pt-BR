@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: 'Aprenda a configurar a discagem ou a conferência de áudio para as pessoas da sua empresa que precisam usar um telefone para participar de chamadas em conferência. '
-ms.openlocfilehash: 0ac5ac9cd3a722920a76d968848cd37388908121
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 9c86d83b1a39c5ae3623c2205a09b4e8d604ce5e
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691087"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788695"
 ---
 # <a name="set-up-audio-conferencing-for-microsoft-teams"></a>Configurar a conferência de áudio do Microsoft Teams
 
@@ -47,7 +47,7 @@ Acesse [Disponibilidade do país e região para audioconferência e planos de ch
  
 ## <a name="step-2-get-and-assign-licenses"></a>Etapa 2: Comprar e atribuir licenças
  
-1. Para caudioonferências, você precisa de uma licença de cada usuário que irá configurar as reuniões discadas. Para saber quais licenças você precisa comprar para a audioconferência e quanto elas custarão, consulte [Licenciamento do Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+1. Para caudioonferências, você precisa de uma licença de cada usuário que irá configurar as reuniões discadas. Para saber quais licenças você precisa comprar para a audioconferência e quanto elas custarão, consulte [Licenciamento do Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
 
     >[!NOTE] 
     > A audioconferência está incluída nas licenças do Office 365 Enterprise E5 e como um complemento.

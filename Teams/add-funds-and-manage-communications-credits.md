@@ -29,12 +29,12 @@ ms.custom:
 - O365P_SFBVoiceCreditAether
 - Licensing
 description: 'Saiba como pagar por créditos de comunicação (consumo PSTN) dos serviços do Skype for Business e consulte planos para manter os usuários com acesso contínuo ao sistema telefônico. '
-ms.openlocfilehash: ad8122ba0b915c669ec991d1b522b853e7b85533
-ms.sourcegitcommit: 863347fb6e5916d8d936adc4ddcebb2e32a91d1c
+ms.openlocfilehash: 9e7dbfea6e662828a6c79ceaec969659acf9224d
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45229097"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788535"
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>Adicionar fundos e gerenciar Créditos de Comunicação
 
@@ -78,7 +78,7 @@ Você pode ver os planos e preços visitando um dos seguintes links:
 
 Você também pode ver as informações conectando-se ao centro de administração do Microsoft 365 e indo fazer assinaturas de **cobrança**  >  **Subscriptions**  >  **adicionar assinaturas**.
   
-Para ver uma tabela com as licenças ou licenças necessárias para cada recurso, consulte [Licenciamento de Complementos do Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+Para ver uma tabela com as licenças ou licenças necessárias para cada recurso, consulte [Licenciamento de Complementos do Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
   
 ## <a name="related-topics"></a>Tópicos relacionados
 

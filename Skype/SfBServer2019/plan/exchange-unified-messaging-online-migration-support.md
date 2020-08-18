@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: A Microsoft está desativando o serviço de Unificação de mensagens do Exchange Online (ExchUMO) em 28 de fevereiro de 2020. Este artigo resume o que os clientes afetados devem saber e fazer para planejar sua continuidade de negócios.
-ms.openlocfilehash: 3d6c30c1f6323030280fba29c6d53b89ed33c2c9
-ms.sourcegitcommit: 44e47c3b2eb44c38cb8d761befdc6c0cef7c61bc
+ms.openlocfilehash: 157c71b8cbc4aae765baaf371a6f5df64f0cf82c
+ms.sourcegitcommit: 27fb021e46d775652a99d862b19d94f3fc020594
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/22/2020
-ms.locfileid: "44842022"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "46778033"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Suporte à migração da Unificação de Mensagens do Exchange Online
 
@@ -100,7 +100,7 @@ Para aceitar uma migração planejada, envie uma solicitação de email do ender
 
 - Data preferida (terças-feiras): as ondas de migração são executadas a cada terça-feira. Selecione uma data em uma terça-feira que não ultrapasse 12/3/2019.
  
-- ID do locatário: 32 número de caracteres neste formato 0046728c-688a-4472-a38f-098fec60ac6x. Você pode encontrar sua ID de locatário no portal de administração do Microsoft 365 no Azure AD ou usando o seguinte cmdlet do PowerShell:`Get-CsTenant | Select ObjectId`
+- ID do locatário: 32 número de caracteres neste formato 0046728c-688a-4472-a38f-098fec60ac6x. Você pode encontrar sua ID de locatário no portal de administração do Microsoft 365 no Azure AD ou usando o seguinte cmdlet do PowerShell: `Get-CsTenant | Select ObjectId`
 
 Você receberá uma confirmação de email quando o locatário for migrado com êxito.
 
@@ -155,7 +155,7 @@ Os administradores de organização do Microsoft 365 e do Office 365 precisam re
 | VM | Recursos do usuário | Encaminhar uma caixa postal  | Encaminhar uma caixa postal recebida para outros usuários | S | S    |
 | VM | Recursos do usuário | Enviar uma mensagem de voz para um grupo de usuários  |Transmissão de caixa postal   | N | S   |
 | VM | Recursos do usuário | Notificação de caixa postal usando SMS    | Os usuários podem receber um SMS quando têm uma nova caixa postal    | N | S    |
-| VM | Recursos do usuário | Idiomas de saudação suportados | Detalhes aqui:https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants | S | S    |
+| VM | Recursos do usuário | Idiomas de saudação suportados | Detalhes aqui: https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants | S | S    |
 | VM | Recursos do usuário | Regras de atendimento de chamada |  | S | S    |
 | VM | Recursos do usuário | Tocar no telefone (PSTN)-para reproduzir mensagem | Ligar para mim na minha célula para ouvir a mensagem de voz  | N | S    |
 | VM | Recursos do usuário | Tocar no telefone (auth)-para reproduzir mensagem | Ligar para mim em meu dispositivo autenticado  | S | S    |
@@ -165,13 +165,13 @@ Os administradores de organização do Microsoft 365 e do Office 365 precisam re
 | VM | Recursos do chamador  | Detecção de silêncio   |  | N | S    |
 | VM | Locatário-recursos de administração | Caixa postal protegida no nível do servidor    | Locatário-o administrador pode configurar uma regra de nível de serviço para marcar a caixa postal de entrada como protegida | S | S    |
 | VM | Locatário-recursos de administração | Alterar o limite de tempo de duração da gravação  |     | S | S    |
-| VM | Locatário-recursos de administração | Alterar o tempo limite de detecção de silêncio    |  | N/D    | S    |
+| VM | Locatário-recursos de administração | Alterar o tempo limite de detecção de silêncio    |  | N/A    | S    |
 | VM | Locatário-recursos de administração | Alterar o número de falhas de entrada | CVM: embutido em código para 3 | N | S    |
 | VM | Locatário-recursos de administração | Alterar o idioma padrão |  | S | S    |
 | VM | Locatário-recursos de administração | Desabilitar/habilitar transcrição |  | S | S    |
 | VM | Locatário-recursos de administração | Desabilitar/habilitar notificação de chamada perdida |  | N | S    |
 | VM | Locatário-recursos de administração | Ajude a Microsoft a melhorar a visualização da caixa postal    |  | S | S    |
-| VM | Locatário-recursos de administração | Personalizar mensagem de texto para usuários habilitados|  | N/D    | S    |
+| VM | Locatário-recursos de administração | Personalizar mensagem de texto para usuários habilitados|  | N/A    | S    |
 | VM | Locatário-recursos de administração | Mascaramento de profanação de transcrição|  | S | N    |
 | VM | Locatário-recursos de administração | Política de caixa postal    |   | S | S    |
 | VM | Locatário-recursos de administração | Administração do portal da Web   |  | CY19   | S    |
@@ -181,7 +181,7 @@ Os administradores de organização do Microsoft 365 e do Office 365 precisam re
 | AA | Recursos de serviço | Suporte ao Microsoft Teams|  | S | N    |
 | AA | Recursos de serviço | Discar por nome, entrada DTMF    |  | S | S    |
 | AA | Recursos de serviço | Discar por nome, entrada de fala  |  | S | S    |
-| AA | Recursos de serviço | Suporte a vários idiomas | Detalhes da linguagem aqui:https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants | S | S    |
+| AA | Recursos de serviço | Suporte a vários idiomas | Detalhes da linguagem aqui: https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants | S | S    |
 | AA | Recursos de serviço | Transferir para o operador, CQ ou um usuário |  | S | S    |
 | AA | Recursos de serviço | Transferir para o número PSTN internamente (RNL)  |  | S | S    |
 | AA | Recursos de serviço | Transferir para o número PSTN externamente  |  | Seção Confira os problemas conhecidos abaixo | S    |
@@ -245,13 +245,7 @@ O acesso ao assinante pode continuar a funcionar para o locatário até que o se
 
 #### <a name="auto-attendant-call-transfer-to-pstn"></a>Transferência de chamadas de atendedor automático para PSTN
 
-Recomendamos que os clientes configurem uma solução temporária para atender aos requisitos de transferência de uma chamada de atendedor automático para um número externo de PSTN ou para uma instância de RGS.
-
-Um problema foi identificado durante a garantia de qualidade com o recurso "transferir para o número PSTN", que não será corrigido no tempo para que os clientes comecem a migrar do serviço UMO do Exchange antes da data de aposentadoria agendada de 28 de fevereiro de 2020. Como solução alternativa, os administradores podem transferir chamadores de atendedor automático para um usuário virtual local com uma configuração de encaminhamento de chamada ativa para o número de telefone PSTN desejado ou o número de telefone do RGS. A experiência esperada é:
-
-- Os administradores não precisarão licenciar o usuário virtual, já que esta é uma solução alternativa.
-- Os administradores podem manipular a ID de chamadas que o receptor PSTN vê atribuindo o número desejado ao usuário virtual ou usando os recursos de manipulação de dígitos de SBC.
-- Os chamadores PSTN não terão atraso durante a transferência de chamadas e continuarão a ver a identificação de chamadas do atendedor automático após a transferência ter sido bem-sucedida.
+Para transferir uma chamada de atendedor automático para um número de telefone PSTN externo por meio do Skype for Business Server ou de um serviço de grupo de resposta (RGS) no Skype for Business Server, crie um novo usuário local com encaminhamento de chamadas definido para o número de telefone PSTN ou o número de telefone do RGS. O usuário deve estar habilitado e configurado corretamente para o Enterprise Voice e ter uma política de voz atribuída.
 
 #### <a name="shared-mailbox-is-still-accessible"></a>A caixa de correio compartilhada ainda está acessível
 

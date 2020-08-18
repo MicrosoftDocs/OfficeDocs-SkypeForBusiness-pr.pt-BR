@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 62d61a031f1fc69e1288dc160b4459c792c0c1cf
-ms.sourcegitcommit: 1eb92a4a8c877f8b6c77cee62609cf9e8c9ee0a7
+ms.openlocfilehash: 4848481cf682ca0ff5b973f1100f3a96596c8d7a
+ms.sourcegitcommit: 27fb021e46d775652a99d862b19d94f3fc020594
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "46607087"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "46778063"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams para Infraestrutura de Área de Trabalho Virtualizada
 
@@ -153,8 +153,8 @@ Para saber mais sobre o Teams e aplicativos do Microsoft 365 para empresas, cons
 
 1. Baixe o pacote MSI do teams que corresponde ao seu sistema operacional VDI VM usando um dos seguintes links:
 
-    - [Versão de 32 bits](https://statics.teams.cdn.office.net/production-windows/1.3.00.13565/Teams_windows.msi)
-    - [Versão de 64 bits](https://statics.teams.cdn.office.net/production-windows-x64/1.3.00.13565/Teams_windows_x64.msi)
+    - [Versão de 32 bits](https://statics.teams.cdn.office.net/production-windows/1.3.00.21759/Teams_windows.msi)
+    - [Versão de 64 bits](https://statics.teams.cdn.office.net/production-windows-x64/1.3.00.21759/Teams_windows_x64.msi)
 
     A versão mínima do aplicativo de área de trabalho Teams necessário é a versão 1.3.00.4461. (A suspensão PSTN não tem suporte em versões anteriores).
 

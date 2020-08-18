@@ -12,15 +12,15 @@ f1.keywords:
 - NOCSH
 ms.reviewer: anwara
 search.appverid: MET150
-description: Saiba como recuperar dados do Microsoft Teams do log de auditoria.
+description: Saiba como recuperar dados do Microsoft Teams do log de auditoria no centro de conformidade do Microsoft 365.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ac732b499327e6661472c59f370f45ece42e78cc
-ms.sourcegitcommit: b23d3d583910aa21a62ea69b554ab614c1ae8079
+ms.openlocfilehash: 9dd2dfd883d08b9b42d9d7fef967ff1732e3816a
+ms.sourcegitcommit: 27fb021e46d775652a99d862b19d94f3fc020594
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46648532"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "46778003"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Pesquisar o log de auditoria de eventos no Microsoft Teams
 
@@ -65,8 +65,11 @@ Aqui estão dicas para pesquisar atividades do teams no log de auditoria.
 
 - Você pode selecionar atividades específicas a serem pesquisadas clicando no nome da atividade. Ou você pode pesquisar por todas as atividades em um grupo (como **atividades de arquivos e pastas**) clicando no nome do grupo. Se uma atividade estiver selecionada, você poderá clicar nela para cancelar a seleção. Você também pode usar a caixa de pesquisa para exibir as atividades que contêm a palavra-chave que você digita.<br>
     ![Captura de tela da pesquisa de log de auditoria](media/audit-log-search.png)
+
 - Para exibir eventos para atividades executadas usando cmdlets, selecione **Mostrar resultados de todas as atividades** na lista **atividades** . Se você souber o nome da operação para essas atividades, procure todas as atividades e, em seguida, filtre os resultados digitando o nome da operação na caixa na coluna **atividade** . Para saber mais, veja [a etapa 3: filtrar os resultados da pesquisa](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance?view=o365-worldwide#step-3-filter-the-search-results).
+
 - Para limpar os critérios de pesquisa atuais, clique em **limpar**. O intervalo de datas retorna para o padrão dos últimos sete dias. Você também pode clicar em **limpar tudo para mostrar os resultados de todas as atividades** para cancelar todas as atividades selecionadas.
+
 - Se forem encontrados resultados do 5.000, provavelmente você pode pressupor que há mais de 5.000 eventos que atingiram os critérios de pesquisa. Você pode refinar os critérios de pesquisa e executar a pesquisa novamente para retornar menos resultados, ou pode exportar todos os resultados da pesquisa selecionando **Exportar resultados**  >  **baixar todos os resultados**.
 
 Confira [este vídeo](https://www.youtube.com/embed/UBxaRySAxyE) para usar a pesquisa de log de áudio. Participe do Ansuman Acharya, um gerente de programa do Teams, enquanto demonstra como fazer uma pesquisa de log de auditoria para Teams.
@@ -99,7 +102,7 @@ Conforme mencionado anteriormente, você pode monitorar cenários de exclusão. 
 
 Conforme mostrado na captura de tela, você pode definir vários parâmetros diferentes para essa política para monitorar as exclusões do Teams, incluindo gravidade, ação única ou repetida e parâmetros que limitam isso a equipes e exclusão de sites. Isso pode ser feito independentemente de um modelo, ou você pode ter um modelo criado para basear essa política, dependendo das suas necessidades organizacionais.
 
-Depois de estabelecer uma política que funcionará para a sua empresa, você pode revisar os resultados no registro de atividades à medida que os eventos são disparados:
+Depois de estabelecer uma política que funcione para a sua empresa, você pode revisar os resultados no log de atividades à medida que os eventos são disparados:
 
 ![Captura de tela de uma lista de eventos disparados por exclusões em massa](media/TeamsMassDeleteList.png)
 
@@ -181,7 +184,7 @@ Se a sua organização estiver usando o aplicativo turnos no Microsoft Teams, vo
 |Entrada de relógio do tempo excluído    |TimeClockEntryDeleted              |Um usuário exclui com êxito uma entrada de relógio de hora na planilha de tempo.          |
 |Solicitação Shift adicionada         |RequestAdded              |Um usuário adicionou uma solicitação de mudança.          |
 |Respondeu a solicitação de turno     |RequestRespondedTo                  |Um usuário respondeu a uma solicitação de mudança.          |
-|Solicitação de turno cancelada         |RequestCanceled               |Um usuário cancelou uma solicitação de mudança.          |
+|Solicitação de turno cancelada         |RequestCancelled               |Um usuário cancelou uma solicitação de mudança.          |
 |Configuração de cronograma alterada      |ScheduleSettingChanged          |Um usuário altera uma configuração nas configurações de turnos.         |
 |Integração da força de força adicionada      |WorkforceIntegrationAdded                  | O aplicativo turnos está integrado a um sistema de terceiros.         |
 |Mensagem de desativação de turno aceita         |OffShiftDialogAccepted          |Um usuário reconhece a mensagem de desativação para acessar o Microsoft Teams depois de turnos de horas.           |
@@ -190,11 +193,10 @@ Se a sua organização estiver usando o aplicativo turnos no Microsoft Teams, vo
 
 Você pode usar a API de atividade de gerenciamento do Office 365 para recuperar informações sobre os eventos do teams. Para saber mais sobre o esquema de API de atividade de gerenciamento do Teams, consulte [esquema do teams](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema#microsoft-teams-schema).
 
-
 ## <a name="attribution-in-teams-audit-logs"></a>Atribuição nos logs de auditoria do teams
 
 As alterações de associação ao Teams (como usuários adicionados ou excluídos) feitas por meio do Azure Active Directory (Azure AD), do portal de administração do Microsoft 365 ou da API do Microsoft 365 groups Graph serão exibidas nas mensagens de auditoria do Teams e no canal geral com uma atribuição para um proprietário existente da equipe e não para o iniciador real da ação. Nesses cenários, consulte logs do Azure AD ou do [Microsoft 365 Group Audit](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) para ver as informações relevantes.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-- [Pesquisar o log de auditoria no centro de conformidade do Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) 
+- [Pesquisar o log de auditoria no centro de conformidade do Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)

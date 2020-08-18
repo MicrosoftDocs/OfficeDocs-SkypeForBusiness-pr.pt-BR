@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: Os organizadores da reunião podem aprender a discar usando o aplicativo Teams para permitir que outras pessoas ingressem na mesma reunião usando seus telefones.
-ms.openlocfilehash: f84f811d89847bfdf17f123abe9c2df88536bc76
-ms.sourcegitcommit: 7a9c63ee790108eaa61950ce28ae8027311039d9
+ms.openlocfilehash: 575ed18bd3dbd404dba947c0c4556d52e0653200
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46662101"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788755"
 ---
 # <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>Discar de uma reunião do Microsoft Teams para que outras pessoas possam ingressar
 
@@ -63,4 +63,4 @@ Se você estiver procurando instruções sobre como permitir que seus usuários 
 
 [Experimentar ou comprar videoconferência](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
     
-[Licenciamento do complemento do Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+[Licenciamento do complemento do Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)

@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Saiba mais sobre os recursos, a disponibilidade e a forma de planejar e configurar o sistema telefônico da Microsoft para sua empresa. '
-ms.openlocfilehash: fa7acbd4593b44805b2f9044602f3521baacaaaf
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 07116674a7c405875f02a72c6429814a760bee48
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44638340"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788425"
 ---
 # <a name="heres-what-you-get-with-phone-system"></a>Veja o que você obtém com o Sistema de Telefonia
 
@@ -88,7 +88,7 @@ Os recursos a seguir ainda não estão disponíveis em nuvens de GCC alta e DoD.
 - [Qual plano de chamadas é ideal para você?](calling-plan-landing-page.md)
 - [Roteamento Direto do Sistema Telefônico](direct-routing-landing-page.md)
 - [Monitorar e gerenciar a qualidade da chamada](monitor-call-quality-qos.md)
-- [Licenciamento do complemento do Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+- [Licenciamento do complemento do Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
 - [Preços do sistema telefônico](https://products.office.com/microsoft-teams/voice-calling#requirements)
 - [Teams para infraestrutura de área de trabalho virtualizada com chamadas e reuniões](teams-for-vdi.md#teams-on-vdi-with-calling-and-meetings)
 

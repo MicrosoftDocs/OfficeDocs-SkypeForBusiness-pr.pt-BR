@@ -26,20 +26,23 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Saiba mais sobre a conferência de áudio, o sistema telefônico, os planos de chamadas, os créditos de comunicações e os números de telefone de chamada tarifada e gratuitas disponíveis em um país ou região.
-ms.openlocfilehash: eae54b4b8957f588afab45758f9be5d2f678b3ea
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+ms.openlocfilehash: 468a583c48e8830684cf170877acde55cbcba711
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44230189"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788525"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Disponibilidade de Audioconferência e Planos de Chamadas por país e região
 
 Você pode selecionar um país ou região para ver os recursos de voz na nuvem que estão disponíveis para a sua organização.
 ***
+
 ## <a name="select-your-country-or-region-to-see-whats-available-for-your-organization"></a>Selecione seu país ou região para ver o que está disponível para a sua organização
 
 > [!div class="op_single_selector"]
+>
+> - [Albânia](availability-in-albania.md)
 > - [Argélia](availability-in-algeria.md)
 > - [Antígua e Barbuda](availability-in-antigua-and-barbuda.md)
 > - [Argentina](availability-in-argentina.md)
@@ -47,6 +50,7 @@ Você pode selecionar um país ou região para ver os recursos de voz na nuvem q
 > - [Áustria ](availability-in-austria.md)
 > - [Bahamas](availability-in-the-bahamas.md)
 > - [Bahrein](availability-in-bahrain.md)
+> - [Bangladesh](availability-in-bangladesh.md)
 > - [Barbados](availability-in-barbados.md)
 > - [Belarus](availability-in-belarus.md)
 > - [Bélgica](availability-in-belgium.md)
@@ -58,6 +62,7 @@ Você pode selecionar um país ou região para ver os recursos de voz na nuvem q
 > - [Brunei](availability-in-brunei.md)
 > - [Bulgária](availability-in-bulgaria.md)
 > - [Camboja](availability-in-cambodia.md)
+> - [Camarões](availability-in-cameroon.md)
 > - [Canadá](availability-in-canada.md)
 > - [Ilhas Cayman](availability-in-the-cayman-islands.md)
 > - [Chile](availability-in-chile.md)
@@ -82,6 +87,7 @@ Você pode selecionar um país ou região para ver os recursos de voz na nuvem q
 > - [Grécia](availability-in-greece.md)
 > - [Granada](availability-in-grenada.md)
 > - [Guam](availability-in-guam.md)
+> - [Guatemala](availability-in-guatemala.md)
 > - [Honduras](availability-in-honduras.md)
 > - [Hong-Kong](availability-in-hong-kong.md)
 > - [Hungria](availability-in-hungary.md)
@@ -110,6 +116,7 @@ Você pode selecionar um país ou região para ver os recursos de voz na nuvem q
 > - [Nova Zelândia](availability-in-new-zealand.md)
 > - [Nicarágua](availability-in-nicaragua.md)
 > - [Nigéria](availability-in-nigeria.md)
+> - [Ilhas Marianas do Norte](availability-in-northern-mariana-islands.md)  
 > - [Noruega](availability-in-norway.md)
 > - [Paquistão ](availability-in-pakistan.md)
 > - [Panamá](availability-in-panama.md)
@@ -140,6 +147,8 @@ Você pode selecionar um país ou região para ver os recursos de voz na nuvem q
 > - [Trinidad e Tobago](availability-in-trinidad-and-tobago.md)
 > - [Tunísia](availability-in-tunisia.md)
 > - [Turquia](availability-in-turkey.md)
+> - [Ilhas Turks e Caicos](availability-in-turks-and-caicos-islands.md)
+> - [Uganda](availability-in-uganda.md)
 > - [Ucrânia](availability-in-the-ukraine.md)
 > - [Emirados Árabes Unidos (EAU)](availability-in-the-united-arab-emirates-uae.md)
 > - [Reino Unido](availability-in-the-united-kingdom-u-k.md)
@@ -148,18 +157,18 @@ Você pode selecionar um país ou região para ver os recursos de voz na nuvem q
 > - [Venezuela](availability-in-venezuela.md)
 > - [Vietnã ](availability-in-vietnam.md)
 
-**Se você estiver procurando uma planilha com todos os países e regiões, baixe e salve o recurso [planilha de disponibilidade de países/regiões do Cloud Voice ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/country-and-region-availabilty/country-and-region-availability-(v-01012020)-(en-us).xlsx?raw=true)**.
+**Se você estiver procurando uma planilha com todos os países e regiões, baixe e salve o recurso [planilha de disponibilidade de países/regiões do Cloud Voice ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/country-and-region-availabilty/country-and-region-availability-(v-06242020)-(en-us).xlsx?raw=true)**.
 
 ***
 
-Depois de verificar se um dos serviços do Skype for Business ou do Microsoft Teams está disponível, você pode ver [Licenciamento de complementos do Skype for Business e do Microsoft Teams](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md) para ajudá-lo a comprar licenças e atribuí-las aos usuários.
+Depois de verificar se um dos serviços do Skype for Business ou do Microsoft Teams está disponível, você pode ver [Licenciamento de complementos do Skype for Business e do Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing) para ajudá-lo a comprar licenças e atribuí-las aos usuários.
 
 > [!NOTE]
-> 
+>
 > Se você precisar obter mais números de telefone para os usuários, confira [Obter números de telefone para seus usuários](/microsoftteams/getting-phone-numbers-for-your-users) ou, para os formulários de solicitação de número de telefone [Gerenciar números de telefone para a sua organização](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
 
 
-## <a name="want-to-learn-more-about-these-services"></a>Quer saber mais sobre esses serviços?
+## <a name="want-to-learn-more-about-these-services"></a>Deseja saber mais sobre esses serviços
 
 ### <a name="audio-conferencing"></a>Audioconferência
 
@@ -172,35 +181,38 @@ Com a Audioconferência, há números de telefone gratuitos e gratuitos que pode
 
 Para saber mais sobre Audioconferência, confira [Perguntas comuns sobre a Audioconferência](../audio-conferencing-common-questions.md)
 
-[Preços de Audioconferência](https://products.office.com/skype-for-business/audio-conferencing#Requirements) 
+[Preços de Audioconferência](https://products.office.com/skype-for-business/audio-conferencing#Requirements)
   
 #### <a name="using-the-call-me-feature-or-when-adding-other-people-to-a-meeting-so-they-can-join-it"></a>Usando o recurso Ligar para mim ou ao adicionar outras pessoas a uma reunião, para que elas possam associá-la
+
 Em Audioconferência, há um recurso chamado”*Ligue para mim*", que pode ser usado para permitir que outras pessoas ingressem em uma reunião discada. Use a lista suspensa acima para pesquisar o país/região e ver se esse recurso está disponível.
 
 > [!CAUTION]
-> A discagem para números de telefone gratuitos pode não ser possível, pois alguns números sem tarifas funcionam apenas de dentro de um determinado país ou região dentro de um país. Por exemplo, se você discar dos Estados Unidos para um número gratuito no Brasil, a chamada pode não ser bem-sucedida porque a chamada não se originou no Brasil ou em uma região específica no Brasil. A capacidade de discagem de números sem tarifas varia muito dependendo das restrições do número gratuito discado. Infelizmente, não podemos controlar esse comportamento e, como resultado, a sua experiência pode variar dependendo do número de chamada gratuita discada e das restrições do número de chamada gratuita. 
+> A discagem para números de telefone gratuitos pode não ser possível, pois alguns números sem tarifas funcionam apenas de dentro de um determinado país ou região dentro de um país. Por exemplo, se você discar dos Estados Unidos para um número gratuito no Brasil, a chamada pode não ser bem-sucedida porque a chamada não se originou no Brasil ou em uma região específica no Brasil. A capacidade de discagem de números sem tarifas varia muito dependendo das restrições do número gratuito discado. Infelizmente, não podemos controlar esse comportamento e, como resultado, a sua experiência pode variar dependendo do número de chamada gratuita discada e das restrições do número de chamada gratuita.
   
 Discar de uma reunião para outro país/região do mundo que não está listado abaixo está disponível usando créditos de [comunicação](../what-are-communications-credits.md). Para esses usuários, você precisará [Configurar créditos de comunicações para a sua organização](../set-up-communications-credits-for-your-organization.md).
   
 ### <a name="phone-system"></a>Sistema Telefônico
+
 Com o sistema de telefonia, você pode criar atendentes automáticos e filas de chamada (com um número gratuito) para atender às chamadas recebidas para a sua organização e, ao adicionar um plano de chamadas para usuários, eles podem usar o Skype for Business para cuidar das tarefas básicas de controle de chamada como o posicionamento e o recebimento de chamadas, a transferência de chamadas e a desativação e ativação de chamadas. Os usuários do **Sistema de Telefonia** podem clicar em um nome na agenda e o Skype for Business faz a chamada para esta pessoa. Para fazer e receber chamadas, os usuários do**Sistema de Telefonia**podem usar seus dispositivos móveis, um fone de ouvido com um laptop ou PC, ou um dos muitos telefones IP que funcionam com o Skype for Business.
 
-> A disponibilidade de números de telefone celular de alguns desses locais pode variar a qualquer momento, dependendo dos níveis de inventário. Além de obter números de telefone para usuários individuais, também é possível pesquisar e adquirir números de telefone de chamada tarifada ou gratuita para serviços como videoconferências (para pontes de conferência), atendedores automáticos e filas de chamadas. Eles são chamados de números de serviço. Confira [Obter números de telefone do serviço](/microsoftteams/getting-service-phone-numbers) para obter números de telefone. No entanto, para os usuários, depois de atribuir um Plano de Chamada a eles, você pode atribuir um número de telefone para que eles possam fazer e receber chamadas telefônicas. Para encontrar esses números de telefone, acesse [Obter números de telefone para seus usuários](/microsoftteams/getting-phone-numbers-for-your-users). Você também pode conferir[Atribuir, alterar ou remover o número de telefone de um usuário](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user). 
+> A disponibilidade de números de telefone celular de alguns desses locais pode variar a qualquer momento, dependendo dos níveis de inventário. Além de obter números de telefone para usuários individuais, também é possível pesquisar e adquirir números de telefone de chamada tarifada ou gratuita para serviços como videoconferências (para pontes de conferência), atendedores automáticos e filas de chamadas. Eles são chamados de números de serviço. Confira [Obter números de telefone do serviço](/microsoftteams/getting-service-phone-numbers) para obter números de telefone. No entanto, para os usuários, depois de atribuir um Plano de Chamada a eles, você pode atribuir um número de telefone para que eles possam fazer e receber chamadas telefônicas. Para encontrar esses números de telefone, acesse [Obter números de telefone para seus usuários](/microsoftteams/getting-phone-numbers-for-your-users). Você também pode conferir[Atribuir, alterar ou remover o número de telefone de um usuário](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user).
 
 [Preços do sistema telefônico](https://products.office.com/skype-for-business/phone-system#Requirements)
 
 > [!NOTE]
-> A disponibilidade de números de telefone celular de alguns desses locais pode variar a qualquer momento, dependendo dos níveis de inventário. 
+> A disponibilidade de números de telefone celular de alguns desses locais pode variar a qualquer momento, dependendo dos níveis de inventário.
 
 Use a lista suspensa na parte superior da página para procurar um país ou região e quais serviços estão disponíveis.
 
 ### <a name="calling-plans"></a>Planos de Chamadas
+
 Além de um sistema de telefonia, os planos de chamada permitem que os usuários façam e recebam chamadas telefônicas. Primeiro, você precisa obter um número(não um número de serviço) de telefone de usuário (assinante) para atribuir ao usuário e, em seguida, atribuir um plano de chamada. Há dois tipos de planos de chamadas disponíveis: **Nacionais** e **Nacionais e Internacionais**. Confira [Sistema de Telefonia e Planos de Chamadas](../calling-plan-landing-page.md)para obter mais detalhes.
 
-Você também pode ver [Sistema de Telefonia e licenciamento de Planos de Chamadas](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md) para obter informações de licenciamento.
+Você também pode ver [Sistema de Telefonia e licenciamento de Planos de Chamadas](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing) para obter informações de licenciamento.
 
 > [!NOTE]
-> O país/região se baseia no local da licença do usuário no **Centro de administração do Microsoft 365** > **Usuários ativos** e **não** o endereço de cobrança listado no **Perfil da organização** no **Centro de administração da Microsoft 365**. 
+> O país/região se baseia no local da licença do usuário no **Centro de administração do Microsoft 365** > **Usuários ativos** e **não** o endereço de cobrança listado no **Perfil da organização** no **Centro de administração da Microsoft 365**.
   
 ### <a name="toll-and-toll-free-phone-numbers-for-services"></a>Números de telefone gratuitos e gratuito para os serviços
 
@@ -220,7 +232,7 @@ Se você não configurar os Créditos de comunicação e atribuir uma licença a
 
 
 ## <a name="related-topics"></a>Tópicos relacionados
+
 [Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
 
-  
- 
+

@@ -16,19 +16,19 @@ ms.reviewer: mikedav
 description: Saiba como atribuir licenças de Complementos do teams a usuários para recursos como videoconferência, sistema telefônico e planos de chamada.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c7faaf2e65330aafd809872ed19b5f2f16afc668
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 5dd09ae11104aa0297a12417d4c267edfc17cf3f
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868578"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788735"
 ---
 # <a name="assign-teams-add-on-licenses-to-users"></a>Atribuir licenças de Complementos do teams aos usuários
 
 As licenças de complemento são licenças para recursos específicos do Teams, como videoconferência, sistema telefônico e planos de chamada. Este artigo descreve como atribuir licenças de Complementos a usuários individuais e a grandes conjuntos de usuários em massa.
 
 > [!NOTE]
-> Consulte [Licenciamento do complemento do teams](microsoft-teams-add-on-licensing.md) para recursos do teams que estão disponíveis com licenças complementares. Você também encontrará informações sobre quais licenças precisa comprar e como comprá-las (dependendo do seu plano), para que os usuários possam obter recursos como videoconferências, números de chamada gratuita e a capacidade de fazer chamadas para números de telefone fora da sua organização. Depois de decidir quais recursos você deseja para seus usuários, atribua as licenças a eles.
+> Consulte [Licenciamento do complemento do teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing) para recursos do teams que estão disponíveis com licenças complementares. Você também encontrará informações sobre quais licenças precisa comprar e como comprá-las (dependendo do seu plano), para que os usuários possam obter recursos como videoconferências, números de chamada gratuita e a capacidade de fazer chamadas para números de telefone fora da sua organização. Depois de decidir quais recursos você deseja para seus usuários, atribua as licenças a eles.
 
 Você pode usar o centro de administração do Microsoft 365 ou o PowerShell para atribuir licenças aos usuários em sua organização. Você deve ser um administrador global ou administrador de gerenciamento de usuários para gerenciar licenças.
 
@@ -155,7 +155,7 @@ Para saber mais, consulte [Exibir licenças e serviços com o PowerShell](https:
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-- [Licenciamento do complemento do Teams](microsoft-teams-add-on-licensing.md)
+- [Licenciamento do complemento do Teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
 - [Gerenciamento do acesso de usuários ao Teams](../user-access.md)
 - [Exibir licenças e serviços com o PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/view-licenses-and-services-with-office-365-powershell)
 - [Nomes de produtos e identificadores de plano de serviço para licenciamento](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-service-plan-reference)

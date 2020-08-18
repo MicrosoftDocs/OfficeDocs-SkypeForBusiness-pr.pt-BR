@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ed2b2c3b2b1671b0000fb452d3c1b1dd6979625c
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
+ms.openlocfilehash: 0841f6963f12f97bf689557fe50ff8e109897e88
+ms.sourcegitcommit: 27fb021e46d775652a99d862b19d94f3fc020594
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44938310"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "46778053"
 ---
 # <a name="microsoft-staffhub-has-been-retired"></a>O Microsoft StaffHub foi desativado
 
@@ -90,6 +90,9 @@ A funcionalidade básica é a mesma entre os aplicativos iOS e Android de turnos
 #### <a name="what-browsers-does-shifts-work-on"></a>Em quais navegadores o Works muda?
 
 Os turnos funcionam em todos os navegadores compatíveis com o que inclui as versões mais recentes do Microsoft Edge, Internet Explorer, Google Chrome e Mozilla Firefox. Para obter mais informações, consulte [obter clientes para Teams](../../get-clients.md).
+
+> [!Note]
+> Os aplicativos e serviços do Microsoft 365 não suportam o Internet Explorer 11 a partir de 17 de agosto de 2021 (o Microsoft Teams não dará suporte para o Internet Explorer 11 anterior, Iniciando em 30 de novembro de 2020). [Saiba mais](https://aka.ms/AA97tsw). Observe que o Internet Explorer 11 permanecerá com um navegador com suporte. O Internet Explorer 11 é um componente do sistema operacional Windows e [segue a política de ciclo de vida](https://docs.microsoft.com/lifecycle/faq/internet-explorer-microsoft-edge) do produto no qual ele está instalado. 
 
 #### <a name="what-languages-does-shifts-support"></a>Em quais idiomas o suporte muda?
 

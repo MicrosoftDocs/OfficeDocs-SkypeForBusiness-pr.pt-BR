@@ -23,12 +23,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Saiba como configurar planos de chamada, incluindo os planos de exibição disponíveis em sua região, comprar & atribuir licenças, obter números de telefone e adicionar endereços de emergência & locais.
-ms.openlocfilehash: 97d0a29068acbb645018d7a3b76867e93d9804cd
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 775ebf8d1fae6439b9a2e7249eb0238e48b11a4c
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691077"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788445"
 ---
 # <a name="set-up-calling-plans"></a>Configurar Planos de Chamadas
 
@@ -40,12 +40,12 @@ Vá para a [disponibilidade de país e região para conferências de áudio e pl
 Se os planos de chamada não estiverem disponíveis para seu país ou região, considere o uso do roteamento direto para conectar sua infraestrutura de telefonia local ao sistema telefônico.  Para obter mais informações, consulte [Roteamento direto do sistema telefônico](direct-routing-landing-page.md).
   
 ## <a name="step-2-buy-and-assign-licenses"></a>Etapa 2: comprar e atribuir licenças
-1. Se o recurso do sistema de telefonia não estiver incluído no seu plano do Microsoft 365 ou do Office 365, talvez seja necessário comprar licenças complementares do **sistema telefônico** . Depois de ter licenças de **sistema telefônico** , compre [planos de chamadas para o Microsoft 365 ou o Office 365](calling-plans-for-office-365.md). Consulte [Licenciamento de Complementos do Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)e compre as licenças e o plano. 
+1. Se o recurso do sistema de telefonia não estiver incluído no seu plano do Microsoft 365 ou do Office 365, talvez seja necessário comprar licenças complementares do **sistema telefônico** . Depois de ter licenças de **sistema telefônico** , compre [planos de chamadas para o Microsoft 365 ou o Office 365](calling-plans-for-office-365.md). Consulte [Licenciamento de Complementos do Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)e compre as licenças e o plano. 
     
     > [!TIP]
     > As licenças do **sistema telefônico** e os planos de chamada no Microsoft 365 ou no Office 365 vão juntos, portanto, para ver a opção de compra de planos de chamadas, você deve ter as licenças do **sistema de telefone** .
   
-2. Primeiro atribua as licenças e, em seguida, atribua um plano de chamada para as pessoas em sua organização. Consulte [atribuir licenças de Complementos do Microsoft Teams](teams-add-on-licensing/assign-teams-add-on-licenses.md).
+2. Primeiro atribua as licenças e, em seguida, atribua um plano de chamada para as pessoas em sua organização. Consulte [atribuir licenças de Complementos do Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
     
 ## <a name="step-3-get-phone-numbers"></a>Etapa 3: obter números de telefone
 Há três maneiras de obter novos números de usuário:
