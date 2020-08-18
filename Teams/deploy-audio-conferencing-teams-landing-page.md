@@ -19,12 +19,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0c8a23faff819f24330b6ab70716dad2afc4cbbd
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: ccc89e8997f274148411b9606d7ae096536d9f9b
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583990"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788725"
 ---
 # <a name="learn-how-to-deploy-audio-conferencing-in-microsoft-teams"></a>Saiba como implantar audioconferência no Microsoft Teams
 
@@ -44,7 +44,7 @@ Antes de implantar a Audioconferência no Teams, considere o seguinte:
 |Pergunte-se|Ação |
 |------------|-------|
 |A Audioconferência está disponível para meu país/região?|Para descobrir se a Audioconferência está disponível em seu país/região, confira [Disponibilidade de Audioconferência e Planos de Chamadas por país e região](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).|
-|Meus usuários têm licenciamento adequado para audioconferência do Teams?|As licenças de audioconferência estão disponíveis como parte da assinatura do Microsoft 365 ou do Office 365 E5 ou como um serviço complementar à assinatura do Microsoft 365 Business Standard, E1 ou E3. <ul><li>Para obter e atribuir licenças, confira [Experimentar ou comprar a Audioconferência no Microsoft 365 ou no Office 365](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365) e [Atribuir ou remover licenças do Microsoft 365 Apps para Pequenos e Médios negócios](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).</li><li> Para saber mais, leia [Licenciamento do complemento do Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md). </li><li>Para ver quais recursos de nuvem estão incluídos em cada plano, confira os artigos [Opções de Licença com base nos planos](teams-add-on-licensing/office-365-business-premium.md).</li></ul>|
+|Meus usuários têm licenciamento adequado para audioconferência do Teams?|As licenças de audioconferência estão disponíveis como parte da assinatura do Microsoft 365 ou do Office 365 E5 ou como um serviço complementar à assinatura do Microsoft 365 Business Standard, E1 ou E3. <ul><li>Para obter e atribuir licenças, confira [Experimentar ou comprar a Audioconferência no Microsoft 365 ou no Office 365](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365) e [Atribuir ou remover licenças do Microsoft 365 Apps para Pequenos e Médios negócios](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).</li><li> Para saber mais, leia [Licenciamento do complemento do Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing). </li><li>Para ver quais recursos de nuvem estão incluídos em cada plano, confira os artigos [Opções de Licença com base nos planos](teams-add-on-licensing/office-365-business-premium.md).</li></ul>|
 |Preciso comprar Créditos de Comunicação para os usuários que recebem licenças de audioconferência?|Para saber mais, leia [O que são Créditos de Comunicação?](what-are-communications-credits.md) e, em seguida, confira a seção [Créditos de Comunicações](#communications-credits) abaixo.|
 |||
 

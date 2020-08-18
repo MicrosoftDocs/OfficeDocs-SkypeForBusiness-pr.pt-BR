@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: Utilize o Advisor for Teams para ajudá-lo a planejar e concluir a implementação do Microsoft Teams.
-ms.openlocfilehash: 1514ee182c53c58777d6e44443269ae01f21558a
-ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
+ms.openlocfilehash: 4a967e8e811b2730849341f0f1f99ddbb1811496
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/15/2020
-ms.locfileid: "46761347"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788395"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Use o Assistente do Teams para ajudá-lo na implantação do Microsoft Teams
 
@@ -109,7 +109,7 @@ Além dos [Testes de avaliação de todas as cargas de trabalho](#assessment-tes
 
 |Teste de avaliação  |O que ele informa  |
 |---------|---------|
-|Licenças de Audioconferência    |Se você tiver uma assinatura ativa com licenças de Audioconferência. Esse é um pré-requisito se você estiver implantando pontes de Audioconferência. Consulta o Microsoft Graph para ver se você tem licenças de audioconferência (com pelo menos uma licença disponível para atribuir). Para obter mais informações, leia [Licenciamento do complemento do Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).    |
+|Licenças de Audioconferência    |Se você tiver uma assinatura ativa com licenças de Audioconferência. Esse é um pré-requisito se você estiver implantando pontes de Audioconferência. Consulta o Microsoft Graph para ver se você tem licenças de audioconferência (com pelo menos uma licença disponível para atribuir). Para obter mais informações, leia [Licenciamento do complemento do Teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).    |
 |Licenças de Stream     |Se você tiver uma assinatura ativa com licenças do Microsoft Stream disponíveis. Esse é um pré-requisito se deseja habilitar a Gravação da Reunião. Consulte o Microsoft Graph para ver se você tem licenças do Microsoft Stream (com pelo menos uma licença disponível para atribuir). Para obter mais informações sobre o Stream e sobre como habilitá-lo, leia [Gravação de reuniões na nuvem do Teams](cloud-recording.md).
 
 ### <a name="assessments-for-skype-for-business-upgrade"></a>Avaliações da atualização do Skype for Business
