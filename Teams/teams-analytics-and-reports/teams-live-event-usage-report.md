@@ -17,12 +17,12 @@ description: Saiba como usar o relatório de uso de eventos Team Live no centro 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f9b25fa7c476c9dd3fe347af26fc13742b41d009
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: c093464c67fed18a5c5528929f006b7931fd1d9b
+ms.sourcegitcommit: bd13aecbb25c14e17d1b64343df6d80c90b2aa45
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583760"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "46803953"
 ---
 # <a name="microsoft-teams-live-event-usage-report"></a>Relatório de uso de eventos ao vivo do Microsoft Teams
 
@@ -44,7 +44,7 @@ O relatório de uso de eventos Team Live no centro de administração do Microso
 |**1**   |O relatório de eventos do teams Live pode ser exibido para obter tendências nos últimos sete dias, 28 dias ou um intervalo de datas personalizado que você definiu. |
 |**2**   |Cada relatório tem uma data para o momento em que foi gerado. O relatório reflete a atividade próxima do tempo real quando a página é atualizada. |
 |**3**   |<ul><li>O eixo X no gráfico representa o intervalo selecionado de datas para o relatório.</li> <li> O eixo Y é a contagem total de modo de exibição.</li> </ul>Passe o mouse sobre o ponto em uma determinada data para ver o número de exibições em todos os eventos dinâmicos nessa data.|
-|**4**   |A tabela oferece uma divisão de cada evento ao vivo. <ul><li>**Evento** é o nome de exibição do evento ao vivo. Clique no nome do evento para [obter mais detalhes](#view-event-details) sobre o evento. </li> <li>**Hora de início** refere-se à data de início e hora do evento.</li> <li>**Status do evento** mostra se o evento foi colocado.  </li><li>**Organizador** é o nome do organizador de eventos.</li> <li>**Apresentadores** são os nomes dos apresentadores de eventos.</li><li>**Produtores** são os nomes dos produtores de eventos.</li><li>**Modos** de exibição é o número de modos de exibição exclusivos.</li><li>A **gravação** mostra se a configuração de gravação está ativada ou desativada.</li><li>**Tipo de produção** mostra se o evento é produzido em Teams ou por um dispositivo ou aplicativo externo.</li></li> </ul>Observe que, se uma conta de usuário não existir mais no Azure AD, o nome de usuário será exibido como "--" na tabela. <br><br>Para ver as informações desejadas na tabela, certifique-se de adicionar as colunas à tabela. |
+|**4**   |A tabela oferece uma divisão de cada evento ao vivo. <ul><li>**Evento** é o nome de exibição do evento ao vivo. Clique no nome do evento para [obter mais detalhes](#view-event-details) sobre o evento. </li> <li>**Hora de início** refere-se à data de início e hora do evento.</li> <li>**Status do evento** mostra se o evento foi colocado.  </li><li>**Organizador** é o nome do organizador de eventos.</li> <li>**Apresentadores** são os nomes dos apresentadores de eventos.</li><li>**Produtores** são os nomes dos produtores de eventos.</li><li>**Modos de exibição** é o número de modos de exibição exclusivos após o evento ser concluído.</li><li>A **gravação** mostra se a configuração de gravação está ativada ou desativada.</li><li>**Tipo de produção** mostra se o evento é produzido em Teams ou por um dispositivo ou aplicativo externo.</li></li> </ul>Observe que, se uma conta de usuário não existir mais no Azure AD, o nome de usuário será exibido como "--" na tabela. <br><br>Para ver as informações desejadas na tabela, certifique-se de adicionar as colunas à tabela. |
 |**5**   |Selecione **Editar colunas** para adicionar ou remover colunas na tabela.|
 
 ## <a name="notes"></a>Observações

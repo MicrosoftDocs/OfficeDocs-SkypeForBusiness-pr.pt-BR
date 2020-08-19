@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4848481cf682ca0ff5b973f1100f3a96596c8d7a
-ms.sourcegitcommit: 27fb021e46d775652a99d862b19d94f3fc020594
+ms.openlocfilehash: e286611823ddfd12b43abd3a8ff385885fd02a38
+ms.sourcegitcommit: bd13aecbb25c14e17d1b64343df6d80c90b2aa45
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "46778063"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "46803984"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams para Infraestrutura de Área de Trabalho Virtualizada
 
@@ -178,9 +178,9 @@ Para saber mais sobre o Teams e aplicativos do Microsoft 365 para empresas, cons
 
         A próxima sessão de logon interativo inicia o Teams e pede credenciais.
 
-    > [!NOTE]
-    > Esses exemplos também usam o parâmetro **AllUsers = 1** . Quando você define esse parâmetro, o instalador de toda a máquina do teams aparece em programas e recursos no painel de controle e nos aplicativos & recursos nas configurações do Windows para todos os usuários do computador. Em seguida, todos os usuários podem desinstalar o Microsoft Teams, caso tenham credenciais de administrador.
-    É importante compreender a diferença entre **AllUsers = 1** e **usuário = 1**. O parâmetro **AllUsers = 1** pode ser usado em ambientes que não sejam VDI e VDI, enquanto o parâmetro **MyUser = 1** é usado somente em ambientes de VDI para especificar uma instalação por máquina.
+        > [!NOTE]
+        > Esses exemplos também usam o parâmetro **AllUsers = 1** . Quando você define esse parâmetro, o instalador de toda a máquina do teams aparece em programas e recursos no painel de controle e nos aplicativos & recursos nas configurações do Windows para todos os usuários do computador. Em seguida, todos os usuários podem desinstalar o Microsoft Teams, caso tenham credenciais de administrador.
+        É importante compreender a diferença entre **AllUsers = 1** e **usuário = 1**. O parâmetro **AllUsers = 1** pode ser usado em ambientes que não sejam VDI e VDI, enquanto o parâmetro **MyUser = 1** é usado somente em ambientes de VDI para especificar uma instalação por máquina.
 
 3. Desinstale o MSI da VM VDI.
   
@@ -346,6 +346,17 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOn -Identity "user email id"
 
 Para saber mais sobre como usar o PowerShell para gerenciar as políticas de reunião, consulte [set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy).
 
+## <a name="control-fallback-mode-in-teams"></a>Controlar o modo de fallback no Microsoft Teams
+
+Quando os usuários se conectam de um ponto de extremidade sem suporte, os usuários estão em modo de fallback, no qual o AV não está otimizado. Você pode desabilitar ou habilitar o modo de fallback definindo um dos seguintes valores DWORD do registro:
+
+- HKEY_LOCAL_MACHINE \SOFTWARE\Microsoft\Teams\DisableFallback
+- HKEY_CURRENT_USER \SOFTWARE\Microsoft\Office\Teams\DisableFallback
+
+Para desativar o modo de fallback, defina o valor como **1**. Para habilitar somente áudio, defina o valor como **2**. Se o valor não estiver presente ou estiver definido como **0** (zero), o modo de fallback será habilitado.
+
+Este recurso está disponível no Teams versão 1.3.00.13565 e posterior.
+
 ## <a name="known-issues-and-limitations"></a>Limitações e problemas conhecidos
 
 ### <a name="client-deployment-installation-and-setup"></a>Implantação, instalação e configuração do cliente
@@ -391,7 +402,7 @@ Para os problemas conhecidos do teams que não estão relacionados ao VDI, consu
 
 ## <a name="troubleshooting"></a>Solução de problemas
 
-#### <a name="troubleshoot-citrix-components"></a>Solução de problemas para componentes da Citrix
+### <a name="troubleshoot-citrix-components"></a>Solução de problemas para componentes da Citrix
 
 Para obter informações sobre como solucionar problemas de VDA e CWA, consulte [este website da Citrix](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html).
 

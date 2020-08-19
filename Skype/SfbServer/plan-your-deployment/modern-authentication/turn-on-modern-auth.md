@@ -14,12 +14,12 @@ ms.collection: IT_Skype16
 ms.custom: tracyp
 ms.assetid: ''
 description: Este artigo descreve os cmdlets que dão aos administradores mais controle dos métodos de autenticação usados dentro e fora de uma empresa. Os administradores podem ativar ou desativar os métodos de autenticação interna ou externamente em sua rede.
-ms.openlocfilehash: a3f26e0bb29a58b53547083a4410da849c054b03
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: e2f9a8c9c8576c07de3158fb2446cb3cb89bac72
+ms.sourcegitcommit: aae3eeb4dedd825ab176abe7e1aff9463c88799b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42043713"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46797449"
 ---
 # <a name="planning-to-turn-off-legacy-authentication-methods-internally-and-externally-to-your-network"></a>Planejar a desativação de métodos de autenticação herdados interna e externamente em sua rede.
 
@@ -97,6 +97,8 @@ Talvez seja mais sensato fazer um get-para esses valores e fazer captura de tela
 > 
 > Se você usar o parâmetro BlockWindowsAuthExternally para bloquear o NTLM externamente, lembre-se de que o também bloqueia NTLM internamente para o canal SIP. No entanto, os clientes do Skype for Business e do Lync mais recentes do que 2010 ainda poderão fazer logon porque usarão NTLM sobre HTTP para entrar, internamente, e buscar um certificado para fazer logon via SIP. No entanto, os clientes mais antigos do que 2010 não poderão fazer logon internamente nessa circunstância, e você pode querer considerar a atualização desses aplicativos para que os usuários possam retomar a funcionalidade segura.
 
+> [!IMPORTANT] 
+> Alguns dos aplicativos da Web do Skype for Business não oferecem suporte ao MA. Portanto, usando o cenário BlockWindowsAuthExternallyAndInternally, você não poderá acessar esses aplicativos. Os aplicativos sem suporte a MA são Agendador da Web, página de discagem, painel de controle do Skype for Business (CSCP) e página de configurações do grupo de resposta. 
 
 ## <a name="links"></a>Links 
 - Para obter mais informações sobre o PowerShell:

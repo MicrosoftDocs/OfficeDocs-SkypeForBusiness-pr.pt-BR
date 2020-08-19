@@ -1,5 +1,5 @@
 ---
-title: Pacotes de política de equipe para assistência médica
+title: Pacotes de política de equipe para o governo
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -16,15 +16,18 @@ f1.keywords: ''
 ms.custom: ''
 localization_priority: Normal
 search.appverid: MET150
-description: Saiba como usar e gerenciar pacotes de política de equipe para sua organização de assistência médica.
-ms.openlocfilehash: dbbc0956f339760bedf1ce9cc2c5012cc317e152
+description: Saiba como usar e gerenciar pacotes de política de equipe para sua organização governamental.
+ms.openlocfilehash: 738197a82303c1149ebc89a8e3ad7c6b37df90eb
 ms.sourcegitcommit: bd13aecbb25c14e17d1b64343df6d80c90b2aa45
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 08/19/2020
-ms.locfileid: "46803963"
+ms.locfileid: "46804003"
 ---
-# <a name="teams-policy-packages-for-healthcare"></a>Pacotes de política de equipe para assistência médica
+# <a name="teams-policy-packages-for-government"></a>Pacotes de política de equipe para o governo
+
+> [!NOTE]
+> Atualmente, os pacotes de política não estão disponíveis nas implantações do Microsoft 365 governo GCC High ou DoD.
 
 ## <a name="overview"></a>Visão geral
 
@@ -38,19 +41,19 @@ Pacotes de política pré-defina políticas para o seguinte, dependendo do pacot
 - Configuração do aplicativo
 - Eventos ao vivo
 
-Atualmente, o Microsoft Teams inclui os seguintes pacotes de política de assistência médica.
+Atualmente, o Teams inclui os seguintes pacotes de política para o governo.
 
 |Nome do pacote no centro de administração do Microsoft Teams|Melhor usado para|Descrição |
 |---------|---------|---------|
-|Trabalhador clínico da assistência médica  |Trabalhadores clínicos na sua organização de assistência médica  |Cria um conjunto de políticas e configurações de política que dão a funcionários clínicos, como as mensagens de mão registradas, recarga de mão, médicos e funcionários sociais acesso total a chats, chamadas, gerenciamento de turnos e reuniões. |
-|Operador de informações da assistência médica  |Operadores de informações em sua organização de assistência médica |Cria um conjunto de políticas e configurações de política que fornecem aos operadores de informações, como pessoal de ti, pessoal de informática, pessoal de finanças e órgãos de conformidade, acesso total a chats, chamadas e reuniões.|
-|Sala de pacientes de assistência médica  |Dispositivos da sala de pacientes|Cria um conjunto de políticas e configurações de política que se aplicam a salas de pacientes em sua organização de assistência médica.|
+|Diretor de segurança pública  |Diretores de segurança públicos em sua organização governamental  |Cria um conjunto de políticas e configurações de política que se aplicam a órgãos públicos de segurança em sua organização. |
+|Gerente da primeira mão  |Gerentes de primeira mão em sua organização governamental |Cria um conjunto de políticas e aplica essas configurações aos gerentes de primeira empresa.|
+|Trabalho da primeira  |Trabalhadores de primeira mão em sua organização governamental |Cria um conjunto de políticas e aplica essas configurações aos trabalhos iniciais em sua organização.|
 
-![Captura de tela dos pacotes de política da assistência médica](media/policy-packages-healthcare.png)
+![Captura de tela dos pacotes de política da assistência médica](media/policy-packages-gov.png)
 
-Cada política individual recebe o nome do pacote de política para que você possa facilmente identificar as políticas que estão vinculadas a um pacote de política. Por exemplo, quando você atribui o pacote de política do funcionário clínico à assistência médica a clínicos em sua organização, uma política chamada Healthcare_ClinicalWorker é criada para cada política do pacote.
+Cada política individual recebe o nome do pacote de política para que você possa facilmente identificar as políticas que estão vinculadas a um pacote de política. Por exemplo, quando você atribui o pacote de política do diretor de segurança pública aos usuários em sua organização, uma política chamada PublicSafety_Officer é criada para cada política no pacote.
 
-![Captura de tela de políticas no pacote de trabalho clínico da assistência médica](media/policy-packages-healthcare-clinical-worker.png)
+![Captura de tela de políticas no pacote de trabalho clínico da assistência médica](media/policy-packages-public-safety-officer.png)
 
 ## <a name="manage-policy-packages"></a>Gerenciar pacotes de política
 
@@ -72,7 +75,7 @@ Atribua o pacote de política aos usuários. Para atribuir um pacote de polític
 
 Para ver as etapas sobre como atribuir um pacote de política usando o centro de administração do Microsoft Teams ou o PowerShell, consulte [atribuir um pacote de política](manage-policy-packages.md#assign-a-policy-package).
 
-![Captura de tela de como atribuir um pacote de política no centro de administração](media/policy-packages-healthcare-assign.png)
+![Captura de tela de como atribuir um pacote de política no centro de administração](media/policy-packages-gov-assign.png)
 
 Se um usuário tiver uma política atribuída e depois você atribuir uma política diferente, a atribuição mais recente terá prioridade.
 
@@ -80,4 +83,4 @@ Se um usuário tiver uma política atribuída e depois você atribuir uma polít
 
 [Gerenciar pacotes de política em equipes](manage-policy-packages.md)
 
-[Atribuir políticas a seus usuários no Teams](assign-policies.md)
+[Atribuir políticas a seus usuários no Teams](assign-policies.md) 
