@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cc6238e2cf9a3912cfa8cec765f63e6a553f4db1
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 48465336e0c3657b8bfd1d3adb1eb69c239ecdb6
+ms.sourcegitcommit: 34f407a6a40317056005e3bf38ce58f792c04810
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042488"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "46814227"
 ---
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>Gerenciar o aplicativo tarefas para sua organização no Microsoft Teams
 
@@ -28,7 +28,7 @@ ms.locfileid: "44042488"
 
 ## <a name="overview-of-tasks"></a>Visão geral das tarefas
 
-O aplicativo tarefas traz uma experiência coesa de gerenciamento de tarefas para o Microsoft Teams, integrando tarefas pessoais da [Microsoft a fazer](https://todo.microsoft.com/tasks/) e tarefas da equipe com o Planner em um só lugar. Os usuários podem acessar as tarefas como um aplicativo no lado esquerdo do Teams e como uma guia em um canal dentro de equipes individuais. As listas **pessoais** e **listas de equipes** nas tarefas permitem que os usuários exibam e gerenciem todas as tarefas pessoais e da equipe e priorizem o trabalho delas. Tarefas está disponível em Teams desktop, Web e clientes móveis. 
+O aplicativo tarefas traz uma experiência coesa de gerenciamento de tarefas para o Microsoft Teams, integrando tarefas individuais da [Microsoft a fazer](https://todo.microsoft.com/tasks/) e tarefas da equipe com o Planner em um só lugar. Os usuários podem acessar as tarefas como um aplicativo no lado esquerdo do Teams e como uma guia em um canal dentro de equipes individuais. **Minhas tarefas** e **planos compartilhados** em tarefas permitem aos usuários exibir e gerenciar todas as tarefas individuais e da equipe e priorizar o trabalho delas. Tarefas está disponível em Teams desktop, Web e clientes móveis. 
 
 > [!NOTE]
 > Ao implantar a experiência de tarefas em clientes da área de trabalho do Teams, o nome do aplicativo aparecerá inicialmente como **planejador** para os usuários. O nome então mudará temporariamente para **tarefas pelo Planner e para fazer**e, posteriormente, será renomeado para **tarefas**. Em clientes móveis do Teams, os usuários sempre verão o nome do aplicativo como **tarefas**. Pode haver um pequeno atraso na disponibilidade da experiência móvel depois que a experiência da área de trabalho estiver disponível.
@@ -39,13 +39,13 @@ Para as organizações que desejam simplificar o gerenciamento de tarefas para t
 
 ## <a name="what-you-need-to-know-about-tasks"></a>O que você precisa saber sobre tarefas
 
-Tarefas está disponível como um aplicativo e uma guia em um canal. Lembre-se de que o aplicativo inclui tarefas pessoais de tarefas pendentes e tarefas da equipe no Planner, enquanto a guia mostra somente tarefas da equipe.
+Tarefas está disponível como um aplicativo e uma guia em um canal. Lembre-se de que o aplicativo inclui tarefas individuais de tarefas pendentes e tarefas da equipe no Planner, enquanto a guia mostra somente tarefas da equipe.
 
 Com as tarefas, os usuários obtêm uma experiência na área de trabalho, Web e celular. Se as tarefas estiverem instaladas no cliente da área de trabalho do Teams, os usuários também o verão em seus clientes Web e móveis do Microsoft Teams. A exceção são usuários convidados. É importante saber que os convidados só podem acessar as tarefas como um aplicativo no cliente móvel do teams. Os convidados verão as guias de tarefas nos clientes da área de trabalho da equipe e na Web.
 
-Listas pessoais mostram tarefas individuais de um usuário. Listas de equipe mostram as tarefas em que a equipe inteira está trabalhando e inclui qualquer lista de tarefas adicionada como uma guia tarefas a um canal. Observe o seguinte:
+**Minhas tarefas** mostra as tarefas individuais de um usuário. Os **planos compartilhados** mostram as tarefas em que a equipe inteira está trabalhando e inclui qualquer lista de tarefas adicionada como uma guia tarefas a um canal. Observe o seguinte:
 
-- As listas pessoais que um usuário cria no aplicativo tarefas também aparecem em clientes para fazer isso para o usuário. Da mesma forma, listas de tarefas que um usuário cria em tarefas pendentes aparecerão em listas pessoais em tarefas para esse usuário. O mesmo se aplica às tarefas individuais.
+- Listas de tarefas que um usuário cria no aplicativo tarefas também aparecerá em clientes para fazer isso para o usuário. Da mesma forma, as listas de tarefas que um usuário cria em tarefas pendentes serão exibidas em **minhas tarefas** em tarefas desse usuário. O mesmo se aplica às tarefas individuais.
 
 - Qualquer guia tarefas que é adicionada a um canal também será exibida em clientes do Planner. Quando um usuário cria um plano no Planner, o plano não é mostrado no aplicativo tarefas ou Planner, a menos que seja adicionado como uma guia a um canal. Quando um usuário adiciona uma nova guia tarefas, ele pode criar uma nova lista ou plano ou escolher uma existente.
 
@@ -58,7 +58,7 @@ Listas pessoais mostram tarefas individuais de um usuário. Listas de equipe mos
 
 Tarefas é habilitada por padrão para todos os usuários do teams em sua organização. Você pode desativar ou ativar o aplicativo no nível da organização na página [gerenciar aplicativos](manage-apps.md) no centro de administração do Microsoft Teams.
 
-1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá até **Team apps** > **gerenciar aplicativos** .
+1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá até **Team apps**  >  **gerenciar aplicativos** .
 2. Na lista de aplicativos, siga um destes procedimentos:
 
     - Para desativar as tarefas da sua organização, procure o aplicativo tarefas, selecione-a e clique em **Bloquear**.
@@ -70,13 +70,15 @@ Para permitir ou bloquear usuários específicos em sua organização usando tar
 
 ### <a name="use-an-app-setup-policy-to-pin-tasks-to-teams"></a>Usar uma política de configuração do aplicativo para fixar tarefas em equipes
 
-As políticas de configuração do aplicativo permitem que você personalize o Microsoft Teams para realçar os aplicativos que são mais importantes para os usuários da sua organização. Os aplicativos que você define em uma política são fixados na barra&mdash;do aplicativo na barra do cliente da área de trabalho do Teams e na parte inferior dos clientes&mdash;móveis do Teams, onde os usuários podem acessá-los de forma rápida e fácil.
+As políticas de configuração do aplicativo permitem que você personalize o Microsoft Teams para realçar os aplicativos que são mais importantes para os usuários da sua organização. Os aplicativos que você define em uma política são fixados na barra do aplicativo &mdash; na barra do cliente da área de trabalho do Teams e na parte inferior dos clientes móveis do Teams, &mdash; onde os usuários podem acessá-los de forma rápida e fácil.
 
 Para fixar o aplicativo tarefas para seus usuários, você pode editar a política global (padrão para toda a organização) ou criar e atribuir uma política de configuração de aplicativo personalizada. Para saber mais, consulte [gerenciar políticas de configuração de aplicativos no Microsoft Teams](teams-app-setup-policies.md).
 
-### <a name="hide-users-personal-lists-if-you-dont-want-users-to-see-them"></a>Ocultar listas pessoais dos usuários se você não quiser que eles os vejam 
+### <a name="a-users-my-tasks-is-visible-if-the-user-is-licensed-for-exchange-online"></a>As minhas tarefas de um usuário ficam visíveis se o usuário estiver licenciado para o Exchange Online
 
-Se você não quiser que os usuários vejam listas pessoais, é possível ocultá-lo. Para fazer isso, [remova a licença do Exchange Online do usuário](https://docs.microsoft.com/microsoft-365/admin/manage/remove-licenses-from-users). Observe que, depois de remover uma licença do Exchange Online, o usuário não tem mais acesso à caixa de correio. Os dados de caixa de correio são mantidos por 30 dias, após o qual os dados serão removidos e não poderão ser recuperados, a menos que a caixa de correio seja colocada em [retenção in-loco ou em retenção de litígio](https://docs.microsoft.com/exchange/security-and-compliance/in-place-and-litigation-holds).
+Se não quiser que um usuário veja **minhas tarefas**, você pode ocultá-la. Para fazer isso, [remova a licença do Exchange Online do usuário](https://docs.microsoft.com/microsoft-365/admin/manage/remove-licenses-from-users). É importante saber que, após remover uma licença do Exchange Online, o usuário não tem mais acesso à sua caixa de correio.  Os dados de caixa de correio são mantidos por 30 dias, após o qual os dados serão removidos e não poderão ser recuperados, a menos que a caixa de correio seja colocada em [retenção in-loco ou em retenção de litígio](https://docs.microsoft.com/exchange/security-and-compliance/in-place-and-litigation-holds).
+
+Não recomendamos isso para os operadores de informações, mas pode haver alguns cenários nos quais isso pode ser aplicado, como para os funcionários iniciantes que não dependem do e-mail.
 
 ## <a name="task-publishing"></a>Publicação de tarefas
 

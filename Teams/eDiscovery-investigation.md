@@ -17,12 +17,12 @@ description: Saiba o que fazer quando você precisar executar uma descoberta ele
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 0bdd14db1fd0e849effe9ffe1789c06e1e012d90
-ms.sourcegitcommit: 113e3a7314505cf78da57917ff62642125fb11fd
+ms.openlocfilehash: 4679d8ed59ab8eec0fb856961f646d1f20049ff3
+ms.sourcegitcommit: 34f407a6a40317056005e3bf38ce58f792c04810
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45121391"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "46814107"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Conduzir uma investigação de Descoberta Eletrônica de conteúdo no Microsoft Teams
 
@@ -30,7 +30,7 @@ Grandes empresas muitas vezes são expostas a grandes procedimentos legais de pe
 
 ## <a name="overview"></a>Visão geral
 
-Todas as equipes 1:1 ou chats em grupo são registradas nas caixas de correio dos respectivos usuários. Todas as mensagens de canal padrão são registradas na caixa de correio do grupo que representa a equipe. Os arquivos carregados em canais padrão são cobertos pela funcionalidade de descoberta eletrônica do SharePoint Online e do OneDrive for Business.
+Todas as caixas de correio do Microsoft Teams 1:1 ou de grupo são registradas em um diário para as caixas de correio dos respectivos usuários. Todas as mensagens de canal padrão são registradas na caixa de correio do grupo que representa a equipe. Os arquivos carregados em canais padrão são cobertos pela funcionalidade de descoberta eletrônica do SharePoint Online e do OneDrive for Business.
 
 a descoberta eletrônica de mensagens e arquivos em [canais privados](private-channels.md) funciona de forma diferente em canais padrão. Para saber mais, consulte [descoberta eletrônica de canais privados](#ediscovery-of-private-channels).
 
@@ -39,28 +39,49 @@ Nem todo o conteúdo do teams é eDiscoverable. A tabela a seguir mostra os tipo
 | Tipo de conteúdo | eDiscoverable | Observações |
 |:--- | --- |:--- |
 | Mensagens de chat do teams | Sim |  |
-| Gravações de áudio | Não | |
 | Mensagens de canal privado | Sim | |
+| Nome do canal | Não | |
+| Conversas de mensagens instantâneas de reunião | Sim | |
+| Metadados de reunião<sup>1</sup> | Sim |  |
+| Mensagens editadas | Sim | Se o usuário estiver em espera, as versões anteriores das mensagens editadas serão preservadas. |
 | Emojis, GIFs, adesivos | Sim | |
 | Trechos de código | Não | |
 | Links de chat | Sim | |
 | Reações (curtidas, corações e assim por diante) | Não | |
-| Mensagens editadas | Sim | Se o usuário estiver em espera, as versões anteriores das mensagens editadas serão preservadas. |
 | Imagens embutidas | Sim | |
 | Tabelas | Sim | |
 | Assunto | Sim | |
 | Cota | Sim | Conteúdo entre aspas é pesquisável. No entanto, os resultados da pesquisa não indicam que o conteúdo foi cotado. |
-| Nome do canal | Não | |
+| Gravações de áudio | Não | |
 
-- Para conduzir uma investigação de descoberta eletrônica com o conteúdo do Microsoft Teams, examine a etapa 1 em [gerenciar casos de descoberta eletrônica no link do centro de conformidade de segurança do &](https://support.office.com/article/Manage-eDiscovery-cases-in-the-Office-365-Security-Compliance-Center-edea80d6-20a7-40fb-b8c4-5e8c8395f6da) .
+<sup>1</sup> metadados de reunião incluem o seguinte:
 
-- Os dados do Microsoft Teams serão exibidos como mensagens instantâneas ou conversas na saída de exportação do Excel para descoberta eletrônica. Você pode abrir o `.pst` arquivo no Outlook para exibir essas mensagens após a exportação.
+- Reunião ou chamar hora de início e de término e duração
+- Chamada/reunião participe e saia dos eventos de cada participante
+- Junção/chamadas de VOIP
+- Junção anônima
+- Ingressar no usuário federado
+- Ingressar no usuário convidado
 
-    Ao exibir o `.pst` arquivo da equipe, observe que todas as conversas são mantidas na pasta de chat da equipe em histórico de conversas. O título da mensagem contém o nome da equipe e o nome do canal. Por exemplo, a imagem abaixo mostra uma mensagem de Bob que encontrava o canal padrão do Project 7 da equipe de especificações de fabricação.
+A imagem mostra um exemplo dos metadados.
 
-    ![Captura de tela de uma pasta de chat de equipe na caixa de correio de um usuário no Outlook](media/Conduct_an_eDiscovery_investigation_of_content_in_Microsoft_Teams_image1.png)
+![Image é da CVR registros da reunião.](media/conversationOption3.png)
 
-- Chats privados na caixa de correio de um usuário são armazenados na pasta de chat da equipe em histórico de conversas.
+Aqui está um exemplo de conversa de mensagem instantânea entre participantes durante a reunião.
+
+![A imagem é de uma conversa entre participantes.](media/MeetingIMConversations.png)
+
+![A imagem é de uma conversa entre participantes.](media/MeetingImConversation2.png)
+
+Para conduzir uma investigação de descoberta eletrônica com o conteúdo do Microsoft Teams, examine a etapa 1 em introdução [à descoberta eletrônica principal](https://docs.microsoft.com/microsoft-365/compliance/get-started-core-ediscovery).
+
+Os dados do Microsoft Teams serão exibidos como mensagens instantâneas ou conversas na saída de exportação do Excel para descoberta eletrônica. Você pode abrir o `.pst` arquivo no Outlook para exibir essas mensagens após a exportação.
+
+Ao exibir o arquivo. pst para a equipe, todas as conversas são mantidas na pasta de chat da equipe em histórico de conversas. O título da mensagem contém o nome da equipe e o nome do canal. Por exemplo, a imagem abaixo mostra uma mensagem de Bob que encontrava o canal padrão do Project 7 da equipe de especificações de fabricação.
+
+![Captura de tela de uma pasta de chat de equipe na caixa de correio de um usuário no Outlook](media/Conduct_an_eDiscovery_investigation_of_content_in_Microsoft_Teams_image1.png)
+
+Chats privados na caixa de correio de um usuário são armazenados na pasta de chat da equipe em histórico de conversas.
 
 ## <a name="ediscovery-of-private-channels"></a>Descoberta eletrônica de canais privados
 
@@ -86,7 +107,7 @@ Antes de executar essas etapas, instale o [Shell de gerenciamento do SharePoint 
 
     ```PowerShell
     $sites = get-sposite -template "teamchannel#0"
-    foreach ($site in $sites) {$x= get-sposite -identity $site.url -detail; $x.relatedgroupID; $x.url} 
+    foreach ($site in $sites) {$x= get-sposite -identity $site.url -detail; $x.relatedgroupID; $x.url}
     ```
 
 3. Para cada ID de equipe ou grupo, execute o seguinte script do PowerShell para identificar todos os sites de canais particulares relevantes, em que $groupID é a ID de grupo da equipe.
@@ -146,7 +167,7 @@ O conteúdo do teams também pode ser pesquisado. Para obter mais informações 
 
 Ao criar uma consulta de pesquisa, você pode escolher os responsáveis para que todas as fontes que você já selecionou sejam pesquisadas. Você também pode pesquisar fontes não custodial como um site de equipe que não está mapeado para um usuário. Consultas opcionais também estão disponíveis para restringir sua pesquisa dentro do conteúdo do teams.
 
-Depois de criar uma pesquisa e a selecionar, uma janela será exibida com detalhes adicionais e ações que você pode executar na pesquisa selecionada. Se você clicar no botão **estatísticas** , poderá ver as estatísticas sobre a pesquisa, incluindo as divisões de acordo com os tipos de localização, a fonte original do conteúdo e se o conteúdo está localizado em uma caixa de correio de grupo, na caixa de correio do usuário individual ou em um site do SharePoint. Isso permite que você veja um detalhamento de quais fontes estão contribuindo para seus resultados de pesquisa. Há também uma exibição de **consultas** disponível para que você possa ver quais palavras-chave individuais estão contribuindo para seus resultados.
+Depois de criar uma pesquisa e a selecionar, uma janela será exibida com detalhes adicionais e ações que você pode executar na pesquisa selecionada. Se você clicar no botão **estatísticas** , poderá ver as estatísticas sobre a pesquisa, incluindo as divisões de acordo com os tipos de localização, a fonte original do conteúdo e se o conteúdo está localizado em uma caixa de correio de grupo, na caixa de correio do usuário individual ou em um site do SharePoint. Portanto, você pode ver um detalhamento de quais fontes estão contribuindo para seus resultados de pesquisa. Há também uma exibição de **consultas** disponível para que você possa ver quais palavras-chave individuais estão contribuindo para seus resultados.
 
 Depois de finalizar a pesquisa, você pode clicar no botão de **configuração adicionar resultados à revisão** e adicioná-lo a um conjunto de revisão. Para obter mais informações sobre conjuntos de revisão, consulte [gerenciar os conjuntos de revisão no fluxo de trabalho de descoberta eletrônica avançada](https://docs.microsoft.com/microsoft-365/compliance/managing-review-sets) e [examinar conjuntos](#review-sets-workflow) mais adiante neste artigo.
 
@@ -158,9 +179,9 @@ Um conjunto de revisão normal é semelhante a uma exportação; Ele fornece os 
 
 Um conjunto de revisão de conversa fornece uma exibição encadeada e mais intuitiva das conversas; Ele exibe mensagens relacionadas juntas na ordem correta.
 
-A funcionalidade como a redação está disponível nos dois tipos de conjuntos de revisão.
+![Captura de tela do conjunto de revisão de conversa](media/conversationOptions2.png)
 
-Para obter mais informações sobre conjuntos de revisão, consulte [rever conversas na descoberta eletrônica avançada](https://docs.microsoft.com/microsoft-365/compliance/conversation-review-sets).
+A funcionalidade como a redação está disponível nos dois tipos de conjuntos de revisão. Para obter mais informações sobre conjuntos de revisão, consulte [rever conversas na descoberta eletrônica avançada](https://docs.microsoft.com/microsoft-365/compliance/conversation-review-sets).
 
 #### <a name="collection-options"></a>Opções de coleção
 
@@ -188,9 +209,13 @@ Se você clicar em uma conversa de equipe no conjunto de revisão, ele exibirá 
 
 Para baixar um PDF, clique no botão baixar no canto superior direito do modo de exibição de resumo.
 
-Clique na guia **modo de exibição de texto** para exibir um modo de exibição de texto sem formatação do texto extraído da conversa do teams. Isso é adequado para exportação e você pode facilmente trabalhar com esse texto extraído usando outras ferramentas de software.
+Clique na guia **modo de exibição de texto** para exibir um modo de exibição de texto sem formatação do texto extraído da conversa do teams. Este conteúdo de texto sem formatação é adequado para exportação e você pode facilmente trabalhar com ele usando outras ferramentas de software.
 
 Clique na guia **modo de exibição de anotação** para acessar os recursos de anotação. Esta guia exibe o conteúdo em um formato semelhante a uma conversa de equipe, mas também há opções adicionais para edição. Há uma ferramenta lápis que você pode usar para fazer anotações, desenhar na mensagem ou fazer um rascunho fino para fins de redação. Há também uma ferramenta de **redação de área** que você pode usar para desenhar um retângulo que escurece a área e a marca como "redigida".
+
+Aqui está um exemplo de um arquivo redigido para conversa encadeada entre usuários.
+
+![Captura de tela do arquivo redigido](media/RedactedFileExample.png)
 
 Na parte inferior da guia **modo de exibição de anotação** está o botão **Marcar documentos** , que exibe o painel de marcação. Nesse painel, você pode aplicar uma marca a todas as mensagens dentro da conversa do teams. Você pode rotular uma conversa como responsiva ou não responsiva, privilegiada ou não privilegiada, se contiver "itens interessantes", se deve ser incluído na exportação e se precisa de uma revisão adicional. Você também pode gerenciar e aplicar outras marcas personalizáveis.
 
@@ -202,13 +227,13 @@ Para exportar um arquivo que contenha todos os metadados de todas as mensagens d
 
 Use a opção **arquivos nativos** para exportar arquivos em seu formato nativo. Você pode optar por exportar uma conversa como um arquivo ou todas as mensagens de chat individuais em seus próprios arquivos separados.
 
-A opção **arquivos de texto** permite salvar versões de texto sem formatação do conteúdo. Veja o [modo de exibição de resumo, o modo](#summary-view-text-view-and-annotate-view) de exibição de texto e a exibição de anotação acima para obter mais informações sobre como obter uma exibição de texto sem formatação de conversas do teams no conjunto de revisão.
+A opção **arquivos de texto** permite salvar versões de texto sem formatação do conteúdo. Para obter mais informações sobre como obter uma exibição de texto sem formatação de conversas do teams no conjunto de revisão, consulte [modo de exibição Resumo, modo de exibição de texto e modo de exibição de anotação](#summary-view-text-view-and-annotate-view) acima.
 
 Se você aplicou qualquer redação ao conteúdo conforme descrito na seção modo de exibição [Resumo, modo de exibição de texto e modo de anotação](#summary-view-text-view-and-annotate-view) acima, poderá selecionar a opção substituir itens **nativos reconvertidos por PDFs convertidos** para substituir os arquivos nativos por cópias convertidas em PDF.
 
 Você pode optar por exportar para um contêiner de armazenamento de blob do Azure fornecido pela Microsoft ou pode fornecer seu próprio contêiner de armazenamento de blob do Azure.
 
-Quando estiver pronto para começar o processo de exportação, clique no botão **Exportar** . Após a exportação ser concluída, consulte [baixar trabalhos de exportação](https://docs.microsoft.com/microsoft-365/compliance/download-export-jobs) para obter mais informações sobre como você pode acessar o contêiner de armazenamento do blob do Azure e baixar o conteúdo exportado.
+Quando estiver pronto para começar o processo de exportação, clique no botão **Exportar** . Consulte [baixar trabalhos de exportação](https://docs.microsoft.com/microsoft-365/compliance/download-export-jobs) para obter mais informações sobre como você pode acessar o contêiner de armazenamento do Azure Blob e baixar o conteúdo exportado após a conclusão da exportação.
 
 > [!NOTE]
 > A exportação pode levar um período de tempo prolongado. Para acompanhar o status do processo de exportação, saia da guia **revisar conjuntos** e clique na guia **exportações** .

@@ -20,18 +20,18 @@ ms.custom:
 - ms.teamsadmincenter.messagingpolicies.overview
 - seo-marvel-apr2020
 description: Neste artigo, você aprenderá sobre as políticas de mensagens e como elas podem ser usadas para controlar as mensagens de chat no Microsoft Teams.
-ms.openlocfilehash: 75ea34b23f80538fad2cbf2b1e456ad6ab98ea2c
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 0a548eee32fc196157b6a363dd0427b187e52112
+ms.sourcegitcommit: 34f407a6a40317056005e3bf38ce58f792c04810
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583288"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "46814177"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Gerenciar políticas de mensagens no Teams
 
 <!--- Add zone marker here--->
 
-As políticas de mensagens são usadas para controlar quais recursos de mensagens de chat e canal estão disponíveis para usuários no Microsoft Teams. Você pode usar a política global (padrão para toda a organização) criada automaticamente ou criar e atribuir políticas de mensagens personalizadas.
+As políticas de mensagens são usadas para controlar quais recursos de chat e mensagens de canal estão disponíveis para [usuários (proprietários e membros)](assign-roles-permissions.md) no Microsoft Teams. Você pode usar a política global (padrão para toda a organização) criada automaticamente ou criar e atribuir políticas de mensagens personalizadas.
 
 Os usuários da sua organização terão automaticamente a política global, a menos que você crie e atribua uma política personalizada. Você pode editar as configurações na política global ou criar e atribuir uma ou mais políticas personalizadas para ativar ou desativar os recursos desejados.
 
@@ -53,7 +53,7 @@ Em seguida, atribua a política aos usuários.
 
 ## <a name="edit-a-messaging-policy"></a>Editar uma política de mensagens
 
-Você pode editar a política global em qualquer política personalizada que criar. 
+Você pode editar a política global e qualquer política personalizada que criar. 
 
 1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para **políticas de mensagens**.
 2. Selecione a política clicando à esquerda do nome da política e, em seguida, clique em **Editar**.
@@ -112,3 +112,4 @@ Aqui estão as configurações de política de mensagens que você pode configur
 ### <a name="related-topics"></a>Tópicos relacionados
 
 - [Atribuir políticas a seus usuários no Teams](assign-policies.md)
+- [Atribuir proprietários de equipe e membros no Microsoft Teams](assign-roles-permissions.md)

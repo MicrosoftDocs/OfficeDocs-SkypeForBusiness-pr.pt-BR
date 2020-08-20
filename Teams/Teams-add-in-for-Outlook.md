@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0e9111f54bc3f94c028c8ddc8549e1202326df4f
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: dc543096965a3abc51964c5006795cf385a4cb55
+ms.sourcegitcommit: 34f407a6a40317056005e3bf38ce58f792c04810
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085237"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "46814097"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Usar o suplemento de Reunião do Teams no Outlook
 =======================================
@@ -120,6 +120,7 @@ Você só pode aplicar essa política a usuários que estão no modo de ilhas e 
 
 O suplemento de Reunião do Teams ainda está desenvolvendo funcionalidades, então esteja ciente do seguinte:
 
+- O suplemento de reunião do teams requer uma caixa de correio do Exchange para o usuário principal agendando a reunião. Certifique-se de que você tenha pelo menos uma caixa de correio do Exchange configurada no seu perfil do Outlook e use-a para agendar reuniões do teams com o suplemento. Para os requisitos do Exchange, confira [como o Exchange e as equipes interagem](https://docs.microsoft.com/microsoftteams/exchange-teams-interact).
 - O suplemento destina-se a reuniões agendadas com participantes específicos, não a reuniões em um canal. As reuniões do canal devem ser agendadas dentro do Teams.
 - O suplemento não funcionará se um proxy de autenticação estiver no caminho de rede do computador do usuário e dos serviços do teams.
 - Os usuários não podem agendar eventos ao vivo no Outlook. Vá para o Teams para agendar eventos ao vivo. Para obter mais informações, consulte [O que são eventos ao vivo do Microsoft Teams?](teams-live-events/what-are-teams-live-events.md).

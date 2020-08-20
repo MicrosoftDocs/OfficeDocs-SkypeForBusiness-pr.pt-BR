@@ -9,7 +9,7 @@ audience: admin
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
-ms.reviewer: ritikag
+ms.reviewer: vaibhava
 search.appverid: MET150
 f1keywords:
 - ms.teamsadmincenter.manageapps.overview
@@ -17,17 +17,17 @@ description: Saiba como gerenciar seus aplicativos do teams na página Gerenciar
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: ecc03ff6a6baf1333028b949b590f3018d66e393
-ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
+ms.openlocfilehash: 23ff7cc90d30dc931b0677ce5ec5aa8db98981fb
+ms.sourcegitcommit: e0e089f0ab217d920e128377af653f7dbfdedacf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46552309"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46818180"
 ---
 <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>Gerenciar seus aplicativos no centro de administração do Microsoft Teams
 ======================================================
 
-Como administrador, a página Gerenciar aplicativos no centro de administração do Microsoft Teams é onde você vê e gerencia todos os aplicativos do teams para sua organização. Aqui, você pode ver o status e as propriedades de nível de organização de aplicativos, aprovar ou carregar novos aplicativos personalizados para a loja de aplicativos da sua organização, bloquear ou permitir aplicativos no nível da organização e gerenciar as configurações de aplicativo de toda a organização.
+Como administrador, a página Gerenciar aplicativos no centro de administração do Microsoft Teams é onde você vê e gerencia todos os aplicativos do teams para sua organização. Aqui, você pode ver o status e as propriedades de nível de organização de aplicativos, aprovar ou carregar novos aplicativos personalizados para a loja de aplicativos da sua organização, bloquear ou permitir aplicativos no nível da organização, comprar serviços para aplicativos de terceiros e gerenciar as configurações de aplicativo de toda a organização.
 
 A página Gerenciar aplicativos fornece um modo de exibição para todos os aplicativos disponíveis, fornecendo a você as informações de que você precisa para decidir quais aplicativos permitir ou bloquear em sua organização. Em seguida, você pode usar [políticas de permissão do aplicativo](teams-app-permission-policies.md), políticas de configuração do [aplicativo](teams-app-setup-policies.md)e [políticas e configurações personalizadas do aplicativo](teams-custom-app-policies-and-settings.md) para configurar a experiência do aplicativo para usuários específicos em sua organização.
 
@@ -47,7 +47,6 @@ Você pode exibir todos os aplicativos, incluindo as informações a seguir sobr
   ![Captura de tela da página de detalhes de aplicativos de um aplicativo](media/manage-apps-app-details.png)
   
 - **Certificação**: se o aplicativo tiver passado pela certificação, você verá o **Microsoft 365 Certified** ou **atestado de fornecedor**. Clique no link para exibir os detalhes de certificação do aplicativo. Se você vir " **--** ", não temos informações de certificação para o aplicativo. Para saber mais sobre aplicativos certificados no Teams, leia [o programa de certificação de aplicativos Microsoft 365](https://docs.microsoft.com/teams-app-certification/all-apps).  
-
 - **Fornecedor**: nome do fornecedor.
 - **Status de publicação**: status de publicação de aplicativos personalizados.
 - **Status**: status do aplicativo no nível da organização, que pode ser um dos seguintes:
@@ -58,12 +57,13 @@ Você pode exibir todos os aplicativos, incluindo as informações a seguir sobr
     
     - **Bloqueou toda a organização**: o aplicativo está bloqueado em configurações de aplicativo de toda a organização.
     
-      É importante saber que essa coluna representa o status permitido e bloqueado dos aplicativos que estavam anteriormente no painel configurações de **toda a organização** . Agora, você vê, bloqueia e permite aplicativos na organização toda a partir da página Gerenciar aplicativos.
-
+      É importante saber que essa coluna representa o status permitido e bloqueado dos aplicativos que estavam anteriormente no painel configurações de **toda a organização** . Agora, você vê, bloqueia e permite aplicativos na organização toda a partir da página **gerenciar aplicativos** . 
+- **Licenças**: indica se um aplicativo oferece uma assinatura SaaS (software como serviço) para compra. Esta coluna se aplica somente a aplicativos de terceiros. Cada aplicativo de terceiros terá um dos seguintes valores:
+    - **Compre agora**: o aplicativo oferece uma assinatura SaaS e está disponível para compra.  
+    - **Comprado**: o aplicativo oferece uma assinatura SaaS e você comprou licenças para ela.
+    - **--**: O aplicativo não oferece uma assinatura SaaS.
 - **Aplicativo personalizado**: se o aplicativo é um aplicativo personalizado.
-
 - **Categorias**: categorias que se aplicam ao aplicativo.
-
 - **Versão**: versão do aplicativo.
 
 Para ver as informações desejadas na tabela, clique em **Editar coluna** no canto superior direito para adicionar ou remover colunas à tabela.
@@ -102,7 +102,11 @@ Para permitir ou bloquear um aplicativo, selecione-o e, em seguida, clique em **
 Quando você bloqueia ou permite um aplicativo na página Gerenciar aplicativos, esse aplicativo é bloqueado ou permitido para todos os usuários em sua organização.  Quando você bloqueia ou permite um aplicativo em uma política de permissão do aplicativo Teams, ele é bloqueado ou permitido para os usuários atribuídos a essa política. Para que um usuário possa instalar e interagir com qualquer aplicativo, você deve permitir o aplicativo no nível da organização na página Gerenciar aplicativos e na política de permissão do aplicativo atribuída ao usuário.
 
  > [!NOTE]
- > Para desinstalar um aplicativo, clique com o botão direito do mouse no aplicativo e, em seguida, clique em **desinstalar** ou use o menu **mais aplicativos** no lado esquerdo. 
+ > Para desinstalar um aplicativo, clique com o botão direito do mouse no aplicativo e, em seguida, clique em **desinstalar** ou use o menu **mais aplicativos** no lado esquerdo.
+
+## <a name="purchase-services-for-third-party-apps"></a>Comprar serviços para aplicativos de terceiros
+
+Você pode pesquisar e comprar licenças de serviços oferecidos por aplicativos de terceiros para os usuários de sua organização diretamente na página Gerenciar aplicativos. A coluna **licenças** na tabela indica se um aplicativo oferece uma assinatura SaaS paga. Clique em **comprar agora** para ver as informações de planos e preços e comprar licenças para seus usuários. Para saber mais, confira [serviços de compra do Microsoft Teams para aplicativos de terceiros no centro de administração do Microsoft Teams](purchase-third-party-apps.md).
 
 ## <a name="manage-org-wide-app-settings"></a>Gerenciar configurações de aplicativo de toda a organização
 

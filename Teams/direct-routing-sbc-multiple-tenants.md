@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Saiba como configurar um SBC (controlador de borda de sessão) para atender a vários locatários para parceiros da Microsoft e/ou operadoras PSTN.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d3c2f1fccf0a00e5ce54bad98d4ae94f96534dc6
-ms.sourcegitcommit: b14ad0a6c454b20f34fccbd1d312de24379faef0
+ms.openlocfilehash: 91ca12f3e0d9720800ad9b0bcf946df8d31b3e86
+ms.sourcegitcommit: 34f407a6a40317056005e3bf38ce58f792c04810
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "46572356"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "46814237"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurar um controlador de borda da sessão para vários locatários
 
@@ -60,7 +60,7 @@ Para ver as etapas detalhadas sobre como implantar e configurar o SBCs para um c
 
 - **AudioCodes:** [observações sobre a configuração de roteamento direto](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams), a configuração do cenário de Hospedagem de SBC descrito em "conectando AudioCodes SBC para o Microsoft Teams Direct Routing Routing Model Configuration observação". 
 - **Oracle:** [notas de configuração de roteamento direto](https://www.oracle.com/technetwork/indexes/documentation/acme-packet-2228107.html), a configuração do cenário de Hospedagem de SBC é descrita na seção "Microsoft". 
-- **Comunicações da faixa** de opções:  Consulte o guia de [configuração do Microsoft Teams SBC da faixa de opções do Microsoft Teams](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe) para obter a documentação sobre como configurar a faixa de opções da faixa de opções SBCS e para esta página de [práticas recomendadas de roteamento direto do Microsoft Teams](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Direct+Routing+Carrier)
+- **Comunicações da faixa**  de opções:  Consulte o guia de [configuração do Microsoft Teams SBC da faixa de opções do Microsoft Teams](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe) para obter a documentação sobre como configurar a faixa de opções da faixa de opções SBCS e para esta página de [práticas recomendadas de roteamento direto do Microsoft Teams](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Direct+Routing+Carrier)
 - **SMS (anynode):**  Registre-se na [página da comunidade de SMS](https://community.te-systems.de/) para obter documentação e exemplos sobre como configurar o SBC anynode para vários locatários.
 - **Metaswitch:**  Registre-se na [página da Comunidade metaswitch](https://sso.metaswitch.com/UI/Login) para obter a documentação sobre como habilitar o SBC Perimeta para vários locatários.
 
@@ -81,7 +81,7 @@ Subdomínios **devem** coincidir com o nome FQDN do tronco que será configurado
 
 Quando chega uma chamada na interface de roteamento direto do Microsoft 365 ou do Office 365, a interface usa o cabeçalho do contato para localizar o locatário onde o usuário deve ser pesquisado. O roteamento direto não usa a pesquisa de número de telefone no convite, pois alguns clientes podem ter números não-participantes que podem sobrepor-se a vários locatários. Portanto, o nome FQDN no cabeçalho do contato é necessário para identificar o locatário exato para pesquisar o usuário pelo número de telefone.
 
-*Consulte [obter ajuda com os domínios do Office 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) para obter mais informações sobre como criar nomes de domínio no Microsoft 365 ou em organizações do Office 365.*
+*Consulte  [obter ajuda com os domínios do Office 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) para obter mais informações sobre como criar nomes de domínio no Microsoft 365 ou em organizações do Office 365.*
 
 O diagrama a seguir resume os requisitos para o domínio base, subdomínios e cabeçalho de contato.
 
@@ -137,7 +137,7 @@ Para obter mais informações sobre funções de administrador e como atribuir u
 
 ### <a name="activate-the-domain-name"></a>Ativar o nome de domínio
 
-Depois de registrar um nome de domínio, você precisa ativá-lo adicionando pelo menos um usuário licenciado E1, E3 ou E5 e atribuindo um endereço SIP à parte FQDN do endereço SIP correspondente ao domínio base criado. 
+Depois de registrar um nome de domínio, você precisa ativá-lo adicionando pelo menos um usuário licenciado E1, E3 ou E5 e atribuindo um endereço SIP à parte FQDN do endereço SIP correspondente ao domínio base criado. A licença pode ser revogada após a ativação do domínio (pode levar até 24 horas).
 
 *Consulte [obter ajuda com os domínios do microsoft 365 ou do office 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) para obter mais informações sobre como adicionar usuários nas organizações do Microsoft 365 ou do Office 365.*
 
@@ -199,7 +199,7 @@ Para obter mais informações sobre funções de administrador e como atribuir u
 
 ### <a name="activate-the-subdomain-name"></a>Ativar o nome do subdomínio
 
-Depois de registrar um nome de domínio, você precisa ativá-lo adicionando pelo menos um usuário e atribuir um endereço SIP à parte FQDN do endereço SIP correspondente ao subdomínio criado no locatário do cliente.
+Depois de registrar um nome de domínio, você precisa ativá-lo adicionando pelo menos um usuário e atribuir um endereço SIP à parte FQDN do endereço SIP correspondente ao subdomínio criado no locatário do cliente. A licença pode ser revogada do usuário após a ativação do subdomínio (pode levar até 24 horas).
 
 *Consulte [obter ajuda com os domínios do microsoft 365 ou do office 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) para obter mais informações sobre como adicionar usuários nas organizações do Microsoft 365 ou do Office 365.*
 
