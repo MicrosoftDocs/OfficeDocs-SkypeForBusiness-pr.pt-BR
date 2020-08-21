@@ -112,7 +112,6 @@
 # Aplicativos, bots e conectores
 
 ## [Visão geral](deploy-apps-microsoft-teams-landing-page.md)
-## [Permissões e considerações dos aplicativos](app-permissions.md)
 ## [Gerenciar aplicativos para o Teams](manage-apps.md)
 ## [Configurações de administração para aplicativos no Teams](admin-settings.md)
 ## [Usar guias internas e personalizadas](built-in-custom-tabs.md)
@@ -121,6 +120,8 @@
 ## [Publicar um aplicativo personalizado enviado por meio da API de Envio de Aplicativos do Teams](submit-approve-custom-apps.md)
 ## [Publicar um aplicativo personalizado carregando um pacote de aplicativos](upload-custom-apps.md)
 ## [Certificação de aplicativo](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+## [Permissões e considerações dos aplicativos](app-permissions.md)
+## [Serviços de compra de aplicativos de terceiros para o Teams](purchase-third-party-apps.md)
 ## [Modelos de aplicativos para o Teams](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Gerenciar o aplicativo Listas para sua organização no Teams](manage-lists-app.md)
 ## [Gerenciar o aplicativo Tarefas para a sua organização](manage-tasks-app.md)
