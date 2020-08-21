@@ -13,12 +13,12 @@ ms.collection:
 description: Saiba como usar os controles do PowerShell para gerenciar o Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8f42548439c0915eea8405b3c466f7696767f80c
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: 966dd62a9917c616c53fc57e13ca468e64acf218
+ms.sourcegitcommit: bb5229c9f7999358dcf0ba185ecfd7c881627a38
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085877"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46824932"
 ---
 # <a name="install-microsoft-teams-powershell"></a>Instalar o Microsoft Teams PowerShell
 
@@ -73,8 +73,11 @@ Install-Module PowerShellGet -Force -AllowClobber
 
 Para instalar a visualização pública do teams PowerShell, execute o comando do PowerShell abaixo.
 
+> [!NOTE]
+> Você pode encontrar a versão de visualização mais recente na [Galeria do PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams) ou no PowerShell executando "Find-Module MicrosoftTeams-AllowPrerelease"
+
 ```powershell
-Install-Module MicrosoftTeams -AllowPrerelease
+Install-Module MicrosoftTeams -AllowPrerelease -RequiredVersion "1.1.3-preview"
 ```
 
 ## <a name="install-the-skype-for-business-online-connector"></a>Instalar o conector do Skype for Business Online
@@ -99,13 +102,13 @@ Para começar a trabalhar com o Teams PowerShell, entre com suas credenciais do 
 > Se você estiver usando a versão mais recente do [PowerShell Public Preview do PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/), não será necessário instalar o conector do Skype for Business online.
 
 ```powershell
-$credential = Get-Credentials
+$credential = Get-Credential
 
 #Connect to Microsoft Teams
-Connect-MicrosoftTeams -Credentials $credential
+Connect-MicrosoftTeams -Credential $credential
 
 #Connection to Skype for Business Online and import into Ps session
-$session = New-CsOnlineSession -Credentials $credential
+$session = New-CsOnlineSession -Credential $credential
 Import-PsSession $session
 ```
 

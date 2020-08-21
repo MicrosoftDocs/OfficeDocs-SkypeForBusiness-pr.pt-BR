@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: A Microsoft está desativando o serviço de Unificação de mensagens do Exchange Online (ExchUMO) em 28 de fevereiro de 2020. Este artigo resume o que os clientes afetados devem saber e fazer para planejar sua continuidade de negócios.
-ms.openlocfilehash: 157c71b8cbc4aae765baaf371a6f5df64f0cf82c
-ms.sourcegitcommit: 27fb021e46d775652a99d862b19d94f3fc020594
+ms.openlocfilehash: 587a6f0e17729181d7e0ba2389ed32faee07ff71
+ms.sourcegitcommit: bb5229c9f7999358dcf0ba185ecfd7c881627a38
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "46778033"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46824892"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Suporte à migração da Unificação de Mensagens do Exchange Online
 
@@ -165,17 +165,18 @@ Os administradores de organização do Microsoft 365 e do Office 365 precisam re
 | VM | Recursos do chamador  | Detecção de silêncio   |  | N | S    |
 | VM | Locatário-recursos de administração | Caixa postal protegida no nível do servidor    | Locatário-o administrador pode configurar uma regra de nível de serviço para marcar a caixa postal de entrada como protegida | S | S    |
 | VM | Locatário-recursos de administração | Alterar o limite de tempo de duração da gravação  |     | S | S    |
-| VM | Locatário-recursos de administração | Alterar o tempo limite de detecção de silêncio    |  | N/A    | S    |
+| VM | Locatário-recursos de administração | Alterar o tempo limite de detecção de silêncio    |  | N/D    | S    |
 | VM | Locatário-recursos de administração | Alterar o número de falhas de entrada | CVM: embutido em código para 3 | N | S    |
 | VM | Locatário-recursos de administração | Alterar o idioma padrão |  | S | S    |
 | VM | Locatário-recursos de administração | Desabilitar/habilitar transcrição |  | S | S    |
 | VM | Locatário-recursos de administração | Desabilitar/habilitar notificação de chamada perdida |  | N | S    |
 | VM | Locatário-recursos de administração | Ajude a Microsoft a melhorar a visualização da caixa postal    |  | S | S    |
-| VM | Locatário-recursos de administração | Personalizar mensagem de texto para usuários habilitados|  | N/A    | S    |
+| VM | Locatário-recursos de administração | Personalizar mensagem de texto para usuários habilitados|  | N/D    | S    |
 | VM | Locatário-recursos de administração | Mascaramento de profanação de transcrição|  | S | N    |
 | VM | Locatário-recursos de administração | Política de caixa postal    |   | S | S    |
 | VM | Locatário-recursos de administração | Administração do portal da Web   |  | CY19   | S    |
 | VM | Locatário-recursos de administração | PowerShell   |  | S | S    |
+| UM | Recursos do usuário | Indicador de espera de mensagem (MWI) em telefones certificados pelo Skype for Business   |Podem ser fornecidos pelo parceiro de telefone  | Não | Sim    |
 | AA | Recursos de serviço | Suporte AA PBX de terceiros    |  | N | S    |
 | AA | Recursos de serviço | Suporte ao Skype for Business Server   |  | S | S    |
 | AA | Recursos de serviço | Suporte ao Microsoft Teams|  | S | N    |
