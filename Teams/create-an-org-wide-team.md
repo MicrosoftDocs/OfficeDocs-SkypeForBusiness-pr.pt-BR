@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 222daeb76d24186078ac6a49581dbfb05f1711bd
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
-ms.translationtype: HT
+ms.openlocfilehash: 7c1ad054fb12ade67a15d2e8c80c1a68178c1dc9
+ms.sourcegitcommit: cd16ff6007e0a798493e2fa469c6681993380420
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45086218"
+ms.lasthandoff: 08/23/2020
+ms.locfileid: "46860812"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>Criar uma equipe englobando toda a organização no Microsoft Teams
 
@@ -85,6 +85,10 @@ Se essa opção não for viável, você pode usar o PowerShell para criar uma eq
 ### <a name="is-there-a-way-to-convert-an-existing-team-to-an-org-wide-team"></a>Existe uma maneira de converter uma equipe existente em uma equipe de toda a organização?
 
 Os administradores globais podem converter uma equipe existente em uma equipe de toda a organização editando-a no cliente do Teams. Vá para o nome da equipe, clique em **Mais opções** > **Editar equipe**.
+
+### <a name="can-i-create-an-org-wide-team-using-a-team-template"></a>Posso criar uma equipe de toda a organização usando um modelo de equipe?
+
+Os modelos de equipe não podem ser usados para criar uma equipe de toda a organização. O trabalho para esse recurso está atualmente em andamento. 
 
 ## <a name="see-also"></a>Confira também
 

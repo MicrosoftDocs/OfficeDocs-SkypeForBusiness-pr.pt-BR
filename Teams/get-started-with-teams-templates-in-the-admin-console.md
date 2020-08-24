@@ -19,12 +19,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 8cb72ba0fce238a89b1d087baef16a30cb2d55d3
-ms.sourcegitcommit: 3814db70796888f15ea47d7810e1621a92992870
+ms.openlocfilehash: 5a43a34ac130f4b5b168d46fa2a69476c42abd7b
+ms.sourcegitcommit: cd16ff6007e0a798493e2fa469c6681993380420
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "46634727"
+ms.lasthandoff: 08/23/2020
+ms.locfileid: "46860792"
 ---
 # <a name="get-started-with-teams-templates-in-the-teams-admin-console"></a>Introdução aos modelos do teams no console de administração do teams
 
@@ -71,7 +71,6 @@ Depois que um tipo de modelo base é definido, você pode estender ou substituir
 > [!NOTE]
 > Os modelos de base predefinidos fornecidos no Microsoft Teams podem ser duplicados, mas não podem ser editados.
 
-
 | Tipo de modelo base | Propriedades que vêm com este modelo base |
 | ------------------ |----------------------------------------------------- |
 | Adotar o Office 365 |  Canais <ul><li>Geral</li> <li>Comunicados</li> <li>Canto dos Campeões</li> <li>Formulários de equipe</li></ul> Aplicativo <ul><li>Wiki</li>  <li>Calendário</li> |
@@ -88,6 +87,22 @@ Depois que um tipo de modelo base é definido, você pode estender ou substituir
 |Qualidade e segurança |Canais <ul><li>Geral<li>Comunicados</li><li>Linha 1</li><li>Linha 2</li><li>Linha 3</li><li>Segurança</li><li>Treinamento</li><li>Manutenção</li><li>Coisas divertidas</li></ul> Aplicativo <ul><li>Wiki</li></ul>|
 |Colaboração do gerente de varejo |Canais <ul><li>Geral<li>Operações</li><li>Aprendizagem</li></ul> Aplicativo <ul><li>Wiki</li></ul>|
 |||
+
+## <a name="template-size-limits"></a>Limites de tamanho de modelo
+
+Os modelos estão limitados a um número específico de canais, guias e aplicativos.
+
+ > [!Note]
+ > Você pode adicionar mais canais, guias e aplicativos à equipe após ele ter sido criado a partir de um modelo.
+
+|Recurso | Limit|
+|-|-|
+|Canais por modelo | 15 |
+|Guias por canal em um modelo | cedido |
+|Aplicativos por modelo | 50|
+|||
+
+Consulte [limites e especificações do teams](limits-specifications-teams.md) para obter mais informações.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

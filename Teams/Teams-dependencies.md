@@ -18,12 +18,12 @@ f1.keywords:
 description: Gerenciar recursos e funcionalidades de acesso de convidados no Microsoft Teams por meio de quatro níveis diferentes de autorização.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f9ecf6893539204909bb6f583bbba982e8ee8d19
-ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
+ms.openlocfilehash: c6bf763caf0b44490ee578f0bf130a1d4db56a3b
+ms.sourcegitcommit: 294b32fb06c56a6eefd1cc44cc5bc93555b6503b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656152"
+ms.lasthandoff: 08/21/2020
+ms.locfileid: "46845563"
 ---
 <a name="authorize-guest-access-in-microsoft-teams"></a>Autorizar o acesso para convidado no Microsoft Teams
 ===========================================
@@ -60,7 +60,13 @@ As configurações de convites são aplicáveis no nível do locatário e contro
 
 O Azure AD inclui as seguintes configurações para configurar usuários externos:
 
-- **As permissões de usuário convidado são limitadas**: **Sim** significa que os convidados não têm permissão para determinadas tarefas de diretório, como enumerar usuários, grupos ou outros recursos de diretório. Além disso, os convidados não podem ser atribuídos a funções administrativas em seu diretório. **Não** significa que os convidados têm o mesmo acesso aos dados de diretório que os usuários comuns têm em seu diretório.
+- **Restrições de acesso para usuários convidados**: esta política define permissões aos convidados no seu diretório. Há três opções de políticas.
+
+    - Os **Usuários convidados têm o mesmo acesso que os membros (mais inclusivos)** às configuração, o que significa que os convidados têm o mesmo acesso aos dados do diretório como usuários regulares do seu diretório.
+    - Os **Usuários convidados têm acesso limitado a propriedades e associação de objetos do diretório** das configurações, o que significa que os convidados não têm permissões para determinadas tarefas de diretório, como enumerar usuários, grupos ou outros recursos de diretório usando o Microsoft Graph.
+    - O **Acesso de usuário convidado é restrito a propriedades e associações de seus próprios objetos de diretório (mais restritivos)** da configuração, o que significa que os convidados só podem acessar seus próprios objetos de diretório.
+    
+  Para saber mais, confira [Quais são as permissões de usuário padrão no Azure Active Directory?](https://go.microsoft.com/fwlink/?linkid=2135493)
 - **Os administradores e usuários na função de emissor de convite para convidado podem enviar convites**: **Sim** significa que os administradores e usuários na função de emissor de convite para convidado poderão convidar pessoas para o locatário. **Não** significa que os administradores e usuários não podem convidar pessoas para o locatário.
 - **Os membros podem convidar**: para permitir que os membros não administradores do seu diretório convidem pessoas, defina essa política como **Sim** (recomendado). Se preferir que somente os administradores sejam capazes de adicionar convidados, você pode definir essa política como **Não**. Lembre-se de que definir **Não** limitará a experiência de convidado para proprietários de equipes não administrativos; eles só poderão adicionar convidados ao Teams que já foram adicionados ao AAD pelo administrador.
 - **Convidados podem convidar**: **Sim** significa que os convidados em seu diretório podem enviar convites a outros convidados a fim de que colaborem em recursos protegidos pelo seu Azure AD, como sites do SharePoint ou recursos do Azure. **Não** significa que os convidados não podem enviar convites a outros convidados a fim de que colaborem com a sua organização.
@@ -76,7 +82,6 @@ Não é necessário adicionar a conta de convidado do usuário manualmente ao B2
 
 ### <a name="licensing-for-guest-access"></a>Licenciamento para acesso de convidado
 O licenciamento de acesso de convidado faz parte do licenciamento do Azure AD. O acesso de convidados está incluído em todas as assinaturas do Microsoft 365 Business Standard e do Office 365 Enterprise. Para obter mais informações sobre licenciamento, confira o [guia de licenciamento de colaboração do Azure Active Directory B2B](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance).
-
 
 > [!NOTE]
 > Os usuários em sua organização que possuem apenas planos independentes de assinatura do Office 365, como o Plano 2 do Exchange Online, não podem receber convites para acessar a sua organização como convidados, pois o Teams considera esses usuários como pertencentes à mesma organização. Para esses usuários usarem o Teams, eles devem receber uma assinatura do Microsoft 365 Business Standard, do Office 365 Enterprise ou do Office 365 Education. 
