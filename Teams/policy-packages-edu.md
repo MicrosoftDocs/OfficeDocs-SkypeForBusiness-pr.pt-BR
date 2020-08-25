@@ -21,12 +21,12 @@ ms.custom: ms.teamsadmincenter.policypackages.overview
 localization_priority: Priority
 search.appverid: MET150
 description: Saiba mais sobre políticas em uma configuração EDU ou educacional e como usar e gerenciar pacotes de políticas no Microsoft Teams.
-ms.openlocfilehash: b395005dd8e997d296c56b055fff29f2c1636180
-ms.sourcegitcommit: dc3e8ae454c42981f037f4de2e48005428b6078e
+ms.openlocfilehash: cb5b2620ae014a65abd912b401af1587aceff0e6
+ms.sourcegitcommit: 32023931b607542cffadef74383e3ecd47db4ab6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "46533898"
+ms.lasthandoff: 08/25/2020
+ms.locfileid: "46868700"
 ---
 # <a name="teams-policies-and-policy-packages-for-education"></a>Políticas do Teams e Pacotes de Políticas para Educação
 
@@ -74,7 +74,9 @@ Antes de atribuir políticas a usuários, você precisa primeiro adicionar e cri
 Por padrão, cada novo usuário (aluno ou educador) receberá a definição de política Global (padrão em toda a organização) para cada área de recursos. Recomendamos executar estas etapas:
 
 1. Crie uma definição de política personalizada para cada área de recursos do Teams que possa ser atribuída aos educadores (sem isso, quaisquer alterações feitas na política Global restringirão os educadores até que eles tenham sua própria política).
+
 1. Atribua aos educadores essa nova definição de política.
+
 1. Atualize a definição de política Global (padrão em toda a organização) e atribua-a aos alunos.
 
 Para criar ou editar definições de política, vá para a área de recursos de política na qual deseja trabalhar (por exemplo, políticas de Mensagens). Selecione **Adicionar** se desejar criar uma nova definição de política personalizada (o que você fará para a definição de política personalizada criada para educadores). Caso contrário, para alterar uma definição de política existente, selecione **Editar** (que será o que você fará se optar por atualizar a política Global para os alunos).
@@ -155,26 +157,52 @@ Cada política individual recebe o nome do pacote de políticas, para que você 
 Para garantir que os alunos não possam agendar uma reunião para comunicar-se sem supervisão, em políticas de reunião, mantenha os recursos de criação de reunião **Desativadas** por meio dessas Configurações gerais:
 
 - **Permitir Reunir agora em canais**: Desativado
+
 - **Permitir o suplemento do Outlook**: Desativado
+
 - **Permitir o agendamento de reunião do canal**: Desativado
+
 - **Permitir o agendamento de reuniões privadas**: Desativado
 
-![Ensino do aluno na página de aprendizado remoto, com a seção Geral exibida, todas as opções aqui estão desativadas.](media/edu-policy-list-a.png)
+  ![Ensino do aluno na página de aprendizado remoto, com a seção Geral exibida, todas as opções aqui estão desativadas.](media/edu-policy-list-a.png)
 
 - E na mesma página, na seção Participantes e Convidados na reunião:
+
   - **Permitir Reunir agora em reuniões privadas**: Desativado
   - **Permitir chat em reuniões**: Desabilitado
 
-![Seção de participantes e convidados, com a opção Permitir Reunir agora em reuniões privadas definida como Desativado.](media/edu-participants-and-guests.png)
+  ![Seção de participantes e convidados, com a opção Permitir Reunir agora em reuniões privadas definida como Desativado.](media/edu-participants-and-guests.png)
 
 Desativar as opções **Permitir Reunir agora nos canais**, **Permitir agendamento de reunião de canal**, **Permitir agendamento de reuniões privadas** e **Reunir agora em reuniões privadas** para os estudantes, impede tanto a eles de agendarem uma reunião, como também ao organizador. Elas também fornecem as seguintes medidas de segurança para a educação:
 
 - Se os alunos tentarem participar da reunião antes do educador, eles não poderão participar da reunião na versão mais recente do aplicativo do Teams.
+
 - Embora a criação de reuniões se aplique a todos os usuários e licenças, as medidas de segurança de bloqueio de participação na reunião descritas acima, apenas se aplicam a clientes educacionais no Teams com base no tipo de licença do usuário.
+
+Veja uma tabela que descreve a lógica de cada política de criação de reunião:
+
+| Política de criação de reunião | Criar uma reunião | Iniciar uma reunião não assistida | Ignorar o lobby ao ingressar | Terminar a reunião |
+| --- | --- | --- | --- | --- |
+| **Ativado (por exemplo, educador)** | Sim | Sim | Determinado por [opções de reunião](https://go.microsoft.com/fwlink/?linkid=2093366) | Sim, como organizador
+| **Desativado (por exemplo, aluno)** | Não | Não\*\* | Determinado por [opções de reunião](https://go.microsoft.com/fwlink/?linkid=2093366) | Não
+
+> [!NOTE]
+> \*\* Isso se aplica somente aos usuários licenciados EDU e se aplicam a reuniões, reuniões com canal, reuniões instantâneas e reuniões de canal instantâneos.
 
 Quando você altera a política **Permitir chat em reuniões** para desabilitar e impedir que os alunos agendem as reuniões acima, e mantém essa política ativada para educadores (para as reuniões que não estão agendadas em um canal ou se reunir agora em um canal), os alunos não poderão conversar antes do educador ingressar na reunião, nem após a reunião. Eles ainda poderão ver o histórico do chat antes, durante e após a reunião. Como exemplo, eles poderão ver as mensagens do professor ou o link de gravação da reunião, caso a reunião tenha sido gravada.
 
 Se alunos e educadores estiverem com a política **Permitir chat em reuniões** desativada, ninguém poderá conversar na janela de chat da reunião. A medida de segurança de restrição nos chats de reunião descrita acima, apenas se aplica a clientes educacionais em equipes com base no tipo de licença dos usuários.
+
+Aqui está uma tabela para descrever a lógica de permitir o chat em reuniões:
+
+| Política de “Permitir chat em reuniões” | Ver o histórico de chat a qualquer momento | Postar mensagens durante a reunião | Postar mensagens antes ou depois da reunião |
+| --- | --- | --- | --- | 
+| **Ativado para todos** | Sim | Sim | Sim |
+| **Desativado para todos** | Não disponível | N/D | Não disponível |
+| **Ativado para educadores e Desativado para estudantes** | Educador: Sim<br>Aluno Sim | Educador: Sim<br>Aluno Sim | Educador: Sim<br>Aluno Não\*\* | 
+
+> [!NOTE]
+> \*\* Isso se aplica somente aos usuários licenciados EDU e se aplicam a reuniões e reuniões instantâneas. Isso não se aplica a reuniões de canal, nem reuniões de canal instantâneos.
 
 #### <a name="control-whether-or-not-students-can-share-their-videos-during-calls-and-meetings"></a>Controle se os alunos podem ou não compartilhar vídeos durante chamadas e reuniões
 
@@ -209,17 +237,20 @@ Para garantir que os alunos não possam fazer chamadas privadas com outros aluno
 #### <a name="turn-off-the-ability-to-delete-or-edit-sent-messages"></a>Desativar o recurso de excluir ou editar mensagens enviadas
 
 - Para alunos: Para garantir que as mensagens enviadas pelos alunos não sejam excluídas ou alteradas, os alunos devem ter essas configurações **Desativadas**:
+
   - **Excluir mensagens enviadas**
   - **Editar mensagens enviadas**
+  
 - Para educadores: Para garantir que os educadores possam moderar ou excluir mensagens inadequadas enviadas pelos alunos, os educadores devem ter essas configurações **Ativadas**:
+
   - **Os proprietários podem excluir mensagens enviadas** (Essa configuração permite que os educadores excluam mensagens inapropriadas dos alunos)
   - **Excluir mensagens enviadas**
   - **Editar mensagens enviadas**
 
-![Aluno do Education na página de aprendizado remoto, configurações para mensagens enviadas para alunos e educadores.](media/edu-delete-edit-sent.png)
+  ![Aluno do Education na página de aprendizado remoto, configurações para mensagens enviadas para alunos e educadores.](media/edu-delete-edit-sent.png)
 
 > [!NOTE]
-> Para obter mais informações sobre esse tópico, confira [Silenciar comentários dos alunos em uma equipe de classe.](https://support.office.com/article/Mute-student-comments-in-a-class-team-a378de16-ffc0-420c-b08d-e17ec08e7c17).
+> Para obter mais informações sobre esse tópico, confira [Silenciar comentários dos alunos em uma equipe de classe](https://support.office.com/article/Mute-student-comments-in-a-class-team-a378de16-ffc0-420c-b08d-e17ec08e7c17).
 
 #### <a name="control-whether-students-can-chat-privately"></a>Controlar se os alunos podem conversar em particular
 
@@ -254,7 +285,7 @@ Para garantir que os alunos não possam criar um canal privado como espaço pess
 ![Página de política do Teams com o painel de políticas Novas equipes sobreposto à direita da página, com Criar canais privados nesse painel definido como Desativado.](media/edu-private-channels.png)
 
 > [!IMPORTANT]
-> É provável que você também deseje garantir que os alunos não possam criar novas equipes no Microsoft Teams. Essa é, na verdade, uma configuração de grupos do M365 e você pode ler mais sobre isso [aqui](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-creation-of-groups).
+> É provável que você também deseje garantir que os alunos não possam criar novas equipes no Microsoft Teams. Essa é, na verdade, uma configuração de grupos de M365 e você pode ler mais sobre isso no [Gerenciar quem pode criar grupos Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-creation-of-groups).
 
 ### <a name="app-permission-policies"></a>Políticas de permissão do aplicativo
 
@@ -312,7 +343,9 @@ As opções de reunião permitem controlar se os participantes da reunião parti
 ![Convite de reunião para Ingressar no Microsoft Teams, as Opções de reunião estão no canto inferior direito abaixo do link do convite.](media/edu-join-meeting-options.png)
 
 - Controle quem pode entrar na reunião diretamente com a seleção **Quem pode ignorar o lobby**. Escolha **Pessoas em minha organização** para impedir que usuários externos tenham a opção de entrar e defina a opção **Sempre permitir que os chamadores ignorem o lobby** para **Desativada** para que os participantes esperem para serem admitidos na reunião em vez de ingressar imediatamente. Você também tem a opção de **Anunciar quando os chamadores ingressam ou saem**, e isso deve ser definido como **Ativada** para que você esteja sempre ciente de quem está na reunião.
+
 - Controlar quem ingressa na reunião como apresentador ou participante. Você pode selecionar **Apenas eu** para designar todos os outros participantes como participantes. Essa é a configuração mais segura para reuniões realizadas em sala de aula.
+
   - Se você espera ter mais de um apresentador em sua reunião, selecione **Pessoas específicas** e escolha os outros participantes que devem ingressar como apresentadores. Selecione **Todos** se desejar que todos os participantes ingressem na reunião como apresentadores.
 
 :::image type="content" source="media/edu-meeting-options.png" alt-text="Quem pode ignorar o menu suspenso do lobby com Pessoas em minha organização selecionada e Quem pode apresentar o menu suspenso com Somente eu selecionado.":::
@@ -339,11 +372,11 @@ Cada participante de uma reunião recebe uma função de apresentador ou partici
 
 - Para alterar a função de um participante, clique ou toque para **Mostrar participantes** nos controles de chamada. Clique com o botão direito do mouse no participante cuja função precisa ser alterada e selecione **Tornar um participante** ou **Tornar um apresentador**.
 
-![Barra de pessoas com uma opção de menu exibida, Tornar um participante é a quarta opção no menu.](media/edu-make-attendee-menu.png)
+  ![Barra de pessoas com uma opção de menu exibida, Tornar um participante é a quarta opção no menu.](media/edu-make-attendee-menu.png)
 
 - Para acessar rapidamente as opções de reunião e alterar as configurações da função da reunião para os participantes atuais e para qualquer pessoa que ingressar em sua reunião no futuro, clique ou toque em **Mais ações** nos controles de chamada e, em seguida, **Mostrar detalhes da reunião**. Você pode encontrar o link para as **Opções de reunião** ao lado do link de ingresso da reunião.
 
-:::image type="content" source="media/edu-meeting-details.png" alt-text="Janela da reunião com o painel Detalhes da reunião, no lado direito.":::
+  :::image type="content" source="media/edu-meeting-details.png" alt-text="Janela da reunião com o painel Detalhes da reunião, no lado direito.":::
 
 ### <a name="mute-student-comments"></a>Silenciar os comentários dos alunos
 
@@ -367,4 +400,4 @@ Você pode controlar quando os alunos podem postar e responder à equipe de clas
 
 ## <a name="further-reading"></a>Leituras adicionais
 
-Confira a seção [Como manter os alunos em segurança durante reuniões no Teams para ensino à distância](https://support.office.com/article/keeping-students-safe-while-using-meetings-in-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8) para obter mais informações sobre como proteger os alunos.
+Para obter mais informações sobre como proteger os alunos, confira o [Mantém os alunos seguros enquanto estiver usando reuniões no Teams para o aprendizagem de distância](https://support.office.com/article/keeping-students-safe-while-using-meetings-in-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8).
