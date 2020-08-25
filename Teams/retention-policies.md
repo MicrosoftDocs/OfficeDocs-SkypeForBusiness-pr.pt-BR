@@ -17,12 +17,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 01b042ee5eb604e59044022e3064f522039b4272
-ms.sourcegitcommit: 13b88679f3154c264dd2f01be785d6570276853e
+ms.openlocfilehash: ca9555604cffc99250c17e44aef5edbd1ebdaed7
+ms.sourcegitcommit: 0e96539e3efef21ae6150f541efaeca3f9149aea
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45247380"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "46864565"
 ---
 # <a name="retention-policies-in-microsoft-teams"></a>Políticas de retenção no Microsoft Teams
 
@@ -192,7 +192,7 @@ A seguir estão alguns problemas conhecidos em políticas de retenção do Teams
 
 - Em **Escolher usuários** na linha **Chats do Teams**, você poderá ver convidados e usuários que não são de caixa de correio. As políticas de retenção não devem ser definidas para convidados, e estamos trabalhando para removê-los da lista.
 
-- O Exchange Life Cycle Assistant (ELC) é executado diariamente, mas tem um SLA de 7 dias. Como resultado, é possível que, se você tiver uma política de retenção do Teams para excluir itens com mais de 60 dias, esses itens possam persistir por até 67 dias. Essa não é uma nova situação. Certamente, na maioria dos casos, não existem atrasos.
+- O assistente de ciclo de vida do Exchange (ELC) é executado diariamente, mas a latência é conhecida com até 7 dias, em alguns casos. Como resultado, é possível que, se você tiver uma política de retenção do Teams para excluir itens com mais de 60 dias, esses itens possam persistir por até 67 dias. Essa não é uma nova situação. Certamente, na maioria dos casos, não existem atrasos.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

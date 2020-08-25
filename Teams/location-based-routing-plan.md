@@ -16,12 +16,12 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3ab779c7b60ab702284c871ab6bd0ec08d051267
-ms.sourcegitcommit: b14ad0a6c454b20f34fccbd1d312de24379faef0
+ms.openlocfilehash: ec48927559f5b10cbd8fec98966f1c55d0297fd2
+ms.sourcegitcommit: 0e96539e3efef21ae6150f541efaeca3f9149aea
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "46572236"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "46864575"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>Planejar o Roteamento baseado na localização para o Roteamento direto
 
@@ -256,6 +256,10 @@ Um usuário habilitado para roteamento baseado em local em uma chamada PSTN não
 ### <a name="media-bypass-requirement-for-location-based-routing"></a>Requisito de bypass de mídia para roteamento baseado em local
 
 Se você estiver implantando o roteamento baseado em localização na Índia, será necessário configurar também o bypass de mídia. Para saber mais, consulte [planejar o bypass de mídia com o roteamento direto e a](direct-routing-plan-media-bypass.md) [otimização de mídia local para roteamento direto](direct-routing-media-optimization.md).
+
+### <a name="direct-voice-over-ip-voip"></a>Voz direta sobre IP (VoIP)
+
+O VoIP (Direct Voice over IP) não deve ser implantado com nenhum equipamento de telefonia na Índia.
 
 ## <a name="next-steps"></a>Próximas etapas
 
