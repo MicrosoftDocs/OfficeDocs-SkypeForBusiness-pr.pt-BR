@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Configurar uma conta de recurso para o Skype for Business Server 2019.
-ms.openlocfilehash: f858ea5e18a7d433ca04a9a55c4c0582d5f096ce
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: f3a9166f6e1bb9659a7fb43b9e7c35dba673f176
+ms.sourcegitcommit: 32023931b607542cffadef74383e3ecd47db4ab6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868428"
+ms.lasthandoff: 08/25/2020
+ms.locfileid: "46868680"
 ---
 # <a name="configure-resource-accounts"></a>Configurar contas de recurso
 
@@ -28,7 +28,7 @@ Para usar um atendedor automático ou uma fila de chamadas do sistema de telefon
 
 Se você tiver um atendedor automático de UM do Exchange e um sistema de fila de chamadas, antes de mudar para o Exchange Server 2019 ou Exchange Online, será necessário registrar manualmente os detalhes conforme descrito abaixo e implementar um sistema completamente novo usando o centro de administração do Microsoft Teams.
 
-## <a name="overview"></a>Visão Geral
+## <a name="overview"></a>Visão geral
 
 Se o atendedor automático ou a fila de chamadas do sistema de telefonia precisar de um número de serviço, as várias dependências poderão ser atendidas na seguinte sequência:
 
@@ -43,7 +43,7 @@ Se o atendedor automático ou a fila de chamadas do sistema de telefonia precisa
 
 Se o atendedor automático ou a fila de chamadas estiverem aninhados em um atendedor automático de nível superior, a conta de recurso associada só precisará de um número de telefone se você quiser vários pontos de entrada na estrutura de atendedores automáticos e filas de chamada.
 
-Para redirecionar as chamadas para pessoas em sua organização que estão hospedadas online, elas devem ter uma licença de **sistema de telefonia** e estar habilitadas para o Enterprise Voice ou ter planos de chamadas do Microsoft 365 ou do Office 365. Consulte [atribuir licenças do Microsoft Teams](/MicrosoftTeams/assign-teams-licenses). Para habilitá-los para o Enterprise Voice, você pode usar o Windows PowerShell. Por exemplo, execute:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+Para redirecionar as chamadas para pessoas em sua organização que estão hospedadas online, elas devem ter uma licença de **sistema de telefonia** e estar habilitadas para o Enterprise Voice ou ter planos de chamadas do Microsoft 365 ou do Office 365. Consulte [atribuir licenças do Microsoft Teams](/MicrosoftTeams/assign-teams-licenses). Para habilitá-los para o Enterprise Voice, você pode usar o Windows PowerShell. Por exemplo, execute:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
 Se o atendedor automático do sistema de telefonia ou a fila de chamada que você estiver criando for aninhado e não precisar de um número de telefone, o processo será:
 
@@ -83,6 +83,8 @@ A criação de uma conta de recurso que usa um número de telefone precisaria ex
     ```
 
     Consulte [Start-ADSyncSyncCycle](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-feature-scheduler) para obter mais detalhes sobre este comando.
+    
+    Observação: neste ponto, a conta pode ter sincronizado, mas o provisionamento pode não estar completo.  Verifique a saída de [Get-CsOnlineApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/get-csonlineapplicationendpoint).  Se o ponto de extremidade sincronizado ainda não tiver concluído o provisionamento, ele não será exibido aqui.  Você pode verificar o status das solicitações de provisionamento no portal do M365 em status de [instalação do teams](https://admin.microsoft.com/AdminPortal/Home#/teamsprovisioning).  Esta fase de provisionamento pode levar até 24 horas.
 
 5. Atribua a licença de usuário virtual ou de sistema de telefonia à conta de recurso. Consulte [atribuir licenças de complemento do Microsoft Teams](/MicrosoftTeams/teams-add-on-licensing/assign-teams-add-on-licenses) e [atribuir licenças aos usuários](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users).
 
@@ -117,7 +119,7 @@ A criação de uma conta de recurso que usa um número de telefone precisaria ex
 
 8. Associe a conta de recurso ao atendedor automático ou à fila de chamadas do sistema de telefonia que você escolheu anteriormente.
 
-Um exemplo de uma implementação de pequena empresa está disponível no [exemplo de pequena empresa-configurar um atendedor automático e um](/microsoftteams/tutorial-org-aa) [exemplo de pequena empresa-configurar uma fila de chamadas](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq).
+Um exemplo de uma implementação de pequena empresa está disponível no  [exemplo de pequena empresa-configurar um atendedor automático e um](/microsoftteams/tutorial-org-aa) [exemplo de pequena empresa-configurar uma fila de chamadas](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq).
 
 ## <a name="create-a-resource-account-without-a-phone-number"></a>Criar uma conta de recurso sem um número de telefone
 
@@ -148,7 +150,7 @@ Faça logon no servidor front-end do Skype for Business e execute os seguintes c
    - [Criar uma fila de chamada do Cloud](/MicrosoftTeams/create-a-phone-system-call-queue)  
 4. Associe a conta de recurso e o atendedor automático ou a fila de chamadas do sistema de telefonia que você escolheu anteriormente.
 
-Um exemplo de uma implementação de pequena empresa está disponível no [exemplo de pequena empresa-configurar um atendedor automático e um](/microsoftteams/tutorial-org-aa) [exemplo de pequena empresa-configurar uma fila de chamadas](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq).
+Um exemplo de uma implementação de pequena empresa está disponível no  [exemplo de pequena empresa-configurar um atendedor automático e um](/microsoftteams/tutorial-org-aa) [exemplo de pequena empresa-configurar uma fila de chamadas](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq).
 
 ## <a name="test-the-implementation"></a>Testar a implementação
 
