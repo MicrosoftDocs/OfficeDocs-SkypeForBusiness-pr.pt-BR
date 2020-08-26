@@ -22,12 +22,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: Saiba mais sobre os dados e relatórios disponíveis no painel de qualidade de chamada da Microsoft (CQD).
-ms.openlocfilehash: ec9714e0eae187bc82edf01809b50d8512d04e01
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 4b96f64f7f182c0d4c95796358b20b38d8c726b4
+ms.sourcegitcommit: c1aaf1f81c07c0956095b5bd4cb241b1de67b189
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583088"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "46897841"
 ---
 # <a name="data-and-reports-in-call-quality-dashboard-cqd"></a>Dados e relatórios no painel de qualidade de chamada (CQD)
 
@@ -59,14 +59,14 @@ Baixe [dois modelos de relatório CQDs](https://aka.ms/qertemplates) (todas as r
 
 4. Repita as etapas 2 e 3 para o segundo modelo CQD.
 
-> [!NOTE]
-> Cada usuário deve importar os modelos do CQD para a sua instância do CQD. 
+   > [!NOTE]
+   > Cada usuário deve importar os modelos do CQD para a sua instância do CQD. 
 
 
 
 ## <a name="euii-data"></a>Dados do EUII
 
-Por motivos de conformidade, os dados de informações de identificação de usuário final (EUII) (também conhecidos como informações de identificação pessoal ou PII) só são mantidos por 30 dias. Como os dados do NRT atravessam a marca de 30 dias, os campos que contêm EUII são limpos, resultando em dados de NRT grátis do EUII. Os campos que contêm dados EUII são:
+Por motivos de conformidade, os dados de informações de identificação de usuário final (EUII) (também conhecidos como informações de identificação pessoal ou PII) só são mantidos por 28 dias. Como os dados do NRT atravessam a marca de 28 dias, os campos que contêm EUII são limpos, resultando em dados de NRT grátis de EUII. Os campos que contêm dados EUII são:
 
 - Endereço IP completo
 - Endereço de controle de acesso à mídia (MAC)
@@ -151,12 +151,12 @@ Em relatórios detalhados, você pode usar a dimensão **is Teams** para filtrar
 
 Estes são os relatórios que você verá no painel CQD ao entrar pela primeira vez no CQD. Elas fornecem uma visão geral de tendências de qualidade com relatórios diários, mensais e de tabela para ajudar a identificar sub-redes com baixa qualidade. 
 
-|Abas  |  |
+| Abas | Descrição |
 |---------|---------|
-|Qualidade geral das chamadas     | Agregar das outras 3 guias        |
-|Servidor — cliente     |Detalhes dos fluxos entre os pontos de extremidade do servidor e do cliente         |
-|Cliente — cliente     |Detalhes dos fluxos entre dois pontos de extremidade do cliente         |
-|SLA de qualidade de voz     |Informações sobre chamadas incluídas no [SLA](https://go.microsoft.com/fwlink/p/?linkid=846252) de qualidade de voz do Skype for Business         |
+|Qualidade geral das chamadas     | Agregar das outras 3 guias.       |
+|Servidor — cliente     |Detalhes dos fluxos entre os pontos de extremidade do servidor e do cliente.        |
+|Cliente — cliente     |Detalhes dos fluxos entre dois pontos de extremidade do cliente.        |
+|SLA de qualidade de voz     |Informações sobre chamadas incluídas no [SLA](https://go.microsoft.com/fwlink/p/?linkid=846252)de qualidade de voz do Skype for Business.        |
 
 ### <a name="overall-call-quality-tab"></a>Guia qualidade geral da chamada
 
@@ -164,7 +164,7 @@ Use os dados nesta guia para avaliar o status e as tendências da qualidade da c
   
 ![Captura de tela: mostrar a guia qualidade da chamada](media/c8d183b1-6592-49b0-a81d-35cc0568d5f0.png)
   
-Os fluxos são classificados em três grupos: satisfatório, fraco e não classificados. Também são calculados valores de *baixa qualidade* que proporcionam a taxa de fluxos classificados como *deficientes* para a contagem total de fluxos classificados. Como *baixa% = fluxos ruins/(fluxos de má qualidade + bom fluxo) * 100*, os *% deficientes* não são afetados pela presença de vários fluxos não *classificados* . Para ver o que classifica um fluxo como ruim ou bom, consulte [classificação de fluxo no painel de qualidade de chamada](stream-classification-in-call-quality-dashboard.md).
+Os fluxos são classificados em três grupos: satisfatório, fraco e não classificados. Também são calculados valores de  *baixa qualidade*  que proporcionam a taxa de fluxos classificados como *deficientes*  para a contagem total de fluxos classificados. Como *baixa% = fluxos ruins/(fluxos de má qualidade + bom fluxo) * 100*, os *% deficientes*  não são afetados pela presença de vários fluxos não *classificados*  . Para ver o que classifica um fluxo como ruim ou bom, consulte [classificação de fluxo no painel de qualidade de chamada](stream-classification-in-call-quality-dashboard.md).
   
 Use a escala à esquerda para medir os valores de contagem de fluxo.
   
@@ -202,13 +202,14 @@ Da mesma forma, a guia cliente/cliente tem cinco seções recolhíveis:
 
 #### <a name="inside-versus-outside"></a>Dentro e fora
 
-O CQD classifica um fluxo de *dentro* ou de *fora* usando as informações de construção, se houver. Os pontos de extremidade de cada fluxo estão associados a um endereço de sub-rede. Se a sub-rede estiver na lista das sub-redes marcadas InsideCorp nas informações de construção carregadas, ela será considerada *dentro*. Se as informações de construção ainda não tiverem sido carregadas, então dentro do teste sempre classifica os fluxos como *fora*. 
+O CQD classifica um fluxo de  *dentro*  ou de *fora*  usando as informações de construção, se houver. Os pontos de extremidade de cada fluxo estão associados a um endereço de sub-rede. Se a sub-rede estiver na lista das sub-redes marcadas InsideCorp nas informações de construção carregadas, ela será considerada *dentro*. Se as informações de construção ainda não tiverem sido carregadas, então dentro do teste sempre classifica os fluxos como *fora*. 
 
 O teste interno para um cenário de servidor-cliente apenas considera o ponto de extremidade do cliente. Como os servidores estão sempre fora da perspectiva de um usuário, isso não é contabilizado no teste.
   
 #### <a name="wired-versus-wifi"></a>Com fio versus WiFi
 
 Conforme os nomes indicam, os critérios de classificação são baseados no tipo de conexões de cliente. O servidor é sempre conectado e não está incluído no cálculo. Em um determinado fluxo, se um dos dois pontos de extremidade estiver conectado a uma rede WiFi, o CQD o classificará como WiFi.
+
 > [!NOTE]
 > Dado um fluxo, se um dos dois pontos de extremidade estiver conectado a uma rede WiFi, ele será classificado como WiFi no CQD.
   
@@ -217,8 +218,8 @@ Conforme os nomes indicam, os critérios de classificação são baseados no tip
 
 O painel relatórios de resumo CQD inclui uma página de **carregamento de dados de locatários** , acessada selecionando **carregar dados do locatário** no menu configurações no canto superior direito. Esta página é usada para os administradores carregarem suas próprias informações, como:
 
-- Um mapa de endereço IP e informações geográficas
-- Um mapa de cada AP sem fio e seu endereço MAC
+- Um mapa de endereço IP e informações geográficas.
+- Um mapa de cada AP sem fio e seu endereço MAC.
 - Um mapa de ponto de extremidade para marca/modelo/tipo de ponto de extremidade, etc.
   
 Recomendamos que você carregue os dados do locatário, da criação e do local para que o CQD possa incluir essas informações em seus relatórios. Se você ainda não carregou esses dados, leia [locatário de carregamento de carregamento e dados de construção](CQD-upload-tenant-building-data.md). 
@@ -226,13 +227,13 @@ Recomendamos que você carregue os dados do locatário, da criação e do local 
 
 ## <a name="detailed-reports"></a>Relatórios detalhados
 
-|Nome  |  |
+| Nome | Descrição |
 |---------|---------|
 |Localização-relatórios aprimorados     |Mostra as tendências de qualidade com base nas informações de localização. Esse relatório só será exibido se você tiver [carregado seus dados locatário](CQD-upload-tenant-building-data.md).        |
-|Relatórios de confiabilidade     |Inclui áudio, vídeo, compartilhamento de tela baseado em vídeo (VBSS) e relatórios de compartilhamento de aplicativos         |
+|Relatórios de confiabilidade     |Inclui áudio, vídeo, compartilhamento de tela baseado em vídeo (VBSS) e relatórios de compartilhamento de aplicativos.        |
 |Relatórios de qualidade da experiência     |Qualidade de áudio e confiabilidade para todos os clientes e dispositivos, incluindo salas de reunião. Esses relatórios são uma versão "reduzida" dos [modelos CQD](https://aka.ms/QERtemplates)para download, com foco em áreas essenciais para a análise da qualidade e da confiabilidade do áudio.         |
-|Relatórios de busca detalhada de qualidade     | Buscas detalhadas: data por região, locais, sub-redes, hora e usuários         |
-|Relatórios de busca detalhada de falha     | Buscas detalhadas: data por região, locais, sub-redes, hora e usuários        |
+|Relatórios de busca detalhada de qualidade     | Buscas detalhadas: data por região, locais, sub-redes, hora e usuários.        |
+|Relatórios de busca detalhada de falha     | Buscas detalhadas: data por região, locais, sub-redes, hora e usuários.        |
 |Classificar relatórios de minhas chamadas     |Analisar classificações de chamadas do usuário por região, local ou por usuário. Inclui feedback textual.         |
 |Relatórios de Help Desk     |Relatórios de suporte técnico Veja os dados de chamada e reunião para usuários individuais, grupos de usuários ou todos. A incorporação de dados de construção e EUII, esses relatórios ajudam a identificar possíveis problemas de sistema com base no local de rede, nos detalhes da conferência, em dispositivos ou firmware.         |
 |Relatórios de versão do cliente     |Resumo da versão do cliente: exibir as contagens de sessões e usuários para cada versão do aplicativo cliente<br><br>Versão do cliente por usuário: exibir nomes de usuário para cada versão do aplicativo cliente <br><br>Os filtros predefinidos para o produto e o tipo de cliente ajudam a concentrar as versões em clientes específicos.         |
@@ -243,7 +244,8 @@ Recomendamos que você carregue os dados do locatário, da criação e do local 
 
 Se os relatórios padrão do CQD não atenderem às suas necessidades, use estas instruções para criar um relatório personalizado. Ou (desde janeiro de 2020), [use os relatórios do Power bi para CQD ](cqd-power-bi-query-templates.md).
 
-Na lista suspensa de relatórios na parte superior da tela exibida ao fazer logon \( na tela **relatórios resumidos** , \) selecione **relatórios detalhados** e **novo**. Clique em **Editar** em um relatório para ver o editor de consultas. Cada relatório é respaldado por uma consulta no cubo. Um relatório é uma visualização dos dados retornados por sua consulta. O editor de consultas ajuda você a editar essas consultas e as opções de exibição do relatório.
+Na lista suspensa de relatórios na parte superior da tela exibida ao fazer logon \( na tela **relatórios resumidos** , \) selecione **relatórios detalhados**  e **novo**. Clique em **Editar** em um relatório para ver o editor de consultas. Cada relatório é respaldado por uma consulta no cubo. Um relatório é uma visualização dos dados retornados por sua consulta. O editor de consultas ajuda você a editar essas consultas e as opções de exibição do relatório.
+
 > [!IMPORTANT]
 > O intervalo de rede pode ser usado para representar um Supernet (combinação de várias sub-redes com um único prefixo de roteamento). Todos os novos carregamentos de construção serão verificados em busca de intervalos sobrepostos. Se você já carregou um arquivo de construção, baixe o arquivo atual e carregue-o novamente para identificar se há sobreposições e corrigir o problema antes de carregá-lo novamente. Qualquer sobreposição em arquivos carregados anteriormente pode resultar em mapeamentos errados de sub-redes para prédios nos relatórios. Algumas implementações de VPN não reportam precisamente as informações de sub-rede. É recomendável que, ao adicionar uma sub-rede VPN ao arquivo de construção, em vez de uma entrada para a sub-rede, as entradas separadas sejam adicionadas para cada endereço na sub-rede VPN como uma rede de 32 bits separada. Cada linha pode ter os mesmos metadados de construção. Por exemplo, em vez de uma linha para 172.16.18.0/24, você deve ter 256 linhas, com uma linha para cada endereço entre 172.16.18.0/32 e 172.16.18.255/32, inclusive.
 >
@@ -306,7 +308,7 @@ Para selecionar vários valores de filtro, comece adicionando um novo filtro ao 
 
 Em seguida, clique em **Pesquisar** (um ícone de lupa ao lado do novo filtro). Você verá um campo de texto e várias opções, incluindo **selecionar tudo** e **inverter**. Insira um valor e clique em **Pesquisar** ao lado desse campo para pesquisar. Você também pode deixar o campo de texto vazio e clicar em **Pesquisar** para exibir até as primeiras opções do 100.
 
-```PowerShell
+```powershell
 /filter/[AllStreams].[Second Tenant Id]\|[YOUR TENANT ID HERE]
 ```
 
@@ -318,7 +320,7 @@ Exemplo
 Certos relatórios do CQD têm filtros em nível de painel adicionados a eles, facilitando a filtragem por parâmetros comuns. Esses filtros são exibidos fora das guias relatório regular e logo abaixo do filtro de produto, e eles se aplicam a todos os filtros no painel.
 
 ![Captura de tela de um filtro de painel](media/qerguide-image-dashboardfilters.png)
-```PowerShell
+```powershell
 /filter/[AllStreams].[Is Teams]|[TRUE | FALSE]
 ```
 
@@ -329,29 +331,29 @@ Excluir dados federados dos relatórios do CQD é útil quando você está remed
 
 Para adicionar um filtro, acrescente o seguinte ao final da URL:
 
-```
+```console
 /filter/[AllStreams].[Second Tenant Id]\|[YOUR TENANT ID HERE]
 ```
 
 Exemplo  
 
-```https://cqd.teams.microsoft.com/cqd/#/1234567/2018-08/filter/[AllStreams].[Second Tenant Id]|[TENANTID]```
+`https://cqd.teams.microsoft.com/cqd/#/1234567/2018-08/filter/[AllStreams].[Second Tenant Id]|[TENANTID]`
 
 Para adicionar um filtro em nível de painel a uma URL, esse filtro deve existir no CQD como um filtro de produto ou de nível de painel. Adicione esses filtros à URL após o mês de tendência e antes dos parâmetros de URL:
 
-```filter/DATA_MODEL_NAME|VALUE```
+`filter/DATA_MODEL_NAME|VALUE`
 
 Por exemplo, para aplicar um valor de filtro de produto do Microsoft Teams, adicione o seguinte:
 
-```filter/[AllStreams].[Is%20Teams]|[True]```
+`filter/[AllStreams].[Is%20Teams]|[True]`
 
 Sua URL inteira teria uma aparência semelhante a esta:
 
-```https://cqd.teams.microsoft.com/spd/#/Dashboard/2624085/2018-9/filter/[AllStreams].[Is%20Teams]|[True]```
+`https://cqd.teams.microsoft.com/spd/#/Dashboard/2624085/2018-9/filter/[AllStreams].[Is%20Teams]|[True]`
 
 Para aplicar filtros de URL com valores de seleção múltipla, separe cada valor com um caractere de pipe (|). Por exemplo:
 
-```filter/[AllStreams].[Media%20Type]|[Video]|[Audio]|[VBSS]```
+`filter/[AllStreams].[Media%20Type]|[Video]|[Audio]|[VBSS]`
 
 Se você especificar um nome ou um valor inválido, o filtro de URL não será aplicado.
 
@@ -369,23 +371,22 @@ Você pode usar um filtro de URL para filtrar cada relatório de uma dimensão e
 
 A ID do locatário em CQD corresponde à ID do diretório no Azure. Se não souber a ID do diretório, você pode encontrá-la no portal do Azure:
 
-1.  Entre no portal do Microsoft Azure:<https://portal.azure.com>
+1.  Entre no portal do Microsoft Azure: <https://portal.azure.com>
 
 2.  Selecione **Azure Active Directory**.
 
 3.  Em **gerenciar**, selecione **Propriedades**. A ID do locatário está na caixa **ID do diretório** .
 
 Você também pode encontrar sua ID de locatário usando o PowerShell: 
-  ```
-  Login-AzureRmAccount
-  ```
 
-
+```powershell
+Login-AzureRmAccount
+```
 
 ## <a name="comparing-teams-and-skype-for-business-cqd-data"></a>Comparar o Microsoft Teams e os dados do Skype for Business CQD
 
 Mesmo dentro da versão mais recente do CQD (cqd.teams.microsoft.com), você verá diferenças nos dados entre o Teams e o Skype for Business. Alguns motivos:
-- Diferenças nos mecanismos para garantir o desempenho e a confiabilidade
+- Diferenças nos mecanismos para garantir o desempenho e a confiabilidade:
   - O Microsoft Teams tem reconexão automática e roaming rápido. O Skype for Business não.
   - O Microsoft Teams tem gerenciamento dinâmico de largura de banda. O Skype for Business não.
 - Diferenças em [intervalos de endereços IP](Office-365-URLs-IP-address-ranges.md) entre o Teams e o Skype for Business. Os intervalos de IP do teams são mais recentes, o que pode causar problemas de conectividade no firewall.
@@ -395,10 +396,12 @@ Mesmo dentro da versão mais recente do CQD (cqd.teams.microsoft.com), você ver
 ![Um ícone do logotipo do Skype for Business ](media/sfb-logo-30x30.png) **usando o portal herdado do Skype for Business**
 
 1. Entre em sua organização do Office 365 usando uma conta de administrador e, em seguida, selecione o bloco **administrador** para abrir o centro de administração.
+
 2. No painel esquerdo, em **centros de administração**, selecione **Microsoft Teams** para abrir o centro de administração do teams.
+
 3. No centro de administração do Teams, selecione **portal herdado** no painel esquerdo, selecione **ferramentas**e, em seguida, selecione **painel de qualidade de chamada do Skype for Business online**.
 
-     ![Captura de tela: selecione o painel de qualidade da chamada](media/6cc7f80f-b8e2-4a9b-aab8-ac871d07a261.png)
+   ![Captura de tela: selecione o painel de qualidade da chamada](media/6cc7f80f-b8e2-4a9b-aab8-ac871d07a261.png)
 
 4. Na página que é aberta, entre com sua conta de administrador global e forneça as credenciais da conta quando for solicitado.
 

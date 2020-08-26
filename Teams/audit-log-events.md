@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Saiba como recuperar dados do Microsoft Teams do log de auditoria no centro de conformidade do Microsoft 365.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9dd2dfd883d08b9b42d9d7fef967ff1732e3816a
-ms.sourcegitcommit: 27fb021e46d775652a99d862b19d94f3fc020594
+ms.openlocfilehash: 41fe449a80a9243a9385b6153a8ff18b15332e53
+ms.sourcegitcommit: c1aaf1f81c07c0956095b5bd4cb241b1de67b189
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "46778003"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "46897701"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Pesquisar o log de auditoria de eventos no Microsoft Teams
 
@@ -162,9 +162,9 @@ Se a sua organização estiver usando o aplicativo turnos no Microsoft Teams, vo
 
 |Nome amigável  |Operação  |Descrição  |
 |---------|---------|---------|
-|Grupo de agendamento adicionado      |SchedulingGroupAdded          |Um usuário adiciona com êxito um novo grupo de agendamento ao cronograma.          |
-|Grupo de agendamento editado     |SchedulingGroupEdited         |Um usuário edita com êxito um grupo de agendamento.          |
-|Grupo de agendamento excluído         |SchedulingGroupDeleted              |Um usuário excluiu com êxito um grupo de agendamento do cronograma.|
+|Grupo de agendamento adicionado |ScheduleGroupAdded          |Um usuário adiciona com êxito um novo grupo de agendamento ao cronograma.|
+|Grupo de agendamento editado     |ScheduleGroupEdited         |Um usuário edita com êxito um grupo de agendamento.          |
+|Grupo de agendamento excluído         |ScheduleGroupDeleted              |Um usuário excluiu com êxito um grupo de agendamento do cronograma.|
 |Mudança adicionada      |ShiftAdded          |Um usuário adiciona um turno com sucesso.           |
 |Turno editado       |ShiftEdited       |Um usuário edita com êxito um turno.        |
 |Turno excluído          |ShiftDeleted          | Um usuário excluiu com êxito um turno.               |

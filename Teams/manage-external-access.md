@@ -20,12 +20,12 @@ description: O administrador do Teams ou de TI pode configurar o acesso externo 
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: e845012b35bddc32c357d416d8fbb2cbe160d84a
-ms.sourcegitcommit: 34f407a6a40317056005e3bf38ce58f792c04810
+ms.openlocfilehash: b3d6eafe5f2ab5989e5b21a060901dc317332127
+ms.sourcegitcommit: c1aaf1f81c07c0956095b5bd4cb241b1de67b189
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "46814187"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "46897821"
 ---
 <a name="manage-external-access-in-microsoft-teams"></a>Gerenciar o acesso externo no Microsoft Teams
 ======================================================
@@ -118,7 +118,7 @@ Para saber mais sobre as formas pelas quais os usuários do Teams e do Skype pod
 |Permita que **usuários do Teams** da sua organização se comuniquem com **usuários do Skype for Business Online** da mesma organização.  |Habilite o modo de Coexistência ou escolha o modo de Atualização das ilhas para oferecer suporte aos usuários do Skype for Business em sua organização.   |
 |Permita que **usuários do Teams** da sua organização se comuniquem com **usuários do Skype for Business Online** de outra organização (externa).      |No Acesso externo, adicione o domínio externo à lista de permissões ou use a federação aberta. <br><br>No Acesso Externo, ative a configuração **Os usuários podem se comunicar com usuários do Skype for Business e do Teams**. Depois, o administrador da outra organização do Teams deve fazer o mesmo. <br><br>**OBSERVAÇÃO**: o domínio externo com usuários do Skype for Business deve habilitar o modo de Coexistência ou escolher o modo de Atualização das ilhas para oferecer suporte aos usuários do Skype for Business na organização.|
 |Permita que **os usuários do teams** na sua organização se comuniquem com **usuários locais do Skype for Business** em outra organização (externa).      |No Acesso externo, adicione o domínio externo à lista de permissões ou use a federação aberta. <br><br>No Acesso Externo, ative a configuração **Os usuários podem se comunicar com usuários do Skype for Business e do Teams**. Em seguida, faça com que o administrador da outra organização configure o servidor do Skype for Business no local para permitir a Federação com o seu domínio.|
-|Permita que **usuários do Teams** em sua organização se comuniquem com usuários do **Skype**.<br> (em visualização)  |No Acesso Externo, ative a configuração **Os usuários podem se comunicar com usuários do Skype**. |
+|Permita que **usuários do Teams** em sua organização se comuniquem com usuários do **Skype**.<br>  |No Acesso Externo, ative a configuração **Os usuários podem se comunicar com usuários do Skype**. |
 |Permita que seus **usuários do Skype for Business online** se comuniquem com **usuários do teams** em outro 365 ou o Office 365.| Os usuários do Skype for Business Online podem se comunicar com usuários do Teams em outra organização se os usuários estiverem em um dos seguintes modos de atualização: Ilhas, SfBOnly, SfBWIthTeamsCollab, SfBWithTeamsCollabAndMeetings, e se os usuários do Teams de outra organização estiverem no modo TeamsOnly. <br><br>No Acesso Externo, ative a configuração **Os usuários podem se comunicar com outros usuários do Skype for Business e do Teams**. Depois, o administrador de outra organização com o Teams deve fazer o mesmo.|
 |Permita que seus **usuários do Skype for Business online** se comuniquem com **usuários do Skype for Business online** de outro Microsoft 365 ou do Office 365.    | Os usuários do Skype for Business Online podem se comunicar com usuários do Skype for Business Online em outra organização se os usuários estiverem em um dos seguintes modos de atualização: Ilhas, SfBOnly, SfBWIthTeamsCollab, SfBWithTeamsCollabAndMeetings; e se os usuários do Skype for Business Online de outra organização estiverem nos seguintes modos de atualização: Ilhas, SfBOnly, SfBWIthTeamsCollab, SfBWithTeamsCollabAndMeetings.<br><br>No Acesso Externo, ative a configuração **Os usuários podem se comunicar com outros usuários do Skype for Business e do Teams**. Depois, o administrador de outra organização com o Teams deve fazer o mesmo.|
 |Permita que **usuários do Skype for Business Online** se comuniquem com **usuários do Skype for Business Online** de outra organização local.     |Seus usuários do Skype for Business online poderão se comunicar com usuários do Skype for Business a partir de uma organização local se os usuários estiverem em um dos seguintes modos de atualização: Ilhas, SfBOnly, SfBWIthTeamsCollab, SfBWithTeamsCollabAndMeetings. <br><br> No Acesso Externo, ative a configuração **Os usuários podem se comunicar com outros usuários do Skype for Business e do Teams**. Em seguida, faça com que o administrador da outra organização configure o servidor do Skype for Business no local para permitir a Federação com o seu domínio.|

@@ -21,12 +21,12 @@ ms.custom:
 - Reporting
 - seo-marvel-apr2020
 description: Saiba como carregar locatários e compilar dados no painel de qualidade de chamada (CQD).
-ms.openlocfilehash: 86ff0cba51b5c1cb291f7b885cf5baadf9744d4a
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 37499cf2715a3cabb05ab5039a19190190253b07
+ms.sourcegitcommit: c1aaf1f81c07c0956095b5bd4cb241b1de67b189
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46584060"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "46897831"
 ---
 # <a name="upload-tenant-and-building-data-in-call-quality-dashboard-cqd"></a>Carregar o locatário e compilar dados no painel de qualidade de chamada (CQD)
 
@@ -64,43 +64,47 @@ No painel relatórios de resumo do CQD, selecione **carregar dados do locatário
 O primeiro tipo de arquivo de dados locatário no CQD é o arquivo de dados de **construção** . A coluna de sub-rede é derivada expandindo a coluna Network + NetworkRange e, em seguida, ingressando na coluna subnet na primeira sub-rede ou segunda coluna do registro de chamada para mostrar as informações de construção, cidade, país ou região. O formato do arquivo de dados que você carrega deve atender aos seguintes critérios para passar a verificação de validação antes do carregamento:
   
 - O arquivo deve ser um arquivo. TSV (as colunas são separadas por uma TABULAção) ou um arquivo. csv (as colunas são separadas por uma vírgula).
+
 - O arquivo de dados não inclui uma linha de cabeçalho de tabela. Espera-se que a primeira linha do arquivo de dados seja dados reais, e não rótulos de cabeçalho como "rede".
+
 - Os tipos de dados no arquivo só podem ser String, Integer ou Boolean. Para o tipo de dados inteiro, o valor deve ser um valor numérico. Os valores Boolianos devem ser 0 ou 1.
+
 - Se uma coluna usa o tipo de dados de cadeia de caracteres, um campo de dados pode estar vazio, mas ainda deve ser separado por uma Tabulação ou vírgula. Um campo de dados vazio apenas atribui um valor de cadeia de caracteres vazia.
+
 - Deve haver 14 colunas para cada linha, cada coluna deve ter o tipo de dados apropriado, e as colunas devem estar na ordem listada na tabela a seguir (vírgula ou delimitada por tabulação):
 
-**Criando um formato de arquivo de dados**
+  **Criando um formato de arquivo de dados**
+  
+  | Nome da coluna        | Tipo de dados | Exemplo                   | Orientação              |
+  |--------------------|-----------|---------------------------|-----------------------|
+  | NetworkIP          | Cadeia de caracteres    | 192.168.1.0               | Obrigatório              |
+  | NetworkName        | Cadeia de caracteres    | EUA/Seattle/SEATTLE-SEA-1 | Obrigatório<sup>1</sup>  |
+  | NetworkRange       | Número    | 26                        | Obrigatório              |
+  | BuildingName       | Cadeia de caracteres    | SEATTLE-SEA-1             | Obrigatório<sup>1</sup>  |
+  | Propriedadetype      | Cadeia de caracteres    | Contoso.com                   | Opcional              |
+  | Buildingtype       | Cadeia de caracteres    | Terminações            | Opcional              |
+  | BuildingOfficeType | Cadeia de caracteres    | Engineer               | Opcional              |
+  | Cidade               | Cadeia de caracteres    | Seattle                   | Recomendado           |
+  | ZipCode            | Cadeia de caracteres    | 98001                     | Recomendado           |
+  | País            | Cadeia de caracteres    | Junte                        | Recomendado           |
+  | Estado              | Cadeia de caracteres    | WA                        | Recomendado           |
+  | Região             | Cadeia de caracteres    | MSUS                      | Recomendado           |
+  | InsideCorp<sup>2</sup>         | Bool      | 1             | Obrigatório              |
+  | ExpressRoute<sup>3</sup>       | Bool      | 0             | Obrigatório              |
+  | VPN                | Bool      | 0                         | Opcional              |
 
-| Nome da coluna        | Tipo de dados | Exemplo                   | Orientação              |
-|--------------------|-----------|---------------------------|-----------------------|
-| NetworkIP          | Cadeia de caracteres    | 192.168.1.0               | Obrigatório              |
-| NetworkName        | Cadeia de caracteres    | EUA/Seattle/SEATTLE-SEA-1 | Obrigatório<sup>1</sup>  |
-| NetworkRange       | Número    | 26                        | Obrigatório              |
-| BuildingName       | Cadeia de caracteres    | SEATTLE-SEA-1             | Obrigatório<sup>1</sup>  |
-| Propriedadetype      | Cadeia de caracteres    | Contoso.com                   | Opcional              |
-| Buildingtype       | Cadeia de caracteres    | Terminações            | Opcional              |
-| BuildingOfficeType | Cadeia de caracteres    | Engineer               | Opcional              |
-| Cidade               | Cadeia de caracteres    | Seattle                   | Recomendado           |
-| ZipCode            | Cadeia de caracteres    | 98001                     | Recomendado           |
-| País            | Cadeia de caracteres    | Junte                        | Recomendado           |
-| Estado              | Cadeia de caracteres    | WA                        | Recomendado           |
-| Região             | Cadeia de caracteres    | MSUS                      | Recomendado           |
-| InsideCorp<sup>2</sup>         | Bool      | 1             | Obrigatório              |
-| ExpressRoute<sup>3</sup>       | Bool      | 0             | Obrigatório              |
-| VPN                | Bool      | 0                         | Opcional              |
+  <sup>1</sup> embora não seja exigido pelo CQD, os modelos são configurados para exibir o prédio e o nome da rede.
 
-<sup>1</sup> Embora não seja exigido pela CQD, os modelos são configurados para exibir o prédio e o nome da rede.
+  <sup>2</sup> essa configuração pode ser usada para refletir se a sub-rede está ou não dentro da rede corporativa. Você pode personalizar o uso para outras finalidades.
 
-<sup>2</sup> Essa configuração pode ser usada para refletir se a sub-rede está ou não dentro da rede corporativa. Você pode personalizar o uso para outras finalidades.
+  <sup>3</sup> essa configuração pode ser usada para refletir se a rede usa o Azure ExpressRoute. Você pode personalizar o uso para outras finalidades.  
 
-<sup>3</sup> Essa configuração pode ser usada para refletir se a rede usa o Azure ExpressRoute. Você pode personalizar o uso para outras finalidades.  
+  **Linha de amostra:**
 
-**Linha de amostra:**
-
-`192.168.1.0,USA/Seattle/SEATTLE-SEA-1,26,SEATTLE-SEA-1,Contoso,IT Termination,Engineering,Seattle,98001,US,WA,MSUS,1,0,0`
+  `192.168.1.0,USA/Seattle/SEATTLE-SEA-1,26,SEATTLE-SEA-1,Contoso,IT Termination,Engineering,Seattle,98001,US,WA,MSUS,1,0,0`
 
 > [!IMPORTANT]
-> O intervalo de rede pode ser usado para representar um Supernet (combinação de várias sub-redes com um único prefixo de roteamento). Todos os novos carregamentos de construção serão verificados em busca de intervalos sobrepostos. Se você já carregou um arquivo de construção, baixe o arquivo atual e carregue-o novamente para identificar se há sobreposições e corrigir o problema antes de carregá-lo novamente. Qualquer sobreposição em arquivos carregados anteriormente pode resultar em mapeamentos errados de sub-redes para prédios nos relatórios. Algumas implementações de VPN não reportam precisamente as informações de sub-rede. É recomendável que, ao adicionar uma sub-rede VPN ao arquivo de construção, em vez de uma entrada para a sub-rede, as entradas separadas sejam adicionadas para cada endereço na sub-rede VPN como uma rede de 32 bits separada. Cada linha pode ter os mesmos metadados de construção. Por exemplo, em vez de uma linha para 172.16.18.0/24, você deve ter 256 linhas, com uma linha para cada endereço entre 172.16.18.0/32 e 172.16.18.255/32, inclusive.
+> O intervalo de rede pode ser usado para representar um Supernet (combinação de várias sub-redes com um único prefixo de roteamento). Todos os novos carregamentos de construção serão verificados em busca de intervalos sobrepostos. Se você já carregou um arquivo de construção, baixe o arquivo atual e carregue-o novamente para identificar se há sobreposições e corrigir o problema antes de carregá-lo novamente. Qualquer sobreposição em arquivos carregados anteriormente pode resultar em mapeamentos errados de sub-redes para prédios nos relatórios. Algumas implementações de VPN não reportam precisamente as informações de sub-rede. 
 >
 > A coluna VPN é opcional e será definida como padrão 0. Se o valor da coluna VPN estiver definido como 1, a sub-rede representada por essa linha será totalmente expandida para corresponder a todos os endereços IP dentro da sub-rede.  Use isso de maneira moderada e somente para sub-redes VPN, já que expandir totalmente essas sub-redes terá um impacto negativo nos tempos de consulta para consultas que envolvem a construção de dados.
 
@@ -136,7 +140,7 @@ Aqui estão algumas coisas a serem consideradas antes de implementar a combinaç
 
 ### <a name="vpn"></a>VPN
 
-Os dados de qualidade da experiência (QoE) que os clientes enviam para o Microsoft 365 ou o Office 365, onde os dados do CQD são originados a partir de — inclui um sinalizador de VPN. O CQD o verá como a primeira e a segunda dimensões de VPN e VPN. No entanto, esse sinalizador depende dos relatórios de fornecedores de VPN para Windows que o adaptador de rede VPN está cadastrado é um adaptador de acesso remoto. Nem todos os fornecedores de VPN registram corretamente adaptadores de acesso remoto. Por isso, talvez você não possa usar os filtros de consulta VPN internos. Há duas abordagens para acomodar sub-redes VPN no arquivo de informações de construção:
+Os dados de qualidade da experiência (QoE) que os clientes enviam para o Microsoft 365 ou o Office 365, onde os dados do CQD são originados a partir de — inclui um sinalizador de VPN. O CQD o verá como a primeira e a segunda dimensões de VPN e VPN. No entanto, esse sinalizador depende dos relatórios de fornecedores de VPN para Windows que o adaptador de rede VPN está cadastrado é um adaptador de acesso remoto. Nem todos os fornecedores de VPN registram corretamente adaptadores de acesso remoto. Por isso, talvez você não possa usar os filtros de consulta VPN internos. Use a coluna VPN abordada acima para marcar e identificar com precisão as sub-redes VPN. Também é uma boa prática identificar suas redes VPN para facilitar a identificação em seus relatórios. Veja a seguir dois exemplos de como rotular suas sub-redes VPN:
 
 - Defina um **nome de rede** digitando "VPN" nesse campo para sub-redes VPN.
 
@@ -146,34 +150,34 @@ Os dados de qualidade da experiência (QoE) que os clientes enviam para o Micros
 
   ![Captura de tela do relatório QCD mostrando VPN usando o nome da construção](media/qerguide-image-vpnbuildingname.png)
 
-> [!IMPORTANT]
-> Algumas implementações de VPN não relatam precisamente as informações de sub-rede. Se isso ocorrer em seus relatórios, recomendamos que, ao adicionar uma sub-rede VPN ao arquivo de construção, em vez de uma entrada para a sub-rede, adicione entradas separadas para cada endereço na sub-rede VPN como uma rede de 32 bits separada. Cada linha pode ter os mesmos metadados de construção. Por exemplo, em vez de uma linha para 172.16.18.0/24, você tem 253 linhas com uma linha para cada endereço de 172.16.18.1/32 a 172.16.18.254/32, inclusive.
-
-
 > [!NOTE]
-> As conexões VPN receberam a identificação da conexão de rede com fio como conectado quando a conexão à Internet subjacente é sem fio. Ao examinar a qualidade em conexões VPN, você não pode presumir que o tipo de conexão foi identificado de forma precisa.
-
+> As conexões VPN receberam a identificação do tipo de conexão de rede como Wired quando a conexão subjacente é sem fio. Ao examinar a qualidade em conexões VPN, você não pode presumir que o tipo de conexão foi identificado de forma precisa.
 
 ## <a name="endpoint-data-file"></a>Arquivo de dados de ponto de extremidade
 
 O outro tipo de arquivo de dados locatário CQD é o arquivo de dados do **ponto de extremidade** . Os valores de coluna são usados na coluna nome do ponto de extremidade do primeiro cliente ou segundo nome do ponto de extremidade do cliente para mostrar informações sobre tipo, modelo ou marca de ponto de extremidade. O formato do arquivo de dados que você carrega deve atender aos seguintes critérios para passar a verificação de validação antes do carregamento:
 
 - O arquivo deve ser um arquivo. TSV (as colunas são separadas por uma TABULAção) ou um arquivo. csv (as colunas são separadas por uma vírgula).
+
 - O conteúdo do arquivo de dados não inclui cabeçalhos de tabela. Espera-se que a primeira linha do arquivo de dados seja real, não um rótulo de cabeçalho como "EndpointName".
+
 - Todas as seis colunas usam somente o tipo de dados de cadeia de caracteres. O comprimento máximo permitido é de 64 caracteres.
+
 - Um campo de dados pode estar vazio, mas ainda deve ser separado por uma Tabulação ou vírgula. Um campo de dados vazio apenas atribui um valor de cadeia de caracteres vazia.
+
 - EndpointName deve ser exclusivo; caso contrário, o carregamento falhará. Se houver uma linha duplicada ou duas linhas com o mesmo ponto de extremidadename, o conflito causará a junção incorreta.
+
 - EndpointLabel1, EndpointLabel2 e EndpointLabel3 são rótulos personalizáveis. Elas podem ser cadeias de caracteres ou valores vazios, como o "departamento de ti designado 2018 laptop" ou "marca do ativo 5678".
+
 - Deve haver seis colunas para cada linha, e as colunas devem estar na seguinte ordem:
 
   **Ordem dos campos:**
 
-EndpointName, EndpointModel, EndpointType, EndpointLabel1, EndpointLabel2, EndpointLabel3
+  EndpointName, EndpointModel, EndpointType, EndpointLabel1, EndpointLabel2, EndpointLabel3
 
   **Linha de amostra:**
 
-`1409W3534, Fabrikam Model 123, Laptop, IT designated 2018 Laptop, Asset Tag 5678, Purchase 2018,`  
-
+  `1409W3534, Fabrikam Model 123, Laptop, IT designated 2018 Laptop, Asset Tag 5678, Purchase 2018,`  
 
 
 ## <a name="update-a-building-file"></a>Atualizar um arquivo de construção
@@ -187,10 +191,14 @@ Durante a coleta de informações de construção e de sub-rede, os administrado
 
 Há ocasiões em que você precisará adicionar novas sub-redes ao CQD que não faziam parte da topologia de rede. Para adicionar novas sub-redes, faça o seguinte na página de **carregamento de dados do locatário** no CQD:
 
-2.  Baixe o arquivo original, caso ainda não tenha uma cópia atualizada.
+1.  Baixe o arquivo original, caso ainda não tenha uma cópia atualizada.
+
 1.  Remova o arquivo atual no CQD.
+
 1.  Edite o arquivo de construção original e forneça uma data de término que ocorra pelo menos um dia antes da aquisição da nova sub-rede.
+
 1.  Acrescente novas sub-redes ao arquivo de construção original.
+
 1.  Carregue o arquivo de criação recém modificado e defina a data de início para um dia após o término do arquivo de construção anterior.
 
 ## <a name="add-missing-subnets"></a>Adicionar sub-redes ausentes
@@ -198,9 +206,13 @@ Há ocasiões em que você precisará adicionar novas sub-redes ao CQD que não 
 Depois de carregar as informações de construção para redes gerenciadas, cada rede gerenciada deve ter uma associação de construção. No entanto, isso nem sempre é o caso; Geralmente, algumas sub-redes são perdidas. Para encontrar essas redes ausentes, examine o **relatório de sub-rede ausente** na página de **relatórios de qualidade da experiência** no CQD. Isso apresenta todas as sub-redes com 10 ou mais fluxos de áudio que não são definidos no arquivo de dados de construção e são marcados como externos. Certifique-se de que não há redes gerenciadas nesta lista. Se as sub-redes estiverem ausentes, use o procedimento a seguir para atualizar o arquivo de dados de construção original e carregá-lo novamente no CQD.
 
 1. Vá para a página de **carregamento de dados do locatário** no CQD.
+
 1. Baixe o arquivo original, caso ainda não tenha uma cópia atualizada.
+
 1. Remova o arquivo atual no CQD.
+
 1. Acrescentar as novas sub-redes ao arquivo original.
+
 1. Carregue o arquivo de construção. Certifique-se de definir a data de início com pelo menos oito meses antes de que o CQD processe dados históricos.
 
 

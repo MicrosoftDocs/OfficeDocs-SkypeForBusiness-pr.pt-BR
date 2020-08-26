@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: daeacf5e5019dd8b63ef19b194b241cbdfe9d84f
-ms.sourcegitcommit: 0e96539e3efef21ae6150f541efaeca3f9149aea
+ms.openlocfilehash: 3cc7cdf9dc685e595a7efa3c0eddbf63f9ee79f1
+ms.sourcegitcommit: c1aaf1f81c07c0956095b5bd4cb241b1de67b189
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "46864505"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "46897691"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Limites e especificações para o Microsoft Teams
 
@@ -65,7 +65,7 @@ O bate-papo do Teams funciona em um back-end do Microsoft Exchange, para que os 
 
 |Recurso  | Limite máximo  |
 |---------|---------|
-|Número de pessoas em um bate-papo particular <sup>1</sup>  | 250<br><br>**Observação:** para O Teams Governamental (GCC, GCC Alta, DoD), o limite ainda é 100. Atualizaremos este artigo quando o limite de nuvem governamental aumentar de 100 para 250.    |
+|Número de pessoas em um bate-papo particular <sup>1</sup>  | 250 |
 |O número de pessoas em uma chamada de áudio ou vídeo do chat | 20 |
 |Número de anexos de arquivo<sup>2</sup>  |10     |
 |Tamanho do chat | Aproximadamente 28 KB pela postagem <sup>3</sup> |
