@@ -1,7 +1,7 @@
 ---
 title: Configurar feriados no Microsoft Teams
-ms.author: tonysmit
-author: tonysmit
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: oscarr
 ms.topic: article
@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.orgwidesettings.holidays.overview
 - seo-marvel-apr2020
 description: Saiba como configurar feriados no Microsoft Teams e conectá-los ao atendedor automático usando o recurso feriados.
-ms.openlocfilehash: 531b2ff6c9fedcab7710fbab3ac9bd69d615ab73
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: bd8b70fcd3f7fd50826498e91fdbbace602fc0f6
+ms.sourcegitcommit: 2874aec7768bb46ed4506c1a2d431841f47190bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905573"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "47255404"
 ---
 # <a name="set-up-holidays-in-microsoft-teams"></a>Configurar feriados no Microsoft Teams
 
@@ -39,7 +39,7 @@ Para obter mais informações sobre atendedores automáticos, consulte [o que s�
 
 ## <a name="create-a-holiday"></a>Criar um feriado
 
-1. No centro de administração do Microsoft Teams, vá para > **feriados** **de configurações de toda a organização**.
+1. No centro de administração do Microsoft Teams, vá para feriados **de configurações de toda a organização**  >  **Holidays**.
 
 2. Selecione **novo feriado**.
 
@@ -59,7 +59,7 @@ Para obter mais informações sobre atendedores automáticos, consulte [o que s�
 
 ## <a name="change-a-holiday"></a>Alterar um feriado
 
-1. No centro de administração do Microsoft Teams, vá para > **feriados** **de configurações de toda a organização**.
+1. No centro de administração do Microsoft Teams, vá para feriados **de configurações de toda a organização**  >  **Holidays**.
 
 2. Selecione o feriado na lista.
 
@@ -75,7 +75,7 @@ Para obter mais informações sobre atendedores automáticos, consulte [o que s�
 
 ## <a name="connect-a-holiday-to-an-auto-attendant"></a>Conectar um feriado a um atendedor automático
 
-1. No centro de administração do Microsoft Teams, acesse**atendedores automáticos**de **voz** > .
+1. No centro de administração do Microsoft Teams, **Voice**acesse  >  **atendedores automáticos**de voz.
 2. Selecione uma conta de recurso na lista.
 3. No painel esquerdo, selecione **configurações de chamadas de Natal**.
 4. Selecione **novo feriado**.

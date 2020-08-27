@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: A Microsoft está desativando o serviço de Unificação de mensagens do Exchange Online (ExchUMO) em 28 de fevereiro de 2020. Este artigo resume o que os clientes afetados devem saber e fazer para planejar sua continuidade de negócios.
-ms.openlocfilehash: e01bae468a459ef5013aa72eee74ed4cb015cddc
-ms.sourcegitcommit: c1aaf1f81c07c0956095b5bd4cb241b1de67b189
+ms.openlocfilehash: 57f7575626d00cbd7c592349ca7a5a92c75eb34c
+ms.sourcegitcommit: 2874aec7768bb46ed4506c1a2d431841f47190bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 08/26/2020
-ms.locfileid: "46897811"
+ms.locfileid: "47255434"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Suporte à migração da Unificação de Mensagens do Exchange Online
 
@@ -150,7 +150,6 @@ Os administradores de organização do Microsoft 365 e do Office 365 precisam re
 | VM | Recursos do usuário | Configuração do usuário para desabilitar a transcrição |  | N | S    |
 | VM | Recursos do usuário | Transcrição  |  | S | S    |
 | VM | Recursos do usuário | MWI (indicador de espera de mensagem) usando mensagens de notificação SIP |  | N | S    |
-| VM | Recursos do usuário | Caixa postal Visual em todos os pontos de extremidade   | Com controle de usuário para reproduzir, excluir, notificação de mensagem em espera e status-alternar, em todos os pontos de extremidade suportados  | S | S    |
 | VM | Recursos do usuário | Formato de arquivo de áudio MP3 no Outlook    |  | S | S    |
 | VM | Recursos do usuário | Controle de execução de velocidade variável |  | S | S    |
 | VM | Recursos do usuário | Encaminhar uma caixa postal  | Encaminhar uma caixa postal recebida para outros usuários | S | S    |

@@ -17,12 +17,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ca9555604cffc99250c17e44aef5edbd1ebdaed7
-ms.sourcegitcommit: 0e96539e3efef21ae6150f541efaeca3f9149aea
+ms.openlocfilehash: 0db8b037bdf67f920e1089ae8f67f477e85e3e06
+ms.sourcegitcommit: 39fa1aee7a5e067097b126aa619be5aa099888ff
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "46864565"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "46903800"
 ---
 # <a name="retention-policies-in-microsoft-teams"></a>Políticas de retenção no Microsoft Teams
 
@@ -146,6 +146,14 @@ Para editar uma política de retenção do Teams, siga este procedimento:
 3. Selecione **Editar** ao lado do que você deseja editar, faça suas alterações, clique em **Salvar**e, em seguida, clique em **Fechar**.
 
     ![Captura de tela das opções de chat e mensagens de canal do Teams na página Escolher locais](media/retention-policies-edit.png)
+
+> [!WARNING]
+> Se você configurou equipes específicas ou usuários específicos para incluir mensagens de canal de equipe ou chats de equipe e editá-los para remover o último para o local, a configuração desse local será revertida para **todos**. Verifique se esta é a configuração que você pretende antes de salvar a política.
+> 
+> Por exemplo, se você tiver especificado um usuário de chat de equipe para incluir em sua política de retenção que está configurada para excluir dados e, em seguida, editar a política para remover esse usuário, por padrão, todos os usuários estarão sujeitos à política de retenção que exclui permanentemente suas mensagens de chat de equipe. O mesmo se aplica a inclusões para mensagens de canal de equipe.
+> 
+> Nesse cenário, desative a opção local se não quiser que **todas** as mensagens de canal de equipe ou mensagens de chat de equipe estejam sujeitas à política de retenção. Ou, se preferir, especifique as exclusões a serem isentas da política.
+
 
 #### <a name="delete-a-retention-policy"></a>Excluir uma política de retenção.
 

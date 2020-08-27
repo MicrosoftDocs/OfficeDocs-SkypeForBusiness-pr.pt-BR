@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: O administrador pode saber qual controlador de borda de sessão (SBCs) foi certificado para roteamento direto.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3aa35fe23796f3ee248e2797aba86c9982aa8364
-ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
+ms.openlocfilehash: cf37165459d1d9f492b74cf9f0000eec45c632f2
+ms.sourcegitcommit: 2874aec7768bb46ed4506c1a2d431841f47190bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46788715"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "47255364"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Lista de controladores de borda da sessão certificados para Roteamento Direto
 
@@ -78,6 +78,7 @@ A tabela a seguir lista os dispositivos certificados para Roteamento Direto.
 |                                   |     Elemento de borda unificada da Cisco (cubo) para roteador de serviços de nuvem da série 1000V       |     &#10004;   |  |      IOS XE de Amsterdã 17.2.1 r      |    <ul> <li> [Roteamento de localização dinâmica da largura de banda](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[Serviço de roteamento de emergência inentrada (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Inentrada do gateway de emergência (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>    |    |  
 |                                 |     Elemento de borda unificada da Cisco (cubo) para roteadores de serviços de agregação da série 1000      |     &#10004;   |  |      IOS XE de Amsterdã 17.2.1 r      |    <ul> <li> [Roteamento de localização dinâmica da largura de banda](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[Serviço de roteamento de emergência inentrada (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Inentrada do gateway de emergência (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>    |    |
 |                     [Avaya](https://support.avaya.com/products/P0997/avaya-session-border-controller-for-enterprise/8.1.x)|    Controlador de borda de sessão do Avaya para Enterprise (ASBCE)    |     &#10004;     |           |       Versão 8.1.1       |     |    | 
+|                     [Nokia](https://documentation.nokia.com/aces/cgi-bin/chk_access.cgi/3TB30222GBAAACZZA.zip)|    Controlador de borda de sessão Nokia    |     &#10004;     |           |       19,5 (1908)       |     |    | 
 
 <br/>
 <br/>

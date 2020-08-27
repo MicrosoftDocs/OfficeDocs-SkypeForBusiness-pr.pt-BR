@@ -1,7 +1,7 @@
 ---
 title: Como a identificação de chamadas pode ser usada em sua organização
-author: CarolynRowe
-ms.author: crowe
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: mikedav, roykuntz
 ms.topic: article
@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - ms.teamsadmincenter.voice.callerid.overview
 description: A identificação de chamadas pode ser controlada para chamadas de entrada e de saída para usuários do sistema telefônico usando uma política chamada CallingLineIdentity.
-ms.openlocfilehash: 5c20f439d156997c89ca54c2a3bf39e9c3a42ae4
-ms.sourcegitcommit: ded1e92348b6c18aa31f7f67e68ced3db525977d
+ms.openlocfilehash: cd2074fec3027f1172b6ea681013f53994963cb5
+ms.sourcegitcommit: 2874aec7768bb46ed4506c1a2d431841f47190bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "46506192"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "47255444"
 ---
 # <a name="how-can-caller-id-be-used-in-your-organization"></a>Como a identificação de chamadas pode ser usada em sua organização
 
@@ -60,7 +60,7 @@ Há três opções disponíveis para a identificação de chamadas PSTN de saíd
     
 No entanto, você não pode atribuir esses tipos de números de telefone para identificação de chamada de saída:
   
-- Qualquer número de telefone classificado como um *usuário* em seu plano de número de telefone de planos de chamadas
+- Qualquer número de telefone classificado como um  *usuário*  em seu plano de número de telefone de planos de chamadas
     
 - Um número de telefone local do Skype for Business Server
     

@@ -17,12 +17,12 @@ description: Saiba como configurar os planos de chamada e o recurso de chamadas 
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1b0cfe260a2d7e159c4adfad31d5266ed5f924d5
-ms.sourcegitcommit: 2aea6ec07149a3054ee4434c8a0bffabf1a16d25
+ms.openlocfilehash: a4110acb76f63adaa0470b93a66be620d5998fad
+ms.sourcegitcommit: 2874aec7768bb46ed4506c1a2d431841f47190bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46576923"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "47255374"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>Planejar e configurar chamadas de emergência dinâmicas 
 
@@ -81,7 +81,7 @@ Os clientes a seguir têm suporte no momento.  Verifique com frequência para ve
 
 ## <a name="assign-emergency-addresses"></a>Atribuir endereços de emergência
 
-Você pode atribuir endereços de emergência a usuários do plano de chamada e aos identificadores de rede necessários para obter um local dinamicamente. (A sub-rede e o AP WiFi têm suporte; o suporte para switch/porta Ethernet está pendente).
+Você pode atribuir endereços de emergência a usuários do plano de chamada e aos identificadores de rede necessários para obter um local dinamicamente. (Só há suporte para sub-rede e AP WiFi. O switch/porta Ethernet tem suporte no Windows 8,1 e posterior no momento).
 
 Para dar suporte ao roteamento automatizado de chamadas de emergência nos Estados Unidos, você deve garantir que os locais de emergência atribuídos a identificadores de rede incluam os códigos geográficos associados. (Os endereços de emergência sem códigos geográficos não podem ser atribuídos aos identificadores de rede necessários para locais dinâmicos.)
 
@@ -216,7 +216,7 @@ Alguns provedores de serviços de roteamento de emergência (ERSPs) nos Estados 
 
 - [Gerenciar chamadas de emergência](what-are-emergency-locations-addresses-and-call-routing.md)
 - [Gerenciar políticas de chamadas de emergência](manage-emergency-calling-policies.md)
-- [Gerenciar políticas de roteamento de chamadas de emergência](manage-emergency-call-routing-policies.md)
+- [Gerenciar políticas de roteamento de chamadas de emergência ](manage-emergency-call-routing-policies.md)
 - [Adicionar, alterar ou remover um local de emergência para sua organização](add-change-remove-emergency-location-organization.md)
 - [Atribuir ou alterar um local de emergência para o usuário](assign-change-emergency-location-user.md)
 - [Configurações de rede para recursos de voz na nuvem](cloud-voice-network-settings.md)
