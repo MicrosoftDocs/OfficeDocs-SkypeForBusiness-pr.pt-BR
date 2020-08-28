@@ -1,7 +1,7 @@
 ---
 title: Criar uma fila de chamadas
-ms.author: dstrome
-author: dstrome
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: phans, wasseemh
 ms.topic: article
@@ -23,21 +23,25 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Saiba como configurar o sistema telefônico para filas de chamadas em nuvem com o Microsoft Teams, que fornecem uma mensagem de saudação, suspender música, redirecionamento de chamada e outros recursos.
-ms.openlocfilehash: f0631eece5b8f67cd93c46b34c56bb2283826c3f
-ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
+ms.openlocfilehash: be43c2dc378b985b63c47b9322b336eeadfeecb6
+ms.sourcegitcommit: 515f6cf7c16c0ab6ea7acbbd59084ac89b57dfb8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46556611"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "47295304"
 ---
 # <a name="create-a-cloud-call-queue"></a>Criar uma fila de chamada do Cloud
 
 As filas de chamadas na nuvem podem fornecer:
 
 - Uma mensagem de saudação.
+
 - Música enquanto as pessoas estão aguardando a espera.
+
 - Redirecionar chamadas para agentes de chamada em listas de distribuição habilitadas por email e grupos de segurança.
+
 - Configuração de parâmetros diferentes, como tamanho máximo da fila, tempo limite e opções de tratamento de chamadas.
+
 - Caixa postal compartilhada para chamadores deixar uma mensagem para uma organização.
 
 Você não associa diretamente um número de telefone a uma fila de chamadas, em vez disso, o número de telefone está associado a uma [conta do recurso](manage-resource-accounts.md). Uma fila de chamadas pode ser discada diretamente ou acessada por uma seleção em um atendedor automático.
@@ -47,8 +51,11 @@ O chamador ouve música enquanto ela está em espera, e a chamada se conecta aos
 Todas as chamadas na fila são enviadas aos agentes por um dos seguintes métodos:
 
 - Com o roteamento de atendedor, a primeira chamada na fila toca todos os agentes ao mesmo tempo.
+
 - Com o roteamento serial, a primeira chamada na fila toca todos os agentes de chamada um por vez.
+
 - Com roteamento de ociosidade mais longo, o agente de chamada cujo tempo está ocioso o tempo mais longo recebe a próxima chamada disponível. O tempo ocioso é definido como o período de tempo durante o qual o estado de presença de um agente de chamada é definido como **disponível** ou **ausente** (se for menor que 10 minutos), no momento da chamada. Se a presença de um agente de chamada estiver **ausente** por mais de 10 minutos, o cronômetro de ociosidade será redefinido.
+
 - Com o rodízio, o roteamento de chamadas recebidas é balanceado para que cada agente de chamadas obtenha o mesmo número de chamadas da fila.
 
 Você pode definir as opções de gerenciamento de chamadas, como consentimento de agente/recusa, roteamento baseado em presença, tempo de espera de chamada e opções de tempo limite de chamada com qualquer um dos métodos acima.
@@ -63,13 +70,14 @@ Apenas uma notificação de chamada de entrada (para a chamada no início da fil
 Para começar a usar filas de chamadas, é importante lembrar-se de algumas coisas:
 
 - Uma fila de chamadas é necessária para ter uma conta de recurso associada. Consulte [gerenciar contas de recursos no Teams](manage-resource-accounts.md) para obter detalhes sobre contas de recursos.
+
 - Ao atribuir um número de telefone a uma conta de recurso, agora você pode usar a [licença de usuário virtual](teams-add-on-licensing/virtual-user.md)de sistema telefônico sem custo. O sistema telefônico permite números de telefone no nível organizacional para uso com serviços de atendedor automático de baixo custo e fila de chamadas.
 
   > [!NOTE]
   > Os números do serviço de roteamento direto para filas de chamadas têm suporte somente para usuários e agentes do Microsoft Teams.
 
-> [!NOTE]
-> Para redirecionar chamadas para pessoas em sua organização que estão online, elas devem ter uma licença do **sistema de telefonia** e estar habilitadas para o Enterprise Voice ou ter planos de chamada do Microsoft 365 ou do Office 365. Consulte [atribuir licenças de Complementos do Microsoft Teams](teams-add-on-licensing/assign-teams-add-on-licenses.md). Para habilitá-las para o Enterprise Voice, você pode usar o Windows PowerShell. Por exemplo, execute: ' Set-CsUser-Identity "Amos Marble"-EnterpriseVoiceEnabled $true.
+  > [!NOTE]
+  > Para redirecionar chamadas para pessoas em sua organização que estão online, elas devem ter uma licença do **sistema de telefonia** e estar habilitadas para o Enterprise Voice ou ter planos de chamada do Microsoft 365 ou do Office 365. Consulte [atribuir licenças de Complementos do Microsoft Teams](teams-add-on-licensing/assign-teams-add-on-licenses.md). Para habilitá-las para o Enterprise Voice, você pode usar o Windows PowerShell. Por exemplo, execute: ' Set-CsUser-Identity "Amos Marble"-EnterpriseVoiceEnabled $true.
 
 - Para saber mais sobre planos de chamada, consulte [sistema telefônico e planos de chamada](calling-plan-landing-page.md) e [planos de chamada para o Microsoft 365 ou o Office 365](calling-plans-for-office-365.md).
 
@@ -176,7 +184,7 @@ Os agentes de chamada selecionados devem ser um dos seguintes:
   > [!NOTE]
   > Isso também se aplica se você quiser redirecionar chamadas para as pessoas em sua organização que estão online. Esses indivíduos devem ter uma licença do sistema telefônico e o Enterprise Voice habilitados *ou* ter um plano de chamadas. Para obter mais informações, consulte [atribuir licenças do Skype for Business](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses), [atribuir licenças do Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/assign-teams-add-on-licenses)ou [qual plano de chamada é ideal para você?](https://docs.microsoft.com/microsoftteams/calling-plan-landing-page)
 
-   Para habilitar um agente para Enterprise Voice, você pode usar o Windows PowerShell. Por exemplo, execute:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+   Para habilitar um agente para Enterprise Voice, você pode usar o Windows PowerShell. Por exemplo, execute: `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
 - Usuários com uma licença do sistema telefônico ou um plano de chamadas que são adicionados a um grupo do Microsoft 365, uma lista de distribuição habilitada para email ou um grupo de segurança. Quando você adiciona um agente em uma lista de distribuição ou um grupo de segurança como um agente de fila de chamada, pode levar até três horas para que a primeira chamada seja recebida. Uma lista de distribuição ou um grupo de segurança recém-criado pode levar até 48 horas para se tornar disponível para ser usado com filas de chamadas. Os grupos do Microsoft 365 recém criados estão disponíveis quase que imediatamente.
 
@@ -188,8 +196,10 @@ Os agentes de chamada selecionados devem ser um dos seguintes:
 O modo de conferência está desabilitado por padrão, mas pode ser habilitado a qualquer momento se os seguintes requisitos forem atendidos:
 
 - Os agentes adicionados à fila de chamadas precisam usar um dos seguintes clientes:
+
   - A versão mais recente do cliente de desktop do Microsoft Teams, do aplicativo Android ou do aplicativo iOS
   - Microsoft Teams Phone versão 1449/1.0.94.2020051601 ou posterior
+  
 - Contas de equipe dos agentes devem ser definidas para o modo somente de equipes
 
 > [!IMPORTANT]
@@ -229,6 +239,15 @@ Se um agente optar por não receber chamadas, ele não será incluído na lista 
 
 > [!IMPORTANT]
 > Os agentes que usam o cliente Skype for Business não são incluídos na lista de roteamento de chamadas quando o roteamento baseado em presença está habilitado, independentemente de seu status de disponibilidade. Os agentes que não estão na lista de circulação de chamadas não recebem chamadas. Se você tiver agentes que usam o Skype for Business, não habilite o encaminhamento de chamadas baseado em presença.
+
+> [!IMPORTANT]
+> Nas filas de chamadas de alto volume, as configurações recomendadas são:
+>
+> Modo de conferência: automático<br>
+> Método de roteamento: roteamento de atendedor<br>
+> Roteamento baseado em presença: ativado<br>
+> Tempo de alerta do agente: 20 segundos
+
 
 ### <a name="select-an-agent-opt-out-option"></a>Selecionar uma opção de cancelamento de agente
 
@@ -276,6 +295,7 @@ A configuração padrão é 30 segundos, mas pode ser definida por até 3 minuto
  **quando o número máximo de chamadas é atingido** quando a fila de chamadas atinge seu tamanho máximo (definido usando o **máximo de chamadas na configuração de fila** ), você pode escolher o que acontece com as novas chamadas de entrada.
 
 - **Desconectar** A chamada está desconectada.
+
 - **Redirecionar para** Ao escolher essa opção, selecione uma das seguintes opções:
 
   - **Pessoa na organização** Um usuário online com uma licença do sistema de telefonia e está habilitado para o Enterprise Voice ou tem um plano de chamadas.
@@ -293,6 +313,7 @@ A configuração padrão é 30 segundos, mas pode ser definida por até 3 minuto
             - Se definido como Disabled, o número de telefone do chamador original será exibido. Esta é a configuração padrão e recomendada.
             - Se definido como habilitado, o número de telefone da conta do recurso será exibido.
     - Não há suporte para transferências entre troncos de plano de chamada e troncos diretos de roteamento.
+    
   - **Correio de voz** Selecione o grupo do Microsoft 365 que contém os usuários em sua organização que precisam acessar o correio de voz recebido por esta fila de chamadas e, em seguida, selecione uma das seguintes opções:
       - **Reproduzir um arquivo de áudio** Se você escolher essa opção, selecione **carregar arquivo** para carregar uma mensagem de saudação gravada. A gravação não pode ter mais de 5 MB. 
       - **Digite uma mensagem de saudação** Se você escolher essa opção, insira o texto que deseja que o sistema Leia (até 1000 caracteres). Por exemplo, você pode digitar "Desculpe que não podemos fazer sua chamada neste momento. Deixe seu nome, número de telefone e motivo para a sua chamada após o sinal de bipe. "
@@ -312,7 +333,9 @@ O valor de tempo limite pode ser definido em segundos, em intervalos de 15 segun
  **quando a chamada atinge o tempo limite** quando a chamada atinge o limite que você definiu no **tempo em que uma chamada pode esperar na configuração da fila** , você pode escolher o que acontecerá com a chamada:
 
 - **Desconectar** A chamada está desconectada.
+
 - **Redirecionar esta chamada para** Ao escolher esta opção, você tem estas opções:
+
   - **Pessoa na organização** Um usuário online com uma licença do sistema de telefonia e habilitado para o Enterprise Voice ou ter planos de chamada.
 
   - **Aplicativo de voz** Selecione o nome de uma conta de recurso associada a uma fila de chamadas ou atendedor automático que você já criou.
@@ -330,6 +353,7 @@ O valor de tempo limite pode ser definido em segundos, em intervalos de 15 segun
     - Não há suporte para transferências entre troncos de plano de chamada e troncos diretos de roteamento.
     - **Correio de voz** Selecione o grupo do Microsoft 365 que contém os usuários em sua organização que precisam acessar o correio de voz recebido por esta fila de chamadas e, em seguida, selecione uma das seguintes opções:
       - **Reproduzir um arquivo de áudio** Se você escolher essa opção, selecione **carregar arquivo** para carregar uma mensagem de saudação gravada. A gravação não pode ter mais de 5 MB.
+      
       - **Digite uma mensagem de saudação** Se você escolher essa opção, insira o texto que deseja que o sistema Leia (até 1000 caracteres). Por exemplo, você pode digitar "Desculpe que não podemos fazer sua chamada neste momento. Deixe seu nome, número de telefone e motivo para a sua chamada após o sinal de bipe. "
 
       Ative a transcrição se quiser habilitar a transcrição de voz para texto de mensagens de voz.
@@ -340,13 +364,13 @@ O valor de tempo limite pode ser definido em segundos, em intervalos de 15 segun
 
 Para proteger a identidade de um agente de chamada, altere a identificação de chamadas para chamadas de saída para uma fila de chamadas, atendedor automático ou qualquer número de serviço com o cmdlet **New-CsCallingLineIdentity** , como no exemplo a seguir:
 
-``` Powershell
+```powershell
 New-CsCallingLineIdentity -Identity "UKSalesQueue" -CallingIdSubstitute "Service" -ServiceNumber 14258828080 -EnableUserOverride $False -Verbose
 ```
 
 Em seguida, aplique a política ao usuário com o cmdlet **Grant-CallingLineIdentity** como no exemplo a seguir: 
 
-``` Powershell
+```powershell
 Grant-CsCallingLineIdentity -PolicyName UKSalesQueue -Identity "AmosMarble@contoso.com"
 ```
 
