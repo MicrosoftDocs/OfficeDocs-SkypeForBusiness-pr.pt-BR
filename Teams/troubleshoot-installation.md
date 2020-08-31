@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba como solucionar problemas de instalação e atualização para o aplicativo cliente de área de trabalho do Teams no Windows.
-ms.openlocfilehash: 7b8d4984a8ee40f9a013155ad28b682e000260ba
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: a6070dbd6bd0540c7402f8d8077ea468a3296c31
+ms.sourcegitcommit: 206e01b72218f57e68823dc23b7ca28bce7cb3bb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45086137"
+ms.lasthandoff: 08/28/2020
+ms.locfileid: "47300275"
 ---
 # <a name="troubleshoot-microsoft-teams-installation-and-update-issues-on-windows"></a>Solucionar problemas de instalação e atualização do Microsoft Teams no Windows
 
@@ -49,7 +49,7 @@ Se o SquirrelSetup.log não indicar a causa ou se você precisar de mais informa
 
 ### <a name="troubleshoot-update-issues"></a>Solucionar problemas de atualização
 
-Quando o Teams for instalado com êxito, o local do log alternará de%LocalAppData%\SquirrelTemp para%AppData%\Microsoft\Teams. Neste local, há dois arquivos de log de interesse, SquirrelSetup.log e logs.txt.
+Quando o Microsoft Teams é instalado com êxito, o local do log muda de%LocalAppData%\SquirrelTemp para%LocalAppData%\Microsoft\Teams. Neste local, há dois arquivos de log de interesse, SquirrelSetup.log e logs.txt.
 
 - O arquivo SquirrelSetup.log neste local é escrito por Update.exe, que é um executável que usa o aplicativo Teams.
 - O arquivo logs.txt é usado pelo aplicativo Teams (especificamente Teams.exe) para registrar eventos significativos de aplicativos. Provavelmente, contém informações de falha.

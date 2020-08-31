@@ -16,12 +16,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Saiba mais sobre o controle de acesso baseado em função com o serviço gerenciado de salas do Microsoft Teams.
 f1keywords: ''
-ms.openlocfilehash: ec8bb770f1dd843c569a98dd909c87ef3ca14dd0
-ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
+ms.openlocfilehash: 2f3886d7f7f59521028b87f05ffedfaa1fae9ac2
+ms.sourcegitcommit: 206e01b72218f57e68823dc23b7ca28bce7cb3bb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46788775"
+ms.lasthandoff: 08/28/2020
+ms.locfileid: "47300285"
 ---
 # <a name="role-based-access-control-with-the-microsoft-teams-rooms-managed-service"></a>Controle de acesso baseado em função com o serviço gerenciado de salas do Microsoft Teams
 
@@ -59,12 +59,12 @@ A tabela a seguir resume o que cada função pode fazer.
 |    |Redefinir chave         |&#10004;           |         ||
 |    |Chave de download         |&#10004;           |&#10004;          |&#10004; |
 |    |Cancelarem         |&#10004;           |&#10004;           |&#10004; |
-|Gerenciamento de grupo   |Criar         |&#10004;           |&#10004;           ||
+|Gerenciamento de grupo   |Criar         |&#10004;           |           ||
 |    |View       |&#10004;          |&#10004;           ||
-|    |Editar         |&#10004;           |&#10004;           ||
-|Atualizar gerenciamento de anel    |Criar         |&#10004;           |&#10004;           ||
-|    |View         |&#10004;           |&#10004;           ||
-|    |Editar         |&#10004;           |&#10004;           ||
+|    |Editar         |&#10004;           |           ||
+|Atualizar gerenciamento de anel    |Criar         |&#10004;           |           ||
+|    |View         |&#10004;           |           ||
+|    |Editar         |&#10004;           |           ||
 |Gerente   |View        |&#10004;           |&#10004;           ||
 |Gerenciamento de tíquetes   |Criar incidente do cliente         |&#10004;           |&#10004;           |&#10004;  |
 |    |View         |&#10004;           |&#10004;           |&#10004;  |
@@ -78,7 +78,7 @@ A tabela a seguir resume o que cada função pode fazer.
 
 Para atribuir funções, você deve ser um administrador global ou administrador de serviço gerenciado.
 
-1. Na navegação à esquerda do portal de serviço gerenciado de salas do Microsoft Teams, vá para **funções**.
+1. Na navegação à esquerda do portal de serviço gerenciado de salas do Microsoft Teams **Settings**, vá para  >  **funções**configurações.
 
     :::image type="content" source="../media/microsoft-teams-rooms-premium-roles.png" alt-text="Captura de tela da página de controle de acesso mostrando funções":::
 
