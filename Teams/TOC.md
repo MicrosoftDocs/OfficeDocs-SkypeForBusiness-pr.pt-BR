@@ -816,7 +816,6 @@
 ### [Atribuir licenças de complemento do Teams](teams-add-on-licensing/assign-teams-add-on-licenses.md)
 ### [Gerenciar a oferta de avaliação do Office 365 E1](e1-trial-license.md)
 ### [Gerenciar a oferta de Avaliação do Office 365 G1](g1-trial-license.md)
-### [Gerenciar a oferta da avaliação comercial do Teams](iw-trial-teams.md)
 ### [Gerenciar a experiência do Teams Exploratory](teams-exploratory.md)
 ### [Gerenciar a versão gratuita do Teams](manage-freemium.md)
 ### [Atualize o Teams gratuitamente para a versão de assinatura](upgrade-freemium.md)
