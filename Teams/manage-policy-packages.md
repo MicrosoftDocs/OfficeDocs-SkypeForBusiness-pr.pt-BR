@@ -20,12 +20,12 @@ ms.custom:
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba como usar e gerenciar pacotes de política no Microsoft Teams para simplificar, simplificar e ajudar a fornecer consistência ao gerenciar políticas para grupos de usuários.
-ms.openlocfilehash: 0bd14852a9f488bb6740a2df8219041ba0c71ebb
-ms.sourcegitcommit: 13b88679f3154c264dd2f01be785d6570276853e
+ms.openlocfilehash: 01f32f1141ce46aa45073571ccfaabc8646fc215
+ms.sourcegitcommit: 19662d4bc4070f6031084d93e8794e0e02decd2b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45374359"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "47327235"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>Gerenciar pacotes de política no Microsoft Teams
 
@@ -115,6 +115,14 @@ Você pode editar as configurações de uma política por meio da página **paco
     - Clique no tipo de política.  Por exemplo, clique em **políticas de mensagens**.
 2. Clique na política que você deseja editar. As políticas vinculadas a um pacote de política têm o mesmo nome que o pacote de política.
 3. Faça as alterações desejadas e clique em **salvar**.
+
+## <a name="supported-policy-types"></a>Tipos de política com suporte
+
+- Mensagens
+- Reuniões
+- Chamadas
+- Configuração do aplicativo
+- Eventos ao vivo
 
 ## <a name="troubleshooting"></a>Solução de problemas
 

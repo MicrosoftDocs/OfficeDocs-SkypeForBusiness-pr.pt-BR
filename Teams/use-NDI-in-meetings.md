@@ -17,28 +17,28 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 86c0908b04b2eece835a747d9f57625878c15a99
-ms.sourcegitcommit: 95989f1a93524a2025feeb50b8635da332961ea3
+ms.openlocfilehash: 24e4312af520bf783c0382b7543190644bfc1ff0
+ms.sourcegitcommit: 7c701fc38c8a81ac0938f666c336252c3983ca4c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "46588285"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "47323985"
 ---
-# <a name="use-ndi-in-microsoft-teams"></a>Usar o NDI no Microsoft Teams
+# <a name="use-ndi-technology-in-microsoft-teams"></a>Usar a tecnologia® do NDI no Microsoft Teams
 
 [!INCLUDE [template](includes/preview-feature.md)]
 
-O NDI (Network Device Interface) é uma solução moderna para conexão de dispositivos de mídia (como uma câmera e mixer de estúdio). Em vez de usar conexões físicas, o NDI permite a conectividade em uma intranet local, incluindo em um computador local.
+ NDI® (interface de dispositivo de rede) é uma solução moderna para conexão de dispositivos de mídia (como uma câmera e mixer de estúdio). Em vez de usar conexões físicas, o NDI® tecnologia permite a conectividade em uma intranet local, incluindo em um computador local.
 
-NewTek NDI® tornou-se uma solução padrão do setor para a produção de conteúdo ao vivo para fluxos e ganhou conhecimento e adoção significativos no mundo da transmissão profissional.
+NewTek NDI® tecnologia tornou-se uma solução padrão do setor para a produção de conteúdo dinâmico para fluxos e ganhou conhecimento e adoção significativos no mundo da transmissão profissional.
 
-O Skype adicionou anteriormente a funcionalidade NDI ao Skype no fim de 2018. O Microsoft Teams aproveita essa funcionalidade para melhorar a experiência da reunião.
+O Skype adicionou NDI a funcionalidade®-out ao Skype no fim do 2018. O Microsoft Teams aproveita essa funcionalidade para melhorar a experiência da reunião.
 
-O NDI limita-se a uma rede local e só deve ser considerado parte do fluxo de trabalho de produção, não uma solução de transmissão.
+NDI® tecnologia está limitada a uma rede local e só deve ser considerada uma parte do fluxo de trabalho de produção, não uma solução de transmissão.
 
-## <a name="turn-on-ndi"></a>Ativar o NDI
+## <a name="turn-on-ndi-technology"></a>Ativar a tecnologia® do NDI
 
-O NDI exige que duas etapas sejam ativadas para um usuário.
+NDI® tecnologia exige que duas etapas sejam ativadas para um usuário.
 
 1. O administrador de locatários deve habilitar a propriedade ' AllowNDIStreaming ' em CsTeamsMeetingPolicy.
 
@@ -46,24 +46,24 @@ O NDI exige que duas etapas sejam ativadas para um usuário.
 Set-CsTeamsMeetingPolicy -Identity MEETING_POLICY -AllowNDIStreaming $true
 ```
 
-2. Depois que essa alteração tiver sido completada, o usuário final precisará ativar o NDI para o cliente específico das permissões de **configurações**  >  **Permissions**.
+2. Depois que essa alteração tiver sido completada, o usuário final precisará ativar o NDI® tecnologia para o cliente específico nas permissões de **configurações**  >  **Permissions**.
 
 Quando um usuário ingressa em uma reunião, ele vê uma mensagem que informa que a reunião está sendo transmitida. Se os usuários não quiserem ser incluídos na transmissão, eles precisarão ser descartados da reunião.
 
 A imagem a seguir mostra a mensagem de faixa que o usuário vê em uma reunião do teams.
 
-![Uma imagem da faixa NDI exibida em uma reunião do teams.](media/NDI-disclosure.png)
+![Uma imagem da faixa de tecnologia® do NDI que é exibida em uma reunião do teams.](media/NDI-disclosure.png)
 
 A faixa tem um link para a [política de privacidade da Microsoft](https://aka.ms/teamsprivacy).
 
 ## <a name="supported-locales-and-user-types"></a>Locais e tipos de usuários com suporte
 
-NDI é compatível com todas as localidades. Os seguintes usuários têm suporte em uma reunião do NDI:
+NDI® tecnologia tem suporte em todas as localidades. Os seguintes usuários estão incluídos em um fluxo de tecnologia de® NDI, mas nem todos os usuários podem acessar o fluxo de tecnologia de® do NDI:
 
 - In-locatário – suporte completo, entregue com base em anel/tenantid/userId (controlado por política de reuniões)
-- Federado – não (mesmo quando eles têm NDI)<sup>1</sup>
-- Freemium-não (valor padrão)
-- Anônimo – não (valor padrão)
-- Convidado – não (valor padrão)
+- Federado – sem acesso de fluxo (mesmo quando eles têm a tecnologia de® de NDI)<sup>1</sup>
+- Freemium-sem acesso de fluxo
+- Anônimo – sem acesso de fluxo
+- Convidado – sem acesso de fluxo  
 
-<sup>1</sup> dispositivos têm uma configuração NDI ativada por padrão. Se um participante da reunião estiver usando um dispositivo com o NDI desligado, ele precisará ativar o NDI.
+<sup>1</sup> dispositivos têm uma configuração de tecnologia NDI® que está ativada por padrão. Se um participante da reunião estiver usando um dispositivo com NDI® tecnologia desligada, ele precisará ativar o NDI® tecnologia.

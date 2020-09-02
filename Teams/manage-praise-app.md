@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: msteams
 localization_priority: Normal
 description: Saiba mais sobre as configurações de administrador no aplicativo elogios no centro de administração do Microsoft Teams
-ms.openlocfilehash: 2fa2f7e92646dafe3d8bf1cc39325a682c823686
-ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
+ms.openlocfilehash: a04287ca6873d4dee9c58302ca563b167a592f3a
+ms.sourcegitcommit: 7c701fc38c8a81ac0938f666c336252c3983ca4c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656302"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "47324025"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>Gerenciar o aplicativo elogios no centro de administração do Microsoft Teams
 
@@ -105,7 +105,7 @@ Veja a seguir uma lista de cores de exemplo para ajudá-lo a começar:
 
 ## <a name="badge-set-assets"></a>Ativos do conjunto de notificações
 
-Os conjuntos de emblemas internos não podem ser modificados, portanto, quando um conjunto interno está habilitado, todos os selos do conjunto são adicionados ao aplicativo elogio. Se você quiser adicionar notificações específicas de um conjunto interno e deixar os outros, crie novamente os selos que deseja usar como crachás personalizados. Você pode baixar a imagem do selo e localizar as cores do texto e do plano de fundo dos emblemas de conjuntos internos nas tabelas abaixo.
+Os conjuntos de emblemas internos não podem ser modificados, portanto, quando um conjunto interno está habilitado, todos os selos do conjunto são adicionados ao aplicativo elogio. Se você quiser adicionar notificações específicas a um conjunto interno e deixá-los de fora, crie novamente os selos que deseja usar como selos personalizados. Você pode baixar a imagem do selo e localizar as cores do texto e do plano de fundo dos emblemas de conjuntos internos nas tabelas abaixo.
 
 ### <a name="default-badges-assets"></a>Ativos de emblema padrão
 
@@ -114,13 +114,13 @@ Os conjuntos de emblemas internos não podem ser modificados, portanto, quando u
 |Nome do selo     |Arquivo de imagem  |Cor do texto | Cor da tela de fundo |
 |---------------|------------|---------- |--------|
 |Achiever       |[Achiever PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/achiever-badge.png)|#D36E70    |#E3F4FC|
-|Awesome        |[PNG incrível](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/awesome-badge.png>Awesome.PNG)</a>|#8283B2    |#D1EFF2|
+|Awesome        |[PNG incrível](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/awesome-badge.png)</a>|#8283B2    |#D1EFF2|
 |Executiva          |[O PNG do treinador](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/coach-badge.png)</a>|#6AA55A    |#DBF1D6|
 |Impedir        |[PNG recomendável](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/courage-badge.png)</a>|#DC5041    |#FCF6C8|
 |Financiamento       |[PNG criativo](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/creative-badge.png) |#CF9D50    |#FCF6C8|
 |Incluindo      |[PNG inclusivo](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/inclusive-badge.png)</a>|#3C77BB    |#E2F4FC|
 |Tipo de coração     |[Tipo de coração PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/kind-heart-badge.png)</a>|#D36D6E    |#F4DEDE|
-|Liderança     |[PNG de liderança](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/leadership.pn)|#419098    |#D2EAEC|
+|Liderança     |[PNG de liderança](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/leadership-badge.png)|#419098    |#D2EAEC|
 |Melhoridade       |[PNG de melhoridade](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/optimism-badge.png)</a>|#D8338C    |#F4DDDE|
 |Solucionador de problemas |[Resoluções de problemas PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/problem-solver-badge.png)|#B8916E    |#CBDADF|
 |Reprodutor de equipe    |[PNG do Team Player](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/team-player-badge.png)|#8B8DC0    |#F4EEC0|

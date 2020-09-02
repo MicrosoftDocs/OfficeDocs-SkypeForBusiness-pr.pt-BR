@@ -17,12 +17,12 @@ description: Saiba como configurar os planos de chamada e o recurso de chamadas 
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a4110acb76f63adaa0470b93a66be620d5998fad
-ms.sourcegitcommit: 2874aec7768bb46ed4506c1a2d431841f47190bf
+ms.openlocfilehash: 4f2d2f440296316cd448013022494021e3557c32
+ms.sourcegitcommit: 19662d4bc4070f6031084d93e8794e0e02decd2b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "47255374"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "47321734"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>Planejar e configurar chamadas de emergência dinâmicas 
 
@@ -42,7 +42,11 @@ Para fazer chamadas de emergência dinâmicas, o seguinte deve ocorrer:
 
    - Se houver uma correspondência de site de configurações de rede – as políticas de chamadas de emergência serão retornadas ao cliente do teams desse site. (Para obter mais informações sobre políticas, consulte [Configurar políticas de emergência](#configure-emergency-policies)).
 
-   - Se houver uma combinação de LIS – um local de emergência do elemento de rede ao qual o cliente do teams está conectado será retornado ao cliente do teams.
+   - Se houver uma combinação de LIS – um local de emergência do elemento de rede ao qual o cliente do teams está conectado será retornado ao cliente do teams. A correspondência é realizada na seguinte ordem com o primeiro resultado correspondente sendo retornado:
+       - WAP
+       - Switch/porta Ethernet
+       - Chave Ethernet
+       - Sub-rede
 
 3. Quando o cliente do teams faz uma chamada de emergência, o local de emergência é transmitido para a rede PSTN.
 
