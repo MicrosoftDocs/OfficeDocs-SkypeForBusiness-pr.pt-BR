@@ -15,12 +15,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: Veja quais periféricos e dispositivos USB, como fones de ouvido com microfone, telefones-voz, webcams e monitores, são certificados para o Microsoft Teams.
-ms.openlocfilehash: 1bf3e122293665d5e883f191c31b76ba4dbba061
-ms.sourcegitcommit: b72bf3827e7145b9b6a95c84e88a7879c6e8c337
+ms.openlocfilehash: 9e247288034b1b3d6fac121bf9d9215723cbe379
+ms.sourcegitcommit: 4afb9617c1734d2f18e833fd9a22f4eda79f8c3b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46640906"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "47331626"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Dispositivos de áudio e vídeo USB certificados para o Microsoft Teams
 
@@ -74,10 +74,17 @@ Se você for um fabricante e quiser participar do programa de certificação, co
 
 ## <a name="certified-devices"></a>Dispositivos certificados
 
-*Tabela atualizada em julho de 2020*
+*Tabela atualizada em agosto de 2020*
 
 | Fabricante        | Modelo                                                     | Qualificação      | Programa certificado                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Jabra                |Desenvolvimento de fone de ouvido com microfone 80                                          |8/23/2020       |Skype for Business com atualização para o Microsoft Teams      |
+|Jabra                |Desenvolvimento de fone de ouvido com microfone 40                                          |8/23/2020       |Skype for Business com atualização para o Microsoft Teams      |
+|Jabra                |Desenvolvimento de fone de ouvido com 30 II                                       |8/23/2020       |Skype for Business com atualização para o Microsoft Teams      |
+|Jabra                |Desenvolvimento de 20 fones com microfone                                          |8/23/2020       |Skype for Business com atualização para o Microsoft Teams      |
+|EPOS/Sennheiser      |Impacto do SC 660 com USB-ED CC 01 MS Connecto                |8/20/2020       |Skype for Business com atualização para o Microsoft Teams      |
+|EPOS/Sennheiser      |Impacto do SC 630 com USB-ED CC 01 MS Connecto                |8/20/2020       |Skype for Business com atualização para o Microsoft Teams      |
+|EPOS/Sennheiser      |Impacto do SC 260 com USB-ED CC 01 MS Connecto                |8/20/2020       |Skype for Business com atualização para o Microsoft Teams      |
 |ViewSonic            |WCD-IFP8670                                                |7/31/2020       |Certificado para Skype for Business                        |
 |ViewSonic            |WCD-IFP6570                                               |7/31/2020       |Certificado para Skype for Business                        |
 |Jabra                |Desenvolvimento de fone de ouvido com microfone 75                                          |7/31/2020       |Skype for Business com atualização para o Microsoft Teams      |
