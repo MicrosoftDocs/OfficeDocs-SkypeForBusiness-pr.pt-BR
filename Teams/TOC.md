@@ -195,11 +195,13 @@
 ### [Planejar sua implantação](deploy-audio-conferencing-teams-landing-page.md)
 
 ### [Audioconferência no Microsoft 365](audio-conferencing-in-office-365.md)
+### [Abrir a visualização: Conferências na Rede para audioconferências](audio-conferencing-on-network.md)
 ### [Perguntas comuns sobre a audioconferência](audio-conferencing-common-questions.md)
 ### [Tutorial: Audioconferência no Teams](Tutorial-Audio-Conferencing.yml)
 ### [Experimente ou compre a Audioconferência do Microsoft 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
 ### [Período de discagem gratuita da audioconferência](complimentary-dial-out-period.md)
 ### [Benefício da assinatura de Audioconferência “Discar”/”Ligar para mim”](audio-conferencing-subscription-dial-out.md)
+
 
 ### [Configurar audioconferência no Microsoft Teams](set-up-audio-conferencing-in-teams.md)
 
