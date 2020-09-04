@@ -20,14 +20,17 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6ce0e580-8c4a-45de-a54f-e39e438335d6
 description: Encontre informações sobre o Skype for Business Cloud Connector Edition, um conjunto de VMs (máquinas virtuais) empacotadas que implementam a conectividade PSTN local com o sistema de telefonia (Cloud PBX).
-ms.openlocfilehash: d2b7f4203da082112b846cc3f12f57dd7758fc82
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: ec96662e3dbe432ce8cebe7dc59004350124451e
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44220081"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47358987"
 ---
 # <a name="plan-for-skype-for-business-cloud-connector-edition"></a>Planejar o Skype for Business Cloud Connector Edition
+
+> [!Important]
+> O Cloud Connector Edition vai retirar 31 de julho de 2021 junto com o Skype for Business online. Depois que sua organização tiver atualizado para o Microsoft Teams, saiba como conectar sua rede de telefonia local ao Microsoft Teams usando o [Roteamento direto](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page).
 
 Encontre informações sobre o Skype for Business Cloud Connector Edition, um conjunto de VMs (máquinas virtuais) empacotadas que implementam a conectividade PSTN local com o sistema de telefonia (Cloud PBX).
 
@@ -242,7 +245,7 @@ Antes de implantar o Cloud Connector Edition, verifique se você tem o seguinte 
 
 - Se um servidor proxy for necessário no computador host para navegar na Internet, você deverá fazer as seguintes alterações de configuração:
 
-  - Para ignorar o proxy, especifique as configurações de proxy WinHTTP definidas com o servidor proxy e uma lista de bypass, incluindo o "192.168.213 \* ". rede usada pelos serviços de gerenciamento do Cloud Connector e pela sub-rede do Skype for Business corpnet conforme definido no arquivo CloudConnector. ini. Caso contrário, a conectividade de gerenciamento falhará e impedirá a implantação e a recuperação automática do Cloud Connector. Veja a seguir um exemplo de comando de configuração WinHTTP: netsh WinHTTP Set proxy "10.10.10.175:8080" bypass-List = " \* . local; 1. \* ; 172,20. \* ; 192.168.218. \* ' \< local \> ".
+  - Para ignorar o proxy, especifique as configurações de proxy WinHTTP definidas com o servidor proxy e uma lista de bypass, incluindo o "192.168.213 \* ". rede usada por seus serviços de gerenciamento do Cloud Connector e pela sub-rede do Skype for Business corpnet conforme definido no arquivo CloudConnector.ini. Caso contrário, a conectividade de gerenciamento falhará e impedirá a implantação e a recuperação automática do Cloud Connector. Veja a seguir um exemplo de comando de configuração WinHTTP: netsh WinHTTP Set proxy "10.10.10.175:8080" bypass-List = " \* . local; 1. \* ; 172,20. \* ; 192.168.218. \* ' \<local\> ".
 
   - Especifique as configurações de proxy por máquina, em vez de por usuário. Caso contrário, os downloads do Cloud Connector falharão. Você pode especificar as configurações de proxy por máquina com uma alteração de registro ou com a configuração de política de grupo da seguinte maneira:
 
@@ -258,14 +261,14 @@ Antes de implantar o Cloud Connector Edition, verifique se você tem o seguinte 
 
 - Durante a implantação, você será solicitado a criar uma conta de administrador de domínio com permissões para criar e publicar a topologia no domínio do Cloud Connector.
 
-- Os registros DNS externos, que são definidos no arquivo CloudConnector. ini incluído no pacote de instalação:
+- Os registros DNS externos, que são definidos no arquivo CloudConnector.ini incluído no pacote de instalação:
 
-  - Registro DNS externo para serviço de borda de acesso do componente de borda; por exemplo, AP. \< Nome do domínio \> . Você precisa de um registro por site PSTN. Esse registro deve conter endereços IP de todas as bordas desse site.
+  - Registro DNS externo para serviço de borda de acesso do componente de borda; por exemplo, AP. \<Domain Name\> . Você precisa de um registro por site PSTN. Esse registro deve conter endereços IP de todas as bordas desse site.
 
 - Uma organização do Microsoft 365 ou do Office 365 com todos os registros DNS e SRV necessários criados.
 
     > [!IMPORTANT]
-    > Quando você integra seu locatário ao Cloud Connector Edition, não há suporte para o uso do sufixo de domínio padrão,. onmicrosoft.com, como um domínio SIP para sua organização. > não é possível usar SIP. \< Nome \> do domínio como o nome da interface de proxy de acesso de borda do Cloud Connector, pois esse registro DNS é usado pelo Microsoft 365 e pelo Office 365.
+    > Quando você integra seu locatário ao Cloud Connector Edition, não há suporte para o uso do sufixo de domínio padrão,. onmicrosoft.com, como um domínio SIP para sua organização. > não é possível usar SIP.\<Domain Name\> como o nome da interface de proxy de acesso de borda do Cloud Connector, pois esse registro DNS é usado pelo Microsoft 365 e pelo Office 365.
 
 - Um certificado para a borda externa Obtida de uma autoridade de certificação pública (AC).
 
@@ -343,8 +346,8 @@ Esta tabela mostra as portas e os intervalos de portas para habilitar a comunica
 
 |**IP de origem**|**IP de destino**|**Porta de origem**|**Porta de destino**|
 |:-----|:-----|:-----|:-----|
-|Componente de mediação do Cloud Connector  <br/> |SBC/gateway PSTN  <br/> |Qualquer tamanho  <br/> |TCP 5060\*\*  <br/> |
-|SBC/gateway PSTN  <br/> |Componente de mediação do Cloud Connector  <br/> |Qualquer tamanho  <br/> |TCP 5068/TLS 5067  <br/> |
+|Componente de mediação do Cloud Connector  <br/> |SBC/gateway PSTN  <br/> |Qualquer  <br/> |TCP 5060\*\*  <br/> |
+|SBC/gateway PSTN  <br/> |Componente de mediação do Cloud Connector  <br/> |Qualquer  <br/> |TCP 5068/TLS 5067  <br/> |
 |Componente de mediação do Cloud Connector  <br/> |SBC/gateway PSTN  <br/> |UDP 49 152-57 500  <br/> |Haja\*\*\*  <br/> |
 |SBC/gateway PSTN  <br/> |Componente de mediação do Cloud Connector  <br/> |Haja\*\*\*  <br/> |UDP 49 152-57 500  <br/> |
 |Componente de mediação do Cloud Connector  <br/> |Clientes internos  <br/> |TCP 49 152-57 500\*  <br/> |TCP 50000-50019  <br/> Opcion  <br/> |
@@ -352,11 +355,11 @@ Esta tabela mostra as portas e os intervalos de portas para habilitar a comunica
 |Clientes internos  <br/> |Componente de mediação do Cloud Connector  <br/> |TCP 50000-50019  <br/> |TCP 49 152-57 500\*  <br/> |
 |Clientes internos  <br/> |Componente de mediação do Cloud Connector  <br/> |UDP 50000-50019  <br/> |UDP 49 152-57 500\*  <br/> |
 
-\*Este é o intervalo de portas padrão no componente de mediação. Para o fluxo de chamadas ideal, são necessárias quatro portas por chamada.
+\* Este é o intervalo de portas padrão no componente de mediação. Para o fluxo de chamadas ideal, são necessárias quatro portas por chamada.
 
-\*\*Essa porta deve ser configurada no SBC/gateway PSTN; 5060 é um exemplo. Você pode configurar outras portas no seu gateway SBC/PSTN.
+\*\* Essa porta deve ser configurada no SBC/gateway PSTN; 5060 é um exemplo. Você pode configurar outras portas no seu gateway SBC/PSTN.
 
-\*\*\*Observe que você também pode limitar o intervalo de porta em seu SBC/gateway, se permitido pelo fabricante de SBC/gateway.
+\*\*\* Observe que você também pode limitar o intervalo de porta em seu SBC/gateway, se permitido pelo fabricante de SBC/gateway.
 
 Para fins de segurança, é possível limitar o intervalo de porta para o componente de mediação usando o cmdlet [set-CsMediationServer](https://docs.microsoft.com/powershell/module/skype/set-csmediationserver?view=skype-ps) .
 
@@ -382,15 +385,15 @@ Nesse caso, todo o tráfego de mídia para a Internet fluirá por meio da borda 
 
 |**IP de origem**|**IP de destino**|**Porta de origem**|**Porta de destino**|
 |:-----|:-----|:-----|:-----|
-|Qualquer tamanho  <br/> |Interface externa de borda do Cloud Connector  <br/> |Qualquer tamanho  <br/> |TCP (MTLS) 5061  <br/> |
-|Interface externa de borda do Cloud Connector  <br/> |Qualquer tamanho  <br/> |Qualquer tamanho  <br/> |TCP (MTLS) 5061  <br/> |
-|Interface externa de borda do Cloud Connector  <br/> |Qualquer tamanho  <br/> |Qualquer tamanho  <br/> |TCP 80  <br/> |
-|Interface externa de borda do Cloud Connector  <br/> |Qualquer tamanho  <br/> |Qualquer tamanho  <br/> |UDP 53  <br/> |
-|Interface externa de borda do Cloud Connector  <br/> |Qualquer tamanho  <br/> |Qualquer tamanho  <br/> |TCP 53  <br/> |
-|Interface externa de borda do Cloud Connector  <br/> |Qualquer tamanho  <br/> |UDP 3478  <br/> |UDP 3478  <br/> |
-|Qualquer tamanho  <br/> |Interface externa de borda do Cloud Connector  <br/> |TCP 50000-59.999  <br/> |TCP 443  <br/> |
-|Qualquer tamanho  <br/> |Interface externa de borda do Cloud Connector  <br/> |UDP 3478  <br/> |UDP 3478  <br/> |
-|Interface externa de borda do Cloud Connector  <br/> |Qualquer tamanho  <br/> |TCP 50000-59.999  <br/> |TCP 443  <br/> |
+|Qualquer  <br/> |Interface externa de borda do Cloud Connector  <br/> |Qualquer  <br/> |TCP (MTLS) 5061  <br/> |
+|Interface externa de borda do Cloud Connector  <br/> |Qualquer  <br/> |Qualquer  <br/> |TCP (MTLS) 5061  <br/> |
+|Interface externa de borda do Cloud Connector  <br/> |Qualquer  <br/> |Qualquer  <br/> |TCP 80  <br/> |
+|Interface externa de borda do Cloud Connector  <br/> |Qualquer  <br/> |Qualquer  <br/> |UDP 53  <br/> |
+|Interface externa de borda do Cloud Connector  <br/> |Qualquer  <br/> |Qualquer  <br/> |TCP 53  <br/> |
+|Interface externa de borda do Cloud Connector  <br/> |Qualquer  <br/> |UDP 3478  <br/> |UDP 3478  <br/> |
+|Qualquer  <br/> |Interface externa de borda do Cloud Connector  <br/> |TCP 50000-59.999  <br/> |TCP 443  <br/> |
+|Qualquer  <br/> |Interface externa de borda do Cloud Connector  <br/> |UDP 3478  <br/> |UDP 3478  <br/> |
+|Interface externa de borda do Cloud Connector  <br/> |Qualquer  <br/> |TCP 50000-59.999  <br/> |TCP 443  <br/> |
 
 A próxima tabela mostra as portas e os intervalos de portas para habilitar a comunicação entre o componente de borda do Cloud Connector para o firewall externo. Esta tabela mostra a solução recomendada.
 
@@ -404,22 +407,22 @@ Nesse caso, todo o tráfego de mídia para o ponto de extremidade na Internet po
 
 |**IP de origem**|**IP de destino**|**Porta de origem**|**Porta de destino**|
 |:-----|:-----|:-----|:-----|
-|Qualquer tamanho  <br/> |Interface externa de borda do Cloud Connector  <br/> |Qualquer tamanho  <br/> |TCP (MTLS) 5061  <br/> |
-|Interface externa de borda do Cloud Connector  <br/> |Qualquer tamanho  <br/> |Qualquer tamanho  <br/> |TCP (MTLS) 5061  <br/> |
-|Interface externa de borda do Cloud Connector  <br/> |Qualquer tamanho  <br/> |Qualquer tamanho  <br/> |TCP 80  <br/> |
-|Interface externa de borda do Cloud Connector  <br/> |Qualquer tamanho  <br/> |Qualquer tamanho  <br/> |UDP 53  <br/> |
-|Interface externa de borda do Cloud Connector  <br/> |Qualquer tamanho  <br/> |Qualquer tamanho  <br/> |TCP 53  <br/> |
-|Interface externa de borda do Cloud Connector  <br/> |Qualquer tamanho  <br/> |TCP 50000-59.999  <br/> |Qualquer tamanho  <br/> |
-|Interface externa de borda do Cloud Connector  <br/> |Qualquer tamanho  <br/> |UDP 3478; UDP 50000-59.999  <br/> |Qualquer tamanho  <br/> |
-|Qualquer tamanho  <br/> |Interface externa de borda do Cloud Connector  <br/> |Qualquer tamanho  <br/> |TCP 443; TCP 50000-59.999  <br/> |
-|Qualquer tamanho  <br/> |Interface externa de borda do Cloud Connector  <br/> |Qualquer tamanho  <br/> |UDP 3478; UDP 50.000-59.999  <br/> |
+|Qualquer  <br/> |Interface externa de borda do Cloud Connector  <br/> |Qualquer  <br/> |TCP (MTLS) 5061  <br/> |
+|Interface externa de borda do Cloud Connector  <br/> |Qualquer  <br/> |Qualquer  <br/> |TCP (MTLS) 5061  <br/> |
+|Interface externa de borda do Cloud Connector  <br/> |Qualquer  <br/> |Qualquer  <br/> |TCP 80  <br/> |
+|Interface externa de borda do Cloud Connector  <br/> |Qualquer  <br/> |Qualquer  <br/> |UDP 53  <br/> |
+|Interface externa de borda do Cloud Connector  <br/> |Qualquer  <br/> |Qualquer  <br/> |TCP 53  <br/> |
+|Interface externa de borda do Cloud Connector  <br/> |Qualquer  <br/> |TCP 50000-59.999  <br/> |Qualquer  <br/> |
+|Interface externa de borda do Cloud Connector  <br/> |Qualquer  <br/> |UDP 3478; UDP 50000-59.999  <br/> |Qualquer  <br/> |
+|Qualquer  <br/> |Interface externa de borda do Cloud Connector  <br/> |Qualquer  <br/> |TCP 443; TCP 50000-59.999  <br/> |
+|Qualquer  <br/> |Interface externa de borda do Cloud Connector  <br/> |Qualquer  <br/> |UDP 3478; UDP 50.000-59.999  <br/> |
 
 ### <a name="host-internet-connectivity-requirements"></a>Requisitos de conectividade com a Internet do host
 <a name="BKMB_Ports"> </a>
 
 O computador host deve ser capaz de acessar recursos externos para instalar, atualizar e gerenciar o Cloud Connector com êxito. A tabela a seguir mostra os destinos e as portas necessários entre o computador host e os recursos externos.
 
-|Direção  <br/> |IP de origem  <br/> |IP de destino  <br/> |Porta de origem  <br/> |Porta de destino  <br/> |Protocolo  <br/> |Propósito  <br/> |
+|Direção  <br/> |IP de origem  <br/> |IP de destino  <br/> |Porta de origem  <br/> |Porta de destino  <br/> |Protocolo  <br/> |Finalidade  <br/> |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |Saída  <br/> |IPs do host do Cloud Connector  <br/> |qualquer  <br/> |qualquer  <br/> |53  <br/> |TCP/UDP  <br/> |DNS  <br/> |
 |Saída  <br/> |IPs do host do Cloud Connector  <br/> |qualquer  <br/> |qualquer  <br/> |80, 443  <br/> |TCP  <br/> |CRL (lista de certificados revogados)  <br/> |
@@ -435,7 +438,7 @@ Se forem necessárias regras mais restritivas, consulte as seguintes URLs de lis
 
     Se você precisar de uma exclusão de proxy para esse destino, será necessário adicioná-lo à lista de bypass do WinHTTP.
 
-- Atualização do Cloud Connector: [centro de download](https://aka.ms/CloudConnectorInstaller), [https://go.microsoft.com](https://go.microsoft.com) e[https://download.microsoft.com](https://download.microsoft.com)
+- Atualização do Cloud Connector: [centro de download](https://aka.ms/CloudConnectorInstaller), [https://go.microsoft.com](https://go.microsoft.com) e [https://download.microsoft.com](https://download.microsoft.com)
 
 ### <a name="dns-name-resolution-for-the-edge-component"></a>Resolução de nomes DNS para o componente de borda
 <a name="BKMB_Ports"> </a>
@@ -444,7 +447,7 @@ O componente de borda precisa resolver os nomes externos dos serviços do Micros
 
 Cada componente de borda é um computador multihomed com interfaces opostas externas e internas. O Cloud Connector implanta servidores DNS no componente do controlador de domínio dentro da rede de perímetro. Você pode apontar o servidor de borda para o servidor DNS no perímetro de todas as resoluções de nome, mas precisa habilitar o servidor DNS do Cloud Connector para resolver nomes externos, configurando uma zona DNS contendo um ou mais registros DNS A para consultas externas que fazem referência a outros servidores DNS públicos.
 
-No arquivo. ini, se você definir o nome FQDN dos gateways do mesmo espaço de domínio que o domínio SIP, a zona autoritativa desse domínio SIP será criada no servidor DNS dentro do perímetro. Se o servidor de borda for apontado para este servidor DNS para resolver nomes, a borda nunca resolverá o _sipfederationtls. \< seudomínio \> registro DNS, que é necessário para o fluxo de chamadas. Nesse caso, a Microsoft recomenda que você forneça um servidor DNS na interface externa de borda para resolver pesquisas de nome de Internet e cada componente de borda deve usar um arquivo HOST para resolver outros nomes de componente do Cloud Connector para endereços IP.
+No arquivo. ini, se você definir o nome FQDN dos gateways do mesmo espaço de domínio que o domínio SIP, a zona autoritativa desse domínio SIP será criada no servidor DNS dentro do perímetro. Se o servidor de borda for apontado para este servidor DNS para resolver nomes, a borda nunca resolverá o _sipfederationtls.\<yourdomain\> Registro DNS, que é necessário para o fluxo de chamadas. Nesse caso, a Microsoft recomenda que você forneça um servidor DNS na interface externa de borda para resolver pesquisas de nome de Internet e cada componente de borda deve usar um arquivo HOST para resolver outros nomes de componente do Cloud Connector para endereços IP.
 
 > [!NOTE]
 > Por motivos de segurança, recomendamos que você não aponte o servidor DNS do Cloud Connector para servidores internos no domínio de produção para resolução de nomes.
@@ -460,7 +463,7 @@ Primeiro, você precisa definir os seguintes parâmetros de implantação comuns
 |Domínios SIP  <br/> |URI do SIP em uso pelos usuários da empresa. Forneça todos os domínios SIP que serão atendidos por essa implantação. Você pode ter mais de um domínio SIP.  <br/> ||
 |Número de sites PSTN  <br/> |O número de sites PSTN que você vai implantar.  <br/> ||
 
-Para cada site PSTN que você planeja implantar, será necessário coletar as seguintes informações antes de iniciar a implantação. Você precisará fornecer essas informações ao atualizar o arquivo CloudConnector. ini.
+Para cada site PSTN que você planeja implantar, será necessário coletar as seguintes informações antes de iniciar a implantação. Você precisará fornecer essas informações ao atualizar o arquivo de CloudConnector.ini.
 
 Ao configurar informações de gateway, lembre-se do seguinte:
 
@@ -557,7 +560,7 @@ Cada componente de borda requer um certificado de uma autoridade de certificaç�
   ```
 
 > [!NOTE]
-> Você não deve criar uma entrada DNS externa para SIP. \< sipdomain \> . com porque esse nome pertence à implantação do Microsoft 365 ou do Office 365.
+> Você não deve criar uma entrada DNS externa para SIP. \<sipdomain\> . com porque esse nome pertence à implantação do Microsoft 365 ou do Office 365.
 
 > [!NOTE]
 > Se você quiser usar um único certificado para todos os pools de Borda implantados em sua organização e não puder usar um certificado curinga, conforme definido na opção 2, será necessário incluir o FQDN de todos os pools de Borda implantados no nome da SAN no certificado.
@@ -581,7 +584,7 @@ Você precisará adicionar sip.sipdomain.com para cada domínio SIP e o nome dos
   ```
 
 > [!NOTE]
-> Você não deve criar uma entrada DNS externa para SIP. \< sipdomain \> . com porque esse nome pertence à implantação do Microsoft 365 ou do Office 365.
+> Você não deve criar uma entrada DNS externa para SIP. \<sipdomain\> . com porque esse nome pertence à implantação do Microsoft 365 ou do Office 365.
 
 Para fins de implantação, você pode usar a seguinte tabela:
 
@@ -706,7 +709,7 @@ O Cloud Connector 2,1 e posterior suporta o monitoramento do Cloud Connector usa
 ## <a name="for-more-information"></a>Para obter mais informações
 <a name="BKMK_MoreInfo"> </a>
 
-Para obter mais informações, confira:
+Para obter mais informações, confira o seguinte:
 
 - [Soluções de telefonia da Microsoft](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions)
 

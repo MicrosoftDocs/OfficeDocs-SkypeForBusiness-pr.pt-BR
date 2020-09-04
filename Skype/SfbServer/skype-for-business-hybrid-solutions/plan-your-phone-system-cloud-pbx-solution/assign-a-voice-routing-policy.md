@@ -19,15 +19,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c7f78f23-b74f-402f-bedb-4cc308718f5b
 description: 'Resumo: Leia este tópico para saber como atribuir uma política de voz para usuários usando o sistema de telefonia com conectividade PSTN local.'
-ms.openlocfilehash: 141d3cca560201df921fb4195db55ac60103a3d6
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 5d56d4f88e30b605276296b35cd9f316348342ca
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221855"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47359317"
 ---
 # <a name="assign-a-voice-routing-policy"></a>Atribuir uma política de roteamento de voz
  
+> [!Important]
+> O Skype for Business online será desativado no dia 31 de julho de 2021 depois do qual o serviço não estará mais acessível.  Além disso, a conectividade PSTN entre seu ambiente local por meio do Skype for Business Server ou do Cloud Connector Edition e do Skype for Business online não terá mais suporte.  Saiba como conectar sua rede de telefonia local ao Microsoft Teams usando o [Roteamento direto](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page).
+
 **Resumo:** Leia este tópico para saber como atribuir uma política de voz para usuários usando o sistema de telefonia com conectividade PSTN local. 
   
 Depois que um usuário estiver no Skype for Business Online e usando o sistema de telefonia com conectividade PSTN local, duas políticas de voz serão aplicadas a elas. Uma é uma política de roteamento de voz local que você irá atribuir no local. Essa política pode ser global ou específica do usuário e define quais registros de uso de PSTN estão associados ao usuário. Este tópico explica como atribuir esta política.

@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: A Microsoft está desativando o serviço de Unificação de mensagens do Exchange Online (ExchUMO) em 28 de fevereiro de 2020. Este artigo resume o que os clientes afetados devem saber e fazer para planejar sua continuidade de negócios.
-ms.openlocfilehash: 57f7575626d00cbd7c592349ca7a5a92c75eb34c
-ms.sourcegitcommit: 2874aec7768bb46ed4506c1a2d431841f47190bf
+ms.openlocfilehash: 5d7d9b2e488c61c881395ad00d2675d749e5e30f
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "47255434"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47359297"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Suporte à migração da Unificação de Mensagens do Exchange Online
 
@@ -77,7 +77,7 @@ A Microsoft continua a fornecer recursos de atendedor automático adicionais que
 A migração de caixa postal é orientada pela Microsoft. Os administradores não precisam fazer nada, dado que a topologia híbrida de pré-requisito foi estabelecida. A Microsoft realiza a validação e os testes necessários para garantir que a migração de caixa postal dos usuários não seja interrompida. Os administradores são incentivados a executar testes e validação no seu lado. Veja o [plano de teste sugerido e a validação pós-implantação para administradores](#suggested-test-plan-and-post-migration-validation-for-admins) de um plano de teste recomendado.
 
 > [!Note]
-> O Lync Server 2010 não é suportado. Se você estiver em uma implantação de servidor 2010, deverá planejar uma atualização de servidor ou considerar a migração de seus usuários para o Microsoft Teams ou o Skype for Business online.  
+> O Lync Server 2010 não é suportado. Se você estiver em uma implantação de servidor 2010, deverá planejar uma atualização de servidor ou considerar a migração de seus usuários para o Microsoft Teams.  
 
 ### <a name="monitor-the-admin-notification-center"></a>Monitorar o centro de notificação de administração
 
@@ -165,13 +165,13 @@ Os administradores de organização do Microsoft 365 e do Office 365 precisam re
 | VM | Recursos do chamador  | Detecção de silêncio   |  | N | S    |
 | VM | Locatário-recursos de administração | Caixa postal protegida no nível do servidor    | Locatário-o administrador pode configurar uma regra de nível de serviço para marcar a caixa postal de entrada como protegida | S | S    |
 | VM | Locatário-recursos de administração | Alterar o limite de tempo de duração da gravação  |     | S | S    |
-| VM | Locatário-recursos de administração | Alterar o tempo limite de detecção de silêncio    |  | N/D    | S    |
+| VM | Locatário-recursos de administração | Alterar o tempo limite de detecção de silêncio    |  | Não disponível    | S    |
 | VM | Locatário-recursos de administração | Alterar o número de falhas de entrada | CVM: embutido em código para 3 | N | S    |
 | VM | Locatário-recursos de administração | Alterar o idioma padrão |  | S | S    |
 | VM | Locatário-recursos de administração | Desabilitar/habilitar transcrição |  | S | S    |
 | VM | Locatário-recursos de administração | Desabilitar/habilitar notificação de chamada perdida |  | N | S    |
 | VM | Locatário-recursos de administração | Ajude a Microsoft a melhorar a visualização da caixa postal    |  | S | S    |
-| VM | Locatário-recursos de administração | Personalizar mensagem de texto para usuários habilitados|  | N/D    | S    |
+| VM | Locatário-recursos de administração | Personalizar mensagem de texto para usuários habilitados|  | Não disponível    | S    |
 | VM | Locatário-recursos de administração | Mascaramento de profanação de transcrição|  | S | N    |
 | VM | Locatário-recursos de administração | Política de caixa postal    |   | S | S    |
 | VM | Locatário-recursos de administração | Administração do portal da Web   |  | CY19   | S    |

@@ -16,15 +16,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fa8aa499-1188-447e-bc30-89d1f5b198a7
 description: Saiba mais sobre a implantação de um único site PSTN no Cloud Connector Edition.
-ms.openlocfilehash: 334454645be3361794fdd0d16076095a518e58b0
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 327fc4e687377f5f1338bea2f623b526511a2992
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44220531"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47358927"
 ---
 # <a name="deploy-a-single-site-in-cloud-connector"></a>Implantar um único site no Cloud Connector
  
+> [!Important]
+> O Cloud Connector Edition vai retirar 31 de julho de 2021 junto com o Skype for Business online. Depois que sua organização tiver atualizado para o Microsoft Teams, saiba como conectar sua rede de telefonia local ao Microsoft Teams usando o [Roteamento direto](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page).
+
 Saiba mais sobre a implantação de um único site PSTN no Cloud Connector Edition.
   
 Você pode implantar o Skype for Business Cloud Connector Edition com ou sem suporte para alta disponibilidade (HA). Se quiser habilitar a HA, você precisará implantar dois ou mais dispositivos dentro de um site. Você também pode converter um dispositivo existente para dar suporte à alta disponibilidade após sua implantação.

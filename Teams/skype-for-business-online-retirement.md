@@ -18,12 +18,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 10fa7e13289a4696dd723b2b6634dc7147321342
-ms.sourcegitcommit: 8816b58e175031cb0a71e0d0e89e447a7b83a760
+ms.openlocfilehash: 5810eb2ef38251ad88bd2accf12d857adda9dcbe
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/08/2020
-ms.locfileid: "46597086"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47359387"
 ---
 # <a name="skype-for-business-online-retirement"></a>Desativação do Skype for Business Online
 
@@ -90,7 +90,7 @@ Planejamos dar suporte ao Skype for Business online na data de baixa 31 de julho
 **O que você recomenda para os clientes que estão no processo de implantação, ou planejando implantar, o Skype for Business no Microsoft 365?**<br>
 Os clientes que atualmente estão implantando o Skype for Business Online podem continuar a fazê-lo. Incentivamos todos os novos clientes da Microsoft 365 a começar a usar o Microsoft Teams, independentemente de ou em paralelo com o Skype for Business, e determinar o caminho (coexistência ou equipes apenas) e o tempo que atende às suas necessidades de negócios. Independentemente do tempo de uso, com o Skype for Business Online, os clientes precisarão migrar para o Teams antes da data de desativação do Skype for Business Online.
 
-**O que isso significa de uma perspectiva de licenciamento? Como os clientes pagarão pelos serviços de Comunicações Inteligentes no Teams?**<br>
+**O que isso significa de uma perspectiva de licenciamento? Como os clientes pagarão pelos serviços de comunicações inteligentes no Teams?**<br>
 O Microsoft Teams está disponível em muitos dos pacotes do Microsoft 365. Os recursos que atualmente são cargas de trabalho premium no Skype for Business Online continuarão a ser cargas de trabalho premium no Microsoft Teams. Os investimentos em licenças existentes feitos por clientes serão transferidos para o Microsoft Teams. Por exemplo, se um cliente tiver adquirido a Audioconferência autônoma ou como parte do E5 com o Skype for Business, a Audioconferência será habilitada no Microsoft Teams da mesma forma como está disponível hoje.
 
 **A Microsoft está planejando atualizações programadas?**<br>
@@ -100,6 +100,9 @@ Para dar suporte a clientes menores que podem não ter recursos de ti dedicados,
 
 **Como o anúncio da desativação do Skype for Business Online afeta as organizações com configurações híbridas (Skype for Business Online e Skype for Business Server)?**<br>
 Os clientes híbridos com configurações locais e online serão solicitados a migrar os usuários do Skype for Business Online para o Microsoft Teams até a data de desativação de 31 de julho de 2021. Os caminhos de atualização para configurações híbridas criados com base nos princípios de coexistência e interoperabilidade permanecerão após a desativação do Skype for Business Online. Para obter mais informações confira [Coexistência com o Skype for Business](coexistence-chat-calls-presence.md) e [Entender a coexistência e a interoperabilidade do Microsoft Teams e do Skype for Business](teams-and-skypeforbusiness-coexistence-and-interoperability.md).
+
+**Como o afastamento do Skype for Business online afeta as organizações com configurações híbridas do Skype for Business para conectividade PSTN (rede telefônica pública comutada pública) e recursos do sistema de telefone online?**<br>
+Algumas organizações têm usuários divididos no local para conectividade PSTN e hospedadas online para recursos do sistema telefônico. Depois que o acesso ao Skype for Business online terminar, as organizações precisarão fazer a transição dos usuários online para o Microsoft Teams e conectar a rede de telefonia local ao Teams por meio do [Roteamento direto](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page).
 
 Os clientes com assinaturas qualificadas são incentivados a participar com o [FastTrack](https://www.microsoft.com/fasttrack?rtc=1) para obter assistência na integração do Teams.
 

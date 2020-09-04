@@ -1,5 +1,5 @@
 ---
-title: Planejar o sistema de telefonia com conectividade PSTN local no Skype for Business Server
+title: Planejar Sistema de Telefonia com conectividade PSTN local por meio do Skype for Business Server
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -20,14 +20,17 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 021a4c0b-d5de-4155-a506-650d758624aa
 description: Saiba mais sobre as considerações de planejamento para o sistema de telefonia (Cloud PBX) com conectividade PSTN local.
-ms.openlocfilehash: 367b7b976dbc79e50f4f7dc1fc1cdba85ddcc679
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: f8baab67191f32013a9d7a01ddc12f1b04b62c03
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44220232"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47358807"
 ---
-# <a name="plan-phone-system-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>Planejar o sistema de telefonia com conectividade PSTN local no Skype for Business Server
+# <a name="plan-phone-system-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>Planejar Sistema de Telefonia com conectividade PSTN local por meio do Skype for Business Server
+
+> [!Important]
+> O Skype for Business online será desativado no dia 31 de julho de 2021 depois do qual o serviço não estará mais acessível.  Além disso, a conectividade PSTN entre seu ambiente local por meio do Skype for Business Server ou do Cloud Connector Edition e do Skype for Business online não terá mais suporte.  Saiba como conectar sua rede de telefonia local ao Microsoft Teams usando o [Roteamento direto](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page).
 
 Saiba mais sobre as considerações de planejamento para o sistema de telefonia (Cloud PBX) com conectividade PSTN local.
 
@@ -59,7 +62,7 @@ Ao implantar o sistema de telefonia com conectividade PSTN local, você pode mov
 
 Você pode ter um recurso personalizado ou um complemento principal para seu PBX herdado, como um Call Center. Se o recurso personalizado não estiver disponível atualmente no sistema de telefonia, você deverá deixar aqueles usuários que precisam desse recurso personalizado no local com o PBX herdado e apenas portar os usuários que não precisam acessar o recurso personalizado no sistema de telefonia com conectividade PSTN local.
 
-Para obter uma lista de PBXs herdados que interoperam diretamente com o Skype for Business Server 2015, consulte [infraestrutura qualificada para Microsoft Lync](https://docs.microsoft.com/SkypeForBusiness/lync-cert/qualified-ip-pbx-gateway). Se seu PBX não estiver na lista, você poderá usar um controlador de borda de sessão para conectar seu PBX com o sistema de telefonia no Skype for Business online.
+Para obter uma lista de PBXs herdados que interoperam diretamente com o Skype for Business Server 2015, consulte  [infraestrutura qualificada para Microsoft Lync](https://docs.microsoft.com/SkypeForBusiness/lync-cert/qualified-ip-pbx-gateway). Se seu PBX não estiver na lista, você poderá usar um controlador de borda de sessão para conectar seu PBX com o sistema de telefonia no Skype for Business online.
 
 ### <a name="network-considerations-for-quality-and-performance"></a>Considerações de rede para qualidade e desempenho
 

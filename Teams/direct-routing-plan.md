@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Saiba como o roteamento direto do Microsoft Phone System permite conectar um controlador de borda de sessão (SBC) compatível fornecido pelo cliente a um sistema telefônico da Microsoft.
-ms.openlocfilehash: bb711b72fb200ceec9d2c50c86f6f977436c9c02
-ms.sourcegitcommit: cd16ff6007e0a798493e2fa469c6681993380420
+ms.openlocfilehash: f6ff76e2bb5725e7e574a7ea6c87ab5e99a6adc1
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2020
-ms.locfileid: "46860802"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47359397"
 ---
 # <a name="plan-direct-routing"></a>Planejar o Roteamento Direto
 
@@ -34,7 +34,10 @@ O roteamento direto do Microsoft Phone System permite conectar um controlador de
 ![Diagrama mostrando a configuração de conectividade PSTN local](media/PlanDirectRouting1-PSTNwithTeams.png "Configuração de conectividade PSTN local com o cliente do Microsoft Teams")
 
   > [!NOTE]
-  > O Skype for Business online também permite que você emparelhe um SBC fornecido pelo cliente, mas isso exige uma implantação local do Skype for Business Server ou uma edição especial do Skype for Business, chamada de conector de nuvem, entre o SBC e a nuvem da Microsoft. Esse cenário é conhecido como voz híbrida. Por outro lado, o roteamento direto permite uma conexão direta entre o SBC compatível e a nuvem da Microsoft. 
+  > O Skype for Business online também permite que você emparelhe um SBC fornecido pelo cliente, mas isso exige uma implantação local do Skype for Business Server ou uma edição especial do Skype for Business, chamada de conector de nuvem, entre o SBC e a nuvem da Microsoft. Esse cenário é conhecido como voz híbrida. Por outro lado, o roteamento direto permite uma conexão direta entre o SBC compatível e a nuvem da Microsoft.
+
+> [!Important]
+> O Cloud Connector Edition vai desativar 31 de julho de 2021 juntamente com o Skype for Business online. Depois que a sua organização tiver atualizado para o Microsoft Teams, saiba como conectar sua rede de telefonia local a equipes usando o [Roteamento direto](direct-routing-landing-page.md). 
 
 Com o roteamento direto, você pode conectar seu SBC a praticamente qualquer tronco de telefonia ou interconexão com equipamento PSTN de terceiros. O roteamento direto permite que você: 
 

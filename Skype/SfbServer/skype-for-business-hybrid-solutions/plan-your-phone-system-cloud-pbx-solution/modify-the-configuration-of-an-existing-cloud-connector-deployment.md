@@ -16,21 +16,24 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 90490c65-0e40-4e85-96e1-751f27897e25
 description: Siga as etapas neste tópico para modificar a configuração de uma implantação existente do Skype for Business Cloud Connector Edition 1.4.1 ou posterior.
-ms.openlocfilehash: 4b551d7cd7a61a1113b4b2bb05e2c0f5ca4f3288
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 2d70dfa9e25a0c89a31e25699e67a21f14e4f097
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44220291"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47359107"
 ---
 # <a name="modify-the-configuration-of-an-existing-cloud-connector-deployment"></a>Modificar a configuração de uma implantação do Cloud Connector existente
- 
+
+> [!Important]
+> O Cloud Connector Edition vai retirar 31 de julho de 2021 junto com o Skype for Business online. Depois que sua organização tiver atualizado para o Microsoft Teams, saiba como conectar sua rede de telefonia local ao Microsoft Teams usando o [Roteamento direto](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page).
+
 Siga as etapas neste tópico para modificar a configuração de uma implantação existente do Skype for Business Cloud Connector Edition 1.4.1 ou posterior. 
   
 ## <a name="modify-the-configuration-of-a-single-site"></a>Modificar a configuração de um único site
 <a name="BKMK_SIngleSite"> </a>
 
-Se houver apenas um dispositivo no site, quando você quiser alterar as definições de configuração depois que o dispositivo for implantado, você poderá modificar o arquivo CloudConnector. ini e iniciar a implantação novamente.
+Se houver apenas um dispositivo no site, quando você quiser alterar as definições de configuração depois que o dispositivo for implantado, você poderá modificar o arquivo de CloudConnector.ini e iniciar a implantação novamente.
   
 1. Execute o seguinte cmdlet para desinstalar todas as máquinas virtuais existentes no servidor host: 
     
@@ -44,7 +47,7 @@ Se houver apenas um dispositivo no site, quando você quiser alterar as definiç
    Unregister-CcAppliance
    ```
 
-3. Atualize o arquivo CloudConnector. ini no diretório de dispositivos.
+3. Atualize o arquivo de CloudConnector.ini no diretório de dispositivos.
     
 4. Execute o seguinte cmdlet para atualizar a configuração: (esta etapa só é aplicável para a versão 2; para versões anteriores, pule para a próxima etapa.)
     
@@ -64,7 +67,7 @@ Se houver apenas um dispositivo no site, quando você quiser alterar as definiç
    Install-CcAppliance
    ```
 
-Se houver mais de um dispositivo no site, você precisará seguir estas etapas, modificar o arquivo CloudConnector. ini e reimplantar os dispositivos, um por um.
+Se houver mais de um dispositivo no site, você precisará seguir estas etapas, modificar o arquivo CloudConnector.ini e reimplantar os dispositivos um por um.
   
 1. Execute o seguinte cmdlet para desinstalar todas as máquinas virtuais existentes no dispositivo atual: 
     
@@ -78,7 +81,7 @@ Se houver mais de um dispositivo no site, você precisará seguir estas etapas, 
    Unregister-CcAppliance
    ```
 
-3. Atualize o arquivo CloudConnector. ini no diretório de dispositivos.
+3. Atualize o arquivo de CloudConnector.ini no diretório de dispositivos.
     
 4. Execute o seguinte cmdlet para atualizar a configuração: (esta etapa só é aplicável para a versão 2; para versões anteriores, pule para a próxima etapa.)
     
@@ -175,7 +178,7 @@ Set-CcCredential -AccountType TenantAdmin
 > [!NOTE]
 > Esta seção é aplicável para o Cloud Connector versão 2,0 e posterior. 
   
-Todas as credenciais do Cloud Connector são armazenadas no seguinte arquivo: "%SystemDrive%\Programdata\Cloudconnector\credentials. \< CurrentUser \> . xml ". Quando a senha no servidor host for alterada, será necessário atualizar as credenciais armazenadas localmente.
+Todas as credenciais do Cloud Connector são armazenadas no seguinte arquivo: "%SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\> . XML ". Quando a senha no servidor host for alterada, será necessário atualizar as credenciais armazenadas localmente.
   
 Para atualizar as credenciais armazenadas localmente no dispositivo do Cloud Connector, use os cmdlets [Get-CcCredential](get-cccredential.md) e [set-CcCredential](set-cccredential.md) e siga estas etapas:
   
@@ -191,7 +194,7 @@ Para atualizar as credenciais armazenadas localmente no dispositivo do Cloud Con
     
 3. Reinicie o servidor host.
     
-4. Exclua o seguinte arquivo: "%SystemDrive%\Programdata\Cloudconnector\credentials. \< CurrentUser \> . xml ".
+4. Exclua o seguinte arquivo: "%SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\> . XML ".
     
 5. Inicie um console do PowerShell como administrador e execute "Register-CcAppliance-local" para reinserir as senhas após a descrição. Certifique-se de inserir a mesma senha que você inseriu anteriormente para a implantação do Cloud Connector.
     
@@ -215,7 +218,7 @@ Por padrão, VmAdmin e DomainAdmin usam a mesma senha que CceService. Se as senh
 > [!NOTE]
 > Esta seção é aplicável ao Cloud Connector versão 2.0.1 e posterior. 
   
-O serviço do Cloud Connector executa o serviço de gerenciamento do Cloud Connector. A conta CceService é criada durante a implantação do Cloud Connector Edition e armazenada nos seguintes arquivos: "%SystemDrive%\Programdata\Cloudconnector\credentials. \< CurrentUser \> . xml "e"%systemdrive%\Programdata\Cloudconnector\credentials.. CceService. xml ".
+O serviço do Cloud Connector executa o serviço de gerenciamento do Cloud Connector. A conta CceService é criada durante a implantação do Cloud Connector Edition e armazenada nos seguintes arquivos: "%SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\> . XML "e"% SystemDrive% \Programdata\Cloudconnector\credentials..CceService.xml ".
   
 Para garantir que todos os dispositivos possam acessar o compartilhamento de diretório de site, a senha da conta CceService deve ser a mesma em todos os dispositivos implantados no site. Lembre-se do seguinte:
   
@@ -271,11 +274,11 @@ Para cada dispositivo que pertença ao mesmo site PSTN, será necessário especi
     
     - CcLockFile
     
-    - \<FQDN do pool SIP externo de Site_ de borda\>
+    - Site_\<Edge External Sip Pool fqdn\>
     
-    - \<FQDN do pool SIP externo de Tenant_ de borda\>
+    - Tenant_\<Edge External Sip Pool fqdn\>
     
-    - \<FQDN do pool SIP externo de TenantConfigLock_ de borda\>
+    - TenantConfigLock_\<Edge External Sip Pool fqdn\>
     
 ## <a name="add-a-new-sip-domain"></a>Adicionar um novo domínio SIP
 <a name="BKMK_UpdatePassword"> </a>

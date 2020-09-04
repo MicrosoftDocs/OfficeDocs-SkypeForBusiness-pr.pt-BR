@@ -19,16 +19,19 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4598565a-c228-4265-ad03-d2aef95b31a0
 description: Para que um usuário use o sistema de telefonia (Cloud PBX), primeiro você deve habilitá-lo para o Enterprise Voice e atribuir a eles um número de telefone. Você faz isso usando sua implantação local enquanto o usuário ainda está hospedado na implantação local.
-ms.openlocfilehash: f02638f618b32190fafcded66550b5c3dcc52f2d
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 7fc629114900cb9f4d825bd8fdc8e946e6c63880
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221695"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47359187"
 ---
 # <a name="enable-the-users-for-enterprise-voice-on-premises"></a>Habilitar os usuários para o Enterprise Voice no local
  
 Para que um usuário use o sistema de telefonia (Cloud PBX), primeiro você deve habilitá-lo para o Enterprise Voice e atribuir a eles um número de telefone. Você faz isso usando sua implantação local enquanto o usuário ainda está hospedado na implantação local.
+
+> [!Important]
+> O Skype for Business online será desativado no dia 31 de julho de 2021 depois do qual o serviço não estará mais acessível.  Além disso, a conectividade PSTN entre seu ambiente local por meio do Skype for Business Server ou do Cloud Connector Edition e do Skype for Business online não terá mais suporte.  Saiba como conectar sua rede de telefonia local ao Microsoft Teams usando o [Roteamento direto](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page).
   
 ### <a name="to-enable-a-user-for-enterprise-voice-on-premises-and-assign-a-phone-number"></a>Para habilitar um usuário para o Enterprise Voice no local e atribuir um número de telefone
 
