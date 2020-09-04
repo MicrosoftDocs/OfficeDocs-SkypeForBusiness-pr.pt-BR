@@ -12,14 +12,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Visão geral do uso de um atendedor automático na nuvem com o Skype for Business Server 2019
-ms.openlocfilehash: d85c846a05448d8b1021bb5c1cac62c80ee1bf22
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: f6a1b8959bb5411909f8627c5d02a6cdc1935b20
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221291"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47359077"
 ---
-# <a name="plan-cloud-auto-attendants"></a>Planejar atendedores automáticos de nuvem
+# <a name="plan-cloud-auto-attendants"></a>Atendedores automáticos do plano da nuvem
 
 O atendedor automático usado com a Unificação de mensagens do Exchange (Exchange Server 2013 ou Exchange Server 2016) não está mais disponível no Exchange Server 2019 ou no Exchange Online. Se sua implementação do Skype for Business Server 2019 se integra a qualquer uma dessas versões do Exchange, você precisará usar os recursos de voz de nuvem online associados ao sistema de telefonia. Consulte [planejar o Skype for Business Server e a migração do Exchange Server](plan-um-migration.md) para obter informações sobre como mover os serviços de um do Exchange hospedados no exchange server 2013 e 2016 para a nuvem.
 
@@ -49,7 +49,7 @@ Os requisitos a seguir pressupõem que você já tenha o Skype for Business Serv
 
 - Se você já estiver usando UM do Exchange Online ou local e atualizar para o Skype for Business 2019, será necessário capturar a estrutura dos atendedores automáticos e recriá-los na nuvem usando atendedores automáticos da nuvem. Para obter mais informações, consulte [movendo um atendedor automático do um do Exchange ou fila de chamada para o sistema de telefonia](configure-onprem-ra.md#moving-an-exchange-um-auto-attendant-or-call-queue-to-phone-system).
 
-- Para uma nova configuração de atendedores automáticos na nuvem, siga as etapas descritas em [Configure Resource accounts](configure-onprem-ra.md).
+- Para uma nova configuração de atendedores automáticos na nuvem, siga as etapas descritas em  [Configure Resource accounts](configure-onprem-ra.md).
 
 Além dos requisitos acima, os requisitos a seguir devem ser configurados para se conectar ao serviço de atendedor automático do Microsoft Cloud:
 
@@ -85,7 +85,7 @@ No momento, não há suporte para migração automatizada para a nuvem de um sis
 1. Use os comandos do PowerShell de administração do Exchange para revisar a estrutura do sistema de atendedor automático antigo, incluindo qualquer atendedor automático aninhado e filas de chamadas.  
 2. Criar cópias de scripts de texto para fala ou mensagens registradas associadas a cada nó de atendedor automático da UM.
 3. Criar pontos de extremidade locais para cada nó de atendedor automático, incluindo a atribuição de números de telefone de teste e licenças aos objetos. Observe que agora você tem a capacidade de atribuir licenças de números de telefone locais usadas por serviços online, como o sistema de telefonia.
-4. Implementar um novo serviço de atendedor automático na nuvem com o Skype for Business Online e o sistema de telefonia. Confira [Configurar contas de recursos](configure-onprem-ra.md) para obter detalhes de implementação. Ao fazer isso, carregue os scripts de texto para fala ou as mensagens registradas associadas a cada nó de atendedor automático da UM.
+4. Implementar um novo serviço de atendedor automático na nuvem com o Microsoft Teams e o sistema de telefonia. Confira [Configurar contas de recursos](configure-onprem-ra.md) para obter detalhes de implementação. Ao fazer isso, carregue os scripts de texto para fala ou as mensagens registradas associadas a cada nó de atendedor automático da UM.
 5. Teste a funcionalidade do atendedor automático na nuvem.
 6. Reatribua o número de telefone atribuído ao atendedor automático do UM do Exchange para o atendedor automático da nuvem principal recém-criado.
 
@@ -102,7 +102,7 @@ Quando você tem uma estrutura sólida que atende às suas necessidades e um scr
 
 ## <a name="see-also"></a>Confira também
 
-[Planejar a migração do Skype for Business Server e do Exchange Server](plan-um-migration.md)
+[Plano de migração para o Skype for Business Server e Exchange Server](plan-um-migration.md)
 
 [Configurar contas de recurso](configure-onprem-ra.md)
 

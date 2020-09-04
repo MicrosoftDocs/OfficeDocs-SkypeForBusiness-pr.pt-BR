@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: Considerações de planejamento para implementar a conectividade híbrida entre o Skype for Business Server e o Skype for Business online ou o Teams.
-ms.openlocfilehash: 3a7df5ef36a7d0e6bf58c1784edb0bbe0baa9409
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 38c44dbbb60ed541ab3a5b830c130dcb37eb86e0
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221271"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47359057"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-microsoft-365-or-office-365"></a>Planejar a conectividade híbrida entre o Skype for Business Server e o Microsoft 365 ou o Office 365
 
@@ -37,6 +37,9 @@ Também é necessário configurar a conectividade híbrida e mover todos os usu�
 Este tópico descreve os requisitos de infraestrutura e sistema que você precisará para configurar a conectividade híbrida entre sua implantação local do Skype for Business Server e o Microsoft Teams e o Skype for Business online existentes.
 
 Depois de ler este tópico e estiver pronto para configurar a conectividade híbrida, consulte [Configurar a conectividade híbrida entre o Skype for Business Server e o Microsoft 365 ou o Office 365](configure-hybrid-connectivity.md). Os tópicos de configuração fornecem orientações passo a passo para configurar a conectividade híbrida entre a implantação local e o Microsoft Teams ou o Skype for Business online.
+
+> [!Important]
+> O Skype for Business online será desativado no dia 31 de julho de 2021 depois do qual o serviço não estará mais acessível.  Além disso, a conectividade PSTN entre seu ambiente local por meio do Skype for Business Server ou do Cloud Connector Edition e do Skype for Business online não terá mais suporte.  Saiba como conectar sua rede de telefonia local ao Microsoft Teams usando o [Roteamento direto](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page).
 
 ## <a name="about-shared-sip-address-space-functionality"></a>Sobre a funcionalidade de espaço de endereçamento SIP compartilhado
 
@@ -84,8 +87,8 @@ Depois de configurar a conectividade híbrida, você pode mover os usuários par
 
 Para configurar sua implantação do híbrida com o **Teams ou o Skype for Business online**, você precisa ter uma das seguintes topologias compatíveis:
 
-- Uma implantação do Skype for Business Server 2019 com todos os servidores que executam o Skype for Business Server 2019.
-- Uma implantação do Skype for Business Server 2015 com todos os servidores que executam o Skype for Business Server 2015.
+- Uma implantação do Skype for Business 2019 com todos os servidores executando o Skype for Business 2019.
+- Uma implantação do Skype for Business 2015 com todos os servidores executando o Skype for Business 2015.
 - Uma implantação do Lync Server 2013 com todos os servidores que executam o Lync Server 2013.  No entanto, se a conectividade de voz híbrida for necessária, você deverá usar uma topologia de versão mista, conforme indicado a seguir.
 - Uma implantação com o máximo de 2 versões de servidor diferentes, conforme listado abaixo:
   - Skype for Business Server 2015 e Skype for Business Server 2019
@@ -149,7 +152,7 @@ Além disso, você precisa garantir que a resolução DNS descrita na tabela a s
 
 |Registro DNS  <br/> |Resolvível por  <br/> |Requisito de DNS  <br/> |
 |:-----|:-----|:-----|
-|Registro SRV de DNS para _sipfederationtls. _tcp. \< sipdomain.com \> para todos os domínios SIP com suporte que resolvem os IP externos de borda de acesso  <br/> |Servidor (es) de borda  <br/> |Habilitar a comunicação federada em uma configuração híbrida. O servidor de borda precisa saber onde rotear o tráfego federado para o domínio SIP dividido entre o local e o online.  <br/> Deve usar o nome de DNS estrito correspondente entre o domínio no nome de usuário e o registro SRV.  <br/> |
+|Registro SRV de DNS para _sipfederationtls. _tcp.\<sipdomain.com\> para todos os domínios SIP com suporte que resolvem os IP externos de borda de acesso  <br/> |Servidor (es) de borda  <br/> |Habilitar a comunicação federada em uma configuração híbrida. O servidor de borda precisa saber onde rotear o tráfego federado para o domínio SIP dividido entre o local e o online.  <br/> Deve usar o nome de DNS estrito correspondente entre o domínio no nome de usuário e o registro SRV.  <br/> |
 |Registro (s) de DNS para o FQDN do serviço de webconferência de borda, por exemplo, webcon.contoso.com resolvendo IP (s) externo de borda de Webconferência  <br/> |Computadores de usuários conectados à rede corporativa interna  <br/> |Permitir que os usuários online apresentem ou exibam conteúdo em reuniões hospedadas no local. O conteúdo inclui arquivos do PowerPoint, quadros de comunicações, pesquisas e anotações compartilhadas.  <br/> |
 
 Dependendo de como o DNS é configurado em sua organização, talvez seja necessário adicionar esses registros à zona de DNS hospedada internamente para o (s) domínio (s) SIP correspondente para fornecer resolução DNS interna a esses registros.

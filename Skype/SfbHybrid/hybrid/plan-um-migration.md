@@ -1,5 +1,5 @@
 ---
-title: Planejar a migração do Skype for Business Server e do Exchange Server
+title: Plano de migração para o Skype for Business Server e Exchange Server
 ms.reviewer: ''
 author: dstrome
 ms.author: dstrome
@@ -11,16 +11,16 @@ ms.topic: article
 localization_priority: Normal
 ms.prod: skype-for-business-itpro
 description: Este tópico aborda o que você precisa considerar ao decidir migrar suas implantações existentes do Skype for Business Server ou do Exchange Server para a versão mais recente ou para o Skype for Business online ou o Exchange Online.
-ms.openlocfilehash: fec12eb5b386222ad0a69115ca3fc9e2de9e2fea
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: cb6d58cf839b6260bc8889817ea568528e4832f4
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221261"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47359037"
 ---
-# <a name="plan-for-skype-for-business-server-and-exchange-server-migration"></a>Planejar a migração do Skype for Business Server e do Exchange Server
+# <a name="plan-for-skype-for-business-server-and-exchange-server-migration"></a>Plano de migração para o Skype for Business Server e Exchange Server
 
-Este tópico aborda o que você precisa considerar ao decidir migrar suas implantações existentes do Skype for Business Server ou do Exchange Server para a versão mais recente ou para o Skype for Business online ou o Exchange Online. O que você pode migrar e, quando, depende muito do que você já configurou em sua organização.
+Este tópico aborda o que você precisa considerar ao decidir migrar suas implantações existentes do Skype for Business Server ou do Exchange Server para o Exchange Online. O que você pode migrar e, quando, depende muito do que você já configurou em sua organização.
 
 ## <a name="feature-changes-in-exchange-2019-and-skype-for-business-server-2019"></a>Alterações de recursos no Exchange 2019 e no Skype for Business Server 2019
 

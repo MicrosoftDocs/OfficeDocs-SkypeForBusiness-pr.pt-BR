@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Este artigo descreve os benefícios, as considerações de planejamento e os requisitos para implementar o serviço de caixa postal do Microsoft Cloud. Para obter informações sobre como configurar a caixa postal em nuvem, consulte Configuring Cloud postal.
-ms.openlocfilehash: b78608f3fd1e60421ad0edc4318b2b44217851c2
-ms.sourcegitcommit: bdafa1f4146e615d325e27a50352f10c0d51ef1a
+ms.openlocfilehash: d95d3674eb9119be07e8b588ec3fe0e619fb5f1c
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "44472250"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47359127"
 ---
 # <a name="plan-cloud-voicemail-service-for-on-premises-users"></a>Planejar o serviço de caixa postal na nuvem para usuários locais
 
@@ -36,6 +36,9 @@ A caixa postal em nuvem substitui o local da UM (Unificação de mensagens) do E
 - Suporte para caixas de correio do Exchange no local ou na nuvem
 
 - Aproveitamento de Saudações do usuário existentes da Unificação de mensagens do Exchange Online
+
+> [!Important]
+> O Skype for Business online será desativado no dia 31 de julho de 2021 depois do qual os usuários não poderão acessar a caixa postal em sua caixa de correio do Exchange através do cliente do Skype for Business online.
 
 Para obter mais informações sobre a comparação de recursos, consulte [Plan for Skype for Business Server and Exchange Server Migration](plan-um-migration.md).
 
