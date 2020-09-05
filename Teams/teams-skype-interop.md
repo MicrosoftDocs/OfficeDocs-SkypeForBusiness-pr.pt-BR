@@ -12,12 +12,12 @@ ms.reviewer: vinbel
 search.appverid: MET150
 description: Saiba mais sobre os recursos de interoperabilidade entre usuários do teams na sua organização e usuários do Skype (cliente).
 localization_priority: Normal
-ms.openlocfilehash: 87e860a49f235713ed4e9cea5c818912f2a352f5
-ms.sourcegitcommit: 93c5afed49f47574f1b00305e5dfbb8a89be02a7
+ms.openlocfilehash: 05db7408505c4b3e3c47006cfa93c3a4e3c65061
+ms.sourcegitcommit: 2e6b0930645cd97dbd597e9346a6fe1788c6facf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44859636"
+ms.lasthandoff: 09/04/2020
+ms.locfileid: "47395360"
 ---
 # <a name="teams-and-skype-interoperability"></a>Teams e interoperabilidade do Skype
 
@@ -63,6 +63,10 @@ Os usuários bloqueados do Skype, juntamente com outras pessoas e números de te
 - As conversas são apenas uma a uma. Não há suporte para chats em grupo.
 - Os usuários do Microsoft Teams e os usuários do Skype não conseguem ver a presença dos outros.
 - Não há suporte para a pesquisa de usuários do Skype usando sua ID Skype ou número de telefone.
+- Os usuários do Skype não podem chamar usuários de equipes que configuram o encaminhamento de chamadas para o número de outro usuário, o número de um representante ou um número de rede telefônica pública comutada (PSTN).  Só há suporte para correio de voz.
+- Não há suporte para escalonamento de interoperabilidade, chamadas de grupo e reuniões.
+- A capacidade de um representante fazer chamadas para um usuário do Skype em nome de um usuário do Teams não é compatível.
+- Não há suporte para o compartilhamento de tela com o chat.
 
 ## <a name="set-whether-teams-users-can-communicate-with-skype-users"></a>Definir se os usuários do teams podem se comunicar com usuários do Skype
 

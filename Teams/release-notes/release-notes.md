@@ -16,16 +16,28 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Notas de versão para recursos de administração do Microsoft Teams.
-ms.openlocfilehash: 57efbbd442fb256e4cebab60b6219e1f683512c9
-ms.sourcegitcommit: aae3eeb4dedd825ab176abe7e1aff9463c88799b
+ms.openlocfilehash: fb14f80d19401271b4206dde8762d44e80c5a6e9
+ms.sourcegitcommit: 6f89b1ed41e437030167d104c08335445f013b32
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46797439"
+ms.lasthandoff: 09/04/2020
+ms.locfileid: "47399506"
 ---
 # <a name="release-notes-for-microsoft-teams-admin-features"></a>Notas de versão para recursos de administração do Microsoft Teams
 
 Estas notas de versão fornecem informações sobre novos recursos de administração do Microsoft Teams.
+
+## <a name="september-3-2020"></a>3 de setembro de 2020
+
+### <a name="custom-apps-store-in-microsoft-teams"></a>Repositório de aplicativos personalizados no Microsoft Teams
+
+Agora você pode personalizar a loja de aplicativos do teams com sua identidade visual da sua organização adicionando seu logotipo, planos de fundo personalizados e cores de texto personalizadas para fazer com que seja mais convidada aos usuários finais. [Saiba Mais](https://docs.microsoft.com/MicrosoftTeams/customize-your-app-store)
+
+## <a name="september-1-2020"></a>1 de setembro de 2020
+
+### <a name="on-demand-translation-in-android"></a>Tradução sob demanda no Android
+
+A tradução de mensagem embutida é um recurso do Microsoft Teams que permite aos usuários traduzir mensagens de equipes para o idioma especificado pelas configurações de idioma pessoal. A configuração da tradução está **ativada** por padrão. [Saiba mais](https://docs.microsoft.com/microsoftteams/inline-message-translation-teams).
 
 ## <a name="august-17-2020"></a>17 de agosto de 2020
 
@@ -75,6 +87,16 @@ Aprove aplicativos personalizados enviados por meio da API de envio de aplicativ
 
 Os aplicativos Teams são gratuitos para instalar e alguns podem exigir assinaturas de serviço de compra para experimentar o escopo e a funcionalidade completa do aplicativo. Essas assinaturas de serviço são chamadas de SaaS (software como serviço), que estão disponíveis para compra por meio do AppSource e agora através do centro de administração do Microsoft Teams. [Saiba mais](../purchase-third-party-apps.md).
 
+### <a name="publish-a-custom-app-submitted-through-the-teams-app-submission-api"></a>Publicar um aplicativo personalizado enviado por meio da API de envio do aplicativo Teams
+
+Os desenvolvedores podem usar a API de envio de aplicativos Teams para enviar aplicativos personalizados diretamente para o centro de administração do Microsoft Teams para que os administradores possam revisar e aprovar. [Saiba mais](https://docs.microsoft.com/microsoftteams/submit-approve-custom-apps).
+
+## <a name="july-31-2020"></a>31 de julho de 2020
+
+### <a name="admins-can-configure-shift-based-presence-on-shift-off-shift-for-their-firstline-workers"></a>Os administradores podem configurar a presença baseada em Shift (em Shift, desligado) para seus funcionários de primeira mão
+
+Os administradores podem configurar seus trabalhos de primeira mão para ter Estados de presença baseados em Shift: em Shift, ocupado (pode ser alternado quando estiver em turno) e fora do turno.
+
 ## <a name="july-29-2020"></a>29 de julho de 2020
 
 ### <a name="enhanced-manageability-using-device-tagging-functionality"></a>Capacidade de gerenciamento aprimorada usando a funcionalidade de marcação de dispositivo
@@ -103,7 +125,7 @@ Adicionamos a capacidade de habilitar o NDI para uma reunião de equipe. NDI-out
 
 ### <a name="enable-suggested-replies"></a>Habilitar respostas sugeridas
 
-Ative essa configuração para habilitar as respostas sugeridas para mensagens de chat. [Saiba mais](../messaging-policies-in-teams.md)
+Ative essa configuração para habilitar as respostas sugeridas para mensagens de chat. [Saiba Mais](../messaging-policies-in-teams.md)
 
 ## <a name="july-9-2020"></a>9 de julho de 2020
 
@@ -139,6 +161,10 @@ Adicionamos a capacidade dos atendedores automáticos e as chamadas recebidas na
 
 Você escolhe quais aplicativos são instalados por padrão para os usuários quando eles iniciam o Teams. [Saiba mais](../teams-app-setup-policies.md).
 
+### <a name="screen-sharing-on-behalf-of-others"></a>Compartilhamento de tela em nome de outras pessoas
+
+Muitos administradores de ti reclamaram que não podem ter o compartilhamento de tela dos funcionários a partir do chat quando desativam a política AllowPrivateCalling. Esse recurso funciona desacoplado a capacidade de iniciar um Screenshare do chat da política do AllowPrivateCalling, mas ele ainda impede que os usuários adicionem áudio/vídeo à sessão do Screenshare se a política do AllowPrivateCalling estiver desabilitada.
+
 ## <a name="june-29-2020"></a>29 de junho de 2020
 
 ### <a name="walkie-talkie-app-in-microsoft-teams"></a>Aplicativo faça de conversas no Microsoft Teams
@@ -160,6 +186,12 @@ Adicionamos um novo widget Resumo do usuário que está disponível quando você
 ### <a name="sign-in-restrictions-for-android-and-ios-users"></a>Restrições de entrada para usuários do Android e iOS
 
 Se o usuário não estiver conectado à sua conta do Microsoft 365 em nenhum outro lugar, será solicitado que insira autenticação de fator único ou multifator (SFA ou MFA), dependendo de qual sua organização configurou para as políticas de entrada de dispositivos móveis. [Saiba mais](../sign-in-teams.md).
+
+## <a name="june-15-2020"></a>15 de junho de 2020
+
+### <a name="monitor-shifts-with-audit-logs"></a>Monitorar turnos com logs de auditoria
+
+Você pode pesquisar o log de auditoria para exibir a atividade de turnos em sua organização. [Saiba mais](https://docs.microsoft.com/microsoftteams/audit-log-events).
 
 ## <a name="june-11-2020"></a>11 de junho de 2020
 
