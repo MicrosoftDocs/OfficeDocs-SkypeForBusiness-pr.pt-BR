@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7869d5030f5a2f778fb4988c49d7f48274f4f792
-ms.sourcegitcommit: 27fb021e46d775652a99d862b19d94f3fc020594
+ms.openlocfilehash: e00bfc5606e23460255e3ee4748010843415eb1b
+ms.sourcegitcommit: 92fdfad4564eb27190cd88f109bded2b95d473ee
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "46778093"
+ms.lasthandoff: 09/08/2020
+ms.locfileid: "47408227"
 ---
 # <a name="it-admin-guide-to-insights-in-teams-for-education"></a>Guia para o Administrador de TI sobre o Insights no Teams para Educação
 
@@ -34,14 +34,16 @@ O Insights está ativo nos SKUs A1, A3 e A5 do Office 365 Education.
 
 ## <a name="permissions"></a>Permissões
 
-Tipos de usuário: 
-- Os alunos são identificados por sua licença e não têm acesso à guia Insights (mesmo que sejam proprietários da equipe). 
-- Educadores são identificados pelas licenças do corpo docente. Os educadores devem ter uma licença do corpo docente e ser proprietário de uma equipe de classe para adicionar e ver os dados apresentados na guia Insights. 
-- Os líderes também são identificados pelas licenças do corpo docente, mas além disso, eles precisam de permissões explícitas do administrador global de TI para visualizar os relatórios no aplicativo Insights.
+### <a name="user-types"></a>Tipos de usuário:
+- Os **alunos** são identificados por sua licença e  _não têm_ acesso à guia Insights (mesmo que sejam proprietários da equipe). 
+- **Educadores** são identificados pelas licenças do corpo docente. Os educadores devem ter uma licença do corpo docente e ser proprietário de uma equipe de classe para adicionar e ver os dados apresentados na guia Insights. 
+- Os **líderes** também são identificados pelas licenças do corpo docente, mas além disso, eles precisam de permissões explícitas do administrador global de TI para visualizar os relatórios no aplicativo Insights.
+- As contas de convidado _não têm_acesso ao Insights.
 
+### <a name="permission-levels"></a>Nível da permissão
 Os educadores e líderes têm diferentes níveis de permissão e lógica:
-- Os educadores podem adicionar o aplicativo do Insights a um canal público dentro de uma equipe de classe, navegando até Apps na barra de aplicativos do Teams e procurando por Insights. A guia reflete as atividades de todos na equipe de classe que não são proprietários (incluindo educadores que não são proprietários da equipe). 
-- Os líderes podem adicionar o aplicativo Insights como um aplicativo pessoal (aparece à esquerda no menu do Teams) navegando até Apps na barra de aplicativos do Teams e procurando por Insights. 
+- Os **educadores** podem adicionar o aplicativo do Insights a um canal público dentro de uma equipe de classe, navegando até Apps na barra de aplicativos do Teams e procurando por Insights. A guia reflete as atividades de todos na equipe de classe que não são proprietários (incluindo educadores que não são proprietários da equipe). 
+- Os **líderes** podem adicionar o aplicativo Insights como um aplicativo pessoal (aparece à esquerda no menu do Teams) navegando até Apps na barra de aplicativos do Teams e procurando por Insights. 
 
 ## <a name="compliance"></a>Conformidade
 
@@ -58,9 +60,9 @@ Nosso objetivo é ajudar os educadores a entender o engajamento e focar no apren
 
 ## <a name="data-collection"></a>Coleta de dados
 
-Coletamos os dados para o Insights quando o Education Analytics é ativado para o locatário. Os dados são coletados das atividades do Teams para apresentar insights práticos ​​de ensino e aprendizagem.
-
-Por padrão, a Análise Educacional está **Habilitada**.
+- Coletamos os dados para o Insights quando o Education Analytics é ativado para o locatário. Os dados são coletados das atividades do Teams para apresentar insights práticos ​​de ensino e aprendizagem.
+- Os dados de convidados _não_ são coletados para o Insights.
+- Por padrão, a Análise Educacional está **Habilitada**.
 
 Atualmente, esses dados são extraídos das seguintes áreas de atividade de alunos e educadores nas equipes de classe:
 
