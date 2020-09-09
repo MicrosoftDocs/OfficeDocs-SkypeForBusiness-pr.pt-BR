@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7c1ad054fb12ade67a15d2e8c80c1a68178c1dc9
-ms.sourcegitcommit: cd16ff6007e0a798493e2fa469c6681993380420
+ms.openlocfilehash: 1950c395c61bd1f6d70741e3d9a8a26553f3445a
+ms.sourcegitcommit: 207c58563b7b2aba274b067cf64242abd7a33c2c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2020
-ms.locfileid: "46860812"
+ms.lasthandoff: 09/08/2020
+ms.locfileid: "47405788"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>Criar uma equipe englobando toda a organização no Microsoft Teams
 
@@ -56,7 +56,7 @@ Para aproveitar ao máximo a equipe de toda a organização, recomendamos que os
 
 ### <a name="allow-only-team-owners-to-post-to-the-general-channel"></a>Permitir que somente proprietários de equipe publiquem no canal Geral
 
-Reduza o ruído do canal fazendo com que somente os proprietários da equipe publiquem no canal Geral. Vá para a equipe e clique em **˙˙˙ Mais opções** > **Gerenciar equipe**. Na guia **Configurações**, clique em **Permissões de membro** > selecione **Apenas proprietários podem postar mensagens**.
+Reduza o ruído do canal fazendo com que somente os proprietários da equipe publiquem no canal Geral. Vá para a equipe, localize o canal geral e, em seguida, selecione **̇ ̇ ̇ mais opções**  >  **gerenciar canal**. Na guia **configurações do canal** , clique em **permissões**e selecione **somente os proprietários podem publicar mensagens**.
 
 ### <a name="turn-off-team-and-team-name-mentions"></a>Desativar as menções à @equipe e @[nome da equipe]
 

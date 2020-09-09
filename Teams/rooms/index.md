@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: As considerações de planejamento pertinentes para a implantação de salas do Microsoft Teams e como implantar e gerenciar o sistema.
-ms.openlocfilehash: 98fbd10cdbc575412253b4a9c8fdfc16869da2ed
-ms.sourcegitcommit: 824c79bd050b0abb576004f6209bb081d5090a8f
+ms.openlocfilehash: 4474d5f7c5e273fccc52e077907017c073e3a7b5
+ms.sourcegitcommit: 207c58563b7b2aba274b067cf64242abd7a33c2c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "46521986"
+ms.lasthandoff: 09/08/2020
+ms.locfileid: "47405798"
 ---
 # <a name="microsoft-teams-rooms"></a>Salas do Microsoft Teams
 
@@ -33,9 +33,9 @@ ms.locfileid: "46521986"
     :::column-end:::
 :::row-end:::
 
-|               |               |               |               |               |               |
-| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| ![Símbolo de lista](https://docs.microsoft.com/office/media/icons/list-123-teams_small.svg)  | **[Plano](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-plan)**  | ![Implantar símbolo](https://docs.microsoft.com/office/media/icons/deploy-teams_small.svg)  | **[Implantar](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-deploy)**  | ![Ferramentas/chave inglesa](https://docs.microsoft.com/office/media/icons/toolbox_small.svg)  | **[Gerenciar](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-manage)** |
+|               |               |               |
+| ------------- | ------------- | ------------- |
+|<img src="https://docs.microsoft.com/office/media/icons/list-123-teams.svg" width="40 px" height="40 px"> <br> **[Plano](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-plan)** |<img src="https://docs.microsoft.com/office/media/icons/deploy-teams.svg" width="40 px" height="40 px"> <br> **[Implantar](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-deploy)** |<img src="https://docs.microsoft.com/office/media/icons/toolbox.svg" width="40 px" height="40 px"> <br> **[Gerenciar](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-manage)** |
 
 <br>
 
