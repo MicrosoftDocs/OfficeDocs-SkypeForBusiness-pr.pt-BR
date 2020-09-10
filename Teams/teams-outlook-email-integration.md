@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 474da725ad88221d131959078a733ed1724ae1be
-ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
+ms.openlocfilehash: 34498b73b70937eefcff267bc7a3b01068ab9557
+ms.sourcegitcommit: 430aac8c5848fbcaf680ea447bfa2f9d5fa994e2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "44611151"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "47420605"
 ---
 # <a name="teams-and-outlook-email-integration"></a>Teams e integração de email do Outlook
 
@@ -35,7 +35,7 @@ Para usar esse recurso, o Outlook na Web deve estar ativado para o usuário. Se 
 
 ## <a name="actionable-activity-emails"></a>Emails de atividades acionáveis
 
-Os usuários recebem automaticamente emails de atividade ausentes que o ajudam a acompanhar conversas perdidas no Teams. Os emails da atividade perdida mostram as respostas mais recentes de uma conversa, incluindo mensagens que foram enviadas após a mensagem perdida, e os usuários podem clicar em **responder** para responder diretamente no Outlook. Para saber mais, confira [responder a emails de atividades perdidas do Outlook](https://support.office.com/article/reply-to-missed-activity-emails-from-outlook-bc0cf587-db26-4946-aac7-8eebd84f1381).
+Os usuários recebem automaticamente emails de atividade ausentes que o ajudam a acompanhar conversas perdidas no Teams. Os emails da atividade perdida mostram as respostas mais recentes de uma conversa, incluindo mensagens que foram enviadas após a mensagem perdida, e os usuários podem clicar em **responder** para responder diretamente no Outlook. Para saber mais, confira [responder a emails de atividades perdidas do Outlook](https://support.office.com/article/reply-to-missed-activity-emails-from-outlook-bc0cf587-db26-4946-aac7-8eebd84f1381) e [mensagens acionáveis no Outlook e grupos do Office 365](https://docs.microsoft.com/outlook/actionable-messages/).
 
 ![Captura de tela mostrando um email de atividade perdida](media/missed-activity-email.png)
 
