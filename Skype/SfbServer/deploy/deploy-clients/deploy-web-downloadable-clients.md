@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: b6301e98-051c-4e4b-8e10-ec922a8f508a
 description: 'Resumo: implantar o Skype for Business Web App e o aplicativo de reuniões do Skype usado com o Skype for Business.'
-ms.openlocfilehash: 7f6bebbc9950a7eb5da202c3b818b1288c811f17
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 16a2a28bf634524d6f61ba579652a6dddfd06de3
+ms.sourcegitcommit: 0ad2fb145496210b728034d291a456b4caabdbf9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029042"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "47429417"
 ---
 # <a name="deploy-web-downloadable-clients-in-skype-for-business-server"></a>Implantar clientes para download da Web no Skype for Business Server
 
@@ -33,7 +33,7 @@ Os recursos de voz, vídeo e compartilhamento no Skype for Business Web App requ
 ## <a name="enable-multi-factor-authentication-for-skype-for-business-web-app"></a>Habilitar a autenticação multifator para o Skype for Business Web App
 <a name="MFA"> </a>
 
-O Skype for Business Web App, o aplicativo de reuniões do Skype e o Skype for Business para Mac oferecem suporte à autenticação multifator. Além de nome de usuário e senha, você pode exigir métodos de autenticação adicionais, como cartões inteligentes ou PINs, para autenticar os usuários que estão participando de redes externas ao entrarem em reuniões do Skype for Business. Você pode habilitar a autenticação multifator implantando o servidor de Federação do serviço de Federação do Active Directory (AD FS) e habilitando a autenticação passiva no Skype for Business Server. Após a configuração do AD FS, os usuários externos que tentarem participar de reuniões do Skype for Business são apresentados com uma página da Web de autenticação multifator do AD FS que contém o nome de usuário e o desafio de senha, juntamente com quaisquer métodos de autenticação adicionais que você configurou.
+O Skype for Business Web App, o aplicativo de reuniões do Skype e o Skype for Business para Mac oferecem suporte à autenticação multifator. Além de nome de usuário e senha, você pode exigir métodos de autenticação adicionais, como cartões inteligentes ou PINs, para autenticar os usuários que estão participando de redes externas ao entrarem em reuniões do Skype for Business. Você pode habilitar a autenticação multifator implantando o servidor de Federação do serviço de Federação do Active Directory (AD FS) e habilitando a autenticação passiva no Skype for Business Server. Após a configuração do AD FS, os usuários externos que tentarem participar de reuniões do Skype for Business são apresentados com uma página da Web de autenticação multifator do AD FS que contém o nome de usuário e a senha desafio, juntamente com quaisquer métodos de autenticação adicionais que você tenha configurado.
 
 > [!IMPORTANT]
 > As considerações a seguir são importantes se você deseja planejar a configuração do AD FS para a autenticação multifator:
@@ -135,7 +135,7 @@ Este procedimento é opcional e se aplica ao Skype for Business Server 2015 CU5 
    Set-CsWebServiceConfiguration -MeetingUxEnableTelemetry $True
    ```
 
-    As informações enviadas à Microsoft estão em conformidade estrita com as [práticas de coleta de dados do Skype for Business](https://docs.microsoft.com/skypeforbusiness/legal-and-regulatory/data-collection-practices).
+    As informações enviadas à Microsoft estão em conformidade estrita com a [privacidade e o Microsoft Teams](../../../../Teams/teams-privacy.md).
 
 3. Defina o tempo limite antes de voltar para a experiência do aplicativo Web do Skype for Business hospedado localmente, se a CDN não estiver disponível. O valor padrão é 6 segundos. Se esse valor for definido como 0, não haverá tempo limite.
 

@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 34498b73b70937eefcff267bc7a3b01068ab9557
-ms.sourcegitcommit: 430aac8c5848fbcaf680ea447bfa2f9d5fa994e2
+ms.openlocfilehash: 675834cd36c4e86d34d179e91fe66905e3860b32
+ms.sourcegitcommit: 0ad2fb145496210b728034d291a456b4caabdbf9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47420605"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "47429437"
 ---
 # <a name="teams-and-outlook-email-integration"></a>Teams e integração de email do Outlook
 
@@ -35,7 +35,10 @@ Para usar esse recurso, o Outlook na Web deve estar ativado para o usuário. Se 
 
 ## <a name="actionable-activity-emails"></a>Emails de atividades acionáveis
 
-Os usuários recebem automaticamente emails de atividade ausentes que o ajudam a acompanhar conversas perdidas no Teams. Os emails da atividade perdida mostram as respostas mais recentes de uma conversa, incluindo mensagens que foram enviadas após a mensagem perdida, e os usuários podem clicar em **responder** para responder diretamente no Outlook. Para saber mais, confira [responder a emails de atividades perdidas do Outlook](https://support.office.com/article/reply-to-missed-activity-emails-from-outlook-bc0cf587-db26-4946-aac7-8eebd84f1381) e [mensagens acionáveis no Outlook e grupos do Office 365](https://docs.microsoft.com/outlook/actionable-messages/).
+Os usuários recebem automaticamente emails de atividade ausentes que o ajudam a acompanhar conversas perdidas no Teams. Os emails da atividade perdida mostram as respostas mais recentes de uma conversa, incluindo mensagens que foram enviadas após a mensagem perdida, e os usuários podem clicar em **responder** para responder diretamente no Outlook. Para saber mais, confira [responder a emails de atividades perdidas do Outlook](https://support.office.com/article/reply-to-missed-activity-emails-from-outlook-bc0cf587-db26-4946-aac7-8eebd84f1381). 
+
+> [!NOTE]
+> Esse recurso não tem suporte no Outlook para Mac ou algumas versões mais antigas do Outlook para Windows. Para obter mais informações, consulte [mensagens acionáveis no Outlook e grupos do Office 365](https://docs.microsoft.com/outlook/actionable-messages/).
 
 ![Captura de tela mostrando um email de atividade perdida](media/missed-activity-email.png)
 
