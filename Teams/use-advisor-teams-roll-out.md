@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: Utilize o Advisor for Teams para ajudá-lo a planejar e concluir a implementação do Microsoft Teams.
-ms.openlocfilehash: 4a967e8e811b2730849341f0f1f99ddbb1811496
-ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
+ms.openlocfilehash: 4315ab438131e6b7e119a3e0dc48fee661190552
+ms.sourcegitcommit: 272995feb5661712668404ba57ce7afdf3b848be
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46788395"
+ms.lasthandoff: 09/11/2020
+ms.locfileid: "47474640"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Use o Assistente do Teams para ajudá-lo na implantação do Microsoft Teams
 
@@ -39,7 +39,7 @@ Para obter uma visão geral dirigida da experiência do Assistente do Teams, con
 
 ## <a name="using-advisor-for-teams"></a>Utilizando o Advisor for Teams
 
-**As licenças do Teams, Forms e Planner são necessárias para usar o Assistente do Teams.** No entanto, não é necessário ser um administrador do Teams para usar o Assistente do Teams, qualquer pessoa em sua organização pode usá-lo. Configuramos permissões especiais para que usuários não administradores possam acessar o Assistente do Teams, mesmo que seja no centro de administração do Teams. Você TEM que ser um administrador do Teams, Administrador de Serviços do Teams ou Administrador Global para abrir as avaliações de prontidão dos locatários (isso ocorre porque as funções especiais não administrativas não têm acesso às APIs do Microsoft Graph, subjacentes às avaliações). No entanto, não é necessário ser um administrador do Teams para usar o Assistente do Teams, qualquer pessoa em sua organização pode usá-lo. Configuramos permissões especiais para que usuários não administradores possam acessar o Assistente do Teams, mesmo que seja no centro de administração do Teams. Você TEM que ser um administrador do Teams, Administrador de Serviços do Teams ou Administrador Global para abrir as avaliações de prontidão dos locatários (isso ocorre porque as funções especiais não administrativas não têm acesso às APIs do Microsoft Graph, subjacentes às avaliações).
+**As licenças do Teams, Forms e Planner são necessárias para usar o Assistente do Teams.** No entanto, não é necessário ser um administrador do Teams para usar o Assistente do Teams, qualquer pessoa em sua organização pode usá-lo. Configuramos permissões especiais para que usuários não administradores possam acessar o Assistente do Teams, mesmo que seja no centro de administração do Teams. Você TEM que ser um administrador do Teams, Administrador de Serviços do Teams ou Administrador Global para abrir as avaliações de prontidão dos locatários (isso ocorre porque as funções especiais não administrativas não têm acesso às APIs do Microsoft Graph, subjacentes às avaliações).
 
 > [!IMPORTANT]
 > Se o **Teams Advisor** estiver ausente em **Planejamento** no centro de administração do Teams, isso significa que o usuário não está licenciado para o Teams.
