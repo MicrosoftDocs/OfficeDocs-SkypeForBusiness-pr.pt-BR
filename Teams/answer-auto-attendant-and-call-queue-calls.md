@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 45412714c507212f4d627a8f362385b5f08360cb
-ms.sourcegitcommit: eb8b573a426b6a68c763968c4cd2d45bc0d6a4b4
+ms.openlocfilehash: 95719bc95cc752888964a5f404e6f8050ebf3fa4
+ms.sourcegitcommit: 67c686810d37bffda72a6e92155d9c8ec86bfae6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46672872"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47766855"
 ---
 <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>Atender chamadas do atendedor automático e da fila de chamadas diretamente no Teams
 ===========================================================
@@ -62,6 +62,11 @@ O suporte para o atendedor automático e as chamadas da fila de chamadas está d
 ## <a name="configure-auto-attendant-and-call-queue-support-for-microsoft-teams"></a>Configurar o atendedor automático e o suporte à fila de chamadas do Microsoft Teams
 
 Para receber chamadas de atendedor automático e fila de chamadas no Microsoft Teams, você precisa configurar a política de interoperabilidade e a política de atualização. Revise [a migração e a interoperabilidade de organizações que usam o Skype for Business em equipe](migration-interop-guidance-for-teams-with-skype.md). Se você não tiver o atendedor automático e/ou a fila de chamadas configurada e quiser fazer isso, consulte [configurar um atendedor automático na nuvem](create-a-phone-system-auto-attendant.md) e [criar uma fila de chamadas na nuvem](create-a-phone-system-call-queue.md).
+
+## <a name="known-issues"></a>Problemas conhecidos
+
+Quando um agente de fila de chamada recebe uma chamada em seu dispositivo móvel, as chamadas podem ficar em espera se o dispositivo estiver bloqueado. O usuário deve desbloquear o dispositivo primeiro e atender a chamada.
+
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
