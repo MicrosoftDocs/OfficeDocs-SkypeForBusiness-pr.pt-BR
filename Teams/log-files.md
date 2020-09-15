@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Saiba mais sobre registros de depuração, mídia e desktop produzidos pelo Microsoft Teams, onde podem ser encontrados e como eles podem ajudar na resolução de problemas.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f13acc1a401a6753b335c17fe0cd8a7984849216
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 468f0f67743f7cd0e11ff28e4484f70a71af3b64
+ms.sourcegitcommit: 67c686810d37bffda72a6e92155d9c8ec86bfae6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46582104"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47766755"
 ---
 <a name="use-log-files-in-troubleshooting-microsoft-teams"></a>Usar arquivos de registro para solucionar problemas no Microsoft Teams
 =================================================
@@ -81,7 +81,7 @@ Os registros de depuração serão baixados automaticamente nas seguintes pastas
 
 -   Windows: %userprofile%\\Downloads
 
--   Mac OSX: Downloads
+-   Mac OSX: ~/downloads
 
 -   Linux: ~/downloads
 
@@ -90,8 +90,11 @@ Os registros de depuração serão baixados automaticamente nas seguintes pastas
 <a name="media-logs"></a>Registros de mídia
 ---------------------------
 
-Os registros de mídia contêm dados de diagnóstico de áudio, vídeo e compartilhamento de tela. Eles são necessários para casos de suporte apenas mediante solicitação e só podem ser inspecionados pela Microsoft. A tabela a seguir descreve a localização dos arquivos.
+Os logs de mídia contêm dados de diagnóstico sobre áudio, vídeo e compartilhamento de tela em reuniões do teams. Eles são necessários para casos de suporte apenas mediante solicitação e só podem ser inspecionados pela Microsoft. 
 
+O log de mídia está desativado por padrão. Para registrar dados de diagnóstico para reuniões do Teams, os usuários devem ativar a opção no cliente do teams. Vá para **configurações**  >  **geral**, marque a caixa de seleção **habilitar o registro em log para diagnóstico de reunião (requer a reinicialização de equipes**) e reinicie o Microsoft Teams.
+
+A tabela a seguir descreve os locais dos logs.
 
 |Cliente |Localização |
 |---------|---------|
@@ -103,7 +106,15 @@ Os registros de mídia contêm dados de diagnóstico de áudio, vídeo e compart
 |Linux       |~/.config/Microsoft/Microsoft Teams/Media-Stack/*. blog         |
 |            |~/.config/Microsoft/Microsoft Teams/skylib/*. blog         |
 
+Aqui está uma lista dos arquivos de log que são gerados e as informações que eles contêm.
 
+|Nome do arquivo de log  |Descrição  |
+|---------|---------|
+|Teams. msRTC-0-s1039525249. blog     | Contém informações relacionadas à pilha de mídia. Isso inclui o status do canal, como resolução, decodificadores e codificadores usados, e o número de quadros enviados e recebidos, e o status da sessão de câmera e compartilhamento de tela baseado em vídeo (VBSS).         |
+|rtmcontrol. msRTC-0-2415069487. blog      |Registra informações relacionadas a ações de controle remoto, como o carimbo de data/hora quando o controle é fornecido, e informações de ponteiro do mouse.          |
+|Teams_MediaStackETW -2-U-xr-U. etl      |Registra eventos de rastreamento de pilha de mídia.         |
+|Debug-0-s2790420889. blog    | Contém informações relacionadas ao agente de mídia, incluindo qualidade de renderização.          |
+|tscalling-0-2061129496. blog   |Registra eventos na API de chamadas para TS.       |
 
 <a name="desktop-logs"></a>Registros de desktop
 ---------------------

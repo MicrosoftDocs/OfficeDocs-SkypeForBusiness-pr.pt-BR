@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e286611823ddfd12b43abd3a8ff385885fd02a38
-ms.sourcegitcommit: bd13aecbb25c14e17d1b64343df6d80c90b2aa45
+ms.openlocfilehash: dce77f6fd2ff7d26f9452341884406fa69099a79
+ms.sourcegitcommit: 67c686810d37bffda72a6e92155d9c8ec86bfae6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "46803984"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47766915"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams para Infraestrutura de Área de Trabalho Virtualizada
 
@@ -80,7 +80,11 @@ Para obter os requisitos mais recentes do servidor e do cliente, consulte [este 
 
 ### <a name="vmware-horizon-workspace-and-desktop-requirements"></a>Requisitos de espaço de trabalho e área de trabalho do VMware horizonte
 
-O VMware horizonte oferece suporte otimizado a AV para Teams no VDI para melhorar a produtividade em áreas de trabalho virtuais. Você pode baixar a versão mais recente do VMware horizonte na página de [downloads do VMware](https://my.vmware.com/web/vmware/downloads/#all_products) .
+O VMware horizonte é uma plataforma moderna para a entrega segura de áreas de trabalho virtuais e aplicativos em toda a nuvem híbrida. Para oferecer uma excelente experiência de usuário final, o VMware horizonte oferece otimização de mídia para equipes. Essa otimização melhora a produtividade geral em aplicativos e áreas de trabalho virtuais e aprimora a experiência do usuário durante a chamada e a reunião usando o Microsoft Teams.
+
+Você pode baixar a versão mais recente do VMware horizonte na página de [downloads do VMware](https://my.vmware.com/web/vmware/downloads/#all_products) . Os componentes de otimização de mídia obrigatórios fazem parte do agente de horizonte e do cliente horizonte por padrão e não é necessário instalar um plug-in adicional para usar o recurso de otimização do teams.
+
+Para obter os requisitos e as instruções mais recentes sobre como configurar a otimização de mídia para o Teams, consulte [este website da VMware](https://docs.vmware.com/en/VMware-Horizon/2006/horizon-remote-desktop-features/GUID-F68FA7BB-B08F-4EFF-9BB1-1F9FC71F8214.html).
 
 ## <a name="install-or-update-the-teams-desktop-app-on-vdi"></a>Instalar ou atualizar o aplicativo da área de trabalho Teams no VDI
 
@@ -374,10 +378,12 @@ Não há suporte para os seguintes recursos de chamada e reunião:
 - Serviços de emergência aprimorados
 - Botões e controles de LED HID entre o aplicativo e os dispositivos do teams
 - Desfoque e efeitos em segundo plano
-- Transmissão/eventos ao vivo
+- Funções de transmissão e de produtor de eventos dinâmicos e apresentador
 - Roteamento baseado em local (LBR)
 - Estacionamento de chamada
 - Fila de chamadas
+- Áudio do sistema compartilhado/som do computador
+- Bypass de mídia para Roteamento Direto
 
 > [!NOTE]
 > Estamos nos empenhando para adicionar recursos de chamada e reunião que atualmente só estão disponíveis em ambientes não VDI. Isso pode incluir mais controle de administração sobre qualidade, cenários adicionais de compartilhamento de tela e recursos avançados recentemente adicionados ao Teams. Entre em contato com o representante da equipe para saber mais sobre os recursos futuros.

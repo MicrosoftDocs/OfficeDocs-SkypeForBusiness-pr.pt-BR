@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1950c395c61bd1f6d70741e3d9a8a26553f3445a
-ms.sourcegitcommit: 207c58563b7b2aba274b067cf64242abd7a33c2c
+ms.openlocfilehash: 84f34ee9af678613580beefeb52b08e9ce924be3
+ms.sourcegitcommit: 67c686810d37bffda72a6e92155d9c8ec86bfae6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "47405788"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47766865"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>Criar uma equipe englobando toda a organização no Microsoft Teams
 
@@ -32,7 +32,7 @@ Com as equipes de toda a organização, os administradores globais podem criar f
 
 ![Captura de tela da opção Toda a organização para criar uma equipe de toda a organização](media/create-org-wide-team.png "Captura de tela da opção Toda a organização para criar uma equipe de toda a organização")
 
-Quando uma equipe de toda a organização é criada, todos os administradores globais são adicionados como proprietários da equipe e todos os usuários ativos são adicionados como membros da equipe. Os usuários não licenciados também são adicionados à equipe. Na primeira vez que um usuário não licenciado entra no Teams, o usuário recebe uma licença do Microsoft Teams Exploratory. Para saber mais sobre a licença Exploratory, confira [gerenciar a licença do Microsoft Teams Exploratory](teams-exploratory.md). 
+Quando uma equipe de toda a organização é criada, todos os administradores globais de serviços e administradores são adicionados como proprietários de equipes, e todos os usuários ativos são adicionados como membros da equipe. Os usuários não licenciados também são adicionados à equipe. Na primeira vez que um usuário não licenciado entra no Teams, o usuário recebe uma licença do Microsoft Teams Exploratory. Para saber mais sobre a licença Exploratory, confira [gerenciar a licença do Microsoft Teams Exploratory](teams-exploratory.md). 
 
 Estes tipos de contas não serão adicionados à sua equipe de toda a organização:
 

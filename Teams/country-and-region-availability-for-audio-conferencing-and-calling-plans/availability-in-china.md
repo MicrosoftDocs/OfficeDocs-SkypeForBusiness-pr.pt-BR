@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estes são os serviços do Microsoft 365 e do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para a China.
-ms.openlocfilehash: d0629cfe16e5e917a358c55d0b6ec6b78bfbcf29
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+ms.openlocfilehash: 8db46e038ff817844f738fbaea630089970908e7
+ms.sourcegitcommit: 67c686810d37bffda72a6e92155d9c8ec86bfae6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44230569"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47766885"
 ---
 # <a name="availability-in-china"></a>Disponibilidade na China
 
@@ -42,9 +42,9 @@ Estes são os serviços do Microsoft 365 e do Office 365 para o Skype for Busine
 
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
-|A Audioconferência está disponível para compra?  <br/> |Não  <br/> |
+|A Audioconferência está disponível para compra?  <br/> |Sim, para uso por usuários localizados fora da China. Para obter mais informações, entre em contato com a equipe da sua conta.  <br/> |
 |Os números de telefone são atribuídos automaticamente para a Audioconferência?  <br/> | Não geográfico. Os números de telefone não estão vinculados a uma cidade ou local específico. <br/>  Para obter números de telefone dedicados, consulte [Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](/microsoftteams/getting-service-phone-numbers).  <br/> |
-|Funcionalidade de discagem usando o recurso Telefonar para Mim  <br/> |Disponível  <br/> |
+|Funcionalidade de discagem usando o recurso Telefonar para Mim  <br/> | Sim, exceto para os clientes que comprarem o serviço da China. Os recursos de discagem externa são desativados para clientes que adquiram o serviço da China.   <br/> |
    
 ## <a name="phone-system"></a>Sistema Telefônico
 
@@ -60,7 +60,7 @@ Estes são os serviços do Microsoft 365 e do Office 365 para o Skype for Busine
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
 |Os Planos de Chamadas estão disponíveis para compra?  <br/> |Não  <br/> |
-|Minutos disponíveis para Planos de Chamadas  <br/> |Não se aplica  <br/> |
+|Minutos disponíveis para Planos de Chamadas  <br/> |Não aplicável  <br/> |
 |É possível fazer chamadas de saída?  <br/> |Não aplicável  <br/> |
 
 Se os Planos de Chamada não estiverem disponíveis para compra, considere a possibilidade de usar o [Roteamento Direto do Sistema de Telefonia](../direct-routing-landing-page.md). Com o Roteamento Direto, você pode usar o Sistema de Telefonia praticamente com qualquer portadora de telefonia.
@@ -71,7 +71,7 @@ Se os Planos de Chamada não estiverem disponíveis para compra, considere a pos
 |:-----|:-----|
 |Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?  <br/> |Pequim  <br/> |
 |Há números de chamada tarifada disponíveis?  <br/> |Sim  <br/> |
-|Há números de chamada gratuita disponíveis?  <br/> |Sim ([solicitação](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
+|Há números de chamada gratuita disponíveis?  <br/> |Sim ([solicitação](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)), exceto para os clientes que compram o serviço da China. Números de chamada gratuita não estão disponíveis para clientes que adquiram o serviço da China. <br/> |
    
  Para obter números de telefone de chamadas gratuitas e tarifadas para audioconferência, atendedores automáticos e filas de chamadas, consulte [Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](/microsoftteams/getting-service-phone-numbers).
   
@@ -81,7 +81,6 @@ Se os Planos de Chamada não estiverem disponíveis para compra, considere a pos
 |:-----|:-----|
 |Há Créditos de Comunicação disponíveis?  <br/> |Não  <br/> |
    
-Para configurá-los, consulte [Configurar Créditos de Comunicação para a sua organização](../set-up-communications-credits-for-your-organization.md).
   
 ## <a name="related-topics"></a>Tópicos relacionados
 
