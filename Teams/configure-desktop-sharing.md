@@ -17,17 +17,22 @@ ms.collection:
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 857c9c4d830cb3264a83a41b555d26ee004751de
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: d75e540de7e40206f0b1dd15e26adc62d6f6baa7
+ms.sourcegitcommit: d27b97f012d0cb3f1690d3673d50bbaa0caae16f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581742"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "47652464"
 ---
 <a name="configure-desktop-sharing-in-microsoft-teams"></a>Configurar o compartilhamento da área de trabalho no Microsoft Teams
 ============================================
 
-O compartilhamento da área de trabalho permite que os usuários apresentem uma tela ou aplicativo durante uma reunião ou bate-papo. Os administradores podem configurar o compartilhamento de tela no Microsoft Teams para permitir que os usuários compartilhem uma tela inteira, um aplicativo ou um arquivo. Você pode permitir que os usuários deem ou solicitem controle, permitam o compartilhamento do PowerPoint, adicionem um quadro branco e permitam anotações compartilhadas. Você também pode configurar se usuários anônimos ou externos podem solicitar o controle da tela compartilhada.
+O compartilhamento da área de trabalho permite que os usuários apresentem uma tela ou aplicativo durante uma reunião ou bate-papo. Os administradores podem configurar o compartilhamento de tela no Microsoft Teams para permitir que os usuários compartilhem uma tela inteira, um aplicativo ou um arquivo. Você pode permitir que os usuários deem ou solicitem controle, permitam o compartilhamento do PowerPoint, adicionem um quadro branco e permitam anotações compartilhadas. Você também pode configurar se usuários anônimos ou externos podem solicitar o controle da tela compartilhada. Os participantes externos em reuniões de equipes podem ser categorizados da seguinte maneira:
+
+- Usuário anônimo
+- Usuários convidados
+- Usuário B2B
+- Usuário federado
 
 Para configurar o compartilhamento de tela, crie uma nova política de reuniões e a atribua aos usuários que quer gerenciar.
 
@@ -35,11 +40,11 @@ Para configurar o compartilhamento de tela, crie uma nova política de reuniões
 
 1. Clique em **Reuniões** > **Políticas de reuniões**.
 
-    ![Captura de tela exibindo as políticas das reuniões selecionadas](media/configure-desktop-sharing-image1.png)
+    ![Políticas de reunião selecionadas](media/configure-desktop-sharing-image1.png)
 
-2. Na página **Políticas de reunião**, clique em **Nova política**.
+2. Na página **políticas de reunião** , selecione **Adicionar**.
 
-    ![Captura de tela exibindo a mensagem das políticas de reunião](media/configure-desktop-sharing-image2.png)
+    ![A mensagem políticas de reunião](media/addMeeting.png)
 
 3. Atribua um título exclusivo à sua política e insira uma breve descrição.
 
@@ -49,7 +54,10 @@ Para configurar o compartilhamento de tela, crie uma nova política de reuniões
    - **Aplicativo único** – permite que os usuários limitem o compartilhamento de tela a um único aplicativo ativo.
    - **Desabilitado** – desativa o compartilhamento de tela.
 
-    ![Captura de tela exibindo as opções do modo de compartilhamento](media/configure-desktop-sharing-image3.png)
+    ![Opções do modo de compartilhamento](media/configure-desktop-sharing-image3.png)
+
+  > [!Note]
+  > Você não precisa habilitar a política de chamada para que os usuários usem o compartilhamento de tela de chat. No entanto, o áudio dele é desligado até que ele desative o áudio. Além disso, o usuário que está compartilhando a tela pode clicar em **adicionar áudio** para ativar o áudio. Se a política de chamada estiver desabilitada, os usuários não poderão adicionar áudio ao compartilhamento de tela de uma sessão de chat.
 
 5. Ative ou desative as seguintes configurações:
 
@@ -67,6 +75,7 @@ Você também pode usar o cmdlet [Set-CsTeamsMeetingPolicy](https://docs.microso
 
 - Descrição
 - ScreenSharingMode
+- AllowPrivateCalling
 - AllowParticipantGiveRequestControl
 - AllowExternalParticipantGiveRequestControl
 - AllowPowerPointSharing
@@ -74,4 +83,3 @@ Você também pode usar o cmdlet [Set-CsTeamsMeetingPolicy](https://docs.microso
 - AllowSharedNotes
 
 [Saiba mais sobre como usar o cmdlet csTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps).
-
