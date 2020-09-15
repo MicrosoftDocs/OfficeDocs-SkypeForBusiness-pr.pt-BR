@@ -21,12 +21,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: Saiba como usar o centro de administração do Microsoft Teams ou o Windows PowerShell para criar e gerenciar planos de discagem (planos de discagem de chamada PSTN).
-ms.openlocfilehash: 0e5f45ecdb92843a77bd7a957b1b7c31b3403b92
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
+ms.openlocfilehash: 0655f81df9c8ce25368a281a7f5b3392f7fe6ec3
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44938230"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814780"
 ---
 # <a name="create-and-manage-dial-plans"></a>Criar e gerenciar planos de discagem
 
@@ -86,12 +86,14 @@ Para saber mais, confira [conectar-se a todos os serviços do Microsoft 365 ou d
     
 2. Na janela do **Windows PowerShell** , conecte-se ao Microsoft 365 ou ao Office 365 executando:
     
+ 
     > [!NOTE]
-    > [!OBSERVAçãO] Execute o comando **Import-Module** apenas quando usar o módulo do Windows PowerShell do Skype for Business Online pela primeira vez.
-  
+    > O conector do Skype for Business online atualmente faz parte do módulo do PowerShell mais recente do teams.
+    >
+    > Se você estiver usando a [versão pública do teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/)mais recente, não será necessário instalar o conector do Skype for Business online.
 
     ```PowerShell
-    Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modules\\SkypeOnlineConnector\\SkypeOnlineConnector.psd1"
+   Import-Module -Name MicrosoftTeams
     $credential = Get-Credential
     $session = New-CsOnlineSession -Credential $credential
     Import-PSSession $session

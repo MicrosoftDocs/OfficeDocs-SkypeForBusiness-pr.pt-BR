@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.policies.naming.error
 - seo-marvel-mar2020
 description: Veja quais são os problemas que há caracteres especiais nos nomes das políticas e o que você pode fazer para corrigi-lo.
-ms.openlocfilehash: 7358bd989b793e988f0a3dacdded275b5232c8cc
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 899cffa45bc5ec7a36339e89e3cb97e35e6e4507
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691507"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814710"
 ---
 # <a name="what-are-the-special-character-restrictions-in-teams-policies"></a>Quais são as restrições de caracteres especiais nas políticas do Teams?
 
@@ -41,10 +41,14 @@ Se você tiver uma política com caracteres especiais, será necessário editar 
 
 ## <a name="to-remove-special-characters"></a>Para remover caracteres especiais
 
-**Etapa 1-fazer uma conexão remota com o PowerShell.** 
- [Configure seu computador para Windows PowerShell](https://docs.microsoft.com/skypeforbusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) , se ainda não tiver feito isso.
+**Etapa 1-fazer uma conexão remota com o PowerShell.**
+> [!NOTE]
+> O conector do Skype for Business online atualmente faz parte do módulo do PowerShell mais recente do teams.
+>
+> Se você estiver usando a [versão pública do teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/)mais recente, não será necessário instalar o conector do Skype for Business online.
+
 ```PowerShell
- Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
+ Import-Module -Name MicrosoftTeams
  $credential = Get-Credential
  $session = New-CsOnlineSession -Credential $credential
  Import-PSSession $session

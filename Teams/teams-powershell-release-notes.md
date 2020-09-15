@@ -13,12 +13,12 @@ ms.collection:
 description: Saiba mais sobre as alterações mais recentes no PowerShell do teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 80a1a887ea1db964c8d9b9fe55f144208967f37d
-ms.sourcegitcommit: 207c58563b7b2aba274b067cf64242abd7a33c2c
+ms.openlocfilehash: 175b5120ad981ba695f02f7c6403c9254e266501
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "47405808"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814410"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Notas de versão do Microsoft Teams PowerShell
 
@@ -31,6 +31,7 @@ Esta página fornece o log de alterações mais recente do PowerShell do teams p
 
 | Data | Versão | Actualiza |
 |------- | -------------------- | ------------------------------ |
+| Setembro de 2020 | [1.1.6](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.6) | <li>Integração do conector do Skype for Business Online</li> |
 | Setembro de 2020 | [1.1.5-Preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.5-preview) | <li>Integração do conector do Skype for Business Online</li> |
 | De julho de 2020 | [1.1.4](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.4) | <li>[Cmdlets de atribuição de política de grupo](https://docs.microsoft.com/microsoftteams/assign-policies#assign-a-policy-to-a-group) adicionados</li> |
 | De junho de 2020 | [1.1.3-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.3-preview) | <li>Integração do conector do Skype for Business Online<li>Otimizações de get-Team<li>Maior confiabilidade</li> |
@@ -53,7 +54,7 @@ Esta página fornece o log de alterações mais recente do PowerShell do teams p
 | [Desconectar-MicrosoftTeams](https://docs.microsoft.com/powershell/module/teams/disconnect-microsoftteams?view=teams-ps) | Sim | Sim |
 | [Get-CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/get-csbatchpolicyassignmentoperation?view=teams-ps) | Sim | Sim |
 | [Get-CsGroupPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/get-csgrouppolicyassignmentoperation?view=teams-ps) | Sim | **Não** |
-| [Get-CsOnlinePowerShellEndpoint](https://docs.microsoft.com/powershell/module/teams/get-csonlinepowershellendpoint?view=teams-ps) | Sim | **Não** |
+| [Get-CsOnlinePowerShellEndpoint](https://docs.microsoft.com/powershell/module/teams/get-csonlinepowershellendpoint?view=teams-ps) | Sim | Sim |
 | [Get-CsPolicyPackage](https://docs.microsoft.com/powershell/module/teams/get-cspolicypackage?view=teams-ps) | Sim | Sim |
 | [Get-CsUserPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/get-csuserpolicyassignment?view=teams-ps) | Sim | Sim |
 | [Get-CsUserPolicyPackage](https://docs.microsoft.com/powershell/module/teams/get-csuserpolicypackage?view=teams-ps) | Sim | Sim |
@@ -68,7 +69,7 @@ Esta página fornece o log de alterações mais recente do PowerShell do teams p
 | [New-CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation?view=teams-ps) | Sim | Sim |
 | [New-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/new-csgrouppolicyassignment?view=teams-ps) | Sim | Sim |
 | [New-CsBatchPolicyPackageAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicypackageassignmentoperation?view=teams-ps) | Sim | Sim |
-| [New-CsOnlineSession](https://docs.microsoft.com/powershell/module/teams/new-csonlinesession?view=teams-ps) | Sim | **Não** |
+| [New-CsOnlineSession](https://docs.microsoft.com/powershell/module/teams/new-csonlinesession?view=teams-ps) | Sim | Sim |
 | [New-Team](https://docs.microsoft.com/powershell/module/teams/new-team?view=teams-ps) | Sim | Sim |
 | [New-TeamChannel](https://docs.microsoft.com/powershell/module/teams/new-channel?view=teams-ps) | Sim | Sim |
 | [New-TeamsApp](https://docs.microsoft.com/powershell/module/teams/new-teamsapp?view=teams-ps) | Sim | Sim |

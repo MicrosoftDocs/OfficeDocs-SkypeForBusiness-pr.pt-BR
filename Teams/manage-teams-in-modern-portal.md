@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b3c963e88d33928add9c7f5c611f44919250b847
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: c736cf17d263f097e97b32f856bc83cf2fe42a35
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583148"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814550"
 ---
 <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Gerenciar equipes no centro de administração do Microsoft Teams
 ==========================================
@@ -67,6 +67,9 @@ A grade exibe as seguintes propriedades:
 ### <a name="add"></a>Suplementa
 
 Para adicionar uma nova equipe, clique em **Adicionar**. No painel **Adicionar uma nova equipe** , dê um nome e uma descrição para a equipe, defina se deseja torná-la uma equipe privada ou pública e definir a classificação.
+
+> [!NOTE]
+> As equipes recém-criadas podem ser gerenciadas imediatamente no centro de administração do Teams, ao contrário da experiência em outros clientes, como o Outlook.
 
 ### <a name="edit"></a>Editar
 

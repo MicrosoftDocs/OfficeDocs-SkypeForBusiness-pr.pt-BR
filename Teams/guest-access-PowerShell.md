@@ -17,12 +17,12 @@ description: Saiba mais sobre como usar o PowerShell para permitir ou bloquear o
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b7e2833d1afedb975edf2532fb69c4fdbbdb31d4
-ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
+ms.openlocfilehash: 0c8a2e23f5c03420c4b0ce644a80e0733f9f69a5
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46655902"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814330"
 ---
 <a name="use-powershell-to-control-guest-access-to-a-team"></a>Usar o PowerShell para controlar o acesso de convidados a uma equipe
 ================================================
@@ -48,8 +48,13 @@ Se quiser bloquear convidados no Microsoft Teams e ainda quiser permitir que ele
  
 2.  Conecte uma sessão do PowerShell ao ponto de extremidade do Skype for Business Online.
 
+> [!NOTE]
+> O conector do Skype for Business online atualmente faz parte do módulo do PowerShell mais recente do teams.
+>
+> Se você estiver usando a [versão pública do teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/)mais recente, não será necessário instalar o conector do Skype for Business online.
+
     ```powershell
-    Import-Module SkypeOnlineConnector
+    Import-Module -Name MicrosoftTeams
     $Cred = Get-Credential
     $CSSession = New-CsOnlineSession -Credential $Cred
     Import-PSSession -Session $CSSession

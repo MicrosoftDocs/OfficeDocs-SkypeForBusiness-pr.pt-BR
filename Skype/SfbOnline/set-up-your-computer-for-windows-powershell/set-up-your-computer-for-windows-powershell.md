@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - PowerShell
 description: Saiba quais são os requisitos de gerenciamento remoto do Skype for Business online por meio do Windows PowerShell, incluindo sistemas operacionais compatíveis.
-ms.openlocfilehash: 7265bdc662f0ef86f6f279df5e62c2316d9902a3
-ms.sourcegitcommit: a2b2ae17a35f530f797504bb85b44f1a0f561a7d
+ms.openlocfilehash: 42f1a8d922d3ecdd738aa82e13567540f53af231
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "42983757"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814380"
 ---
 # <a name="set-up-your-computer-for-windows-powershell"></a>Configurar seu computador para o Windows PowerShell
 
@@ -50,11 +50,11 @@ Além do sistema operacional com suporte, o computador também deve estar execut
   
 - ™
     
-- Módulo do conector do Skype for Business Online
+- Módulo do teams PowerShell 
     
 Você pode encontrar informações sobre como baixar e instalar esses itens nos seguintes tópicos:
   
-- [Baixar e instalar o módulo do conector do Skype for Business Online](download-and-install-the-skype-for-business-online-connector.md)
+- [Baixar e instalar o módulo do PowerShell para Teams](https://docs.microsoft.com/MicrosoftTeams/teams-powershell-install#install-the-teams-powershell-module)
     
 - [Baixar e instalar o Windows PowerShell 5.1](download-and-install-windows-powershell-5-1.md)
 

@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: Você pode configurar como os usuários se conectam ao Skype for Business online usando o aplicativo Skype for Business em dispositivos móveis, como um recurso que permite aos usuários fazer e receber chamadas no celular usando o número de telefone comercial dele em vez do número de telefone celular deles. As políticas de mobilidade também podem ser usadas para exigir conexões Wi-Fi ao fazer ou receber chamadas.
-ms.openlocfilehash: cfd9232943aebc9e4565b0ebfe1b46872c4bad65
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+ms.openlocfilehash: 5094a536a636300ea70a7d358e24ee5c0f511379
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44164840"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814740"
 ---
 # <a name="set-up-mobile-policies-for-your-organization"></a>Configurar políticas móveis para sua organização
 
@@ -47,7 +47,7 @@ As configurações da política móvel podem ser configuradas no momento em que 
         
     3. Se você não tiver a versão 3,0 ou superior, será necessário baixar e instalar atualizações para o Windows PowerShell. Consulte [Windows Management Framework 4,0](https://go.microsoft.com/fwlink/?LinkId=716845) para baixar e atualizar o Windows PowerShell para a versão 4,0. Reinicie o computador quando for solicitado.
         
-    4. Você também precisará instalar o módulo do Windows PowerShell para Skype for Business Online, que permite que você crie uma sessão remota do Windows PowerShell que se conecta ao Skype for Business Online. Esse módulo, que tem suporte apenas em computadores de 64 bits, pode ser baixado do Centro de Download da Microsoft em [Módulo do Windows PowerShell para o Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688). Se for solicitado, reinicie o seu computador.
+    4. Também será necessário instalar o módulo do Windows PowerShell para Teams que permite que você crie uma sessão remota do Windows PowerShell que se conecta ao Skype for Business online.
     
     Se precisar saber mais, consulte [conectar a todos os serviços do Microsoft 365 ou do Office 365 em uma única janela do Windows PowerShell](https://technet.microsoft.com/library/dn568015.aspx).
     
@@ -57,11 +57,13 @@ As configurações da política móvel podem ser configuradas no momento em que 
         
     2. Na janela do **Windows PowerShell** , conecte-se ao seu Microsoft 365 ou ao Office 365 executando:
         
-        > [!NOTE]
-        > [!OBSERVAçãO] Execute o comando **Import-Module** apenas quando usar o módulo do Windows PowerShell do Skype for Business Online pela primeira vez.
+       > [!NOTE]
+       > O conector do Skype for Business online atualmente faz parte do módulo do PowerShell mais recente do teams.
+       >
+       > Se você estiver usando a [versão pública do teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/)mais recente, não será necessário instalar o conector do Skype for Business online.
 
        ```PowerShell      
-        Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
+        Import-Module -Name MicrosoftTeams
         $credential = Get-Credential
         $session = New-CsOnlineSession -Credential $credential
         Import-PSSession $session

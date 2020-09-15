@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: Leia este tópico para obter informações sobre como implantar salas do Microsoft Teams com o Exchange Online e o Skype for Business Server no local.
-ms.openlocfilehash: 03999e5717f784166387c823c95af1e333d4f942
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: e39a7f2cde6aef7bdee59f2052c789783d62f905
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666143"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814510"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-online"></a>Implantar as Salas do Microsoft Teams com o Exchange Online
 
@@ -28,7 +28,7 @@ Leia este tópico para obter informações sobre como implantar salas do Microso
   
 Se a sua organização tem uma combinação de serviços hospedados no local e online, a configuração depende de onde cada serviço está hospedado. Este tópico aborda implantações híbridas de salas do Microsoft Teams com o Exchange hospedado online. Como existem muitas variações nesse tipo de implantação, não é possível fornecer instruções detalhadas para todas elas. O processo a seguir funcionará para várias configurações. Se o processo não está correto para a sua configuração, recomendamos que você use o Windows PowerShell para obter o mesmo resultado final conforme documentado aqui e para outras opções de implantação.
 
-A maneira mais fácil de configurar contas de usuário é configurá-las usando o Windows PowerShell remoto. A Microsoft fornece [SkypeRoomProvisioningScript. ps1](https://go.microsoft.com/fwlink/?linkid=870105), um script que ajudará a criar novas contas de usuário ou validar as contas de recursos existentes que você tem para ajudar a transformá-las em contas de usuário compatíveis do Microsoft Teams. Se preferir, você pode seguir as etapas abaixo para configurar contas que o dispositivo de salas do Microsoft Teams vai usar.
+A maneira mais fácil de configurar contas de usuário é configurá-las usando o Windows PowerShell remoto. A Microsoft fornece [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), um script que ajudará a criar novas contas de usuário ou validar as contas de recursos existentes que você tem para ajudar a transformá-las em contas de usuário de salas do Microsoft Teams compatíveis. Se preferir, você pode seguir as etapas abaixo para configurar contas que o dispositivo de salas do Microsoft Teams vai usar.
 
 ## <a name="requirements"></a>Requisitos
 
@@ -101,8 +101,8 @@ Se você implantou o AD FS (serviços de Federação do Active Directory), talve
      ``` -->
 
 2. A conta de usuário precisa ter uma licença válida do Microsoft 365 ou do Office 365 para garantir que o Exchange e o Skype for Business Server funcionem. Se você tiver a licença, será necessário atribuir um local de uso à sua conta de usuário — isso determina quais SKUs de licença estão disponíveis para a sua conta. Você fará a atribuição em uma etapa seguinte.
-3. Em seguida, use`Get-MsolAccountSku` <!--Get-AzureADSubscribedSku--> para recuperar uma lista de SKUs disponíveis para sua organização do Microsoft 365 ou do Office 365.
-4. Depois de listar os SKUs, você pode adicionar uma licença usando o botão`Set-MsolUserLicense` <!-- Set-AzureADUserLicense--> cmdlet. Nesse caso, $strLicense é o código de SKU que você vê (por exemplo, contoso:STANDARDPACK). 
+3. Em seguida, use `Get-MsolAccountSku` <!--Get-AzureADSubscribedSku--> para recuperar uma lista de SKUs disponíveis para sua organização do Microsoft 365 ou do Office 365.
+4. Depois de listar os SKUs, você pode adicionar uma licença usando o botão `Set-MsolUserLicense` <!-- Set-AzureADUserLicense--> cmdlet. Nesse caso, $strLicense é o código de SKU que você vê (por exemplo, contoso:STANDARDPACK). 
 
     ```PowerShell
     Set-MsolUser -UserPrincipalName 'PROJECT01@contoso.com' -UsageLocation 'US'
@@ -119,8 +119,13 @@ Se você implantou o AD FS (serviços de Federação do Active Directory), talve
 
 1. Crie uma sessão remota do Windows PowerShell a partir de um PC da seguinte maneira:
 
+> [!NOTE]
+> O conector do Skype for Business online atualmente faz parte do módulo do PowerShell mais recente do teams.
+>
+> Se você estiver usando a [versão pública do teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/)mais recente, não será necessário instalar o conector do Skype for Business online.
+
     ``` Powershell
-    Import-Module SkypeOnlineConnector
+    Import-Module -Name MicrosoftTeams
     $cred = Get-Credential
     $cssess = New-CsOnlineSession -Credential $cred  
     Import-PSSession $cssess -AllowClobber

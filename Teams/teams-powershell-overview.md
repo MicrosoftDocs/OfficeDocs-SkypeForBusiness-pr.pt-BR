@@ -13,12 +13,12 @@ ms.collection:
 description: Aprenda a usar os controles do PowerShell para gerenciar o Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5385430c7db8aab0adf1efbaec546134e9adf388
-ms.sourcegitcommit: 9b1c138b39fd87e239a7b1c5051f30c633e7d813
+ms.openlocfilehash: a5986a730ed678d45360d89efbd35693134c2a6a
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "44943984"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814360"
 ---
 # <a name="microsoft-teams-powershell-overview"></a>Visão geral do Microsoft Teams PowerShell
 
@@ -43,16 +43,17 @@ Para obter informações detalhadas sobre adições de recursos e melhorias para
 
 ## <a name="manage-teams-with-powershell"></a>Gerenciar equipes com o PowerShell
 
-Você usará ambos os módulos do PowerShell para gerenciar totalmente as equipes:
+Você usará os módulos do teams PowerShell para gerenciar totalmente as equipes:
 
 - [Módulo do PowerShell do Microsoft Teams](https://www.powershellgallery.com/packages/MicrosoftTeams/): o módulo do PowerShell do teams contém cmdlets para gerenciar equipes, chats e canais.
 
-- [Módulo do PowerShell do Skype for Business](https://www.microsoft.com/download/details.aspx?id=39366): o módulo do PowerShell do Skype for Business contém os cmdlets para gerenciar reuniões, sistemas de telefonia e recursos de políticas.
+> [!NOTE]
+> A versão mais recente do [Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/) está integrada ao conector do Skype for Business Online, fornecendo um único módulo para gerenciamento do teams PowerShell.
+
+- [Conector do PowerShell do Skype for Business](https://www.microsoft.com/download/details.aspx?id=39366): o conector do PowerShell do Skype for Business agora faz parte do módulo do teams PowerShell.
 
 Para obter um guia completo sobre o gerenciamento de equipes usando esses módulos, consulte [gerenciar equipes com o PowerShell do teams](teams-powershell-managing-teams.md).
 
-> [!NOTE]
-> A versão mais recente do [Teams PowerShell Public Preview](https://www.powershellgallery.com/packages/MicrosoftTeams/) está integrada ao conector do Skype for Business Online, fornecendo um único módulo para gerenciamento do teams PowerShell.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

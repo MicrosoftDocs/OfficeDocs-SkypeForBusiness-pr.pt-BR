@@ -13,12 +13,12 @@ ms.collection:
 description: Saiba como usar os controles do PowerShell para gerenciar o Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 966dd62a9917c616c53fc57e13ca468e64acf218
-ms.sourcegitcommit: bb5229c9f7999358dcf0ba185ecfd7c881627a38
+ms.openlocfilehash: f008d154099c57376fca914d576d7c9df4487780
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46824932"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814460"
 ---
 # <a name="install-microsoft-teams-powershell"></a>Instalar o Microsoft Teams PowerShell
 
@@ -82,13 +82,13 @@ Install-Module MicrosoftTeams -AllowPrerelease -RequiredVersion "1.1.3-preview"
 
 ## <a name="install-the-skype-for-business-online-connector"></a>Instalar o conector do Skype for Business Online
 
-> [!WARNING]
-> O conector Skype for Business online atualmente faz parte da visualização pública do teams PowerShell. Depois de lançarmos esse recurso no lançamento de GA do teams PowerShell, o conector do Skype for Business online não estará mais disponível.
-
-Baixe e instale o [módulo do PowerShell do Skype for Business](https://www.microsoft.com/download/details.aspx?id=39366)e execute o seguinte no PowerShell.
+> [!NOTE]
+>
+> O conector do Skype for Business online atualmente faz parte do módulo do PowerShell mais recente do teams.
+> Se você estiver usando a [versão pública do teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/)mais recente, não será necessário instalar o conector do Skype for Business online.
 
 ```powershell
-Import-Module SkypeOnlineConnector
+Import-Module -Name MicrosoftTeams
 $userCredential = Get-Credential
 $sfbSession = New-CsOnlineSession -Credential $userCredential
 Import-PSSession $sfbSession

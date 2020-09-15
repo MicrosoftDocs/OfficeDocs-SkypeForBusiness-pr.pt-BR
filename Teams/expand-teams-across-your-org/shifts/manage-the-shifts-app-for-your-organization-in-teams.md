@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ecc64c105bb9171942dfac912ccea4f2fa1442aa
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
+ms.openlocfilehash: 8c41c4435877860a2193e6b50f45f714c8c85cb2
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44938350"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814730"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Gerencie o aplicativo Turnos para sua organização no Microsoft Teams
 
@@ -38,6 +38,9 @@ O aplicativo turnos no Microsoft Teams mantém os trabalhadores de primeiro luga
 - Os funcionários visualizam seus próximos turnos, podem ver quem mais está agendado para o dia, solicitar a troca ou oferecer um turno e solicitar folga. 
 
 É importante saber que os turnos atualmente não dão suporte a usuários convidados. Isso significa que os convidados de uma equipe não podem ser adicionados ou usar as agendas de turnos quando o acesso de convidado está ativado no Teams. 
+
+ > [!Note]
+ > Consulte [recursos da equipe por plataforma](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3) para obter mais informações.
 
 ## <a name="availability-of-shifts"></a>Disponibilidade de turnos
 
