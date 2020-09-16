@@ -63,6 +63,7 @@
 
 ### Acesso de convidados
 #### [Sobre o acesso de convidados](guest-access.md)
+#### [Lista de verificação de acesso de convidados](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team)
 #### [Como um convidado ingressa em uma equipe](guest-joins.md)
 #### [Como é a experiência do convidado](guest-experience.md)
 #### [Autorizar acesso de convidados no Microsoft Teams](teams-dependencies.md)
@@ -773,6 +774,7 @@
 
 ## [Especificações e limites do Teams](limits-specifications-teams.md)
 ## [Localização dos dados no Teams](location-of-data-in-teams.md)
+## [Práticas de coleta de dados](data-collection-practices.md)
 
 ## Prepare-se para implementar o Teams
 ### [Preparo da rede da sua organização para o Teams](prepare-network.md)
