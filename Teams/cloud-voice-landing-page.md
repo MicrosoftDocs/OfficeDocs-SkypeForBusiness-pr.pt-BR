@@ -20,12 +20,12 @@ search.appverid: MET150
 description: Saiba mais sobre o recurso de voz em nuvem e entenda as decisões de implantação necessárias que você vai enfrentar.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 851e14e934578b0da8853991e1bc993e8483f818
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: 5a05ba72f52d4131229b28072a615bf12f6b5930
+ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814871"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "47820495"
 ---
 # <a name="voice---phone-system-and-pstn-connectivity-options"></a>Opções de conectividade PSTN e sistema de telefone de voz
 
@@ -38,7 +38,7 @@ Este artigo ajuda você a decidir se precisa alterar qualquer uma das configura�
 Recomendamos que todas as organizações funcionem pelas decisões básicas e, se a sua organização tiver requisitos adicionais, revise o material a seguir.
 
  > [!Note]
- > Consulte [recursos da equipe por plataforma](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3) para obter mais informações.
+> Para obter detalhes sobre os recursos do sistema telefônico em diferentes plataformas, consulte [recursos do teams por plataforma](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
 ## <a name="learn-more-about-voice"></a>Saiba mais sobre voz
 

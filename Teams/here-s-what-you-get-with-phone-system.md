@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Saiba mais sobre os recursos, a disponibilidade e a forma de planejar e configurar o sistema telefônico da Microsoft para sua empresa. '
-ms.openlocfilehash: 5ed14740f5521bdd70d2fda7f50ffb940ccac485
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: 32c094860ee5ff102a541062616e038cf2f37be6
+ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814881"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "47820565"
 ---
 # <a name="heres-what-you-get-with-phone-system"></a>Veja o que você obtém com o Sistema de Telefonia
 
@@ -36,7 +36,7 @@ Este artigo descreve os recursos do sistema telefônico. Para obter mais informa
 Os clientes estão disponíveis para PC, Mac e celular, que fornece recursos para dispositivos de tablets e celulares para PCs e telefones IP de área de trabalho. Para obter mais informações, consulte [obter clientes para Microsoft Teams](get-clients.md).
 
  > [!Note]
- > Consulte [recursos da equipe por plataforma](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3) para obter mais informações.
+> Para obter detalhes sobre sistemas telefônicos da equipe em diferentes plataformas, consulte [recursos do teams por plataforma](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
   
 ## <a name="phone-system-features"></a>Recursos do sistema de telefonia
 

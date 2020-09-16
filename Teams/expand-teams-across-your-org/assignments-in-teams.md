@@ -21,12 +21,12 @@ description: Saiba como gerenciar atribuições no centro de administração do 
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1747075caecdbc4bcd0c83eb037682b023701799
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: fd2cef56b4b59461ea1eeb5028c6c77a92e20500
+ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814770"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "47820625"
 ---
 # <a name="assignments-in-teams-for-education"></a>Tarefas do Teams for Education
 
@@ -34,8 +34,8 @@ As atribuições são tarefas ou unidades de trabalho atribuídas a um membro do
 
 [Saiba mais sobre as tarefas](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114?ui=en-US&rs=en-IE&ad=IE#ID0EAABAAA=Assignments)
 
- > [!Note]
- > Consulte [recursos da equipe por plataforma](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3) para obter mais informações.
+> [!Note]
+> Para obter detalhes sobre as tarefas do Team em diferentes plataformas, consulte [recursos do teams por plataforma](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
 ## <a name="assignments-in-the-microsoft-teams-admin-center"></a>Tarefas no centro de administração do Microsoft Teams
 

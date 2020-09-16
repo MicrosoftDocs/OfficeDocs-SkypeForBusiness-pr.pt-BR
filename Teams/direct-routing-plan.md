@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Saiba como o roteamento direto do Microsoft Phone System permite conectar um controlador de borda de sessão (SBC) compatível fornecido pelo cliente a um sistema telefônico da Microsoft.
-ms.openlocfilehash: f6ff76e2bb5725e7e574a7ea6c87ab5e99a6adc1
-ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
+ms.openlocfilehash: ce581bb296499810e9272006155807535e4e2cac
+ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47359397"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "47820635"
 ---
 # <a name="plan-direct-routing"></a>Planejar o Roteamento Direto
 
@@ -230,7 +230,7 @@ Os FQDNs – sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com e sip3.pstnhu
 - 52.114.16.74
 - 52.114.20.29
 
-Você precisa abrir portas para todos esses endereços IP no seu firewall para permitir o recebimento e o tráfego de entrada e saída dos endereços para sinalização.  Se o seu firewall der suporte a nomes DNS, a sip-all.pstnhub.microsoft.com FQDN será resolvida para todos esses endereços IP. 
+Você precisa abrir portas para todos esses endereços IP no seu firewall para permitir o recebimento e o tráfego de entrada e saída dos endereços para sinalização.  Se o seu firewall der suporte a nomes DNS, a **SIP-ALL.PSTNHUB.Microsoft.com** FQDN será resolvida para todos esses endereços IP. 
 
 
 ### <a name="office-365-gcc-dod-environment"></a>Ambiente do Office 365 GCC DoD
@@ -257,7 +257,7 @@ A sip.pstnhub.gov.teams.microsoft.us FQDN será resolvida para um dos seguintes 
 - 52.127.88.59
 - 52.127.92.64
 
-Você precisa abrir portas para todos esses endereços IP no seu firewall para permitir o recebimento e o tráfego de entrada e saída dos endereços para sinalização.
+Você precisa abrir portas para todos esses endereços IP no seu firewall para permitir o recebimento e o tráfego de entrada e saída dos endereços para sinalização. Se o seu firewall der suporte a nomes DNS, a **SIP-ALL.PSTNHUB.gov.Teams.Microsoft.us** FQDN será resolvida para todos esses endereços IP. Esse FQDN também pode ser usado como FQDN federado para classificação de chamadas de entrada.
 
 ## <a name="sip-signaling-ports"></a>Sinalização SIP: portas
 
