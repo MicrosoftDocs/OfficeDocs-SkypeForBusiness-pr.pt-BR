@@ -17,12 +17,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 02588d7aa53561993237bd51c0bb5764c2e6ac2b
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 3a990b62e6479e44308f65920c4f49264b4a131a
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581142"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814391"
 ---
 # <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>Início rápido do administrador – reuniões e eventos ao vivo no Microsoft Teams
 
@@ -44,6 +44,8 @@ As pessoas que irão organizar, agendar e hospedar reuniões ou eventos ao vivo 
 >
 > <sup>2</sup>  A discagem de reunião para um número [**Ligar para mim em**](set-up-the-call-me-feature-for-your-users.md) exige que os organizadores tenham uma licença de suplemento de audioconferência E5 ou [](teams-add-on-licensing/microsoft-teams-add-on-licensing.md). Um [plano de discagem](what-are-dial-plans.md) também pode ser necessário. 
 
+ > [!Note]
+ > Consulte [Recursos da equipe por plataformas](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3) para obter mais informações.
 
 Para saber mais sobre o licenciamento, leia a [descrição do serviço do Microsoft Teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description). 
 

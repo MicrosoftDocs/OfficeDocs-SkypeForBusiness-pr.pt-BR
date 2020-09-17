@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bf5dea8846815f052099193f03f4f90aaf951de6
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: d078deaabdb29fbbc75e4f5020d9bf5071c8fdf1
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583960"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814760"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Conferências e reuniões no Microsoft Teams
 
@@ -43,6 +43,9 @@ Para saber mais sobre a experiência de reuniões para seus usuários, confira [
 *Novidades em abril de 2020*: Os organizadores de reuniões podem finalizar uma reunião para todos os participantes da reunião do Teams, clicando em **Encerrar reunião** nos controles de reunião dentro dela.  
 
 *Novidades de novembro de 2019*: Agora você pode [usar o Assistente do Teams (visualização) para ajudá-lo na implantação do Microsoft Teams](use-advisor-teams-roll-out.md). O Assistente do Teams (visualização) o orienta na implementação do Microsoft Teams, incluindo reuniões e conferências. Ele avalia o ambiente do Office 365 e identifica as configurações mais comuns que talvez seja necessário atualizar ou modificar antes de poder implantar o Teams com êxito.
+
+ > [!Note]
+ > Consulte [Recursos da equipe por plataformas](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3) para obter mais informações.
 
 ## <a name="meetings-and-conferencing-deployment-decisions"></a>Decisões de implantação de conferências e reuniões
 

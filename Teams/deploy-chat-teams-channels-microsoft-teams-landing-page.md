@@ -19,18 +19,18 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 - seo-marvel-apr2020
-ms.openlocfilehash: 31207fe6720b62653076958ab1005df25579880d
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: f1fe37d41b0a1ede8e5957ad63016c5447a921ae
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583980"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814861"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Chat, equipes, canais e aplicativos no Microsoft Teams
 
-O Teams oferece uma excelente experiência de colaboração pronta para uso para sua organização e a maioria das organizações acha que as configurações padrão atendem suas necessidades. Este artigo ajuda você a decidir se deseja alterar as configurações padrão, com base no perfil da organização e requisitos de negócios e, em seguida, orienta você em cada alteração. Dividimos as configurações em dois grupos, começando com o conjunto principal de [alterações que você provavelmente realizará](#core-deployment-decisions). O segundo grupo inclui [configurações adicionais](#additional-deployment-decisions) que poderão ser configuradas com base nas necessidades de sua organização. 
+O Teams oferece uma excelente experiência de colaboração pronta para uso para sua organização e a maioria das organizações acha que as configurações padrão atendem suas necessidades. Este artigo ajuda você a decidir se deseja alterar as configurações padrão, com base no perfil da organização e requisitos de negócios e, em seguida, orienta você em cada alteração. Dividimos as configurações em dois grupos, começando com o conjunto principal de [alterações que você provavelmente realizará](#core-deployment-decisions). O segundo grupo inclui [configurações adicionais](#additional-deployment-decisions) que poderão ser configuradas com base nas necessidades de sua organização.
 
-Para começar, assista ao nosso breve vídeo sobre chat, equipes e canais do Teams (4:30 minutos): 
+Para começar, assista ao nosso breve vídeo sobre chat, equipes e canais do Teams (4:30 minutos):
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE476Yj]
 
@@ -40,6 +40,9 @@ Para começar, assista ao nosso breve vídeo sobre chat, equipes e canais do Tea
 
 > [!TIP]
 > É recomendável incluir os aplicativos em destaque, como o Planner, na implementação inicial do Teams. Adicionar outros [aplicativos, bots e conectores](deploy-apps-microsoft-teams-landing-page.md) ao executar a adoção do Teams.
+
+ > [!Note]
+ > Consulte [Recursos da equipe por plataformas](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3) para obter mais informações.
 
 ## <a name="chat-deployment-prerequisites"></a>Pré-requisitos de implantação do chat
 
@@ -143,7 +146,6 @@ O Teams oferece vários aplicativos próprios (fornecidos pela Microsoft) e de t
 
 Para saber mais sobre a implantação e gerenciamento de aplicativos no Teams, confira nossa orientação detalhada sobre [Aplicativos, bots e conectores](deploy-apps-microsoft-teams-landing-page.md).
 
-
 ## <a name="additional-deployment-decisions"></a>Decisões adicionais de implantação
 
 Convém alterar essas configurações, com base nas necessidades da organização e da configuração.
@@ -183,7 +185,6 @@ As organizações que mantêm um controle refinado de seu tráfego da Internet d
 |------------|-------|
 | Preciso de regras de acesso à Internet para permitir que os usuários usem o Teams ou é suficiente abrir as portas mínimas necessárias? | Para saber mais, confira [URLs e intervalos de endereços IP](office-365-urls-ip-address-ranges.md).|
 |||
-
 
 ### <a name="governance-naming-conventions-who-can-create-teams"></a>Governança (convenções de nomenclatura, quem pode criar equipes)
 
@@ -252,4 +253,3 @@ O uso do Microsoft 365 for Government - GCC (Nuvem da Comunidade Governamental) 
 - Incluir os aplicativos em destaque, como o Planner, na implementação inicial do Teams. Adicionar outros [aplicativos, bots e conectores](deploy-apps-microsoft-teams-landing-page.md) ao direcionar a adoção do Teams.
 - [Implementar reuniões e conferências](deploy-meetings-microsoft-teams-landing-page.md)
 - [Implementar o Cloud Voice](cloud-voice-landing-page.md)
-
