@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0ef1b81bda61cba281f944499118966d2b9a528d
-ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
+ms.openlocfilehash: 36e4035734e83edd75a8fa00e288d083f96a4154
+ms.sourcegitcommit: b07938c0b6edafacaeaaef205a1be00c4c1693ba
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "45158599"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "47940411"
 ---
 # <a name="choose-your-upgrade-journey-from-skype-for-business-to-teams"></a>Escolha a jornada de atualização do Skype for Business para o Teams
 
@@ -62,7 +62,7 @@ Para lhe ajudar no processo de tomada de decisão, familiarize-se com os vários
 
 Um usuário que migrou para o Teams não usa mais um cliente do Skype for Business, exceto para ingressar em uma reunião hospedada no Skype for Business. Todos os chats recebidos e chamadas entram no cliente das equipes do usuário, independentemente de o remetente usar o Microsoft Teams ou o Skype for Business. Todas as novas reuniões organizadas pelo usuário atualizado serão agendadas como reuniões do Teams. Se o usuário tentar usar o cliente do Skype for Business, o início de chats e chamadas será bloqueado <sup>1</sup>. No entanto, o usuário ainda pode (e deve) usar o cliente do Skype for Business para ingressar nas reuniões que tenha sido convidado.
 
-Os administradores gerenciam a transição para o Teams usando o conceito de [modo](migration-interop-guidance-for-teams-with-skype.md#coexistence-modes), que é uma propriedade do [TeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps). Um usuário que foi migrado para o Teams, conforme descrito acima, está no modo "TeamsOnly". Para uma organização que esteja migrando para o Teams, o objetivo final é mover todos os usuários para o modo TeamsOnly.
+Os administradores gerenciam a transição para o Teams usando o conceito de [modo](migration-interop-guidance-for-teams-with-skype.md), que é uma propriedade do [TeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps). Um usuário que foi migrado para o Teams, conforme descrito acima, está no modo "TeamsOnly". Para uma organização que esteja migrando para o Teams, o objetivo final é mover todos os usuários para o modo TeamsOnly.
 
 Há dois métodos para migrar uma organização existente com o Skype for Business (online ou local) para o Teams:
 
@@ -92,7 +92,7 @@ Para que esse método funcione efetivamente, todos os usuários devem executar a
 
 Por exemplo, se um destinatário do modo de Uso Paralelo estiver conectado ao Skype for Business, mas não ao Teams, e alguém enviar mensagens pelo Teams, o destinatário do modo de Uso Paralelo não verá a mensagem (mas, eventualmente, receberá um email informando que uma mensagem no Teams foi perdida). Da mesma forma, se um usuário estiver executando o Teams, mas não o Skype for Business, e alguém enviar mensagens a esse usuário pelo Skype for Business, o usuário não verá esse chat. O comportamento em cada um desses casos é semelhante para chamadas. Se os usuários não executarem ambos clientes, isso poderá terminar facilmente em frustração.
 
-Usando esse método de atualização, a presença também funcionará de maneira independente entre o Teams e o Skype for Business. Isso significa que outros usuários podem ver estados diferentes de presença para o Usuário A, dependendo do cliente usado. Para saber mais, confira [Presença](upgrade-to-Teams-on-prem-overview.md#presence).
+Usando esse método de atualização, a presença também funcionará de maneira independente entre o Teams e o Skype for Business. Isso significa que outros usuários podem ver estados diferentes de presença para o Usuário A, dependendo do cliente usado. Para saber mais, confira [Presença](upgrade-to-Teams-on-prem-coexistence.md#presence).
 
 - Outros usuários, ao usar o Teams, verão a presença com base na atividade do usuário A no Teams.
 
@@ -102,7 +102,7 @@ Assim que estiver pronto para atualizar os usuários para o modo TeamsOnly, voc�
 
 No entanto, os destinatários não atualizados para o modo de Uso Paralelo poderão continuar recebendo chats e chamadas de um usuário do TeamsOnly nos clientes do Skype for Business ou do Teams. Para conversas existentes, o usuário do TeamsOnly responderá ao cliente do remetente que iniciou o chat ou a chamada. 
 
-Para novas conversas do ponto de vista do usuário do TeamsOnly, o chat ou a chamada sempre vai para o cliente das equipes de usuários do modo de ilhas. Isso ocorre porque o cliente do Teams mantém threads de conversas separadas para comunicações de Teams para Teams e de Teams para Skype for Business, mesmo que seja para o mesmo usuário. Para saber mais, confira [Conversas do Teams – Interoperabilidade versus threads nativos](upgrade-to-Teams-on-prem-overview.md#teams-conversations---interop-versus-native-threads).
+Para novas conversas do ponto de vista do usuário do TeamsOnly, o chat ou a chamada sempre vai para o cliente das equipes de usuários do modo de ilhas. Isso ocorre porque o cliente do Teams mantém threads de conversas separadas para comunicações de Teams para Teams e de Teams para Skype for Business, mesmo que seja para o mesmo usuário. Para saber mais, confira [Conversas do Teams – Interoperabilidade versus threads nativos](upgrade-to-teams-on-prem-coexistence.md#teams-conversations---interop-versus-native-threads).
 
 A tabela a seguir resume a experiência do Teams no modo de Uso Paralelo e no modo TeamsOnly:
 
@@ -124,7 +124,7 @@ A tabela a seguir resume os prós e os contras de usar o método de recursos sob
 
 <sup>2</sup> isso é verdadeiro mesmo se o usuário estiver em um local no Skype for Business Server. Se o usuário estiver hospedado no local ou online, deixe a licença do Skype for Business Online habilitada, pois atualmente ela é necessária para a funcionalidade completa do Teams.
 
-<sup>3</sup> Observe que a migração de reuniões do Skype for Business para reuniões de equipe é disparada somente ao aplicar TeamsUpgradePolicy a usuários individuais, e não a cada locatário. Para obter detalhes, confira [Migração de reunião](upgrade-to-Teams-on-prem-overview.md#meeting-migration).
+<sup>3</sup> Observe que a migração de reuniões do Skype for Business para reuniões de equipe é disparada somente ao aplicar TeamsUpgradePolicy a usuários individuais, e não a cada locatário. Para obter detalhes, confira [Migração de reunião](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms).
 
 ## <a name="select-capabilities-method-using-skype-for-business-modes"></a>Método de recursos selecionados (usando os modos do Skype for Business)
 
@@ -136,9 +136,9 @@ Algumas organizações podem optar por fornecer aos usuários finais uma experi�
 
 - Os usuários no modo TeamsOnly recebem todos os chats e chamadas recebidos no cliente do Teams e a presença é fornecida pelo Teams, independentemente de onde a comunicação se originou: Teams, Skype for Business ou qualquer tipo de usuário federado.
 
-Diferentemente do método de recursos sobrepostos, no método de recursos selecionados, os usuários do Skype for Business podem se comunicar com os usuários do TeamsOnly. A comunicação entre um usuário do usuário do Skype for Business e do teams é conhecida como [interoperabilidade](upgrade-to-Teams-on-prem-overview.md#interoperability) ou "interoperabilidade". A comunicação de interoperabilidade é possível bilateralmente para chats e chamadas entre um usuário no Skype for Business e outro usuário no Teams. Além disso, os usuários convidados sempre podem participar de uma reunião do Skype for Business ou do Teams; embora, devam usar um cliente que corresponda ao tipo de reunião. Para mais informações, confira [Reuniões](upgrade-to-Teams-on-prem-overview.md#meetings).
+Diferentemente do método de recursos sobrepostos, no método de recursos selecionados, os usuários do Skype for Business podem se comunicar com os usuários do TeamsOnly. A comunicação entre um usuário do usuário do Skype for Business e do teams é conhecida como [interoperabilidade](upgrade-to-Teams-on-prem-coexistence.md#interoperability) ou "interoperabilidade". A comunicação de interoperabilidade é possível bilateralmente para chats e chamadas entre um usuário no Skype for Business e outro usuário no Teams. Além disso, os usuários convidados sempre podem participar de uma reunião do Skype for Business ou do Teams; embora, devam usar um cliente que corresponda ao tipo de reunião. Para mais informações, confira [Reuniões](upgrade-to-Teams-on-prem-coexistence.md#meetings).
 
-Para usuários em um método de recursos selecionados, a presença de um usuário é consistente, independentemente de qual cliente é usado pelo outro usuário. Se o usuário estiver em um dos modos do Skype for Business, todos os outros usuários verão a presença com base na atividade do usuário no Skype for Business. Da mesma forma, se um usuário estiver no modo TeamsOnly, todos os outros usuários verão presença com base na atividade do usuário no Microsoft Teams. Para obter detalhes, confira [Presença](upgrade-to-Teams-on-prem-overview.md#presence).
+Para usuários em um método de recursos selecionados, a presença de um usuário é consistente, independentemente de qual cliente é usado pelo outro usuário. Se o usuário estiver em um dos modos do Skype for Business, todos os outros usuários verão a presença com base na atividade do usuário no Skype for Business. Da mesma forma, se um usuário estiver no modo TeamsOnly, todos os outros usuários verão presença com base na atividade do usuário no Microsoft Teams. Para obter detalhes, confira [Presença](upgrade-to-Teams-on-prem-coexistence.md#presence).
 
 Para uma organização que optou por seguir o método de recursos selecionados, o administrador deve alterar o modo de todos os locatários de Uso Paralelo para o modo de coexistência apropriado do Skype for Business (SfbWithTeamsCollab ou SfBWithTeamsCollabAndMeetings).  
 
@@ -157,7 +157,7 @@ Como alternativa, o administrador poderá primeiro mudar apenas o agendamento de
 |Chats e chamadas VOIP de usuários em sua organização recebidos em:     | Skype for Business        | Skype for Business       | Teams        |
 |Chamadas PSTN recebidas em:     | Skype for Business        |Skype for Business         | Teams        |
 |Presença     | Skype for Business        |Skype for Business         | Teams        |
-|Agendamento de Reunião     | Skype for Business         | Microsoft Teams        | Teams        |
+|Agendamento de Reunião     | Skype for Business         | Teams        | Teams        |
 
 
 A tabela a seguir resume os prós e os contras do uso dos modos do Skype for Business como uma etapa de transição para o modo TeamsOnly.

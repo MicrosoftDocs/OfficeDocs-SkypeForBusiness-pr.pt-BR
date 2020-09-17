@@ -18,14 +18,14 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 245e22c9a5deb518617ff547c4cc2f590d9ea1e6
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: a20e8c355df4103980dc9da460d003382c721800
+ms.sourcegitcommit: b07938c0b6edafacaeaaef205a1be00c4c1693ba
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905553"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "47940601"
 ---
-# <a name="setting-your-coexistence-and-upgrade-settings"></a>Definir suas configurações de coexistência e atualização
+# <a name="set-your-coexistence-and-upgrade-settings"></a>Definir suas configurações de coexistência e atualização
 
 
 Ao atualizar os usuários do Skype for Business para usar o Microsoft Teams, você tem várias opções para ajudá-lo a fazer dele um processo perfeito para seus usuários. Você tem a opção de fazer as configurações de coexistência e atualização para todos os usuários de sua organização ao mesmo tempo ou pode fazer alterações nas configurações de um único ou conjunto de usuários em sua organização. Observe que as versões mais antigas dos clientes do Skype for Business podem não respeitar essas configurações. Para obter mais informações sobre as versões do cliente Skype for Business, acesse a [página de downloads e atualizações do Skype for Business](https://docs.microsoft.com/skypeforbusiness/software-updates). 
@@ -40,7 +40,7 @@ Você pode entender melhor os modos disponíveis ao ler [compreender o Microsoft
 
 ![Um ícone mostrando o logotipo do Microsoft Teams](media/teams-logo-30x30.png) **Usando o centro de administração do Microsoft Teams**
 
-1. No [centro de administração do Microsoft Teams](https://admin.teams.microsoft.com/), no painel de navegação esquerdo, vá para**atualização da equipe**de configurações > de **toda a organização**. 
+1. No [centro de administração do Microsoft Teams](https://admin.teams.microsoft.com/), no painel de navegação esquerdo, vá para atualização da equipe de **configurações de toda a organização**  >  **Teams upgrade**. 
 
 2. Na parte superior da página de **atualização do teams** , modifique as seguintes opções conforme desejado.
     - Defina o modo de **coexistência** .

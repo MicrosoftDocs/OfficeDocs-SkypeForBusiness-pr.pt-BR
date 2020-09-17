@@ -15,12 +15,12 @@ description: Use esta orientação para implementar o Microsoft Teams como sua p
 ROBOTS: NOINDEX, NOFOLLOW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 84408fdb6d58e755d0eb4c775d1954f22791264c
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 2f7acdfb092e74ae5e10e818b4007c4e22762a36
+ms.sourcegitcommit: e773823a3f71efb6eee3bcbc928f1fee24c9381c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690997"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47950857"
 ---
 # <a name="roll-out-microsoft-teams-first"></a>Implantar o Microsoft Teams primeiro
 
@@ -100,25 +100,27 @@ Este ponto de partida pressupõe que sua organização não use o Skype for Busi
 <tbody>
 <tr class="odd">
 <td>Configuração de equipes de locatários</td>
-<td>Modo somente equipes, todos os recursos de chat e chamadas estão apenas nas equipes</td>
+<td>Modo somente Teams, todos os recursos de chat e chamadas estão nas equipes apenas.</td>
 </tr>
 <tr class="even">
 <td>Chat/comunicação externa no Microsoft Teams</td>
-<td><p>Interno (da Microsoft 365 ou da organização do Office 365) e comunicação de chat externo possível do teams</p>
-<p><em>Observação: as entradas DNS devem ser configuradas para acesso externo. Os registros DNS do Skype for Business são necessários, mesmo que você não tenha o Skype for Business no local ou o Microsoft 365 ou o Office 365, para permitir a Federação com ambientes do Lync e do Skype for Business.<br />
+<td><p>Interno (da Microsoft 365 ou da organização do Office 365) e comunicação de chat externa possível do teams.</p>
+<p><em>Observação: as entradas DNS devem ser configuradas para acesso externo. Os registros DNS do Skype for Business são necessários, mesmo que você não tenha o Skype for Business no local ou o Microsoft 365 ou o Office 365, para permitir a Federação com ambientes do Lync e do Skype for Business:<br />
 <a href="https://docs.microsoft.com/office365/enterprise/external-domain-name-system-records">Registros de sistema de nome de domínio externo</a></em></p></td>
 </tr>
 <tr class="odd">
-<td><em>Criar e exibir reuniões no Microsoft Teams</em></td>
-<td><p><em>Capaz de criar reuniões via suplemento do Outlook</em></p>
-<p><em>O recurso de discagem PSTN e conexão discada está disponível com as licenças de audioconferência.<br />
-Observação: o acesso ao calendário do teams requer o Exchange 2016 CU3 implantado no local com o Exchange Hybrid establishs: <a href="https://docs.microsoft.com/exchange/hybrid-deployment/deploy-hybrid">criar uma implantação híbrida com o assistente de configuração híbrida</a><br />
-Além da configuração híbrida do Exchange, estabelecer a autenticação OAuth do Exchange: <a href="https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help">Configurar a autenticação OAuth entre organizações Exchange e Exchange Online</a></em></p></td>
+<td>Criar e exibir reuniões no Microsoft Teams</td>
+<td><p>Capaz de criar reuniões internas e externas por meio do suplemento do Outlook.</p>
+<p>O recurso de discagem PSTN e conexão discada está disponível com as licenças de audioconferência.</p>
+<p>O acesso ao calendário do teams requer o Exchange 2016 CU3 local instalado com o Exchange Hybrid Established: <a href="https://docs.microsoft.com/exchange/hybrid-deployment/deploy-hybrid">criar uma implantação híbrida com o assistente de configuração híbrida.</a> </p>
+<p>Além da configuração híbrida do Exchange, estabelecer a autenticação OAuth do Exchange: <a href="https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help"> Configurar a autenticação OAuth entre as organizações Exchange e Exchange Online.</p>
+
+</p></td>
 </tr>
 <tr class="even">
 <td>Recursos de chamada<br />
 VoIP/PSTN no Teams</td>
-<td><p>VoIP interna e externamente para o locatário está disponível</p>
+<td><p>O VoIP interna e externamente para o locatário está disponível.</p>
 <p>Os serviços PSTN podem ser configurados pelo sistema telefônico da Microsoft, além de adicionar um plano de chamadas da Microsoft ou roteamento direto.</p></td>
 </tr>
 <tr class="odd">
@@ -138,11 +140,11 @@ Saiba mais aqui: <a href="https://docs.microsoft.com/microsoftteams/admin-settin
 <tr class="even">
 <td>Recursos de segurança e conformidade</td>
 <td><ul>
-<li><p>Políticas de retenção estão disponíveis</p></li>
-<li><p>a descoberta eletrônica e a retenção legal para conformidade com mensagens de canal são aceitas</p></li>
-<li><p>Políticas de prevenção contra perda de dados (DLP) estão disponíveis</p></li>
+<li><p>As políticas de retenção estão disponíveis.</p></li>
+<li><p>a descoberta eletrônica e a retenção legal para conformidade com mensagens de canal são aceitas.</p></li>
+<li><p>As políticas de prevenção contra perda de dados (DLP) estão disponíveis.</p></li>
 </ul>
-<p>Conjunto de recursos completo disponível com o Exchange Online, o Exchange local oferece suporte para a maioria desses recursos, veja <a href="https://docs.microsoft.com/MicrosoftTeams/exchange-teams-interact">como o Exchange e o Teams interagem</a> para a lista completa.</p></td>
+<p>Conjunto de recursos completo disponível com o Exchange Online; O Exchange no local permite a maioria desses recursos. Para obter uma lista completa, consulte <a href="https://docs.microsoft.com/MicrosoftTeams/exchange-teams-interact">como o Exchange e o Teams interagem</a>.</p></td>
 </tr>
 </tbody>
 </table>
@@ -178,24 +180,26 @@ Este ponto de partida pressupõe que sua organização utilize o Skype for Busin
 <tbody>
 <tr class="odd">
 <td>Configuração de equipes de locatários</td>
-<td>Modo de ilhas</td>
+<td>Modo de ilhas.</td>
 </tr>
 <tr class="even">
 <td>Chat/comunicação externa no Microsoft Teams</td>
-<td>Interno somente dentro de seu próprio locatário, a comunicação externa (Federação) está via sua implantação do Skype for Business ou do Lync Server</td>
+<td>Interno somente dentro de seu próprio locatário, a comunicação externa (Federação) é por meio da implantação do Skype for Business ou do Lync Server.</td>
 </tr>
 <tr class="odd">
 <td>Criar e exibir reuniões no Microsoft Teams</td>
-<td><p>Capaz de criar reuniões via suplemento do Outlook</p>
-<p>O recurso de discagem PSTN e conexão discada está disponível com as licenças de audioconferência.<br />
-O acesso ao calendário de equipes requer o Exchange 2016 CU3 local instalado com o Exchange Hybrid estabelecido:<br />
-<a href="https://docs.microsoft.com/exchange/hybrid-deployment/deploy-hybrid">Criar uma implantação híbrida com o assistente de configuração híbrida</a></p></td>
+<td><p>Capaz de criar reuniões internas e externas por meio do suplemento do Outlook.</p>
+<p>O recurso de discagem PSTN e conexão discada está disponível com as licenças de audioconferência.</p>
+<p>O acesso ao calendário de equipes requer o Exchange 2016 CU3 local instalado com o Exchange Hybrid estabelecido:<br />
+<a href="https://docs.microsoft.com/exchange/hybrid-deployment/deploy-hybrid">Crie uma implantação híbrida com o assistente de configuração híbrida.</a></p>
+<p>O administrador pode controlar o suplemento do Outlook do Skype for Business por meio do atributo PreferredMeetingProviderForIslandsMode da política de reunião do teams:<a href="https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps"> set-csteamsmeetingpolicy</a>.</p> 
+</td>
 </tr>
 <tr class="even">
 <td>Recursos de chamada<br />
 VoIP/PSTN no Teams</td>
-<td><p>VoIP internamente para o locatário está disponível</p>
-<p>Os serviços de PSTN ou de plano de chamada não estão disponíveis até que o usuário seja movido para a experiência apenas com o Microsoft Teams</p></td>
+<td><p>VoIP internamente para o locatário está disponível.</p>
+<p>Os serviços de PSTN ou de plano de chamada não estão disponíveis até que o usuário seja movido para a experiência do Microsoft Teams.</p></td>
 </tr>
 <tr class="odd">
 <td>Colaboração entre equipes e canais no Teams</td>
@@ -214,14 +218,12 @@ Saiba mais aqui: <a href="https://docs.microsoft.com/microsoftteams/admin-settin
 <tr class="even">
 <td>Recursos de segurança e conformidade</td>
 <td><ul>
-<li><p>Políticas de retenção estão disponíveis</p></li>
-<li><p>a descoberta eletrônica e a retenção legal para conformidade com mensagens de canal são aceitas</p></li>
-<li><p>Políticas de prevenção contra perda de dados (DLP) estão disponíveis</p></li>
+<li><p>As políticas de retenção estão disponíveis.</p></li>
+<li><p>a descoberta eletrônica e a retenção legal para conformidade com mensagens de canal são aceitas.</p></li>
+<li><p>As políticas de prevenção contra perda de dados (DLP) estão disponíveis.</p></li>
 </ul>
-<p>Conjunto de recursos completo disponível com o Exchange Online, o Exchange local oferece suporte para a maioria desses recursos, consulte</p>
-<p><a href="https://docs.microsoft.com/MicrosoftTeams/exchange-teams-interact">Como o Exchange e o Teams interagem</a></p>
+<p>Conjunto de recursos completo disponível com o Exchange Online; O Exchange no local permite a maioria desses recursos. Para obter uma lista completa, consulte <a href="https://docs.microsoft.com/MicrosoftTeams/exchange-teams-interact">como o Exchange e o Teams interagem.</a></p>
 <ul>
-<li><p>para obter uma lista completa</p></li>
 </ul></td>
 </tr>
 </tbody>

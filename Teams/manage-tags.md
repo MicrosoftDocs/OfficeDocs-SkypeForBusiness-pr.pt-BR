@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba como gerenciar como as marcas são usadas em sua organização no Microsoft Teams.
-ms.openlocfilehash: 9295d03aecb6c0bc6a4f667214869fe698d4eaab
-ms.sourcegitcommit: 7c701fc38c8a81ac0938f666c336252c3983ca4c
+ms.openlocfilehash: 965de27b2671106bed4e5c877f26a7132bf61040
+ms.sourcegitcommit: b07938c0b6edafacaeaaef205a1be00c4c1693ba
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "47324006"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "47940521"
 ---
 # <a name="manage-tags-in-microsoft-teams"></a>Gerenciar marcas no Microsoft Teams
 
@@ -94,11 +94,11 @@ Veja como adicionar marcas personalizadas e como configurar a marcação por Shi
 
 ### <a name="create-and-assign-custom-tags"></a>Criar e atribuir marcas personalizadas
 
-Para criar e atribuir marcas personalizadas, selecione **equipes** no lado esquerdo do aplicativo e localize sua equipe na lista. Selecione **mais opções**e, em seguida, escolha **gerenciar marcas**. Aqui, você pode criar marcas e atribuí-las às pessoas de sua equipe.
+Para criar e atribuir marcas personalizadas, selecione **equipes** no lado esquerdo do aplicativo e localize sua equipe na lista. Selecione **̇ ̇ ̇ mais opções**e, em seguida, escolha **gerenciar marcas**. Aqui, você pode criar marcas e atribuí-las às pessoas de sua equipe.
 
 ![Captura de tela de como aplicar marcas no cliente do teams ](media/manage-tags-teams.png)
 
-Para excluir uma marca, remova todos os membros da equipe associados à marca.
+Para excluir uma marca, selecione **̇ ̇ ̇ mais opções** ao lado da marca e, em seguida, selecione **excluir marca**.
 
 ### <a name="set-up-tagging-by-shift-coming-soon"></a>Configurar marcação por turno (disponível em breve)
 
