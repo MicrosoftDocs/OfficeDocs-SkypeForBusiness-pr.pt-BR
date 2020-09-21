@@ -76,8 +76,6 @@
 #### [Solucionar problemas de acesso de convidados](troubleshoot-guest-access.md)
 ## [Cortana no Teams](cortana-in-teams.md)
 
-
-
 ## Gerenciar o Teams
 ### [Funções de administrador](using-admin-roles.md)
 ### [Gerenciar as configurações do Teams da sua organização](enable-features-office-365.md)
@@ -87,6 +85,7 @@
 ### [Atribuir políticas a seus usuários](assign-policies.md)
 ### [Exibir suas tarefas de política no log de Atividades](activity-log.md)
 ### [Gerenciar políticas de permissões de aplicativo no Teams](teams-app-permission-policies.md)
+### [Bloquear o acesso ao SharePoint para usuários específicos](block-access-sharepoint.md)
 ### [Gerenciar políticas de configuração de aplicativo no Teams](teams-app-setup-policies.md)
 ### [Gerenciar políticas de aplicativo personalizado e as configurações no Teams](teams-custom-app-policies-and-settings.md)
 ### [Gerenciar políticas de comentários no Teams](manage-feedback-policies-in-teams.md)
@@ -719,6 +718,7 @@
 ### [Entrar no Teams usando a autenticação moderna](sign-in-teams.md)
 ### [Links seguros no Teams](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links-for-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Políticas de controle de aplicativo do AppLocker](applocker-in-teams.md)
+### [Bloquear acesso ao Sharepoint](block-access-sharepoint.md)
 ## Conformidade
 ### [Barreiras de informações](information-barriers-in-teams.md)
 ### [Políticas de retenção](retention-policies.md)

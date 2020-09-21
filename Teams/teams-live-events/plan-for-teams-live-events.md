@@ -18,12 +18,12 @@ description: Neste artigo, você aprenderá sobre os fatores a serem considerado
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2258103e73b13a22965e0fbf7749d012e09ed485
-ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
+ms.openlocfilehash: 61f929452f26bd83b5d4deea93113f9edac29e26
+ms.sourcegitcommit: b255db7ef816d1884c9c71af86a901bd83a1d9ab
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47820485"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "47962812"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planejar eventos ao vivo no Microsoft Teams
 
@@ -128,7 +128,7 @@ A tabela a seguir destaca os principais recursos oferecidos em eventos ao vivo e
 |Legendas em tempo real |&#x2714; |&#x2714; |&#x274C; |
 |Legendas em gravações de eventos ao vivo |&#x2714; |&#x2714; |&#x2714; |
 |Controles de DVR dos participantes (pausar, retroceder) |&#x2714; |&#x2714; |&#x2714; |
-|Suporte a eCDN de parceiro |&#x2714; (Kollective, Hive) |&#x2714; (Kollective, Hive) |&#x2714; (Hive, Kollective, Ramp) |
+|Suporte a eCDN de parceiro |&#x2714; (Kollective, Hive, Riverbed) |&#x2714; (Kollective, Hive, Riverbed) |&#x2714; (Hive, Kollective, Ramp, Riverbed) |
 |Relatório de participação posterior à transmissão para Produtores |&#x2714; |&#x2714; |&#x274C; |
 |Análise de opiniões do público – Votação ao vivo e sondagens  |&#x2714; (Microsoft Pulse) |&#x274C; |&#x274C; |
 
