@@ -19,20 +19,20 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1f118585b28edaea63b3416aa4671337ee436345
-ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
+ms.openlocfilehash: b87c891d29bcfafa0275f3a500eb8c5db85311a0
+ms.sourcegitcommit: b255db7ef816d1884c9c71af86a901bd83a1d9ab
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47820585"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "47962852"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>Configurar eventos ao vivo no Microsoft Teams
 
-Use as configurações de eventos ao vivo do teams para definir configurações para eventos dinâmicos que são mantidos em sua organização. Você pode configurar uma URL de suporte e configurar um provedor de distribuição de vídeo de terceiros. Essas configurações se aplicam a todos os eventos dinâmicos que são criados em sua organização. 
+Use as configurações de eventos ao vivo do teams para definir configurações para eventos dinâmicos que são mantidos em sua organização. Você pode configurar uma URL de suporte e configurar um provedor de distribuição de vídeo de terceiros. Essas configurações se aplicam a todos os eventos dinâmicos que são criados em sua organização.
 
-Você pode facilmente gerenciar essas configurações no centro de administração do Microsoft Teams. No painel de navegação esquerdo, vá **Meetings**para  >  **configurações de eventos ao vivo**de reuniões. 
+Você pode facilmente gerenciar essas configurações no centro de administração do Microsoft Teams. No painel de navegação esquerdo, vá **Meetings**para  >  **configurações de eventos ao vivo**de reuniões.
 
-![Captura de tela das configurações de eventos ao vivo do teams](../media/teams-live-events-settings.png "Captura de tela das configurações de eventos do teams Live que você pode configurar no centro de administração do Microsoft Teams") 
+![Captura de tela das configurações de eventos ao vivo do teams](../media/teams-live-events-settings.png "Captura de tela das configurações de eventos do teams Live que você pode configurar no centro de administração do Microsoft Teams")
 
 ## <a name="set-up-event-support-url"></a>Configurar a URL de suporte a eventos
 
@@ -41,14 +41,16 @@ Esta URL é mostrada para participantes do evento ao vivo. Adicione a URL de sup
 ### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Um ícone mostrando o logotipo do Microsoft Teams](../media/teams-logo-30x30.png) Usando o centro de administração do Microsoft Teams
 
 1. No painel de navegação esquerdo, vá para **reuniões**  >  **ao vivo configurações de eventos**.
-2. Em **URL de suporte**, insira a URL de suporte da sua organização. 
+2. Em **URL de suporte**, insira a URL de suporte da sua organização.
 
     ![Configuração da URL de suporte para eventos dinâmicos no centro de administração](../media/teams-live-events-settings-supporturl.png "Captura de tela da configuração da URL de suporte para eventos ao vivo do teams")
 
 ### <a name="using-windows-powershell"></a>Usar o Windows PowerShell
+
 Execute o seguinte:
+
 ```PowerShell
-Set-CsTeamsMeetingBroadcastConfiguration -SupportURL “{your URL}” 
+Set-CsTeamsMeetingBroadcastConfiguration -SupportURL “{your URL}”
 ```
 Para obter mais informações, consulte [set-CsTeamsMeetingBroadcastConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps).
 ## <a name="configure-a-third-party-video-distribution-provider"></a>Configurar um provedor de distribuição de vídeo de terceiros 

@@ -1,29 +1,29 @@
 ---
-title: Atualize para o Teams a partir de uma implantação local do Skype for Business-Microsoft Teams
+title: Coexistência com o Microsoft Teams e o Skype for Business
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.date: 10/22/2019
+ms.date: 09/16/20
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: bjwhalen
-description: Atualização do Skype for Business para o Teams
+description: Atualização do Skype for Business para o Teams-coexistência
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
-- CSH
+- NOCSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 11252c916224393c19ebc11c4c40faceab02342c
-ms.sourcegitcommit: b07938c0b6edafacaeaaef205a1be00c4c1693ba
+ms.openlocfilehash: 2c5993611a383ee9b7040dfa4b74dae1b392253f
+ms.sourcegitcommit: b37632ffa22e3a6045b476c95d46889e9193a15b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47940621"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47955958"
 ---
 # <a name="coexistence-with-teams-and-skype-for-business"></a>Coexistência com o Microsoft Teams e o Skype for Business
 

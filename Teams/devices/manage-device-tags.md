@@ -16,12 +16,12 @@ localization_priority: Normal
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e5987588fd3df8f327502eace7f31b29483a2eba
-ms.sourcegitcommit: ab56033346426a018a8a6920d67526a9772f644c
+ms.openlocfilehash: d29bc28de39c8d145914d3bddab4ed949ad0a338
+ms.sourcegitcommit: b255db7ef816d1884c9c71af86a901bd83a1d9ab
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47363354"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "47962892"
 ---
 # <a name="manage-microsoft-teams-device-tags"></a>Gerenciar marcas de dispositivo do Microsoft Teams
 
@@ -29,7 +29,7 @@ As marcas de dispositivo no Microsoft Teams permitem que você agrupe, organize 
 
 Você pode adicionar uma marca de dispositivo a mais de um tipo de dispositivo. No entanto, quando você abre um painel de dispositivos no centro de administração, somente os dispositivos desse tipo são retornados. Por exemplo, você pode atribuir a marca "corporativa" a dispositivos de salas de equipe e telefones. Se você procurar a marca "corporativa" enquanto estiver em **dispositivos**  >  **Phones**, somente telefones serão retornados. Da mesma forma, se você procurar pela marca "Corporate" em salas de equipe de **dispositivos**  >  **Teams Rooms**, apenas dispositivos de salas de equipe serão retornados.
 
-Para gerenciar marcas de dispositivo, você precisa ser um administrador global ou um administrador de serviços do teams.
+Para gerenciar marcas de dispositivo, você precisa ser um administrador global, administrador de serviços do teams ou administrador de dispositivo do teams. Para obter mais informações sobre funções de administrador, consulte [usar funções de administrador do Microsoft Teams para gerenciar o Teams](../using-admin-roles.md).
 
 > [!IMPORTANT]
 > As marcas de dispositivo são atribuídas à conta de recurso que está conectada a um dispositivo. Se você assinar uma conta de recurso de um dispositivo e usá-la para se conectar a outros dispositivos, as marcas de dispositivo serão aplicadas a um novo dispositivo.

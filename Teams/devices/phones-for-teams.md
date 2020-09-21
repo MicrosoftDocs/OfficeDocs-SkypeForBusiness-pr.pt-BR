@@ -17,18 +17,20 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: Este artigo aborda a lista de telefones certificados para o Microsoft Teams e os recursos com suporte nos telefones certificados para o Microsoft Teams.
-ms.openlocfilehash: b017e02b2d3d2bdc6b01886929d034abb6650384
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: cd38586b67f728febb4a43d3f018875b378cffd8
+ms.sourcegitcommit: b255db7ef816d1884c9c71af86a901bd83a1d9ab
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583950"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "47962842"
 ---
 # <a name="phones-for-microsoft-teams"></a>Telefones para o Microsoft Teams
 
 O Microsoft Teams é compatível com um portfólio de telefones de mesa para usuários que exigem uma experiência de telefone tradicional. Este artigo fornece uma visão geral completa de telefones de equipes e pode ajudar no planejamento, no fornecimento e no gerenciamento de telefones do Microsoft Teams como parte da solução de seu sistema telefônico da Microsoft. 
 
 Para oferecer uma experiência de alta qualidade e confiabilidade do Microsoft Teams em telefones, estamos estabelecendo parcerias e trabalhando ativamente com o Yealink, o Crestron, o Lenovo, o Polycom e o AudioCodes para desenvolver e certificar um amplo portfólio de telefones de mesa e dispositivos de áudio de sala de conferência. Para obter as informações mais recentes e atualizadas sobre os dispositivos do Microsoft Teams, vá para o [Teams Marketplace](https://office.com/teamsdevices).
+
+Para gerenciar telefones, você precisa ser um administrador global, administrador de serviços do teams ou administrador de dispositivos do teams. Para obter mais informações sobre funções de administrador, consulte [usar funções de administrador do Microsoft Teams para gerenciar o Teams](../using-admin-roles.md).
 
 ## <a name="features-supported-by-teams-phones"></a>Recursos compatíveis com telefones de equipes
 Os telefones certificados pela equipe têm uma ampla variedade de recursos para ajudar os usuários a realizar seus trabalhos e ajudá-lo a gerenciar o uso deles. Aqui está um resumo dos recursos disponíveis em telefones certificados pela equipe:

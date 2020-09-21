@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: f75775e39298e10112d4a7ad230b27293b6b9d30
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 48c120397c2d2112386e858378ba5391bae5389f
+ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583690"
+ms.lasthandoff: 09/19/2020
+ms.locfileid: "48135855"
 ---
 # <a name="create-a-custom-team-template-in-microsoft-teams"></a>Criar um modelo de equipe personalizado no Microsoft Teams
 
@@ -34,7 +34,7 @@ Um modelo de equipe personalizado é uma estrutura de equipe predefinida com um 
 
 Para começar:
 
-1. Acesse o centro de administração em  <a href="<<<https://admin.teams.microsoft.com>>>" target="_blank">https://admin.teams.microsoft.com</a> .
+1. Faça logon no centro de administração do Microsoft Teams.
 
 2. Na navegação à esquerda **, expanda**  >  **modelos de equipe do teams**.
 
@@ -57,7 +57,7 @@ Para começar:
     2. Na caixa de diálogo **Adicionar** , nomeie o canal.
     3. Adicione uma descrição.
     4. Decida se o canal deve ser mostrado por padrão.
-    5. Procure o nome de um aplicativo que você deseja addd para o canal.
+    5. Procure o nome de um aplicativo que você deseja adicionar ao canal.
     6. Clique em **aplicar** quando concluir.
 
 ![Uma imagem da tela canais, guias e aplicativos de modelos de equipe.](media/template-channels-tabs-apps.png)

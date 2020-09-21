@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Saiba como gerenciar as configurações de política de reunião no Teams e usá-las para controlar os recursos disponíveis para os participantes da reunião para reuniões agendadas pelos usuários.
-ms.openlocfilehash: a075a432f57a6634a49e9442da0bdc215b1546d9
-ms.sourcegitcommit: 2874aec7768bb46ed4506c1a2d431841f47190bf
+ms.openlocfilehash: b73a93557ad6bde53acf690737275d8b03902218
+ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "47255469"
+ms.lasthandoff: 09/19/2020
+ms.locfileid: "48135965"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Gerenciar políticas de reunião no Teams
 
@@ -76,7 +76,7 @@ Em seguida, atribua a política aos usuários.
 
 ## <a name="edit-a-meeting-policy"></a>Editar uma política de reunião
 
-Você pode editar a política global em qualquer política personalizada que criar.
+Você pode editar a política global e qualquer política personalizada que criar.
 
 1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para políticas de reunião de **reuniões**  >  **Meeting policies**.
 2. Selecione a política clicando à esquerda do nome da política e, em seguida, clique em **Editar**.
@@ -118,7 +118,7 @@ Ao selecionar uma política existente na página **políticas de reunião** ou s
 
 Esta é uma política por usuário e se aplica antes de iniciar uma reunião. Esta configuração controla se um usuário pode iniciar uma reunião ad hoc em um canal do teams. Se você ativar esta opção, quando um usuário postar uma mensagem em um canal do Teams, o usuário pode clicar em **reunir agora** na caixa de texto para iniciar uma reunião ad hoc no canal. O valor padrão é True.
 
-![Captura de tela mostrando o ícone reunir agora abaixo de uma mensagem](media/meeting-policies-meet-now.png)
+[![Captura de tela mostrando o ícone reunir agora abaixo de uma mensagem ](media/meeting-policies-meet-now.png)](media/meeting-policies-meet-now.png#lightbox)
 
 ### <a name="allow-the-outlook-add-in"></a>Permitir o suplemento do Outlook
 
@@ -140,20 +140,23 @@ Agendar uma reunião será desabilitada.
 
 A seleção de canal está desabilitada.
 
-![Captura de tela mostrando a opção de calendário para selecionar um canal no qual você deseja agendar uma reunião.](media/meeting-policies-select-a-channel-to-meet-in.png)
+[![Captura de tela mostrando a opção de calendário para selecionar um canal no qual você deseja agendar uma reunião. ](media/meeting-policies-select-a-channel-to-meet-in.png)](media/meeting-policies-select-a-channel-to-meet-in.png#lightbox)
 
 Na página Postagens de canal, o seguinte será desabilitado:
 
 - Botão **agendar uma reunião** na caixa de texto responder ao canal.
-![Captura de tela mostrando a opção de calendário para selecionar um canal no qual você deseja agendar uma reunião.](media/schedule-meeting-disabled-in-chat2.png)
+  ![Captura de tela mostrando a opção de calendário para selecionar um canal no qual você deseja agendar uma reunião.](media/schedule-meeting-disabled-in-chat2.png)
+  
 - Botão **agendar uma reunião** no cabeçalho do canal.
-![Captura de tela mostrando a opção de calendário para selecionar um canal no qual você deseja agendar uma reunião.](media/schedule-now-in-header.png)
+  ![Captura de tela mostrando a opção de calendário para selecionar um canal no qual você deseja agendar uma reunião.](media/schedule-now-in-header.png)
 
 No calendário do canal:
 
 - Botão **Adicionar novo evento** no cabeçalho do calendário do canal será desabilitado.
-![Captura de tela mostrando a opção de calendário para selecionar um canal no qual você deseja agendar uma reunião.](media/add-new-event-disabled.png)
+  ![Captura de tela mostrando a opção de calendário para selecionar um canal no qual você deseja agendar uma reunião.](media/add-new-event-disabled.png)
+
 - Os usuários não poderão arrastar e selecionar um bloco de tempo no calendário do canal para criar uma reunião de canal.
+
 - Os usuários não podem usar atalhos de teclado para criar uma reunião no calendário do canal.
 
 No centro de administração:
@@ -234,7 +237,7 @@ Esta é uma política por usuário. Essa configuração determina a taxa de bits
 
 Se não houver largura de banda suficiente para uma reunião, os participantes verão uma mensagem indicando uma qualidade de rede ruim.
 
-Para reuniões que precisam de experiência com vídeo de alta qualidade, como reuniões de tabuleiro de CEO e eventos ao vivo da equipe, recomendamos que você defina a largura de banda como 10 Mbps. Mesmo quando a experiência máxima é definida, a pilha de mídia do teams se adapta às condições de pouca largura de banda quando determinadas condições de rede são detectadas, dependendo do cenário.
+Para reuniões que precisam de experiência com vídeo de alta qualidade, como reuniões de diretoria e eventos ao vivo do Teams, recomendamos que você defina a largura de banda para 10 Mbps. Mesmo quando a experiência máxima é definida, a pilha de mídia do teams se adapta às condições de baixa largura de banda quando determinadas condições de rede são detectadas, dependendo do cenário.
 
 ## <a name="meeting-policy-settings---content-sharing"></a>Configurações da política de reunião – compartilhamento de conteúdo
 
@@ -333,7 +336,7 @@ O Amanda não pode compartilhar o quadro de comunicações em uma reunião, mesm
 
 ### <a name="allow-shared-notes"></a>Permitir anotações compartilhadas
 
-Esta é uma política por usuário. Esta configuração controla se um usuário pode criar e compartilhar anotações em uma reunião. Usuários externos, incluindo usuários anônimos, B2B e federados, herdam a política do organizador da reunião. No momento, a guia **anotações da reunião** só tem suporte em reuniões com menos de 20 participantes.
+Esta é uma política por usuário. Esta configuração controla se um usuário pode criar e compartilhar anotações em uma reunião. Usuários externos, incluindo usuários anônimos, B2B e federados, herdam a política do organizador da reunião. No momento, a guia **anotações da reunião** tem suporte apenas em reuniões com menos de 20 participantes.
 
 Vamos dar uma olhada no exemplo a seguir.
 
@@ -359,9 +362,10 @@ Essas configurações controlam quais participantes da reunião aguardam no lobb
 
 ### <a name="let-anonymous-people-start-a-meeting"></a>Permitir que as pessoas anônimas iniciem uma reunião
 
-Trata-se de uma política de um organizador que permite reuniões de discagem de discagem de discagem de discagem líder. Esta configuração controla se a discagem de usuários pode ingressar na reunião sem um usuário autenticado da organização em participação. O valor padrão é falso, que significa que os usuários de discagem aguardarão no lobby até que um usuário autenticado da organização ingresse na reunião.
+Trata-se de uma política de um organizador que permite reuniões de conferência discada com preenchimento de discagem. Esta configuração controla se os usuários de discagem podem ingressar na reunião sem um usuário autenticado da organização em participação. O valor padrão é falso, que significa que os usuários de discagem aguardarão no lobby até que um usuário autenticado da organização ingresse na reunião.
 
-**Observação** Se falso e um usuário de discagem ingressar na reunião primeiro e for colocado no lobby, um usuário da organização deverá ingressar na reunião com um cliente do teams para admitir o usuário do lobby. Não há controles de lobby disponíveis para discar em usuários.
+> [!NOTE]
+> Se falso e um usuário de discagem ingressar na reunião primeiro e for colocado no lobby, um usuário da organização deverá ingressar na reunião com um cliente do teams para admitir o usuário do lobby. Não há controles de lobby disponíveis para discar em usuários.
 
 ### <a name="automatically-admit-people"></a>Admitir pessoas automaticamente
 
@@ -371,19 +375,22 @@ Esta é uma política por organizador. Esta configuração controla se as pessoa
 
  Os organizadores da reunião podem clicar em **Opções de reunião** no convite da reunião para alterar essa configuração para cada reunião agendada.
 
- **Observação** Nas opções de reunião, a configuração é rotulada como "quem pode ignorar o lobby"
+> [!NOTE]
+> Nas opções de reunião, a configuração é rotulada como "quem pode ignorar o lobby". Se você alterar a configuração padrão de qualquer usuário, ela será aplicada a todas as novas reuniões organizadas por esse usuário e em qualquer reunião anterior em que o usuário não tiver modificado as opções de reunião.
   
 |Valor de configuração  |Comportamento da junção |
 |---------|---------|
 |**Todos**   |Todos os participantes da reunião ingressam na reunião diretamente sem esperar no lobby. Isso inclui usuários autenticados, usuários externos de organizações confiáveis (federadas), convidados e usuários anônimos.     |
 |**Todos em sua organização e organizações federadas**     |Usuários autenticados dentro da organização, incluindo usuários convidados e os usuários de organizações confiáveis, ingressam na reunião diretamente sem esperar no lobby.  Usuários anônimos esperam no lobby.   |
 |**Todos em sua organização**    |Os usuários autenticados de dentro da organização, incluindo os usuários convidados, ingressam na reunião diretamente sem esperar no lobby.  Os usuários de organizações confiáveis e usuários anônimos esperam no lobby. Esta é a configuração padrão.           |
+|**Somente organizador**    |Somente os organizadores da reunião podem ingressar na reunião diretamente sem esperar no lobby. Todos os outros, incluindo usuários autenticados dentro da organização, usuários convidados, usuários de organizações confiáveis e usuários anônimos devem aguardar no lobby.           |
 
 ### <a name="allow-dial-in-users-to-bypass-the-lobby"></a>Permitir que os usuários de discagem ignorem o lobby
 
-Esta é uma política por organizador. Esta configuração controla se as pessoas que discam por telefone entram diretamente na reunião ou esperam no lobby, independentemente da configuração de usuário **admitir pessoas automaticamente** . O valor padrão é False. Quando for falso, os usuários de discagem aguardarão no lobby até que o usuário da organização ingresse na reunião com um cliente do Teams e os admite. Quando for verdadeiro, discar os usuários entrarão automaticamente na reunião quando um usuário da organização ingressar na reunião.
+Esta é uma política por organizador. Esta configuração controla se as pessoas que discam por telefone entram diretamente na reunião ou esperam no lobby, independentemente da configuração de usuário **admitir pessoas automaticamente** . O valor padrão é False. Quando for falso, os usuários de discagem aguardarão no lobby até que o usuário da organização ingresse na reunião com um cliente do Teams e os admite. Quando for verdadeiro, os usuários de discagem entrarão automaticamente na reunião quando um usuário da organização ingressar na reunião.
 
-**Observação** Se um usuário de discagem ingressar em uma reunião antes de um usuário da organização ingressar na reunião, ela será colocada no lobby até que o usuário da organização ingresse na reunião usando um cliente do Team e os inscreva.
+> [!NOTE]
+> Se um usuário de discagem ingressar em uma reunião antes de um usuário da organização ingressar na reunião, ela será colocada no lobby até que o usuário da organização ingresse na reunião usando um cliente do Team e os admite. Se você alterar a configuração padrão de qualquer usuário, ela será aplicada a todas as novas reuniões organizadas por esse usuário e em qualquer reunião anterior em que o usuário não tiver modificado as opções de reunião.
 
 ### <a name="enable-live-captions"></a>Habilitar legendas dinâmicas
 

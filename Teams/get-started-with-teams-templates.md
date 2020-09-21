@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d471446d4c0c05d0c13fdee81018c6287c7dda47
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 7878c6dc4e4b632668a0db298a9dc086cf554429
+ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583520"
+ms.lasthandoff: 09/19/2020
+ms.locfileid: "48135835"
 ---
 # <a name="get-started-with-teams-templates-using-microsoft-graph"></a>Introdução aos modelos do Microsoft Teams usando o Microsoft Graph
 
@@ -85,3 +85,4 @@ Por padrão, o modelo base é definido como **padrão** , que não contém nenhu
 - [Treinamento de administrador para o Microsoft Teams](itadmin-readiness.md)
 - [Introdução aos modelos de varejo do Teams](get-started-with-retail-teams-templates.md)
 - [Introdução aos modelos do Teams para Organizações de Saúde](expand-teams-across-your-org/healthcare/healthcare-templates.md)
+- [Introdução aos modelos do Microsoft Teams no console de administração](get-started-with-teams-templates-in-the-admin-console.md)

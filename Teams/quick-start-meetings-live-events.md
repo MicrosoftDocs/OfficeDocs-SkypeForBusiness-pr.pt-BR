@@ -17,16 +17,19 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3a990b62e6479e44308f65920c4f49264b4a131a
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: 29ca6a77f51c999ba7ef857296e5ad386f319062
+ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814391"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "47820615"
 ---
 # <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>Início rápido do administrador – reuniões e eventos ao vivo no Microsoft Teams
 
 Há duas maneiras de se reunir no Microsoft Teams – reuniões e eventos ao vivo. Use este artigo para implementar e configurar reuniões e eventos ao vivo na sua organização rapidamente. 
+
+> [!Note]
+> Para saber mais sobre configuração rápida de reuniões e eventos do Teams em diferentes plataformas, confira [recursos do Teams por plataforma](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
  - As **Reuniões** no Teams incluem áudio, vídeo e compartilhamento de tela para até 300* pessoas. Elas são uma das principais maneiras de colaboração no Teams. E não é necessário ser membro de uma organização (nem mesmo ter uma conta do Teams!) para participar de uma reunião do Teams – basta verificar no convite as instruções sobre como ingressar. 
 
@@ -43,9 +46,6 @@ As pessoas que irão organizar, agendar e hospedar reuniões ou eventos ao vivo 
 > <sup>1</sup> Os organizadores da reunião precisam ter uma [Licença complementar de audioconferência](teams-add-on-licensing/microsoft-teams-add-on-licensing.md) para enviar um convite que inclua conferências discadas.
 >
 > <sup>2</sup>  A discagem de reunião para um número [**Ligar para mim em**](set-up-the-call-me-feature-for-your-users.md) exige que os organizadores tenham uma licença de suplemento de audioconferência E5 ou [](teams-add-on-licensing/microsoft-teams-add-on-licensing.md). Um [plano de discagem](what-are-dial-plans.md) também pode ser necessário. 
-
- > [!Note]
- > Consulte [Recursos da equipe por plataformas](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3) para obter mais informações.
 
 Para saber mais sobre o licenciamento, leia a [descrição do serviço do Microsoft Teams](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description). 
 

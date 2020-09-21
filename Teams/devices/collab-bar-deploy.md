@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Leia este artigo para saber mais sobre como implantar as barras de colaboração do Microsoft Teams.
-ms.openlocfilehash: 71f9482dd5f42ddeb56b32c1a92db033d1f179f7
-ms.sourcegitcommit: 86b0956680b867b8bedb2e969220b8006829ee53
+ms.openlocfilehash: 41eb3335eef78f1da2c64b1df65443ba93d40159
+ms.sourcegitcommit: b255db7ef816d1884c9c71af86a901bd83a1d9ab
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "44410446"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "47962902"
 ---
 # <a name="deploy-collaboration-bars-for-microsoft-teams"></a>Implantar barras de colaboração do Microsoft Teams
 
@@ -29,6 +29,8 @@ A implantação de barras de colaboração do Microsoft Teams pode ser dividida 
 - **Preparação do site** Confirme se seus locais de implantação (salas) atendem aos requisitos de implantação.
 - **Preparação do serviço** Crie contas de recursos e atribua-as aos dispositivos ([consulte criar uma conta de recurso usando o centro de administração do Microsoft 365](resource-account-ui.md)). Embora seja recomendável usar uma licença de sala dedicada, uma conta de usuário final devidamente licenciada também pode entrar nas barras de colaboração.
 - **Configuração e implantação** Configure as barras de colaboração nas salas e conecte os dispositivos periféricos de que você precisa (consulte a documentação do fabricante para as barras de colaboração).
+
+Para gerenciar as barras de colaboração, você precisa ser um administrador global, administrador de serviços do teams ou administrador de dispositivo do teams. Para obter mais informações sobre funções de administrador, consulte [usar funções de administrador do Microsoft Teams para gerenciar o Teams](../using-admin-roles.md).
 
 ## <a name="site-readiness"></a>Preparação do site
 
