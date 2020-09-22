@@ -21,12 +21,12 @@ ms.custom: ms.teamsadmincenter.policypackages.overview
 localization_priority: Priority
 search.appverid: MET150
 description: Saiba mais sobre políticas em uma configuração EDU ou educacional e como usar e gerenciar pacotes de políticas no Microsoft Teams.
-ms.openlocfilehash: cb5b2620ae014a65abd912b401af1587aceff0e6
-ms.sourcegitcommit: 32023931b607542cffadef74383e3ecd47db4ab6
+ms.openlocfilehash: 9abf734894e716b6d7840d448cb513d083fe02b3
+ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "46868700"
+ms.lasthandoff: 09/19/2020
+ms.locfileid: "48135875"
 ---
 # <a name="teams-policies-and-policy-packages-for-education"></a>Políticas do Teams e Pacotes de Políticas para Educação
 
@@ -147,7 +147,7 @@ Cada política individual recebe o nome do pacote de políticas, para que você 
 
 ## <a name="policies-that-should-be-assigned-for-student-safety"></a>Políticas que devem ser atribuídas à segurança do estudante
 
-### <a name="meeting-policies"></a>Políticas de reunião
+### <a name="meeting-policies-for-students"></a>Políticas de reunião para alunos
 
 #### <a name="turn-off-the-ability-to-create-and-start-meetings"></a>Desativar o recurso para criar e iniciar reuniões
 
@@ -216,7 +216,7 @@ Aqui estão as opções:
 
 :::image type="content" source="media/edu-policy-list-b.png" alt-text="Ensino do aluno na página de aprendizado remoto com as opções de vídeo exibidas.":::
 
-### <a name="live-events-policies"></a>Políticas de eventos ao vivo
+### <a name="live-events-policies-for-students"></a>Políticas de eventos ao vivo para alunos
 
 #### <a name="turn-off-the-ability-to-create-and-start-live-events"></a>Desativar o recurso para criar e iniciar eventos ao vivo
 
@@ -224,7 +224,7 @@ Para garantir que os alunos não possam agendar um evento ao vivo para comunicar
 
 :::image type="content" source="media/edu-allow-scheduling-off.png" alt-text="Ensino do aluno na página de aprendizado remoto com a opção de agendamento Desativada.":::
 
-### <a name="calling-policies"></a>Políticas de chamadas
+### <a name="calling-policies-for-students"></a>Políticas de chamadas para alunos
 
 #### <a name="turn-off-the-ability-to-make-private-calls"></a>Desativar o recurso de fazer chamadas privadas
 
@@ -232,7 +232,7 @@ Para garantir que os alunos não possam fazer chamadas privadas com outros aluno
 
 :::image type="content" source="media/edu-private-calls-off.png" alt-text="Ensino do aluno na página de aprendizado remoto com a opção Fazer chamadas privadas.":::
 
-### <a name="messaging-policies"></a>Políticas de mensagens
+### <a name="messaging-policies-for-students"></a>Políticas de mensagens para alunos
 
 #### <a name="turn-off-the-ability-to-delete-or-edit-sent-messages"></a>Desativar o recurso de excluir ou editar mensagens enviadas
 
@@ -276,7 +276,7 @@ Os alunos não devem poder remover outros usuários de nenhum chat em que esteja
 
 ![Ensino do aluno na página de aprendizado remoto, com a opção Remover usuários de chats em grupo definida como Desativada.](media/edu-remove-users-from-chat-for-students.png)
 
-### <a name="teams-policies"></a>Políticas do Teams
+### <a name="teams-policies-for-students"></a>Políticas do Teams para alunos
 
 #### <a name="turn-off-the-ability-to-discover-and-create-private-channels"></a>Desativar a capacidade de descobrir e criar canais privados
 
@@ -287,7 +287,7 @@ Para garantir que os alunos não possam criar um canal privado como espaço pess
 > [!IMPORTANT]
 > É provável que você também deseje garantir que os alunos não possam criar novas equipes no Microsoft Teams. Essa é, na verdade, uma configuração de grupos de M365 e você pode ler mais sobre isso no [Gerenciar quem pode criar grupos Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-creation-of-groups).
 
-### <a name="app-permission-policies"></a>Políticas de permissão do aplicativo
+### <a name="app-permission-policies-for-students"></a>Políticas de permissão do aplicativo para alunos
 
 #### <a name="control-whether-students-can-add-apps-within-teams"></a>Controlar se os alunos podem adicionar aplicativos no Teams
 
@@ -309,7 +309,7 @@ Essas são configurações de política recomendadas para que os administradores
 > [!NOTE]
 > As recomendações de política para alunos contêm mais informações do que as seções de educadores, que você verá abaixo. Embora você possa definir as configurações de política de acordo com as políticas e os procedimentos da sua instituição educacional, as recomendações fornecidas aqui são estritamente relevantes quando se trata de segurança e proteção dos alunos.
 
-### <a name="meeting-policies"></a>Políticas de reunião
+### <a name="meeting-policies-for-educators"></a>Políticas de reunião para educadores
 
 Essas configurações permitem aos educadores controlar o acesso às suas reuniões.
 
