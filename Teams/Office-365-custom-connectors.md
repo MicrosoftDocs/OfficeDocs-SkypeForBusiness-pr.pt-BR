@@ -17,17 +17,17 @@ description: Os conectores mantêm a sua equipe atualizada ao entregar conteúdo
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: e704dd6a9a796be4f9e361972cd2e6b38e48ce51
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 3b7847ce2aba9a155622e83a6c0449cc1b6b1a39
+ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46582468"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48177211"
 ---
 <a name="use-microsoft-365-and-custom-connectors-in-microsoft-teams"></a>Usar o Microsoft 365 e conectores personalizados no Microsoft Teams
 =======================================================
 
-Os conectores mantêm sua equipe em dia fornecendo conteúdo usado com frequência e atualizações de serviço diretamente em um canal. Com os conectores, os usuários do Microsoft Teams podem receber atualizações de serviços populares, como Twitter, Trello, Wunderlist, GitHub e serviços do DevOps do Azure dentro do fluxo de chat de sua equipe.
+Os conectores mantêm sua equipe em dia fornecendo conteúdo usado com frequência e atualizações de serviço diretamente em um canal. Com os conectores, os usuários do Microsoft Teams podem receber atualizações de serviços populares, como o Trello, o Wunderlist, o GitHub e os serviços do DevOps do Azure dentro do fluxo de chat de sua equipe.
 
 Qualquer membro de uma equipe pode conectar sua equipe a serviços de nuvem populares com os conectores, se as permissões da equipe permitirem, e todos os membros da equipe forem notificados sobre as atividades desse serviço. Os conectores continuarão a funcionar mesmo após o membro que, inicialmente, configurar o conector. Qualquer membro da equipe com as permissões para adicionar à instalação pode modificar os conectores por outros membros.
 
@@ -40,19 +40,23 @@ No momento, você pode adicionar conectores usando clientes da Web e de área de
 
 1. Para adicionar um conector a um canal, clique nas **reticências (...)** à direita de um nome de canal e, em seguida, clique em **conectores**.
 
-    ![Captura de tela da interface do teams com a opção conectores selecionada.](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image1.png)
+    > [!div class="mx-imgBorder"]
+    > ![Captura de tela da interface do teams com a opção conectores selecionada.](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image1.png)
 
 2. Você pode selecionar uma variedade de conectores disponíveis e, em seguida, clicar em **Adicionar**.
 
-    ![Captura de tela da caixa de diálogo conectores mostrando os conectores disponíveis.](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image2.png)
+    > [!div class="mx-imgBorder"]
+    > ![Captura de tela da caixa de diálogo conectores mostrando os conectores disponíveis.](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image2.png)
 
 3. Preencha as informações necessárias do conector selecionado e clique em **Salvar**. Cada conector precisa de um conjunto de informações diversas para funcionar corretamente e alguns podem exigir que você inicie sessão no serviço usando os links fornecidos na página de configuração do conector.
 
-    ![Captura de tela da página de configuração do conector RSS.](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image3.png)
+    > [!div class="mx-imgBorder"]
+    > ![Captura de tela da página de configuração do conector RSS.](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image3.png)
 
 4. Os dados fornecidos pelo conector são publicados automaticamente no canal.
 
-    ![Captura de tela da interface do Teams mostrando uma conversa em um canal.](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image4.png)
+    > [!div class="mx-imgBorder"]
+    > ![Captura de tela da interface do Teams mostrando uma conversa em um canal.](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image4.png)
 
 <a name="develop-custom-connectors"></a>Desenvolvimento de conectores personalizados
 ----------------------------

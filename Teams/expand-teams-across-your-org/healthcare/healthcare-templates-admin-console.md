@@ -19,12 +19,12 @@ ms.reviewer: ''
 description: Use os modelos do Microsoft Teams no console de administração para criar equipes rápida e facilmente fornecendo um modelo predefinido de configurações, canais e aplicativos.
 ms.custom: seo-marvel-mar2020
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 25d9fb2d59eb272220813de8ae7749f9911b8da6
-ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
+ms.openlocfilehash: 93de98eb61f503467f7b9de218a10982402eeb41
+ms.sourcegitcommit: af9f96010460f9323db84912fe143aa0750ac798
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/19/2020
-ms.locfileid: "48136002"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "48171085"
 ---
 # <a name="use-teams-healthcare-templates-in-the-admin-console"></a>Usar modelos do teams Healthcare no console de administração
 
@@ -40,7 +40,6 @@ Atualmente, oferecemos dois modelos de saúde de primeira mão que você pode ap
 
  Simplifique a comunicação da saúde e a colaboração em um departamento, um pod ou um departamento. O modelo pode ser usado para facilitar o gerenciamento de pacientes, bem como as necessidades operacionais de uma vez.
 
-
 | Tipo de modelo base |baseTemplateId| Propriedades que vêm com este modelo base |
 | ------------------ |---|----------------------------------------------------- |
 | Colabore no atendimento ao paciente |`healthcareWard` | Canais<ul><li>Geral</li><li>Comunicados</li><li>Huddles</li><li>Arredonda</li><li>Especificam</li><li>Treinamento</li></ul> Aplicativo <ul><li>Wiki</li>|
@@ -52,7 +51,7 @@ Simplifique a comunicação e a colaboração entre vários departamentos, pods 
 
 | Tipo de modelo base |baseTemplateId | Propriedades que vêm com este modelo base |
 | ------------------|-- |----------------------------------------------------- |
-|Hospital|` healthcareHospital`|Canais <ul><li>Geral<li>Comunicados</li><li>Conformidade</li><li>Custodial</li><li>Recursos humanos</li><li>Farmácia</li></ul> Aplicativo <ul><li>Wiki</li></ul>|
+|Hospital|`healthcareHospital`|Canais <ul><li>Geral<li>Comunicados</li><li>Conformidade</li><li>Custodial</li><li>Recursos humanos</li><li>Farmácia</li></ul> Aplicativo <ul><li>Wiki</li></ul>|
 ||||
 
 ## <a name="related-topics"></a>Tópicos relacionados

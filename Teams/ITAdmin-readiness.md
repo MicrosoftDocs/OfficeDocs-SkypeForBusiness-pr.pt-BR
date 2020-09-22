@@ -19,16 +19,16 @@ ms.custom:
 description: Vídeos de treinamento, apresentações do PowerPoint, tutoriais e outros recursos para administradores sobre como planejar, implantar e executar o Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1e083ee323ba3c4e8c61c9520c56b0d6af261fa6
-ms.sourcegitcommit: 294b32fb06c56a6eefd1cc44cc5bc93555b6503b
+ms.openlocfilehash: 714e15b16f72085f4261dd9dc961f8a26060b82f
+ms.sourcegitcommit: af9f96010460f9323db84912fe143aa0750ac798
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "46845553"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "48170955"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Introdução ao treinamento para administradores do Microsoft Teams
 
-Use os recursos de treinamento para se instruir sobre o Teams, ensinar outras pessoas ou realizar workshops. Volte aqui frequentemente para novos conteúdos. 
+Use os recursos de treinamento para se instruir sobre o Teams, ensinar outras pessoas ou realizar workshops. Volte aqui frequentemente para novos conteúdos.
 
 |               |               |               |               |               |               |               |               |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
@@ -50,10 +50,10 @@ Use os recursos de treinamento para se instruir sobre o Teams, ensinar outras pe
 | Chamadas de emergência dinâmicas | [Vídeo](https://aka.ms/teams-dec) |  [Apresentação](https://aka.ms/teams-dec-deck) |
 | Eventos ao vivo | [Vídeo](https://aka.ms/teams-live-events-session) | [Apresentação](https://aka.ms/teams-live-events-deck) |
 | Introdução ao sistema de telefonia | [Vídeo](https://aka.ms/teams-phone-system) | [Apresentação](https://aka.ms/teams-phone-system-deck) |
-| Roteamento Direto | [Vídeo 1: planejando o roteamento direto no Teams ](https://aka.ms/teams-dr-plan)<br>[Vídeo 2: Configurando e gerenciando o roteamento direto no Teams](https://aka.ms/teams-dr-config)<br>[Vídeo 3: migrando para o roteamento direto no Teams](https://aka.ms/teams-dr-migrate)  | [Apresentação](https://aka.ms/teams-direct-routing-deck) |
+| Roteamento Direto | [Vídeo 1: planejando o roteamento direto no Teams](https://aka.ms/teams-dr-plan)<br>[Vídeo 2: Configurando e gerenciando o roteamento direto no Teams](https://aka.ms/teams-dr-config)<br>[Vídeo 3: migrando para o roteamento direto no Teams](https://aka.ms/teams-dr-migrate)  | [Apresentação](https://aka.ms/teams-direct-routing-deck) |
 | Atualização do Skype for Business para o Teams | [Vídeo 1: introdução à atualização](https://aka.ms/teams-upgrade-intro)</br>[Vídeo 2: planeje sua atualização](https://aka.ms/teams-upgrade-plan)</br>[Vídeo 3: coexistência e interoperabilidade](https://aka.ms/teams-upgrade-coexistence-interop)</br>[Vídeo 4: experiência do administrador](https://aka.ms/teams-upgrade-admin) | [Apresentação](https://aka.ms/teams-upgrade-deck)|
 
-<h3>Fundamentos das salas de equipe para & profissionais do AV</h3>
+<h2>Fundamentos das salas de equipe para & profissionais do AV</h2>
 
 <p>A tabela a seguir contém links para o treinamento em vídeo abrangente, com os decks do PowerPoint em sala de opções do Microsoft Teams.  
 
@@ -69,6 +69,21 @@ Use os recursos de treinamento para se instruir sobre o Teams, ensinar outras pe
 | Módulo 8: salas do Microsoft Teams--dicas, truques e solução de problemas (18:14 min)|[Vídeo](https://www.youtube.com/watch?v=W3b-iRrFECA)  | [Apresentação](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8a-tips-tricks-troubleshooting.pdf?raw=true)|
 | Instruções de junção com um toque |  | [Apresentação](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8b-one-touch-join-instructions.pdf?raw=true)  |
 
+<h2>Guias interativos</h2>
+
+| Título                                                                       | Abstrair                                                                                                                                                                                                               |  Link para o guia                             |
+|-----------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------|
+| Identidade, gerenciamento de acesso & proteção contra ameaças para equipes                   | Saiba como usar os centros de administração da Microsoft e PowersShell para configurar as políticas de acesso e identidade e habilitar a proteção avançada contra ameaças do Office 365 para equipes                                                            | [Guia de segurança do Microsoft Teams](https://aka.ms/teamsesecurityinteractiveguide)         |
+| Gerenciando a conformidade no Teams                                                | Use os centros de administração do Microsoft 365 Security, do Microsoft 365 e do Microsoft Teams Administration, bem como o Windows PowerShell para gerenciar e configurar as políticas e as configurações do Microsoft Teams da organização do Office 365. | [Guia de gerenciamento de conformidade no Teams](https://aka.ms/complianceinteamsinteractiveguide)      |
+| Consultor do teams: Implantando chats, equipes, canais e aplicativos no Microsoft Teams | Saiba como aproveitar o Team Advisor para avaliar seu ambiente e criar um plano de implantação de chats, equipes, canais e aplicativos.                                                                                         |  [Guia do consultor do teams](https://aka.ms/MicrosoftTeamsAdvisorInteractiveguide)  |
+| Simplificar a administração de equipes com o PowerShell e grupos dinâmicos        | Converter um grupo do Office 365 da associação estática em dinâmico e usar o Windows PowerShell para atribuir uma nova política de permissão do aplicativo a todos os membros.                                                                         |  [Guia de administração do teams simplificado](https://aka.ms/StreamliningTeamsadminInteractiveGuide) |
+| Gerenciando equipes e acesso de convidado no centro de administração do Microsoft Teams         | Saiba como configurar e gerenciar o acesso de convidados e equipes do Microsoft Teams para sua organização.                                                                                                                              | [Guia de gerenciamento de equipes e acessos de convidados](https://aka.ms/TeamsandGuestAccessInteractiveGuide)    |
+| Configurar o sistema telefônico da equipe: atendedor automático & fila de chamadas                   | Percorrer o processo de criação e implantação de uma fila de chamadas e atendedor automático como parte das chamadas do Microsoft Teams usando o centro de administração do Microsoft Teams.                                                          |  [Guia configurar o sistema de telefonia da equipe](https://aka.ms/TeamsPhoneInteractiveGuide)             |
+| Configurar o roteamento direto: conectando o SBCs e o roteamento de voz                 | Use o roteamento direto do Microsoft Teams Phone System para integrar-se à sua infraestrutura de telefonia existente.                                                                                                              | [Configurar o guia de roteamento direto](https://aka.ms/DirectRoutingInteractiveGuide)          |
+| Configurar o controle no Microsoft Teams                                     | Saiba como criar uma política de retenção de mensagens do teams para sua organização e como arquivar, excluir e restaurar equipes individuais                                                                                   |  [Configurar o controle no Microsoft Teams Guide](https://aka.ms/TeamsGovernanceInteractiveGuide)        |
+| Configurando e implantando reuniões do Microsoft Teams                          | Percorrer o processo de implantação da carga de trabalho reuniões para o Microsoft Teams.                                                                                                                                       |  [Guia de configuração e implantação de reuniões do Microsoft Teams](https://aka.ms/TeamsMeetingsInteractiveGuide)          |
+| Configurar a conferência de áudio para o Microsoft Teams                            | Descubra os recursos da videoconferência no Microsoft Teams e saiba como atribuir pontes de conferência e números de telefone de discagem.                                                                                          |  [Guia de configuração de áudio para Microsoft Teams](https://aka.ms/AudioConferencingInteractiveGuide)      |
+| Configurando o Microsoft Teams para funcionários do Fisrtline                           | Saiba como configurar e implantar o ambiente correto do Microsoft Teams para a sua força de seus primeiros.                                                                                                                  | [Guia de configuração do Microsoft Teams para funcionários iniciantes](https://aka.ms/ConfigFLWInteractiveGuide)              |
 
 <h2>Guias de início rápido</h2>
 

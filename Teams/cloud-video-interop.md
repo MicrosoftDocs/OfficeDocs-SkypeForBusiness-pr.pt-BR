@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 08dbe4e3ad6f527545fbf691905ce5d70c5b7dbe
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: fa95f1fbef860c76b9434b21151a400105bf4101
+ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581812"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48177382"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>Interoperabilidade de vídeo na nuvem para o Microsoft Teams
 
@@ -61,6 +61,7 @@ Os parceiros a seguir têm soluções de interoperabilidade de vídeo para Micro
 |![O logotipo que representa Polycom RealConnect](media/polycom.png) | <a href="https://aka.ms/PolycomRealConnect" target="_blank">Serviço de RealConnect Polycom</a> |
 |![O logotipo que representa o infinito Pexip](media/pexip.png)| <a href="https://aka.ms/PexipInfinity" target="_blank">Pexip infinito para Microsoft Teams</a> | 
 |![O logotipo que representa o gateway BlueJeans](media/bluejeans.png)| <a href="https://aka.ms/BluejeansGateway" target="_blank">BlueJeans gateway para Microsoft Teams</a> |
+|![O logotipo que representa o Cisco CVI](media/cisco.png)|<a href="https://aka.ms/CiscoCVI" target="_blank">Integração com vídeo Cisco WebEx para o Microsoft Teams</a>|
 
 ### <a name="cloud-video-interop-overview"></a>Visão geral da interoperabilidade em nuvem
 

@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Saiba como gerenciar as configurações de política de reunião no Teams e usá-las para controlar os recursos disponíveis para os participantes da reunião para reuniões agendadas pelos usuários.
-ms.openlocfilehash: b73a93557ad6bde53acf690737275d8b03902218
-ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
+ms.openlocfilehash: 8846dea07d0e25a628341e853dee64d42d3e043a
+ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/19/2020
-ms.locfileid: "48135965"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48177401"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Gerenciar políticas de reunião no Teams
 
@@ -116,7 +116,7 @@ Ao selecionar uma política existente na página **políticas de reunião** ou s
 
 ### <a name="allow-meet-now-in-channels"></a>Permitir reunir agora em canais
 
-Esta é uma política por usuário e se aplica antes de iniciar uma reunião. Esta configuração controla se um usuário pode iniciar uma reunião ad hoc em um canal do teams. Se você ativar esta opção, quando um usuário postar uma mensagem em um canal do Teams, o usuário pode clicar em **reunir agora** na caixa de texto para iniciar uma reunião ad hoc no canal. O valor padrão é True.
+Esta é uma política por usuário e se aplica antes de iniciar uma reunião. Esta configuração controla se um usuário pode iniciar uma reunião ad hoc em um canal do teams. Se você ativar esta opção, os usuários podem clicar no botão **reunir** para iniciar uma reunião ad hoc ou agendar uma reunião no canal. O valor padrão é True.
 
 [![Captura de tela mostrando o ícone reunir agora abaixo de uma mensagem ](media/meeting-policies-meet-now.png)](media/meeting-policies-meet-now.png#lightbox)
 
@@ -407,7 +407,7 @@ Esta é uma política por usuário e aplica-se durante uma reunião. Esta config
 
 ### <a name="allow-chat-in-meetings"></a>Permitir chat em reuniões
 
-Esta é uma política por organizador. Esta configuração controla se o chat da reunião é permitido na reunião do usuário.
+Esta é uma configuração por participante. Esta configuração controla se o chat da reunião é permitido na reunião do usuário.
 
 <a name="bkparticipantsandguests"> </a>
 

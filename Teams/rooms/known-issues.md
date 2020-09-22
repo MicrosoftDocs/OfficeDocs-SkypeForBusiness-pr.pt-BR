@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: O administrador pode saber mais sobre uma lista de problemas conhecidos para salas do Microsoft Teams, incluindo atualização, interface do usuário, hardware e limitações e comportamentos esperados.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 584b71d39552990b3e4009efb177ef4fee61f1a4
-ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
+ms.openlocfilehash: 73eab767d7b30182efb204fb8cfb8ceb06137c0b
+ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/15/2020
-ms.locfileid: "46761337"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48177360"
 ---
 # <a name="known-issues"></a>Problemas conhecidos 
  
@@ -60,7 +60,7 @@ O SkypeRoomSystemv2 não oferece suporte à entrada HDCP, pois foi observado que
 
 ***
 
-Se você quiser uma exibição do lado da sala para alternar automaticamente para uma fonte de vídeo ativa (como um console do MTR) quando a origem é ativada do modo de espera, determinadas condições devem ser atendidas. Esse recurso é opcional, mas suportado pelo software de salas Microsoft Teams, desde que o hardware subjacente seja compatível com o recurso. Uma TV para consumidor usada como uma frontal da exibição de sala precisa dar suporte ao recurso de controle de eletrônicos do consumidor (CEC) de HDMI.  Dependendo do Dock ou console selecionado (que pode não ser compatível com o CEC, confira a documentação de suporte do fabricante), um controlador de espaço de trabalho como um [EXTRON HD CTL 100](https://www.extron.com/article/hdctl100ad) pode ser necessário para habilitar o comportamento desejado. 
+Se você quiser uma exibição do lado da sala para alternar automaticamente para uma fonte de vídeo ativa (como um console do MTR) quando a origem é ativada do modo de espera, determinadas condições devem ser atendidas. Esse recurso é opcional, mas suportado pelo software de salas Microsoft Teams, desde que o hardware subjacente seja compatível com o recurso. Uma TV para consumidor usada como uma frontal da exibição de sala precisa dar suporte ao recurso de controle de eletrônicos do consumidor (CEC) de HDMI.  Dependendo do Dock ou console selecionado (que pode não ser compatível com o CEC, confira a documentação de suporte do fabricante), um controlador como um controlador [HD-RX-201-C-E](https://www.crestron.com/Products/Video/HDMI-Solutions/HDMI-Extenders/HD-RX-201-C-E) do Crestron ou [Extron HD CTL 100](https://www.extron.com/article/hdctl100ad) de Extron pode ser necessário para habilitar o comportamento desejado. 
 
 ***
 

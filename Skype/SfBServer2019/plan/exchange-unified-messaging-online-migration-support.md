@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: A Microsoft está desativando o serviço de Unificação de mensagens do Exchange Online (ExchUMO) em 28 de fevereiro de 2020. Este artigo resume o que os clientes afetados devem saber e fazer para planejar sua continuidade de negócios.
-ms.openlocfilehash: 5d7d9b2e488c61c881395ad00d2675d749e5e30f
-ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
+ms.openlocfilehash: 5ee0cb6329f03c5306d14603ab9beedfd8ed55da
+ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47359297"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48177421"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Suporte à migração da Unificação de Mensagens do Exchange Online
 
@@ -158,20 +158,20 @@ Os administradores de organização do Microsoft 365 e do Office 365 precisam re
 | VM | Recursos do usuário | Idiomas de saudação suportados | Detalhes aqui: https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants | S | S    |
 | VM | Recursos do usuário | Regras de atendimento de chamada |  | S | S    |
 | VM | Recursos do usuário | Tocar no telefone (PSTN)-para reproduzir mensagem | Ligar para mim na minha célula para ouvir a mensagem de voz  | N | S    |
-| VM | Recursos do usuário | Tocar no telefone (auth)-para reproduzir mensagem | Ligar para mim em meu dispositivo autenticado  | S | S    |
+| VM | Recursos do usuário | Tocar no telefone (auth)-para reproduzir mensagem | Ligar para mim em meu dispositivo autenticado  | N | S    |
 | VM | Recursos do usuário | Caixa de correio compartilhada entre vários usuários |  | S | S    |
 | VM | Recursos do chamador  | Experiência de chamadas — caixa postal protegida | O chamador pode escolher uma opção para marcar uma mensagem gravada como protegida| N | S    |
 | VM | Recursos do chamador  | Experiência do chamador — caixa postal privada | O chamador pode escolher uma opção para marcar uma mensagem gravada como particular  | N | S    |
 | VM | Recursos do chamador  | Detecção de silêncio   |  | N | S    |
 | VM | Locatário-recursos de administração | Caixa postal protegida no nível do servidor    | Locatário-o administrador pode configurar uma regra de nível de serviço para marcar a caixa postal de entrada como protegida | S | S    |
 | VM | Locatário-recursos de administração | Alterar o limite de tempo de duração da gravação  |     | S | S    |
-| VM | Locatário-recursos de administração | Alterar o tempo limite de detecção de silêncio    |  | Não disponível    | S    |
+| VM | Locatário-recursos de administração | Alterar o tempo limite de detecção de silêncio    |  | N/D    | S    |
 | VM | Locatário-recursos de administração | Alterar o número de falhas de entrada | CVM: embutido em código para 3 | N | S    |
 | VM | Locatário-recursos de administração | Alterar o idioma padrão |  | S | S    |
 | VM | Locatário-recursos de administração | Desabilitar/habilitar transcrição |  | S | S    |
 | VM | Locatário-recursos de administração | Desabilitar/habilitar notificação de chamada perdida |  | N | S    |
 | VM | Locatário-recursos de administração | Ajude a Microsoft a melhorar a visualização da caixa postal    |  | S | S    |
-| VM | Locatário-recursos de administração | Personalizar mensagem de texto para usuários habilitados|  | Não disponível    | S    |
+| VM | Locatário-recursos de administração | Personalizar mensagem de texto para usuários habilitados|  | N/D    | S    |
 | VM | Locatário-recursos de administração | Mascaramento de profanação de transcrição|  | S | N    |
 | VM | Locatário-recursos de administração | Política de caixa postal    |   | S | S    |
 | VM | Locatário-recursos de administração | Administração do portal da Web   |  | CY19   | S    |

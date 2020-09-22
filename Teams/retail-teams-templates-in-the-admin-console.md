@@ -20,12 +20,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: a7cdac4b64f8a6fb10f3b36544e3361b6c413ad7
-ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
+ms.openlocfilehash: 8b72fe7b1f101278d206d49f06203fe9841ba25f
+ms.sourcegitcommit: af9f96010460f9323db84912fe143aa0750ac798
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/19/2020
-ms.locfileid: "48136001"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "48171075"
 ---
 # <a name="use-teams-retail-templates-in-the-admin-console"></a>Usar modelos de varejo do teams no console de administração
 
@@ -45,7 +45,7 @@ Para saber mais sobre os modelos de equipe em geral, consulte [introdução aos 
 
 Reúna seus funcionários de varejo em uma experiência central para gerenciar tarefas, compartilhar documentos e solucionar problemas com o cliente. Integre aplicativos adicionais para simplificar o início da mudança & processos finais.
 
-| Tipo de modelo base| | Propriedades que vêm com este modelo base |
+| Tipo de modelo base |baseTemplateId | Propriedades que vêm com este modelo base |
 | ------------------|-- |----------------------------------------------------- |
 |Organizar uma loja| `retailStore`|Canais <ul><li>Geral<li>Deslocar entrega</li><li>Aprendizagem</li></ul> Aplicativo <ul><li>Wiki</li></ul>|
 ||||
@@ -54,8 +54,7 @@ Reúna seus funcionários de varejo em uma experiência central para gerenciar t
 
 O modelo de colaboração do gerente é ideal para criar uma equipe para um conjunto de gerentes colaborar em lojas/regiões etc. Por exemplo, se a sua organização tiver regiões, você pode criar uma equipe de colaboração do gerente para a região da Califórnia e incluir todos os gerentes da loja nessa região, bem como o gerente regional dessa região.
 
-| Tipo de modelo base|  | Propriedades que vêm com este modelo base |
+| Tipo de modelo base| baseTemplateId | Propriedades que vêm com este modelo base |
 | ------------------|- |----------------------------------------------------- |
 |Colaboração do gerente de varejo|`retailManagerCollaboration` |Canais <ul><li>Geral<li>Operações</li><li>Aprendizagem</li></ul> Aplicativo <ul><li>Wiki</li></ul>|
 ||||
-

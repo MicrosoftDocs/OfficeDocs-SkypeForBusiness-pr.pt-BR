@@ -19,12 +19,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: ad6118d498a8c835dbc4ccde664874bd24373b52
-ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
+ms.openlocfilehash: 1d206edc7011c8926d32e4a37650d97f80740d1d
+ms.sourcegitcommit: af9f96010460f9323db84912fe143aa0750ac798
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/19/2020
-ms.locfileid: "48135865"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "48171095"
 ---
 # <a name="get-started-with-teams-templates-in-the-admin-console"></a>Introdução aos modelos do Microsoft Teams no console de administração
 
@@ -74,7 +74,7 @@ Depois que um tipo de modelo base é definido, você pode estender ou substituir
 | Tipo de modelo base | baseTemplateId | Propriedades que vêm com este modelo base |
 | ------------------ |----|----------------------------------------------------- |
 | Adotar o Office 365 |`com.microsoft.teams.template.AdoptOffice365`|  Canais <ul><li>Geral</li> <li>Comunicados</li> <li>Canto dos Campeões</li> <li>Formulários de equipe</li></ul> Aplicativo <ul><li>Wiki</li>  <li>Calendário</li> |
-| Gerenciar um projeto |`com.microsoft.teams.template.ManageAnEvent`| Canais <ul><li>Geral</li> <li>Comunicados</li> <li>Recursos</li> <li>Planejamento</li></ul> Aplicativo<ul><li>Wiki</li><li>OneNote</li></ul> |
+| Gerenciar um projeto |`com.microsoft.teams.template.ManageAProject`| Canais <ul><li>Geral</li> <li>Comunicados</li> <li>Recursos</li> <li>Planejamento</li></ul> Aplicativo<ul><li>Wiki</li><li>OneNote</li></ul> |
 | Gerenciar um evento|`com.microsoft.teams.template.ManageAnEvent` | Canais <ul><li>Geral</li> <li>Comunicados</li> <li>Orçamento</li> <li>Conteúdo</li><li>Logística</li> <li>Planejamento</li> <li> Marketing e PR</li></ul> Aplicativo<ul><li>Wiki</li><li>Site</li> <li>YouTube</li> <li>Planner</li> <li>OneNote</li></ul> |
 |Funcionários onboard|`com.microsoft.teams.template.OnboardEmployees` | Canais <ul><li>Geral</li> <li>Comunicados</li> <li>Chat de funcionários</li> <li>Treinamento</li></ul>Aplicativo<ul><li>Wiki</li><li>Às</li></ul>|
 |Organizar o Help Desk| `com.microsoft.teams.template.OrganizeHelpDesk`|Canais<ul><li>Geral</li><li>Comunicados</li><li>Perguntas frequentes</li></ul>Aplicativo<ul><li>Wiki</li><li>OneNote</li></ul> |
