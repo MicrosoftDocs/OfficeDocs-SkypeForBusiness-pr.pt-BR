@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d377b18080d9208529b9c6196cd3879bd03a011f
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: c7ad1c83a09a17fb45adae149272177c8d42d17e
+ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46584000"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48177331"
 ---
 # <a name="apps-bots--connectors-in-microsoft-teams"></a>Aplicativos, bots e conectores no Microsoft Teams
 
@@ -45,9 +45,9 @@ Estas são as configurações de aplicativos que a maioria das organizações de
 
 O Teams oferece vários aplicativos publicados pela Microsoft e por terceiros para envolver usuários, dar apoio à produtividade e integrar serviços empresariais normalmente usados no Teams. Obtenha aplicativos na Teams Store. Por padrão, todos os aplicativos, incluindo aplicativos personalizados enviados por meio do[processo de aprovação do Teams Store](https://docs.microsoft.com/microsoftteams/platform/publishing/apps-publish#microsoft-teams-app-approval-process), são ativados para todos os usuários.  Por exemplo, os usuários podem usar o aplicativo do Planner para criar e gerenciar tarefas de equipe no Teams.
 
-Por padrão, todos os aplicativos personalizados e fornecidos pela Microsoft estão disponíveis, e é possível ativar ou desativar aplicativos individualmente. Há uma configuração de toda a organização que permite ativar ou desativar aplicativos personalizados para toda a sua organização.
+Por padrão, todos os aplicativos fornecidos por terceiros, aprovados pela Microsoft e personalizados estão disponíveis, e é possível ativar ou desativar aplicativos individualmente. Existem configurações de toda a organização que permitem ativar ou desativar aplicativos terceirizados e/ou personalizados para toda a sua organização.
 
-| Pergunte-se | Ação |
+| Pergunte a si mesmo | Ação |
 |--------------|--------|
 |Vai alterar as configurações padrão dos aplicativos Teams? | Para mais informações sobre políticas e configurações que podem ser usadas no gerenciamento de aplicativos da sua organização, confira as[Configurações de Administrador para aplicativos no Microsoft Teams](admin-settings.md).|
 |||

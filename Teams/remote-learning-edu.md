@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b264d55c023829cec3d91f3d975f2328a6089c72
-ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
+ms.openlocfilehash: 38b600a259da1d067cc0a2553f1f99800ef9edf3
+ms.sourcegitcommit: af9f96010460f9323db84912fe143aa0750ac798
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47820595"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "48171105"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>Introdução ao Microsoft Teams para aprendizado remoto
 
@@ -87,7 +87,7 @@ Para obter instruções sobre como criar no Teams, confira: [criar uma equipe de
 ### <a name="2-configure-user-experiences-using-policies"></a>2. Configurar experiências de usuário usando políticas
 
 > [!IMPORTANT]
-> Se precisar aprender mais sobre como proteger os alunos durante as reuniões, confira a seção [Como manter os alunos seguros ao usar reuniões no Teams para aprendizado à distância](https://support.office.com/article/f00fa399-0473-4d31-ab72-644c137e11c8). Se quiser se aprofundar em nossas recomendações de política para Administradores EDU, acesse [Políticas do Teams e Pacotes de Políticas para Educação](policy-packages-edu.md).
+> Para saber mais sobre as ações que você deve seguir para proteger os alunos, confira o [Mantendo os alunos seguros no aprendizado à distância](https://support.office.com/article/f00fa399-0473-4d31-ab72-644c137e11c8). Se quiser se aprofundar em nossas recomendações de política para Administradores EDU, acesse [Políticas do Teams e Pacotes de Políticas para Educação](policy-packages-edu.md).
 
 [As políticas do Teams](teams-policies.md) oferecem a capacidade de controlar as opções disponíveis para usuários específicos ou grupos de usuários. As políticas podem ser aplicadas para definir quem deve ter permissão para usar o chat privado, chamadas particulares, agendamento de reuniões, tipos de conteúdo que podem ser compartilhados e muito mais.
 
