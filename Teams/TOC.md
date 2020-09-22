@@ -85,7 +85,6 @@
 ### [Atribuir políticas a seus usuários](assign-policies.md)
 ### [Exibir suas tarefas de política no log de Atividades](activity-log.md)
 ### [Gerenciar políticas de permissões de aplicativo no Teams](teams-app-permission-policies.md)
-### [Bloquear o acesso ao SharePoint para usuários específicos](block-access-sharepoint.md)
 ### [Gerenciar políticas de configuração de aplicativo no Teams](teams-app-setup-policies.md)
 ### [Gerenciar políticas de aplicativo personalizado e as configurações no Teams](teams-custom-app-policies-and-settings.md)
 ### [Gerenciar políticas de comentários no Teams](manage-feedback-policies-in-teams.md)
@@ -733,7 +732,12 @@
 #### [Pesquisar eventos no log de auditoria](audit-log-events.md)
 ## Privacidade
 ### [Privacidade e Microsoft Teams](teams-privacy.md)
+### [Práticas de coleta de dados](data-collection-practices.md)
 ### [Localização dos dados no Teams](location-of-data-in-teams.md)
+### [Bloquear o acesso ao SharePoint Online para usuários específicos](block-access-sharepoint.md)
+### [Visão geral do controle de políticas](policy-control-overview.md)
+### [Dados de diagnóstico móveis](policy-control-diagnostic-data-mobile.md)
+### [Dados de diagnóstico do cliente da área de trabalho](policy-control-diagnostic-data-desktop.md)
 
 <!-- ============================================================ -->
 # Monitorar, manter e solucionar problemas
@@ -780,8 +784,6 @@
 # Referência
 
 ## [Especificações e limites do Teams](limits-specifications-teams.md)
-## [Localização dos dados no Teams](location-of-data-in-teams.md)
-## [Práticas de coleta de dados](data-collection-practices.md)
 
 ## Prepare-se para implementar o Teams
 ### [Preparo da rede da sua organização para o Teams](prepare-network.md)
