@@ -8,22 +8,22 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.AssociateAvMcuWithFrontEndPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5a436e41-c902-4968-8d6e-8e7c0adf9f40
-description: Todos os pools de front-end do Enterprise Edition com a conferência habilitada devem ter um serviço de conferência A/V posicionado ou devem usar um pool autônomo de conferência A/V. Todos os pools front-ends Enterprise Edition existentes que têm um serviço de conferência A/V posicionado no momento podem ser selecionados para usar esse novo pool autônomo de conferência A/V em vez disso.
-ms.openlocfilehash: 3344d256977d1031aa170cc17edec4d9d998e2bf
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Todos os pools de Front-Ends Enterprise Edition com Conferência habilitada devem possuir um serviço de Conferência A/V colocado ou devem usar um pool de Conferência A/V autônomo. Quaisquer pools de Front-Ends Enterprise Edition existentes que possuem um serviço de Conferência A/V colocado podem ser selecionados para, no lugar destes, utilizar este novo pool de Conferência A/V autônomo.
+ms.openlocfilehash: b7f3a856096388d03ddf7f1669576eedfabaa718
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41820453"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48216802"
 ---
 # <a name="associate-av-mcu-with-front-end"></a>Associar AV MCU com Front End
  
-Todos os pools de front-end do Enterprise Edition com a conferência habilitada devem ter um serviço de conferência A/V posicionado ou devem usar um pool autônomo de conferência A/V. Todos os pools front-ends Enterprise Edition existentes que têm um serviço de conferência A/V posicionado no momento podem ser selecionados para usar esse novo pool autônomo de conferência A/V em vez disso.
+Todos os pools de Front-Ends Enterprise Edition com Conferência habilitada devem possuir um serviço de Conferência A/V colocado ou devem usar um pool de Conferência A/V autônomo. Quaisquer pools de Front-Ends Enterprise Edition existentes que possuem um serviço de Conferência A/V colocado podem ser selecionados para, no lugar destes, utilizar este novo pool de Conferência A/V autônomo.
   
 

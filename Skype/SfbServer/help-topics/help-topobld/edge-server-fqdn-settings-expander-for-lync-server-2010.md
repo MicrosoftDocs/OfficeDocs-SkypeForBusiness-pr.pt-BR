@@ -8,43 +8,43 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.EdgeFqdnsSettingsExpander2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eb57268c-2419-4655-ace1-91cf871f25c7
-description: 'Para definir as propriedades em configurações externas, configure o seguinte:'
-ms.openlocfilehash: 95e55625ec698d8762832e812a79547daf4d2bcf
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Para definir as propriedades em Configurações externas, configure o seguinte:'
+ms.openlocfilehash: 2de4b562d5b6a8b8ef9707d603fe5f4667893ba4
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41820053"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48218242"
 ---
 # <a name="edge-server-fqdn-settings-expander-for-lync-server-2010"></a>Expansor de Configurações FQDN de Servidor de Borda para Lync Server 2010
  
-Para definir as propriedades em **configurações externas**, configure o seguinte:
+Para definir as propriedades em **Configurações externas**, configure o seguinte:
   
-Marque a caixa de seleção **habilitar FQDN e endereço IP separados para Webconferência e A/V,** se você quiser definir endereços IP e FQDN de pool distintos para Webconferência e áudio/vídeo.
+Marque a caixa de seleção **Habilitar FQDN e endereço IP separados para webconferência e A/V** se quiser definir FQDN de Pool e endereços IP distintos para webconferência e áudio/vídeo.
   
 > [!NOTE]
-> Se você optar por não marcar a caixa de seleção para endereços IP e FQDN separados, será necessário fornecer portas distintas para cada um dos três serviços fornecidos pelo servidor de borda. O único nome de domínio totalmente qualificado que é configurado é o FQDN associado ao serviço de borda de acesso. 
+> Se você optar por não marcar a caixa de seleção para endereços IP e FQDN separados, deverá fornecer portas distintas para cada um dos três serviços fornecidos pelo servidor de borda. O único nome de domínio totalmente qualificado que é configurado é o FQDN associado ao serviço de borda de acesso. 
   
-Marque a caixa de seleção o **serviço de borda a/v está habilitado para NAT** se você quiser que o serviço de borda a/v Use um endereço IP e uma configuração de NAT (conversão de endereços de rede).
+Marque a caixa de seleção **serviço de borda a/v habilitado para NAT** se quiser que o serviço de borda a/v Use um endereço IP de conversão de endereços de rede (NAT) e configuração.
   
-Para os serviços de borda habilitados, digite um **FQDN do pool** e uma porta em **portas**
+Para os serviços de Borda habilitados, digite um **FQDN de Pool** e uma porta em **Portas**
   
-- Defina o FQDN do pool de **serviços de borda de acesso** e uma porta que identifique exclusivamente o serviço.
+- Defina o FQDN do Pool dos **Serviços de Borda de Acesso** e uma porta que identifique exclusivamente o serviço.
     
-- Defina o FQDN do pool de **serviços de borda de Webconferência** (se habilitar o FQDN e o endereço IP separados para Webconferência e a/V não estiver selecionado) e uma porta que identifique exclusivamente o serviço.
+- Defina o FQDN do Pool do **Serviço de Borda de Webconferência** (se Habilitar FQDN e endereço IP separados para webconferência e A/V não estiver selecionado) e uma porta que identifique exclusivamente o serviço
     
-- Defina o FQDN do pool de **serviços de borda a/V** (se habilitar FQDN e o endereço IP separados para Webconferência e a/V não estiver selecionado) e uma porta que identifique exclusivamente o serviço.
+- Defina o FQDN do Pool do **Serviço de Borda de A/V** (se Habilitar FQDN e endereço IP separados para webconferência e A/V não estiver selecionado) e uma porta que identifique exclusivamente o serviço
     
-  **OK** Aceita e confirma as alterações na caixa de diálogo.
+  **OK** aceita e confirma as alterações na caixa de diálogo.
   
-  **Cancelar** Descarta as alterações e fecha a caixa de diálogo.
+  **Cancelar** descarta as alterações e fecha a caixa de diálogo.
   
-  **Ajuda** Exibe essa tela de ajuda.
+  **Ajuda** exibe essa tela de ajuda.
   
 

@@ -8,25 +8,25 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.RemoveDeploymentStartPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8659fefa-97f1-4d4a-9628-5c6dae86b244
-description: Execute o assistente para remover implantação apenas se desejar descomissionar toda a implantação. Este assistente cria uma topologia vazia que consiste em um único servidor front-end. Depois de executar esse assistente e publicar a topologia vazia, você não poderá reverter para a sua topologia original.
-ms.openlocfilehash: 6b9bce53e9836a3b19bf5b78d3bf43f4924ba589
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Só execute o  Assistente para Remover Implantação  se quiser desprogramar toda a implantação. Esse assistente cria uma topologia vazia que consiste em um único Servidor Front-End. Depois de executar esse assistente e de publicar a topologia vazia, não será possível reverter para a topologia original.
+ms.openlocfilehash: 03e35836f8d01ce6356f021e334ba612bbd65491
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41819313"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48217132"
 ---
 # <a name="remove-deployment-introduction"></a>Introdução de Remoção de Implantação
  
-Execute o **Assistente para remover implantação** apenas se desejar descomissionar toda a implantação. Este assistente cria uma topologia vazia que consiste em um único servidor front-end. Depois de executar esse assistente e publicar a topologia vazia, você não poderá reverter para a sua topologia original.
+Só execute o  **Assistente para Remover Implantação ** se quiser desprogramar toda a implantação. Esse assistente cria uma topologia vazia que consiste em um único Servidor Front-End. Depois de executar esse assistente e de publicar a topologia vazia, não será possível reverter para a topologia original.
   
 > [!IMPORTANT]
-> Antes de clicar em **Avançar**, certifique-se de remover todos os computadores inativos, desabilitar todos os usuários e pontos de extremidade da comunicação unificada e remover todos os diretórios de conferência conforme especificado na primeira página do assistente. 
+> Antes de clicar em  **Próximo ** remova quaisquer computadores inativos, desative todos os usuários e pontos de extremidades de comunicações unificas e remova todos os diretórios de conferências, como especificado na primeira página do assistente. 
   
 

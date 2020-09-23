@@ -8,48 +8,48 @@ ms.date: 8/10/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.RootScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d190f1f0-7741-432a-84ac-9530bb00abef
-description: 'O nó do Lync Server lista os sites centrais na sua topologia. Você pode executar as seguintes ações:'
-ms.openlocfilehash: c30dbe502810eaa0f9c6ecdcaae2c0fdb04bb672
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'O nó do Lync Server lista os sites centrais em sua topologia. É possível executar as seguintes ações:'
+ms.openlocfilehash: 85a9543c27faab8d994e2ac2727bf8e328554682
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41819223"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48217702"
 ---
 # <a name="skype-for-business-server-root-scope-node"></a>Nó de Escopo Raiz do Skype for Business Server
  
-O nó do **Lync Server** lista os sites centrais na sua topologia. É possível executar as seguintes ações:
+O nó do **Lync Server** lista os sites centrais em sua topologia. É possível executar as seguintes ações:
   
-- **Novo Site Central**. Inicia o assistente Definir Novo Site Central, que você usa para adicionar um novo site central à topologia.
+- **Novo Site Central **. Iniciar o assistente Definir Novo Site Central, que você usa para adicionar um novo site central à topologia.
     
-- **Editar Propriedades**. Permite que você edite configurações que afetam toda a sua topologia, como domínios SIP (Session Initiation Protocol) e URLs simples compatíveis.
+- **Editar Propriedades **. Permite que você edite configurações que afetam toda a sua topologia, como domínios SIP (Session Initiation Protocol) suportados e URLs simples.
     
-- **Nova Topologia**. Permite que você comece a criar uma nova topologia para sua implantação. Essa opção é útil quando você está planejando sua implantação, antes de instalar seus servidores. Não clique nessa opção caso já tenha utilizado sua topologia atual para instalar sua implantação.
+- **Nova Topologia**. Permite que você comece a criar uma nova topologia para sua implantação. Esta opção é útil quando você está planejando sua implantação, antes de ter instalado seus servidores. Não clique nesta opção caso já tenha utilizado sua topologia atual para instalar sua implantação.
     
-- **Abrir Topologia**. Abre um arquivo de topologia que você tenha salvo.
+- **Abrir Topologia **. Abre um arquivo de topologia que você tenha salvo.
     
-- **Baixar Topologia**. Carrega sua topologia atual implantada do Repositório de Gerenciamento Central. Caso já tenha definido uma topologia e estabelecido o Repositório de Gerenciamento Central, você deve sempre escolher essa opção para carregar sua topologia.
+- **Baixar Topologia **. Carrega sua topologia implantada atualmente do repositório de Gerenciamento Central. Caso já tenha definido uma topologia e estabelecido o repositório de Gerenciamento Central, você deve sempre escolher essa opção para carregar sua topologia.
     
-- **Salvar uma cópia da Topologia como**. Salva a topologia atual em um arquivo que você pode carregar novamente mais tarde no construtor de topologias.
+- **Salvar uma Cópia da Topologia Como **. Salva a topologia atual em um arquivo que você pode carregar novamente mais tarde no construtor de topologia.
     
-- **Publicar Topologia**. Use essa opção para publicar a topologia no Repositório de Gerenciamento Central e começar a implantar seus servidores.
+- **Publicar Topologia **. Utilize esta opção para publicar essa topologia ao repositório de Gerenciamento Central, para que você possa então começar a implantar seus servidores.
     
-- **Instalar Banco de Dados**. Permite que você crie os bancos de dados necessários para sua implantação.
+- **Instalar Banco de Dados **. Permite que você crie os bancos de dados necessários para sua implantação.
     
-- **Mesclar Topologia do Office Communications Server 2007 R2**. Inicia o assistente de Mesclagem do Construtor de Topologias. Essa ferramenta coleta informações sobre o ambiente anterior do Office Communications Server, incluindo as informações do servidor de borda, e publica essas informações em um banco de dados compartilhado. 
+- **Mesclar Topologia do Office Communications Server 2007 R2**. Inicia o assistente Mescla de Construtor de Topologia. Esta ferramenta coleta informações sobre seu ambiente anterior do Office Communications Server, incluindo informações do servidor de borda e publica essas informações em um banco de dados compartilhado. 
     
-- **Remover Implantação**. Inicia o assistente para Remover Implantação, que permite que você comece a remover toda a sua implantação.
+- **Remover Implantação **. Inicia o assistente para remover implantação, que permite que você comece a remover toda a sua implantação.
     
-Além dessas opções, você pode realizar as seguintes tarefas gerais:
+Além destas opções você pode realizar as seguintes tarefas gerais:
   
-- **Exibir**. Você pode usar essa opção para personalizar o modo de exibição no Construtor de Topologias selecionando os itens para mostrar ou ocultar nos modos de exibição da árvore de comando.
+- **Visualização **. Você pode usar esta opção para personalizar a visualização no Construtor de Topologia selecionando os itens que serão exibidos ou escondidos na visão de árvore de comando.
     
-- **Ajuda**. Você pode usar essa opção para acessar a Ajuda do nó ativo.
+- **Ajuda **. Você pode usar esta opção para acessar a Ajuda para o nó ativo.
     
 

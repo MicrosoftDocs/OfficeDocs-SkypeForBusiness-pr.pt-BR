@@ -8,7 +8,8 @@ ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
-f1.keywords: ''
+f1.keywords:
+- NOCSH
 ms.collection:
 - M365-voice
 appliesto:
@@ -16,12 +17,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba como criar e gerenciar políticas de roteamento de voz no Microsoft Teams.
-ms.openlocfilehash: e3dc656043776d3a2f0e5b37a0c35ab98b7c03f7
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
+ms.openlocfilehash: 2bef422f22dc212b2c615e2ca2ab98806b396e9f
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44938120"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48217652"
 ---
 # <a name="manage-voice-routing-policies-in-microsoft-teams"></a>Gerenciar políticas de roteamento de voz no Microsoft Teams
 
@@ -38,7 +39,7 @@ Você pode usar a política global (padrão para toda a organização) ou criar 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Usando o centro de administração do Microsoft Teams
 
 1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para políticas de roteamento de voz de **voz**  >  **Voice routing policies**e clique em **Adicionar**.<br>
-    ![Captura de tela da página Adicionar política de roteamento de voz no centro de administração do Microsoft Teams](media/manage-voice-routing-policies.png) 
+    ![Captura de tela da página Adicionar política de roteamento de voz no centro de administração do Microsoft Teams ](media/manage-voice-routing-policies.png) 
 2. Insira um nome e uma descrição para a política.
 3. Em **registros de uso de PSTN**, clique em **Adicionar uso PSTN**e, em seguida, selecione os registros que você deseja adicionar. Se você precisar criar um novo registro de uso PSTN, clique em **Adicionar**.
 4. Se você adicionou vários registros de uso de PSTN, organize-os na ordem desejada.

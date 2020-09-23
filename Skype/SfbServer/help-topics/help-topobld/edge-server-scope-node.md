@@ -8,23 +8,23 @@ ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.EdgeServerScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3f597f6f-c55c-4290-a1cf-3efcc0adfb99
-description: 'Este nó mostra a configuração do nome de domínio totalmente qualificado do pool (FQDN) e outras configurações básicas para esse pool de Borda. É possível executar as seguintes ações:'
-ms.openlocfilehash: d96f3ee328ae60b95ad1bbdca2a9d1b517a5357c
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Esse nó mostra a configuração do nome de domínio totalmente qualificado do pool (FQDN) e outras configurações básicas para esse pool de Borda. É possível executar as seguintes ações:'
+ms.openlocfilehash: 57f0be0c525dbecf12f786d5863dfc99622bb4d2
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41820033"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48218192"
 ---
 # <a name="edge-server-scope-node"></a>Nó de Escopo de Servidor de Borda
  
-Este nó mostra a configuração do nome de domínio totalmente qualificado do pool (FQDN) e outras configurações básicas para esse pool de Borda. É possível executar as seguintes ações:
+Esse nó mostra a configuração do nome de domínio totalmente qualificado do pool (FQDN) e outras configurações básicas para esse pool de Borda. É possível executar as seguintes ações:
   
 - **Novo Servidor**. Inicia o assistente **Definir Novo Servidor**, que pode ser usado para adicionar outro Servidor de Borda a esse pool.
     
@@ -32,12 +32,12 @@ Este nó mostra a configuração do nome de domínio totalmente qualificado do p
     
 - **Excluir**. Exclui o pool da topologia.
     
-Além dessas opções, você pode realizar as seguintes tarefas gerais:
+Além das opções, é possível executar as seguintes tarefas gerais:
   
-- **Topologia**. É possível usar essa opção para definir uma nova topologia, abrir uma topologia existente, baixar a topologia atual, salvar uma cópia da topologia, publicar a topologia, instalar um banco de dados, mesclar os componentes ou remover a implantação.
+- **Topologia**. Você pode usar essa opção para definir uma nova topologia, abrir uma topologia existente, baixar a topologia atual, salvar uma cópia da topologia, publicar a topologia, instalar um banco de dados, mesclar componentes ou remover a implantação.
     
-- **Exibir**. Você pode usar essa opção para personalizar o modo de exibição no Construtor de Topologias selecionando os itens para mostrar ou ocultar nos modos de exibição da árvore de console.
+- **Visualização**. Você pode usar esta opção para personalizar a visualização no Construtor de Topologia selecionando os itens que serão exibidos ou escondidos na visão de árvore de comando..
     
-- **Ajuda**. Você pode usar essa opção para acessar a Ajuda do nó ativo.
+- **Ajuda**. Você pode usar esta opção para acessar a Ajuda para o nó ativo.
     
 

@@ -19,12 +19,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 1d206edc7011c8926d32e4a37650d97f80740d1d
-ms.sourcegitcommit: af9f96010460f9323db84912fe143aa0750ac798
+ms.openlocfilehash: e75d7c73393fe57f7ae3eaf8611ef3a3311386d8
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "48171095"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48218572"
 ---
 # <a name="get-started-with-teams-templates-in-the-admin-console"></a>Introdução aos modelos do Microsoft Teams no console de administração
 
@@ -37,7 +37,7 @@ ms.locfileid: "48171095"
 
 Os modelos de equipe são definições predefinidas da estrutura de uma equipe projetada em torno de uma necessidade ou projeto comercial. Use modelos predefinidos ou crie seu próprio modelo. Os modelos de equipe permitem que você crie rapidamente espaços de colaboração avançados com canais para diferentes tópicos e aplicativos pré-instalar para obter conteúdo e serviços de missão crítica. Os modelos de equipe fornecem uma estrutura de equipe predefinida que pode ajudá-lo a criar facilmente equipes consistentes em toda a sua organização. No momento, você pode criar uma equipe a partir de um modelo no Teams ou usando [o Microsoft Graph](get-started-with-teams-templates.md).
 
-Neste artigo, explicaremos as propriedades que podem ser definidas nos modelos, quais tipos de modelo básico são e como você pode usar algumas solicitações de exemplo para criar uma equipe a partir de um modelo.
+Neste artigo, explicaremos as propriedades que podem ser definidas em modelos, quais tipos de modelo básico são e como você pode usar algumas solicitações de exemplos para criar uma equipe a partir de um modelo.
 
 Este artigo é para você, se estiver:
 
@@ -88,7 +88,7 @@ Depois que um tipo de modelo base é definido, você pode estender ou substituir
 |Colaboração do gerente de varejo| `retailManagerCollaboration` |Canais <ul><li>Geral<li>Operações</li><li>Aprendizagem</li></ul> Aplicativo <ul><li>Wiki</li></ul>|
 ||||
 
-Para obter mais detalhes sobre as categorias de modelo, consulte o seguinte:
+Para obter mais detalhes sobre as categorias de modelo, consulte as seguintes categorias:
 
 - [Modelos financeiros](financial-teams-templates-in-the-admin-console.md)
 - [Modelos gerais](general-teams-templates-in-the-admin-console.md)

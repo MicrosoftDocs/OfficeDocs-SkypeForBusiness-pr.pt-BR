@@ -8,32 +8,32 @@ ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.EdgeServersScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0d49587e-5079-4fe0-a9b9-fb0853811fca
-description: 'O nó de Pools de Borda lista os pools de Borda de sua topologia. Você pode executar as seguintes ações:'
-ms.openlocfilehash: ae6cc28e414d2cea853f1e920a6cc51c25125942
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'O nó Pools de Borda lista os pools de Borda da sua topologia. Você pode executar as seguintes ações:'
+ms.openlocfilehash: d5bc14f7222aa4cd682869754d962ec154c54957
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41820023"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48218162"
 ---
 # <a name="edge-servers-scope-node"></a>Nó de Escopo de Servidores de Borda
  
-O nó de **Pools de Borda** lista os pools de Borda de sua topologia. É possível executar a seguinte ação:
+O nó **Pools de Borda** lista os pools de Borda da sua topologia. É possível realizar a seguinte ação:
   
-- **Novo Pool de Borda**. Inicia o assistente **Definir Novo Pool de Borda**, usado para adicionar um novo pool de Borda à topologia.
+- **Novo Pool de Borda**. Inicia o assistente para **Definir Novo Pool de Borda** que você pode usar para adicionar um novo pool de Borda à topologia.
     
-Além das opções do pool de Borda, é possível executar as seguintes tarefas gerais:
+Além das opções de pool de Borda, você pode executar as seguintes tarefas gerais:
   
-- **Topologia**. Você pode usar essa opção para definir uma nova topologia, abrir uma topologia existente, baixar a topologia atual, salvar uma cópia ou publicar a topologia, instalar um banco de dados, mesclar componentes de versões anteriores ou remover a implantação.
+- **Topologia**. Você pode usar essa opção para definir uma nova topologia, abrir uma topologia existente, baixar a topologia atual, salvar uma cópia da topologia, publicar a topologia, instalar um banco de dados, mesclar componentes de versões anteriores ou remover a implantação.
     
-- **Exibir**. Você pode usar essa opção para personalizar o modo de exibição no Construtor de Topologias selecionando os itens para mostrar ou ocultar nos modos de exibição da árvore de console.
+- **Visualização**. Você pode usar esta opção para personalizar a visualização no Construtor de Topologia selecionando os itens que serão exibidos ou escondidos na visão de árvore de comando..
     
-- **Ajuda**. Você pode usar essa opção para acessar a Ajuda do nó ativo.
+- **Ajuda**. Você pode usar esta opção para acessar a Ajuda para o nó ativo.
     
 

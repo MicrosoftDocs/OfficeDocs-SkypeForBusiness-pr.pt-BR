@@ -8,52 +8,52 @@ ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.AddPersistentChatBackupSqlStorePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 106698e4-ce73-4a34-8fc7-e9d3208a17dc
-description: Você configura as lojas de backup do SQL Server que fornecerão bancos de dados de backup para o servidor de chat persistente ou o pool de servidor de chat persistente.
-ms.openlocfilehash: 0f8fe19d95adff9e2ac538600f3dcf5153c25afd
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Você configura os repositórios de backup do SQL Server que fornecerão bancos de dados de backup para o servidor de chat persistente ou o pool de servidor de chat persistente.
+ms.openlocfilehash: 70eec229c567120d0669979f688c152e1b1e3d79
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41820703"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48218702"
 ---
 # <a name="add-persistent-chat-backup-sql-server-store"></a>Adicionar Repositório de SQL Server de Backup de Chat Persistente
  
-Você configura as lojas de backup do SQL Server que fornecerão bancos de dados de backup para o servidor de chat persistente ou o pool de servidor de chat persistente.
+Você configura os repositórios de backup do SQL Server que fornecerão bancos de dados de backup para o servidor de chat persistente ou o pool de servidor de chat persistente.
   
  **Repositório do SQL Server**: selecione um SQL Server existente e, opcionalmente, uma instância para o chat persistente.
   
 Clique em **novo** para definir um novo SQL Server e, opcionalmente, uma nova instância para os dados de backup de chat persistente.
   
-Marque a caixa de seleção **habilitar o espelhamento da loja do SQL Server** para configurar um banco de dados do SQL Server e uma instância opcional que fornecerá um banco de dados espelhado para os dados de backup de chat persistente.
+Marque a caixa de seleção **habilitar espelhamento do SQL Server Store** para configurar um banco de dados do SQL Server e uma instância opcional que fornecerá um banco de dados espelhado para os dados de backup de chat persistente.
   
-Selecione na lista **espelhar SQL Server Store** uma instância do SQL Server e opcional para atuar como o espelho do SQL Server do SQL Server de backup de chat persistente.
+Selecione na lista **espelhamento do SQL Server Store** um SQL Server e uma instância opcional para atuar como o espelho do SQL Server para o SQL Server de backup de chat persistente.
   
-Clique em **novo** para definir um novo SQL Server e, opcionalmente, uma nova instância para o espelhamento de chat persistente do SQL Server.
+Clique em **novo** para definir um novo SQL Server e, opcionalmente, uma nova instância para o espelhamento do SQL Server do chat persistente.
   
-Na lista **Usar testemunha de espelhamento do SQL Server para habilitar o failover automático**, selecione um SQL Server que atuará como o servidor testemunha em cenários de failover. O servidor testemunha não espelha ou hospeda dados para os servidores de chat persistentes, mas garante que apenas um SQL Server em uma configuração espelhada seja o SQL Server ativo a qualquer momento.
+Selecione na lista **Usar testemunha de espelhamento do SQL Server para habilitar o failover automático** um SQL Server que agirá como o servidor testemunha em cenários de failover. O servidor testemunha não espelha ou hospeda dados para os servidores de chat persistente, mas garante que apenas um SQL Server em uma configuração espelhada seja o SQL Server ativo a qualquer momento.
   
-Clique em **novo** para definir um novo SQL Server testemunha opcionalmente uma instância para a testemunha de espelhamento do SQL Server de backup persistente do chat.
+Clique em **novo** para definir uma nova testemunha do SQL Server, opcionalmente, uma instância para a testemunha de espelhamento do SQL Server de backup de chat persistente.
   
 Clique em **Voltar** para voltar à caixa de diálogo de definição anterior.
   
-Clique em **Avançar** depois de terminar de inserir as opções para a configuração do SQL Server Store de backup do pool e para continuar com a definição do pool de servidores de chat persistente.
+Clique em **Avançar** depois de inserir as opções para a configuração do SQL Server Store de backup desse pool e para prosseguir com a definição do pool do servidor de chat persistente.
   
 Clique em **Cancelar** para descartar todas as alterações e encerrar o assistente **Definir Novo Pool de Chat Persistente**.
   
-Clique em **Ajuda** para acessar a ajuda contextual, como esta página.
+Clique em **Ajuda** para acessar a ajuda sensível ao contexto, como esta página.
   
 ## <a name="see-also"></a>Confira também
 
-[Planejar Servidor de Chat Persistente no Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
+[Planejar o servidor de chat persistente no Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   
-[Server requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
+[Requisitos de servidor para o Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
   
-[Requisitos de hardware e software para Servidor de Chat Persistente no Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/hardware-and-software-requirements.md)
+[Requisitos de hardware e software para o servidor de chat persistente no Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/hardware-and-software-requirements.md)
   
-[Configurar a alta disponibilidade e a recuperação de desastres para o Servidor de Chat Persistente no Skype for Business Server 2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md)
+[Configurar alta disponibilidade e recuperação de desastre para servidor de chat persistente no Skype for Business Server 2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md)

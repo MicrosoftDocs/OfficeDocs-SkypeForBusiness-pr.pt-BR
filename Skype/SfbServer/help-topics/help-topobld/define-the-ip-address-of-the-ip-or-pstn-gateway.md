@@ -8,26 +8,26 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.AddPstnGatewayIPPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 319fdc9f-7ed6-4ed3-8f3f-b78758a0eb42
-description: Você define os endereços IPv4 ou IPv6 para o gateway PSTN (rede telefônica comutada) por IP ou por telefone (rede telefônica comutada) selecionando habilitar IPv4 ou habilitar o IPv6. Você pode escolher usar todos os endereços IP configurados ou limitar o uso do serviço para endereços IP selecionados.
-ms.openlocfilehash: 9446cd15aae74053993fa574f3879f61dc1d0190
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Defina os endereços IPv4 ou IPv6 para o IP ou gateway PSTN (rede telefônica pública comutada) selecionando Habilitar IPv4 ou Habilitar IPv6. É possível escolher  Usar todos os endereços IP configurados ou Limitar o uso do serviço para endereços IP selecionados.
+ms.openlocfilehash: e8e3635fbe232b2b58f0f4ba0fc47a101ddc7085
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41820173"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48217732"
 ---
 # <a name="define-the-ip-address-of-the-ip-or-pstn-gateway"></a>Definir endereço IP do gateway PSTN ou IP
 
-Você define os endereços IPv4 ou IPv6 para o gateway PSTN (rede telefônica comutada) por IP ou por telefone (rede telefônica comutada) selecionando **habilitar IPv4** ou **habilitar o IPv6**. Você pode escolher **usar todos os endereços IP configurados** ou **limitar o uso do serviço para endereços IP selecionados**.
+Defina os endereços IPv4 ou IPv6 para o IP ou gateway PSTN (rede telefônica pública comutada) selecionando **Habilitar IPv4** ou **Habilitar IPv6**. É possível escolher  **Usar todos os endereços IP configurados** ou **Limitar o uso do serviço para endereços IP selecionados**.
 
-Se você selecionar **usar todos os endereços IP configurados**, todos os endereços configurados no gateway serão usados. Opcionalmente, selecione **limitar o uso do serviço para endereços IP selecionados**, que permite a entrada do **endereço IP PSTN** . Digite o endereço IPv4 ou IPv6 atribuído a esse gateway.
+Se você selecionar **Usar todos os endereços IP configurados**, todos os endereços configurados no gateway serão usados. Como opção, selecione **Limitar o uso do serviço aos endereços IP selecionados**, que permite a entrada **Endereço IP PSTN**. Digite o endereço IPv4 ou IPv6 atribuído para esse gateway.
 
 ## <a name="see-also"></a>Confira também
 
-[Requisitos para conferência discada](https://technet.microsoft.com/library/9aff949e-3dac-481a-be46-a180c72e8066.aspx)
+[Requisitos de conferência discada](https://technet.microsoft.com/library/9aff949e-3dac-481a-be46-a180c72e8066.aspx)

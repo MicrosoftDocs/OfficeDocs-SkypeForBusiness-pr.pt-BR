@@ -1,5 +1,5 @@
 ---
-title: Adicionar PSTN de Aparelho de Filial Persistente
+title: Adicionar Aparelho PSTN a Filial Persistente
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -8,37 +8,37 @@ ms.date: 3/26/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.AddBranchOfficeAppliancePstnPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7c55a43d-2589-48f9-972b-1e48a3dca52a
-description: 'Para definir o gateway PSTN (rede telefônica pública comutada) para um aparelho de ramificação sobreviventes em um site de filial, especifique o seguinte:'
-ms.openlocfilehash: a20c2d4296b7e262cf73ef89b4c20c54eaa3ad0e
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Para definir o gateway da rede telefônica pública comutada (PSTN) para um Aparelho de Filial Persistente de um local de filial, especifique o seguinte:'
+ms.openlocfilehash: 477aa014d6b4450dae3422e6893e7f7f0a48c703
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41820583"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48217072"
 ---
-# <a name="add-survivable-branch-appliance-pstn"></a>Adicionar PSTN de Aparelho de Filial Persistente
+# <a name="add-survivable-branch-appliance-pstn"></a>Adicionar Aparelho PSTN a Filial Persistente
  
-Para definir o gateway PSTN (rede telefônica pública comutada) para um aparelho de ramificação sobreviventes em um site de filial, especifique o seguinte: 
+Para definir o gateway da rede telefônica pública comutada (PSTN) para um Aparelho de Filial Persistente de um local de filial, especifique o seguinte: 
   
-- Um FQDN (nome de domínio totalmente qualificado) ou um endereço IP para o par de gateways ao qual o aplicativo de ramificação sobreviventes ou o servidor de ramificação sobreviventes está associado para chamadas PSTN de entrada e saída.
+- Um FQDN (nome de domínio totalmente qualificado) ou endereço IP para o par de gateway ao qual o Aparelho de Filial Persistente ou Servidor de Filial Persistente está associado, para roteamento de chamadas PSTN de entrada e saída.
     
     > [!IMPORTANT]
-    > Se você estiver definindo um aparelho de ramificação sobreviventes, esse é o gateway ao qual o servidor de mediação dentro da ramificação de ramificação sobreviventes se conectará para conectividade PSTN. 
+    > Se você está definindo um Aparelho de Filial Persistente, este é o gateway ao qual o Servidor de Mediação dentro do Aparelho de Filial Persistente se conectará para obter conectividade PSTN. 
   
-- A porta de escuta a ser usada para mensagens SIP (Session Initiation Protocol). Por padrão, as portas são a 5066 para protocolo TCP e 5067 para o protocolo TLS em um gateway, central privada de comutação telefônica (PBX) ou SBC (Session Border Controller). As portas padrão são a 5081 para TCP e 5082 para TLS em um Aparelho de Filial Persistente em um site de filial.
+- A porta de escuta a ser usada para mensagens SIP (Session Initiation Protocol). Por padrão, as portas são a 5066 para TCP (Transmission Control Protocol) e 5067 para TLS (Transport Layer Security) em um gateway, PBX (private branch exchange) ou SBC (Session Border Controller). As portas padrão são a 5081 para TCP e 5082 para TLS em um Aparelho de Filial Persistente em um site de filial.
     
-- Por motivos de segurança, recomendamos que você use o TLS. Se você estiver definindo um aparelho de ramificação sobreviventes, confira a documentação do fornecedor da sua agência de ramificação sobreviventes para verificar se o seu aparelho de ramificação sobreviventes é compatível com o protocolo TLS.
+- Recomendamos que utilize TLS por razões de segurança. Caso esteja definindo um Aparelho de Filial Persistente, consulte sua documentação do fornecedor do Aparelho de Filial Persistente para verificar se o seu Aparelho de Filial Persistente é compatível com protocolo TLS.
     
     > [!IMPORTANT]
     > Recomendamos, por motivos de segurança, que seja implantado um gateway que possa utilizar TLS. 
   
 > [!NOTE]
-> Caso deseje adicionar um gateway PSTN, você pode configurá-lo depois, porém a funcionalidade total será limitada até que o gateway PSTN seja definido e configurado. 
+> Caso deseje adicionar um gateway PSTN, você pode montá-lo mais tarde porém a funcionalidade total será limitada até que o gateway PSTN seja definido e configurado. 
   
 

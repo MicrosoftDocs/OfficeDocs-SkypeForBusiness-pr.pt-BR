@@ -8,24 +8,24 @@ ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.AssociateFrontEndWithEdgePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f09c9b3e-1f5f-4486-8113-e62c10cff138
-description: Cada pool de Front-Ends pode ter apenas um Servidor de Borda ou pool de Borda associado a ele. Ao habilitar o acesso de usuário externo para um site, você pode dar suporte a usuários remotos. Também é possível habilitar o suporte a usuários federados, o que pode incluir suporte a usuários de determinados provedores de conectividade a redes públicas de mensagens instantâneas (como Windows Live) e suporte a usuários anônimos.
-ms.openlocfilehash: 949c111c718e314455cd6603472ce1bbb1d7e11c
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Cada pool de Front-Ends pode ter apenas um Servidor de Borda ou pool de Borda associado a ele. Ao habilitar o acesso de usuário externo para um site, você pode dar suporte a usuários remotos. Você também pode habilitar o suporte a usuários federados, que podem incluir suporte para usuários de provedores de conectividade de mensagens instantâneas (como o Windows Live) específicos e suporte a usuários anônimos.
+ms.openlocfilehash: cc804ed9a21b81ce0315664bcb1b3530e8087584
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41820393"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48217752"
 ---
 # <a name="associate-front-end-with-edge"></a>Associar Front-End com Borda
 
-Cada pool de Front-Ends pode ter apenas um Servidor de Borda ou pool de Borda associado a ele. Ao habilitar o acesso de usuário externo para um site, você pode dar suporte a usuários remotos. Também é possível habilitar o suporte a usuários federados, o que pode incluir suporte a usuários de determinados provedores de conectividade a redes públicas de mensagens instantâneas (como Windows Live) e suporte a usuários anônimos.
+Cada pool de Front-Ends pode ter apenas um Servidor de Borda ou pool de Borda associado a ele. Ao habilitar o acesso de usuário externo para um site, você pode dar suporte a usuários remotos. Você também pode habilitar o suporte a usuários federados, que podem incluir suporte para usuários de provedores de conectividade de mensagens instantâneas (como o Windows Live) específicos e suporte a usuários anônimos.
 
-Todos os pools em um site e os pools de vários sites centrais podem utilizar o mesmo Servidor de Borda, se a utilização não exceder a capacidade do Servidor de Borda. Para obter detalhes sobre monitoramento, incluindo dimensionamento, consulte  [Planning for External User Access](https://technet.microsoft.com/library/ea098933-eff5-461e-aba3-e7f128784dc2.aspx) na documentação de Planejamento. Para obter detalhes sobre como projetar uma topologia para dar suporte ao acesso de usuário externo, consulte  [Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx) na documentação de Implantação.
+Todos os pools em um site e os pools de múltiplos sites centrais podem utilizar o mesmo Servidor de Borda, se a utilização não exceder a capacidade do Servidor de Borda. Para maiores detalhes sobre monitoramento, incluindo dimensionamento, consulte [Planning for External User Access](https://technet.microsoft.com/library/ea098933-eff5-461e-aba3-e7f128784dc2.aspx) na documentação de Planejamento. Para detalhes sobre como projetar uma topologia para suportar acesso de usuário externo, consulte [Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx) na documentação de Implantação.
 
 

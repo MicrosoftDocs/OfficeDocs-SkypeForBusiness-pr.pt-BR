@@ -8,37 +8,37 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.RegistrarSettingsExpander2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 17dcd75c-bd9a-407e-af9b-c61cb1201c07
-description: 'Edite as configurações para resiliência e configure as seguintes propriedades:'
-ms.openlocfilehash: adc3d3f0be42d542583cf269a7acf83d98df8dd7
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Edite as configurações para Resiliência e configure as seguintes propriedades:'
+ms.openlocfilehash: 4271203bf9f737034796cc3b74c95836480df521
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41819333"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48217172"
 ---
 # <a name="registrar-settings-expander-for-lync-server-for-2010"></a>Expansor de Configurações de Registrador para o Lync Server for 2010
  
-Edite as configurações para **resiliência** e configure as seguintes propriedades:
+Edite as configurações para **Resiliência** e configure as seguintes propriedades:
   
-- Selecione o **pool de registradores de backup associado** na lista.
+- Selecione **Pool associado de Registradores de backup** na lista.
     
-    Opcionalmente, marque a caixa de seleção **failover automático e failback para voz** .
+    Como opção, marque a caixa de seleção **Failover e failback automático para Voice**.
     
-    Configurar o **intervalo de detecção de falha de voz (s)** e o **intervalo de failback de voz (s)**. Por padrão, os intervalos são de 120 segundos para a detecção de falha de voz e 240 segundos para failback de voz.
+    Configure o **Intervalo de detecção de falha do Voice (seg.)** e o **Intervalo de failback do Voice (seg.)**. Por padrão, os intervalos são de 120 segundos para detecção de falha do Voice e 240 segundos para failback do Voice.
     
     > [!CAUTION]
-    > O número de segundos que você define para os intervalos de failover e failback deve ser testado cuidadosamente para garantir que a resiliência funcione conforme o esperado. Definir o intervalo como baixo (ou seja, menos de 120 segundos) ou o failover e o failback definidos com mais detalhes podem resultar no failover real e o failback não funcionando como esperado. 
+    > O número de segundos definido para os intervalos de failover e failback deve ser testado com cuidado a fim de assegurar que a resiliência funcione conforme o esperado. Configurar o intervalo de forma muito baixa (ou seja, menos de 120 segundos) ou o failover e failback definidos de forma muito próxima pode resultar no não funcionamento real e conforme o esperado do failover e do failback. 
   
-  **OK** Aceita e confirma as alterações na caixa de diálogo.
+  **OK** aceita e confirma as alterações na caixa de diálogo.
   
-  **Cancelar** Descarta as alterações e fecha a caixa de diálogo.
+  **Cancelar** descarta as alterações e fecha a caixa de diálogo.
   
-  **Ajuda** Exibe essa tela de ajuda.
+  **Ajuda** exibe essa tela de ajuda.
   
 
