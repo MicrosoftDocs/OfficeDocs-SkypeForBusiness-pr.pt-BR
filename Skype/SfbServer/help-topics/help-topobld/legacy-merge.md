@@ -8,26 +8,26 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.LegacyMergeAddPicPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 085fde15-e33a-4d95-8d06-4da1d5d7c770
-description: O FQDN externo da webconferência permite que usuários externos ingressem em reuniões locais. Digite o nome de domínio totalmente qualificado (FQDN) da interface externa da webconferência do servidor de borda herdado.
-ms.openlocfilehash: 19e508bdaaf44f64b3d907070d96a3691ce611c0
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: O FQDN externo de Webconferência permite que usuários externos ingressem em reuniões locais. Digite o FQDN (nome de domínio totalmente qualificado) da interface externa de Webconferência do Servidor de Borda herdado.
+ms.openlocfilehash: 984d40f8797a974a5865cca37ba1057dc638d886
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41819683"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48217992"
 ---
-# <a name="legacy-merge"></a><span data-ttu-id="a2a79-104">Mesclagem Herdada</span><span class="sxs-lookup"><span data-stu-id="a2a79-104">Legacy Merge</span></span>
+# <a name="legacy-merge"></a><span data-ttu-id="d5a2e-104">Mesclagem Herdada</span><span class="sxs-lookup"><span data-stu-id="d5a2e-104">Legacy Merge</span></span>
 
-<span data-ttu-id="a2a79-105">O **FQDN externo da webconferência** permite que usuários externos ingressem em reuniões locais.</span><span class="sxs-lookup"><span data-stu-id="a2a79-105">The **Web Conferencing external FQDN** permits external users to join on-premises meetings.</span></span> <span data-ttu-id="a2a79-106">Digite o nome de domínio totalmente qualificado (FQDN) da interface externa da webconferência do servidor de borda herdado.</span><span class="sxs-lookup"><span data-stu-id="a2a79-106">Enter the fully qualified domain name (FQDN) of the web conferencing external interface of the legacy Edge Server.</span></span>
+<span data-ttu-id="d5a2e-p102">O **FQDN externo de Webconferência** permite que usuários externos ingressem em reuniões locais. Digite o FQDN (nome de domínio totalmente qualificado) da interface externa de Webconferência do Servidor de Borda herdado.</span><span class="sxs-lookup"><span data-stu-id="d5a2e-p102">The **Web Conferencing external FQDN** permits external users to join on-premises meetings. Enter the fully qualified domain name (FQDN) of the web conferencing external interface of the legacy Edge Server.</span></span>
 
-<span data-ttu-id="a2a79-107">O valor da **porta externa da conferência da Web externa** do **443** é a porta do protocolo de controle de transmissão (TCP) de protocolo de controle de transmissão (SIP) padrão configurada para clientes de conferência.</span><span class="sxs-lookup"><span data-stu-id="a2a79-107">The **External Web Conferencing external port** value of **443** is the default Transmission Control Protocol (TCP) Session Initiation Protocol (SIP) port configured for conferencing clients.</span></span> <span data-ttu-id="a2a79-108">Se o valor padrão não for usado, atualize o valor de **porta externa da webconferência externa** .</span><span class="sxs-lookup"><span data-stu-id="a2a79-108">If the default value was not used, update the **External Web Conferencing external port** value.</span></span>
+<span data-ttu-id="d5a2e-p103">O valor de **Porta externa de Webconferência Externa** de **443** é a porta SIP (Session Initiation Protocol) TCP (Transmission Control Protocol) configurada para clientes de conferência. Caso o valor padrão não tenha sido usado, atualize o valor **Porta externa de Webconferência Externa**.</span><span class="sxs-lookup"><span data-stu-id="d5a2e-p103">The **External Web Conferencing external port** value of **443** is the default Transmission Control Protocol (TCP) Session Initiation Protocol (SIP) port configured for conferencing clients. If the default value was not used, update the **External Web Conferencing external port** value.</span></span>
 
-<span data-ttu-id="a2a79-109">Marque a caixa de seleção **este pool de bordas é usado para a Federação e conectividade de im pública** se você planeja usar esse servidor de borda para Federação.</span><span class="sxs-lookup"><span data-stu-id="a2a79-109">Select the **This Edge pool is used for federation and public IM connectivity** check box if you plan to use this Edge Server for federation.</span></span> <span data-ttu-id="a2a79-110">Se você tiver vários servidores de Borda implantados, apenas um deles será habilitado para Federação.</span><span class="sxs-lookup"><span data-stu-id="a2a79-110">If you have multiple Edge Servers deployed, only one of them will be enabled for federation.</span></span> <span data-ttu-id="a2a79-111">Se você não marcar esta caixa e decidir mais tarde de que deseja habilitar a Federação, você deve executar o assistente de mesclagem do construtor de topologia novamente, bem como publicar sua topologia.</span><span class="sxs-lookup"><span data-stu-id="a2a79-111">If you do not check this box and you decide later that you want to enable federation, you must run the Topology Builder Merge wizard again, as well as publish your topology.</span></span> <span data-ttu-id="a2a79-112">Para obter detalhes, consulte [fase 4: mesclar topologias](https://technet.microsoft.com/library/81eb5bb2-1fd7-4611-a2aa-eb2393c8abc9.aspx).</span><span class="sxs-lookup"><span data-stu-id="a2a79-112">For details, see [Phase 4: Merge Topologies](https://technet.microsoft.com/library/81eb5bb2-1fd7-4611-a2aa-eb2393c8abc9.aspx).</span></span>
+<span data-ttu-id="d5a2e-109">Marque a caixa de seleção **Este pool de Borda é usado para conectividade de IM pública e de federação** se você planeja usar este Servidor de Borda para federação.</span><span class="sxs-lookup"><span data-stu-id="d5a2e-109">Select the **This Edge pool is used for federation and public IM connectivity** check box if you plan to use this Edge Server for federation.</span></span> <span data-ttu-id="d5a2e-110">Caso você tenha múltiplos Servidores de Borda implantados, apenas um deles será habilitado para federação.</span><span class="sxs-lookup"><span data-stu-id="d5a2e-110">If you have multiple Edge Servers deployed, only one of them will be enabled for federation.</span></span> <span data-ttu-id="d5a2e-111">Caso você não marque essa caixa e decida mais tarde que você deseja habilitar federação, você deve executar o assistente para Mescla de Construtor de Topologia e também publicar sua topologia novamente.</span><span class="sxs-lookup"><span data-stu-id="d5a2e-111">If you do not check this box and you decide later that you want to enable federation, you must run the Topology Builder Merge wizard again, as well as publish your topology.</span></span> <span data-ttu-id="d5a2e-112">Para maiores detalhes, consulte [Phase 4: Merge Topologies](https://technet.microsoft.com/library/81eb5bb2-1fd7-4611-a2aa-eb2393c8abc9.aspx).</span><span class="sxs-lookup"><span data-stu-id="d5a2e-112">For details, see [Phase 4: Merge Topologies](https://technet.microsoft.com/library/81eb5bb2-1fd7-4611-a2aa-eb2393c8abc9.aspx).</span></span>
 
 

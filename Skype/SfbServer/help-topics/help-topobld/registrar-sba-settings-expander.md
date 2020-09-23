@@ -1,5 +1,5 @@
 ---
-title: Expansor de configurações SBA do Registrador Avançado
+title: Expansor de Configurações SBA do Registrador
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -8,39 +8,39 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.RegistrarSBASettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 68ea1fc0-9cd1-4e0a-995e-b53845493477
-description: 'Edite as configurações para resiliência e configure as seguintes propriedades:'
-ms.openlocfilehash: b5c5982dc0a49d1d2002465f4f7a2c6381dd5370
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Edite as configurações para Resiliência e configure as seguintes propriedades:'
+ms.openlocfilehash: 6424b43ea7c56760bb8d58ee35d9804c49c435dd
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41819343"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48217212"
 ---
-# <a name="registrar-sba-settings-expander"></a><span data-ttu-id="0ea04-103">Expansor de configurações SBA do Registrador Avançado</span><span class="sxs-lookup"><span data-stu-id="0ea04-103">Registrar SBA Settings Expander</span></span>
+# <a name="registrar-sba-settings-expander"></a><span data-ttu-id="d916a-103">Expansor de Configurações SBA do Registrador</span><span class="sxs-lookup"><span data-stu-id="d916a-103">Registrar SBA Settings Expander</span></span>
 
-<span data-ttu-id="0ea04-104">Edite as configurações para **resiliência** e configure as seguintes propriedades:</span><span class="sxs-lookup"><span data-stu-id="0ea04-104">You edit the settings for **Resiliency** and configure the following properties:</span></span>
+<span data-ttu-id="d916a-104">Edite as configurações para **Resiliência** e configure as seguintes propriedades:</span><span class="sxs-lookup"><span data-stu-id="d916a-104">You edit the settings for **Resiliency** and configure the following properties:</span></span>
 
-- <span data-ttu-id="0ea04-105">Selecione o **serviço de usuário associado e o pool de registradores de backup** na lista.</span><span class="sxs-lookup"><span data-stu-id="0ea04-105">Select **Associated User service and backup Registrar pool** from the list.</span></span>
+- <span data-ttu-id="d916a-105">Selecione **Pool associado de Serviço de usuário Registradores de backup** na lista.</span><span class="sxs-lookup"><span data-stu-id="d916a-105">Select **Associated User service and backup Registrar pool** from the list.</span></span>
 
-    <span data-ttu-id="0ea04-106">Opcionalmente, marque a caixa de seleção **failover automático e failback para voz** .</span><span class="sxs-lookup"><span data-stu-id="0ea04-106">Optionally, select the **Automatic failover and failback for Voice** check box.</span></span>
+    <span data-ttu-id="d916a-106">Como opção, marque a caixa de seleção **Failover e failback automático para Voice**.</span><span class="sxs-lookup"><span data-stu-id="d916a-106">Optionally, select the **Automatic failover and failback for Voice** check box.</span></span>
 
-    <span data-ttu-id="0ea04-107">Configurar o **intervalo de detecção de falha de voz (s)** e o **intervalo de failback de voz (s)**.</span><span class="sxs-lookup"><span data-stu-id="0ea04-107">Configure the **Voice failure detection interval (sec)** and the **Voice failback interval (sec)**.</span></span> <span data-ttu-id="0ea04-108">Por padrão, os intervalos são de 120 segundos para a detecção de falha de voz e 240 segundos para failback de voz.</span><span class="sxs-lookup"><span data-stu-id="0ea04-108">By default, the intervals are 120 seconds for Voice failure detection and 240 seconds for Voice failback.</span></span>
+    <span data-ttu-id="d916a-p101">Configure o **Intervalo de detecção de falha do Voice (seg.)** e o **Intervalo de failback do Voice (seg.)**. Por padrão, os intervalos são de 120 segundos para detecção de falha do Voice e 240 segundos para failback do Voice.</span><span class="sxs-lookup"><span data-stu-id="d916a-p101">Configure the **Voice failure detection interval (sec)** and the **Voice failback interval (sec)**. By default, the intervals are 120 seconds for Voice failure detection and 240 seconds for Voice failback.</span></span>
 
     > [!CAUTION]
-    > <span data-ttu-id="0ea04-109">O número de segundos que você define para os intervalos de failover e failback deve ser testado cuidadosamente para garantir que a resiliência funcione conforme o esperado.</span><span class="sxs-lookup"><span data-stu-id="0ea04-109">The number of seconds that you define for the failover and failback intervals should be carefully tested to ensure that the resiliency works as expected.</span></span> <span data-ttu-id="0ea04-110">Definir o intervalo como baixo (ou seja, menos de 120 segundos) ou o failover e o failback definidos com mais detalhes podem resultar no failover real e o failback não funcionando como esperado.</span><span class="sxs-lookup"><span data-stu-id="0ea04-110">Setting the interval to low (that is, less than 120 seconds) or the failover and failback set too closely may result in the actual failover and failback not working as expected.</span></span>
+    > <span data-ttu-id="d916a-p102">O número de segundos definido para os intervalos de failover e failback deve ser testado com cuidado a fim de assegurar que a resiliência funcione conforme o esperado. Configurar o intervalo de forma muito baixa (ou seja, menos de 120 segundos) ou o failover e failback definidos de forma muito próxima pode resultar no não funcionamento real e conforme o esperado do failover e do failback.</span><span class="sxs-lookup"><span data-stu-id="d916a-p102">The number of seconds that you define for the failover and failback intervals should be carefully tested to ensure that the resiliency works as expected. Setting the interval to low (that is, less than 120 seconds) or the failover and failback set too closely may result in the actual failover and failback not working as expected.</span></span>
 
-  <span data-ttu-id="0ea04-111">**OK** Aceita e confirma as alterações na caixa de diálogo.</span><span class="sxs-lookup"><span data-stu-id="0ea04-111">**OK** Accepts and commits changes to the dialog.</span></span>
+  <span data-ttu-id="d916a-111">**OK** aceita e confirma as alterações na caixa de diálogo.</span><span class="sxs-lookup"><span data-stu-id="d916a-111">**OK** Accepts and commits changes to the dialog.</span></span>
 
-  <span data-ttu-id="0ea04-112">**Cancelar** Descarta as alterações e fecha a caixa de diálogo.</span><span class="sxs-lookup"><span data-stu-id="0ea04-112">**Cancel** Discards changes and closes the dialog.</span></span>
+  <span data-ttu-id="d916a-112">**Cancelar** descarta as alterações e fecha a caixa de diálogo.</span><span class="sxs-lookup"><span data-stu-id="d916a-112">**Cancel** Discards changes and closes the dialog.</span></span>
 
-  <span data-ttu-id="0ea04-113">**Ajuda** Exibe essa tela de ajuda.</span><span class="sxs-lookup"><span data-stu-id="0ea04-113">**Help** Displays this help screen.</span></span>
+  <span data-ttu-id="d916a-113">**Ajuda** exibe essa tela de ajuda.</span><span class="sxs-lookup"><span data-stu-id="d916a-113">**Help** Displays this help screen.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="0ea04-114">Confira também</span><span class="sxs-lookup"><span data-stu-id="0ea04-114">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="d916a-114">Confira também</span><span class="sxs-lookup"><span data-stu-id="d916a-114">See also</span></span>
 
-[<span data-ttu-id="0ea04-115">Planejando a resiliência do Enterprise Voice</span><span class="sxs-lookup"><span data-stu-id="0ea04-115">Planning for Enterprise Voice Resiliency</span></span>](https://technet.microsoft.com/library/ca116700-1055-4ca5-9b87-4c7f380c3655.aspx)
+[<span data-ttu-id="d916a-115">Planejamento da resiliência do Enterprise Voice</span><span class="sxs-lookup"><span data-stu-id="d916a-115">Planning for Enterprise Voice Resiliency</span></span>](https://technet.microsoft.com/library/ca116700-1055-4ca5-9b87-4c7f380c3655.aspx)
