@@ -8,26 +8,26 @@ ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.MonitoringServerGeneralSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b45e4b2f-a6e8-4919-979e-1ba74fd46028
-description: 'No Construtor de Topologias, você pode editar as propriedades de um Monitoring Server individual. Basta clicar com o botão direito do mouse nesse Monitoring Server e, na árvore de console, clicar em Ação na barra de ferramentas ou clicar em uma tarefa no painel Ações e depois em Editar Propriedades e alterar qualquer uma destas opções:'
-ms.openlocfilehash: 3f81469727c2c99caef4895eb3d55ad03091d36c
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'No construtor de topologias, você pode editar as propriedades de um servidor de monitoramento individual clicando com o botão direito do mouse no servidor de monitoramento na árvore de console e, em seguida, clicando em ação na barra de ferramentas ou clicando em uma tarefa no painel Ações e, em seguida, clicando em Editar propriedades e alterando qualquer uma das seguintes opções:'
+ms.openlocfilehash: 1577f79d41e7d136f711b341edd408585192da29
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41819533"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48215132"
 ---
-# <a name="monitoring-server-general-settings-expander"></a><span data-ttu-id="bd96f-103">Expansor de Configurações Gerais de Servidor de Monitoramento</span><span class="sxs-lookup"><span data-stu-id="bd96f-103">Monitoring Server General Settings Expander</span></span>
+# <a name="monitoring-server-general-settings-expander"></a><span data-ttu-id="07da7-103">Expansor de Configurações Gerais de Servidor de Monitoramento</span><span class="sxs-lookup"><span data-stu-id="07da7-103">Monitoring Server General Settings Expander</span></span>
  
-<span data-ttu-id="bd96f-104">No Construtor de Topologias, você pode editar as propriedades de um Monitoring Server individual. Basta clicar com o botão direito do mouse nesse Monitoring Server e, na árvore de console, clicar em **Ação** na barra de ferramentas ou clicar em uma tarefa no painel Ações e depois em **Editar Propriedades** e alterar qualquer uma destas opções:</span><span class="sxs-lookup"><span data-stu-id="bd96f-104">In Topology Builder, you can edit the properties for an individual Monitoring Server either by right-clicking the Monitoring Server in the console tree and then clicking **Action** in the toolbar, or by clicking a task in the Actions pane and then clicking **Edit Properties**, and changing any of the following options:</span></span>
+<span data-ttu-id="07da7-104">No construtor de topologias, você pode editar as propriedades de um servidor de monitoramento individual clicando com o botão direito do mouse no servidor de monitoramento na árvore de console e, em seguida, clicando em **ação** na barra de ferramentas ou clicando em uma tarefa no painel Ações e, em seguida, clicando em **Editar propriedades**e alterando qualquer uma das seguintes opções:</span><span class="sxs-lookup"><span data-stu-id="07da7-104">In Topology Builder, you can edit the properties for an individual Monitoring Server either by right-clicking the Monitoring Server in the console tree and then clicking **Action** in the toolbar, or by clicking a task in the Actions pane and then clicking **Edit Properties**, and changing any of the following options:</span></span>
   
-- <span data-ttu-id="bd96f-105">**FQDN**, para alterar o FQDN (nome de domínio totalmente qualificado) do servidor que você deseja implantar como Monitoring Server.</span><span class="sxs-lookup"><span data-stu-id="bd96f-105">**FQDN**, to change the fully qualified domain name (FQDN) of the server that you want to deploy as a Monitoring Server.</span></span>
+- <span data-ttu-id="07da7-105">\*\*FQDN \*\*, para alterar o FQDN (nome de domínio totalmente qualificado) do servidor que você deseja implantar como Monitoring Server.</span><span class="sxs-lookup"><span data-stu-id="07da7-105">**FQDN**, to change the fully qualified domain name (FQDN) of the server that you want to deploy as a Monitoring Server.</span></span>
     
-- <span data-ttu-id="bd96f-p101">**Repositório SQL**, para alterar a instância do SQL Server a ser usada para monitorar o banco de dados do SQL Server. Caso você altere o banco de dados do SQL Server de um Monitoring Server, será necessário reiniciar o Monitoring Server para que a alteração entre em vigor.</span><span class="sxs-lookup"><span data-stu-id="bd96f-p101">**SQL store**, to change the instance of SQL Server to be used for the monitoring SQL Server database. If you change the SQL Server database of a Monitoring Server, you must restart the Monitoring Server for the change to take effect.</span></span>
+- <span data-ttu-id="07da7-p101">\*\*Repositório SQL \*\*, para alterar a instância do SQL Server a ser usada para monitorar o banco de dados do SQL Server. Caso você altere o banco de dados do SQL Server de um Monitoring Server, será necessário reiniciar o Monitoring Server para a alteração entre em vigor.</span><span class="sxs-lookup"><span data-stu-id="07da7-p101">**SQL store**, to change the instance of SQL Server to be used for the monitoring SQL Server database. If you change the SQL Server database of a Monitoring Server, you must restart the Monitoring Server for the change to take effect.</span></span>
     
 
