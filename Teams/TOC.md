@@ -113,6 +113,7 @@
 # Aplicativos, bots e conectores
 
 ## [Visão geral](deploy-apps-microsoft-teams-landing-page.md)
+## [Integrar com a Power Platform](teams-power-platfom-integration.md)
 ## [Gerenciar aplicativos para o Teams](manage-apps.md)
 ## [Configurações de administração para aplicativos no Teams](admin-settings.md)
 ## [Usar guias internas e personalizadas](built-in-custom-tabs.md)
@@ -186,6 +187,7 @@
 ## [Reuniões do Teams em navegadores sem suporte](unsupported-browsers.md)
 ## [Configurar o compartilhamento da área de trabalho no Teams](configure-desktop-sharing.md)
 ## [Gravação de reuniões na nuvem do Microsoft Teams](cloud-recording.md)
+## [Usar o OneDrive for Business e o SharePoint ou o Stream para gravações de reunião](tmr-meeting-recording-change.md)
 ## [Integração com o Central de Contatos](teams-contact-center.md)
 ## [Usar o suplemento de Reunião do Teams no Outlook](teams-add-in-for-outlook.md)
 ## [Configurar o recurso Telefonar para Mim para os usuários](set-up-the-call-me-feature-for-your-users.md)
@@ -258,7 +260,6 @@
 <!-- ============================================================ -->
 
 
-
 ## [Interoperabilidade de vídeo em nuvem](cloud-video-interop.md)
 
 ## Eventos ao vivo
@@ -293,14 +294,15 @@
 #### [Mais informações sobre a Identificação da Linha de Chamada e o Nome do Chamador](more-about-calling-line-id-and-calling-party-name.md)
 
 ### Atendedores automáticos e filas de chamadas 
-#### [Quais são os atendedores automáticos do Cloud](what-are-phone-system-auto-attendants.md)
-#### [Configurar um atendedor automático do Cloud](create-a-phone-system-auto-attendant.md)
+#### [Planejamento](plan-auto-attendant-call-queue.md)
+#### [Configuração do atendedor automático](create-a-phone-system-auto-attendant.md)
+#### [Configuração da fila de chamadas](create-a-phone-system-call-queue.md)
 #### [Exemplo de pequenas empresas - Configurar um atendedor automático](tutorial-org-aa.yml)
 #### [Exemplo de pequenas empresas – Configurar uma fila de chamada](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Gerenciar contas de recursos do Teams](manage-resource-accounts.md)
-#### [Criar uma fila de chamada do Cloud](create-a-phone-system-call-queue.md)
 #### [Definir feriados](set-up-holidays-in-teams.md)
 #### [Atender chamadas do atendedor automático e da fila de chamadas diretamente no Teams](answer-auto-attendant-and-call-queue-calls.md)
+#### [Referência de voz e discagem](dial-voice-reference.md)
 
 ### [Bloquear chamadas de entrada](block-inbound-calls.md)
 ### [Recuperação e estacionamento de chamadas](call-park-and-retrieve.md)
