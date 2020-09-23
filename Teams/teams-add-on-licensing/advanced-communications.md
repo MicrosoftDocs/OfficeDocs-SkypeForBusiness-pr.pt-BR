@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f330b183a02654f6c56cad27332fcc9ed81d93f4
-ms.sourcegitcommit: 343756f70480f5e2f8f6486f8651affac8d2004f
+ms.openlocfilehash: 351a15172b121f0bb937630747d7d0e61b80b96c
+ms.sourcegitcommit: 3db7c450d3afbc1049e1016d51016442e5764634
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "46542862"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48203814"
 ---
 # <a name="advanced-communications-add-on-for-microsoft-teams"></a>Complemento avançado de comunicação do Microsoft Teams
 
@@ -71,7 +71,10 @@ Um período de teste de 60 dias está disponível a partir de 4 de agosto de 202
 
 ## <a name="difference-between-overflow-meetings-and-live-events"></a>Diferença entre reuniões estouradas e eventos ao vivo
 
-Com comunicações avançadas, qualquer reunião com mais de 300 participantes fornecerá uma maneira de até 1.000 participantes ter uma experiência interativa e até 20.000 participantes para ingressar na reunião em uma experiência somente para exibição. O evento ao vivo habilita recursos adicionais. Em eventos dinâmicos, o 20.000 participantes pode assistir a transmissão e interagir com a p&A em equipes, conversas no Yammer ou somente exibição no Microsoft Stream. Além disso, estamos aumentando o comprimento dos eventos dinâmicos de 4 horas para 16 horas e permitindo até 50 eventos dinâmicos simultâneos por locatário.  
+Com comunicações avançadas, qualquer reunião com mais de 300 participantes fornecerá uma maneira de até 1.000 participantes ter uma experiência interativa e até 20.000 participantes para ingressar na reunião em uma experiência somente para exibição. O evento ao vivo habilita recursos adicionais. Em eventos dinâmicos, o 20.000 participantes pode assistir a transmissão e interagir com a p&A em equipes, conversas no Yammer ou somente exibição no Microsoft Stream. Além disso, estamos aumentando o comprimento dos eventos dinâmicos de 4 horas para 16 horas e permitindo até 50 eventos dinâmicos simultâneos por locatário. 
+
+>[!Note]
+> A alteração de usar o Microsoft Stream para o [onedrive for Business e o SharePoint para gravações de reunião](../tmr-meeting-recording-change.md) será uma abordagem em fases. No lançamento, você poderá optar por se recusar a essa experiência, em novembro, será preciso recusar se quiser continuar a usar o Stream, e algum tempo no início do 2021 exigiremos que todos os clientes usem o OneDrive for Business e o SharePoint para novas gravações de reunião.
 
 > [!NOTE]
 > Os SKUs corporativos e educacionais podem armazenar temporariamente eventos dinâmicos para até 20.000 participantes, com uma duração de evento de 16 horas por transmissão e 50 eventos simultâneos dentro de um locatário até 1 ° de outubro de 2020.

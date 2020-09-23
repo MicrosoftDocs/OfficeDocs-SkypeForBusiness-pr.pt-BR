@@ -8,41 +8,41 @@ ms.date: 3/26/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.MediationServiceSettingsExpander2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 230e0a08-9e16-4bbd-b550-1f04bad8ddbc
-description: 'Edite as propriedades do serviço de Mediação definindo as seguintes propriedades:'
-ms.openlocfilehash: d5f46fb269925ace53a317caec4d9b75b3c4bbe4
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Edite as propriedades do serviço de mediação definindo as seguintes propriedades:'
+ms.openlocfilehash: 51fbd889d7e9d673fb75b1062a70ae55a9f8585c
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41819563"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48215102"
 ---
 # <a name="mediation-service-settings-expander-for-lync-server-2010"></a>Expansor de Configurações do Serviço de Mediação para o Lync Server 2010
  
-Edite as propriedades do serviço de Mediação definindo as seguintes propriedades:
+Edite as propriedades do serviço de mediação definindo as seguintes propriedades:
   
-- **Portas de escuta**: defina a porta **TLS** na qual o serviço de Mediação escutará. Por padrão, o valor da porta é TCP 5067 sobre o protocolo TLS
+- **Portas de escuta**: defina a porta **TLS** que o serviço de mediação escutará. Por padrão, o valor da porta é TCP 5067 sobre a segurança da camada de transporte (TLS)
     
-    Como opção, você define um valor de porta **TCP**. Por padrão, o valor é TCP 5068.
+    Opcionalmente, você define um valor de porta **TCP** . Por padrão, o valor é TCP 5068.
     
     > [!NOTE]
-    > A configuração do valor de porta TCP é habilitada selecionando **Habilitar porta TCP**. Consulte a documentação de seu Gateway PSTN (Rede Telefônica Pública Comutada) ou IP-PBX (Internet Protocol Private Branch Exchange) para os requisitos de configurações de porta necessários para se comunicar com o serviço de Mediação. 
+    > A configuração do valor da porta TCP é habilitada selecionando **habilitar porta TCP**. Você deve consultar a documentação do seu gateway PSTN (rede telefônica pública comutada) ou do protocolo IP para os requisitos das configurações de porta necessárias para se comunicar com o serviço de mediação. 
   
-- Você deve **Habilitar porta TCP** para definir o valor de porta para as comunicações TCP a partir de seu gateway PSTN ou IP-PBX.
+- Você **habilita a porta TCP** para definir o valor de porta para as comunicações TCP do seu gateway PSTN ou IP-PBX.
     
-- Uma listagem do **Tronco** associado atualmente e existente (ou seja, Troncos SIP), **Gateway** (Gateway PSTN ou IP-PBX) e **Site** (site configurado para o tronco e gateway).
+- Uma listagem do **Tronco** associado atualmente e existente (ou seja, Troncos SIP [Session Initiation Protocol]), **Gateway** (Gateway PSTN ou IP-PBX) e **Site** (site configurado para o tronco e gateway).
     
-- Selecione um Tronco, Gateway e Site e clique em **Tornar Padrão** para definir a seleção como padrão para esse serviço de Mediação. Selecione o padrão atual e clique em **Desfazer Padrão** para remover a seleção como o padrão atual. Em seguida, selecione um novo o padrão e clique em **Tornar Padrão**.
+- Selecione um Tronco, Gateway e Site e clique em **Tornar Padrão** para definir a seleção como padrão para esse serviço de Mediação. Selecione o padrão atual e clique em **Desfazer Padrão** para remover a seleção como o padrão atual. Em seguida, você seleciona um novo o padrão e clica em **Tornar Padrão**.
     
-  **OK** Aceita e confirma as alterações na caixa de diálogo.
+  **OK** aceita e confirma as alterações na caixa de diálogo.
   
-  **Cancelar** Descarta as alterações e fecha a caixa de diálogo.
+  **Cancelar** descarta as alterações e fecha a caixa de diálogo.
   
-  **Ajuda** Exibe essa tela de ajuda.
+  **Ajuda** exibe essa tela de ajuda.
   
 

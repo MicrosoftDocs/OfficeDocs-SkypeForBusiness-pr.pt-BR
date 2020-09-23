@@ -20,12 +20,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 44be05a7ae1b449e0b267bb0e4ed107c40877f27
-ms.sourcegitcommit: af9f96010460f9323db84912fe143aa0750ac798
+ms.openlocfilehash: 39debd0b184109a55686977f27ba1262d5d65641
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "48171115"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48216692"
 ---
 # <a name="use-general-teams-templates-in-the-admin-console"></a>Usar modelos do teams gerais no console de administração
 
@@ -39,7 +39,7 @@ Neste artigo, apresentaremos cada um dos modelos de equipe e como recomendamos u
 
 Este artigo é para você se for responsável por planejar, implantar e gerenciar várias equipes em toda a sua organização financeira. Presumimos que você já tenha implantado o serviço do Microsoft Teams em sua organização. Se você ainda não distribuiu o Microsoft Teams, comece lendo o guia [como implantar o Microsoft Teams](How-to-roll-out-teams.md).
 
-Para saber mais sobre os modelos de equipe em geral, consulte [introdução aos modelos](get-started-with-teams-templates-in-the-admin-console.md)do Microsoft Teams.
+Para saber mais sobre os modelos de equipe em geral, confira [introdução aos modelos](get-started-with-teams-templates-in-the-admin-console.md)do Microsoft Teams.
 
 ## <a name="global-crisis-or-event"></a>Crise global ou evento
 
@@ -90,7 +90,7 @@ Melhore sua cultura e simplifique seu funcionário a integrar-se a essa equipe c
 
 ## <a name="organize-a-help-desk"></a>Organizar uma assistência técnica
 
-Colabore em documentação, políticas e processos que dão suporte à assistência técnica. Integre seu sistema de tíquete existente ou use nosso modelo para gerenciar solicitações.
+Colabore na documentação, na política e nos processos que dão suporte à assistência técnica. Integre seu sistema de tíquete existente ou use nosso modelo para gerenciar solicitações.
 
 | Tipo de modelo base | | Propriedades que vêm com este modelo base |
 | ------------------|-- |----------------------------------------------------- |

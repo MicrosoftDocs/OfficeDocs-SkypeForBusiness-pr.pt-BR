@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 088643de889ee27d717d167b6166b9a43ec69256
-ms.sourcegitcommit: a73df97a06ea860bfaf5387e0acbf3c724697e14
+ms.openlocfilehash: b6748996007343cc0d67d5306e075f0465bfee27
+ms.sourcegitcommit: 3db7c450d3afbc1049e1016d51016442e5764634
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "44902286"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48203954"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>O que são os eventos ao vivo do Microsoft Teams ?
 
@@ -66,10 +66,13 @@ A entrada de vídeo é a base do evento ao vivo e ele pode variar de uma única 
 
     ![Captura de tela mostrando um evento ao vivo produzido usando um dispositivo ou aplicativo externo](../media/teams-live-events-external-encoder.png "Captura de tela mostrando um evento ao vivo que é produzido usando o aplicativo externo ou o método de produção do dispositivo")
 
+>[!Note]
+> A alteração de usar o Microsoft Stream para o [onedrive for Business e o SharePoint para gravações de reunião](../tmr-meeting-recording-change.md) será uma abordagem em fases. No lançamento, você poderá optar por se recusar a essa experiência, em novembro, será preciso recusar se quiser continuar a usar o Stream, e algum tempo no início do 2021 exigiremos que todos os clientes usem o OneDrive for Business e o SharePoint para novas gravações de reunião.
+
 ### <a name="streaming-platform"></a>Plataforma de streaming
 A plataforma de transmissão de eventos ao vivo é composta pelos seguintes itens:
 
-- **Serviços de mídia do Azure**: os [serviços de mídia do Azure](https://docs.microsoft.com/azure/media-services/previous/) fornecem serviços de transmissão de vídeo com qualidade de transmissão para alcançar públicos maiores em dispositivos móveis mais populares do dia. O Media Services aprimora a acessibilidade, a distribuição e a escalabilidade, e torna mais fácil e econômico transmitir conteúdo para seus públicos locais ou mundiais, tudo isso enquanto protege o seu conteúdo.
+- **Serviços de mídia do Azure**: os  [serviços de mídia do Azure](https://docs.microsoft.com/azure/media-services/previous/) fornecem serviços de transmissão de vídeo com qualidade de transmissão para alcançar públicos maiores em dispositivos móveis mais populares do dia. O Media Services aprimora a acessibilidade, a distribuição e a escalabilidade, e torna mais fácil e econômico transmitir conteúdo para seus públicos locais ou mundiais, tudo isso enquanto protege o seu conteúdo.
 - A **CDN (rede de distribuição de conteúdo) do Azure**: depois que o fluxo ficar ao vivo, ele será entregue pela [CDN (rede de distribuição de conteúdo) do Azure](https://docs.microsoft.com/azure/cdn/). Os serviços de mídia do Azure fornecem CDN integrada para pontos de extremidade de streaming. Isso permite que os fluxos sejam exibidos em todo o mundo sem buffer.
 
 ### <a name="enterprise-content-delivery-network-ecdn"></a>Rede de distribuição de conteúdo corporativo (eCDN)
@@ -91,7 +94,7 @@ Vá para [plano para eventos do teams Live](plan-for-teams-live-events.md).
 
 ### <a name="related-topics"></a>Tópicos relacionados
 - [Eventos ao vivo na Microsoft 365 no Yammer, Microsoft Teams e Microsoft Stream](https://docs.microsoft.com/stream/live-event-m365)
-- [Comece a usar o Microsoft Teams Live eventos](https://support.office.com/article/d077fec2-a058-483e-9ab5-1494afda578a)
+- [Introdução a eventos ao vivo do Microsoft Teams](https://support.office.com/article/d077fec2-a058-483e-9ab5-1494afda578a)
 - [Eventos ao vivo no Yammer](https://support.office.com/article/live-events-in-yammer-4ece0ee2-c268-4636-bf2a-16e454befe57)
 - [Eventos dinâmicos no Microsoft Stream](https://docs.microsoft.com/stream/live-event-overview)
 

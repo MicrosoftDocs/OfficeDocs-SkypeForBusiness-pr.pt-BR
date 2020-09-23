@@ -8,32 +8,32 @@ ms.date: 2/8/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.AddFrontEndSqlStorePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dace9561-3eb4-4647-83cb-56c246919ae1
-description: Uma implantação de servidor Standard Edition instala automaticamente o software de banco de dados do Microsoft SQL Server Express necessário e o banco de dados do SQL Server. Portanto, todas as opções são preenchidas previamente e não é possível fazer alterações na configuração padrão.
-ms.openlocfilehash: 865f9a63902124c57232ba8d8c591622dcbfd84a
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Uma implantação de servidor Standard Edition instala automaticamente o software de banco de dados do Microsoft SQL Server Express e o banco de dados do SQL Server necessários. Portanto, todas as opções são preenchidas previamente e você não pode fazer alterações na configuração padrão.
+ms.openlocfilehash: 614c3a852bb52a73c8a3f71ee467a2d71f82e9b6
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41820813"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48216492"
 ---
 # <a name="add-front-end-sql-server-store"></a>Adicionar Repositório de Servidor SQL Front End
 
-Uma implantação de servidor Standard Edition instala automaticamente o software de banco de dados do Microsoft SQL Server Express necessário e o banco de dados do SQL Server. Portanto, todas as opções são preenchidas previamente e não é possível fazer alterações na configuração padrão.
+Uma implantação de servidor Standard Edition instala automaticamente o software de banco de dados do Microsoft SQL Server Express e o banco de dados do SQL Server necessários. Portanto, todas as opções são preenchidas previamente e você não pode fazer alterações na configuração padrão.
 
-O pool de front-end de uma implantação do servidor Enterprise Edition requer uma edição de 64 bits com suporte do software de banco de dados do SQL Server para o banco de dados back-end. Você pode selecionar um banco de dados do SQL Server definido anteriormente para ser usado para o banco de dados back-end, ou definir um novo banco de dados SQL Server especificando um FQDN (nome de domínio totalmente qualificado) do servidor no qual o banco de dados do SQL Server está para ficar e a instância do SQL S ervidor que você deseja usar para o novo banco de dados SQL Server (que pode ser a instância padrão ou uma instância nomeada que você especificar). Você também pode optar por habilitar o espelhamento na loja do SQL Server e especificar uma testemunha de espelhamento para failover automático.
+O pool de front-ends de uma implantação de servidor Enterprise Edition requer uma edição de 64 bits com suporte do software de banco de dados do SQL Server para o banco de dados back-end. Você pode selecionar um banco de dados do SQL Server definido anteriormente para ser usado para o banco de dados back-end, ou definir um novo banco de dados do SQL Server especificando um FQDN (nome de domínio totalmente qualificado) do servidor no qual o banco de dados do SQL Server está para residir e a instância do SQL Server que você deseja usar para o novo banco de dados do SQL Server , ou uma instância nomeada que você especificar. Também é possível escolher habilitar o espelhamento no SQL Server store e especificar uma testemunha de espelhamento para failover automático.
 
-Para obter detalhes sobre o suporte do SQL Server, consulte [suporte a cluster e software de banco de dados](https://technet.microsoft.com/library/e05d0032-bbea-4e61-987d-d07b1c045fd5.aspx) na documentação de suporte. Para obter detalhes sobre a configuração do SQL Server para o banco de dados back-end, consulte [Configurar o SQL Server para Lync server 2010](https://technet.microsoft.com/library/375e5cc4-e436-46dc-9b02-5063f35cdcc1.aspx) na documentação de implantação.
-
-> [!NOTE]
-> Se a conta que é usada para publicar a topologia tiver os direitos de usuário e permissões apropriados, você poderá criar o banco de dados back-end (RTC) quando publicar sua topologia. Você também pode criar o banco de dados posteriormente, incluindo como parte do procedimento de instalação.
+Para obter detalhes sobre o suporte ao SQL Server, consulte [software de banco de dados e suporte a clusters](https://technet.microsoft.com/library/e05d0032-bbea-4e61-987d-d07b1c045fd5.aspx) na documentação de suporte. Para maiores detalhes sobre como configurar um Servidor SQL para o banco de dados back-end, consulte [Configure SQL Server for Lync Server 2010](https://technet.microsoft.com/library/375e5cc4-e436-46dc-9b02-5063f35cdcc1.aspx) na documentação de Implantação.
 
 > [!NOTE]
-> Para instalar e implantar os bancos de dados no servidor baseado em SQL Server para uma implantação do Enterprise Edition, você deve ser um membro do grupo Administradores do SQL Server para o servidor baseado no SQL Server no qual está instalando os arquivos do banco de dados. Se você não for membro do grupo Administradores do SQL Server, será necessário solicitar que seja adicionado ao grupo até que os arquivos de banco de dados sejam implantados. Se você não puder se tornar membro do grupo sysadmins, você deve fornecer o administrador do banco de dados do SQL Server com o script para configurar e implantar os bancos de dados. Para obter detalhes sobre os direitos e permissões de usuário que você precisa para executar os procedimentos, consulte [permissões de implantação para SQL Server](https://technet.microsoft.com/library/56ea0c02-bcf5-4d45-aa13-570531c29074.aspx).
+> Se a conta usada para publicar a topologia tiver os direitos de usuário e permissões apropriadas, será possível criar o banco de dados back-end (comunicação em tempo real (RTC)) ao publicar sua topologia. Também é possível criar o banco de dados posteriormente, incluído como parte do procedimento de instalação.
+
+> [!NOTE]
+> Para instalar e implantar os bancos de dados no servidor baseado em SQL Server para uma implantação do Enterprise Edition, você deve ser membro do grupo sysadmins do SQL Server para o servidor baseado em SQL Server no qual você está instalando os arquivos do banco de dados. Se você não for um membro do grupo sysadmins do SQL Server, deverá solicitar a adição ao grupo até que os arquivos do banco de dados sejam implantados. Se você não puder se tornar um membro do grupo sysadmins, forneça o script para configurar e implantar os bancos de dados do SQL Server. Para obter detalhes sobre os direitos e permissões de usuário necessários para realizar os procedimentos, consulte [Deployment Permissions for SQL Server](https://technet.microsoft.com/library/56ea0c02-bcf5-4d45-aa13-570531c29074.aspx).
 
 

@@ -8,30 +8,30 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.AssociateMediationServerWithEdgePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 65c5d93c-9f0d-4a60-8bd1-d05eb6bc2088
-description: 'Para definir um servidor de mediação, especifique as configurações que associam o servidor de mediação a um servidor front-end e a um servidor de borda ou pool. Para associar o servidor de mediação ou o pool a um servidor de borda ou um pool do servidor de borda, faça o seguinte:'
-ms.openlocfilehash: 37aa9061bca1f12e024fdf84601997911fb20c93
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Para definir um Servidor de Mediação, especifique as configurações que associam o Servidor de Mediação a um Servidor Front-End e a um pool ou Servidor de Borda. Para associar o Servidor de Mediação ou o pool a um Servidor de Borda ou pool de Servidores de Borda, faça o seguinte:'
+ms.openlocfilehash: 11e00e84891c062662151449f07ecdb3f67c39d2
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41820363"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48216352"
 ---
 # <a name="associate-mediation-server-with-edge"></a>Associar Servidor de Mediação com Borda
  
-Para definir um servidor de mediação, especifique as configurações que associam o servidor de mediação a um servidor front-end e a um servidor de borda ou pool. Para associar o servidor de mediação ou o pool a um servidor de borda ou um pool do servidor de borda, faça o seguinte:
+Para definir um Servidor de Mediação, especifique as configurações que associam o Servidor de Mediação a um Servidor Front-End e a um pool ou Servidor de Borda. Para associar o Servidor de Mediação ou o pool a um Servidor de Borda ou pool de Servidores de Borda, faça o seguinte:
   
-1. Na lista suspensa, selecione o pool de bordas ou o servidor de borda para associar ao servidor de mediação.
+1. Selecione o pool ou Servidor de Borda para associar com o Servidor de Mediação a partir da lista suspensa.
     
 2. Clique em **Avançar** para continuar.
     
 > [!NOTE]
-> Se você ainda não definiu um servidor de borda ou um pool do servidor de borda na sua implantação, a lista suspensa não contém entradas. Você pode clicar em **Avançar** para continuar e editar as configurações do servidor de mediação depois de adicionar um servidor de borda ou um pool à sua implantação.
+> Caso você ainda não tenha definido um Servidor de Borda ou pool de Servidor de Borda em sua implantação, a lista suspensa não conterá entradas. Você pode clicar em **Próximo** para continuar e editar as definições para o Servidor de Mediação, após ter adicionado o pool ou Servidor de Borda à sua implantação.
   
 Para obter detalhes adicionais, consulte [implantar um servidor de mediação no construtor de topologias no Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md).
   

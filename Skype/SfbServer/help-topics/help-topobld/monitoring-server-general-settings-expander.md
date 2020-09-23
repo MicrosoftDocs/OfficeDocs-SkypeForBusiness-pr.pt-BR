@@ -8,26 +8,26 @@ ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.MonitoringServerGeneralSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b45e4b2f-a6e8-4919-979e-1ba74fd46028
-description: 'No Construtor de Topologias, você pode editar as propriedades de um Monitoring Server individual. Basta clicar com o botão direito do mouse nesse Monitoring Server e, na árvore de console, clicar em Ação na barra de ferramentas ou clicar em uma tarefa no painel Ações e depois em Editar Propriedades e alterar qualquer uma destas opções:'
-ms.openlocfilehash: 3f81469727c2c99caef4895eb3d55ad03091d36c
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'No construtor de topologias, você pode editar as propriedades de um servidor de monitoramento individual clicando com o botão direito do mouse no servidor de monitoramento na árvore de console e, em seguida, clicando em ação na barra de ferramentas ou clicando em uma tarefa no painel Ações e, em seguida, clicando em Editar propriedades e alterando qualquer uma das seguintes opções:'
+ms.openlocfilehash: 1577f79d41e7d136f711b341edd408585192da29
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41819533"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48215132"
 ---
 # <a name="monitoring-server-general-settings-expander"></a>Expansor de Configurações Gerais de Servidor de Monitoramento
  
-No Construtor de Topologias, você pode editar as propriedades de um Monitoring Server individual. Basta clicar com o botão direito do mouse nesse Monitoring Server e, na árvore de console, clicar em **Ação** na barra de ferramentas ou clicar em uma tarefa no painel Ações e depois em **Editar Propriedades** e alterar qualquer uma destas opções:
+No construtor de topologias, você pode editar as propriedades de um servidor de monitoramento individual clicando com o botão direito do mouse no servidor de monitoramento na árvore de console e, em seguida, clicando em **ação** na barra de ferramentas ou clicando em uma tarefa no painel Ações e, em seguida, clicando em **Editar propriedades**e alterando qualquer uma das seguintes opções:
   
-- **FQDN**, para alterar o FQDN (nome de domínio totalmente qualificado) do servidor que você deseja implantar como Monitoring Server.
+- **FQDN **, para alterar o FQDN (nome de domínio totalmente qualificado) do servidor que você deseja implantar como Monitoring Server.
     
-- **Repositório SQL**, para alterar a instância do SQL Server a ser usada para monitorar o banco de dados do SQL Server. Caso você altere o banco de dados do SQL Server de um Monitoring Server, será necessário reiniciar o Monitoring Server para que a alteração entre em vigor.
+- **Repositório SQL **, para alterar a instância do SQL Server a ser usada para monitorar o banco de dados do SQL Server. Caso você altere o banco de dados do SQL Server de um Monitoring Server, será necessário reiniciar o Monitoring Server para a alteração entre em vigor.
     
 

@@ -8,34 +8,34 @@ ms.date: 3/26/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.BranchOfficeApplianceScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8632ddaa-9572-4129-9db4-de0f13438d43
-description: 'Esse nó mostra o nome de domínio totalmente qualificado (FQDN), os pools e servidores associados e as informações de resiliência sobre esse aparelho de ramificação sobreviventes. Você pode executar as seguintes ações:'
-ms.openlocfilehash: 7f0314d93b4aa66312275acba9152f2b664ee4dc
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Este nó mostra o nome de domínio totalmente qualificado (FQDN), os pools e servidores associados e as informações de resiliência sobre esse aparelho de filial persistente. É possível executar as seguintes ações:'
+ms.openlocfilehash: 4ea58b26a3afa6dd2a96479d878aa043b0633f6c
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41820283"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48216102"
 ---
 # <a name="branch-office-appliance-scope-node"></a>Nó de Escopo de Aparelho de Filial
  
-Esse nó mostra o nome de domínio totalmente qualificado (FQDN), os pools e servidores associados e as informações de resiliência sobre esse aparelho de ramificação sobreviventes. Você pode executar as seguintes ações:
+Este nó mostra o nome de domínio totalmente qualificado (FQDN), os pools e servidores associados e as informações de resiliência sobre esse aparelho de filial persistente. É possível executar as seguintes ações:
   
-- **Editar Propriedades**. Abre a página **Editar propriedades** para este aparelho de ramificação sobreviventes, no qual você pode alterar o FQDN (se a topologia ainda não estiver publicada), as associações e as configurações de resiliência.
+- **Editar Propriedades**. Abre a página **Editar propriedades** para esse aparelho de filial persistente, onde você pode alterar o FQDN (se a topologia ainda não tiver sido publicada), as associações e as configurações de resiliência.
     
 - **Excluir**. Exclui o servidor da topologia.
     
-Além dessas opções, você pode realizar as seguintes tarefas gerais:
+Além das opções, é possível executar as seguintes tarefas gerais:
   
-- **Topologia**. É possível usar essa opção para definir uma nova topologia, abrir uma topologia existente, baixar a topologia atual, salvar uma cópia da topologia, publicar a topologia, instalar um banco de dados ou remover a implantação.
+- **Topologia**. Você pode usar essa opção para definir uma nova topologia, abrir uma topologia existente, baixar a topologia atual, salvar uma cópia da topologia, publicar a topologia, instalar um banco de dados ou remover a implantação.
     
-- **Exibir**. Você pode usar essa opção para personalizar o modo de exibição no Construtor de Topologias selecionando os itens que os modos de exibição da árvore de console deve mostrar ou ocultar.
+- **Visualização**. Você pode usar esta opção para personalizar a visualização no Construtor de Topologia selecionando os itens que serão exibidos ou escondidos na visão de árvore de comando..
     
-- **Ajuda**. Você pode usar essa opção para acessar a Ajuda do nó ativo.
+- **Ajuda**. Você pode usar esta opção para acessar a Ajuda para o nó ativo.
     
 

@@ -8,24 +8,24 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.AddEdgeServerNextHopPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8ef7235d-626c-4cc9-b6ec-9dfeab495cc0
-description: O próximo nó do pool de bordas é um pool de front-end (que pode ser um pool corporativo ou um servidor Standard Edition) ou, se a sua implantação incluir um diretor, o próximo nó será o diretor.
-ms.openlocfilehash: 3714e2f4ae3f9731254a8f7d028f0c3b7cc0d3a7
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: O próximo salto do pool de borda é um pool de front-ends (que pode ser um pool corporativo ou um servidor Standard Edition) ou, se sua implantação incluir um diretor, o próximo salto será o diretor.
+ms.openlocfilehash: 9f26f0dfdc730219192ba51d6aed7e1e2c259454
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41820993"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48216332"
 ---
 # <a name="add-edge-server-next-hop"></a>Adicionar Próximo Salto de Servidor de Borda
 
-O próximo nó do pool de bordas é um pool de front-end (que pode ser um pool corporativo ou um servidor Standard Edition) ou, se a sua implantação incluir um diretor, o próximo nó será o diretor.
+O próximo salto do pool de borda é um pool de front-ends (que pode ser um pool corporativo ou um servidor Standard Edition) ou, se sua implantação incluir um diretor, o próximo salto será o diretor.
 
-É possível incluir suporte ao acesso de usuários externos durante a implantação da sua topologia inicial ou em uma fase posterior. Para obter detalhes sobre como incluir Servidores de Borda na topologia existente, consulte [Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx) na documentação de Implantação do Servidor de Borda.
+É possível incluir suporte ao acesso de usuários externos durante a implantação da sua topologia inicial ou em uma fase posterior. Para obter detalhes sobre como adicionar Servidores de Borda a uma topologia existente, consulte [Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx) na documentação Implantação do Servidor de Borda.
 
 

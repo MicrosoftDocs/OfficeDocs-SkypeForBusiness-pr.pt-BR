@@ -8,28 +8,28 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.OfficeCommunicationsServerScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ec5088ec-71b5-42cb-9f04-242716877178
-description: Esta documentação é preliminar e está sujeita a alterações. Os tópicos em branco são incluídos como espaços reservados.
-ms.openlocfilehash: d47234fdea6cc8323462aef26e99449c53895620
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Esta é uma documentação preliminar e está sujeita a alterações. Tópicos em branco são incluídos como espaços reservados.
+ms.openlocfilehash: feed152cb42bece0abffd62d781a10836109475e
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41819503"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48215572"
 ---
 # <a name="office-communications-server-scope-node"></a>Nó de Escopo de Servidor de Comunicações do Office
 
-Esta documentação é preliminar e está sujeita a alterações. Os tópicos em branco são incluídos como espaços reservados.
+Esta é uma documentação preliminar e está sujeita a alterações. Tópicos em branco são incluídos como espaços reservados.
 
-Você clica em **Office Communications Server 2007 R2** para expandir as seções no nó ou clica com o botão direito do mouse para acessar opções de **topologia** ou para acessar esta página de **ajuda** .
+Clique em **Office Communications Server 2007 R2** para expandir as seções no nó, ou clique com o botão direito do mouse para acessar opções de **topologia** , ou para acessar essa página de **ajuda** .
 
 ## <a name="see-also"></a>Confira também
 
-[Mesclar usando o assistente de mesclagem do construtor de topologia](https://technet.microsoft.com/library/c3f3c425-dab6-4dcd-bf0e-d7fde05f2ebf.aspx)
+[Mesclar usando o Assistente de mesclagem do Construtor de Topologias](https://technet.microsoft.com/library/c3f3c425-dab6-4dcd-bf0e-d7fde05f2ebf.aspx)
 
 [Verificar informações de topologia](https://technet.microsoft.com/library/aa4c424e-f87c-4be6-8df6-a0cd193b11fc.aspx)

@@ -5,12 +5,12 @@ author: cichur
 ms.date: 09/21/2020
 ms.topic: article
 ms.author: v-cichur
-ms.openlocfilehash: 1740e36c496b4df4df796d00d2be6a644ae0933b
-ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
+ms.openlocfilehash: 78d79ba45661fdfeebd1816906fc76ea2495f0cd
+ms.sourcegitcommit: 22e2f51abf879b34701064839d0e410758b6a3dd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 09/22/2020
-ms.locfileid: "48177431"
+ms.locfileid: "48209480"
 ---
 # <a name="teams-sessions-at-ignite-2020"></a>Sessões do teams em Ignite 2020
 
@@ -55,7 +55,7 @@ ms.locfileid: "48177431"
 | Título | Abstrair            | Nível| falantes |
 |---|----------|---|---|---|
 |[Impulsionando a adoção com eventos virtuais: práticas recomendadas para organizadores e produtores](https://aka.ms/PR101)|Esta sessão de aulas do mundo real revisará nosso manual de eventos virtuais para organizadores de eventos e profissionais de ti.  Saiba o que você precisa saber da Karuana Gatimu, produtor técnica dos principais eventos da equipe de engenharia do Microsoft Teams durante os estágios iniciais do Pandemic.   Ouça as diretrizes coletadas na transição da Microsoft para eventos virtuais e como você pode usar reuniões e eventos dinâmicos do teams para fornecer eventos atraentes que mantêm sua organização conectada.  |300|Karuana Gatimu, Ashwin Appiah|
-|[Aprofundamento profundo sobre governança de grupos do Office 365 e do Microsoft Teams](https://aka.ms/PR102)|Veja esta demonstração das práticas de capabilties de governança e ferramentas que gerenciam a experiência dos usuários finais do Microsoft Teams e permitem que você se sinta confiante sobre a segurança e a conformidade de suas informações. Inclui a configuração dos recursos complementares do Azure active director. |300|Karuana Gatimu|
+|[Aprofundamento profundo sobre governança de grupos do Office 365 e do Microsoft Teams](https://aka.ms/PR102)|Veja esta demonstração de práticas de recursos de governança e ferramentas que gerenciam a experiência dos usuários finais do Microsoft Teams e permitem que você se sinta confiante sobre a segurança e a conformidade de suas informações. Inclui a configuração dos recursos complementares do Azure active director. |300|Karuana Gatimu|
 |[Conduzir a adoção do setor-cenários e recursos especiais para o primeiro e sem fins lucrativos, assistência médica e muito mais.](https://aka.ms/PR121)|Nesta sessão orientada por cenário, revisaremos os recursos, ambos existentes e novos, no contexto dos profissionais de ti que devem ser entregues neles.  Incluindo os modelos de usuário final e ITPro, recursos móveis|200|Karuana Gatimu, Kathy Minnis|
 |[Você está pronto para implantar o Microsoft Teams?](https://aka.ms/PR127) |Nesta sessão, examinaremos todos os principais produtos e recursos que podem ajudá-lo a garantir que a distribuição do seu Teams seja bem-sucedida. Em ferramentas e recursos às práticas recomendadas, esta sessão é uma tarefa que deve ser comparada se o planejamento e a implantação de equipes estiverem na sua lista de tarefas pendentes!|300|Stephen rosa|
 |[Implantação de equipes e Microsoft end Point Manager](https://aka.ms/PR122)|Veja as mãos nas demonstrações relacionadas a práticas recomendadas para ajudá-lo a implantar e gerenciar o Microsoft Teams por meio do Gerenciador de ponto de extremidade|300|Mayunk Jain, Mayank Verma|

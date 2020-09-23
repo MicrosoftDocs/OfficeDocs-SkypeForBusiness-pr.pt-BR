@@ -23,13 +23,14 @@ ms.custom:
 - ms.teamsadmincenter.autoattendants.overview
 - Phone System
 - seo-marvel-apr2020
+ROBOTS: NOINDEX, NOFOLLOW
 description: Saiba mais sobre atendedores automáticos da nuvem e como usá-los para permitir que os chamadores se movimentem por meio de um sistema de menus para localizar e fazer ou transferir chamadas para usuários ou departamentos.
-ms.openlocfilehash: 88b1a67c1438efb5ef1113999feeffd9735f293f
-ms.sourcegitcommit: eb8b573a426b6a68c763968c4cd2d45bc0d6a4b4
+ms.openlocfilehash: c4bfbd8e56a64105fe1ee00409cf016976c8bb81
+ms.sourcegitcommit: 22e2f51abf879b34701064839d0e410758b6a3dd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46672832"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48209490"
 ---
 # <a name="what-are-cloud-auto-attendants"></a>O que são atendedores automáticos da nuvem?
 

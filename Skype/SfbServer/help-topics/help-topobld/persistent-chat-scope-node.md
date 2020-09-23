@@ -1,5 +1,5 @@
 ---
-title: Nó de Escopo de Chat Persistente
+title: Nó de Escopo de Bate-papo Persistente
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -8,30 +8,30 @@ ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.PersistentChatScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 35dfc16f-7190-4993-9d4a-e0262bf35166
 description: Para começar a criação de um novo servidor de chat persistente ou pool de servidor de chat persistente, no construtor de topologia, clique com o botão direito do mouse em pools de chat persistente e selecione novo pool de chat persistente
-ms.openlocfilehash: 04fde5608a81e99730a7849e150cf0b8030a1aa2
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 03c9015bc0e1dbd291d603cd7ffb43627caab98e
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41819443"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48215952"
 ---
-# <a name="persistent-chat-scope-node"></a>Nó de Escopo de Chat Persistente
+# <a name="persistent-chat-scope-node"></a>Nó de Escopo de Bate-papo Persistente
  
 Para começar a criação de um novo servidor de chat persistente ou pool de servidor de chat persistente, no construtor de topologia, clique com o botão direito do mouse em **pools de chat persistente** e selecione **novo pool de chat persistente**
   
-- **Topologia**. Você pode usar essa opção para definir uma nova topologia, abrir uma topologia existente, baixar a topologia atual, salvar uma cópia da topologia, publicar a topologia, instalar um banco de dados, mesclar componentes de versões anteriores do Office Communications Server ou remover o implementação.
+- **Topologia**. Você pode usar esta opção para definir uma nova topologia, abrir uma topologia existente, fazer o download da topologia atual, salvar uma cópia da topologia, publicar a topologia, instalar um banco de dados, mesclar componentes de versões anteriores do Office Communications Server ou remover a implantação.
     
-- **Ajuda**. Você pode usar essa opção para acessar a Ajuda do nó ativo.
+- **Ajuda**. Você pode usar esta opção para acessar a Ajuda para o nó ativo.
     
 ## <a name="see-also"></a>Confira também
 
-[Planejar Servidor de Chat Persistente no Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
+[Planejar o servidor de chat persistente no Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   
-[Adicionar um servidor de chat persistente à sua topologia do Skype for Business Server 2015](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
+[Adicionar servidor de chat persistente à sua topologia do Skype for Business Server 2015](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)

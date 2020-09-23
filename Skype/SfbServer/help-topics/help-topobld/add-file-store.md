@@ -8,26 +8,26 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.AddFileStorePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4e144ad2-6d28-4fad-8f01-2758f23e79db
-description: 'Para definir um novo armazenamento de arquivos, especifique o seguinte:'
-ms.openlocfilehash: 846f3cf23f8fe495927cc4498db4ffa9391086b3
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Para definir um novo repositório de arquivos, especifique o seguinte:'
+ms.openlocfilehash: 02a274f5ba55b58a0b0e110fbd7d5e2ae5b866d7
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41820933"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48216722"
 ---
 # <a name="add-file-store"></a>Adicionar Repositóriod e Arquivos
  
-Para definir um novo armazenamento de arquivos, especifique o seguinte:
+Para definir um novo repositório de arquivos, especifique o seguinte:
   
-- O nome de domínio totalmente qualificado (FQDN) do servidor que hospedará o novo repositório de arquivos. O FQDN do servidor deve existir no sistema de nomes de domínio (DNS) antes de você publicar a topologia.
+- O FQDN (nome de domínio totalmente qualificado) do servidor que hospedará o novo repositório de arquivo. O FQDN do servidor deve existir no DNS (sistema de nomes de domínio) antes da publicação da topologia.
     
-- O nome do compartilhamento de arquivos no servidor host. O compartilhamento de arquivos deve existir antes da publicação da topologia. 
+- O nome do compartilhamento de arquivo no servidor hospedeiro. O compartilhamento de arquivos deve existir antes da publicação da topologia. 
     
 

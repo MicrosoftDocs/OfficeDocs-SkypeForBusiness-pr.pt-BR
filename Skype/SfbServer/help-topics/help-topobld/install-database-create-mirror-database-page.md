@@ -8,29 +8,29 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.InstallDatabaseCreateMirrorDatabasePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6f729574-944e-4968-bdb8-eb483ff0ca88
-description: Esta documentação é preliminar e está sujeita a alterações. Os tópicos em branco são incluídos como espaços reservados.
-ms.openlocfilehash: 60773e1f3f0018911dcb099062fbbd4854370fc6
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Esta é uma documentação preliminar e está sujeita a alterações. Tópicos em branco são incluídos como espaços reservados.
+ms.openlocfilehash: d4d8b637bf0ba21c7d614eedcadacec293b655b6
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41819903"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48215352"
 ---
 # <a name="install-database-create-mirror-database-page"></a>Instalar Página de Banco de Dados de Espelho Criar Banco de Dados
  
-Esta documentação é preliminar e está sujeita a alterações. Os tópicos em branco são incluídos como espaços reservados.
+Esta é uma documentação preliminar e está sujeita a alterações. Tópicos em branco são incluídos como espaços reservados.
   
-Se você optou por não instalar os bancos de dados de espelho do SQL Server durante o processo de publicação, instale-os usando o **banco de dados de instalação** a partir de um clique com o botão direito em qualquer nó no construtor de topologias. Selecione o armazenamento espelho a ser instalado. Clique em **configurações** para definir as configurações avançadas.
+Se você optou por não instalar os bancos de dados de espelho do SQL Server durante o processo de publicação, instale-os usando o **banco de dados de instalação** a partir de um clique com o botão direito em qualquer nó no construtor de topologias. Selecione o repositório de espelho para instalação. Clique em **Configurações** para definir quaisquer configurações avançadas.
   
 ## <a name="see-also"></a>Confira também
 
-[Implantar espelhamento de SQL para alta disponibilidade do servidor back-end no Skype for Business Server 2015](../../deploy/deploy-high-availability-and-disaster-recovery/sql-mirroring-for-high-availability.md)
+[Implantar o espelhamento do SQL para alta disponibilidade do servidor back-end no Skype for Business Server 2015](../../deploy/deploy-high-availability-and-disaster-recovery/sql-mirroring-for-high-availability.md)
 
 [Install-CsMirrorDatabase](https://docs.microsoft.com/powershell/module/skype/install-csmirrordatabase?view=skype-ps)
   

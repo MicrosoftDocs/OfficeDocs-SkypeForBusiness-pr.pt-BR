@@ -8,32 +8,32 @@ ms.date: 3/26/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.FeMediationServiceSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 142c1acd-cdaa-4922-8379-aa1bdf56a964
-description: 'No caso do Servidor de Mediação, você pode especificar o seguinte:'
-ms.openlocfilehash: e6b89c61e84577af86576850f5c675861cfa3a80
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Para o  Servidor de Mediação, você pode especificar:'
+ms.openlocfilehash: 9a6da594452b4675b3eed1ca734fa3b54c9117b9
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41819553"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48215142"
 ---
 # <a name="mediation-service-settings-expander"></a>Expansor de Configurações de Serviço de Mediação
 
-No caso do **Servidor de Mediação**, você pode especificar o seguinte:
+Para o  **Servidor de Mediação**, você pode especificar:
 
-Se você estiver posicionando o servidor de mediação no pool de front-ends ou o servidor Standard Edition, marque a caixa de seleção **servidor de mediação posicionado habilitado**. Se você optar por não colocar o servidor de mediação, não haverá configurações definíveis nesta seção.
+Se você estiver posicionando o servidor de mediação no pool de front-ends ou no servidor Standard Edition, marque a caixa de seleção **servidor de mediação colocado habilitado**. Se você escolher não posicionar o Servidor de Mediação, não haverá configurações para definição nesta seção.
 
-Se você tiver habilitado a colocação do servidor de mediação, será necessário definir o intervalo de portas de escuta no servidor para a segurança da camada de transporte (TLS). Por padrão, essa porta é a 5067. Se você selecionar **Habilitar porta TCP**, será necessário definir uma porta TCP para o Servidor de Mediação colocado. Essa é uma configuração opcional e você deve consultar os requisitos de seu gateway ou os requisitos de sua PSTN (Rede Telefônica Pública Comutada) a fim de determinar se precisa disso. Por padrão, o valor de porta TCP é 5068.
+Se você tiver habilitado o posicionamento do Servidor de Mediação, será necessário definir o intervalo de porta de escuta no servidor para Transport Layer Security (TLS). Por padrão, essa porta é 5067. Se você selecionar **Habilitar porta TCP**, será necessário definir uma porta TCP (Transmission Control Protocol) para o Servidor de Mediação colocado. Essa é uma configuração opcional e você deve consultar os requisitos de seu gateway ou os requisitos de sua PSTN (Rede Telefônica Pública Comutada) a fim de determinar se precisa disso. Por padrão, o valor de porta TCP é 5068.
 
-Você define os gateways PSTN associados ao servidor de mediação posicionado. Se você já definiu gateways, eles estarão disponíveis para serem associados ao servidor de mediação.
+Defina os gateways PSTN associados ao Servidor de Mediação posicionado. Se você já tiver definido os gateways, eles estarão disponíveis para associação com o Servidor de Mediação.
 
-Se você tiver mais de um gateway associado a um servidor de mediação, o primeiro gateway associado será o gateway padrão. Se precisar escolher outro gateway como o gateway padrão, selecione o gateway que você deseja tornar padrão e clique em **Tornar Padrão**. Para desmarcar o gateway como padrão, clique em **Desfazer Padrão**.
+Se houver mais de um gateway associado ao Servidor de Mediação, o primeiro gateway associado será o gateway padrão. Se você precisar escolher outro gateway como o gateway padrão, selecione o gateway que você deseja tornar padrão e clique em **Tornar Padrão**. Para desmarcar o gateway como padrão, clique em **Desfazer Padrão**.
 
-Para obter detalhes sobre como definir e definir as configurações do pool de front-end do Enterprise Edition ou do servidor Standard Edition, consulte [definindo e configurando a topologia](https://technet.microsoft.com/library/51d1601e-4f83-48d4-ad08-3b4d5e2003aa.aspx) e [implantando servidores de mediação e definindo pares](https://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx).
+Para obter detalhes sobre como definir e configurar as definições para o pool de front-ends Enterprise Edition ou servidor Standard Edition, consulte [definindo e configurando a topologia](https://technet.microsoft.com/library/51d1601e-4f83-48d4-ad08-3b4d5e2003aa.aspx) e [implantando servidores de mediação e definindo pares](https://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx).
 
 

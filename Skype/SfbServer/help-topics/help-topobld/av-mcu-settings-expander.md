@@ -8,37 +8,37 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.AvMcuSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b0633d75-e0bb-4b4e-9abe-1f1c647a6c7d
-description: 'Para editar as propriedades de um pool de servidores de conferência A/V que você já definiu, faça o seguinte:'
-ms.openlocfilehash: 81746baeec304fd04cb612144ad0aaafb04e07dc
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Para editar as propriedades de um pool de servidor de conferência A/V que você já tenha definido, faça o seguinte:'
+ms.openlocfilehash: afb85c1248de7a145ba412c66763193d80a12eb4
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41820323"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48216182"
 ---
 # <a name="av-mcu-settings-expander"></a>Expansor de Configurações AV MCU
  
-Para editar as propriedades de um pool de servidores de conferência A/V que você já definiu, faça o seguinte:
+Para editar as propriedades de um pool de servidor de conferência A/V que você já tenha definido, faça o seguinte:
   
-## <a name="general-settings"></a>Configurações gerais
+## <a name="general-settings"></a>Configurações Gerais
 
-Para atualizar o nome de domínio totalmente qualificado (FQDN) do pool do servidor de conferência A/V, digite o nome do pool como ele está definido no sistema de nomes de domínio (DNS). Você deve ter um registro de host DNS (A) que corresponda ao nome do pool do servidor de conferência A/V.
+Para atualizar o FQDN (nome de domínio totalmente qualificado) do pool de servidores de conferência A/V, digite o nome do pool conforme definido no DNS (sistema de nomes de domínio). Você deve ter um registro de hospedeiro (A) DNS correspondente com o nome do pool de Servidor de Conferência A/V.
   
 ## <a name="av-conferencing-service"></a>Serviço de conferência A/V
 
-Para associar um pool de servidores de conferência A/V, selecione o pool de front-end ou pools que você precisa associar ao pool do servidor de conferência A/V.
+Para associar um pool de Servidores de Conferência A/V, selecione o pool de Front-Ends ou pools que você precisa associar ao pool de Servidores de Conferência A/V.
   
 > [!NOTE]
-> Se nenhum pool de front-end for exibido no painel **selecionar o pool de front-ends a ser associado a este/v conferência** , você deve colocar o servidor de conferência a/v no pool de front-end ou não selecionar para adicionar conferências na seção **recursos e funcionalidade** das propriedades do pool de front-end.
+> Se nenhum pool de front-ends for exibido no painel **Selecione os pools de front-ends a serem associados a este pool de conferência a/v** , você colocaria o servidor de conferência a/v com o pool de front-ends ou não selecionou a opção para adicionar conferência na seção **recursos e funcionalidade** das propriedades do pool de front-ends.
   
 
 
-Quando terminar, clique em **OK** para concluir a edição das configurações do pool do servidor de conferência a/V. Clique em **Cancelar** para descartar quaisquer alterações.
+Depois de concluir, clique em **OK** para completar a edição das configurações do pool de Servidores de Conferência A/V. Clique em **Cancelar** para descartar quaisquer alterações.
   
 

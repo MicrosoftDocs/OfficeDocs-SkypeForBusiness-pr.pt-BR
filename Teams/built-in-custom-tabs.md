@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Saiba como usar guias internas e personalizadas para incluir recursos, como conversas, arquivos, mapas e muito mais.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8ed9b1048eae307eaba0dcb5463cee15dac981db
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: f98024b10cf6fc191e9225a447903ff6dc25d6ff
+ms.sourcegitcommit: 3db7c450d3afbc1049e1016d51016442e5764634
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581352"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48203714"
 ---
 <a name="use-built-in-and-custom-tabs-in-microsoft-teams"></a>Usar guias internas e personalizadas no Microsoft Teams
 ==================================================
@@ -31,6 +31,9 @@ As guias permitem que os membros da equipe acessem serviços e conteúdo em um e
 Os proprietários e membros da equipe podem incluir guias em um canal, chat privado e chat em grupo para ajudar a integrar seus serviços de nuvem. As guias podem ser adicionadas para ajudar os usuários a acessar e gerenciar facilmente os dados de que precisam ou interagir com a maioria. Isso pode ser um relatório Power BI, um painel ou mesmo uma [Transmissão Microsoft](https://go.microsoft.com/fwlink/?linkid=855785) de um canal de vídeo em que você publica vídeos de treinamento.
 
 ![Três capturas de tela de vários conteúdos na guia.](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image4.png)
+
+>[!Note]
+> A alteração de usar o Microsoft Stream para o [onedrive for Business e o SharePoint para gravações de reunião](tmr-meeting-recording-change.md) será uma abordagem em fases. No lançamento, você poderá optar por se recusar a essa experiência, em novembro, será preciso recusar se quiser continuar a usar o Stream, e algum tempo no início do 2021 exigiremos que todos os clientes usem o OneDrive for Business e o SharePoint para novas gravações de reunião.
 
 ## <a name="work-with-tabs"></a>Trabalhar com guias
 

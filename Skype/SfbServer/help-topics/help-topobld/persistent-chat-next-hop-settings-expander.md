@@ -1,5 +1,5 @@
 ---
-title: Expansor de Configurações de Próximo Salto de Chat Persistente
+title: Expansor de Configurações de Próximo Salto de Bate-papo Persistente
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -8,32 +8,32 @@ ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.PersistentChatNextHopSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 91423153-746a-4f8a-9c7f-4102d3fdbb8a
-description: Você configura o próximo pool de saltos do chat persistente selecionando um servidor front-end ou um pool de front-end da lista.
-ms.openlocfilehash: db729901a1df53fd3c69b0dec626a4add628bc5e
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Você configura o pool de próximo salto do chat persistente, selecionando um servidor front-end ou um pool de front-ends da lista.
+ms.openlocfilehash: 32e8b8ab0e2427458b42d58e08b99e845481630f
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41819453"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48215962"
 ---
-# <a name="persistent-chat-next-hop-settings-expander"></a>Expansor de Configurações de Próximo Salto de Chat Persistente
+# <a name="persistent-chat-next-hop-settings-expander"></a>Expansor de Configurações de Próximo Salto de Bate-papo Persistente
  
-Você configura o **próximo pool de saltos** do chat persistente selecionando um servidor front-end ou um pool de front-end da lista.
+Você configura o pool de **próximo salto** do chat persistente, selecionando um servidor front-end ou um pool de front-ends da lista.
   
- **OK** Aceita e confirma as alterações na caixa de diálogo.
+ **OK** aceita e confirma as alterações na caixa de diálogo.
   
- **Cancelar** Descarta as alterações e fecha a caixa de diálogo.
+ **Cancelar** descarta as alterações e fecha a caixa de diálogo.
   
- **Ajuda** Exibe essa tela de ajuda.
+ **Ajuda** exibe essa tela de ajuda.
   
 ## <a name="see-also"></a>Confira também
 
-[Planejar Servidor de Chat Persistente no Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
+[Planejar o servidor de chat persistente no Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   
-[Adicionar um servidor de chat persistente à sua topologia do Skype for Business Server 2015](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
+[Adicionar servidor de chat persistente à sua topologia do Skype for Business Server 2015](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)

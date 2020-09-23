@@ -8,31 +8,31 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.FederationRouteSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 22aa11b8-80ba-4c6a-9396-d11166903066
-description: Para definir uma atribuição de rota de Federação do site, primeiro você deve ter a Federação habilitada no servidor de borda ou no pool do servidor de borda. Se a Federação não estiver habilitada no servidor de borda ou pool, as configurações de atribuição de rota de Federação do site não estarão disponíveis para modificação.
-ms.openlocfilehash: 863b1e857d748426c3bd25d33e2b44aca8dfc47d
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Para definir uma atribuição de rota de federação de local, primeiro você deve habilitar a federação no Servidor de Borda ou no pool de Servidores de Borda. Se a federação não estiver habilitada no Servidor de Borda ou no pool, significa que as configurações de atribuição de rota de federação para o local não estarão disponíveis para modificação.
+ms.openlocfilehash: 4e0bc987cb64c52fae816b39a87b5fed081bf143
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41819943"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48215552"
 ---
 # <a name="federation-route-settings-expander"></a>Expansor de Configurações de Rota de Federação
  
-Para definir uma atribuição de rota de Federação do site, primeiro você deve ter a Federação habilitada no servidor de borda ou no pool do servidor de borda. Se a Federação não estiver habilitada no servidor de borda ou pool, as configurações de atribuição de rota de Federação do site não estarão disponíveis para modificação.
+Para definir uma atribuição de rota de federação de local, primeiro você deve habilitar a federação no Servidor de Borda ou no pool de Servidores de Borda. Se a federação não estiver habilitada no Servidor de Borda ou no pool, significa que as configurações de atribuição de rota de federação para o local não estarão disponíveis para modificação.
   
 
-Se a configuração de Federação no servidor de borda ou no pool tiver sido configurada, você poderá configurar as seguintes opções: 
+Se a configuração de Federação no servidor de borda ou pool tiver sido configurada, você poderá configurar as seguintes opções: 
   
-- **Permitir atribuições de rota de Federação a todos os sites** Essa configuração afetará todos os sites. Certifique-se de que a configuração que você está configurada neste site seja adequada para todos os sites.
+- **Permitir atribuições de rota de Federação a todos os sites** Essa configuração afetará todos os sites. Assegure-se de que a definição que você está configurando neste site é apropriada para todos os sites.
     
-- **Habilitar Federação SIP** Selecione esta opção para habilitar uma rota de Federação SIP e, em seguida, selecione um diretor ou um pool de bordas como a rota de Federação.
+- **Habilitar Federação SIP** Selecione essa opção para habilitar uma rota de Federação SIP e selecione um diretor ou um pool de borda como a rota de Federação.
     
-- **Habilitar a Federação do XMPP** Selecione esta opção para habilitar uma rota de Federação do XMPP e, em seguida, selecione um diretor ou um pool de bordas como a rota de Federação.
+- **Habilitar Federação XMPP** Selecione essa opção para habilitar uma rota de Federação do XMPP e selecione um diretor ou pool de borda como a rota de Federação.
     
 
