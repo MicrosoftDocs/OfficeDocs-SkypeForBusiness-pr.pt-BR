@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 1d12a9422fe7f189d8ad85cf0b139e905550428f
-ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
+ms.openlocfilehash: 0edb682f4d39e6371c68029f6014945d3de441c9
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/19/2020
-ms.locfileid: "48135955"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48219082"
 ---
 # <a name="create-a-new-template-from-an-existing-team-template-in-microsoft-teams"></a>Criar um novo modelo a partir de um modelo de equipe existente no Microsoft Teams
 
@@ -32,44 +32,44 @@ ms.locfileid: "48135955"
 
 O Microsoft Teams oferece modelos pré-criados que podem ser salvos e modificados para atender às suas necessidades organizacionais específicas.
 
-1. Faça logon no centro de administração do Microsoft Teams.
+1. Entre no centro de administração do Microsoft Teams.
 
 2. Na navegação à esquerda **, expanda**  >  **modelos de equipe do teams**.
 
-3. Na seção **modelos de equipe** , clique em ao lado de um modelo que você deseja duplicar para realçá-lo.
+3. Na seção **modelos de equipe** , selecione ao lado de um modelo que você deseja duplicar para realçá-lo.
 
-4. Clique em **duplicar**.
+4. Selecione **duplicar**.
 
 ![Uma imagem da caixa de diálogo modelos de equipe com a caixa de diálogo Adicionar realçada.](media/template-duplicate.png)
 
-(Se preferir, você pode clicar em **Adicionar**  >  **Comece com um modelo existente** para abrir a tela **selecionar o modelo a ser usado como ponto de partida** .)
+(Se preferir, você pode selecionar **Adicionar**  >  **Comece com um modelo existente** para abrir **Selecione o modelo a ser usado como ponto de partida**.)
 
 ![Uma imagem da tela de ponto inicial dos modelos de equipe com iniciar com um modelo existente realçado.](media/template-start-existing-template.png)
 
-5. Na tela **selecionar o modelo a ser usado como ponto de partida** , clique em **Avançar**.
+5. Na tela **selecionar o modelo a ser usado como ponto de partida** , selecione **Avançar**.
 
     O modelo duplicado será aberto e a **cópia** da palavra será acrescentada ao nome.
 
-6. Preencha os campos a seguir e clique em **Avançar**:
+6. Preencha os campos a seguir e selecione **Avançar**:
     - Nome do modelo
     - Descrições de modelo curto e longo
     - Visibilidade de localidade  
 
 7. Na seção **canais, guias e aplicativos** , modifique os canais existentes e os aplicativos de que sua equipe precisa.
 
-    1. Selecione um canal para editar e clique em **Editar**.
+    1. Selecione um canal para editar e selecione **Editar**.
     2. **Aplique** as alterações quando concluir.
 
 8. Adicione os canais ou aplicativos de que sua equipe precisa.
 
-    1. Na seção **canais** , clique em **Adicionar**.
+    1. Na seção **canais** , selecione **Adicionar**.
     2. Na caixa de diálogo **Adicionar** , nomeie o canal.
     3. Adicione uma descrição.
     4. Decida se o canal deve ser mostrado por padrão.
-    5. Procure o nome de um aplicativo que você deseja addd para o canal.
-    6. Clique em **aplicar** quando concluir.
+    5. Procure o nome de um aplicativo que você deseja adicionar ao canal.
+    6. Selecione **aplicar** quando concluído.
 
-7. Clique em **Enviar** quando terminar de adicionar canais e aplicativos.
+7. Selecione **Enviar** quando terminar de adicionar canais e aplicativos.
 
     O novo modelo é salvo na biblioteca de modelos.
 

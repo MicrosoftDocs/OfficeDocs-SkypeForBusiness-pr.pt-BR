@@ -8,46 +8,46 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.AddFrontEndMonitoringStorePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 48e8587d-a9d2-4fc5-acc5-2bf0abf133c6
 description: 'Defina o monitoramento do SQL Server Store configurando as seguintes propriedades:'
-ms.openlocfilehash: 789083ad0743ed7baf94630c86e4647e218c336c
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 85b8518bb533de68423dea93f259fc7b927ed9ba
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41820853"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48218872"
 ---
 # <a name="add-front-end-monitoring-store-page"></a>Adicionar Página de Repositório de Monitoramento do Front End
  
 **Defina o monitoramento do SQL Server Store** configurando as seguintes propriedades:
   
-- **Monitorando a loja do SQL Server**: selecione um nome de domínio totalmente qualificado do SQL Server (e, opcionalmente, uma instância) na lista.
+- **Monitoramento do SQL Server Store**: selecione um nome de domínio totalmente qualificado do SQL Server (e, opcionalmente, uma instância) na lista.
     
-    Clique em **novo** para criar uma nova definição de FQDN do SQL Server e, opcionalmente, um nome de instância para a loja do servidor de monitoramento.
+    Clique em **novo** para criar uma nova definição de FQDN do SQL Server e, opcionalmente, um nome de instância para o repositório do servidor de monitoramento.
     
-- Marque a caixa de seleção **habilitar o espelhamento da loja do SQL Server** se desejar adicionar o espelhamento de banco de dados para o servidor de monitoramento.
+- Marque a caixa de seleção **habilitar espelhamento do repositório do SQL Server** se quiser adicionar o espelhamento de banco de dados para o servidor de monitoramento.
     
-    Selecione um espelho existente do **SQL Server Store de monitoramento** na lista.
+    Selecione um **espelhamento de repositório do SQL Server de monitoramento** existente na lista.
     
-    Clique em **novo** para criar uma nova definição de FQDN do SQL Server e, opcionalmente, um nome de instância para o armazenamento de espelho.
+    Clique em **novo** para criar uma nova definição de FQDN do SQL Server e, opcionalmente, um nome de instância para o repositório de espelho.
     
-- Se você selecionou **habilitar o espelhamento da loja do SQL Server**, selecione **usar a testemunha de espelhamento do SQL Server para habilitar o failover automático** para selecionar um repositório de testemunha de espelhamento do SQL Server na lista.
+- Se você selecionou **habilitar espelhamento de repositório do SQL Server**, selecione, opcionalmente, **usar testemunha de espelhamento do SQL Server para habilitar o failover automático** para selecionar um repositório de testemunha de espelhamento do SQL Server na lista.
     
-    Clique em **novo** para criar uma nova definição de FQDN do SQL Server e, opcionalmente, um nome de instância para o armazenamento de testemunha de espelhamento.
+    Clique em **novo** para criar uma nova definição de FQDN do SQL Server e, opcionalmente, um nome de instância para o repositório de testemunha de espelhamento.
     
 Clique em **Voltar** para voltar à caixa de diálogo de definição anterior.
   
-Clique em **Avançar** depois de concluir a inserção das opções para esta caixa de diálogo para continuar com a configuração.
+Clique em **Avançar** depois de concluir a inserção das opções para essa caixa de diálogo para prosseguir com a configuração.
   
 Clique em **Cancelar** para descartar todas as alterações e encerrar o assistente.
   
-Clique em **Ajuda** para acessar a ajuda contextual, como esta página.
+Clique em **Ajuda** para acessar a ajuda sensível ao contexto, como esta página.
   
 ## <a name="see-also"></a>Confira também
 
-[Associar um repositório de monitoramento com um Pool de Front-Ends no Skype for Business Server 2015](../../deploy/deploy-monitoring/associate-a-monitoring-store.md)
+[Associar um repositório de monitoramento a um pool de front-ends no Skype for Business Server 2015](../../deploy/deploy-monitoring/associate-a-monitoring-store.md)

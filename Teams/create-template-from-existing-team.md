@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: ee1c121f4d42e2d093a3b9eabef9adedd0605128
-ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
+ms.openlocfilehash: 8ba02a1d1777f03f58d5d064090ebefb1a5546e6
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/19/2020
-ms.locfileid: "48135945"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48219122"
 ---
 # <a name="create-a-template-from-an-existing-team-in-microsoft-teams"></a>Criar um modelo a partir de uma equipe existente no Microsoft Teams
 
@@ -32,35 +32,35 @@ ms.locfileid: "48135945"
 
 O Microsoft Teams permite que você crie um modelo a partir de uma equipe existente que pode ser salva e modificada para atender às suas necessidades organizacionais específicas.
 
-1. Faça logon no centro de administração do Microsoft Teams.
+1. Entre no centro de administração do Microsoft Teams.
 
 2. Na navegação à esquerda **, expanda**  >  **modelos de equipe do teams**.
 
-3. Clique em **Adicionar**.
+3. Selecione **Adicionar**.
 
-4. Selecione **usar uma equipe existente como um modelo**e clique em **Avançar**.
+4. Selecione **usar uma equipe existente como um modelo**e selecione **Avançar**.
 
  ![Uma imagem da tela de ponto inicial dos modelos de equipe com o uso de uma equipe existente como um modelo realçado.](media/team-existing-team-as-template.png)
 
-5. Selecione uma equipe para usar como ponto de partida clicando em ao lado do nome da equipe e, em seguida, clique em **Avançar**.
+5. Selecione uma equipe para usar como ponto de partida, selecionando ao lado do nome da equipe e, em seguida, selecione **Avançar**.
 
 ![Uma imagem da lista de equipes com uma equipe realçada.](media/team-existing-team-selection.png)
 
-6. Na seção **configurações de modelo** , preencha os campos a seguir e clique em **Avançar**:
+6. Na seção **configurações de modelo** , preencha os campos a seguir e selecione **Avançar**:
     - Nome do modelo
     - Descrições de modelo curto e longo
     - Visibilidade de localidade  
   
 7. Na seção **canais, guias e aplicativos** , adicione os canais e aplicativos de que sua equipe precisa.
 
-    1. Na seção **canais** , clique em **Adicionar**.
+    1. Na seção **canais** , selecione **Adicionar**.
     2. Na caixa de diálogo **Adicionar** , nomeie o canal.
     3. Adicione uma descrição.
     4. Decida se o canal deve ser mostrado por padrão.
-    5. Procure o nome de um aplicativo que você deseja addd para o canal.
-    6. Clique em **aplicar** quando concluir.
+    5. Procure o nome de um aplicativo que você deseja adicionar ao canal.
+    6. Selecione **aplicar** quando concluído.
 
-8. Clique em **Enviar** para salvar as alterações.
+8. Selecione **Enviar** para salvar suas alterações.
 
 Seu novo modelo é exibido na lista **modelos de equipe** . O modelo pode ser usado para criar uma equipe no Microsoft Teams.
 

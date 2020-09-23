@@ -8,38 +8,38 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.SqlStoreSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bd269d52-6f87-4433-b9b0-2b543fea845d
-description: Para editar as propriedades de um banco de dados SQL Server, você deve alterar a instância do banco de dados do SQL Server. Não é possível usar a caixa de diálogo Editar propriedades para executar tarefas, como mover seu banco de dados do servidor de arquivamento de um computador para outro. Além disso, você não pode usar a caixa de diálogo Editar propriedades para alterar a instância do SQL Server que hospeda o repositório de gerenciamento central.
-ms.openlocfilehash: 654b1727badf9c0f08bcab9e181b301b72bd1299
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Para editar as propriedades de um banco de dados do SQL Server, você deve alterar a instância do banco de dados do SQL Server. Não é possível usar a caixa de diálogo Editar Propriedades para executar tarefas como mover seu banco de dados do Servidor de Arquivamento de um computador para outro. Além disso, você não pode usar a caixa de diálogo Editar propriedades para alterar a instância do SQL Server que hospeda o repositório de gerenciamento central.
+ms.openlocfilehash: e3b16d8c6eab4f4918ef39b3c4f1ab4d0c6fc057
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41819193"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48219606"
 ---
 # <a name="sql-store-settings-expander"></a>Expansor de Configurações de Repositório SQL
  
-Para editar as propriedades de um banco de dados SQL Server, você deve alterar a instância do banco de dados do SQL Server. Não é possível usar a caixa de diálogo **Editar propriedades** para executar tarefas, como mover seu banco de dados do servidor de arquivamento de um computador para outro. Além disso, você não pode usar a caixa de diálogo **Editar propriedades** para alterar a instância do SQL Server que hospeda o repositório de gerenciamento central.
+Para editar as propriedades de um banco de dados do SQL Server, você deve alterar a instância do banco de dados do SQL Server. Não é possível usar a caixa de diálogo **Editar Propriedades** para executar tarefas como mover seu banco de dados do Servidor de Arquivamento de um computador para outro. Além disso, você não pode usar a caixa de diálogo **Editar propriedades** para alterar a instância do SQL Server que hospeda o repositório de gerenciamento central.
   
-## <a name="editing-the-properties-of-a-sql-server-database"></a>Editando as propriedades de um banco de dados SQL Server
+## <a name="editing-the-properties-of-a-sql-server-database"></a>Editando as propriedades de um banco de dados do SQL Server
 
-Para alterar a instância do SQL Server que é usada por qualquer banco de dados diferente do repositório de gerenciamento central, conclua o seguinte procedimento no construtor de topologias:
+Para alterar a instância do SQL Server usada por qualquer banco de dados diferente do repositório de gerenciamento central, conclua o procedimento a seguir no construtor de topologias:
   
 ### <a name="to-modify-an-instance-of-sql-server"></a>Para modificar uma instância do SQL Server
 
-1. Selecione o banco de dados apropriado no nó **repositórios SQL** e clique em **Editar propriedades**.
+1. Selecione o banco de dados apropriado no nó **Repositórios do SQL** e clique em **Editar Propriedades**.
     
-2. Na caixa de diálogo **Editar propriedades** , siga um destes procedimentos:
+2. Na caixa de diálogo **Editar Propriedades**, execute um destes procedimentos:
     
    - Para usar a instância padrão do SQL Server, selecione **instância padrão** e clique em **OK**.
     
-   - Para usar uma instância de banco de dados nomeado, selecione **instância nomeada**, insira o nome da instância na caixa de texto e clique em **OK**. Você deve inserir apenas o nome da instância (por exemplo, ArchivingInstance), e não todo o caminho do SQL Server.
+   - Para usar uma instância de banco de dados nomeada, selecione **Instância nomeada**, insira o nome da instância na caixa de texto e clique em **OK**. Você deve inserir apenas o nome da instância (por exemplo, ArchivingInstance), e não todo o caminho do SQL Server.
     
-Quando você estiver trabalhando na caixa de diálogo **Editar propriedades** , o construtor de topologias não verificará se a instância do banco de dados que você inseriu é uma instância válida. Por exemplo, se você inadvertidamente typeArchivingInstanec como o nome da instância e, em seguida, clique em **OK**, o construtor de topologias aceitará essa instância inválida. Antes de poder publicar esta topologia, você deve corrigir esse erro: se uma instância do SQL Server não puder ser encontrada, o construtor de topologias não criará essa instância para você.
+Quando você estiver trabalhando na caixa de diálogo **Editar propriedades** , o construtor de topologias não verificará se a instância do banco de dados que você inseriu é uma instância válida. Por exemplo, se você inadvertidamente typeArchivingInstanec como o nome da instância e, em seguida, clique em **OK**, o construtor de topologias aceitará essa instância inválida. Antes de publicar esta topologia, você deve corrigir esse erro: se não for possível encontrar uma instância do SQL Server, o construtor de topologias não criará essa instância para você.
   
 

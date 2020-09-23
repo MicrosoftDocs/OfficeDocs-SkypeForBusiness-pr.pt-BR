@@ -8,24 +8,24 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.AddEdgeServerFqdnsPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 84a9511d-601d-4819-a30c-7b08d96e4d97
-description: Você deve especificar um FQDN (nome de domínio totalmente qualificado) para o serviço de borda de acesso. Se você não tiver selecionado a opção usar um único &amp; endereço IP de FQDN na página Selecionar recursos, também deverá especificar um FQDN para o serviço de borda de Webconferência e para o serviço de borda a/V.
-ms.openlocfilehash: c3ccc2f42f090fd3d6f28d22064de98879561a01
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Especifique um FQDN (nome de domínio totalmente qualificado) para o serviço de Borda de Acesso. Se você não selecionou a opção usar um endereço IP de FQDN único &amp; na página Selecionar recursos, também deverá especificar um FQDN para o serviço de borda de Webconferência e para o serviço de borda a/V.
+ms.openlocfilehash: d67caefe3e60d8c4e9cd398438fb7a4d93cd9d45
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41821053"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48219222"
 ---
 # <a name="add-edge-server-fqdn"></a>Adicionar FQDN do Servidor de Borda
  
-Você deve especificar um FQDN (nome de domínio totalmente qualificado) para o serviço de borda de acesso. Se você não tiver selecionado a opção **usar um único &amp; endereço IP de FQDN** na página **selecionar recursos** , também deverá especificar um FQDN para o serviço de borda de Webconferência e para o serviço de borda a/V.
+Especifique um FQDN (nome de domínio totalmente qualificado) para o serviço de Borda de Acesso. Se você não selecionou a opção **usar um &amp; endereço IP de FQDN único** na página **selecionar recursos** , também deverá especificar um FQDN para o serviço de borda de Webconferência e para o serviço de borda a/V.
   
-Além disso, se você tiver selecionado a opção **usar &amp; um único endereço IP de FQDN** , especifique um número de porta diferente para cada um dos serviços de borda (configurações de porta recomendadas: 444 para serviço de borda de acesso, 8057 para serviço de borda de Webconferência e 443 para serviço de borda a/V). Se você não selecionou a opção, pode usar o mesmo número de porta (como 443) para todos os três serviços.
+Além disso, se você selecionou a opção **usar um único &amp; endereço IP FQDN** , deve especificar um número de porta diferente para cada um dos serviços de borda (configurações de porta recomendadas: 444 para serviço de borda de acesso, 8057 para serviço de borda de webconferência e 443 para serviço de borda a/V). Se você não selecionou a opção, você pode usar o mesmo número de porta (por exemplo 443) para todos os três serviços.
   
 

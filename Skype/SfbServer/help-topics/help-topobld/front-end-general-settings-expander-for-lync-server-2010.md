@@ -8,97 +8,97 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.FrontEndGeneralSettingsExpander2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 58269c38-98d9-499f-ab69-6a63a6e5530e
-description: 'Edite as propriedades do servidor front-end ou do pool de front-end editando ou configurando os atributos a seguir. A página de configuração é separada nas seguintes seções:'
-ms.openlocfilehash: c417cd95d43354ad2466138ef6c9382c1a2cd00f
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Edite as propriedades do servidor front-end ou do pool de front-ends editando ou configurando os seguintes atributos. A página de configuração é separada nas seguintes seções:'
+ms.openlocfilehash: 6d7cdb9067ff88b383077538e38c39c2f8e86a5a
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41819893"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48219092"
 ---
 # <a name="front-end-general-settings-expander-for-lync-server-2010"></a>Expansor de Configurações Gerais de Front End para Lync Server 2010
 
-Edite as propriedades do servidor front-end ou do pool de front-end editando ou configurando os atributos a seguir. A página de configuração é separada nas seguintes seções:
+Edite as propriedades do servidor front-end ou do pool de front-ends editando ou configurando os seguintes atributos. A página de configuração é separada nas seguintes seções:
 
  **Geral**
 
-- **FQDN**: o nome de domínio totalmente qualificado do servidor front-end ou pool de front-end.
+- **FQDN**: o nome de domínio totalmente qualificado do servidor front-end ou do pool de front-ends.
 
-- Selecione **usar todos os endereços IP configurados** para usar todos os endereços configurados no servidor front-end ou no pool de front-end.
+- Selecione **usar todos os endereços IP configurados** para usar todos os endereços configurados no servidor front-end ou no pool de front-ends.
 
     > [!IMPORTANT]
-    > Você não deve selecionar essa opção se colocar o servidor de mediação no servidor front-end ou no pool de front-ends. Os servidores de mediação e servidores front-end precisam de endereços IP dedicados para se comunicar.
+    > Você não deve selecionar essa opção se colocar o servidor de mediação no servidor front-end ou no pool de front-ends. Servidores de mediação e servidores front-end precisam de endereços IP dedicados nos quais se comunicar.
 
-- Selecione **limitar o uso do serviço para endereços IP selecionados** e insira o endereço IP do **endereço IP primário** para a comunicação do servidor front-end ou do pool de front-end com o restante da implantação. Digite o **endereço IP PSTN** o endereço IP que está associado ao servidor de mediação.
+- Selecione **limitar o uso do serviço para os endereços IP selecionados** e digite o endereço IP do **endereço IP principal** para a comunicação do servidor front-end ou do pool de front-ends com o restante da implantação. Digite o **endereço IP PSTN** o endereço IP que está associado ao servidor de mediação.
 
-    **Recursos e funcionalidades**
+    **Recursos e funcionalidade**
 
-- **Conferência**: marque a caixa de seleção se desejar recursos de conferência na sua implantação. A conferência inclui áudio, vídeo, compartilhamento de aplicativos, compartilhamento de área de trabalho e conferência via Web. Você precisará criar e associar um servidor de Web Apps do Office para webconferência (definido mais tarde nesta página Propriedades).
+- **Conferência**: marque a caixa de seleção se você quiser recursos de conferência em sua implantação. A conferência inclui áudio, vídeo, compartilhamento de aplicativo, compartilhamento de desktop e conferência da Web. Você precisará criar e associar um servidor do Office Web Apps para webconferência (definido mais tarde nesta página de propriedades).
 
-- Se você selecionou conferência, a **conferência discada (PSTN)** pode ser selecionada. Marque a caixa de seleção para habilitar os recursos de conferência discada.
+- Se você selecionou Conferência, será possível selecionar **Conferência discada (PSTN)**. Marque a caixa de seleção para habilitar os recursos de conferência discada.
 
-- Marque a caixa de seleção **Enterprise Voice** se você pretende implantar recursos para habilitar o Lync Server 2013 para atuar como seu sistema de voz de telefone usando tecnologias de voz sobre IP (VoIP), incluindo a opção de implantação de telefones fixos de telefones, troncos SIP ou conectividade de rede telefônica pública comutada usando o servidor de mediação, gateways PSTN e IP-PBX, em combinação ou sozinhas, com base no design e nos requisitos. Para obter detalhes sobre o Enterprise Voice, consulte [Enterprise Voice](https://technet.microsoft.com/library/c9da8099-6f4f-4346-ac67-f041bb96072c.aspx) e [plano para Enterprise Voice no Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)
+- Marque a caixa de seleção **Enterprise Voice** se você pretende implantar recursos para permitir que o Lync Server 2013 atue como seu sistema de voz telefônica usando tecnologias de voz sobre IP (VoIP) incluindo a opção de implantação de telefones de monofone, troncos SIP ou conectividade de rede telefônica pública comutada usando servidor de mediação, gateways PSTN e IP-PBX, em combinação ou sozinho, com base no design e nos requisitos. Para obter detalhes sobre o Enterprise Voice, consulte [Enterprise Voice](https://technet.microsoft.com/library/c9da8099-6f4f-4346-ac67-f041bb96072c.aspx) e [Plan for Enterprise Voice no Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)
 
-    **Associações**
+    **Associação**
 
-- **Repositório do SQL Server**: o FQDN do SQL Server (e opcionalmente uma instância nomeada) associado ao servidor front-end ou ao pool de front-end. Você seleciona a loja do SQL Server na lista ou cria um novo repositório do SQL Server clicando em **novo**
+- **Repositório do SQL Server**: o FQDN do SQL Server (e, opcionalmente, uma instância nomeada) associado ao servidor front-end ou ao pool de front-ends. Selecione o SQL Server store na lista ou crie um novo SQL Server store clicando em **Novo**
 
-- **Repositório de arquivos**: você seleciona o FQDN do servidor e o compartilhamento (no formato `\\<FQDN of server>\<share name>`) que atuará como o local do repositório de arquivos para os arquivos compartilhados que o Lync Server 2013 cria e usa para replicação, diretórios de conferência e outras finalidades. Você seleciona o repositório de arquivos da lista ou cria um novo repositório de arquivos clicando em **novo**.
+- **Repositório de arquivos**: selecione o FQDN do servidor e o compartilhamento (no formato  `\\<FQDN of server>\<share name>` ) que atuará como o local do repositório de arquivos para os arquivos compartilhados que o Lync Server 2013 cria e usa para replicação, diretórios de conferência e outros fins. Selecione o Repositório de arquivo na lista ou crie um novo Repositório de arquivo clicando em **Novo**
 
 - Marque a caixa de seleção **associar servidor de arquivamento** para habilitar um servidor de arquivamento para este servidor front-end ou pool de front-ends. Depois de marcar a caixa de seleção, selecione um servidor de arquivamento existente na lista ou clique em **novo** para criar as definições para um novo servidor de arquivamento.
 
-- Marque a caixa de seleção **associar servidor de monitoramento** para habilitar um servidor de monitoramento para este servidor front-end ou pool de front-ends. Depois de marcar a caixa de seleção, selecione um servidor de monitoramento existente na lista ou clique em **novo** para criar as definições para um novo servidor de monitoramento.
+- Selecione a caixa de seleção **associar servidor de monitoramento** para habilitar um servidor de monitoramento para este servidor front-end ou pool de front-ends. Depois de marcar a caixa de seleção, selecione um servidor de monitoramento existente na lista ou clique em **novo** para criar as definições de um novo servidor de monitoramento.
 
-- Marque a caixa de seleção **associar o pool de bordas (para componentes de mídia** para habilitar um servidor de borda para este servidor front-end ou pool de front-ends. Depois de marcar a caixa de seleção, você seleciona um servidor de borda ou um pool existente na lista ou clica em **novo** para criar as definições para um novo servidor de borda ou pool.
+- Marque a caixa de seleção **associar pool de borda (para componentes de mídia** para habilitar um servidor de borda para este servidor front-end ou pool de front-ends. Depois de marcar a caixa de seleção, selecione um servidor de borda ou pool existente na lista ou clique em **novo** para criar as definições de um novo servidor de borda ou pool.
 
-  **Resiliência**
+  **Resiliency**
 
-- Marque a caixa de seleção **pool de registradores de backup associados** para selecionar na lista um servidor front-end ou um pool de front-end que será o registrador de backup (ou seja, o servidor front-end ou o pool de front-ends designado como registrador secundário caso o principal falhe)
+- Marque a caixa de seleção **pool de registrador de backup associado** para selecionar na lista um servidor front-end ou um pool de front-ends que será o registrador de backup (ou seja, o servidor front-end ou o pool de front-ends designado como registrador secundário em caso de falha do principal)
 
-- Se você tiver selecionado o pool de registradores de backup associado e tiver escolhido um registrador de backup, poderá marcar a caixa de seleção para **failover e failback automáticos de voz**. Agora você pode definir propriedades numéricas para **detecção interna de failover de voz** e **intervalo de failback de voz (s)**. Para obter detalhes, consulte [planejando a resiliência do Enterprise Voice](https://technet.microsoft.com/library/ca116700-1055-4ca5-9b87-4c7f380c3655.aspx)
+- Se você selecionou Pool associado de Registradores de backup e escolheu um registrador de backup, poderá marcar a caixa de seleção para **Failover e failback automático para Voz**. Agora é possível definir as propriedades numéricas para **Detecção interna de failover de voz (seg.)** e **Intervalo de failback de voz (seg.)**. Para obter detalhes, consulte [Planning for Enterprise Voice Resiliency](https://technet.microsoft.com/library/ca116700-1055-4ca5-9b87-4c7f380c3655.aspx)
 
   **Serviços Web**
 
-- Para configurar **Serviços Web internos**, defina **portas de escuta** para **http** e **https**. Por padrão, essas são portas TCP 80 e porta TCP 443, respectivamente. Você também pode configurar as **portas publicadas** para **http** e **https**. Por padrão, essas são portas TCP 80 e porta TCP 443, respectivamente. Com base na configuração interna dos seus serviços Web e no uso de balanceadores de carga (balanceadores de carga de hardware e balanceamento de carga de DNS), ajuste os valores de porta para definir as portas de escuta e publicadas.
+- Para configurar os **Serviços internos da Web**, defina as **Portas de escuta** para **HTTP** e **HTTPS**. Por padrão, são as portas TCP 80 e TCP 443, respectivamente. Configure também as **Portas publicadas** para **HTTP** e **HTTPS**. Por padrão, são as portas TCP 80 e TCP 443, respectivamente. Com base em sua configuração de serviços Web internos e uso dos balanceadores de carga (balanceadores de carga de hardware e balanceamento de carga DNS), ajuste os valores de porta para definir as portas de escuta e de publicação.
 
     > [!IMPORTANT]
-    > Os serviços internos da Web e as portas de escuta e publicadas definidas são para clientes e dispositivos internos. Dispositivos e clientes externos usam as portas ouvinte e portas publicadas de serviços Web externos, juntamente com o nome de domínio totalmente qualificado dos serviços Web externos (FQDN) definido.
+    > Os serviços internos da Web e as portas definidas de escuta e publicação servem para clientes e dispositivos internos. Clientes e dispositivos externos usam as portas de escuta e publicação de serviços Web externos, junto com o nome de domínio totalmente qualificado (FQDN) dos serviços Web externos definidos.
 
-- Para configurar **Serviços Web externos**, defina **portas de escuta** para **http** e **https**. Por padrão, essas são portas TCP 80 e porta TCP 443, respectivamente. Você também pode configurar as **portas publicadas** para **http** e **https**. Por padrão, essas são portas TCP 80 e porta TCP 443, respectivamente. Com base na configuração interna dos seus serviços Web e no uso de balanceadores de carga (balanceadores de carga de hardware e balanceamento de carga de DNS), ajuste os valores de porta para definir as portas de escuta e publicadas.
+- Para configurar os **Serviços Externos da Web**, defina as **Portas de escuta** para **HTTP** e **HTTPS**. Por padrão, são as portas TCP 80 e TCP 443, respectivamente. Configure também as **Portas publicadas** para **HTTP** e **HTTPS**. Por padrão, são as portas TCP 80 e TCP 443, respectivamente. Com base em sua configuração de serviços Web internos e uso dos balanceadores de carga (balanceadores de carga de hardware e balanceamento de carga DNS), ajuste os valores de porta para definir as portas de escuta e de publicação.
 
     > [!IMPORTANT]
-    > Os serviços Web externos e as portas de escuta e publicadas definidas são para clientes e dispositivos externos. Dispositivos e clientes externos usam as portas de escuta e as portas publicadas de serviços Web externos, geralmente definidas pelo seu proxy reverso juntamente com o nome de domínio totalmente qualificado dos serviços Web externos (FQDN). A relação do FQDN dos serviços Web externos e as URLs simples definem os endereços de URL (Uniform Resource Locator) que os clientes externos usarão para acessar os serviços disponíveis para usuários e dispositivos externos. Para obter mais detalhes sobre URLs simples, consulte [planejando URLs simples](https://technet.microsoft.com/library/20e4f4b6-b7ff-4297-b00d-d1211ee800ac.aspx).
+    > Os serviços externos da Web e as portas definidas de escuta e publicação servem para clientes e dispositivos externos. Clientes e dispositivos externos usam as portas de escuta e publicação de serviços Web externos, normalmente definidos por seu proxy reverso, junto com o nome de domínio totalmente qualificado (FQDN) dos serviços Web externos definidos. O relacionamento do FQDN dos serviços web externos e os URLs Simples definem os endereços do localizador de recursos uniforme (URL) que os clientes externos usarão para acessar os serviços disponíveis para usuários e dispositivos externos. Para obter mais detalhes sobre URLs Simples, consulte [Planning for Simple URLs](https://technet.microsoft.com/library/20e4f4b6-b7ff-4297-b00d-d1211ee800ac.aspx).
 
   **Servidor de mediação**
 
-- Para configurar as propriedades do **servidor de mediação** para um servidor de mediação posicionado (ou seja, um servidor de mediação implantado no servidor front-end ou no pool Front-end), selecione o **servidor de mediação posicionado habilitado**.
+- Para configurar as propriedades do **servidor de mediação** para um servidor de mediação posicionado (ou seja, um servidor de mediação implantado no servidor front-end ou no pool de front-ends), selecione **servidor de mediação posicionado habilitado**.
 
-- Para definir as **portas de escuta** para um servidor de mediação posicionado, digite o valor de porta **TLS** e **TCP** no qual o servidor de mediação posicionado está ouvindo. Por padrão, o TLS é definido como a porta TCP 5067.
+- Para definir as **portas de escuta** de um servidor de mediação posicionado, digite o valor da porta **TLS** e **TCP** no qual o servidor de mediação posicionado está escutando. Por padrão, TLS é definido como porta TCP 5067.
 
-- Para definir um valor de porta TCP para o servidor de mediação, marque a caixa de seleção **habilitar porta TCP** . Por padrão, o servidor de mediação usa o protocolo TLS (Transport Layer Security) sobre TCP. As portas TCP estão disponíveis apenas quando a seleção Habilitar porta TCP está habilitada.
+- Para definir um valor de porta TCP para o servidor de mediação, marque a caixa de seleção **habilitar porta TCP** . Por padrão, o servidor de mediação usa o protocolo TLS (Transport Layer Security) sobre TCP. As portas TCP estão disponíveis somente quando a seleção Habilitar Porta TCP é habilitada.
 
     > [!NOTE]
-    > Essa é uma configuração opcional, e você deve se referir aos requisitos do seu gateway ou PSTN para determinar se precisa disso. Por padrão, o valor de porta TCP é 5068.
+    > Essa é uma configuração opcional, e você deve consultar os requisitos de seu gateway ou PSTN a fim de determinar se precisa disso. Por padrão, o valor de porta TCP é 5068.
 
-- Você define troncos associados ao servidor de mediação posicionado. Se você já tiver definido os troncos, eles estarão disponíveis para associação com o Servidor de Mediação.
+- Defina os troncos associados ao Servidor de Mediação posicionado. Se você já tiver definido os troncos, eles estarão disponíveis para associação com o Servidor de Mediação.
 
-    Se você tiver mais de um gateway associado a um servidor de mediação, poderá especificar o gateway padrão selecionando o gateway que deseja tornar o padrão e clicando em **tornar padrão**. Se você optar por remover o gateway padrão atual, selecione o gateway e clique em **desmarcar padrão**.
+    Se houver mais de um gateway associado a um servidor de mediação, você poderá especificar o gateway padrão selecionando o gateway que deseja tornar o padrão e clicando em **tornar padrão**. Se você escolher remover o gateway padrão, selecione o gateway e clique em **Desfazer Padrão**.
 
 > [!IMPORTANT]
-> Se você fizer alterações nas propriedades nesta caixa de diálogo, deverá publicar a topologia e executar o assistente de implantação do Skype for Business Server em todos os servidores afetados. Após a publicação da nova topologia, uma lista de servidores afetados em que o assistente de implantação do Skype for Business Server deve ser executado é fornecido para você como um link na tela de Resumo de publicação de topologia bem-sucedida. Para obter detalhes sobre como publicar a topologia atualizada, consulte [publicar a topologia](https://technet.microsoft.com/library/3b5a744b-b3a8-4538-a55e-e2e4f72dff47.aspx). Para obter detalhes sobre o assistente de implantação do Skype for Business Server, consulte [Ferramentas administrativas do Lync Server](https://technet.microsoft.com/library/9b006f93-4f3d-461d-89b8-e80a34fdb3c5.aspx).
+> Se você fizer alterações nas propriedades nessa caixa de diálogo, deverá publicar a topologia e executar o assistente de implantação do Skype for Business Server em todos os servidores afetados. Após publicar a nova topologia, uma lista de servidores afetados onde o assistente de implantação do Skype for Business Server deve ser executado é fornecida como um link na tela Resumo da publicação de topologia bem-sucedida. Para obter detalhes sobre como publicar a topologia atualizada, consulte [Publish the Topology](https://technet.microsoft.com/library/3b5a744b-b3a8-4538-a55e-e2e4f72dff47.aspx). Para obter detalhes sobre o assistente de implantação do Skype for Business Server, consulte [Ferramentas administrativas do Lync Server](https://technet.microsoft.com/library/9b006f93-4f3d-461d-89b8-e80a34fdb3c5.aspx).
 
-Clique em **OK** para salvar e confirmar as alterações no documento de topologia.
+Clique em **OK** para salvar e confirmar suas alterações no documento de topologia.
 
 Clique em **Cancelar** para descartar suas alterações e fechar as **Propriedades de edição** para o servidor front-end ou o pool de front-ends.
 
-Clique em **ajuda** para ler este tópico da ajuda.
+Clique em **Ajuda** para ler esse tópico de ajuda.
 
 ## <a name="see-also"></a>Confira também
 
-[Definir e configurar um pool de front-end ou um servidor Standard Edition](https://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx)
+[Definir e configurar um pool de front-end ou servidor do Standard Edition](https://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx)

@@ -8,40 +8,40 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.DirectorGeneralSettingsExpander2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 67bd625d-f093-4218-a869-768813c54dad
-description: 'Para configurar as propriedades gerais do diretor ou um pool de Diretor:'
-ms.openlocfilehash: c10afd53a8a5525ddf34bdb67b117a6cdf580abf
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Para configurar as propriedades gerais do diretor ou um pool de diretores:'
+ms.openlocfilehash: d61bc52500c254ed43a1804d3094623dd0c8be1b
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41820133"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48219022"
 ---
 # <a name="director-general-settings-expander-for-lync-server-2010"></a>Expansor de Configurações Gerais de Diretor para Lync Server 2010
  
-Para configurar as propriedades **gerais** do diretor ou um pool de Diretor:
+Para configurar as propriedades **gerais** do diretor ou um pool de diretores:
   
  **FQDN**: digite o nome de domínio totalmente qualificado do diretor ou um pool de diretor
   
- **Associações**
+ **Associação**
   
  **Repositório de arquivos**: selecione na lista o repositório de arquivos do diretor ou um pool de diretor
   
-Clique em **novo** para definir um novo repositório de arquivos
+Clique em **Novo** para definir um novo repositório de arquivos
   
-Marque a caixa de seleção **associar o servidor de monitoramento** e selecione um servidor de monitoramento na lista
+Marque a caixa de seleção **associar servidor de monitoramento** e selecione um Monitoring Server na lista
   
 Clique em **novo** para definir um novo servidor de monitoramento
   
- **OK** Aceita e confirma as alterações na caixa de diálogo.
+ **OK** aceita e confirma as alterações na caixa de diálogo.
   
- **Cancelar** Descarta as alterações e fecha a caixa de diálogo.
+ **Cancelar** descarta as alterações e fecha a caixa de diálogo.
   
- **Ajuda** Exibe essa tela de ajuda.
+ **Ajuda** exibe essa tela de ajuda.
   
 
