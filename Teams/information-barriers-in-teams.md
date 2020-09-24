@@ -16,16 +16,16 @@ description: Este artigo explica o que são barreiras de informações no Micros
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2fa842f341bac8aca0c1972519777de2855cf06c
-ms.sourcegitcommit: 197f96841a58efd70bcd198b6eb1775e5ecd155c
+ms.openlocfilehash: 8addc6ff58ad148f5a5146e7397ec479c8dfbbb4
+ms.sourcegitcommit: 26dc4ca6aacf4634b1dbe1bfbd97aa17f8cb7dd5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "46592905"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48235849"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Barreiras de informação no Microsoft Teams
 
-As barreiras de informação (IB) são políticas que um administrador pode configurar para impedir que pessoas ou grupos se comuniquem uns com os outros. Isso é útil se, por exemplo, um departamento estiver manipulando informações que não devem ser compartilhadas com outros departamentos, ou se um grupo precisar ser impedido, ou isolado, de comunicar-se com qualquer pessoa fora do grupo.
+As barreiras de informação (IB) são políticas que um administrador pode configurar para impedir que pessoas ou grupos se comuniquem uns com os outros. IB é útil se, por exemplo, um departamento estiver manipulando informações que não devem ser compartilhadas com outros departamentos, ou se um grupo precisa ser impedido, ou isolado, de comunicar-se com qualquer pessoa fora do grupo.
 
 > [!NOTE]
 > - Grupos de barreira de informações não podem ser criados entre locatários.
@@ -33,7 +33,7 @@ As barreiras de informação (IB) são políticas que um administrador pode conf
 > - Os canais privados são compatíveis com as políticas de barreira de informações que você configurar.
 > - Novo: para obter informações sobre as barreiras de suporte para o site do SharePoint conectado ao Microsoft Teams, clique [aqui](https://docs.microsoft.com/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites).
 
-As políticas de barreira de informações também impedem pesquisas e descobrimento. Isso significa que, se você tentar se comunicar com alguém com quem não deveria se comunicar, não encontrará esse usuário no seletor de pessoas.
+As políticas de barreira de informações também impedem pesquisas e descobrimento. Se você tentar se comunicar com alguém com quem não está se comunicando, não encontrará esse usuário no seletor de pessoas.
 
 ## <a name="background"></a>Plano de fundo
 
@@ -92,7 +92,7 @@ As políticas de barreira de informações são ativadas quando ocorrem os segui
 
     ![Captura de tela mostrando usuário bloqueado da reunião](media/information-barriers-meeting.png)
 
-- **Uma tela é compartilhada entre dois ou mais usuários** -a qualquer momento em que uma tela é compartilhada entre dois ou mais usuários, o compartilhamento de tela deve ser avaliado para garantir que ele não viole as políticas de barreira de informações de outros usuários. Se uma política de barreira de informações for violada, o compartilhamento de tela não será permitido. 
+- **Uma tela é compartilhada entre dois ou mais usuários** – quando uma tela é compartilhada entre dois ou mais usuários, o compartilhamento de tela deve ser avaliado para garantir que ele não viole as políticas de barreira de informações de outros usuários. Se uma política de barreira de informações for violada, o compartilhamento de tela não será permitido. 
  
     Aqui está um exemplo de compartilhamento de tela antes da aplicação da política. 
 
@@ -121,7 +121,7 @@ Se houver um chat existente ou outras comunicações entre usuários e uma nova 
 
     ![A captura de tela mostrando o chat do usuário está desabilitada](media/ib-after-1-1chat-policy.png)
 
-- **Chat em grupo** -se a comunicação de um usuário para o grupo não for mais permitida (por exemplo, se um usuário alterar trabalhos), o usuário juntamente com os outros usuários que violam a política poderá ser removido do chat em grupo e outras comunicações com o grupo não serão permitidas. O usuário ainda pode ver conversas antigas (que serão somente leitura), mas não poderá ver ou participar de nenhuma nova conversa com o grupo. Se a política nova ou alterada que impede a comunicação for aplicada a mais de um usuário, os usuários afetados pela política poderão ser removidos do chat em grupo. Eles ainda podem ver conversas antigas.
+- **Chat em grupo** -se a comunicação de um usuário para o grupo não for mais permitida (por exemplo, se um usuário alterar trabalhos), o usuário juntamente com os outros usuários que violam a política poderá ser removido do chat em grupo e outras comunicações com o grupo não serão permitidas. O usuário ainda pode ver conversas antigas (somente leitura), mas não poderá ver ou participar de conversas novas com o grupo. Se a política nova ou alterada que impede a comunicação for aplicada a mais de um usuário, os usuários afetados pela política poderão ser removidos do chat em grupo. Eles ainda podem ver conversas antigas.
 
 Neste exemplo, o Enrico é movido para um departamento diferente dentro da organização e é removido do chat em grupo.
 
@@ -135,7 +135,7 @@ O Enrico não pode mais enviar mensagens para o chat em grupo.
 
 ## <a name="scenario-a-user-in-an-existing-chat-becomes-blocked"></a>Cenário: um usuário em um chat existente torna-se bloqueado
 
-No momento, os usuários perceberão o seguinte se uma política de barreira de informações bloquear outro usuário:
+Atualmente, os usuários perceberão os seguintes cenários se uma política de barreira de informações bloquear outro usuário:
 
 - **Guia pessoas** -um usuário não pode ver usuários bloqueados na guia **pessoas** .
 - **Seletor de pessoas** -os usuários bloqueados não ficarão visíveis no seletor de pessoas.
@@ -149,9 +149,9 @@ No momento, os usuários perceberão o seguinte se uma política de barreira de 
     ![Captura de tela mostrando a guia atividade bloqueada](media/ib-after-activity-tab-policy.png)
 
 
-- **Organogramas** -se um usuário acessar um organograma no qual um usuário bloqueado é exibido, o usuário bloqueado não será exibido no organograma e uma mensagem de erro será exibida.
+- **Organogramas** -se um usuário acessar um organograma no qual um usuário bloqueado é exibido, o usuário bloqueado não aparecerá no organograma e uma mensagem de erro será exibida em vez disso.
 - **Cartão de visita** -se um usuário participar de uma conversa e o usuário for bloqueado posteriormente, outros usuários verão uma mensagem de erro em vez do cartão de pessoas quando passarem o mouse sobre o nome do usuário bloqueado. As ações listadas no cartão (como chamada e chat) não estarão disponíveis.
-- **Contatos sugeridos** -os usuários bloqueados não aparecem na lista de contatos sugeridos (a lista de contatos inicial exibida para novos usuários).
+- **Contatos sugeridos** : os usuários bloqueados não aparecem na lista de contatos sugeridos (a lista de contatos inicial exibida para novos usuários).
 - **Contatos de chat** -um usuário pode ver usuários bloqueados na lista de contatos chats, mas os usuários bloqueados serão identificados e a única ação que o usuário poderá executar será excluí-los. O usuário também pode clicar neles para ver a conversa anterior.
 - **Chamadas contatos** -um usuário pode ver os usuários bloqueados na lista de contatos chamadas, mas os usuários bloqueados serão identificados e a única ação que o usuário poderá executar será excluí-los.
 
@@ -176,10 +176,10 @@ Consulte o artigo [barreiras de informação](https://docs.microsoft.com/sharepo
 
 ## <a name="required-licenses-and-permissions"></a>Permissões e licenças necessárias
 
-Para obter mais detalhes, incluindo planos e preços, consulte [orientação de licenciamento](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).
+Para obter mais informações, incluindo planos e preços, consulte [orientação de licenciamento](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).
 
 ## <a name="known-issues"></a>Problemas conhecidos
-- **Os usuários não podem ingressar em reuniões**: se as políticas do IB estiverem habilitadas, os usuários não poderão ingressar em reuniões se o tamanho da lista de reuniões for mais de 250 usuários. A causa raiz é que as verificações de IB dependem se os usuários podem ser adicionados a uma lista de chats de reunião e leva esse sinal para permitir que os usuários ingressem em reuniões. Ao ingressar em uma reunião, você será adicionado ao usuário à lista, portanto para reuniões recorrentes, a escala será preenchida rapidamente. Quando ele atinge uma contagem de usuários do 250, nenhum usuário adicional pode ser adicionado à lista de chats da reunião. Se o IB estiver habilitado, os usuários não poderão ingressar na reunião, mas se a IB não estiver habilitada, os usuários poderão ingressar na reunião, embora não sejam adicionados à lista de chats da reunião. Uma solução de curto prazo é remover membros inativos da lista de chats da reunião para liberar espaço para novos usuários. No entanto, vamos aumentar o tamanho das escalas de chat da reunião em uma data posterior.
+- **Os usuários não podem ingressar em reuniões**: se as políticas do IB estiverem habilitadas, os usuários não poderão ingressar em reuniões se o tamanho da lista de reunião for maior do que os [limites de presença da reunião](limits-specifications-teams.md). A causa raiz é que as verificações de IB dependem se os usuários podem ser adicionados a uma lista de chats de reunião e leva esse sinal para permitir que os usuários ingressem em reuniões. Ao ingressar em uma reunião, você será adicionado ao usuário à lista, portanto para reuniões recorrentes, a escala será preenchida rapidamente. Quando atingir os [limites de participação da reunião](limits-specifications-teams.md), nenhum usuário adicional poderá ser adicionado à lista de chats da reunião. Se o IB estiver habilitado, os usuários não poderão ingressar na reunião, mas se a IB não estiver habilitada, os usuários poderão ingressar na reunião, embora não sejam adicionados à lista de chats da reunião. Uma solução de curto prazo é remover membros inativos da lista de chats da reunião para liberar espaço para novos usuários. No entanto, vamos aumentar o tamanho das escalas de chat da reunião em uma data posterior.
 
 ## <a name="more-information"></a>Mais informações
 
