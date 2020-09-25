@@ -21,42 +21,34 @@ ms.custom: ms.teamsadmincenter.policypackages.overview
 localization_priority: Priority
 search.appverid: MET150
 description: Saiba mais sobre políticas em uma configuração EDU ou educacional e como usar e gerenciar pacotes de políticas no Microsoft Teams.
-ms.openlocfilehash: 9abf734894e716b6d7840d448cb513d083fe02b3
-ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
+ms.openlocfilehash: f8bda2fc5741b9575fa2eabc786b7e565a86f2ea
+ms.sourcegitcommit: 8924cd77923ca321de72edc3fed04425a4b13044
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/19/2020
-ms.locfileid: "48135875"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "48262468"
 ---
 # <a name="teams-policies-and-policy-packages-for-education"></a>Políticas do Teams e Pacotes de Políticas para Educação
 
 > [!NOTE]
 > Para obter um conhecimento amplo sobre políticas no Microsoft Teams, analise [Atribuir políticas a usuários no Microsoft Teams](assign-policies.md).
 
-É importante observar que este artigo abordará várias maneiras de atribuir políticas a usuários no Teams.
-
-- Atribuição manual para usuários individuais.
-- Atribuição em massa via PowerShell para vários usuários.
-- Atribuindo pacotes de políticas a usuários individuais ou a vários usuários.
-
-As vantagens e desvantagens dessas abordagens se resumem às necessidades individuais da instituição.
-
 ## <a name="admins-getting-started-with-microsoft-teams-policy-management"></a>Administradores: Introdução ao gerenciamento de política do Microsoft Teams
 
-O Microsoft Teams, em sua essência, é sobre os usuários serem capazes de fazer coisas como ir a reuniões ou eventos ao vivo, conversar, fazer chamadas e usar aplicativos. E definir as políticas de administração corretas do Microsoft Teams é uma etapa crítica na criação de um ambiente de aprendizado seguro para os alunos no Teams. Como administrador, você pode usar políticas para controlar os recursos do Teams que estão disponíveis para os usuários em sua instituição educacional.
+O Microsoft Teams permite que os usuários realizem ações como participar de reuniões online ou eventos ao vivo, conversar, fazer chamadas e usar aplicativos. Definir as políticas de administração corretas do Microsoft Teams é uma etapa crítica para garantir que o Teams seja um ambiente de aprendizado seguro para os alunos. Como administrador, você pode usar políticas para controlar os recursos do Teams que estão disponíveis para os usuários em sua instituição educacional.  Na maioria dos casos, as políticas devem ser ajustadas para estudantes e professores para que o ambiente seja seguro.  
 
-Aqui está uma lista das áreas de políticas que você encontrará no Microsoft Teams:
+Aqui está uma lista das principais áreas de políticas que você encontrará no Microsoft Teams. Para saber mais sobre as políticas em cada área e os recursos que eles controlam, use os links a seguir:
 
-- Reuniões
-- Eventos ao vivo
-- Chamadas
-- Mensagens
-- Teams
-- Permissões de aplicativos
+- [Reuniões](meeting-policies-in-teams.md)
+- [Eventos ao vivo](teams-live-events/configure-teams-live-events.md)
+- [Chamadas](teams-calling-policy.md) 
+- [Mensagens](messaging-policies-in-teams.md)
+- [Teams](teams-policies.md)
+- [Permissões de aplicativo](teams-app-permission-policies.md)
 
 :::image type="content" source="media/edu-admin-center-users.png" alt-text="Captura de tela do usuário com políticas aplicadas.":::
 
-Você pode gerenciar facilmente todas as políticas do Teams no [centro de administração do Microsoft Teams](https://admin.teams.microsoft.com) entrando com suas credenciais de administrador.
+Você pode gerenciar todas as políticas do Teams no [centro de administração do Microsoft Teams](https://admin.teams.microsoft.com) entrando com suas credenciais de administrador.
 
 ### <a name="where-to-find-microsoft-teams-policies"></a>Onde encontrar as políticas do Microsoft Teams
 
@@ -71,15 +63,18 @@ Antes de atribuir políticas a usuários, você precisa primeiro adicionar e cri
 > [!NOTE]
 > Recomendamos que você configure diferentes definições de políticas para alunos e educadores.
 
-Por padrão, cada novo usuário (aluno ou educador) receberá a definição de política Global (padrão em toda a organização) para cada área de recursos. Recomendamos executar estas etapas:
+Por padrão, cada novo usuário (aluno ou educador) receberá a definição de política Global (padrão em toda a organização) para cada área de recursos. Recomendamos o uso da política global (padrão para toda a organização) para o seu conjunto mais estrito de definições de política. Na maioria dos casos, esse conjunto de políticas estrita será mais apropriado para os alunos. Usar a definição de política global (padrão para toda a organização), dessa maneira garantirá que os novos usuários terão restrições ao serem adicionadas ao seu locatário. Para aderir à essas diretrizes, recomendamos que você siga essas etapas:
 
-1. Crie uma definição de política personalizada para cada área de recursos do Teams que possa ser atribuída aos educadores (sem isso, quaisquer alterações feitas na política Global restringirão os educadores até que eles tenham sua própria política).
+1. Crie uma definição de política personalizada para cada área de recursos do Teams com valores de política que se ajustem às suas necessidades (sem isso, os educadores terão o mesmo acesso restrito que seus alunos, conforme definido na definição de política global (padrão para toda a organização)).
 
-1. Atribua aos educadores essa nova definição de política.
+1. Atribua essas novas definições de política personalizada aos seus educadores.
 
-1. Atualize a definição de política Global (padrão em toda a organização) e atribua-a aos alunos.
+1. Edite as definições de política global (padrão para toda a organização) para cada área de recurso com valores apropriados para seus alunos.
 
-Para criar ou editar definições de política, vá para a área de recursos de política na qual deseja trabalhar (por exemplo, políticas de Mensagens). Selecione **Adicionar** se desejar criar uma nova definição de política personalizada (o que você fará para a definição de política personalizada criada para educadores). Caso contrário, para alterar uma definição de política existente, selecione **Editar** (que será o que você fará se optar por atualizar a política Global para os alunos).
+1. As definições de política global (padrão para toda a organização) serão aplicadas aos seus alunos, desde que não tenham nenhuma outra definição de política atribuída.
+
+
+Para criar ou editar definições de política, vá para a área de recursos da política na qual deseja trabalhar (por exemplo, políticas de Mensagens). Selecione **Adicionar** para criar uma nova definição de política personalizada. Para alterar uma definição de política existente, selecione **Editar**.
 
 :::image type="content" source="media/edu-messaging-policies-add-closeup.png" alt-text="Fechar a seção de políticas de mensagens com uma exibição do botão Adicionar.":::
 
@@ -90,30 +85,42 @@ Se você optar por adicionar ou editar uma definição de política, você será
 > [!IMPORTANT]
 > Não se esqueça de selecionar **Salvar** antes de sair da página.
 
-### <a name="how-to-assign-a-policy-definition-to-a-user"></a>Como atribuir uma definição de política a um usuário
+### <a name="assigning-policy-definitions"></a>Atribuindo definições de política 
+Há vários métodos que você pode usar para atribuir definições de política aos seus usuários. Cada método tem suas próprias vantagens e desvantagens, que serão diferentes dependendo das necessidades exclusivas da instituição.  
+
+Na maioria dos casos, recomendamos que você use a atribuição de política de grupo para atribuir políticas aos seus usuários. Esse método permite um programa de política mais rápido e mais simples.  Quando um usuário é adicionado a um grupo que tem uma definição de política atribuída a ele, o novo usuário herda automaticamente as políticas do grupo.  Isso permite o gerenciamento simplificado de políticas quando grandes quantidades de usuários são adicionados e removidos do ambiente, por exemplo, no início e no final de um termo escolar.  
+
+Para as grandes organizações, também recomendamos uma atribuição de política em lote, que é adaptada para casos em que você precisa atribuir políticas a grandes conjuntos de usuários. Para saber mais sobre esses métodos de programa, confira [Atribuir políticas a grandes conjuntos de usuários na escola](batch-group-policy-assignment-edu.md).
+
+Se você tiver uma instituição menor ou precisar atualizar as configurações individuais de política de um aluno ou professor, siga as instruções abaixo.  
+
+> [!IMPORTANT]
+> As atribuições de política determinadas no nível de usuário individual substituem quaisquer políticas de grupo atribuídas ao usuário. Certifique-se de que você esteja usando atribuições de política individuais quando quiser substituir as configurações da política de grupo. 
+
+#### <a name="how-to-assign-a-policy-definition-to-a-user"></a>Como atribuir uma definição de política a um usuário
 
 > [!NOTE]
 > A atribuição de uma definição de política pode demorar um pouco para se propagar para todos os usuários e clientes. Você pode fazer isso quando as contas de usuário forem criadas pela primeira vez no Azure/M365 e sempre que um novo aluno ingressa na instituição educacional.
+
 
 Depois que sua definição de política for criada ou atualizada, você poderá atribuí-la a um usuário, selecionando **Gerenciar usuários** na página de políticas, pesquisando o usuário desejado e aplicando a política.
 
 ![Painel Gerenciar usuários, no lado direito, na parte superior da página Políticas de mensagens.](media/edu-manage-users-pane.png)
 
-Você também pode atribuir uma política a um usuário, navegando até Usuários, selecionando o usuário para o qual deseja atualizar as políticas, selecionando Políticas e, em seguida, Editar. A partir daí, você pode selecionar a definição de política que deseja usar para atribuir ao usuário para cada área de recursos.
-
-> [!IMPORTANT]
-> Se você faz parte de uma grande instituição educacional, pode ser difícil usar a experiência do portal de administração do Microsoft Teams para definir políticas para cada usuário. Será melhor para você atribuir políticas em lotes por meio do PowerShell. Temos algumas informações específicas da EDU sobre como [Atribuir políticas a grandes conjuntos de usuários em sua instituição educacional](batch-group-policy-assignment-edu.md), se necessário, e você também pode verificar a seção abaixo sobre pacotes de políticas, que são outra ótima maneira de gerenciar políticas e configurações para grandes grupos de usuários.
+Você também pode atribuir uma política a um usuário, navegando até **Usuários**, selecionando o usuário para o qual deseja atualizar as políticas, selecionando **Políticas**, e, em seguida, **Editar**. A partir daí, você pode selecionar a definição de política que deseja atribuir ao usuário para cada área de recursos.
 
 ![Edite o painel de políticas do usuário, no lado direito da página Políticas atribuídas.](media/edu-edit-user-policies-pane.png)
 
 ### <a name="policy-packages-in-microsoft-teams"></a>Pacotes de política no Microsoft Teams
+> [!NOTE]
+> Para obter mais informações, confira [Gerenciar pacotes de políticas no Microsoft Teams](manage-policy-packages.md) para obter instruções passo a passo sobre como atribuir um único usuário a um pacote, atribuir pacotes em massa para até 5000 usuários e gerenciar e atualizar as políticas vinculadas a cada pacote.
 
 Um pacote de políticas no Teams coleta políticas predefinidas e configurações de políticas que você aprendeu e estão descritas acima e as atribui a usuários com funções semelhantes em sua instituição. Os pacotes de políticas simplificam, otimizam e ajudam a fornecer consistência ao gerenciar políticas. Em prática normal, você atribui a cada um de seus usuários um pacote de políticas e redefine as políticas em cada pacote conforme necessário para atender às necessidades desse grupo de usuários. Quando você atualiza as configurações em um pacote, todos os usuários atribuídos a esse pacote são alterados como uma atualização em massa.
 
 As instituições educacionais em geral têm muitos usuários com necessidades únicas, dependendo em parte da idade e maturidade dos estudantes. Por exemplo, você pode conceder aos educadores e funcionários acesso total ao Microsoft Teams, mas deseja limitar os recursos do Microsoft Teams para que os alunos incentivem um ambiente de aprendizado seguro e focado. Você pode usar pacotes de políticas para personalizar as configurações com base nas necessidades de diferentes coortes na comunidade da sua instituição educacional.
 
-> [!NOTE]
-> Para obter mais informações, confira [Gerenciar pacotes de políticas no Microsoft Teams](manage-policy-packages.md) para obter instruções passo a passo sobre como atribuir um único usuário a um pacote, atribuir pacotes em massa para até 5000 usuários e gerenciar e atualizar as políticas vinculadas a cada pacote.
+> [!IMPORTANT] 
+> Nossa principal recomendação é usar a definição de política global (padrão para toda a organização) para estudantes em vez de um pacote de política. Isso garante que os novos usuários nas organizações sempre tenham o conjunto de políticas mais estrito apropriado para os alunos. Se essa recomendação não atender às necessidades da sua instituição, um dos pacotes de política do aluno abaixo poderá ser uma boa alternativa. 
 
 Assim como a lista de políticas anteriormente neste artigo, os pacotes de políticas predefinem as políticas para:
 
@@ -121,7 +128,6 @@ Assim como a lista de políticas anteriormente neste artigo, os pacotes de polí
 - Eventos ao vivo
 - Chamadas
 - Mensagens
-- Teams
 - Permissões de aplicativos
 
 No momento, o Microsoft Teams inclui os seguintes pacotes de políticas:
@@ -138,7 +144,7 @@ No momento, o Microsoft Teams inclui os seguintes pacotes de políticas:
 
 :::image type="content" source="media/edu-policy-packages-list.png" alt-text="Página de pacotes de políticas com a lista de pacotes de política à sua escolha.":::
 
-Cada política individual recebe o nome do pacote de políticas, para que você possa identificar facilmente políticas vinculadas a um pacote de políticas. Por exemplo, quando você atribui o pacote de políticas Education_Teacher a educadores em sua instituição educacional, uma política chamada Education_Teacher é criada para cada política no pacote.
+Cada política individual recebe o nome do pacote de políticas, para que você possa identificar políticas vinculadas a um pacote de políticas. Por exemplo, quando você atribui o pacote de políticas Education_Teacher a educadores em sua instituição educacional, uma política chamada Education_Teacher é criada para cada política no pacote.
 
 ![Captura de tela do pacote de política Education_Teacher](media/policy-packages-education_teacher.png)
 
@@ -146,258 +152,4 @@ Cada política individual recebe o nome do pacote de políticas, para que você 
 > Se você decidir que os educadores e a equipe de suporte administrativo precisam de políticas diferentes, poderá redefinir um pacote existente: identifique um pacote que não esteja usando no momento e altere as configurações para que sejam apropriadas para esse grupo. Você pode ter que anotar qual grupo tem qual pacote, mas esse é o único impedimento para a redefinição de um pacote.
 
 ## <a name="policies-that-should-be-assigned-for-student-safety"></a>Políticas que devem ser atribuídas à segurança do estudante
-
-### <a name="meeting-policies-for-students"></a>Políticas de reunião para alunos
-
-#### <a name="turn-off-the-ability-to-create-and-start-meetings"></a>Desativar o recurso para criar e iniciar reuniões
-
-> [!NOTE]
-> Você pode não perceber essa funcionalidade em seu locatário no momento. Isso ocorre porque esse recurso está sendo implantado e estará disponível para todos os usuários depois que ele for implantado em todos os locatários. Consulte o [Roteiro do Teams](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=63355) para obter mais informações.
-
-Para garantir que os alunos não possam agendar uma reunião para comunicar-se sem supervisão, em políticas de reunião, mantenha os recursos de criação de reunião **Desativadas** por meio dessas Configurações gerais:
-
-- **Permitir Reunir agora em canais**: Desativado
-
-- **Permitir o suplemento do Outlook**: Desativado
-
-- **Permitir o agendamento de reunião do canal**: Desativado
-
-- **Permitir o agendamento de reuniões privadas**: Desativado
-
-  ![Ensino do aluno na página de aprendizado remoto, com a seção Geral exibida, todas as opções aqui estão desativadas.](media/edu-policy-list-a.png)
-
-- E na mesma página, na seção Participantes e Convidados na reunião:
-
-  - **Permitir Reunir agora em reuniões privadas**: Desativado
-  - **Permitir chat em reuniões**: Desabilitado
-
-  ![Seção de participantes e convidados, com a opção Permitir Reunir agora em reuniões privadas definida como Desativado.](media/edu-participants-and-guests.png)
-
-Desativar as opções **Permitir Reunir agora nos canais**, **Permitir agendamento de reunião de canal**, **Permitir agendamento de reuniões privadas** e **Reunir agora em reuniões privadas** para os estudantes, impede tanto a eles de agendarem uma reunião, como também ao organizador. Elas também fornecem as seguintes medidas de segurança para a educação:
-
-- Se os alunos tentarem participar da reunião antes do educador, eles não poderão participar da reunião na versão mais recente do aplicativo do Teams.
-
-- Embora a criação de reuniões se aplique a todos os usuários e licenças, as medidas de segurança de bloqueio de participação na reunião descritas acima, apenas se aplicam a clientes educacionais no Teams com base no tipo de licença do usuário.
-
-Veja uma tabela que descreve a lógica de cada política de criação de reunião:
-
-| Política de criação de reunião | Criar uma reunião | Iniciar uma reunião não assistida | Ignorar o lobby ao ingressar | Terminar a reunião |
-| --- | --- | --- | --- | --- |
-| **Ativado (por exemplo, educador)** | Sim | Sim | Determinado por [opções de reunião](https://go.microsoft.com/fwlink/?linkid=2093366) | Sim, como organizador
-| **Desativado (por exemplo, aluno)** | Não | Não\*\* | Determinado por [opções de reunião](https://go.microsoft.com/fwlink/?linkid=2093366) | Não
-
-> [!NOTE]
-> \*\* Isso se aplica somente aos usuários licenciados EDU e se aplicam a reuniões, reuniões com canal, reuniões instantâneas e reuniões de canal instantâneos.
-
-Quando você altera a política **Permitir chat em reuniões** para desabilitar e impedir que os alunos agendem as reuniões acima, e mantém essa política ativada para educadores (para as reuniões que não estão agendadas em um canal ou se reunir agora em um canal), os alunos não poderão conversar antes do educador ingressar na reunião, nem após a reunião. Eles ainda poderão ver o histórico do chat antes, durante e após a reunião. Como exemplo, eles poderão ver as mensagens do professor ou o link de gravação da reunião, caso a reunião tenha sido gravada.
-
-Se alunos e educadores estiverem com a política **Permitir chat em reuniões** desativada, ninguém poderá conversar na janela de chat da reunião. A medida de segurança de restrição nos chats de reunião descrita acima, apenas se aplica a clientes educacionais em equipes com base no tipo de licença dos usuários.
-
-Aqui está uma tabela para descrever a lógica de permitir o chat em reuniões:
-
-| Política de “Permitir chat em reuniões” | Ver o histórico de chat a qualquer momento | Postar mensagens durante a reunião | Postar mensagens antes ou depois da reunião |
-| --- | --- | --- | --- | 
-| **Ativado para todos** | Sim | Sim | Sim |
-| **Desativado para todos** | Não disponível | N/D | Não disponível |
-| **Ativado para educadores e Desativado para estudantes** | Educador: Sim<br>Aluno Sim | Educador: Sim<br>Aluno Sim | Educador: Sim<br>Aluno Não\*\* | 
-
-> [!NOTE]
-> \*\* Isso se aplica somente aos usuários licenciados EDU e se aplicam a reuniões e reuniões instantâneas. Isso não se aplica a reuniões de canal, nem reuniões de canal instantâneos.
-
-#### <a name="control-whether-or-not-students-can-share-their-videos-during-calls-and-meetings"></a>Controle se os alunos podem ou não compartilhar vídeos durante chamadas e reuniões
-
-Na seção de políticas de reunião, verifique se os Valores visuais e de áudio que você definiu para seus alunos estão alinhados às diretrizes da instituição educacional, bem como aos interesses de alunos, educadores e pais e responsáveis ​​(com exceção de **Permitir gravação em nuvem**, que é recomendável estar **Desativado**).
-
-Aqui estão as opções:
-
-- **Permitir transcrição**: Desativada/Ativada
-- **Permitir gravação em nuvem**: **Desativada**
-- **Permitir Vídeo IP** Desativada/Ativada
-
-:::image type="content" source="media/edu-policy-list-b.png" alt-text="Ensino do aluno na página de aprendizado remoto com as opções de vídeo exibidas.":::
-
-### <a name="live-events-policies-for-students"></a>Políticas de eventos ao vivo para alunos
-
-#### <a name="turn-off-the-ability-to-create-and-start-live-events"></a>Desativar o recurso para criar e iniciar eventos ao vivo
-
-Para garantir que os alunos não possam agendar um evento ao vivo para comunicar-se sem supervisão, desative a política **Permitir agendamento** para alunos, definindo-a como **Desativada**.
-
-:::image type="content" source="media/edu-allow-scheduling-off.png" alt-text="Ensino do aluno na página de aprendizado remoto com a opção de agendamento Desativada.":::
-
-### <a name="calling-policies-for-students"></a>Políticas de chamadas para alunos
-
-#### <a name="turn-off-the-ability-to-make-private-calls"></a>Desativar o recurso de fazer chamadas privadas
-
-Para garantir que os alunos não possam fazer chamadas privadas com outros alunos ou educadores, desabilite a política **Fazer chamadas privadas** para alunos, definindo-a como **Desativada**.
-
-:::image type="content" source="media/edu-private-calls-off.png" alt-text="Ensino do aluno na página de aprendizado remoto com a opção Fazer chamadas privadas.":::
-
-### <a name="messaging-policies-for-students"></a>Políticas de mensagens para alunos
-
-#### <a name="turn-off-the-ability-to-delete-or-edit-sent-messages"></a>Desativar o recurso de excluir ou editar mensagens enviadas
-
-- Para alunos: Para garantir que as mensagens enviadas pelos alunos não sejam excluídas ou alteradas, os alunos devem ter essas configurações **Desativadas**:
-
-  - **Excluir mensagens enviadas**
-  - **Editar mensagens enviadas**
-  
-- Para educadores: Para garantir que os educadores possam moderar ou excluir mensagens inadequadas enviadas pelos alunos, os educadores devem ter essas configurações **Ativadas**:
-
-  - **Os proprietários podem excluir mensagens enviadas** (Essa configuração permite que os educadores excluam mensagens inapropriadas dos alunos)
-  - **Excluir mensagens enviadas**
-  - **Editar mensagens enviadas**
-
-  ![Aluno do Education na página de aprendizado remoto, configurações para mensagens enviadas para alunos e educadores.](media/edu-delete-edit-sent.png)
-
-> [!NOTE]
-> Para obter mais informações sobre esse tópico, confira [Silenciar comentários dos alunos em uma equipe de classe](https://support.office.com/article/Mute-student-comments-in-a-class-team-a378de16-ffc0-420c-b08d-e17ec08e7c17).
-
-#### <a name="control-whether-students-can-chat-privately"></a>Controlar se os alunos podem conversar em particular
-
-Verifique se o valor **Chat Ativado/Desativado** que você definiu para os alunos está alinhado às diretrizes da sua instituição educacional, bem como aos interesses dos alunos e educadores. Esse controle ativa ou desativa a capacidade de um usuário se comunicar de forma privada em chats individuais ou em grupo no Teams.
-
-![Ensino do aluno na página de aprendizado remoto com a opção de chat Desativada.](media/edu-chat-private.png)
-
-#### <a name="control-whether-students-can-personalize-their-messages"></a>Controlar se os alunos podem personalizar suas mensagens
-
-Verifique se o valor que você definiu para os alunos está alinhado às diretrizes da sua instituição educacional, bem como aos interesses dos alunos, educadores, pais e responsáveis. Nossa recomendação é definir o **Giphy para os alunos** **Desativado** e manter os **Memes e Figurinhas** **Ativado**.
-
-![Ensino do aluno na página de aprendizado remoto, com as opções de Giphy e opções de memes e figurinhas.](media/edu-personalize-messages.png)
-
-#### <a name="control-whether-students-can-send-voice-messages"></a>Controlar se os alunos podem enviar mensagens de voz
-
-Verifique se o valor **Criar mensagens de voz** que você definiu para os alunos está alinhado às diretrizes da sua instituição educacional, bem como aos interesses dos alunos e educadores.
-
-![Ensino do aluno na página de aprendizado remoto, com a opção Criar mensagens de voz.](media/edu-create-send-voice-mess.png)
-
-#### <a name="turn-off-the-ability-to-remove-users-from-chat-for-students"></a>Desativar o recurso de remover usuários do chat para alunos
-
-Os alunos não devem poder remover outros usuários de nenhum chat em que estejam incluídos. A configuração **Remover usuários de chats em grupo** deve estar **Desativada**.
-
-![Ensino do aluno na página de aprendizado remoto, com a opção Remover usuários de chats em grupo definida como Desativada.](media/edu-remove-users-from-chat-for-students.png)
-
-### <a name="teams-policies-for-students"></a>Políticas do Teams para alunos
-
-#### <a name="turn-off-the-ability-to-discover-and-create-private-channels"></a>Desativar a capacidade de descobrir e criar canais privados
-
-Para garantir que os alunos não possam criar um canal privado como espaço pessoal para se comunicar sem supervisão, defina a política **Criar canais privados** para **Desativada**.
-
-![Página de política do Teams com o painel de políticas Novas equipes sobreposto à direita da página, com Criar canais privados nesse painel definido como Desativado.](media/edu-private-channels.png)
-
-> [!IMPORTANT]
-> É provável que você também deseje garantir que os alunos não possam criar novas equipes no Microsoft Teams. Essa é, na verdade, uma configuração de grupos de M365 e você pode ler mais sobre isso no [Gerenciar quem pode criar grupos Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-creation-of-groups).
-
-### <a name="app-permission-policies-for-students"></a>Políticas de permissão do aplicativo para alunos
-
-#### <a name="control-whether-students-can-add-apps-within-teams"></a>Controlar se os alunos podem adicionar aplicativos no Teams
-
-Verifique se os valores que você definiu para os alunos estão alinhados com as diretrizes da sua instituição educacional. Por exemplo, se você deseja que os alunos sejam expostos aos aplicativos que você aprova, você pode selecionar:
-
-- **Aplicativos da Microsoft**: **Permitir todos os aplicativos**
-- **Para aplicativos de terceiros**: **Permitir aplicativos específicos e bloquear todos os outros**
-- **Para aplicativos de locatário**: **Permitir aplicativos específicos e bloquear todos os outros**
-
-:::image type="content" source="media/edu-policies-apps.png" alt-text="Ensino do aluno na página de aprendizado remoto com as opções de política de aplicativo definidas.":::
-
-> [!NOTE]
-> Este é um exemplo e, conforme indicado acima, você deve definir essas políticas de acordo com as diretrizes da sua instituição educacional.
-
-## <a name="policies-that-should-be-assigned-for-educators"></a>Políticas que devem ser atribuídas para educadores
-
-Essas são configurações de política recomendadas para que os administradores apliquem aos educadores, para que eles possam ter uma experiência de classe segura com seus alunos.
-
-> [!NOTE]
-> As recomendações de política para alunos contêm mais informações do que as seções de educadores, que você verá abaixo. Embora você possa definir as configurações de política de acordo com as políticas e os procedimentos da sua instituição educacional, as recomendações fornecidas aqui são estritamente relevantes quando se trata de segurança e proteção dos alunos.
-
-### <a name="meeting-policies-for-educators"></a>Políticas de reunião para educadores
-
-Essas configurações permitem aos educadores controlar o acesso às suas reuniões.
-
-- **Permitir que pessoas anônimas iniciem uma reunião**: **Desativada**
-- **Admitir pessoas automaticamente**: **Todos em sua organização**
-- **Permitir que os usuários de discagem ignorem o lobby**: **Desativada**
-- <sup>1</sup>**DesignatedPresenterRoleMode**: **OrganizerOnlyUserOverride**
-
-<sup>1</sup> Esta configuração não está no centro de administração do Microsoft Teams, portanto, você precisará usar o PowerShell para definir o parâmetro **DesignatedPresenterRoleMode** usando o cmdlet [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) ou o cmdlet [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) Define o valor padrão da configuração **Quem pode apresentar?** nas **Opções de reunião** no Teams para **Somente Eu**. Com essa configuração, somente o organizador da reunião pode ser um apresentador e todos os outros participantes da reunião são designados como participantes. Para saber mais, confira [Configurações de política de reunião- Modo função de apresentador designado](meeting-policies-in-teams.md#meeting-policy-settings---designated-presenter-role-mode).
-
-> [!NOTE]
-> Para funcionários que não são educadores, talvez você queira definir o parâmetro como **EveryoneUserOverride** (que corresponde à configuração **Todos** no Teams) ou **EveryoneInCompanyUserOverride** (que corresponde à configuração **Pessoas na minha organização** no Teams).
-
-### <a name="messaging-policies"></a>Políticas de mensagens
-
-Definir **Proprietários pode excluir as mensagens enviadas** para **Ativada** permitirá que os educadores monitorem as sessões de chat e removam mensagens inadequadas em reuniões do canal.
-
-> [!NOTE]
-> Isso permite que os educadores removam mensagens inapropriadas em chats da turma quando a reunião é criada no canal ou removam mensagens no próprio canal.
-
-## <a name="what-educators-can-do-to-protect-students"></a>O que os educadores podem fazer para proteger os alunos
-
-É claro que, embora a definição de políticas seja uma ótima maneira de os Administradores protegerem proativamente os alunos na configuração do Teams, os educadores são as pessoas que interagem com os alunos regularmente e também têm um papel vital a desempenhar para manter os alunos seguros. Os administradores podem querer discutir as informações a seguir com os educadores com quem trabalham.
-
-### <a name="set-meeting-roles-through-your-meeting-options"></a>Definir as funções da reunião por meio das opções de Reunião
-
-As opções de reunião permitem controlar se os participantes da reunião participam de suas reuniões como participantes ou apresentadores. Suas opções são:
-
-- Vá para o **Calendário** e navegue até a reunião que você deseja atualizar. Clique ou toque em **Opções de reunião** ao lado do link de ingresso na reunião para abrir suas **Opções de reunião**.
-
-![Convite de reunião para Ingressar no Microsoft Teams, as Opções de reunião estão no canto inferior direito abaixo do link do convite.](media/edu-join-meeting-options.png)
-
-- Controle quem pode entrar na reunião diretamente com a seleção **Quem pode ignorar o lobby**. Escolha **Pessoas em minha organização** para impedir que usuários externos tenham a opção de entrar e defina a opção **Sempre permitir que os chamadores ignorem o lobby** para **Desativada** para que os participantes esperem para serem admitidos na reunião em vez de ingressar imediatamente. Você também tem a opção de **Anunciar quando os chamadores ingressam ou saem**, e isso deve ser definido como **Ativada** para que você esteja sempre ciente de quem está na reunião.
-
-- Controlar quem ingressa na reunião como apresentador ou participante. Você pode selecionar **Apenas eu** para designar todos os outros participantes como participantes. Essa é a configuração mais segura para reuniões realizadas em sala de aula.
-
-  - Se você espera ter mais de um apresentador em sua reunião, selecione **Pessoas específicas** e escolha os outros participantes que devem ingressar como apresentadores. Selecione **Todos** se desejar que todos os participantes ingressem na reunião como apresentadores.
-
-:::image type="content" source="media/edu-meeting-options.png" alt-text="Quem pode ignorar o menu suspenso do lobby com Pessoas em minha organização selecionada e Quem pode apresentar o menu suspenso com Somente eu selecionado.":::
-
-### <a name="roles-in-an-online-meeting"></a>Funções em uma reunião online
-
-Todos os participantes de uma reunião recebem uma função como apresentador ou participante. A função de um participante controla o que eles podem fazer em uma reunião. Confira a tabela abaixo.
-
-|Recursos  |Organizador/apresentador  |Participante  |
-|---------|---------|---------|
-|Falar e compartilhar vídeos     |     Y     |     Y     |
-|Participar do chat da reunião     |     Y     |     Y     |
-|Visualizar em particular um arquivo do PowerPoint compartilhado por outra pessoa     |     Y     |     Y     |
-|Compartilhar conteúdo     |     Y     |     N     |
-|Ativar mudo de outros participantes|     Y     |     N     |
-|Remover participantes      |     Y     |     N     |
-|Admitir outros participantes do lobby|     Y     |     N     |
-|Alterar as funções de outros participantes     |     Y     |     N     |
-|Iniciar ou parar gravação      |     Y     |     N     |
-
-### <a name="change-roles-during-a-meeting"></a>Alterar as funções durante uma reunião
-
-Cada participante de uma reunião recebe uma função de apresentador ou participante. A função de um participante controla o que eles podem fazer durante uma reunião.
-
-- Para alterar a função de um participante, clique ou toque para **Mostrar participantes** nos controles de chamada. Clique com o botão direito do mouse no participante cuja função precisa ser alterada e selecione **Tornar um participante** ou **Tornar um apresentador**.
-
-  ![Barra de pessoas com uma opção de menu exibida, Tornar um participante é a quarta opção no menu.](media/edu-make-attendee-menu.png)
-
-- Para acessar rapidamente as opções de reunião e alterar as configurações da função da reunião para os participantes atuais e para qualquer pessoa que ingressar em sua reunião no futuro, clique ou toque em **Mais ações** nos controles de chamada e, em seguida, **Mostrar detalhes da reunião**. Você pode encontrar o link para as **Opções de reunião** ao lado do link de ingresso da reunião.
-
-  :::image type="content" source="media/edu-meeting-details.png" alt-text="Janela da reunião com o painel Detalhes da reunião, no lado direito.":::
-
-### <a name="mute-student-comments"></a>Silenciar os comentários dos alunos
-
-Após a reunião, você pode impedir que os alunos comentem ainda mais, caso tenha agendado uma reunião de canal.
-
-#### <a name="for-a-specific-meeting"></a>Para uma reunião específica
-
-Quando você agenda uma reunião em um canal, a reunião em si é uma postagem do canal e as conversas da reunião são réplicas da postagem. Como proprietário da equipe, você pode clicar ou tocar em **Mais ações** para essa postagem e clicar em **Editar**.
-
-:::image type="content" source="media/edu-meeting-edit.png" alt-text="Escolher Mais opções em uma postagem do canal e ver a opção de menu Editar como a segunda opção no menu pop-up.":::
-
-No painel de edição, você tem uma opção suspensa, onde é possível definir essa opção como **Você e os moderadores podem responder**.
-
-![No menu Editar, mostrando a opção Todos podem responder e uma marca de seleção ao lado da opção Você e os moderadores podem responder.](media/edu-you-and-mods-reply.png)
-
-### <a name="for-all-meetings-and-posts-of-a-team"></a>Para todas as reuniões e postagens de uma equipe
-
-Você pode controlar quando os alunos podem postar e responder à equipe de classe e a conversas da reunião. Clique ou toque em **Mais ações** da equipe, clique em **Gerenciar Equipe**, vá para **Membros**e selecione as pessoas que deseja silenciar ou selecione **Silenciar todos os alunos**.
-
-![Lista de participantes da reunião que mostra a opção de silenciar os alunos individualmente ou todos os alunos no topo da lista.](media/edu-student-mute.png)
-
-## <a name="further-reading"></a>Leituras adicionais
-
-Para obter mais informações sobre como proteger os alunos, confira o [Mantém os alunos seguros enquanto estiver usando reuniões no Teams para o aprendizagem de distância](https://support.office.com/article/keeping-students-safe-while-using-meetings-in-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8).
+Para obter mais informações sobre as etapas necessárias para proteger os alunos em seu ambiente, reveja cuidadosamente [Manter os alunos seguros enquanto usam o Teams para aprendizagem à distância](https://support.office.com/article/keeping-students-safe-while-using-meetings-in-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8).
