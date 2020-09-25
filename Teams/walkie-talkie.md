@@ -18,18 +18,16 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4154a3ad30bf18de934f0fe5a23bbabc94fc76eb
-ms.sourcegitcommit: 863347fb6e5916d8d936adc4ddcebb2e32a91d1c
+ms.openlocfilehash: 605ba58582210c71561cd60442aa66f97be0be0d
+ms.sourcegitcommit: 8924cd77923ca321de72edc3fed04425a4b13044
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45229047"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "48262498"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Aplicativo faça de conversas no Microsoft Teams
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
-
-O aplicativo faça talkie no Teams oferece comunicação instantânea Push-to-Talk (PTT) para sua equipe e está disponível no modo de visualização pública no Android. O faça talkie permite que os usuários se conectem com sua equipe usando os mesmos canais subjacentes dos quais são membros. Somente os usuários que se conectam ao faça talkie em um canal tornam-se participantes e podem se comunicar uns com os outros usando o push para conversar, um por vez.
+O aplicativo faça talkie no Teams oferece comunicação instantânea Push-to-Talk (PTT) para sua equipe e agora está disponível no Android. O faça talkie permite que os usuários se conectem com sua equipe usando os mesmos canais subjacentes dos quais são membros. Somente os usuários que se conectam ao faça talkie em um canal tornam-se participantes e podem se comunicar uns com os outros usando o push para conversar, um por vez.
 
 Com o faça de trabalho no Microsoft Teams, os trabalhadores de primeira mão podem se comunicar com uma experiência PTT conhecida sem precisar ter rádios em massa, e o faça de fala funciona em qualquer lugar com conexão WiFi ou celular à Internet.
 
@@ -37,7 +35,7 @@ Com o faça de trabalho no Microsoft Teams, os trabalhadores de primeira mão po
 
 ### <a name="deploying-walkie-talkie"></a>Implantando o faça talkie
 
-Durante a visualização pública, o faça talkie não está pré-instalado. Para habilitar esse recurso para os usuários de sua organização, você precisa adicionar faça a [política de configuração do aplicativo](teams-app-setup-policies.md)   atribuída a usuários do centro de [Administração do teams](https://admin.teams.microsoft.com/).
+Atualmente, o faça Talkse não está pré-instalado. Para habilitar esse recurso para os usuários de sua organização, você precisa adicionar faça a [política de configuração do aplicativo](teams-app-setup-policies.md)   atribuída a usuários do centro de [Administração do teams](https://admin.teams.microsoft.com/).
 
 Uma vez habilitada, o faça talkie estará disponível no aplicativo Android em 48 horas.
 
@@ -59,7 +57,11 @@ O aplicativo faça talkie agora deve aparecer na lista de aplicativos fixos e es
 
 O faça Talk in Teams requer conectividade à Internet e as condições de rede abaixo delas são necessárias para obter a melhor experiência possível.
 
-Latência (RTT) < 300ms | < de Tremulação do 30ms | Perda de pacotes < 1%
+|Indicador | Obrigatório |
+|---|---|
+|Latência (RTT) | < 300ms |
+|Tremulação |< 30ms |
+|Perda de pacote |< 1% |
 
 Conforme observado acima, a qualidade da mídia em tempo real em uma rede IP é bastante afetada pela qualidade da conectividade de rede, mas especialmente pela quantidade de:
 

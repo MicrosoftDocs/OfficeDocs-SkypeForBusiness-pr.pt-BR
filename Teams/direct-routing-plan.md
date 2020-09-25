@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Saiba como o roteamento direto do Microsoft Phone System permite conectar um controlador de borda de sessão (SBC) compatível fornecido pelo cliente a um sistema telefônico da Microsoft.
-ms.openlocfilehash: ce581bb296499810e9272006155807535e4e2cac
-ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
+ms.openlocfilehash: 06326279ed410afdeb881b68a3353d984d34ff3a
+ms.sourcegitcommit: 8924cd77923ca321de72edc3fed04425a4b13044
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47820635"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "48262528"
 ---
 # <a name="plan-direct-routing"></a>Planejar o Roteamento Direto
 
@@ -189,7 +189,9 @@ O certificado precisa ser gerado por uma das seguintes autoridades de certifica�
 - T-Systems International GmbH (alemães Telekom)
 - QuoVadis
 
-
+Para roteamento direto no ambiente do Office 365 GCC DoD, o certificado precisa ser gerado por uma das seguintes autoridades de certificação raiz:
+- CA raiz global do DigiCert
+- CA raiz EV de alta garantia DigiCert
 
 > [!NOTE]
 > * Se o suporte para o TLS mútuo (MTLS) estiver habilitado para a conexão do teams no SBC, você deve instalar o certificado raiz Baltimore CyberTrust no repositório raiz confiável do SBC do contexto de TLS do teams. (Isso ocorre porque os certificados de serviço da Microsoft usam o certificado raiz Baltimore.) Para baixar o certificado raiz do Baltimore, consulte [cadeias de criptografia do Office 365](https://docs.microsoft.com/microsoft-365/compliance/encryption-office-365-certificate-chains).

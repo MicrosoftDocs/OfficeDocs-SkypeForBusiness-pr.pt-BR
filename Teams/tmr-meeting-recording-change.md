@@ -16,19 +16,19 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 65c0d50686346b715ca7e10b455845927ff22341
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: d1072f86d019415dbc97d0507ff9d76b2cbdc6e6
+ms.sourcegitcommit: 5c232ab2dfe4374ac69701241e55b05b8de8eb3e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48218402"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "48269635"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Usar o OneDrive for Business e o SharePoint ou o Stream para gravações de reunião
 
 > [!Note]
-> A alteração de usar o Microsoft Stream para o OneDrive for Business e o SharePoint para gravações de reunião será uma abordagem em fases. No lançamento, você poderá optar por se recusar a essa experiência, em novembro, será preciso recusar se quiser continuar a usar o Stream, e algum tempo no início do 2021 exigiremos que todos os clientes usem o OneDrive for Business e o SharePoint para novas gravações de reunião.
+> A mudança do Microsoft Stream para o OneDrive for Business e o Microsoft Office SharePoint Online para gravações de reunião será uma abordagem em fases. Na inicialização, os administradores de locatários podem escolher esta nova opção de fluxo de trabalho hoje e começará a ver gravações automáticas do OneDrive for Business e do SharePoint em outubro de 2020. Em novembro, você precisará se recusar se quiser continuar a usar o Stream, e algum tempo no início de 2021 exigiremos que todos os clientes usem o OneDrive for Business e o SharePoint para novas gravações de reunião.
 
-O Microsoft Teams tem um novo método para salvar gravações na reunião. Como uma partida do Stream, o método usa o Microsoft OneDrive e o SharePoint no Microsoft 365 e oferece muitos benefícios:
+O Microsoft Teams tem um novo método para salvar gravações na reunião. Como uma partida do Stream, o método usa o Microsoft OneDrive e o SharePoint no Microsoft 365 e oferece muitos benefícios.
 
 As vantagens de usar o OneDrive for Business e o SharePoint para armazenar gravações incluem:
 
@@ -53,9 +53,9 @@ Há algumas limitações a serem consideradas:
 - Você pode controlar com quem compartilha a gravação, mas não poderá bloquear pessoas com acesso compartilhado para baixar a gravação.
 - Você não receberá um email quando a gravação terminar de salvar, mas a gravação será exibida no chat de reunião quando ela terminar. Isso ocorrerá muito mais rapidamente do que no fluxo anteriormente
 
-Assista à "gravação na reunião" para obter mais informações. 
+Assista à "gravação na reunião" para obter mais informações.
 
-> [!VIDEO https://www.youtube.com/embed/8iol0KfCeL8] 
+> [!VIDEO https://www.youtube.com/embed/8iol0KfCeL8]
 
 ## <a name="set-up-the-meeting-recording-option-for-onedrive-for-business-and-sharepoint"></a>Configurar a opção de gravação de reunião do OneDrive for Business e do SharePoint
 

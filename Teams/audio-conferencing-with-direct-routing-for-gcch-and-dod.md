@@ -20,12 +20,12 @@ f1.keywords:
 localization_priority: Normal
 description: O administrador pode saber mais sobre como usar a conferência de áudio com roteamento direto em ambientes GCCH e DoD.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 55efdc0c79f80a2a7b7ca44fd9c80481b163c63f
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 34fcb84ee0e5126188f47a4ccc231c04ffd093b2
+ms.sourcegitcommit: 8924cd77923ca321de72edc3fed04425a4b13044
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868588"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "48262488"
 ---
 # <a name="audio-conferencing-with-direct-routing-for-gcc-high-and-dod"></a>Conferências de Áudio com Roteamento Direto para GCC Alto e DoD
 
@@ -91,25 +91,79 @@ Você pode ver a identificação da sua ponte de conferência de áudio usando G
   Register-csOnlineDialInConferencingServiceNumber -identity 14257048060 -BridgeId $b.identity
   ```
 
-### <a name="step-4-assign-audio-conferencing-with-direct-routing-for-gcc-high-or-dod-licenses-to-your-users"></a>Etapa 4: atribuir uma conferência de áudio com roteamento direto para licenças de GCC elevada ou DoD para seus usuários
+
+### <a name="step-4-define-a-global-voice-routing-policy-to-enable-the-routing-of-outbound-calls-from-meetings"></a>Etapa 4: definir uma política de roteamento de voz global para habilitar o roteamento de chamadas de saída de reuniões
+
+O roteamento de chamadas de saída feitas à PSTN de reuniões organizadas por usuários em sua organização é definido pela política de roteamento de voz global da sua organização. Se a sua organização tiver uma política global de roteamento de voz definida, verifique se a política de roteamento de voz global permite as chamadas de saída para a PSTN que devem ser iniciadas a partir de reuniões organizadas por usuários da sua organização. Se a sua organização não tiver uma política global de roteamento de voz definida, você precisará definir uma para habilitar o roteamento de chamadas de saída para a PSTN de reuniões organizadas por usuários em sua organização. Observe que a política de roteamento de voz global da sua organização também se aplica a chamadas individuais feitas à PSTN pelos usuários da sua organização. Se as chamadas individuais para a PSTN estiverem habilitadas para os usuários de sua organização, certifique-se de que a política de roteamento de voz global atenda às necessidades da sua organização para ambos os tipos de chamadas. 
+
+> [!NOTE]
+> O roteamento baseado em local não está disponível nas implantações do Microsoft 365 governo Community Cloud (GCC) de alta ou DoD. Ao habilitar a conferência de áudio, verifique se nenhum usuário de videoconferência nos ambientes GCC High ou DoD está habilitado para roteamento baseado em local.
+
+#### <a name="defining-a-global-voice-routing-policy"></a>Definindo uma política de roteamento de voz global
+
+Uma política de roteamento de voz global pode ser definida definindo um uso de PSTN, uma rota de voz, uma política de roteamento de voz e atribuindo a nova política de roteamento de voz como a política de roteamento de voz global da sua organização.
+
+As etapas a seguir descrevem como definir uma nova política de roteamento de voz global para uma organização sem uma. Se a sua organização já tiver políticas de roteamento de voz definidas, verifique se a seguinte configuração não está em conflito com as políticas de roteamento de voz existentes da sua organização.
+
+Para criar um novo uso de PSTN em uma sessão remota do PowerShell no Skype for Business Online, use o seguinte comando:
+
+  ```PowerShell
+  Set-CsOnlinePstnUsage -Identity Global -Usage @{Add="International"}
+  ```
+
+Para obter informações adicionais, consulte [set-CsOnlinePstnUsage](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstnusage).
+
+Para criar uma nova rota de voz, use o seguinte comando:
+
+  ```PowerShell
+  New-CsOnlineVoiceRoute -Identity "International" -NumberPattern ".*" -OnlinePstnGatewayList sbc1.contoso.biz -OnlinePstnUsages "International"
+  ```
+
+Ao definir uma nova rota de voz para sua organização, especifique um ou vários dos gateways PSTN online PSTN que foram definidos para a sua organização durante a configuração de roteamento direto. 
+
+O padrão de número especifica quais chamadas serão roteadas na lista especificada de gateways com base no número de telefone de destino da chamada. No exemplo acima, as chamadas para todos os destinos do mundo corresponderão à rota de voz. Se quiser restringir os números de telefone que podem ser discados das reuniões de usuários em sua organização, você pode alterar o padrão de número para que a rota de voz corresponda apenas os padrões de número dos destinos permitidos. Observe que, se não houver rotas de voz que correspondam ao padrão de número do número de telefone de destino de uma determinada chamada, a chamada não será roteada.
+
+Para obter informações adicionais, consulte [New-CsOnlineVoiceRoute](https://docs.microsoft.com/powershell/module/skype/new-csonlinevoiceroute).
+
+Para criar uma nova política de roteamento de voz, use o seguinte comando:
+
+  ```PowerShell
+  New-CsOnlineVoiceRoutingPolicy "InternationalVoiceRoutingPolicy" -OnlinePstnUsages "International"
+  ```
+
+Se vários usos de PSTN estiverem sendo definidos na política de roteamento de voz, eles serão avaliados na ordem em que estão definidos. É recomendável que os usos de PSTN sejam definidos na ordem do mais específico para o mais genérico em termos dos padrões de número das rotas de voz associadas aos usos de PSTN. Por exemplo, se um uso de PSTN foi definido para direcionar chamadas para os Estados Unidos, e outro uso de PSTN foi definido para direcionar chamadas para qualquer outro local do mundo, o uso de PSTN para chamadas para os Estados Unidos deve estar listado na política de roteamento de voz à frente do uso de PSTN para direcionar chamadas para qualquer outro local do mundo.
+
+Para obter informações adicionais, consulte [New-CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csonlinevoiceroutingpolicy).
+
+Para atribuir a nova rota de voz à política de roteamento de voz global da sua organização, use o seguinte comando:
+
+  ```PowerShell
+  Grant-CsOnlineVoiceRoutingPolicy -PolicyName "InternationalVoiceRoutingPolicy" -Global
+  ```
+
+Para obter informações adicionais, consulte [Grant-CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csonlinevoiceroutingpolicy).
+
+Após a definição da política de roteamento de voz global, todas as chamadas feitas a partir de reuniões organizadas por usuários em sua organização serão avaliadas em relação às rotas de voz associadas aos usos de PSTN da política de roteamento de voz global. As chamadas de saída serão roteadas de acordo com a primeira rota de voz que corresponde ao padrão de número do número de telefone discado.
+
+### <a name="step-5-assign-audio-conferencing-with-direct-routing-for-gcc-high-or-dod-licenses-to-your-users"></a>Etapa 5: atribuir uma conferência de áudio com roteamento direto para licenças de GCC elevada ou DoD para seus usuários
 
 Para atribuir uma conferência de áudio com roteamento direto para licenças de GCC elevada ou DoD para o usuário, consulte [atribuir licenças aos usuários](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users).
 
-### <a name="step-5-optional-see-a-list-of-audio-conferencing-numbers-in-teams"></a>Etapa 5: (opcional) Veja uma lista de números de conferência de áudio no Microsoft Teams
+### <a name="step-6-optional-see-a-list-of-audio-conferencing-numbers-in-teams"></a>Etapa 6: (opcional) Veja uma lista de números de conferência de áudio no Microsoft Teams
 
-Para ver a lista de números de conferência de áudio da sua organização, acesse [ver uma lista de números de conferência de áudio no Microsoft Teams](see-a-list-of-audio-conferencing-numbers-in-teams.md)
+Para ver a lista de números de conferência de áudio da sua organização, vá para [ver uma lista de números de conferência de áudio no Microsoft Teams](see-a-list-of-audio-conferencing-numbers-in-teams.md).
 
-### <a name="step-6-optional-set-auto-attendant-languages-for-the-audio-conferencing-dial-in-numbers-of-you-organization"></a>Etapa 6: (opcional) definir idiomas do atendedor automático para os números de discagem da conferência de áudio da sua organização
+### <a name="step-7-optional-set-auto-attendant-languages-for-the-audio-conferencing-dial-in-numbers-of-you-organization"></a>Etapa 7: (opcional) definir idiomas do atendedor automático para os números de discagem da conferência de áudio da sua organização
 
-Para alterar os idiomas dos números de discagem da conferência de áudio da sua organização, consulte [definir idiomas do atendedor automático para videoconferências no Microsoft Teams](set-auto-attendant-languages-for-audio-conferencing-in-teams.md)
+Para alterar os idiomas dos números de discagem da conferência de áudio da sua organização, consulte [definir idiomas do atendedor automático para videoconferências no Microsoft Teams](set-auto-attendant-languages-for-audio-conferencing-in-teams.md).
 
-### <a name="step-7-optional-change-the-settings-of-the-audio-conferencing-bridge-of-your-organization"></a>Etapa 7: (opcional) alterar as configurações da ponte de conferência de áudio da sua organização
+### <a name="step-8-optional-change-the-settings-of-the-audio-conferencing-bridge-of-your-organization"></a>Etapa 8: (opcional) alterar as configurações da ponte de conferência de áudio da sua organização
 
-Para alterar as configurações da ponte de conferência de áudio da sua organização, consulte [alterar as configurações de uma ponte de conferência de áudio](change-the-settings-for-an-audio-conferencing-bridge.md)
+Para alterar as configurações da ponte de conferência de áudio da sua organização, consulte [alterar as configurações de uma ponte de conferência de áudio](change-the-settings-for-an-audio-conferencing-bridge.md).
 
-### <a name="step-8-optional-set-the-phone-numbers-included-in-the-meeting-invites-of-the-users-in-your-organization"></a>Etapa 8: (opcional) definir os números de telefone incluídos nos convites para reunião dos usuários em sua organização
+### <a name="step-9-optional-set-the-phone-numbers-included-in-the-meeting-invites-of-the-users-in-your-organization"></a>Etapa 9: (opcional) definir os números de telefone incluídos nos convites para reunião dos usuários em sua organização
 
-Para alterar o conjunto de números de telefone que estão incluídos nos convites de reunião dos usuários em sua organização, confira [definir os números de telefone incluídos nos convites no Microsoft Teams](set-the-phone-numbers-included-on-invites-in-teams.md)
+Para alterar o conjunto de números de telefone que estão incluídos nos convites de reunião dos usuários em sua organização, confira [definir os números de telefone incluídos nos convites no Microsoft Teams](set-the-phone-numbers-included-on-invites-in-teams.md).
 
 ## <a name="audio-conferencing-capabilities-not-supported-in-audio-conferencing-with-direct-routing-for-gcc-high-and-dod"></a>Os recursos de audioconferência não são compatíveis com a videoconferências com roteamento direto para GCC High e DoD
 

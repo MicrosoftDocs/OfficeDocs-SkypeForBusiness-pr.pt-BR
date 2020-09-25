@@ -17,12 +17,12 @@ description: Saiba como configurar os planos de chamada e o recurso de chamadas 
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4f2d2f440296316cd448013022494021e3557c32
-ms.sourcegitcommit: 19662d4bc4070f6031084d93e8794e0e02decd2b
+ms.openlocfilehash: 772b439c7d0590cdc917c3e94780761de2da8915
+ms.sourcegitcommit: 5c232ab2dfe4374ac69701241e55b05b8de8eb3e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "47321734"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "48269645"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>Planejar e configurar chamadas de emergência dinâmicas 
 
@@ -141,7 +141,7 @@ Observe que pode demorar algum tempo (até algumas horas) para algumas alteraç�
 
 ## <a name="configure-location-information-service"></a>Configurar o serviço de informações de localização
 
-Um cliente do teams Obtém endereços de emergência dos locais associados a diferentes identificadores de rede. As duas sub-redes e pontos de acesso sem fio (WAPs) são compatíveis. (O suporte para switch/porta Ethernet está pendente.)
+Um cliente do teams Obtém endereços de emergência dos locais associados a diferentes identificadores de rede. As duas sub-redes e pontos de acesso sem fio (WAPs) são compatíveis. O switch/porta Ethernet tem suporte no Windows 8,1 e posterior no momento.
 
 Para que um cliente obtenha um local, você deve preencher o LIS com identificadores de rede (sub-redes, WAPs, opções, portas) e locais de emergência. Você pode fazer isso no centro de administração do Microsoft Teams ou usando o PowerShell.
 
