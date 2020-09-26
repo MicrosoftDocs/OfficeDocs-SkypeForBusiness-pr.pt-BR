@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Este apêndice inclui etapas detalhadas para desabilitar o híbrido como parte da consolidação em nuvem para o Teams e o Skype for Business.
-ms.openlocfilehash: f852a3fb44408c6601be8c6bd4f07946419cea71
-ms.sourcegitcommit: 5c232ab2dfe4374ac69701241e55b05b8de8eb3e
+ms.openlocfilehash: 93aad1ea230d9edbb81673a3ddabc7088b06d422
+ms.sourcegitcommit: a28232f16bfefe6414d1f5a54d5f8c8665eb0e23
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 09/25/2020
-ms.locfileid: "48269655"
+ms.locfileid: "48277251"
 ---
 # <a name="disable-hybrid-to-complete-migration-to-the-cloud"></a>Desabilitar a migração híbrida para concluir a nuvem
 
@@ -46,9 +46,6 @@ Após a conclusão dessas etapas, os servidores do Skype for Business local não
 >Você deve continuar a permitir que os atributos do msRTCSIP no Active Directory sincronizem por meio do Azure AD Connect no Azure AD.  Não desmarque nenhum desses atributos, a menos que seja direcionado por suporte.  Não execute disable-CsUser no ambiente local. Se você precisar modificar o endereço SIP de um usuário, faça isso em seu Active Directory local e permita que essa alteração seja sincronizada no Azure AD por meio do Azure AD Connect, conforme descrito abaixo. Da mesma forma, se você precisar alterar um número de telefone e o LineURI do usuário já estiver definido no local, você deverá modificá-lo no Active Directory local.
 >A limpeza dos atributos do msRTCSIP no local após a migração do local pode resultar em perda de serviço para usuários!
 
-> [!Note] 
-> Em casos raros, alterar o DNS de apontar para o local para o Microsoft 365 ou o Office 365 para sua organização pode fazer com que a Federação com algumas outras organizações pare de funcionar até que outra organização Atualize sua configuração de Federação:<ul><li>
-Todas as organizações federadas que usam o modelo de Federação direta mais antigo (também conhecido como servidor parceiro permitido) precisarão atualizar suas entradas de domínio permitidas para sua organização para remover o FQDN do proxy. Esse modelo de Federação herdado não é baseado nos registros SRV DNS, portanto, essa configuração se tornará desatualizada quando sua organização for movida para a nuvem. </li><li>Qualquer organização federada que não tenha um provedor de hospedagem habilitado para sipfed. online. Lync. <span> com precisará atualizar sua configuração para habilitar isso. Essa situação só é possível se a organização federada estiver exclusivamente local e nunca federada com nenhum locatário híbrido ou online. Nesse caso, a Federação com essas organizações não funcionará até que o provedor de hospedagem seja habilitado.</li></ul>Se você suspeita que qualquer um dos seus parceiros federados pode usar Federação direta ou federado com qualquer organização online ou híbrida, sugerimos que você envie uma comunicação sobre isso ao se preparar para concluir a migração para a nuvem.
 
 1.  *Atualize o DNS para apontar para o Microsoft 365 ou o Office 365.*
 O DNS externo da organização para a organização local precisa ser atualizado para que os registros do Skype for Business apontem para o Microsoft 365 ou o Office 365 em vez da implantação local. Especificamente:

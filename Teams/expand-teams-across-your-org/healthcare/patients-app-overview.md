@@ -17,14 +17,21 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: anach
 description: Aplicativo pacientes para administradores do teams
-ms.openlocfilehash: 8424defb7d9fa6359600a99c3c19fdf0b8c4dd28
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: c377ce2db985b19fa576df9519ebd602b56814eb
+ms.sourcegitcommit: a28232f16bfefe6414d1f5a54d5f8c8665eb0e23
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44350145"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "48277248"
 ---
 # <a name="patients-app-overview"></a>Visão geral do aplicativo de pacientes
+
+> [!IMPORTANT]
+> **A partir de 30 de setembro de 2020, o aplicativo pacientes será preterido, e os usuários não poderão mais instalá-lo na App Store da equipe. Recomendamos que você comece a usar o [aplicativo listas](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) no Microsoft Teams hoje mesmo.**
+>
+>Os dados do aplicativo pacientes são armazenados na caixa de correio do grupo do grupo do Office 365 que faz a equipe. Quando o aplicativo pacientes é desativado, todos os dados associados a ele serão mantidos nesse grupo, mas não poderão mais ser acessados por meio da interface do usuário. Os usuários atuais podem recriar suas listas usando o [aplicativo listas](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db).
+>
+>O [aplicativo listas](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) é pré-instalado para todos os usuários do Teams e está disponível como uma guia em cada equipe e canal. Com listas, o cuidado com equipes pode criar listas de pacientes usando o modelo de pacientes incorporado, do zero ou importando dados para o Excel. Para saber mais sobre como gerenciar o aplicativo listas em sua organização, consulte [gerenciar o aplicativo listas](../../manage-lists-app.md).
 
 O aplicativo pacientes é um aplicativo do Microsoft Teams Store disponível para todos os usuários do teams. O aplicativo permite que as equipes de atendimento ao paciente que consistem em funcionários clínicos (por exemplo, retomadas, médicos, colegas de trabalho sociais) podem auxiliar e revisar listas de pacientes para cenários que vão desde rodadas e reuniões interdisciplinares da equipe até o monitoramento geral do paciente.
 

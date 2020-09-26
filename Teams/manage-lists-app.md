@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: 1423c17d57c0074f9e6db1091791eb3f17370414
-ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
+ms.openlocfilehash: 339f914ee1802fd4c9307e2a2f3e7faf20ac8eb4
+ms.sourcegitcommit: a28232f16bfefe6414d1f5a54d5f8c8665eb0e23
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "45158689"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "48277288"
 ---
 # <a name="manage-the-lists-app-for-your-organization-in-microsoft-teams"></a>Gerenciar o aplicativo listas para sua organização no Microsoft Teams
 
@@ -78,7 +78,7 @@ Em determinados cenários, talvez você queira restringir quais ações os usuá
 
 Com listas, os usuários obtêm uma experiência na área de trabalho, Web e celular. É importante saber que os usuários não podem criar novas listas ou fixar listas existentes usando listas no cliente móvel do teams. Para exibir ou editar uma lista no cliente móvel do Teams, uma lista deve ser criada primeiro ou adicionada usando listas na área de trabalho do teams ou no cliente da Web.
 
-Convidados em [canais privados](private-channels.md) não podem criar ou excluir uma lista ou iniciar uma nova conversa sobre um item de lista. Elas podem adicionar itens de lista a listas existentes e responder a uma conversa existente sobre um item de lista. Lembre-se de que essas limitações se aplicam apenas a canais privados.
+Convidados não podem criar ou excluir uma lista. Elas podem adicionar itens de lista a listas existentes, iniciar novas conversas sobre itens de lista e responder a conversas existentes sobre itens de lista.
 
 ### <a name="lists-and-the-sharepoint-app"></a>Listas e o aplicativo do SharePoint
 
@@ -115,3 +115,7 @@ As listas dão suporte à [automatização de energia](https://preview.flow.micr
 ## <a name="give-feedback-or-report-an-issue"></a>Enviar comentários ou relatar um problema
   
 Para nos enviar comentários ou reportar um problema, clique em **ajuda** próximo à parte inferior do painel de navegação esquerdo no Teams e selecione **relatar um problema**. Selecione **listas**e, em seguida, insira seus comentários ou detalhes sobre o problema que está ocorrendo.
+
+## <a name="related-topics"></a>Tópicos relacionados
+
+- [Lista ajuda documentação](https://support.microsoft.com/office/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b#PickTab=Lists)

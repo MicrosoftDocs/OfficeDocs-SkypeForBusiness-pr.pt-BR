@@ -18,14 +18,21 @@ appliesto:
 ms.reviewer: anach
 description: Saiba mais sobre como integrar os registros eletrônicos de assistência médica ao aplicativo Microsoft Teams pacientes usando APIs FHIR.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f981b2fc68aa52f8ea5a48fab18977197ac813c8
-ms.sourcegitcommit: 397c4840fb053238de24b8b24ae75588b33b693d
+ms.openlocfilehash: 1046037ff2cac7f98b9a34ede05a4b30ce793d6c
+ms.sourcegitcommit: a28232f16bfefe6414d1f5a54d5f8c8665eb0e23
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "45098419"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "48277291"
 ---
 # <a name="integrating-electronic-healthcare-records-into-microsoft-teams"></a>Integração dos Registros Eletrônicos de Saúde no Microsoft Teams
+
+> [!IMPORTANT]
+> **A partir de 30 de setembro de 2020, o aplicativo pacientes será preterido, e os usuários não poderão mais instalá-lo na App Store da equipe. Recomendamos que você comece a usar o [aplicativo listas](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) no Microsoft Teams hoje mesmo.**
+>
+>Os dados do aplicativo pacientes são armazenados na caixa de correio do grupo do grupo do Office 365 que faz a equipe. Quando o aplicativo pacientes é desativado, todos os dados associados a ele serão mantidos nesse grupo, mas não poderão mais ser acessados por meio da interface do usuário. Os usuários atuais podem recriar suas listas usando o [aplicativo listas](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db).
+>
+>O [aplicativo listas](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) é pré-instalado para todos os usuários do Teams e está disponível como uma guia em cada equipe e canal. Com listas, o cuidado com equipes pode criar listas de pacientes usando o modelo de pacientes incorporado, do zero ou importando dados para o Excel. Para saber mais sobre como gerenciar o aplicativo listas em sua organização, consulte [gerenciar o aplicativo listas](../../manage-lists-app.md).
 
 [!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 

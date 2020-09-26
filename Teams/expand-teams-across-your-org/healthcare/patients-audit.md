@@ -15,14 +15,21 @@ ms.collection:
 - Teams_ITAdmin_Healthcare
 ms.reviewer: anach
 description: Aplicativo pacientes para administradores do teams
-ms.openlocfilehash: a4c3980feceac51a6a674848e4c0005d9cc0c9d1
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: 2b61f7a923d863086b09d240230a0eb8e5ca897b
+ms.sourcegitcommit: a28232f16bfefe6414d1f5a54d5f8c8665eb0e23
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44350175"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "48277235"
 ---
 # <a name="audit-logs-for-patients-app"></a>Logs de auditoria para o aplicativo de pacientes
+
+> [!IMPORTANT]
+> **A partir de 30 de setembro de 2020, o aplicativo pacientes será preterido, e os usuários não poderão mais instalá-lo na App Store da equipe. Recomendamos que você comece a usar o [aplicativo listas](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) no Microsoft Teams hoje mesmo.**
+>
+>Os dados do aplicativo pacientes são armazenados na caixa de correio do grupo do grupo do Office 365 que faz a equipe. Quando o aplicativo pacientes é desativado, todos os dados associados a ele serão mantidos nesse grupo, mas não poderão mais ser acessados por meio da interface do usuário. Os usuários atuais podem recriar suas listas usando o [aplicativo listas](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db).
+>
+>O [aplicativo listas](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) é pré-instalado para todos os usuários do Teams e está disponível como uma guia em cada equipe e canal. Com listas, o cuidado com equipes pode criar listas de pacientes usando o modelo de pacientes incorporado, do zero ou importando dados para o Excel. Para saber mais sobre como gerenciar o aplicativo listas em sua organização, consulte [gerenciar o aplicativo listas](../../manage-lists-app.md).
 
 Um log de auditoria para atividades de aplicativo pacientes permite que as equipes de resposta a incidentes revisem alterações para os registros médicos eletrônicos (EMR) ou informações de assistência médica (PHI) de um paciente e determine se alterações ou melhorias na política ou nos procedimentos para o acesso PHI em ferramentas de produtividade são necessárias. Os eventos de log de auditoria abordam as ações realizadas por meio da interface de usuário do aplicativo pacientes.
 

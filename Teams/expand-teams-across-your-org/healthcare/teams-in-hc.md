@@ -18,12 +18,12 @@ appliesto:
 ms.reviewer: ''
 description: Saiba mais sobre os recursos de assistência médica que incluem coordenação, Secure Messaging, telehealth, integração do EHR e primeira integração do sistema de trabalho.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8d2a77e5e7e696e20efb13a5c805968fc3af3204
-ms.sourcegitcommit: 70b80892a152f86a6d596f0f5b58cf391bc29098
+ms.openlocfilehash: 2257c82d602146210b217e396d65ebb1fdcb90f6
+ms.sourcegitcommit: a28232f16bfefe6414d1f5a54d5f8c8665eb0e23
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/15/2020
-ms.locfileid: "45138101"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "48277275"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>Introdução ao Teams para Organizações de Saúde
 
@@ -38,6 +38,13 @@ O Microsoft Teams oferece diversos recursos úteis para hospitais e outras organ
 O conteúdo desta seção baseia-se nos recursos básicos do Teams, como reuniões, chamadas e mensagens e pressupõe que você já implantou o Microsoft Teams em sua organização. Se você ainda não distribuiu o Microsoft Teams, comece lendo [como implantar o Microsoft Teams](../../How-to-roll-out-teams.md).
 
 ## <a name="care-coordination---microsoft-teams-patients-app"></a>Coordenação de cuidado-aplicativo pacientes do Microsoft Teams
+
+> [!IMPORTANT]
+> **A partir de 30 de setembro de 2020, o aplicativo pacientes será preterido, e os usuários não poderão mais instalá-lo na App Store da equipe. Recomendamos que você comece a usar o [aplicativo listas](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) no Microsoft Teams hoje mesmo.**
+>
+>Os dados do aplicativo pacientes são armazenados na caixa de correio do grupo do grupo do Office 365 que faz a equipe. Quando o aplicativo pacientes é desativado, todos os dados associados a ele serão mantidos nesse grupo, mas não poderão mais ser acessados por meio da interface do usuário. Os usuários atuais podem recriar suas listas usando o [aplicativo listas](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db).
+>
+>O [aplicativo listas](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) é pré-instalado para todos os usuários do Teams e está disponível como uma guia em cada equipe e canal. Com listas, o cuidado com equipes pode criar listas de pacientes usando o modelo de pacientes incorporado, do zero ou importando dados para o Excel. Para saber mais sobre como gerenciar o aplicativo listas em sua organização, consulte [gerenciar o aplicativo listas](../../manage-lists-app.md).
 
 [!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 

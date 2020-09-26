@@ -18,14 +18,21 @@ appliesto:
 ms.reviewer: anach
 description: Saiba como integrar registros de saúde eletrônicas ao aplicativo Microsoft Teams pacientes e à especificação de interface STU3.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2e101f6ca50a76b4b8bb9d3dd33d35fd7706a81f
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: bcae5b6fae3da469aaaa35b3a0494273fa8d29ba
+ms.sourcegitcommit: a28232f16bfefe6414d1f5a54d5f8c8665eb0e23
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905743"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "48277220"
 ---
 # <a name="stu3-interface-specification"></a>Especificação de interface STU3
+
+> [!IMPORTANT]
+> **A partir de 30 de setembro de 2020, o aplicativo pacientes será preterido, e os usuários não poderão mais instalá-lo na App Store da equipe. Recomendamos que você comece a usar o [aplicativo listas](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) no Microsoft Teams hoje mesmo.**
+>
+>Os dados do aplicativo pacientes são armazenados na caixa de correio do grupo do grupo do Office 365 que faz a equipe. Quando o aplicativo pacientes é desativado, todos os dados associados a ele serão mantidos nesse grupo, mas não poderão mais ser acessados por meio da interface do usuário. Os usuários atuais podem recriar suas listas usando o [aplicativo listas](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db).
+>
+>O [aplicativo listas](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) é pré-instalado para todos os usuários do Teams e está disponível como uma guia em cada equipe e canal. Com listas, o cuidado com equipes pode criar listas de pacientes usando o modelo de pacientes incorporado, do zero ou importando dados para o Excel. Para saber mais sobre como gerenciar o aplicativo listas em sua organização, consulte [gerenciar o aplicativo listas](../../manage-lists-app.md).
 
 [!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
@@ -43,7 +50,7 @@ A configuração ou a reconfiguração de um servidor FHIR para trabalhar com o 
 > [!NOTE]
 > O recurso de paciente é o único recurso obrigatório (sem que o aplicativo não seja carregado); No entanto, é recomendável que o parceiro implemente o suporte para todos os recursos mencionados acima, por especificações fornecidos abaixo, para obter a melhor experiência do usuário final com o aplicativo pacientes do Microsoft Teams.
 
-As consultas do aplicativo Microsoft Teams pacientes para mais de um recurso deverão postar um pacote (lote) de solicitações para a URL do servidor FHIR. O servidor processará cada solicitação e devolverá um pacote dos recursos correspondentes a cada solicitação. Para obter mais informações e exemplos, [https://www.hl7.org/fhir/STU3/http.html#transaction](https://www.hl7.org/fhir/STU3/http.html#transaction)consulte.
+As consultas do aplicativo Microsoft Teams pacientes para mais de um recurso deverão postar um pacote (lote) de solicitações para a URL do servidor FHIR. O servidor processará cada solicitação e devolverá um pacote dos recursos correspondentes a cada solicitação. Para obter mais informações e exemplos, consulte [https://www.hl7.org/fhir/STU3/http.html#transaction](https://www.hl7.org/fhir/STU3/http.html#transaction) .
 
 ## <a name="capability-statement"></a>Declaração de recursos
 
@@ -78,11 +85,11 @@ Uma pesquisa de recursos usa o método postar em/patient/_search e os seguintes 
 
 1. %
 2. Family = (procura por todos os pacientes cujo nome de família contenha o valor)
-3. especificado =\<subcadeia de caracteres>
+3. especificado =\<substring>
 4. DataDeNascimento = (correspondência exata)
 5. Gênero = (valores sendo um dos sexo administrativos)
-6. \_contagem (número máximo de resultados que devem ser retornados) <br> A resposta deve conter a contagem total de registros retornados como resultado da pesquisa e \_da contagem que será usado pelo PatientsApp para limitar o número de registros retornados.
-7. identificador =\<MRN>
+6. \_contagem (número máximo de resultados que devem ser retornados) <br> A resposta deve conter a contagem total de registros retornados como resultado da pesquisa e da \_ contagem que será usado pelo PatientsApp para limitar o número de registros retornados.
+7. identificador =\<mrn>
 
 O objetivo é poder pesquisar e filtrar por um paciente da seguinte maneira:
 
@@ -97,14 +104,14 @@ Consulte o seguinte exemplo da chamada:
 
     Solicitação: POST <fhir-Server>/patient/_search corpo da solicitação: dadas = Ruth&Family = preto
     
-    Resposta: {"resourceType": "pacote", "ID": "<pacote-ID>", "meta": {"lastUpdated": "2019-01-14T23:44:45.052 + 00:00"}, "tipo": "searchset", "total": 1, "link": [{"relation": "self", "URL": <fhir-Server>/patient/_search "}]," entry ": [{" fullUrl ": <fhir-Server>/patient/<> de identificação do paciente", "recurso": {"resourceType": "paciente", "ID": "<paciente-ID>", "meta": {"VersionId": "1", "lastUpdated": "2017-10-18T18:32:37.000 + 00:00"}, "texto": {"status": "gerado", "div", "div": "<div>\n        <p>Ruth negro</p>\n      </div>"}," identificador ": [{" Use ":" usual "," tipo ": {" codificação ": [{" sistema ":"https://hl7.org/fhir/v2/0203"," código ":" Mr "," exibir ":" número do registro médico "," userselected ": false}]," texto ":" número do registro médico "," sistema ":http://hospital.smarthealthit.org" "," valor ":" 1234567 "}]," ativo ": verdadeiro," nome ": [{" usar ":" oficial "," família ":" preto "," fornecido ": [" Ruth "," C ",
+    Resposta: {"resourceType": "pacote", "ID": "<pacote-ID>", "meta": {"lastUpdated": "2019-01-14T23:44:45.052 + 00:00"}, "tipo": "searchset", "total": 1, "link": [{"relation": "self", "URL": <fhir-Server>/patient/_search "}]," entry ": [{" fullUrl ": <fhir-Server>/patient/<> de identificação do paciente", "recurso": {"resourceType": "paciente", "ID": "<paciente-ID>", "meta": {"VersionId": "1", "lastUpdated": "2017-10-18T18:32:37.000 + 00:00"}, "texto": {"status": "gerado", "div", "div": "<div>\n        <p>Ruth negro</p>\n      </div>"}," identificador ": [{" Use ":" usual "," tipo ": {" codificação ": [{" sistema ":" https://hl7.org/fhir/v2/0203 "," código ":" Mr "," exibir ":" número do registro médico "," Userselected ": false}]," texto ":" número do registro médico "," sistema ":" http://hospital.smarthealthit.org "," valor ":" 1234567 "}]," ativo ": verdadeiro," nome ": [{" usar ":" oficial "," família ":" preto "," fornecido ": [" Ruth "," C ",
     ]}], "telecomunicações": [{"System": "Phone", "value": "800-599-2739", "valor": "800-808-7785", "Use": "móvel", "valor": "", "Use": "celular", "valor" gênero ":" email "," valor ":" ruth.black@example.com "," ",", "gênero": "feminino", "DataDeNascimento": "1951-08-23", "endereço": [{"usar": "Home", "linha": ["26 South RdApt 22"], "cidade": "Sapulpa", "estado": "OK", "CEP": "74066", "país": "EUA"}]}, "localizar": {"Mode": "match"}}]}
 
 * * *
 
     Solicitação: Obtenha o <fhir>/patient/<o ID do paciente>
     
-    Resposta: {"resourceType": "paciente", "ID": "<paciente-ID>", "identificador": [{"usar": "usual", "tipo": {"codificação": [{"sistema": "https://hl7.org/fhir/v2/0203", "código": "Sr",}], "texto": "número do registro médico"}, "valor": "1234567"}], "nome": [{"usar": "oficial", "família": "Adams", "determinado": ["Daniel", "X." ]}], "gênero": "macho", "Datadenascimentoe": "1925-12-23",}
+    Resposta: {"resourceType": "paciente", "ID": "<paciente-ID>", "identificador": [{"usar": "usual", "tipo": {"codificação": [{"sistema": " https://hl7.org/fhir/v2/0203 ", "código": "Sr",}], "texto": "número do registro médico"}, "valor": "1234567"}], "nome": [{"usar": "oficial", "família": "Adams", "determinado": ["Daniel", "X." ]}], "gênero": "macho", "Datadenascimentoe": "1925-12-23",}
 
 * * *
 
@@ -125,7 +132,7 @@ Além dos campos Argonaut, para uma excelente experiência do usuário, o aplica
 
 Uma pesquisa de recursos usa o método GET e os seguintes parâmetros:
 
-1. paciente =\<identificação do paciente>
+1. paciente =\<patient id>
 2. _sort =-data
 3. Categoria (consultaremos "category = Vital-Signs") para recuperar a lista de sinais essenciais.
 
@@ -135,7 +142,7 @@ Consulte este exemplo da chamada:
 
     Solicitação: Obtenha o <fhir-Server>/Observation? paciente =<paciente-ID>&categoria = sinais essenciais
     
-    Resposta: {"resourceType": "pacote", "ID": "<pacote-ID>", "tipo": "searchset", "total": 20, "entry": [{"Resource": {"resourceType": "observação", "ID": "<Resource-ID>", "categoria": [{"codificação": [{"sistema": "https://hl7.org/fhir/observation-category", "código": "código vital" Code ": {" Coding ": [{" System ":"http://loinc.org"," código ":" 8867-4 "," display ":" heart_rate "}]}," effectiveDateTime ":" 2009-04-08T00:00:00-06:00 "," valueQuantity ": {" valor ": 72,0," unidade ":" {batidas}/min "," sistema ":"http://unitsofmeasure.org",}}},.
+    Resposta: {"resourceType": "pacote", "ID": "<pacote-ID>", "tipo": "searchset", "total": 20, "entry": [{"Resource": {"resourceType": "observação", "ID": "<Resource-ID>", "categoria": [{"codificação": [{"sistema": " https://hl7.org/fhir/observation-category ", "código": "código vital" Code ": {" Coding ": [{" System ":" http://loinc.org "," código ":" 8867-4 "," display ":" heart_rate "}]}," effectiveDateTime ":" 2009-04-08T00:00:00-06:00 "," valueQuantity ": {" valor ": 72,0," unidade ":" {batidas}/min "," sistema ":" http://unitsofmeasure.org ",}}},.
         .
         .
       ] }
@@ -157,8 +164,8 @@ Além dos campos Argonaut, para uma excelente experiência do usuário, o aplica
 
 Uma pesquisa de recursos usa o método GET e os seguintes parâmetros:
 
-1. paciente =\<identificação do paciente>
-2. _count =\<máximo de resultados>
+1. paciente =\<patient id>
+2. _count =\<max results>
 
 Consulte o seguinte exemplo desta chamada:
 
@@ -166,7 +173,7 @@ Consulte o seguinte exemplo desta chamada:
 
     Solicitação: Obtenha o <fhir-Server>/Condition? paciente =<paciente-ID>&_count = 10
     
-    Resposta: {"resourceType": "Bundle", "ID": "<Bundle-ID>", "tipo": "searchset", "total": 2, "entry": [{"Resource": {"resourceType": "Condition", "ID": "<Resource-ID>", "código": {"codificação": [{"sistema": "http://snomed.info/sct", "código": "185903001", "exibição": "precisa de imunização influenza",}]}, "severidade": {"codificação": [{"sistema":http://snomed.info/sct"", "código": "24484000", "exibir": "severado}]}," assertedDate ":" 2018-04-04 "}},.
+    Resposta: {"resourceType": "Bundle", "ID": "<Bundle-ID>", "tipo": "searchset", "total": 2, "entry": [{"Resource": {"resourceType": "Condition", "ID": "<Resource-ID>", "código": {"codificação": [{"sistema": " http://snomed.info/sct ", "código": "185903001", "exibição": "precisa de imunização influenza",}]}, "severidade": {"codificação": [{"sistema": " http://snomed.info/sct ", "código": "24484000", "exibir": "severado}]}," assertedDate ":" 2018-04-04 "}},.
         .
         .
       ] }
@@ -188,9 +195,9 @@ Além disso, os seguintes campos dos EUA enfrentam os campos "deve dar suporte" 
 
 Uma pesquisa de recursos usa o método GET e os seguintes parâmetros:
 
-1. paciente =\<identificação do paciente>
-2. _sort: desc =\<Field ex. Data>
-3. _count =\<máximo de resultados>
+1. paciente =\<patient id>
+2. _sort: desc =\<field ex. date>
+3. _count =\<max results>
 
 O objetivo é poder recuperar o último local conhecido do paciente. Cada encontro faz referência a um recurso de localização. A referência também incluirá o campo de exibição do local.
 
@@ -214,7 +221,7 @@ Além dos campos Argonaut, para uma excelente experiência do usuário, o aplica
 
 Uma pesquisa de recursos usa o método GET e os seguintes parâmetros:
 
-1. Paciente = \<identificação do paciente>
+1. Paciente =  \<patient id>
 
 Consulte o seguinte exemplo da chamada: 
 
@@ -222,7 +229,7 @@ Consulte o seguinte exemplo da chamada:
 
     Solicitação: Obtenha o <fhir-Server>/AllergyIntolerance? paciente =<o ID do paciente>
     
-    Resposta: {"resourceType": "pacote", "ID": "<pacote-ID>", "tipo": "searchset", "total": 1 "," entry ": [{" Resource ": {" resourceType ":" AllergyIntolerance "," ID ":" verificationStatus-ID> "," clinicalStatus ":" ativo "," ":" confirmado "," código ": {" codificação ", <" ":" confirmadohttp://rxnav.nlm.nih.gov/REST/Ndfrt"," código ": {" codificação ": N0000175503", "exibir": "sulfonamide Antibacterial",}], "texto": "sulfonamide Antibacterial"}, "assertedDate": "2018-01-01T00:00:00-07:00", "reação": [{"manifestação": [{"Coding": [{"http://snomed.info/sctSystem": "", "código": "271807003", "display": "Skin rash",}], "texto": "Skin rash"}],}]
+    Resposta: {"resourceType": "pacote", "ID": "<pacote-ID>", "tipo": "searchset", "total": 1 "," entry ": [{" Resource ": {" resourceType ":" AllergyIntolerance "," ID ":" verificationStatus-ID> "," clinicalStatus ":" ativo "," ":" confirmado "," código ": {" codificação ", <" ":" confirmado "," código ": {" codificação ": http://rxnav.nlm.nih.gov/REST/Ndfrt N0000175503", "exibir": "sulfonamide Antibacterial",}], "texto": "sulfonamide Antibacterial"}, "assertedDate": "2018-01-01T00:00:00-07:00", "reação": [{"manifestação": [{"Coding": [{"System": " http://snomed.info/sct ", "código": "271807003", "display": "Skin rash",}], "texto": "Skin rash"}],}]
 
 * * *
 
@@ -244,8 +251,8 @@ Além dos campos principais dos EUA, para uma ótima experiência do usuário, o
 
 Uma pesquisa de recursos usa o método GET e os seguintes parâmetros:
 
-1. paciente =\<identificação do paciente>
-2. _count =\<máximo de resultados>
+1. paciente =\<patient id>
+2. _count =\<max results>
 
 Consulte [https://www.hl7.org/fhir/medicationrequest.html](https://www.hl7.org/fhir/medicationrequest.html) para obter outros detalhes sobre esse conjunto de campos.
 
@@ -261,6 +268,6 @@ Estes são os campos mínimos obrigatórios, não cobertos pelos perfis centrais
 
 Uma pesquisa de recursos usa o método GET e os seguintes parâmetros:
 
-1. Paciente = \<identificação do paciente>
+1. Paciente = \<patient id>
 
 Consulte [https://hl7.org/fhir/stu3/coverage.html](https://www.hl7.org/fhir/medicationrequest.html) para obter outros detalhes sobre esse conjunto de campos.
