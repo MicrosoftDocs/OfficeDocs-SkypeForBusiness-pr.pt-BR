@@ -18,20 +18,20 @@ appliesto:
 ms.reviewer: ''
 description: Use os modelos do Microsoft Teams para criar equipes rápida e facilmente fornecendo um modelo predefinido de configurações, canais e aplicativos.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 7f5fbeb967b72a25e4df5dee6f0597c3140d85b6
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: f2ef6bd4bf358a90654e7fda643effbfcc34b3c2
+ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44756600"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48294428"
 ---
-# <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>Introdução aos modelos do Teams para Organizações de Saúde
+# <a name="get-started-with-teams-templates-for-healthcare-organizations-using-microsoft-graph"></a>Introdução aos modelos do teams para organizações de assistência médica usando o Microsoft Graph
 
 Os modelos do Microsoft Teams permitem criar equipes de forma rápida e fácil, fornecendo um modelo predefinido de configurações, canais e aplicativos pré-instalados.
 
-Para organizações de assistência médica, os modelos podem ser especialmente poderosos, pois eles fornecem estrutura para que os usuários se orientem com a melhor utilização das equipes com eficiência. Os modelos também permitem que os administradores implantem equipes consistentes em suas organizações. Este artigo é para você se for responsável por planejar, implantar e gerenciar várias equipes em toda a organização de assistência médica.
+Para organizações de assistência médica, os modelos podem ser eficientes, pois fornecem estrutura para que os usuários se orientem com o modo de usar o Teams de forma eficaz. Os modelos também permitem que os administradores implantem equipes consistentes em suas organizações. Este artigo é para você se for responsável por planejar, implantar e gerenciar várias equipes em toda a organização de assistência médica.
 
-Atualmente, oferecemos dois modelos de assistência médica de primeira festa que você pode aproveitar para várias situações. Para saber mais sobre os modelos de equipe em geral, consulte [introdução aos modelos](../../get-started-with-teams-templates.md)do Microsoft Teams.
+Atualmente, oferecemos dois modelos de saúde de primeira mão que você pode usar para várias situações. Para saber mais sobre os modelos de equipe em geral, consulte [introdução aos modelos](../../get-started-with-teams-templates.md)do Microsoft Teams.
 
 ## <a name="ward-template"></a>Modelo de versões anteriores
 
@@ -42,7 +42,7 @@ O modelo para a era destinado à comunicação e à colaboração em um departam
 |Saúde para a frente | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')`   | Comunicados\* <br> Huddles\* <br> Arredonda\* <br> Especificam\* <br> Treinamento\* |
 |     | |         |
 
-\*Favoritos automaticamente
+\* Favoritos automaticamente
 
 ## <a name="hospital-template"></a>Modelo do hospital
 
@@ -53,7 +53,7 @@ O modelo hospital destina-se à comunicação e colaboração entre vários depa
 |Assistência médica – hospital | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')`   | Comunicados\* <br> Conformidade\* <br> Custodial <br> Recursos humanos <br> Farmácia |
 | | |  |
 
-\*Favoritos automaticamente 
+\* Favoritos automaticamente 
 
 ## <a name="how-to-use-first-party-templates"></a>Como usar modelos de primeira empresa
 
@@ -169,3 +169,5 @@ Para usar esses modelos, basta alterar a propriedade ' template@odata. BIND ' no
 [Introdução aos modelos do Teams](../../get-started-with-teams-templates.md)
 
 [Introdução ao Teams para Organizações de Saúde](teams-in-hc.md)
+
+[Introdução aos modelos do Microsoft Teams no console de administração](../../get-started-with-teams-templates-in-the-admin-console.md)

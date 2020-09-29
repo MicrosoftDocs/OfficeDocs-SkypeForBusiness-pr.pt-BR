@@ -19,25 +19,22 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 39debd0b184109a55686977f27ba1262d5d65641
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: 077b66a8d5282254540a5b26a2af79c353f58f9b
+ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48216692"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48294447"
 ---
 # <a name="use-general-teams-templates-in-the-admin-console"></a>Usar modelos do teams gerais no console de administração
-
-[!INCLUDE [template](includes/preview-feature.md)]
 
 Os modelos de equipe permitem criar equipes de forma rápida e fácil, fornecendo um modelo predefinido de configurações, canais e aplicativos pré-instalados.
 
 Os modelos de equipe têm definições predefinidas de estruturas de equipe projetadas em relação às necessidades financeiras. Você também pode estender os modelos de equipe para criar equipes que sejam adequadas às suas necessidades organizacionais específicas.
 
-Neste artigo, apresentaremos cada um dos modelos de equipe e como recomendamos usá-los.
+Neste artigo, apresentamos cada um dos modelos de equipe e recomendamos usá-los.
 
-Este artigo é para você se for responsável por planejar, implantar e gerenciar várias equipes em toda a sua organização financeira. Presumimos que você já tenha implantado o serviço do Microsoft Teams em sua organização. Se você ainda não distribuiu o Microsoft Teams, comece lendo o guia [como implantar o Microsoft Teams](How-to-roll-out-teams.md).
+Este artigo é para você se for responsável por planejar, implantar e gerenciar várias equipes em toda a sua organização financeira. Você já implantou o serviço Microsoft Teams em sua organização. Se você não distribuiu o Microsoft Teams, comece lendo o guia [como implantar o Microsoft Teams](How-to-roll-out-teams.md).
 
 Para saber mais sobre os modelos de equipe em geral, confira [introdução aos modelos](get-started-with-teams-templates-in-the-admin-console.md)do Microsoft Teams.
 
@@ -72,7 +69,7 @@ Gerenciar tarefas, compartilhar documentos, conduzir reuniões de projetos e doc
 
 Gerenciar tarefas, documentos e colaborar em tudo o que você precisa para fornecer um evento interessante. Convide os usuários de convidados a ter uma colaboração segura dentro e fora da sua empresa.
 
-Você pode não ter acesso a determinados aplicativos com base na política de permissão de seu aplicativo.
+Talvez você não tenha acesso a determinados aplicativos com base na política de permissão do aplicativo.
 
 | Tipo de modelo base | baseTemplateId| Propriedades que vêm com este modelo base |
 | ------------------ |--|----------------------------------------------------- |

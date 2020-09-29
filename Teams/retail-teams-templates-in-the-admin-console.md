@@ -19,17 +19,14 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 8b72fe7b1f101278d206d49f06203fe9841ba25f
-ms.sourcegitcommit: af9f96010460f9323db84912fe143aa0750ac798
+ms.openlocfilehash: c9e0a75c558888fcd1c558eb3f87718a85e22471
+ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "48171075"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48294537"
 ---
 # <a name="use-teams-retail-templates-in-the-admin-console"></a>Usar modelos de varejo do teams no console de administração
-
-[!INCLUDE [template](includes/preview-feature.md)]
 
 Os modelos de equipe permitem criar equipes de forma rápida e fácil, fornecendo um modelo predefinido de configurações, canais e aplicativos pré-instalados.
 

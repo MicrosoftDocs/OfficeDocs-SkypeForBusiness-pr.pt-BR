@@ -19,24 +19,24 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9b170047a3b8d3218b8e31bdc9d4b1035eb8706c
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 33be31797833152aea9dd477698be56884a5aa0b
+ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583198"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48294627"
 ---
-# <a name="get-started-with-teams-templates-in-retail"></a>Introdução aos modelos do Teams no varejo 
+# <a name="get-started-with-teams-templates-in-retail"></a>Introdução aos modelos do Teams no varejo
 
 Os modelos de equipe permitem criar equipes de forma rápida e fácil, fornecendo um modelo predefinido de configurações, canais e aplicativos pré-instalados.
 
 Os modelos de equipe têm definições predefinidas de estruturas de equipe projetadas com base nas necessidades do revendedor. Você pode usar modelos do teams para criar rapidamente os tipos de equipes que funcionam bem para varejistas e implantá-las em toda a organização. Você também pode estender os modelos de equipe para criar equipes que sejam adequadas às suas necessidades organizacionais específicas.
 
-Neste artigo, apresentaremos cada um dos modelos de equipe e como recomendamos usá-los.
+Neste artigo, apresentaremos cada um dos modelos de equipe e recomendaremos como usá-los.
 
-Este artigo é para você se for responsável por planejar, implantar e gerenciar várias equipes em toda a organização de varejo. Presumimos que você já tenha implantado o serviço do Microsoft Teams em sua organização. Se você ainda não distribuiu o Microsoft Teams, comece lendo o guia [como implantar o Microsoft Teams](How-to-roll-out-teams.md).
+Este artigo é para você se for responsável por planejar, implantar e gerenciar várias equipes em toda a organização de varejo. Você já implantou o serviço Microsoft Teams em sua organização. Se você ainda não distribuiu o Microsoft Teams, comece lendo o guia [como implantar o Microsoft Teams](How-to-roll-out-teams.md).
 
-Para saber mais sobre os modelos de equipe em geral, consulte [introdução aos modelos](get-started-with-teams-templates.md)do Microsoft Teams.
+Para saber mais sobre os modelos de equipe em geral, confira [introdução aos modelos](get-started-with-teams-templates.md)do Microsoft Teams.
 
 ## <a name="store-template"></a>Modelo da loja
 
@@ -49,13 +49,13 @@ O modelo da loja é ideal para criar uma equipe para representar um local indivi
 
 Maneiras recomendadas de personalizar o modelo de loja para sua organização:
 
-- Se a sua organização tiver departamentos em cada loja, adicione um canal para cada departamento. Isso facilitará a comunicação e a colaboração dentro do departamento.
+- Se a sua organização tiver departamentos em cada loja, adicione um canal para cada departamento. Adicionar um canal facilita a comunicação e a colaboração dentro do departamento.
 
 - Se sua organização tiver sites internos (por exemplo, um site do SharePoint), considere fixar como guias no canal da equipe relevante. Confira o introdução ao [Teams templates](get-started-with-teams-templates.md) para obter instruções.
 
 ## <a name="manager-collaboration-template"></a>Modelo de colaboração do gerente
 
-O modelo de colaboração do gerente é outro um dos modelos de equipe projetados em torno das necessidades do revendedor. O modelo de colaboração do gerente é ideal para criar uma equipe para um conjunto de gerentes colaborar em lojas/regiões etc. Por exemplo, se a sua organização tiver regiões, você pode criar uma equipe de colaboração do gerente para a região da Califórnia e incluir todos os gerentes da loja nessa região, bem como o gerente regional dessa região.
+O modelo de colaboração do gerente é outro um dos modelos de equipe projetados em torno das necessidades do revendedor. O modelo de colaboração do gerente é ideal para criar uma equipe para um conjunto de gerentes colaborar em lojas/regiões e muito mais. Por exemplo, se a sua organização tiver regiões, você pode criar uma equipe de colaboração do gerente para a região da Califórnia e incluir todos os gerentes da loja nessa região, bem como o gerente regional dessa região.
 
 | Tipo de modelo base | baseTemplateId | Propriedades que vêm com este modelo base |
 | ------------------ | -------------- | ----------------------------------------------------- |
@@ -64,11 +64,11 @@ O modelo de colaboração do gerente é outro um dos modelos de equipe projetado
 
 Maneiras recomendadas de personalizar o modelo de colaboração do gerente para sua organização:
 
-- Se sua organização tiver sites internos (por exemplo, um site do SharePoint) que sejam relevantes para gerentes, considere fixar como guias em um canal de equipe relevante. Você pode dar uma olhada na [documentação do modelo do Microsoft Teams](get-started-with-teams-templates.md) para obter instruções.
+- Se a sua organização tiver qualquer site interno, como um site do SharePoint, que seja relevante para gerentes, considere fixar as guias em um canal de equipe relevante. Você pode dar uma olhada na [documentação do modelo do Microsoft Teams](get-started-with-teams-templates.md) para obter instruções.
 
 ## <a name="how-to-use-first-party-templates"></a>Como usar modelos de primeira empresa
 
-Para usar esses modelos, basta alterar a propriedade ' template@odata. BIND ' no corpo da solicitação de ' Standard ' para a TemplateIDs acima.  Para obter mais informações sobre como implantar modelos de equipe, consulte o artigo Microsoft Graph sobre como [criar uma equipe](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta).
+Para usar esses modelos, altere a propriedade ' template@odata. BIND ' no corpo da solicitação de ' Standard ' para a TemplateIDs acima.  Para obter mais informações sobre como implantar modelos de equipe, consulte o artigo Microsoft Graph sobre como [criar uma equipe](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta).
 
 > [!NOTE]
 > Os canais no modelo serão automaticamente criados na guia geral.
@@ -88,3 +88,6 @@ Para usar esses modelos, basta alterar a propriedade ' template@odata. BIND ' no
   ]
 }
 ```
+## <a name="relate-topic"></a>Tópico de relação
+
+[Introdução aos modelos do Microsoft Teams no console de administração](get-started-with-teams-templates-in-the-admin-console.md)

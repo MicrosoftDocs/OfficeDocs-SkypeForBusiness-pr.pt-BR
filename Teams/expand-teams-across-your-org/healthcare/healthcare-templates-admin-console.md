@@ -18,17 +18,14 @@ appliesto:
 ms.reviewer: ''
 description: Use os modelos do Microsoft Teams no console de administração para criar equipes rápida e facilmente fornecendo um modelo predefinido de configurações, canais e aplicativos.
 ms.custom: seo-marvel-mar2020
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 93de98eb61f503467f7b9de218a10982402eeb41
-ms.sourcegitcommit: af9f96010460f9323db84912fe143aa0750ac798
+ms.openlocfilehash: ff093ecb0ffec0fdc58d724c4a75fdea1810fd6d
+ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "48171085"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48294577"
 ---
 # <a name="use-teams-healthcare-templates-in-the-admin-console"></a>Usar modelos do teams Healthcare no console de administração
-
-[!INCLUDE [template](../../includes/preview-feature.md)]
 
 Os modelos do Microsoft Teams permitem criar equipes de forma rápida e fácil, fornecendo um modelo predefinido de configurações, canais e aplicativos pré-instalados.
 
@@ -38,7 +35,7 @@ Atualmente, oferecemos dois modelos de saúde de primeira mão que você pode ap
 
 ## <a name="collaborate-on-patient-care"></a>Colabore no atendimento ao paciente
 
- Simplifique a comunicação da saúde e a colaboração em um departamento, um pod ou um departamento. O modelo pode ser usado para facilitar o gerenciamento de pacientes, bem como as necessidades operacionais de uma vez.
+ Simplifique a comunicação da saúde e a colaboração em um departamento, um pod ou um departamento. O modelo pode ser usado para facilitar o gerenciamento de pacientes e as necessidades operacionais de uma só maneira.
 
 | Tipo de modelo base |baseTemplateId| Propriedades que vêm com este modelo base |
 | ------------------ |---|----------------------------------------------------- |
@@ -47,7 +44,7 @@ Atualmente, oferecemos dois modelos de saúde de primeira mão que você pode ap
 
 ## <a name="hospital"></a>Hospital
 
-Simplifique a comunicação e a colaboração entre vários departamentos, pods e departamentos em um hospital. Esse modelo inclui um conjunto de canais base para operações do hospital e pode ser estendido para incluir especialidades, ad hoc.
+Simplifique a comunicação e a colaboração entre vários departamentos, pods e departamentos em um hospital. Esse modelo inclui um conjunto de canais base para operações do hospital e pode ser autoestendido para incluir especialidades, ad hoc.
 
 | Tipo de modelo base |baseTemplateId | Propriedades que vêm com este modelo base |
 | ------------------|-- |----------------------------------------------------- |

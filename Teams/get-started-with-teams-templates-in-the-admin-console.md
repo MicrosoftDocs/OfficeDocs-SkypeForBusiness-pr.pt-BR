@@ -18,17 +18,14 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: e75d7c73393fe57f7ae3eaf8611ef3a3311386d8
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: e3269a49072f9e050a139d9bd6463ab4c85a358d
+ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48218572"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48294607"
 ---
 # <a name="get-started-with-teams-templates-in-the-admin-console"></a>Introdução aos modelos do Microsoft Teams no console de administração
-
-[!INCLUDE [template](includes/preview-feature.md)]
 
 **Os modelos personalizados ainda não têm suporte para clientes EDU.**
 
@@ -37,12 +34,9 @@ ms.locfileid: "48218572"
 
 Os modelos de equipe são definições predefinidas da estrutura de uma equipe projetada em torno de uma necessidade ou projeto comercial. Use modelos predefinidos ou crie seu próprio modelo. Os modelos de equipe permitem que você crie rapidamente espaços de colaboração avançados com canais para diferentes tópicos e aplicativos pré-instalar para obter conteúdo e serviços de missão crítica. Os modelos de equipe fornecem uma estrutura de equipe predefinida que pode ajudá-lo a criar facilmente equipes consistentes em toda a sua organização. No momento, você pode criar uma equipe a partir de um modelo no Teams ou usando [o Microsoft Graph](get-started-with-teams-templates.md).
 
-Neste artigo, explicaremos as propriedades que podem ser definidas em modelos, quais tipos de modelo básico são e como você pode usar algumas solicitações de exemplos para criar uma equipe a partir de um modelo.
+Este artigo descreve as propriedades que podem ser definidas em modelos, quais tipos de modelo básico são e como você pode usar algumas solicitações de exemplos para criar uma equipe a partir de um modelo.
 
-Este artigo é para você, se estiver:
-
-- Responsável por planejar, implantar e gerenciar várias equipes em toda a organização<br>
-- Um desenvolvedor que queira criar programaticamente uma equipe com canais e aplicativos predefinidos
+Este artigo é para você se for responsável por planejar, implantar e gerenciar várias equipes em toda a organização
 
 ## <a name="teams-template-capabilities"></a>Recursos de modelos de equipes
 
@@ -55,7 +49,7 @@ A maioria das propriedades em uma equipe é incluída e suportada pelos modelos.
 | Descrição da equipe | Configurações de canal |
 | Visibilidade da equipe (pública ou privada) | Conectores |
 | Configurações da equipe (por exemplo, membro, convidado, @ menção) | Arquivos e conteúdo |
-| Canal de favoritos automático | |
+| Canal de favoritos | |
 | Aplicativo instalado | |
 | Guias fixadas | |
 
@@ -64,9 +58,9 @@ A maioria das propriedades em uma equipe é incluída e suportada pelos modelos.
 
 ## <a name="what-are-base-template-types"></a>O que são tipos de modelo base
 
-Tipos de modelo básico são modelos especiais criados pela Microsoft para indústrias específicas. Esses modelos básicos geralmente contêm aplicativos proprietários que estão disponíveis na loja de aplicativos.
+Tipos de modelo básico são modelos especiais criados pela Microsoft para indústrias específicas. Esses modelos básicos geralmente contêm aplicativos proprietários que não estão disponíveis na loja de aplicativos.
 
-Depois que um tipo de modelo base é definido, você pode estender ou substituir esses modelos especiais por propriedades adicionais que gostaria de especificar. Mas alguns tipos de modelo básico contêm propriedades que não podem ser substituídas.
+Depois que um tipo de modelo base é definido, você pode estender ou substituir esses modelos especiais por propriedades adicionais que gostaria de especificar. Alguns tipos de modelo básico contêm propriedades que não podem ser substituídas.
 
 > [!NOTE]
 > Os modelos de base predefinidos fornecidos no Microsoft Teams podem ser duplicados, mas não podem ser editados.
@@ -88,7 +82,7 @@ Depois que um tipo de modelo base é definido, você pode estender ou substituir
 |Colaboração do gerente de varejo| `retailManagerCollaboration` |Canais <ul><li>Geral<li>Operações</li><li>Aprendizagem</li></ul> Aplicativo <ul><li>Wiki</li></ul>|
 ||||
 
-Para obter mais detalhes sobre as categorias de modelo, consulte as seguintes categorias:
+Para obter mais informações sobre as categorias de modelo, consulte as seguintes categorias:
 
 - [Modelos financeiros](financial-teams-templates-in-the-admin-console.md)
 - [Modelos gerais](general-teams-templates-in-the-admin-console.md)
