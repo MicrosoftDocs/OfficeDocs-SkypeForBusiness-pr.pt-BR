@@ -18,14 +18,16 @@ appliesto:
 ms.reviewer: ''
 description: Use os modelos do Microsoft Teams no console de administração para criar equipes rápida e facilmente fornecendo um modelo predefinido de configurações, canais e aplicativos.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ff093ecb0ffec0fdc58d724c4a75fdea1810fd6d
-ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
+ms.openlocfilehash: 95837c4bbeb1f0624476f5066a168b09d09fd605
+ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48294577"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48308274"
 ---
 # <a name="use-teams-healthcare-templates-in-the-admin-console"></a>Usar modelos do teams Healthcare no console de administração
+
+[!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
 Os modelos do Microsoft Teams permitem criar equipes de forma rápida e fácil, fornecendo um modelo predefinido de configurações, canais e aplicativos pré-instalados.
 

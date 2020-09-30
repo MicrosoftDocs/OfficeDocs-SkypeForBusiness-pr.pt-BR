@@ -13,12 +13,12 @@ f1.keywords:
 description: Uma visão geral da solução integrada do centro de contatos como serviço (CCaaS) para o Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 533c407646fd3ce690a50296e2e7447330121e88
-ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
+ms.openlocfilehash: fa1ac16a488144e431e613126f63ddbf10861ab4
+ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48177371"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48308384"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Integrações do centro de contato do Microsoft Teams
 
@@ -195,7 +195,7 @@ Revise a tabela abaixo para obter uma visão geral dos modelos de integração a
 <td>Usuários com chamadas com o Microsoft Teams?</td>
 <td>Informal, SME</td>
 <td>Informal, SME</td>
-<td>Informal, SME, formal *</td>
+<td>Informal, SME, formal</td>
 <td>Informal, SME, formal</td>
 </tr>
 <tr class="odd">

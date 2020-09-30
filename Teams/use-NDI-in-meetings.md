@@ -17,22 +17,20 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 24e4312af520bf783c0382b7543190644bfc1ff0
-ms.sourcegitcommit: 7c701fc38c8a81ac0938f666c336252c3983ca4c
+ms.openlocfilehash: a1b756cfdb56de533d4dd170f301dc38e4b3b529
+ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "47323985"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48308164"
 ---
 # <a name="use-ndi-technology-in-microsoft-teams"></a>Usar a tecnologia® do NDI no Microsoft Teams
 
-[!INCLUDE [template](includes/preview-feature.md)]
+ NewTek NDI® a tecnologia de dispositivo de rede (Network Device Interface) é uma solução moderna para conexão de dispositivos de mídia (como uma câmera e mixer de estúdio). Em vez de usar conexões físicas, o NDI® tecnologia permite a conectividade em uma intranet local, incluindo em um computador local.
 
- NDI® (interface de dispositivo de rede) é uma solução moderna para conexão de dispositivos de mídia (como uma câmera e mixer de estúdio). Em vez de usar conexões físicas, o NDI® tecnologia permite a conectividade em uma intranet local, incluindo em um computador local.
+NDI® tecnologia tornou-se uma solução padrão do setor para a produção de conteúdo dinâmico para fluxos e ganhou conscientização significativa e adoção no mundo da transmissão profissional.
 
-NewTek NDI® tecnologia tornou-se uma solução padrão do setor para a produção de conteúdo dinâmico para fluxos e ganhou conhecimento e adoção significativos no mundo da transmissão profissional.
-
-O Skype adicionou NDI a funcionalidade®-out ao Skype no fim do 2018. O Microsoft Teams aproveita essa funcionalidade para melhorar a experiência da reunião.
+O Skype adicionou NDI a funcionalidade®-out ao Skype no fim do 2018. O Microsoft Teams usa essa funcionalidade para melhorar a experiência da reunião.
 
 NDI® tecnologia está limitada a uma rede local e só deve ser considerada uma parte do fluxo de trabalho de produção, não uma solução de transmissão.
 

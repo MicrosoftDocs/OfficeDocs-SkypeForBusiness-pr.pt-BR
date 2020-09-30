@@ -14,12 +14,12 @@ ms.assetid: ''
 ms.collection:
 - M365-collaboration
 description: Saiba como configurar a autenticação moderna para salas do Microsoft Teams
-ms.openlocfilehash: 83aff70e43fa578330fe48e814b4e7b216c7f90f
-ms.sourcegitcommit: ded1e92348b6c18aa31f7f67e68ced3db525977d
+ms.openlocfilehash: ba6259efac5d1e429bbcc33aeaef19759930e345
+ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "46506174"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48308254"
 ---
 # <a name="authentication-in-microsoft-teams-rooms"></a>Autenticação em salas do Microsoft Teams
 
@@ -90,6 +90,7 @@ No entanto, como as salas do Microsoft Teams usam a autorização de [credenciai
 - Você deve ter o Exchange Server 2016 CU8 ou posterior ou o Exchange Server 2019 CU1 ou posterior.
 - Você deve ter o Skype for Business Server 2015 CU5 ou posterior, ou o Skype for Business Server 2019 ou posterior.
 - A MFA não é suportada independentemente da topologia que você tem.
+- As salas do Microsoft Teams não são compatíveis com SIP e UPN incompatíveis. Você deve criar uma conta de salas do Microsoft Teams com o mesmo UPN e SIP para que ela funcione.
 - Se você usar um provedor de autenticação de terceiros que seja compatível com o Azure AD, ele deve dar suporte a um fluxo de autenticação ativo pelo WS-Trust.
 - Não use políticas de acesso condicional no nível do dispositivo para uma conta de recurso configurada com o aplicativo. Isso resultará em falhas de entrada. Em vez disso, registre um dispositivo no Microsoft Intune e aplique políticas de conformidade usando as diretrizes publicadas no [Gerenciamento de salas de reunião do teams com o Intune](https://techcommunity.microsoft.com/t5/intune-customer-success/managing-teams-meeting-rooms-with-intune/ba-p/1069230).
 

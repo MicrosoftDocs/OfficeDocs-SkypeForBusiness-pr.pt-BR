@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Saiba como gerenciar as configurações de política de reunião no Teams e usá-las para controlar os recursos disponíveis para os participantes da reunião para reuniões agendadas pelos usuários.
-ms.openlocfilehash: 8846dea07d0e25a628341e853dee64d42d3e043a
-ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
+ms.openlocfilehash: c6942a86a8bf63254fb30e59c4a5400f9fa58304
+ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48177401"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48308406"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Gerenciar políticas de reunião no Teams
 
@@ -116,7 +116,7 @@ Ao selecionar uma política existente na página **políticas de reunião** ou s
 
 ### <a name="allow-meet-now-in-channels"></a>Permitir reunir agora em canais
 
-Esta é uma política por usuário e se aplica antes de iniciar uma reunião. Esta configuração controla se um usuário pode iniciar uma reunião ad hoc em um canal do teams. Se você ativar esta opção, os usuários podem clicar no botão **reunir** para iniciar uma reunião ad hoc ou agendar uma reunião no canal. O valor padrão é True.
+Esta é uma política por usuário e se aplica antes de iniciar uma reunião. Esta configuração controla se um usuário pode iniciar uma reunião ad hoc em um canal do teams. Se você ativar esta opção, os usuários podem clicar **no botão de reunião para** iniciar uma reunião ad hoc ou agendar uma reunião no canal. O valor padrão é True.
 
 [![Captura de tela mostrando o ícone reunir agora abaixo de uma mensagem ](media/meeting-policies-meet-now.png)](media/meeting-policies-meet-now.png#lightbox)
 
@@ -130,7 +130,7 @@ Se você desativar essa opção, os usuários não poderão agendar reuniões do
 
 ### <a name="allow-channel-meeting-scheduling"></a>Permitir agendamento de reunião de canal
 
-Use a política AllowChannelMeetingScheduling existente para controlar os tipos de eventos que podem ser criados nos calendários do canal de equipe. Esta é uma política por usuário e se aplica antes de iniciar uma reunião. Esta configuração controla se os usuários podem agendar uma reunião em um canal do teams. O valor padrão é True.
+Use a política AllowChannelMeetingScheduling existente para controlar os tipos de eventos que podem ser criados nos calendários do canal de equipe. Esta é uma política por usuário e se aplica antes de iniciar uma reunião. Esta configuração controla se os usuários podem agendar uma reunião em um canal do teams. Por padrão, essa configuração está ativada. 
 
 Se essa política estiver desativada, os usuários não poderão criar novas reuniões de canal. No entanto, as reuniões de canais existentes podem ser editadas pelo organizador do evento.
 
@@ -169,11 +169,11 @@ O aplicativo de calendário de canal será exibido na seção **aplicativos da M
 
 Esta é uma política por usuário e se aplica antes de iniciar uma reunião. Esta configuração controla se os usuários podem agendar reuniões privadas no Teams. Uma reunião é particular quando não é publicada em um canal de uma equipe.
 
-Observe que, se você desativar a opção **permitir reuniões privadas de agendamento** e **permitir agendamento de reunião de canal**, a opção **Adicionar participantes necessários** e **Adicionar canal** estará desabilitada para os usuários do teams. O valor padrão é True.
+Observe que, se você desativar a opção **permitir reuniões privadas de agendamento** e **permitir agendamento de reunião de canal**, a opção **Adicionar participantes necessários** e **Adicionar canal** estará desabilitada para os usuários do teams. Por padrão, essa configuração está ativada.
 
 ### <a name="allow-meet-now-in-private-meetings"></a>Permitir reunião agora em reuniões privadas
 
-Esta é uma política por usuário e se aplica antes de iniciar uma reunião. Esta configuração controla se um usuário pode iniciar uma reunião privada ad hoc.  O valor padrão é True.
+Esta é uma política por usuário e se aplica antes de iniciar uma reunião. Esta configuração controla se um usuário pode iniciar uma reunião privada ad hoc.  Por padrão, essa configuração está ativada.
 
 <a name="bkaudioandvideo"> </a>
 
@@ -181,6 +181,8 @@ Esta é uma política por usuário e se aplica antes de iniciar uma reunião. Es
 
 - [Permitir transcrição](#allow-transcription)
 - [Permitir gravação na nuvem](#allow-cloud-recording)
+- [Modo para áudio IP](#mode-for-ip-audio) 
+- [Modo para vídeo de IP](#mode-for-ip-video) 
 - [Permitir vídeo IP](#allow-ip-video)
 - [Taxa de bits de mídia (KBS)](#media-bit-rate-kbs)
 
@@ -204,32 +206,101 @@ Vamos dar uma olhada no exemplo a seguir.
 
 |Usuário |Políticas de reunião  |Permitir gravação na nuvem |
 |---------|---------|---------|
-|Daniela | Global   | Falso |
-|Amanda | Location1MeetingPolicy | Verdadeiro|
+|Daniela | Global   | Desativado |
+|Amanda | Location1MeetingPolicy | Ativado|
 |John (usuário externo) | Não aplicável | Não aplicável|
 
 Reuniões organizadas por Daniela não podem ser gravadas e Amanda, que tem a configuração de política habilitada, não pode gravar reuniões organizadas por Daniela. Reuniões organizadas por Amanda podem ser registradas, no entanto, Daniela, que têm a configuração de política desabilitada e John, que é um usuário externo, não pode gravar reuniões organizadas por Amanda.
 
 Para saber mais sobre a gravação de reunião em nuvem, consulte [gravação de reunião na nuvem do teams](cloud-recording.md).
 
+### <a name="mode-for-ip-audio"></a>Modo para áudio IP
+
+Esta é uma política por usuário. Essa configuração controla se o áudio pode ser ativado em reuniões e chamadas em grupo. Estes são os valores para essa configuração.
+
+|Valor de configuração |Comportamento  |
+|---------|---------|
+|**Áudio de saída e entrada habilitado**    |O áudio de saída e de entrada é permitido na reunião. Esta é a configuração padrão. |
+|**Desabilitado**     |O áudio de saída e de entrada está desativado na reunião.     |
+
+Se definido como **desabilitado** para um usuário, esse usuário ainda poderá agendar e organizar reuniões, mas não poderá usar áudio. Para ingressar em uma reunião, ela precisa discar por meio da rede telefônica pública comutada (PSTN) ou fazer com que a reunião seja chamada e unida por telefone. Os participantes da reunião que não têm políticas atribuídas (por exemplo, participantes anônimos) têm isto definido como **áudio de saída e entrada habilitado** por padrão. Em clientes móveis do Microsoft Teams, se essa configuração estiver desabilitada, o usuário terá de discar para a reunião por meio da PSTN.
+
+Esta configuração não se aplica a chamadas do 1:1. Para restringir chamadas do 1:1, configure uma [política de chamada](teams-calling-policy.md) de equipes e desative a configuração **fazer chamadas privadas** . Essa configuração também não se aplica a dispositivos da sala de conferência, como dispositivos de Surface Hub e salas do Microsoft Teams.
+
+Para saber mais, consulte [gerenciar áudio/vídeo para participantes da reunião](#manage-audiovideo-for-meeting-participants).
+
+### <a name="mode-for-ip-video"></a>Modo para vídeo de IP
+
+Esta é uma política por usuário. Esta configuração controla se o vídeo pode ser ativado em reuniões e chamadas em grupo. Estes são os valores para essa configuração.
+
+|Valor de configuração |Comportamento  |
+|---------|---------|
+|**Vídeo de saída e de entrada habilitado**    | O vídeo de saída e de entrada é permitido na reunião. Esta é a configuração padrão. |
+|**Desabilitado**     | O vídeo de saída e de entrada está desativado na reunião. Em clientes móveis do Teams, os usuários não podem compartilhar vídeos ou fotos na reunião. <br><br>Observe que se o **modo de áudio IP** estiver desabilitado, o **modo de vídeo IP** também permanecerá desabilitado.  |
+
+Se definido como **desabilitado** para um usuário, esse usuário não poderá ativar o vídeo ou exibir vídeos compartilhados por outros participantes da reunião. Os participantes da reunião que não têm políticas atribuídas (por exemplo, participantes anônimos) têm isto definido como **vídeo de saída e de entrada habilitado** por padrão.
+
+Essa configuração não se aplica a dispositivos da sala de conferência, como dispositivos de Surface Hub e salas do Microsoft Teams.
+
+> [!NOTE]
+> Lembre-se de que essa configuração controla o vídeo de saída e de entrada, enquanto a configuração permitir vídeo de **IP** controla o vídeo de saída. Para saber mais, confira [qual configuração de política de vídeo IP tem precedência?](#which-ip-video-policy-setting-takes-precedence) e [gerenciar áudio/vídeo para participantes da reunião](#manage-audiovideo-for-meeting-participants).
+
 ### <a name="allow-ip-video"></a>Permitir vídeo IP
 
-Trata-se de uma combinação de uma política por organização e por usuário. Vídeo é um componente importante para reuniões. Em algumas organizações, os administradores podem querer ter mais controle sobre quais reuniões de usuários têm vídeo. Esta configuração controla se o vídeo pode ser ativado em reuniões hospedadas por um usuário e em chamadas do 1:1 e chamadas em grupo iniciadas por um usuário. Reuniões organizadas por um usuário que tem essa política habilitada, permitir o compartilhamento de vídeo na reunião pelos participantes da reunião, se os participantes da reunião também tiverem a política habilitada. Os participantes da reunião que não têm políticas atribuídas (por exemplo, participantes anônimos e federados) herdam a política do organizador da reunião.
+Trata-se de uma combinação de uma política por organização e por usuário. Vídeo é um componente importante para reuniões. Em algumas organizações, os administradores podem querer ter mais controle sobre quais reuniões de usuários têm vídeo. Esta configuração controla se o vídeo pode ser ativado em reuniões hospedadas por um usuário e no 1:1 e chamadas em grupo iniciadas por um usuário. Em clientes móveis do Microsoft Teams, essa configuração controla se os usuários podem compartilhar fotos e vídeos em uma reunião. 
 
-![Captura de tela mostrando uma reunião com as configurações de áudio e vídeo](media/meeting-policies-audio-video-settings.png)
+Reuniões organizadas por um usuário que tem essa configuração de política habilitada, permitir o compartilhamento de vídeo na reunião pelos participantes da reunião, se os participantes também tiverem a configuração de política habilitada. Os participantes da reunião que não têm políticas atribuídas (por exemplo, participantes anônimos e federados) herdam a política do organizador da reunião.
+
+> [!NOTE]
+> Lembre-se de que essa configuração controla o vídeo de saída, enquanto o **modo de configuração de vídeo IP** controla o vídeo de saída e de entrada. Para saber mais, confira [qual configuração de política de vídeo IP tem precedência?](#which-ip-video-policy-setting-takes-precedence) e [gerenciar áudio/vídeo para participantes da reunião](#manage-audiovideo-for-meeting-participants).
+
+| Cliente de equipe e desktop da equipe |Cliente móvel do teams  |
+|:-------:|:-------:|
+|![Captura de tela mostrando Associação de reunião com as configurações de áudio/vídeo na área de trabalho](media/meeting-policies-audio-video-settings.png)    |![Captura de tela mostrando a reunião ingressar sreen com as configurações de áudio/vídeo em dispositivos móveis](media/meeting-policies-mobile-join.png)          |
+
 
 Vamos dar uma olhada no exemplo a seguir.
 
 |Usuário |Políticas de reunião  |Permitir vídeo IP |
 |---------|---------|---------|
-|Daniela   | Global   | Verdadeiro        |
-|Amanda    | Location1MeetingPolicy        | Falso      |
+|Daniela   | Global   | Ativado       |
+|Amanda    | Location1MeetingPolicy        | Desativado      |
 
 Reuniões hospedadas pela Daniela permitem que o vídeo seja ativado. Daniela pode ingressar na reunião e ativar o vídeo. O Amanda não pode ativar o vídeo na reunião do Daniela porque a política de Amanda está definida como não permitir vídeo. Amanda pode ver vídeos compartilhados por outros participantes da reunião.
 
 Em reuniões hospedadas pela Amanda, ninguém pode ativar o vídeo, independentemente da política de vídeo atribuída a ele. Isso significa que o Daniela não pode ativar o vídeo nas reuniões do Amanda.  
 
 Se Daniela chama Amanda com vídeo ativado, o Amanda pode atender a chamada somente com áudio.  Quando a chamada estiver conectada, Amanda poderá ver o vídeo do Daniela, mas não poderá ativar o vídeo. Se o Amanda chama Daniela, Daniela pode atender a chamada com vídeo e áudio. Quando a chamada estiver conectada, o Daniela poderá ativar ou desativar o vídeo, conforme necessário.
+
+#### <a name="which-ip-video-policy-setting-takes-precedence"></a>Qual configuração de política de vídeo IP tem precedência?
+
+Para um usuário, a configuração de política mais restritiva para o vídeo tem prioridade. Veja alguns exemplos.
+
+|Permitir vídeo IP|Modo para vídeo de IP|Experiência de reunião|
+|---------|---------|---------|
+|Organizador: **ativado**<br><br>Participante: **ativado** |Participante: **desabilitado**        |O **modo de configuração de vídeo IP** tem precedência. O participante atribuído a essa política não pode ativar ou exibir vídeos compartilhados por outras pessoas.|
+|Organizador: **ativado**<br><br>Participante: **ativado** |Participante: **vídeo de saída e de entrada habilitado**          |O participante atribuído a essa política pode ativar ou exibir vídeos compartilhados por outras pessoas.         |
+|Organizador: **ativado**<br><br>Participante: **desativado** |Participante: **vídeo de saída e de entrada habilitado**         |A configuração **permitir vídeo IP** tem prioridade. Os participantes só poderão ver o vídeo recebido e não poderão enviar vídeo de saída.         |
+|Organizador: **ativado**<br><br>Participante: **desativado** |Participante: **desabilitado**         |O **modo de configuração de vídeo IP** tem precedência. O participante não pode ver o vídeo de entrada ou de saída.|
+|Organizador: **desativado**    |       |A configuração **permitir vídeo IP** tem prioridade porque está desativada para o organizador. Ninguém pode ativar o vídeo em reuniões organizadas pelo usuário que está atribuído a essa política.         |
+
+### <a name="manage-audiovideo-for-meeting-participants"></a>Gerenciar áudio/vídeo para participantes da reunião
+
+|Se quiser...  |Definir as seguintes configurações de política  |
+|---------|---------|
+|Desabilitar áudio e vídeo para participantes em reuniões  |Modo para áudio IP: **desabilitado**<br> Modo para vídeo IP: **desabilitado**<br>Permitir vídeo de IP: N/d       |
+|Habilitar somente vídeo e áudio de entrada para participantes em reuniões  |Modo para áudio IP: **áudio de saída e entrada habilitado**<br> Modo para vídeo de IP: **vídeo de saída e de entrada habilitado**<br>Permitir vídeo IP: **desativado**       |
+|Desabilitar vídeo para participantes em reuniões (os participantes têm somente áudio)|  Modo para áudio IP: **habilitar áudio de saída e de entrada**<br> Modo para vídeo IP: **desabilitado**<br>Permitir vídeo de IP: N/d        
+|Habilitar áudio e vídeo para participantes em reuniões    |Modo para áudio IP: **áudio de saída e entrada ativado** (padrão)<br> Modo para vídeo de IP: **vídeo de saída e entrada habilitado** (padrão)<br>Permitir vídeo por IP: **ativado** (padrão)    |
+
+A política mais restritiva entre a política do organizador da reunião e a política do usuário se aplica. Por exemplo, se um organizador tiver uma política que restrinja o vídeo e a política de um usuário não restringir o vídeo, os participantes da reunião herdarão a política do organizador da reunião e não terão acesso ao vídeo em reuniões. Isso significa que eles podem participar da reunião somente com áudio.
+
+> [!NOTE]
+> Quando um usuário iniciar uma chamada em grupo para ingressar por telefone, a tela **usar telefone para áudio** não será exibida. Esse é um problema conhecido que estamos trabalhando para resolver. Para contornar esse problema, selecione **áudio telefônico** em **outras opções de junção**.  
+
+#### <a name="teams-mobile-clients"></a>Clientes móveis do Microsoft Teams
+
+Para os usuários de clientes móveis do Microsoft Teams, a capacidade de compartilhar fotos e vídeos durante uma reunião também é determinada pela configuração de **modo** **permitir vídeo** ou vídeo IP. Dependendo de qual configuração de política tem precedência, a capacidade de compartilhar vídeos e fotos não estará disponível. Isso não afeta o compartilhamento de tela, que você configura usando uma configuração de [modo de compartilhamento de tela](#screen-sharing-mode) separada. Além disso, você pode definir uma [política de mobilidade do teams](https://docs.microsoft.com/powershell/module/skype/new-csteamsmobilitypolicy) para impedir que os usuários móveis usem o vídeo IP por meio de uma conexão de celular, o que significa que elas devem usar uma conexão WiFi.
 
 ### <a name="media-bit-rate-kbs"></a>Taxa de bits de mídia (KBS)
 
@@ -285,8 +356,8 @@ Vamos dar uma olhada no exemplo a seguir.
 
 |Usuário |Políticas de reunião  |Permitir que o participante conceda ou solicite o controle |
 |---------|---------|---------|
-|Daniela   | Global   | Verdadeiro       |
-|Babek    | Location1MeetingPolicy        | Falso   |
+|Daniela   | Global   | Ativado       |
+|Babek    | Location1MeetingPolicy        | Desativado   |
 
 O Daniela pode dar ao controle da área de trabalho compartilhada ou janela para outros participantes de uma reunião organizada por Babek, enquanto o Babek não pode conceder ao controle outros participantes.
 
@@ -316,8 +387,8 @@ Vamos dar uma olhada no exemplo a seguir.
 
 |Usuário |Políticas de reunião  |Permitir compartilhamento do PowerPoint |
 |---------|---------|---------|
-|Daniela   | Global   | Verdadeiro       |
-|Amanda   | Location1MeetingPolicy        | Falso   |
+|Daniela   | Global   | Ativado       |
+|Amanda   | Location1MeetingPolicy        | Desativado   |
 
 O Amanda não pode compartilhar apresentações de slides do PowerPoint em reuniões, mesmo que ela seja o organizador da reunião. Daniela pode compartilhar decks de slides do PowerPoint mesmo se a reunião for organizada por Amanda. O Amanda pode exibir os decks de slides do PowerPoint compartilhados por outras pessoas na reunião, mesmo que ele não possa compartilhar os slides do PowerPoint.
 
@@ -329,8 +400,8 @@ Vamos dar uma olhada no exemplo a seguir.
 
 |Usuário |Políticas de reunião  |Permitir quadro de comunicações|
 |---------|---------|---------|
-|Daniela   | Global   | Verdadeiro       |
-|Amanda   | Location1MeetingPolicy        | Falso   |
+|Daniela   | Global   | Ativado       |
+|Amanda   | Location1MeetingPolicy        | Desativado   |
 
 O Amanda não pode compartilhar o quadro de comunicações em uma reunião, mesmo que ela seja o organizador da reunião. Daniela pode compartilhar o quadro de comunicações mesmo se uma reunião for organizada por Amanda.  
 
@@ -342,8 +413,8 @@ Vamos dar uma olhada no exemplo a seguir.
 
 |Usuário |Políticas de reunião  |Permitir anotações compartilhadas |
 |---------|---------|---------|
-|Daniela   | Global   | Verdadeiro       |
-|Amanda   | Location1MeetingPolicy | Falso |
+|Daniela   | Global   | Ativado       |
+|Amanda   | Location1MeetingPolicy | Desativado |
 
 Daniela pode fazer anotações nas reuniões do Amanda, e o Amanda não pode fazer anotações em nenhuma reunião.
 
@@ -358,14 +429,14 @@ Essas configurações controlam quais participantes da reunião aguardam no lobb
 - [Permitir chat em reuniões](#allow-chat-in-meetings)
 
 > [!NOTE]
->As opções para ingressar em uma reunião irão variar, dependendo das configurações de cada grupo de equipe e do método de conexão. Se o seu grupo tiver uma videoconferência e usar-a para se conectar, consulte [videoconferências](https://docs.microsoft.com/microsoftteams/audio-conferencing-in-office-365). Se o grupo Teams não tiver videoconferências, consulte [ingressar em uma reunião no Teams](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9).
+>As opções para ingressar em uma reunião irão variar, dependendo das configurações de cada grupo de equipe e do método de conexão. Se o seu grupo tiver uma videoconferência e usar-a para se conectar, consulte [videoconferências](https://docs.microsoft.com/microsoftteams/audio-conferencing-in-office-365). Se o grupo Teams não tiver uma videoconferência, consulte [ingressar em uma reunião no Teams](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9).
 
 ### <a name="let-anonymous-people-start-a-meeting"></a>Permitir que as pessoas anônimas iniciem uma reunião
 
-Trata-se de uma política de um organizador que permite reuniões de conferência discada com preenchimento de discagem. Esta configuração controla se os usuários de discagem podem ingressar na reunião sem um usuário autenticado da organização em participação. O valor padrão é falso, que significa que os usuários de discagem aguardarão no lobby até que um usuário autenticado da organização ingresse na reunião.
+Trata-se de uma política de um organizador que permite reuniões de conferência discada com preenchimento de discagem. Esta configuração controla se os usuários de discagem podem ingressar na reunião sem um usuário autenticado da organização em participação. Por padrão, essa configuração é desativada, o que significa que os usuários de discagem aguardarão no lobby até que um usuário autenticado da organização ingresse na reunião.
 
 > [!NOTE]
-> Se falso e um usuário de discagem ingressar na reunião primeiro e for colocado no lobby, um usuário da organização deverá ingressar na reunião com um cliente do teams para admitir o usuário do lobby. Não há controles de lobby disponíveis para discar em usuários.
+> Se essa configuração estiver desativada e um usuário de discagem ingressar na reunião primeiro e for colocado no lobby, um usuário da organização deverá ingressar na reunião com um cliente do teams para admitir o usuário do lobby. Não há controles de lobby disponíveis para discar em usuários.
 
 ### <a name="automatically-admit-people"></a>Admitir pessoas automaticamente
 
@@ -387,7 +458,7 @@ Esta é uma política por organizador. Esta configuração controla se as pessoa
 
 ### <a name="allow-dial-in-users-to-bypass-the-lobby"></a>Permitir que os usuários de discagem ignorem o lobby
 
-Esta é uma política por organizador. Esta configuração controla se as pessoas que discam por telefone entram diretamente na reunião ou esperam no lobby, independentemente da configuração de usuário **admitir pessoas automaticamente** . O valor padrão é False. Quando for falso, os usuários de discagem aguardarão no lobby até que o usuário da organização ingresse na reunião com um cliente do Teams e os admite. Quando for verdadeiro, os usuários de discagem entrarão automaticamente na reunião quando um usuário da organização ingressar na reunião.
+Esta é uma política por organizador. Esta configuração controla se as pessoas que discam por telefone entram diretamente na reunião ou esperam no lobby, independentemente da configuração de usuário **admitir pessoas automaticamente** . Por padrão, essa configuração está desativada. Quando essa configuração estiver desativada, os usuários de discagem aguardarão no lobby até que o usuário da organização ingresse na reunião com um cliente do Teams e os admite. Quando essa configuração estiver ativada, os usuários de discagem entrarão automaticamente na reunião quando um usuário da organização ingressar na reunião.
 
 > [!NOTE]
 > Se um usuário de discagem ingressar em uma reunião antes de um usuário da organização ingressar na reunião, ela será colocada no lobby até que o usuário da organização ingresse na reunião usando um cliente do Team e os admite. Se você alterar a configuração padrão de qualquer usuário, ela será aplicada a todas as novas reuniões organizadas por esse usuário e em qualquer reunião anterior em que o usuário não tiver modificado as opções de reunião.
