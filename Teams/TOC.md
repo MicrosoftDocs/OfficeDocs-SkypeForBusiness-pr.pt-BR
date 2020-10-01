@@ -215,8 +215,8 @@
 ### [Benefício da assinatura de Audioconferência “Discar”/”Ligar para mim”](audio-conferencing-subscription-dial-out.md)
 
 
-### [Configurar audioconferência no Microsoft Teams](set-up-audio-conferencing-in-teams.md)
-
+### [Configurar a audioconferência](set-up-audio-conferencing-in-teams.md)
+### [Configurar audioconferência - início rápido para pequenas e médias empresas](audio-conferencing-smb.md)
 ### [Atribuir a Microsoft como provedor de audioconferência](/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 ### Gerenciar sua ponte de audioconferência
@@ -426,23 +426,31 @@
 
 
 ## Referência
-### Gerenciamento de número de telefone de país 
+### Gerenciamento de número de telefone de país
 #### [Gerenciamento de números de telefone para a Austrália](manage-phone-numbers-for-your-organization/phone-number-management-for-australia.md)
+#### [Gerenciamento de números de telefone para a Austrália](manage-phone-numbers-for-your-organization/phone-number-management-for-austria.md)
 #### [Gerenciamento de números de telefone para a Bélgica](manage-phone-numbers-for-your-organization/phone-number-management-for-belgium.md)
 #### [Gerenciamento de números de telefone para o Canadá](manage-phone-numbers-for-your-organization/phone-number-management-for-canada.md)
+#### [Gerenciamento de números de telefone para a Dinamarca](manage-phone-numbers-for-your-organization/phone-number-management-for-denmark.md)
 #### [Gerenciamento de números de telefone para a França](manage-phone-numbers-for-your-organization/phone-number-management-for-france.md)
 #### [Gerenciamento de números de telefone para a Alemanha](manage-phone-numbers-for-your-organization/phone-number-management-for-germany.md)
 #### [Gerenciamento de números de telefone para a Irlanda](manage-phone-numbers-for-your-organization/phone-number-management-for-ireland.md)
+#### [Gerenciamento de números de telefone para a Itália](manage-phone-numbers-for-your-organization/phone-number-management-for-italy.md)
 #### [Gerenciamento de números de telefone para o Japão](manage-phone-numbers-for-your-organization/phone-number-management-for-japan.md)
+#### [Gerenciamento de números de telefone para Portugal](manage-phone-numbers-for-your-organization/phone-number-management-for-portugal.md)
 #### [Gerenciamento de números de telefone para a Espanha](manage-phone-numbers-for-your-organization/phone-number-management-for-spain.md)
 #### [Gerenciamento de números de telefone para os Países Baixos](manage-phone-numbers-for-your-organization/phone-number-management-for-the-netherlands.md)
+
+#### [Gerenciamento de números de telefone para a Suécia](manage-phone-numbers-for-your-organization/phone-number-management-for-sweden.md)
+#### [Gerenciamento de números de telefone para a Suíça](manage-phone-numbers-for-your-organization/phone-number-management-for-switzerland.md)
 #### [Gerenciamento de números de telefone para o Reino Unido](manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-k.md)
-#### [Gerenciamento de números de telefone para os EUA](manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md)
+#### [Gerenciamento de números de telefone para os Estados Unidos](manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md)
 
 ### Limitações e restrições de discagem gratuita
 #### [Visão geral](toll-free-dialing-limitations-and-restrictions.md)
 #### [Argentina](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-argentina.md)
 #### [Austrália](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-australia.md)
+#### [Áustria ](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-austria.md)
 #### [Belarus](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belarus.md)
 #### [Bélgica](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belgium.md)
 #### [Belize](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belize.md)
@@ -470,6 +478,7 @@
 #### [Indonésia ](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-indonesia.md)
 #### [Irlanda](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-ireland.md)
 #### [Israel](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-israel.md)
+#### [Itália](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-italy.md)
 #### [Japão](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-japan.md)
 #### [Quênia](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-kenya.md)
 #### [Luxemburgo](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-luxembourg.md)
@@ -493,8 +502,9 @@
 #### [Eslovênia](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-slovenia.md)
 #### [África do Sul](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-south-africa.md)
 #### [Coreia do Sul](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-south-korea.md)
-#### [Espanha]](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-spain.md)
+#### [Espanha](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-spain.md)
 #### [Suécia](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-sweden.md)
+#### [Suíça](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-switzerland.md)
 #### [Taiwan](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-taiwan.md)
 #### [Tailândia](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-thailand.md)
 #### [Turquia](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-turkey.md)
