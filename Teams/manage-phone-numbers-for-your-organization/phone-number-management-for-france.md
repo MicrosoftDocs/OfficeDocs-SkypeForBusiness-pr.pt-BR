@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Use esta tabela para encontrar informações sobre como obter e gerenciar números de telefone na França para Microsoft Teams.
-ms.openlocfilehash: 82a8dac1d21ca34a679ed162738d519d1601826c
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 733dce4754560376fa71da63d9858420e8aba22c
+ms.sourcegitcommit: d16adc1ce13fcaf52f786c8422b3175b61935e68
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41707026"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48324197"
 ---
 # <a name="phone-number-management-for-france"></a>Gerenciamento de números de telefone para a França
 
@@ -35,10 +35,11 @@ Para obter mais informações, consulte [Gerenciar os números de telefone de su
   
 |**O que você deseja fazer?**|**Baixe os formulários corretos e os envie para nós**|
 |:-----|:-----|
-|Obter novos números de telefone de usuário e serviço que não estão listados no centro de administração do Microsoft Teams.   <br/> | Baixe este formulário <br/> [Nova solicitação de número de telefone para a França (v. 4.0) (fr-FR)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-france-(v.4.0)-(fr-fr).pdf?raw=true) <br/>[Nova solicitação de número de telefone para a França (v. 4.0) (en-US)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-france-(v.4.0)-(en-us).pdf?raw=true) <br/>   Preencha o formulário e [o envie para nós](mailto:ptneu@microsoft.com).  <br/> 
-|Obter números de telefone transferidos para nós.  <br/> |Baixe um destes formulários: <br/> [Carta de Autorização (LOA) para a França (números de telefone gratuito) (v.2.0)(fr-fr)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-france-(freephone-numbers)-(v.2.0)-(fr-fr).pdf?raw=true) <br/> [Carta de Autorização (LOA) para a França (números geográficos) (v.2.0)(fr-fr)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-france-(geographic-numbers)-(v.2.0)-(fr-fr).pdf?raw=true) <br/>  <br/>  Preencha o formulário e [o envie para nós](mailto:ptneu@microsoft.com).  <br/> |
+|Obter novos números de telefone de usuário ou serviço que não estão listados no centro de administração do Microsoft Teams.   <br/> | Baixar este formulário. <br/> [Nova solicitação de número de telefone para a França (v. 5.0) (fr-FR)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-france-(v.5.0)-(fr-fr).pdf?raw=true) <br/> <br/>   Preencha o formulário e [o envie para nós](mailto:ptneu@microsoft.com).  <br/> 
+|Obter números de telefone transferidos para nós.  <br/> |Baixe um desses formulários. <br/><br/> Para números de telefone do usuário:<br/>[Carta de autorização (LOA) para a França (números geográficos) (v. 5.0) (fr-FR)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-france-(geographic-numbers)-(v.5.0)-(fr-fr).pdf?raw=true) <br/><br/>Para números de telefone de chamada gratuita: <br/>[Carta de autorização (LOA) para a França (números chamada gratuita) (v. 5.0) (fr-FR)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-france-(freephone-numbers)-(v.5.0)-(fr-fr).pdf?raw=true) <br/> <br/> Preencha o formulário e [o envie para nós](mailto:ptneu@microsoft.com).  <br/> |
 |Publicar/cancelar a publicação de número (s) de telefone no diretório de telefones nacional.  <br/> |[Nos envie](mailto:ptneu@microsoft.com) a lista de números de telefone que você deseja publicar/cancelar a publicação. <br/> |
 |Altere o número de um usuário para um número de serviço.  <br/> |[Nos envie](mailto:ptneu@microsoft.com) a lista de números de usuário que você deseja converter em números de serviço. <br/> |
+|Fazer atualizações de serviço de diretório para números de fila de chamadas ou atendedor automático|Para adicionar ou alterar os números da fila de chamadas ou do atendedor automático, entre em contato com [o serviço de suporte PSTN](contact-pstn-service-desk.md). |
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

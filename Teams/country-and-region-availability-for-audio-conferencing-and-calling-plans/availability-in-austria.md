@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estes são os serviços do Microsoft 365 e do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para a Áustria.
-ms.openlocfilehash: e106b55f9b0b4f2f20d6e92329cbb8379e37d024
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+ms.openlocfilehash: bb14d24113b13d14e8d82171189a0b2a44625684
+ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44231020"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48321684"
 ---
 # <a name="availability-in-austria"></a>Disponibilidade na Áustria
 
@@ -43,7 +43,7 @@ Estes são os serviços do Microsoft 365 e do Office 365 para o Skype for Busine
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
 |A Audioconferência está disponível para compra?  <br/> |Sim  <br/> |
-|Os números de telefone são atribuídos automaticamente para a Audioconferência?  <br/> |Sim, para:<br/><ul><li>Viena </ul>Para obter números de telefone dedicados, consulte [Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](/microsoftteams/getting-service-phone-numbers).  <br/> |
+|Os números de telefone são atribuídos automaticamente para a Audioconferência?  <br/> |Sim, para:<br/><ul><li>Viena </ul>Se você quiser números de telefone dedicados, consulte [obtendo números de telefone de serviço](/microsoftteams/getting-service-phone-numbers).  <br/> |
 |Funcionalidade de discagem usando o recurso Telefonar para Mim  <br/> |Disponível  <br/> |
    
 ## <a name="phone-system"></a>Sistema Telefônico
@@ -59,11 +59,10 @@ Estes são os serviços do Microsoft 365 e do Office 365 para o Skype for Busine
 
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
-|Os Planos de Chamadas estão disponíveis para compra?  <br/> |Não  <br/> |
-|Minutos disponíveis para Planos de Chamadas  <br/> |Não se aplica  <br/> |
-|É possível fazer chamadas de saída?  <br/> |Não aplicável  <br/> |
-
-Se os Planos de Chamada não estiverem disponíveis para compra, considere a possibilidade de usar o [Roteamento Direto do Sistema de Telefonia](../direct-routing-landing-page.md). Com o Roteamento Direto, você pode usar o Sistema de Telefonia praticamente com qualquer portadora de telefonia.
+|Os Planos de Chamadas estão disponíveis para compra?  <br/> |Sim  <br/> |
+|Minutos disponíveis para planos de chamada. |Há quatro opções de plano disponíveis por mês do calendário: <ul><li>Plano de chamadas domésticas de 120 minutos </li><li>Plano de chamadas domésticas de 240 minutos</li></li><li>Plano de chamadas domésticas de 1200 minutos </li></li><li>Plano de chamadas domésticas e internacionais: 1200 minutos de chamadas domésticas ou 600 minutos de chamadas internacionais (o que for atingido primeiro no mês do calendário)</li></li> |
+|Pode fazer chamadas de saída para números Premium?  <br/> | Sim <br/> |
+|É possível fazer chamadas de saída?  <br/> | Para 196 países, incluindo [estes](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/> |
 
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Números de chamadas gratuitas e tarifadas para serviços
@@ -74,7 +73,7 @@ Se os Planos de Chamada não estiverem disponíveis para compra, considere a pos
 |Há números de chamada tarifada disponíveis?  <br/> |Sim  <br/> |
 |Há números de chamada gratuita disponíveis?  <br/> |Sim  <br/> |
    
- Para obter números de telefone de chamadas gratuitas e tarifadas para audioconferência, atendedores automáticos e filas de chamadas, consulte [Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](/microsoftteams/getting-service-phone-numbers).
+ Se você quiser obter números de telefone de chamada tarifada e gratuita para videoconferência, atendedores automáticos e filas de chamadas, consulte [obtendo números de telefone de serviço](/microsoftteams/getting-service-phone-numbers).
   
 ## <a name="communications-credits"></a>Créditos de Comunicação
 
@@ -86,7 +85,7 @@ Para configurá-los, consulte [Configurar Créditos de Comunicação para a sua 
   
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
+[Obter números de telefone de serviço](/microsoftteams/getting-service-phone-numbers)
 
 [Disponibilidade de Audioconferência e Planos de Chamadas por país e região](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 

@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estes são os serviços do Microsoft 365 e do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para a Bélgica.
-ms.openlocfilehash: fa5db15e5cc312e070f77724bc384f49621fcbef
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+ms.openlocfilehash: d807c88ab03d2db43f6d8bdc9942a6c946d957eb
+ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44231200"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48320856"
 ---
 # <a name="availability-in-belgium"></a>Disponibilidade na Bélgica
 
@@ -60,7 +60,7 @@ Estes são os serviços do Microsoft 365 e do Office 365 para o Skype for Busine
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
 |Os Planos de Chamadas estão disponíveis para compra?  <br/> |Sim  <br/> |
-|Minutos disponíveis para planos de chamada. |Há quatro opções de plano disponíveis por mês do calendário: <ul><li>Plano de chamadas domésticas de 120 minutos </li><li>Plano de chamadas domésticas de 240 minutos</li></li><li>Plano de chamadas domésticas de 1200 minutos </li></li><li>600 minuto para planos de chamadas domésticas e internacionais</li></li> 
+|Minutos disponíveis para planos de chamada. |Há quatro opções de plano disponíveis por mês do calendário: <ul><li>Plano de chamadas domésticas de 120 minutos </li><li>Plano de chamadas domésticas de 240 minutos</li></li><li>Plano de chamadas domésticas de 1200 minutos </li></li><li>Plano de chamadas domésticas e internacionais: 1200 minutos de chamadas domésticas ou 600 minutos de chamadas internacionais (o que for atingido primeiro no mês do calendário)</li></li> |
 |Pode fazer chamadas de saída para números Premium?  <br/> | Não há suporte no momento. <br/> |
 |É possível fazer chamadas de saída?  <br/> | Para 196 países, incluindo [estes](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/> |
    

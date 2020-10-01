@@ -1,5 +1,5 @@
 ---
-title: Restrições de discagem de chamada gratuita na Suécia
+title: Restrições de discagem de chamada gratuita na Itália
 ms.author: v-lanac
 author: LanaChin
 manager: serdars
@@ -21,15 +21,15 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: Isso vai ajudá-lo a descobrir como discar números de chamada gratuita em cada país/região. Depois de selecionar o país/região, você será direcionado a uma página específica do país que contém detalhes específicos, restrições e limites para a disponibilidade de serviço de chamada gratuita em que o serviço de chamada gratuita está disponível. O formato ou formatos de discagem mostrará os códigos de acesso necessários em cada país/região para discar o número de chamada gratuita.
-ms.openlocfilehash: 63d6e1a987c0fe12f4bdbd81b02f27340456c9bb
+description: Isso vai ajudá-lo a descobrir como discar números de chamada gratuita em cada país/região. Depois de selecionar o país/região, você será direcionado a uma página específica do país que contém detalhes específicos, restrições e limites para a disponibilidade de serviço de chamada gratuita em que o serviço de chamada gratuita está disponível. O formato ou os formatos de discagem mostram os códigos de acesso necessários em cada país ou região para discar o número de chamada gratuita.
+ms.openlocfilehash: b55de2a46ea1eb64f277d56de0fb18d7073c7aa3
 ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 09/30/2020
-ms.locfileid: "48321894"
+ms.locfileid: "48322270"
 ---
-# <a name="toll-free-dialing-restrictions-in-sweden"></a>Restrições de discagem de chamada gratuita na Suécia
+# <a name="toll-free-dialing-restrictions-in-italy"></a>Restrições de discagem de chamada gratuita na Itália
 
 [Encontre outro país ou região](../toll-free-dialing-limitations-and-restrictions.md)ou saiba mais sobre limitações e restrições de discagem gratuitas.
 
@@ -37,19 +37,16 @@ ms.locfileid: "48321894"
 |**Detalhes**|**Descrição**|
 |:-----|:-----|
 |A chamada gratuita está disponível?  <br/> |Sim  <br/> |
-|Formato (s) de discagem  <br/> | 020 <br/> |
-|Código ISO de país/região  <br/> |SE  <br/> |
+|Formato (s) de discagem  <br/> | 800 <br>803 <br>|
+|Código ISO de país/região  <br/> |RECOMENDA  <br/> |
 |Ilha/território abrangido  <br/> |Não aplicável  <br/> |
-|Ilha/território não coberto  <br/> |Não aplicável  <br/> |
+|Ilha/território não coberto  <br/> | Não aplicável  <br/>  |
 |Disponibilidade de linha fixa/com fio  <br/> |Sim  <br/> |
-|Disponibilidade com a rede móvel  <br/> |Não  <br/> |
+|Disponibilidade com a rede móvel  <br/> | Sim (alguns números podem ser Premium) <br/> |
 |Comentários, restrições e problemas de acesso  <br/> |Nenhum  <br/> |
-   
+
 ## <a name="related-topics"></a>Tópicos relacionados
 
 [Limitações e restrições de discagem gratuita](../toll-free-dialing-limitations-and-restrictions.md)
 
-[Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
-
-  
- 
+[Obter números de telefone de serviço](/microsoftteams/getting-service-phone-numbers)

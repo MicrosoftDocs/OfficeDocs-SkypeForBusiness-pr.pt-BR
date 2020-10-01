@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e16e651004148645789f5e8e55df6fbbfa1dea9c
-ms.sourcegitcommit: b37632ffa22e3a6045b476c95d46889e9193a15b
+ms.openlocfilehash: 8c359b39707b57a653f35e75497672d306209ccd
+ms.sourcegitcommit: 739ffd5893abf6d181877d1110f9dc8230b3bfd2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47955908"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48328210"
 ---
 # <a name="upgrade-considerations-for-organizations-with-skype-for-business-server-on-premises-mdash-for-it-administrators"></a>Considerações de atualização para organizações com o Skype for Business Server local &mdash; para administradores de ti
 
@@ -52,7 +52,7 @@ Além disso, os seguintes artigos descrevem conceitos importantes de atualizaç�
 
 - Os usuários do teams que têm uma conta local do Skype for Business (ou seja, eles ainda não foram movidos para a nuvem usando move-CsUser) não podem interoperar com nenhum usuário do Skype for Business, nem podem federar usuários externos. Essa funcionalidade só estará disponível quando os usuários forem movidos para a nuvem (no modo de ilhas ou como usuários do TeamsOnly). 
 
-- Se você tiver usuários com contas do Skype for Business no local, não deverá atribuir o modo TeamsOnly no nível do locatário, a menos que você explicitamente atribua um outro modo para todos os usuários com contas do Skype for Business locais. 
+- Se você tiver usuários com contas do Skype for Business locais, não será possível atribuir o modo TeamsOnly no nível do locatário. Primeiro você deve mover todos os usuários com contas do Skype for Business locais para a nuvem usando `Move-CsUser` e, em seguida, [desabilitar a migração híbrida para concluir a nuvem](https://docs.microsoft.com/skypeforbusiness/hybrid/cloud-consolidation-disabling-hybrid).  `Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams` não funcionará no nível do locatário se for detectado um registro DNS lyncdiscover que aponta para um local diferente do Office 365.
 
 - Você deve garantir que seus usuários sejam sincronizados corretamente com o Azure AD com os atributos corretos do Skype for Business. Esses atributos são todos os prefixos com "msRTCSIP-". Se os usuários não forem sincronizados corretamente para o Azure AD, as ferramentas de gerenciamento do Teams não poderão gerenciar esses usuários. (Por exemplo, você não poderá atribuir políticas de equipe aos usuários locais, a menos que você esteja sincronizando corretamente esses atributos.) Para obter mais informações, consulte [Configurar o Azure ad Connect para Teams e o Skype for Business](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-azure-ad-connect).
 
@@ -64,12 +64,6 @@ Além disso, os seguintes artigos descrevem conceitos importantes de atualizaç�
 
 >[!NOTE]
 > Todos os novos locatários criados após 3 de setembro de 2019 são criados como locatários do TeamsOnly, a menos que a organização já tenha uma implantação local do Skype for Business Server. A Microsoft usa registros de DNS para identificar as organizações do Skype for Business Server locais. Se sua organização tiver o Skype for Business Server local sem entradas DNS públicas, você precisará ligar para o suporte da Microsoft para que seu novo locatário seja rebaixado. 
-
-
-
-
-
-
 
 
 

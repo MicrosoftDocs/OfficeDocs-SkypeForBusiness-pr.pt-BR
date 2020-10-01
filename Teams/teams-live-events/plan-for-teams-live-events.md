@@ -18,19 +18,19 @@ description: Neste artigo, você aprenderá sobre os fatores a serem considerado
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bb3bd06ff936f0c26e34cf72fb9519b53896cf2f
-ms.sourcegitcommit: 3db7c450d3afbc1049e1016d51016442e5764634
+ms.openlocfilehash: 675bcd9a8a7bdc65095cbc1a93979a4588e41fa5
+ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48203914"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48308314"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planejar eventos ao vivo no Microsoft Teams
 
 Quando você planeja eventos ao vivo do Teams para realizar grandes reuniões em sua organização, há vários fatores que você precisa considerar antes de começar a configurá-los.
 
  > [!Note]
-> Para saber mais sobre os recursos do Teams em diferentes plataformas, confira [recursos do Teams por plataforma](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
+> Para saber mais sobre os recursos do Teams em diferentes plataformas, confira [recursos do Teams por plataforma](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3). Confira [preparar sua organização](../prepare-network.md) para saber mais sobre os requisitos de largura de banda para os eventos ao vivo do Teams. 
 
 ## <a name="who-can-attend-create-and-schedule-live-events"></a>Quem pode participar, criar e agendar eventos ao vivo?
 
@@ -100,11 +100,15 @@ A tabela a seguir destaca os principais recursos oferecidos em eventos ao vivo e
 
 > [!IMPORTANT]
 > **O limite de eventos ao vivo do Microsoft 365 cresce**
-> 
-> Para ajudar os clientes a atender às necessidades de comunicação que mudam rapidamente, os eventos ao vivo do Microsoft 365 aumentarão temporariamente os limites padrão até 1º de julho de 2020, para eventos ao vivo hospedados no Teams. Os seguintes aumentos foram lançados no final de abril de 2020:
-> - Limite de participantes: os eventos podem dar suporte a no máximo 20.000 participantes
-> - Eventos simultâneos: 50 eventos podem ser hospedados simultaneamente em um locatário
-> - Duração do evento: a duração do evento aumentou para 16 horas por transmissão
+>
+> **Para ajudar a dar suporte aos nossos clientes, a partir de 1º de janeiro de 2021, estenderemos o limite temporário para que os eventos ao vivo sejam hospedados no Teams, Stream e no Yammer, incluindo o**:
+>
+>- Até 20.000 participantes por evento
+>- Até 50 eventos simultâneos por locatário do Teams
+>- Até 16 horas por transmissão
+>
+> Além disso, os eventos ao vivo com até 100.000 participantes podem ser planejados por meio do programa de assistência de eventos ao vivo da Microsoft. [Saiba mais](https://aka.ms/Stream/Blog/LiveEventOptions). **Depois de 1º de janeiro de 2021, os clientes que precisarem destes aumentos de limite serão necessários para comprar o [complemento Advanced Communications](../teams-add-on-licensing/advanced-communications.md).**
+
 
 |**Funcionalidade**   |**Transmissão de Reunião do Skype** |**Eventos produzidos no Teams** |**Eventos produzidos em dispositivos ou aplicativos externos** |
 |---------|---------|---------|---------|

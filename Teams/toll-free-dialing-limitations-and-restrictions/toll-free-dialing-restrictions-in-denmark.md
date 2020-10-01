@@ -1,11 +1,10 @@
 ---
 title: Restrições de discagem de chamada gratuita na Dinamarca
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: LanaChin
 manager: serdars
-ms.reviewer: mikedav, oscarr
+ms.reviewer: davlick, krkilaru
 ms.topic: reference
-ms.assetid: 7812d5d5-0d57-4f3e-85b6-628882a911b3
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
@@ -22,14 +21,13 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-- seo-marvel-mar2020
-description: Saiba mais sobre números de chamada gratuita no sul da China, incluindo disponibilidade, disponibilidade de linha com fio/de linha fixa e restrições de rede móvel e restrições.
-ms.openlocfilehash: b8dc3b6382b5b74a80bba1a8702d1a40bee5eaf0
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+description: Isso vai ajudá-lo a descobrir como discar números de chamada gratuita em cada país/região. Depois de selecionar o país/região, você será direcionado a uma página específica do país que contém detalhes específicos, restrições e limites para a disponibilidade de serviço de chamada gratuita em que o serviço de chamada gratuita está disponível. O formato ou formatos de discagem mostrará os códigos de acesso necessários em cada país/região para discar o número de chamada gratuita.
+ms.openlocfilehash: c3db94798c56ca35886992d8d4c3496b45b258a7
+ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140440"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48320766"
 ---
 # <a name="toll-free-dialing-restrictions-in-denmark"></a>Restrições de discagem de chamada gratuita na Dinamarca
 
@@ -39,7 +37,7 @@ ms.locfileid: "43140440"
 |**Detalhes**|**Descrição**|
 |:-----|:-----|
 |A chamada gratuita está disponível?  <br/> |Sim  <br/> |
-|Formato (s) de discagem  <br/> | 808 8XXXX <br/>  808 2XXXX <br/>  802 5XXXX <br/> |
+|Formato (s) de discagem  <br/> | 801<br/>  802<br/>  803<br/>804<br/>8060<br/>8061<br/>8062<br/>8063<br/>807<br/>808<br/>809<br/> |
 |Código ISO de país/região  <br/> |DK  <br/> |
 |Ilha/território abrangido  <br/> |Não aplicável  <br/> |
 |Ilha/território não coberto  <br/> | Sem acesso nas Ilhas Faroés ou na Groenlândia. <br/> |
@@ -50,7 +48,7 @@ ms.locfileid: "43140440"
 ## <a name="related-topics"></a>Tópicos relacionados
 [Limitações e restrições de discagem gratuita](../toll-free-dialing-limitations-and-restrictions.md)
 
-[Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
+[Obtendo número de telefone do serviço](/microsoftteams/getting-service-phone-numbers)
 
   
  

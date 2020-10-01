@@ -1,11 +1,10 @@
 ---
 title: Restrições de discagem de chamada gratuita em Portugal
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: LanaChin
 manager: serdars
-ms.reviewer: mikedav, oscarr
+ms.reviewer: davlick, krkilaru
 ms.topic: reference
-ms.assetid: d2672637-c5ce-4310-a2d9-6050a87a1a98
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
@@ -23,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Isso vai ajudá-lo a descobrir como discar números de chamada gratuita em cada país/região. Depois de selecionar o país/região, você será direcionado a uma página específica do país que contém detalhes específicos, restrições e limites para a disponibilidade de serviço de chamada gratuita em que o serviço de chamada gratuita está disponível. O formato ou formatos de discagem mostrará os códigos de acesso necessários em cada país/região para discar o número de chamada gratuita.
-ms.openlocfilehash: 513a503f7e3d32b2a7b0a7a636837ac64bfb9179
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 11b3664f0b25967143dc029e65a11f80117595b8
+ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41693386"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48322260"
 ---
 # <a name="toll-free-dialing-restrictions-in-portugal"></a>Restrições de discagem de chamada gratuita em Portugal
 
@@ -38,7 +37,7 @@ ms.locfileid: "41693386"
 |**Detalhes**|**Descrição**|
 |:-----|:-----|
 |A chamada gratuita está disponível?  <br/> |Sim  <br/> |
-|Formato (s) de discagem  <br/> |800 XXX XXX  <br/> |
+|Formato (s) de discagem  <br/> |8000<br/> 8001<br/> 8002<br/> 8003<br/> 8004<br/> 8005<br/> 8006<br/> 8007<br/> 8008<br/> 8009<br/>  802<br/> |
 |Código ISO de país/região  <br/> |PT  <br/> |
 |Ilha/território abrangido  <br/> | Açores, Madeira <br/> |
 |Ilha/território não coberto  <br/> |Não aplicável  <br/> |
@@ -50,7 +49,7 @@ ms.locfileid: "41693386"
 
 [Limitações e restrições de discagem gratuita](../toll-free-dialing-limitations-and-restrictions.md)
 
-[Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
+[Obter números de telefone de serviço](/microsoftteams/getting-service-phone-numbers)
 
   
  

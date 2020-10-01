@@ -8,18 +8,21 @@ ms.topic: article
 ms.service: msteams
 localization_priority: Normal
 description: Saiba mais sobre as configurações de administrador no aplicativo elogios no centro de administração do Microsoft Teams
-ms.openlocfilehash: a04287ca6873d4dee9c58302ca563b167a592f3a
-ms.sourcegitcommit: 7c701fc38c8a81ac0938f666c336252c3983ca4c
+ms.openlocfilehash: 9d293ebc0a9a8776f21bc0e4d1301380a50186a6
+ms.sourcegitcommit: 739ffd5893abf6d181877d1110f9dc8230b3bfd2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "47324025"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48328200"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>Gerenciar o aplicativo elogios no centro de administração do Microsoft Teams
 
 O aplicativo elogios no Microsoft Teams ajuda os usuários a mostrarem reconhecimento de seus membros da organização ou da sala de aula. Com uma seleção de conjuntos de emblemas para escolher e a opção para criar seus próprios selos, elogios é projetado para ajudar a reconhecer o esforço que entra na ampla gama de trabalho que os usuários do teams fazem, dos educadores até a primeira linha de funcionários.
 
 Os administradores podem controlar quais selos estão disponíveis para sua organização a partir do centro de administração do teams. No painel de navegação esquerdo, selecione **aplicativos do teams > gerenciar aplicativos**. Abra elogios no [Catálogo de aplicativos do locatário](https://docs.microsoft.com/microsoftteams/manage-apps#view-apps-in-your-tenant-app-catalog)e vá para **configurações**.
+
+> [!Note]
+> O recurso do aplicativo elogios não está disponível para nuvens do governo dos EUA.
 
 ## <a name="use-built-in-badge-sets"></a>Usar conjuntos de emblemas internos
 

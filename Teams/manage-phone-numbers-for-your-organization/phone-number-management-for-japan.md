@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Use esta tabela para encontrar informações sobre como obter e gerenciar números de telefone no Japão para Microsoft Teams.
-ms.openlocfilehash: ad21620896800411f72a699d19cf9704485d0207
-ms.sourcegitcommit: bb5229c9f7999358dcf0ba185ecfd7c881627a38
+ms.openlocfilehash: 5cc9168b1ab0b881c2f7737f00369b5a286962b9
+ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46824922"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48322250"
 ---
 # <a name="phone-number-management-for-japan"></a>Gerenciamento de número de telefone para Japão
 
@@ -43,7 +43,8 @@ Para obter mais informações, consulte  [gerenciar números de telefone para su
 |Obter números de telefone transferidos para o Microsoft 365 ou o Office 365 para **usuários** do Japão.|Entre em contato com [Softbank chamada](https://aka.ms/SoftBankVoicePlan) para transferir números de telefone do usuário. Em seguida, eles adicionarão esses números à sua organização.  <br/> |
 |Obter números de telefone transferidos para o Microsoft 365 ou o Office 365 para **filas de chamadas** no Japão.|Entre em contato com [Softbank chamada](https://aka.ms/SoftBankVoicePlan) para transferir números de telefone de serviço. Em seguida, eles adicionarão esses números à sua organização.|
 |Altere o endereço de emergência atribuído aos usuários que têm um número de telefone de um plano de chamadas.|Entre em contato com [Softbank chamada](https://aka.ms/SoftBankVoicePlan) para fazer alterações de endereço de emergência. Eles podem atualizar essas informações para você.|
-|Alterar um número de usuário para um número de serviço. |Não tem suporte no momento ao usar chamadas SoftBank.
+|Alterar um número de usuário para um número de serviço. |Não tem suporte no momento ao usar chamadas SoftBank.|
+|Fazer atualizações de serviço de diretório para números de fila de chamadas ou atendedor automático|Para adicionar ou alterar os números da fila de chamadas ou do atendedor automático, entre em contato com [o serviço de suporte PSTN](contact-pstn-service-desk.md). |
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

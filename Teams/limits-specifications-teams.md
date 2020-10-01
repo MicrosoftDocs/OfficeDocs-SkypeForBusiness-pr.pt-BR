@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 82140caa97d8e754d6264429b7fbbd07d1877f0a
-ms.sourcegitcommit: 3db7c450d3afbc1049e1016d51016442e5764634
+ms.openlocfilehash: 1a95606786b59718e99adedb9a33ad31c1903f75
+ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48203724"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48308194"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Limites e especificações para o Microsoft Teams
 
@@ -111,7 +111,16 @@ Os nomes de canal também não podem começar com um caractere de sublinhado (_)
 ## <a name="meetings-and-calls"></a>Reuniões e chamadas
 
 > [!IMPORTANT]
-> Em abril, [anunciamos](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/what-s-new-in-microsoft-teams-april-2020/ba-p/1347929) que os aumentos de limite padrão temporário seriam habilitados para o Microsoft 365 Live Events para ajudá-los a dar suporte melhor aos clientes até o dia 1 de julho. Para continuar atendendo às necessidades dos clientes, estenderemos os limites padrão temporários até o dia 1 de outubro de 2020. Os eventos dinâmicos hospedados no Teams, no Stream e no Yammer continuarão a dar suporte temporário a eventos para até 20.000 participantes, 16 horas de duração e 50 eventos que ocorram simultaneamente. Além disso, os clientes podem hospedar um evento ao vivo no Stream para até 100.000 participantes quando planejado pelo [programa de assistência Microsoft Live Events](https://resources.techcommunity.microsoft.com/live-events/assistance/).
+> **O limite de eventos ao vivo do Microsoft 365 cresce**
+>
+> **Para ajudar a dar suporte aos nossos clientes, a partir de 1º de janeiro de 2021, estenderemos o limite temporário para que os eventos ao vivo sejam hospedados no Teams, Stream e no Yammer, incluindo**:
+>
+>- Até 20.000 participantes por evento
+>- Até 50 eventos simultâneos por locatário do Teams
+>- Até 16 horas por transmissão
+>
+> Além disso, os eventos ao vivo com até 100.000 participantes podem ser planejados por meio do programa de assistência de eventos ao vivo da Microsoft. [Saiba mais](https://aka.ms/Stream/Blog/LiveEventOptions). **Depois de 1º de janeiro de 2021, os clientes que precisarem destes aumentos de limite serão necessários para comprar o [complemento Advanced Communications](teams-add-on-licensing/advanced-communications.md).**
+
 
 |Recurso     | Limite máximo |
 |------------|---------------|
@@ -151,11 +160,13 @@ Para saber mais sobre eventos ao vivo e uma comparação dos eventos ao vivo do 
 > [!IMPORTANT]
 > **O limite de eventos ao vivo do Microsoft 365 cresce**
 >
-> Para ajudar os clientes a atender às necessidades de comunicação que mudam rapidamente, os eventos ao vivo do Microsoft 365 aumentarão temporariamente os limites padrão até 1º de outubro de 2020, para eventos ao vivo hospedados no Teams. Os seguintes aumentos foram lançados:
+> Para ajudar os clientes a atender às necessidades de comunicação que mudam rapidamente, geraremos temporariamente os limites padrão até 1 de janeiro de 2021, para eventos vivos hospedados no Teams, Stream e Yammer.
 >
 > - Limite de participantes: os eventos podem dar suporte a no máximo 20.000 participantes
 > - Eventos simultâneos: 50 eventos podem ser hospedados simultaneamente em um locatário
 > - Duração do evento: a duração do evento aumentou para 16 horas por transmissão
+>
+> Além disso, os eventos ao vivo com até 100.000 participantes podem ser planejados por meio do programa de assistência de eventos ao vivo da Microsoft. [Saiba mais](https://aka.ms/Stream/Blog/LiveEventOptions). **Depois de 1º de janeiro de 2021, os clientes que precisarem destes aumentos de limite serão necessários para comprar o [complemento Advanced Communications](teams-add-on-licensing/advanced-communications.md).**
 
 ## <a name="presence-in-outlook"></a>Presença no Outlook
 

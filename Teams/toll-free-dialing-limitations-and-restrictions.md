@@ -23,12 +23,12 @@ ms.custom:
 - Strat_SB_PSTN
 - seo-marvel-mar2020
 description: Saiba mais sobre números de chamada gratuita em um país/região, incluindo disponibilidade, disponibilidade de linha fixa e de linha fixa e restrições de rede móvel e restrições.
-ms.openlocfilehash: e987a392be81178a043835f44e34c67143609244
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 450f9cf2084cc93588f4dbf40d56cf5177eaaa15
+ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140550"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48322300"
 ---
 # <a name="toll-free-dialing-limitations-and-restrictions"></a>Limitações e restrições de discagem gratuita
 
@@ -41,6 +41,7 @@ Se estiver pronto, selecione um país ou região:
 > [!div class="op_single_selector"]    
 > - [Argentina](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-argentina.md)
 > - [Austrália](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-australia.md)
+> - [Áustria ](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-austria.md)
 > - [Belarus](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belarus.md)
 > - [Bélgica](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belgium.md)
 > - [Belize](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belize.md)
@@ -68,6 +69,7 @@ Se estiver pronto, selecione um país ou região:
 > - [Indonésia ](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-indonesia.md)
 > - [Irlanda](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-ireland.md)
 > - [Israel](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-israel.md)
+> - [Itália](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-italy.md)
 > - [Japão](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-japan.md)
 > - [Quênia](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-kenya.md)
 > - [Luxemburgo](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-luxembourg.md)
@@ -93,6 +95,7 @@ Se estiver pronto, selecione um país ou região:
 > - [Coreia do Sul](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-south-korea.md)
 > - [Espanha](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-spain.md)
 > - [Suécia](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-sweden.md)
+> - [Suíça](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-switzerland.md)
 > - [Taiwan](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-taiwan.md)
 > - [Tailândia](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-thailand.md)
 > - [Turquia](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-turkey.md)

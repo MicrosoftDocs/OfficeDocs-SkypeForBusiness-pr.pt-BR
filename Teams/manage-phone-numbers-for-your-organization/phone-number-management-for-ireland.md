@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Use esta tabela para encontrar informações sobre como obter e gerenciar números de telefone na Irlanda do Microsoft Teams.
-ms.openlocfilehash: 361e7fa4941a166ba83e12c0ff4d64ab90e8b19c
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 329b7b696e9ee7748893ce9c6856706eb1196dd2
+ms.sourcegitcommit: d16adc1ce13fcaf52f786c8422b3175b61935e68
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706996"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48324157"
 ---
 # <a name="phone-number-management-for-ireland"></a>Gerenciamento de números de telefone para a Irlanda
 
@@ -35,10 +35,11 @@ Para obter mais informações, consulte [Gerenciar os números de telefone de su
   
 |**O que você deseja fazer?**|**Baixar os formulários corretos**|
 |:-----|:-----|
-|Obter novos números de telefone de usuário e serviço que não estão listados no centro de administração do Microsoft Teams. <br/> |Na Irlanda, você não pode obter números de telefone para sua organização usando o centro de administração do Microsoft Teams. Você deve enviar uma solicitação de novo número de telefone. Baixe a [nova solicitação de número de telefone da Irlanda (v. 4.0) (en-US)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-ireland-(v.4.0)-(en-us).pdf?raw=true), preencha-a e [envie-a para nós](mailto:ptneu@microsoft.com).  <br/> |
-|Obter números de telefone transferidos para nós.  <br/> |Baixe um destes formulários: <br/> [Carta de Autorização (LOA) para a Irlanda (números geográficos) (v.3.0)(en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-ireland-(geographic-numbers)-(v.1.0)-(en-us).pdf?raw=true) <br/> [Carta de Autorização (LOA) para a Irlanda (números não geográficos) (v.1.0)(en.us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-ireland-(non-geographic-numbers)-(v.1.0)-(en-us).pdf?raw=true) <br/>  <br/>  Preencha o formulário e [o envie para nós](mailto:ptneu@microsoft.com).  <br/> |
+|Obter novos números de telefone de usuário ou serviço que não estão listados no centro de administração do Microsoft Teams. <br/> |Na Irlanda, você não pode obter números de telefone para sua organização usando o centro de administração do Microsoft Teams. Você deve enviar uma solicitação de novo número de telefone. Baixar este formulário.<br/>[Nova solicitação de número de telefone para Irlanda (v. 5.0) (en-US)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-ireland-(v.5.0)-(en-us).pdf?raw=true). <br/><br/> Preencha-o e [envie-o para nós](mailto:ptneu@microsoft.com).  <br/> |
+|Obter números de telefone transferidos para nós.  <br/> | Baixar este formulário. <br/>[Carta de autorização (LOA) para a Irlanda (todos os números) (v. 5.0) (en-US)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-ireland-(all-numbers)-(v.5.0)-(en-us).pdf?raw=true) <br/> <br/>Preencha o formulário e [o envie para nós](mailto:ptneu@microsoft.com). <br/> |
 |Publicar/cancelar a publicação de número (s) de telefone no diretório de telefones nacional.  <br/> |[Nos envie](mailto:ptneu@microsoft.com) a lista de números de telefone que você deseja publicar/cancelar a publicação. <br/> |
 |Altere o número de um usuário para um número de serviço.  <br/> |[Nos envie](mailto:ptneu@microsoft.com) a lista de números de usuário que você deseja converter em números de serviço. <br/> |
+|Fazer atualizações de serviço de diretório para números de fila de chamadas ou atendedor automático|Para adicionar ou alterar os números da fila de chamadas ou do atendedor automático, entre em contato com [o serviço de suporte PSTN](contact-pstn-service-desk.md). |
    
 ## <a name="related-topics"></a>Tópicos relacionados
 

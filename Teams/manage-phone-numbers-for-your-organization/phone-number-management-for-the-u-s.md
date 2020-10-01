@@ -1,5 +1,5 @@
 ---
-title: Gerenciamento de números de telefone para os EUA
+title: Gerenciamento de número de telefone para os Estados Unidos
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -22,14 +22,14 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: Use esta tabela para encontrar informações sobre como obter e gerenciar números de telefone nos Estados Unidos (incluindo Porto Rico) para o Microsoft Teams.
-ms.openlocfilehash: 81ec9a76a7040b702fdb3d77ba2750dc52ff3c2f
-ms.sourcegitcommit: 6f89b1ed41e437030167d104c08335445f013b32
+ms.openlocfilehash: 66ec86183aad48d4d2acf47dc8e2cda5b83bc646
+ms.sourcegitcommit: 739ffd5893abf6d181877d1110f9dc8230b3bfd2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/04/2020
-ms.locfileid: "47399496"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48328170"
 ---
-# <a name="phone-number-management-for-the-us"></a>Gerenciamento de números de telefone para os EUA
+# <a name="phone-number-management-for-the-united-states"></a>Gerenciamento de número de telefone para os Estados Unidos
 
 Use esta tabela para encontrar informações sobre como obter e gerenciar números de telefone nos Estados Unidos (incluindo Porto Rico) para o Microsoft Teams.
 
@@ -37,12 +37,11 @@ Para obter mais informações, consulte [Gerenciar os números de telefone de su
   
 | O que você deseja fazer? | Execute estas etapas e baixe os formulários corretos |
 |:-----|:-----|
-|Obter novos números de telefone do usuário que não estão listados no centro de administração do Microsoft Teams.  <br/> |Baixe o formulário [Solicitação de novo número de telefone para os Estados Unidos (números de usuário) (v.3.0)(en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-u.s.-(user-numbers)-(v.3.0)-(en-us).pdf?raw=true) e preencha-o. Depois, [envie-o para nós](mailto:gcstnmsd@microsoft.com).  <br/> |
-|Obter novos números de telefone de serviço que não estão listados no centro de administração do Microsoft Teams. <br/> |Para números de serviço nos Estados Unidos, [Baixe este formulário](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-numbers-inside-the-u.s.-(service-numbers)-(v.1.0)-(en-us).pdf?raw=true), preencha-o e [envie-o para nós](mailto:gcstnmsd@microsoft.com).
-|Obter números de telefone transferidos para nós.  <br/> | Baixe um destes formulários: <br/> [Carta de autorização (LOA) para os EUA (número de usuário e serviço) (v. 3.3) (en-US)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-the-u.s.-(user-and-service-numbers)-(v.3.3)-(en-us).pdf?raw=true)<br/>[Carta de autorização (LOA) para os EUA (números de chamada gratuita) (v. 3.3) (en-US)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/Letter-of-authorization-(loa)-for-the-u.s.-(toll-free-numbers)-(v.3.3)-(en-us).pdf?raw=true)<br/><br/>**Observação:** se você estiver tentando obter mais de 999 números de telefone de usuário ou assinante, será necessário preencher uma Carta de Autorização (LOA) e enviá-la para nós. Para obter mais informações, consulte [transferir números de telefone para o Microsoft Teams](../phone-number-calling-plans/transfer-phone-numbers-to-teams.md) .          <br/>  <br/>   Preencha o formulário e [o envie para nós](mailto:ptn@microsoft.com).  <br/> |
+|Obter novos números de telefone de usuário ou serviço que não estão listados no centro de administração do Microsoft Teams.  <br/> |Baixar este formulário.<br/>  [Nova solicitação de número de telefone para os Estados Unidos (v. 5.0) (en-US)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-united-states-(v.5.0)-(en-us).pdf?raw=true) <br/><br/> Preencha o formulário e [o envie para nós](mailto:gcstnmsd@microsoft.com). |
+|Obter números de telefone transferidos para nós.  <br/> | Baixe um destes formulários: <br/> [Carta de autorização (LOA) para os Estados Unidos (usuário e números de serviço) (v. 3.3) (en-US)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-the-u.s.-(user-and-service-numbers)-(v.3.3)-(en-us).pdf?raw=true)<br/>[Carta de autorização (LOA) para os Estados Unidos (números de chamada gratuita) (v. 3.3) (en-US)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-the-u.s.-(toll-free-numbers)-(v.3.3)-(en-us).pdf?raw=true)<br/><br/>**Observação** Se você estiver tentando obter mais de 999 números de telefone do assinante ou do usuário, será necessário preencher uma carta de autorização (LOA) e enviá-lo para nós. Para obter mais informações, consulte [transferir números de telefone para o Microsoft Teams](../phone-number-calling-plans/transfer-phone-numbers-to-teams.md) .          <br/>  <br/>   Preencha o formulário e [o envie para nós](mailto:ptn@microsoft.com).  <br/> |
 |Altere o número de um usuário para um número de serviço.  <br/> |[Nos envie](mailto:ptn@microsoft.com) seu PIN e a lista de números de usuário que você deseja converter em números de serviço. Para configurar um PIN, vá [aqui](/skypeforbusiness/what-are-calling-plans-in-office-365/set-your-pin-for-transferring-numbers-to-a-new-service-provider).  <br/> |
 |Transferir números de um Microsoft 365 ou do Office 365 para outro.  <br/> |[Envie-nos](mailto:ptn@microsoft.com) a lista de números de telefone de usuário (assinantes) que você deseja transferir junto com o PIN da organização de origem cujos números você deseja transferir. Para configurar um PIN, vá [aqui](/skypeforbusiness/what-are-calling-plans-in-office-365/set-your-pin-for-transferring-numbers-to-a-new-service-provider).  <br/> |
-|||
+|Fazer atualizações de serviço de diretório para números de fila de chamadas ou atendedor automático|Para adicionar ou alterar os números da fila de chamadas ou do atendedor automático, entre em contato com [o serviço de suporte PSTN](contact-pstn-service-desk.md). |
    
 ## <a name="related-topics"></a>Tópicos relacionados 
 

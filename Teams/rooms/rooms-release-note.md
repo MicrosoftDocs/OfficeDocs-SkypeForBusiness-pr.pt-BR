@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: O administrador pode ler as notas de versão para salas do Microsoft Teams, que lista melhorias cumulativas nas salas do Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5913a31878b59fb4e061888b4318e8e7d8f3719c
-ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
+ms.openlocfilehash: 3b6fd8b95b2c5fca646677445a84104908fed87e
+ms.sourcegitcommit: 739ffd5893abf6d181877d1110f9dc8230b3bfd2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/15/2020
-ms.locfileid: "46761317"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48328220"
 ---
 # <a name="release-notes"></a>Notas de versão
 
@@ -29,6 +29,7 @@ Este artigo discute melhorias cumulativas nas salas do Microsoft Teams.
 
 |Liberação |Publicado em <br/> Microsoft Store |
 |--- |--- |
+|4.6.20.0 |09/30/2020 |
 |4.5.37.0 |08/14/2020 |
 |4.5.35.0 |07/23/2020 |
 |4.4.63.0 |06/25/2020 |
@@ -66,6 +67,13 @@ Este artigo discute melhorias cumulativas nas salas do Microsoft Teams.
 |RTM (1.0.8) |12/7/2016 |
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Introdução ao recurso salas do Microsoft Teams e resolução de problemas
+
+### <a name="46200-09302020"></a>4.6.20.0 (09/30/2020)
+
+Apresentado nesta atualização:
+- Ver mais vídeos com a Galeria de vídeos 3x3 na frente dos monitores de sala  
+- Iniciar legendas em dinâmicos locais do MTR 
+- Ingressar em relações de zoom de salas de equipe com o convidado direto (visualização)
 
 ### <a name="45370-08142020"></a>4.5.37.0 (08/14/2020)
 
