@@ -81,7 +81,6 @@
 #### [Adicionar um convidado a uma equipe](add-guests.md)
 #### [Exibir usuários convidados em uma equipe](view-guests.md)
 #### [Editar informações de usuários convidados](edit-guests-information.md)
-#### [Usar o PowerShell para controlar o acesso de convidados](guest-access-PowerShell.md)
 #### [Solucionar problemas de acesso de convidados](troubleshoot-guest-access.md)
 ## [Cortana no Teams](cortana-in-teams.md)
 
@@ -131,6 +130,7 @@
 ### [Gerenciar os aplicativos Power Platform no Centro de Administração do Microsoft Teams](manage-power-platform-apps.md)
 ### [Publicar um aplicativo personalizado carregando um pacote de aplicativos](upload-custom-apps.md)
 ## [Certificação de aplicativo](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+## [Exibir permissões do aplicativo e conceder consentimento de administrador no Centro de administração do Microsoft Teams](app-permissions-admin-center.md)
 ## [Permissões e considerações dos aplicativos](app-permissions.md)
 ## [Serviços de compra de aplicativos de terceiros para o Teams](purchase-third-party-apps.md)
 ## [Modelos de aplicativos para o Teams](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -190,6 +190,7 @@
 ## [Emails enviados para os usuários quando suas configurações são alteradas](emails-sent-to-users-when-their-settings-change-in-teams.md) 
 ## [Permitir que os usuários gravem seus nomes ao ingressar em uma reunião](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
 ## [Ativar ou desativar anúncios de entrada e de saída em reuniões](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)
+## [Usar a tecnologia de NDI® no Teams](use-NDI-in-meetings.md)
 ## [Opção levantar sua mão em reuniões no Teams](raise-hand-meetings.md)
 ## [Reuniões do Teams em navegadores sem suporte](unsupported-browsers.md)
 ## [Configurar o compartilhamento da área de trabalho no Teams](configure-desktop-sharing.md)
