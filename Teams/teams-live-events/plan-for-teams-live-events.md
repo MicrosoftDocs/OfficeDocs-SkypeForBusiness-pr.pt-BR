@@ -18,12 +18,12 @@ description: Neste artigo, você aprenderá sobre os fatores a serem considerado
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 675bcd9a8a7bdc65095cbc1a93979a4588e41fa5
-ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
+ms.openlocfilehash: b7912fa089f453b0b9e27f59fa73369f6ea22948
+ms.sourcegitcommit: 762e303509940f830c304e00a98b05796bf5537f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48308314"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48333509"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planejar eventos ao vivo no Microsoft Teams
 
@@ -101,13 +101,13 @@ A tabela a seguir destaca os principais recursos oferecidos em eventos ao vivo e
 > [!IMPORTANT]
 > **O limite de eventos ao vivo do Microsoft 365 cresce**
 >
-> **Para ajudar a dar suporte aos nossos clientes, a partir de 1º de janeiro de 2021, estenderemos o limite temporário para que os eventos ao vivo sejam hospedados no Teams, Stream e no Yammer, incluindo o**:
+> **Para ajudar a dar suporte aos nossos clientes, a partir de 1º de janeiro de 2021, estenderemos o limite temporário para que os eventos ao vivo sejam hospedados no Teams, Stream e no Yammer, incluindo**:
 >
 >- Até 20.000 participantes por evento
 >- Até 50 eventos simultâneos por locatário do Teams
 >- Até 16 horas por transmissão
 >
-> Além disso, os eventos ao vivo com até 100.000 participantes podem ser planejados por meio do programa de assistência de eventos ao vivo da Microsoft. [Saiba mais](https://aka.ms/Stream/Blog/LiveEventOptions). **Depois de 1º de janeiro de 2021, os clientes que precisarem destes aumentos de limite serão necessários para comprar o [complemento Advanced Communications](../teams-add-on-licensing/advanced-communications.md).**
+> Além disso, os eventos ao vivo com até 100.000 participantes podem ser planejados por meio do programa de assistência de eventos ao vivo do Microsoft 365. A equipe avaliará cada solicitação e trabalhará com você para determinar opções que podem estar disponíveis. [Saiba mais](https://aka.ms/Stream/Blog/LiveEventOptions). **Depois de 1º de janeiro de 2021, os clientes que precisarem destes aumentos de limite serão necessários para comprar o [complemento Advanced Communications](../teams-add-on-licensing/advanced-communications.md).**
 
 
 |**Funcionalidade**   |**Transmissão de Reunião do Skype** |**Eventos produzidos no Teams** |**Eventos produzidos em dispositivos ou aplicativos externos** |
