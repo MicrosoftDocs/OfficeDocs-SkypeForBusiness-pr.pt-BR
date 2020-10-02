@@ -3,8 +3,8 @@ title: Treinamento de administração do Microsoft Teams
 ms.reviewer: ''
 description: Use estes recursos para usuários finais, administradores e treinamentos guiados por instrutores para ajudá-lo a tirar o máximo de proveito do Microsoft Teams na sua organização.
 ms.topic: overview
-author: SerdarSoysal
-ms.author: serdars
+author: msdmaguire
+ms.author: dmaguire
 audience: admin
 manager: serdars
 ms.service: msteams
@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0148ea6ad68ede22807553f2bb708299c74bf884
-ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
+ms.openlocfilehash: aac5d9d0ee52547312cab655973b66503a0886de
+ms.sourcegitcommit: fd7d5ba09ef30cf4594e352c36f62b950e0e41a6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656332"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48336970"
 ---
 # <a name="microsoft-teams-training"></a>Treinamento para o Microsoft Teams
 
@@ -33,7 +33,7 @@ ms.locfileid: "46656332"
 | <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg" width="40 px" height="40 px" alt-text="education-tutorial-teams"> | **[Treinamento ao vivo para o Teams](/microsoftteams/instructor-led-training-teams-landing-page)** </br> Cursos de treinamento online, ao vivo e gratuitos hospedados pela Microsoft, projetados para ajudá-lo a começar a trabalhar com o Teams. Participe para ver o Teams em ação, tire suas dúvidas e interaja com os nossos instrutores ao vivo. 
 | <img src="https://docs.microsoft.com/office/media/icons/user.svg" width="40 px" height="40 px" alt-text="user"> | **[Treinamento online para o Teams](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)** </br> Utilize esses recursos de treinamento individualizado para ajudar os usuários a obter o máximo das equipes. |
 
-## <a name="dont-miss-this-key-training"></a>Não perca este treinamento fundamental
+## <a name="dont-miss-these-key-training-offerings"></a>Não perca essas ofertas importantes de treinamento
 
 Verifique com frequência - continuaremos atualizando esta lista para que você saiba sempre sobre os treinamentos mais recentes, mais legais e mais importantes do Teams.
 
@@ -51,7 +51,7 @@ Verifique com frequência - continuaremos atualizando esta lista para que você 
    :::column-end:::
 
    :::column:::
-   **[Trabalho em equipe](https://aka.ms/edx-cld267x-about)** </br>
+   **[Trabalho em equipe](https://docs.microsoft.com/learn/paths/m365-manage-team-collaboration)** </br>
    Curso: Habilitando Trabalho em equipe com o Teams
 
    :::column-end:::

@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Saiba como configurar e testar atendedores automáticos do Microsoft Teams.
-ms.openlocfilehash: 2cb796db37f40025dc7a78123da729fd5812bbbb
-ms.sourcegitcommit: 22e2f51abf879b34701064839d0e410758b6a3dd
+ms.openlocfilehash: 4de85d8a18c1221c73b4dbdb42ab27504ebbcb09
+ms.sourcegitcommit: 762e303509940f830c304e00a98b05796bf5537f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48220303"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48337583"
 ---
 # <a name="set-up-an-auto-attendant"></a>Configurar um atendedor automático
 
@@ -175,7 +175,7 @@ Depois de adicionar todos os seus feriados, clique em **Avançar**.
 
 O *escopo de discagem* define quais usuários estão disponíveis no diretório quando um chamador usa discar por nome ou discagem por extensão. O padrão de **todos os usuários online** inclui todos os usuários em sua organização que são usuários online com uma licença do sistema telefônico ou hospedada no local usando o Skype for Business Server.
 
-Você pode incluir ou excluir usuários específicos selecionando **grupo de usuários personalizado** em **incluir** ou **excluir** e escolhendo um ou mais grupos do Microsoft 365, listas de distribuição ou grupos de segurança. Por exemplo, talvez você queira excluir executivos de sua organização do diretório de discagem.
+Você pode incluir ou excluir usuários específicos selecionando **grupo de usuários personalizado** em **incluir** ou **excluir** e escolhendo um ou mais grupos do Microsoft 365, listas de distribuição ou grupos de segurança. Por exemplo, talvez você queira excluir executivos de sua organização do diretório de discagem. (Se um usuário estiver em ambas as listas, eles serão excluídos do diretório.)
 
 > [!NOTE]
 > Pode levar até 36 horas para que um novo usuário tenha o nome listado no diretório.

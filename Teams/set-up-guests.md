@@ -17,24 +17,21 @@ f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d9e91f51bb809b9917036dce1d074ec694cb113f
-ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
+ms.openlocfilehash: 43c225cad121d88d14bb6f179f48b452a61d89d7
+ms.sourcegitcommit: 762e303509940f830c304e00a98b05796bf5537f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/15/2020
-ms.locfileid: "46761147"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48333241"
 ---
-<a name="turn-on-or-turn-off-guest-access-to-microsoft-teams"></a>Ativar ou desativar o acesso de convidados ao Microsoft Teams
-===================================================
+# <a name="turn-on-or-turn-off-guest-access-to-microsoft-teams"></a>Ativar ou desativar o acesso de convidados ao Microsoft Teams
 
-Por padrão, o acesso de convidado está desativado. Como o Microsoft 365 ou o administrador do Office 365, você deve ativar o acesso de convidado para Teams para que os proprietários do administrador ou da equipe possam adicionar convidados. Para ativar o acesso de convidado, [colabore com convidados em uma equipe](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team). 
+Por padrão, o acesso de convidado está desativado. Como o Microsoft 365 ou o administrador do Office 365, você deve ativar o acesso de convidado para Teams para que os proprietários do administrador ou da equipe possam adicionar convidados.
 
 Depois de ativar o acesso de convidado, pode levar algumas horas para que as alterações entrem em vigor. Se um usuário vir a mensagem "entrar em contato com seu administrador" ao tentar adicionar um convidado à equipe, é provável que o acesso de convidado não tenha sido ativado ou que as configurações ainda não estejam efetivas.
 
 > [!IMPORTANT]
-> Ativar o acesso de convidado depende das configurações do Azure Active Directory, do Microsoft 365 ou do Office 365, do SharePoint Online e do teams. Para obter mais informações, consulte [autorizar o acesso de convidado no Microsoft Teams](Teams-dependencies.md).
-
-
+> Ativar o acesso de convidado depende das configurações no Azure Active Directory, Microsoft 365, SharePoint e Teams. Para obter mais informações, consulte [colaborar com convidados em uma equipe](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team).
 
 ## <a name="configure-guest-access-in-the-teams-admin-center"></a>Configurar o acesso de convidado no centro de administração do teams
 
@@ -68,10 +65,12 @@ Depois de ativar o acesso de convidado, pode levar algumas horas para que as alt
 
 5. Clique em **Salvar**.
 
-## <a name="use-powershell-to-turn-guest-access-on-or-off"></a>Use o PowerShell para ativar ou desativar o acesso de convidados
-
-Leia [usar o PowerShell para ativar ou desativar o acesso de convidado](guest-access-PowerShell.md#use-powershell-to-turn-guest-access-on-or-off).
-
 ## <a name="external-access-federation-vs-guest-access"></a>Acesso externo (federação) e o acesso de convidado
 
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
+
+## <a name="see-also"></a>Confira também
+
+[Bloquear usuários convidados de uma equipe específica](https://docs.microsoft.com/microsoft-365/solutions/per-group-guest-access)
+
+[Set-CsTeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration)

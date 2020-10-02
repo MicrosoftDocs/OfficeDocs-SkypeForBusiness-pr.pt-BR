@@ -17,17 +17,17 @@ description: Saiba como gerenciar seus aplicativos do teams na página Gerenciar
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 23ff7cc90d30dc931b0677ce5ec5aa8db98981fb
-ms.sourcegitcommit: e0e089f0ab217d920e128377af653f7dbfdedacf
+ms.openlocfilehash: d75664a6d3884529936f8adcb69a928bdd238b3d
+ms.sourcegitcommit: fd7d5ba09ef30cf4594e352c36f62b950e0e41a6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46818180"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48336941"
 ---
 <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>Gerenciar seus aplicativos no centro de administração do Microsoft Teams
 ======================================================
 
-Como administrador, a página Gerenciar aplicativos no centro de administração do Microsoft Teams é onde você vê e gerencia todos os aplicativos do teams para sua organização. Aqui, você pode ver o status e as propriedades de nível de organização de aplicativos, aprovar ou carregar novos aplicativos personalizados para a loja de aplicativos da sua organização, bloquear ou permitir aplicativos no nível da organização, comprar serviços para aplicativos de terceiros e gerenciar as configurações de aplicativo de toda a organização.
+Como administrador, a página Gerenciar aplicativos no centro de administração do Microsoft Teams é onde você vê e gerencia todos os aplicativos do teams para sua organização. Aqui, você pode ver o status e as propriedades de nível de organização de aplicativos, aprovar ou carregar novos aplicativos personalizados para a loja de aplicativos da sua organização, bloquear ou permitir aplicativos no nível da organização, adicionar aplicativos às equipes (na visualização), comprar serviços para aplicativos de terceiros, exibir as permissões solicitadas por aplicativos, conceder consentimento de administrador aos aplicativos e gerenciar as configurações de aplicativo em toda a
 
 A página Gerenciar aplicativos fornece um modo de exibição para todos os aplicativos disponíveis, fornecendo a você as informações de que você precisa para decidir quais aplicativos permitir ou bloquear em sua organização. Em seguida, você pode usar [políticas de permissão do aplicativo](teams-app-permission-policies.md), políticas de configuração do [aplicativo](teams-app-setup-policies.md)e [políticas e configurações personalizadas do aplicativo](teams-custom-app-policies-and-settings.md) para configurar a experiência do aplicativo para usuários específicos em sua organização.
 
@@ -42,7 +42,7 @@ Você pode exibir todos os aplicativos, incluindo as informações a seguir sobr
 
 ![Captura de tela da página de aplicativos gerenciados](media/manage-apps.png)
 
-- **Nome**: o nome do aplicativo. Clique no nome do aplicativo para ver mais informações sobre o aplicativo. Isso inclui uma descrição do aplicativo, seja ele permitido ou bloqueado, versão, categorias que se aplicam ao aplicativo, status de certificação, recursos com suporte e ID do aplicativo. Veja um exemplo:
+- **Nome**: o nome do aplicativo. Clique no nome do aplicativo para acessar a página detalhes do aplicativo e ver mais informações sobre o aplicativo. Isso inclui uma descrição do aplicativo, seja ela permitida ou bloqueada, versão, política de privacidade, termos de uso, categorias que se aplicam ao aplicativo, status de certificação, recursos com suporte e ID do aplicativo. Veja um exemplo:
 
   ![Captura de tela da página de detalhes de aplicativos de um aplicativo](media/manage-apps-app-details.png)
   
@@ -63,6 +63,9 @@ Você pode exibir todos os aplicativos, incluindo as informações a seguir sobr
     - **Comprado**: o aplicativo oferece uma assinatura SaaS e você comprou licenças para ela.
     - **--**: O aplicativo não oferece uma assinatura SaaS.
 - **Aplicativo personalizado**: se o aplicativo é um aplicativo personalizado.
+- **Permissões**: indica se um aplicativo de terceiros ou personalizado registrado no Azure Active Directory (Azure AD) tem permissões que precisam de consentimento. Você verá um dos seguintes valores:
+    - **Exibir detalhes**: o aplicativo tem permissões que exigem consentimento para que o aplicativo possa acessar dados. 
+    - **--**: O aplicativo não tem permissões que precisem de consentimento.
 - **Categorias**: categorias que se aplicam ao aplicativo.
 - **Versão**: versão do aplicativo.
 
@@ -104,9 +107,29 @@ Quando você bloqueia ou permite um aplicativo na página Gerenciar aplicativos,
  > [!NOTE]
  > Para desinstalar um aplicativo, clique com o botão direito do mouse no aplicativo e, em seguida, clique em **desinstalar** ou use o menu **mais aplicativos** no lado esquerdo.
 
+## <a name="add-an-app-to-a-team"></a>Adicionar um aplicativo a uma equipe
+
+[!INCLUDE [preview-feature](includes/preview-feature.md)]
+
+Use o botão **Adicionar à equipe** para instalar um aplicativo para uma equipe. Lembre-se de que isso é somente para aplicativos que podem ser instalados em um escopo de equipe. O botão **Adicionar à equipe** não está disponível para aplicativos que só podem ser instalados no escopo pessoal.
+
+![Captura de tela do botão Adicionar à equipe](media/manage-apps-add-app-team.png)
+
+1. Procure o aplicativo desejado e, em seguida, selecione o aplicativo clicando à esquerda do nome do aplicativo.
+2. Selecione **Adicionar à equipe**.
+3. No painel **Adicionar à equipe** , procure a equipe à qual você deseja adicionar o aplicativo, selecione a equipe e, em seguida, selecione **aplicar**.
+
 ## <a name="purchase-services-for-third-party-apps"></a>Comprar serviços para aplicativos de terceiros
 
 Você pode pesquisar e comprar licenças de serviços oferecidos por aplicativos de terceiros para os usuários de sua organização diretamente na página Gerenciar aplicativos. A coluna **licenças** na tabela indica se um aplicativo oferece uma assinatura SaaS paga. Clique em **comprar agora** para ver as informações de planos e preços e comprar licenças para seus usuários. Para saber mais, confira [serviços de compra do Microsoft Teams para aplicativos de terceiros no centro de administração do Microsoft Teams](purchase-third-party-apps.md).
+
+## <a name="grant-admin-consent-to-apps"></a>Conceder consentimento de administrador aos aplicativos
+
+Você pode revisar e conceder consentimento para aplicativos que solicitam permissões em nome de todos os usuários em sua organização. Isso é feito para que os usuários não precisem revisar e aceitar as permissões solicitadas pelo aplicativo quando iniciarem o aplicativo. A coluna **permissões** indica se um aplicativo tem permissões que precisam de consentimento. Você verá um link **Exibir detalhes** para cada aplicativo registrado no Azure AD que tenha permissões que precisem de consentimento. Para saber mais, consulte [exibir permissões do aplicativo e conceder consentimento ao administrador no centro de administração do Microsoft Teams](app-permissions-admin-center.md).
+
+## <a name="view-resource-specific-consent-permissions"></a>Exibir permissões de consentimento específicas do recurso
+
+As permissões de consentimento específico do recurso (RSC) permitem que os proprietários da equipe concederem consentimento para que um aplicativo acesse e modifique os dados de uma equipe. Permissões de RSC são específicas, permissões específicas de equipes que definem o que um aplicativo pode fazer em uma equipe específica. Você pode exibir permissões de RSC na guia **permissões** da página de detalhes do aplicativo para um aplicativo. Para saber mais, consulte [exibir permissões do aplicativo e conceder consentimento ao administrador no centro de administração do Microsoft Teams](app-permissions-admin-center.md).
 
 ## <a name="manage-org-wide-app-settings"></a>Gerenciar configurações de aplicativo de toda a organização
 

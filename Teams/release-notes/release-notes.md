@@ -16,22 +16,75 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Notas de versão para recursos de administração do Microsoft Teams.
-ms.openlocfilehash: fb14f80d19401271b4206dde8762d44e80c5a6e9
-ms.sourcegitcommit: 6f89b1ed41e437030167d104c08335445f013b32
+ms.openlocfilehash: 5e3abb22f3ac5e8cd830ea367ab259422d88e8a6
+ms.sourcegitcommit: fd7d5ba09ef30cf4594e352c36f62b950e0e41a6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/04/2020
-ms.locfileid: "47399506"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48336990"
 ---
 # <a name="release-notes-for-microsoft-teams-admin-features"></a>Notas de versão para recursos de administração do Microsoft Teams
 
 Estas notas de versão fornecem informações sobre novos recursos de administração do Microsoft Teams.
 
+## <a name="october-1-2020"></a>1 ° de outubro de 2020
+
+### <a name="view-app-permissions-and-grant-admin-consent-in-the-microsoft-teams-admin-center"></a>Exibir permissões do aplicativo e conceder consentimento de administrador no centro de administração do Microsoft Teams
+
+Agora, no centro de administração do Teams, os administradores globais poderão revisar e conceder consentimento às permissões da API do Graph registradas no Azure Active Directory, em nome do locatário inteiro para as permissões que um aplicativo está solicitando, como ler informações armazenadas em uma equipe ou enviar um email em nome dos usuários. Agora, os administradores de ti poderão revisar as permissões do recurso de consentimento específico do recurso (RSC) para os aplicativos no centro de administração do teams. Com esses administradores, eles poderão desbloquear seus usuários para os aplicativos de terceiros que já foram revisados e aprovados para usar em sua organização. [Saiba mais](https://docs.microsoft.com/MicrosoftTeams/app-permissions-admin-center).
+## <a name="september-29-2020"></a>29 de setembro de 2020
+
+### <a name="meeting-policy-settings"></a>Configurações da política de reunião
+
+Adicionar duas configurações de política para áudio IP e vídeo IP nas políticas de reuniões do teams: modo para áudio IP e modo para vídeo IP. Agora você pode definir áudio IP de entrada e saída e vídeo IP nas políticas de reunião do teams. [Saiba mais](../meeting-policies-in-teams.md#meeting-policy-settings---audio--video).
+
+## <a name="september-27-2020"></a>27 de setembro de 2020
+
+### <a name="simplified-notification-setting"></a>Configuração de notificação simplificada
+
+Agora os usuários podem gerenciar as configurações de notificações de maneira mais simplificada com funcionalidades aprimoradas.
+
+## <a name="september-24-2020"></a>24 de setembro de 2020
+
+### <a name="teams-integration-with-android-contacts"></a>Integração do Microsoft Teams com contatos do Android
+
+Chame usando o Teams diretamente por meio da agenda telefônica do Android.
+
+## <a name="september-21-2020"></a>21 de setembro de 2020
+
+### <a name="manage-microsoft-power-platform-apps-in-the-microsoft-teams-admin-center"></a>Gerenciar os aplicativos Microsoft Power Platform no centro de administração do Microsoft Teams
+
+Como administrador, você pode controlar se os usuários podem ver e instalar os aplicativos da plataforma de energia da Microsoft criados por seus colegas na página aplicativos no Microsoft Teams. Você pode bloquear coletivamente ou permitir todos os aplicativos criados em aplicativos de energia ou todos os aplicativos criados em agentes de energia virtual no nível da organização na página [gerenciar aplicativos](../manage-apps.md) ou para usuários específicos usando [políticas de permissão do aplicativo](../teams-app-permission-policies.md). [Saiba mais](../manage-power-platform-apps.md).
+
+## <a name="september-19-2020"></a>19 de setembro de 2020
+
+### <a name="sharing-files-in-microsoft-teams"></a>Compartilhando arquivos no Microsoft Teams
+
+No Microsoft Teams, os usuários podem compartilhar conteúdo com outros usuários de equipes dentro e fora de sua organização. O compartilhamento no Teams é baseado nas configurações definidas no SharePoint e no OneDrive, portanto, o que você configurou para o SharePoint e o OneDrive também controlará o compartilhamento no Teams. [Saiba mais](https://docs.microsoft.com/MicrosoftTeams/sharing-files-in-teams).
+
+## <a name="september-16-2020"></a>16 de setembro de 2020
+
+### <a name="new-third-party-video-provider-riverbed"></a>Novo provedor de vídeo de terceiros Riverbed
+
+Use as configurações de eventos ao vivo do teams para definir configurações para eventos dinâmicos que são mantidos em sua organização. Você pode configurar uma URL de suporte e configurar um provedor de distribuição de vídeo de terceiros. Essas configurações se aplicam a todos os eventos dinâmicos que são criados em sua organização. O Riverbed é um novo provedor de terceiros. [Saiba mais](https://docs.microsoft.com/microsoftteams/teams-live-events/configure-teams-live-events#configure-a-third-party-video-distribution-provider).
+
+## <a name="september-15-2020"></a>15 de setembro de 2020
+
+### <a name="skype-for-business-online-connector-integrated-to-teams-powershell-module"></a>Conector do Skype for Business online integrado ao módulo do PowerShell do teams
+
+A versão mais recente do teams PowerShell está integrada ao conector do Skype for Business Online, fornecendo um único módulo para gerenciamento do teams PowerShell. [Saiba mais](../teams-powershell-overview.md#manage-teams-with-powershell).
+
+## <a name="september-8-2020"></a>8 de setembro de 2020
+
+### <a name="porting-pin"></a>IDENTIFICAÇÃO de portabilidade
+
+Adicionamos a capacidade de configurar e gerenciar um PIN usado para portar ou transferir números de telefone. Você fornecerá esse PIN para o serviço de mesa PSTN quando desejar transferir os números para um provedor de serviços da Microsoft. [Saiba mais](https://docs.microsoft.com/microsoftteams/phone-number-calling-plans/port-order-overview#can-i-port-out-my-numbers-from-teams-to-a-different-phone-service-provider-or-carrier).
+
 ## <a name="september-3-2020"></a>3 de setembro de 2020
 
 ### <a name="custom-apps-store-in-microsoft-teams"></a>Repositório de aplicativos personalizados no Microsoft Teams
 
-Agora você pode personalizar a loja de aplicativos do teams com sua identidade visual da sua organização adicionando seu logotipo, planos de fundo personalizados e cores de texto personalizadas para fazer com que seja mais convidada aos usuários finais. [Saiba Mais](https://docs.microsoft.com/MicrosoftTeams/customize-your-app-store)
+Agora você pode personalizar a loja de aplicativos do teams com sua identidade visual da sua organização adicionando seu logotipo, planos de fundo personalizados e cores de texto personalizadas para fazer com que seja mais convidada aos usuários finais. [Saiba mais](https://docs.microsoft.com/MicrosoftTeams/customize-your-app-store).
 
 ## <a name="september-1-2020"></a>1 de setembro de 2020
 
@@ -43,11 +96,11 @@ A tradução de mensagem embutida é um recurso do Microsoft Teams que permite a
 
 ### <a name="group-chat-size-increase"></a>Aumento do tamanho do chat em grupo
 
-Agora adicionamos a capacidade de ter 250 participantes em um chat em grupo.
+Agora adicionamos a capacidade de ter 250 participantes em um chat em grupo. [Saiba mais](../limits-specifications-teams.md).
 
 ### <a name="manage-the-praise-app"></a>Gerenciar o aplicativo elogio
 
-O aplicativo elogios no Microsoft Teams ajuda os usuários a mostrarem reconhecimento de seus membros da organização ou da sala de aula. Com uma seleção de conjuntos de emblemas para escolher e a opção para criar seus próprios selos, elogios é projetado para ajudar a reconhecer o esforço que entra na ampla gama de trabalho que os usuários do teams fazem, dos educadores até a primeira linha de funcionários. [Saiba mais](../manage-praise-app.md).
+O aplicativo elogios no Microsoft Teams ajuda os usuários a mostrarem reconhecimento de seus membros da organização ou da sala de aula. O aplicativo elogio tem uma seleção de conjuntos de emblemas para escolher e fornece a opção de criar seus próprios selos. O elogio foi projetado para ajudar a reconhecer o esforço que vai para a ampla gama de trabalho que os usuários do teams fazem, dos educados aos funcionários iniciantes. [Saiba mais](../manage-praise-app.md).
 
 ### <a name="set-up-coordinated-meetings-with-microsoft-teams-rooms-and-surface-hub"></a>Configurar reuniões coordenadas com salas e Surface Hub do Microsoft Teams
 
@@ -61,7 +114,7 @@ Com esse recurso, as pessoas recebem automaticamente marcas que correspondem ao 
 
 ### <a name="cortana-voice-skills-in-teams"></a>Habilidades de voz da Cortana no Teams
 
-Habilidades de voz da Cortana no aplicativo móvel do teams ajude os usuários a executar tarefas de reunião, comunicação e colaboração simplesmente usando linguagem natural falada. Os usuários podem falar com a Cortana clicando no botão de microfone no aplicativo Teams e fazer solicitações como "chamar Megan" ou "Enviar uma mensagem para minha próxima reunião" se precisarem se conectar com alguém enquanto fizerem tarefas domésticas ou percorrendo o cachorro ou geralmente em qualquer lugar. Os usuários podem participar de reuniões simplesmente dizendo "Junte-se a minha próxima reunião" ou verificar o calendário perguntando "o que eu tenho nesta manhã". Uma vez em uma reunião ou uma chamada, ela pode invocar a Cortana no menu de estouro no estágio da reunião e executar tarefas típicas em reunião, como adicionar pessoas por nome ou número ("Adicionar Megan à chamada"), apresentação do baralho ("apresentar o conjunto de revisão trimestral") ou navegar em slides ("ir para o slide de apêndice"). Outras coisas que o recurso dá suporte estão localizando e compartilhando arquivos, pesquisando e geralmente navegando dentro do aplicativo Teams ("abrir meu chat com John, vá para minha atividade não lida, vá para minhas mençãos etc.).
+Habilidades de voz da Cortana no aplicativo móvel do teams ajude os usuários a executar tarefas de reunião, comunicação e colaboração simplesmente usando linguagem natural falada. Os usuários podem falar com a Cortana clicando no botão de microfone no aplicativo Teams e fazer solicitações como "chamar Megan" ou "Enviar uma mensagem para minha próxima reunião" se precisarem se conectar com alguém enquanto fizerem tarefas domésticas ou percorrendo o cachorro ou geralmente em qualquer lugar. Os usuários podem participar de reuniões simplesmente dizendo "Junte-se a minha próxima reunião" ou verificar o calendário perguntando "o que eu tenho nesta manhã". Uma vez em uma reunião ou uma chamada, ela pode invocar a Cortana no menu de estouro no estágio da reunião e executar tarefas típicas em reunião, como adicionar pessoas por nome ou número ("Adicionar Megan à chamada"), apresentação do baralho ("apresentar o conjunto de revisão trimestral") ou navegar em slides ("ir para o slide de apêndice"). Outras coisas que o recurso dá suporte estão localizando e compartilhando arquivos, pesquisando e navegando dentro do aplicativo Teams ("abrir meu chat com John, vá para minhas atividades não lidas, vá para minhas mençãos etc.).
 
 A Cortana no Teams atende às mesmas promessas de privacidade, segurança e conformidade dos serviços corporativos da Cortana, conforme refletido nos [termos dos serviços online (OST)](https://www.microsoft.com/licensing/product-licensing/products?rtc=1).
 
@@ -73,7 +126,7 @@ Os usuários com essa função podem gerenciar dispositivos certificados pelo Te
 
 ### <a name="lists-app-in-teams"></a>Aplicativo listas no Teams
 
-Agora, os usuários do teams podem gerenciar, criar e manter diretamente suas listas usando a guia aplicativo listas. O aplicativo listas funciona em todos os clientes de equipes e permite a colaboração e a comunicação em torno de itens de lista.
+Agora, os usuários do teams podem gerenciar, criar e manter diretamente suas listas usando a guia aplicativo listas. O aplicativo listas funciona em todos os clientes de equipes e permite a colaboração e a comunicação em torno de itens de lista. Para obter mais informações sobre como gerenciar os aplicativos de listas, consulte [gerenciar o aplicativo listas para a sua organização](https://docs.microsoft.com/MicrosoftTeams/manage-lists-app).
 
 ## <a name="august-6-2020"></a>6 de agosto de 2020
 
@@ -101,7 +154,11 @@ Os administradores podem configurar seus trabalhos de primeira mão para ter Est
 
 ### <a name="enhanced-manageability-using-device-tagging-functionality"></a>Capacidade de gerenciamento aprimorada usando a funcionalidade de marcação de dispositivo
 
-Como parte da capacidade de gerenciamento aprimorada, estamos liberando a funcionalidade de identificação de dispositivo. Ele permitirá que os administradores de ti agrupem um conjunto específico de dispositivos com marcas geradas pelo usuário e executem ações no mesmo. [Saiba mais](/../../manage-device-tags.md).
+Como parte da capacidade de gerenciamento aprimorada, estamos liberando a funcionalidade de identificação de dispositivo. Ele habilitará os administradores de ti a um conjunto de dispositivos específico do grupo com marcas geradas pelo usuário e executar ações no mesmo. [Saiba mais](/../../manage-device-tags.md).
+
+### <a name="view-only-in-meetings"></a>Somente exibição em reuniões
+
+O modo de exibição somente permite que os participantes da escuta do 20.000 ingressem em uma reunião na qual o organizador tem uma licença para a SKU de complemento de comunicação avançada. 1 Este é um recurso de visualização ou lançamento antecipado. [Saiba Mais](https://docs.microsoft.com/MicrosoftTeams/limits-specifications-teams-preview#meetings-and-calls)
 
 ## <a name="july-28-2020"></a>28 de julho de 2020
 
@@ -163,7 +220,7 @@ Você escolhe quais aplicativos são instalados por padrão para os usuários qu
 
 ### <a name="screen-sharing-on-behalf-of-others"></a>Compartilhamento de tela em nome de outras pessoas
 
-Muitos administradores de ti reclamaram que não podem ter o compartilhamento de tela dos funcionários a partir do chat quando desativam a política AllowPrivateCalling. Esse recurso funciona desacoplado a capacidade de iniciar um Screenshare do chat da política do AllowPrivateCalling, mas ele ainda impede que os usuários adicionem áudio/vídeo à sessão do Screenshare se a política do AllowPrivateCalling estiver desabilitada.
+Muitos administradores de ti reclamaram que não podem ter o compartilhamento de tela dos funcionários a partir do chat quando desativam a política AllowPrivateCalling. Esse recurso funciona desacoplado a capacidade de iniciar uma tela Hare do chat da política do AllowPrivateCalling, mas ele ainda impede que os usuários adicionem áudio/vídeo à sessão de compartilhamento de tela se a sua política de AllowPrivateCalling estiver desabilitada.
 
 ## <a name="june-29-2020"></a>29 de junho de 2020
 
@@ -185,13 +242,13 @@ Adicionamos um novo widget Resumo do usuário que está disponível quando você
 
 ### <a name="sign-in-restrictions-for-android-and-ios-users"></a>Restrições de entrada para usuários do Android e iOS
 
-Se o usuário não estiver conectado à sua conta do Microsoft 365 em nenhum outro lugar, será solicitado que insira autenticação de fator único ou multifator (SFA ou MFA), dependendo de qual sua organização configurou para as políticas de entrada de dispositivos móveis. [Saiba mais](../sign-in-teams.md).
+Se o usuário não estiver conectado à sua conta do Microsoft 365 em outro lugar, ele será solicitado a fornecer autenticação de fator único ou multifator (SFA ou MFA), dependendo do que a sua organização configurou para políticas de conexão móvel. [Saiba mais](../sign-in-teams.md).
 
 ## <a name="june-15-2020"></a>15 de junho de 2020
 
 ### <a name="monitor-shifts-with-audit-logs"></a>Monitorar turnos com logs de auditoria
 
-Você pode pesquisar o log de auditoria para exibir a atividade de turnos em sua organização. [Saiba mais](https://docs.microsoft.com/microsoftteams/audit-log-events).
+Você pode pesquisar o log de auditoria para exibir a atividade de turnos em sua organização. [Saiba mais] (<https://docs.microsoft.com/microsoftteams/audit-log-events>.
 
 ## <a name="june-11-2020"></a>11 de junho de 2020
 

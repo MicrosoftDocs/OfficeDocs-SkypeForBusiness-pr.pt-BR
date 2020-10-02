@@ -13,17 +13,14 @@ localization_priority: Normal
 ms.collection: M365-collaboration
 appliesto:
 - Microsoft Teams
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 6aafd5cbdd1ae44844f69b78234f10a54abe7b85
-ms.sourcegitcommit: bb5229c9f7999358dcf0ba185ecfd7c881627a38
+ms.openlocfilehash: 104dab27af75d346af990369ee78fc2fb1f0a77d
+ms.sourcegitcommit: fd7d5ba09ef30cf4594e352c36f62b950e0e41a6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46824902"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48336838"
 ---
 # <a name="view-app-permissions-and-grant-admin-consent-in-the-microsoft-teams-admin-center"></a>Exibir permissões do aplicativo e conceder consentimento de administrador no centro de administração do Microsoft Teams
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 A página [gerenciar aplicativos](manage-apps.md) no centro de administração do Microsoft Teams é onde você vê e gerencia todos os aplicativos do teams para sua organização. Por exemplo, você pode ver o status e as propriedades de nível da organização de aplicativos, aprovar ou carregar novos aplicativos personalizados para a loja de aplicativos da sua organização, bloquear ou permitir aplicativos no nível da organização e gerenciar as configurações do aplicativo de toda a organização.
 

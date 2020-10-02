@@ -16,13 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: a1b756cfdb56de533d4dd170f301dc38e4b3b529
-ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
+ms.openlocfilehash: d1ad11000de2ae0dac7563d785dfaea8c34978ed
+ms.sourcegitcommit: fd7d5ba09ef30cf4594e352c36f62b950e0e41a6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48308164"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48337010"
 ---
 # <a name="use-ndi-technology-in-microsoft-teams"></a>Usar a tecnologia® do NDI no Microsoft Teams
 
@@ -50,7 +49,7 @@ Quando um usuário ingressa em uma reunião, ele vê uma mensagem que informa qu
 
 A imagem a seguir mostra a mensagem de faixa que o usuário vê em uma reunião do teams.
 
-![Uma imagem da faixa de tecnologia® do NDI que é exibida em uma reunião do teams.](media/NDI-disclosure.png)
+![Ele NDI® faixa de tecnologia que é exibida em uma reunião de equipe.](media/NDI-disclosure.png)
 
 A faixa tem um link para a [política de privacidade da Microsoft](https://aka.ms/teamsprivacy).
 
@@ -60,7 +59,7 @@ NDI® tecnologia tem suporte em todas as localidades. Os seguintes usuários est
 
 - In-locatário – suporte completo, entregue com base em anel/tenantid/userId (controlado por política de reuniões)
 - Federado – sem acesso de fluxo (mesmo quando eles têm a tecnologia de® de NDI)<sup>1</sup>
-- Freemium-sem acesso de fluxo
+- Premium-sem acesso a fluxo
 - Anônimo – sem acesso de fluxo
 - Convidado – sem acesso de fluxo  
 
