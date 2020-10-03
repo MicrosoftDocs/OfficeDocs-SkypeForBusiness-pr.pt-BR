@@ -14,22 +14,21 @@ search.appverid: MET150
 description: Obtenha ajuda para solucionar e corrigir problemas de acesso de convidados no Microsoft Teams.
 f1.keywords:
 - NOCSH
+localization_priority: Normal
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
-ms.openlocfilehash: 466728a50a5a610ee00665f3661b5c5701bcbad1
-ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
+ms.openlocfilehash: 0ce7744aa18fe8ffe3fc83ca40649672f521bbba
+ms.sourcegitcommit: 43e5a4aac11c20dd5a4c35b59695f309e1559e82
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656272"
+ms.lasthandoff: 10/03/2020
+ms.locfileid: "48346352"
 ---
-<a name="troubleshoot-problems-with-guest-access-in-microsoft-teams"></a>Solucionar problemas com o acesso de convidados no Microsoft Teams
-======================================================
+# <a name="troubleshoot-problems-with-guest-access-in-microsoft-teams"></a>Solucionar problemas com o acesso de convidados no Microsoft Teams
 
 - Para ver se conhecemos o problema, confira o [Teams support em sua organização](Known-issues.md).
 - Para verificar se há problemas de suporte atuais relacionados ao acesso de convidados no Teams, vá para [Solução de problemas do Teams](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/).
-- Convidados são usuários fora da sua organização. Se alguém estiver dentro da sua organização (incluindo seus funcionários, contratados no local ou agentes no local), essa pessoa não poderá ser adicionada como convidado. O mesmo se aplica aos seus afiliados.
+- Convidados são pessoas de fora da sua organização. Se alguém estiver dentro da sua organização (incluindo seus funcionários, contratados no local ou agentes no local), essa pessoa não poderá ser adicionada como convidado. O mesmo se aplica aos seus afiliados.
 - Descubra os próximos recursos novos ou atualizados de acesso de convidados no [Roteiro do Teams](https://aka.ms/teamsroadmap).
 - Diga-nos o que você deseja no [Teams UserVoice](https://aka.ms/TeamsUserVoice).
 
@@ -40,18 +39,17 @@ O acesso de convidado no Teams usa o Business to Business (B2B) do Azure Active 
 > [!NOTE]
 > As equipes devem estar habilitadas no locatário de casa de um convidado para que os convidados possam entrar e usar o Microsoft Teams como convidado em outro locatário (recurso).
 
-Se você estiver vendo erros de licenciamento, leia a [orientação de licenciamento B2B do Azure Active Directory](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance) para determinar os requisitos de licenciamento para atender às suas necessidades de acesso de convidado em sua organização.
-
+Se você estiver vendo erros de licenciamento, leia o [modelo de cobrança das identidades externas do Azure ad](https://docs.microsoft.com/azure/active-directory/external-identities/external-identities-pricing) para determinar os requisitos de licenciamento para atender às suas necessidades de acesso de convidado em sua organização.
 
 - As licenças de convidado são contadas na organização que envia os convites. Considere isso ao calcular o número de licenças necessárias.
-- As licenças são contadas em relação à sua organização se os convidados convidados vierem de outra organização do Microsoft 365 ou do Office 365 ou estiverem usando seus endereços de email pessoais.
+- As licenças são contadas em sua organização se os convidados convidados vierem de outra organização do Microsoft 365 ou estiverem usando seus endereços de email pessoais.
 
 ## <a name="support-for-b2b-user-types"></a>Suporte para tipos de usuário B2B
+
 Atualmente, o Teams tem suporte apenas para os tipos de usuários Convidados dos tipos Estado 1 e Estado 2, [conforme definido pelo Azure B2B](https://docs.microsoft.com/azure/active-directory/b2b/user-properties).
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
 [Acesso de convidados ao Teams](guest-access.md)
-
 
 [Solução de problemas do Teams](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)

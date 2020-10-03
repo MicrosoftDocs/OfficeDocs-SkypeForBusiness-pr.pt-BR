@@ -1,14 +1,13 @@
 ---
-title: Como é a experiência do convidado
+title: Experiência de convidado no Microsoft Teams
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
 ms.topic: conceptual
 audience: admin
 ms.service: msteams
-ms.reviewer: sbhatta
+ms.reviewer: rafarhi
 search.appverid: MET150
-description: Este artigo descreve a funcionalidade do Microsoft Teams disponível para usuários convidados e também responde algumas das perguntas frequentes mais comuns relacionadas a ele.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -18,15 +17,15 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 591cd6447f9430905fce1e84f22708d19adf70c5
-ms.sourcegitcommit: 294b32fb06c56a6eefd1cc44cc5bc93555b6503b
+description: Este artigo descreve a funcionalidade do Microsoft Teams disponível para usuários convidados.
+ms.openlocfilehash: 95d0fec7a1af8f735c66cc76fc27ecd3cf8bf956
+ms.sourcegitcommit: 43e5a4aac11c20dd5a4c35b59695f309e1559e82
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "46845573"
+ms.lasthandoff: 10/03/2020
+ms.locfileid: "48346202"
 ---
-<a name="what-the-guest-experience-is-like"></a>Como é a experiência do convidado
-=================================
+# <a name="guest-experience-in-teams"></a>Experiência de convidado no Microsoft Teams
 
 Quando um convidado é convidado a ingressar em uma equipe, ele recebe uma mensagem de boas-vindas. Essa mensagem inclui algumas informações sobre a equipe e o que esperar agora que elas são membro. O convidado deve aceitar o convite selecionando **abrir o Microsoft Teams** na mensagem de email para que ele possa acessar a equipe e seus canais.
     
@@ -40,12 +39,9 @@ Confira estes vídeos sobre a experiência de convidado no Microsoft Teams:
 - [Ingressar em uma equipe como um convidado](https://support.office.com/article/join-a-team-as-a-guest-928d1eef-61e2-49ec-b754-c2fe86b34824)
 - [Ingressar em uma reunião do teams com convidados](https://support.office.com/article/join-a-company-meeting-a120c282-063d-46b8-b973-851197ab75d8)
 
-> [!NOTE]
-> Os administradores do Microsoft 365 e do Office 365 controlam os recursos disponíveis para convidados.
-
 ## <a name="comparison-of-team-member-and-guest-capabilities"></a>Comparação entre os recursos de membro da equipe e de convidado
 
-A tabela a seguir compara a funcionalidade do teams disponível para os membros da equipe da organização e seus convidados.
+A tabela a seguir compara a funcionalidade do teams disponível para os membros da equipe da organização e seus convidados. Os administradores de equipe controlam os recursos disponíveis para os convidados.
 
 |**Recurso no Teams**|**Usuário do Teams na organização**|**Convidado usuário**|
 |:-----|:-----|:-----|
@@ -54,6 +50,10 @@ A tabela a seguir compara a funcionalidade do teams disponível para os membros 
 |Participar de uma conversa de canal  <br/> |&#x2713;|&#x2713;|
 |Publicar, excluir e editar mensagens  <br/> |&#x2713;|&#x2713;|
 |Compartilhar um arquivo de canal  <br/> |&#x2713;|&#x2713;|
+|Acessar arquivos do SharePoint<br/> |&#x2713;|&#x2713;|
+|Anexar arquivos<br/> |&#x2713;|&#x2713;|
+|Baixar arquivos de chat particulares<br/> |&#x2713;|&#x2713;|
+|Pesquisar em arquivos<br/> |&#x2713;||
 |Compartilhar um arquivo de bate-papo  <br/> |&#x2713;||
 |Adicionar aplicativos (guias, bots ou conectores)  <br/> |&#x2713;||
 |Criar reuniões ou agendas do Access  <br/> |&#x2713;||
@@ -99,43 +99,13 @@ A tabela a seguir mostra os recursos de chamada e reunião disponíveis para con
 <sup>1</sup> esse recurso estará disponível em breve.
 
 > [!NOTE]
-> A política de **restrições de acesso do usuário convidado** no Azure Active Directory (Azure AD) determina permissões para convidados em seu diretório. Há três opções de política.
->  - Os **usuários convidados têm a mesma configuração de acesso que os membros (mais inclusivos)** significa que os convidados têm o mesmo acesso aos dados do diretório como usuários normais em seu diretório.
->  - Os **usuários convidados têm acesso limitado a propriedades e associação a associações de objetos de diretório** significa que os convidados não têm permissões para determinadas tarefas de diretório, como enumeração de usuários, grupos ou outros recursos de diretório usando o Microsoft Graph.
->  - O **acesso de usuários convidados está restrito às propriedades e associações de seus próprios objetos de diretório (a configuração mais restritiva)** significa que os convidados podem acessar somente seus próprios objetos de diretório.
+> A política de **restrições de acesso do usuário convidado** no Azure Active Directory (Azure AD) determina permissões para convidados em seu diretório. Há três opções de políticas.
+>  - Os **Usuários convidados têm o mesmo acesso que os membros (mais inclusivos)** às configuração, o que significa que os convidados têm o mesmo acesso aos dados do diretório como usuários regulares do seu diretório.
+>  - Os **Usuários convidados têm acesso limitado a propriedades e associação de objetos do diretório** das configurações, o que significa que os convidados não têm permissões para determinadas tarefas de diretório, como enumerar usuários, grupos ou outros recursos de diretório usando o Microsoft Graph.
+>  - O **Acesso de usuário convidado é restrito a propriedades e associações de seus próprios objetos de diretório (mais restritivos)** da configuração, o que significa que os convidados só podem acessar seus próprios objetos de diretório.
 >
->Para saber mais, confira [quais são as permissões de usuário padrão no Azure Active Directory?](https://go.microsoft.com/fwlink/?linkid=2135493)
+>Para saber mais, confira [Quais são as permissões de usuário padrão no Azure Active Directory?](https://go.microsoft.com/fwlink/?linkid=2135493)
 
-## <a name="frequently-asked-questions"></a>Perguntas frequentes
+## <a name="related-topics"></a>Tópicos relacionados
 
-### <a name="how-do-i-leave-an-organization-that-ive-been-invited-to"></a>Como faço para sair de uma organização para a qual foi convidado?
-
-Se você tiver sido convidado para uma organização da qual não deseja ser convidado, pode optar por sair da organização. Para obter mais informações, vá para [deixar uma organização como um usuário convidado](https://docs.microsoft.com/azure/active-directory/b2b/leave-the-organization). Você também pode solicitar que o administrador da organização o remova do locatário. Observe que, em ambos os casos, você precisará ser convidado novamente para o locatário se quiser acessar a organização no futuro.
-
-### <a name="do-guests-have-the-same-capabilities-as-team-members"></a>Os convidados têm os mesmos recursos que os membros da equipe?
-
-Não. Para obter mais informações sobre o que um convidado pode e não pode fazer, acesse a [comparação de recursos de convidados e de membros da equipe](#comparison-of-team-member-and-guest-capabilities) neste artigo.
-
-### <a name="do-guests-have-access-to-onedrive-for-business"></a>Os convidados têm acesso ao OneDrive for Business?
-
-Não.
-
-### <a name="do-guests-have-access-to-sharepoint-files"></a>Os convidados têm acesso aos arquivos do SharePoint?
-
-Sim.
-
-### <a name="can-guests-search-within-files"></a>Os convidados podem pesquisar dentro dos arquivos?
-
-Não.
-
-### <a name="can-guests-attach-files"></a>Os convidados podem anexar arquivos?
-
-Sim, um convidado pode anexar arquivos destas duas maneiras:
-
-  - Selecione **arquivos** no painel esquerdo e navegue até o local do arquivo.
-  - Carregar arquivos do computador.
-
-### <a name="can-a-guest-download-a-file-in-a-private-chat"></a>Um convidado pode baixar um arquivo em um chat particular?
-
-Sim, eles podem receber um arquivo de um membro em um chat particular e, em seguida, baixá-lo para a área de trabalho.
-
+[Deixar uma organização como um usuário convidado](https://docs.microsoft.com/azure/active-directory/b2b/leave-the-organization)

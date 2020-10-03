@@ -9,24 +9,25 @@ audience: admin
 ms.collection:
 - Teams_ITAdmin_GuestAccess
 - M365-collaboration
-ms.reviewer: sbhatta
+ms.reviewer: rafarhi
 search.appverid: MET150
-description: Saiba mais sobre como ativar ou desativar o recurso de acesso de convidado no Microsoft Teams como um administrador do Office 365.
 ms.custom: ms.teamsadmincenter.orgwidesettings.guestaccess.turnonguestaccessarticle
+localization_priority: Normal
 f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 43c225cad121d88d14bb6f179f48b452a61d89d7
-ms.sourcegitcommit: 762e303509940f830c304e00a98b05796bf5537f
+description: Saiba mais sobre como ativar ou desativar o recurso de acesso de convidado no Microsoft Teams como um administrador do Office 365.
+ms.openlocfilehash: aa4530979054efc5a1aeb2c8fe0afa622b893f9d
+ms.sourcegitcommit: 43e5a4aac11c20dd5a4c35b59695f309e1559e82
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48333241"
+ms.lasthandoff: 10/03/2020
+ms.locfileid: "48346322"
 ---
 # <a name="turn-on-or-turn-off-guest-access-to-microsoft-teams"></a>Ativar ou desativar o acesso de convidados ao Microsoft Teams
 
-Por padrão, o acesso de convidado está desativado. Como o Microsoft 365 ou o administrador do Office 365, você deve ativar o acesso de convidado para Teams para que os proprietários do administrador ou da equipe possam adicionar convidados.
+Por padrão, o acesso de convidado está desativado. Você deve habilitar o acesso de convidado para equipes para que administradores ou proprietários de equipe possam adicionar convidados.
 
 Depois de ativar o acesso de convidado, pode levar algumas horas para que as alterações entrem em vigor. Se um usuário vir a mensagem "entrar em contato com seu administrador" ao tentar adicionar um convidado à equipe, é provável que o acesso de convidado não tenha sido ativado ou que as configurações ainda não estejam efetivas.
 
@@ -35,7 +36,7 @@ Depois de ativar o acesso de convidado, pode levar algumas horas para que as alt
 
 ## <a name="configure-guest-access-in-the-teams-admin-center"></a>Configurar o acesso de convidado no centro de administração do teams
 
-1. Entre no centro de administração do Microsoft Teams.
+1. Entre no centro de [Administração do Microsoft Teams](https://admin.teams.microsoft.com/).
 
 2. Selecione **Configurações em toda a organização** > **Acesso de convidados**.
 
@@ -63,6 +64,8 @@ Depois de ativar o acesso de convidado, pode levar algumas horas para que as alt
       - **Usar memes em conversas** - **Ativar** essa configuração para permitir que os convidados usem memes nas conversas.
       - **Usar Figurinhas em conversas** - **Ativar** essa configuração para permitir que os convidados usem figurinhas nas conversas. 
 
+    ![Configurações de permissões de convidado no Teams](media/manage-guest-access-image1.png)
+
 5. Clique em **Salvar**.
 
 ## <a name="external-access-federation-vs-guest-access"></a>Acesso externo (federação) e o acesso de convidado
@@ -70,6 +73,8 @@ Depois de ativar o acesso de convidado, pode levar algumas horas para que as alt
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
 
 ## <a name="see-also"></a>Confira também
+
+[Configurar a colaboração segura com o Microsoft 365](https://docs.microsoft.com/microsoft-365/solutions/setup-secure-collaboration-with-teams)
 
 [Bloquear usuários convidados de uma equipe específica](https://docs.microsoft.com/microsoft-365/solutions/per-group-guest-access)
 

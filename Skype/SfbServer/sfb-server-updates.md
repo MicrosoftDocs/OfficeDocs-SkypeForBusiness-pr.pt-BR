@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Encontre e gerencie atualizações para o Skype for Business Server 2015/2019 e Lync 2013 em um só lugar. Use os links nesta página para saber mais e baixar as atualizações.
-ms.openlocfilehash: 8943a692538021ea5f2bc7b2c3177bb41e89be31
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: a6b93c7b0428073e9a13808fae1515b2e1c0b344
+ms.sourcegitcommit: fae47764336b47c65e9e24b9abd6fe23ad9fc1a4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814310"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48341025"
 ---
 # <a name="skype-for-business-server-updates"></a>Atualizações do Skype for Business Server
 
@@ -32,6 +32,7 @@ O KB 4470124 é o principal KB para o Skype for Business Server 2019, que tem to
 
 |Número do pacote|Número de KB|Data do lançamento|
 |:--- |:--- |:--- |
+|Atualização cumulativa 4 do Skype for Business Server 2019 |[KB 4470124](https://support.microsoft.com/kb/4470124)| Setembro de 2020 |
 |Skype for Business Server 2019 atualização cumulativa 3 hotfix 1 |[KB 4470124](https://support.microsoft.com/kb/4470124)| Julho de 2020 |
 |Atualização cumulativa 3 do Skype for Business Server 2019 |[KB 4470124](https://support.microsoft.com/kb/4470124)| Março de 2020 |
 |Atualização cumulativa 2 do Skype for Business Server 2019 |[KB 4470124](https://support.microsoft.com/kb/4470124)| Dezembro de 2019 |
@@ -102,8 +103,8 @@ O KB 4470124 é o principal KB para o Skype for Business Server 2019, que tem to
 |Lync Server 2013 atualização cumulativa 8 hotfix 1 |[KB 3200079](https://support.microsoft.com/kb/3200079) |Novembro de 2016 |
 |Atualização cumulativa 8 do Lync Server 2013 |[KB 3175336](https://support.microsoft.com/kb/3175336)|Agosto de 2016 |
 |Atualização cumulativa 7 do Lync Server 2013  |[KB 3140581](https://support.microsoft.com/kb/3140581)|Abril de 2016 |
-|Lync Server 2013 atualização cumulativa 6 hotfix 2 |[KB 3175338](https://support.microsoft.com/kb/3175338)|Janeiro de 2016 |
-|Lync Server 2013 atualização cumulativa 6 hotfix 1 |[KB 3121213](https://support.microsoft.com/kb/3121213)|Dezembro de 2015 |
+|Lync Server 2013 atualização cumulativa 6 hotfix 2 |[KB 3175338](https://support.microsoft.com/kb/3175338)|janeiro de 2016 |
+|Lync Server 2013 atualização cumulativa 6 hotfix 1 |[KB 3121213](https://support.microsoft.com/kb/3121213)|dezembro de 2015 |
 |Atualização cumulativa 6 do Lync Server 2013 |[KB 3081739](https://support.microsoft.com/kb/3081739)|Setembro de 2015 |
 |Lync Server 2013 atualização cumulativa 5 hotfix 10 |[KB 3064728](https://support.microsoft.com/kb/3064728)|Julho de 2015 |
 |Lync Server 2013 atualização cumulativa 5 hotfix 9 |[KB 3051951](https://support.microsoft.com/kb/3051951)|Maio de 2015 |
@@ -244,7 +245,7 @@ Nome do pacote/link|Data do lançamento|
 
 Visite o site de download do [Kit de recursos do Microsoft Lync Server 2010](https://www.microsoft.com/download/en/details.aspx?id=22644) para baixar os capítulos do manual ou baixar um arquivo. zip contendo [todos os 19 capítulos do Resource Kit](https://download.microsoft.com/download/9/4/E/94ED1EF4-A2EF-4686-9841-B0390072D524/Microsoft_Lync_Server_2010_Resource_Kit_Chapters.zip).
 
-### <a name="group-chat"></a>Chat de Grupo
+### <a name="group-chat"></a>Group Chat
 
 Nome do pacote/link|Data do lançamento|
 |:--- |:--- |

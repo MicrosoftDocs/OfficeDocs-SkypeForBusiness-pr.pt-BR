@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Licensing
 description: 'Learn what Communication Credits (PSTN Consumption) billing, how to find rates, and what services you get. '
-ms.openlocfilehash: 2be427ad418bda694f979ca92bb1ff3acfbc1997
-ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
+ms.openlocfilehash: 11777ccfd8ed3aa6cbfca14c2c8a507373230425
+ms.sourcegitcommit: fae47764336b47c65e9e24b9abd6fe23ad9fc1a4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46788355"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48341085"
 ---
 # <a name="what-are-communications-credits"></a>O que são Créditos de Comunicação?
 
@@ -59,7 +59,7 @@ Se você estiver se perguntando qual o custo das chamadas para os planos de cham
 Para usar números de chamada gratuita no Skype for Business, é necessário fazer créditos de comunicação, pois essas chamadas são cobradas por minuto. Além disso, recomendamos que você configure créditos de comunicações para o seu plano de chamadas e usuários de audioconferência que precisam da capacidade de discar para **qualquer destino PSTN**. Muitos países/regiões estão incluídos, mas alguns destinos podem não ser incluídos no seu plano de chamadas ou assinaturas de audioconferência. Se você não configurar créditos de comunicações ou atribuir uma licença a seus usuários e tiver minutos para a sua organização (dependendo do seu plano de chamadas, do plano de audioconferência ou do seu país/região), esses usuários não poderão fazer chamadas nem discar de reuniões online de videoconferência.
   
 > [!NOTE]
-> Você deve configurar créditos de comunicações e atribuir uma licença de créditos de comunicações para cada usuário no **centro de administração do Microsoft 365**  >  **usuários**  >  **ativos**. 
+> Você deve configurar créditos de comunicações e atribuir uma licença de créditos de comunicações para cada usuário no **centro de administração do Microsoft 365**  >  **usuários**  >  **ativos**. As licenças de créditos de comunicações aparecerão como ilimitadas, pois são usadas para conceder acesso ao saldo dos créditos de comunicações para qualquer usuário ao qual você atribui a licença dos créditos de comunicações.
   
 É recomendável que você avalie cuidadosamente o uso do serviço PSTN da sua organização para entender a melhor configuração de créditos de comunicações. Você pode ver mais sobre os serviços PSTN lendo o [sistema telefônico e os planos de chamada](calling-plan-landing-page.md) e as [perguntas comuns sobre o áudio audioconferência](Audio-Conferencing-common-questions.md).
   
@@ -68,7 +68,7 @@ Você pode configurar a cobrança de consumo usando um **financiamento único** 
 > [!NOTE]
 > Você pode ver os planos e preços ao [entrar no centro de administração do Microsoft 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) e ir para assinaturas de **cobrança**  >  **Subscriptions**  >  **adicionar assinaturas**. 
   
-No **centro de administração do 365 do Microsoft**  >  **Billing**  >  **Purchase Services**  >  **Complementos** do serviços de compra você pode selecionar créditos de comunicação para adicionar os créditos, e você pode adicionar crédito manualmente a qualquer momento. Você também pode habilitar a opção **Recarga automática**, que permitirá a recarga automática da conta quando o saldo ficar abaixo do limite definido. Se você optar por financiar o saldo do seu crédito de comunicações com um valor único e o saldo ficar em zero, os cenários de chamadas adicionais acima não funcionarão mais, incluindo números de telefone de chamada gratuita. Assim, é recomendável que você use a configuração de **recarga automática** para evitar qualquer interrupção do serviço caso o saldo dos créditos de comunicações atinja 0 (zero). Você receberá um email quando o recarregamento das transações for bem-sucedido, a recarga das transações não funcionará (como um cartão de crédito expirado) e o saldo dos créditos de comunicações atingirá 0 (zero).
+No **centro de administração do 365 do Microsoft**  >  **Billing**  >  **Purchase Services**  >  **Complementos** do serviços de compra você pode selecionar créditos de comunicação para adicionar os créditos, e você pode adicionar crédito manualmente a qualquer momento. Você também pode habilitar a opção **Recarga automática**, que permitirá a recarga automática da conta quando o saldo ficar abaixo do limite definido. Se você optar por financiar o saldo do seu crédito de comunicações com um valor único e o saldo ficar em zero, os cenários de chamadas adicionais acima não funcionarão mais, incluindo números de telefone de chamada gratuita. Assim, é recomendável que você use a configuração de **recarga automática** para evitar qualquer interrupção do serviço caso o saldo dos créditos de comunicações atinja 0 (zero). Você receberá emails para todos os usuários com funções de administração globais, de cobrança e de equipes, ao recarregar as transações com êxito, recarregar transações que falham (como um cartão de crédito expirado) e ou o saldo dos créditos de comunicações atinge 0 (zero). Você também pode ver o saldo atual dos créditos de comunicação ao **cobrar**  >  **os créditos de comunicação dos seus produtos**  >  **Communications Credits**.
   
 ## <a name="communications-credits"></a>Créditos de Comunicação
 
