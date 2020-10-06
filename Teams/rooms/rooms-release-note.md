@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: O administrador pode ler as notas de versão para salas do Microsoft Teams, que lista melhorias cumulativas nas salas do Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3b6fd8b95b2c5fca646677445a84104908fed87e
-ms.sourcegitcommit: 739ffd5893abf6d181877d1110f9dc8230b3bfd2
+ms.openlocfilehash: ba230d25251535a6c32b65d57fe84ed6d791e7fd
+ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48328220"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48361491"
 ---
 # <a name="release-notes"></a>Notas de versão
 
@@ -74,6 +74,10 @@ Apresentado nesta atualização:
 - Ver mais vídeos com a Galeria de vídeos 3x3 na frente dos monitores de sala  
 - Iniciar legendas em dinâmicos locais do MTR 
 - Ingressar em relações de zoom de salas de equipe com o convidado direto (visualização)
+
+> [!NOTE]
+> a Galeria de vídeos 3x3 e as legendas de Closed Live locais são fornecidas por meio do Microsoft Teams Service. Esses recursos estão disponíveis para todas as salas de equipe com a versão do aplicativo 4.5.37.0 e versões mais recentes. 
+
 
 ### <a name="45370-08142020"></a>4.5.37.0 (08/14/2020)
 

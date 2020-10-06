@@ -13,12 +13,12 @@ f1.keywords:
 description: Uma visão geral da solução integrada do centro de contatos como serviço (CCaaS) para o Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ccd4456b006d8b27fd0aa2ec88d6467fe86fea8b
-ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
+ms.openlocfilehash: 906af5df0e4ec7c4f4b658210e127b5ad0ef0044
+ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48322280"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48361461"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Integrações do centro de contato do Microsoft Teams
 
@@ -38,7 +38,7 @@ Para outras pessoas que desejam soluções integradas com ferramentas comerciais
 
 ## <a name="connected-contact-center-for-microsoft-teams-certification-program"></a>Centro de contato conectado para o programa de certificação do Microsoft Teams
 
-As APIs que permitem que os parceiros desenvolvam e integrem o CCaaS Solutions for Teams estão disponíveis com a licença avançada de comunicação. Além disso, desenvolvemos o programa de certificação da central de contatos conectado para Microsoft Teams para fornecer aos clientes a garantia de que cada solução de parceiro participante foi testada e verificada para fornecer a qualidade, a compatibilidade e a confiabilidade esperadas das soluções da Microsoft.
+As APIs permitem que os parceiros desenvolvam e integrem o CCaaS Solutions for Teams. Além disso, desenvolvemos o programa de certificação da central de contatos conectado para Microsoft Teams para fornecer aos clientes a garantia de que cada solução de parceiro participante foi testada e verificada para fornecer a qualidade, a compatibilidade e a confiabilidade esperadas das soluções da Microsoft.
 
 Os parceiros a seguir estão no processo de certificação da solução para o Microsoft Teams e estão prontos para contratar clientes:
 

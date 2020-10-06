@@ -5,12 +5,12 @@ author: cichur
 ms.date: 09/21/2020
 ms.topic: article
 ms.author: v-cichur
-ms.openlocfilehash: 78d79ba45661fdfeebd1816906fc76ea2495f0cd
-ms.sourcegitcommit: 22e2f51abf879b34701064839d0e410758b6a3dd
+ms.openlocfilehash: 61a6c6e1745e4ce49884d23acdf84f5073170297
+ms.sourcegitcommit: 032a22c8b61456dcbd798ec390f0ae1ca7d8eda0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48209480"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "48357599"
 ---
 # <a name="teams-sessions-at-ignite-2020"></a>Sessões do teams em Ignite 2020
 
@@ -40,9 +40,9 @@ ms.locfileid: "48209480"
 |---|----------|---|---|---|
 |[Inovação em reuniões e dispositivos da equipe com inteligência](https://aka.ms/PR104) |Estamos inovar continuamente e fazendo a nova geração de imagens para reuniões. Junte-se a nós para saber como estamos continuamente trazendo mais inteligência em reuniões e nossa inovação mais recente em dispositivos que trazem inteligência para a vida.  |200|Shalendra Chhabra|
 |[Recursos avançados de chamada](https://aka.ms/OD265)|Aprofunde-se com chamadas enquanto exploramos a nova experiência de chamadas, informações adicionais sobre chamadas colaborativas, E911, roteamento baseado em localização e outros recursos. Saiba como a chamada está pronta para seus cenários avançados, não importa o tamanho da sua empresa. |200|Alan Xie, Roy Kuntz|
-|[Dispositivos do Microsoft Teams para espaços compartilhados](https://aka.ms/OD261) |Os dispositivos Microsoft Teams são projetados para ajudar as pessoas a maximizar o poder do Teams e preencher a lacuna entre espaços de trabalho remotos e compartilhados. Por meio de uma combinação de recursos de reuniões de equipes, experiências de salas centradas no cliente e hardware líder do setor, os usuários aproveitam as reuniões de baixa fricção, inclusive e interativas, se elas se unem remotamente ou na sala de reunião. Saiba como dispositivos de espaço compartilhado como salas do Microsoft Teams, barras de colaboração e Surface Hub podem ajudar suas equipes a se manter conectadas e colaborativas em todo o local de trabalho híbrido.|200|Greg Baribault, Kendra Baker, Sandhya Shahdeo|
+|[Dispositivos do Microsoft Teams para espaços compartilhados](https://aka.ms/OD261) |Os dispositivos Microsoft Teams são projetados para ajudar as pessoas a maximizar o poder do Teams e preencher a lacuna entre espaços de trabalho remotos e compartilhados. Por meio de uma combinação de recursos de reuniões de equipes, experiências de salas centradas no cliente e hardware líder do setor, os usuários aproveitam as reuniões de baixa fricção, inclusive e interativas, se elas se unem remotamente ou na sala de reunião. Saiba como dispositivos de espaço compartilhado como salas do Microsoft Teams, barras de colaboração e Surface Hub podem ajudar suas equipes a se manter conectadas e colaborativas em todo o local de trabalho híbrido.|200|Greg Baribault, Kendra Baker, Sandhya Rao|
 |[No Skype for Business? Criar seu caminho para o Microsoft Teams](https://aka.ms/OD251)|Participe desta sessão para aprender e determinar a abordagem mais adequada com base em sua implementação atual do Skype for Business e seus objetivos de negócios. Seja você um cliente do Skype for Business online ou do servidor, vamos compartilhar práticas recomendadas, recursos e diretrizes para acessar o Microsoft Teams hoje mesmo. |200|Lisa McKee, Laszlo SOMI
-|[Inovação moderna em dispositivos pessoais de equipe](https://aka.ms/PR108)  |Os clientes estão procurando os dispositivos pessoais certos para o Teams, especialmente quando muitos de seus funcionários estão trabalhando remotamente. Junte-se a nós para saber mais sobre as novas inovações em dispositivos pessoais do Teams, nossa impulso em recursos e dispositivos certificados e nossas práticas recomendadas para o trabalho remoto. |200|Sandhya Rao, Arash Ghanaje-Sichanie|
+|[Inovação moderna em dispositivos pessoais de equipe](https://aka.ms/PR108)  |Os clientes estão procurando os dispositivos pessoais certos para o Teams, especialmente quando muitos de seus funcionários estão trabalhando remotamente. Junte-se a nós para saber mais sobre as novas inovações em dispositivos pessoais do Teams, nossa impulso em recursos e dispositivos certificados e nossas práticas recomendadas para o trabalho remoto. |200|Sandhya Rao, Arash Ganaem-Sichanie, Kruthika Ponnusamy|
 |[Salas de debates virtuais mestras em reuniões do Microsoft Teams](https://aka.ms/PR109) |Junte-se a nós para aprender sobre as últimas inovações com salas de debates virtuais no Teams. Nesta sessão, destacaremos os casos de uso e as práticas recomendadas para facilitar a incentive de grupo, o debate, o aprendizado e discussões de pequenos grupos com salas de debates virtuais. |200|James skay, Nakul Madaan|
 |[Torne suas reuniões de equipe seguras e inclusivas com os controles de reunião e videoconferência](https://aka.ms/PR110) |Participe desta sessão para saber mais sobre a segurança, a segurança e a moderação das reuniões, incluindo a capacidade de desativar a opção de desativar todos os participantes, solicitar a funcionalidade de falar e configurar salas de debate. Também abordaremos recursos como reações e mãos levantadas que podem ajudar a tornar as reuniões mais inclusivas.|200|Nakul Madaan, Rajiv Ramaiah|
 |[Chamadas e reuniões do Microsoft Teams como uma plataforma](https://aka.ms/PR111) |Saiba mais sobre os recursos de plataforma de reuniões e chamadas de equipe com atualizações para APIs de comunicação em nuvem do Microsoft Graph, para o centro de contato e para obter notícias sobre outras experiências de plataforma. |200|Srividhya Chandrasekaran, Mansoor Malik|

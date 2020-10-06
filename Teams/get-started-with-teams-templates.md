@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ee4ab53318766b8daaeea225f8c039e32c8c4241
-ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
+ms.openlocfilehash: a524b551911add01979f9563ab7233a46b93053c
+ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48294597"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48361651"
 ---
 # <a name="get-started-with-teams-templates-using-microsoft-graph"></a>Introdução aos modelos do Microsoft Teams usando o Microsoft Graph
 
@@ -73,7 +73,7 @@ Por padrão, o modelo base é definido como **padrão**, que não contém nenhum
 | Treinamento<br>Equipe da equipe | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationStaff')` | Aplicativo<ul><li>Bloco de anotações de equipe do OneNote (fixado na guia **geral** )</li></ul> |
 |Treinamento<br>Equipe de PLC |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationProfessionalLearningCommunity')` | Aplicativo<ul><li>Bloco de anotações de PLC do OneNote (fixado na guia **geral** )</ul></li>|
 | Varejo<br>Repositório | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailStore')` | Canais<ul><li>Deslocar entrega</li><li>Aprendizagem</li></ul>Propriedades da equipe<ul><li>Visibilidade da equipe definida como Public</li></ul>Permissões de membro<ul><li>Impedir que os membros criem, atualizem ou removam canais</li><li>Impedir que os membros adicionem ou removam aplicativos</li><li>Impedir que os membros criem, atualizem ou removam conectores</li></ul> |
-| Varejo<br>Colaboração do gerente | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailManagerCollaboration')` | Canais<ul><li>Deslocar entrega</li><li>Aprendizagem</li></ul>Propriedades da equipe:<ul><li>Visibilidade da equipe definida como particular</li></ul>Permissões de membro:<ul><li>Impedir que os membros criem, atualizem ou removam canais</li><li>Impedir que os membros adicionem ou removam aplicativos</li><li>Impedir que os membros criem, atualizem ou removam conectores</li></ul>|
+| Varejo<br>Colaboração do gerente | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailManagerCollaboration')` | Canais<ul><li>Aprendizagem</li><li>Operações</li></ul>Propriedades da equipe:<ul><li>Visibilidade da equipe definida como particular</li></ul>Permissões de membro:<ul><li>Impedir que os membros criem, atualizem ou removam canais</li><li>Impedir que os membros adicionem ou removam aplicativos</li><li>Impedir que os membros criem, atualizem ou removam conectores</li></ul>|
 | Intensivo<br>Flecha |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')` |Canais <ul><li>Comunicados\*</li><li>Huddles\*</li><li>Arredonda</li><li>Especificam\*</li><li>Treinamento\*</li></ul>\*Canais de favoritos automáticos |
 |Intensivo<br>Hospital | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')` |Canais<ul><li>Comunicados\*</li><li>Conformidade\*</li><li>Custodial</li><li>Recursos humanos</li></li><li>Farmácia</li></ul>\*Canal de preferência automática|
 |||

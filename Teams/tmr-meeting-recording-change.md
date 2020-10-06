@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2731b5c8f9001746a180a8f63d0ffd72276c5dc1
-ms.sourcegitcommit: 43e5a4aac11c20dd5a4c35b59695f309e1559e82
+ms.openlocfilehash: b31972ed662b6752286fa2ff33b80150496cfb0f
+ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "48346332"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48361331"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Usar o OneDrive for Business e o SharePoint ou o Stream para gravações de reunião
 
@@ -85,7 +85,7 @@ Assista à "gravação na reunião" para obter mais informações.
 
 ## <a name="opt-out-of-onedrive-for-business-and-sharepoint-to-continue-using-stream"></a>Recusar o OneDrive for Business e o SharePoint para continuar usando o Stream
 
-Mesmo que uma política diga que já está definida como **Stream**, ela pode não ser definida. Se for definido como Nothing, o padrão será Stream. Se desejar recusar, você **deve** redefinir a política para **transmitir** para garantir que o fluxo seja o padrão.
+Mesmo se uma política disser que está definida como **Stream**, ela pode não ser definida. Geralmente, se a política não estiver definida, a configuração padrão será **Stream**. No entanto, com essa nova alteração, se você quiser optar por usar o SharePoint ou o OneDrive, será necessário redefinir a política para **transmitir** para garantir que seja o padrão.
 
 ```PowerShell
    Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"

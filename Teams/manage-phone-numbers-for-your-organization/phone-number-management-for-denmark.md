@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Use esta tabela para encontrar informações sobre como obter e gerenciar números de telefone na Dinamarca para Microsoft Teams.
-ms.openlocfilehash: 2c3c8e32ed0254c16f9e1f4b4968a505914bc2d3
-ms.sourcegitcommit: d16adc1ce13fcaf52f786c8422b3175b61935e68
+ms.openlocfilehash: 3df6532531dd281c4695d4b94ecdffc82b9adde0
+ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48324217"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48361741"
 ---
 # <a name="phone-number-management-for-denmark"></a>Gerenciamento de número de telefone para a Dinamarca
 
@@ -34,7 +34,7 @@ Para obter mais informações, consulte [Gerenciar os números de telefone de su
   
 |**O que você deseja fazer?**|**Baixe os formulários corretos e os envie para nós**|
 |:-----|:-----|
-|Obter novos números de telefone de usuário e serviço que não estão listados no centro de administração do Microsoft Teams.   <br/> |Baixar este formulário. <br/>  [Nova solicitação de número de telefone para a Dinamarca (v. 5.0) (da-DK)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-denmark-(v.5.0)-(da-dk).pdf?raw=true) <br/>  <br/>Preencha o formulário e [o envie para nós](mailto:ptneu@microsoft.com).
+|Obter novos números de telefone de usuário e serviço que não estão listados no centro de administração do Microsoft Teams.   <br/> |Baixe um desses formulários. <br/>  [Nova solicitação de número de telefone para a Dinamarca (v. 5.0) (da-DK)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-denmark-(v.5.0)-(da-dk).pdf?raw=true) <br/>[Nova solicitação de número de telefone para a Dinamarca (v. 5.0) (en-US)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-denmark-(v.5.0)-(en-us).pdf?raw=true)<br/><br/>  Preencha o formulário e [o envie para nós](mailto:ptneu@microsoft.com).
 |Obter números de telefone transferidos para nós.  <br/> | Baixar este formulário. <br/>[Carta de autorização (LOA) para a Dinamarca (todos os números) (v. 5.0) (da-DK)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-denmark-(all-numbers)-(v.5.0)-(da-dk).pdf?raw=true) <br/> <br/>Preencha o formulário e [o envie para nós](mailto:ptneu@microsoft.com). <br/> |
 |Publicar/cancelar a publicação de número (s) de telefone no diretório de telefones nacional.  <br/> |[Nos envie](mailto:ptneu@microsoft.com) a lista de números de telefone que você deseja publicar/cancelar a publicação.      <br/> |
 |Altere o número de um usuário para um número de serviço.  <br/> |[Nos envie](mailto:ptneu@microsoft.com) a lista de números de usuário que você deseja converter em números de serviço. <br/> |
