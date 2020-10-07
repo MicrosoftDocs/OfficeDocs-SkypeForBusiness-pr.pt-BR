@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: fadc9fbeb82b4cb808b9beb698c0726c22f78c44
-ms.sourcegitcommit: 762e303509940f830c304e00a98b05796bf5537f
+ms.openlocfilehash: bddd4ffb268e641a7c89fe1ffd33efb91aba0b11
+ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48333261"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48361641"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Limites e especificações para o Microsoft Teams
 
@@ -34,7 +34,7 @@ Este artigo descreve alguns dos limites, das especificações e de outros requis
 |Recurso    | Limite máximo |
 |-----------|---------------|
 |Números de equipes que um usuário pode criar | Sujeito a um limite de objeto de 250&sup1;         |
-|Número de equipes das quais um usuário pode ser membro|1.000|
+|Número de equipes das quais um usuário pode ser membro|1.000&sup2;|
 |Número de membros em uma equipe | 10.000       |
 |Número de proprietários por equipe | 100   |
 |Número de equipes de toda a organização permitidas em um locatário | 5     |
@@ -49,7 +49,7 @@ Este artigo descreve alguns dos limites, das especificações e de outros requis
 
 <sup>1</sup> Qualquer objeto de diretório no Azure Active Directory conta para este limite. Os administradores globais estão isentos desse limite, assim como os aplicativos que chamam o Microsoft Graph usando as [permissões de aplicativo](https://docs.microsoft.com/graph/permissions-reference).
 
-<sup>2</sup> Esse limite inclui equipes arquivadas.
+<sup>2</sup> Esse limite inclui equipes arquivadas. Para ir além do limite máximo, você deve entrar em contato com o suporte da Microsoft.
 
 <sup>3</sup> Os canais excluídos podem ser restaurados dentro de 30 dias. Durante esses 30 dias, um canal excluído continua a ser contado no limite de 200 canais por equipe. Depois de 30 dias, um canal e seu conteúdo excluídos serão permanentemente excluídos e o canal deixará de contar com o limite de 200 canais por equipe.
 
