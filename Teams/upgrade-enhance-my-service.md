@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 description: Avaliar regularmente oportunidades para aprimorar o serviço do teams após a atualização, monitore o mapa do teams para obter os aprimoramentos de recursos interessantes.
 localization_priority: Normal
 search.appverid: MET150
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e327ab7be4b09ca91d454ab560f06b293fba19bb
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: a000cb8b09f4b1eebf5ca1c2805d52222ce7ec5c
+ms.sourcegitcommit: f9daef3213a305676127cf5140af907e3b96d046
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780460"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48369196"
 ---
 # <a name="get-the-most-out-of-teams-after-upgrading"></a>Aproveitar ao máximo o Microsoft Teams após a atualização
 
@@ -39,9 +39,7 @@ Depois de implantar o Microsoft Teams em sua organização com êxito e operar o
 
 Uma ótima maneira de garantir que você esteja sempre obtendo o máximo dos seus serviços é monitorar os [roteiros públicos do teams](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams) para os novos aprimoramentos de recursos que podem ser de interesse para a sua organização. Se você tiver acesso ao centro de administração do Microsoft 365, receberá atualizações regulares dos mesmos sobre os recursos novos e dinâmicos por meio do nosso centro de mensagens.
 
-Quando você vir oportunidades para aprimorar seu serviço, Reserve o tempo para fazer isso certo. Reveja a [implantação de chat, equipes, canais e aplicativos no Microsoft Teams](deploy-chat-teams-channels-microsoft-teams-landing-page.md) e aplique as mesmas diretrizes de ponta a ponta. Ao fazer alterações pequenas e incrementais, é improvável que você precise concluir todas as atividades e tarefas de forma completa, mas deve ter certeza de avaliar cada atividade e tarefa ao mesmo tempo para dar a si mesmo a melhor chance com um resultado bem-sucedido.
-
-Quando você vir oportunidades para aprimorar seu serviço, Reserve o tempo para fazer isso certo. Revisite nossas [fases de implementação](deploy-chat-teams-channels-microsoft-teams-landing-page.md) e aplique as mesmas diretrizes de ponta a ponta. Ao fazer alterações pequenas e incrementais, é improvável que você precise concluir todas as atividades e tarefas de forma completa, mas deve ter certeza de avaliar cada atividade e tarefa ao mesmo tempo para dar a si mesmo a melhor chance com um resultado bem-sucedido.
+Quando você vir oportunidades para aprimorar seu serviço, Reserve o tempo para fazer isso certo. Reveja a [implantação de chat, equipes, canais e aplicativos no Microsoft Teams e nas](deploy-chat-teams-channels-microsoft-teams-landing-page.md) nossas fases de [implementação](deploy-chat-teams-channels-microsoft-teams-landing-page.md) e aplique as mesmas diretrizes de ponta a ponta. Ao fazer alterações pequenas e incrementais, é improvável que você precise concluir todas as atividades e tarefas de forma completa, mas deve ter certeza de avaliar cada atividade e tarefa ao mesmo tempo para dar a si mesmo a melhor chance com um resultado bem-sucedido.
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Pontos de decisão</td><td><ul><li>Decida quem monitorará mapas públicos e outros anúncios de serviços para novos recursos ou serviços dos quais sua organização pode beneficiar.</li><li>Decida na cadência a fim de denunciar esses novos recursos ou serviços de volta para os principais interessados, por meio do seu Comitê de direcionamento.</li></ul></td></tr>

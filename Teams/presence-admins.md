@@ -1,7 +1,7 @@
 ---
 title: Presença do usuário no Teams
-author: SerdarSoysal
-ms.author: serdars
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3a5adfcfd6002f9069934bb25dde5aa8b51e452f
-ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
+ms.openlocfilehash: 9f14aeaf83862cbdd695eb6ec4646d8da81a0c5b
+ms.sourcegitcommit: f9daef3213a305676127cf5140af907e3b96d046
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47820515"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48369206"
 ---
 # <a name="user-presence-in-teams"></a>Presença do usuário no Teams
 
@@ -49,22 +49,32 @@ A presença do Teams no Outlook é compatível com o aplicativo de área de trab
 | ![Ícone de relógio amarelo, indica ausente](media/Presence_Away.png) Ausente| ![Ícone de relógio amarelo, indica ausente](media/Presence_Away.png) Ausente|
 || ![Ícone de relógio amarelo, indica ausente](media/Presence_Away.png) Ausente Visto por Último *horário*|
 |![Ícone de relógio amarelo, indica ausente, volto logo](media/Presence_Away.png) Volto Logo| |
-|| ![Ícone de relógio amarelo, indica ausente do trabalho](media/Presence_Away.png)  Ausente do Trabalho|
-|| ![Círculo cinza com x, indica Offline](media/Presence_Offline.png) Offline |
+|![Círculo cinza com x, indica Offline](media/Presence_Offline.png) Aparecer offline | ![Círculo cinza com x, indica Offline](media/Presence_Offline.png) Offline| |
 || ![Círculo cinza aberta, indica status desconhecido](media/Presence_Unknown.png) Status desconhecido|
-||![Círculo vermelho aberto com linha diagonal, indica bloqueado](media/Presence_Blocked.png) Bloqueado |
 || ![Círculo roxo com seta, indica Ausência temporária](media/Presence_OOF.png) Ausência Temporária|
 |||
 
-Os Estados de presença configurados pelo aplicativo são baseados na atividade do usuário (disponível, ausente), os Estados do calendário do Outlook (em uma reunião) ou os Estados do aplicativo Teams (em uma chamada, apresentação). Observe que, quando você estiver no modo de foco com base em seu calendário, o foco será o estado que as pessoas veem no Teams, mas mostrarão como não incomodar em outros produtos.
+Os Estados de presença configurados pelo aplicativo são baseados na atividade do usuário (disponível, ausente), os Estados do calendário do Outlook (em uma reunião) ou os Estados do aplicativo Teams (em uma chamada, apresentação). Observe que, quando você estiver no modo de foco com base em seu calendário, o foco será o estado que as pessoas veem no Teams, mas serão exibidas como não incomodar em outros produtos.
 
-Seu estado de presença atual muda para ausente quando você bloqueia seu computador ou quando ele entra no modo ocioso ou adormecido. No celular, seu status de presença muda para ausente sempre que o aplicativo Teams está em segundo plano.
+Seu estado de presença atual muda para ausente quando você bloqueia seu computador ou quando o computador entra no modo ocioso ou adormecido. Em um dispositivo móvel, seu status de presença muda para ausente sempre que o aplicativo Teams está em segundo plano.
 
-Os usuários recebem todas as mensagens de chat enviadas para eles no Teams, independentemente do seu estado de presença. Se um usuário estiver offline quando alguém lhe enviar uma mensagem, a mensagem de chat será exibida no Teams da próxima vez que o usuário estiver online. Se um usuário estiver em não incomodar, o usuário ainda receberá mensagens de chat, mas as notificações de cabeçalho não serão exibidas.
+Os usuários recebem todas as mensagens de chat enviadas para eles no Teams, independentemente do seu estado de presença. Se um usuário estiver offline quando alguém lhe enviar uma mensagem, a mensagem de chat será exibida no Teams da próxima vez que o usuário estiver online. Se um estado do usuário estiver definido como não incomodar, o usuário ainda receberá mensagens de chat, mas as notificações de cabeçalho não serão exibidas.
 
 Os usuários recebem chamadas em todos os Estados de presença, exceto para não incomodar, no qual as chamadas recebidas vão para o correio de voz. Se o destinatário bloqueou o chamador, a chamada não será completada e o chamador verá a presença do destinatário como Offline.
 
-Os usuários podem adicionar pessoas à sua lista de acesso prioritário acessando **Configurações** > **Privacidade** no Teams. As pessoas com acesso prioritário podem entrar em contato com o usuário mesmo quando o usuário estiver em não incomodar.
+Os usuários podem adicionar pessoas à sua lista de acesso prioritário acessando **Configurações** > **Privacidade** no Teams. As pessoas com acesso prioritário podem entrar em contato com o usuário mesmo quando o status do usuário estiver definido como não incomodar.
+
+## <a name="user-configured-states-expiration"></a>Expiração de Estados configurados pelo usuário
+Quando um usuário seleciona um estado de presença específico, ele tem precedência sobre qualquer atualização de atividade do aplicativo. Por exemplo, se um usuário define-se como não incomodar, sua presença permanecerá como não incomodar, mesmo que ela participe de uma reunião ou responda a uma chamada.
+
+Os Estados configurados pelo usuário têm configurações de expiração padrão no Teams, para impedir que os usuários exibam um status que podem não ser relevantes após um período de tempo.
+
+|Estado configurado pelo usuário|Expiração padrão|
+|:--- |:---|
+| Ocupado|1 dia|
+| Não incomodar|1 dia|
+| Computadores|7 dias|
+|||
 
 ## <a name="admin-settings-in-teams-compared-to-skype-for-business"></a>Configurações de administrador no Teams em comparação com o Skype for Business
 

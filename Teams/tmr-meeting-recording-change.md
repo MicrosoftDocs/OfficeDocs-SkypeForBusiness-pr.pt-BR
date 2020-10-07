@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b31972ed662b6752286fa2ff33b80150496cfb0f
-ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
+ms.openlocfilehash: e8616bae083f8ec043c1092e4d391866a8b957d6
+ms.sourcegitcommit: f9daef3213a305676127cf5140af907e3b96d046
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48361331"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48369166"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Usar o OneDrive for Business e o SharePoint ou o Stream para gravações de reunião
 
@@ -95,7 +95,7 @@ Mesmo se uma política disser que está definida como **Stream**, ela pode não 
 
 **Onde a gravação da reunião será armazenada?**
 
-- Para reuniões não relacionadas ao canal, a gravação é armazenada em uma pasta chamada. Gravações * * que está no nível superior do OneDrive que pertence à pessoa que iniciou a gravação da reunião. Exemplo
+- Para reuniões não relacionadas ao canal, a gravação é armazenada em uma pasta chamada **gravações** que está no nível superior do onedrive que pertence à pessoa que iniciou a gravação da reunião. Exemplo
 
   <i>onedrive for Business</i> / do gravador **Gravações**
 

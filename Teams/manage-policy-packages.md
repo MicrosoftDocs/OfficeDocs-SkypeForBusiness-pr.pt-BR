@@ -20,12 +20,12 @@ ms.custom:
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba como usar e gerenciar pacotes de política no Microsoft Teams para simplificar, simplificar e ajudar a fornecer consistência ao gerenciar políticas para grupos de usuários.
-ms.openlocfilehash: bdbfed095cf522702f55963ba7e46d79b765d59c
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: 866183442d21ad91a83f3e9460ccd257902a0972
+ms.sourcegitcommit: f4f5ad1391b472d64390180c81c2680f011a8a10
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48220101"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48370597"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>Gerenciar pacotes de política no Microsoft Teams
 
@@ -34,7 +34,7 @@ ms.locfileid: "48220101"
 
 Um pacote de política no Microsoft Teams é uma coleção de políticas predefinidas e configurações de política que você pode atribuir aos usuários que têm funções semelhantes em sua organização. Nós criamos pacotes de políticas para simplificar, simplificar e ajudar a fornecer consistência ao gerenciar políticas para grupos de usuários em toda a sua organização.  
 
-Você pode usar os [pacotes de política incluídos no Teams](#policy-packages-included-in-teams) ou [criar seus próprios pacotes de política personalizados](#custom-policy-packages) (em breve para a visualização particular).
+Você pode usar os [pacotes de política incluídos no Teams](#policy-packages-included-in-teams) ou [criar seus próprios pacotes de política personalizados](#custom-policy-packages) (em visualização particular).
 
 :::image type="content" source="media/policy-packages-admin-center.png" alt-text="Captura de tela da página de pacotes de política no centro de administração":::
 
@@ -83,7 +83,7 @@ Por exemplo, quando você atribui o pacote de política de formação educaciona
 
 ## <a name="custom-policy-packages"></a>Pacotes de política personalizados
 
-**Este recurso estará disponível em breve para a visualização particular**
+**Este recurso está em visualização particular**
 
 Os pacotes de política personalizados permitem que você reúna seu próprio conjunto de políticas para usuários com funções semelhantes na organização. Crie seus próprios pacotes de política adicionando os tipos de política e políticas de que você precisa.
 

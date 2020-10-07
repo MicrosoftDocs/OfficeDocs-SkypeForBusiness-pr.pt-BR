@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: A seguir, a descrição da funcionalidade de visualização aberta para videoconferência na rede.
-ms.openlocfilehash: 3b33c67cc79f79d36cf2a11213dc934103b026fb
-ms.sourcegitcommit: 19662d4bc4070f6031084d93e8794e0e02decd2b
+ms.openlocfilehash: 38b8be382ccd1b80002688cdb7fce9aa166efc2c
+ms.sourcegitcommit: f9daef3213a305676127cf5140af907e3b96d046
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "47321781"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48369175"
 ---
 # <a name="open-preview-of-on-network-conferencing-for-audio-conferencing"></a>Abrir a visualização de conferências na rede para videoconferências
 
@@ -38,7 +38,7 @@ Este artigo descreve os pré-requisitos e as etapas de configuração necessári
 
 Antes de configurar a conferência na rede, certifique-se de que sua organização atenda aos seguintes pré-requisitos: 
 
-- Certifique-se de que todos os usuários de sua organização estejam habilitados, ou serão habilitados, para videoconferências no modo somente Teams. O roteamento de chamadas de conferência de áudio de entrada e outboud por meio da conferência pela rede só tem suporte em reuniões de equipe.
+- Certifique-se de que todos os usuários de sua organização estejam habilitados, ou serão habilitados, para videoconferências no modo somente Teams. O roteamento de chamadas de videoconferência de entrada e saída para a conferência pela rede só tem suporte em reuniões de equipe.
 
 - Atribua licenças de audioconferência a todos os usuários que usarão conferências na rede.
 
@@ -56,6 +56,8 @@ Você precisa configurar o equipamento de telefonia dos seus sites para direcion
 
 Você pode encontrar os números de serviço no centro de administração do teams em **reuniões-> pontes de conferência** ou usando o cmdlet do PowerShell Get-CsOnlineDialInConferencingBridge do Skype for Business online. Para obter mais informações, consulte uma lista de [números de audioconferência no Microsoft Teams](see-a-list-of-audio-conferencing-numbers-in-teams.md).
 
+> [!NOTE]
+> Este recurso não está disponível para os usuários com a licença de conferência de áudio de pagamento por minuto.
 
 ## <a name="enable-the-routing-of-teams-meeting-dial-out-calls-through-direct-routing"></a>Habilitar o roteamento de chamadas discadas da reunião do teams por meio do direcionamento direto
 

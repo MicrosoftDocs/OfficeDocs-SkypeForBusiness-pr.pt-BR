@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 104dab27af75d346af990369ee78fc2fb1f0a77d
-ms.sourcegitcommit: fd7d5ba09ef30cf4594e352c36f62b950e0e41a6
+ms.openlocfilehash: a1c9f63c54711c5721ced661dc28d704c0b605c7
+ms.sourcegitcommit: f4f5ad1391b472d64390180c81c2680f011a8a10
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48336838"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48367591"
 ---
 # <a name="view-app-permissions-and-grant-admin-consent-in-the-microsoft-teams-admin-center"></a>Exibir permissões do aplicativo e conceder consentimento de administrador no centro de administração do Microsoft Teams
 
@@ -32,7 +32,7 @@ Se você for um administrador global, poderá revisar e conceder consentimento p
 
 Exemplos de permissões solicitadas por aplicativos incluem a capacidade de ler informações armazenadas em uma equipe, ler o perfil de um usuário e enviar um email em nome dos usuários. Para saber mais, confira [permissões e consentimento no ponto de extremidade da plataforma de identidade da Microsoft](https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent). 
 
-A coluna **permissões** indica se um aplicativo tem permissões que precisam de consentimento. Você verá um link **Exibir detalhes** para cada aplicativo registrado no Azure AD que tenha permissões que precisem de consentimento. Tenha em mente que isso se aplica somente a aplicativos personalizados e de terceiros e. Você não verá esse link nem precisará conceder consentimento de administrador para aplicativos publicados pela Microsoft.
+A coluna **permissões** indica se um aplicativo tem permissões que precisam de consentimento. Você verá um link **Exibir detalhes** para cada aplicativo registrado no Azure AD que tenha permissões que precisem de consentimento. Tenha em mente que isso se aplica somente a aplicativos personalizados e de terceiros. Você não verá esse link nem precisará conceder consentimento de administrador para aplicativos publicados pela Microsoft.
 
 :::image type="content" source="media/app-perm-admin-center-permissions-column.png" alt-text="Captura de tela da coluna permissões na página Gerenciar aplicativos":::
 
