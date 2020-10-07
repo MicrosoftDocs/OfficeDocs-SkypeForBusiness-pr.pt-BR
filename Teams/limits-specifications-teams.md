@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bddd4ffb268e641a7c89fe1ffd33efb91aba0b11
-ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
+ms.openlocfilehash: 9bda3f02ebad041d0f4b7d454fc5546906606993
+ms.sourcegitcommit: f4f5ad1391b472d64390180c81c2680f011a8a10
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/06/2020
-ms.locfileid: "48361641"
+ms.locfileid: "48367561"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Limites e especificações para o Microsoft Teams
 
@@ -42,7 +42,7 @@ Este artigo descreve alguns dos limites, das especificações e de outros requis
 |Número de equipes que um administrador global pode criar        |  500.000   |
 |Número de equipes que uma organização do Microsoft 365 ou Office 365 pode ter    | 500.000&sup2;     |
 |Número de canais por equipe    | 200 (inclui canais excluídos)&sup3;         |
-|Número de canais privados por equipe    |30|
+|Número de canais privados por equipe    |30| (inclui canais excluídos)&sup3;
 |Números de membros em um canal privado    |250|
 |Número máximo de membros em um grupo do Office 365 que pode ser convertido em uma equipe    |10.000|
 |Tamanho da postagem de conversa do canal | Aproximadamente 28 KB pela postagem <sup>4</sup> |
@@ -51,7 +51,7 @@ Este artigo descreve alguns dos limites, das especificações e de outros requis
 
 <sup>2</sup> Esse limite inclui equipes arquivadas. Para ir além do limite máximo, você deve entrar em contato com o suporte da Microsoft.
 
-<sup>3</sup> Os canais excluídos podem ser restaurados dentro de 30 dias. Durante esses 30 dias, um canal excluído continua a ser contado no limite de 200 canais por equipe. Depois de 30 dias, um canal e seu conteúdo excluídos serão permanentemente excluídos e o canal deixará de contar com o limite de 200 canais por equipe.
+<sup>3</sup> Os canais excluídos podem ser restaurados dentro de 30 dias. Durante esses 30 dias, um canal excluído continua a ser contado no limite de 200 canais ou 30 canais privados por equipe. Depois de 30 dias, um canal e seu conteúdo excluídos serão permanentemente excluídos e o canal deixará de contar com o limite por equipe.
 
 <sup>4</sup> 28 KB é um limite aproximado porque inclui a própria mensagem (texto, links de imagens, etc.), @-menções, número de conectores e reações.
 
@@ -94,7 +94,9 @@ O bate-papo do Teams funciona em um back-end do Microsoft Exchange, para que os 
 Para obter mais informações, confira [Limites do Exchange Online](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits).
 
 > [!NOTE]
-> O tamanho da mensagem, os anexos de arquivos e os limites de imagens embutidas são os mesmos em todas as licenças do Microsoft 365 e Office 365.
+> O tamanho da mensagem, os anexos de arquivos e os limites de imagens embutidas são os mesmos em todas as licenças do Microsoft 365 e Office 365. O envio de emails em um canal não está disponível para organizações no Teams para Office GCC/GCCH/DOD.
+
+
 
 ## <a name="channel-names"></a>Nomes de canal
 
