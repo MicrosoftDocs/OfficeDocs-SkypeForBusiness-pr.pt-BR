@@ -18,12 +18,12 @@ appliesto:
 ms.reviewer: ''
 description: Saiba mais sobre os recursos de assistência médica que incluem coordenação, Secure Messaging, telehealth, integração do EHR e primeira integração do sistema de trabalho.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 68954745bc1631e2031fce80ff1681056e9f4bdd
-ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
+ms.openlocfilehash: f2654eab71d240a12f544fbee3521dacd2c49a17
+ms.sourcegitcommit: f4f5ad1391b472d64390180c81c2680f011a8a10
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/06/2020
-ms.locfileid: "48361581"
+ms.locfileid: "48367661"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>Introdução ao Teams para Organizações de Saúde
 
@@ -40,7 +40,7 @@ O conteúdo desta seção baseia-se nos recursos básicos do Teams, como reuniõ
 ## <a name="care-coordination---microsoft-teams-patients-app"></a>Coordenação de cuidado-aplicativo pacientes do Microsoft Teams
 
 > [!IMPORTANT]
-> **A partir de 15 de outubro de 2020, o aplicativo pacientes será preterido e os usuários não poderão mais instalá-lo na App Store da equipe. Recomendamos que você comece a usar o [aplicativo listas](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) no Microsoft Teams hoje mesmo.**
+> **A partir de 30 de outubro de 2020, o aplicativo pacientes será preterido, e os usuários não poderão mais instalá-lo na App Store da equipe. Recomendamos que você comece a usar o [aplicativo listas](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) no Microsoft Teams hoje mesmo.**
 >
 >Os dados do aplicativo pacientes são armazenados na caixa de correio do grupo do grupo do Office 365 que faz a equipe. Quando o aplicativo pacientes é desativado, todos os dados associados a ele serão mantidos nesse grupo, mas não poderão mais ser acessados por meio da interface do usuário. Os usuários atuais podem recriar suas listas usando o [aplicativo listas](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db).
 >
