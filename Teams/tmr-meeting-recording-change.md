@@ -16,19 +16,19 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e8616bae083f8ec043c1092e4d391866a8b957d6
-ms.sourcegitcommit: f9daef3213a305676127cf5140af907e3b96d046
+ms.openlocfilehash: 7a42c46cf9592c64676d153e1885357a4ee8ec7b
+ms.sourcegitcommit: 48cb3cdd69558ec80f8f25f870b302a65280ce5a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48369166"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "48389929"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Usar o OneDrive for Business e o SharePoint ou o Stream para gravações de reunião
 
 > [!Note]
 > A mudança do Microsoft Stream para o OneDrive for Business e o Microsoft Office SharePoint Online para gravações de reunião será uma abordagem em fases. Na inicialização, os administradores de locatários podem escolher esta nova opção de fluxo de trabalho hoje e começará a ver gravações automáticas do OneDrive for Business e do SharePoint em outubro de 2020. Em novembro, você precisará se recusar se quiser continuar a usar o Stream, e algum tempo no início de 2021 exigiremos que todos os clientes usem o OneDrive for Business e o SharePoint para novas gravações de reunião.
 
-O Microsoft Teams tem um novo método para salvar gravações na reunião. Como uma partida do Stream, o método usa o Microsoft OneDrive e o SharePoint no Microsoft 365 e oferece muitos benefícios.
+O Microsoft Teams tem um novo método para salvar gravações na reunião. Como a primeira fase de uma transição do fluxo clássico da Microsoft para o [novo fluxo](https://docs.microsoft.com/stream/streamnew/new-stream), esse método armazena gravações no Microsoft onedrive e no SharePoint no Microsoft 365 e oferece muitos benefícios.
 
 As vantagens de usar o OneDrive for Business e o SharePoint para armazenar gravações incluem:
 
@@ -102,6 +102,10 @@ Mesmo se uma política disser que está definida como **Stream**, ela pode não 
 - Para reuniões de canal, a gravação é armazenada na biblioteca de documentação do site do teams em uma pasta chamada **gravações**. Exemplo
 
   <i>Nome do Team-nome</i> / do canal **Documentos** / do **Gravações**
+
+**Como faço para lidar com gravações de ex-funcionários?**
+
+Como os vídeos são como qualquer outro arquivo no OneDrive e no SharePoint, a manipulação da posse e da retenção após a publicação de um funcionário acompanhará o processo normal do [onedrive e do SharePoint]( https://docs.microsoft.com/onedrive/retention-and-deletion#the-onedrive-deletion-process).
 
 **Quem tem as permissões para exibir a gravação da reunião?**
 
