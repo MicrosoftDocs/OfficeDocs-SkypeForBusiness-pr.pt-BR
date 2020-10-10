@@ -257,6 +257,7 @@
 ### [Vídeo: Comunicações externas do Skype for Business Online](../set-up-skype-for-business-online/video-skype-for-business-online-external-communications.md)
 
 ## Configurar políticas em sua organização 
+### [Configure políticas em sua organização: Visão geral](../set-up-policies-in-your-organization/set-up-policies-in-your-organization.md)
 ### [Bloquear transferências de arquivos ponto a ponto](../set-up-policies-in-your-organization/block-point-to-point-file-transfers.md)
 ### [Criar políticas personalizadas de acesso externo](../set-up-policies-in-your-organization/create-custom-external-access-policies.md)
 ### [Retenção de arquivos grandes anexados a uma reunião](../set-up-policies-in-your-organization/retaining-large-files-attached-to-a-meeting.md)
@@ -305,7 +306,7 @@
 ### [Período de discagem gratuita](/microsoftteams/complimentary-dial-out-period?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Código de conduta para o Reino Unido (UK)](/microsoftteams/code-of-practice-for-the-united-kingdom-u-k?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Código para lidar com reclamações para o Reino Unido (UK)](/microsoftteams/complaint-handling-code-for-the-united-kingdom-u-k?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
-### [Práticas de coleta de dados](/microsoftteams/teams-privacy?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
+### [Práticas de coleta de dados](/microsoftteams/data-collection-practices?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Rótulos da chamada de emergência](/microsoftteams/emergency-calling-labels?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Termos e condições da chamada de emergência](/microsoftteams/emergency-calling-terms-and-conditions?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Programa de fim de vida útil para a integração do Skype for Business com a audioconferência de terceiros](../legal-and-regulatory/end-of-integration-with-3rd-party-providers.md)
