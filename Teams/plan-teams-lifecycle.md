@@ -3,7 +3,6 @@ title: Planejar o gerenciamento do ciclo de vida
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
-ms.date: 09/26/2018
 ms.topic: reference
 ms.service: msteams
 ms.reviewer: rowille
@@ -18,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bdc9df2d0d7d55e806ad0faca896f3c78a145c96
-ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
+ms.openlocfilehash: 44be1d139fe37a34cad620cb449ac8bfe10eb99b
+ms.sourcegitcommit: 43823358e7e1c1cece72a69a2ceb4eff86d3f927
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656362"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "48416919"
 ---
 # <a name="plan-for-lifecycle-management-in-teams"></a>Planejar o gerenciamento de ciclo de vida no Teams
 
@@ -58,10 +57,10 @@ Determinam quem pode ingressar na equipe:
 
 Os tipos de usuários da equipe determinam o grau de controle que cada membro da equipe tem:
 
--   O _criador da equipe_ tem permissões para criar um grupo ou uma equipe no diretório. O administrador pode restringir esse tipo de usuário a um subconjunto de administradores ou usuários. Para obter mais informações, confira [Gerenciar quem pode criar Grupos do Microsoft 365](https://support.office.com/article/Manage-who-can-create-Office-365-Groups-4c46c8cb-17d0-44b5-9776-005fced8e618). 
--   O _proprietário da equipe_ gerencia a associação e as configurações da equipe. Pode haver até 100 proprietários de equipe por equipe.
--   Um _membro da equipe_ é um membro de sua organização que participa de uma equipe.
--   Um _convidado_ é um usuário que é externo à sua organização. Qualquer pessoa com um endereço de email poderá ser convidada se a organização tiver habilitado o [acesso de convidado](guest-access.md).
+-   O *criador da equipe* tem permissões para criar um grupo ou uma equipe no diretório. O administrador pode restringir esse tipo de usuário a um subconjunto de administradores ou usuários. Para obter mais informações, confira [Gerenciar quem pode criar Grupos do Microsoft 365](https://support.office.com/article/Manage-who-can-create-Office-365-Groups-4c46c8cb-17d0-44b5-9776-005fced8e618). Os criadores da equipe tornam-se automaticamente proprietários da equipe.
+-   O *Proprietário da equipe* gerencia a afiliação e as configurações da equipe. Pode haver até 100 proprietários de equipe por equipe.
+-   Um *membro da equipe* é um membro de sua organização que participa de uma equipe.
+-   Um *convidado* é um usuário que é externo à sua organização. Qualquer pessoa com um endereço de email poderá ser convidada se a organização tiver habilitado o [acesso de convidado](guest-access.md).
 
 > [!Note]
 > Saiba mais sobre os recursos de proprietário de equipe e de membro de equipe no artigo [Atribuir função e permissões no Microsoft Teams](assign-roles-permissions.md).
@@ -162,7 +161,9 @@ Use estes links para obter mais informações sobre como organizar as equipes:
 
 Qualquer proprietário ou membro de equipe com permissões apropriadas pode criar canais em uma equipe. É importante considerar o objetivo de cada canal. As opções incluem colaboração em torno a projetos, discussões de tópicos ou áreas de interesse comum. Por padrão, todas as equipes incluem um canal Geral. A maioria das equipes precisa de mais do que isso, e os membros criarão canais adicionais. É provável que o conjunto de canais cresça organicamente à medida que novos tópicos ou projetos surjam, e as discussões possam superar o canal em que começaram.
 
-Para despertar interesse, o proprietário do canal pode postar uma mensagem de boas-vindas, carregar documentos relevantes na guia **Arquivos** ou adicionar guias ou conectores ao canal. O proprietário também define a descrição do canal e pode "adicionar a Favoritos automaticamente" os canais importantes para que eles sejam listados por padrão para todos os membros da equipe.
+Para despertar interesse, o proprietário do canal pode postar uma mensagem de boas-vindas, carregar documentos relevantes na guia **Arquivos** ou adicionar guias ou conectores ao canal. O proprietário também define a descrição do canal e pode "marcar automaticamente" canais importantes para que sejam listados por padrão para todos os membros da equipe.
+
+Considere os nomes dos canais antes de criá-los, pois renomear um canal na equipe não renomeia a pasta correspondente na biblioteca de documentos do Microsoft Office SharePoint Online, o que pode causar confusão para o usuário final. 
 
 |    |     |
 |-----------|------------|
@@ -177,17 +178,13 @@ A confiança, a tolerância e o espírito de colaboração aumentarão gradativa
 
 Como as equipes são semelhantes a organismos vivos, ocasionalmente precisam ser verificadas e cuidadas. Estas são algumas das práticas recomendadas:
 
--   Use defensores para manter o uso, se ele começar a diminuir, e também para descobrir e propagar novos comportamentos criativos. 
--   Gerencie os convidados criteriosamente, garantindo que o acesso deles seja encerrado quando a necessidade de negócios terminar.
--   Permita que os canais evoluam junto com as necessidades de negócios. Adicione novos canais conforme necessário e deixe que os antigos desapareçam (ou considere arquivá-los ou excluí-los, se eles contiverem dados confidenciais ou efêmeros, com base em seus requisitos de retenção).
--   Crie novas equipes à medida que surgirem grupos ou áreas de interesse maiores.
--   Experimente diferentes colaborações de canal, como reuniões de canal ou conversas de guias referentes a documentos.
-
-Se uma equipe começar a cair na rotina, considere estas opções:
-
--   Direcione as comunicações para as equipes, em vez de enviar emails.
--   Use aplicativos móveis para aumentar o envolvimento.
--   Reduza o número de canais.
+- Use defensores para manter o uso, se ele começar a diminuir, e também para descobrir e propagar novos comportamentos criativos. 
+- Gerencie os convidados criteriosamente, garantindo que o acesso deles seja encerrado quando a necessidade de negócios terminar.
+- Incentive os membros a usar conversas encadeadas com linhas de assunto para melhorar a visibilidade e atenção ao rolar por um canal.
+- Permita que os canais evoluam junto com as necessidades de negócios. Adicione novos canais conforme necessário e deixe que os antigos desapareçam (ou considere arquivá-los ou excluí-los, se eles contiverem dados confidenciais ou efêmeros, com base em seus requisitos de retenção).
+- Crie novas equipes à medida que surgirem grupos ou áreas de interesse maiores.
+- Experimente diferentes colaborações de canal, como reuniões de canal ou conversas de guias referentes a documentos.
+- Use o aplicativo móvel Microsoft Teams para aumentar o engajamento.
 
 |    |     |
 |-----------|------------|
@@ -198,9 +195,11 @@ Se uma equipe começar a cair na rotina, considere estas opções:
 
 Quando o trabalho de uma equipe chega ao fim, é importante reconhecer formalmente que terminou. Assim, os membros da equipe são informados do encerramento. Além disso, é impedido o acesso a informações desatualizadas e obsoletas. Você pode usar a própria equipe para realizar tarefas de encerramento, como post-mortem e resumos executivos.
 
-Você pode excluir equipes que você sabe que não precisa (por exemplo, uma equipe criada exclusivamente para testes ou uma equipe que contenha dados confidenciais). Na verdade, as equipes são excluídas com uma “exclusão reversível” que a TI pode reverter por até 21 dias (30 dias para Grupos do Microsoft 365). A exclusão de equipes não afeta os chats nem o conteúdo retidos de acordo com as políticas de conformidade. Os canais também têm uma "exclusão reversível" e podem ser revertidos por até 21 dias após a exclusão.
+Você pode excluir equipes que você sabe que não precisa (por exemplo, uma equipe criada exclusivamente para testes ou uma equipe que contenha dados confidenciais). Na verdade, as equipes são excluídas com uma “exclusão reversível” que a TI pode reverter por até 21 dias (30 dias para Grupos do Microsoft 365). A exclusão de equipes não afeta os chats nem o conteúdo retidos de acordo com as políticas de conformidade. Os canais também têm uma "exclusão temporária" e podem ser revertidos por até 21 dias após a exclusão. Excluir um canal não excluirá a pasta ou seu conteúdo da biblioteca de documentos do Microsoft Office SharePoint Online.
 
 Você também pode usar as políticas de expiração e retenção, além de recursos de arquivamento, para reduzir a exposição de equipes que não estão mais ativas ou cujos proprietários deixaram a organização.
+
+As políticas de retenção aplicadas a equipes ou serviços associados, como o Microsoft Office SharePoint Online, podem proibir a exclusão de equipes. Além disso, considere que o conteúdo de uma equipe geralmente é mais do que apenas arquivos na biblioteca de documentos do Microsoft Office SharePoint Online; são conversas, painéis do Microsoft Planner, wikis, resultados de formulários, reuniões gravadas, blocos de anotações do Microsoft OneNote e vários outros.
 
 Para obter informações sobre como configurar políticas de expiração e retenção, confira [Visão geral de segurança e conformidade no Microsoft Teams](security-compliance-overview.md).
 
