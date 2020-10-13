@@ -19,12 +19,12 @@ ms.custom:
 description: Vídeos de treinamento, apresentações do PowerPoint, tutoriais e outros recursos para administradores sobre como planejar, implantar e executar o Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 006866c578935dd036e0879aa8157369461346e9
-ms.sourcegitcommit: 43e5a4aac11c20dd5a4c35b59695f309e1559e82
+ms.openlocfilehash: ce910aaddfdd92196d3ef912160f75105255c042
+ms.sourcegitcommit: a043bde507a9f6747fdd2063dd085edb3c1d6c3c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "48346192"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "48426926"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Introdução ao treinamento para administradores do Microsoft Teams
 
@@ -56,9 +56,9 @@ Use os recursos de treinamento para se instruir sobre o Teams, ensinar outras pe
 
 <h2>Fundamentos das salas de equipe para & profissionais do AV</h2>
 
-<p>A tabela a seguir contém links para o treinamento em vídeo abrangente, com os decks do PowerPoint em sala de opções do Microsoft Teams.  
+<p>A tabela a seguir contém links para treinamento em vídeo abrangente, com as apresentações acompanhadas do PowerPoint (em formato PDF), nas salas do Microsoft Teams.  
 
-| Módulo | Vídeo | Apresentação do PowerPoint  |
+| Módulo | Vídeo | Apresentação do PowerPoint (PDF)  |
 | ------------ | -------------------- | -------------------- |
 | Módulo 1: introdução às salas do Microsoft Teams (18:29 min) | [Vídeo](https://www.youtube.com/watch?v=LpFQ24S8QlY) | [Apresentação](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-1-introduction-to-microsoft-teams-rooms.pdf?raw=true) |
 | Módulo 2: rede do Microsoft Teams (34:10 min) | [Vídeo](https://www.youtube.com/watch?v=CqQX4Mg0f1k) | [Apresentação](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-2-network-readiness.pdf?raw=true) |

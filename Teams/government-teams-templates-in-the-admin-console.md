@@ -1,5 +1,5 @@
 ---
-title: Usar modelos de governo do teams no console de administração
+title: Usar modelos de governo do teams no centro de administração
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -11,7 +11,7 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 search.appverid: MET150
-description: Saiba como usar. Modelos de equipe para criar estruturas de equipe projetadas para necessidades governamentais fornecendo configurações, canais e aplicativos pré-instalados predefinidos usando o console de administração.
+description: Saiba como usar. Modelos de equipe para criar estruturas de equipe projetadas para necessidades governamentais fornecendo configurações, canais e aplicativos pré-instalados predefinidos usando o centro de administração.
 f1.keywords:
 - CSH
 ms.custom:
@@ -19,14 +19,14 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 623a80bbe85e0345a9b5812377290db04f4b817b
-ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
+ms.openlocfilehash: 2d3f0e4b5b84c4a359b59e6f21c7a20f3940d6ef
+ms.sourcegitcommit: df1eca90090c29eaaf7fd79bd8cc84c556f12b1e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48308134"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "48424711"
 ---
-# <a name="use-teams-government-templates-in-the-admin-console"></a>Usar modelos de governo do teams no console de administração
+# <a name="use-teams-government-templates-in-the-admin-center"></a>Usar modelos de governo do teams no centro de administração
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 

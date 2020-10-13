@@ -16,14 +16,14 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
-description: Saiba mais sobre os recursos de assistência médica que incluem coordenação, Secure Messaging, telehealth, integração do EHR e primeira integração do sistema de trabalho.
+description: Saiba mais sobre os recursos de assistência médica que incluem coordenação, mensagens de segurança, visita virtual, integração do EHR e primeira integração do sistema de trabalho.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f2654eab71d240a12f544fbee3521dacd2c49a17
-ms.sourcegitcommit: f4f5ad1391b472d64390180c81c2680f011a8a10
+ms.openlocfilehash: 03de58e9fef94dcf63649920cde5a3663a25889e
+ms.sourcegitcommit: c79b83e03a89649e2b6e494a741a392819baf2d2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48367661"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48433054"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>Introdução ao Teams para Organizações de Saúde
 
@@ -31,9 +31,9 @@ O Microsoft Teams oferece diversos recursos úteis para hospitais e outras organ
 
 - Coordenação e colaboração de cuidados
 - Mensagens seguras
-- Telehealth
-- Integração do EHR (Electronic Healthcare Record) 
-- Integração do sistema de trabalho de primeira mão 
+- Visita virtual
+- Integração do EHR (Electronic Healthcare Record)
+- Integração do sistema de trabalho de primeira mão
 
 O conteúdo desta seção baseia-se nos recursos básicos do Teams, como reuniões, chamadas e mensagens e pressupõe que você já implantou o Microsoft Teams em sua organização. Se você ainda não distribuiu o Microsoft Teams, comece lendo [como implantar o Microsoft Teams](../../How-to-roll-out-teams.md).
 
@@ -46,8 +46,6 @@ O conteúdo desta seção baseia-se nos recursos básicos do Teams, como reuniõ
 >
 >O [aplicativo listas](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) é pré-instalado para todos os usuários do Teams e está disponível como uma guia em cada equipe e canal. Com listas, o cuidado com equipes pode criar listas de pacientes usando o modelo de pacientes incorporado, do zero ou importando dados para o Excel. Para saber mais sobre como gerenciar o aplicativo listas em sua organização, consulte [gerenciar o aplicativo listas](../../manage-lists-app.md).
 
-[!INCLUDE [preview-feature](../../includes/preview-feature.md)]
-
 Agora o Microsoft Teams tem uma solução de coordenação de cuidado específica para organizações de assistência médica para ajudar a oferecer o melhor atendimento ao paciente. O crux da solução de coordenação de cuidados, o aplicativo Microsoft Teams pacientes, é um aplicativo de guia de primeira parte que se integra aos sistemas EHR (Electronic Health Record) que usam uma interface de recursos de interoperabilidade do Fast Healthcare ([FHIR](https://www.hl7.org/fhir/)) para trazer informações médicas importantes para o Microsoft Teams em contexto para habilitar a colaboração clínica e a comunicação.  
 
 A solução de coordenação de cuidados pode ser uma interface com fornecedores de software independentes (ISVs) que podem conectar o aplicativo pacientes a seus sistemas EHR usando padrões de dados de integridade existentes, como HL7v2 e FHIR. A Microsoft faz parcerias com os seguintes líderes do setor para estabelecer a integração de registros eletrônicos de integridade com o Microsoft Teams:
@@ -58,12 +56,6 @@ A solução de coordenação de cuidados pode ser uma interface com fornecedores
 - Dapasoft (por meio [de Corolar em FHIR](https://www.dapasoft.com/corolar-fhir-server-for-microsoft-teams/))
 
 Uma integração do EHR e parceiro de interoperabilidade que tentam implementar o Microsoft Teams para uma organização de provedor de assistência médica precisam fornecer ao aplicativo pacientes uma conexão segura e autenticada com os sistemas EHR da organização do provedor de assistência médica. Isso permite que o fluxo unidirecional (somente leitura) dos registros do paciente pertinentes para o aplicativo pacientes. O aplicativo pacientes compreende o formato FHIR, portanto, o parceiro também é responsável por transformar os dados agregados de vários outros formatos, como HL7v2, etc., em FHIR DSTU2 ou STU3.
-
-<br>
-
-![Ilustração realçando a coordenação e a colaboração](../../media/ehr-1.png)
-
-<br>
 
 O aplicativo pacientes se integra a sistemas EHR (Electronic Health Records) e permite que provedores de cuidado se comuniquem sobre o atendimento ao paciente em tempo real na plataforma segura da equipe. O aplicativo pacientes é o primeiro grande investimento na área de coordenação da área de atendimento, cujo objetivo é atender aos seguintes desafios:
 
@@ -79,13 +71,12 @@ O Microsoft Teams permite que médicos, clínicos, retenhas e outros funcionári
 - Usando canais com guias como uma maneira de estruturar seu trabalho, com ajuda adicional das guias às quais elas podem fixar fontes de informações
 - Usar reuniões de canal com o poder de recursos de áudio, vídeo, compartilhamento de tela, gravação e transcrição do teams para gerenciar reuniões diárias
 - Usar o aplicativo pacientes para auxiliar uma lista de pacientes de alto risco que devem ser monitorados e obtém seus detalhes mais recentes do sistema EHR. O próprio aplicativo pacientes adiciona os seguintes recursos ao Microsoft Teams:
-
-    - Capacidade de criar várias listas de pacientes em um único canal.
-    - Capacidade de exibir e classificar informações exibidas sobre pacientes por meio de colunas configuráveis.
-    - Capacidade de configurar automaticamente o aplicativo por meio de um modelo de equipe.
-    - Disponível no aplicativo Teams para iOS e Android para dispositivos móveis da primeira assistência médica, bem como cliente da Web do Microsoft Teams e da área de trabalho.
-    - Suporte para versões do FHIR DSTU2 e do STU3 por meio da análise da declaração de conformidade.
-    - Logs de auditoria para todas as ações de exibição e pesquisa em sua interface de usuário para proteger as diretrizes de PHI para HIPAA.
+  - Capacidade de criar várias listas de pacientes em um único canal.
+  - Capacidade de exibir e classificar informações exibidas sobre pacientes por meio de colunas configuráveis.
+  - Capacidade de configurar automaticamente o aplicativo por meio de um modelo de equipe.
+  - Disponível no aplicativo Teams para iOS e Android para dispositivos móveis da primeira assistência médica, bem como cliente da Web do Microsoft Teams e da área de trabalho.
+  - Suporte para versões do FHIR DSTU2 e do STU3 por meio da análise da declaração de conformidade.
+  - Logs de auditoria para todas as ações de exibição e pesquisa em sua interface de usuário para proteger as diretrizes de PHI para HIPAA.
 
 O aplicativo pacientes é criado na plataforma de extensibilidade do Teams e aproveita a estrutura guias para exibir conteúdo rico do paciente em um canal. Para saber mais sobre outros aplicativos do Teams e a plataforma em si, consulte [aplicativos para o Microsoft Teams](/microsoftteams/platform/concepts/apps/apps-overview).  
 
@@ -122,7 +113,6 @@ As mensagens seguras dão suporte à colaboração em equipes de cuidado, inclui
 
 - Um remetente de mensagem pode definir uma prioridade especial para a mensagem, para que o destinatário seja repetidamente notificado até que ele leia a mensagem.
 - Um remetente de mensagem pode solicitar uma confirmação de leitura para que elas sejam notificadas quando uma mensagem enviada por ele for lida pelo destinatário da mensagem.
-
 
 Juntos, esses recursos permitem uma atenção mais rápida para mensagens urgentes e confiança de que a mensagem foi recebida e lida. As novas equipes de cuidado ao usar esses recursos podem ser criadas em uma base por paciente. Esses recursos são baseados em políticas e podem ser atribuídos a indivíduos ou a equipes inteiras.
 

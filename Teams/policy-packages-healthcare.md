@@ -17,12 +17,12 @@ ms.custom: ''
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba como usar e gerenciar pacotes de política de equipe para sua organização de assistência médica.
-ms.openlocfilehash: dbbc0956f339760bedf1ce9cc2c5012cc317e152
-ms.sourcegitcommit: bd13aecbb25c14e17d1b64343df6d80c90b2aa45
+ms.openlocfilehash: e55102e07f7ffc77dc67c5d6697cb754c398cc40
+ms.sourcegitcommit: a043bde507a9f6747fdd2063dd085edb3c1d6c3c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "46803963"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "48427166"
 ---
 # <a name="teams-policy-packages-for-healthcare"></a>Pacotes de política de equipe para assistência médica
 
@@ -51,6 +51,16 @@ Atualmente, o Microsoft Teams inclui os seguintes pacotes de política de assist
 Cada política individual recebe o nome do pacote de política para que você possa facilmente identificar as políticas que estão vinculadas a um pacote de política. Por exemplo, quando você atribui o pacote de política do funcionário clínico à assistência médica a clínicos em sua organização, uma política chamada Healthcare_ClinicalWorker é criada para cada política do pacote.
 
 ![Captura de tela de políticas no pacote de trabalho clínico da assistência médica](media/policy-packages-healthcare-clinical-worker.png)
+
+## <a name="get-started-with-policy-packages"></a>Introdução aos pacotes de política
+
+Para começar a usar os pacotes de política da assistência médica, no Hub de integração do centro de administração do Microsoft, selecione **noções básicas sobre a assistência médica**e escolha **atribuir configurações de política por função**. Quando estiver pronto para começar, decida de quais pacotes de política você gostaria de atribuir indivíduos à sua organização.
+
+Selecione **Exibir detalhes da política** para saber mais sobre as políticas específicas em um pacote e suas respectivas configurações. Eles [podem ser personalizados](manage-policy-packages.md#customize-policies-in-a-policy-package) após a atribuição no centro de administração do teams.
+
+Escolha um ou vários pacotes para atribuir e clique em **Avançar**. Você pode procurar e adicionar pessoas ao pacote de políticas mais adequado para sua função. Um indivíduo não pode ser atribuído a mais de um pacote de política ao mesmo tempo.
+
+Depois de adicionar pessoas ao pacote de política correto, **concluir** finalizará suas seleções. Você pode continuar Personalizando e gerenciando pacotes de política no centro de administração do Microsoft Teams.
 
 ## <a name="manage-policy-packages"></a>Gerenciar pacotes de política
 
