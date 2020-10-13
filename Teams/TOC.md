@@ -52,7 +52,7 @@
 ## [Arquivar ou excluir uma equipe](archive-or-delete-a-team.md)
 ## [Migrar do Slack para o Teams](migrate-slack-to-teams.md)
 ## Trabalhar com modelos do Teams
-### [Usar modelos do Teams no console de administração](get-started-with-teams-templates-in-the-admin-console.md)
+### [Usar modelos do Teams no centro de administração](get-started-with-teams-templates-in-the-admin-console.md)
 ### [Modelos do Teams com gráfico integrado para pequenas e médias empresas](smb-templates.md)
 ### [Criar um modelo do Teams personalizado](create-a-team-template.md)
 ### [Criar um modelo a partir de uma equipe existente](create-template-from-existing-team.md)
@@ -687,7 +687,7 @@
 #### [Introdução às mensagens seguras para organizações de saúde](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
 #### [Delegação de mensagem](expand-teams-across-your-org/healthcare/hc-delegates.md)
 ### Introdução aos modelos do Teams para organizações de saúde
-#### [Usar modelos de saúde do Teams no console de administração](expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md)
+#### [Usar modelos de saúde do Teams no centro de administração](expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md)
 #### [Introdução aos modelos do Teams para organizações de saúde](expand-teams-across-your-org/healthcare/healthcare-templates.md)
 ### [Gerenciar o aplicativo Listas](manage-lists-app.md)
 ### Turnos do Teams
@@ -725,7 +725,7 @@
 ### [Criar um aplicativo do portal de intranet do Teams a partir de um site ou página do SPO](teams-standalone-static-tabs-using-spo-sites.md)
 
 ## [Teams para o Varejo](expand-teams-across-your-org/teams-for-retail-landing-page.md)
-### [Introdução aos modelos de varejo do Teams no console de administração](retail-teams-templates-in-the-admin-console.md)
+### [Introdução aos modelos de varejo do Teams no centro de administração](retail-teams-templates-in-the-admin-console.md)
 ### [Introdução aos modelos de varejo do Teams](get-started-with-retail-teams-templates.md)
 
 ## [Teams para a Administração Pública](expand-teams-across-your-org/teams-for-government-landing-page.md)
