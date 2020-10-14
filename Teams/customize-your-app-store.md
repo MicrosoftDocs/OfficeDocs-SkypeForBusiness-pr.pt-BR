@@ -19,12 +19,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Saiba mais sobre o repositório de aplicativos personalizados no Microsoft Teams.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: fcfaee55f73ef86f1a03e99364fde1aaa306ed8a
-ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
+ms.openlocfilehash: f02346321002f90e9a92bc0db033a3b4437bea18
+ms.sourcegitcommit: f18941b6dc17b6ea411e10970602aee271242d43
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47359878"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "48456145"
 ---
 # <a name="custom-apps-store-in-microsoft-teams"></a>Repositório de aplicativos personalizados no Microsoft Teams
 
@@ -43,7 +43,7 @@ Agora você pode personalizar a loja de aplicativos do teams com sua identidade 
 
 Aqui você pode carregar o logotipo da sua organização. O logotipo selecionado será exibido no cliente do teams em **aplicativos**  >  **criados para a página do locatário** .
 
-Quando você seleciona a opção **escolher uma imagem** , pode carregar o arquivo de sua escolha. O logotipo deve ser 240x60 ou será dimensionado para esse tamanho. Não deve ser maior do que 5 MB. Os formatos com suporte são:
+Quando você seleciona a opção **escolher uma imagem** , pode carregar o arquivo de sua escolha. O logotipo deve ser 240x60 ou será dimensionado para esse tamanho. Ele não deve ter mais de 5 MB. Os formatos com suporte são:
 
 - . svg
 - . png
@@ -57,9 +57,9 @@ O logotipo é mostrado no canto superior direito do catálogo de aplicativos do 
 <a name="orglogomark"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-O logomark da sua organização ou um logotipo pequeno é uma imagem ou um símbolo que representa a marca da sua organização e não inclui o nome da sua empresa. O logomark ajuda os membros da equipe a identificar a loja de aplicativos. O logotipo selecionado será exibido na página Teams Client na página apps.
+O Lovemark da sua organização ou um logotipo pequeno é uma imagem ou um símbolo que representa a marca da sua organização e não inclui o nome da sua empresa. O logomark ajuda os membros da equipe a identificar a loja de aplicativos. O logotipo selecionado será exibido na página Teams Client na página apps.
 
-Quando você seleciona a opção **escolher uma imagem** , pode carregar o arquivo de sua escolha. O logomark deve ter 32x32 pixels ou será dimensionado para esse tamanho. Não deve ser maior do que 5 MB. Os formatos com suporte são:
+Quando você seleciona a opção **escolher uma imagem** , pode carregar o arquivo de sua escolha. O logomark deve ter 32x32 pixels ou será dimensionado para esse tamanho. Ele não deve ter mais de 5 MB. Os formatos com suporte são:
 
 - . svg
 - . png
@@ -78,7 +78,7 @@ O plano de fundo deve ter contraste suficiente com o texto para que os usuários
 Suas opções são:
 
 - Usar o tema em segundo plano padrão do cliente do teams
-- Escolha uma imagem. Ao selecionar a imagem de tela de fundo, você pode carregar o arquivo de sua escolha. O plano de fundo deve ser 1212x100 pixels ou será dimensionado para esse tamanho. Não deve ser maior do que 5 MB. Os formatos com suporte são:
+- Escolha uma imagem. Ao selecionar a imagem de tela de fundo, você pode carregar o arquivo de sua escolha. O plano de fundo deve ser 1212x100 pixels ou será dimensionado para esse tamanho. Ele não deve ter mais de 5 MB. Os formatos com suporte são:
   - . svg
   - . png
   - . jpg
@@ -100,8 +100,8 @@ Quando você seleciona **escolher uma cor personalizada**, um seletor de cores �
 
 ## <a name="complete-the-customization-of-your-team-apps-store"></a>Concluir a personalização da loja de aplicativos da equipe
 
-Quando terminar de personalizar sua loja de aplicativos, certifique-se de clicar em **salvar** para salvar as alterações.
-Para visualizar suas alterações, clique em **Visualizar aplicativos armazenar** para ver uma representação de seu armazenamento de aplicativos personalizados.
+Quando terminar de personalizar o repositório de aplicativos, selecione **salvar** para salvar as alterações.
+Para visualizar suas alterações, selecione **Visualizar aplicativos da loja** para ver uma representação de seu armazenamento de aplicativos personalizados.
 
 > [!Note]
 > A representação pode variar da versão final do seu armazenamento de aplicativos personalizados porque algumas cores padrão se baseiam na versão do cliente das equipes dos seus usuários.

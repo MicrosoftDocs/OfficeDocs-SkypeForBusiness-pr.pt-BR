@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: A seguir, a descrição da funcionalidade de visualização aberta para videoconferência na rede.
-ms.openlocfilehash: 38b8be382ccd1b80002688cdb7fce9aa166efc2c
-ms.sourcegitcommit: f9daef3213a305676127cf5140af907e3b96d046
+ms.openlocfilehash: 18bd33281379efe7dd2e64019e20a66a2dbec920
+ms.sourcegitcommit: c48a5aca37220ac6a797ac88b09cf80090b1b7df
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48369175"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48444207"
 ---
 # <a name="open-preview-of-on-network-conferencing-for-audio-conferencing"></a>Abrir a visualização de conferências na rede para videoconferências
 
@@ -38,7 +38,7 @@ Este artigo descreve os pré-requisitos e as etapas de configuração necessári
 
 Antes de configurar a conferência na rede, certifique-se de que sua organização atenda aos seguintes pré-requisitos: 
 
-- Certifique-se de que todos os usuários de sua organização estejam habilitados, ou serão habilitados, para videoconferências no modo somente Teams. O roteamento de chamadas de videoconferência de entrada e saída para a conferência pela rede só tem suporte em reuniões de equipe.
+- Certifique-se de que todos os usuários de sua organização estejam habilitados, ou serão habilitados, para videoconferências que estão usando o Microsoft Teams para todas as reuniões. O roteamento de chamadas de videoconferência de entrada e saída para a conferência pela rede só tem suporte em reuniões de equipe.
 
 - Atribua licenças de audioconferência a todos os usuários que usarão conferências na rede.
 
@@ -70,7 +70,7 @@ A política OnlineAudioConferencingRoutingPolicy é equivalente à CsOnlineVoice
 -   New-CsOnlineAudioConferencingRoutingPolicy
 - Set-CsOnlineAudioConferencingRoutingPolicy
 - Get-CsOnlineAudioConferencingRoutingPolicy
-- Grant CsOnlineAudioConferencingRoutingPolicy
+- Grant-CsOnlineAudioConferencingRoutingPolicy
 - Remove-CsOnlineAudioConferencingRoutingPolicy
 
 Para obter mais informações sobre roteamento para roteamento direto, consulte [Configurar roteamento de voz para roteamento direto](direct-routing-voice-routing.md).
@@ -101,7 +101,7 @@ Os usos de PSTN são coleções de rotas de voz. Quando uma chamada de discagem 
 
 Você pode criar um uso de PSTN usando o cmdlet "Set-CsOnlinePstnUsage". Por exemplo:
 
-```
+```powershell
 Set-CsOnlinePstnUsage -Identity Global -Usage @{Add="US and Canada"}
 ```
 
@@ -111,7 +111,7 @@ As rotas de voz determinam o gateway PSTN que deve ser usado para direcionar uma
 
 Você pode criar uma rota de voz e definir o Regex e os gateways a serem associados à rota de voz usando o cmdlet "New-CsOnlineVoiceRoute". Por exemplo:
 
-```
+```powershell
 New-CsOnlineVoiceRoute -Identity "Redmond 1" -NumberPattern "^\+1(425|206)(\d{7})$" -OnlinePstnGatewayList sbc1.contoso.biz, sbc2.contoso.biz -Priority 1 -OnlinePstnUsages "US and Canada"
 ```
 
@@ -121,7 +121,7 @@ As políticas de roteamento de voz de audioconferência determinam as possíveis
 
 Você pode criar uma política de roteamento de voz de audioconferência usando o cmdlet "New-CsOnlineAudioConferencingRoutingPolicy". Por exemplo:
 
-```
+```powershell
 New-CsOnlineAudioConferencingRoutingPolicy "Policy 1" -OnlinePstnUsages "US and Canada"
 ```
 
@@ -133,14 +133,14 @@ Depois que as políticas de roteamento de audioconferência são definidas, agor
 
 Você pode atribuir uma política de roteamento de voz de audioconferência a um usuário usando o cmdlet "Grant-CsOnlineAudioConferencingRoutingPolicy". Por exemplo:
 
-```
+```powershell
 Grant-CsOnlineAudioConferencingRoutingPolicy -Identity "<User Identity>" -PolicyName "Policy 1”
 ```
 
 
 ### <a name="configure-routing-on-the-telephony-equipment-of-your-organization"></a>Configurar o roteamento no equipamento de telefonia da sua organização
 
-No equipamento de telefonia da sua organização, você precisa garantir que as chamadas de discagem externa da reunião roteadas pelo encaminhamento direto sejam roteadas para o destino pretendido.
+No equipamento de telefonia da sua organização, você precisa garantir que as chamadas de discagem externa da reunião roteadas pelo roteamento direto sejam roteadas para o destino na rede desejado.
 
 
 ### <a name="optional-configure-a-dial-plan"></a>Adicionais Configurar um plano de discagem

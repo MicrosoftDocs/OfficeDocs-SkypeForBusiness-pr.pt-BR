@@ -19,25 +19,23 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.orgwidesettings.holidays.overview
 - seo-marvel-apr2020
-description: Saiba como configurar feriados no Microsoft Teams e conectá-los ao atendedor automático usando o recurso feriados.
-ms.openlocfilehash: bd8b70fcd3f7fd50826498e91fdbbace602fc0f6
-ms.sourcegitcommit: 2874aec7768bb46ed4506c1a2d431841f47190bf
+description: Saiba como configurar feriados no Microsoft Teams para uso com seus atendedores automáticos.
+ms.openlocfilehash: cac41995f8faa072eaac2596d246808ac77fe431
+ms.sourcegitcommit: c48a5aca37220ac6a797ac88b09cf80090b1b7df
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "47255404"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48444238"
 ---
 # <a name="set-up-holidays-in-microsoft-teams"></a>Configurar feriados no Microsoft Teams
 
-Você pode usar o recurso feriados do Microsoft Teams para agendar datas e horas específicas quando as pessoas em sua organização estiverem demorando do trabalho e não estarão disponíveis durante o horário comercial normal. 
+Você pode usar o recurso feriados do teams para agendar datas e horas específicas quando as pessoas em sua organização estiverem demorando do trabalho e não estarão disponíveis. Por exemplo, você pode criar um feriado para o novo feriado do ano em que muitos de seus funcionários não estão no trabalho.
 
-Você pode vincular os feriados a atendedores automáticos criados dentro da sua organização. Atendedores automáticos permitem que os chamadores naveguem em um sistema de menus para acessar o departamento certo ou acessar as informações necessárias. Ao definir as configurações de chamada de feriado para um atendedor automático, você pode selecionar o feriado de uma lista, adicionar uma saudação e especificar o que fazer com a chamada quando ela for atendida pelo atendedor automático durante o feriado.
-
-Um bom exemplo é criar um feriado de Natal para quando muitos de seus funcionários não estão no trabalho. Depois de criar o feriado e os horários definidos, você adicionaria o feriado ao atendedor automático principal para que, quando as pessoas ligarem, eles ouvirão uma mensagem de áudio que você criou. Algo parecido, "Estamos fechados para o Natal de dezembro de 22nd até dezembro de 27. Deixe-nos uma mensagem de voz para que possamos retornar sua chamada quando estivermos de volta ao escritório. "
-
-Para obter mais informações sobre atendedores automáticos, consulte [o que são atendedores automáticos da nuvem](what-are-phone-system-auto-attendants.md)?  
+Os feriados que você cria aqui estão disponíveis quando você [configura um atendedor automático](create-a-phone-system-auto-attendant.md), cada um com sua própria saudação e configurações de encaminhamento de chamadas.
 
 ## <a name="create-a-holiday"></a>Criar um feriado
+
+Para criar um feriado:
 
 1. No centro de administração do Microsoft Teams, vá para feriados **de configurações de toda a organização**  >  **Holidays**.
 
@@ -55,9 +53,15 @@ Para obter mais informações sobre atendedores automáticos, consulte [o que s�
 
 8. Use a lista suspensa para selecionar uma hora de término do feriado.
 
-9. Selecione **salvar**.
+9. Opcionalmente, adicione mais datas para feriados recorrentes.
+
+10. Selecione **salvar**.
+
+    ![](media/holidays-set-up.png)
 
 ## <a name="change-a-holiday"></a>Alterar um feriado
+
+Para alterar um feriado:
 
 1. No centro de administração do Microsoft Teams, vá para feriados **de configurações de toda a organização**  >  **Holidays**.
 
@@ -73,21 +77,6 @@ Para obter mais informações sobre atendedores automáticos, consulte [o que s�
 
 7. Selecione **salvar**.
 
-## <a name="connect-a-holiday-to-an-auto-attendant"></a>Conectar um feriado a um atendedor automático
-
-1. No centro de administração do Microsoft Teams, **Voice**acesse  >  **atendedores automáticos**de voz.
-2. Selecione uma conta de recurso na lista.
-3. No painel esquerdo, selecione **configurações de chamadas de Natal**.
-4. Selecione **novo feriado**.
-5. Selecione o feriado na lista suspensa.
-6. Você pode adicionar uma saudação opcional:
-    - Para reproduzir uma saudação gravada, selecione **executar um arquivo de áudio**e, em seguida, selecione **carregar arquivo**. Navegue até o local do arquivo de áudio, selecione o arquivo e, em seguida, selecione **abrir**.
-    - Para criar uma saudação, selecione **digitar uma mensagem de saudação**e, em seguida, digite sua mensagem. Os chamadores ouvirão essa mensagem se você não tiver fornecido um arquivo de áudio.
-7. Para encerrar a chamada após a saudação, em **ações**, selecione **Desconectar**. 
-
-    Para redirecionar a chamada, selecione **redirecionar chamada**e, em seguida, selecione a pessoa que receberá a chamada redirecionada na lista suspensa ou procure a pessoa por nome para exibição.
-8. Selecione **salvar**.
-
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[O que são atendedores automáticos da nuvem](what-are-phone-system-auto-attendants.md)?
+[Planejar os atendedores automáticos e as filas de chamadas do teams](plan-auto-attendant-call-queue.md)
