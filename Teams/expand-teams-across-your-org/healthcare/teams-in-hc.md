@@ -18,12 +18,12 @@ appliesto:
 ms.reviewer: ''
 description: Saiba mais sobre os recursos de assistência médica que incluem coordenação, mensagens de segurança, visita virtual, integração do EHR e primeira integração do sistema de trabalho.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 03de58e9fef94dcf63649920cde5a3663a25889e
-ms.sourcegitcommit: c79b83e03a89649e2b6e494a741a392819baf2d2
+ms.openlocfilehash: 07f5e87a454091319775bf5e1124e2c4651ea736
+ms.sourcegitcommit: 51d94d621e3411f35622e852b699275f526600dd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48433054"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "48469547"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>Introdução ao Teams para Organizações de Saúde
 
@@ -92,8 +92,6 @@ Consulte [integrando os registros eletrônicos de assistência médica ao Micros
 Novos modelos para a criação de equipes foram desenvolvidos para serem aplicados a uma configuração do hospital e mais esperadas em breve. Isso facilita a criação de equipes que os funcionários da área de saúde usam para coordenar o cuidado com pacientes em vários departamentos ou em diante. Consulte [introdução aos modelos de equipe para organizações de assistência médica](healthcare-templates.md). As equipes podem ser iniciadas para departamentos internos, como cardiologia ou para portabilidade, e mais modelos estão em desenvolvimento.
 
 ## <a name="lists-app"></a>Aplicativo listas
-
-[!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
 O aplicativo listas no Teams ajuda as equipes a acompanhar informações e organizar o trabalho. O aplicativo é pré-instalado para todos os usuários do Teams e está disponível como uma guia em cada equipe e canal. As listas podem ser criadas do zero, de modelos predefinidos ou importando dados para o Excel.
 
