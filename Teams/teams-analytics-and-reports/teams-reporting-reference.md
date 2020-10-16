@@ -16,12 +16,12 @@ description: Neste artigo, você aprenderá sobre os relatórios do teams que es
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 943e8db82f69548008430df082638f61d09b6782
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 027be1837f7a3761a7e1bf97489c49d900173663
+ms.sourcegitcommit: d7e0406276def8bc731aa6dcbd49802441ec5138
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690967"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "48476696"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Análise e relatórios do Microsoft Teams
 
@@ -29,7 +29,7 @@ Uma nova experiência de análise e relatórios do Microsoft Teams está dispon�
 
 ## <a name="how-to-access-the-reports"></a>Como acessar os relatórios
 
-Para acessar os relatórios, você deve ser um administrador global no Microsoft 365 ou do Office 365, do administrador de serviços do Teams, do administrador de comunicações do teams ou do administrador do Skype for Business. Para saber mais sobre as funções de administração do Teams e quais relatórios cada função de administrador pode acessar, consulte [usar funções de administrador do teams para gerenciar o Microsoft Teams](../using-admin-roles.md).
+Para acessar os relatórios, você deve ser um administrador global do Microsoft 365 ou do Office 365, do administrador de serviços do teams ou do administrador do Skype for Business. Para saber mais sobre as funções de administração do Teams e quais relatórios cada função de administrador pode acessar, consulte [usar funções de administrador do teams para gerenciar o Microsoft Teams](../using-admin-roles.md).
 
 Vá para o centro de administração do Microsoft Teams, no painel de navegação à esquerda, selecione **relatórios de análise &** e, em seguida, em **relatório**, escolha o relatório que você deseja executar.
 

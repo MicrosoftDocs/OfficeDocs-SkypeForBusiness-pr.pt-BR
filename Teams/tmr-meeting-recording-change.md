@@ -16,25 +16,25 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 83a7a0628d76a96318081ec51a039d458ea1570f
-ms.sourcegitcommit: c48a5aca37220ac6a797ac88b09cf80090b1b7df
+ms.openlocfilehash: 624dcb4f99bc8ae2b83a1b8f62917ac0a5701888
+ms.sourcegitcommit: 8a345ca9a8ddc6a84f9e270ab55f1b28f6ba49c8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48444227"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48486766"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Usar o OneDrive for Business e o SharePoint ou o Stream para gravações de reunião
 
 > [!Note]
 > A alteração do uso do Microsoft Stream para o OneDrive for Business e do Microsoft SharePoint para gravações de reunião será uma abordagem em fases.
 
-|||
-|---|-----------------|
+
 |Data|Evento|
+|---|-----------------|
 |CY20 no início do quarto trimestre|**A gravação de reunião do teams no OneDrive for Business e no SharePoint está disponível para aceitação ou cancelamento.**<br> Os administradores de locatários podem optar ou recusar o OneDrive for Business e o SharePoint Configurando a política de equipe no PowerShell|
 |Mid CY20 do quarto trimestre|**Gravação de reunião do teams no OneDrive for Business e no SharePoint definido como padrão para locatários que não são recusados**<br> Esse é o caminho recomendado para a maioria dos clientes|
-T1 CY21|**Salvar a gravação da reunião do teams no fluxo clássico não é mais permitido**<br>Todos os locatários salvarão o registro de reunião do teams no OneDrive for Business e no SharePoint|
-|||
+|T1 CY21|**Salvar a gravação da reunião do teams no fluxo clássico não é mais permitido**<br>Todos os locatários salvarão o registro de reunião do teams no OneDrive for Business e no SharePoint|
+
 
 O Microsoft Teams tem um novo método para salvar gravações na reunião. Como a primeira fase de uma transição do fluxo clássico da Microsoft para o [novo fluxo](https://docs.microsoft.com/stream/streamnew/new-stream), esse método armazena gravações no Microsoft onedrive e no SharePoint no Microsoft 365 e oferece muitos benefícios.
 
@@ -98,6 +98,23 @@ Mesmo se uma política disser que está definida como **Stream**, ela pode não 
 ```PowerShell
    Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 ```
+
+## <a name="permissions-or-role-based-access"></a>Permissões ou acesso baseado na função
+
+
+|Tipo de reunião                               | Quem clicou no registro?| Onde está a gravação?                               |Quem tem acesso? R/W, R ou compartilhamento                                                                                                                                                                                                                                                     |
+|-------------------------------------------|-----------------------|--------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|1:1 chamada com partes internas             |Chamador                 |Conta do OneDrive for Business do chamador                        |-O chamador é proprietário, tem permissões completas-o recurso de chamada (se estiver no mesmo locatário) tem acesso somente leitura, sem acesso de compartilhamento-Calle (se estiver em um locatário diferente) não tem acesso. O chamador deve compartilhá-lo para o receptor|
+|1:1 chamada com partes internas             |Receptor                 |Conta do OneDrive for Business do chamador                        |-O proprietário é proprietário, tem direitos totais-quem está no mesmo locatário tem acesso somente leitura, sem acesso de compartilhamento-o autor de chamadas (se estiver em um locatário diferente) não tem acesso. O chamado deve compartilhá-lo para o chamador|
+|1:1 chamada com chamada externa             |Chamador                 |Conta do OneDrive for Business do chamador                        |-O chamador é proprietário, tem direitos totais-o Calle não tem acesso. O chamador deve compartilhá-lo para o receptor|
+|1:1 chamada com chamada externa             |Receptor                 |Conta do OneDrive for Business do chamador                        |-O proprietário é proprietário, tem direitos totais – o autor de chamada não tem acesso. O chamado deve compartilhá-lo para o chamador|
+|Chamada em grupo                                 |Qualquer membro da chamada |Membro que clicou na conta do OneDrive for Business do registro  |-O membro que clicou em registro tem direitos totais – outros membros do mesmo locatário têm direitos de leitura: outros membros para diferentes não têm direitos a ele.|
+|Reunião adhoc/agendada                    |Organizador              |Conta do OneDrive for Business do organizador                     |-O organizador tem permissões completas para a gravação-todos os outros membros da reunião têm acesso de leitura|
+|Reunião adhoc/agendada                    |Outro membro de reunião   |Membro que clicou em gravar                                  |-O membro que clicou em registro tem direitos totais ao organizador de gravação tem direitos de edição e pode compartilhar-todos os outros membros têm acesso de leitura|
+|Reunião adhoc/agendada com usuários externos|Organizador              |Conta do OneDrive for Business do organizador                     |-O organizador tem permissões completas para a gravação-todos os outros membros da reunião do mesmo locatário que o organizador têm acesso de leitura-todos os outros membros externos não têm acesso e o organizador deve compartilhá-lo para ele|
+|Reunião adhoc/agendada com usuários externos|Outro membro de reunião   |Membro que clicou em gravar                                  |-O membro que clicou em registro tem direitos totais ao organizador de gravação tem direitos de edição e pode compartilhar todos os outros membros da reunião a partir do mesmo locatário que o organizador tem acesso de leitura-todos os outros membros externos não têm acesso e o organizador deve compartilhá-lo para ele|
+|Reunião de canal                            |Membro do canal         |Local do SharePoint do teams para esse canal                   |-Membro que clicou em registro tem direitos de edição para a gravação-as permissões de cada membro são baseadas nas permissões do SharePoint do canal|
+
 
 ## <a name="frequently-asked-questions"></a>Perguntas frequentes
 

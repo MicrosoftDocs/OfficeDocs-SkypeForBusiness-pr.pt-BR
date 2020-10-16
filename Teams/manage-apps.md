@@ -17,17 +17,17 @@ description: Saiba como gerenciar seus aplicativos do teams na página Gerenciar
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: d75664a6d3884529936f8adcb69a928bdd238b3d
-ms.sourcegitcommit: fd7d5ba09ef30cf4594e352c36f62b950e0e41a6
+ms.openlocfilehash: 226bd98c741a84a2d7f26c1808a4c8d7e9a6bb53
+ms.sourcegitcommit: 8a345ca9a8ddc6a84f9e270ab55f1b28f6ba49c8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48336941"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48486776"
 ---
 <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>Gerenciar seus aplicativos no centro de administração do Microsoft Teams
 ======================================================
 
-Como administrador, a página Gerenciar aplicativos no centro de administração do Microsoft Teams é onde você vê e gerencia todos os aplicativos do teams para sua organização. Aqui, você pode ver o status e as propriedades de nível de organização de aplicativos, aprovar ou carregar novos aplicativos personalizados para a loja de aplicativos da sua organização, bloquear ou permitir aplicativos no nível da organização, adicionar aplicativos às equipes (na visualização), comprar serviços para aplicativos de terceiros, exibir as permissões solicitadas por aplicativos, conceder consentimento de administrador aos aplicativos e gerenciar as configurações de aplicativo em toda a
+Como administrador, a página Gerenciar aplicativos no centro de administração do Microsoft Teams é onde você vê e gerencia todos os aplicativos do teams para sua organização. Aqui, você pode ver o status e as propriedades de nível de organização de aplicativos, aprovar ou carregar novos aplicativos personalizados para a loja de aplicativos da sua organização, bloquear ou permitir aplicativos no nível da organização, adicionar aplicativos a Teams, comprar serviços para aplicativos de terceiros, exibir permissões solicitadas por aplicativos, conceder consentimento de administrador aos aplicativos e gerenciar as configurações de aplicativo em toda a organização.
 
 A página Gerenciar aplicativos fornece um modo de exibição para todos os aplicativos disponíveis, fornecendo a você as informações de que você precisa para decidir quais aplicativos permitir ou bloquear em sua organização. Em seguida, você pode usar [políticas de permissão do aplicativo](teams-app-permission-policies.md), políticas de configuração do [aplicativo](teams-app-setup-policies.md)e [políticas e configurações personalizadas do aplicativo](teams-custom-app-policies-and-settings.md) para configurar a experiência do aplicativo para usuários específicos em sua organização.
 
@@ -108,8 +108,6 @@ Quando você bloqueia ou permite um aplicativo na página Gerenciar aplicativos,
  > Para desinstalar um aplicativo, clique com o botão direito do mouse no aplicativo e, em seguida, clique em **desinstalar** ou use o menu **mais aplicativos** no lado esquerdo.
 
 ## <a name="add-an-app-to-a-team"></a>Adicionar um aplicativo a uma equipe
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 Use o botão **Adicionar à equipe** para instalar um aplicativo para uma equipe. Lembre-se de que isso é somente para aplicativos que podem ser instalados em um escopo de equipe. O botão **Adicionar à equipe** não está disponível para aplicativos que só podem ser instalados no escopo pessoal.
 

@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4a709f747d448b8a820cdd3d6fc3d1b732cc4a2a
-ms.sourcegitcommit: b37632ffa22e3a6045b476c95d46889e9193a15b
+ms.openlocfilehash: 8a6df112d0ea8359e3fe7db07bd644b0b90404f0
+ms.sourcegitcommit: 8a345ca9a8ddc6a84f9e270ab55f1b28f6ba49c8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47955879"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48486756"
 ---
 # <a name="pstn-considerations-when-upgrading-to-teams-mdash-for-it-administrators"></a>Considerações de PSTN durante a atualização para o Microsoft Teams &mdash; para administradores de ti
 
@@ -44,7 +44,8 @@ Além disso, os seguintes artigos descrevem conceitos importantes de atualizaç�
 
 
  > [!NOTE]
- > Só há suporte para o uso do sistema telefônico com Teams quando o usuário está no modo TeamsOnly.  Se o usuário estiver no modo de ilhas, o sistema telefônico só será compatível com o Skype for Business. 
+ > - Só há suporte para o uso do sistema telefônico com Teams quando o usuário está no modo TeamsOnly.  Se o usuário estiver no modo de ilhas, o sistema telefônico só será compatível com o Skype for Business. 
+ > - Todas as configurações de encaminhamento de chamadas e delegação do Skype for Business não são migradas e precisarão ser recriadas para o Microsoft Teams.
 
 
 ## <a name="pstn-calling-scenarios"></a>Cenários de chamadas PSTN
@@ -109,7 +110,7 @@ As etapas básicas estão listadas abaixo.  As etapas 1-5 são listadas na sequ�
 
 6. Atualize o usuário: essas etapas devem ser coordenadas. 
 
-   - Usando as ferramentas locais do Skype for Business, execute move-CsUser com a opção-MoveToTeams. Se você estiver usando uma versão do Skype for Business Server que não seja compatível com a opção MoveToTeams, primeiro execute move-CsUser e, em seguida, atribua o modo TeamsOnly no PowerShell remoto do locatário ou no console de administração do teams.
+   - Usando as ferramentas locais do Skype for Business, execute Move-CsUser opção com o MoveToTeams. Se você estiver usando uma versão do Skype for Business Server que não seja compatível com a opção MoveToTeams, primeiro execute Move-CsUser e, em seguida, atribua o modo TeamsOnly no PowerShell remoto do locatário ou no console de administração do teams.
 
    - No SBC, configure o roteamento de voz para permitir chamadas recebidas enviando chamadas para roteamento direto em vez de para o servidor de mediação local. 
 
@@ -135,7 +136,7 @@ As etapas básicas estão listadas abaixo.As etapas 1-5 são listadas na sequên
    - Se você for reutilizar os números, envie uma solicitação de portabilidade para a sua operadora.  
    - Você também pode adquirir novos números diretamente da Microsoft. 
 
-6. Atualize o usuário e, se necessário, atribua LineUri. Usando as ferramentas locais do Skype for Business, execute move-CsUser com a opção-MoveToTeams.  
+6. Atualize o usuário e, se necessário, atribua LineUri. Usando as ferramentas locais do Skype for Business, execute Move-CsUser com a opção MoveToTeams.  
 
     - Se estiver transportando números para a Microsoft, você deve coordenar o intervalo dessa operação para ocorrer quando a porta ocorrer. 
 
