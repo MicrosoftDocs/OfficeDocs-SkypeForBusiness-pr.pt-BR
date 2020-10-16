@@ -3,6 +3,7 @@ title: Guia de Segurança do Microsoft Teams
 author: MSFTTracyP
 ms.author: tracyp
 manager: dansimp
+ms.date: 10/15/2020
 ms.topic: reference
 ms.service: msteams
 audience: admin
@@ -19,12 +20,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d90ec791fc46b6fc5f218190f15bc9e2c2b79337
-ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
+ms.openlocfilehash: aebd85f7f2cc8234edce285a23c011f82914af8b
+ms.sourcegitcommit: 8a345ca9a8ddc6a84f9e270ab55f1b28f6ba49c8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/15/2020
-ms.locfileid: "46761287"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48486796"
 ---
 # <a name="security-and-microsoft-teams"></a>Segurança e Microsoft Teams
 
@@ -239,7 +240,7 @@ Habilitar os usuários externos a participar de reuniões do Teams pode ser muit
 Também é possível que um organizador defina as configurações para permitir que os chamadores de discagem sejam a primeira pessoa de uma reunião. Essa configuração é definida nas configurações de videoconferência para os usuários e se aplica a todas as reuniões agendadas pelo usuário.
 
 > [!NOTE]
-> Para obter mais informações sobre o convidado e o acesso externo no Teams, confira este [artigo](https://docs.microsoft.com/microsoftteams/communicate-with-users-from-other-organizations). Ele aborda quais recursos os usuários convidados ou externos podem esperar ver e usar quando fazem logon no Teams.
+> Para obter mais informações sobre o convidado e o acesso externo no Teams, confira este [artigo](https://docs.microsoft.com/microsoftteams/communicate-with-users-from-other-organizations). Ele aborda quais recursos os usuários convidados ou externos podem esperar ver e usar quando fazem logon no Teams. <p> Se você estiver gravando reuniões e deseja ver uma matriz de permissões ao acessar o conteúdo, consulte [esse artigo](https://docs.microsoft.com/microsoftteams/tmr-meeting-recording-change) e a sua matriz.
 
 ### <a name="participant-roles"></a>Funções do participante
 
@@ -305,3 +306,5 @@ Os organizadores da reunião controlam se os participantes podem fazer apresenta
 [Otimize a conectividade do Microsoft 365 ou do Office 365 para usuários remotos usando o tunelamento dividido da VPN](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-split-tunnel)
 
 - [Implementando o tunelamento dividido de VPN](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-implement-split-tunnel)
+
+[Gravações de reunião no Teams, onde as gravações são armazenadas e quem pode acessá-las](https://docs.microsoft.com/microsoftteams/tmr-meeting-recording-change)
