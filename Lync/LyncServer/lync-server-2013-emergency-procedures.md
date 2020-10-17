@@ -12,20 +12,22 @@ ms:contentKeyID: 63969640
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cfb985d8c1432e238a813646d9f3cc5b55902a85
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5768378532722556fd824b0a2fdd257666e41a99
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197314"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528768"
 ---
+# <a name="emergency-procedures-in-lync-server-2013"></a><span data-ttu-id="4e515-102">Procedimentos de emergência no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4e515-102">Emergency procedures in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="emergency-procedures-in-lync-server-2013"></a><span data-ttu-id="2e277-102">Procedimentos de emergência no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2e277-102">Emergency procedures in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,24 +37,24 @@ ms.locfileid: "42197314"
 
 <span> </span>
 
-<span data-ttu-id="2e277-103">_**Última modificação do tópico:** 2014-08-18_</span><span class="sxs-lookup"><span data-stu-id="2e277-103">_**Topic Last Modified:** 2014-08-18_</span></span>
+<span data-ttu-id="4e515-103">_**Última modificação do tópico:** 2014-08-18_</span><span class="sxs-lookup"><span data-stu-id="4e515-103">_**Topic Last Modified:** 2014-08-18_</span></span>
 
-<span data-ttu-id="2e277-104">Procedimentos de emergência são procedimentos sob demanda que estão fora dos procedimentos padrão previamente abordados e devem ser tratados pela função de gerenciamento de alterações (consulte o [MOF](https://go.microsoft.com/fwlink/p/?linkid=40939) para obter uma descrição sobre a função de "gerenciamento de alterações").</span><span class="sxs-lookup"><span data-stu-id="2e277-104">Emergency procedures are on-demand procedures that fall outside the standard procedures previously discussed and should be handled by the change management function (refer to the [MOF](https://go.microsoft.com/fwlink/p/?linkid=40939) for a description on the "change management" function).</span></span> <span data-ttu-id="2e277-105">Esses procedimentos geralmente estão relacionados a um dos seguintes:</span><span class="sxs-lookup"><span data-stu-id="2e277-105">These procedures usually relate to one of the following:</span></span>
+<span data-ttu-id="4e515-104">Procedimentos de emergência são procedimentos sob demanda que estão fora dos procedimentos padrão previamente abordados e devem ser tratados pela função de gerenciamento de alterações (consulte o [MOF](https://go.microsoft.com/fwlink/p/?linkid=40939) para obter uma descrição sobre a função de "gerenciamento de alterações").</span><span class="sxs-lookup"><span data-stu-id="4e515-104">Emergency procedures are on-demand procedures that fall outside the standard procedures previously discussed and should be handled by the change management function (refer to the [MOF](https://go.microsoft.com/fwlink/p/?linkid=40939) for a description on the "change management" function).</span></span> <span data-ttu-id="4e515-105">Esses procedimentos geralmente estão relacionados a um dos seguintes:</span><span class="sxs-lookup"><span data-stu-id="4e515-105">These procedures usually relate to one of the following:</span></span>
 
-  - <span data-ttu-id="2e277-106">Implementar alterações como parte de um esforço de solução de problemas — para resolver um problema de sistema identificado.</span><span class="sxs-lookup"><span data-stu-id="2e277-106">Implementing change as part of a troubleshooting effort—to resolve an identified system issue.</span></span>
+  - <span data-ttu-id="4e515-106">Implementar alterações como parte de um esforço de solução de problemas — para resolver um problema de sistema identificado.</span><span class="sxs-lookup"><span data-stu-id="4e515-106">Implementing change as part of a troubleshooting effort—to resolve an identified system issue.</span></span>
 
-  - <span data-ttu-id="2e277-107">Resolver uma ameaça de segurança identificada — como atualizações de software.</span><span class="sxs-lookup"><span data-stu-id="2e277-107">Resolve an identified security threat—such as software updates.</span></span>
+  - <span data-ttu-id="4e515-107">Resolver uma ameaça de segurança identificada — como atualizações de software.</span><span class="sxs-lookup"><span data-stu-id="4e515-107">Resolve an identified security threat—such as software updates.</span></span>
 
-<span data-ttu-id="2e277-108">O impacto na empresa deve ser avaliado para determinar se uma alteração temporária deve ser implementada ou canalizada por meio dos procedimentos oficiais de gerenciamento de alterações, conforme definido pela orientação mudança do quadrante.</span><span class="sxs-lookup"><span data-stu-id="2e277-108">Impact to the business should be evaluated to determine whether a temporary change should be implemented or channeled through the official change management procedures as defined by the Changing Quadrant guidance.</span></span>
+<span data-ttu-id="4e515-108">O impacto na empresa deve ser avaliado para determinar se uma alteração temporária deve ser implementada ou canalizada por meio dos procedimentos oficiais de gerenciamento de alterações, conforme definido pela orientação mudança do quadrante.</span><span class="sxs-lookup"><span data-stu-id="4e515-108">Impact to the business should be evaluated to determine whether a temporary change should be implemented or channeled through the official change management procedures as defined by the Changing Quadrant guidance.</span></span>
 
-<span data-ttu-id="2e277-109">Recomendamos a implementação de procedimentos de alteração de emergência.</span><span class="sxs-lookup"><span data-stu-id="2e277-109">We recommend implementing emergency change procedures.</span></span> <span data-ttu-id="2e277-110">Por exemplo, documente como lidar com esses tipos de procedimentos e ajuda para reduzir um estado de confusão quando uma alteração de emergência é apresentada.</span><span class="sxs-lookup"><span data-stu-id="2e277-110">For example, document how to deal with these types of procedures and help with reducing a state of confusion when an emergency change is presented.</span></span>
+<span data-ttu-id="4e515-109">Recomendamos a implementação de procedimentos de alteração de emergência.</span><span class="sxs-lookup"><span data-stu-id="4e515-109">We recommend implementing emergency change procedures.</span></span> <span data-ttu-id="4e515-110">Por exemplo, documente como lidar com esses tipos de procedimentos e ajuda para reduzir um estado de confusão quando uma alteração de emergência é apresentada.</span><span class="sxs-lookup"><span data-stu-id="4e515-110">For example, document how to deal with these types of procedures and help with reducing a state of confusion when an emergency change is presented.</span></span>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="2e277-111">Confira também</span><span class="sxs-lookup"><span data-stu-id="2e277-111">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="4e515-111">Confira também</span><span class="sxs-lookup"><span data-stu-id="4e515-111">See Also</span></span>
 
 
-[<span data-ttu-id="2e277-112">Microsoft Operations Framework 4,0</span><span class="sxs-lookup"><span data-stu-id="2e277-112">Microsoft Operations Framework 4.0</span></span>](https://go.microsoft.com/fwlink/p/?linkid=40939)  
+[<span data-ttu-id="4e515-112">Microsoft Operations Framework 4,0</span><span class="sxs-lookup"><span data-stu-id="4e515-112">Microsoft Operations Framework 4.0</span></span>](https://go.microsoft.com/fwlink/p/?linkid=40939)  
   
 
 </div>

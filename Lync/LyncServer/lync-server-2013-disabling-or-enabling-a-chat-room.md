@@ -12,20 +12,22 @@ ms:contentKeyID: 48706011
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 74c8c5d1bc78f41d4c1a2694e50fb99b869b9247
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 088ea4f3441716efdec748222e9aefeca9643a77
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197514"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528958"
 ---
+# <a name="disabling-or-enabling-a-chat-room-in-lync-server-2013"></a><span data-ttu-id="0c3a5-102">Desabilitar ou habilitar uma sala de chat no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0c3a5-102">Disabling or enabling a chat room in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="disabling-or-enabling-a-chat-room-in-lync-server-2013"></a><span data-ttu-id="420ef-102">Desabilitar ou habilitar uma sala de chat no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="420ef-102">Disabling or enabling a chat room in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,25 +37,25 @@ ms.locfileid: "42197514"
 
 <span> </span>
 
-<span data-ttu-id="420ef-103">_**Última modificação do tópico:** 2014-02-05_</span><span class="sxs-lookup"><span data-stu-id="420ef-103">_**Topic Last Modified:** 2014-02-05_</span></span>
+<span data-ttu-id="0c3a5-103">_**Última modificação do tópico:** 2014-02-05_</span><span class="sxs-lookup"><span data-stu-id="0c3a5-103">_**Topic Last Modified:** 2014-02-05_</span></span>
 
-<span data-ttu-id="420ef-104">Se o tópico de uma sala de chat persistente não for mais relevante, você poderá tornar a sala de chat indisponível para os usuários desabilitando-a.</span><span class="sxs-lookup"><span data-stu-id="420ef-104">If the topic of a Persistent Chat room is no longer relevant, you can make the chat room unavailable to users by disabling it.</span></span> <span data-ttu-id="420ef-105">Quando uma sala de chat está desabilitada, todos os membros são desconectados imediatamente da sala.</span><span class="sxs-lookup"><span data-stu-id="420ef-105">When a chat room is disabled, all members are immediately disconnected from the room.</span></span> <span data-ttu-id="420ef-106">Após uma sala de chat é desabilitada, os usuários não podem participar novamente ou encontrar nas pesquisas de sala de chat.</span><span class="sxs-lookup"><span data-stu-id="420ef-106">After a chat room is disabled, users cannot rejoin it or find it in chat room searches.</span></span>
+<span data-ttu-id="0c3a5-104">Se o tópico de uma sala de chat persistente não for mais relevante, você poderá tornar a sala de chat indisponível para os usuários desabilitando-a.</span><span class="sxs-lookup"><span data-stu-id="0c3a5-104">If the topic of a Persistent Chat room is no longer relevant, you can make the chat room unavailable to users by disabling it.</span></span> <span data-ttu-id="0c3a5-105">Quando uma sala de chat está desabilitada, todos os membros são desconectados imediatamente da sala.</span><span class="sxs-lookup"><span data-stu-id="0c3a5-105">When a chat room is disabled, all members are immediately disconnected from the room.</span></span> <span data-ttu-id="0c3a5-106">Após uma sala de chat é desabilitada, os usuários não podem participar novamente ou encontrar nas pesquisas de sala de chat.</span><span class="sxs-lookup"><span data-stu-id="0c3a5-106">After a chat room is disabled, users cannot rejoin it or find it in chat room searches.</span></span>
 
-<span data-ttu-id="420ef-107">Uma sala de chat desabilitada pode ser habilitada mais tarde por um administrador de chat persistente.</span><span class="sxs-lookup"><span data-stu-id="420ef-107">A disabled chat room can be enabled later by a Persistent Chat administrator.</span></span> <span data-ttu-id="420ef-108">Se uma sala de chat é desabilitada, sua lista de associação e outras configurações são preservadas.</span><span class="sxs-lookup"><span data-stu-id="420ef-108">If a chat room is disabled, its membership list and other settings are preserved.</span></span> <span data-ttu-id="420ef-109">Se você habilitar a sala novamente, não é necessário recriar manualmente as configurações.</span><span class="sxs-lookup"><span data-stu-id="420ef-109">If you enable the room again, you do not need to manually re-create the settings.</span></span>
+<span data-ttu-id="0c3a5-107">Uma sala de chat desabilitada pode ser habilitada mais tarde por um administrador de chat persistente.</span><span class="sxs-lookup"><span data-stu-id="0c3a5-107">A disabled chat room can be enabled later by a Persistent Chat administrator.</span></span> <span data-ttu-id="0c3a5-108">Se uma sala de chat é desabilitada, sua lista de associação e outras configurações são preservadas.</span><span class="sxs-lookup"><span data-stu-id="0c3a5-108">If a chat room is disabled, its membership list and other settings are preserved.</span></span> <span data-ttu-id="0c3a5-109">Se você habilitar a sala novamente, não é necessário recriar manualmente as configurações.</span><span class="sxs-lookup"><span data-stu-id="0c3a5-109">If you enable the room again, you do not need to manually re-create the settings.</span></span>
 
-<span data-ttu-id="420ef-p103">Se o histórico da sala de chat persistir (persistência da histórico da sala de chat é a melhor configuração em uma categoria aplicável a todas as salas dentro da categoria; o padrão é que é persistente, mas pode ser desativado configurando **Habilitar histórico de chat** da categoria para falso), o conteúdo é preservado quando a sala de chat é desabilitada. No entanto, este conteúdo não será exibido nas pesquisas durante o momento que a sala de chat permanece em um estado desabilitado. Se você posteriormente habilitar a sala de chat, os usuários podem pesquisar por mensagens publicadas antes da sala de chat ser desabilitada.</span><span class="sxs-lookup"><span data-stu-id="420ef-p103">If the chat room’s history persists (chat room history persistence is an optional setting on a category that applies to all rooms within the category; the default is that it is persisted, but can be turned off by setting the category’s **Enable Chat History** to false), the content is preserved when the chat room is disabled. However, that content will not appear in searches during the time that the chat room remains in a disabled state. If you later enable the chat room, users can search for messages that were posted before the chat room was disabled.</span></span>
+<span data-ttu-id="0c3a5-p103">Se o histórico da sala de chat persistir (persistência da histórico da sala de chat é a melhor configuração em uma categoria aplicável a todas as salas dentro da categoria; o padrão é que é persistente, mas pode ser desativado configurando **Habilitar histórico de chat** da categoria para falso), o conteúdo é preservado quando a sala de chat é desabilitada. No entanto, este conteúdo não será exibido nas pesquisas durante o momento que a sala de chat permanece em um estado desabilitado. Se você posteriormente habilitar a sala de chat, os usuários podem pesquisar por mensagens publicadas antes da sala de chat ser desabilitada.</span><span class="sxs-lookup"><span data-stu-id="0c3a5-p103">If the chat room’s history persists (chat room history persistence is an optional setting on a category that applies to all rooms within the category; the default is that it is persisted, but can be turned off by setting the category’s **Enable Chat History** to false), the content is preserved when the chat room is disabled. However, that content will not appear in searches during the time that the chat room remains in a disabled state. If you later enable the chat room, users can search for messages that were posted before the chat room was disabled.</span></span>
 
-<span data-ttu-id="420ef-113">Para obter detalhes sobre como desabilitar e habilitar salas de chat usando a interface de linha de comando do Windows PowerShell, consulte "gerenciamento de sala" em [Configurando o servidor de chat persistente usando cmdlets do Windows PowerShell](configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md).</span><span class="sxs-lookup"><span data-stu-id="420ef-113">For details about disabling and enabling chat rooms by using the Windows PowerShell command-line interface, see "Room Management" in [Configuring Persistent Chat Server by using Windows PowerShell cmdlets](configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md).</span></span> <span data-ttu-id="420ef-114">Para desabilitar uma sala de chat, use um comando semelhante ao seguinte:</span><span class="sxs-lookup"><span data-stu-id="420ef-114">To disable a chat room, use a command similar to this:</span></span>
+<span data-ttu-id="0c3a5-113">Para obter detalhes sobre como desabilitar e habilitar salas de chat usando a interface de linha de comando do Windows PowerShell, consulte "gerenciamento de sala" em [Configurando o servidor de chat persistente usando cmdlets do Windows PowerShell](configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md).</span><span class="sxs-lookup"><span data-stu-id="0c3a5-113">For details about disabling and enabling chat rooms by using the Windows PowerShell command-line interface, see "Room Management" in [Configuring Persistent Chat Server by using Windows PowerShell cmdlets](configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md).</span></span> <span data-ttu-id="0c3a5-114">Para desabilitar uma sala de chat, use um comando semelhante ao seguinte:</span><span class="sxs-lookup"><span data-stu-id="0c3a5-114">To disable a chat room, use a command similar to this:</span></span>
 
     Set-CsPersistentChatRoom -Identity "atl-cs-001.litwareinc.com\ITChatRoom" -Disabled $True
 
-<span data-ttu-id="420ef-115">Para habilitar uma sala de chat, defina a propriedade disabled como false:</span><span class="sxs-lookup"><span data-stu-id="420ef-115">To enabled a chat room, set the Disabled property to False:</span></span>
+<span data-ttu-id="0c3a5-115">Para habilitar uma sala de chat, defina a propriedade disabled como false:</span><span class="sxs-lookup"><span data-stu-id="0c3a5-115">To enabled a chat room, set the Disabled property to False:</span></span>
 
     Set-CsPersistentChatRoom -Identity "atl-cs-001.litwareinc.com\ITChatRoom" -Disabled $False
 
-<span data-ttu-id="420ef-116">Observe que as salas de chat não podem ser habilitadas ou desabilitadas usando o painel de controle do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="420ef-116">Note that chat rooms cannot be enabled or disabled by using the Lync Server Control Panel.</span></span>
+<span data-ttu-id="0c3a5-116">Observe que as salas de chat não podem ser habilitadas ou desabilitadas usando o painel de controle do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="0c3a5-116">Note that chat rooms cannot be enabled or disabled by using the Lync Server Control Panel.</span></span>
 
-<span data-ttu-id="420ef-117">Para obter detalhes sobre como configurar salas de chat, consulte [Configure Rooms in Lync Server 2013](lync-server-2013-configure-rooms.md) na documentação de implantação.</span><span class="sxs-lookup"><span data-stu-id="420ef-117">For details about configuring chat rooms, see [Configure rooms in Lync Server 2013](lync-server-2013-configure-rooms.md) in the Deployment documentation.</span></span>
+<span data-ttu-id="0c3a5-117">Para obter detalhes sobre como configurar salas de chat, consulte [Configure Rooms in Lync Server 2013](lync-server-2013-configure-rooms.md) na documentação de implantação.</span><span class="sxs-lookup"><span data-stu-id="0c3a5-117">For details about configuring chat rooms, see [Configure rooms in Lync Server 2013](lync-server-2013-configure-rooms.md) in the Deployment documentation.</span></span>
 
 </div>
 

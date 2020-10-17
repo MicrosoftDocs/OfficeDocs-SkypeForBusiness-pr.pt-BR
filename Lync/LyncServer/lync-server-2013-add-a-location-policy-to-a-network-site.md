@@ -12,20 +12,22 @@ ms:contentKeyID: 48183980
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: de9592b631562752fd2759d54b623d2ec3177d25
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 95ca625746fc38d8cab9c25701a8bf22718e71e0
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199954"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529568"
 ---
+# <a name="add-a-location-policy-to-a-network-site-in-lync-server-2013"></a><span data-ttu-id="4612a-102">Adicionar uma política de local a um site de rede no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4612a-102">Add a location policy to a network site in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="add-a-location-policy-to-a-network-site-in-lync-server-2013"></a><span data-ttu-id="00f4d-102">Adicionar uma política de local a um site de rede no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="00f4d-102">Add a location policy to a network site in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,29 +37,29 @@ ms.locfileid: "42199954"
 
 <span> </span>
 
-<span data-ttu-id="00f4d-103">_**Última modificação do tópico:** 2013-02-24_</span><span class="sxs-lookup"><span data-stu-id="00f4d-103">_**Topic Last Modified:** 2013-02-24_</span></span>
+<span data-ttu-id="4612a-103">_**Última modificação do tópico:** 2013-02-24_</span><span class="sxs-lookup"><span data-stu-id="4612a-103">_**Topic Last Modified:** 2013-02-24_</span></span>
 
-<span data-ttu-id="00f4d-104">Os exemplos a seguir mostram como adicionar a política de local **Redmond** definida em [Create Location Policies in Lync Server 2013](lync-server-2013-create-location-policies.md) a um site de rede existente e como criar um novo site de rede que usa a política de local **Redmond** .</span><span class="sxs-lookup"><span data-stu-id="00f4d-104">The following examples show how to add the **Redmond** location policy defined in [Create location policies in Lync Server 2013](lync-server-2013-create-location-policies.md) to an existing network site and how to create a new network site that uses the **Redmond** location policy.</span></span>
+<span data-ttu-id="4612a-104">Os exemplos a seguir mostram como adicionar a política de local **Redmond** definida em [Create Location Policies in Lync Server 2013](lync-server-2013-create-location-policies.md) a um site de rede existente e como criar um novo site de rede que usa a política de local **Redmond** .</span><span class="sxs-lookup"><span data-stu-id="4612a-104">The following examples show how to add the **Redmond** location policy defined in [Create location policies in Lync Server 2013](lync-server-2013-create-location-policies.md) to an existing network site and how to create a new network site that uses the **Redmond** location policy.</span></span>
 
-<span data-ttu-id="00f4d-105">Para obter detalhes sobre como trabalhar com sites de rede, consulte a documentação do Shell de gerenciamento do Lync Server para os seguintes cmdlets:</span><span class="sxs-lookup"><span data-stu-id="00f4d-105">For details about working with network sites, see the Lync Server Management Shell documentation for the following cmdlets:</span></span>
+<span data-ttu-id="4612a-105">Para obter detalhes sobre como trabalhar com sites de rede, consulte a documentação do Shell de gerenciamento do Lync Server para os seguintes cmdlets:</span><span class="sxs-lookup"><span data-stu-id="4612a-105">For details about working with network sites, see the Lync Server Management Shell documentation for the following cmdlets:</span></span>
 
-  - <span data-ttu-id="00f4d-106">**New-CsNetworkSite**</span><span class="sxs-lookup"><span data-stu-id="00f4d-106">**New-CsNetworkSite**</span></span>
+  - <span data-ttu-id="4612a-106">**New-CsNetworkSite**</span><span class="sxs-lookup"><span data-stu-id="4612a-106">**New-CsNetworkSite**</span></span>
 
-  - <span data-ttu-id="00f4d-107">**Get-CsNetworkSite**</span><span class="sxs-lookup"><span data-stu-id="00f4d-107">**Get-CsNetworkSite**</span></span>
+  - <span data-ttu-id="4612a-107">**Get-CsNetworkSite**</span><span class="sxs-lookup"><span data-stu-id="4612a-107">**Get-CsNetworkSite**</span></span>
 
-  - <span data-ttu-id="00f4d-108">**Set-CsNetworkSite**</span><span class="sxs-lookup"><span data-stu-id="00f4d-108">**Set-CsNetworkSite**</span></span>
+  - <span data-ttu-id="4612a-108">**Set-CsNetworkSite**</span><span class="sxs-lookup"><span data-stu-id="4612a-108">**Set-CsNetworkSite**</span></span>
 
-  - <span data-ttu-id="00f4d-109">**Remove-CsNetworkSite**</span><span class="sxs-lookup"><span data-stu-id="00f4d-109">**Remove-CsNetworkSite**</span></span>
+  - <span data-ttu-id="4612a-109">**Remove-CsNetworkSite**</span><span class="sxs-lookup"><span data-stu-id="4612a-109">**Remove-CsNetworkSite**</span></span>
 
 <div>
 
-## <a name="to-assign-a-location-policy-to-an-existing-network-site"></a><span data-ttu-id="00f4d-110">Para atribuir uma política de local a um site de rede existente</span><span class="sxs-lookup"><span data-stu-id="00f4d-110">To assign a location policy to an existing network site</span></span>
+## <a name="to-assign-a-location-policy-to-an-existing-network-site"></a><span data-ttu-id="4612a-110">Para atribuir uma política de local a um site de rede existente</span><span class="sxs-lookup"><span data-stu-id="4612a-110">To assign a location policy to an existing network site</span></span>
 
-1.  <span data-ttu-id="00f4d-111">Inicie o Shell de Gerenciamento do Lync Server: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Shell de Gerenciamento do Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="00f4d-111">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+1.  <span data-ttu-id="4612a-111">Inicie o Shell de Gerenciamento do Lync Server: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Shell de Gerenciamento do Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="4612a-111">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-2.  <span data-ttu-id="00f4d-112">Execute os cmdlets a seguir para modificar um site de rede existente.</span><span class="sxs-lookup"><span data-stu-id="00f4d-112">Run the following cmdlets to modify an existing network site.</span></span>
+2.  <span data-ttu-id="4612a-112">Execute os cmdlets a seguir para modificar um site de rede existente.</span><span class="sxs-lookup"><span data-stu-id="4612a-112">Run the following cmdlets to modify an existing network site.</span></span>
     
-    <span data-ttu-id="00f4d-113">Atribua a política de local marcado **Redmond** a um site de rede existente chamado **Redmond**.</span><span class="sxs-lookup"><span data-stu-id="00f4d-113">Assign the **Redmond** tagged Location policy to an existing network site named **Redmond**.</span></span>
+    <span data-ttu-id="4612a-113">Atribua a política de local marcado **Redmond** a um site de rede existente chamado **Redmond**.</span><span class="sxs-lookup"><span data-stu-id="4612a-113">Assign the **Redmond** tagged Location policy to an existing network site named **Redmond**.</span></span>
     
         Set-CsNetworkSite -Identity "Redmond" -NetworkRegionID "NorthAmerica" -LocationPolicy "Redmond"
 
@@ -65,13 +67,13 @@ ms.locfileid: "42199954"
 
 <div>
 
-## <a name="to-assign-a-location-policy-to-a-new-network-site"></a><span data-ttu-id="00f4d-114">Para atribuir uma política de local a um novo site de rede</span><span class="sxs-lookup"><span data-stu-id="00f4d-114">To assign a location policy to a new network site</span></span>
+## <a name="to-assign-a-location-policy-to-a-new-network-site"></a><span data-ttu-id="4612a-114">Para atribuir uma política de local a um novo site de rede</span><span class="sxs-lookup"><span data-stu-id="4612a-114">To assign a location policy to a new network site</span></span>
 
-1.  <span data-ttu-id="00f4d-115">Inicie o Shell de Gerenciamento do Lync Server: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Shell de Gerenciamento do Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="00f4d-115">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+1.  <span data-ttu-id="4612a-115">Inicie o Shell de Gerenciamento do Lync Server: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Shell de Gerenciamento do Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="4612a-115">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-2.  <span data-ttu-id="00f4d-116">Execute o seguinte cmdlet para criar um novo site de rede.</span><span class="sxs-lookup"><span data-stu-id="00f4d-116">Run the following cmdlet to create a new network site.</span></span>
+2.  <span data-ttu-id="4612a-116">Execute o seguinte cmdlet para criar um novo site de rede.</span><span class="sxs-lookup"><span data-stu-id="4612a-116">Run the following cmdlet to create a new network site.</span></span>
     
-    <span data-ttu-id="00f4d-117">Crie um novo site de rede na região de rede e atribua a política de local marcada \*\*Redmond \*\*.</span><span class="sxs-lookup"><span data-stu-id="00f4d-117">Create a new network site in the network region and assign the **Redmond** tagged Location policy.</span></span>
+    <span data-ttu-id="4612a-117">Crie um novo site de rede na região de rede e atribua a política de local marcada \*\*Redmond \*\*.</span><span class="sxs-lookup"><span data-stu-id="4612a-117">Create a new network site in the network region and assign the **Redmond** tagged Location policy.</span></span>
     
         New-CsNetworkSite -Identity "Redmond" -NetworkRegionID "NorthAmerica" -LocationPolicy "Redmond"
 

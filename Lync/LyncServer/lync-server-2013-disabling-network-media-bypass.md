@@ -12,20 +12,22 @@ ms:contentKeyID: 49733741
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: eaad239f320f498378498f9b3e373592d487c0c8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 29508180b54ace29e1ac913dd52d06d374068bfc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197534"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528978"
 ---
+# <a name="disabling-network-media-bypass-in-lync-server-2013"></a><span data-ttu-id="96b88-102">Desabilitando o bypass de mídia de rede no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="96b88-102">Disabling network media bypass in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="disabling-network-media-bypass-in-lync-server-2013"></a><span data-ttu-id="1ec3b-102">Desabilitando o bypass de mídia de rede no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1ec3b-102">Disabling network media bypass in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,36 +37,36 @@ ms.locfileid: "42197534"
 
 <span> </span>
 
-<span data-ttu-id="1ec3b-103">_**Última modificação do tópico:** 2012-10-15_</span><span class="sxs-lookup"><span data-stu-id="1ec3b-103">_**Topic Last Modified:** 2012-10-15_</span></span>
+<span data-ttu-id="96b88-103">_**Última modificação do tópico:** 2012-10-15_</span><span class="sxs-lookup"><span data-stu-id="96b88-103">_**Topic Last Modified:** 2012-10-15_</span></span>
 
-<span data-ttu-id="1ec3b-104">As configurações de bypass de mídia são aplicadas globalmente em uma implantação do Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="1ec3b-104">Media bypass settings apply globally across a Microsoft Lync Server 2013 deployment.</span></span> <span data-ttu-id="1ec3b-105">O desvio de mídia permite que chamadas ignorem o Servidor de Mediação.</span><span class="sxs-lookup"><span data-stu-id="1ec3b-105">Media bypass allows calls to bypass the Mediation Server.</span></span> <span data-ttu-id="1ec3b-106">Para obter detalhes sobre quando usar o bypass de mídia, consulte [Planning for Media bypass in Lync Server 2013](lync-server-2013-planning-for-media-bypass.md) na seção Planning. Você pode desabilitar o bypass de mídia no painel de controle do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="1ec3b-106">For details about when to use Media bypass, see [Planning for media bypass in Lync Server 2013](lync-server-2013-planning-for-media-bypass.md) in the Planning section.You can disable media bypass from the Lync Server Control Panel.</span></span> <span data-ttu-id="1ec3b-107">Para obter detalhes sobre como habilitar e configurar o bypass de média, consulte [habilitar o bypass de mídia de rede no Lync Server 2013](lync-server-2013-enabling-network-media-bypass.md)</span><span class="sxs-lookup"><span data-stu-id="1ec3b-107">For details on enabling and configuring medial bypass, see [Enabling network media bypass in Lync Server 2013](lync-server-2013-enabling-network-media-bypass.md)</span></span>
+<span data-ttu-id="96b88-104">As configurações de bypass de mídia são aplicadas globalmente em uma implantação do Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="96b88-104">Media bypass settings apply globally across a Microsoft Lync Server 2013 deployment.</span></span> <span data-ttu-id="96b88-105">O desvio de mídia permite que chamadas ignorem o Servidor de Mediação.</span><span class="sxs-lookup"><span data-stu-id="96b88-105">Media bypass allows calls to bypass the Mediation Server.</span></span> <span data-ttu-id="96b88-106">Para obter detalhes sobre quando usar o bypass de mídia, consulte [Planning for Media bypass in Lync Server 2013](lync-server-2013-planning-for-media-bypass.md) na seção Planning. Você pode desabilitar o bypass de mídia no painel de controle do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="96b88-106">For details about when to use Media bypass, see [Planning for media bypass in Lync Server 2013](lync-server-2013-planning-for-media-bypass.md) in the Planning section.You can disable media bypass from the Lync Server Control Panel.</span></span> <span data-ttu-id="96b88-107">Para obter detalhes sobre como habilitar e configurar o bypass de média, consulte [habilitar o bypass de mídia de rede no Lync Server 2013](lync-server-2013-enabling-network-media-bypass.md)</span><span class="sxs-lookup"><span data-stu-id="96b88-107">For details on enabling and configuring medial bypass, see [Enabling network media bypass in Lync Server 2013](lync-server-2013-enabling-network-media-bypass.md)</span></span>
 
 <div>
 
-## <a name="to-disable-media-bypass"></a><span data-ttu-id="1ec3b-108">Para desativar o desvio de mídia</span><span class="sxs-lookup"><span data-stu-id="1ec3b-108">To disable media bypass</span></span>
+## <a name="to-disable-media-bypass"></a><span data-ttu-id="96b88-108">Para desativar o desvio de mídia</span><span class="sxs-lookup"><span data-stu-id="96b88-108">To disable media bypass</span></span>
 
-1.  <span data-ttu-id="1ec3b-109">A partir de uma conta de usuário que seja membro do grupo RTCUniversalServerAdmins (ou tenha direitos de usuário equivalentes) ou atribuída à função CsAdministrator, faça logon em qualquer computador em sua implantação interna.</span><span class="sxs-lookup"><span data-stu-id="1ec3b-109">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or is assigned to the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1.  <span data-ttu-id="96b88-109">A partir de uma conta de usuário que seja membro do grupo RTCUniversalServerAdmins (ou tenha direitos de usuário equivalentes) ou atribuída à função CsAdministrator, faça logon em qualquer computador em sua implantação interna.</span><span class="sxs-lookup"><span data-stu-id="96b88-109">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or is assigned to the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-2.  <span data-ttu-id="1ec3b-110">Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="1ec3b-110">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="1ec3b-111">Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="1ec3b-111">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="96b88-110">Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="96b88-110">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="96b88-111">Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="96b88-111">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="1ec3b-112">Na barra de navegação à esquerda, clique em **Configuração da Rede** e clique em **Global**.</span><span class="sxs-lookup"><span data-stu-id="1ec3b-112">In the left navigation bar, click **Network Configuration** and then click **Global**.</span></span>
+3.  <span data-ttu-id="96b88-112">Na barra de navegação à esquerda, clique em **Configuração da Rede** e clique em **Global**.</span><span class="sxs-lookup"><span data-stu-id="96b88-112">In the left navigation bar, click **Network Configuration** and then click **Global**.</span></span>
 
-4.  <span data-ttu-id="1ec3b-p103">Na página **Global**, clique na configuração **Global**. Sempre existe somente uma configuração, sempre chamada Global.</span><span class="sxs-lookup"><span data-stu-id="1ec3b-p103">On the **Global** page, click the **Global** configuration. There is always only one configuration, and it is always named Global.</span></span>
+4.  <span data-ttu-id="96b88-p103">Na página **Global**, clique na configuração **Global**. Sempre existe somente uma configuração, sempre chamada Global.</span><span class="sxs-lookup"><span data-stu-id="96b88-p103">On the **Global** page, click the **Global** configuration. There is always only one configuration, and it is always named Global.</span></span>
 
-5.  <span data-ttu-id="1ec3b-115">No menu **Editar**, clique em **Exibir detalhes**.</span><span class="sxs-lookup"><span data-stu-id="1ec3b-115">On the **Edit** menu, click **View details**.</span></span>
+5.  <span data-ttu-id="96b88-115">No menu **Editar**, clique em **Exibir detalhes**.</span><span class="sxs-lookup"><span data-stu-id="96b88-115">On the **Edit** menu, click **View details**.</span></span>
 
-6.  <span data-ttu-id="1ec3b-116">Na página **Editar Configuração Global**, desmarque a caixa de seleção **Ativar desvio de mídia**.</span><span class="sxs-lookup"><span data-stu-id="1ec3b-116">On the **Edit Global Setting** page, clear the **Enable media bypass** check box.</span></span>
+6.  <span data-ttu-id="96b88-116">Na página **Editar Configuração Global**, desmarque a caixa de seleção **Ativar desvio de mídia**.</span><span class="sxs-lookup"><span data-stu-id="96b88-116">On the **Edit Global Setting** page, clear the **Enable media bypass** check box.</span></span>
 
-7.  <span data-ttu-id="1ec3b-117">Clique em **Confirmar** para salvar suas alterações.</span><span class="sxs-lookup"><span data-stu-id="1ec3b-117">Click **Commit** to save your changes.</span></span>
+7.  <span data-ttu-id="96b88-117">Clique em **Confirmar** para salvar suas alterações.</span><span class="sxs-lookup"><span data-stu-id="96b88-117">Click **Commit** to save your changes.</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="1ec3b-118">Confira também</span><span class="sxs-lookup"><span data-stu-id="1ec3b-118">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="96b88-118">Confira também</span><span class="sxs-lookup"><span data-stu-id="96b88-118">See Also</span></span>
 
 
-[<span data-ttu-id="1ec3b-119">Habilitando o bypass de mídia de rede no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1ec3b-119">Enabling network media bypass in Lync Server 2013</span></span>](lync-server-2013-enabling-network-media-bypass.md)  
+[<span data-ttu-id="96b88-119">Habilitando o bypass de mídia de rede no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="96b88-119">Enabling network media bypass in Lync Server 2013</span></span>](lync-server-2013-enabling-network-media-bypass.md)  
   
 
 </div>

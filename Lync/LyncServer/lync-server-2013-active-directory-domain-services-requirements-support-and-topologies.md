@@ -12,20 +12,22 @@ ms:contentKeyID: 48184902
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0eee6f9711937f25809217edcd33ea50e778807f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3a47887e7ea98c7c49eb172080464b228e35bae6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199564"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529668"
 ---
+# <a name="active-directory-domain-services-requirements-support-and-topologies-in-lync-server-2013"></a><span data-ttu-id="6d112-102">Requisitos de serviços de domínio do Active Directory, suporte e topologias no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6d112-102">Active Directory Domain Services requirements, support, and topologies in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="active-directory-domain-services-requirements-support-and-topologies-in-lync-server-2013"></a><span data-ttu-id="82027-102">Requisitos de serviços de domínio do Active Directory, suporte e topologias no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="82027-102">Active Directory Domain Services requirements, support, and topologies in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,19 +37,19 @@ ms.locfileid: "42199564"
 
 <span> </span>
 
-<span data-ttu-id="82027-103">_**Última modificação do tópico:** 2012-10-05_</span><span class="sxs-lookup"><span data-stu-id="82027-103">_**Topic Last Modified:** 2012-10-05_</span></span>
+<span data-ttu-id="6d112-103">_**Última modificação do tópico:** 2012-10-05_</span><span class="sxs-lookup"><span data-stu-id="6d112-103">_**Topic Last Modified:** 2012-10-05_</span></span>
 
-<span data-ttu-id="82027-104">Antes do Lync Server 2010, o Lync Server dependia dos serviços de domínio do Active Directory para armazenar todas as configurações globais e grupos necessários para implantar e gerenciar o Lync Server.</span><span class="sxs-lookup"><span data-stu-id="82027-104">Prior to Lync Server 2010, Lync Server relied on Active Directory Domain Services to store all the global settings and groups necessary to deploy and manage Lync Server.</span></span> <span data-ttu-id="82027-105">Agora, grande parte dessas informações é armazenada no repositório de gerenciamento central, em vez do AD DS.</span><span class="sxs-lookup"><span data-stu-id="82027-105">Now much of this information is stored in the Central Management store instead of AD DS.</span></span> <span data-ttu-id="82027-106">No entanto, as extensões de esquema de objeto do usuário, incluindo as extensões de esquema do Lync Server 2013, Lync Server 2010 e Office Communications Server 2007 R2, ainda estão armazenadas no AD DS.</span><span class="sxs-lookup"><span data-stu-id="82027-106">However, user object schema extensions, including Lync Server 2013, Lync Server 2010, and Office Communications Server 2007 R2 schema extensions, are still stored in AD DS.</span></span>
+<span data-ttu-id="6d112-104">Antes do Lync Server 2010, o Lync Server dependia dos serviços de domínio do Active Directory para armazenar todas as configurações globais e grupos necessários para implantar e gerenciar o Lync Server.</span><span class="sxs-lookup"><span data-stu-id="6d112-104">Prior to Lync Server 2010, Lync Server relied on Active Directory Domain Services to store all the global settings and groups necessary to deploy and manage Lync Server.</span></span> <span data-ttu-id="6d112-105">Agora, grande parte dessas informações é armazenada no repositório de gerenciamento central, em vez do AD DS.</span><span class="sxs-lookup"><span data-stu-id="6d112-105">Now much of this information is stored in the Central Management store instead of AD DS.</span></span> <span data-ttu-id="6d112-106">No entanto, as extensões de esquema de objeto do usuário, incluindo as extensões de esquema do Lync Server 2013, Lync Server 2010 e Office Communications Server 2007 R2, ainda estão armazenadas no AD DS.</span><span class="sxs-lookup"><span data-stu-id="6d112-106">However, user object schema extensions, including Lync Server 2013, Lync Server 2010, and Office Communications Server 2007 R2 schema extensions, are still stored in AD DS.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="82027-107">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="82027-107">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="6d112-107">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="6d112-107">In This Section</span></span>
 
-  - [<span data-ttu-id="82027-108">Suporte aos serviços de domínio do Active Directory no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="82027-108">Active Directory Domain Services support in Lync Server 2013</span></span>](lync-server-2013-active-directory-domain-services-support.md)
+  - [<span data-ttu-id="6d112-108">Suporte aos serviços de domínio do Active Directory no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6d112-108">Active Directory Domain Services support in Lync Server 2013</span></span>](lync-server-2013-active-directory-domain-services-support.md)
 
-  - [<span data-ttu-id="82027-109">Topologias do Active Directory com suporte no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="82027-109">Supported Active Directory topologies in Lync Server 2013</span></span>](lync-server-2013-supported-active-directory-topologies.md)
+  - [<span data-ttu-id="6d112-109">Topologias do Active Directory com suporte no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6d112-109">Supported Active Directory topologies in Lync Server 2013</span></span>](lync-server-2013-supported-active-directory-topologies.md)
 
-  - [<span data-ttu-id="82027-110">Requisitos de infraestrutura do Active Directory para o Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="82027-110">Active Directory infrastructure requirements for Lync Server 2013</span></span>](lync-server-2013-active-directory-infrastructure-requirements.md)
+  - [<span data-ttu-id="6d112-110">Requisitos de infraestrutura do Active Directory para o Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6d112-110">Active Directory infrastructure requirements for Lync Server 2013</span></span>](lync-server-2013-active-directory-infrastructure-requirements.md)
 
 </div>
 
