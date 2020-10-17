@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: tabela DeviceDriver'
+description: 'Lync Server 2013: tabela DeviceDriver.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48185449
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fc67c4096cde54252cec432fd8ad2196b05c00e0
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 3d81e2e27ff5196112c6057c429f924e5b1c3e4b
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48536938"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48565967"
 ---
-# <a name="devicedriver-table-in-lync-server-2013"></a><span data-ttu-id="8093c-102">Tabela DeviceDriver no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8093c-102">DeviceDriver table in Lync Server 2013</span></span>
+# <a name="devicedriver-table-in-lync-server-2013"></a><span data-ttu-id="47707-103">Tabela DeviceDriver no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="47707-103">DeviceDriver table in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,9 +38,9 @@ ms.locfileid: "48536938"
 
 <span> </span>
 
-<span data-ttu-id="8093c-103">_**Última modificação do tópico:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="8093c-103">_**Topic Last Modified:** 2012-10-02_</span></span>
+<span data-ttu-id="47707-104">_**Última modificação do tópico:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="47707-104">_**Topic Last Modified:** 2012-10-02_</span></span>
 
-<span data-ttu-id="8093c-104">A tabela DeviceDriver é uma tabela de suporte.</span><span class="sxs-lookup"><span data-stu-id="8093c-104">The DeviceDriver table is a supporting table.</span></span> <span data-ttu-id="8093c-105">Cada registro representa um driver usado por um dispositivo de captura ou um dispositivo de renderização.</span><span class="sxs-lookup"><span data-stu-id="8093c-105">Each record represents a driver used by either a capture device or render device.</span></span>
+<span data-ttu-id="47707-105">A tabela DeviceDriver é uma tabela de suporte.</span><span class="sxs-lookup"><span data-stu-id="47707-105">The DeviceDriver table is a supporting table.</span></span> <span data-ttu-id="47707-106">Cada registro representa um driver usado por um dispositivo de captura ou um dispositivo de renderização.</span><span class="sxs-lookup"><span data-stu-id="47707-106">Each record represents a driver used by either a capture device or render device.</span></span>
 
 
 <table>
@@ -51,24 +52,24 @@ ms.locfileid: "48536938"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="8093c-106"><strong>Coluna</strong></span><span class="sxs-lookup"><span data-stu-id="8093c-106"><strong>Column</strong></span></span></th>
-<th><span data-ttu-id="8093c-107"><strong>Tipo de dados</strong></span><span class="sxs-lookup"><span data-stu-id="8093c-107"><strong>Data Type</strong></span></span></th>
-<th><span data-ttu-id="8093c-108"><strong>Chave/índice</strong></span><span class="sxs-lookup"><span data-stu-id="8093c-108"><strong>Key/Index</strong></span></span></th>
-<th><span data-ttu-id="8093c-109"><strong>Detalhes</strong></span><span class="sxs-lookup"><span data-stu-id="8093c-109"><strong>Details</strong></span></span></th>
+<th><span data-ttu-id="47707-107"><strong>Coluna</strong></span><span class="sxs-lookup"><span data-stu-id="47707-107"><strong>Column</strong></span></span></th>
+<th><span data-ttu-id="47707-108"><strong>Tipo de dados</strong></span><span class="sxs-lookup"><span data-stu-id="47707-108"><strong>Data Type</strong></span></span></th>
+<th><span data-ttu-id="47707-109"><strong>Chave/índice</strong></span><span class="sxs-lookup"><span data-stu-id="47707-109"><strong>Key/Index</strong></span></span></th>
+<th><span data-ttu-id="47707-110"><strong>Detalhes</strong></span><span class="sxs-lookup"><span data-stu-id="47707-110"><strong>Details</strong></span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="8093c-110"><strong>DeviceDriverKey</strong></span><span class="sxs-lookup"><span data-stu-id="8093c-110"><strong>DeviceDriverKey</strong></span></span></p></td>
-<td><p><span data-ttu-id="8093c-111">int</span><span class="sxs-lookup"><span data-stu-id="8093c-111">int</span></span></p></td>
-<td><p><span data-ttu-id="8093c-112">Primário</span><span class="sxs-lookup"><span data-stu-id="8093c-112">Primary</span></span></p></td>
-<td><p><span data-ttu-id="8093c-113">Número exclusivo que identifica este registro de driver de dispositivo.</span><span class="sxs-lookup"><span data-stu-id="8093c-113">Unique number identifying this device driver record.</span></span></p></td>
+<td><p><span data-ttu-id="47707-111"><strong>DeviceDriverKey</strong></span><span class="sxs-lookup"><span data-stu-id="47707-111"><strong>DeviceDriverKey</strong></span></span></p></td>
+<td><p><span data-ttu-id="47707-112">int</span><span class="sxs-lookup"><span data-stu-id="47707-112">int</span></span></p></td>
+<td><p><span data-ttu-id="47707-113">Primário</span><span class="sxs-lookup"><span data-stu-id="47707-113">Primary</span></span></p></td>
+<td><p><span data-ttu-id="47707-114">Número exclusivo que identifica este registro de driver de dispositivo.</span><span class="sxs-lookup"><span data-stu-id="47707-114">Unique number identifying this device driver record.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="8093c-114"><strong>DeviceDriver</strong></span><span class="sxs-lookup"><span data-stu-id="8093c-114"><strong>DeviceDriver</strong></span></span></p></td>
-<td><p><span data-ttu-id="8093c-115">varchar (256)</span><span class="sxs-lookup"><span data-stu-id="8093c-115">varchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="8093c-116">diferente</span><span class="sxs-lookup"><span data-stu-id="8093c-116">unique</span></span></p></td>
-<td><p><span data-ttu-id="8093c-117">Nome do driver de dispositivo.</span><span class="sxs-lookup"><span data-stu-id="8093c-117">Device driver name.</span></span></p></td>
+<td><p><span data-ttu-id="47707-115"><strong>DeviceDriver</strong></span><span class="sxs-lookup"><span data-stu-id="47707-115"><strong>DeviceDriver</strong></span></span></p></td>
+<td><p><span data-ttu-id="47707-116">varchar (256)</span><span class="sxs-lookup"><span data-stu-id="47707-116">varchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="47707-117">diferente</span><span class="sxs-lookup"><span data-stu-id="47707-117">unique</span></span></p></td>
+<td><p><span data-ttu-id="47707-118">Nome do driver de dispositivo.</span><span class="sxs-lookup"><span data-stu-id="47707-118">Device driver name.</span></span></p></td>
 </tr>
 </tbody>
 </table>

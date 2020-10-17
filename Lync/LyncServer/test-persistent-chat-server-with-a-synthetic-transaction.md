@@ -1,5 +1,6 @@
 ---
 title: Testar servidor de chat persistente com uma transação sintética
+description: Teste o servidor de chat persistente com uma transação sintética.
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,14 +13,14 @@ ms:contentKeyID: 48183968
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 382e8e664a80b36038d7170d32d243e4e695484e
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 7aad6960baa4873b5992b0b51799d46ea59fddf3
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48529758"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48564647"
 ---
-# <a name="test-persistent-chat-server-with-a-synthetic-transaction"></a><span data-ttu-id="04ee2-102">Testar servidor de chat persistente com uma transação sintética</span><span class="sxs-lookup"><span data-stu-id="04ee2-102">Test Persistent Chat Server with a synthetic transaction</span></span>
+# <a name="test-persistent-chat-server-with-a-synthetic-transaction"></a><span data-ttu-id="14234-103">Testar servidor de chat persistente com uma transação sintética</span><span class="sxs-lookup"><span data-stu-id="14234-103">Test Persistent Chat Server with a synthetic transaction</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,21 +38,21 @@ ms.locfileid: "48529758"
 
 <span> </span>
 
-<span data-ttu-id="04ee2-103">_**Última modificação do tópico:** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="04ee2-103">_**Topic Last Modified:** 2012-09-21_</span></span>
+<span data-ttu-id="14234-104">_**Última modificação do tópico:** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="14234-104">_**Topic Last Modified:** 2012-09-21_</span></span>
 
-<span data-ttu-id="04ee2-104">Para testar o servidor de chat persistente para envio e recebimento de mensagens em uma sala de chat entre dois usuários</span><span class="sxs-lookup"><span data-stu-id="04ee2-104">To test Persistent Chat Server for sending and receiving messages in a chat room between two users</span></span>
+<span data-ttu-id="14234-105">Para testar o servidor de chat persistente para envio e recebimento de mensagens em uma sala de chat entre dois usuários</span><span class="sxs-lookup"><span data-stu-id="14234-105">To test Persistent Chat Server for sending and receiving messages in a chat room between two users</span></span>
 
     Test-CsPersistentChatMessage [-Authentication <TrustedServer | Negotiate | ClientCertificate | 
         LiveID>] [-ReceiverSipAddress <String>] [-RegistrarPort <Int32>] [-SenderSipAddress <String>] -TargetFqdn <String> [-Force <SwitchParameter>] [-OutLoggerVariable <String>] 
         [-OutVerboseVariable <String>] [<CommonParameters>]
 
-<span data-ttu-id="04ee2-105">ou</span><span class="sxs-lookup"><span data-stu-id="04ee2-105">or</span></span>
+<span data-ttu-id="14234-106">ou</span><span class="sxs-lookup"><span data-stu-id="14234-106">or</span></span>
 
     Test-CsPersistentChatMessage [-Authentication <TrustedServer | Negotiate | ClientCertificate | 
         LiveID>] -ReceiverCredential <PSCredential> -ReceiverSipAddress <String> [-RegistrarPort 
         <Int32>] -SenderCredential <PSCredential> -SenderSipAddress <String> [-TargetFqdn <String>] [-Force <SwitchParameter>] [-OutLoggerVariable <String>] [-OutVerboseVariable <String>] [<CommonParameters>]
 
-<span data-ttu-id="04ee2-106">ou</span><span class="sxs-lookup"><span data-stu-id="04ee2-106">or</span></span>
+<span data-ttu-id="14234-107">ou</span><span class="sxs-lookup"><span data-stu-id="14234-107">or</span></span>
 
     Test-CsPersistentChatMessage [-Authentication <TrustedServer | Negotiate | ClientCertificate | 
         LiveID>] [-Force <SwitchParameter>] [-OutLoggerVariable <String>] [-OutVerboseVariable 
