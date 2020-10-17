@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: processo de implantação para o aplicativo de comunicado'
+description: 'Lync Server 2013: processo de implantação para o aplicativo de comunicado.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184500
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4d38db71daed7a7946b62593a29f7f685c96c647
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 559977c32f63fae312164b5b0c36698fa13afb09
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48526848"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48550987"
 ---
 # <a name="deployment-process-for-the-announcement-application-in-lync-server-2013"></a>Processo de implantação para o aplicativo de anúncio no Lync Server 2013
 

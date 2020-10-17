@@ -1,5 +1,6 @@
 ---
 title: Habilitar o Exchange 2013 Outlook Web App e integração de IM
+description: Habilitar o Exchange 2013 Outlook Web App e integração de IM.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184027
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: da6866565df12ff4484124836f9164d2bf8c35c6
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: a7fd6e8600f255d6ac4dde52487776cdb5fe1a51
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48502878"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48551117"
 ---
 # <a name="enable-exchange-2013-outlook-web-app-and-im-integration"></a>Habilitar o Exchange 2013 Outlook Web App e integração de IM
 

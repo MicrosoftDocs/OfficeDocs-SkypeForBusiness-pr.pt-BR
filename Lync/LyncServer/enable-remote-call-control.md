@@ -1,5 +1,6 @@
 ---
 title: Habilitar o controle de chamada remota
+description: Habilitar o controle de chamada remota.
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183380
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9aa81c938d69aedbc599194c1d820fa4c40e3337
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 8009ffc927ad3f7a4f83ad3505100f3a9d4e82d6
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48502888"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48551127"
 ---
 # <a name="enable-remote-call-control"></a>Habilitar o controle de chamada remota
 
@@ -55,7 +56,7 @@ O controle de chamada remota permite que os usuários controlem seus telefones d
 
 4.  Configure os usuários do Lync 2013 para controle de chamada remota habilitando o controle de chamada remota e atribuindo um URI (Uniform Resource Identifier) do servidor de linha e um URI de linha. Ao migrar usuários da implantação herdada para o Lync Server 2013, as configurações de controle de chamada remota são migradas junto com as outras configurações do usuário.
 
-5.  Se você personalizou a regras na sua implementação herdada,  é necessário realizar algumas terefas manuais após a migração automatizada das políticas e configuração esteja concluída para migrar as regras personalizadas. Caso não tenha personalizado as regras, o Catálogo de Endereços é migrado juntamente com sua topologia. Para mais detalhes sobre como migrar manualmente as regras, consulte [Migrate Address Book](migrate-address-book_1.md).
+5.  Se você personalizou a regras na sua implementação herdada,  é necessário realizar algumas terefas manuais após a migração automatizada das políticas e configuração esteja concluída para migrar as regras personalizadas. Caso não tenha personalizado as regras, o Catálogo de Endereços é migrado juntamente com sua topologia. Para mais detalhes sobre como migrar manualmente as regras, consulte [Migrate Address Book](migrate-address-book.md).
 
 </div>
 
