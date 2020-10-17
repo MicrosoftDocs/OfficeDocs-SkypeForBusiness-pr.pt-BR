@@ -12,20 +12,22 @@ ms:contentKeyID: 48184220
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c36f8d3ee6e26c00e7686a72e1b68139c1b5ec29
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f7d0e78cd4a8705178b3704a716846755d5c46f3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198294"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514478"
 ---
+# <a name="deployment-process-for-mobility-in-lync-server-2013"></a><span data-ttu-id="b3a24-102">Processo de implantação para mobilidade no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b3a24-102">Deployment process for mobility in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deployment-process-for-mobility-in-lync-server-2013"></a><span data-ttu-id="a5631-102">Processo de implantação para mobilidade no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a5631-102">Deployment process for mobility in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,13 +37,13 @@ ms.locfileid: "42198294"
 
 <span> </span>
 
-<span data-ttu-id="a5631-103">_**Última modificação do tópico:** 2013-02-19_</span><span class="sxs-lookup"><span data-stu-id="a5631-103">_**Topic Last Modified:** 2013-02-19_</span></span>
+<span data-ttu-id="b3a24-103">_**Última modificação do tópico:** 2013-02-19_</span><span class="sxs-lookup"><span data-stu-id="b3a24-103">_**Topic Last Modified:** 2013-02-19_</span></span>
 
     Some information in this topic pertains to Cumulative Updates for Lync Server 2013: February 2013. It is noted accordingly.
 
-<span data-ttu-id="a5631-104">Esta seção descreve a sequência de etapas necessárias para implantar o recurso de mobilidade do Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="a5631-104">This section describes the sequence of steps required to deploy the Lync Server 2013 mobility feature.</span></span>
+<span data-ttu-id="b3a24-104">Esta seção descreve a sequência de etapas necessárias para implantar o recurso de mobilidade do Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="b3a24-104">This section describes the sequence of steps required to deploy the Lync Server 2013 mobility feature.</span></span>
 
-### <a name="mobility-deployment-process"></a><span data-ttu-id="a5631-105">Processo de implantação de mobilidade</span><span class="sxs-lookup"><span data-stu-id="a5631-105">Mobility Deployment Process</span></span>
+### <a name="mobility-deployment-process"></a><span data-ttu-id="b3a24-105">Processo de implantação de mobilidade</span><span class="sxs-lookup"><span data-stu-id="b3a24-105">Mobility Deployment Process</span></span>
 
 <table>
 <colgroup>
@@ -52,92 +54,92 @@ ms.locfileid: "42198294"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="a5631-106">Fase</span><span class="sxs-lookup"><span data-stu-id="a5631-106">Phase</span></span></th>
-<th><span data-ttu-id="a5631-107">Etapas</span><span class="sxs-lookup"><span data-stu-id="a5631-107">Steps</span></span></th>
-<th><span data-ttu-id="a5631-108">Permissions</span><span class="sxs-lookup"><span data-stu-id="a5631-108">Permissions</span></span></th>
-<th><span data-ttu-id="a5631-109">Documentação de implantação</span><span class="sxs-lookup"><span data-stu-id="a5631-109">Deployment documentation</span></span></th>
+<th><span data-ttu-id="b3a24-106">Fase</span><span class="sxs-lookup"><span data-stu-id="b3a24-106">Phase</span></span></th>
+<th><span data-ttu-id="b3a24-107">Etapas</span><span class="sxs-lookup"><span data-stu-id="b3a24-107">Steps</span></span></th>
+<th><span data-ttu-id="b3a24-108">Permissões</span><span class="sxs-lookup"><span data-stu-id="b3a24-108">Permissions</span></span></th>
+<th><span data-ttu-id="b3a24-109">Documentação de implantação</span><span class="sxs-lookup"><span data-stu-id="b3a24-109">Deployment documentation</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="a5631-110">Criar registros do DNS (Sistema de Nomes de Domínio)</span><span class="sxs-lookup"><span data-stu-id="a5631-110">Create Domain Name System (DNS) records</span></span></p></td>
+<td><p><span data-ttu-id="b3a24-110">Criar registros do DNS (Sistema de Nomes de Domínio)</span><span class="sxs-lookup"><span data-stu-id="b3a24-110">Create Domain Name System (DNS) records</span></span></p></td>
 <td><ul>
-<li><p><span data-ttu-id="a5631-111">Crie um registro DNS interno CNAME ou um registro (host, se IPv6, AAAA) para resolver a URL interna do serviço de descoberta automática.</span><span class="sxs-lookup"><span data-stu-id="a5631-111">Create an internal DNS CNAME or A (host, if IPv6, AAAA) record to resolve the internal Autodiscover Service URL.</span></span></p></li>
-<li><p><span data-ttu-id="a5631-112">Criar um registro DNS externo CNAME ou um registro (host, se IPv6, AAAA) para resolver a URL externa do serviço de descoberta automática.</span><span class="sxs-lookup"><span data-stu-id="a5631-112">Create an external DNS CNAME or A (host, if IPv6, AAAA) record to resolve the external Autodiscover Service URL.</span></span></p></li>
+<li><p><span data-ttu-id="b3a24-111">Crie um registro DNS interno CNAME ou um registro (host, se IPv6, AAAA) para resolver a URL interna do serviço de descoberta automática.</span><span class="sxs-lookup"><span data-stu-id="b3a24-111">Create an internal DNS CNAME or A (host, if IPv6, AAAA) record to resolve the internal Autodiscover Service URL.</span></span></p></li>
+<li><p><span data-ttu-id="b3a24-112">Criar um registro DNS externo CNAME ou um registro (host, se IPv6, AAAA) para resolver a URL externa do serviço de descoberta automática.</span><span class="sxs-lookup"><span data-stu-id="b3a24-112">Create an external DNS CNAME or A (host, if IPv6, AAAA) record to resolve the external Autodiscover Service URL.</span></span></p></li>
 </ul></td>
-<td><p><span data-ttu-id="a5631-113">Admins. do Domínio</span><span class="sxs-lookup"><span data-stu-id="a5631-113">Domain Admins</span></span></p>
-<p><span data-ttu-id="a5631-114">DnsAdmins</span><span class="sxs-lookup"><span data-stu-id="a5631-114">DnsAdmins</span></span></p></td>
-<td><p><span data-ttu-id="a5631-115"><a href="lync-server-2013-creating-dns-records-for-the-autodiscover-service.md">Criar registros DNS para o serviço de descoberta automática no Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="a5631-115"><a href="lync-server-2013-creating-dns-records-for-the-autodiscover-service.md">Creating DNS records for the Autodiscover Service in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="b3a24-113">Admins. do Domínio</span><span class="sxs-lookup"><span data-stu-id="b3a24-113">Domain Admins</span></span></p>
+<p><span data-ttu-id="b3a24-114">DnsAdmins</span><span class="sxs-lookup"><span data-stu-id="b3a24-114">DnsAdmins</span></span></p></td>
+<td><p><span data-ttu-id="b3a24-115"><a href="lync-server-2013-creating-dns-records-for-the-autodiscover-service.md">Criar registros DNS para o serviço de descoberta automática no Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="b3a24-115"><a href="lync-server-2013-creating-dns-records-for-the-autodiscover-service.md">Creating DNS records for the Autodiscover Service in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="a5631-116">Modificar certificados</span><span class="sxs-lookup"><span data-stu-id="a5631-116">Modify certificates</span></span></p></td>
-<td><p><span data-ttu-id="a5631-117">Adicione entradas de nome alternativo de entidade aos seguintes certificados para oferecer suporte a conexões seguras para usuários móveis:</span><span class="sxs-lookup"><span data-stu-id="a5631-117">Add subject alternative name entries to the following certificates to support secure connections for mobile users:</span></span></p>
+<td><p><span data-ttu-id="b3a24-116">Modificar certificados</span><span class="sxs-lookup"><span data-stu-id="b3a24-116">Modify certificates</span></span></p></td>
+<td><p><span data-ttu-id="b3a24-117">Adicione entradas de nome alternativo de entidade aos seguintes certificados para oferecer suporte a conexões seguras para usuários móveis:</span><span class="sxs-lookup"><span data-stu-id="b3a24-117">Add subject alternative name entries to the following certificates to support secure connections for mobile users:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="a5631-118">Certificado de diretor</span><span class="sxs-lookup"><span data-stu-id="a5631-118">Director certificate</span></span></p></li>
-<li><p><span data-ttu-id="a5631-119">Certificado de pool de front-ends</span><span class="sxs-lookup"><span data-stu-id="a5631-119">Front End pool certificate</span></span></p></li>
-<li><p><span data-ttu-id="a5631-120">Certificado de proxy reverso</span><span class="sxs-lookup"><span data-stu-id="a5631-120">Reverse proxy certificate</span></span></p></li>
+<li><p><span data-ttu-id="b3a24-118">Certificado de diretor</span><span class="sxs-lookup"><span data-stu-id="b3a24-118">Director certificate</span></span></p></li>
+<li><p><span data-ttu-id="b3a24-119">Certificado de pool de front-ends</span><span class="sxs-lookup"><span data-stu-id="b3a24-119">Front End pool certificate</span></span></p></li>
+<li><p><span data-ttu-id="b3a24-120">Certificado de proxy reverso</span><span class="sxs-lookup"><span data-stu-id="b3a24-120">Reverse proxy certificate</span></span></p></li>
 </ul></td>
-<td><p><span data-ttu-id="a5631-121">Administrador local</span><span class="sxs-lookup"><span data-stu-id="a5631-121">Local administrator</span></span></p></td>
-<td><p><span data-ttu-id="a5631-122"><a href="lync-server-2013-modifying-certificates-for-mobility.md">Modificando certificados para mobilidade no Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="a5631-122"><a href="lync-server-2013-modifying-certificates-for-mobility.md">Modifying certificates for mobility in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="b3a24-121">Administrador local</span><span class="sxs-lookup"><span data-stu-id="b3a24-121">Local administrator</span></span></p></td>
+<td><p><span data-ttu-id="b3a24-122"><a href="lync-server-2013-modifying-certificates-for-mobility.md">Modificando certificados para mobilidade no Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="b3a24-122"><a href="lync-server-2013-modifying-certificates-for-mobility.md">Modifying certificates for mobility in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="a5631-123">Configurar o proxy inverso</span><span class="sxs-lookup"><span data-stu-id="a5631-123">Configure the reverse proxy</span></span></p></td>
+<td><p><span data-ttu-id="b3a24-123">Configurar o proxy inverso</span><span class="sxs-lookup"><span data-stu-id="b3a24-123">Configure the reverse proxy</span></span></p></td>
 <td><ul>
-<li><p><span data-ttu-id="a5631-124">Atribua certificados atualizados com nomes alternativos de entidade ao Ouvinte SSL.</span><span class="sxs-lookup"><span data-stu-id="a5631-124">Assign certificates updated with subject alternative names to the Secure Sockets Layer (SSL) Listener.</span></span></p></li>
-<li><p><span data-ttu-id="a5631-125">Reconfigure a regra de publicação na Web para a URL externa do serviço de descoberta automática.</span><span class="sxs-lookup"><span data-stu-id="a5631-125">Reconfigure the web publishing rule for the external Autodiscover Service URL.</span></span></p></li>
-<li><p><span data-ttu-id="a5631-126">Verifique se existe uma regra de publicação na Web para a URL dos serviços Web externos do Lync Server 2013 em seu pool de front-ends.</span><span class="sxs-lookup"><span data-stu-id="a5631-126">Be sure that a web publishing rule exists for the external Lync Server 2013 Web Services URL on your Front End pool.</span></span></p></li>
+<li><p><span data-ttu-id="b3a24-124">Atribua certificados atualizados com nomes alternativos de entidade ao Ouvinte SSL.</span><span class="sxs-lookup"><span data-stu-id="b3a24-124">Assign certificates updated with subject alternative names to the Secure Sockets Layer (SSL) Listener.</span></span></p></li>
+<li><p><span data-ttu-id="b3a24-125">Reconfigure a regra de publicação na Web para a URL externa do serviço de descoberta automática.</span><span class="sxs-lookup"><span data-stu-id="b3a24-125">Reconfigure the web publishing rule for the external Autodiscover Service URL.</span></span></p></li>
+<li><p><span data-ttu-id="b3a24-126">Verifique se existe uma regra de publicação na Web para a URL dos serviços Web externos do Lync Server 2013 em seu pool de front-ends.</span><span class="sxs-lookup"><span data-stu-id="b3a24-126">Be sure that a web publishing rule exists for the external Lync Server 2013 Web Services URL on your Front End pool.</span></span></p></li>
 </ul>
-<p><span data-ttu-id="a5631-127">Ou</span><span class="sxs-lookup"><span data-stu-id="a5631-127">Or</span></span></p>
+<p><span data-ttu-id="b3a24-127">Ou</span><span class="sxs-lookup"><span data-stu-id="b3a24-127">Or</span></span></p>
 <ul>
-<li><p><span data-ttu-id="a5631-128">Se você optar por usar HTTP para a solicitação de descoberta automática inicial e não atualizar listas de nomes alternativos de entidades nos certificados, configure uma nova regra de publicação na Web ou RECONFIGURE uma regra de publicação existente para HTTP da porta 80.</span><span class="sxs-lookup"><span data-stu-id="a5631-128">If you choose to use HTTP for the initial Autodiscover request and do not update subject alternative name lists on the certificates, configure a new web publishing rule or reconfigure an existing publishing rule for port 80 HTTP.</span></span></p></li>
+<li><p><span data-ttu-id="b3a24-128">Se você optar por usar HTTP para a solicitação de descoberta automática inicial e não atualizar listas de nomes alternativos de entidades nos certificados, configure uma nova regra de publicação na Web ou RECONFIGURE uma regra de publicação existente para HTTP da porta 80.</span><span class="sxs-lookup"><span data-stu-id="b3a24-128">If you choose to use HTTP for the initial Autodiscover request and do not update subject alternative name lists on the certificates, configure a new web publishing rule or reconfigure an existing publishing rule for port 80 HTTP.</span></span></p></li>
 </ul></td>
-<td><p><span data-ttu-id="a5631-129">Administrador local</span><span class="sxs-lookup"><span data-stu-id="a5631-129">Local administrator</span></span></p></td>
-<td><p><span data-ttu-id="a5631-130"><a href="lync-server-2013-configuring-the-reverse-proxy-for-mobility.md">Configurando o proxy reverso para mobilidade no Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="a5631-130"><a href="lync-server-2013-configuring-the-reverse-proxy-for-mobility.md">Configuring the reverse proxy for mobility in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="b3a24-129">Administrador local</span><span class="sxs-lookup"><span data-stu-id="b3a24-129">Local administrator</span></span></p></td>
+<td><p><span data-ttu-id="b3a24-130"><a href="lync-server-2013-configuring-the-reverse-proxy-for-mobility.md">Configurando o proxy reverso para mobilidade no Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="b3a24-130"><a href="lync-server-2013-configuring-the-reverse-proxy-for-mobility.md">Configuring the reverse proxy for mobility in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="a5631-131">Testar sua implantação de mobilidade para o Lync 2010 Mobile usando o serviço de mobilidade do MCX</span><span class="sxs-lookup"><span data-stu-id="a5631-131">Test your mobility deployment for Lync 2010 Mobile using the Mcx Mobility Service</span></span></p></td>
-<td><p><span data-ttu-id="a5631-132">Execute o <strong>Test-CsMcxP2PIM</strong> para enviar uma mensagem instantânea de uma pessoa para outra.</span><span class="sxs-lookup"><span data-stu-id="a5631-132">Run <strong>Test-CsMcxP2PIM</strong> to test sending an instant message from one person to another.</span></span></p>
-<p><span data-ttu-id="a5631-133">Consulte a documentação do cmdlet do Shell de gerenciamento do Lync Server para <a href="https://docs.microsoft.com/powershell/module/skype/Test-CsMcxP2PIM">Test-CsMcxP2PIM</a> para obter uma lista completa das opções.</span><span class="sxs-lookup"><span data-stu-id="a5631-133">See the Lync Server Management Shell cmdlet documentation for <a href="https://docs.microsoft.com/powershell/module/skype/Test-CsMcxP2PIM">Test-CsMcxP2PIM</a> for a complete list of options.</span></span></p></td>
-<td><p><span data-ttu-id="a5631-134">CsAdministrator</span><span class="sxs-lookup"><span data-stu-id="a5631-134">CsAdministrator</span></span></p></td>
-<td><p><span data-ttu-id="a5631-135"><a href="lync-server-2013-verifying-your-mobility-deployment.md">Verificando sua implantação de mobilidade no Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="a5631-135"><a href="lync-server-2013-verifying-your-mobility-deployment.md">Verifying your mobility deployment in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="b3a24-131">Testar sua implantação de mobilidade para o Lync 2010 Mobile usando o serviço de mobilidade do MCX</span><span class="sxs-lookup"><span data-stu-id="b3a24-131">Test your mobility deployment for Lync 2010 Mobile using the Mcx Mobility Service</span></span></p></td>
+<td><p><span data-ttu-id="b3a24-132">Execute o <strong>Test-CsMcxP2PIM</strong> para enviar uma mensagem instantânea de uma pessoa para outra.</span><span class="sxs-lookup"><span data-stu-id="b3a24-132">Run <strong>Test-CsMcxP2PIM</strong> to test sending an instant message from one person to another.</span></span></p>
+<p><span data-ttu-id="b3a24-133">Consulte a documentação do cmdlet do Shell de gerenciamento do Lync Server para <a href="https://docs.microsoft.com/powershell/module/skype/Test-CsMcxP2PIM">Test-CsMcxP2PIM</a> para obter uma lista completa das opções.</span><span class="sxs-lookup"><span data-stu-id="b3a24-133">See the Lync Server Management Shell cmdlet documentation for <a href="https://docs.microsoft.com/powershell/module/skype/Test-CsMcxP2PIM">Test-CsMcxP2PIM</a> for a complete list of options.</span></span></p></td>
+<td><p><span data-ttu-id="b3a24-134">CsAdministrator</span><span class="sxs-lookup"><span data-stu-id="b3a24-134">CsAdministrator</span></span></p></td>
+<td><p><span data-ttu-id="b3a24-135"><a href="lync-server-2013-verifying-your-mobility-deployment.md">Verificando sua implantação de mobilidade no Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="b3a24-135"><a href="lync-server-2013-verifying-your-mobility-deployment.md">Verifying your mobility deployment in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="a5631-136">Testar sua implantação de mobilidade para clientes móveis do Lync 2013 usando os componentes Web do UCWA</span><span class="sxs-lookup"><span data-stu-id="a5631-136">Test your mobility deployment for Lync 2013 Mobile clients using the UCWA Web components</span></span></p></td>
-<td><p><span data-ttu-id="a5631-137">Use o cmdlet <strong>Test-CsUcwaConference</strong> para testar e verificar se os usuários de teste predefinidos ou um par de usuários reais podem usar o UCWA para criar e participar de uma conferência.</span><span class="sxs-lookup"><span data-stu-id="a5631-137">Use the <strong>Test-CsUcwaConference</strong> cmdlet to test and verify that pre-defined test users or a pair of actual users can use UCWA to create and participate in a conference.</span></span></p>
-<p><span data-ttu-id="a5631-138">Consulte a documentação do cmdlet do Shell de gerenciamento do Lync Server para <a href="https://docs.microsoft.com/powershell/module/skype/Test-CsUcwaConference">Test-CsUcwaConference</a> para obter uma lista completa das opções.</span><span class="sxs-lookup"><span data-stu-id="a5631-138">See the Lync Server Management Shell cmdlet documentation for <a href="https://docs.microsoft.com/powershell/module/skype/Test-CsUcwaConference">Test-CsUcwaConference</a> for a complete list of options.</span></span></p></td>
-<td><p><span data-ttu-id="a5631-139">CsAdministrator</span><span class="sxs-lookup"><span data-stu-id="a5631-139">CsAdministrator</span></span></p></td>
-<td><p><span data-ttu-id="a5631-140"><a href="lync-server-2013-verifying-your-mobility-deployment.md">Verificando sua implantação de mobilidade no Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="a5631-140"><a href="lync-server-2013-verifying-your-mobility-deployment.md">Verifying your mobility deployment in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="b3a24-136">Testar sua implantação de mobilidade para clientes móveis do Lync 2013 usando os componentes Web do UCWA</span><span class="sxs-lookup"><span data-stu-id="b3a24-136">Test your mobility deployment for Lync 2013 Mobile clients using the UCWA Web components</span></span></p></td>
+<td><p><span data-ttu-id="b3a24-137">Use o cmdlet <strong>Test-CsUcwaConference</strong> para testar e verificar se os usuários de teste predefinidos ou um par de usuários reais podem usar o UCWA para criar e participar de uma conferência.</span><span class="sxs-lookup"><span data-stu-id="b3a24-137">Use the <strong>Test-CsUcwaConference</strong> cmdlet to test and verify that pre-defined test users or a pair of actual users can use UCWA to create and participate in a conference.</span></span></p>
+<p><span data-ttu-id="b3a24-138">Consulte a documentação do cmdlet do Shell de gerenciamento do Lync Server para <a href="https://docs.microsoft.com/powershell/module/skype/Test-CsUcwaConference">Test-CsUcwaConference</a> para obter uma lista completa das opções.</span><span class="sxs-lookup"><span data-stu-id="b3a24-138">See the Lync Server Management Shell cmdlet documentation for <a href="https://docs.microsoft.com/powershell/module/skype/Test-CsUcwaConference">Test-CsUcwaConference</a> for a complete list of options.</span></span></p></td>
+<td><p><span data-ttu-id="b3a24-139">CsAdministrator</span><span class="sxs-lookup"><span data-stu-id="b3a24-139">CsAdministrator</span></span></p></td>
+<td><p><span data-ttu-id="b3a24-140"><a href="lync-server-2013-verifying-your-mobility-deployment.md">Verificando sua implantação de mobilidade no Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="b3a24-140"><a href="lync-server-2013-verifying-your-mobility-deployment.md">Verifying your mobility deployment in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="a5631-141">Configurar para notificações por push</span><span class="sxs-lookup"><span data-stu-id="a5631-141">Configure for push notifications</span></span></p></td>
+<td><p><span data-ttu-id="b3a24-141">Configurar para notificações por push</span><span class="sxs-lookup"><span data-stu-id="b3a24-141">Configure for push notifications</span></span></p></td>
 <td><ul>
-<li><p><span data-ttu-id="a5631-142">Para servidores de borda do Lync Server 2013, adicione um provedor de hospedagem do Lync Server Online e configure a Federação do provedor de hospedagem.</span><span class="sxs-lookup"><span data-stu-id="a5631-142">For Lync Server 2013 Edge Servers, add a Lync Server online hosting provider and configure hosting provider federation.</span></span></p></li>
-<li><p><span data-ttu-id="a5631-143">Para servidores de borda do Lync Server 2010, adicione um provedor de hospedagem do Lync Server Online e configure a Federação do provedor de hospedagem.</span><span class="sxs-lookup"><span data-stu-id="a5631-143">For Lync Server 2010  Edge Servers, add a Lync Server online hosting provider and configure hosting provider federation.</span></span></p></li>
-<li><p><span data-ttu-id="a5631-144">Para servidores de borda do Office Communications Server 2007 R2, adicione um parceiro federado.</span><span class="sxs-lookup"><span data-stu-id="a5631-144">For Office Communications Server 2007 R2 Edge Servers, add a federated partner.</span></span></p></li>
-<li><p><span data-ttu-id="a5631-145">Se você desejar oferecer suporte a notificações de envio por push em uma rede Wi-Fi, configure uma regra de firewall de saída para a porta TCP 5223.</span><span class="sxs-lookup"><span data-stu-id="a5631-145">If you want to support push notifications over a Wi-Fi network, configure a firewall rule outbound for TCP port 5223.</span></span></p></li>
-<li><p><span data-ttu-id="a5631-146">Use o cmdlet <strong>Set-CsPushNotificationConfiguration</strong> para habilitar as notificações de envio por push para o APNS (Apple Push Notification Service) e o MPNS (Microsoft Push Notification Service).</span><span class="sxs-lookup"><span data-stu-id="a5631-146">Use the <strong>Set-CsPushNotificationConfiguration</strong> cmdlet to enable push notifications to the Apple Push Notification Service (APNS) and Microsoft Push Notification Service (MPNS).</span></span> <span data-ttu-id="a5631-147">Esse recurso é habilitado por padrão.</span><span class="sxs-lookup"><span data-stu-id="a5631-147">This feature is disabled by default.</span></span></p></li>
-<li><p><span data-ttu-id="a5631-148">Use o cmdlet <strong>Test-CsFederatedPartner</strong> para testar a configuração da federação e o cmdlet <strong>Test-CsMCXPushNotification</strong> para testar as notificações de envio por push.</span><span class="sxs-lookup"><span data-stu-id="a5631-148">Use the <strong>Test-CsFederatedPartner</strong> cmdlet to test the federation configuration and the <strong>Test-CsMCXPushNotification</strong> cmdlet to test push notifications.</span></span></p>
+<li><p><span data-ttu-id="b3a24-142">Para servidores de borda do Lync Server 2013, adicione um provedor de hospedagem do Lync Server Online e configure a Federação do provedor de hospedagem.</span><span class="sxs-lookup"><span data-stu-id="b3a24-142">For Lync Server 2013 Edge Servers, add a Lync Server online hosting provider and configure hosting provider federation.</span></span></p></li>
+<li><p><span data-ttu-id="b3a24-143">Para servidores de borda do Lync Server 2010, adicione um provedor de hospedagem do Lync Server Online e configure a Federação do provedor de hospedagem.</span><span class="sxs-lookup"><span data-stu-id="b3a24-143">For Lync Server 2010  Edge Servers, add a Lync Server online hosting provider and configure hosting provider federation.</span></span></p></li>
+<li><p><span data-ttu-id="b3a24-144">Para servidores de borda do Office Communications Server 2007 R2, adicione um parceiro federado.</span><span class="sxs-lookup"><span data-stu-id="b3a24-144">For Office Communications Server 2007 R2 Edge Servers, add a federated partner.</span></span></p></li>
+<li><p><span data-ttu-id="b3a24-145">Se você desejar oferecer suporte a notificações de envio por push em uma rede Wi-Fi, configure uma regra de firewall de saída para a porta TCP 5223.</span><span class="sxs-lookup"><span data-stu-id="b3a24-145">If you want to support push notifications over a Wi-Fi network, configure a firewall rule outbound for TCP port 5223.</span></span></p></li>
+<li><p><span data-ttu-id="b3a24-146">Use o cmdlet <strong>Set-CsPushNotificationConfiguration</strong> para habilitar as notificações de envio por push para o APNS (Apple Push Notification Service) e o MPNS (Microsoft Push Notification Service).</span><span class="sxs-lookup"><span data-stu-id="b3a24-146">Use the <strong>Set-CsPushNotificationConfiguration</strong> cmdlet to enable push notifications to the Apple Push Notification Service (APNS) and Microsoft Push Notification Service (MPNS).</span></span> <span data-ttu-id="b3a24-147">Esse recurso é habilitado por padrão.</span><span class="sxs-lookup"><span data-stu-id="b3a24-147">This feature is disabled by default.</span></span></p></li>
+<li><p><span data-ttu-id="b3a24-148">Use o cmdlet <strong>Test-CsFederatedPartner</strong> para testar a configuração da federação e o cmdlet <strong>Test-CsMCXPushNotification</strong> para testar as notificações de envio por push.</span><span class="sxs-lookup"><span data-stu-id="b3a24-148">Use the <strong>Test-CsFederatedPartner</strong> cmdlet to test the federation configuration and the <strong>Test-CsMCXPushNotification</strong> cmdlet to test push notifications.</span></span></p>
 <div>
 
 > [!NOTE]  
-> <span data-ttu-id="a5631-149">As notificações por push são usadas para clientes móveis do Lync 2010 em dispositivos Apple e Windows Phone</span><span class="sxs-lookup"><span data-stu-id="a5631-149">Push notifications are used for Lync 2010 Mobile clients on Apple devices and Windows Phone</span></span><BR><span data-ttu-id="a5631-150">A notificação por push é necessária para clientes móveis do Lync 2013 somente no Windows Phone</span><span class="sxs-lookup"><span data-stu-id="a5631-150">Push notification is required for Lync 2013 Mobile clients on Windows Phone only</span></span>
+> <span data-ttu-id="b3a24-149">As notificações por push são usadas para clientes móveis do Lync 2010 em dispositivos Apple e Windows Phone</span><span class="sxs-lookup"><span data-stu-id="b3a24-149">Push notifications are used for Lync 2010 Mobile clients on Apple devices and Windows Phone</span></span><BR><span data-ttu-id="b3a24-150">A notificação por push é necessária para clientes móveis do Lync 2013 somente no Windows Phone</span><span class="sxs-lookup"><span data-stu-id="b3a24-150">Push notification is required for Lync 2013 Mobile clients on Windows Phone only</span></span>
 
 
 </div></li>
 </ul></td>
-<td><p><span data-ttu-id="a5631-151">RtcUniversalServerAdmins</span><span class="sxs-lookup"><span data-stu-id="a5631-151">RtcUniversalServerAdmins</span></span></p></td>
-<td><p><span data-ttu-id="a5631-152"><a href="lync-server-2013-configuring-for-push-notifications.md">Configurando notificações por push no Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="a5631-152"><a href="lync-server-2013-configuring-for-push-notifications.md">Configuring for push notifications in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="b3a24-151">RtcUniversalServerAdmins</span><span class="sxs-lookup"><span data-stu-id="b3a24-151">RtcUniversalServerAdmins</span></span></p></td>
+<td><p><span data-ttu-id="b3a24-152"><a href="lync-server-2013-configuring-for-push-notifications.md">Configurando notificações por push no Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="b3a24-152"><a href="lync-server-2013-configuring-for-push-notifications.md">Configuring for push notifications in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="a5631-153">Configurar a política de mobilidade</span><span class="sxs-lookup"><span data-stu-id="a5631-153">Configure mobility policy</span></span></p></td>
-<td><p><span data-ttu-id="a5631-154">Use o cmdlet <strong>set-CsMobilityPolicy</strong> para permitir ou impedir:</span><span class="sxs-lookup"><span data-stu-id="a5631-154">Use the <strong>Set-CsMobilityPolicy</strong> cmdlet to allow or disallow:</span></span></p>
+<td><p><span data-ttu-id="b3a24-153">Configurar a política de mobilidade</span><span class="sxs-lookup"><span data-stu-id="b3a24-153">Configure mobility policy</span></span></p></td>
+<td><p><span data-ttu-id="b3a24-154">Use o cmdlet <strong>set-CsMobilityPolicy</strong> para permitir ou impedir:</span><span class="sxs-lookup"><span data-stu-id="b3a24-154">Use the <strong>Set-CsMobilityPolicy</strong> cmdlet to allow or disallow:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="a5631-155">Ligar via trabalho</span><span class="sxs-lookup"><span data-stu-id="a5631-155">Call via Work</span></span></p></li>
-<li><p><span data-ttu-id="a5631-156">Habilitar áudio IP e vídeo IP</span><span class="sxs-lookup"><span data-stu-id="a5631-156">Enable IP Audio and IP Video</span></span></p></li>
-<li><p><span data-ttu-id="a5631-157">Exigir WiFi para áudio IP e/ou vídeo IP</span><span class="sxs-lookup"><span data-stu-id="a5631-157">Require WiFi for IP Audio and/or IP Video</span></span></p></li>
+<li><p><span data-ttu-id="b3a24-155">Ligar via trabalho</span><span class="sxs-lookup"><span data-stu-id="b3a24-155">Call via Work</span></span></p></li>
+<li><p><span data-ttu-id="b3a24-156">Habilitar áudio IP e vídeo IP</span><span class="sxs-lookup"><span data-stu-id="b3a24-156">Enable IP Audio and IP Video</span></span></p></li>
+<li><p><span data-ttu-id="b3a24-157">Exigir WiFi para áudio IP e/ou vídeo IP</span><span class="sxs-lookup"><span data-stu-id="b3a24-157">Require WiFi for IP Audio and/or IP Video</span></span></p></li>
 </ul></td>
-<td><p><span data-ttu-id="a5631-158">CsAdministrator</span><span class="sxs-lookup"><span data-stu-id="a5631-158">CsAdministrator</span></span></p></td>
-<td><p><span data-ttu-id="a5631-159"><a href="lync-server-2013-configuring-mobility-policy.md">Configurando a política de mobilidade no Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="a5631-159"><a href="lync-server-2013-configuring-mobility-policy.md">Configuring mobility policy in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="b3a24-158">CsAdministrator</span><span class="sxs-lookup"><span data-stu-id="b3a24-158">CsAdministrator</span></span></p></td>
+<td><p><span data-ttu-id="b3a24-159"><a href="lync-server-2013-configuring-mobility-policy.md">Configurando a política de mobilidade no Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="b3a24-159"><a href="lync-server-2013-configuring-mobility-policy.md">Configuring mobility policy in Lync Server 2013</a></span></span></p></td>
 </tr>
 </tbody>
 </table>

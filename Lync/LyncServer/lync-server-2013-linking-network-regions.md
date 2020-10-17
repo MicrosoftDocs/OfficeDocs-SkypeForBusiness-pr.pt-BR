@@ -12,20 +12,22 @@ ms:contentKeyID: 49733662
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8add2b1bdeb266dc897ba438bf1ee7e1b40c700f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6786cbd383417509f2cb7a1392b3c02320a8ea1b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186604"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513978"
 ---
+# <a name="linking-network-regions-in-lync-server-2013"></a><span data-ttu-id="05058-102">Vinculando regiões de rede no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="05058-102">Linking network regions in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="linking-network-regions-in-lync-server-2013"></a><span data-ttu-id="06d1b-102">Vinculando regiões de rede no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="06d1b-102">Linking network regions in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,27 +37,27 @@ ms.locfileid: "42186604"
 
 <span> </span>
 
-<span data-ttu-id="06d1b-103">_**Última modificação do tópico:** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="06d1b-103">_**Topic Last Modified:** 2013-02-21_</span></span>
+<span data-ttu-id="05058-103">_**Última modificação do tópico:** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="05058-103">_**Topic Last Modified:** 2013-02-21_</span></span>
 
-<span data-ttu-id="06d1b-104">Você pode configurar links entre duas regiões de rede como parte do controle de admissão de chamadas.</span><span class="sxs-lookup"><span data-stu-id="06d1b-104">You can configure links between two network regions as part of call admission control (CAC).</span></span>
+<span data-ttu-id="05058-104">Você pode configurar links entre duas regiões de rede como parte do controle de admissão de chamadas.</span><span class="sxs-lookup"><span data-stu-id="05058-104">You can configure links between two network regions as part of call admission control (CAC).</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="06d1b-105">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="06d1b-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="05058-105">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="05058-105">In This Section</span></span>
 
-  - [<span data-ttu-id="06d1b-106">Exibindo informações de link de região de rede no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="06d1b-106">Viewing network region link information in Lync Server 2013</span></span>](lync-server-2013-viewing-network-region-link-information.md)
+  - [<span data-ttu-id="05058-106">Exibindo informações de link de região de rede no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="05058-106">Viewing network region link information in Lync Server 2013</span></span>](lync-server-2013-viewing-network-region-link-information.md)
 
-  - [<span data-ttu-id="06d1b-107">Configurando links de região de rede no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="06d1b-107">Configuring network region links in Lync Server 2013</span></span>](lync-server-2013-configuring-network-region-links.md)
+  - [<span data-ttu-id="05058-107">Configurando links de região de rede no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="05058-107">Configuring network region links in Lync Server 2013</span></span>](lync-server-2013-configuring-network-region-links.md)
 
-  - [<span data-ttu-id="06d1b-108">Excluindo links de região de rede no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="06d1b-108">Deleting network region links in Lync Server 2013</span></span>](lync-server-2013-deleting-network-region-links.md)
+  - [<span data-ttu-id="05058-108">Excluindo links de região de rede no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="05058-108">Deleting network region links in Lync Server 2013</span></span>](lync-server-2013-deleting-network-region-links.md)
 
 </div>
 
 <div>
 
-## <a name="related-sections"></a><span data-ttu-id="06d1b-109">Seções Relacionadas</span><span class="sxs-lookup"><span data-stu-id="06d1b-109">Related Sections</span></span>
+## <a name="related-sections"></a><span data-ttu-id="05058-109">Seções Relacionadas</span><span class="sxs-lookup"><span data-stu-id="05058-109">Related Sections</span></span>
 
-[<span data-ttu-id="06d1b-110">Configurar o controle de admissão de chamadas no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="06d1b-110">Configure call admission control in Lync Server 2013</span></span>](lync-server-2013-configure-call-admission-control.md)
+[<span data-ttu-id="05058-110">Configurar o controle de admissão de chamadas no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="05058-110">Configure call admission control in Lync Server 2013</span></span>](lync-server-2013-configure-call-admission-control.md)
 
 </div>
 
