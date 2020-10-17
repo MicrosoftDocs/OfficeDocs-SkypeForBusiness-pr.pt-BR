@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: verificar configuração de tronco em relação a um número de telefone'
+description: 'Lync Server 2013: Verifique a configuração de tronco em relação a um número de telefone.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 63969574
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 881e161a01b589db2db172cb5115858b522d262b
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 7cdfe1a2a9c5c87310ad561464960c5a01fea7b5
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48526228"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48543537"
 ---
 # <a name="check-trunk-configuration-against-a-phone-number-in-lync-server-2013"></a>Verificar a configuração de tronco em relação a um número de telefone no Lync Server 2013
 
