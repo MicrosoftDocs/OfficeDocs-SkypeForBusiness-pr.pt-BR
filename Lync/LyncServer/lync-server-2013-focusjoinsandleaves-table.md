@@ -12,20 +12,22 @@ ms:contentKeyID: 48185690
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8e8d37023d30784d07d9ac74ce89aa8cc1fb43a9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9f7691a008dae1fc822b6632a60f5324bb4e80fc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207307"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500828"
 ---
+# <a name="focusjoinsandleaves-table-in-lync-server-2013"></a>Tabela FocusJoinsAndLeaves no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="focusjoinsandleaves-table-in-lync-server-2013"></a>Tabela FocusJoinsAndLeaves no Lync Server 2013
+
 
 </div>
 
@@ -59,7 +61,7 @@ Cada registro desta tabela contém as informações de CDR sobre as informaçõe
 <tr class="odd">
 <td><p><strong>Identificação_da_sessãotime</strong></p></td>
 <td><p>datetime</p></td>
-<td><p>Primária, estrangeira</p></td>
+<td><p>Primário, externo</p></td>
 <td><p>Hora da instância da conferência. Usado em conjunto com o <strong>SessionIdSeq</strong> para identificar exclusivamente uma instância de conferência. Consulte a <a href="lync-server-2013-conferences-table.md">tabela conferências no Lync Server 2013</a> para obter mais informações.</p></td>
 </tr>
 <tr class="even">
@@ -71,7 +73,7 @@ Cada registro desta tabela contém as informações de CDR sobre as informaçõe
 <tr class="odd">
 <td><p><strong>DialogSessionIdTime</strong></p></td>
 <td><p>datetime</p></td>
-<td><p>Primária, Estrangeira</p></td>
+<td><p>Primário, Estrangeiro</p></td>
 <td><p>Tempo da solicitação de sessão. Usado em conjunto com <strong>SessionIdSeq</strong> para identificar exclusivamente uma sessão. Consulte a <a href="lync-server-2013-dialogs-table.md">tabela diálogos no Lync Server 2013</a> para obter mais informações.</p></td>
 </tr>
 <tr class="even">

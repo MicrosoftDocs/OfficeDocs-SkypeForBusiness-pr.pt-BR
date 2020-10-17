@@ -12,20 +12,22 @@ ms:contentKeyID: 48185734
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b436c52b89ce9e396d93669c09cdadeef10260e3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 090c0d4e7ce65f633458860f0c488e4257d15b5a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42203287"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48499418"
 ---
+# <a name="assigning-location-policy-scope-in-lync-server-2013"></a>Atribuindo escopo de política de local no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="assigning-location-policy-scope-in-lync-server-2013"></a>Atribuindo escopo de política de local no Lync Server 2013
+
 
 </div>
 
@@ -45,7 +47,7 @@ Cada site de rede possui uma política de local atribuída a ele e cada polític
 
 
 > [!NOTE]  
-> O motivo para esse comportamento de escopo de política especial é que, quando um usuário hospedado em um pool em um site do Office visita outro site e precisa fazer uma chamada de emergência, as configurações de roteamento de chamadas E9-1-1 apropriadas para esse site de rede serão aplicadas, não importa qual pool ou site o u ser atribuído a.
+> O motivo para esse comportamento de escopo de política especial é que, quando um usuário hospedado em um pool em um site do Office visita outro site e precisa fazer uma chamada de emergência, as configurações de roteamento de chamadas E9-1-1 apropriadas para esse site de rede serão aplicadas, independentemente de qual pool ou site o usuário está atribuído.
 
 
 

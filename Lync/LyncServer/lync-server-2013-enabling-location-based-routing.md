@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: habilitando roteamento baseado em local'
+title: 'Lync Server 2013: habilitando roteamento de Location-Based'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 51803920
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5a66ced9530510ade4d91e8d76032a4260870530
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1ab22ffdfc47f390671f2bf66ea76dd734aaa128
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187734"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500968"
 ---
+# <a name="enabling-location-based-routing-in-lync-server-2013"></a>Habilitando o roteamento de Location-Based no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="enabling-location-based-routing-in-lync-server-2013"></a>Habilitando o roteamento baseado em local no Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42187734"
 
 _**Última modificação do tópico:** 2013-04-26_
 
-Depois que o Enterprise Voice é implantado e as regiões de rede, sites e sub-redes são definidas, você pode habilitar o roteamento baseado em local. O roteamento baseado em local deve ser habilitado para os seguintes elementos do Enterprise Voice:
+Depois que o Enterprise Voice é implantado e as regiões de rede, sites e sub-redes são definidas, você pode habilitar o roteamento Location-Based. Location-Based roteamento deve estar habilitado para os seguintes elementos do Enterprise Voice:
 
   - Sites de rede
 
@@ -49,15 +51,15 @@ Depois que o Enterprise Voice é implantado e as regiões de rede, sites e sub-r
 
 <div>
 
-## <a name="enable-location-based-routing-to-network-sites"></a>Habilitar o roteamento baseado em local para sites de rede
+## <a name="enable-location-based-routing-to-network-sites"></a>Habilitar o roteamento de Location-Based para sites de rede
 
-Depois de implantar o Enterprise Voice e os sites de rede configurados, você está pronto para configurar o roteamento baseado em local. Primeiro, você cria uma política de roteamento de voz para associar o site de rede aos usos de PSTN apropriados. Ao atribuir usos de PSTN a uma política de roteamento de voz, certifique-se de usar somente os usos de PSTN associados a rotas de voz que usam um gateway PSTN local para o site ou um gateway PSTN localizado em uma região onde as restrições de roteamento baseadas em local não são necessárias. Use o comando do Windows PowerShell do Lync Server, o New-CsVoiceRoutingPolicy ou o painel de controle do Lync Server para criar políticas de roteamento de voz.
+Depois de implantar o Enterprise Voice e os sites de rede configurados, você está pronto para configurar o roteamento de Location-Based. Primeiro, você cria uma política de roteamento de voz para associar o site de rede aos usos de PSTN apropriados. Ao atribuir usos de PSTN a uma política de roteamento de voz, certifique-se de usar somente os usos de PSTN que estão associados a rotas de voz que usam um gateway PSTN local para o site ou um gateway PSTN que está localizado em uma região onde Location-Based restrições de roteamento não são necessárias. Use o comando do Windows PowerShell do Lync Server, o New-CsVoiceRoutingPolicy ou o painel de controle do Lync Server para criar políticas de roteamento de voz.
 
     New-CsVoiceRoutingPolicy -Identity <voice routing policy ID> -Name <voice routing policy name> -PstnUsages <usages>
 
 Para obter mais informações, consulte [New-CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsVoiceRoutingPolicy).
 
-Neste exemplo, a tabela a seguir e os comandos do Windows PowerShell ilustram duas políticas de roteamento de voz e seus usos de PSTN associados definidos neste cenário. Somente as configurações específicas do roteamento baseado em local são incluídas na tabela para fins de ilustração.
+Neste exemplo, a tabela a seguir e os comandos do Windows PowerShell ilustram duas políticas de roteamento de voz e seus usos de PSTN associados definidos neste cenário. Somente as configurações específicas para o roteamento de Location-Based são incluídas na tabela para fins de ilustração.
 
     New-CsVoiceRoutingPolicy -Identity "DelhiVoiceRoutingPolicy" -Name "Delhi voice routing policy" -PstnUsages @{add="Delhi usage", "PBX Del usage", "PBX Hyd usage"}
     New-CsVoiceRoutingPolicy -Identity "HyderabadVoiceRoutingPolicy" -Name " Hyderabad voice routing policy" -PstnUsages @{add="Hyderabad usage", "PBX Del usage", "PBX Hyd usage"}
@@ -92,11 +94,11 @@ Neste exemplo, a tabela a seguir e os comandos do Windows PowerShell ilustram du
 
   
 
-Em seguida, configure o roteamento baseado em local para os sites de rede aplicáveis e associe suas políticas de roteamento de voz a eles. Use o comando do Windows PowerShell do Lync Server, New-CsNetworkSite, para habilitar o roteamento baseado em local e associar as políticas de roteamento de voz aos sites de rede que devem impor restrições de roteamento.
+Em seguida, configure Location-Based roteamento para os sites de rede aplicáveis e associe suas políticas de roteamento de voz a eles. Use o comando do Windows PowerShell do Lync Server, New-CsNetworkSite, para habilitar Location-Based roteamento e associar as políticas de roteamento de voz aos sites de rede que devem impor restrições de roteamento.
 
     Set-CsNetworkSite -Identity <site ID> -EnableLocationBasedRouting <$true|$false> -VoiceRoutingPolicy <voice routing policy ID>
 
-Neste exemplo, a tabela a seguir ilustra o roteamento baseado em local para dois sites de rede diferentes, Delhi e Hyderabad, definidos neste cenário usando o Lync Server Windows PowerShell. Somente as configurações específicas do roteamento baseado em local são incluídas na tabela para fins de ilustração.
+Neste exemplo, a tabela a seguir ilustra Location-Based roteamento para dois locais de rede diferentes, Delhi e Hyderabad, definidos neste cenário usando o Lync Server Windows PowerShell. Somente as configurações específicas para o roteamento de Location-Based são incluídas na tabela para fins de ilustração.
 
     Set-CsNetworkSite -Identity "Delhi" -EnableLocationBasedRouting $true -VoiceRoutingPolicy "DelhiVoiceRoutingPolicy"
     Set-CsNetworkSite -Identity "Hyderabad" -EnableLocationBasedRouting $true -VoiceRoutingPolicy "HyderabadVoiceRoutingPolicy"
@@ -149,9 +151,9 @@ Neste exemplo, a tabela a seguir ilustra o roteamento baseado em local para dois
 
 <div>
 
-## <a name="enable-location-based-routing-to-trunks"></a>Habilitar roteamento baseado em local para troncos
+## <a name="enable-location-based-routing-to-trunks"></a>Habilitar roteamento de Location-Based para troncos
 
-Antes que uma configuração de tronco possa ser habilitada para roteamento baseado em local, você precisará criar uma configuração de tronco para cada tronco ou cada site de rede. Use o comando do Windows PowerShell do Lync Server, New-CsTrunkConfiguration, para criar uma configuração de tronco. Se vários troncos estiverem associados a um determinado sistema (ou seja, gateway ou PBX), cada configuração de tronco deverá ser modificada para habilitar as restrições de roteamento com base no local.
+Antes que uma configuração de tronco pode ser habilitada para roteamento de Location-Based, você precisa criar uma configuração de tronco para cada tronco ou cada site de rede. Use o comando do Windows PowerShell do Lync Server, New-CsTrunkConfiguration, para criar uma configuração de tronco. Se vários troncos estiverem associados a um determinado sistema (ou seja, gateway ou PBX), cada configuração de tronco deverá ser modificada para habilitar restrições de roteamento de Location-Based.
 
     New-CsTrunkConfiguration -Identity < trunk configuration ID>
 
@@ -164,26 +166,26 @@ Neste exemplo, os seguintes comandos do Windows PowerShell ilustram a criação 
     New-CsTrunkConfiguration -Identity Service:PstnGateway:"<Trunk 3 DEL-PBX>"
     New-CsTrunkConfiguration -Identity Service:PstnGateway:"<Trunk 4 HYD-PBX>"
 
-Depois que uma configuração de tronco é configurada por tronco, você pode usar o comando do Lync Server Windows PowerShell, Set-CsTrunkConfiguration, para habilitar o roteamento baseado em local para seus troncos que devem impor restrições de roteamento. Habilitar o roteamento baseado em local para troncos que roteiam chamadas para gateways PSTN que roteiam chamadas para o PSTN e associam o site de rede onde o gateway está localizado.
+Depois que uma configuração de tronco é configurada por tronco, você pode usar o comando do Lync Server Windows PowerShell, Set-CsTrunkConfiguration, para habilitar Location-Based roteamento para seus troncos que devem impor restrições de roteamento. Habilite Location-Based roteamento para troncos que roteiam chamadas para gateways PSTN que roteiam chamadas para a PSTN e associe o local de rede onde o gateway está localizado.
 
     Set-CsTrunkConfiguration -Identity <trunk configuration ID> -EnableLocationRestriction $true -NetworkSiteID <site ID>
 
 Para obter mais informações, consulte [New-CsTrunkConfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsTrunkConfiguration).
 
-Neste exemplo, o roteamento baseado em local está habilitado para cada tronco associado aos gateways PSTN em Delhi e Hyderabad:
+Neste exemplo, Location-Based roteamento está habilitado para cada tronco associado aos gateways PSTN em Delhi e Hyderabad:
 
     Set-CsTrunkConfiguration -Identity Service:PstnGateway:Trunk 1 DEL-GW -EnableLocationRestriction $true -NetworkSiteID "Delhi"
     Set-CsTrunkConfiguration -Identity Service:PstnGateway:Trunk 2 HYD-GW -EnableLocationRestriction $true -NetworkSiteID "Hyderabad"
 
   
 
-Não habilite o roteamento baseado em local para troncos que não roteiam chamadas para o PSTN; no entanto, você ainda deve associar o tronco ao site de rede em que o sistema está localizado como as restrições de roteamento baseadas em local precisam ser impostas para chamadas PSTN que chegam aos pontos de extremidade conectados por esse tronco. Neste exemplo, o roteamento baseado em local não está habilitado para cada tronco associado aos sistemas PBX em Delhi e Hyderabad:
+Não habilite o roteamento de Location-Based para troncos que não roteiam chamadas para o PSTN; no entanto, você ainda deve associar o tronco ao site de rede em que o sistema está localizado como Location-Based restrições de roteamento precisam ser impostas para chamadas PSTN que chegam aos pontos de extremidade conectados por meio desse tronco. Para este exemplo, Location-Based roteamento não está habilitado para cada tronco associado a sistemas PBX em Delhi e Hyderabad:
 
     Set-CsTrunkConfiguration -Identity Service:PstnGateway:Trunk 3 DEL-PBX -EnableLocationRestriction $false -NetworkSiteID "Delhi"
     Set-CsTrunkConfiguration -Identity Service:PstnGateway:Trunk 4 HYD-PBX -EnableLocationRestriction $false -NetworkSiteID "Hyderabad"
 
   
-Os pontos de extremidade conectados aos sistemas que não roteiam chamadas para o PSTN (ou seja, um PBX) terão restrições semelhantes aos pontos de extremidade do Lync dos usuários habilitados para roteamento baseado em local. Isso significa que esses usuários poderão fazer e receber chamadas de e para o usuário do Lync independentemente do local do usuário. Eles também poderão fazer chamadas de recebimento para e de outros sistemas que não roteiam chamadas para a rede PSTN (ou seja, um ponto de extremidade conectado a um PBX diferente), independentemente do site de rede ao qual o sistema está associado. Todas as chamadas de entrada, chamadas de saída, transferências de chamadas e encaminhamento de chamadas que envolvem pontos de extremidade PSTN serão sujeitas a enforces de roteamento com base no local. Essas chamadas devem usar somente gateways PSTN definidos como locais para esses sistemas.
+Os pontos de extremidade conectados a sistemas que não roteiam chamadas para o PSTN (ou seja, um PBX) terão restrições semelhantes aos pontos de extremidade do Lync dos usuários habilitados para roteamento Location-Based. Isso significa que esses usuários poderão fazer e receber chamadas de e para o usuário do Lync independentemente do local do usuário. Eles também poderão fazer chamadas de recebimento para e de outros sistemas que não roteiam chamadas para a rede PSTN (ou seja, um ponto de extremidade conectado a um PBX diferente), independentemente do site de rede ao qual o sistema está associado. Todas as chamadas de entrada, chamadas de saída, transferências de chamadas e encaminhamento de chamadas que envolvem pontos de extremidade PSTN serão sujeitas a Location-Based enforceres de roteamento. Essas chamadas devem usar somente gateways PSTN definidos como locais para esses sistemas.
 
 A tabela a seguir ilustra a configuração de tronco de quatro troncos em dois locais de rede diferentes: dois conectados a gateways PSTN e dois conectados a sistemas PBX.
 
@@ -204,12 +206,12 @@ A tabela a seguir ilustra a configuração de tronco de quatro troncos em dois l
 <tbody>
 <tr class="odd">
 <td><p>PstnGateway: tronco 1 DEL-GW</p></td>
-<td><p>True</p></td>
+<td><p>Verdadeiro.</p></td>
 <td><p>Site 1 (Déli)</p></td>
 </tr>
 <tr class="even">
 <td><p>PstnGateway: tronco 2 HYD-GW</p></td>
-<td><p>True</p></td>
+<td><p>Verdadeiro.</p></td>
 <td><p>Site 2 (Hyderabad)</p></td>
 </tr>
 <tr class="odd">
@@ -235,15 +237,15 @@ A tabela a seguir ilustra a configuração de tronco de quatro troncos em dois l
 
 <div>
 
-## <a name="enable-location-based-routing-to-voice-policies"></a>Habilitar roteamento baseado em local para políticas de voz
+## <a name="enable-location-based-routing-to-voice-policies"></a>Habilitar o roteamento de Location-Based para políticas de voz
 
-Para impor o roteamento baseado em local a usuários específicos, configure a política de voz dos usuários para evitar o bypass de chamadas PSTN. Use o comando do Windows PowerShell do Lync Server, New-CsVoicePolicy, para criar uma nova política de voz ou Set-CsVoicePolicy, se estiver usando uma política existente, para habilitar o roteamento baseado em local, impedindo o desvio de chamada PSTN.
+Para impor Location-Based roteamento a usuários específicos, configure a política de voz dos usuários para evitar o bypass de chamadas PSTN. Use o comando do Windows PowerShell do Lync Server, New-CsVoicePolicy, para criar uma nova política de voz ou Set-CsVoicePolicy, se estiver usando uma política existente, para habilitar Location-Based roteamento, impedindo o desvio de chamada PSTN.
 
     Set-CsVoicePolicy -Identity <voice policy ID> -PreventPSTNTollBypass <$true|$false>
 
 Para obter mais informações, consulte [New-CsVoicePolicy](https://docs.microsoft.com/powershell/module/skype/New-CsVoicePolicy).
 
-Para este exemplo, a tabela a seguir e os comandos do Windows PowerShell ilustram a prevenção de bypass de chamadas PSTN para as políticas de voz de Déli e Hyderabad definidas neste cenário. Somente as configurações específicas do roteamento baseado em local são incluídas na tabela para fins de ilustração.
+Para este exemplo, a tabela a seguir e os comandos do Windows PowerShell ilustram a prevenção de bypass de chamadas PSTN para as políticas de voz de Déli e Hyderabad definidas neste cenário. Somente as configurações específicas para o roteamento de Location-Based são incluídas na tabela para fins de ilustração.
 
     Set-CsVoicePolicy -Identity "Delhi voice policy" -PreventPSTNTollBypass $true
     Set-CsVoicePolicy -Identity "Hyderabad voice policy" -PreventPSTNTollBypass $true
@@ -291,9 +293,9 @@ Para este exemplo, a tabela a seguir e os comandos do Windows PowerShell ilustra
 
 <div>
 
-## <a name="enable-location-based-routing-in-the-routing-configuration"></a>Habilitar o roteamento baseado em local na configuração de roteamento
+## <a name="enable-location-based-routing-in-the-routing-configuration"></a>Habilitar roteamento de Location-Based na configuração de roteamento
 
-Por fim, habilite globalmente o roteamento baseado em local para sua configuração de roteamento. Use o comando do Windows PowerShell do Lync Server, New-CsRoutingConfiguration, para habilitar o roteamento baseado em local.
+Por fim, habilite globalmente Location-Based roteamento para sua configuração de roteamento. Use o comando do Windows PowerShell do Lync Server, New-CsRoutingConfiguration, para habilitar o roteamento Location-Based.
 
     Set-CsRoutingConfiguration -EnableLocationBasedRouting $true
 
@@ -303,7 +305,7 @@ Para obter mais informações, consulte [set-CsRoutingConfiguration](https://doc
 
 
 > [!NOTE]  
-> Embora o roteamento baseado em local deva ser habilitado por meio de uma configuração global, o conjunto de regras a ser aplicado só será imposto para os sites, os usuários e os troncos para os quais foram configurados conforme especificado nesta documentação.
+> enquanto Location-Based roteamento deve ser habilitado por meio de uma configuração global, o conjunto de regras a ser aplicado só será imposto para os sites, os usuários e os troncos para os quais foram configurados conforme especificado nesta documentação.
 
 
 
@@ -321,7 +323,7 @@ Para obter mais informações, consulte [set-CsRoutingConfiguration](https://doc
 ## <a name="see-also"></a>Confira também
 
 
-[Configurando o roteamento baseado em local no Lync Server 2013](lync-server-2013-configuring-location-based-routing.md)  
+[Configurando o roteamento de Location-Based no Lync Server 2013](lync-server-2013-configuring-location-based-routing.md)  
   
 
 </div>

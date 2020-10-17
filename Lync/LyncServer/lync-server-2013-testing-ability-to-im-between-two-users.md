@@ -12,20 +12,22 @@ ms:contentKeyID: 63969635
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 810a49a35f9b2597e8a84427e513217ff35efefb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 145a2849d8b87f0f19559583e94edb5e895f89db
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194274"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500488"
 ---
+# <a name="testing-ability-to-im-between-two-users-in-lync-server-2013"></a>Testando a capacidade de mensagens instantâneas entre dois usuários no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-ability-to-im-between-two-users-in-lync-server-2013"></a>Testando a capacidade de mensagens instantâneas entre dois usuários no Lync Server 2013
+
 
 </div>
 
@@ -66,7 +68,7 @@ _**Última modificação do tópico:** 2014-06-05_
 
 ## <a name="description"></a>Descrição
 
-O cmdlet Test-CsIM verifica se um par de usuários de teste podem trocar mensagens instantâneas. Quando chamado, o cmdlet Test-CsIM começa a tentar fazer logon em um par de usuários de teste no Lync Server. Supondo que os dois logons sejam bem-sucedidos, o cmdlet iniciará uma sessão de IM entre os dois usuários de teste. (O usuário 1 convida o usuário 2 para uma sessão de IM e o usuário 2 aceita o convite.) Depois de verificar se as mensagens podem ser trocadas entre os dois usuários, Test-CsIM e, em seguida, encerra a sessão de mensagens instantâneas e registra os dois usuários fora do sistema.
+O cmdlet Test-CsIM verifica se um par de usuários de teste podem trocar mensagens instantâneas. Quando chamado, o cmdlet Test-CsIM começa tentando fazer logon em um par de usuários de teste no Lync Server. Supondo que os dois logons sejam bem-sucedidos, o cmdlet iniciará uma sessão de IM entre os dois usuários de teste. (O usuário 1 convida o usuário 2 para uma sessão de IM e o usuário 2 aceita o convite.) Após verificar que as mensagens podem ser trocadas entre os dois usuários, Test-CsIM, em seguida, encerra a sessão de mensagens instantâneas e registra os dois usuários fora do sistema.
 
 Para obter mais informações, consulte a documentação de ajuda para o cmdlet [Test-CsIM](https://docs.microsoft.com/powershell/module/skype/Test-CsIM) .
 
@@ -76,7 +78,7 @@ Para obter mais informações, consulte a documentação de ajuda para o cmdlet 
 
 ## <a name="running-the-test"></a>Executar o teste
 
-O cmdlet Test-CsIM pode ser executado usando um par de contas de teste pré-configuradas (consulte Configurando contas de teste para executar testes do Lync Server) ou as contas de dois usuários que estão habilitados para o Lync Server. Para executar essa verificação usando contas de teste, basta especificar o FQDN do pool do Lync Server que está sendo testado. Por exemplo:
+O cmdlet Test-CsIM pode ser executado usando um par de contas de teste pré-configuradas (Confira Configurando contas de teste para executar testes do Lync Server) ou as contas de dois usuários que estão habilitados para o Lync Server. Para executar essa verificação usando contas de teste, basta especificar o FQDN do pool do Lync Server que está sendo testado. Por exemplo:
 
     Test-CsIM -TargetFqdn "atl-cs-001.litwareinc.com"
 
@@ -130,7 +132,7 @@ Se Test-CsIM falhar, talvez você queira executar novamente o teste, desta vez, 
 
     Test-CsIM -TargetFqdn "atl-cs-001.litwareinc.com" -Verbose
 
-Quando o parâmetro Verbose é incluído, o Test-CsIM retornará uma conta passo a passo de cada ação que tentou quando verificou a capacidade dos dois usuários de teste participarem de uma sessão de IM. Por exemplo, veja a seguir um exemplo de saída que ocorre quando um conjunto incorreto de credenciais de usuário (neste caso, uma senha incorreta) é fornecido para Test-CsIM:
+Quando o parâmetro Verbose é incluído, Test-CsIM retornará uma conta passo a passo de cada ação que tentou quando verificou a capacidade dos dois usuários de teste participarem da sessão de IM. Por exemplo, veja a seguir um exemplo de saída que ocorre quando um conjunto incorreto de credenciais de usuário (neste caso, uma senha incorreta) é fornecido para Test-CsIM:
 
 Enviando solicitação de registro:
 
@@ -154,7 +156,7 @@ Uma exceção ' o logon foi negado. Verifique se as credenciais corretas estão 
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Motivos pelos quais o teste pode ter falhado
 
-Aqui estão alguns motivos comuns pelos quais Test-CsIM pode falhar:
+Aqui estão alguns motivos comuns para que Test-CsIM possa falhar:
 
   - Você especificou uma conta de usuário que não é válida. Você pode verificar se uma conta de usuário existe executando um comando semelhante a este:
     

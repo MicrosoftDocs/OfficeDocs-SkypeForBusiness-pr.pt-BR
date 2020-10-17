@@ -12,20 +12,22 @@ ms:contentKeyID: 48185367
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 952f4c1b14ce7260d4b320ea7feacddb9a85a8f0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ec8ac614cdc829ab2b1efd7d6ff9179c33d5a33e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42203297"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48499468"
 ---
+# <a name="assigning-a-server-to-server-authentication-certificate-to-microsoft-lync-server-2013"></a>Atribuindo um certificado de autenticação de servidor para servidor ao Microsoft Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="assigning-a-server-to-server-authentication-certificate-to-microsoft-lync-server-2013"></a>Atribuindo um certificado de autenticação de servidor para servidor ao Microsoft Lync Server 2013
+
 
 </div>
 
@@ -56,7 +58,7 @@ Em alternativa, é possível usar um certificado existente como seu certificado 
 
 No comando anterior, o certificado recuperado é configurado para funcionar como o certificado de autenticação servidor para servidor global; isto significa que o certificado será replicado e usado por todos os seus Servidores de Front-End. Novamente, este comando deve ser executado apenas uma vez e apenas em um de seus Servidores de Front-End. Embora todos os Servidores de Front-End devam usar o mesmo certificado, você não deve configurar o certificado OAuthTokenIssuer em cada Servidor de Front-End. Ao invés disso, configure o certificado uma vez, permita que o servidor de replicação do Lync Server cuide da cópia deste certificado em cada servidor.
 
-O cmdlet Set-CsCertificate leva o certificado em questão e configura imediatamente esse certificado para atuar como o certificado OAuthTokenIssuer atual. (Lync Server 2013 mantém duas cópias de um tipo de certificado: o certificado atual e o certificado anterior.) Se você precisar que o novo certificado inicie imediatamente o Act como o certificado OAuthTokenIssuer, você deve usar o cmdlet Set-CsCertificate.
+O cmdlet Set-CsCertificate Obtém o certificado em questão e imediatamente configura esse certificado para atuar como o certificado OAuthTokenIssuer atual. (Lync Server 2013 mantém duas cópias de um tipo de certificado: o certificado atual e o certificado anterior.) Se você precisar que o novo certificado inicie imediatamente o Act como o certificado OAuthTokenIssuer, use o cmdlet Set-CsCertificate.
 
 Também é possível usar o cmdlet Set-CsCertificate para "criar" um novo certificado. "Criar" um certificado simplesmente significa que você configura um novo certificado para se tornar o certificado OAuthTokenIssuer atual em um determinado ponto no tempo. Por exemplo, este comando recupera o certificado padrão e configura este certificado para assumir como o certificado OAuthTokenIssuer atual a partir de 1° de julho de 2012:
 

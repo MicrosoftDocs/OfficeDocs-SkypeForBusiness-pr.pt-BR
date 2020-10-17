@@ -12,20 +12,22 @@ ms:contentKeyID: 48184235
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 937869dffc3dfecc994f3c9ce819e1a644c88abe
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 72493338d854cc0aff63fde5eabb5d7a281fd50e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214299"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500708"
 ---
+# <a name="group-policy-settings-for-lync-2013"></a>Configurações de política de grupo para Lync 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="group-policy-settings-for-lync-2013"></a>Configurações de política de grupo para Lync 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42214299"
 
 _**Última modificação do tópico:** 2012-10-03_
 
-Nas versões anteriores do Lync e do Office Communicator, um modelo administrativo autônomo do Communicator. ADM estava disponível para definir as configurações da política de grupo do cliente. Para o Lync 2013, novos arquivos de modelo administrativo (arquivos. admx e. adml) são incluídos junto com o modelo administrativo da política de grupo do Office. A disponibilidade de arquivos do Lync 2013. admx e. adml permite baixar modelos e gerenciar centralmente as configurações de política de grupo para todos os programas e pacotes de idiomas do Office. Para obter detalhes, consulte "arquivos de modelo administrativo do Office 2013 (ADMX, ADML)" na documentação do <https://go.microsoft.com/fwlink/p/?linkid=267516>Office 2013 em.
+Nas versões anteriores do Lync e do Office Communicator, um modelo administrativo autônomo do Communicator. ADM estava disponível para definir as configurações da política de grupo do cliente. Para o Lync 2013, novos arquivos de modelo administrativo (arquivos. admx e. adml) são incluídos junto com o modelo administrativo da política de grupo do Office. A disponibilidade de arquivos do Lync 2013. admx e. adml permite baixar modelos e gerenciar centralmente as configurações de política de grupo para todos os programas e pacotes de idiomas do Office. Para obter detalhes, consulte "arquivos de modelo administrativo do Office 2013 (ADMX, ADML)" na documentação do Office 2013 em <https://go.microsoft.com/fwlink/p/?linkid=267516> .
 
 <div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 62387565
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 049472022a26d7a3a6e8e78e20a20ccaa46ff5fb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6d1a080f7183bbab62cae679c911c76261694406
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209757"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500268"
 ---
+# <a name="move-conference-directories"></a>Mover de diretórios de conferência
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="move-conference-directories"></a>Mover de diretórios de conferência
+
 
 </div>
 
@@ -67,7 +69,7 @@ Antes de encerrar um pool, você deve executar o procedimento a seguir para cada
     
         Get-CsConferenceDirectory | Where-Object {$_.ServiceID -match "pool01.contoso.net"} | Move-CsConferenceDirectory -TargetPool "pool02.contoso.net"
 
-Confira o documento "Desinstalando o Microsoft Lync Server 2010 e removendo funções de servidor" (que pode [https://go.microsoft.com/fwlink/p/?linkId=246227](https://go.microsoft.com/fwlink/p/?linkid=246227)ser baixado de) para obter instruções abrangentes e passo a passo sobre o encerramento de pools do Lync 2010.
+Confira o documento "Desinstalando o Microsoft Lync Server 2010 e removendo funções de servidor" (que pode ser baixado de [https://go.microsoft.com/fwlink/p/?linkId=246227](https://go.microsoft.com/fwlink/p/?linkid=246227) ) para obter instruções abrangentes e passo a passo sobre o encerramento de pools do Lync 2010.
 
 Ao mover os diretórios de conferência, você pode encontrar o seguinte erro:
 

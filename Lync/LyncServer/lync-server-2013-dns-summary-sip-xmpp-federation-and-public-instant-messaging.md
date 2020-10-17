@@ -12,20 +12,22 @@ ms:contentKeyID: 49105656
 ms.date: 03/09/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9c2ccaab6d1d3bcb1cf597bef076601544f47aad
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c8c7b36448f2aa8eb895aebeeaddc6187c1831ca
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192784"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501188"
 ---
+# <a name="dns-summary---sip-xmpp-federation-and-public-instant-messaging-in-lync-server-2013"></a>Resumo de DNS-SIP, Federação XMPP e mensagens instantâneas públicas no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dns-summary---sip-xmpp-federation-and-public-instant-messaging-in-lync-server-2013"></a>Resumo de DNS-SIP, Federação XMPP e mensagens instantâneas públicas no Lync Server 2013
+
 
 </div>
 
@@ -37,15 +39,15 @@ ms.locfileid: "42192784"
 
 _**Última modificação do tópico:** 2017-03-09_
 
-Os registros de DNS (sistema de nomes de domínio) que serão necessários para definir uma federação com os parceiros do Office Communications Server ou do Lync Server são determinados pela sua decisão de permitir a descoberta automática de DNS do seu domínio por outros parceiros de perspectiva. Se você publicar o \_sipfederationtls. \_TCP. * \<Nome\> do domínio SIP* Registro SRV, qualquer outro domínio federado SIP poderá "descobrir" sua Federação. Você pode controlar quais domínios federados podem se comunicar com você usando as configurações permitir domínios e domínios bloqueados no painel de controle do Lync Server ou definindo a configuração de domínios permitidos ou bloqueados usando o Shell de gerenciamento do Lync Server e os cmdlets **Get**, **set**, **New**, **Remove-CsAllowedDomain** e **-CsBlockedDomain** do PowerShell. Para obter informações adicionais sobre como definir as configurações de contratação e o uso dos cmdlets do PowerShell, consulte **Tópicos relacionados** no final deste tópico.
+Os registros de DNS (sistema de nomes de domínio) que serão necessários para definir uma federação com os parceiros do Office Communications Server ou do Lync Server são determinados pela sua decisão de permitir a descoberta automática de DNS do seu domínio por outros parceiros de perspectiva. Se você publicar o \_ sipfederationtls. \_ TCP. *\<SIP domain name\>* Registro SRV, qualquer outro domínio federado SIP poderá "descobrir" sua Federação. Você pode controlar quais domínios federados podem se comunicar com você usando as configurações permitir domínios e domínios bloqueados no painel de controle do Lync Server ou definindo a configuração de domínios permitidos ou bloqueados usando o Shell de gerenciamento do Lync Server e os cmdlets **Get**, **set**, **New**, **Remove-CsAllowedDomain** e **-CsBlockedDomain** do PowerShell. Para obter informações adicionais sobre como definir as configurações de contratação e o uso dos cmdlets do PowerShell, consulte **Tópicos relacionados** no final deste tópico.
 
-A tabela de resumo dos registros DNS exibe as entradas necessárias para uma federação aberta ou descoberta. Se não quiser implementar a descoberta de Federação, você pode decidir não configurar o \_sipfederationtls. \_TCP. Registro de *nome\> de domínio SIP. \<*
+A tabela de resumo dos registros DNS exibe as entradas necessárias para uma federação aberta ou descoberta. Se não quiser implementar a descoberta de Federação, você pode decidir não configurar o \_ sipfederationtls. \_ TCP. *\<SIP domain name\>* registo.
 
 <div>
 
 
 > [!IMPORTANT]
-> Há cenários específicos nos quais você deve ter o _sipfederationtls. _tcp. <EM> &lt;Nome&gt; do domínio SIP</EM> Registro SRV, mas você não deseja ter uma federação detectável. Uma instância é onde você implantou mobilidade para seus usuários. O Mobility Push Notification Clearinghouse (PNCH) é um tipo especial de Federação que é usado para clientes móveis do Microsoft Lync em Apple iPhone ou iPad usando o cliente móvel do Lync 2010 ou o Windows Phone usando os clientes móveis do Lync 2010 Mobile ou Lync 2013. O _sipfederationtls. _tcp. <EM> &lt;Nome&gt; do domínio SIP</EM> O registro SRV é usado no caso de mobilidade e notificação por push. Para reduzir esse problema e controlar a sua descoberta, desmarque a configuração <STRONG>habilitar descoberta de domínio de parceiro</STRONG> para desativar a descoberta.
+> Há cenários específicos nos quais você deve ter o _sipfederationtls. _ TCP. <EM> &lt; Nome &gt; de domínio SIP</EM> registro SRV, mas você não deseja ter uma federação detectável. Uma instância é onde você implantou mobilidade para seus usuários. O Mobility Push Notification Clearinghouse (PNCH) é um tipo especial de Federação que é usado para clientes móveis do Microsoft Lync em Apple iPhone ou iPad usando o cliente móvel do Lync 2010 ou o Windows Phone usando os clientes móveis do Lync 2010 Mobile ou Lync 2013. O _sipfederationtls. _ TCP. O registro SRV do <EM> &lt; &gt; nome de domínio SIP</EM> é usado no caso de notificação por push e de mobilidade. Para reduzir esse problema e controlar a sua descoberta, desmarque a configuração <STRONG>habilitar descoberta de domínio de parceiro</STRONG> para desativar a descoberta.
 
 
 
@@ -78,7 +80,7 @@ Ao configurar o DNS (sistema de nomes de domínio) para conectividade de mensage
 <tbody>
 <tr class="odd">
 <td><p>DNS Externo/SRV/5061</p></td>
-<td><p>_sipfederationtls. _tcp. contoso. com</p></td>
+<td><p>_sipfederationtls _sipfederationtls._tcp. contoso. com</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>A interface externa do serviço de borda de acesso necessária para a descoberta automática de DNS da sua Federação para outros parceiros de Federação potenciais e é conhecido como "domínios SIP permitidos" (chamado de Federação avançada em versões anteriores). Repetir conforme necessário para todos os domínios SIP com usuários habilitados para Lync</p>
 
@@ -112,15 +114,15 @@ Ao configurar o DNS (sistema de nomes de domínio) para conectividade de mensage
 <th>Local/tipo/porta</th>
 <th>FQDN</th>
 <th>Endereço IP/registro de host FQDN</th>
-<th>Mapeia para/comentários</th>
+<th>Mapeia para/Comentários</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>DNS Externo/SRV/5269</p></td>
-<td><p>_xmpp-Server. _tcp. contoso. com</p></td>
+<td><p>_xmpp-server._tcp. contoso. com</p></td>
 <td><p>xmpp.contoso.com</p></td>
-<td><p>XMPP interface externa do proxy no serviço de borda de acesso ou no pool de borda. Repita conforme necessário para todos os domínios SIP internos com usuários habilitados para Lync onde contato com contatos do XMPP é permitido por meio da configuração da política de acesso externo por meio de uma política global, política de site onde o usuário está localizado ou política de usuário aplicada ao Usuário habilitado para Lync. Um domínio XMPP permitido também deve ser configurado na política de Parceiros Federados XMPP. Veja os tópicos em <strong>Consulte também </strong> para mais detalhes</p></td>
+<td><p>XMPP interface externa do proxy no serviço de borda de acesso ou no pool de borda. Repita conforme necessário para todos os domínios SIP internos com usuários habilitados para Lync onde contato com contatos do XMPP é permitido por meio da configuração da política de acesso externo por meio de uma política global, política de site onde o usuário está localizado ou política de usuário aplicada ao usuário habilitado para Lync. Um domínio XMPP permitido também deve ser configurado na política de Parceiros Federados XMPP. Veja os tópicos em <strong>Consulte também </strong> para mais detalhes</p></td>
 </tr>
 <tr class="even">
 <td><p>DNS Externo/A</p></td>

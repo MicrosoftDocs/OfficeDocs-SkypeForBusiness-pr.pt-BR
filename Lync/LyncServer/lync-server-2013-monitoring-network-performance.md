@@ -12,20 +12,22 @@ ms:contentKeyID: 63969647
 ms.date: 04/27/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3dc6941f612fdf18f081cb52e55e2c7f7201e64b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: efeba476609ad293cd94e67f8dfdbe674b42f3f6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184704"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500638"
 ---
+# <a name="monitoring-network-performance-in-lync-server-2013"></a>Monitorando o desempenho da rede no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="monitoring-network-performance-in-lync-server-2013"></a>Monitorando o desempenho da rede no Lync Server 2013
+
 
 </div>
 
@@ -41,9 +43,9 @@ O Lync Server 2013 é uma tecnologia de comunicação em tempo real que depende 
 
 O desempenho da rede pode ser medido em dois níveis:
 
-  - **Desempenho geral da rede**   esse nível de medição de desempenho permitirá que uma organização crie uma visão geral de sua rede e, em geral, é implementada por meio de sistemas de monitoramento de rede de terceiros. Esses sistemas receberão dados de desempenho e capacidade de dispositivos de rede remotas, como roteadores e comutados por toda a rede para permitir que os administradores determinem a integridade de um determinado componente de rede em qualquer ocasião do dia.
+  - Desempenho geral da **rede**     Esse nível de medição de desempenho permitirá que uma organização crie uma visão geral de sua rede e é normalmente implementada por meio de sistemas de monitoramento de rede de terceiros. Esses sistemas receberão dados de desempenho e capacidade de dispositivos de rede remotas, como roteadores e comutados por toda a rede para permitir que os administradores determinem a integridade de um determinado componente de rede em qualquer ocasião do dia.
 
-  - **Desempenho do servidor individual**   esse nível de medição de desempenho está limitado a um servidor específico e ajudará os administradores no gauging o desempenho de rede de um servidor específico para ajudar na solução de problemas de um problema específico de desempenho ou para medir o desempenho do respectivo servidor em um determinado período como parte de um processo de planejamento de capacidade.
+  - Desempenho do servidor **individual**     Esse nível de medição de desempenho é limitado a um servidor específico e ajuda os administradores com o gauging o desempenho de rede de um servidor específico para ajudar na solução de problemas de desempenho específico ou para medir o desempenho do respectivo servidor em um determinado período como parte de um processo de planejamento de capacidade.
 
 Você pode monitorar a rede usando as ferramentas descritas nas seções a seguir.
 
@@ -55,7 +57,7 @@ Você pode monitorar a rede usando as ferramentas descritas nas seções a segui
 
 ## <a name="system-center-operations-manager-2012"></a>System Center Operations Manager 2012
 
-O System Center Operations Manager oferece gerenciamento de serviço de ponta a ponta que é fácil de personalizar e estender para níveis de serviço aprimorados em um ambiente de ti. Isso permite que as operações e as equipes de gerenciamento de ti identifiquem e resolvam os problemas que afetam a integridade dos serviços de ti distribuídos. O gerenciamento de serviços de ponta a ponta não é restrito a ambientes baseados em Microsoft. Suporte para serviços Web para gerenciamento (WS-Management), SNMP (protocolo de gerenciamento de rede simples) e soluções de parceiros permitem que sistemas que não executam sistemas operacionais e hardware da Microsoft sejam incluídos no monitoramento de serviços no System Center Operations Manager 2012.
+O System Center Operations Manager oferece gerenciamento de serviço de ponta a ponta que é fácil de personalizar e estender para níveis de serviço aprimorados em um ambiente de ti. Isso permite que as operações e as equipes de gerenciamento de ti identifiquem e resolvam os problemas que afetam a integridade dos serviços de ti distribuídos. O gerenciamento de serviços de ponta a ponta não é restrito a ambientes baseados em Microsoft. O suporte para serviços Web para gerenciamento (WS-Management), SNMP (Simple Network Management Protocol) e soluções de parceiros permitem que sistemas que não executam sistemas operacionais e hardware da Microsoft sejam incluídos no monitoramento de serviços no System Center Operations Manager 2012.
 
 </div>
 
@@ -63,13 +65,13 @@ O System Center Operations Manager oferece gerenciamento de serviço de ponta a 
 
 ## <a name="system-center-operations-manager-2012-and-third-party-network-management-solutions"></a>Soluções de gerenciamento de rede do System Center Operations Manager 2012 e de terceiros
 
-**EMC Smarts**   EMC Solutions for Operations Manager ajuda a resolver rapidamente problemas que afetam os níveis de serviço. Usando o EMC Solutions for Operations Manager, você pode gerenciar e monitorar toda a sua cadeia de serviços de ti com uma solução integrada e automatizada. Você identificará facilmente as causas raiz dos problemas de desempenho e disponibilidade e os resolverá mais rapidamente, reduzindo os efeitos e os custos. Os principais benefícios incluem o seguinte:
+**EMC Smarts**     O EMC Solutions for Operations Manager ajuda a resolver rapidamente problemas que afetam os níveis de serviço. Usando o EMC Solutions for Operations Manager, você pode gerenciar e monitorar toda a sua cadeia de serviços de ti com uma solução integrada e automatizada. Você identificará facilmente as causas raiz dos problemas de desempenho e disponibilidade e os resolverá mais rapidamente, reduzindo os efeitos e os custos. Os principais benefícios incluem o seguinte:
 
   - Foco de gerenciamento avançado e fácil de usar para fornecer o valor estratégico de negócios, em vez de classificar e filtrar manualmente os alertas confusos.
 
-  - **Resolução mais rápida**   resolvem problemas de ti e atendem às necessidades de negócios com mais rapidez, reduzindo o efeito e o custo.
+  - **Resolução**     mais rápida Solucione os problemas de ti e responda às necessidades de negócios com mais rapidez, reduzindo o efeito e o custo.
 
-  - **Operações simplificadas**   evitam complexidade de ti combinando várias ferramentas de gerenciamento, aplicativos e terminais.
+  - **Operações**     simplificadas Evite a complexidade da ti combinando várias ferramentas de gerenciamento, aplicativos e terminais.
 
 É possível encontrar mais informações aqui:
 
@@ -85,7 +87,7 @@ O System Center Operations Manager oferece gerenciamento de serviço de ponta a 
 
 **Centro de gerenciamento de rede HP (anteriormente conhecido como HP OpenView) o centro de**   [Gerenciamento de rede HP](http://www8.hp.com/us/en/software-solutions/network-management/index.html?%26zn=bto%26cp=1-11-15-119_4000_100__) oferece gerenciamento de falhas e desempenho integrados para melhorar a disponibilidade e o desempenho da rede. O centro de gerenciamento de rede é parte da solução de gerenciamento automatizado de rede HP que unifica o gerenciamento de falhas, desempenho, configuração e alteração.
 
-**Os produtos**   de gerenciamento e automação de rede da Cisco para a empresa, a Cisco tem vários produtos de gerenciamento disponíveis, incluindo a solução de gerenciamento de LAN da CiscoWorks e o módulo de análise de rede da Cisco, para ajudar a melhorar a eficiência operacional e reduzir o tempo Para obter dados adicionais sobre esses produtos, consulte o site da Cisco [https://www.cisco.com/en/US/products/sw/netmgtsw/index.html](https://www.cisco.com/en/us/products/sw/netmgtsw/index.html)em.
+Produtos de automação **e gerenciamento de rede da Cisco**     Para a empresa, a Cisco tem vários produtos de gerenciamento disponíveis, incluindo a solução de gerenciamento de LAN da CiscoWorks e o módulo de análise de rede da Cisco, para ajudar a melhorar a eficiência operacional e reduzir o tempo de inatividade Para obter dados adicionais sobre esses produtos, consulte o site da Cisco em [https://www.cisco.com/en/US/products/sw/netmgtsw/index.html](https://www.cisco.com/en/us/products/sw/netmgtsw/index.html) .
 
 SNMP (protocolo de gerenciamento de rede simples) SNMP é um padrão de gerenciamento de rede que define uma estratégia para gerenciar redes TCP/IP. O SNMP permite capturar informações de configuração e status sobre a rede e enviar as informações para um computador designado para monitoramento de eventos. Este protocolo de gerenciamento de rede baseado em padrões usa uma arquitetura distribuída que inclui o seguinte:
 
@@ -117,7 +119,7 @@ SNMP (protocolo de gerenciamento de rede simples) SNMP é um padrão de gerencia
 
 ## <a name="system-center-operations-manager-2012"></a>System Center Operations Manager 2012
 
-O System Center Operations Manager 2012 permite que os administradores exibam o desempenho de rede de servidores individuais por meio do pacote de gerenciamento do Windows Server 2012: o pacote de gerenciamento do sistema operacional Windows Server inclui um pacote de gerenciamento de "desempenho" Isso permite que os administradores monitorem o desempenho do adaptador de rede e a integridade do adaptador.
+O System Center Operations Manager 2012 permitiria que os administradores visualizem o desempenho de rede de servidores individuais por meio do pacote de gerenciamento do Windows Server 2012: o pacote de gerenciamento do sistema operacional Windows Server inclui um pacote de gerenciamento de "desempenho" que permite aos administradores monitorar o desempenho e a integridade do adaptador de rede.
 
 </div>
 

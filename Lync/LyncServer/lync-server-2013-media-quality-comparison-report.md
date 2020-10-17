@@ -12,20 +12,22 @@ ms:contentKeyID: 48185317
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3be8be9c600fced3087f20fe70d137d759fb9d29
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 05b157be6cc94f0b01dbefadfd89041118b944e1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217667"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48500658"
 ---
+# <a name="media-quality-comparison-report-in-lync-server-2013"></a>Relatório de comparação de qualidade de mídia no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="media-quality-comparison-report-in-lync-server-2013"></a>Relatório de comparação de qualidade de mídia no Lync Server 2013
+
 
 </div>
 
@@ -75,7 +77,7 @@ Os filtros oferecem uma forma de retornar um conjunto de dados mais detalhado ou
 <p>7/7/2012</p>
 <p>Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):</p>
 <p>7/3/2012</p>
-<p>As semanas sempre correm do domingo até sábado.</p></td>
+<p>As semanas são sempre de domingo a sábado.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>To</strong></p></td>
@@ -92,8 +94,8 @@ Os filtros oferecem uma forma de retornar um conjunto de dados mais detalhado ou
 <td><p>Tipo de chamada a ser usada como o item de comparação principal. Os valores permitidos são:</p>
 <ul>
 <li><p>Todos os</p></li>
-<li><p>Externa</p></li>
-<li><p>Interna</p></li>
+<li><p>Externo</p></li>
+<li><p>Interno</p></li>
 <li><p>VPN</p></li>
 <li><p>Não VPN</p></li>
 <li><p>Com fio</p></li>
@@ -111,8 +113,8 @@ Os filtros oferecem uma forma de retornar um conjunto de dados mais detalhado ou
 <td><p>Tipo de chamada a ser usada como o item de comparação secundária. Os valores permitidos são:</p>
 <ul>
 <li><p>Todos os</p></li>
-<li><p>Externa</p></li>
-<li><p>Interna</p></li>
+<li><p>Externo</p></li>
+<li><p>Interno</p></li>
 <li><p>VPN</p></li>
 <li><p>Não VPN</p></li>
 <li><p>Com fio</p></li>
@@ -143,7 +145,7 @@ Os filtros oferecem uma forma de retornar um conjunto de dados mais detalhado ou
 
 <div>
 
-## <a name="metrics"></a>Métricas
+## <a name="metrics"></a>Métrica
 
 A tabela a seguir lista as informações fornecidas no Relatório de Comparação de Qualidade da Mídia.
 
@@ -193,7 +195,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Comparaçã
 <tr class="even">
 <td><p><strong>Tremulação (ms)</strong></p></td>
 <td><p>Não</p></td>
-<td><p>Tremulação média detectada entre chegadas de pacote RTP. (Tremulação é uma medida do &quot;tremula&quot; de uma chamada.) Os valores de variação alta geralmente são causados por congestionamento ou por um servidor de mídia sobrecarregado e resultam em um áudio distorcido ou perdido.</p></td>
+<td><p>Tremulação média detectada entre chegadas de pacote RTP. (Tremulação é uma medida do &quot; tremula &quot; de uma chamada.) Os valores de variação alta geralmente são causados por congestionamento ou por um servidor de mídia sobrecarregado e resultam em um áudio distorcido ou perdido.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Taxa de correção oculta</strong></p></td>

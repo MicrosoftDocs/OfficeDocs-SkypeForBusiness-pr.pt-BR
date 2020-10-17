@@ -12,20 +12,22 @@ ms:contentKeyID: 48185594
 ms.date: 03/09/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 48dab867ac7ae408f544e4dbc6bc55ff555e20a3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: eaa466792de1adcd3d048c946c7b36803fbaab63
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213087"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48501298"
 ---
+# <a name="dns-summary---scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses-in-lync-server-2013"></a>Resumo de DNS-borda consolidada em escala, balanceamento de carga de DNS com endereços IP públicos no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dns-summary---scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses-in-lync-server-2013"></a>Resumo de DNS-borda consolidada em escala, balanceamento de carga de DNS com endereços IP públicos no Lync Server 2013
+
 
 </div>
 
@@ -142,13 +144,13 @@ Você pode configurar os dois adaptadores de rede em seu Servidor de Borda confo
 </tr>
 <tr class="even">
 <td><p>DNS Externo/SRV/443</p></td>
-<td><p>_sip. _tls. contoso. com</p></td>
+<td><p>_sip _sip._tls. contoso. com</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>Interface externa do serviço de borda de acesso. Necessário para a configuração automática dos clientes do Lync 2013 e Lync 2010 para trabalhar externamente. Repita conforme for necessário para todos os domínios SIP com usuários Lync.</p></td>
 </tr>
 <tr class="odd">
-<td><p>DNS/A externo</p></td>
-<td><p>_sipfederationtls. _tcp. contoso. com</p></td>
+<td><p>DNS Externo/SRV/5061</p></td>
+<td><p>_sipfederationtls _sipfederationtls._tcp. contoso. com</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>Interface externa do serviço de borda de acesso necessária para a descoberta automática de DNS de parceiros federados conhecidos como "domínio SIP permitido" (chamado de Federação avançada em versões anteriores). Repetir conforme o necessário para todos os domínios SIP com usuários habilitados para o Lync</p></td>
 </tr>
@@ -187,7 +189,7 @@ Você pode configurar os dois adaptadores de rede em seu Servidor de Borda confo
 <tbody>
 <tr class="odd">
 <td><p>DNS Externo/SRV/5061</p></td>
-<td><p>_sipfederationtls. _tcp. contoso. com</p></td>
+<td><p>_sipfederationtls _sipfederationtls._tcp. contoso. com</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>Interface externa do serviço de borda de acesso SIP necessária para a descoberta automática de DNS da sua Federação para outros parceiros de Federação em potencial e é conhecido como "domínios SIP permitidos" (chamado de Federação avançada em versões anteriores).</p>
 <div>
@@ -221,18 +223,18 @@ Você pode configurar os dois adaptadores de rede em seu Servidor de Borda confo
 <th>Local/tipo/porta</th>
 <th>FQDN</th>
 <th>Endereço IP/registro de host FQDN</th>
-<th>Mapeia para/comentários</th>
+<th>Mapeia para/Comentários</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>DNS Externo/SRV/5269</p></td>
-<td><p>_xmpp-Server. _tcp. contoso. com</p></td>
+<td><p>_xmpp-server._tcp. contoso. com</p></td>
 <td><p>xmpp.contoso.com</p></td>
-<td><p>XMPP interface externa do proxy no serviço de borda de acesso ou no pool de borda. Repita conforme necessário para todos os domínios SIP internos com usuários habilitados para Lync onde contato com contatos do XMPP é permitido por meio da configuração da política de acesso externo por meio de uma política global, política de site onde o usuário está localizado ou política de usuário aplicada ao Usuário habilitado para Lync. Um domínio XMPP permitido também deve ser configurado na política de Parceiros Federados XMPP. Veja os tópicos em <strong>Consulte também </strong> para mais detalhes</p></td>
+<td><p>XMPP interface externa do proxy no serviço de borda de acesso ou no pool de borda. Repita conforme necessário para todos os domínios SIP internos com usuários habilitados para Lync onde contato com contatos do XMPP é permitido por meio da configuração da política de acesso externo por meio de uma política global, política de site onde o usuário está localizado ou política de usuário aplicada ao usuário habilitado para Lync. Um domínio XMPP permitido também deve ser configurado na política de Parceiros Federados XMPP. Veja os tópicos em <strong>Consulte também </strong> para mais detalhes</p></td>
 </tr>
 <tr class="even">
-<td><p>DNS/A externo</p></td>
+<td><p>DNS Externo/A</p></td>
 <td><p>xmpp.contoso.com (por exemplo)</p></td>
 <td><p>Endereço IP do serviço de borda de acesso no servidor de borda ou no pool de borda que hospeda o proxy do XMPP</p></td>
 <td><p>Aponta para o serviço de borda de acesso ou o pool de borda que hospeda o serviço de proxy XMPP. Tipicamente, o registro SRV que você criar apontará para este host (A ou AAAA) record</p></td>

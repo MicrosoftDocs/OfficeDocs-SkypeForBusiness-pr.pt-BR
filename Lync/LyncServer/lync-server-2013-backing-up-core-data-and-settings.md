@@ -12,20 +12,22 @@ ms:contentKeyID: 51541452
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 403a32798f84d2be6d045564e3a3e3803240f4a3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6e871b0bcd29d3a29a2a3a038529a530bc75e2a6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205854"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48499378"
 ---
+# <a name="backing-up-core-data-and-settings-in-lync-server-2013"></a>Fazendo backup de dados principais e configurações no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="backing-up-core-data-and-settings-in-lync-server-2013"></a>Fazendo backup de dados principais e configurações no Lync Server 2013
+
 
 </div>
 
@@ -78,7 +80,7 @@ Os procedimentos a seguir usam cmdlets do Shell de gerenciamento do Lync Server 
     
     </div>
 
-5.  Copie o arquivo de configuração do repositório de gerenciamento central de backup para\\$backup.
+5.  Copie o arquivo de configuração do repositório de gerenciamento central de backup para $Backup \\ .
 
 6.  Faça o backup dos dados do serviço de Informações de Local. Na linha de comando, digite o seguinte:
     
@@ -88,7 +90,7 @@ Os procedimentos a seguir usam cmdlets do Shell de gerenciamento do Lync Server 
     
         Export-CsLisConfiguration -FileName "C:\E911Config.zip"
 
-7.  Copie o arquivo de configuração do serviço de informações de local de backup\\para $backup.
+7.  Copie o arquivo de configuração do serviço de informações de local de backup para $Backup \\ .
 
 8.  Faça backup dos dados do usuário em cada banco de dados back-end de um pool de front-ends e todos os servidores Standard Edition. Na linha de comando, digite o seguinte:
     
@@ -98,7 +100,7 @@ Os procedimentos a seguir usam cmdlets do Shell de gerenciamento do Lync Server 
     
         Export-CsUserData -PoolFQDN "atl-cs-001.litwareinc.com" -FileName "C:\Logs\ExportedUserData.zip"
 
-9.  Copie o arquivo de usuário de backup para $Backup\\.
+9.  Copie o arquivo de usuário de backup para $Backup \\ .
 
 10. Em todos os pools que executam o aplicativo grupo de resposta, faça backup da configuração do grupo de resposta. Faça o seguinte:
     
@@ -110,7 +112,7 @@ Os procedimentos a seguir usam cmdlets do Shell de gerenciamento do Lync Server 
         
             Export-CsRgsConfiguration -Source ApplicationServer:pool01.contoso.com -FileName C:\RgsConfiguration.zip
 
-11. Copie o arquivo de configuração do grupo de resposta de backup\\para $backup.
+11. Copie o arquivo de configuração do grupo de resposta de backup para $Backup \\ .
 
 </div>
 
