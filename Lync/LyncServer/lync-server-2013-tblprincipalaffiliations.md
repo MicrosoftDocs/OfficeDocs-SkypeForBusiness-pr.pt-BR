@@ -12,20 +12,22 @@ ms:contentKeyID: 48183993
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0a57e4a3c7a5fdcc1825c140cb6e26f8cede8dc1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ec2ef70b70ff496852a753a9e15a38f80de1509b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214437"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48523738"
 ---
+# <a name="tblprincipalaffiliations-in-lync-server-2013"></a>tblPrincipalAffiliations no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="tblprincipalaffiliations-in-lync-server-2013"></a>tblPrincipalAffiliations no Lync Server 2013
+
 
 </div>
 
@@ -57,7 +59,7 @@ tblPrincipalAffiliations contém as afiliações principais que descrevem associ
 <tbody>
 <tr class="odd">
 <td><p>entidade de segurança</p></td>
-<td><p>int, not null</p></td>
+<td><p>int, não nulo</p></td>
 <td><p>ID da entidade de segurança afiliada.</p></td>
 </tr>
 <tr class="even">
@@ -68,7 +70,7 @@ tblPrincipalAffiliations contém as afiliações principais que descrevem associ
 <tr class="odd">
 <td><p>index</p></td>
 <td><p>int, not null</p></td>
-<td><p>Índice. O valor para autoafiliações é-1 e para as outras afiliações que ela aumenta de forma seqüencial de 1 em cada &lt;entidade de segurança,&gt; BucketID.</p></td>
+<td><p>Índice. O valor para autoafiliações é-1 e para as outras afiliações que ela aumenta de forma seqüencial de 1 em cada &lt; entidade de segurança, &gt; BucketID.</p></td>
 </tr>
 <tr class="even">
 <td><p>updatedBy</p></td>

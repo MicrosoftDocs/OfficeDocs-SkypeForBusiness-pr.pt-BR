@@ -12,20 +12,22 @@ ms:contentKeyID: 48183832
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 732b9a70ee61ce4ecdf19b3f668ba09a3416cca9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4754881d2ed3205c4f06d5468001c6e45880278c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208117"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48523958"
 ---
+# <a name="supported-topologies-in-lync-server-2013"></a>Topologias com suporte no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="supported-topologies-in-lync-server-2013"></a>Topologias com suporte no Lync Server 2013
+
 
 </div>
 
@@ -84,7 +86,7 @@ Embora uma topologia de site central deva incluir um pool de Front-Ends ou servi
 
   - O servidor do Office Web Apps, que é usado com o Office Web Applications no Lync Server 2013 para lidar com o compartilhamento e a renderização de apresentações do Microsoft PowerPoint.
 
-  - Servidor de borda ou o pool de borda em sua rede de perímetro, se você quiser que sua implantação dê suporte a parceiros federados, conectividade de IM pública, um Gateway XMPP (Extensible Messaging and Presence Protocol), acesso de usuário remoto, participação de usuários anônimos em reuniões, ou UM (Unificação de mensagens) do Exchange. Não é possível colocar nenhuma outra função de servidor com o servidor de borda. É recomendável o balanceamento de carga DNS, quando apropriado, mas o balanceamento de carga de hardware também é suportado. As interfaces de borda interna e externa devem usar o mesmo tipo de balanceamento de carga. Não é possível usar o balanceamento de carga DNS na interface de Borda e o balanceamento de carga de hardware na outra interface de Borda. Para obter detalhes sobre os requisitos de balanceamento de carga e suporte, consulte [Planning for External User Access in Lync server 2013](lync-server-2013-planning-for-external-user-access.md) na documentação de planejamento e [implantação de acesso de usuário externo no Lync Server 2013](lync-server-2013-deploying-external-user-access.md) na documentação de implantação.
+  - Servidor de borda ou o pool de borda em sua rede de perímetro, se você quiser que sua implantação dê suporte a parceiros federados, conectividade de IM pública, um Gateway XMPP (Extensible Messaging and Presence Protocol), acesso de usuário remoto, participação de usuários anônimos em reuniões ou Unificação de mensagens (UM) do Exchange. Não é possível colocar nenhuma outra função de servidor com o servidor de borda. É recomendável o balanceamento de carga DNS, quando apropriado, mas o balanceamento de carga de hardware também é suportado. As interfaces de borda interna e externa devem usar o mesmo tipo de balanceamento de carga. Não é possível usar o balanceamento de carga DNS na interface de Borda e o balanceamento de carga de hardware na outra interface de Borda. Para obter detalhes sobre os requisitos de balanceamento de carga e suporte, consulte [Planning for External User Access in Lync server 2013](lync-server-2013-planning-for-external-user-access.md) na documentação de planejamento e [implantação de acesso de usuário externo no Lync Server 2013](lync-server-2013-deploying-external-user-access.md) na documentação de implantação.
 
   - Servidor ou pool de mediação, se você quiser dar suporte à conferência de discagem ou voz corporativa em um pool de front-ends no site central. Dependendo de como você implantou o suporte do Enterprise Voice, pode colocar o servidor de mediação em um pool de front-ends (o padrão) ou implantar um servidor ou pool de mediação autônomo. Você pode usar o balanceamento de carga de aplicativo, de hardware ou de DNS (quando apropriado) para distribuir o tráfego de um ponto de gateway de um pool de servidores de mediação, incluindo um gateway PSTN, IP-PBX ou controle de borda de sessão de tronco SIP (SBC). Para obter detalhes sobre como planejar a topologia do servidor de mediação apropriada, consulte [Deployment Guidelines for Mediation Server in Lync server 2013](lync-server-2013-deployment-guidelines-for-mediation-server.md) na documentação de planejamento.
 
@@ -96,7 +98,7 @@ Embora uma topologia de site central deva incluir um pool de Front-Ends ou servi
 
   - Pool de diretor ou diretor, se você quiser facilitar a resiliência e o redirecionamento de solicitações de usuário do Lync Server 2013 para o pool de local do usuário, que pode ser um pool de front-ends Enterprise Edition ou um servidor Standard Edition. É recomendável que seja implantado um diretor ou pool de diretores em cada site central que ofereça suporte ao acesso de usuários externos e em cada site central no qual é feita a implantação de um ou mais pools de Front-Ends. Cada pool de diretores pode conter um máximo de dez diretores. Um diretor não pode ser colocado com nenhuma outra função de servidor. Para obter detalhes sobre como planejar a topologia de diretor apropriada, consulte [cenários para o diretor no Lync Server 2013](lync-server-2013-scenarios-for-the-director.md) na documentação de planejamento.
 
-  - O proxy reverso, que não é um componente do Lync Server 2013, mas será necessário se você quiser dar suporte ao compartilhamento de conteúdo da Web para usuários federados ou para oferecer suporte ao tráfego de mobilidade. Não é possível colocar um servidor de proxy reverso com nenhuma função de servidor do Lync Server 2013, mas você pode implementar o suporte de proxy reverso para uma implantação do Lync Server 2013, configurando o suporte em um servidor de proxy reverso existente em sua organização usado para outros Emprego. Para obter detalhes sobre servidores de proxy reverso, confira [Configurando servidores de proxy reverso para o Lync Server 2013](lync-server-2013-setting-up-reverse-proxy-servers.md) na documentação de implantação.
+  - O proxy reverso, que não é um componente do Lync Server 2013, mas será necessário se você quiser dar suporte ao compartilhamento de conteúdo da Web para usuários federados ou para oferecer suporte ao tráfego de mobilidade. Não é possível colocar um servidor de proxy reverso com nenhuma função de servidor do Lync Server 2013, mas você pode implementar o suporte de proxy reverso para uma implantação do Lync Server 2013, configurando o suporte em um servidor de proxy reverso existente em sua organização usado para outros aplicativos. Para obter detalhes sobre servidores de proxy reverso, confira [Configurando servidores de proxy reverso para o Lync Server 2013](lync-server-2013-setting-up-reverse-proxy-servers.md) na documentação de implantação.
 
 <div>
 

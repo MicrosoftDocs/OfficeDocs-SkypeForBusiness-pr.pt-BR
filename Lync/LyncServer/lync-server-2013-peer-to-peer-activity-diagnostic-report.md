@@ -12,20 +12,22 @@ ms:contentKeyID: 48183242
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bc7c6de27a4ccc9cd05777476ac4abc7d6fc9f58
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 53e47232a6345749f78f6136929209722a83621e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215757"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524388"
 ---
+# <a name="peer-to-peer-activity-diagnostic-report-in-lync-server-2013"></a>Relatório de diagnóstico de atividade ponto a ponto no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="peer-to-peer-activity-diagnostic-report-in-lync-server-2013"></a>Relatório de diagnóstico de atividade ponto a ponto no Lync Server 2013
+
 
 </div>
 
@@ -124,7 +126,7 @@ A tabela a seguir lista os filtros que você pode utilizar com o Relatório de D
 <p>7/7/2012</p>
 <p>Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):</p>
 <p>7/3/2012</p>
-<p>As semanas sempre são de Domingo a Sábado.</p></td>
+<p>As semanas são sempre de domingo a sábado.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>To</strong></p></td>
@@ -204,7 +206,7 @@ A tabela a seguir lista as informações oferecidas no Relatório de Diagnóstic
 <tr class="odd">
 <td><p><strong>Volume de falha esperado</strong></p></td>
 <td><p>Não</p></td>
-<td><p>Número total de sessões nas quais &quot;uma falha&quot; esperada ocorreu.</p>
+<td><p>Número total de sessões nas quais uma &quot; falha esperada &quot; ocorreu.</p>
 <p>Uma falha esperada é quando se sabe que a falha ocorrerá. Por exemplo, se um usuário tiver definido seu status como Não perturbe, é esperado que qualquer chamada para esse usuário falhe.</p></td>
 </tr>
 <tr class="even">
@@ -215,7 +217,7 @@ A tabela a seguir lista as informações oferecidas no Relatório de Diagnóstic
 <tr class="odd">
 <td><p><strong>Volume de falhas inesperadas</strong></p></td>
 <td><p>Não</p></td>
-<td><p>Número total de sessões nas quais &quot;ocorreu uma&quot; falha inesperada.</p>
+<td><p>Número total de sessões nas quais &quot; ocorreu uma falha inesperada &quot; .</p>
 <p>Uma falha inesperada é uma falha que ocorre no que aparenta ser um sistema íntegro. Por exemplo, uma chamada não deve ser encerrada se o chamador for colocado em espera. Se isso ocorrer, isso seria sinalizado como uma falha inesperada.</p></td>
 </tr>
 <tr class="even">

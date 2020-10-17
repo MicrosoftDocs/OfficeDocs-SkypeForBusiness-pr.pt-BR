@@ -12,20 +12,22 @@ ms:contentKeyID: 48185495
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 960f5d895f821e8d9bbc6fa71f451ee455d88388
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d1878b011ce62ff732f9b31fb905c012872fe743
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198324"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525308"
 ---
+# <a name="deploying-external-user-access-in-lync-server-2013"></a>Implantando o acesso de usuário externo no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploying-external-user-access-in-lync-server-2013"></a>Implantando o acesso de usuário externo no Lync Server 2013
+
 
 </div>
 
@@ -37,13 +39,13 @@ ms.locfileid: "42198324"
 
 _**Última modificação do tópico:** 2013-09-23_
 
-A implantação de componentes de borda para o Microsoft Lync Server 2013 permite que usuários externos que não estejam conectados à rede interna da sua organização, incluindo usuários remotos autenticados e anônimos, parceiros federados (incluindo parceiros do XMPP) clientes móveis e usuários de serviços públicos de mensagens instantâneas (IM), para se comunicar com outros usuários em sua organização usando o Lync Server. Os processos de implantação e configuração do Lync Server 2013 não são significativamente diferentes do Lync Server 2010. As ferramentas de instalação e administração são muito parecidas com as do Lync Server 2010.
+Deploying Edge components for Microsoft Lync Server 2013 permite que usuários externos que não estão conectados à rede interna da sua organização, incluindo usuários remotos autenticados e anônimos, parceiros federados (incluindo parceiros do XMPP), clientes móveis e usuários de serviços públicos de mensagens instantâneas (IM), para se comunicar com outros usuários em sua organização usando o Lync Server. Os processos de implantação e configuração do Lync Server 2013 não são significativamente diferentes do Lync Server 2010. As ferramentas de instalação e administração são muito parecidas com as do Lync Server 2010.
 
 <div>
 
 
 > [!IMPORTANT]  
-> A instalação e a&nbsp;configuração do servidor de borda do Microsoft Lync Server 2013 podem ser um processo complexo que requer uma quantidade potencialmente significativa de planejamento e coordenação com suas equipes internas, incluindo, mas não limitado a, considerações de segurança, rede, firewall, sistema de nomes de domínio (DNS), balanceador de carga e infraestrutura de chave pública (PKI). É altamente recomendável que você revise e use o processo de planejamento e a documentação fornecida antes de implantar seus componentes de acesso externo. Isso ajudará a limitar o número e a frequência de alterações indesejadas e problemas à medida que você passar pelo processo de implantação. Para obter informações sobre como planejar o acesso de usuário externo, consulte <A href="lync-server-2013-planning-for-external-user-access.md">Planning for External User Access in Lync Server 2013</A>.
+> A &nbsp; instalação e a configuração do servidor de borda do Microsoft Lync server 2013 podem ser um processo complexo que requer uma quantidade potencialmente significativa de planejamento e coordenação com suas equipes internas, incluindo, mas não limitado a, considerações de segurança, rede, firewall, sistema de nomes de domínio (DNS), balanceador de carga e infraestrutura de chave pública (PKI). É altamente recomendável que você revise e use o processo de planejamento e a documentação fornecida antes de implantar seus componentes de acesso externo. Isso ajudará a limitar o número e a frequência de alterações indesejadas e problemas à medida que você passar pelo processo de implantação. Para obter informações sobre como planejar o acesso de usuário externo, consulte <A href="lync-server-2013-planning-for-external-user-access.md">Planning for External User Access in Lync Server 2013</A>.
 
 
 
@@ -69,7 +71,7 @@ A implantação de componentes de borda para o Microsoft Lync Server 2013 permit
 
   - [Configurando suporte para acesso de usuário externo no Lync Server 2013](lync-server-2013-configuring-support-for-external-user-access.md)
 
-  - [Guia de provisionamento para a conectividade Lync-Skype no Lync Server 2013](lync-server-2013-provisioning-guide-for-lync-skype-connectivity.md)
+  - [Guia de provisionamento para Lync-Skype conectividade no Lync Server 2013](lync-server-2013-provisioning-guide-for-lync-skype-connectivity.md)
 
   - [Configurando Federação SIP, Federação XMPP e mensagens instantâneas públicas no Lync Server 2013](lync-server-2013-configuring-sip-federation-xmpp-federation-and-public-instant-messaging.md)
 

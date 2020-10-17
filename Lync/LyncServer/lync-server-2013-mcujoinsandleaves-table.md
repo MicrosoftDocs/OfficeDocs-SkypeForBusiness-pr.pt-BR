@@ -12,20 +12,22 @@ ms:contentKeyID: 48184115
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ae21b9a8ec2107d8a2bd0a99f1e21d6f182a830e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f4aa5fb14ff16d13b1cdff72f15c648f9e353922
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42185334"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524728"
 ---
+# <a name="mcujoinsandleaves-table-in-lync-server-2013"></a>Tabela McuJoinsAndLeaves no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="mcujoinsandleaves-table-in-lync-server-2013"></a>Tabela McuJoinsAndLeaves no Lync Server 2013
+
 
 </div>
 
@@ -59,7 +61,7 @@ Cada registro desta tabela contém detalhes da chamada sobre uma combinação de
 <tr class="odd">
 <td><p><strong>Identificação_da_sessãotime</strong></p></td>
 <td><p>datetime</p></td>
-<td><p>Primária, estrangeira</p></td>
+<td><p>Primário, externo</p></td>
 <td><p>Hora da instância da conferência. Usado em conjunto com o <strong>SessionIdSeq</strong> para identificar exclusivamente uma instância de conferência. Consulte a <a href="lync-server-2013-conferences-table.md">tabela conferências no Lync Server 2013</a> para obter mais informações.</p></td>
 </tr>
 <tr class="even">

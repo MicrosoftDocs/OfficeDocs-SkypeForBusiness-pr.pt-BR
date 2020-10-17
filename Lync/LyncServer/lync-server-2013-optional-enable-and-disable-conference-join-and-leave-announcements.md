@@ -12,20 +12,22 @@ ms:contentKeyID: 48185403
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c5007ec14ad197afb2cfb8d2c73baa41ed144a4e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a50431ee1917c580440f8a47cff0ca09f5e47f07
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216496"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524428"
 ---
+# <a name="optional-enable-and-disable-conference-join-and-leave-announcements-in-lync-server-2013"></a>Opcion Habilitar e desabilitar comunicados de ingresso e saída de conferência no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="optional-enable-and-disable-conference-join-and-leave-announcements-in-lync-server-2013"></a>Opcion Habilitar e desabilitar comunicados de ingresso e saída de conferência no Lync Server 2013
+
 
 </div>
 
@@ -60,11 +62,11 @@ Quando usuários de discagem ingressam ou saem de uma conferência, o aplicativo
         [-EntryExitAnnouncementsEnabledByDefault <$true | $false>]
         [-EntryExitAnnouncementsType <UseNames | ToneOnly]
     
-    **EnableNameRecording**   determina se os participantes anônimos são solicitados a gravar seu nome antes de entrar na conferência. O valor padrão é "$true", que significa que os participantes receberão essa solicitação. (Os participantes autenticados não registram seus nomes, pois em vez disso exibem seus nomes de exibição.)
+    **EnableNameRecording**     Determina se os participantes anônimos serão solicitados a gravar seu nome antes de entrar na conferência. O valor padrão é "$true", que significa que os participantes receberão essa solicitação. (Os participantes autenticados não registram seus nomes, pois em vez disso exibem seus nomes de exibição.)
     
-    **EntryExitAnnouncementsEnabledByDefault**   indica se os comunicados estão ativados ou desativados por padrão. O valor padrão é "$false", que significa que, por padrão, não anúncios quando os participantes ingressam ou saem de uma conferência. O organizador da reunião pode substituir essa configuração ao agendar uma reunião.
+    **EntryExitAnnouncementsEnabledByDefault**     Indica se os comunicados estão ativados ou desativados por padrão. O valor padrão é "$false", que significa que, por padrão, não anúncios quando os participantes ingressam ou saem de uma conferência. O organizador da reunião pode substituir essa configuração ao agendar uma reunião.
     
-    **EntryExitAnnouncementsType**   indica a ação tomada sempre que um participante entra ou sai de uma conferência para a qual comunicados estão habilitados. O valor padrão é "UseNames", que significa que há um anúncio parecido com o seguinte: "Ken Myer ingressou na conferência" quando os anúncios estão ativados.
+    **EntryExitAnnouncementsType**     Indica a ação tomada sempre que um participante entra ou sai de uma conferência para a qual os comunicados estão habilitados. O valor padrão é "UseNames", que significa que há um anúncio parecido com o seguinte: "Ken Myer ingressou na conferência" quando os anúncios estão ativados.
     
     É possível definir essas configurações no escopo global ou no escopo do site. As configurações definidas no escopo do site têm precedência sobre as configurações definidas no escopo global.
     

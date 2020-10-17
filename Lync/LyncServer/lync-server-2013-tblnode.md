@@ -12,20 +12,22 @@ ms:contentKeyID: 48184960
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 459b5393f255ade4e510f17c11beccf2f38f7cfc
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1e6070f6a575466d9ce7063c588e5d470e047d52
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214530"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48523808"
 ---
+# <a name="tblnode-in-lync-server-2013"></a>tblNode no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="tblnode-in-lync-server-2013"></a>tblNode no Lync Server 2013
+
 
 </div>
 
@@ -57,7 +59,7 @@ tblNode contém a árvore de objetos (com nós de sala de categoria ou de chat) 
 <tbody>
 <tr class="odd">
 <td><p>nodeID</p></td>
-<td><p>int, not null</p></td>
+<td><p>int, não nulo</p></td>
 <td><p>ID do Nó (número único).</p></td>
 </tr>
 <tr class="even">
@@ -72,13 +74,13 @@ tblNode contém a árvore de objetos (com nós de sala de categoria ou de chat) 
 </tr>
 <tr class="even">
 <td><p>nodeType</p></td>
-<td><p>bit, não vazio</p></td>
+<td><p>bit, não nulo</p></td>
 <td><p>Verdadeiro se o nó for uma categoria.</p>
 <p>Falso se o nó for uma sala de chat.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Nome</p></td>
-<td><p>não nulo nvarchar (256)</p></td>
+<td><p>nvarchar (256), não nulo</p></td>
 <td><p>Nome do nó.</p></td>
 </tr>
 <tr class="even">
@@ -127,7 +129,7 @@ tblNode contém a árvore de objetos (com nós de sala de categoria ou de chat) 
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>deficiência</p></td>
+<td><p>desabilitadas</p></td>
 <td><p>bit, não nulo</p></td>
 <td><p>Verdadeiros se a sala de chat estiver desabilitada. Aplica-se somente a salas de chat (falso para categorias).</p></td>
 </tr>
@@ -165,7 +167,7 @@ tblNode contém a árvore de objetos (com nós de sala de categoria ou de chat) 
 </tr>
 <tr class="odd">
 <td><p>nodeAddedBy</p></td>
-<td><p>int, not null</p></td>
+<td><p>int, não nulo</p></td>
 <td><p>ID da entidade de segurança que criou este nó.</p></td>
 </tr>
 <tr class="even">

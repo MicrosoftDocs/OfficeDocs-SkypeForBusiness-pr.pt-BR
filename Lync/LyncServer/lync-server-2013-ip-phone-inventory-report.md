@@ -12,20 +12,22 @@ ms:contentKeyID: 48185044
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: eb24be3ba069bcf900c86c4e4b45ef31420a3ff9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a0be055238c2e8db45337b9e66d936bb73c73e61
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186804"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525198"
 ---
+# <a name="ip-phone-inventory-report-in-lync-server-2013"></a>Relatório de inventário de telefone IP no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="ip-phone-inventory-report-in-lync-server-2013"></a>Relatório de inventário de telefone IP no Lync Server 2013
+
 
 </div>
 
@@ -67,7 +69,7 @@ O Relatório de inventário de telefones IP é acessado a partir da página inic
 
 ## <a name="making-the-best-use-of-the-ip-phone-inventory-report"></a>Como usar melhor o Relatório de inventário de telefones IP
 
-Se você estiver interessado apenas em informações de uso de um determinado tipo de telefone (por exemplo, "com que frequência os usuários usam um telefone Polycom CX600?"), você pode obter essas informações diretamente do relatório de inventário de telefone IP filtrando esse tipo específico de telefone. No entanto, se você deseja informações resumidas para todos os seus telefones (quantas pessoas estão usando um CX600 Polycom, quantos estão usando um LG-Nortel IP8540, etc.), será necessário exportar os dados e usar outro aplicativo (como o Windows PowerShell) para fazer esse tipo de analisa. Por exemplo, suponha que você exportou os dados para um arquivo de valores separados por\\vírgula\\(\_C\_:\_data IP Phone Inventory Report. csv). Nesse caso, você poderia usar esses dois comandos para fornecer dados de resumo para todos os telefones:
+Se você estiver interessado apenas em informações de uso de um determinado tipo de telefone (por exemplo, "com que frequência os usuários usam um telefone Polycom CX600?"), você pode obter essas informações diretamente do relatório de inventário de telefone IP filtrando esse tipo específico de telefone. No entanto, se você deseja informações resumidas para todos os telefones (quantas pessoas estão usando um CX600 Polycom, quantos estão usando um LG-Nortel IP8540, etc.), será necessário exportar os dados e usar outro aplicativo (como o Windows PowerShell) para fazer esse tipo de análise. Por exemplo, suponha que você exportou os dados para um arquivo de valores separados por vírgula (C: \\ Data \\ IP \_ Phone \_ Inventory \_Report.csv). Nesse caso, você poderia usar esses dois comandos para fornecer dados de resumo para todos os telefones:
 
     $phones = Import-Csv "C:\Data\IP_Phone_Inventory_Report.csv"
     $phones |Group-Object Manufacturer, "Hardware version" | Select-Object Count, Name | Sort-Object Count -Descending
@@ -159,7 +161,7 @@ A tabela seguir lista os filtros que podem ser usados com o Relatório de Invent
 <td><p>Número da versão to telefone IP; usando os filtros Fabricante e Versão do hardware, é possível identificar de forma única um tipo em particular de telefone. Os valores para este filtro são preenchidos automaticamente com base nos telefones IP que estão atualmente no banco de dados.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Agente de usuário</strong></p></td>
+<td><p><strong>Agente do usuário</strong></p></td>
 <td><p>Identificador do software usado pelo telefone IP. Os valores para este filtro são preenchidos automaticamente com base nos telefones IP que estão atualmente no banco de dados.</p></td>
 </tr>
 <tr class="even">
@@ -201,7 +203,7 @@ A tabela seguir lista os filtros que podem ser usados com o Relatório de Invent
 
 <div>
 
-## <a name="metrics"></a>Métricas
+## <a name="metrics"></a>Métrica
 
 A tabela a seguir lista as informações fornecidas no Relatório de Inventário de Telefones IP.
 

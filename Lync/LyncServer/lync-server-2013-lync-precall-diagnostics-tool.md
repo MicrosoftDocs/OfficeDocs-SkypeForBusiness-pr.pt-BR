@@ -12,20 +12,22 @@ ms:contentKeyID: 56708404
 ms.date: 11/04/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0377460340e1b639a7fca5862dcd85aed399b94a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 19051eb183dc12f091de0d90ebb707bc6cee8fc5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186204"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525148"
 ---
+# <a name="lync-precall-diagnostics-tool-in-lync-server-2013"></a>Ferramenta de diagnóstico de chamadas do Lync no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="lync-precall-diagnostics-tool-in-lync-server-2013"></a>Ferramenta de diagnóstico de chamadas do Lync no Lync Server 2013
+
 
 </div>
 
@@ -53,7 +55,7 @@ O PCD é mais útil em situações em que o último salto de uma rede provavelme
 
   - Melhorias de estabilidade
 
-Agradecemos todos os comentários. Envie todas as perguntas ou problemas de suporte para o alias de comentários <pcdfb@microsoft.com>do [PCD](mailto:pcdfb@microsoft.com) em.
+Agradecemos todos os comentários. Envie todas as perguntas ou problemas de suporte para o alias de [comentários do PCD](mailto:pcdfb@microsoft.com) em <pcdfb@microsoft.com> .
 
 Este tópico inclui as seguintes seções:
 
@@ -75,7 +77,7 @@ Este tópico inclui as seguintes seções:
 
 Este tópico descreve as seguintes versões da ferramenta, disponível para download gratuito:
 
-  - Aplicativo da área de[https://go.microsoft.com/fwlink/?LinkId=327914](https://go.microsoft.com/fwlink/p/?linkid=327914)trabalho Windows ()
+  - Aplicativo da área de trabalho Windows ( [https://go.microsoft.com/fwlink/?LinkId=327914](https://go.microsoft.com/fwlink/p/?linkid=327914) )
 
 </div>
 
@@ -101,7 +103,7 @@ Este tópico descreve as seguintes versões da ferramenta, disponível para down
 
   - Qualquer edição do sistema operacional Windows 7 ou Windows 8
 
-  - Microsoft .NET Framework 4,5 disponível em[https://go.microsoft.com/fwlink/?LinkId=327790](https://go.microsoft.com/fwlink/p/?linkid=327790)
+  - Microsoft .NET Framework 4,5 disponível em [https://go.microsoft.com/fwlink/?LinkId=327790](https://go.microsoft.com/fwlink/p/?linkid=327790)
 
 </div>
 

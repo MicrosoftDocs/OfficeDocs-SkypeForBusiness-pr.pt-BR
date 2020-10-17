@@ -12,20 +12,22 @@ ms:contentKeyID: 48185376
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 89c87de9c57abaf4938b350aa40e8deea1150d22
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3ebc49336712e96bca428132f3ccad631817208d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208287"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524168"
 ---
+# <a name="support-for-hosted-exchange-um-integration-in-lync-server-2013"></a>Suporte à integração de UM do Exchange hospedado no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="support-for-hosted-exchange-um-integration-in-lync-server-2013"></a>Suporte à integração de UM do Exchange hospedado no Lync Server 2013
+
 
 </div>
 
@@ -43,11 +45,11 @@ O aplicativo de roteamento ExUM do Lync Server 2013 oferece suporte à integraç
 
 Os modos a seguir são suportados:
 
-  - **O modo**   local do Lync Server 2013 e do Exchange são implantados em servidores locais dentro de sua empresa.
+  - **Modo**     no local O Lync Server 2013 e o Exchange UM são implantados em servidores locais dentro de sua empresa.
 
-  - **O modo**   entre locais do Lync Server 2013 é implantado em servidores locais dentro de sua empresa e o um do Exchange está hospedado no recurso de um provedor de serviços online, como um data center do Microsoft Exchange Online.
+  - **Modo**     entre locais O Lync Server 2013 é implantado em servidores locais dentro de sua empresa e o UM do Exchange é hospedado em um recurso do provedor de serviços online, como um data center do Microsoft Exchange Online.
 
-  - **Modo misto sua**   implantação do Lync Server 2013 tem algumas caixas de correio de usuário hospedadas em servidores locais que executam o Microsoft Exchange Server em sua empresa e algumas caixas de correio hospedadas em um data center de serviço do Exchange hospedado.
+  - **Modo misto**     Sua implantação do Lync Server 2013 tem algumas caixas de correio de usuário hospedadas em servidores locais que executam o Microsoft Exchange Server em sua empresa e algumas caixas de correio hospedadas em um data center de serviço do Exchange hospedado.
     
     <div>
     

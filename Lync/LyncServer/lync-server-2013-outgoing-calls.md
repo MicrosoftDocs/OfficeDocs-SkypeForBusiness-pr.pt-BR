@@ -12,20 +12,22 @@ ms:contentKeyID: 51803960
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7aa72bb1da56862765279f25f73070863d218067
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6a77ddf0757cd463bb8f1b95dbecfe90fd1086c9
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216359"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524398"
 ---
+# <a name="outgoing-calls-in-lync-server-2013"></a>Chamadas de saída no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="outgoing-calls-in-lync-server-2013"></a>Chamadas de saída no Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42216359"
 
 _**Última modificação do tópico:** 2013-03-09_
 
-O roteamento de chamadas de saída de usuários habilitados para roteamento baseado em local é afetado pelo local de rede do ponto de extremidade do usuário. A tabela a seguir ilustra como o roteamento baseado em local afeta o roteamento de chamadas de saída, dependendo do local do ponto de extremidade do chamador.
+O roteamento de chamadas de saída de usuários habilitados para roteamento Location-Based é afetado pelo local de rede do ponto de extremidade do usuário. A tabela a seguir ilustra como Location-Based roteamento afeta o roteamento de chamadas de saída, dependendo do local do ponto de extremidade do chamador.
 
 ### <a name="caller-placing-an-outbound-call-to-the-pstn"></a>Chamador colocando uma chamada de saída para o PSTN
 
@@ -50,8 +52,8 @@ O roteamento de chamadas de saída de usuários habilitados para roteamento base
 <thead>
 <tr class="header">
 <th></th>
-<th>Ponto de extremidade do usuário localizado em um site de rede habilitado para roteamento baseado em local</th>
-<th>Ponto de extremidade do usuário localizado em um local de rede desconhecido ou não habilitado para roteamento baseado em local</th>
+<th>Ponto de extremidade do usuário localizado em um site de rede habilitado para roteamento Location-Based</th>
+<th>Ponto de extremidade do usuário localizado em um local de rede desconhecido ou não habilitado para roteamento de Location-Based</th>
 </tr>
 </thead>
 <tbody>
@@ -63,7 +65,7 @@ O roteamento de chamadas de saída de usuários habilitados para roteamento base
 <tr class="even">
 <td><p>Roteamento de chamada de saída</p></td>
 <td><p>A chamada é roteada de acordo com a política de roteamento de voz do site da rede</p></td>
-<td><p>A chamada é roteada de acordo com a política de voz do usuário e apenas por troncos não habilitados para roteamento baseado em local (se disponível)</p></td>
+<td><p>A chamada é roteada de acordo com a política de voz do usuário e apenas por troncos não habilitados para roteamento de Location-Based (se disponível)</p></td>
 </tr>
 </tbody>
 </table>
@@ -74,7 +76,7 @@ O roteamento de chamadas de saída de usuários habilitados para roteamento base
 ## <a name="see-also"></a>Confira também
 
 
-[Cenários para roteamento baseado em local no Lync Server 2013](lync-server-2013-scenarios-for-location-based-routing.md)  
+[Cenários para Location-Based roteamento no Lync Server 2013](lync-server-2013-scenarios-for-location-based-routing.md)  
   
 
 </div>

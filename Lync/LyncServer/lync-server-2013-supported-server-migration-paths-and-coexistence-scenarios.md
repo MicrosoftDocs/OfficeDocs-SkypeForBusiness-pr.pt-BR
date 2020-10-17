@@ -12,20 +12,22 @@ ms:contentKeyID: 48183686
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ab7d85bd25c6123b3befd3520289e40c63461970
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8ed7689931cf917c77527266918832ead8bd0a27
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42181564"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48523968"
 ---
+# <a name="supported-server-migration-paths-and-coexistence-scenarios-in-lync-server-2013"></a>Caminhos de migração de servidor suportados e cenários de coexistência no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="supported-server-migration-paths-and-coexistence-scenarios-in-lync-server-2013"></a>Caminhos de migração de servidor suportados e cenários de coexistência no Lync Server 2013
+
 
 </div>
 
@@ -78,15 +80,15 @@ O Lync Server 2013 pode coexistir com componentes de uma implantação do Lync S
 
 Durante uma migração em fases na qual uma implantação anterior do Lync Server 2010 ou do Office Communications Server 2007 R2 coexiste temporariamente com a nova implantação do Lync Server 2013, o suporte para roteamento de versão mista é limitado. Para obter detalhes, consulte a documentação Migração.
 
-Você deve usar computadores separados e distintos que executam o Microsoft SQL Server 2008 R2 ou o Microsoft SQL Server 2012 para suas instâncias de banco de dados do Lync Server 2013. Não é possível usar a mesma instância do SQL Server para um pool de front-ends do Lync Server 2013 que você usa para um pool de front-ends do Lync Server 2010 ou do Office Communications Server 2007 R2. Se você definir e configurar o Lync Server 2013 no construtor de topologias para uma implantação que já tem o Lync Server 2010 ou o Office Communications Server 2007 R2 implantado, o construtor de topologias não permitirá que você defina uma instância de um Lync Server 2013 que já está em uso no a topologia.
+Você deve usar computadores separados e distintos que executam o Microsoft SQL Server 2008 R2 ou o Microsoft SQL Server 2012 para suas instâncias de banco de dados do Lync Server 2013. Não é possível usar a mesma instância do SQL Server para um pool de front-ends do Lync Server 2013 que você usa para um pool de front-ends do Lync Server 2010 ou do Office Communications Server 2007 R2. Se você definir e configurar o Lync Server 2013 no construtor de topologias para uma implantação que já tem o Lync Server 2010 ou o Office Communications Server 2007 R2 implantado, o construtor de topologias não permitirá que você defina uma instância de um Lync Server 2013 que já esteja em uso na topologia.
 
-O construtor de topologia exibirá a seguinte mensagem para informá-lo sobre esse problema \[: "o FQDN\] do SQL Server do servidor já contém uma instância do SQL que hospeda a função" repositório do usuário ".
+O construtor de topologia exibirá a seguinte mensagem para informá-lo sobre esse problema: "o \[ FQDN do SQL Server do servidor \] já contém uma instância do SQL que hospeda a função" repositório do usuário ".
 
 <div>
 
 
 > [!NOTE]  
-> Se você pretende implantar funções de servidor que são novas na sua implantação do Lync Server 2013, deve primeiro atualizar sua implantação existente conforme descrito na documentação de migração e a documentação de implantação e, em seguida, implantar as novas funções de servidor, conforme descrito em a documentação de planejamento e a documentação de implantação. Se você estiver migrando uma versão anterior do chat de grupo, migre-a por último, após concluir o processo de migração de todos os outros componentes do Lync Server 2010 ou do Office Communications Server 2007 R2.
+> Se você pretende implantar funções de servidor que são novas na sua implantação do Lync Server 2013, deve primeiro atualizar sua implantação existente conforme descrito na documentação de migração e na documentação de implantação e, em seguida, implantar as novas funções de servidor, conforme descrito na documentação de planejamento e documentação de implantação. Se você estiver migrando uma versão anterior do chat de grupo, migre-a por último, após concluir o processo de migração de todos os outros componentes do Lync Server 2010 ou do Office Communications Server 2007 R2.
 
 
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184972
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 27a7567fa467f8e152f4b6a61b06600a127607d7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 23ac976f2c05268b5cf864511b19db1fd251edbc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186164"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525108"
 ---
+# <a name="lync-server-2013-administrative-tools"></a>Ferramentas administrativas do Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="lync-server-2013-administrative-tools"></a>Ferramentas administrativas do Lync Server 2013
+
 
 </div>
 
@@ -45,17 +47,17 @@ Certifique-se de revisar os requisitos de direitos de infra-estrutura, sistema o
 
 As ferramentas administrativas consistem no seguinte:
 
-  - **Assistente de implantação do Lync Server**   use para implantar o Lync Server e instalar todas as ferramentas administrativas.
+  - Assistente de implantação **do Lync Server**     Use o para implantar o Lync Server e instalar todas as ferramentas administrativas.
 
-  - **O Construtor**   de topologias do Lync Server usa para definir componentes em sua implantação.
+  - Construtor de topologias **do Lync Server**     Use para definir componentes em sua implantação.
 
-  - **Painel de controle do Lync Server**   use para o gerenciamento contínuo da sua implantação usando uma interface baseada na Web.
+  - Painel de controle **do Lync Server**     Use para o gerenciamento contínuo da sua implantação usando uma interface baseada na Web.
 
-  - **Shell de gerenciamento do Lync Server**   use para o gerenciamento contínuo da sua implantação usando a linha de comando.
+  - Shell de gerenciamento **do Lync Server**     Use para o gerenciamento contínuo da sua implantação usando a linha de comando.
 
-  - **A ferramenta**   de registro em log do Lync Server é usada para solucionar problemas em sua implantação.
+  - Ferramenta de log **do Lync Server**     Use para solucionar problemas em sua implantação.
 
-  - **O serviço**   de registro em log centralizado coleta logs e rastreamento de arquivos de um computador, pool, site ou global. Selecione e defina cenários que contenham provedores, sinalizadores e níveis de rastreamento. O registro em log é coletado, agregado e exibido com ferramentas como qualquer ferramenta baseada em texto ou Snooper. exe.
+  - Serviço de registro em **log centralizado**     Coletar logs e rastrear arquivos de um computador, pool, site ou global. Selecione e defina cenários que contenham provedores, sinalizadores e níveis de rastreamento. O registro em log é coletado, agregado e exibido com ferramentas como qualquer ferramenta baseada em texto ou Snooper.exe.
 
 Você pode gerenciar sua implantação usando principalmente o construtor de topologias e o painel de controle do Lync Server.
 
@@ -113,7 +115,7 @@ No Lync Server, o Shell de gerenciamento do Lync Server fornece um novo método 
 
 ## <a name="logging-tool"></a>Ferramenta de Log
 
-A ferramenta de registro em log do Lync Server facilita a solução de problemas ao capturar informações de log e rastreamento do produto enquanto o produto está em execução. Você pode usar a ferramenta para executar sessões de depuração em qualquer função de servidor do Lync Server. Para obter detalhes sobre a ferramenta de registro em log, consulte a documentação da ferramenta de registro em log [https://go.microsoft.com/fwlink/p/?linkId=199265](https://go.microsoft.com/fwlink/p/?linkid=199265)do Lync Server 2010 na biblioteca do TechNet em.
+A ferramenta de registro em log do Lync Server facilita a solução de problemas ao capturar informações de log e rastreamento do produto enquanto o produto está em execução. Você pode usar a ferramenta para executar sessões de depuração em qualquer função de servidor do Lync Server. Para obter detalhes sobre a ferramenta de registro em log, consulte a documentação da ferramenta de registro em log do Lync Server 2010 na biblioteca do TechNet em [https://go.microsoft.com/fwlink/p/?linkId=199265](https://go.microsoft.com/fwlink/p/?linkid=199265) .
 
 <div>
 

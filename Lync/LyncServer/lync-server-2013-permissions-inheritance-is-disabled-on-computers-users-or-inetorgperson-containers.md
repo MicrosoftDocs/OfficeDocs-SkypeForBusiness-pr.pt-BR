@@ -12,20 +12,22 @@ ms:contentKeyID: 48185348
 ms.date: 12/19/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b6f0ac6b7614da844a35f97070b61f1b074a4367
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: cd6e20c510c1a26b3fc367c853d08469798ff765
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215557"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48524318"
 ---
+# <a name="permissions-inheritance-is-disabled-on-computers-users-or-inetorgperson-containers-in-lync-server-2013"></a>A herança de permissões está desabilitada em computadores, usuários ou contêiners InetOrgPerson no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="permissions-inheritance-is-disabled-on-computers-users-or-inetorgperson-containers-in-lync-server-2013"></a>A herança de permissões está desabilitada em computadores, usuários ou contêiners InetOrgPerson no Lync Server 2013
+
 
 </div>
 
@@ -41,7 +43,7 @@ Em um serviço de domínio do Active Directory bloqueado, os usuários e os obje
 
 A preparação do domínio e a ativação do servidor definem as entradas de controle de acesso (ACEs) exigidas pelo Lync Server 2013. Quando a herança de permissões está desabilitada, os grupos de segurança do Lync Server não podem herdar essas ACEs. Quando essas permissões não são herdadas, os grupos de segurança do Lync Server não podem acessar as configurações e os dois problemas a seguir surgem:
 
-  - Para administrar usuários, InetOrgPersons e contatos, e para operar servidores, os grupos de segurança do Lync Server exigem ACEs definidas pelo procedimento de preparação do domínio nos conjuntos de propriedades de cada usuário, comunicação em tempo real (RTC), pesquisa de usuário RTC e informações públicas . Quando a herança de permissões está desabilitada, os grupos de segurança não herdam essas ACEs e não podem gerenciar servidores ou usuários.
+  - Para administrar usuários, InetOrgPersons e contatos, e para operar servidores, os grupos de segurança do Lync Server exigem ACEs definidas pelo procedimento de preparação do domínio em conjuntos de propriedades de cada usuário, comunicação em tempo real (RTC), pesquisa de usuário RTC e informações públicas. Quando a herança de permissões está desabilitada, os grupos de segurança não herdam essas ACEs e não podem gerenciar servidores ou usuários.
 
   - Para descobrir servidores e pools, os servidores que executam o Lync Server dependem de ACEs definidas pela ativação em objetos relacionados ao computador, incluindo o contêiner da Microsoft e o objeto Server. Quando a herança de permissões está desabilitada, os grupos de segurança, servidores e pools não herdam essas ACEs e não podem beneficiar-se delas.
 
@@ -74,7 +76,7 @@ Você precisa de direitos de usuário equivalentes à associação de grupo de a
     
         Grant-CsOuPermission -ObjectType "User" -OU "cn=Redmond,dc=contoso,dc=net" -Domain "contoso.net"
 
-4.  No arquivo de log, procure o resultado de execução de ** \<êxito\> ** no final de cada tarefa para verificar se as permissões foram definidas e, em seguida, feche a janela log. Uma alternativa é executar o seguinte comando para determinar se as permissões foram definidas:
+4.  No arquivo de log, procure **\<Success\>** o resultado de execução no final de cada tarefa para verificar se as permissões foram definidas e, em seguida, feche a janela log. Uma alternativa é executar o seguinte comando para determinar se as permissões foram definidas:
     
         Test-CsOuPermission -ObjectType <type of object> 
         -OU <DN name for the OU container relative to the domain root container DN> 
@@ -114,7 +116,7 @@ Você precisa de direitos de usuário equivalentes à associação de grupo de a
     
         Grant-CsOuPermission -ObjectType "Computer" -OU "ou=Lync Servers,dc=litwareinc,dc=com" -Report "C:\Logs\OUPermissions.xml"
 
-4.  No exemplo de arquivo de log C\\:\\logs OUPermissions. xml, você procurará o resultado de execução de ** \<êxito\> ** no final de cada tarefa e verificará se não há erros e, em seguida, feche o log. É possível executar o seguinte cmdlet para testar as permissões:
+4.  No exemplo de arquivo de log C: \\ Logs \\OUPermissions.xml, você procuraria o **\<Success\>** resultado da execução no final de cada tarefa e verificará se não há erros e, em seguida, feche o log. É possível executar o seguinte cmdlet para testar as permissões:
     
         Test-CsOuPermission -ObjectType <type of object> 
         -OU <DN name for the OU container relative to the domain root container DN> [-Domain <Domain FQDN>]
@@ -127,7 +129,7 @@ Você precisa de direitos de usuário equivalentes à associação de grupo de a
     
 
     > [!NOTE]  
-    > Se você executar a preparação de domínio no domínio raiz da floresta em um ambiente do Active Directory bloqueado, lembre-se de que o Lync Server requer acesso ao esquema do Active Directory e aos contêineres de configuração.<BR>Se a permissão de usuário autenticado padrão for removida do esquema ou dos contêineres de&nbsp;configuração no AD DS, somente os membros do grupo Administradores de esquema (para o contêiner de esquema) ou administradores corporativos (para o contêiner de configuração) terão permissão para acessar o contêiner fornecido. Como setup. exe, cmdlets do Shell de gerenciamento do Lync Server e o painel de controle do Lync Server exigem acesso a esses contêineres, a instalação e a instalação das ferramentas administrativas falharão, a menos que o usuário executando a instalação tenha direitos de usuário equivalentes ao esquema Associação de grupo Administradores e administradores corporativos.<BR>Para corrigir essa situação, é necessário conceder ao grupo RTCUniversalGlobalWriteGroup acesso de Leitura e Gravação nos contêineres Esquema e Configuração.
+    > Se você executar a preparação de domínio no domínio raiz da floresta em um ambiente do Active Directory bloqueado, lembre-se de que o Lync Server requer acesso ao esquema do Active Directory e aos contêineres de configuração.<BR>Se a permissão de usuário autenticado padrão for removida do esquema ou dos contêineres de configuração no AD &nbsp; DS, somente os membros do grupo Administradores de esquema (para o contêiner de esquema) ou administradores corporativos (para o contêiner de configuração) terão permissão para acessar o contêiner fornecido. Como Setup.exe, os cmdlets do Shell de gerenciamento do Lync Server e o painel de controle do Lync Server exigem acesso a esses contêineres, a instalação e a instalação das ferramentas administrativas falharão, a menos que o usuário que estiver executando a instalação tenha direitos de usuário equivalentes aos membros do grupo Administradores de esquema e administradores corporativos.<BR>Para corrigir essa situação, é necessário conceder ao grupo RTCUniversalGlobalWriteGroup acesso de Leitura e Gravação nos contêineres Esquema e Configuração.
 
     
     </div>
