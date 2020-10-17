@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: concedendo permissões de unidade organizacional'
+description: 'Lync Server 2013: concedendo permissões de unidade organizacional.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184849
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d17715718d66530686009fdc4b2b9e2acebfceaf
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 47ad862241e409190620afa7dbf4fa73adf339de
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48498898"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48554507"
 ---
 # <a name="granting-organizational-unit-permissions-in-lync-server-2013"></a>Concedendo permissões de unidade organizacional no Lync Server 2013
 

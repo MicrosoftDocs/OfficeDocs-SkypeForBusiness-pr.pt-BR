@@ -1,5 +1,6 @@
 ---
 title: Pré-requisitos de configuração de recebimento de chamadas de grupo e direitos de usuário
+description: Pré-requisitos de configuração de recebimento de chamadas de grupo e direitos de usuário.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51541495
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 46b15be02b48c5e3f95a9b05475bea42284ec275
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 74d2a758b7199634e14ee387d2554b30bf2ae8d3
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48498788"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48554447"
 ---
 # <a name="group-call-pickup-configuration-prerequisites-and-user-rights-in-lync-server-2013"></a>Pré-requisitos de configuração de recebimento de chamadas de grupo e direitos de usuário no Lync Server 2013
 

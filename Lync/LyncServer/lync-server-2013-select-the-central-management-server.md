@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: selecione o servidor de gerenciamento central'
+description: 'Lync Server 2013: selecione o servidor de gerenciamento central.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183561
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ef3cff58600697f64b64860f37a7daab8ebfc8f1
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 9a754a9b46b1cd8213a6987c4fc200edaa01fb6d
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48510418"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48555157"
 ---
 # <a name="select-the-central-management-server-in-lync-server-2013"></a>Selecionar o servidor de gerenciamento central no Lync Server 2013
 

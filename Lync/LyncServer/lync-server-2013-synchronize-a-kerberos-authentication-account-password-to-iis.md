@@ -1,5 +1,6 @@
 ---
 title: Sincronizar uma senha de conta de autenticação Kerberos com o IIS
+description: Sincronizar uma senha de conta de autenticação Kerberos com o IIS.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183296
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4ac886bf4eba4261a733241aa8d1d5396c4acc86
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 59555fc25088d0d932105f77051f959b4bcebb46
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48523848"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48556347"
 ---
 # <a name="synchronize-a-kerberos-authentication-account-password-to-iis-in-lync-server-2013"></a>Sincronizar uma senha de conta de autenticação Kerberos com o IIS no Lync Server 2013
 
