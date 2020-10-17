@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: planejamento para integração com o Exchange Server'
+description: 'Lync Server 2013: planejamento para integração com o Exchange Server.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 49733693
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5f8b3af0b93e9f7b7c8c660b91131819b27cb0e9
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: def4fc293d310b6832ffa397c5d2fd65b147b793
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48513558"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48571857"
 ---
-# <a name="planning-for-exchange-server-integration-with-lync-server-2013"></a><span data-ttu-id="3eed1-102">Planejamento da integração do Exchange Server com o Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3eed1-102">Planning for Exchange Server integration with Lync Server 2013</span></span>
+# <a name="planning-for-exchange-server-integration-with-lync-server-2013"></a><span data-ttu-id="90b19-103">Planejamento da integração do Exchange Server com o Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="90b19-103">Planning for Exchange Server integration with Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,19 +38,19 @@ ms.locfileid: "48513558"
 
 <span> </span>
 
-<span data-ttu-id="3eed1-103">_**Última modificação do tópico:** 2012-09-20_</span><span class="sxs-lookup"><span data-stu-id="3eed1-103">_**Topic Last Modified:** 2012-09-20_</span></span>
+<span data-ttu-id="90b19-104">_**Última modificação do tópico:** 2012-09-20_</span><span class="sxs-lookup"><span data-stu-id="90b19-104">_**Topic Last Modified:** 2012-09-20_</span></span>
 
-<span data-ttu-id="3eed1-104">Quando você implanta o Exchange e o Lync Server em sua organização, muitos recursos em ambos os produtos são aprimorados.</span><span class="sxs-lookup"><span data-stu-id="3eed1-104">When you deploy both Exchange and Lync Server in your organization, many features in both products are enhanced.</span></span> <span data-ttu-id="3eed1-105">Esta seção contém informações sobre esses recursos.</span><span class="sxs-lookup"><span data-stu-id="3eed1-105">This section contains information about these capabilities.</span></span>
+<span data-ttu-id="90b19-105">Quando você implanta o Exchange e o Lync Server em sua organização, muitos recursos em ambos os produtos são aprimorados.</span><span class="sxs-lookup"><span data-stu-id="90b19-105">When you deploy both Exchange and Lync Server in your organization, many features in both products are enhanced.</span></span> <span data-ttu-id="90b19-106">Esta seção contém informações sobre esses recursos.</span><span class="sxs-lookup"><span data-stu-id="90b19-106">This section contains information about these capabilities.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="3eed1-106">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="3eed1-106">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="90b19-107">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="90b19-107">In This Section</span></span>
 
-  - [<span data-ttu-id="3eed1-107">Integrar Microsoft Lync Server 2013 e Microsoft Exchange Server 2013</span><span class="sxs-lookup"><span data-stu-id="3eed1-107">Integrating Microsoft Lync Server 2013 and Microsoft Exchange Server 2013</span></span>](lync-server-2013-integrating-with-microsoft-exchange-server-2013.md)
+  - [<span data-ttu-id="90b19-108">Integrar Microsoft Lync Server 2013 e Microsoft Exchange Server 2013</span><span class="sxs-lookup"><span data-stu-id="90b19-108">Integrating Microsoft Lync Server 2013 and Microsoft Exchange Server 2013</span></span>](lync-server-2013-integrating-with-microsoft-exchange-server-2013.md)
 
-  - [<span data-ttu-id="3eed1-108">Planejamento da integração de Unificação de mensagens do Exchange no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3eed1-108">Planning for Exchange Unified Messaging integration in Lync Server 2013</span></span>](lync-server-2013-planning-for-exchange-unified-messaging-integration.md)
+  - [<span data-ttu-id="90b19-109">Planejamento da integração de Unificação de mensagens do Exchange no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="90b19-109">Planning for Exchange Unified Messaging integration in Lync Server 2013</span></span>](lync-server-2013-planning-for-exchange-unified-messaging-integration.md)
 
-  - [<span data-ttu-id="3eed1-109">Integração de Unificação de mensagens do Exchange hospedada no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3eed1-109">Hosted Exchange Unified Messaging integration in Lync Server 2013</span></span>](lync-server-2013-hosted-exchange-unified-messaging-integration.md)
+  - [<span data-ttu-id="90b19-110">Integração de Unificação de mensagens do Exchange hospedada no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="90b19-110">Hosted Exchange Unified Messaging integration in Lync Server 2013</span></span>](lync-server-2013-hosted-exchange-unified-messaging-integration.md)
 
 </div>
 

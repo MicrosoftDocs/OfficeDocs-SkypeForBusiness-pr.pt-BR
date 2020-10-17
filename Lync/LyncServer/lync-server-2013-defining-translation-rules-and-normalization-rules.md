@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: definição de regras de conversão e regras de normalização'
+description: 'Lync Server 2013: definição de regras de conversão e regras de normalização.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 49733763
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9d77562edd0b29bb176b7793b9f87efc717c2214
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: c5b0e174d7eb1f22b8a2fb35a6ddfffd3da5d636
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48504458"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48570707"
 ---
-# <a name="defining-translation-rules-and-normalization-rules-in-lync-server-2013"></a><span data-ttu-id="cd5eb-102">Definindo regras de conversão e regras de normalização no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cd5eb-102">Defining translation rules and normalization rules in Lync Server 2013</span></span>
+# <a name="defining-translation-rules-and-normalization-rules-in-lync-server-2013"></a><span data-ttu-id="cd14a-103">Definindo regras de conversão e regras de normalização no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cd14a-103">Defining translation rules and normalization rules in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,26 +38,26 @@ ms.locfileid: "48504458"
 
 <span> </span>
 
-<span data-ttu-id="cd5eb-103">_**Última modificação do tópico:** 2012-10-18_</span><span class="sxs-lookup"><span data-stu-id="cd5eb-103">_**Topic Last Modified:** 2012-10-18_</span></span>
+<span data-ttu-id="cd14a-104">_**Última modificação do tópico:** 2012-10-18_</span><span class="sxs-lookup"><span data-stu-id="cd14a-104">_**Topic Last Modified:** 2012-10-18_</span></span>
 
-<span data-ttu-id="cd5eb-104">Use os tópicos da seção para saber como configurar troncos para o Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="cd5eb-104">Use the topics in the section to learn how to configure Trunks for Lync Server 2013.</span></span>
+<span data-ttu-id="cd14a-105">Use os tópicos da seção para saber como configurar troncos para o Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="cd14a-105">Use the topics in the section to learn how to configure Trunks for Lync Server 2013.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="cd5eb-105">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="cd5eb-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="cd14a-106">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="cd14a-106">In This Section</span></span>
 
-  - [<span data-ttu-id="cd5eb-106">Definindo regras de conversão no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cd5eb-106">Defining translation rules in Lync Server 2013</span></span>](lync-server-2013-defining-translation-rules.md)
+  - [<span data-ttu-id="cd14a-107">Definindo regras de conversão no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cd14a-107">Defining translation rules in Lync Server 2013</span></span>](lync-server-2013-defining-translation-rules.md)
 
-  - [<span data-ttu-id="cd5eb-107">Definindo regras de normalização no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cd5eb-107">Defining normalization rules in Lync Server 2013</span></span>](lync-server-2013-defining-normalization-rules.md)
+  - [<span data-ttu-id="cd14a-108">Definindo regras de normalização no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cd14a-108">Defining normalization rules in Lync Server 2013</span></span>](lync-server-2013-defining-normalization-rules.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="cd5eb-108">Confira também</span><span class="sxs-lookup"><span data-stu-id="cd5eb-108">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="cd14a-109">Confira também</span><span class="sxs-lookup"><span data-stu-id="cd14a-109">See Also</span></span>
 
 
-[<span data-ttu-id="cd5eb-109">Gerenciando o roteamento de voz no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cd5eb-109">Managing voice routing in Lync Server 2013</span></span>](lync-server-2013-managing-voice-routing.md)  
+[<span data-ttu-id="cd14a-110">Gerenciando o roteamento de voz no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cd14a-110">Managing voice routing in Lync Server 2013</span></span>](lync-server-2013-managing-voice-routing.md)  
   
 
 </div>

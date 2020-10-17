@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: planejamento para integração de Unificação de mensagens do Exchange'
+description: 'Lync Server 2013: planejamento da integração de Unificação de mensagens do Exchange.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48185880
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 298e0f2667707c0ff73819b6fdd38ab105474d91
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 31296444d21a86a7837da3e29fc2152f3ca96ccc
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48522238"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48571877"
 ---
-# <a name="planning-for-exchange-unified-messaging-integration-in-lync-server-2013"></a><span data-ttu-id="45927-102">Planejamento da integração de Unificação de mensagens do Exchange no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="45927-102">Planning for Exchange Unified Messaging integration in Lync Server 2013</span></span>
+# <a name="planning-for-exchange-unified-messaging-integration-in-lync-server-2013"></a><span data-ttu-id="d85f4-103">Planejamento da integração de Unificação de mensagens do Exchange no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d85f4-103">Planning for Exchange Unified Messaging integration in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,33 +38,33 @@ ms.locfileid: "48522238"
 
 <span> </span>
 
-<span data-ttu-id="45927-103">_**Última modificação do tópico:** 2012-10-13_</span><span class="sxs-lookup"><span data-stu-id="45927-103">_**Topic Last Modified:** 2012-10-13_</span></span>
+<span data-ttu-id="d85f4-104">_**Última modificação do tópico:** 2012-10-13_</span><span class="sxs-lookup"><span data-stu-id="d85f4-104">_**Topic Last Modified:** 2012-10-13_</span></span>
 
-<span data-ttu-id="45927-104">O Lync Server 2013 oferece suporte à integração com a Unificação de mensagens (UM) do Exchange para combinar mensagens de voz e mensagens de email em uma única infraestrutura de mensagens.</span><span class="sxs-lookup"><span data-stu-id="45927-104">Lync Server 2013 supports integration with Exchange Unified Messaging (UM) for combining voice messaging and email messaging into a single messaging infrastructure.</span></span> <span data-ttu-id="45927-105">No Microsoft Exchange Server 2007 Service Pack 1 (SP1) e no Microsoft Exchange Server 2010, a Unificação de mensagens (UM) do Exchange é uma das várias funções de servidor do Exchange que você pode instalar e configurar.</span><span class="sxs-lookup"><span data-stu-id="45927-105">In Microsoft Exchange Server 2007 Service Pack 1 (SP1) and Microsoft Exchange Server 2010, Exchange Unified Messaging (UM) is one of several Exchange server roles that you can install and configure.</span></span>
+<span data-ttu-id="d85f4-105">O Lync Server 2013 oferece suporte à integração com a Unificação de mensagens (UM) do Exchange para combinar mensagens de voz e mensagens de email em uma única infraestrutura de mensagens.</span><span class="sxs-lookup"><span data-stu-id="d85f4-105">Lync Server 2013 supports integration with Exchange Unified Messaging (UM) for combining voice messaging and email messaging into a single messaging infrastructure.</span></span> <span data-ttu-id="d85f4-106">No Microsoft Exchange Server 2007 Service Pack 1 (SP1) e no Microsoft Exchange Server 2010, a Unificação de mensagens (UM) do Exchange é uma das várias funções de servidor do Exchange que você pode instalar e configurar.</span><span class="sxs-lookup"><span data-stu-id="d85f4-106">In Microsoft Exchange Server 2007 Service Pack 1 (SP1) and Microsoft Exchange Server 2010, Exchange Unified Messaging (UM) is one of several Exchange server roles that you can install and configure.</span></span>
 
-<span data-ttu-id="45927-106">No Microsoft Exchange Server 2013, o UM do Exchange é executado como um serviço em um servidor de caixa de correio do Exchange.</span><span class="sxs-lookup"><span data-stu-id="45927-106">In Microsoft Exchange Server 2013, Exchange UM runs as a service on an Exchange Mailbox server.</span></span> <span data-ttu-id="45927-107">Para implantações do Lync Server 2013 Enterprise Voice, a Unificação de mensagens combina mensagens de voz e mensagens de email em um único repositório disponível em um telefone (Outlook Voice Access) ou um computador.</span><span class="sxs-lookup"><span data-stu-id="45927-107">For Lync Server 2013 Enterprise Voice deployments, Unified Messaging combines voice messaging and email messaging into a single store that is available from a telephone (Outlook Voice Access) or a computer.</span></span> <span data-ttu-id="45927-108">A Unificação de mensagens e o Lync Server 2013 trabalham juntos para fornecer atendimento de chamadas, Outlook Voice Access e serviços de atendedor automático para usuários do Enterprise Voice.</span><span class="sxs-lookup"><span data-stu-id="45927-108">Unified Messaging and Lync Server 2013 work together to provide call answering, Outlook Voice Access, and auto-attendant services to users of Enterprise Voice.</span></span>
+<span data-ttu-id="d85f4-107">No Microsoft Exchange Server 2013, o UM do Exchange é executado como um serviço em um servidor de caixa de correio do Exchange.</span><span class="sxs-lookup"><span data-stu-id="d85f4-107">In Microsoft Exchange Server 2013, Exchange UM runs as a service on an Exchange Mailbox server.</span></span> <span data-ttu-id="d85f4-108">Para implantações do Lync Server 2013 Enterprise Voice, a Unificação de mensagens combina mensagens de voz e mensagens de email em um único repositório disponível em um telefone (Outlook Voice Access) ou um computador.</span><span class="sxs-lookup"><span data-stu-id="d85f4-108">For Lync Server 2013 Enterprise Voice deployments, Unified Messaging combines voice messaging and email messaging into a single store that is available from a telephone (Outlook Voice Access) or a computer.</span></span> <span data-ttu-id="d85f4-109">A Unificação de mensagens e o Lync Server 2013 trabalham juntos para fornecer atendimento de chamadas, Outlook Voice Access e serviços de atendedor automático para usuários do Enterprise Voice.</span><span class="sxs-lookup"><span data-stu-id="d85f4-109">Unified Messaging and Lync Server 2013 work together to provide call answering, Outlook Voice Access, and auto-attendant services to users of Enterprise Voice.</span></span>
 
-<span data-ttu-id="45927-109">Para obter mais informações sobre as alterações de arquitetura no Microsoft Exchange Server 2013, consulte "mudanças de arquitetura de voz" na documentação do Microsoft Exchange Server 2013 em [https://go.microsoft.com/fwlink/p/?LinkId=266730](https://go.microsoft.com/fwlink/p/?linkid=266730) .</span><span class="sxs-lookup"><span data-stu-id="45927-109">For more information about the architecture changes in Microsoft Exchange Server 2013, see “Voice Architecture Changes” in the Microsoft Exchange Server 2013 documentation at [https://go.microsoft.com/fwlink/p/?LinkId=266730](https://go.microsoft.com/fwlink/p/?linkid=266730).</span></span>
+<span data-ttu-id="d85f4-110">Para obter mais informações sobre as alterações de arquitetura no Microsoft Exchange Server 2013, consulte "mudanças de arquitetura de voz" na documentação do Microsoft Exchange Server 2013 em [https://go.microsoft.com/fwlink/p/?LinkId=266730](https://go.microsoft.com/fwlink/p/?linkid=266730) .</span><span class="sxs-lookup"><span data-stu-id="d85f4-110">For more information about the architecture changes in Microsoft Exchange Server 2013, see “Voice Architecture Changes” in the Microsoft Exchange Server 2013 documentation at [https://go.microsoft.com/fwlink/p/?LinkId=266730](https://go.microsoft.com/fwlink/p/?linkid=266730).</span></span>
 
-<span data-ttu-id="45927-110">Para que esses recursos sejam suportados em uma implantação local do UM do Exchange, você deve estar executando um dos seguintes:</span><span class="sxs-lookup"><span data-stu-id="45927-110">For these features to be supported in an on-premises Exchange UM deployment, you must be running one of the following:</span></span>
+<span data-ttu-id="d85f4-111">Para que esses recursos sejam suportados em uma implantação local do UM do Exchange, você deve estar executando um dos seguintes:</span><span class="sxs-lookup"><span data-stu-id="d85f4-111">For these features to be supported in an on-premises Exchange UM deployment, you must be running one of the following:</span></span>
 
-  - <span data-ttu-id="45927-111">Microsoft Exchange Server 2007 Service Pack 1 (SP1) ou Service Pack mais recente</span><span class="sxs-lookup"><span data-stu-id="45927-111">Microsoft Exchange Server 2007 Service Pack 1 (SP1) or latest service pack</span></span>
+  - <span data-ttu-id="d85f4-112">Microsoft Exchange Server 2007 Service Pack 1 (SP1) ou Service Pack mais recente</span><span class="sxs-lookup"><span data-stu-id="d85f4-112">Microsoft Exchange Server 2007 Service Pack 1 (SP1) or latest service pack</span></span>
 
-  - <span data-ttu-id="45927-112">Microsoft Exchange Server 2010 ou Service Pack mais recente</span><span class="sxs-lookup"><span data-stu-id="45927-112">Microsoft Exchange Server 2010 or latest service pack</span></span>
+  - <span data-ttu-id="d85f4-113">Microsoft Exchange Server 2010 ou Service Pack mais recente</span><span class="sxs-lookup"><span data-stu-id="d85f4-113">Microsoft Exchange Server 2010 or latest service pack</span></span>
 
-  - <span data-ttu-id="45927-113">Microsoft Exchange Server 2013</span><span class="sxs-lookup"><span data-stu-id="45927-113">Microsoft Exchange Server 2013</span></span>
+  - <span data-ttu-id="d85f4-114">Microsoft Exchange Server 2013</span><span class="sxs-lookup"><span data-stu-id="d85f4-114">Microsoft Exchange Server 2013</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="45927-114">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="45927-114">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="d85f4-115">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="d85f4-115">In This Section</span></span>
 
-  - [<span data-ttu-id="45927-115">Recursos de Unificação de mensagens integrada e Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="45927-115">Features of integrated Unified Messaging and Lync Server 2013</span></span>](lync-server-2013-features-of-integrated-unified-messaging.md)
+  - [<span data-ttu-id="d85f4-116">Recursos de Unificação de mensagens integrada e Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d85f4-116">Features of integrated Unified Messaging and Lync Server 2013</span></span>](lync-server-2013-features-of-integrated-unified-messaging.md)
 
-  - [<span data-ttu-id="45927-116">Componentes e topologias para Unificação de mensagens no local no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="45927-116">Components and topologies for on-premises Unified Messaging in Lync Server 2013</span></span>](lync-server-2013-components-and-topologies-for-on-premises-unified-messaging.md)
+  - [<span data-ttu-id="d85f4-117">Componentes e topologias para Unificação de mensagens no local no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d85f4-117">Components and topologies for on-premises Unified Messaging in Lync Server 2013</span></span>](lync-server-2013-components-and-topologies-for-on-premises-unified-messaging.md)
 
-  - [<span data-ttu-id="45927-117">Diretrizes para integrar a Unificação de mensagens local e o Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="45927-117">Guidelines for integrating on-premises Unified Messaging and Lync Server 2013</span></span>](lync-server-2013-guidelines-for-integrating-on-premises-unified-messaging.md)
+  - [<span data-ttu-id="d85f4-118">Diretrizes para integrar a Unificação de mensagens local e o Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d85f4-118">Guidelines for integrating on-premises Unified Messaging and Lync Server 2013</span></span>](lync-server-2013-guidelines-for-integrating-on-premises-unified-messaging.md)
 
-  - [<span data-ttu-id="45927-118">Processo de implantação para integração de Unificação de mensagens local e Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="45927-118">Deployment process for integrating on-premises Unified Messaging and Lync Server 2013</span></span>](lync-server-2013-deployment-process-for-integrating-on-premises-unified-messaging.md)
+  - [<span data-ttu-id="d85f4-119">Processo de implantação para integração de Unificação de mensagens local e Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d85f4-119">Deployment process for integrating on-premises Unified Messaging and Lync Server 2013</span></span>](lync-server-2013-deployment-process-for-integrating-on-premises-unified-messaging.md)
 
 </div>
 
