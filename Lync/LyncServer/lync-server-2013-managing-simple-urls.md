@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Gerenciando URLs simples'
+description: 'Lync Server 2013: Gerenciando URLs simples.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 49733748
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9cd2f63380ba7db1ffc5d218e5ece615a91370af
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: ebcd11e5360e923b9320e58f15e4add8474ebc81
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48507128"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48560387"
 ---
-# <a name="managing-simple-urls-in-lync-server-2013"></a><span data-ttu-id="ebd67-102">Gerenciando URLs simples no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ebd67-102">Managing simple URLs in Lync Server 2013</span></span>
+# <a name="managing-simple-urls-in-lync-server-2013"></a><span data-ttu-id="4e431-103">Gerenciando URLs simples no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4e431-103">Managing simple URLs in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,24 +38,24 @@ ms.locfileid: "48507128"
 
 <span> </span>
 
-<span data-ttu-id="ebd67-103">_**Última modificação do tópico:** 2012-10-11_</span><span class="sxs-lookup"><span data-stu-id="ebd67-103">_**Topic Last Modified:** 2012-10-11_</span></span>
+<span data-ttu-id="4e431-104">_**Última modificação do tópico:** 2012-10-11_</span><span class="sxs-lookup"><span data-stu-id="4e431-104">_**Topic Last Modified:** 2012-10-11_</span></span>
 
-<span data-ttu-id="ebd67-104">Use os procedimentos desta seção para gerenciar URLs simples da página **topologia** no painel de controle do Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="ebd67-104">Use the procedures in this section to manage simple URLs from the **Topology** page in Lync Server 2013 Control Panel.</span></span>
+<span data-ttu-id="4e431-105">Use os procedimentos desta seção para gerenciar URLs simples da página **topologia** no painel de controle do Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="4e431-105">Use the procedures in this section to manage simple URLs from the **Topology** page in Lync Server 2013 Control Panel.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="ebd67-105">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="ebd67-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="4e431-106">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="4e431-106">In This Section</span></span>
 
-[<span data-ttu-id="ebd67-106">Exibir detalhes de URL simples no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ebd67-106">View simple URL details in Lync Server 2013</span></span>](lync-server-2013-view-simple-url-details.md)
+[<span data-ttu-id="4e431-107">Exibir detalhes de URL simples no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4e431-107">View simple URL details in Lync Server 2013</span></span>](lync-server-2013-view-simple-url-details.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="ebd67-107">Confira também</span><span class="sxs-lookup"><span data-stu-id="ebd67-107">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="4e431-108">Confira também</span><span class="sxs-lookup"><span data-stu-id="4e431-108">See Also</span></span>
 
 
-[<span data-ttu-id="ebd67-108">Planejamento de URLs simples no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ebd67-108">Planning for simple URLs in Lync Server 2013</span></span>](lync-server-2013-planning-for-simple-urls.md)  
+[<span data-ttu-id="4e431-109">Planejamento de URLs simples no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4e431-109">Planning for simple URLs in Lync Server 2013</span></span>](lync-server-2013-planning-for-simple-urls.md)  
   
 
 </div>

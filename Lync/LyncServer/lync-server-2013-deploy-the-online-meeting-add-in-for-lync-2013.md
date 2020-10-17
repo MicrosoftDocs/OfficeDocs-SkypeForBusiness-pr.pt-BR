@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: implantar o suplemento reunião online para Lync 2013'
+description: 'Lync Server 2013: implantar o suplemento de reunião online para Lync 2013.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48185485
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d7add4e9098366c57440950cbdc998184d22e8a1
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 29992a9c5e28a2f96cf846230633ca8872e14edc
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48531388"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48558627"
 ---
-# <a name="deploy-the-online-meeting-add-in-for-lync-2013"></a><span data-ttu-id="ed8b4-102">Implantar o suplemento reunião online para Lync 2013</span><span class="sxs-lookup"><span data-stu-id="ed8b4-102">Deploy the Online Meeting Add-in for Lync 2013</span></span>
+# <a name="deploy-the-online-meeting-add-in-for-lync-2013"></a><span data-ttu-id="3474d-103">Implantar o suplemento reunião online para Lync 2013</span><span class="sxs-lookup"><span data-stu-id="3474d-103">Deploy the Online Meeting Add-in for Lync 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,11 +38,11 @@ ms.locfileid: "48531388"
 
 <span> </span>
 
-<span data-ttu-id="ed8b4-103">_**Última modificação do tópico:** 2012-09-30_</span><span class="sxs-lookup"><span data-stu-id="ed8b4-103">_**Topic Last Modified:** 2012-09-30_</span></span>
+<span data-ttu-id="3474d-104">_**Última modificação do tópico:** 2012-09-30_</span><span class="sxs-lookup"><span data-stu-id="3474d-104">_**Topic Last Modified:** 2012-09-30_</span></span>
 
-<span data-ttu-id="ed8b4-104">Implante o suplemento reunião online do Lync 2013 para que os usuários possam agendar conferências que suportam conferência discada.</span><span class="sxs-lookup"><span data-stu-id="ed8b4-104">Deploy the Online Meeting Add-in for Lync 2013 so that users can schedule conferences that support dial-in conferencing.</span></span>
+<span data-ttu-id="3474d-105">Implante o suplemento reunião online do Lync 2013 para que os usuários possam agendar conferências que suportam conferência discada.</span><span class="sxs-lookup"><span data-stu-id="3474d-105">Deploy the Online Meeting Add-in for Lync 2013 so that users can schedule conferences that support dial-in conferencing.</span></span>
 
-<span data-ttu-id="ed8b4-105">O suplemento de reunião online para Lync 2013 é instalado automaticamente quando você instala o Lync 2013.</span><span class="sxs-lookup"><span data-stu-id="ed8b4-105">The Online Meeting Add-in for Lync 2013 is installed automatically when you install Lync 2013.</span></span> <span data-ttu-id="ed8b4-106">Para obter detalhes sobre como personalizar o suplemento de reunião online para Lync 2013 para Lync, consulte [Configurando o convite de reunião no Lync Server 2013](lync-server-2013-configuring-the-meeting-invitation.md).</span><span class="sxs-lookup"><span data-stu-id="ed8b4-106">For details about customizing Online Meeting Add-in for Lync 2013 for Lync, see [Configuring the meeting invitation in Lync Server 2013](lync-server-2013-configuring-the-meeting-invitation.md).</span></span>
+<span data-ttu-id="3474d-106">O suplemento de reunião online para Lync 2013 é instalado automaticamente quando você instala o Lync 2013.</span><span class="sxs-lookup"><span data-stu-id="3474d-106">The Online Meeting Add-in for Lync 2013 is installed automatically when you install Lync 2013.</span></span> <span data-ttu-id="3474d-107">Para obter detalhes sobre como personalizar o suplemento de reunião online para Lync 2013 para Lync, consulte [Configurando o convite de reunião no Lync Server 2013](lync-server-2013-configuring-the-meeting-invitation.md).</span><span class="sxs-lookup"><span data-stu-id="3474d-107">For details about customizing Online Meeting Add-in for Lync 2013 for Lync, see [Configuring the meeting invitation in Lync Server 2013](lync-server-2013-configuring-the-meeting-invitation.md).</span></span>
 
 </div>
 
