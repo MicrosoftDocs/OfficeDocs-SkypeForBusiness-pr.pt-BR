@@ -1,5 +1,6 @@
 ---
 title: Configurar cenários do Lync Server 2013
+description: Configurar cenários do Lync Server 2013.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 51541420
 ms.date: 12/28/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d108cc3a2c49c40eb04c9039c83689fb8c5abf4c
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: c4a5b7bd271191067779ac358807cc54918b16bc
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48499938"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48555457"
 ---
-# <a name="configure-lync-server-2013-scenarios"></a><span data-ttu-id="c79b9-102">Configurar cenários do Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c79b9-102">Configure Lync Server 2013 Scenarios</span></span>
+# <a name="configure-lync-server-2013-scenarios"></a><span data-ttu-id="391b6-103">Configurar cenários do Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="391b6-103">Configure Lync Server 2013 Scenarios</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,21 +38,21 @@ ms.locfileid: "48499938"
 
 <span> </span>
 
-<span data-ttu-id="c79b9-103">_**Última modificação do tópico:** 2016-12-28_</span><span class="sxs-lookup"><span data-stu-id="c79b9-103">_**Topic Last Modified:** 2016-12-28_</span></span>
+<span data-ttu-id="391b6-104">_**Última modificação do tópico:** 2016-12-28_</span><span class="sxs-lookup"><span data-stu-id="391b6-104">_**Topic Last Modified:** 2016-12-28_</span></span>
 
-<span data-ttu-id="c79b9-104">Para executar a ferramenta de estresse e desempenho do Lync Server 2013 (LyncPerfTool), a topologia 2013 do Lync Server deve primeiro ser configurada para os cenários que serão executados.</span><span class="sxs-lookup"><span data-stu-id="c79b9-104">To run the Lync Server 2013 Stress and Performance Tool (LyncPerfTool), the Lync Server 2013 topology must first be configured for the scenarios that will be executed.</span></span> <span data-ttu-id="c79b9-105">Se o Lync Server 2013 não estiver configurado ou configurado incorretamente, a simulação de carga falhará na maioria dos casos.</span><span class="sxs-lookup"><span data-stu-id="c79b9-105">If Lync Server 2013 is not configured or is configured incorrectly, load simulation will fail in most cases.</span></span> <span data-ttu-id="c79b9-106">Com a ferramenta de estresse e desempenho do Lync Server 2013, fornecemos exemplos de scripts do Shell de gerenciamento do Lync Server e arquivos de recursos básicos que podem ser usados como ponto de partida para configurar o Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="c79b9-106">With the Lync Server 2013 Stress and Performance Tool, we have provided example Lync Server Management Shell scripts and basic resource files that can be used as a starting point for configuring Lync Server 2013.</span></span> <span data-ttu-id="c79b9-107">Este tópico descreve os exemplos do Windows PowerShell fornecidos.</span><span class="sxs-lookup"><span data-stu-id="c79b9-107">This topic describes the Windows PowerShell examples provided.</span></span> <span data-ttu-id="c79b9-108">Observe que não é o objetivo deste tópico descrever como configurar o Lync Server 2013 em geral.</span><span class="sxs-lookup"><span data-stu-id="c79b9-108">Note that it is not the goal of this topic to describe how to configure Lync Server 2013 in general.</span></span> <span data-ttu-id="c79b9-109">Para obter detalhes sobre como trabalhar com o Windows PowerShell no Lync Server 2013, consulte a documentação do Shell de gerenciamento do Lync Server em <https://technet.microsoft.com/library/gg398474.aspx> .</span><span class="sxs-lookup"><span data-stu-id="c79b9-109">For details about working with Windows PowerShell in Lync Server 2013, see the Lync Server Management Shell documentation at <https://technet.microsoft.com/library/gg398474.aspx>.</span></span>
+<span data-ttu-id="391b6-105">Para executar a ferramenta de estresse e desempenho do Lync Server 2013 (LyncPerfTool), a topologia 2013 do Lync Server deve primeiro ser configurada para os cenários que serão executados.</span><span class="sxs-lookup"><span data-stu-id="391b6-105">To run the Lync Server 2013 Stress and Performance Tool (LyncPerfTool), the Lync Server 2013 topology must first be configured for the scenarios that will be executed.</span></span> <span data-ttu-id="391b6-106">Se o Lync Server 2013 não estiver configurado ou configurado incorretamente, a simulação de carga falhará na maioria dos casos.</span><span class="sxs-lookup"><span data-stu-id="391b6-106">If Lync Server 2013 is not configured or is configured incorrectly, load simulation will fail in most cases.</span></span> <span data-ttu-id="391b6-107">Com a ferramenta de estresse e desempenho do Lync Server 2013, fornecemos exemplos de scripts do Shell de gerenciamento do Lync Server e arquivos de recursos básicos que podem ser usados como ponto de partida para configurar o Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="391b6-107">With the Lync Server 2013 Stress and Performance Tool, we have provided example Lync Server Management Shell scripts and basic resource files that can be used as a starting point for configuring Lync Server 2013.</span></span> <span data-ttu-id="391b6-108">Este tópico descreve os exemplos do Windows PowerShell fornecidos.</span><span class="sxs-lookup"><span data-stu-id="391b6-108">This topic describes the Windows PowerShell examples provided.</span></span> <span data-ttu-id="391b6-109">Observe que não é o objetivo deste tópico descrever como configurar o Lync Server 2013 em geral.</span><span class="sxs-lookup"><span data-stu-id="391b6-109">Note that it is not the goal of this topic to describe how to configure Lync Server 2013 in general.</span></span> <span data-ttu-id="391b6-110">Para obter detalhes sobre como trabalhar com o Windows PowerShell no Lync Server 2013, consulte a documentação do Shell de gerenciamento do Lync Server em <https://technet.microsoft.com/library/gg398474.aspx> .</span><span class="sxs-lookup"><span data-stu-id="391b6-110">For details about working with Windows PowerShell in Lync Server 2013, see the Lync Server Management Shell documentation at <https://technet.microsoft.com/library/gg398474.aspx>.</span></span>
 
 <div>
 
-## <a name="about-running-lync-server-management-shell-scripts"></a><span data-ttu-id="c79b9-110">Sobre a execução de scripts do Shell de gerenciamento do Lync Server</span><span class="sxs-lookup"><span data-stu-id="c79b9-110">About Running Lync Server Management Shell Scripts</span></span>
+## <a name="about-running-lync-server-management-shell-scripts"></a><span data-ttu-id="391b6-111">Sobre a execução de scripts do Shell de gerenciamento do Lync Server</span><span class="sxs-lookup"><span data-stu-id="391b6-111">About Running Lync Server Management Shell Scripts</span></span>
 
-<span data-ttu-id="c79b9-111">Fornecemos exemplos de scripts do Shell de gerenciamento do Lync Server que podem ser usados em preparação para executar a simulação de carga.</span><span class="sxs-lookup"><span data-stu-id="c79b9-111">We have provided example Lync Server Management Shell scripts that may be used in preparation for running load simulation.</span></span> <span data-ttu-id="c79b9-112">Como os scripts se destinam à simulação de carga, eles são simples e permissivos e, portanto, podem não ser apropriados para produção.</span><span class="sxs-lookup"><span data-stu-id="c79b9-112">Because the scripts are intended for load simulation, they are simple and permissive, and therefore may not be appropriate for production.</span></span> <span data-ttu-id="c79b9-113">Todos os scripts são exemplos e devem ser revisados e, em alguns casos, modificados para refletir sua topologia.</span><span class="sxs-lookup"><span data-stu-id="c79b9-113">All scripts are examples and must be reviewed, and, in some cases, modified to reflect your topology.</span></span> <span data-ttu-id="c79b9-114">No mínimo, esperamos que o cenário do serviço de grupo de resposta (RGS) precise ser modificado para especificar os agentes atribuídos aos grupos de agentes.</span><span class="sxs-lookup"><span data-stu-id="c79b9-114">At a minimum, we expect that the Response Group Service (RGS) scenario would need to be modified to specify the agents that are assigned to the agent groups.</span></span> <span data-ttu-id="c79b9-115">No entanto, você tem a opção de não simular esse carregamento.</span><span class="sxs-lookup"><span data-stu-id="c79b9-115">However, you have the option to not simulate this load.</span></span>
+<span data-ttu-id="391b6-112">Fornecemos exemplos de scripts do Shell de gerenciamento do Lync Server que podem ser usados em preparação para executar a simulação de carga.</span><span class="sxs-lookup"><span data-stu-id="391b6-112">We have provided example Lync Server Management Shell scripts that may be used in preparation for running load simulation.</span></span> <span data-ttu-id="391b6-113">Como os scripts se destinam à simulação de carga, eles são simples e permissivos e, portanto, podem não ser apropriados para produção.</span><span class="sxs-lookup"><span data-stu-id="391b6-113">Because the scripts are intended for load simulation, they are simple and permissive, and therefore may not be appropriate for production.</span></span> <span data-ttu-id="391b6-114">Todos os scripts são exemplos e devem ser revisados e, em alguns casos, modificados para refletir sua topologia.</span><span class="sxs-lookup"><span data-stu-id="391b6-114">All scripts are examples and must be reviewed, and, in some cases, modified to reflect your topology.</span></span> <span data-ttu-id="391b6-115">No mínimo, esperamos que o cenário do serviço de grupo de resposta (RGS) precise ser modificado para especificar os agentes atribuídos aos grupos de agentes.</span><span class="sxs-lookup"><span data-stu-id="391b6-115">At a minimum, we expect that the Response Group Service (RGS) scenario would need to be modified to specify the agents that are assigned to the agent groups.</span></span> <span data-ttu-id="391b6-116">No entanto, você tem a opção de não simular esse carregamento.</span><span class="sxs-lookup"><span data-stu-id="391b6-116">However, you have the option to not simulate this load.</span></span>
 
 <div>
 
 
 > [!WARNING]  
-> <span data-ttu-id="c79b9-116">Tome cuidado ao examinar e compreender os exemplos fornecidos.</span><span class="sxs-lookup"><span data-stu-id="c79b9-116">Take care in reviewing and understanding the examples provided.</span></span> <span data-ttu-id="c79b9-117">Os scripts substituirão as configurações existentes na topologia.</span><span class="sxs-lookup"><span data-stu-id="c79b9-117">Scripts will overwrite any existing settings in the topology.</span></span>
+> <span data-ttu-id="391b6-117">Tome cuidado ao examinar e compreender os exemplos fornecidos.</span><span class="sxs-lookup"><span data-stu-id="391b6-117">Take care in reviewing and understanding the examples provided.</span></span> <span data-ttu-id="391b6-118">Os scripts substituirão as configurações existentes na topologia.</span><span class="sxs-lookup"><span data-stu-id="391b6-118">Scripts will overwrite any existing settings in the topology.</span></span>
 
 
 
@@ -61,7 +62,7 @@ ms.locfileid: "48499938"
 
 
 > [!NOTE]  
-> <span data-ttu-id="c79b9-118">Para obter detalhes sobre como usar o Windows PowerShell e o Shell de gerenciamento do Lync Server, consulte o blog do Lync Server 2013 Windows PowerShell em <A href="https://go.microsoft.com/fwlink/?linkid=203150">https://go.microsoft.com/fwlink/?LinkId=203150</A> .</span><span class="sxs-lookup"><span data-stu-id="c79b9-118">For details about using Windows PowerShell and the Lync Server Management Shell, see the Lync Server 2013 Windows PowerShell Blog at <A href="https://go.microsoft.com/fwlink/?linkid=203150">https://go.microsoft.com/fwlink/?LinkId=203150</A>.</span></span>
+> <span data-ttu-id="391b6-119">Para obter detalhes sobre como usar o Windows PowerShell e o Shell de gerenciamento do Lync Server, consulte o blog do Lync Server 2013 Windows PowerShell em <A href="https://go.microsoft.com/fwlink/?linkid=203150">https://go.microsoft.com/fwlink/?LinkId=203150</A> .</span><span class="sxs-lookup"><span data-stu-id="391b6-119">For details about using Windows PowerShell and the Lync Server Management Shell, see the Lync Server 2013 Windows PowerShell Blog at <A href="https://go.microsoft.com/fwlink/?linkid=203150">https://go.microsoft.com/fwlink/?LinkId=203150</A>.</span></span>
 
 
 
@@ -71,19 +72,19 @@ ms.locfileid: "48499938"
 
 <div>
 
-## <a name="stress-and-performance-tool-client-version-monikers"></a><span data-ttu-id="c79b9-119">Identificadores de versão do cliente da ferramenta de estresse e desempenho</span><span class="sxs-lookup"><span data-stu-id="c79b9-119">Stress and Performance Tool Client Version Monikers</span></span>
+## <a name="stress-and-performance-tool-client-version-monikers"></a><span data-ttu-id="391b6-120">Identificadores de versão do cliente da ferramenta de estresse e desempenho</span><span class="sxs-lookup"><span data-stu-id="391b6-120">Stress and Performance Tool Client Version Monikers</span></span>
 
-<span data-ttu-id="c79b9-120">Talvez seja necessário configurar a política de verificação de versão do cliente se você tiver alterado as configurações de valores padrão.</span><span class="sxs-lookup"><span data-stu-id="c79b9-120">You may need to configure the Client Version Check policy if you have changed the settings from the default values.</span></span> <span data-ttu-id="c79b9-121">Para obter detalhes, consulte "Configurando as versões de cliente com suporte" em <https://technet.microsoft.com/library/gg412832(v=ocs.15).aspx> .</span><span class="sxs-lookup"><span data-stu-id="c79b9-121">For details, see “Configuring supported client versions” at <https://technet.microsoft.com/library/gg412832(v=ocs.15).aspx>.</span></span> <span data-ttu-id="c79b9-122">A ferramenta de desempenho e stress do Lync Server 2013 usa as seguintes versões de agente de usuário por padrão ao se comunicar com o Lync Server 2013:</span><span class="sxs-lookup"><span data-stu-id="c79b9-122">The Lync Server 2013 Stress and Performance Tool uses the following User Agent Versions by default when communicating with Lync Server 2013:</span></span>
+<span data-ttu-id="391b6-121">Talvez seja necessário configurar a política de verificação de versão do cliente se você tiver alterado as configurações de valores padrão.</span><span class="sxs-lookup"><span data-stu-id="391b6-121">You may need to configure the Client Version Check policy if you have changed the settings from the default values.</span></span> <span data-ttu-id="391b6-122">Para obter detalhes, consulte "Configurando as versões de cliente com suporte" em <https://technet.microsoft.com/library/gg412832(v=ocs.15).aspx> .</span><span class="sxs-lookup"><span data-stu-id="391b6-122">For details, see “Configuring supported client versions” at <https://technet.microsoft.com/library/gg412832(v=ocs.15).aspx>.</span></span> <span data-ttu-id="391b6-123">A ferramenta de desempenho e stress do Lync Server 2013 usa as seguintes versões de agente de usuário por padrão ao se comunicar com o Lync Server 2013:</span><span class="sxs-lookup"><span data-stu-id="391b6-123">The Lync Server 2013 Stress and Performance Tool uses the following User Agent Versions by default when communicating with Lync Server 2013:</span></span>
 
-  - <span data-ttu-id="c79b9-123">LSPT/15.0.0.0 (ferramenta de estresse e desempenho do Lync Server 2013)</span><span class="sxs-lookup"><span data-stu-id="c79b9-123">LSPT/15.0.0.0 (Lync Server 2013 Stress and Performance Tool)</span></span>
+  - <span data-ttu-id="391b6-124">LSPT/15.0.0.0 (ferramenta de estresse e desempenho do Lync Server 2013)</span><span class="sxs-lookup"><span data-stu-id="391b6-124">LSPT/15.0.0.0 (Lync Server 2013 Stress and Performance Tool)</span></span>
 
-  - <span data-ttu-id="c79b9-124">OCPHONE/.0.522</span><span class="sxs-lookup"><span data-stu-id="c79b9-124">OCPHONE/.0.522</span></span>
+  - <span data-ttu-id="391b6-125">OCPHONE/.0.522</span><span class="sxs-lookup"><span data-stu-id="391b6-125">OCPHONE/.0.522</span></span>
 
-<span data-ttu-id="c79b9-125">Eles são para o cliente de mobilidade (UCWA) no LyncPerfTool:</span><span class="sxs-lookup"><span data-stu-id="c79b9-125">These are for the Mobility (UCWA) client in LyncPerfTool:</span></span>
+<span data-ttu-id="391b6-126">Eles são para o cliente de mobilidade (UCWA) no LyncPerfTool:</span><span class="sxs-lookup"><span data-stu-id="391b6-126">These are for the Mobility (UCWA) client in LyncPerfTool:</span></span>
 
-  - <span data-ttu-id="c79b9-126">Ferramenta de perf Ucwa/conferência da Web</span><span class="sxs-lookup"><span data-stu-id="c79b9-126">Ucwa Perf Tool/Web Conference</span></span>
+  - <span data-ttu-id="391b6-127">Ferramenta de perf Ucwa/conferência da Web</span><span class="sxs-lookup"><span data-stu-id="391b6-127">Ucwa Perf Tool/Web Conference</span></span>
 
-  - <span data-ttu-id="c79b9-127">Ferramenta Ucwa perf/móvel</span><span class="sxs-lookup"><span data-stu-id="c79b9-127">Ucwa Perf Tool/Mobile</span></span>
+  - <span data-ttu-id="391b6-128">Ferramenta Ucwa perf/móvel</span><span class="sxs-lookup"><span data-stu-id="391b6-128">Ucwa Perf Tool/Mobile</span></span>
 
 </div>
 
