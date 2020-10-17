@@ -12,20 +12,22 @@ ms:contentKeyID: 48184245
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: db93019a5caddf21f9517c5fb0e4e0135a7e437e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f5ca54eb1243aaf645b5c968588f3f2663fecccc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216396"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48530638"
 ---
+# <a name="overview-of-conferencing-in-lync-server-2013"></a><span data-ttu-id="a7575-102">Visão geral da conferência no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a7575-102">Overview of conferencing in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-conferencing-in-lync-server-2013"></a><span data-ttu-id="a0df2-102">Visão geral da conferência no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a0df2-102">Overview of conferencing in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,25 +37,25 @@ ms.locfileid: "42216396"
 
 <span> </span>
 
-<span data-ttu-id="a0df2-103">_**Última modificação do tópico:** 2012-09-30_</span><span class="sxs-lookup"><span data-stu-id="a0df2-103">_**Topic Last Modified:** 2012-09-30_</span></span>
+<span data-ttu-id="a7575-103">_**Última modificação do tópico:** 2012-09-30_</span><span class="sxs-lookup"><span data-stu-id="a7575-103">_**Topic Last Modified:** 2012-09-30_</span></span>
 
-<span data-ttu-id="a0df2-p101">Ao implantar a conferência, você pode optar por habilitar e usar a webconferência e a conferência A/V ou apenas a webconferência. A conferência discada é um subconjunto da conferência de áudio e exige configuração adicional.</span><span class="sxs-lookup"><span data-stu-id="a0df2-p101">When you deploy conferencing, you can choose to enable and use both web conferencing and A/V conferencing, or just web conferencing. Dial-in conferencing is a subset of audio conferencing and requires additional configuration.</span></span>
+<span data-ttu-id="a7575-p101">Ao implantar a conferência, você pode optar por habilitar e usar a webconferência e a conferência A/V ou apenas a webconferência. A conferência discada é um subconjunto da conferência de áudio e exige configuração adicional.</span><span class="sxs-lookup"><span data-stu-id="a7575-p101">When you deploy conferencing, you can choose to enable and use both web conferencing and A/V conferencing, or just web conferencing. Dial-in conferencing is a subset of audio conferencing and requires additional configuration.</span></span>
 
-<span data-ttu-id="a0df2-p102">Com todas as formas de conferência habilitadas, os usuários podem aproveitar o ambiente de conferências mais completo possível com qualquer combinação de mensagens instantâneas, áudio, vídeo, compartilhamento de área de trabalho, apresentações de slides, compartilhamento de anexos e compartilhamento de aplicativos. As conferências podem ser agendadas ou desmarcadas, e os usuários podem facilmente adicionar formas de comunicação a uma conferência enquanto ela está em andamento. Por exemplo, iniciando com mensagens instantâneas, adicionando colaboração de documentos e depois adicionando voz ou vídeo. Também é possível adicionar novos participantes às conferências em andamento em tempo real.</span><span class="sxs-lookup"><span data-stu-id="a0df2-p102">With all forms of conferencing enabled, your users can enjoy the richest possible conferencing environment with any combination of instant messaging (IM), audio, video, desktop sharing, slide presentations, sharing attachments, and sharing applications. Conferences can be scheduled or unscheduled, and users can easily add forms of communication to a conference while it happens. For example, starting with IM, adding document collaboration, and then adding voice or video. New participants can also be added to ongoing conferences in real time.</span></span>
+<span data-ttu-id="a7575-p102">Com todas as formas de conferência habilitadas, os usuários podem aproveitar o ambiente de conferências mais completo possível com qualquer combinação de mensagens instantâneas, áudio, vídeo, compartilhamento de área de trabalho, apresentações de slides, compartilhamento de anexos e compartilhamento de aplicativos. As conferências podem ser agendadas ou desmarcadas, e os usuários podem facilmente adicionar formas de comunicação a uma conferência enquanto ela está em andamento. Por exemplo, iniciando com mensagens instantâneas, adicionando colaboração de documentos e depois adicionando voz ou vídeo. Também é possível adicionar novos participantes às conferências em andamento em tempo real.</span><span class="sxs-lookup"><span data-stu-id="a7575-p102">With all forms of conferencing enabled, your users can enjoy the richest possible conferencing environment with any combination of instant messaging (IM), audio, video, desktop sharing, slide presentations, sharing attachments, and sharing applications. Conferences can be scheduled or unscheduled, and users can easily add forms of communication to a conference while it happens. For example, starting with IM, adding document collaboration, and then adding voice or video. New participants can also be added to ongoing conferences in real time.</span></span>
 
-<span data-ttu-id="a0df2-110">Os tópicos a seguir trazem uma visão geral das funcionalidades e dos recursos específicos oferecidos pela webconferência, pela conferência A/V e pela conferência discada.</span><span class="sxs-lookup"><span data-stu-id="a0df2-110">The following topics provide an overview of the specific features and capabilities provided by web conferencing, A/V conferencing, and dial-in conferencing.</span></span>
+<span data-ttu-id="a7575-110">Os tópicos a seguir trazem uma visão geral das funcionalidades e dos recursos específicos oferecidos pela webconferência, pela conferência A/V e pela conferência discada.</span><span class="sxs-lookup"><span data-stu-id="a7575-110">The following topics provide an overview of the specific features and capabilities provided by web conferencing, A/V conferencing, and dial-in conferencing.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="a0df2-111">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="a0df2-111">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="a7575-111">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="a7575-111">In This Section</span></span>
 
-  - [<span data-ttu-id="a0df2-112">Conceitos comuns de conferência no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a0df2-112">Common conferencing concepts in Lync Server 2013</span></span>](lync-server-2013-common-conferencing-concepts.md)
+  - [<span data-ttu-id="a7575-112">Conceitos comuns de conferência no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a7575-112">Common conferencing concepts in Lync Server 2013</span></span>](lync-server-2013-common-conferencing-concepts.md)
 
-  - [<span data-ttu-id="a0df2-113">Visão geral da webconferência no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a0df2-113">Overview of web conferencing in Lync Server 2013</span></span>](lync-server-2013-web-conferencing-overview.md)
+  - [<span data-ttu-id="a7575-113">Visão geral da webconferência no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a7575-113">Overview of web conferencing in Lync Server 2013</span></span>](lync-server-2013-web-conferencing-overview.md)
 
-  - [<span data-ttu-id="a0df2-114">Visão geral da Conferência A/V no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a0df2-114">Overview of A/V conferencing in Lync Server 2013</span></span>](lync-server-2013-a-v-conferencing-overview.md)
+  - [<span data-ttu-id="a7575-114">Visão geral da Conferência A/V no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a7575-114">Overview of A/V conferencing in Lync Server 2013</span></span>](lync-server-2013-a-v-conferencing-overview.md)
 
-  - [<span data-ttu-id="a0df2-115">Visão geral da conferência discada no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a0df2-115">Overview of dial-in conferencing in Lync Server 2013</span></span>](lync-server-2013-dial-in-conferencing-overview.md)
+  - [<span data-ttu-id="a7575-115">Visão geral da conferência discada no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a7575-115">Overview of dial-in conferencing in Lync Server 2013</span></span>](lync-server-2013-dial-in-conferencing-overview.md)
 
 </div>
 
