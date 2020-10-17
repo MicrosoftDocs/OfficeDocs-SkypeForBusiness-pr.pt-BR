@@ -12,20 +12,22 @@ ms:contentKeyID: 48183610
 ms.date: 12/12/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c6bbbe8650ae1d7746c9b87ecf4518236f8b1575
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f7d5ae03267b266b1ef2abbacc2e3fce06e034ec
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201867"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513518"
 ---
+# <a name="planning-for-simple-urls-in-lync-server-2013"></a>Planejamento de URLs simples no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-simple-urls-in-lync-server-2013"></a>Planejamento de URLs simples no Lync Server 2013
+
 
 </div>
 
@@ -41,13 +43,13 @@ URLs simples facilitam a associação de reuniões para seus usuários e facilit
 
 O Lync Server oferece suporte a três URLs simples:
 
-  - **Reunir** é usado como URL base para todas as conferências no site ou na organização. Um exemplo de URL simples de reunião é https://meet.contoso.com. Uma URL para uma reunião específica pode ser https://meet.contoso.com/ *username*/7322994.
+  - **Reunir** é usado como URL base para todas as conferências no site ou na organização. Um exemplo de URL simples de reunião é https://meet.contoso.com . Uma URL para uma reunião específica pode ser https://meet.contoso.com/ *username*/7322994.
     
     Com o URL Reunir simples, os links para ingressar em reuniões são fáceis de compreender, de comunicar e distribuir.
 
-  - **Discar** possibilita o acesso à página da web Configurações de Conferência Discada. Esta página mostra os números de discagem de conferência com seus idiomas disponíveis, as informações de conferência atribuídas (para reuniões que não necessitam de agendamento), controles DTMF durante a conferência, suporte de gerenciamento do PIN (número de identificação pessoal) e informações atribuídas da conferência. O URL Discar é incluído em todos os convites de reuniões para que o usuário que desejar discar para ingressar na reunião possa obter acesso ao número de telefone necessário, bem como as informações do PIN. Um exemplo da URL simples de discagem é https://dialin.contoso.com.
+  - **Discar** possibilita o acesso à página da web Configurações de Conferência Discada. Esta página mostra os números de discagem de conferência com seus idiomas disponíveis, as informações de conferência atribuídas (para reuniões que não necessitam de agendamento), controles DTMF durante a conferência, suporte de gerenciamento do PIN (número de identificação pessoal) e informações atribuídas da conferência. O URL Discar é incluído em todos os convites de reuniões para que o usuário que desejar discar para ingressar na reunião possa obter acesso ao número de telefone necessário, bem como as informações do PIN. Um exemplo da URL simples de discagem é https://dialin.contoso.com .
 
-  - O **administrador** permite acesso rápido ao painel de controle do Lync Server. A partir de qualquer computador dentro de firewalls da sua organização, um administrador pode abrir o painel de controle do Lync Server digitando a URL simples do administrador em um navegador. A URL simples de Admin é interna à organização. Um exemplo da URL simples de admin éhttps://admin.contoso.com
+  - O **administrador** permite acesso rápido ao painel de controle do Lync Server. A partir de qualquer computador dentro de firewalls da sua organização, um administrador pode abrir o painel de controle do Lync Server digitando a URL simples do administrador em um navegador. A URL simples de Admin é interna à organização. Um exemplo da URL simples de admin é https://admin.contoso.com
 
 <div>
 
@@ -61,7 +63,7 @@ Na maioria dos casos, recomendamos que você defina URLs simples somente em um n
 
 
 > [!NOTE]  
-> Se você optar por usar URLs simples com escopo de site, os usuários não poderão se mover entre pools front-end em sites diferentes sem que os usuários reagendem todas as suas reuniões agendadas à medida que as URLs simples de reunião sejam diferentes entre sites. Isso inclui cenários de failover em que os pools em relações de backup estão em sites separados. Quando você precisar fazer failover entre sites onde as URLs simples com escopo de site são implantadas, os usuários não poderão ingressar em suas reuniões por causa do escopo da URL. Para obter mais informações, consulte <A href="https://docs.microsoft.com/powershell/module/skype/Get-CsSimpleUrlConfiguration">Get-CsSimpleUrlConfiguration</A>.
+> Se você optar por usar URLs simples com escopo de site, os usuários não poderão se mover entre Front-End pools em sites diferentes sem que os usuários reagendem todas as suas reuniões agendadas à medida que as URLs simples de reunião sejam diferentes entre sites. Isso inclui cenários de failover em que os pools em relações de backup estão em sites separados. Quando você precisar fazer failover entre sites onde as URLs simples com escopo de site são implantadas, os usuários não poderão ingressar em suas reuniões por causa do escopo da URL. Para obter mais informações, consulte <A href="https://docs.microsoft.com/powershell/module/skype/Get-CsSimpleUrlConfiguration">Get-CsSimpleUrlConfiguration</A>.
 
 
 
@@ -99,7 +101,7 @@ Se usar esta opção, você precisará de um registro A de DNS separado para cad
 </tr>
 <tr class="even">
 <td><p>Cumpra</p></td>
-<td><p>https://meet.contoso.com, https://meet.fabrikam.come assim por diante (um para cada domínio SIP em sua organização)</p></td>
+<td><p>https://meet.contoso.com, https://meet.fabrikam.com e assim por diante (um para cada domínio SIP em sua organização)</p></td>
 </tr>
 <tr class="odd">
 <td><p>Discagem</p></td>
@@ -129,7 +131,7 @@ Com a opção 2, os URLs simples tem como base o nome de domínio lync.contoso.c
 </tr>
 <tr class="even">
 <td><p>Cumpra</p></td>
-<td><p>https://lync.contoso.com/Meet, https://lync.fabrikam.com/Meete assim por diante (um para cada domínio SIP em sua organização)</p></td>
+<td><p>https://lync.contoso.com/Meet, https://lync.fabrikam.com/Meet e assim por diante (um para cada domínio SIP em sua organização)</p></td>
 </tr>
 <tr class="odd">
 <td><p>Discagem</p></td>
@@ -180,7 +182,7 @@ A opção 3 é mais útil se você tiver muitos domínios SIP e desejar que eles
 
 O construtor de topologias e os cmdlets do Shell de gerenciamento do Lync Server aplicam várias regras de validação para suas URLs simples. Será solicitado que você defina URLs simples para Reunir e Discar, mas para Admin será opcional. Cada domínio SIP deve ter um URL Reunir simples, mas você precisa somente de um URL Discar simples e um URL Admin simples para toda sua organização.
 
-Cada URL simples na sua organização deve ter um nome exclusivo e não pode ser um prefixo para outra URL simples (por exemplo, você não pode definir lync.contoso.com/Reunir como sua URL de Reunião simples e 0lync/contoso.com/Reunir/Discar como sua URL de Discar simples). Os nomes de URL simples não podem conter o FQDN de qualquer um dos seus pools ou qualquer informação de https://FQDN:88/meet porta (por exemplo, não é permitida). Todas as URLs simples devem começar com o prefixo https://.
+Cada URL simples na sua organização deve ter um nome exclusivo e não pode ser um prefixo para outra URL simples (por exemplo, você não pode definir lync.contoso.com/Reunir como sua URL de Reunião simples e 0lync/contoso.com/Reunir/Discar como sua URL de Discar simples). Os nomes de URL simples não podem conter o FQDN de qualquer um dos seus pools ou qualquer informação de porta (por exemplo, https://FQDN:88/meet não é permitida). Todas as URLs simples devem começar com o prefixo https://.
 
 URLs simples podem conter somente caracteres alfanuméricos (ou seja, a-z, A-Z, 0-9 e o ponto (.). Se você utilizar outros caracteres, o URL simples pode não funcionar como esperado.
 
@@ -190,7 +192,7 @@ URLs simples podem conter somente caracteres alfanuméricos (ou seja, a-z, A-Z, 
 
 ## <a name="changing-simple-urls-after-deployment"></a>Alteração de URLs simples após a implantação
 
-Se você alterar uma URL simples após a implantação inicial, esteja ciente de quais alterações impactarão nos seus registros DNS e certificados para as URLs simples. Se a alteração impactar a base de uma URL simples, você precisará alterar os registros de DNS e certificados também. Por exemplo, alterar de https://lync.contoso.com/Meet para https://meet.contoso.com altera a URL base de Lync.contoso.com para Meet.contoso.com, portanto, você precisaria alterar os registros DNS e os certificados para fazer referência ao Meet.contoso.com. Se você alterou a URL simples https://lync.contoso.com/Meet de https://lync.contoso.com/Meetingspara, a URL base do Lync.contoso.com permanecerá a mesma, portanto, não serão necessárias alterações de DNS ou de certificado.
+Se você alterar uma URL simples após a implantação inicial, esteja ciente de quais alterações impactarão nos seus registros DNS e certificados para as URLs simples. Se a alteração impactar a base de uma URL simples, você precisará alterar os registros de DNS e certificados também. Por exemplo, alterar de https://lync.contoso.com/Meet para https://meet.contoso.com altera a URL base de lync.contoso.com para Meet.contoso.com, portanto, você precisaria alterar os registros DNS e os certificados para fazer referência ao Meet.contoso.com. Se você alterou a URL simples de https://lync.contoso.com/Meet para https://lync.contoso.com/Meetings , a URL base do Lync.contoso.com permanecerá a mesma, portanto, não serão necessárias alterações de DNS ou de certificado.
 
 No entanto, sempre que você alterar um nome de URL simples, deverá executar o **Enable-CsComputer** em cada diretor e servidor front-end para registrar a alteração.
 

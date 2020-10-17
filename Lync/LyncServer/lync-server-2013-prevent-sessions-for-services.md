@@ -12,20 +12,22 @@ ms:contentKeyID: 48184866
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6b1737bddb680f597b8009c59dff9e772a7719df
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6bfb2316de9ea09db49ac22e0cf0addd0a699739
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215307"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513238"
 ---
+# <a name="prevent-sessions-for-services-in-lync-server-2013"></a>Impedir sessões para serviços no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="prevent-sessions-for-services-in-lync-server-2013"></a>Impedir sessões para serviços no Lync Server 2013
+
 
 </div>
 
@@ -47,7 +49,7 @@ Você pode usar o painel de controle do Lync Server para impedir novas sessões 
 
 2.  Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Na barra de navegação esquerda, clique em **Topologia** e em **Status**.
+3.  Na barra de navegação à esquerda, clique em **Topologia** e, em seguida, clique em **Status**.
 
 4.  Na página **Status**, classifique ou pesquise na lista conforme o necessário para encontrar o computador que está executando os serviços para os quais você deseja impedir novas sessões e clique nele.
 

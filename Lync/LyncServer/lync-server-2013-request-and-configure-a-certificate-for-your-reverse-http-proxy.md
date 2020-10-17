@@ -12,20 +12,22 @@ ms:contentKeyID: 48184085
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5db6e8ed2df53acf5c1543569778b29168d0500b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7651e3da61e5ca197d36ca59ad8216af4c0188af
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183194"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511978"
 ---
+# <a name="request-and-configure-a-certificate-for-your-reverse-http-proxy-in-lync-server-2013"></a>Solicitar e configurar um certificado para seu proxy HTTP reverso no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="request-and-configure-a-certificate-for-your-reverse-http-proxy-in-lync-server-2013"></a>Solicitar e configurar um certificado para seu proxy HTTP reverso no Lync Server 2013
+
 
 </div>
 
@@ -146,7 +148,7 @@ Você cria uma solicitação de certificado no proxy reverso. Você cria uma sol
 
 
 > [!TIP]
-> Se você planejar os certificados do servidor de borda e os certificados de proxy reverso ao mesmo tempo, observe que há uma grande semelhança entre os dois requisitos de certificado. Ao configurar e solicitar seu certificado de servidor de borda, combine o servidor de borda e os nomes alternativos de entidade de proxy reverso. Você pode usar o mesmo certificado para seu proxy reverso se exportar o certificado e a chave privada e copiar o arquivo exportado para o proxy reverso e, em seguida, importar o par de certificados/chaves e atribuí-lo conforme necessário nos próximos procedimentos. Consulte os requisitos de certificado para o plano do&nbsp;servidor<A href="lync-server-2013-plan-for-edge-server-certificates.md">de borda para certificados de servidor de borda no Lync Server 2013</A> e o resumo de certificado de proxy reverso <A href="lync-server-2013-certificate-summary-reverse-proxy.md">-proxy reverso no Lync Server 2013</A>. Certifique-se de criar o certificado com uma chave privada exportável. A criação da solicitação de certificado e certificado com uma chave privada exportável é necessária para servidores de borda em pool, portanto, esta é uma prática normal e o assistente de certificado no assistente de implantação do Lync Server para o servidor de borda permitirá que você defina o sinalizador de <STRONG>exportação de chave privada</STRONG> . Quando receber a solicitação de certificado de volta da autoridade de certificação pública, você exportará o certificado e a chave privada. Consulte a seção "para exportar o certificado com a chave privada para servidores de borda em um pool" no tópico <A href="lync-server-2013-set-up-certificates-for-the-external-edge-interface.md">configurar certificados para a interface de borda externa do Lync Server 2013</A> para obter detalhes sobre como criar e exportar o certificado com uma chave privada. A extensão do certificado deve ser do tipo <STRONG>. pfx</STRONG>.
+> Se você planejar os certificados do servidor de borda e os certificados de proxy reverso ao mesmo tempo, observe que há uma grande semelhança entre os dois requisitos de certificado. Ao configurar e solicitar seu certificado de servidor de borda, combine o servidor de borda e os nomes alternativos de entidade de proxy reverso. Você pode usar o mesmo certificado para seu proxy reverso se exportar o certificado e a chave privada e copiar o arquivo exportado para o proxy reverso e, em seguida, importar o par de certificados/chaves e atribuí-lo conforme necessário nos próximos procedimentos. Consulte os requisitos de certificado para o plano do servidor &nbsp; <A href="lync-server-2013-plan-for-edge-server-certificates.md">de borda para certificados de servidor de borda no lync Server 2013</A> e o resumo de certificado de proxy reverso <A href="lync-server-2013-certificate-summary-reverse-proxy.md">-proxy reverso no Lync Server 2013</A>. Certifique-se de criar o certificado com uma chave privada exportável. A criação da solicitação de certificado e certificado com uma chave privada exportável é necessária para servidores de borda em pool, portanto, esta é uma prática normal e o assistente de certificado no assistente de implantação do Lync Server para o servidor de borda permitirá que você defina o sinalizador de <STRONG>exportação de chave privada</STRONG> . Quando receber a solicitação de certificado de volta da autoridade de certificação pública, você exportará o certificado e a chave privada. Consulte a seção "para exportar o certificado com a chave privada para servidores de borda em um pool" no tópico <A href="lync-server-2013-set-up-certificates-for-the-external-edge-interface.md">configurar certificados para a interface de borda externa do Lync Server 2013</A> para obter detalhes sobre como criar e exportar o certificado com uma chave privada. A extensão do certificado deve ser do tipo <STRONG>. pfx</STRONG>.
 
 
 
@@ -156,7 +158,7 @@ Para gerar uma solicitação de assinatura de certificado no computador onde o c
 
 **Criar uma solicitação de assinatura de certificado**
 
-1.  Abra o console de gerenciamento Microsoft (MMC) e adicione o snap-in certificados e selecione **computadores**e, em seguida, expanda **pessoal**. Para obter detalhes sobre como criar um console de certificados no MMC (console de gerenciamento Microsoft), [https://go.microsoft.com/fwlink/?LinkId=282616](https://go.microsoft.com/fwlink/?linkid=282616)consulte.
+1.  Abra o console de gerenciamento Microsoft (MMC) e adicione o snap-in certificados e selecione **computadores**e, em seguida, expanda **pessoal**. Para obter detalhes sobre como criar um console de certificados no MMC (console de gerenciamento Microsoft), consulte [https://go.microsoft.com/fwlink/?LinkId=282616](https://go.microsoft.com/fwlink/?linkid=282616) .
 
 2.  Clique com o botão direito do mouse em **certificados**, clique em **todas as tarefas**, em **operações avançadas**, em **criar solicitação personalizada**.
 
@@ -164,7 +166,7 @@ Para gerar uma solicitação de assinatura de certificado no computador onde o c
 
 4.  Na página **selecionar política de registro de certificado** em **solicitação personalizada**, selecione **continuar sem política de registro**. Clique em **Avançar**.
 
-5.  Na página **solicitação personalizada** , em **modelo** selecionar **(sem modelo) chave herdada**. Salvo indicação em contrário pelo provedor de certificados, deixe **suprimir as extensões padrão** desmarcadas e a seleção de **formato de solicitação** no **PKCS \#10**. Clique em **Avançar**.
+5.  Na página **solicitação personalizada** , em **modelo** selecionar **(sem modelo) chave herdada**. Salvo indicação em contrário pelo provedor de certificados, deixe **suprimir as extensões padrão** desmarcadas e a seleção de **formato de solicitação** no **PKCS \# 10**. Clique em **Avançar**.
 
 6.  Na página **informações do certificado** , clique em **detalhes**e, em seguida, clique em **Propriedades**.
 
@@ -180,7 +182,7 @@ Para gerar uma solicitação de assinatura de certificado no computador onde o c
 
 12. Clique na seta **uso estendido da chave (políticas de aplicativo)** para mostrar as **opções disponíveis**. Em opções disponíveis, clique em **autenticação do servidor**e, em seguida, clique em **Adicionar**. Clique em **autenticação do cliente**e, em seguida, clique em **Adicionar**. Se a caixa de seleção para **tornar crítico os usos estendidos de chave** for marcada, desmarque a caixa de seleção. Ao contrário da caixa de seleção uso da chave (que deve ser marcada), você deve ter certeza de que a caixa de seleção uso estendido de chave não está marcada.
 
-13. Na página de **Propriedades do certificado** , clique na guia **chave privada** . Clique na seta **Opções de teclas** . Em **tamanho da chave**, selecione **2048** na lista suspensa. Se você estiver gerando esse par de chaves e o CSR em um computador diferente do proxy reverso para o qual esse certificado se destina, selecione **tornar a chave privada exportável**.
+13. Na página de **Propriedades do certificado** , clique na guia **chave privada** . Clique na seta **Opções de chave** . Em **tamanho da chave**, selecione **2048** na lista suspensa. Se você estiver gerando esse par de chaves e o CSR em um computador diferente do proxy reverso para o qual esse certificado se destina, selecione **tornar a chave privada exportável**.
     
     <div>
     

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184688
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bf8c36fee84880e5236c5048da35dca38a476eab
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c9f4186a351876b874a8b84963f9923369511f65
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42182984"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511818"
 ---
+# <a name="requirements-to-publish-a-topology-in-lync-server-2013"></a>Requisitos para publicar uma topologia no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="requirements-to-publish-a-topology-in-lync-server-2013"></a>Requisitos para publicar uma topologia no Lync Server 2013
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**Última modificação do tópico:** 2013-02-21_
 
 Este tópico descreve os requisitos de infraestrutura e software específicos à publicação de uma topologia, seja usando o construtor de topologias ou a interface de linha de comando do Shell de gerenciamento do Lync Server 2013. Esses requisitos são além dos requisitos gerais de sistema operacional, software e permissões aplicáveis a todas as ferramentas administrativas do Lync Server 2013. Certifique-se de atender a todos os requisitos de ferramentas administrativas antes de publicar uma topologia.
 
-  - Você deve executar o construtor de topologias em um computador que ingressou no mesmo domínio ou floresta da implantação do Lync Server 2013 que você está criando para que as etapas de preparação dos serviços de domínio Active Directory já tenham sido concluídas, permitindo que você use as ferramentas administrativas em esse computador para publicar sua topologia com êxito.
+  - Você deve executar o construtor de topologias em um computador que ingressou no mesmo domínio ou floresta da implantação do Lync Server 2013 que você está criando para que as etapas de preparação dos serviços de domínio Active Directory já tenham sido concluídas, permitindo que você use as ferramentas administrativas desse computador para publicar com êxito sua topologia.
 
   - Os computadores definidos na topologia devem ingressar no domínio e no AD DS, exceto os Servidores de Borda. No entanto, os computadores não precisam estar online quando você publica a topologia.
 

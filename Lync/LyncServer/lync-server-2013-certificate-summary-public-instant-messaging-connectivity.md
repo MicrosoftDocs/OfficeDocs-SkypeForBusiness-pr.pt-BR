@@ -12,20 +12,22 @@ ms:contentKeyID: 49105657
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3cacf411f348199376e1564be37f683854480872
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: bdc4bba8064332d7fa3f90d0d6a3d4b9f6cef9e6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187404"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512778"
 ---
+# <a name="certificate-summary---public-instant-messaging-connectivity-in-lync-server-2013"></a>Resumo de certificado-conectividade de mensagens instantâneas públicas no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="certificate-summary---public-instant-messaging-connectivity-in-lync-server-2013"></a>Resumo de certificado-conectividade de mensagens instantâneas públicas no Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42187404"
 
 _**Última modificação do tópico:** 2013-02-19_
 
-Para configurar certificados para conectividade de mensagens instantâneas públicas, você deve primeiro observar que não há nada diferente de outros tipos de Federação SIP ou mesmo de certificados de servidor de borda padrão, exceto que America Online (AOL) requer um único configuração de certificado. Além do uso avançado de chave (EKU) do servidor usual, a America Online requer que o certificado ou certificados (no caso de um pool de borda) também contenham o EKU do cliente. O EKU do cliente é uma adição ao certificado e faz parte do certificado público externo atribuído ao servidor de borda.
+Para configurar certificados para conectividade de mensagens instantâneas públicas, você deve primeiro observar que não há nada diferente de outros tipos de Federação SIP ou mesmo de certificados de servidor de borda padrão, exceto que America Online (AOL) requer uma configuração de certificado exclusiva. Além do uso avançado de chave (EKU) do servidor usual, a America Online requer que o certificado ou certificados (no caso de um pool de borda) também contenham o EKU do cliente. O EKU do cliente é uma adição ao certificado e faz parte do certificado público externo atribuído ao servidor de borda.
 
 <div>
 
@@ -56,7 +58,7 @@ Para configurar certificados para conectividade de mensagens instantâneas públ
 <th>Componente</th>
 <th>Nome da entidade</th>
 <th>Nomes alternativos de entidade (SAN)/Ordem</th>
-<th>Comentários</th>
+<th>Comments</th>
 </tr>
 </thead>
 <tbody>

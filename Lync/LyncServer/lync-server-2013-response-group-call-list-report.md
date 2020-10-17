@@ -12,20 +12,22 @@ ms:contentKeyID: 48184954
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9e02c5493f8582d401ea02df3f94cd2df57e0093
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: abb3a1b13bf7357a0a2ee31180557911fc37ae0e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214887"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511758"
 ---
+# <a name="response-group-call-list-report-in-lync-server-2013"></a>Relatório de lista de chamadas de grupo de resposta no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="response-group-call-list-report-in-lync-server-2013"></a>Relatório de lista de chamadas de grupo de resposta no Lync Server 2013
+
 
 </div>
 
@@ -87,7 +89,7 @@ uma pergunta como esta: "Qual é o fluxo de trabalho individual que recebeu a ma
 
 3.  Execute suas análises usando o Windows PowerShell.
 
-Por exemplo, se você salvou os dados em um arquivo denominado C\\: relatório de\\lista\_\_\_de chamadas\_de grupo de resposta de dados. csv, você pode usar o seguinte comando para retornar o número total de chamadas recebidas para cada fluxo de trabalho listado no relatório:
+Por exemplo, se você salvou os dados em um arquivo denominado C: \\ lista de \\ chamadas de grupo de resposta de dados \_ \_ \_ \_Report.csv, poderá usar o seguinte comando para retornar o número total de chamadas recebidas para cada fluxo de trabalho listado no relatório:
 
     $calls = Import-Csv -Path "C:\ Data\Response_Group_Call_List_Report.csv"
     $calls | Group-Object Workflow | Select-Object Count, Name | Sort-Object Count -Descending
@@ -168,7 +170,7 @@ Filtros fornecem uma forma de retornar um conjunto de dados mais focado ou exibi
 
 <div>
 
-## <a name="metrics"></a>Métricas
+## <a name="metrics"></a>Métrica
 
 A tabela a seguir lista as informações fornecidas no Relatório de Lisa de Chamadas de Grupo de Resposta para cada chamada recebida pelo aplicativo do Grupo de Resposta.
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 63969601
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 353e0941f443e2cb971f8ebd037413232e21b827
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 69caa96c6f0e49d472f13da11b34f7d199322184
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183422"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512178"
 ---
+# <a name="qoe-reports-in-lync-server-2013"></a>Relatórios de QoE no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="qoe-reports-in-lync-server-2013"></a>Relatórios de QoE no Lync Server 2013
+
 
 </div>
 
@@ -129,7 +131,7 @@ Para cada servidor de conferência A/V, o relatório exibe o seguinte:
 
 ## <a name="location-based-performance-report"></a>Relatório de desempenho baseado em local
 
-O relatório de desempenho baseado em local fornece uma lista de locais de rede e para cada local mostra o número de chamadas em cada intervalo de qualidade predefinido. O objetivo deste relatório é fornecer informações sobre a qualidade da mídia do grande volume de chamadas telefônicas da sua organização para vários locais, para que você possa identificar locais com desempenho ruim e ver as diferentes notas de qualidade de mídia na sua organização locais diferentes.
+O Location-Based relatório de desempenho fornece uma lista de locais de rede e para cada local mostra o número de chamadas em cada intervalo de qualidade predeterminado. O objetivo deste relatório é fornecer informações sobre a qualidade da mídia do grande volume de chamadas telefônicas da sua organização para vários locais, para que você possa identificar locais com desempenho ruim e ver as diferentes pontuações de qualidade de mídia nos diferentes locais da sua organização.
 
 Ao exibir o relatório, diferentes tabelas de métricas aparecem — uma tabela para cada métrica que sua organização decide relatar. Você pode escolher entre as seguintes métricas para este relatório:
 
@@ -147,7 +149,7 @@ Ao exibir o relatório, diferentes tabelas de métricas aparecem — uma tabela 
 
   - Torção
 
-  - Latênci
+  - Latência
 
 </div>
 

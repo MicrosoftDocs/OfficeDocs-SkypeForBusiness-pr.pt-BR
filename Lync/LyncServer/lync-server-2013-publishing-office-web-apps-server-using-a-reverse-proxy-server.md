@@ -12,20 +12,22 @@ ms:contentKeyID: 48183384
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e9a2bc53d306b51bd6aa681ccb4aa6747f38eac7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: cb200204cc96d40d66d0546c86687fb0e1c48de5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201678"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512228"
 ---
+# <a name="publishing-office-web-apps-server-in-lync-server-2013-using-a-reverse-proxy-server"></a>Publicar o servidor do Office Web Apps no Lync Server 2013 usando um servidor de proxy reverso
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="publishing-office-web-apps-server-in-lync-server-2013-using-a-reverse-proxy-server"></a>Publicar o servidor do Office Web Apps no Lync Server 2013 usando um servidor de proxy reverso
+
 
 </div>
 
@@ -55,9 +57,9 @@ Para configurar uma regra de publicação de site no Forefront Threat Management
 
 7.  Na página **Detalhes de Publicação Interna**, digite o FQDN de seu servidor Office Web Apps (por exemplo, **officewebapps01.contoso.com**) na caixa **Nome de site interno** e clique em **Avançar**. O nome digitado na caixa **Nome do site interno** precisa aparecer no campo Assunto ou no campo Nome Alternativo da Entidade do certificado atribuído ao Office Web Apps Server.
 
-8.  Na página **detalhes de publicação interna** , digite ** / ** na caixa **caminho (opcional)** e clique em **Avançar**. A sintaxe\* /ajudará a garantir que todas as pastas e subpastas do site sejam publicadas.
+8.  Na página **detalhes de publicação interna** , digite **/\*** na caixa **caminho (opcional)** e clique em **Avançar**. A \* sintaxe/ajudará a garantir que todas as pastas e subpastas do site sejam publicadas.
 
-9.  Na página **Detalhes do Nome Público**, selecione **Este nome de domínio (digite abaixo)** na lista suspensa **Aceitar solicitações para** e digite o nome de domínio totalmente qualificado de seu Office Web Apps Server na caixa Nome público. Esse nome deve ser o nome usado para acessar seu site. Por exemplo, se o seu site é acessado http://officewebapps01.contoso.com usando a URL, você deve inserir **officewebapps01.contoso.com** na caixa **nome público** .
+9.  Na página **Detalhes do Nome Público**, selecione **Este nome de domínio (digite abaixo)** na lista suspensa **Aceitar solicitações para** e digite o nome de domínio totalmente qualificado de seu Office Web Apps Server na caixa Nome público. Esse nome deve ser o nome usado para acessar seu site. Por exemplo, se o seu site é acessado usando a URL http://officewebapps01.contoso.com , você deve inserir **officewebapps01.contoso.com** na caixa **nome público** .
 
 10. Clique em **Avançar**.
 

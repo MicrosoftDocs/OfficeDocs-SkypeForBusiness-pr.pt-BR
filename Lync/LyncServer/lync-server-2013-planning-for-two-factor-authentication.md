@@ -12,20 +12,22 @@ ms:contentKeyID: 54973683
 ms.date: 04/06/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0738cb282ad2f1f375e89526fcdd1569a6707ad0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1932164cd1236257bbb81d1503b0310c8c55526e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208870"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513448"
 ---
+# <a name="planning-for-two-factor-authentication-in-lync-server-2013"></a>Planejando a autenticação de dois fatores no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-two-factor-authentication-in-lync-server-2013"></a>Planejando a autenticação de dois fatores no Lync Server 2013
+
 
 </div>
 
@@ -73,7 +75,7 @@ As atualizações cumulativas do Lync 2013 para o Lync Server 2013:2013 julho de
 <tr class="odd">
 <td><p>Serviço Web</p></td>
 <td><p>WebServer</p></td>
-<td><p>Be</p></td>
+<td><p>Diretor</p></td>
 <td><p>Kerberos, NTLM e certificado</p></td>
 </tr>
 <tr class="even">
@@ -106,7 +108,7 @@ A menos que esses tipos de autenticação sejam desabilitados no nível de servi
 
 ## <a name="lync-service-discovery"></a>Descoberta de serviço do Lync
 
-Os registros DNS usados por clientes internos e/ou externos para descobrir os serviços do Lync devem ser configurados para resolver para um Lync Server que não está habilitado para a autenticação de dois fatores. Com essa configuração, os usuários dos pools do Lync que não estão habilitados para a autenticação de dois fatores não serão solicitados a inserir um PIN para autenticar, enquanto os usuários dos pools do Lync habilitados para a autenticação de dois fatores serão solicitados a inserir seu PIN para fornecer.
+Os registros DNS usados por clientes internos e/ou externos para descobrir os serviços do Lync devem ser configurados para resolver para um Lync Server que não está habilitado para a autenticação de dois fatores. Com essa configuração, os usuários dos pools do Lync que não estão habilitados para a autenticação de dois fatores não serão solicitados a inserir um PIN para autenticar, enquanto os usuários dos pools do Lync habilitados para a autenticação de dois fatores serão solicitados a inserir seu PIN para autenticar.
 
 </div>
 
@@ -146,7 +148,7 @@ Há várias considerações de implantação envolvendo as credenciais salvas do
 
 ## <a name="deleting-saved-credentials"></a>Excluir credenciais salvas
 
-Os usuários do cliente da área de trabalho devem usar a opção **excluir minhas informações de entrada** no cliente do Lync e excluir a pasta de perfil\\SIP\\de\\%\\LocalAppData% Microsoft Office 15,0 Lync antes de tentar assinar pela primeira vez usando a autenticação de dois fatores.
+Os usuários do cliente da área de trabalho devem usar a opção **excluir minhas informações de entrada** no cliente do Lync e excluir a pasta de perfil SIP de% LocalAppData% \\ Microsoft \\ Office \\ 15,0 \\ Lync antes de tentar assinar pela primeira vez usando a autenticação de dois fatores.
 
 </div>
 
@@ -160,9 +162,9 @@ Se os usuários forem solicitados involuntariamente por credenciais antes de ser
 
 Para impedir o prompt adicional para credenciais, crie a seguinte entrada de registro na estação de trabalho local ou use o modelo administrativo do Lync para aplicar a todos os usuários de um determinado pool usando a política de Grupo:
 
-HKEY\_local\_Machine\\software\\\\Policies\\Microsoft\\Office\\15,0 Lync
+HKEY \_ local \_ Machine \\ software \\ policies \\ Microsoft \\ Office \\ 15,0 \\ Lync
 
-REG\_DWORD: DisableNTCredentials
+REG \_ DWORD: DisableNTCredentials
 
 Valor: 0x0
 
@@ -176,9 +178,9 @@ Quando um usuário entra no Lync pela primeira vez, o usuário é solicitado a s
 
 A configuração do registro **SavePassword** deve ser desabilitada quando o Lync estiver configurado para oferecer suporte à autenticação de dois fatores. Para impedir que os usuários salvem suas senhas, altere a entrada de registro a seguir na estação de trabalho local ou use o modelo administrativo do Lync para aplicar a todos os usuários de um determinado pool usando a política de Grupo:
 
-HKEY\_Current\_USER\\software\\Microsoft\\Office\\15,0\\Lync
+HKEY \_ Current \_ user \\ Software \\ Microsoft \\ Office \\ 15,0 \\ Lync
 
-REG\_DWORD: SavePassword
+REG \_ DWORD: SavePassword
 
 Valor: 0x0
 
@@ -190,9 +192,9 @@ Valor: 0x0
 
 ## <a name="ad-fs-20-token-replay"></a>Repetição de token do AD FS 2,0
 
-O AD FS 2,0 fornece um recurso referido como detecção de repetição de token, pelo qual várias solicitações de token que usam o mesmo token podem ser detectadas e descartadas. Quando esse recurso está habilitado, a detecção de repetição de token protege a integridade das solicitações de autenticação no perfil passivo do WS-Federation e no perfil de webs do SAML, garantindo que o mesmo token nunca seja usado mais de uma vez.
+O AD FS 2,0 fornece um recurso referido como detecção de repetição de token, pelo qual várias solicitações de token que usam o mesmo token podem ser detectadas e descartadas. Quando esse recurso está habilitado, a detecção de repetição de token protege a integridade das solicitações de autenticação nos WS-Federation perfil passivo e do SAML Webs, assegurando que o mesmo token nunca seja usado mais de uma vez.
 
-Esse recurso deve ser habilitado em situações em que a segurança é uma preocupação muito alta, como ao usar quiosques. Para obter mais informações sobre a detecção de repetição de token, consulte práticas recomendadas para o planejamento e a implantação [https://go.microsoft.com/fwlink/p/?LinkId=309215](https://go.microsoft.com/fwlink/p/?linkid=309215)seguros do AD FS 2,0 em.
+Esse recurso deve ser habilitado em situações em que a segurança é uma preocupação muito alta, como ao usar quiosques. Para obter mais informações sobre a detecção de repetição de token, consulte práticas recomendadas para o planejamento e a implantação seguros do AD FS 2,0 em [https://go.microsoft.com/fwlink/p/?LinkId=309215](https://go.microsoft.com/fwlink/p/?linkid=309215) .
 
 </div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48183918
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4148cd97ec118a223e7e8b1b1e8c3825f51dbad6
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 7f213b584d62a9a40810de2a05676b6d0737258e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44219731"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513458"
 ---
+# <a name="planning-for-sip-xmpp-federation-and-public-instant-messaging-in-lync-server-2013"></a>Planejamento para SIP, Federação XMPP e mensagens instantâneas públicas no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-sip-xmpp-federation-and-public-instant-messaging-in-lync-server-2013"></a>Planejamento para SIP, Federação XMPP e mensagens instantâneas públicas no Lync Server 2013
+
 
 </div>
 
@@ -109,7 +111,7 @@ Habilitar a Federação entre o Microsoft Lync Server 2013, Lync Server 2010 e O
         
 
         > [!IMPORTANT]
-        > Se você estiver oferecendo suporte aos clientes do Microsoft Lync Mobile no Windows Phone ou no iPhone, iPad ou em outros dispositivos Apple e estiver usando o serviço de notificação por Push ou o serviço de notificação por push, você deve planejar _sipfederationtls. _tcp. &lt;&gt;Registros SRV de domínio SIP para cada domínio SIP que você tenha clientes móveis do Lync. Android e Nokia Symbian Lync Mobile não usam a notificação por push e não estão sujeitos a esse requisito.
+        > Se você estiver oferecendo suporte aos clientes do Microsoft Lync Mobile no Windows Phone ou no iPhone, iPad ou em outros dispositivos da Apple e estiver usando o serviço de notificação por Push ou o serviço de notificação por push, deverá planejar _sipfederationtls. _ TCP. &lt;&gt;Registros SRV de domínio SIP para cada domínio SIP que você tenha clientes móveis do Lync. Android e Nokia Symbian Lync Mobile não usam a notificação por push e não estão sujeitos a esse requisito.
 
         
         </div>

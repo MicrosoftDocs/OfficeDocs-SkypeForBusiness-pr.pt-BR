@@ -12,20 +12,22 @@ ms:contentKeyID: 48185959
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 90b93d43637585f164f2f9d79d48bb7839a6dc56
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 324798f36a92a81a1f210a173cf9e3e0efa00aca
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202077"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513568"
 ---
+# <a name="planning-for-enterprise-voice-in-lync-server-2013"></a>Planejamento para o Enterprise Voice no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-enterprise-voice-in-lync-server-2013"></a>Planejamento para o Enterprise Voice no Lync Server 2013
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**Última modificação do tópico:** 2013-11-01_
 
 O processo de implantação do Enterprise Voice depende da topologia existente, da infraestrutura e da funcionalidade do Enterprise Voice que você deseja suportar. Os procedimentos necessários dependem dos recursos que você escolher, mas há outras considerações de planejamento a fazer em um nível elevado.
 
-Em geral, considere o tipo e o número de sites que você deseja implantar e seus locais geográficos, o volume de chamadas em cada site, os tipos de links de rede que conectam sites, se você deseja fornecer redundância e failover para funcionalidade de voz para cada e se você deseja usar o equipamento PBX existente. Há determinadas considerações, como a alta disponibilidade, que você deve considerar ao planejar o software de comunicações do Lync Server como um todo. Essas considerações são discutidas nos tópicos desta seção, conforme necessário.
+Em geral, considere o tipo e o número de sites que você deseja implantar e seus locais geográficos, o volume de chamadas em cada site, os tipos de links de rede que conectam sites, se você deseja fornecer redundância e failover para a funcionalidade de voz para cada site e se deseja usar o equipamento PBX existente. Há determinadas considerações, como a alta disponibilidade, que você deve considerar ao planejar o software de comunicações do Lync Server como um todo. Essas considerações são discutidas nos tópicos desta seção, conforme necessário.
 
 <div>
 
@@ -67,7 +69,7 @@ Para decisões de planejamento que pertencem à implantação de um determinado 
 
   - [Planejamento de linhas telefônicas privadas com o Lync Server 2013](lync-server-2013-planning-for-private-telephone-lines.md)
 
-  - [Planejamento de roteamento baseado em local no Lync Server 2013](lync-server-2013-planning-for-location-based-routing.md)
+  - [Planejamento de roteamento de Location-Based no Lync Server 2013](lync-server-2013-planning-for-location-based-routing.md)
 
   - [Planejamento para resiliência do Enterprise Voice no Lync Server 2013](lync-server-2013-planning-for-enterprise-voice-resiliency.md)
 

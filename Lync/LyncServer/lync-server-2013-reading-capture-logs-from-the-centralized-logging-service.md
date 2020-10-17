@@ -12,20 +12,22 @@ ms:contentKeyID: 49733813
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0807552784b69b58accfd026031af55d41c91f33
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1058f48ede85067ac0aeefc3c8dab329bf042ef8
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201527"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512028"
 ---
+# <a name="reading-capture-logs-from-the-centralized-logging-service-in-lync-server-2013"></a>Ler logs de captura do serviço de registro em log centralizado no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="reading-capture-logs-from-the-centralized-logging-service-in-lync-server-2013"></a>Ler logs de captura do serviço de registro em log centralizado no Lync Server 2013
+
 
 </div>
 
@@ -37,13 +39,13 @@ ms.locfileid: "42201527"
 
 _**Última modificação do tópico:** 2016-12-28_
 
-Você percebe o real benefício do serviço de registro em log centralizado após a execução da pesquisa e tem um arquivo que pode ser usado para rastrear um problema relatado. Existe um número de formas que você pode ler o arquivo. O arquivo de resultado está em um formato de texto padrão e você pode usar Notepad.exe ou qualquer outro programa que permitirá abrir e ler um arquivo de texto. Para arquivos maiores e problemas mais complexos, você poderia usar uma ferramenta como o Snooper. exe, projetado para ler e analisar a saída de log do serviço de registro em log centralizado. O Snooper é incluído com as Ferramentas de Depuração do Lync Server 2013 disponíveis como um download separado. Você pode baixar as ferramentas de depuração do Lync Server 2013 [https://go.microsoft.com/fwlink/?LinkId=285257](https://go.microsoft.com/fwlink/?linkid=285257)aqui:. Quando você instala as ferramentas de depuração do Lync Server 2013, atalhos curtos e itens de menu não são criados. Após a instalação das ferramentas de depuração do Lync Server 2013, abra o Windows Explorer, uma janela de linha de comando ou o Shell de gerenciamento do Lync Server e vá para o diretório\\(local\\padrão) C:\\arquivos de programa Microsoft Lync Server 2013 ferramentas de depuração. Clique duas vezes em Snooper. exe ou digite Snooper. exe e pressione ENTER se estiver usando a linha de comando ou o Shell de gerenciamento do Lync Server.
+Você percebe o real benefício do serviço de registro em log centralizado após a execução da pesquisa e tem um arquivo que pode ser usado para rastrear um problema relatado. Existe um número de formas que você pode ler o arquivo. O arquivo de resultado está em um formato de texto padrão e você pode usar Notepad.exe ou qualquer outro programa que permitirá abrir e ler um arquivo de texto. Para arquivos maiores e problemas mais complexos, você pode usar uma ferramenta como Snooper.exe projetada para ler e analisar a saída de log do serviço de registro em log centralizado. O Snooper é incluído com as Ferramentas de Depuração do Lync Server 2013 disponíveis como um download separado. Você pode baixar as ferramentas de depuração do Lync Server 2013 aqui: [https://go.microsoft.com/fwlink/?LinkId=285257](https://go.microsoft.com/fwlink/?linkid=285257) . Quando você instala as ferramentas de depuração do Lync Server 2013, atalhos curtos e itens de menu não são criados. Após a instalação das ferramentas de depuração do Lync Server 2013, abra o Windows Explorer, uma janela de linha de comando ou o Shell de gerenciamento do Lync Server e vá para o diretório (local padrão) C: \\ arquivos de programa \\ Microsoft Lync Server 2013 \\ ferramentas de depuração. Clique duas vezes em Snooper.exe ou digite Snooper.exe e pressione ENTER se estiver usando a linha de comando ou o Shell de gerenciamento do Lync Server.
 
 <div>
 
 
 > [!IMPORTANT]  
-> A intenção deste tópico não é detalhar e discutir técnicas de resolução de problemas. A resolução de problemas e os processos relacionados é um assunto complexo. Para obter detalhes sobre como solucionar problemas básicos e solucionar problemas de cargas de trabalho específicas, consulte o Microsoft Lync <A href="https://go.microsoft.com/fwlink/p/?linkid=211003">https://go.microsoft.com/fwlink/p/?linkId=211003</A>Server 2010 Resource Kit Book em. Os processos e procedimentos ainda se aplicam ao Lync Server 2013.
+> A intenção deste tópico não é detalhar e discutir técnicas de resolução de problemas. A resolução de problemas e os processos relacionados é um assunto complexo. Para obter detalhes sobre como solucionar problemas básicos e solucionar problemas de cargas de trabalho específicas, consulte o Microsoft Lync Server 2010 Resource Kit Book em <A href="https://go.microsoft.com/fwlink/p/?linkid=211003">https://go.microsoft.com/fwlink/p/?linkId=211003</A> . Os processos e procedimentos ainda se aplicam ao Lync Server 2013.
 
 
 
@@ -75,7 +77,7 @@ E, o novo recurso que adiciona valor é a exibição do Fluxograma (fluxo de cha
 
 1.  Para usar o Snooper e abrir arquivos de log, você precisará de acesso de leitura aos arquivos de log. Para usar o Snooper e acessar os arquivos de log, você deve ser membro dos grupos de segurança RBAC CsAdministrator ou CsServerAdministrator ou uma função RBAC personalizada que contém um destes dois grupos.
 
-2.  Após a instalação das ferramentas de depuração do Lync Server (LyncDebugTools. msi), altere o diretório para o local de Snooper. exe usando o Windows Explorer ou a partir da linha de comando. Por padrão, as ferramentas de depuração estão localizadas em\\C:\\arquivos de programa ferramentas\\de depuração do Microsoft Lync Server 2013. Clique duas vezes ou execute Snooper.exe.
+2.  Após a instalação das ferramentas de depuração do Lync Server (LyncDebugTools.msi), altere o diretório para o local de Snooper.exe usando o Windows Explorer ou a linha de comando. Por padrão, as ferramentas de depuração estão localizadas em C: \\ arquivos de programa \\ ferramentas de depuração do Microsoft Lync Server 2013 \\ . Clique duas vezes ou execute Snooper.exe.
 
 3.  Após o Snooper estar aberto, clique com o botão direito em **Arquivo**, clique em **Abrir arquivo**, encontre seus arquivos de log, selecione um arquivo na caixa de diálogo **Abrir** e clique em **Abrir**.
 

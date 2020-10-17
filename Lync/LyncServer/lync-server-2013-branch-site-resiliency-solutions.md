@@ -12,20 +12,22 @@ ms:contentKeyID: 48183517
 ms.date: 12/11/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 42ede6730357f50967f13089e02e32ad1a21d8ce
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 25541f7681ece7b299d6e4c8076fb190382650ba
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196574"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512978"
 ---
+# <a name="branch-site-resiliency-solutions-in-lync-server-2013"></a>Soluções de resiliência de site de filial no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="branch-site-resiliency-solutions-in-lync-server-2013"></a>Soluções de resiliência de site de filial no Lync Server 2013
+
 
 </div>
 
@@ -61,14 +63,14 @@ Se decidir fornecer a resiliência do site de filial, você tem três opções. 
 <td><p>Hospede entre 25 e 1.000 usuários no seu site de filial se o retorno sobre o investimento não suportar uma implantação completa ou em um local em que o suporte administrativo não estiver disponível</p></td>
 <td><p>Aplicativo de Filial Persistente</p>
 <p>O aparelho de filial persistente é um servidor de lâmina padrão da indústria com um registrador de servidor do Lync e servidor de mediação executando no Windows Server 2008 R2. O aparelho de filial persistente também contém um gateway PSTN (rede telefônica pública comutada). Dispositivos qualificados de terceiros (desenvolvidos pelos parceiros da Microsoft no programa de qualificação/certificação SBA [aparelho de filial persistente]) fornece uma conexão PSTN contínua caso uma WAN falhe, mas essa abordagem não fornece a presença e a conferência resilientes porque esses recursos dependem do servidores Front-End no site central.</p>
-<p>Para obter detalhes sobre aparelhos de filial persistente, &quot;consulte detalhes do aparelho de filial&quot; persistente, posteriormente neste tópico.</p>
+<p>Para obter detalhes sobre aparelhos de filial persistente, consulte &quot; detalhes do aparelho de filial persistente, &quot; posteriormente neste tópico.</p>
 <p><strong>Observação:</strong> Se você optar por usar também um tronco SIP com seu aparelho de filial persistente, entre em contato com seu fornecedor de aparelho de filial persistente para saber mais sobre qual provedor de serviços é melhor para sua organização.</p></td>
 </tr>
 <tr class="even">
 <td><p>Host entre 1000 e 2000 usuários no seu site de filial, não tem uma conexão WAN resiliente e tenha administradores treinados do Lync Server disponíveis</p></td>
 <td><p>Servidor de filial persistente ou dois aparelhos de filial persistente.</p>
 <p>O servidor de filial persistente é uma reunião do Windows Server, requisitos de hardware específicos que tem o software de servidor de mediação e registrador do Lync Server instalado. Ele deve ser conectado a um gateway PSTN ou a um tronco SIP a um provedor de serviço telefônico.</p>
-<p>Para obter detalhes sobre servidores de filial persistente, &quot;consulte detalhes do servidor de filial&quot; persistente, posteriormente neste tópico.</p></td>
+<p>Para obter detalhes sobre servidores de filial persistente, consulte &quot; detalhes do servidor de filial persistente, &quot; posteriormente neste tópico.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Se você precisar de recursos de presença e conferência, além de recursos de voz para até 5000 usuários, e tiver administradores treinados do Lync Server disponíveis</p></td>
@@ -108,7 +110,7 @@ O aparelho de filial persistente do Lync Server inclui os seguintes componentes:
 
 O aparelho de filial persistente também inclui troncos PSTN, portas analógicas e um adaptador Ethernet.
 
-Se a conexão WAN do site de filial com um site central ficar indisponível, os usuários da ramificação interna continuarão a ser registrados com o registrador de aparelho de filial persistente e obter serviço de voz sem interrupção usando a conexão de aparelho de filial persistente à PSTN. Os usuários do site de filial que se conectam de casa ou de outro locais remotos serão capazes de se registrar com um servidor Registrador em um site central quando um link de WAN ao site de filial estiver indisponível. Esses usuários terão a funcionalidade de comunicações completamente unificadas com única exceção de que as chamadas de entrada ao site de filial irão para a caixa postal. Quando a conexão WAN voltar a ficar disponível, a funcionalidade total deve ser restabelecida aos usuários do site de filial. Nem o failover para o aparelho de filial persistente nem a restauração do serviço requer a presença de um administrador de ti.
+Se a conexão WAN do site de filial com um site central ficar indisponível, os usuários da filial interna continuarão a ser registrados com o registrador de dispositivos de filial persistente e obterão o serviço de voz sem interrupção usando a conexão de aparelho de filial persistente para o PSTN. Os usuários do site de filial que se conectam de casa ou de outro locais remotos serão capazes de se registrar com um servidor Registrador em um site central quando um link de WAN ao site de filial estiver indisponível. Esses usuários terão a funcionalidade de comunicações completamente unificadas com única exceção de que as chamadas de entrada ao site de filial irão para a caixa postal. Quando a conexão WAN voltar a ficar disponível, a funcionalidade total deve ser restabelecida aos usuários do site de filial. Nem o failover para o aparelho de filial persistente nem a restauração do serviço requer a presença de um administrador de ti.
 
 O Lync Server oferece suporte para até dois dispositivos de filial persistente em um site de filial.
 

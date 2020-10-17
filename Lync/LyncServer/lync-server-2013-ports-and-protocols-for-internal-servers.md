@@ -12,20 +12,22 @@ ms:contentKeyID: 48185402
 ms.date: 04/06/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 42f40265cf7b8fff7fd6cbf3d4f67a2fb9f558fa
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 858ec90cf3811318cc29a902b56ac8ff31c46a22
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208781"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513398"
 ---
+# <a name="ports-and-protocols-for-internal-servers-in-lync-server-2013"></a>Portas e protocolos para servidores internos no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="ports-and-protocols-for-internal-servers-in-lync-server-2013"></a>Portas e protocolos para servidores internos no Lync Server 2013
+
 
 </div>
 
@@ -96,21 +98,21 @@ A tabela a seguir lista as portas que precisam ser abertas em cada função de s
 </tr>
 <tr class="even">
 <td><p>Servidores Front-End</p></td>
-<td><p>Serviço front-end do Lync Server</p></td>
+<td><p>Serviço de Front-End do Lync Server</p></td>
 <td><p>5060</p></td>
 <td><p>TCP</p></td>
 <td><p>Usada como opção pelos servidores Standard Edition e Servidores Front-End para rotas estáticas para serviços confiáveis, como servidores de controle de chamada remota.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Servidores Front-End</p></td>
-<td><p>Serviço front-end do Lync Server</p></td>
+<td><p>Serviço de Front-End do Lync Server</p></td>
 <td><p>5061</p></td>
 <td><p>TCP (TLS)</p></td>
 <td><p>Usada pelos servidores Standard Edition e pools Front-End para todas as comunicações SIP internas entre servidores (MTLS), para comunicações SIP entre o Servidor e o Cliente (TLS) e para comunicações SIP entre os Servidores Front-End e os Servidores de Mediação (MTLS). Também é usada para comunicações com o Monitoring Server.</p></td>
 </tr>
 <tr class="even">
 <td><p>Servidores Front-End</p></td>
-<td><p>Serviço front-end do Lync Server</p></td>
+<td><p>Serviço de Front-End do Lync Server</p></td>
 <td><p>444</p></td>
 <td><p>HTTPS</p>
 <p>TCP</p></td>
@@ -119,7 +121,7 @@ A tabela a seguir lista as portas que precisam ser abertas em cada função de s
 </tr>
 <tr class="odd">
 <td><p>Servidores Front-End</p></td>
-<td><p>Serviço front-end do Lync Server</p></td>
+<td><p>Serviço de Front-End do Lync Server</p></td>
 <td><p>135</p></td>
 <td><p>DCOM e RPC (controle de procedimento remoto)</p></td>
 <td><p>Usada para operações com base em DCOM, como Movendo Usuários, Sincronização do Replicador do Usuário e Sincronização do Catálogo de Endereços.</p></td>
@@ -371,14 +373,14 @@ A tabela a seguir lista as portas que precisam ser abertas em cada função de s
 </tr>
 <tr class="odd">
 <td><p>Director</p></td>
-<td><p>Serviço front-end do Lync Server</p></td>
+<td><p>Serviço de Front-End do Lync Server</p></td>
 <td><p>5060</p></td>
 <td><p>TCP</p></td>
 <td><p>Usada como opção para rotas estáticas até os serviços confiáveis, como servidores de controle de chamada remota.</p></td>
 </tr>
 <tr class="even">
 <td><p>Director</p></td>
-<td><p>Serviço front-end do Lync Server</p></td>
+<td><p>Serviço de Front-End do Lync Server</p></td>
 <td><p>444</p></td>
 <td><p>HTTPS</p>
 <p>TCP</p></td>
@@ -400,7 +402,7 @@ A tabela a seguir lista as portas que precisam ser abertas em cada função de s
 </tr>
 <tr class="odd">
 <td><p>Director</p></td>
-<td><p>Serviço front-end do Lync Server</p></td>
+<td><p>Serviço de Front-End do Lync Server</p></td>
 <td><p>5061</p></td>
 <td><p>TCP</p></td>
 <td><p>Usada para comunicações internas entre os servidores e para conexões do cliente.</p></td>

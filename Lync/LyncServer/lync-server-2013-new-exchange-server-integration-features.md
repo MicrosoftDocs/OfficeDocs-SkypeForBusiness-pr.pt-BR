@@ -12,20 +12,22 @@ ms:contentKeyID: 48185431
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9e5365675efbcc7427cc29143c21b6656a4dba7e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e3ac7a336fc65b6e9b9222fc2f19e1983cb53c79
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216917"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512528"
 ---
+# <a name="new-exchange-server-integration-features-in-lync-server-2013"></a>Novos recursos de integração do Exchange Server no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="new-exchange-server-integration-features-in-lync-server-2013"></a>Novos recursos de integração do Exchange Server no Lync Server 2013
+
 
 </div>
 
@@ -43,7 +45,7 @@ O Lync Server 2013 oferece suporte a novos recursos quando ele é implantado jun
 
   - É possível usar **fotos de alta resolução** para contatos. Fotos com até 648x648 pixels são armazenadas no Exchange 2013 e disponibilizadas para clientes, incluindo o Lync 2013, Outlook 2013, Microsoft Lync Web App e Outlook Web App.
 
-  - Você pode habilitar a **integração de arquivamento do Lync**, que integra o arquivamento do lync Server 2013 no recurso de bloqueio in-loco do Exchange 2013, para usuários hospedados no Exchange 2013, o que permite uma experiência comum para os administradores em relação à conformidade e à descoberta eletrônica.
+  - Você pode habilitar a **integração de arquivamento do Lync**, que integra o arquivamento do lync Server 2013 no recurso exchange 2013 In-Place Hold, para usuários hospedados no Exchange 2013, o que permite uma experiência comum para administradores em relação à conformidade e à descoberta eletrônica.
 
 <div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184764
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7b531d0e8d7d4fe5de6d1598cf557096ebff8a90
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0dbb90d0776ee89fe9ab8b9f5796b182c5dc0457
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215247"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513108"
 ---
+# <a name="pstn-conference-summary-report-in-lync-server-2013"></a>Relatório de Resumo de conferência PSTN no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="pstn-conference-summary-report-in-lync-server-2013"></a>Relatório de Resumo de conferência PSTN no Lync Server 2013
+
 
 </div>
 
@@ -55,7 +57,7 @@ O relatório de Resumo de conferência PSTN só pode ser acessado na página ini
 
 Para determinar a porcentagem de todas as conferências que incluem usuários de discagem, compare o valor da métrica total de conferências PSTN com a métrica total de conferências encontrada no [relatório de Resumo de conferências no Lync Server 2013](lync-server-2013-conference-summary-report.md).
 
-Se você não vir tantas conferências PSTN quanto as esperadas, tenha em mente que a capacidade de organizar uma conferência que permite que os usuários de discagem dependam da política de conferência que foi atribuída a um usuário: se poucos usuários tiverem permissão para manter o PS Conferências do TN você certamente veria muito poucas conferências PSTN. Você pode verificar rapidamente quais políticas de conferência (se houver) permitem que os usuários agendem conferências PSTN executando o seguinte comando no Shell de gerenciamento do Lync Server:
+Se você não vir tantas conferências PSTN que você pode ter esperado, tenha em mente que a capacidade de organizar uma conferência que permite que os usuários de discagem dependam da política de conferência que foi atribuída a um usuário: se poucos usuários têm permissão para manter conferências PSTN, você certamente veria muito poucas conferências PSTN. Você pode verificar rapidamente quais políticas de conferência (se houver) permitem que os usuários agendem conferências PSTN executando o seguinte comando no Shell de gerenciamento do Lync Server:
 
     Get-CsConferencingPolicy | Select-Object Identity, EnableDialInConferencing
 
@@ -103,7 +105,7 @@ A tabela a seguir lista os filtros que podem ser usados com o relatório de Resu
 <p>7/7/2012</p>
 <p>Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):</p>
 <p>7/3/2012</p>
-<p>As semanas sempre são de Domingo a Sábado.</p></td>
+<p>As semanas são sempre de domingo a sábado.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>To</strong></p></td>
@@ -134,7 +136,7 @@ A tabela a seguir lista os filtros que podem ser usados com o relatório de Resu
 
 <div>
 
-## <a name="metrics"></a>Métricas
+## <a name="metrics"></a>Métrica
 
 A tabela a seguir lista as informações no relatório de Resumo de conferência PSTN.
 

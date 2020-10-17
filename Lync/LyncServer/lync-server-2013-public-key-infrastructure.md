@@ -12,20 +12,22 @@ ms:contentKeyID: 59893870
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ec711ad773aeb1b3b426e929b2d87d033f8d8004
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7cee633f877a34dcf2ec0fd0b98891c62faf0bad
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183504"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512408"
 ---
+# <a name="public-key-infrastructure-for-lync-server-2013"></a>Infraestrutura de chave pública do Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="public-key-infrastructure-for-lync-server-2013"></a>Infraestrutura de chave pública do Lync Server 2013
+
 
 </div>
 
@@ -49,7 +51,7 @@ Cada certificado é vinculado a uma chave pública. O servidor nomeado no certif
 
 
 > [!NOTE]  
-> Nem todas as CAs públicas estão em conformidade com os requisitos dos certificados do Lync Server 2013. Recomendamos a consulta à lista de fornecedores certificados de CA pública para suas necessidades de certificado público. Para obter detalhes, consulte Unified Communications <A href="https://go.microsoft.com/fwlink/p/?linkid=140898">https://go.microsoft.com/fwlink/p/?LinkId=140898</A>Certificate Partners em.
+> Nem todas as CAs públicas estão em conformidade com os requisitos dos certificados do Lync Server 2013. Recomendamos a consulta à lista de fornecedores certificados de CA pública para suas necessidades de certificado público. Para obter detalhes, consulte Unified Communications Certificate Partners em <A href="https://go.microsoft.com/fwlink/p/?linkid=140898">https://go.microsoft.com/fwlink/p/?LinkId=140898</A> .
 
 
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184031
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c0a917364c31da4a944f41da586b53bc6a59b6ef
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 826f732f25996a9f8fcbd708f7e76157a5753a01
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42203147"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48512768"
 ---
+# <a name="configuring-client-bootstrapping-policies-in-lync-server-2013"></a>Configurando políticas de inicialização do cliente no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-client-bootstrapping-policies-in-lync-server-2013"></a>Configurando políticas de inicialização do cliente no Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42203147"
 
 _**Última modificação do tópico:** 2013-02-21_
 
-O GPMC (console de gerenciamento de política de grupo) e o editor de objeto de diretiva de grupo são ferramentas que você usa para gerenciar a política de grupo. Incluído no modelo administrativo da política de grupo do Office estão os modelos administrativos do Lync 2013. admx (ADMX) e. adml (ADML), que contêm as configurações de política baseadas no registro que você configura para os objetos de política de grupo no domínio. Os arquivos ADML são complementos específicos do idioma para arquivos ADMX. Cada arquivo ADMX e ADML contém as configurações de política para um único aplicativo do Office. Para obter mais informações, consulte "arquivos de modelo administrativo do Office 2013 (ADMX, ADML)" na documentação do <https://go.microsoft.com/fwlink/p/?linkid=267516>Office 2013 em.
+O GPMC (console de gerenciamento de política de grupo) e o editor de objeto de diretiva de grupo são ferramentas que você usa para gerenciar a política de grupo. Incluído no modelo administrativo da política de grupo do Office estão os modelos administrativos do Lync 2013. admx (ADMX) e. adml (ADML), que contêm as configurações de política baseadas no registro que você configura para os objetos de política de grupo no domínio. Os arquivos ADML são complementos específicos do idioma para arquivos ADMX. Cada arquivo ADMX e ADML contém as configurações de política para um único aplicativo do Office. Para obter mais informações, consulte "arquivos de modelo administrativo do Office 2013 (ADMX, ADML)" na documentação do Office 2013 em <https://go.microsoft.com/fwlink/p/?linkid=267516> .
 
 Para o Lync 2013, há várias políticas de inicialização do cliente que devem ser consideradas configuradas antes que os usuários entrem no servidor pela primeira vez. Por exemplo, os servidores e o modo de segurança padrão que o cliente deve usar até que o logon seja concluído. Você pode usar a política de grupo para estabelecer essas configurações nos registros de computador dos usuários antes de entrar e começar a receber as configurações de provisionamento em banda no servidor. A tabela a seguir lista as configurações de política de grupo disponíveis para o Lync 2013.
 
@@ -160,14 +162,14 @@ As políticas configuradas no servidor têm precedência sobre as configuraçõe
 </tr>
 <tr class="even">
 <td><p>duas</p></td>
-<td><p>HKEY_LOCAL_MACHINE \SOFTWARE\Policies\Microsoft\Office\15.0\Lync</p></td>
+<td><p>HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Office\15.0\Lync</p></td>
 </tr>
 <tr class="odd">
 <td><p>3D</p></td>
-<td><p>HKEY_CURRENT_USER \SOFTWARE\Policies\Microsoft\Office\15.0\Lync</p></td>
+<td><p>HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\15.0\Lync</p></td>
 </tr>
 <tr class="even">
-<td><p>quatro</p></td>
+<td><p>4 </p></td>
 <td><p>A caixa de diálogo Lync-Options no Lync 2013</p></td>
 </tr>
 </tbody>

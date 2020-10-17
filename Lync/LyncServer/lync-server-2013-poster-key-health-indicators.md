@@ -12,20 +12,22 @@ ms:contentKeyID: 61084873
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: aca31ca681c75438bbcbb67b1d2dc5c0b6305cb7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d6db6a701c98a44b042d9ee36d0a749bf6363bd2
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183734"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513378"
 ---
+# <a name="key-health-indicators-in-lync-server-2013"></a>Principais indicadores de integridade no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="key-health-indicators-in-lync-server-2013"></a>Principais indicadores de integridade no Lync Server 2013
+
 
 </div>
 
@@ -105,15 +107,15 @@ Para cada servidor em sua implementação do Lync, comece verificando se a integ
 
 Comece coletando dados de desempenho do KHI para todos os servidores. Para cada uma das funções de sistema (detalhes abordados posteriormente neste documento), determine se os componentes básicos do sistema atendem aos alvos recomendados. Caso contrário, corrija o desempenho do sistema e, em seguida, colete novamente os dados do KHI e garanta a integridade do sistema antes de examinar as métricas específicas da função do servidor na implementação do Lync. A integridade do componente para todas as funções é definida como:
 
-  - Utilização \< da CPU 80%
+  - Utilização da CPU \< 80%
 
-  - Média de gravação \< de disco 10 ms
+  - Média de gravação de disco \< 10 ms
 
-  - Média de leitura \< de disco 10 ms
+  - Média de leitura de disco \< 10 ms
 
-  - Memória \>disponível de 20% no total de sistema
+  - Memória disponível de \> 20% no total de sistema
 
-  - Comprimento \< da fila de rede 2
+  - Comprimento da fila de rede \< 2
 
   - Pacotes descartados (in/out) = 0
 
@@ -170,39 +172,39 @@ Os seguintes destinos KHI recomendados são específicos para servidores front-e
 <tbody>
 <tr class="odd">
 <td><p>AS/AV/IM MCU</p></td>
-<td><p>Estado &lt;2 da integridade MCU</p></td>
+<td><p>Estado 2 da integridade MCU &lt;</p></td>
 </tr>
 <tr class="even">
-<td><p>Componentes Web</p></td>
-<td><p>Tempos limite &lt;do AD de expansão de lista de distribuição 0</p>
+<td><p>Web Components</p></td>
+<td><p>Tempos limite do AD de expansão de lista de distribuição &lt; 0</p>
 <p>Falhas de ABWQ = 0</p>
 <p>Falhas de LIS = 0</p>
-<p>Erros &lt; de autenticação 1/seg</p>
+<p>Erros de autenticação &lt; 1/seg</p>
 <p>Solicitações ASP.NET v4 rejeitadas = 0</p></td>
 </tr>
 <tr class="odd">
 <td><p>Pilha SIP</p></td>
-<td><p>Média de processamento &lt; de mensagens de entrada 1 seg</p>
-<p>Respostas de entrada &lt; ignoradas 1/seg solicitações &lt; de entrada descartadas 1/s</p>
-<p>Latência &lt; da fila 100 ms</p>
-<p>Latência &lt; SPROC 100 ms</p>
+<td><p>Média de processamento de mensagens de entrada &lt; 1 seg</p>
+<p>Respostas de entrada ignoradas &lt; 1/seg solicitações de entrada descartadas &lt; 1/s</p>
+<p>Latência da fila &lt; 100 ms</p>
+<p>Latência SPROC &lt; 100 ms</p>
 <p>Solicitações limitadas = 0</p>
-<p>Erros &lt; de autenticação 1/seg</p>
-<p>Mensagens de entrada tempo limite &lt; de 2</p>
-<p>Média de mensagens de entrada &lt; suspensas 1 seg</p>
-<p>Conexões &lt; controladas por fluxo 2</p>
-<p>Atraso &lt; médio da fila de saída 2 seg</p></td>
+<p>Erros de autenticação &lt; 1/seg</p>
+<p>Mensagens de entrada tempo limite de &lt; 2</p>
+<p>Média de mensagens de entrada suspensas &lt; 1 seg</p>
+<p>Conexões controladas por fluxo &lt; 2</p>
+<p>Atraso médio da fila de saída &lt; 2 seg</p></td>
 </tr>
 <tr class="even">
 <td><p>LySS</p></td>
-<td><p>% de espaço usado pelo serviço de armazenamento &lt; DB 80</p>
-<p>#falhas de replicação de réplica = 0</p>
-<p>#eventos de perda de dados = 0</p></td>
+<td><p>% de espaço usado pelo serviço de armazenamento DB &lt; 80</p>
+<p># falhas de replicação de réplica = 0</p>
+<p># eventos de perda de dados = 0</p></td>
 </tr>
 <tr class="odd">
 <td><p>SQL</p></td>
-<td><p>Expectativa de vida da &gt; página 300 seg.</p>
-<p>Solicitações em lote/ &lt; s 2500</p></td>
+<td><p>Expectativa de vida da página &gt; 300 seg.</p>
+<p>Solicitações em lote/s &lt; 2500</p></td>
 </tr>
 </tbody>
 </table>
@@ -233,8 +235,8 @@ Os seguintes destinos KHI recomendados são específicos para os SQL Servers, al
 <tbody>
 <tr class="odd">
 <td><p>SQL</p></td>
-<td><p>Expectativa de vida da &gt; página 300 seg.</p>
-<p>Solicitações em lote/ &lt; s 2500</p></td>
+<td><p>Expectativa de vida da página &gt; 300 seg.</p>
+<p>Solicitações em lote/s &lt; 2500</p></td>
 </tr>
 </tbody>
 </table>
@@ -266,8 +268,8 @@ Os seguintes destinos KHI recomendados são específicos para servidores de medi
 <tr class="odd">
 <td><p>Serviço do servidor de mediação</p></td>
 <td><p>Índice de falha de chamada de carregamento = 0</p>
-<p>Chamadas com falha devido ao &lt;proxy 10</p>
-<p>Chamadas com falha devido ao &lt;gateway 10</p>
+<p>Chamadas com falha devido ao proxy &lt; 10</p>
+<p>Chamadas com falha devido ao gateway &lt; 10</p>
 <p>Chamadas (in ou out) rejeitadas = 0</p>
 <p>Candidatos à mídia ausentes = 0</p>
 <p>Falhas de verificação de conectividade de mídia = 0</p></td>
@@ -301,26 +303,26 @@ Os seguintes destinos KHI recomendados são específicos para servidores de bord
 <tbody>
 <tr class="odd">
 <td><p>Autenticação AV</p></td>
-<td><p>Solicitações &lt; inválidas 20/seg</p></td>
+<td><p>Solicitações inválidas &lt; 20/seg</p></td>
 </tr>
 <tr class="even">
 <td><p>Borda de AV</p></td>
-<td><p>Falhas &lt;de auth. 20/seg</p>
-<p>Falhas &lt;de alocação 20/seg</p>
-<p>Pacotes removidos &lt;300/s</p></td>
+<td><p>Falhas de auth. &lt; 20/seg</p>
+<p>Falhas de alocação &lt; 20/seg</p>
+<p>Pacotes removidos &lt; 300/s</p></td>
 </tr>
 <tr class="odd">
 <td><p>Proxy de dados</p></td>
-<td><p>Conexões &lt; de servidor limitado 3</p>
-<p>O sistema está &lt;regulando 1</p></td>
+<td><p>Conexões de servidor limitado &lt; 3</p>
+<p>O sistema está regulando &lt; 1</p></td>
 </tr>
 <tr class="even">
 <td><p>Pilha SIP</p></td>
 <td><p>Conexões com limite ignorado &lt; 1</p>
-<p>Envio do tempo limite &lt;de 10</p>
-<p>Conexões &lt;de fluxo controlado 100</p>
-<p>Solicitações de entrada &lt; descartadas 1/s</p>
-<p>Média de processamento &lt; de mensagens 3 seg</p></td>
+<p>Envio do tempo limite de &lt; 10</p>
+<p>Conexões de fluxo controlado &lt; 100</p>
+<p>Solicitações de entrada descartadas &lt; 1/s</p>
+<p>Média de processamento de mensagens &lt; 3 seg</p></td>
 </tr>
 </tbody>
 </table>

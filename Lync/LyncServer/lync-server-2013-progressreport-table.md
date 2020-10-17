@@ -12,20 +12,22 @@ ms:contentKeyID: 48183847
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c68855f3f0ae36e0934959b820dc84a716cf2a51
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c92adf48a09f83c3c3dec18f91e4aadc3a3cbd39
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183554"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513228"
 ---
+# <a name="progressreport-table-in-lync-server-2013"></a>Tabela ProgressReport no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="progressreport-table-in-lync-server-2013"></a>Tabela ProgressReport no Lync Server 2013
+
 
 </div>
 
@@ -61,7 +63,7 @@ Os campos ErrorTime, ErrorReportSeq e ProgressReportSeq não se referem necessar
 <tr class="odd">
 <td><p><strong>ErrorTime</strong></p></td>
 <td><p>datetime</p></td>
-<td><p>Primária, estrangeira</p></td>
+<td><p>Primário, externo</p></td>
 <td><p>Data e hora do relatório de erros de andamento. Consulte a <a href="lync-server-2013-errorreport-table.md">tabela errorreport no Lync Server 2013</a> para obter mais informações.</p></td>
 </tr>
 <tr class="even">
