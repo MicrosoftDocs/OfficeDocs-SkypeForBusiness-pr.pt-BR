@@ -12,20 +12,22 @@ ms:contentKeyID: 48185527
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9cefd52750a3fc54c56e7bcbafaecab661a9c10f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c8f5caecd5d80836f5abb5a4fef6ee4cf8a06494
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183137"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536338"
 ---
+# <a name="replication-cmdlets-in-lync-server-2013"></a><span data-ttu-id="be9e4-102">Cmdlets de replicação no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="be9e4-102">Replication cmdlets in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="replication-cmdlets-in-lync-server-2013"></a><span data-ttu-id="235bc-102">Cmdlets de replicação no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="235bc-102">Replication cmdlets in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,61 +37,61 @@ ms.locfileid: "42183137"
 
 <span> </span>
 
-<span data-ttu-id="235bc-103">_**Última modificação do tópico:** 2012-10-09_</span><span class="sxs-lookup"><span data-stu-id="235bc-103">_**Topic Last Modified:** 2012-10-09_</span></span>
+<span data-ttu-id="be9e4-103">_**Última modificação do tópico:** 2012-10-09_</span><span class="sxs-lookup"><span data-stu-id="be9e4-103">_**Topic Last Modified:** 2012-10-09_</span></span>
 
-<span data-ttu-id="235bc-104">Os cmdlets de replicação fornecem uma maneira de monitorar e gerenciar a replicação do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="235bc-104">The replication cmdlets provide a way for you to both monitor and manage Lync Server replication.</span></span> <span data-ttu-id="235bc-105">Você pode usar esses cmdlets para definir as configurações de replicação; para monitorar o progresso da replicação; e forçar manualmente a replicação em um servidor.</span><span class="sxs-lookup"><span data-stu-id="235bc-105">You can use these cmdlets to configure replication settings; to monitor replication progress; and to manually force replication on a server.</span></span>
+<span data-ttu-id="be9e4-104">Os cmdlets de replicação fornecem uma maneira de monitorar e gerenciar a replicação do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="be9e4-104">The replication cmdlets provide a way for you to both monitor and manage Lync Server replication.</span></span> <span data-ttu-id="be9e4-105">Você pode usar esses cmdlets para definir as configurações de replicação; para monitorar o progresso da replicação; e forçar manualmente a replicação em um servidor.</span><span class="sxs-lookup"><span data-stu-id="be9e4-105">You can use these cmdlets to configure replication settings; to monitor replication progress; and to manually force replication on a server.</span></span>
 
 <div>
 
-## <a name="replication-cmdlets"></a><span data-ttu-id="235bc-106">Replication Cmdlets</span><span class="sxs-lookup"><span data-stu-id="235bc-106">Replication Cmdlets</span></span>
+## <a name="replication-cmdlets"></a><span data-ttu-id="be9e4-106">Replication Cmdlets</span><span class="sxs-lookup"><span data-stu-id="be9e4-106">Replication Cmdlets</span></span>
 
-<span data-ttu-id="235bc-107">Veja a seguir uma lista de cmdlets relacionados diretamente ao gerenciamento de replicação:</span><span class="sxs-lookup"><span data-stu-id="235bc-107">The following is a list of cmdlets that relate directly to managing replication:</span></span>
+<span data-ttu-id="be9e4-107">Veja a seguir uma lista de cmdlets relacionados diretamente ao gerenciamento de replicação:</span><span class="sxs-lookup"><span data-stu-id="be9e4-107">The following is a list of cmdlets that relate directly to managing replication:</span></span>
 
-<span data-ttu-id="235bc-108">**CRR**</span><span class="sxs-lookup"><span data-stu-id="235bc-108">**Replication**</span></span>
+<span data-ttu-id="be9e4-108">**CRR**</span><span class="sxs-lookup"><span data-stu-id="be9e4-108">**Replication**</span></span>
 
   - <span></span>  
-    <span data-ttu-id="235bc-109">[Debug-CsInterPoolReplication](https://technet.microsoft.com/library/JJ619185(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="235bc-109">[Debug-CsInterPoolReplication](https://technet.microsoft.com/library/JJ619185(v=OCS.15))</span></span>
+    <span data-ttu-id="be9e4-109">[Debug-CsInterPoolReplication](https://technet.microsoft.com/library/JJ619185(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="be9e4-109">[Debug-CsInterPoolReplication](https://technet.microsoft.com/library/JJ619185(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="235bc-110">[Invoke-CsManagementStoreReplication](https://technet.microsoft.com/library/Gg413060(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="235bc-110">[Invoke-CsManagementStoreReplication](https://technet.microsoft.com/library/Gg413060(v=OCS.15))</span></span>
+    <span data-ttu-id="be9e4-110">[Invoke-CsManagementStoreReplication](https://technet.microsoft.com/library/Gg413060(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="be9e4-110">[Invoke-CsManagementStoreReplication](https://technet.microsoft.com/library/Gg413060(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="235bc-111">[Get-CsManagementStoreReplicationStatus](https://technet.microsoft.com/library/Gg399052(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="235bc-111">[Get-CsManagementStoreReplicationStatus](https://technet.microsoft.com/library/Gg399052(v=OCS.15))</span></span>
+    <span data-ttu-id="be9e4-111">[Get-CsManagementStoreReplicationStatus](https://technet.microsoft.com/library/Gg399052(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="be9e4-111">[Get-CsManagementStoreReplicationStatus](https://technet.microsoft.com/library/Gg399052(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="235bc-112">[Enable-CsReplica](https://technet.microsoft.com/library/Gg425965(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="235bc-112">[Enable-CsReplica](https://technet.microsoft.com/library/Gg425965(v=OCS.15))</span></span>
+    <span data-ttu-id="be9e4-112">[Enable-CsReplica](https://technet.microsoft.com/library/Gg425965(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="be9e4-112">[Enable-CsReplica](https://technet.microsoft.com/library/Gg425965(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="235bc-113">[Test-CsReplica](https://technet.microsoft.com/library/JJ205289(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="235bc-113">[Test-CsReplica](https://technet.microsoft.com/library/JJ205289(v=OCS.15))</span></span>
+    <span data-ttu-id="be9e4-113">[Test-CsReplica](https://technet.microsoft.com/library/JJ205289(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="be9e4-113">[Test-CsReplica](https://technet.microsoft.com/library/JJ205289(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="235bc-114">[Get-CsUserReplicatorConfiguration](https://technet.microsoft.com/library/Gg398548(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="235bc-114">[Get-CsUserReplicatorConfiguration](https://technet.microsoft.com/library/Gg398548(v=OCS.15))</span></span>
+    <span data-ttu-id="be9e4-114">[Get-CsUserReplicatorConfiguration](https://technet.microsoft.com/library/Gg398548(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="be9e4-114">[Get-CsUserReplicatorConfiguration](https://technet.microsoft.com/library/Gg398548(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="235bc-115">[New-CsUserReplicatorConfiguration](https://technet.microsoft.com/library/Gg399059(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="235bc-115">[New-CsUserReplicatorConfiguration](https://technet.microsoft.com/library/Gg399059(v=OCS.15))</span></span>
+    <span data-ttu-id="be9e4-115">[New-CsUserReplicatorConfiguration](https://technet.microsoft.com/library/Gg399059(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="be9e4-115">[New-CsUserReplicatorConfiguration](https://technet.microsoft.com/library/Gg399059(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="235bc-116">[Remove-CsUserReplicatorConfiguration](https://technet.microsoft.com/library/Gg425738(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="235bc-116">[Remove-CsUserReplicatorConfiguration](https://technet.microsoft.com/library/Gg425738(v=OCS.15))</span></span>
+    <span data-ttu-id="be9e4-116">[Remove-CsUserReplicatorConfiguration](https://technet.microsoft.com/library/Gg425738(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="be9e4-116">[Remove-CsUserReplicatorConfiguration](https://technet.microsoft.com/library/Gg425738(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="235bc-117">[Set-CsUserReplicatorConfiguration](https://technet.microsoft.com/library/Gg398540(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="235bc-117">[Set-CsUserReplicatorConfiguration](https://technet.microsoft.com/library/Gg398540(v=OCS.15))</span></span>
+    <span data-ttu-id="be9e4-117">[Set-CsUserReplicatorConfiguration](https://technet.microsoft.com/library/Gg398540(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="be9e4-117">[Set-CsUserReplicatorConfiguration](https://technet.microsoft.com/library/Gg398540(v=OCS.15))</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="235bc-118">Confira também</span><span class="sxs-lookup"><span data-stu-id="235bc-118">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="be9e4-118">Confira também</span><span class="sxs-lookup"><span data-stu-id="be9e4-118">See Also</span></span>
 
 
-[<span data-ttu-id="235bc-119">Blog do PowerShell do Lync Server</span><span class="sxs-lookup"><span data-stu-id="235bc-119">Lync Server PowerShell Blog</span></span>](https://go.microsoft.com/fwlink/p/?linkid=203150)  
+[<span data-ttu-id="be9e4-119">Blog do PowerShell do Lync Server</span><span class="sxs-lookup"><span data-stu-id="be9e4-119">Lync Server PowerShell Blog</span></span>](https://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>

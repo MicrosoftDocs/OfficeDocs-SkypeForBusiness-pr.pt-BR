@@ -12,20 +12,22 @@ ms:contentKeyID: 48185822
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4d39992255bfe6f93d9f41380b4f6b5fb9af1f5b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2e3104f07934e590dc22ac9f5000601bc8166b6b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212847"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535788"
 ---
+# <a name="using-cmdlets-to-reverse-forest-preparation-for-lync-server-2013"></a><span data-ttu-id="d41ee-102">Usando cmdlets para reverter a preparação da floresta para o Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d41ee-102">Using cmdlets to reverse forest preparation for Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-cmdlets-to-reverse-forest-preparation-for-lync-server-2013"></a><span data-ttu-id="0e92c-102">Usando cmdlets para reverter a preparação da floresta para o Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0e92c-102">Using cmdlets to reverse forest preparation for Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,15 +37,15 @@ ms.locfileid: "42212847"
 
 <span> </span>
 
-<span data-ttu-id="0e92c-103">_**Última modificação do tópico:** 2013-06-19_</span><span class="sxs-lookup"><span data-stu-id="0e92c-103">_**Topic Last Modified:** 2013-06-19_</span></span>
+<span data-ttu-id="d41ee-103">_**Última modificação do tópico:** 2013-06-19_</span><span class="sxs-lookup"><span data-stu-id="d41ee-103">_**Topic Last Modified:** 2013-06-19_</span></span>
 
-<span data-ttu-id="0e92c-104">Use o cmdlet **Disable-CsAdForest** para reverter a etapa de preparação da floresta.</span><span class="sxs-lookup"><span data-stu-id="0e92c-104">Use the **Disable-CsAdForest** cmdlet to reverse the forest preparation step.</span></span>
+<span data-ttu-id="d41ee-104">Use o cmdlet **Disable-CsAdForest** para reverter a etapa de preparação da floresta.</span><span class="sxs-lookup"><span data-stu-id="d41ee-104">Use the **Disable-CsAdForest** cmdlet to reverse the forest preparation step.</span></span>
 
 <div>
 
 
 > [!WARNING]  
-> <span data-ttu-id="0e92c-105">Se você executar o cmdlet <STRONG>Disable-CsAdForest</STRONG> em um ambiente onde você também tem uma versão anterior do Lync Server implantada, as configurações globais da versão anterior também serão excluídas.</span><span class="sxs-lookup"><span data-stu-id="0e92c-105">If you run the <STRONG>Disable-CsAdForest</STRONG> cmdlet in an environment where you also have a previous version of Lync Server deployed, the global settings for the previous version will also be deleted.</span></span>
+> <span data-ttu-id="d41ee-105">Se você executar o cmdlet <STRONG>Disable-CsAdForest</STRONG> em um ambiente onde você também tem uma versão anterior do Lync Server implantada, as configurações globais da versão anterior também serão excluídas.</span><span class="sxs-lookup"><span data-stu-id="d41ee-105">If you run the <STRONG>Disable-CsAdForest</STRONG> cmdlet in an environment where you also have a previous version of Lync Server deployed, the global settings for the previous version will also be deleted.</span></span>
 
 
 
@@ -51,35 +53,35 @@ ms.locfileid: "42212847"
 
 <div>
 
-## <a name="to-use-cmdlets-to-reverse-forest-preparation"></a><span data-ttu-id="0e92c-106">Para usar cmdlets para reverter a preparação da floresta</span><span class="sxs-lookup"><span data-stu-id="0e92c-106">To use cmdlets to reverse forest preparation</span></span>
+## <a name="to-use-cmdlets-to-reverse-forest-preparation"></a><span data-ttu-id="d41ee-106">Para usar cmdlets para reverter a preparação da floresta</span><span class="sxs-lookup"><span data-stu-id="d41ee-106">To use cmdlets to reverse forest preparation</span></span>
 
-1.  <span data-ttu-id="0e92c-107">Faça o login em um computador que faz parte de um domínio como membro do grupo Administradores de Domínio no domínio raiz da floresta.</span><span class="sxs-lookup"><span data-stu-id="0e92c-107">Log on to a computer that is joined to a domain as a member of the Domain Admins group in the forest root domain.</span></span>
+1.  <span data-ttu-id="d41ee-107">Faça o login em um computador que faz parte de um domínio como membro do grupo Administradores de Domínio no domínio raiz da floresta.</span><span class="sxs-lookup"><span data-stu-id="d41ee-107">Log on to a computer that is joined to a domain as a member of the Domain Admins group in the forest root domain.</span></span>
 
-2.  <span data-ttu-id="0e92c-108">Inicie o Shell de Gerenciamento do Lync Server: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Shell de Gerenciamento do Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="0e92c-108">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+2.  <span data-ttu-id="d41ee-108">Inicie o Shell de Gerenciamento do Lync Server: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Shell de Gerenciamento do Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="d41ee-108">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-3.  <span data-ttu-id="0e92c-109">Sejam</span><span class="sxs-lookup"><span data-stu-id="0e92c-109">Run:</span></span>
+3.  <span data-ttu-id="d41ee-109">Sejam</span><span class="sxs-lookup"><span data-stu-id="d41ee-109">Run:</span></span>
     
         Disable-CsAdForest [-Force] [-GroupDomain <FQDN of the domain in which universal groups were created>]
     
-    <span data-ttu-id="0e92c-110">Por exemplo:</span><span class="sxs-lookup"><span data-stu-id="0e92c-110">For example:</span></span>
+    <span data-ttu-id="d41ee-110">Por exemplo:</span><span class="sxs-lookup"><span data-stu-id="d41ee-110">For example:</span></span>
     
         Disable-CsAdForest -Force -GroupDomain contoso.net
     
-    <span data-ttu-id="0e92c-111">O parâmetro Force especifica se deve forçar a execução da tarefa.</span><span class="sxs-lookup"><span data-stu-id="0e92c-111">The Force parameter specifies whether to force running the task.</span></span> <span data-ttu-id="0e92c-112">Se esse parâmetro não estiver presente, o comando não será executado se mesmo um domínio da floresta ainda estiver preparado para o Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="0e92c-112">If this parameter is not present, the command will not run if even one domain in the forest is still prepared for Lync Server 2013.</span></span> <span data-ttu-id="0e92c-113">Se o parâmetro Force é especificado, a ação continuará independente do estado dos outros domínios na floresta.</span><span class="sxs-lookup"><span data-stu-id="0e92c-113">If the Force parameter is specified, the action will continue regardless of the state of other domains in the forest.</span></span>
+    <span data-ttu-id="d41ee-111">O parâmetro Force especifica se deve forçar a execução da tarefa.</span><span class="sxs-lookup"><span data-stu-id="d41ee-111">The Force parameter specifies whether to force running the task.</span></span> <span data-ttu-id="d41ee-112">Se esse parâmetro não estiver presente, o comando não será executado se mesmo um domínio da floresta ainda estiver preparado para o Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="d41ee-112">If this parameter is not present, the command will not run if even one domain in the forest is still prepared for Lync Server 2013.</span></span> <span data-ttu-id="d41ee-113">Se o parâmetro Force é especificado, a ação continuará independente do estado dos outros domínios na floresta.</span><span class="sxs-lookup"><span data-stu-id="d41ee-113">If the Force parameter is specified, the action will continue regardless of the state of other domains in the forest.</span></span>
     
-    <span data-ttu-id="0e92c-114">Se você não especificar o parâmetro GroupDomain, o valor padrão é o domínio local.</span><span class="sxs-lookup"><span data-stu-id="0e92c-114">If you do not specify the GroupDomain parameter, the default value is the local domain.</span></span>
+    <span data-ttu-id="d41ee-114">Se você não especificar o parâmetro GroupDomain, o valor padrão é o domínio local.</span><span class="sxs-lookup"><span data-stu-id="d41ee-114">If you do not specify the GroupDomain parameter, the default value is the local domain.</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="0e92c-115">Confira também</span><span class="sxs-lookup"><span data-stu-id="0e92c-115">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="d41ee-115">Confira também</span><span class="sxs-lookup"><span data-stu-id="d41ee-115">See Also</span></span>
 
 
-[<span data-ttu-id="0e92c-116">Executando a preparação da floresta para o Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0e92c-116">Running forest preparation for Lync Server 2013</span></span>](lync-server-2013-running-forest-preparation.md)  
+[<span data-ttu-id="d41ee-116">Executando a preparação da floresta para o Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d41ee-116">Running forest preparation for Lync Server 2013</span></span>](lync-server-2013-running-forest-preparation.md)  
 
 
-[<span data-ttu-id="0e92c-117">Preparando a floresta para o Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0e92c-117">Preparing the forest for Lync Server 2013</span></span>](lync-server-2013-preparing-the-forest.md)  
+[<span data-ttu-id="d41ee-117">Preparando a floresta para o Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d41ee-117">Preparing the forest for Lync Server 2013</span></span>](lync-server-2013-preparing-the-forest.md)  
   
 
 </div>

@@ -12,20 +12,22 @@ ms:contentKeyID: 60595883
 ms.date: 07/24/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 679fe6ae6f11823d55070508b506864b1839d054
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: cebbac17955f812bf07a368064156b57b0c0ddd9
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207607"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48537088"
 ---
+# <a name="configure-federation-for-an-audio-conferencing-provider-in-lync-server-2013"></a><span data-ttu-id="f078b-102">Configurar Federação para um provedor de conferência de áudio no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f078b-102">Configure federation for an audio conferencing provider in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-federation-for-an-audio-conferencing-provider-in-lync-server-2013"></a><span data-ttu-id="d8447-102">Configurar Federação para um provedor de conferência de áudio no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d8447-102">Configure federation for an audio conferencing provider in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,17 +37,17 @@ ms.locfileid: "42207607"
 
 <span> </span>
 
-<span data-ttu-id="d8447-103">_**Última modificação do tópico:** 2014-07-24_</span><span class="sxs-lookup"><span data-stu-id="d8447-103">_**Topic Last Modified:** 2014-07-24_</span></span>
+<span data-ttu-id="f078b-103">_**Última modificação do tópico:** 2014-07-24_</span><span class="sxs-lookup"><span data-stu-id="f078b-103">_**Topic Last Modified:** 2014-07-24_</span></span>
 
-<span data-ttu-id="d8447-104">Se você quiser usar um provedor de serviços de audioconferência (ACP) em sua implantação híbrida (Lync Server local com Lync Online), você precisará configurar a Federação entre sua implantação do Lync local e o parceiro ACP como um servidor parceiro permitido.</span><span class="sxs-lookup"><span data-stu-id="d8447-104">If you want to use an Audio Conferencing Provider (ACP) in your hybrid deployment (Lync Server on-premises with Lync Online), you need to configure federation between your on-premises Lync deployment and the ACP partner as an Allowed Partner Server.</span></span> <span data-ttu-id="d8447-105">Você pode configurar a Federação adicionando o domínio de parceiro ACP e o servidor de borda (isso também pode ser chamado de proxy de acesso) à lista de domínios federados para sua implantação local.</span><span class="sxs-lookup"><span data-stu-id="d8447-105">You can configure federation by adding the ACP partner domain and Edge server (this may also be called the Access Proxy) to the Federated Domains list for your on-premises deployment.</span></span> <span data-ttu-id="d8447-106">O parceiro ACP precisará adicionar o FQDN do pool de servidores de borda local à lista de domínios federados permitidos.</span><span class="sxs-lookup"><span data-stu-id="d8447-106">Your ACP partner then needs to add the FQDN of your on-premises Edge Server pool to their allowed federated domains list.</span></span> <span data-ttu-id="d8447-107">Entre em contato com seu provedor de ACP para obter o parceiro detailsYour ACP adicional, é necessário adicionar o FQDN do pool de servidores de borda local à lista de domínios federados permitidos.</span><span class="sxs-lookup"><span data-stu-id="d8447-107">Contact your ACP provider for additional detailsYour ACP partner then needs to add the FQDN of your on-premises Edge Server pool to their allowed federated domains list.</span></span>
+<span data-ttu-id="f078b-104">Se você quiser usar um provedor de serviços de audioconferência (ACP) em sua implantação híbrida (Lync Server local com Lync Online), você precisará configurar a Federação entre sua implantação do Lync local e o parceiro ACP como um servidor parceiro permitido.</span><span class="sxs-lookup"><span data-stu-id="f078b-104">If you want to use an Audio Conferencing Provider (ACP) in your hybrid deployment (Lync Server on-premises with Lync Online), you need to configure federation between your on-premises Lync deployment and the ACP partner as an Allowed Partner Server.</span></span> <span data-ttu-id="f078b-105">Você pode configurar a Federação adicionando o domínio de parceiro ACP e o servidor de borda (isso também pode ser chamado de proxy de acesso) à lista de domínios federados para sua implantação local.</span><span class="sxs-lookup"><span data-stu-id="f078b-105">You can configure federation by adding the ACP partner domain and Edge server (this may also be called the Access Proxy) to the Federated Domains list for your on-premises deployment.</span></span> <span data-ttu-id="f078b-106">O parceiro ACP precisará adicionar o FQDN do pool de servidores de borda local à lista de domínios federados permitidos.</span><span class="sxs-lookup"><span data-stu-id="f078b-106">Your ACP partner then needs to add the FQDN of your on-premises Edge Server pool to their allowed federated domains list.</span></span> <span data-ttu-id="f078b-107">Entre em contato com seu provedor de ACP para obter o parceiro detailsYour ACP adicional, é necessário adicionar o FQDN do pool de servidores de borda local à lista de domínios federados permitidos.</span><span class="sxs-lookup"><span data-stu-id="f078b-107">Contact your ACP provider for additional detailsYour ACP partner then needs to add the FQDN of your on-premises Edge Server pool to their allowed federated domains list.</span></span>
 
-  - <span data-ttu-id="d8447-108">**Adicionar o domínio ACP e o servidor de borda como um domínio federado permitido**</span><span class="sxs-lookup"><span data-stu-id="d8447-108">**Adding the ACP Domain and Edge Server as an Allowed Federated Domain**</span></span>
+  - <span data-ttu-id="f078b-108">**Adicionar o domínio ACP e o servidor de borda como um domínio federado permitido**</span><span class="sxs-lookup"><span data-stu-id="f078b-108">**Adding the ACP Domain and Edge Server as an Allowed Federated Domain**</span></span>
     
-    <span data-ttu-id="d8447-109">Para adicionar o domínio ACP como um servidor parceiro permitido (domínio federado permitido), siga as etapas em [Configurar suporte para domínios externos permitidos no Lync Server 2013](lync-server-2013-configure-support-for-allowed-external-domains.md).</span><span class="sxs-lookup"><span data-stu-id="d8447-109">To add the ACP domain as an Allowed Partner Server (allowed Federated Domain), follow the steps in [Configure support for allowed external domains in Lync Server 2013](lync-server-2013-configure-support-for-allowed-external-domains.md).</span></span> <span data-ttu-id="d8447-110">Para o servidor de borda, adicione o FQDN do servidor de borda do parceiro ACP.</span><span class="sxs-lookup"><span data-stu-id="d8447-110">For the Edge Server, add the FQDN of the ACP partner’s Edge Server.</span></span> <span data-ttu-id="d8447-111">Talvez seja necessário entrar em contato com seu parceiro ACP para obter o FQDN do servidor de borda, que também pode ser mencionado pelo ACP como proxy de acesso.</span><span class="sxs-lookup"><span data-stu-id="d8447-111">You may need to contact your ACP partner to obtain the FQDN for their Edge Server, which may also be referred to by your ACP as their Access Proxy.</span></span>
+    <span data-ttu-id="f078b-109">Para adicionar o domínio ACP como um servidor parceiro permitido (domínio federado permitido), siga as etapas em [Configurar suporte para domínios externos permitidos no Lync Server 2013](lync-server-2013-configure-support-for-allowed-external-domains.md).</span><span class="sxs-lookup"><span data-stu-id="f078b-109">To add the ACP domain as an Allowed Partner Server (allowed Federated Domain), follow the steps in [Configure support for allowed external domains in Lync Server 2013](lync-server-2013-configure-support-for-allowed-external-domains.md).</span></span> <span data-ttu-id="f078b-110">Para o servidor de borda, adicione o FQDN do servidor de borda do parceiro ACP.</span><span class="sxs-lookup"><span data-stu-id="f078b-110">For the Edge Server, add the FQDN of the ACP partner’s Edge Server.</span></span> <span data-ttu-id="f078b-111">Talvez seja necessário entrar em contato com seu parceiro ACP para obter o FQDN do servidor de borda, que também pode ser mencionado pelo ACP como proxy de acesso.</span><span class="sxs-lookup"><span data-stu-id="f078b-111">You may need to contact your ACP partner to obtain the FQDN for their Edge Server, which may also be referred to by your ACP as their Access Proxy.</span></span>
 
-  - <span data-ttu-id="d8447-112">**Forneça o FQDN do seu pool do servidor de borda ao parceiro ACP**</span><span class="sxs-lookup"><span data-stu-id="d8447-112">**Provide the FQDN of your Edge Server Pool to the ACP partner**</span></span>
+  - <span data-ttu-id="f078b-112">**Forneça o FQDN do seu pool do servidor de borda ao parceiro ACP**</span><span class="sxs-lookup"><span data-stu-id="f078b-112">**Provide the FQDN of your Edge Server Pool to the ACP partner**</span></span>
     
-    <span data-ttu-id="d8447-113">O parceiro ACP precisa configurar a Federação para adicionar seu domínio local como um servidor parceiro permitido adicionando o FQDN do seu pool de servidor de borda como um domínio federado permitido.</span><span class="sxs-lookup"><span data-stu-id="d8447-113">The ACP partner needs to configure federation to add your on-premises domain as an Allowed Partner Server by adding the FQDN of your Edge Server pool as an allowed Federated domain.</span></span>
+    <span data-ttu-id="f078b-113">O parceiro ACP precisa configurar a Federação para adicionar seu domínio local como um servidor parceiro permitido adicionando o FQDN do seu pool de servidor de borda como um domínio federado permitido.</span><span class="sxs-lookup"><span data-stu-id="f078b-113">The ACP partner needs to configure federation to add your on-premises domain as an Allowed Partner Server by adding the FQDN of your Edge Server pool as an allowed Federated domain.</span></span>
 
 </div>
 

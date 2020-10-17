@@ -12,20 +12,22 @@ ms:contentKeyID: 48184308
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f341d71746d7213e668a9f5553b72a35a6dad2f9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 753026087f11f96cc4f0d52f8fffb4e6420d1399
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216750"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536788"
 ---
+# <a name="new-unified-contact-store-feature-in-lync-server-2013"></a><span data-ttu-id="df555-102">Novo recurso de repositório unificado de contatos no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="df555-102">New unified contact store feature in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="new-unified-contact-store-feature-in-lync-server-2013"></a><span data-ttu-id="3ee4d-102">Novo recurso de repositório unificado de contatos no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3ee4d-102">New unified contact store feature in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,18 +37,18 @@ ms.locfileid: "42216750"
 
 <span> </span>
 
-<span data-ttu-id="3ee4d-103">_**Última modificação do tópico:** 2012-09-13_</span><span class="sxs-lookup"><span data-stu-id="3ee4d-103">_**Topic Last Modified:** 2012-09-13_</span></span>
+<span data-ttu-id="df555-103">_**Última modificação do tópico:** 2012-09-13_</span><span class="sxs-lookup"><span data-stu-id="df555-103">_**Topic Last Modified:** 2012-09-13_</span></span>
 
-<span data-ttu-id="3ee4d-104">O Lync Server 2013 introduz o repositório unificado de contatos.</span><span class="sxs-lookup"><span data-stu-id="3ee4d-104">Lync Server 2013 introduces unified contact store.</span></span> <span data-ttu-id="3ee4d-105">O repositório unificado de contatos permite que os usuários mantenham todas as informações de contato no Microsoft Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="3ee4d-105">Unified contact store allows users to keep all their contact information in Microsoft Exchange Server 2013.</span></span> <span data-ttu-id="3ee4d-106">Depois que os contatos do Lync dos usuários são migrados para o Exchange 2013, os usuários podem acessar e gerenciar seus contatos do Lync 2013, Outlook ou Outlook Web App e seus favoritos permanecem sincronizados.</span><span class="sxs-lookup"><span data-stu-id="3ee4d-106">After users' Lync contacts are migrated to Exchange 2013, the users can access and manage their contacts from Lync 2013, Outlook, or Outlook Web App, and their Favorites stay synchronized.</span></span> <span data-ttu-id="3ee4d-107">Por exemplo, se um usuário adicionar um contato a favoritos no Outlook, o contato aparecerá no grupo favoritos no Lync 2013.</span><span class="sxs-lookup"><span data-stu-id="3ee4d-107">For example, if a user adds a contact to Favorites in Outlook, the contact appears in the Favorites group in Lync 2013.</span></span> <span data-ttu-id="3ee4d-108">Os usuários não precisam estar conectados ao Lync para gerenciar seus contatos do Outlook ou do Outlook Web App.</span><span class="sxs-lookup"><span data-stu-id="3ee4d-108">Users do not need to be logged in to Lync to manage their contacts from Outlook or Outlook Web App.</span></span>
+<span data-ttu-id="df555-104">O Lync Server 2013 introduz o repositório unificado de contatos.</span><span class="sxs-lookup"><span data-stu-id="df555-104">Lync Server 2013 introduces unified contact store.</span></span> <span data-ttu-id="df555-105">O repositório unificado de contatos permite que os usuários mantenham todas as informações de contato no Microsoft Exchange Server 2013.</span><span class="sxs-lookup"><span data-stu-id="df555-105">Unified contact store allows users to keep all their contact information in Microsoft Exchange Server 2013.</span></span> <span data-ttu-id="df555-106">Depois que os contatos do Lync dos usuários são migrados para o Exchange 2013, os usuários podem acessar e gerenciar seus contatos do Lync 2013, Outlook ou Outlook Web App e seus favoritos permanecem sincronizados.</span><span class="sxs-lookup"><span data-stu-id="df555-106">After users' Lync contacts are migrated to Exchange 2013, the users can access and manage their contacts from Lync 2013, Outlook, or Outlook Web App, and their Favorites stay synchronized.</span></span> <span data-ttu-id="df555-107">Por exemplo, se um usuário adicionar um contato a favoritos no Outlook, o contato aparecerá no grupo favoritos no Lync 2013.</span><span class="sxs-lookup"><span data-stu-id="df555-107">For example, if a user adds a contact to Favorites in Outlook, the contact appears in the Favorites group in Lync 2013.</span></span> <span data-ttu-id="df555-108">Os usuários não precisam estar conectados ao Lync para gerenciar seus contatos do Outlook ou do Outlook Web App.</span><span class="sxs-lookup"><span data-stu-id="df555-108">Users do not need to be logged in to Lync to manage their contacts from Outlook or Outlook Web App.</span></span>
 
-<span data-ttu-id="3ee4d-p102">O repositório unificado de contatos é habilitado por padrão. Você pode habilitar ou desabilitar o repositório unificado de contatos para os usuários globalmente, por site, por locatário ou por pessoas ou grupos de pessoas.</span><span class="sxs-lookup"><span data-stu-id="3ee4d-p102">Unified contact store is enabled by default. You can enable or disable users for unified contact store globally, by site, by tenant, or by individuals or groups of individuals.</span></span>
+<span data-ttu-id="df555-p102">O repositório unificado de contatos é habilitado por padrão. Você pode habilitar ou desabilitar o repositório unificado de contatos para os usuários globalmente, por site, por locatário ou por pessoas ou grupos de pessoas.</span><span class="sxs-lookup"><span data-stu-id="df555-p102">Unified contact store is enabled by default. You can enable or disable users for unified contact store globally, by site, by tenant, or by individuals or groups of individuals.</span></span>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="3ee4d-111">Confira também</span><span class="sxs-lookup"><span data-stu-id="3ee4d-111">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="df555-111">Confira também</span><span class="sxs-lookup"><span data-stu-id="df555-111">See Also</span></span>
 
 
-[<span data-ttu-id="3ee4d-112">Planejando e implantando o repositório unificado de contatos no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3ee4d-112">Planning and deploying unified contact store in Lync Server 2013</span></span>](lync-server-2013-planning-and-deploying-unified-contact-store.md)  
+[<span data-ttu-id="df555-112">Planejando e implantando o repositório unificado de contatos no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="df555-112">Planning and deploying unified contact store in Lync Server 2013</span></span>](lync-server-2013-planning-and-deploying-unified-contact-store.md)  
   
 
 </div>
