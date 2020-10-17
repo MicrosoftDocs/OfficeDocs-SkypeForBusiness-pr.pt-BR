@@ -12,20 +12,22 @@ ms:contentKeyID: 51803956
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 57de37ff1ef0b43a8a6ea9c03b715d3ebe570a6b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b31224228a4f2fbdad879e43bab61292852e009c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190904"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516298"
 ---
+# <a name="delegation-in-lync-server-2013"></a><span data-ttu-id="b3f17-102">Delegação no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b3f17-102">Delegation in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="delegation-in-lync-server-2013"></a><span data-ttu-id="06cf1-102">Delegação no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="06cf1-102">Delegation in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,24 +37,24 @@ ms.locfileid: "42190904"
 
 <span> </span>
 
-<span data-ttu-id="06cf1-103">_**Última modificação do tópico:** 2013-03-09_</span><span class="sxs-lookup"><span data-stu-id="06cf1-103">_**Topic Last Modified:** 2013-03-09_</span></span>
+<span data-ttu-id="b3f17-103">_**Última modificação do tópico:** 2013-03-09_</span><span class="sxs-lookup"><span data-stu-id="b3f17-103">_**Topic Last Modified:** 2013-03-09_</span></span>
 
-<span data-ttu-id="06cf1-104">Os recursos de delegação no Lync são afetados pelo roteamento baseado em local da seguinte maneira:</span><span class="sxs-lookup"><span data-stu-id="06cf1-104">The delegation capabilities in Lync are affected by Location-Based Routing in the following manner:</span></span>
+<span data-ttu-id="b3f17-104">Os recursos de delegação no Lync são afetados pelo roteamento Location-Based da seguinte maneira:</span><span class="sxs-lookup"><span data-stu-id="b3f17-104">The delegation capabilities in Lync are affected by Location-Based Routing in the following manner:</span></span>
 
-  - <span data-ttu-id="06cf1-105">Quando um representante habilitado para roteamento baseado em local coloca uma chamada em nome de um gerente, a política de voz do representante é usada para autorizar a chamada e a política de roteamento de voz do site do representante será usada para encaminhar a chamada</span><span class="sxs-lookup"><span data-stu-id="06cf1-105">When a delegate enabled for Location-Based Routing places a call on behalf of a manager, the delegate’s voice policy is used to authorize the call and the delegate’s site voice routing policy will be used to route the call</span></span>
+  - <span data-ttu-id="b3f17-105">Quando um representante habilitado para Location-Based roteamento coloca uma chamada em nome de um gerente, a política de voz do representante é usada para autorizar a chamada e a política de roteamento de voz do site do representante será usada para encaminhar a chamada</span><span class="sxs-lookup"><span data-stu-id="b3f17-105">When a delegate enabled for Location-Based Routing places a call on behalf of a manager, the delegate’s voice policy is used to authorize the call and the delegate’s site voice routing policy will be used to route the call</span></span>
 
-  - <span data-ttu-id="06cf1-106">Para chamadas PSTN de entrada para um gerente, as mesmas regras aplicáveis ao encaminhamento de chamadas ou ao toque simultâneo serão aplicadas conforme descrito nos tópicos de transferências de chamada e de encaminhamento e toque simultâneo.</span><span class="sxs-lookup"><span data-stu-id="06cf1-106">For incoming PSTN calls to a manager, the same rules applicable for call forwarding or simultaneously ringing will apply as described in the Call transfers and forwarding and Simultaneous ringing topics.</span></span>
+  - <span data-ttu-id="b3f17-106">Para chamadas PSTN de entrada para um gerente, as mesmas regras aplicáveis ao encaminhamento de chamadas ou ao toque simultâneo serão aplicadas conforme descrito nos tópicos de transferências de chamada e de encaminhamento e toque simultâneo.</span><span class="sxs-lookup"><span data-stu-id="b3f17-106">For incoming PSTN calls to a manager, the same rules applicable for call forwarding or simultaneously ringing will apply as described in the Call transfers and forwarding and Simultaneous ringing topics.</span></span>
 
-  - <span data-ttu-id="06cf1-107">Quando um representante define um ponto de extremidade PSTN como um alvo de anel simultâneo, para uma chamada de entrada para o gerente, a política de roteamento de voz do site que está associado ao tronco de entrada será usada para rotear a chamada para o ponto de extremidade PSTN do representante.</span><span class="sxs-lookup"><span data-stu-id="06cf1-107">When a delegate sets a PSTN endpoint as a simultaneous ring target, for an incoming call to the manager, the voice routing policy of the site that is associated to the incoming trunk will be used to route the call to the delegate’s PSTN endpoint.</span></span>
+  - <span data-ttu-id="b3f17-107">Quando um representante define um ponto de extremidade PSTN como um alvo de anel simultâneo, para uma chamada de entrada para o gerente, a política de roteamento de voz do site que está associado ao tronco de entrada será usada para rotear a chamada para o ponto de extremidade PSTN do representante.</span><span class="sxs-lookup"><span data-stu-id="b3f17-107">When a delegate sets a PSTN endpoint as a simultaneous ring target, for an incoming call to the manager, the voice routing policy of the site that is associated to the incoming trunk will be used to route the call to the delegate’s PSTN endpoint.</span></span>
 
-  - <span data-ttu-id="06cf1-108">Para delegação, é recomendável que o gerente e seus representantes associados estejam geralmente localizados no mesmo local de rede.</span><span class="sxs-lookup"><span data-stu-id="06cf1-108">For delegation, it’s recommended that the manager and his associated delegates to be usually located in the same network site.</span></span>
+  - <span data-ttu-id="b3f17-108">Para delegação, é recomendável que o gerente e seus representantes associados estejam geralmente localizados no mesmo local de rede.</span><span class="sxs-lookup"><span data-stu-id="b3f17-108">For delegation, it’s recommended that the manager and his associated delegates to be usually located in the same network site.</span></span>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="06cf1-109">Confira também</span><span class="sxs-lookup"><span data-stu-id="06cf1-109">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="b3f17-109">Confira também</span><span class="sxs-lookup"><span data-stu-id="b3f17-109">See Also</span></span>
 
 
-[<span data-ttu-id="06cf1-110">Cenários para roteamento baseado em local no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="06cf1-110">Scenarios for Location-Based Routing in Lync Server 2013</span></span>](lync-server-2013-scenarios-for-location-based-routing.md)  
+[<span data-ttu-id="b3f17-110">Cenários para Location-Based roteamento no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b3f17-110">Scenarios for Location-Based Routing in Lync Server 2013</span></span>](lync-server-2013-scenarios-for-location-based-routing.md)  
   
 
 </div>
