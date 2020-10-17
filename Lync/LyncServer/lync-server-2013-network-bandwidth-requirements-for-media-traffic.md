@@ -12,20 +12,22 @@ ms:contentKeyID: 49733716
 ms.date: 09/25/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a89517fb83fa5cd0c7defd62b47f7ddf9b29a303
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d10ef9e4ebf2c30c12e40c7f6f48f5ac36e58dce
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192544"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48505568"
 ---
+# <a name="network-bandwidth-requirements-for-media-traffic-in-lync-server-2013"></a>Requisitos de largura de banda de rede para tráfego de mídia no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="network-bandwidth-requirements-for-media-traffic-in-lync-server-2013"></a>Requisitos de largura de banda de rede para tráfego de mídia no Lync Server 2013
+
 
 </div>
 
@@ -127,9 +129,9 @@ Para vídeo, o codec padrão é o padrão de codificação de vídeo avançado H
 
 A largura de banda necessária depende da resolução, qualidade e taxa de quadros. Para cada resolução, há duas taxas de bits interessantes:
 
-  - **Taxa de bits**   máxima de Payload esta é a taxa de bits que um ponto de extremidade do Lync 2013 usará para resolução na taxa de quadros máxima suportada para esta resolução. Este valor é interessante porque permite a maior qualidade e taxa de quadros do vídeo.
+  - **Taxa de bits**     máxima de carga Esta é a taxa de bits que um ponto de extremidade do Lync 2013 usará para resolução na taxa de quadros máxima suportada para esta resolução. Este valor é interessante porque permite a maior qualidade e taxa de quadros do vídeo.
 
-  - **Taxa de bits**   de carga mínima esta é a taxa de bits abaixo da qual o ponto de extremidade do Lync 2013 mudará para a próxima resolução mais baixa. Para garantir uma determinada resolução, a taxa de bits de carga de vídeo disponível não deve ficar abaixo dessa taxa de bits mínima para essa resolução. Este valor é interessante para que você possa compreender o menor valor possível em casos onde a taxa de bit máxima não está disponível ou não é praticável. Para alguns usuários, um vídeo de baixa taxa de bits pode ser considerado uma experiência de vídeo inaceitável, portanto, tenha cuidado ao considerar essas taxa de bits de carga de vídeo mínimas. Observe que, para cenas de vídeo, com pouco ou nenhum movimento do usuário, a taxa de bits real também pode ficar abaixo da taxa de bits mínima.
+  - **Taxa de bits**     mínima de carga Esta é a taxa de bits abaixo da qual um ponto de extremidade do Lync 2013 mudará para a próxima resolução mais baixa. Para garantir uma determinada resolução, a taxa de bits de carga de vídeo disponível não deve ficar abaixo dessa taxa de bits mínima para essa resolução. Este valor é interessante para que você possa compreender o menor valor possível em casos onde a taxa de bit máxima não está disponível ou não é praticável. Para alguns usuários, um vídeo de baixa taxa de bits pode ser considerado uma experiência de vídeo inaceitável, portanto, tenha cuidado ao considerar essas taxa de bits de carga de vídeo mínimas. Observe que, para cenas de vídeo, com pouco ou nenhum movimento do usuário, a taxa de bits real também pode ficar abaixo da taxa de bits mínima.
 
 O Lync 2013 oferece suporte a muito mais soluções. Isso permite que você ajuste melhor a largura de banda de rede e os recursos de cliente diferentes. Além disso, a taxa de proporção padrão para o Lync 2013 foi alterada para 16:9. A taxa de proporção de 4:3 ainda é suportada para webcams que não permitem a captura em uma taxa de proporção 16:9.
 
@@ -265,7 +267,7 @@ Além da largura de banda necessária par ao tráfego do protocolo de transporte
 <tbody>
 <tr class="odd">
 <td><p>Áudio</p></td>
-<td><p>0,5</p></td>
+<td><p>5 </p></td>
 </tr>
 <tr class="even">
 <td><p>Vídeo (somente H. 264 ou RTVideo sendo enviado/recebido)</p></td>
@@ -281,9 +283,9 @@ Além da largura de banda necessária par ao tráfego do protocolo de transporte
 
 Para fins de planejamento de capacidade, as seguintes duas larguras de banda são interessantes:
 
-  - **Largura de banda máxima sem FEC**   a largura de banda máxima que um fluxo utilizará, incluindo a atividade típica do fluxo e o codec típico usado no cenário sem FEC.Esta é a largura de banda quando o fluxo está a 100% de atividade e não há perda de pacotes acionando o uso do FEC.Isto é interessante para computar quanta largura de banda deve ser alocada para permitir que o codec seja usado em um determinado cenário. 
+  - **Largura de banda máxima sem FEC**     A largura de banda máxima que um Stream utilizará, incluindo a atividade típica do fluxo e o codec típico usado no cenário sem FEC.Esta é a largura de banda quando o fluxo está a 100% de atividade e não há perda de pacotes acionando o uso do FEC.Isto é interessante para computar quanta largura de banda deve ser alocada para permitir que o codec seja usado em um determinado cenário. 
 
-  - **Largura de banda máxima com FEC**   a largura de banda máxima que um fluxo consome, incluindo a atividade típica do fluxo e o codec típico usado no cenário com FEC. Esta é a largura de banda quando o fluxo está a 100% de atividade e há perda de pacote acionando o uso do FEC para melhorar a qualidade. Isto é interessante para computar quanta largura de banda deve ser alocada para permitir que o codec seja usado em um determinado cenário e permitir o uso do FEC para preservar a qualidade em condições de perda de pacotes. 
+  - **Largura de banda máxima com FEC**     A largura de banda máxima que um fluxo consome, incluindo a atividade típica do fluxo e o codec típico usado no cenário com FEC. Esta é a largura de banda quando o fluxo está a 100% de atividade e há perda de pacote acionando o uso do FEC para melhorar a qualidade. Isto é interessante para computar quanta largura de banda deve ser alocada para permitir que o codec seja usado em um determinado cenário e permitir o uso do FEC para preservar a qualidade em condições de perda de pacotes. 
 
 As tabelas a seguir também lista um valor de largura de banda adicional, **Largura de banda típica**. Esta é a largura de banda média que um fluxo consome, incluindo a atividade típica do fluxo e o codec típico usado no cenário. Esta largura de banda pode ser usada para aproximar quanta largura de banda em um determinado tempo é consumida pelo tráfego de mídia, mas não deve ser usada para planejamento de capacidade, porque as chamadas individuais excederão este valor quando o nível de atividade é maior do que a média. A largura de banda de fluxo de vídeo típica nas tabelas abaixo baseia-se em uma mistura de diferentes resoluções de vídeo, conforme observado em dados de cliente medidos. Por exemplo, em sessões ponto a ponto, a maioria dos usuários usaria a janela de renderização de vídeo padrão, enquanto alguma porcentagem de usuários aumentaria ou maximizaria o aplicativo Lync para permitir resoluções de vídeo mais altas.
 

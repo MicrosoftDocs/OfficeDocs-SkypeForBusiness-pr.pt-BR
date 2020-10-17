@@ -12,20 +12,22 @@ ms:contentKeyID: 51541472
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bdf2ee113682ccee44d2329de68dfa87ea5824be
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ee394401999038c205826c99b3e6b2e35734087d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42179978"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506128"
 ---
+# <a name="create-or-modify-a-group-call-pickup-number-range-in-lync-server-2013"></a>Criar ou modificar um intervalo de números de recebimento de chamadas em grupo no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-a-group-call-pickup-number-range-in-lync-server-2013"></a>Criar ou modificar um intervalo de números de recebimento de chamadas em grupo no Lync Server 2013
+
 
 </div>
 
@@ -67,9 +69,9 @@ Os intervalos de números do grupo de recebimento de chamadas devem estar em con
 
   - O intervalo de números deve ser exclusivo. Esse intervalo não pode se sobrepor a nenhum outro intervalo.
 
-  - Se o intervalo de números começar com o \* caractere \#ou, o intervalo deve ser maior que 100.
+  - Se o intervalo de números começar com o caractere \* ou \# , o intervalo deve ser maior que 100.
 
-  - Valores válidos: devem corresponder à cadeia de caracteres de\[\\\*|\#\]expressão\[ regular (? 1-9\]\\d{0,7}) | (\[1-9\]\\d{0,8}). Isso significa que o valor deve ser uma cadeia de caracteres que comece \* com \# o caractere ou um número de 1 a 9 (o primeiro caractere não pode ser zero). Se o primeiro caractere for \* ou \#, o caractere seguinte deve ser um número de 1 a 9 (não pode ser zero). Os caracteres subsequentes podem ser qualquer número de 0 a 9 até sete caracteres adicionais (por exemplo\#, "6000"\*, "92000"\*, "95551212" e "915551212"). Se o primeiro caractere não \* for ou \#, o primeiro caractere deve ser um número de 1 a 9 (não pode ser zero), seguido por até oito caracteres, cada um com um número de 0 a 9 (por exemplo, "915551212", "41212", "300").
+  - Valores válidos: devem corresponder à cadeia de caracteres de expressão regular ( \[ \\ \* | \# \] ? \[ 1-9 \] \\ d {0,7} ) | ( \[ 1-9 \] \\ d {0,8} ). Isso significa que o valor deve ser uma cadeia de caracteres que comece com o caractere \* ou \# um número de 1 a 9 (o primeiro caractere não pode ser zero). Se o primeiro caractere for \* ou \# , o caractere seguinte deve ser um número de 1 a 9 (não pode ser zero). Os caracteres subsequentes podem ser qualquer número de 0 a 9 até sete caracteres adicionais (por exemplo, " \# 6000", " \* 92000", " \* 95551212" e "915551212"). Se o primeiro caractere não for \* ou \# , o primeiro caractere deve ser um número de 1 a 9 (não pode ser zero), seguido por até oito caracteres, cada um com um número de 0 a 9 (por exemplo, "915551212", "41212", "300").
 
 <div>
 

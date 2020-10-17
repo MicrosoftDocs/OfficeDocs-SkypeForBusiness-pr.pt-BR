@@ -12,20 +12,22 @@ ms:contentKeyID: 49733587
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7a4b668291c0e8ba5c402f17288bebe342ccceb1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 763e60533af230f613be89cad16379b851549801
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211437"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506428"
 ---
+# <a name="view-dial-plan-information-in-lync-server-2013"></a>Exibir informações do plano de discagem no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="view-dial-plan-information-in-lync-server-2013"></a>Exibir informações do plano de discagem no Lync Server 2013
+
 
 </div>
 
@@ -66,7 +68,7 @@ Para exibir informações de um plano de discagem existente, realize as etapas n
 
 ## <a name="to-view-dial-plans-by-using-windows-powershell-cmdlets"></a>Para exibir planos de discagem usando cmdlets do Windows PowerShell
 
-  - Os planos de discagem podem ser exibidos usando a interface de linha de comando do Windows PowerShell e o cmdlet **Get-CsDialPlan** . Este cmdlet pode ser executado a partir do Shell de gerenciamento do Lync Server 2013 ou de uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Lync Server, consulte o artigo de blog do Lync Server Windows PowerShell "início rápido: Managing Microsoft Lync Server [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)2010 using Remote PowerShell" em.
+  - Os planos de discagem podem ser exibidos usando a interface de linha de comando do Windows PowerShell e o cmdlet **Get-CsDialPlan** . Este cmdlet pode ser executado a partir do Shell de gerenciamento do Lync Server 2013 ou de uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Lync Server, consulte o artigo de blog do Lync Server Windows PowerShell "início rápido: Managing Microsoft Lync Server 2010 using Remote PowerShell" em [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) .
     
     Para exibir informações sobre todos os planos de discagem, digite o seguinte comando no Shell de gerenciamento do Lync Server e pressione ENTER:
     

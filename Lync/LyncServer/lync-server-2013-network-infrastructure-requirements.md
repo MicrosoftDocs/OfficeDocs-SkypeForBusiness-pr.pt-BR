@@ -12,20 +12,22 @@ ms:contentKeyID: 48183804
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3571dba317998af4fe19f7d2dfd1677d3691f278
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 338e2387b08898694bd621e220d7f889a8d25e0a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217107"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48505538"
 ---
+# <a name="network-infrastructure-requirements-for-lync-server-2013"></a>Requisitos de infraestrutura de rede para o Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="network-infrastructure-requirements-for-lync-server-2013"></a>Requisitos de infraestrutura de rede para o Lync Server 2013
+
 
 </div>
 
@@ -57,7 +59,7 @@ Os requisitos de rede para áudio/vídeo (A/V) em uma implantação do Lync Serv
     
 
     > [!IMPORTANT]  
-    > Se você tiver um pool de borda e estiver usando um balanceador de carga de hardware, deverá usar endereços IP públicos em cada um dos servidores de borda e não poderá usar o NAT para os servidores ou o pool no seu dispositivo NAT (por exemplo, o firewall ou outro dispositivo de infraestrutura que iria NAT inbou nd ou tráfego de saída). Para obter detalhes, consulte <A href="lync-server-2013-port-summary-scaled-consolidated-edge-with-hardware-load-balancers.md">port SUMMARY-escalada Consolidated Edge with hardware Load balancers in Lync Server 2013</A> na documentação Planning for External User Access.
+    > Se você tiver um pool de borda e estiver usando um balanceador de carga de hardware, você deverá usar endereços IP públicos em cada um dos servidores de borda e não poderá usar o NAT para os servidores ou o pool no seu dispositivo NAT (por exemplo, o firewall ou outro dispositivo de infraestrutura que iria fazer o tráfego de entrada ou saída). Para obter detalhes, consulte <A href="lync-server-2013-port-summary-scaled-consolidated-edge-with-hardware-load-balancers.md">port SUMMARY-escalada Consolidated Edge with hardware Load balancers in Lync Server 2013</A> na documentação Planning for External User Access.
 
     
     </div>
@@ -70,7 +72,7 @@ Para garantir a melhor qualidade da mídia, siga este procedimento:
 
   - Provisione os vínculos da rede para dar suporte a uma taxa de transferência de 65 Kbps (quilobits por segundo) por fluxo de áudio e 500 Kbps por fluxo de vídeo, se estiver habilitado, durante os períodos de uso máximo. Uma sessão de áudio ou vídeo bidirecional consiste em dois fluxos.
 
-  - Para lidar com picos inesperados no tráfego acima desse nível e maior uso com o passar do tempo, os pontos de extremidade de mídia do Lync Server podem se adaptar às diferentes condições de rede e às cargas de suporte de três vezes a taxa de transferência (consulte o parágrafo anterior) para áudio e vídeo enquanto ainda manter a qualidade aceitável. No entanto, não presuma que essa adaptabilidade suportará uma rede subprovisionada. Em uma rede subvisionada, a capacidade dos pontos de extremidade de mídia do Lync Server de lidar dinamicamente com condições de rede variáveis (por exemplo, perda de pacote de alta capacidade temporária) é reduzida.
+  - Para lidar com picos inesperados no tráfego acima desse nível e maior uso com o passar do tempo, os pontos de extremidade de mídia do Lync Server podem se adaptar às diferentes condições de rede e às cargas de suporte de três vezes a taxa de transferência (consulte o parágrafo anterior) para áudio e vídeo enquanto ainda mantém a qualidade aceitável. No entanto, não presuma que essa adaptabilidade suportará uma rede subprovisionada. Em uma rede subvisionada, a capacidade dos pontos de extremidade de mídia do Lync Server de lidar dinamicamente com condições de rede variáveis (por exemplo, perda de pacote de alta capacidade temporária) é reduzida.
 
   - Para vínculos de rede em que o provisionamento envolve altíssimo custo e dificuldade, considere a opção de provisionar para um volume menor de tráfego. Neste cenário, deixe a elasticidade dos pontos de extremidade de mídia do Lync Server absorver a diferença entre o volume de tráfego e o nível de tráfego de pico, ao custo de alguma redução na qualidade de voz. Além disso, há uma diminuição na reserva dinâmica que, de outra forma, estaria disponível para absorver picos súbitos de tráfego.
 

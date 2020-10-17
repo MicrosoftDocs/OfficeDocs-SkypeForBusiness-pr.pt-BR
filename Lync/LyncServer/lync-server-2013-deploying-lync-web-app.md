@@ -12,20 +12,22 @@ ms:contentKeyID: 48185189
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8babb6bf37e3dd75f2051dd08f0b2ebf3a4f093b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2156466e0238a061f2358127c75408fa37e3b823
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195344"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507528"
 ---
+# <a name="deploying-lync-web-app-in-lync-server-2013"></a>Implantando o Lync Web App no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploying-lync-web-app-in-lync-server-2013"></a>Implantando o Lync Web App no Lync Server 2013
+
 
 </div>
 
@@ -55,7 +57,7 @@ Os recursos de voz, vídeo e compartilhamento no Lync Web App requerem um contro
 
 ## <a name="enabling-multi-factor-authentication-for-lync-web-app"></a>Habilitando a autenticação multifator para o Lync Web App
 
-A versão do Lync Server 2013 do Lync Web App oferece suporte à autenticação multifator. Além de nome de usuário e senha, você pode exigir métodos de autenticação adicionais, como cartões inteligentes ou PINs, para autenticar usuários que estão participando de redes externas quando eles entram nas reuniões do Lync. Você pode habilitar a autenticação multifator implantando o servidor de Federação do serviço de Federação do Active Directory (AD FS) e habilitando a autenticação passiva no Lync Server 2013. Após a configuração do AD FS, os usuários externos que tentarem ingressar em reuniões do Lync serão apresentados com uma página da Web de autenticação multifator do AD FS que contém o nome de usuário e o desafio de senha, juntamente com quaisquer métodos de autenticação adicionais que você tenha configurado .
+A versão do Lync Server 2013 do Lync Web App oferece suporte à autenticação multifator. Além de nome de usuário e senha, você pode exigir métodos de autenticação adicionais, como cartões inteligentes ou PINs, para autenticar usuários que estão participando de redes externas quando eles entram nas reuniões do Lync. Você pode habilitar a autenticação multifator implantando o servidor de Federação do serviço de Federação do Active Directory (AD FS) e habilitando a autenticação passiva no Lync Server 2013. Após a configuração do AD FS, os usuários externos que tentarem ingressar em reuniões do Lync serão apresentados com uma página da Web de autenticação multifator do AD FS que contém o nome de usuário e o desafio de senha juntamente com quaisquer métodos de autenticação adicionais que você tenha configurado.
 
 <div class=" ">
 
@@ -78,9 +80,9 @@ A versão do Lync Server 2013 do Lync Web App oferece suporte à autenticação 
 
 **Configurar a autenticação multifator**
 
-1.  Instale uma função de servidor de federação do AD FS. Para obter detalhes, consulte o guia de implantação do serviços de Federação do Active Directory 2,0 em<https://go.microsoft.com/fwlink/p/?linkid=267511>
+1.  Instale uma função de servidor de federação do AD FS. Para obter detalhes, consulte o guia de implantação do serviços de Federação do Active Directory 2,0 em <https://go.microsoft.com/fwlink/p/?linkid=267511>
 
-2.  Criar certificados para o AD FS. Para obter mais informações, consulte a seção "certificados do servidor de Federação" do tópico planejar e implantar o AD FS para uso com o logon único [https://go.microsoft.com/fwlink/p/?LinkId=285376](https://go.microsoft.com/fwlink/p/?linkid=285376)em.
+2.  Criar certificados para o AD FS. Para obter mais informações, consulte a seção "certificados do servidor de Federação" do tópico planejar e implantar o AD FS para uso com o logon único em [https://go.microsoft.com/fwlink/p/?LinkId=285376](https://go.microsoft.com/fwlink/p/?linkid=285376) .
 
 3.  Na interface de linha de comando do Windows PowerShell, execute o seguinte comando:
     ```powershell
@@ -113,7 +115,7 @@ A versão do Lync Server 2013 do Lync Web App oferece suporte à autenticação 
 
 O recurso BranchCache no Windows 7 e no Windows Server 2008 R2 pode interferir nos componentes Web do Lync Web App. Para evitar problemas para usuários do Lync Web App, verifique se o BranchCache não está habilitado.
 
-Para obter detalhes sobre como desabilitar o BranchCache, consulte o guia de implantação do BranchCache, que está disponível no formato Word no centro [https://go.microsoft.com/fwlink/p/?LinkId=268788](https://go.microsoft.com/fwlink/p/?linkid=268788) de download da Microsoft em e no formato HTML na biblioteca técnica do [https://go.microsoft.com/fwlink/p/?LinkId=268789](https://go.microsoft.com/fwlink/p/?linkid=268789)Windows Server 2008 R2 em.
+Para obter detalhes sobre como desabilitar o BranchCache, consulte o guia de implantação do BranchCache, que está disponível no formato Word no centro de download da Microsoft em [https://go.microsoft.com/fwlink/p/?LinkId=268788](https://go.microsoft.com/fwlink/p/?linkid=268788) e no formato HTML na biblioteca técnica do Windows Server 2008 R2 em [https://go.microsoft.com/fwlink/p/?LinkId=268789](https://go.microsoft.com/fwlink/p/?linkid=268789) .
 
 </div>
 
@@ -158,9 +160,9 @@ Se a instalação do plug-in falhar em um computador executando o Windows Server
 
 2.  Para acessar o Editor de registro, digite **regedit**.
 
-3.  Navegue até HKEY\_local\_Machine\\software\\\\Policies\\Microsoft\\Windows Installer.
+3.  Navegue até HKEY \_ local \_ Machine \\ software \\ Policies \\ Microsoft \\ Windows \\ Installer.
 
-4.  Edite ou adicione a chave do registro DisableMSI do\_tipo reg DWORD e defina-a como 0.
+4.  Edite ou adicione a chave do registro DisableMSI do tipo REG \_ DWORD e defina-a como 0.
 
 5.  Reingresse na reunião.
 

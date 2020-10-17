@@ -12,20 +12,22 @@ ms:contentKeyID: 48679567
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ab897bf5bc9d959089090ebeaaddc4d766549401
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: bdb09d52970b5fd97395acda6a2e4fbc824a378d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217117"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48505588"
 ---
+# <a name="negotiation-settings-for-xmpp-federated-partners-in-lync-server-2013"></a>Configurações de negociação para parceiros federados XMPP no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="negotiation-settings-for-xmpp-federated-partners-in-lync-server-2013"></a>Configurações de negociação para parceiros federados XMPP no Lync Server 2013
+
 
 </div>
 
@@ -69,21 +71,21 @@ As configurações dos tipos de negociação na configuração de um parceiro do
 <tr class="even">
 <td><p>Obrigatório</p></td>
 <td><p>Opcional</p></td>
-<td><p>True</p></td>
+<td><p>Verdadeiro.</p></td>
 <td><p>SASL sobre TLS, TLS Dialback, TCP Dialback</p></td>
 <td><p>Ao exigir TLS, se o parceiro federado XMPP tiver definido SASL como opcional ou obrigatório, o SASL será usado. Se SASL não estiver disponível, o Dialback sobre TLS será usado.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Opcional</p></td>
 <td><p>Opcional</p></td>
-<td><p>True</p></td>
+<td><p>Verdadeiro.</p></td>
 <td><p>SASL sobre TLS, TLS Dialback, TCP Dialback</p></td>
 <td><p>Embora muito flexível nos métodos de negociação oferecidos, essas configurações dependem das configurações do parceiro de Federação do XMPP. Se o parceiro tiver o TLS opcional ou necessário, mas o SASL não for suportado, o TLS Dialback estará disponível. Se o parceiro tiver TLS e SASL definido como Optional ou Required, a seleção ideal de TLS sobre o SASL será usada.</p></td>
 </tr>
 <tr class="even">
 <td><p>Não Suportado</p></td>
 <td><p>Não Suportado</p></td>
-<td><p>True</p></td>
+<td><p>Verdadeiro.</p></td>
 <td><p>TCP Dialback</p></td>
 <td><p>Em muitos casos, o TCP Dialback é a única solução possível. Menos desejável que outras opções, ele fornece algum nível de confiança.</p></td>
 </tr>
@@ -114,7 +116,7 @@ As configurações dos tipos de negociação na configuração de um parceiro do
 <tr class="odd">
 <td><p>Obrigatório</p></td>
 <td><p>Obrigatório</p></td>
-<td><p>True</p></td>
+<td><p>Verdadeiro.</p></td>
 <td><p>SASL sobre TLS</p></td>
 <td><div>
 
@@ -134,7 +136,7 @@ As configurações dos tipos de negociação na configuração de um parceiro do
 <tr class="odd">
 <td><p>Opcional</p></td>
 <td><p>Obrigatório</p></td>
-<td><p>True</p></td>
+<td><p>Verdadeiro.</p></td>
 <td><p>SASL sobre TLS, TLS Dialback, TCP Dialback</p></td>
 <td><div>
 
@@ -160,7 +162,7 @@ As configurações dos tipos de negociação na configuração de um parceiro do
 <tr class="odd">
 <td><p>Não suportado</p></td>
 <td><p>Obrigatório</p></td>
-<td><p>True</p></td>
+<td><p>Verdadeiro.</p></td>
 <td><p>TCP Dialback</p></td>
 <td><div>
 
@@ -192,7 +194,7 @@ As configurações dos tipos de negociação na configuração de um parceiro do
 <tr class="odd">
 <td><p>Obrigatório</p></td>
 <td><p>Opcional</p></td>
-<td><p>True</p></td>
+<td><p>Verdadeiro.</p></td>
 <td><p>SASL sobre TLS, TLS Dialback</p></td>
 <td></td>
 </tr>
@@ -206,7 +208,7 @@ As configurações dos tipos de negociação na configuração de um parceiro do
 <tr class="odd">
 <td><p>Opcional</p></td>
 <td><p>Opcional</p></td>
-<td><p>True</p></td>
+<td><p>Verdadeiro.</p></td>
 <td><p>SASL sobre TLS, TLS Dialback, TCP Dialback</p></td>
 <td><div>
 
@@ -232,7 +234,7 @@ As configurações dos tipos de negociação na configuração de um parceiro do
 <tr class="odd">
 <td><p>Não suportado</p></td>
 <td><p>Opcional</p></td>
-<td><p>True</p></td>
+<td><p>Verdadeiro.</p></td>
 <td><p>TCP Dialback</p></td>
 <td><div>
 
@@ -264,7 +266,7 @@ As configurações dos tipos de negociação na configuração de um parceiro do
 <tr class="odd">
 <td><p>Obrigatório</p></td>
 <td><p>Não suportado</p></td>
-<td><p>True</p></td>
+<td><p>Verdadeiro.</p></td>
 <td><p>TLS Dialback</p></td>
 <td><p>A configuração permite o TLS Dialback.</p></td>
 </tr>
@@ -284,7 +286,7 @@ As configurações dos tipos de negociação na configuração de um parceiro do
 <tr class="odd">
 <td><p>Opcional</p></td>
 <td><p>Não suportado</p></td>
-<td><p>True</p></td>
+<td><p>Verdadeiro.</p></td>
 <td><p>TLS Dialback, TCP Dialback</p></td>
 <td><p>Com base nas opções de negociação do outro ponto de extremidade, os Dialback TCP ou TLS serão aceitos.</p></td>
 </tr>
@@ -304,7 +306,7 @@ As configurações dos tipos de negociação na configuração de um parceiro do
 <tr class="odd">
 <td><p>Não Suportado</p></td>
 <td><p>Não Suportado</p></td>
-<td><p>True</p></td>
+<td><p>Verdadeiro.</p></td>
 <td><p>TCP Dialback</p></td>
 <td><p>O TCP Dialback é o único método de negociação disponível</p></td>
 </tr>

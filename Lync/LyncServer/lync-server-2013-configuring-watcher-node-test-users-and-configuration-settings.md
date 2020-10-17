@@ -12,20 +12,22 @@ ms:contentKeyID: 48185048
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 78d52e6a7eb36ce0f000a9986480d62692d3a33d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 65ecb6946bcbb7244ef3e5ef8504312063ab1bd9
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195524"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507518"
 ---
+# <a name="configuring-watcher-node-test-users-and-configuration-settings-in-lync-server-2013"></a>Configurando os usuários de teste do nó do Inspetor e definições de configuração no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-watcher-node-test-users-and-configuration-settings-in-lync-server-2013"></a>Configurando os usuários de teste do nó do Inspetor e definições de configuração no Lync Server 2013
+
 
 </div>
 
@@ -59,7 +61,7 @@ Esta seção cobre:
 
 ## <a name="configuring-test-user-accounts"></a>Configurando contas de usuário de teste
 
-Os usuários de teste não precisam representar pessoas reais, mas devem ser contas válidas dos serviços de domínio do Active Directory; Além disso, essas contas devem ser habilitadas para o Lync Server 2013, elas devem ter endereços SIP válidos e devem ser habilitadas para o Enterprise Voice (para usar a transação sintética test-CsPstnPeerToPeerCall). Se você usar o método de autenticação TrustedServer, então será necessário certificar-se de que essas contas existem e foram configuradas como especificado aqui. É necessário atribuir pelo menos três usuários de teste a cada pool que deseja testar.
+Os usuários de teste não precisam representar pessoas reais, mas devem ser contas válidas dos serviços de domínio do Active Directory; Além disso, essas contas devem ser habilitadas para o Lync Server 2013, elas devem ter endereços SIP válidos e devem ser habilitadas para o Enterprise Voice (para usar a transação sintética Test-CsPstnPeerToPeerCall). Se você usar o método de autenticação TrustedServer, então será necessário certificar-se de que essas contas existem e foram configuradas como especificado aqui. É necessário atribuir pelo menos três usuários de teste a cada pool que deseja testar.
 
 Se você estiver usando o método de autenticação Negotiate, você também deve usar o cmdlet **set-CsTestUserCredential** e o Shell de gerenciamento do Lync Server para permitir que essas contas de teste funcionem com as transações sintéticas. Isso pode ser feito executando um comando semelhante a este. (Estes comandos presumem que as três contas de usuário do Active Directory já tenham sido criadas e que essas contas tenham sido habilitadas para o Lync Server 2013.):
 
@@ -67,7 +69,7 @@ Se você estiver usando o método de autenticação Negotiate, você também dev
     Set-CsTestUserCredential -SipAddress "sip:watcher2@litwareinc.com" -UserName "litwareinc\watcher2" -Password "P@ssw0rd"
     Set-CsTestUserCredential -SipAddress "sip:watcher3@litwareinc.com" -UserName "litwareinc\watcher3" -Password "P@ssw0rd"
 
-Observe que é necessário incluir não apenas o endereço SIP, mas também o nome e a senha do usuário. Se não incluir a senha, Set-CsTestUserCredential solicitará que você insira essas informações. O nome de usuário pode ser especificado usando o formato\\nome de usuário do nome de domínio mostrado acima ou usando o nome de usuário do formato name@domain; por exemplo:
+Observe que é necessário incluir não apenas o endereço SIP, mas também o nome e a senha do usuário. Se não incluir a senha, Set-CsTestUserCredential solicitará que você insira essas informações. O nome de usuário pode ser especificado usando o formato de nome de usuário de nome de domínio \\ mostrado acima ou usando o nome de Name@domain usuário de formato; por exemplo:
 
     -UserName "watcher3@litwareinc.com"
 

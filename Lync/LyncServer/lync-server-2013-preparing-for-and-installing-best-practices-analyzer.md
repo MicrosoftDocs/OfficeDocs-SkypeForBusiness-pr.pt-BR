@@ -12,20 +12,22 @@ ms:contentKeyID: 48184149
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 59bcaca40414c9bd99e451846c0339d0af6e7bf3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d6a1ddaff4813035cabc8ca6b7468f1d4d06c93e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183714"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506928"
 ---
+# <a name="preparing-for-and-installing-best-practices-analyzer-in-lync-server-2013"></a>Preparando e instalando o Best Practices Analyzer no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="preparing-for-and-installing-best-practices-analyzer-in-lync-server-2013"></a>Preparando e instalando o Best Practices Analyzer no Lync Server 2013
+
 
 </div>
 
@@ -93,9 +95,9 @@ Você pode instalar o Best Practices Analyzer em computadores com um sistema ope
 
 ## <a name="installing-best-practices-analyzer"></a>Instalando o Analisador de Práticas Recomendadas
 
-Você pode baixar o Best Practices Analyzer for Lync Server 2013 [https://go.microsoft.com/fwlink/p/?linkId=266539](https://go.microsoft.com/fwlink/p/?linkid=266539)em.
+Você pode baixar o Best Practices Analyzer for Lync Server 2013 em [https://go.microsoft.com/fwlink/p/?linkId=266539](https://go.microsoft.com/fwlink/p/?linkid=266539) .
 
-Para instalar o Analisador de Práticas Recomendadas, inicie o arquivo RtcBPA.msi do Arquivo Microsoft Installer (.msi) no computador no qual você deseja instalar a ferramenta e, em seguida, siga as instruções na tela. O local padrão para instalar os arquivos de programa \<é arquivos\>\\\\de programa da unidade de\\sistema do Lync Server 2013 BPA.
+Para instalar o Analisador de Práticas Recomendadas, inicie o arquivo RtcBPA.msi do Arquivo Microsoft Installer (.msi) no computador no qual você deseja instalar a ferramenta e, em seguida, siga as instruções na tela. O local padrão para a instalação dos arquivos de programa é \<system drive\> \\ arquivos de programa do \\ Lync Server 2013 \\ BPA.
 
 </div>
 

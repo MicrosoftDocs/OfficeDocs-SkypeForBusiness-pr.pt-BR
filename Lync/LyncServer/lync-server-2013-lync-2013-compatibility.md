@@ -12,20 +12,22 @@ ms:contentKeyID: 51541502
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 19563b36f874bb3a13e1af897ed9ef41d31b4e42
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0af6d5d11494e24ecf54dd2ff06cbee9011814e4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186384"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507248"
 ---
+# <a name="lync-2013-compatibility"></a>Compatibilidade do Lync 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="lync-2013-compatibility"></a>Compatibilidade do Lync 2013
+
 
 </div>
 
@@ -184,7 +186,7 @@ Os seguintes recursos estão disponíveis somente com o Office 2010 ou o Office 
 
   - Responder com IM ou chamada a partir da faixa de opções Início do Outlook, nas pastas E-mail, Calendário, Contatos e Tarefas
 
-  - Lista de contatos do Lync na barra de tarefas pendentes do Outlook
+  - Lista de contatos do Lync na barra do Outlook To-Do
 
   - Status de presença, compartilhamento de programas e transferência de arquivos no Office Backstage (guia Arquivo)
 
@@ -282,7 +284,7 @@ Além disso, o recurso de integração XMPP do Lync Server 2013 permite que os u
 </colgroup>
 <thead>
 <tr class="header">
-<th>Client</th>
+<th>Cliente</th>
 <th>Recursos suportados</th>
 </tr>
 </thead>

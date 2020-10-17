@@ -12,20 +12,22 @@ ms:contentKeyID: 48184770
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c30164813619a271f2321db3ff3e8019067193c0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ac215b5a0ba42ff031962e656e72fb355a808bf4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198954"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507468"
 ---
+# <a name="create-a-dns-srv-record-for-integration-with-hosted-exchange-um"></a>Criar um registro SRV de DNS para integração com a UM do Exchange hospedado
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-a-dns-srv-record-for-integration-with-hosted-exchange-um"></a>Criar um registro SRV de DNS para integração com a UM do Exchange hospedado
+
 
 </div>
 
@@ -62,9 +64,9 @@ Este tópico descreve como configurar o registro SRV do sistema de nomes de dom�
 
 5.  Em **Tipo de Registro de Recurso**, clique em **Local do serviço (SRV)** e em **Criar registro**.
 
-6.  Em **novo registro de recurso**, clique em **serviço**e digite ** \_sipfederationtls**.
+6.  Em **novo registro de recurso**, clique em **serviço**e digite ** \_ sipfederationtls**.
 
-7.  Clique em **protocolo**e digite ** \_TCP**.
+7.  Clique em **protocolo**e digite ** \_ TCP**.
 
 8.  Clique em **Número da Porta** e digite **5061**.
 
@@ -74,7 +76,7 @@ Este tópico descreve como configurar o registro SRV do sistema de nomes de dom�
     
 
     > [!NOTE]
-    > O domínio também deve ser configurado como um domínio autoritativo, aceito em suas configurações do Exchange Online. Para obter detalhes, consulte criar domínios aceitos em <A href="https://go.microsoft.com/fwlink/p/?linkid=229762">https://go.microsoft.com/fwlink/p/?linkId=229762</A>.
+    > O domínio também deve ser configurado como um domínio autoritativo, aceito em suas configurações do Exchange Online. Para obter detalhes, consulte criar domínios aceitos em <A href="https://go.microsoft.com/fwlink/p/?linkid=229762">https://go.microsoft.com/fwlink/p/?linkId=229762</A> .
 
     
     </div>

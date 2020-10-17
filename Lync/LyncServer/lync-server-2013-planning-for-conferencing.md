@@ -12,20 +12,22 @@ ms:contentKeyID: 48184937
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1b7f20857eded55c2488582c4b228bf0a53905c1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6bf1bf0ce10281bf4d31fc8fdb1be9251b72caf6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202067"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507018"
 ---
+# <a name="planning-for-conferencing-in-lync-server-2013"></a>Planejamento de conferência no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-conferencing-in-lync-server-2013"></a>Planejamento de conferência no Lync Server 2013
+
 
 </div>
 
@@ -55,7 +57,7 @@ Ao implantar o Lync Server 2013, servidor front-end, você pode optar por implan
 
 
 > [!NOTE]  
-> Se sua implantação incluir reuniões organizadas usando o Office Communicator 2007 R2 clients (incluindo o console do Live Meeting ou o suplemento de conferência para Microsoft Office Outlook), as reuniões terão as seguintes limitações depois de serem migradas para o Lync Servidor 2013: 
+> Se sua implantação incluir reuniões organizadas usando o Office Communicator 2007 R2 clients (incluindo o console do Live Meeting ou o suplemento de conferência para Microsoft Office Outlook), as reuniões terão as seguintes limitações depois de serem migradas para o Lync Server 2013: 
 > <UL>
 > <LI>
 > <P>Os usuários da reunião não poderão usar os recursos de colaboração de dados, incluindo colaboração de documentos, compartilhamento de aplicativos e compartilhamento de área de trabalho.</P>

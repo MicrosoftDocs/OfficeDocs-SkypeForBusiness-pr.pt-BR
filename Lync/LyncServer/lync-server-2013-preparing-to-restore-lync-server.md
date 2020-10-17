@@ -12,20 +12,22 @@ ms:contentKeyID: 51541490
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fd5875dc7e0dd999a1d94e6e7722eeba07c3a37e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2f31354ee87cdf7df5efdb6c4e2accf3758829c1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183604"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506828"
 ---
+# <a name="preparing-to-restore-lync-server-2013"></a>Preparando para restaurar o Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="preparing-to-restore-lync-server-2013"></a>Preparando para restaurar o Lync Server 2013
+
 
 </div>
 
@@ -134,7 +136,7 @@ Quando você restaurar um servidor, será necessário iniciar com um computador 
     
 
     > [!NOTE]  
-    > O assistente de implantação do Lync Server instala automaticamente o SQL Server 2012 Express em cada servidor Standard Edition e em qualquer outro servidor do Lync Server quando um repositório de configuração local é instalado, a menos que você tenha pré-instalado o SQL Server 2012 ou o SQL Server 2008 R2 no o servidor.
+    > O assistente de implantação do Lync Server instala automaticamente o SQL Server 2012 Express em cada servidor Standard Edition e em qualquer outro servidor do Lync Server quando um repositório de configuração local é instalado, a menos que você tenha pré-instalado o SQL Server 2012 ou o SQL Server 2008 R2 no servidor.
 
     
     </div>
@@ -150,7 +152,7 @@ Quando você restaurar um servidor, será necessário iniciar com um computador 
     
     </div>
 
-  - Software de instalação do Lync Server 2013. O assistente de implantação do Lync Server está localizado na pasta de instalação do Lync Server \\ou\\na\\mídia no arquivo de instalação amd64. exe.
+  - Software de instalação do Lync Server 2013. O assistente de implantação do Lync Server está localizado na pasta de instalação do Lync Server ou mídia no \\ arquivo de instalação \\ AMD64 \\Setup.exe.
 
 Durante a restauração, você pode usar as seguintes ferramentas:
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 49733731
 ms.date: 01/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c15eb698babcce1cd104dd7206c037b95d402992
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 883242824a6dfc45dbae923736a7a88bc1784d62
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186344"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506058"
 ---
+# <a name="lync-client-video-requirements-for-lync-server-2013"></a>Requisitos de vídeo do cliente Lync para Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="lync-client-video-requirements-for-lync-server-2013"></a>Requisitos de vídeo do cliente Lync para Lync Server 2013
+
 
 </div>
 
@@ -71,7 +73,7 @@ O Lync 2013 introduz a aceleração de hardware para codificação e decodifica�
 <div>
 
 > [!NOTE]  
-> Para obter detalhes sobre os modos de decodificação, consulte <A href="https://go.microsoft.com/fwlink/p/?linkid=268530">https://go.microsoft.com/fwlink/p/?LinkId=268530</A>.
+> Para obter detalhes sobre os modos de decodificação, consulte <A href="https://go.microsoft.com/fwlink/p/?linkid=268530">https://go.microsoft.com/fwlink/p/?LinkId=268530</A> .
 
 
 </div></td>
@@ -122,7 +124,7 @@ Geralmente, há quatro fatores principais que determinam a capacidade máxima de
 
   - Índice de experiência do Windows (WEI)
 
-A ferramenta de avaliação de sistema do Windows (WinSAT) determina o WEI. Quando você executa a ferramenta WinSAT, ela gera um documento XML formal de avaliação no computador no diretório de repositório do WinSAT\\\\do\\desempenho% windir%. Este arquivo XML contém as duas pontuações a seguir de importância específica para determinar as funcionalidades de codificação e decodificação:
+A ferramenta de avaliação de sistema do Windows (WinSAT) determina o WEI. Quando você executa a ferramenta WinSAT, ela gera um documento XML formal de avaliação no computador no diretório de repositório do WinSAT do desempenho% windir% \\ \\ \\ . Este arquivo XML contém as duas pontuações a seguir de importância específica para determinar as funcionalidades de codificação e decodificação:
 
   - O VideoEncodeScore indica a capacidade de codificação de vídeo baseada em software do computador.
 
@@ -179,7 +181,7 @@ As três tabelas a seguir explicam a capacidade máxima de codificação e decod
 <tr class="odd">
 <td><p>1920 x 1080</p></td>
 <td><p>1920 x 1080</p></td>
-<td><p>Não disponível</p></td>
+<td><p>N/D</p></td>
 </tr>
 </tbody>
 </table>

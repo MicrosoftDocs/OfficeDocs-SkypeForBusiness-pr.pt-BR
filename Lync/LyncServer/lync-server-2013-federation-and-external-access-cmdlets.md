@@ -12,20 +12,22 @@ ms:contentKeyID: 48184018
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: de54627a1effa25c6dbf16944c933c8d01441e4a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a4f02160ad9991905bf0f149a2beb72ef21169e7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42179502"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507288"
 ---
+# <a name="federation-and-external-access-cmdlets-in-lync-server-2013"></a>Cmdlets de Federação e acesso externo no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="federation-and-external-access-cmdlets-in-lync-server-2013"></a>Cmdlets de Federação e acesso externo no Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42179502"
 
 _**Última modificação do tópico:** 2012-06-26_
 
-A Federação e o acesso externo fornecem dois recursos importantes: a Federação permite que os usuários se comuniquem com pessoas de fora da sua organização, enquanto o acesso externo permite que os usuários se conectem ao Microsoft Lync Server 2013 de fora da rede interna. Os cmdlets disponíveis para gerenciar a Federação e o acesso externo no Lync Server 2013 permitem que você determine quem seus usuários podem (e não) se comunicam e determine se esses usuários podem ou não se conectar ao Lync Server sem ter que fazer logon no interno rede.
+A Federação e o acesso externo fornecem dois recursos importantes: a Federação permite que os usuários se comuniquem com pessoas de fora da sua organização, enquanto o acesso externo permite que os usuários se conectem ao Microsoft Lync Server 2013 de fora da rede interna. Os cmdlets disponíveis para gerenciar a Federação e o acesso externo no Lync Server 2013 permitem que você determine quem seus usuários podem (e não) se comunicam e determine se esses usuários podem ou não se conectar ao Lync Server sem ter que fazer logon na rede interna.
 
 <div>
 

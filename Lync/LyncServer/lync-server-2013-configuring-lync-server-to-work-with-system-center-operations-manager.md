@@ -12,20 +12,22 @@ ms:contentKeyID: 48185179
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 88eeae2c08020aacb142bbceb6c2637ae4d55b63
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 150b240fe0c2be769e407cacecd8440bd4596ae5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188364"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506228"
 ---
+# <a name="configuring-lync-server-2013-to-work-with-system-center-operations-manager"></a>Configurando o Lync Server 2013 para trabalhar com o System Center Operations Manager
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-lync-server-2013-to-work-with-system-center-operations-manager"></a>Configurando o Lync Server 2013 para trabalhar com o System Center Operations Manager
+
 
 </div>
 
@@ -43,7 +45,7 @@ Para configurar sua infraestrutura do Microsoft Lync Server 2013 para trabalhar 
 
   - Identifique e configure os computadores do Lync Server que você deseja monitorar. Para monitorar um computador do Lync Server usando o System Center Operations Manager, você deve instalar os arquivos de agente do System Center Operations Manager e configurar cada servidor para atuar como um proxy.
 
-  - Identifique e configure os computadores que você deseja que atue como nós do *Inspetor*do Lync Server. Os nós do Inspetor são computadores que executam periodicamente as transações sintéticas do Lync Server, que são cmdlets do Windows PowerShell que verificam se os principais componentes do Lync Server, como a capacidade de fazer logon no sistema ou a capacidade de trocar mensagens instantâneas são funcionando conforme o esperado.
+  - Identifique e configure os computadores que você deseja que atue como nós do *Inspetor*do Lync Server. Os nós do Inspetor são computadores que executam periodicamente as transações sintéticas do Lync Server, que são cmdlets do Windows PowerShell que verificam se os principais componentes do Lync Server, como a capacidade de fazer logon no sistema ou a capacidade de trocar mensagens instantâneas estão funcionando conforme o esperado.
 
 Os tópicos nesta seção contêm instruções para executar cada uma dessas tarefas.
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184958
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5554a9c7fde74b5bcf9c81c451023d0f48bbf918
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3dfd2507f57265b53beea6f84d07760d35abe6e3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217137"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507048"
 ---
+# <a name="moving-users-to-enterprise-voice-in-lync-server-2013"></a>Movendo usuários para o Enterprise Voice no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="moving-users-to-enterprise-voice-in-lync-server-2013"></a>Movendo usuários para o Enterprise Voice no Lync Server 2013
+
 
 </div>
 
@@ -175,7 +177,7 @@ Mover usuários para a Unificação de Mensagens do Exchange consiste das seguin
 
   - Configure a Unificação de mensagens do Exchange e o Lync Server para trabalhar juntos.
 
-  - Habilitar os usuários para atender chamadas pela Unificação de Mensagens do Exchange e para o Outlook Voice Access. Esta tarefa é executada no servidor de Unificação de Mensagens do Exchange. Para obter detalhes, consulte a Biblioteca TechNet do Exchange Server [https://go.microsoft.com/fwlink/p/?linkID=139372](https://go.microsoft.com/fwlink/p/?linkid=139372)2010 em.
+  - Habilitar os usuários para atender chamadas pela Unificação de Mensagens do Exchange e para o Outlook Voice Access. Esta tarefa é executada no servidor de Unificação de Mensagens do Exchange. Para obter detalhes, consulte a Biblioteca TechNet do Exchange Server 2010 em [https://go.microsoft.com/fwlink/p/?linkID=139372](https://go.microsoft.com/fwlink/p/?linkid=139372) .
 
 </div>
 

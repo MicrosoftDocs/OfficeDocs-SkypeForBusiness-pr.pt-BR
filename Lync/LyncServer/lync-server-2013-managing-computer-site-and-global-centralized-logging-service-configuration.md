@@ -12,20 +12,22 @@ ms:contentKeyID: 49733738
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 868005d0a719bc8bc021f1a0b82260037c1f6ea6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f8b7dfb9d96e452fc18dc5a7a962a18802388410
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42218117"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48505848"
 ---
+# <a name="managing-computer-site-and-global-centralized-logging-service-configuration-in-lync-server-2013"></a>Gerenciando o computador, o site e o serviço de registro em log global centralizado no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="managing-computer-site-and-global-centralized-logging-service-configuration-in-lync-server-2013"></a>Gerenciando o computador, o site e o serviço de registro em log global centralizado no Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42218117"
 
 _**Última modificação do tópico:** 2014-02-04_
 
-O serviço de registro em log centralizado pode ser executado em um escopo que inclui um único computador, um pool de computadores, em um escopo de site (ou seja, um site definido como o site Redmond que contém uma coleção de computador e pools em sua implantação) ou em um escopo global (ou seja, , todos os computadores e pools em sua implantação).
+O serviço de registro em log centralizado pode ser executado em um escopo que inclui um único computador, um pool de computadores, em um escopo de site (ou seja, um site definido como o site Redmond que contém uma coleção de computador e pools em sua implantação) ou em um escopo global (ou seja, todos os computadores e pools em sua implantação).
 
 Para configurar o escopo de serviço de registro em log centralizado usando o Shell de gerenciamento do Lync Server, você deve ser membro dos grupos de segurança do controle de acesso baseado em função do CsAdministrator ou do CsServerAdministrator, ou uma função RBAC personalizada que contenha um desses dois grupos. Para retornar uma lista de todas as funções RBAC às quais este cmdlet foi atribuído (incluindo qualquer função RBAC personalizada que você criou sozinho), execute o seguinte comando no Shell de gerenciamento do Lync Server ou no prompt do Windows PowerShell:
 
@@ -51,7 +53,7 @@ Por exemplo:
 
 
 > [!NOTE]
-> O Windows PowerShell oferece mais opções e opções de configuração adicionais que não estão disponíveis usando o CLSController. exe. O CLSController oferece um método rápido de conciso para executar comandos, mas está limitado ao conjunto de comandos disponíveis para o CLSController. O Windows PowerShell não está limitado apenas ao comando disponível para o processador de comando do CLSController e fornece um conjunto mais amplo de comandos e um conjunto mais amplo de opções. Por exemplo, o CLSController.exe fornece a você opções de escopo para computadores e pools. Com o Windows PowerShell, é possível indicar computadores ou pools na maioria dos comandos e quando você define novos cenários (o CLSController tem um número finito de cenários que não podem ser modificados pelo usuário) você pode definir um escopo global ou de site. Esse poderoso recurso do Windows PowerShell permite que você defina um cenário de um site ou escopo global, mas limite o registro em log em um computador ou pool.<BR>Há diferenças fundamentais entre os comandos de linha de comando que podem ser executados no Windows PowerShell ou no CLSController. O Windows PowerShell oferece um método avançado para configurar e definir cenários, e para reutilizar esses cenários de uma maneira significativa para seus cenários de solução de problemas. Embora o CLSController does forneça uma maneira rápida e eficiente para emitir comandos e obter resultados, o conjunto de comandos do CLSController está limitado aos comandos finitos que você tem disponível na linha de comando. Diferentemente dos cmdlets do Windows PowerShell, o CLSController não pode definir novos cenários, gerenciar o escopo em um nível global ou de site, e muitas outras limitações de um conjunto de comandos finito que não pode ser configurado dinamicamente. Embora o CLSController forneça um meio de execução rápida, o Windows PowerShell oferece meios para estender a funcionalidade de serviço de registro centralizado além do que é possível com o CLSController.
+> O Windows PowerShell oferece mais opções e opções de configuração adicionais que não estão disponíveis usando o CLSController.exe. O CLSController oferece um método rápido de conciso para executar comandos, mas está limitado ao conjunto de comandos disponíveis para o CLSController. O Windows PowerShell não está limitado apenas ao comando disponível para o processador de comando do CLSController e fornece um conjunto mais amplo de comandos e um conjunto mais amplo de opções. Por exemplo, o CLSController.exe fornece a você opções de escopo para computadores e pools. Com o Windows PowerShell, é possível indicar computadores ou pools na maioria dos comandos e quando você define novos cenários (o CLSController tem um número finito de cenários que não podem ser modificados pelo usuário) você pode definir um escopo global ou de site. Esse poderoso recurso do Windows PowerShell permite que você defina um cenário de um site ou escopo global, mas limite o registro em log em um computador ou pool.<BR>Há diferenças fundamentais entre os comandos de linha de comando que podem ser executados no Windows PowerShell ou no CLSController. O Windows PowerShell oferece um método avançado para configurar e definir cenários, e para reutilizar esses cenários de uma maneira significativa para seus cenários de solução de problemas. Embora o CLSController does forneça uma maneira rápida e eficiente para emitir comandos e obter resultados, o conjunto de comandos do CLSController está limitado aos comandos finitos que você tem disponível na linha de comando. Diferentemente dos cmdlets do Windows PowerShell, o CLSController não pode definir novos cenários, gerenciar o escopo em um nível global ou de site, e muitas outras limitações de um conjunto de comandos finito que não pode ser configurado dinamicamente. Embora o CLSController forneça um meio de execução rápida, o Windows PowerShell oferece meios para estender a funcionalidade de serviço de registro centralizado além do que é possível com o CLSController.
 
 
 

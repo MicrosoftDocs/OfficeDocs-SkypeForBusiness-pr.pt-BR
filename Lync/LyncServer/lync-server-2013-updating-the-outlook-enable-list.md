@@ -12,20 +12,22 @@ ms:contentKeyID: 48242739
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f7b4bc93f78ed72515270557e3224195df7ecd81
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3702e8976c0afeef364fdec52616bb4f4d1b8d86
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193114"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48506658"
 ---
+# <a name="updating-the-outlook-enable-list-in-lync-server-2013"></a>Atualizando a lista de habilitação do Outlook no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="updating-the-outlook-enable-list-in-lync-server-2013"></a>Atualizando a lista de habilitação do Outlook no Lync Server 2013
+
 
 </div>
 
@@ -37,15 +39,15 @@ ms.locfileid: "42193114"
 
 _**Última modificação do tópico:** 2013-01-07_
 
-Você pode garantir que o suplemento de reunião online para Microsoft Lync 2013 sempre permaneça habilitado para usuários criando uma política que o inclua na lista de gerenciamento de suplementos do Outlook. A política de Lista de Gerenciamento de Suplementos vem incluída nos arquivos de modelos administrativos do Office do Console de Gerenciamento de Política de Grupo. Ele cria uma chave de registro em\\políticas\\\\de software\\HKCU\\Microsoft\\Office\\15,0 Outlook15\\resiliênciay addinlist. Você pode adicionar um valor para o ucaddin. dll a essa chave e configurar o valor de ucaddin. dll para que ele esteja sempre habilitado e para que os usuários não possam desabilitá-lo manualmente
+Você pode garantir que o suplemento de reunião online para Microsoft Lync 2013 sempre permaneça habilitado para usuários criando uma política que o inclua na lista de gerenciamento de suplementos do Outlook. A política de Lista de Gerenciamento de Suplementos vem incluída nos arquivos de modelos administrativos do Office do Console de Gerenciamento de Política de Grupo. Ele cria uma chave de registro em \\ políticas de software HKCU \\ \\ Microsoft \\ Office \\ 15,0 \\ Outlook15 \\ resiliênciay \\ addinlist. Você pode adicionar um valor para o ucaddin.dll a essa chave e configurar o valor de ucaddin.dll para que ele esteja sempre habilitado e, para que os usuários não possam desabilitá-lo manualmente
 
 <div>
 
-## <a name="to-add-ucaddindll-to-the-outlook-add-in-list"></a>Para adicionar ucaddin. dll à lista de suplementos do Outlook
+## <a name="to-add-ucaddindll-to-the-outlook-add-in-list"></a>Para adicionar ucaddin.dll à lista de suplementos do Outlook
 
-  - Para a chave do registro Addinlist, localizada em\\políticas\\\\de software\\HKCU\\Microsoft\\Office\\15,0 Outlook15\\resiliênciay addinlist, adicione o seguinte valor:
+  - Para a chave do registro Addinlist, localizada em \\ políticas de software HKCU \\ \\ Microsoft \\ Office \\ 15,0 \\ Outlook15 \\ resiliênciay \\ addinlist, adicione o seguinte valor:
     
-      - Tipo de registro =\_reg sz
+      - Tipo de registro = REG \_ sz
     
       - Nome = ucaddin.dll
     

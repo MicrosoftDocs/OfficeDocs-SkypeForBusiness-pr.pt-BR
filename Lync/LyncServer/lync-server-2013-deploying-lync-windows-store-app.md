@@ -12,20 +12,22 @@ ms:contentKeyID: 50117635
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4478f60fc99304e7cf882ddec7951aa3625d74f2
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: aaae8df4d21e3aa766bd452c5ffd697dce30660a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779577"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507478"
 ---
+# <a name="deploying-lync-windows-store-app-in-lync-server-2013"></a>Implantando o aplicativo Lync da Windows Store no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploying-lync-windows-store-app-in-lync-server-2013"></a>Implantando o aplicativo Lync da Windows Store no Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "43779577"
 
 _**Última modificação do tópico:** 2013-12-03_
 
-Antes de tornar o aplicativo Lync da Windows Store disponível para os usuários, certifique-se de que sua implantação atenda aos [requisitos de aplicativo do Lync Windows Store para Lync Server 2013](lync-server-2013-lync-windows-store-app-requirements.md). Para obter detalhes sobre como configurar o Lync Server 2013 para oferecer suporte ao aplicativo Lync da Windows Store, consulte o artigo de blog NextHop, "descoberta automática do Lync Server e [https://go.microsoft.com/fwlink/?LinkId=271966](https://go.microsoft.com/fwlink/?linkid=271966)o aplicativo Lync da Windows Store" em. Após a configuração correta do ambiente de servidor, você pode direcionar os usuários para baixar o aplicativo Lync da Windows Store pesquisando por "Lync".
+Antes de tornar o aplicativo Lync da Windows Store disponível para os usuários, certifique-se de que sua implantação atenda aos [requisitos de aplicativo do Lync Windows Store para Lync Server 2013](lync-server-2013-lync-windows-store-app-requirements.md). Para obter detalhes sobre como configurar o Lync Server 2013 para oferecer suporte ao aplicativo Lync da Windows Store, consulte o artigo de blog NextHop, "descoberta automática do Lync Server e o aplicativo Lync da Windows Store" em [https://go.microsoft.com/fwlink/?LinkId=271966](https://go.microsoft.com/fwlink/?linkid=271966) . Após a configuração correta do ambiente de servidor, você pode direcionar os usuários para baixar o aplicativo Lync da Windows Store pesquisando por "Lync".
 
 <div>
 
@@ -66,9 +68,9 @@ Atualizações cumulativas do Lync Server 2013: junho de 2013 adiciona suporte p
 
 **Configurar a autenticação multifator**
 
-1.  Instale uma função de servidor de federação do AD FS. Para obter detalhes, consulte o guia de implantação do serviços de Federação <https://go.microsoft.com/fwlink/p/?linkid=267511>do Active Directory 2,0 em.
+1.  Instale uma função de servidor de federação do AD FS. Para obter detalhes, consulte o guia de implantação do serviços de Federação do Active Directory 2,0 em <https://go.microsoft.com/fwlink/p/?linkid=267511> .
 
-2.  Criar certificados para o AD FS. Para obter mais informações, consulte a seção "certificados do servidor de Federação" do tópico planejar e implantar o AD FS para uso com o logon único [https://go.microsoft.com/fwlink/p/?LinkId=285376](https://go.microsoft.com/fwlink/p/?linkid=285376)em.
+2.  Criar certificados para o AD FS. Para obter mais informações, consulte a seção "certificados do servidor de Federação" do tópico planejar e implantar o AD FS para uso com o logon único em [https://go.microsoft.com/fwlink/p/?LinkId=285376](https://go.microsoft.com/fwlink/p/?linkid=285376) .
 
 3.  Na interface de linha de comando do Windows PowerShell, execute o seguinte comando:
     ```powershell
@@ -150,7 +152,7 @@ Pode ocorrer um problema de entrada para os usuários do Microsoft 365 ou do Off
 
 Você pode usar os logs gerados no dispositivo para solucionar problemas. Os logs são armazenados na seguinte pasta:
 
-% LocalAppData%\\pacotes\\Microsoft. LyncMX\_8wekyb3d8bbwe\\localstate\\de rastreamento
+% LocalAppData% \\ pacotes \\ Microsoft. LyncMX \_ 8wekyb3d8bbwe \\ localstate de \\ rastreamento
 
 Antes de obter os logs de um usuário, verifique se o registro em log está ativado e peça ao usuário para salvar os logs de modo que todas as informações armazenadas na memória também sejam salvas em arquivos no disco rígido.
 
