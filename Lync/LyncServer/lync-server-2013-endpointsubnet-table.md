@@ -12,20 +12,22 @@ ms:contentKeyID: 48185514
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d9619eb758f95c3d43d1db09a4e6dc64c36a6931
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 00b8414675109a69bec6baeceef4f4496bcf0c84
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207702"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533308"
 ---
+# <a name="endpointsubnet-table-in-lync-server-2013"></a><span data-ttu-id="5b0b7-102">Tabela EndpointSubnet no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5b0b7-102">EndpointSubnet table in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="endpointsubnet-table-in-lync-server-2013"></a><span data-ttu-id="0bc78-102">Tabela EndpointSubnet no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0bc78-102">EndpointSubnet table in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,9 +37,9 @@ ms.locfileid: "42207702"
 
 <span> </span>
 
-<span data-ttu-id="0bc78-103">_**Última modificação do tópico:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="0bc78-103">_**Topic Last Modified:** 2012-10-02_</span></span>
+<span data-ttu-id="5b0b7-103">_**Última modificação do tópico:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="5b0b7-103">_**Topic Last Modified:** 2012-10-02_</span></span>
 
-<span data-ttu-id="0bc78-p101">A tabela EndpointSubnet é uma tabela de suporte. Cada registro representa uma subrede capturada de pontos de extremidade.</span><span class="sxs-lookup"><span data-stu-id="0bc78-p101">The EndpointSubnet table is a supporting table. Each record represents one subnet captured from endpoints.</span></span>
+<span data-ttu-id="5b0b7-p101">A tabela EndpointSubnet é uma tabela de suporte. Cada registro representa uma subrede capturada de pontos de extremidade.</span><span class="sxs-lookup"><span data-stu-id="5b0b7-p101">The EndpointSubnet table is a supporting table. Each record represents one subnet captured from endpoints.</span></span>
 
 
 <table>
@@ -49,24 +51,24 @@ ms.locfileid: "42207702"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="0bc78-106"><strong>Coluna</strong></span><span class="sxs-lookup"><span data-stu-id="0bc78-106"><strong>Column</strong></span></span></th>
-<th><span data-ttu-id="0bc78-107"><strong>Tipo de dados</strong></span><span class="sxs-lookup"><span data-stu-id="0bc78-107"><strong>Data Type</strong></span></span></th>
-<th><span data-ttu-id="0bc78-108"><strong>Chave/índice</strong></span><span class="sxs-lookup"><span data-stu-id="0bc78-108"><strong>Key/Index</strong></span></span></th>
-<th><span data-ttu-id="0bc78-109"><strong>Detalhes</strong></span><span class="sxs-lookup"><span data-stu-id="0bc78-109"><strong>Details</strong></span></span></th>
+<th><span data-ttu-id="5b0b7-106"><strong>Coluna</strong></span><span class="sxs-lookup"><span data-stu-id="5b0b7-106"><strong>Column</strong></span></span></th>
+<th><span data-ttu-id="5b0b7-107"><strong>Tipo de dados</strong></span><span class="sxs-lookup"><span data-stu-id="5b0b7-107"><strong>Data Type</strong></span></span></th>
+<th><span data-ttu-id="5b0b7-108"><strong>Chave/índice</strong></span><span class="sxs-lookup"><span data-stu-id="5b0b7-108"><strong>Key/Index</strong></span></span></th>
+<th><span data-ttu-id="5b0b7-109"><strong>Detalhes</strong></span><span class="sxs-lookup"><span data-stu-id="5b0b7-109"><strong>Details</strong></span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="0bc78-110"><strong>SubnetIP</strong></span><span class="sxs-lookup"><span data-stu-id="0bc78-110"><strong>SubnetIP</strong></span></span></p></td>
-<td><p><span data-ttu-id="0bc78-111">int</span><span class="sxs-lookup"><span data-stu-id="0bc78-111">int</span></span></p></td>
-<td><p><span data-ttu-id="0bc78-112">Primário, Estrangeiro</span><span class="sxs-lookup"><span data-stu-id="0bc78-112">Primary, Foreign</span></span></p></td>
-<td><p><span data-ttu-id="0bc78-113">Representação de inteiro para a sub-rede.</span><span class="sxs-lookup"><span data-stu-id="0bc78-113">Integer representation for the subnet.</span></span></p></td>
+<td><p><span data-ttu-id="5b0b7-110"><strong>SubnetIP</strong></span><span class="sxs-lookup"><span data-stu-id="5b0b7-110"><strong>SubnetIP</strong></span></span></p></td>
+<td><p><span data-ttu-id="5b0b7-111">int</span><span class="sxs-lookup"><span data-stu-id="5b0b7-111">int</span></span></p></td>
+<td><p><span data-ttu-id="5b0b7-112">Primário, Estrangeiro</span><span class="sxs-lookup"><span data-stu-id="5b0b7-112">Primary, Foreign</span></span></p></td>
+<td><p><span data-ttu-id="5b0b7-113">Representação de inteiro para a sub-rede.</span><span class="sxs-lookup"><span data-stu-id="5b0b7-113">Integer representation for the subnet.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="0bc78-114"><strong>NextUpdateTS</strong></span><span class="sxs-lookup"><span data-stu-id="0bc78-114"><strong>NextUpdateTS</strong></span></span></p></td>
-<td><p><span data-ttu-id="0bc78-115">datetime</span><span class="sxs-lookup"><span data-stu-id="0bc78-115">datetime</span></span></p></td>
+<td><p><span data-ttu-id="5b0b7-114"><strong>NextUpdateTS</strong></span><span class="sxs-lookup"><span data-stu-id="5b0b7-114"><strong>NextUpdateTS</strong></span></span></p></td>
+<td><p><span data-ttu-id="5b0b7-115">datetime</span><span class="sxs-lookup"><span data-stu-id="5b0b7-115">datetime</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="0bc78-116">Apenas para uso interno.</span><span class="sxs-lookup"><span data-stu-id="0bc78-116">For internal use only.</span></span></p></td>
+<td><p><span data-ttu-id="5b0b7-116">Apenas para uso interno.</span><span class="sxs-lookup"><span data-stu-id="5b0b7-116">For internal use only.</span></span></p></td>
 </tr>
 </tbody>
 </table>
