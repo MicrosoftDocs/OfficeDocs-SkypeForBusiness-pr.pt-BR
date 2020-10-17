@@ -12,20 +12,22 @@ ms:contentKeyID: 48185858
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a6f299b01b95cddd461893b35518e3c2fe40c694
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ab7e22d4ff0e34d903fa0306d971705c5455b2f6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200477"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521778"
 ---
+# <a name="setting-up-storage-for-archiving-in-lync-server-2013"></a>Configurando o armazenamento para arquivamento no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="setting-up-storage-for-archiving-in-lync-server-2013"></a>Configurando o armazenamento para arquivamento no Lync Server 2013
+
 
 </div>
 
@@ -39,9 +41,9 @@ _**Última modificação do tópico:** 2013-12-17_
 
 O armazenamento de arquivamento do Lync Server 2013 inclui o seguinte:
 
-  - ****   O armazenamento de dados de armazenamento de dados é necessário para armazenar o conteúdo de im.
+  - **Armazenamento**     de dados O armazenamento de dados é necessário para armazenar o conteúdo de IM.
 
-  - ****   O armazenamento de arquivos de armazenamento de arquivos é necessário para armazenar a conferência (reunião) armazenamento de dados de conteúdo e armazenamento de arquivos.
+  - **Armazenamento**     de arquivos O armazenamento de arquivos é necessário para armazenar a conferência (reunião) armazenamento de dados de conteúdo e armazenamento de arquivos.
 
 <div>
 
@@ -57,7 +59,7 @@ Os requisitos para a configuração do armazenamento de dados para arquivamento 
 
 ## <a name="setting-up-exchange-storage-for-archiving-data"></a>Configurando o repositório do Exchange para arquivamento de dados
 
-A configuração do Exchange para armazenamento de dados de arquivamento exige que sua implantação do Exchange esteja executando o Exchange 2013. Além disso, as caixas de correio do usuário devem estar hospedadas no servidor Exchange 2013 e suas caixas de correio devem ser colocadas no bloqueio in-loco. Para obter detalhes sobre como configurar o Exchange 2013, consulte a documentação do produto Exchange.
+A configuração do Exchange para armazenamento de dados de arquivamento exige que sua implantação do Exchange esteja executando o Exchange 2013. Além disso, as caixas de correio do usuário devem estar hospedadas no servidor Exchange 2013 e suas caixas de correio devem ser colocadas em In-Place. Para obter detalhes sobre como configurar o Exchange 2013, consulte a documentação do produto Exchange.
 
 </div>
 
@@ -71,13 +73,13 @@ Para bancos de dados de arquivamento do SQL Server, você deve instalar o SQL Se
 
 Cada servidor de banco de dados deve estar executando uma versão com suporte do SQL Server. Para obter detalhes sobre as versões com suporte, consulte [Technical Requirements for Archiving in Lync Server 2013](lync-server-2013-technical-requirements-for-archiving.md) na documentação de planejamento.
 
-Você deve configurar as plataformas do SQL Server antes de implantar e habilitar o arquivamento. Se a conta utilizada para publicar a topologia tiver os direitos e permissões apropriados, é possível criar o banco de dados de arquivamento (LcsLog) ao publicar a topologia. Também é possível criar o banco de dados posteriormente, incluindo-o como parte do procedimento de instalação. Para obter detalhes sobre o SQL Server, consulte o TechCenter do [https://go.microsoft.com/fwlink/p/?linkID=129045](https://go.microsoft.com/fwlink/p/?linkid=129045)SQL Server em.
+Você deve configurar as plataformas do SQL Server antes de implantar e habilitar o arquivamento. Se a conta utilizada para publicar a topologia tiver os direitos e permissões apropriados, é possível criar o banco de dados de arquivamento (LcsLog) ao publicar a topologia. Também é possível criar o banco de dados posteriormente, incluindo-o como parte do procedimento de instalação. Para obter detalhes sobre o SQL Server, consulte o TechCenter do SQL Server em [https://go.microsoft.com/fwlink/p/?linkID=129045](https://go.microsoft.com/fwlink/p/?linkid=129045) .
 
 <div>
 
 
 > [!NOTE]  
-> Certifique-se de que o tipo de inicialização do serviço SQL Server Agent seja automático e que o serviço SQL Server Agent esteja em execução para a instância SQL que está segurando o banco de dados de arquivamento, para que o trabalho de manutenção padrão de arquivamento do SQL Server possa ser executado na base agendada sob o controle do serviço do SQL Server Agent.
+> Verifique se o tipo de inicialização do serviço do SQL Server Agent é automático e se o serviço SQL Server Agent está em execução para a instância SQL que está segurando o banco de dados de arquivamento, para que o trabalho de manutenção padrão de arquivamento do SQL Server possa ser executado com base no controle do serviço do SQL Server Agent.
 
 
 

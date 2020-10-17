@@ -12,20 +12,22 @@ ms:contentKeyID: 63969634
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 358d869f212ac3acef91e28ddb8d08322133970f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e8c12d687d6c23c7c7bdc2bf2d8046038154c871
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194334"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520738"
 ---
+# <a name="testing-ability-to-employ-group-expansion-in-lync-server-2013"></a>Testando a capacidade de empregar expansão de grupo no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-ability-to-employ-group-expansion-in-lync-server-2013"></a>Testando a capacidade de empregar expansão de grupo no Lync Server 2013
+
 
 </div>
 
@@ -66,9 +68,9 @@ _**Última modificação do tópico:** 2014-06-05_
 
 ## <a name="description"></a>Descrição
 
-O cmdlet Test-CsGroupExpansion permite determinar se a expansão de grupo está funcionando em sua organização. Quando a expansão de grupo é habilitada, os usuários configuram grupos de distribuição como um contato. Isso significa que esses usuários podem enviar a mesma mensagem instantânea a todos os membros do grupo endereçando a mensagem para o grupo em vez de para membros individuais desse grupo. A expansão de grupo permite exibir de forma rápida e fácil todos os membros do grupo e seu status atual.
+O cmdlet Test-CsGroupExpansion permite determinar se a expansão de grupo está funcionando dentro da sua organização. Quando a expansão de grupo é habilitada, os usuários configuram grupos de distribuição como um contato. Isso significa que esses usuários podem enviar a mesma mensagem instantânea a todos os membros do grupo endereçando a mensagem para o grupo em vez de para membros individuais desse grupo. A expansão de grupo permite exibir de forma rápida e fácil todos os membros do grupo e seu status atual.
 
-Com o cmdlet Test-CsGroupExpansion, você especifica um grupo de distribuição do Active Directory usando o endereço de email do grupo. Test-CsGroupExpansion usa a expansão de grupo para recuperar a associação de grupo e comparar a lista recuperada com a associação do endereço de email do grupo que você forneceu. Se as duas listas corresponderem, a expansão de grupo estará funcionando corretamente. Observe que você pode testar a expansão de grupo de duas maneiras: testando o próprio serviço ou testando o serviço Web associado.
+Com o cmdlet Test-CsGroupExpansion, você especifica um grupo de distribuição do Active Directory usando o endereço de email do grupo. Test-CsGroupExpansion, em seguida, usa a expansão de grupo para recuperar a associação de grupo e comparar a lista recuperada com a associação do endereço de email do grupo que você forneceu. Se as duas listas corresponderem, a expansão de grupo estará funcionando corretamente. Observe que você pode testar a expansão de grupo de duas maneiras: testando o próprio serviço ou testando o serviço Web associado.
 
 Para obter mais informações, consulte a documentação de ajuda para o cmdlet [Test-CsGroupExpansion](https://docs.microsoft.com/powershell/module/skype/Test-CsGroupExpansion) .
 
@@ -97,7 +99,7 @@ Para obter mais informações, consulte a documentação de ajuda para o cmdlet 
 
 Se o usuário especificado pode usar expansão de grupo, você receberá uma saída semelhante a esta com a propriedade Result marcada como **Success:**
 
-TargetUrihttps://atl-cs-001.litwareinc.com:443/groupexpansion/service.svc
+TargetUri https://atl-cs-001.litwareinc.com:443/groupexpansion/service.svc
 
 TargetFqdn: atl-cs-001.litwareinc.com
 
@@ -111,7 +113,7 @@ Diagnóstico
 
 Se o usuário especificado não puder usar expansão de grupo, o resultado será mostrado como falha e informações adicionais serão registradas nas propriedades de erro e diagnóstico:
 
-TargetUrihttps://atl-cs-001.litwareinc.com:443/groupexpansion/service.svc
+TargetUri https://atl-cs-001.litwareinc.com:443/groupexpansion/service.svc
 
 TargetFqdn: atl-cs-001.litwareinc.com
 
@@ -133,11 +135,11 @@ Se Test-CsGroupExpansion falhar, talvez você queira executar novamente o teste,
 
     Test-CsGroupExpansion -TargetFqdn "atl-cs-001.litwareinc.com" -GroupEmailAddress "Sales@litwareinc.com" -Verbose
 
-Quando o parâmetro Verbose é incluído, o Test-CsGroupExpansion retornará uma conta passo a passo de cada ação que tentou quando verificou a capacidade do usuário especificado fazer logon no Lync Server. Por exemplo, essa saída indica que o grupo de distribuição especificado não pôde ser encontrado:
+Quando o parâmetro Verbose é incluído Test-CsGroupExpansion retornará uma conta passo a passo de cada ação que tentou quando verificou a capacidade do usuário especificado fazer logon no Lync Server. Por exemplo, essa saída indica que o grupo de distribuição especificado não pôde ser encontrado:
 
 Tentando obter tíquete da Web.
 
-URL do serviço Web:https://atl-cs-001.litwareinc.com:443/WebTicket/WebTicketService.svc
+URL do serviço Web: https://atl-cs-001.litwareinc.com:443/WebTicket/WebTicketService.svc
 
 Usando autenticação NTLM/Kerb.
 
@@ -155,7 +157,7 @@ Atividade ' VerifyDistributionList ' concluída em ' 0,2597923 ' segundos.
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Motivos pelos quais o teste pode ter falhado
 
-Aqui estão alguns motivos comuns pelos quais Test-CsGroupExpansion pode falhar:
+Aqui estão alguns motivos comuns para que Test-CsGroupExpansion possa falhar:
 
   - Você especificou uma conta de usuário inválida. Você pode verificar se uma conta de usuário existe executando um comando semelhante a este:
     

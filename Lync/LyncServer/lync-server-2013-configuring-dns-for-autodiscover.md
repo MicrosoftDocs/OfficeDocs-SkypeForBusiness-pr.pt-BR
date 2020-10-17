@@ -12,20 +12,22 @@ ms:contentKeyID: 51541528
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7ff6e72d13ddfb80369a0a522abc14a1de459536
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 249993e68930db1eb5dd5159633a73f80cef8c05
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202987"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520048"
 ---
+# <a name="configuring-dns-for-autodiscover-in-lync-server-2013"></a>Configurando o DNS para descoberta automática no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-dns-for-autodiscover-in-lync-server-2013"></a>Configurando o DNS para descoberta automática no Lync Server 2013
+
 
 </div>
 
@@ -45,7 +47,7 @@ Para dar suporte à descoberta automática para clientes do Lync, você precisa 
 
 Você deve um registro de DNS interno e um externo para cada domínio SIP.
 
-Os registros DNS podem ser registros A (host) ou registros CNAME, com base na sua capacidade de criar novos certificados com o nome alternativo de entidade (SAN) adicional. Se você não conseguir solicitar e implantar um novo certificado externo (público) com o lyncdiscover. \<nome\> de domínio San, use o procedimento para usar a porta 80 http/TCP. Os procedimentos a seguir descrevem como criar registros de DNS internos e externos.
+Os registros DNS podem ser registros A (host) ou registros CNAME, com base na sua capacidade de criar novos certificados com o nome alternativo de entidade (SAN) adicional. Se você não conseguir solicitar e implantar um novo certificado externo (público) com o lyncdiscover.\<domain name\> SAN, use o procedimento para usar a porta 80 HTTP/TCP. Os procedimentos a seguir descrevem como criar registros de DNS internos e externos.
 
 <div>
 
@@ -67,7 +69,7 @@ Os registros DNS podem ser registros A (host) ou registros CNAME, com base na su
         
 
         > [!NOTE]  
-        > Esse domínio é o domínio do Active Directory no qual o pool&nbsp;de diretores do Lync Server 2013 e o pool de front-ends estão instalados.
+        > Esse domínio é o domínio do Active Directory no qual o pool de diretores do Lync Server 2013 &nbsp; e o pool de front-ends estão instalados.
 
         
         </div>
@@ -151,7 +153,7 @@ Os registros DNS podem ser registros A (host) ou registros CNAME, com base na su
         
 
         > [!NOTE]  
-        > Esse domínio é o domínio do Active Directory no qual o pool&nbsp;de diretores do Lync Server 2013 e o pool de front-ends estão instalados.
+        > Esse domínio é o domínio do Active Directory no qual o pool de diretores do Lync Server 2013 &nbsp; e o pool de front-ends estão instalados.
 
         
         </div>

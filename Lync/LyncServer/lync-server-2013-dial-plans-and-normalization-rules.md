@@ -12,20 +12,22 @@ ms:contentKeyID: 48185960
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: edd44cbb1e54e811fc646a99362b18a284376953
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d6195baf2cdff30cad74dfddc31337d9d429c5d8
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213417"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520014"
 ---
+# <a name="dial-plans-and-normalization-rules-in-lync-server-2013"></a>Planos de discagem e regras de normalização no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dial-plans-and-normalization-rules-in-lync-server-2013"></a>Planos de discagem e regras de normalização no Lync Server 2013
+
 
 </div>
 
@@ -93,7 +95,7 @@ Para planejar um plano de discagem, siga estas etapas:
     
     Se sua organização mantém um único plano de discagem entre vários locais, talvez ainda seja necessário criar um plano de discagem separado para usuários do Enterprise Voice que estão migrando de um PBX (central privada de comutação telefônica) e que precisam ter suas extensões existentes retidas.
 
-  - Decida se são necessários planos de discagem por usuário. Por exemplo, se você tiver usuários em um site de filial registrados com o site central ou se tiver usuários registrados em um aparelho de filial persistente, você pode considerar cenários de discagem especiais para tais usuários usando planos de discagem por usuário e regras de normalização . Para obter detalhes, consulte [Branch-site resiliência Requirements for Lync Server 2013](lync-server-2013-branch-site-resiliency-requirements.md).
+  - Decida se são necessários planos de discagem por usuário. Por exemplo, se você tiver usuários em um site de filial registrados com o site central ou se tiver usuários registrados em um aparelho de filial persistente, você pode considerar cenários de discagem especiais para tais usuários usando planos de discagem por usuário e regras de normalização. Para obter detalhes, consulte [Branch-site resiliência Requirements for Lync Server 2013](lync-server-2013-branch-site-resiliency-requirements.md).
 
   - Determine o escopo do plano de discagem (como descrito anteriormente neste tópico).
 
@@ -129,7 +131,7 @@ Se você estiver implantando a conferência discada, precisará especificar uma 
 
 ## <a name="external-access-prefix"></a>Prefixo de acesso externo
 
-Você pode especificar um prefixo de acesso externo de até quatro caracteres (\#, \*e 0-9) se os usuários precisarem discar um ou mais dígitos à esquerda adicionais (por exemplo, 9) para obter uma linha externa.
+Você pode especificar um prefixo de acesso externo de até quatro caracteres ( \# , \* e 0-9) se os usuários precisarem discar um ou mais dígitos à esquerda adicionais (por exemplo, 9) para obter uma linha externa.
 
 <div>
 
@@ -173,9 +175,9 @@ Estes são alguns dos campos numéricos que as regras de normalização talvez p
 
 ## <a name="creating-normalization-rules"></a>Criando regras de normalização
 
-As regras de normalização usam expressões regulares do .NET Framework para especificar padrões de correspondência numérica que o servidor usa para converter sequências de discagem para o formato E.164 para fins de pesquisa de número inverso. Você cria regras de normalização no painel de controle do Lync Server inserindo as expressões manualmente ou digitando os dígitos iniciais e o comprimento das cadeias de caracteres de discagem a serem atendidas e permitindo que o painel de controle do Lync Server gere o correspondente expressão regular para você. De qualquer forma, ao terminar, você pode inserir um número de teste para verificar se a regra de normalização funciona como esperado.
+As regras de normalização usam expressões regulares do .NET Framework para especificar padrões de correspondência numérica que o servidor usa para converter sequências de discagem para o formato E.164 para fins de pesquisa de número inverso. Você cria regras de normalização no painel de controle do Lync Server inserindo as expressões manualmente ou digitando os dígitos iniciais e o comprimento das cadeias de caracteres de discagem a serem atendidas e permitindo que o painel de controle do Lync Server gere a expressão regular correspondente para você. De qualquer forma, ao terminar, você pode inserir um número de teste para verificar se a regra de normalização funciona como esperado.
 
-Para obter detalhes sobre o uso de expressões regulares do .NET Framework, consulte "expressões regulares [https://go.microsoft.com/fwlink/p/?linkId=140927](https://go.microsoft.com/fwlink/p/?linkid=140927)do .NET Framework" em.
+Para obter detalhes sobre o uso de expressões regulares do .NET Framework, consulte "expressões regulares do .NET Framework" em [https://go.microsoft.com/fwlink/p/?linkId=140927](https://go.microsoft.com/fwlink/p/?linkid=140927) .
 
 </div>
 
@@ -210,42 +212,42 @@ A tabela a seguir mostra exemplos de regras de normalização que são gravadas 
 <tr class="odd">
 <td><p>4digitExtension</p></td>
 <td><p>Converte extensões de 4 dígitos</p></td>
-<td><p>^ (\d{4}) $</p></td>
+<td><p>^ (\d {4} ) $</p></td>
 <td><p>+ 1425555 $1</p></td>
 <td><p>0100 é convertido em +14255550100</p></td>
 </tr>
 <tr class="even">
 <td><p>5digitExtension</p></td>
 <td><p>Converte extensões de 5 dígitos</p></td>
-<td><p>^ 5 (\d{4}) $</p></td>
+<td><p>^ 5 (\d {4} ) $</p></td>
 <td><p>+ 1425555 $1</p></td>
 <td><p>50100 é convertido em +14255550100</p></td>
 </tr>
 <tr class="odd">
 <td><p>7digitcallingRedmond</p></td>
 <td><p>Converte números de 7 dígitos para números locais de Redmond</p></td>
-<td><p>^ (\d{7}) $</p></td>
+<td><p>^ (\d {7} ) $</p></td>
 <td><p>+ 1425 $1</p></td>
 <td><p>5550100 é convertido em +14255550100</p></td>
 </tr>
 <tr class="even">
 <td><p>7digitcallingDallas</p></td>
 <td><p>Converte números de 7 dígitos para números locais de Dallas</p></td>
-<td><p>^ (\d{7}) $</p></td>
+<td><p>^ (\d {7} ) $</p></td>
 <td><p>+ 1972 $1</p></td>
 <td><p>5550100 é convertido em +19725550100</p></td>
 </tr>
 <tr class="odd">
 <td><p>10digitcallingUS</p></td>
 <td><p>Converte números de 10 dígitos nos Estados Unidos</p></td>
-<td><p>^ (\d{10}) $</p></td>
+<td><p>^ (\d {10} ) $</p></td>
 <td><p>+ 1 $1</p></td>
 <td><p>2065550100 é convertido em +12065550100</p></td>
 </tr>
 <tr class="even">
 <td><p>LDCallingUS</p></td>
 <td><p>Converte números com prefixos de longa distância nos Estados Unidos</p></td>
-<td><p>^ 1 (\d{10}) $</p></td>
+<td><p>^ 1 (\d {10} ) $</p></td>
 <td><p>+ $1</p></td>
 <td><p>12145550100 é convertido em +2145550100</p></td>
 </tr>
@@ -266,21 +268,21 @@ A tabela a seguir mostra exemplos de regras de normalização que são gravadas 
 <tr class="odd">
 <td><p>RedmondSitePrefix</p></td>
 <td><p>Converte números com o prefixo dentro da rede (6) e o código de área de Redmond (222)</p></td>
-<td><p>^ 6222 (\d{4}) $</p></td>
+<td><p>^ 6222 (\d {4} ) $</p></td>
 <td><p>+ 1425555 $1</p></td>
 <td><p>62220100 é convertido em +14255550100</p></td>
 </tr>
 <tr class="even">
 <td><p>NYSitePrefix</p></td>
 <td><p>Converte números com o prefixo dentro da rede (6) e o código de área de Nova York (333)</p></td>
-<td><p>^ 6333 (\d{4}) $</p></td>
+<td><p>^ 6333 (\d {4} ) $</p></td>
 <td><p>+ 1202555 $1</p></td>
 <td><p>63330100 é convertido em +12025550100</p></td>
 </tr>
 <tr class="odd">
 <td><p>DallasSitePrefix</p></td>
 <td><p>Converte números com o prefixo dentro da rede (6) e o código de área de Dallas (444)</p></td>
-<td><p>^ 6444 (\d{4}) $</p></td>
+<td><p>^ 6444 (\d {4} ) $</p></td>
 <td><p>+ 1972555 $1</p></td>
 <td><p>64440100 é convertido em +19725550100</p></td>
 </tr>

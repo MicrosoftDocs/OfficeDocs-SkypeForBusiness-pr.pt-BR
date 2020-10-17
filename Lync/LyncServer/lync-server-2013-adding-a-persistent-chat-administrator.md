@@ -12,20 +12,22 @@ ms:contentKeyID: 48185300
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ee9b82c14704c83f6d95d02635ce4f414ff1a156
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2caffd50fb904ebb93a789278ece9f13665ca4b4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191354"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521428"
 ---
+# <a name="adding-a-persistent-chat-administrator-in-lync-server-2013"></a>Adicionando um administrador de chat persistente no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="adding-a-persistent-chat-administrator-in-lync-server-2013"></a>Adicionando um administrador de chat persistente no Lync Server 2013
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**Última modificação do tópico:** 2012-10-06_
 
 No Lync Server 2013, os usuários que executam tarefas específicas devem ser atribuídos como membros de um ou mais grupos específicos. O RBAC (controle de acesso baseado em função) também pode ser usado para conceder privilégios, atribuindo usuários a funções administrativas predefinidas do Lync Server 2013.
 
-Antes de configurar e administrar o servidor de chat persistente, certifique-se de que os direitos e permissões de usuário adequados estejam no local e que todos os usuários sejam classificados como administradores de chat persistente são adicionados à segurança do CsPersistentChatAdministrator Grupo.
+Antes de configurar e administrar o servidor de chat persistente, certifique-se de que os direitos e permissões de usuário adequados estejam no local e que todos os usuários sejam classificados como administradores de chat persistente são adicionados ao grupo de segurança CsPersistentChatAdministrator.
 
 </div>
 

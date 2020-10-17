@@ -12,20 +12,22 @@ ms:contentKeyID: 48185439
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dfdff8863c0e629c99d0e64aca0b7f84dcb63a43
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e80c6f7482787d448709beaf98e796519860d22c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205447"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520627"
 ---
+# <a name="associating-a-monitoring-store-with-a-front-end-pool-in-lync-server-2013"></a>Associando um repositório de monitoramento a um pool de front-ends no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="associating-a-monitoring-store-with-a-front-end-pool-in-lync-server-2013"></a>Associando um repositório de monitoramento a um pool de front-ends no Lync Server 2013
+
 
 </div>
 
@@ -69,7 +71,7 @@ Após a topologia ser publicada, é possível instalar o banco de dados de monit
 
     Install-CsDatabase -LocalDatabases
 
-Quando você executar o comando anterior, install-CsDatabase lerá a topologia atual do Lync Server, determinará quais bancos de dados precisam ser instalados no computador local e, em seguida, instalar e configurar automaticamente cada um desses bancos de dados.
+Quando você executar o comando anterior, Install-CsDatabase lerá a topologia atual do Lync Server, determinará quais bancos de dados precisam ser instalados no computador local e, em seguida, instalar e configurar automaticamente cada um desses bancos de dados.
 
 Para instalar o banco de dados em um computador remoto (isto é, um computador diferente daquele onde o Shell de Gerenciamento está executando), você deve incluir pelo menos dois parâmetros: o parâmetro ConfiguredDatabases e o parâmetro SqlServerFqdn. Esses parâmetros dizem ao cmdlet Install-CsDatabase para recuperar a topologia do Lync Server e instalar e configurar os bancos de dados necessários no computador especificado pelo parâmetro SqlServerFqdn. O parâmetro SqlServerFqdn deve usar um valor de parâmetro representando o FQDN do computador onde os bancos de dados devem ser instalados.
 
@@ -87,7 +89,7 @@ Como alternativa, você pode instalar o banco de dados de monitoramento executan
 
 4.  No assistente de Instalação dos componentes do Lync Server, na página **Instalar componentes do Lync Server**, clique em **Avançar**.
 
-5.  Na página **especificar caminho para MSIs** , digite o caminho para o arquivo OCScore. msi (um arquivo incluído na sua mídia de instalação do Lync Server) e clique em **Avançar**.
+5.  Na página **especificar caminho para MSIs** , digite o caminho para o arquivo Ocscore.msi (um arquivo incluído na sua mídia de instalação do Lync Server) e clique em **Avançar**.
 
 6.  Na página **Executando Comandos**, clique em **Concluir**.
 

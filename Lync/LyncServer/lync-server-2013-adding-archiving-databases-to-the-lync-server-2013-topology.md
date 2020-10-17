@@ -12,20 +12,22 @@ ms:contentKeyID: 48183338
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 83d6f4ff4b3881f9dfbd4707d2956aa738b9a375
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ebc2f06e6e3fa2646989e4697354c71f7f0249da
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196584"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521388"
 ---
+# <a name="adding-archiving-databases-to-the-lync-server-2013-topology"></a>Adicionando bancos de dados de arquivamento à topologia do Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="adding-archiving-databases-to-the-lync-server-2013-topology"></a>Adicionando bancos de dados de arquivamento à topologia do Lync Server 2013
+
 
 </div>
 
@@ -59,7 +61,7 @@ _**Última modificação do tópico:** 2012-10-10_
     
 
     > [!NOTE]  
-    > Você pode definir uma topologia usando uma conta que seja membro do grupo usuários local, mas para publicar uma topologia, que é necessária para adicionar um servidor à topologia, você deve usar uma conta que seja membro do grupo de <STRONG>Administradores de domínio</STRONG> e do grupo <STRONG>RTCUniversalServerAdmins</STRONG> e que tenha permissões de controle total (ou seja, ler, gravar e modificar) no compartilhamento de arquivos que você está usando para o repositório de arquivos do Lync Server 2013 (ou seja, para que o construtor de topologias possa configurar a lista de controle de acesso discricional necessária (DACLs) ou uma conta com direitos equivalentes.
+    > Você pode definir uma topologia usando uma conta que seja membro do grupo usuários local, mas para publicar uma topologia, que é necessária para adicionar um servidor à topologia, você deve usar uma conta que seja membro do grupo <STRONG>Administradores de domínio</STRONG> e do grupo <STRONG>RTCUniversalServerAdmins</STRONG> , e que tem permissões de controle total (ou seja, leitura, gravação e modificação) no compartilhamento de arquivos que você está usando para o repositório de arquivos do Lync Server 2013 (ou seja, o construtor de topologias pode configurar a lista de controle de acesso discricional (DACLs) necessária ou uma conta com direitos equivalentes.
 
     
     </div>

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Configurar opções do Servidor de Chat Persistente globalmente ou para pool do Servidor de Chat Persistente'
+title: 'Lync Server 2013: configurar opções de servidor de chat persistente globalmente ou para pool de servidor de chat persistente'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48183581
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 86ee77dd34e3a43ea62ac6cffaf4af952b1c447e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6a9cadd23099dbcaee5c577705ca1c2e4bdf6c00
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762829"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520458"
 ---
+# <a name="configure-persistent-chat-server-options-globally-or-for-persistent-chat-server-pool-in-lync-server-2013"></a>Configurar opções do servidor de chat persistente globalmente ou para pool de servidor de chat persistente no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-persistent-chat-server-options-globally-or-for-persistent-chat-server-pool-in-lync-server-2013"></a>Configurar opções do Servidor de Chat Persistente globalmente ou para pool do Servidor de Chat Persistente no Lync Server 2013
+
 
 </div>
 
@@ -35,15 +37,15 @@ ms.locfileid: "41762829"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-06_
+_**Última modificação do tópico:** 2012-10-06_
 
-No painel de controle do Lync Server 2013, você pode usar a seção **configuração de chat persistente** da página de **chat persistente** para definir configurações de chat persistente globalmente, onde ela se aplica a todos os pools de servidores de chat persistentes, ou para um pool de servidor de chat persistente específico.
+No painel de controle do Lync Server 2013, você pode usar a seção **configuração de chat persistente** da página **chat persistente** para definir as configurações de chat persistente globalmente, onde ela se aplica a todos os pools de servidores de chat persistente ou para um pool de servidor de chat persistente específico.
 
 <div>
 
 
 > [!NOTE]  
-> Para configurar e usar o servidor de chat persistente, você deve primeiro usar o construtor de topologias para adicionar suporte a servidor de chat persistente à topologia e, em seguida, publicar a topologia. Para obter detalhes, consulte <A href="lync-server-2013-adding-persistent-chat-server-to-your-deployment.md">adicionando servidor de chat persistente à sua implantação no Lync Server 2013</A> na documentação de implantação.
+> Para configurar e usar o servidor de chat persistente, você deve primeiro usar o construtor de topologias para adicionar o suporte do servidor de chat persistente à topologia e, em seguida, publicar a topologia. Para obter detalhes, consulte <A href="lync-server-2013-adding-persistent-chat-server-to-your-deployment.md">adicionando servidor de chat persistente à sua implantação no Lync Server 2013</A> na documentação de implantação.
 
 
 
@@ -51,67 +53,67 @@ No painel de controle do Lync Server 2013, você pode usar a seção **configura
 
 <div>
 
-## <a name="to-configure-persistent-chat-options-globally"></a>Para configurar as opções de chat persistente globalmente
+## <a name="to-configure-persistent-chat-options-globally"></a>Para configurar opções de chat persistente globalmente
 
-1.  A partir de uma conta de usuário com a função CsPersistentChatAdministrator ou CsAdministrator atribuída, faça o logon em qualquer computador na sua implementação interna.
+1.  A partir de uma conta de usuário atribuída à função CsPersistentChatAdministrator ou CsAdministrator, faça logon em qualquer computador em sua implantação interna.
 
-2.  No menu **Iniciar** , selecione o painel de controle do Lync Server ou abra uma janela do navegador e, em seguida, insira a URL de administração. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [abrir ferramentas administrativas do Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  No menu **Iniciar** , selecione o painel de controle do Lync Server ou abra uma janela do navegador e insira a URL do administrador. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
     
     <div>
     
 
     > [!IMPORTANT]  
-    > Você também pode usar cmdlets do Windows PowerShell. Para obter detalhes, consulte <A href="configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md">Configurando o servidor de chat persistente usando cmdlets do Windows PowerShell</A> na documentação de implantação.
+    > Você também pode usar os cmdlets do Windows PowerShell. Para obter detalhes, consulte <A href="configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md">Configurando o servidor de chat persistente usando cmdlets do Windows PowerShell</A> na documentação de implantação.
 
     
     </div>
 
-3.  Na barra de navegação esquerda, clique em **Chat Persistente** e, em seguida, clique em **Configuração do Chat Persistente**.
+3.  Na barra de navegação esquerda, clique em **Chat Persistente** e clique em **Configuração de Chat Persistente**.
 
-4.  Na página **configuração de chat persistente** , clique em **novo** e, em seguida, clique em **configuração do site**.
+4.  Na página **configuração do chat persistente** , clique em **novo** e em **configuração do site**.
     
     <div>
     
 
     > [!IMPORTANT]  
-    > Escolha esta opção se quiser que a configuração seja aplicada a todos os pools de servidores de chat persistentes implantados no site. Clique em <STRONG>configuração de pool</STRONG> se desejar que a configuração seja aplicada a um pool específico do servidor de chat persistente.
+    > Escolha essa opção se quiser que a configuração seja aplicada a todos os pools do servidor de chat persistente implantados no site. Clique em <STRONG>configuração do pool</STRONG> se quiser que a configuração seja aplicada a um pool de servidor de chat persistente específico.
 
     
     </div>
 
 5.  Em **selecionar um site**, selecione o site a ser configurado para a configuração de site do servidor de chat persistente.
 
-6.  Em **Nova Configuração de Chat Persistente**, siga este procedimento:
+6.  Em **Nova Configuração de Chat Persistente**, faça o seguinte:
     
       - Em **Nome**, especifique um nome para a nova configuração. Por padrão, o nome do site já existe.
     
-      - Em **Histórico de chat padrão**, defina o número de mensagens de chat que serão processadas para cada sala após a primeira solicitação. Por padrão, esse número é 30. Esse é o padrão global, e os administradores podem desabilitar o histórico de chat por categoria.
+      - Em **Histórico de chat padrão**, defina o número de mensagens do chat que serão processadas para cada sala na primeira solicitação. Por padrão, o número é 30. Esse é o padrão global, e os administradores podem desabilitar o histórico de chat por categoria.
         
         <div>
         
 
         > [!IMPORTANT]  
-        > O servidor de chat persistente armazenará essas mensagens em cache na memória, portanto, se você aumentar esse número, mais mensagens serão armazenadas em cache. Você sempre pode acessar o conteúdo histórico por meio da pesquisa. O número padrão simplesmente determina o número máximo de mensagens que você vê inicialmente ao conectar-se a uma sala de chat.
+        > O servidor de chat persistente armazenará em cache essas mensagens na memória, portanto, se você aumentar esse número, mais mensagens serão armazenadas em cache. Sempre é possível acessar conteúdo histórico por meio da pesquisa. O número padrão simplesmente determina o número máximo de mensagens que você vê inicialmente ao se conectar a uma sala de chat.
 
         
         </div>
     
-      - Em **Tamanho máximo do arquivo (KB)**, selecione o tamanho máximo de arquivo de cada histórico de chat. Por padrão, o número é 20 MB (20.000 KB). Esse é o tamanho máximo de arquivo que pode ser carregado em qualquer sala de chat no sistema (para a qual os carregamentos de arquivo estão habilitados pela configuração de **Categoria** correspondente).
+      - Em **Tamanho máximo do arquivo (KB)**, selecione o tamanho máximo do arquivo de cada histórico de chat. Por padrão, o número é 20 MB (20.000 KB). Esse é o tamanho máximo para um arquivo que pode ser carregado em qualquer sala de chat no sistema (para a qual o carregamento de arquivos é habilitado por sua configuração correspondente de **Categoria**).
         
         <div>
         
 
         > [!IMPORTANT]  
-        > Essa configuração é imposta no servidor porque aplicativos personalizados ou clientes de chat em grupo anterior que usam o servidor de chat de&nbsp;grupo do Office Communications Server 2007 R2 ou o Lync Server 2010, o chat em grupo podem postar arquivos para uma sala. O cliente do Lync 2013 não tem recurso de carregamento/download de arquivo, portanto, se você tiver uma implantação do Lync 2013 ou do Lync 2013, não será possível postar arquivos em uma sala de chat do servidor de chat persistente.
+        > Essa configuração é imposta no servidor porque aplicativos personalizados ou clientes de chat de grupo anterior usando o servidor de chat de grupo do Office Communications Server 2007 R2 &nbsp; ou o Lync server 2010, o chat de grupo podem postar arquivos para uma sala. O cliente Lync 2013 não tem o recurso de carregamento/download de arquivos, portanto, se você tiver uma implantação pura do Lync 2013 ou um cliente do Lync 2013, não será possível postar arquivos em uma sala de chat do servidor de chat persistente.
 
         
         </div>
     
-      - Em **Limite de atualizações do participante**, selecione o limite para atualizações de participantes. O servidor de chat persistente envia informações da lista (quem está conectado a uma sala de chat) a todos os participantes até que o número de usuários conectados atinja esse número. Por padrão, o número é 75. Esse limite indica o número máximo de participantes em uma determinada sala além da qual o servidor de chat persistente interrompe o envio de atualizações da lista para clientes conectados sobre quem está presente na sala.
+      - Em **Limite de atualização de participantes**, selecione o limite de atualizações de participantes. Servidor de chat persistente envia informações de lista (quem está conectado a uma sala de chat) para todos os participantes até que o número de usuários conectados atinja esse número. Por padrão, o número é 75. Este limite indica o número máximo de participantes em uma determinada sala além da qual o servidor de chat persistente interrompe o envio de atualizações de lista para clientes conectados sobre quem está presente na sala.
     
-      - (Opcional.) Em **URL de gerenciamento de salas**, selecione a URL de gerenciamento de salas. Essa é a URL para o gerenciamento personalizado de salas baseado na Web. Se você não precisar personalizar o gerenciamento e usar apenas a configuração padrão, deixe essa opção em branco. Uma vez definida a URL, ela será aplicada como a URL interna e externa de gerenciamento de salas.
+      - (Opcional). Em **URL de Gerenciamento da Sala**, selecione a URL de gerenciamento de sala. Essa é a URL para um gerenciamento de sala personalizada baseada na Web. Se não for necessário personalizar o gerenciamento da sala, e você simplesmente usar a configuração padrão, deixe essa opção em branco. Após a URL ser definida, ela é aplicada como URL de gerenciamento de sala interna e externa.
         
-        Se você quiser personalizar a experiência de criação da sala e incluir seu fluxo de trabalho de negócios específico, poderá criar uma solução de gerenciamento de sala personalizada usando o SDK (Kit de desenvolvimento de software) do servidor de chat persistente, hospedá-lo em algum lugar e colocar a URL aqui. Essa URL será enviada para o cliente de modo que, quando um usuário tentar exibir ou criar uma sala, ele será direcionado para sua solução personalizada de gerenciamento de salas.
+        Se quiser personalizar sua experiência de criação de sala e incluir seu fluxo de trabalho de negócios específico, você pode criar uma solução de gerenciamento de sala personalizada usando o SDK (Software Development Kit) do servidor de chat persistente, hospedá-lo em algum lugar e colocar a URL aqui. Essa URL é enviada para o cliente de modo que quando um usuário tenta exibir ou criar uma sala, ele ou ela é direcionado à sua solução de gerenciamento de sala personalizada.
 
 7.  Clique em **Confirmar**.
 
@@ -121,56 +123,56 @@ No painel de controle do Lync Server 2013, você pode usar a seção **configura
 
 ## <a name="to-configure-persistent-chat-options-for-a-specific-persistent-chat-server-pool"></a>Para configurar opções de chat persistente para um pool de servidor de chat persistente específico
 
-1.  A partir de uma conta de usuário com a função CsPersistentChatAdministrator ou CsAdministrator atribuída, faça o logon em qualquer computador na sua implementação interna.
+1.  A partir de uma conta de usuário atribuída à função CsPersistentChatAdministrator ou CsAdministrator, faça logon em qualquer computador em sua implantação interna.
 
-2.  No menu **Iniciar** , selecione o painel de controle do Lync Server ou abra uma janela do navegador e, em seguida, insira a URL de administração. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [abrir ferramentas administrativas do Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  No menu **Iniciar** , selecione o painel de controle do Lync Server ou abra uma janela do navegador e insira a URL do administrador. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
     
     <div>
     
 
     > [!IMPORTANT]  
-    > Você também pode usar cmdlets do Windows PowerShell. Para obter detalhes, consulte <A href="configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md">Configurando o servidor de chat persistente usando cmdlets do Windows PowerShell</A> na documentação de implantação.
+    > Você também pode usar os cmdlets do Windows PowerShell. Para obter detalhes, consulte <A href="configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md">Configurando o servidor de chat persistente usando cmdlets do Windows PowerShell</A> na documentação de implantação.
 
     
     </div>
 
-3.  Na barra de navegação esquerda, clique em **Chat Persistente** e, em seguida, clique em **Configuração do Chat Persistente**.
+3.  Na barra de navegação esquerda, clique em **Chat Persistente** e clique em **Configuração de Chat Persistente**.
 
-4.  Na página **Configuração do Chat Persistente**, clique em **Novo** e, em seguida, clique em **Configuração do pool**.
+4.  Na página **Configuração de Chat Persistente**, clique em **Novo** e clique em **Configuração de pool**.
 
-5.  Em **selecionar um serviço**, selecione o serviço associado ao pool de servidores de chat persistente a ser configurado.
+5.  Em **selecionar um serviço**, selecione o serviço associado ao pool do servidor de chat persistente a ser configurado.
 
-6.  Em **Nova Configuração de Chat Persistente**, siga este procedimento:
+6.  Em **Nova Configuração de Chat Persistente**, faça o seguinte:
     
-      - Em **Nome**, especifique um nome para a nova configuração. Por padrão, o nome do pool do site já existe.
+      - Em **Nome**, especifique um nome para a nova configuração. Por padrão, o nome do pool de sites já existe.
     
-      - Em **Histórico de chat padrão**, defina o número de mensagens de chat que serão processadas para cada sala após a primeira solicitação. Por padrão, esse número é 30. Esse é o padrão global, e os administradores podem desabilitar o histórico de chat por categoria.
+      - Em **Histórico de chat padrão**, defina o número de mensagens do chat que serão processadas para cada sala na primeira solicitação. Por padrão, o número é 30. Esse é o padrão global, e os administradores podem desabilitar o histórico de chat por categoria.
         
         <div>
         
 
         > [!IMPORTANT]  
-        > O servidor de chat persistente armazenará essas mensagens em cache na memória, portanto, se você aumentar esse número, mais mensagens serão armazenadas em cache. Você sempre pode acessar o conteúdo histórico por meio da pesquisa. O número padrão simplesmente determina o número máximo de mensagens que você vê inicialmente ao conectar-se a uma sala de chat.
+        > O servidor de chat persistente armazenará em cache essas mensagens na memória, portanto, se você aumentar esse número, mais mensagens serão armazenadas em cache. Sempre é possível acessar conteúdo histórico por meio da pesquisa. O número padrão simplesmente determina o número máximo de mensagens que você vê inicialmente ao se conectar a uma sala de chat.
 
         
         </div>
     
-      - Em **Tamanho máximo do arquivo (KB)**, selecione o tamanho máximo de arquivo de cada histórico de chat. Por padrão, o número é 20 MB (20.000 KB). Esse é o tamanho máximo de arquivo que pode ser carregado em qualquer sala de chat no sistema (para a qual os carregamentos de arquivo estão habilitados pela configuração de **Categoria** correspondente).
+      - Em **Tamanho máximo do arquivo (KB)**, selecione o tamanho máximo do arquivo de cada histórico de chat. Por padrão, o número é 20 MB (20.000 KB). Esse é o tamanho máximo para um arquivo que pode ser carregado em qualquer sala de chat no sistema (para a qual o carregamento de arquivos é habilitado por sua configuração correspondente de **Categoria**).
         
         <div>
         
 
         > [!IMPORTANT]  
-        > Essa configuração é imposta no servidor porque aplicativos personalizados ou clientes de chat em grupo anterior (servidor de chat de grupo do&nbsp;Office Communications Server 2007 R2 ou Lync Server 2010, chat em grupo) podem postar arquivos para uma sala. O cliente do Lync 2013 não tem recurso de carregamento/download de arquivo, portanto, se você tiver uma implantação do Lync 2013 ou do Lync 2013, não será possível postar arquivos em uma sala de chat do servidor de chat persistente.
+        > Essa configuração é imposta no servidor porque os aplicativos personalizados ou os clientes de chat de grupo anterior (Office Communications Server 2007 R2 &nbsp; Group Chat Server ou o Lync server 2010, o chat de grupo) podem postar arquivos a uma sala. O cliente Lync 2013 não tem o recurso de carregamento/download de arquivos, portanto, se você tiver uma implantação pura do Lync 2013 ou um cliente do Lync 2013, não será possível postar arquivos em uma sala de chat do servidor de chat persistente.
 
         
         </div>
     
-      - Em **Limite de atualizações do participante**, selecione o limite para atualizações de participantes. O servidor de chat persistente envia informações da lista (quem está conectado a uma sala de chat) a todos os participantes até que o número de usuários conectados atinja esse número. Por padrão, o número é 75. Esse limite indica o número máximo de participantes em uma determinada sala além da qual o servidor de chat persistente interrompe o envio de atualizações da lista para clientes conectados sobre quem está presente na sala.
+      - Em **Limite de atualização de participantes**, selecione o limite de atualizações de participantes. Servidor de chat persistente envia informações de lista (quem está conectado a uma sala de chat) para todos os participantes até que o número de usuários conectados atinja esse número. Por padrão, o número é 75. Este limite indica o número máximo de participantes em uma determinada sala além da qual o servidor de chat persistente interrompe o envio de atualizações de lista para clientes conectados sobre quem está presente na sala.
     
-      - Em **URL de gerenciamento de salas**, selecione a URL de gerenciamento de salas. Essa é a URL para uma implantação de gerenciamento de salas baseado na Web. Se você não precisar personalizar o gerenciamento e usar apenas a configuração padrão, deixe essa opção em branco.
+      - Em **URL de gerenciamento da sala**, selecione a URL de gerenciamento da sala. Esta é a URL para uma implantação de gerenciamento de sala baseado na Web. Se você não precisa personalizar um gerenciamento de sala e apenas usa a configuração padrão, deixe esta opção em branco.
         
-        Se você quiser personalizar a experiência de criação da sala e incluir seu fluxo de trabalho de negócios específico, poderá criar uma solução de gerenciamento de sala personalizada usando o SDK (Kit de desenvolvimento de software) do servidor de chat persistente, hospedá-lo em algum lugar e colocar a URL aqui. Essa URL será enviada para o cliente de modo que, quando um usuário tentar exibir ou criar uma sala, ele será direcionado para sua solução personalizada de gerenciamento de salas.
+        Se quiser personalizar sua experiência de criação de sala e incluir seu fluxo de trabalho de negócios específico, você pode criar uma solução de gerenciamento de sala personalizada usando o SDK (Software Development Kit) do servidor de chat persistente, hospedá-lo em algum lugar e colocar a URL aqui. Esta URL é enviada para o cliente para que quando um usuário tentar exibir/criar uma sala, ele ou ela seja direcionado para sua solução de gerenciamento de sala personalizada.
 
 7.  Clique em **Confirmar**.
 

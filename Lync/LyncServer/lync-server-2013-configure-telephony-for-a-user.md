@@ -12,20 +12,22 @@ ms:contentKeyID: 48183987
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a3fe22d70f442eed0cda1bbf56e79fb0e0e21f8a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 86eade8f7a2ac1db627668ca78b8fb7869e6da71
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42179728"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520368"
 ---
+# <a name="configure-telephony-for-a-user-in-lync-server-2013"></a>Configurar telefonia para um usuário no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-telephony-for-a-user-in-lync-server-2013"></a>Configurar telefonia para um usuário no Lync Server 2013
+
 
 </div>
 
@@ -41,13 +43,13 @@ As configurações de telefonia são algumas das configurações individuais de 
 
 As opções de telefonia do usuário do Lync Server incluem o seguinte:
 
-  - **Áudio/vídeo desabilitado**   o usuário não pode fazer chamadas com áudio e vídeo.
+  - **Áudio/vídeo desabilitado**     O usuário não pode fazer chamadas com áudio e vídeo.
 
-  - **Somente PC-PC**   o usuário pode fazer apenas chamadas de áudio e vídeo de PC para PC.
+  - Somente PC- **PC**     O usuário pode fazer apenas chamadas de áudio ou vídeo de PC para PC.
 
-  - **Enterprise Voice**   o usuário pode usar a infraestrutura do Lync Server 2013 para rotear todas as chamadas de entrada e saída. O usuário também pode fazer chamadas PC-PC.
+  - **Enterprise Voice**     O usuário pode usar a infraestrutura do Lync Server 2013 para rotear todas as chamadas de entrada e saída. O usuário também pode fazer chamadas PC-PC.
 
-  - **Controle de chamada remota**   o usuário pode usar o Lync Server 2013 para controlar o telefone de mesa e também pode fazer chamadas PC-PC.
+  - Controle de chamada **remota**     O usuário pode usar o Lync Server 2013 para controlar o telefone de mesa e também pode fazer chamadas PC-PC.
 
 Para obter detalhes sobre como configurar telefonia para uma organização, consulte [Configurar telefonia para um usuário no Lync Server 2013](lync-server-2013-configure-telephony-for-a-user.md) e [implantando o Enterprise Voice no Lync Server 2013](lync-server-2013-deploying-enterprise-voice.md) na documentação de implantação.
 

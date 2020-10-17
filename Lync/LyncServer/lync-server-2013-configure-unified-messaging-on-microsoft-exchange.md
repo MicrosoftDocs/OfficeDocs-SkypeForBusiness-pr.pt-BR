@@ -12,20 +12,22 @@ ms:contentKeyID: 48183311
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d05939f9d15f992d350a6bb756fe3c6b9839c37b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0b39c10a3fb590acc99771663f5f6e23e3c3095e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188584"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520218"
 ---
+# <a name="configure-unified-messaging-on-microsoft-exchange-for-lync-server-2013"></a>Configurar a Unificação de mensagens no Microsoft Exchange para o Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-unified-messaging-on-microsoft-exchange-for-lync-server-2013"></a>Configurar a Unificação de mensagens no Microsoft Exchange para o Lync Server 2013
+
 
 </div>
 
@@ -70,11 +72,11 @@ Este tópico descreve como configurar a Unificação de mensagens (UM) do Exchan
     ```
     Veja mais detalhes em:
     
-      - Para o Office Communications Server 2007, consulte "como criar um plano de discagem URI SIP de [https://go.microsoft.com/fwlink/p/?LinkId=268632](https://go.microsoft.com/fwlink/p/?linkid=268632) Unificação de mensagens" em e "New- [https://go.microsoft.com/fwlink/p/?LinkId=268666](https://go.microsoft.com/fwlink/p/?linkid=268666)UMDialPlan: Exchange 2007 Help" em.
+      - Para o Office Communications Server 2007, consulte "como criar um plano de discagem URI SIP de Unificação de mensagens" em [https://go.microsoft.com/fwlink/p/?LinkId=268632](https://go.microsoft.com/fwlink/p/?linkid=268632) e "New-UMDialplan: Exchange 2007 Help" em [https://go.microsoft.com/fwlink/p/?LinkId=268666](https://go.microsoft.com/fwlink/p/?linkid=268666) .
     
-      - Para o Exchange 2010, consulte "criar um plano de discagem [https://go.microsoft.com/fwlink/p/?LinkId=268674](https://go.microsoft.com/fwlink/p/?linkid=268674) de um" em e "New-UMDialplan: Exchange [https://go.microsoft.com/fwlink/p/?LinkId=268680](https://go.microsoft.com/fwlink/p/?linkid=268680)2010 Help" em.
+      - Para o Exchange 2010, consulte "criar um plano de discagem de UM" em [https://go.microsoft.com/fwlink/p/?LinkId=268674](https://go.microsoft.com/fwlink/p/?linkid=268674) e "New-UMDialplan: Exchange 2010 Help" em [https://go.microsoft.com/fwlink/p/?LinkId=268680](https://go.microsoft.com/fwlink/p/?linkid=268680) .
     
-      - Para o Exchange 2013, consulte "unificação [https://go.microsoft.com/fwlink/p/?LinkID=266579](https://go.microsoft.com/fwlink/p/?linkid=266579)de mensagens" em.
+      - Para o Exchange 2013, consulte "Unificação de mensagens" em [https://go.microsoft.com/fwlink/p/?LinkID=266579](https://go.microsoft.com/fwlink/p/?linkid=266579) .
     
     <div>
     
@@ -93,11 +95,11 @@ Este tópico descreve como configurar a Unificação de mensagens (UM) do Exchan
     
     Veja mais detalhes em:
     
-      - Para o Exchange 2007, consulte "Get-UMDialplan: Exchange 2007 Help" [https://go.microsoft.com/fwlink/p/?LinkId=268678](https://go.microsoft.com/fwlink/p/?linkid=268678)em.
+      - Para o Exchange 2007, consulte "Get-UMDialplan: Exchange 2007 Help" em [https://go.microsoft.com/fwlink/p/?LinkId=268678](https://go.microsoft.com/fwlink/p/?linkid=268678) .
     
-      - Para o Exchange 2010, consulte "Get-UMDialplan: Exchange 2010 Help" [https://go.microsoft.com/fwlink/p/?LinkId=268679](https://go.microsoft.com/fwlink/p/?linkid=268679)em.
+      - Para o Exchange 2010, consulte "Get-UMDialplan: Exchange 2010 Help" em [https://go.microsoft.com/fwlink/p/?LinkId=268679](https://go.microsoft.com/fwlink/p/?linkid=268679) .
     
-      - Para o Exchange 2013, consulte "unificação [https://go.microsoft.com/fwlink/p/?LinkID=266579](https://go.microsoft.com/fwlink/p/?linkid=266579)de mensagens" em.
+      - Para o Exchange 2013, consulte "Unificação de mensagens" em [https://go.microsoft.com/fwlink/p/?LinkID=266579](https://go.microsoft.com/fwlink/p/?linkid=266579) .
 
 3.  Registre o nome do plano de discagem de cada plano de discagem de UM. Dependendo da sua versão do Exchange Server, talvez seja necessário usar o FQDN de cada nome de plano de discagem posteriormente como o nome de cada plano de discagem do Lync Server correspondente de cada plano de discagem para que os nomes do plano de discagem coincidam.
     
@@ -114,11 +116,11 @@ Este tópico descreve como configurar a Unificação de mensagens (UM) do Exchan
     
       - Se você optar por usar o console de gerenciamento do Exchange, poderá adicionar o plano de discagem da folha de propriedades para o servidor. Para obter instruções específicas, consulte a documentação do produto do Exchange Server.
         
-        Para o Exchange 2007, consulte "como adicionar um servidor de Unificação de mensagens a [https://go.microsoft.com/fwlink/p/?LinkId=268681](https://go.microsoft.com/fwlink/p/?linkid=268681)um plano de discagem" em.
+        Para o Exchange 2007, consulte "como adicionar um servidor de Unificação de mensagens a um plano de discagem" em [https://go.microsoft.com/fwlink/p/?LinkId=268681](https://go.microsoft.com/fwlink/p/?linkid=268681) .
         
-        Para o Exchange 2010, consulte "exibir ou configurar as propriedades de um servidor da UM [https://go.microsoft.com/fwlink/p/?LinkId=268682](https://go.microsoft.com/fwlink/p/?linkid=268682)" em.
+        Para o Exchange 2010, consulte "exibir ou configurar as propriedades de um servidor da UM" em [https://go.microsoft.com/fwlink/p/?LinkId=268682](https://go.microsoft.com/fwlink/p/?linkid=268682) .
         
-        Para o Exchange 2013, consulte "unificação [https://go.microsoft.com/fwlink/p/?LinkID=266579](https://go.microsoft.com/fwlink/p/?linkid=266579)de mensagens" em.
+        Para o Exchange 2013, consulte "Unificação de mensagens" em [https://go.microsoft.com/fwlink/p/?LinkID=266579](https://go.microsoft.com/fwlink/p/?linkid=266579) .
     
       - Se você usar o Shell de gerenciamento do Exchange, execute o seguinte para cada um dos seus servidores de UM do Exchange:
         ```powershell
@@ -131,12 +133,12 @@ Este tópico descreve como configurar a Unificação de mensagens (UM) do Exchan
     
 
     > [!NOTE]  
-    > Antes de executar a etapa a seguir, verifique se todos os usuários do Enterprise Voice foram configurados com uma caixa de correio do Exchange Server.<BR>Para o Exchange 2007, consulte a biblioteca do TechNet do Exchange <A href="https://go.microsoft.com/fwlink/p/?linkid=268685">https://go.microsoft.com/fwlink/p/?LinkId=268685</A>Server 2007 no.<BR>Para o Exchange 2010, consulte a biblioteca do TechNet do Exchange <A href="https://go.microsoft.com/fwlink/p/?linkid=268686">https://go.microsoft.com/fwlink/p/?LinkId=268686</A>Server 2010 no.<BR>Ao especificar uma política de caixa de correio para cada plano de discagem que você criou na etapa 1, selecione a política padrão ou uma que você tenha criado.
+    > Antes de executar a etapa a seguir, verifique se todos os usuários do Enterprise Voice foram configurados com uma caixa de correio do Exchange Server.<BR>Para o Exchange 2007, consulte a biblioteca do TechNet do Exchange Server 2007 no <A href="https://go.microsoft.com/fwlink/p/?linkid=268685">https://go.microsoft.com/fwlink/p/?LinkId=268685</A> .<BR>Para o Exchange 2010, consulte a biblioteca do TechNet do Exchange Server 2010 no <A href="https://go.microsoft.com/fwlink/p/?linkid=268686">https://go.microsoft.com/fwlink/p/?LinkId=268686</A> .<BR>Ao especificar uma política de caixa de correio para cada plano de discagem que você criou na etapa 1, selecione a política padrão ou uma que você tenha criado.
 
     
     </div>
 
-5.  Navegue até \<scripts de diretório\>\\de instalação do Exchange e, se o Exchange estiver implantado em uma única floresta, digite:
+5.  Navegue até \<Exchange installation directory\> \\ scripts e, se o Exchange estiver implantado em uma única floresta, digite:
     ```console
     exchucutil.ps1
     ```
@@ -181,9 +183,9 @@ Este tópico descreve como configurar a Unificação de mensagens (UM) do Exchan
         ```powershell
         Set-UMIPGateway <gatewayname> -OutcallsAllowed $false
         ```
-        Para o Exchange 2007, consulte "Set-UMIPGateway: Exchange 2007 Help" [https://go.microsoft.com/fwlink/p/?LinkId=268687](https://go.microsoft.com/fwlink/p/?linkid=268687)em.
+        Para o Exchange 2007, consulte "Set-UMIPGateway: Exchange 2007 Help" em [https://go.microsoft.com/fwlink/p/?LinkId=268687](https://go.microsoft.com/fwlink/p/?linkid=268687) .
         
-        Para o Exchange 2010, consulte "Set-UMIPGateway: Exchange 2010 Help" [https://go.microsoft.com/fwlink/p/?LinkId=268688](https://go.microsoft.com/fwlink/p/?linkid=268688)em.
+        Para o Exchange 2010, consulte "Set-UMIPGateway: Exchange 2010 Help" em [https://go.microsoft.com/fwlink/p/?LinkId=268688](https://go.microsoft.com/fwlink/p/?linkid=268688) .
     
       - Se você usar o console de gerenciamento do Exchange, desmarque a caixa de seleção **Permitir chamadas de saída por meio deste gateway IP** .
     
@@ -212,9 +214,9 @@ Este tópico descreve como configurar a Unificação de mensagens (UM) do Exchan
     ```
     Veja mais detalhes em:
     
-      - Para o Exchange 2007, consulte "New-UMAutoAttendant: Exchange 2007 Help" [https://go.microsoft.com/fwlink/p/?LinkId=268689](https://go.microsoft.com/fwlink/p/?linkid=268689)em.
+      - Para o Exchange 2007, consulte "New-UMAutoAttendant: Exchange 2007 Help" em [https://go.microsoft.com/fwlink/p/?LinkId=268689](https://go.microsoft.com/fwlink/p/?linkid=268689) .
     
-      - Para o Exchange 2010, consulte "New-UMAutoAttendant: Exchange 2010 Help" [https://go.microsoft.com/fwlink/p/?LinkId=268690](https://go.microsoft.com/fwlink/p/?linkid=268690)em.
+      - Para o Exchange 2010, consulte "New-UMAutoAttendant: Exchange 2010 Help" em [https://go.microsoft.com/fwlink/p/?LinkId=268690](https://go.microsoft.com/fwlink/p/?linkid=268690) .
     
     A etapa a seguir deve ser executada para cada usuário depois que você habilitar usuários do Lync Server para o Enterprise Voice e conhecer seus URIs SIP.
 
@@ -234,9 +236,9 @@ Este tópico descreve como configurar a Unificação de mensagens (UM) do Exchan
     ```
     Veja mais detalhes em:
     
-      - Para o Exchange 2007, consulte "Enable-UMMailbox: Exchange 2007 Help" [https://go.microsoft.com/fwlink/p/?LinkId=268691](https://go.microsoft.com/fwlink/p/?linkid=268691)em.
+      - Para o Exchange 2007, consulte "Enable-UMMailbox: Exchange 2007 Help" em [https://go.microsoft.com/fwlink/p/?LinkId=268691](https://go.microsoft.com/fwlink/p/?linkid=268691) .
     
-      - Para o Exchange 2010, consulte "Enable-UMMailbox: Exchange 2010 Help" [https://go.microsoft.com/fwlink/p/?LinkId=268692](https://go.microsoft.com/fwlink/p/?linkid=268692)em.
+      - Para o Exchange 2010, consulte "Enable-UMMailbox: Exchange 2010 Help" em [https://go.microsoft.com/fwlink/p/?LinkId=268692](https://go.microsoft.com/fwlink/p/?linkid=268692) .
 
 </div>
 

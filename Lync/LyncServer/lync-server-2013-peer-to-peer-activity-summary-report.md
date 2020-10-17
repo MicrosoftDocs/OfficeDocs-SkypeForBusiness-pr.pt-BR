@@ -12,20 +12,22 @@ ms:contentKeyID: 48185884
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 03d1f47cbd38604e90354dc6f3590894071cc4c3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e232d6ffee5e49d52eef68c9668d7d8b6325f13d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215747"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520798"
 ---
+# <a name="peer-to-peer-activity-summary-report-in-lync-server-2013"></a>Relatório de Resumo de atividades ponto a ponto no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="peer-to-peer-activity-summary-report-in-lync-server-2013"></a>Relatório de Resumo de atividades ponto a ponto no Lync Server 2013
+
 
 </div>
 
@@ -53,7 +55,7 @@ O Relatório de Resumo de Atividade Ponto a Ponto ajuda você a responder pergun
 
 O Relatório de Resumo de Atividade Ponto a Ponto é acessado a partir da página inicial de Relatórios de Monitoramento. Abra o [relatório de mensagens instantâneas ponto a ponto no Lync Server 2013](lync-server-2013-peer-to-peer-im-report.md) clicando em uma das seguintes métricas:
 
-  - Total de sessões de IM ponto a ponto
+  - Total de sessões de mensagens instantâneas ponto a ponto
 
   - Total de mensagens instantâneas ponto a ponto
 
@@ -102,7 +104,7 @@ A tabela a seguir lista os filtros que podem ser usados com o Relatório de Resu
 <tr class="odd">
 <td><p><strong>De</strong></p></td>
 <td><p>Data e hora de início para o intervalo de tempo. Para exibir os dados por horas, digite a data e a hora de início da seguinte maneira:</p>
-<p>17/07/12012 13:00</p>
+<p>17/07/2012 13:00</p>
 <p>Se você não digitar um horário de início, o relatório começará automaticamente às 12:00 AM no dia especificado. Para exibir os dados por dia, digite apenas a data:</p>
 <p>7/17/12012</p>
 <p>Para exibir por semana ou por mês, insira uma data cai em qualquer lugar dentro da semana ou mês que você deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):</p>
@@ -138,7 +140,7 @@ A tabela a seguir lista os filtros que podem ser usados com o Relatório de Resu
 
 <div>
 
-## <a name="metrics"></a>Métricas
+## <a name="metrics"></a>Métrica
 
 A tabela a seguir lista as informações fornecidas no Relatório de Resumos de Atividades Ponto a Ponto.
 

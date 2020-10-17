@@ -12,20 +12,22 @@ ms:contentKeyID: 48184649
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b72d08d786f41dc606b419f9452970d683b8da37
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7a5f7a6a30e510bdcdb57d9f8a2f5a15fe8a7f37
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188654"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521188"
 ---
+# <a name="administering-the-address-book-service-in-lync-server-2013"></a>Administrar o serviço de catálogo de endereços no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="administering-the-address-book-service-in-lync-server-2013"></a>Administrar o serviço de catálogo de endereços no Lync Server 2013
+
 
 </div>
 
@@ -63,7 +65,7 @@ As regras de normalização que foram usadas nas versões anteriores podem não 
 
 ## <a name="user-replicator-and-address-book-server"></a>Replicador de Usuários e Servidor de Catálogo de Endereços
 
-O servidor de catálogo de endereços usa os dados fornecidos pelo Replicator de usuários para atualizar as informações que ele obtém inicialmente da lista de endereços global (GAL). O replicador de usuários grava os atributos de serviços de domínio do Active Directory para cada usuário, contato e grupo na tabela AbUserEntry no banco de dados e o servidor do catálogo de endereços sincroniza os dados do usuário do banco de dados em arquivos no repositório de arquivos do servidor do catálogo de endereços e no banco de dados do catálogo de endereços RTCab. O esquema da tabela de AbUserEntry usa duas colunas,   **UserGuid** e **UserData**. **Userguid** é a coluna de índice e contém o GUID de 16 bytes do objeto do Active Directory. **UserData** é uma coluna de imagem que contém todos os atributos de serviços de domínio do Active Directory mencionados anteriormente para esse contato.
+O servidor de catálogo de endereços usa os dados fornecidos pelo Replicator de usuários para atualizar as informações que ele obtém inicialmente da lista de endereços global (GAL). O replicador de usuários grava os atributos de serviços de domínio do Active Directory para cada usuário, contato e grupo na tabela AbUserEntry no banco de dados e o servidor do catálogo de endereços sincroniza os dados do usuário do banco de dados em arquivos no repositório de arquivos do servidor do catálogo de endereços e no banco de dados do catálogo de endereços do RTCab. O esquema da tabela de AbUserEntry usa duas colunas,   **UserGuid** e **UserData**. **Userguid** é a coluna de índice e contém o GUID de 16 bytes do objeto do Active Directory. **UserData** é uma coluna de imagem que contém todos os atributos de serviços de domínio do Active Directory mencionados anteriormente para esse contato.
 
 O replicador de usuários determina quais atributos do Active Directory serão gravados lendo uma tabela de configuração localizada na mesma instância baseada no SQL Server que a tabela AbUserEntry. A tabela AbAttribute tem três colunas, **ID**, **Nome**, **Sinalizadores** e **Habilitar**. A tabela é criada durante a instalação do banco de dados. Se a tabela AbAttribute está vazia, o Replicador de usuários ignora a lógica de processamento da tabela AbUserEntry. Os atributos do servidor de catálogo de endereços são dinâmicos e recuperados da tabela AbAttribute, que inicialmente é gravada pelo servidor de catálogo de endereços quando o servidor de catálogo de endereços é ativado.
 
@@ -100,12 +102,12 @@ A ativação do servidor de catálogo de endereços preenche a tabela AbAttribut
 <td><p>0x03420000</p></td>
 </tr>
 <tr class="even">
-<td><p>quatro</p></td>
+<td><p>4 </p></td>
 <td><p>Título</p></td>
 <td><p>0x04000000</p></td>
 </tr>
 <tr class="odd">
-<td><p>0,5</p></td>
+<td><p>5 </p></td>
 <td><p>mailNickname</p></td>
 <td><p>0x05400000</p></td>
 </tr>
@@ -135,12 +137,12 @@ A ativação do servidor de catálogo de endereços preenche a tabela AbAttribut
 <td><p>0x0A302800</p></td>
 </tr>
 <tr class="odd">
-<td><p>11 </p></td>
+<td><p>11</p></td>
 <td><p>Mobile</p></td>
 <td><p>0x0B622800</p></td>
 </tr>
 <tr class="even">
-<td><p>12</p></td>
+<td><p>12 </p></td>
 <td><p>otherTelephone</p></td>
 <td><p>0x0C302000</p></td>
 </tr>
@@ -151,7 +153,7 @@ A ativação do servidor de catálogo de endereços preenche a tabela AbAttribut
 </tr>
 <tr class="even">
 <td><p>14 </p></td>
-<td><p>Correio</p></td>
+<td><p>Email</p></td>
 <td><p>0x0E500000</p></td>
 </tr>
 <tr class="odd">
@@ -161,7 +163,7 @@ A ativação do servidor de catálogo de endereços preenche a tabela AbAttribut
 </tr>
 <tr class="even">
 <td><p>16 </p></td>
-<td><p>Departamento</p></td>
+<td><p>Department</p></td>
 <td><p>0x10000000</p></td>
 </tr>
 <tr class="odd">
@@ -171,7 +173,7 @@ A ativação do servidor de catálogo de endereços preenche a tabela AbAttribut
 </tr>
 <tr class="even">
 <td><p>18 </p></td>
-<td><p>Gerente</p></td>
+<td><p>Manager</p></td>
 <td><p>0x12040001</p></td>
 </tr>
 <tr class="odd">
@@ -218,7 +220,7 @@ Os números na coluna **ID** devem ser exclusivos e nunca devem ser reutilizados
 </tr>
 <tr class="odd">
 <td><p>0x2</p></td>
-<td><p>Um atributo de cadeia de caracteres, mas é incluído apenas se o valor &quot;do atributo&quot;começa com Tel:. Isso é principalmente para atributos com valores múltiplos, especificamente <strong>proxyAddresses</strong>. Nesse caso, o servidor de catálogo de endereços está interessado <strong></strong> apenas em entradas de proxyAddresses &quot;que começam&quot;com Tel:. Portanto, com o intuito de economizar espaço, o replicador de usuários armazena apenas as entradas que &quot;começam com&quot;Tel:.</p></td>
+<td><p>Um atributo de cadeia de caracteres, mas é incluído apenas se o valor do atributo começa com &quot; Tel: &quot; . Isso é principalmente para atributos com valores múltiplos, especificamente <strong>proxyAddresses</strong>. Nesse caso, o servidor de catálogo de endereços está interessado apenas em entradas de <strong>proxyAddresses</strong> que começam com &quot; Tel: &quot; . Portanto, com o intuito de economizar espaço, o replicador de usuários armazena apenas as entradas que começam com &quot; Tel: &quot; .</p></td>
 </tr>
 <tr class="even">
 <td><p>0x3</p></td>
@@ -226,11 +228,11 @@ Os números na coluna **ID** devem ser exclusivos e nunca devem ser reutilizados
 </tr>
 <tr class="odd">
 <td><p>0x4</p></td>
-<td><p>Um atributo de cadeia de caracteres, mas é incluído apenas se o valor &quot;do atributo&quot; começa com SMTP &quot; @ &quot; : e inclui o símbolo.</p></td>
+<td><p>Um atributo de cadeia de caracteres, mas é incluído apenas se o valor do atributo começa com &quot; SMTP: &quot; e inclui o &quot; @ &quot; símbolo.</p></td>
 </tr>
 <tr class="even">
 <td><p>0x5</p></td>
-<td><p>Um atributo de cadeia de caracteres, mas é incluído apenas se o valor do &quot;atributo começa&quot; com &quot;Tel:&quot; ou SMTP: &quot; @ &quot; e inclui o símbolo.</p></td>
+<td><p>Um atributo de cadeia de caracteres, mas é incluído apenas se o valor do atributo começa com &quot; Tel: &quot; ou &quot; SMTP: &quot; e inclui o &quot; @ &quot; símbolo.</p></td>
 </tr>
 <tr class="odd">
 <td><p>0x100</p></td>
@@ -278,7 +280,7 @@ Nas versões anteriores do Lync Server, ao aplicar uma alteração no Active Dir
 
 
 > [!NOTE]  
-> Por padrão, o replicador de usuários do Lync Server é executado automaticamente a cada 5 minutos. Você pode configurar esse intervalo usando o set-CSUserReplicatorConfiguration-ReplicationCycleInterval &lt; &gt;.
+> Por padrão, o replicador de usuários do Lync Server é executado automaticamente a cada 5 minutos. Você pode configurar esse intervalo usando o set-CSUserReplicatorConfiguration-ReplicationCycleInterval &lt; &gt; .
 
 
 
@@ -347,7 +349,7 @@ Atualmente existem três filtros diferentes. A tabela a seguir lista esses filtr
 
 Embora você possa filtrar o catálogo de endereços para incluir somente certos usuários, limitar as entradas não limita a capacidade de  outros usuários para entrar em contato com os usuários filtrados ou para ver seu status de presença. Os usuários sempre podem enviar manualmente mensagens instantâneas, iniciar chamadas ou encontrar os usuários que não estão no catálogo de endereços, digitando o nome completo de entrada de um usuário. Além disso, as informações de contato para um usuário também podem ser encontradas no Outlook.
 
-Os registros de contato completo nos arquivos do catálogo de endereços permitem que você use o Lync Server para iniciar chamadas de email, telefone ou Enterprise Voice (ou seja, se o Enterprise Voice estiver habilitado no servidor) com usuários que não estão configurados para o início da sessão Protocol (SIP), algumas organizações preferem incluir apenas usuários habilitados para SIP nas entradas do servidor do catálogo de endereços. Você pode filtrar o catálogo de endereços para incluir somente os usuários habilitados para o SIP limpando o bit 0x800 na coluna **Sinalizadores** dos seguintes atributos obrigatórios: **mailNickname**, **telephoneNumber**, **homePhone** e **celular**. Você também pode filtrar o catálogo de endereços para incluir somente os usuários habilitados para SIP, definindo o 0x8000 (inclua o atributo) na coluna **Sinalizadores ** do atributo **msRTCSIP-PrimaryUserAddress **. Isso também ajuda a excluir as contas de serviço de arquivos de catálogo de endereços.
+Enquanto os registros de contato completo nos arquivos do catálogo de endereços permitem que você use o Lync Server para iniciar chamadas de email, telefone ou Enterprise Voice (ou seja, se o Enterprise Voice estiver habilitado no servidor) com usuários que não estão configurados para o protocolo SIP, algumas organizações preferem incluir apenas usuários habilitados para SIP nas entradas do servidor do catálogo de endereços. Você pode filtrar o catálogo de endereços para incluir somente os usuários habilitados para o SIP limpando o bit 0x800 na coluna **Sinalizadores** dos seguintes atributos obrigatórios: **mailNickname**, **telephoneNumber**, **homePhone** e **celular**. Você também pode filtrar o catálogo de endereços para incluir somente os usuários habilitados para SIP, definindo o 0x8000 (inclua o atributo) na coluna **Sinalizadores ** do atributo **msRTCSIP-PrimaryUserAddress **. Isso também ajuda a excluir as contas de serviço de arquivos de catálogo de endereços.
 
 Depois de modificar a tabela AbAttribute, você pode atualizar os dados na tabela AbUserEntry executando o comando do cmdlet **Update-CsUserDatabase**. Após a conclusão da replicação UR, é possível atualizar o arquivo no repositório de arquivos do servidor de catálogo de endereços manualmente, executando o comando cmdlet **UpdateCsAddressBook**.
 

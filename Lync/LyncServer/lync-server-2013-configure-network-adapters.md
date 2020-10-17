@@ -12,20 +12,22 @@ ms:contentKeyID: 48184320
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7b239d4da0d37280df69f231d7d590f0846f0ee4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 662ad7425a248148e9e2dde0c8f18ccea5add0c5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206627"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520558"
 ---
+# <a name="configure-network-adapters-in-lync-server-2013"></a>Configurar adaptadores de rede no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-network-adapters-in-lync-server-2013"></a>Configurar adaptadores de rede no Lync Server 2013
+
 
 </div>
 
@@ -59,7 +61,7 @@ Nos procedimentos a seguir, o servidor que executa o Forefront Threat Management
 
 ## <a name="to-configure-the-network-adapter-cards-on-the-reverse-proxy-computer"></a>Para configurar as placas adaptadoras de rede no computador proxy reverso
 
-1.  No servidor Windows Server 2008, Windows Server 2008 R2, Windows Server 2012 ou Windows Server 2012 R2 em execução como proxy reverso, clique em **** **Iniciar**, aponte para **painel de controle**, clique em **centro de rede e compartilhamento**e, em seguida, clique em **alterar as configurações do adaptador**.
+1.  No servidor Windows Server 2008, Windows Server 2008 R2, Windows Server 2012 ou Windows Server 2012 R2 em execução como proxy reverso, clique em **Change Adapter Settings** **Iniciar**, aponte para **painel de controle**, clique em **centro de rede e compartilhamento**e, em seguida, clique em **alterar as configurações do adaptador**.
 
 2.  Clique com o botão direito do mouse na conexão de rede externa que você deseja usar para a interface externa e clique em **Propriedades**.
 

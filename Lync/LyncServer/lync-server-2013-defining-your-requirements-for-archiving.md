@@ -12,20 +12,22 @@ ms:contentKeyID: 48185462
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 21f7d374d3c4263f2341386d2c4471f50e4b719d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4a5f789f390e1cf104a0dc1b3a10a4116ba38c03
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198334"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521658"
 ---
+# <a name="defining-your-requirements-for-archiving-in-lync-server-2013"></a>Definindo seus requisitos para arquivamento no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="defining-your-requirements-for-archiving-in-lync-server-2013"></a>Definindo seus requisitos para arquivamento no Lync Server 2013
+
 
 </div>
 
@@ -64,7 +66,7 @@ Para implementar o Arquivamento, você precisa primeiro decidir como atender os 
     
     É possível configurar esta opção a nível global, nível local ou nível do pool. Por padrão, o modo crítico não está habilitado.
 
-  - **Se usará a integração do Microsoft Exchange**. Essa opção integra o armazenamento de arquivamento ao seu armazenamento do Exchange 2013, para que seus dados arquivados do Lync Server e dados do Exchange 2013 arquivados sejam armazenados juntos no Exchange. Você pode usar a integração do Microsoft Exchange para armazenamento de dados de arquivamento para usuários hospedados no Exchange 2013, se suas caixas de correio foram colocadas em bloqueio in-loco. Se você não tiver uma implantação do Exchange 2013, ou se preferir não integrá-la, ou se tiver usuários do Lync que não estejam hospedados no Exchange 2013, você poderá implantar bancos de dados de arquivamento separados usando o SQL Server para armazenar dados arquivados de comunicações do Lync. Você pode configurar a opção de integração do Microsoft Exchange no nível global, nível de site e nível de pool. Por padrão, a integração do Microsoft Exchange não está habilitada.
+  - **Se usará a integração do Microsoft Exchange**. Essa opção integra o armazenamento de arquivamento ao seu armazenamento do Exchange 2013, para que seus dados arquivados do Lync Server e dados do Exchange 2013 arquivados sejam armazenados juntos no Exchange. Você pode usar a integração do Microsoft Exchange para armazenamento de dados de arquivamento para usuários hospedados no Exchange 2013, caso suas caixas de correio tenham sido colocadas em In-Place. Se você não tiver uma implantação do Exchange 2013, ou se preferir não integrá-la, ou se tiver usuários do Lync que não estejam hospedados no Exchange 2013, você poderá implantar bancos de dados de arquivamento separados usando o SQL Server para armazenar dados arquivados de comunicações do Lync. Você pode configurar a opção de integração do Microsoft Exchange no nível global, nível de site e nível de pool. Por padrão, a integração do Microsoft Exchange não está habilitada.
 
   - **Como os dados arquivados devem ser gerenciados**. O banco de dados de arquivamento não se destina à retenção de longo prazo e o Lync Server 2013 não oferece uma solução de descoberta eletrônica (pesquisa) para dados arquivados, portanto, os dados precisam ser movidos para outro armazenamento. O Lync Server fornece uma ferramenta de exportação de sessão que você pode usar para exportar dados arquivados e que cria transcrições pesquisáveis dos dados arquivados. Para a política global e para cada política de usuário e local que você criar, é possível habilitar a exclusão de dados e especificar uma das seguintes opções:
     
@@ -97,7 +99,7 @@ Se você implantar o Arquivamento para um pool de Front-end ou servidor do Stand
 
 
 > [!NOTE]  
-> Para habilitar a delegação de tarefas administrativas enquanto mantém os padrões de segurança da sua organização,&nbsp;o Lync Server 2013 usa o controle de acesso baseado em função (RBAC). Com RBAC, o privilégio administrativo é concedido atribuindo usuários às funções administravas predefinidas. Para configurar políticas de Arquivamento do Lync e configurações de Arquivamento, o usuário deve ser atribuído à função CsArchivingAdministrator (a não ser que a configuração seja realizada diretamente no servidor onde o Arquivamento é implantado, ao invés de remotamente de outro computador). Para obter detalhes sobre o RBAC, consulte <A href="lync-server-2013-planning-for-role-based-access-control.md">Planning for Role-Based Access Control in Lync Server 2013</A> na documentação de planejamento. Para obter uma lista dos direitos de usuário, permissões e funções necessários para a implantação de arquivamento, consulte <A href="lync-server-2013-deployment-checklist-for-archiving.md">Deployment Checklist for Archiving in Lync Server 2013</A>, que está disponível na documentação de planejamento e na documentação de implantação.<BR>Se você usar a integração com o Microsoft Exchange, a configuração de políticas do Exchange exigirá direitos e permissões de administrador apropriados. Para obter detalhes, consulte a documentação do Exchange 2013.
+> Para habilitar a delegação de tarefas administrativas enquanto mantém os padrões de segurança da sua organização, o Lync Server 2013 &nbsp; usa o controle de acesso baseado em função (RBAC). Com RBAC, o privilégio administrativo é concedido atribuindo usuários às funções administravas predefinidas. Para configurar políticas de Arquivamento do Lync e configurações de Arquivamento, o usuário deve ser atribuído à função CsArchivingAdministrator (a não ser que a configuração seja realizada diretamente no servidor onde o Arquivamento é implantado, ao invés de remotamente de outro computador). Para obter detalhes sobre o RBAC, consulte <A href="lync-server-2013-planning-for-role-based-access-control.md">Planning for Role-Based Access Control in Lync Server 2013</A> na documentação de planejamento. Para obter uma lista dos direitos de usuário, permissões e funções necessários para a implantação de arquivamento, consulte <A href="lync-server-2013-deployment-checklist-for-archiving.md">Deployment Checklist for Archiving in Lync Server 2013</A>, que está disponível na documentação de planejamento e na documentação de implantação.<BR>Se você usar a integração com o Microsoft Exchange, a configuração de políticas do Exchange exigirá direitos e permissões de administrador apropriados. Para obter detalhes, consulte a documentação do Exchange 2013.
 
 
 

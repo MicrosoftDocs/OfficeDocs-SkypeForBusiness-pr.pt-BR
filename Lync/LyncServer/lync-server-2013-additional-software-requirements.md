@@ -12,20 +12,22 @@ ms:contentKeyID: 48184731
 ms.date: 12/09/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4565f91afeb703de967040edb8f6d437aedac9eb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9a4a0c2e200c779d87a13c08eada968b27a7447f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196394"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521228"
 ---
+# <a name="additional-software-requirements-for-lync-server-2013"></a>Requisitos de software adicionais para o Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="additional-software-requirements-for-lync-server-2013"></a>Requisitos de software adicionais para o Lync Server 2013
+
 
 </div>
 
@@ -69,7 +71,7 @@ Cada servidor executando o Lync Server 2013 deve ter a versão correta do Window
 
 ## <a name="microsoft-net-framework-45"></a>Microsoft .NET Framework 4.5
 
-O Lync Server requer o Microsoft .NET Framework 4,5 em todas as funções de servidor interno e em qualquer computador em que você executará as ferramentas administrativas do Lync Server ou o Microsoft Lync Server 2013, ferramenta de planejamento. Para o Lync Server 2013, você deve instalar manualmente a edição de 64 bits do Microsoft .NET Framework 4,5 no servidor antes de instalar o Lync Server 2013. Para instalá-lo manualmente, baixe a estrutura do Microsoft .NET 4,5 do centro de download da Microsoft em[https://go.microsoft.com/fwlink/p/?LinkId=268529](https://go.microsoft.com/fwlink/p/?linkid=268529)
+O Lync Server requer o Microsoft .NET Framework 4,5 em todas as funções de servidor interno e em qualquer computador em que você executará as ferramentas administrativas do Lync Server ou o Microsoft Lync Server 2013, ferramenta de planejamento. Para o Lync Server 2013, você deve instalar manualmente a edição de 64 bits do Microsoft .NET Framework 4,5 no servidor antes de instalar o Lync Server 2013. Para instalá-lo manualmente, baixe a estrutura do Microsoft .NET 4,5 do centro de download da Microsoft em [https://go.microsoft.com/fwlink/p/?LinkId=268529](https://go.microsoft.com/fwlink/p/?linkid=268529)
 
 <div>
 
@@ -99,7 +101,7 @@ Ao instalar o Microsoft .NET Framework 4,5 em servidores que executam o Lync Ser
 
 O **Windows Identity Foundation** no Lync Server 2013 requer a instalação do Windows Identity Foundation para dar suporte a cenários de autenticação de servidor para servidor. O Windows Server 2008 R2 e o Windows Server 2012 exigem procedimentos diferentes para instalar o Windows Identify Foundation. Selecione o sistema operacional do servidor na lista a seguir:
 
-  - Windows Server 2008 R2 para Windows Server 2008 R2, você verifica se ele já foi instalado no seu computador. Para fazer isso, vá para **Adicionar ou remover programas**, **Veja atualizações instaladas**e procure em **Windows** para a entrada **Windows Identity Foundation (KB974405)**. Para obter detalhes sobre a instalação do Windows Identity [https://go.microsoft.com/fwlink/p/?linkId=204657](https://go.microsoft.com/fwlink/p/?linkid=204657)Foundation, consulte.
+  - Windows Server 2008 R2 para Windows Server 2008 R2, você verifica se ele já foi instalado no seu computador. Para fazer isso, vá para **Adicionar ou remover programas**, **Veja atualizações instaladas**e procure em **Windows** para a entrada **Windows Identity Foundation (KB974405)**. Para obter detalhes sobre a instalação do Windows Identity Foundation, consulte [https://go.microsoft.com/fwlink/p/?linkId=204657](https://go.microsoft.com/fwlink/p/?linkid=204657) .
 
   - Windows Server 2012 para Windows Server 2012, você usa o **Gerenciador do servidor** para instalar o Windows Identity Foundation. No **Assistente para adicionar funções e recursos**do Gerenciador de servidores, selecione **recursos**. Selecione **Windows Identity Foundation 3,5** na lista. Clique em **Avançar**e em **instalar**.
 
@@ -175,7 +177,7 @@ Os servidores front-end exigem o .NET 3,5, que não é instalado por padrão no 
 
     Add-WindowsFeature RSAT-ADDS, Web-Server, Web-Static-Content, Web-Default-Doc, Web-Http-Errors, Web-Asp-Net, Web-Net-Ext, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Logging, Web-Log-Libraries, Web-Request-Monitor, Web-Http-Tracing, Web-Basic-Auth, Web-Windows-Auth, Web-Client-Auth, Web-Filtering, Web-Stat-Compression, Web-Dyn-Compression, NET-WCF-HTTP-Activation45, Web-Asp-Net45, Web-Mgmt-Tools, Web-Scripting-Tools, Web-Mgmt-Compat, Desktop-Experience, Telnet-Client, BITS -Source D:\sources\sxs
 
-Para obter detalhes sobre a instalação do .NET 3,5 em servidores que executam o Windows Server 2012, consulte "Microsoft .NET <https://go.microsoft.com/fwlink/p/?linkid=275032>Framework 3,5 Deployment Considerations" em.
+Para obter detalhes sobre a instalação do .NET 3,5 em servidores que executam o Windows Server 2012, consulte "Microsoft .NET Framework 3,5 Deployment Considerations" em <https://go.microsoft.com/fwlink/p/?linkid=275032> .
 
 </div>
 
@@ -211,7 +213,7 @@ Os diretores devem executar o IIS (serviços de informações da Internet), com 
 
   - Compressão de conteúdo estático
 
-  - Console de gerenciamento do IIS
+  - Console de gerenciamento IIS
 
   - Ferramentas e scripts de gerenciamento IIS
 
@@ -239,11 +241,11 @@ Os servidores de borda exigem os seguintes softwares:
 
   - Cada servidor executando o Lync Server 2013 deve ter a versão correta do Windows PowerShell 3,0 instalada. Para obter detalhes, consulte [instalando o Windows PowerShell 3,0 para Lync Server 2013](lync-server-2013-installing-windows-powershell-3-0.md).
 
-  - O Lync Server requer o Microsoft .NET Framework 4,5. Para o Lync Server 2013 instalado no Windows Server 2008 R2, você deve instalar manualmente a edição de 64 bits do Microsoft .NET Framework 4,5 no servidor antes de instalar o Lync Server 2013. Para instalá-lo manualmente, baixe a estrutura do Microsoft .NET 4,5 do centro de download da Microsoft em[https://go.microsoft.com/fwlink/p/?LinkId=268529](https://go.microsoft.com/fwlink/p/?linkid=268529)
+  - O Lync Server requer o Microsoft .NET Framework 4,5. Para o Lync Server 2013 instalado no Windows Server 2008 R2, você deve instalar manualmente a edição de 64 bits do Microsoft .NET Framework 4,5 no servidor antes de instalar o Lync Server 2013. Para instalá-lo manualmente, baixe a estrutura do Microsoft .NET 4,5 do centro de download da Microsoft em [https://go.microsoft.com/fwlink/p/?LinkId=268529](https://go.microsoft.com/fwlink/p/?linkid=268529)
 
   - O **Windows Identity Foundation** no Lync Server 2013 requer a instalação do Windows Identity Foundation para dar suporte a cenários de autenticação de servidor para servidor. O Windows Server 2008 R2 e o Windows Server 2012 exigem procedimentos diferentes para instalar o Windows Identify Foundation. Selecione o sistema operacional do servidor na lista a seguir:
     
-      - Windows Server 2008 R2 para Windows Server 2008 R2, você verifica se ele já foi instalado no seu computador. Para fazer isso, vá para **Adicionar ou remover programas**, **Veja atualizações instaladas**e procure em **Windows** para a entrada **Windows Identity Foundation (KB974405)**. Para obter detalhes sobre a instalação do Windows Identity [https://go.microsoft.com/fwlink/p/?linkId=204657](https://go.microsoft.com/fwlink/p/?linkid=204657)Foundation, consulte.
+      - Windows Server 2008 R2 para Windows Server 2008 R2, você verifica se ele já foi instalado no seu computador. Para fazer isso, vá para **Adicionar ou remover programas**, **Veja atualizações instaladas**e procure em **Windows** para a entrada **Windows Identity Foundation (KB974405)**. Para obter detalhes sobre a instalação do Windows Identity Foundation, consulte [https://go.microsoft.com/fwlink/p/?linkId=204657](https://go.microsoft.com/fwlink/p/?linkid=204657) .
     
       - Windows Server 2012 para Windows Server 2012, você usa o **Gerenciador do servidor** para instalar o Windows Identity Foundation. No **Assistente para adicionar funções e recursos**do Gerenciador de servidores, selecione **recursos**. Selecione **Windows Identity Foundation 3,5** na lista. Clique em **Avançar**e em **instalar**.
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48183307
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8c6620c5ae20331ac805cf8d65c1aa0683e5fbdb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f97dff101a581927ba0d508da45b1f648d1b9908
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195964"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520608"
 ---
+# <a name="checking-for-updates-to-best-practices-analyzer-in-lync-server-2013"></a>Verificando se há atualizações para o analisador de práticas recomendadas no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="checking-for-updates-to-best-practices-analyzer-in-lync-server-2013"></a>Verificando se há atualizações para o analisador de práticas recomendadas no Lync Server 2013
+
 
 </div>
 
@@ -43,7 +45,7 @@ Ao iniciar o Analisador de Práticas Recomendadas, a ferramenta fornece uma opç
 
 
 > [!NOTE]  
-> Se você precisar de autenticação proxy para acessar a Internet, o Analisador de Práticas Recomendadas não poderá acessar novas atualizações para download. No entanto, você pode baixar manualmente a versão mais recente do RtcBPA. msi no centro de <A href="https://go.microsoft.com/fwlink/p/?linkid=266539">https://go.microsoft.com/fwlink/p/?linkId=266539</A>download da Microsoft em. Após o download do arquivo, você pode copiá-lo no computador no qual deseja atualizar o Analisador de Práticas Recomendadas e usar o arquivo .msi para instalar a nova versão da ferramenta nesse computador.
+> Se você precisar de autenticação proxy para acessar a Internet, o Analisador de Práticas Recomendadas não poderá acessar novas atualizações para download. No entanto, você pode baixar manualmente a versão mais recente do RtcBPA.msi no centro de download da Microsoft em <A href="https://go.microsoft.com/fwlink/p/?linkid=266539">https://go.microsoft.com/fwlink/p/?linkId=266539</A> . Após o download do arquivo, você pode copiá-lo no computador no qual deseja atualizar o Analisador de Práticas Recomendadas e usar o arquivo .msi para instalar a nova versão da ferramenta nesse computador.
 
 
 

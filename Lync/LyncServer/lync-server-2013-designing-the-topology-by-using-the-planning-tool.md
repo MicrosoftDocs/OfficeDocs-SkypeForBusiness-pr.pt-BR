@@ -12,20 +12,22 @@ ms:contentKeyID: 51541454
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1c519e6b89051dd2034c528a817a34afb9044f1e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 48d56ec357892fd84e04ccbc9c4996cc6547370e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204319"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520008"
 ---
+# <a name="designing-the-topology-for-lync-server-2013-by-using-the-planning-tool"></a>Projetando a topologia do Lync Server 2013 usando a ferramenta de planejamento
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="designing-the-topology-for-lync-server-2013-by-using-the-planning-tool"></a>Projetando a topologia do Lync Server 2013 usando a ferramenta de planejamento
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42204319"
 
 _**Última modificação do tópico:** 2013-03-04_
 
-A ferramenta de planejamento do Microsoft Lync Server 2013 é uma ferramenta orientada por um assistente que faz perguntas sobre a topologia 2013 do Lync Server que você está criando. A ferramenta de planejamento usa as informações fornecidas, combinadas com práticas preferidas para design e capacidade de topologia, para apresentar uma topologia recomendada com base nas respostas fornecidas. Você pode baixar a ferramenta de planejamento do centro de downloads da[https://go.microsoft.com/fwlink/?LinkID=282725](https://go.microsoft.com/fwlink/?linkid=282725)Microsoft ().
+A ferramenta de planejamento do Microsoft Lync Server 2013 é uma ferramenta orientada por um assistente que faz perguntas sobre a topologia 2013 do Lync Server que você está criando. A ferramenta de planejamento usa as informações fornecidas, combinadas com práticas preferidas para design e capacidade de topologia, para apresentar uma topologia recomendada com base nas respostas fornecidas. Você pode baixar a ferramenta de planejamento do centro de downloads da Microsoft ( [https://go.microsoft.com/fwlink/?LinkID=282725](https://go.microsoft.com/fwlink/?linkid=282725) ).
 
 Em última análise, o objetivo da ferramenta de planejamento é facilitar a complexidade potencial de projetar uma topologia completa do Lync Server 2013. A ferramenta também fornece referências contextuais à documentação de planejamento e implantação dentro da ferramenta, contanto que uma conexão com a Internet esteja disponível para se conectar ao site Microsoft TechNet.
 

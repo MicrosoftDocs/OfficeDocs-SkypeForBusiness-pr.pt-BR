@@ -12,20 +12,22 @@ ms:contentKeyID: 48184261
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 66dd239acbb274c7223363f1522f2d0c76590c37
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c44ef02ef0685b4f930d7a264915d5338600ef71
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215957"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520838"
 ---
+# <a name="overview-of-monitoring-in-lync-server-2013"></a>Visão geral do monitoramento no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-monitoring-in-lync-server-2013"></a>Visão geral do monitoramento no Lync Server 2013
+
 
 </div>
 
@@ -69,7 +71,7 @@ Além dessas informações básicas de chamada, o Monitoring Server também forn
 
   - **Métricas de mídia que influenciam a qualidade**. Essas métricas lidam com a transmissão da chamada propriamente dita, ou seja, elas fornecem um log de trajeto à medida que a chamada passa pela rede. Essas métricas, que incluem itens como perda de pacotes, tremulação e tempo entre saída e chegada, fornecem informações sobre o que aconteceu com a chamada do momento em que ela saiu do seu ponto de extremidade até o momento em que chegou ao ponto de extremidade do outro usuário.
 
-  - **Problemas comunicados ao usuário final**. Essas métricas incluem notificações de baixa qualidade que o Lync 2013 apresenta aos usuários finais em casos em que eles estão muito distantes de um microfone, falando muito simples, têm uma conexão de rede ruim ou estão tendo uma qualidade ruim porque outro programa no computador é consumo dos recursos disponíveis.
+  - **Problemas comunicados ao usuário final**. Essas métricas incluem notificações de baixa qualidade que o Lync 2013 apresenta aos usuários finais em casos em que eles estão muito distantes de um microfone, falando muito simples, têm uma conexão de rede ruim ou estão tendo uma boa qualidade, pois outro programa no computador está consumindo os recursos disponíveis.
 
   - **Informações sobre o ambiente**. Essas métricas detalham fatores de qualidade das chamadas, como tipo de microfone e alto-falantes usados e se o usuário está conectado através de uma VPN ou de uma rede sem fio.
 

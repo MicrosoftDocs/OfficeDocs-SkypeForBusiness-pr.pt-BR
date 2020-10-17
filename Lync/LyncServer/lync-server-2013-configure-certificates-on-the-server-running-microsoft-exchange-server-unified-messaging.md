@@ -12,20 +12,22 @@ ms:contentKeyID: 48184521
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 515be9190f9c5012dfd75cdda6621b7f4acfd88f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 790798835694fcd76a4501c4b94e6ca59f220524
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205077"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521038"
 ---
+# <a name="configure-certificates-on-the-server-running-microsoft-exchange-server-unified-messaging"></a>Configurar certificados no servidor que executa a Unificação de mensagens do Microsoft Exchange Server
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-certificates-on-the-server-running-microsoft-exchange-server-unified-messaging"></a>Configurar certificados no servidor que executa a Unificação de mensagens do Microsoft Exchange Server
+
 
 </div>
 
@@ -65,7 +67,7 @@ O servidor do Exchange deve ser configurado com um certificado de servidor para 
 
 ## <a name="to-download-the-ca-certificate"></a>Para baixar o certificação da autoridade de certificação
 
-1.  No servidor que executa o UM do Exchange, clique em **Iniciar**, clique em **executar**, digite **http://\<nome do servidor\>de CA de emissão/certsrv**e clique em **OK**.
+1.  No servidor que executa o UM do Exchange, clique em **Iniciar**, clique em **executar**, digite **http:// \<name of your Issuing CA Server\> /certsrv**e clique em **OK**.
 
 2.  Em **Selecionar uma tarefa**, clique em **Download de um certificado de autoridade de certificação, cadeia de certificados ou lista de certificados revogados**.
 
@@ -130,7 +132,7 @@ O servidor do Exchange deve ser configurado com um certificado de servidor para 
 
 ## <a name="to-configure-exchange-server-2013-um-with-lync-server"></a>Para configurar a UM do Exchange Server 2013 com o Lync Server
 
-1.  Para obter detalhes, consulte "integrar o Exchange 2013 UM com Lync Server" na documentação do Exchange [https://go.microsoft.com/fwlink/p/?LinkId=265372](https://go.microsoft.com/fwlink/p/?linkid=265372)Server em.
+1.  Para obter detalhes, consulte "integrar o Exchange 2013 UM com Lync Server" na documentação do Exchange Server em [https://go.microsoft.com/fwlink/p/?LinkId=265372](https://go.microsoft.com/fwlink/p/?linkid=265372) .
 
 </div>
 
@@ -138,7 +140,7 @@ O servidor do Exchange deve ser configurado com um certificado de servidor para 
 
 ## <a name="to-create-a-certificate-request-and-install-the-certificate-on-exchange-server-2007-sp1"></a>Para criar uma solicitação de certificado e instalar o certificado no Exchange Server 2007 (SP1)
 
-1.  No servidor que executa o um do Exchange, clique em **Iniciar**, clique em **executar**, digite **\<http://** nome do servidor**\>** de CA de emissão/certsrv e clique em **OK**.
+1.  No servidor que executa o UM do Exchange, clique em **Iniciar**, clique em **executar**, digite **http:// \<**name of your Issuing CA Server**\> /certsrv**e clique em **OK**.
 
 2.  Em **Selecionar uma tarefa**, clique em **Solicitar um Certificado**.
 
@@ -177,13 +179,13 @@ O servidor do Exchange deve ser configurado com um certificado de servidor para 
 
 ## <a name="to-create-a-certificate-on-exchange-server-2010"></a>Para criar um certificado no Exchange Server 2010
 
-1.  Faça logon no servidor que está executando o UM do Exchange com os direitos de usuário apropriados. Para obter detalhes, consulte "permissões de acesso do [https://go.microsoft.com/fwlink/p/?linkId=195499](https://go.microsoft.com/fwlink/p/?linkid=195499)cliente" em.
+1.  Faça logon no servidor que está executando o UM do Exchange com os direitos de usuário apropriados. Para obter detalhes, consulte "permissões de acesso do cliente" em [https://go.microsoft.com/fwlink/p/?linkId=195499](https://go.microsoft.com/fwlink/p/?linkid=195499) .
 
 2.  Consulte os seguintes procedimentos para criar o certificado:
     
-    1.  "Criar um novo certificado do Exchange" em[https://go.microsoft.com/fwlink/p/?linkId=195494](https://go.microsoft.com/fwlink/p/?linkid=195494)
+    1.  "Criar um novo certificado do Exchange" em [https://go.microsoft.com/fwlink/p/?linkId=195494](https://go.microsoft.com/fwlink/p/?linkid=195494)
     
-    2.  "Importar um certificado do Exchange" em[https://go.microsoft.com/fwlink/p/?linkId=195496](https://go.microsoft.com/fwlink/p/?linkid=195496)
+    2.  "Importar um certificado do Exchange" em [https://go.microsoft.com/fwlink/p/?linkId=195496](https://go.microsoft.com/fwlink/p/?linkid=195496)
     
     <div>
     
@@ -236,9 +238,9 @@ O servidor do Exchange deve ser configurado com um certificado de servidor para 
 
 ## <a name="to-assign-the-certificate-on-exchange-server-2010"></a>Para atribuir o certificado no Exchange Server 2010
 
-1.  Faça logon no servidor que está executando o UM do Exchange com os direitos de usuário apropriados. Para obter detalhes, consulte "permissões de acesso do [https://go.microsoft.com/fwlink/p/?linkId=195499](https://go.microsoft.com/fwlink/p/?linkid=195499)cliente" em.
+1.  Faça logon no servidor que está executando o UM do Exchange com os direitos de usuário apropriados. Para obter detalhes, consulte "permissões de acesso do cliente" em [https://go.microsoft.com/fwlink/p/?linkId=195499](https://go.microsoft.com/fwlink/p/?linkid=195499) .
 
-2.  Para obter o procedimento para atribuir o certificado, consulte "atribuir serviços a um certificado" [https://go.microsoft.com/fwlink/p/?linkId=195497](https://go.microsoft.com/fwlink/p/?linkid=195497)em.
+2.  Para obter o procedimento para atribuir o certificado, consulte "atribuir serviços a um certificado" em [https://go.microsoft.com/fwlink/p/?linkId=195497](https://go.microsoft.com/fwlink/p/?linkid=195497) .
 
 </div>
 

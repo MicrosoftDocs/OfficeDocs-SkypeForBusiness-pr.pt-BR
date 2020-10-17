@@ -12,20 +12,22 @@ ms:contentKeyID: 48183225
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9f4ff853e3f31804e4bca55bd6a4576e25702b6c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 640d8e97cf8b7a31e11cb2dc8f1b1394e4b1aae3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42181994"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521808"
 ---
+# <a name="setting-up-reverse-proxy-servers-for-lync-server-2013"></a>Configurando servidores de proxy reverso para o Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="setting-up-reverse-proxy-servers-for-lync-server-2013"></a>Configurando servidores de proxy reverso para o Lync Server 2013
+
 
 </div>
 
@@ -55,7 +57,7 @@ Para implantações do servidor de borda do Microsoft Lync Server 2013, um proxy
 
   - Habilitando o cliente do Lync 2013, o aplicativo Lync Windows Store e o cliente móvel do Lync 2013 para localizar as URLs de descoberta do Lync (descoberta automática) e usar o UCWA (Unified Communications Web API).
 
-Recomendamos que configure seu proxy reverso HTTP para publicar todos os Serviços Web em todos os pools. Publishing https://ExternalFQDN/\* publica todos os diretórios virtuais do IIS para um pool. Você precisa de uma regra de publicação para cada servidor Standard Edition, pool de Front-Ends ou Diretores, ou Diretores em sua organização.
+Recomendamos que configure seu proxy reverso HTTP para publicar todos os Serviços Web em todos os pools. Publishing https://ExternalFQDN/ \* publica todos os diretórios virtuais do IIS para um pool. Você precisa de uma regra de publicação para cada servidor Standard Edition, pool de Front-Ends ou Diretores, ou Diretores em sua organização.
 
 Além disso, você precisa publicar as URLs simples. Caso a organização possua um Diretor ou pool de Diretores, o proxy reverso HTTP escuta por solicitações HTTP/HTTPS às URLs simples e as encaminha via proxy ao diretório virtual de Serviços Web externos no Diretor  ou pool de Diretores. Caso você não tenha implantado um diretor, você precisará designar um pool para manipular as solicitações às URLs simples. (Caso este não seja o pool inicial do usuário, ele irá redirecioná-los para o Serviços Web no pool inicial do usuário). As URLs simples podem ser manipuladas por uma regra de publicação de web dedicada ou você pode adicioná-la aos nomes públicos da regra de publicação de web para o Diretor. Você também precisa publicar a URL externa do serviço de descoberta automática.
 

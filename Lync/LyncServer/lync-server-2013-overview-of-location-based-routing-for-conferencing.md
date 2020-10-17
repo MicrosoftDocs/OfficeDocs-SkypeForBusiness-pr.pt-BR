@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: visão geral do roteamento baseado em local para conferência'
+title: 'Lync Server 2013: visão geral do roteamento de Location-Based para conferência'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 56335084
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1b280272d17cf40734a24b553ad00a7a485547c2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9dd3508221babdd9c503e21d5662a1bbe60d4ce0
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216237"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520948"
 ---
+# <a name="overview-of-location-based-routing-for-conferencing-in-lync-server-2013"></a>Visão geral do roteamento de Location-Based para conferência no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-location-based-routing-for-conferencing-in-lync-server-2013"></a>Visão geral do roteamento baseado em local para conferência no Lync Server 2013
+
 
 </div>
 
@@ -37,25 +39,25 @@ ms.locfileid: "42216237"
 
 _**Última modificação do tópico:** 2013-07-19_
 
-O aplicativo de conferência de roteamento baseado em local oferece ao Lync conferências um mecanismo para a prevenção de desvio de chamada PSTN. O aplicativo monitora conferências ativas e impõe restrições de roteamento com base no local com base no local dos usuários do Lync participando.
+O Location-Based aplicativo de conferência de roteamento fornece a conferências do Lync um mecanismo para a prevenção de desvio de chamada PSTN. O aplicativo monitora conferências ativas e aplica Location-Based restrições de roteamento com base no local dos usuários do Lync participando.
 
-O aplicativo de conferência de roteamento baseado em local determina se o roteamento baseado em local deve ser aplicado em uma reunião do Lync se os seguintes critérios forem atendidos:
+O Location-Based aplicativo de conferência de roteamento determina se Location-Based roteamento deve ser aplicado em uma reunião do Lync se os seguintes critérios forem atendidos:
 
-  - O organizador da reunião está habilitado para roteamento baseado em local. As restrições de roteamento com base no local serão aplicadas somente a conferências organizadas por usuários habilitados para roteamento baseado em local.
+  - O organizador da reunião está habilitado para roteamento de Location-Based. Location-Based restrições de roteamento serão aplicadas somente a conferências organizadas por usuários habilitados para o roteamento de Location-Based.
 
-  - Pelo menos um participante de reunião é um ponto de extremidade PSTN. As restrições de roteamento com base no local são aplicáveis apenas para conferências que incluem pontos de extremidade PSTN.
+  - Pelo menos um participante de reunião é um ponto de extremidade PSTN. Location-Based restrições de roteamento são aplicáveis apenas para conferências que incluem pontos de extremidade PSTN.
 
   - O local de rede onde o gateway PSTN usado para fazer a ponte da conferência para o PSTN está localizado, bem como os sites de rede onde os organizadores e participantes estão se conectando.
 
-O aplicativo de conferência de roteamento baseado em local impede a participação de usuários do Lync e pontos de extremidade PSTN de diferentes sites de rede para a mesma conferência. Se o organizador de uma reunião estiver habilitado para roteamento baseado em local, o aplicativo de conferência imporá as seguintes restrições:
+O Location-Based aplicativo de conferência de roteamento impede a participação de usuários do Lync e pontos de extremidade PSTN de diferentes sites de rede para a mesma conferência. Se o organizador de uma reunião estiver habilitado para roteamento de Location-Based, o aplicativo de conferência imporá as seguintes restrições:
 
-  - Os pontos de extremidade que podem ingressar em uma reunião do Lync dependem dos pontos de extremidade que já ingressaram na conferência, e essa restrição é ajustada conforme os pontos de extremidade associados deixam e novos pontos de extremidade ingressam na conferência. Se os organizadores e participantes estiverem participando de uma reunião do Lync do mesmo local de rede, então um ponto de extremidade PSTN, outro participante do mesmo local de rede, outro participante de um site de rede diferente ou um participante de um site de rede desconhecido tem permissão para ingressar.
+  - Os pontos de extremidade que podem ingressar em uma reunião do Lync dependem dos pontos de extremidade que já ingressaram na conferência, e essa restrição é ajustada conforme os pontos de extremidade associados deixam e novos pontos de extremidade ingressam na conferência. Se os organizadores e participantes estiverem participando de uma reunião do Lync do mesmo local de rede, então um ponto de extremidade PSTN, outro participante do mesmo local de rede, outro participante de um site de rede diferente ou um participante de um site de rede desconhecido poderá ingressar.
 
-  - Se os organizadores e participantes estiverem participando da reunião de sites de rede diferentes ou desconhecidos, um ponto de extremidade PSTN não terá permissão para ingressar na reunião se a chamada PSTN ingresses de um tronco SIP habilitado para roteamento baseado em local.
+  - Se os organizadores e participantes estiverem participando da reunião de sites de rede diferentes ou desconhecidos, um ponto de extremidade PSTN não terá permissão para ingressar na reunião se a chamada PSTN ingresses de um tronco SIP habilitado para roteamento de Location-Based.
 
   - Se os organizadores e participantes estiverem participando da reunião do mesmo local de rede e se houver participantes participando da mesma reunião da PSTN, um ponto de extremidade do Lync de um site de rede diferente não tem permissão para participar da reunião.
 
-Essas restrições de roteamento com base no local de conferência são resumidas na tabela a seguir.
+Essas restrições de Location-Based de conferência são resumidas na tabela a seguir.
 
 
 <table>
@@ -104,11 +106,11 @@ Essas restrições de roteamento com base no local de conferência são resumida
 </table>
 
 
-Veja a seguir as características adicionais do aplicativo de conferência de roteamento baseado em local:
+Veja a seguir as características adicionais do aplicativo de conferência de roteamento de Location-Based:
 
-  - Quando um usuário não tem permissão para ingressar em uma conferência determinada por restrições de roteamento baseado em local, a chamada de usuários para a conferência será rejeitada e seu cliente do Lync relatará que a chamada não foi concluída ou terminou.
+  - Quando um usuário não tem permissão para ingressar em uma conferência determinada Location-Based restrições de roteamento, a chamada de usuários para a conferência será rejeitada e seu cliente do Lync relatará que a chamada não foi concluída ou terminou.
 
-  - Um ponto de extremidade PSTN ingressando em uma conferência com enforces de roteamento baseado em local não será restrito a ingressar na conferência independentemente de seu estado se o ponto de extremidade ingressar por meio de um tronco que não está habilitado para roteamento baseado em local.
+  - Um ponto de extremidade PSTN ingressando em uma conferência com Location-Based roteamento enforces não será restrito a ingressar na conferência independentemente de seu estado se o ponto de extremidade ingressar por meio de um tronco que não está habilitado para Location-Based roteamento.
 
   - Um sistema PBX conectado a um servidor de mediação por meio de um tronco SIP que não faz chamadas de egresso à PSTN terá as mesmas impostas que os usuários do Lync localizados no mesmo local de rede onde o tronco SIP está definido. Por exemplo, um ponto de extremidade PSTN poderá ingressar em uma conferência com um usuário PBX e um usuário do Lync se eles estiverem localizados no mesmo local de rede; caso contrário, o ponto de extremidade PSTN não terá permissão para ingressar na conferência se o usuário do PBX estiver em um local de rede diferente do usuário do Lync.
 

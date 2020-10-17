@@ -12,20 +12,22 @@ ms:contentKeyID: 48185531
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3556c9147ddf2769e6a403de9e31edf31129d796
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 82d23410257db89ff0c7498aba879444a5be9707
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205057"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521058"
 ---
+# <a name="configure-certificates-for-servers-in-lync-server-2013"></a>Configurar certificados para servidores no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-certificates-for-servers-in-lync-server-2013"></a>Configurar certificados para servidores no Lync Server 2013
+
 
 </div>
 
@@ -43,7 +45,7 @@ Para concluir com êxito este procedimento, você deve estar conectado como usu�
 
 
 > [!NOTE]  
-> O Lync Server 2013 inclui suporte para o pacote SHA-2 (SHA-2 usa comprimentos de Resumo de 224, 256, 384 ou 512 bits) do hash de resumo e dos algoritmos de assinatura para conexões de clientes que executam o Windows 7, o Windows Server 2008 R2, o Windows Server 2008, o Windows Vista ou o Sistemas operacionais Windows XP, além do Lync Phone Edition. Para dar suporte ao acesso externo usando o pacote SHA-2, o certificado externo é emitido por uma AC pública que também pode emitir um certificado com o mesmo comprimento de bit Digest.
+> O Lync Server 2013 inclui suporte para o pacote SHA-2 (SHA-2 usa comprimentos de Resumo de 224, 256, 384 ou 512 bits) do hash de resumo e dos algoritmos de assinatura para conexões de clientes que executam os sistemas operacionais Windows 7, Windows Server 2008 R2, Windows Server 2008, Windows Vista ou Windows XP, além do Lync Phone Edition. Para dar suporte ao acesso externo usando o pacote SHA-2, o certificado externo é emitido por uma AC pública que também pode emitir um certificado com o mesmo comprimento de bit Digest.
 
 
 
@@ -53,7 +55,7 @@ Para concluir com êxito este procedimento, você deve estar conectado como usu�
 
 
 > [!WARNING]  
-> A seleção do qual o resumo de hash e o algoritmo de assinatura dependem dos clientes e dos servidores que usarão o certificado e outros computadores e dispositivos que os clientes e servidores irão se comunicar com quem também deve saber como usar os algoritmos usados no Certifica. Para obter informações sobre quais tamanhos de resumo são suportados no sistema operacional e em alguns aplicativos cliente,<A href="https://go.microsoft.com/fwlink/?linkid=287002">https://go.microsoft.com/fwlink/?LinkId=287002</A>consulte.
+> A seleção de qual o resumo de hash e o algoritmo de assinatura dependem dos clientes e dos servidores que usarão o certificado e outros computadores e dispositivos que os clientes e servidores irão se comunicar com quem também deve saber como usar os algoritmos usados no certificado. Para obter informações sobre quais tamanhos de resumo são suportados no sistema operacional e em alguns aplicativos cliente, consulte <A href="https://go.microsoft.com/fwlink/?linkid=287002">https://go.microsoft.com/fwlink/?LinkId=287002</A> .
 
 
 

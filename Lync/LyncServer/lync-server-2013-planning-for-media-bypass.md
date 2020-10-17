@@ -12,20 +12,22 @@ ms:contentKeyID: 48184768
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: de3d5132d7307f48de905f5bb6d28e53cbec14a6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b5d9687069e82cde803f7a01873db482ea2afa2f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184204"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521988"
 ---
+# <a name="planning-for-media-bypass-in-lync-server-2013"></a>Planejamento de bypass de mídia no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-media-bypass-in-lync-server-2013"></a>Planejamento de bypass de mídia no Lync Server 2013
+
 
 </div>
 
@@ -41,7 +43,7 @@ Desvio de mídia refere-se à remoção do Servidor de Mediação do caminho da 
 
 O desvio de mídia pode aprimorar a qualidade da voz reduzindo latência, conversões desnecessárias, possibilidade de perda de pacotes e o número de pontos de falha possíveis. A escalabilidade pode ser aprimorada, porque a eliminação do processamento de mídia para chamadas desviadas reduz a carga no Servidor de Mediação. Essa redução no carregamento complementa a capacidade do servidor de mediação controlar vários gateways.
 
-Quando um site de filial sem um servidor de mediação estiver conectado a um site central por um ou mais links WAN com largura de banda restrita, o bypass de mídia reduzirá a necessidade de largura de banda permitindo que a mídia de um cliente em um site de filial flua diretamente para seu gateway local sem Primeiro, é necessário fluir através do link WAN para um servidor de mediação no site central e para trás.
+Quando um site de filial sem um servidor de mediação estiver conectado a um site central por um ou mais links WAN com largura de banda restrita, o bypass de mídia reduzirá a necessidade de largura de banda permitindo que a mídia de um cliente em um site de filial flua diretamente para seu gateway local sem antes ter que fluir pelo link WAN para um servidor de mediação no site central e voltar
 
 Ao aliviar o servidor de mediação do processamento de mídia, o bypass de mídia também pode reduzir o número de servidores de mediação exigidos por uma infraestrutura do Enterprise Voice.
 

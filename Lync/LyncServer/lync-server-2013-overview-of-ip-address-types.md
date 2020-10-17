@@ -12,20 +12,22 @@ ms:contentKeyID: 48185759
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 417b304825da6a611ccfdaf3521b2d9571cd4756
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9663f7ee8b57ceba27e1a1892c30bb92a1c86ffc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216277"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520998"
 ---
+# <a name="overview-of-ip-address-types-for-lync-server-2013"></a>Visão geral dos tipos de endereço IP para o Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-ip-address-types-for-lync-server-2013"></a>Visão geral dos tipos de endereço IP para o Lync Server 2013
+
 
 </div>
 
@@ -39,11 +41,11 @@ _**Última modificação do tópico:** 2013-01-29_
 
 Você tem três opções ao configurar endereços IP no Lync Server 2013. Você pode configurar o Lync Server 2013 para oferecer suporte somente a IP versão 4 (IPv4), somente o IP versão 6 (IPv6) ou uma combinação dos dois (conhecido como *pilha Dual*). Há vários problemas que devem ser considerados em cada tipo de configuração:
 
-  - ****   O IPv6 somente IPv4 foi criado porque o mundo está ficando sem endereços IPv4. Por fim, o IPv6 será totalmente suportado em todo o mundo, mas, neste momento, muitas empresas e dispositivos que sua empresa talvez precisem se comunicar com o não dão suporte a IPv6, e talvez não haja algum tempo. Uma configuração somente IPv4 ajudará a garantir que sua implementação do Lync Server possa se comunicar com a maioria dos dispositivos existentes.
+  - **Somente IPv4**     O IPv6 foi criado porque o mundo está ficando sem endereços IPv4. Por fim, o IPv6 será totalmente suportado em todo o mundo, mas, neste momento, muitas empresas e dispositivos que sua empresa talvez precisem se comunicar com o não dão suporte a IPv6, e talvez não haja algum tempo. Uma configuração somente IPv4 ajudará a garantir que sua implementação do Lync Server possa se comunicar com a maioria dos dispositivos existentes.
 
-  - **Somente IPv6 por**   outro lado, uma implementação IPv6 completa, neste momento, excluirá a comunicação com vários dispositivos existentes.
+  - **Somente IPv6**     Por outro lado, uma implementação IPv6 completa, neste momento, excluirá a comunicação com vários dispositivos existentes.
 
-  - ****   Pilha dual de pilha dupla é uma rede onde endereços IPv4 e IPv6 estão habilitados. Essa configuração é suportada no Lync Server 2013 porque, na maioria dos casos, a transição de IPv4 para pleno IPv6 levará vários anos.
+  - **Pilha Dual**     Pilha Dual é uma rede onde endereços IPv4 e IPv6 estão habilitados. Essa configuração é suportada no Lync Server 2013 porque, na maioria dos casos, a transição de IPv4 para pleno IPv6 levará vários anos.
 
 As seções a seguir descrevem a compatibilidade entre essas três configurações para vários recursos do Lync Server.
 
@@ -246,7 +248,7 @@ O Lync Server 2013 não é compatível com bypass de mídia para chamadas PSTN (
 </table>
 
 
-\*A interface principal é a interface que se comunica com os componentes do Lync Server.
+\* A interface principal é a interface que se comunica com os componentes do Lync Server.
 
 </div>
 
@@ -339,7 +341,7 @@ A tabela a seguir mostra a matriz de suporte entre o pool do servidor front-end 
 </table>
 
 
-\*Use essa combinação somente em um ambiente de laboratório.
+\* Use essa combinação somente em um ambiente de laboratório.
 
 A tabela a seguir é uma matriz das combinações suportadas de interfaces de borda internas e externas.
 
@@ -381,7 +383,7 @@ A tabela a seguir é uma matriz das combinações suportadas de interfaces de bo
 </table>
 
 
-\*Use essa combinação somente em um ambiente de laboratório.
+\* Use essa combinação somente em um ambiente de laboratório.
 
 </div>
 
@@ -413,7 +415,7 @@ A Unificação de mensagens (UM) do Exchange não oferece suporte a IPv6. Para U
 
 Além dos recursos e componentes mencionados anteriormente, o Lync Server 2013 suporta IPv6 para os seguintes recursos:
 
-  - **Chat persistente**
+  - **Chat Persistente**
     
     Você configura o IPv6 para chat persistente usando o construtor de topologias. Para obter detalhes sobre como configurar o chat persistente, consulte a documentação implantando o servidor de chat persistente.
 

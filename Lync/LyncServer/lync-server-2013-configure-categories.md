@@ -12,20 +12,22 @@ ms:contentKeyID: 48184033
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fb70397514589ac6f3cc74d84a6ae7509c9baa5b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2ad435320a80b2cd2272fbe69afa59a79d39ccbd
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205092"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521118"
 ---
+# <a name="configure-categories-in-lync-server-2013"></a>Configurar categorias no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-categories-in-lync-server-2013"></a>Configurar categorias no Lync Server 2013
+
 
 </div>
 
@@ -80,7 +82,7 @@ As categorias de sala de chat podem conter salas de chat, mas nenhuma outra cate
         
 
         > [!IMPORTANT]  
-        > Essa configuração é imposta no servidor porque aplicativos personalizados ou clientes de chat de grupo anterior que usam o servidor de chat de grupo&nbsp;do Office Communications Server 2007 R2 ou o Lync Server 2010, o chat de grupo podem postar arquivos para uma sala. O cliente Lync 2013 não tem o recurso de carregamento/download de arquivos, portanto, se você tiver uma implantação pura do Lync 2013 ou um cliente do Lync 2013, não será possível postar arquivos em uma sala de chat do servidor de chat persistente.
+        > Essa configuração é imposta no servidor porque aplicativos personalizados ou clientes de chat de grupo anterior que usam o servidor de chat de grupo do Office Communications Server 2007 R2 &nbsp; ou o Lync server 2010, o chat de grupo podem postar arquivos para uma sala. O cliente Lync 2013 não tem o recurso de carregamento/download de arquivos, portanto, se você tiver uma implantação pura do Lync 2013 ou um cliente do Lync 2013, não será possível postar arquivos em uma sala de chat do servidor de chat persistente.
 
         
         </div>

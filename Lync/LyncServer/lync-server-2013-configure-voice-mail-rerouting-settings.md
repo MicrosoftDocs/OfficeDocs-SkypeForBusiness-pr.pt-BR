@@ -12,20 +12,22 @@ ms:contentKeyID: 48184593
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9f327bfc533b28313e4728b13c7a69d6c16bc034
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b51a529ee7bc4fd1148413058ceaf1f1f6d61e06
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206597"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520178"
 ---
+# <a name="configure-voice-mail-rerouting-settings-in-lync-server-2013"></a>Definir configurações de reencaminhamento de caixa postal no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-voice-mail-rerouting-settings-in-lync-server-2013"></a>Definir configurações de reencaminhamento de caixa postal no Lync Server 2013
+
 
 </div>
 
@@ -45,7 +47,7 @@ Para obter detalhes, consulte a seção "preparando para a persistência de caix
 
 ## <a name="to-configure-voice-mail-survivability"></a>Para configurar a sustentabilidade da caixa postal
 
-1.  Peça ao administrador do Exchange para configurar o AA para aceitar apenas mensagens (no Shell do Exchange Use o seguinte cmdlet: **set- \<UMAutoAttendant AA\> Name-CallSomeoneEnabled $false**. O parâmetro que especifica que se permita deixar mensagens ( *SendVoiceMsgEnabled*) é verdadeiro por padrão.
+1.  Peça ao administrador do Exchange para configurar o AA para aceitar apenas mensagens (no Shell do Exchange, use o seguinte cmdlet: **Set-UMAutoAttendant \<AA name\> -CallSomeoneEnabled $false**. O parâmetro que especifica que se permita deixar mensagens ( *SendVoiceMsgEnabled*) é verdadeiro por padrão.
 
 2.  No Shell de gerenciamento do Lync Server, use o cmdlet **New-CSVoiceMailReroutingConfiguration** para definir o número de telefone AA como o número de telefone do atendedor automático da um do Exchange na configuração de reencaminhamento de caixa postal no aparelho de filial persistente ou servidor de filial persistente.
     

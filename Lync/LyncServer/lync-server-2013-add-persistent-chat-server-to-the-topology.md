@@ -12,20 +12,22 @@ ms:contentKeyID: 48184682
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5ae7ca7e475fd106608dea09fedf250ef541a5c9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4656c21d9d28d84259bfaa108c399f36bd2c3d72
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191404"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521438"
 ---
+# <a name="add-persistent-chat-server-to-the-topology-in-lync-server-2013"></a>Adicionar servidor de chat persistente à topologia no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="add-persistent-chat-server-to-the-topology-in-lync-server-2013"></a>Adicionar servidor de chat persistente à topologia no Lync Server 2013
+
 
 </div>
 
@@ -68,7 +70,7 @@ Para implantar vários pools do servidor de chat persistente, repita o mesmo pro
     
 
     > [!IMPORTANT]  
-    > Se a função de servidor de chat persistente estiver sendo instalada em um servidor&nbsp;do Lync Server 2013 Standard Edition, o FQDN precisará corresponder ao FQDN do servidor Standard Edition.
+    > Se a função de servidor de chat persistente estiver sendo instalada em um servidor do Lync Server 2013 &nbsp; Standard Edition, o FQDN precisará corresponder ao FQDN do servidor Standard Edition.
 
     
     </div>
@@ -79,7 +81,7 @@ Para implantar vários pools do servidor de chat persistente, repita o mesmo pro
 
 6.  Se sua organização requer suporte de conformidade, marque a caixa de seleção **habilitar conformidade** . Se escolhido, o serviço de conformidade do servidor de chat persistente é instalado no mesmo computador que o servidor de front-end do servidor de chat persistente. Você será solicitado a selecionar um servidor back-end do SQL Server para conformidade do servidor de chat persistente mais tarde.
 
-7.  Atribua afinidade de site para o pool do servidor de chat persistente. Marque a caixa de seleção **usar este pool como \<padrão\> para o site SiteName** ou **Use este pool como padrão para todos os sites** para designar esse pool de servidor de chat persistente como o pool padrão para o site atual ou todos os sites. Quando o cliente Lync 2013 é usado para criar e gerenciar salas, o pool padrão associado ao site do usuário é usado pela experiência de criação e gerenciamento da sala para que possa encaminhar operações de criação e gerenciamento de salas a esse pool. Isso só se aplica quando você tem vários pools de servidores de chat persistente implantados e deseja usar os recursos de criação e gerenciamento de sala do servidor de chat persistente.
+7.  Atribua afinidade de site para o pool do servidor de chat persistente. Marque a caixa de seleção **usar este pool como \<SiteName\> padrão para o site** ou **Use este pool como padrão para todos os sites** para designar esse pool de servidor de chat persistente como o pool padrão para o site atual ou todos os sites. Quando o cliente Lync 2013 é usado para criar e gerenciar salas, o pool padrão associado ao site do usuário é usado pela experiência de criação e gerenciamento da sala para que possa encaminhar operações de criação e gerenciamento de salas a esse pool. Isso só se aplica quando você tem vários pools de servidores de chat persistente implantados e deseja usar os recursos de criação e gerenciamento de sala do servidor de chat persistente.
     
     <div>
     

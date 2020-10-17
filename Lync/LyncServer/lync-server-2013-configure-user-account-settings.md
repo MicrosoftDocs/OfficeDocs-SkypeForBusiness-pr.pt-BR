@@ -12,20 +12,22 @@ ms:contentKeyID: 48185200
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a1b3c8ea077b6dee724d131ea117aa7bf304e114
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 71628f056298965f4033dc6bbecbe75b47b678a1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196884"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48520198"
 ---
+# <a name="configure-user-account-settings-in-lync-server-2013"></a>Definir configurações de conta de usuário no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-user-account-settings-in-lync-server-2013"></a>Definir configurações de conta de usuário no Lync Server 2013
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**Última modificação do tópico:** 2012-10-05_
 
 Os usuários de discagem digitam o número de telefone ou a extensão e um PIN para ingressar nas conferências como usuários autenticados. O **URI de linha** de telefonia especificado nas contas de usuário do Lync Server é necessário para autenticação.
 
-O procedimento neste tópico descreve como atribuir um **URI de Linha** para uma única conta de usuário. Se você precisar atribuir um **URI da Linha** para várias contas de usuário, poderá criar um script que usa o cmdlet **Set-CsUser**. Para obter detalhes sobre como usar um exemplo de script para atribuir **URI de linha** a várias contas de usuário, consulte "atribuir URIs de [https://go.microsoft.com/fwlink/p/?linkId=196945](https://go.microsoft.com/fwlink/p/?linkid=196945)linha a vários usuários" em.
+O procedimento neste tópico descreve como atribuir um **URI de Linha** para uma única conta de usuário. Se você precisar atribuir um **URI da Linha** para várias contas de usuário, poderá criar um script que usa o cmdlet **Set-CsUser**. Para obter detalhes sobre como usar um exemplo de script para atribuir **URI de linha** a várias contas de usuário, consulte "atribuir URIs de linha a vários usuários" em [https://go.microsoft.com/fwlink/p/?linkId=196945](https://go.microsoft.com/fwlink/p/?linkid=196945) .
 
 <div>
 
