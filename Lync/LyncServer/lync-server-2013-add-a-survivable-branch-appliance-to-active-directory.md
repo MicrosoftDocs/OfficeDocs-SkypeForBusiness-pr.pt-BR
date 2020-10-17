@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: adicionar um aparelho de filial persistente ao Active Directory'
+description: 'Lync Server 2013: adicionar um aparelho de filial persistente ao Active Directory.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48183938
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0f52d9c5e88e88665f530d6d7ace06a07c4814b4
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: bd06332679be0819cf3002f344a62a7ce1d5a9f3
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48529558"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48567887"
 ---
-# <a name="add-a-survivable-branch-appliance-to-active-directory-in-lync-server-2013"></a><span data-ttu-id="f0f3e-102">Adicionar um aparelho de filial persistente ao Active Directory no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f0f3e-102">Add a Survivable Branch Appliance to Active Directory in Lync Server 2013</span></span>
+# <a name="add-a-survivable-branch-appliance-to-active-directory-in-lync-server-2013"></a><span data-ttu-id="09b40-103">Adicionar um aparelho de filial persistente ao Active Directory no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="09b40-103">Add a Survivable Branch Appliance to Active Directory in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,15 +38,15 @@ ms.locfileid: "48529558"
 
 <span> </span>
 
-<span data-ttu-id="f0f3e-103">_**Última modificação do tópico:** 2012-09-23_</span><span class="sxs-lookup"><span data-stu-id="f0f3e-103">_**Topic Last Modified:** 2012-09-23_</span></span>
+<span data-ttu-id="09b40-104">_**Última modificação do tópico:** 2012-09-23_</span><span class="sxs-lookup"><span data-stu-id="09b40-104">_**Topic Last Modified:** 2012-09-23_</span></span>
 
-<span data-ttu-id="f0f3e-104">Se você planeja implantar um aparelho de filial persistente, você deve adicionar o aparelho de filial persistente aos serviços de domínio do Active Directory.</span><span class="sxs-lookup"><span data-stu-id="f0f3e-104">If you plan to deploy a Survivable Branch Appliance, you must add the Survivable Branch Appliance to Active Directory Domain Services.</span></span> <span data-ttu-id="f0f3e-105">Execute este procedimento no local central.</span><span class="sxs-lookup"><span data-stu-id="f0f3e-105">Perform this procedure at the central site.</span></span>
+<span data-ttu-id="09b40-105">Se você planeja implantar um aparelho de filial persistente, você deve adicionar o aparelho de filial persistente aos serviços de domínio do Active Directory.</span><span class="sxs-lookup"><span data-stu-id="09b40-105">If you plan to deploy a Survivable Branch Appliance, you must add the Survivable Branch Appliance to Active Directory Domain Services.</span></span> <span data-ttu-id="09b40-106">Execute este procedimento no local central.</span><span class="sxs-lookup"><span data-stu-id="09b40-106">Perform this procedure at the central site.</span></span>
 
 <div>
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="f0f3e-106">Execute este procedimento somente se você estiver implantando um aparelho de filial persistente.</span><span class="sxs-lookup"><span data-stu-id="f0f3e-106">Perform this procedure only if you are deploying a Survivable Branch Appliance.</span></span> <span data-ttu-id="f0f3e-107">Não o execute se você estiver implantando um servidor de filial persistente.</span><span class="sxs-lookup"><span data-stu-id="f0f3e-107">Do not perform it if you are deploying a Survivable Branch Server.</span></span>
+> <span data-ttu-id="09b40-107">Execute este procedimento somente se você estiver implantando um aparelho de filial persistente.</span><span class="sxs-lookup"><span data-stu-id="09b40-107">Perform this procedure only if you are deploying a Survivable Branch Appliance.</span></span> <span data-ttu-id="09b40-108">Não o execute se você estiver implantando um servidor de filial persistente.</span><span class="sxs-lookup"><span data-stu-id="09b40-108">Do not perform it if you are deploying a Survivable Branch Server.</span></span>
 
 
 
@@ -53,50 +54,50 @@ ms.locfileid: "48529558"
 
 <div>
 
-## <a name="to-add-an-survivable-branch-appliance-to-active-directory-domain-services"></a><span data-ttu-id="f0f3e-108">Para adicionar um Aparelho de Filial Persistente aos Serviços de Domínio do Active Directory</span><span class="sxs-lookup"><span data-stu-id="f0f3e-108">To add an Survivable Branch Appliance to Active Directory Domain Services</span></span>
+## <a name="to-add-an-survivable-branch-appliance-to-active-directory-domain-services"></a><span data-ttu-id="09b40-109">Para adicionar um Aparelho de Filial Persistente aos Serviços de Domínio do Active Directory</span><span class="sxs-lookup"><span data-stu-id="09b40-109">To add an Survivable Branch Appliance to Active Directory Domain Services</span></span>
 
-1.  <span data-ttu-id="f0f3e-109">Faça logon em um servidor membro como um membro do grupo Administração de Empresa.</span><span class="sxs-lookup"><span data-stu-id="f0f3e-109">Log on to a member server as a member of the Enterprise Admins group.</span></span>
+1.  <span data-ttu-id="09b40-110">Faça logon em um servidor membro como um membro do grupo Administração de Empresa.</span><span class="sxs-lookup"><span data-stu-id="09b40-110">Log on to a member server as a member of the Enterprise Admins group.</span></span>
 
-2.  <span data-ttu-id="f0f3e-110">Clique em **Iniciar**, depois em **Ferramentas Administrativas** e, em seguida, clique em **Usuários e Computadores do Active Directory**.</span><span class="sxs-lookup"><span data-stu-id="f0f3e-110">Click **Start**, click **Administrative Tools**, and then click **Active Directory Users and Computers**.</span></span>
+2.  <span data-ttu-id="09b40-111">Clique em **Iniciar**, depois em **Ferramentas Administrativas** e, em seguida, clique em **Usuários e Computadores do Active Directory**.</span><span class="sxs-lookup"><span data-stu-id="09b40-111">Click **Start**, click **Administrative Tools**, and then click **Active Directory Users and Computers**.</span></span>
 
-3.  <span data-ttu-id="f0f3e-111">No menu **Ações**, clique em **Novo** e, em seguida, clique em **Computador**.</span><span class="sxs-lookup"><span data-stu-id="f0f3e-111">On the **Actions** menu, click **New** and then click **Computer**.</span></span>
+3.  <span data-ttu-id="09b40-112">No menu **Ações**, clique em **Novo** e, em seguida, clique em **Computador**.</span><span class="sxs-lookup"><span data-stu-id="09b40-112">On the **Actions** menu, click **New** and then click **Computer**.</span></span>
 
-4.  <span data-ttu-id="f0f3e-112">Na caixa de diálogo **novo objeto-computador** , digite um nome para o objeto do computador do aparelho de filial persistente (por exemplo, BranchOffice1) e clique em **alterar**.</span><span class="sxs-lookup"><span data-stu-id="f0f3e-112">In the **New Object-Computer** dialog box, type in a name for the Survivable Branch Appliance computer object (for example, BranchOffice1), and then click **Change**.</span></span>
+4.  <span data-ttu-id="09b40-113">Na caixa de diálogo **novo objeto-computador** , digite um nome para o objeto do computador do aparelho de filial persistente (por exemplo, BranchOffice1) e clique em **alterar**.</span><span class="sxs-lookup"><span data-stu-id="09b40-113">In the **New Object-Computer** dialog box, type in a name for the Survivable Branch Appliance computer object (for example, BranchOffice1), and then click **Change**.</span></span>
 
-5.  <span data-ttu-id="f0f3e-113">Na caixa de diálogo **Selecionar Usuário ou Grupo**, adicione o grupo RTCUniversalSBATechnicians e clique em **OK**.</span><span class="sxs-lookup"><span data-stu-id="f0f3e-113">In the **Select User or Group** dialog box, add the RTCUniversalSBATechnicians group and then click **OK**.</span></span>
+5.  <span data-ttu-id="09b40-114">Na caixa de diálogo **Selecionar Usuário ou Grupo**, adicione o grupo RTCUniversalSBATechnicians e clique em **OK**.</span><span class="sxs-lookup"><span data-stu-id="09b40-114">In the **Select User or Group** dialog box, add the RTCUniversalSBATechnicians group and then click **OK**.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="f0f3e-114">Um membro do grupo RTCUniversalSBATechnicians no site da filial adicionará esse dispositivo ao domínio posteriormente.</span><span class="sxs-lookup"><span data-stu-id="f0f3e-114">A member of the RTCUniversalSBATechnicians group at the branch site will add this device to the domain later.</span></span>
+    > <span data-ttu-id="09b40-115">Um membro do grupo RTCUniversalSBATechnicians no site da filial adicionará esse dispositivo ao domínio posteriormente.</span><span class="sxs-lookup"><span data-stu-id="09b40-115">A member of the RTCUniversalSBATechnicians group at the branch site will add this device to the domain later.</span></span>
 
     
     </div>
 
-6.  <span data-ttu-id="f0f3e-115">Clique em **OK** para salvar o objeto computador de aparelho de filial persistente.</span><span class="sxs-lookup"><span data-stu-id="f0f3e-115">Click **OK** to save the Survivable Branch Appliance computer object.</span></span>
+6.  <span data-ttu-id="09b40-116">Clique em **OK** para salvar o objeto computador de aparelho de filial persistente.</span><span class="sxs-lookup"><span data-stu-id="09b40-116">Click **OK** to save the Survivable Branch Appliance computer object.</span></span>
 
-7.  <span data-ttu-id="f0f3e-116">Clique em **Iniciar**, em **Ferramentas Administrativas** e em **Editor ADSI**.</span><span class="sxs-lookup"><span data-stu-id="f0f3e-116">Click **Start**, click **Administrative Tools**, and then click **ADSI Edit**.</span></span>
+7.  <span data-ttu-id="09b40-117">Clique em **Iniciar**, em **Ferramentas Administrativas** e em **Editor ADSI**.</span><span class="sxs-lookup"><span data-stu-id="09b40-117">Click **Start**, click **Administrative Tools**, and then click **ADSI Edit**.</span></span>
 
-8.  <span data-ttu-id="f0f3e-117">No **Editor ADSI**, clique com o botão direito do mouse no objeto de computador que você criou nas etapas anteriores e clique em **Propriedades**.</span><span class="sxs-lookup"><span data-stu-id="f0f3e-117">In **ADSI Edit**, right-click the computer object that you created in the previous steps, and then click **Properties**.</span></span>
+8.  <span data-ttu-id="09b40-118">No **Editor ADSI**, clique com o botão direito do mouse no objeto de computador que você criou nas etapas anteriores e clique em **Propriedades**.</span><span class="sxs-lookup"><span data-stu-id="09b40-118">In **ADSI Edit**, right-click the computer object that you created in the previous steps, and then click **Properties**.</span></span>
 
-9.  <span data-ttu-id="f0f3e-118">Na lista de atributos, clique em **servicePrincipalName** e em **Editar**.</span><span class="sxs-lookup"><span data-stu-id="f0f3e-118">In the attribute list, click **servicePrincipalName**, and then click **Edit**.</span></span>
+9.  <span data-ttu-id="09b40-119">Na lista de atributos, clique em **servicePrincipalName** e em **Editar**.</span><span class="sxs-lookup"><span data-stu-id="09b40-119">In the attribute list, click **servicePrincipalName**, and then click **Edit**.</span></span>
 
-10. <span data-ttu-id="f0f3e-119">No campo **valor a ser adicionado** , digite host/ \<SBA FQDN\> onde \<SBA FQDN\> é o nome de domínio totalmente qualificado (FQDN) do seu aparelho de filial persistente.</span><span class="sxs-lookup"><span data-stu-id="f0f3e-119">In the **Value to add** field, type HOST/\<SBA FQDN\> where \<SBA FQDN\> is the fully qualified domain name (FQDN) of your Survivable Branch Appliance.</span></span> <span data-ttu-id="f0f3e-120">Por exemplo, digite **HOST/BranchOffice1.contoso.com**.</span><span class="sxs-lookup"><span data-stu-id="f0f3e-120">For example, type **HOST/BranchOffice1.contoso.com**.</span></span>
+10. <span data-ttu-id="09b40-120">No campo **valor a ser adicionado** , digite host/ \<SBA FQDN\> onde \<SBA FQDN\> é o nome de domínio totalmente qualificado (FQDN) do seu aparelho de filial persistente.</span><span class="sxs-lookup"><span data-stu-id="09b40-120">In the **Value to add** field, type HOST/\<SBA FQDN\> where \<SBA FQDN\> is the fully qualified domain name (FQDN) of your Survivable Branch Appliance.</span></span> <span data-ttu-id="09b40-121">Por exemplo, digite **HOST/BranchOffice1.contoso.com**.</span><span class="sxs-lookup"><span data-stu-id="09b40-121">For example, type **HOST/BranchOffice1.contoso.com**.</span></span>
 
-11. <span data-ttu-id="f0f3e-121">Clique em **OK** para  salvar a configuração do atributo **servicePrincipalName** e, em seguida, clique em **OK** para salvar as propriedades do objeto de computador.</span><span class="sxs-lookup"><span data-stu-id="f0f3e-121">Click **OK** to save the **servicePrincipalName** attribute setting, and then click **OK** to save the computer object properties.</span></span>
+11. <span data-ttu-id="09b40-122">Clique em **OK** para  salvar a configuração do atributo **servicePrincipalName** e, em seguida, clique em **OK** para salvar as propriedades do objeto de computador.</span><span class="sxs-lookup"><span data-stu-id="09b40-122">Click **OK** to save the **servicePrincipalName** attribute setting, and then click **OK** to save the computer object properties.</span></span>
 
-12. <span data-ttu-id="f0f3e-122">Em **Usuários e Computadores do Active Directory**, clique com o botão direito do mouse em **Usuários**, clique em **Novo** e em **Usuário**.</span><span class="sxs-lookup"><span data-stu-id="f0f3e-122">In **Active Directory Users and Computers**, right-click **Users**, click **New**, and then click **User**.</span></span>
+12. <span data-ttu-id="09b40-123">Em **Usuários e Computadores do Active Directory**, clique com o botão direito do mouse em **Usuários**, clique em **Novo** e em **Usuário**.</span><span class="sxs-lookup"><span data-stu-id="09b40-123">In **Active Directory Users and Computers**, right-click **Users**, click **New**, and then click **User**.</span></span>
 
-13. <span data-ttu-id="f0f3e-123">Insira informações no Assistente para criar uma conta de usuário de domínio para um técnico de aparelho de filial persistente.</span><span class="sxs-lookup"><span data-stu-id="f0f3e-123">Enter information into the wizard to create a domain user account for a Survivable Branch Appliance technician.</span></span>
+13. <span data-ttu-id="09b40-124">Insira informações no Assistente para criar uma conta de usuário de domínio para um técnico de aparelho de filial persistente.</span><span class="sxs-lookup"><span data-stu-id="09b40-124">Enter information into the wizard to create a domain user account for a Survivable Branch Appliance technician.</span></span>
 
-14. <span data-ttu-id="f0f3e-124">Em **Usuários e Computadores do Active Directory**, clique em **Usuários**, clique com o botão direito do mouse no objeto de usuário e clique em **Adicionar a um grupo**.</span><span class="sxs-lookup"><span data-stu-id="f0f3e-124">In **Active Directory Users and Computers**, click **Users**, right-click the user object, and then click **Add to a group**.</span></span>
+14. <span data-ttu-id="09b40-125">Em **Usuários e Computadores do Active Directory**, clique em **Usuários**, clique com o botão direito do mouse no objeto de usuário e clique em **Adicionar a um grupo**.</span><span class="sxs-lookup"><span data-stu-id="09b40-125">In **Active Directory Users and Computers**, click **Users**, right-click the user object, and then click **Add to a group**.</span></span>
 
-15. <span data-ttu-id="f0f3e-125">Em **Digite os nomes de objetos a serem selecionados**, digite **RTCUniversalSBATechnicians** e clique em **OK**.</span><span class="sxs-lookup"><span data-stu-id="f0f3e-125">In **Enter the object names to select**, type **RTCUniversalSBATechnicians**, and then click **OK**.</span></span>
+15. <span data-ttu-id="09b40-126">Em **Digite os nomes de objetos a serem selecionados**, digite **RTCUniversalSBATechnicians** e clique em **OK**.</span><span class="sxs-lookup"><span data-stu-id="09b40-126">In **Enter the object names to select**, type **RTCUniversalSBATechnicians**, and then click **OK**.</span></span>
 
-16. <span data-ttu-id="f0f3e-126">Repita as etapas 12 a 15 para cada técnico do site de filial.</span><span class="sxs-lookup"><span data-stu-id="f0f3e-126">Repeat Steps 12-15 for each branch site technician.</span></span>
+16. <span data-ttu-id="09b40-127">Repita as etapas 12 a 15 para cada técnico do site de filial.</span><span class="sxs-lookup"><span data-stu-id="09b40-127">Repeat Steps 12-15 for each branch site technician.</span></span>
 
-<span data-ttu-id="f0f3e-127">**Próxima etapa**: [adicionar sites de filiais à sua topologia no Lync Server 2013](lync-server-2013-add-branch-sites-to-your-topology.md)</span><span class="sxs-lookup"><span data-stu-id="f0f3e-127">**Next step**: [Add branch sites to your topology in Lync Server 2013](lync-server-2013-add-branch-sites-to-your-topology.md)</span></span>
+<span data-ttu-id="09b40-128">**Próxima etapa**: [adicionar sites de filiais à sua topologia no Lync Server 2013](lync-server-2013-add-branch-sites-to-your-topology.md)</span><span class="sxs-lookup"><span data-stu-id="09b40-128">**Next step**: [Add branch sites to your topology in Lync Server 2013](lync-server-2013-add-branch-sites-to-your-topology.md)</span></span>
 
 </div>
 

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: definir um servidor ou aparelho de filial persistente'
+description: 'Lync Server 2013: definir um servidor ou aparelho de filial persistente.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48183583
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ee83a532f3e378cf0beb0d9d09a08e935cf56247
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 946aec82f33dffe268fefb3548b8db2f5c19e1a8
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48516368"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48567757"
 ---
-# <a name="define-a-survivable-branch-appliance-or-server-in-lync-server-2013"></a><span data-ttu-id="01416-102">Definir um servidor ou aparelho de filial persistente no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="01416-102">Define a Survivable Branch Appliance or Server in Lync Server 2013</span></span>
+# <a name="define-a-survivable-branch-appliance-or-server-in-lync-server-2013"></a><span data-ttu-id="59d0f-103">Definir um servidor ou aparelho de filial persistente no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="59d0f-103">Define a Survivable Branch Appliance or Server in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,71 +38,71 @@ ms.locfileid: "48516368"
 
 <span> </span>
 
-<span data-ttu-id="01416-103">_**Última modificação do tópico:** 2012-10-07_</span><span class="sxs-lookup"><span data-stu-id="01416-103">_**Topic Last Modified:** 2012-10-07_</span></span>
+<span data-ttu-id="59d0f-104">_**Última modificação do tópico:** 2012-10-07_</span><span class="sxs-lookup"><span data-stu-id="59d0f-104">_**Topic Last Modified:** 2012-10-07_</span></span>
 
-<span data-ttu-id="01416-104">Execute este procedimento no local central caso não tenha definido o Servidor ou o Aparelho de Filial Persistente quando o adicionou à sua topologia.</span><span class="sxs-lookup"><span data-stu-id="01416-104">Perform this procedure at the central site if you did not define the Survivable Branch Appliance or Server when you added it to your topology.</span></span>
+<span data-ttu-id="59d0f-105">Execute este procedimento no local central caso não tenha definido o Servidor ou o Aparelho de Filial Persistente quando o adicionou à sua topologia.</span><span class="sxs-lookup"><span data-stu-id="59d0f-105">Perform this procedure at the central site if you did not define the Survivable Branch Appliance or Server when you added it to your topology.</span></span>
 
 <div>
 
-## <a name="to-define-a-survivable-branch-appliance-or-survivable-branch-server"></a><span data-ttu-id="01416-105">Para definir um aparelho de filial persistente ou servidor de filial persistente</span><span class="sxs-lookup"><span data-stu-id="01416-105">To define a Survivable Branch Appliance or Survivable Branch Server</span></span>
+## <a name="to-define-a-survivable-branch-appliance-or-survivable-branch-server"></a><span data-ttu-id="59d0f-106">Para definir um aparelho de filial persistente ou servidor de filial persistente</span><span class="sxs-lookup"><span data-stu-id="59d0f-106">To define a Survivable Branch Appliance or Survivable Branch Server</span></span>
 
-1.  <span data-ttu-id="01416-106">Clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e em **Construtor de topologias do Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="01416-106">Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Topology Builder**.</span></span>
+1.  <span data-ttu-id="59d0f-107">Clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e em **Construtor de topologias do Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="59d0f-107">Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Topology Builder**.</span></span>
 
-2.  <span data-ttu-id="01416-107">Na árvore do console, expanda o site central, expanda **sites de filial**e, em seguida, expanda o nome do site de filial onde você planeja implantar o aparelho de filial persistente ou servidor de filial persistente.</span><span class="sxs-lookup"><span data-stu-id="01416-107">In the console tree, expand the central site, expand **Branch sites**, and then expand the name of the branch site where you plan to deploy the Survivable Branch Appliance or Survivable Branch Server.</span></span>
+2.  <span data-ttu-id="59d0f-108">Na árvore do console, expanda o site central, expanda **sites de filial**e, em seguida, expanda o nome do site de filial onde você planeja implantar o aparelho de filial persistente ou servidor de filial persistente.</span><span class="sxs-lookup"><span data-stu-id="59d0f-108">In the console tree, expand the central site, expand **Branch sites**, and then expand the name of the branch site where you plan to deploy the Survivable Branch Appliance or Survivable Branch Server.</span></span>
 
-3.  <span data-ttu-id="01416-108">Clique com o botão direito em **aparelhos de filial persistente**e, em seguida, clique em **novo aparelho de filial persistente**.</span><span class="sxs-lookup"><span data-stu-id="01416-108">Right-click **Survivable Branch Appliances**, and then click **New Survivable Branch Appliance**.</span></span>
+3.  <span data-ttu-id="59d0f-109">Clique com o botão direito em **aparelhos de filial persistente**e, em seguida, clique em **novo aparelho de filial persistente**.</span><span class="sxs-lookup"><span data-stu-id="59d0f-109">Right-click **Survivable Branch Appliances**, and then click **New Survivable Branch Appliance**.</span></span>
     
     <div>
     
 
     > [!IMPORTANT]  
-    > <span data-ttu-id="01416-109"><STRONG>Aparelhos de filial persistentes</STRONG> é onde você define servidores de filial persistente e aparelhos de filial persistente.</span><span class="sxs-lookup"><span data-stu-id="01416-109"><STRONG>Survivable Branch Appliances</STRONG> is where you define Survivable Branch Servers and Survivable Branch Appliances.</span></span>
+    > <span data-ttu-id="59d0f-110"><STRONG>Aparelhos de filial persistentes</STRONG> é onde você define servidores de filial persistente e aparelhos de filial persistente.</span><span class="sxs-lookup"><span data-stu-id="59d0f-110"><STRONG>Survivable Branch Appliances</STRONG> is where you define Survivable Branch Servers and Survivable Branch Appliances.</span></span>
 
     
     </div>
 
-4.  <span data-ttu-id="01416-110">Na caixa de diálogo **definir aparelho de filial persistente** , clique em **FQDN**, digite o FQDN (nome de domínio totalmente qualificado) do aparelho de filial persistente ou servidor de filial persistente que você irá implantar neste site de filial e clique em **Avançar**.</span><span class="sxs-lookup"><span data-stu-id="01416-110">In the **Define Survivable Branch Appliance** dialog box, click **FQDN**, type the fully qualified domain name (FQDN) of the Survivable Branch Appliance or Survivable Branch Server you will deploy at this branch site, and then click **Next**.</span></span>
+4.  <span data-ttu-id="59d0f-111">Na caixa de diálogo **definir aparelho de filial persistente** , clique em **FQDN**, digite o FQDN (nome de domínio totalmente qualificado) do aparelho de filial persistente ou servidor de filial persistente que você irá implantar neste site de filial e clique em **Avançar**.</span><span class="sxs-lookup"><span data-stu-id="59d0f-111">In the **Define Survivable Branch Appliance** dialog box, click **FQDN**, type the fully qualified domain name (FQDN) of the Survivable Branch Appliance or Survivable Branch Server you will deploy at this branch site, and then click **Next**.</span></span>
     
     <div>
     
 
     > [!IMPORTANT]  
-    > <span data-ttu-id="01416-111">Se você estiver definindo um aparelho de filial persistente, o nome inserido no <STRONG>FQDN</STRONG> deve ser o mesmo que o FQDN do aparelho de filial persistente que você atribuiu ao atributo <STRONG>servicePrincipalName</STRONG> .</span><span class="sxs-lookup"><span data-stu-id="01416-111">If you are defining a Survivable Branch Appliance, the name you enter in <STRONG>FQDN</STRONG> must be the same as the Survivable Branch Appliance FQDN you assigned to the <STRONG>servicePrincipalName</STRONG> attribute.</span></span> <span data-ttu-id="01416-112">Para obter detalhes, consulte <A href="lync-server-2013-add-a-survivable-branch-appliance-to-active-directory.md">Adicionar um aparelho de filial persistente ao Active Directory no Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="01416-112">For details, see <A href="lync-server-2013-add-a-survivable-branch-appliance-to-active-directory.md">Add a Survivable Branch Appliance to Active Directory in Lync Server 2013</A>.</span></span>
+    > <span data-ttu-id="59d0f-112">Se você estiver definindo um aparelho de filial persistente, o nome inserido no <STRONG>FQDN</STRONG> deve ser o mesmo que o FQDN do aparelho de filial persistente que você atribuiu ao atributo <STRONG>servicePrincipalName</STRONG> .</span><span class="sxs-lookup"><span data-stu-id="59d0f-112">If you are defining a Survivable Branch Appliance, the name you enter in <STRONG>FQDN</STRONG> must be the same as the Survivable Branch Appliance FQDN you assigned to the <STRONG>servicePrincipalName</STRONG> attribute.</span></span> <span data-ttu-id="59d0f-113">Para obter detalhes, consulte <A href="lync-server-2013-add-a-survivable-branch-appliance-to-active-directory.md">Adicionar um aparelho de filial persistente ao Active Directory no Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="59d0f-113">For details, see <A href="lync-server-2013-add-a-survivable-branch-appliance-to-active-directory.md">Add a Survivable Branch Appliance to Active Directory in Lync Server 2013</A>.</span></span>
 
     
     </div>
 
-5.  <span data-ttu-id="01416-113">Clique em **pool de front-ends**, clique no servidor de front-end (pool de serviços de usuário) no site central ao qual esse aparelho de filial persistente ou servidor de filial persistente se conectará e clique em **Avançar**.</span><span class="sxs-lookup"><span data-stu-id="01416-113">Click **Front End pool**, click the Front End Server (User Services pool) at the central site that this Survivable Branch Appliance or Survivable Branch Server will connect to, and then click **Next**.</span></span>
+5.  <span data-ttu-id="59d0f-114">Clique em **pool de front-ends**, clique no servidor de front-end (pool de serviços de usuário) no site central ao qual esse aparelho de filial persistente ou servidor de filial persistente se conectará e clique em **Avançar**.</span><span class="sxs-lookup"><span data-stu-id="59d0f-114">Click **Front End pool**, click the Front End Server (User Services pool) at the central site that this Survivable Branch Appliance or Survivable Branch Server will connect to, and then click **Next**.</span></span>
 
-6.  <span data-ttu-id="01416-114">Clique em **servidor de borda**, clique no pool de borda que esse aparelho de filial persistente ou servidor de filial persistente se conectará para fornecer conectividade PSTN aos usuários remotos do site de filial e clique em **Avançar**.</span><span class="sxs-lookup"><span data-stu-id="01416-114">Click **Edge Server**, click the Edge pool that this Survivable Branch Appliance or Survivable Branch Server will connect to provide PSTN connectivity to remote users of the branch site, and then click **Next**.</span></span>
+6.  <span data-ttu-id="59d0f-115">Clique em **servidor de borda**, clique no pool de borda que esse aparelho de filial persistente ou servidor de filial persistente se conectará para fornecer conectividade PSTN aos usuários remotos do site de filial e clique em **Avançar**.</span><span class="sxs-lookup"><span data-stu-id="59d0f-115">Click **Edge Server**, click the Edge pool that this Survivable Branch Appliance or Survivable Branch Server will connect to provide PSTN connectivity to remote users of the branch site, and then click **Next**.</span></span>
 
-7.  <span data-ttu-id="01416-115">Clique em **FQDN de gateway ou endereço IP**e, em seguida, digite o FQDN ou endereço IP do ponto de gateway que o aparelho de filial persistente ou servidor de filial persistente está associado para rotear chamadas PSTN de entrada ou saída.</span><span class="sxs-lookup"><span data-stu-id="01416-115">Click **Gateway FQDN or IP Address**, and then type the FQDN or IP address of the gateway peer that the Survivable Branch Appliance or Survivable Branch Server is associated with for routing inbound or outbound PSTN calls.</span></span>
+7.  <span data-ttu-id="59d0f-116">Clique em **FQDN de gateway ou endereço IP**e, em seguida, digite o FQDN ou endereço IP do ponto de gateway que o aparelho de filial persistente ou servidor de filial persistente está associado para rotear chamadas PSTN de entrada ou saída.</span><span class="sxs-lookup"><span data-stu-id="59d0f-116">Click **Gateway FQDN or IP Address**, and then type the FQDN or IP address of the gateway peer that the Survivable Branch Appliance or Survivable Branch Server is associated with for routing inbound or outbound PSTN calls.</span></span>
     
     <div>
     
 
     > [!IMPORTANT]  
-    > <span data-ttu-id="01416-116">Se você está definindo um Aparelho de Filial Persistente, este é o gateway ao qual o Servidor de Mediação dentro do Aparelho de Filial Persistente se conectará para obter conectividade PSTN.</span><span class="sxs-lookup"><span data-stu-id="01416-116">If you are defining a Survivable Branch Appliance, this is the gateway to which the Mediation Server inside the Survivable Branch Appliance will connect for PSTN connectivity.</span></span>
+    > <span data-ttu-id="59d0f-117">Se você está definindo um Aparelho de Filial Persistente, este é o gateway ao qual o Servidor de Mediação dentro do Aparelho de Filial Persistente se conectará para obter conectividade PSTN.</span><span class="sxs-lookup"><span data-stu-id="59d0f-117">If you are defining a Survivable Branch Appliance, this is the gateway to which the Mediation Server inside the Survivable Branch Appliance will connect for PSTN connectivity.</span></span>
 
     
     </div>
 
-8.  <span data-ttu-id="01416-117">Clique em **Porta de Escuta para Gateway de IP/PSTN** e aceite a porta padrão.</span><span class="sxs-lookup"><span data-stu-id="01416-117">Click **Listening Port for IP/PSTN Gateway**, and then accept the default port.</span></span>
+8.  <span data-ttu-id="59d0f-118">Clique em **Porta de Escuta para Gateway de IP/PSTN** e aceite a porta padrão.</span><span class="sxs-lookup"><span data-stu-id="59d0f-118">Click **Listening Port for IP/PSTN Gateway**, and then accept the default port.</span></span>
 
-9.  <span data-ttu-id="01416-118">No **protocolo de transporte SIP**, clique no protocolo de transporte que o aparelho de filial persistente ou servidor de filial persistente usará e clique em **concluir**.</span><span class="sxs-lookup"><span data-stu-id="01416-118">In **Sip Transport Protocol**, click the transport protocol the Survivable Branch Appliance or Survivable Branch Server will use, and then click **Finish**.</span></span>
+9.  <span data-ttu-id="59d0f-119">No **protocolo de transporte SIP**, clique no protocolo de transporte que o aparelho de filial persistente ou servidor de filial persistente usará e clique em **concluir**.</span><span class="sxs-lookup"><span data-stu-id="59d0f-119">In **Sip Transport Protocol**, click the transport protocol the Survivable Branch Appliance or Survivable Branch Server will use, and then click **Finish**.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="01416-119">Por motivos de segurança, recomendamos que você use o TLS.</span><span class="sxs-lookup"><span data-stu-id="01416-119">For security reasons, we strongly recommend that you use Transport Layer Security (TLS).</span></span> <span data-ttu-id="01416-120">Caso esteja definindo um Aparelho de Filial Persistente, consulte sua documentação do fornecedor do Aparelho de Filial Persistente para verificar se o seu Aparelho de Filial Persistente é compatível com protocolo TLS.</span><span class="sxs-lookup"><span data-stu-id="01416-120">If you are defining a Survivable Branch Appliance, refer to your Survivable Branch Appliance vendor documentation to verify that your Survivable Branch Appliance supports the TLS protocol.</span></span>
+    > <span data-ttu-id="59d0f-120">Por motivos de segurança, recomendamos que você use o TLS.</span><span class="sxs-lookup"><span data-stu-id="59d0f-120">For security reasons, we strongly recommend that you use Transport Layer Security (TLS).</span></span> <span data-ttu-id="59d0f-121">Caso esteja definindo um Aparelho de Filial Persistente, consulte sua documentação do fornecedor do Aparelho de Filial Persistente para verificar se o seu Aparelho de Filial Persistente é compatível com protocolo TLS.</span><span class="sxs-lookup"><span data-stu-id="59d0f-121">If you are defining a Survivable Branch Appliance, refer to your Survivable Branch Appliance vendor documentation to verify that your Survivable Branch Appliance supports the TLS protocol.</span></span>
 
     
     </div>
 
-10. <span data-ttu-id="01416-121">Na árvore do console, clique com o botão direito no novo Aparelho ou Servidorde Filial Persistente, clique em **Topologia** e em **Publicar**.</span><span class="sxs-lookup"><span data-stu-id="01416-121">In the console tree, right-click the new Survivable Branch Appliance or Server, click **Topology**, and then click **Publish**.</span></span>
+10. <span data-ttu-id="59d0f-122">Na árvore do console, clique com o botão direito no novo Aparelho ou Servidorde Filial Persistente, clique em **Topologia** e em **Publicar**.</span><span class="sxs-lookup"><span data-stu-id="59d0f-122">In the console tree, right-click the new Survivable Branch Appliance or Server, click **Topology**, and then click **Publish**.</span></span>
 
-<span data-ttu-id="01416-122">**Próxima etapa**: [implantar um servidor ou aparelho de filial persistente com o Lync Server 2013-tarefa do site de filial](lync-server-2013-deploy-a-survivable-branch-appliance-or-server-branch-site-task.md)</span><span class="sxs-lookup"><span data-stu-id="01416-122">**Next step**: [Deploy a Survivable Branch Appliance or Server with Lync Server 2013 - branch site task](lync-server-2013-deploy-a-survivable-branch-appliance-or-server-branch-site-task.md)</span></span>
+<span data-ttu-id="59d0f-123">**Próxima etapa**: [implantar um servidor ou aparelho de filial persistente com o Lync Server 2013-tarefa do site de filial](lync-server-2013-deploy-a-survivable-branch-appliance-or-server-branch-site-task.md)</span><span class="sxs-lookup"><span data-stu-id="59d0f-123">**Next step**: [Deploy a Survivable Branch Appliance or Server with Lync Server 2013 - branch site task](lync-server-2013-deploy-a-survivable-branch-appliance-or-server-branch-site-task.md)</span></span>
 
 </div>
 

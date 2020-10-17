@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: definição de regras de conversão'
+description: 'Lync Server 2013: definição de regras de conversão.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48184093
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 85c4f1dc3b07d56e97211d6d5caf549e72caa177
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: c0c59225c8dc74d7d97bf3536c7b7073bc977925
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48521678"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48568387"
 ---
-# <a name="defining-translation-rules-in-lync-server-2013"></a><span data-ttu-id="06be3-102">Definindo regras de conversão no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="06be3-102">Defining translation rules in Lync Server 2013</span></span>
+# <a name="defining-translation-rules-in-lync-server-2013"></a><span data-ttu-id="9043e-103">Definindo regras de conversão no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9043e-103">Defining translation rules in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,28 +38,28 @@ ms.locfileid: "48521678"
 
 <span> </span>
 
-<span data-ttu-id="06be3-103">_**Última modificação do tópico:** 2013-02-22_</span><span class="sxs-lookup"><span data-stu-id="06be3-103">_**Topic Last Modified:** 2013-02-22_</span></span>
+<span data-ttu-id="9043e-104">_**Última modificação do tópico:** 2013-02-22_</span><span class="sxs-lookup"><span data-stu-id="9043e-104">_**Topic Last Modified:** 2013-02-22_</span></span>
 
-<span data-ttu-id="06be3-104">Lync Server 2013 Enterprise Voice roteia chamadas com base em números de telefone normalizados para o formato E. 164.</span><span class="sxs-lookup"><span data-stu-id="06be3-104">Lync Server 2013 Enterprise Voice routes calls based on phone numbers normalized to E.164 format.</span></span> <span data-ttu-id="06be3-105">Isso significa que todas as cadeias de caracteres discadas devem ser normalizadas para o formato E. 164 para o propósito de executar a pesquisa de número reverso (RNL), de modo que eles possam ser convertidos em seu URI SIP correspondente.</span><span class="sxs-lookup"><span data-stu-id="06be3-105">This means that all dialed strings must be normalized to E.164 format for the purpose of performing reverse number lookup (RNL) so they can be translated to their matching SIP URI.</span></span> <span data-ttu-id="06be3-106">O Lync Server 2013 fornece a capacidade de manipular o ID chamado e a apresentação da ID do chamador.</span><span class="sxs-lookup"><span data-stu-id="06be3-106">Lync Server 2013 provides the ability to manipulate the called ID and the caller ID presentation.</span></span>
+<span data-ttu-id="9043e-105">Lync Server 2013 Enterprise Voice roteia chamadas com base em números de telefone normalizados para o formato E. 164.</span><span class="sxs-lookup"><span data-stu-id="9043e-105">Lync Server 2013 Enterprise Voice routes calls based on phone numbers normalized to E.164 format.</span></span> <span data-ttu-id="9043e-106">Isso significa que todas as cadeias de caracteres discadas devem ser normalizadas para o formato E. 164 para o propósito de executar a pesquisa de número reverso (RNL), de modo que eles possam ser convertidos em seu URI SIP correspondente.</span><span class="sxs-lookup"><span data-stu-id="9043e-106">This means that all dialed strings must be normalized to E.164 format for the purpose of performing reverse number lookup (RNL) so they can be translated to their matching SIP URI.</span></span> <span data-ttu-id="9043e-107">O Lync Server 2013 fornece a capacidade de manipular o ID chamado e a apresentação da ID do chamador.</span><span class="sxs-lookup"><span data-stu-id="9043e-107">Lync Server 2013 provides the ability to manipulate the called ID and the caller ID presentation.</span></span>
 
-<span data-ttu-id="06be3-107">Esta seção discute como manipular a ID chamada e a ID do chamador.</span><span class="sxs-lookup"><span data-stu-id="06be3-107">This section discusses how to manipulate the called ID and caller ID.</span></span>
+<span data-ttu-id="9043e-108">Esta seção discute como manipular a ID chamada e a ID do chamador.</span><span class="sxs-lookup"><span data-stu-id="9043e-108">This section discusses how to manipulate the called ID and caller ID.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="06be3-108">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="06be3-108">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="9043e-109">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="9043e-109">In This Section</span></span>
 
-  - [<span data-ttu-id="06be3-109">Apresentação da ID de chamadas no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="06be3-109">Caller ID presentation in Lync Server 2013</span></span>](lync-server-2013-caller-id-presentation.md)
+  - [<span data-ttu-id="9043e-110">Apresentação da ID de chamadas no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9043e-110">Caller ID presentation in Lync Server 2013</span></span>](lync-server-2013-caller-id-presentation.md)
 
-  - [<span data-ttu-id="06be3-110">Apresentação da ID chamada no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="06be3-110">Called ID presentation in Lync Server 2013</span></span>](lync-server-2013-called-id-presentation.md)
+  - [<span data-ttu-id="9043e-111">Apresentação da ID chamada no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9043e-111">Called ID presentation in Lync Server 2013</span></span>](lync-server-2013-called-id-presentation.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="06be3-111">Confira também</span><span class="sxs-lookup"><span data-stu-id="06be3-111">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="9043e-112">Confira também</span><span class="sxs-lookup"><span data-stu-id="9043e-112">See Also</span></span>
 
 
-[<span data-ttu-id="06be3-112">Definindo regras de normalização no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="06be3-112">Defining normalization rules in Lync Server 2013</span></span>](lync-server-2013-defining-normalization-rules.md)  
+[<span data-ttu-id="9043e-113">Definindo regras de normalização no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9043e-113">Defining normalization rules in Lync Server 2013</span></span>](lync-server-2013-defining-normalization-rules.md)  
   
 
 </div>
