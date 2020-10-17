@@ -12,20 +12,22 @@ ms:contentKeyID: 48184789
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c055a48684716ce64428615759b023242b9e4ff5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f70c4fc0987b75cc8c5a8831eb8ad76493fea9b9
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42203437"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526318"
 ---
+# <a name="call-diagnostic-summary-report-in-lync-server-2013"></a>Relatório de Resumo de diagnóstico de chamadas no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="call-diagnostic-summary-report-in-lync-server-2013"></a>Relatório de Resumo de diagnóstico de chamadas no Lync Server 2013
+
 
 </div>
 
@@ -59,7 +61,7 @@ O Relatório de resumo de diagnóstico de chamadas é acessado a partir da pági
 
   - Taxa de falha de foco
 
-  - Taxa de falha MCU
+  - Taxa de falha de MCU
 
 </div>
 
@@ -101,7 +103,7 @@ A tabela a seguir lista os filtros que podem ser usados com o Relatório de Resu
 <p>7/7/2012</p>
 <p>Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):</p>
 <p>7/3/2012</p>
-<p>As semanas sempre são de Domingo a Sábado.</p></td>
+<p>As semanas são sempre de domingo a sábado.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>To</strong></p></td>
@@ -140,7 +142,7 @@ A tabela a seguir lista os filtros que podem ser usados com o Relatório de Resu
 
 A tabela a seguir lista as informações fornecidas no Relatório de Resumo de Diagnóstico de Chamadas para sessões ponto a ponto (ou seja, sessões envolvendo somente dois participantes).
 
-### <a name="metrics-for-peer-to-peer-sessions"></a>Métricas para sessões ponto a ponto
+### <a name="metrics-for-peer-to-peer-sessions"></a>Métricas para Sessões Ponto a Ponto
 
 <table>
 <colgroup>
@@ -178,7 +180,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Resumo de D
 
 A tabela a seguir lista as informações fornecidas pelo Relatório de Diagnóstico de Chamadas para sessões de conferência (ou seja, sessões envolvendo três ou mais participantes).
 
-### <a name="metrics-for-conferencing-sessions"></a>Métricas para sessões de conferência
+### <a name="metrics-for-conferencing-sessions"></a>Métricas para Sessões de Conferência
 
 <table>
 <colgroup>

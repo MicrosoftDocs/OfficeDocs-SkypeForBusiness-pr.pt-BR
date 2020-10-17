@@ -12,20 +12,22 @@ ms:contentKeyID: 48183270
 ms.date: 02/17/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 38bd350a4b552d63b635f8ec5a25ed7803de4b55
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c56554a26e5f64089a766300f375039409680578
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187555"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526238"
 ---
+# <a name="certificate-requirements-for-internal-servers-in-lync-server-2013"></a>Requisitos de certificado para servidores internos no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="certificate-requirements-for-internal-servers-in-lync-server-2013"></a>Requisitos de certificado para servidores internos no Lync Server 2013
+
 
 </div>
 
@@ -49,11 +51,11 @@ Servidores internos que estão executando o Lync Server e que exigem certificado
 
 </div>
 
-Embora uma autoridade de certificação empresarial interna seja recomendada para servidores internos, você também pode usar uma autoridade de certificação pública. Para obter uma lista de autoridades de certificação públicas que oferecem certificados compatíveis com requisitos específicos para certificados de comunicações unificadas (UC) e que tenham parceria com a Microsoft para garantir que eles funcionem com o assistente de certificado do Lync Server, consulte o artigo Microsoft Knowledge Base 929395, "parceiros de certificado de [https://go.microsoft.com/fwlink/p/?linkId=202834](https://go.microsoft.com/fwlink/p/?linkid=202834)comunicações unificadas para o Exchange Server e o Communications Server" em.
+Embora uma autoridade de certificação empresarial interna seja recomendada para servidores internos, você também pode usar uma autoridade de certificação pública. Para obter uma lista de autoridades de certificação públicas que oferecem certificados compatíveis com requisitos específicos para certificados de comunicações unificadas (UC) e que tenham parceria com a Microsoft para garantir que eles funcionem com o assistente de certificado do Lync Server, consulte o artigo Microsoft Knowledge Base 929395, "parceiros de certificado de comunicações unificadas para o Exchange Server e o Communications Server" em [https://go.microsoft.com/fwlink/p/?linkId=202834](https://go.microsoft.com/fwlink/p/?linkid=202834) .
 
 A comunicação com outros aplicativos e servidores, como o Exchange 2013, requer um certificado que seja compatível com outros aplicativos e produtos. Para a versão 2013, Lync Server 2013 e outros produtos de servidor da Microsoft, incluindo o Exchange 2013 e o SharePoint Server, dão suporte ao protocolo de autorização aberta (OAuth) para autenticação e autorização de servidor para servidor. Para obter detalhes, consulte [Managing Server-to-Server Authentication (OAuth) and Partner Applications in Lync server 2013](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md) na documentação de implantação ou a documentação de operações.
 
-Para conexões de clientes que executam o sistema operacional Windows 7, o sistema operacional Windows Server 2008, o sistema operacional Windows Server 2008 R2, o sistema operacional Windows Vista e o Microsoft Lync Phone Edition, Lync Server 2013 inclui suporte para (mas não require) certificados assinados usando a função de hash criptográfico SHA-256. Para suportar acesso externo usando SHA-256, o certificado externo é emitido por um AC público usando SHA-256.
+Para conexões de clientes que executam o sistema operacional Windows 7, o sistema operacional Windows Server 2008, o sistema operacional Windows Server 2008 R2, o sistema operacional Windows Vista e o Microsoft Lync Phone Edition, Lync Server 2013 inclui suporte para (mas não exige) certificados assinados usando a função de hash de criptografia SHA-256. Para suportar acesso externo usando SHA-256, o certificado externo é emitido por um AC público usando SHA-256.
 
 As tabelas a seguir mostram os requisitos de certificado por função de servidor para pools de Front-Ends e servidores Standard Edition. Todos são certificados padrão de servidores da web com chave privada e não exportáveis.
 
@@ -95,7 +97,7 @@ Observe que o Uso Avançado de Chave (EKU) é automaticamente configurado quando
 <th>Nome da entidade/nome comum</th>
 <th>Nome da entidade alternativo</th>
 <th>Exemplo</th>
-<th>Comentários</th>
+<th>Comments</th>
 </tr>
 </thead>
 <tbody>
@@ -137,7 +139,7 @@ Observe que o Uso Avançado de Chave (EKU) é automaticamente configurado quando
 <li><p>FQDN da web externa</p></li>
 <li><p>Discar URL simples</p></li>
 <li><p>Atender URLs simples por domínio SIP</p></li>
-<li><p>Ou uma entrada curinga para os URLs simples</p></li>
+<li><p>Ou, uma entrada curinga para os URLs simples</p></li>
 </ul></td>
 <td><p>SN = SE01. contoso. com; SAN = webcon01. contoso. com; SAN = reunião. contoso. com; SAN = atender. fabrikam. com; SAN = dialem. contoso. com</p>
 <p>Como usar um certificado coringa:</p>
@@ -165,7 +167,7 @@ Observe que o Uso Avançado de Chave (EKU) é automaticamente configurado quando
 <th>Nome da entidade/nome comum</th>
 <th>Nome da entidade alternativo</th>
 <th>Exemplo</th>
-<th>Comentários</th>
+<th>Comments</th>
 </tr>
 </thead>
 <tbody>
@@ -331,7 +333,7 @@ Se possuir um pool do Servidor de Mediação autônomo, os servidores presentes 
 <tr class="odd">
 <td><p>Padrão</p></td>
 <td><p>FQDN do aplicativo</p></td>
-<td><p>SIP. &lt;sipdomain&gt; (precisa de uma entrada por domínio SIP)</p></td>
+<td><p>SIP. &lt; sipdomain &gt; (precisa de uma entrada por domínio SIP)</p></td>
 <td><p>SN = sba01. contoso. net; SAN = SIP. contoso. com; SAN = SIP. fabrikam. com</p></td>
 </tr>
 </tbody>

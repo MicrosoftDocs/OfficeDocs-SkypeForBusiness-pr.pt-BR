@@ -12,20 +12,22 @@ ms:contentKeyID: 48185247
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b805553349e6958671bc024cb862b296b74fc697
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9a4c85dd6da5ba15a6ce946c4e331e09c8617974
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186994"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525818"
 ---
+# <a name="create-or-modify-a-queue-in-lync-server-2013"></a>Criar ou modificar uma fila no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-a-queue-in-lync-server-2013"></a>Criar ou modificar uma fila no Lync Server 2013
+
 
 </div>
 
@@ -95,11 +97,11 @@ Use um dos seguintes procedimentos para criar ou modificar uma fila.
     
       - Para desconectar a chamada após o tempo limite, clique em **Desconectar**.
     
-      - Para encaminhar a chamada para caixa postal, clique em **encaminhar para caixa postal**e, em seguida, no campo **endereço SIP** , digite um endereço de caixa postal\<no\>@\<formato SIP:\> username DomainName (por exemplo, SIP:Bob@contoso.com).
+      - Para encaminhar a chamada para caixa postal, clique em **encaminhar para caixa postal**e, em seguida, no campo **endereço SIP** , digite um endereço de caixa postal no formato SIP: \<username\> @ \<domainname\> (por exemplo, SIP:Bob@contoso.com).
     
-      - Para encaminhar a chamada para outro número de telefone, clique em **encaminhar para número de telefone**e, no campo **endereço SIP** , digite o número de telefone no\<formato\>@\<SIP: Number\> DomainName (por exemplo, SIP:+14255550121@contoso.com).
+      - Para encaminhar a chamada para outro número de telefone, clique em **encaminhar para número de telefone**e, em seguida, no campo **endereço SIP** , digite o número de telefone no formato SIP: \<number\> @ \<domainname\> (por exemplo, SIP:+14255550121@contoso.com).
     
-      - Para encaminhar a chamada para outro usuário, clique em **encaminhar para endereço SIP**e, no campo **endereço SIP** , digite o URI para o usuário no formato SIP:\<username\>@\<DomainName\>.
+      - Para encaminhar a chamada para outro usuário, clique em **encaminhar para endereço SIP**e, no campo **endereço SIP** , digite o URI para o usuário no formato SIP: \<username\> @ \<domainname\> .
     
       - Para encaminhar a chamada para outra fila de espera, clique em **Encaminhar para outra fila** e, em seguida, procure na fila a ser usada.
 
@@ -115,11 +117,11 @@ Use um dos seguintes procedimentos para criar ou modificar uma fila.
     
       - Para desconectar a chamada após o tempo limite, clique em **Desconectar**.
     
-      - Para encaminhar a chamada para caixa postal, clique em **encaminhar para caixa postal**e, em seguida, no campo **endereço SIP** , digite um endereço de caixa postal\<no\>@\<formato SIP:\> username DomainName (por exemplo, SIP:Bob@contoso.com).
+      - Para encaminhar a chamada para caixa postal, clique em **encaminhar para caixa postal**e, em seguida, no campo **endereço SIP** , digite um endereço de caixa postal no formato SIP: \<username\> @ \<domainname\> (por exemplo, SIP:Bob@contoso.com).
     
-      - Para encaminhar a chamada para outro número de telefone, clique em **encaminhar para número de telefone**e, no campo **endereço SIP** , digite o número de telefone no\<formato\>@\<SIP: Number\> DomainName (por exemplo, SIP:+14255550121@contoso.com).
+      - Para encaminhar a chamada para outro número de telefone, clique em **encaminhar para número de telefone**e, em seguida, no campo **endereço SIP** , digite o número de telefone no formato SIP: \<number\> @ \<domainname\> (por exemplo, SIP:+14255550121@contoso.com).
     
-      - Para encaminhar a chamada para outro usuário, clique em **encaminhar para endereço SIP**e, no campo **endereço SIP** , digite o URI para o usuário no formato SIP:\<username\>@\<DomainName\>.
+      - Para encaminhar a chamada para outro usuário, clique em **encaminhar para endereço SIP**e, no campo **endereço SIP** , digite o URI para o usuário no formato SIP: \<username\> @ \<domainname\> .
     
       - Para encaminhar a chamada para outra fila de espera, clique em **Encaminhar para outra fila** e, em seguida, procure na fila a ser usada.
 

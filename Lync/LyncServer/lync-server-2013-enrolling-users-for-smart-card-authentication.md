@@ -12,20 +12,22 @@ ms:contentKeyID: 54973691
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9a157d5492378771cf40a6438bbf8672efd01412
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: cfbfcd73aba4079d74074adcd2710b8a2d45aeba
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213367"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526768"
 ---
+# <a name="enrolling-users-for-smart-card-authentication-in-lync-server-2013"></a>Registrar usuários para autenticação de cartão inteligente no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="enrolling-users-for-smart-card-authentication-in-lync-server-2013"></a>Registrar usuários para autenticação de cartão inteligente no Lync Server 2013
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**Última modificação do tópico:** 2013-07-03_
 
 Em geral, há dois métodos para registrar usuários para autenticação de cartão inteligente. O método mais fácil envolve ter os usuários se inscrever diretamente para a autenticação de cartão inteligente usando o registro na Web, enquanto o método mais complexo envolve o uso de um agente de registro. Este tópico se concentra no Autoregistro de certificados de cartão inteligente.
 
-Para obter mais informações sobre o registro em nome de usuários como um agente de registro, consulte registrar-se para certificados em nome de [https://go.microsoft.com/fwlink/p/?LinkID=313367](https://go.microsoft.com/fwlink/p/?linkid=313367)outros usuários em.
+Para obter mais informações sobre o registro em nome de usuários como um agente de registro, consulte registrar-se para certificados em nome de outros usuários em [https://go.microsoft.com/fwlink/p/?LinkID=313367](https://go.microsoft.com/fwlink/p/?linkid=313367) .
 
 <div>
 
@@ -49,7 +51,7 @@ Para obter mais informações sobre o registro em nome de usuários como um agen
 
 2.  Inicie o Internet Explorer.
 
-3.  Navegue até a página **registro da Web da autoridade** de certificação https://MyCA.contoso.com/certsrv)(por exemplo,.
+3.  Navegue até a página **registro da Web da autoridade de certificação** (por exemplo, https://MyCA.contoso.com/certsrv) .
     
     <div>
     

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184690
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3bd5f09d80aa86c9c0f692fbe0e744a445067e74
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4edc22c1cfc46b032e679a9dc0718113bc6967bb
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197154"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526648"
 ---
+# <a name="importing-the-lync-server-2013-management-packs"></a>Importando os pacotes de gerenciamento do Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="importing-the-lync-server-2013-management-packs"></a>Importando os pacotes de gerenciamento do Lync Server 2013
+
 
 </div>
 
@@ -37,20 +39,20 @@ ms.locfileid: "42197154"
 
 _**Última modificação do tópico:** 2012-10-22_
 
-Você pode estender os recursos do System Center Operations Manager Instalando pacotes de gerenciamento — software que determina quais itens o System Center Operations Manager pode monitorar e como esses itens devem ser monitorados e como os alertas devem ser acionados e informação. O Lync Server 2013 inclui dois pacotes de gerenciamento do System Center Operations Manager que oferecem os seguintes recursos:
+Você pode estender os recursos do System Center Operations Manager Instalando pacotes de gerenciamento — software que determina quais itens o System Center Operations Manager pode monitorar e como esses itens devem ser monitorados e como os alertas devem ser acionados e relatados. O Lync Server 2013 inclui dois pacotes de gerenciamento do System Center Operations Manager que oferecem os seguintes recursos:
 
-  - O pacote de gerenciamento de componente e usuário (Microsoft.LS.2013.Monitoring.ComponentAndUser.mp) rastreia problemas do Lync Server registrados em logs de eventos, registrados por contadores de desempenho ou registrados nos registros de detalhes da chamada (CDR) ou na qualidade da experiência (QoE) bancos. Para problemas críticos, o System Center Operations Manager pode ser configurado para notificar imediatamente os administradores por email, mensagem instantânea ou mensagens SMS (Short Message Service). O SMS é a tecnlogia usada para enviar mensagens entre celulares.
+  - O pacote de gerenciamento de componente e usuário (Microsoft.LS.2013.Monitoring.ComponentAndUser.mp) acompanha os problemas do Lync Server registrados em logs de eventos, registrados por contadores de desempenho ou registrados nos bancos de dados de registro de detalhes de chamadas (CDR) ou da qualidade da experiência (QoE). Para problemas críticos, o System Center Operations Manager pode ser configurado para notificar imediatamente os administradores por email, mensagem instantânea ou mensagens SMS (Short Message Service). O SMS é a tecnlogia usada para enviar mensagens entre celulares.
     
     <div>
     
 
     > [!NOTE]  
-    > Para obter detalhes sobre como configurar a notificação do Operations Manager, consulte a notificação de <A href="https://go.microsoft.com/fwlink/p/?linkid=268785">https://go.microsoft.com/fwlink/p/?LinkId=268785</A>configuração na biblioteca do TechNet em.
+    > Para obter detalhes sobre como configurar a notificação do Operations Manager, consulte a notificação de configuração na biblioteca do TechNet em <A href="https://go.microsoft.com/fwlink/p/?linkid=268785">https://go.microsoft.com/fwlink/p/?LinkId=268785</A> .
 
     
     </div>
 
-  - O pacote de gerenciamento de monitoramento ativo (Microsoft.LS.2013.Monitoring.ActiveMonitoring.mp) testa proativamente os principais componentes do Lync Server, como entrar no sistema, trocar mensagens instantâneas ou fazer chamadas para um telefone localizado no Public comutado rede telefônica (PSTN). Esses testes são conduzidos usando os cmdlets de transação sintéticas do Lync Server. Por exemplo, você pode usar o cmdlet **Test-CsIM**para simular conversas por mensagens instantâneas entre usuários de teste. Se a simulação de conversa falhar, um alerta é gerado.
+  - O pacote de gerenciamento de monitoramento ativo (Microsoft.LS.2013.Monitoring.ActiveMonitoring.mp) testa proativamente os principais componentes do Lync Server, como entrar no sistema, trocar mensagens instantâneas ou fazer chamadas para um telefone localizado na rede telefônica pública comutada (PSTN). Esses testes são conduzidos usando os cmdlets de transação sintéticas do Lync Server. Por exemplo, você pode usar o cmdlet **Test-CsIM**para simular conversas por mensagens instantâneas entre usuários de teste. Se a simulação de conversa falhar, um alerta é gerado.
 
 Você deve importar os pacotes de gerenciamento. Se você não importar os pacotes de gerenciamento, não poderá usar o Operations Manager para monitorar eventos do Lync Server ou executar transações sintéticas do Lync Server.
 
@@ -68,9 +70,9 @@ O pacote de gerenciamento de componente e usuário é usado apenas para monitora
 
 Você pode usar uma destas ferramentas para importar pacotes de gerenciamento:
 
-  - **System Center Operations Manager**   com este método, você usa o Operations Manager para adicionar o monitoramento para o Lync Server.
+  - **System Center Operations Manager**     Com esse método, você usa o Operations Manager para adicionar o monitoramento para o Lync Server.
 
-  - **Shell do Operations Manager**   você pode usar o Shell do Operations Manager para importar diretamente ou solucionar quaisquer problemas que encontrar ao importar pacotes de gerenciamento usando o console do System Center Operations Manager.
+  - Shell do Operations **Manager**     Você pode usar o Shell do Operations Manager para importar diretamente ou solucionar problemas encontrados ao importar pacotes de gerenciamento usando o console do System Center Operations Manager.
 
 <div>
 

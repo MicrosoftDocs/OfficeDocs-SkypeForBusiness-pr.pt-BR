@@ -12,20 +12,22 @@ ms:contentKeyID: 48183565
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 670696a0945464486e0872b17df330a6ca8140b7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e1c2a25105aec6cdf6d21193038f90ea852c5b3a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188604"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526028"
 ---
+# <a name="conference-detail-report-in-lync-server-2013"></a>Relatório de detalhes de conferência no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="conference-detail-report-in-lync-server-2013"></a>Relatório de detalhes de conferência no Lync Server 2013
+
 
 </div>
 
@@ -65,7 +67,7 @@ Nenhum. Você não pode filtrar o Relatório de Detalhe da Conferência.
 
 <div>
 
-## <a name="metrics"></a>Métricas
+## <a name="metrics"></a>Métrica
 
 A tabela a seguir lista as informações fornecidas na seção Informação da Conferência do Relatório de Detalhe da Conferência.
 
@@ -151,7 +153,7 @@ A tabela a seguir lista a informação oferecida na Seção de Participação da
 <tr class="even">
 <td><p>Hora de participação</p></td>
 <td></td>
-<td><p>Data e hora de ingresso do participante na conferência.</p></td>
+<td><p>Data e hora que o participante entrou na conferência.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Hora de saída</strong></p></td>

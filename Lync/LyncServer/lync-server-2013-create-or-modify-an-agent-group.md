@@ -12,20 +12,22 @@ ms:contentKeyID: 48185784
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b60ba1c402a629c0a85b2bd99dc4819da3455660
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 874b73af42869bc5cbe6a66b7efaf792d231b95d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202877"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525748"
 ---
+# <a name="create-or-modify-an-agent-group-in-lync-server-2013"></a>Criar ou modificar um grupo de agentes no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-an-agent-group-in-lync-server-2013"></a>Criar ou modificar um grupo de agentes no Lync Server 2013
+
 
 </div>
 
@@ -152,7 +154,7 @@ Use um dos procedimentos a seguir para criar ou modificar um grupo de agentes.
         
           - Se uma lista de distribuição tiver sido configurada para que a associação fique oculta e o administrador do grupo de resposta atribuir a lista de distribuição à lista de agentes, os usuários poderão chamar o grupo para descobrir quem são os membros.
         
-          - Se uma lista de distribuição tiver sido configurada para que fique oculta na lista de endereços global do Exchange, o administrador do grupo de resposta poderá ver a lista de distribuição e atribuí-la à lista de agentes se o processo do grupo de resposta tiver os direitos de usuário adequados e permissões, mesmo que o administrador não tenha os direitos de usuário e permissões apropriados.
+          - Se uma lista de distribuição tiver sido configurada para que fique oculta na lista de endereços global do Exchange, o administrador do grupo de resposta poderá ver a lista de distribuição e atribuí-la à lista de agentes se o processo do grupo de resposta tiver os direitos e permissões do usuário apropriados, mesmo que o administrador não tenha os direitos e permissões do usuário apropriados.
 
 11. Clique em **Confirmar**.
 

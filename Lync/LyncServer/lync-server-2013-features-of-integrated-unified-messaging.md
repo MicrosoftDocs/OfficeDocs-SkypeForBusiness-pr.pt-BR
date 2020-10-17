@@ -12,20 +12,22 @@ ms:contentKeyID: 48183353
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 55da4422ec0151ddc6638ea21b4a5e1c551541ee
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: da109ebb48ff483d117f41297749386b8f0462f8
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42179628"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526748"
 ---
+# <a name="features-of-integrated-unified-messaging-and-lync-server-2013"></a>Recursos de Unificação de mensagens integrada e Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="features-of-integrated-unified-messaging-and-lync-server-2013"></a>Recursos de Unificação de mensagens integrada e Lync Server 2013
+
 
 </div>
 
@@ -69,7 +71,7 @@ O atendedor automático é um recurso do UM do Exchange que pode ser usado para 
 
 ## <a name="fax-services"></a>Serviços de fax
 
-O UM do Exchange inclui recursos de fax, que permitem que os usuários recebam faxes de entrada em suas caixas de correio do Exchange. Para obter detalhes, consulte "Unificação de mensagens" na documentação do [https://go.microsoft.com/fwlink/p/?linkId=135652](https://go.microsoft.com/fwlink/p/?linkid=135652)Microsoft Exchange Server em.
+O UM do Exchange inclui recursos de fax, que permitem que os usuários recebam faxes de entrada em suas caixas de correio do Exchange. Para obter detalhes, consulte "Unificação de mensagens" na documentação do Microsoft Exchange Server em [https://go.microsoft.com/fwlink/p/?linkId=135652](https://go.microsoft.com/fwlink/p/?linkid=135652) .
 
 <div>
 

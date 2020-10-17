@@ -12,20 +12,22 @@ ms:contentKeyID: 48184794
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 692c3e3baa564b2276be678b48e67b5f2a4abd56
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 46073c5540b0b4cd48f6c5a13c17d4a4d3f12a46
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196324"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526328"
 ---
+# <a name="call-diagnostic-reports-in-lync-server-2013"></a>Relatórios de diagnóstico de chamada no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="call-diagnostic-reports-in-lync-server-2013"></a>Relatórios de diagnóstico de chamada no Lync Server 2013
+
 
 </div>
 
@@ -43,19 +45,19 @@ Os Relatórios de Diagnóstico de Chamada oferecem informações de resumo e dad
 
 ## <a name="in-this-section"></a>Nesta seção
 
-  - [O relatório de Resumo de diagnóstico de chamadas no Lync Server 2013](lync-server-2013-call-diagnostic-summary-report.md)   fornece um resumo geral das sessões ponto a ponto com falha e sessões de conferência. Sessões ponto a ponto são aquelas que envolvem somente dois participantes. Sessões de conferência envolvem três ou mais participantes.
+  - [Relatório de Resumo de diagnóstico de chamadas no Lync Server 2013](lync-server-2013-call-diagnostic-summary-report.md)     Fornece um resumo geral das sessões ponto a ponto com falha e sessões de conferência. Sessões ponto a ponto são aquelas que envolvem somente dois participantes. Sessões de conferência envolvem três ou mais participantes.
 
-  - [O relatório de diagnóstico de atividades ponto a ponto no Lync Server 2013](lync-server-2013-peer-to-peer-activity-diagnostic-report.md)   fornece uma visão geral de tendência de sessões ponto a ponto com falha. Uma sessão ponto a ponto envolve somente dois participantes.
+  - [Relatório de diagnóstico de atividade ponto a ponto no Lync Server 2013](lync-server-2013-peer-to-peer-activity-diagnostic-report.md)     Fornece uma visão geral de tendência de sessões ponto a ponto com falha. Uma sessão ponto a ponto envolve somente dois participantes.
 
-  - [Relatório de diagnóstico de conferência no Lync Server 2013](lync-server-2013-conference-diagnostic-report.md)   fornece uma visão geral de tendência de sessões de conferência com falha e modos de exibição de tendência para cada modalidade de conferência. Sessões de conferência envolvem no mínimo três participantes.
+  - [Relatório de diagnóstico de conferência no Lync Server 2013](lync-server-2013-conference-diagnostic-report.md)     Fornece uma visão geral de tendência de sessões de conferência com falha e modos de exibição de tendência para cada modalidade de conferência. Sessões de conferência envolvem no mínimo três participantes.
 
-  - [Top Failures Report in Lync Server 2013](lync-server-2013-top-failures-report.md)   fornece uma lista das falhas mais frequentes e suas tendências ao longo do tempo.
+  - [Relatório de falhas principais no Lync Server 2013](lync-server-2013-top-failures-report.md)     Fornece uma lista das falhas mais frequentes e suas tendências ao longo do tempo.
 
-  - [Falha no relatório de distribuição no Lync Server 2013](lync-server-2013-failure-distribution-report.md)   fornece uma análise de sessões com falha.
+  - [Relatório de distribuição de falhas no Lync Server 2013](lync-server-2013-failure-distribution-report.md)     Fornece uma análise de sessões com falha.
 
-  - [O relatório de lista de falhas no Lync Server 2013](lync-server-2013-failure-list-report.md)   fornece informações detalhadas sobre os participantes individuais envolvidos em uma conferência com falha.
+  - [Relatório de lista de falhas no Lync Server 2013](lync-server-2013-failure-list-report.md)     Fornece informações detalhadas sobre os participantes individuais envolvidos em uma conferência com falha.
 
-  - [O relatório de diagnóstico no Lync Server 2013](lync-server-2013-diagnostic-report.md)   fornece informações de diagnóstico e solução de problemas (incluindo códigos de resposta SIP e cabeçalhos e IDs de diagnóstico) para sessões com falha.
+  - [Relatório de diagnóstico no Lync Server 2013](lync-server-2013-diagnostic-report.md)     Fornece informações de diagnóstico e solução de problemas (incluindo códigos de resposta SIP e cabeçalhos e IDs de diagnóstico) para sessões com falha.
 
 </div>
 

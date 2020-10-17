@@ -12,20 +12,22 @@ ms:contentKeyID: 48185686
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 76388655fc8ed893e09b192ae24c7807b46f9f6c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5fe20dd1e3e5387b4b31873ec0d3c6ae914c2cec
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199374"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525998"
 ---
+# <a name="conference-join-time-report-in-lync-server-2013"></a>Relatório de tempo de ingresso em conferência no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="conference-join-time-report-in-lync-server-2013"></a>Relatório de tempo de ingresso em conferência no Lync Server 2013
+
 
 </div>
 
@@ -75,7 +77,7 @@ Os filtros oferecem uma forma de retornar um conjunto de dados mais direcionado 
 <p>7/7/2012</p>
 <p>Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):</p>
 <p>7/3/2012</p>
-<p>As semanas sempre são de Domingo a Sábado.</p></td>
+<p>As semanas são sempre de domingo a sábado.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>To</strong></p></td>
@@ -121,7 +123,7 @@ Os filtros oferecem uma forma de retornar um conjunto de dados mais direcionado 
 
 <div>
 
-## <a name="metrics"></a>Métricas
+## <a name="metrics"></a>Métrica
 
 A tabela a seguir lista as informações fornecidas no Relatório de Tempo de Ingresso em Conferência.
 

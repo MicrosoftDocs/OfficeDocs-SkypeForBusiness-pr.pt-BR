@@ -8,7 +8,6 @@ ms.service: msteams
 ms.reviewer: vkorlep, siunies
 audience: admin
 description: Saiba como usar a QoS (qualidade de serviço) para otimizar o tráfego de rede do cliente de desktop do Microsoft Teams.
-ms.custom: seo-marvel-mar2020
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -17,12 +16,15 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 77f1754277cfeacd31de28dcee089a8f97991c87
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.custom:
+- seo-marvel-mar2020
+- seo-marvel-apr2020
+ms.openlocfilehash: bc352303cf63ea966927aece0aef36854a0ace1b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583680"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526398"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams-clients"></a>Implementar a QoS (qualidade de serviço) em clientes do Microsoft Teams
 
@@ -37,7 +39,7 @@ Você pode usar a QoS (qualidade de serviço) baseada em política em uma polít
 |Compartilhamento de tela/aplicativo| 50.040-50.059|TCP/UDP|dezoito|Assured Forwarding (AF21)|
 | | | | | |
 
-Sempre que possível, configure as configurações de QoS baseadas em políticas em um objeto de política de grupo. As etapas a seguir são muito parecidas com a [configuração de intervalos de porta e uma política de qualidade de serviço para seus clientes no Skype for Business Server](https://docs.microsoft.com/SkypeForBusiness/manage/network-management/qos/configuring-port-ranges-for-your-skype-clients#configure-quality-of-service-policies-for-clients-running-on-windows-10), que tem alguns detalhes adicionais que podem não ser necessários.
+Sempre que possível, configure as configurações de QoS baseadas em políticas em um objeto de política de grupo. As etapas a seguir são muito parecidas com a  [configuração de intervalos de porta e uma política de qualidade de serviço para seus clientes no Skype for Business Server](https://docs.microsoft.com/SkypeForBusiness/manage/network-management/qos/configuring-port-ranges-for-your-skype-clients#configure-quality-of-service-policies-for-clients-running-on-windows-10), que tem alguns detalhes adicionais que podem não ser necessários.
 
 Para criar uma política de áudio QoS para computadores Windows 10 associados a um domínio, primeiro faça logon em um computador no qual o gerenciamento de política de grupo foi instalado. Abra gerenciamento de política de grupo (clique em Iniciar, aponte para ferramentas administrativas e clique em gerenciamento de política de grupo) e conclua as seguintes etapas:
 

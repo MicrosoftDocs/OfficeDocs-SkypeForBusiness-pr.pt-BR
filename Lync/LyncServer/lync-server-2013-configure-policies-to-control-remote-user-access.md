@@ -12,20 +12,22 @@ ms:contentKeyID: 48184825
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9f1687a26e5bf464191b742d046bc28e8c8a329a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a195a0bbca8bdfcc0b150504635d3f86cca376c3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195754"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527008"
 ---
+# <a name="configure-policies-to-control-remote-user-access-in-lync-server-2013"></a>Configurar políticas para controlar o acesso de usuário remoto no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-policies-to-control-remote-user-access-in-lync-server-2013"></a>Configurar políticas para controlar o acesso de usuário remoto no Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42195754"
 
 _**Última modificação do tópico:** 2012-10-18_
 
-Você configura uma ou mais políticas de acesso de usuário externo para controlar se os usuários remotos podem colaborar com usuários internos do Lync Server. Para controlar o acesso de usuários remotos, você pode configurar políticas no nível global, de site e de usuário. As políticas de site substituem a política global e as políticas de usuário substituem as políticas globais e do site. Para obter detalhes sobre os tipos de políticas que você pode configurar, consulte [Managing Federation and external Access to Lync Server 2013](lync-server-2013-managing-federation-and-external-access-to-lync-server-2013.md). As configurações de política do Lync Server aplicadas em um nível de política podem substituir as configurações que são aplicadas em outro nível de política. A precedência de política do Lync Server é: a política de usuário (maior influência) substitui uma política de site e, em seguida, uma política de site substitui uma política global (menos influência). Isso significa que quanto mais próxima a configuração de diretiva for o objeto que a política está afetando, maior será a influência sobre o objeto.
+Você configura uma ou mais políticas de acesso de usuário externo para controlar se os usuários remotos podem colaborar com usuários internos do Lync Server. Para controlar o acesso de usuários remotos, você pode configurar políticas no nível global, de site e de usuário. As políticas de site substituem a política global e as políticas de usuário substituem as políticas globais e do site. Para obter detalhes sobre os tipos de políticas que você pode configurar, consulte [Managing Federation and external Access to Lync Server 2013](lync-server-2013-managing-federation-and-external-access-to-lync-server-2013.md). As configurações de política do Lync Server aplicadas em um nível de política podem substituir as configurações que são aplicadas em outro nível de política. A precedência de política do Lync Server é: a política de usuário (maior influência) substitui uma política de site e, em seguida, uma política de site substitui uma política global (menos influência). Isso significa que quanto mais próxima a configuração da política estiver do objeto que a política estiver afetando, maior será a influência sobre o objeto.
 
 <div>
 

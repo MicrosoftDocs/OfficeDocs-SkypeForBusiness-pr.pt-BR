@@ -1,6 +1,6 @@
 ---
 title: Classificação de fluxo no painel de qualidade de chamada (CQD)
-ms.author: serdarsacobsen
+ms.author: serdars
 author: lolaj
 manager: serdars
 ms.reviewer: gageames
@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Optimization
 description: Saiba como a qualidade do fluxo é classificada no painel de qualidade da chamada (CQD) para Microsoft Teams e Skype for Business online.
-ms.openlocfilehash: 0853b5602525d17f8fd8d440a5275dc2c8ab04a3
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: b27de2bb3dc62e8344b51d564f2c295a08f45932
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583820"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526348"
 ---
 # <a name="stream-classification-in-call-quality-dashboard-cqd"></a>Classificação de fluxo no painel de qualidade de chamada (CQD)
 
@@ -50,7 +50,7 @@ Se uma ou mais das seguintes condições forem atendidas, um fluxo de áudio ser
 
 ### <a name="video-classifier-due-to-freeze"></a>Classificador de vídeo devido ao congelamento
 
-O fluxo de vídeo é marcado como _bom_ ou _ruim_ com base no valor de uma pontuação do classificador gerada para estimar que o usuário final tenha detectado vídeo congelado. Esse classificador só está disponível para o produto Microsoft Teams.
+O fluxo de vídeo é marcado como  _bom_ ou _ruim_ com base no valor de uma pontuação do classificador gerada para estimar que o usuário final tenha detectado vídeo congelado. Esse classificador só está disponível para o produto Microsoft Teams.
 
 |Etapa Nº|Indicador|Cenário|Condição |Classificação se a condição for verdadeira |Classificação se a condição for falsa |Classificação se a métrica não estiver disponível |Explicação |
 |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |

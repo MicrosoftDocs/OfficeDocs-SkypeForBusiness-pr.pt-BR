@@ -12,20 +12,22 @@ ms:contentKeyID: 63969574
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6bf9d53d8702fbd9e63ec05af2c4942538f7298e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 881e161a01b589db2db172cb5115858b522d262b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190564"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526228"
 ---
+# <a name="check-trunk-configuration-against-a-phone-number-in-lync-server-2013"></a>Verificar a configuração de tronco em relação a um número de telefone no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="check-trunk-configuration-against-a-phone-number-in-lync-server-2013"></a>Verificar a configuração de tronco em relação a um número de telefone no Lync Server 2013
+
 
 </div>
 
@@ -74,7 +76,7 @@ Os troncos SIP conectam a rede de voz interna do Lync Server a qualquer um dos s
 
   - Um controlador de borda de sessão (SBC).
 
-O cmdlet Test-CsTrunkConfiguration verifica se um número de telefone (como discado por um usuário) pode ser convertido na rede E. 164 e roteado através de um tronco SIP especificado.
+O cmdlet Test-CsTrunkConfiguration verifica se um número de telefone (como discado por um usuário) pode ser convertido na rede e. 164 e roteado através de um tronco SIP especificado.
 
 </div>
 
@@ -86,7 +88,7 @@ Para executar o cmdlet Test-CsTrunkConfiguration, primeiro você deve usar o cmd
 
 `Get-CsTrunkConfiguration -Identity "Global" | Test-CsTrunkConfiguration -DialedNumber "12065551219"`
 
-Executar Test-CsTrunkConfiguration sem executar primeiro Get-CsTrunkConfiguration não funcionará. Por exemplo, esse comando falhará sem retornar nenhum dado:
+A execução de Test-CsTrunkConfiguration sem a primeira execução Get-CsTrunkConfiguration não funcionará. Por exemplo, esse comando falhará sem retornar nenhum dado:
 
 `Test-CsTrunkConfiguration -DialedNumber "12065551219" -TrunkConfiguration "Global"`
 
@@ -110,7 +112,7 @@ TranslatedNumber MatchingRule
 
 \+12065551219 global/Redmond
 
-Se o teste falhar, Test-CsTrunkConfiguration retornará valores de propriedade vazios:
+Se o teste falhar, Test-CsTrunkConfiguration retornará valores de propriedade vazia:
 
 TranslatedNumber MatchingRule
 
@@ -130,7 +132,7 @@ Que retorna informações semelhantes a estas para cada regra de conversão:
 
 Descrição: números de telefone sem um código do país ou código de área.
 
-Padrão: ^\\+ (\\d\*) $
+Padrão: ^ \\ + ( \\ d \* ) $
 
 `Translation : $1`
 

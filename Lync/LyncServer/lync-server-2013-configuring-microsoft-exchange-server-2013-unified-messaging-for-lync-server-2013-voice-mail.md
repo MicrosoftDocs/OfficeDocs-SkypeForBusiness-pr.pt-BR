@@ -12,20 +12,22 @@ ms:contentKeyID: 49733573
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ebce894ae93b9071a880b35dffd039225b5485cf
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7376ce3cbafe1321878a28e43e9bc3ab065c990f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213587"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525929"
 ---
+# <a name="configuring-microsoft-exchange-server-2013-unified-messaging-for-microsoft-lync-server-2013-voice-mail"></a>Configurando a Unificação de mensagens do Microsoft Exchange Server 2013 para o Microsoft Lync Server 2013 voice mail
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-microsoft-exchange-server-2013-unified-messaging-for-microsoft-lync-server-2013-voice-mail"></a>Configurando a Unificação de mensagens do Microsoft Exchange Server 2013 para o Microsoft Lync Server 2013 voice mail
+
 
 </div>
 
@@ -46,15 +48,15 @@ Se você já configurou a autenticação de servidor para servidor entre o Lync 
 
 O primeiro comando no exemplo, o parâmetro VoIPSecurity e o valor de parâmetro "Secured" indica que o canal de sinalização é criptografado usando TLS. O URIType "SipName" indica que as mensagens serão enviadas e recebidas usando o protocolo SIP e o CountryOrRegionCode de 1 indica que o plano de discagem se aplica aos EUA.
 
-No segundo comando, o valor do parâmetro para o parâmetro ConfiguredInCountryOrRegionGroups especifica os grupos no país que podem ser usados com este plano de discagem. O valor do parâmetro "Anywhere\*,\*\*", "define o seguinte:
+No segundo comando, o valor do parâmetro para o parâmetro ConfiguredInCountryOrRegionGroups especifica os grupos no país que podem ser usados com este plano de discagem. O valor do parâmetro "Anywhere \* , \* \* ", "define o seguinte:
 
   - Nome do grupo ("Anywhere")
 
-  - AllowedNumberString (\*, um caractere curinga indicando que qualquer sequência numérica é permitida)
+  - AllowedNumberString ( \* , um caractere curinga indicando que qualquer sequência numérica é permitida)
 
-  - DialNumberString (\*, um caractere curinga indicando que qualquer número discado é permitido)
+  - DialNumberString ( \* , um caractere curinga indicando que qualquer número discado é permitido)
 
-  - Textcomment (\*, um caractere curinga indicando que qualquer comando de texto é permitido)
+  - Textcomment ( \* , um caractere curinga indicando que qualquer comando de texto é permitido)
 
 <div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184813
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3dad7e1ecce7c292b4022f15075635a5473417db
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c94b75aff1b79650adc846d3d761580e9429035d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190604"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526788"
 ---
+# <a name="enable-or-disable-federation-and-public-im-connectivity-in-lync-server-2013"></a>Habilitar ou desabilitar Federação e conectividade de IM pública no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="enable-or-disable-federation-and-public-im-connectivity-in-lync-server-2013"></a>Habilitar ou desabilitar Federação e conectividade de IM pública no Lync Server 2013
+
 
 </div>
 
@@ -37,13 +39,13 @@ ms.locfileid: "42190604"
 
 _**Última modificação do tópico:** 2013-06-24_
 
-O suporte para Federação é necessário para permitir que os usuários que têm uma conta com um cliente ou uma organização de parceiro confiável, incluindo domínios de parceiros e usuários de usuários de provedores públicos de mensagens instantâneas (IM) que você suporta, para colaborar com usuários no seu departamento. A Federação também é necessária para usar um provedor de serviço do Exchange hospedado para fornecer correio de voz para usuários do Enterprise Voice cujas caixas de correio estão localizadas em um serviço do Exchange hospedado, como o Microsoft Exchange Online. Quando tiver estabelecido uma relação de confiança com esses domínios externos, você poderá autorizar os usuários nesses domínios a acessar sua implantação e participar de comunicações do Lync Server. Essa relação de confiança é chamada de Federação e não está relacionada ou dependente de uma relação de confiança do Active Directory.
+O suporte para Federação é necessário para permitir que os usuários que têm uma conta com um cliente ou uma organização de parceiro confiável, incluindo domínios de parceiros e usuários de usuários de provedores de mensagens instantâneas (IM) que você dá suporte para colaborar com usuários em sua organização. A Federação também é necessária para usar um provedor de serviço do Exchange hospedado para fornecer correio de voz para usuários do Enterprise Voice cujas caixas de correio estão localizadas em um serviço do Exchange hospedado, como o Microsoft Exchange Online. Quando tiver estabelecido uma relação de confiança com esses domínios externos, você poderá autorizar os usuários nesses domínios a acessar sua implantação e participar de comunicações do Lync Server. Essa relação de confiança é chamada de Federação e não está relacionada ou dependente de uma relação de confiança do Active Directory.
 
 Para dar suporte ao acesso por usuários de domínios federados, você deve habilitar a Federação. Se você habilitar a Federação para sua organização, também deverá especificar se deseja implementar as seguintes opções:
 
-  - **Habilitar descoberta**   de domínio de parceiro se você habilitar essa opção, o Lync Server usará registros de DNS (sistema de nomes de domínio) para tentar descobrir domínios não listados na lista de domínios permitidos, automaticamente avaliando o tráfego de entrada de parceiros federados descobertos e limitando ou bloqueando esse tráfego com base no nível de confiança, na quantidade de tráfego e nas configurações de administrador. Se você não selecionar essa opção, o acesso do usuário federado será habilitado somente para usuários nos domínios que você incluir na lista de domínios permitidos. Mesmo que você não selecione essa opção, poderá especificar o bloqueio ou permissão de domínios individuais, incluindo a restrição do acesso a servidores específicos, executando o serviço Borda de Acesso no domínio federado. Para obter detalhes sobre como controlar o acesso por domínios federados, consulte [Configurar suporte para domínios externos permitidos no Lync Server 2013](lync-server-2013-configure-support-for-allowed-external-domains.md).
+  - **Habilitar descoberta**     de domínio de parceiro Se você habilitar essa opção, o Lync Server usará registros de sistema de nomes de domínio (DNS) para tentar descobrir domínios não listados na lista de domínios permitidos, automaticamente avaliando o tráfego de entrada de parceiros federados descobertos e limitando ou bloqueando esse tráfego com base no nível de confiança, na quantidade de tráfego e nas configurações de administrador. Se você não selecionar essa opção, o acesso do usuário federado será habilitado somente para usuários nos domínios que você incluir na lista de domínios permitidos. Mesmo que você não selecione essa opção, poderá especificar o bloqueio ou permissão de domínios individuais, incluindo a restrição do acesso a servidores específicos, executando o serviço Borda de Acesso no domínio federado. Para obter detalhes sobre como controlar o acesso por domínios federados, consulte [Configurar suporte para domínios externos permitidos no Lync Server 2013](lync-server-2013-configure-support-for-allowed-external-domains.md).
 
-  - **Enviar uma isenção de responsabilidade de arquivamento para parceiros**     federados aviso de isenção de responsabilidade é enviado para parceiros federados que o arquivamento em sua implantação está em vigor. Se você oferecer suporte ao arquivamento de comunicações externas com domínios de parceiros federados, deverá habilitar a notificação de aviso de isenção de responsabilidade para avisar os parceiros de que suas mensagens estão sendo arquivadas.
+  - **Enviar uma isenção de responsabilidade de arquivamento a parceiros federados**     Aviso de isenção de responsabilidade é enviado para parceiros federados que o arquivamento em sua implantação está em vigor. Se você oferecer suporte ao arquivamento de comunicações externas com domínios de parceiros federados, deverá habilitar a notificação de aviso de isenção de responsabilidade para avisar os parceiros de que suas mensagens estão sendo arquivadas.
 
 Se posteriormente você quiser impedir o acesso temporário ou permanente por usuários de domínios federados, poderá desabilitar a Federação para sua organização. Use o procedimento nesta seção para habilitar ou desabilitar o acesso de usuário federado à sua organização, incluindo a especificação das opções de Federação apropriadas para ter suporte para sua organização.
 
@@ -91,7 +93,7 @@ Para permitir que usuários federados colaborem com usuários em sua implantaç�
 
 ## <a name="enabling-or-disabling-federation-and-public-im-connectivity-by-using-windows-powershell-cmdlets"></a>Habilitando ou desabilitando a Federação e conectividade de IM pública usando cmdlets do Windows PowerShell
 
-A Federação e a conectividade de IM pública também podem ser gerenciadas usando o Windows PowerShell e o cmdlet Set-CsAccessEdgeConfiguration. Este cmdlet pode ser executado a partir do Shell de gerenciamento do Lync Server 2013 ou de uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Lync Server, consulte o artigo de blog do Lync Server Windows PowerShell "início rápido: Managing Microsoft Lync Server [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)2010 using Remote PowerShell" em.
+A Federação e a conectividade de IM pública também podem ser gerenciadas usando o Windows PowerShell e o cmdlet Set-CsAccessEdgeConfiguration. Este cmdlet pode ser executado a partir do Shell de gerenciamento do Lync Server 2013 ou de uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Lync Server, consulte o artigo de blog do Lync Server Windows PowerShell "início rápido: Managing Microsoft Lync Server 2010 using Remote PowerShell" em [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) .
 
 <div>
 

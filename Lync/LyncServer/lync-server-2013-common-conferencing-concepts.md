@@ -12,20 +12,22 @@ ms:contentKeyID: 49733762
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d2afd309f59a66a7117d43b930500a7807d493d1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 151ebb138a1518e184c3b008605c259be533c788
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190934"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526118"
 ---
+# <a name="common-conferencing-concepts-in-lync-server-2013"></a>Conceitos comuns de conferência no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="common-conferencing-concepts-in-lync-server-2013"></a>Conceitos comuns de conferência no Lync Server 2013
+
 
 </div>
 
@@ -69,11 +71,11 @@ O recurso Monitoring Server pode capturar registros de detalhes da chamada (CDRs
 
 Você pode aumentar significativamente os benefícios de seu investimento na conferência do Lync Server 2013, permitindo que usuários externos também participem de conferências quando convidados. Os usuários externos podem incluir:
 
-  - **Usuários remotos**   os usuários da sua organização, quando estão trabalhando fora de seus firewalls e estão usando seus laptops ou outros dispositivos do Lync Server 2013.
+  - **Usuários**     remotos Os próprios usuários da sua organização, quando estão trabalhando fora de seus firewalls e estão usando seus laptops ou outros dispositivos do Lync Server 2013.
 
-  - **Usuários federados**   usuários de empresas com as quais você trabalha, que também executam o Lync Server 2013. Para permitir que os usuários contatem facilmente esses usuários, você pode criar relacionamentos federados com essas empresas.
+  - **Usuários federados**     Usuários de empresas com as quais você trabalha e que também executam o Lync Server 2013. Para permitir que os usuários contatem facilmente esses usuários, você pode criar relacionamentos federados com essas empresas.
 
-  - **Usuários anônimos**   outros usuários externos convidados especificamente para que seus usuários ingressem em conferências específicas. O organizador de uma reunião em sua empresa pode enviar um convite por email de uma conferência para um usuário externo. O email inclui um link no qual o usuário externo pode clicar para ingressar na conferência.
+  - **Usuários**     anônimos Qualquer outro usuário externo que seja convidado especificamente por seus usuários para participar de conferências específicas. O organizador de uma reunião em sua empresa pode enviar um convite por email de uma conferência para um usuário externo. O email inclui um link no qual o usuário externo pode clicar para ingressar na conferência.
 
 Para habilitar qualquer um ou todos esses cenários, você precisa implantar um servidor de borda para ajudar a habilitar comunicações seguras entre sua implantação do Lync Server 2013 e usuários externos. A solução do Lync Server 2013 usando servidores de borda fornece mídia de alta qualidade do que outras soluções, como uma rede virtual privada (VPN). Para obter detalhes, consulte [Planning for External User Access in Lync Server 2013](lync-server-2013-planning-for-external-user-access.md).
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 49733566
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ed6015a7ff0131ee01c913d59f471a01edd916cd
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7d831638cf25df4f9c1b792c34815e8bed8c15e8
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213577"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525868"
 ---
+# <a name="configuring-microsoft-sharepoint-server-2013-to-search-for-archived-microsoft-lync-server-2013-data"></a>Configurando o Microsoft SharePoint Server 2013 para pesquisar dados arquivados do Microsoft Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-microsoft-sharepoint-server-2013-to-search-for-archived-microsoft-lync-server-2013-data"></a>Configurando o Microsoft SharePoint Server 2013 para pesquisar dados arquivados do Microsoft Lync Server 2013
+
 
 </div>
 
@@ -39,13 +41,13 @@ _**Última modificação do tópico:** 2014-02-04_
 
 Uma das principais vantagens de armazenar mensagens instantâneas e transcrições de webconferências no Microsoft Exchange Server 2013 em vez do Microsoft Lync Server 2013 é o fato de que armazenar dados no mesmo local permite que os administradores usem uma única ferramenta para pesquisar dados do Exchange arquivados e/ou dados arquivados do Lync Server. Como todos os dados são armazenados no mesmo local (Exchange) qualquer ferramenta que possa pesquisar dados arquivados do Exchange também pode pesquisar dados arquivados do Lync Server.
 
-Uma ferramenta que facilita a pesquisa por dados arquivados é o Microsoft SharePoint Server 2013. Se quiser usar o SharePoint para pesquisar dados do Lync Server, primeiro você deve concluir todas as etapas envolvidas na configuração do arquivamento do Exchange no Lync Server. Após o Exchange 2013 e o Lync Server 2013 terem sido integrados com êxito, você deve instalar a versão 2,0 de API gerenciada dos serviços Web do Exchange no seu servidor do SharePoint; o programa de instalação dessa API pode ser baixado do centro de downloads da Microsoft[https://go.microsoft.com/fwlink/p/?LinkId=258305](https://go.microsoft.com/fwlink/p/?linkid=258305)(). O arquivo baixado (EWSManagedAPI.msi) pode ser salvo em qualquer pasta no seu servidor do SharePoint.
+Uma ferramenta que facilita a pesquisa por dados arquivados é o Microsoft SharePoint Server 2013. Se quiser usar o SharePoint para pesquisar dados do Lync Server, primeiro você deve concluir todas as etapas envolvidas na configuração do arquivamento do Exchange no Lync Server. Após o Exchange 2013 e o Lync Server 2013 terem sido integrados com êxito, você deve instalar a versão 2,0 de API gerenciada dos serviços Web do Exchange no seu servidor do SharePoint; o programa de instalação dessa API pode ser baixado do centro de downloads da Microsoft ( [https://go.microsoft.com/fwlink/p/?LinkId=258305](https://go.microsoft.com/fwlink/p/?linkid=258305) ). O arquivo baixado (EWSManagedAPI.msi) pode ser salvo em qualquer pasta no seu servidor do SharePoint.
 
 Após o arquivo ter sido baixado, complete o procedimento a seguir no servidor do SharePoint:
 
 1.  Abra uma janela de comando clicando em **Iniciar**, clicando em **Todos os Programas**, clicando em **Acessórios**, clicando com o botão direito em **Prompt de comando**, e então clicando em **Executar como administrador**.
 
-2.  Na janela de comando, use o comando **cd** mada mudar o diretório atual para a pasta onde o arquivo EWSManagedAPI.msi foi salvo. Por exemplo, se você salvou o arquivo em C:\\downloads, digite o seguinte comando na janela de comando e pressione ENTER:
+2.  Na janela de comando, use o comando **cd** mada mudar o diretório atual para a pasta onde o arquivo EWSManagedAPI.msi foi salvo. Por exemplo, se você salvou o arquivo em C: \\ downloads, digite o seguinte comando na janela de comando e pressione ENTER:
     
         cd C:\Downloads
 
@@ -70,13 +72,13 @@ Após a instalação dos serviços Web do Exchange, você deve configurar a aute
 
 
 > [!NOTE]  
-> Tenha certeza de qual é o URI para seu serviço de descoberta automática e o use. Não use o URI https://autodiscover.litwareinc.com/autodiscover/metadata/json/1de exemplo.
+> Tenha certeza de qual é o URI para seu serviço de descoberta automática e o use. Não use o URI de exemplo https://autodiscover.litwareinc.com/autodiscover/metadata/json/1 .
 
 
 
 </div>
 
-Após ter criado o emissor do token e configurado o serviço de token, execute esses comandos, substituindo a URL do seu site do SharePoint pela URL de exemplohttp://atl-sharepoint-001:
+Após ter criado o emissor do token e configurado o serviço de token, execute esses comandos, substituindo a URL do seu site do SharePoint pela URL de exemplo http://atl-sharepoint-001:
 
     $exchange = Get-SPTrustedSecurityTokenIssuer "Exchange"
     $app = Get-SPAppPrincipal -Site "https://atl-sharepoint-001" -NameIdentifier $exchange.NameID
@@ -124,7 +126,7 @@ Quando o novo site estiver pronto, a próxima etapa é configurar o Exchange 201
 
 4.  Assegure-se de que **Usar Descoberta Automática** não está selecionado, e então clique em **OK**.
 
-Por fim, crie um novo caso de descoberta eletrônica e um novo conjunto de descoberta eletrônica, completando o procedimento a seguir no site de descoberta do SharePoint (por exemplo,https://atl-sharepoint-001/sites/discovery):
+Por fim, crie um novo caso de descoberta eletrônica e um novo conjunto de descoberta eletrônica, completando o procedimento a seguir no site de descoberta do SharePoint (por exemplo, https://atl-sharepoint-001/sites/discovery):
 
 1.  Na página de Conteúdos do Site clique em **Criar um novo caso**.
 
@@ -136,7 +138,7 @@ Por fim, crie um novo caso de descoberta eletrônica e um novo conjunto de desco
 
 4.  Quando a página de conjunto de descoberta eletrônica aparecer, clique em **novo item** sob **Identidade e Preservação: Conjuntos de Descoberta**.
 
-5.  Na página Novo: Conjunto de Descoberta, insira o alias do email do usuário na caixa **Nome do Conjunto de Descoberta**. Insira o **Lync\* de descoberta eletrônica** na caixa **filtro** e clique em **Adicionar & gerenciar fontes**.
+5.  Na página Novo: Conjunto de Descoberta, insira o alias do email do usuário na caixa **Nome do Conjunto de Descoberta**. Insira o **Lync \* de descoberta eletrônica** na caixa **filtro** e clique em **Adicionar & gerenciar fontes**.
 
 6.  Na página Adicionar e Gerenciar Fontes, insira o alias do email do usuário na primeira caixa de texto sob **Caixas de correio**. Clique no ícone de verificação da caixa de correio ao lado da caixa de texto para verificar que o SharePoint consegue se conectar à caixa de correio especificada.
 
@@ -144,7 +146,7 @@ Por fim, crie um novo caso de descoberta eletrônica e um novo conjunto de desco
 
 8.  Na página do conjunto de descoberta eletrônica, clique em **Salvar** para salvar o novo conjunto de descoberta eletrônica.
 
-Neste ponto, você pode pesquisar a caixa de correio especificada (kenmyer) e/ou habilitar bloqueios in-loco da mesma maneira que faria para qualquer outro conteúdo do SharePoint ou fonte de resultados.
+Neste ponto, você pode pesquisar a caixa de correio especificada (kenmyer) e/ou habilitar In-Place contém da mesma maneira que faria para qualquer outro conteúdo do SharePoint ou fonte de resultados.
 
 </div>
 

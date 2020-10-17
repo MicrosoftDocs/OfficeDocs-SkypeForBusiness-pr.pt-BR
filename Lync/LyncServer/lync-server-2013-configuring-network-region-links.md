@@ -12,20 +12,22 @@ ms:contentKeyID: 48184829
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5cf838e59c95528a1c32870d90f5c2e2babf10fc
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 363baeb3065b04dc936b69fff34f2314726f495a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198394"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526928"
 ---
+# <a name="configuring-network-region-links-in-lync-server-2013"></a>Configurando links de região de rede no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-network-region-links-in-lync-server-2013"></a>Configurando links de região de rede no Lync Server 2013
+
 
 </div>
 
@@ -47,7 +49,7 @@ Você pode configurar links entre duas regiões de rede como parte do controle d
 
 2.  Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Na barra de navegação esquerda, clique em **Configuração da rede** e em **Link da região**.
+3.  Na barra de navegação à esquerda, clique em **Configuração de Rede** e em **Link de Região**.
 
 4.  Na página **Link de Região**, clique em **Novo**.
 
@@ -62,9 +64,9 @@ Você pode configurar links entre duas regiões de rede como parte do controle d
     
     </div>
 
-6.  Na lista suspensa **região \#de rede 1** , selecione uma das duas regiões a serem vinculadas.
+6.  Na lista suspensa **região de rede \# 1** , selecione uma das duas regiões a serem vinculadas.
 
-7.  Na lista suspensa **região \#de rede 2** , selecione a outra região a ser vinculada. Essa região deve ser diferente da região selecionada para a região \#de rede 1.
+7.  Na lista suspensa **região de rede \# 2** , selecione a outra região a ser vinculada. Essa região deve ser diferente da região selecionada para a região de rede \# 1.
 
 8.  (Opcional) Se você desejar colocar limites de largura de banda em chamadas de áudio e vídeo entre essas regiões, selecione um perfil de política de largura de banda na lista suspensa **Política de largura de banda**.
 

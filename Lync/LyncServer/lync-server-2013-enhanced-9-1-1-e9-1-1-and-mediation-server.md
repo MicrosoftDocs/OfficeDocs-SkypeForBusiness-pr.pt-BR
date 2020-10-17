@@ -12,20 +12,22 @@ ms:contentKeyID: 48185448
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3a84b9eb5579a1f0931f3363e2e4071ea7c8ac5e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1620d9a4d1625335a52c474d608377bd2529425d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213437"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526798"
 ---
+# <a name="enhanced-9-1-1-e9-1-1-and-mediation-server-in-lync-server-2013"></a>Enhanced 9-1-1 (E9-1-1) e servidor de mediação no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="enhanced-9-1-1-e9-1-1-and-mediation-server-in-lync-server-2013"></a>Enhanced 9-1-1 (E9-1-1) e servidor de mediação no Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42213437"
 
 _**Última modificação do tópico:** 2012-09-29_
 
-O Servidor de Mediação ampliou suas capacidades para poder interagir corretamente com os provedores de serviço do E9-1-1. Nenhuma configuração especial é necessária no servidor de mediação; as extensões SIP necessárias para a interação do E9-1-1 são, por padrão, incluídas no protocolo SIP do servidor de mediação para suas interações com um ponto de gateway (gateway PSTN, IP-PBX ou o SBC de um provedor de serviços de telefonia da Internet, incluindo o serviço E9-1-1 Provedores
+O Servidor de Mediação ampliou suas capacidades para poder interagir corretamente com os provedores de serviço do E9-1-1. Nenhuma configuração especial é necessária no servidor de mediação; as extensões SIP necessárias para a interação do E9-1-1 são, por padrão, incluídas no protocolo SIP do servidor de mediação para suas interações com um ponto de gateway (gateway PSTN, IP-PBX ou o SBC de um provedor de serviços de telefonia da Internet, incluindo provedores de serviços do E9-1-1)
 
 Se o tronco SIP para um provedor de serviço de E9-1-1 pode ser encerrado em um pool do Servidor de Mediação existente ou precisar de Servidores de Mediação autônomos dependerá se o E9-1-1 SBC pode interagir com um pool de Servidores de Mediação. Para obter detalhes, consulte [M:N trunk in Lync Server 2013](lync-server-2013-m-n-trunk.md).
 

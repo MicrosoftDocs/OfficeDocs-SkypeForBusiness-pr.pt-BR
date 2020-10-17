@@ -12,20 +12,22 @@ ms:contentKeyID: 63969649
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: eca48668bf0a19392558e10366f7a9bf4bb202ce
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 547f117a9706aa0ab5bf1202c31d0bc9f8ce34fc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206837"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48526208"
 ---
+# <a name="check-voice-normalization-rules-in-lync-server-2013"></a>Verificar regras de normalização de voz no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="check-voice-normalization-rules-in-lync-server-2013"></a>Verificar regras de normalização de voz no Lync Server 2013
+
 
 </div>
 
@@ -82,7 +84,7 @@ Para executar o cmdlet Test-CsVoiceNormalizationRule, você deve primeiro usar o
 
 Test-CsVoiceNormalizationRule-DialedNumber "12065551219" – NormalizationRule "global/prefix All"
 
-Em vez disso, use a sintaxe como a seguinte, que combina os cmdlets Get-CsVoiceNormalizationRule e Test-CsVoiceNormalizationRule:
+Em vez disso, use uma sintaxe como a seguinte, que combina os cmdlets Get-CsVoiceNormalizationRule e Test-CsVoiceNormalizationRule:
 
 Get-CsVoiceNormalizationRule-Identity "global/prefix All" | Test-CsVoiceNormalizationRule-DialedNumber "12065551219"
 
@@ -134,7 +136,7 @@ TranslatedNumber
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Motivos pelos quais o teste pode ter falhado
 
-Se Test-CsVoiceNormalizationRule retornar um número traduzido que significa que a regra de normalização de voz especificada não pôde converter o número de telefone fornecido no formato E. 164 usado pelo Lync Server. Para verificar isso, primeiro certifique-se de que digitou o número de telefone corretamente. Por exemplo, você espera que sua regra de normalização de voz tenha problemas para converter um número semelhante a este:
+Se o Test-CsVoiceNormalizationRule retornar um número traduzido que significa que a regra de normalização de voz especificada não pôde converter o número de telefone fornecido no formato E. 164 usado pelo Lync Server. Para verificar isso, primeiro certifique-se de que digitou o número de telefone corretamente. Por exemplo, você espera que sua regra de normalização de voz tenha problemas para converter um número semelhante a este:
 
 `-DialedNumber "1"`
 

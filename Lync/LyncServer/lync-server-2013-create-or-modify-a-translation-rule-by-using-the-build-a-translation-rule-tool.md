@@ -12,20 +12,22 @@ ms:contentKeyID: 48185224
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9641170534c4c4ad1ef4976d018699d01d6069a3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2a2adc9d0ca10382aa7faa7abf6f9ea46eb6cf51
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186984"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48525808"
 ---
+# <a name="create-or-modify-a-translation-rule-by-using-the-build-a-translation-rule-tool-in-lync-server-2013"></a>Criar ou modificar uma regra de conversão usando a ferramenta compilar uma regra de conversão no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-a-translation-rule-by-using-the-build-a-translation-rule-tool-in-lync-server-2013"></a>Criar ou modificar uma regra de conversão usando a ferramenta compilar uma regra de conversão no Lync Server 2013
+
 
 </div>
 
@@ -55,7 +57,7 @@ Siga estas etapas se você quiser definir uma regra de conversão inserindo um c
 
 6.  Na seção **Compilar uma Regra de Conversão** da caixa de diálogo, insira valores nos seguintes campos:
     
-      - **Dígitos iniciais**: (Opcional) especifique os dígitos iniciais dos números com os quais você deseja que o padrão corresponda. Por exemplo, insira **+** neste campo para corresponder os números no formato E. 164 (que começa com +).
+      - **Dígitos iniciais**: (Opcional) especifique os dígitos iniciais dos números com os quais você deseja que o padrão corresponda. Por exemplo, insira neste **+** campo para corresponder os números no formato E. 164 (que começa com +).
     
       - **Comprimento**: especifique o número de dígitos no padrão de correspondência e selecione se deseja que o padrão corresponda a números exatamente com esse comprimento, com um comprimento menor ou qualquer comprimento. Por exemplo, digite **11** e selecione **No mínimo** na lista suspensa para fazer a correspondência de números com no mínimo 11 dígitos de comprimento.
     
@@ -65,7 +67,7 @@ Siga estas etapas se você quiser definir uma regra de conversão inserindo um c
     
     Os valores inseridos nesses campos são refletidos nos campos **Padrão a ser correspondido** e **Regra de conversão**. Por exemplo, se você especificar os valores do exemplo anterior, a expressão regular resultante no campo **Padrão a ser correspondido** será:
     
-    **^\\+ (\\d{9}\\d +) $**
+    **^\\+ ( \\ d {9} \\ d +) $**
     
     O campo **Regra de conversão** especifica um padrão para o formato de números convertidos. Esse padrão tem duas partes:
     
