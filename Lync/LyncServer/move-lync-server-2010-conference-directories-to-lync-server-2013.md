@@ -1,5 +1,6 @@
 ---
 title: Mover os diretórios de conferência do Lync Server 2010 para o Lync Server 2013
+description: Mova os diretórios de conferência do Lync Server 2010 para o Lync Server 2013.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 62387565
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6d1a080f7183bbab62cae679c911c76261694406
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 12ac58ac0ab6f1908e7eac3e5824bf2304256632
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48500268"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48571357"
 ---
 # <a name="move-conference-directories"></a>Mover de diretórios de conferência
 

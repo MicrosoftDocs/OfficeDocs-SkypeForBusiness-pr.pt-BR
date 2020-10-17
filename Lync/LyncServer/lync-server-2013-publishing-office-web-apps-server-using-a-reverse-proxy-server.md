@@ -1,5 +1,6 @@
 ---
 title: Publicar o servidor do Office Web Apps usando um servidor de proxy reverso
+description: Publicar o servidor do Office Web Apps usando um servidor de proxy reverso.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183384
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cb200204cc96d40d66d0546c86687fb0e1c48de5
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 888399e315d90624ba41e23e173fa33813a92b43
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48512228"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48571727"
 ---
 # <a name="publishing-office-web-apps-server-in-lync-server-2013-using-a-reverse-proxy-server"></a>Publicar o servidor do Office Web Apps no Lync Server 2013 usando um servidor de proxy reverso
 
