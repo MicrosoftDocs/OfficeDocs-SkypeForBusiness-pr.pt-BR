@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: relatório de desempenho do servidor'
+description: 'Lync Server 2013: relatório de desempenho do servidor.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48184879
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f8e348882ffa07d1784e62a458455a1ad32a5bbd
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: aed9b3b9eeec4487dce4d401df0d70ffba89677b
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48510288"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48543337"
 ---
-# <a name="server-performance-report-in-lync-server-2013"></a><span data-ttu-id="23e29-102">Relatório de desempenho do servidor no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="23e29-102">Server Performance Report in Lync Server 2013</span></span>
+# <a name="server-performance-report-in-lync-server-2013"></a><span data-ttu-id="c24ac-103">Relatório de desempenho do servidor no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c24ac-103">Server Performance Report in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,59 +38,59 @@ ms.locfileid: "48510288"
 
 <span> </span>
 
-<span data-ttu-id="23e29-103">_**Última modificação do tópico:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="23e29-103">_**Topic Last Modified:** 2012-10-01_</span></span>
+<span data-ttu-id="c24ac-104">_**Última modificação do tópico:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="c24ac-104">_**Topic Last Modified:** 2012-10-01_</span></span>
 
-<span data-ttu-id="23e29-104">O relatório de desempenho do servidor fornece uma lista de servidores do Microsoft Lync Server 2013 que experimentaram a maior porcentagem de chamadas ruins.</span><span class="sxs-lookup"><span data-stu-id="23e29-104">The Server Performance Report provides a list of Microsoft Lync Server 2013 servers that have experienced the highest-percentage of poor calls.</span></span> <span data-ttu-id="23e29-105">O relatório divide os servidores por tipo, relatando estatísticas separadas para os seguintes tipos:</span><span class="sxs-lookup"><span data-stu-id="23e29-105">The report breaks down servers by server type, reporting separate statistics for the following types:</span></span>
+<span data-ttu-id="c24ac-105">O relatório de desempenho do servidor fornece uma lista de servidores do Microsoft Lync Server 2013 que experimentaram a maior porcentagem de chamadas ruins.</span><span class="sxs-lookup"><span data-stu-id="c24ac-105">The Server Performance Report provides a list of Microsoft Lync Server 2013 servers that have experienced the highest-percentage of poor calls.</span></span> <span data-ttu-id="c24ac-106">O relatório divide os servidores por tipo, relatando estatísticas separadas para os seguintes tipos:</span><span class="sxs-lookup"><span data-stu-id="c24ac-106">The report breaks down servers by server type, reporting separate statistics for the following types:</span></span>
 
-  - <span data-ttu-id="23e29-106">Servidor de Mediação</span><span class="sxs-lookup"><span data-stu-id="23e29-106">Mediation Server</span></span>
+  - <span data-ttu-id="c24ac-107">Servidor de Mediação</span><span class="sxs-lookup"><span data-stu-id="c24ac-107">Mediation Server</span></span>
 
-  - <span data-ttu-id="23e29-107">Servidor de Conferência A/V</span><span class="sxs-lookup"><span data-stu-id="23e29-107">A/V Conferencing Server</span></span>
+  - <span data-ttu-id="c24ac-108">Servidor de Conferência A/V</span><span class="sxs-lookup"><span data-stu-id="c24ac-108">A/V Conferencing Server</span></span>
 
-  - <span data-ttu-id="23e29-108">Servidor de Borda A/V</span><span class="sxs-lookup"><span data-stu-id="23e29-108">A/V Edge Server</span></span>
+  - <span data-ttu-id="c24ac-109">Servidor de Borda A/V</span><span class="sxs-lookup"><span data-stu-id="c24ac-109">A/V Edge Server</span></span>
 
-  - <span data-ttu-id="23e29-109">Gateway (Servidor de Mediação)</span><span class="sxs-lookup"><span data-stu-id="23e29-109">Gateway (Mediation Server)</span></span>
+  - <span data-ttu-id="c24ac-110">Gateway (Servidor de Mediação)</span><span class="sxs-lookup"><span data-stu-id="c24ac-110">Gateway (Mediation Server)</span></span>
 
-  - <span data-ttu-id="23e29-110">Gateway (desvio de Servidor de Mediação)</span><span class="sxs-lookup"><span data-stu-id="23e29-110">Gateway (Mediation Server bypass)</span></span>
+  - <span data-ttu-id="c24ac-111">Gateway (desvio de Servidor de Mediação)</span><span class="sxs-lookup"><span data-stu-id="c24ac-111">Gateway (Mediation Server bypass)</span></span>
 
-  - <span data-ttu-id="23e29-111">Vídeo (incluindo métricas de vídeo para Servidores de Conferência A/V e Servidores de Borda A/V)</span><span class="sxs-lookup"><span data-stu-id="23e29-111">Video (including video metrics for A/V Conferencing servers and A/V Edge servers)</span></span>
+  - <span data-ttu-id="c24ac-112">Vídeo (incluindo métricas de vídeo para Servidores de Conferência A/V e Servidores de Borda A/V)</span><span class="sxs-lookup"><span data-stu-id="c24ac-112">Video (including video metrics for A/V Conferencing servers and A/V Edge servers)</span></span>
 
-  - <span data-ttu-id="23e29-112">Compartilhamento de aplicativos (incluindo métricas de compartilhamento de aplicativos para Servidores de Conferência A/V e Servidores de Borda A/V)</span><span class="sxs-lookup"><span data-stu-id="23e29-112">Application Sharing (including application sharing metrics for A/V Conferencing servers and A/V Edge servers)</span></span>
+  - <span data-ttu-id="c24ac-113">Compartilhamento de aplicativos (incluindo métricas de compartilhamento de aplicativos para Servidores de Conferência A/V e Servidores de Borda A/V)</span><span class="sxs-lookup"><span data-stu-id="c24ac-113">Application Sharing (including application sharing metrics for A/V Conferencing servers and A/V Edge servers)</span></span>
 
-<span data-ttu-id="23e29-p102">É importante observar a classificação mostrada neste relatório como classificação relativa. Por exemplo, suponha que seu servidor com pior desempenho tenha uma chamada ruim entre suas 1.000 chamadas efetuadas. Isso é uma porcentagem de 0,1% que é mais que aceitável. No entanto, se esse for seu servidor com pior desempenho (isto é, se todos os seus outros servidores tiverem uma porcentagem de chamada ruim mais baixa que 0,1%), então esse servidor aparecerá mesmo assim no Relatório de desempenho do servidor.</span><span class="sxs-lookup"><span data-stu-id="23e29-p102">It’s important to note that the ranking shown in this report as relative rankings. For example, suppose your worst-performing server had one poor call among its 1,000 placed calls. That's a more-than-acceptable percentage of .1%. However, if that's the worst-performing server you have (that is, if all your other servers have a poor call percentage even lower than .1%), then that server will still appear on the Server Performance Report.</span></span>
+<span data-ttu-id="c24ac-p102">É importante observar a classificação mostrada neste relatório como classificação relativa. Por exemplo, suponha que seu servidor com pior desempenho tenha uma chamada ruim entre suas 1.000 chamadas efetuadas. Isso é uma porcentagem de 0,1% que é mais que aceitável. No entanto, se esse for seu servidor com pior desempenho (isto é, se todos os seus outros servidores tiverem uma porcentagem de chamada ruim mais baixa que 0,1%), então esse servidor aparecerá mesmo assim no Relatório de desempenho do servidor.</span><span class="sxs-lookup"><span data-stu-id="c24ac-p102">It’s important to note that the ranking shown in this report as relative rankings. For example, suppose your worst-performing server had one poor call among its 1,000 placed calls. That's a more-than-acceptable percentage of .1%. However, if that's the worst-performing server you have (that is, if all your other servers have a poor call percentage even lower than .1%), then that server will still appear on the Server Performance Report.</span></span>
 
 <div>
 
-## <a name="accessing-the-server-performance-report"></a><span data-ttu-id="23e29-117">Como avaliar o Relatório de desempenho do servidor</span><span class="sxs-lookup"><span data-stu-id="23e29-117">Accessing the Server Performance Report</span></span>
+## <a name="accessing-the-server-performance-report"></a><span data-ttu-id="c24ac-118">Como avaliar o Relatório de desempenho do servidor</span><span class="sxs-lookup"><span data-stu-id="c24ac-118">Accessing the Server Performance Report</span></span>
 
-<span data-ttu-id="23e29-118">O Relatório de desempenho do servidor é acessado a partir da página inicial dos Relatórios de Monitoramento.</span><span class="sxs-lookup"><span data-stu-id="23e29-118">The Server Performance Report is accessed from the Monitoring Reports home page.</span></span> <span data-ttu-id="23e29-119">Você pode fazer uma busca detalhada no [relatório de lista de chamadas no Lync Server 2013](lync-server-2013-call-list-report.md) clicando em uma das seguintes métricas:</span><span class="sxs-lookup"><span data-stu-id="23e29-119">You can drill down to the [Call List Report in Lync Server 2013](lync-server-2013-call-list-report.md) by clicking either of the following metrics:</span></span>
+<span data-ttu-id="c24ac-119">O Relatório de desempenho do servidor é acessado a partir da página inicial dos Relatórios de Monitoramento.</span><span class="sxs-lookup"><span data-stu-id="c24ac-119">The Server Performance Report is accessed from the Monitoring Reports home page.</span></span> <span data-ttu-id="c24ac-120">Você pode fazer uma busca detalhada no [relatório de lista de chamadas no Lync Server 2013](lync-server-2013-call-list-report.md) clicando em uma das seguintes métricas:</span><span class="sxs-lookup"><span data-stu-id="c24ac-120">You can drill down to the [Call List Report in Lync Server 2013](lync-server-2013-call-list-report.md) by clicking either of the following metrics:</span></span>
 
-  - <span data-ttu-id="23e29-120">Volume da chamada</span><span class="sxs-lookup"><span data-stu-id="23e29-120">Call volume</span></span>
+  - <span data-ttu-id="c24ac-121">Volume da chamada</span><span class="sxs-lookup"><span data-stu-id="c24ac-121">Call volume</span></span>
 
-  - <span data-ttu-id="23e29-121">Percentual de chamadas ruins</span><span class="sxs-lookup"><span data-stu-id="23e29-121">Poor call percentage</span></span>
+  - <span data-ttu-id="c24ac-122">Percentual de chamadas ruins</span><span class="sxs-lookup"><span data-stu-id="c24ac-122">Poor call percentage</span></span>
 
-<span data-ttu-id="23e29-122">Além disso, você ver os detalhes do Relatório de Tendência de Qualidade de Mídia do Servidor clicando na seguinte métrica:</span><span class="sxs-lookup"><span data-stu-id="23e29-122">In addition, you can drill down to the Server Media Quality Trend Report by clicking the following metric:</span></span>
+<span data-ttu-id="c24ac-123">Além disso, você ver os detalhes do Relatório de Tendência de Qualidade de Mídia do Servidor clicando na seguinte métrica:</span><span class="sxs-lookup"><span data-stu-id="c24ac-123">In addition, you can drill down to the Server Media Quality Trend Report by clicking the following metric:</span></span>
 
-  - <span data-ttu-id="23e29-123">Trend</span><span class="sxs-lookup"><span data-stu-id="23e29-123">Trend</span></span>
+  - <span data-ttu-id="c24ac-124">Trend</span><span class="sxs-lookup"><span data-stu-id="c24ac-124">Trend</span></span>
 
 </div>
 
 <div>
 
-## <a name="making-the-best-use-of-the-server-performance-report"></a><span data-ttu-id="23e29-124">Como usar melhor o Relatório de desempenho do servidor</span><span class="sxs-lookup"><span data-stu-id="23e29-124">Making the Best Use of the Server Performance Report</span></span>
+## <a name="making-the-best-use-of-the-server-performance-report"></a><span data-ttu-id="c24ac-125">Como usar melhor o Relatório de desempenho do servidor</span><span class="sxs-lookup"><span data-stu-id="c24ac-125">Making the Best Use of the Server Performance Report</span></span>
 
-<span data-ttu-id="23e29-p104">O Relatório de desempenho do servidor fornece várias maneiras de filtrar dados; por exemplo, você pode filtrar por tipo de rede (chamadas feitas de uma chamada cabeada x chamadas de uma conexão sem fio) e tipo de acesso (chamadas feitas de dentro do firewall x chamadas feitas de fora do firewall). Ao exibir o relatório de desempenho do servidor, é uma boa ideia usar esses filtros. Por exemplo, suponha que você tem um Servidor de Mediação que tenha uma porcentagem de chamadas ruins igual a 3,24%. Se você observar apenas as chamadas sem fio, o mesmo servidor teria uma porcentagem de chamadas ruins próxima de 20%. Isso significa que o servidor tem dificuldades com chamadas sem fio, um problema que é obscurecido parcialmente porque o servidor não tem problemas em lidar com chamadas com fio.</span><span class="sxs-lookup"><span data-stu-id="23e29-p104">The Server Performance Report provides a number of ways to filter data; for example, you can filter on network type (calls made from a wired connection vs. calls made from a wireless connection) and access type (calls made from inside the firewall vs. calls made from outside the firewall). It's a good idea when viewing the server performance report to make use of these filters. For example, suppose you have a Mediation Server that has a poor call percentage of 3.24%. If you look solely at wireless calls, that same server might have a poor call percentage approaching 20%. That means that the server was having difficulty with wireless calls, a problem that is partially obscured because the server was not having problems with wired calls.</span></span>
+<span data-ttu-id="c24ac-p104">O Relatório de desempenho do servidor fornece várias maneiras de filtrar dados; por exemplo, você pode filtrar por tipo de rede (chamadas feitas de uma chamada cabeada x chamadas de uma conexão sem fio) e tipo de acesso (chamadas feitas de dentro do firewall x chamadas feitas de fora do firewall). Ao exibir o relatório de desempenho do servidor, é uma boa ideia usar esses filtros. Por exemplo, suponha que você tem um Servidor de Mediação que tenha uma porcentagem de chamadas ruins igual a 3,24%. Se você observar apenas as chamadas sem fio, o mesmo servidor teria uma porcentagem de chamadas ruins próxima de 20%. Isso significa que o servidor tem dificuldades com chamadas sem fio, um problema que é obscurecido parcialmente porque o servidor não tem problemas em lidar com chamadas com fio.</span><span class="sxs-lookup"><span data-stu-id="c24ac-p104">The Server Performance Report provides a number of ways to filter data; for example, you can filter on network type (calls made from a wired connection vs. calls made from a wireless connection) and access type (calls made from inside the firewall vs. calls made from outside the firewall). It's a good idea when viewing the server performance report to make use of these filters. For example, suppose you have a Mediation Server that has a poor call percentage of 3.24%. If you look solely at wireless calls, that same server might have a poor call percentage approaching 20%. That means that the server was having difficulty with wireless calls, a problem that is partially obscured because the server was not having problems with wired calls.</span></span>
 
 </div>
 
 <div>
 
-## <a name="filters"></a><span data-ttu-id="23e29-130">Filtros</span><span class="sxs-lookup"><span data-stu-id="23e29-130">Filters</span></span>
+## <a name="filters"></a><span data-ttu-id="c24ac-131">Filtros</span><span class="sxs-lookup"><span data-stu-id="c24ac-131">Filters</span></span>
 
-<span data-ttu-id="23e29-p105">Filtros fornecem uma forma de retornar um conjunto de dados mais focado ou exibir os dados retornados de diferentes formas. Por exemplo o Relatório de Desempenho do Servidor permite fazer coisas como filtrar os dados retornados por tipo de servidor ou por tipo de rede (ou seja, com ou sem fio). Você também pode escolher como os dados serão agrupados. Neste caso, os dados são agrupados por hora, dia, semana ou mês.</span><span class="sxs-lookup"><span data-stu-id="23e29-p105">Filters provide a way for you to return a more finely-targeted set of data or to view the returned data in different ways. For example, the Server Performance Report enables you to do such things as filter the returned data by server type or by network type (that is, wired or wireless). You can also choose how data should be grouped. In this case, data is grouped by hour, day, week, or month.</span></span>
+<span data-ttu-id="c24ac-p105">Filtros fornecem uma forma de retornar um conjunto de dados mais focado ou exibir os dados retornados de diferentes formas. Por exemplo o Relatório de Desempenho do Servidor permite fazer coisas como filtrar os dados retornados por tipo de servidor ou por tipo de rede (ou seja, com ou sem fio). Você também pode escolher como os dados serão agrupados. Neste caso, os dados são agrupados por hora, dia, semana ou mês.</span><span class="sxs-lookup"><span data-stu-id="c24ac-p105">Filters provide a way for you to return a more finely-targeted set of data or to view the returned data in different ways. For example, the Server Performance Report enables you to do such things as filter the returned data by server type or by network type (that is, wired or wireless). You can also choose how data should be grouped. In this case, data is grouped by hour, day, week, or month.</span></span>
 
-<span data-ttu-id="23e29-135">A tabela a seguir lista os filtros que podem ser usados com o Relatório de Desempenho do Servidor.</span><span class="sxs-lookup"><span data-stu-id="23e29-135">The following table lists the filters that you can use with the Server Performance Report.</span></span>
+<span data-ttu-id="c24ac-136">A tabela a seguir lista os filtros que podem ser usados com o Relatório de Desempenho do Servidor.</span><span class="sxs-lookup"><span data-stu-id="c24ac-136">The following table lists the filters that you can use with the Server Performance Report.</span></span>
 
-### <a name="server-performance-report-filters"></a><span data-ttu-id="23e29-136">Filtros do Relatório de Desempenho do Servidor</span><span class="sxs-lookup"><span data-stu-id="23e29-136">Server Performance Report Filters</span></span>
+### <a name="server-performance-report-filters"></a><span data-ttu-id="c24ac-137">Filtros do Relatório de Desempenho do Servidor</span><span class="sxs-lookup"><span data-stu-id="c24ac-137">Server Performance Report Filters</span></span>
 
 <table>
 <colgroup>
@@ -98,75 +99,75 @@ ms.locfileid: "48510288"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="23e29-137">Nome</span><span class="sxs-lookup"><span data-stu-id="23e29-137">Name</span></span></th>
-<th><span data-ttu-id="23e29-138">Descrição</span><span class="sxs-lookup"><span data-stu-id="23e29-138">Description</span></span></th>
+<th><span data-ttu-id="c24ac-138">Nome</span><span class="sxs-lookup"><span data-stu-id="c24ac-138">Name</span></span></th>
+<th><span data-ttu-id="c24ac-139">Descrição</span><span class="sxs-lookup"><span data-stu-id="c24ac-139">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="23e29-139"><strong>De</strong></span><span class="sxs-lookup"><span data-stu-id="23e29-139"><strong>From</strong></span></span></p></td>
-<td><p><span data-ttu-id="23e29-p106">Data/hora inicial para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora inicial como a seguir:</span><span class="sxs-lookup"><span data-stu-id="23e29-p106">Start date/time for the time range. To view data by hours, enter both the start date and time as follows:</span></span></p>
-<p><span data-ttu-id="23e29-142">7/7/2012 13:00 horas</span><span class="sxs-lookup"><span data-stu-id="23e29-142">7/7/2012 1:00 PM</span></span></p>
-<p><span data-ttu-id="23e29-p107">Se você não inserir uma hora inicial, o relatório começa automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:</span><span class="sxs-lookup"><span data-stu-id="23e29-p107">If you do not enter a start time, the report automatically begins at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
-<p><span data-ttu-id="23e29-145">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="23e29-145">7/7/2012</span></span></p>
-<p><span data-ttu-id="23e29-146">Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):</span><span class="sxs-lookup"><span data-stu-id="23e29-146">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
-<p><span data-ttu-id="23e29-147">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="23e29-147">7/3/2012</span></span></p>
-<p><span data-ttu-id="23e29-148">As semanas são sempre de domingo a sábado.</span><span class="sxs-lookup"><span data-stu-id="23e29-148">Weeks always run from Sunday through Saturday.</span></span></p></td>
+<td><p><span data-ttu-id="c24ac-140"><strong>De</strong></span><span class="sxs-lookup"><span data-stu-id="c24ac-140"><strong>From</strong></span></span></p></td>
+<td><p><span data-ttu-id="c24ac-p106">Data/hora inicial para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora inicial como a seguir:</span><span class="sxs-lookup"><span data-stu-id="c24ac-p106">Start date/time for the time range. To view data by hours, enter both the start date and time as follows:</span></span></p>
+<p><span data-ttu-id="c24ac-143">7/7/2012 13:00 horas</span><span class="sxs-lookup"><span data-stu-id="c24ac-143">7/7/2012 1:00 PM</span></span></p>
+<p><span data-ttu-id="c24ac-p107">Se você não inserir uma hora inicial, o relatório começa automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:</span><span class="sxs-lookup"><span data-stu-id="c24ac-p107">If you do not enter a start time, the report automatically begins at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
+<p><span data-ttu-id="c24ac-146">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="c24ac-146">7/7/2012</span></span></p>
+<p><span data-ttu-id="c24ac-147">Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):</span><span class="sxs-lookup"><span data-stu-id="c24ac-147">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
+<p><span data-ttu-id="c24ac-148">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="c24ac-148">7/3/2012</span></span></p>
+<p><span data-ttu-id="c24ac-149">As semanas são sempre de domingo a sábado.</span><span class="sxs-lookup"><span data-stu-id="c24ac-149">Weeks always run from Sunday through Saturday.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="23e29-149"><strong>To</strong></span><span class="sxs-lookup"><span data-stu-id="23e29-149"><strong>To</strong></span></span></p></td>
-<td><p><span data-ttu-id="23e29-p108">Data/hora final para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora final como a seguir:</span><span class="sxs-lookup"><span data-stu-id="23e29-p108">End date/time for the time range. To view data by hours, enter both the end date and time as follows:</span></span></p>
-<p><span data-ttu-id="23e29-152">7/7/2012 13:00 horas</span><span class="sxs-lookup"><span data-stu-id="23e29-152">7/7/2012 1:00 PM</span></span></p>
-<p><span data-ttu-id="23e29-p109">Se você não inserir uma hora final, o relatório termina automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:</span><span class="sxs-lookup"><span data-stu-id="23e29-p109">If you do not enter an end time, the report automatically ends at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
-<p><span data-ttu-id="23e29-155">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="23e29-155">7/7/2012</span></span></p>
-<p><span data-ttu-id="23e29-156">Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):</span><span class="sxs-lookup"><span data-stu-id="23e29-156">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
-<p><span data-ttu-id="23e29-157">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="23e29-157">7/3/2012</span></span></p>
-<p><span data-ttu-id="23e29-158">As semanas sempre vão de domingo a sábado.</span><span class="sxs-lookup"><span data-stu-id="23e29-158">Weeks always run from Sunday through Saturday.</span></span></p></td>
+<td><p><span data-ttu-id="c24ac-150"><strong>To</strong></span><span class="sxs-lookup"><span data-stu-id="c24ac-150"><strong>To</strong></span></span></p></td>
+<td><p><span data-ttu-id="c24ac-p108">Data/hora final para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora final como a seguir:</span><span class="sxs-lookup"><span data-stu-id="c24ac-p108">End date/time for the time range. To view data by hours, enter both the end date and time as follows:</span></span></p>
+<p><span data-ttu-id="c24ac-153">7/7/2012 13:00 horas</span><span class="sxs-lookup"><span data-stu-id="c24ac-153">7/7/2012 1:00 PM</span></span></p>
+<p><span data-ttu-id="c24ac-p109">Se você não inserir uma hora final, o relatório termina automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:</span><span class="sxs-lookup"><span data-stu-id="c24ac-p109">If you do not enter an end time, the report automatically ends at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
+<p><span data-ttu-id="c24ac-156">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="c24ac-156">7/7/2012</span></span></p>
+<p><span data-ttu-id="c24ac-157">Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):</span><span class="sxs-lookup"><span data-stu-id="c24ac-157">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
+<p><span data-ttu-id="c24ac-158">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="c24ac-158">7/3/2012</span></span></p>
+<p><span data-ttu-id="c24ac-159">As semanas sempre vão de domingo a sábado.</span><span class="sxs-lookup"><span data-stu-id="c24ac-159">Weeks always run from Sunday through Saturday.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="23e29-159"><strong>Tipo de Servidor</strong></span><span class="sxs-lookup"><span data-stu-id="23e29-159"><strong>Server type</strong></span></span></p></td>
-<td><p><span data-ttu-id="23e29-p110">Indica o tipo de servidor cujo desempenho deve ser reportado. Selecione um dos seguintes:</span><span class="sxs-lookup"><span data-stu-id="23e29-p110">Indicates the type of server whose performance should be reported. Select one of the following:</span></span></p>
+<td><p><span data-ttu-id="c24ac-160"><strong>Tipo de Servidor</strong></span><span class="sxs-lookup"><span data-stu-id="c24ac-160"><strong>Server type</strong></span></span></p></td>
+<td><p><span data-ttu-id="c24ac-p110">Indica o tipo de servidor cujo desempenho deve ser reportado. Selecione um dos seguintes:</span><span class="sxs-lookup"><span data-stu-id="c24ac-p110">Indicates the type of server whose performance should be reported. Select one of the following:</span></span></p>
 <ol>
-<li><p><span data-ttu-id="23e29-162">Todos os</span><span class="sxs-lookup"><span data-stu-id="23e29-162">[All]</span></span></p></li>
-<li><p><span data-ttu-id="23e29-163">Servidor de Mediação</span><span class="sxs-lookup"><span data-stu-id="23e29-163">Mediation Server</span></span></p></li>
-<li><p><span data-ttu-id="23e29-164">Servidor de Conferência A/V</span><span class="sxs-lookup"><span data-stu-id="23e29-164">A/V Conferencing Server</span></span></p></li>
-<li><p><span data-ttu-id="23e29-165">Servidor de Borda A/V</span><span class="sxs-lookup"><span data-stu-id="23e29-165">A/V Edge Server</span></span></p></li>
-</ol></td>
-</tr>
-<tr class="even">
-<td><p><span data-ttu-id="23e29-166"><strong>N Primeiros</strong></span><span class="sxs-lookup"><span data-stu-id="23e29-166"><strong>Top N</strong></span></span></p></td>
-<td><p><span data-ttu-id="23e29-p111">Indica o número de servidores (com base no percentual de chamadas ruins) a serem exibidos em cada categoria. Por exemplo, se você selecionar <strong>5</strong>, os cinco servidores com pior desempenho são exibidos. Selecione uma das seguintes opções:</span><span class="sxs-lookup"><span data-stu-id="23e29-p111">Indicates the number of servers (based on their poor call percentage) to be displayed in each category. For example, if you select <strong>5</strong> then the five poorest-performing servers are displayed. Select one of the following:</span></span></p>
-<ol>
-<li><p><span data-ttu-id="23e29-170">Todos os</span><span class="sxs-lookup"><span data-stu-id="23e29-170">[All]</span></span></p></li>
-<li><p><span data-ttu-id="23e29-171">5 </span><span class="sxs-lookup"><span data-stu-id="23e29-171">5</span></span></p></li>
-<li><p><span data-ttu-id="23e29-172">10 </span><span class="sxs-lookup"><span data-stu-id="23e29-172">10</span></span></p></li>
-</ol></td>
-</tr>
-<tr class="odd">
-<td><p><span data-ttu-id="23e29-173"><strong>Tipo de acesso</strong></span><span class="sxs-lookup"><span data-stu-id="23e29-173"><strong>Access type</strong></span></span></p></td>
-<td><p><span data-ttu-id="23e29-p112">Indica se um cliente estava conectado na rede interna ou na rede externa quando a chamada foi realizada. Selecione um dos seguintes:</span><span class="sxs-lookup"><span data-stu-id="23e29-p112">Indicates whether the client was logged on to the internal network or the external network when the call was placed. Select one of the following:</span></span></p>
-<ol>
-<li><p><span data-ttu-id="23e29-176">Todos os</span><span class="sxs-lookup"><span data-stu-id="23e29-176">[All]</span></span></p></li>
-<li><p><span data-ttu-id="23e29-177">Interno</span><span class="sxs-lookup"><span data-stu-id="23e29-177">Internal</span></span></p></li>
-<li><p><span data-ttu-id="23e29-178">Externo</span><span class="sxs-lookup"><span data-stu-id="23e29-178">External</span></span></p></li>
+<li><p><span data-ttu-id="c24ac-163">Todos os</span><span class="sxs-lookup"><span data-stu-id="c24ac-163">[All]</span></span></p></li>
+<li><p><span data-ttu-id="c24ac-164">Servidor de Mediação</span><span class="sxs-lookup"><span data-stu-id="c24ac-164">Mediation Server</span></span></p></li>
+<li><p><span data-ttu-id="c24ac-165">Servidor de Conferência A/V</span><span class="sxs-lookup"><span data-stu-id="c24ac-165">A/V Conferencing Server</span></span></p></li>
+<li><p><span data-ttu-id="c24ac-166">Servidor de Borda A/V</span><span class="sxs-lookup"><span data-stu-id="c24ac-166">A/V Edge Server</span></span></p></li>
 </ol></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="23e29-179"><strong>Tipo de rede</strong></span><span class="sxs-lookup"><span data-stu-id="23e29-179"><strong>Network type</strong></span></span></p></td>
-<td><p><span data-ttu-id="23e29-p113">Indica o tipo de rede que o cliente estava conectado quando a chamada foi realizada. Selecione um dos seguintes:</span><span class="sxs-lookup"><span data-stu-id="23e29-p113">Indicates the type of network the client was connected to when the call was placed. Select one of the following:</span></span></p>
+<td><p><span data-ttu-id="c24ac-167"><strong>N Primeiros</strong></span><span class="sxs-lookup"><span data-stu-id="c24ac-167"><strong>Top N</strong></span></span></p></td>
+<td><p><span data-ttu-id="c24ac-p111">Indica o número de servidores (com base no percentual de chamadas ruins) a serem exibidos em cada categoria. Por exemplo, se você selecionar <strong>5</strong>, os cinco servidores com pior desempenho são exibidos. Selecione uma das seguintes opções:</span><span class="sxs-lookup"><span data-stu-id="c24ac-p111">Indicates the number of servers (based on their poor call percentage) to be displayed in each category. For example, if you select <strong>5</strong> then the five poorest-performing servers are displayed. Select one of the following:</span></span></p>
 <ol>
-<li><p><span data-ttu-id="23e29-182">Todos os</span><span class="sxs-lookup"><span data-stu-id="23e29-182">[All]</span></span></p></li>
-<li><p><span data-ttu-id="23e29-183">Com fio</span><span class="sxs-lookup"><span data-stu-id="23e29-183">Wired</span></span></p></li>
-<li><p><span data-ttu-id="23e29-184">Conexão</span><span class="sxs-lookup"><span data-stu-id="23e29-184">Wireless</span></span></p></li>
+<li><p><span data-ttu-id="c24ac-171">Todos os</span><span class="sxs-lookup"><span data-stu-id="c24ac-171">[All]</span></span></p></li>
+<li><p><span data-ttu-id="c24ac-172">5 </span><span class="sxs-lookup"><span data-stu-id="c24ac-172">5</span></span></p></li>
+<li><p><span data-ttu-id="c24ac-173">10 </span><span class="sxs-lookup"><span data-stu-id="c24ac-173">10</span></span></p></li>
 </ol></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="23e29-185"><strong>VPN</strong></span><span class="sxs-lookup"><span data-stu-id="23e29-185"><strong>VPN</strong></span></span></p></td>
-<td><p><span data-ttu-id="23e29-p114">Indica se um cliente externo estava usando uma conexão de rede privada virtual (VPN) quando a chamada foi realizada. Selecione um dos seguintes:</span><span class="sxs-lookup"><span data-stu-id="23e29-p114">Indicates whether an external client was using a virtual private network (VPN) connection when the call was placed. Select one of the following:</span></span></p>
+<td><p><span data-ttu-id="c24ac-174"><strong>Tipo de acesso</strong></span><span class="sxs-lookup"><span data-stu-id="c24ac-174"><strong>Access type</strong></span></span></p></td>
+<td><p><span data-ttu-id="c24ac-p112">Indica se um cliente estava conectado na rede interna ou na rede externa quando a chamada foi realizada. Selecione um dos seguintes:</span><span class="sxs-lookup"><span data-stu-id="c24ac-p112">Indicates whether the client was logged on to the internal network or the external network when the call was placed. Select one of the following:</span></span></p>
 <ol>
-<li><p><span data-ttu-id="23e29-188">Todos os</span><span class="sxs-lookup"><span data-stu-id="23e29-188">[All]</span></span></p></li>
-<li><p><span data-ttu-id="23e29-189">VPN</span><span class="sxs-lookup"><span data-stu-id="23e29-189">VPN</span></span></p></li>
-<li><p><span data-ttu-id="23e29-190">Não VPN</span><span class="sxs-lookup"><span data-stu-id="23e29-190">Non-VPN</span></span></p></li>
+<li><p><span data-ttu-id="c24ac-177">Todos os</span><span class="sxs-lookup"><span data-stu-id="c24ac-177">[All]</span></span></p></li>
+<li><p><span data-ttu-id="c24ac-178">Interno</span><span class="sxs-lookup"><span data-stu-id="c24ac-178">Internal</span></span></p></li>
+<li><p><span data-ttu-id="c24ac-179">Externo</span><span class="sxs-lookup"><span data-stu-id="c24ac-179">External</span></span></p></li>
+</ol></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="c24ac-180"><strong>Tipo de rede</strong></span><span class="sxs-lookup"><span data-stu-id="c24ac-180"><strong>Network type</strong></span></span></p></td>
+<td><p><span data-ttu-id="c24ac-p113">Indica o tipo de rede que o cliente estava conectado quando a chamada foi realizada. Selecione um dos seguintes:</span><span class="sxs-lookup"><span data-stu-id="c24ac-p113">Indicates the type of network the client was connected to when the call was placed. Select one of the following:</span></span></p>
+<ol>
+<li><p><span data-ttu-id="c24ac-183">Todos os</span><span class="sxs-lookup"><span data-stu-id="c24ac-183">[All]</span></span></p></li>
+<li><p><span data-ttu-id="c24ac-184">Com fio</span><span class="sxs-lookup"><span data-stu-id="c24ac-184">Wired</span></span></p></li>
+<li><p><span data-ttu-id="c24ac-185">Conexão</span><span class="sxs-lookup"><span data-stu-id="c24ac-185">Wireless</span></span></p></li>
+</ol></td>
+</tr>
+<tr class="odd">
+<td><p><span data-ttu-id="c24ac-186"><strong>VPN</strong></span><span class="sxs-lookup"><span data-stu-id="c24ac-186"><strong>VPN</strong></span></span></p></td>
+<td><p><span data-ttu-id="c24ac-p114">Indica se um cliente externo estava usando uma conexão de rede privada virtual (VPN) quando a chamada foi realizada. Selecione um dos seguintes:</span><span class="sxs-lookup"><span data-stu-id="c24ac-p114">Indicates whether an external client was using a virtual private network (VPN) connection when the call was placed. Select one of the following:</span></span></p>
+<ol>
+<li><p><span data-ttu-id="c24ac-189">Todos os</span><span class="sxs-lookup"><span data-stu-id="c24ac-189">[All]</span></span></p></li>
+<li><p><span data-ttu-id="c24ac-190">VPN</span><span class="sxs-lookup"><span data-stu-id="c24ac-190">VPN</span></span></p></li>
+<li><p><span data-ttu-id="c24ac-191">Não VPN</span><span class="sxs-lookup"><span data-stu-id="c24ac-191">Non-VPN</span></span></p></li>
 </ol></td>
 </tr>
 </tbody>
@@ -177,11 +178,11 @@ ms.locfileid: "48510288"
 
 <div>
 
-## <a name="metrics"></a><span data-ttu-id="23e29-191">Métrica</span><span class="sxs-lookup"><span data-stu-id="23e29-191">Metrics</span></span>
+## <a name="metrics"></a><span data-ttu-id="c24ac-192">Métrica</span><span class="sxs-lookup"><span data-stu-id="c24ac-192">Metrics</span></span>
 
-<span data-ttu-id="23e29-192">A tabela a seguir lista as informações fornecidas no Relatório de Desempenho do Servidor.</span><span class="sxs-lookup"><span data-stu-id="23e29-192">The following table lists the information provided in the Server Performance Report.</span></span>
+<span data-ttu-id="c24ac-193">A tabela a seguir lista as informações fornecidas no Relatório de Desempenho do Servidor.</span><span class="sxs-lookup"><span data-stu-id="c24ac-193">The following table lists the information provided in the Server Performance Report.</span></span>
 
-### <a name="server-performance-report-metrics-audio-call-summary"></a><span data-ttu-id="23e29-193">Métricas do Relatório de Desempenho do Servidor: Resumo da chamada de áudio</span><span class="sxs-lookup"><span data-stu-id="23e29-193">Server Performance Report Metrics: Audio Call Summary</span></span>
+### <a name="server-performance-report-metrics-audio-call-summary"></a><span data-ttu-id="c24ac-194">Métricas do Relatório de Desempenho do Servidor: Resumo da chamada de áudio</span><span class="sxs-lookup"><span data-stu-id="c24ac-194">Server Performance Report Metrics: Audio Call Summary</span></span>
 
 <table>
 <colgroup>
@@ -191,69 +192,69 @@ ms.locfileid: "48510288"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="23e29-194">Nome</span><span class="sxs-lookup"><span data-stu-id="23e29-194">Name</span></span></th>
-<th><span data-ttu-id="23e29-195">É possível classificar por</span><span class="sxs-lookup"><span data-stu-id="23e29-195">Can Sort On</span></span></th>
-<th><span data-ttu-id="23e29-196">Descrição</span><span class="sxs-lookup"><span data-stu-id="23e29-196">Description</span></span></th>
+<th><span data-ttu-id="c24ac-195">Nome</span><span class="sxs-lookup"><span data-stu-id="c24ac-195">Name</span></span></th>
+<th><span data-ttu-id="c24ac-196">É possível classificar por</span><span class="sxs-lookup"><span data-stu-id="c24ac-196">Can Sort On</span></span></th>
+<th><span data-ttu-id="c24ac-197">Descrição</span><span class="sxs-lookup"><span data-stu-id="c24ac-197">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="23e29-197"><strong>Server</strong></span><span class="sxs-lookup"><span data-stu-id="23e29-197"><strong>Server</strong></span></span></p></td>
-<td><p><span data-ttu-id="23e29-198">Não</span><span class="sxs-lookup"><span data-stu-id="23e29-198">No</span></span></p></td>
-<td><p><span data-ttu-id="23e29-199">Nome/endereço IP do servidor.</span><span class="sxs-lookup"><span data-stu-id="23e29-199">Name/IP address of the server.</span></span></p></td>
+<td><p><span data-ttu-id="c24ac-198"><strong>Server</strong></span><span class="sxs-lookup"><span data-stu-id="c24ac-198"><strong>Server</strong></span></span></p></td>
+<td><p><span data-ttu-id="c24ac-199">Não</span><span class="sxs-lookup"><span data-stu-id="c24ac-199">No</span></span></p></td>
+<td><p><span data-ttu-id="c24ac-200">Nome/endereço IP do servidor.</span><span class="sxs-lookup"><span data-stu-id="c24ac-200">Name/IP address of the server.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="23e29-200"><strong>Volume de chamadas</strong></span><span class="sxs-lookup"><span data-stu-id="23e29-200"><strong>Call volume</strong></span></span></p></td>
-<td><p><span data-ttu-id="23e29-201">Não</span><span class="sxs-lookup"><span data-stu-id="23e29-201">No</span></span></p></td>
-<td><p><span data-ttu-id="23e29-202">Número total de chamadas realizadas.</span><span class="sxs-lookup"><span data-stu-id="23e29-202">Total number of calls made.</span></span></p></td>
+<td><p><span data-ttu-id="c24ac-201"><strong>Volume de chamadas</strong></span><span class="sxs-lookup"><span data-stu-id="c24ac-201"><strong>Call volume</strong></span></span></p></td>
+<td><p><span data-ttu-id="c24ac-202">Não</span><span class="sxs-lookup"><span data-stu-id="c24ac-202">No</span></span></p></td>
+<td><p><span data-ttu-id="c24ac-203">Número total de chamadas realizadas.</span><span class="sxs-lookup"><span data-stu-id="c24ac-203">Total number of calls made.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="23e29-203"><strong>Percentual de chamadas ruins</strong></span><span class="sxs-lookup"><span data-stu-id="23e29-203"><strong>Poor call percentage</strong></span></span></p></td>
-<td><p><span data-ttu-id="23e29-204">Não</span><span class="sxs-lookup"><span data-stu-id="23e29-204">No</span></span></p></td>
-<td><p><span data-ttu-id="23e29-p115">Número total de chamadas classificadas como ruins. Uma chamada ruim é qualquer chamada em que no mínimo uma das métricas medidas excedeu o valor permitido (por exemplo, uma chamada com tremulação excessiva).</span><span class="sxs-lookup"><span data-stu-id="23e29-p115">Total number of calls classified as poor. A poor call is any call which at least one of the measured metrics exceeded the allowed value (for example, a call that experienced excessive jitter).</span></span></p></td>
+<td><p><span data-ttu-id="c24ac-204"><strong>Percentual de chamadas ruins</strong></span><span class="sxs-lookup"><span data-stu-id="c24ac-204"><strong>Poor call percentage</strong></span></span></p></td>
+<td><p><span data-ttu-id="c24ac-205">Não</span><span class="sxs-lookup"><span data-stu-id="c24ac-205">No</span></span></p></td>
+<td><p><span data-ttu-id="c24ac-p115">Número total de chamadas classificadas como ruins. Uma chamada ruim é qualquer chamada em que no mínimo uma das métricas medidas excedeu o valor permitido (por exemplo, uma chamada com tremulação excessiva).</span><span class="sxs-lookup"><span data-stu-id="c24ac-p115">Total number of calls classified as poor. A poor call is any call which at least one of the measured metrics exceeded the allowed value (for example, a call that experienced excessive jitter).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="23e29-207"><strong>Viagem de ida e volta (ms)</strong></span><span class="sxs-lookup"><span data-stu-id="23e29-207"><strong>Round trip (ms)</strong></span></span></p></td>
-<td><p><span data-ttu-id="23e29-208">Sim</span><span class="sxs-lookup"><span data-stu-id="23e29-208">Yes</span></span></p></td>
-<td><p><span data-ttu-id="23e29-p116">Quantidade média (em milissegundos) necessária para um pacote de protocolo de transporte em tempo real (RTP) viajar para outro ponto de extremidade e voltar. Tempos de resposta de 100 milissegundos ou menos são considerados de qualidade aceitável.</span><span class="sxs-lookup"><span data-stu-id="23e29-p116">Average amount of (in milliseconds) required for a real-time transport protocol (RTP) packet to travel to another endpoint and then back. Round-trip times of 100 milliseconds or less are considered of acceptable quality.</span></span></p>
-<p><span data-ttu-id="23e29-p117">Altos valores de tempo de resposta podem ser causados por roteamento de chamadas internacionais, configuração incorreta de um roteamento ou um servidor de mídia sobrecarregado. Tempos de resposta altos resultam em dificuldades para conversas de áudio bidirecionais e em tempo real.</span><span class="sxs-lookup"><span data-stu-id="23e29-p117">High round-trip values can be caused by international call routing; a routing misconfiguration; or an overloaded media server. High round-trip times result in difficulties with two-way, real-time audio conversations.</span></span></p></td>
+<td><p><span data-ttu-id="c24ac-208"><strong>Viagem de ida e volta (ms)</strong></span><span class="sxs-lookup"><span data-stu-id="c24ac-208"><strong>Round trip (ms)</strong></span></span></p></td>
+<td><p><span data-ttu-id="c24ac-209">Sim</span><span class="sxs-lookup"><span data-stu-id="c24ac-209">Yes</span></span></p></td>
+<td><p><span data-ttu-id="c24ac-p116">Quantidade média (em milissegundos) necessária para um pacote de protocolo de transporte em tempo real (RTP) viajar para outro ponto de extremidade e voltar. Tempos de resposta de 100 milissegundos ou menos são considerados de qualidade aceitável.</span><span class="sxs-lookup"><span data-stu-id="c24ac-p116">Average amount of (in milliseconds) required for a real-time transport protocol (RTP) packet to travel to another endpoint and then back. Round-trip times of 100 milliseconds or less are considered of acceptable quality.</span></span></p>
+<p><span data-ttu-id="c24ac-p117">Altos valores de tempo de resposta podem ser causados por roteamento de chamadas internacionais, configuração incorreta de um roteamento ou um servidor de mídia sobrecarregado. Tempos de resposta altos resultam em dificuldades para conversas de áudio bidirecionais e em tempo real.</span><span class="sxs-lookup"><span data-stu-id="c24ac-p117">High round-trip values can be caused by international call routing; a routing misconfiguration; or an overloaded media server. High round-trip times result in difficulties with two-way, real-time audio conversations.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="23e29-213"><strong>Degradação (MOS)</strong></span><span class="sxs-lookup"><span data-stu-id="23e29-213"><strong>Degradation (MOS)</strong></span></span></p></td>
-<td><p><span data-ttu-id="23e29-214">Sim</span><span class="sxs-lookup"><span data-stu-id="23e29-214">Yes</span></span></p></td>
-<td><p><span data-ttu-id="23e29-215">Quantidade média da degradação MOS enfrentada durante uma chamada.</span><span class="sxs-lookup"><span data-stu-id="23e29-215">Average amount of mean opinion score (MOS) degradation experienced during a call.</span></span> <span data-ttu-id="23e29-216">Os valores de degradação variam de um baixo de 0,0 a um alto de 5,0.</span><span class="sxs-lookup"><span data-stu-id="23e29-216">Degradation values can range from a low of 0.0 to a high of 5.0.</span></span> <span data-ttu-id="23e29-217">Um valor de 0,5 ou menos representa degradação aceitável.</span><span class="sxs-lookup"><span data-stu-id="23e29-217">A value of 0.5 or less represents acceptable degradation.</span></span> <span data-ttu-id="23e29-218">Historicamente, pontuações de opções médias foram calculadas com usuários classificando a qualidade de uma chamada em uma escala de 1 a 5.</span><span class="sxs-lookup"><span data-stu-id="23e29-218">Historically, mean options scores were calculated by having users rate the quality of a call on a scale of 1-to-5.</span></span> <span data-ttu-id="23e29-219">No Lync Server, o Monitoring Server usa um conjunto de algoritmos para prever como os usuários teriam classificado uma chamada.</span><span class="sxs-lookup"><span data-stu-id="23e29-219">In Lync Server, the Monitoring Server uses a set of algorithms to predict how users would have rated a call.</span></span></p>
-<p><span data-ttu-id="23e29-p119">Os valores de degradação altos podem ser causados por congestão, falta de largura de banda, congestionamento ou interferência sem fio ou um servidor de mídia ou ponto de extremidade sobrecarregado. A alta degradação resulta em perda ou distorção de áudio.</span><span class="sxs-lookup"><span data-stu-id="23e29-p119">High degradation values can be caused by congestion, lack of bandwidth, wireless congestion or interference, or an overloaded media server or endpoint. High degradation results in distorted or lost audio.</span></span></p></td>
+<td><p><span data-ttu-id="c24ac-214"><strong>Degradação (MOS)</strong></span><span class="sxs-lookup"><span data-stu-id="c24ac-214"><strong>Degradation (MOS)</strong></span></span></p></td>
+<td><p><span data-ttu-id="c24ac-215">Sim</span><span class="sxs-lookup"><span data-stu-id="c24ac-215">Yes</span></span></p></td>
+<td><p><span data-ttu-id="c24ac-216">Quantidade média da degradação MOS enfrentada durante uma chamada.</span><span class="sxs-lookup"><span data-stu-id="c24ac-216">Average amount of mean opinion score (MOS) degradation experienced during a call.</span></span> <span data-ttu-id="c24ac-217">Os valores de degradação variam de um baixo de 0,0 a um alto de 5,0.</span><span class="sxs-lookup"><span data-stu-id="c24ac-217">Degradation values can range from a low of 0.0 to a high of 5.0.</span></span> <span data-ttu-id="c24ac-218">Um valor de 0,5 ou menos representa degradação aceitável.</span><span class="sxs-lookup"><span data-stu-id="c24ac-218">A value of 0.5 or less represents acceptable degradation.</span></span> <span data-ttu-id="c24ac-219">Historicamente, pontuações de opções médias foram calculadas com usuários classificando a qualidade de uma chamada em uma escala de 1 a 5.</span><span class="sxs-lookup"><span data-stu-id="c24ac-219">Historically, mean options scores were calculated by having users rate the quality of a call on a scale of 1-to-5.</span></span> <span data-ttu-id="c24ac-220">No Lync Server, o Monitoring Server usa um conjunto de algoritmos para prever como os usuários teriam classificado uma chamada.</span><span class="sxs-lookup"><span data-stu-id="c24ac-220">In Lync Server, the Monitoring Server uses a set of algorithms to predict how users would have rated a call.</span></span></p>
+<p><span data-ttu-id="c24ac-p119">Os valores de degradação altos podem ser causados por congestão, falta de largura de banda, congestionamento ou interferência sem fio ou um servidor de mídia ou ponto de extremidade sobrecarregado. A alta degradação resulta em perda ou distorção de áudio.</span><span class="sxs-lookup"><span data-stu-id="c24ac-p119">High degradation values can be caused by congestion, lack of bandwidth, wireless congestion or interference, or an overloaded media server or endpoint. High degradation results in distorted or lost audio.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="23e29-222"><strong>Perda de pacote </strong></span><span class="sxs-lookup"><span data-stu-id="23e29-222"><strong>Packet loss</strong></span></span></p></td>
-<td><p><span data-ttu-id="23e29-223">Sim</span><span class="sxs-lookup"><span data-stu-id="23e29-223">Yes</span></span></p></td>
-<td><p><span data-ttu-id="23e29-p120">Taxa média de perda de pacotes de protocolo de transporte em tempo real (RTP) (a perda de pacotes ocorre quando pacotes RTP, um protocolo usado para transmitir áudio e vídeo pela internet, falha ao tentar alcançar seu destino). Altas taxas de perda geralmente são causadas por congestionamento, insuficiência da largura de banda, congestionamento ou interferência na rede sem fio ou um servidor de mídia sobrecarregado. A perda de pacotes normalmente resulta em distorção ou perda de áudio.</span><span class="sxs-lookup"><span data-stu-id="23e29-p120">Average rate of real-time transport protocol (RTP) packet loss. (Packet loss occurs when RTP packets, a protocol used for transmitting audio and video across the Internet, failed to reach their destination.) High loss rates are generally caused by congestion, lack of bandwidth, wireless congestion or interference, or an overloaded media server. Packet loss typically results in distorted or lost audio.</span></span></p></td>
+<td><p><span data-ttu-id="c24ac-223"><strong>Perda de pacote </strong></span><span class="sxs-lookup"><span data-stu-id="c24ac-223"><strong>Packet loss</strong></span></span></p></td>
+<td><p><span data-ttu-id="c24ac-224">Sim</span><span class="sxs-lookup"><span data-stu-id="c24ac-224">Yes</span></span></p></td>
+<td><p><span data-ttu-id="c24ac-p120">Taxa média de perda de pacotes de protocolo de transporte em tempo real (RTP) (a perda de pacotes ocorre quando pacotes RTP, um protocolo usado para transmitir áudio e vídeo pela internet, falha ao tentar alcançar seu destino). Altas taxas de perda geralmente são causadas por congestionamento, insuficiência da largura de banda, congestionamento ou interferência na rede sem fio ou um servidor de mídia sobrecarregado. A perda de pacotes normalmente resulta em distorção ou perda de áudio.</span><span class="sxs-lookup"><span data-stu-id="c24ac-p120">Average rate of real-time transport protocol (RTP) packet loss. (Packet loss occurs when RTP packets, a protocol used for transmitting audio and video across the Internet, failed to reach their destination.) High loss rates are generally caused by congestion, lack of bandwidth, wireless congestion or interference, or an overloaded media server. Packet loss typically results in distorted or lost audio.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="23e29-227"><strong>Tremulação (ms)</strong></span><span class="sxs-lookup"><span data-stu-id="23e29-227"><strong>Jitter (ms)</strong></span></span></p></td>
-<td><p><span data-ttu-id="23e29-228">Sim</span><span class="sxs-lookup"><span data-stu-id="23e29-228">Yes</span></span></p></td>
-<td><p><span data-ttu-id="23e29-229">Tremulação média detectada entre chegadas de pacote RTP.</span><span class="sxs-lookup"><span data-stu-id="23e29-229">Average jitter detected between RTP packet arrivals.</span></span> <span data-ttu-id="23e29-230">(Tremulação é uma medida do &quot; tremula &quot; de uma chamada.) Os valores de variação alta geralmente são causados por congestionamento ou por um servidor de mídia sobrecarregado e resultam em um áudio distorcido ou perdido.</span><span class="sxs-lookup"><span data-stu-id="23e29-230">(Jitter is a measure of the &quot;shakiness&quot; of a call.) High jitter values are typically caused by congestion or an overloaded media server, and result in distorted or lost audio.</span></span></p></td>
+<td><p><span data-ttu-id="c24ac-228"><strong>Tremulação (ms)</strong></span><span class="sxs-lookup"><span data-stu-id="c24ac-228"><strong>Jitter (ms)</strong></span></span></p></td>
+<td><p><span data-ttu-id="c24ac-229">Sim</span><span class="sxs-lookup"><span data-stu-id="c24ac-229">Yes</span></span></p></td>
+<td><p><span data-ttu-id="c24ac-230">Tremulação média detectada entre chegadas de pacote RTP.</span><span class="sxs-lookup"><span data-stu-id="c24ac-230">Average jitter detected between RTP packet arrivals.</span></span> <span data-ttu-id="c24ac-231">(Tremulação é uma medida do &quot; tremula &quot; de uma chamada.) Os valores de variação alta geralmente são causados por congestionamento ou por um servidor de mídia sobrecarregado e resultam em um áudio distorcido ou perdido.</span><span class="sxs-lookup"><span data-stu-id="c24ac-231">(Jitter is a measure of the &quot;shakiness&quot; of a call.) High jitter values are typically caused by congestion or an overloaded media server, and result in distorted or lost audio.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="23e29-231"><strong>Taxa de correção oculta</strong></span><span class="sxs-lookup"><span data-stu-id="23e29-231"><strong>Healer concealed ratio</strong></span></span></p></td>
-<td><p><span data-ttu-id="23e29-232">Sim</span><span class="sxs-lookup"><span data-stu-id="23e29-232">Yes</span></span></p></td>
-<td><p><span data-ttu-id="23e29-p122">Taxa média de amostras de áudio ocultas para o número total de amostras. (Uma amostra de áudio oculta é uma técnica usada para suavizar a transição abrupta que normalmente seria causada por pacotes de rede descartados.) Valores altos indicam níveis consideráveis de perda de ocultação aplicada causada por perda de pacote ou tremulação e resulta na perda ou distorção de áudio.</span><span class="sxs-lookup"><span data-stu-id="23e29-p122">Average ratio of concealed audio samples to the total to the total number of samples. (A concealed audio sample is a technique used to smooth out the abrupt transition that would usually be caused by dropped network packets.) High values indicate significant levels of loss concealment applied caused by packet loss or jitter, and results in distorted or lost audio.</span></span></p></td>
+<td><p><span data-ttu-id="c24ac-232"><strong>Taxa de correção oculta</strong></span><span class="sxs-lookup"><span data-stu-id="c24ac-232"><strong>Healer concealed ratio</strong></span></span></p></td>
+<td><p><span data-ttu-id="c24ac-233">Sim</span><span class="sxs-lookup"><span data-stu-id="c24ac-233">Yes</span></span></p></td>
+<td><p><span data-ttu-id="c24ac-p122">Taxa média de amostras de áudio ocultas para o número total de amostras. (Uma amostra de áudio oculta é uma técnica usada para suavizar a transição abrupta que normalmente seria causada por pacotes de rede descartados.) Valores altos indicam níveis consideráveis de perda de ocultação aplicada causada por perda de pacote ou tremulação e resulta na perda ou distorção de áudio.</span><span class="sxs-lookup"><span data-stu-id="c24ac-p122">Average ratio of concealed audio samples to the total to the total number of samples. (A concealed audio sample is a technique used to smooth out the abrupt transition that would usually be caused by dropped network packets.) High values indicate significant levels of loss concealment applied caused by packet loss or jitter, and results in distorted or lost audio.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="23e29-235"><strong>Taxa de correção estendida</strong></span><span class="sxs-lookup"><span data-stu-id="23e29-235"><strong>Healer stretched ratio</strong></span></span></p></td>
-<td><p><span data-ttu-id="23e29-236">Sim</span><span class="sxs-lookup"><span data-stu-id="23e29-236">Yes</span></span></p></td>
-<td><p><span data-ttu-id="23e29-p123">Taxa média de amostras de áudio estendidas para o número total de amostras. (Áudio estendido é o áudio que foi expandido a fim de ajudar a manter a qualidade da chamada quando um pacote de rede descartado é detectado.) Valores altos indicam níveis significativos de extensão de amostra causada por tremulação e resultam em um som robótico ou distorcido.</span><span class="sxs-lookup"><span data-stu-id="23e29-p123">Average ratio of stretched audio samples to the total to the total number of samples. (Stretched audio is audio that has been expanded to help maintain call quality when a dropped network packet has been detected.) High values indicate significant levels of sample stretching caused by jitter, and result in audio sounding robotic or distorted.</span></span></p></td>
+<td><p><span data-ttu-id="c24ac-236"><strong>Taxa de correção estendida</strong></span><span class="sxs-lookup"><span data-stu-id="c24ac-236"><strong>Healer stretched ratio</strong></span></span></p></td>
+<td><p><span data-ttu-id="c24ac-237">Sim</span><span class="sxs-lookup"><span data-stu-id="c24ac-237">Yes</span></span></p></td>
+<td><p><span data-ttu-id="c24ac-p123">Taxa média de amostras de áudio estendidas para o número total de amostras. (Áudio estendido é o áudio que foi expandido a fim de ajudar a manter a qualidade da chamada quando um pacote de rede descartado é detectado.) Valores altos indicam níveis significativos de extensão de amostra causada por tremulação e resultam em um som robótico ou distorcido.</span><span class="sxs-lookup"><span data-stu-id="c24ac-p123">Average ratio of stretched audio samples to the total to the total number of samples. (Stretched audio is audio that has been expanded to help maintain call quality when a dropped network packet has been detected.) High values indicate significant levels of sample stretching caused by jitter, and result in audio sounding robotic or distorted.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="23e29-239"><strong>Taxa de correção compactada</strong></span><span class="sxs-lookup"><span data-stu-id="23e29-239"><strong>Healer compressed ratio</strong></span></span></p></td>
-<td><p><span data-ttu-id="23e29-240">Sim</span><span class="sxs-lookup"><span data-stu-id="23e29-240">Yes</span></span></p></td>
-<td><p><span data-ttu-id="23e29-p124">Taxa média de amostras de áudio compactadas para o número total de amostras (áudio compactado é o áudio que foi comprimido para ajudar a manter a qualidade da chamada quando um pacote de rede ignorado foi detectado). Altos valores indicam níveis significativos de compressão de amostras causados por tremulação, o que resulta em áudio acelerado ou distorcido.</span><span class="sxs-lookup"><span data-stu-id="23e29-p124">Average ratio of compressed audio samples to the total number of samples. (Compressed audio is audio that has been compressed to help maintain call quality when a dropped network packet has been detected.) High values indicate significant levels of sample compression caused by jitter, and result in audio sounding accelerated or distorted.</span></span></p></td>
+<td><p><span data-ttu-id="c24ac-240"><strong>Taxa de correção compactada</strong></span><span class="sxs-lookup"><span data-stu-id="c24ac-240"><strong>Healer compressed ratio</strong></span></span></p></td>
+<td><p><span data-ttu-id="c24ac-241">Sim</span><span class="sxs-lookup"><span data-stu-id="c24ac-241">Yes</span></span></p></td>
+<td><p><span data-ttu-id="c24ac-p124">Taxa média de amostras de áudio compactadas para o número total de amostras (áudio compactado é o áudio que foi comprimido para ajudar a manter a qualidade da chamada quando um pacote de rede ignorado foi detectado). Altos valores indicam níveis significativos de compressão de amostras causados por tremulação, o que resulta em áudio acelerado ou distorcido.</span><span class="sxs-lookup"><span data-stu-id="c24ac-p124">Average ratio of compressed audio samples to the total number of samples. (Compressed audio is audio that has been compressed to help maintain call quality when a dropped network packet has been detected.) High values indicate significant levels of sample compression caused by jitter, and result in audio sounding accelerated or distorted.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="server-performance-report-metrics-video-call-summary"></a><span data-ttu-id="23e29-243">Métricas do Relatório de Desempenho do Servidor: Resumo da chamada de vídeo</span><span class="sxs-lookup"><span data-stu-id="23e29-243">Server Performance Report Metrics: Video Call Summary</span></span>
+### <a name="server-performance-report-metrics-video-call-summary"></a><span data-ttu-id="c24ac-244">Métricas do Relatório de Desempenho do Servidor: Resumo da chamada de vídeo</span><span class="sxs-lookup"><span data-stu-id="c24ac-244">Server Performance Report Metrics: Video Call Summary</span></span>
 
 <table>
 <colgroup>
@@ -263,96 +264,96 @@ ms.locfileid: "48510288"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="23e29-244">Nome</span><span class="sxs-lookup"><span data-stu-id="23e29-244">Name</span></span></th>
-<th><span data-ttu-id="23e29-245">É possível classificar este item?</span><span class="sxs-lookup"><span data-stu-id="23e29-245">Can you sort on this item?</span></span></th>
-<th><span data-ttu-id="23e29-246">Descrição</span><span class="sxs-lookup"><span data-stu-id="23e29-246">Description</span></span></th>
+<th><span data-ttu-id="c24ac-245">Nome</span><span class="sxs-lookup"><span data-stu-id="c24ac-245">Name</span></span></th>
+<th><span data-ttu-id="c24ac-246">É possível classificar este item?</span><span class="sxs-lookup"><span data-stu-id="c24ac-246">Can you sort on this item?</span></span></th>
+<th><span data-ttu-id="c24ac-247">Descrição</span><span class="sxs-lookup"><span data-stu-id="c24ac-247">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="23e29-247"><strong>Tipo de Chamada/Tipo de Ponto de Extremidade</strong></span><span class="sxs-lookup"><span data-stu-id="23e29-247"><strong>Call type/Endpoint type</strong></span></span></p></td>
-<td><p><span data-ttu-id="23e29-248">Não</span><span class="sxs-lookup"><span data-stu-id="23e29-248">No</span></span></p></td>
-<td><p><span data-ttu-id="23e29-p125">Ao clicar neste item, o relatório mostra informações detalhadas sobre chamadas baseadas no tipo escolhido. Tipos de chamada incluem:</span><span class="sxs-lookup"><span data-stu-id="23e29-p125">When you click this item, the report shows detailed information about calls based on that type. Call types include:</span></span></p>
+<td><p><span data-ttu-id="c24ac-248"><strong>Tipo de Chamada/Tipo de Ponto de Extremidade</strong></span><span class="sxs-lookup"><span data-stu-id="c24ac-248"><strong>Call type/Endpoint type</strong></span></span></p></td>
+<td><p><span data-ttu-id="c24ac-249">Não</span><span class="sxs-lookup"><span data-stu-id="c24ac-249">No</span></span></p></td>
+<td><p><span data-ttu-id="c24ac-p125">Ao clicar neste item, o relatório mostra informações detalhadas sobre chamadas baseadas no tipo escolhido. Tipos de chamada incluem:</span><span class="sxs-lookup"><span data-stu-id="c24ac-p125">When you click this item, the report shows detailed information about calls based on that type. Call types include:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="23e29-251">Chamadas Ponto a Ponto de UC</span><span class="sxs-lookup"><span data-stu-id="23e29-251">UC Peer-to-Peer Calls</span></span></p></li>
-<li><p><span data-ttu-id="23e29-252">Sessões de Conferência de UC</span><span class="sxs-lookup"><span data-stu-id="23e29-252">UC Conference Sessions</span></span></p></li>
-<li><p><span data-ttu-id="23e29-253">Sessões de Conferência PSTN</span><span class="sxs-lookup"><span data-stu-id="23e29-253">PSTN Conference Sessions</span></span></p></li>
-<li><p><span data-ttu-id="23e29-254">Chamadas PSTN: Desvio de Mídia</span><span class="sxs-lookup"><span data-stu-id="23e29-254">PSTN Calls: Media Bypass</span></span></p></li>
-<li><p><span data-ttu-id="23e29-255">Chamadas PSTN (Não Ignorar): Trecho de UC</span><span class="sxs-lookup"><span data-stu-id="23e29-255">PSTN Calls (Non-Bypass): UC Leg</span></span></p></li>
-<li><p><span data-ttu-id="23e29-256">Chamadas PSTN (Não Ignorar): Trecho de Gateway</span><span class="sxs-lookup"><span data-stu-id="23e29-256">PSTN Calls (Non-Bypass): Gateway Leg</span></span></p></li>
-<li><p><span data-ttu-id="23e29-257">Outros Tipos de Chamada</span><span class="sxs-lookup"><span data-stu-id="23e29-257">Other Call Types</span></span></p></li>
+<li><p><span data-ttu-id="c24ac-252">Chamadas Ponto a Ponto de UC</span><span class="sxs-lookup"><span data-stu-id="c24ac-252">UC Peer-to-Peer Calls</span></span></p></li>
+<li><p><span data-ttu-id="c24ac-253">Sessões de Conferência de UC</span><span class="sxs-lookup"><span data-stu-id="c24ac-253">UC Conference Sessions</span></span></p></li>
+<li><p><span data-ttu-id="c24ac-254">Sessões de Conferência PSTN</span><span class="sxs-lookup"><span data-stu-id="c24ac-254">PSTN Conference Sessions</span></span></p></li>
+<li><p><span data-ttu-id="c24ac-255">Chamadas PSTN: Desvio de Mídia</span><span class="sxs-lookup"><span data-stu-id="c24ac-255">PSTN Calls: Media Bypass</span></span></p></li>
+<li><p><span data-ttu-id="c24ac-256">Chamadas PSTN (Não Ignorar): Trecho de UC</span><span class="sxs-lookup"><span data-stu-id="c24ac-256">PSTN Calls (Non-Bypass): UC Leg</span></span></p></li>
+<li><p><span data-ttu-id="c24ac-257">Chamadas PSTN (Não Ignorar): Trecho de Gateway</span><span class="sxs-lookup"><span data-stu-id="c24ac-257">PSTN Calls (Non-Bypass): Gateway Leg</span></span></p></li>
+<li><p><span data-ttu-id="c24ac-258">Outros Tipos de Chamada</span><span class="sxs-lookup"><span data-stu-id="c24ac-258">Other Call Types</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="23e29-258"><strong>Volume da chamada</strong></span><span class="sxs-lookup"><span data-stu-id="23e29-258"><strong>Call volume</strong></span></span></p></td>
-<td><p><span data-ttu-id="23e29-259">Não</span><span class="sxs-lookup"><span data-stu-id="23e29-259">No</span></span></p></td>
-<td><p><span data-ttu-id="23e29-260">Número total de chamadas por tipo de chamada.</span><span class="sxs-lookup"><span data-stu-id="23e29-260">Total number of calls per call type.</span></span></p></td>
+<td><p><span data-ttu-id="c24ac-259"><strong>Volume da chamada</strong></span><span class="sxs-lookup"><span data-stu-id="c24ac-259"><strong>Call volume</strong></span></span></p></td>
+<td><p><span data-ttu-id="c24ac-260">Não</span><span class="sxs-lookup"><span data-stu-id="c24ac-260">No</span></span></p></td>
+<td><p><span data-ttu-id="c24ac-261">Número total de chamadas por tipo de chamada.</span><span class="sxs-lookup"><span data-stu-id="c24ac-261">Total number of calls per call type.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="23e29-261"><strong>Percentual de chamadas ruins</strong></span><span class="sxs-lookup"><span data-stu-id="23e29-261"><strong>Poor call percentage</strong></span></span></p></td>
-<td><p><span data-ttu-id="23e29-262">Não</span><span class="sxs-lookup"><span data-stu-id="23e29-262">No</span></span></p></td>
-<td><p><span data-ttu-id="23e29-p126">Número total de chamadas classificadas como ruins. Uma chamada ruim é qualquer chamada em que no mínimo uma das métricas medidas excedeu o valor permitido (por exemplo, uma chamada com tremulação excessiva).</span><span class="sxs-lookup"><span data-stu-id="23e29-p126">Total number of calls classified as poor. A poor call is any call which at least one of the measured metrics exceeded the allowed value (for example, a call that experienced excessive jitter).</span></span></p></td>
+<td><p><span data-ttu-id="c24ac-262"><strong>Percentual de chamadas ruins</strong></span><span class="sxs-lookup"><span data-stu-id="c24ac-262"><strong>Poor call percentage</strong></span></span></p></td>
+<td><p><span data-ttu-id="c24ac-263">Não</span><span class="sxs-lookup"><span data-stu-id="c24ac-263">No</span></span></p></td>
+<td><p><span data-ttu-id="c24ac-p126">Número total de chamadas classificadas como ruins. Uma chamada ruim é qualquer chamada em que no mínimo uma das métricas medidas excedeu o valor permitido (por exemplo, uma chamada com tremulação excessiva).</span><span class="sxs-lookup"><span data-stu-id="c24ac-p126">Total number of calls classified as poor. A poor call is any call which at least one of the measured metrics exceeded the allowed value (for example, a call that experienced excessive jitter).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="23e29-265"><strong>Volume de chamadas (chamadas sem fio)</strong></span><span class="sxs-lookup"><span data-stu-id="23e29-265"><strong>Call volume (wireless call)</strong></span></span></p></td>
-<td><p><span data-ttu-id="23e29-266">Não</span><span class="sxs-lookup"><span data-stu-id="23e29-266">No</span></span></p></td>
-<td><p><span data-ttu-id="23e29-267">Número total de chamadas que usaram uma conexão sem fio.</span><span class="sxs-lookup"><span data-stu-id="23e29-267">Total number of calls that used a wireless connection.</span></span></p></td>
+<td><p><span data-ttu-id="c24ac-266"><strong>Volume de chamadas (chamadas sem fio)</strong></span><span class="sxs-lookup"><span data-stu-id="c24ac-266"><strong>Call volume (wireless call)</strong></span></span></p></td>
+<td><p><span data-ttu-id="c24ac-267">Não</span><span class="sxs-lookup"><span data-stu-id="c24ac-267">No</span></span></p></td>
+<td><p><span data-ttu-id="c24ac-268">Número total de chamadas que usaram uma conexão sem fio.</span><span class="sxs-lookup"><span data-stu-id="c24ac-268">Total number of calls that used a wireless connection.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="23e29-268"><strong>Volume de chamadas (chamadas VPN)</strong></span><span class="sxs-lookup"><span data-stu-id="23e29-268"><strong>Call volume (VPN call)</strong></span></span></p></td>
-<td><p><span data-ttu-id="23e29-269">Não</span><span class="sxs-lookup"><span data-stu-id="23e29-269">No</span></span></p></td>
-<td><p><span data-ttu-id="23e29-270">Número total de chamadas que usaram uma conexão VPN.</span><span class="sxs-lookup"><span data-stu-id="23e29-270">Total number of calls that used a VPN connection.</span></span></p></td>
+<td><p><span data-ttu-id="c24ac-269"><strong>Volume de chamadas (chamadas VPN)</strong></span><span class="sxs-lookup"><span data-stu-id="c24ac-269"><strong>Call volume (VPN call)</strong></span></span></p></td>
+<td><p><span data-ttu-id="c24ac-270">Não</span><span class="sxs-lookup"><span data-stu-id="c24ac-270">No</span></span></p></td>
+<td><p><span data-ttu-id="c24ac-271">Número total de chamadas que usaram uma conexão VPN.</span><span class="sxs-lookup"><span data-stu-id="c24ac-271">Total number of calls that used a VPN connection.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="23e29-271"><strong>Volume de chamadas (chamadas externas)</strong></span><span class="sxs-lookup"><span data-stu-id="23e29-271"><strong>Call volume (external call)</strong></span></span></p></td>
-<td><p><span data-ttu-id="23e29-272">Não</span><span class="sxs-lookup"><span data-stu-id="23e29-272">No</span></span></p></td>
-<td><p><span data-ttu-id="23e29-273">Número de chamadas que usaram uma conexão externa (ou seja, uma conexão fora da rede interna).</span><span class="sxs-lookup"><span data-stu-id="23e29-273">Number of calls that used an external connection (that is, a connection outside the internal network).</span></span></p></td>
+<td><p><span data-ttu-id="c24ac-272"><strong>Volume de chamadas (chamadas externas)</strong></span><span class="sxs-lookup"><span data-stu-id="c24ac-272"><strong>Call volume (external call)</strong></span></span></p></td>
+<td><p><span data-ttu-id="c24ac-273">Não</span><span class="sxs-lookup"><span data-stu-id="c24ac-273">No</span></span></p></td>
+<td><p><span data-ttu-id="c24ac-274">Número de chamadas que usaram uma conexão externa (ou seja, uma conexão fora da rede interna).</span><span class="sxs-lookup"><span data-stu-id="c24ac-274">Number of calls that used an external connection (that is, a connection outside the internal network).</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="23e29-274"><strong>Taxa de bits média (Kbits/s)</strong></span><span class="sxs-lookup"><span data-stu-id="23e29-274"><strong>Avg bit-rate (Kbits/s)</strong></span></span></p></td>
-<td><p><span data-ttu-id="23e29-275">Não</span><span class="sxs-lookup"><span data-stu-id="23e29-275">No</span></span></p></td>
-<td><p><span data-ttu-id="23e29-276">Taxa de bits média (em quilobytes por segundo).</span><span class="sxs-lookup"><span data-stu-id="23e29-276">Average video bit rate (in kilobits per second).</span></span></p></td>
+<td><p><span data-ttu-id="c24ac-275"><strong>Taxa de bits média (Kbits/s)</strong></span><span class="sxs-lookup"><span data-stu-id="c24ac-275"><strong>Avg bit-rate (Kbits/s)</strong></span></span></p></td>
+<td><p><span data-ttu-id="c24ac-276">Não</span><span class="sxs-lookup"><span data-stu-id="c24ac-276">No</span></span></p></td>
+<td><p><span data-ttu-id="c24ac-277">Taxa de bits média (em quilobytes por segundo).</span><span class="sxs-lookup"><span data-stu-id="c24ac-277">Average video bit rate (in kilobits per second).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="23e29-277"><strong>% de taxa de bits baixa</strong></span><span class="sxs-lookup"><span data-stu-id="23e29-277"><strong>Low bit-rate %</strong></span></span></p></td>
-<td><p><span data-ttu-id="23e29-278">Não</span><span class="sxs-lookup"><span data-stu-id="23e29-278">No</span></span></p></td>
-<td><p><span data-ttu-id="23e29-279">Porcentagem da chamada onde a taxa de bits foi baixa.</span><span class="sxs-lookup"><span data-stu-id="23e29-279">Percentage of the call where the bit rate was low.</span></span></p></td>
+<td><p><span data-ttu-id="c24ac-278"><strong>% de taxa de bits baixa</strong></span><span class="sxs-lookup"><span data-stu-id="c24ac-278"><strong>Low bit-rate %</strong></span></span></p></td>
+<td><p><span data-ttu-id="c24ac-279">Não</span><span class="sxs-lookup"><span data-stu-id="c24ac-279">No</span></span></p></td>
+<td><p><span data-ttu-id="c24ac-280">Porcentagem da chamada onde a taxa de bits foi baixa.</span><span class="sxs-lookup"><span data-stu-id="c24ac-280">Percentage of the call where the bit rate was low.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="23e29-280"><strong>Perda de pacote de saída</strong></span><span class="sxs-lookup"><span data-stu-id="23e29-280"><strong>Outbound packet loss</strong></span></span></p></td>
-<td><p><span data-ttu-id="23e29-281">Não</span><span class="sxs-lookup"><span data-stu-id="23e29-281">No</span></span></p></td>
-<td><p><span data-ttu-id="23e29-p127">Perda de pacotes do Protocolo de transporte em tempo real (RTP) para pacotes enviados. (A perda de pacotes ocorre quando pacotes RTP, um protocolo usado para transmitir áudio e vídeo pela internet, falha ao tentar alcançar seu destino). Altas taxas de perda geralmente são causadas por congestionamento, insuficiência da largura de banda, congestionamento ou interferência na rede sem fio ou um servidor de mídia sobrecarregado. A perda de pacotes normalmente resulta em distorção ou perda de áudio.</span><span class="sxs-lookup"><span data-stu-id="23e29-p127">Real-Time Transport Protocol (RTP) packet loss for outbound packets. (Packet loss occurs when RTP packets, a protocol used for transmitting audio and video across the Internet, failed to reach their destination.) High loss rates are generally caused by congestion; lack of bandwidth; wireless congestion or interference; or an overloaded media server. Packet loss typically results in distorted or lost audio.</span></span></p></td>
+<td><p><span data-ttu-id="c24ac-281"><strong>Perda de pacote de saída</strong></span><span class="sxs-lookup"><span data-stu-id="c24ac-281"><strong>Outbound packet loss</strong></span></span></p></td>
+<td><p><span data-ttu-id="c24ac-282">Não</span><span class="sxs-lookup"><span data-stu-id="c24ac-282">No</span></span></p></td>
+<td><p><span data-ttu-id="c24ac-p127">Perda de pacotes do Protocolo de transporte em tempo real (RTP) para pacotes enviados. (A perda de pacotes ocorre quando pacotes RTP, um protocolo usado para transmitir áudio e vídeo pela internet, falha ao tentar alcançar seu destino). Altas taxas de perda geralmente são causadas por congestionamento, insuficiência da largura de banda, congestionamento ou interferência na rede sem fio ou um servidor de mídia sobrecarregado. A perda de pacotes normalmente resulta em distorção ou perda de áudio.</span><span class="sxs-lookup"><span data-stu-id="c24ac-p127">Real-Time Transport Protocol (RTP) packet loss for outbound packets. (Packet loss occurs when RTP packets, a protocol used for transmitting audio and video across the Internet, failed to reach their destination.) High loss rates are generally caused by congestion; lack of bandwidth; wireless congestion or interference; or an overloaded media server. Packet loss typically results in distorted or lost audio.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="23e29-285"><strong>% de quadros congelados</strong></span><span class="sxs-lookup"><span data-stu-id="23e29-285"><strong>Frozen frame %</strong></span></span></p></td>
-<td><p><span data-ttu-id="23e29-286">Não</span><span class="sxs-lookup"><span data-stu-id="23e29-286">No</span></span></p></td>
-<td><p><span data-ttu-id="23e29-p128">Porcentagem de quadros "congelados". Em um quadro congelado, o vídeo não avança enquanto a parte de áudio da chamada prossegue.</span><span class="sxs-lookup"><span data-stu-id="23e29-p128">Percentage of “frozen” frames. In a frozen frame, the video stops advancing while the audio portion of the call continues.</span></span></p></td>
+<td><p><span data-ttu-id="c24ac-286"><strong>% de quadros congelados</strong></span><span class="sxs-lookup"><span data-stu-id="c24ac-286"><strong>Frozen frame %</strong></span></span></p></td>
+<td><p><span data-ttu-id="c24ac-287">Não</span><span class="sxs-lookup"><span data-stu-id="c24ac-287">No</span></span></p></td>
+<td><p><span data-ttu-id="c24ac-p128">Porcentagem de quadros "congelados". Em um quadro congelado, o vídeo não avança enquanto a parte de áudio da chamada prossegue.</span><span class="sxs-lookup"><span data-stu-id="c24ac-p128">Percentage of “frozen” frames. In a frozen frame, the video stops advancing while the audio portion of the call continues.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="23e29-289"><strong>Taxa de quadros média de saída</strong></span><span class="sxs-lookup"><span data-stu-id="23e29-289"><strong>Outbound avg frame rate</strong></span></span></p></td>
-<td><p><span data-ttu-id="23e29-290">Não</span><span class="sxs-lookup"><span data-stu-id="23e29-290">No</span></span></p></td>
-<td><p><span data-ttu-id="23e29-291">Taxa de quadros média para transmissões de saída durante a chamada.</span><span class="sxs-lookup"><span data-stu-id="23e29-291">Average frame rate for outbound transmissions during the call.</span></span></p></td>
+<td><p><span data-ttu-id="c24ac-290"><strong>Taxa de quadros média de saída</strong></span><span class="sxs-lookup"><span data-stu-id="c24ac-290"><strong>Outbound avg frame rate</strong></span></span></p></td>
+<td><p><span data-ttu-id="c24ac-291">Não</span><span class="sxs-lookup"><span data-stu-id="c24ac-291">No</span></span></p></td>
+<td><p><span data-ttu-id="c24ac-292">Taxa de quadros média para transmissões de saída durante a chamada.</span><span class="sxs-lookup"><span data-stu-id="c24ac-292">Average frame rate for outbound transmissions during the call.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="23e29-292"><strong>Taxa de quadros média de entrada</strong></span><span class="sxs-lookup"><span data-stu-id="23e29-292"><strong>Inbound avg frame rate</strong></span></span></p></td>
-<td><p><span data-ttu-id="23e29-293">Não</span><span class="sxs-lookup"><span data-stu-id="23e29-293">No</span></span></p></td>
-<td><p><span data-ttu-id="23e29-294">Taxa de quadros média para transmissões de entrada durante a chamada.</span><span class="sxs-lookup"><span data-stu-id="23e29-294">Average frame rate for incoming transmissions during the call.</span></span></p></td>
+<td><p><span data-ttu-id="c24ac-293"><strong>Taxa de quadros média de entrada</strong></span><span class="sxs-lookup"><span data-stu-id="c24ac-293"><strong>Inbound avg frame rate</strong></span></span></p></td>
+<td><p><span data-ttu-id="c24ac-294">Não</span><span class="sxs-lookup"><span data-stu-id="c24ac-294">No</span></span></p></td>
+<td><p><span data-ttu-id="c24ac-295">Taxa de quadros média para transmissões de entrada durante a chamada.</span><span class="sxs-lookup"><span data-stu-id="c24ac-295">Average frame rate for incoming transmissions during the call.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="23e29-295"><strong>% de taxa de quadros baixa de entrada</strong></span><span class="sxs-lookup"><span data-stu-id="23e29-295"><strong>Inbound low frame rate %</strong></span></span></p></td>
-<td><p><span data-ttu-id="23e29-296">Não</span><span class="sxs-lookup"><span data-stu-id="23e29-296">No</span></span></p></td>
-<td><p><span data-ttu-id="23e29-297">Porcentagem da chamada onde a taxa de bits foi baixa para vídeo de entrada.</span><span class="sxs-lookup"><span data-stu-id="23e29-297">Percentage of the call where the bit rate for incoming video was low.</span></span></p></td>
+<td><p><span data-ttu-id="c24ac-296"><strong>% de taxa de quadros baixa de entrada</strong></span><span class="sxs-lookup"><span data-stu-id="c24ac-296"><strong>Inbound low frame rate %</strong></span></span></p></td>
+<td><p><span data-ttu-id="c24ac-297">Não</span><span class="sxs-lookup"><span data-stu-id="c24ac-297">No</span></span></p></td>
+<td><p><span data-ttu-id="c24ac-298">Porcentagem da chamada onde a taxa de bits foi baixa para vídeo de entrada.</span><span class="sxs-lookup"><span data-stu-id="c24ac-298">Percentage of the call where the bit rate for incoming video was low.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="23e29-298"><strong>% de integridade do cliente</strong></span><span class="sxs-lookup"><span data-stu-id="23e29-298"><strong>Client health %</strong></span></span></p></td>
+<td><p><span data-ttu-id="c24ac-299"><strong>% de integridade do cliente</strong></span><span class="sxs-lookup"><span data-stu-id="c24ac-299"><strong>Client health %</strong></span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="23e29-299">Indica o estado relativo do dispositivo do cliente durante a chamada.</span><span class="sxs-lookup"><span data-stu-id="23e29-299">Indicates the relative health of the client device during the call.</span></span></p></td>
+<td><p><span data-ttu-id="c24ac-300">Indica o estado relativo do dispositivo do cliente durante a chamada.</span><span class="sxs-lookup"><span data-stu-id="c24ac-300">Indicates the relative health of the client device during the call.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="server-performance-report-metrics-application-sharing-call-summary"></a><span data-ttu-id="23e29-300">Métricas do Relatório de Desempenho do Servidor: Resumo da chamada de compartilhamento de aplicativo</span><span class="sxs-lookup"><span data-stu-id="23e29-300">Server Performance Report Metrics: Application Sharing Call Summary</span></span>
+### <a name="server-performance-report-metrics-application-sharing-call-summary"></a><span data-ttu-id="c24ac-301">Métricas do Relatório de Desempenho do Servidor: Resumo da chamada de compartilhamento de aplicativo</span><span class="sxs-lookup"><span data-stu-id="c24ac-301">Server Performance Report Metrics: Application Sharing Call Summary</span></span>
 
 <table>
 <colgroup>
@@ -362,70 +363,70 @@ ms.locfileid: "48510288"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="23e29-301">Nome</span><span class="sxs-lookup"><span data-stu-id="23e29-301">Name</span></span></th>
-<th><span data-ttu-id="23e29-302">É possível classificar este item?</span><span class="sxs-lookup"><span data-stu-id="23e29-302">Can you sort on this item?</span></span></th>
-<th><span data-ttu-id="23e29-303">Descrição</span><span class="sxs-lookup"><span data-stu-id="23e29-303">Description</span></span></th>
+<th><span data-ttu-id="c24ac-302">Nome</span><span class="sxs-lookup"><span data-stu-id="c24ac-302">Name</span></span></th>
+<th><span data-ttu-id="c24ac-303">É possível classificar este item?</span><span class="sxs-lookup"><span data-stu-id="c24ac-303">Can you sort on this item?</span></span></th>
+<th><span data-ttu-id="c24ac-304">Descrição</span><span class="sxs-lookup"><span data-stu-id="c24ac-304">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="23e29-304"><strong>Tipo de Chamada/Tipo de Ponto de Extremidade</strong></span><span class="sxs-lookup"><span data-stu-id="23e29-304"><strong>Call type/Endpoint type</strong></span></span></p></td>
-<td><p><span data-ttu-id="23e29-305">Não</span><span class="sxs-lookup"><span data-stu-id="23e29-305">No</span></span></p></td>
-<td><p><span data-ttu-id="23e29-p129">Ao clicar neste item, o relatório mostra informações detalhadas sobre chamadas baseadas no tipo escolhido. Tipos de chamada incluem:</span><span class="sxs-lookup"><span data-stu-id="23e29-p129">When you click this item, the report shows detailed information about calls based on that type. Call types include:</span></span></p>
+<td><p><span data-ttu-id="c24ac-305"><strong>Tipo de Chamada/Tipo de Ponto de Extremidade</strong></span><span class="sxs-lookup"><span data-stu-id="c24ac-305"><strong>Call type/Endpoint type</strong></span></span></p></td>
+<td><p><span data-ttu-id="c24ac-306">Não</span><span class="sxs-lookup"><span data-stu-id="c24ac-306">No</span></span></p></td>
+<td><p><span data-ttu-id="c24ac-p129">Ao clicar neste item, o relatório mostra informações detalhadas sobre chamadas baseadas no tipo escolhido. Tipos de chamada incluem:</span><span class="sxs-lookup"><span data-stu-id="c24ac-p129">When you click this item, the report shows detailed information about calls based on that type. Call types include:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="23e29-308">Chamadas Ponto a Ponto de UC</span><span class="sxs-lookup"><span data-stu-id="23e29-308">UC Peer-to-Peer Calls</span></span></p></li>
-<li><p><span data-ttu-id="23e29-309">Sessões de Conferência de UC</span><span class="sxs-lookup"><span data-stu-id="23e29-309">UC Conference Sessions</span></span></p></li>
-<li><p><span data-ttu-id="23e29-310">Sessões de Conferência PSTN</span><span class="sxs-lookup"><span data-stu-id="23e29-310">PSTN Conference Sessions</span></span></p></li>
-<li><p><span data-ttu-id="23e29-311">Chamadas PSTN: Desvio de Mídia</span><span class="sxs-lookup"><span data-stu-id="23e29-311">PSTN Calls: Media Bypass</span></span></p></li>
-<li><p><span data-ttu-id="23e29-312">Chamadas PSTN (Não Ignorar): Trecho de UC</span><span class="sxs-lookup"><span data-stu-id="23e29-312">PSTN Calls (Non-Bypass): UC Leg</span></span></p></li>
-<li><p><span data-ttu-id="23e29-313">Chamadas PSTN (Não Ignorar): Trecho de Gateway</span><span class="sxs-lookup"><span data-stu-id="23e29-313">PSTN Calls (Non-Bypass): Gateway Leg</span></span></p></li>
-<li><p><span data-ttu-id="23e29-314">Outros Tipos de Chamada</span><span class="sxs-lookup"><span data-stu-id="23e29-314">Other Call Types</span></span></p></li>
+<li><p><span data-ttu-id="c24ac-309">Chamadas Ponto a Ponto de UC</span><span class="sxs-lookup"><span data-stu-id="c24ac-309">UC Peer-to-Peer Calls</span></span></p></li>
+<li><p><span data-ttu-id="c24ac-310">Sessões de Conferência de UC</span><span class="sxs-lookup"><span data-stu-id="c24ac-310">UC Conference Sessions</span></span></p></li>
+<li><p><span data-ttu-id="c24ac-311">Sessões de Conferência PSTN</span><span class="sxs-lookup"><span data-stu-id="c24ac-311">PSTN Conference Sessions</span></span></p></li>
+<li><p><span data-ttu-id="c24ac-312">Chamadas PSTN: Desvio de Mídia</span><span class="sxs-lookup"><span data-stu-id="c24ac-312">PSTN Calls: Media Bypass</span></span></p></li>
+<li><p><span data-ttu-id="c24ac-313">Chamadas PSTN (Não Ignorar): Trecho de UC</span><span class="sxs-lookup"><span data-stu-id="c24ac-313">PSTN Calls (Non-Bypass): UC Leg</span></span></p></li>
+<li><p><span data-ttu-id="c24ac-314">Chamadas PSTN (Não Ignorar): Trecho de Gateway</span><span class="sxs-lookup"><span data-stu-id="c24ac-314">PSTN Calls (Non-Bypass): Gateway Leg</span></span></p></li>
+<li><p><span data-ttu-id="c24ac-315">Outros Tipos de Chamada</span><span class="sxs-lookup"><span data-stu-id="c24ac-315">Other Call Types</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="23e29-315"><strong>Volume da chamada</strong></span><span class="sxs-lookup"><span data-stu-id="23e29-315"><strong>Call volume</strong></span></span></p></td>
-<td><p><span data-ttu-id="23e29-316">Não</span><span class="sxs-lookup"><span data-stu-id="23e29-316">No</span></span></p></td>
-<td><p><span data-ttu-id="23e29-317">Número total de chamadas por tipo de chamada.</span><span class="sxs-lookup"><span data-stu-id="23e29-317">Total number of calls per call type.</span></span></p></td>
+<td><p><span data-ttu-id="c24ac-316"><strong>Volume da chamada</strong></span><span class="sxs-lookup"><span data-stu-id="c24ac-316"><strong>Call volume</strong></span></span></p></td>
+<td><p><span data-ttu-id="c24ac-317">Não</span><span class="sxs-lookup"><span data-stu-id="c24ac-317">No</span></span></p></td>
+<td><p><span data-ttu-id="c24ac-318">Número total de chamadas por tipo de chamada.</span><span class="sxs-lookup"><span data-stu-id="c24ac-318">Total number of calls per call type.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="23e29-318"><strong>Percentual de chamadas ruins</strong></span><span class="sxs-lookup"><span data-stu-id="23e29-318"><strong>Poor call percentage</strong></span></span></p></td>
-<td><p><span data-ttu-id="23e29-319">Não</span><span class="sxs-lookup"><span data-stu-id="23e29-319">No</span></span></p></td>
-<td><p><span data-ttu-id="23e29-p130">Número total de chamadas classificadas como ruins. Uma chamada ruim é qualquer chamada em que no mínimo uma das métricas medidas excedeu o valor permitido (por exemplo, uma chamada com tremulação excessiva).</span><span class="sxs-lookup"><span data-stu-id="23e29-p130">Total number of calls classified as poor. A poor call is any call which at least one of the measured metrics exceeded the allowed value (for example, a call that experienced excessive jitter).</span></span></p></td>
+<td><p><span data-ttu-id="c24ac-319"><strong>Percentual de chamadas ruins</strong></span><span class="sxs-lookup"><span data-stu-id="c24ac-319"><strong>Poor call percentage</strong></span></span></p></td>
+<td><p><span data-ttu-id="c24ac-320">Não</span><span class="sxs-lookup"><span data-stu-id="c24ac-320">No</span></span></p></td>
+<td><p><span data-ttu-id="c24ac-p130">Número total de chamadas classificadas como ruins. Uma chamada ruim é qualquer chamada em que no mínimo uma das métricas medidas excedeu o valor permitido (por exemplo, uma chamada com tremulação excessiva).</span><span class="sxs-lookup"><span data-stu-id="c24ac-p130">Total number of calls classified as poor. A poor call is any call which at least one of the measured metrics exceeded the allowed value (for example, a call that experienced excessive jitter).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="23e29-322"><strong>Volume de chamadas (chamadas sem fio)</strong></span><span class="sxs-lookup"><span data-stu-id="23e29-322"><strong>Call volume (wireless call)</strong></span></span></p></td>
-<td><p><span data-ttu-id="23e29-323">Não</span><span class="sxs-lookup"><span data-stu-id="23e29-323">No</span></span></p></td>
-<td><p><span data-ttu-id="23e29-324">Número total de chamadas que usaram uma conexão sem fio.</span><span class="sxs-lookup"><span data-stu-id="23e29-324">Total number of calls that used a wireless connection.</span></span></p></td>
+<td><p><span data-ttu-id="c24ac-323"><strong>Volume de chamadas (chamadas sem fio)</strong></span><span class="sxs-lookup"><span data-stu-id="c24ac-323"><strong>Call volume (wireless call)</strong></span></span></p></td>
+<td><p><span data-ttu-id="c24ac-324">Não</span><span class="sxs-lookup"><span data-stu-id="c24ac-324">No</span></span></p></td>
+<td><p><span data-ttu-id="c24ac-325">Número total de chamadas que usaram uma conexão sem fio.</span><span class="sxs-lookup"><span data-stu-id="c24ac-325">Total number of calls that used a wireless connection.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="23e29-325"><strong>Volume de chamadas (chamadas VPN)</strong></span><span class="sxs-lookup"><span data-stu-id="23e29-325"><strong>Call volume (VPN call)</strong></span></span></p></td>
-<td><p><span data-ttu-id="23e29-326">Não</span><span class="sxs-lookup"><span data-stu-id="23e29-326">No</span></span></p></td>
-<td><p><span data-ttu-id="23e29-327">Número total de chamadas que usaram uma conexão VPN.</span><span class="sxs-lookup"><span data-stu-id="23e29-327">Total number of calls that used a VPN connection.</span></span></p></td>
+<td><p><span data-ttu-id="c24ac-326"><strong>Volume de chamadas (chamadas VPN)</strong></span><span class="sxs-lookup"><span data-stu-id="c24ac-326"><strong>Call volume (VPN call)</strong></span></span></p></td>
+<td><p><span data-ttu-id="c24ac-327">Não</span><span class="sxs-lookup"><span data-stu-id="c24ac-327">No</span></span></p></td>
+<td><p><span data-ttu-id="c24ac-328">Número total de chamadas que usaram uma conexão VPN.</span><span class="sxs-lookup"><span data-stu-id="c24ac-328">Total number of calls that used a VPN connection.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="23e29-328"><strong>Volume de chamadas (chamadas externas)</strong></span><span class="sxs-lookup"><span data-stu-id="23e29-328"><strong>Call volume (external call)</strong></span></span></p></td>
-<td><p><span data-ttu-id="23e29-329">Não</span><span class="sxs-lookup"><span data-stu-id="23e29-329">No</span></span></p></td>
-<td><p><span data-ttu-id="23e29-330">Número de chamadas que usaram uma conexão externa (ou seja, uma conexão fora da rede interna).</span><span class="sxs-lookup"><span data-stu-id="23e29-330">Number of calls that used an external connection (that is, a connection outside the internal network).</span></span></p></td>
+<td><p><span data-ttu-id="c24ac-329"><strong>Volume de chamadas (chamadas externas)</strong></span><span class="sxs-lookup"><span data-stu-id="c24ac-329"><strong>Call volume (external call)</strong></span></span></p></td>
+<td><p><span data-ttu-id="c24ac-330">Não</span><span class="sxs-lookup"><span data-stu-id="c24ac-330">No</span></span></p></td>
+<td><p><span data-ttu-id="c24ac-331">Número de chamadas que usaram uma conexão externa (ou seja, uma conexão fora da rede interna).</span><span class="sxs-lookup"><span data-stu-id="c24ac-331">Number of calls that used an external connection (that is, a connection outside the internal network).</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="23e29-331"><strong>Tremulação (ms)</strong></span><span class="sxs-lookup"><span data-stu-id="23e29-331"><strong>Jitter (ms)</strong></span></span></p></td>
-<td><p><span data-ttu-id="23e29-332">Não</span><span class="sxs-lookup"><span data-stu-id="23e29-332">No</span></span></p></td>
-<td><p><span data-ttu-id="23e29-333">Tremulação média detectada entre chegadas de pacote RTP.</span><span class="sxs-lookup"><span data-stu-id="23e29-333">Average jitter detected between RTP packet arrivals.</span></span> <span data-ttu-id="23e29-334">(Tremulação é uma medida do &quot; tremula &quot; de uma chamada.) Os valores de variação alta geralmente são causados por congestionamento ou por um servidor de mídia sobrecarregado e resultam em um áudio distorcido ou perdido.</span><span class="sxs-lookup"><span data-stu-id="23e29-334">(Jitter is a measure of the &quot;shakiness&quot; of a call.) High jitter values are typically caused by congestion or an overloaded media server, and result in distorted or lost audio.</span></span></p></td>
+<td><p><span data-ttu-id="c24ac-332"><strong>Tremulação (ms)</strong></span><span class="sxs-lookup"><span data-stu-id="c24ac-332"><strong>Jitter (ms)</strong></span></span></p></td>
+<td><p><span data-ttu-id="c24ac-333">Não</span><span class="sxs-lookup"><span data-stu-id="c24ac-333">No</span></span></p></td>
+<td><p><span data-ttu-id="c24ac-334">Tremulação média detectada entre chegadas de pacote RTP.</span><span class="sxs-lookup"><span data-stu-id="c24ac-334">Average jitter detected between RTP packet arrivals.</span></span> <span data-ttu-id="c24ac-335">(Tremulação é uma medida do &quot; tremula &quot; de uma chamada.) Os valores de variação alta geralmente são causados por congestionamento ou por um servidor de mídia sobrecarregado e resultam em um áudio distorcido ou perdido.</span><span class="sxs-lookup"><span data-stu-id="c24ac-335">(Jitter is a measure of the &quot;shakiness&quot; of a call.) High jitter values are typically caused by congestion or an overloaded media server, and result in distorted or lost audio.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="23e29-335"><strong>Unidirecional relativo médio</strong></span><span class="sxs-lookup"><span data-stu-id="23e29-335"><strong>Avg. relative one way</strong></span></span></p></td>
-<td><p><span data-ttu-id="23e29-336">Não</span><span class="sxs-lookup"><span data-stu-id="23e29-336">No</span></span></p></td>
-<td><p><span data-ttu-id="23e29-p132">Atraso unidirecional relativo médio entre dois pontos de extremidade de mídia. Esta é uma medida de latência de salto único.</span><span class="sxs-lookup"><span data-stu-id="23e29-p132">Average relative one-way delay between two media endpoints. This is a single-hop latency measure.</span></span></p></td>
+<td><p><span data-ttu-id="c24ac-336"><strong>Unidirecional relativo médio</strong></span><span class="sxs-lookup"><span data-stu-id="c24ac-336"><strong>Avg. relative one way</strong></span></span></p></td>
+<td><p><span data-ttu-id="c24ac-337">Não</span><span class="sxs-lookup"><span data-stu-id="c24ac-337">No</span></span></p></td>
+<td><p><span data-ttu-id="c24ac-p132">Atraso unidirecional relativo médio entre dois pontos de extremidade de mídia. Esta é uma medida de latência de salto único.</span><span class="sxs-lookup"><span data-stu-id="c24ac-p132">Average relative one-way delay between two media endpoints. This is a single-hop latency measure.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="23e29-339"><strong>Latência média de processamento lado a lado RDP</strong></span><span class="sxs-lookup"><span data-stu-id="23e29-339"><strong>Avg. RDP tile processing latency</strong></span></span></p></td>
-<td><p><span data-ttu-id="23e29-340">Não</span><span class="sxs-lookup"><span data-stu-id="23e29-340">No</span></span></p></td>
-<td><p><span data-ttu-id="23e29-p133">A latência média de processamento lado a lado RDP no Servidor de Conferência AS durante a sessão de visualização. Essa métrica não cobre a latência de rede. Uma média alta reflete um atraso maior na experiência de visualização. Um servidor de conferência sobrecarregado pode enfrentar atrasos médios maiores.</span><span class="sxs-lookup"><span data-stu-id="23e29-p133">The average RDP tile processing latency in the AS Conferencing Server over the duration of the viewing session. This metric does not cover network latency. A high average reflects a longer delay in the viewing experience. An overloaded conferencing server may experience higher average delays.</span></span></p></td>
+<td><p><span data-ttu-id="c24ac-340"><strong>Latência média de processamento lado a lado RDP</strong></span><span class="sxs-lookup"><span data-stu-id="c24ac-340"><strong>Avg. RDP tile processing latency</strong></span></span></p></td>
+<td><p><span data-ttu-id="c24ac-341">Não</span><span class="sxs-lookup"><span data-stu-id="c24ac-341">No</span></span></p></td>
+<td><p><span data-ttu-id="c24ac-p133">A latência média de processamento lado a lado RDP no Servidor de Conferência AS durante a sessão de visualização. Essa métrica não cobre a latência de rede. Uma média alta reflete um atraso maior na experiência de visualização. Um servidor de conferência sobrecarregado pode enfrentar atrasos médios maiores.</span><span class="sxs-lookup"><span data-stu-id="c24ac-p133">The average RDP tile processing latency in the AS Conferencing Server over the duration of the viewing session. This metric does not cover network latency. A high average reflects a longer delay in the viewing experience. An overloaded conferencing server may experience higher average delays.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="23e29-345"><strong>% total de lado a lado estragado</strong></span><span class="sxs-lookup"><span data-stu-id="23e29-345"><strong>Total spoiled tile %</strong></span></span></p></td>
-<td><p><span data-ttu-id="23e29-346">Não</span><span class="sxs-lookup"><span data-stu-id="23e29-346">No</span></span></p></td>
-<td><p><span data-ttu-id="23e29-347">A porcentagem total de lado a lado estragados.</span><span class="sxs-lookup"><span data-stu-id="23e29-347">Total percentage of spoiled RDP tiles.</span></span></p></td>
+<td><p><span data-ttu-id="c24ac-346"><strong>% total de lado a lado estragado</strong></span><span class="sxs-lookup"><span data-stu-id="c24ac-346"><strong>Total spoiled tile %</strong></span></span></p></td>
+<td><p><span data-ttu-id="c24ac-347">Não</span><span class="sxs-lookup"><span data-stu-id="c24ac-347">No</span></span></p></td>
+<td><p><span data-ttu-id="c24ac-348">A porcentagem total de lado a lado estragados.</span><span class="sxs-lookup"><span data-stu-id="c24ac-348">Total percentage of spoiled RDP tiles.</span></span></p></td>
 </tr>
 </tbody>
 </table>

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: alterar o pool de borda associado a um pool de front-ends'
+description: 'Lync Server 2013: alterar o pool de borda associado a um pool de front-ends.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 49733613
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 32404f911766da3ea0f47b74011b4806edbca231
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: ab22ba35420341e291d51a1ff012459840e63a56
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48517878"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48543567"
 ---
-# <a name="changing-the-edge-pool-associated-with-a-front-end-pool-in-lync-server-2013"></a><span data-ttu-id="7d2f3-102">Alterar o pool de borda associado a um pool de front-ends no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7d2f3-102">Changing the Edge pool associated with a Front End pool in Lync Server 2013</span></span>
+# <a name="changing-the-edge-pool-associated-with-a-front-end-pool-in-lync-server-2013"></a><span data-ttu-id="6596f-103">Alterar o pool de borda associado a um pool de front-ends no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6596f-103">Changing the Edge pool associated with a Front End pool in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,30 +38,30 @@ ms.locfileid: "48517878"
 
 <span> </span>
 
-<span data-ttu-id="7d2f3-103">_**Última modificação do tópico:** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="7d2f3-103">_**Topic Last Modified:** 2012-09-21_</span></span>
+<span data-ttu-id="6596f-104">_**Última modificação do tópico:** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="6596f-104">_**Topic Last Modified:** 2012-09-21_</span></span>
 
-<span data-ttu-id="7d2f3-104">Se um pool de borda cair, mas o pool de front-ends do mesmo local ainda estiver em execução, será preciso configurar o pool de front-ends para que use o pool de borda de um local diferente até que o pool de borda com falha seja restaurado.</span><span class="sxs-lookup"><span data-stu-id="7d2f3-104">If an Edge pool goes down but the Front End pool at the same site is still running, you will need to set the Front End pool to use an Edge pool at a different site until the failed Edge pool is restored.</span></span>
+<span data-ttu-id="6596f-105">Se um pool de borda cair, mas o pool de front-ends do mesmo local ainda estiver em execução, será preciso configurar o pool de front-ends para que use o pool de borda de um local diferente até que o pool de borda com falha seja restaurado.</span><span class="sxs-lookup"><span data-stu-id="6596f-105">If an Edge pool goes down but the Front End pool at the same site is still running, you will need to set the Front End pool to use an Edge pool at a different site until the failed Edge pool is restored.</span></span>
 
 <div>
 
-## <a name="changing-the-edge-pool-associated-with-a-front-end-pool"></a><span data-ttu-id="7d2f3-105">Alterando o pool de borda associado a um pool de front-ends</span><span class="sxs-lookup"><span data-stu-id="7d2f3-105">Changing the Edge Pool Associated with a Front End Pool</span></span>
+## <a name="changing-the-edge-pool-associated-with-a-front-end-pool"></a><span data-ttu-id="6596f-106">Alterando o pool de borda associado a um pool de front-ends</span><span class="sxs-lookup"><span data-stu-id="6596f-106">Changing the Edge Pool Associated with a Front End Pool</span></span>
 
-1.  <span data-ttu-id="7d2f3-106">NO Construtor de Topologias, navegue até o nome no pool de front-ends que precisa ser alterado.</span><span class="sxs-lookup"><span data-stu-id="7d2f3-106">In Topology Builder, navigate to the name of the Front End pool you need to change.</span></span>
+1.  <span data-ttu-id="6596f-107">NO Construtor de Topologias, navegue até o nome no pool de front-ends que precisa ser alterado.</span><span class="sxs-lookup"><span data-stu-id="6596f-107">In Topology Builder, navigate to the name of the Front End pool you need to change.</span></span>
 
-2.  <span data-ttu-id="7d2f3-107">Clique com o botão direito do mouse no nome do pool e, então, em **Editar Propriedades**</span><span class="sxs-lookup"><span data-stu-id="7d2f3-107">Right-click the pool, and then click **Edit Properties**.</span></span>
+2.  <span data-ttu-id="6596f-108">Clique com o botão direito do mouse no nome do pool e, então, em **Editar Propriedades**</span><span class="sxs-lookup"><span data-stu-id="6596f-108">Right-click the pool, and then click **Edit Properties**.</span></span>
 
-3.  <span data-ttu-id="7d2f3-108">Na seção **Associações**, em **Associar Pool de Borda (para componentes de mídia)**, use a caixa suspensa para selecionar o pool de borda ao qual deseja associar o pool de front-ends.</span><span class="sxs-lookup"><span data-stu-id="7d2f3-108">In the **Associations** section, under **Associate Edge Pool (for media components)**, use the drop down box to select the Edge pool you want to associate this Front End pool with.</span></span>
+3.  <span data-ttu-id="6596f-109">Na seção **Associações**, em **Associar Pool de Borda (para componentes de mídia)**, use a caixa suspensa para selecionar o pool de borda ao qual deseja associar o pool de front-ends.</span><span class="sxs-lookup"><span data-stu-id="6596f-109">In the **Associations** section, under **Associate Edge Pool (for media components)**, use the drop down box to select the Edge pool you want to associate this Front End pool with.</span></span>
 
-4.  <span data-ttu-id="7d2f3-109">Clique em **OK**.</span><span class="sxs-lookup"><span data-stu-id="7d2f3-109">Click **OK**.</span></span>
+4.  <span data-ttu-id="6596f-110">Clique em **OK**.</span><span class="sxs-lookup"><span data-stu-id="6596f-110">Click **OK**.</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="7d2f3-110">Confira também</span><span class="sxs-lookup"><span data-stu-id="7d2f3-110">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="6596f-111">Confira também</span><span class="sxs-lookup"><span data-stu-id="6596f-111">See Also</span></span>
 
 
-[<span data-ttu-id="7d2f3-111">Recuperação de desastre do servidor de borda no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7d2f3-111">Edge Server disaster recovery in Lync Server 2013</span></span>](lync-server-2013-edge-server-disaster-recovery.md)  
+[<span data-ttu-id="6596f-112">Recuperação de desastre do servidor de borda no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6596f-112">Edge Server disaster recovery in Lync Server 2013</span></span>](lync-server-2013-edge-server-disaster-recovery.md)  
   
 
 </div>

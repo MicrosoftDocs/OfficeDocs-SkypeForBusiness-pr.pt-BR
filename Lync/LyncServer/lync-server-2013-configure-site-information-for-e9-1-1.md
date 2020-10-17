@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: configurar informações de site para E9-1-1'
+description: 'Lync Server 2013: configurar informações de site para E9-1-1.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48183824
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ce9a6f9b24256bdc577e02ceb41bd3f67601e74e
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 880a5e596a009e86214c2ab3a5a1223dd3ba63d3
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48508908"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48542667"
 ---
-# <a name="configure-site-information-for-e9-1-1-in-lync-server-2013"></a><span data-ttu-id="1b0b6-102">Configurar as informações do site para o E9-1-1 no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1b0b6-102">Configure site information for E9-1-1 in Lync Server 2013</span></span>
+# <a name="configure-site-information-for-e9-1-1-in-lync-server-2013"></a><span data-ttu-id="afb73-103">Configurar as informações do site para o E9-1-1 no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="afb73-103">Configure site information for E9-1-1 in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,21 +38,21 @@ ms.locfileid: "48508908"
 
 <span> </span>
 
-<span data-ttu-id="1b0b6-103">_**Última modificação do tópico:** 2012-10-03_</span><span class="sxs-lookup"><span data-stu-id="1b0b6-103">_**Topic Last Modified:** 2012-10-03_</span></span>
+<span data-ttu-id="afb73-104">_**Última modificação do tópico:** 2012-10-03_</span><span class="sxs-lookup"><span data-stu-id="afb73-104">_**Topic Last Modified:** 2012-10-03_</span></span>
 
-<span data-ttu-id="1b0b6-104">Para definir uma política de locais para sub-redes, é preciso fazer o seguinte em qualquer ordem:</span><span class="sxs-lookup"><span data-stu-id="1b0b6-104">To define a location policy for subnets, you must do the following, in any order:</span></span>
+<span data-ttu-id="afb73-105">Para definir uma política de locais para sub-redes, é preciso fazer o seguinte em qualquer ordem:</span><span class="sxs-lookup"><span data-stu-id="afb73-105">To define a location policy for subnets, you must do the following, in any order:</span></span>
 
-  - <span data-ttu-id="1b0b6-105">Aplicar uma política de local ao local da rede.</span><span class="sxs-lookup"><span data-stu-id="1b0b6-105">Apply a location policy to the network site.</span></span>
+  - <span data-ttu-id="afb73-106">Aplicar uma política de local ao local da rede.</span><span class="sxs-lookup"><span data-stu-id="afb73-106">Apply a location policy to the network site.</span></span>
 
-  - <span data-ttu-id="1b0b6-106">Adicionar as sub-redes ao site da rede.</span><span class="sxs-lookup"><span data-stu-id="1b0b6-106">Add the subnets to the network site.</span></span>
+  - <span data-ttu-id="afb73-107">Adicionar as sub-redes ao site da rede.</span><span class="sxs-lookup"><span data-stu-id="afb73-107">Add the subnets to the network site.</span></span>
 
-<span data-ttu-id="1b0b6-107">Para obter detalhes sobre sites de rede, consulte [Lync Server sites for Lync server 2013](lync-server-2013-sites.md).</span><span class="sxs-lookup"><span data-stu-id="1b0b6-107">For details about network sites, see [Lync Server sites for Lync Server 2013](lync-server-2013-sites.md).</span></span>
+<span data-ttu-id="afb73-108">Para obter detalhes sobre sites de rede, consulte [Lync Server sites for Lync server 2013](lync-server-2013-sites.md).</span><span class="sxs-lookup"><span data-stu-id="afb73-108">For details about network sites, see [Lync Server sites for Lync Server 2013](lync-server-2013-sites.md).</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="1b0b6-108">Se você criar locais de rede para outro recurso de voz e quiser configurar o E9-1-1 usando os mesmos locais, poderá modificar os locais a serem usados para o E9-1-1.</span><span class="sxs-lookup"><span data-stu-id="1b0b6-108">If you create network sites for another voice feature and you want to configure E9-1-1 by using the same sites, then you can modify the sites to be used for E9-1-1.</span></span>
+> <span data-ttu-id="afb73-109">Se você criar locais de rede para outro recurso de voz e quiser configurar o E9-1-1 usando os mesmos locais, poderá modificar os locais a serem usados para o E9-1-1.</span><span class="sxs-lookup"><span data-stu-id="afb73-109">If you create network sites for another voice feature and you want to configure E9-1-1 by using the same sites, then you can modify the sites to be used for E9-1-1.</span></span>
 
 
 
@@ -59,11 +60,11 @@ ms.locfileid: "48508908"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="1b0b6-109">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="1b0b6-109">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="afb73-110">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="afb73-110">In This Section</span></span>
 
-  - [<span data-ttu-id="1b0b6-110">Adicionar uma política de local a um site de rede no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1b0b6-110">Add a location policy to a network site in Lync Server 2013</span></span>](lync-server-2013-add-a-location-policy-to-a-network-site.md)
+  - [<span data-ttu-id="afb73-111">Adicionar uma política de local a um site de rede no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="afb73-111">Add a location policy to a network site in Lync Server 2013</span></span>](lync-server-2013-add-a-location-policy-to-a-network-site.md)
 
-  - [<span data-ttu-id="1b0b6-111">Associar uma sub-rede a um site de rede no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1b0b6-111">Associate a subnet with a network site in Lync Server 2013</span></span>](lync-server-2013-associate-a-subnet-with-a-network-site.md)
+  - [<span data-ttu-id="afb73-112">Associar uma sub-rede a um site de rede no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="afb73-112">Associate a subnet with a network site in Lync Server 2013</span></span>](lync-server-2013-associate-a-subnet-with-a-network-site.md)
 
 </div>
 
