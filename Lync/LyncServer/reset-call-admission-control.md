@@ -1,5 +1,6 @@
 ---
 title: Redefinir o controle de admissão de chamada
+description: Redefina o controle de admissão de chamadas.
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,14 +13,14 @@ ms:contentKeyID: 49733658
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f22f26ae48835dee6028e5b41b79dd116d610a25
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: c4539cda453de6249be3a9b9b61521ecf478cb70
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48529808"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48551237"
 ---
-# <a name="reset-call-admission-control"></a><span data-ttu-id="7f43e-102">Redefinir o controle de admissão de chamada</span><span class="sxs-lookup"><span data-stu-id="7f43e-102">Reset call admission control</span></span>
+# <a name="reset-call-admission-control"></a><span data-ttu-id="61394-103">Redefinir o controle de admissão de chamada</span><span class="sxs-lookup"><span data-stu-id="61394-103">Reset call admission control</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,23 +38,23 @@ ms.locfileid: "48529808"
 
 <span> </span>
 
-<span data-ttu-id="7f43e-103">_**Última modificação do tópico:** 2012-10-11_</span><span class="sxs-lookup"><span data-stu-id="7f43e-103">_**Topic Last Modified:** 2012-10-11_</span></span>
+<span data-ttu-id="61394-104">_**Última modificação do tópico:** 2012-10-11_</span><span class="sxs-lookup"><span data-stu-id="61394-104">_**Topic Last Modified:** 2012-10-11_</span></span>
 
-<span data-ttu-id="7f43e-104">Se um pool de front-ends do Lync Server 2010 estiver hospedando o CAC (controle de admissão de chamadas), você deve mover a hospedagem de CAC para um pool do Lync Server 2013 antes de poder remover o pool de front-ends do Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="7f43e-104">If a Lync Server 2010 Front End pool is hosting call admission control (CAC), you must move CAC hosting to a Lync Server 2013 pool before you can remove the Lync Server 2010 Front End pool.</span></span>
+<span data-ttu-id="61394-105">Se um pool de front-ends do Lync Server 2010 estiver hospedando o CAC (controle de admissão de chamadas), você deve mover a hospedagem de CAC para um pool do Lync Server 2013 antes de poder remover o pool de front-ends do Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="61394-105">If a Lync Server 2010 Front End pool is hosting call admission control (CAC), you must move CAC hosting to a Lync Server 2013 pool before you can remove the Lync Server 2010 Front End pool.</span></span>
 
 <div>
 
-## <a name="to-reset-cac"></a><span data-ttu-id="7f43e-105">Para redefinir o CAC</span><span class="sxs-lookup"><span data-stu-id="7f43e-105">To reset CAC</span></span>
+## <a name="to-reset-cac"></a><span data-ttu-id="61394-106">Para redefinir o CAC</span><span class="sxs-lookup"><span data-stu-id="61394-106">To reset CAC</span></span>
 
-1.  <span data-ttu-id="7f43e-106">Abra o Construtor de Topologia.</span><span class="sxs-lookup"><span data-stu-id="7f43e-106">Open Topology Builder.</span></span>
+1.  <span data-ttu-id="61394-107">Abra o Construtor de Topologia.</span><span class="sxs-lookup"><span data-stu-id="61394-107">Open Topology Builder.</span></span>
 
-2.  <span data-ttu-id="7f43e-107">Clique com o botão direito no nó do site e, em seguida, clique em **Editar propriedades**.</span><span class="sxs-lookup"><span data-stu-id="7f43e-107">Right-click the site node, and then click **Edit Properties**.</span></span>
+2.  <span data-ttu-id="61394-108">Clique com o botão direito no nó do site e, em seguida, clique em **Editar propriedades**.</span><span class="sxs-lookup"><span data-stu-id="61394-108">Right-click the site node, and then click **Edit Properties**.</span></span>
 
-3.  <span data-ttu-id="7f43e-108">Em **Configuração de Controle de Admissão de Chamadas**, certifique-se de que a opção \*\* Habilitar controle de admissão de chamadas\*\* está selecionada.</span><span class="sxs-lookup"><span data-stu-id="7f43e-108">Under **Call Admission Control setting**, make sure **Enable Call Admission Control** is selected.</span></span>
+3.  <span data-ttu-id="61394-109">Em **Configuração de Controle de Admissão de Chamadas**, certifique-se de que a opção \*\* Habilitar controle de admissão de chamadas\*\* está selecionada.</span><span class="sxs-lookup"><span data-stu-id="61394-109">Under **Call Admission Control setting**, make sure **Enable Call Admission Control** is selected.</span></span>
 
-4.  <span data-ttu-id="7f43e-109">Em **pool de front-ends para executar o CAC (controle de admissão de chamadas)**, selecione o pool do Lync Server 2013 que deve hospedar o CAC e clique em **OK**.</span><span class="sxs-lookup"><span data-stu-id="7f43e-109">Under **Front End pool to run call admission control (CAC)**, select the Lync Server 2013 pool that is to host CAC, and then click **OK**.</span></span>
+4.  <span data-ttu-id="61394-110">Em **pool de front-ends para executar o CAC (controle de admissão de chamadas)**, selecione o pool do Lync Server 2013 que deve hospedar o CAC e clique em **OK**.</span><span class="sxs-lookup"><span data-stu-id="61394-110">Under **Front End pool to run call admission control (CAC)**, select the Lync Server 2013 pool that is to host CAC, and then click **OK**.</span></span>
 
-5.  <span data-ttu-id="7f43e-110">Publique a topologia.</span><span class="sxs-lookup"><span data-stu-id="7f43e-110">Publish the topology.</span></span>
+5.  <span data-ttu-id="61394-111">Publique a topologia.</span><span class="sxs-lookup"><span data-stu-id="61394-111">Publish the topology.</span></span>
 
 </div>
 

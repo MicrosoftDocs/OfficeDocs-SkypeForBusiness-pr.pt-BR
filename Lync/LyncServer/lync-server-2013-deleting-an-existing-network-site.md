@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: excluindo um site de rede existente'
+description: 'Lync Server 2013: excluindo um site de rede existente.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 49733589
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d37e08eddac5b6166043a45d7e669c7e0ecd71a3
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 7cef4774ee71aaf6851757d5b88d30138fc34997
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48525378"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48551067"
 ---
-# <a name="deleting-an-existing-network-site-in-lync-server-2013"></a><span data-ttu-id="e87bb-102">Excluindo um site de rede existente no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e87bb-102">Deleting an existing network site in Lync Server 2013</span></span>
+# <a name="deleting-an-existing-network-site-in-lync-server-2013"></a><span data-ttu-id="8d2f8-103">Excluindo um site de rede existente no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8d2f8-103">Deleting an existing network site in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,40 +38,40 @@ ms.locfileid: "48525378"
 
 <span> </span>
 
-<span data-ttu-id="e87bb-103">_**Última modificação do tópico:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="e87bb-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="8d2f8-104">_**Última modificação do tópico:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="8d2f8-104">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="e87bb-104">Sites da rede são os escritórios ou locais configurados em cada região de um CAC (controle de admissão de chamadas) ou implantação do 9-1-1 Avançado.</span><span class="sxs-lookup"><span data-stu-id="e87bb-104">Network sites are the offices or locations configured within each region of a call admission control (CAC) or Enhanced 9-1-1 deployment.</span></span> <span data-ttu-id="e87bb-105">Você pode usar o painel de controle do Lync Server 2013 para configurar sites e associá-los às regiões.</span><span class="sxs-lookup"><span data-stu-id="e87bb-105">You can use the Lync Server 2013 Control Panel to configure sites and associate them with regions.</span></span> <span data-ttu-id="e87bb-106">Por exemplo, uma região de rede da América do Norte pode ser associada a sites da rede, como Chicago, Redmond e Vancouver.</span><span class="sxs-lookup"><span data-stu-id="e87bb-106">For example, a network region for North America might be associated with networks sites such as Chicago, Redmond, and Vancouver.</span></span> <span data-ttu-id="e87bb-107">Um site da rede do CAC deve ser criado para cada site da organização, mesmo que esse site não tenha limitações de largura de banda.</span><span class="sxs-lookup"><span data-stu-id="e87bb-107">A CAC network site must be created for every site within an organization, even if that site has no bandwidth limitations.</span></span> <span data-ttu-id="e87bb-108">No painel de controle do Lync Server, você pode criar, modificar e excluir sites de rede.</span><span class="sxs-lookup"><span data-stu-id="e87bb-108">From the Lync Server Control Panel you can create, modify, and delete network sites.</span></span> <span data-ttu-id="e87bb-109">Use o seguinte procedimento para excluir um local de rede existente.</span><span class="sxs-lookup"><span data-stu-id="e87bb-109">Use the following procedure to delete an existing network site.</span></span> <span data-ttu-id="e87bb-110">Para obter detalhes sobre como criar ou modificar sites de rede, consulte [criando ou modificando sites de rede no Lync Server 2013](lync-server-2013-creating-or-modifying-network-sites.md)</span><span class="sxs-lookup"><span data-stu-id="e87bb-110">For details about creating or modifying network sites, see [Creating or modifying network sites in Lync Server 2013](lync-server-2013-creating-or-modifying-network-sites.md)</span></span>
+<span data-ttu-id="8d2f8-105">Sites da rede são os escritórios ou locais configurados em cada região de um CAC (controle de admissão de chamadas) ou implantação do 9-1-1 Avançado.</span><span class="sxs-lookup"><span data-stu-id="8d2f8-105">Network sites are the offices or locations configured within each region of a call admission control (CAC) or Enhanced 9-1-1 deployment.</span></span> <span data-ttu-id="8d2f8-106">Você pode usar o painel de controle do Lync Server 2013 para configurar sites e associá-los às regiões.</span><span class="sxs-lookup"><span data-stu-id="8d2f8-106">You can use the Lync Server 2013 Control Panel to configure sites and associate them with regions.</span></span> <span data-ttu-id="8d2f8-107">Por exemplo, uma região de rede da América do Norte pode ser associada a sites da rede, como Chicago, Redmond e Vancouver.</span><span class="sxs-lookup"><span data-stu-id="8d2f8-107">For example, a network region for North America might be associated with networks sites such as Chicago, Redmond, and Vancouver.</span></span> <span data-ttu-id="8d2f8-108">Um site da rede do CAC deve ser criado para cada site da organização, mesmo que esse site não tenha limitações de largura de banda.</span><span class="sxs-lookup"><span data-stu-id="8d2f8-108">A CAC network site must be created for every site within an organization, even if that site has no bandwidth limitations.</span></span> <span data-ttu-id="8d2f8-109">No painel de controle do Lync Server, você pode criar, modificar e excluir sites de rede.</span><span class="sxs-lookup"><span data-stu-id="8d2f8-109">From the Lync Server Control Panel you can create, modify, and delete network sites.</span></span> <span data-ttu-id="8d2f8-110">Use o seguinte procedimento para excluir um local de rede existente.</span><span class="sxs-lookup"><span data-stu-id="8d2f8-110">Use the following procedure to delete an existing network site.</span></span> <span data-ttu-id="8d2f8-111">Para obter detalhes sobre como criar ou modificar sites de rede, consulte [criando ou modificando sites de rede no Lync Server 2013](lync-server-2013-creating-or-modifying-network-sites.md)</span><span class="sxs-lookup"><span data-stu-id="8d2f8-111">For details about creating or modifying network sites, see [Creating or modifying network sites in Lync Server 2013](lync-server-2013-creating-or-modifying-network-sites.md)</span></span>
 
 <div>
 
-## <a name="to-delete-a-network-site"></a><span data-ttu-id="e87bb-111">Para excluir um local de rede</span><span class="sxs-lookup"><span data-stu-id="e87bb-111">To delete a network site</span></span>
+## <a name="to-delete-a-network-site"></a><span data-ttu-id="8d2f8-112">Para excluir um local de rede</span><span class="sxs-lookup"><span data-stu-id="8d2f8-112">To delete a network site</span></span>
 
-1.  <span data-ttu-id="e87bb-112">A partir de uma conta de usuário que seja membro do grupo RTCUniversalServerAdmins (ou tenha direitos de usuário equivalentes) ou atribuída à função CsAdministrator, faça logon em qualquer computador em sua implantação interna.</span><span class="sxs-lookup"><span data-stu-id="e87bb-112">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or is assigned to the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1.  <span data-ttu-id="8d2f8-113">A partir de uma conta de usuário que seja membro do grupo RTCUniversalServerAdmins (ou tenha direitos de usuário equivalentes) ou atribuída à função CsAdministrator, faça logon em qualquer computador em sua implantação interna.</span><span class="sxs-lookup"><span data-stu-id="8d2f8-113">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or is assigned to the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-2.  <span data-ttu-id="e87bb-113">Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="e87bb-113">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="e87bb-114">Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="e87bb-114">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="8d2f8-114">Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="8d2f8-114">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="8d2f8-115">Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="8d2f8-115">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="e87bb-115">Na barra de navegação esquerda, clique em **Configuração da Rede** e em **Local**.</span><span class="sxs-lookup"><span data-stu-id="e87bb-115">In the left navigation bar, click **Network Configuration** and then click **Site**.</span></span>
+3.  <span data-ttu-id="8d2f8-116">Na barra de navegação esquerda, clique em **Configuração da Rede** e em **Local**.</span><span class="sxs-lookup"><span data-stu-id="8d2f8-116">In the left navigation bar, click **Network Configuration** and then click **Site**.</span></span>
 
-4.  <span data-ttu-id="e87bb-116">Na página **Local**, clique no local que deseja excluir.</span><span class="sxs-lookup"><span data-stu-id="e87bb-116">On the **Site** page, click the site that you want to delete.</span></span>
+4.  <span data-ttu-id="8d2f8-117">Na página **Local**, clique no local que deseja excluir.</span><span class="sxs-lookup"><span data-stu-id="8d2f8-117">On the **Site** page, click the site that you want to delete.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="e87bb-p103">Você pode excluir mais de um local de cada vez. Para fazer isso, pressione CTRL e selecione diversos locais mantendo a tecla pressionada. Ou então, para selecionar todos os locais, clique em <STRONG>Selecionar Tudo</STRONG> no menu <STRONG>Editar</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="e87bb-p103">You can delete more than one site at a time. To do this, press CTRL and select multiple sites while holding down the CTRL key. Or, to select all sites, click <STRONG>Select all</STRONG> on the <STRONG>Edit</STRONG> menu.</span></span>
+    > <span data-ttu-id="8d2f8-p103">Você pode excluir mais de um local de cada vez. Para fazer isso, pressione CTRL e selecione diversos locais mantendo a tecla pressionada. Ou então, para selecionar todos os locais, clique em <STRONG>Selecionar Tudo</STRONG> no menu <STRONG>Editar</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="8d2f8-p103">You can delete more than one site at a time. To do this, press CTRL and select multiple sites while holding down the CTRL key. Or, to select all sites, click <STRONG>Select all</STRONG> on the <STRONG>Edit</STRONG> menu.</span></span>
 
     
     </div>
 
-5.  <span data-ttu-id="e87bb-120">No menu **Editar**, clique em **Excluir**.</span><span class="sxs-lookup"><span data-stu-id="e87bb-120">On the **Edit** menu, click **Delete**.</span></span>
+5.  <span data-ttu-id="8d2f8-121">No menu **Editar**, clique em **Excluir**.</span><span class="sxs-lookup"><span data-stu-id="8d2f8-121">On the **Edit** menu, click **Delete**.</span></span>
 
-6.  <span data-ttu-id="e87bb-121">Clique em **OK**.</span><span class="sxs-lookup"><span data-stu-id="e87bb-121">Click **OK**.</span></span>
+6.  <span data-ttu-id="8d2f8-122">Clique em **OK**.</span><span class="sxs-lookup"><span data-stu-id="8d2f8-122">Click **OK**.</span></span>
     
     <div>
     
 
     > [!WARNING]  
-    > <span data-ttu-id="e87bb-p104">Você não poderá remover um local de rede se ele estiver associado a uma sub-rede. Se você tentar fazer isso, receberá uma mensagem de erro. Para ver se o local está associado a alguma sub-rede, clique no local e em <STRONG>Mostrar detalhes</STRONG> no menu <STRONG>Editar</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="e87bb-p104">You cannot remove a network site if it is associated with a network subnet. If you attempt to remove a site associated with a subnet you will receive an error message. To see if a site is associated with any subnets, click the site and then click <STRONG>Show details</STRONG> on the <STRONG>Edit</STRONG> menu.</span></span>
+    > <span data-ttu-id="8d2f8-p104">Você não poderá remover um local de rede se ele estiver associado a uma sub-rede. Se você tentar fazer isso, receberá uma mensagem de erro. Para ver se o local está associado a alguma sub-rede, clique no local e em <STRONG>Mostrar detalhes</STRONG> no menu <STRONG>Editar</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="8d2f8-p104">You cannot remove a network site if it is associated with a network subnet. If you attempt to remove a site associated with a subnet you will receive an error message. To see if a site is associated with any subnets, click the site and then click <STRONG>Show details</STRONG> on the <STRONG>Edit</STRONG> menu.</span></span>
 
     
     </div>

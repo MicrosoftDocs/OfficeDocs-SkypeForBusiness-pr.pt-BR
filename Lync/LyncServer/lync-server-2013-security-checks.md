@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: verificações de segurança'
+description: 'Lync Server 2013: verificações de segurança.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 63969572
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a63fbc538e9d73afd4f5794897417814d8fdcefc
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: efa3bb418f6b2e425431826786e752f6f514fcfa
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48510458"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48551457"
 ---
-# <a name="security-checks-in-lync-server-2013"></a><span data-ttu-id="20edd-102">Verificações de segurança no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="20edd-102">Security checks in Lync Server 2013</span></span>
+# <a name="security-checks-in-lync-server-2013"></a><span data-ttu-id="f7b17-103">Verificações de segurança no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f7b17-103">Security checks in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,16 +38,16 @@ ms.locfileid: "48510458"
 
 <span> </span>
 
-<span data-ttu-id="20edd-103">_**Última modificação do tópico:** 2014-08-18_</span><span class="sxs-lookup"><span data-stu-id="20edd-103">_**Topic Last Modified:** 2014-08-18_</span></span>
+<span data-ttu-id="f7b17-104">_**Última modificação do tópico:** 2014-08-18_</span><span class="sxs-lookup"><span data-stu-id="f7b17-104">_**Topic Last Modified:** 2014-08-18_</span></span>
 
-<span data-ttu-id="20edd-104">Execute auditorias regulares de segurança, como regras de firewall, direitos de usuário, associação de grupo, direitos de representante e assim por diante.</span><span class="sxs-lookup"><span data-stu-id="20edd-104">Perform regular audits of security, such as firewall rules, user rights, group membership, delegate rights, and so on.</span></span>
+<span data-ttu-id="f7b17-105">Execute auditorias regulares de segurança, como regras de firewall, direitos de usuário, associação de grupo, direitos de representante e assim por diante.</span><span class="sxs-lookup"><span data-stu-id="f7b17-105">Perform regular audits of security, such as firewall rules, user rights, group membership, delegate rights, and so on.</span></span>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="20edd-105">Confira também</span><span class="sxs-lookup"><span data-stu-id="20edd-105">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="f7b17-106">Confira também</span><span class="sxs-lookup"><span data-stu-id="f7b17-106">See Also</span></span>
 
 
-[<span data-ttu-id="20edd-106">Planejamento de segurança no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="20edd-106">Planning for security in Lync Server 2013</span></span>](lync-server-2013-planning-for-security.md)  
+[<span data-ttu-id="f7b17-107">Planejamento de segurança no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f7b17-107">Planning for security in Lync Server 2013</span></span>](lync-server-2013-planning-for-security.md)  
   
 
 </div>
