@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: marcar um aplicativo Microsoft SIP Processing Language (MSPL) como crítico ou não crítico'
+description: 'Lync Server 2013: marque um aplicativo Microsoft SIP Processing Language (MSPL) como crítico ou não crítico.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185622
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 42c40b115e81736cbbf8769292ab251953d3a752
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: e1f59fb6614416c1b0e4f49a766a1373483f509d
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48524758"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48556547"
 ---
 # <a name="mark-a-microsoft-sip-processing-language-mspl-application-as-critical-or-not-critical-in-lync-server-2013"></a>Marcar um aplicativo de idioma de processamento SIP da Microsoft (MSPL) como crítico ou não crítico no Lync Server 2013
 
