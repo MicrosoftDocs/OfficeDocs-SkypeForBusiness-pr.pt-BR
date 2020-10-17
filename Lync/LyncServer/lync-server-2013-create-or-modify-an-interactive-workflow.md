@@ -12,20 +12,22 @@ ms:contentKeyID: 48185260
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 21ce360c523573af90daecca55fba1eb8a52876d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 79af52b46c25796127fcb345360ed9f424ca3bf3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202857"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514758"
 ---
+# <a name="create-or-modify-an-interactive-workflow-in-lync-server-2013"></a>Criar ou modificar um fluxo de trabalho interativo no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-an-interactive-workflow-in-lync-server-2013"></a>Criar ou modificar um fluxo de trabalho interativo no Lync Server 2013
+
 
 </div>
 
@@ -43,7 +45,7 @@ Use um dos seguintes procedimentos para criar ou modificar um fluxo de trabalho 
 
 
 > [!NOTE]  
-> Você pode usar o Shell de gerenciamento do Lync Server ou a ferramenta de configuração do grupo de resposta para criar e modificar fluxos de trabalho interativos. Você pode acessar a ferramenta de configuração do grupo de resposta no painel de controle do Lync Server ou abrindo a página da Web diretamente de um navegador da Web digitando a seguinte URL: <STRONG>https://</STRONG>&lt;webPoolFqdn&gt;<STRONG>/RgsConfig</STRONG>.
+> Você pode usar o Shell de gerenciamento do Lync Server ou a ferramenta de configuração do grupo de resposta para criar e modificar fluxos de trabalho interativos. Você pode acessar a ferramenta de configuração do grupo de resposta no painel de controle do Lync Server ou abrindo a página da Web diretamente de um navegador da Web digitando a seguinte URL: <STRONG>https://</STRONG> &lt; webPoolFqdn &gt; <STRONG>/RgsConfig</STRONG>.
 
 
 
@@ -67,7 +69,7 @@ Use um dos seguintes procedimentos para criar ou modificar um fluxo de trabalho 
     
 
     > [!NOTE]  
-    > A ferramenta de configuração do grupo de resposta é aberta. Você também pode abrir a ferramenta de configuração do grupo de resposta diretamente de um navegador da Web digitando a seguinte URL: <STRONG>https://</STRONG>&lt;webPoolFqdn&gt;<STRONG>/RgsConfig</STRONG>.
+    > A ferramenta de configuração do grupo de resposta é aberta. Você também pode abrir a ferramenta de configuração do grupo de resposta diretamente de um navegador da Web digitando a seguinte URL: <STRONG>https://</STRONG> &lt; webPoolFqdn &gt; <STRONG>/RgsConfig</STRONG>.
 
     
     </div>
@@ -128,7 +130,7 @@ Use um dos seguintes procedimentos para criar ou modificar um fluxo de trabalho 
     
 
     > [!NOTE]  
-    > Não inclua os caracteres "&lt;" ou "&gt;" no nome de exibição. Não use os nomes de exibição a seguir, pois são reservados: RGS Presence Watcher ou Announcement Service.
+    > Não inclua os caracteres " &lt; " ou " &gt; " no nome de exibição. Não use os nomes de exibição a seguir, pois são reservados: RGS Presence Watcher ou Announcement Service.
 
     
     </div>
@@ -247,11 +249,11 @@ Use um dos seguintes procedimentos para criar ou modificar um fluxo de trabalho 
     
       - Para desconectar a chamada, clique em **Desconectar Chamada**.
     
-      - Para encaminhar a chamada para a caixa postal, clique em **Encaminhar para caixa postal** e digite o endereço da caixa postal. O formato do endereço de caixa postal é \<nome\>@\<de usuário nome_do_domínio\> (por exemplo, Bob@contoso.com).
+      - Para encaminhar a chamada para a caixa postal, clique em **Encaminhar para caixa postal** e digite o endereço da caixa postal. O formato para o endereço de caixa postal é \<username\> @ \<domainname\> (por exemplo, Bob@contoso.com).
     
-      - Para encaminhar a chamada para outro usuário, clique em **Encaminhar para URI do SIP** e digite um endereço de usuário. O formato do endereço de usuário é \<username\>@\<DomainName\>.
+      - Para encaminhar a chamada para outro usuário, clique em **Encaminhar para URI do SIP** e digite um endereço de usuário. O formato do endereço do usuário é \<username\> @ \<domainname\> .
     
-      - Para encaminhar a chamada para outro número de telefone, clique em **Encaminhar para número de telefone** e digite o número de telefone. O formato do número de telefone é \<número\>@\<DomainName\> (por exemplo, + 14255550121@contoso.com). O nome do domínio é usado para encaminhar o chamador ao destino correto.
+      - Para encaminhar a chamada para outro número de telefone, clique em **Encaminhar para número de telefone** e digite o número de telefone. O formato do número de telefone é \<number\> @ \<domainname\> (por exemplo, + 14255550121@contoso.com). O nome do domínio é usado para encaminhar o chamador ao destino correto.
 
 24. Sob **Etapa 5 Especifique seus Feriados**, clique nas opções para um ou mais conjuntos de feriados que definem quando o grupo de resposta estará fechado para negócios.
     
@@ -292,11 +294,11 @@ Use um dos seguintes procedimentos para criar ou modificar um fluxo de trabalho 
     
       - Para desconectar a chamada, clique em **Desconectar Chamada**.
     
-      - Para encaminhar a chamada para a caixa postal, clique em **Encaminhar para caixa postal** e digite o endereço da caixa postal. O formato do endereço de caixa postal é \<nome\>@\<de usuário nome_do_domínio\> (por exemplo, Bob@contoso.com).
+      - Para encaminhar a chamada para a caixa postal, clique em **Encaminhar para caixa postal** e digite o endereço da caixa postal. O formato para o endereço de caixa postal é \<username\> @ \<domainname\> (por exemplo, Bob@contoso.com).
     
-      - Para encaminhar a chamada para outro usuário, clique em **Encaminhar para URI do SIP** e digite um endereço de usuário. O formato do endereço de usuário é \<username\>@\<DomainName\>.
+      - Para encaminhar a chamada para outro usuário, clique em **Encaminhar para URI do SIP** e digite um endereço de usuário. O formato do endereço do usuário é \<username\> @ \<domainname\> .
     
-      - Para encaminhar a chamada para outro número de telefone, clique em **Encaminhar para número de telefone** e digite o número de telefone. O formato do número de telefone é \<número\>@\<DomainName\> (por exemplo, + 14255550121@contoso.com). O nome do domínio é usado para encaminhar o chamador ao destino correto.
+      - Para encaminhar a chamada para outro número de telefone, clique em **Encaminhar para número de telefone** e digite o número de telefone. O formato do número de telefone é \<number\> @ \<domainname\> (por exemplo, + 14255550121@contoso.com). O nome do domínio é usado para encaminhar o chamador ao destino correto.
 
 27. Sob **Etapa 6 Configure a Música de Espera**, escolha o que deseja que os chamadores ouçam enquanto esperam por um operador, executando um dos seguintes procedimentos:
     

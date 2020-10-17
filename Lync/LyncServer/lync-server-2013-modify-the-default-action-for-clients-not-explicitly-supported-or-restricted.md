@@ -12,20 +12,22 @@ ms:contentKeyID: 48184137
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 87f2b88b43c41a5a8bf990a72f0fdfef1c5537e2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 213e42a7477202cf40a0b06c79edde49976f0bbc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184814"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515268"
 ---
+# <a name="modify-the-default-action-for-clients-not-explicitly-supported-or-restricted-in-lync-server-2013"></a>Modificar a ação padrão para clientes não explicitamente suportados ou restritos no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="modify-the-default-action-for-clients-not-explicitly-supported-or-restricted-in-lync-server-2013"></a>Modificar a ação padrão para clientes não explicitamente suportados ou restritos no Lync Server 2013
+
 
 </div>
 
@@ -53,13 +55,13 @@ Além de especificar a versão de clientes que você deseja suportar no seu ambi
 
 5.  Na caixa de diálogo **Editar Configuração de Versão de Cliente**, verifique se que a caixa de seleção **Habilitar Controle de Versão** está marcada e, em **Ação padrão**, selecione uma das seguintes opções:
     
-      - **Permitir**   permite que o cliente faça logon se a versão do cliente não corresponder a qualquer filtro na lista de **políticas de versão do cliente** .
+      - **Permite que**     Permite que o cliente faça logon se a versão do cliente não corresponder a qualquer filtro na lista de **políticas de versão do cliente** .
     
-      - **Bloquear**   impede que o cliente faça logon se a versão do cliente não corresponder a qualquer filtro na lista de **políticas de versão do cliente** .
+      - **Bloquear**     Impede que o cliente faça logon se a versão do cliente não corresponder a qualquer filtro na lista de **políticas de versão do cliente** .
     
-      - **Bloquear com URL**   impede que o cliente faça logon se a versão do cliente não corresponder a qualquer filtro na lista de **políticas de versão do cliente** e incluir uma mensagem de erro contendo uma URL onde um cliente mais recente pode ser baixado.
+      - **Bloquear com URL**     Impede que o cliente faça logon se a versão do cliente não corresponder a qualquer filtro na lista de **políticas de versão do cliente** e inclua uma mensagem de erro contendo uma URL onde um cliente mais recente pode ser baixado.
     
-      - **Permitir com URL**   permite que o cliente faça logon se a versão do cliente não corresponder a qualquer filtro na lista de **políticas de versão do cliente** e incluir uma mensagem de erro contendo uma URL onde um cliente mais recente pode ser baixado.
+      - **Permitir com URL**     Permite que o cliente faça logon se a versão do cliente não corresponder a qualquer filtro na lista de **políticas de versão do cliente** e inclua uma mensagem de erro contendo uma URL onde um cliente mais recente pode ser baixado.
 
 6.  Se você tiver selecionado **Bloquear com URL**, digite a URL de download do cliente para incluir na mensagem de erro na caixa **URL**.
 
@@ -79,7 +81,7 @@ Além de especificar a versão de clientes que você deseja suportar no seu ambi
 
 ## <a name="modifying-the-default-action-by-using-windows-powershell-cmdlets"></a>Modificar a ação padrão usando cmdlets do Windows PowerShell
 
-A ação padrão a ser tomada quando os usuários tentam fazer logon usando clientes que não são explicitamente suportados ou restritos por uma política de versão do cliente podem ser gerenciados usando a interface de linha de comando do Windows PowerShell e o cmdlet **set-CsClientVersionPolicy** . Este cmdlet pode ser executado a partir do Shell de gerenciamento do Lync Server 2013 ou de uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Lync Server, consulte o artigo de blog do Lync Server Windows PowerShell "início rápido: Managing Microsoft Lync Server [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)2010 using Remote PowerShell" em.
+A ação padrão a ser tomada quando os usuários tentam fazer logon usando clientes que não são explicitamente suportados ou restritos por uma política de versão do cliente podem ser gerenciados usando a interface de linha de comando do Windows PowerShell e o cmdlet **set-CsClientVersionPolicy** . Este cmdlet pode ser executado a partir do Shell de gerenciamento do Lync Server 2013 ou de uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Lync Server, consulte o artigo de blog do Lync Server Windows PowerShell "início rápido: Managing Microsoft Lync Server 2010 using Remote PowerShell" em [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) .
 
 <div>
 

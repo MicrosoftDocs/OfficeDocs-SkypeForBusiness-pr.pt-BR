@@ -12,20 +12,22 @@ ms:contentKeyID: 48184167
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f8a8da9937e31f0544dd93b1994745dc3a9eb10b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 58b0ffdc009d48ef82d1bdf3ba8662cd4072ea1c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180168"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514848"
 ---
+# <a name="create-or-edit-public-sip-federated-providers-in-lync-server-2013"></a>Criar ou editar provedores federados SIP públicos no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-or-edit-public-sip-federated-providers-in-lync-server-2013"></a>Criar ou editar provedores federados SIP públicos no Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42180168"
 
 _**Última modificação do tópico:** 2012-10-19_
 
-A conectividade de mensagens instantâneas (IM) pública permite que os usuários em sua organização usem mensagens instantâneas para se comunicar com usuários de serviços de IM fornecidos por provedores de serviço de\!im públicos, incluindo o Windows Live Messenger, o Yahoo e o AOL.
+A conectividade de mensagens instantâneas (IM) pública permite que os usuários em sua organização usem mensagens instantâneas para se comunicar com usuários de serviços de IM fornecidos por provedores de serviço de IM públicos, incluindo o Windows Live Messenger, o Yahoo \! e o AOL.
 
 Lync Server 2013 tem configurações de provedor público para America Online, Windows Live e Yahoo\! mensagens instantâneas. Cada provedor público é configurado com o nome de domínio totalmente qualificado do servidor de borda do provedor e o nível de verificação padrão **permite que os usuários se comuniquem somente com pessoas em suas listas de contatos que usam esse provedor**.
 
@@ -61,13 +63,13 @@ Use o procedimento a seguir para criar ou editar provedores públicos:
 
 6.  Na página **Editar Provedor Federado SIP**, você pode digitar ou editar as seguintes configurações:
     
-      - **Habilitar comunicações com este provedor**   selecionar essa configuração habilita im com os usuários desse provedor.
+      - **Habilitar comunicações com este provedor**     A seleção dessa configuração permite mensagens instantâneas com os usuários desse provedor.
     
-      - **Nome do provedor:**   uma propriedade obrigatória, digite o nome do provedor conforme ele será refletido na lista de provedores federados SIP.
+      - **Nome do provedor:**     Uma propriedade Required, digite o nome do provedor conforme ele será refletido na lista de provedores federados SIP.
     
-      - **Serviço de borda de acesso (FQDN):**   uma propriedade necessária, digite o nome de domínio totalmente qualificado do serviço de borda de acesso do provedor que você está configurando. Essas informações são fornecidas como um item padrão e só devem ser alteradas se o provedor público fizer uma alteração no FQDN do serviço de borda de acesso no provedor público.
+      - **Serviço de borda de acesso (FQDN):**     Uma propriedade obrigatória, digite o nome de domínio totalmente qualificado do serviço de borda de acesso do provedor que você está configurando. Essas informações são fornecidas como um item padrão e só devem ser alteradas se o provedor público fizer uma alteração no FQDN do serviço de borda de acesso no provedor público.
     
-      - **Nível de verificação padrão:**   a configuração padrão, **permitir que os usuários se comuniquem com pessoas em suas listas de contatos que usam este provedor** limitarão a comunicação aos contatos que você aceitou e estão em sua lista de contatos.
+      - **Nível de verificação padrão:**     A configuração padrão, **permitir que os usuários se comuniquem com pessoas em suas listas de contatos, que usam esse provedor** , limitarão a comunicação aos contatos que você aceitou e estão em sua lista de contatos.
         
         Selecionar **Permitir que os usuários se comuniquem com todos que usam este provedor** remove a restrição de que você deve ter recebido e aceitado o convite de um contato. Essa configuração não limita quem pode contatá-lo da rede do provedor público.
 

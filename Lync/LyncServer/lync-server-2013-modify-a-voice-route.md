@@ -12,20 +12,22 @@ ms:contentKeyID: 48185143
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e04f3a46d283139e745f1430f835222f25d4d912
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b6e2a3f255a77d7773d24d654c5c207b59b887bc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184944"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515338"
 ---
+# <a name="modify-a-voice-route-in-lync-server-2013"></a>Modificar uma rota de voz no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="modify-a-voice-route-in-lync-server-2013"></a>Modificar uma rota de voz no Lync Server 2013
+
 
 </div>
 
@@ -67,7 +69,7 @@ Este tópico explica como editar uma rota de voz. Para criar uma nova rota, conf
         
           - **Exceções:** Se você quiser especificar uma ou mais exceções para um valor de prefixo, realce o prefixo e clique em **exceções**. Digite um ou mais valores para os padrões de correspondência que você *não* deseja acomodar com essa rota. Por exemplo, para excluir números que começam com + 425237 da rota, insira um valor de **+ 425237** no campo **exceções** e clique em **OK**.
     
-      - Para definir manualmente o padrão de correspondência, clique em **Editar** na ferramenta **Compilar um padrão para correspondências** e digite uma expressão .NET Framework regular para especificar o padrão de correspondência para números de telefone de destino aos quais a rota é aplicada. Para obter informações sobre como escrever expressões regulares, consulte "expressões regulares do .NET Framework" [https://go.microsoft.com/fwlink/p/?linkId=140927](https://go.microsoft.com/fwlink/p/?linkid=140927)em.
+      - Para definir manualmente o padrão de correspondência, clique em **Editar** na ferramenta **Compilar um padrão para correspondências** e digite uma expressão .NET Framework regular para especificar o padrão de correspondência para números de telefone de destino aos quais a rota é aplicada. Para obter informações sobre como escrever expressões regulares, consulte "expressões regulares do .NET Framework" em [https://go.microsoft.com/fwlink/p/?linkId=140927](https://go.microsoft.com/fwlink/p/?linkid=140927) .
 
 8.  Selecione **suprimir ID de chamadas** se você não quiser que a ID do telefone que está fazendo a chamada de saída apareça para o destinatário da chamada. Se você selecionar essa opção, especifique um **ID de chamadas alternativo** que aparecerá no display de ID da chamada do destinatário.
 

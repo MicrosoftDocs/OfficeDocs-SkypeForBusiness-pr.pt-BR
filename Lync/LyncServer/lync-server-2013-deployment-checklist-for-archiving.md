@@ -12,20 +12,22 @@ ms:contentKeyID: 48184516
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2df74bda74f1b9af01e1c4e73fa2f21b7119363f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ccec3917e892d1ba6c3e1841773c77e8c2d015d0
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188154"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514519"
 ---
+# <a name="deployment-checklist-for-archiving-in-lync-server-2013"></a>Lista de verificação de implantação para arquivamento no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deployment-checklist-for-archiving-in-lync-server-2013"></a>Lista de verificação de implantação para arquivamento no Lync Server 2013
+
 
 </div>
 
@@ -45,9 +47,9 @@ O arquivamento é instalado automaticamente em cada servidor de front-end em sua
 
 O modo de configuração do Arquivamento depende da opção de armazenamento escolhida:
 
-  - Se você usar a integração do Microsoft Exchange para todos os usuários em sua implantação, não será necessário configurar as políticas de arquivamento do Lync Server 2013 para seus usuários. Em vez disso, configure suas políticas de bloqueio in-loco do Exchange para dar suporte ao arquivamento para usuários hospedados no Exchange 2013, com suas caixas de correio colocadas em bloqueio in-loco. Para obter detalhes sobre como configurar essas políticas, consulte a documentação do produto Exchange 2013.
+  - Se você usar a integração do Microsoft Exchange para todos os usuários em sua implantação, não será necessário configurar as políticas de arquivamento do Lync Server 2013 para seus usuários. Em vez disso, configure suas políticas de retenção de In-Place do Exchange para dar suporte ao arquivamento para usuários hospedados no Exchange 2013, com suas caixas de correio colocadas em In-Place isenção. Para obter detalhes sobre como configurar essas políticas, consulte a documentação do produto Exchange 2013.
 
-  - Se você não usar a integração do Microsoft Exchange para todos os usuários em sua implantação, será necessário adicionar bancos de dados de arquivamento do Lync Server (bancos de dados do SQL Server) à sua topologia e publicá-lo, além de configurar políticas e configurações para seus usuários, antes de poder arquivar dados para esses usuários. Você pode implantar os bancos de dados de Arquivamento ao mesmo tempo em que implanta a topologia inicial ou após implantar pelo menos um pool front-end ou servidor Standard Edition. Este documento descreve como implantar os bancos de dados de Arquivamento adicionando-os a uma implantação existente.
+  - Se você não usar a integração do Microsoft Exchange para todos os usuários em sua implantação, será necessário adicionar bancos de dados de arquivamento do Lync Server (bancos de dados do SQL Server) à sua topologia e publicá-lo, além de configurar políticas e configurações para seus usuários, antes de poder arquivar dados desses usuários. Você pode implantar os bancos de dados de Arquivamento ao mesmo tempo em que implanta a topologia inicial ou após implantar pelo menos um pool front-end ou servidor Standard Edition. Este documento descreve como implantar os bancos de dados de Arquivamento adicionando-os a uma implantação existente.
 
 Se você habilitar o arquivamento em um pool de Front-Ends ou em um servidor Standard Edition, você deve habilitá-lo em todos os pools e servidores de mesmo tipo na sua implantação. Isso porque os usuários cujas comunicações precisam ser arquivadas podem ser convidados a um grupo de conversação de IM ou a reuniões hospedadas em um pool diferente. Se o arquivamento não estiver habilitado no pool no qual a conversa ou a reunião está hospedada, a sessão completa não poderá ser arquivada. Nesses casos, as IMs com usuários habilitados para arquivamento ainda poderão ser arquivados, menos para arquivos de conteúdo de conferência e eventos de ingresso ou saída de conferências.
 
@@ -121,8 +123,8 @@ A tabela a seguir fornece uma visão geral das etapas necessárias para implanta
 </tr>
 <tr class="even">
 <td><p><strong>Definir políticas e configurações de arquivamento</strong></p></td>
-<td><p>Configure o arquivamento, incluindo se deve usar a integração do Microsoft Exchange, a política global e as políticas de site e de usuário (quando não estiver usando a integração do Microsoft Exchange para todos os armazenamentos de dados) e opções de arquivamento específicas, como o modo crítico e os dados exportação e limpeza.</p>
-<p>Se estiver usando a integração com o Microsoft Exchange, configure as políticas de bloqueio in-loco do Exchange conforme apropriado.</p></td>
+<td><p>Configure o arquivamento, incluindo se deve usar a integração do Microsoft Exchange, a política global e as políticas de site e de usuário (quando não estiver usando a integração do Microsoft Exchange para todos os armazenamentos de dados) e opções de arquivamento específicas, como modo crítico e exportação e limpeza de dados.</p>
+<p>Se estiver usando a integração com o Microsoft Exchange, configure as políticas de retenção do Exchange In-Place conforme apropriado.</p></td>
 <td><p>Grupo RTCUniversalServerAdmins (somente Windows PowerShell) ou atribua usuários à função CSArchivingAdministrator ou CSAdministrator.</p></td>
 <td><p><a href="lync-server-2013-configuring-support-for-archiving.md">Configurando o suporte para arquivamento no Lync Server 2013</a> na documentação de implantação.</p>
 <p>Documentação do produto Exchange (se estiver usando a integração com o Microsoft Exchange).</p></td>

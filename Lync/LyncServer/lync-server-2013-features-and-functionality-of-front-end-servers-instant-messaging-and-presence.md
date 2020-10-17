@@ -12,20 +12,22 @@ ms:contentKeyID: 48183294
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ab1b2285b80098ec6acf1faad64f21a78472c0b2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 26f80eb823af5ec50c18390fe2ebca2b25498874
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42179648"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515368"
 ---
+# <a name="features-and-functionality-of-front-end-servers-instant-messaging-and-presence-in-lync-server-2013"></a>Recursos e funcionalidade de servidores front-end, mensagens instantâneas e presença no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="features-and-functionality-of-front-end-servers-instant-messaging-and-presence-in-lync-server-2013"></a>Recursos e funcionalidade de servidores front-end, mensagens instantâneas e presença no Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42179648"
 
 _**Última modificação do tópico:** 2013-03-17_
 
-Os servidores front-end fornecem a maioria da funcionalidade do Lync Server. Há duas edições disponíveis: Lync Server Enterprise Edition, que é projetado principalmente para organizações maiores, e Lync Server Standard Edition, que é projetado principalmente para organizações menores que desejam um Investement de hardware menor e não requer alta disponibilidade. Ambas as edições dão suporte a todas as cargas de trabalho do Lync Server, incluindo IM, presença, conferência e Enterprise Voice.
+Os servidores front-end fornecem a maioria da funcionalidade do Lync Server. Há duas edições disponíveis: Lync Server Enterprise Edition, que é projetado principalmente para organizações maiores, e Lync Server Standard Edition, projetado principalmente para organizações menores que desejam uma Investement de hardware menor e não precisam de alta disponibilidade. Ambas as edições dão suporte a todas as cargas de trabalho do Lync Server, incluindo IM, presença, conferência e Enterprise Voice.
 
 A mensagem instantânea (IM) permite que os usuários se comuniquem entre si em tempo real em seus computadores usando mensagens textuais. Tanto as sessões de IM de duas partes como as multipartes são suportadas. Um participante de uma conversa por IM de duas partes pode adicionar um terceiro participante à conversa a qualquer momento. Quando isso acontece, a janela de conversa muda para dar suporte aos recursos de conferência.
 
@@ -51,7 +53,7 @@ A mensagem instantânea (IM) permite que os usuários se comuniquem entre si em 
 
 </div>
 
-A *Presença* fornece informações a usuários sobre o status de outros na rede. O status de presença de um usuário fornece informações para ajudar outros usuários a decidir se devem tentar entrar em contato com o usuário e se devem fazê-lo por mensagem instantânea, telefone ou e-mail. A Presença encoraja a comunicação instantânea quando possível, mas também dá informações sobre se um usuário está em reunião ou fora do escritório, indicando que a comunicação instantânea não é possível. Este status de presença é exibido como um ícone de presença no Lync e outros aplicativos com reconhecimento de presença, incluindo o cliente de mensagens e colaboração do Microsoft Outlook, tecnologias do Microsoft SharePoint, Microsoft Word e planilha do Microsoft Excel software. O ícone de presença representa a disponibilidade e a propensão do usuário para se comunicar naquele momento.
+A *Presença* fornece informações a usuários sobre o status de outros na rede. O status de presença de um usuário fornece informações para ajudar outros usuários a decidir se devem tentar entrar em contato com o usuário e se devem fazê-lo por mensagem instantânea, telefone ou e-mail. A Presença encoraja a comunicação instantânea quando possível, mas também dá informações sobre se um usuário está em reunião ou fora do escritório, indicando que a comunicação instantânea não é possível. Este status de presença é exibido como um ícone de presença no Lync e outros aplicativos com reconhecimento de presença, incluindo o cliente de mensagens e colaboração do Microsoft Outlook, tecnologias do Microsoft SharePoint, Microsoft Word e software de planilha do Microsoft Excel. O ícone de presença representa a disponibilidade e a propensão do usuário para se comunicar naquele momento.
 
 </div>
 

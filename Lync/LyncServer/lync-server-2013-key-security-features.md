@@ -12,20 +12,22 @@ ms:contentKeyID: 56107266
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 20205bb401132143b0bcda28343e4ae3bcfd93b2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3a1ff88b11c7d0ce007fc3bac38e7e3618771fb7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186774"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514018"
 ---
+# <a name="key-security-features-in-lync-server-2013"></a>Principais recursos de segurança no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="key-security-features-in-lync-server-2013"></a>Principais recursos de segurança no Lync Server 2013
+
 
 </div>
 
@@ -127,13 +129,13 @@ O Assistente de Implantação pode preencher automaticamente os SNs (nomes de en
 
 ## <a name="trustworthy-computing-security-development-lifecycle-sdl"></a>SDL (ciclo de vida de desenvolvimento de segurança) de computação confiável
 
-O Lync Server 2013 foi projetado e desenvolvido em conformidade com o SDL (Security Development Lifecycle) de computação confiável da Microsoft, descrito <https://go.microsoft.com/fwlink/?linkid=68761>em.
+O Lync Server 2013 foi projetado e desenvolvido em conformidade com o SDL (Security Development Lifecycle) de computação confiável da Microsoft, descrito em <https://go.microsoft.com/fwlink/?linkid=68761> .
 
-  - **Digno de confiança pelo design**   da primeira etapa na criação de um sistema de comunicação unificada mais seguro era criar modelos de ameaças e testar cada recurso conforme ele foi criado. Além disso, a Microsoft realiza testes fora do comportamento projetado para encontrar vulnerabilidades de segurança resultantes de um comportamento de produto inesperado. Diversos aprimoramentos relacionados à segurança foram integrados ao processo e práticas de codificação. As ferramentas de tempo de compilação detectam estouros de buffer e outras possíveis ameaças de segurança antes que o código seja verificado no produto final. É claro que é impossível estar preparado para todas as ameaças de segurança desconhecidas. Nenhum sistema pode garantir a segurança completa. No entanto, como o desenvolvimento de produtos adotou princípios de design seguros desde o início, o Lync Server 2013 incorpora tecnologias de segurança padrão do setor como parte fundamental de sua arquitetura.
+  - **Confiável por design**     A primeira etapa na criação de um sistema de comunicação unificada mais segura era criar modelos de ameaças e testar cada recurso conforme ele foi criado. Além disso, a Microsoft realiza testes fora do comportamento projetado para encontrar vulnerabilidades de segurança resultantes de um comportamento de produto inesperado. Diversos aprimoramentos relacionados à segurança foram integrados ao processo e práticas de codificação. As ferramentas de tempo de compilação detectam estouros de buffer e outras possíveis ameaças de segurança antes que o código seja verificado no produto final. É claro que é impossível estar preparado para todas as ameaças de segurança desconhecidas. Nenhum sistema pode garantir a segurança completa. No entanto, como o desenvolvimento de produtos adotou princípios de design seguros desde o início, o Lync Server 2013 incorpora tecnologias de segurança padrão do setor como parte fundamental de sua arquitetura.
 
-  - **Confiável por**   padrão, as comunicações de rede no Lync Server 2013 são criptografadas. Como todos os servidores usam certificados e autenticação Kerberos, TLS, SSTP (protocolo de transporte em tempo real seguro) e outras técnicas de criptografia padrão da indústria, incluindo criptografia AES (padrão de criptografia avançada) de 128 bits, praticamente todos os Lync Os dados do servidor são protegidos na rede. Além disso, o controle de acesso baseado em função permite implantar servidores que executam o Lync Server 2013 de modo que cada função de servidor execute apenas os serviços e tenha apenas as permissões relacionadas a esses serviços, que são apropriadas para a função de servidor.
+  - **Confiável por padrão**     Por padrão, as comunicações de rede no Lync Server 2013 são criptografadas. Como todos os servidores usam certificados e autenticação Kerberos, TLS, protocolo SRTP (Secure Real-Time Transport Protocol) e outras técnicas de criptografia padrão da indústria, incluindo criptografia AES (Advanced Encryption Standard) de 128 bits, praticamente todos os dados do Lync Server são protegidos na rede. Além disso, o controle de acesso baseado em função permite implantar servidores que executam o Lync Server 2013 de modo que cada função de servidor execute apenas os serviços e tenha apenas as permissões relacionadas a esses serviços, que são apropriadas para a função de servidor.
 
-  - **Confiável por implantação**   toda a documentação do Lync Server 2013 inclui práticas recomendadas e recomendações para ajudá-lo a determinar e configurar os níveis de segurança ideais para sua implantação e avaliar os riscos de segurança da ativação de opções não padrão.
+  - **Confiável por implantação**     Toda documentação do Lync Server 2013 inclui práticas recomendadas e recomendações para ajudá-lo a determinar e configurar os níveis de segurança ideais para sua implantação e avaliar os riscos de segurança da ativação de opções não padrão.
 
 </div>
 

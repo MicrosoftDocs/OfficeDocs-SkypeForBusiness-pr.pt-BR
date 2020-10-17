@@ -12,20 +12,22 @@ ms:contentKeyID: 48185194
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 010e8314eb7d2cbb33354461bdc2a1eb2c5b2cf1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 467dbfe14cbcbe7a032439fd437d3ce2c58c6d46
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204325"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515378"
 ---
+# <a name="failure-list-report-in-lync-server-2013"></a>Relatório de lista de falhas no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="failure-list-report-in-lync-server-2013"></a>Relatório de lista de falhas no Lync Server 2013
+
 
 </div>
 
@@ -73,7 +75,7 @@ In the Failure List Report, you can view a description for each Response code or
 
 Internal server error creating media for user.
 
-It's important to note that the Failure List Report does not provide a straightforward way to directly retrieve a list of all the users who participated in at least one failed session, nor does it provide a way to determine which users were most-often involved in a failed session. (Por um motivo, o relatório de lista de falhas não tem recursos de filtragem.) No entanto, se você exportar os dados e convertê-los em um arquivo de valores separados por vírgula, você poderá usar o Windows PowerShell para encontrar as respostas a perguntas como essas. Por exemplo, suponha que você salve os dados em um. Arquivo CSV chamado C:\\data\\Failure\_List. csv. Based on the data saved in that file, this command lists all the users who were involved in at least one failed session:
+It's important to note that the Failure List Report does not provide a straightforward way to directly retrieve a list of all the users who participated in at least one failed session, nor does it provide a way to determine which users were most-often involved in a failed session. (Por um motivo, o relatório de lista de falhas não tem recursos de filtragem.) No entanto, se você exportar os dados e convertê-los em um arquivo de valores separados por vírgula, você poderá usar o Windows PowerShell para encontrar as respostas a perguntas como essas. Por exemplo, suponha que você salve os dados em um. Arquivo CSV chamado C: \\ falha de dados \\ \_List.csv. Based on the data saved in that file, this command lists all the users who were involved in at least one failed session:
 
     $failures = Import-Csv -Path " C:\Data\Failure_List.csv"
     $failure |Sort-Object "From user" | Select-Object "From user" -Unique
@@ -115,7 +117,7 @@ Nenhum. Não é possível filtrar o Relatório de Lista de Falhas.
 
 <div>
 
-## <a name="metrics"></a>Métricas
+## <a name="metrics"></a>Métrica
 
 A tabela a seguir lista as informações fornecidas no Relatório de Lista de Falhas para cada chamada mal-sucedida.
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: roteamento baseado em local e transferências de chamadas consultivas'
+title: 'Lync Server 2013: Location-Based roteamento e transferências de chamadas consultivas'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 56335089
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2dff8b723889be65f26e2c04d7f6a594515bfd09
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 75284736af1307aff4e9c51c8118cf64dbd08568
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186554"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513808"
 ---
+# <a name="location-based-routing-and-consultative-call-transfers-in-lync-server-2013"></a>Location-Based transferências de chamadas de roteamento e consultoria no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="location-based-routing-and-consultative-call-transfers-in-lync-server-2013"></a>Roteamento baseado em local e transferências de chamadas consultivas no Lync Server 2013
+
 
 </div>
 
@@ -37,19 +39,19 @@ ms.locfileid: "42186554"
 
 _**Última modificação do tópico:** 2013-07-31_
 
-Além de aplicar o roteamento baseado em local às reuniões do Lync, o aplicativo de conferência de roteamento baseado em local impõe restrições de roteamento com base no local em transferências de chamadas consultivas que entram em pontos de extremidade PSTN. Uma transferência de chamada consultiva é estabelecida entre duas partes em que uma das partes transfere a chamada para um novo usuário. Por exemplo, um ponto de extremidade PSTN chama usuário A (Lync chamado). O usuário A determina que o usuário PSTN deve ser encaminhado para o usuário B (usuário do Lync). O usuário A coloca a chamada com o usuário PSTN em espera e chama o usuário B. o usuário B concorda em falar com o usuário PSTN. O usuário A transfere a chamada em espera para o usuário B.
+Além de impor Location-Based roteamento às reuniões do Lync, o Location-Based aplicativo de conferência de roteamento impõe Location-Based restrições de roteamento em transferências de chamadas consuldas que entram em pontos de extremidade PSTN. Uma transferência de chamada consultiva é estabelecida entre duas partes em que uma das partes transfere a chamada para um novo usuário. Por exemplo, um ponto de extremidade PSTN chama usuário A (Lync chamado). O usuário A determina que o usuário PSTN deve ser encaminhado para o usuário B (usuário do Lync). O usuário A coloca a chamada com o usuário PSTN em espera e chama o usuário B. o usuário B concorda em falar com o usuário PSTN. O usuário A transfere a chamada em espera para o usuário B.
 
 **Fluxo de chamadas de transferência de chamadas consultivas**
 
 ![Roteamento baseado em local para o diagrama de conferência](images/Dn362836.e4d43d6f-23d2-49c9-b12b-15248a743f92(OCS.15).jpg "Roteamento baseado em local para o diagrama de conferência")
 
-Quando um usuário habilitado para roteamento baseado em local inicia uma transferência de chamada consultiva de um ponto de extremidade PSTN (conforme mostrado na figura anterior), isso cria duas chamadas ativas, uma chamada entre o usuário PSTN e o usuário do Lync a e a outra entre o usuário do Lync e o usuário B do Lync. o comportamento a seguir é imposto pelo aplicativo de conferência de roteamento baseado em local:
+Quando um usuário habilitado para roteamento de Location-Based inicia uma transferência de chamada consultiva de um ponto de extremidade PSTN (conforme mostrado na figura anterior), isso cria duas chamadas ativas, uma chamada entre o usuário PSTN e o usuário do Lync A e a outra entre o usuário do Lync e o usuário B. o seguinte comportamento é imposto pelo aplicativo de conferência de roteamento de Location-Based:
 
   - Se o roteamento de tronco SIP, a chamada PSTN é autorizada a encaminhar novamente a chamada PSTN para o local de rede onde o usuário B do Lync (ou seja, destino da transferência) está localizado, a transferência de chamada será permitida; caso contrário, a transferência de chamadas consuldas será bloqueada. Essa autorização é executada com base no local da parte transferida que está no mesmo local de rede que o tronco SIP que está encaminhando a chamada ativa para o ponto de extremidade PSTN.
 
-  - Se o tronco SIP de roteamento, a chamada PSTN de entrada não é autorizada a encaminhar chamadas para o local de rede onde a parte transferida (usuário B) está localizada ou a parte transferida está localizada em um site de rede desconhecido e, em seguida, a transferência de chamada consultiva para a PSTN o ponto de extremidade (ou seja, destino da transferência de chamada) será bloqueado.
+  - Se o tronco SIP encaminhar a chamada PSTN de entrada não tiver autorização para rotear chamadas para o local de rede onde a parte transferida (usuário B) está localizada ou a parte transferida está localizada em um site de rede desconhecido, a transferência de chamada consultiva para o ponto de extremidade PSTN (ou seja, destino da transferência de chamada) será bloqueada.
 
-A tabela a seguir descreve como as restrições de roteamento baseadas em local são aplicadas pelo aplicativo de conferência de roteamento baseado em local para transferências de chamadas consultivas. Embora os pontos de extremidade PBX não estejam diretamente associados a um site de rede, o tronco SIP ao qual o PBX está conectado pode ser atribuído a um local de rede. Portanto, o ponto de extremidade de PBX pode ser indiretamente associado a um site de rede.
+A tabela a seguir descreve como Location-Based restrições de roteamento são aplicadas pelo aplicativo de conferência de roteamento de Location-Based para transferências de chamadas consultivas. Embora os pontos de extremidade PBX não estejam diretamente associados a um site de rede, o tronco SIP ao qual o PBX está conectado pode ser atribuído a um local de rede. Portanto, o ponto de extremidade de PBX pode ser indiretamente associado a um site de rede.
 
 
 <table>

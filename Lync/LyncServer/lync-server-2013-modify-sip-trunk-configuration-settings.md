@@ -12,20 +12,22 @@ ms:contentKeyID: 49733703
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5eb0d3d535a4ba5b3e8ffd9a9c712edd601fbbbc
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 356c418c620cbbf38a97da2df652b5767f9fced9
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184894"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515318"
 ---
+# <a name="modify-sip-trunk-configuration-settings-in-lync-server-2013"></a>Modificar as definições de configuração do tronco SIP no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="modify-sip-trunk-configuration-settings-in-lync-server-2013"></a>Modificar as definições de configuração do tronco SIP no Lync Server 2013
+
 
 </div>
 
@@ -96,7 +98,7 @@ Ao modificar as definições de configuração do tronco SIP usando o painel de 
 <td><p>Enable3pccRefer</p>
 <p>EnableReferSupport</p></td>
 <td><p>Se definido como <strong>Habilitar endio ao gateway</strong>, indica que o tronco suporta receber solicitações de Refer do Servidor de Mediação.</p>
-<p>Se definido como <strong>Habilitar refer usando controle de chamada terceirizado</strong>, indica que o protocolo 3pcc pode ser usado para permitir que chamadas transferidas pulem o local host. o 3pcc também é conhecido &quot;como controle de terceiros&quot; e ocorre quando um terceiro é usado para conectar um par de chamadores (por exemplo, um operador fazendo uma chamada da pessoa a a pessoa B).</p></td>
+<p>Se definido como <strong>Habilitar refer usando controle de chamada terceirizado</strong>, indica que o protocolo 3pcc pode ser usado para permitir que chamadas transferidas pulem o local host. o 3pcc também é conhecido como &quot; controle de terceiros &quot; e ocorre quando um terceiro é usado para conectar um par de chamadores (por exemplo, um operador fazendo uma chamada da pessoa a a pessoa B).</p></td>
 </tr>
 <tr class="even">
 <td><p>Habilitar bypass de mídia</p></td>
@@ -135,7 +137,7 @@ Ao modificar as definições de configuração do tronco SIP usando o painel de 
 </tr>
 <tr class="odd">
 <td><p>Número convertido para testar</p></td>
-<td><p>Não disponível</p></td>
+<td><p>N/D</p></td>
 <td><p>Número de telefone que pode ser usado para um teste ad hoc de configurações do tronco.</p></td>
 </tr>
 <tr class="even">
@@ -150,17 +152,17 @@ Ao modificar as definições de configuração do tronco SIP usando o painel de 
 </tr>
 <tr class="even">
 <td><p>Número de telefone a ser de testado.</p></td>
-<td><p>Não disponível</p></td>
+<td><p>N/D</p></td>
 <td><p>Número de telefone que pode ser usado para um teste ad hoc das regras de conversão.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Número de chamada</p></td>
-<td><p>Não disponível</p></td>
+<td><p>N/D</p></td>
 <td><p>Indica que o número de telefone a ser testado é o número do chamador.</p></td>
 </tr>
 <tr class="even">
 <td><p>Número chamado</p></td>
-<td><p>Não disponível</p></td>
+<td><p>N/D</p></td>
 <td><p>Indica que o número de telefone a ser testado é o número da pessoa sendo chamada.</p></td>
 </tr>
 </tbody>

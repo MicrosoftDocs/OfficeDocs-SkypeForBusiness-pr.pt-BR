@@ -12,20 +12,22 @@ ms:contentKeyID: 48185358
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 335f7680a98eb53414a8b438975d79327b515946
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6f5b2fe64b4f32a43ff1462ab27daef04694c99b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196964"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515748"
 ---
+# <a name="back-end-server-high-availability-in-lync-server-2013"></a>Alta disponibilidade de servidor back-end no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="back-end-server-high-availability-in-lync-server-2013"></a>Alta disponibilidade de servidor back-end no Lync Server 2013
+
 
 </div>
 
@@ -43,7 +45,7 @@ Você pode configurar facilmente o espelhamento do SQL com o construtor de topol
 
 Se você usar o espelhamento de SQL ou SQL em um pool que esteja emparelhado com outro pool de front-ends para recuperação de desastres, deverá usar a mesma solução de alta disponibilidade de back-end em ambos os pools. Você não deve emparelhar um pool usando o espelhamento SQL com um pool usando o cluster do SQL.
 
-Quando você implanta o espelhamento do SQL, todos os bancos de dados do Lync Server no pool são espelhados, incluindo o repositório de gerenciamento central, se ele estiver localizado nesse pool, bem como o banco de dados de aplicativo do grupo de resposta e o banco de dados do aplicativo de estacionamento de chamada, se esses aplicativos estão em execução no pool.
+Quando você implanta o espelhamento do SQL, todos os bancos de dados do Lync Server no pool são espelhados, incluindo o repositório de gerenciamento central, se ele estiver localizado nesse pool, bem como o banco de dados de aplicativo do grupo de resposta e o banco de dados do aplicativo de estacionamento de chamada, se esses aplicativos estiverem em execução no pool.
 
 Com o espelhamento SQL, você não precisa usar o armazenamento compartilhado para servidores. Cada servidor mantém sua cópia dos bancos de dados no armazenamento local.
 

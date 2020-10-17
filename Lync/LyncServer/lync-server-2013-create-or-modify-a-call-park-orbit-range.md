@@ -12,20 +12,22 @@ ms:contentKeyID: 48184142
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4fe04aea0cc0d6ab38b0bfa9597b420d608c7597
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e1ecf0a1313519a74bb054c7fa3b441580758018
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180138"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514778"
 ---
+# <a name="create-or-modify-a-call-park-orbit-range-in-lync-server-2013"></a>Criar ou modificar um intervalo de órbita de estacionamento de chamada no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-a-call-park-orbit-range-in-lync-server-2013"></a>Criar ou modificar um intervalo de órbita de estacionamento de chamada no Lync Server 2013
+
 
 </div>
 
@@ -80,7 +82,7 @@ Utilize um dos seguintes procedimentos para criar ou modificar um intervalo de �
     > <LI>
     > <P>Se o intervalo da órbita começa com um caractere * ou #, o intervalo deve ser maior que 100.</P>
     > <LI>
-    > <P>Valores válidos: devem corresponder à cadeia de caracteres de expressão\*regular ([| #]? [ 1-9] \d{0,7}) | ([1-9] \d{0,8}). Isso significa que o valor deve ser uma cadeira de caracteres iniciando tanto com um caractere * ou # ou um número entre 1 e 9 (o primeiro caractere não pode ser zero). Se o primeiro caractere for * ou #, o caractere seguinte deve ser um número entre 1 e 9 (não pode ser zero). Os caracteres subsequentes podem ser qualquer número de 0 a 9 até sete caracteres adicionais (por exemplo, "#6000", "*92000", "* 95551212" e "915551212"). Se o primeiro caractere não é * ou #, deve ser um número de 1 a 9 (não pode ser zero), seguido por oito caracteres, cada um com número de 0 a 9 (por exemplo: "915551212", "41212", "300").</P>
+    > <P>Valores válidos: devem corresponder à cadeia de caracteres de expressão regular ([ \* | #]? [ 1-9] \d {0,7} ) | ([1-9] \d {0,8} ). Isso significa que o valor deve ser uma cadeira de caracteres iniciando tanto com um caractere * ou # ou um número entre 1 e 9 (o primeiro caractere não pode ser zero). Se o primeiro caractere for * ou #, o caractere seguinte deve ser um número entre 1 e 9 (não pode ser zero). Os caracteres subsequentes podem ser qualquer número de 0 a 9 até sete caracteres adicionais (por exemplo, "#6000", "*92000", "* 95551212" e "915551212"). Se o primeiro caractere não é * ou #, deve ser um número de 1 a 9 (não pode ser zero), seguido por oito caracteres, cada um com número de 0 a 9 (por exemplo: "915551212", "41212", "300").</P>
     > <LI>
     > <P>Você não deve ter mais que um total de 50.000 órbitas por pool. Cada intervalo de órbita geralmente abrange 100 órbitas ou menos, mas pode ser muito maior, contanto que inclua menos que 10.000 órbitas. Por exemplo, em vez de especificar um número inicial em "7000000" e um número final em "8000000", considere especificar um número inicial em "7000000" e um número final em "7000100".</P></LI></UL>
 

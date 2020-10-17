@@ -12,20 +12,22 @@ ms:contentKeyID: 48183849
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c1531b7b103e3df6f2d165a4fd6fcd3abf100132
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 65735c6b5eba4ff8d15aced6fcc94e38591bdb3e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42179618"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515388"
 ---
+# <a name="failure-distribution-report-in-lync-server-2013"></a>Relatório de distribuição de falhas no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="failure-distribution-report-in-lync-server-2013"></a>Relatório de distribuição de falhas no Lync Server 2013
+
 
 </div>
 
@@ -163,11 +165,11 @@ A tabela a seguir lista os filtros que você pode usar com o Relatório de Falha
 <td><p>Indica se a atividade em questão teve sucesso ou falhou. Selecione uma das seguintes opções:</p>
 <ul>
 <li><p>Todos os</p></li>
-<li><p>Êxito</p></li>
+<li><p>Sucesso</p></li>
 <li><p>Falha esperada</p></li>
 <li><p>Falha inesperada</p></li>
 </ul>
-<p>Uma &quot;falha&quot; esperada é uma falha que deve ocorrer. Por exemplo, se um usuário configurou seu status para Não Perturbe, é previsto que qualquer chamada para ele irá falhar. Uma &quot;falha&quot; inesperada é uma falha que ocorre no que parece ser um sistema saudável de outra forma. Por exemplo, uma chamada não deveria ser terminada se o chamador for colocado em espera. Se isso ocorrer, será sinalizado como uma falha inesperada.</p></td>
+<p>Uma &quot; falha esperada &quot; é uma falha que deve ocorrer. Por exemplo, se um usuário configurou seu status para Não Perturbe, é previsto que qualquer chamada para ele irá falhar. Uma &quot; falha inesperada &quot; é uma falha que ocorre no que parece ser um sistema saudável de outra forma. Por exemplo, uma chamada não deveria ser terminada se o chamador for colocado em espera. Se isso ocorrer, será sinalizado como uma falha inesperada.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ID diagnóstico</strong></p></td>

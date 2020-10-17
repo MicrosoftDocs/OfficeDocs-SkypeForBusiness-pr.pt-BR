@@ -12,20 +12,22 @@ ms:contentKeyID: 48183659
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e65560cd792fe4132cf20f3b32824b2c828ae757
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: da3069fdd039cb394308f3901ae9805b9023e15d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186574"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513878"
 ---
+# <a name="list-of-persistent-chat-server-tables-in-lync-server-2013"></a>Lista de tabelas do servidor de chat persistente no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="list-of-persistent-chat-server-tables-in-lync-server-2013"></a>Lista de tabelas do servidor de chat persistente no Lync Server 2013
+
 
 </div>
 
@@ -67,7 +69,7 @@ O esquema do banco de dados de chat persistente consiste nas seguintes tabelas.
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-tbladupdates.md">tblADUpdates no Lync Server 2013</a></p></td>
-<td><p>Contém alterações nos serviços de domínio do Active Directory que ainda não foram processados pelas etapas de sincronização posteriores do Active Directory e é uma das tabelas temporárias (junto com a tabela tblPrincipalMemberDifference) que é usada na primeira etapa do Active Directory Sincronização.</p>
+<td><p>Contém alterações nos serviços de domínio do Active Directory que ainda não foram processados pelas etapas de sincronização posteriores do Active Directory e é uma das tabelas temporárias (junto com a tabela tblPrincipalMemberDifference) que é usada na primeira etapa da sincronização do Active Directory.</p>
 <p>As alterações no Active Directory são armazenadas, processadas ou ambas somente para entidades de segurança que já estão listadas na tabela tblPrincipal.</p></td>
 </tr>
 <tr class="even">
@@ -143,11 +145,11 @@ O esquema do banco de dados de chat persistente consiste nas seguintes tabelas.
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-tblenumattribute.md">tblEnumAttribute no Lync Server 2013</a></p></td>
-<td><p>Contém apenas os atributos de &quot;visibilidade&quot; e &quot;comportamento&quot; codificados usados na tabela tblNode.</p></td>
+<td><p>Contém apenas os atributos de &quot; visibilidade &quot; e &quot; comportamento codificados &quot; usados na tabela tblNode.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-tblenumvalue.md">tblEnumValue no Lync Server 2013</a></p></td>
-<td><p>Contém os valores dos atributos de comportamento &quot;&quot; de visibilidade codificada "e" que são usados na tabela tblNode.</p></td>
+<td><p>Contém os valores dos atributos de comportamento de visibilidade codificada &quot; "e" &quot; que são usados na tabela tblNode.</p></td>
 </tr>
 </tbody>
 </table>

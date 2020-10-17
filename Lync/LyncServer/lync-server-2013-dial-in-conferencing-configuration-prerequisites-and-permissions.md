@@ -12,20 +12,22 @@ ms:contentKeyID: 48185165
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 791fa7e697622a4274655a77a2f02a6cdee140cb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a6c394d3535acb9b1842ac49f13eda1459d68c95
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213447"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514503"
 ---
+# <a name="dial-in-conferencing-configuration-prerequisites-and-permissions-in-lync-server-2013"></a>Pré-requisitos e permissões de configuração de conferência discada no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dial-in-conferencing-configuration-prerequisites-and-permissions-in-lync-server-2013"></a>Pré-requisitos e permissões de configuração de conferência discada no Lync Server 2013
+
 
 </div>
 
@@ -119,11 +121,11 @@ Use essas ferramentas administrativas para definir as configurações de confer�
 
 A configuração de uma conferência discada exige qualquer uma das funções administrativas a seguir, dependendo da tarefa:
 
-  - **CsVoiceAdministrator**   essa função de administrador pode criar, configurar e gerenciar configurações e políticas relacionadas à voz.
+  - **CsVoiceAdministrator**     Essa função de administrador pode criar, configurar e gerenciar configurações e políticas relacionadas à voz.
 
-  - **CsUserAdministrator**   essa função de administrador pode habilitar e desabilitar usuários para o Lync Server e atribuir políticas existentes, como políticas de conferência e políticas de PIN, aos usuários.
+  - **CsUserAdministrator**     Essa função de administrador pode habilitar e desabilitar usuários para o Lync Server e atribuir políticas existentes, como políticas de conferência e políticas de PIN, aos usuários.
 
-  - **CsAdministrator**   essa função de administrador pode realizar todas as tarefas do CsVoiceAdministrator e do CsUserAdministrator.
+  - **CsAdministrator**     Essa função de administrador pode realizar todas as tarefas do CsVoiceAdministrator e do CsUserAdministrator.
 
 </div>
 

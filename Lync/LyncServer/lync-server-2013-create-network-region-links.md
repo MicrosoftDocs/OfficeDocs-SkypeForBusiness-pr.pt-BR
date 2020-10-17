@@ -12,20 +12,22 @@ ms:contentKeyID: 48185873
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1af9c2d6b651fd127986d89d521e99745e1af384
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 72e8c3d0fd254ba780b91d554402ca38d30f7073
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205587"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515558"
 ---
+# <a name="create-network-region-links-in-lync-server-2013"></a>Criar links de região de rede no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-network-region-links-in-lync-server-2013"></a>Criar links de região de rede no Lync Server 2013
+
 
 </div>
 
@@ -83,9 +85,9 @@ A topologia de exemplo possui um link entre as regiões da América do Norte e A
 
 5.  Na página **Novo link de região**, clique em **Nome** e digite um nome para o link de região de rede.
 
-6.  Clique em **região \#de rede 1**e clique na região de rede na lista que você deseja vincular à região \#de rede 2.
+6.  Clique em **região de rede \# 1**e clique na região de rede na lista que você deseja vincular à região de rede \# 2.
 
-7.  Clique em **região \#de rede 2**e, em seguida, clique em uma região de rede na lista que você deseja \#vincular à região de rede 1.
+7.  Clique em **região de rede \# 2**e, em seguida, clique em uma região de rede na lista que você deseja vincular à região de rede \# 1.
 
 8.  Opcionalmente, clique em **Política da largura de banda** e selecione o perfil da política de largura de banda que deseja aplicar para o link de região de rede.
     

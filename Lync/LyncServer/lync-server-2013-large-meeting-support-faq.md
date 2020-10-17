@@ -12,20 +12,22 @@ ms:contentKeyID: 48183837
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3bcb5e8ecf3843a8997daa818ed75b33162cfb70
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 28d25c317aa672b56f244fafefc8d96b0c31bc33
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186694"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513998"
 ---
+# <a name="large-meeting-support-faq-for-lync-server-2013"></a>Perguntas frequentes de suporte para grandes reuniões do Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="large-meeting-support-faq-for-lync-server-2013"></a>Perguntas frequentes de suporte para grandes reuniões do Lync Server 2013
+
 
 </div>
 
@@ -43,7 +45,7 @@ A seção a seguir oferece respostas às perguntas comuns sobre a criação e ex
 
 ## <a name="q-how-many-users-can-participate-in-a-large-meeting"></a>P: Quantos usuários podem participar de uma grande reunião?
 
-O modelo de usuário do Lync Server especifica os limites de 250 usuários em um pool compartilhado ou 1000 usuários em um pool dedicado a grandes reuniões, mas esses números representam apenas o número de usuários testados e apenas para o conjunto específico de hardware que usamos em nossos testes. Com base nos testes, é recomendável manter esses limites para tamanhos máximos. No entanto, você controla o número real de participantes permitidos em reuniões em sua organização Configurando uma ou mais políticas de conferência (que você configura usando os cmdlets do Windows PowerShell no Shell de gerenciamento do Lync Server ou usando o Lync Server Painel de controle). O número especificado em uma política de conferência pode ser qualquer número inteiro de 32 bits entre 1 e 4.294.967.295, mas o tamanho recomendado está entre 2 e 250 participantes e o valor padrão é 250.
+O modelo de usuário do Lync Server especifica os limites de 250 usuários em um pool compartilhado ou 1000 usuários em um pool dedicado a grandes reuniões, mas esses números representam apenas o número de usuários testados e apenas para o conjunto específico de hardware que usamos em nossos testes. Com base nos testes, é recomendável manter esses limites para tamanhos máximos. No entanto, você controla o número real de participantes permitidos em reuniões em sua organização Configurando uma ou mais políticas de conferência (que você configura usando os cmdlets do Windows PowerShell no Shell de gerenciamento do Lync Server ou usando o painel de controle do Lync Server). O número especificado em uma política de conferência pode ser qualquer número inteiro de 32 bits entre 1 e 4.294.967.295, mas o tamanho recomendado está entre 2 e 250 participantes e o valor padrão é 250.
 
 </div>
 
@@ -75,7 +77,7 @@ As grandes reuniões com até 1.000 usuários podem conter áudio, vídeo, compa
 
 ## <a name="q-can-i-use-group-instant-messaging-im-in-large-meetings"></a>P: Posso usar IM (mensagens instantâneas) em grupo nas grandes reuniões?
 
-Sim. No entanto, grandes números de mensagens instantâneas, especialmente quando enviadas por um grande número de participantes da reunião, podem afetar a experiência do usuário devido a problemas com a rolagem rápida do texto na janela de IM. A entrega de uma grande quantidade de mensagens instantâneas de até 1.000 usuários também pode introduzir cargas significativas do servidor, o que pode afetar o desempenho. Geralmente, o IM só é necessário para perguntas e respostas (\&p as).
+Sim. No entanto, grandes números de mensagens instantâneas, especialmente quando enviadas por um grande número de participantes da reunião, podem afetar a experiência do usuário devido a problemas com a rolagem rápida do texto na janela de IM. A entrega de uma grande quantidade de mensagens instantâneas de até 1.000 usuários também pode introduzir cargas significativas do servidor, o que pode afetar o desempenho. Geralmente, o IM só é necessário para perguntas e respostas (p \& as).
 
 </div>
 

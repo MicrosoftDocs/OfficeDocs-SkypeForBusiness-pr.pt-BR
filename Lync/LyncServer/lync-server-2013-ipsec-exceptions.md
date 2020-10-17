@@ -12,20 +12,22 @@ ms:contentKeyID: 48183627
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bd649cea823ce13460de924ffc49741b3ca5c6d6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4ee06e4b7f3cabc606a612cd0f332aed47b46823
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186784"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514148"
 ---
+# <a name="ipsec-exceptions-in-lync-server-2013"></a>Exceções de IPsec no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="ipsec-exceptions-in-lync-server-2013"></a>Exceções de IPsec no Lync Server 2013
+
 
 </div>
 
@@ -67,139 +69,139 @@ A tabela a seguir explica as configurações de exceções recomendadas do IPsec
 <tbody>
 <tr class="odd">
 <td><p>Entrada interna do Servidor de Borda A/V</p></td>
-<td><p>Qualquer tamanho</p></td>
+<td><p>Qualquer</p></td>
 <td><p>Interno do Servidor de Borda A/V</p></td>
 <td><p>UDP e TCP</p></td>
-<td><p>Qualquer tamanho</p></td>
-<td><p>Qualquer tamanho</p></td>
+<td><p>Qualquer</p></td>
+<td><p>Qualquer</p></td>
 <td><p>Não autenticar</p></td>
 </tr>
 <tr class="even">
 <td><p>Entrada externa do Servidor de Borda A/V</p></td>
-<td><p>Qualquer tamanho</p></td>
+<td><p>Qualquer</p></td>
 <td><p>Externo do Servidor de Borda A/V</p></td>
 <td><p>UDP e TCP</p></td>
-<td><p>Qualquer tamanho</p></td>
-<td><p>Qualquer tamanho</p></td>
+<td><p>Qualquer</p></td>
+<td><p>Qualquer</p></td>
 <td><p>Não autenticar</p></td>
 </tr>
 <tr class="odd">
 <td><p>Saída interna do Servidor de Borda A/V</p></td>
 <td><p>Interno do Servidor de Borda A/V</p></td>
-<td><p>Qualquer tamanho</p></td>
-<td><p>TCP &amp; UDP</p></td>
-<td><p>Qualquer tamanho</p></td>
-<td><p>Qualquer tamanho</p></td>
+<td><p>Qualquer</p></td>
+<td><p>&amp;TCP UDP</p></td>
+<td><p>Qualquer</p></td>
+<td><p>Qualquer</p></td>
 <td><p>Não autenticar</p></td>
 </tr>
 <tr class="even">
 <td><p>Saída externa do Servidor de Borda A/V</p></td>
 <td><p>Externo do Servidor de Borda A/V</p></td>
-<td><p>Qualquer tamanho</p></td>
+<td><p>Qualquer</p></td>
 <td><p>UDP e TCP</p></td>
-<td><p>Qualquer tamanho</p></td>
-<td><p>Qualquer tamanho</p></td>
+<td><p>Qualquer</p></td>
+<td><p>Qualquer</p></td>
 <td><p>Não autenticar</p></td>
 </tr>
 <tr class="odd">
 <td><p>Entrada do Servidor de Mediação</p></td>
-<td><p>Qualquer tamanho</p></td>
+<td><p>Qualquer</p></td>
 <td><p>Mediação</p>
 <p>Servidor (es)</p></td>
 <td><p>UDP e TCP</p></td>
-<td><p>Qualquer tamanho</p></td>
-<td><p>Qualquer tamanho</p></td>
+<td><p>Qualquer</p></td>
+<td><p>Qualquer</p></td>
 <td><p>Não autenticar</p></td>
 </tr>
 <tr class="even">
 <td><p>Saída do Servidor de Mediação</p></td>
 <td><p>Mediação</p>
 <p>Servidor (es)</p></td>
-<td><p>Qualquer tamanho</p></td>
+<td><p>Qualquer</p></td>
 <td><p>UDP e TCP</p></td>
-<td><p>Qualquer tamanho</p></td>
-<td><p>Qualquer tamanho</p></td>
+<td><p>Qualquer</p></td>
+<td><p>Qualquer</p></td>
 <td><p>Não autenticar</p></td>
 </tr>
 <tr class="odd">
 <td><p>Entrada do Atendedor de Conferência</p></td>
-<td><p>Qualquer tamanho</p></td>
+<td><p>Qualquer</p></td>
 <td><p>Servidor Front End executando o Atendedor de Conferência</p></td>
 <td><p>UDP e TCP</p></td>
-<td><p>Qualquer tamanho</p></td>
-<td><p>Qualquer tamanho</p></td>
+<td><p>Qualquer</p></td>
+<td><p>Qualquer</p></td>
 <td><p>Não autenticar</p></td>
 </tr>
 <tr class="even">
 <td><p>Saída do Atendedor de Conferência</p></td>
 <td><p>Servidor Front End executando o Atendedor de Conferência</p></td>
-<td><p>Qualquer tamanho</p></td>
+<td><p>Qualquer</p></td>
 <td><p>UDP e TCP</p></td>
-<td><p>Qualquer tamanho</p></td>
-<td><p>Qualquer tamanho</p></td>
+<td><p>Qualquer</p></td>
+<td><p>Qualquer</p></td>
 <td><p>Não autenticar</p></td>
 </tr>
 <tr class="odd">
 <td><p>Entrada de Conferência A/V</p></td>
-<td><p>Qualquer tamanho</p></td>
+<td><p>Qualquer</p></td>
 <td><p>Servidores Front-End</p></td>
 <td><p>UDP e TCP</p></td>
-<td><p>Qualquer tamanho</p></td>
-<td><p>Qualquer tamanho</p></td>
+<td><p>Qualquer</p></td>
+<td><p>Qualquer</p></td>
 <td><p>Não autenticar</p></td>
 </tr>
 <tr class="even">
 <td><p>Saída de Conferência A/V</p></td>
 <td><p>Servidores Front-End</p></td>
-<td><p>Qualquer tamanho</p></td>
+<td><p>Qualquer</p></td>
 <td><p>UDP e TCP</p></td>
-<td><p>Qualquer tamanho</p></td>
-<td><p>Qualquer tamanho</p></td>
+<td><p>Qualquer</p></td>
+<td><p>Qualquer</p></td>
 <td><p>Não autenticar</p></td>
 </tr>
 <tr class="odd">
 <td><p>Entrada do Exchange</p></td>
-<td><p>Qualquer tamanho</p></td>
+<td><p>Qualquer</p></td>
 <td><p>Unificação de Mensagens do Exchange</p></td>
 <td><p>UDP e TCP</p></td>
-<td><p>Qualquer tamanho</p></td>
-<td><p>Qualquer tamanho</p></td>
+<td><p>Qualquer</p></td>
+<td><p>Qualquer</p></td>
 <td><p>Não autenticar</p></td>
 </tr>
 <tr class="even">
 <td><p>Entrada dos Servidores de Compartilhamento de Aplicativo</p></td>
-<td><p>Qualquer tamanho</p></td>
+<td><p>Qualquer</p></td>
 <td><p>Servidores de Compartilhamento de Aplicativos</p></td>
 <td><p>TCP</p></td>
-<td><p>Qualquer tamanho</p></td>
-<td><p>Qualquer tamanho</p></td>
+<td><p>Qualquer</p></td>
+<td><p>Qualquer</p></td>
 <td><p>Não autenticar</p></td>
 </tr>
 <tr class="odd">
 <td><p>Saída do Servidor de Compartilhamento de Aplicativos.</p></td>
 <td><p>Servidores de Compartilhamento de Aplicativos</p></td>
-<td><p>Qualquer tamanho</p></td>
+<td><p>Qualquer</p></td>
 <td><p>TCP</p></td>
-<td><p>Qualquer tamanho</p></td>
-<td><p>Qualquer tamanho</p></td>
+<td><p>Qualquer</p></td>
+<td><p>Qualquer</p></td>
 <td><p>Não autenticar</p></td>
 </tr>
 <tr class="even">
 <td><p>Saída do Exchange</p></td>
 <td><p>Unificação de Mensagens do Exchange</p></td>
-<td><p>Qualquer tamanho</p></td>
+<td><p>Qualquer</p></td>
 <td><p>UDP e TCP</p></td>
-<td><p>Qualquer tamanho</p></td>
-<td><p>Qualquer tamanho</p></td>
+<td><p>Qualquer</p></td>
+<td><p>Qualquer</p></td>
 <td><p>Não autenticar</p></td>
 </tr>
 <tr class="odd">
 <td><p>Clientes</p></td>
-<td><p>Qualquer tamanho</p></td>
-<td><p>Qualquer tamanho</p></td>
+<td><p>Qualquer</p></td>
+<td><p>Qualquer</p></td>
 <td><p>VIA</p></td>
 <td><p>Intervalo especificado de portas de mídia</p></td>
-<td><p>Qualquer tamanho</p></td>
+<td><p>Qualquer</p></td>
 <td><p>Não autenticar</p></td>
 </tr>
 </tbody>

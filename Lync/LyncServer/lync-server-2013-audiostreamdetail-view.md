@@ -12,20 +12,22 @@ ms:contentKeyID: 49733792
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fe995d08bf334308603512b4812b02c672d400f4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4a9abfbc214e72cf059250910ecec4ad3bcdba33
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205787"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515778"
 ---
+# <a name="audiostreamdetail-view-in-lync-server-2013"></a>Exibição AudioStreamDetail no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="audiostreamdetail-view-in-lync-server-2013"></a>Exibição AudioStreamDetail no Lync Server 2013
+
 
 </div>
 
@@ -557,7 +559,7 @@ A exibição AudioStreamDetail armazena informações sobre cada fluxo de áudio
 </tr>
 <tr class="odd">
 <td><p>CallerInitialSignalLevelRMS</p></td>
-<td><p>float</p></td>
+<td><p>flutuação</p></td>
 <td><p>Raiz quadrada média (RMS) o sinal de entrada para o chamador pelos 30 primeiros segundos da chamada.</p></td>
 </tr>
 <tr class="even">
@@ -652,7 +654,7 @@ A exibição AudioStreamDetail armazena informações sobre cada fluxo de áudio
 </tr>
 <tr class="even">
 <td><p>CalleeInitialSignalLevelRMS</p></td>
-<td><p>float</p></td>
+<td><p>flutuação</p></td>
 <td><p>Raiz quadrada média (RMS) do sinal de entrada para o receptor durante os 30 primeiros segundos da chamada.</p></td>
 </tr>
 <tr class="odd">

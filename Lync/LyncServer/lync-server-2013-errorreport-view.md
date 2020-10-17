@@ -12,20 +12,22 @@ ms:contentKeyID: 49733821
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e635cd289f0224a7f8d4106cecc3d8b047e9bb92
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e8792154c88c74049a785ddfb9ebbca55a52bc26
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207527"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514448"
 ---
+# <a name="errorreport-view-in-lync-server-2013"></a>Exibição ErrorReport no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="errorreport-view-in-lync-server-2013"></a>Exibição ErrorReport no Lync Server 2013
+
 
 </div>
 
@@ -148,7 +150,7 @@ A exibição ErrorReport armazena informações sobre erros relatados. Cada regi
 <td><p>Nome do servidor que originou o erro (se o relatório foi enviado de um componente do servidor).</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Aplicativo</strong></p></td>
+<td><p><strong>Aplicação</strong></p></td>
 <td><p>nvarchar (256)</p></td>
 <td><p>Nome de um aplicativo que originou o erro (se o relatório foi enviado de um componente do servidor).</p></td>
 </tr>
@@ -198,7 +200,7 @@ A exibição ErrorReport armazena informações sobre erros relatados. Cada regi
 <td><p>Informações adicionais sobre o erro.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Front</strong></p></td>
+<td><p><strong>FrontEnd</strong></p></td>
 <td><p>nvarchar</p></td>
 <td><p>Nome de domínio totalmente qualificado do servidor front-end que enviou o relatório.</p></td>
 </tr>

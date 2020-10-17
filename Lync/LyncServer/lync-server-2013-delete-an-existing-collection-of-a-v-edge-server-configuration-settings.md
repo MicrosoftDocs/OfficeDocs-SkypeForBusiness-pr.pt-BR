@@ -12,20 +12,22 @@ ms:contentKeyID: 49733673
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7043b2ce5fd35e36615b7b92d1561d725a86cc92
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 80a90e58c1dee8aacae052f916c6fdf6e260b7ba
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202737"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514688"
 ---
+# <a name="delete-an-existing-collection-of-av-edge-server-configuration-settings-in-lync-server-2013"></a>Excluir um conjunto existente de definições de configuração de servidor de borda A/V no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="delete-an-existing-collection-of-av-edge-server-configuration-settings-in-lync-server-2013"></a>Excluir um conjunto existente de definições de configuração de servidor de borda A/V no Lync Server 2013
+
 
 </div>
 
@@ -41,7 +43,7 @@ O serviço de Borda A/V fornece uma forma para seus usuários internos (usuário
 
 Quando você instala o Lync Server, uma coleção global de definições de configuração de borda A/V é criada para você. Esta coleção global não pode ser excluída. No entanto, você pode usar o Windows PowerShell e o cmdlet Remove-CsAVEdgeConfiguration para "redefinir" a coleção global; Isso simplesmente significa que todos os valores de propriedade na coleção global serão redefinidos para o valor padrão. Por exemplo, se você tiver definido a propriedade MaxTokenLifetime para 16 horas, essa propriedade será redefinida com o valor padrão de 8 horas.
 
-No entanto, as coleções de configurações personalizadas que você criou no escopo do site ou no escopo do serviço podem ser excluídas usando o cmdlet Remove-CsAVEdgeConfiguration. Se você excluir as configurações do site, os servidores de borda A/V desse site serão gerenciados pelas configurações globais. Se você excluir as configurações de escopo de serviço, esse servidor será gerenciado por suas configurações de site, se existirem, ou pelas configurações globais, se nenhuma configuração de site estiver disponível.
+No entanto, as coleções de configurações personalizadas criadas no escopo do site ou no escopo do serviço podem ser excluídas usando o cmdlet Remove-CsAVEdgeConfiguration. Se você excluir as configurações do site, os servidores de borda A/V desse site serão gerenciados pelas configurações globais. Se você excluir as configurações de escopo de serviço, esse servidor será gerenciado por suas configurações de site, se existirem, ou pelas configurações globais, se nenhuma configuração de site estiver disponível.
 
 Para obter mais informações, consulte o tópico de ajuda para o cmdlet [Remove-CsAVEdgeConfiguration](https://technet.microsoft.com/library/Gg398786(v=OCS.15)) .
 

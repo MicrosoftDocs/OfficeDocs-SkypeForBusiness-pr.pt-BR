@@ -12,20 +12,22 @@ ms:contentKeyID: 48185641
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2035d66d9b690a351a9b286eeff378ec0a36c1f9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4e98107d4949a935cbef448e1a533bddb0f7c5dc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186474"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513788"
 ---
+# <a name="location-report-in-lync-server-2013"></a>Relatório de localização no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="location-report-in-lync-server-2013"></a>Relatório de localização no Lync Server 2013
+
 
 </div>
 
@@ -127,7 +129,7 @@ A tabela a seguir lista os filtros que podem ser usados com o Relatório de Loca
 
 <div>
 
-## <a name="metrics"></a>Métricas
+## <a name="metrics"></a>Métrica
 
 A tabela a seguir lista as informações fornecidas no Relatório de Locais.
 
@@ -187,7 +189,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Locais.
 <tr class="even">
 <td><p><strong>Torção</strong></p></td>
 <td><p>Sim</p></td>
-<td><p>Tremulação média detectada entre chegadas de pacote RTP. (Tremulação é uma medida do &quot;tremula&quot; de uma chamada.) Os valores de variação alta geralmente são causados por congestionamento ou por um servidor de mídia sobrecarregado e resultam em um áudio distorcido ou perdido.</p></td>
+<td><p>Tremulação média detectada entre chegadas de pacote RTP. (Tremulação é uma medida do &quot; tremula &quot; de uma chamada.) Os valores de variação alta geralmente são causados por congestionamento ou por um servidor de mídia sobrecarregado e resultam em um áudio distorcido ou perdido.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Taxa de correção oculta</strong></p></td>

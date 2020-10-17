@@ -12,20 +12,22 @@ ms:contentKeyID: 48184959
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 256962ace879c9d418d877b94f15227959177407
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 940470dc8b6ccb7563dede6e3deaa4f123d88858
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206937"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515718"
 ---
+# <a name="configure-a-trunk-with-media-bypass-in-lync-server-2013"></a>Configurar um tronco com bypass de mídia no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-a-trunk-with-media-bypass-in-lync-server-2013"></a>Configurar um tronco com bypass de mídia no Lync Server 2013
+
 
 </div>
 
@@ -45,7 +47,7 @@ Siga estas etapas para configurar um tronco com bypass de mídia habilitado. Par
 
 
 > [!NOTE]  
-> O bypass de mídia não interoperará com cada gateway PSTN (rede telefônica pública comutada), IP-PBX e SBC (controlador de borda de sessão). A Microsoft testou um conjunto de gateways PSTN e SBCs com parceiros certificados e realizou alguns testes com IP-PBXs da Cisco. O bypass de mídia é suportado apenas com produtos e versões listados no programa de interoperabilidade aberta de comunicações unificativas – Lync Server em <A href="https://go.microsoft.com/fwlink/p/?linkid=214406">https://go.microsoft.com/fwlink/p/?linkId=214406</A>.
+> O bypass de mídia não interoperará com cada gateway PSTN (rede telefônica pública comutada), IP-PBX e SBC (controlador de borda de sessão). A Microsoft testou um conjunto de gateways PSTN e SBCs com parceiros certificados e realizou alguns testes com IP-PBXs da Cisco. O bypass de mídia é suportado apenas com produtos e versões listados no programa de interoperabilidade aberta de comunicações unificativas – Lync Server em <A href="https://go.microsoft.com/fwlink/p/?linkid=214406">https://go.microsoft.com/fwlink/p/?linkId=214406</A> .
 
 
 
@@ -180,7 +182,7 @@ Uma configuração de tronco, conforme descrito abaixo, agrupa um conjunto de pa
     
 
     > [!IMPORTANT]  
-    > É importante associar registros de uso do PSTN de acordo com o ponto do servidor de mediação associado ao tronco que está sendo configurado. Se o ponto de servidor de mediação for um gateway PSTN ou um SBC (controlador de borda de sessão), é altamente recomendável que a configuração de tronco não esteja associada a um registro de uso de PSTN que roteia um destino PSTN ou qualquer outro sistema downstream conectado via Lync Do.
+    > É importante associar registros de uso do PSTN de acordo com o ponto do servidor de mediação associado ao tronco que está sendo configurado. Se o ponto do servidor de mediação for um gateway PSTN ou um SBC (controlador de borda de sessão), é altamente recomendável que a configuração de tronco não esteja associada a um registro de uso de PSTN que roteia um destino PSTN ou qualquer outro sistema downstream conectado via Lync Server.
 
     
     </div>

@@ -12,20 +12,22 @@ ms:contentKeyID: 48679558
 ms.date: 09/03/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f8400c6bbcf0cfc7d69bcba9dbebab07d14b5e0a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1517ef4a7515a46b9237b1788c457c3aee10953d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180158"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514798"
 ---
+# <a name="create-or-edit-xmpp-partner-configuration-in-lync-server-2013"></a>Criar ou editar configuração do parceiro XMPP no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-or-edit-xmpp-partner-configuration-in-lync-server-2013"></a>Criar ou editar configuração do parceiro XMPP no Lync Server 2013
+
 
 </div>
 
@@ -75,12 +77,12 @@ O Microsoft Lync Server 2013 integra um proxy XMPP (Extensible Messaging and Pre
     
     Consulte o documento do XSF XEP-0178 para obter mais detalhes sobre os requisitos de XMPP. Para obter detalhes, consulte “XEP-0178: Best Practices for Use of SASL EXTERNAL with Certificates”. <http://xmpp.org/extensions/xep-0178.html>
     
-    Consulte o documento de IETF "Extensible Messaging and Presence Protocol (XMPP): Core", seção 5,0, negociação <https://tools.ietf.org/html/rfc6120>de STARTTLS.
+    Consulte o documento de IETF "Extensible Messaging and Presence Protocol (XMPP): Core", seção 5,0, negociação de STARTTLS <https://tools.ietf.org/html/rfc6120> .
     
       - **Negociação TLS**. Define as regras de negociação TLS. Um serviço XMPP pode exigir TLS, pode tornar o TLS opcional, ou definir que o TLS não é suportado. Escolher Opcional deixa os requisitos para o serviço XMPP para uma decisão de obrigatória para negociação. Para exibir todas as configurações e detalhes possíveis para a negociação SASL, TLS e Dialback – incluindo configurações de erro não válidas e conhecidas-consulte [configurações de negociação para parceiros federados do XMPP no Lync Server 2013](lync-server-2013-negotiation-settings-for-xmpp-federated-partners.md).
         
           - <span></span>  
-            **Necessário**. O serviço XMPP exige a negociação TLS.
+            **Obrigatório**. O serviço XMPP exige a negociação TLS.
         
           - <span></span>  
             **Opcional**. O serviço XMPP indica que o TLS é obrigatório para negociar.
@@ -100,7 +102,7 @@ O Microsoft Lync Server 2013 integra um proxy XMPP (Extensible Messaging and Pre
         </div>
         
           - <span></span>  
-            **Necessário**. O serviço XMPP exige negociação SASL.
+            **Obrigatório**. O serviço XMPP exige negociação SASL.
         
           - <span></span>  
             **Opcional**. O serviço XMPP indica que o SASL é obrigatório para negociar.
@@ -108,7 +110,7 @@ O Microsoft Lync Server 2013 integra um proxy XMPP (Extensible Messaging and Pre
           - <span></span>  
             **Sem suporte**. O serviço XMPP não suporta SASL.
     
-      - **Negociação Dialback**. A negociação Dialback é definida pelo XSF no documento **XEP-220: Server Dialback** <http://xmpp.org/extensions/xep-0220.html>. O processo do servidor de rediscagem usa o DNS (Sistema de Nomes de Domínio) e um servidor autoritativo para verificar se a solicitação veio de um parceiro XMPP válido. Para isso, o servidor de origem cria uma mensagem de um tipo específico com uma chave de rediscagem gerada e pesquisa o servidor de recebimento no DNS. O servidor originador envia a chave em um fluxo XML para a pesquisa DNS resultante, provavelmente o servidor recebedor. Na receita do fluxo chave sobre XML, o servidor recebedor não responde ao servidor originador, mas envia a chave para um servidor autoritativo conhecido. O servidor autoritativo verifica se a chave é válida ou inválida. Se não for válida, o servidor recebedor não responde ao servidor originador. Se a chave é válida, o servidor recebedor informa ao servidor originador que a identidade e a chave é válida e a conversação pode começar.
+      - **Negociação Dialback**. A negociação Dialback é definida pelo XSF no documento **XEP-220: Server Dialback** <http://xmpp.org/extensions/xep-0220.html> . O processo do servidor de rediscagem usa o DNS (Sistema de Nomes de Domínio) e um servidor autoritativo para verificar se a solicitação veio de um parceiro XMPP válido. Para isso, o servidor de origem cria uma mensagem de um tipo específico com uma chave de rediscagem gerada e pesquisa o servidor de recebimento no DNS. O servidor originador envia a chave em um fluxo XML para a pesquisa DNS resultante, provavelmente o servidor recebedor. Na receita do fluxo chave sobre XML, o servidor recebedor não responde ao servidor originador, mas envia a chave para um servidor autoritativo conhecido. O servidor autoritativo verifica se a chave é válida ou inválida. Se não for válida, o servidor recebedor não responde ao servidor originador. Se a chave é válida, o servidor recebedor informa ao servidor originador que a identidade e a chave é válida e a conversação pode começar.
         
         Existem dois estados válidos para **Negociação de discagem**:
         

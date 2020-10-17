@@ -12,20 +12,22 @@ ms:contentKeyID: 48184568
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 692cfd5f04a80a674fffb5e3a0f2f1890309c371
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d1eaaebf1fb695bc1ee6ea1b86f980a666cf0a70
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192834"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515528"
 ---
+# <a name="dns-summary---single-director-in-lync-server-2013"></a>Resumo de DNS-diretor único no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dns-summary---single-director-in-lync-server-2013"></a>Resumo de DNS-diretor único no Lync Server 2013
+
 
 </div>
 
@@ -60,31 +62,31 @@ A tabela a seguir contém um resumo dos registros DNS necessários para dar supo
 <tr class="odd">
 <td><p>DNS/A interno</p></td>
 <td><p>dir01.contoso.net</p></td>
-<td><p>Be</p></td>
+<td><p>Diretor</p></td>
 <td><p>Registro de host do diretor usado para replicação e servidor para servidor</p></td>
 </tr>
 <tr class="even">
 <td><p>DNS/A interno</p></td>
 <td><p>sip.contoso.com</p></td>
-<td><p>Be</p></td>
+<td><p>Diretor</p></td>
 <td><p>SIP (protocolo de iniciação de sessão de entrada) da interface de borda interna do servidor de borda</p></td>
 </tr>
 <tr class="odd">
 <td><p>DNS/A interno</p></td>
 <td><p>dialin.contoso.com</p></td>
-<td><p>Be</p></td>
+<td><p>Diretor</p></td>
 <td><p>Serviços Web de discagem publicados do proxy reverso</p></td>
 </tr>
 <tr class="even">
-<td><p>DNS/A inverso</p></td>
+<td><p>DNS interno/A</p></td>
 <td><p>meet.contoso.com</p></td>
-<td><p>Be</p></td>
+<td><p>Diretor</p></td>
 <td><p>Serviços Web de reunião publicados do proxy reverso</p></td>
 </tr>
 <tr class="odd">
 <td><p>DNS interno/A</p></td>
 <td><p>webdirexternal.contoso.com</p></td>
-<td><p>Be</p></td>
+<td><p>Diretor</p></td>
 <td><p>Publicado e definido pelos serviços Web externos de tíquete da Web de proxy reverso para o diretor</p></td>
 </tr>
 </tbody>

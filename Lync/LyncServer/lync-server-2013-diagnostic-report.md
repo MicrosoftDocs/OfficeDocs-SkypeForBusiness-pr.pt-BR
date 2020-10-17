@@ -12,20 +12,22 @@ ms:contentKeyID: 48185159
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3e95d746d323e803bf7dbc37e8cdaebcdd1d655c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a6eb6de7f2ba23d52a7b508869dbb25c9c5e3802
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213487"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514488"
 ---
+# <a name="diagnostic-report-in-lync-server-2013"></a>Relatório de diagnóstico no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="diagnostic-report-in-lync-server-2013"></a>Relatório de diagnóstico no Lync Server 2013
+
 
 </div>
 
@@ -63,7 +65,7 @@ Nenhum. Não é possível filtrar o Relatório de Diagnóstico.
 
 <div>
 
-## <a name="metrics"></a>Métricas
+## <a name="metrics"></a>Métrica
 
 A tabela a seguir lista as informações fornecidas no Relatório de Diagnóstico para cada sessão.
 
@@ -124,7 +126,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Diagnóstic
 <td><p>Tipo de conteúdo de mídia que falhou. Por exemplo, um tipo de conteúdo comum é Application/sdp. SDP (Protocolo de descrição de sessão) é um protocolo padrão de Internet usado para anúncios de sessão, convites de sessão e outras formas de início de sessão multimídia.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Aplicativo</strong></p></td>
+<td><p><strong>Aplicação</strong></p></td>
 <td><p>Não</p></td>
 <td><p>Aplicativo envolvido no erro.</p></td>
 </tr>

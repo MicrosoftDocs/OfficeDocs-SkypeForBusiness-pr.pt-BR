@@ -12,20 +12,22 @@ ms:contentKeyID: 51541456
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 568e96b999a74ec621f8c7386f24e83d3848721c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b0fb05667ea6ebcb8176353d42fda5cf2eaadfd7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208017"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515578"
 ---
+# <a name="configuring-a-reverse-proxy-for-autodiscover-in-lync-server-2013"></a>Configurando um proxy reverso para descoberta automática no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-a-reverse-proxy-for-autodiscover-in-lync-server-2013"></a>Configurando um proxy reverso para descoberta automática no Lync Server 2013
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**Última modificação do tópico:** 2012-12-12_
 
 A descoberta automática e o suporte de clientes que usam a descoberta automática exigem a modificação de uma regra de publicação da Web existente ou a criação de uma nova regra de publicação na Web para o proxy reverso. A modificação ou a criação de uma nova regra de publicação não depende da decisão de atualizar ou não atualizar as listas de nomes alternativos de entidades nos certificados de proxy reverso.
 
-Se você decidir usar HTTPS para solicitações iniciais do serviço de descoberta automática do Lync Server 2013 e atualizar as listas de nomes alternativos de entidade nos certificados de proxy reverso, você precisará atribuir o certificado público atualizado ao ouvinte SSL (Secure Sockets Layer) no seu proxy reverso. A atualização necessária para o certificado externo (público) incluirá a entrada de nome alternativo de entidade (SAN) para o lyncdiscover. \<nome\>do domínio. Você precisará modificar o ouvinte existente para os serviços Web externos ou criar uma nova regra de publicação na Web para a URL externa do serviço de descoberta automática, por exemplo, **lyncdiscover.contoso.com**. Se você ainda não tiver uma regra de publicação na Web para a URL dos serviços Web externos do Lync Server 2013 para o pool de front-ends e o pool de diretores (se você tiver implantado diretores), você também precisará publicar uma regra para isso.
+Se você decidir usar HTTPS para solicitações iniciais do serviço de descoberta automática do Lync Server 2013 e atualizar as listas de nomes alternativos de entidade nos certificados de proxy reverso, você precisará atribuir o certificado público atualizado ao ouvinte SSL (Secure Sockets Layer) no seu proxy reverso. A atualização necessária para o certificado externo (público) incluirá a entrada de nome alternativo de entidade (SAN) para o lyncdiscover. \<domain name\> . Você precisará modificar o ouvinte existente para os serviços Web externos ou criar uma nova regra de publicação na Web para a URL externa do serviço de descoberta automática, por exemplo, **lyncdiscover.contoso.com**. Se você ainda não tiver uma regra de publicação na Web para a URL dos serviços Web externos do Lync Server 2013 para o pool de front-ends e o pool de diretores (se você tiver implantado diretores), você também precisará publicar uma regra para isso.
 
 <div>
 
@@ -69,7 +71,7 @@ Os procedimentos nesta seção descrevem como criar ou modificar as regras de pu
 
 ## <a name="to-create-a-web-publishing-rule-for-the-external-autodiscover-url"></a>Para criar uma regra de publicação na Web para a URL externa de Descoberta Automática
 
-1.  Clique em **Iniciar**, aponte para **Programas**, **Microsoft Forefront TMG** e, então, clique em **Forefront TMG Management**.
+1.  Clique em **Iniciar**, aponte para **Programas**, aponte para **Microsoft Forefront TMG** e clique em **Gerenciamento do Forefront TMG**.
 
 2.  No painel esquerdo, expanda **Nome do Servidor**, clique com o botão direito do mouse em **Diretiva de Firewall**, aponte para **Novo** e clique em **Regra de Publicação de Site**.
 
@@ -77,21 +79,21 @@ Os procedimentos nesta seção descrevem como criar ou modificar as regras de pu
 
 4.  Na página **Selecionar Ação de Regra**, selecione **Permitir**.
 
-5.  Na página **Tipo de Publicação**, selecione **Publicar um único site da Web ou balanceador de carga**.
+5.  Na página **Tipo de Publicação**, selecione **Publicar um único site ou um balanceador de carga na Web** e clique em Avançar.
 
 6.  Na página **Segurança da Conexão do Servidor**, selecione **Usar SSL para conectar ao servidor Web ou ao farm de servidores publicado**.
 
 7.  Na página **detalhes de publicação interna** , em **nome do site interno**, digite o nome de domínio totalmente qualificado (FQDN) do seu pool de diretor (por exemplo, lyncdir01. contoso. local). Se você estiver criando uma regra para a URL de serviços Web externos no pool de front-ends, digite o FQDN do pool de front-ends (por exemplo, lyncpool01. contoso. local).
 
-8.  Na página **detalhes de publicação interna** , em **caminho (opcional)**, digite ** / ** como o caminho da pasta a ser publicada e, em seguida, selecione **encaminhar o cabeçalho de host original**.
+8.  Na página **detalhes de publicação interna** , em **caminho (opcional)**, digite **/\*** como o caminho da pasta a ser publicada e, em seguida, selecione **encaminhar o cabeçalho de host original**.
 
 9.  Na página **Detalhes do Nome Público**, faça o seguinte:
     
       - Em **Aceitar Solicitações para**, selecione **Este nome de domínio**.
     
-      - Em **nome público**, digite **lyncdiscover.** \<sipdomain\> (a URL externa do serviço de descoberta automática). Se você estiver criando uma regra para a URL de serviços Web externos no pool de front-ends, digite o FQDN dos serviços Web externos em seu pool de front-ends (por exemplo, lyncwebextpool01.contoso.com).
+      - Em **nome público**, digite **lyncdiscover.**\<sipdomain\> (a URL externa do serviço de descoberta automática). Se você estiver criando uma regra para a URL de serviços Web externos no pool de front-ends, digite o FQDN dos serviços Web externos em seu pool de front-ends (por exemplo, lyncwebextpool01.contoso.com).
     
-      - Em **caminho**, digite ** / **.
+      - Em **caminho**, digite **/\*** .
 
 10. Na página **Selecionar Ouvinte da Web**, no **Ouvinte da Web**, selecione o Ouvinte SSL existente com o certificado público atualizado.
 
@@ -172,15 +174,15 @@ Os procedimentos nesta seção descrevem como criar ou modificar as regras de pu
 
 7.  Na página **detalhes de publicação interna** , em **nome do site interno**, digite o FQDN dos serviços Web internos para seu pool de front-ends (por exemplo, lyncpool01. contoso. local).
 
-8.  Na página **detalhes de publicação interna** , em **caminho (opcional)**, digite ** / ** como o caminho da pasta a ser publicada e, em seguida, selecione **encaminhar o cabeçalho de host original em vez do especificado no campo nome do site interno**.
+8.  Na página **detalhes de publicação interna** , em **caminho (opcional)**, digite **/\*** como o caminho da pasta a ser publicada e, em seguida, selecione **encaminhar o cabeçalho de host original em vez do especificado no campo nome do site interno**.
 
 9.  Na página **Detalhes do Nome Público**, faça o seguinte:
     
       - Em **Aceitar Solicitações para**, selecione **Este nome de domínio**.
     
-      - Em **nome público**, digite **lyncdiscover.** \<sipdomain\> (a URL externa do serviço de descoberta automática).
+      - Em **nome público**, digite **lyncdiscover.**\<sipdomain\> (a URL externa do serviço de descoberta automática).
     
-      - Em **caminho**, digite ** / **.
+      - Em **caminho**, digite **/\*** .
 
 10. Em **Selecionar Ouvinte da Web**, em **Ouvinte da Web**, selecione um Ouvinte da Web ou use o Assistente de Nova Definição de Ouvinte da Web para criar um novo.
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 51541532
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8a65dd081cacd9952ce1b9a7f0917209532a28cf
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e281b85879063cacb9538d03fe221a4bf96b6bc5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204787"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514208"
 ---
+# <a name="establishing-a-backup-and-restoration-strategy-for-lync-server-2013"></a>Estabelecendo uma estratégia de backup e restauração para o Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="establishing-a-backup-and-restoration-strategy-for-lync-server-2013"></a>Estabelecendo uma estratégia de backup e restauração para o Lync Server 2013
+
 
 </div>
 
@@ -69,15 +71,15 @@ Necessidades comerciais, como estas ajudam a determinar os contratos de nível d
 
 Suas prioridades de negócios e contratos de nível de serviço atuam na determinação dos requisitos de sua organização para o backup e a restauração do Lync Server. Identifique e documente seus requisitos para o seguinte:
 
-  - **Frequência de backups**   para obter detalhes sobre as práticas recomendadas para frequência de backup, consulte [práticas recomendadas de backup e restauração para o Lync Server 2013](lync-server-2013-best-practices-for-backup-and-restoration.md).
+  - **Frequência de backups**     Para obter detalhes sobre as práticas recomendadas para frequência de backup, consulte [práticas recomendadas para backup e restauração do Lync Server 2013](lync-server-2013-best-practices-for-backup-and-restoration.md).
 
-  - **As ferramentas**   de backup e restauração incluem quem é usar as ferramentas e em quais computadores. Para obter detalhes sobre as ferramentas discutidas neste tópico e permissões necessárias, consulte [requisitos de backup e restauração no Lync Server 2013: ferramentas e permissões](lync-server-2013-backup-and-restoration-requirements-tools-and-permissions.md).
+  - Ferramentas de backup **e restauração**     Inclua quem deve usar as ferramentas e em quais computadores. Para obter detalhes sobre as ferramentas discutidas neste tópico e permissões necessárias, consulte [requisitos de backup e restauração no Lync Server 2013: ferramentas e permissões](lync-server-2013-backup-and-restoration-requirements-tools-and-permissions.md).
 
-  - **Local de backup**   identifique se os backups são mantidos local ou remotamente, levando a segurança e acessibilidade em consideração. Especifique a mídia a ser usada para os backups.
+  - **Local**     do backup Identifique se os backups são mantidos local ou remotamente, levando a segurança e acessibilidade em consideração. Especifique a mídia a ser usada para os backups.
 
-  - **Os requisitos**   de hardware e software identificam e documentam os requisitos específicos de hardware e software, incluindo o hardware para o armazenamento de backup e a restauração de componentes específicos e qualquer software e conectividade de rede necessários para dar suporte a backup e restauração. Conforme você desenvolve seus requisitos de hardware e software, lembre-se dos vários cenários de restauração a seguir.
+  - Requisitos de hardware **e software**     Identificar e documentar seus requisitos específicos de hardware e software, incluindo o hardware para o armazenamento de backup e a restauração de componentes específicos e qualquer software e conectividade de rede necessário para dar suporte a backup e restauração. Conforme você desenvolve seus requisitos de hardware e software, lembre-se dos vários cenários de restauração a seguir.
 
-  - **Cenários de restauração**   aqui estão os processos de restauração para os seguintes cenários:
+  - **Cenários**     de restauração Estes são os processos de restauração para os seguintes cenários:
     
       - Um pool do Lync Server falha. Este cenário exige a recompilação de cada servidor no pool.
     
