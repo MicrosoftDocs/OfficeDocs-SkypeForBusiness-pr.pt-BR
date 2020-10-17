@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: tblLastInviteId'
+description: 'Lync Server 2013: tblLastInviteId.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48183608
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a49682d5c154b154ddda6c5fd411905f5850722d
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: e5a13cfc7edc29ea20c95f7f4d587b0cfb84eb73
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48523788"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48547537"
 ---
-# <a name="tbllastinviteid-in-lync-server-2013"></a><span data-ttu-id="e6159-102">tblLastInviteId no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e6159-102">tblLastInviteId in Lync Server 2013</span></span>
+# <a name="tbllastinviteid-in-lync-server-2013"></a><span data-ttu-id="88ff8-103">tblLastInviteId no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="88ff8-103">tblLastInviteId in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,11 +38,11 @@ ms.locfileid: "48523788"
 
 <span> </span>
 
-<span data-ttu-id="e6159-103">_**Última modificação do tópico:** 2012-09-12_</span><span class="sxs-lookup"><span data-stu-id="e6159-103">_**Topic Last Modified:** 2012-09-12_</span></span>
+<span data-ttu-id="88ff8-104">_**Última modificação do tópico:** 2012-09-12_</span><span class="sxs-lookup"><span data-stu-id="88ff8-104">_**Topic Last Modified:** 2012-09-12_</span></span>
 
-<span data-ttu-id="e6159-104">tblLastInviteId contém a última ID de convite gerada (e usada na tabela tblPrincipalInvites) para cada usuário.</span><span class="sxs-lookup"><span data-stu-id="e6159-104">tblLastInviteId contains the last invite ID that was generated (and used in the tblPrincipalInvites table) for each user.</span></span>
+<span data-ttu-id="88ff8-105">tblLastInviteId contém a última ID de convite gerada (e usada na tabela tblPrincipalInvites) para cada usuário.</span><span class="sxs-lookup"><span data-stu-id="88ff8-105">tblLastInviteId contains the last invite ID that was generated (and used in the tblPrincipalInvites table) for each user.</span></span>
 
-### <a name="columns"></a><span data-ttu-id="e6159-105">Colunas</span><span class="sxs-lookup"><span data-stu-id="e6159-105">Columns</span></span>
+### <a name="columns"></a><span data-ttu-id="88ff8-106">Colunas</span><span class="sxs-lookup"><span data-stu-id="88ff8-106">Columns</span></span>
 
 <table>
 <colgroup>
@@ -51,27 +52,27 @@ ms.locfileid: "48523788"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="e6159-106">Coluna</span><span class="sxs-lookup"><span data-stu-id="e6159-106">Column</span></span></th>
-<th><span data-ttu-id="e6159-107">Tipo</span><span class="sxs-lookup"><span data-stu-id="e6159-107">Type</span></span></th>
-<th><span data-ttu-id="e6159-108">Descrição</span><span class="sxs-lookup"><span data-stu-id="e6159-108">Description</span></span></th>
+<th><span data-ttu-id="88ff8-107">Coluna</span><span class="sxs-lookup"><span data-stu-id="88ff8-107">Column</span></span></th>
+<th><span data-ttu-id="88ff8-108">Tipo</span><span class="sxs-lookup"><span data-stu-id="88ff8-108">Type</span></span></th>
+<th><span data-ttu-id="88ff8-109">Descrição</span><span class="sxs-lookup"><span data-stu-id="88ff8-109">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="e6159-109">prinID</span><span class="sxs-lookup"><span data-stu-id="e6159-109">prinID</span></span></p></td>
-<td><p><span data-ttu-id="e6159-110">int, não nulo</span><span class="sxs-lookup"><span data-stu-id="e6159-110">int, not null</span></span></p></td>
-<td><p><span data-ttu-id="e6159-111">ID principal.</span><span class="sxs-lookup"><span data-stu-id="e6159-111">Principal ID.</span></span></p></td>
+<td><p><span data-ttu-id="88ff8-110">prinID</span><span class="sxs-lookup"><span data-stu-id="88ff8-110">prinID</span></span></p></td>
+<td><p><span data-ttu-id="88ff8-111">int, não nulo</span><span class="sxs-lookup"><span data-stu-id="88ff8-111">int, not null</span></span></p></td>
+<td><p><span data-ttu-id="88ff8-112">ID principal.</span><span class="sxs-lookup"><span data-stu-id="88ff8-112">Principal ID.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e6159-112">lastInviteID</span><span class="sxs-lookup"><span data-stu-id="e6159-112">lastInviteID</span></span></p></td>
-<td><p><span data-ttu-id="e6159-113">int, não nulo</span><span class="sxs-lookup"><span data-stu-id="e6159-113">int, not null</span></span></p></td>
-<td><p><span data-ttu-id="e6159-114">ID do último convite usado.</span><span class="sxs-lookup"><span data-stu-id="e6159-114">Last used invite ID.</span></span></p></td>
+<td><p><span data-ttu-id="88ff8-113">lastInviteID</span><span class="sxs-lookup"><span data-stu-id="88ff8-113">lastInviteID</span></span></p></td>
+<td><p><span data-ttu-id="88ff8-114">int, não nulo</span><span class="sxs-lookup"><span data-stu-id="88ff8-114">int, not null</span></span></p></td>
+<td><p><span data-ttu-id="88ff8-115">ID do último convite usado.</span><span class="sxs-lookup"><span data-stu-id="88ff8-115">Last used invite ID.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="keys"></a><span data-ttu-id="e6159-115">Chaves</span><span class="sxs-lookup"><span data-stu-id="e6159-115">Keys</span></span>
+### <a name="keys"></a><span data-ttu-id="88ff8-116">Chaves</span><span class="sxs-lookup"><span data-stu-id="88ff8-116">Keys</span></span>
 
 <table>
 <colgroup>
@@ -80,18 +81,18 @@ ms.locfileid: "48523788"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="e6159-116">Coluna</span><span class="sxs-lookup"><span data-stu-id="e6159-116">Column</span></span></th>
-<th><span data-ttu-id="e6159-117">Descrição</span><span class="sxs-lookup"><span data-stu-id="e6159-117">Description</span></span></th>
+<th><span data-ttu-id="88ff8-117">Coluna</span><span class="sxs-lookup"><span data-stu-id="88ff8-117">Column</span></span></th>
+<th><span data-ttu-id="88ff8-118">Descrição</span><span class="sxs-lookup"><span data-stu-id="88ff8-118">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="e6159-118">prinID</span><span class="sxs-lookup"><span data-stu-id="e6159-118">prinID</span></span></p></td>
-<td><p><span data-ttu-id="e6159-119">Chave primária.</span><span class="sxs-lookup"><span data-stu-id="e6159-119">Primary key.</span></span></p></td>
+<td><p><span data-ttu-id="88ff8-119">prinID</span><span class="sxs-lookup"><span data-stu-id="88ff8-119">prinID</span></span></p></td>
+<td><p><span data-ttu-id="88ff8-120">Chave primária.</span><span class="sxs-lookup"><span data-stu-id="88ff8-120">Primary key.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e6159-120">prinID</span><span class="sxs-lookup"><span data-stu-id="e6159-120">prinID</span></span></p></td>
-<td><p><span data-ttu-id="e6159-121">Chave estrangeira com pesquisa na tabela tblPrincipal.prinID.</span><span class="sxs-lookup"><span data-stu-id="e6159-121">Foreign key with lookup in tblPrincipal.prinID table.</span></span></p></td>
+<td><p><span data-ttu-id="88ff8-121">prinID</span><span class="sxs-lookup"><span data-stu-id="88ff8-121">prinID</span></span></p></td>
+<td><p><span data-ttu-id="88ff8-122">Chave estrangeira com pesquisa na tabela tblPrincipal.prinID.</span><span class="sxs-lookup"><span data-stu-id="88ff8-122">Foreign key with lookup in tblPrincipal.prinID table.</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -99,10 +100,10 @@ ms.locfileid: "48523788"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="e6159-122">Confira também</span><span class="sxs-lookup"><span data-stu-id="e6159-122">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="88ff8-123">Confira também</span><span class="sxs-lookup"><span data-stu-id="88ff8-123">See Also</span></span>
 
 
-[<span data-ttu-id="e6159-123">tblPrincipalInvites no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e6159-123">tblPrincipalInvites in Lync Server 2013</span></span>](lync-server-2013-tblprincipalinvites.md)  
+[<span data-ttu-id="88ff8-124">tblPrincipalInvites no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="88ff8-124">tblPrincipalInvites in Lync Server 2013</span></span>](lync-server-2013-tblprincipalinvites.md)  
   
 
 </div>

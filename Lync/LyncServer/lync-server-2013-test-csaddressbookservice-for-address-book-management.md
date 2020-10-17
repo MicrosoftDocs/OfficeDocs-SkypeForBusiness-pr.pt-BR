@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: Test-CsAddressBookService para gerenciamento de catálogo de endereços'
+description: 'Lync Server 2013: Test-CsAddressBookService para gerenciamento de catálogo de endereços.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48185206
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 04ca485e8a17a5017537b9d568ec948de170a323
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 345886c68c814534fcbfd4debfd3be8562fae5a2
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48519258"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48547447"
 ---
-# <a name="test-csaddressbookservice-for-address-book-management-in-lync-server-2013"></a><span data-ttu-id="6f571-102">Test-CsAddressBookService para gerenciamento de catálogo de endereços no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6f571-102">Test-CsAddressBookService for Address Book management in Lync Server 2013</span></span>
+# <a name="test-csaddressbookservice-for-address-book-management-in-lync-server-2013"></a><span data-ttu-id="0cfc5-103">Test-CsAddressBookService para gerenciamento de catálogo de endereços no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0cfc5-103">Test-CsAddressBookService for Address Book management in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,24 +38,24 @@ ms.locfileid: "48519258"
 
 <span> </span>
 
-<span data-ttu-id="6f571-103">_**Última modificação do tópico:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="6f571-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="0cfc5-104">_**Última modificação do tópico:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="0cfc5-104">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="6f571-p101">Quem pode executar este cmdlet: por padrão, os membros do grupo a seguir estão autorizados a executar o cmdlet Test-CsAddressBookService localmente: RTCUniversalServerAdmins. Para retornar uma lista de todas as funções RBAC (controle de acesso baseado em função) que receberam a atribuição desse cmdlet (incluindo qualquer função RBAC personalizada criada por você), execute o seguinte comando no prompt do Windows PowerShell:</span><span class="sxs-lookup"><span data-stu-id="6f571-p101">Who can run this cmdlet: By default, members of the following groups are authorized to run the Test-CsAddressBookService cmdlet: RTCUniversalServerAdmins. To return a list of all the role-based access control (RBAC) roles this cmdlet has been assigned to (including any custom RBAC roles you have created yourself), run the following command from the Windows PowerShell prompt:</span></span>
+<span data-ttu-id="0cfc5-p101">Quem pode executar este cmdlet: por padrão, os membros do grupo a seguir estão autorizados a executar o cmdlet Test-CsAddressBookService localmente: RTCUniversalServerAdmins. Para retornar uma lista de todas as funções RBAC (controle de acesso baseado em função) que receberam a atribuição desse cmdlet (incluindo qualquer função RBAC personalizada criada por você), execute o seguinte comando no prompt do Windows PowerShell:</span><span class="sxs-lookup"><span data-stu-id="0cfc5-p101">Who can run this cmdlet: By default, members of the following groups are authorized to run the Test-CsAddressBookService cmdlet: RTCUniversalServerAdmins. To return a list of all the role-based access control (RBAC) roles this cmdlet has been assigned to (including any custom RBAC roles you have created yourself), run the following command from the Windows PowerShell prompt:</span></span>
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Test-CsAddressBookService"}
 
-<span data-ttu-id="6f571-106">O Lync Server 2013 contém vários cmdlets que iniciam comandos sintéticos para confirmar que uma função ou recurso específico está funcionando corretamente.</span><span class="sxs-lookup"><span data-stu-id="6f571-106">Lync Server 2013 contains a number of cmdlets that initiate synthetic commands to confirm that a specific function or feature is working properly.</span></span> <span data-ttu-id="6f571-107">Test-CsAddressBookService confirma que um usuário definido pode conectar e solicitar os arquivos locais a partir do serviço Web do catálogo de endereços.</span><span class="sxs-lookup"><span data-stu-id="6f571-107">Test-CsAddressBookService confirms that a defined user can connect and request the local files from the Address Book Web service.</span></span>
+<span data-ttu-id="0cfc5-107">O Lync Server 2013 contém vários cmdlets que iniciam comandos sintéticos para confirmar que uma função ou recurso específico está funcionando corretamente.</span><span class="sxs-lookup"><span data-stu-id="0cfc5-107">Lync Server 2013 contains a number of cmdlets that initiate synthetic commands to confirm that a specific function or feature is working properly.</span></span> <span data-ttu-id="0cfc5-108">Test-CsAddressBookService confirma que um usuário definido pode conectar e solicitar os arquivos locais a partir do serviço Web do catálogo de endereços.</span><span class="sxs-lookup"><span data-stu-id="0cfc5-108">Test-CsAddressBookService confirms that a defined user can connect and request the local files from the Address Book Web service.</span></span>
 
-<span data-ttu-id="6f571-108">Por exemplo:</span><span class="sxs-lookup"><span data-stu-id="6f571-108">For example:</span></span>
+<span data-ttu-id="0cfc5-109">Por exemplo:</span><span class="sxs-lookup"><span data-stu-id="0cfc5-109">For example:</span></span>
 
     Test-CsAddressBookService -TargetFqdn atl-cs-001.contoso.com -UserCredential contoso\bob -UserSipAddress "sip:bob@contoso.com"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="6f571-109">Consulte também</span><span class="sxs-lookup"><span data-stu-id="6f571-109">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="0cfc5-110">Consulte também</span><span class="sxs-lookup"><span data-stu-id="0cfc5-110">See Also</span></span>
 
 
-[<span data-ttu-id="6f571-110">Test-CsAddressBookService</span><span class="sxs-lookup"><span data-stu-id="6f571-110">Test-CsAddressBookService</span></span>](https://docs.microsoft.com/powershell/module/skype/Test-CsAddressBookService)  
+[<span data-ttu-id="0cfc5-111">Test-CsAddressBookService</span><span class="sxs-lookup"><span data-stu-id="0cfc5-111">Test-CsAddressBookService</span></span>](https://docs.microsoft.com/powershell/module/skype/Test-CsAddressBookService)  
   
 
 </div>
