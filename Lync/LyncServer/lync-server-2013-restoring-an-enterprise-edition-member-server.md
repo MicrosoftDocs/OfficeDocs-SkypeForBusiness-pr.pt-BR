@@ -12,20 +12,22 @@ ms:contentKeyID: 51541523
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e48af9dd5b35676ee0141b771f8e50e1fbdedae6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b958b10fc8c801d680cf17cac8fb493eae82df8d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201347"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511438"
 ---
+# <a name="restoring-an-enterprise-edition-member-server-in-lync-server-2013"></a>Restaurando um servidor membro Enterprise Edition no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="restoring-an-enterprise-edition-member-server-in-lync-server-2013"></a>Restaurando um servidor membro Enterprise Edition no Lync Server 2013
+
 
 </div>
 
@@ -43,9 +45,9 @@ Se um servidor que executa uma das seguintes funções de servidor falhar, siga 
 
   - Servidor de Mediação
 
-  - Be
+  - Diretor
 
-  - Servidor de chat persistente
+  - Servidor de Chat persistente
 
   - Servidor de Borda
 
@@ -76,7 +78,7 @@ Se um servidor que executa uma das seguintes funções de servidor falhar, siga 
 
 2.  A partir de uma conta de usuário que seja membro do grupo RTCUniversalServerAdmins, faça logon no servidor que você está restaurando.
 
-3.  Navegue até a pasta ou a mídia de instalação do Lync Server e inicie o assistente de implantação do \\Lync\\Server\\localizado em setup AMD64. exe.
+3.  Navegue até a pasta ou a mídia de instalação do Lync Server e inicie o assistente de implantação do Lync Server localizado no \\ arquivo de instalação \\ AMD64 \\Setup.exe.
 
 4.  Siga o Assistente de Implantação para executar o seguinte:
     

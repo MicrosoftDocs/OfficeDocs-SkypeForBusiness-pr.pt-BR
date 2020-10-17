@@ -12,20 +12,22 @@ ms:contentKeyID: 48185289
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: be4dc8d08b9d8b1363af67af1a12aa56b59f0b9a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 41e23cd1bf0382a392cba951d90cd9dfa80c4880
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201007"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511008"
 ---
+# <a name="scalability-testing-in-lync-server-2013"></a>Testes de escalabilidade no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="scalability-testing-in-lync-server-2013"></a>Testes de escalabilidade no Lync Server 2013
+
 
 </div>
 
@@ -41,7 +43,7 @@ O Lync Server 2013 fornece a infraestrutura de servidor para todas as comunicaç
 
 Por exemplo, algumas organizações podem usar vídeo em conferências muito pesadas enquanto outros podem não ter ou quase não ter uso de vídeo. Algumas organizações preferem compartilhamento de slides do PowerPoint ao compartilhamento de aplicativos, enquanto outros preferem o oposto. As organizações que implantam o Enterprise Voice podem ou não usar o aplicativo de grupo de resposta de muitas pessoas. A maioria das organizações implanta servidores de monitoramento, mas não muitos deles implantam servidores de arquivamento. Além disso, as organizações não têm a mesma infraestrutura, incluindo capacidade de hardware, capacidade de rede e número de pools e tamanho dos pools implantados. A diversidade dos recursos e infraestrutura é um desafio para o teste de escalabilidade – não é possível simular todas as combinações possíveis de recursos e infraestruturas.
 
-Para determinar o suporte de escalabilidade para o Lync Server, realizamos testes usando todos os recursos do Lync Server simultaneamente, com base em um modelo de uso médio (modelo de usuário). Para determinar um modelo de usuário apropriado para cargas de trabalho do Lync Server, analisamos muitos pontos de dados, incluindo pesquisas de clientes, comentários do programa de aperfeiçoamento da experiência do usuário da Microsoft, dados de uso do Lync Server do departamento de ti interno da Microsoft, e dados minados de nosso serviço do Live Meeting. Em vários casos, o modelo do usuário tem uma tendência em relação às cargas pesadas para oferecer uma margem confortável de uso dentro de uma organização.
+Para determinar o suporte de escalabilidade para o Lync Server, realizamos testes usando todos os recursos do Lync Server simultaneamente, com base em um modelo de uso médio (modelo de usuário). Para determinar um modelo de usuário apropriado para cargas de trabalho do Lync Server, analisamos muitos pontos de dados, incluindo pesquisas de clientes, comentários do programa de aperfeiçoamento da experiência do usuário da Microsoft, dados de uso do Lync Server do departamento de ti interno da Microsoft e dados minados de nosso serviço do Live Meeting. Em vários casos, o modelo do usuário tem uma tendência em relação às cargas pesadas para oferecer uma margem confortável de uso dentro de uma organização.
 
 Em nossos testes de escalabilidade, configuramos pools do Lync Server 2013 de acordo com as especificações recomendadas de hardware e software, incluindo componentes de infraestrutura, como serviços de domínio do Active Directory, balanceadores de carga de hardware e firewalls. Configuramos os ambientes do Lync Server o mais próximo possível dos ambientes reais típicos. Em seguida, usamos a ferramenta de estresse e desempenho do Lync Server 2013 para simular cargas do Lync Server 2013 (com base no nosso modelo de usuário). .
 

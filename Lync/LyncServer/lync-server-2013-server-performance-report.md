@@ -12,20 +12,22 @@ ms:contentKeyID: 48184879
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ff400c0384d6b9e6b51da09666629d1bb6b725ee
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f8e348882ffa07d1784e62a458455a1ad32a5bbd
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200797"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510288"
 ---
+# <a name="server-performance-report-in-lync-server-2013"></a>Relatório de desempenho do servidor no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="server-performance-report-in-lync-server-2013"></a>Relatório de desempenho do servidor no Lync Server 2013
+
 
 </div>
 
@@ -43,7 +45,7 @@ O relatório de desempenho do servidor fornece uma lista de servidores do Micros
 
   - Servidor de Conferência A/V
 
-  - Servidor de borda A/V
+  - Servidor de Borda A/V
 
   - Gateway (Servidor de Mediação)
 
@@ -63,7 +65,7 @@ O Relatório de desempenho do servidor é acessado a partir da página inicial d
 
   - Volume da chamada
 
-  - Porcentagem de chamada inválida
+  - Percentual de chamadas ruins
 
 Além disso, você ver os detalhes do Relatório de Tendência de Qualidade de Mídia do Servidor clicando na seguinte métrica:
 
@@ -136,7 +138,7 @@ A tabela a seguir lista os filtros que podem ser usados com o Relatório de Dese
 <td><p>Indica o número de servidores (com base no percentual de chamadas ruins) a serem exibidos em cada categoria. Por exemplo, se você selecionar <strong>5</strong>, os cinco servidores com pior desempenho são exibidos. Selecione uma das seguintes opções:</p>
 <ol>
 <li><p>Todos os</p></li>
-<li><p>0,5</p></li>
+<li><p>5 </p></li>
 <li><p>10 </p></li>
 </ol></td>
 </tr>
@@ -145,8 +147,8 @@ A tabela a seguir lista os filtros que podem ser usados com o Relatório de Dese
 <td><p>Indica se um cliente estava conectado na rede interna ou na rede externa quando a chamada foi realizada. Selecione um dos seguintes:</p>
 <ol>
 <li><p>Todos os</p></li>
-<li><p>Interna</p></li>
-<li><p>Externa</p></li>
+<li><p>Interno</p></li>
+<li><p>Externo</p></li>
 </ol></td>
 </tr>
 <tr class="even">
@@ -175,7 +177,7 @@ A tabela a seguir lista os filtros que podem ser usados com o Relatório de Dese
 
 <div>
 
-## <a name="metrics"></a>Métricas
+## <a name="metrics"></a>Métrica
 
 A tabela a seguir lista as informações fornecidas no Relatório de Desempenho do Servidor.
 
@@ -196,7 +198,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Desempenho 
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Servidor</strong></p></td>
+<td><p><strong>Server</strong></p></td>
 <td><p>Não</p></td>
 <td><p>Nome/endereço IP do servidor.</p></td>
 </tr>
@@ -230,7 +232,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Desempenho 
 <tr class="odd">
 <td><p><strong>Tremulação (ms)</strong></p></td>
 <td><p>Sim</p></td>
-<td><p>Tremulação média detectada entre chegadas de pacote RTP. (Tremulação é uma medida do &quot;tremula&quot; de uma chamada.) Os valores de variação alta geralmente são causados por congestionamento ou por um servidor de mídia sobrecarregado e resultam em um áudio distorcido ou perdido.</p></td>
+<td><p>Tremulação média detectada entre chegadas de pacote RTP. (Tremulação é uma medida do &quot; tremula &quot; de uma chamada.) Os valores de variação alta geralmente são causados por congestionamento ou por um servidor de mídia sobrecarregado e resultam em um áudio distorcido ou perdido.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Taxa de correção oculta</strong></p></td>
@@ -408,7 +410,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Desempenho 
 <tr class="odd">
 <td><p><strong>Tremulação (ms)</strong></p></td>
 <td><p>Não</p></td>
-<td><p>Tremulação média detectada entre chegadas de pacote RTP. (Tremulação é uma medida do &quot;tremula&quot; de uma chamada.) Os valores de variação alta geralmente são causados por congestionamento ou por um servidor de mídia sobrecarregado e resultam em um áudio distorcido ou perdido.</p></td>
+<td><p>Tremulação média detectada entre chegadas de pacote RTP. (Tremulação é uma medida do &quot; tremula &quot; de uma chamada.) Os valores de variação alta geralmente são causados por congestionamento ou por um servidor de mídia sobrecarregado e resultam em um áudio distorcido ou perdido.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Unidirecional relativo médio</strong></p></td>

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184949
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c34e1d0d4e87bffbf28ba600ab23d849fd664423
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f8f8c5c41eba828cb6514ba6963167d708ed203d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42182184"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48509888"
 ---
+# <a name="set-up-certificates-for-the-internal-edge-interface-in-lync-server-2013"></a>Configurar certificados para a interface de borda interna no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="set-up-certificates-for-the-internal-edge-interface-in-lync-server-2013"></a>Configurar certificados para a interface de borda interna no Lync Server 2013
+
 
 </div>
 
@@ -71,7 +73,7 @@ Se você tem mais de um local com Servidores de Borda (ou seja, uma topologia de
 
 
 > [!NOTE]  
-> As etapas para procedimentos nesta seção são baseadas no uso de uma AC do&nbsp;windows Server 2008, da&nbsp;autoridade&nbsp;de certificação do Windows Server 2008 R2, da autoridade de certificação do Windows Server 2012 ou da autoridade de certificação do Windows Server 2012 R2 para criar um certificado para cada servidor de borda. Para uma orientação passo-a-passo para qualquer outra AC, consulte a documentação para aquela AC. Por padrão, todos os usuários autenticados possuem os direitos de usuário apropriados para solicitar certificados.<BR>Os procedimentos nesta seção são baseados na criação de solicitações de certificado no Servidor de Borda como parte do processo de implantação do Servidor de Borda. É possível criar solicitações de certificado usando o Servidor Front End. Faça isso para concluir a solicitação do certificado mais cedo no processo de planejamento e implantação, antes de começar a implantação dos Servidores de Borda. Para isso, você deve garantir que o certificado a ser solicitado é definido como uma chave privada que pode ser exportada.<BR>Os procedimentos nesta seção descrevem a utilização de um arquivo .cer e um arquivo .p7b para o certificado. Se você usa um tipo diferente de arquivo, modifique estes procedimentos de acordo.
+> As etapas para procedimentos nesta seção são baseadas no uso de uma AC do Windows Server 2008, da autoridade de certificação do Windows Server 2008 R2, da autoridade de certificação do Windows Server &nbsp; &nbsp; &nbsp; 2012 ou da autoridade de certificação do Windows Server 2012 R2 para criar um certificado para cada servidor de borda. Para uma orientação passo-a-passo para qualquer outra AC, consulte a documentação para aquela AC. Por padrão, todos os usuários autenticados possuem os direitos de usuário apropriados para solicitar certificados.<BR>Os procedimentos nesta seção são baseados na criação de solicitações de certificado no Servidor de Borda como parte do processo de implantação do Servidor de Borda. É possível criar solicitações de certificado usando o Servidor Front End. Faça isso para concluir a solicitação do certificado mais cedo no processo de planejamento e implantação, antes de começar a implantação dos Servidores de Borda. Para isso, você deve garantir que o certificado a ser solicitado é definido como uma chave privada que pode ser exportada.<BR>Os procedimentos nesta seção descrevem a utilização de um arquivo .cer e um arquivo .p7b para o certificado. Se você usa um tipo diferente de arquivo, modifique estes procedimentos de acordo.
 
 
 
@@ -135,7 +137,7 @@ Se você tem mais de um local com Servidores de Borda (ou seja, uma topologia de
 
 6.  No **Assistente de Exportação de Certificado**, clique em **Avançar**.
 
-7.  Na caixa de diálogo **Formato do arquivo de exportação**, selecione um formato para exportar. Recomendamos o **padrão de sintaxe de mensagens criptografadas – Certificados PKCS \#7 (. P7B)**. Se você selecionar o **padrão de sintaxe de mensagens criptografadas – Certificados PKCS \#7 (. P7B)**, marque a caixa de seleção **incluir todos os certificados no caminho de certificação, se possível** , para exportar a cadeia de certificados, incluindo o certificado de autoridade de certificação raiz e quaisquer certificados de autoridade de certificação intermediários. Clique em **Avançar**.
+7.  Na caixa de diálogo **Formato do arquivo de exportação**, selecione um formato para exportar. Recomendamos o **padrão de sintaxe de mensagens criptografadas – \# Certificados PKCS 7 (. P7B)**. Se você selecionar o **padrão de sintaxe de mensagens criptografadas – \# Certificados PKCS 7 (. P7B)**, marque a caixa de seleção **incluir todos os certificados no caminho de certificação, se possível** , para exportar a cadeia de certificados, incluindo o certificado de autoridade de certificação raiz e quaisquer certificados de autoridade de certificação intermediários. Clique em **Avançar**.
 
 8.  Na caixa de diálogo **Arquivo para exportar**, na entrada do nome do arquivo, digite um caminho e nome de arquivo (a extensão padrão é .p7b) para o certificado exportado. Opcionalmente, clique em **Procurar**, localize um diretório para colocar o certificado exportado e forneça um nome para o certificado exportado. Clique em  **Salvar**. Clique em **Avançar**.
 
@@ -188,7 +190,7 @@ Se você tem mais de um local com Servidores de Borda (ou seja, uma topologia de
 
 4.  Na página **Solicitações Atrasadas ou Imediatas**, clique em **Preparar a solicitação agora, mas enviá-la depois**.
 
-5.  Na página **arquivo de solicitação de certificado** , digite o caminho completo e o nome do arquivo para o qual a solicitação será salva (por exemplo, **c\_:\_\\borda interna de CERT. cer**).
+5.  Na página **arquivo de solicitação de certificado** , digite o caminho completo e o nome do arquivo para o qual a solicitação será salva (por exemplo, **c: \\ borda interna de CERT \_ \_ . cer**).
 
 6.  Na página **Especificar Modelo de Certificado Alternativo**, para usar um modelo diferentes do modelo padrão do WebServer, marque a opção **Usar modelo de certificado alternativo para a Autoridade de Certificação selecionada**.
 
@@ -291,7 +293,7 @@ Se você tem mais de um local com Servidores de Borda (ou seja, uma topologia de
     
     </div>
 
-9.  Na caixa de diálogo Exportar formatos de arquivo, selecione **troca de informações\#pessoais – PKCS 12 (. PFX)** e selecione o seguinte:
+9.  Na caixa de diálogo Exportar formatos de arquivo, selecione **troca de informações pessoais – PKCS \# 12 (. PFX)** e selecione o seguinte:
     
       - Incluir todos os certificados no caminho de certificação, se possível
     

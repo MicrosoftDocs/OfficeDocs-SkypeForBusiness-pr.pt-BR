@@ -12,20 +12,22 @@ ms:contentKeyID: 48184760
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 35e7e0f3cfe38a7a1c4802eca16c37a62013cecb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4b40f2c316216b01415b3e58d5d59c97421439d2
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42182394"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510298"
 ---
+# <a name="server-media-quality-trend-report-in-lync-server-2013"></a>Relatório de tendências de qualidade de mídia do servidor no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="server-media-quality-trend-report-in-lync-server-2013"></a>Relatório de tendências de qualidade de mídia do servidor no Lync Server 2013
+
 
 </div>
 
@@ -89,7 +91,7 @@ Os filtros são uma forma de obter dados mais direcionados ou visualizar os dado
 <p>7/7/2012</p>
 <p>Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):</p>
 <p>7/3/2012</p>
-<p>As semanas sempre são de Domingo a Sábado.</p></td>
+<p>As semanas são sempre de domingo a sábado.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>To</strong></p></td>
@@ -132,8 +134,8 @@ Os filtros são uma forma de obter dados mais direcionados ou visualizar os dado
 <td><p>Indica se o participante fez logon a partir da rede interna ou de uma rede externa. Os valores permitidos são:</p>
 <ul>
 <li><p>Todos os</p></li>
-<li><p>Interna</p></li>
-<li><p>Externa</p></li>
+<li><p>Interno</p></li>
+<li><p>Externo</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
@@ -162,7 +164,7 @@ Os filtros são uma forma de obter dados mais direcionados ou visualizar os dado
 
 <div>
 
-## <a name="metrics"></a>Métricas
+## <a name="metrics"></a>Métrica
 
 A tabela a seguir lista as informações fornecidas no relatório de tendências de qualidade de mídia do servidor.
 
@@ -212,7 +214,7 @@ A tabela a seguir lista as informações fornecidas no relatório de tendências
 <tr class="even">
 <td><p><strong>Tremulação (ms)</strong></p></td>
 <td><p>Não</p></td>
-<td><p>Tremulação média detectada entre chegadas de pacote RTP. (Tremulação é uma medida do &quot;tremula&quot; de uma chamada.) Os valores de variação alta geralmente são causados por congestionamento ou por um servidor de mídia sobrecarregado e resultam em um áudio distorcido ou perdido.</p></td>
+<td><p>Tremulação média detectada entre chegadas de pacote RTP. (Tremulação é uma medida do &quot; tremula &quot; de uma chamada.) Os valores de variação alta geralmente são causados por congestionamento ou por um servidor de mídia sobrecarregado e resultam em um áudio distorcido ou perdido.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Taxa de correção oculta</strong></p></td>

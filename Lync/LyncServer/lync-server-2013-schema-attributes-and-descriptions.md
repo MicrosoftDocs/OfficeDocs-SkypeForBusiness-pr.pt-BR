@@ -12,20 +12,22 @@ ms:contentKeyID: 48185083
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a1c8259312e3ba4e939bd784e189f5aae495605d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: bcd4c3f3da44be2721d1c6bfc1c1ceece47b6232
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42182664"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510868"
 ---
+# <a name="schema-attributes-and-descriptions-in-lync-server-2013"></a>Atributos e descrições de esquema no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="schema-attributes-and-descriptions-in-lync-server-2013"></a>Atributos e descrições de esquema no Lync Server 2013
+
 
 </div>
 
@@ -65,7 +67,7 @@ Alguns atributos têm um valor de máscara de bits. Para esses atributos, cada c
 <tr class="header">
 <th>Atributo</th>
 <th>Descrição</th>
-<th>Comentários</th>
+<th>Comments</th>
 </tr>
 </thead>
 <tbody>
@@ -546,7 +548,7 @@ Alguns atributos têm um valor de máscara de bits. Para esses atributos, cada c
 <td><p>msRTCSIP-MCUFactoryData</p></td>
 <td><p>Este é um atributo reservado de cadeia de caracteres múltipla. As configurações armazenadas nesse atributo são representadas como pares nome = valor. Os pares name = value atualmente definidos são:</p>
 <ul>
-<li><p>FactoryURL = &lt;URL&gt;</p></li>
+<li><p>FactoryURL = &lt; URL&gt;</p></li>
 </ul></td>
 <td><p>Novo no Office Communications Server 2007.</p></td>
 </tr>
@@ -769,7 +771,7 @@ Alguns atributos têm um valor de máscara de bits. Para esses atributos, cada c
 </tr>
 <tr class="odd">
 <td><p>msRTCSIP-PoolDomainFQDN</p></td>
-<td><p>Este atributo é um valor de cadeia de caracteres de valor único. O valor desse atributo, quando presente, representa o FQDN do domínio do pool se o administrador quiser criar um pool de front-ends com um FQDN que não esteja de acordo com a estrutura de domínio do Active Directory na qual o pool de front-ends é criado (por exemplo, um SIP namespace desassociado do namespace DNS (sistema de nomes de domínio).</p>
+<td><p>Este atributo é um valor de cadeia de caracteres de valor único. O valor desse atributo, quando presente, representa o FQDN do domínio do pool se o administrador quiser criar um pool de front-ends com um FQDN que não esteja em conformidade com a estrutura de domínio do Active Directory na qual o pool de front-ends é criado (por exemplo, um namespace SIP é desassociado do namespace DNS).</p>
 <p>Recomendamos que você mapeie o FQDN do domínio do pool de front-ends para a parte do nome de domínio como o domínio do Active Directory no qual o pool reside. Portanto, quando nenhum valor estiver presente nesse atributo, o FQDN do pool de front-ends será o padrão para a estrutura de nome de domínio do Active Directory, conforme indicado pelo atributo <strong>dNSHostName</strong> .</p></td>
 <td><p>Novo no Office Communications Server 2007.</p></td>
 </tr>
@@ -1082,7 +1084,7 @@ Alguns atributos têm um valor de máscara de bits. Para esses atributos, cada c
 </tr>
 <tr class="even">
 <td><p>msRTCSIP-userextension</p></td>
-<td><p>Este atributo com valores múltiplos contém uma lista de pares nome-valor no formato de &quot;nome = valor. &quot; Este atributo está marcado para replicação de catálogo global.</p></td>
+<td><p>Este atributo com valores múltiplos contém uma lista de pares nome-valor no formato de &quot; nome = valor. &quot; Este atributo está marcado para replicação de catálogo global.</p></td>
 <td><p>Novo no Live Communications Server 2005 com SP1.</p></td>
 </tr>
 <tr class="odd">
@@ -1148,7 +1150,7 @@ Alguns atributos têm um valor de máscara de bits. Para esses atributos, cada c
 </tr>
 <tr class="odd">
 <td><p>ProxyAddresses</p></td>
-<td><p>Este atributo de múltiplos valores do Active Directory existente é parte do esquema base do Active Directory introduzido no Windows 2000. Este atributo contém os vários endereços X400, X500 e SMTP do email do usuário. No Live Communications Server 2003 e posterior, o URI do SIP do usuário é adicionado a essa lista, &quot;usando a&quot; marca SIP:.</p>
+<td><p>Este atributo de múltiplos valores do Active Directory existente é parte do esquema base do Active Directory introduzido no Windows 2000. Este atributo contém os vários endereços X400, X500 e SMTP do email do usuário. No Live Communications Server 2003 e posterior, o URI do SIP do usuário é adicionado a essa lista, usando a &quot; marca SIP: &quot; .</p>
 <p>Os seguintes aplicativos pesquisam o URI do SIP do usuário a partir deste atributo:</p>
 <ul>
 <li><p>Cliente de mensagens e colaboração do Microsoft Office Outlook 2003</p></li>

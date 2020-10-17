@@ -12,20 +12,22 @@ ms:contentKeyID: 48184456
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e153e41e0c5d452ec136daf2ad46d4ea67541d83
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a413bde093c375a887f1ea39c435401b3ce1c4a6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200747"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510258"
 ---
+# <a name="server-roles-in-lync-server-2013"></a>Funções de servidor no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="server-roles-in-lync-server-2013"></a>Funções de servidor no Lync Server 2013
+
 
 </div>
 
@@ -49,7 +51,7 @@ Mesmo que você não esteja familiarizado com as funções de servidor no Lync S
 
   - Servidor de Mediação
 
-  - Be
+  - Diretor
 
   - Servidor front-end de chats persistentes
 
@@ -127,7 +129,7 @@ As informações armazenadas nos bancos de dados do servidor Back-End incluem in
 
 ## <a name="edge-server"></a>Servidor de Borda
 
-O Servidor de Borda permite que os usuários se comuniquem e colaborem com usuários fora dos firewalls da organização. Esses usuários externos podem incluir os próprios usuários da organização que estão trabalhando fora do local, usuários de organizações de parceiros federados e usuários externos que tenham sido convidados a participar de conferências hospedadas na sua implantação do Lync Server. O servidor de borda também permite a conectividade para serviços públicos de conectividade de IM, incluindo Windows\!Live, AOL, Yahoo e Google Talk.
+O Servidor de Borda permite que os usuários se comuniquem e colaborem com usuários fora dos firewalls da organização. Esses usuários externos podem incluir os próprios usuários da organização que estão trabalhando fora do local, usuários de organizações de parceiros federados e usuários externos que tenham sido convidados a participar de conferências hospedadas na sua implantação do Lync Server. O servidor de borda também permite a conectividade para serviços públicos de conectividade de IM, incluindo Windows Live, AOL, Yahoo \! e Google Talk.
 
 <div>
 
@@ -165,7 +167,7 @@ Para obter detalhes, consulte [Mediation Server Component in Lync server 2013](l
 
 <div>
 
-## <a name="director"></a>Be
+## <a name="director"></a>Diretor
 
 Os diretores podem autenticar solicitações de usuário do Lync Server, mas não hospedam contas de usuário nem fornecem serviços de presença ou conferência. Os diretores são mais úteis para aprimorar a segurança em implantações que permitam o acesso de usuários externos. O diretor pode autenticar solicitações antes de enviá-las a servidores internos. No caso de ataque de negação de serviço, o ataque termina no diretor e não atinge os servidores front-end. Para obter detalhes, consulte [cenários para o diretor no Lync Server 2013](lync-server-2013-scenarios-for-the-director.md) na documentação de planejamento.
 

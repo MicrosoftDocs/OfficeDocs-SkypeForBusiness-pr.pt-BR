@@ -12,20 +12,22 @@ ms:contentKeyID: 48184221
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7382411774fb9fcb51bf7ade7d64795781c0ebb2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7a3fb7a36680ff3ef35de44d53fc10a676d46242
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208507"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511238"
 ---
+# <a name="routing-e9-1-1-calls-by-using-an-elin-gateway-in-lync-server-2013"></a>Roteamento de chamadas E9-1-1 usando um gateway ELIN no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="routing-e9-1-1-calls-by-using-an-elin-gateway-in-lync-server-2013"></a>Roteamento de chamadas E9-1-1 usando um gateway ELIN no Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42208507"
 
 _**Última modificação do tópico:** 2013-02-05_
 
-Alguns parceiros do Programa de interoperabilidade aberta de comunicações unificadas fornecem gateways ELIN (Emergency Location Identification Number) qualificados, que podem servir como uma alternativa para uma conexão de tronco SIP para um provedor de serviços E9-1-1 qualificado. Os gateways ELIN suportam conectividade ISDN ou CAMA (Centralized Automatic Message Accounting) para os serviços E9-1-1 baseados em PSTN (rede telefônica pública comutada). Para obter detalhes sobre os parceiros que fornecem gateways ELIN e links para sua documentação [https://go.microsoft.com/fwlink/p/?LinkId=248425](https://go.microsoft.com/fwlink/p/?linkid=248425), consulte.
+Alguns parceiros do Programa de interoperabilidade aberta de comunicações unificadas fornecem gateways ELIN (Emergency Location Identification Number) qualificados, que podem servir como uma alternativa para uma conexão de tronco SIP para um provedor de serviços E9-1-1 qualificado. Os gateways ELIN suportam conectividade ISDN ou CAMA (Centralized Automatic Message Accounting) para os serviços E9-1-1 baseados em PSTN (rede telefônica pública comutada). Para obter detalhes sobre os parceiros que fornecem gateways ELIN e links para sua documentação, consulte [https://go.microsoft.com/fwlink/p/?LinkId=248425](https://go.microsoft.com/fwlink/p/?linkid=248425) .
 
 Como conexões de tronco SIP para provedores de serviço E9-1-1, os gateways do ELIN também fornecem o meio de roteamento de uma chamada de emergência para o ponto de resposta de segurança pública (PSAP) mais apropriado do chamador, mas esses gateways usam um ELIN como o identificador de local. Você define ELINs para cada local de resposta de emergência (ERL) em sua organização (para obter detalhes, consulte [Managing locations for Elin gateways in Lync Server 2013](lync-server-2013-managing-locations-for-elin-gateways.md)).
 

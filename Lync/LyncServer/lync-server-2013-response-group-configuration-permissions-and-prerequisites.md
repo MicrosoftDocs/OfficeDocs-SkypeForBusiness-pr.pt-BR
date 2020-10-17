@@ -12,20 +12,22 @@ ms:contentKeyID: 48183972
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f8e27d3495ce2152dee67a5f176c4a0d9f7e7f82
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7289b8818a6193efa867ab0a8671abf6d4701f7c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42182955"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511738"
 ---
+# <a name="response-group-configuration-permissions-and-prerequisites-in-lync-server-2013"></a>Permissões e pré-requisitos de configuração de grupo de resposta no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="response-group-configuration-permissions-and-prerequisites-in-lync-server-2013"></a>Permissões e pré-requisitos de configuração de grupo de resposta no Lync Server 2013
+
 
 </div>
 
@@ -138,7 +140,7 @@ Para configurar grupos de resposta, você deve ser membro de pelo menos uma das 
 
 
 > [!NOTE]  
-> <STRONG>(1)</STRONG> um objeto de usuário dos serviços de domínio Active Directory deve ser um membro do grupo de segurança do Active Directory especificado listado. Um administrador ou outro membro do grupo do Active Directory delegado com as permissões apropriadas para adicionar usuários a um grupo de segurança (por exemplo, administrador, operadores de conta) deve adicionar um objeto user ao grupo ou grupo de segurança listado para que o usuário possa Execute as funções listadas. <STRONG>(2)</STRONG> somente para fluxos de trabalho que o CsResponseGroupAdministrator atribuiu ao à csresponsegroupmanager. <STRONG>(3)</STRONG> um gerente de grupo de resposta pode atribuir outro membro de à csresponsegroupmanager a um fluxo de trabalho que o gerente atual já gerencia. <STRONG>(4)</STRONG> o CsViewOnlyAdministrator pode executar apenas o verbo "Get" do Lync Server Management Shell cmdlets.
+> <STRONG>(1)</STRONG> um objeto de usuário dos serviços de domínio Active Directory deve ser um membro do grupo de segurança do Active Directory especificado listado. Um administrador ou outro membro do grupo do Active Directory delegado com as permissões apropriadas para adicionar usuários a um grupo de segurança (por exemplo, administrador, operadores de conta) deve adicionar um objeto de usuário ao grupo ou grupo de segurança listado para que o usuário possa executar as funções listadas. <STRONG>(2)</STRONG> somente para fluxos de trabalho que o CsResponseGroupAdministrator atribuiu ao à csresponsegroupmanager. <STRONG>(3)</STRONG> um gerente de grupo de resposta pode atribuir outro membro de à csresponsegroupmanager a um fluxo de trabalho que o gerente atual já gerencia. <STRONG>(4)</STRONG> o CsViewOnlyAdministrator pode executar apenas o verbo "Get" do Lync Server Management Shell cmdlets.
 
 
 
@@ -186,13 +188,13 @@ A primeira etapa da configuração do grupo de resposta é criar grupos de agent
 
 Esta seção somente se aplica a você sea  sua organização precisa cumprir com o FIPS (Federal Information Processing Standards).
 
-Para ser compatível com o FIPS, você precisará modificar o arquivo Web.config de nível de aplicativo para usar um algoritmo de criptografia diferente depois de instalar os serviços da Web. Você precisa especificar que o ASP.NET usa o algoritmo Triple Data Encryption Standard (3DES) para processar os dados de estado de exibição. Para o aplicativo grupo de resposta, esse requisito se aplica à ferramenta de configuração de grupo de resposta e ao console de entrada e saída do agente. Para obter detalhes sobre esse requisito, consulte o artigo 911722 da base de dados de conhecimento da Microsoft, "você pode receber uma mensagem de erro ao acessar as páginas da Web do ASP.NET que possuem ViewState habilitado após a atualização [https://go.microsoft.com/fwlink/p/?linkId=196183](https://go.microsoft.com/fwlink/p/?linkid=196183)do ASP.NET 1,1 para o ASP.NET 2,0" em.
+Para ser compatível com o FIPS, você precisará modificar o arquivo Web.config de nível de aplicativo para usar um algoritmo de criptografia diferente depois de instalar os serviços da Web. Você precisa especificar que o ASP.NET usa o algoritmo Triple Data Encryption Standard (3DES) para processar os dados de estado de exibição. Para o aplicativo grupo de resposta, esse requisito se aplica à ferramenta de configuração de grupo de resposta e ao console de entrada e saída do agente. Para obter detalhes sobre esse requisito, consulte o artigo 911722 da base de dados de conhecimento da Microsoft, "você pode receber uma mensagem de erro ao acessar as páginas da Web do ASP.NET que possuem ViewState habilitado após a atualização do ASP.NET 1,1 para o ASP.NET 2,0" em [https://go.microsoft.com/fwlink/p/?linkId=196183](https://go.microsoft.com/fwlink/p/?linkid=196183) .
 
 Para modificar o arquivo Web.config, faça o seguinte:
 
 1.  Em um editor de texto como o Notepad, abra o arquivo Web.config de nível de aplicativo.
 
-2.  No arquivo Web. config, localize a `<system.web>` seção.
+2.  No arquivo Web.config, localize a `<system.web>` seção.
 
 3.  Adicione a seguinte `<machineKey>` seção na `<system.web>` seção:
     
@@ -216,7 +218,7 @@ Esta seção se aplica a você somente se a sua organização precisa oferecer s
 
 
 > [!NOTE]  
-> Para obter informações sobre o que os caracteres Yi, Meng e Zang são e por que eles podem ser importantes para sua implantação, consulte as informações nos conjuntos <A href="https://go.microsoft.com/fwlink/p/?linkid=240223">https://go.microsoft.com/fwlink/p/?linkId=240223</A>de caracteres do GB18030.
+> Para obter informações sobre o que os caracteres Yi, Meng e Zang são e por que eles podem ser importantes para sua implantação, consulte as informações nos conjuntos de caracteres do GB18030 <A href="https://go.microsoft.com/fwlink/p/?linkid=240223">https://go.microsoft.com/fwlink/p/?linkId=240223</A> .
 
 
 
@@ -234,11 +236,11 @@ Para oferecer suporte a caracteres Yi, Meng ou Zang, você precisará modificar 
 
   - dbo. Fluxos
 
-Para o SQL Server 2008 R2 e o SQL Server 2012, use\_o\_agrupamento latim geral 100 (diferenciação de ênfase). Se você usar esse agrupamento, todos os nomes de objeto não se diferenciarão entre maiúsculas e minúsculas.
+Para o SQL Server 2008 R2 e o SQL Server 2012, use \_ o \_ agrupamento latim geral 100 (diferenciação de ênfase). Se você usar esse agrupamento, todos os nomes de objeto não se diferenciarão entre maiúsculas e minúsculas.
 
-Você pode alterar o agrupamento usando o Microsoft SQL Server Management Studio. Para obter detalhes sobre como usar essa ferramenta, consulte "usando o SQL Server Management [https://go.microsoft.com/fwlink/p/?linkId=196184](https://go.microsoft.com/fwlink/p/?linkid=196184)Studio" em. Siga essas etapas para alterar o agrupamento:
+Você pode alterar o agrupamento usando o Microsoft SQL Server Management Studio. Para obter detalhes sobre como usar essa ferramenta, consulte "usando o SQL Server Management Studio" em [https://go.microsoft.com/fwlink/p/?linkId=196184](https://go.microsoft.com/fwlink/p/?linkid=196184) . Siga essas etapas para alterar o agrupamento:
 
-1.  Certifique-se de que o SQL Server Management Studio está configurado para permitir alterações que precisam que as tabelas sejam recriadas. Para obter detalhes, consulte "caixa de diálogo Salvar (não permitido) [https://go.microsoft.com/fwlink/p/?linkId=196186](https://go.microsoft.com/fwlink/p/?linkid=196186)" em. Para obter detalhes sobre como configurar um agrupamento de colunas, consulte "como definir o agrupamento de colunas (Visual Database Tools [https://go.microsoft.com/fwlink/p/?linkId=196185](https://go.microsoft.com/fwlink/p/?linkid=196185))" em.
+1.  Certifique-se de que o SQL Server Management Studio está configurado para permitir alterações que precisam que as tabelas sejam recriadas. Para obter detalhes, consulte "caixa de diálogo Salvar (não permitido)" em [https://go.microsoft.com/fwlink/p/?linkId=196186](https://go.microsoft.com/fwlink/p/?linkid=196186) . Para obter detalhes sobre como configurar um agrupamento de colunas, consulte "como definir o agrupamento de colunas (Visual Database Tools)" em [https://go.microsoft.com/fwlink/p/?linkId=196185](https://go.microsoft.com/fwlink/p/?linkid=196185) .
 
 2.  Usando o Microsoft SQL Server Management Studio, conecte-se com o banco de dados Rgsconfig.
 

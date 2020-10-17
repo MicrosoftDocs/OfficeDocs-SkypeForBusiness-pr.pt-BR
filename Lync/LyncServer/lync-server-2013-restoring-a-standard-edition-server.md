@@ -12,20 +12,22 @@ ms:contentKeyID: 51541519
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 77c49b7d1b02fc2d1cb41efd3fd68213fa8a0dfb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 479e4c690d0ca7931631f3bc553d1dafc2a10ea7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201387"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511558"
 ---
+# <a name="restoring-a-standard-edition-server-in-lync-server-2013"></a>Restaurando um servidor Standard Edition no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="restoring-a-standard-edition-server-in-lync-server-2013"></a>Restaurando um servidor Standard Edition no Lync Server 2013
+
 
 </div>
 
@@ -85,7 +87,7 @@ Se um servidor Standard Edition que não hospeda o repositório de gerenciamento
     
     3.  Selecione a topologia e clique em **Salvar**. Clique em **Sim** para confirmar sua seleção.
 
-5.  Navegue até a pasta de instalação ou mídia do Lync Server e, em seguida, inicie o assistente de \\implantação\\do\\Lync Server localizado em setup AMD64. exe. Use o assistente de implantação do Lync Server para fazer o seguinte:
+5.  Navegue até a pasta ou a mídia de instalação do Lync Server e, em seguida, inicie o assistente de implantação do Lync Server localizado no \\ arquivo de instalação \\ AMD64 \\Setup.exe. Use o assistente de implantação do Lync Server para fazer o seguinte:
     
     1.  Execute **Etapa 1: Instalar Repositório de Configuração Local** para instalar os arquivos de configuração locais.
     
@@ -99,7 +101,7 @@ Se um servidor Standard Edition que não hospeda o repositório de gerenciamento
 
 6.  Restaure os dados do usuário executando o seguinte:
     
-    1.  Copie ExportedUserData. zip de $Backup\\ para um diretório local.
+    1.  Copie ExportedUserData.zip de $Backup \\ para um diretório local.
     
     2.  Antes de restaurar os dados do usuário, você deve interromper os serviços do Lync. Para fazer isso, digite:
         

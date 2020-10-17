@@ -12,20 +12,22 @@ ms:contentKeyID: 48183640
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3e9a2f60b2273cf8d43833226ede66a2a90478a6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c8404a48ae4a8fce5f0d0a85fd5aa36824152c9d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42182695"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510848"
 ---
+# <a name="scenarios-for-external-user-access-in-lync-server-2013"></a>Cenários para acesso de usuário externo no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="scenarios-for-external-user-access-in-lync-server-2013"></a>Cenários para acesso de usuário externo no Lync Server 2013
+
 
 </div>
 
@@ -41,7 +43,7 @@ Fornecer acesso de usuário externo para o Lync Server 2013 requer que você imp
 
 Se você precisar de capacidade maior do que um servidor de borda único pode fornecer, ou se você precisar de alta disponibilidade para a implantação do servidor de borda, você pode configurar o balanceamento de carga e implantar vários servidores de borda em um pool com balanceamento de carga. Se sua organização tiver vários data centers, você pode ter implantações de servidor de borda ou de pool de borda em mais de um local. No entanto, apenas uma das implantações do servidor de borda pode ser designada como a rota de Federação.
 
-Esta seção define os cenários de implantações do servidor de borda e mapeia as seções de planejamento para os cenários possíveis. Por exemplo, se sua implantação requer alta disponibilidade, Federação com contatos extensível de mensagens e presença (XMPP) e Lync Mobility, selecione as entradas correspondentes na seguinte tabela que atendam a esses requisitos e use o seções de planejamento referenciadas para definir sua implantação, conforme ilustrado no fluxograma a seguir.
+Esta seção define os cenários de implantações do servidor de borda e mapeia as seções de planejamento para os cenários possíveis. Por exemplo, se sua implantação requer alta disponibilidade, Federação com contatos extensível de mensagens e presença (XMPP) e Lync Mobility, selecione as entradas correspondentes na tabela a seguir que atendam a esses requisitos e use as seções de planejamento referenciadas para definir sua implantação, conforme ilustrado no fluxograma a seguir.
 
 **Processo de seleção do cenário de implantação do Servidor de Borda**
 
@@ -53,7 +55,7 @@ Usando este processo, é possível planejar e documentar a configuração de tod
 
 
 > [!TIP]  
-> Se você estiver planejando instalar os servidores de borda e o proxy reverso e adicionar recursos posteriormente (por exemplo, Federação e mobilidade), determine quais certificados você precisará para todos os serviços após a implantação. O planejamento e a aquisição dos certificados para todos os recursos de antemão, implantados inicialmente ou não, evita que você precise solicitar novos certificados para atender aos requisitos de Federação (ou seja, nos servidores de borda) ou no proxy reverso (ou seja, para mobilidade serviços).
+> Se você estiver planejando instalar os servidores de borda e o proxy reverso e adicionar recursos posteriormente (por exemplo, Federação e mobilidade), determine quais certificados você precisará para todos os serviços após a implantação. O planejamento e a aquisição dos certificados para todos os recursos antecipadamente implantados ou não, evita que você precise solicitar novos certificados para atender aos requisitos de Federação (ou seja, nos servidores de borda) ou do proxy reverso (ou seja, para serviços de mobilidade).
 
 
 

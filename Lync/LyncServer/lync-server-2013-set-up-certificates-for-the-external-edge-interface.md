@@ -12,20 +12,22 @@ ms:contentKeyID: 48184287
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ec2bad8f01e773d50f8d722ddbbf4be0757cb31d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a190c50ece2b2e5be0f8597851541c71cfbb4e49
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200598"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48509878"
 ---
+# <a name="set-up-certificates-for-the-external-edge-interface-for-lync-server-2013"></a>Configurar certificados para a interface de borda externa para o Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="set-up-certificates-for-the-external-edge-interface-for-lync-server-2013"></a>Configurar certificados para a interface de borda externa para o Lync Server 2013
+
 
 </div>
 
@@ -51,7 +53,7 @@ Cada Servidor de Borda requer um certificado público na interface entre a rede 
 
 Para obter detalhes sobre esse e outros requisitos de certificado, consulte [Certificate Requirements for External User Access in Lync Server 2013](lync-server-2013-certificate-requirements-for-external-user-access.md).
 
-Para obter uma lista de CAs (autoridades de certificação) públicas que fornecem certificados compatíveis com requisitos específicos para certificados de comunicações unificadas e que têm a parceria com a Microsoft para garantir que eles funcionem com o assistente de certificado do Lync Server 2013, consulte o artigo 929395 da base de dados de conhecimento da Microsoft, [https://go.microsoft.com/fwlink/p/?linkId=202834](https://go.microsoft.com/fwlink/p/?linkid=202834)"em.
+Para obter uma lista de CAs (autoridades de certificação) públicas que fornecem certificados compatíveis com requisitos específicos para certificados de comunicações unificadas e que têm a parceria com a Microsoft para garantir que eles funcionem com o assistente de certificado do Lync Server 2013, consulte o artigo 929395 da base de dados de conhecimento da Microsoft, "em [https://go.microsoft.com/fwlink/p/?linkId=202834](https://go.microsoft.com/fwlink/p/?linkid=202834) .
 
 <div>
 
@@ -96,7 +98,7 @@ Se você decidir usar MMC (Console de Gerenciamento Microsoft) de Certificados p
 
 4.  Na página **Solicitação Atrasada ou Imediata**, marque a caixa de seleção **Preparar a solicitação agora, mas enviá-la depois**.
 
-5.  Na página **arquivo de solicitação de certificado** , digite o caminho completo e o nome do arquivo para o qual a solicitação será salva (por exemplo, c:\\CERT\_externos\_Edge. cer).
+5.  Na página **arquivo de solicitação de certificado** , digite o caminho completo e o nome do arquivo para o qual a solicitação será salva (por exemplo, c: \\ CERT \_ externos \_ Edge. cer).
 
 6.  Na página **Especificar Modelo de Certificado Alternativo**, para usar um modelo diferente do modelo WebServer padrão, marque a caixa de seleção **Usar o modelo de certificado alternativo para a autoridade de certificação selecionada**.
 
@@ -114,7 +116,7 @@ Se você decidir usar MMC (Console de Gerenciamento Microsoft) de Certificados p
 
 10. Na página **Nome da Entidade/Nomes Alternativos da Entidade**, as informações a serem preenchidas automaticamente pelo assistente são exibidas. Se nomes alternativos de entidade adicionais forem necessários, especifique-os nas próximas duas etapas.
 
-11. Na página **configuração do domínio SIP em nomes alternativos da entidade (SANs)** , marque a caixa de seleção domínio para adicionar um SIP. \<entrada\> sipdomain para a lista de nomes alternativos de entidade.
+11. Na página **configuração do domínio SIP em nomes alternativos da entidade (SANs)** , marque a caixa de seleção domínio para adicionar um SIP.\<sipdomain\> entrada à lista de nomes alternativos da entidade.
 
 12. Na página **Configurar Nomes Alternativos da Entidade Adicionais**, especifique qualquer nome alternativo adicional da entidade necessário.
 
@@ -144,7 +146,7 @@ Se você decidir usar MMC (Console de Gerenciamento Microsoft) de Certificados p
     
         Request-CsCertificate -New -Type AccessEdgeExternal  -Output C:\ <certfilename.txt or certfilename.csr>  -ClientEku $true -Template <template name>
     
-    O nome de certificado padrão do modelo fornecido no Lync Server 2013 é o servidor Web. Só especifique o \<nome\> do modelo se você precisar usar um modelo diferente do modelo padrão.
+    O nome de certificado padrão do modelo fornecido no Lync Server 2013 é o servidor Web. Somente especifique o \<template name\> se você precisar usar um modelo diferente do modelo padrão.
     
     <div>
     
@@ -239,7 +241,7 @@ Se você decidir usar MMC (Console de Gerenciamento Microsoft) de Certificados p
     
     </div>
 
-9.  Na caixa de diálogo Exportar formatos de arquivo, selecione **troca de informações\#pessoais – PKCS 12 (. PFX)** e selecione o seguinte:
+9.  Na caixa de diálogo Exportar formatos de arquivo, selecione **troca de informações pessoais – PKCS \# 12 (. PFX)** e selecione o seguinte:
     
       - Incluir todos os certificados no caminho de certificação, se possível
     

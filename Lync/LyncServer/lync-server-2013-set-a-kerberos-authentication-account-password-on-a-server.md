@@ -12,20 +12,22 @@ ms:contentKeyID: 48184787
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: eeb9338943d17be1c970b4aa2ffc04d5e2c8cb86
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 20229f7bbc600b6a54bf28b13b9d5c14e8cbeb28
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42182254"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510038"
 ---
+# <a name="set-a-kerberos-authentication-account-password-on-a-server-in-lync-server-2013"></a>Definir uma senha de conta de autenticação Kerberos em um servidor no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="set-a-kerberos-authentication-account-password-on-a-server-in-lync-server-2013"></a>Definir uma senha de conta de autenticação Kerberos em um servidor no Lync Server 2013
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**Última modificação do tópico:** 2012-01-16_
 
 Para concluir com sucesso este procedimento, você deve ter feito logon como usuário membro do grupo RTCUniversalServerAdmins.
 
-Você deve configurar uma senha na conta Kerberos para cada site que possua Servidores front end, servidores Standard Edition e Diretores. Você pode configurar a senha executando o cmdlet **set-CsKerberosAccountPassword** do Windows PowerShell em um servidor no site (por exemplo, um servidor front-end). Para cada site, você deve executar o cmdlet **set-CsKerberosAccountPassword** . O cmdlet configura o IIS (serviços de informações da Internet) para o serviço de serviços Web e, em seguida, define a senha na conta do computador nos serviços de domínio do Active Directory. Um método alternativo, com base no parâmetro usado com o cmdlet, configura o IIS em um servidor enquanto usa outro servidor que tenha sido configurado como origem da senha da conta Kerberos.
+Você deve configurar uma senha na conta Kerberos para cada site que possua Servidores front end, servidores Standard Edition e Diretores. Você pode configurar a senha executando o cmdlet **set-CsKerberosAccountPassword**do   Windows PowerShell em um servidor no site (por exemplo, um servidor front-end). Para cada site, você deve executar o cmdlet **set-CsKerberosAccountPassword**   . O cmdlet configura o IIS (serviços de informações da Internet) para o serviço de serviços Web e, em seguida, define a senha na conta do computador nos serviços de domínio do Active Directory. Um método alternativo, com base no parâmetro usado com o cmdlet, configura o IIS em um servidor enquanto usa outro servidor que tenha sido configurado como origem da senha da conta Kerberos.
 
 Ao usar o cmdlet **Set-CsKerberosAccountPassword** para definir uma senha, o Kerberos define a senha para uma cadeia de caracteres gerada de forma aleatória. Este cmdlet contata todas as instâncias do IIS em todos os sites centrais do Lync Server 2013 aos quais essa conta é atribuída.
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48183314
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1122605aabea32d86fbacd1f23675fcdef687539
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8e50aa9339d992e73cf4e5b32b1e49fc2a144e67
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200827"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510308"
 ---
+# <a name="server-collocation-in-a-standard-edition-server-deployment-for-lync-server-2013"></a>Colocação de servidor em uma implantação de servidor Standard Edition para Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="server-collocation-in-a-standard-edition-server-deployment-for-lync-server-2013"></a>Colocação de servidor em uma implantação de servidor Standard Edition para Lync Server 2013
+
 
 </div>
 
@@ -49,7 +51,7 @@ No Lync Server 2013, o serviço de conferência A/V, o serviço de mediação, o
 
 As funções do servidor mostradas a seguir devem ser implantadas cada uma em um computador separado:
 
-  - Be
+  - Diretor
 
   - Servidor de Borda
 
@@ -77,7 +79,7 @@ Você pode colocar qualquer um ou todos esses bancos de dados em uma única inst
 
   - Cada instância SQL pode conter apenas um único banco de dados back-end (para um pool de front-ends Enterprise Edition), um banco de dados de monitoramento único, um banco de dados de arquivamento único, um banco de dados de chat persistente único e um banco de dados de conformidade de chat
 
-  - O servidor de banco de dados não pode dar suporte a mais de um pool de front-ends Enterprise Edition, um servidor executando o arquivamento, um servidor executando monitoramento, um banco de dados de chat persistente único e um banco de dados de conformidade de chat persistente único, mas pode suportar um de cada, independentemente de os bancos de dados usarem a mesma instância do SQL Server ou instâncias separadas do SQL Server.
+  - O servidor de banco de dados não pode suportar mais de um pool de front-ends Enterprise Edition, um servidor executando o arquivamento, um servidor executando monitoramento, um banco de dados de chat persistente único e um banco de dados de conformidade de chat persistente único, mas pode suportar um de cada, independentemente de os bancos de dados usarem a mesma instância do SQL Server ou instâncias separadas do SQL Server
 
 É possível colocar um compartilhamento de arquivo com um banco de dados, conforme será descrito ainda nesta seção.
 

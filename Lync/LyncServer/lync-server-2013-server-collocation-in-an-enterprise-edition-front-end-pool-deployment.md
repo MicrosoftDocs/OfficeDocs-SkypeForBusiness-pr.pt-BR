@@ -12,20 +12,22 @@ ms:contentKeyID: 48183287
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5ccfb87966008d471d879e2c25a73e098fb28f19
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0162a4338a1504ed425015e5b9391fca9903d4ab
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42182414"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510278"
 ---
+# <a name="server-collocation-in-an-enterprise-edition-front-end-pool-deployment-for-lync-server-2013"></a>Colocação de servidor em uma implantação de pool de front-ends Enterprise Edition para o Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="server-collocation-in-an-enterprise-edition-front-end-pool-deployment-for-lync-server-2013"></a>Colocação de servidor em uma implantação de pool de front-ends Enterprise Edition para o Lync Server 2013
+
 
 </div>
 
@@ -49,7 +51,7 @@ No Lync Server 2013, o serviço de conferência A/V, o serviço de mediação, o
 
 As funções do servidor mostradas a seguir devem ser implantadas cada uma em um computador separado:
 
-  - Be
+  - Diretor
 
   - Servidor de Borda
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 63969589
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: aba7d5f1b279ba83a5a6053d2197c90253dd84ed
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1432480cbe62aedfc5c05362cc322d971c3cb321
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42182725"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510858"
 ---
+# <a name="scanning-for-viruses-and-checking-virus-definitions-in-lync-server-2013"></a>Verificação de vírus e verificação de definições de vírus no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="scanning-for-viruses-and-checking-virus-definitions-in-lync-server-2013"></a>Verificação de vírus e verificação de definições de vírus no Lync Server 2013
+
 
 </div>
 
@@ -47,7 +49,7 @@ Manter os mecanismos de scanner e as definições de vírus atualizados é muito
 
 
 > [!IMPORTANT]  
-> Ao usar um software antivírus de terceiro nível de arquivo em um servidor que executa o Lync Server 2013 e o Forefront Security para Lync Server, certifique-se de que as pastas nas quais o Forefront Security para Lync Server e o Lync Server estão instaladas não sejam verificadas, para evitar sua corrupção. Para obter a lista completa de exclusões, consulte <A class=uri href="https://support.microsoft.com/kb/943620">https://support.microsoft.com/kb/943620</A>.
+> Ao usar um software antivírus de terceiro nível de arquivo em um servidor que executa o Lync Server 2013 e o Forefront Security para Lync Server, certifique-se de que as pastas nas quais o Forefront Security para Lync Server e o Lync Server estão instaladas não sejam verificadas, para evitar a corrupção. Para obter a lista completa de exclusões, consulte <A class=uri href="https://support.microsoft.com/kb/943620">https://support.microsoft.com/kb/943620</A> .
 
 
 

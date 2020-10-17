@@ -12,20 +12,22 @@ ms:contentKeyID: 48184116
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2beb0a914fe5a2880926872ed1cab365fac988f0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 684d33219bb6146a0c5dc85894c060affd6745a2
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42182944"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511638"
 ---
+# <a name="response-group-experience-in-lync-server-2013-during-pool-failure"></a>Experiência do grupo de resposta no Lync Server 2013 durante falha do pool
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="response-group-experience-in-lync-server-2013-during-pool-failure"></a>Experiência do grupo de resposta no Lync Server 2013 durante falha do pool
+
 
 </div>
 
@@ -100,8 +102,8 @@ Quando ocorre uma interrupção de um pool ou site, mas o administrador ainda n�
 <tr class="odd">
 <td><p>Entrada do agente e informações do agente</p></td>
 <td><ul>
-<li><p>Os grupos de agente pertencentes ao pool primário podem ser exibidos no console do agente, mas os agentes não podem entrar.</p></li>
-<li><p>Os grupos de agentes pertencentes ao pool de backup podem ser exibido no console do agente e os agentes podem entrar.</p></li>
+<li><p>Os grupos de agentes pertencentes ao pool primário podem ser exibidos no console do agente, mas os agentes não podem entrar.</p></li>
+<li><p>Os grupos de agentes pertencentes ao pool de backup podem ser exibidos no console do agente e os agentes podem entrar.</p></li>
 <li><p>Os grupos de agentes importados não são exibidos no console do agente.</p></li>
 </ul></td>
 </tr>
@@ -192,13 +194,13 @@ Quando um administrador chama um failover para um pool de backup, a atividade do
 <tr class="odd">
 <td><p>Entrada do agente e informação do agente</p></td>
 <td><ul>
-<li><p>Os grupos de agente pertencentes ao pool primário podem ser exibidos no console do agente, mas os agentes não podem entrar.</p></li>
-<li><p>Os grupos de agentes pertencentes ao pool de backup podem ser exibido no console do agente e os agentes podem entrar.</p></li>
+<li><p>Os grupos de agentes pertencentes ao pool primário podem ser exibidos no console do agente, mas os agentes não podem entrar.</p></li>
+<li><p>Os grupos de agentes pertencentes ao pool de backup podem ser exibidos no console do agente e os agentes podem entrar.</p></li>
 <li><p>Os grupos de agentes importados são exibidos no console do agente e os agentes podem entrar.</p></li>
 </ul></td>
 <td><ul>
 <li><p>Os grupos de agentes pertencentes ao pool primário podem ser exibidos no console do agente, mas os agentes não podem entrar.</p></li>
-<li><p>Os grupos de agentes pertencentes ao pool de backup podem ser exibido no console do agente e os agentes podem entrar.</p></li>
+<li><p>Os grupos de agentes pertencentes ao pool de backup podem ser exibidos no console do agente e os agentes podem entrar.</p></li>
 <li><p>Os grupos de agentes importados são exibidos no console do agente e os agentes podem entrar.</p></li>
 </ul></td>
 </tr>
@@ -290,8 +292,8 @@ Quando um administrador chama o failback para o pool primário, a atividade do g
 <tr class="odd">
 <td><p>Entrada do agente e informações do agente</p></td>
 <td><ul>
-<li><p>Os grupos de agente pertencentes ao pool primário podem ser exibidos no console do agente, mas os agentes não podem entrar.</p></li>
-<li><p>Os grupos de agentes pertencentes ao pool de backup podem ser exibido no console do agente e os agentes podem entrar.</p></li>
+<li><p>Os grupos de agentes pertencentes ao pool primário podem ser exibidos no console do agente, mas os agentes não podem entrar.</p></li>
+<li><p>Os grupos de agentes pertencentes ao pool de backup podem ser exibidos no console do agente e os agentes podem entrar.</p></li>
 <li><p>Os grupos de agentes importados são exibidos no console do agente e os agentes podem entrar.</p></li>
 </ul></td>
 <td><ul>

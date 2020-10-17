@@ -12,20 +12,22 @@ ms:contentKeyID: 48185395
 ms.date: 07/28/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ddcfc08ff983ec080bd2382394bfc4b8c3bae3a3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: cb5c5cbe1ef98a4028f8b05d96e4acc90cae7963
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200807"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510268"
 ---
+# <a name="server-hardware-platforms-for-lync-server-2013"></a>Plataformas de hardware de servidor para o Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="server-hardware-platforms-for-lync-server-2013"></a>Plataformas de hardware de servidor para o Lync Server 2013
+
 
 </div>
 
@@ -85,7 +87,7 @@ Para obter um melhor desempenho, recomendamos que você execute o Lync Server em
 <td><ul>
 <li><p>8 ou mais drives de disco rígido de 10.000 RPM com pelo menos 72 GB espaço de disco livre.</p>
 <p>Dois dos discos devem usar RAID 1 e seis devem usar RAID 10.</p>
-<p>-Ou</p></li>
+<p>- Ou</p></li>
 <li><p>Drivers de estado sólido (SSDs) que oferecem desempenho semelhante à 8 drivers de disco mecânico de 10.000-RPM.</p></li>
 </ul></td>
 </tr>
@@ -124,7 +126,7 @@ Para obter um melhor desempenho, recomendamos que você execute o Lync Server em
 <td><p>CPU</p></td>
 <td><ul>
 <li><p>processador dual de 64 bits, Quad-Core, 2,0 gigahertz (GHz) ou superior.</p>
-<p>-Ou</p></li>
+<p>- Ou</p></li>
 <li><p>processador de 4 vias com 64 bits, Dual-Core, 2,0 GHz ou superior.</p></li>
 </ul>
 <p>Processadores Intel Itanium não são suportados para funções de servidor do Lync Server.</p></td>
@@ -138,7 +140,7 @@ Para obter um melhor desempenho, recomendamos que você execute o Lync Server em
 <td><ul>
 <li><p>4 ou mais unidades de disco rígido de 10.000 RPM com pelo menos 72 GB de espaço livre em disco.</p>
 <p>Os discos devem estar em uma configuração RAID 1 2x.</p>
-<p>-Ou</p></li>
+<p>- Ou</p></li>
 <li><p>Drivers de estado sólido (SSDs) que oferecem desempenho semelhante a 4 drivers de disco mecânico de 10.000-RPM.</p></li>
 </ul></td>
 </tr>

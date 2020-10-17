@@ -12,20 +12,22 @@ ms:contentKeyID: 59893866
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7871d662d76f47685a58384804dfc6dee3b7b1d2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f84b7eaf3476624479d1ecb7c7bb564a4eae8ad9
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200907"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48510438"
 ---
+# <a name="security-framework-for-lync-server-2013"></a>Estrutura de segurança para o Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="security-framework-for-lync-server-2013"></a>Estrutura de segurança para o Lync Server 2013
+
 
 </div>
 
@@ -43,7 +45,7 @@ Essas elementos são os seguintes:
 
   - O AD DS (Serviços de Domínio Active Directory) fornece um repositório back-end confiável para contas de usuário e recursos de rede.
 
-  - O RBAC (controle de acesso baseado em função) permite delegar tarefas administrativas enquanto mantém altos padrões de segurança.
+  - O controle de acesso de Role-Based (RBAC) permite delegar tarefas administrativas enquanto mantém altos padrões de segurança.
 
   - A infraestrutura de chave pública (PKI) usa certificados emitidos por autoridades de certificação (CAs) confiáveis para autenticar servidores e garantir a integridade dos dados.
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185171
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 254f9e95edfb445d996948a17064ae460dbdb7d8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ea967dc717f36b8ab5951fa758e7c78d6130dc0d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214867"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48511658"
 ---
+# <a name="response-group-disaster-recovery-procedures-in-lync-server-2013"></a>Procedimentos de recuperação de desastre do grupo de resposta no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="response-group-disaster-recovery-procedures-in-lync-server-2013"></a>Procedimentos de recuperação de desastre do grupo de resposta no Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42214867"
 
 _**Última modificação do tópico:** 2012-11-01_
 
-Durante a fase de failover ou de recuperação de desastres, o grupo de resposta reside em vários pools: no pool principal (que está indisponível) e no de backup. Os grupos de resposta em ambos os pools têm o mesmo nome e proprietário (o pool principal), mas têm pais diferentes. Durante esse tempo, os cmdlets do grupo de resposta funcionam de forma um pouco diferente. Certifique-se de usar parâmetros como especificado no seguinte procedimento. Para obter detalhes sobre como os cmdlets funcionam durante a fase de failover, consulte o artigo de blog NextHop "Lync Server 2013: Recuperando grupos de resposta [https://go.microsoft.com/fwlink/p/?LinkId=263957](https://go.microsoft.com/fwlink/p/?linkid=263957)durante a recuperação de desastres" em. Este artigo do blog também se aplica à versão lançada do Lync Server 2013.
+Durante a fase de failover ou de recuperação de desastres, o grupo de resposta reside em vários pools: no pool principal (que está indisponível) e no de backup. Os grupos de resposta em ambos os pools têm o mesmo nome e proprietário (o pool principal), mas têm pais diferentes. Durante esse tempo, os cmdlets do grupo de resposta funcionam de forma um pouco diferente. Certifique-se de usar parâmetros como especificado no seguinte procedimento. Para obter detalhes sobre como os cmdlets funcionam durante a fase de failover, consulte o artigo de blog NextHop "Lync Server 2013: Recuperando grupos de resposta durante a recuperação de desastres" em [https://go.microsoft.com/fwlink/p/?LinkId=263957](https://go.microsoft.com/fwlink/p/?linkid=263957) . Este artigo do blog também se aplica à versão lançada do Lync Server 2013.
 
 Use as etapas do procedimento a seguir para preparar e executar a recuperação de desastres para o serviço de grupo de resposta do Lync Server.
 
