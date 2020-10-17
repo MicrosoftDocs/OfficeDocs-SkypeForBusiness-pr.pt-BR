@@ -12,20 +12,22 @@ ms:contentKeyID: 62625490
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5473638169f4a171dbf48adb3e85d7ac8d7f37d8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0254c77bb276add6f55ccff623c1fc2bec590102
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214228"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536908"
 ---
+# <a name="hardening-and-protecting-the-databases-of-lync-server-2013"></a>Proteção e proteção dos bancos de dados do Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="hardening-and-protecting-the-databases-of-lync-server-2013"></a>Proteção e proteção dos bancos de dados do Lync Server 2013
+
 
 </div>
 
@@ -39,13 +41,13 @@ _**Última modificação do tópico:** 2013-12-05_
 
 O Microsoft Lync Server 2013 também depende dos bancos de dados do SQL Server para armazenar as informações do usuário, o estado da conferência, dados de arquivamento e CDRs (registros de detalhes de chamada). Você pode maximizar a disponibilidade de dados do Lync Server 2013 em bancos de dados de back-end do Lync Server, Particionando os dados do aplicativo de forma a melhorar a tolerância a falhas e simplificar a solução de problemas. Para alcançar essas metas, siga estas diretrizes:
 
-  - **Usando as práticas**   recomendadas de partição de servidor, separe seus arquivos de sistema operacional, aplicativos e programas de seus arquivos de dados.
+  - **Usando as práticas**     recomendadas de particionamento de servidor Separe seus arquivos de sistema operacional, aplicativos e programas de seus arquivos de dados.
 
-  - **Armazenar arquivos de log de transações e arquivos**   de banco de dados armazena esses arquivos separadamente para aumentar a tolerância a falhas e otimizar a recuperação e armazená-los em um disco ou volume criptografado.
+  - **Armazenar arquivos de log de transações e arquivos**     de banco de dados Armazene esses arquivos separadamente para aumentar a tolerância a falhas e otimizar a recuperação e armazená-los em um disco ou volume criptografado.
 
-  - **Usando**   cluster de servidor cluster os servidores de back-end para otimizar a disponibilidade do sistema do Lync Server 2013.
+  - **Usando o clustering**     de servidor Agrupa os servidores de back-end para otimizar a disponibilidade do sistema do Lync Server 2013.
 
-  - **Certifique-se de que todos os backups de dados são criptografados e devidamente tratados**   , descartados ou a mídia de backup mal colocada podem representar uma ameaça significativa à segurança de dados para implantações do Lync Server 2013
+  - **Garantir que todos os backups de dados sejam criptografados e devidamente tratados**     As mídias de backup perdidas, descartadas ou colocadas incorreta podem representar uma ameaça significativa à segurança de dados para implantações do Lync Server 2013
 
 Em qualquer servidor do Lync Server 2013, exceto servidor Standard Edition, a instância do SQL Server Express (instância do RTCLOCAL) não é acessível remotamente, e nenhuma exceção de firewall local é criada, exceto para o SQL Server Express em um servidor Standard Edition. Em um servidor Standard Edition, o banco de dados back-end e o CMS (Repositório de Gerenciamento Central) são configurados para serem acessados remotamente. Para proteger os bancos de dados SQL Server, é possível fazer o seguinte:
 
@@ -68,19 +70,19 @@ Em qualquer servidor do Lync Server 2013, exceto servidor Standard Edition, a in
     
       - O Lync Server 2013 oferece suporte a portas estáticas e dinâmicas do SQL Server.
 
-  - Executar o SQL Server em uma porta estática (não padrão) e não executar o SQL Server Browser (para que não informe a porta que está escutando ao cliente). Isso requer uma configuração personalizada em cada cliente do SQL Server, incluindo servidores front-end, servidor de monitoramento, servidor de arquivamento e consoles administrativos (executando o Shell de gerenciamento do Lync Server, o painel de controle do Lync Server ou o construtor de topologia) e todos os outros servidores que executam os bancos de dados do Lync Server).
+  - Executar o SQL Server em uma porta estática (não padrão) e não executar o SQL Server Browser (para que não informe a porta que está escutando ao cliente). Isso requer uma configuração personalizada em cada cliente do SQL Server, incluindo servidores front-end, servidor de monitoramento, servidor de arquivamento e consoles administrativos (executando o Shell de gerenciamento do Lync Server, o painel de controle do Lync Server ou o construtor de topologias) e todos os outros servidores que executam os bancos de dados do Lync Server).
 
 <div>
 
 
 > [!NOTE]  
-> O acesso aos bancos de dados precisa ser limitado aos administradores de banco de dados confiáveis. Um administrador de banco de dados mal-intencionado pode inserir ou modificar dados nos bancos de dados para adquirir privilégios nos servidores do Lync Server 2013 ou obter informações confidenciais dos serviços, mesmo que o administrador do banco de dados não tenha sido concedido acesso direto ou controle dos servidores do Lync Server 2013.
+> O acesso aos bancos de dados precisa ser limitado aos administradores de banco de dados confiáveis. Um administrador de banco de dados mal-intencionado pode inserir ou modificar dados nos bancos de dados para adquirir privilégios nos servidores do Lync Server 2013 ou obter informações confidenciais dos serviços, mesmo se o administrador do banco de dados não tiver sido concedido acesso direto ou controle dos servidores do Lync Server 2013.
 
 
 
 </div>
 
-Para obter detalhes sobre as configurações personalizadas e a proteção de bancos de dados do SQL Server, consulte o artigo de blog NextHop, "using Lync Server 2010 with a Custom SQL Server [https://go.microsoft.com/fwlink/p/?LinkId=214008](https://go.microsoft.com/fwlink/p/?linkid=214008)Network Configuration" em.
+Para obter detalhes sobre as configurações personalizadas e a proteção de bancos de dados do SQL Server, consulte o artigo de blog NextHop, "using Lync Server 2010 with a Custom SQL Server Network Configuration" em [https://go.microsoft.com/fwlink/p/?LinkId=214008](https://go.microsoft.com/fwlink/p/?linkid=214008) .
 
 <div>
 

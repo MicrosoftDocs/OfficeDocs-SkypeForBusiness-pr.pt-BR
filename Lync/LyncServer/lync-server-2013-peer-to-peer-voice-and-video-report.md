@@ -12,20 +12,22 @@ ms:contentKeyID: 48185535
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dcb58becb1b495c16338ef9590ede8fb4005bc2d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: dc5d3905df971cf5ce09bfb026acc4838974ff18
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215657"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536798"
 ---
+# <a name="peer-to-peer-voice-and-video-report-in-lync-server-2013"></a>Relatório de vídeo e voz ponto a ponto no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="peer-to-peer-voice-and-video-report-in-lync-server-2013"></a>Relatório de vídeo e voz ponto a ponto no Lync Server 2013
+
 
 </div>
 
@@ -94,12 +96,12 @@ Os filtros fornecem uma maneira de retornar um conjunto de dados mais direcionad
 <tr class="odd">
 <td><p><strong>De</strong></p></td>
 <td><p>Data e hora de início para o intervalo de tempo. Para ver os dados por hora, digite a data e hora de início no seguinte formato:</p>
-<p>7/7/2012 13:00 horas</p>
+<p>07/07/2012 13:00</p>
 <p>Se você não inserir uma hora inicial, o relatório começa automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:</p>
 <p>7/7/2012</p>
 <p>Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):</p>
 <p>7/3/2012</p>
-<p>As semanas sempre são de Domingo a Sábado.</p></td>
+<p>As semanas são sempre de domingo a sábado.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>To</strong></p></td>
@@ -273,8 +275,8 @@ A tabela a seguir lista as informações fornecidas no relatório de vídeo e vo
 <td><p>Não</p></td>
 <td><p>Indica se os clientes fizeram logon na rede interna ou na rede externa quando a chamada foi feita. Normalmente, os valores são um dos seguintes:</p>
 <ul>
-<li><p>Interna</p></li>
-<li><p>Externa</p></li>
+<li><p>Interno</p></li>
+<li><p>Externo</p></li>
 <li><p>Mistos</p></li>
 </ul></td>
 </tr>
@@ -317,7 +319,7 @@ A tabela a seguir lista as informações fornecidas no relatório de vídeo e vo
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Servidor de Mediação</strong></p></td>
+<td><p><strong>Servidor de mediação</strong></p></td>
 <td><p>Não</p></td>
 <td><p>Nome do servidor de mediação.</p></td>
 </tr>

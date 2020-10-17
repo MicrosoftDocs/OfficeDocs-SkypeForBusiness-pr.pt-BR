@@ -12,20 +12,22 @@ ms:contentKeyID: 48184044
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8b07ddfa11f23c7e5183c243020c441db7219660
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a0b06176a033c90ff915fccb145dac3b3ed6fe87
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194764"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536118"
 ---
+# <a name="technical-requirements-for-response-group-in-lync-server-2013"></a>Requisitos técnicos para o grupo de resposta no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="technical-requirements-for-response-group-in-lync-server-2013"></a>Requisitos técnicos para o grupo de resposta no Lync Server 2013
+
 
 </div>
 
@@ -63,7 +65,7 @@ O aplicativo grupo de resposta tem os mesmos requisitos de hardware que os servi
 
 O aplicativo grupo de resposta tem os mesmos requisitos de sistema operacional e pré-requisitos de software que os servidores front-end. Para obter detalhes sobre os requisitos de software, consulte [Server and Tools Operating System support in Lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md) na documentação de suporte.
 
-Se você usar arquivos de áudio do Windows Media (. WMA) para música e anúncios do grupo de resposta, todos os servidores front-end ou servidores Standard Editions que executam o aplicativo de grupo de resposta deverão ter o tempo de execução do Windows Media Format instalado para servidores executando o Windows Server 2008 R2 ou Microsoft Media Foundation para servidores que executam o Windows Server 2012 ou o Windows Server 2012 R2. Para o Windows Server 2008 R2, o tempo de execução do Windows Media Format é instalado como parte da experiência da área de trabalho do Windows.
+Se você usar os arquivos de áudio do Windows Media (. WMA) para o grupo de resposta e anúncios, todos os servidores front-end ou servidores Standard Editions que executam o aplicativo de grupo de resposta deverão ter o tempo de execução do Windows Media Format instalado para servidores executando o Windows Server 2008 R2 ou o Microsoft Media Foundation para servidores executando o Windows Server 2012 ou o Windows Server 2012 R2 Para o Windows Server 2008 R2, o tempo de execução do Windows Media Format é instalado como parte da experiência da área de trabalho do Windows.
 
 Para mais detalhes sobre requisitos de áudio, consulte "Requisitos de arquivo de áudio" mais adiante nesta seção.
 
@@ -75,9 +77,9 @@ Para mais detalhes sobre requisitos de áudio, consulte "Requisitos de arquivo d
 
 O aplicativo grupo de resposta usa as seguintes portas:
 
-  - **Porta 5071**   usada para solicitações de escuta SIP
+  - **Porta 5071**     Usado para solicitações de escuta SIP
 
-  - **Porta 8404**   usada para comunicações entre servidores
+  - **Porta 8404**     Usado para comunicações entre servidores
     
     <div>
     
@@ -132,7 +134,7 @@ Para o melhor desempenho de arquivos wave, um  arquivo Wave mono, de 16 kHz e 16
 
 Se você utilizar um arquivo de áudio Windows Media, considere utilizar taxas de bit baixos e verifique o desempenho do sistema sob carga.
 
-Você pode utilizar o Microsoft Expression Encoder 4 para converter um arquivo para o formato Windows Media Audio. Para baixar o Expression Encoder 4, [https://go.microsoft.com/fwlink/p/?linkId=202843](https://go.microsoft.com/fwlink/p/?linkid=202843)consulte.
+Você pode utilizar o Microsoft Expression Encoder 4 para converter um arquivo para o formato Windows Media Audio. Para baixar o Expression Encoder 4, consulte [https://go.microsoft.com/fwlink/p/?linkId=202843](https://go.microsoft.com/fwlink/p/?linkid=202843) .
 
 </div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 63969614
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 50b2908b3f2403cc59f4cb7ce26f176d366ce2e1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8893964ce1982c67dc97ed93bca9ba19ec2f24e0
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194115"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536008"
 ---
+# <a name="testing-lis-server-configuration-in-lync-server-2013"></a>Testando a configuração do servidor LIS no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-lis-server-configuration-in-lync-server-2013"></a>Testando a configuração do servidor LIS no Lync Server 2013
+
 
 </div>
 
@@ -74,7 +76,7 @@ O cmdlet Test-CsLisConfiguration verifica sua capacidade de entrar em contato co
 
 ## <a name="running-the-test"></a>Executar o teste
 
-O cmdlet Test-CsLisConfguration pode ser executado usando uma conta de teste pré-configurada (consulte Configurando contas de teste para executar testes do Lync Server) ou a conta de qualquer usuário habilitado para o Lync Server. Para executar esta verificação usando uma conta de teste, basta especificar o FQDN do pool do Lync Server que está sendo testado. Por exemplo:
+O cmdlet Test-CsLisConfguration pode ser executado usando uma conta de teste pré-configurada (Confira Configurando contas de teste para executar testes do Lync Server) ou a conta de qualquer usuário habilitado para o Lync Server. Para executar esta verificação usando uma conta de teste, basta especificar o FQDN do pool do Lync Server que está sendo testado. Por exemplo:
 
     Test-CsLisConfiguration -TargetFqdn "atl-cs-001.litwareinc.com"
 
@@ -93,7 +95,7 @@ Para obter mais informações, consulte a documentação de ajuda para o cmdlet 
 
 Se o LIS estiver configurado corretamente, você receberá uma saída semelhante a esta, com a propriedade Result marcada como **Success:**
 
-TargetUrihttps://atl-cs-001.litwareinc.com:443/locationinformation/
+TargetUri https://atl-cs-001.litwareinc.com:443/locationinformation/
 
 liservice. svc
 
@@ -131,11 +133,11 @@ Se Test-CsLisConfiguration falhar, talvez você queira executar novamente o test
 
     Test-CsLisConfiguration -TargetFqdn "atl-cs-001.litwareinc.com" -Verbose
 
-Quando o parâmetro Verbose é incluído, o Test-CsLisConfiguration retornará uma conta passo a passo de cada ação que tentou quando verificou a capacidade do usuário especificado fazer logon no Lync Server. Por exemplo:
+Quando o parâmetro Verbose é incluído, Test-CsLisConfiguration retornará uma conta passo a passo de cada ação que tentou quando verificou a capacidade do usuário especificado fazer logon no Lync Server. Por exemplo:
 
 Chamando o serviço de informações de local.
 
-Caminho do serviço =https://atl-cs-001.litwareinc.com:443/locationinformation/liservice.svc
+Caminho do serviço = https://atl-cs-001.litwareinc.com:443/locationinformation/liservice.svc
 
 Subnet =
 
@@ -165,7 +167,7 @@ Esse não é um valor válido para o identificador de conjunto de serviços bás
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Motivos pelos quais o teste pode ter falhado
 
-Aqui estão alguns motivos comuns pelos quais Test-CsLisConfiguration pode falhar:
+Aqui estão alguns motivos comuns para que Test-CsLisConfiguration possa falhar:
 
   - Um valor de parâmetro incorreto foi fornecido. Conforme mostrado no exemplo anterior, os parâmetros opcionais devem ser configurados corretamente ou o teste falhará. Execute novamente o comando sem os parâmetros opcionais e veja se isso é bem-sucedido.
 

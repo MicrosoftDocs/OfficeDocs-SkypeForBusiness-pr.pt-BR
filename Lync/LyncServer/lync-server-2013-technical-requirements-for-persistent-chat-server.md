@@ -12,20 +12,22 @@ ms:contentKeyID: 48184383
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 75c5bd99e487aa596bdf3b32db77d8deb2cfab9e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 05a7dbe3073e01505e7f20c3613e94aa05db02ad
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194784"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536128"
 ---
+# <a name="technical-requirements-for-persistent-chat-server-in-lync-server-2013"></a>Requisitos técnicos para o servidor de chat persistente no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="technical-requirements-for-persistent-chat-server-in-lync-server-2013"></a>Requisitos técnicos para o servidor de chat persistente no Lync Server 2013
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**Última modificação do tópico:** 2013-01-06_
 
 Cada computador que hospeda o servidor de chat persistente deve ter acesso a uma topologia existente do Lync Server 2013 com os seguintes componentes:
 
-  - **Lync Server 2013, servidor front-end.**  O servidor front-end é a base para o roteamento do protocolo SIP, que faz a comunicação entre os computadores que executam o servidor de chat persistente e a funcionalidade de chat persistente possível. Antes de começar a implantar o servidor de chat persistente, verifique a implantação do Lync Server 2013, Standard Edition ou de um pool de front-ends do Lync Server e de qualquer outro computador interno executando o Lync Server, conforme apropriado para sua organização.
+  - **Lync server 2013, servidor front-end.**   O servidor front-end é a base para o roteamento do protocolo SIP, que faz a comunicação entre os computadores que executam o servidor de chat persistente e a funcionalidade de chat persistente possível. Antes de começar a implantar o servidor de chat persistente, verifique a implantação do Lync Server 2013, Standard Edition ou de um pool de front-ends do Lync Server e de qualquer outro computador interno executando o Lync Server, conforme apropriado para sua organização.
 
 As seções a seguir descrevem os requisitos específicos para o servidor de chat persistente e o banco de dados que armazena os dados de chat persistente.
 
@@ -99,9 +101,9 @@ A plataforma de servidor para os servidores de banco de dados de chat persistent
 
 No servidor de banco de dados, certifique-se de que um dos seguintes aplicativos de software está instalado:
 
-  - Microsoft SQL Server 2012. Para obter detalhes sobre como instalar o Microsoft SQL Server 2012, consulte "instalar o SQL Server 2012 [https://go.microsoft.com/fwlink/p/?LinkID=248559](https://go.microsoft.com/fwlink/p/?linkid=248559)" em.
+  - Microsoft SQL Server 2012. Para obter detalhes sobre como instalar o Microsoft SQL Server 2012, consulte "instalar o SQL Server 2012" em [https://go.microsoft.com/fwlink/p/?LinkID=248559](https://go.microsoft.com/fwlink/p/?linkid=248559) .
 
-  - Microsoft SQL Server 2008 R2. Para obter detalhes sobre como instalar o Microsoft SQL Server 2008 R2, consulte "instalação do SQL Server (SQL Server 2008 R2) [https://go.microsoft.com/fwlink/?LinkId=275702](https://go.microsoft.com/fwlink/?linkid=275702)" em.
+  - Microsoft SQL Server 2008 R2. Para obter detalhes sobre como instalar o Microsoft SQL Server 2008 R2, consulte "instalação do SQL Server (SQL Server 2008 R2)" em [https://go.microsoft.com/fwlink/?LinkId=275702](https://go.microsoft.com/fwlink/?linkid=275702) .
 
 </div>
 

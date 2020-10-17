@@ -12,20 +12,22 @@ ms:contentKeyID: 48185282
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9ccce5823e997cafc5e8c8e7555df18bc67d1fe6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4b27472526f98bc0f867b027fe111aac9c4f9aab
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193574"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535968"
 ---
+# <a name="topologies-and-components-for-mobility-in-lync-server-2013"></a>Topologias e componentes para mobilidade no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="topologies-and-components-for-mobility-in-lync-server-2013"></a>Topologias e componentes para mobilidade no Lync Server 2013
+
 
 </div>
 
@@ -67,7 +69,7 @@ Para oferecer suporte a aplicativos móveis do Lync em dispositivos móveis, o L
 
 Os serviços que suportam a mobilidade são:
 
-  - **Lync Server 2013 Unified Communications Web API (UCWA)**   fornece serviços para comunicação em tempo real com clientes móveis e da Web no Lync Server 2013. Ao implantar as atualizações cumulativas do Lync Server 2013: fevereiro de 2013 para o servidor front-end e diretor, a instalação cria um diretório virtual nos serviços Web internos e externos (Ucwa). Um componente da Web que faz parte do diretório virtual do Ucwa aceita chamadas de clientes habilitados para UCWA. Os aplicativos cliente se comunicam por uma interface REST para presença, contatos, mensagens instantâneas, VoIP, conferência de vídeo e colaboração. O UCWA usa um canal baseado em P-GET para enviar eventos, como uma chamada de entrada, uma mensagem instantânea de entrada ou uma mensagem para o aplicativo cliente.
+  - **API Web de comunicações unificadas do Lync Server 2013 (UCWA)**     Fornece serviços para comunicação em tempo real com clientes móveis e da Web no Lync Server 2013. Ao implantar as atualizações cumulativas do Lync Server 2013: fevereiro de 2013 para o servidor front-end e diretor, a instalação cria um diretório virtual nos serviços Web internos e externos (Ucwa). Um componente da Web que faz parte do diretório virtual do Ucwa aceita chamadas de clientes habilitados para UCWA. Os aplicativos cliente se comunicam por uma interface REST para presença, contatos, mensagens instantâneas, VoIP, conferência de vídeo e colaboração. O UCWA usa um canal baseado em P-GET para enviar eventos, como uma chamada de entrada, uma mensagem instantânea de entrada ou uma mensagem para o aplicativo cliente.
     
     <div>
     
@@ -78,7 +80,7 @@ Os serviços que suportam a mobilidade são:
     
     </div>
 
-  - **Lync Server 2013 Mobility Service (MCX)**   esse serviço oferece suporte à funcionalidade do Lync, como mensagens instantâneas (IM), presença e contatos, em dispositivos móveis. O serviço de mobilidade é instalado em todos os servidores front-end em cada pool que oferece suporte à funcionalidade do Lync em dispositivos móveis. Quando você instala o Lync Server 2013, um novo diretório virtual (MCX) é criado tanto no site interno quanto no site externo em seus servidores front-end.
+  - **Lync Server 2013 Mobility Service (MCX)**     Este serviço oferece suporte à funcionalidade do Lync, como mensagens instantâneas (IM), presença e contatos, em dispositivos móveis. O serviço de mobilidade é instalado em todos os servidores front-end em cada pool que oferece suporte à funcionalidade do Lync em dispositivos móveis. Quando você instala o Lync Server 2013, um novo diretório virtual (MCX) é criado tanto no site interno quanto no site externo em seus servidores front-end.
     
     <div>
     
@@ -89,7 +91,7 @@ Os serviços que suportam a mobilidade são:
     
     </div>
 
-  - **Lync Server 2013 serviço**   de descoberta automática este serviço identifica o local do usuário e permite que dispositivos móveis e outros clientes do Lync localizem recursos, como as URLs internas e externas para os serviços Web do Lync Server 2013 e a URL do MCX ou do UCWA, independentemente do local da rede. A descoberta automática usa nomes de host codificados (lyncdiscoverinternal para usuários dentro da rede; lyncdiscover para usuários fora da rede) e o domínio SIP do usuário. Ele oferece suporte a conexões de clientes que usam HTTP ou HTTPS.
+  - Serviço de descoberta **automática do Lync Server 2013**     Este serviço identifica o local do usuário e permite que dispositivos móveis e outros clientes do Lync localizem recursos, como as URLs internas e externas para os serviços Web do Lync Server 2013 e a URL do MCX ou do UCWA, independentemente do local da rede. A descoberta automática usa nomes de host codificados (lyncdiscoverinternal para usuários dentro da rede; lyncdiscover para usuários fora da rede) e o domínio SIP do usuário. Ele oferece suporte a conexões de clientes que usam HTTP ou HTTPS.
     
     O serviço de descoberta automática é instalado em todos os servidores front-end e em cada diretor de cada pool que oferece suporte à funcionalidade do Lync em dispositivos móveis. Quando você instala o serviço de descoberta automática, um novo diretório virtual (descoberta automática) é criado no site interno e no site externo, em servidores front-end e diretores.
     
@@ -102,7 +104,7 @@ Os serviços que suportam a mobilidade são:
     
     </div>
 
-  - **Serviço de notificação por push**   esse serviço é um serviço baseado em nuvem localizado no data center do Lync Online. Quando o aplicativo móvel do Lync em um dispositivo Apple iOS com suporte ou no Windows Phone está inativo, ele não pode responder a novos eventos, como um novo convite de mensagens instantâneas (IM), uma mensagem instantânea perdida, uma chamada perdida ou uma caixa postal, pois esses dispositivos não dão suporte a aplicativos móveis executados em segundo plano. Nesses casos, uma notificação do novo evento – chamada de *notificação por push*, é enviada ao dispositivo móvel. O serviço de mobilidade envia a notificação para o serviço de notificação por push baseado em nuvem, que envia a notificação ao Apple Push Notification Service (APNS) (para dispositivos Apple iOS suportados) ou ao serviço de notificação por push da Microsoft (MPNS ) (para Windows Phone), que o envia para o dispositivo móvel. Em seguida, o usuário pode responder à notificação no dispositivo móvel para ativar o aplicativo.
+  - Serviço de notificação **por push**     Este serviço é um serviço baseado em nuvem localizado no data center do Lync Online. Quando o aplicativo móvel do Lync em um dispositivo Apple iOS com suporte ou no Windows Phone está inativo, ele não pode responder a novos eventos, como um novo convite de mensagens instantâneas (IM), uma mensagem instantânea perdida, uma chamada perdida ou uma caixa postal, porque esses dispositivos não dão suporte a aplicativos móveis executados em segundo plano. Nesses casos, uma notificação do novo evento – chamada de *notificação por push*, é enviada ao dispositivo móvel. O serviço de mobilidade envia a notificação para o serviço de notificação por push baseado em nuvem, que envia a notificação ao Apple Push Notification Service (APNS) (para dispositivos Apple iOS suportados) ou ao Microsoft Push Notification Service (MPNS) (para Windows Phone), que o envia para o dispositivo móvel. Em seguida, o usuário pode responder à notificação no dispositivo móvel para ativar o aplicativo.
     
     O Lync 2010 Mobile no Apple e dispositivos Windows Phone usam notificações por push. O cliente móvel do Lync 2013 para dispositivos Apple apresentou as atualizações cumulativas do Lync Server 2013: fevereiro de 2013 não usa mais a notificação por Push ou a casa de compensação de notificação por push (PNCH).
 

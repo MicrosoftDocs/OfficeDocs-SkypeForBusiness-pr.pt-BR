@@ -12,20 +12,22 @@ ms:contentKeyID: 63969591
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c676247eabbce1d6453308bdbba5a7df0754caf1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d5cd477b02aa261b762f728ca15d296f49dfbac1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194104"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535988"
 ---
+# <a name="testing-location-policy-in-lync-server-2013"></a>Testando a política de local no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-location-policy-in-lync-server-2013"></a>Testando a política de local no Lync Server 2013
+
 
 </div>
 
@@ -66,7 +68,7 @@ _**Última modificação do tópico:** 2014-06-05_
 
 ## <a name="description"></a>Descrição
 
-O cmdlet Test-CsLocationPolicy verifica se uma política de local é atribuída a um usuário. A diretiva de local é usada para aplicar configurações que tenham relação com a funcionalidade E9-1-1 e o local do cliente. A política de local determina se um usuário está habilitado para o E9-1-1 e, se a resposta for "Sim", qual é o comportamento de uma chamada de emergência. Por exemplo, você pode usar a política de local para definir o número que constitui uma chamada de emergência (911 nos Estados Unidos), se a segurança corporativa deve ser notificada automaticamente e como a chamada deve ser encaminhada.
+O cmdlet Test-CsLocationPolicy verifica se a política de local é atribuída a um usuário. A diretiva de local é usada para aplicar configurações que tenham relação com a funcionalidade E9-1-1 e o local do cliente. A política de local determina se um usuário está habilitado para o E9-1-1 e, se a resposta for "Sim", qual é o comportamento de uma chamada de emergência. Por exemplo, você pode usar a política de local para definir o número que constitui uma chamada de emergência (911 nos Estados Unidos), se a segurança corporativa deve ser notificada automaticamente e como a chamada deve ser encaminhada.
 
 É possível testar diretivas de local em usuários ou sub-redes. Se o teste for executado contra uma sub-rede (especificando-se um valor para o parâmetro Subnet), o cmdlet tentará resolver a diretiva de local para essa sub-rede. Se nenhuma diretiva de local for atribuída à sub-rede, a diretiva de local do usuário configurado será recuperada. Se a política de sub-rede for recuperada com êxito, a saída incluirá um valor LocationPolicyTagID que começa com subnet-TagId. Se uma diretiva de local para a sub-rede não for encontrada, LocationPolicyTagID começará com user-tagid.
 
@@ -76,7 +78,7 @@ O cmdlet Test-CsLocationPolicy verifica se uma política de local é atribuída 
 
 ## <a name="running-the-test"></a>Executar o teste
 
-O cmdlet Test-CsLocationPolicy pode ser executado usando uma conta de teste pré-configurada (consulte Configurando contas de teste para executar testes do Lync Server) ou a conta de qualquer usuário habilitado para o Lync Server. Para executar esta verificação usando uma conta de teste, basta especificar o FQDN do pool do Lync Server que está sendo testado. Por exemplo:
+O cmdlet Test-CsLocationPolicy pode ser executado usando uma conta de teste pré-configurada (Confira Configurando contas de teste para executar testes do Lync Server) ou a conta de qualquer usuário habilitado para o Lync Server. Para executar esta verificação usando uma conta de teste, basta especificar o FQDN do pool do Lync Server que está sendo testado. Por exemplo:
 
     Test-CsLocationPolicy -TargetFqdn "atl-cs-001.litwareinc.com"
 
@@ -135,7 +137,7 @@ Se Test-CsLocationPolicy falhar, talvez você queira executar novamente o teste,
 
     Test-CsLocationPolicy -TargetFqdn "atl-cs-001.litwareinc.com" -Verbose
 
-Quando o parâmetro Verbose for incluído, o Test-CsLocationPolicy retornará uma conta passo a passo de cada ação que tentou ao verificar a política de local. Por exemplo, essa saída indica que o Lync Server não pôde fazer logon no usuário de teste, provavelmente porque uma senha inválida foi fornecida:
+Quando o parâmetro Verbose é incluído, Test-CsLocationPolicy retornará uma conta passo a passo de cada ação que tentou ao verificar a política de local. Por exemplo, essa saída indica que o Lync Server não pôde fazer logon no usuário de teste, provavelmente porque uma senha inválida foi fornecida:
 
 Enviando solicitação de registro:
 
@@ -159,7 +161,7 @@ Uma exceção ' o logon foi negado. Verifique se as credenciais corretas estão 
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Motivos pelos quais o teste pode ter falhado
 
-Aqui estão alguns motivos comuns pelos quais Test-CsLocationPolicy pode falhar:
+Aqui estão alguns motivos comuns para que Test-CsLocationPolicy possa falhar:
 
   - Você especificou uma conta de usuário que não é válida. Você pode verificar se uma conta de usuário existe executando um comando semelhante a este:
     

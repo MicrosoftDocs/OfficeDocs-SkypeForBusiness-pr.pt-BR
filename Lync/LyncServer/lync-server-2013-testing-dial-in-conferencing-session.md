@@ -12,20 +12,22 @@ ms:contentKeyID: 63969613
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 94999d2f3ce69308e38da1b261a4b0d96a2ef5cd
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6a7c3251ef5ff907dbf9964daaca222584953e75
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194144"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536078"
 ---
+# <a name="testing-dial-in-conferencing-session-in-lync-server-2013"></a>Testando a sessão de conferência discada no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-dial-in-conferencing-session-in-lync-server-2013"></a>Testando a sessão de conferência discada no Lync Server 2013
+
 
 </div>
 
@@ -66,7 +68,7 @@ _**Última modificação do tópico:** 2014-06-05_
 
 ## <a name="description"></a>Descrição
 
-O cmdlet Test-CsDialInConferencing verifica se um usuário pode participar de uma conferência discada. O Test-CsDialInConferencing funciona tentando registrar um usuário de teste no sistema. Se o logon for bem-sucedido, o cmdlet usará as credenciais do usuário e as permissões para tentar todos os números de acesso de conferência discada disponíveis. O sucesso ou a falha de cada tentativa de discagem será observado e, em seguida, o usuário de teste será desconectado do Lync Server. Test-CsDialInConferencing verifica apenas se as conexões apropriadas podem ser feitas. No entanto, o cmdlet não faz chamadas telefônicas nem cria conferências discadas que outros usuários podem participar.
+O cmdlet Test-CsDialInConferencing verifica se um usuário pode participar de uma conferência discada. Test-CsDialInConferencing funciona tentando registrar um usuário de teste no sistema. Se o logon for bem-sucedido, o cmdlet usará as credenciais do usuário e as permissões para tentar todos os números de acesso de conferência discada disponíveis. O sucesso ou a falha de cada tentativa de discagem será observado e, em seguida, o usuário de teste será desconectado do Lync Server. Test-CsDialInConferencing verifica apenas se as conexões apropriadas podem ser feitas. No entanto, o cmdlet não faz chamadas telefônicas nem cria conferências discadas que outros usuários podem participar.
 
 </div>
 
@@ -74,7 +76,7 @@ O cmdlet Test-CsDialInConferencing verifica se um usuário pode participar de um
 
 ## <a name="running-the-test"></a>Executar o teste
 
-O cmdlet Test-CsDialInConferencing pode ser executado usando uma conta de teste pré-configurada (consulte Configurando contas de teste para executar testes do Lync Server) ou a conta de qualquer usuário habilitado para o Lync Server. Para executar esta verificação usando uma conta de teste, basta especificar o FQDN do pool do Lync Server que está sendo testado. Por exemplo:
+O cmdlet Test-CsDialInConferencing pode ser executado usando uma conta de teste pré-configurada (Confira Configurando contas de teste para executar testes do Lync Server) ou a conta de qualquer usuário habilitado para o Lync Server. Para executar esta verificação usando uma conta de teste, basta especificar o FQDN do pool do Lync Server que está sendo testado. Por exemplo:
 
     Test-CsDialInConferencing -TargetFqdn "atl-cs-001.litwareinc.com" 
 
@@ -121,7 +123,7 @@ Exceção interna: NegotiateSecurityAssociation falhou, erro:-
 
 Diagnóstico
 
-A saída anterior indica que o usuário de teste teve o acesso negado ao Lync Server. Isso normalmente significa que as credenciais do usuário passadas para Test-CsDialInConferencing não eram válidas. Por sua vez, você deve recriar o objeto de credenciais do Windows PowerShell. Embora seja possível recuperar a senha da conta de usuário, você pode verificar o endereço SIP usando um comando semelhante a este:
+A saída anterior indica que o usuário de teste teve o acesso negado ao Lync Server. Normalmente, isso significa que as credenciais do usuário passadas para Test-CsDialInConferencing não eram válidas. Por sua vez, você deve recriar o objeto de credenciais do Windows PowerShell. Embora seja possível recuperar a senha da conta de usuário, você pode verificar o endereço SIP usando um comando semelhante a este:
 
     Get-CsUser -Identity "sip:kenmyer@litwareinc.com" | Select-Object SipAddress
 
@@ -131,7 +133,7 @@ A saída anterior indica que o usuário de teste teve o acesso negado ao Lync Se
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Motivos pelos quais o teste pode ter falhado
 
-Aqui estão alguns motivos comuns pelos quais Test-CsDialInConferencing pode falhar:
+Aqui estão alguns motivos comuns para que Test-CsDialInConferencing possa falhar:
 
   - Você especificou uma conta de usuário que não é válida. Você pode verificar se uma conta de usuário existe executando um comando semelhante a este:
     

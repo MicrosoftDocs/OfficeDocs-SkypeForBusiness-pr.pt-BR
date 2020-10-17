@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: testar a publicação de presença do usuário e inscrever-se'
+description: 'Lync Server 2013: testar a publicação de presença do usuário e inscrever-se.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 63969587
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 335ad014595f855c1ccefab363f3cf34ad7c282b
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 90913f270fbd034ca4d2ea7cf3b93c255fc95c66
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48503848"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48541847"
 ---
 # <a name="testing-user-presence-publishing-and-subscribing-in-lync-server-2013"></a>Testar a publicação de presença do usuário e inscrever-se no Lync Server 2013
 

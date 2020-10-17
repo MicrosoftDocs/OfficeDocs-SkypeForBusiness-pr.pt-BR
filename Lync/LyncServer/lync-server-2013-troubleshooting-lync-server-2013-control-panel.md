@@ -12,20 +12,22 @@ ms:contentKeyID: 48184145
 ms.date: 07/28/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 629fa8ea52148e25bd37fa448d9762fbfd557788
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b7da23bc56d18b1b5e6235551f7b99cc15e658fc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193374"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535928"
 ---
+# <a name="troubleshooting-lync-server-2013-control-panel"></a>Resolver problemas do painel de controle do Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="troubleshooting-lync-server-2013-control-panel"></a>Resolver problemas do painel de controle do Lync Server 2013
+
 
 </div>
 
@@ -55,7 +57,7 @@ O painel de controle do Lync Server exige que o plug-in do navegador Microsoft S
 
 </div>
 
-Se o seu navegador da Internet bloquear a instalação do Silverlight devido a considerações de segurança, adicione o Uniform Resource Locator (URL) que abre o painel de controle do Lync Server à lista de sites confiáveis. Nas configurações de segurança do Internet Explorer, certifique-se de **Executar controles e plug-ins do ActiveX** está definido para **Habilitado**. Para obter detalhes, [https://go.microsoft.com/fwlink/p/?linkId=214060](https://go.microsoft.com/fwlink/p/?linkid=214060)consulte. Além disso, certifique-se de que o navegador está configurado para usar SSL 3.0.
+Se o seu navegador da Internet bloquear a instalação do Silverlight devido a considerações de segurança, adicione o Uniform Resource Locator (URL) que abre o painel de controle do Lync Server à lista de sites confiáveis. Nas configurações de segurança do Internet Explorer, certifique-se de **Executar controles e plug-ins do ActiveX** está definido para **Habilitado**. Para obter detalhes, consulte [https://go.microsoft.com/fwlink/p/?linkId=214060](https://go.microsoft.com/fwlink/p/?linkid=214060) . Além disso, certifique-se de que o navegador está configurado para usar SSL 3.0.
 
 Se o navegador da Internet estiver configurado para usar um servidor proxy, verifique se o navegador está configurado para ignorar o servidor proxy para os sites que são detectados automaticamente como sites internos. Ou adicione o endereço à lista de exceções do navegador nas definições de configuração de servidor proxy.
 

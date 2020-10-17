@@ -12,20 +12,22 @@ ms:contentKeyID: 48183227
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ac26e17ad9e0ab13529da438bc2e12bec210808d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 94c64bbc8638ff4478849d74bb24f6e2f9704fa9
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212897"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535808"
 ---
+# <a name="using-cmdlets-to-reverse-domain-preparation-for-lync-server-2013"></a>Usando cmdlets para reverter a preparação do domínio para o Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-cmdlets-to-reverse-domain-preparation-for-lync-server-2013"></a>Usando cmdlets para reverter a preparação do domínio para o Lync Server 2013
+
 
 </div>
 
@@ -62,7 +64,7 @@ Use o cmdlet **Disable-CsAdDomain** para reverter a etapa de preparação do dom
     
 
     > [!NOTE]  
-    > O parâmetro GlobalSettingsDomainController permite indicar onde as configurações globais estão armazenadas. Se estiverem armazenadas no contêiner Sistema (o que é típico, quando as importações de atualização não tiveram a configuração global migrada para o contêiner Configuração), você define um controlador de domínio na raiz da sua floresta do Active Directory. Se as configurações globais estiverem no contêiner Configuração (o que é típico nas novas implantações ou nas atualizadas, onde as configurações foram migradas para o contêiner Configuração), você define qualquer controlador de domínio na floresta. Se você não especificar esse parâmetro, o cmdlet assumirá que as configurações são armazenadas no contêiner de configuração e se refere a qualquer controlador de domínio&nbsp;no AD DS.
+    > O parâmetro GlobalSettingsDomainController permite indicar onde as configurações globais estão armazenadas. Se estiverem armazenadas no contêiner Sistema (o que é típico, quando as importações de atualização não tiveram a configuração global migrada para o contêiner Configuração), você define um controlador de domínio na raiz da sua floresta do Active Directory. Se as configurações globais estiverem no contêiner Configuração (o que é típico nas novas implantações ou nas atualizadas, onde as configurações foram migradas para o contêiner Configuração), você define qualquer controlador de domínio na floresta. Se você não especificar esse parâmetro, o cmdlet assumirá que as configurações são armazenadas no contêiner de configuração e se refere a qualquer controlador de domínio no AD &nbsp; DS.
 
     
     </div>

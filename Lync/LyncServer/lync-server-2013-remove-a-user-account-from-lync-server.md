@@ -12,20 +12,22 @@ ms:contentKeyID: 49733596
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: db45682fd130aba378cab0f9894537ff4c23c28b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 782077cc532dc751076d3152467de865fe799a29
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183140"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536508"
 ---
+# <a name="remove-a-user-account-from-lync-server-2013"></a>Remover uma conta de usuário do Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="remove-a-user-account-from-lync-server-2013"></a>Remover uma conta de usuário do Lync Server 2013
+
 
 </div>
 
@@ -73,7 +75,7 @@ Você pode usar o procedimento a seguir para remover uma conta de usuário adici
 
 ## <a name="removing-user-accounts-by-using-windows-powershell-cmdlets"></a>Removendo contas de usuário usando cmdlets do Windows PowerShell
 
-Você pode remover contas de usuário usando o cmdlet Disable-CsUser. Este cmdlet pode ser executado a partir do Shell de gerenciamento do Lync Server 2013 ou de uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Lync Server, consulte o artigo de blog do Lync Server Windows PowerShell "início rápido: Managing Microsoft Lync Server [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)2010 using Remote PowerShell" em.
+Você pode remover contas de usuário usando o cmdlet Disable-CsUser. Este cmdlet pode ser executado a partir do Shell de gerenciamento do Lync Server 2013 ou de uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Lync Server, consulte o artigo de blog do Lync Server Windows PowerShell "início rápido: Managing Microsoft Lync Server 2010 using Remote PowerShell" em [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) .
 
 <div>
 

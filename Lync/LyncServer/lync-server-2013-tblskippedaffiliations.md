@@ -12,20 +12,22 @@ ms:contentKeyID: 48183373
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 31997276c95fb3908ab33d0a21017833f10fddcc
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 28751281bfbc8809c2be23e3bfdb6466b85d63f7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195074"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536188"
 ---
+# <a name="tblskippedaffiliations-in-lync-server-2013"></a>tblSkippedAffiliations no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="tblskippedaffiliations-in-lync-server-2013"></a>tblSkippedAffiliations no Lync Server 2013
+
 
 </div>
 
@@ -57,7 +59,7 @@ tblSkippedAffiliations contém as afiliações que não puderam ser lidas (geral
 <tbody>
 <tr class="odd">
 <td><p>prinID</p></td>
-<td><p>int, not null</p></td>
+<td><p>int, não nulo</p></td>
 <td><p>ID principal.</p></td>
 </tr>
 <tr class="even">

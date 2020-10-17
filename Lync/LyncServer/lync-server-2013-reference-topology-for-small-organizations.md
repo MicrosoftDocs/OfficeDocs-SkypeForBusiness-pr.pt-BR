@@ -12,20 +12,22 @@ ms:contentKeyID: 48183272
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 726056b63dfa37864171a77913b5126c23b27045
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 68163756f2c2153d1e164999532bc6265400ac5b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215137"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536728"
 ---
+# <a name="reference-topology-for-lync-server-2013-in-small-organizations"></a>Topologia de referência para Lync Server 2013 em pequenas organizações
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="reference-topology-for-lync-server-2013-in-small-organizations"></a>Topologia de referência para Lync Server 2013 em pequenas organizações
+
 
 </div>
 
@@ -43,9 +45,9 @@ A topologia de referência para pequenas organizações mostra como você pode i
 
 ![Diagrama da topologia de referência de implantação de três servidores](images/Gg398095.25196d0d-dd07-451b-83ba-94c0ddf59030(OCS.15).jpg "Diagrama da topologia de referência de implantação de três servidores")
 
-  - **Par de servidores Standard Edition implantado**     esta organização tem 4.000 usuários no site central. A organização implantou dois servidores Standard Edition e os combinaram para permitir alta disponibilidade e recuperação de desastre. Cada servidor casa 2.000 usuários, mas as informações sobre todos os usuários são sincronizadas entre os dois servidores. Se um for desativado, um administrador pode fazer o failover desses usuários para ser servido pelo outro servidor, com o mínimo de interrupção para os usuários. Para obter mais informações sobre recursos de alta disponibilidade e recuperação de desastre no Lync Server 2013, consulte [Planning for High Availability and Disaster Recovery in Lync server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md).
+  - **Par de servidores Standard Edition implantados**     Esta organização tem 4.000 usuários no site central. A organização implantou dois servidores Standard Edition e os combinaram para permitir alta disponibilidade e recuperação de desastre. Cada servidor casa 2.000 usuários, mas as informações sobre todos os usuários são sincronizadas entre os dois servidores. Se um for desativado, um administrador pode fazer o failover desses usuários para ser servido pelo outro servidor, com o mínimo de interrupção para os usuários. Para obter mais informações sobre recursos de alta disponibilidade e recuperação de desastre no Lync Server 2013, consulte [Planning for High Availability and Disaster Recovery in Lync server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md).
 
-  - **A implantação do servidor de borda é recomendada.**    Embora a implantação de um servidor de borda não seja necessária para im, presença e conferência internas, recomendamos que ele seja mesmo para pequenas implantações. Você pode maximizar seu investimento no Lync Server implantando um servidor de borda para fornecer serviço aos usuários fora dos firewalls da sua organização. Os benefícios são os seguintes:
+  - A **implantação do servidor de borda é recomendada.**     Embora a implantação de um servidor de borda não seja necessária para IM, presença e conferência internas, recomendamos que ele seja mesmo para pequenas implantações. Você pode maximizar seu investimento no Lync Server implantando um servidor de borda para fornecer serviço aos usuários fora dos firewalls da sua organização. Os benefícios são os seguintes:
     
       - Os usuários da sua organização podem usar a funcionalidade do Lync Server, se estiverem trabalhando de casa ou estão em trânsito.
     
@@ -53,7 +55,7 @@ A topologia de referência para pequenas organizações mostra como você pode i
     
       - Se você tiver uma organização de parceiro, fornecedor ou cliente que também usa o Lync Server, você pode formar uma *relação federada* com essa organização. A implantação do Lync Server reconhecerá os usuários dessa organização federada, levando à melhor colaboração.
     
-      - Seus usuários podem trocar mensagens instantâneas com usuários de serviços públicos de IM, incluindo qualquer uma das seguintes opções: Windows Live, AOL,\!Yahoo e Google Talk. Uma licença separada pode ser necessária para conectividade de IM pública com esses serviços.
+      - Seus usuários podem trocar mensagens instantâneas com usuários de serviços públicos de IM, incluindo qualquer uma das seguintes opções: Windows Live, AOL, Yahoo \! e Google Talk. Uma licença separada pode ser necessária para conectividade de IM pública com esses serviços.
         
         <div>
         
@@ -70,7 +72,7 @@ A topologia de referência para pequenas organizações mostra como você pode i
         
         </div>
 
-  - **Sustentabilidade do site de filial.**    Esta organização está executando um programa piloto do recurso Enterprise Voice do Lync Server. Alguns usuários estão usando o Lync Server como sua única solução de voz. Alguns desses usuários do piloto de voz estão localizados no site de filial. O site de filial não tem um link de rede de longa distância (WAN) confiável para o site central, portanto, um aparelho de filial persistente é implantado. Com isso implantado, se o link de WAN ficar inativo, os usuários no site de filial ainda poderão fazer e receber chamadas (ambas as chamadas dentro da organização e chamadas PSTN), ter funcionalidade de caixa postal e se comunicar com mensagens instantâneas de dois participantes. Os usuários ainda podem ser autenticados quando um link WAN estiver indisponível.
+  - **Sustentabilidade do site de filial.**     Esta organização está executando um programa piloto do recurso Enterprise Voice do Lync Server. Alguns usuários estão usando o Lync Server como sua única solução de voz. Alguns desses usuários do piloto de voz estão localizados no site de filial. O site de filial não tem um link de rede de longa distância (WAN) confiável para o site central, portanto, um aparelho de filial persistente é implantado. Com isso implantado, se o link de WAN ficar inativo, os usuários no site de filial ainda poderão fazer e receber chamadas (ambas as chamadas dentro da organização e chamadas PSTN), ter funcionalidade de caixa postal e se comunicar com mensagens instantâneas de dois participantes. Os usuários ainda podem ser autenticados quando um link WAN estiver indisponível.
 
   - **Implantação do Exchange do UM.** Essa topologia de referência inclui um servidor de UM (Unificação de mensagens) do Exchange, que executa o Microsoft Exchange Server, e não o Lync Server.
     

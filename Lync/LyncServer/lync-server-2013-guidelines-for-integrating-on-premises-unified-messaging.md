@@ -12,20 +12,22 @@ ms:contentKeyID: 48184681
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 71d6fc97a0b8c96758344dea12a0720d5ad049ed
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 44f032f7dd7d11d70ac912b2005f3ad9f7ddad69
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214277"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536918"
 ---
+# <a name="guidelines-for-integrating-on-premises-unified-messaging-and-lync-server-2013"></a>Diretrizes para integrar a Unificação de mensagens local e o Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="guidelines-for-integrating-on-premises-unified-messaging-and-lync-server-2013"></a>Diretrizes para integrar a Unificação de mensagens local e o Lync Server 2013
+
 
 </div>
 
@@ -115,13 +117,13 @@ No exemplo 1, os servidores UM 1 e 2 do Exchange são ativados no data center de
 
 No exemplo 2, sob condições operacionais comuns, os servidores UM 1 e 2 do Exchange são ativados no data center de Tukwila e os servidores UM 3 e 4 do Exchange são ativados no data center de Dublin. Os quatro servidores estão incluídos no plano de discagem de URI do SIP dos usuários de Tukwila; no entanto, os servidores 3 e 4 estão desativados. No caso de uma paralisação UM Exchange em Tukwila, por exemplo, os servidores UM 1 e 2 do Exchange devem ser desativados e os servidores UM 3 e 4 do Exchange devem ser habilitados para que o tráfego UM do Exchange de Tukwila seja roteado para os servidores em Dublin.
 
-Para obter detalhes sobre como habilitar ou desabilitar a Unificação de mensagens no Exchange 2013, consulte "integrar o Exchange 2013 UM [https://go.microsoft.com/fwlink/p/?LinkId=265372](https://go.microsoft.com/fwlink/p/?linkid=265372)com Lync Server" em.
+Para obter detalhes sobre como habilitar ou desabilitar a Unificação de mensagens no Exchange 2013, consulte "integrar o Exchange 2013 UM com Lync Server" em [https://go.microsoft.com/fwlink/p/?LinkId=265372](https://go.microsoft.com/fwlink/p/?linkid=265372) .
 
 Para obter detalhes sobre como habilitar ou desabilitar a Unificação de mensagens no Microsoft Exchange Server 2010, consulte:
 
-  - "Habilitar a Unificação de mensagens no [https://go.microsoft.com/fwlink/p/?LinkId=204418](https://go.microsoft.com/fwlink/p/?linkid=204418)Exchange 2010" em.
+  - "Habilitar a Unificação de mensagens no Exchange 2010" em [https://go.microsoft.com/fwlink/p/?LinkId=204418](https://go.microsoft.com/fwlink/p/?linkid=204418) .
 
-  - "Desabilitar a Unificação de mensagens no [https://go.microsoft.com/fwlink/p/?LinkId=204416](https://go.microsoft.com/fwlink/p/?linkid=204416)Exchange 2010" em.
+  - "Desabilitar a Unificação de mensagens no Exchange 2010" em [https://go.microsoft.com/fwlink/p/?LinkId=204416](https://go.microsoft.com/fwlink/p/?linkid=204416) .
 
 </div>
 

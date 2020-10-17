@@ -12,20 +12,22 @@ ms:contentKeyID: 48183359
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f620712404fffe8e46f8f2a6f066c6ffa7b77d74
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 20a7b43056071ddc2322ff5147de72d818548b86
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212869"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535878"
 ---
+# <a name="using-best-practices-analyzer-to-scan-your-lync-server-2013-deployment-for-potential-issues"></a>Usando o analisador de práticas recomendadas para verificar a implantação do Lync Server 2013 em busca de possíveis problemas
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-best-practices-analyzer-to-scan-your-lync-server-2013-deployment-for-potential-issues"></a>Usando o analisador de práticas recomendadas para verificar a implantação do Lync Server 2013 em busca de possíveis problemas
+
 
 </div>
 
@@ -39,13 +41,13 @@ _**Última modificação do tópico:** 2012-10-21_
 
 Para executar um exame do Analisador de Práticas Recomendadas, é necessário especificar o seguinte:
 
-  - **Credenciais**   para executar uma verificação, você deve fazer logon em um computador no qual o Best Practices Analyzer está instalado usando uma conta que seja membro do grupo local de administradores. Além disso, é necessário fazer logon usando uma conta de usuário que tenha os direitos e permissões necessários para executar os exames apropriados, ou é necessário especificar credenciais que tenham os direitos e permissões de usuário apropriados ao executar o Analisador de Práticas Recomendadas. Para obter detalhes, consulte [Group Memberships and User Rights Requirements for Best Practices Analyzer in Lync Server 2013](lync-server-2013-group-memberships-and-user-rights-requirements-for-best-practices-analyzer.md).
+  - **Credenciais**     Para executar uma verificação, você deve fazer logon em um computador no qual o Best Practices Analyzer está instalado, usando uma conta que seja membro do grupo local de administradores. Além disso, é necessário fazer logon usando uma conta de usuário que tenha os direitos e permissões necessários para executar os exames apropriados, ou é necessário especificar credenciais que tenham os direitos e permissões de usuário apropriados ao executar o Analisador de Práticas Recomendadas. Para obter detalhes, consulte [Group Memberships and User Rights Requirements for Best Practices Analyzer in Lync Server 2013](lync-server-2013-group-memberships-and-user-rights-requirements-for-best-practices-analyzer.md).
 
-  - **Escopo da verificação**   para especificar o escopo da verificação, selecione as categorias e servidores que você deseja verificar. Você pode selecionar todas as categorias, uma ou mais categorias ou um ou mais servidores dentro de uma categoria específica no seu ambiente do Lync Server.
+  - **Escopo da verificação**     Para especificar o escopo da verificação, selecione as categorias e servidores que você deseja verificar. Você pode selecionar todas as categorias, uma ou mais categorias ou um ou mais servidores dentro de uma categoria específica no seu ambiente do Lync Server.
 
-  - **Tipo de verificação**   atualmente, a verificação de verificação de integridade é o único tipo de verificação disponível (selecionada por padrão). A Verificação de Integridade pode gerar um relatório que inclui erros, avisos e outras informações para todos os servidores especificados no escopo.
+  - **Tipo de verificação**     No momento, a verificação de verificação de integridade é o único tipo de verificação disponível (selecionada por padrão). A Verificação de Integridade pode gerar um relatório que inclui erros, avisos e outras informações para todos os servidores especificados no escopo.
 
-  - **Velocidade da rede**   as opções de velocidade de rede incluem LAN rápida (100 Mbps ou mais), LAN (10 Mbps), Wan rápida (1,5 Mbps) ou WAN (64 Kbps). O tempo estimado para completar o exame tem base nessa configuração. Essa configuração também é usada para definir o período de tempo limite. Durante o exame, o Analisador de Práticas Recomendadas espera uma resposta de um servidor durante um tempo especificado. Se não receber uma resposta dentro do período de tempo limite especificado, ele vai para o próximo servidor no exame. Em redes mais lentas, esse período de tempo limite especificado é maior para acomodar latências de rede maiores. Recomendamos a seleção do link mais lento em sua topologia para esse parâmetro de modo que a ferramenta não ultrapasse o tempo limite muito rápido.
+  - **Velocidade**     da rede As opções de velocidade de rede incluem LAN rápida (100 Mbps ou mais), LAN (10 Mbps), WAN rápida (1,5 Mbps) ou WAN (64 Kbps). O tempo estimado para completar o exame tem base nessa configuração. Essa configuração também é usada para definir o período de tempo limite. Durante o exame, o Analisador de Práticas Recomendadas espera uma resposta de um servidor durante um tempo especificado. Se não receber uma resposta dentro do período de tempo limite especificado, ele vai para o próximo servidor no exame. Em redes mais lentas, esse período de tempo limite especificado é maior para acomodar latências de rede maiores. Recomendamos a seleção do link mais lento em sua topologia para esse parâmetro de modo que a ferramenta não ultrapasse o tempo limite muito rápido.
 
 <div>
 

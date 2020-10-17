@@ -12,20 +12,22 @@ ms:contentKeyID: 48184679
 ms.date: 07/24/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9628248922742ce46037c94f8257823e4484d168
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b8df94773a551ee503ac435af8f31d0104dc38aa
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194834"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48536138"
 ---
+# <a name="technical-requirements-for-mobility-in-lync-server-2013"></a>Requisitos técnicos para mobilidade no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="technical-requirements-for-mobility-in-lync-server-2013"></a>Requisitos técnicos para mobilidade no Lync Server 2013
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**Última modificação do tópico:** 2014-07-24_
 
     Some information in this topic pertains to Cumulative Updates for Lync Server 2013: February 2013.
 
-Os usuários de dispositivos móveis encontram vários cenários de aplicativos de dispositivos móveis que requerem planejamento especial. Por exemplo, alguém pode começar a usar um aplicativo móvel enquanto estiver distante do trabalho conectando-se através da rede 3G e, em seguida, alterne para a rede Wi-Fi corporativa ao chegar no trabalho e, em seguida, volte para 3G ao sair do edifício. Você precisa planejar seu ambiente para suportar tais transições da rede e garantir uma experiência de usuário consistente. Esta seção descreve os requisitos de infraestrutura que você deve ter para dar suporte a aplicativos móveis e descoberta automática de recursos de mobilidade.
+Os usuários de dispositivos móveis encontram vários cenários de aplicativos de dispositivos móveis que requerem planejamento especial. Por exemplo, alguém pode começar a usar um aplicativo móvel enquanto estiver distante do trabalho conectando-se por meio da rede 3G e, em seguida, alterne para a rede de Wi-Fi corporativa ao chegar no trabalho e, em seguida, volte para 3G ao sair do edifício. Você precisa planejar seu ambiente para suportar tais transições da rede e garantir uma experiência de usuário consistente. Esta seção descreve os requisitos de infraestrutura que você deve ter para dar suporte a aplicativos móveis e descoberta automática de recursos de mobilidade.
 
 <div>
 
@@ -71,13 +73,13 @@ O Lync Server 2013 oferece suporte a serviços de mobilidade para clientes móve
 
 Os serviços de mobilidade MCX (introduzidos com a atualização cumulativa do Lync Server 2010: novembro de 2011) e UCWA (introduzidos nas atualizações cumulativas do Lync Server 2013: fevereiro de 2013) usam o DNS da mesma maneira.
 
-Quando você usa a descoberta automática, os dispositivos móveis usam o DNS para localizar recursos. Durante a pesquisa de DNS, é feita uma primeira tentativa de conexão com o FQDN associado ao registro DNS interno (lyncdiscoverinternal.\< nome\>de domínio interno). Se não for possível fazer uma conexão usando o registro DNS interno, será feita uma tentativa de conexão usando o registro DNS externo (lyncdiscover.\< sipdomain\>). Um dispositivo móvel que é interno à rede se conecta à URL interna do Serviço Descoberta Automática e um dispositivo móvel que é externo à rede se conecta à URL externa do Serviço de Descoberta Automática. As solicitações de descoberta automática externa passam pelo proxy reverso. O serviço de descoberta automática do Lync Server 2013 retorna todas as URLs de serviços Web para o pool inicial do usuário, incluindo as URLs do serviço de mobilidade (MCX e UCWA). No entanto, a URL interna do serviço de dispositivos móveis e a URL externa do serviço de de dispositivos móveis estão associados com o FQDN de Serviços Web externos. Portanto, independentemente de um dispositivo móvel ser interno ou externo à rede, o dispositivo sempre se conecta ao serviço de mobilidade do Lync Server 2013 externamente através do proxy reverso.
+Quando você usa a descoberta automática, os dispositivos móveis usam o DNS para localizar recursos. Durante a pesquisa de DNS, é feita uma primeira tentativa de conexão com o FQDN associado ao registro DNS interno (lyncdiscoverinternal. \<internal domain name\> ). Se não for possível fazer uma conexão usando o registro DNS interno, será tentada uma conexão usando o registro DNS externo (lyncdiscover \<sipdomain\> ). Um dispositivo móvel que é interno à rede se conecta à URL interna do Serviço Descoberta Automática e um dispositivo móvel que é externo à rede se conecta à URL externa do Serviço de Descoberta Automática. As solicitações de descoberta automática externa passam pelo proxy reverso. O serviço de descoberta automática do Lync Server 2013 retorna todas as URLs de serviços Web para o pool inicial do usuário, incluindo as URLs do serviço de mobilidade (MCX e UCWA). No entanto, a URL interna do serviço de dispositivos móveis e a URL externa do serviço de de dispositivos móveis estão associados com o FQDN de Serviços Web externos. Portanto, independentemente de um dispositivo móvel ser interno ou externo à rede, o dispositivo sempre se conecta ao serviço de mobilidade do Lync Server 2013 externamente através do proxy reverso.
 
 <div>
 
 
 > [!NOTE]  
-> É importante entender que sua implantação pode consistir em vários namespaces distintos para uso interno e externo. O nome de domínio SIP pode ser diferente do nome de domínio de implantação interna. Por exemplo, seu domínio SIP pode ser <STRONG>contoso.com</STRONG>, enquanto sua implantação interna pode ser <STRONG>contoso.net</STRONG>. Os usuários que fizerem logon no Lync Server usarão o nome de domínio SIP, como <STRONG>John@contoso.com</STRONG>. Ao lidar com os serviços Web externos (definidos no construtor de topologias como <STRONG>Serviços Web externos</STRONG>), o nome de domínio e o nome de domínio SIP serão consistentes, conforme definido no DNS. Ao lidar com os serviços Web internos (definidos no construtor de topologias como <STRONG>Serviços Web internos</STRONG>), o nome padrão dos serviços Web internos será o FQDN do servidor front-end, do front-end, do diretor ou do pool de diretores. Você tem a opção de substituir o nome dos serviços Web internos. Você deve usar o nome de domínio interno (e não o nome de domínio SIP) para serviços Web internos e definir o host DNS A (ou, para IPv6, AAAA) para refletir o nome substituído. Por exemplo, o FQDN de serviços Web internos padrão pode ser <STRONG>pool01.contoso.net</STRONG>. Um FQDN de serviços Web internos substituído pode ser <STRONG>webpool.contoso.net</STRONG>. Definir os serviços Web dessa forma ajuda a garantir que a localidade interna e externa dos serviços, e não a localidade do usuário que os está usando, seja observada.<BR>No entanto, como os serviços Web são definidos no construtor de topologias e o nome de serviços Web internos pode ser substituído, contanto que o nome dos serviços Web resultantes, o certificado que o valida e os registros DNS que os definem, sejam consistentes, você pode definir o serviços Web internos com qualquer nome de domínio, incluindo o nome de domínio SIP, que você deseja. Em última análise, a resolução do nome para o endereço IP é determinada pelos registros de host DNS e por um namespace consistente.<BR>Para os fins deste tópico e os exemplos, o nome de domínio interno é usado para ilustrar a topologia e as definições de DNS.
+> É importante entender que sua implantação pode consistir em vários namespaces distintos para uso interno e externo. O nome de domínio SIP pode ser diferente do nome de domínio de implantação interna. Por exemplo, seu domínio SIP pode ser <STRONG>contoso.com</STRONG>, enquanto sua implantação interna pode ser <STRONG>contoso.net</STRONG>. Os usuários que fizerem logon no Lync Server usarão o nome de domínio SIP, como <STRONG>John@contoso.com</STRONG>. Ao lidar com os serviços Web externos (definidos no construtor de topologias como <STRONG>Serviços Web externos</STRONG>), o nome de domínio e o nome de domínio SIP serão consistentes, conforme definido no DNS. Ao lidar com os serviços Web internos (definidos no construtor de topologias como <STRONG>Serviços Web internos</STRONG>), o nome padrão dos serviços Web internos será o FQDN do servidor front-end, do front-end, do diretor ou do pool de diretores. Você tem a opção de substituir o nome dos serviços Web internos. Você deve usar o nome de domínio interno (e não o nome de domínio SIP) para serviços Web internos e definir o host DNS A (ou, para IPv6, AAAA) para refletir o nome substituído. Por exemplo, o FQDN de serviços Web internos padrão pode ser <STRONG>pool01.contoso.net</STRONG>. Um FQDN de serviços Web internos substituído pode ser <STRONG>webpool.contoso.net</STRONG>. Definir os serviços Web dessa forma ajuda a garantir que a localidade interna e externa dos serviços, e não a localidade do usuário que os está usando, seja observada.<BR>No entanto, como os serviços Web são definidos no construtor de topologias e o nome de serviços Web internos pode ser substituído, contanto que o nome dos serviços Web resultantes, o certificado que o valida e os registros DNS que os definem, sejam consistentes, é possível definir os serviços Web internos com qualquer nome de domínio, incluindo o nome de domínio SIP, que você deseja. Em última análise, a resolução do nome para o endereço IP é determinada pelos registros de host DNS e por um namespace consistente.<BR>Para os fins deste tópico e os exemplos, o nome de domínio interno é usado para ilustrar a topologia e as definições de DNS.
 
 
 
@@ -103,7 +105,7 @@ Para ofrecer suporte aos usuários de dispositivos móveis de dentro e fora da r
 
   - Novos registros DNS, CNAME ou A (host, se IPv6, AAAA), para descoberta automática.
 
-  - Nova regra de firewall, se você quiser dar suporte a notificações por push através da sua rede Wi-Fi.
+  - Nova regra de firewall, se você quiser dar suporte a notificações por push através da rede Wi-Fi.
 
   - Nomes alternativos de entidade em certificados de servidor interno e certificados de proxy reverso, para descoberta automática.
 
@@ -149,7 +151,7 @@ Para obter detalhes sobre os registros DNS necessários para o seu cenário, con
 
 ## <a name="port-and-firewall-requirements"></a>Requisitos de Firewall e de Porta
 
-Se você oferecer suporte a notificações por push e quiser que os dispositivos móveis da Apple recebam notificações por push em sua rede Wi-Fi, você também precisará abrir a porta 5223 na sua rede Wi-Fi corporativa. A porta 5223 é uma porta TCP de saída usada pelo Apple Push Notification Service (APNS). O dispositivo móvel inicia a conexão. Para obter detalhes, [http://support.apple.com/kb/TS1629](http://support.apple.com/kb/ts1629) consulte.
+Se você oferecer suporte a notificações por push e quiser que os dispositivos móveis da Apple recebam notificações por push sobre sua rede do Wi-Fi, você também precisará abrir a porta 5223 em sua empresa Wi-Fi rede. A porta 5223 é uma porta TCP de saída usada pelo Apple Push Notification Service (APNS). O dispositivo móvel inicia a conexão. Para obter detalhes, consulte [http://support.apple.com/kb/TS1629](http://support.apple.com/kb/ts1629) .
 
 <div>
 
@@ -195,7 +197,7 @@ Recomendamos que você use IIS 7,5, IIS 8,0 ou IIS 8,5 para mobilidade. O instal
 
 No balanceador de carga de hardware que suporta o pool de front-ends, os IPs virtuais (VIPs) dos serviços Web externos para o tráfego de serviços Web devem ser configurados para origem. A afinidade de origem ajuda a garantir que várias conexões de um único cliente sejam enviadas a um servidor para manter o estado da sessão. Para obter detalhes sobre os requisitos de afinidade, consulte [Load Balancing Requirements for Lync Server 2013](lync-server-2013-load-balancing-requirements.md).
 
-Se você planeja dar suporte a clientes móveis do Lync somente em sua rede Wi-Fi interna, configure os VIPS de serviços Web internos para origem, conforme descrito em VIPs de serviços Web externos. Nessa situação, você deve usar a afinidade\_de endereço de origem (ou TCP) para os VIPs de serviços Web internos no balanceador de carga de hardware. Para obter detalhes, consulte [Load Balancing Requirements for Lync Server 2013](lync-server-2013-load-balancing-requirements.md).
+Se você planeja dar suporte a clientes móveis do Lync somente em sua rede de Wi-Fi interna, configure os VIPS de serviços Web internos para origem, conforme descrito em VIPs de serviços Web externos. Nessa situação, você deve usar a afinidade de endereço de origem \_ (ou TCP) para os VIPs de serviços Web internos no balanceador de carga de hardware. Para obter detalhes, consulte [Load Balancing Requirements for Lync Server 2013](lync-server-2013-load-balancing-requirements.md).
 
 </div>
 
@@ -205,9 +207,9 @@ Se você planeja dar suporte a clientes móveis do Lync somente em sua rede Wi-F
 
 Se você oferecer suporte à descoberta automática para clientes móveis do Lync, precisará atualizar a regra de publicação atual da seguinte maneira:
 
-  - Se você decidir atualizar as listas de nomes alternativos de entidade nos certificados de proxy reverso e usar HTTPS para a solicitação de serviço de descoberta automática inicial, deverá atualizar a regra de publicação na Web para o lyncdiscover. \<sipdomain\>. Normalmente, isso é combinado com a regra de publicação para a URL de serviços Web externos no pool de front-ends.
+  - Se você decidir atualizar as listas de nomes alternativos de entidade nos certificados de proxy reverso e usar HTTPS para a solicitação de serviço de descoberta automática inicial, deverá atualizar a regra de publicação na Web para o lyncdiscover. \<sipdomain\> . Normalmente, isso é combinado com a regra de publicação para a URL de serviços Web externos no pool de front-ends.
 
-  - Se você decidir usar HTTP para a solicitação inicial do serviço de descoberta automática para que não seja necessário atualizar a lista de nomes alternativos de entidade nos certificados de proxy reverso, você deverá criar uma nova regra de publicação na Web para a porta HTTP/TCP 80, se ainda não existir um. Se uma regra para HTTP/TCP 80 já existir, você poderá atualizar essa regra para incluir o lyncdiscover. \<entrada\> sipdomain.
+  - Se você decidir usar HTTP para a solicitação inicial do serviço de descoberta automática para que não seja necessário atualizar a lista de nomes alternativos de entidade nos certificados de proxy reverso, você deverá criar uma nova regra de publicação na Web para a porta HTTP/TCP 80, se ainda não existir um. Se uma regra para HTTP/TCP 80 já existir, você poderá atualizar essa regra para incluir o lyncdiscover.\<sipdomain\> entrada.
 
 </div>
 

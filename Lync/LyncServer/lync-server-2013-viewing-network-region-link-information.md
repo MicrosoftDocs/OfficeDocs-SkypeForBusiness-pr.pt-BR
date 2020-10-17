@@ -12,20 +12,22 @@ ms:contentKeyID: 49733701
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: baad9310dc63fb482838e3a003dce8ddbc36c200
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d69040594a04d71f07d004826e4207c0b23612f6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211187"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535688"
 ---
+# <a name="viewing-network-region-link-information-in-lync-server-2013"></a>Exibindo informações de link de região de rede no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="viewing-network-region-link-information-in-lync-server-2013"></a>Exibindo informações de link de região de rede no Lync Server 2013
+
 
 </div>
 
@@ -68,7 +70,7 @@ Você pode visualizar os links entre duas regiões de redes como parte do contro
 
 ## <a name="viewing-network-region-link-information-by-using-windows-powershell-cmdlets"></a>Exibindo informações de link de região de rede usando cmdlets do Windows PowerShell
 
-Você pode exibir os links de região de rede usando o Windows PowerShell e o cmdlet **Get-CsNetworkRegionLink** . Você pode executar esse cmdlet do Shell de gerenciamento do Lync Server 2013 ou de uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Lync Server, consulte o artigo de blog do Lync Server Windows PowerShell "início rápido: Managing Microsoft Lync Server [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)2010 using Remote PowerShell" em.
+Você pode exibir os links de região de rede usando o Windows PowerShell e o cmdlet **Get-CsNetworkRegionLink** . Você pode executar esse cmdlet do Shell de gerenciamento do Lync Server 2013 ou de uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Lync Server, consulte o artigo de blog do Lync Server Windows PowerShell "início rápido: Managing Microsoft Lync Server 2010 using Remote PowerShell" em [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) .
 
 <div>
 
@@ -78,7 +80,7 @@ Você pode exibir os links de região de rede usando o Windows PowerShell e o cm
     
         Get-CsNetworkRegionLink
     
-    Esse comando retorna informações semelhantes às seguintes:
+    Esse comando retornará informações parecidas com:
     
         Identity            : NorthwestToCalifornia
         BWPolicyProfileID   :
