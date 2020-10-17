@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: caminhos de migração de servidor suportados e cenários de coexistência'
+description: 'Lync Server 2013: caminhos de migração de servidor suportados e cenários de coexistência.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183686
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8ed7689931cf917c77527266918832ead8bd0a27
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 44d0a40ac6cc6570cf79b56dc896277c83909b5d
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48523968"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48560227"
 ---
 # <a name="supported-server-migration-paths-and-coexistence-scenarios-in-lync-server-2013"></a>Caminhos de migração de servidor suportados e cenários de coexistência no Lync Server 2013
 
@@ -82,7 +83,7 @@ Durante uma migração em fases na qual uma implantação anterior do Lync Serve
 
 Você deve usar computadores separados e distintos que executam o Microsoft SQL Server 2008 R2 ou o Microsoft SQL Server 2012 para suas instâncias de banco de dados do Lync Server 2013. Não é possível usar a mesma instância do SQL Server para um pool de front-ends do Lync Server 2013 que você usa para um pool de front-ends do Lync Server 2010 ou do Office Communications Server 2007 R2. Se você definir e configurar o Lync Server 2013 no construtor de topologias para uma implantação que já tem o Lync Server 2010 ou o Office Communications Server 2007 R2 implantado, o construtor de topologias não permitirá que você defina uma instância de um Lync Server 2013 que já esteja em uso na topologia.
 
-O construtor de topologia exibirá a seguinte mensagem para informá-lo sobre esse problema: "o \[ FQDN do SQL Server do servidor \] já contém uma instância do SQL que hospeda a função" repositório do usuário ".
+O construtor de topologia exibirá a seguinte mensagem para informá-lo sobre esse problema: "o \[ FQDN do SQL Server do servidor \] já contém uma instância do SQL que hospeda a função".
 
 <div>
 

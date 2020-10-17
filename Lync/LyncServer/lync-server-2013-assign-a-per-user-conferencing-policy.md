@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: atribuir uma política de conferência por usuário'
+description: 'Lync Server 2013: atribua uma política de conferência por usuário.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184475
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 47419dfde4bf41b0edfccb2bce23393f04c49a3d
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 819d1431a2a7a921ff8c306c47c8b5f86bf5d5bb
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42134447"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48559917"
 ---
 # <a name="assign-a-per-user-conferencing-policy-in-lync-server-2013"></a>Atribuir uma política de conferência por usuário no Lync Server 2013
 
@@ -77,10 +78,10 @@ Para obter detalhes sobre como criar políticas de conferência, consulte [creat
     
 
     > [!NOTE]  
-    > Como há várias políticas que você pode configurar em <STRONG>atribuir políticas</STRONG>, <STRONG> &lt;manter como está&gt; </STRONG> selecionada por padrão para todas as políticas da caixa de diálogo. Para continuar usando a política previamente atribuída ao usuário, basta não fazer nenhuma alteração nessa configuração.
+    > Como há várias políticas que você pode configurar em <STRONG>atribuir políticas</STRONG>, <STRONG> &lt; manter como está &gt; </STRONG> selecionada por padrão para todas as políticas da caixa de diálogo. Para continuar usando a política previamente atribuída ao usuário, basta não fazer nenhuma alteração nessa configuração.
 
     
-      - Selecione ** \<automático\> ** para permitir que o Lync Server 2013 escolha automaticamente a política de nível global ou, se definida, a política de nível de site.
+      - Selecione esta opção **\<Automatic\>** para permitir que o Lync Server 2013 escolha automaticamente a política de nível global ou, se definida, a política de nível de site.
     
       - Clique no nome de uma política de conferência por usuário previamente definida na página **Política de conferência**.
         
@@ -92,9 +93,9 @@ Para obter detalhes sobre como criar políticas de conferência, consulte [creat
 
 8.  Quando terminar, clique em **OK**.
 
-## <a name="assigning-a-per-user-conferencing-policy-by-using-windows-powershell-cmdlets"></a>Atribuindo uma política de conferência por usuário usando cmdlets do Windows PowerShell
+## <a name="assigning-a-per-user-conferencing-policy-by-using-windows-powershell-cmdlets"></a>Atribuindo uma política de conferência Per-User usando cmdlets do Windows PowerShell
 
-As políticas de conferência por usuário podem ser atribuídas usando o Windows PowerShell e o cmdlet Grant-CsConferencingPolicy. Este cmdlet pode ser executado a partir do Shell de gerenciamento do Lync Server 2013 ou de uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Lync Server, consulte o artigo de blog do Lync Server Windows PowerShell "início rápido: Managing Microsoft Lync Server [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)2010 using Remote PowerShell" em.
+As políticas de conferência por usuário podem ser atribuídas usando o Windows PowerShell e o cmdlet Grant-CsConferencingPolicy. Este cmdlet pode ser executado a partir do Shell de gerenciamento do Lync Server 2013 ou de uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Lync Server, consulte o artigo de blog do Lync Server Windows PowerShell "início rápido: Managing Microsoft Lync Server 2010 using Remote PowerShell" em [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) .
 
 ## <a name="to-assign-a-per-user-conferencing-policy-to-a-single-user"></a>Para atribuir uma política de conferência por usuário a um único usuário
 

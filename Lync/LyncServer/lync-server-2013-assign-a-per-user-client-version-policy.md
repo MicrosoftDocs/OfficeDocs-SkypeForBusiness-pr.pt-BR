@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: atribuir uma política de versão do cliente por usuário'
+description: 'Lync Server 2013: atribua uma política de versão do cliente por usuário.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185868
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 77b84c4550d44a09e786d09d093e64cbc1901d91
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 3ec2fcbf9c005806a97dfbdceb22095fe0ff8f33
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42134457"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48559970"
 ---
 # <a name="assign-a-per-user-client-version-policy-in-lync-server-2013"></a>Atribuir uma política de versão de cliente por usuário no Lync Server 2013
 
@@ -75,7 +76,7 @@ Para obter detalhes sobre como criar políticas de versão do cliente por usuár
     
 
     > [!NOTE]  
-    > Como há várias políticas que você pode configurar usando a caixa de diálogo <STRONG>atribuir políticas</STRONG> , <STRONG> &lt;manter como está&gt; </STRONG> selecionada por padrão para todas as políticas da caixa de diálogo. Para continuar usando a política previamente atribuída ao usuário, basta não fazer nenhuma alteração nessa configuração.
+    > Como há várias políticas que você pode configurar usando a caixa de diálogo <STRONG>atribuir políticas</STRONG> , <STRONG> &lt; manter como está &gt; </STRONG> selecionada por padrão para todas as políticas da caixa de diálogo. Para continuar usando a política previamente atribuída ao usuário, basta não fazer nenhuma alteração nessa configuração.
 
     
       - Permitir que o Lync Server escolha automaticamente a política de nível global ou, se definida, a política de nível de site ou política de nível de pool.
@@ -90,9 +91,9 @@ Para obter detalhes sobre como criar políticas de versão do cliente por usuár
 
 8.  Quando terminar, clique em **OK**.
 
-## <a name="assigning-a-per-user-client-version-policy-by-using-windows-powershell-cmdlets"></a>Atribuindo uma política de versão do cliente por usuário usando cmdlets do Windows PowerShell
+## <a name="assigning-a-per-user-client-version-policy-by-using-windows-powershell-cmdlets"></a>Atribuindo uma política de versão de cliente Per-User usando cmdlets do Windows PowerShell
 
-Também é possível atribuir políticas de versão do cliente específicas do usuário usando o cmdlet Grant-CsClientVersionPolicy. Você pode executar esse cmdlet do Shell de gerenciamento do Lync Server 2013 ou de uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Lync Server, consulte o artigo de blog do Lync Server Windows PowerShell "início rápido: Managing Microsoft Lync Server [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)2010 using Remote PowerShell" em.
+Também é possível atribuir políticas de versão do cliente específicas do usuário usando o cmdlet Grant-CsClientVersionPolicy. Você pode executar esse cmdlet do Shell de gerenciamento do Lync Server 2013 ou de uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Lync Server, consulte o artigo de blog do Lync Server Windows PowerShell "início rápido: Managing Microsoft Lync Server 2010 using Remote PowerShell" em [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) .
 
 ## <a name="to-assign-a-per-user-client-version-policy-to-a-single-user"></a>Para atribuir uma política de versão do cliente específica do usuário
 

@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: lendo logs de captura do serviço de registro em log centralizado'
+description: 'Lync Server 2013: lendo logs de captura do serviço de registro em log centralizado.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733813
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1058f48ede85067ac0aeefc3c8dab329bf042ef8
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: fcdd70c924b49098814e80a375ae34d2bf48dc41
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48512028"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48559157"
 ---
 # <a name="reading-capture-logs-from-the-centralized-logging-service-in-lync-server-2013"></a>Ler logs de captura do serviço de registro em log centralizado no Lync Server 2013
 
