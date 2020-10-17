@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: regras de conversão'
+description: 'Lync Server 2013: regras de conversão.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184460
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 783d2bb8de49fc7660998fcf3cbcb7cdb5c18e8b
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 65ee21459123ea09f54eb52e65a4d9ecba61c386
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48530348"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48549037"
 ---
 # <a name="translation-rules-in-lync-server-2013"></a>Regras de conversão no Lync Server 2013
 

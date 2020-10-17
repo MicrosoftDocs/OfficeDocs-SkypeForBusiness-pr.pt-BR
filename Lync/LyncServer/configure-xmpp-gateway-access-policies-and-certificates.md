@@ -1,5 +1,6 @@
 ---
 title: Configurar políticas e certificados de acesso ao gateway de XMPP
+description: Configurar políticas e certificados de acesso ao gateway do XMPP.
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -13,12 +14,12 @@ ms:contentKeyID: 49733882
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4a372e473ca258b743f52323c895373c149a9e48
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: e958100501ad9ca87d1ab970162f4be8c7692a99
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48503258"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48549707"
 ---
 # <a name="configure-xmpp-gateway-access-policies-and-certificates"></a>Configurar políticas e certificados de acesso ao gateway de XMPP
 

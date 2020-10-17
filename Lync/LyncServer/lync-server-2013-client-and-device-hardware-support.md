@@ -1,5 +1,6 @@
 ---
 title: Cliente do Lync Server 2013 e suporte a hardware de dispositivo
+description: Cliente do Lync Server 2013 e suporte a hardware de dispositivo.
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185851
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 59e16b9f9b2b93062374331315d8f287c892effc
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 08b5c8977e953d6dac7a94462513eed6cf130dcf
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48529348"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48549647"
 ---
 # <a name="client-and-device-hardware-support-in-lync-server-2013"></a>Suporte a hardware de dispositivo e cliente no Lync Server 2013
 
