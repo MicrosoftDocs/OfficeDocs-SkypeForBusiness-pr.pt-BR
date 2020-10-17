@@ -12,20 +12,22 @@ ms:contentKeyID: 48185574
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ad1967bea18e0a03ac3a34bf187c1248ec5a1ab2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4f68cafcfcc616bd6e467514704416f134de3665
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197786"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517488"
 ---
+# <a name="configuring-for-push-notifications-in-lync-server-2013"></a>Configurando notificações por push no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-for-push-notifications-in-lync-server-2013"></a>Configurando notificações por push no Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42197786"
 
 _**Última modificação do tópico:** 2013-02-12_
 
-Notificações por push, na forma de selos, ícones ou alertas, podem ser enviadas a um dispositivo móvel mesmo quando o aplicativo móvel está inativo. As notificações de push notificam um usuário de eventos como um convite de IM novo ou perdido e caixa postal. O serviço de mobilidade do Lync Server 2013 envia as notificações para o serviço de notificação por push do Lync Server baseado na nuvem, que envia as notificações ao Apple Push Notification Service (APNS) (para um dispositivo Apple executando o Lync 2010 Mobile Client) ou o Microsoft Push Notification Service (MPNS) (para um dispositivo Windows Phone executando o Lync 2010 Mobile ou o cliente móvel do Lync 2013).
+Notificações por push, na forma de selos, ícones ou alertas, podem ser enviadas a um dispositivo móvel mesmo quando o aplicativo móvel está inativo. As notificações de push notificam um usuário de eventos como um convite de IM novo ou perdido e caixa postal. O serviço de mobilidade do Lync Server 2013 envia as notificações para o serviço de notificação por push do Lync Server baseado na nuvem, que envia as notificações ao Apple Push Notification Service (APNS) (para um dispositivo Apple executando o Lync 2010 Mobile Client) ou o Microsoft Push Notification Service (MPNS) (para um dispositivo Windows Phone executando o Lync 2010 Mobile ou o cliente móvel Lync 2013).
 
 <div>
 

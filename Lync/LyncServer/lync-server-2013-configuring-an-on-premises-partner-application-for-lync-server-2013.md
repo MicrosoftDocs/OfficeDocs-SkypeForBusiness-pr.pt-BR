@@ -12,20 +12,22 @@ ms:contentKeyID: 48184412
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 58cfee7b89d2e7e66bd39b28a6d3361b4521cdc2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 34b6cd21d781f26ca734effd0c574c016aec3266
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207567"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517578"
 ---
+# <a name="configuring-an-on-premises-partner-application-for-microsoft-lync-server-2013"></a>Configurando um aplicativo de parceiro local para o Microsoft Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-an-on-premises-partner-application-for-microsoft-lync-server-2013"></a>Configurando um aplicativo de parceiro local para o Microsoft Lync Server 2013
+
 
 </div>
 
@@ -85,7 +87,7 @@ Após ter atribuído o certificado OAuthTokenIssuer, você deve configurar seus 
     
     Set-CsOAuthConfiguration -ServiceName 00000004-0000-0ff1-ce00-000000000000
 
-Depois de copiar o código, salve o script usando um. A extensão de arquivo PS1 (por exemplo,\\C\\: scripts ServerToServerAuth. ps1). Observe que, antes de executar esse script, você deve substituir as URLs https://atl-exchange-001.litwareinc.com/autodiscover/metadata/json/1 de metadados http://atl-sharepoint-001.litwareinc.com/jsonmetadata.ashx e com as URLs de metadados usadas pelos seus servidores do Exchange 2013 e do SharePoint, respectivamente. Consulte a documentação do produto do Exchange 2013 e do SharePoint para obter informações sobre como você pode identificar a URL de metadados do respectivo produto.
+Depois de copiar o código, salve o script usando um. A extensão de arquivo PS1 (por exemplo, C: \\ Scripts \\ServerToServerAuth.ps1). Observe que, antes de executar esse script, você deve substituir as URLs de metadados https://atl-exchange-001.litwareinc.com/autodiscover/metadata/json/1 e http://atl-sharepoint-001.litwareinc.com/jsonmetadata.ashx com as URLs de metadados usadas pelos seus servidores do Exchange 2013 e do SharePoint, respectivamente. Consulte a documentação do produto do Exchange 2013 e do SharePoint para obter informações sobre como você pode identificar a URL de metadados do respectivo produto.
 
 Se você observar a última linha do script, perceberá que o cmdlet Set-CsOAuthConfiguration é chamado com o uso da sintaxe:
 
@@ -107,7 +109,7 @@ Ao executar esse script, você talvez receba uma mensagem de erro semelhante à 
 
 Essa mensagem de erro geralmente significa que: 1) uma das URLs especificadas no script não é válida (ou seja, uma das URLs de metadados não é realmente uma URL de metadados); ou 2) não foi possível acessar uma das URLs de metadados. Se isso acontecer, verifique se as URLs estão corretas e acessíveis e execute o script novamente.
 
-Depois de criar o aplicativo parceiro para o Lync Server 2013, você deve configurar o Lync Server para ser um aplicativo parceiro para o Exchange 2013. Você pode configurar aplicativos parceiros para o Exchange 2013 executando o script configure-enterprisepartnerapplication. ps1; Tudo o que você precisa fazer é especificar a URL de metadados para o Lync Server e indicar que o Lync Server é o novo aplicativo de parceiro.
+Depois de criar o aplicativo parceiro para o Lync Server 2013, você deve configurar o Lync Server para ser um aplicativo parceiro para o Exchange 2013. Você pode configurar aplicativos parceiros para o Exchange 2013 executando o script Configure-EnterprisePartnerApplication.ps1; Tudo o que você precisa fazer é especificar a URL de metadados para o Lync Server e indicar que o Lync Server é o novo aplicativo de parceiro.
 
 Para configurar o Lync Server como um aplicativo parceiro para o Exchange, abra o Shell de gerenciamento do Exchange e execute um comando semelhante a este
 

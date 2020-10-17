@@ -12,20 +12,22 @@ ms:contentKeyID: 48184776
 ms.date: 06/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: edeec17bccc4c2084f71d3a052d3a44a34f4ed94
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4080460083074f7ad74618034ab2e7910de5e53d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42185175"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516178"
 ---
+# <a name="media-quality-summary-report-in-lync-server-2013"></a>Relatório de Resumo de qualidade de mídia no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="media-quality-summary-report-in-lync-server-2013"></a>Relatório de Resumo de qualidade de mídia no Lync Server 2013
+
 
 </div>
 
@@ -67,7 +69,7 @@ O Relatório de resumo de qualidade de mídia é acessado a partir da página in
 
   - Volume da chamada
 
-  - Porcentagem de chamada inválida
+  - Percentual de chamadas ruins
 
 Além disso, você pode acessar o Relatório de distribuição de métricas de qualidade de mídia clicando em uma das seguintes métricas de chamada de áudio:
 
@@ -134,8 +136,8 @@ A tabela a seguir lista os filtros que podem ser usados com o Relatório de Resu
 <td><p>Indica se um cliente estava conectado na rede interna ou na rede externa quando a chamada foi realizada. Selecione um dos seguintes:</p>
 <ul>
 <li><p>Todos os</p></li>
-<li><p>Interna</p></li>
-<li><p>Externa</p></li>
+<li><p>Interno</p></li>
+<li><p>Externo</p></li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -164,7 +166,7 @@ A tabela a seguir lista os filtros que podem ser usados com o Relatório de Resu
 
 <div>
 
-## <a name="metrics"></a>Métricas
+## <a name="metrics"></a>Métrica
 
 A tabela a seguir lista as informações fornecidas no Relatório de Resumo de Qualidade de Mídia.
 
@@ -243,7 +245,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Resumo de Q
 <tr class="even">
 <td><p><strong>Tremulação (ms)</strong></p></td>
 <td><p>Não</p></td>
-<td><p>Tremulação média detectada entre chegadas de pacote RTP. (Tremulação é uma medida do &quot;tremula&quot; de uma chamada.) Os valores de variação alta geralmente são causados por congestionamento ou por um servidor de mídia sobrecarregado e resultam em um áudio distorcido ou perdido.</p></td>
+<td><p>Tremulação média detectada entre chegadas de pacote RTP. (Tremulação é uma medida do &quot; tremula &quot; de uma chamada.) Os valores de variação alta geralmente são causados por congestionamento ou por um servidor de mídia sobrecarregado e resultam em um áudio distorcido ou perdido.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Taxa de correção oculta</strong></p></td>
@@ -421,7 +423,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Resumo de Q
 <tr class="odd">
 <td><p><strong>Tremulação (ms)</strong></p></td>
 <td><p>Não</p></td>
-<td><p>Tremulação média detectada entre chegadas de pacote RTP. (Tremulação é uma medida do &quot;tremula&quot; de uma chamada.) Os valores de variação alta geralmente são causados por congestionamento ou por um servidor de mídia sobrecarregado e resultam em um áudio distorcido ou perdido.</p></td>
+<td><p>Tremulação média detectada entre chegadas de pacote RTP. (Tremulação é uma medida do &quot; tremula &quot; de uma chamada.) Os valores de variação alta geralmente são causados por congestionamento ou por um servidor de mídia sobrecarregado e resultam em um áudio distorcido ou perdido.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Unidirecional relativo médio</strong></p></td>

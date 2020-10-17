@@ -12,20 +12,22 @@ ms:contentKeyID: 49733557
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6a2f2d5575bee6e6b29b6a5c289cfa589a33c411
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f87bf9aff433b70bc50b3fcff209ecd14ea268e0
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213197"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516778"
 ---
+# <a name="creating-or-modifying-a-location-policy-in-lync-server-2013"></a>Criando ou modificando uma política de local no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="creating-or-modifying-a-location-policy-in-lync-server-2013"></a>Criando ou modificando uma política de local no Lync Server 2013
+
 
 </div>
 
@@ -61,15 +63,15 @@ No Lync Server 2013, você pode substituir a quantidade de tempo padrão entre a
 
 5.  Preencha os campos restantes da seguinte maneira:
     
-      - **Habilitar serviços**   de emergência avançados Marque essa caixa de seleção para habilitar os usuários associados a essa política para E9-1-1. Quando os serviços de emergência estiverem habilitados, os clientes do Lync Server recuperarão informações de local no registro e incluirão as informações quando uma chamada de emergência for feita.
+      - **Habilitar serviços**     de emergência avançados Marque esta caixa de seleção para habilitar os usuários associados a essa política para E9-1-1. Quando os serviços de emergência estiverem habilitados, os clientes do Lync Server recuperarão informações de local no registro e incluirão as informações quando uma chamada de emergência for feita.
     
-      - **Local**   especifique um dos seguintes valores:
+      - **Local**     Especifique um dos seguintes valores:
         
-          - **Obrigatório**   o usuário será solicitado a inserir informações de local quando o cliente se registrar em um novo local. O usuário pode recusar o aviso, sem digitar qualquer informação. Se as informações forem inseridas, uma chamada de emergência será atendida primeiro pelo provedor de serviços de emergência para verificar o local antes de ser roteado para o operador PSAP (ponto de resposta de segurança pública) (ou seja, o operador 911).
+          - **Necessárias**     O usuário será solicitado a inserir informações de local quando o cliente se registrar em um novo local. O usuário pode recusar o aviso, sem digitar qualquer informação. Se as informações forem inseridas, uma chamada de emergência será atendida primeiro pelo provedor de serviços de emergência para verificar o local antes de ser roteado para o operador PSAP (ponto de resposta de segurança pública) (ou seja, o operador 911).
         
-          - **Não obrigatório**   o usuário não será solicitado a fornecer um local. Quando uma chamada é feita sem informações de local, o provedor de serviços de emergência responderá à chamada e solicitará um local.
+          - **Não obrigatório**     O usuário não será solicitado a fornecer um local. Quando uma chamada é feita sem informações de local, o provedor de serviços de emergência responderá à chamada e solicitará um local.
         
-          - **Isenção de responsabilidade**   essa opção é a mesma **, exceto pelo** fato de que o usuário não pode ignorar a solicitação sem inserir informações de local. O usuário ainda pode concluir uma chamada de emergência, mas nenhuma outra chamada pode ser concluída sem inserir as informações. Além disso, o texto de aviso de isenção de responsabilidade será exibido para o usuário que poderá alertá-los sobre as conseqüências de declínio para inserir informações de local. Para definir o texto de aviso de isenção de responsabilidade, você deve usar o Shell de gerenciamento do Lync Server para executar o cmdlet **set-CsLocationPolicy** ou o cmdlet **New-CsLocationPolicy** com o parâmetro EnhancedEmergencyServiceDisclaimer. Para obter detalhes, consulte [set-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsLocationPolicy) ou [New-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsLocationPolicy) na documentação do Shell de gerenciamento do Lync Server.
+          - **Isenção**     Essa opção é o mesmo que o **necessário** , exceto pelo fato de que o usuário não pode ignorar a solicitação sem inserir informações de local. O usuário ainda pode concluir uma chamada de emergência, mas nenhuma outra chamada pode ser concluída sem inserir as informações. Além disso, o texto de aviso de isenção de responsabilidade será exibido para o usuário que poderá alertá-los sobre as conseqüências de declínio para inserir informações de local. Para definir o texto de aviso de isenção de responsabilidade, você deve usar o Shell de gerenciamento do Lync Server para executar o cmdlet **set-CsLocationPolicy** ou o cmdlet **New-CsLocationPolicy** com o parâmetro EnhancedEmergencyServiceDisclaimer. Para obter detalhes, consulte [set-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsLocationPolicy) ou [New-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsLocationPolicy) na documentação do Shell de gerenciamento do Lync Server.
             
             <div>
             
@@ -80,13 +82,13 @@ No Lync Server 2013, você pode substituir a quantidade de tempo padrão entre a
             
             </div>
     
-      - **Usar local para serviços de emergência somente**   o Lync pode usar informações de local por vários motivos (por exemplo, para notificar os colegas do seu local atual). Marque essa caixa de seleção para garantir que as informações de local estejam disponíveis somente para uso com uma chamada de emergência.
+      - **Usar local somente**     para serviços de emergência O Lync pode usar informações de local por vários motivos (por exemplo, para notificar os colegas do seu local atual). Marque essa caixa de seleção para garantir que as informações de local estejam disponíveis somente para uso com uma chamada de emergência.
     
-      - **Uso de PSTN**   o uso de rede telefônica pública comutada (PSTN) que será usado para determinar qual rota de voz será usada para rotear chamadas de emergência de clientes usando esse perfil. A rota associada a esse uso deve apontar para um tronco SIP dedicado a chamadas de emergência ou a um gateway de Emergency Location Identification Number (ELIN) que encaminha as chamadas de emergência ao Public Safety Answering Point (PSAP) mais próximo.
+      - **Uso**     de PSTN O uso da PSTN (rede telefônica pública comutada) que será usado para determinar qual rota de voz será usada para rotear chamadas de emergência de clientes usando esse perfil. A rota associada a esse uso deve apontar para um tronco SIP dedicado a chamadas de emergência ou a um gateway de Emergency Location Identification Number (ELIN) que encaminha as chamadas de emergência ao Public Safety Answering Point (PSAP) mais próximo.
     
-      - **Número de discagem de emergência**   o número discado para acessar os serviços de emergência. Nos Estados Unidos, esse valor é 911. A cadeia de caracteres deve ser composta pelos dígitos 0 a 9 e pode ter entre um e dez dígitos de comprimento.
+      - Número de discagem de **emergência**     O número discado para acessar os serviços de emergência. Nos Estados Unidos, esse valor é 911. A cadeia de caracteres deve ser composta pelos dígitos 0 a 9 e pode ter entre um e dez dígitos de comprimento.
     
-      - **Máscara de discagem de emergência**   um número que você deseja converter para o valor do valor do número de discagem de emergência quando for discado. Por exemplo, se você inserir um valor de 212 neste campo e o campo número de discagem de emergência tiver um valor de 911, se um usuário discar 212 a chamada será feita a 911. Isso permite a discagem de números de emergência alternativos e ainda assim acessar os serviços de emergência (por exemplo, se alguém de um país ou região com um número de emergência diferente tenta discar o número desse país ou região em vez do número para o país ou região atual). É possível definir múltiplas máscaras de discagem de emergência separando os valores com ponto e vírgulas. Por exemplo, 212;414. O comprimento máximo da cadeia de caracteres é 100. Cada caractere deve ser um dígito entre 0 e 9.
+      - Máscara de discagem de **emergência**     Um número que você deseja converter para o valor do número de discagem de emergência quando for discado. Por exemplo, se você inserir um valor de 212 neste campo e o campo número de discagem de emergência tiver um valor de 911, se um usuário discar 212 a chamada será feita a 911. Isso permite a discagem de números de emergência alternativos e ainda assim acessar os serviços de emergência (por exemplo, se alguém de um país ou região com um número de emergência diferente tenta discar o número desse país ou região em vez do número para o país ou região atual). É possível definir múltiplas máscaras de discagem de emergência separando os valores com ponto e vírgulas. Por exemplo, 212;414. O comprimento máximo da cadeia de caracteres é 100. Cada caractere deve ser um dígito entre 0 e 9.
         
         <div>
         
@@ -97,15 +99,15 @@ No Lync Server 2013, você pode substituir a quantidade de tempo padrão entre a
         
         </div>
     
-      - **URI de notificação**   um ou mais URIs (identificadores de recursos uniformes) SIP a serem notificados quando uma chamada de emergência for feita. Por exemplo, o escritório de segurança da empresa poderia ser avisado, por meio de uma mensagem instantânea, sempre que ocorrer uma chamada de emergência. Se a localização do chamador estiver disponível, ela será incluída na notificação. Vários URIs do SIP podem ser incluídos como uma lista separada por vírgulas. Por exemplo, "sip:security@litwareinc.com","sip:kmyer@litwareinc.com". As listas de distribuição são suportadas. A string precisa ter de 1 a 256 caracteres e precisa começar com o prefixo "sip:". Antes de clicar no campo URI de notificação, um exemplo é exibido.
+      - **URI**     de notificação Um ou mais URIs (identificadores de recursos uniformes) SIP a serem notificados quando uma chamada de emergência for feita. Por exemplo, o escritório de segurança da empresa poderia ser avisado, por meio de uma mensagem instantânea, sempre que ocorrer uma chamada de emergência. Se a localização do chamador estiver disponível, ela será incluída na notificação. Vários URIs do SIP podem ser incluídos como uma lista separada por vírgulas. Por exemplo, "sip:security@litwareinc.com","sip:kmyer@litwareinc.com". As listas de distribuição são suportadas. A string precisa ter de 1 a 256 caracteres e precisa começar com o prefixo "sip:". Antes de clicar no campo URI de notificação, um exemplo é exibido.
     
-      - **URI de conferência**   o URI SIP, nesse caso, o número de telefone de um terceiro que será conferência em todas as chamadas de emergência feitas. Por exemplo, o escritório de segurança da empresa pode receber uma chamada quando uma chamada de emergência é feita e ouvir ou participar dessa chamada (dependendo do valor fornecido no campo **modo de conferência** ). A cadeia de caracteres deve ter entre um e 256 caracteres de comprimento e deve começar com o prefixo sip:. Um exemplo é exibido até que você clique dentro desse campo.
+      - **URI**     de conferência O URI SIP, nesse caso, o número de telefone de um terceiro que será conferência em todas as chamadas de emergência feitas. Por exemplo, o escritório de segurança da empresa pode receber uma chamada quando uma chamada de emergência é feita e ouvir ou participar dessa chamada (dependendo do valor fornecido no campo **modo de conferência** ). A cadeia de caracteres deve ter entre um e 256 caracteres de comprimento e deve começar com o prefixo sip:. Um exemplo é exibido até que você clique dentro desse campo.
     
-      - **Modo**   de conferência se você especificar um valor no campo **URI de conferência** , o modo de **conferência** determinará se um terceiro pode participar da chamada ou só poderá escutar. Especifique uma das seguintes opções:
+      - **Modo**     de conferência Se você especificar um valor no campo **URI de conferência** , o **modo de conferência** determinará se um terceiro pode participar da chamada ou só poderá escutar. Especifique uma das seguintes opções:
         
-          - **Unidirecional**   uma terceira parte só pode ouvir a conversa entre o chamador e o operador PSAP.
+          - **Unidirecional**     Uma terceira parte só pode ouvir a conversa entre o chamador e o operador PSAP.
         
-          - **Bidirecional**   uma terceira parte pode escutar e participar da chamada entre o chamador e o operador PSAP.
+          - **Bidirecional**     Um terceiro pode ouvir e participar da chamada entre o chamador e o operador PSAP.
 
 6.  Clique em **Confirmar**.
     

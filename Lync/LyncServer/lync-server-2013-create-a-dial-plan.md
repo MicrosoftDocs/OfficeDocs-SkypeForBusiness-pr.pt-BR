@@ -12,20 +12,22 @@ ms:contentKeyID: 48185424
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 382b04f9b0aa835d0230cb05fb56cb272546c038
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f530faa83cb2e924d93abce6f7496c3ef1b82311
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192924"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516918"
 ---
+# <a name="create-a-dial-plan-in-lync-server-2013"></a>Criar um plano de discagem no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-a-dial-plan-in-lync-server-2013"></a>Criar um plano de discagem no Lync Server 2013
+
 
 </div>
 
@@ -83,7 +85,7 @@ Para criar um novo plano de discagem, execute as etapas do procedimento a seguir
     
 
     > [!IMPORTANT]  
-    > O <STRONG>nome simples</STRONG> deve ser exclusivo entre todos os planos de discagem na implantação do Lync Server. Não pode exceder 256 caracteres Unicode, cada um deles pode ser um caractere alfabético ou numérico, um hífen (-), um ponto (.) ou um sublinhado (_).<BR>Caracteres <STRONG>não suportados</STRONG> incluem espaços e caracteres reservados, conforme definido no RFC 3966http://www.ietf.org/rfc/rfc3966.txt)(. Os caracteres reservados que <STRONG>não têm suporte</STRONG> no <STRONG>nome simples</STRONG> incluem o seguinte:<BR>";" "/" "?" ":" "@" "&amp;" "=" "+" "$" ","
+    > O <STRONG>nome simples</STRONG> deve ser exclusivo entre todos os planos de discagem na implantação do Lync Server. Não pode exceder 256 caracteres Unicode, cada um deles pode ser um caractere alfabético ou numérico, um hífen (-), um ponto (.) ou um sublinhado (_).<BR>Caracteres <STRONG>não suportados</STRONG> incluem espaços e caracteres reservados, conforme definido no RFC 3966 ( http://www.ietf.org/rfc/rfc3966.txt) . Os caracteres reservados que <STRONG>não têm suporte</STRONG> no <STRONG>nome simples</STRONG> incluem o seguinte:<BR>";" "/" "?" ":" "@" "&amp;" "=" "+" "$" ","
 
     
     </div>
@@ -101,7 +103,7 @@ Para criar um novo plano de discagem, execute as etapas do procedimento a seguir
     
     </div>
 
-9.  (Opcional) No campo **Prefixo de acesso externo**, especifique um valor somente se os usuários precisarem discar um ou mais dígitos iniciais adicionais (por exemplo, 9) para obter uma linha externa. Você pode digitar um valor de prefixo de até quatro caracteres (\#, \*e 0-9).
+9.  (Opcional) No campo **Prefixo de acesso externo**, especifique um valor somente se os usuários precisarem discar um ou mais dígitos iniciais adicionais (por exemplo, 9) para obter uma linha externa. Você pode digitar um valor de prefixo de até quatro caracteres ( \# , \* e 0-9).
     
     <div>
     
@@ -139,7 +141,7 @@ Para criar um novo plano de discagem, execute as etapas do procedimento a seguir
     
 
     > [!IMPORTANT]  
-    > O Lync Server percorre a lista de regras de normalização de cima para baixo e usa a primeira regra que corresponde ao número discado. Se você configurar um plano de discagem de modo que um número discado possa corresponder a mais de uma regra de normalização, certifique-se de que as regras mais restritivas sejam classificadas acima das menos restritivas.<BR>O padrão <STRONG>manter todas as</STRONG> regras de normalização <STRONG>^{11}(\d) $</STRONG> corresponde a qualquer número de 11 dígitos. Por exemplo, se você adicionar uma regra de normalização que corresponda a números de 11 dígitos que começam com 1425, certifique-se de que <STRONG>manter todos</STRONG> esteja classificado abaixo da regra <STRONG>^ ({7}1425 \ d) $</STRONG> mais restritiva.
+    > O Lync Server percorre a lista de regras de normalização de cima para baixo e usa a primeira regra que corresponde ao número discado. Se você configurar um plano de discagem de modo que um número discado possa corresponder a mais de uma regra de normalização, certifique-se de que as regras mais restritivas sejam classificadas acima das menos restritivas.<BR>O padrão <STRONG>manter todas as</STRONG> regras de normalização <STRONG>^ (\d {11} ) $</STRONG> corresponde a qualquer número de 11 dígitos. Por exemplo, se você adicionar uma regra de normalização que corresponda a números de 11 dígitos que começam com 1425, certifique-se de que <STRONG>manter todos</STRONG> esteja classificado abaixo da regra <STRONG>^ (1425 \ d {7} ) $</STRONG> mais restritiva.
 
     
     </div>

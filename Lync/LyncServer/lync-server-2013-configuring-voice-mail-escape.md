@@ -12,20 +12,22 @@ ms:contentKeyID: 49733761
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cad247f2643261e02e475c459e703db843f18fbe
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7c3faf28bdd85f32de1560d35aaf35392fef9746
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195564"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516948"
 ---
+# <a name="configuring-voice-mail-escape-in-lync-server-2013"></a>Configurando o escape de caixa postal no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-voice-mail-escape-in-lync-server-2013"></a>Configurando o escape de caixa postal no Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42195564"
 
 _**Última modificação do tópico:** 2013-02-22_
 
-Quando um usuário configura ligação simultânea para um celular, um chamador geralmente é roteado para a caixa postal pessoal do usuário, caso o celular esteja desligado, sem bateria ou fora de área. Com o Lync Server 2013, os usuários podem optar por ter chamadas relacionadas à empresa roteadas para seu sistema de caixa postal corporativo. Especificamente, um timer pode ser configurado e, se a chamada for atendida pela caixa postal da operadora dentro do intervalo de tempo definido, o Lync Server será desconectado do sistema de caixa postal da operadora (e da caixa postal pessoal do usuário), enquanto o restante do usuário os pontos de extremidade no sistema corporativo continuam a tocar. Desta maneira, o chamador será roteado automaticamente para a caixa postal corporativa do usuário.
+Quando um usuário configura ligação simultânea para um celular, um chamador geralmente é roteado para a caixa postal pessoal do usuário, caso o celular esteja desligado, sem bateria ou fora de área. Com o Lync Server 2013, os usuários podem optar por ter chamadas relacionadas à empresa roteadas para seu sistema de caixa postal corporativo. Especificamente, um temporizador pode ser configurado e, se a chamada for atendida pela caixa postal da operadora dentro do intervalo de tempo definido, o Lync Server será desconectado do sistema de caixa postal da operadora (e da caixa postal do usuário), enquanto os pontos de extremidade restantes do usuário no sistema corporativo continuam a tocar. Desta maneira, o chamador será roteado automaticamente para a caixa postal corporativa do usuário.
 
 Essa configuração é realizada usando o cmdlet do Shell de gerenciamento do Lync Server, **set-CsVoicePolicy**, no nível de política de voz, com os parâmetros a seguir.
 

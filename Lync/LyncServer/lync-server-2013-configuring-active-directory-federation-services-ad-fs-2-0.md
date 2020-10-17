@@ -12,20 +12,22 @@ ms:contentKeyID: 54973682
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9daaec9cbe32f031c7ee99731b1d7c7c9ec10ac1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ac26f7ec2be8390ee913c810928cc99c4e20d53c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195714"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517648"
 ---
+# <a name="configuring-active-directory-federation-services-ad-fs-20-for-lync-server-2013"></a>Configurando os serviços de Federação do Active Directory (AD FS 2,0) para Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-active-directory-federation-services-ad-fs-20-for-lync-server-2013"></a>Configurando os serviços de Federação do Active Directory (AD FS 2,0) para Lync Server 2013
+
 
 </div>
 
@@ -37,13 +39,13 @@ ms.locfileid: "42195714"
 
 _**Última modificação do tópico:** 2013-07-03_
 
-A seção a seguir descreve como configurar os serviços de Federação do Active Directory (AD FS 2,0) para suportar a autenticação multifator. Para obter informações sobre como instalar o AD FS 2,0, consulte AD FS 2,0 passo-a-passo e como fazer guias [https://go.microsoft.com/fwlink/p/?LinkId=313374](https://go.microsoft.com/fwlink/p/?linkid=313374)em.
+A seção a seguir descreve como configurar os serviços de Federação do Active Directory (AD FS 2,0) para suportar a autenticação multifator. Para obter informações sobre como instalar o AD FS 2,0, consulte AD FS 2,0 passo-a-passo e como fazer guias em [https://go.microsoft.com/fwlink/p/?LinkId=313374](https://go.microsoft.com/fwlink/p/?linkid=313374) .
 
 <div class="">
 
 
 > [!NOTE]  
-> Ao instalar o AD FS 2,0, não use o Gerenciador do Windows Server para adicionar a função de serviços de Federação do Active Directory. Em vez disso, baixe e instale o pacote de serviços de Federação do <A href="https://go.microsoft.com/fwlink/p/?linkid=313375">https://go.microsoft.com/fwlink/p/?LinkId=313375</A>Active Directory 2,0 RTW em.
+> Ao instalar o AD FS 2,0, não use o Gerenciador do Windows Server para adicionar a função de serviços de Federação do Active Directory. Em vez disso, baixe e instale o pacote de serviços de Federação do Active Directory 2,0 RTW em <A href="https://go.microsoft.com/fwlink/p/?linkid=313375">https://go.microsoft.com/fwlink/p/?LinkId=313375</A> .
 
 
 
@@ -68,7 +70,7 @@ A seção a seguir descreve como configurar os serviços de Federação do Activ
      ```
 5.  No menu Ferramentas administrativas, inicie o console de gerenciamento do AD FS 2,0.
 
-6.  Expanda **relações** \> de confiança **confianças**de terceira parte confiável.
+6.  Expanda **relações de confiança** \> **confianças**de terceira parte confiável.
 
 7.  Verifique se uma nova relação de confiança foi criada para o Lync Server 2013 com as atualizações cumulativas do Lync Server 2013: julho de 2013 Enterprise pool ou Standard Edition Server.
 

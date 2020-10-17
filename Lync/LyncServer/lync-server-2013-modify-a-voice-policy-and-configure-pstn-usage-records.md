@@ -12,20 +12,22 @@ ms:contentKeyID: 48184419
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2e198158c60b7605ee78179e4a4e74c86791dfa1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 580a17a52a194840e897942ba416fc0d7f984af4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217388"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516118"
 ---
+# <a name="modify-a-voice-policy-and-configure-pstn-usage-records-in-lync-server-2013"></a>Modificar uma política de voz e configurar registros de uso de PSTN no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="modify-a-voice-policy-and-configure-pstn-usage-records-in-lync-server-2013"></a>Modificar uma política de voz e configurar registros de uso de PSTN no Lync Server 2013
+
 
 </div>
 
@@ -133,7 +135,7 @@ Siga estas etapas para modificar uma política de voz. Se você quiser criar uma
             
             </div>
         
-        3.  Use qualquer um dos métodos a seguir para associar e configurar roteamentos para este registro de uso PSTN:
+        3.  Use qualquer um dos métodos a seguir para associar e configurar rotas para este registro de uso do PSTN:
             
               - Para selecionar uma ou mais rotas da lista com todas as rotas disponíveis em sua implantação do Enterprise Voice, clique em **Selecionar**, realce as rotas que deseja associar a este registro de uso do PSTN e clique em **OK**.
             
@@ -199,7 +201,7 @@ Siga estas etapas para modificar uma política de voz. Se você quiser criar uma
                 
                 </div>
             
-            3.  Use qualquer um dos métodos a seguir para associar e configurar roteamentos para este registro de uso PSTN:
+            3.  Use qualquer um dos métodos a seguir para associar e configurar rotas para este registro de uso do PSTN:
                 
                   - Para selecionar uma ou mais rotas da lista com todas as rotas disponíveis em sua implantação do Enterprise Voice, clique em **Selecionar**, realce as rotas que deseja associar a este registro de uso do PSTN e clique em **OK**.
                 

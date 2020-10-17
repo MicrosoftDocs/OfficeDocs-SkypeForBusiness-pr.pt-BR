@@ -12,20 +12,22 @@ ms:contentKeyID: 48185722
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6e6ef9454912b2d421302d7e696350a6f83bc9fd
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 01e6c75a4a557ff44d626f006210bec3a3c38472
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206947"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516568"
 ---
+# <a name="data-collection-in-lync-server-2013"></a>Coleta de dados no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="data-collection-in-lync-server-2013"></a>Coleta de dados no Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42206947"
 
 _**Última modificação do tópico:** 2012-09-08_
 
-No software de comunicações do Microsoft Lync Server 2013, você pode executar o Microsoft Lync Server 2013, ferramenta de planejamento sem documentar seus endereços IP existentes e propostos e os FQDNs (nomes de domínio totalmente qualificados) do servidor de borda, mas é significativamente mais difícil de fazer Portanto, sem causar erros de configuração. Por exemplo, se a coexistência for necessária por um período de tempo, um erro comum é reutilizar FQDNs de uma implantação de borda existente para sua implantação de borda do Lync Server 2013. Com os endereços IP e os FQDNs existentes e propostos escritos em uma planilha, tabela ou outro formulário Visual, você ajuda a evitar problemas de instalação durante a instalação.
+No software de comunicações do Microsoft Lync Server 2013, você pode executar a ferramenta de planejamento do Microsoft Lync Server 2013, sem documentar os endereços IP e os nomes de domínio totalmente qualificados do servidor de borda (FQDNs) existentes, mas é significativamente mais difícil de fazê-lo sem causar erros de configuração. Por exemplo, se a coexistência for necessária por um período de tempo, um erro comum é reutilizar FQDNs de uma implantação de borda existente para sua implantação de borda do Lync Server 2013. Com os endereços IP e os FQDNs existentes e propostos escritos em uma planilha, tabela ou outro formulário Visual, você ajuda a evitar problemas de instalação durante a instalação.
 
 <div>
 
@@ -55,7 +57,7 @@ Para implantar o Microsoft Lync Server 2013 com êxito, você precisa entender a
 
 Apresentado na [escolha de uma topologia no Lync Server 2013](lync-server-2013-choosing-a-topology.md), há três arquiteturas principais com duas variações, para um total de cinco cenários de implantação possíveis. Um desses cenários será o ponto de partida para sua coleção de dados. Os endereços IP, os nomes de servidor e os nomes de domínio são exemplos que coincidem com o certificado correspondente, o firewall e os diagramas DNS que detalham as informações necessárias para uma solução de planejamento completa. Os diagramas e o preenchimento de seus valores obrigatórios de certificado, DNS e firewall são especialmente importantes em comunicações entre equipes, onde o gerenciamento da autoridade de certificação, a configuração de firewall e o DNS é gerenciado por equipes diferentes da equipe que planeja a implantação. Os diagramas fornecem informações sobre os componentes necessários que podem ser usados para comunicar esses requisitos para colaboração entre equipes.
 
-Os diagramas fornecidos são intencionalmente genéricos, mas permitem que a coleção de todos os dados pertinentes seja necessária para a comunicação de requisitos em um cenário de equipe cruzada, onde rede, firewall, criação e gerenciamento de certificados, servidor a implantação e o gerenciamento de servidor são tratados por grupos diferentes. Ter os detalhes necessários para a configuração de rede, firewalls, portas e protocolos, certificados e servidores é inestimável quando a implantação do Lync Server está em andamento.
+Os diagramas fornecidos são intencionalmente genéricos, mas permitem que a coleção de todos os dados pertinentes seja necessária para a comunicação de requisitos em um cenário de equipe cruzado em que a rede, o firewall, a criação e o gerenciamento de certificados, a implantação de servidor e o gerenciamento de servidores são tratados por grupos diferentes. Ter os detalhes necessários para a configuração de rede, firewalls, portas e protocolos, certificados e servidores é inestimável quando a implantação do Lync Server está em andamento.
 
 **Servidor de borda e pool de borda**
 

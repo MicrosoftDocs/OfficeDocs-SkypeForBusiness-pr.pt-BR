@@ -12,20 +12,22 @@ ms:contentKeyID: 48185503
 ms.date: 03/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dda45706b8c55bf99120ec3776702060998a6921
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 37494b3f8389709681ffc92a17d388b71baddd70
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190994"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517948"
 ---
+# <a name="certificate-requirements-for-external-user-access-in-lync-server-2013"></a>Requisitos de certificado para acesso de usuário externo no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="certificate-requirements-for-external-user-access-in-lync-server-2013"></a>Requisitos de certificado para acesso de usuário externo no Lync Server 2013
+
 
 </div>
 
@@ -41,7 +43,7 @@ O software de comunicações do Microsoft Lync Server 2013 suporta o uso de um �
 
 Veja a seguir os requisitos para o certificado público usado para interfaces externas de Borda de acesso e de webconferência e para o serviço de autenticação A/V:
 
-  - O certificado precisa ser emitido por uma CA pública aprovada que suporta nomes de entidade alternativos. Para obter detalhes, consulte o artigo 929395 da base de dados de conhecimento da Microsoft, "parceiros de certificado de comunicações unificadas para o Exchange Server e o Communications Server" em [https://go.microsoft.com/fwlink/p/?linkId=202834](https://go.microsoft.com/fwlink/p/?linkid=202834).
+  - O certificado precisa ser emitido por uma CA pública aprovada que suporta nomes de entidade alternativos. Para obter detalhes, consulte o artigo 929395 da base de dados de conhecimento da Microsoft, "parceiros de certificado de comunicações unificadas para o Exchange Server e o Communications Server" em [https://go.microsoft.com/fwlink/p/?linkId=202834](https://go.microsoft.com/fwlink/p/?linkid=202834) .
 
   - Se o certificado for usado em um pool de Borda, ele deverá ser criado como exportável, com o mesmo certificado usado em cada Servidor de Borda no pool de Borda. O requisito de chave privada exportável serve para o serviço de Autenticação A/V, que precisa usar a mesma chave privada em todos os Servidores de Borda no pool.
 

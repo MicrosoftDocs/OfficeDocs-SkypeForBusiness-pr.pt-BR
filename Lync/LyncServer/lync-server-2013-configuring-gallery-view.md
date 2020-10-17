@@ -12,20 +12,22 @@ ms:contentKeyID: 48184069
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f68b4d884671de3ad4e46c7022df8ae0b3d5da09
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1fd9823ca211242e0fd317e8a62ea118ed91a82f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197804"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517458"
 ---
+# <a name="configuring-gallery-view-in-lync-server-2013"></a>Configurando o modo de exibição de galeria no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-gallery-view-in-lync-server-2013"></a>Configurando o modo de exibição de galeria no Lync Server 2013
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**Última modificação do tópico:** 2012-10-30_
 
 No Lync Server 2013, configure a Galeria exibir videoconferência em política de conferência. O Modo de exibição de Galeria é ativado por padrão. Se você não deseja permitir o Modo de exibição de Galeria ou deseja permitir para alguns usuários apenas, você precisa desativar esse recurso na política de conferência.
 
-Quando o vídeo de um participante de conferência não está disponível, a experiência de exibição da Galeria de usuários pode ser aprimorada se você implantar fotos de alta resolução, um novo recurso no Lync Server 2013. As fotos de alta resolução fornecem uma alternativa para as fotos de contato de resolução menor e limitada armazenadas nos serviços de domínio do Active Directory. As fotos de alta resolução são armazenadas na caixa de correio do Exchange 2013 de um usuário e, portanto, exigem que você integre o Lync Server 2013 com o Exchange 2013. Para obter detalhes, consulte o artigo de blog NextHop, "integrando o Exchange 2013 e o Lync [https://go.microsoft.com/fwlink/p/?LinkId=260987](https://go.microsoft.com/fwlink/p/?linkid=260987)Server 2013" em.
+Quando o vídeo de um participante de conferência não está disponível, a experiência de exibição da Galeria de usuários pode ser aprimorada se você implantar fotos de alta resolução, um novo recurso no Lync Server 2013. As fotos de alta resolução fornecem uma alternativa para as fotos de contato de resolução menor e limitada armazenadas nos serviços de domínio do Active Directory. As fotos de alta resolução são armazenadas na caixa de correio do Exchange 2013 de um usuário e, portanto, exigem que você integre o Lync Server 2013 com o Exchange 2013. Para obter detalhes, consulte o artigo de blog NextHop, "integrando o Exchange 2013 e o Lync Server 2013" em [https://go.microsoft.com/fwlink/p/?LinkId=260987](https://go.microsoft.com/fwlink/p/?linkid=260987) .
 
 <div>
 
@@ -61,7 +63,7 @@ Você pode exibir ou modificar os parâmetros de exibição da Galeria usando o 
 
 Configure o Modo de exibição de Galeria com uma das configurações de política de conferência a seguir:
 
-  - **AllowMultiview**   este parâmetro controla se um usuário tem permissão para organizar a Galeria exibir conferências de vídeo. Este parâmetro se aplica a reuniões programadas e ad-hoc criadas pelo usuário.
+  - **AllowMultiview**     Esse parâmetro controla se um usuário tem permissão para organizar a Galeria de vídeo em conferências. Este parâmetro se aplica a reuniões programadas e ad-hoc criadas pelo usuário.
     
     Exemplos:
     
@@ -71,11 +73,11 @@ Configure o Modo de exibição de Galeria com uma das configurações de políti
     
     Este parâmetro determina quem pode organizar reuniões que permitem vários fluxos de vídeo. Os participantes nas reuniões que permitem vários fluxos de vídeo podem ou não ter permissão para receber vários fluxos de vídeo, com base nas permissões individuais (consulte a descrição para o parâmetro EnableMultiviewJoin).
 
-  - **EnableMultiviewJoin**   esse parâmetro controla se um participante de uma reunião recebe a experiência de vídeo da galeria em reuniões que o permitem. Este parâmetro controla a experiência do usuário em qualquer reunião o qual ele participe.
+  - **EnableMultiviewJoin**     Esse parâmetro controla se um participante de uma reunião recebe a Galeria exibir experiência de vídeo em reuniões que permitem. Este parâmetro controla a experiência do usuário em qualquer reunião o qual ele participe.
     
     Exemplos:
     
-      - Esse parâmetro é definido como true para o usuário C. o usuário C pode receber vários fluxos de vídeo ao participar de uma reunião organizada ou iniciada pelo usuário A. o usuário C recebe um único fluxo de vídeo semelhante à experiência de conferência de vídeo fornecida pelo Lync Server 2010 quando participar de uma reunião organizada ou iniciada pelo usuário B.
+      - Esse parâmetro é definido como true para o usuário C. o usuário C pode receber vários fluxos de vídeo ao participar de uma reunião organizada ou iniciada pelo usuário A. o usuário C recebe um único fluxo de vídeo semelhante à experiência de conferência de vídeo fornecida pelo Lync Server 2010 ao participar de uma reunião organizada ou iniciada pelo usuário B.
     
       - Esse parâmetro é definido como false para o usuário D. o usuário D recebe um único fluxo de vídeo semelhante à experiência de videoconferência fornecido pelo Lync Server 2010 ao participar de qualquer reunião organizada pelo usuário A ou usuário B.
 

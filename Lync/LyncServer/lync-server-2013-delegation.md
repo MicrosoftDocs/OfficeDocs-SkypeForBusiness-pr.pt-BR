@@ -12,20 +12,22 @@ ms:contentKeyID: 51803956
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 57de37ff1ef0b43a8a6ea9c03b715d3ebe570a6b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b31224228a4f2fbdad879e43bab61292852e009c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190904"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516298"
 ---
+# <a name="delegation-in-lync-server-2013"></a>Delegação no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="delegation-in-lync-server-2013"></a>Delegação no Lync Server 2013
+
 
 </div>
 
@@ -37,9 +39,9 @@ ms.locfileid: "42190904"
 
 _**Última modificação do tópico:** 2013-03-09_
 
-Os recursos de delegação no Lync são afetados pelo roteamento baseado em local da seguinte maneira:
+Os recursos de delegação no Lync são afetados pelo roteamento Location-Based da seguinte maneira:
 
-  - Quando um representante habilitado para roteamento baseado em local coloca uma chamada em nome de um gerente, a política de voz do representante é usada para autorizar a chamada e a política de roteamento de voz do site do representante será usada para encaminhar a chamada
+  - Quando um representante habilitado para Location-Based roteamento coloca uma chamada em nome de um gerente, a política de voz do representante é usada para autorizar a chamada e a política de roteamento de voz do site do representante será usada para encaminhar a chamada
 
   - Para chamadas PSTN de entrada para um gerente, as mesmas regras aplicáveis ao encaminhamento de chamadas ou ao toque simultâneo serão aplicadas conforme descrito nos tópicos de transferências de chamada e de encaminhamento e toque simultâneo.
 
@@ -52,7 +54,7 @@ Os recursos de delegação no Lync são afetados pelo roteamento baseado em loca
 ## <a name="see-also"></a>Confira também
 
 
-[Cenários para roteamento baseado em local no Lync Server 2013](lync-server-2013-scenarios-for-location-based-routing.md)  
+[Cenários para Location-Based roteamento no Lync Server 2013](lync-server-2013-scenarios-for-location-based-routing.md)  
   
 
 </div>

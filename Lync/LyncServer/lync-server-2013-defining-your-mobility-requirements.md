@@ -12,20 +12,22 @@ ms:contentKeyID: 48185226
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2da630e422aaf7068a4252333d5221f552bce525
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9f560df21555bf15c1a51c055861898860ff8dc6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198344"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516328"
 ---
+# <a name="defining-your-mobility-requirements-for-lync-server-2013"></a>Definindo seus requisitos de mobilidade para o Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="defining-your-mobility-requirements-for-lync-server-2013"></a>Definindo seus requisitos de mobilidade para o Lync Server 2013
+
 
 </div>
 
@@ -49,9 +51,9 @@ Estas são as decisões que você deve considerar:
     
     Se você usar as configurações manuais em vez da descoberta automática, os usuários móveis precisarão inserir manualmente as seguintes URLs em seus dispositivos móveis:
     
-      - https://\<ExtPoolFQDN\>/autodiscover/autodiscoverservice.svc/root para acesso externo
+      - https:// \<ExtPoolFQDN\> /autodiscover/autodiscoverservice.svc/root para acesso externo
     
-      - https://\<IntPoolFQDN\>/autodiscover/Autodiscoverservice. svc/root para acesso interno
+      - https:// \<IntPoolFQDN\> /autodiscover/autodiscoverservice. svc/root para acesso interno
     
     Recomendamos o uso da descoberta automática. O uso principal das configurações manuais é para solução de problemas.
 
@@ -82,7 +84,7 @@ Estas são as decisões que você deve considerar:
     
 
     > [!IMPORTANT]  
-    > Se você estiver usando um servidor front-&nbsp;end do lync Server 2013 ou pools de front-ends e <STRONG>não tiver</STRONG> servidores&nbsp;front-end do Lync Server 2010 ou pools de front-ends, não <STRONG>haverá necessidade de persistência baseada em cookie</STRONG>. Se você precisar manter qualquer servidor front-end&nbsp;do lync Server 2010 ou pools de front-ends, as mesmas regras ainda serão aplicadas como no Lync Server 2010 para persistência baseada em cookie.
+    > Se você estiver usando um servidor front-end do Lync Server 2013 &nbsp; ou pools de front-ends e <STRONG>não tiver</STRONG> servidores front-end do Lync Server 2010 &nbsp; ou pools de front-ends, não <STRONG>haverá necessidade de persistência baseada em cookie</STRONG>. Se você precisar manter qualquer servidor &nbsp; front-end do Lync Server 2010 ou pools de front-ends, as mesmas regras ainda serão aplicadas como no Lync server 2010 para persistência baseada em cookie.
 
     
     </div>
@@ -91,7 +93,7 @@ Estas são as decisões que você deve considerar:
     
     Se você oferecer suporte às notificações por push, os dispositivos Apple iOS suportados e os Windows Phones receberão uma notificação sobre os eventos que ocorrem quando o aplicativo móvel está inativo. Você deve configurar seu servidor de borda para ter uma relação de Federação com o serviço de notificação por push do Lync Server baseado na nuvem, que está localizado no datacenter do Lync Online e executar um cmdlet para habilitar as notificações por push.
     
-    Se você quiser dar suporte a notificações por push em sua rede Wi-Fi, além de dar suporte a notificações por push sobre as redes 3G ou de dados de provedores de dispositivos móveis, deverá abrir a porta 5223 de saída na sua rede Wi-Fi corporativa. O suporte às notificações por push sobre a rede Wi-Fi oferece suporte aos dispositivos móveis que usam apenas Wi-Fi e dispositivos móveis que possuem uma recepção interna ruim.
+    Se você quiser dar suporte a notificações por push sobre sua rede do Wi-Fi, além de dar suporte a notificações por push sobre as redes 3G ou de dados de provedores de dispositivos móveis, você deve abrir a porta 5223 de saída em sua empresa Wi-Fi rede. O suporte às notificações por push sobre a rede Wi-Fi oferece suporte aos dispositivos móveis que usam apenas Wi-Fi e dispositivos móveis que possuem uma recepção interna ruim.
     
     <div>
     
@@ -134,7 +136,7 @@ Estas são as decisões que você deve considerar:
     <tbody>
     <tr class="odd">
     <td><p>Habilitar mobilidade</p>
-    <p>Nome do parâmetro:<code>EnableMobility</code></p>
+    <p>Nome do parâmetro: <code>EnableMobility</code></p>
     <p>Escopo: global/site/usuário</p></td>
     <td><p>Configuração administrativa para controlar os usuários em um determinado escopo com o Lync Mobile instalado, se a política estiver definida como false, o usuário não poderá entrar no cliente.</p>
     <p>A configuração padrão é true.</p></td>
@@ -142,7 +144,7 @@ Estas são as decisões que você deve considerar:
     </tr>
     <tr class="even">
     <td><p>Habilitar voz externa</p>
-    <p>Nome do parâmetro:<code>EnableOutsideVoice</code></p>
+    <p>Nome do parâmetro: <code>EnableOutsideVoice</code></p>
     <p>Escopo: global/site/usuário</p></td>
     <td><p>Controla a capacidade de um usuário de usar Call via Work, um recurso que permite que os usuários façam e recebam chamadas usando seus números de trabalho, em vez de seus números de celular. Se for definido como false, o usuário não poderá fazer ou receber chamadas usando seu número comercial do dispositivo móvel.</p>
     <p>A configuração padrão é true</p></td>
@@ -150,7 +152,7 @@ Estas são as decisões que você deve considerar:
     </tr>
     <tr class="odd">
     <td><p>Habilitar áudio e vídeo IP</p>
-    <p>Nome do parâmetro:<code>EnableIPAudioVideo</code></p>
+    <p>Nome do parâmetro: <code>EnableIPAudioVideo</code></p>
     <p>Escopo: global/site/usuário</p></td>
     <td><p>Controla se um usuário pode usar VoIP para fazer ou receber chamadas de voz ou vídeo em seus dispositivos móveis. Se for definido como false, o usuário não poderá fazer ou receber chamadas VoIP ou de vídeo em seus dispositivos.</p>
     <p>A configuração padrão é true.</p></td>
@@ -158,7 +160,7 @@ Estas são as decisões que você deve considerar:
     </tr>
     <tr class="even">
     <td><p>Exigir WiFi para áudio IP</p>
-    <p>Nome do parâmetro:<code>RequireWiFiForIPAudio</code></p>
+    <p>Nome do parâmetro: <code>RequireWiFiForIPAudio</code></p>
     <p>Escopo: global/site/usuário</p></td>
     <td><p>Essa configuração define se o cliente será solicitado a fazer e receber chamadas por VoIP em vez da rede de dados da rede celular. Se for definido como true, o usuário poderá fazer e receber chamadas de VoIP somente quando estiver conectado a uma rede Wi-Fi.</p>
     <p>A configuração padrão é false.</p></td>
@@ -166,9 +168,9 @@ Estas são as decisões que você deve considerar:
     </tr>
     <tr class="odd">
     <td><p>Exigir WiFi para vídeo IP</p>
-    <p>Nome do parâmetro:<code>RequireWiFiForIPVideo</code></p>
+    <p>Nome do parâmetro: <code>RequireWiFiForIPVideo</code></p>
     <p>Escopo: global/site/usuário</p></td>
-    <td><p>Essa configuração define se o cliente será solicitado a fazer e receber chamadas de vídeo no Wi-Fi, em vez de na rede de dados da rede celular. Se for definido como true, o usuário poderá fazer e receber chamadas de vídeo somente quando estiver conectado a uma rede Wi-Fi.</p>
+    <td><p>Essa configuração define se o cliente será solicitado a fazer e receber chamadas de vídeo em Wi-Fi, em vez de na rede de dados da rede celular. Se for definido como true, o usuário poderá fazer e receber chamadas de vídeo somente quando estiver conectado a uma rede Wi-Fi.</p>
     <p>A configuração padrão é false.</p></td>
     <td><p>Microsoft Lync Server 2013</p></td>
     </tr>

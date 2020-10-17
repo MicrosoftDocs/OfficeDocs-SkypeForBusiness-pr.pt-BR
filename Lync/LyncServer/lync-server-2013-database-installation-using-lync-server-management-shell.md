@@ -12,20 +12,22 @@ ms:contentKeyID: 48185401
 ms.date: 06/16/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 443f353a43c2fdfd2f9fc8c7ce1a1b20c11a4a84
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b602e29e0f90a49a031c25d6bb919337bef87b8d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187394"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516538"
 ---
+# <a name="database-installation-using-lync-server-management-shell-in-lync-server-2013"></a>Instalação de banco de dados usando o Shell de gerenciamento do Lync Server no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="database-installation-using-lync-server-management-shell-in-lync-server-2013"></a>Instalação de banco de dados usando o Shell de gerenciamento do Lync Server no Lync Server 2013
+
 
 </div>
 
@@ -43,7 +45,7 @@ A separação de funções e responsabilidades entre administradores de servidor
 
 
 > [!IMPORTANT]  
-> O procedimento a seguir pressupõe que, no mínimo, os objetos de gerenciamento do Lync Server 2013 OCSCore. msi, do SQL Server Native Client (sqlncli. msi) do Microsoft SQL Server 2012, tipos CLR para o Microsoft SQL Server 2012 e o Microsoft SQL Server 2012 ADOMD.NET estejam instalados. O OCSCore.msi está localizado na mídia de instalação, no diretório \Setup\AMD64\Setup. Os componentes restantes estão localizados no \setup\amd64. Além disso, a preparação do Active Directory para o Lync Server 2013 foi concluída com êxito.
+> O procedimento a seguir pressupõe que, no mínimo, o Lync Server 2013 OCSCore.msi, os objetos de gerenciamento do SQL Server Native Client (sqlncli.msi) Microsoft SQL Server 2012, tipos CLR para Microsoft SQL Server 2012 e Microsoft SQL Server 2012 ADOMD.NET estão instalados. O OCSCore.msi está localizado na mídia de instalação, no diretório \Setup\AMD64\Setup. Os componentes restantes estão localizados no \setup\amd64. Além disso, a preparação do Active Directory para o Lync Server 2013 foi concluída com êxito.
 
 
 
@@ -77,7 +79,7 @@ Para a instalação de bancos de dados, **install-CsDatabase** usa três método
 
 1.  Em qualquer computador, faça logon com credenciais administrativas para a criação dos bancos de dados no servidor baseado em SQL Server. Para obter detalhes, consulte [Deployment Permissions for SQL Server in Lync server 2013](lync-server-2013-deployment-permissions-for-sql-server.md).
 
-2.  Abra o Shell de gerenciamento do Lync Server 2013. Se você não tiver ajustado a política de execução do Windows PowerShell, você deve ajustar a política para permitir que scripts do Windows PowerShell sejam executados. Para obter detalhes, consulte "examinando a política de [https://go.microsoft.com/fwlink/p/?linkId=203093](https://go.microsoft.com/fwlink/p/?linkid=203093)execução" em.
+2.  Abra o Shell de gerenciamento do Lync Server 2013. Se você não tiver ajustado a política de execução do Windows PowerShell, você deve ajustar a política para permitir que scripts do Windows PowerShell sejam executados. Para obter detalhes, consulte "examinando a política de execução" em [https://go.microsoft.com/fwlink/p/?linkId=203093](https://go.microsoft.com/fwlink/p/?linkid=203093) .
 
 3.  Use o cmdlet **install-CsDatabase** para instalar o repositório de gerenciamento central.
     
@@ -122,7 +124,7 @@ Para a instalação de bancos de dados, **install-CsDatabase** usa três método
     
 
     > [!IMPORTANT]  
-    > Para poder configurar os bancos de dados baseados em SQL Server, certifique-se de que a conta de administrador do SQL Server usada para executar as etapas descritas aqui também é membro do grupo sysadmins (ou equivalente) no servidor que executa o SQL Server e que mantém o gerenciamento central Função de servidor. Isso é especialmente importante para verificar qualquer pool adicional do Lync Server 2013 que exija instalação ou configuração de banco de dados do SQL Server. Por exemplo, se você estiver implantando um segundo pool (pool02), mas a função de servidor de gerenciamento central for mantida pelo pool01. O grupo sysadmin do SQL Server (ou equivalente) deve ter permissões em ambos os bancos de dados baseados no SQL Server.
+    > Para poder configurar os bancos de dados baseados em SQL Server, certifique-se de que a conta de administrador do SQL Server usada para executar as etapas descritas aqui também é membro do grupo sysadmins (ou equivalente) no servidor que executa o SQL Server e que mantém a função de servidor de gerenciamento central. Isso é especialmente importante para verificar qualquer pool adicional do Lync Server 2013 que exija instalação ou configuração de banco de dados do SQL Server. Por exemplo, se você estiver implantando um segundo pool (pool02), mas a função de servidor de gerenciamento central for mantida pelo pool01. O grupo sysadmin do SQL Server (ou equivalente) deve ter permissões em ambos os bancos de dados baseados no SQL Server.
 
     
     </div>
@@ -166,7 +168,7 @@ Para a instalação de bancos de dados, **install-CsDatabase** usa três método
     
 
     > [!IMPORTANT]  
-    > Para poder configurar os bancos de dados baseados em SQL Server, certifique-se de que a conta de administrador do SQL Server usada para executar as etapas descritas aqui também é membro do grupo sysadmins (ou equivalente) no servidor que executa o SQL Server e que mantém o gerenciamento central Função de servidor. Isso é especialmente importante para verificar qualquer pool adicional do Lync Server que exija instalação ou configuração de banco de dados do SQL Server. Por exemplo, se você estiver implantando um segundo pool (pool02), mas a função de servidor de gerenciamento central for mantida pelo pool01. O grupo sysadmin do SQL Server (ou equivalente) deve ter permissões em ambos os bancos de dados baseados no SQL Server.
+    > Para poder configurar os bancos de dados baseados em SQL Server, certifique-se de que a conta de administrador do SQL Server usada para executar as etapas descritas aqui também é membro do grupo sysadmins (ou equivalente) no servidor que executa o SQL Server e que mantém a função de servidor de gerenciamento central. Isso é especialmente importante para verificar qualquer pool adicional do Lync Server que exija instalação ou configuração de banco de dados do SQL Server. Por exemplo, se você estiver implantando um segundo pool (pool02), mas a função de servidor de gerenciamento central for mantida pelo pool01. O grupo sysadmin do SQL Server (ou equivalente) deve ter permissões em ambos os bancos de dados baseados no SQL Server.
 
     
     </div>
@@ -175,7 +177,7 @@ Para a instalação de bancos de dados, **install-CsDatabase** usa três método
 
 4.  Use o cmdlet **install-CsDatabase** com o parâmetro DatabasePathMap e uma tabela de hash do PowerShell para instalar os bancos de dados configurados do construtor de topologias.
 
-5.  No código de exemplo, os caminhos definidos para os bancos de dados podem ser determinados de uma maneira granular usando o parâmetro – DatabasePathMap e uma tabela de hash definida da seguinte maneira (o exemplo usa "\\c: CSData" para todos os arquivos de banco de dados (. MDF\\) e "c: CSLogFiles" para todos os arquivos de log (. ldf). A pasta será criada conforme necessário pelo install-CsDatabase):
+5.  No código de exemplo, os caminhos definidos para os bancos de dados podem ser determinados de uma maneira granular usando o parâmetro – DatabasePathMap e uma tabela de hash definida da seguinte maneira (o exemplo usa "C: \\ CSData" para todos os arquivos de banco de dados (. MDF) e "c: \\ CSLogFiles" para todos os arquivos de log (. ldf). A pasta será criada conforme necessário pelo install-CsDatabase):
     ```powershell
     $pathmap = @{
     "BackendStore:BlobStore:DbPath"="C:\CsData";"BackendStore:BlobStore:LogPath"="C:\CsLogFiles"
@@ -192,29 +194,29 @@ Para a instalação de bancos de dados, **install-CsDatabase** usa três método
     ```
 6.  Como o banco de dados e os arquivos de log são nomeados explicitamente com seu local no servidor de banco de dados de destino, você pode definir locais específicos para cada tipo de serviço de banco de dados real e local de log. O exemplo a seguir coloca os bancos de dados de cada tipo de serviço específico em discos separados e os arquivos de log associados em outro. Por exemplo:
     
-      - Todos os bancos de dados RTC para "D\\: RTCDatabase"
+      - Todos os bancos de dados RTC para "D: \\ RTCDatabase"
     
-      - Todos os arquivos de log RTC para "\\E: RTCLogs"
+      - Todos os arquivos de log RTC para "E: \\ RTCLogs"
     
-      - Todos os bancos de dados de repositório de aplicativos para\\"F: CPSDatabases"
+      - Todos os bancos de dados de repositório de aplicativos para "F: \\ CPSDatabases"
     
-      - Todos os logs de repositório de aplicativos para\\"G: CPSLogs"
+      - Todos os logs de repositório de aplicativos para "G: \\ CPSLogs"
     
-      - Todos os bancos de dados do repositório de grupos de resposta\\para "H: RGSDatabases"
+      - Todos os bancos de dados do repositório de grupos de resposta para "H: \\ RGSDatabases"
     
-      - Todos os logs do repositório de resposta do grupo\\para "I: RGSLogs"
+      - Todos os logs do repositório de resposta do grupo para "I: \\ RGSLogs"
     
-      - Todos os bancos de dados do repositório de catálogo de endereços\\para "J: ABSDatabases"
+      - Todos os bancos de dados do repositório de catálogo de endereços para "J: \\ ABSDatabases"
     
-      - Todos os arquivos de log do repositório de catálogo de\\endereços para "K: ABSLogs"
+      - Todos os arquivos de log do repositório de catálogo de endereços para "K: \\ ABSLogs"
     
-      - Todos os bancos de dados de repositório de arquivamento para\\"L: ArchivingDatabases"
+      - Todos os bancos de dados de repositório de arquivamento para "L: \\ ArchivingDatabases"
     
-      - Todos os logs do repositório de arquivamento para\\"M: ArchivingLogs"
+      - Todos os logs do repositório de arquivamento para "M: \\ ArchivingLogs"
     
-      - Todos os bancos de dados de repositório de monitoramento para\\"N: MonitoringDatabases"
+      - Todos os bancos de dados de repositório de monitoramento para "N: \\ MonitoringDatabases"
     
-      - Todos os arquivos de log do repositório de monitoramento\\para "O: MonitoringLogfiles"
+      - Todos os arquivos de log do repositório de monitoramento para "O: \\ MonitoringLogfiles"
     
     <!-- end list -->
     

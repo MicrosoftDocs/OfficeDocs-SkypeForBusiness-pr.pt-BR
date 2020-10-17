@@ -12,20 +12,22 @@ ms:contentKeyID: 48184540
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 32c5f3cdd8000892886b3273fbb33fc1b1f668e4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0cdc05978b6fb8d81c81995d7b089d14ed4bec3b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196234"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516738"
 ---
+# <a name="creating-or-modifying-network-region-routes-in-lync-server-2013"></a>Criando ou modificando rotas de região de rede no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="creating-or-modifying-network-region-routes-in-lync-server-2013"></a>Criando ou modificando rotas de região de rede no Lync Server 2013
+
 
 </div>
 
@@ -47,7 +49,7 @@ Cada região de um configuração de CAC (controle de admissão de chamadas) dev
 
 2.  Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Na barra de navegação esquerda, clique em **Configuração da Rede** e clique em **Rota de Região**.
+3.  Na barra de navegação esquerda, clique em **Configuração de Rede** e em **Rota de Região**.
 
 4.  Na página **Rota de Região**, clique em **Novo**.
 
@@ -62,9 +64,9 @@ Cada região de um configuração de CAC (controle de admissão de chamadas) dev
     
     </div>
 
-6.  Na lista suspensa **região \#de rede 1** , selecione uma das duas regiões que serão conectadas por essa rota.
+6.  Na lista suspensa **região de rede \# 1** , selecione uma das duas regiões que serão conectadas por essa rota.
 
-7.  Na lista suspensa **região \#de rede 2** , selecione a outra região para esta rota. Essa região deve ser diferente da região selecionada para a região \#de rede 1.
+7.  Na lista suspensa **região de rede \# 2** , selecione a outra região para esta rota. Essa região deve ser diferente da região selecionada para a região de rede \# 1.
 
 8.  Use a caixa de listagem **Links de região de rede** para adicionar os links de região para a rota. Clique no botão **Adicionar** para exibir a página **Link de Região**. Clique em um link de região para adicionar a esta rota e clique em **OK**.
     

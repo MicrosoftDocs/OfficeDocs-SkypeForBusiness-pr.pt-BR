@@ -12,20 +12,22 @@ ms:contentKeyID: 48183289
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 01d3d90f738741c2815d01041a7d2293e978cd2b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 462252b1826802ec424c6684e3a6347754095508
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195674"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517048"
 ---
+# <a name="configuring-unified-messaging-on-microsoft-exchange-server-to-work-with-lync-server-2013"></a>Configurando a Unificação de mensagens no Microsoft Exchange Server para funcionar com o Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-unified-messaging-on-microsoft-exchange-server-to-work-with-lync-server-2013"></a>Configurando a Unificação de mensagens no Microsoft Exchange Server para funcionar com o Lync Server 2013
+
 
 </div>
 
@@ -62,7 +64,7 @@ Para configurar a Unificação de mensagens (UM) do Exchange para trabalhar com 
 
   - Crie um ou mais planos de discagem de URI SIP de UM, junto com os números de telefone de acesso do Assinante, conforme necessário, e crie planos de discagem do Lync Server correspondentes.
 
-  - Use o script **ExchUCUtil. ps1** para:
+  - Use o **exchucutil.ps1** script para:
     
       - Criar gateways IP da UM.
     
@@ -82,7 +84,7 @@ Para configurar a Unificação de mensagens (UM) do Exchange para trabalhar com 
 
 Antes de começar, a documentação desta seção pressupõe que você implantou as seguintes funções do Exchange 2013: acesso para cliente e caixa de correio. No Microsoft Exchange Server 2013, o UM do Exchange é executado como um serviço nesses servidores.
 
-Para obter detalhes sobre a implantação do Exchange 2013, consulte a biblioteca do Exchange 2013 TechNet em[https://go.microsoft.com/fwlink/p/?LinkId=266637](https://go.microsoft.com/fwlink/p/?linkid=266637)
+Para obter detalhes sobre a implantação do Exchange 2013, consulte a biblioteca do Exchange 2013 TechNet em [https://go.microsoft.com/fwlink/p/?LinkId=266637](https://go.microsoft.com/fwlink/p/?linkid=266637)
 
 Também observe o seguinte:
 

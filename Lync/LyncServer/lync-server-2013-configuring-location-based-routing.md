@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Configurando roteamento baseado em local'
+title: 'Lync Server 2013: Configurando o roteamento de Location-Based'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 51803946
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b88df8bf0b8362a09ea2e5b779b7fa9d789a0a48
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7b703aa084204a2c103e02ebff5f913a6647ae94
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206357"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517408"
 ---
+# <a name="configuring-location-based-routing-in-lync-server-2013"></a>Configurando o roteamento de Location-Based no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-location-based-routing-in-lync-server-2013"></a>Configurando o roteamento baseado em local no Lync Server 2013
+
 
 </div>
 
@@ -37,11 +39,11 @@ ms.locfileid: "42206357"
 
 _**Última modificação do tópico:** 2013-03-12_
 
-Lync Server 2013 CU1, roteamento baseado em local é um recurso do Enterprise Voice. O roteamento baseado em local é um recurso de gerenciamento de chamadas que controla como as chamadas são encaminhadas pelo Lync Server 2013 CU1. Ela impõe restrições sobre se as chamadas podem ser roteadas para destinos PBX ou PSTN com base no local do chamador do Lync. O roteamento baseado em local aplica regras de autorização de chamada às chamadas PSTN com base no local de rede do chamador. O local do chamador é determinado com base no site de rede associado à sub-rede da rede na qual o chamador está conectado. A configuração do roteamento baseado em local exige primeiro implantação do Enterprise Voice e, em seguida, a configuração de regiões de rede, sites e sub-redes. Isso configura a base para habilitar o roteamento baseado em local.
+Lync Server 2013 CU1, Location-Based roteamento é um recurso do Enterprise Voice. Location-Based roteamento é um recurso de gerenciamento de chamadas que controla como as chamadas são encaminhadas pelo Lync Server 2013 CU1. Ela impõe restrições sobre se as chamadas podem ser roteadas para destinos PBX ou PSTN com base no local do chamador do Lync. Location-Based roteamento aplica regras de autorização de chamada a chamadas PSTN com base no local de rede do chamador. O local do chamador é determinado com base no site de rede associado à sub-rede da rede na qual o chamador está conectado. A configuração do roteamento de Location-Based exige primeiro implantação do Enterprise Voice e, em seguida, a configuração de regiões de rede, sites e sub-redes. Isso configura a base para habilitar o roteamento de Location-Based.
 
-Antes de implantar o roteamento baseado em local, primeiro você deve implantar o Enterprise Voice e configurar regiões de rede, sites e associar sub-redes de rede aos sites de rede. Após a conclusão, é possível configurar o roteamento baseado em local. Para obter etapas sobre como configurar regiões de rede, sites e sub-redes, consulte [Deploying Advanced Enterprise Voice Features in Lync Server 2013](lync-server-2013-deploying-advanced-enterprise-voice-features.md)
+Antes de implantar o roteamento de Location-Based, você deve primeiro implantar o Enterprise Voice e configurar regiões de rede, sites e associar sub-redes de rede aos seus sites de rede. Após a conclusão, é possível configurar o roteamento de Location-Based. Para obter etapas sobre como configurar regiões de rede, sites e sub-redes, consulte [Deploying Advanced Enterprise Voice Features in Lync Server 2013](lync-server-2013-deploying-advanced-enterprise-voice-features.md)
 
-Esta seção orienta você durante a configuração do roteamento baseado em local usando o exemplo a seguir como ilustração.
+Esta seção orienta você durante a configuração do roteamento Location-Based usando o exemplo a seguir como ilustração.
 
 ![Exemplo de roteamento baseado no local do Enterprise Voice](images/JJ994036.b6ef5afc-36ac-406f-8ec2-a87532b20612(OCS.15).png "Exemplo de roteamento baseado no local do Enterprise Voice")
 
@@ -157,7 +159,7 @@ A tabela a seguir representa os sistemas ilustrados neste exemplo de ambiente.
 
   - [Implantando regiões de rede, sites e sub-redes no Lync Server 2013](lync-server-2013-deploying-network-regions-sites-and-subnets.md)
 
-  - [Habilitando o roteamento baseado em local no Lync Server 2013](lync-server-2013-enabling-location-based-routing.md)
+  - [Habilitando o roteamento de Location-Based no Lync Server 2013](lync-server-2013-enabling-location-based-routing.md)
 
 </div>
 

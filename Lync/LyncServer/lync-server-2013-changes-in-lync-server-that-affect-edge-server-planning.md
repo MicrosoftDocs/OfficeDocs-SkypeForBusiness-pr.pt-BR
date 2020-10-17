@@ -12,20 +12,22 @@ ms:contentKeyID: 48184378
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2903bd2701ac860232dd73342ed280688feac34b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: cc006a73e6fcb7036d0085d9c5dcba4d3e21e133
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187994"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517828"
 ---
+# <a name="changes-in-lync-server-2013-that-affect-edge-server-planning"></a>Alterações no Lync Server 2013 que afetam o planejamento do servidor de borda
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="changes-in-lync-server-2013-that-affect-edge-server-planning"></a>Alterações no Lync Server 2013 que afetam o planejamento do servidor de borda
+
 
 </div>
 
@@ -115,7 +117,7 @@ Para obter detalhes sobre a afinidade baseada em cookies no Lync Server 2013, co
 
 ## <a name="autodiscover-enhancements"></a>Aprimoramentos de descoberta automática
 
-O recurso de descoberta automática no Lync Server 2013 permite que os clientes localizem recursos adicionais que são disponibilizados para comunicação. A descoberta automática foi introduzida pela primeira vez na atualização cumulativa do Lync Server 2010: novembro de 2011 para mobilidade e Microsoft Lync 2010 Mobile. O recurso de descoberta automática (também conhecido pelos nomes de registro DNS LyncDiscover e LyncDiscoverInternal) permite que os clientes localizem e usem serviços de mobilidade (para clientes móveis do Microsoft Lync 2010), o Microsoft Lync Web App e o Web Scheduler do Lync, bem como comunicação com o Microsoft Exchange Server e o SharePoint Server. A descoberta automática é instalada como parte normal da configuração e implantação de sua infraestrutura e dos servidores do Lync Server 2013. O assistente de implantação do construtor de topologia e do Lync Server eliminam a maioria das tarefas de configuração que foram necessárias na atualização cumulativa do Lync Server 2010: novembro de 2011.
+O recurso de descoberta automática no Lync Server 2013 permite que os clientes localizem recursos adicionais que são disponibilizados para comunicação. A descoberta automática foi introduzida pela primeira vez na atualização cumulativa do Lync Server 2010: novembro de 2011 para mobilidade e Microsoft Lync 2010 Mobile. O recurso de descoberta automática (também conhecido pelos nomes de registro DNS LyncDiscover e LyncDiscoverInternal) permite que os clientes localizem e usem serviços de mobilidade (para clientes móveis do Microsoft Lync 2010), o Microsoft Lync Web App e o Web Scheduler do Lync, bem como comunicações com o Microsoft Exchange Server e o SharePoint Server. A descoberta automática é instalada como parte normal da configuração e implantação de sua infraestrutura e dos servidores do Lync Server 2013. O assistente de implantação do construtor de topologia e do Lync Server eliminam a maioria das tarefas de configuração que foram necessárias na atualização cumulativa do Lync Server 2010: novembro de 2011.
 
 </div>
 
@@ -123,7 +125,7 @@ O recurso de descoberta automática no Lync Server 2013 permite que os clientes 
 
 ## <a name="services-for-mobile-clients"></a>Serviços para clientes móveis
 
-Apresentado na atualização cumulativa do Lync Server 2010: de novembro de 2011, serviços de mobilidade no Lync Server 2013 habilitar telefones móveis executando Lync Mobile e dispositivos tablets usando dispositivos móveis Apple iOS, Android, Windows Phone ou Nokia compatíveis para executar atividades como enviar e receber mensagens instantâneas, exibir contatos e ver a presença. Além disso, os dispositivos móveis são compatíveis com alguns recursos do Enterprise Voice, como clique para ingressar em uma conferência, ligar via trabalho, alcance de um único número, caixa postal e notificação de chamada perdida.
+Introduzido na atualização cumulativa para o Lync Server 2010: novembro de 2011, serviços de mobilidade no Lync Server 2013 habilite os telefones móveis executando o Lync Mobile e dispositivos tablets usando dispositivos móveis Apple iOS, Android, Windows Phone ou Nokia para realizar atividades, como enviar e receber mensagens instantâneas, exibir contatos e ver a presença. Além disso, os dispositivos móveis são compatíveis com alguns recursos do Enterprise Voice, como clique para ingressar em uma conferência, ligar via trabalho, alcance de um único número, caixa postal e notificação de chamada perdida.
 
 <div>
 

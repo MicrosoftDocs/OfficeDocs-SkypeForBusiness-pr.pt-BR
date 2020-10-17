@@ -12,20 +12,22 @@ ms:contentKeyID: 48184595
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 61f0de957889f108ff7b7cec3ad71e984fd61f11
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 84fb2d57e03965acff9d647854b86d7a5a528246
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213157"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517708"
 ---
+# <a name="components-used-by-the-announcement-application-in-lync-server-2013"></a>Componentes usados pelo aplicativo comunicado no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="components-used-by-the-announcement-application-in-lync-server-2013"></a>Componentes usados pelo aplicativo comunicado no Lync Server 2013
+
 
 </div>
 
@@ -45,17 +47,17 @@ No Lync Server 2013, o aplicativo de anúncio é um componente do aplicativo gru
 
 Os seguintes componentes do Lync Server oferecem suporte ao aplicativo announcement:
 
-  - ****   Serviço de aplicativo de serviço de aplicativo fornece uma plataforma para implantação, hospedagem e gerenciamento de aplicativos de comunicação unificada. O serviço de aplicativo é instalado automaticamente em todos os servidores front-end em um pool de front-ends e em cada servidor Standard Edition.
+  - **Serviço**     de aplicativo O serviço de aplicativo fornece uma plataforma para implantar, hospedar e gerenciar aplicativos de comunicação unificada. O serviço de aplicativo é instalado automaticamente em todos os servidores front-end em um pool de front-ends e em cada servidor Standard Edition.
 
-  - **Aplicativo de grupo de resposta**   o aplicativo grupo de resposta é um dos aplicativos de comunicações unificadas hospedados pelo serviço de aplicativo. Quando um intervalo de números de telefone não atribuído é configurado para rotear para um comunicado, o aplicativo grupo de resposta é necessário para rotear as chamadas feitas para o número de telefone. (O aplicativo grupo de resposta não é necessário se todos os intervalos estiverem configurados para rotear para a Unificação de mensagens (UM) do Exchange.
+  - Aplicativo de grupo de **resposta**     O aplicativo grupo de resposta é um dos aplicativos de comunicações unificadas hospedados pelo serviço de aplicativo. Quando um intervalo de números de telefone não atribuído é configurado para rotear para um comunicado, o aplicativo grupo de resposta é necessário para rotear as chamadas feitas para o número de telefone. (O aplicativo grupo de resposta não é necessário se todos os intervalos estiverem configurados para rotear para a Unificação de mensagens (UM) do Exchange.
 
-  - ****   Arquivos de áudio os arquivos de áudio são usados para os comunicados.
+  - **Arquivos**     de áudio Os arquivos de áudio são usados para os comunicados.
 
-  - **Repositório de arquivos**   o aplicativo de comunicado usa o repositório de arquivos para armazenar seus arquivos de áudio.
+  - **Repositório**     de arquivos O aplicativo de anúncio usa o repositório de arquivos para armazenar seus arquivos de áudio.
 
-  - **Painel de controle do Lync Server**   você pode usar o painel de controle do Lync Server para configurar a tabela de número não atribuído.
+  - Painel de controle **do Lync Server**     Você pode usar o painel de controle do Lync Server para configurar a tabela de número não atribuído.
 
-  - **Shell de gerenciamento do Lync Server**   você pode usar os cmdlets do Shell de gerenciamento do Lync Server para definir as configurações de anúncio e a tabela de número não atribuído.
+  - Shell de gerenciamento **do Lync Server**     Você pode usar os cmdlets do Shell de gerenciamento do Lync Server para definir as configurações de anúncio e a tabela de número não atribuído.
 
 </div>
 

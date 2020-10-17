@@ -12,20 +12,22 @@ ms:contentKeyID: 48183418
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e93985818c62b195227323f4c0f6d5030db1f16f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5bd0776468b4b5dbbca4c8d2c98f6be02491b6d5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190874"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516338"
 ---
+# <a name="delegating-administrative-control-of-lync-server-2013"></a>Delegando o controle administrativo do Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="delegating-administrative-control-of-lync-server-2013"></a>Delegando o controle administrativo do Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42190874"
 
 _**Última modificação do tópico:** 2013-02-22_
 
-No Lync Server 2013, as tarefas administrativas são delegadas aos usuários usando o novo recurso de controle de acesso baseado em função (RBAC). Quando você instala o Lync Server, várias funções do RBAC são criadas para você. Essas funções correspondem a grupos de segurança universais nos serviços de domínio do Active Directory. Por exemplo, a função RBAC CsHelpDesk corresponde ao grupo CsHelpDesk encontrado no contêiner usuários nos serviços de domínio do Active Directory. Além disso, cada função RBAC é associada a um conjunto de cmdlets do Windows PowerShell do Lync Server. Esses cmdlets representam as tarefas que podem ser executadas por usuários aos quais a função RBAC determinada foi atribuída. Por exemplo, a função CsHelpDesk recebeu os cmdlets Lock-CsClientPin e UnlockCsClientPin. Isso significa que os usuários que receberam a função CsHelpDesk podem bloquear e desbloquear números de PIN do usuário. No entanto, a função CsHelpDesk não recebeu a atribuição do cmdlet New-CsVoicePolicy. Isso significa que os usuários que receberam a função CsHelpDesk não podem criar novas políticas de voz.
+No Lync Server 2013, as tarefas administrativas são delegadas aos usuários usando o novo recurso de controle de acesso baseado em função (RBAC). Quando você instala o Lync Server, várias funções do RBAC são criadas para você. Essas funções correspondem a grupos de segurança universais nos serviços de domínio do Active Directory. Por exemplo, a função RBAC CsHelpDesk corresponde ao grupo CsHelpDesk encontrado no contêiner usuários nos serviços de domínio do Active Directory. Além disso, cada função RBAC é associada a um conjunto de cmdlets do Windows PowerShell do Lync Server. Esses cmdlets representam as tarefas que podem ser executadas por usuários aos quais a função RBAC determinada foi atribuída. Por exemplo, a função CsHelpDesk foi atribuída aos cmdlets Lock-CsClientPin e UnlockCsClientPin. Isso significa que os usuários que receberam a função CsHelpDesk podem bloquear e desbloquear números de PIN do usuário. No entanto, a função CsHelpDesk não recebeu a atribuição do cmdlet New-CsVoicePolicy. Isso significa que os usuários que receberam a função CsHelpDesk não podem criar novas políticas de voz.
 
 <div>
 

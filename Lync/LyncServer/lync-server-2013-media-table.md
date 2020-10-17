@@ -12,20 +12,22 @@ ms:contentKeyID: 48183568
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8c833ab255741b6a2f28ce9d72f46226c42baea3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 369e1ace7e0f3f9326896373a640597360ded81d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217607"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516168"
 ---
+# <a name="media-table-in-lync-server-2013"></a>Tabela de mídia no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="media-table-in-lync-server-2013"></a>Tabela de mídia no Lync Server 2013
+
 
 </div>
 
@@ -69,7 +71,7 @@ Cada registro representa um tipo de mídia usado em uma sessão ponto a ponto. U
 <tr class="odd">
 <td><p><strong>Identificação_da_sessãotime</strong></p></td>
 <td><p>datetime</p></td>
-<td><p>Primário, externo</p></td>
+<td><p>Primário, Estrangeiro</p></td>
 <td><p>Tempo da solicitação de sessão. Usado em conjunto com <strong>SessionIdSeq</strong> para identificar exclusivamente uma sessão. Consulte a <a href="lync-server-2013-dialogs-table.md">tabela diálogos no Lync Server 2013</a> para obter mais informações.</p></td>
 </tr>
 <tr class="even">

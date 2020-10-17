@@ -12,20 +12,22 @@ ms:contentKeyID: 49557733
 ms.date: 09/11/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8e3c6c79254ca55d668266fbcbd31d3861e8bb66
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d29ef93df09a6c8d4ffde407bc684e05f8d96474
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191694"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516628"
 ---
+# <a name="customizing-the-xslt-definition-file-in-lync-server-2013"></a>Personalizando o arquivo de definição do XSLT no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="customizing-the-xslt-definition-file-in-lync-server-2013"></a>Personalizando o arquivo de definição do XSLT no Lync Server 2013
+
 
 </div>
 
@@ -157,7 +159,7 @@ Cada elemento Sender contém cinco atributos: nome de usuário, identificação,
 <td><p>Opcional</p></td>
 </tr>
 <tr class="even">
-<td><p>Interna</p></td>
+<td><p>Interno</p></td>
 <td><p>Determina se o usuário é um usuário interno ou um usuário federado. Se o valor for definido como true, o usuário será interno.</p></td>
 <td><p>Opcional</p></td>
 </tr>

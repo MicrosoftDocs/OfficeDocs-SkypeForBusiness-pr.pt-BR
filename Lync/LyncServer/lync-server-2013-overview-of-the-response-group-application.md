@@ -12,20 +12,22 @@ ms:contentKeyID: 48184453
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 007d6b21ab37aee16ae8c98b202bd3900f4dab45
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 31c2d15b8a50a67b70b320afc8da5dfdc83d2cc3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215857"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516088"
 ---
+# <a name="overview-of-the-response-group-application-in-lync-server-2013"></a>Visão geral do aplicativo grupo de resposta no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-the-response-group-application-in-lync-server-2013"></a>Visão geral do aplicativo grupo de resposta no Lync Server 2013
+
 
 </div>
 
@@ -86,7 +88,7 @@ Para acomodar a nova função gerente, o aplicativo de grupo de resposta do Lync
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>Gerenciados</p></td>
+<td><p>Gerenciado</p></td>
 <td><ul>
 <li><p>Os administradores do grupo de resposta podem configurar qualquer aspecto de grupos de respostas gerenciados.</p></li>
 <li><p>Os gerentes do grupo de resposta não podem exibir nem modificar grupos de respostas que não sejam explicitamente atribuídos a eles.</p></li>
@@ -118,7 +120,7 @@ A tabela a seguir descreve as ações que os gerentes de grupo de resposta podem
 <tbody>
 <tr class="odd">
 <td><ul>
-<li><p>SNMP</p></li>
+<li><p>Agentes</p></li>
 <li><p>Mensagem de boas-vindas</p></li>
 <li><p>Nome do grupo de resposta</p></li>
 <li><p>Descrição</p></li>

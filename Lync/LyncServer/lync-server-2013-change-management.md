@@ -12,20 +12,22 @@ ms:contentKeyID: 63969618
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 39488d423457c01102d6af3c4d5bbfaf6962e2c3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2207dc527f73393c867f1aced8c8fceb2c4c6941
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205387"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517838"
 ---
+# <a name="change-management-in-lync-server-2013"></a>Gerenciamento de alterações no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="change-management-in-lync-server-2013"></a>Gerenciamento de alterações no Lync Server 2013
+
 
 </div>
 
@@ -39,39 +41,39 @@ _**Última modificação do tópico:** 2014-08-18_
 
 As alterações no ambiente de ti são desevitadas. As alterações incluem novas tecnologias, sistemas, aplicativos, hardware, ferramentas, processos e alterações em funções e responsabilidades. Um sistema eficaz de gerenciamento de alterações permite introduzir alterações no ambiente de ti rapidamente e com interrupção mínima do serviço. Um sistema de gerenciamento de alterações reúne as equipes envolvidas na alteração de um sistema. Por exemplo, a decisão de aproveitar o Office Web Apps. Este é um aplicativo de serviço do Lync integrado que permite que os usuários leiam e editem documentos em um navegador. A implementação desse serviço, depois que você tiver entrado em produção, requer o envolvimento de várias equipes:
 
-  - **Equipe de teste**   esta equipe testa o Office Web Apps em um servidor de teste, no processo que fornece informações sobre os padrões de uso esperados e o desempenho esperado dos servidores de produção.
+  - **Equipe**     de teste Esta equipe realiza testes de carga do Office Web Apps em um servidor de teste, no processo que fornece informações sobre os padrões de uso esperados e o desempenho esperado dos servidores de produção.
 
-  - **Administradores do Lync**   essa equipe determina a estratégia de implantação e os scripts a instalação em que era possível. A equipe é responsável por garantir que a alteração seja implantada no ambiente de produção e seja responsável pela administração posteriormente. A equipe deve entender o efeito das alterações e incorporá-las aos procedimentos antes que as alterações sejam colocadas em produção
+  - **Administradores**     do Lync Essa equipe determina a estratégia de implantação e os scripts que a instalação era possível. A equipe é responsável por garantir que a alteração seja implantada no ambiente de produção e seja responsável pela administração posteriormente. A equipe deve entender o efeito das alterações e incorporá-las aos procedimentos antes que as alterações sejam colocadas em produção
 
-  - **Equipe de rede**   essa equipe é responsável por alterações nas regras de firewall que permitem o acesso da Internet aos servidores internos do pool do Lync. A equipe também é responsável por trabalhar com os administradores do Lync para garantir que a largura de banda disponível possa oferecer suporte à carga adicional.
+  - **Equipe**     de rede Essa equipe é responsável por alterações nas regras de firewall que permitem o acesso da Internet aos servidores internos do pool do Lync. A equipe também é responsável por trabalhar com os administradores do Lync para garantir que a largura de banda disponível possa oferecer suporte à carga adicional.
 
-  - **Equipe de segurança**   essa equipe avalia a segurança e minimiza os riscos. A equipe de segurança deve revisar vulnerabilidades conhecidas e ajudar a garantir que os riscos de segurança sejam minimizados.
+  - **Equipe**     de segurança Essa equipe avalia a segurança e minimiza os riscos. A equipe de segurança deve revisar vulnerabilidades conhecidas e ajudar a garantir que os riscos de segurança sejam minimizados.
 
-  - **Equipe de aceitação do usuário**   essa equipe é composta de usuários que desejam testar o sistema e oferecer feedback para melhorias.
+  - Equipe de aceitação do **usuário**     Essa equipe é composta de usuários que desejam testar o sistema e oferecer comentários sobre melhorias.
 
 O processo de gerenciamento de alterações define as responsabilidades de cada equipe e agenda o trabalho a ser executado, incorporando verificações e testes onde eles são necessários. Os controles de alteração irão variar dependendo da complexidade e do efeito esperado de uma alteração. Eles podem variar de acordo com a aprovação automática de pequenas alterações, para alterar as reuniões de revisão, para revisões completas no nível do projeto. Para explicar isso melhor, os grupos de alterações são discutidos nesta seção.
 
-  - **Alterações**   principais as principais alterações têm um efeito global no sistema e podem exigir entrada de várias equipes. Um exemplo disso é a atualização para o Lync Server 2013. Alterações principais afetam muitas equipes e, talvez, sistemas diferentes. O processo de gerenciamento de alterações provavelmente incluirá uma ou mais reuniões de revisão de alteração para informar as equipes que serão envolvidas na alteração ou que serão afetadas pela alteração.
+  - **Alterações principais**     As principais alterações têm um efeito global no sistema e podem exigir entradas de várias equipes. Um exemplo disso é a atualização para o Lync Server 2013. Alterações principais afetam muitas equipes e, talvez, sistemas diferentes. O processo de gerenciamento de alterações provavelmente incluirá uma ou mais reuniões de revisão de alteração para informar as equipes que serão envolvidas na alteração ou que serão afetadas pela alteração.
 
-  - **Alterações significativas alterações**   significativas exigem recursos significativos para planejar, criar e implementar. Os controles de alteração apropriados devem ser introduzidos para ajudar a garantir que o efeito da alteração seja compreendido, que os procedimentos de implantação sejam testados e que os planos de reversão e contingência estejam prontos. Um exemplo de uma alteração significativa é a implantação de uma nova atualização cumulativa.
+  - **Alterações significativas**     Alterações significativas exigem recursos significativos para planejar, criar e implementar. Os controles de alteração apropriados devem ser introduzidos para ajudar a garantir que o efeito da alteração seja compreendido, que os procedimentos de implantação sejam testados e que os planos de reversão e contingência estejam prontos. Um exemplo de uma alteração significativa é a implantação de uma nova atualização cumulativa.
 
-  - **Alterações secundárias**   as alterações secundárias não afetam significativamente o ambiente de ti, por exemplo, alterando determinadas políticas do Lync por meio do painel de controle do Microsoft Lync Server 2013.
+  - **Alterações**     secundárias Alterações secundárias não afetam significativamente o ambiente de ti, por exemplo, alterando determinadas políticas do Lync por meio do painel de controle do Microsoft Lync Server 2013.
 
-  - **Alterações padrão as**   alterações padrão são realizadas regularmente e são bem compreendidas e documentadas. O processo de gerenciamento de alterações deve revisar todas as alterações nos procedimentos. Ele não deve ser necessário para alterações rotineiras, como criar um banco de dados de conteúdo ou adicionar um usuário.
+  - **Alterações padrão**     As alterações padrão são realizadas regularmente e são bem compreendidas e documentadas. O processo de gerenciamento de alterações deve revisar todas as alterações nos procedimentos. Ele não deve ser necessário para alterações rotineiras, como criar um banco de dados de conteúdo ou adicionar um usuário.
 
 O exemplo a seguir do gerenciamento de alterações examina como as diferentes equipes interagem e as ações que são executadas quando um novo Service Pack é implantado. Essas ações são organizadas e gerenciadas pelo processo de gerenciamento de alterações.
 
-  - **Gerar uma solicitação**   de alteração a equipe de segurança avaliou o Service Pack mais recente e confirmou que ele resolve uma possível vulnerabilidade no sistema de produção. A equipe levanta uma solicitação de alteração para que a nova atualização cumulativa seja aplicada a todos os servidores que executam o Lync Server.
+  - **Gerar uma solicitação**     de alteração A equipe de segurança avaliou o Service Pack mais recente e confirmou que ele resolve uma possível vulnerabilidade no sistema de produção. A equipe levanta uma solicitação de alteração para que a nova atualização cumulativa seja aplicada a todos os servidores que executam o Lync Server.
 
-  - **Notas de versão do Service Pack revise**   a equipe de administrador do Lync revisa as notas de versão do Service Pack para identificar o efeito no sistema.
+  - Análise das notas de **versão do Service Pack**     A equipe do administrador do Lync revisa as notas de versão do Service Pack para identificar o efeito no sistema.
 
-  - **Uma série de testes de laboratório é realizada**   a equipe do administrador do Lync deve executar atualizações de teste em um servidor em um ambiente de teste para decidir se o Service Pack pode ser aplicado com êxito sem afetar nenhum dos aplicativos e sistemas de servidor instalados. Se houver aplicativos de terceiros ou criados internamente que fazem interface com o Lync Server em um ambiente de produção, eles também devem ser testados. Esses testes também podem ser usados para estimar o tempo necessário para executar as atualizações.
+  - **Uma série de testes de laboratório é realizada**     A equipe do administrador do Lync deve realizar atualizações de teste em um servidor em um ambiente de teste para decidir se o Service Pack pode ser aplicado com êxito sem afetar nenhum dos aplicativos e sistemas de servidor instalados. Se houver aplicativos de terceiros ou criados internamente que fazem interface com o Lync Server em um ambiente de produção, eles também devem ser testados. Esses testes também podem ser usados para estimar o tempo necessário para executar as atualizações.
 
-  - **Os usuários são informados sobre a interrupção**   que a equipe do administrador do Lync, a equipe de comunicações ou o suporte técnico do usuário informa todos os usuários afetados sobre o ciclo de manutenção planejado e quanto tempo o serviço estará indisponível.
+  - **Os usuários são informados sobre a interrupção**     A equipe do administrador do Lync, a equipe de comunicações ou o suporte técnico do usuário informa todos os usuários afetados sobre o ciclo de manutenção planejado e quanto tempo o serviço estará indisponível.
 
-  - **Um backup completo do Lync é executado antes da atualização**   a equipe do administrador do Lync deve verificar se há um backup válido que pode ser usado para reverter para o estado do sistema original se a instalação do Service Pack falhar. Recomendamos que o backup seja restaurado para um servidor em espera para que esse sistema fique disponível imediatamente se houver problemas.
+  - **Um backup completo do Lync é executado antes da atualização**     A equipe de administrador do Lync deve verificar se há um backup válido que pode ser usado para reverter para o estado do sistema original se a instalação do Service Pack falhar. Recomendamos que o backup seja restaurado para um servidor em espera para que esse sistema fique disponível imediatamente se houver problemas.
 
-  - **A atualização cumulativa é implantada**   a equipe do administrador do Lync faz a instalação durante o ciclo de manutenção planejado.
+  - **A atualização cumulativa está implantada**     A equipe do administrador do Lync faz a instalação durante o ciclo de manutenção planejado.
 
 <div>
 

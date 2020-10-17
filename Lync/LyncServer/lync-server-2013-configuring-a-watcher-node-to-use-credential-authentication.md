@@ -12,20 +12,22 @@ ms:contentKeyID: 48183255
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3ee0d5a07ebd04e6eec585c79eb13b9be7fe98a6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4e05ac48896b50b4b83e4211a5036f6a6d513d43
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199504"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517684"
 ---
+# <a name="configuring-a-watcher-node-to-use-credential-authentication-in-lync-server-2013"></a>Configurando um nó do inspetor para usar a autenticação de credenciais no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-a-watcher-node-to-use-credential-authentication-in-lync-server-2013"></a>Configurando um nó do inspetor para usar a autenticação de credenciais no Lync Server 2013
+
 
 </div>
 
@@ -73,7 +75,7 @@ Reinicie o computador no nó do inspetor.
 
 ## <a name="installing-the-watcher-node-configuration-files"></a>Instalando os Arquivos de Configuração no Nó do Inspetor
 
-Após a reinicialização do computador no nó de inspetor, sua próxima etapa será executar o arquivo Watchernode.msi. Para executar esse arquivo, abra o Shell de gerenciamento do Lync Server 2013 clicando em **Iniciar**, em **todos os programas**, em **Lync Server 2013**e em **Shell de gerenciamento do Lync Server**. No Shell de gerenciamento do Lync Server, digite o seguinte comando e pressione ENTER (tenha certeza e especifique o caminho real para a sua cópia do Watchernode. msi):
+Após a reinicialização do computador no nó de inspetor, sua próxima etapa será executar o arquivo Watchernode.msi. Para executar esse arquivo, abra o Shell de gerenciamento do Lync Server 2013 clicando em **Iniciar**, em **todos os programas**, em **Lync Server 2013**e em **Shell de gerenciamento do Lync Server**. No Shell de gerenciamento do Lync Server, digite o seguinte comando e pressione ENTER (tenha certeza e especifique o caminho real para a sua cópia do Watchernode.msi):
 
     C:\Tools\Watchernode.msi Authentication=Negotiate
 

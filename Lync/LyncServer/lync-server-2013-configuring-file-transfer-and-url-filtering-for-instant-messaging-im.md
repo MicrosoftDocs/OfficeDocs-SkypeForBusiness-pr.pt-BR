@@ -12,20 +12,22 @@ ms:contentKeyID: 48183440
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a0f9968b6154b281126430b87b7ae4ac98aa4b0a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: bad134c770300820bd4fb6bd2d72e648b5f34777
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202927"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517508"
 ---
+# <a name="configuring-file-transfer-and-url-filtering-for-instant-messaging-im-in-lync-server-2013"></a>Configurando a transferência de arquivos e a filtragem de URL para mensagens instantâneas (IM) no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-file-transfer-and-url-filtering-for-instant-messaging-im-in-lync-server-2013"></a>Configurando a transferência de arquivos e a filtragem de URL para mensagens instantâneas (IM) no Lync Server 2013
+
 
 </div>
 
@@ -91,7 +93,7 @@ Quando uma mensagem instantânea passa de um servidor para outro, as seguintes d
 
 Os URLs são filtrados de acordo com seu prefixo do hiperlink. Os exemplos a seguir são prefixos válidos:
 
-  - www\*.
+  - www \* .
 
   - FTP.
 
@@ -99,9 +101,9 @@ Os URLs são filtrados de acordo com seu prefixo do hiperlink. Os exemplos a seg
 
 Se você não configurar o filtro de mensagem instantânea para realizar o filtro de URL, todos os URLs presentes em mensagens instantâneas passam pelo servidor sem serem modificados. Porém, se você configurá-lo para realizar o filtro de URL, os URLs presentes em mensagens instantâneas são filtrados de acordo com as opções que você selecionou nas caixas de diálogo **Editar Filtro de URL** ou **Novo Filtro de URL**.
 
-  - **Habilitar filtro**   de URL essa opção habilita a filtragem de URL para a implantação global ou para o site que você selecionar.
+  - **Habilitar filtro**     de URL Essa opção habilita a filtragem de URL para a implantação global ou para o site que você selecionar.
 
-  - **Bloquear URLs com extensão**   de arquivo o filtro de mensagens instantâneas bloqueia qualquer URL ativa de intranet ou Internet que contenha um arquivo com uma extensão listada em **extensões de tipo de arquivo a serem bloqueadas** na caixa de diálogo **Editar Filtro de arquivo** . Quando um URL é bloqueado, uma mensagem de erro é exibida para o remetente. Quando selecionada, essa opção busca precedência em todas as outras opções de filtro para quaisquer extensões de arquivos definidas em **Extensões de tipos de arquivos a serem bloqueadas**.
+  - **Bloquear URLs com extensão**     de arquivo O filtro de mensagem instantânea bloqueia qualquer URL ativa de intranet ou Internet que contenha um arquivo com uma extensão listada em **extensões de tipo de arquivo a serem bloqueadas** na caixa de diálogo **Editar Filtro de arquivo** . Quando um URL é bloqueado, uma mensagem de erro é exibida para o remetente. Quando selecionada, essa opção busca precedência em todas as outras opções de filtro para quaisquer extensões de arquivos definidas em **Extensões de tipos de arquivos a serem bloqueadas**.
     
     <div>
     
@@ -114,19 +116,19 @@ Se você não configurar o filtro de mensagem instantânea para realizar o filtr
 
 Para configurar como hiperlinks são manuseados em conversas de mensagem instantânea, selecione uma das opções a seguir em **Prefixo de hiperlink**:
 
-  - **Não filtra**   URLs em mensagens são enviadas pelo servidor. Quando você escolhe essa opção, a caixa **Permitir mensagem** aparece. Na caixa **Permitir mensagem**, especifique o aviso que você quer inserir no começo de cada mensagem instantânea que contenha hiperlinks. Esse aviso não pode ter mais que 65535 caracteres.
+  - Não **Filtrar**     As URLs nas mensagens são enviadas pelo servidor. Quando você escolhe essa opção, a caixa **Permitir mensagem** aparece. Na caixa **Permitir mensagem**, especifique o aviso que você quer inserir no começo de cada mensagem instantânea que contenha hiperlinks. Esse aviso não pode ter mais que 65535 caracteres.
 
-  - **Bloquear hiperlinks**   a entrega de mensagens instantâneas contendo hiperlinks ativos é bloqueada pelo Lync Server e uma mensagem de erro é exibida para o remetente.
+  - **Bloquear hiperlinks**     A entrega de mensagens instantâneas contendo hiperlinks ativos é bloqueada pelo Lync Server e uma mensagem de erro é exibida para o remetente.
 
-  - **Enviar mensagem**   de aviso o Lync Server permite hiperlinks ativos em mensagens instantâneas, mas inclui um aviso. Quando você escolhe essa opção, a caixa de **mensagem de aviso** é exibida. Na caixa de **mensagem de aviso** , você deve digitar o aviso que deseja incluir com mensagens instantâneas contendo hiperlinks válidos. Por exemplo, este aviso pode declarar os possíveis perigos de clicar em um link desconhecido ou pode consultar as políticas e os requisitos relevantes da sua organização. O aviso não pode ter mais de 65535 caracteres.
+  - **Enviar mensagem**     de aviso O Lync Server permite hiperlinks ativos em mensagens instantâneas, mas inclui um aviso. Quando você escolhe essa opção, a caixa de **mensagem de aviso** é exibida. Na caixa de **mensagem de aviso** , você deve digitar o aviso que deseja incluir com mensagens instantâneas contendo hiperlinks válidos. Por exemplo, este aviso pode declarar os possíveis perigos de clicar em um link desconhecido ou pode consultar as políticas e os requisitos relevantes da sua organização. O aviso não pode ter mais de 65535 caracteres.
 
 Se você selecionar **Bloquear hiperlinks** ou **Enviar mensagem de aviso**, as seguintes opções estarão disponíveis:
 
-  - **Excluir hiperlinks da intranet local**   o filtro de mensagens instantâneas bloqueia apenas URLs da Internet. Os URLs para locais dentro da sua intranet passam pelo servidor sem serem modificados. No entanto, as URLs de intranet que os servidores individuais que executam o Lync Server passam dependem de quais tipos de sites locais são considerados parte da zona da intranet. Para verificar as configurações da zona da intranet de um servidor, consulte o procedimento "para definir suas configurações de intranet no Internet Explorer" em [Modificar o filtro de URL padrão no Lync server 2013](lync-server-2013-modify-the-default-url-filter.md).
+  - **Excluir hiperlinks**     da intranet local O filtro de mensagens instantâneas bloqueia apenas URLs da Internet. Os URLs para locais dentro da sua intranet passam pelo servidor sem serem modificados. No entanto, as URLs de intranet que os servidores individuais que executam o Lync Server passam dependem de quais tipos de sites locais são considerados parte da zona da intranet. Para verificar as configurações da zona da intranet de um servidor, consulte o procedimento "para definir suas configurações de intranet no Internet Explorer" em [Modificar o filtro de URL padrão no Lync server 2013](lync-server-2013-modify-the-default-url-filter.md).
 
-  - **Filtre esses prefixos**   de hiperlink para escolher quais prefixos deseja bloquear, clique em **selecionar**e, em **selecionar prefixo de hiperlink**, adicione os prefixos à lista de **prefixos de hiperlink** .
+  - **Filtrar esses prefixos**     de hiperlink Para escolher quais prefixos você deseja bloquear, clique em **selecionar**e, em **selecionar prefixo de hiperlink**, adicione os prefixos à lista de **prefixos de hiperlink** .
     
-    Todos os prefixos, exceto **href** devem terminar com ponto ou dois pontos, ou com um asterisco seguido por um ponto. Os prefixos válidos podem conter quaisquer caracteres no conjunto de caracteres de URL válidos, exceto\*o asterisco (). O conjunto de caracteres válidos da URL é \# \*: +/0123456789 = @ABCDEFGHIJKLMNOPQRSTUVWXYZ\_ \` ^ abcdefghijklmnopqrstuvwxyz | ~
+    Todos os prefixos, exceto **href** devem terminar com ponto ou dois pontos, ou com um asterisco seguido por um ponto. Os prefixos válidos podem conter quaisquer caracteres no conjunto de caracteres de URL válidos, exceto o asterisco ( \* ). O conjunto de caracteres válidos da URL é: \# \* +/0123456789 = @ABCDEFGHIJKLMNOPQRSTUVWXYZ ^ \_ \` abcdefghijklmnopqrstuvwxyz | ~
 
 </div>
 
@@ -148,13 +150,13 @@ O filtro de transferência de arquivo afeta as mensagens instantâneas e as conf
 
 Você pode filtrar transferências de arquivos durante as conversas com mensagens instantâneas, quando você estiver usando um recurso de folheto no cliente do Office Live Meeting 2007 e para recursos de reprodução de multimídia para todos os tipos de arquivo. Você pode definir as seguintes opções para controlar arquivos de transferência:
 
-  - **Habilitar filtro**   de arquivo essa opção habilita a filtragem de arquivo para a implantação global ou para o site que você selecionar.
+  - **Habilitar filtro**     de arquivo Essa opção habilita a filtragem de arquivos para a implantação global ou para o site que você selecionar.
     
     Quando você habilita o filtro de arquivo, você pode escolher uma das opções a seguir na **Transferência de arquivo**:
     
-      - **Bloquear tipos**   de arquivos específicos você especifica quais solicitações de transferência de arquivo serão filtradas pelo servidor, especificando uma lista de extensões de arquivo a serem bloqueadas. As entradas na lista podem conter todos os caracteres padrão, mas não o caractere curinga\*(). No cliente do Office Live Meeting 2007 o recurso de folheto está habilitado, mas nenhum arquivo com essa extensão pode ser carregado ou baixado. Se você marcar a caixa de seleção **Bloquear URLs com extensão de arquivo** nas configurações listadas na guia **Filtro de URL**, o filtro de URL usa essa mesma lista para bloquear hiperlinks ativos que contenham qualquer uma dessas extensões de arquivos. Para escolher quais tipos de arquivos você quer bloquear, clique em **Selecionar**, depois clique em **Selecionar Tipo de Arquivo**, e adicione as extensões de tipos de arquivos à lista **Extensões de tipos de arquivos selecionadas**.
+      - **Bloquear tipos**     de arquivo específicos Especifique quais solicitações de transferência de arquivo serão filtradas pelo servidor, especificando uma lista de extensões de arquivo a serem bloqueadas. As entradas na lista podem conter todos os caracteres padrão, mas não o caractere curinga ( \* ). No cliente do Office Live Meeting 2007 o recurso de folheto está habilitado, mas nenhum arquivo com essa extensão pode ser carregado ou baixado. Se você marcar a caixa de seleção **Bloquear URLs com extensão de arquivo** nas configurações listadas na guia **Filtro de URL**, o filtro de URL usa essa mesma lista para bloquear hiperlinks ativos que contenham qualquer uma dessas extensões de arquivos. Para escolher quais tipos de arquivos você quer bloquear, clique em **Selecionar**, depois clique em **Selecionar Tipo de Arquivo**, e adicione as extensões de tipos de arquivos à lista **Extensões de tipos de arquivos selecionadas**.
     
-      - **Bloquear todos**   os servidores descartam todas as mensagens instantâneas que contêm solicitações de transferência de arquivos e retornam uma mensagem de erro ao remetente da solicitação. O recurso de folheto do cliente do Office Live Meeting 2007 será desabilitado.
+      - **Bloquear tudo**     O servidor descarta todas as mensagens instantâneas que contêm solicitações de transferência de arquivo e retorna uma mensagem de erro ao remetente da solicitação. O recurso de folheto do cliente do Office Live Meeting 2007 será desabilitado.
 
 <div>
 
