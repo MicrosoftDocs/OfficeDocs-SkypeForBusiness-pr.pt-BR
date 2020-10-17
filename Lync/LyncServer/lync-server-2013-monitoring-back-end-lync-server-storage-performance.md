@@ -1,5 +1,6 @@
 ---
 title: 'Lync Server 2013: monitorando o desempenho de armazenamento do Lync Server do back-end'
+description: 'Lync Server 2013: monitorando o desempenho de armazenamento de back-end do Lync Server.'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 63969619
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: aad04524df22c9d299b4a871b580330052d2aa5b
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: e7501418d3589b941b7e92d2b414492c1d27a3ee
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48531948"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48562067"
 ---
-# <a name="monitoring-back-end-lync-server-2013-storage-performance"></a><span data-ttu-id="fa1c1-102">Monitorando o desempenho de armazenamento do Lync Server 2013 de back-end</span><span class="sxs-lookup"><span data-stu-id="fa1c1-102">Monitoring back end Lync Server 2013 storage performance</span></span>
+# <a name="monitoring-back-end-lync-server-2013-storage-performance"></a><span data-ttu-id="1c80c-103">Monitorando o desempenho de armazenamento do Lync Server 2013 de back-end</span><span class="sxs-lookup"><span data-stu-id="1c80c-103">Monitoring back end Lync Server 2013 storage performance</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,13 +38,13 @@ ms.locfileid: "48531948"
 
 <span> </span>
 
-<span data-ttu-id="fa1c1-103">_**Última modificação do tópico:** 2014-05-02_</span><span class="sxs-lookup"><span data-stu-id="fa1c1-103">_**Topic Last Modified:** 2014-05-02_</span></span>
+<span data-ttu-id="1c80c-104">_**Última modificação do tópico:** 2014-05-02_</span><span class="sxs-lookup"><span data-stu-id="1c80c-104">_**Topic Last Modified:** 2014-05-02_</span></span>
 
-<span data-ttu-id="fa1c1-104">Os bancos de dados de back-end do Lync Server 2013 são uma parte muito importante da implantação do Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="fa1c1-104">The Lync Server 2013 back-end databases are a very important part of the Lync Server 2013 deployment.</span></span> <span data-ttu-id="fa1c1-105">Recomendamos monitorar constantemente os bancos de dados e os respectivos logs de transações para ajudar a garantir que o back-end do Lync Server 2013 seja executado de forma ideal.</span><span class="sxs-lookup"><span data-stu-id="fa1c1-105">We recommend constantly monitoring the databases and respective transaction logs to help to make sure that the Lync Server 2013 back end is performing optimally.</span></span>
+<span data-ttu-id="1c80c-105">Os bancos de dados de back-end do Lync Server 2013 são uma parte muito importante da implantação do Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="1c80c-105">The Lync Server 2013 back-end databases are a very important part of the Lync Server 2013 deployment.</span></span> <span data-ttu-id="1c80c-106">Recomendamos monitorar constantemente os bancos de dados e os respectivos logs de transações para ajudar a garantir que o back-end do Lync Server 2013 seja executado de forma ideal.</span><span class="sxs-lookup"><span data-stu-id="1c80c-106">We recommend constantly monitoring the databases and respective transaction logs to help to make sure that the Lync Server 2013 back end is performing optimally.</span></span>
 
-<span data-ttu-id="fa1c1-106">A tabela a seguir identifica contadores de desempenho que devem ser monitorados para obter informações sobre o desempenho de armazenamento.</span><span class="sxs-lookup"><span data-stu-id="fa1c1-106">The following table identifies performance counters that should be monitored to learn information about Storage Performance.</span></span> <span data-ttu-id="fa1c1-107">Os valores de linha de base desses contadores devem ser determinados primeiro (quando o sistema está em sua carga normal e esperada) para entender as alterações de desempenho quando o sistema é testado.</span><span class="sxs-lookup"><span data-stu-id="fa1c1-107">The baseline values for these counters must be determined first (when system is at its normal, expected load) to understand the performance changes when system is stressed.</span></span>
+<span data-ttu-id="1c80c-107">A tabela a seguir identifica contadores de desempenho que devem ser monitorados para obter informações sobre o desempenho de armazenamento.</span><span class="sxs-lookup"><span data-stu-id="1c80c-107">The following table identifies performance counters that should be monitored to learn information about Storage Performance.</span></span> <span data-ttu-id="1c80c-108">Os valores de linha de base desses contadores devem ser determinados primeiro (quando o sistema está em sua carga normal e esperada) para entender as alterações de desempenho quando o sistema é testado.</span><span class="sxs-lookup"><span data-stu-id="1c80c-108">The baseline values for these counters must be determined first (when system is at its normal, expected load) to understand the performance changes when system is stressed.</span></span>
 
-### <a name="performance-counters-to-be-monitored"></a><span data-ttu-id="fa1c1-108">Contadores de desempenho a serem monitorados</span><span class="sxs-lookup"><span data-stu-id="fa1c1-108">Performance counters to be monitored</span></span>
+### <a name="performance-counters-to-be-monitored"></a><span data-ttu-id="1c80c-109">Contadores de desempenho a serem monitorados</span><span class="sxs-lookup"><span data-stu-id="1c80c-109">Performance counters to be monitored</span></span>
 
 <table>
 <colgroup>
@@ -52,49 +53,49 @@ ms.locfileid: "48531948"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="fa1c1-109">Contador de Desempenho</span><span class="sxs-lookup"><span data-stu-id="fa1c1-109">Performance Counter</span></span></th>
-<th><span data-ttu-id="fa1c1-110">Limites da linha de base</span><span class="sxs-lookup"><span data-stu-id="fa1c1-110">Baseline thresholds</span></span></th>
+<th><span data-ttu-id="1c80c-110">Contador de Desempenho</span><span class="sxs-lookup"><span data-stu-id="1c80c-110">Performance Counter</span></span></th>
+<th><span data-ttu-id="1c80c-111">Limites da linha de base</span><span class="sxs-lookup"><span data-stu-id="1c80c-111">Baseline thresholds</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="fa1c1-111">Transações/seg (RTC)</span><span class="sxs-lookup"><span data-stu-id="fa1c1-111">Transactions/sec (RTC)</span></span></p></td>
+<td><p><span data-ttu-id="1c80c-112">Transações/seg (RTC)</span><span class="sxs-lookup"><span data-stu-id="1c80c-112">Transactions/sec (RTC)</span></span></p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="fa1c1-112">Transações/s (RTCDyn)</span><span class="sxs-lookup"><span data-stu-id="fa1c1-112">Transactions/sec (rtcdyn)</span></span></p></td>
+<td><p><span data-ttu-id="1c80c-113">Transações/s (RTCDyn)</span><span class="sxs-lookup"><span data-stu-id="1c80c-113">Transactions/sec (rtcdyn)</span></span></p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="fa1c1-113">Transações/s (tempdb)</span><span class="sxs-lookup"><span data-stu-id="fa1c1-113">Transactions/sec (tempdb)</span></span></p></td>
+<td><p><span data-ttu-id="1c80c-114">Transações/s (tempdb)</span><span class="sxs-lookup"><span data-stu-id="1c80c-114">Transactions/sec (tempdb)</span></span></p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="fa1c1-114">Liberações de log/s (RTC)</span><span class="sxs-lookup"><span data-stu-id="fa1c1-114">Log Flushes/sec (RTC)</span></span></p></td>
+<td><p><span data-ttu-id="1c80c-115">Liberações de log/s (RTC)</span><span class="sxs-lookup"><span data-stu-id="1c80c-115">Log Flushes/sec (RTC)</span></span></p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="fa1c1-115">Liberações de log/s (RTCDyn)</span><span class="sxs-lookup"><span data-stu-id="fa1c1-115">Log Flushes/sec (rtcdyn)</span></span></p></td>
+<td><p><span data-ttu-id="1c80c-116">Liberações de log/s (RTCDyn)</span><span class="sxs-lookup"><span data-stu-id="1c80c-116">Log Flushes/sec (rtcdyn)</span></span></p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="fa1c1-116">Liberações de log/s (tempdb)</span><span class="sxs-lookup"><span data-stu-id="fa1c1-116">Log Flushes/sec (tempdb)</span></span></p></td>
+<td><p><span data-ttu-id="1c80c-117">Liberações de log/s (tempdb)</span><span class="sxs-lookup"><span data-stu-id="1c80c-117">Log Flushes/sec (tempdb)</span></span></p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="fa1c1-117">Transferências de disco/seg (leitura + gravação)-BD RTC</span><span class="sxs-lookup"><span data-stu-id="fa1c1-117">Disk Transfers/sec (read+write) - RTC db</span></span></p></td>
+<td><p><span data-ttu-id="1c80c-118">Transferências de disco/seg (leitura + gravação)-BD RTC</span><span class="sxs-lookup"><span data-stu-id="1c80c-118">Disk Transfers/sec (read+write) - RTC db</span></span></p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="fa1c1-118">Transferências de disco/s-log RTC</span><span class="sxs-lookup"><span data-stu-id="fa1c1-118">Disk Transfers/sec - RTC log</span></span></p></td>
+<td><p><span data-ttu-id="1c80c-119">Transferências de disco/s-log RTC</span><span class="sxs-lookup"><span data-stu-id="1c80c-119">Disk Transfers/sec - RTC log</span></span></p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="fa1c1-119">Transferências de disco/s-RTCDyn DB</span><span class="sxs-lookup"><span data-stu-id="fa1c1-119">Disk Transfers/sec - rtcdyn db</span></span></p></td>
+<td><p><span data-ttu-id="1c80c-120">Transferências de disco/s-RTCDyn DB</span><span class="sxs-lookup"><span data-stu-id="1c80c-120">Disk Transfers/sec - rtcdyn db</span></span></p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="fa1c1-120">Transferências de disco/log s-RTCDyn</span><span class="sxs-lookup"><span data-stu-id="fa1c1-120">Disk Transfers/sec - rtcdyn log</span></span></p></td>
+<td><p><span data-ttu-id="1c80c-121">Transferências de disco/log s-RTCDyn</span><span class="sxs-lookup"><span data-stu-id="1c80c-121">Disk Transfers/sec - rtcdyn log</span></span></p></td>
 <td></td>
 </tr>
 </tbody>
