@@ -12,20 +12,22 @@ ms:contentKeyID: 48184729
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8c522b72683bd07f92aa0442f8373458f43a7f62
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 305d7e02e9b123ead26f2d0dd77b247914b05470
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207028"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507928"
 ---
+# <a name="certificate-summary---scaled-consolidated-edge-with-hardware-load-balancers-in-lync-server-2013"></a>Resumo de certificado-borda consolidada em escala com balanceadores de carga de hardware no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="certificate-summary---scaled-consolidated-edge-with-hardware-load-balancers-in-lync-server-2013"></a>Resumo de certificado-borda consolidada em escala com balanceadores de carga de hardware no Lync Server 2013
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**Última modificação do tópico:** 2012-10-22_
 
 O Microsoft Lync Server 2013 usa certificados para autenticar mutuamente outros servidores e para criptografar dados de servidor para servidor e servidor para cliente. Os certificados exigem correspondência de nomes de registros DNS (sistema de nomes de domínio) associados a servidores e SN (nome da entidade) e SAN (nome alternativo da entidade) no certificado. Para mapear servidores, registros DNS e entradas de certificados com sucesso, você deve planejar com cuidado os nomes de domínio totalmente qualificados registrados no DNS e as entradas de SN e SAN no certificado.
 
-O certificado atribuído às interfaces externas do servidor de borda é solicitado de uma autoridade de certificação (CA) pública. As CAs públicas que demonstraram o sucesso no fornecimento de certificados para os fins de comunicações unificadas estão listadas [https://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=929395](https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=929395)no seguinte artigo:. Ao solicitar o certificado, você pode usar a solicitação de certificado gerada pelo assistente de implantação do Lync Server ou criar a solicitação manualmente ou por um processo fornecido pela autoridade de certificação pública. Ao atribuir o certificado, o certificado é atribuído à interface de serviço de borda de acesso, a interface de serviço de borda de Webconferência e o serviço de autenticação de áudio/vídeo. O serviço de autenticação de áudio/vídeo não deve ser confundido com o serviço de borda A/V, que não usa um certificado para criptografar os fluxos de áudio e vídeo. A interface de servidor de borda interna pode usar um certificado de uma autoridade de certificação interna (para sua organização) ou um certificado de uma autoridade de certificação pública. O certificado da interface interna usa somente o SN e não necessita ou usa entradas de SAN.
+O certificado atribuído às interfaces externas do servidor de borda é solicitado de uma autoridade de certificação (CA) pública. As CAs públicas que demonstraram o sucesso no fornecimento de certificados para os fins de comunicações unificadas estão listadas no seguinte artigo: [https://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=929395](https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=929395) . Ao solicitar o certificado, você pode usar a solicitação de certificado gerada pelo assistente de implantação do Lync Server ou criar a solicitação manualmente ou por um processo fornecido pela autoridade de certificação pública. Ao atribuir o certificado, o certificado é atribuído à interface de serviço de borda de acesso, a interface de serviço de borda de Webconferência e o serviço de autenticação de áudio/vídeo. O serviço de autenticação de áudio/vídeo não deve ser confundido com o serviço de borda A/V, que não usa um certificado para criptografar os fluxos de áudio e vídeo. A interface de servidor de borda interna pode usar um certificado de uma autoridade de certificação interna (para sua organização) ou um certificado de uma autoridade de certificação pública. O certificado da interface interna usa somente o SN e não necessita ou usa entradas de SAN.
 
 <div>
 
@@ -68,7 +70,7 @@ O certificado atribuído às interfaces externas do servidor de borda é solicit
 <th>Componente</th>
 <th>Nome da entidade</th>
 <th>Nomes alternativos de entidade (SAN)/Ordem</th>
-<th>Comentários</th>
+<th>Comments</th>
 </tr>
 </thead>
 <tbody>
@@ -115,7 +117,7 @@ O certificado atribuído às interfaces externas do servidor de borda é solicit
 <th>Componente</th>
 <th>Nome da entidade</th>
 <th>Nomes alternativos de entidade (SAN)/Ordem</th>
-<th>Comentários</th>
+<th>Comments</th>
 </tr>
 </thead>
 <tbody>
@@ -156,7 +158,7 @@ O certificado atribuído às interfaces externas do servidor de borda é solicit
 <th>Componente</th>
 <th>Nome da entidade</th>
 <th>Nomes alternativos de entidade (SAN)/Ordem</th>
-<th>Comentários</th>
+<th>Comments</th>
 </tr>
 </thead>
 <tbody>

@@ -12,20 +12,22 @@ ms:contentKeyID: 51541518
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 13026da5515615610c960fe4648d5c58f64f99fe
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 555169f6de67ae23bc63d81aad549b0033a6696c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195954"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507738"
 ---
+# <a name="configuration-requirements-for-reverse-proxy-in-lync-server-2013"></a>Requisitos de configuração para o proxy reverso no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuration-requirements-for-reverse-proxy-in-lync-server-2013"></a>Requisitos de configuração para o proxy reverso no Lync Server 2013
+
 
 </div>
 
@@ -61,7 +63,7 @@ As operações funcionais que o Lync Server 2013 esperam que um proxy reverso se
 
   - Capaz de publicar um site da Web hospedado internamente externamente usando um FQDN (nome de domínio totalmente qualificado).
 
-  - Capaz de publicar todo o conteúdo do site hospedado. Por padrão, você pode usar a ** / ** diretiva, que é reconhecida pela maioria dos servidores Web para significar "publicar todo o conteúdo no servidor Web". Você também pode modificar a diretiva — por exemplo, **/Uwca/\***, que significa "publicar todo o conteúdo sob o diretório virtual Ucwa."
+  - Capaz de publicar todo o conteúdo do site hospedado. Por padrão, você pode usar a **/\*** diretiva, que é reconhecida pela maioria dos servidores Web para significar "publicar todo o conteúdo no servidor Web". Você também pode modificar a diretiva — por exemplo, **/Uwca/ \* **, que significa "publicar todo o conteúdo sob o diretório virtual Ucwa."
 
   - Deve ser configurável para exigir conexões SSL (Secure Sockets Layer) e/ou TLS (Transport Layer Security) com clientes que solicitam conteúdo de um site publicado.
 

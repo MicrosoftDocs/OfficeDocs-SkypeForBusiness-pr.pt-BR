@@ -12,20 +12,22 @@ ms:contentKeyID: 48183360
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d7ef0d68cc06582339ed066108efa28a7a85bb00
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2e730b1e44bbe6e6fbec4d84a2c81ce474cff693
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198824"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507618"
 ---
+# <a name="configure-media-bypass-global-settings-in-lync-server-2013-to-use-site-and-region-information"></a>Definir as configurações globais de bypass de mídia no Lync Server 2013 para usar informações do site e da região
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-media-bypass-global-settings-in-lync-server-2013-to-use-site-and-region-information"></a>Definir as configurações globais de bypass de mídia no Lync Server 2013 para usar informações do site e da região
+
 
 </div>
 
@@ -41,7 +43,7 @@ _**Última modificação do tópico:** 2012-09-21_
 
 
 > [!NOTE]
-> Este tópico considera que você já tenha configurado o desvio de mídia em todas as conexões de tronco do Servidor de Mediação para um ponto (gateway PSTN, PBX IP ou Controlador de Limite de Sessões no Provedor de Serviços de Telefonia pela Internet) de um site ou serviço específico no qual deseja que a mídia ignore o Servidor de Mediação.<BR>Este tópico também pressupõe que você tenha definido todos os sites centrais e sites de filial no construtor de topologias de uma maneira que corresponda à região de rede, ao site de rede e à configuração de sub-rede que você executou de acordo com as etapas em <A href="lync-server-2013-create-or-modify-a-network-region.md">criar ou modificar uma região de rede no Lync server 2013</A>, <A href="lync-server-2013-create-or-modify-a-network-site.md">criar ou modificar um site de rede no Lync 2013 2013 Server</A> <A href="lync-server-2013-associate-a-subnet-with-a-network-site.md"></A> Se elas não forem compatíveis, o desvio de mídia não será bem-sucedido.
+> Este tópico considera que você já tenha configurado o desvio de mídia em todas as conexões de tronco do Servidor de Mediação para um ponto (gateway PSTN, PBX IP ou Controlador de Limite de Sessões no Provedor de Serviços de Telefonia pela Internet) de um site ou serviço específico no qual deseja que a mídia ignore o Servidor de Mediação.<BR>Este tópico também pressupõe que você tenha definido todos os sites centrais e sites de filial no construtor de topologias de uma maneira que corresponda à região de rede, ao site de rede e à configuração de sub-rede que você executou de acordo com as etapas em <A href="lync-server-2013-create-or-modify-a-network-region.md">criar ou modificar uma região de rede no Lync server 2013</A>, <A href="lync-server-2013-create-or-modify-a-network-site.md">criar ou modificar um site de rede no Lync 2013 2013 Server</A> <A href="lync-server-2013-associate-a-subnet-with-a-network-site.md">Associate a subnet with a network site in Lync Server 2013</A> Se elas não forem compatíveis, o desvio de mídia não será bem-sucedido.
 
 
 
@@ -66,7 +68,7 @@ As informações de região de rede e de site de rede são compartilhadas entre 
 
 Ou siga estas etapas se quiser usar as informações do site e da região para tomar a decisão do desvio de mídia, mas não tem a intenção de habilitar o controle de admissão de chamadas. Nesse caso, os links restritos de largura de banda ainda precisam ser representados por meio de políticas entre sites de rede, conforme descrito em [Create Network intersite Policies in Lync Server 2013](lync-server-2013-create-network-intersite-policies.md). As restrições atuais de largura de banda não são tão importantes nesse caso porque o controle de admissão de chamada ainda não foi habilitado. Em vez disso, esses links são usados para sub-redes de partição para especificar aquelas sem limites de largura de banda e podem empregar desvios de mídia. Note que isso também ocorre quando o controle de admissão de chamada e o desvio de mídia estão habilitados.
 
-Além disso, para que o bypass funcione corretamente, deve haver consistência entre um site conforme definido no construtor de topologias e conforme é definido quando você configura regiões de rede e sites de rede. Por exemplo, se você tiver um site de filial que você definiu no construtor de topologias como tendo apenas um gateway PSTN implantado, esse site de filial deverá ser configurado com uma política de Enterprise Voice que permita que os usuários do site de filial tenham suas chamadas PSTN roteadas através da PSTN Gateway no local da filial.
+Além disso, para que o bypass funcione corretamente, deve haver consistência entre um site conforme definido no construtor de topologias e conforme é definido quando você configura regiões de rede e sites de rede. Por exemplo, se você tiver um site de filial que você definiu no construtor de topologias como tendo apenas um gateway PSTN implantado, esse site de filial deverá ser configurado com uma política de Enterprise Voice que permita que os usuários do site de filial tenham suas chamadas PSTN roteadas pelo gateway PSTN no site de filial.
 
 <div>
 

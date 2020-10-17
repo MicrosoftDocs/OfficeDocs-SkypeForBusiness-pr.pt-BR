@@ -12,20 +12,22 @@ ms:contentKeyID: 48183740
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4d1532acc21bc788adc8e52bfd1d562509e105ea
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e7c7b08d22933947c2f8079a2713fd134feb4629
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187354"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48509038"
 ---
+# <a name="administrative-tools-software-requirements-in-lync-server-2013"></a>Requisitos de software de ferramentas administrativas no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="administrative-tools-software-requirements-in-lync-server-2013"></a>Requisitos de software de ferramentas administrativas no Lync Server 2013
+
 
 </div>
 
@@ -61,7 +63,7 @@ O Windows PowerShell 3,0 é necessário para executar qualquer componente do Mic
 
 O Lync Server 2013 usa a tecnologia do Windows Installer para instalar, desinstalar e manter várias funções de servidor. O Windows Installer versão 4.5 está disponível como um componente redistribuível para o sistema operacional Windows Server. O Windows Installer 4,5 acompanha o Windows Server 2012 R2, o Windows Server 2012 e o Windows Server 2008 R2, o que significa que você não precisa baixar o utilitário para qualquer computador que esteja executando o Lync Server 2013. (O Lync Server 2013 só pode ser instalado em computadores que executam o Windows Server 2012 R2, o Windows Server 2012 ou o Windows Server 2008 R2.)
 
-No entanto, se você quiser instalar o Shell de gerenciamento do Lync Server ou o construtor de topologias do Lync Server em uma estação de trabalho do administrador, talvez seja necessário baixar o Windows Installer 4,5. Esse utilitário é fornecido com o Windows 7 e o Windows 2008 R2, mas não com nenhuma versão anterior do sistema operacional Windows. Você pode baixar o Windows Installer 4,5 do centro de download da <https://go.microsoft.com/fwlink/p/?linkid=197395>Microsoft em.
+No entanto, se você quiser instalar o Shell de gerenciamento do Lync Server ou o construtor de topologias do Lync Server em uma estação de trabalho do administrador, talvez seja necessário baixar o Windows Installer 4,5. Esse utilitário é fornecido com o Windows 7 e o Windows 2008 R2, mas não com nenhuma versão anterior do sistema operacional Windows. Você pode baixar o Windows Installer 4,5 do centro de download da Microsoft em <https://go.microsoft.com/fwlink/p/?linkid=197395> .
 
 </div>
 

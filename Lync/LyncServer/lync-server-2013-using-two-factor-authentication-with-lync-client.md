@@ -12,20 +12,22 @@ ms:contentKeyID: 55115593
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c90183d13581387d444301278d4c1c1125e5dc91
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a90dd3c40267f0994e7f41eabb689c869182cea7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212607"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508638"
 ---
+# <a name="using-two-factor-authentication-with-lync-client-and-lync-server-2013"></a>Usando a autenticação de dois fatores com o Lync Client e o Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-two-factor-authentication-with-lync-client-and-lync-server-2013"></a>Usando a autenticação de dois fatores com o Lync Client e o Lync Server 2013
+
 
 </div>
 
@@ -49,7 +51,7 @@ Suas informações de entrada do Lync geralmente são configuradas automaticamen
 
 1.  Faça logon na rede da sua organização.
 
-2.  Selecione **Iniciar** \> **todos os programas** \> **Microsoft \> Lync Lync 2013**.
+2.  Selecione **Iniciar** \> **todos os programas** \> **Microsoft Lync \> Lync 2013**.
     
     Você deve ver a tela de entrada do Lync.
     
@@ -123,9 +125,9 @@ Quando terminar de usar o Lync, você poderá fechar a exibição, sair da sess�
 
 Algumas organizações agora usam um processo de entrada em várias etapas, chamado de autenticação de dois fatores, para aumentar a segurança dos seus usuários do Lync 2013. Se você espera usar essa opção, precisará de um "cartão inteligente" para entrar no Lync. Os cartões inteligentes vêm em duas variedades, físico e virtual:
 
-  - **Físico**   sobre o tamanho de um cartão de crédito. Você o insere em um leitor de cartão inteligente ao fazer logon.
+  - **Físico**     Sobre o tamanho de um cartão de crédito. Você o insere em um leitor de cartão inteligente ao fazer logon.
 
-  - **Virtual**   não é um objeto físico, mas um identificador eletrônico que é gravado em um chip especial no seu computador, que, em essência, cria o cartão inteligente no seu computador. Disponível somente para uso com computadores com Windows 8 que contenham o chip TPM (Trusted Platform Module).
+  - **Virtual**     Não é um objeto físico, mas um identificador eletrônico que é gravado em um chip especial no computador, que, em essência, cria o cartão inteligente em seu computador. Disponível somente para uso com computadores com Windows 8 que contenham o chip TPM (Trusted Platform Module).
 
 <div>
 
@@ -149,7 +151,7 @@ Para que você possa entrar com um cartão inteligente, o cartão deve ser "insc
 
 2.  Usando o Internet Explorer, navegue até a página registro da Web da autoridade de certificação da sua organização.
     
-    Pergunte ao administrador do Lync Server pelo endereço da Web desse recurso se você ainda não o tiver. A URL se parecerá com esta: https://MyCA.\[Yourcompanyname\]. com/certsrv.
+    Pergunte ao administrador do Lync Server pelo endereço da Web desse recurso se você ainda não o tiver. A URL se parecerá com esta: https://MyCA.\ [Yourcompanyname \] . com/certsrv.
     
     <div>
     

@@ -12,20 +12,22 @@ ms:contentKeyID: 48183736
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 58a054ba58ff7e1e839b0aeca88d0e61164e30b2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2f1f1fc7ca86c10fa9c409c73c2f4b54ee2777a1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211638"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508508"
 ---
+# <a name="videometricsthreshold-table-in-lync-server-2013"></a>Tabela VideoMetricsThreshold no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="videometricsthreshold-table-in-lync-server-2013"></a>Tabela VideoMetricsThreshold no Lync Server 2013
+
 
 </div>
 
@@ -130,19 +132,19 @@ A tabela VideoMetricsThreshold contém os melhores valores e aceitáveis para as
 </tr>
 <tr class="odd">
 <td><p><strong>VideoPacketLossRateAcceptable</strong></p></td>
-<td><p>float</p></td>
+<td><p>flutuação</p></td>
 <td></td>
 <td><p>O valor padrão é 0.10.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>VideoFrameRateAvgOptimal</strong></p></td>
-<td><p>float</p></td>
+<td><p>flutuação</p></td>
 <td></td>
 <td><p>O valor padrão é 12.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>VideoFrameRateAvgAcceptable</strong></p></td>
-<td><p>float</p></td>
+<td><p>flutuação</p></td>
 <td></td>
 <td><p>O valor padrão é 7.</p></td>
 </tr>

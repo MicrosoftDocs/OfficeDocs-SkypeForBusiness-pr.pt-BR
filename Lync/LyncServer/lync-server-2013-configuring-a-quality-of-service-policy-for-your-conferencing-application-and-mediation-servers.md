@@ -12,20 +12,22 @@ ms:contentKeyID: 48184769
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 37462eb9f15553138dc6bb7285a5d0786dbc4b57
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5ca1e1e243fe6957fdc5233b248c358d82817516
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204877"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508868"
 ---
+# <a name="configuring-a-quality-of-service-policy-in-lync-server-2013-for-your-conferencing-application-and-mediation-servers"></a>Configurando uma política de qualidade de serviço no Lync Server 2013 para seus servidores de conferência, aplicativos e mediação
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-a-quality-of-service-policy-in-lync-server-2013-for-your-conferencing-application-and-mediation-servers"></a>Configurando uma política de qualidade de serviço no Lync Server 2013 para seus servidores de conferência, aplicativos e mediação
+
 
 </div>
 
@@ -101,9 +103,9 @@ Para verificar se as novas políticas de QoS foram aplicadas, faça o seguinte:
 
 1.  Em um computador do Lync Server, clique em **Iniciar** e depois em **Executar**.
 
-2.  Na caixa de diálogo **Executar**, digite **regedit** e pressione ENTER.
+2.  Na caixa de diálogo **Executar**, digite **regedit** e depois pressione ENTER.
 
-3.  No editor do registro, expanda **computador**, expanda **máquina local\_\_da hKey**, expanda **software**, expanda **políticas**, expanda **Microsoft**, expanda **Windows**e clique em **QoS**. Em **QoS**, você deverá ver chaves de registro para cada política de QoS criada. Por exemplo, se você criou duas novas políticas (uma chamada de QoS de áudio do Lync Server e outra chamada de QoS de vídeo do Lync Server), deverá ter entradas de registro para o Lync Server Audio QoS e o Lync Server Video QoS.
+3.  No editor do registro, expanda **computador**, expanda ** \_ \_ máquina local da hKey**, expanda **software**, expanda **políticas**, expanda **Microsoft**, expanda **Windows**e clique em **QoS**. Em **QoS**, você deverá ver chaves de registro para cada política de QoS criada. Por exemplo, se você criou duas novas políticas (uma chamada de QoS de áudio do Lync Server e outra chamada de QoS de vídeo do Lync Server), deverá ter entradas de registro para o Lync Server Audio QoS e o Lync Server Video QoS.
 
 Para ajudar a garantir que os pacotes de rede sejam marcados com o valore DSCP correto, você também deve criar uma nova entrada de registro em cada computador, concluindo o procedimento a seguir:
 
@@ -111,7 +113,7 @@ Para ajudar a garantir que os pacotes de rede sejam marcados com o valore DSCP c
 
 2.  Na caixa de diálogo **Executar**, digite **regedit** e pressione ENTER.
 
-3.  No editor do registro, expanda **\_hKey\_local Machine**, expanda **System**, expanda **CurrentControlSet**, expanda **Services**e, em seguida, expanda **tcpip**.
+3.  No editor do registro, expanda **HKEY \_ local \_ Machine**, expanda **System**, expanda **CurrentControlSet**, expanda **Services**e, em seguida, expanda **tcpip**.
 
 4.  Clique com o botão direito em **Tcpip**, aponte para **Novo** e clique em **Chave**. Depois de criar a nova chave de registro, digite **QoS** e pressione ENTER para renomear a chave.
 

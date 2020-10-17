@@ -12,20 +12,22 @@ ms:contentKeyID: 63969611
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 665ee384afd85c4be5c82182691953e1c78c9659
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ea3344c0a0a4f1992cc9ef67cd14bc2321419307
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212577"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508578"
 ---
+# <a name="validating-address-book-access-in-lync-server-2013"></a>Validando o acesso ao catálogo de endereços no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="validating-address-book-access-in-lync-server-2013"></a>Validando o acesso ao catálogo de endereços no Lync Server 2013
+
 
 </div>
 
@@ -66,7 +68,7 @@ _**Última modificação do tópico:** 2014-06-05_
 
 ## <a name="description"></a>Descrição
 
-O cmdlet Test-CsAddressBookService fornece uma maneira de verificar se um usuário pode se conectar ao serviço Web de download do catálogo de endereços. Quando você executa o cmdlet, Test-CsAddressBookService conecta-se ao serviço Web de download do catálogo de endereços no pool especificado e solicita o local dos arquivos do catálogo de endereços. Se o serviço Web de download do catálogo de endereços fornecer esse local, o teste será considerado bem-sucedido. Se a solicitação for negada, o teste será considerado uma falha.
+O cmdlet Test-CsAddressBookService oferece uma maneira de verificar se um usuário pode se conectar ao serviço Web de download do catálogo de endereços. Quando você executa o cmdlet, Test-CsAddressBookService se conecta ao serviço Web de download do catálogo de endereços no pool especificado e solicita o local dos arquivos do catálogo de endereços. Se o serviço Web de download do catálogo de endereços fornecer esse local, o teste será considerado bem-sucedido. Se a solicitação for negada, o teste será considerado uma falha.
 
 </div>
 
@@ -93,7 +95,7 @@ Para obter mais informações, consulte a documentação de ajuda para o cmdlet 
 
 Se o usuário especificado puder se conectar ao serviço de catálogo de endereços, você receberá uma saída semelhante a esta, com a propriedade Result marcada como **êxito**:
 
-TargetUrihttps://lync-se.fabrikam.com:443/abs/handler
+TargetUri https://lync-se.fabrikam.com:443/abs/handler
 
 TargetFqdn: atl-cs-001.litwareinc.com
 
@@ -125,23 +127,23 @@ Microsoft. RTC. Signaling. DiagnosticHeader
 
 Por exemplo, a saída anterior diz que o teste falhou porque o usuário especificado (ou seja, o "URI de destino") não existe ou não foi habilitado para o Lync Server. É possível verificar se uma conta de usuário é válida e se você forneceu o endereço SIP correto executando um comando como este:
 
-Get-CsUser-Identity "sip:kenmyer@litwareinc.com" | Select-Object SipAddress, Enabled
+Get-CsUser-Identity "sip:kenmyer@litwareinc.com" | Select-Object SipAddress, habilitado
 
 Se Test-CsAddressBookService falhar, talvez você queira executar novamente o teste, desta vez, incluindo o parâmetro Verbose:
 
 Test-CsAddressBookService-TargetFqdn "atl-cs-001.litwareinc.com"-Verbose
 
-Quando o parâmetro Verbose é incluído, o Test-CsAddressBookService retornará uma conta passo a passo de cada ação tentada durante a verificação da capacidade do usuário especificado de fazer logon no Lync Server. Por exemplo, este exemplo de saída mostra que Test-CsAddressBookService, pelo menos neste exemplo, foi capaz de baixar o arquivo do catálogo de endereços:
+Quando o parâmetro Verbose é incluído Test-CsAddressBookService retornará uma conta passo a passo de cada ação tentada durante a verificação da capacidade do usuário especificado de fazer logon no Lync Server. Por exemplo, este exemplo de saída mostra que Test-CsAddressBookService, pelo menos neste exemplo, foi capaz de baixar o arquivo do catálogo de endereços:
 
 Enviando solicitação HTTP GET.
 
-Caminho do arquivo =https://atl-cs-001.litwareinc.com:443/abs/handler/f-1299.lsabs
+Caminho do arquivo = https://atl-cs-001.litwareinc.com:443/abs/handler/f-1299.lsabs
 
 Número da tentativa = 1
 
 Tempo limite (MS) = 60000
 
-Download bem-sucedido do arquivo ABShttps://atl-cs-001.litwareinc.com:443/abs/handler/f-1299.lsabs
+Download bem-sucedido do arquivo ABS https://atl-cs-001.litwareinc.com:443/abs/handler/f-1299.lsabs
 
 </div>
 
@@ -149,7 +151,7 @@ Download bem-sucedido do arquivo ABShttps://atl-cs-001.litwareinc.com:443/abs/ha
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Motivos pelos quais o teste pode ter falhado
 
-Aqui estão alguns motivos comuns pelos quais Test-CsAddressBookService pode falhar:
+Aqui estão alguns motivos comuns para que Test-CsAddressBookService possa falhar:
 
   - Você especificou uma conta de usuário inválida. Você pode verificar se uma conta de usuário existe executando um comando semelhante a este:
     

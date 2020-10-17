@@ -12,20 +12,22 @@ ms:contentKeyID: 57793042
 ms.date: 11/03/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f6f3e9afc3bd17f5cba4caa7619cb562be069942
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4b67f1472bbb8225bf952b5b678bcae8401d211d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187254"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508968"
 ---
+# <a name="antivirus-scanning-exclusions-for-lync-server-2013"></a>Exclusões de verificação antivírus para o Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="antivirus-scanning-exclusions-for-lync-server-2013"></a>Exclusões de verificação antivírus para o Lync Server 2013
+
 
 </div>
 
@@ -61,101 +63,101 @@ Para garantir que o verificador antivírus não interfira na operação do Lync 
 
   - Processos do Lync Server 2013:
     
-      - ABServer. exe
+      - ABServer.exe
     
-      - AcpMcuSvc. exe
+      - AcpMcuSvc.exe
     
-      - ASMCUSvc. exe
+      - ASMCUSvc.exe
     
-      - AVMCUSvc. exe
+      - AVMCUSvc.exe
     
-      - ChannelService. exe
+      - ChannelService.exe
     
-      - ClsAgent. exe
+      - ClsAgent.exe
     
-      - ComplianceService. exe
+      - ComplianceService.exe
     
-      - DataMCUSvc. exe
+      - DataMCUSvc.exe
     
-      - Dataproxy. exe
+      - DataProxy.exe
     
-      - FileTransferAgent. exe
+      - FileTransferAgent.exe
     
-      - IMMCUSvc. exe
+      - IMMCUSvc.exe
     
-      - LysSvc. exe
+      - LysSvc.exe
     
-      - MasterReplicatorAgent. exe
+      - MasterReplicatorAgent.exe
     
-      - MediaRelaySvc. exe
+      - MediaRelaySvc.exe
     
-      - MediationServerSvc. exe
+      - MediationServerSvc.exe
     
-      - MRASSvc. exe
+      - MRASSvc.exe
     
-      - OcsAppServerHost. exe
+      - OcsAppServerHost.exe
     
-      - ReplicaReplicatorAgent. exe
+      - ReplicaReplicatorAgent.exe
     
-      - ReplicationApp. exe
+      - ReplicationApp.exe
     
-      - RtcHost. exe
+      - RtcHost.exe
     
-      - RTCSrv. exe
+      - RTCSrv.exe
     
-      - XmppProxy. exe
+      - XmppProxy.exe
     
-      - XmppTGW. exe
+      - XmppTGW.exe
 
   - Processos do serviço de host do Windows Fabric:
     
-      - Fabric. exe
+      - Fabric.exe
     
-      - FabricDCA. exe
+      - FabricDCA.exe
     
-      - FabricHost. exe
+      - FabricHost.exe
 
   - Processos do IIS:
     
-      - % SystemRoot%\\system32\\inetsrv\\w3wp. exe
+      - % SystemRoot% \\ System32 \\ inetsrv \\w3wp.exe
     
-      - % SystemRoot%\\SysWOW64\\inetsrv\\w3wp. exe
+      - % SystemRoot% \\ SysWOW64 \\ inetsrv \\w3wp.exe
 
-  - Processos de back-end do SQL Server:
+  - Processos de Back-End do SQL Server:
     
-      - % ProgramFiles\\% Microsoft SQL\\Server MSSQL11. MSSQLSERVER\\MSSQL\\Binn\\sqlservr. exe
+      - % ProgramFiles% \\ Microsoft SQL Server \\ MSSQL11. MSSQLSERVER \\ MSSQL \\ Binn \\SQLServr.exe
     
-      - % ProgramFiles\\% Microsoft SQL\\Server MSRS11. MSSQLSERVER\\Reporting\\Services\\\\ReportServer bin ReportingServicesService. exe
+      - % ProgramFiles% \\ Microsoft SQL Server \\ MSRS11. O MSSQLSERVER \\ Reporting Services \\ ReportServer \\ bin \\ReportingServicesService.exe
     
-      - % ProgramFiles\\% Microsoft SQL\\Server MSAS11. Compartimento\\\\do\\MSSQLSERVER OLAP MSMDSrv. exe
+      - % ProgramFiles% \\ Microsoft SQL Server \\ MSAS11. \\ \\MSMDSrv.exe bin OLAP \\
 
-  - Processos de front-end do SQL Server:
+  - Processos de Front-End do SQL Server:
     
-      - % ProgramFiles\\% Microsoft SQL\\Server MSSQL11. LYNCLOCAL\\MSSQL\\Binn\\sqlservr. exe
+      - % ProgramFiles% \\ Microsoft SQL Server \\ MSSQL11. LYNCLOCAL \\ MSSQL \\ Binn \\SQLServr.exe
     
-      - % ProgramFiles\\% Microsoft SQL\\Server MSSQL11. RTCLOCAL\\MSSQL\\Binn\\sqlservr. exe
+      - % ProgramFiles% \\ Microsoft SQL Server \\ MSSQL11. RTCLOCAL \\ MSSQL \\ Binn \\SQLServr.exe
 
   - Arquivos e diretórios:
     
-      - % SystemRoot%\\system32\\LogFiles
+      - % SystemRoot% \\ System32 \\ LogFiles
     
-      - % de\\\\LogFiles da raiz_do_sistema%
+      - % de \\ LogFiles da raiz_do_sistema% \\
     
-      - % de%\\Microsoft.NET\\assembly\\do\_GAC
+      - % de% \\ Microsoft.NET \\ assembly do \\ GAC \_
     
-      - % ProgramFiles\\% Microsoft Lync Server 2013
+      - % ProgramFiles% \\ Microsoft Lync Server 2013
     
-      - % ProgramFiles\\% arquivos\\comuns nó do Inspetor\\do Microsoft Lync Server 2013
+      - % ProgramFiles% \\ Arquivos comuns \\ \\ nó do Inspetor do Microsoft Lync Server 2013
     
-      - % ProgramFiles\\% arquivos\\comuns Microsoft Lync Server 2013
+      - % ProgramFiles% \\ Arquivos comuns \\ Microsoft Lync Server 2013
     
-      - % SystemDrive%\\RtcReplicaRoot
+      - % SystemDrive% \\ RtcReplicaRoot
     
       - O repositório de compartilhamento de arquivo (especificado no Construtor de Topologias). Os repositórios de arquivo estão especificados no Construtor de Topologias.
     
       - Os dados e arquivos de log do  SQL Server, incluindo para o banco de dados de Back-End, repositório de usuários, repositório de arquivamento, repositório de monitoramento e repositório do aplicativo. Os arquivos de log e banco de dados podem ser especificados no Construtor de Topologias. Para obter detalhes sobre os dados e arquivos de log para cada banco de dados, incluindo nomes padrão, confira [dados do SQL Server e posicionamento de arquivos de log para o Lync Server 2013](lync-server-2013-sql-server-data-and-log-file-placement.md) na documentação de implantação.
     
-      - Dados do SQL Server e arquivos de log, incluindo aqueles para o banco de dados front-end, o repositório do Lync e o repositório do RtcDatabase. Eles estão normalmente em% Unidade_Local%\\CSData.
+      - Dados do SQL Server e arquivos de log, incluindo aqueles para o banco de dados front-end, o repositório do Lync e o repositório do RtcDatabase. Eles estão normalmente em% Unidade_Local% \\ CSData.
 
 </div>
 

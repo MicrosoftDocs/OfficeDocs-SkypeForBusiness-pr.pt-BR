@@ -12,20 +12,22 @@ ms:contentKeyID: 49733733
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7665a8edb5e77514633de5e66a063ab509fdd821
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d315de4f8b18a5ecbeabe7ba29231c70ff893e8a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191194"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508138"
 ---
+# <a name="capacity-planning-for-lync-server-2013-using-the-user-models"></a>Planejamento de capacidade para Lync Server 2013 usando modelos de usuário
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="capacity-planning-for-lync-server-2013-using-the-user-models"></a>Planejamento de capacidade para Lync Server 2013 usando modelos de usuário
+
 
 </div>
 
@@ -73,7 +75,7 @@ Todos os resultados de desempenho e recomendações de implantação nesta seç�
 <td><ul>
 <li><p>8 ou mais unidades de disco rígido de 10.000 RPM com pelo menos 72 GB de espaço livre em disco.</p>
 <p>Dois dos discos devem usar RAID 1 e seis devem usar RAID 10.</p>
-<p>-Ou</p></li>
+<p>- Ou</p></li>
 <li><p>Drivers de estado sólido (SSDs) que oferecem desempenho semelhante à 8 drivers de disco mecânico de 10.000-RPM.</p></li>
 </ul></td>
 </tr>
@@ -175,7 +177,7 @@ Se, em vez disso, você começou com seis servidores front-end para os seus usu�
 
 O número máximo de usuários em um pool de Front End é 80.000. O número máximo de servidores front-end em um pool é 12.
 
-Para um pool de front-ends com 80.000 usuários, doze servidores front-end são suficientes para o desempenho, em implantações comuns que seguem os [modelos de usuário no Lync Server 2013](lync-server-2013-user-models.md). As implantações projetadas para dar suporte ao failover de recuperação de desastres presumem que um máximo de 40.000 usuários possam ser hospedados em cada um dos dois pools de front-ends emparelhados, em que cada pool tenha servidores de front end suficientes para acomodar os usuários em ambos os pools deve haver falha em um pool para o outro.
+Para um pool de front-ends com 80.000 usuários, doze servidores front-end são suficientes para o desempenho, em implantações comuns que seguem os [modelos de usuário no Lync Server 2013](lync-server-2013-user-models.md). As implantações projetadas para dar suporte ao failover de recuperação de desastres pressupõem que um máximo de 40.000 usuários possam ser hospedados em cada um dos dois pools de front-ends emparelhados, em que cada pool tenha servidores front-end suficientes para acomodar os usuários em ambos os pools deve que um pool precise ser failover para o outro.
 
 O número de usuários com suporte com bom desempenho por um pool de front-ends específico pode diferir desses números pelos seguintes motivos:
 
@@ -220,7 +222,7 @@ A tabela a seguir mostra a largura de banda média para IM e presença, dado o m
 
 
 > [!NOTE]  
-> Para melhorar o desempenho de mídia da funcionalidade do servidor de mediação e de conferência a/V alocada em seus servidores front-end, você deve habilitar o RSS (escala de recebimento) nos adaptadores de rede em seus servidores front-end. O RSS permite que pacotes recebidos sejam manipulados em paralelo por vários processadores no servidor. Para obter detalhes, consulte "aprimoramentos de redimensionamento no lado do recebimento no <A href="https://go.microsoft.com/fwlink/p/?linkid=268731">https://go.microsoft.com/fwlink/p/?linkId=268731</A>Windows Server 2008" em. Para obter detalhes sobre como habilitar o RSS, consulte a documentação do seu adaptador de rede.
+> Para melhorar o desempenho de mídia da funcionalidade do servidor de mediação e de conferência a/V alocada em seus servidores front-end, você deve habilitar o RSS (escala de recebimento) nos adaptadores de rede em seus servidores front-end. O RSS permite que pacotes recebidos sejam manipulados em paralelo por vários processadores no servidor. Para obter detalhes, consulte "aprimoramentos de redimensionamento no lado do recebimento no Windows Server 2008" em <A href="https://go.microsoft.com/fwlink/p/?linkid=268731">https://go.microsoft.com/fwlink/p/?linkId=268731</A> . Para obter detalhes sobre como habilitar o RSS, consulte a documentação do seu adaptador de rede.
 
 
 
@@ -266,7 +268,7 @@ Ao contar o número de usuários para os Servidores de Borda, inclua os usuário
 
 
 > [!NOTE]  
-> Para aprimorar o desempenho do serviço de Borda de Conferência A/V em seus Servidores de Borda, você deve habilitar o receive-side scaling (RSS) nos adaptadores de rede em seus Servidores de Borda. O RSS permite que pacotes recebidos sejam manipulados em paralelo por vários processadores no servidor. Para obter detalhes, consulte "aprimoramentos de redimensionamento no lado do recebimento no <A href="https://go.microsoft.com/fwlink/p/?linkid=268731">https://go.microsoft.com/fwlink/p/?linkId=268731</A>Windows Server 2008" em. Para obter detalhes sobre como habilitar o RSS, consulte a documentação do seu adaptador de rede.
+> Para aprimorar o desempenho do serviço de Borda de Conferência A/V em seus Servidores de Borda, você deve habilitar o receive-side scaling (RSS) nos adaptadores de rede em seus Servidores de Borda. O RSS permite que pacotes recebidos sejam manipulados em paralelo por vários processadores no servidor. Para obter detalhes, consulte "aprimoramentos de redimensionamento no lado do recebimento no Windows Server 2008" em <A href="https://go.microsoft.com/fwlink/p/?linkid=268731">https://go.microsoft.com/fwlink/p/?linkId=268731</A> . Para obter detalhes sobre como habilitar o RSS, consulte a documentação do seu adaptador de rede.
 
 
 
@@ -276,7 +278,7 @@ Ao contar o número de usuários para os Servidores de Borda, inclua os usuário
 
 <div>
 
-## <a name="director"></a>Be
+## <a name="director"></a>Diretor
 
 <div>
 
@@ -310,7 +312,7 @@ Ao contar o número de usuários para os Diretores, inclua os usuários hospedad
 
 Se você colocar o servidor de mediação com o servidor front-end, o servidor de mediação será executado em todos os servidores front-end no pool e deve fornecer capacidade suficiente para os usuários no pool.
 
-Se você implantar um pool de servidor de mediação autônomo, o número de servidores de mediação a serem implantados depende de vários fatores, incluindo o hardware usado para o servidor de mediação, o número de usuários de VoIP, o número de pares de gateway que cada pool de servidor de mediação controles, o tráfego de horas de ocupado por esses gateways e a porcentagem de chamadas com mídia que ignora o servidor de mediação.
+Se você implantar um pool de servidor de mediação autônomo, o número de servidores de mediação a serem implantados depende de vários fatores, incluindo o hardware usado para o servidor de mediação, o número de usuários de VoIP que você tem, o número de pares de gateway que cada pool de servidor de mediação controla, o tráfego de horas de ocupado por esses gateways e a porcentagem de
 
 As tabelas a seguir fornecem uma diretriz para quantas chamadas simultâneas um servidor de mediação pode lidar, supondo que o hardware para os servidores de mediação atenda aos requisitos em [plataformas de hardware de servidor para o Lync Server 2013](lync-server-2013-server-hardware-platforms.md) e que o Hyper-Threading esteja habilitado. Para obter detalhes sobre a escalabilidade do servidor de mediação, consulte [estimativa de uso de voz e tráfego para o Lync server 2013](lync-server-2013-estimating-voice-usage-and-traffic.md) e [diretrizes de implantação para o servidor de mediação no Lync Server 2013](lync-server-2013-deployment-guidelines-for-mediation-server.md).
 
@@ -396,7 +398,7 @@ Todas as tabelas a seguir consideram o uso resumido em [modelos de usuário no L
 
 
 > [!NOTE]  
-> Para melhorar o desempenho do servidor de mediação, você deve habilitar o RSS (escala de recebimento) nos adaptadores de rede em seus servidores de mediação. O RSS permite que pacotes recebidos sejam manipulados em paralelo por vários processadores no servidor. Para obter detalhes, consulte "aprimoramentos de redimensionamento no lado do recebimento no <A href="https://go.microsoft.com/fwlink/p/?linkid=268731">https://go.microsoft.com/fwlink/p/?linkId=268731</A>Windows Server 2008" em. Para obter detalhes sobre como habilitar o RSS, consulte a documentação do seu adaptador de rede.
+> Para melhorar o desempenho do servidor de mediação, você deve habilitar o RSS (escala de recebimento) nos adaptadores de rede em seus servidores de mediação. O RSS permite que pacotes recebidos sejam manipulados em paralelo por vários processadores no servidor. Para obter detalhes, consulte "aprimoramentos de redimensionamento no lado do recebimento no Windows Server 2008" em <A href="https://go.microsoft.com/fwlink/p/?linkid=268731">https://go.microsoft.com/fwlink/p/?linkId=268731</A> . Para obter detalhes sobre como habilitar o RSS, consulte a documentação do seu adaptador de rede.
 
 
 

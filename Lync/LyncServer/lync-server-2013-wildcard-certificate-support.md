@@ -12,20 +12,22 @@ ms:contentKeyID: 48183382
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 998787b3f052d2271eb2323bcdb71ddc106b57f6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d639ba422bde7b936bd58ff58abae47ea365bb70
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42210223"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508518"
 ---
+# <a name="wildcard-certificate-support-in-lync-server-2013"></a>Suporte a certificados curinga no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="wildcard-certificate-support-in-lync-server-2013"></a>Suporte a certificados curinga no Lync Server 2013
+
 
 </div>
 
@@ -52,25 +54,25 @@ O Lync Server 2013 usa certificados para fornecer criptografia de comunicação 
 Não há suporte para uma entrada curinga como nome de entidade (também conhecido como nome comum ou CN) para nenhuma função. As funções do servidor apresentadas a seguir são suportadas quando são usadas entradas curinga no SAN:
 
   - <span></span>  
-    **Proxy reverso.**    A entrada de San curinga é suportada para o certificado de publicação URL simples (reunião e discagem).
+    **Proxy reverso.**     A entrada de SAN curinga é suportada para o certificado de publicação URL simples (reunião e discagem).
 
   - <span></span>  
-    **Proxy reverso.**    A entrada de San curinga é suportada para as entradas de San do LyncDiscover no certificado de publicação.
+    **Proxy reverso.**     A entrada de SAN curinga é suportada para as entradas de SAN do LyncDiscover no certificado de publicação.
 
   - <span></span>  
-    **Diretor.**    A entrada de San curinga é suportada para URLs simples (atender e discar) e para entradas de San para o LyncDiscover e o LyncDiscoverInternal nos componentes Web do diretor.
+    **Diretor.**     A entrada de SAN curinga é suportada para URLs simples (atender e discar) e para entradas de SAN para o LyncDiscover e o LyncDiscoverInternal nos componentes Web do diretor.
 
   - <span></span>  
     **Servidor front-end (Standard Edition) e pool de front-ends (Enterprise Edition).** A entrada de SAN curinga é suportada para URLs simples (atender e discar) e para entradas de SAN para o LyncDiscover e o LyncDiscoverInternal em componentes da Web de front-end.
 
   - <span></span>  
-    **Unificação de mensagens (UM) do Exchange.**    O servidor não usa entradas San quando implantado como um servidor autônomo.
+    **Unificação de mensagens (um) do Exchange.**     O servidor não usa entradas SAN quando implantado como um servidor autônomo.
 
   - <span></span>  
-    **Servidor de acesso para cliente do Microsoft Exchange Server.**    As entradas CURINGA na San têm suporte para clientes internos e externos.
+    **Servidor de acesso para cliente do Microsoft Exchange Server.**     As entradas curinga na SAN têm suporte para clientes internos e externos.
 
   - <span></span>  
-    **Unificação de mensagens (UM) do Exchange e servidor de acesso para cliente do Microsoft Exchange Server no mesmo servidor.**    Há suporte para as entradas San curinga.
+    **Unificação de mensagens (um) do Exchange e servidor de acesso para cliente do Microsoft Exchange Server no mesmo servidor.**     Há suporte para as entradas SAN curinga.
 
 As funções do servidor que não são abordadas neste tópico:
 

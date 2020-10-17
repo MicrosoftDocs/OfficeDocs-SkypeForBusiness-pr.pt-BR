@@ -12,20 +12,22 @@ ms:contentKeyID: 51803962
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a78332e2fa24c4f718cb3cdb3cbc9dc93a03601d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4bb2be4efad0467efafca88da8e0e1e627addb21
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188024"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508238"
 ---
+# <a name="call-transfers-and-call-forwarding-in-lync-server-2013"></a>Transferências de chamadas e encaminhamento de chamadas no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="call-transfers-and-call-forwarding-in-lync-server-2013"></a>Transferências de chamadas e encaminhamento de chamadas no Lync Server 2013
+
 
 </div>
 
@@ -37,9 +39,9 @@ ms.locfileid: "42188024"
 
 _**Última modificação do tópico:** 2013-03-09_
 
-Quando um ponto de extremidade PSTN está envolvido, o roteamento baseado em local analisa o local do ponto de extremidade do Calle e o ponto de extremidade onde a chamada será transferida ou encaminhada (ou seja, transferir/direcionar destino). O roteamento baseado em local determina se a chamada deve ser transferida ou encaminhada, dependendo do local dos dois pontos de extremidade.
+Quando um ponto de extremidade PSTN está envolvido, Location-Based roteamento analisa o local do ponto de extremidade do Calle e o ponto de extremidade onde a chamada será transferida ou encaminhada (ou seja, transferência/destino de encaminhamento). Location-Based roteamento determina se a chamada deve ser transferida ou encaminhada dependendo do local dos dois pontos de extremidade.
 
-A tabela a seguir ilustra o cenário de um usuário do Lync em uma chamada com um ponto de extremidade PSTN e o usuário do Lync transfere a chamada para outro usuário do Lync. Dependendo do local do site de rede do ponto de extremidade do intermediário, o roteamento baseado em local afeta o roteamento da transferência de chamada ou do encaminhamento.
+A tabela a seguir ilustra o cenário de um usuário do Lync em uma chamada com um ponto de extremidade PSTN e o usuário do Lync transfere a chamada para outro usuário do Lync. Dependendo do local do site de rede do ponto de extremidade do transportador, Location-Based roteamento afeta o roteamento da transferência de chamada ou encaminhar.
 
 ### <a name="initiating-call-transfer-or-forward"></a>Iniciando transferência ou encaminhamento de chamadas
 
@@ -55,7 +57,7 @@ A tabela a seguir ilustra o cenário de um usuário do Lync em uma chamada com u
 <th>Usuário iniciando a transferência/encaminhamento de chamada</th>
 <th>O ponto de extremidade de destino está no mesmo local de rede que o usuário que inicia a transferência de chamada ou encaminha</th>
 <th>O ponto de extremidade de destino está em um local de rede diferente como usuário Iniciando transferência de chamada ou encaminhar</th>
-<th>O ponto de extremidade de destino está em um site de rede desconhecido ou site de rede não habilitado para roteamento baseado em local</th>
+<th>O ponto de extremidade de destino está em um site de rede desconhecido ou site de rede não habilitado para roteamento de Location-Based</th>
 </tr>
 </thead>
 <tbody>
@@ -72,7 +74,7 @@ A tabela a seguir ilustra o cenário de um usuário do Lync em uma chamada com u
 
 Por exemplo: um usuário do Lync em uma chamada com um ponto de extremidade PSTN transfere a chamada para outro usuário do Lync que esteja no mesmo local de rede. Nesse caso, a transferência de chamada é permitida.
 
-A tabela a seguir ilustra o cenário de um usuário do Lync em uma chamada com outro usuário do Lync e um dos usuários transfere a chamada para um ponto de extremidade PSTN. Dependendo do local do usuário para o qual a chamada está sendo transferida, a tabela detalha como o roteamento baseado em local afeta a chamada.
+A tabela a seguir ilustra o cenário de um usuário do Lync em uma chamada com outro usuário do Lync e um dos usuários transfere a chamada para um ponto de extremidade PSTN. Dependendo do local do usuário para o qual a chamada está sendo transferida, a tabela detalha como o roteamento de Location-Based afeta a chamada.
 
 ### <a name="call-transfer-or-forward-to-pstn-endpoint"></a>Transferência de chamada ou encaminhamento para ponto de extremidade PSTN
 
@@ -88,7 +90,7 @@ A tabela a seguir ilustra o cenário de um usuário do Lync em uma chamada com o
 <th>Transferência de chamada/destino de ponto de extremidade de encaminhamento</th>
 <th>Usuários do Lync no mesmo local de rede</th>
 <th>Usuários do Lync em diferentes locais de rede</th>
-<th>Um ou ambos os usuários do Lync em um site de rede desconhecido ou site de rede não habilitado para roteamento baseado em local</th>
+<th>Um ou ambos os usuários do Lync em um site de rede desconhecido ou site de rede não habilitados para roteamento de Location-Based</th>
 </tr>
 </thead>
 <tbody>
@@ -96,7 +98,7 @@ A tabela a seguir ilustra o cenário de um usuário do Lync em uma chamada com o
 <td><p>Ponto de extremidade PSTN</p></td>
 <td><p>Encaminhamento ou transferência de chamada permitida pela política de roteamento de voz do site do usuário transferido</p></td>
 <td><p>Encaminhamento ou transferência de chamada permitida pela política de roteamento de voz do site do usuário transferido</p></td>
-<td><p>Encaminhamento ou transferência de chamada permitida pela política de voz do usuário transferido apenas por meio de troncos não habilitados para roteamento baseado em local</p></td>
+<td><p>Encaminhamento ou transferência de chamada permitida pela política de voz do usuário transferido apenas por meio de troncos não habilitados para roteamento de Location-Based</p></td>
 </tr>
 </tbody>
 </table>
@@ -109,7 +111,7 @@ Por exemplo: um usuário do Lync em uma chamada com outro usuário do Lync que e
 ## <a name="see-also"></a>Confira também
 
 
-[Cenários para roteamento baseado em local no Lync Server 2013](lync-server-2013-scenarios-for-location-based-routing.md)  
+[Cenários para Location-Based roteamento no Lync Server 2013](lync-server-2013-scenarios-for-location-based-routing.md)  
   
 
 </div>

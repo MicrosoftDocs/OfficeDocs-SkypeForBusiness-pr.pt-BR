@@ -12,20 +12,22 @@ ms:contentKeyID: 48183819
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8ae9bfa8be276cccc6f31def6fb7014e417841d8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 23b77f246398ab47002ddef38e804419ffa4f5bd
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190554"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507608"
 ---
+# <a name="configure-media-bypass-in-lync-server-2013-to-always-bypass-the-mediation-server"></a>Configurar o bypass de mídia no Lync Server 2013 para sempre ignorar o servidor de mediação
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-media-bypass-in-lync-server-2013-to-always-bypass-the-mediation-server"></a>Configurar o bypass de mídia no Lync Server 2013 para sempre ignorar o servidor de mediação
+
 
 </div>
 
@@ -49,7 +51,7 @@ _**Última modificação do tópico:** 2013-02-25_
 
 Além de ativar o desvio de mídia para as conexões de tronco individuais associadas a um ponto para o Servidor de Mediação, você também deve definir as configurações globais para o desvio de mídia. Se você usar as etapas deste tópico para definir as configurações globais para bypass de mídia, pressupõe-se que você tem uma boa conectividade entre os pontos de extremidade do Lync e qualquer ponto para o qual você configurou o bypass de mídia na conexão do tronco.
 
-Se você não tem uma boa conectividade entre os pontos de extremidade do Lync Server e todos os pares para o servidor de mediação cujas respectivas conexões de tronco foram habilitadas para bypass de mídia, você deve definir as configurações de bypass de mídia global para usar as informações do site e da região quando empregar o bypass de mídia. Isso permite maior controle ao determinar quando a mídia desvia do servidor de mediação. Para fazer isso, use as etapas em [configurar as configurações globais de bypass de mídia no Lync server 2013 para usar informações de site e região](lync-server-2013-configure-media-bypass-global-settings-to-use-site-and-region-information.md) e [associar uma sub-rede a um site de rede no Lync Server 2013](lync-server-2013-associate-a-subnet-with-a-network-site.md) em vez disso.
+Se você não tem uma boa conectividade entre os pontos de extremidade do Lync Server e todos os pares para o servidor de mediação cujas respectivas conexões de tronco foram habilitadas para bypass de mídia, você deve definir as configurações de bypass de mídia global para usar as informações do site e da região ao empregar o bypass de mídia. Isso permite maior controle ao determinar quando a mídia desvia do servidor de mediação. Para fazer isso, use as etapas em [configurar as configurações globais de bypass de mídia no Lync server 2013 para usar informações de site e região](lync-server-2013-configure-media-bypass-global-settings-to-use-site-and-region-information.md) e [associar uma sub-rede a um site de rede no Lync Server 2013](lync-server-2013-associate-a-subnet-with-a-network-site.md) em vez disso.
 
 <div>
 

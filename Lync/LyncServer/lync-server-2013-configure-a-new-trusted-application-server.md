@@ -12,20 +12,22 @@ ms:contentKeyID: 48185085
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9f4d01e817e1a874af8c6beccdee332f85cc79ed
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a0e053629eae42bc7fcd83b0002b3aad40f3550f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206987"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507708"
 ---
+# <a name="configure-a-new-trusted-application-server-in-lync-server-2013"></a>Configurar um novo servidor de aplicativos confiáveis no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-a-new-trusted-application-server-in-lync-server-2013"></a>Configurar um novo servidor de aplicativos confiáveis no Lync Server 2013
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42206987"
 
 _**Última modificação do tópico:** 2012-11-01_
 
-Um aplicativo confiável é um aplicativo baseado no SDK principal do Microsoft Unified Communications Managed API (UCMA) 3,0 Core que é confiável para o Microsoft Lync Server 2013. Para obter detalhes sobre os aplicativos do UCMA, consulte "documentação do SDK básico do Unified [https://go.microsoft.com/fwlink/p/?linkId=210320](https://go.microsoft.com/fwlink/p/?linkid=210320)Communications Managed API 3,0 em.
+Um aplicativo confiável é um aplicativo baseado no SDK principal do Microsoft Unified Communications Managed API (UCMA) 3,0 Core que é confiável para o Microsoft Lync Server 2013. Para obter detalhes sobre os aplicativos do UCMA, consulte "documentação do SDK básico do Unified Communications Managed API 3,0 em [https://go.microsoft.com/fwlink/p/?linkId=210320](https://go.microsoft.com/fwlink/p/?linkid=210320) .
 
 Para obter informações sobre como configurar o Microsoft Outlook Web Access (OWA) e o Lync Server 2013, consulte "configurar o Outlook Web App e o Lync Server 2010 Integration" na documentação do Microsoft Exchange Server 2013.
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185227
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ad3ef2afaa162219d140a4eaef204dc6e1e2ab02
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 27fbbc6bb2fe68c2f4bfff91b999934069548d00
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192084"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48509478"
 ---
+# <a name="tbladupdates-in-lync-server-2013"></a>tblADUpdates no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="tbladupdates-in-lync-server-2013"></a>tblADUpdates no Lync Server 2013
+
 
 </div>
 
@@ -67,17 +69,17 @@ tblADUpdates contém alterações dos serviços de domínio Active Directory que
 </tr>
 <tr class="odd">
 <td><p>prinAttributesChanged</p></td>
-<td><p>bit, não vazio</p></td>
+<td><p>bit, não nulo</p></td>
 <td><p>True se pelo menos um atributo do objeto tiver mudado.</p></td>
 </tr>
 <tr class="even">
 <td><p>prinMembersChanged</p></td>
-<td><p>bit, não vazio</p></td>
+<td><p>bit, não nulo</p></td>
 <td><p>True se a associação tiver sido alterada.</p></td>
 </tr>
 <tr class="odd">
 <td><p>prinAffiliationsChanged</p></td>
-<td><p>bit, não vazio</p></td>
+<td><p>bit, não nulo</p></td>
 <td><p>Não usado</p></td>
 </tr>
 <tr class="even">

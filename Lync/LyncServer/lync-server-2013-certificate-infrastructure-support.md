@@ -12,20 +12,22 @@ ms:contentKeyID: 48184047
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dea4ea71564feca6c23c6d9e16b4ca336fa95e87
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b17c6f53130d5f0cca96ce3b719001029398d91c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191004"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48507998"
 ---
+# <a name="certificate-infrastructure-support-in-lync-server-2013"></a>Suporte à infraestrutura de certificado no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="certificate-infrastructure-support-in-lync-server-2013"></a>Suporte à infraestrutura de certificado no Lync Server 2013
+
 
 </div>
 
@@ -57,7 +59,7 @@ Os certificados MTLS devem ser emitidos por autoridades de certificação confi�
 
 A comunicação com outros aplicativos e servidores, como o Exchange 2013, requer um certificado que seja compatível com outros aplicativos e produtos. Para a versão 2013, Lync Server 2013 e outros produtos de servidor da Microsoft, incluindo o Exchange 2013 e o SharePoint Server, dão suporte ao protocolo de autorização aberta (OAuth) para autenticação e autorização de servidor para servidor. Para obter detalhes, consulte [Managing Server-to-Server Authentication (OAuth) and Partner Applications in Lync server 2013](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md) na documentação de implantação ou a documentação de operações.
 
-Para conexões de clientes que executam o sistema operacional Windows 7, o sistema operacional Windows Server 2008 R2 e o Microsoft Office Communicator 2007 Phone Edition, Lync Server 2013 inclui suporte para (mas não exige) certificados assinados usando o SHA-256 função de hash criptográfico. Para suportar acesso externo usando SHA-256, o certificado externo é emitido por um AC público usando SHA-256.
+Para conexões de clientes que executam o sistema operacional Windows 7, o sistema operacional Windows Server 2008 R2 e o Microsoft Office Communicator 2007 Phone Edition, Lync Server 2013 inclui suporte para (mas não exige) certificados assinados usando a função de hash de criptografia SHA-256. Para suportar acesso externo usando SHA-256, o certificado externo é emitido por um AC público usando SHA-256.
 
 Para obter detalhes sobre os requisitos de certificado, consulte [Certificate Infrastructure Requirements for Lync Server 2013](lync-server-2013-certificate-infrastructure-requirements.md) na documentação de planejamento. Para obter detalhes sobre o uso de caracteres curinga com certificados, confira [suporte a certificados curinga no Lync Server 2013](lync-server-2013-wildcard-certificate-support.md) na documentação de suporte.
 

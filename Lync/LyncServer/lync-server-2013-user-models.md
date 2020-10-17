@@ -12,20 +12,22 @@ ms:contentKeyID: 49733811
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 389d545c18edb4a3c14fc2f0abdf5fb185fcd0ae
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2a5f110e6b2badd5b0651a2ad32860f421fab167
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213047"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508728"
 ---
+# <a name="user-models-in-lync-server-2013"></a>Modelos de usuário no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="user-models-in-lync-server-2013"></a>Modelos de usuário no Lync Server 2013
+
 
 </div>
 
@@ -153,7 +155,7 @@ A tabela a seguir descreve o modelo de usuário para registro, contatos, mensage
 <td><p>Sessões de IM ponto a ponto</p></td>
 <td><p>Cada usuário tem em média seis sessões de IM ponto a ponto por dia.</p>
 <p>10 mensagens instantâneas por sessão.</p>
-<p>Cada mensagem é correspondida com duas mensagens de INFO SIP e 2 mensagens de SIP 200 (para os indicadores de status como&lt;"&gt; nome está digitando")</p></td>
+<p>Cada mensagem é correspondida com duas mensagens de INFO SIP e 2 mensagens de SIP 200 (para os indicadores de status como " &lt; nome &gt; está digitando")</p></td>
 </tr>
 <tr class="even">
 <td><p>Sondagem de presença</p></td>
@@ -234,7 +236,7 @@ A tabela a seguir descreve o modelo de conferência.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Reuniões agendadas &quot;versus reuniões&quot; de reunião agora</p></td>
+<td><p>Reuniões agendadas versus &quot; reuniões de reunião agora &quot;</p></td>
 <td><p>60% agendadas, 40% não agendadas.</p>
 <p>Das reuniões programadas, assumimos que 80% são conferências atribuídas, que são ocorrências de conferências recorrentes; 10% são reuniões abertas uma vez; 8% são reuniões anônimas únicas, e 2% são reuniões fechadas uma vez.</p></td>
 </tr>
@@ -463,7 +465,7 @@ As seguintes pressuposições se aplicam às chamadas do Enterprise Voice:
 
 <div>
 
-## <a name="mobility"></a>Movimentação
+## <a name="mobility"></a>Mobilidade
 
 40% dos usuários registrados são assumidos como habilitados para Mobilidade. Para cada usuário que possui habilidade habilitado, assumimos que a atividade do cliente móvel é aditivo àquelas de outras instâncias MPOP deste usuário, com exceção das interações de conferência, para as quais o cliente de mobilidade é apenas outro tipo de cliente que pode ser usado para participar de conferências.
 

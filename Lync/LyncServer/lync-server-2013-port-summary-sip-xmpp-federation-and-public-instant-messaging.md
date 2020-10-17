@@ -12,20 +12,22 @@ ms:contentKeyID: 49105660
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e8fd24bab9596f12060c87937d98cc2a57d0c887
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7119bfd6209ac9a7d8eb2c4adfddb75c3601116d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183704"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508748"
 ---
+# <a name="port-summary---sip-xmpp-federation-and-public-instant-messaging-in-lync-server-2013"></a>Resumo de porta-SIP, Federação XMPP e mensagens instantâneas públicas no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="port-summary---sip-xmpp-federation-and-public-instant-messaging-in-lync-server-2013"></a>Resumo de porta-SIP, Federação XMPP e mensagens instantâneas públicas no Lync Server 2013
+
 
 </div>
 
@@ -53,7 +55,7 @@ O Windows Live Messenger pode participar de comunicações de áudio/vídeo com 
 
 </div>
 
-As portas e os protocolos definidos para o proxy XMPP (Extensible Messaging and Presence Protocol) implantado no servidor de borda permitem que as comunicações do parceiro federado do XMPP ao servidor de borda, além de permitir a comunicação do servidor de borda com o XMPP parceiro federado. Uma regra também é definida no firewall de face interna do servidor front-end ou do pool de front-ends para o servidor de borda ou o pool de borda.
+As portas e os protocolos definidos para o proxy XMPP (Extensible Messaging and Presence Protocol) implantado no servidor de borda permitem que as comunicações do parceiro federado do XMPP ao servidor de borda, além de permitir a comunicação do servidor de borda com o parceiro federado do XMPP. Uma regra também é definida no firewall de face interna do servidor front-end ou do pool de front-ends para o servidor de borda ou o pool de borda.
 
 <div>
 
@@ -79,7 +81,7 @@ As portas e os protocolos definidos para o proxy XMPP (Extensible Messaging and 
 <tr class="odd">
 <td><p>/TCP/5061 de acesso/SIP (MTLS)</p></td>
 <td><p>Endereço IP público do serviço da Borda de Acesso</p></td>
-<td><p>Qualquer tamanho</p></td>
+<td><p>Qualquer</p></td>
 <td><p>Para conectividade a redes públicas e federadas de IM usando SIP</p></td>
 </tr>
 </tbody>
@@ -168,25 +170,25 @@ As portas e os protocolos definidos para o proxy XMPP (Extensible Messaging and 
 <th>Protocolo/TCP ou UDP/Porta</th>
 <th>Origem (endereço IP)</th>
 <th>Destino (endereço IP)</th>
-<th>Comentários</th>
+<th>Comments</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>XMPP/TCP/5269</p></td>
-<td><p>Qualquer tamanho</p></td>
+<td><p>Qualquer</p></td>
 <td><p>Endereço IP da interface de serviço de borda de acesso</p></td>
 <td><p>Porta padrão de comunicação entre servidores para XMPP. Permite a comunicação com o servidor de borda XMPP proxy de parceiros federados do XMPP</p></td>
 </tr>
 <tr class="even">
 <td><p>XMPP/TCP/5269</p></td>
 <td><p>Endereço IP da interface de serviço de borda de acesso</p></td>
-<td><p>Qualquer tamanho</p></td>
+<td><p>Qualquer</p></td>
 <td><p>Porta padrão de comunicação entre servidores para XMPP. Permite a comunicação do proxy do servidor de borda XMPP com parceiros federados XMPP</p></td>
 </tr>
 <tr class="odd">
 <td><p>XMPP/MTLS/23456</p></td>
-<td><p>Qualquer tamanho</p></td>
+<td><p>Qualquer</p></td>
 <td><p>IP da interface de servidor de borda interna</p></td>
 <td><p>Tráfego XMPP interno do Gateway XMPP no servidor front-end ou no pool de front-ends para o servidor de borda</p></td>
 </tr>

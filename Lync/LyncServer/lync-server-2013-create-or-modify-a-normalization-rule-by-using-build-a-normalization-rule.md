@@ -12,20 +12,22 @@ ms:contentKeyID: 48185889
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 02bbebae55504fcc27550bae3b90d7fca662a487
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 299d4c6d5b8a8cd53cee9fdae0a38769a535b118
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205468"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508838"
 ---
+# <a name="create-or-modify-a-normalization-rule-by-using-build-a-normalization-rule-in-lync-server-2013"></a>Criar ou modificar uma regra de normalização usando a criação de uma regra de normalização no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-a-normalization-rule-by-using-build-a-normalization-rule-in-lync-server-2013"></a>Criar ou modificar uma regra de normalização usando a criação de uma regra de normalização no Lync Server 2013
+
 
 </div>
 
@@ -55,25 +57,25 @@ Complete as etapas a seguir se quiser criar ou modificar uma regra de normaliza�
 
 6.  Em **Compilar uma Regra de Normalização**, digite valores nos campos a seguir:
     
-      - **Dígitos iniciais (**   opcional) especifique os dígitos iniciais dos números discados aos quais você deseja que o padrão corresponda. Por exemplo, digite **425** se quiser que o padrão corresponda aos números discados que comecem com 425.
+      - **Dígitos iniciais**     Opcion Especifique os dígitos à esquerda dos números discados que você deseja que o padrão corresponda. Por exemplo, digite **425** se quiser que o padrão corresponda aos números discados que comecem com 425.
     
-      - **Comprimento**   especifique o número de dígitos no padrão de correspondência e selecione se deseja que o padrão corresponda exatamente a esse tamanho, coincidir números discados com pelo menos esse comprimento ou coincidir números discados de qualquer tamanho.
+      - **Comprimento**     Especifique o número de dígitos no padrão de correspondência e selecione se deseja que o padrão corresponda exatamente a esse tamanho, coincidir números discados com pelo menos esse comprimento ou coincidir números discados de qualquer tamanho.
     
-      - **Dígitos a**   serem removidos (opcional) especifique o número de dígitos iniciais a serem removidos dos números discados que você deseja que o padrão corresponda.
+      - **Dígitos a serem removidos**     Opcion Especifique o número de dígitos iniciais a serem removidos dos números discados que você deseja que o padrão corresponda.
     
-      - **Dígitos a adicionar**   (opcional) especifique os dígitos a serem adicionados aos números discados aos quais você deseja que o padrão corresponda.
+      - **Dígitos a serem adicionados**     Opcion Especifique os dígitos a serem adicionados aos números discados aos quais você deseja que o padrão corresponda.
     
     Os valores inseridos nesses campos são refletidos em **Padrão a ser correspondido** e **Regra de conversão**. Por exemplo, se você deixar **Dígitos iniciais** vazio, digite **7** no campo **Tamanho** e selecione **Exatamente** e especifique **0** em **Dígitos a serem removidos**, a expressão regular resultante em **Padrão a ser correspondido** será:
     
-    **^ (\\d{7}) $**
+    **^ ( \\ d {7} ) $**
 
 7.  Em **Regra de conversão**, especifique um padrão para o formato de números de telefone E.164 convertido da seguinte maneira:
     
-      - Um valor que representa o número de dígitos especificado no padrão de correspondência. Por exemplo, se o padrão de correspondência for **^\\({7}d) $** , **$1** na regra de conversão representa números discados de sete dígitos.
+      - Um valor que representa o número de dígitos especificado no padrão de correspondência. Por exemplo, se o padrão de correspondência for **^ ( \\ d {7} ) $** , **$1** na regra de conversão representa números discados de sete dígitos.
     
       - (Opcional) Digite um valor no campo **Dígitos a adicionar** para especificar os dígitos a serem anexados ao número convertido, (por exemplo **+1425**).
     
-    Por exemplo, se o **padrão a ser correspondido** contiver **^ (\\d{7}) $** como o padrão para números discados e a regra de **conversão** contém **+ 1425 $1** como o padrão para números de telefone e. 164, a regra normaliza 5550100 para + 14255550100.
+    Por exemplo, se o **padrão a ser correspondido** contiver **^ ( \\ d {7} ) $** como o padrão para números discados e a **regra de conversão** contém **+ 1425 $1** como o padrão para números de telefone e. 164, a regra normaliza 5550100 para + 14255550100.
 
 8.  (Opcional) Se a regra de normalização resultar em um número de telefone interno em sua organização, selecione **Extensão interna**.
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 63969662
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 548ec62a56de829955647a696e33578b9ab3dfd8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3ae10fa68703393459a72eaab7236f214502a614
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212578"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508548"
 ---
+# <a name="validating-address-book-web-query-in-lync-server-2013"></a>Validando a consulta da Web do catálogo de endereços no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="validating-address-book-web-query-in-lync-server-2013"></a>Validando a consulta da Web do catálogo de endereços no Lync Server 2013
+
 
 </div>
 
@@ -76,7 +78,7 @@ Para obter mais informações, consulte a documentação de ajuda para o cmdlet 
 
 ## <a name="running-the-test"></a>Executar o teste
 
-O cmdlet Test-CsAddressBookWebQuery pode ser executado usando uma conta de teste pré-configurada (consulte Configurando contas de teste para executar testes do Lync Server) ou a conta de qualquer usuário habilitado para o Lync Server. Para executar essa verificação usando uma conta de teste, basta especificar o FQDN do pool do Lync Server e o endereço SIP do usuário que atua como o destino da pesquisa. Por exemplo:
+O cmdlet Test-CsAddressBookWebQuery pode ser executado usando uma conta de teste pré-configurada (Confira Configurando contas de teste para executar testes do Lync Server) ou a conta de qualquer usuário habilitado para o Lync Server. Para executar essa verificação usando uma conta de teste, basta especificar o FQDN do pool do Lync Server e o endereço SIP do usuário que atua como o destino da pesquisa. Por exemplo:
 
     Test-CsAddressBookWebQuery -TargetFqdn "atl-cs-001.litwareinc.com" -TargetSipAddress "sip:davidlongmire@litwareinc.com"
 
@@ -95,7 +97,7 @@ Para obter mais informações, consulte a documentação de ajuda para o cmdlet 
 
 Se o usuário especificado puder se conectar ao serviço de catálogo de endereços e recuperar o endereço de usuário de destino, você retornará uma saída semelhante a esta com a propriedade Result marcada como êxito:
 
-TargetUrihttps://atl-cs-001.litwareinc.com:443/groupexpansion/service.svc
+TargetUri https://atl-cs-001.litwareinc.com:443/groupexpansion/service.svc
 
 TargetFqdn: atl-cs-001.litwareinc.com
 
@@ -109,7 +111,7 @@ Diagnóstico
 
 Se o usuário especificado não puder se conectar ou se o endereço do usuário de destino não puder ser recuperado, o resultado será mostrado como falha, e informações adicionais serão registradas nas propriedades de erro e diagnóstico:
 
-TargetUrihttps://atl-cs-001.litwareinc.com:443/groupexpansion/service.svc
+TargetUri https://atl-cs-001.litwareinc.com:443/groupexpansion/service.svc
 
 TargetFqdn: atl-cs-001.litwareinc.com
 
@@ -123,7 +125,7 @@ NoEntryFound.
 
 Diagnóstico
 
-A saída anterior indica que o teste falhou porque o usuário de destino não pôde ser encontrado. Você pode determinar se um endereço SIP válido foi passado para Test-CsAddressBookWebQuery executando um comando semelhante ao seguinte:
+A saída anterior indica que o teste falhou porque o usuário de destino não pôde ser encontrado. Você pode determinar se um endereço SIP válido foi ou não passado para Test-CsAddressBookWebQuery executando um comando semelhante ao seguinte:
 
     Get-CsUser | Where-Object {$_.SipAddress -eq "sip:davidlongmire@litwareinc.com"
 
@@ -131,7 +133,7 @@ Se Test-CsAddressBookWebQuery falhar, talvez você queira executar novamente o t
 
     Test-CsAddressBookWebQuery -TargetFqdn "atl-cs-001.litwareinc.com" -TargetSipAddress "sip:davidlongmire@litwareinc.com" -Verbose
 
-Quando o parâmetro Verbose for incluído, o Test-CsAddressBookWebQuery retornará uma conta passo a passo de cada ação tentada durante a verificação da capacidade do usuário especificado de fazer logon no Lync Server. Por exemplo, essa saída indica que Test-CsAddressBookWebQuery foi capaz de se conectar ao serviço de catálogo de endereços, mas não pôde localizar o endereço SIP de destino:
+Quando o parâmetro Verbose é incluído, Test-CsAddressBookWebQuery retornará uma conta passo a passo de cada ação que tentou ao verificar a capacidade do usuário especificado de fazer logon no Lync Server. Por exemplo, essa saída indica que Test-CsAddressBookWebQuery foi capaz de se conectar ao serviço de catálogo de endereços, mas não pôde localizar o endereço SIP de destino:
 
 Atividade ' QueryAddressBookWebService ' iniciada.
 
@@ -147,7 +149,7 @@ Exceção de consulta do catálogo de endereços: a solicitação de serviço We
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Motivos pelos quais o teste pode ter falhado
 
-Aqui estão alguns motivos comuns pelos quais Test-CsAddressBookWebQuery pode falhar:
+Aqui estão alguns motivos comuns para que Test-CsAddressBookWebQuery possa falhar:
 
   - Você especificou uma conta de usuário inválida. Você pode verificar se uma conta de usuário existe executando um comando semelhante a este:
     

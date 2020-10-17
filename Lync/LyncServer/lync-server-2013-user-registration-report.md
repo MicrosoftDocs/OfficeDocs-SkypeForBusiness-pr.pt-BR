@@ -12,20 +12,22 @@ ms:contentKeyID: 48183486
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cd7ff808b766d7366e39595a46d1a2d7dfb75996
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c2b17d36756de3db0418fceb85f49535387bd138
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213037"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48508708"
 ---
+# <a name="user-registration-report-in-lync-server-2013"></a>Relatório de registro de usuário no Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="user-registration-report-in-lync-server-2013"></a>Relatório de registro de usuário no Lync Server 2013
+
 
 </div>
 
@@ -104,7 +106,7 @@ Além de saber o número de logons exclusivos, você precisa saber o número tot
 
     (Get-CsUser).Count
 
-Se o comando anterior retornar um valor de 1.236 e a métrica de usuários de logon exclusivos retornar um valor médio de 667, isso indica que uma pequena parte dos seus usuários permite que o Lync esteja realmente fazendo logon no sistema por dia (ou seja, 667 dividido por 1.236 , que é de aproximadamente 54%).
+Se o comando anterior retornar um valor de 1.236 e a métrica de usuários de logon exclusivos retornar um valor médio de 667, isso indica que uma pequena parte dos seus usuários permite que o Lync faça logon no sistema por dia (ou seja, 667 dividido por 1.236, que é aproximadamente 54%).
 
 <div>
 
@@ -147,12 +149,12 @@ A tabela a seguir lista os filtros que você pode usar com o Relatório de regis
 <tr class="odd">
 <td><p><strong>De</strong></p></td>
 <td><p>Data e hora de início para o intervalo de tempo. Para ver os dados por hora, digite a data e hora de início no seguinte formato:</p>
-<p>7/7/2012 13:00 horas</p>
+<p>07/07/2012 13:00</p>
 <p>Se você não inserir uma hora inicial, o relatório começa automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:</p>
 <p>7/7/2012</p>
 <p>Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):</p>
 <p>7/3/2012</p>
-<p>As semanas sempre são de Domingo a Sábado.</p></td>
+<p>As semanas são sempre de domingo a sábado.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>To</strong></p></td>
@@ -187,7 +189,7 @@ A tabela a seguir lista os filtros que você pode usar com o Relatório de regis
 
 <div>
 
-## <a name="metrics"></a>Métricas
+## <a name="metrics"></a>Métrica
 
 A tabela a seguir lista as informações fornecidas no Relatório de registro do usuário.
 
